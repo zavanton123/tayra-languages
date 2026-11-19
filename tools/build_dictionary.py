@@ -76,6 +76,7 @@ SOURCES = {
     # wiktionary-to-yomitan has no Breton dictionary, so Breton is built from kaikki.org here.
     "br": ("Breton", "breton", "dictionaries/kaikki.org-dictionary-Breton.jsonl.gz"),
     "ms": ("Malay", "malay", "dictionaries/kaikki.org-dictionary-Malay.jsonl.gz"),
+    "bn": ("Bengali", None, "dictionaries/kaikki.org-dictionary-Bengali.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -123,7 +124,7 @@ WORD_RE = re.compile(r"^[^\W\d_](?:[^\W\d_]|['\-])*$")
 VOWELS = set("aeiou")
 
 
-def is_clean_form(form, lemma):
+def is_clean_form(form, lemma, source=None):
     """
     Accepts plain words, or phrases only for phrase lemmas: the app looks up single tokens, so
     compound forms such as "würde gehen" would never match. The dumps also mark unattested
@@ -133,7 +134,8 @@ def is_clean_form(form, lemma):
         return False
     if " " in form and " " not in lemma:
         return False
-    return all(WORD_RE.match(part) for part in form.split())
+    word_re = BENGALI_WORD_RE if source == "bn" else WORD_RE
+    return all(word_re.match(part) for part in form.split())
 
 
 # Umlauts, ß and accents change under inflection ("Haus", "Häuser"; "acheter", "achète";
@@ -237,8 +239,26 @@ def clean_serbian_cyrillic(word):
     return stripped
 
 
+# Bengali words are letters and vowel signs (which \w leaves out), as the reader reads them: no digits, no hyphen.
+BENGALI_LETTERS = "\u0980-\u09e5\u09f0\u09f1\u200c\u200d"
+BENGALI_WORD_RE = re.compile(f"^[{BENGALI_LETTERS}]+$")
+BENGALI_RUN = re.compile(f"[{BENGALI_LETTERS}]+")
+
+
+def clean_bengali(word):
+    """
+    A Bengali spelling in NFC, as texts and the reader have it (য় as য + nukta). The dump's table cells carry their
+    romanisation and notes ("বইটি (boiṭa (colloquial), boiṭi (formal))", "বইকে  / boike"): of such a cell, the word it starts with.
+    """
+    word = unicodedata.normalize("NFC", word).strip()
+    if re.search(r"[A-Za-z(/,]", word):
+        run = BENGALI_RUN.match(word)
+        return run.group(0) if run else ""
+    return word
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
+CLEANERS = {"bn": clean_bengali, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
 
 
 def lowercase(word, source):
@@ -552,7 +572,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 tags = s.get("tags", [])
                 targets = [cleaner(x["word"]) for x in s.get("form_of", []) + s.get("alt_of", []) if x.get("word")]
                 for lemma in targets:
-                    if is_clean_form(word, lemma) and not (latin_only and foreign(lemma)):
+                    if is_clean_form(word, lemma, source) and not (latin_only and foreign(lemma)):
                         form_rows.append((lowercase(word, source), lemma))
                         pointer_count += 1
                 if targets or "form-of" in tags or "alt-of" in tags:
@@ -582,7 +602,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 if skipped_form(x, skip_tags):
                     continue
                 form = cleaner(x.get("form", "").strip())
-                if not is_clean_form(form, word) or (latin_only and foreign(form)):
+                if not is_clean_form(form, word, source) or (latin_only and foreign(form)):
                     continue
                 form_rows.append((lowercase(form, source), word))
                 pos_inflected.add((pos, word))
