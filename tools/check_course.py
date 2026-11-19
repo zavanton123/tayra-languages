@@ -2657,6 +2657,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
+        "கேள்விகள்:",
     )
 }
 
