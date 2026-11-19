@@ -69,6 +69,7 @@ LANGUAGES = [
     "it", "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr",
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
+    "az",
     "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "sw", "kk",
 ]
 
@@ -91,6 +92,7 @@ FALLBACKS = {
     "yi": {"leipzig": ["yid_wikipedia_2021_30K"]},
     "arz": {"leipzig": ["arz_wikipedia_2021_100K"]},
     "kn": {"leipzig": ["kan_wikipedia_2021_300K"]},
+    "az": {"leipzig": ["aze_newscrawl_2013_1M"], "wikipedia_sentences": ["aze_wikipedia_2021_1M"]},
     "th": {"leipzig": ["tha_news_2020_30K", "tha_wikipedia_2021_10K"]},
     "ga": {"leipzig": ["gle_wikipedia_2021_30K"]},
     "gv": {"leipzig": ["glv_wikipedia_2021_10K"]},
@@ -220,6 +222,11 @@ SOURCE_ORDER["ms"] = ["wordfreq", "frequencywords", "leipzig"]
 SOURCE_ORDER["kk"] = ["leipzig", "wikipedia_sentences", "frequencywords"]
 BLEND.add("kk")
 SOURCE_WEIGHTS["kk"] = {"leipzig": 0.7, "wikipedia_sentences": 0.2, "frequencywords": 0.1}
+# Azerbaijani has neither wordfreq nor FrequencyWords: it is counted from Leipzig's news and OPUS's subtitles, half and half.
+SOURCE_ORDER["az"] = ["leipzig", "subtitles", "wikipedia_sentences"]
+BLEND.add("az")
+SOURCE_WEIGHTS["az"] = {"leipzig": 0.45, "subtitles": 0.45, "wikipedia_sentences": 0.1}
+SOURCE_FORMS["az"] = 2_000_000
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -247,6 +254,7 @@ SOURCE_LICENCES = {
     "everyday": "Tatoeba CC BY 2.0 FR, Common Voice CC0 1.0",
     "everyday_mixed": "CC0 1.0",
     "opensubtitles": "terms at https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
+    "subtitles": "OpenSubtitles via OPUS",
 }
 # A source's licence where a language takes only some of it: Armenian's everyday sentences are Tatoeba's alone.
 SOURCE_LICENCES[("hy", "everyday")] = "Tatoeba CC BY 2.0 FR"
@@ -3128,8 +3136,8 @@ def eszett_spellings(form):
 
 
 def lower(language, text):
-    """Lowercase as the language does: Turkish dotted and dotless i keep apart."""
-    if language == "tr":
+    """Lowercase as the language does: Turkish and Azerbaijani dotted and dotless i keep apart."""
+    if language in ("tr", "az"):
         text = text.replace("I", "ı").replace("İ", "i")
     return text.lower()
 
@@ -3767,11 +3775,47 @@ def everyday_counts(language, limit, sources=None):
     return dict(top), " and ".join(used)
 
 
+AZERBAIJANI_SUBTITLES = "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/mono/az.txt.gz"
+# A word as the reader takes it: letters, and an apostrophe between them (Qur'an); a hyphen parts words (ola-ola).
+AZERBAIJANI_WORD = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)*")
+
+
+def azerbaijani_subtitle_counts(language, limit):
+    """
+    The word counts of OPUS's Azerbaijani subtitles (OpenSubtitles v2024; FrequencyWords has none), or None. Two lines in
+    five are in the Arabic alphabet (South Azerbaijani, as written in Iran) and left out. A word written only with a
+    capital, and with one inside a line (Tim, Bakı), is a name and left out too; a line's first word counts as lowercase.
+    """
+    if language != "az":
+        return None
+    path = download(AZERBAIJANI_SUBTITLES, "opus-opensubtitles-v2024-az.txt.gz")
+    if path is None:
+        return None
+    import gzip
+    words, capital, plain = defaultdict(int), set(), set()
+    with gzip.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if any("\u0600" <= c <= "\u06ff" for c in line):
+                continue
+            for i, word in enumerate(AZERBAIJANI_WORD.findall(line.replace("’", "'"))):
+                key = lower(language, word)
+                words[key] += 1
+                if word[0] != key[0]:
+                    if i:
+                        capital.add(key)
+                else:
+                    plain.add(key)
+    counts = {w: n for w, n in words.items() if not (w in capital and w not in plain)}
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), "OPUS OpenSubtitles v2024 az"
+
+
 SOURCES = {"wordfreq": wordfreq_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
            "everyday": everyday_counts, "everyday_mixed": lambda language, limit: everyday_counts(language, limit, EVERYDAY_MIXED.get(language)),
            "wikipedia_sentences": lambda language, limit: leipzig_counts(language, limit, "wikipedia_sentences"),
            "maltese": maltese_counts, "maltese_web": lambda language, limit: maltese_counts(language, limit, "maltese_web"),
-           "maltese_wikipedia": lambda language, limit: maltese_counts(language, limit, "maltese_wikipedia")}
+           "maltese_wikipedia": lambda language, limit: maltese_counts(language, limit, "maltese_wikipedia"),
+           "subtitles": azerbaijani_subtitle_counts}
 
 
 class Lemmatizer:
@@ -4429,6 +4473,18 @@ GEORGIAN_HYPHEN_ENDINGS = {"ე", "ი", "ს", "მ", "მა", "ის", "ი�
                            "ია", "ა", "ლი", "იან", "იანი", "იანები", "იანებში", "იანების", "იანებიდან", "იანებამდე", "იანელი"}
 
 
+# Azerbaijani. The pack has entries for some verb forms and copular forms whose only sense names their word (verir "third-person
+# singular present simple of vermək", yoxdur "third-person present copular of yox"): they are forms of it, no words of their own.
+AZERBAIJANI_FORM_GLOSS = re.compile(
+    r"^(?:negative )?(?:(?:first|second|third)-person )?(?:(?:singular|plural) )?"
+    r"(?:present simple|past simple|second present perfect|present copular|converb|"
+    r"(?:nominative|accusative|dative|locative|ablative|genitive|instrumental) (?:singular|plural) (?:first|second|third)-person "
+    r"(?:single|multiple)-possession) of ([^\W\d_]+)$")
+AZERBAIJANI_PRONOUNS = {"mən", "sən", "o", "biz", "siz", "onlar"}
+AZERBAIJANI_OWN = set()
+AZERBAIJANI_FORMS_OF = {}
+
+
 def georgian_preverb(word):
     found = GEORGIAN_PREVERB.match(word)
     return found.group() if found else ""
@@ -4535,6 +4591,16 @@ def load_dictionary(language):
                     GEORGIAN_FORMS_OF.setdefault(word_lc, set()).update(lower(language, f.group(1)) for f in named)
                 else:
                     GEORGIAN_OWN.add(word_lc)
+        # Azerbaijani's postpositions (ilə, kimi, üçün) are its prepositions, no forms of il and kim.
+        if language == "az" and p == "postp":
+            p = "prep"
+        if language == "az" and p in WORD_POS:
+            for gloss in (g for s in json.loads(senses) for g in s.get("glosses", [])):
+                form_of = AZERBAIJANI_FORM_GLOSS.match(gloss)
+                if form_of and lower(language, form_of.group(1)) != word_lc:
+                    AZERBAIJANI_FORMS_OF.setdefault(word_lc, set()).add(lower(language, form_of.group(1)))
+                else:
+                    AZERBAIJANI_OWN.add(word_lc)
         # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
         if language in ("hi", "mn", "kk") and p == "postp":
             p = "prep"
@@ -4670,6 +4736,19 @@ def load_dictionary(language):
             if len(set(of)) > 1:
                 best = max(weight(lemma) for lemma in of)
                 lemmas[form_lc] = [lemma for lemma in of if weight(lemma) == best]
+    if language == "az":
+        for word, of in AZERBAIJANI_FORMS_OF.items():
+            if word not in AZERBAIJANI_OWN:
+                common.pop(word, None)
+                lemmas[word] = list(dict.fromkeys(lemmas.get(word, []) + sorted(of)))
+        # A rare noun spelled as a personal pronoun's form (məni "sperm", sənə "year") is that form, and has no forms.
+        homographs = {form for form, of in lemmas.items() if set(of) & AZERBAIJANI_PRONOUNS and pos.get(form) == {"noun"}}
+        for word in homographs:
+            common.pop(word, None)
+            pos.pop(word, None)
+        for form, of in lemmas.items():
+            if set(of) & homographs:
+                lemmas[form] = [lemma for lemma in of if lemma not in homographs]
     if language == "ka":
         for word in GEORGIAN_OWN:
             GEORGIAN_FORMS_OF.pop(word, None)
@@ -5669,11 +5748,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 guessed.setdefault(verb, verb)
 
     # How common a Korean word is with its forms that are no other word's: a verb's dictionary form is
-    # rare in text, so a form of several verbs (가는, of 가다 and 갈다) is shared by this.
+    # rare in text, so a form of several verbs (가는, of 가다 and 갈다) is shared by this. So is an Azerbaijani one: a verb's
+    # -maq/-mək is rare beside its present (gəlir "comes", spelled as gəlir "income").
     mass = {}
 
     def weight(word):
-        if language != "ko":
+        if language not in ("ko", "az"):
             return count(word)
         if not mass:
             for form, share in freq.items():
@@ -6451,7 +6531,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             others = stem_of
         # A form whose only entry is an interjection ("foi", "nossa") is counted for the word it is a form of.
         # Japanese files a set phrase under its variants (ありがとう under ありがと), so there it counts for itself.
-        elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language not in ("ja", "ar")
+        elif is_word(form) and form not in overrides and not (others and pos[form] & WORD_POS <= {"intj"} and language not in ("ja", "ar", "az")
                                                               and not (language in FINNIC_OWN_SENSES and FINNISH_KINDS.get(form)
                                                                        and not any(FINNISH_PLAIN.get(l) for l in others))):
             # A form that is a word itself keeps its count ("casa", not "casar") unless [TAKEOVER] says otherwise.
@@ -6465,6 +6545,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 shares = romanian_shares(form, others)
                 if shares:
                     return shares
+            # An Azerbaijani adverb, conjunction or interjection spelled as a verb's form keeps its count (deyəsən "apparently",
+            # baxmayaraq "despite", salam); a noun or adjective so spelled goes by weight, or by OVERRIDES (gül, yataq).
+            if language == "az" and pos[form] & WORD_POS and not pos[form] & {"noun", "adj", "verb"} and \
+                    all("verb" in pos.get(l, set()) for l in others):
+                return {form: 1.0}
             if language == "sq" and albanian_apart(form, others):
                 return {form: 1.0}
             if language == "is":
