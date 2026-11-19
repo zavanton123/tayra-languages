@@ -243,7 +243,7 @@ object AddedLanguages {
             wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſĊċĠġĦħŻż'",
             rightToLeft = false,
             showRomanization = false,
-            parserType = "spacedel",
+            parserType = "maltese",
         ),
     )
 

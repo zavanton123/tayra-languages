@@ -1,0 +1,2 @@
+-- Maltese is read with its own parser, which cuts a word cut short before another off it (f'Malta is f' + Malta).
+UPDATE languages SET parser_type = 'maltese' WHERE name = 'Maltese' AND parser_type = 'spacedel';
