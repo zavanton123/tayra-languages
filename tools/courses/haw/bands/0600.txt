@@ -1,97 +1,97 @@
-1	501	hapanui	
-2	502	haʻahaʻa	
-3	503	kupanaha	
-4	504	maopopo	
-5	505	lewa	
-6	506	hoʻohālikelike	
-7	507	hoʻopilikia	
-8	508	kapuaʻi	
-9	509	ʻekahi	
-10	510	haʻuki	
-11	511	hulu	huluhulu
-12	512	kinipōpō	
-13	513	ʻoia	oia
-14	514	paena	
-15	515	hoʻoilina	
-16	516	kauka	
-17	517	kikohoʻe	
-18	518	pōʻalima	
-19	519	pōʻakahi	
-20	520	lāpule	
-21	521	pōʻahā	
-22	522	pōʻalua	
-23	523	pōʻakolu	
-24	524	pōʻaono	
-25	525	kumumea	
-26	526	kūkā	
-27	527	lako	
-28	528	kahakiʻi	
-29	529	hoʻoweliweli	
-30	530	ʻelele	ʻalele
-31	531	haole	
-32	532	laʻana	
-33	533	hoʻoilo	
-34	534	kāʻeʻaʻeʻa	
-35	535	pēlā	pela
-36	536	ʻoluʻolu	
-37	537	hoʻāla	
-38	538	pōʻino	
-39	539	ʻāinapuniʻole	
-40	540	hoʻouka	
-41	541	hihiu	
-42	542	mākeke	
-43	543	paʻahao	
-44	544	hoʻolauleʻa	
-45	545	pīpeku	
-46	546	aiʻole	
-47	547	kākou	katou kātou
-48	548	kauoha	
-49	549	kemikala	
-50	550	lau	
-51	551	hoʻopakele	
-52	552	kauwela	
-53	553	akeakamai	
-54	554	maluhia	
-55	555	pololei	
-56	556	hoʻopaʻapaʻa	
-57	557	ʻeha	
-58	558	paipai	
-59	559	moʻokalaleo	
-60	560	ululāʻau	
-61	561	ōlaʻi	olai
-62	562	kuea	
-63	563	pelamika	
-64	564	laepua	
-65	565	holomua	
-66	566	hāpai	
-67	567	ʻalea	
-68	568	awa	
-69	569	pipi	
-70	570	niho	
-71	571	kuke	
-72	572	alahele	
-73	573	hoʻolauna	
-74	574	mahana	mehana
-75	575	ʻoiaʻiʻo	
-76	576	ʻaihue	aihue
-77	577	mahiʻai	
-78	578	mokuna	
-79	579	haneli	hanele haneri
-80	580	hoʻolilo	
-81	581	hoʻohenehene	
-82	582	kupaianaha	
-83	583	kuʻu	
-84	584	heʻe	
-85	585	mākaukau	
-86	586	kūpaʻa	
-87	587	waha	
-88	588	pōʻai	
-89	589	kuhi	
-90	590	kumukānāwai	
-91	591	laikini	
-92	592	heluhelu	
-93	593	puʻuwai	
-94	594	kala	hoʻokala
+1	501	iki	
+2	502	hapanui	
+3	503	haʻahaʻa	
+4	504	kupanaha	
+5	505	maopopo	
+6	506	lewa	
+7	507	hoʻohālikelike	
+8	508	hoʻopilikia	
+9	509	kapuaʻi	
+10	510	ʻekahi	
+11	511	haʻuki	
+12	512	hulu	huluhulu
+13	513	kinipōpō	
+14	514	ʻoia	oia
+15	515	paena	
+16	516	hoʻoilina	
+17	517	kauka	
+18	518	kikohoʻe	
+19	519	pōʻalima	
+20	520	pōʻakahi	
+21	521	lāpule	
+22	522	pōʻahā	
+23	523	pōʻalua	
+24	524	pōʻakolu	
+25	525	pōʻaono	
+26	526	kumumea	
+27	527	kūkā	
+28	528	lako	
+29	529	kahakiʻi	
+30	530	hoʻoweliweli	
+31	531	ʻelele	ʻalele
+32	532	haole	
+33	533	laʻana	
+34	534	hoʻoilo	
+35	535	kāʻeʻaʻeʻa	
+36	536	pēlā	pela
+37	537	ʻoluʻolu	
+38	538	hoʻāla	
+39	539	pōʻino	
+40	540	ʻāinapuniʻole	
+41	541	hoʻouka	
+42	542	hihiu	
+43	543	mākeke	
+44	544	paʻahao	
+45	545	hoʻolauleʻa	
+46	546	pīpeku	
+47	547	aiʻole	
+48	548	kākou	katou kātou
+49	549	kauoha	
+50	550	kemikala	
+51	551	lau	
+52	552	hoʻopakele	
+53	553	kauwela	
+54	554	akeakamai	
+55	555	maluhia	
+56	556	pololei	
+57	557	hoʻopaʻapaʻa	
+58	558	ʻeha	
+59	559	paipai	
+60	560	moʻokalaleo	
+61	561	ululāʻau	
+62	562	ōlaʻi	olai
+63	563	kuea	
+64	564	pelamika	
+65	565	laepua	
+66	566	holomua	
+67	567	hāpai	
+68	568	ʻalea	
+69	569	awa	
+70	570	pipi	
+71	571	niho	
+72	572	kuke	
+73	573	alahele	
+74	574	hoʻolauna	
+75	575	mahana	mehana
+76	576	ʻoiaʻiʻo	
+77	577	ʻaihue	aihue
+78	578	mahiʻai	
+79	579	mokuna	
+80	580	haneli	hanele haneri
+81	581	hoʻolilo	
+82	582	hoʻohenehene	
+83	583	kupaianaha	
+84	584	kuʻu	
+85	585	heʻe	
+86	586	mākaukau	
+87	587	kūpaʻa	
+88	588	waha	
+89	589	pōʻai	
+90	590	kuhi	
+91	591	kumukānāwai	
+92	592	laikini	
+93	593	heluhelu	
+94	594	puʻuwai	
 95	595	pākaukau	
 96	596	nū	
 97	597	nohona	

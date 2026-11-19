@@ -70,18 +70,18 @@
 70	370	noi	
 71	371	lumi	
 72	372	kamaʻilio	
-73	373	piʻi	pipiʻi
-74	374	lole	
-75	375	hoʻoulu	
-76	376	wela	
-77	377	pena	
-78	378	hoʻomalu	
-79	379	lele	
-80	380	ʻaʻohe	
-81	381	puni	
-82	382	kuhikuhi	
-83	383	lapaʻau	lāpaʻau
-84	384	nona	
+73	373	lole	
+74	374	hoʻoulu	
+75	375	wela	
+76	376	pena	
+77	377	hoʻomalu	
+78	378	lele	
+79	379	ʻaʻohe	
+80	380	puni	
+81	381	kuhikuhi	
+82	382	lapaʻau	lāpaʻau
+83	383	nona	
+84	384	piʻi	
 85	385	hoʻōla	
 86	386	ʻōiwi	
 87	387	ʻuhane	uhane

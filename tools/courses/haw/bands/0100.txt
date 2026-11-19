@@ -20,7 +20,7 @@
 20	20	mau	
 21	21	kona	
 22	22	kekahi	
-23	23	ʻano	
+23	23	ʻano	ano
 24	24	hui	
 25	25	kahi	
 26	26	ana	
@@ -80,8 +80,8 @@
 80	80	mālama	
 81	81	alakaʻi	
 82	82	aku	
-83	83	ʻē	ē
-84	84	kumu	
+83	83	kumu	tumu
+84	84	ʻē	ē
 85	85	puke	
 86	86	hoʻi	
 87	87	lāua	
