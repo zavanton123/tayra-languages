@@ -2350,7 +2350,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
-        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:",
+        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
     )
 }
 
@@ -2830,6 +2830,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^wile sona:", "", text)
         if code == "mn":
             text = re.sub(r"(?m)^Асуултууд:", "", text)
+        if code == "lv":
+            text = re.sub(r"(?m)^Jautājumi:", "", text)
         if code == "hy":
             text = re.sub(r"(?m)^Հարցեր[:։․]", "", text)
             # A number's ending written after a hyphen (ժամը 7-ին, 5-րդ, 1990-ական) is part of the number.
