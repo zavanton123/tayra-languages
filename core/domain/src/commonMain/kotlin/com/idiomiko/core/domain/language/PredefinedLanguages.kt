@@ -23,7 +23,7 @@ object PredefinedLanguages {
             characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
             regexpSplitSentences = ".!?",
             exceptionsSplitSentences = "a.g.v.|afk.|Afr.|asb.|bv.|i.p.v.|mev.|mnr.|Mev.|Mnr.",
-            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳ'",
+            wordCharacters = "a-zA-ZÉËÏÓÖÜéëïóöüÊêÔô'",
             rightToLeft = false,
             showRomanization = true,
             parserType = "spacedel",

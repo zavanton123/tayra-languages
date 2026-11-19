@@ -10,6 +10,26 @@ import com.idiomiko.core.domain.model.LanguageDictionary
 @Suppress("LargeClass", "MaxLineLength")
 object AddedLanguages {
 
+    private fun afrikaans() = LanguageDefinition(
+        language = Language(
+            name = "Afrikaans",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://en.glosbe.com/af/en/[WORD]", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Afrikaans", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://af.wiktionary.org/wiki/[WORD]#Afrikaans_(af)", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?hl=en&sl=af&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.verbix.com/webverbix/go.php?&D1=67&T1=[WORD]", isActive = true, sortOrder = 5),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "a.g.v.|afk.|Afr.|asb.|bv.|i.p.v.|mev.|mnr.|Mev.|Mnr.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳ'",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun ancientGreek() = LanguageDefinition(
         language = Language(
             name = "Ancient Greek",
@@ -394,6 +414,7 @@ object AddedLanguages {
 
     val all: List<LanguageDefinition> by lazy {
         listOf(
+            afrikaans(),
             ancientGreek(),
             arabic(),
             assyrian(),
