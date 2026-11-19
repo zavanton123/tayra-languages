@@ -33,6 +33,7 @@ import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
+import frequency_telugu  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -56,6 +57,8 @@ BENGALI_WORD = re.compile(r"[\u0980-\u09ff]+")
 # The endings a Bengali name takes (রিনার, রিনাকে, ঢাকায়, রাফিদের), and the clitics -ই and -ও after them.
 BENGALI_NAME_ENDINGS = sorted({e + c for e in frequency_bengali.CONSONANT_TAILS + frequency_bengali.VOWEL_TAILS + ["য়ে"]
                                for c in ("", "ই", "ও")} | {"ই", "ও"}, key=len, reverse=True)
+# Telugu words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Telugu block and the joiners.
+TELUGU_WORD = re.compile(r"[\u0c00-\u0c7f\u200c\u200d]+")
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 # An Urdu word: a run of the reader's word characters for Urdu (AddedLanguages), as the text is folded (frequency_urdu).
 URDU_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06ef\u06fa-\u06ff\ufb50-\ufdff\ufe70-\ufefc]+")
@@ -721,6 +724,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return TAMIL_WORD.findall(text)
     if code == "bn":
         return BENGALI_WORD.findall(text)
+    if code == "te":
+        return TELUGU_WORD.findall(text)
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -2668,7 +2673,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:",
     )
 }
 
@@ -3192,6 +3197,8 @@ def check(path, brief=False):
             text = re.sub(r"[০-৯0-9]+(?:-?[\u0980-\u09ff]+)?", " ", text)
         if code == "sw":
             text = re.sub(r"(?m)^Maswali:", "", text)
+        if code == "te":
+            text = re.sub(r"(?m)^ప్రశ్నలు:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3297,6 +3304,10 @@ def check(path, brief=False):
         # the list lacks is read by the rules the list was built with (frequency_swahili).
         if code == "sw":
             lowered = [w if w in ranks or w in names else frequency_swahili.checker_word(w, ranks) or w for w in lowered]
+        # Telugu joins its endings and clitics on as Kannada does (చేస్తున్నాను, ఇంటికి, అదే, రాముడికి): read by the rules the list
+        # was built with (frequency_telugu).
+        if code == "te":
+            lowered = [w if w in ranks or w in names else frequency_telugu.checker_word(w, words, ranks, names) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
