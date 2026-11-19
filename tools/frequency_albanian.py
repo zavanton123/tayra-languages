@@ -103,6 +103,8 @@ EXCLUDE = {
     "ŋa", "umb", "um", "pro", "pron", "proj", "ska", "silli", "gjera", "gjerat", "gjerave", "gjerash", "boj", "çë",
     # Names and English (Dan, Dave, John, he), and be, mostly the news' BE (the EU).
     "dan", "dave", "dani", "dante", "xhon", "he", "be", "kame",
+    # The days written with their article, which are hënë, premte, shtunë and mërkurë again.
+    "e hënë", "e premte", "e shtunë", "e mërkurë",
 }
 
 # Words the pack files under their mediopassive or feminine (bashkoj under bashkohem, gjerman under gjermane), shown as
