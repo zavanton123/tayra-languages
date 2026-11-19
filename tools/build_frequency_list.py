@@ -263,6 +263,7 @@ OVERRIDES["kw"] = frequency_cornish.CORNISH_OVERRIDES
 EXCLUDE["kw"] = frequency_cornish.CORNISH_EXCLUDE
 OVERRIDES["mn"] = frequency_mongolian.MONGOLIAN_OVERRIDES
 EXCLUDE["mn"] = frequency_mongolian.MONGOLIAN_EXCLUDE
+EXCLUDE["km"] = frequency_km.KHMER_EXCLUDE
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
 
@@ -4533,6 +4534,10 @@ def load_dictionary(language):
                     LATVIAN_MADE_OF.setdefault(word_lc, set()).add(lower(language, made_of.group(1)))
                 else:
                     LATVIAN_OWN.add(word_lc)
+        # Khmer's classifiers, which the pack files under no part of speech (នាក់, ក្បាល), and its set phrases, which the
+        # reader reads as one word, the pack having them (មិនអីទេ, លាហើយ), are its words.
+        if language == "km" and p in ("unknown", "phrase"):
+            p = "noun" if p == "unknown" else "intj"
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter") and not (language == "hy" and p in ARMENIAN_POS):
             continue
@@ -6108,7 +6113,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # Korean has words written with Chinese characters too (眞짜 for 진짜), which texts write in Hangul.
         if language == "ko" and not KOREAN_LETTERS.fullmatch(w):
             return False
-        # Single letters are kept only as the little words they can be ("a", "e", "o"; Mongolian's particle л).
+        # Single letters are kept only as the little words they can be ("a", "e", "o"; Mongolian's particle л); a Khmer
+        # independent vowel can be any word (ឮ "to hear", ឪ "father"), as the reader reads it, but not a Khmer consonant alone.
+        if language == "km" and len(w) == 1:
+            return not "\u1780" <= w <= "\u17a2"
         return len(w) > 1 or language in ("ja", "ko") or bool(kinds & {"prep", "conj", "article", "pron", "det"}) or (
             language == "mn" and "particle" in kinds)
 

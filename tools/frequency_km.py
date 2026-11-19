@@ -10,7 +10,13 @@ KHMER_SPELLINGS = {
     "អោយ": "ឲ្យ",
     "ម៉េច": "ម្ដេច",
     "ចឹង": "អ៊ីចឹង",
+    # លឺ for ឮ "to hear", as the subtitles mostly write it: the pack's លឺ, a Sino-Khmer "you", is rare.
+    "លឺ": "ឮ",
 }
 
 # Spellings with ម្ before a consonant where the pack has ំ (ចម្រើន, ចំរើន), or ំ where it has ម្ (កំលាំង, កម្លាំង), are
 # found by build_khmer itself (KHMER_NASAL_SWAP_MIN): the texts write a word in either, the newer spelling mostly with ម្.
+
+# Pieces of the texts' loanwords and names the cut leaves where no word of the pack covers them (វី of វីដេអូ, ដា of កាណាដា,
+# ឡាយ, គី, ឡូ), which the pack has only as rare words ("to spread out", "rock"): they are no words of the texts.
+KHMER_EXCLUDE = {"ត្រ", "វី", "រា", "លប់", "ដា", "សេ", "បេ", "ឡាយ", "លី", "គី", "ឡូ", "ស្រ", "ធី", "រេ"}
