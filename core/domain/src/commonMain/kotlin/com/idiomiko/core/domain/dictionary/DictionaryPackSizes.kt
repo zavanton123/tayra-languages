@@ -39,7 +39,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "ru-es" to 162_762L, "ru-fr" to 9_544_185L, "ru-pt" to 730_030L, "sk-de" to 174_540L, "sk-en" to 2_736_821L,
         "sk-fr" to 684_726L, "sk-pt" to 115_718L, "sk-ru" to 679_872L, "sl-de" to 137_814L, "sl-en" to 1_048_789L,
         "sl-fr" to 2_067_423L, "sl-pt" to 104_014L, "sl-ru" to 564_381L, "sr-en" to 13_210_678L, "sr-fr" to 276_940L,
-        "sr-pt" to 168_230L, "sr-ru" to 2_423_313L, "sv-de" to 1_702_874L, "sv-en" to 10_210_582L, "sv-es" to 360_183L,
+        "sr-pt" to 168_230L, "sr-ru" to 2_423_313L, "sv-de" to 1_702_874L, "sv-en" to 10_210_582L, "sv-es" to 360_183L, "sw-en" to 1_414_493L,
         "sv-fr" to 2_964_954L, "sv-pt" to 228_600L, "sv-ru" to 1_498_183L, "tr-de" to 589_913L, "tr-en" to 45_067_391L,
         "tr-fr" to 5_941_293L, "tr-pt" to 873_428L, "tr-ru" to 24_735_755L, "uk-de" to 608_965L, "uk-en" to 9_092_589L,
         "uk-fr" to 3_791_066L, "uk-pt" to 119_133L, "uk-ru" to 4_771_558L,
