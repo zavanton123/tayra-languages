@@ -1231,6 +1231,12 @@ _OVERRIDES_D = {
         "ievērojamais": ["ievērojams"], "ievērojamākais": ["ievērojams"], "ievērojamāko": ["ievērojams"],
         # augs "plant", whose spelling the pack gives only to augt's future.
         "augs": ["augs"], "augi": ["augs"], "augiem": ["augs"], "augus": ["augs"], "augos": ["augs"], "augā": ["augs"],
+        # ceļot "to travel", whose spelling the pack gives to celt's participle too, which took all its forms.
+        "ceļot": ["ceļot"], "ceļo": ["ceļot"], "ceļoju": ["ceļot"], "ceļoja": ["ceļot"], "ceļojot": ["ceļot"],
+        "ceļojis": ["ceļot"], "ceļotu": ["ceļot"], "ceļošana": ["ceļot"], "jāceļo": ["ceļot"], "ceļojam": ["ceļot"],
+        "ceļojām": ["ceļot"], "ceļosim": ["ceļot"], "ceļoji": ["ceļot"], "ceļojāt": ["ceļot"], "ceļodams": ["ceļot"],
+        "ceļošu": ["ceļot"], "ceļojat": ["ceļot"], "ceļojiet": ["ceļot"], "ceļojusi": ["ceļot"], "ceļojuši": ["ceļot"],
+        "ceļošanu": ["ceļot"], "ceļošanas": ["ceļot"], "ceļošanai": ["ceļot"], "ceļošanā": ["ceļot"],
     },
     # Estonian: pronoun case forms (mu, mind, mul, sind, teda, neid...) are tied to more than 6 words in
     # the dictionary and were dropped; ma/sa/ta/me/te/nad were separate from mina/sina/tema/meie/teie/nemad;

@@ -143,8 +143,8 @@ SOURCE_ORDER["lt"] = ["wordfreq", "frequencywords", "leipzig"]
 # Latvian is counted from web text, subtitles, news and web pages (Leipzig's news of 2020 and 2016 and its web crawl, 2.3
 # million sentences), which bring its rarer words in: its Wikipedia would add its pages' words (iedzīvotājs, novads).
 SOURCE_ORDER["lv"] = ["wordfreq", "frequencywords", "leipzig"]
-# Of each source, the forms counted (by default the commonest 200,000): all of Latvian's, as its words have many forms
-# each and its rarer words' are spread thin.
+# Of each source, the forms counted (by default the commonest 200,000): all of Latvian's (its Leipzig corpora have 1.1
+# million), as its words have many forms each and its rarer words' are spread thin.
 SOURCE_FORMS = {"lv": 2_000_000}
 # Irish has only Wikipedia (its articles, and Leipzig's sentences from them), where everyday words rank far down (cad
 # 1193, inné 6336) and the words of its pages' headings high (tagairt, nasc); everyday sentences are blended in.
@@ -2621,6 +2621,9 @@ def normalise(language, form):
         return form.translate(ICELANDIC_MOJIBAKE)
     # Subtitles write some Hindi letters with nukta as one character (ड़ as U+095C), which NFC writes as two, as the pack does.
     if language == "hi":
+        return unicodedata.normalize("NFC", form)
+    # Latvian web pages write some letters with their marks apart (l + U+0327 for ļ), which the reader and pack join.
+    if language == "lv":
         return unicodedata.normalize("NFC", form)
     if language == "fa":
         return frequency_persian.persian_fold(form)
