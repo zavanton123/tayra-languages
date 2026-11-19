@@ -427,6 +427,14 @@ object CoursePacks {
             url = "$BASE_URL/courses-tok.sqlite.gzip",
             downloadSize = 7_556,
         ),
+        CoursePack(
+            id = "courses-arz",
+            languageCode = "arz",
+            title = "Egyptian Arabic",
+            summary = "6 courses, 60 lessons: graded mini stories in everyday Cairene Arabic, built on the 595 most common words.",
+            url = "$BASE_URL/courses-arz.sqlite.gzip",
+            downloadSize = 35_371,
+        ),
     )
 
     fun forLanguage(code: String): List<CoursePack> = all.filter { it.languageCode == code }
