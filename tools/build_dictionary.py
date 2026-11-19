@@ -77,6 +77,7 @@ SOURCES = {
     "br": ("Breton", "breton", "dictionaries/kaikki.org-dictionary-Breton.jsonl.gz"),
     "ms": ("Malay", "malay", "dictionaries/kaikki.org-dictionary-Malay.jsonl.gz"),
     "bn": ("Bengali", None, "dictionaries/kaikki.org-dictionary-Bengali.jsonl.gz"),
+    "sw": ("Swahili", "swahili", "dictionaries/kaikki.org-dictionary-Swahili.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -280,6 +281,16 @@ def bengali_translation_entries(kept):
 
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"bn": clean_bengali, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
+
+
+# Swahili: the English Wiktionary names a verb with its hyphen ("passive of -penda"), and writes many forms as prose senses
+# only, linked to its noun-class appendix ("m class (I) inflected form of -zuri", "... positive degree present of -wako
+# (“he/she is (around there)”)"): those are forms of the word named, without the hyphen.
+SWAHILI_PROSE_FORM = re.compile(r"\[\[Appendix:Swahili.*\bof (-?[a-z]+(?: na)?)(?: \(“[^”]*”\))?(?:;.*)?$")
+
+
+def swahili_lemma(word):
+    return word[1:] if len(word) > 1 and word.startswith("-") and not word.endswith("-") else word
 
 
 def lowercase(word, source):
@@ -592,6 +603,9 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
             for s in d.get("senses", []):
                 tags = s.get("tags", [])
                 targets = [cleaner(x["word"]) for x in s.get("form_of", []) + s.get("alt_of", []) if x.get("word")]
+                if source == "sw":
+                    prose = [m.group(1) for g in s.get("glosses", [])[-1:] if (m := SWAHILI_PROSE_FORM.search(g))]
+                    targets = [swahili_lemma(t) for t in targets or prose]
                 for lemma in targets:
                     if is_clean_form(word, lemma, source) and not (latin_only and foreign(lemma)):
                         form_rows.append((lowercase(word, source), lemma))
