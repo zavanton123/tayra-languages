@@ -24,6 +24,7 @@ object ParserRegistry {
         "hebrew" to HebrewParser(),
         "armenian" to ArmenianParser(),
         "ancientgreek" to AncientGreekParser(),
+        "manx" to ManxParser(),
     )
 
     /** Parser types with their display names. */

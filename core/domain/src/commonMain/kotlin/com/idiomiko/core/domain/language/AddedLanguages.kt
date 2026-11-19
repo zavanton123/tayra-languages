@@ -261,7 +261,7 @@ object AddedLanguages {
             wordCharacters = "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'",
             rightToLeft = false,
             showRomanization = false,
-            parserType = "spacedel",
+            parserType = "manx",
         ),
     )
 

@@ -15,4 +15,4 @@ split_sentence_exceptions: "Mr.|Dr."
 word_chars: "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'"
 right_to_left: false
 show_romanization: false
-parser_type: spacedel
+parser_type: manx
