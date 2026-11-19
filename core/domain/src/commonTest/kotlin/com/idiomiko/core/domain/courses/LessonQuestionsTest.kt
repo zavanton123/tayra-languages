@@ -32,6 +32,7 @@ class LessonQuestionsTest {
         val headers = listOf(
             "Questions :", "Հարցեր․", "پرسش‌ها:", "คำถาม:", "Mga tanong:", "问题：", "Ἐρωτήσεις:", "Pyetje:", "פֿראַגעס:",
             "Асуултууд:", "ຄຳຖາມ:", "Jautājumi:", "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:",
+            "Mistoqsijiet:",
         )
         for (header in headers) {
             assertEquals(1, LessonQuestions.split("Story.\n\n$header\nQ?\nA.")?.questions?.size, header)
