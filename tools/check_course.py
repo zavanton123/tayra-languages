@@ -864,6 +864,18 @@ def mongolian_name_forms(names):
     return forms
 
 
+def kazakh_name_forms(names):
+    """The case and possessive forms of Kazakh names, by the list builder's paradigms (Асқар, Асқардың, Алматыда, Айгүлге)."""
+    import frequency_kazakh
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", name.lower()):
+            if part:
+                forms.add(part)
+                forms.update(frequency_kazakh.noun_forms(part))
+    return forms
+
+
 def armenian_name_forms(names):
     """
     The case forms of Armenian names, from their regular declension, with the article: Արամ, Արամը, Արամն, Արամի, Արամին,
@@ -2574,7 +2586,7 @@ QUESTION_HEADERS = {
         "Frågor:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
-        "Maswali:",
+        "Maswali:", "Сұрақтар:",
     )
 }
 
@@ -2845,6 +2857,9 @@ def check(path, brief=False):
     if code == "bn":
         names = names | {n + ending for n in names for ending in BENGALI_NAME_ENDINGS}
         long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
+    # Kazakh names take the case endings joined (Асқардың, Алматыда, Айгүлге).
+    if code == "kk":
+        names = names | kazakh_name_forms(course.get("names", []))
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
     # A Yiddish name takes the possessive -ס, or -עס after a sibilant, or -'ס (חנהס, מאָריסעס, מאָשע'ס).
@@ -3102,6 +3117,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Асуултууд:", "", text)
         if code == "lv":
             text = re.sub(r"(?m)^Jautājumi:", "", text)
+        if code == "kk":
+            text = re.sub(r"(?m)^Сұрақтар:", "", text)
         if code == "eu":
             text = re.sub(r"(?m)^Galderak:", "", text)
             # A case ending written onto digits (7etan, 2020an, 3ra) is part of the number.
