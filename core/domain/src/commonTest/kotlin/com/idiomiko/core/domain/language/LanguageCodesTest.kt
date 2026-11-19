@@ -44,4 +44,14 @@ class LanguageCodesTest {
         assertNotNull(Tutorials.forLanguage("Tamil"))
         assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Tamil" }.language.parserType)
     }
+
+    @Test
+    fun teluguIsLearnedInItsOwnScript() {
+        assertEquals("te", LanguageCodes.codeFor("Telugu"))
+        assertEquals("tel", LanguageCodes.tatoebaCode("te"))
+        assertNotNull(Tutorials.forLanguage("Telugu"))
+        assertEquals(setOf(Script.TELUGU), Scripts.of("te"))
+        assertEquals(Script.TELUGU, Scripts.dominant("నేను తెలుగు నేర్చుకుంటున్నాను."))
+        assertEquals(Script.KANNADA, Scripts.dominant("ನಾನು ಕನ್ನಡ ಕಲಿಯುತ್ತಿದ್ದೇನೆ."))
+    }
 }

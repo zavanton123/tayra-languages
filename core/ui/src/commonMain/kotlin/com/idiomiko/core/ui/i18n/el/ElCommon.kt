@@ -85,6 +85,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Swedish" to "Σουηδικά",
     "Tagalog" to "Ταγκαλόγκ",
     "Tamil" to "Ταμιλικά",
+    "Telugu" to "Τελούγκου",
     "Thai" to "Ταϊλανδικά",
     "Toki Pona" to "Τόκι Πόνα",
     "Turkish" to "Τουρκικά",

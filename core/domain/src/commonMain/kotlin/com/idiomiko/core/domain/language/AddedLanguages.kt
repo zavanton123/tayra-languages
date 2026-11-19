@@ -394,6 +394,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun telugu() = LanguageDefinition(
+        language = Language(
+            name = "Telugu",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Telugu", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.shabdkosh.com/search-dictionary?lc=te&sl=te&tl=en&e=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=te&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?।॥",
+            wordCharacters = "\\u0C00-\\u0C7F\\u200C\\u200D",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun urdu() = LanguageDefinition(
         language = Language(
             name = "Urdu",
@@ -470,6 +487,7 @@ object AddedLanguages {
             scottishGaelic(),
             tagalog(),
             tamil(),
+            telugu(),
             urdu(),
             welsh(),
             yiddish(),

@@ -85,6 +85,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Swedish" to "Szwedzki",
     "Tagalog" to "Tagalski",
     "Tamil" to "Tamilski",
+    "Telugu" to "Telugu",
     "Thai" to "Tajski",
     "Toki Pona" to "Toki Pona",
     "Turkish" to "Turecki",

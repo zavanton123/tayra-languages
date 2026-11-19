@@ -23,6 +23,14 @@ class LanguageParsingTest {
         assertEquals(listOf("ང", "བོད", "ཡིག", "སློབ"), tibetan.parser.parse("ང་བོད་ཡིག་སློབ།", tibetan).filter { it.isWord }.map { it.token })
     }
 
+    /** Telugu words keep their vowel signs, virama and joiners whole, and its sentences end at a full stop or a danda. */
+    @Test
+    fun teluguWordsKeepTheirVowelSigns() {
+        val telugu = LanguageDefinitions.all.first { it.name == "Telugu" }.language
+        val tokens = telugu.parser.parse("నేను ఇంటికి వెళ్తున్నాను. మీరు యాప్‌ను చూశారా।", telugu)
+        assertEquals(listOf("నేను", "ఇంటికి", "వెళ్తున్నాను", "మీరు", "యాప్‌ను", "చూశారా"), tokens.filter { it.isWord }.map { it.token })
+    }
+
     /** Characters beyond the Basic Multilingual Plane, written as Python writes them, are word characters. */
     @Test
     fun wordCharactersReachBeyondTheBasicPlane() {

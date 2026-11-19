@@ -171,7 +171,7 @@ object DictionaryPacks {
         "lt" to "Lithuanian", "mk" to "Macedonian", "ms" to "Malay", "mt" to "Maltese", "gv" to "Manx", "mn" to "Mongolian",
         "no" to "Norwegian", "sga" to "Old Irish", "pl" to "Polish", "pt" to "Portuguese", "pa" to "Punjabi",
         "ro" to "Romanian", "ru" to "Russian", "gd" to "Scottish Gaelic", "sr" to "Serbian",
-        "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish", "sw" to "Swahili", "sv" to "Swedish", "tl" to "Tagalog", "ta" to "Tamil",
+        "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish", "sw" to "Swahili", "sv" to "Swedish", "tl" to "Tagalog", "ta" to "Tamil", "te" to "Telugu",
         "th" to "Thai", "tok" to "Toki Pona", "tr" to "Turkish", "uk" to "Ukrainian", "ur" to "Urdu", "vi" to "Vietnamese",
         "cy" to "Welsh", "yi" to "Yiddish", "names" to "Names",
     )

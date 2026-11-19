@@ -85,6 +85,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Swedish" to "Sueco",
     "Tagalog" to "Tagalo",
     "Tamil" to "Tâmil",
+    "Telugu" to "Telugu",
     "Thai" to "Tailandês",
     "Toki Pona" to "Toki Pona",
     "Turkish" to "Turco",
