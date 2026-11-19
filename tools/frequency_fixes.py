@@ -2679,7 +2679,7 @@ def _basque(word, forms):
 # of bat under bakoitza and bata, hartzen of hartu under hartz "bear", the question words' cases under each other), and the
 # colloquial and joined spellings of the subtitles (nere, zan, ixten, sinisten, baitut).
 OVERRIDES["eu"] = {
-    **_basque("bat", "baten batek batekin batez bati bateko batentzat batengatik bategatik batak bataz batari bataren batan "
+    **_basque("bat", "bata baten batek batekin batez bati bateko batentzat batengatik bategatik batak bataz batari bataren batan "
                      "batetan batetara baton batetako batetarako batetatik batekoa batekoak"),
     **_basque("batzuk", "batzuek batzuen batzuekin batzuei batzuentzat batzuengatik batzuetako batzuez"),
     **_basque("bakoitz", "bakoitza bakoitzak bakoitzeko bakoitzari bakoitzaren bakoitzarekin bakoitzarentzat bakoitzarengatik "
