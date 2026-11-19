@@ -1655,6 +1655,102 @@ def arabic_tokens(text, ranks, names=frozenset()):
     return out
 
 
+# Egyptian Arabic is read as space-delimited text (parserType "spacedel", not ArabicParser): والكتاب, بيروح, ماقالهاش are
+# one word each, as the reader has them. A word the list lacks counts as a use of the list's word inside it, at the rank
+# of its rarest piece: the letters in front (و, ف, ب, ل, ك, ال, لل) at their own ranks; the verb's ب, ه or ح (بنروح,
+# هيكتب), the negation ما...ش and the pronouns after a word (كتابه, عندها, قالها, قالله) free.
+EGYPTIAN_MARKS = re.compile("[\u064b-\u065f\u0670\u0640]")
+EGYPTIAN_CONJUNCTIONS = ("و", "ف")
+EGYPTIAN_FRONTS = {"بال": ("ب", "ال"), "كال": ("ك", "ال"), "لل": ("ل", "ال"), "ال": ("ال",), "ب": ("ب",), "ل": ("ل",),
+                   "ك": ("ك",)}
+EGYPTIAN_SUFFIXES = ("ليها", "ليهم", "ليكم", "ليكو", "لينا", "ليا", "ليك", "لها", "لهم", "لكم", "لنا", "له", "لك", "لي",
+                     "كوا", "كو", "كم", "هم", "ها", "نا", "ني", "يا", "كي", "ه", "ك", "ي")
+
+
+def egyptian_bases(word, ranks):
+    """(form, pieces): the list's forms [word] is, whole or with a pronoun after it (كتابه of كتاب, مدرسته of مدرسة,
+    عليه and عليا of على, كتبوه of كتبوا)."""
+    out = [(word, 0)] if word in ranks else []
+    for suffix in EGYPTIAN_SUFFIXES:
+        base = word[:-len(suffix)]
+        if not word.endswith(suffix) or len(base) < 2:
+            continue
+        for b in (base, base[:-1] + "ة" if base.endswith("ت") else None, base[:-1] + "ى" if base.endswith(("ي", "ا")) else None,
+                  base + "ا" if base.endswith("و") else None, base + "ى" if suffix.startswith("ي") else None):
+            if b and b in ranks:
+                out.append((b, 1))
+    return out
+
+
+def egyptian_verb(word, ranks, words):
+    """(form, pieces) of [word], also as a verb's present with ب, ه or ح in front of a present the list has (بنروح,
+    هيكتب; بكتب and هكتب for اكتب), never of a headword (بيوم is ب + يوم)."""
+    out = egyptian_bases(word, ranks)
+    if word[:1] in "بهح" and len(word) > 3:
+        for rest in (word[1:], "ا" + word[1:]):
+            out += [(b, n + 1) for b, n in egyptian_bases(rest, ranks) if b[:1] in "يتناأ" and b not in words]
+    return out
+
+
+def egyptian_stems(word, ranks, words):
+    """(form, pieces) of [word], also inside the negation ما...ش, م...ش or ...ش after a ما written apart (ماقالهاش,
+    مبيعرفش, معندوش, ما قدرتش; ماشفتوش: the pronoun ه is written و before ش)."""
+    out = egyptian_verb(word, ranks, words)
+    if word.endswith("ش") and len(word) > 3:
+        for negation in ("ما", "م", ""):
+            inner = word[len(negation):-1]
+            if not word.startswith(negation) or len(inner) < (3 if not negation else 2):
+                continue
+            for each in [inner] + ([inner[:-1] + "ه"] if inner.endswith("و") else []):
+                out += [(b, n + 1) for b, n in egyptian_verb(each, ranks, words)]
+    return out
+
+
+def egyptian_word(word, ranks, words, names, heads):
+    """
+    (rank, headwords) of a word the list lacks: the rank it counts at and the headwords it is a use of, the letters in
+    front among them; None when no word of the list (or name, with letters in front) is inside it. The reading with the
+    fewest pieces wins, then the one whose rarest piece is the commonest.
+    """
+    fronts = [((), word)] + [((c,), word[len(c):]) for c in EGYPTIAN_CONJUNCTIONS if word.startswith(c)]
+    # لل is ل + ال (للبيت), not ل on a word in ل.
+    for clitics, rest in list(fronts):
+        fronts += [(clitics + pieces, rest[len(front):]) for front, pieces in EGYPTIAN_FRONTS.items()
+                   if rest.startswith(front) and not (front == "ل" and rest.startswith("لل"))]
+    best = None
+    for clitics, rest in fronts:
+        if len(rest) < 2:
+            continue
+        front_rank = max((ranks.get(c, ranks.get(c + "\u0640", 1)) for c in clitics), default=0)
+        readings = [(None, 0)] if clitics and rest in names else egyptian_stems(rest, ranks, words)
+        for stem, pieces in readings:
+            reading = (len(clitics) + pieces, max(front_rank, ranks[stem] if stem else 0), clitics, stem)
+            if best is None or reading[:2] < best[:2]:
+                best = reading
+    if best is None:
+        return None
+    _, rank, clitics, stem = best
+    return rank, list(dict.fromkeys(list(clitics) + (heads.get(stem, []) if stem else [])))
+
+
+def egyptian_forms(lowered, ranks, words, names):
+    """Files each word of [lowered] the list lacks under the words inside it, at the rank [egyptian_word] gives it."""
+    heads = {}
+    for key, (_, _, forms) in words.items():
+        for form in [key] + forms:
+            heads.setdefault(form, []).append(key)
+    for word in sorted(set(lowered)):
+        if word in ranks or word in names:
+            continue
+        found = egyptian_word(word, ranks, words, names, heads)
+        if found is None:
+            continue
+        ranks[word] = found[0]
+        for key in found[1]:
+            if key in words and word not in words[key][2]:
+                words[key][2].append(word)
+
+
 # Hebrew: words cut as the reader cuts them (HebrewParser, ported as build_frequency_list.hebrew_pieces) by the ranks
 # of the list the app ships, not the courses' pinned one, and the he-en pack's words: ובבית is ו + ב + בית.
 _hebrew = {}
@@ -2270,6 +2366,9 @@ def check(path, brief=False):
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
     long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "he", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa") else []
+    # So is an Egyptian one (شرم الشيخ, بور سعيد).
+    if code == "arz":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -2413,7 +2512,7 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Vprašanja:", "", text)
         if code == "ko":
             text = re.sub(r"(?m)^질문:", "", text)
-        if code == "ar":
+        if code in ("ar", "arz"):
             text = re.sub(r"(?m)^أسئلة:", "", text)
         if code == "he":
             text = re.sub(r"(?m)^שאלות:", "", text)
@@ -2512,6 +2611,8 @@ def check(path, brief=False):
         if code == "fa":
             dictionary = os.path.join(ROOT, "dictionaries", "fa-en.sqlite")
             lowered = [w if w in ranks or w in names else frequency_persian.checker_word(w, ranks, dictionary) or w for w in lowered]
+        if code == "arz":
+            egyptian_forms(lowered, ranks, words, names)
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
@@ -2546,6 +2647,9 @@ def check(path, brief=False):
             problems += tok_problems
         if (qa_problem := questions_problem(lesson["text"])) is not None:
             problems.append(qa_problem)
+        # The reader keeps the vowel signs and the tatweel in an Egyptian word: كتاب written with them is another word.
+        if code == "arz" and EGYPTIAN_MARKS.search(lesson["text"]):
+            problems.append("vowel signs or tatweel in the text: write it unvowelled")
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
