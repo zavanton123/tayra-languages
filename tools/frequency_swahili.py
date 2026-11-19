@@ -85,12 +85,26 @@ SWAHILI_FORMS = {
     # Mostly "your" (rafiki wako, kazi yako), now and then the place copula wako ("they are there").
     "wako": "ako,wako",
     "yako": "ako",
+    # "It is there" (kiko mezani) far more than kiko "pipe".
+    "kiko": "wako",
+    # Conjugated forms the pack has as entries of their own ("I love you", "I don't know"): their verb's.
+    "nakupenda": "penda",
+    "ninakupenda": "penda",
+    "sijui": "jua",
+    "sitaki": "taka",
+    "umeshinda": "shinda",
+    "yananukia": "nukia",
+    "nikafungua": "fungua",
+    "nikanunua": "nunua",
+    "tuonane": "onana",
     # "Due to" (kutokana na), the infinitive of tokana, toka's; not kana's with the negative kuto.
     "kutokana": "toka",
 }
 # The relative of the place copulas wapo, wako, wamo, when no word of its own (kilimo is "farming"): alipo "where he is",
 # tulikomo "where we are inside".
 RELATIVE_COPULAS = {s + "li" + r: "wa" + r for s in SUBJECTS for r in ("po", "ko", "mo")}
+# The place copulas themselves, with each subject (iko, viko, tuko; haiko, hatuko), when the pack lacks the form.
+RELATIVE_COPULAS.update({s + r: "wa" + r for s in SUBJECTS + ["yu"] + NEGATIVE_SUBJECTS + ["hayu"] for r in ("po", "ko", "mo")})
 # An entry that is only a verb with an object marker: kupa "to give to you", kuita "to call you".
 CONCORD_FORM = re.compile(r"object concord\) with \w+ of -([a-z]+)")
 # Words that are no words of an ordinary text: Wikipedia's, letters, abbreviations.
