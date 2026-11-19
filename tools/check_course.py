@@ -31,6 +31,7 @@ import frequency_bengali  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_persian  # noqa: E402
+import frequency_urdu  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -49,6 +50,8 @@ BENGALI_WORD = re.compile(r"[\u0980-\u09ff]+")
 BENGALI_NAME_ENDINGS = sorted({e + c for e in frequency_bengali.CONSONANT_TAILS + frequency_bengali.VOWEL_TAILS + ["য়ে"]
                                for c in ("", "ই", "ও")} | {"ই", "ও"}, key=len, reverse=True)
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
+# An Urdu word: a run of the reader's word characters for Urdu (AddedLanguages), as the text is folded (frequency_urdu).
+URDU_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06ef\u06fa-\u06ff\ufb50-\ufdff\ufe70-\ufefc]+")
 # Yiddish words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Hebrew letters with their points, the
 # maqaf, the geresh and gershayim, the presentation forms, and the apostrophe, which its characterSubstitutions write for
 # ´ ` ’ ‘. Python's \w leaves out the points and would cut אַ off its word. The reader matches words as written, points and
@@ -254,6 +257,9 @@ def fold(code, word):
     # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks, no non-joiner.
     if code == "fa":
         return frequency_persian.bare(frequency_persian.persian_fold(word))
+    # Urdu words are matched as the reader matches them (UrduParser): ک, ی and ہ for ك, ي and ه, no marks, no non-joiner.
+    if code == "ur":
+        return frequency_urdu.urdu_fold(word)
     if code == "grc":
         return greek_folded(word)
     # The Maltese reader reads ’ ‘ ´ ` as the apostrophe (ta’, f’Malta).
@@ -707,6 +713,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
+    if code == "ur":
+        return URDU_WORD.findall(frequency_urdu.urdu_fold(text))
     if code == "hy":
         text = text.translate(ARMENIAN_WORD_MARKS)
     # The reader cuts Albanian at an apostrophe, which is no letter of its words: s'kam is s + kam, t'i is t + i.
@@ -2648,7 +2656,7 @@ QUESTION_HEADERS = {
         "Frågor:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
-        "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:",
+        "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
     )
 }
 
@@ -3180,6 +3188,8 @@ def check(path, brief=False):
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
         if code == "tok":
             text = re.sub(r"(?m)^wile sona:", "", text)
+        if code == "ur":
+            text = re.sub(r"(?m)^سوالات:", "", text)
         if code == "mn":
             text = re.sub(r"(?m)^Асуултууд:", "", text)
         if code == "lv":
