@@ -96,7 +96,7 @@ FALLBACKS = {
     "tl": {"leipzig": ["tgl_wikipedia_2021_100K", "tgl_news_2020_30K"]},
     "hy": {"leipzig": ["hye_news_2020_30K"], "wikipedia_sentences": ["hye_wikipedia_2021_1M"]},
     "ka": {"leipzig": ["kat_wikipedia_2021_300K", "kat_news_2020_100K"]},
-    "sq": {"leipzig": ["sqi_news_2020_1M", "sqi_wikipedia_2021_300K"]},
+    "sq": {"leipzig": ["sqi_news_2019_1M", "sqi_news_2020_1M"]},
     "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
     "eo": {"leipzig": ["epo_newscrawl_2017_1M"]},
     "vi": {"leipzig": ["vie_news_2022_1M", "vie-vn_web_2015_1M"]},
@@ -131,8 +131,6 @@ BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
 # dump blended in after FrequencyWords would add encyclopaedic words).
 SOURCE_ORDER["gl"] = ["frequencywords"]
-# Albanian is counted from subtitles alone, as its list was first built (wordfreq has no Albanian).
-SOURCE_ORDER["sq"] = ["frequencywords"]
 # Esperanto is counted from subtitles and news alone: its Wikipedia, much of it pages made by bots, adds their words
 # ("municipo", "kantono", "asteroido") and its headings' ("ligilo", "referenco") to the first thousand.
 SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
@@ -178,6 +176,12 @@ SOURCE_WEIGHTS["hy"] = {"leipzig": 0.5, "wikipedia_sentences": 0.3, "frequencywo
 SOURCE_ROOTED = {"hy": {"frequencywords"}}
 BLEND.add("vi")
 SOURCE_WEIGHTS["vi"] = {"frequencywords": 0.7, "leipzig": 0.3}
+# Albanian is counted from subtitles and news (wordfreq has no Albanian). The subtitles alone left a quarter of the pack's
+# words that text has uncounted (shqiptar, qytetar, kërkesë, rritje); the news, at a tenth of the blend, counts them without
+# bringing its politics (opozitë, kuvend, prokuror) into the first thousand over kitchen and family words, as half did.
+SOURCE_ORDER["sq"] = ["frequencywords", "leipzig"]
+BLEND.add("sq")
+SOURCE_WEIGHTS["sq"] = {"frequencywords": 0.9, "leipzig": 0.1}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
