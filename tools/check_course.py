@@ -661,6 +661,9 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return danish_tokens(text, ranks)
     if code == "tr":
         return turkish_tokens(text)
+    # Azerbaijani words as the reader reads them: lowercased the Turkish way, an apostrophe inside a word (Qur'an) kept.
+    if code == "az":
+        return [azerbaijani_lower(word) for word in WORD.findall(text.replace("’", "'"))]
     if code == "ko":
         return korean_tokens(text, ranks, names, heads)
     if code == "ar":
@@ -1454,6 +1457,52 @@ def italian_tokens(text, ranks, names=frozenset(), verbs=None, heads=None):
 def turkish_lower(text):
     """Lowercased as Turkish does: I is ı, İ is i."""
     return text.replace("I", "ı").replace("İ", "i").lower()
+
+
+def azerbaijani_lower(text):
+    """Lowercased as Azerbaijani does, as Turkish: I is ı, İ is i."""
+    return text.replace("I", "ı").replace("İ", "i").lower()
+
+
+# The endings an Azerbaijani name takes straight on, with no apostrophe (Leylanın, Bakıda, Əliyə, Kamranla, Bakıdakı,
+# Bakılı, Leyladır): plural, possessive, case, and the copula.
+AZ_NAME_ENDING = re.compile(
+    r"(?:l[aə]r)?(?:[ıiuü]?m|[ıiuü]?n|s?[ıiuü]|[ıiuü]?m[ıiuü]z|[ıiuü]?n[ıiuü]z|l[aə]r[ıiuü])?"
+    r"(?:n?[ıiuü]n|n?[ıiuü]|y?[aə]|n?[aə]|n?d[aə]|n?d[aə]n|n?d[aə]k[ıi]|y?l[aə]|l[ıiuü])?"
+    r"(?:d[ıiuü]r(?:l[aə]r)?|y?d[ıiuü](?:m|n|q|k|n[ıiuü]z|l[aə]r)?|y?[ıiuü]m|s[aə]n|y?[ıiuü]q|y?[ıiuü]k|s[ıiuü]n[ıiuü]z)?$")
+
+
+# The copula and the question particle Azerbaijani writes onto any word (böyükdür, evdədir, müəllimdir, həkiməm, evdəydi,
+# gəlirsənmi), after -la "with" or -ki (bizimlə, onunla, evdəki) or not, which the list's forms run out on: the word is the
+# one before them.
+AZ_COPULA = re.compile(r"(?:y?l[aə]|k[ıi])?(?:d[ıiuü]r(?:l[aə]r)?|y?[aə]m|s[aə]n|y?[ıiuü]q|y?[ıiuü]k|s[ıiuü]n[ıiuü]z|"
+                       r"y?d[ıiuü](?:m|n|q|k|n[ıiuü]z|l[aə]r)?|y?m[ıiuü]ş|y?s[aə])?(?:m[ıiuü])?")
+
+
+def azerbaijani_base(word, ranks):
+    """The listed word an Azerbaijani word the list lacks is with the copula or question particle written on, or None."""
+    return next((word[:at] for at in range(len(word) - 1, 1, -1) if word[:at] in ranks and AZ_COPULA.fullmatch(word, at)), None)
+
+
+def azerbaijani_word(word, ranks, names):
+    """
+    The word an Azerbaijani word counts as: itself, or with the copula or question particle written on, the word before it
+    when the list lacks it, or with the copula -dır/-dı, when the list files it under a rarer word (atasıdır under atmaq,
+    not ata's; but kimi is not ki + mi); a name with its endings counts as a name.
+    """
+    if word in names:
+        return word
+    base = azerbaijani_base(word, ranks)
+    if base and (word not in ranks or len(base) > 2 and word[len(base):].startswith(("d", "yd")) and ranks[base] < ranks[word]):
+        return base
+    if word in ranks or not azerbaijani_name(word, names):
+        return word
+    return "\u0000name"
+
+
+def azerbaijani_name(word, names):
+    """Whether an Azerbaijani word the list lacks is a name of [names] with its endings written on (Leylanın, Bakıda)."""
+    return any(len(word) > len(name) and word.startswith(name) and AZ_NAME_ENDING.match(word, len(name)) for name in names)
 
 
 def turkish_tokens(text):
@@ -2890,6 +2939,9 @@ def check(path, brief=False):
     if code == "tr":
         names = {fold(code, turkish_lower(n)) for n in course.get("names", [])}
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # Azerbaijani names are lowercased the Turkish way (İlham, Işıq) and take their endings straight on (Leylanın).
+    if code == "az":
+        names = {azerbaijani_lower(n) for n in course.get("names", [])}
     # A Finnish name of several words or with a hyphen (Anna-Liisa, Uusi-Seelanti) counts as one known word wherever it is
     # written whole, and each part of a name counts too, with its endings (finnic_name).
     if code in FINNIC:
@@ -3179,6 +3231,8 @@ def check(path, brief=False):
             lowered = [w if w in ranks or w in names or not georgian_name(w, names) else "\u0000name" for w in lowered]
         if code == "eu":
             lowered = [w if w in ranks or w in names or not basque_name(w, names) else "\u0000name" for w in lowered]
+        if code == "az":
+            lowered = [azerbaijani_word(w, ranks, names) for w in lowered]
         if code == "fa":
             dictionary = os.path.join(ROOT, "dictionaries", "fa-en.sqlite")
             lowered = [w if w in ranks or w in names else frequency_persian.checker_word(w, ranks, dictionary) or w for w in lowered]
