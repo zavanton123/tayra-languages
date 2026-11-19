@@ -87,6 +87,15 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun afrikaansWordsKeepTheirAccentsAndApostrophes() {
+        val afrikaans = LanguageDefinitions.all.first { it.name == "Afrikaans" }.language
+        assertEquals(
+            "[Sy] [kom] [ná] [die] [ete]. [Dít] [is] ['n] [appèl] [vir] [ma's] [oor] [die] [brûe] [en] [ŉ] [wîe].",
+            tokensAsString("Sy kom ná die ete. Dít is ’n appèl vir ma's oor die brûe en ŉ wîe.", afrikaans),
+        )
+    }
+
+    @Test
     fun legacyHexEscapesAreConverted() {
         val arabic = TestLanguages.generic.copy(wordCharacters = "\\x{0600}-\\x{06FF}")
         assertEquals("[مرحبا] [بكم]", tokensAsString("مرحبا بكم", arabic))

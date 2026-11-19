@@ -1,0 +1,4 @@
+-- Afrikaans words take every accented Latin letter: its emphasis and grave accents (ná, dít, appèl, nè), the circumflex
+-- on i and u (brûe, wîe) and the old ŉ; an Afrikaans made before cut its words at them (ná was n).
+UPDATE languages SET word_characters = 'a-zA-ZÀ-ÖØ-öø-ȳ'''
+WHERE name = 'Afrikaans' AND parser_type = 'spacedel' AND word_characters = 'a-zA-ZÉËÏÓÖÜéëïóöüÊêÔô''';
