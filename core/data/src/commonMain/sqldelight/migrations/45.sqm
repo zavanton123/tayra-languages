@@ -1,0 +1,4 @@
+-- Manx is read with its own parser, which cuts a word written onto another with an apostrophe (t'eh is t' + eh, ta'n is
+-- ta + 'n) and leaves the apostrophes at a word's edges ('sy) and a mutation's h-, n- or t- (ny h-ellanyn) out of the word;
+-- a Manx made before it was read as space-delimited text. Its saved words are cut at start (CutWordsMigration).
+UPDATE languages SET parser_type = 'manx' WHERE name = 'Manx' AND parser_type = 'spacedel';
