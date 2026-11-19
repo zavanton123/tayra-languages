@@ -16,7 +16,7 @@ object LessonQuestions {
     /** The headers of the questions in the app's courses, one per language. */
     private val HEADERS = setOf(
         "أسئلة:", "Въпроси:", "Pitanja:", "Preguntes:", "Otázky:", "Cwestiynau:", "Spørgsmål:", "Fragen:",
-        "Ερωτήσεις:", "Questions:", "Demandoj:", "Preguntas:", "Küsimused:", "پرسش‌ها:", "Kysymykset:",
+        "Ερωτήσεις:", "Ἐρωτήσεις:", "Questions:", "Demandoj:", "Preguntas:", "Küsimused:", "پرسش‌ها:", "Kysymykset:",
         "Questions :", "Ceisteanna:", "Ceistean:", "שאלות:", "सवाल:", "Kérdések:", "Հարցեր․", "Հարցեր։",
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
