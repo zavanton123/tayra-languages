@@ -114,6 +114,13 @@ SPELLINGS = {
     "জানুয়ারী": "জানুয়ারি", "ফেব্রুয়ারী": "ফেব্রুয়ারি", "রোববার": "রবিবার", "ব্যাথা": "ব্যথা", "ভেঙ্গে": "ভাঙা", "ভাঙ্গা": "ভাঙা",
     "এখনি": "এখনই", "যেনো": "যেন", "কতো": "কত", "কিন্ত": "কিন্তু",
     "একসঙ্গে": "একসাথে", "এগোনো": "আগানো", "সরকারি": "সরকারী",
+    # Two spellings of one word that the pack has as two words: the less common folded into the other.
+    "ভাল": "ভালো", "ভালবাসা": "ভালোবাসা", "ঘন্টা": "ঘণ্টা", "ইসলামি": "ইসলামী", "দূর্ঘটনা": "দুর্ঘটনা", "বাঙ্গালী": "বাঙালি",
+    "জগৎ": "জগত", "পুরোনো": "পুরনো", "গুন": "গুণ", "প্লীজ": "প্লিজ", "সাক্ষি": "সাক্ষী", "আঙ্গুল": "আঙুল", "দেশিয়": "দেশীয়",
+    "মুরগী": "মুরগি", "পল্লি": "পল্লী", "বাদামি": "বাদামী", "পেশি": "পেশী", "গন্ডার": "গণ্ডার", "বেগুনী": "বেগুনি",
+    "হাঙ্গর": "হাঙর", "রেলগাড়ী": "রেলগাড়ি", "ডিকশনারী": "ডিকশনারি", "ডাঙ্গা": "ডাঙা", "আমলকি": "আমলকী",
+    "জিন্দেগি": "জিন্দেগী", "পেশিবহুল": "পেশীবহুল", "অকুল": "অকূল", "ফনী": "ফণী", "হাবশি": "হাবশী", "হরিত": "হরিৎ",
+    "পাখী": "পাখি", "কুমীর": "কুমির", "ফকীর": "ফকির", "এমনকী": "এমনকি",
 }
 # Everyday words the pack lacks, with their kind as the rules decline them.
 BENGALI_WORDS = {
@@ -149,20 +156,22 @@ BENGALI_WORDS = {
     "ম্যাচ": "noun", "টিম": "noun", "কেজি": "noun", "জেল": "noun", "ব্যাংক": "noun", "কার্ড": "noun", "অফিসার": "noun",
     "মিডিয়া": "noun", "রিপোর্ট": "noun", "প্রথমবার": "adv", "বৈঠক": "noun", "আসন": "noun", "সূত্র": "noun",
     "বের": "adv", "সহ": "postp", "পুরো": "adj", "খাবার": "noun", "মানব": "noun",
+    # Words a shorter word's rule forms would take (দায় as দা + য়, আদায় as আদা + য়).
+    "দায়": "noun", "আদায়": "noun", "বসতি": "noun", "কলেরা": "noun", "সরি": "intj", "শো": "noun",
 }
 # Words of their own that a verb's form is spelled as, which keep their count however common the verb is: সরল "simple" (not
 # সরা's), চলতি "current", খাবার "food" (not খাওয়া's "to eat"), মানব "human".
-KEEP = {"সরল", "চলতি", "খাবার", "মানব", "বের", "সহ", "বন"}
+KEEP = {"সরল", "চলতি", "খাবার", "মানব", "বের", "সহ", "বন", "বসতি"}
 # Forms of verbs the pack has without a table: কাটা's, which the rules for such verbs (verb_forms) would make wrongly.
 BENGALI_FORMS.update({f: "কাটা" for f in "কেটে কেটেছে কেটেছি কেটেছেন কেটেছিল কেটেছিলাম".split()})
 BENGALI_FORMS.update({f: "বেরোনো" for f in "বেরিয়ে বেরোয় বেরোতে বেরিয়েছে বেরিয়েছি বেরিয়েছিল বেরোচ্ছে বেরোলো বেরোল বেরোবে বেরোবেন বেরোন বেরোই".split()})
 # বাড়া "to grow", whose table the pack gives as বাড়ানো's.
 BENGALI_FORMS.update({f: "বাড়া" for f in "বাড়ে বাড়ছে বাড়ছিল বেড়ে বেড়েছে বেড়েছিল বাড়বে বাড়তে বাড়ল বাড়লো বাড়েনি".split()})
-BENGALI_FORMS.update({"দে": "দেওয়া", "ফিরিয়ে": "ফেরানো", "জড়িয়ে": "জড়ানো", "এগিয়ে": "আগানো", "পৌঁছে": "পৌঁছানো"})
+BENGALI_FORMS.update({"বসে": "বসা", "দে": "দেওয়া", "ফিরিয়ে": "ফেরানো", "জড়িয়ে": "জড়ানো", "এগিয়ে": "আগানো", "পৌঁছে": "পৌঁছানো"})
 # Links of the pack's tables that are wrong: হে "O!" is no form of সে, মণ "maund" none of মন, পা "foot" none of পাওয়া.
 WRONG_LINKS = {("হে", "সে"), ("মণ", "মন"), ("পা", "পাওয়া"), ("মারা", "মা"), ("নর", "নারী"), ("নারী", "নর"), ("হাসান", "হাসানো")}
 # Corpus spellings that are no words: letters, the genitive ending written apart after a number, foreign words.
-NOT_WORDS = {"আল", "আলী", "আলি", "চৌধুরী", "চৌধুরি", "ইন", "র", "ই", "টি", "টা", "গুলো", "দের", "ের", "সা", "ড", "মো", "জি", "এস", "বি", "সি", "ডি"}
+NOT_WORDS = {"রা", "আল", "আলী", "আলি", "চৌধুরী", "চৌধুরি", "ইন", "র", "ই", "টি", "টা", "গুলো", "দের", "ের", "সা", "ড", "মো", "জি", "এস", "বি", "সি", "ডি"}
 # The person endings a present form ends in, which the negative -নি joins (করিনি, করেনি, যায়নি, করেননি, যাইনি).
 PERSON_ENDINGS = ("ি", "ে", "ো", "ন", "য়", "ও", "ই")
 
@@ -242,8 +251,13 @@ def lexicon(dictionaries):
             kinds[word].add(pos)
     for word, kind in BENGALI_WORDS.items():
         kinds[word].add(kind)
+    # A spelling the pack has as a word of its own is folded into the word it spells (ভাল into ভালো), its table too.
+    folded = {variant: word for variant, word in SPELLINGS.items() if variant in kinds and word in kinds}
+    for variant in folded:
+        del kinds[variant]
     table = defaultdict(set)
     for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+        lemma = folded.get(lemma, lemma)
         # The pronouns' tables (and the demonstratives', which file এটা, এটি, এগুলো under one another) are BENGALI_FORMS'.
         if (" " in lemma or "-" in lemma or lemma not in kinds or form == lemma or (form, lemma) in WRONG_LINKS
                 or lemma in PRONOUNS or form in BENGALI_FORMS):
@@ -306,7 +320,7 @@ def build(found, size, label):
         made = word_forms(word, ks, table_of)
         nominal_made = nominal_forms(word) if ks & NOMINAL_KINDS else set()
         tabled = table_of.get(as_word, set()) if word == as_word else {word}
-        for form in with_clitics(made | tabled):
+        for form in with_clitics(made | tabled | {word}):
             if form in counts and form != as_word:
                 if "verb" in ks and (form not in with_clitics(nominal_made) or form in tabled - nominal_made):
                     verbal[form].add(as_word)
@@ -342,6 +356,12 @@ def build(found, size, label):
         if nouns:
             fewest = min(tail_cost(w, form) for w in nouns)
             nouns = {w for w in nouns if tail_cost(w, form) == fewest}
+            # Of those, the longest (মেয়ের is মেয়ে + র, not মে + য়ের; রাতে is রাত + ে, not রা + তে).
+            longest = max(len(w) for w in nouns)
+            nouns = {w for w in nouns if len(w) == longest}
+            # A verb's form is no short word with a classifier and a case on it (মেটাতে is মেটানো's, not মে + টা + তে).
+            if verbs and fewest == 2:
+                nouns = set()
         others = verbs | nouns
         if not others:
             for base in unclitic(form):
