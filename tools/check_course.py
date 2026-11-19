@@ -27,6 +27,7 @@ import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import frequency_cornish  # noqa: E402
+import frequency_kannada  # noqa: E402
 import frequency_persian  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -36,6 +37,9 @@ BAND = 100
 # Hindi words as the reader cuts them (its wordCharacters in PredefinedLanguages.kt): Latin and Devanagari letters, vowel
 # signs, virama, nukta and Devanagari digits, without the danda; Python's \w leaves out the signs and would cut every word.
 HINDI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0966-\u097f\u200c\u200d]+")
+# Kannada words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Kannada block with its vowel signs,
+# virama and digits, and the joiners; Python's \w leaves out the signs and would cut every word.
+KANNADA_WORD = re.compile(r"[\u0c80-\u0cff\u200c\u200d]+")
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 # Yiddish words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Hebrew letters with their points, the
 # maqaf, the geresh and gershayim, the presentation forms, and the apostrophe, which its characterSubstitutions write for
@@ -611,6 +615,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return HINDI_WORD.findall(text)
     if code == "yi":
         return YIDDISH_WORD.findall(text.translate(YIDDISH_APOSTROPHES))
+    if code == "kn":
+        return KANNADA_WORD.findall(text)
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -2422,7 +2428,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
-        "Goulennoù:",
+        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:",
     )
 }
 
@@ -2900,6 +2906,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":
             text = re.sub(r"(?m)^सवाल:", "", text)
+        if code == "kn":
+            text = re.sub(r"(?m)^ಪ್ರಶ್ನೆಗಳು:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -2973,6 +2981,10 @@ def check(path, brief=False):
             lowered = [w if w in ranks or w in names else frequency_persian.checker_word(w, ranks, dictionary) or w for w in lowered]
         if code == "arz":
             egyptian_forms(lowered, ranks, words, names)
+        # Kannada joins its endings and clitics on (ಮಾಡುತ್ತೇನೆ, ಹುಡುಗನಿಗೆ, ಮನೆಗೂ, ರಾಮನಿಗೆ): a word the list lacks is read by the
+        # rules the list was built with (frequency_kannada).
+        if code == "kn":
+            lowered = [w if w in ranks or w in names else frequency_kannada.checker_word(w, words, ranks, names) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
