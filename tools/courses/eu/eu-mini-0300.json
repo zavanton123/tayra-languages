@@ -1,0 +1,206 @@
+{
+  "id": "eu-mini-0300",
+  "rankUpTo": 300,
+  "level": "A1",
+  "title": "Jatekoak eta erosketak",
+  "description": "Ten short, simple stories about food, drink and shopping in the Basque Country.",
+  "topic": "Food and shopping",
+  "names": [
+    "Idoia",
+    "Lekeitio",
+    "Kattalin",
+    "Beñat",
+    "Urko",
+    "Gorbeia",
+    "Zeanuri",
+    "Josune",
+    "Iñigo",
+    "Bermeo",
+    "Aiora",
+    "Joseba",
+    "Hondarribia",
+    "Mattin",
+    "Larraitz",
+    "Inaxio",
+    "Maddi",
+    "Zuriñe",
+    "Gaizka",
+    "Lide",
+    "Begoña",
+    "Tolosa",
+    "Manex",
+    "Antton",
+    "Azpeitia",
+    "Lierni"
+  ],
+  "lessons": [
+    {
+      "title": "Ate itxia",
+      "summary": "Idoia goes to buy bread early in the morning, but the shop door is closed and she has to wait for the owner.",
+      "newWords": [
+        "goiz",
+        "ate",
+        "itxi",
+        "ireki",
+        "zain",
+        "erosi",
+        "ordaindu",
+        "minutu",
+        "bost",
+        "nagusi"
+      ],
+      "text": "Goiza da. Idoia Lekeition bizi da. Goizean, Idoiak beti ogia erosten du Kattalinen dendan. Gaur ere dendara doa.\n\nBaina gaur atea itxita dago. Ate ondoan gizon bat dago. Gizona zain dago.\n\n«Egun on», esaten du Idoiak. «Zain zaude?»\n\n«Bai», esaten du gizonak. «Atea itxita dago. Bost minutu zain egon naiz.»\n\nIdoia ere zain geratzen da, gizonarekin. Minutu bat. Bi minutu. Bost minutu. Atea ez da irekitzen.\n\n«Non dago Kattalin, nagusia?», galdetzen du Idoiak.\n\n«Ez dakit», esaten du gizonak. «Nagusia beti goiz etortzen da. Gaur ez.»\n\nGero emakume bat etortzen da. Bera da nagusia, Kattalin.\n\n«Barkatu, barkatu!», esaten du Kattalinek. «Gaur ezin izan dut goiz etorri.»\n\nKattalinek atea irekitzen du. Orain atea irekita dago. Gizonak esnea erosten du, eta ordaintzen du. Idoiak ogia erosten du.\n\n«Zenbat ordaindu behar dut?», galdetzen du Idoiak.\n\n«Bi euro», esaten du nagusiak. Idoiak dirua ematen dio, eta ordaintzen du.\n\n«Eskerrik asko, Idoia», esaten du Kattalinek. «Eta barkatu. Bost minutu zain egon zara!»\n\n«Ez da ezer», esaten du Idoiak. «Goiz ederra da, eta orain ogia dut.»\n\nGalderak:\nZer erosten du Idoiak goizean?\nIdoiak ogia erosten du.\nNola dago atea?\nAtea itxita dago.\nZenbat minutu egon da Idoia zain?\nBost minutu egon da zain.\nNor da Kattalin?\nKattalin nagusia da.\nNork irekitzen du atea?\nKattalinek irekitzen du atea."
+    },
+    {
+      "title": "Gorbeian",
+      "summary": "Beñat and his brother Urko climb Gorbeia; Urko drinks all his water, so they fill their bottles at a spring.",
+      "newWords": [
+        "anaia",
+        "igo",
+        "ur",
+        "edan",
+        "huts",
+        "bete",
+        "nahikoa",
+        "eseri",
+        "lur",
+        "behe"
+      ],
+      "text": "Beñat eta bere anaia Urko Zeanurin daude. Gaur Gorbeiara igo nahi dute. Beñatek ura dauka. Urkok jatekoak ditu.\n\nBehean, Beñatek galdetzen du: «Ur nahikoa daukazu, Urko?»\n\n«Bai», esaten du Urkok. «Ur nahikoa dut.»\n\nBi anaiak igotzen dira. Urkok ura edaten du. Gero berriro edaten du. Eta berriro.\n\nOrdu bat geroago, Urkok ez du urik. Bere botila hutsa dago.\n\n«Beñat, nire botila hutsa dago», esaten du Urkok. «Ez dut urik.»\n\nBeñatek bere ura ematen dio. «Edan, baina ez asko. Orain ez dugu ur nahikoa.»\n\nGero iturri bat aurkitzen dute. Han ur ona dago. Bi anaiek botilak betetzen dituzte, eta ura edaten dute.\n\n«Orain ur nahikoa dugu», esaten du Beñatek. Botilak beteta daude.\n\nGorbeiaren gainean, lurrean esertzen dira. Lurrean eserita, jaten dute. Behera begiratzen dute. Behean dena txikia da.\n\n«Ederra da», esaten du Urkok.\n\n«Bai», esaten du Beñatek. «Eta orain ura ere badugu!»\n\nGalderak:\nZer egin nahi dute Beñatek eta Urkok?\nGorbeiara igo nahi dute.\nZer edaten du Urkok?\nUrkok ura edaten du.\nNola dago Urkoren botila?\nUrkoren botila hutsa dago.\nZer egiten dute bi anaiek?\nBotilak betetzen dituzte.\nNon esertzen dira?\nLurrean esertzen dira."
+    },
+    {
+      "title": "Ezkontza egun bat",
+      "summary": "Josune and Iñigo get married in Bermeo, and both families eat together.",
+      "newWords": [
+        "ezkondu",
+        "emazte",
+        "familia",
+        "elkarrekin",
+        "pertsona",
+        "haur",
+        "zoragarri",
+        "atsegin",
+        "gazte",
+        "bihotz"
+      ],
+      "text": "Gaur Josune eta Iñigo Bermeon ezkondu dira. Biak gazteak dira. Orain Josune Iñigoren emaztea da.\n\nGero bi familiak jatera doaz. Bi familiek elkarrekin jaten dute. 100 pertsona daude, eta haur asko ere badaude. Pertsona guztiak oso ondo daude.\n\nJanaria zoragarria da. Haurrek ez dute dena jaten, baina tarta bai.\n\nIñigoren aita gazte bat bezala dabil, leku batetik bestera. «Josune, orain gure familiakoa zara», esaten du.\n\nJosuneren amak esaten du: «Iñigo, Josune nire bihotza da. Orain zure emaztea da. Maite duzu?»\n\n«Bai», esaten du Iñigok. «Bihotzez maite dut.»\n\nHaurrak elkarrekin ibiltzen dira, leku guztietan. Gazteak ere elkarrekin daude. Familia guztia oso ondo dago.\n\nGauean, Josunek esaten dio Iñigori: «Egun zoragarria izan da. Eta zure familia oso atsegina da.»\n\n«Zure familia ere bai», esaten du Iñigok. «Pertsona atseginak dira. Eta zu, nire emaztea, zoragarria zara.»\n\nGalderak:\nNor ezkondu da gaur?\nJosune eta Iñigo ezkondu dira.\nNon ezkondu dira?\nBermeon ezkondu dira.\nNor da orain Josune?\nJosune Iñigoren emaztea da.\nZenbat pertsona daude?\n100 pertsona daude.\nOna da janaria?\nBai, janaria zoragarria da."
+    },
+    {
+      "title": "Kontua",
+      "summary": "Aiora and Joseba have lunch in Hondarribia; the bill shows three coffees, but they only had two.",
+      "newWords": [
+        "ziur",
+        "aizu",
+        "ea",
+        "txar",
+        "erantzun",
+        "arrazoi",
+        "ote",
+        "oker",
+        "kontatu",
+        "ala"
+      ],
+      "text": "Aiora eta Joseba Hondarribian daude, jatetxe batean. Mattin zerbitzaria da.\n\nMattin etortzen da. «Zer edan nahi duzue? Ardoa ala ura?»\n\n«Ura, mesedez», erantzuten du Aiorak.\n\n«Eta zuk? Ardoa ala ura?», galdetzen dio Mattinek Josebari.\n\n«Nik ere ura», erantzuten du Josebak.\n\nJaten dute. Dena ona da, baina tarta ez. «Tarta hau txarra da», esaten du Josebak. «Bai, oso txarra», esaten du Aiorak.\n\nGero bi kafe hartzen dituzte. Josebak kontua eskatzen du. Baina Mattin ez dago.\n\n«Non ote dago Mattin?», galdetzen du Aiorak. «Zer egiten ote du?»\n\nGero Mattin kontuarekin dator. Josebak kontua begiratzen du, eta kafeak kontatzen ditu: bat, bi, hiru. Hiru kafe!\n\n«Aizu, Mattin», esaten du Josebak. «Kontua okerra da. Hemen hiru kafe daude. Guk bi hartu ditugu.»\n\n«Ziur zaude?», erantzuten du Mattinek.\n\n«Bai, ziur nago. Aizu, kontatu zuk ere.»\n\n«Ea...», esaten du Mattinek. Berak ere kontatzen ditu. «Arrazoi duzu. Kontua okerra da. Barkatu.»\n\nMattinek kontu berri bat ekartzen du. Orain kontua ondo dago, eta Josebak ordaintzen du.\n\n«Ea, Joseba», esaten du Aiorak. «Tarta txarra eta kontua okerra. Baina zuk arrazoi duzu beti!»\n\nGalderak:\nZer edaten dute Aiorak eta Josebak?\nUra edaten dute.\nNola dago kontua?\nKontua okerra da.\nZiur dago Joseba?\nBai, Joseba ziur dago.\nNork du arrazoi?\nJosebak du arrazoi."
+    },
+    {
+      "title": "Lehen tortilla",
+      "summary": "Larraitz learns from her father Inaxio how to make a potato omelette, writes the recipe down and learns it by heart.",
+      "newWords": [
+        "ikasi",
+        "idatzi",
+        "irakurri",
+        "buruz",
+        "aldi",
+        "une",
+        "erdi",
+        "lau",
+        "behin",
+        "pixka"
+      ],
+      "text": "Larraitzek 20 urte ditu. Gaur tortilla egiten ikasi nahi du. Bere aitak, Inaxiok, tortilla oso ona egiten du.\n\n«Aita, nola egiten da?», galdetzen du Larraitzek.\n\n«Lehen aldia da?», galdetzen du Inaxiok.\n\n«Bai, lehen aldia da.»\n\n«Ondo. Lehen, idatzi behar duzu», esaten du Inaxiok. Aitak esaten du, eta Larraitzek idazten du: lau arrautza, lau patata eta gatz pixka bat.\n\nLarraitzek bere hitzak irakurtzen ditu. Behin. Bi aldiz. Hiru aldiz.\n\n«Orain buruz dakit!», esaten du. «Lau arrautza, lau patata eta gatz pixka bat.»\n\nLanean hasten dira. Une batean, Larraitzek ez daki zer egin. Bere hitzak berriro irakurtzen ditu.\n\n«Ez dakizu buruz?», galdetzen du aitak.\n\n«Une bat, aita!», esaten du Larraitzek. «Orain bai, badakit.»\n\nOrdu erdi geroago, tortilla prest dago. Larraitzek eta Inaxiok erdia jaten dute. Beste erdia amarentzat da.\n\n«Oso ona da!», esaten du Inaxiok. «Behin bakarrik egin duzu, eta ondo ikasi duzu.»\n\n«Bai», esaten du Larraitzek. «Eta orain buruz dakit. Ez dut irakurri behar!»\n\nGalderak:\nZer ikasi nahi du Larraitzek?\nTortilla egiten ikasi nahi du.\nZenbat aldiz irakurtzen ditu bere hitzak?\nHiru aldiz irakurtzen ditu.\nZer jaten dute Larraitzek eta Inaxiok?\nErdia jaten dute.\nNorentzat da beste erdia?\nBeste erdia amarentzat da.\nBuruz daki orain Larraitzek?\nBai, orain buruz daki."
+    },
+    {
+      "title": "Gozoki gehiegi",
+      "summary": "Little Maddi eats too many sweets on her birthday; at night her tummy hurts and her mother Zuriñe looks after her.",
+      "newWords": [
+        "min",
+        "lo",
+        "beldur",
+        "bihar",
+        "begi",
+        "kezkatu",
+        "gela",
+        "geldi",
+        "gaizki",
+        "zaindu"
+      ],
+      "text": "Gaur Maddiren urtebetetzea da. Maddik 7 urte ditu. Gozoki asko jan ditu, eta txokolate asko ere bai.\n\nGauean, Maddi gaizki dago. Mina du. «Ama, hemen mina dut», esaten du.\n\nBere ama, Zuriñe, kezkatuta dago. «Non duzu mina?», galdetzen du.\n\n«Hemen. Oso gaizki nago.»\n\nMaddi bere gelan dago, ohean. Geldi dago. Begiak itxita ditu.\n\n«Beldur naiz, ama», esaten du Maddik.\n\n«Ez izan beldurrik», esaten du Zuriñek. «Gozoki gehiegi jan dituzu. Hori da dena. Ni hemen nago. Nik zaintzen zaitut.»\n\nAmak ur pixka bat ematen dio. Maddik ura edaten du. Zuriñe gelan geratzen da, Maddi zaintzen.\n\nGero Maddi lo dago. Geldi dago, begiak itxita. Zuriñe oraindik kezkatuta dago. Ez du lo egiten. Maddi zaintzen du.\n\nGoizean, Maddik begiak irekitzen ditu. «Ama, ez dut minik!»\n\n«Oso ondo», esaten du Zuriñek. «Baina gaur ez dago gozokirik.»\n\n«Eta bihar?», galdetzen du Maddik.\n\n«Bihar ere ez!», esaten du Zuriñek. «Bihar ura eta sagarrak.»\n\nGalderak:\nZer jan du Maddik?\nGozoki asko eta txokolate asko jan ditu.\nNola dago Maddi gauean?\nMaddi gaizki dago, eta mina du.\nNola dago Zuriñe?\nZuriñe kezkatuta dago.\nZer egiten du Zuriñek gauean?\nMaddi zaintzen du.\nZer dago bihar Maddirentzat?\nBihar ura eta sagarrak."
+    },
+    {
+      "title": "Erregea eta ogia",
+      "summary": "A king leaves his city alone and, in a pretty village nearby, eats the best bread of his life.",
+      "newWords": [
+        "errege",
+        "herri",
+        "hiri",
+        "irten",
+        "agindu",
+        "onartu",
+        "polit",
+        "bikain",
+        "toki",
+        "inguru"
+      ],
+      "text": "Behin batean, errege bat hiri handi batean bizi da. Erregeak gauza guztiak ditu, baina ez dago ondo.\n\nEgun batean, erregeak hiritik irten nahi du. Goizean, bakarrik irteten da. Inork ez du ezagutzen.\n\nHiriaren inguruan herri txiki asko daude. Erregea herri polit batean sartzen da. Herria oso polita da, eta inguruan dena ederra da.\n\nHerrian, emakume batek ogia egiten du. Erregeak ogi bat hartzen du, ordaintzen du eta jaten du.\n\n«Hau bikaina da!», esaten du erregeak.\n\n«Eskerrik asko», esaten du emakumeak. «Toki honetan ogi bikaina egiten dugu.»\n\n«Ni erregea naiz», esaten du erregeak. «Zatoz nirekin hirira. Han toki handi bat dut zuretzat.»\n\nEmakumeak ez du onartzen. «Ez, eskerrik asko. Nire herria polita da. Nire tokia hemen dago.»\n\nErregeak bere erantzuna onartzen du. Gero agintzen du: egun guztietan, gizon batek herriko ogia hirira eraman behar du.\n\nHori da erregearen agindua. Orain, egun guztietan, gizon bat herritik hirira doa ogiarekin. Eta erregea oso ondo dago.\n\nGalderak:\nNon bizi da erregea?\nErregea hiri handi batean bizi da.\nPolita da herria?\nBai, herria oso polita da.\nZer jaten du erregeak herrian?\nOgi bat jaten du.\nJoaten da emakumea hirira?\nEz, emakumeak ez du onartzen.\nZer agintzen du erregeak?\nGizon batek herriko ogia hirira eraman behar du."
+    },
+    {
+      "title": "Taldeak irabazi du",
+      "summary": "Gaizka's football team wins, and the friends must decide together where to eat afterwards.",
+      "newWords": [
+        "talde",
+        "irabazi",
+        "aste",
+        "aukera",
+        "ideia",
+        "erabaki",
+        "heldu",
+        "batera",
+        "artean",
+        "bukatu"
+      ],
+      "text": "Gaizka eta bere lagunak talde bat dira. Aste guztietan futbolean jokatzen dute.\n\nGaur Gaizkaren taldeak irabazi du! Dena bukatu da, eta taldea oso ondo dago. Aste ona da.\n\n«Orain zer?», galdetzen du Lidek. «Elkarrekin jan behar dugu!»\n\nBi aukera daude. Aukera bat Gaizkaren etxean jatea da. Beste aukera bat kanpoan jatea da.\n\nGaizkak ideia bat du: «Nire etxera joan behar dugu!» Lidek beste ideia bat du: «Kanpoan jan behar dugu, leku on batean!»\n\n«Gure artean erabaki behar dugu», esaten du Gaizkak. «Zein da zuen aukera?»\n\nLagun guztiek batera esaten dute: «Kanpoan!» Gaizkak ere bai, beste guztiekin batera.\n\nErabakia hartu dute: kanpoan jan. Talde guztia leku on batean sartzen da. Gaueko 9etan heltzen dira.\n\nHan beste talde bat ere badago. Talde hori ere 9etan heldu da. Talde horrek ez du irabazi gaur. Baina bi taldeen artean ez dago arazorik. Elkarrekin jaten dute.\n\nGaueko 11etan dena bukatzen da. «Aste ona izan da», esaten du Lidek. «Taldeak irabazi du, eta nire ideia ere ona izan da!»\n\nGalderak:\nZer dira Gaizka eta bere lagunak?\nTalde bat dira.\nNork irabazi du gaur?\nGaizkaren taldeak irabazi du.\nZein da Lideren ideia?\nKanpoan jatea da Lideren ideia.\nZer da erabakia?\nErabakia kanpoan jatea da.\nZer ordutan heltzen dira?\nGaueko 9etan heltzen dira."
+    },
+    {
+      "title": "Hozkailua ez dabil",
+      "summary": "Begoña's fridge full of food stops working; her friend Manex comes and repairs it on the spot.",
+      "newWords": [
+        "konpondu",
+        "laguntza",
+        "espero",
+        "nahiko",
+        "jaso",
+        "atze",
+        "hara",
+        "axola",
+        "gutxi",
+        "bertan"
+      ],
+      "text": "Begoña Tolosan bizi da. Gaur goizean, Begoñaren hozkailua ez dabil. Eta barruan janari asko dago.\n\nBegoñak laguntza behar du. Manexi deitzen dio. Manex bere laguna da, eta etxeko gauzak konpontzen ditu.\n\n«Manex, laguntza behar dut. Nire hozkailua ez dabil.»\n\n«Etxean zaude?», galdetzen du Manexek.\n\n«Bai, etxean nago.»\n\n«Ondo. Hara noa orain. Zain egon.»\n\nBegoñak janaria hozkailutik ateratzen du. Denbora gutxi du. Manex azkar etorriko da? Begoñak hori espero du. «Espero dut», esaten du.\n\nOrdu erdi geroago, Manex hara heltzen da. «Kaixo, Begoña! Asko itxaron duzu?»\n\n«Nahiko, bai.»\n\nManexek hozkailua pixka bat jasotzen du, eta atzean begiratzen du.\n\n«Hemen dago arazoa, atzean», esaten du. «Arazo nahiko txiki bat da. Bertan konponduko dut.»\n\nManexek bertan konpontzen du. Hozkailua berriro dabil. Begoñak janaria jasotzen du, eta hozkailuan jartzen du berriro.\n\n«Zenbat ordaindu behar dizut?», galdetzen du Begoñak. «Diru gutxi dut gaur.»\n\n«Ez du axola», esaten du Manexek. «Lagunak gara.»\n\n«Eta zure denbora?»\n\n«Ez du axola, Begoña. Baina gaur zuk afaria egin behar duzu niretzat!»\n\n«Ados!», esaten du Begoñak.\n\nGalderak:\nZer ez dabil Begoñaren etxean?\nBegoñaren hozkailua ez dabil.\nZer behar du Begoñak?\nBegoñak laguntza behar du.\nNor da Manex?\nManex Begoñaren laguna da, eta etxeko gauzak konpontzen ditu.\nNon dago arazoa?\nArazoa atzean dago.\nNon konpontzen du Manexek hozkailua?\nBertan konpontzen du.\nZer egin behar du Begoñak?\nBegoñak afaria egin behar du Manexentzat."
+    },
+    {
+      "title": "Ogi gogorra",
+      "summary": "Old Antton finds today's bread too hard and asks Lierni, who bakes at home, for bread like his mother's.",
+      "newWords": [
+        "gogor",
+        "berdin",
+        "bezalako",
+        "zera",
+        "ondoren",
+        "ederki",
+        "baita",
+        "nora"
+      ],
+      "text": "Antton Azpeitian bizi da. Egun guztietan, Lierniren etxera joaten da. Liernik ogia egiten du etxean, eta Anttonek han erosten du.\n\nBidean, lagun batek galdetzen du: «Nora zoaz, Antton?»\n\n«Lierniren etxera noa», esaten du Anttonek.\n\nLierniren etxean, Anttonek bat hartzen du. Baina gaur hau gogorra da.\n\n«Lierni, hau gogorra da», esaten du Anttonek.\n\n«Ez, Antton», esaten du Liernik. «Guztiak berdinak dira. Gaurkoak dira.»\n\n«Berdin da. Gogorra da», esaten du Anttonek. «Nik nire amaren ogia bezalako bat nahi dut.»\n\n«Zure amaren ogia bezalako bat? Zer da hori?»\n\n«Zera... ez da gogorra. Oso ona da, eta beltza.»\n\n«Hori ere badut», esaten du Liernik. «Hemen dago.»\n\nAnttonek hori erosten du. Baita gazta pixka bat ere.\n\nOndoren, etxera itzultzen da. Etxean, jan egiten du. Ez da gogorra. «Ederki!», esaten du. «Nire amaren ogia bezalakoa da. Liernik ederki egiten du.»\n\nBeste egun batean, Antton Lierniren etxera doa berriro.\n\n«Nora zoaz, Antton?», galdetzen du lagunak.\n\n«Badakizu nora», esaten du Anttonek. «Lierniren etxera. Zera erostera noa: ogi beltza. Eta baita gazta pixka bat ere!»\n\nGalderak:\nNora joaten da Antton egun guztietan?\nLierniren etxera joaten da.\nOna da gaur ogia?\nEz, gaur ogia gogorra da.\nZer nahi du Anttonek?\nBere amaren ogia bezalako bat nahi du.\nGazta ere erosten du Anttonek?\nBai, baita gazta pixka bat ere.\nZer egiten du ondoren?\nOndoren etxera itzultzen da."
+    }
+  ]
+}
