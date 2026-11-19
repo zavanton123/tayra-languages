@@ -278,6 +278,7 @@ EXCLUDE["kw"] = frequency_cornish.CORNISH_EXCLUDE
 OVERRIDES["mn"] = frequency_mongolian.MONGOLIAN_OVERRIDES
 EXCLUDE["mn"] = frequency_mongolian.MONGOLIAN_EXCLUDE
 EXCLUDE["km"] = frequency_km.KHMER_EXCLUDE
+OVERRIDES["kk"] = frequency_kazakh.KAZAKH_OVERRIDES
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
 

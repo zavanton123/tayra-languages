@@ -123,7 +123,9 @@ def cases(x, a, y, after=None):
     s = sound(x)
     g = "ғ" if a == "а" else "г"
     if after == "3":
-        out = [x + "н" + y + "ң", x + "н", x + "н" + a, x + "нд" + a, x + "н" + a + "н", x + "мен", x + "нд" + a + g + y]
+        # With "according to" too (айтуынша, пікірінше).
+        out = [x + "н" + y + "ң", x + "н", x + "н" + a, x + "нд" + a, x + "н" + a + "н", x + "мен", x + "нд" + a + g + y,
+               x + "нш" + a]
         return out
     loc = ("д" if _VOICED[s] else "т") + a
     out = [x + _GENITIVE[s] + y + "ң", x + _ACCUSATIVE[s] + y, x + loc, x + _ABLATIVE[s] + a + "н",
@@ -132,7 +134,8 @@ def cases(x, a, y, after=None):
     if x.endswith(("у", "и")):
         out += [x + "н" + y + "ң", x + "н" + y]
     if after == "12":
-        out += [x + a, x + "мен"]
+        # And "in my (your) opinion" (ойымша, менімше).
+        out += [x + a, x + "мен", x + "ш" + a]
     else:
         out.append(x + _g(x, a) + a)
     return out
@@ -179,6 +182,18 @@ def spelled(form):
     return form.replace("йа", "я").replace("йу", "ю") if "й" in form else form
 
 
+def attributive(word, a, y):
+    """A word with -ғы, of a time or place (жылғы, бүгінгі, кешегі, қысқы, кейінгі)."""
+    return word + _g(word, a) + y
+
+
+def comparatives(word, a, y):
+    """An adjective's or adverb's comparative in -рақ (жақсырақ, тезірек, көбірек)."""
+    if sound(word) == "V":
+        return [word + "р" + a + _q(a)]
+    return [v + y + "р" + a + _q(a) for v in _vowel_stems(word)[:2]]
+
+
 def noun_forms(word, plural=True, predicative=True):
     """A noun's (adjective's, number's) regular forms: cases, plural, possessives and their cases, predicative endings."""
     out = set()
@@ -200,8 +215,9 @@ def noun_forms(word, plural=True, predicative=True):
                 out.update(cases(p, a, y, kind))
         # The -нікі of whose (баланікі, Асқардікі).
         out.add(word + _GENITIVE[sound(word)] + "ікі")
-        # Without (баласыз, ақшасыз).
+        # Without (баласыз, ақшасыз), and of a time (жылғы, кешегі, қысқы).
         out.add(word + "с" + y + "з")
+        out.add(attributive(word, a, y))
     out = {spelled(f) for f in out}
     out.discard(word)
     return out
@@ -330,12 +346,16 @@ def derived_verbs(verb):
     out = set()
     for stem, voiced, vowel in verb_stems(verb):
         for a, y in harmonies(stem):
+            g = _g(stem, a)
+            causatives = [stem + g + y + "з", stem + ("д" if _VOICED[sound(stem)] else "т") + y + "р"]
             if vowel:
-                made = [stem + "л", stem + "н", stem + "с", stem + "т"]
+                # With the passive of a vowel stem doubled too (делінген).
+                made = [stem + "л", stem + "н", stem + "с", stem + "л" + y + "н"]
+                causatives.append(stem + "т")
             else:
                 made = [voiced + y + ("н" if stem.endswith("л") else "л"), voiced + y + "н", voiced + y + "с"]
-            g = _g(stem, a)
-            made += [stem + g + y + "з", stem + ("д" if _VOICED[sound(stem)] else "т") + y + "р"]
+            # A causative's passive (енгізілген, жүргізілді, орнатылған).
+            made += causatives + [c + y + "л" for c in causatives]
             for m in made:
                 out.add(m + "у")
     out.discard(verb)
@@ -345,15 +365,112 @@ def derived_verbs(verb):
 # The little words' harmonic variants, each the first word's.
 VARIANTS = {"ма": ("ме", "ба", "бе", "па", "пе"), "да": ("де", "та", "те"), "мен": ("бен", "пен"), "ғой": ("қой",),
             "ғана": ("қана",)}
-# Words no pack entry has, with their kinds.
+# Words no pack entry has, with their kinds. The English pack lacks many of the commonest (жету, қайту, бұрын, мұндай, жиі,
+# тірі): these are the ones the corpora use most that are no form of a word of the pack, and everyday words besides.
 ADDED = {"да": "particle", "тағы": "adv", "арқылы": "prep", "қандай": "pron"}
+for _kind, _words in {
+    "verb": """жету қайту қолдау шығару жинау кездесу дайындау қолдану орындау ауыстыру әкелу әкету сүру жоғалу жуу тазалау
+        пісіру көмектесу мәлімдеу арнау келтіру қайтару асыру өзгерту өзгеру тарау ұйымдастыру атқару ауыру айналысу көріну
+        өтіну қарастыру қадағалау қудалау қамту мойындау иелену күшею үлгеру көздеу алдау босау көшіру шалу шегу тию кешу ілу
+        жаю сынау айдау төну күресу арту жұмсау сағыну оқыту қыдыру ашулану кеңею қысқару азаю жалғастыру ескеру тоқтату
+        жалғасу жөнелту құттықтау шақырту тыйылу ұрлау ұру қуу сөгу мақтану таңдану қызығу шешіну жуыну тамақтандыру
+        демалдыру бастыру іздестіру тексерту сұрастыру әзірлеу түсіндіру шомылу айығу жазылу жөтелу түшкіру есінеу
+        сыйлау тігу тоқу үтіктеу сыпыру ұйықтату ұнату жасыру жасырыну тығылу күту тапсыру тастау""",
+    "noun": """бой басшы журналист депутат судья ая тұрғы тұс аст арт кесір жай дау орган бизнес процесс қаражат бюджет валюта
+        кандидат гектар кен проблема қатысушы нұқсан тосқауыл үкім соққы видео жылу отставка интернет шеру науқан қастандық
+        күдік жақтас режиссер қарт алғыс бәсеке астар тиек айыпталушы жәбірленуші төлем ереуіл бағам тізгін гол жұртшылық шу
+        алаңдаушылық виза тапшылық дүркін килограмм жүлдегер тонна олимпиада чемпион адвокат совет түрткі жұмысшы наразылық
+        аралық қамау тыйым жарты такси вокзал кафе фото тарелка печенье аяқкиім кешкі мейрам демалыс саяхат сапар қонақүй
+        пойыз ұшқыш жүргізуші сатушы аспаз дәрі дәріхана шаштараз ойыншық қуыршақ доп велосипед жаңбыр боран тұман аяз
+        жұмыртқа көже палау бауырсақ қымыз шұбат ірімшік сүзбе айран қаймақ шырын кәмпит торт сабын сүлгі тіс шаш
+        арқа іш бел мойын иық тізе саусақ тырнақ ерін тіл құлақ мұрын маңдай бет шеке ана әже немере іні сіңлі әпке жиен
+        ағай келіншек нағашы құда жезде жеңге отбасы туыс көрші""",
+    "adj": """мұндай осындай ешқандай мынадай мынандай сондай бұндай белгілі түрлі бөлек тірі ерте наразы қарулы жария ондаған
+        мыңдаған жүздеген миллиондаған тиесілі жеткілікті айқын басқаша сапалы қолайлы жекеменшік көршілес білікті құзырлы
+        қатерлі жазбаша санаулы өрескел кәдімгі ащы өткір сұмдық елеулі талантты тік тығыз шамалы бақытты қуанышты сабырлы
+        зиянды ұялы баяғы тәуелді сыбайлас коммерциялық коммуналдық террорлық экстремистік кедендік авторитарлық қызметтік
+        кеңестік заңдық аталмыш бірлескен қаншама тыныш баяу шулы жайлы ыңғайлы қымбат дәмсіз ашулы ренішті шаршаңқы ұқыпты
+        тәртіпті сыпайы мейірімді ақкөңіл жомарт сараң""",
+    "adv": """бұрын жиі әрі солай олай бұлай алдымен алғаш талай сосын онша әзірше біршама бірер көбінесе неліктен
+        біртіндеп небәрі дерлік барынша керісінше ұзамай күрт мейлінше айтарлықтай бүгінде қайтадан қаншалықты соншалықты
+        бірден әлдебір әлгі бәрібір қалайша барша бірқатар әрбір кей сонау осынау әрқайсысы ешқайсысы жалғыз әрең әдейі
+        кешке түнде таңертең бірге бірақ дейін шейін әбден мүлде мүлдем тым әсте""",
+    "intj": "жарайды жарайсың әй ой әттең пай уа қап",
+    "conj": "һәм я яки әйтпесе",
+}.items():
+    for _word in _words.split():
+        ADDED.setdefault(_word, _kind)
+# Words of a kind above that are verbs too (қамау "arrest", "to arrest"; жолдау "message", "to send").
+ADDED_VERBS = {"қамау", "жолдау"}
+for _kind, _words in {
+    "verb": """қылу ерту кесу өтеу қозғау аралау белгілеу бағыттау құрау таныстыру жаралау нашарлау жақсарту жақындау азайту
+        күшейту қаржыландыру төмендеу өсіру ұзарту жоғалту мәжбүрлеу нығайту қымбаттау насихаттау толтыру байланыстыру
+        туындау қоршау тізу жұқтыру ұласу шабу жұлу арқалау шоғырлану ушығу жаулау қаптау алаңдау үміттену қауіптену
+        шағымдану сіңіру""",
+    "noun": """алд радио әкімдік төрайым телеарна рубль формат сепаратист бизнесмен митинг комментарий филиал мигрант атлет
+        сенатор актер банкир тергеуші сотталушы үлескер шеруші хиджаб үрдіс бұзушылық келісімшарт премьер километр колония
+        милиция өндіруші еңбекақы металл медаль триллион тума мэр тірлік күнкөріс балл тер сыйақы араздық иелік бөлімше
+        құран әркім қайсы әлек""",
+    "adj": """қосалқы әлгіндей озық құқылы сыңайлы көрнекті тиімсіз жарамсыз жіті аяусыз атышулы шешуші ұтымды сорақы
+        қисынсыз жалпыұлттық постсоветтік маркалы дәрежелі зәру түпкілікті толыққанды осыншама осынша сонша небір душар""",
+    "adv": """еш дөп түгелдей екіталай анағұрлым неғұрлым сірә ылғи әзер былайша бұлайша қысқаша аздап қашанда ешуақытта
+        біраз төтеп""",
+    "pron": "қай бірдеңе",
+    "particle": "міне",
+    "intj": "қайдам о әу ә қайран",
+}.items():
+    for _word in _words.split():
+        ADDED.setdefault(_word, _kind)
+for _kind, _words in {
+    "verb": """жолдау бірлесу асырау шалдығу ұйымдасу мамандандыру жылжу мақұлдау қиындау үйлену жақтау жиілеу жығу жағу қадау
+        құлдырау жию қысу қыру сілтеу жүгіну кеңейту орау ысыру үйлестіру айрылу күзету баптау жетілдіру үнемдеу тойлау
+        бейімдеу заңдастыру теру тыну жолығу қию озу ілігу толықтыру өндіру ауысу танысу жетісу""",
+    "noun": """шығын қарсылас егін лақап мораторий диссидент блогер сұқбат қарқын допинг бүлік медиа атлетика коммуникация
+        девальвация позиция квота элита миллиардер киік лидер кандидатура өсім қуғын изолятор фестиваль айырма интеграция
+        репрессия табалдырық теракт зейнеткерлік борышкер жем цензура құқыққорғаушы колледж мониторинг геноцид менеджер мұң
+        желеу өкілет өкілеттік шолу қарсаң төңірек өкімет доктор коррупция курс факт тендер фирма камера жырау естелік
+        сыбыс мердігер құрылтайшы көшірме қарымта тұрақсыздық қымбатшылық жеңілдік сайыс үзінді астық""",
+    "adj": """коммунистік террористік туристік журналистік бөлмелі балалы көпбалалы орыстілді қазақтілді ресейшіл кішігірім
+        ақшалай қатарлы бұлыңғыр асығыс бейім мәжбүрлі тәуір байырғы сайлауалды ойлы адами кассациялық күлкілі жалдамалы
+        шекаралас қатыгез дамушы оңтайлы үстем бағынышты жалпақ аграрлық интеграциялық дөрекі шикі бастамашыл қитұрқы жемқор
+        іскер айтулы қыруар француз латын армян православ тұрғылықты көпқабатты бірегей шалғай іспетті ауызша біртүрлі
+        оншақты жалпыхалықтық сай үздік""",
+    "adv": """аулақ көптеп өздігінен бірауыздан тіптен біресе ұдайы ілгері мықтап амалсыздан ертеректе әрмен кілең күштеп
+        белсене бірлесе онан аяқасты әшкере жүзеге""",
+}.items():
+    for _word in _words.split():
+        ADDED.setdefault(_word, _kind)
+# Spellings that are mostly a common word's form, though the pack has them as a rarer word of their own (алып "giant",
+# тұрып "radish", жатыр "womb", десе "dessiatina"), or as a word that is a form (күні, отыр): the common word's.
+KAZAKH_OVERRIDES = {}
+for _word, _forms in {
+    "алу": "алып алды алыңыз алыңдар", "қарау": "қараған қарады", "жазу": "жазған", "тұру": "тұрып", "деу": "десе",
+    "айту": "айт", "келу": "келі", "беру": "берет", "жату": "жатыр", "отыру": "отыр", "күн": "күні", "болу": "болатын боп болары боларын",
+    "жыл": "жылы", "әкелу": "әкеп", "құқық": "құқы құқын құқына құқымыз құқымызды", "бәрі": "бәріміз бәрімізге", "көп": "көбісі", "алд": "алда алдағы",
+}.items():
+    KAZAKH_OVERRIDES.update({_form: [_word] for _form in _forms.split()})
+# Forms of the auxiliaries еді and екен, which no paradigm makes.
+AUXILIARIES = {
+    "еді": "едім едің едіңіз едік едіңдер едіңіздер",
+    "екен": "екенмін екенсің екенсіз екенбіз екенміз екенсіңдер екенін екені екеніне екенінде екендігі екендігін екендігіне "
+            "екенін екенімді екеніңді екенімізді екеніңізді екендігімен",
+}
+# Words the pack has as adjectives too that take no noun endings (ал "but": алда, алдағы are алд's).
+NOT_NOMINAL = {"ал"}
+# The adverbs with a comparative (тезірек, жиірек, ертерек).
+COMPARED = {"тез", "жиі", "ерте", "кеш", "жылдам", "баяу", "ақырын", "әрі", "аз", "көп"}
+# Words that take the noun endings though the pack has them as another kind (өзі, өзінің; жоққа, жоғы; анасы).
+NOMINAL_ALSO = {"өз", "жоқ", "ана", "бар", "емес", "кейбір", "қайсы", "біраз", "әркім", "бүгін", "кейін", "қазір", "ертең", "кеше",
+                "бұрын", "ешкім", "ештеңе"}
+# The verbs whose stems stand alone as the present progressive, with its personal endings (отырмын, жүрміз, жатырсың).
+PROGRESSIVES = {"отыру": "отыр", "жүру": "жүр", "тұру": "тұр", "жату": "жатыр"}
 # The pronouns' cases, which no paradigm makes (маған, оған, мұны).
 PRONOUNS = {
     "мен": "менің маған мені менде менен менімен менсіз менікі",
     "сен": "сенің саған сені сенде сенен сенімен сенсіз сенікі",
     "ол": "оның оған оны онда одан онымен оларсыз онікі",
-    "біз": "біздің бізге бізді бізде бізден бізбен бізсіз біздікі",
-    "сіз": "сіздің сізге сізді сізде сізден сізбен сізсіз сіздікі",
+    "біз": "біздің бізге бізді бізде бізден бізбен бізсіз біздікі біздегі біздер",
+    "сіз": "сіздің сізге сізді сізде сізден сізбен сізсіз сіздікі сіздегі",
     "олар": "олардың оларға оларды оларда олардан олармен",
     "сендер": "сендердің сендерге сендерді сендерде сендерден сендермен",
     "сіздер": "сіздердің сіздерге сіздерді сіздерде сіздерден сіздермен",
@@ -387,8 +504,27 @@ def regular_forms(word, kinds, nominal_verbs=True):
     out = set()
     if "verb" in kinds and word.endswith(("у", "ю")):
         out |= verb_forms(word, nominal=nominal_verbs)
-    if kinds & _NOMINAL and word not in VARIANTS and word not in PRONOUNS:
+    if (kinds & _NOMINAL and word not in VARIANTS and word not in PRONOUNS and word not in NOT_NOMINAL) or word in NOMINAL_ALSO:
         out |= noun_forms(word)
+    for a, y in harmonies(word):
+        if "adj" in kinds or word in COMPARED:
+            out.update(comparatives(word, a, y))
+        if kinds & {"adv", "prep", "postp"}:
+            out.add(attributive(word, a, y))
+    # A loanword's double or -ст end is written single before an ending (процесі, процестер; журналистер).
+    if out and len(word) > 3 and word[-1] not in _TRUE_VOWELS and (word[-1] == word[-2] or word.endswith("ст")):
+        out |= noun_forms(word[:-1])
+    out.discard(word)
+    return out
+
+
+def adjective_forms(word):
+    """A noun's adjectives in -лық (аудандық, оппозициялық), each with its commonest forms."""
+    out = {}
+    for a, y in harmonies(word):
+        made = word + {"V": "л", "R": "л", "L": "д", "N": "д", "Z": "д", "T": "т"}[sound(word)] + y + _q(a)
+        voiced = made[:-1] + _VOICING[made[-1]]
+        out[made] = {made, voiced + y, voiced + y + "н", voiced + y + "н" + a, voiced + y + "нд" + a}
     return out
 
 
@@ -402,6 +538,8 @@ def load(db, pos, lemmas, common, dictionaries):
     for word, kind in ADDED.items():
         pos[word].add(kind)
         common[word] = word
+    for word in ADDED_VERBS:
+        pos[word].add("verb")
     fixed = set()
     for word, variants in VARIANTS.items():
         common.setdefault(word, word)
@@ -410,7 +548,12 @@ def load(db, pos, lemmas, common, dictionaries):
             common.pop(variant, None)
             lemmas[variant] = [word]
             fixed.add(variant)
-    for word, forms in PRONOUNS.items():
+    # A verb of the pack is a word of its own, though the pack has it as another's form too (түсіну of түсу, оралу of орау).
+    for word in [w for w in lemmas if "verb" in pos.get(w, set()) and w in common and w.endswith(("у", "ю"))]:
+        if word in lemmas and word not in KAZAKH_OVERRIDES:
+            del lemmas[word]
+    progressive = {v: " ".join(f for a, y in harmonies(b) for f in predicatives(b, a, y)) for v, b in PROGRESSIVES.items()}
+    for word, forms in list(PRONOUNS.items()) + list(AUXILIARIES.items()) + list(progressive.items()):
         for form in forms.split():
             if form not in OWN:
                 lemmas[form] = sorted(set(lemmas.get(form, [])) | {word})
@@ -425,9 +568,17 @@ def load(db, pos, lemmas, common, dictionaries):
         for form in regular_forms(word, pos.get(word, set())):
             if seen is None or form in seen:
                 generated[form].add(word)
+    # A noun's adjective in -лық is the noun's where the pack has no such word (аудандық; not барлық "all", бар's).
+    for word in [w for w in common if LETTERS.fullmatch(w) and len(w) > 1 and ("noun" in pos.get(w, set()) or w in NOMINAL_ALSO)]:
+        for made, forms in adjective_forms(word).items():
+            if made in common:
+                continue
+            for form in forms:
+                if seen is None or form in seen:
+                    generated[form].add(word)
     for verb in verbs:
         for derived in derived_verbs(verb):
-            if derived in pos:
+            if "verb" in pos.get(derived, set()):
                 continue
             for form in verb_forms(derived) | {derived}:
                 if seen is None or form in seen:
