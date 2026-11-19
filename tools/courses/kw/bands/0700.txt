@@ -1,100 +1,100 @@
-1	601	lytherenna	lytherenn lytherennys
-2	602	lewya	lewen lewis lewyas lewys lywya lywyas
-3	603	dorn	dewdhorn dhiwla dhorn diwla dornow dornys torn tornys
-4	604	gwels	gwelsen gwelsow wels welsen welsyn wyls
-5	605	kemeneth	gemeneth gemenethow hemeneth kemenethow
-6	606	fest	
-7	607	gerys-da	
-8	608	liter	
-9	609	bosek	
-10	610	lytherennek	letherennek lytherednek lytherenegi lythyrennek
-11	611	krev	crev grev krevva
-12	612	shap	
-13	613	el	eledh
-14	614	lester	lesteryow lestri
-15	615	kedhlow	
-16	616	mosk	
-17	617	gwav	gwavow gwâv wav
-18	618	effeyth	effeythow effeythyow
-19	619	kolon	colon colonnow golon holon koloniow
-20	620	bywhes	
-21	621	chanjya	chynjyes janjya
-22	622	kesva	gesva
-23	623	assaya	assayas assayes assayons assayys
-24	624	rom	
-25	625	apoyntya	apoyntyes apoyntys
-26	626	oy	oyow
-27	627	kampolla	compla gampoll gampolla gampollas gompla kampoll kampollys kompla
-28	628	ranna	radna radnas rannas rannys rennys rydnys rynnys
-29	629	karya	carya gar garsa garya garyas har kar karyas karyes karyon
-30	630	vyth	veth vith
-31	631	kila	gila gyla kylla
-32	632	iwerdhonek	
-33	633	ollgemmyn	
-34	634	efanvos	
-35	635	bern	bernow bernyow vern vernyow
-36	636	kelmys	
-37	637	algi	
-38	638	tamm	dabm demmyn tabm tebmyn temmyn thamm
-39	639	kalgh	calgh galgh halyow kal
-40	640	lin	linyow linys
-41	641	liv	livow livyow livys
-42	642	ergh	erghas
-43	643	erthygel	erthyglow
-44	644	lytheren	letheren lytherednow lytherennow lythyren
-45	645	kell	diwgell gellow kellow kellyow
-46	646	koswik	goswigow goswik koswigow koswikow
-47	647	mynnes	finna fynna fynnas fynnens fynnons fynnsa mennys mynn mynnas mynnen mynnons mynnsa mynnys vennas vydn vydna vynna vynnas vynnens vynnes vynnis vynnons vynnsa vynnys
-48	648	tal	dal talyow thal
-49	649	howlsedhes	howlsedhesow
-50	650	kerensa	gerenja gerensa herensa kerenja
-51	651	organedh	organedhow organydh
-52	652	rewlya	rewlyas rewlyes rowlya
-53	653	artydh	artydhyon
-54	654	kanker	canker ganker kankerow kankres
-55	655	losow	losowen losowyow losowys
-56	656	gwreg	gwragedh wragedh wreg
-57	657	kesstrif	
-58	658	negys	negesyow negysyow
-59	659	neyja	neijys neyj neyjas neyjow neyjys
-60	660	omdhiskwedhes	omdhiskwedh omdhiskwedhas omdhiskwedhi omdhiskwedhsa omdhiskwedhyas
-61	661	bronn	brodn brodnow bronnen bronnow dhiwvron diwvron frodnow fronn fronnow vrodn vrodnow vronn
-62	662	esedh	esedhow
-63	663	loos	loes
-64	664	filosofer	filosofers filosoforyon
-65	665	gweyth	gweithys gweythow gweythyow gweythys weyth weythyow
-66	666	py	fy pe
-67	667	viajya	viajyas viajys vyajons vyajya vyajyas vyajys
-68	668	kevarwodher	
-69	669	resegva	
-70	670	sport	sportow sportys
-71	671	krows	crows crowsys grows growsow krowsow
-72	672	fatel	
-73	673	gwara	wara
-74	674	kudyn	gudynnow hudynnow kudydnow kudynnow
-75	675	pris	bris fris prisyow prysyow
-76	676	gwlaskor	gwlaskordhow wlascor wlaskor wlaskordhow
-77	677	mires	firas mir miras mirewgh miri mirys vir viras vires
-78	678	komendya	comendya comendys gomend gomendya gomendyas gomendys komend komendyes komendys
-79	679	dasserghyans	dhasserghyans
-80	680	ammeth	abmeth ammethys
-81	681	passyes	
-82	682	priweyth	
-83	683	pedrek	bedrek pedrogow
-84	684	growan	rowan wrowan
-85	685	neppyth	neppeth
-86	686	avonsya	avons avonsyas avonsyes avonsys
-87	687	deges	dheges
-88	688	munys	vunys
-89	689	poll	boll bollow foll pollow
-90	690	devedhyans	devedhyansow dhevedhyans
-91	691	glow	low
-92	692	dyllans	
-93	693	tipek	
-94	694	towl	dowl dowlow thowlow towlow
-95	695	diberth	dhiberth dhiberthas dyberthas tiberth tiberthas
-96	696	krysi	gryji grysas grysi grysis grysons gryssa grysys krisis kryji krysas krysyas krysys
-97	697	anserghek	
-98	698	displegyans	
-99	699	te	
-100	700	rewl	rewlow rowl
+1	601	dorn	dewdhorn dhiwla dhorn diwla dornow dornys torn tornys
+2	602	gwels	gwelsen gwelsow wels welsen welsyn wyls
+3	603	kemeneth	gemeneth gemenethow hemeneth kemenethow
+4	604	fest	
+5	605	gerys-da	
+6	606	liter	
+7	607	bosek	
+8	608	lytherennek	letherennek lytherednek lytherenegi lythyrennek
+9	609	krev	crev grev krevva
+10	610	shap	
+11	611	el	eledh
+12	612	lester	lesteryow lestri
+13	613	kedhlow	
+14	614	mosk	
+15	615	gwav	gwavow gwâv wav
+16	616	effeyth	effeythow effeythyow
+17	617	kolon	colon colonnow golon holon koloniow
+18	618	bywhes	
+19	619	chanjya	chynjyes janjya
+20	620	kesva	gesva
+21	621	assaya	assayas assayes assayons assayys
+22	622	rom	
+23	623	apoyntya	apoyntyes apoyntys
+24	624	oy	oyow
+25	625	kampolla	compla gampoll gampolla gampollas gompla kampoll kampollys kompla
+26	626	ranna	radna radnas rannas rannys rennys rydnys rynnys
+27	627	karya	carya gar garsa garya garyas har kar karyas karyes karyon
+28	628	vyth	veth vith
+29	629	kila	gila gyla kylla
+30	630	iwerdhonek	
+31	631	ollgemmyn	
+32	632	efanvos	
+33	633	bern	bernow bernyow vern vernyow
+34	634	kelmys	
+35	635	algi	
+36	636	tamm	dabm demmyn tabm tebmyn temmyn thamm
+37	637	kalgh	calgh galgh halyow kal
+38	638	lin	linyow linys
+39	639	liv	livow livyow livys
+40	640	ergh	erghas
+41	641	erthygel	erthyglow
+42	642	lytheren	letheren lytherednow lytherennow lythyren
+43	643	kell	diwgell gellow kellow kellyow
+44	644	koswik	goswigow goswik koswigow koswikow
+45	645	mynnes	finna fynna fynnas fynnens fynnons fynnsa mennys mynn mynnas mynnen mynnons mynnsa mynnys vennas vydn vydna vynna vynnas vynnens vynnes vynnis vynnons vynnsa vynnys
+46	646	tal	dal talyow thal
+47	647	howlsedhes	howlsedhesow
+48	648	kerensa	gerenja gerensa herensa kerenja
+49	649	organedh	organedhow organydh
+50	650	rewlya	rewlyas rewlyes rowlya
+51	651	artydh	artydhyon
+52	652	kanker	canker ganker kankerow kankres
+53	653	losow	losowen losowyow losowys
+54	654	gwreg	gwragedh wragedh wreg
+55	655	kesstrif	
+56	656	negys	negesyow negysyow
+57	657	neyja	neijys neyj neyjas neyjow neyjys
+58	658	omdhiskwedhes	omdhiskwedh omdhiskwedhas omdhiskwedhi omdhiskwedhsa omdhiskwedhyas
+59	659	bronn	brodn brodnow bronnen bronnow dhiwvron diwvron frodnow fronn fronnow vrodn vrodnow vronn
+60	660	esedh	esedhow
+61	661	loos	loes
+62	662	filosofer	filosofers filosoforyon
+63	663	gweyth	gweithys gweythow gweythyow gweythys weyth weythyow
+64	664	py	fy pe
+65	665	viajya	viajyas viajys vyajons vyajya vyajyas vyajys
+66	666	kevarwodher	
+67	667	resegva	
+68	668	sport	sportow sportys
+69	669	krows	crows crowsys grows growsow krowsow
+70	670	fatel	
+71	671	gwara	wara
+72	672	kudyn	gudynnow hudynnow kudydnow kudynnow
+73	673	pris	bris fris prisyow prysyow
+74	674	gwlaskor	gwlaskordhow wlascor wlaskor wlaskordhow
+75	675	mires	firas mir miras mirewgh miri mirys vir viras vires
+76	676	komendya	comendya comendys gomend gomendya gomendyas gomendys komend komendyes komendys
+77	677	dasserghyans	dhasserghyans
+78	678	ammeth	abmeth ammethys
+79	679	priweyth	
+80	680	pedrek	bedrek pedrogow
+81	681	growan	rowan wrowan
+82	682	neppyth	neppeth
+83	683	avonsya	avons avonsyas avonsyes avonsys
+84	684	deges	dheges
+85	685	munys	vunys
+86	686	poll	boll bollow foll pollow
+87	687	devedhyans	devedhyansow dhevedhyans
+88	688	glow	low
+89	689	dyllans	
+90	690	tipek	
+91	691	towl	dowl dowlow thowlow towlow
+92	692	diberth	dhiberth dhiberthas dyberthas tiberth tiberthas
+93	693	krysi	gryji grysas grysi grysis grysons gryssa grysys krisis kryji krysas krysyas krysys
+94	694	anserghek	
+95	695	displegyans	
+96	696	te	
+97	697	rewl	rewlow rowl
+98	698	skav	scav
+99	699	frank	franc
+100	700	bronnvil	bronnviles vronnvil vronnviles

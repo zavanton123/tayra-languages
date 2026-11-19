@@ -1,100 +1,100 @@
-1	1201	pervedh	bervedh
-2	1202	gwas	gwesyon
-3	1203	tiger	digres tigres tigri
-4	1204	gwastas	wastas
-5	1205	kreslu	greslu kresluyow
-6	1206	wortiwedh	wor'tiwedh
-7	1207	olifans	olifanses
-8	1208	nasya	nas nasyas nasys nesys
-9	1209	klav	glav glevyon klevyon lav
-10	1210	bargen	bargednyow bargennyow bargenys vargednyow vargen vargennyow vargenyow
-11	1211	gras	ras rasow wras
-12	1212	brewi	brew brewys brow bryw prewi prow vrewi
-13	1213	tyli	dalvia dalvya delys dyli dylir dylis talvia tylys
-14	1214	wovernans	
-15	1215	poblus	
-16	1216	hwegys	whegys
-17	1217	hweg	wheg
-18	1218	spas	spasow spassow
-19	1219	tredanek	dredanek
-20	1220	gwiw	hwiw wiw
-21	1221	edhom	edhommow edhomow odhom
-22	1222	goghi	goghien woghi woghien
-23	1223	dedhwi	dedhwys dhedhow dhedhwi dydhow tedhwi
-24	1224	leski	leskas leskys losk loskas loskow losksons
-25	1225	dalghenna	dalghenn dalghennas dalghennys dhalghednas dhalghednys dhalghenna dhalghennas
-26	1226	kaletter	galetterow kaletterow kaletteryow
-27	1227	ponn	bodn bonn podn
-28	1228	deklarya	declarya deklaryes deklarys dheklar dheklarya dheklaryas teklarya teklaryas
-29	1229	fogella	fogell fogellas fogellys
-30	1230	golya	golia goliys golyas golys kolya wolas wolya wolyas
-31	1231	diwweyth	
-32	1232	pennskrifys	
-33	1233	tekst	
-34	1234	rannyethow	
-35	1235	kemmynieth	
-36	1236	steronydh	
-37	1237	varya	
-38	1238	ragdres	
-39	1239	sosyel	
-40	1240	ombreder	
-41	1241	avi	aviow
-42	1242	aber	aberow
-43	1243	boni	fonyow vonyow
-44	1244	gitar	gitarow gitaryow itaryow
-45	1245	peryllys	beryllys
-46	1246	sodhva	sodhvaow
-47	1247	lergh	lerghow
-48	1248	pluven	bluvennow fluvednow fluvennow pluvednow pluvennow
-49	1249	gorher	worher
-50	1250	herdhya	herdh herdhyas herdhys
-51	1251	kans	cans hans
-52	1252	pasa	bases bassa basyas pasas passys pesys vasa vassa
-53	1253	blas	blasow vlas
-54	1254	kler	cler clerra klerra ler
-55	1255	nerven	nervennow
-56	1256	rewi	rewys
-57	1257	tornyaseth	
-58	1258	adhyskys	
-59	1259	finek	
-60	1260	omrewl	
-61	1261	gweythva	
-62	1262	dhyffrans	
-63	1263	oryon	
-64	1264	skiansek	
-65	1265	karbonat	
-66	1266	liesplek	
-67	1267	leven	
-68	1268	varyans	
-69	1269	lokomotyv	
-70	1270	ynjynor	
-71	1271	sodiom	
-72	1272	kalish	
-73	1273	ryvar	
-74	1274	magnesiom	vagnesiom
-75	1275	galwesik	alwesik halwesik
-76	1276	kosk	gosk
-77	1277	akademek	academek akademogyon
-78	1278	tewyn	tewynnow
-79	1279	pennrynn	bennrynn
-80	1280	bush	bushys
-81	1281	somm	sommen
-82	1282	ker	her kerra keryow
-83	1283	surhe	surha surhas surheas surhes
-84	1284	limaval	limavalow lymavalow
-85	1285	kewni	gewni kewny kywni
-86	1286	krambla	crambla grambel grambla gramblas
-87	1287	tiek	dhiek diek tiogow
-88	1288	meneges	menegi menegys menek venegas veneges venegi venek
-89	1289	gramasek	
-90	1290	bluw	
-91	1291	sewena	
-92	1292	usyans	
-93	1293	seythun	
-94	1294	godhonieth	
-95	1295	skiensydhyon	
-96	1296	aluminiom	
-97	1297	rewlivek	
-98	1298	genynnyk	enynnek genynnek henynnek
-99	1299	politegieth	bolitegieth
-100	1300	dewblek	dhewblek
+1	1201	olifans	olifanses
+2	1202	nasya	nas nasyas nasys nesys
+3	1203	klav	glav glevyon klevyon lav
+4	1204	bargen	bargednyow bargennyow bargenys vargednyow vargen vargennyow vargenyow
+5	1205	gras	ras rasow wras
+6	1206	brewi	brew brewys brow bryw prewi prow vrewi
+7	1207	tyli	dalvia dalvya delys dyli dylir dylis talvia tylys
+8	1208	wovernans	
+9	1209	poblus	
+10	1210	hwegys	whegys
+11	1211	hweg	wheg
+12	1212	spas	spasow spassow
+13	1213	tredanek	dredanek
+14	1214	gwiw	hwiw wiw
+15	1215	edhom	edhommow edhomow odhom
+16	1216	goghi	goghien woghi woghien
+17	1217	dedhwi	dedhwys dhedhow dhedhwi dydhow tedhwi
+18	1218	leski	leskas leskys losk loskas loskow losksons
+19	1219	dalghenna	dalghenn dalghennas dalghennys dhalghednas dhalghednys dhalghenna dhalghennas
+20	1220	kaletter	galetterow kaletterow kaletteryow
+21	1221	ponn	bodn bonn podn
+22	1222	deklarya	declarya deklaryes deklarys dheklar dheklarya dheklaryas teklarya teklaryas
+23	1223	fogella	fogell fogellas fogellys
+24	1224	golya	golia goliys golyas golys kolya wolas wolya wolyas
+25	1225	diwweyth	
+26	1226	pennskrifys	
+27	1227	tekst	
+28	1228	rannyethow	
+29	1229	kemmynieth	
+30	1230	steronydh	
+31	1231	varya	
+32	1232	ragdres	
+33	1233	sosyel	
+34	1234	ombreder	
+35	1235	avi	aviow
+36	1236	aber	aberow
+37	1237	boni	fonyow vonyow
+38	1238	gitar	gitarow gitaryow itaryow
+39	1239	peryllys	beryllys
+40	1240	sodhva	sodhvaow
+41	1241	lergh	lerghow
+42	1242	pluven	bluvennow fluvednow fluvennow pluvednow pluvennow
+43	1243	gorher	worher
+44	1244	herdhya	herdh herdhyas herdhys
+45	1245	kans	cans hans
+46	1246	pasa	bases bassa basyas pasas passys pesys vasa vassa
+47	1247	blas	blasow vlas
+48	1248	kler	cler clerra klerra ler
+49	1249	nerven	nervennow
+50	1250	rewi	rewys
+51	1251	tornyaseth	
+52	1252	adhyskys	
+53	1253	finek	
+54	1254	omrewl	
+55	1255	gweythva	
+56	1256	dhyffrans	
+57	1257	oryon	
+58	1258	skiansek	
+59	1259	karbonat	
+60	1260	liesplek	
+61	1261	leven	
+62	1262	varyans	
+63	1263	lokomotyv	
+64	1264	ynjynor	
+65	1265	sodiom	
+66	1266	kalish	
+67	1267	ryvar	
+68	1268	magnesiom	vagnesiom
+69	1269	galwesik	alwesik halwesik
+70	1270	kosk	gosk
+71	1271	akademek	academek akademogyon
+72	1272	tewyn	tewynnow
+73	1273	pennrynn	bennrynn
+74	1274	bush	bushys
+75	1275	somm	sommen
+76	1276	ker	her kerra keryow
+77	1277	surhe	surha surhas surheas surhes
+78	1278	limaval	limavalow lymavalow
+79	1279	kewni	gewni kewny kywni
+80	1280	krambla	crambla grambel grambla gramblas
+81	1281	tiek	dhiek diek tiogow
+82	1282	meneges	menegi menegys menek venegas veneges venegi venek
+83	1283	gramasek	
+84	1284	bluw	
+85	1285	sewena	
+86	1286	usyans	
+87	1287	seythun	
+88	1288	godhonieth	
+89	1289	skiensydhyon	
+90	1290	aluminiom	
+91	1291	rewlivek	
+92	1292	genynnyk	enynnek genynnek henynnek
+93	1293	politegieth	bolitegieth
+94	1294	dewblek	dhewblek
+95	1295	bay	fay fayys vay
+96	1296	dadhel	dadhlow dhadhel dhadhlow
+97	1297	stevel	stevellow stevelyow
+98	1298	darlesa	darlesys dharlesa dharlesas dharlesys
+99	1299	diegyn	diegynnow
+100	1300	godros	godrosas godrosow godrosys wodros

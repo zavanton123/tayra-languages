@@ -1,7 +1,7 @@
-1	301	rew	rewyow ryw rywyow
-2	302	bleujyow	blejyow bleujednow bleujen bleujenn bleujennow vleujen vleujennow vleujyow
-3	303	lu	luyow
-4	304	liw	liwyow lyw
+1	301	bleujyow	blejyow bleujednow bleujen bleujenn bleujennow vleujen vleujennow vleujyow
+2	302	lu	luyow
+3	303	liw	liwyow lyw
+4	304	devnydhya	devnydhyas devnydhyes devnydhys dhevnydhya dhevnydhyas dhevnydhys tevnydhya tevnydhyas tevnydhyons tevnydhys
 5	305	loskvenydh	loskvenedh loskvenedhyow loskvenydhyow
 6	306	pymp	bemp bymp pemp
 7	307	glas	glassa hlassa klassa las lasow lasys
@@ -69,32 +69,32 @@
 69	369	dh'y	
 70	370	bre	breow breys vre vreow
 71	371	hys	hes hesow hysow
-72	372	war-barth	
-73	373	kul	cul
-74	374	a-dreus	a-drues
-75	375	lynn	lydn lynnyn
-76	376	del	delen dhel dhelen tel
-77	377	drehevyans	dhrehevyans dhrehevyansow drehevyansow
-78	378	pysk	buskes bysk byskes fysk pesk puskes vysk
-79	379	gregorek	
-80	380	ayr	
-81	381	lien	liennow lienow lienyow lyen
-82	382	arvor	arvorow arvoryow
-83	383	politek	bolitek polytek
-84	384	kevres	gevres hevres kevresow kevresyow
-85	385	dewis	dewisas dewisyes dewisyow dewisys dewysys dhewis dhewisas dhewisis dhewisyow tewis tewisas tewisis tewisys
-86	386	kawsya	kawsys
-87	387	duw	dhuw dhuwow duwow duwyow
-88	388	devnydhya	devnydhyas devnydhyes dhevnydhya dhevnydhyas tevnydhya tevnydhyas tevnydhyons
-89	389	studh	
-90	390	amerikan	
-91	391	kas	cas ckas gas gasow gasys hasow hasys kasow kasyow kasys
-92	392	eyl	
-93	393	leel	
-94	394	a-dhyworth	
-95	395	leun	leunna
-96	396	jydh	jedh
-97	397	romans	romansow
-98	398	karn	garn karnow warn
-99	399	gwig	gwigow wig wigow
-100	400	balweyth	valweyth
+72	372	kul	cul
+73	373	a-dreus	a-drues
+74	374	lynn	lydn lynnyn
+75	375	del	delen dhel dhelen tel
+76	376	drehevyans	dhrehevyans dhrehevyansow drehevyansow
+77	377	pysk	buskes bysk byskes fysk pesk puskes vysk
+78	378	gregorek	
+79	379	ayr	
+80	380	lien	liennow lienow lienyow lyen
+81	381	arvor	arvorow arvoryow
+82	382	politek	bolitek polytek
+83	383	kevres	gevres hevres kevresow kevresyow
+84	384	dewis	dewisas dewisyes dewisyow dewisys dewysys dhewis dhewisas dhewisis dhewisyow tewis tewisas tewisis tewisys
+85	385	kawsya	kawsys
+86	386	duw	dhuw dhuwow duwow duwyow
+87	387	studh	
+88	388	amerikan	
+89	389	kas	cas ckas gas gasow gasys hasow hasys kasow kasyow kasys
+90	390	eyl	
+91	391	leel	
+92	392	a-dhyworth	
+93	393	leun	leunna
+94	394	romans	romansow
+95	395	karn	garn karnow warn
+96	396	gwig	gwigow wig wigow
+97	397	balweyth	valweyth
+98	398	sans	sansow sens
+99	399	deskrifa	descrifa deskrif deskrifas deskrifys dheskrif dheskrifa dheskrifas dheskrifys dheskryf teskrif teskrifa teskrifas
+100	400	yowynk	yonk yowynka yowynkes

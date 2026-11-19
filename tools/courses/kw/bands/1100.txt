@@ -1,100 +1,100 @@
-1	1001	ayrborth	ayrborthow
-2	1002	greun	greunen reun reunes reunyon
-3	1003	oyl	oylow oylys
-4	1004	fols	folsow folsyow
-5	1005	baya	bayas fayens vaya
-6	1006	pellder	bellder bellderyow fellderow pellderow
-7	1007	skoodh	dhiwskodh diwskodh scoodh skodhow skoedh skoedhys skoodhys
-8	1008	brygh	bregh breghi breghow breghys bryghow dhiwvregh diwvregh vregh vrygh
-9	1009	savonek	
-10	1010	dhe-ves	
-11	1011	enor	
-12	1012	sul	
-13	1013	sulfur	
-14	1014	silika	
-15	1015	mog	fog fogow vog
-16	1016	palsya	pals palsyes
-17	1017	stret	stretow stretys
-18	1018	batel	batelow batelyow vatel
-19	1019	kolom	colom gelebmi golom kelemmi
-20	1020	desinya	desinyes desinys desynys dhesinya dhesinyas tesinys
-21	1021	skoodhyans	
-22	1022	blydhynyow	
-23	1023	kesstrifow	
-24	1024	remenant	
-25	1025	ryvers	
-26	1026	godhvedhys	
-27	1027	rekord	
-28	1028	radyoweythresek	
-29	1029	oksid	
-30	1030	gwaneth	waneth
-31	1031	gwarak	gwarakow gwaregow
-32	1032	ilewydh	ilewydhyon
-33	1033	virus	virusow virusys
-34	1034	dewyn	dewydnow dewynnow dhewynnow tewydnow
-35	1035	hel	helow helyow
-36	1036	demedhyans	demedhyansow dhemedhyans dhemedhyansow temedhyans
-37	1037	korr	korryon worr
-38	1038	ranndiryel	
-39	1039	a-wosa	
-40	1040	rannyeth	
-41	1041	sewen	
-42	1042	displegys	
-43	1043	musek	
-44	1044	statydh	
-45	1045	ayredh	ayredhow
-46	1046	lowarn	lewern
-47	1047	menhesen	menhesennow venhesen venhesennow
-48	1048	kuntilow	guntilow guntilowyow huntilow kuntilowyow
-49	1049	mer	fer meryon ver verow
-50	1050	kor	cor gor gorenys hor korow korys wor woren
-51	1051	garow	arow harow
-52	1052	bleyn	bleynyow
-53	1053	holan	holanow
-54	1054	henhwedhlow	
-55	1055	civil	
-56	1056	gwyls	
-57	1057	seson	
-58	1058	mynsow	
-59	1059	pastell	
-60	1060	gwylar	
-61	1061	dramasydh	
-62	1062	gweladow	weladow
-63	1063	fisegel	fysegel
-64	1064	lev	levow
-65	1065	mayn	mayniow maynys vayn vaynys
-66	1066	seni	senas senis sensys seny senys sonas
-67	1067	heveli	hevel hevelis hevelons hevely hevelys
-68	1068	bedh	bedhow fedh vedh vedhow
-69	1069	reson	
-70	1070	distruys	
-71	1071	apert	
-72	1072	mater	
-73	1073	kemyskans	
-74	1074	a-rag	
-75	1075	krey	grey
-76	1076	brest	prest vrest
-77	1077	kod	god
-78	1078	kalciom	galciom
-79	1079	rosweyth	rosweythow rosweythyow
-80	1080	kadon	gadon gadonow kadonow kadonyow
-81	1081	divers	dhivers dyvers
-82	1082	know	cnowen gnow knowen
-83	1083	pennsevik	bennsevigyon pennsevigion pennsevigyon
-84	1084	kemper	gemper hemper kemperyow
-85	1085	defens	defensow defensys dhefens
-86	1086	plomm	blobm blomm plobm
-87	1087	folen	folednow folennow
-88	1088	eksistya	eksist eksistyas eksistys eksystya
-89	1089	diwrosa	dhiwros dhiwrosas dhiwrosow diwros diwrosow diwrosys tiwrosa
-90	1090	karten	cartennow gartednow garten gartennow hartennow kartednow kartennow
-91	1091	fast	
-92	1092	steronieth	
-93	1093	pednfenten	
-94	1094	monow	
-95	1095	enora	
-96	1096	kettermyn	
-97	1097	tooth	doeth dooth thooth
-98	1098	segh	sygh
-99	1099	breselek	vreselek
-100	1100	bi	fi vi
+1	1001	pellder	bellder bellderyow fellderow pellderow
+2	1002	skoodh	dhiwskodh diwskodh scoodh skodhow skoedh skoedhys skoodhys
+3	1003	brygh	bregh breghi breghow breghys bryghow dhiwvregh diwvregh vregh vrygh
+4	1004	savonek	
+5	1005	dhe-ves	
+6	1006	enor	
+7	1007	sul	
+8	1008	sulfur	
+9	1009	silika	
+10	1010	mog	fog fogow vog
+11	1011	palsya	pals palsyes
+12	1012	stret	stretow stretys
+13	1013	batel	batelow batelyow vatel
+14	1014	kolom	colom gelebmi golom kelemmi
+15	1015	desinya	desinyes desinys desynys dhesinya dhesinyas tesinys
+16	1016	skoodhyans	
+17	1017	blydhynyow	
+18	1018	kesstrifow	
+19	1019	remenant	
+20	1020	ryvers	
+21	1021	godhvedhys	
+22	1022	rekord	
+23	1023	radyoweythresek	
+24	1024	oksid	
+25	1025	gwaneth	waneth
+26	1026	gwarak	gwarakow gwaregow
+27	1027	ilewydh	ilewydhyon
+28	1028	virus	virusow virusys
+29	1029	dewyn	dewydnow dewynnow dhewynnow tewydnow
+30	1030	hel	helow helyow
+31	1031	demedhyans	demedhyansow dhemedhyans dhemedhyansow temedhyans
+32	1032	korr	korryon worr
+33	1033	ranndiryel	
+34	1034	a-wosa	
+35	1035	rannyeth	
+36	1036	sewen	
+37	1037	displegys	
+38	1038	musek	
+39	1039	statydh	
+40	1040	ayredh	ayredhow
+41	1041	lowarn	lewern
+42	1042	menhesen	menhesennow venhesen venhesennow
+43	1043	kuntilow	guntilow guntilowyow huntilow kuntilowyow
+44	1044	mer	fer meryon ver verow
+45	1045	kor	cor gor gorenys hor korow korys wor woren
+46	1046	garow	arow harow
+47	1047	bleyn	bleynyow
+48	1048	holan	holanow
+49	1049	henhwedhlow	
+50	1050	civil	
+51	1051	gwyls	
+52	1052	seson	
+53	1053	mynsow	
+54	1054	pastell	
+55	1055	gwylar	
+56	1056	dramasydh	
+57	1057	gweladow	weladow
+58	1058	fisegel	fysegel
+59	1059	lev	levow
+60	1060	mayn	mayniow maynys vayn vaynys
+61	1061	seni	senas senis sensys seny senys sonas
+62	1062	heveli	hevel hevelis hevelons hevely hevelys
+63	1063	bedh	bedhow fedh vedh vedhow
+64	1064	reson	
+65	1065	distruys	
+66	1066	apert	
+67	1067	mater	
+68	1068	kemyskans	
+69	1069	a-rag	
+70	1070	krey	grey
+71	1071	brest	prest vrest
+72	1072	kod	god
+73	1073	kalciom	galciom
+74	1074	rosweyth	rosweythow rosweythyow
+75	1075	kadon	gadon gadonow kadonow kadonyow
+76	1076	divers	dhivers dyvers
+77	1077	know	cnowen gnow knowen
+78	1078	pennsevik	bennsevigyon pennsevigion pennsevigyon
+79	1079	kemper	gemper hemper kemperyow
+80	1080	defens	defensow defensys dhefens
+81	1081	plomm	blobm blomm plobm
+82	1082	folen	folednow folennow
+83	1083	eksistya	eksist eksistyas eksistys eksystya
+84	1084	diwrosa	dhiwros dhiwrosas dhiwrosow diwros diwrosow diwrosys tiwrosa
+85	1085	karten	cartennow gartednow garten gartennow hartennow kartednow kartennow
+86	1086	fast	
+87	1087	steronieth	
+88	1088	pednfenten	
+89	1089	monow	
+90	1090	enora	
+91	1091	kettermyn	
+92	1092	tooth	doeth dooth thooth
+93	1093	segh	sygh
+94	1094	breselek	vreselek
+95	1095	bi	fi vi
+96	1096	hal	halow
+97	1097	gravyans	gravyansow ravyans wravyans
+98	1098	klassys	
+99	1099	kerghynnedh	
+100	1100	geyj	

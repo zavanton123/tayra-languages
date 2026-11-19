@@ -1,14 +1,14 @@
 1	101	me	fe fy my ve vy
-2	102	usya	us usadow usadowyow usyas usyens usyes usyn usyons usyow
-3	103	ger	er eres eryon eryow erys gerow geryow her weryow wyr
-4	104	may	mayth
-5	105	kyns	kens
-6	106	bagas	bagasow vagas vagasow
-7	107	neb	
-8	108	gweles	gwel gwelas gwelen gwelewgh gweli gweliow gwelis gweliyow gwelow gwelsen gwelsys gwelyow gwelys hwelas hweles hwelis hwelow kweles wel welas welen weles weli weliow welow welsen welsyn welyn welyow welys
-9	109	pur	bur fur purra
-10	110	komprehendya	gomprehend komprehend
-11	111	hemma	hebma hemm
+2	102	ger	er eres eryon eryow erys gerow geryow her weryow wyr
+3	103	may	mayth
+4	104	kyns	kens
+5	105	bagas	bagasow vagas vagasow
+6	106	neb	
+7	107	gweles	gwel gwelas gwelen gwelewgh gweli gweliow gwelis gweliyow gwelow gwelsen gwelsys gwelyow gwelys hwelas hweles hwelis hwelow kweles wel welas welen weles weli weliow welow welsen welsyn welyn welyow welys
+8	108	pur	bur fur purra
+9	109	komprehendya	gomprehend komprehend
+10	110	hemma	hebma hemm
+11	111	dydh	dedh dedhyow dhedh dhedhyow dhydh dhydhyow dydhyow dëdh jedh jydh tedh tydh
 12	112	lyver	levrow liver lyverow lyvrow
 13	113	kansblydhen	cansvledhen kansbledhen kansvledhen
 14	114	teylu	deylu deyluyow teyluow teyluyow theylu theyluyow
@@ -36,65 +36,65 @@
 36	136	enep	enebow
 37	137	mar	far mara mars var varys
 38	138	parti	barti bartiow farti partiow
-39	139	dydh	dedh dedhyow dhedh dhedhyow dhydh dhydhyow dydhyow dëdh tedh tydh
-40	140	deu	dheu dhue due teu
-41	141	soth	
-42	142	meurth	
-43	143	frynkek	frenkek
-44	144	tevy	devi dyv teves tevi tevis tevys thevi tyv
-45	145	oberi	oberas obersons obery oberys
-46	146	sodhogel	soedhogel
-47	147	ensampel	ensamplow ensamplys
-48	148	gwynngala	gwydngala gwyngala
-49	149	korf	corf corfow gorf gorfow horf horfow korfow
-50	150	leverel	lavarsa lawl lever leveras leverens leveris leversys leverys
-51	151	oos	ooj oosow osow
-52	152	bresel	breselyow vresel vreselyow
-53	153	ranndir	radndir radndiryow ranndirow ranndiryow
-54	154	parkya	fark park parkyes parkys
-55	155	herwydh	herwedh
-56	156	north	noor
-57	157	fylm	film filmow filmys fylmow fylmyow fylmys
-58	158	hir	hirra
-59	159	gweres	gweresa gweresow gweresys gweryn gwerys hweres hweressa hwyris kweres kweresis weras weres weresa weresas weresis weresow wheres
-60	160	elven	elvednow elvennow
-61	161	ughel	ughella uhel uhella
-62	162	dyllo	della dello dhellas dhello dhylla dhylli dhyllo dhyllys dylla dyllys telles telli tylli tyllis
-63	163	askorra	ascorra ascorras ascorrasow ascorrys askorr askorras askorrasow askorres askorrons askorrys
-64	164	kledh	cledh gledh
-65	165	yn-dann	en-dadn in-dann yn-dadn
-66	166	ebrel	ebryl
-67	167	hwedhel	hwedhlow whedhel whedhlow
-68	168	ena	enev
-69	169	niveryans	
-70	170	nans	nansow
-71	171	ha'y	
-72	172	furv	furvow furvyow
-73	173	gwarier	gwarioryon hwarier warier warioryon
-74	174	amerikanek	
-75	175	heb	hebdha hebdhi hebdho hebos
-76	176	gwlas	gwlasow wlas wlasow
-77	177	nessa	
-78	178	drehevel	derevel derevys dherevel dhrehevas dhrehevel dhrehevis dhrehevyas dhrehevys drehevis drehevyas drehevys terevel trehevel trehevis trehevyas
-79	179	arbennik	arbednek arbednick arbednik arbednyk arbennek
-80	180	taves	daves davosow tavas tavasow tavosow thavas thaves thavosow
-81	181	gortheren	
-82	182	furvya	furvyas furvyes furvys furvyyes
-83	183	bretennek	bretednek predennek pretennek vretennek
-84	184	men	fen meyn ven veyn vyn
-85	185	myghtern	meternedh meterneth myghternedh myghternydh mytern veternedh vyghtern vyghternedh vyghternyow
-86	186	eth	
-87	187	awos	
-88	188	synsi	senji senjy sensyas sinsa synji syns synsa synsas synsis synsy synsyas synsys
-89	189	senedh	senedhow
-90	190	devnydh	devnydhyow dhevnedh dhevnydh dhevnydhyow tevnydh tevnydhons
-91	191	ytho	etho
-92	192	kenedhel	genedhel genedhlow henedhel kenedhlow
-93	193	hedra	
-94	194	honan	honen
-95	195	bal	balyow fal val valyow
-96	196	keth	geth gethow gethyon gyth hyth kethow kethyon
-97	197	boos	boes boosys bosow foos poes voos vosow
-98	198	kevardhu	
-99	199	linen	linednow linennow
-100	200	menowgh	fenowgh venowgh
+39	139	soth	
+40	140	meurth	
+41	141	frynkek	frenkek
+42	142	tevy	devi dyv teves tevi tevis tevys thevi tyv
+43	143	oberi	oberas obersons obery oberys
+44	144	sodhogel	soedhogel
+45	145	ensampel	ensamplow ensamplys
+46	146	gwynngala	gwydngala gwyngala
+47	147	korf	corf corfow gorf gorfow horf horfow korfow
+48	148	leverel	lavarsa lawl lever leveras leverens leveris leversys leverys
+49	149	oos	ooj oosow osow
+50	150	bresel	breselyow vresel vreselyow
+51	151	ranndir	radndir radndiryow ranndirow ranndiryow
+52	152	parkya	fark park parkyes parkys
+53	153	herwydh	herwedh
+54	154	north	noor
+55	155	fylm	film filmow filmys fylmow fylmyow fylmys
+56	156	hir	hirra
+57	157	gweres	gweresa gweresow gweresys gweryn gwerys hweres hweressa hwyris kweres kweresis weras weres weresa weresas weresis weresow wheres
+58	158	elven	elvednow elvennow
+59	159	ughel	ughella uhel uhella
+60	160	dyllo	della dello dhellas dhello dhylla dhylli dhyllo dhyllys dylla dyllys telles telli tylli tyllis
+61	161	askorra	ascorra ascorras ascorrasow ascorrys askorr askorras askorrasow askorres askorrons askorrys
+62	162	kledh	cledh gledh
+63	163	yn-dann	en-dadn in-dann yn-dadn
+64	164	ebrel	ebryl
+65	165	hwedhel	hwedhlow whedhel whedhlow
+66	166	ena	enev
+67	167	niveryans	
+68	168	nans	nansow
+69	169	ha'y	
+70	170	furv	furvow furvyow
+71	171	gwarier	gwarioryon hwarier warier warioryon
+72	172	amerikanek	
+73	173	heb	hebdha hebdhi hebdho hebos
+74	174	gwlas	gwlasow wlas wlasow
+75	175	nessa	
+76	176	drehevel	derevel derevys dherevel dhrehevas dhrehevel dhrehevis dhrehevyas dhrehevys drehevis drehevyas drehevys terevel trehevel trehevis trehevyas
+77	177	arbennik	arbednek arbednick arbednik arbednyk arbennek
+78	178	taves	daves davosow tavas tavasow tavosow thavas thaves thavosow
+79	179	gortheren	
+80	180	furvya	furvyas furvyes furvys furvyyes
+81	181	bretennek	bretednek predennek pretennek vretennek
+82	182	men	fen meyn ven veyn vyn
+83	183	myghtern	meternedh meterneth myghternedh myghternydh mytern veternedh vyghtern vyghternedh vyghternyow
+84	184	eth	
+85	185	awos	
+86	186	synsi	senji senjy sensyas sinsa synji syns synsa synsas synsis synsy synsyas synsys
+87	187	senedh	senedhow
+88	188	gelwel	elwas elwel elwis galwa galwes gelwas gelwis gelwyas gelwys helwi helwys kelwel kelwys welwis
+89	189	devnydh	devnydhyow dhevnedh dhevnydh dhevnydhyow tevnydh tevnydhons
+90	190	ytho	etho
+91	191	kenedhel	genedhel genedhlow henedhel kenedhlow
+92	192	hedra	
+93	193	honan	honen
+94	194	bal	balyow fal val valyow
+95	195	keth	geth gethow gethyon gyth hyth kethow kethyon
+96	196	boos	boes boosys bosow foos poes voos vosow
+97	197	kevardhu	
+98	198	linen	linednow linennow
+99	199	menowgh	fenowgh venowgh
+100	200	peswar	bajar beder beswar feder pajar peder

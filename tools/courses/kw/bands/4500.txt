@@ -1,100 +1,100 @@
-1	4401	ayrosol	ayrosolys
-2	4402	bismer	bismerys bysmer
-3	4403	gormola	gormoledhow wormola
-4	4404	kellik	gelligen gellik
-5	4405	fardella	fardell fardellys
-6	4406	ascendya	ascend ascendyas
-7	4407	ametha	ameth amethas amethys
-8	4408	bora	borys vora
-9	4409	gwinlan	gwinlannow winlan
-10	4410	brager	bragoryon vrager
-11	4411	hwansa	hwansas hwansys hwensys
-12	4412	disevel	dhisav dhisevis disavsa
-13	4413	popti	poptiow popty
-14	4414	argevri	argevras argevrys
-15	4415	gecko	ecko geckos
-16	4416	pedren	bedren dhiwbedren diwbedren
-17	4417	dasskrifa	dasskrifys dhasscrifa dhasskrifsa
-18	4418	keniterow	gyniterow keniterwi
-19	4419	palv	balv palvow
-20	4420	bagel	vagel
-21	4421	pob	beub peub
-22	4422	bis	bysyow vis
-23	4423	rosya	rosyes rosys
-24	4424	rynni	renna rennyas rydnys rynnys
-25	4425	gesya	esas gesys hesya
-26	4426	kwyn	gwyn gwynion hwynnis
-27	4427	fonya	fons fonys
-28	4428	kowla	gowla kowlen
-29	4429	dasfurv	dasfurvys
-30	4430	batti	
-31	4431	envi	
-32	4432	diberthva	
-33	4433	alyon	
-34	4434	splatt	
-35	4435	rynn	
-36	4436	kasiterit	
-37	4437	adre	a-dre
-38	4438	yn-kerghyn	
-39	4439	didhanedh	
-40	4440	melodi	
-41	4441	amontyell	
-42	4442	kynyaf	
-43	4443	yown	
-44	4444	ewnans	
-45	4445	bour	pour
-46	4446	nyni	
-47	4447	fantasiek	
-48	4448	pystri	
-49	4449	danjer	
-50	4450	chogha	
-51	4451	assentyans	
-52	4452	dewana	tewana
-53	4453	truedh	
-54	4454	dibennans	
-55	4455	keredhi	keredhys
-56	4456	gowleverel	gowleveryas
-57	4457	jujj	
-58	4458	frût	
-59	4459	tuvaluek	
-60	4460	erghek	
-61	4461	indelma	
-62	4462	anpossybyl	
-63	4463	flynt	
-64	4464	argraf	
-65	4465	fres	
-66	4466	anstrothys	
-67	4467	avalennek	avalenegi
-68	4468	gloryus	
-69	4469	legest	legesti
-70	4470	coca-cola	
-71	4471	amm	
-72	4472	arvedhen	
-73	4473	kyfeyth	
-74	4474	arlottes	
-75	4475	ewik	ewigow
-76	4476	korrigan	
-77	4477	meskel	
-78	4478	fardellik	
-79	4479	kenedhlegi	kenedhlegys
-80	4480	blonegek	
-81	4481	akusya	akusys
-82	4482	flerya	
-83	4483	untu	
-84	4484	bismerus	
-85	4485	gnasen	gnasennow
-86	4486	aswonans	
-87	4487	neuvyer	neuvyoryon
-88	4488	aysel	
-89	4489	kresys	
-90	4490	bughwas	
-91	4491	finel	
-92	4492	darsewyans	darsewyansow
-93	4493	charjya	charjyes
-94	4494	addyans	
-95	4495	estrenegyans	
-96	4496	folneth	
-97	4497	anaswonys	
-98	4498	bide	fide
-99	4499	legryas	
-100	4500	asthma	
+1	4401	brager	bragoryon vrager
+2	4402	hwansa	hwansas hwansys hwensys
+3	4403	disevel	dhisav dhisevis disavsa
+4	4404	popti	poptiow popty
+5	4405	argevri	argevras argevrys
+6	4406	gecko	ecko geckos
+7	4407	pedren	bedren dhiwbedren diwbedren
+8	4408	dasskrifa	dasskrifys dhasscrifa dhasskrifsa
+9	4409	keniterow	gyniterow keniterwi
+10	4410	palv	balv palvow
+11	4411	bagel	vagel
+12	4412	pob	beub peub
+13	4413	bis	bysyow vis
+14	4414	rosya	rosyes rosys
+15	4415	rynni	renna rennyas rydnys rynnys
+16	4416	gesya	esas gesys hesya
+17	4417	kwyn	gwyn gwynion hwynnis
+18	4418	fonya	fons fonys
+19	4419	kowla	gowla kowlen
+20	4420	dasfurv	dasfurvys
+21	4421	batti	
+22	4422	envi	
+23	4423	diberthva	
+24	4424	alyon	
+25	4425	splatt	
+26	4426	rynn	
+27	4427	kasiterit	
+28	4428	adre	a-dre
+29	4429	yn-kerghyn	
+30	4430	didhanedh	
+31	4431	melodi	
+32	4432	amontyell	
+33	4433	kynyaf	
+34	4434	yown	
+35	4435	ewnans	
+36	4436	bour	pour
+37	4437	nyni	
+38	4438	fantasiek	
+39	4439	pystri	
+40	4440	danjer	
+41	4441	chogha	
+42	4442	assentyans	
+43	4443	dewana	tewana
+44	4444	truedh	
+45	4445	dibennans	
+46	4446	keredhi	keredhys
+47	4447	gowleverel	gowleveryas
+48	4448	jujj	
+49	4449	frût	
+50	4450	tuvaluek	
+51	4451	erghek	
+52	4452	indelma	
+53	4453	anpossybyl	
+54	4454	flynt	
+55	4455	argraf	
+56	4456	fres	
+57	4457	anstrothys	
+58	4458	avalennek	avalenegi
+59	4459	gloryus	
+60	4460	legest	legesti
+61	4461	coca-cola	
+62	4462	amm	
+63	4463	arvedhen	
+64	4464	kyfeyth	
+65	4465	arlottes	
+66	4466	ewik	ewigow
+67	4467	korrigan	
+68	4468	meskel	
+69	4469	fardellik	
+70	4470	kenedhlegi	kenedhlegys
+71	4471	blonegek	
+72	4472	akusya	akusys
+73	4473	flerya	
+74	4474	untu	
+75	4475	bismerus	
+76	4476	gnasen	gnasennow
+77	4477	aswonans	
+78	4478	neuvyer	neuvyoryon
+79	4479	aysel	
+80	4480	kresys	
+81	4481	bughwas	
+82	4482	finel	
+83	4483	darsewyans	darsewyansow
+84	4484	charjya	charjyes
+85	4485	addyans	
+86	4486	estrenegyans	
+87	4487	folneth	
+88	4488	anaswonys	
+89	4489	bide	fide
+90	4490	legryas	
+91	4491	asthma	
+92	4492	anvarwel	
+93	4493	anvas	
+94	4494	anfeusik	
+95	4495	yn-kerdh	
+96	4496	amovya	
+97	4497	daslev	
+98	4498	bedhygla	
+99	4499	chello	
+100	4500	kemeradow	gemeradow

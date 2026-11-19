@@ -1,100 +1,100 @@
-1	2001	kanadek	
-2	2002	godhasek	
-3	2003	yowynkneth	
-4	2004	amyttys	
-5	2005	kymygieth	
-6	2006	negysydh	
-7	2007	formel	
-8	2008	organow	
-9	2009	reydhek	
-10	2010	pencyta	
-11	2011	gweythvaow	
-12	2012	lycklod	
-13	2013	diyskynna	
-14	2014	pibow	
-15	2015	bythlas	
-16	2016	gesyer	
-17	2017	sprusen	
-18	2018	strothys	
-19	2019	bonyas	
-20	2020	shyndys	
-21	2021	rond	
-22	2022	galliom	
-23	2023	strontiom	
-24	2024	iodin	
-25	2025	rannevesow	
-26	2026	sporow	
-27	2027	metrow	
-28	2028	klorid	
-29	2029	esplegyans	
-30	2030	silikat	
-31	2031	dor-tanow	
-32	2032	purhe	
-33	2033	nasyow	
-34	2034	wodhasek	
-35	2035	karst	
-36	2036	eukaryotes	
-37	2037	romansores	
-38	2038	difudhek	
-39	2039	mafek	
-40	2040	kewar	gewar
-41	2041	ys	ysen
-42	2042	reden	redenen
-43	2043	dall	dhall tall
-44	2044	krann	grann
-45	2045	lim	limys lym
-46	2046	korel	corel gorel
-47	2047	gemmweyth	gebmweyth
-48	2048	olew	olewow olewys
-49	2049	centimeter	centimetrow
-50	2050	blonek	vlonek
-51	2051	managhti	managhtiow
-52	2052	lewpard	lewpardes
-53	2053	ankredor	ankredoryon ankrydoryon
-54	2054	anav	anaves
-55	2055	tarosvan	tarosvannow tharosvan
-56	2056	treusva	dreusva treusvaow
-57	2057	chitrak	chitragys chitrakys jitrak jitrakys
-58	2058	kudhlen	gudhlen kudhlennow
-59	2059	duwes	dhuwes
-60	2060	kalan	galan halan
-61	2061	glan	lan
-62	2062	delenwel	delenwelys delenwys dhelenwas dhelenwis telenwel
-63	2063	attendya	attendas attendyas attendyes attendyn attendys attentys
-64	2064	kennen	gennen kednen kennow wynnen
-65	2065	mol	vol
-66	2066	lymmaval	lymmavalow
-67	2067	derivadow	deryvadow dherivadow
-68	2068	esedha	esedhas esedhys
-69	2069	vanylyon	
-70	2070	savon	
-71	2071	serghek	
-72	2072	trevek	
-73	2073	tennvos	
-74	2074	performya	
-75	2075	kyrghynn	
-76	2076	brav	
-77	2077	boesek	
-78	2078	effeythus	
-79	2079	linenn	
-80	2080	whath	
-81	2081	dastyllys	
-82	2082	hager	
-83	2083	kehaval	
-84	2084	testennow	
-85	2085	performys	
-86	2086	kosel	
-87	2087	hendhyskonieth	
-88	2088	entrans	
-89	2089	fatell	
-90	2090	gwers	
-91	2091	omladha	
-92	2092	omjunyas	
-93	2093	hembronkyas	
-94	2094	prisner	
-95	2095	galish	
-96	2096	venja	
-97	2097	kehysedh	
-98	2098	downna	
-99	2099	ugensves	
-100	2100	gorhemmyn	
+1	2001	reydhek	
+2	2002	pencyta	
+3	2003	gweythvaow	
+4	2004	lycklod	
+5	2005	diyskynna	
+6	2006	pibow	
+7	2007	bythlas	
+8	2008	gesyer	
+9	2009	sprusen	
+10	2010	strothys	
+11	2011	bonyas	
+12	2012	shyndys	
+13	2013	rond	
+14	2014	galliom	
+15	2015	strontiom	
+16	2016	iodin	
+17	2017	rannevesow	
+18	2018	sporow	
+19	2019	metrow	
+20	2020	klorid	
+21	2021	esplegyans	
+22	2022	silikat	
+23	2023	dor-tanow	
+24	2024	purhe	
+25	2025	nasyow	
+26	2026	wodhasek	
+27	2027	karst	
+28	2028	eukaryotes	
+29	2029	romansores	
+30	2030	difudhek	
+31	2031	mafek	
+32	2032	kewar	gewar
+33	2033	ys	ysen
+34	2034	reden	redenen
+35	2035	dall	dhall tall
+36	2036	krann	grann
+37	2037	lim	limys lym
+38	2038	korel	corel gorel
+39	2039	gemmweyth	gebmweyth
+40	2040	olew	olewow olewys
+41	2041	centimeter	centimetrow
+42	2042	blonek	vlonek
+43	2043	managhti	managhtiow
+44	2044	lewpard	lewpardes
+45	2045	ankredor	ankredoryon ankrydoryon
+46	2046	anav	anaves
+47	2047	tarosvan	tarosvannow tharosvan
+48	2048	treusva	dreusva treusvaow
+49	2049	chitrak	chitragys chitrakys jitrak jitrakys
+50	2050	kudhlen	gudhlen kudhlennow
+51	2051	duwes	dhuwes
+52	2052	kalan	galan halan
+53	2053	glan	lan
+54	2054	delenwel	delenwelys delenwys dhelenwas dhelenwis telenwel
+55	2055	attendya	attendas attendyas attendyes attendyn attendys attentys
+56	2056	kennen	gennen kednen kennow wynnen
+57	2057	mol	vol
+58	2058	lymmaval	lymmavalow
+59	2059	derivadow	deryvadow dherivadow
+60	2060	esedha	esedhas esedhys
+61	2061	vanylyon	
+62	2062	savon	
+63	2063	serghek	
+64	2064	trevek	
+65	2065	tennvos	
+66	2066	performya	
+67	2067	kyrghynn	
+68	2068	brav	
+69	2069	boesek	
+70	2070	effeythus	
+71	2071	linenn	
+72	2072	whath	
+73	2073	dastyllys	
+74	2074	hager	
+75	2075	kehaval	
+76	2076	testennow	
+77	2077	performys	
+78	2078	kosel	
+79	2079	hendhyskonieth	
+80	2080	entrans	
+81	2081	fatell	
+82	2082	gwers	
+83	2083	omladha	
+84	2084	omjunyas	
+85	2085	hembronkyas	
+86	2086	prisner	
+87	2087	galish	
+88	2088	venja	
+89	2089	kehysedh	
+90	2090	downna	
+91	2091	ugensves	
+92	2092	gorhemmyn	
+93	2093	leyth	
+94	2094	lows	
+95	2095	krysir	
+96	2096	nena	
+97	2097	neon	
+98	2098	kethneth	
+99	2099	getto	etto
+100	2100	spenas	

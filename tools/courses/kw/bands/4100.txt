@@ -1,100 +1,100 @@
-1	4001	privedhyow	
-2	4002	friys	
-3	4003	anvateryel	
-4	4004	eyrin	
-5	4005	awedhyansek	
-6	4006	ankresyans	
-7	4007	dader	
-8	4008	askrifys	
-9	4009	beler	
-10	4010	terros	terroes
-11	4011	brialli	briallen
-12	4012	fust	fustow
-13	4013	anedhyas	anedhysi
-14	4014	berrik	ferrik
-15	4015	bernys	pernys
-16	4016	hanterkans	hantercans
-17	4017	glowbren	lowbren
-18	4018	antempna	antempnys
-19	4019	ankemmyn	ankebmyn
-20	4020	dhe'm	
-21	4021	delatya	delatys
-22	4022	dregynnus	dhregynnus
-23	4023	lester-gwari	lestri-gwari
-24	4024	bewedh	vewedh
-25	4025	dial	dhial
-26	4026	anles	anlesow
-27	4027	bojet	vojet
-28	4028	dewfrik	dhewfrik
-29	4029	anal	analis
-30	4030	rastella	rastellys
-31	4031	touna	dounas
-32	4032	allergedh	allergedhow
-33	4033	myll	millyow
-34	4034	dewynnya	dewynn dewynnys tewynnya
-35	4035	parder	parderyow
-36	4036	musik	musyk vusik
-37	4037	helgi	helgeun
-38	4038	arwaska	arweskys
-39	4039	fysek	fisek fysyk
-40	4040	floryshya	floryshyas
-41	4041	unverhe	unverhas unverhes
-42	4042	gwelsdebrer	gwelsdebroryon
-43	4043	pompyon	pompyons
-44	4044	ballad	balladys
-45	4045	aspier	aspioryon aspyoryon
-46	4046	staga	stages stakka stegys
-47	4047	hepkor	hepkoras
-48	4048	korrdon	korrdodnow korrdonnow
-49	4049	galladewder	alladewder galladewderyow
-50	4050	omwul	omwra omwre
-51	4051	ebil	ebilyow
-52	4052	arhwithra	arhwithras arhwithrys
-53	4053	fesont	fesons
-54	4054	alamand	alamandow alamandys
-55	4055	gwedren	gwedrednow wedren
-56	4056	dampnya	dampnys dhampnyas
-57	4057	bilen	pilen
-58	4058	gwerther	gwerthoryon
-59	4059	marghasa	marghasys varghasa
-60	4060	euthvil	euthviles
-61	4061	doust	dhoust
-62	4062	kedhow	wedhow
-63	4063	tuedhder	duedhder
-64	4064	kelyn	gelyn ylyn
-65	4065	maglen	faglen maglennow
-66	4066	desegha	deseghys dheseghas
-67	4067	gwennel	wennel
-68	4068	fienas	fienasow
-69	4069	eylskrifa	eylskrif eylskrifys
-70	4070	fydhya	fydhsa fydhyn fydhys
-71	4071	rosella	rosell rosellys
-72	4072	asvaba	asvab asvabas asvabys
-73	4073	arnowydhhe	arnowydhhas arnowydhhes
-74	4074	kantol	gantol kantolyow
-75	4075	brewgik	browgik vrewgik
-76	4076	nith	nithow noeth nyth
-77	4077	debatya	debatys dhebatyas tebatya
-78	4078	dythya	dethen tethys tythya
-79	4079	gravath	gravathow wrava
-80	4080	kentra	gentryn kentren kentryn
-81	4081	gwis	gwys hwys kwis kwys
-82	4082	efanhe	efanha efanhas efanheas efanhes
-83	4083	diveri	dhiver diver diverres diverys
-84	4084	gast	ast hast kastow kastys
-85	4085	kloos	glosow
-86	4086	eksil	eksilys
-87	4087	kolgh	golgh kolghow
-88	4088	densel	danses dansys densys dynsel
-89	4089	kotthe	cottha gottha kottha
-90	4090	escar	eskerens
-91	4091	kowethek	
-92	4092	bodhek	
-93	4093	nownek	
-94	4094	rev	
-95	4095	amiral	
-96	4096	arethya	
-97	4097	eternal	
-98	4098	esedhva	
-99	4099	keres	
-100	4100	bedhas	
+1	4001	terros	terroes
+2	4002	brialli	briallen
+3	4003	fust	fustow
+4	4004	anedhyas	anedhysi
+5	4005	berrik	ferrik
+6	4006	bernys	pernys
+7	4007	hanterkans	hantercans
+8	4008	glowbren	lowbren
+9	4009	antempna	antempnys
+10	4010	ankemmyn	ankebmyn
+11	4011	dhe'm	
+12	4012	delatya	delatys
+13	4013	dregynnus	dhregynnus
+14	4014	lester-gwari	lestri-gwari
+15	4015	bewedh	vewedh
+16	4016	dial	dhial
+17	4017	anles	anlesow
+18	4018	bojet	vojet
+19	4019	dewfrik	dhewfrik
+20	4020	anal	analis
+21	4021	rastella	rastellys
+22	4022	touna	dounas
+23	4023	allergedh	allergedhow
+24	4024	myll	millyow
+25	4025	dewynnya	dewynn dewynnys tewynnya
+26	4026	parder	parderyow
+27	4027	musik	musyk vusik
+28	4028	helgi	helgeun
+29	4029	arwaska	arweskys
+30	4030	fysek	fisek fysyk
+31	4031	floryshya	floryshyas
+32	4032	unverhe	unverhas unverhes
+33	4033	gwelsdebrer	gwelsdebroryon
+34	4034	pompyon	pompyons
+35	4035	ballad	balladys
+36	4036	aspier	aspioryon aspyoryon
+37	4037	staga	stages stakka stegys
+38	4038	hepkor	hepkoras
+39	4039	korrdon	korrdodnow korrdonnow
+40	4040	galladewder	alladewder galladewderyow
+41	4041	omwul	omwra omwre
+42	4042	ebil	ebilyow
+43	4043	arhwithra	arhwithras arhwithrys
+44	4044	fesont	fesons
+45	4045	alamand	alamandow alamandys
+46	4046	gwedren	gwedrednow wedren
+47	4047	dampnya	dampnys dhampnyas
+48	4048	bilen	pilen
+49	4049	gwerther	gwerthoryon
+50	4050	marghasa	marghasys varghasa
+51	4051	euthvil	euthviles
+52	4052	doust	dhoust
+53	4053	kedhow	wedhow
+54	4054	tuedhder	duedhder
+55	4055	kelyn	gelyn ylyn
+56	4056	maglen	faglen maglennow
+57	4057	desegha	deseghys dheseghas
+58	4058	gwennel	wennel
+59	4059	fienas	fienasow
+60	4060	eylskrifa	eylskrif eylskrifys
+61	4061	fydhya	fydhsa fydhyn fydhys
+62	4062	rosella	rosell rosellys
+63	4063	asvaba	asvab asvabas asvabys
+64	4064	arnowydhhe	arnowydhhas arnowydhhes
+65	4065	kantol	gantol kantolyow
+66	4066	brewgik	browgik vrewgik
+67	4067	nith	nithow noeth nyth
+68	4068	debatya	debatys dhebatyas tebatya
+69	4069	dythya	dethen tethys tythya
+70	4070	gravath	gravathow wrava
+71	4071	kentra	gentryn kentren kentryn
+72	4072	gwis	gwys hwys kwis kwys
+73	4073	efanhe	efanha efanhas efanheas efanhes
+74	4074	diveri	dhiver diver diverres diverys
+75	4075	gast	ast hast kastow kastys
+76	4076	kloos	glosow
+77	4077	eksil	eksilys
+78	4078	kolgh	golgh kolghow
+79	4079	densel	danses dansys densys dynsel
+80	4080	kotthe	cottha gottha kottha
+81	4081	escar	eskerens
+82	4082	kowethek	
+83	4083	bodhek	
+84	4084	nownek	
+85	4085	rev	
+86	4086	amiral	
+87	4087	arethya	
+88	4088	eternal	
+89	4089	esedhva	
+90	4090	keres	
+91	4091	bedhas	
+92	4092	didhanus	
+93	4093	ankres	
+94	4094	faster	
+95	4095	oghen	
+96	4096	bothek	
+97	4097	boks	
+98	4098	lytherva	
+99	4099	pobla	poblys
+100	4100	heydh	

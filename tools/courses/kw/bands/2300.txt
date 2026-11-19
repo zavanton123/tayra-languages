@@ -1,100 +1,100 @@
-1	2201	planetik	
-2	2202	darlesans	
-3	2203	troyllyek	
-4	2204	kloud	
-5	2205	kemygydh	
-6	2206	platys	
-7	2207	penicillin	
-8	2208	noth	
-9	2209	migorn	
-10	2210	hasennow	
-11	2211	rannel	
-12	2212	margh-horn	
-13	2213	ʻaʻā	
-14	2214	noy	noyens
-15	2215	elvennek	elvednek
-16	2216	pellweler	pellweloryow
-17	2217	degves	dhegves
-18	2218	hwetek	whetek
-19	2219	gallosek	allosek
-20	2220	denses	dhenses tenses
-21	2221	patatys	patatysen
-22	2222	shoppa	shoppys
-23	2223	bosva	vosva
-24	2224	kilva	gilva hilva kilvaow
-25	2225	bejeth	bejethow vejeth
-26	2226	arvil	arviles
-27	2227	nivera	niveren niverys
-28	2228	forn	fornow
-29	2229	breusyas	breusysi vreusyas vreusysi
-30	2230	marner	marners marnoryon varners varnoryon
-31	2231	gorfen	gorfenys worfen
-32	2232	figur	figurys fygur
-33	2233	aventur	aventurys
-34	2234	glawas	lawas
-35	2235	oles	olesow
-36	2236	titaniom	ditaniom
-37	2237	klevesi	klevesys
-38	2238	erna	ernag
-39	2239	korev	gorev gorevow
-40	2240	trongornvil	drongornvil trongornviles
-41	2241	fav	faven
-42	2242	skrifenn	skrifennow
-43	2243	kiger	iger yger
-44	2244	koska	cosca goskes
-45	2245	gwibes	gwibesen wibes
-46	2246	gelvin	gelvines gelvinow gelvyn
-47	2247	rekna	reken reknys
-48	2248	korflan	gorflan korflannow
-49	2249	devos	devosow dhevos dhevosow
-50	2250	erya	eris errys eryes
-51	2251	tynn	dydn tydn tynna
-52	2252	gwaytyas	gwaytya gwaytyes gwaytys wayt waytsa
-53	2253	ethenna	ethedna ethednys ethenn ethennys
-54	2254	braga	bracca bracken brag bragys bregys praga
-55	2255	pasti	basti fasti pastiow
-56	2256	kordh	
-57	2257	drevesigas	
-58	2258	sertan	
-59	2259	sewyansow	
-60	2260	diskwedhyansow	
-61	2261	flehes	
-62	2262	lytherennansow	
-63	2263	keskows	
-64	2264	galloes	
-65	2265	kavoes	
-66	2266	jentyl	
-67	2267	rak	
-68	2268	termow	
-69	2269	myghternses	
-70	2270	gabbro	
-71	2271	atal	
-72	2272	versyons	
-73	2273	dyghtyer	
-74	2274	dhisplegya	
-75	2275	teva	
-76	2276	liesek	
-77	2277	splanna	
-78	2278	skans	
-79	2279	wodhonieth	
-80	2280	vietnamek	
-81	2281	niverir	
-82	2282	perthyans	
-83	2283	splannder	
-84	2284	hendasow	
-85	2285	amber	
-86	2286	ponya	
-87	2287	paynt	
-88	2288	trib	
-89	2289	vanadiom	
-90	2290	oberyansow	
-91	2291	planetigow	
-92	2292	hantergylgh	
-93	2293	methodys	
-94	2294	rubidiom	
-95	2295	indiom	
-96	2296	bariom	
-97	2297	tongsten	
-98	2298	klavjiow	
-99	2299	pyramidow	
-100	2300	keskomunyans	
+1	2201	hasennow	
+2	2202	rannel	
+3	2203	margh-horn	
+4	2204	ʻaʻā	
+5	2205	noy	noyens
+6	2206	elvennek	elvednek
+7	2207	pellweler	pellweloryow
+8	2208	degves	dhegves
+9	2209	hwetek	whetek
+10	2210	gallosek	allosek
+11	2211	denses	dhenses tenses
+12	2212	patatys	patatysen
+13	2213	shoppa	shoppys
+14	2214	bosva	vosva
+15	2215	kilva	gilva hilva kilvaow
+16	2216	bejeth	bejethow vejeth
+17	2217	arvil	arviles
+18	2218	nivera	niveren niverys
+19	2219	forn	fornow
+20	2220	breusyas	breusysi vreusyas vreusysi
+21	2221	marner	marners marnoryon varners varnoryon
+22	2222	gorfen	gorfenys worfen
+23	2223	figur	figurys fygur
+24	2224	aventur	aventurys
+25	2225	glawas	lawas
+26	2226	oles	olesow
+27	2227	titaniom	ditaniom
+28	2228	klevesi	klevesys
+29	2229	erna	ernag
+30	2230	korev	gorev gorevow
+31	2231	trongornvil	drongornvil trongornviles
+32	2232	fav	faven
+33	2233	skrifenn	skrifennow
+34	2234	kiger	iger yger
+35	2235	koska	cosca goskes
+36	2236	gwibes	gwibesen wibes
+37	2237	gelvin	gelvines gelvinow gelvyn
+38	2238	rekna	reken reknys
+39	2239	korflan	gorflan korflannow
+40	2240	devos	devosow dhevos dhevosow
+41	2241	erya	eris errys eryes
+42	2242	tynn	dydn tydn tynna
+43	2243	gwaytyas	gwaytya gwaytyes gwaytys wayt waytsa
+44	2244	ethenna	ethedna ethednys ethenn ethennys
+45	2245	braga	bracca bracken brag bragys bregys praga
+46	2246	pasti	basti fasti pastiow
+47	2247	kordh	
+48	2248	drevesigas	
+49	2249	sertan	
+50	2250	sewyansow	
+51	2251	diskwedhyansow	
+52	2252	flehes	
+53	2253	lytherennansow	
+54	2254	keskows	
+55	2255	galloes	
+56	2256	kavoes	
+57	2257	jentyl	
+58	2258	rak	
+59	2259	termow	
+60	2260	myghternses	
+61	2261	gabbro	
+62	2262	atal	
+63	2263	versyons	
+64	2264	dyghtyer	
+65	2265	dhisplegya	
+66	2266	teva	
+67	2267	liesek	
+68	2268	splanna	
+69	2269	skans	
+70	2270	wodhonieth	
+71	2271	vietnamek	
+72	2272	niverir	
+73	2273	perthyans	
+74	2274	splannder	
+75	2275	hendasow	
+76	2276	amber	
+77	2277	ponya	
+78	2278	paynt	
+79	2279	trib	
+80	2280	vanadiom	
+81	2281	oberyansow	
+82	2282	planetigow	
+83	2283	hantergylgh	
+84	2284	methodys	
+85	2285	rubidiom	
+86	2286	indiom	
+87	2287	bariom	
+88	2288	tongsten	
+89	2289	klavjiow	
+90	2290	pyramidow	
+91	2291	keskomunyans	
+92	2292	diliw	
+93	2293	kerghynedhel	
+94	2294	tavellow	
+95	2295	gwelesek	
+96	2296	tros-hes	
+97	2297	kryjyek	
+98	2298	papyrus	
+99	2299	brij	
+100	2300	darlesor	

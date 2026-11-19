@@ -1,46 +1,37 @@
-1	5101	gradhegi	gradhek
-2	5102	besydhven	
-3	5103	kil	
-4	5104	bennath	vennath
-5	5105	ewna	ewnys
-6	5106	amstyr	
-7	5107	ayrgylghyek	
-8	5108	bothfurvek	
-9	5109	frosans	
-10	5110	menegek	
-11	5111	eksedya	eksed
-12	5112	estowl	
-13	5113	galari	galeras
-14	5114	glewek	hlewek
-15	5115	klapkodh	klapkodhow
-16	5116	askrifa	askrif
-17	5117	ankewar	
-18	5118	apron	
-19	5119	barbakoa	parbakoa
-20	5120	eksotek	
-21	5121	hwiogen	
-22	5122	anterrys	
-23	5123	reuv	
-24	5124	enesega	
-25	5125	bannek	
-26	5126	anfeus	
-27	5127	pydh	
-28	5128	pedrevanas	bedrevanes pedrevanes
-29	5129	glydh	gledh
-30	5130	gwëdh	gwedhen gwydhen wedhen wydhen
-31	5131	farya	far ferya
-32	5132	avalowa	avalow
-33	5133	eksilya	eksilys
-34	5134	lenni	lennas lennys
-35	5135	chaynya	chaynys
-36	5136	aventurya	aventurys
-37	5137	figura	figurys
-38	5138	gloosa	glosow
-39	5139	attent	attentys
-40	5140	dyppa	dippa
-41	5141	bedhek	vedhek
-42	5142	neghi	neghys
-43	5143	euthega	euthekka
-44	5144	fenna	fenn
-45	5145	forghya	fergh
-46	5146	fanya	fan
+1	5101	menegek	
+2	5102	eksedya	eksed
+3	5103	estowl	
+4	5104	galari	galeras
+5	5105	glewek	hlewek
+6	5106	klapkodh	klapkodhow
+7	5107	askrifa	askrif
+8	5108	ankewar	
+9	5109	apron	
+10	5110	barbakoa	parbakoa
+11	5111	eksotek	
+12	5112	hwiogen	
+13	5113	anterrys	
+14	5114	reuv	
+15	5115	enesega	
+16	5116	bannek	
+17	5117	anfeus	
+18	5118	pydh	
+19	5119	pedrevanas	bedrevanes pedrevanes
+20	5120	glydh	gledh
+21	5121	gwëdh	gwedhen gwydhen wedhen wydhen
+22	5122	farya	far ferya
+23	5123	avalowa	avalow
+24	5124	eksilya	eksilys
+25	5125	lenni	lennas lennys
+26	5126	chaynya	chaynys
+27	5127	aventurya	aventurys
+28	5128	figura	figurys
+29	5129	gloosa	glosow
+30	5130	attent	attentys
+31	5131	dyppa	dippa
+32	5132	bedhek	vedhek
+33	5133	neghi	neghys
+34	5134	euthega	euthekka
+35	5135	fenna	fenn
+36	5136	forghya	fergh
+37	5137	fanya	fan

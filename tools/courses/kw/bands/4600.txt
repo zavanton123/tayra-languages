@@ -1,100 +1,100 @@
-1	4501	anvarwel	
-2	4502	anvas	
-3	4503	anfeusik	
-4	4504	yn-kerdh	
-5	4505	amovya	
-6	4506	daslev	
-7	4507	bedhygla	
-8	4508	chello	
-9	4509	kemeradow	gemeradow
-10	4510	didhuwydh	
-11	4511	bynitha	
-12	4512	keas	
-13	4513	treusreydhel	
-14	4514	feusik	
-15	4515	alusenek	
-16	4516	sia	
-17	4517	kesakordyans	
-18	4518	dysmygel	dhismygel
-19	4519	breusel	
-20	4520	pellskrifa	
-21	4521	kettel	
-22	4522	dysklyver	
-23	4523	breynans	
-24	4524	karetys	
-25	4525	eskravus	
-26	4526	arthritys	arthritis
-27	4527	attes	
-28	4528	eksamnya	
-29	4529	analladow	
-30	4530	didhregynnus	
-31	4531	furneth	
-32	4532	allergek	
-33	4533	eylgylghyans	
-34	4534	kabel	
-35	4535	dohajydh	
-36	4536	anterth	
-37	4537	evadow	
-38	4538	fastyans	
-39	4539	anhedhadow	
-40	4540	daskelwel	
-41	4541	anlowr	
-42	4542	dehwelyans	
-43	4543	organs	
-44	4544	pò	
-45	4545	abyl	
-46	4546	emayl	
-47	4547	affordya	
-48	4548	desedhva	
-49	4549	botla	fotla
-50	4550	ploum	
-51	4551	oliv	
-52	4552	figys	
-53	4553	avan	
-54	4554	pinaval	pinavalow
-55	4555	kesskrifer	
-56	4556	estrik	
-57	4557	frikhwytha	
-58	4558	anoyntya	
-59	4559	alter	
-60	4560	arhwilyans	
-61	4561	famya	
-62	4562	glori	
-63	4563	fornya	
-64	4564	anpuredh	anpuredhow
-65	4565	bragji	
-66	4566	milonieth	
-67	4567	ekologydh	ekologydhyon
-68	4568	tetti	dettys
-69	4569	assayans	
-70	4570	tanbren	tanbrennyer
-71	4571	elek	
-72	4572	aden	
-73	4573	aghskrif	
-74	4574	mogniwl	
-75	4575	fastheans	
-76	4576	checken	
-77	4577	ewnhynseth	
-78	4578	bedhros	
-79	4579	aventurus	
-80	4580	kolyn	
-81	4581	dashwithrans	
-82	4582	ebost	
-83	4583	denti	
-84	4584	alhwedhor	
-85	4585	hamster	hamsters
-86	4586	akontydh	
-87	4587	salm	
-88	4588	lagatta	
-89	4589	bengalji	
-90	4590	karghara	kargharys
-91	4591	sostenadow	
-92	4592	ankar	
-93	4593	diala	
-94	4594	porther	
-95	4595	adhyskonydh	
-96	4596	desinores	
-97	4597	fastya	
-98	4598	a'm	
-99	4599	serghi	sergha
-100	4600	fethek	
+1	4501	didhuwydh	
+2	4502	bynitha	
+3	4503	keas	
+4	4504	treusreydhel	
+5	4505	feusik	
+6	4506	alusenek	
+7	4507	sia	
+8	4508	kesakordyans	
+9	4509	dysmygel	dhismygel
+10	4510	breusel	
+11	4511	pellskrifa	
+12	4512	kettel	
+13	4513	dysklyver	
+14	4514	breynans	
+15	4515	karetys	
+16	4516	eskravus	
+17	4517	arthritys	arthritis
+18	4518	attes	
+19	4519	eksamnya	
+20	4520	analladow	
+21	4521	didhregynnus	
+22	4522	furneth	
+23	4523	allergek	
+24	4524	eylgylghyans	
+25	4525	kabel	
+26	4526	dohajydh	
+27	4527	anterth	
+28	4528	evadow	
+29	4529	fastyans	
+30	4530	anhedhadow	
+31	4531	daskelwel	
+32	4532	anlowr	
+33	4533	dehwelyans	
+34	4534	organs	
+35	4535	pò	
+36	4536	abyl	
+37	4537	emayl	
+38	4538	affordya	
+39	4539	desedhva	
+40	4540	botla	fotla
+41	4541	ploum	
+42	4542	oliv	
+43	4543	figys	
+44	4544	avan	
+45	4545	pinaval	pinavalow
+46	4546	kesskrifer	
+47	4547	estrik	
+48	4548	frikhwytha	
+49	4549	anoyntya	
+50	4550	alter	
+51	4551	arhwilyans	
+52	4552	famya	
+53	4553	glori	
+54	4554	fornya	
+55	4555	anpuredh	anpuredhow
+56	4556	bragji	
+57	4557	milonieth	
+58	4558	ekologydh	ekologydhyon
+59	4559	tetti	dettys
+60	4560	assayans	
+61	4561	tanbren	tanbrennyer
+62	4562	elek	
+63	4563	aden	
+64	4564	aghskrif	
+65	4565	mogniwl	
+66	4566	fastheans	
+67	4567	checken	
+68	4568	ewnhynseth	
+69	4569	bedhros	
+70	4570	aventurus	
+71	4571	kolyn	
+72	4572	dashwithrans	
+73	4573	ebost	
+74	4574	denti	
+75	4575	alhwedhor	
+76	4576	hamster	hamsters
+77	4577	akontydh	
+78	4578	salm	
+79	4579	lagatta	
+80	4580	bengalji	
+81	4581	karghara	kargharys
+82	4582	sostenadow	
+83	4583	ankar	
+84	4584	diala	
+85	4585	porther	
+86	4586	adhyskonydh	
+87	4587	desinores	
+88	4588	fastya	
+89	4589	a'm	
+90	4590	serghi	sergha
+91	4591	fethek	
+92	4592	amstyryus	
+93	4593	denladrans	
+94	4594	higen	
+95	4595	hwarth	
+96	4596	brall	
+97	4597	gwegbys	
+98	4598	yskans	
+99	4599	anken	
+100	4600	dagren	dagrennow

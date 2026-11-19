@@ -1,5 +1,5 @@
 # source: kw.wikipedia.org articles (CC BY-SA 4.0)
-# words: 5146
+# words: 5137
 bos	yw o ew veu yma bos esa vos eus feu usi bes beu yns on vo ves jeves via ben vons vydh ymons pos vue esens bia jevo vyns os bons bosow ov ven esons bo usy bones vosow besow
 an	an
 a	a anedha anodho anedhi anedhys anedhy anedh
@@ -26,6 +26,7 @@ dhe'n	dhe'n
 cita	cita sita citys cyta cytys citas
 ma	ma va fa
 bras	brassa bras vras vrassa prasow broas vrâs vroas fras brâs brases brasow
+usya	usys usya us usadow usyas usyes usyow usadowyow usyens usyn uses usyons
 poblans	poblans boblans
 i	i anjei enjei jei
 bys	bys bes ves bysow vys bysowyer vesies besow besyes vesow fes
@@ -49,9 +50,9 @@ restren	restren restrennow restrynnow
 aga	aga
 na	na nag
 dew	dew dhew diw dhiw thew tew tewwa
-usys	usys uses
 yth	yth
 a-dro	a-dro
+dos	dheu dheuth dos teuth dens tos dhos des teu deu deuth dhens due deus dhothya dhue dhes teuthons dhueth
 tus	tus dus thus
 re	re
 dowr	dowr dhowr dowrow dowryow dhowrow dhowryow
@@ -93,7 +94,6 @@ niver	niver niverow niveryow nyver nyverow
 kres	kres gres cres kresyow krysyow gresyow kresow
 ogas	ogas ogassa
 esel	esel eseli esely eselyow
-dos	dheuth dos teuth dens tos dhos des deuth dhens deus dhothya dhes teuthons dhueth
 braster	braster vraster vrasterow brasteryow
 west	west
 unn	unn udn
@@ -101,7 +101,6 @@ dell	dell tell dhyll thell
 mor	mor vor moryow morow moren voren vorow morenyon
 drefen	drefen
 me	me my fe ve vy fy
-usya	usya us usadow usyas usyes usyow usadowyow usyens usyn usyons
 ger	ger geryow er eryow her eres erys eryon wyr weryow gerow
 may	may mayth
 kyns	kyns kens
@@ -111,6 +110,7 @@ gweles	gwelys gweles gweli gwel weles welas gweliow weli wel gwelewgh gwelyow gw
 pur	pur fur bur purra
 komprehendya	gomprehend komprehendya komprehend
 hemma	hemm hemma hebma
+dydh	dydh jydh dedhyow dedh dydhyow dhydh dhedhyow dhydhyow dhedh tydh dëdh tedh jedh
 lyver	lyver lyvrow levrow liver lyverow
 kansblydhen	kansvledhen kansblydhen kansbledhen cansvledhen
 teylu	teylu deylu teyluyow theylu deyluyow theyluyow teyluow
@@ -138,8 +138,6 @@ desedha	desedhys dhesedhas desedha dhesedha dhesedh
 enep	enep enebow
 mar	mar mars var far mara varys
 parti	parti barti partiow farti bartiow
-dydh	dydh dedhyow dedh dydhyow dhydh dhedhyow dhydhyow dhedh tydh dëdh tedh
-deu	dheu teu deu due dhue
 soth	soth
 meurth	meurth
 frynkek	frynkek frenkek
@@ -189,6 +187,7 @@ eth	eth
 awos	awos
 synsi	synsys synsi synsas syns senji synji synsis senjy synsy synsa synsyas sensyas sinsa
 senedh	senedh senedhow
+gelwel	gelwys gelwel kelwel elwis gelwis helwys elwel kelwys galwa helwi gelwas elwas welwis gelwyas galwes
 devnydh	devnydh dhevnydh devnydhyow dhevnydhyow tevnydh dhevnedh tevnydhons
 ytho	ytho etho
 kenedhel	kenedhel kenedhlow genedhel genedhlow henedhel
@@ -210,7 +209,6 @@ skol	skol skolyow
 aswonys	aswonys
 penncita	penncita benncita fenncita pedncita penncitys
 tra	taklow tra daklow traow dra draow taclow daclow
-gelwys	gelwys elwis helwys kelwys welwis
 milvil	milvil milvilyow vilvil vilvilyow
 eneval	enevales eneval enyvales enyval enyvalow
 bewnans	bewnans vewnans bownans vownans vywnans bewnansow bownansow vewnansow bywnansow
@@ -231,6 +229,7 @@ merwel	verwis merwel ferwis verwel merwys merwis verwas
 bri	vri bri vry fri
 kowethas	kowethas gowethas kowethasow howethas cowethasow
 a-varr	a-varr a-varra
+warbarth	war-barth warbarth
 chif	chif chyf jif jyf
 kemeres	kemeres gemeras kemerys gemmer gemeres gebmer kemeras gemersa hemeres gemerys kebmer gemeri kemerens kemerewgh kemeri gemereas kemmer
 gwitha	gwithys gwitha witha withas kwitha gwith gwithas gwyth kwithas hwitha hwithas wytha wythas gwytha gwithow hwithys
@@ -304,6 +303,7 @@ rew	rew ryw rewyow rywyow
 bleujyow	bleujyow bleujen bleujennow vleujen vleujennow bleujednow vleujyow bleujenn blejyow
 lu	lu luyow
 liw	liw liwyow lyw
+devnydhya	devnydhyes devnydhys tevnydhya devnydhya dhevnydhyas dhevnydhya dhevnydhys tevnydhys tevnydhyons devnydhyas tevnydhyas
 loskvenydh	loskvenydhyow loskvenydh loskvenedhyow loskvenedh
 pymp	pymp bymp pemp bemp
 glas	glas las klassa glassa lasys hlassa lasow
@@ -371,7 +371,6 @@ war'n	war'n
 dh'y	dh'y
 bre	bre vre breow vreow breys
 hys	hys hes hesow hysow
-war-barth	war-barth
 kul	kul cul
 a-dreus	a-dreus a-drues
 lynn	lynn lydn lynnyn
@@ -387,7 +386,6 @@ kevres	kevres gevres kevresyow hevres kevresow
 dewis	dewisys dewis dhewisas dhewis dewisyow dhewisis dewysys tewis tewisis tewisas dhewisyow dewisas tewisys dewisyes
 kawsya	kawsya kawsys
 duw	duw duwow dhuw dhuwow duwyow
-devnydhya	devnydhyes tevnydhya devnydhya dhevnydhyas dhevnydhya tevnydhyons devnydhyas tevnydhyas
 studh	studh
 amerikan	amerikan
 kas	kas gas kasow cas gasys kasys hasow gasow ckas hasys kasyow
@@ -395,7 +393,6 @@ eyl	eyl
 leel	leel
 a-dhyworth	a-dhyworth
 leun	leun leunna
-jydh	jydh jedh
 romans	romans romansow
 karn	garn karn warn karnow
 gwig	gwig wig gwigow wigow
@@ -447,7 +444,6 @@ pyth	pyth peth pythow fythow beth feth pith bythow fethow
 seyth	seyth
 tomm	tomm tobm domm tommas tobmen tomma dommennow tobma tommys tommen dobm dobma tommennow dommen
 pons	pons ponsow fons ponsyow bonsyow vons bons
-warbarth	warbarth
 tro	tro dro troyow thro
 possybyl	possybyl possibyl
 kinda	kinda kindys ginda kynda hinda
@@ -562,6 +558,7 @@ gnas	gnasow gnas
 kellys	hellys kellys gyllys gellys kyllys yllys
 huni	huni huny
 benow	benow venow fenow
+sewya	sew sewya
 gonis	gonisyow gonis gonedhys wonisyow wonis gonisyas wonisow gonisow gonisys
 margh	margh mergh vergh vargh fergh
 marow	marow
@@ -589,6 +586,7 @@ displegya	dhisplegyas displegya
 viaj	viaj vyaj viajyow viajys vyajyow vyajys
 soth-west	soth-west
 ombrofyer	ombrofyer
+passya	passyes passya
 adhyskans	adhyskans
 bardhek	bardhek
 nagonan	nagonan
@@ -680,7 +678,6 @@ mires	mires mir vires mirys mirewgh viras vir miras firas miri
 komendya	komendys gomendyas gomendya komendya komendyes gomend comendys komend comendya gomendys
 dasserghyans	dasserghyans dhasserghyans
 ammeth	ammeth abmeth ammethys
-passyes	passyes
 priweyth	priweyth
 pedrek	pedrek bedrek pedrogow
 growan	growan rowan wrowan
@@ -754,6 +751,7 @@ skath	skathow skath
 brastir	brastir brastiryow vrastir vrastiryow
 ayrgylgh	ayrgylgh ayrgelgh
 yeyn	yeyn yeynna
+rekordya	rekordys rekordya
 dur	dur dhur duryow tur
 degea	degea dhegeas dhegea tegeas tegea degeas
 durya	dhuryas durya turya dhurya duryas tursons turyas duryes
@@ -813,7 +811,6 @@ kott	kott gott cott
 ympynnyon	ympynnyon ympydnyon
 dinythi	dinythi dinythys dhinyth dhinythi tinythi dhinythis dinythy tinethy dinythyes dinethi dynythi dhinythys dhinythas
 oberer	oberoryon oberer
-sew	sew
 plen	plen
 tirfurvow	tirfurvow
 oksyjen	oksyjen oksijen
@@ -833,7 +830,6 @@ arv	arvow arv
 soodh	soodh soedh sodhow
 kenwerth	kenwerth
 gorow	gorow
-devnydhys	devnydhys dhevnydhys tevnydhys
 askorrer	askorrer askorroryon ascorroryon
 apposyans	apposyans apposyansow
 bonni	bonni bonniow vonni vonniow
@@ -965,7 +961,6 @@ gwrek	wrek gwrek gwreck hwrek gwreckys
 best	best bestes vestes vest pestis
 gradh	gradh radh radhow gradhow
 howlek	howlek
-rekordys	rekordys
 neu	neu
 damach	damach dhamach
 lew	lew lewyon
@@ -1141,7 +1136,6 @@ maner	maner
 sitys	sitys
 wonisogeth	wonisogeth
 trevesigeth	trevesigeth
-sewya	sewya
 komprehendys	komprehendys
 arhansek	arhansek
 gwariva	gwariva
@@ -1484,7 +1478,6 @@ dedhyas	dedhyas dedhyasow dydhyas dhedhyasow dhedhyas
 pareusi	pareusi pareusys bareusi bareusas bareus
 aswiwa	aswiwys aswiwas aswiwa
 kolm	kolm kolmow golm holm
-gelwel	gelwel kelwel gelwis elwel galwa helwi gelwas elwas gelwyas galwes
 ayren	ayren ayrennow
 tykki	tykkiow tykki dykkiow tykkies
 kevnis	kevnis kevnisen gevnisen gevnis gynis
@@ -1827,7 +1820,6 @@ kenwerthel	kenwerthel
 muryon	muryon
 weythva	weythva
 junyans	junyans
-rekordya	rekordya
 ombrofyores	ombrofyores
 preydhoryon	preydhoryon
 disesys	disesys
@@ -2175,7 +2167,6 @@ poblansow	poblansow
 anusadow	anusadow
 grontys	grontys
 hengovyow	hengovyow
-passya	passya
 mantel	mantel
 vysytyas	vysytyas
 mellkeyn	mellkeyn

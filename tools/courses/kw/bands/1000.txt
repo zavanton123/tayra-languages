@@ -1,100 +1,100 @@
-1	901	kath	cath cathes gath gathes hath kathes
-2	902	gorheri	gorhery gorherys korheri orheri worheras worheri worherys
-3	903	bewva	bewvaow vewva vewvaow
-4	904	kyllas	gyllas gyllasen gyllasow hyllas kyllasen kyllasow yllas
-5	905	kowser	cowsoryon gowser gowsoryon howser howsoryon kowsoryon
-6	906	kegina	egyn gegin geginas geginys hegina kegin keginow keginys
-7	907	styryans	
-8	908	ledan	
-9	909	palestinek	
-10	910	sekond	
-11	911	hwarva	
-12	912	skiens	
-13	913	komplek	
-14	914	romanser	
-15	915	despit	dhespit
-16	916	derowel	dherowel terowel
-17	917	genesik	enesigow enesik ynysigow ynysik
-18	918	ball	ballow fall pall
-19	919	holya	hol holons holyas holyes holyewgh holys
-20	920	polter	bolter folter
-21	921	ton	dhon don dones tones tonyow
-22	922	fyllel	fyll fyllas fyllens fyllis fyllsa fyllys
-23	923	krys	gresyow grys krysow krysyow
-24	924	savla	
-25	925	north-est	
-26	926	kaner	
-27	927	essensek	
-28	928	dyghtyans	dhyghtyans dyghtyansow
-29	929	kewer	gewer heweres
-30	930	davas	davasow deves dhavas dheves
-31	931	erbysek	erbisek
-32	932	karbon	garbon
-33	933	pronter	bronter bronteryon pronteryon
-34	934	trevas	drevas drevasow threvasow trevasow
-35	935	mynysen	mynysednow mynysennow vynysednow vynysen
-36	936	yn-mes	
-37	937	enorys	
-38	938	klassek	
-39	939	nebonan	
-40	940	sadorn	
-41	941	awgrym	
-42	942	ygor	egor
-43	943	akademi	akademiow
-44	944	lent	lynt
-45	945	epskop	epskobow
-46	946	dewdhek	dhewdhek
-47	947	ki	gi kei
-48	948	gerlyver	erlyver erlyvrow gerlevrow gerlyvrow
-49	949	kelyon	gelyon gelyonen kelyonen
-50	950	hwarheans	hwarheansow wharheans
-51	951	splann	spladn
-52	952	klewes	clewir glewas glewes glewis glewsys klew klewys klowys klywes
-53	953	dihaval	
-54	954	golok	wolok
-55	955	dh'aga	
-56	956	pubonen	bubonan pubonan
-57	957	yonker	yonkers
-58	958	peryllus	beryllus
-59	959	als	alsyow
-60	960	asran	asrannow
-61	961	grow	row wrow
-62	962	gwrek	gwreck gwreckys hwrek wrek
-63	963	best	bestes pestis vest vestes
-64	964	gradh	gradhow radh radhow
-65	965	howlek	
-66	966	rekordys	
-67	967	neu	
-68	968	damach	dhamach
-69	969	lew	lewyon
-70	970	arvegyn	arvegynnow
-71	971	atom	atomow
-72	972	gweskel	gwaska gwaskas gwaskys gweskys gwyskys kwaska kweskel waska waskas waskys weskis
-73	973	previ	brevas breves brevi brevis brovas freves frevi preves prevys pryves
-74	974	leuv	dhiwla diwla leuvow leuvyow
-75	975	rych	
-76	976	kresel	
-77	977	gwayans	
-78	978	posetter	
-79	979	brons	vrons
-80	980	tredan	dredan
-81	981	arghpedrevan	arghpedrevanes
-82	982	fondyer	fondyoryon
-83	983	peswara	beswora peswora
-84	984	erbysieth	erbysiethow
-85	985	eva	evas even evys
-86	986	diberthys	dhiberthis dyberthys tiberthys
-87	987	gaver	aver gever
-88	988	jynn-amontya	jynnow-amontya jynnys-amontya
-89	989	morvil	morviles vorviles
-90	990	devisya	devisyes devisys devysys dhevisis dhevisya dhevisyas
-91	991	omsav	
-92	992	kilometer	
-93	993	gonisogethel	
-94	994	gwrier	
-95	995	gwener	
-96	996	ris	
-97	997	kowethasek	
-98	998	kresten	
-99	999	eylen	eylennow
-100	1000	efander	efanderow
+1	901	kowser	cowsoryon gowser gowsoryon howser howsoryon kowsoryon
+2	902	kegina	egyn gegin geginas geginys hegina kegin keginow keginys
+3	903	styryans	
+4	904	ledan	
+5	905	palestinek	
+6	906	sekond	
+7	907	hwarva	
+8	908	skiens	
+9	909	komplek	
+10	910	romanser	
+11	911	despit	dhespit
+12	912	derowel	dherowel terowel
+13	913	genesik	enesigow enesik ynysigow ynysik
+14	914	ball	ballow fall pall
+15	915	holya	hol holons holyas holyes holyewgh holys
+16	916	polter	bolter folter
+17	917	ton	dhon don dones tones tonyow
+18	918	fyllel	fyll fyllas fyllens fyllis fyllsa fyllys
+19	919	krys	gresyow grys krysow krysyow
+20	920	savla	
+21	921	north-est	
+22	922	kaner	
+23	923	essensek	
+24	924	dyghtyans	dhyghtyans dyghtyansow
+25	925	kewer	gewer heweres
+26	926	davas	davasow deves dhavas dheves
+27	927	erbysek	erbisek
+28	928	karbon	garbon
+29	929	pronter	bronter bronteryon pronteryon
+30	930	trevas	drevas drevasow threvasow trevasow
+31	931	mynysen	mynysednow mynysennow vynysednow vynysen
+32	932	yn-mes	
+33	933	enorys	
+34	934	klassek	
+35	935	nebonan	
+36	936	sadorn	
+37	937	awgrym	
+38	938	ygor	egor
+39	939	akademi	akademiow
+40	940	lent	lynt
+41	941	epskop	epskobow
+42	942	dewdhek	dhewdhek
+43	943	ki	gi kei
+44	944	gerlyver	erlyver erlyvrow gerlevrow gerlyvrow
+45	945	kelyon	gelyon gelyonen kelyonen
+46	946	hwarheans	hwarheansow wharheans
+47	947	splann	spladn
+48	948	klewes	clewir glewas glewes glewis glewsys klew klewys klowys klywes
+49	949	dihaval	
+50	950	golok	wolok
+51	951	dh'aga	
+52	952	pubonen	bubonan pubonan
+53	953	yonker	yonkers
+54	954	peryllus	beryllus
+55	955	als	alsyow
+56	956	asran	asrannow
+57	957	grow	row wrow
+58	958	gwrek	gwreck gwreckys hwrek wrek
+59	959	best	bestes pestis vest vestes
+60	960	gradh	gradhow radh radhow
+61	961	howlek	
+62	962	neu	
+63	963	damach	dhamach
+64	964	lew	lewyon
+65	965	arvegyn	arvegynnow
+66	966	atom	atomow
+67	967	gweskel	gwaska gwaskas gwaskys gweskys gwyskys kwaska kweskel waska waskas waskys weskis
+68	968	previ	brevas breves brevi brevis brovas freves frevi preves prevys pryves
+69	969	leuv	dhiwla diwla leuvow leuvyow
+70	970	rych	
+71	971	kresel	
+72	972	gwayans	
+73	973	posetter	
+74	974	brons	vrons
+75	975	tredan	dredan
+76	976	arghpedrevan	arghpedrevanes
+77	977	fondyer	fondyoryon
+78	978	peswara	beswora peswora
+79	979	erbysieth	erbysiethow
+80	980	eva	evas even evys
+81	981	diberthys	dhiberthis dyberthys tiberthys
+82	982	gaver	aver gever
+83	983	jynn-amontya	jynnow-amontya jynnys-amontya
+84	984	morvil	morviles vorviles
+85	985	devisya	devisyes devisys devysys dhevisis dhevisya dhevisyas
+86	986	omsav	
+87	987	kilometer	
+88	988	gonisogethel	
+89	989	gwrier	
+90	990	gwener	
+91	991	ris	
+92	992	kowethasek	
+93	993	kresten	
+94	994	eylen	eylennow
+95	995	efander	efanderow
+96	996	ayrborth	ayrborthow
+97	997	greun	greunen reun reunes reunyon
+98	998	oyl	oylow oylys
+99	999	fols	folsow folsyow
+100	1000	baya	bayas fayens vaya

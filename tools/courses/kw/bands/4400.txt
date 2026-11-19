@@ -1,100 +1,100 @@
-1	4301	bocka	
-2	4302	anwos	
-3	4303	afinuster	afinusterow
-4	4304	bever	fever
-5	4305	brin	
-6	4306	towargh	
-7	4307	hwiski	
-8	4308	ewon	
-9	4309	askorruster	
-10	4310	alinya	alinys
-11	4311	kennek	gennek
-12	4312	fronnans	fronansow
-13	4313	analog	
-14	4314	owrgi	owrgeun
-15	4315	diner	
-16	4316	dorgi	
-17	4317	trenkles	
-18	4318	dalva	
-19	4319	anyagh	
-20	4320	ewnhynsek	
-21	4321	feyth	
-22	4322	frosrewlivek	
-23	4323	hunyek	
-24	4324	kool	
-25	4325	resna	
-26	4326	adhvetter	
-27	4327	voter	votoryon
-28	4328	absolut	
-29	4329	skolheygel	
-30	4330	falladow	
-31	4331	dibra	dhybras
-32	4332	prederus	
-33	4333	flamek	
-34	4334	treusweladow	
-35	4335	tyckya	tick
-36	4336	bargesi	
-37	4337	cellulos	
-38	4338	anstroth	
-39	4339	ayrel	
-40	4340	arnow	
-41	4341	diverseth	
-42	4342	dernigel	
-43	4343	gorlewin	worlewin
-44	4344	arnewa	arnewas
-45	4345	kymyst	kemyst
-46	4346	a-dhywar	a-dhiwar
-47	4347	a'th	
-48	4348	deklaryans	dheklaryans
-49	4349	gerda	erda
-50	4350	chayr	chair jayr
-51	4351	dasleverel	dasleverys
-52	4352	elia	elias elisa
-53	4353	balyer	balyeryow
-54	4354	torth	dorthow
-55	4355	gwia	kwia
-56	4356	patata	batata
-57	4357	chanjyans	chanjyansow
-58	4358	alamandwydh	alamandwydhen
-59	4359	bore	fore
-60	4360	arvedh	arvedhys
-61	4361	torthel	torthellow
-62	4362	chymbla	jymblys
-63	4363	stifek	stifoges
-64	4364	besydh	vesydh
-65	4365	franklondya	franklond
-66	4366	burjeseth	vurjeseth
-67	4367	balegi	balegys
-68	4368	iskarga	iskarg
-69	4369	goheles	koheles woheles
-70	4370	akwirya	akwirys
-71	4371	deskrifus	dheskrifus
-72	4372	furvas	furvasow
-73	4373	degoodh	dhegoedh tegoodh
-74	4374	glowva	lowvaow
-75	4375	gwevya	hweffes
-76	4376	ardak	ardagow
-77	4377	cigarik	cigarigow
-78	4378	burjesek	vurjesek
-79	4379	bengorfonieth	vengorfonieth
-80	4380	kroder	krodrow
-81	4381	manek	manegow
-82	4382	delit	dhelit
-83	4383	brogh	broghes
-84	4384	ynkladhva	enkladhva
-85	4385	bryntinsys	bryntynsys
-86	4386	spern	spernen
-87	4387	breselyans	vreselyans
-88	4388	drewydh	dhrewydhyon drewydhyon
-89	4389	boragweyth	voragweyth
-90	4390	brysonydh	bresonydh
-91	4391	chyften	chiften
-92	4392	hunek	hunegen
-93	4393	kelorn	gelorn
-94	4394	giow	giowen
-95	4395	brasoberys	vrasoberys
-96	4396	foesik	foesigyon foesygyon
-97	4397	bargos	bargoses
-98	4398	a-vorow	avorow
-99	4399	mongel	fongel vongel
-100	4400	godra	godrys oder
+1	4301	alinya	alinys
+2	4302	kennek	gennek
+3	4303	fronnans	fronansow
+4	4304	analog	
+5	4305	owrgi	owrgeun
+6	4306	diner	
+7	4307	dorgi	
+8	4308	trenkles	
+9	4309	dalva	
+10	4310	anyagh	
+11	4311	ewnhynsek	
+12	4312	feyth	
+13	4313	frosrewlivek	
+14	4314	hunyek	
+15	4315	kool	
+16	4316	resna	
+17	4317	adhvetter	
+18	4318	voter	votoryon
+19	4319	absolut	
+20	4320	skolheygel	
+21	4321	falladow	
+22	4322	dibra	dhybras
+23	4323	prederus	
+24	4324	flamek	
+25	4325	treusweladow	
+26	4326	tyckya	tick
+27	4327	bargesi	
+28	4328	cellulos	
+29	4329	anstroth	
+30	4330	ayrel	
+31	4331	arnow	
+32	4332	diverseth	
+33	4333	dernigel	
+34	4334	gorlewin	worlewin
+35	4335	arnewa	arnewas
+36	4336	kymyst	kemyst
+37	4337	a-dhywar	a-dhiwar
+38	4338	a'th	
+39	4339	deklaryans	dheklaryans
+40	4340	gerda	erda
+41	4341	chayr	chair jayr
+42	4342	dasleverel	dasleverys
+43	4343	elia	elias elisa
+44	4344	balyer	balyeryow
+45	4345	torth	dorthow
+46	4346	gwia	kwia
+47	4347	patata	batata
+48	4348	chanjyans	chanjyansow
+49	4349	alamandwydh	alamandwydhen
+50	4350	bore	fore
+51	4351	arvedh	arvedhys
+52	4352	torthel	torthellow
+53	4353	chymbla	jymblys
+54	4354	stifek	stifoges
+55	4355	besydh	vesydh
+56	4356	franklondya	franklond
+57	4357	burjeseth	vurjeseth
+58	4358	balegi	balegys
+59	4359	iskarga	iskarg
+60	4360	goheles	koheles woheles
+61	4361	akwirya	akwirys
+62	4362	deskrifus	dheskrifus
+63	4363	furvas	furvasow
+64	4364	degoodh	dhegoedh tegoodh
+65	4365	glowva	lowvaow
+66	4366	gwevya	hweffes
+67	4367	ardak	ardagow
+68	4368	cigarik	cigarigow
+69	4369	burjesek	vurjesek
+70	4370	bengorfonieth	vengorfonieth
+71	4371	kroder	krodrow
+72	4372	manek	manegow
+73	4373	delit	dhelit
+74	4374	brogh	broghes
+75	4375	ynkladhva	enkladhva
+76	4376	bryntinsys	bryntynsys
+77	4377	spern	spernen
+78	4378	breselyans	vreselyans
+79	4379	drewydh	dhrewydhyon drewydhyon
+80	4380	boragweyth	voragweyth
+81	4381	brysonydh	bresonydh
+82	4382	chyften	chiften
+83	4383	hunek	hunegen
+84	4384	kelorn	gelorn
+85	4385	giow	giowen
+86	4386	brasoberys	vrasoberys
+87	4387	foesik	foesigyon foesygyon
+88	4388	bargos	bargoses
+89	4389	a-vorow	avorow
+90	4390	mongel	fongel vongel
+91	4391	godra	godrys oder
+92	4392	ayrosol	ayrosolys
+93	4393	bismer	bismerys bysmer
+94	4394	gormola	gormoledhow wormola
+95	4395	kellik	gelligen gellik
+96	4396	fardella	fardell fardellys
+97	4397	ascendya	ascend ascendyas
+98	4398	ametha	ameth amethas amethys
+99	4399	bora	borys vora
+100	4400	gwinlan	gwinlannow winlan

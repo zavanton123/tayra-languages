@@ -1,100 +1,100 @@
-1	1101	hal	halow
-2	1102	gravyans	gravyansow ravyans wravyans
-3	1103	klassys	
-4	1104	kerghynnedh	
-5	1105	geyj	
-6	1106	dre'n	
-7	1107	keunys	geunys gunys keunysen kunys
-8	1108	pig	big fig
-9	1109	managh	menegh vanagh venegh
-10	1110	skon	
-11	1111	rydh	
-12	1112	hwarvosow	
-13	1113	tramor	
-14	1114	a-berth	
-15	1115	removas	
-16	1116	a-woles	
-17	1117	unnplek	
-18	1118	uraniom	
-19	1119	kesweyth	
-20	1120	lowen	lowenna
-21	1121	morek	vorek
-22	1122	arge	argeow
-23	1123	ynkleudhyas	ynkleudhyasys ynkleudhyes ynkleudhys
-24	1124	gil	il
-25	1125	glos	klos los
-26	1126	votya	vot votyas votyes votys
-27	1127	hogh	hoghes
-28	1128	kocha	gocha gochys kochys
-29	1129	trovya	drov drovis drovya drovyas throvya trovyes trovys
-30	1130	ostel	ostelyow
-31	1131	yet	yetow yetys
-32	1132	glann	gladnow glannow
-33	1133	gleb	glyb leb lyb
-34	1134	lenwel	lanwes lenwys
-35	1135	treghi	dreghi dreghys treghas treghys trogh troghow
-36	1136	devedhys	
-37	1137	waynya	
-38	1138	maner	
-39	1139	sitys	
-40	1140	wonisogeth	
-41	1141	trevesigeth	
-42	1142	sewya	
-43	1143	komprehendys	
-44	1144	arhansek	
-45	1145	gwariva	
-46	1146	remova	
-47	1147	skoos	scoos skoosow
-48	1148	alkan	alkenyow
-49	1149	boghes	voghes
-50	1150	pyskessa	byskessa pyskessys
-51	1151	spyrys	spyrysow spyrysyon
-52	1152	yeynhe	yeynha yeynhas yeynhes
-53	1153	keher	geher heher keheren keherow
-54	1154	yar	yer
-55	1155	gwartha	wartha
-56	1156	fong	fongow
-57	1157	dyskans	deskans dhescans dhyskans dhyskansow dyscansow dyskansow
-58	1158	maystri	vaystri vaystry
-59	1159	gwin	gwinow gwyn win
-60	1160	post	bost postys
-61	1161	kneus	gneus hneus
-62	1162	unnek	udnek udnyk
-63	1163	kevradh	gevradh gevradhow kevradhow
-64	1164	kroghen	croghen greghyn groghen hroghen kreghyn
-65	1165	servya	
-66	1166	gaws	
-67	1167	gravedh	
-68	1168	skoodhyer	
-69	1169	jornalyas	
-70	1170	a-dhiwedhes	
-71	1171	privedh	
-72	1172	ynjynorieth	ynjinorieth
-73	1173	zynk	zink
-74	1174	keus	geus geusyow keusyow
-75	1175	brastiryel	vrastiryel
-76	1176	estennans	ystynnans ystynnansow
-77	1177	gwag	wag wages
-78	1178	entra	entras entrons
-79	1179	piw	biw piwys viw
-80	1180	konin	gonin gonines honyn konines
-81	1181	klock	clock klockow klockys
-82	1182	tybi	dippa dyb dybi dybis dybys tybons tybys
-83	1183	mell	fell mellow vell vellow
-84	1184	kowa	cowsys gowsis kowses kowsis kowsys kowys
-85	1185	gwias	gwiasow wias wiasow
-86	1186	prov	brov frov provow provyow provys
-87	1187	remenans	
-88	1188	a-ban	
-89	1189	tevyans	
-90	1190	pennfenten	
-91	1191	planettys	
-92	1192	tempel	
-93	1193	skrifores	
-94	1194	toulys	
-95	1195	dowrgleudhyow	
-96	1196	serv	
-97	1197	alja	
-98	1198	arlodhes	arlodhesow
-99	1199	kavadow	cavadow gavadow
-100	1200	pla	blaow plaow
+1	1101	dre'n	
+2	1102	keunys	geunys gunys keunysen kunys
+3	1103	pig	big fig
+4	1104	managh	menegh vanagh venegh
+5	1105	skon	
+6	1106	rydh	
+7	1107	hwarvosow	
+8	1108	tramor	
+9	1109	a-berth	
+10	1110	removas	
+11	1111	a-woles	
+12	1112	unnplek	
+13	1113	uraniom	
+14	1114	kesweyth	
+15	1115	lowen	lowenna
+16	1116	morek	vorek
+17	1117	arge	argeow
+18	1118	ynkleudhyas	ynkleudhyasys ynkleudhyes ynkleudhys
+19	1119	gil	il
+20	1120	glos	klos los
+21	1121	votya	vot votyas votyes votys
+22	1122	hogh	hoghes
+23	1123	kocha	gocha gochys kochys
+24	1124	trovya	drov drovis drovya drovyas throvya trovyes trovys
+25	1125	ostel	ostelyow
+26	1126	yet	yetow yetys
+27	1127	glann	gladnow glannow
+28	1128	gleb	glyb leb lyb
+29	1129	lenwel	lanwes lenwys
+30	1130	treghi	dreghi dreghys treghas treghys trogh troghow
+31	1131	devedhys	
+32	1132	waynya	
+33	1133	maner	
+34	1134	sitys	
+35	1135	wonisogeth	
+36	1136	trevesigeth	
+37	1137	komprehendys	
+38	1138	arhansek	
+39	1139	gwariva	
+40	1140	remova	
+41	1141	skoos	scoos skoosow
+42	1142	alkan	alkenyow
+43	1143	boghes	voghes
+44	1144	pyskessa	byskessa pyskessys
+45	1145	spyrys	spyrysow spyrysyon
+46	1146	yeynhe	yeynha yeynhas yeynhes
+47	1147	keher	geher heher keheren keherow
+48	1148	yar	yer
+49	1149	gwartha	wartha
+50	1150	fong	fongow
+51	1151	dyskans	deskans dhescans dhyskans dhyskansow dyscansow dyskansow
+52	1152	maystri	vaystri vaystry
+53	1153	gwin	gwinow gwyn win
+54	1154	post	bost postys
+55	1155	kneus	gneus hneus
+56	1156	unnek	udnek udnyk
+57	1157	kevradh	gevradh gevradhow kevradhow
+58	1158	kroghen	croghen greghyn groghen hroghen kreghyn
+59	1159	servya	
+60	1160	gaws	
+61	1161	gravedh	
+62	1162	skoodhyer	
+63	1163	jornalyas	
+64	1164	a-dhiwedhes	
+65	1165	privedh	
+66	1166	ynjynorieth	ynjinorieth
+67	1167	zynk	zink
+68	1168	keus	geus geusyow keusyow
+69	1169	brastiryel	vrastiryel
+70	1170	estennans	ystynnans ystynnansow
+71	1171	gwag	wag wages
+72	1172	entra	entras entrons
+73	1173	piw	biw piwys viw
+74	1174	konin	gonin gonines honyn konines
+75	1175	klock	clock klockow klockys
+76	1176	tybi	dippa dyb dybi dybis dybys tybons tybys
+77	1177	mell	fell mellow vell vellow
+78	1178	kowa	cowsys gowsis kowses kowsis kowsys kowys
+79	1179	gwias	gwiasow wias wiasow
+80	1180	prov	brov frov provow provyow provys
+81	1181	remenans	
+82	1182	a-ban	
+83	1183	tevyans	
+84	1184	pennfenten	
+85	1185	planettys	
+86	1186	tempel	
+87	1187	skrifores	
+88	1188	toulys	
+89	1189	dowrgleudhyow	
+90	1190	serv	
+91	1191	alja	
+92	1192	arlodhes	arlodhesow
+93	1193	kavadow	cavadow gavadow
+94	1194	pla	blaow plaow
+95	1195	pervedh	bervedh
+96	1196	gwas	gwesyon
+97	1197	tiger	digres tigres tigri
+98	1198	gwastas	wastas
+99	1199	kreslu	greslu kresluyow
+100	1200	wortiwedh	wor'tiwedh

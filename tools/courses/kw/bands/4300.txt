@@ -1,100 +1,100 @@
-1	4201	pempbes	pempbeses pympbyses
-2	4202	tegyrin	degyrin tegyrinen
-3	4203	kresydh	kresydhyon
-4	4204	barren	barrednow barrennow
-5	4205	broweghi	proweghi vroweghi
-6	4206	gwerem	gwerebmow
-7	4207	tarder	terder
-8	4208	krampoth	krampothen
-9	4209	argevro	argevrohow
-10	4210	folennik	folenigow
-11	4211	avokado	avocados avokados
-12	4212	melon	felons melonyow
-13	4213	dybarth	dhibarthas dyberth tibarthas
-14	4214	erbysi	erbysas
-15	4215	pennti	bennti benntiow
-16	4216	digompes	dhigompes tigompes
-17	4217	gavel	avelow havel
-18	4218	bothel	bothellow vothellow
-19	4219	plos	blos flos
-20	4220	kenter	genter
-21	4221	byghanhe	byghanhes byghanys pyghanhe vyghanhas
-22	4222	berrskrifa	berrscrif berrskrif verrskrif
-23	4223	favera	faver faveras faverys
-24	4224	dasa	desyn dhasa dhassen tasa
-25	4225	gryll	krellow krill rilles
-26	4226	dynerghi	dhynerghis dynargh dynerghys
-27	4227	blamya	blamys vlamya vlamyas
-28	4228	chersya	chersyes chersys
-29	4229	fasya	fes fesya fesyas
-30	4230	bostya	postya postys vostya
-31	4231	gevell	evell evellyow gevellow
-32	4232	golowi	golowa golowys wolowys
-33	4233	fylmya	filmys fylmyas fylmys
-34	4234	magla	faglys maglys meglys vagel
-35	4235	bock	
-36	4236	euver	
-37	4237	abostol	abesteli
-38	4238	arbenikter	
-39	4239	ananedhys	
-40	4240	lili	
-41	4241	herdhyans	
-42	4242	arva	arvys
-43	4243	eskarek	
-44	4244	lettrys	
-45	4245	dasunyans	
-46	4246	dastrehevyans	
-47	4247	gwarthek	
-48	4248	eythin	
-49	4249	sos	
-50	4250	mantol	vantol
-51	4251	howlyek	
-52	4252	challa	challys
-53	4253	gwinwel	
-54	4254	arnewys	
-55	4255	dhe-les	
-56	4256	vali	
-57	4257	app	
-58	4258	sira	
-59	4259	chonsus	
-60	4260	bastard	
-61	4261	halyans	
-62	4262	demond	
-63	4263	evredh	evredhyon
-64	4264	ekonomydh	
-65	4265	dadhelva	
-66	4266	devorya	
-67	4267	borr	
-68	4268	gwydhbol	
-69	4269	ekspres	
-70	4270	anedhel	
-71	4271	ahwer	
-72	4272	estenna	
-73	4273	enysheans	
-74	4274	ughsommys	
-75	4275	ambosys	
-76	4276	fether	
-77	4277	didhana	
-78	4278	akademoges	
-79	4279	morvoren	vorvoren
-80	4280	gwenn	
-81	4281	skwith	
-82	4282	resnel	
-83	4283	fayntys	
-84	4284	ethegel	
-85	4285	gwagva	
-86	4286	etholer	etholoryon
-87	4287	dibries	
-88	4288	ansur	
-89	4289	esedhek	
-90	4290	finder	
-91	4291	ruvanes	
-92	4292	arwask	
-93	4293	omwolghi	
-94	4294	skrij	
-95	4295	pas	
-96	4296	fers	
-97	4297	effeythuster	
-98	4298	delk	
-99	4299	budhek	
-100	4300	alkemydh	
+1	4201	folennik	folenigow
+2	4202	avokado	avocados avokados
+3	4203	melon	felons melonyow
+4	4204	dybarth	dhibarthas dyberth tibarthas
+5	4205	erbysi	erbysas
+6	4206	pennti	bennti benntiow
+7	4207	digompes	dhigompes tigompes
+8	4208	gavel	avelow havel
+9	4209	bothel	bothellow vothellow
+10	4210	plos	blos flos
+11	4211	kenter	genter
+12	4212	byghanhe	byghanhes byghanys pyghanhe vyghanhas
+13	4213	berrskrifa	berrscrif berrskrif verrskrif
+14	4214	favera	faver faveras faverys
+15	4215	dasa	desyn dhasa dhassen tasa
+16	4216	gryll	krellow krill rilles
+17	4217	dynerghi	dhynerghis dynargh dynerghys
+18	4218	blamya	blamys vlamya vlamyas
+19	4219	chersya	chersyes chersys
+20	4220	fasya	fes fesya fesyas
+21	4221	bostya	postya postys vostya
+22	4222	gevell	evell evellyow gevellow
+23	4223	golowi	golowa golowys wolowys
+24	4224	fylmya	filmys fylmyas fylmys
+25	4225	magla	faglys maglys meglys vagel
+26	4226	bock	
+27	4227	euver	
+28	4228	abostol	abesteli
+29	4229	arbenikter	
+30	4230	ananedhys	
+31	4231	lili	
+32	4232	herdhyans	
+33	4233	arva	arvys
+34	4234	eskarek	
+35	4235	lettrys	
+36	4236	dasunyans	
+37	4237	dastrehevyans	
+38	4238	gwarthek	
+39	4239	eythin	
+40	4240	sos	
+41	4241	mantol	vantol
+42	4242	howlyek	
+43	4243	challa	challys
+44	4244	gwinwel	
+45	4245	arnewys	
+46	4246	dhe-les	
+47	4247	vali	
+48	4248	app	
+49	4249	sira	
+50	4250	chonsus	
+51	4251	bastard	
+52	4252	halyans	
+53	4253	demond	
+54	4254	evredh	evredhyon
+55	4255	ekonomydh	
+56	4256	dadhelva	
+57	4257	devorya	
+58	4258	borr	
+59	4259	gwydhbol	
+60	4260	ekspres	
+61	4261	anedhel	
+62	4262	ahwer	
+63	4263	estenna	
+64	4264	enysheans	
+65	4265	ughsommys	
+66	4266	ambosys	
+67	4267	fether	
+68	4268	didhana	
+69	4269	akademoges	
+70	4270	morvoren	vorvoren
+71	4271	gwenn	
+72	4272	skwith	
+73	4273	resnel	
+74	4274	fayntys	
+75	4275	ethegel	
+76	4276	gwagva	
+77	4277	etholer	etholoryon
+78	4278	dibries	
+79	4279	ansur	
+80	4280	esedhek	
+81	4281	finder	
+82	4282	ruvanes	
+83	4283	arwask	
+84	4284	omwolghi	
+85	4285	skrij	
+86	4286	pas	
+87	4287	fers	
+88	4288	effeythuster	
+89	4289	delk	
+90	4290	budhek	
+91	4291	alkemydh	
+92	4292	bocka	
+93	4293	anwos	
+94	4294	afinuster	afinusterow
+95	4295	bever	fever
+96	4296	brin	
+97	4297	towargh	
+98	4298	hwiski	
+99	4299	ewon	
+100	4300	askorruster	

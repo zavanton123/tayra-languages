@@ -1,100 +1,100 @@
-1	2101	leyth	
-2	2102	lows	
-3	2103	krysir	
-4	2104	nena	
-5	2105	neon	
-6	2106	kethneth	
-7	2107	getto	etto
-8	2108	spenas	
-9	2109	gwlanek	
-10	2110	treuslinen	
-11	2111	skovva	
-12	2112	lewyer	
-13	2113	sodhas	
-14	2114	lewydhek	
-15	2115	grondyes	
-16	2116	losowek	
-17	2117	komik	
-18	2118	filosofek	
-19	2119	terthen	
-20	2120	lanthanid	
-21	2121	krag	
-22	2122	kreungylgh	
-23	2123	radhva	
-24	2124	diwroser	
-25	2125	gwerdhour	
-26	2126	soya	
-27	2127	ayrgorf	
-28	2128	gesstrifas	
-29	2129	pymthek	bymthek
-30	2130	freudh	freudhow
-31	2131	kergh	gergh
-32	2132	chatel	jatel
-33	2133	dowrhe	dowrhyns
-34	2134	elin	elinyow elyn
-35	2135	lugarn	lugern
-36	2136	kevri	gevras gevri kevriyas kevryn
-37	2137	dalgh	dalghow dhalgh
-38	2138	budh	budhow budhys vudh
-39	2139	aweni	awenas awenys
-40	2140	amendyans	amendyansow
-41	2141	gorlost	gorlosten worlost worlosten
-42	2142	skolheyk	skolheygyon
-43	2143	amovyans	amovyansow
-44	2144	porghel	porghelli
-45	2145	pywa	bewi biwo bywa fywa pywys
-46	2146	ladra	ladras ledrys
-47	2147	dans	dens dhans dhens
-48	2148	chambour	chambours jambour
-49	2149	nen	nyn
-50	2150	a-dhyghow	a-dheghow
-51	2151	minvlew	vinvlew
-52	2152	awen	awenyow diwawen
-53	2153	marthys	varthys
-54	2154	adamant	adamantys
-55	2155	dalghedh	dalghedhow dhalghedh
-56	2156	morgi	morgeun vorgi
-57	2157	powes	bowes powesa powesas powesow
-58	2158	segha	seghes seghys syggha
-59	2159	kist	cistow gist kistow kistyow kyst
-60	2160	krena	crenna gren grena kren krenna
-61	2161	bran	brini fran vran vrini
-62	2162	rugbi	
-63	2163	sovran	
-64	2164	yllir	
-65	2165	medalen	
-66	2166	antimoni	
-67	2167	hevelepter	
-68	2168	gorour	
-69	2169	mappys	
-70	2170	golegydh	
-71	2171	losonydh	
-72	2172	poblansow	
-73	2173	anusadow	
-74	2174	grontys	
-75	2175	hengovyow	
-76	2176	passya	
-77	2177	mantel	
-78	2178	vysytyas	
-79	2179	mellkeyn	
-80	2180	gwelstiryow	
-81	2181	yowynkka	
-82	2182	emperourethek	
-83	2183	mõisa	
-84	2184	vildir	
-85	2185	diwotti	
-86	2186	hendas	
-87	2187	dybieth	
-88	2188	dhowrgleudh	
-89	2189	fylum	
-90	2190	krabbys	
-91	2191	adhves	
-92	2192	tirwedhow	
-93	2193	ragavon	
-94	2194	representya	
-95	2195	skaffa	
-96	2196	profyes	
-97	2197	gorreydh	
-98	2198	seleniom	
-99	2199	sawor	
-100	2200	koloven	
+1	2101	gwlanek	
+2	2102	treuslinen	
+3	2103	skovva	
+4	2104	lewyer	
+5	2105	sodhas	
+6	2106	lewydhek	
+7	2107	grondyes	
+8	2108	losowek	
+9	2109	komik	
+10	2110	filosofek	
+11	2111	terthen	
+12	2112	lanthanid	
+13	2113	krag	
+14	2114	kreungylgh	
+15	2115	radhva	
+16	2116	diwroser	
+17	2117	gwerdhour	
+18	2118	soya	
+19	2119	ayrgorf	
+20	2120	gesstrifas	
+21	2121	pymthek	bymthek
+22	2122	freudh	freudhow
+23	2123	kergh	gergh
+24	2124	chatel	jatel
+25	2125	dowrhe	dowrhyns
+26	2126	elin	elinyow elyn
+27	2127	lugarn	lugern
+28	2128	kevri	gevras gevri kevriyas kevryn
+29	2129	dalgh	dalghow dhalgh
+30	2130	budh	budhow budhys vudh
+31	2131	aweni	awenas awenys
+32	2132	amendyans	amendyansow
+33	2133	gorlost	gorlosten worlost worlosten
+34	2134	skolheyk	skolheygyon
+35	2135	amovyans	amovyansow
+36	2136	porghel	porghelli
+37	2137	pywa	bewi biwo bywa fywa pywys
+38	2138	ladra	ladras ledrys
+39	2139	dans	dens dhans dhens
+40	2140	chambour	chambours jambour
+41	2141	nen	nyn
+42	2142	a-dhyghow	a-dheghow
+43	2143	minvlew	vinvlew
+44	2144	awen	awenyow diwawen
+45	2145	marthys	varthys
+46	2146	adamant	adamantys
+47	2147	dalghedh	dalghedhow dhalghedh
+48	2148	morgi	morgeun vorgi
+49	2149	powes	bowes powesa powesas powesow
+50	2150	segha	seghes seghys syggha
+51	2151	kist	cistow gist kistow kistyow kyst
+52	2152	krena	crenna gren grena kren krenna
+53	2153	bran	brini fran vran vrini
+54	2154	rugbi	
+55	2155	sovran	
+56	2156	yllir	
+57	2157	medalen	
+58	2158	antimoni	
+59	2159	hevelepter	
+60	2160	gorour	
+61	2161	mappys	
+62	2162	golegydh	
+63	2163	losonydh	
+64	2164	poblansow	
+65	2165	anusadow	
+66	2166	grontys	
+67	2167	hengovyow	
+68	2168	mantel	
+69	2169	vysytyas	
+70	2170	mellkeyn	
+71	2171	gwelstiryow	
+72	2172	yowynkka	
+73	2173	emperourethek	
+74	2174	mõisa	
+75	2175	vildir	
+76	2176	diwotti	
+77	2177	hendas	
+78	2178	dybieth	
+79	2179	dhowrgleudh	
+80	2180	fylum	
+81	2181	krabbys	
+82	2182	adhves	
+83	2183	tirwedhow	
+84	2184	ragavon	
+85	2185	representya	
+86	2186	skaffa	
+87	2187	profyes	
+88	2188	gorreydh	
+89	2189	seleniom	
+90	2190	sawor	
+91	2191	koloven	
+92	2192	planetik	
+93	2193	darlesans	
+94	2194	troyllyek	
+95	2195	kloud	
+96	2196	kemygydh	
+97	2197	platys	
+98	2198	penicillin	
+99	2199	noth	
+100	2200	migorn	

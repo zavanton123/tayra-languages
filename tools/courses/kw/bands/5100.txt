@@ -1,100 +1,100 @@
-1	5001	fewdal	
-2	5002	eskorra	
-3	5003	karnal	
-4	5004	bonkya	vonkyons
-5	5005	eksamnyer	
-6	5006	idhyow	
-7	5007	enamel	
-8	5008	lavant	
-9	5009	dibayn	
-10	5010	batt	
-11	5011	bryghen	vryghen
-12	5012	armel	
-13	5013	celder	celders
-14	5014	denaghans	dhenaghans
-15	5015	eksperyans	
-16	5016	kroglen	groglennow
-17	5017	erba	
-18	5018	pystrier	
-19	5019	pystriores	
-20	5020	talas	
-21	5021	bronkitis	
-22	5022	alargh	
-23	5023	hyr	
-24	5024	embrio	embryo
-25	5025	diegi	dhiegi
-26	5026	avlavar	
-27	5027	ojyon	
-28	5028	baster	pasterys
-29	5029	galargan	
-30	5030	anvarwoleth	
-31	5031	lasogeth	
-32	5032	trenkan	
-33	5033	bynner	
-34	5034	skrutha	skruthys
-35	5035	kontron	
-36	5036	ewl	
-37	5037	kantolbren	
-38	5038	didhaner	
-39	5039	asektour	
-40	5040	arbrevi	
-41	5041	a-dhann	
-42	5042	diaskellek	
-43	5043	arghader	
-44	5044	amontydh	
-45	5045	jowles	
-46	5046	avius	
-47	5047	gallosedh	
-48	5048	a-vann	
-49	5049	lorgan	
-50	5050	ankempen	
-51	5051	baramanyn	
-52	5052	spelt	
-53	5053	skubell-sugna	
-54	5054	tyckli	
-55	5055	delek	
-56	5056	skwithus	
-57	5057	chevalri	chevalry
-58	5058	ha'm	
-59	5059	araderor	
-60	5060	certifiys	
-61	5061	godhevus	
-62	5062	omdhal	omdhyllys
-63	5063	agnostek	
-64	5064	dysmygwari	tismygwari
-65	5065	dietegydh	dietegydhyon
-66	5066	fencya	
-67	5067	bernya	bernas
-68	5068	atalgist	
-69	5069	divarva	
-70	5070	sawrek	
-71	5071	baboun	
-72	5072	glasdu	
-73	5073	flouren	flourennow
-74	5074	kabester	
-75	5075	venezwelek	
-76	5076	beggya	
-77	5077	gwigh	
-78	5078	tewel	dhewel
-79	5079	tirwyns	
-80	5080	ankerys	
-81	5081	glaswyn	
-82	5082	ayrlorgh	
-83	5083	golowhe	golowha
-84	5084	kosmek	
-85	5085	anvodh	
-86	5086	kowlwerth	
-87	5087	mim	vim
-88	5088	estrigys	
-89	5089	avaylya	
-90	5090	arvarna	
-91	5091	enjoya	enjoy
-92	5092	budhyn	budhynnow
-93	5093	abelieth	
-94	5094	fydhyadewder	
-95	5095	ayrsketh	
-96	5096	ymunedh	
-97	5097	anparhus	
-98	5098	bodharek	bodharogyon
-99	5099	arethores	
-100	5100	prisya	prisons
+1	5001	batt	
+2	5002	bryghen	vryghen
+3	5003	armel	
+4	5004	celder	celders
+5	5005	denaghans	dhenaghans
+6	5006	eksperyans	
+7	5007	kroglen	groglennow
+8	5008	erba	
+9	5009	pystrier	
+10	5010	pystriores	
+11	5011	talas	
+12	5012	bronkitis	
+13	5013	alargh	
+14	5014	hyr	
+15	5015	embrio	embryo
+16	5016	diegi	dhiegi
+17	5017	avlavar	
+18	5018	ojyon	
+19	5019	baster	pasterys
+20	5020	galargan	
+21	5021	anvarwoleth	
+22	5022	lasogeth	
+23	5023	trenkan	
+24	5024	bynner	
+25	5025	skrutha	skruthys
+26	5026	kontron	
+27	5027	ewl	
+28	5028	kantolbren	
+29	5029	didhaner	
+30	5030	asektour	
+31	5031	arbrevi	
+32	5032	a-dhann	
+33	5033	diaskellek	
+34	5034	arghader	
+35	5035	amontydh	
+36	5036	jowles	
+37	5037	avius	
+38	5038	gallosedh	
+39	5039	a-vann	
+40	5040	lorgan	
+41	5041	ankempen	
+42	5042	baramanyn	
+43	5043	spelt	
+44	5044	skubell-sugna	
+45	5045	tyckli	
+46	5046	delek	
+47	5047	skwithus	
+48	5048	chevalri	chevalry
+49	5049	ha'm	
+50	5050	araderor	
+51	5051	certifiys	
+52	5052	godhevus	
+53	5053	omdhal	omdhyllys
+54	5054	agnostek	
+55	5055	dysmygwari	tismygwari
+56	5056	dietegydh	dietegydhyon
+57	5057	fencya	
+58	5058	bernya	bernas
+59	5059	atalgist	
+60	5060	divarva	
+61	5061	sawrek	
+62	5062	baboun	
+63	5063	glasdu	
+64	5064	flouren	flourennow
+65	5065	kabester	
+66	5066	venezwelek	
+67	5067	beggya	
+68	5068	gwigh	
+69	5069	tewel	dhewel
+70	5070	tirwyns	
+71	5071	ankerys	
+72	5072	glaswyn	
+73	5073	ayrlorgh	
+74	5074	golowhe	golowha
+75	5075	kosmek	
+76	5076	anvodh	
+77	5077	kowlwerth	
+78	5078	mim	vim
+79	5079	estrigys	
+80	5080	avaylya	
+81	5081	arvarna	
+82	5082	enjoya	enjoy
+83	5083	budhyn	budhynnow
+84	5084	abelieth	
+85	5085	fydhyadewder	
+86	5086	ayrsketh	
+87	5087	ymunedh	
+88	5088	anparhus	
+89	5089	bodharek	bodharogyon
+90	5090	arethores	
+91	5091	prisya	prisons
+92	5092	gradhegi	gradhek
+93	5093	besydhven	
+94	5094	kil	
+95	5095	bennath	vennath
+96	5096	ewna	ewnys
+97	5097	amstyr	
+98	5098	ayrgylghyek	
+99	5099	bothfurvek	
+100	5100	frosans	

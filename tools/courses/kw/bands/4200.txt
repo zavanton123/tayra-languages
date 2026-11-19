@@ -1,100 +1,100 @@
-1	4101	didhanus	
-2	4102	ankres	
-3	4103	faster	
-4	4104	oghen	
-5	4105	bothek	
-6	4106	boks	
-7	4107	lytherva	
-8	4108	pobla	poblys
-9	4109	heydh	
-10	4110	barbour	
-11	4111	blessya	bless
-12	4112	nagonen	
-13	4113	presep	
-14	4114	evredhek	
-15	4115	cessya	
-16	4116	dynyans	
-17	4117	otta	
-18	4118	glavor	klavor
-19	4119	byttele	
-20	4120	molys	
-21	4121	browagh	
-22	4122	barras	
-23	4123	hesk	
-24	4124	oferen	
-25	4125	omdhon	
-26	4126	strooth	
-27	4127	fyrv	
-28	4128	cher	
-29	4129	anfurvus	
-30	4130	atomva	
-31	4131	alkoholek	
-32	4132	tawel	
-33	4133	tryflek	
-34	4134	anewn	
-35	4135	sidhel	
-36	4136	badhya	
-37	4137	tanweyth	
-38	4138	flerys	
-39	4139	loskven	
-40	4140	ewonek	
-41	4141	frothuster	
-42	4142	persil	
-43	4143	mathematigel	
-44	4144	frosrewlivans	
-45	4145	felsik	
-46	4146	erbysyon	
-47	4147	ankombrynsi	
-48	4148	anorganek	
-49	4149	eos	
-50	4150	bystel	
-51	4151	filosofores	
-52	4152	zombi	
-53	4153	hwypp	
-54	4154	ughelvarr	
-55	4155	estat	
-56	4156	arwodhik	arwodhigow
-57	4157	dasweles	daswelys
-58	4158	emskemuna	emskemunyas emskemunys
-59	4159	arghepskop	arghepskobow
-60	4160	bynari	bynary
-61	4161	dherag	dheragdho
-62	4162	darbarer	darbaroryon
-63	4163	mata	fata
-64	4164	pyncel	pyncelyow
-65	4165	botas	votas
-66	4166	akoustek	acoustek
-67	4167	elow	elowen
-68	4168	darbolla	darbollys
-69	4169	truth	druth
-70	4170	lavyn	lavynnyon
-71	4171	ehek	eghek
-72	4172	sidhla	sidhlys
-73	4173	gelvinek	gelvinogyon
-74	4174	gocki	hocki
-75	4175	p'eur	
-76	4176	faskor	faskoryon
-77	4177	deray	derayes
-78	4178	brithweyth	vrithweyth
-79	4179	gidlyver	gidlyvrow
-80	4180	leurlen	leurlennow
-81	4181	amethyst	amethystyow
-82	4182	armadyllo	armadillo
-83	4183	astiveryans	astiveryansow
-84	4184	cirk	cirkow
-85	4185	tempra	dempra temprys
-86	4186	keherek	geherek
-87	4187	assentya	assentyas
-88	4188	glawlen	glawlednow
-89	4189	arghanser	arghansoryon
-90	4190	argos	argosow
-91	4191	pita	bita
-92	4192	testskrif	testskrifow
-93	4193	frethter	frethterow
-94	4194	lorgh	lorghow
-95	4195	desempis	desempys
-96	4196	gormel	gormelys hormons kormel
-97	4197	braysya	brays praisya prays
-98	4198	dyowles	dhyowles
-99	4199	mordhos	diwvordhos mordhosow
-100	4200	skons	skonsen skonsow
+1	4101	barbour	
+2	4102	blessya	bless
+3	4103	nagonen	
+4	4104	presep	
+5	4105	evredhek	
+6	4106	cessya	
+7	4107	dynyans	
+8	4108	otta	
+9	4109	glavor	klavor
+10	4110	byttele	
+11	4111	molys	
+12	4112	browagh	
+13	4113	barras	
+14	4114	hesk	
+15	4115	oferen	
+16	4116	omdhon	
+17	4117	strooth	
+18	4118	fyrv	
+19	4119	cher	
+20	4120	anfurvus	
+21	4121	atomva	
+22	4122	alkoholek	
+23	4123	tawel	
+24	4124	tryflek	
+25	4125	anewn	
+26	4126	sidhel	
+27	4127	badhya	
+28	4128	tanweyth	
+29	4129	flerys	
+30	4130	loskven	
+31	4131	ewonek	
+32	4132	frothuster	
+33	4133	persil	
+34	4134	mathematigel	
+35	4135	frosrewlivans	
+36	4136	felsik	
+37	4137	erbysyon	
+38	4138	ankombrynsi	
+39	4139	anorganek	
+40	4140	eos	
+41	4141	bystel	
+42	4142	filosofores	
+43	4143	zombi	
+44	4144	hwypp	
+45	4145	ughelvarr	
+46	4146	estat	
+47	4147	arwodhik	arwodhigow
+48	4148	dasweles	daswelys
+49	4149	emskemuna	emskemunyas emskemunys
+50	4150	arghepskop	arghepskobow
+51	4151	bynari	bynary
+52	4152	dherag	dheragdho
+53	4153	darbarer	darbaroryon
+54	4154	mata	fata
+55	4155	pyncel	pyncelyow
+56	4156	botas	votas
+57	4157	akoustek	acoustek
+58	4158	elow	elowen
+59	4159	darbolla	darbollys
+60	4160	truth	druth
+61	4161	lavyn	lavynnyon
+62	4162	ehek	eghek
+63	4163	sidhla	sidhlys
+64	4164	gelvinek	gelvinogyon
+65	4165	gocki	hocki
+66	4166	p'eur	
+67	4167	faskor	faskoryon
+68	4168	deray	derayes
+69	4169	brithweyth	vrithweyth
+70	4170	gidlyver	gidlyvrow
+71	4171	leurlen	leurlennow
+72	4172	amethyst	amethystyow
+73	4173	armadyllo	armadillo
+74	4174	astiveryans	astiveryansow
+75	4175	cirk	cirkow
+76	4176	tempra	dempra temprys
+77	4177	keherek	geherek
+78	4178	assentya	assentyas
+79	4179	glawlen	glawlednow
+80	4180	arghanser	arghansoryon
+81	4181	argos	argosow
+82	4182	pita	bita
+83	4183	testskrif	testskrifow
+84	4184	frethter	frethterow
+85	4185	lorgh	lorghow
+86	4186	desempis	desempys
+87	4187	gormel	gormelys hormons kormel
+88	4188	braysya	brays praisya prays
+89	4189	dyowles	dhyowles
+90	4190	mordhos	diwvordhos mordhosow
+91	4191	skons	skonsen skonsow
+92	4192	pempbes	pempbeses pympbyses
+93	4193	tegyrin	degyrin tegyrinen
+94	4194	kresydh	kresydhyon
+95	4195	barren	barrednow barrennow
+96	4196	broweghi	proweghi vroweghi
+97	4197	gwerem	gwerebmow
+98	4198	tarder	terder
+99	4199	krampoth	krampothen
+100	4200	argevro	argevrohow
