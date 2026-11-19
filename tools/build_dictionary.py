@@ -289,6 +289,11 @@ CLEANERS = {"bn": clean_bengali, "sr": clean_serbian_cyrillic, "uk": strip_pitch
 SWAHILI_PROSE_FORM = re.compile(r"\[\[Appendix:Swahili.*\bof (-?[a-z]+(?: na)?)(?: \(“[^”]*”\))?(?:;.*)?$")
 
 
+def swahili_plain_gloss(gloss):
+    """The noun-class links as their text: "[[Appendix:Swahili noun classes#N class|n class_((IX))]]" is "n class (IX)"."""
+    return re.sub(r"\[\[[^|\]]*\|([^\]]*)\]\]", r"\1", gloss).replace("_((", " (").replace("))", ")")
+
+
 def swahili_lemma(word):
     return word[1:] if len(word) > 1 and word.startswith("-") and not word.endswith("-") else word
 
@@ -605,7 +610,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 targets = [cleaner(x["word"]) for x in s.get("form_of", []) + s.get("alt_of", []) if x.get("word")]
                 if source == "sw":
                     prose = [m.group(1) for g in s.get("glosses", [])[-1:] if (m := SWAHILI_PROSE_FORM.search(g))]
-                    targets = [swahili_lemma(t) for t in targets or prose]
+                    # A form of the one-letter -a ("of": ya, za, vya) stays an entry, as the pack keeps no one-letter lemma.
+                    targets = [t for t in (swahili_lemma(t) for t in targets or prose) if len(t) > 1]
                 for lemma in targets:
                     if is_clean_form(word, lemma, source) and not (latin_only and foreign(lemma)):
                         form_rows.append((lowercase(word, source), lemma))
@@ -615,6 +621,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 glosses = [g.strip() for g in s.get("glosses", []) if g.strip()]
                 if not glosses:
                     continue
+                if source == "sw":
+                    glosses = [swahili_plain_gloss(g) for g in glosses]
                 # Nested senses list their parent gloss first; the last entry is the sense itself.
                 sense = {"glosses": [glosses[-1]]}
                 kept_tags = [t for t in tags if t not in NOISE_SENSE_TAGS]
