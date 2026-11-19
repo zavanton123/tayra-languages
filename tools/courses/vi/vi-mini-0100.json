@@ -1,0 +1,195 @@
+{
+  "id": "vi-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Ở nhà với gia đình",
+  "description": "Ten short stories about Minh's family at home in Hà Nội: grandpa, a brother and sister, an aunt, a friend and a cat.",
+  "topic": "Home and family",
+  "names": [
+    "Minh",
+    "Hà Nội",
+    "Hùng",
+    "Thảo",
+    "Mướp",
+    "Hai",
+    "Ba",
+    "Huế",
+    "Tuấn",
+    "Tết",
+    "hồ Gươm",
+    "Sáu",
+    "Mun",
+    "Bông"
+  ],
+  "lessons": [
+    {
+      "title": "Nhà của Minh",
+      "summary": "Minh shows us his home and the people and the cat who live there.",
+      "newWords": [
+        "tôi",
+        "là",
+        "ở",
+        "nhà",
+        "của",
+        "có",
+        "người",
+        "đây",
+        "một",
+        "không",
+        "và",
+        "em",
+        "ai"
+      ],
+      "text": "Tôi là Minh. Tôi ở Hà Nội. Đây là nhà của tôi. Nhà của tôi có 3 người và một con mèo.\n\nĐây là anh Hùng. Anh Hùng là anh của tôi. Đây là em Thảo. Em Thảo là em của tôi. Và đây là Mướp. Mướp là con mèo của tôi.\n\nNhà của tôi có chó không? Không. Nhà của tôi không có chó. Nhà của tôi có một con mèo.\n\nCâu hỏi:\nMinh ở đâu?\nMinh ở Hà Nội.\nNhà của Minh có mấy người?\nNhà của Minh có 3 người.\nAi là anh của Minh?\nAnh Hùng là anh của Minh.\nEm Thảo là ai?\nEm Thảo là em của Minh.\nNhà của Minh có chó không?\nKhông, nhà của Minh không có chó."
+    },
+    {
+      "title": "Một ngày của ông Hai",
+      "summary": "Grandpa Hai has no job, but he has a lot to do at home every day.",
+      "newWords": [
+        "ông",
+        "đi",
+        "làm",
+        "việc",
+        "công",
+        "nhưng",
+        "nhiều",
+        "giờ",
+        "về",
+        "trong",
+        "ra"
+      ],
+      "text": "Ông Hai là ông của Minh. Ông Hai không đi làm. Ông không có công việc. Nhưng ông có nhiều việc ở nhà.\n\n6 giờ, ông đi ra chợ. 7 giờ, ông về nhà. 8 giờ, ông làm việc ở trong vườn.\n\nÔng Hai không có công việc, nhưng ông có nhiều việc. Ông làm việc ở trong nhà và ở ngoài vườn.\n\nCâu hỏi:\nÔng Hai có đi làm không?\nKhông, ông Hai không đi làm.\n6 giờ, ông Hai đi đâu?\n6 giờ, ông Hai đi ra chợ.\n7 giờ, ông Hai có về nhà không?\nCó, 7 giờ ông Hai về nhà.\nÔng Hai làm việc ở đâu?\nÔng Hai làm việc ở trong nhà và ở trong vườn."
+    },
+    {
+      "title": "Mướp ở đâu?",
+      "summary": "Thảo looks for her cat all over the house and finds it on her bed.",
+      "newWords": [
+        "con",
+        "nó",
+        "thấy",
+        "nghĩ",
+        "đâu",
+        "vào",
+        "đó",
+        "cũng",
+        "lên",
+        "trên",
+        "nói"
+      ],
+      "text": "Thảo có một con mèo. Nó là Mướp. Thảo không thấy Mướp. Thảo nghĩ: “Mướp ở đâu?”\n\nThảo đi vào bếp. Mướp không ở đó. Thảo đi ra vườn. Mướp cũng không ở đó. Ông Hai ở đó.\n\nThảo nói: “Ông có thấy Mướp không?” Ông nói: “Không, ông không thấy nó. Con đi lên trên đi.”\n\nThảo nghĩ: “Mướp ở trên đó?” Thảo đi vào nhà và đi lên trên. Mướp ở đó! Nó ở trên giường của Thảo.\n\nCâu hỏi:\nThảo không thấy ai?\nThảo không thấy Mướp.\nMướp có ở trong bếp không?\nKhông, Mướp không ở trong bếp.\nÔng Hai có thấy Mướp không?\nKhông, ông Hai cũng không thấy nó.\nMướp ở đâu?\nMướp ở trên giường của Thảo."
+    },
+    {
+      "title": "7 giờ rồi!",
+      "summary": "Hùng does not want to get up for work, and his sister wakes him.",
+      "newWords": [
+        "anh",
+        "ấy",
+        "phải",
+        "chưa",
+        "rồi",
+        "muốn",
+        "nữa",
+        "thể",
+        "sẽ",
+        "đến",
+        "đã",
+        "gì"
+      ],
+      "text": "7 giờ rồi. Anh Hùng phải đi làm, nhưng anh ấy chưa dậy.\n\nThảo nói: “Anh Hùng! 7 giờ rồi! Anh phải đi làm!”\n\nAnh Hùng nói: “Anh muốn ngủ nữa.”\n\nThảo nói: “Anh không thể ngủ nữa. Anh sẽ đến muộn.”\n\nAnh Hùng nghĩ: “7 giờ rồi? Anh sẽ đến muộn? Không thể!” Anh ấy đi làm.\n\n8 giờ, anh Hùng đã đến chỗ làm. Anh không đến muộn.\n\nCâu hỏi:\n7 giờ, anh Hùng phải làm gì?\n7 giờ, anh Hùng phải đi làm.\n7 giờ, anh Hùng đã dậy chưa?\nChưa, anh Hùng chưa dậy.\nAnh Hùng muốn làm gì?\nAnh Hùng muốn ngủ nữa.\n8 giờ, anh Hùng ở đâu?\n8 giờ, anh Hùng đã đến chỗ làm."
+    },
+    {
+      "title": "Cô Ba đến",
+      "summary": "Aunt Ba comes from Huế with presents for the children.",
+      "newWords": [
+        "cô",
+        "cho",
+        "các",
+        "những",
+        "cái",
+        "này",
+        "chúng",
+        "ta",
+        "với",
+        "để"
+      ],
+      "text": "Cô Ba ở Huế. Cô Ba là cô của Minh. Cô đến Hà Nội. Cô đến nhà của Minh để thấy các con.\n\nCô Ba có quà cho các con. Cô nói: “Cái này là cho Minh. Cái này là cho Thảo. Và những cái này là cho Hùng.”\n\nCô Ba nói: “Chúng ta đi ra hồ Gươm. Các con có muốn đi với cô không?”\n\nCác con nói: “Chúng con muốn đi với cô!”\n\nThảo nói: “Chúng ta đi!” Minh, Thảo và Hùng đi với cô Ba. Cô Ba đi ra hồ Gươm để thấy Hà Nội.\n\nCâu hỏi:\nCô Ba ở đâu?\nCô Ba ở Huế.\nCô Ba có gì cho các con?\nCô Ba có quà cho các con.\nNhững cái này là cho ai?\nNhững cái này là cho Hùng.\nCác con đi với ai?\nCác con đi với cô Ba."
+    },
+    {
+      "title": "Thảo bị ốm",
+      "summary": "Thảo is ill and Grandpa Hai keeps her at home.",
+      "newWords": [
+        "bị",
+        "sao",
+        "vậy",
+        "thế",
+        "nào",
+        "đầu",
+        "vì",
+        "nên",
+        "cần"
+      ],
+      "text": "Thảo bị ốm. Thảo ở trong nhà. Ông Hai đi vào. Ông nói: “Thảo, con sao vậy? Con thấy thế nào?”\n\nThảo nói: “Con bị đau đầu. Đầu con nóng.”\n\nÔng Hai nói: “Vì con bị ốm, nên con cần ở nhà. Con cần ngủ nhiều.”\n\nThảo nói: “Vậy con không đi đâu sao?”\n\nÔng nói: “Không. Con bị ốm thế này, con không thể đi đâu. Con cần ở nhà với ông.”\n\nCâu hỏi:\nThảo bị sao?\nThảo bị đau đầu.\nThảo thấy thế nào?\nĐầu Thảo nóng.\nVì sao Thảo cần ở nhà?\nVì Thảo bị ốm, nên Thảo cần ở nhà.\nThảo cần ở nhà với ai?\nThảo cần ở nhà với ông Hai."
+    },
+    {
+      "title": "Chuyện của ông",
+      "summary": "Grandpa tells Minh how Hà Nội was when he was young.",
+      "newWords": [
+        "chuyện",
+        "khi",
+        "năm",
+        "như",
+        "từ",
+        "thật",
+        "mà",
+        "điều",
+        "sự",
+        "biết",
+        "rất"
+      ],
+      "text": "Ông Hai có rất nhiều chuyện. Minh muốn biết chuyện của ông.\n\nÔng nói: “Năm 1970, khi ông 20 tuổi, Hà Nội không như bây giờ. Hà Nội không có nhiều người như thế. Ông đi bộ từ nhà đến hồ Gươm.”\n\nMinh nói: “Ông đi bộ từ nhà đến hồ Gươm? Chuyện đó có thật không ông?”\n\nÔng nói: “Thật mà. Đó là sự thật. Ông nói thật mà.”\n\nMinh nghĩ: “Ông biết nhiều điều. Đó là một điều rất hay.”\n\nCâu hỏi:\nNăm 1970, ông Hai ở đâu?\nNăm 1970, ông Hai ở Hà Nội.\nKhi đó, Hà Nội có như bây giờ không?\nKhông, khi đó Hà Nội không như bây giờ.\nÔng Hai đi từ đâu đến đâu?\nÔng đi từ nhà đến hồ Gươm.\nChuyện của ông có thật không?\nCó, đó là sự thật."
+    },
+    {
+      "title": "Bạn của Minh",
+      "summary": "Minh's friend Tuấn comes over, and they do the housework before they go out.",
+      "newWords": [
+        "bạn",
+        "mình",
+        "cậu",
+        "đang",
+        "nếu",
+        "thì",
+        "đấy",
+        "hơn",
+        "chỉ"
+      ],
+      "text": "Minh có một người bạn. Bạn của Minh là Tuấn. Tuấn đến nhà Minh.\n\nTuấn nói: “Minh! Cậu đang làm gì đấy?”\n\nMinh nói: “Mình đang làm việc nhà đấy. Cậu thì sao? Cậu muốn làm gì?”\n\nTuấn nói: “Mình chỉ muốn đi ra hồ Gươm. Nếu cậu muốn, thì chúng ta đi.”\n\nMinh nói: “Nếu mình đi, thì ai làm việc nhà? Mình chỉ có 1 giờ.”\n\nTuấn nói: “Vậy mình làm với cậu. Có hai người thì hơn một người.”\n\nMinh và Tuấn làm việc nhà. Tuấn làm nhiều hơn Minh! Rồi hai bạn đi ra hồ Gươm.\n\nCâu hỏi:\nBạn của Minh là ai?\nBạn của Minh là Tuấn.\nMinh đang làm gì?\nMinh đang làm việc nhà.\nTuấn muốn đi đâu?\nTuấn chỉ muốn đi ra hồ Gươm.\nAi làm nhiều hơn?\nTuấn làm nhiều hơn Minh."
+    },
+    {
+      "title": "Mướp đi đâu?",
+      "summary": "Hùng follows the cat to a neighbour's house, where it has two friends.",
+      "newWords": [
+        "theo",
+        "tới",
+        "lại",
+        "họ",
+        "tại",
+        "còn",
+        "được"
+      ],
+      "text": "Mướp đi ra. Anh Hùng đi theo nó. Mướp đi tới nhà của ông Sáu. Anh Hùng cũng đi theo tới đó.\n\nÔng Sáu có hai con mèo, Mun và Bông. Mướp đi tới với Mun và Bông.\n\nÔng Sáu nói: “Anh là ai? Tại sao anh đi theo con mèo này?”\n\nAnh Hùng nói: “Tại nó là mèo của em tôi. Còn Mun và Bông là của ông?”\n\nÔng Sáu nói: “Được. Đây là Mun, còn đó là Bông. Mướp tới đây với họ. Họ là bạn.”\n\nAnh Hùng về nhà với Mướp. Nhưng Mướp lại đi ra. Nó lại tới nhà ông Sáu. Anh Hùng nghĩ: “Được rồi.”\n\nCâu hỏi:\nAi đi theo Mướp?\nAnh Hùng đi theo Mướp.\nMướp đi tới đâu?\nMướp đi tới nhà của ông Sáu.\nMun và Bông là của ai?\nMun và Bông là của ông Sáu.\nMướp có ở nhà không?\nKhông, Mướp lại tới nhà ông Sáu."
+    },
+    {
+      "title": "Tết ở nhà",
+      "summary": "The whole family is together at home for Tết, the best day of the year.",
+      "newWords": [
+        "cả",
+        "nhất",
+        "thành",
+        "ngày",
+        "thôi",
+        "thứ"
+      ],
+      "text": "Tết là ngày vui nhất của năm. Ngày Tết, cả nhà Minh ở nhà.\n\nCô Ba từ Huế tới Hà Nội. Anh Hùng không đi làm. Thảo không đi đâu. Cả nhà ở với nhau.\n\nNgày Tết, Hà Nội thành một thành phố khác. Không có nhiều người, không có nhiều xe.\n\nÔng Hai nói: “Ông biết một điều. Ngày Tết là ngày tốt nhất. Những thứ khác là không cần.”\n\nMinh nói: “Con cũng biết thế. Ngày Tết, con chỉ muốn ở nhà thôi. Mọi thứ khác là không cần.”\n\nCâu hỏi:\nNgày nào là ngày vui nhất của năm?\nTết là ngày vui nhất của năm.\nNgày Tết, ai ở nhà?\nNgày Tết, cả nhà Minh ở nhà.\nNgày Tết, Hà Nội thế nào?\nNgày Tết, Hà Nội thành một thành phố khác.\nNgày Tết, Minh muốn làm gì?\nMinh chỉ muốn ở nhà thôi."
+    }
+  ]
+}
