@@ -69,7 +69,7 @@ LANGUAGES = [
     "it", "la", "lt", "lv", "mk", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sl", "sr", "sv", "tr",
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "sw",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "sw", "kk",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -103,6 +103,7 @@ FALLBACKS = {
     "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
     "eo": {"leipzig": ["epo_newscrawl_2017_1M"]},
     "vi": {"leipzig": ["vie_news_2022_1M", "vie-vn_web_2015_1M"]},
+    "kk": {"leipzig": ["kaz_newscrawl_2016_1M", "kaz_news_2020_30K"], "wikipedia_sentences": ["kaz_wikipedia_2021_300K"]},
     "ko": {"leipzig": ["kor_news_2019_1M"]},
     "ms": {"leipzig": ["msa-my_web_2013_1M"]},
 }
@@ -213,6 +214,12 @@ SOURCE_WEIGHTS["mt"] = {"maltese": 0.45, "maltese_web": 0.45, "maltese_wikipedia
 # Malay is counted from web text, subtitles and Malaysian web pages (Leipzig's crawl of .my sites, a million sentences):
 # its Wikipedia would add its pages' words, and Leipzig's news crawls mix in Indonesian.
 SOURCE_ORDER["ms"] = ["wordfreq", "frequencywords", "leipzig"]
+# Kazakh has no wordfreq list: it is counted from Leipzig's news (a million sentences of 2016, most from Azattyq, and 30,000
+# of 2020) and, at a fifth of the blend, its Wikipedia's sentences, each sentence once; its subtitles (FrequencyWords, 14,000
+# words) are a tenth, which brings the words of talk up (сен, саған, рахмет).
+SOURCE_ORDER["kk"] = ["leipzig", "wikipedia_sentences", "frequencywords"]
+BLEND.add("kk")
+SOURCE_WEIGHTS["kk"] = {"leipzig": 0.7, "wikipedia_sentences": 0.2, "frequencywords": 0.1}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -260,6 +267,7 @@ import frequency_persian  # noqa: E402
 import frequency_mongolian  # noqa: E402
 import frequency_lao  # noqa: E402
 import frequency_km  # noqa: E402
+import frequency_kazakh  # noqa: E402
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
@@ -295,6 +303,8 @@ FORMS_PER_WORD = 40
 # possessive, in the singular and plural (гэр, гэрт, гэртээ, гэрүүдэд), and a verb its tenses, participles and converbs; a
 # Basque word its stacked case endings and its verbs' auxiliaries (etxekoekin, zaizkizu, dezakezuela).
 FORMS_PER_WORD_OF = {"cy": 120, "fa": 150, "mn": 150, "eu": 1000}
+# A Kazakh word's endings stack as a Mongolian one's do (кітаптарымызда, айтылмаған).
+FORMS_PER_WORD_OF["kk"] = 150
 
 
 # Languages whose words are written in Chinese characters or kana.
@@ -3054,6 +3064,9 @@ def normalise(language, form):
             "\u05f0", "\u05d5\u05d5").replace("\u05f1", "\u05d5\u05d9")
     if language == "br":
         return breton_apostrophe(form)
+    # Kazakh text writes і as the Latin i in many words (едi, кейiн), and some other letters as their Latin look-alikes.
+    if language == "kk":
+        return frequency_kazakh.normalise(form)
     return form
 
 
@@ -3224,6 +3237,8 @@ def leipzig_counts(language, limit, source="leipzig"):
 # epocha N per dies circa solem movebatur" 5,686 times, which put epocha, sol and moveo in the first twenty, its towns'
 # "Incolae X appellantur" over 3,000 times (incola) and its footballers' "X inter alia cum turma X lusit" 300 (turma).
 LEIPZIG_DEDUPED = {"la", "cy", "hy"}
+# And Kazakh's, whose news pages repeat their share buttons and headings ("Facebook-те бөлісіңіз", "Navigation").
+LEIPZIG_DEDUPED.add("kk")
 LEIPZIG_NAME = re.compile(r"[^\W\d_]+")
 
 
@@ -4520,7 +4535,7 @@ def load_dictionary(language):
                 else:
                     GEORGIAN_OWN.add(word_lc)
         # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
-        if language in ("hi", "mn") and p == "postp":
+        if language in ("hi", "mn", "kk") and p == "postp":
             p = "prep"
         # And Basque's (ondoren, aurka, gabe).
         if language == "eu" and p == "postp":
@@ -4801,6 +4816,8 @@ def load_dictionary(language):
         frequency_persian.load(db, pos, lemmas, common)
     if language == "mn":
         frequency_mongolian.load(db, pos, lemmas, common, DICTIONARIES)
+    if language == "kk":
+        frequency_kazakh.load(db, pos, lemmas, common, DICTIONARIES)
     if language in FINNIC_OWN_SENSES:
         own, plain = finnish_kinds(db, lemmas, language)
         for word, kinds in unlisted.items():
@@ -5616,6 +5633,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         for w in [w for w in freq if not HINDI_LETTERS.fullmatch(w)]:
             del freq[w]
     label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
+    if language == "kk":
+        # The Kazakh paradigms are made for the forms the counts have (frequency_kazakh).
+        frequency_kazakh.SEEN = set(freq)
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
