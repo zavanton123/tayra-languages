@@ -17,4 +17,4 @@ split_sentences: ".;·!?"
 word_chars: "\\u0370-\\u03FF\\u1F00-\\u1FFF\\u0300-\\u036f'’"
 right_to_left: false
 show_romanization: false
-parser_type: spacedel
+parser_type: ancientgreek

@@ -24,7 +24,7 @@ object AddedLanguages {
             wordCharacters = "\\u0370-\\u03FF\\u1F00-\\u1FFF\\u0300-\\u036f'’",
             rightToLeft = false,
             showRomanization = false,
-            parserType = "spacedel",
+            parserType = "ancientgreek",
         ),
     )
 
