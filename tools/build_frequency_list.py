@@ -58,6 +58,7 @@ import frequency_kannada  # noqa: E402
 import frequency_bengali  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
+import frequency_telugu  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -71,7 +72,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -94,6 +95,7 @@ FALLBACKS = {
     "arz": {"leipzig": ["arz_wikipedia_2021_100K"]},
     "kn": {"leipzig": ["kan_wikipedia_2021_300K"]},
     "az": {"leipzig": ["aze_newscrawl_2013_1M"], "wikipedia_sentences": ["aze_wikipedia_2021_1M"]},
+    "te": {"leipzig": ["tel_news_2020_100K", "tel_newscrawl_2011_300K"], "wikipedia_sentences": ["tel_wikipedia_2021_300K"]},
     "th": {"leipzig": ["tha_news_2020_30K", "tha_wikipedia_2021_10K"]},
     "ga": {"leipzig": ["gle_wikipedia_2021_30K"]},
     "gv": {"leipzig": ["glv_wikipedia_2021_10K"]},
@@ -140,6 +142,10 @@ SOURCE_ORDER["is"] = ["wordfreq", "frequencywords"]
 SOURCE_ORDER["fa"] = ["wordfreq", "frequencywords"]
 # Kannada is counted from its Wikipedia alone, which neither wordfreq nor FrequencyWords has (frequency_kannada).
 SOURCE_ORDER["kn"] = ["leipzig"]
+# Telugu is counted from subtitles, news and Wikipedia (frequency_telugu): wordfreq has no Telugu. The subtitles are 120,000 words
+# of everyday talk, which the news and Wikipedia lack (నేను, మీరు, ధన్యవాదాలు); Wikipedia, much of it village pages, is weighed
+# least.
+SOURCE_ORDER["te"] = ["frequencywords", "leipzig", "wikipedia_sentences"]
 # Languages whose sources are all blended, however many forms the first has.
 BLEND = {"ko"}
 # Galician is counted from subtitles alone, as its list was first built (wordfreq has no Galician, and the Wikipedia
@@ -200,6 +206,8 @@ SOURCE_WEIGHTS["hy"] = {"leipzig": 0.5, "wikipedia_sentences": 0.3, "frequencywo
 SOURCE_ROOTED = {"hy": {"frequencywords"}}
 BLEND.add("vi")
 SOURCE_WEIGHTS["vi"] = {"frequencywords": 0.7, "leipzig": 0.3}
+BLEND.add("te")
+SOURCE_WEIGHTS["te"] = {"frequencywords": 0.25, "leipzig": 0.55, "wikipedia_sentences": 0.2}
 # Albanian is counted from subtitles and news (wordfreq has no Albanian). The subtitles alone left a quarter of the pack's
 # words that text has uncounted (shqiptar, qytetar, kërkesë, rritje); the news, at a tenth of the blend, counts them without
 # bringing its politics (opozitë, kuvend, prokuror) into the first thousand over kitchen and family words, as half did.
@@ -5271,6 +5279,9 @@ def build(language, source, size):
     if language == "ta":
         label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
         return frequency_tamil.build(found, size, label, SOURCE_WEIGHTS["ta"])
+    if language == "te":
+        label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
+        return frequency_telugu.build(found, size, label, SOURCE_WEIGHTS["te"])
     return build_list(language, found, size)
 
 
