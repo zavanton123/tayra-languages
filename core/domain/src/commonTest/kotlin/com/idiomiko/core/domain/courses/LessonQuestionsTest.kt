@@ -23,6 +23,11 @@ class LessonQuestionsTest {
     }
 
     @Test
+    fun theManxHeaderIsFound() {
+        assertEquals(1, LessonQuestions.split("Ta Juan ayns y thie.\n\nFeyshtyn:\nCre vel Juan?\nT'eh ayns y thie.")?.questions?.size)
+    }
+
+    @Test
     fun eachLanguagesHeaderIsFound() {
         val headers = listOf(
             "Questions :", "Հարցեր․", "پرسش‌ها:", "คำถาม:", "Mga tanong:", "问题：", "Ἐρωτήσεις:", "Pyetje:", "פֿראַגעס:",
