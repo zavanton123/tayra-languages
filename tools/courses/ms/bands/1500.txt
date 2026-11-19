@@ -1,0 +1,100 @@
+1	1401	kek	keknya
+2	1402	kejap	
+3	1403	pentas	pentasnya
+4	1404	aliran	alirannya
+5	1405	lemak	
+6	1406	sejati	
+7	1407	elok	
+8	1408	daun	daunnya
+9	1409	tunjuk	
+10	1410	kejar	
+11	1411	bendera	
+12	1412	iklan	iklanku iklannya
+13	1413	kegiatan	kegiatanku kegiatanmu kegiatannya
+14	1414	getah	getahnya
+15	1415	wira	wiraku wiranya
+16	1416	berhak	
+17	1417	yatim	yatimmu
+18	1418	ceramah	ceramahmu ceramahnya
+19	1419	identiti	identitiku identitimu identitinya
+20	1420	keturunan	keturunanku keturunanmu keturunannya
+21	1421	manfaat	
+22	1422	emosi	
+23	1423	pengganas	
+24	1424	puasa	puasanya
+25	1425	keyakinan	keyakinanku keyakinanmu keyakinannya
+26	1426	wahai	
+27	1427	ipuh	ipoh
+28	1428	menghargai	
+29	1429	ketakutan	
+30	1430	darjah	darjahnya derajat
+31	1431	olah	diolah mengolah
+32	1432	gus	
+33	1433	ribut	ributnya
+34	1434	bosan	
+35	1435	lucu	
+36	1436	perhubungan	perhubunganku perhubungannya
+37	1437	kering	
+38	1438	bumiputera	
+39	1439	rahim	rahimku rahimnya
+40	1440	payah	
+41	1441	ringan	
+42	1442	moden	
+43	1443	surau	suraunya
+44	1444	skim	
+45	1445	hidung	hidungku hidungmu hidungnya
+46	1446	terjun	
+47	1447	nuklear	
+48	1448	kerjaya	
+49	1449	kaca	kacamu kacanya
+50	1450	abaikan	diabaikan mengabaikan
+51	1451	kompleks	
+52	1452	kawal	kawalnya
+53	1453	berikutnya	
+54	1454	hasrat	hasratku hasratnya
+55	1455	cikgu	cikgunya
+56	1456	dapur	dapurku dapurmu dapurnya
+57	1457	geng	gengku gengmu gengnya
+58	1458	paul	
+59	1459	kukuh	
+60	1460	asyik	
+61	1461	rindu	
+62	1462	sambung	disambung menyambung
+63	1463	kencing	
+64	1464	angkatan	seangkatan
+65	1465	kambing	kambingku kambingnya
+66	1466	lori	
+67	1467	satelit	satelitku satelitmu satelitnya
+68	1468	ejen	
+69	1469	gemuk	
+70	1470	lantai	lantaiku lantaimu lantainya
+71	1471	berdarah	
+72	1472	tasik	tasiknya
+73	1473	tanjung	tanjong
+74	1474	niat	niatku niatmu niatnya
+75	1475	doa	
+76	1476	utusan	utusanku utusanmu utusannya
+77	1477	kehendak	
+78	1478	kelahiran	kelahiranku kelahiranmu kelahirannya
+79	1479	unik	
+80	1480	kejutan	kejutanku kejutannya
+81	1481	kongsi	kongsiku kongsinya
+82	1482	matematik	
+83	1483	surah	
+84	1484	ikat	diikat ikatnya seikat
+85	1485	pejuang	pejuangnya
+86	1486	memimpin	
+87	1487	sinar	sinarku sinarmu sinarnya
+88	1488	pakej	pakejnya
+89	1489	beraksi	
+90	1490	ikatan	ikatanku ikatanmu ikatannya
+91	1491	penjelasan	
+92	1492	benarkan	
+93	1493	istilah	istilahnya
+94	1494	bencana	
+95	1495	lengan	lenganku lenganmu lengannya
+96	1496	detektif	detektifmu
+97	1497	memasak	
+98	1498	botol	botolmu botolnya
+99	1499	madu	maduku madumu madunya
+100	1500	gajah	gajahnya

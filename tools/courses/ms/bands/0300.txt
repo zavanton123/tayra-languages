@@ -1,0 +1,100 @@
+1	201	jumpa	
+2	202	serta	
+3	203	sehingga	
+4	204	belum	blm
+5	205	paling	
+6	206	bagus	
+7	207	ahli	ahlinya
+8	208	minta	
+9	209	cepat	
+10	210	berjaya	
+11	211	turut	
+12	212	ikut	diikut mengikut
+13	213	melalui	
+14	214	bandar	bandarku bandarnya
+15	215	tengok	ditengok menengok
+16	216	polis	polisku polismu polisnya
+17	217	nanti	
+18	218	semula	
+19	219	bulan	bln bulanku bulanmu bulannya
+20	220	faham	paham
+21	221	ingat	teringat
+22	222	kini	
+23	223	walaupun	
+24	224	pula	lak
+25	225	lagu	laguku lagumu lagunya
+26	226	selama	
+27	227	benda	mende
+28	228	ketua	ketuaku ketuamu ketuanya
+29	229	sebenarnya	
+30	230	ramai	
+31	231	pasukan	
+32	232	majlis	
+33	233	balik	balek baliknya
+34	234	semasa	
+35	235	baiklah	
+36	236	tinggi	
+37	237	fikir	difikir pikir
+38	238	waktu	waktuku waktumu waktunya
+39	239	tangan	tanganku tanganmu tangannya
+40	240	bahagian	bahagianku bahagianmu bahagiannya
+41	241	iaitu	
+42	242	mesti	
+43	243	kira	
+44	244	kanak	kanakku kanakmu kanaknya
+45	245	filem	filemnya
+46	246	kedua	
+47	247	membantu	dibantu
+48	248	seseorang	
+49	249	raya	
+50	250	perempuan	pompuan
+51	251	beri	diberi
+52	252	menerima	diterima
+53	253	program	
+54	254	mengenai	
+55	255	beritahu	
+56	256	jaga	berjaga dijaga menjaga
+57	257	selalu	
+58	258	terhadap	
+59	259	buka	dibuka membuka
+60	260	tanah	tanahku tanahmu tanahnya
+61	261	percaya	percayanya
+62	262	sampai	
+63	263	menteri	menterinya
+64	264	mampu	
+65	265	gila	
+66	266	takut	
+67	267	keadaan	keadaanku keadaanmu keadaannya
+68	268	bahasa	bahasaku bahasamu bahasanya
+69	269	jam	jamku jamnya
+70	270	budak	budakku budakmu budaknya
+71	271	pagi	pagiku paginya
+72	272	seluruh	
+73	273	terbaik	
+74	274	bilik	bilikku bilikmu biliknya
+75	275	guna	
+76	276	tinggal	
+77	277	pilihan	pilihanku pilihanmu pilihannya
+78	278	depan	dpn
+79	279	syarikat	syarikatku syarikatmu syarikatnya
+80	280	maksud	maksudku maksudmu maksudnya
+81	281	tidur	tidok tidurku tidurmu tidurnya
+82	282	mudah	
+83	283	sejak	
+84	284	datuk	datukku datukmu datuknya
+85	285	telefon	ditelefon menelefon telepon
+86	286	supaya	
+87	287	cukup	
+88	288	biasa	
+89	289	belakang	belakangku belakangmu belakangnya
+90	290	cinta	cintaku cintamu cintanya
+91	291	berikan	diberikan
+92	292	selain	
+93	293	maklumat	
+94	294	buku	bukuku bukumu bukunya sebuku
+95	295	tadi	
+96	296	duduk	
+97	297	bodoh	
+98	298	makanan	makananku makananmu makanannya
+99	299	ambil	
+100	300	berapa	

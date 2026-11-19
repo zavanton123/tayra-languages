@@ -1,0 +1,100 @@
+1	401	segala	
+2	402	lari	berlari
+3	403	suatu	
+4	404	tindakan	tindakanku tindakanmu tindakannya
+5	405	masing	
+6	406	harga	hargaku hargamu harganya
+7	407	senjata	senjataku senjatamu senjatanya
+8	408	tanya	
+9	409	tiba	
+10	410	demi	
+11	411	rakan	rakanku rakanmu rakannya
+12	412	bapa	bapak bapakku bapakmu bapaknya
+13	413	kenal	
+14	414	naik	
+15	415	alam	alamku alamnya
+16	416	hasil	hasilku hasilmu hasilnya
+17	417	semakin	
+18	418	menang	
+19	419	bermain	
+20	420	presiden	
+21	421	isu	
+22	422	belajar	
+23	423	akhir	
+24	424	penuh	
+25	425	agar	agarku
+26	426	aktiviti	aktivitinya
+27	427	harap	
+28	428	la	
+29	429	tangkap	ditangkap menangkap
+30	430	janji	janjiku janjimu janjinya
+31	431	kelas	
+32	432	agak	
+33	433	berita	beritaku beritamu beritanya
+34	434	malah	
+35	435	adik	adikku adikmu adiknya adinda dik dinda
+36	436	kematian	kematianku kematianmu kematiannya
+37	437	jatuh	
+38	438	sementara	
+39	439	arah	arahku arahmu arahnya
+40	440	lepaskan	dilepaskan melepaskan
+41	441	gadis	gadisku gadismu gadisnya
+42	442	asal	asalku asalmu asalnya
+43	443	kaum	kaumku kaummu kaumnya
+44	444	pukul	pukulnya
+45	445	dewan	dewannya
+46	446	ku	
+47	447	projek	projekmu projeknya
+48	448	jelas	
+49	449	pulau	pulauku pulaumu pulaunya
+50	450	kalian	kelian
+51	451	berubah	
+52	452	buruk	terburuk
+53	453	semalam	
+54	454	berbeza	
+55	455	darah	darahku darahmu darahnya
+56	456	dibuat	
+57	457	haji	aji hajiku hajinya
+58	458	anggota	
+59	459	perang	perangku perangmu perangnya prang
+60	460	awam	
+61	461	pembangunan	pembangunannya
+62	462	hubungan	
+63	463	politik	politikku politiknya
+64	464	bangunan	bangunanku bangunanmu bangunannya
+65	465	seri	
+66	466	sebarang	
+67	467	soalan	soalanku soalanmu soalannya soklan
+68	468	minum	diminum meminum
+69	469	muka	mukaku mukamu mukanya muke
+70	470	menurut	
+71	471	lawan	dilawan lawanku lawanmu lawannya melawan
+72	472	kisah	
+73	473	permainan	permainanku permainanmu permainannya
+74	474	fasal	pasal
+75	475	kejadian	kejadianku kejadianmu kejadiannya
+76	476	tempoh	tempohnya
+77	477	anjing	anjingku anjingmu anjingnya
+78	478	sungai	sungainya sungei
+79	479	gembira	gembiranya
+80	480	milik	milikku milikmu miliknya
+81	481	putih	puteh putihku putihmu putihnya
+82	482	yakin	
+83	483	bumi	bumiku bumimu buminya
+84	484	turun	
+85	485	kehilangan	
+86	486	barang	barangku barangmu barangnya
+87	487	kebangsaan	
+88	488	langsung	
+89	489	tua	tuha
+90	490	perjalanan	
+91	491	pengarah	pengarahku pengarahnya
+92	492	perdana	
+93	493	bidang	bidangku bidangmu bidangnya sebidang
+94	494	jawab	dijawab menjawab
+95	495	pendidikan	pendidikanku pendidikanmu pendidikannya
+96	496	calon	calonku calonnya
+97	497	bisa	bisanya
+98	498	suami	suamiku suamimu suaminya
+99	499	nombor	
+100	500	hak	hakku hakmu haknya

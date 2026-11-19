@@ -1,0 +1,100 @@
+1	701	tarikh	tawarikh
+2	702	parlimen	parlimennya
+3	703	pantai	pantaiku pantainya
+4	704	kalah	
+5	705	jawapan	jawaban jawabanku jawabanmu jawabannya jawapanku jawapanmu jawapannya jwpn
+6	706	penggunaan	
+7	707	wajah	wajahku wajahmu wajahnya
+8	708	situ	
+9	709	pelanggan	pelangganku pelangganmu pelanggannya
+10	710	kenderaan	
+11	711	sejuk	
+12	712	contoh	mencontoh
+13	713	kebenaran	kebenaranku kebenaranmu kebenarannya
+14	714	rasmi	
+15	715	meletakkan	
+16	716	selatan	selatannya
+17	717	perkahwinan	perkahwinanku perkahwinanmu perkahwinannya
+18	718	sial	siak siot
+19	719	hukum	dihukum menghukum
+20	720	kerusi	kerusiku kerusimu kerusinya
+21	721	peribadi	
+22	722	menuju	
+23	723	ekor	ekorku ekormu ekornya seekor
+24	724	pekerjaan	
+25	725	bintang	bintangku bintangmu bintangnya
+26	726	sebaliknya	
+27	727	menangis	nangis
+28	728	harapan	
+29	729	pandangan	
+30	730	bicara	berbicara
+31	731	kecuali	
+32	732	kos	
+33	733	bukit	bukitnya
+34	734	umat	
+35	735	tarik	tarek
+36	736	mesyuarat	
+37	737	umum	
+38	738	kapten	kepten
+39	739	cahaya	cahayaku cahayamu cahayanya
+40	740	kucing	kuching kucingku kucingmu kucingnya
+41	741	khabar	khabarmu khabarnya
+42	742	wilayah	wilayahku wilayahmu wilayahnya
+43	743	asas	asasnya
+44	744	seni	
+45	745	mengetahui	
+46	746	sains	
+47	747	walau	
+48	748	persekutuan	persekutuannya
+49	749	lahir	
+50	750	tembak	
+51	751	pelajaran	pelajaranku pelajaranmu pelajarannya
+52	752	nah	
+53	753	pilih	
+54	754	pengalaman	pengalamanku pengalamanmu pengalamannya
+55	755	habis	
+56	756	maju	
+57	757	tepi	
+58	758	internet	internetku internetnya
+59	759	pengajian	pengajianmu pengajiannya
+60	760	bas	basnya
+61	761	pakar	pakarnya
+62	762	muzik	muzikku muzikmu muziknya
+63	763	alih	beralih
+64	764	kiri	
+65	765	tingkat	
+66	766	menyatakan	dinyatakan
+67	767	keperluan	
+68	768	senarai	senaraiku senarainya
+69	769	simpan	
+70	770	putera	puteraku puteramu puteranya putra putraku putramu putranya
+71	771	sifat	sifatku sifatmu sifatnya
+72	772	harta	
+73	773	rupa	rupaku rupamu rupanya
+74	774	timur	timor timurnya
+75	775	aktif	
+76	776	potong	dipotong memotong sepotong
+77	777	memahami	
+78	778	separuh	
+79	779	sanggup	
+80	780	peluru	
+81	781	anugerah	anugerahku anugerahmu anugerahnya
+82	782	susah	
+83	783	letakkan	diletakkan
+84	784	pengerusi	pengerusinya
+85	785	begini	
+86	786	bertanya	
+87	787	murid	muridku muridmu muridnya
+88	788	hendak	handak
+89	789	terkenal	
+90	790	seramai	
+91	791	sibuk	
+92	792	tujuh	tujoh
+93	793	sesi	sesyen
+94	794	daging	dagingku dagingmu dagingnya
+95	795	ayam	ayamku ayammu ayamnya hayam
+96	796	agensi	
+97	797	pesakit	pesakitku pesakitnya
+98	798	otak	otakku otakmu otaknya
+99	799	perubatan	perubatannya
+100	800	pegang	dipegang

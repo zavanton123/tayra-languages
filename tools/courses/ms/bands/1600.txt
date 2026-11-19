@@ -1,0 +1,100 @@
+1	1501	cincin	cincinku cincinmu cincinnya
+2	1502	muzium	muziumnya
+3	1503	nakal	
+4	1504	keganasan	keganasannya
+5	1505	keupayaan	keupayaanku keupayaannya
+6	1506	bajet	bajetnya
+7	1507	pelancong	pelancongmu
+8	1508	beban	bebanku bebanmu bebannya
+9	1509	puncak	
+10	1510	harimau	harimauku harimaunya rimau
+11	1511	memperoleh	
+12	1512	agenda	agendamu agendanya
+13	1513	jurulatih	jurulatihku jurulatihnya
+14	1514	mengisi	
+15	1515	upacara	upacaranya
+16	1516	fakulti	
+17	1517	bumbung	bumbungnya
+18	1518	lawak	
+19	1519	pusing	
+20	1520	pemburu	
+21	1521	perisian	perisiannya
+22	1522	kejahatan	kejahatanku kejahatanmu kejahatannya
+23	1523	kanser	kansernya
+24	1524	rujukan	
+25	1525	tiap	
+26	1526	semenjak	
+27	1527	simpang	simpangnya
+28	1528	monyet	monyetku
+29	1529	tahunan	
+30	1530	layar	belayar layarku layarmu layarnya
+31	1531	atlet	atlit
+32	1532	lompat	
+33	1533	tegas	
+34	1534	penjenayah	
+35	1535	paras	parasnya
+36	1536	peria	pria
+37	1537	kitab	kitabmu kitabnya
+38	1538	bernafas	
+39	1539	berkualiti	
+40	1540	membesar	
+41	1541	tumbuh	
+42	1542	biji	bijik bijiku bijimu bijinya sebiji
+43	1543	jalur	jalurmu jalurnya
+44	1544	ingatan	
+45	1545	tunggal	
+46	1546	diikuti	
+47	1547	abad	
+48	1548	penat	
+49	1549	kuil	kuilmu kuilnya
+50	1550	bayang	bayangan bayangku bayangmu bayangnya
+51	1551	merokok	
+52	1552	trak	trakmu traknya
+53	1553	pemberian	
+54	1554	tingkap	tingkapnya
+55	1555	sepertinya	
+56	1556	mi	mee miku
+57	1557	senyap	
+58	1558	keterangan	
+59	1559	halal	
+60	1560	pagar	pagarnya
+61	1561	kebal	
+62	1562	unsur	unsurnya
+63	1563	penjagaan	penjagaanku penjagaanmu penjagaannya
+64	1564	asa	asanya
+65	1565	tahi	taik
+66	1566	kegemaran	kegemaranku kegemaranmu kegemarannya
+67	1567	asrama	
+68	1568	suhu	suhunya
+69	1569	suruhanjaya	
+70	1570	struktur	
+71	1571	beradik	
+72	1572	diraja	
+73	1573	racun	racunmu racunnya
+74	1574	sarjana	sarjananya
+75	1575	perasan	
+76	1576	puas	
+77	1577	hancur	
+78	1578	topi	topiku topimu topinya
+79	1579	rayuan	rayuanku rayuannya
+80	1580	tengku	
+81	1581	realiti	realitinya
+82	1582	tim	
+83	1583	bererti	
+84	1584	seketika	
+85	1585	pemerintah	pemerintahnya
+86	1586	sen	sennya
+87	1587	inisiatif	
+88	1588	bab	
+89	1589	serupa	
+90	1590	kedatangan	kedatanganku kedatanganmu kedatangannya
+91	1591	kelapa	kelapanya
+92	1592	tabung	tabungmu tabungnya
+93	1593	warisan	
+94	1594	mewah	
+95	1595	beza	bezanya
+96	1596	tekan	
+97	1597	perisai	perisaiku perisaimu perisainya
+98	1598	muat	
+99	1599	halus	
+100	1600	pelabuhan	

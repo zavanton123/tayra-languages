@@ -1,0 +1,100 @@
+1	501	jumlah	jumlahmu jumlahnya
+2	502	marah	
+3	503	video	
+4	504	perasaan	perasaanku perasaanmu perasaannya
+5	505	hai	
+6	506	langkah	langkahku langkahmu langkahnya
+7	507	bangun	
+8	508	surat	suratku suratmu suratnya
+9	509	kesihatan	kesihatanku kesihatanmu kesihatannya
+10	510	rendah	
+11	511	suara	suaraku suaramu suaranya
+12	512	saudara	saudaraku saudaramu saudaranya
+13	513	lupa	
+14	514	pemimpin	pemimpinmu pemimpinnya
+15	515	ekonomi	ekonominya
+16	516	zaman	zamannya
+17	517	berharap	
+18	518	unit	
+19	519	sebahagian	
+20	520	universiti	universitas universitinya
+21	521	sukan	sukanku sukannya
+22	522	tanda	tandaku tandamu tandanya
+23	523	kota	kotaku kotamu kotanya
+24	524	hospital	hospitalnya
+25	525	mangsa	mangsaku mangsamu mangsanya
+26	526	ah	
+27	527	emas	emasku emasmu emasnya
+28	528	berat	beratku beratmu beratnya
+29	529	sedia	
+30	530	perhatian	
+31	531	tepat	
+32	532	sumber	sumberku sumbermu sumbernya
+33	533	tujuan	tujuanku tujuanmu tujuannya
+34	534	sebelah	
+35	535	siap	
+36	536	bola	bolaku bolamu bolanya
+37	537	tukar	bertukar menukar
+38	538	masjid	masjidku masjidnya
+39	539	serangan	seranganku seranganmu serangannya
+40	540	enam	anam nam
+41	541	produk	
+42	542	merah	merahku merahmu merahnya
+43	543	suruh	
+44	544	sejarah	sejarahmu sejarahnya
+45	545	gagal	
+46	546	perak	perakmu peraknya
+47	547	meminta	
+48	548	puan	
+49	549	tenaga	tenagaku tenagamu tenaganya
+50	550	laut	lautku lautmu lautnya
+51	551	dahulu	
+52	552	kelihatan	
+53	553	ruang	ruangnya
+54	554	ikan	ikannya
+55	555	terletak	
+56	556	berdua	
+57	557	tugas	
+58	558	main	
+59	559	perkataan	perkataanku perkataanmu perkataannya
+60	560	pengguna	
+61	561	manakala	
+62	562	laman	
+63	563	sering	
+64	564	penyakit	penyakitku penyakitmu penyakitnya
+65	565	kedai	kedaiku kedaimu kedainya
+66	566	fikirkan	difikirkan memikirkan
+67	567	panas	
+68	568	bentuk	bentukmu bentuknya
+69	569	pengurusan	
+70	570	lah	
+71	571	teman	menemani temanku temanmu temannya
+72	572	hadapan	
+73	573	hitam	itam
+74	574	bayar	dibayar
+75	575	bank	
+76	576	segera	
+77	577	senang	
+78	578	taman	tamannya
+79	579	pokok	pokokku pokoknya
+80	580	semoga	
+81	581	ilmu	ilmuku ilmumu ilmunya
+82	582	udara	udaranya
+83	583	kat	
+84	584	golongan	
+85	585	bin	
+86	586	cik	cikku cikmu ciknya
+87	587	hadiah	hadiahku hadiahmu hadiahnya
+88	588	berani	
+89	589	kanan	
+90	590	panjang	
+91	591	kulit	kulitku kulitmu kulitnya
+92	592	lokasi	lokasiku lokasimu lokasinya
+93	593	bayi	bayiku bayimu bayinya
+94	594	sukar	
+95	595	tutup	
+96	596	sungguh	
+97	597	kedudukan	
+98	598	bekas	bekasmu bekasnya
+99	599	pelakon	
+100	600	serius	

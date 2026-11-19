@@ -1,0 +1,100 @@
+1	1001	lewat	
+2	1002	tuanku	
+3	1003	gaji	
+4	1004	korang	korg
+5	1005	tulang	tulangku tulangmu tulangnya
+6	1006	penonton	penontonnya
+7	1007	kopi	kopiku kopimu kopinya
+8	1008	kamera	
+9	1009	akta	aktanya
+10	1010	jadual	jadualmu jadualnya
+11	1011	memandu	
+12	1012	harian	
+13	1013	pembunuh	pembunuhmu pembunuhnya
+14	1014	piala	
+15	1015	susu	susunya
+16	1016	aspek	
+17	1017	menambah	
+18	1018	telur	telurku telurmu telurnya
+19	1019	sebut	
+20	1020	sedangkan	
+21	1021	istana	istanaku istanamu istananya
+22	1022	rata	ratanya
+23	1023	sekadar	
+24	1024	sederhana	
+25	1025	malang	malangku malangnya
+26	1026	mengganggu	diganggu
+27	1027	watak	watakku watakmu wataknya
+28	1028	pentadbiran	pentadbiranku pentadbirannya
+29	1029	perbuatan	
+30	1030	usia	usiaku usiamu usianya
+31	1031	sudut	
+32	1032	tapak	
+33	1033	menutup	
+34	1034	tali	taliku talinya
+35	1035	setia	
+36	1036	suci	
+37	1037	gerak	
+38	1038	imam	
+39	1039	sedih	
+40	1040	pakatan	pakatannya
+41	1041	jual	
+42	1042	mat	
+43	1043	punca	puncanya
+44	1044	generasi	
+45	1045	berguna	
+46	1046	terkejut	
+47	1047	penulis	penulisku penulisnya
+48	1048	dinding	dindingku dindingmu dindingnya
+49	1049	kualiti	kualitinya
+50	1050	selagi	
+51	1051	rapat	
+52	1052	sangka	
+53	1053	perut	perutku perutmu perutnya
+54	1054	palsu	
+55	1055	pelaburan	pelaburanku pelaburanmu pelaburannya
+56	1056	langit	langitku langitmu langitnya
+57	1057	min	
+58	1058	pergerakan	pergerakanku pergerakanmu pergerakannya
+59	1059	iman	imanku imanmu imannya
+60	1060	konsep	
+61	1061	ketawa	
+62	1062	sah	
+63	1063	sabar	
+64	1064	lantik	dilantik melantik
+65	1065	kesemua	
+66	1066	pantas	
+67	1067	pelan	pelanku pelannya
+68	1068	lambat	
+69	1069	keadilan	keadilanmu keadilannya
+70	1070	tetamu	
+71	1071	saluran	salurannya
+72	1072	patah	
+73	1073	banjir	dibanjiri membanjiri
+74	1074	kekurangan	
+75	1075	khidmat	khidmatku khidmatnya
+76	1076	maut	
+77	1077	mustahil	
+78	1078	nasihat	
+79	1079	tau	
+80	1080	laju	
+81	1081	pinjaman	pinjamanmu pinjamannya
+82	1082	menonton	ditonton
+83	1083	pistol	pistolku pistolmu pistolnya
+84	1084	menjalani	dijalani
+85	1085	tambah	
+86	1086	melancarkan	dilancarkan
+87	1087	seluar	seluarku seluarmu seluarnya
+88	1088	online	
+89	1089	luka	
+90	1090	kandungan	kandunganku kandunganmu kandungannya
+91	1091	cemerlang	
+92	1092	menahan	
+93	1093	anggap	
+94	1094	darat	daratku daratnya mendarat
+95	1095	isyarat	
+96	1096	berasal	
+97	1097	meneruskan	
+98	1098	pasir	pasirmu pasirnya
+99	1099	lancar	selancar
+100	1100	borang	

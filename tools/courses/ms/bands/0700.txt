@@ -1,0 +1,100 @@
+1	601	alat	alatku alatmu alatnya
+2	602	hotel	
+3	603	teknologi	teknologiku teknologimu teknologinya
+4	604	selesai	
+5	605	bebas	
+6	606	sedar	
+7	607	akibat	akibatnya
+8	608	warga	wargaku warganya
+9	609	meninggal	
+10	610	encik	enciknya
+11	611	doktor	
+12	612	tahan	tahannya
+13	613	balas	dibalas membalas
+14	614	ujian	ujianku ujianmu ujiannya
+15	615	baju	bajuku bajumu bajunya
+16	616	minyak	minyakmu minyaknya
+17	617	hantu	antu hantunya
+18	618	hutan	hutanku hutanmu hutannya utan
+19	619	asing	
+20	620	indah	
+21	621	pemain	pemainku pemainmu pemainnya
+22	622	idea	ideaku ideamu ideanya
+23	623	burung	burungku burungmu burungnya
+24	624	baharu	bahru bharu
+25	625	petang	petangku petangnya
+26	626	demikian	
+27	627	masukkan	dimasukkan memasukkan
+28	628	berdasarkan	
+29	629	keras	mengeras
+30	630	laluan	
+31	631	pakaian	pakaianku pakaianmu pakaiannya
+32	632	hadir	
+33	633	mulai	
+34	634	jawatan	jawatanku jawatanmu jawatannya
+35	635	perlawanan	
+36	636	jahat	jahatku jahatnya
+37	637	kenyataan	
+38	638	angkat	diangkat mengangkat
+39	639	khas	
+40	640	bakal	
+41	641	asli	
+42	642	jepun	
+43	643	operasi	
+44	644	bangsa	bangsaku bangsamu bangsanya
+45	645	membaca	
+46	646	risau	
+47	647	mengalami	
+48	648	warna	warnaku warnamu warnanya
+49	649	bunyi	bunyinya
+50	650	komputer	komputerku komputermu komputernya
+51	651	musim	musimku musimnya
+52	652	pekerja	pekerjamu pekerjanya
+53	653	kesalahan	kesalahanku kesalahanmu kesalahannya
+54	654	mencapai	
+55	655	tenang	
+56	656	kemudahan	
+57	657	kewangan	kewanganku kewangannya
+58	658	kekuatan	kekuatanku kekuatanmu kekuatannya
+59	659	bahaya	bahayanya
+60	660	peraturan	peraturanku peraturanmu peraturannya
+61	661	melahirkan	dilahirkan
+62	662	letak	diletak meletak
+63	663	kekal	
+64	664	sempurna	
+65	665	mimpi	mimpiku mimpimu mimpinya
+66	666	semangat	semangatku semangatmu semangatnya
+67	667	bunga	bungaku bungamu bunganya
+68	668	misi	misiku misimu misinya
+69	669	mahkamah	mahkamahku mahkamahmu mahkamahnya
+70	670	ubat	ubatmu ubatnya
+71	671	kawalan	
+72	672	acara	acaramu acaranya
+73	673	padang	padangnya
+74	674	ketiga	
+75	675	penjara	penjaraku penjaramu penjaranya
+76	676	utara	
+77	677	alasan	
+78	678	beli	
+79	679	soal	menyoal
+80	680	sikit	
+81	681	tubuh	tubuhku tubuhmu tubuhnya
+82	682	rahsia	
+83	683	musuh	musuhku musuhmu musuhnya
+84	684	teruskan	
+85	685	jom	
+86	686	kunci	kunciku kuncimu kuncinya
+87	687	pelik	
+88	688	kakak	kakakku kakakmu kakaknya
+89	689	mulut	mulutku mulutmu mulutnya
+90	690	perjanjian	
+91	691	layak	
+92	692	kadang	
+93	693	antarabangsa	
+94	694	rambut	rambutku rambutmu rambutnya
+95	695	nabi	nabimu nabinya
+96	696	kejayaan	kejayaanku kejayaanmu kejayaannya
+97	697	jenayah	jenayahku jenayahnya
+98	698	kad	kadku kadmu kadnya
+99	699	kerjasama	kerjasamaku kerjasamamu kerjasamanya
+100	700	nasib	nasibku nasibmu nasibnya

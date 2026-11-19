@@ -1,0 +1,100 @@
+1	901	makhluk	makhluknya
+2	902	meter	metermu meternya
+3	903	pendapat	
+4	904	gelap	
+5	905	manis	
+6	906	sambil	
+7	907	budaya	budayanya
+8	908	askar	askarku askarmu askarnya
+9	909	tipu	ditipu
+10	910	pemandu	pemanduku pemandumu pemandunya
+11	911	hijau	hijaunya
+12	912	perintah	
+13	913	kemungkinan	
+14	914	jaya	jayanya
+15	915	tamat	
+16	916	terkini	
+17	917	akaun	akaunku akaunmu akaunnya
+18	918	pertanian	pertanianku pertanianmu pertaniannya
+19	919	bimbang	
+20	920	bersalah	
+21	921	berikut	
+22	922	makna	maknanya
+23	923	perpustakaan	perpustakaannya
+24	924	dewa	dewaku dewamu dewanya
+25	925	kasut	kasutku kasutmu kasutnya
+26	926	minuman	minumanku minumanmu minumannya
+27	927	lapan	
+28	928	mulia	
+29	929	elektrik	
+30	930	bahagia	
+31	931	rosak	
+32	932	isi	isinya
+33	933	juara	juaraku juaranya
+34	934	besi	besiku besimu besinya
+35	935	penyelidikan	penyelidikanku penyelidikannya
+36	936	malu	maluku malumu malunya
+37	937	mandi	
+38	938	lanjut	
+39	939	setakat	
+40	940	bos	
+41	941	ataupun	
+42	942	pendapatan	pendapatanku pendapatannya
+43	943	meja	mejaku mejamu mejanya
+44	944	sedap	
+45	945	pemilik	
+46	946	saling	
+47	947	bilion	
+48	948	berjuang	
+49	949	sisi	sisiku sisimu sisinya
+50	950	bom	bomnya
+51	951	alamat	alamatku alamatmu alamatnya
+52	952	risiko	
+53	953	mengesahkan	disahkan
+54	954	setiausaha	setiausahaku setiausahanya
+55	955	biru	biruku birunya
+56	956	akhbar	akhbarnya
+57	957	pendek	
+58	958	terlepas	
+59	959	pembinaan	
+60	960	mengajar	
+61	961	lapar	
+62	962	paksa	memaksa paksanya
+63	963	kayu	kayuku kayumu kayunya sekayu
+64	964	tangga	tanggamu tangganya
+65	965	adil	
+66	966	perjuangan	perjuanganku perjuanganmu perjuangannya
+67	967	nenek	nenekku nenekmu neneknya
+68	968	model	
+69	969	faktor	faktornya
+70	970	jarak	jarakku jarakmu jaraknya
+71	971	jujur	
+72	972	samping	sampin
+73	973	talian	taliannya
+74	974	pemenang	pemenangnya
+75	975	kebaikan	
+76	976	sahabat	sahabatku sahabatmu sahabatnya
+77	977	memasuki	dimasuki
+78	978	gula	gulanya
+79	979	desa	desaku desamu desanya
+80	980	menyelesaikan	
+81	981	menjelaskan	
+82	982	komunikasi	
+83	983	haram	
+84	984	tawaran	tawaranku tawaranmu tawarannya
+85	985	fail	memfailkan
+86	986	ulang	
+87	987	pengawal	
+88	988	situasi	situasiku situasimu situasinya
+89	989	berbahaya	
+90	990	silap	
+91	991	engkau	
+92	992	restoran	restoranku restoranmu restorannya
+93	993	radio	
+94	994	cukai	cukaimu cukainya
+95	995	seronok	
+96	996	liga	
+97	997	pertahanan	pertahananku pertahananmu pertahanannya
+98	998	teh	tehku tehmu tehnya
+99	999	baginda	
+100	1000	kemajuan	kemajuanmu kemajuannya

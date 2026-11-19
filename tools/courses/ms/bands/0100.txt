@@ -1,0 +1,100 @@
+1	1	yang	yg
+2	2	dan	
+3	3	saya	sy
+4	4	di	
+5	5	ini	ni
+6	6	tak	
+7	7	untuk	
+8	8	dengan	dgn ngan
+9	9	aku	aq
+10	10	awak	awakku awakmu awaknya
+11	11	itu	
+12	12	tidak	
+13	13	dia	
+14	14	boleh	
+15	15	kau	ko
+16	16	dalam	dlm terdalam
+17	17	kita	
+18	18	akan	
+19	19	orang	orangku orangmu orangnya org seorang
+20	20	apa	ape
+21	21	ada	adakah
+22	22	ke	
+23	23	mereka	
+24	24	dari	
+25	25	tetapi	tapi
+26	26	pada	
+27	27	adalah	
+28	28	kamu	
+29	29	anda	
+30	30	semua	
+31	31	kepada	
+32	32	buat	berbuat membuat
+33	33	telah	
+34	34	lagi	lg
+35	35	nak	nk
+36	36	ia	iya
+37	37	tahu	
+38	38	bukan	
+39	39	lebih	
+40	40	juga	
+41	41	jadi	
+42	42	kami	
+43	43	satu	
+44	44	mana	
+45	45	dah	
+46	46	daripada	
+47	47	baik	sebaik
+48	48	seperti	
+49	49	hari	hariku harimu harinya
+50	50	atau	
+51	51	bagi	
+52	52	ya	
+53	53	dapat	didapat mendapat
+54	54	jangan	jgn
+55	55	sini	
+56	56	oleh	
+57	57	kata	kataku katamu katanya
+58	58	pergi	pegi pigi
+59	59	lihat	dilihat melihat
+60	60	kerana	
+61	61	anak	anakku anakmu anaknya
+62	62	tahun	tahunku tahunmu tahunnya
+63	63	lain	
+64	64	rasa	rasaku rasamu rasanya
+65	65	ialah	
+66	66	menjadi	
+67	67	jika	
+68	68	sekarang	
+69	69	masa	masaku masamu masanya
+70	70	apabila	bila pabila
+71	71	sekolah	sekolahku sekolahmu sekolahnya
+72	72	perlu	perluku perlunya
+73	73	sahaja	aje jak je saja
+74	74	hanya	
+75	75	kalau	kalo
+76	76	sudah	
+77	77	baru	baruku barumu barunya
+78	78	lakukan	dilakukan melakukan
+79	79	sama	
+80	80	beliau	
+81	81	sebagai	
+82	82	tempat	tempatku tempatmu tempatnya
+83	83	tu	
+84	84	banyak	banyaknya bnyk
+85	85	dua	
+86	86	keluar	
+87	87	buah	buahku buahmu buahnya sebuah
+88	88	diri	diriku dirimu dirinya
+89	89	negara	negaraku negaramu negaranya
+90	90	lelaki	
+91	91	rumah	rumahku rumahmu rumahnya
+92	92	masih	
+93	93	cakap	
+94	94	mahu	mau
+95	95	selamat	selamatmu selamatnya slmt
+96	96	pernah	
+97	97	mempunyai	
+98	98	datang	dtg
+99	99	sangat	sgt
+100	100	mungkin	
