@@ -1,100 +1,100 @@
-1	3001	dau	dau madau
-2	3002	chipukizi	chipukizi machipukizi
-3	3003	uchezaji	uchezaji
-4	3004	kiarabu	kiarabu
-5	3005	uga	uga ugani nyuga
-6	3006	kimaadili	kimaadili
-7	3007	koa	iliyokolea kukolea koa isiyokolea kuikoa kukoleza sikukoleza unakoleza zimekolea nikukoleze haijakolea kuukoa kukoa aliyekolea hukolea ikolee umekolea vilivyokolea zimekoleza ilikolea imekolea ulipokolea alikoleza ameukoleza anapokoa hakikukolewa haujakolea ikiwakolea imekoleza kinamkoa kolea kulikoa kumukoa lilikoleza waliokolea wamkoa yakikolea zikakolea zilikolewa zilizokolea
-8	3008	msafiri	msafiri wasafiri
-9	3009	kisio	makisio kisio
-10	3010	nyati	nyati
-11	3011	kodoa	kodoa unanikodolea usinikodolee kukodoa alikodoa imenikodolea kimenikodolea kunikodolea kuwakodolea mnakodolea msimkodolee ulimkodolea umemkodolea unakodoa unamkodolea mnatukodolea nikikodolea akikodoa alinikodolea kukodolea kumkodolea tunaikodolea wakamkodolea wakikodolea wakimkodolea yalikodoa
-12	3012	bikira	bikira mabikira
-13	3013	mapokezi	mapokezi
-14	3014	nama	name panama kunama mwanama nama ilinama imenama kimenama kujinama inayonama kwanama mwaname unaonama waname
-15	3015	mtanashati	mtanashati watanashati
-16	3016	mwamko	mwamko muamko
-17	3017	umahiri	umahiri
-18	3018	gluteni	gluteni
-19	3019	udi	udini udi
-20	3020	utatuzi	utatuzi
-21	3021	boksi	boksi
-22	3022	kodisha	kodisha kukodisha tulikodisha ilikodisha alikodisha anakodisha kulikodisha kuyakodisha kuwakodisha walikodisha yakukodisha kumkodisha amekodisha linakodisha hukodisha humkodisha wakikodisha wanakodisha akilikodisha atawakodisha hatutakodisha ikiwakodisha iliyokodisha inakodisha inayokodisha kimekodisha kutokodisha nikakodisha ukikodisha vinavyokodisha wakodisha waliyoikodisha wanaokodisha wanapokodisha wanazozikodisha zinazokodisha
-23	3023	buti	buti mabuti
-24	3024	weledi	weledi
-25	3025	walakini	walakini
-26	3026	ushujaa	ushujaa
-27	3027	helikopta	helikopta
-28	3028	mwendelezo	mwendelezo miendelezo
-29	3029	mlengwa	walengwa mlengwa
-30	3030	agano	agano maagano
-31	3031	sahihisha	sahihisha kusahihisha kusahihishwa nisahihishe kujisahihisha tujisahihishe kumsahihisha kuyasahihisha husahihishwa imesahihishwa kuzisahihisha wakisahihisha ilisahihishwa ukasahihishwa yanasahihisha zimesahihishwa amesahihisha kuwasahihisha alisahihisha anasahihisha anayasahihisha atasahihisha husahihishi ikajisahihisha inasahihisha inavyosahihishwa kilichosahihishwa kuisahihisha kulisahihisha litasahihishwa nasahihishwa tuliosahihisha tusahihishe ulisahihishwa unapomsahihisha unasahihisha unasahihishwa utajisahihisha utamsahihisha wanaosahihisha wanasahihisha watasahihisha yalinisahihisha yalisahihishwa zinazosahihishwa
-32	3032	pachika	pachika kupachika itapachikwa alipachika kupachikwa kujipachika kumpachika iliyopachikwa aliyepachikwa yalipachikwa anaupachika hupachika hupachikwa ilipachikwa inapachikwa zimepachikwa aliyepachika walimpachika wamepachikwa aliyempachika akampachika akipachika amepachika imejipachika imepachika imepachikwa kuwapachika kuzipachika lilipachika lilipachikwa umepachikwa wakampachika zilizopachikwa akajipachika akapachika alijipachika alimpachika amejipachika ameupachika anapachikwa apachikwe hujipachika huwapachika ikipachika ilipachika imeshapachika kilipachikwa kuipachika kuupachika lililojipachika lililopachikwa tukimpachika tulioupachika uliopachikwa unapachikwa utawapachika wakapachika wakipachikwa waliojipachika waliompachika waliopachika walipachika walivyopachikwa wapachika watakupachika yakipachikwa yaliyopachikwa
-33	3033	unyama	unyama
-34	3034	bamba	bamba kubamba alibambwa zilizobamba zimbambwe ilibamba vimebamba aliyebambwa kubambwa wanabamba akabamba atakayebamba kulibamba ulibamba uliobamba vilivyobambwa watabamba zilibamba
-35	3035	kashifu	kashifu kukashifu kumkashifu kukashifiwa kuwakashifu anakashifu ukashifiwe umekashifu umemkashifu hukashifu amekashifiwa walikashifu alikashifiwa alikashifu anamkashifu alimkashifu zinakashifu amemkashifu inayokashifu wanaokashifu akikashifiwa akiukashifu aliwakashifu anawakashifu anayekashifu angekashifiwa iliwakashifu imekashifu inakashifu kunikashifu kutukashifu kuukashifu tuliwakashifu tumekashifu wakakashifiwa wakamkashifu wakimkashifu waliokashifu wamemkashifu wametukashifu wanaokikashifu
-36	3036	havina	havina
-37	3037	uzamili	uzamili
-38	3038	mtemi	mtemi watemi
-39	3039	mkaa	mkaa mikaa
-40	3040	waraka	waraka
-41	3041	rehema	rehema
-42	3042	tarafa	tarafa tarafani
-43	3043	chipua	chipua kuchipua kuchipuka huchipuka ichipuke kitachipua uliochipuka ilichipuka alichipuka huchipua inayochipuka kilichipuka uchipuapo vinavyochipuka yanapochipuka zikichipuka utachipua unavyochipua yaliyochipua zinazochipuka atachipuka iliyochipua iliyochipuka imechipua imechipuka ukachipuka ulichipuka unapochipuka yaliyochipuka yanayochipuka zichipue zinazochipua
-44	3044	mlaji	walaji mlaji
-45	3045	kaidi	kukaidi kaidi wakaidi walikaidi ulikaidi waliokaidi anakaidi atakayekaidi watakaokaidi alikaidi wanakaidi wanaokaidi anayekaidi wamekaidi watakaidi kutoikaidi tukikaidi tusipoikaidi ilikaidi imekaidi kikaidi nimekaidi wakikaidi yaliyokaidi akakaidi amekaidi anapokaidi angekaidi atakaidi hawajakaidi itakaidi kimekaidi kuikaidi litakalokaidi usikaidi wakakaidi zilizokaidi
-46	3046	mahututi	mahututi mahtuti
-47	3047	angahewa	angahewa
-48	3048	elektroniki	elektroniki
-49	3049	manowari	manowari
-50	3050	kizunguzungu	kizunguzungu
-51	3051	farakano	farakano mafarakano
-52	3052	dikteta	dikteta madikteta
-53	3053	pooza	pooza kupooza amepooza kujipooza waliopooza uliopooza kupoozwa wanaopooza hawapoozi kuipooza kuupooza alipooza aliyepooza ilipoozwa utapooza hupooza imepooza itapooza asipooze ilipooza iliyopooza ipooze kimepooza kuwapooza kuyapooza kuzipooza limepooza nimepooza nimeshapooza tuliopooza ulipooza umepooza unatupooza wamepooza zilipoozwa zilizopoozwa
-54	3054	jalala	jalala jalalani majalala majalalani
-55	3055	rutuba	rutuba
-56	3056	lina	lina pauline line aniline angelina awalina kulinwa wakulina walinayo
-57	3057	kizingiti	kizingiti vizingiti
-58	3058	jongo	jongo
-59	3059	didimia	didimia kudidimia itadidimia unadidimia inadidimia umedidimia hayajadidimia inayodidimia yaliyodidimia yamedidimia ilididimia ikididimia haukudidimia ikadidimia kilididimia ulididimia zimedidimia kinadidimia kitadidimia limedidimia lisididimie wanadidimia yakididimia
-60	3060	wepesi	wepesi
-61	3061	utandawazi	utandawazi
-62	3062	mwarobaini	mwarubaini mwarobaini muarobaini
-63	3063	kiteknolojia	kiteknolojia
-64	3064	kiislamu	kiislamu
-65	3065	noti	noti
-66	3066	tajiriba	tajriba tajiriba
-67	3067	mzaliwa	mzaliwa wazaliwa
-68	3068	ujazo	ujazo
-69	3069	lebo	lebo
-70	3070	malalamishi	malalamishi
-71	3071	shehena	shehena
-72	3072	kampasi	kampasi
-73	3073	taarifu	taarifu kuwataarifu wataarifu kumtaarifu anataarifu walitaarifu lilitaarifu ilitaarifiwa ilitaarifu kutaarifiwa inamtaarifu walitaarifiwa anamtaarifu mtaarifu alimtaarifu alitaarifiwa alitaarifu kuitaarifu kuutaarifu hutaarifiwa imeshamtaarifu inayotaarifu wanataarifiwa haikutaarifu hakutaarifiwa ilivyotaarifiwa imetaarifiwa inataarifiwa inataarifu kilitaarifu kulitaarifu kutaarifu kututaarifu lililotaarifiwa nilitaarifiwa waliwataarifu akamtaarifu akinitaarifu akitaarifu akiwataarifu alivyotaarifu aliwataarifu aliyemtaarifu ameshataarifiwa ameshataarifu anawataarifu asimtaarifu ataarifu atamtaarifu atataarifiwa hulitaarifu ikatutaarifu inavyotaarifu ingetaarifiwa kinataarifu kukutaarifu likimtaarifu lilipotaarifiwa limevitaarifu nikutaarifu sijataarifiwa taarifiwa tulitaarifiwa tulitaarifu tunawataarifu vilivyotaarifiwa vimetaarifu vinataarifu vinavyotaarifu waliitaarifu walinitaarifu walivyotaarifu wamemtaarifu wameshaitaarifu wametaarifiwa wametaarifu wanaotaarifu yalitaarifu zikitaarifu zilitaarifiwa zilitaarifu zinataarifu
-74	3074	fupisha	kufupisha hufupishwa nitafupisha lilifupishwa hufupisha kufupishwa iliyofupishwa aliyafupisha anafupisha ikafupishwa akalifupisha anayefupishwa imeshafupishwa inayofupishwa kufupishwe likafupishwa lililofupisha lililofupishwa lilipofupishwa linalofupishwa niifupishe umefupisha wakaifupisha walifupisha yaliyofupishwa limefupishwa linafupishwa yamefupishwa akifupisha amefupisha fupisha hazifupishwi ilivyofupishwa iliyofupisha inafupisha kunafupisha likifupishwa tumezifupisha ulifupishwa utafupishwa wakifupisha walilifupisha walizifupisha yafupishwa
-75	3075	paja	paja pajani mapaja mapajani
-76	3076	ushanga	shanga ushanga shangani
-77	3077	malazi	malazi
-78	3078	benchi	benchi benchini
-79	3079	kohoa	kukohoa anakohoa nakohoa nimekohoa unakohoa kohoa akakohoa akikohoa nilipokohoa alikohoa alipokohoa anapokohoa asikohoe atakapokohoa hukohoa nikikohoa ukikohoa wakohoe wanakohoa wanavyokohoa
-80	3080	kibarua	kibarua vibarua kibaruani
-81	3081	kasuku	kasuku
-82	3082	mchapishaji	mchapishaji wachapishaji
-83	3083	mseto	mseto
-84	3084	lifti	lifti
-85	3085	mtangulizi	mtangulizi watangulizi
-86	3086	mwanamgambo	wanamgambo mwanamgambo
-87	3087	mamba	mamba
-88	3088	taabani	taabani
-89	3089	darubini	darubini
-90	3090	dosari	dosari
-91	3091	jinamizi	jinamizi majinamizi jinamizini
-92	3092	fyonza	fyonza kufyonza hufyonza kufyonzwa imefyonzwa inawafyonza umefyonzwa hufyonzwa alifyonza anafyonza yafyonzwe afyonza anapofyonza ilipofyonzwa inachokifyonza kisipofyonzwa wamefyonza inafyonza umefyonza wanaofyonza yanafyonzwa zinafyonzwa haifyonzwi hazifyonzwi kilichofyonzwa kulifyonza lifyonzwe linalolifyonza tulifyonze ukifyonza viliyofyonzwa waliyofyonza wanafyonza
-93	3093	uenezi	uenezi
-94	3094	utiifu	utiifu
-95	3095	alfajiri	alfajiri
-96	3096	mahaba	mahaba
-97	3097	marejeo	marejeo
-98	3098	kanu	kanu
-99	3099	jenetiki	jenetikia jenetiki
-100	3100	kromosomu	kromosomu
+1	3001	mteule	mteule wateule
+2	3002	dau	dau madau
+3	3003	chipukizi	chipukizi machipukizi
+4	3004	uchezaji	uchezaji
+5	3005	kiarabu	kiarabu
+6	3006	uga	uga ugani nyuga
+7	3007	kimaadili	kimaadili
+8	3008	koa	iliyokolea kukolea koa isiyokolea kuikoa kukoleza sikukoleza unakoleza zimekolea nikukoleze haijakolea kuukoa kukoa aliyekolea hukolea ikolee umekolea vilivyokolea zimekoleza ilikolea imekolea ulipokolea alikoleza ameukoleza anapokoa hakikukolewa haujakolea ikiwakolea imekoleza kinamkoa kolea kulikoa kumukoa lilikoleza waliokolea wamkoa yakikolea zikakolea zilikolewa zilizokolea
+9	3009	msafiri	msafiri wasafiri
+10	3010	kisio	makisio kisio
+11	3011	nyati	nyati
+12	3012	kodoa	kodoa unanikodolea usinikodolee kukodoa alikodoa imenikodolea kimenikodolea kunikodolea kuwakodolea mnakodolea msimkodolee ulimkodolea umemkodolea unakodoa unamkodolea mnatukodolea nikikodolea akikodoa alinikodolea kukodolea kumkodolea tunaikodolea wakamkodolea wakikodolea wakimkodolea yalikodoa
+13	3013	bikira	bikira mabikira
+14	3014	mapokezi	mapokezi
+15	3015	nama	name panama kunama mwanama nama ilinama imenama kimenama kujinama inayonama kwanama mwaname unaonama waname
+16	3016	mtanashati	mtanashati watanashati
+17	3017	mwamko	mwamko muamko
+18	3018	umahiri	umahiri
+19	3019	gluteni	gluteni
+20	3020	udi	udini udi
+21	3021	utatuzi	utatuzi
+22	3022	boksi	boksi
+23	3023	kodisha	kodisha kukodisha tulikodisha ilikodisha alikodisha anakodisha kulikodisha kuyakodisha kuwakodisha walikodisha yakukodisha kumkodisha amekodisha linakodisha hukodisha humkodisha wakikodisha wanakodisha akilikodisha atawakodisha hatutakodisha ikiwakodisha iliyokodisha inakodisha inayokodisha kimekodisha kutokodisha nikakodisha ukikodisha vinavyokodisha wakodisha waliyoikodisha wanaokodisha wanapokodisha wanazozikodisha zinazokodisha
+24	3024	buti	buti mabuti
+25	3025	weledi	weledi
+26	3026	walakini	walakini
+27	3027	ushujaa	ushujaa
+28	3028	helikopta	helikopta
+29	3029	mwendelezo	mwendelezo miendelezo
+30	3030	mlengwa	walengwa mlengwa
+31	3031	agano	agano maagano
+32	3032	sahihisha	sahihisha kusahihisha kusahihishwa nisahihishe kujisahihisha tujisahihishe kumsahihisha kuyasahihisha husahihishwa imesahihishwa kuzisahihisha wakisahihisha ilisahihishwa ukasahihishwa yanasahihisha zimesahihishwa amesahihisha kuwasahihisha alisahihisha anasahihisha anayasahihisha atasahihisha husahihishi ikajisahihisha inasahihisha inavyosahihishwa kilichosahihishwa kuisahihisha kulisahihisha litasahihishwa nasahihishwa tuliosahihisha tusahihishe ulisahihishwa unapomsahihisha unasahihisha unasahihishwa utajisahihisha utamsahihisha wanaosahihisha wanasahihisha watasahihisha yalinisahihisha yalisahihishwa zinazosahihishwa
+33	3033	pachika	pachika kupachika itapachikwa alipachika kupachikwa kujipachika kumpachika iliyopachikwa aliyepachikwa yalipachikwa anaupachika hupachika hupachikwa ilipachikwa inapachikwa zimepachikwa aliyepachika walimpachika wamepachikwa aliyempachika akampachika akipachika amepachika imejipachika imepachika imepachikwa kuwapachika kuzipachika lilipachika lilipachikwa umepachikwa wakampachika zilizopachikwa akajipachika akapachika alijipachika alimpachika amejipachika ameupachika anapachikwa apachikwe hujipachika huwapachika ikipachika ilipachika imeshapachika kilipachikwa kuipachika kuupachika lililojipachika lililopachikwa tukimpachika tulioupachika uliopachikwa unapachikwa utawapachika wakapachika wakipachikwa waliojipachika waliompachika waliopachika walipachika walivyopachikwa wapachika watakupachika yakipachikwa yaliyopachikwa
+34	3034	unyama	unyama
+35	3035	bamba	bamba kubamba alibambwa zilizobamba zimbambwe ilibamba vimebamba aliyebambwa kubambwa wanabamba akabamba atakayebamba kulibamba ulibamba uliobamba vilivyobambwa watabamba zilibamba
+36	3036	kashifu	kashifu kukashifu kumkashifu kukashifiwa kuwakashifu anakashifu ukashifiwe umekashifu umemkashifu hukashifu amekashifiwa walikashifu alikashifiwa alikashifu anamkashifu alimkashifu zinakashifu amemkashifu inayokashifu wanaokashifu akikashifiwa akiukashifu aliwakashifu anawakashifu anayekashifu angekashifiwa iliwakashifu imekashifu inakashifu kunikashifu kutukashifu kuukashifu tuliwakashifu tumekashifu wakakashifiwa wakamkashifu wakimkashifu waliokashifu wamemkashifu wametukashifu wanaokikashifu
+37	3037	havina	havina
+38	3038	uzamili	uzamili
+39	3039	mtemi	mtemi watemi
+40	3040	mkaa	mkaa mikaa
+41	3041	waraka	waraka
+42	3042	rehema	rehema
+43	3043	tarafa	tarafa tarafani
+44	3044	chipua	chipua kuchipua kuchipuka huchipuka ichipuke kitachipua uliochipuka ilichipuka alichipuka huchipua inayochipuka kilichipuka uchipuapo vinavyochipuka yanapochipuka zikichipuka utachipua unavyochipua yaliyochipua zinazochipuka atachipuka iliyochipua iliyochipuka imechipua imechipuka ukachipuka ulichipuka unapochipuka yaliyochipuka yanayochipuka zichipue zinazochipua
+45	3045	mlaji	walaji mlaji
+46	3046	kaidi	kukaidi kaidi wakaidi walikaidi ulikaidi waliokaidi anakaidi atakayekaidi watakaokaidi alikaidi wanakaidi wanaokaidi anayekaidi wamekaidi watakaidi kutoikaidi tukikaidi tusipoikaidi ilikaidi imekaidi kikaidi nimekaidi wakikaidi yaliyokaidi akakaidi amekaidi anapokaidi angekaidi atakaidi hawajakaidi itakaidi kimekaidi kuikaidi litakalokaidi usikaidi wakakaidi zilizokaidi
+47	3047	mahututi	mahututi mahtuti
+48	3048	angahewa	angahewa
+49	3049	elektroniki	elektroniki
+50	3050	manowari	manowari
+51	3051	kizunguzungu	kizunguzungu
+52	3052	farakano	farakano mafarakano
+53	3053	dikteta	dikteta madikteta
+54	3054	pooza	pooza kupooza amepooza kujipooza waliopooza uliopooza kupoozwa wanaopooza hawapoozi kuipooza kuupooza alipooza aliyepooza ilipoozwa utapooza hupooza imepooza itapooza asipooze ilipooza iliyopooza ipooze kimepooza kuwapooza kuyapooza kuzipooza limepooza nimepooza nimeshapooza tuliopooza ulipooza umepooza unatupooza wamepooza zilipoozwa zilizopoozwa
+55	3055	jalala	jalala jalalani majalala majalalani
+56	3056	rutuba	rutuba
+57	3057	lina	lina pauline line aniline angelina awalina kulinwa wakulina walinayo
+58	3058	kizingiti	kizingiti vizingiti
+59	3059	jongo	jongo
+60	3060	didimia	didimia kudidimia itadidimia unadidimia inadidimia umedidimia hayajadidimia inayodidimia yaliyodidimia yamedidimia ilididimia ikididimia haukudidimia ikadidimia kilididimia ulididimia zimedidimia kinadidimia kitadidimia limedidimia lisididimie wanadidimia yakididimia
+61	3061	wepesi	wepesi
+62	3062	utandawazi	utandawazi
+63	3063	mwarobaini	mwarubaini mwarobaini muarobaini
+64	3064	kiteknolojia	kiteknolojia
+65	3065	kiislamu	kiislamu
+66	3066	noti	noti
+67	3067	tajiriba	tajriba tajiriba
+68	3068	mzaliwa	mzaliwa wazaliwa
+69	3069	ujazo	ujazo
+70	3070	lebo	lebo
+71	3071	malalamishi	malalamishi
+72	3072	shehena	shehena
+73	3073	kampasi	kampasi
+74	3074	taarifu	taarifu kuwataarifu wataarifu kumtaarifu anataarifu walitaarifu lilitaarifu ilitaarifiwa ilitaarifu kutaarifiwa inamtaarifu walitaarifiwa anamtaarifu mtaarifu alimtaarifu alitaarifiwa alitaarifu kuitaarifu kuutaarifu hutaarifiwa imeshamtaarifu inayotaarifu wanataarifiwa haikutaarifu hakutaarifiwa ilivyotaarifiwa imetaarifiwa inataarifiwa inataarifu kilitaarifu kulitaarifu kutaarifu kututaarifu lililotaarifiwa nilitaarifiwa waliwataarifu akamtaarifu akinitaarifu akitaarifu akiwataarifu alivyotaarifu aliwataarifu aliyemtaarifu ameshataarifiwa ameshataarifu anawataarifu asimtaarifu ataarifu atamtaarifu atataarifiwa hulitaarifu ikatutaarifu inavyotaarifu ingetaarifiwa kinataarifu kukutaarifu likimtaarifu lilipotaarifiwa limevitaarifu nikutaarifu sijataarifiwa taarifiwa tulitaarifiwa tulitaarifu tunawataarifu vilivyotaarifiwa vimetaarifu vinataarifu vinavyotaarifu waliitaarifu walinitaarifu walivyotaarifu wamemtaarifu wameshaitaarifu wametaarifiwa wametaarifu wanaotaarifu yalitaarifu zikitaarifu zilitaarifiwa zilitaarifu zinataarifu
+75	3075	fupisha	kufupisha hufupishwa nitafupisha lilifupishwa hufupisha kufupishwa iliyofupishwa aliyafupisha anafupisha ikafupishwa akalifupisha anayefupishwa imeshafupishwa inayofupishwa kufupishwe likafupishwa lililofupisha lililofupishwa lilipofupishwa linalofupishwa niifupishe umefupisha wakaifupisha walifupisha yaliyofupishwa limefupishwa linafupishwa yamefupishwa akifupisha amefupisha fupisha hazifupishwi ilivyofupishwa iliyofupisha inafupisha kunafupisha likifupishwa tumezifupisha ulifupishwa utafupishwa wakifupisha walilifupisha walizifupisha yafupishwa
+76	3076	paja	paja pajani mapaja mapajani
+77	3077	ushanga	shanga ushanga shangani
+78	3078	malazi	malazi
+79	3079	benchi	benchi benchini
+80	3080	kohoa	kukohoa anakohoa nakohoa nimekohoa unakohoa kohoa akakohoa akikohoa nilipokohoa alikohoa alipokohoa anapokohoa asikohoe atakapokohoa hukohoa nikikohoa ukikohoa wakohoe wanakohoa wanavyokohoa
+81	3081	kibarua	kibarua vibarua kibaruani
+82	3082	kasuku	kasuku
+83	3083	mchapishaji	mchapishaji wachapishaji
+84	3084	mseto	mseto
+85	3085	lifti	lifti
+86	3086	mtangulizi	mtangulizi watangulizi
+87	3087	mwanamgambo	wanamgambo mwanamgambo
+88	3088	mamba	mamba
+89	3089	taabani	taabani
+90	3090	darubini	darubini
+91	3091	dosari	dosari
+92	3092	jinamizi	jinamizi majinamizi jinamizini
+93	3093	fyonza	fyonza kufyonza hufyonza kufyonzwa imefyonzwa inawafyonza umefyonzwa hufyonzwa alifyonza anafyonza yafyonzwe afyonza anapofyonza ilipofyonzwa inachokifyonza kisipofyonzwa wamefyonza inafyonza umefyonza wanaofyonza yanafyonzwa zinafyonzwa haifyonzwi hazifyonzwi kilichofyonzwa kulifyonza lifyonzwe linalolifyonza tulifyonze ukifyonza viliyofyonzwa waliyofyonza wanafyonza
+94	3094	uenezi	uenezi
+95	3095	utiifu	utiifu
+96	3096	alfajiri	alfajiri
+97	3097	mahaba	mahaba
+98	3098	marejeo	marejeo
+99	3099	kanu	kanu
+100	3100	jenetiki	jenetikia jenetiki

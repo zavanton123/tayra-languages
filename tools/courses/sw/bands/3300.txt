@@ -77,24 +77,24 @@
 77	3277	rejareja	rejareja
 78	3278	tinga	kutinga anatingwa imetinga ilitinga walitinga wametingwa alitinga yatinga atinga iliyotinga waliotinga akitingwa imetingwa akatinga aliyetinga ametinga kutingwa lilitinga watinga ametingwa atatinga limetinga natinga nikatinga tinga ulitingwa zilizotinga haikutinga ikatinga ikitinga ilipotinga inatinga itatinga kikatinga kilichotinga limeshatinga tumetinga tumetingwa tunatinga ukitinga wakitinga walitingwa wanaotingwa wangetinga watakaotinga watatingwa yakitinga yalinitinga yanatinga
 79	3279	mwanafalsafa	mwanafalsafa wanafalsafa
-80	3280	julai	julai
-81	3281	lava	lava
-82	3282	wayahudi	wayahudi
-83	3283	yowe	mayowe yowe
-84	3284	nyuroni	neuroni nyuroni
-85	3285	juana	kujuana wanajuana unajuana wasiojuana tumejuana walijuana hujuana najuana tunajuana aliyejuana juana akajuana alijuana hamjuani hatujuani kutojuana ukijuana wajuane wakijuana wamejuana
-86	3286	mrengo	mrengo mirengo
-87	3287	utayarishaji	utayarishaji
-88	3288	shiba	shiba kushiba shibe atashiba mshibe mtashiba nimeshiba yameshiba ashibe wameshiba ameshiba anashiba aliyeshiba iliyoshiba walioshiba ishibe tumeshiba alivyoshiba hawajashiba hawashibi imeshiba kilichoshiba nikashiba sishibi umeshiba waliyeshiba wanaoshiba wanashiba yaliyoshiba yasiyoshiba zilizoshiba zimeshiba
-89	3289	trafiki	trafiki
-90	3290	milenia	milenia
-91	3291	rasimu	rasimu
-92	3292	geti	geti getini mageti magetini
-93	3293	kiberiti	kiberiti kibiriti viberiti
-94	3294	uenezaji	uenezaji
-95	3295	kontena	kontena makontena
-96	3296	jogoo	jogoo majogoo
-97	3297	sadfa	sadfa
-98	3298	mkuki	mikuki mkuki
-99	3299	pekua	pekua kupekua kupekuliwa alipekua mpekueni nitalipekua zitapekuliwa kumpekua alipekuliwa anapekua wamewapekua anapekuliwa ilipopekua itapekuliwa kuipekua kunipekua lilipopekuliwa napekuliwa nikapekua tulipekua tulipowapekua tupekuliwe ulipopekuliwa unapekua wakipekua walipekua walipopekua walipopekuliwa walivyopekuliwa wameshakupekua wampekue wanapekua wanavyopekuliwa wapekue yaliyopekuliwa
-100	3300	mwondoko	miondoko mwondoko
+80	3280	nukia	yananukia kunukia unanukia zinanukia hayanukii ilinukia kiliinukia kuinukia uliinukia wanukia nukia wanainukia ukinukia zinazoinukia anayeinukia inayonukia vinanukia wakiinukia wakinukia wanukie yanukia
+81	3281	julai	julai
+82	3282	lava	lava
+83	3283	wayahudi	wayahudi
+84	3284	yowe	mayowe yowe
+85	3285	nyuroni	neuroni nyuroni
+86	3286	juana	kujuana wanajuana unajuana wasiojuana tumejuana walijuana hujuana najuana tunajuana aliyejuana juana akajuana alijuana hamjuani hatujuani kutojuana ukijuana wajuane wakijuana wamejuana
+87	3287	mrengo	mrengo mirengo
+88	3288	utayarishaji	utayarishaji
+89	3289	shiba	shiba kushiba shibe atashiba mshibe mtashiba nimeshiba yameshiba ashibe wameshiba ameshiba anashiba aliyeshiba iliyoshiba walioshiba ishibe tumeshiba alivyoshiba hawajashiba hawashibi imeshiba kilichoshiba nikashiba sishibi umeshiba waliyeshiba wanaoshiba wanashiba yaliyoshiba yasiyoshiba zilizoshiba zimeshiba
+90	3290	trafiki	trafiki
+91	3291	milenia	milenia
+92	3292	rasimu	rasimu
+93	3293	geti	geti getini mageti magetini
+94	3294	kiberiti	kiberiti kibiriti viberiti
+95	3295	uenezaji	uenezaji
+96	3296	kontena	kontena makontena
+97	3297	jogoo	jogoo majogoo
+98	3298	sadfa	sadfa
+99	3299	mkuki	mikuki mkuki
+100	3300	pekua	pekua kupekua kupekuliwa alipekua mpekueni nitalipekua zitapekuliwa kumpekua alipekuliwa anapekua wamewapekua anapekuliwa ilipopekua itapekuliwa kuipekua kunipekua lilipopekuliwa napekuliwa nikapekua tulipekua tulipowapekua tupekuliwe ulipopekuliwa unapekua wakipekua walipekua walipopekua walipopekuliwa walivyopekuliwa wameshakupekua wampekue wanapekua wanavyopekuliwa wapekue yaliyopekuliwa

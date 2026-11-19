@@ -1,44 +1,44 @@
-1	3101	tangua	hutanguliwa kutangua ikitanguliwa imetanguliwa kutanguka uliotanguliwa ilitanguliwa kutanguliwa utatanguliwa alitanguliwa kilitanguliwa tangua ulitanguliwa wakitanguliwa yalitanguliwa akitanguliwa litatanguliwa inatanguliwa itatanguliwa ukitanguliwa kuitangua iliyotanguliwa itanguliwe kimetanguliwa likitanguliwa yakitanguliwa zilitanguliwa ilivyotanguliwa itakayotanguliwa kinatanguliwa kitakachotanguliwa kulitangua kulitanguliwa kutatanguliwa limetanguliwa umetanguliwa unaotanguliwa usipotanguliwa usitanguliwe utakaotanguliwa vinatanguliwa vitatanguliwa walitanguliwa yatanguliwe zilizotanguliwa zitanguliwe
-2	3102	mshumaa	mishumaa mshumaa
-3	3103	mdundo	midundo mdundo
-4	3104	vena	vena
-5	3105	ngamia	ngamia
-6	3106	maelewano	maelewano
-7	3107	kimbunga	kimbunga vimbunga
-8	3108	shangwe	shangwe
-9	3109	asisi	asisi waasisi kitaasisi ulioasisiwa uasisi iliyoasisiwa iliasisiwa aliasisi kuiasisi liliasisiwa aliyeasisi lasisi wasisi zinaasisi imeasisiwa kilichoasisiwa lililoasisiwa muuasisi nasisi uliasisiwa uliyoasisiwa walioasisi yaliasisiwa yaliyoasisiwa aliiasisi aliloasisi alipouasisi aliyeliasisi aliyoasisi aliyoiasisi ikaasisiwa ilipoasisiwa iliyoasisi kiasisi kilichoasisi kilipoasisiwa kukiasisi kulikoasisiwa likiasisi tuliasisi ukiasisiwa ulioasisi umeasisi umeasisiwa waliasisi waliasisiwa wataasisi yakiasisiwa zilizoasisi zilizoasisiwa
-10	3110	mwongozaji	mwongozaji waongozaji
-11	3111	hitimisho	hitimisho mahitimisho
-12	3112	mdanganyifu	mdanganyifu wadanganyifu
-13	3113	kushtaki	kushtakiwa kushtaki kutokushtakiwa
-14	3114	mwasisi	muasisi mwasisi waasisi
-15	3115	katakata	katakata nitakukatakata nitamkatakata watakukatakata kukatakata anawakatakata kuukatakata utazikatakata kumkatakata kuwakatakata kuyakatakata alimkatakata wakatakata walimkatakata wanachokatakata
-16	3116	upishi	upishi
-17	3117	polio	polio
-18	3118	fizikia	fizikia
-19	3119	njiwa	njiwa
-20	3120	muhogo	mihogo muhogo
-21	3121	ukabila	ukabila
-22	3122	pungufu	pungufu
-23	3123	warsha	warsha
-24	3124	genge	genge magenge gengeni magengeni
-25	3125	miadi	miadi
-26	3126	kipodozi	vipodozi kipodozi
-27	3127	shuti	shuti mashuti
-28	3128	shayiri	shayiri
-29	3129	sharubati	sharubati
-30	3130	hulka	hulka
-31	3131	gubika	gubika kugubikwa uligubikwa umegubikwa nikagubikwa imegubikwa zimegubikwa kugubika wamegubikwa yaligubikwa visivyogubika hugubikwa iliyogubikwa likigubikwa uliogubika uliogubikwa utagubikwa waligubikwa yaliyogubikwa ziligubikwa zilizogubikwa kiligubikwa akigubikwa ikawagubika iligubikwa iliigubika kilichogubikwa kuigubika liligubika lililogubikwa limegubikwa ulioligubika uliowagubika umegubika umeigubika viligubikwa hugubika ikigubikwa iligubika ilivyogubika iliyoligubika iliyowagubika imewagubika inagubikwa itagubikwa kimegubikwa kuligubika kumegubikwa liligubikwa lililogubika mmegubikwa nigubikwe ukigubika ukigubikwa uligubika vilivyogubikwa vimegubika wakigubikwa waliowagubika wanagubikwa wanaogubikwa yakigubikwa yaliyogubika yaliyoigubika yamegubikwa yanagubikwa yasiyogubikwa zikigubikwa
-32	3132	kimaendeleo	kimaendeleo
-33	3133	kiumbehai	viumbehai kiumbehai
-34	3134	nadhari	nadhari
-35	3135	ufaransa	ufaransa
-36	3136	silika	silika
-37	3137	pofusha	pofusha amepofushwa nilipofushwa kupofushwa hupofusha anipofushe ilinipofusha kumekupofusha ulipofushwa umepofushwa umpofushe yaliyonipofusha yamempofusha ameyapofusha alimpofusha ikupofushe inapofusha unatupofusha watapofushwa zikakupofusha
-38	3138	jeuri	jeuri
-39	3139	vilima	vilima vilimani
-40	3140	mhenga	wahenga mhenga
-41	3141	ninakupenda	ninakupenda
+1	3101	kromosomu	kromosomu
+2	3102	tangua	hutanguliwa kutangua ikitanguliwa imetanguliwa kutanguka uliotanguliwa ilitanguliwa kutanguliwa utatanguliwa alitanguliwa kilitanguliwa tangua ulitanguliwa wakitanguliwa yalitanguliwa akitanguliwa litatanguliwa inatanguliwa itatanguliwa ukitanguliwa kuitangua iliyotanguliwa itanguliwe kimetanguliwa likitanguliwa yakitanguliwa zilitanguliwa ilivyotanguliwa itakayotanguliwa kinatanguliwa kitakachotanguliwa kulitangua kulitanguliwa kutatanguliwa limetanguliwa umetanguliwa unaotanguliwa usipotanguliwa usitanguliwe utakaotanguliwa vinatanguliwa vitatanguliwa walitanguliwa yatanguliwe zilizotanguliwa zitanguliwe
+3	3103	mshumaa	mishumaa mshumaa
+4	3104	mdundo	midundo mdundo
+5	3105	vena	vena
+6	3106	ngamia	ngamia
+7	3107	maelewano	maelewano
+8	3108	kimbunga	kimbunga vimbunga
+9	3109	shangwe	shangwe
+10	3110	asisi	asisi waasisi kitaasisi ulioasisiwa uasisi iliyoasisiwa iliasisiwa aliasisi kuiasisi liliasisiwa aliyeasisi lasisi wasisi zinaasisi imeasisiwa kilichoasisiwa lililoasisiwa muuasisi nasisi uliasisiwa uliyoasisiwa walioasisi yaliasisiwa yaliyoasisiwa aliiasisi aliloasisi alipouasisi aliyeliasisi aliyoasisi aliyoiasisi ikaasisiwa ilipoasisiwa iliyoasisi kiasisi kilichoasisi kilipoasisiwa kukiasisi kulikoasisiwa likiasisi tuliasisi ukiasisiwa ulioasisi umeasisi umeasisiwa waliasisi waliasisiwa wataasisi yakiasisiwa zilizoasisi zilizoasisiwa
+11	3111	mwongozaji	mwongozaji waongozaji
+12	3112	hitimisho	hitimisho mahitimisho
+13	3113	mdanganyifu	mdanganyifu wadanganyifu
+14	3114	kushtaki	kushtakiwa kushtaki kutokushtakiwa
+15	3115	mwasisi	muasisi mwasisi waasisi
+16	3116	katakata	katakata nitakukatakata nitamkatakata watakukatakata kukatakata anawakatakata kuukatakata utazikatakata kumkatakata kuwakatakata kuyakatakata alimkatakata wakatakata walimkatakata wanachokatakata
+17	3117	upishi	upishi
+18	3118	polio	polio
+19	3119	fizikia	fizikia
+20	3120	njiwa	njiwa
+21	3121	muhogo	mihogo muhogo
+22	3122	ukabila	ukabila
+23	3123	pungufu	pungufu
+24	3124	warsha	warsha
+25	3125	genge	genge magenge gengeni magengeni
+26	3126	miadi	miadi
+27	3127	kipodozi	vipodozi kipodozi
+28	3128	shuti	shuti mashuti
+29	3129	shayiri	shayiri
+30	3130	sharubati	sharubati
+31	3131	hulka	hulka
+32	3132	gubika	gubika kugubikwa uligubikwa umegubikwa nikagubikwa imegubikwa zimegubikwa kugubika wamegubikwa yaligubikwa visivyogubika hugubikwa iliyogubikwa likigubikwa uliogubika uliogubikwa utagubikwa waligubikwa yaliyogubikwa ziligubikwa zilizogubikwa kiligubikwa akigubikwa ikawagubika iligubikwa iliigubika kilichogubikwa kuigubika liligubika lililogubikwa limegubikwa ulioligubika uliowagubika umegubika umeigubika viligubikwa hugubika ikigubikwa iligubika ilivyogubika iliyoligubika iliyowagubika imewagubika inagubikwa itagubikwa kimegubikwa kuligubika kumegubikwa liligubikwa lililogubika mmegubikwa nigubikwe ukigubika ukigubikwa uligubika vilivyogubikwa vimegubika wakigubikwa waliowagubika wanagubikwa wanaogubikwa yakigubikwa yaliyogubika yaliyoigubika yamegubikwa yanagubikwa yasiyogubikwa zikigubikwa
+33	3133	kimaendeleo	kimaendeleo
+34	3134	kiumbehai	viumbehai kiumbehai
+35	3135	nadhari	nadhari
+36	3136	ufaransa	ufaransa
+37	3137	silika	silika
+38	3138	pofusha	pofusha amepofushwa nilipofushwa kupofushwa hupofusha anipofushe ilinipofusha kumekupofusha ulipofushwa umepofushwa umpofushe yaliyonipofusha yamempofusha ameyapofusha alimpofusha ikupofushe inapofusha unatupofusha watapofushwa zikakupofusha
+39	3139	jeuri	jeuri
+40	3140	vilima	vilima vilimani
+41	3141	mhenga	wahenga mhenga
 42	3142	milimita	milimita milimeta
 43	3143	buibui	buibui
 44	3144	tangi	tangi matangi tenki

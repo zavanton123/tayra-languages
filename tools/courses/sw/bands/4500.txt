@@ -1,100 +1,100 @@
-1	4401	nyenyekea	kunyenyekea nyenyekea nimnyenyekee anamnyenyekesha kumnyenyekea mnyenyekeane hunyenyekea kujinyenyekea angewanyenyekea atamnyenyekea watakunyenyekea
-2	4402	tambuzi	tambuzi
-3	4403	katu	katu
-4	4404	kibaka	vibaka kibaka
-5	4405	ponyoka	ponyoka aliponyoka nimeponyoka unavyoponyoka zikiponyoka kumponyoka kuponyoka akaponyoka hakijamponyoka humponyoka ikituponyoka inaponyoka inawaponyoka kikamponyoka kinawaponyoka kuniponyoka limponyoke linamponyoka uliomponyoka
-6	4406	fuko	fuko mafuko
-7	4407	simikwa	simikwa kusimikwa alisimikwa iliyosimikwa akasimikwa amesimikwa atasimikwa husimikwa ilisimikwa imesimikwa kilichosimikwa ulisimikwa umesimikwa waliosimikwa yakusimikwa zilisimikwa
-8	4408	ufuo	ufuo ufuoni
-9	4409	bania	bania tusipowabania tusibanie tusiwabanie kumbania kunibania alimbania anabania ananibania huwabania imewabania kubania kuwabania msimbanie nimembania ukibania
-10	4410	thawabu	thawabu
-11	4411	kiwete	kiwete viwete
-12	4412	pota	kupotewa walipoteka hakupotewa kupotwa lilivyopotewa pota wapotewe zilipotewa ikapotewa inapotewa akapotewa akipotewa apotewe hapotewi ikipote kuipota likapotewa lilipoteka tulipota unapota zipote
-13	4413	kibonzo	vibonzo kibonzo
-14	4414	warusi	warusi
-15	4415	uchukuzi	uchukuzi
-16	4416	malaya	malaya
-17	4417	kishazi	kishazi vishazi
-18	4418	kisahani	kisahani visahani
-19	4419	matuta	matuta
-20	4420	ufuta	ufuta
-21	4421	tausi	tausi
-22	4422	idhaa	idhaa
-23	4423	diploma	diploma
-24	4424	chaki	chaki
-25	4425	tibua	tibua halitibui linatibua kutibuliwa kutibua vinatibua ulitibua yatibua ilimtibua ilitibua iliyotibua kinachonitibua lilitibua ukatibuliwa wasitibue watibua yangetibua zilizotibua zinatibua
-26	4426	zogo	zogo
-27	4427	malai	malai
-28	4428	mwingereza	mwingereza
-29	4429	nyotamkia	nyotamkia
-30	4430	njugu	njugu
-31	4431	mwanamfalme	mwanamfalme
-32	4432	hiji	hiji kuhiji waliohiji wahiji aliyehiji tunapohiji wamehiji alihiji alihijiwa alipohiji unahiji wanahiji wanaohiji
-33	4433	jumanne	jumanne
-34	4434	shali	shali
-35	4435	radidi	radidia radidi
-36	4436	pao	pao pau
-37	4437	kano	kano
-38	4438	mpate	mpate
-39	4439	kaida	kaida
-40	4440	dazeni	dazeni dazani
-41	4441	kanya	akanywa kanye kumkanya kanya ukanywe alikanywa kuwakanya kanywa wanakanya alimkanya wanamkanya akimkanya amekanya anamkanya inatukanya kukanywa lililokanywa mkanye nilimkanya nimkanye umkanye unavyowakanya usimkanye wakanywa wanawakanya
-42	4442	afande	maafande afande
-43	4443	poda	poda
-44	4444	uhaini	uhaini
-45	4445	tahajia	tahajia
-46	4446	saluni	saluni
-47	4447	kunjufu	kunjufu mkunjufu
-48	4448	uchangiaji	uchangiaji
-49	4449	dekeza	dekeza amedekezwa nitawadekeza umemdekeza kudekeza kudekezwa kumdekeza unapomdekeza wanaowadekeza anajidekeza anamdekeza anayedekezwa hudekeza inadekezwa kinadekeza usimdekeze wanadekezwa
-50	4450	msandali	msandali misandali
-51	4451	roshani	roshani
-52	4452	hosteli	hosteli
-53	4453	nguli	nguli
-54	4454	kikongwe	kikongwe vikongwe
-55	4455	mshamba	mshamba washamba
-56	4456	siko	siko kusiko usiko msisiko
-57	4457	murua	murua
-58	4458	uzinzi	uzinzi
-59	4459	yamkini	yamkini
-60	4460	kipupwe	kipupwe
-61	4461	kanali	kanali makanali
-62	4462	sleji	sleji
-63	4463	maafikiano	maafikiano
-64	4464	uchakataji	uchakataji
-65	4465	rusu	rusu hatarusu hurusu aliporusiwa hakurusiwa harusuwi wanaorusiwa
-66	4466	irabu	irabu
-67	4467	mwanakondoo	mwanakondoo wanakondoo
-68	4468	kifani	kifani
-69	4469	mwanadiplomasia	wanadiplomasia mwanadiplomasia
-70	4470	badilishano	badilishano mabadilishano
-71	4471	fasheni	fasheni
-72	4472	seminari	seminari seminarini
-73	4473	mirathi	mirathi
-74	4474	ukiritimba	ukiritimba
-75	4475	mkunga	wakunga mikunga mkunga
-76	4476	mtende	mitende mtende
-77	4477	bashasha	bashasha
-78	4478	misioni	misioni
-79	4479	nge	nge
-80	4480	viingilio	viingilio
-81	4481	tohoa	tohoa kutohoa umetoholewa imetoholewa yametoholewa lilitoholewa hujitohoa likatoholewa hayakutoholewa hutoholewa kujitohoa vilivyotoholewa waliotoholewa wametoholewa zimetoholewa limetoholewa ikatoholewa ilitoholewa iliyotohoa mmeutohoa zinatohoa
-82	4482	boga	boga maboga bogani
-83	4483	tepu	tepu
-84	4484	pezi	mapezi pezi
-85	4485	morali	morali
-86	4486	santuri	santuri
-87	4487	simanzi	simanzi
-88	4488	simika	simika kusimika kujisimika kumsimika unaposimika walisimika akimsimika ikasimika iliyojisimika imesimika kilijisimika kimejisimika kukisimika kuusimika limesimika linalosimika umejisimika umesimika wakamsimika waliusimika wamemsimika wamesimika wanapomsimika wanasimika
-89	4489	alkali	alkali alikalini alikali
-90	4490	mdhibiti	mdhibiti wadhibiti
-91	4491	kusahau	kusahau hatakusahau hukusahau ilikusahau kukusahau hawakusahau sitakusahau hakusahau wamekusahau wanakusahau
-92	4492	zambarau	zambarau
-93	4493	kirai	kirai
-94	4494	nuksi	nuksi
-95	4495	uanzishaji	uanzishaji
-96	4496	mitelemko	mitelemko
-97	4497	mkristo	mkristo
-98	4498	mpagani	wapagani mpagani
-99	4499	risala	risala
-100	4500	kasiba	kasiba
+1	4401	katu	katu
+2	4402	kibaka	vibaka kibaka
+3	4403	ponyoka	ponyoka aliponyoka nimeponyoka unavyoponyoka zikiponyoka kumponyoka kuponyoka akaponyoka hakijamponyoka humponyoka ikituponyoka inaponyoka inawaponyoka kikamponyoka kinawaponyoka kuniponyoka limponyoke linamponyoka uliomponyoka
+4	4404	fuko	fuko mafuko
+5	4405	simikwa	simikwa kusimikwa alisimikwa iliyosimikwa akasimikwa amesimikwa atasimikwa husimikwa ilisimikwa imesimikwa kilichosimikwa ulisimikwa umesimikwa waliosimikwa yakusimikwa zilisimikwa
+6	4406	ufuo	ufuo ufuoni
+7	4407	bania	bania tusipowabania tusibanie tusiwabanie kumbania kunibania alimbania anabania ananibania huwabania imewabania kubania kuwabania msimbanie nimembania ukibania
+8	4408	thawabu	thawabu
+9	4409	kiwete	kiwete viwete
+10	4410	pota	kupotewa walipoteka hakupotewa kupotwa lilivyopotewa pota wapotewe zilipotewa ikapotewa inapotewa akapotewa akipotewa apotewe hapotewi ikipote kuipota likapotewa lilipoteka tulipota unapota zipote
+11	4411	kibonzo	vibonzo kibonzo
+12	4412	warusi	warusi
+13	4413	uchukuzi	uchukuzi
+14	4414	malaya	malaya
+15	4415	kishazi	kishazi vishazi
+16	4416	kisahani	kisahani visahani
+17	4417	matuta	matuta
+18	4418	ufuta	ufuta
+19	4419	tausi	tausi
+20	4420	idhaa	idhaa
+21	4421	diploma	diploma
+22	4422	chaki	chaki
+23	4423	tibua	tibua halitibui linatibua kutibuliwa kutibua vinatibua ulitibua yatibua ilimtibua ilitibua iliyotibua kinachonitibua lilitibua ukatibuliwa wasitibue watibua yangetibua zilizotibua zinatibua
+24	4424	zogo	zogo
+25	4425	malai	malai
+26	4426	mwingereza	mwingereza
+27	4427	nyotamkia	nyotamkia
+28	4428	njugu	njugu
+29	4429	mwanamfalme	mwanamfalme
+30	4430	hiji	hiji kuhiji waliohiji wahiji aliyehiji tunapohiji wamehiji alihiji alihijiwa alipohiji unahiji wanahiji wanaohiji
+31	4431	jumanne	jumanne
+32	4432	shali	shali
+33	4433	radidi	radidia radidi
+34	4434	pao	pao pau
+35	4435	kano	kano
+36	4436	mpate	mpate
+37	4437	kaida	kaida
+38	4438	dazeni	dazeni dazani
+39	4439	kanya	akanywa kanye kumkanya kanya ukanywe alikanywa kuwakanya kanywa wanakanya alimkanya wanamkanya akimkanya amekanya anamkanya inatukanya kukanywa lililokanywa mkanye nilimkanya nimkanye umkanye unavyowakanya usimkanye wakanywa wanawakanya
+40	4440	afande	maafande afande
+41	4441	poda	poda
+42	4442	uhaini	uhaini
+43	4443	tahajia	tahajia
+44	4444	saluni	saluni
+45	4445	kunjufu	kunjufu mkunjufu
+46	4446	uchangiaji	uchangiaji
+47	4447	dekeza	dekeza amedekezwa nitawadekeza umemdekeza kudekeza kudekezwa kumdekeza unapomdekeza wanaowadekeza anajidekeza anamdekeza anayedekezwa hudekeza inadekezwa kinadekeza usimdekeze wanadekezwa
+48	4448	msandali	msandali misandali
+49	4449	roshani	roshani
+50	4450	hosteli	hosteli
+51	4451	nguli	nguli
+52	4452	kikongwe	kikongwe vikongwe
+53	4453	mshamba	mshamba washamba
+54	4454	siko	siko kusiko usiko msisiko
+55	4455	murua	murua
+56	4456	uzinzi	uzinzi
+57	4457	yamkini	yamkini
+58	4458	kipupwe	kipupwe
+59	4459	kanali	kanali makanali
+60	4460	sleji	sleji
+61	4461	maafikiano	maafikiano
+62	4462	uchakataji	uchakataji
+63	4463	rusu	rusu hatarusu hurusu aliporusiwa hakurusiwa harusuwi wanaorusiwa
+64	4464	irabu	irabu
+65	4465	mwanakondoo	mwanakondoo wanakondoo
+66	4466	kifani	kifani
+67	4467	mwanadiplomasia	wanadiplomasia mwanadiplomasia
+68	4468	badilishano	badilishano mabadilishano
+69	4469	fasheni	fasheni
+70	4470	seminari	seminari seminarini
+71	4471	mirathi	mirathi
+72	4472	ukiritimba	ukiritimba
+73	4473	mkunga	wakunga mikunga mkunga
+74	4474	mtende	mitende mtende
+75	4475	bashasha	bashasha
+76	4476	misioni	misioni
+77	4477	nge	nge
+78	4478	viingilio	viingilio
+79	4479	tohoa	tohoa kutohoa umetoholewa imetoholewa yametoholewa lilitoholewa hujitohoa likatoholewa hayakutoholewa hutoholewa kujitohoa vilivyotoholewa waliotoholewa wametoholewa zimetoholewa limetoholewa ikatoholewa ilitoholewa iliyotohoa mmeutohoa zinatohoa
+80	4480	boga	boga maboga bogani
+81	4481	tepu	tepu
+82	4482	pezi	mapezi pezi
+83	4483	morali	morali
+84	4484	santuri	santuri
+85	4485	simanzi	simanzi
+86	4486	simika	simika kusimika kujisimika kumsimika unaposimika walisimika akimsimika ikasimika iliyojisimika imesimika kilijisimika kimejisimika kukisimika kuusimika limesimika linalosimika umejisimika umesimika wakamsimika waliusimika wamemsimika wamesimika wanapomsimika wanasimika
+87	4487	alkali	alkali alikalini alikali
+88	4488	mdhibiti	mdhibiti wadhibiti
+89	4489	kusahau	kusahau hatakusahau hukusahau ilikusahau kukusahau hawakusahau sitakusahau hakusahau wamekusahau wanakusahau
+90	4490	zambarau	zambarau
+91	4491	kirai	kirai
+92	4492	nuksi	nuksi
+93	4493	uanzishaji	uanzishaji
+94	4494	mitelemko	mitelemko
+95	4495	mkristo	mkristo
+96	4496	mpagani	wapagani mpagani
+97	4497	risala	risala
+98	4498	kasiba	kasiba
+99	4499	mkunjo	mikunjo mkunjo
+100	4500	fi	fi

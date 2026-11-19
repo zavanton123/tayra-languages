@@ -1,100 +1,100 @@
-1	4901	uelewano	uelewano
-2	4902	sokota	sokota hayasokoti kusokota kusokotwa hujisokota ukisokota wamesokota akisokota iliyosokotwa wasokote
-3	4903	stori	stori
-4	4904	rumba	rumba
-5	4905	sharabu	sharabu kusharabu kusharabiwa husharabiwa hakikusharabiwa inasharabu kitasharabu
-6	4906	mbochi	mbochi
-7	4907	uponaji	uponaji
-8	4908	mlalamishi	mlalamishi
-9	4909	pajama	pajama
-10	4910	mvunaji	mvunaji wavunaji
-11	4911	pumbaa	kupumbaa aliyepumbaa pumbaa
-12	4912	remba	remba kurembwa kujiremba kuremba kuiremba aliremba kutojiremba mirembe naremba ninajiremba sijirembi zikirembwa zilirembwa
-13	4913	kigoda	kigoda kigodani vigoda
-14	4914	donda	donda
-15	4915	fira	sikufiria fire unavyofirika akifiria chifire fira alifirika alipofiria anayefiria kufiria kufirika wanafiria
-16	4916	maungo	maungo maungoni
-17	4917	dimu	ndimu dimu
-18	4918	ribosomu	ribosomu
-19	4919	dahari	dahari
-20	4920	sola	sola
-21	4921	steji	stejini steji
-22	4922	kiolwa	violwa kiolwa
-23	4923	haradali	haradali
-24	4924	hifadhidata	hifadhidata
-25	4925	msokoto	msokoto misokoto
-26	4926	umilikaji	umilikaji
-27	4927	muhindi	muhindi
-28	4928	umalaya	umalaya
-29	4929	karate	karate
-30	4930	bandua	walibanduliwa alibanduliwa kubandua imebanduliwa ukibanduliwa waliibandua kuubandua yaliyobanduliwa bandua iliibandua inayobanduliwa kuyabandua walipobandua wanabandua
-31	4931	jando	jando jandoni majando
-32	4932	utimilifu	utimilifu
-33	4933	kapilari	kapilari
-34	4934	cheni	cheni
-35	4935	kiuadudu	viuadudu kiuadudu
-36	4936	nanaa	nanaa
-37	4937	ufala	ufala
-38	4938	pigiana	pigiana anapigiana tupigianeni kupigiana wanapigiana wakipigiana alipigiana mkapigiana zilipigiana
-39	4939	konsonanti	konsonanti
-40	4940	mtalaka	mtalaka
-41	4941	theolojia	theolojia
-42	4942	farao	farao mafarao
-43	4943	sifongo	sifongo
-44	4944	kandwa	kandwa kukandwa inayokandwa uliokandwa hukandwa uliyokandwa
-45	4945	pauka	pauka ulipauka kupauka iliyopauka paukwa kikapauka limepauka ulivyopauka zimepauka
-46	4946	sahihisho	masahihisho sahihisho
-47	4947	fidla	fidla
-48	4948	platini	platini
-49	4949	dara	dare haidari aidara dara kikadara
-50	4950	galoni	galoni
-51	4951	fumua	fumua kufumua kuufumua kufumuliwa tutafumua aliifumua aliyofumua anafumua hufumuliwa ifumue iifumue ikaifumua inafumuliwa itafumua kifumuliwe kuifumua lifumuliwe lisifumue tufumue ufumuliwe umefumua usifumuliwe
-52	4952	muungo	muungo miungo
-53	4953	palilia	palilia walipalilia kupalilia anapalilia akipalilia amepalilia hupalilia alilipalilia alipalilia kinapalilia kuipalilia kumpalilia linalopalilia walichokipalilia
-54	4954	podikasti	podikasti
-55	4955	ropoka	ropoka kuropoka nikaropoka akaropoka waliropoka aliyeropoka anachokiropoka haropoki kuropokwa mnaropoka wakiropoka
-56	4956	mboji	mboji
-57	4957	voliboli	voliboli
-58	4958	ezeka	ezeka kuezeka kuezekwa ezekwa huezekwa vilivyoezekwa ataezeka iliezekwa imeezekwa ulioezekwa yaliyoezeka zilizoezekwa
-59	4959	mamboleo	mamboleo
-60	4960	sikuzote	sikuzote
-61	4961	kabichi	kabichi kabeji
-62	4962	mwendelezaji	waendelezaji mwendelezaji
-63	4963	mzeituni	mizeituni mzeituni
-64	4964	ono	ono
-65	4965	sinia	sinia
-66	4966	adhuhuri	adhuhuri
-67	4967	kibodi	kibodi
-68	4968	mwayo	mwayo miayo
-69	4969	sawijika	sawijika umesawijika usawijike kusawijika iliyosawijika
-70	4970	koko	koko
-71	4971	mwislamu	mwislamu
-72	4972	mwembe	mwembe miembe miembeni
-73	4973	ukocha	ukocha
-74	4974	ingizo	ingizo maingizo
-75	4975	linganifu	linganifu walinganifu
-76	4976	krismasi	krismasi
-77	4977	uwili	uwili
-78	4978	unyonyeshaji	unyonyeshaji
-79	4979	raba	raba
-80	4980	nyukliasi	nyukliasi
-81	4981	ukamataji	ukamataji
-82	4982	fistula	fistula
-83	4983	uvukizaji	uvukizaji
-84	4984	pigilia	kupigilia pigilia amepigilia ilipigilia imepigilia kuipigilia akayapigilia kulipigilia
-85	4985	mwinjilisti	wainjilisti mwinjilisti
-86	4986	shuke	mashuke shuke
-87	4987	haram	haram
-88	4988	mchikichi	mchikichi michikichi
-89	4989	miraa	miraa
-90	4990	karimu	karimu
-91	4991	sisimizi	sisimizi
-92	4992	mshipi	mshipi mishipi
-93	4993	mpandaji	wapandaji mpandaji
-94	4994	uasherati	uasherati
-95	4995	bombomu	bombomu
-96	4996	mwashi	waashi mwashi washi
-97	4997	fungamano	mafungamano fungamano
-98	4998	mwelekezi	mwelekezi waelekezi
-99	4999	ulipuaji	ulipuaji
-100	5000	utosi	utosi utosini
+1	4901	rumba	rumba
+2	4902	sharabu	sharabu kusharabu kusharabiwa husharabiwa hakikusharabiwa inasharabu kitasharabu
+3	4903	mbochi	mbochi
+4	4904	uponaji	uponaji
+5	4905	mlalamishi	mlalamishi
+6	4906	pajama	pajama
+7	4907	mvunaji	mvunaji wavunaji
+8	4908	pumbaa	kupumbaa aliyepumbaa pumbaa
+9	4909	remba	remba kurembwa kujiremba kuremba kuiremba aliremba kutojiremba mirembe naremba ninajiremba sijirembi zikirembwa zilirembwa
+10	4910	kigoda	kigoda kigodani vigoda
+11	4911	donda	donda
+12	4912	fira	sikufiria fire unavyofirika akifiria chifire fira alifirika alipofiria anayefiria kufiria kufirika wanafiria
+13	4913	maungo	maungo maungoni
+14	4914	dimu	ndimu dimu
+15	4915	ribosomu	ribosomu
+16	4916	dahari	dahari
+17	4917	sola	sola
+18	4918	steji	stejini steji
+19	4919	kiolwa	violwa kiolwa
+20	4920	haradali	haradali
+21	4921	hifadhidata	hifadhidata
+22	4922	msokoto	msokoto misokoto
+23	4923	umilikaji	umilikaji
+24	4924	muhindi	muhindi
+25	4925	umalaya	umalaya
+26	4926	karate	karate
+27	4927	bandua	walibanduliwa alibanduliwa kubandua imebanduliwa ukibanduliwa waliibandua kuubandua yaliyobanduliwa bandua iliibandua inayobanduliwa kuyabandua walipobandua wanabandua
+28	4928	jando	jando jandoni majando
+29	4929	utimilifu	utimilifu
+30	4930	kapilari	kapilari
+31	4931	cheni	cheni
+32	4932	kiuadudu	viuadudu kiuadudu
+33	4933	nanaa	nanaa
+34	4934	ufala	ufala
+35	4935	pigiana	pigiana anapigiana tupigianeni kupigiana wanapigiana wakipigiana alipigiana mkapigiana zilipigiana
+36	4936	konsonanti	konsonanti
+37	4937	mtalaka	mtalaka
+38	4938	theolojia	theolojia
+39	4939	farao	farao mafarao
+40	4940	sifongo	sifongo
+41	4941	kandwa	kandwa kukandwa inayokandwa uliokandwa hukandwa uliyokandwa
+42	4942	pauka	pauka ulipauka kupauka iliyopauka paukwa kikapauka limepauka ulivyopauka zimepauka
+43	4943	sahihisho	masahihisho sahihisho
+44	4944	fidla	fidla
+45	4945	platini	platini
+46	4946	dara	dare haidari aidara dara kikadara
+47	4947	galoni	galoni
+48	4948	fumua	fumua kufumua kuufumua kufumuliwa tutafumua aliifumua aliyofumua anafumua hufumuliwa ifumue iifumue ikaifumua inafumuliwa itafumua kifumuliwe kuifumua lifumuliwe lisifumue tufumue ufumuliwe umefumua usifumuliwe
+49	4949	muungo	muungo miungo
+50	4950	palilia	palilia walipalilia kupalilia anapalilia akipalilia amepalilia hupalilia alilipalilia alipalilia kinapalilia kuipalilia kumpalilia linalopalilia walichokipalilia
+51	4951	podikasti	podikasti
+52	4952	ropoka	ropoka kuropoka nikaropoka akaropoka waliropoka aliyeropoka anachokiropoka haropoki kuropokwa mnaropoka wakiropoka
+53	4953	mboji	mboji
+54	4954	voliboli	voliboli
+55	4955	ezeka	ezeka kuezeka kuezekwa ezekwa huezekwa vilivyoezekwa ataezeka iliezekwa imeezekwa ulioezekwa yaliyoezeka zilizoezekwa
+56	4956	mamboleo	mamboleo
+57	4957	sikuzote	sikuzote
+58	4958	kabichi	kabichi kabeji
+59	4959	mwendelezaji	waendelezaji mwendelezaji
+60	4960	mzeituni	mizeituni mzeituni
+61	4961	ono	ono
+62	4962	sinia	sinia
+63	4963	adhuhuri	adhuhuri
+64	4964	kibodi	kibodi
+65	4965	mwayo	mwayo miayo
+66	4966	sawijika	sawijika umesawijika usawijike kusawijika iliyosawijika
+67	4967	koko	koko
+68	4968	mwislamu	mwislamu
+69	4969	mwembe	mwembe miembe miembeni
+70	4970	ukocha	ukocha
+71	4971	ingizo	ingizo maingizo
+72	4972	linganifu	linganifu walinganifu
+73	4973	krismasi	krismasi
+74	4974	uwili	uwili
+75	4975	unyonyeshaji	unyonyeshaji
+76	4976	raba	raba
+77	4977	nyukliasi	nyukliasi
+78	4978	ukamataji	ukamataji
+79	4979	fistula	fistula
+80	4980	uvukizaji	uvukizaji
+81	4981	pigilia	kupigilia pigilia amepigilia ilipigilia imepigilia kuipigilia akayapigilia kulipigilia
+82	4982	mwinjilisti	wainjilisti mwinjilisti
+83	4983	shuke	mashuke shuke
+84	4984	haram	haram
+85	4985	mchikichi	mchikichi michikichi
+86	4986	miraa	miraa
+87	4987	karimu	karimu
+88	4988	sisimizi	sisimizi
+89	4989	mshipi	mshipi mishipi
+90	4990	mpandaji	wapandaji mpandaji
+91	4991	uasherati	uasherati
+92	4992	bombomu	bombomu
+93	4993	mwashi	waashi mwashi washi
+94	4994	fungamano	mafungamano fungamano
+95	4995	mwelekezi	mwelekezi waelekezi
+96	4996	ulipuaji	ulipuaji
+97	4997	utosi	utosi utosini
+98	4998	siwa	siwa masiwa
+99	4999	pijini	pijini
+100	5000	kaburu	kaburu

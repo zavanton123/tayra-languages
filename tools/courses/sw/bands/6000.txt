@@ -1,100 +1,100 @@
-1	5901	dhiraa	dhiraa
-2	5902	kangaja	kangaja
-3	5903	kivunjajungu	kivunjajungu vivunjajungu
-4	5904	muachano	muachano
-5	5905	parachuti	parachuti parashuti
-6	5906	kifu	kifu wakifiwa akifiwa imekifu kitakifu kukifu watakifiwa yamenikifu vifu
-7	5907	kunjua	kunjua akayakunjua wamezikunjua ilijikunjua kujikunjua kukunjua unavyojikunjua utakunjua zimekunjuliwa
-8	5908	dodo	dodo
-9	5909	faila	faila
-10	5910	kansela	kansela
-11	5911	kipate	kipate
-12	5912	kisamvu	kisamvu
-13	5913	mtakwimu	mtakwimu watakwimu
-14	5914	utingo	utingo
-15	5915	alhaji	alhaji
-16	5916	figa	figa mafiga
-17	5917	mtamba	mtamba mitamba
-18	5918	mwanasanaa	mwanasanaa wanasanaa
-19	5919	ndimo	ndimo
-20	5920	rasta	rasta
-21	5921	sheha	masheha sheha
-22	5922	ubomoaji	ubomoaji
-23	5923	uchangishaji	uchangishaji
-24	5924	ukucha	ukucha makucha
-25	5925	bombwe	bombwe mabombwe
-26	5926	daawa	daawa
-27	5927	gangrini	gangrini
-28	5928	juzijuzi	juzijuzi
-29	5929	kapa	kapa
-30	5930	kidani	kidani vidani
-31	5931	kijembe	kijembe
-32	5932	komando	komando makomando
-33	5933	manyunyu	manyunyu
-34	5934	mwanahewa	wanahewa mwanahewa
-35	5935	nyonyo	nyonyo
-36	5936	pindo	pindo mapindo
-37	5937	selsiasi	selsiasi
-38	5938	shisha	shisha
-39	5939	sima	sima
-40	5940	sona	sona wakalisona wakisona
-41	5941	uprotestanti	uprotestanti
-42	5942	manganizi	manganisi manganizi
-43	5943	deski	deski
-44	5944	kiriba	viriba kiriba
-45	5945	mwinamo	mwinamo
-46	5946	saksafoni	saksafoni
-47	5947	uungu	uungu
-48	5948	kiambajengo	viambajengo kiambajengo
-49	5949	kichujio	vichujio kichujio
-50	5950	mzabuni	mzabuni wazabuni
-51	5951	bwalo	bwalo mabwalo bwaloni
-52	5952	ghasi	ghasi kuwaghasi wasikughasi akimghasi wasitughasi zinaghasi
-53	5953	kungu	makungu kungu
-54	5954	kuridhi	kuridhiwa hawakuridhi kuridhi
-55	5955	maduhuli	maduhuli
-56	5956	masurufu	masurufu
-57	5957	menyu	menyu
-58	5958	munkari	munkari
-59	5959	pilau	pilau
-60	5960	sungusungu	sungusungu
-61	5961	tari	tari
-62	5962	mwanademokrasia	wanademokrasia mwanademokrasia
-63	5963	tambika	tambika kutambika anatambika walitambika
-64	5964	ajizi	ajizi
-65	5965	amali	amali
-66	5966	baragumu	baragumu
-67	5967	daku	daku
-68	5968	heroe	heroe
-69	5969	majilio	majilio
-70	5970	mazingara	mazingara
-71	5971	mwanamwali	mwanamwali wanawali
-72	5972	nepi	nepi
-73	5973	ozoni	ozoni
-74	5974	stuli	stuli
-75	5975	ulishaji	ulishaji
-76	5976	arudhi	arudhi
-77	5977	baghala	baghala
-78	5978	elimunafsia	elimunafsia
-79	5979	grisi	grisi
-80	5980	huntha	huntha
-81	5981	injilisha	injilisha kuinjilisha aliinjilisha inayoinjilisha wanaoinjilisha
-82	5982	kibulgaria	kibulgaria
-83	5983	kimulimuli	kimulimuli vimulimuli
-84	5984	kusitawi	kusitawi
-85	5985	laktosi	laktosi
-86	5986	makataa	makataa
-87	5987	metafizikia	metafizikia
-88	5988	mshikaki	mshikaki mishikaki
-89	5989	mtembeleaji	watembeleaji mtembeleaji
-90	5990	nyegere	nyegere
-91	5991	pembenyingi	pembenyingi
-92	5992	shubaka	mashubaka shubaka
-93	5993	tezo	tezo matezo
-94	5994	ujia	ujia
-95	5995	ulumbi	ulumbi
-96	5996	kibla	kibla
-97	5997	nyege	nyege
-98	5998	senene	senene
-99	5999	tanakali	tanakali
-100	6000	tarihi	tarihi
+1	5901	parachuti	parachuti parashuti
+2	5902	kifu	kifu wakifiwa akifiwa imekifu kitakifu kukifu watakifiwa yamenikifu vifu
+3	5903	kunjua	kunjua akayakunjua wamezikunjua ilijikunjua kujikunjua kukunjua unavyojikunjua utakunjua zimekunjuliwa
+4	5904	dodo	dodo
+5	5905	faila	faila
+6	5906	kansela	kansela
+7	5907	kipate	kipate
+8	5908	kisamvu	kisamvu
+9	5909	mtakwimu	mtakwimu watakwimu
+10	5910	utingo	utingo
+11	5911	alhaji	alhaji
+12	5912	figa	figa mafiga
+13	5913	mtamba	mtamba mitamba
+14	5914	mwanasanaa	mwanasanaa wanasanaa
+15	5915	ndimo	ndimo
+16	5916	rasta	rasta
+17	5917	sheha	masheha sheha
+18	5918	ubomoaji	ubomoaji
+19	5919	uchangishaji	uchangishaji
+20	5920	ukucha	ukucha makucha
+21	5921	bombwe	bombwe mabombwe
+22	5922	daawa	daawa
+23	5923	gangrini	gangrini
+24	5924	juzijuzi	juzijuzi
+25	5925	kapa	kapa
+26	5926	kidani	kidani vidani
+27	5927	kijembe	kijembe
+28	5928	komando	komando makomando
+29	5929	manyunyu	manyunyu
+30	5930	mwanahewa	wanahewa mwanahewa
+31	5931	nyonyo	nyonyo
+32	5932	pindo	pindo mapindo
+33	5933	selsiasi	selsiasi
+34	5934	shisha	shisha
+35	5935	sima	sima
+36	5936	sona	sona wakalisona wakisona
+37	5937	uprotestanti	uprotestanti
+38	5938	manganizi	manganisi manganizi
+39	5939	deski	deski
+40	5940	kiriba	viriba kiriba
+41	5941	mwinamo	mwinamo
+42	5942	saksafoni	saksafoni
+43	5943	uungu	uungu
+44	5944	kiambajengo	viambajengo kiambajengo
+45	5945	kichujio	vichujio kichujio
+46	5946	mzabuni	mzabuni wazabuni
+47	5947	bwalo	bwalo mabwalo bwaloni
+48	5948	ghasi	ghasi kuwaghasi wasikughasi akimghasi wasitughasi zinaghasi
+49	5949	kungu	makungu kungu
+50	5950	kuridhi	kuridhiwa hawakuridhi kuridhi
+51	5951	maduhuli	maduhuli
+52	5952	masurufu	masurufu
+53	5953	menyu	menyu
+54	5954	munkari	munkari
+55	5955	pilau	pilau
+56	5956	sungusungu	sungusungu
+57	5957	tari	tari
+58	5958	mwanademokrasia	wanademokrasia mwanademokrasia
+59	5959	tambika	tambika kutambika anatambika walitambika
+60	5960	ajizi	ajizi
+61	5961	amali	amali
+62	5962	baragumu	baragumu
+63	5963	daku	daku
+64	5964	heroe	heroe
+65	5965	majilio	majilio
+66	5966	mazingara	mazingara
+67	5967	mwanamwali	mwanamwali wanawali
+68	5968	nepi	nepi
+69	5969	ozoni	ozoni
+70	5970	stuli	stuli
+71	5971	ulishaji	ulishaji
+72	5972	arudhi	arudhi
+73	5973	baghala	baghala
+74	5974	elimunafsia	elimunafsia
+75	5975	grisi	grisi
+76	5976	huntha	huntha
+77	5977	injilisha	injilisha kuinjilisha aliinjilisha inayoinjilisha wanaoinjilisha
+78	5978	kibulgaria	kibulgaria
+79	5979	kimulimuli	kimulimuli vimulimuli
+80	5980	kusitawi	kusitawi
+81	5981	laktosi	laktosi
+82	5982	makataa	makataa
+83	5983	metafizikia	metafizikia
+84	5984	mshikaki	mshikaki mishikaki
+85	5985	mtembeleaji	watembeleaji mtembeleaji
+86	5986	nyegere	nyegere
+87	5987	pembenyingi	pembenyingi
+88	5988	shubaka	mashubaka shubaka
+89	5989	tezo	tezo matezo
+90	5990	ujia	ujia
+91	5991	ulumbi	ulumbi
+92	5992	kibla	kibla
+93	5993	nyege	nyege
+94	5994	senene	senene
+95	5995	tanakali	tanakali
+96	5996	tarihi	tarihi
+97	5997	uwingu	uwingu
+98	5998	afua	afua
+99	5999	aridhia	waridhie aridhia
+100	6000	dokoa	kudokoa dokoa hakudokoa nitadokoa

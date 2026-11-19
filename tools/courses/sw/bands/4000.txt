@@ -1,100 +1,100 @@
 1	3901	msako	msako misako
-2	3902	nukia	kunukia unanukia zinanukia hayanukii ilinukia kiliinukia kuinukia uliinukia wanukia nukia wanainukia ukinukia zinazoinukia anayeinukia inayonukia vinanukia wakiinukia wakinukia wanukie yanukia
-3	3903	upatanisho	upatanisho upatanishi
-4	3904	ghilibu	ghilibu kughilibu kughilibiwa ameghilibiwa anatughilibu nimekughilibu ulighilibu kuwaghilibu kumghilibu kuughilibu waliwaghilibu wanaghilibiwa
-5	3905	kinyongo	kinyongo
-6	3906	kipanya	vipanya kipanya
-7	3907	mwendeshaji	waendeshaji mwendeshaji
-8	3908	zini	nilizini kuzini usizini uliyezini ulizini anazini zini azini akazini asingezini asizini huzini wakizini wamezini
-9	3909	uterasi	uterasi
-10	3910	glukosi	glukosi
-11	3911	usaili	usaili
-12	3912	urambazaji	urambazaji
-13	3913	mwangwi	mwangwi
-14	3914	mjusi	mijusi mjusi
-15	3915	koroga	koroga kukoroga kikinikoroga korogwe kukorogwa inakorogwa ukikoroga hukorogwa unakoroga unaokorogwa hukoroga unaikoroga zinakorogwa akikoroga amelikoroga iliwakoroga inakoroga inapokorogwa kimewakoroga kuikoroga limeikoroga ukilikoroga unakorogwa waliolikoroga wanakoroga zikikorogwa
-16	3916	urekebishaji	urekebishaji
-17	3917	mwanasoka	wanasoka mwanasoka
-18	3918	mwangalizi	mwangalizi wangalizi
-19	3919	bodaboda	bodaboda
-20	3920	chanua	chanua kuchanua kinachochanua yachanue yanachanua huchanua inachanua utachanua ichanue ikichanua yanayochanua imechanua kinachanua likijichanua litachanua uchanue visichanue
-21	3921	utapiamlo	utapiamlo
-22	3922	kitalu	vitalu kitalu
-23	3923	sibu	kinasibu usibuni yanayowasibu yaliyomsibu kilichomsibu yanayomsibu kinachomsibu yaliyonisibu iliyowasibu sibu yaliyowasibu hasibu inayoisibu kilichowasibu yanayoisibu yanayotusibu asibuni hayajatusibu kimeisibu kimetusibu kimewasibu kinachotusibu kuisibu kuwasibu lililomsibu linalotusibu linalowasibu unaotusibu yakimsibu yaliyoisibu yanawasibu yanayokisibu yanayolisibu yatakayowasibu zinazomsibu zinazotusibu zinazowasibu
-24	3924	opera	opera
-25	3925	fasiri	wafasiri kufasiriwa kufasiri fasiri ufasiri alikifasiri amefasiri hufasiriwa ifasiriwe tukiyafasiri ulifasiriwa utafasiri yalifasiriwa inafasiri itafasiri unavyofasiri
-26	3926	uwezeshaji	uwezeshaji
-27	3927	agosti	agosti
-28	3928	mlozi	walozi mlozi
-29	3929	sebule	sebuleni sebule
-30	3930	kasoko	kasoko
-31	3931	harambee	harambee
-32	3932	uingizaji	uingizaji
-33	3933	dondoo	dondoo madondoo
-34	3934	kigiriki	kigiriki
-35	3935	astronomia	astronomia
-36	3936	jipenda	jipenda kujipenda anavyojipenda unajipenda anajipenda tunavyojipenda ujipendavyo anaojipenda unavyojipenda wanaojipenda anayejipenda hujipenda tujipende tunaojipenda ujipende wanavyojipenda
-37	3937	kifaranga	vifaranga kifaranga
-38	3938	mwanamaji	mwanamaji wanamaji
-39	3939	chuchu	chuchu
-40	3940	ng'amua	ng'amua kung'amua aling'amua waling'amua inang'amua kuing'amua ameng'amua hung'amua kumng'amua unang'amua alipong'amua ameling'amua anavyong'amua ang'amue hawajang'amua huyang'amua imeng'amua kuling'amua kung'amuliwa kuwang'amua lang'amua limeng'amua nikang'amua walioing'amua wameng'amua wanaung'amua zinang'amua
-41	3941	kutu	kutu
-42	3942	bweka	bweka kubweka akibweka anabweka hubweka abweke alipobweka
-43	3943	ulipaji	ulipaji
-44	3944	mbari	mbari
-45	3945	mrama	mrama
-46	3946	resiti	resiti risiti
-47	3947	mfanya	mfanya wafanya
-48	3948	tarizi	utarizi tarizi
-49	3949	ikolojia	ikolojia ekolojia
-50	3950	tawasifu	tawasifu
-51	3951	tanuri	tanuri
-52	3952	mnafiki	wanafiki mnafiki
-53	3953	charaza	charaza kucharazwa mcharazeni kucharaza kumcharaza iliicharaza kuicharaza walicharaza zilicharaza akizicharaza alicharaza awacharaze kuwacharaza tulicharazwa akamcharaza alimcharaza amcharaza amecharaza anapomcharaza anayecharaza hulicharaza ikiicharaza ilicharazwa ilipocharazwa kuzicharaza nitamcharaza waicharaza wakimcharaza walicharazwa waliicharaza walimcharaza walizokucharaza wanaicharaza watucharaze
-54	3954	pinki	pinki
-55	3955	fulana	fulana
-56	3956	sekretarieti	sekretarieti
-57	3957	ovari	ovari
-58	3958	kwea	kukwea wakwea kwea kuukwea walikwea alipokwea angekwea akikwea kuikwea waliokwea imekwea kwee nakwea wakikwea
-59	3959	tetesi	tetesi
-60	3960	kielektroniki	kielektroniki
-61	3961	bunilizi	bunilizi
-62	3962	nguvukazi	nguvukazi
-63	3963	uhamishaji	uhamishaji
-64	3964	pedi	pedi
-65	3965	jumapili	jumapili
-66	3966	siafu	siafu
-67	3967	kiambishi	viambishi kiambishi
-68	3968	mjeledi	mjeledi mijeledi
-69	3969	pini	pini
-70	3970	lindi	lindi malindi
-71	3971	korongo	korongo makorongo korongoni
-72	3972	bradha	mabradha bradha
-73	3973	mcha	mcha mchani wacha
-74	3974	maada	maada
-75	3975	jangili	majangili jangili
-76	3976	uhamaji	uhamaji
-77	3977	kiunga	viunga kiunga viungani
-78	3978	wahindi	wahindi
-79	3979	gwaride	gwaride magwaride
-80	3980	kadinali	kardinali kadinali makadinali
-81	3981	puto	puto maputo
-82	3982	tumbawe	matumbawe tumbawe
-83	3983	mchwa	mchwa
-84	3984	uta	uta nyuta
-85	3985	kiranja	kiranja viranja
-86	3986	mlingoti	mlingoti milingoti
-87	3987	ijumaa	ijumaa
-88	3988	chipsi	chipsi chips
-89	3989	koleo	koleo makoleo
-90	3990	spidi	spidi
-91	3991	makalio	makalio makalioni
-92	3992	tatanisha	tatanisha kutatanisha kutatanishwa linatatanisha unatatanisha zinatatanisha ikiwatatanisha linawatatanisha unaotatanisha unaowatatanisha waliotatanishwa yanayotatanisha
-93	3993	kitufe	kitufe vitufe
-94	3994	vidude	vidude
-95	3995	pochi	pochi kipochi
-96	3996	uhasibu	uhasibu
-97	3997	skeli	skeli
-98	3998	tawahudi	tawahudi
-99	3999	hodi	hodi
-100	4000	mfuniko	mfuniko mifuniko
+2	3902	upatanisho	upatanisho upatanishi
+3	3903	ghilibu	ghilibu kughilibu kughilibiwa ameghilibiwa anatughilibu nimekughilibu ulighilibu kuwaghilibu kumghilibu kuughilibu waliwaghilibu wanaghilibiwa
+4	3904	kinyongo	kinyongo
+5	3905	kipanya	vipanya kipanya
+6	3906	mwendeshaji	waendeshaji mwendeshaji
+7	3907	zini	nilizini kuzini usizini uliyezini ulizini anazini zini azini akazini asingezini asizini huzini wakizini wamezini
+8	3908	uterasi	uterasi
+9	3909	glukosi	glukosi
+10	3910	usaili	usaili
+11	3911	urambazaji	urambazaji
+12	3912	mwangwi	mwangwi
+13	3913	mjusi	mijusi mjusi
+14	3914	koroga	koroga kukoroga kikinikoroga korogwe kukorogwa inakorogwa ukikoroga hukorogwa unakoroga unaokorogwa hukoroga unaikoroga zinakorogwa akikoroga amelikoroga iliwakoroga inakoroga inapokorogwa kimewakoroga kuikoroga limeikoroga ukilikoroga unakorogwa waliolikoroga wanakoroga zikikorogwa
+15	3915	urekebishaji	urekebishaji
+16	3916	mwanasoka	wanasoka mwanasoka
+17	3917	mwangalizi	mwangalizi wangalizi
+18	3918	bodaboda	bodaboda
+19	3919	chanua	chanua kuchanua kinachochanua yachanue yanachanua huchanua inachanua utachanua ichanue ikichanua yanayochanua imechanua kinachanua likijichanua litachanua uchanue visichanue
+20	3920	utapiamlo	utapiamlo
+21	3921	kitalu	vitalu kitalu
+22	3922	sibu	kinasibu usibuni yanayowasibu yaliyomsibu kilichomsibu yanayomsibu kinachomsibu yaliyonisibu iliyowasibu sibu yaliyowasibu hasibu inayoisibu kilichowasibu yanayoisibu yanayotusibu asibuni hayajatusibu kimeisibu kimetusibu kimewasibu kinachotusibu kuisibu kuwasibu lililomsibu linalotusibu linalowasibu unaotusibu yakimsibu yaliyoisibu yanawasibu yanayokisibu yanayolisibu yatakayowasibu zinazomsibu zinazotusibu zinazowasibu
+23	3923	opera	opera
+24	3924	fasiri	wafasiri kufasiriwa kufasiri fasiri ufasiri alikifasiri amefasiri hufasiriwa ifasiriwe tukiyafasiri ulifasiriwa utafasiri yalifasiriwa inafasiri itafasiri unavyofasiri
+25	3925	uwezeshaji	uwezeshaji
+26	3926	agosti	agosti
+27	3927	mlozi	walozi mlozi
+28	3928	sebule	sebuleni sebule
+29	3929	kasoko	kasoko
+30	3930	harambee	harambee
+31	3931	uingizaji	uingizaji
+32	3932	dondoo	dondoo madondoo
+33	3933	kigiriki	kigiriki
+34	3934	astronomia	astronomia
+35	3935	jipenda	jipenda kujipenda anavyojipenda unajipenda anajipenda tunavyojipenda ujipendavyo anaojipenda unavyojipenda wanaojipenda anayejipenda hujipenda tujipende tunaojipenda ujipende wanavyojipenda
+36	3936	kifaranga	vifaranga kifaranga
+37	3937	mwanamaji	mwanamaji wanamaji
+38	3938	chuchu	chuchu
+39	3939	ng'amua	ng'amua kung'amua aling'amua waling'amua inang'amua kuing'amua ameng'amua hung'amua kumng'amua unang'amua alipong'amua ameling'amua anavyong'amua ang'amue hawajang'amua huyang'amua imeng'amua kuling'amua kung'amuliwa kuwang'amua lang'amua limeng'amua nikang'amua walioing'amua wameng'amua wanaung'amua zinang'amua
+40	3940	kutu	kutu
+41	3941	bweka	bweka kubweka akibweka anabweka hubweka abweke alipobweka
+42	3942	ulipaji	ulipaji
+43	3943	mbari	mbari
+44	3944	mrama	mrama
+45	3945	resiti	resiti risiti
+46	3946	mfanya	mfanya wafanya
+47	3947	tarizi	utarizi tarizi
+48	3948	ikolojia	ikolojia ekolojia
+49	3949	tawasifu	tawasifu
+50	3950	tanuri	tanuri
+51	3951	mnafiki	wanafiki mnafiki
+52	3952	charaza	charaza kucharazwa mcharazeni kucharaza kumcharaza iliicharaza kuicharaza walicharaza zilicharaza akizicharaza alicharaza awacharaze kuwacharaza tulicharazwa akamcharaza alimcharaza amcharaza amecharaza anapomcharaza anayecharaza hulicharaza ikiicharaza ilicharazwa ilipocharazwa kuzicharaza nitamcharaza waicharaza wakimcharaza walicharazwa waliicharaza walimcharaza walizokucharaza wanaicharaza watucharaze
+53	3953	pinki	pinki
+54	3954	fulana	fulana
+55	3955	sekretarieti	sekretarieti
+56	3956	ovari	ovari
+57	3957	kwea	kukwea wakwea kwea kuukwea walikwea alipokwea angekwea akikwea kuikwea waliokwea imekwea kwee nakwea wakikwea
+58	3958	tetesi	tetesi
+59	3959	kielektroniki	kielektroniki
+60	3960	bunilizi	bunilizi
+61	3961	nguvukazi	nguvukazi
+62	3962	uhamishaji	uhamishaji
+63	3963	pedi	pedi
+64	3964	jumapili	jumapili
+65	3965	siafu	siafu
+66	3966	kiambishi	viambishi kiambishi
+67	3967	mjeledi	mjeledi mijeledi
+68	3968	pini	pini
+69	3969	lindi	lindi malindi
+70	3970	korongo	korongo makorongo korongoni
+71	3971	bradha	mabradha bradha
+72	3972	mcha	mcha mchani wacha
+73	3973	maada	maada
+74	3974	jangili	majangili jangili
+75	3975	uhamaji	uhamaji
+76	3976	kiunga	viunga kiunga viungani
+77	3977	wahindi	wahindi
+78	3978	gwaride	gwaride magwaride
+79	3979	kadinali	kardinali kadinali makadinali
+80	3980	puto	puto maputo
+81	3981	tumbawe	matumbawe tumbawe
+82	3982	mchwa	mchwa
+83	3983	uta	uta nyuta
+84	3984	kiranja	kiranja viranja
+85	3985	mlingoti	mlingoti milingoti
+86	3986	ijumaa	ijumaa
+87	3987	chipsi	chipsi chips
+88	3988	koleo	koleo makoleo
+89	3989	spidi	spidi
+90	3990	makalio	makalio makalioni
+91	3991	tatanisha	tatanisha kutatanisha kutatanishwa linatatanisha unatatanisha zinatatanisha ikiwatatanisha linawatatanisha unaotatanisha unaowatatanisha waliotatanishwa yanayotatanisha
+92	3992	kitufe	kitufe vitufe
+93	3993	vidude	vidude
+94	3994	pochi	pochi kipochi
+95	3995	uhasibu	uhasibu
+96	3996	skeli	skeli
+97	3997	tawahudi	tawahudi
+98	3998	hodi	hodi
+99	3999	mfuniko	mfuniko mifuniko
+100	4000	uchakachuaji	uchakachuaji

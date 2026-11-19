@@ -1,45 +1,45 @@
-1	3301	fumbatio	fumbatio
-2	3302	ficho	ficho mafichoni maficho
-3	3303	chemka	kuchemka nichemke unaochemka ichemke inayochemka yanayochemka vichemke imechemka inachemka yachemke visichemke yanachemka umechemka chemka kinachochemka zichemke zisichemke ulichemka yakichemka alichemka amechemka hayachemki huchemka ikichemka inavyochemka unachemka yalipochemka yatachemka zinachemka zinazochemka
-4	3304	kuna	kuna kujikuna kukuna anakuna nikune anajikuna kinachomkuna kuwakuna walikunwa yawakuna zilimkuna akakuna akijikuna akikuna akiwakuna akuna akune akunwa alilonikuna alilowakuna alipojikuna amekukuna amekunwa anakunwa ananikuna anavyojikuna atakuna ilinikuna kilimkuna kunakuna kunikuna limewakuna mkikuna nilipojikuna nilivyokunwa ninakuna tulikuna ujikune umkune wakunwa wanajikuna wanapokuna yamewakuna yanakuna
-5	3305	fremu	fremu
-6	3306	mende	mende
-7	3307	mtini	mitini mtini
-8	3308	misri	misri
-9	3309	fitina	fitina
-10	3310	mkwaju	mkwaju mikwaju mkwajuni
-11	3311	kirusi	kirusi
-12	3312	kumradhi	kumradhi
-13	3313	mshukiwa	mshukiwa washukiwa
-14	3314	kifaransa	kifaransa
-15	3315	hamahama	hamahama kuhamahama nikihamahama huhamahama wanaohamahama wakihamahama yalihamahama alihamahama walihamahama yakihamahama anayehamahama tukihamahama waliohamahama wanahamahama
-16	3316	ukosoaji	ukosoaji
-17	3317	satelaiti	satelaiti setilaiti setelaiti setlaiti
-18	3318	ghushi	kughushi ghushi alighushi kughushiwa walighushi wanaoghushi zisighushiwe aliyeghushi ameghushi walizoghushi wameghushi wanaghushi yaliyoghushi zikighushiwa zilighushiwa zimeghushiwa
-19	3319	amkia	amkia kuamkia kumwamkia kuwaamkia ameamkia huamkia kumamkia kumuamkia umeamkia wakimwamkia wataamkia zikiniamkia
-20	3320	mchangiaji	wachangiaji mchangiaji
-21	3321	nondo	nondo
-22	3322	delta	delta
-23	3323	mmonaki	wamonaki mmonaki
-24	3324	supu	supu
-25	3325	rai	rai kuwarai urai hatarai
-26	3326	hatarishi	hatarishi
-27	3327	kombora	makombora kombora
-28	3328	pakiti	pakiti paketi
-29	3329	zorota	zorota kuzorota imezorota ilizorota ulizorota inazorota huzorota zimezorota haitazorota ikizorota umezorota unazorota yalizorota zilizorota haikuzorota ikazorota inayozorota izorote ukazorota ukizorota uliozorota wanaozorota wazorota yazorota zikizorota
-30	3330	aghalabu	aghalabu
-31	3331	pakia	pakia kupakia inapakia tutapakia alipakia anapakia ilipakia kumpakia kuyapakia usipakie wanapakia yaliyopakia akipakia ikipakia kilipakia kuwapakia kuzipakia limepakia akapakia aliipakia aliopakia aliyempakia amepakia atakapopakia hupakia ikapakia imepakia kujipakia kukupakia nilimpakia ukipakia unapakia walinipakia waliyapakia wamepakia wamevipakia wanaopakia yakipakia zikipakia
-32	3332	taharuki	taharuki
-33	3333	kikristo	kikristo
-34	3334	ulazima	ulazima
-35	3335	pensheni	pensheni
-36	3336	kaba	kukaba inawakaba kunikaba nikabe ningemkaba kabwe kumkaba kukabwa kuikaba alimkaba ulikabwa anakaba hukaba humkaba inakaba wanaokaba yaliyowakaba amkaba kuwakaba akabwe aliwakaba amekabwa inayoikaba inayowakaba kaba nimekabwa wakabwa wakanikaba wamewakaba wanakabwa wanaokabwa wanaomkaba wanavyokaba
-37	3337	ikweta	ikweta
-38	3338	mvumilivu	mvumilivu wavumilivu
-39	3339	ofa	ofa
-40	3340	adha	adha
-41	3341	zulia	zulia mazulia
-42	3342	tuonane	tuonane
+1	3301	mwondoko	miondoko mwondoko
+2	3302	fumbatio	fumbatio
+3	3303	ficho	ficho mafichoni maficho
+4	3304	chemka	kuchemka nichemke unaochemka ichemke inayochemka yanayochemka vichemke imechemka inachemka yachemke visichemke yanachemka umechemka chemka kinachochemka zichemke zisichemke ulichemka yakichemka alichemka amechemka hayachemki huchemka ikichemka inavyochemka unachemka yalipochemka yatachemka zinachemka zinazochemka
+5	3305	kuna	kuna kujikuna kukuna anakuna nikune anajikuna kinachomkuna kuwakuna walikunwa yawakuna zilimkuna akakuna akijikuna akikuna akiwakuna akuna akune akunwa alilonikuna alilowakuna alipojikuna amekukuna amekunwa anakunwa ananikuna anavyojikuna atakuna ilinikuna kilimkuna kunakuna kunikuna limewakuna mkikuna nilipojikuna nilivyokunwa ninakuna tulikuna ujikune umkune wakunwa wanajikuna wanapokuna yamewakuna yanakuna
+6	3306	fremu	fremu
+7	3307	mende	mende
+8	3308	mtini	mitini mtini
+9	3309	misri	misri
+10	3310	fitina	fitina
+11	3311	mkwaju	mkwaju mikwaju mkwajuni
+12	3312	kirusi	kirusi
+13	3313	kumradhi	kumradhi
+14	3314	mshukiwa	mshukiwa washukiwa
+15	3315	kifaransa	kifaransa
+16	3316	hamahama	hamahama kuhamahama nikihamahama huhamahama wanaohamahama wakihamahama yalihamahama alihamahama walihamahama yakihamahama anayehamahama tukihamahama waliohamahama wanahamahama
+17	3317	ukosoaji	ukosoaji
+18	3318	satelaiti	satelaiti setilaiti setelaiti setlaiti
+19	3319	ghushi	kughushi ghushi alighushi kughushiwa walighushi wanaoghushi zisighushiwe aliyeghushi ameghushi walizoghushi wameghushi wanaghushi yaliyoghushi zikighushiwa zilighushiwa zimeghushiwa
+20	3320	amkia	amkia kuamkia kumwamkia kuwaamkia ameamkia huamkia kumamkia kumuamkia umeamkia wakimwamkia wataamkia zikiniamkia
+21	3321	mchangiaji	wachangiaji mchangiaji
+22	3322	nondo	nondo
+23	3323	delta	delta
+24	3324	mmonaki	wamonaki mmonaki
+25	3325	supu	supu
+26	3326	rai	rai kuwarai urai hatarai
+27	3327	hatarishi	hatarishi
+28	3328	kombora	makombora kombora
+29	3329	pakiti	pakiti paketi
+30	3330	zorota	zorota kuzorota imezorota ilizorota ulizorota inazorota huzorota zimezorota haitazorota ikizorota umezorota unazorota yalizorota zilizorota haikuzorota ikazorota inayozorota izorote ukazorota ukizorota uliozorota wanaozorota wazorota yazorota zikizorota
+31	3331	aghalabu	aghalabu
+32	3332	pakia	pakia kupakia inapakia tutapakia alipakia anapakia ilipakia kumpakia kuyapakia usipakie wanapakia yaliyopakia akipakia ikipakia kilipakia kuwapakia kuzipakia limepakia akapakia aliipakia aliopakia aliyempakia amepakia atakapopakia hupakia ikapakia imepakia kujipakia kukupakia nilimpakia ukipakia unapakia walinipakia waliyapakia wamepakia wamevipakia wanaopakia yakipakia zikipakia
+33	3333	taharuki	taharuki
+34	3334	kikristo	kikristo
+35	3335	ulazima	ulazima
+36	3336	pensheni	pensheni
+37	3337	kaba	kukaba inawakaba kunikaba nikabe ningemkaba kabwe kumkaba kukabwa kuikaba alimkaba ulikabwa anakaba hukaba humkaba inakaba wanaokaba yaliyowakaba amkaba kuwakaba akabwe aliwakaba amekabwa inayoikaba inayowakaba kaba nimekabwa wakabwa wakanikaba wamewakaba wanakabwa wanaokabwa wanaomkaba wanavyokaba
+38	3338	ikweta	ikweta
+39	3339	mvumilivu	mvumilivu wavumilivu
+40	3340	ofa	ofa
+41	3341	adha	adha
+42	3342	zulia	zulia mazulia
 43	3343	randaranda	randaranda kurandaranda anarandaranda narandaranda wanarandaranda nikirandaranda ukirandaranda wakirandaranda wanaorandaranda akirandaranda lilirandaranda
 44	3344	nduru	nduru
 45	3345	fiche	fiche

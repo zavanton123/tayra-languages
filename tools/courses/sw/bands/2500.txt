@@ -1,42 +1,42 @@
-1	2401	msongamano	msongamano misongamano
-2	2402	mahari	mahari
-3	2403	utetezi	utetezi
-4	2404	utofauti	utofauti
-5	2405	pisha	pisha kupisha nipishe mpishe kulipishwa nipisheni kumpisha kuwapisha apishe tupishe aipishe tupisheni utanipisha hupisha kuipisha ulilipishwa waliolipishwa awapishe waliopisha watakaopisha wawapishe akimpisha alimpisha alipishwa alipompisha anapokupisha angempisha hawampishi hawawapishi kukipisha kuupisha lilipisha nawapisha tunapisha tuwapishe ukipishwa unaupisha walipishwe waliwapisha wamelipishwa wampishe wanalipishwa wanaopisha wapishe zilipishwe zinachopishwa chapisha
-6	2406	fananisha	fananisha kufananisha kufananishwa kumfananisha anafananishwa anajifananisha nifananishe usifananishe kujifananisha hufananishwa alifananisha ukifananisha kuwafananisha kuifananisha alimfananisha akimfananisha imefananishwa kulifananisha lilifananishwa wafananishe linafananishwa afananishwe akajifananisha asijifananishe haifananishwi nikijifananisha sikuifananisha akifananishwa akijifananisha alifananishwa alilifananisha alipoifananisha amefananishwa anayefananishwa inafananishwa nakifananisha wakimfananisha walimfananisha wanafananishwa yanafananishwa anafananisha atafananishwa haukufananishwa huzifananisha inayofananishwa akifananisha fananishwa ilifananishwa kuufananisha kuyafananisha mnamfananisha naufananisha nikifananishe ninawafananisha ukifananishwa unafananishwa vinafananishwa wakaifananisha walifananisha wamfananishe wanajifananisha wanakufananisha wanamfananisha wanaomfananisha yanayofananishwa akiufananisha akizifananisha aliifananisha alijifananisha alipofananisha aliufananisha alivyopafananisha aliwafananisha aliyoyafananisha alizifananisha amefananisha amelifananisha ameufananisha amewafananisha amfananisha anaifananisha anamfananisha anapomfananisha anavyofananisha anayafananisha hufananisha ikifananishwa ilimfananisha inakifananisha inamfananisha inavyofananishwa kilifananishwa kupafananisha kuzifananisha lakufananishwa linalofananishwa nalifananisha namfananisha nawafananisha nikakifananisha nikifananisha nikiifananisha tufananishe tukifananisha tunafananisha tunaufananisha ufananishwe unamfananisha unaowafananisha unapofananisha usijifananishe usitufananishe vikifananishwa wakifananisha walilifananisha wamemfananisha wanalifananisha wanayemfananisha watafananisha zinatufananisha
-7	2407	mpishi	mpishi wapishi
-8	2408	kiganja	kiganja viganja kiganjani viganjani
-9	2409	posa	posa kumposa ameposwa anaposwa atakayeposwa mpose namposa nimekuposa nipose nitamposa wanaoposwa wanawaposa kuposwa alimposa kuposa akaposwa alioposa aliposwa anamposa pose amemposa alipoposa
-10	2410	utunzaji	utunzaji
-11	2411	utumiaji	utumiaji
-12	2412	monasteri	monasteri monasterini
-13	2413	muuguzi	wauguzi muuguzi mwuguzi
-14	2414	seti	seti
-15	2415	ibiwa	kuibiwa umeibiwa uliibiwa kilichoibiwa iliyoibiwa zilizoibiwa huibiwa ikiibiwa iliibiwa liliibiwa hayajaibiwa ibiwa visiibiwe yaliyoibiwa wanaibiwa aliyeibiwa zimeibiwa waliibiwa aliibiwa wameibiwa alivyoibiwa anaibiwa imeibiwa vimeibiwa vitaibiwa walipoibiwa zikiibiwa akiibiwa alizoibiwa anapoibiwa anayeibiwa asiibiwe hatuibiwi havikuibiwa hayaibiwi inaibiwa kimeibiwa limeibiwa lisiibiwe tukiibiwa tunaibiwa tunavyoibiwa tusiibiwe ukiibiwa unaibiwa waibiwe wanaoibiwa wanavyoibiwa wasiibiwe yameibiwa yanaibiwa zinaibiwa
-16	2416	tapika	tapika kutapika ametapika atatapika unatapika anatapika atapike hutatapika kukutapika nitatapika umetapika unapotapika unavyotapika angetapika kutapisha akatapika akitapika atapika watapike halimtapishi hutapika kujitapisha kutotapisha wakitapika wanaotapika wavitapike
-17	2417	uraia	uraia uraiani
-18	2418	mwindaji	mwindaji wawindaji
-19	2419	ujio	ujio
-20	2420	uzi	uzi
-21	2421	hamasa	hamasa
-22	2422	jinga	jinga kijinga wajinga kujinga
-23	2423	angazia	kuangazia inaangazia yanaangazia ninaangazia tukiangazia iangazie huangazia anaangazia nilimwangazia nitaangazia uangazie upaangazie wasiangazie yaliangazia iliangazia zinaangazia inayoangazia unaangazia tunaangazia linaangazia ikiangazia zilizoangazia imemuangazia tutaangazia huwaangazia iliyoangazia inamwangazia itaangazia iwaangazie kumwangazia kuniangazia wanaangazia yalimuangazia aliangazia kuyaangazia tuangazie akiwaangazia angazia imeangazia akamuangazia amwangazie anavyoangazia anavyoviangazia kinaangazia kumuangazia kuwaangazia kuziangazia lilivyoangazia liyaangazie naangazia tukayaangazia tunapoangazia tunaziangazia unaoangazia utaangazia yaliyoangazia yameangazia yataangazia yaziangazia zinazoangazia
-24	2424	nyani	nyani
-25	2425	ponda	kuponda tutaponda kupondwa kumponda hupondwa kuwaponda kilichopondwa kuziponda tunapondwa wapondeni wanaponda wakiponda ponda ameponda atamponda pondwa aliponda kuuponda wameponda kuiponda utakuponda utamponda yalipondwa zilizopondwa aliwaponda anaponda wataponda zinapopondwa awaponda waliuponda anawaponda wakapondwa walipondwa akiponda amewaponda ikiponda wakiiponda waponda akikiponda akiwaponda aliiponda alikiponda alimponda aliuponda anaiponda hatamponda huponda ikipondwa iliponda ilipondwa iliyopondwa kinachopondwa kukiponda mnaoponda niliponda tunavyopondwa uliyemponda vilivyopondwa vinavyowaponda waiponda wakiviponda waliomponda wamemponda wanaiponda wanakiponda wanaoiponda wanaomponda wanaoponda wanaowaponda wanayoiponda waponde wasiwaponde watakuponda wawaponde yaliyopondwa yapondwa ziliponda
-26	2426	upanuzi	upanuzi
-27	2427	kipa	kipa makipa
-28	2428	kemea	kukemea alikemea kumkemea kuwakemea alinikemea hakukemea nikikemea amekemea kuikemea anakemea akikemea walikemea alimkemea akemea ikemee tukikemea wakemee anamkemea ananikemea aliwakemea kuukemea wamekemea wanakemea ilikemea kunikemea wanamkemea aliyakemea amemkemea amewakemea anayekemea angekemea asiyekemea haikukemea kemeeni kukukemea kulikemea myakemee wakakemea wakemea wakikemea akanikemea alilikemea alipokemea aliukemea alivyokemea amevikemea angelikemea atakayekemea awakemee havikemei ikikemea iliyokemea imekemea inayokemea inayowakemea kemea kimekemea kutokemea kutowakemea kuyakemea likemee nakemea nimekemea ninaoukemea tumezikemea tunakemea tutakemea tuwakemee ukakemea unawakemea utamkemea vikikemea wamewakemea wanavyokemea wasikemee watavikemea yanayokemea zikemee zimekemea zinazokemea
-29	2429	ualimu	ualimu
-30	2430	ustadi	ustadi
-31	2431	kinyesi	kinyesi vinyesi
-32	2432	kidemokrasia	kidemokrasia
-33	2433	halina	halina
-34	2434	kofia	kofia
-35	2435	mbuzi	mbuzi
-36	2436	faili	faili mafaili failini kufaili
-37	2437	himaya	himaya
-38	2438	mvutano	mvutano mivutano
-39	2439	umeshinda	umeshindwa umeshinda
+1	2401	mwenza	mwenza wenza
+2	2402	msongamano	msongamano misongamano
+3	2403	mahari	mahari
+4	2404	utetezi	utetezi
+5	2405	utofauti	utofauti
+6	2406	pisha	pisha kupisha nipishe mpishe kulipishwa nipisheni kumpisha kuwapisha apishe tupishe aipishe tupisheni utanipisha hupisha kuipisha ulilipishwa waliolipishwa awapishe waliopisha watakaopisha wawapishe akimpisha alimpisha alipishwa alipompisha anapokupisha angempisha hawampishi hawawapishi kukipisha kuupisha lilipisha nawapisha tunapisha tuwapishe ukipishwa unaupisha walipishwe waliwapisha wamelipishwa wampishe wanalipishwa wanaopisha wapishe zilipishwe zinachopishwa chapisha
+7	2407	fananisha	fananisha kufananisha kufananishwa kumfananisha anafananishwa anajifananisha nifananishe usifananishe kujifananisha hufananishwa alifananisha ukifananisha kuwafananisha kuifananisha alimfananisha akimfananisha imefananishwa kulifananisha lilifananishwa wafananishe linafananishwa afananishwe akajifananisha asijifananishe haifananishwi nikijifananisha sikuifananisha akifananishwa akijifananisha alifananishwa alilifananisha alipoifananisha amefananishwa anayefananishwa inafananishwa nakifananisha wakimfananisha walimfananisha wanafananishwa yanafananishwa anafananisha atafananishwa haukufananishwa huzifananisha inayofananishwa akifananisha fananishwa ilifananishwa kuufananisha kuyafananisha mnamfananisha naufananisha nikifananishe ninawafananisha ukifananishwa unafananishwa vinafananishwa wakaifananisha walifananisha wamfananishe wanajifananisha wanakufananisha wanamfananisha wanaomfananisha yanayofananishwa akiufananisha akizifananisha aliifananisha alijifananisha alipofananisha aliufananisha alivyopafananisha aliwafananisha aliyoyafananisha alizifananisha amefananisha amelifananisha ameufananisha amewafananisha amfananisha anaifananisha anamfananisha anapomfananisha anavyofananisha anayafananisha hufananisha ikifananishwa ilimfananisha inakifananisha inamfananisha inavyofananishwa kilifananishwa kupafananisha kuzifananisha lakufananishwa linalofananishwa nalifananisha namfananisha nawafananisha nikakifananisha nikifananisha nikiifananisha tufananishe tukifananisha tunafananisha tunaufananisha ufananishwe unamfananisha unaowafananisha unapofananisha usijifananishe usitufananishe vikifananishwa wakifananisha walilifananisha wamemfananisha wanalifananisha wanayemfananisha watafananisha zinatufananisha
+8	2408	mpishi	mpishi wapishi
+9	2409	kiganja	kiganja viganja kiganjani viganjani
+10	2410	posa	posa kumposa ameposwa anaposwa atakayeposwa mpose namposa nimekuposa nipose nitamposa wanaoposwa wanawaposa kuposwa alimposa kuposa akaposwa alioposa aliposwa anamposa pose amemposa alipoposa
+11	2411	utunzaji	utunzaji
+12	2412	utumiaji	utumiaji
+13	2413	monasteri	monasteri monasterini
+14	2414	muuguzi	wauguzi muuguzi mwuguzi
+15	2415	seti	seti
+16	2416	ibiwa	kuibiwa umeibiwa uliibiwa kilichoibiwa iliyoibiwa zilizoibiwa huibiwa ikiibiwa iliibiwa liliibiwa hayajaibiwa ibiwa visiibiwe yaliyoibiwa wanaibiwa aliyeibiwa zimeibiwa waliibiwa aliibiwa wameibiwa alivyoibiwa anaibiwa imeibiwa vimeibiwa vitaibiwa walipoibiwa zikiibiwa akiibiwa alizoibiwa anapoibiwa anayeibiwa asiibiwe hatuibiwi havikuibiwa hayaibiwi inaibiwa kimeibiwa limeibiwa lisiibiwe tukiibiwa tunaibiwa tunavyoibiwa tusiibiwe ukiibiwa unaibiwa waibiwe wanaoibiwa wanavyoibiwa wasiibiwe yameibiwa yanaibiwa zinaibiwa
+17	2417	tapika	tapika kutapika ametapika atatapika unatapika anatapika atapike hutatapika kukutapika nitatapika umetapika unapotapika unavyotapika angetapika kutapisha akatapika akitapika atapika watapike halimtapishi hutapika kujitapisha kutotapisha wakitapika wanaotapika wavitapike
+18	2418	uraia	uraia uraiani
+19	2419	mwindaji	mwindaji wawindaji
+20	2420	ujio	ujio
+21	2421	uzi	uzi
+22	2422	hamasa	hamasa
+23	2423	jinga	jinga kijinga wajinga kujinga
+24	2424	angazia	kuangazia inaangazia yanaangazia ninaangazia tukiangazia iangazie huangazia anaangazia nilimwangazia nitaangazia uangazie upaangazie wasiangazie yaliangazia iliangazia zinaangazia inayoangazia unaangazia tunaangazia linaangazia ikiangazia zilizoangazia imemuangazia tutaangazia huwaangazia iliyoangazia inamwangazia itaangazia iwaangazie kumwangazia kuniangazia wanaangazia yalimuangazia aliangazia kuyaangazia tuangazie akiwaangazia angazia imeangazia akamuangazia amwangazie anavyoangazia anavyoviangazia kinaangazia kumuangazia kuwaangazia kuziangazia lilivyoangazia liyaangazie naangazia tukayaangazia tunapoangazia tunaziangazia unaoangazia utaangazia yaliyoangazia yameangazia yataangazia yaziangazia zinazoangazia
+25	2425	nyani	nyani
+26	2426	ponda	kuponda tutaponda kupondwa kumponda hupondwa kuwaponda kilichopondwa kuziponda tunapondwa wapondeni wanaponda wakiponda ponda ameponda atamponda pondwa aliponda kuuponda wameponda kuiponda utakuponda utamponda yalipondwa zilizopondwa aliwaponda anaponda wataponda zinapopondwa awaponda waliuponda anawaponda wakapondwa walipondwa akiponda amewaponda ikiponda wakiiponda waponda akikiponda akiwaponda aliiponda alikiponda alimponda aliuponda anaiponda hatamponda huponda ikipondwa iliponda ilipondwa iliyopondwa kinachopondwa kukiponda mnaoponda niliponda tunavyopondwa uliyemponda vilivyopondwa vinavyowaponda waiponda wakiviponda waliomponda wamemponda wanaiponda wanakiponda wanaoiponda wanaomponda wanaoponda wanaowaponda wanayoiponda waponde wasiwaponde watakuponda wawaponde yaliyopondwa yapondwa ziliponda
+27	2427	upanuzi	upanuzi
+28	2428	kipa	kipa makipa
+29	2429	kemea	kukemea alikemea kumkemea kuwakemea alinikemea hakukemea nikikemea amekemea kuikemea anakemea akikemea walikemea alimkemea akemea ikemee tukikemea wakemee anamkemea ananikemea aliwakemea kuukemea wamekemea wanakemea ilikemea kunikemea wanamkemea aliyakemea amemkemea amewakemea anayekemea angekemea asiyekemea haikukemea kemeeni kukukemea kulikemea myakemee wakakemea wakemea wakikemea akanikemea alilikemea alipokemea aliukemea alivyokemea amevikemea angelikemea atakayekemea awakemee havikemei ikikemea iliyokemea imekemea inayokemea inayowakemea kemea kimekemea kutokemea kutowakemea kuyakemea likemee nakemea nimekemea ninaoukemea tumezikemea tunakemea tutakemea tuwakemee ukakemea unawakemea utamkemea vikikemea wamewakemea wanavyokemea wasikemee watavikemea yanayokemea zikemee zimekemea zinazokemea
+30	2430	ualimu	ualimu
+31	2431	ustadi	ustadi
+32	2432	kinyesi	kinyesi vinyesi
+33	2433	kidemokrasia	kidemokrasia
+34	2434	halina	halina
+35	2435	kofia	kofia
+36	2436	mbuzi	mbuzi
+37	2437	faili	faili mafaili failini kufaili
+38	2438	himaya	himaya
+39	2439	mvutano	mvutano mivutano
 40	2440	kengele	kengele
 41	2441	windo	mawindo windo mawindoni
 42	2442	mzalendo	wazalendo mzalendo

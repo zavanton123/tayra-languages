@@ -1,100 +1,100 @@
-1	5801	upokezi	upokezi
-2	5802	uya	uya pamuya
-3	5803	uzibaji	uzibaji
-4	5804	gunzi	gunzi magunzi
-5	5805	fokasi	fokasi
-6	5806	kiimbo	kiimbo
-7	5807	tindi	tindi
-8	5808	tovu	mtovu watovu tovu vitovu
-9	5809	kasimu	zinakasimiwa kukasimu hukasimu ilizokasimiwa imekasimiwa kasimu kukasimiwa waliyokasimiwa zilikasimu zimekasimu
-10	5810	randa	randa kuranda wakiranda ulioranda unayeranda wanaranda zikiranda
-11	5811	kimasai	kimasai
-12	5812	meja	meja
-13	5813	mroho	waroho mroho
-14	5814	mtetea	mtetea watetea
-15	5815	futuru	wanapofuturu kufuturu kufuturisha futuru kufuturia unapomfuturisha walifuturu
-16	5816	lowea	lowea wamelowea kulowea akalowea aliyelowea hatulowei hulowea wakilowea
-17	5817	kambare	kambare
-18	5818	kiyahudi	kiyahudi
-19	5819	mikrofoni	mikrofoni maikrofoni
-20	5820	mtesaji	mtesaji watesaji
-21	5821	pantoni	pantoni
-22	5822	parachichi	parachichi maparachichi
-23	5823	pitapita	pitapita kupitapita wanapitapita anapopitapita wanaopitapita
-24	5824	tandu	tandu
-25	5825	unguja	unguja
-26	5826	akademia	akademia
-27	5827	hari	hari
-28	5828	juba	juba
-29	5829	kalasinga	kalasinga
-30	5830	klamidia	klamidia
-31	5831	maski	maski
-32	5832	safa	safa
-33	5833	safina	safina safinani
-34	5834	umememaji	umememaji
-35	5835	chipu	chipu
-36	5836	kizulu	kizulu
-37	5837	krioli	krioli
-38	5838	makanika	makanika
-39	5839	masala	masala
-40	5840	mkamba	mkamba
-41	5841	potashi	potashi
-42	5842	skana	skana
-43	5843	sweta	sweta
-44	5844	taipu	taipu
-45	5845	telegramu	telegramu
-46	5846	ulimbwende	ulimbwende
-47	5847	usoshalisti	usoshalisti
-48	5848	asilisha	asilisha huasilisha kuasilishwa ulioasilishwa kuasilisha
-49	5849	kende	makende kende
-50	5850	kipara	kipara vipara
-51	5851	kafi	makafi kafi
-52	5852	kuponi	kuponi
-53	5853	telegrafu	telegrafu
-54	5854	fitini	fitini kufitini kumfitini wafitini kuwafitini ufitini yanafitini
-55	5855	mbadhirifu	wabadhirifu mbadhirifu
-56	5856	usitishaji	usitishaji
-57	5857	mhifadhi	mhifadhi wahifadhi
-58	5858	afu	afu lafu kuliafu pamafu wafiwe wataafu
-59	5859	ambaa	ambaa aliyeambaa ikiambaa kuambaa kwambaa yanayoambaa
-60	5860	brigedia	brigedia
-61	5861	mdalasini	mdalasini
-62	5862	mkenya	mkenya
-63	5863	mtangamano	mtangamano
-64	5864	riali	riali
-65	5865	uchifu	uchifu
-66	5866	ufashisti	ufashisti
-67	5867	uinjilishaji	uinjilishaji
-68	5868	upambaji	upambaji
-69	5869	mhitaji	mhitaji wahitaji
-70	5870	vunda	vunda kuvunda huvunda lililovundika vunde
-71	5871	amari	amari
-72	5872	fuu	fuu
-73	5873	ijapo	ijapo
-74	5874	kimeta	kimeta
-75	5875	kiswidi	kiswidi
-76	5876	kiwiko	kiwiko
-77	5877	mkungu	mkungu
-78	5878	sekretari	sekretari
-79	5879	teleka	teleka
-80	5880	tiki	tiki
-81	5881	uarabu	uarabuni uarabu
-82	5882	ubaba	ubaba
-83	5883	uzinifu	uzinifu
-84	5884	wakaa	wakaa
-85	5885	kihisishi	vihisishi kihisishi
-86	5886	analogi	analogi
-87	5887	epistemolojia	epistemolojia
-88	5888	fotoni	fotoni
-89	5889	kingama	kukingama limekingama kingama
-90	5890	mkutubi	mkutubi
-91	5891	oksaidi	oksaidi
-92	5892	pandu	pandu
-93	5893	stovu	stovu
-94	5894	tanbihi	tanbihi
-95	5895	ulindaji	ulindaji
-96	5896	usanifishaji	usanifishaji
-97	5897	utoboaji	utoboaji
-98	5898	vinyuzi	vinyuzi
-99	5899	hadhiri	hadhiri wahadhiri kuhadhiriwa alihadhiri kuihadhiri muhadhiri uhadhiri whadhiri yaihadhiri
-100	5900	bamvua	bamvua
+1	5801	fokasi	fokasi
+2	5802	kiimbo	kiimbo
+3	5803	tindi	tindi
+4	5804	tovu	mtovu watovu tovu vitovu
+5	5805	kasimu	zinakasimiwa kukasimu hukasimu ilizokasimiwa imekasimiwa kasimu kukasimiwa waliyokasimiwa zilikasimu zimekasimu
+6	5806	randa	randa kuranda wakiranda ulioranda unayeranda wanaranda zikiranda
+7	5807	kimasai	kimasai
+8	5808	meja	meja
+9	5809	mroho	waroho mroho
+10	5810	mtetea	mtetea watetea
+11	5811	futuru	wanapofuturu kufuturu kufuturisha futuru kufuturia unapomfuturisha walifuturu
+12	5812	lowea	lowea wamelowea kulowea akalowea aliyelowea hatulowei hulowea wakilowea
+13	5813	kambare	kambare
+14	5814	kiyahudi	kiyahudi
+15	5815	mikrofoni	mikrofoni maikrofoni
+16	5816	mtesaji	mtesaji watesaji
+17	5817	pantoni	pantoni
+18	5818	parachichi	parachichi maparachichi
+19	5819	pitapita	pitapita kupitapita wanapitapita anapopitapita wanaopitapita
+20	5820	tandu	tandu
+21	5821	unguja	unguja
+22	5822	akademia	akademia
+23	5823	hari	hari
+24	5824	juba	juba
+25	5825	kalasinga	kalasinga
+26	5826	klamidia	klamidia
+27	5827	maski	maski
+28	5828	safa	safa
+29	5829	safina	safina safinani
+30	5830	umememaji	umememaji
+31	5831	chipu	chipu
+32	5832	kizulu	kizulu
+33	5833	krioli	krioli
+34	5834	makanika	makanika
+35	5835	masala	masala
+36	5836	mkamba	mkamba
+37	5837	potashi	potashi
+38	5838	skana	skana
+39	5839	sweta	sweta
+40	5840	taipu	taipu
+41	5841	telegramu	telegramu
+42	5842	ulimbwende	ulimbwende
+43	5843	usoshalisti	usoshalisti
+44	5844	asilisha	asilisha huasilisha kuasilishwa ulioasilishwa kuasilisha
+45	5845	kende	makende kende
+46	5846	kipara	kipara vipara
+47	5847	kafi	makafi kafi
+48	5848	kuponi	kuponi
+49	5849	telegrafu	telegrafu
+50	5850	fitini	fitini kufitini kumfitini wafitini kuwafitini ufitini yanafitini
+51	5851	mbadhirifu	wabadhirifu mbadhirifu
+52	5852	usitishaji	usitishaji
+53	5853	mhifadhi	mhifadhi wahifadhi
+54	5854	afu	afu lafu kuliafu pamafu wafiwe wataafu
+55	5855	ambaa	ambaa aliyeambaa ikiambaa kuambaa kwambaa yanayoambaa
+56	5856	brigedia	brigedia
+57	5857	mdalasini	mdalasini
+58	5858	mkenya	mkenya
+59	5859	mtangamano	mtangamano
+60	5860	riali	riali
+61	5861	uchifu	uchifu
+62	5862	ufashisti	ufashisti
+63	5863	uinjilishaji	uinjilishaji
+64	5864	upambaji	upambaji
+65	5865	mhitaji	mhitaji wahitaji
+66	5866	vunda	vunda kuvunda huvunda lililovundika vunde
+67	5867	amari	amari
+68	5868	fuu	fuu
+69	5869	ijapo	ijapo
+70	5870	kimeta	kimeta
+71	5871	kiswidi	kiswidi
+72	5872	kiwiko	kiwiko
+73	5873	mkungu	mkungu
+74	5874	sekretari	sekretari
+75	5875	teleka	teleka
+76	5876	tiki	tiki
+77	5877	uarabu	uarabuni uarabu
+78	5878	ubaba	ubaba
+79	5879	uzinifu	uzinifu
+80	5880	wakaa	wakaa
+81	5881	kihisishi	vihisishi kihisishi
+82	5882	analogi	analogi
+83	5883	epistemolojia	epistemolojia
+84	5884	fotoni	fotoni
+85	5885	kingama	kukingama limekingama kingama
+86	5886	mkutubi	mkutubi
+87	5887	oksaidi	oksaidi
+88	5888	pandu	pandu
+89	5889	stovu	stovu
+90	5890	tanbihi	tanbihi
+91	5891	ulindaji	ulindaji
+92	5892	usanifishaji	usanifishaji
+93	5893	utoboaji	utoboaji
+94	5894	vinyuzi	vinyuzi
+95	5895	hadhiri	hadhiri wahadhiri kuhadhiriwa alihadhiri kuihadhiri muhadhiri uhadhiri whadhiri yaihadhiri
+96	5896	bamvua	bamvua
+97	5897	dhiraa	dhiraa
+98	5898	kangaja	kangaja
+99	5899	kivunjajungu	kivunjajungu vivunjajungu
+100	5900	muachano	muachano

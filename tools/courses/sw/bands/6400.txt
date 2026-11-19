@@ -1,90 +1,86 @@
-1	6301	chubuka	chubuka iliyochubuka imechubuka kuchubuka mchubuke nilichubuka
-2	6302	drafti	drafti
-3	6303	droni	droni
-4	6304	ekumeni	ekumeni
-5	6305	fumanizi	fumanizi
-6	6306	hawala	hawala
-7	6307	hidaya	hidaya
-8	6308	hobi	hobi
-9	6309	kamote	kamote
-10	6310	keremkeremu	keremkeremu keremkerem
-11	6311	kiromania	kiromania
-12	6312	kitasa	kitasa
-13	6313	mbata	mbata
-14	6314	mkingamo	mikingamo mkingamo
-15	6315	mochari	mochwari mochari
-16	6316	mrwanda	mrwanda
-17	6317	mseminari	waseminari mseminari
-18	6318	mwanakwaya	wanakwaya mwanakwaya
-19	6319	mwangaliaji	mwangaliaji waangaliaji
-20	6320	mwarabu	mwarabu
-21	6321	nanenane	nanenane
-22	6322	paipu	paipu
-23	6323	palizi	palizi
-24	6324	protokali	protokali
-25	6325	shaibu	shaibu
-26	6326	tela	tela
-27	6327	thumuni	thumuni thumni
-28	6328	udokozi	udokozi
-29	6329	upagani	upagani
-30	6330	ususi	ususi
-31	6331	uvundo	uvundo
-32	6332	yamini	yamini
-33	6333	dungua	dungua kudungua kuidungua yalidungua
-34	6334	kikoi	kikoi vikoi
-35	6335	mpimaji	wapimaji mpimaji
-36	6336	mpingaji	mpingaji wapingaji
-37	6337	msenge	wasenge msenge
-38	6338	mtumbaku	mtumbaku mitumbaku mtumbako
-39	6339	rasha	rasha parasha
-40	6340	ukwaju	ukwaju kwaju
-41	6341	mtahini	mtahini watahini
-42	6342	mvunja	mvunja wavunja
-43	6343	ampea	ampea
-44	6344	bando	bando
-45	6345	chekacheka	chekacheka amechekacheka akichekacheka anachekacheka
-46	6346	dripu	dripu
-47	6347	epua	epua kuepua utaepua
-48	6348	fotokopi	fotokopi
-49	6349	gaia	gaia hugaiwa kugaiwa wagaiwe zimegaiwa
-50	6350	imla	imla
-51	6351	jadidifu	jadidifu
-52	6352	kachumbari	kachumbari
-53	6353	kashata	kashata
-54	6354	kaushia	kaushia kukaushia
-55	6355	kiberenge	kiberenge viberenge
-56	6356	lijamu	lijamu
-57	6357	malale	malale
-58	6358	manza	manza
-59	6359	masjala	masjala
-60	6360	mgema	mgema
-61	6361	mswahili	mswahili
-62	6362	mubaba	mubaba wababa
-63	6363	muhibu	muhibu
-64	6364	mwanambuzi	mwanambuzi
-65	6365	myahudi	myahudi
-66	6366	nunda	nunda
-67	6367	rediasi	rediasi
-68	6368	rudufu	rudufu hujirudufu kuirudufu kurudufiwa kuzirudufu
-69	6369	saidi	saidi
-70	6370	taftishi	taftishi
-71	6371	ubuyu	ubuyu
-72	6372	ufungashaji	ufungashaji
-73	6373	usitishwaji	usitishwaji
-74	6374	vimbiwa	vimbiwa kuvimbiwa tumevimbiwa utavimbiwa
-75	6375	ziro	ziro
-76	6376	bakshishi	bahashishi bakshishi
-77	6377	hani	hani kikuhani kumhani
-78	6378	iliki	hiliki iliki
-79	6379	kabwela	makabwela kabwela
-80	6380	kiambaza	viambaza kiambaza
-81	6381	kiribatumbo	kiribatumbo viribatumbo
-82	6382	mdosi	wadosi mdosi
-83	6383	adhini	adhini muadhini nadhini waadhini
-84	6384	mkusanya	mkusanya wakusanya
-85	6385	mhaini	wahaini mhaini
-86	6386	mtii	mtii watii
-87	6387	vumilivu	vumilivu wavumilivu
-88	6388	changamfu	changamfu wachangamfu
-89	6389	topoa	topoa alitopoka kutopoa
-90	6390	mjadili	mjadili wajadili
+1	6301	fumanizi	fumanizi
+2	6302	hawala	hawala
+3	6303	hidaya	hidaya
+4	6304	hobi	hobi
+5	6305	kamote	kamote
+6	6306	keremkeremu	keremkeremu keremkerem
+7	6307	kiromania	kiromania
+8	6308	kitasa	kitasa
+9	6309	mbata	mbata
+10	6310	mkingamo	mikingamo mkingamo
+11	6311	mochari	mochwari mochari
+12	6312	mrwanda	mrwanda
+13	6313	mseminari	waseminari mseminari
+14	6314	mwanakwaya	wanakwaya mwanakwaya
+15	6315	mwangaliaji	mwangaliaji waangaliaji
+16	6316	mwarabu	mwarabu
+17	6317	nanenane	nanenane
+18	6318	paipu	paipu
+19	6319	palizi	palizi
+20	6320	protokali	protokali
+21	6321	shaibu	shaibu
+22	6322	tela	tela
+23	6323	thumuni	thumuni thumni
+24	6324	udokozi	udokozi
+25	6325	upagani	upagani
+26	6326	ususi	ususi
+27	6327	uvundo	uvundo
+28	6328	yamini	yamini
+29	6329	dungua	dungua kudungua kuidungua yalidungua
+30	6330	kikoi	kikoi vikoi
+31	6331	mpimaji	wapimaji mpimaji
+32	6332	mpingaji	mpingaji wapingaji
+33	6333	msenge	wasenge msenge
+34	6334	mtumbaku	mtumbaku mitumbaku mtumbako
+35	6335	rasha	rasha parasha
+36	6336	ukwaju	ukwaju kwaju
+37	6337	mtahini	mtahini watahini
+38	6338	mvunja	mvunja wavunja
+39	6339	ampea	ampea
+40	6340	bando	bando
+41	6341	chekacheka	chekacheka amechekacheka akichekacheka anachekacheka
+42	6342	dripu	dripu
+43	6343	epua	epua kuepua utaepua
+44	6344	fotokopi	fotokopi
+45	6345	gaia	gaia hugaiwa kugaiwa wagaiwe zimegaiwa
+46	6346	imla	imla
+47	6347	jadidifu	jadidifu
+48	6348	kachumbari	kachumbari
+49	6349	kashata	kashata
+50	6350	kaushia	kaushia kukaushia
+51	6351	kiberenge	kiberenge viberenge
+52	6352	lijamu	lijamu
+53	6353	malale	malale
+54	6354	manza	manza
+55	6355	masjala	masjala
+56	6356	mgema	mgema
+57	6357	mswahili	mswahili
+58	6358	mubaba	mubaba wababa
+59	6359	muhibu	muhibu
+60	6360	mwanambuzi	mwanambuzi
+61	6361	myahudi	myahudi
+62	6362	nunda	nunda
+63	6363	rediasi	rediasi
+64	6364	rudufu	rudufu hujirudufu kuirudufu kurudufiwa kuzirudufu
+65	6365	saidi	saidi
+66	6366	taftishi	taftishi
+67	6367	ubuyu	ubuyu
+68	6368	ufungashaji	ufungashaji
+69	6369	usitishwaji	usitishwaji
+70	6370	vimbiwa	vimbiwa kuvimbiwa tumevimbiwa utavimbiwa
+71	6371	ziro	ziro
+72	6372	bakshishi	bahashishi bakshishi
+73	6373	hani	hani kikuhani kumhani
+74	6374	iliki	hiliki iliki
+75	6375	kabwela	makabwela kabwela
+76	6376	kiambaza	viambaza kiambaza
+77	6377	kiribatumbo	kiribatumbo viribatumbo
+78	6378	mdosi	wadosi mdosi
+79	6379	adhini	adhini muadhini nadhini waadhini
+80	6380	mkusanya	mkusanya wakusanya
+81	6381	mhaini	wahaini mhaini
+82	6382	mtii	mtii watii
+83	6383	vumilivu	vumilivu wavumilivu
+84	6384	changamfu	changamfu wachangamfu
+85	6385	topoa	topoa alitopoka kutopoa
+86	6386	mjadili	mjadili wajadili

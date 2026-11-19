@@ -1,100 +1,100 @@
-1	4001	uchakachuaji	uchakachuaji
-2	4002	safiria	safiria kusafiria wakisafiria tunasafiria walisafiria akisafiria nikisafiria aliyosafiria atakayosafiria inayosafiria tulilosafiria tumeshasafiria tunazosafiria
-3	4003	uhariri	uhariri
-4	4004	kibepari	kibepari
-5	4005	jibini	jibini
-6	4006	mtungi	mtungi mitungi mtungini
-7	4007	mwanaanthropolojia	wanaanthropolojia mwanaanthropolojia
-8	4008	wagiriki	wagiriki
-9	4009	ubovu	ubovu
-10	4010	muamala	miamala muamala
-11	4011	kunguni	kunguni
-12	4012	mzushi	wazushi mzushi
-13	4013	kopi	kopi hukopia kukopi alimkopi kilichokopiwa kukopiana mikopi
-14	4014	uelekeo	uelekeo
-15	4015	akiolojia	akiolojia
-16	4016	utenzi	utenzi tenzi
-17	4017	torosha	torosha kumtorosha kutorosha kutoroshwa walitoroshwa hutoroshwa akajitorosha aliyetoroshwa amemtorosha amtoroshe kuwatorosha akitorosha inatoroshwa wanatoroshwa alimtorosha alipotoroshwa ametoroshwa haitoroshwi ikitoroshwa itatoroshwa kutowatorosha unatorosha wakitorosha walipotoroshwa wameshatoroshwa wametoroshwa wanaotorosha wanatorosha yalitoroshwa yanatorosha yanatoroshwa yanayotoroshwa zikitoroshwa zinatoroshwa zinazotoroshwa
-18	4018	mjao	mjao
-19	4019	kapteni	kapteni makapteni
-20	4020	uavyaji	uavyaji
-21	4021	ufikiaji	ufikiaji
-22	4022	angaliana	angaliana kuangaliana mnaangaliana tuliangaliana tulipoangaliana inayoangaliana tunaangaliana wanaangaliana
-23	4023	ringa	usiringe anaringa kuringa ukiringa unaringa yameviringa kutoringa ringa inaringa ninaringa wanaringa
-24	4024	gumba	gumba ngumba wagumba
-25	4025	zakati	zakati zaka
-26	4026	mkosefu	mkosefu wakosefu
-27	4027	uchangamfu	uchangamfu
-28	4028	mkalimani	mkalimani wakalimani
-29	4029	bundi	bundi
-30	4030	mkeka	mkeka mikeka mkekani
-31	4031	ukahaba	ukahaba
-32	4032	kiima	kiimani kiima
-33	4033	soga	soga
-34	4034	usimbishaji	usimbishaji
-35	4035	balehe	kubalehe balehe umebalehe waliobalehe wamebalehe wakibalehe wanapobalehe anabalehe wanaobalehe
-36	4036	hangaisha	hangaisha inayokuhangaisha kukuhangaisha kunihangaisha umenihangaisha unanihangaisha kumhangaisha unaohangaisha kuhangaisha kujihangaisha kuhangaishwa alijihangaisha inayomhangaisha itahangaisha kilivyomhangaisha linawahangaisha tunahangaishwa ulihangaisha wanahangaishwa wanaojihangaisha wanavyojihangaisha wasingemhangaisha wasiwahangaishe yanayoihangaisha yanayowahangaisha
-37	4037	gwiji	gwiji magwiji
-38	4038	gia	gia
-39	4039	msumari	msumari misumari
-40	4040	asteroidi	asteroidi
-41	4041	mtiifu	watiifu mtiifu
-42	4042	dayosisi	dayosisi
-43	4043	hoi	hoi
-44	4044	tozo	tozo
-45	4045	nakshi	nakshi zilizonakshiwa hakulinakshi iliyonakshiwa kuinakshi nakshiwa vilivyonakshiwa yaliyonakshiwa
-46	4046	jumamosi	jumamosi
-47	4047	mhasibu	mhasibu wahasibu
-48	4048	heroini	heroini
-49	4049	uchokozi	uchokozi
-50	4050	mzuka	mzuka mizuka
-51	4051	fuwele	fuwele
-52	4052	zege	zege
-53	4053	mbia	mbia wabia
-54	4054	aloi	aloi
-55	4055	kikuku	vikuku kikuku
-56	4056	mshonaji	mshonaji washonaji
-57	4057	tauni	tauni
-58	4058	ushabiki	ushabiki
-59	4059	kilatini	kilatini
-60	4060	rada	rada
-61	4061	kuki	kuki
-62	4062	fleti	fleti
-63	4063	mwajiriwa	mwajiriwa
-64	4064	kilindi	vilindi kilindini kilindi vilindini
-65	4065	tuni	tuni
-66	4066	rumande	rumande
-67	4067	kipeo	kipeo vipeo
-68	4068	taabika	nilitaabika wakitaabika nataabika kutaabika wanataabika wanaotaabika hutaabika inataabika ametaabika anayetaabika asingelitaabika inavyotaabika taabika tukitaabika utaabike wametaabika wasitaabike watataabika
-69	4069	stika	stika
-70	4070	lumba	lumba kulumbana wanaolumbana akalumbana wakilumbana walilumbana walumbana analumbana kulumba tunalumbana vinavyolumbana walumbane wanalumbana wanavyolumbana yanayolumbana zikilumbana zinazolumbana
-71	4071	unabii	unabii
-72	4072	uyoga	uyoga
-73	4073	unyonyaji	unyonyaji
-74	4074	upunguzaji	upunguzaji
-75	4075	nungunungu	nungu nungunungu
-76	4076	pangilia	kupangilia kuzipangilia nisipoyapangilia tupangilie hupangilia alipangilia pangilia ukiyapangilia kujipangilia kukapangilia kuupangilia ukalipangilia unapangilia waliopangilia wapangilie
-77	4077	shemasi	shemasi mashemasi
-78	4078	kigugumizi	kigugumizi vigugumizi
-79	4079	undugu	undugu
-80	4080	pandana	pandana kupandana wakipandana hupandana yapandana vinavyopandana wanapandana wapandane yalivyopandana
-81	4081	lalia	lalia kulalia wanalalia atayalalia umelalia watakacholalia akilalia anayekilalia inayolalia tukilalia amemlalia anapolalia hulalia imelalia kujilalia kukilalia kuulalia kuyalalia limelalia tunalolalia tunayoilalia waliyolalia wanaolalia wasiwalalie zinalalia
-82	4082	udugu	udugu
-83	4083	parokia	parokia parokiani
-84	4084	ganzi	ganzi
-85	4085	chawa	chawa
-86	4086	mshororo	mshororo mishororo
-87	4087	msanifu	msanifu wasanifu
-88	4088	kafiri	makafiri kafiri
-89	4089	anthropolojia	anthropolojia
-90	4090	fura	fura kufura kimefura zilizofura hufura isiyofura ifure imefura usiofura yakifura zifure amefura iliyofura lifure wafure wamefura
-91	4091	uhodari	uhodari
-92	4092	uamsho	uamsho
-93	4093	rudiarudia	rudiarudia kurudiarudia kujirudiarudia hujirudiarudia yanayojirudiarudia kinachorudiarudia kuyarudiarudia linarudiarudia unaorudiarudia zinazojirudiarudia inajirudiarudia utajirudiarudia zinazorudiarudia anaporudiarudia atayarudiarudia ikijirudiarudia yaliyojirudiarudia zikijirudiarudia
-94	4094	mandari	mandari
-95	4095	uandikishaji	uandikishaji
-96	4096	mlanguzi	walanguzi mlanguzi
-97	4097	nywewa	nywewa kunywewa hunywewa inaponywewa ikinywewa inanywewa vinaponywewa zilizonywewa
-98	4098	marupurupu	marupurupu
-99	4099	panzi	panzi
-100	4100	uvutano	uvutano
+1	4001	safiria	safiria kusafiria wakisafiria tunasafiria walisafiria akisafiria nikisafiria aliyosafiria atakayosafiria inayosafiria tulilosafiria tumeshasafiria tunazosafiria
+2	4002	uhariri	uhariri
+3	4003	kibepari	kibepari
+4	4004	jibini	jibini
+5	4005	mtungi	mtungi mitungi mtungini
+6	4006	mwanaanthropolojia	wanaanthropolojia mwanaanthropolojia
+7	4007	wagiriki	wagiriki
+8	4008	ubovu	ubovu
+9	4009	muamala	miamala muamala
+10	4010	kunguni	kunguni
+11	4011	mzushi	wazushi mzushi
+12	4012	kopi	kopi hukopia kukopi alimkopi kilichokopiwa kukopiana mikopi
+13	4013	uelekeo	uelekeo
+14	4014	akiolojia	akiolojia
+15	4015	utenzi	utenzi tenzi
+16	4016	torosha	torosha kumtorosha kutorosha kutoroshwa walitoroshwa hutoroshwa akajitorosha aliyetoroshwa amemtorosha amtoroshe kuwatorosha akitorosha inatoroshwa wanatoroshwa alimtorosha alipotoroshwa ametoroshwa haitoroshwi ikitoroshwa itatoroshwa kutowatorosha unatorosha wakitorosha walipotoroshwa wameshatoroshwa wametoroshwa wanaotorosha wanatorosha yalitoroshwa yanatorosha yanatoroshwa yanayotoroshwa zikitoroshwa zinatoroshwa zinazotoroshwa
+17	4017	mjao	mjao
+18	4018	kapteni	kapteni makapteni
+19	4019	uavyaji	uavyaji
+20	4020	ufikiaji	ufikiaji
+21	4021	angaliana	angaliana kuangaliana mnaangaliana tuliangaliana tulipoangaliana inayoangaliana tunaangaliana wanaangaliana
+22	4022	ringa	usiringe anaringa kuringa ukiringa unaringa yameviringa kutoringa ringa inaringa ninaringa wanaringa
+23	4023	gumba	gumba ngumba wagumba
+24	4024	zakati	zakati zaka
+25	4025	mkosefu	mkosefu wakosefu
+26	4026	uchangamfu	uchangamfu
+27	4027	mkalimani	mkalimani wakalimani
+28	4028	bundi	bundi
+29	4029	mkeka	mkeka mikeka mkekani
+30	4030	ukahaba	ukahaba
+31	4031	kiima	kiimani kiima
+32	4032	soga	soga
+33	4033	usimbishaji	usimbishaji
+34	4034	balehe	kubalehe balehe umebalehe waliobalehe wamebalehe wakibalehe wanapobalehe anabalehe wanaobalehe
+35	4035	hangaisha	hangaisha inayokuhangaisha kukuhangaisha kunihangaisha umenihangaisha unanihangaisha kumhangaisha unaohangaisha kuhangaisha kujihangaisha kuhangaishwa alijihangaisha inayomhangaisha itahangaisha kilivyomhangaisha linawahangaisha tunahangaishwa ulihangaisha wanahangaishwa wanaojihangaisha wanavyojihangaisha wasingemhangaisha wasiwahangaishe yanayoihangaisha yanayowahangaisha
+36	4036	gwiji	gwiji magwiji
+37	4037	gia	gia
+38	4038	msumari	msumari misumari
+39	4039	asteroidi	asteroidi
+40	4040	mtiifu	watiifu mtiifu
+41	4041	dayosisi	dayosisi
+42	4042	hoi	hoi
+43	4043	tozo	tozo
+44	4044	nakshi	nakshi zilizonakshiwa hakulinakshi iliyonakshiwa kuinakshi nakshiwa vilivyonakshiwa yaliyonakshiwa
+45	4045	jumamosi	jumamosi
+46	4046	mhasibu	mhasibu wahasibu
+47	4047	heroini	heroini
+48	4048	uchokozi	uchokozi
+49	4049	mzuka	mzuka mizuka
+50	4050	fuwele	fuwele
+51	4051	zege	zege
+52	4052	mbia	mbia wabia
+53	4053	aloi	aloi
+54	4054	kikuku	vikuku kikuku
+55	4055	mshonaji	mshonaji washonaji
+56	4056	tauni	tauni
+57	4057	ushabiki	ushabiki
+58	4058	kilatini	kilatini
+59	4059	rada	rada
+60	4060	kuki	kuki
+61	4061	fleti	fleti
+62	4062	mwajiriwa	mwajiriwa
+63	4063	kilindi	vilindi kilindini kilindi vilindini
+64	4064	tuni	tuni
+65	4065	rumande	rumande
+66	4066	kipeo	kipeo vipeo
+67	4067	taabika	nilitaabika wakitaabika nataabika kutaabika wanataabika wanaotaabika hutaabika inataabika ametaabika anayetaabika asingelitaabika inavyotaabika taabika tukitaabika utaabike wametaabika wasitaabike watataabika
+68	4068	stika	stika
+69	4069	lumba	lumba kulumbana wanaolumbana akalumbana wakilumbana walilumbana walumbana analumbana kulumba tunalumbana vinavyolumbana walumbane wanalumbana wanavyolumbana yanayolumbana zikilumbana zinazolumbana
+70	4070	unabii	unabii
+71	4071	uyoga	uyoga
+72	4072	unyonyaji	unyonyaji
+73	4073	upunguzaji	upunguzaji
+74	4074	nungunungu	nungu nungunungu
+75	4075	pangilia	kupangilia kuzipangilia nisipoyapangilia tupangilie hupangilia alipangilia pangilia ukiyapangilia kujipangilia kukapangilia kuupangilia ukalipangilia unapangilia waliopangilia wapangilie
+76	4076	shemasi	shemasi mashemasi
+77	4077	kigugumizi	kigugumizi vigugumizi
+78	4078	undugu	undugu
+79	4079	pandana	pandana kupandana wakipandana hupandana yapandana vinavyopandana wanapandana wapandane yalivyopandana
+80	4080	lalia	lalia kulalia wanalalia atayalalia umelalia watakacholalia akilalia anayekilalia inayolalia tukilalia amemlalia anapolalia hulalia imelalia kujilalia kukilalia kuulalia kuyalalia limelalia tunalolalia tunayoilalia waliyolalia wanaolalia wasiwalalie zinalalia
+81	4081	udugu	udugu
+82	4082	parokia	parokia parokiani
+83	4083	ganzi	ganzi
+84	4084	chawa	chawa
+85	4085	mshororo	mshororo mishororo
+86	4086	msanifu	msanifu wasanifu
+87	4087	kafiri	makafiri kafiri
+88	4088	anthropolojia	anthropolojia
+89	4089	fura	fura kufura kimefura zilizofura hufura isiyofura ifure imefura usiofura yakifura zifure amefura iliyofura lifure wafure wamefura
+90	4090	uhodari	uhodari
+91	4091	uamsho	uamsho
+92	4092	rudiarudia	rudiarudia kurudiarudia kujirudiarudia hujirudiarudia yanayojirudiarudia kinachorudiarudia kuyarudiarudia linarudiarudia unaorudiarudia zinazojirudiarudia inajirudiarudia utajirudiarudia zinazorudiarudia anaporudiarudia atayarudiarudia ikijirudiarudia yaliyojirudiarudia zikijirudiarudia
+93	4093	mandari	mandari
+94	4094	uandikishaji	uandikishaji
+95	4095	mlanguzi	walanguzi mlanguzi
+96	4096	nywewa	nywewa kunywewa hunywewa inaponywewa ikinywewa inanywewa vinaponywewa zilizonywewa
+97	4097	marupurupu	marupurupu
+98	4098	panzi	panzi
+99	4099	uvutano	uvutano
+100	4100	mvivu	wavivu mvivu

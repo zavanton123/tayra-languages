@@ -1,100 +1,100 @@
-1	6001	uwingu	uwingu
-2	6002	afua	afua
-3	6003	aridhia	waridhie aridhia
-4	6004	dokoa	kudokoa dokoa hakudokoa nitadokoa
-5	6005	katekesi	katekesi
-6	6006	kenge	kenge
-7	6007	kosha	kosha kujikosha alimkosha amenikosha amewakosha hakijaukosha kinachomkosha nilipokoshwa yametukosha
-8	6008	mkarafuu	mikarafuu mkarafuu
-9	6009	mkiukaji	wakiukaji mkiukaji
-10	6010	mlungula	mlungula
-11	6011	palia	palia kupaliliwa unaopaliliwa anapalia kilimpalia wanaopaliliwa yanayopaliliwa
-12	6012	perege	perege
-13	6013	udalali	udalali
-14	6014	ustaa	ustaa
-15	6015	utaifishaji	utaifishaji
-16	6016	uwele	uwele mawele
-17	6017	mtafsiri	mtafsiri watafsiri
-18	6018	gatua	kugatua yamegatuliwa gatua
-19	6019	abiri	kuabiri abiri aabiri wameabiri
-20	6020	azizi	azizi
-21	6021	boroni	boroni
-22	6022	botania	botania
-23	6023	finyo	finyo mafinyo
-24	6024	karidhi	akaridhika akaridhia karidhika karidhi
-25	6025	kiafrikaans	kiafrikaans
-26	6026	kiebrania	kiebrania
-27	6027	kinyota	kinyota
-28	6028	lialia	lialia kulialia analialia atalialia
-29	6029	matapishi	matapishi
-30	6030	mauzauza	mauzauza
-31	6031	rejesta	rejesta
-32	6032	shua	washua shua hakuwashui shue zinazoshulika
-33	6033	tobo	matobo tobo
-34	6034	uharamu	uharamu
-35	6035	ukiri	ukiri
-36	6036	fichama	fichama kufichama limefichama wakafichama
-37	6037	mshirikina	mshirikina washirikina
-38	6038	atomiki	atomiki
-39	6039	bendeji	bendeji
-40	6040	dohani	dohani
-41	6041	eda	eda
-42	6042	italiki	italiki
-43	6043	kemboi	kemboi
-44	6044	kisirani	kisirani
-45	6045	kiwi	kiwi
-46	6046	lengelenge	lengelenge
-47	6047	malalo	malalo
-48	6048	maongozi	maongozi
-49	6049	mbini	mbini
-50	6050	neoni	neoni
-51	6051	rekebu	rekebu kurekebu kujirekebu
-52	6052	ridhimu	ridhimu
-53	6053	samakigamba	samakigamba
-54	6054	shombo	shombo
-55	6055	ujumlishaji	ujumlishaji
-56	6056	umakanika	umakanika
-57	6057	umilisi	umilisi
-58	6058	unyoaji	unyoaji
-59	6059	upondaji	upondaji
-60	6060	apostrofi	apostrofi
-61	6061	hasidi	hasidi mahasidi
-62	6062	josho	josho majosho
-63	6063	karai	karai makarai
-64	6064	mmisri	mmisri
-65	6065	mwambata	mwambata
-66	6066	mwanamageuzi	mwanamageuzi wanamageuzi
-67	6067	ngisi	ngisi
-68	6068	nyau	nyau
-69	6069	shufaa	shufaa
-70	6070	uelimishaji	uelimishaji
-71	6071	ufuska	ufuska
-72	6072	ukodishaji	ukodishaji
-73	6073	usahaulifu	usahaulifu
-74	6074	ushemasi	ushemasi
-75	6075	uzandiki	uzandiki
-76	6076	lofa	malofa lofa
-77	6077	shajiisha	shajiisha kushajiisha aliwashajiisha inashajiisha kuwashajiisha linashajiishwa zilishajiishwa
-78	6078	shikama	shikama mshikamamo kushikama zilizoshikama mshikamao
-79	6079	mponda	mponda waponda
-80	6080	mfawidhi	mfawidhi wafawidhi
-81	6081	download	download kudownload
-82	6082	floridi	floridi
-83	6083	kalunguyeye	kalunguyeye
-84	6084	kombania	kombania
-85	6085	kuro	kuro
-86	6086	manju	manju
-87	6087	metorolojia	metorolojia
-88	6088	mganda	mganda
-89	6089	mimbari	mimbari
-90	6090	mkatoliki	mkatoliki
-91	6091	msukuma	msukuma
-92	6092	mtindi	mtindi
-93	6093	mvujo	mvujo
-94	6094	oti	oti
-95	6095	pofu	pofu
-96	6096	salfa	salfa
-97	6097	uakifishaji	uakifishaji
-98	6098	uchanganyaji	uchanganyaji
-99	6099	utanashati	utanashati
-100	6100	chuuza	chuuza kuchuuza alichuuza aliyemchuuza kuwachuuza
+1	6001	katekesi	katekesi
+2	6002	kenge	kenge
+3	6003	kosha	kosha kujikosha alimkosha amenikosha amewakosha hakijaukosha kinachomkosha nilipokoshwa yametukosha
+4	6004	mkarafuu	mikarafuu mkarafuu
+5	6005	mkiukaji	wakiukaji mkiukaji
+6	6006	mlungula	mlungula
+7	6007	palia	palia kupaliliwa unaopaliliwa anapalia kilimpalia wanaopaliliwa yanayopaliliwa
+8	6008	perege	perege
+9	6009	udalali	udalali
+10	6010	ustaa	ustaa
+11	6011	utaifishaji	utaifishaji
+12	6012	uwele	uwele mawele
+13	6013	mtafsiri	mtafsiri watafsiri
+14	6014	gatua	kugatua yamegatuliwa gatua
+15	6015	abiri	kuabiri abiri aabiri wameabiri
+16	6016	azizi	azizi
+17	6017	boroni	boroni
+18	6018	botania	botania
+19	6019	finyo	finyo mafinyo
+20	6020	karidhi	akaridhika akaridhia karidhika karidhi
+21	6021	kiafrikaans	kiafrikaans
+22	6022	kiebrania	kiebrania
+23	6023	kinyota	kinyota
+24	6024	lialia	lialia kulialia analialia atalialia
+25	6025	matapishi	matapishi
+26	6026	mauzauza	mauzauza
+27	6027	rejesta	rejesta
+28	6028	shua	washua shua hakuwashui shue zinazoshulika
+29	6029	tobo	matobo tobo
+30	6030	uharamu	uharamu
+31	6031	ukiri	ukiri
+32	6032	fichama	fichama kufichama limefichama wakafichama
+33	6033	mshirikina	mshirikina washirikina
+34	6034	atomiki	atomiki
+35	6035	bendeji	bendeji
+36	6036	dohani	dohani
+37	6037	eda	eda
+38	6038	italiki	italiki
+39	6039	kemboi	kemboi
+40	6040	kisirani	kisirani
+41	6041	kiwi	kiwi
+42	6042	lengelenge	lengelenge
+43	6043	malalo	malalo
+44	6044	maongozi	maongozi
+45	6045	mbini	mbini
+46	6046	neoni	neoni
+47	6047	rekebu	rekebu kurekebu kujirekebu
+48	6048	ridhimu	ridhimu
+49	6049	samakigamba	samakigamba
+50	6050	shombo	shombo
+51	6051	ujumlishaji	ujumlishaji
+52	6052	umakanika	umakanika
+53	6053	umilisi	umilisi
+54	6054	unyoaji	unyoaji
+55	6055	upondaji	upondaji
+56	6056	apostrofi	apostrofi
+57	6057	hasidi	hasidi mahasidi
+58	6058	josho	josho majosho
+59	6059	karai	karai makarai
+60	6060	mmisri	mmisri
+61	6061	mwambata	mwambata
+62	6062	mwanamageuzi	mwanamageuzi wanamageuzi
+63	6063	ngisi	ngisi
+64	6064	nyau	nyau
+65	6065	shufaa	shufaa
+66	6066	uelimishaji	uelimishaji
+67	6067	ufuska	ufuska
+68	6068	ukodishaji	ukodishaji
+69	6069	usahaulifu	usahaulifu
+70	6070	ushemasi	ushemasi
+71	6071	uzandiki	uzandiki
+72	6072	lofa	malofa lofa
+73	6073	shajiisha	shajiisha kushajiisha aliwashajiisha inashajiisha kuwashajiisha linashajiishwa zilishajiishwa
+74	6074	shikama	shikama mshikamamo kushikama zilizoshikama mshikamao
+75	6075	mponda	mponda waponda
+76	6076	mfawidhi	mfawidhi wafawidhi
+77	6077	download	download kudownload
+78	6078	floridi	floridi
+79	6079	kalunguyeye	kalunguyeye
+80	6080	kombania	kombania
+81	6081	kuro	kuro
+82	6082	manju	manju
+83	6083	metorolojia	metorolojia
+84	6084	mganda	mganda
+85	6085	mimbari	mimbari
+86	6086	mkatoliki	mkatoliki
+87	6087	msukuma	msukuma
+88	6088	mtindi	mtindi
+89	6089	mvujo	mvujo
+90	6090	oti	oti
+91	6091	pofu	pofu
+92	6092	salfa	salfa
+93	6093	uakifishaji	uakifishaji
+94	6094	uchanganyaji	uchanganyaji
+95	6095	utanashati	utanashati
+96	6096	chuuza	chuuza kuchuuza alichuuza aliyemchuuza kuwachuuza
+97	6097	ghafilika	kughafilika ghafilika imeghafilika
+98	6098	aproni	aproni
+99	6099	baobonye	baobonye
+100	6100	buba	buba

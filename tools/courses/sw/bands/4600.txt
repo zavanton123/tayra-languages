@@ -1,100 +1,100 @@
-1	4501	mkunjo	mikunjo mkunjo
-2	4502	fi	fi
-3	4503	chizi	chizi machizi
-4	4504	atibu	atibiwe watibiwe atibu watibike kimatibu kumatibu
-5	4505	mpini	mpini mipini
-6	4506	friji	friji
-7	4507	fu	wafu fu kufu vifu
-8	4508	uamilifu	uamilifu
-9	4509	nyusi	nyusi
-10	4510	mkopaji	mkopaji wakopaji
-11	4511	flamingo	flamingo
-12	4512	simiti	simiti sementi
-13	4513	turufu	turufu
-14	4514	ukorofi	ukorofi
-15	4515	muundaji	muundaji waundaji
-16	4516	maegesho	maegesho
-17	4517	mmarekani	mmarekani
-18	4518	koka	kokwa aliokoka waliokoka koka kikoke kuukoka wakoke
-19	4519	uvujaji	uvujaji
-20	4520	fyeka	fyeka kufyeka kufyekwa walifyekwa kulifyeka zilifyeka akafyekwa alifyekwa aliwafyeka ilifyeka kumfyeka tumefyeka wafyeka wakifyeka walifyeka yanayofyeka zilifyekwa
-21	4521	kisukuku	visukuku kisukuku
-22	4522	mlafi	walafi mlafi
-23	4523	mtumba	mitumba mtumba
-24	4524	chunusi	chunusi
-25	4525	tafakuri	tafakuri
-26	4526	ujasusi	ujasusi
-27	4527	mashada	mashada
-28	4528	joho	joho majoho
-29	4529	husuda	husuda
-30	4530	uanaume	uanaume
-31	4531	uchochoro	uchochoro chochoro uchochoroni
-32	4532	fidi	fidi kufidiwa kimefidiwa ifidiwe litafidiwa afidi afidiwe atakavyofidiwa hawajafidiwa hazijafidiwa hufidiwa itafidiwa wafidiwe wanafidiwa wanaofidiwa wangefidiwa yanafidiwa zinafidiwa zitafidiwa zitakazofidiwa
-33	4533	ombwe	ombwe
-34	4534	idi	idi
-35	4535	muumbaji	muumbaji waumbaji
-36	4536	fanaka	fanaka
-37	4537	dafu	dafu madafu
-38	4538	kakao	kakao
-39	4539	mkomunisti	wakomunisti mkomunisti
-40	4540	uchungaji	uchungaji
-41	4541	utoro	utoro
-42	4542	sharifu	kisharifu masharifu sharifu usharifu alisharifu washarifu
-43	4543	antena	antena
-44	4544	saizi	saizi
-45	4545	kadhi	kadhi
-46	4546	fungo	fungo mafungo mafungoni
-47	4547	doo	doo
-48	4548	kanganya	kanganya hukanganya kukukanganya kukanganya kukanganywa kujikanganya kumkanganya walijikanganya inajikanganya kinachokanganya ukiwakanganya yanakanganya yanayokanganya
-49	4549	liwali	liwali maliwali
-50	4550	mwali	mwali
-51	4551	rarua	rarua umerarua watakurarua kurarua kuwararua akararua kukirarua akararuliwa kuurarua aliirarua iliirarua ilipoirarua inavyoraruliwa kuirarua kuraruliwa nitamrarua wakirarua
-52	4552	jihadi	jihadi
-53	4553	povu	povu mapovu
-54	4554	jabali	jabali majabali
-55	4555	sinodi	sinodi
-56	4556	upekuzi	upekuzi
-57	4557	sinapsi	sinapsi
-58	4558	susa	susa kususa asusa waliosusa walisusa hususa ulisuswa kuwasusa alisusa amelisusa amesusa hawatawasusa kulisusa kuususa wakasusa wakisusa walimsusa wamekususa wamesusa wameususa wamevisusa wangesusa wasusa watamsusa watasusa
-59	4559	gawio	gawio magawio
-60	4560	hekaheka	hekaheka
-61	4561	chongoa	chongoa kilichochongoka yamechongoka yaliyochongoka uliochongoka anaichongoa lililochongoka mchongoanao zilizochongoka imechongoka iliyochongoka ilivyochongoka vilivyochongoka zimechongoka
-62	4562	dinari	dinari
-63	4563	janja	janja
-64	4564	uingiliaji	uingiliaji
-65	4565	diplomasia	diplomasia
-66	4566	uagizaji	uagizaji
-67	4567	kijerumani	kijerumani
-68	4568	ukavu	ukavu
-69	4569	chafya	chafya
-70	4570	ujirani	ujirani
-71	4571	soli	soli
-72	4572	gharika	gharika
-73	4573	kijicho	kijicho
-74	4574	upotezaji	upotezaji
-75	4575	hadidu	hadidu
-76	4576	siti	siti
-77	4577	mbabe	wababe mbabe
-78	4578	pomboo	pomboo
-79	4579	ufufuko	ufufuko
-80	4580	tukuka	uliotukuka kutukuka iliyotukuka tukuka anayetukuka waliotukuka zilizotukuka
-81	4581	mgomba	migomba mgomba migombani
-82	4582	dukua	dukua kudukua hawadukui ulimdukua umedukua inadukua tukidukuliwa
-83	4583	mamluki	mamluki
-84	4584	nahau	nahau
-85	4585	karagosi	karagosi makaragosi
-86	4586	koromeo	koromeo makoromeo
-87	4587	trela	trela matrela
-88	4588	usikilizaji	usikilizaji
-89	4589	teta	teta kuteta kinitete mtete wanamteta akiteta wanateta aliteta anayeteta anayewateta kitete kuitete kujitete kunateta kuwatete nikiteta niliteta utete wakiteta walimteta wanaoteta watete
-90	4590	mfinyanzi	mfinyanzi wafinyanzi
-91	4591	nguva	nguva
-92	4592	analojia	analojia
-93	4593	tuli	tuli
-94	4594	pupa	pupa
-95	4595	jumatatu	jumatatu
-96	4596	kabrasha	makabrasha kabrasha
-97	4597	sonona	kusononesha unakusononesha sonona atamsononesha kukusononesha imewasononesha inanisononesha inasononesha inawasononesha kikamsononesha kinachonisononesha kujisononesha kulikotusononesha kulisononesha kuwasononesha limetusononesha wasononesha
-98	4598	mtapo	mitapo mtapo
-99	4599	kibeti	kibeti vibeti
-100	4600	nikafungua	nikafungua
+1	4501	chizi	chizi machizi
+2	4502	atibu	atibiwe watibiwe atibu watibike kimatibu kumatibu
+3	4503	mpini	mpini mipini
+4	4504	friji	friji
+5	4505	fu	wafu fu kufu vifu
+6	4506	uamilifu	uamilifu
+7	4507	nyusi	nyusi
+8	4508	mkopaji	mkopaji wakopaji
+9	4509	flamingo	flamingo
+10	4510	simiti	simiti sementi
+11	4511	turufu	turufu
+12	4512	ukorofi	ukorofi
+13	4513	muundaji	muundaji waundaji
+14	4514	maegesho	maegesho
+15	4515	mmarekani	mmarekani
+16	4516	koka	kokwa aliokoka waliokoka koka kikoke kuukoka wakoke
+17	4517	uvujaji	uvujaji
+18	4518	fyeka	fyeka kufyeka kufyekwa walifyekwa kulifyeka zilifyeka akafyekwa alifyekwa aliwafyeka ilifyeka kumfyeka tumefyeka wafyeka wakifyeka walifyeka yanayofyeka zilifyekwa
+19	4519	kisukuku	visukuku kisukuku
+20	4520	mlafi	walafi mlafi
+21	4521	mtumba	mitumba mtumba
+22	4522	chunusi	chunusi
+23	4523	tafakuri	tafakuri
+24	4524	ujasusi	ujasusi
+25	4525	mashada	mashada
+26	4526	joho	joho majoho
+27	4527	husuda	husuda
+28	4528	uanaume	uanaume
+29	4529	uchochoro	uchochoro chochoro uchochoroni
+30	4530	fidi	fidi kufidiwa kimefidiwa ifidiwe litafidiwa afidi afidiwe atakavyofidiwa hawajafidiwa hazijafidiwa hufidiwa itafidiwa wafidiwe wanafidiwa wanaofidiwa wangefidiwa yanafidiwa zinafidiwa zitafidiwa zitakazofidiwa
+31	4531	ombwe	ombwe
+32	4532	idi	idi
+33	4533	muumbaji	muumbaji waumbaji
+34	4534	fanaka	fanaka
+35	4535	dafu	dafu madafu
+36	4536	kakao	kakao
+37	4537	mkomunisti	wakomunisti mkomunisti
+38	4538	uchungaji	uchungaji
+39	4539	utoro	utoro
+40	4540	sharifu	kisharifu masharifu sharifu usharifu alisharifu washarifu
+41	4541	antena	antena
+42	4542	saizi	saizi
+43	4543	kadhi	kadhi
+44	4544	fungo	fungo mafungo mafungoni
+45	4545	doo	doo
+46	4546	kanganya	kanganya hukanganya kukukanganya kukanganya kukanganywa kujikanganya kumkanganya walijikanganya inajikanganya kinachokanganya ukiwakanganya yanakanganya yanayokanganya
+47	4547	liwali	liwali maliwali
+48	4548	mwali	mwali
+49	4549	rarua	rarua umerarua watakurarua kurarua kuwararua akararua kukirarua akararuliwa kuurarua aliirarua iliirarua ilipoirarua inavyoraruliwa kuirarua kuraruliwa nitamrarua wakirarua
+50	4550	jihadi	jihadi
+51	4551	povu	povu mapovu
+52	4552	jabali	jabali majabali
+53	4553	sinodi	sinodi
+54	4554	upekuzi	upekuzi
+55	4555	sinapsi	sinapsi
+56	4556	susa	susa kususa asusa waliosusa walisusa hususa ulisuswa kuwasusa alisusa amelisusa amesusa hawatawasusa kulisusa kuususa wakasusa wakisusa walimsusa wamekususa wamesusa wameususa wamevisusa wangesusa wasusa watamsusa watasusa
+57	4557	gawio	gawio magawio
+58	4558	hekaheka	hekaheka
+59	4559	chongoa	chongoa kilichochongoka yamechongoka yaliyochongoka uliochongoka anaichongoa lililochongoka mchongoanao zilizochongoka imechongoka iliyochongoka ilivyochongoka vilivyochongoka zimechongoka
+60	4560	dinari	dinari
+61	4561	janja	janja
+62	4562	uingiliaji	uingiliaji
+63	4563	diplomasia	diplomasia
+64	4564	uagizaji	uagizaji
+65	4565	kijerumani	kijerumani
+66	4566	ukavu	ukavu
+67	4567	chafya	chafya
+68	4568	ujirani	ujirani
+69	4569	soli	soli
+70	4570	gharika	gharika
+71	4571	kijicho	kijicho
+72	4572	upotezaji	upotezaji
+73	4573	hadidu	hadidu
+74	4574	siti	siti
+75	4575	mbabe	wababe mbabe
+76	4576	pomboo	pomboo
+77	4577	ufufuko	ufufuko
+78	4578	tukuka	uliotukuka kutukuka iliyotukuka tukuka anayetukuka waliotukuka zilizotukuka
+79	4579	mgomba	migomba mgomba migombani
+80	4580	dukua	dukua kudukua hawadukui ulimdukua umedukua inadukua tukidukuliwa
+81	4581	mamluki	mamluki
+82	4582	nahau	nahau
+83	4583	karagosi	karagosi makaragosi
+84	4584	koromeo	koromeo makoromeo
+85	4585	trela	trela matrela
+86	4586	usikilizaji	usikilizaji
+87	4587	teta	teta kuteta kinitete mtete wanamteta akiteta wanateta aliteta anayeteta anayewateta kitete kuitete kujitete kunateta kuwatete nikiteta niliteta utete wakiteta walimteta wanaoteta watete
+88	4588	mfinyanzi	mfinyanzi wafinyanzi
+89	4589	nguva	nguva
+90	4590	analojia	analojia
+91	4591	tuli	tuli
+92	4592	pupa	pupa
+93	4593	jumatatu	jumatatu
+94	4594	kabrasha	makabrasha kabrasha
+95	4595	sonona	kusononesha unakusononesha sonona atamsononesha kukusononesha imewasononesha inanisononesha inasononesha inawasononesha kikamsononesha kinachonisononesha kujisononesha kulikotusononesha kulisononesha kuwasononesha limetusononesha wasononesha
+96	4596	mtapo	mitapo mtapo
+97	4597	kibeti	kibeti vibeti
+98	4598	wafaransa	wafaransa
+99	4599	ndoano	ndoano ndoana
+100	4600	chuna	kuchuna akamchuna kuchunwa huchuna anamchuna chune kumchuna michunao akimchuna chuna ilipochunwa inachunwa kukuchuna kuyachuna linachuna tuuchune tuwachune walichuna yaliyochunwa

@@ -1,100 +1,100 @@
-1	4301	kikatoliki	kikatoliki
-2	4302	kunde	kunde
-3	4303	kamasi	kamasi makamasi
-4	4304	saumu	saumu
-5	4305	popo	popo
-6	4306	punga	punga kupunga akipunga tutapunga pungua wakipunga wakivipunga wanapunga
-7	4307	maksi	maksi
-8	4308	mbakaji	mbakaji wabakaji
-9	4309	mwia	wiani mwia
-10	4310	balbu	balbu
-11	4311	nazi	nazi
-12	4312	bilauri	bilauri
-13	4313	platinamu	platinamu
-14	4314	taulo	taulo
-15	4315	siagi	siagi
-16	4316	uvunaji	uvunaji
-17	4317	mango	mango
-18	4318	lozi	lozi
-19	4319	ufuasi	ufuasi
-20	4320	usuluhishi	usuluhishi
-21	4321	kibuyu	kibuyu vibuyu
-22	4322	mavi	mavi
-23	4323	mwanakemia	wanakemia mwanakemia
-24	4324	uwaziri	uwaziri
-25	4325	chimbua	chimbua kuchimbua kuchimbuliwa uliochimbuka ilichimbuka vimechimbuka huchimbua huchimbuka chimbueni chimbuliwa inachimbuliwa kulichimbua linachimbuka tunavyochimbua ulichimbua unachimbuka vilichimbua watachimbua
-26	4326	kochi	kochi makochi
-27	4327	ng'arisha	ng'arisha itang'arisha kinachong'arisha uliong'arishwa kung'arisha kung'arishwa iliyong'arishwa kuing'arisha aing'arisha aliing'arisha iling'arishwa kujing'arisha kutaing'arisha kuzing'arisha uliomng'arisha waking'arisha wamening'arisha yaing'arisha
-28	4328	kichina	kichina
-29	4329	chwa	chwa kuchwea kuchwa wakawachwa uchwao limekuchwa aliwachwa wachwa wamekuchwa imechwa uchwapo achwe kukichwa kunakuchwa kunapokuchwa limechwea nikichwa niliwachwa vimewachwa waliochwa achwa
-30	4330	finya	finya finyeni ifinye likifinywa kufinywa kufinya inapofinywa kuifinya umefinywa kumfinya akifinywa hakufinywa kuwafinya tulifinywa twafinywa wakafinya yamefinywa
-31	4331	nyoofu	nyofu nyoofu mnyoofu wanyoofu
-32	4332	uchanganuzi	uchanganuzi
-33	4333	udevu	udevu ndevu
-34	4334	konde	makonde konde makondeni
-35	4335	chungwa	chungwa
-36	4336	kame	kame
-37	4337	marumaru	marumaru
-38	4338	mgambo	mgambo migambo
-39	4339	nasaha	nasaha
-40	4340	vuli	vuli
-41	4341	mhamahamaji	mhamahamaji wahamahamaji
-42	4342	kitoweo	kitoweo vitoweo
-43	4343	uendelevu	uendelevu
-44	4344	bahasha	bahasha
-45	4345	zirai	zirai kuzirai angezirai nitazirai usizirai alizirai walizirai
-46	4346	bofya	bofya kubofya anabofya libofye nabofya ninabofya utakapoibofya waliibofya wanaobofya
-47	4347	uigaji	uigaji
-48	4348	hasiri	hasiri wahasiriwa kuhasiri
-49	4349	skrubu	skrubu skurubu sukurubu
-50	4350	mtunza	mtunza watunza
-51	4351	tapo	tapo matapo
-52	4352	husudu	husudu haujihusudu kunihusudu unajihusudu anamhusudu akihusudu alivyohusudiwa anavyovihusudu anayemhusudu kumhusudu akamhusudu anahusudu anavyohusudu anayemuhusudu anayoihusudu haihusudu hawamhusudu inayohusudiwa kihusudu kukihusudu kuwahusudu linalohusudiwa mnaohusudu naihusudu ninayemhusudu simhusudu walihusudu waliomhusudu wanahusudu wanaomhusudu
-53	4353	udaku	udaku
-54	4354	kodishwa	kodishwa kukodishwa iliyokodishwa lililokodishwa alipokodishwa ulikodishwa zinazokodishwa ilikodishwa yanayokodishwa yasiyokodishwa zimekodishwa hukodishwa waliokodishwa aliyekodishwa ilipokodishwa kinakodishwa lilikodishwa limekodishwa yanakodishwa yatakodishwa zilikodishwa zilizokodishwa
-55	4355	nitrojeni	nitrojeni naitrojeni
-56	4356	temea	temea akatemea alinitemea alitemea kumtemea usinitemee kinachojitemea aitemea kukutemea kuwatemea
-57	4357	ibilisi	ibilisi
-58	4358	pasaka	pasaka
-59	4359	uandaaji	uandaaji
-60	4360	silinda	silinda
-61	4361	funda	funda kuwafunda kufundwa akiwafunda atafundwa iwafunde ninalokufunda inawafunda kumfunda mmefundwa nilichofundwa walikofundwa wawafunde yamefundwa yawafunda
-62	4362	mwanabiolojia	wanabiolojia mwanabiolojia
-63	4363	mithali	mithali
-64	4364	rafadha	rafadha
-65	4365	zagaa	kuzagaa zilizozagaa zimezagaa waliozagaa zilizagaa zinazagaa ikizagaa iliyozagaa lililozagaa ukazagaa unaozagaa vikizagaa vilivyozagaa wakizagaa wamezagaa watazagaa yaliyozagaa yamezagaa yanazagaa zagaa
-66	4366	kijasumu	vijasumu kijasumu
-67	4367	godoro	magodoro godoro
-68	4368	machweo	machweo
-69	4369	mwehu	mwehu
-70	4370	chovu	mchovu wachovu kichovu chovu machovu
-71	4371	chubuko	chubuko michubuko
-72	4372	washenzi	washenzi
-73	4373	papasa	anapapasa nilipapasa nimpapase umpapase kupapasa anayepapasa alimpapasa akipapasa kupapaswa nipapaseni papasa upapase
-74	4374	kiyoyozi	kiyoyozi viyoyozi
-75	4375	uchongaji	uchongaji
-76	4376	kandarasi	kandarasi
-77	4377	dalali	madalali dalali
-78	4378	ganga	waganga kuganga tugange gangwe gange ganga wanaoganga hajigangi ugange
-79	4379	burura	burura anakuburuza kuwaburuza kuburuza inayoburuza kuiburuza kumburuza unaburuza wanaburuza inaburuza kujiburuza kutuburuza wataburuza watamburuza watawaburuza akituburuza akiwaburuza anamburuza ikiburuza ilibururwa kukiburuza kuliburuza kuviburuza likiuburuza wakiiburuza walipowaburuza wanakotuburuza wanaotuburuza watatuburuza waziburuza zinazoburuza
-80	4380	mbilikimo	mbilikimo
-81	4381	uuguzi	uuguzi
-82	4382	akala	akala
-83	4383	boriti	boriti maboriti
-84	4384	fahali	fahali mafahali
-85	4385	miba	miba
-86	4386	katazo	katazo makatazo
-87	4387	krosi	krosi
-88	4388	shari	shari
-89	4389	stendi	stendi
-90	4390	luteni	luteni maluteni
-91	4391	katani	katani kitani
-92	4392	uuaji	uuaji
-93	4393	dua	dua
-94	4394	mchoyo	mchoyo wachoyo
-95	4395	mtawaliwa	watawaliwa mtawaliwa
-96	4396	pangusa	kupangusa kuipangusa kumpangusa tuliyapangusa lipanguswe kuzipangusa pangusa kujipangusa napangusa
-97	4397	sintetiki	sintetiki
-98	4398	handaki	handaki mahandaki handakini
-99	4399	kimwana	kimwana vimwana
-100	4400	ioni	ioni
+1	4301	kamasi	kamasi makamasi
+2	4302	saumu	saumu
+3	4303	popo	popo
+4	4304	punga	punga kupunga akipunga tutapunga pungua wakipunga wakivipunga wanapunga
+5	4305	maksi	maksi
+6	4306	mbakaji	mbakaji wabakaji
+7	4307	mwia	wiani mwia
+8	4308	balbu	balbu
+9	4309	nazi	nazi
+10	4310	bilauri	bilauri
+11	4311	platinamu	platinamu
+12	4312	taulo	taulo
+13	4313	siagi	siagi
+14	4314	uvunaji	uvunaji
+15	4315	mango	mango
+16	4316	lozi	lozi
+17	4317	ufuasi	ufuasi
+18	4318	usuluhishi	usuluhishi
+19	4319	kibuyu	kibuyu vibuyu
+20	4320	mavi	mavi
+21	4321	mwanakemia	wanakemia mwanakemia
+22	4322	uwaziri	uwaziri
+23	4323	chimbua	chimbua kuchimbua kuchimbuliwa uliochimbuka ilichimbuka vimechimbuka huchimbua huchimbuka chimbueni chimbuliwa inachimbuliwa kulichimbua linachimbuka tunavyochimbua ulichimbua unachimbuka vilichimbua watachimbua
+24	4324	kochi	kochi makochi
+25	4325	ng'arisha	ng'arisha itang'arisha kinachong'arisha uliong'arishwa kung'arisha kung'arishwa iliyong'arishwa kuing'arisha aing'arisha aliing'arisha iling'arishwa kujing'arisha kutaing'arisha kuzing'arisha uliomng'arisha waking'arisha wamening'arisha yaing'arisha
+26	4326	kichina	kichina
+27	4327	chwa	chwa kuchwea kuchwa wakawachwa uchwao limekuchwa aliwachwa wachwa wamekuchwa imechwa uchwapo achwe kukichwa kunakuchwa kunapokuchwa limechwea nikichwa niliwachwa vimewachwa waliochwa achwa
+28	4328	finya	finya finyeni ifinye likifinywa kufinywa kufinya inapofinywa kuifinya umefinywa kumfinya akifinywa hakufinywa kuwafinya tulifinywa twafinywa wakafinya yamefinywa
+29	4329	nyoofu	nyofu nyoofu mnyoofu wanyoofu
+30	4330	uchanganuzi	uchanganuzi
+31	4331	udevu	udevu ndevu
+32	4332	konde	makonde konde makondeni
+33	4333	chungwa	chungwa
+34	4334	kame	kame
+35	4335	marumaru	marumaru
+36	4336	mgambo	mgambo migambo
+37	4337	nasaha	nasaha
+38	4338	vuli	vuli
+39	4339	mhamahamaji	mhamahamaji wahamahamaji
+40	4340	kitoweo	kitoweo vitoweo
+41	4341	uendelevu	uendelevu
+42	4342	bahasha	bahasha
+43	4343	zirai	zirai kuzirai angezirai nitazirai usizirai alizirai walizirai
+44	4344	bofya	bofya kubofya anabofya libofye nabofya ninabofya utakapoibofya waliibofya wanaobofya
+45	4345	uigaji	uigaji
+46	4346	hasiri	hasiri wahasiriwa kuhasiri
+47	4347	skrubu	skrubu skurubu sukurubu
+48	4348	mtunza	mtunza watunza
+49	4349	tapo	tapo matapo
+50	4350	husudu	husudu haujihusudu kunihusudu unajihusudu anamhusudu akihusudu alivyohusudiwa anavyovihusudu anayemhusudu kumhusudu akamhusudu anahusudu anavyohusudu anayemuhusudu anayoihusudu haihusudu hawamhusudu inayohusudiwa kihusudu kukihusudu kuwahusudu linalohusudiwa mnaohusudu naihusudu ninayemhusudu simhusudu walihusudu waliomhusudu wanahusudu wanaomhusudu
+51	4351	udaku	udaku
+52	4352	kodishwa	kodishwa kukodishwa iliyokodishwa lililokodishwa alipokodishwa ulikodishwa zinazokodishwa ilikodishwa yanayokodishwa yasiyokodishwa zimekodishwa hukodishwa waliokodishwa aliyekodishwa ilipokodishwa kinakodishwa lilikodishwa limekodishwa yanakodishwa yatakodishwa zilikodishwa zilizokodishwa
+53	4353	nitrojeni	nitrojeni naitrojeni
+54	4354	temea	temea akatemea alinitemea alitemea kumtemea usinitemee kinachojitemea aitemea kukutemea kuwatemea
+55	4355	ibilisi	ibilisi
+56	4356	pasaka	pasaka
+57	4357	uandaaji	uandaaji
+58	4358	silinda	silinda
+59	4359	funda	funda kuwafunda kufundwa akiwafunda atafundwa iwafunde ninalokufunda inawafunda kumfunda mmefundwa nilichofundwa walikofundwa wawafunde yamefundwa yawafunda
+60	4360	mwanabiolojia	wanabiolojia mwanabiolojia
+61	4361	mithali	mithali
+62	4362	rafadha	rafadha
+63	4363	zagaa	kuzagaa zilizozagaa zimezagaa waliozagaa zilizagaa zinazagaa ikizagaa iliyozagaa lililozagaa ukazagaa unaozagaa vikizagaa vilivyozagaa wakizagaa wamezagaa watazagaa yaliyozagaa yamezagaa yanazagaa zagaa
+64	4364	kijasumu	vijasumu kijasumu
+65	4365	godoro	magodoro godoro
+66	4366	machweo	machweo
+67	4367	mwehu	mwehu
+68	4368	chovu	mchovu wachovu kichovu chovu machovu
+69	4369	chubuko	chubuko michubuko
+70	4370	washenzi	washenzi
+71	4371	papasa	anapapasa nilipapasa nimpapase umpapase kupapasa anayepapasa alimpapasa akipapasa kupapaswa nipapaseni papasa upapase
+72	4372	kiyoyozi	kiyoyozi viyoyozi
+73	4373	uchongaji	uchongaji
+74	4374	kandarasi	kandarasi
+75	4375	dalali	madalali dalali
+76	4376	ganga	waganga kuganga tugange gangwe gange ganga wanaoganga hajigangi ugange
+77	4377	burura	burura anakuburuza kuwaburuza kuburuza inayoburuza kuiburuza kumburuza unaburuza wanaburuza inaburuza kujiburuza kutuburuza wataburuza watamburuza watawaburuza akituburuza akiwaburuza anamburuza ikiburuza ilibururwa kukiburuza kuliburuza kuviburuza likiuburuza wakiiburuza walipowaburuza wanakotuburuza wanaotuburuza watatuburuza waziburuza zinazoburuza
+78	4378	mbilikimo	mbilikimo
+79	4379	uuguzi	uuguzi
+80	4380	akala	akala
+81	4381	boriti	boriti maboriti
+82	4382	fahali	fahali mafahali
+83	4383	miba	miba
+84	4384	katazo	katazo makatazo
+85	4385	krosi	krosi
+86	4386	shari	shari
+87	4387	stendi	stendi
+88	4388	luteni	luteni maluteni
+89	4389	katani	katani kitani
+90	4390	uuaji	uuaji
+91	4391	dua	dua
+92	4392	mchoyo	mchoyo wachoyo
+93	4393	mtawaliwa	watawaliwa mtawaliwa
+94	4394	pangusa	kupangusa kuipangusa kumpangusa tuliyapangusa lipanguswe kuzipangusa pangusa kujipangusa napangusa
+95	4395	sintetiki	sintetiki
+96	4396	handaki	handaki mahandaki handakini
+97	4397	kimwana	kimwana vimwana
+98	4398	ioni	ioni
+99	4399	nyenyekea	kunyenyekea nyenyekea nimnyenyekee anamnyenyekesha kumnyenyekea mnyenyekeane hunyenyekea kujinyenyekea angewanyenyekea atamnyenyekea watakunyenyekea
+100	4400	tambuzi	tambuzi

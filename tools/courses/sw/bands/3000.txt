@@ -61,40 +61,40 @@
 61	2961	vitamini	vitamini
 62	2962	pingu	pingu
 63	2963	singizia	singizia kusingizia kukusingizia unanisingizia anamsingizia kumsingizia alimsingizia aliyemsingizia amemsingizia kunisingizia kuwasingizia wakisingizia kujisingizia akisingizia wanasingizia akasingizia wakijisingizia tusijisingizie husingizia ikisingizia alisingizie anasingizia anavyosingizia anawasingizia inavyosingizia kutusingizia msingizie msiwasingizie nimsingizie tunasingizia ukijisingizia unasingizia walisingizia wananisingizia wanaomsingizia
-64	2964	toboa	kutoboa kutoboka kutobolewa haijatoboa unatoboa hutobolewa kuyatoboa alitoboa kuitoboa hutoboa alitobolewa kujitoboa yalitobolewa zimetobolewa ametoboa kuutoboa waliotoboa hujitoboa watoboa inapotoboka inayotoboa umetobolewa wakatoboa akatoboa akitoboa ametobolewa anatoboa anatobolewa atoboa atoboe atoboke hatutatoboa ilipotoboka ilitoboa iliyotobolewa imetobolewa itobolewe kimetoboka kimetobolewa kumtoboa lililitoboa lililotoboka lililotobolewa limetoboa toboa tukatoboa uitoboe ulitobolewa wakitoboa wametobolewa wanaotoboa wanatoboa yalitoboa yaliyotobolewa yametoboka yatoboa zimetoboa zinatoboa
-65	2965	ubishi	ubishi
-66	2966	msururu	msururu misururu
-67	2967	ubavu	ubavu mbavu ubavuni mbavuni
-68	2968	mratibu	mratibu waratibu
-69	2969	dopamini	dopamini
-70	2970	ukaidi	ukaidi
-71	2971	banda	banda mabanda bandani mabandani
-72	2972	senti	senti
-73	2973	unywaji	unywaji
-74	2974	ekari	ekari eka
-75	2975	karani	karani makarani
-76	2976	mviringo	mviringo miviringo
-77	2977	biolojia	biolojia bayolojia baiolojia bailojia
-78	2978	nyangumi	nyangumi
-79	2979	filisi	filisi kufilisika ufilisike hufilisika amenifilisisha nimefilisika unaofilisika kufilisiwa kufilisi kuifilisi kumfilisi kuwafilisi wamefilisika aliyeifilisisha ikafilisiwa ingefilisika amefilisika imefilisika mufilisi waliofilisika akifilisika ikifilisika inafilisi watafilisika zitafilisika akafilisika alifilisika alivyofilisika aliyefilisika ameshafilisika hafilisiki ifilisike ikamfilisi iliyomfilisi inafilisiwa inapofilisika kifilisike kilifilisika kulifilisi kuvifilisi lilifilisika limefilisika vilifilisika wakifilisiwa walimfilisi waliovifilisi walivyofilisi walivyolifilisi wanafilisika wanaowafilisi yamefilisika zinafilisika ziwafilisi
-80	2980	kafara	kafara
-81	2981	bili	bili
-82	2982	zee	wazee zee kizee nzee vizee mizee mazee
-83	2983	gongana	gongana kugongana kiligongana zinapogongana liligongana aligongana iligongana zinagongana yaliyogongana akigongana akagongana halijagongana hazikugongana hugongana kuigonganisha waligongana yanayogongana vinagongana wakigongana wasigongane yanagongana yanapogongana anavyowagonganisha awagonganisha azigonganisha imegonganisha inagongana kuligongana likigongana lililogongana lilipogongana mkigonganisha uligongana unagongana vinapogongana wagongana wakiwagonganisha waliogongana wamegongana wanatugonganisha watagongana yakagongana yakigongana yalipogongana yamegongana ziligongana zilizogongana zimegongana zisigongane
-84	2984	zizi	zizi zizini mazizi
-85	2985	mdahalo	mdahalo midahalo
-86	2986	teksi	teksi taksi
-87	2987	divai	divai
-88	2988	ushuhuda	ushuhuda
-89	2989	chemchemi	chemchemi chemichemi
-90	2990	wodi	wodi wodini
-91	2991	khalifa	khalifa makhalifa
-92	2992	ujasiriamali	ujasiriamali
-93	2993	ulaya	ulaya
-94	2994	jani	jani
-95	2995	msukosuko	misukosuko msukosuko
-96	2996	piano	piano
-97	2997	angalifu	angalifu waangalifu kiangalifu kuangalifu
-98	2998	kidevu	kidevu
-99	2999	nauli	nauli
-100	3000	mteule	mteule wateule
+64	2964	umeshinda	umeshinda umeshindwa
+65	2965	toboa	kutoboa kutoboka kutobolewa haijatoboa unatoboa hutobolewa kuyatoboa alitoboa kuitoboa hutoboa alitobolewa kujitoboa yalitobolewa zimetobolewa ametoboa kuutoboa waliotoboa hujitoboa watoboa inapotoboka inayotoboa umetobolewa wakatoboa akatoboa akitoboa ametobolewa anatoboa anatobolewa atoboa atoboe atoboke hatutatoboa ilipotoboka ilitoboa iliyotobolewa imetobolewa itobolewe kimetoboka kimetobolewa kumtoboa lililitoboa lililotoboka lililotobolewa limetoboa toboa tukatoboa uitoboe ulitobolewa wakitoboa wametobolewa wanaotoboa wanatoboa yalitoboa yaliyotobolewa yametoboka yatoboa zimetoboa zinatoboa
+66	2966	ubishi	ubishi
+67	2967	msururu	msururu misururu
+68	2968	ubavu	ubavu mbavu ubavuni mbavuni
+69	2969	mratibu	mratibu waratibu
+70	2970	dopamini	dopamini
+71	2971	ukaidi	ukaidi
+72	2972	banda	banda mabanda bandani mabandani
+73	2973	senti	senti
+74	2974	unywaji	unywaji
+75	2975	ekari	ekari eka
+76	2976	karani	karani makarani
+77	2977	mviringo	mviringo miviringo
+78	2978	biolojia	biolojia bayolojia baiolojia bailojia
+79	2979	nyangumi	nyangumi
+80	2980	filisi	filisi kufilisika ufilisike hufilisika amenifilisisha nimefilisika unaofilisika kufilisiwa kufilisi kuifilisi kumfilisi kuwafilisi wamefilisika aliyeifilisisha ikafilisiwa ingefilisika amefilisika imefilisika mufilisi waliofilisika akifilisika ikifilisika inafilisi watafilisika zitafilisika akafilisika alifilisika alivyofilisika aliyefilisika ameshafilisika hafilisiki ifilisike ikamfilisi iliyomfilisi inafilisiwa inapofilisika kifilisike kilifilisika kulifilisi kuvifilisi lilifilisika limefilisika vilifilisika wakifilisiwa walimfilisi waliovifilisi walivyofilisi walivyolifilisi wanafilisika wanaowafilisi yamefilisika zinafilisika ziwafilisi
+81	2981	kafara	kafara
+82	2982	bili	bili
+83	2983	zee	wazee zee kizee nzee vizee mizee mazee
+84	2984	gongana	gongana kugongana kiligongana zinapogongana liligongana aligongana iligongana zinagongana yaliyogongana akigongana akagongana halijagongana hazikugongana hugongana kuigonganisha waligongana yanayogongana vinagongana wakigongana wasigongane yanagongana yanapogongana anavyowagonganisha awagonganisha azigonganisha imegonganisha inagongana kuligongana likigongana lililogongana lilipogongana mkigonganisha uligongana unagongana vinapogongana wagongana wakiwagonganisha waliogongana wamegongana wanatugonganisha watagongana yakagongana yakigongana yalipogongana yamegongana ziligongana zilizogongana zimegongana zisigongane
+85	2985	zizi	zizi zizini mazizi
+86	2986	mdahalo	mdahalo midahalo
+87	2987	teksi	teksi taksi
+88	2988	divai	divai
+89	2989	ushuhuda	ushuhuda
+90	2990	chemchemi	chemchemi chemichemi
+91	2991	wodi	wodi wodini
+92	2992	khalifa	khalifa makhalifa
+93	2993	ujasiriamali	ujasiriamali
+94	2994	ulaya	ulaya
+95	2995	jani	jani
+96	2996	msukosuko	misukosuko msukosuko
+97	2997	piano	piano
+98	2998	angalifu	angalifu waangalifu kiangalifu kuangalifu
+99	2999	kidevu	kidevu
+100	3000	nauli	nauli

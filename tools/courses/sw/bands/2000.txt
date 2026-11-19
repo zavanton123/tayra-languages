@@ -1,15 +1,15 @@
-1	1901	kashfa	kashfa kashifa
-2	1902	balozi	balozi mabalozi
-3	1903	hubiri	hubiri kuhubiri wahubiri akihubiri alihubiri kuwahubiri walihubiri nahubiri nimehubiri ninayohubiri ukahubiri utanihubiria yatahubiriwa wakahubiri wanahubiri wanaohubiri wakihubiri kuhubiria akahubiri kuwahubiria alipohubiri muhubiri inahubiri akihubiria hatuhubiri kumhubiria ukimhubiri wahubirie walichohubiri wasihubiri anachokihubiri akiwahubiri aliyoyahubiri anahubiriwa atawahubiri ihubiriwe itahubiriwa tuliyowahubiri waliohubiri wawahubirie zauhubiri anahubiri inayohubiriwa tunahubiri akiihubiri akiwahubiria alichohubiri alihubiriwa aliuhubiri aliyehubiri anawahubiri anawahubiria anayehubiri hubirini ikihubiri inayohubiri inazihubiri itahubiri kuhubiriwa kuihubiri kulihubiri kuyahubiri mkiwahubiria ninahubiri tuihubiri tukahubiri uliohubiriwa unavyomuhubiria uwahubiri wakiwahubiria walihubiriwa waliihubiri walikihubiri walipowahubiri waliwahubiria wanaouhubiri wanapohubiri wanavyokuhubiria watahubiri yalihubiri yanayohubiriwa
-4	1904	sanii	wasanii kisanii sanii kusanii kiusanii nawasanii
-5	1905	baka	kubakwa mabaka baka kumbaka kubaka kitabaka bake waliobakwa amebakwa wakibakwa kuwabaka alinibaka aliyenibaka atambaka kunibaka nilimbaka nimebakwa ulinibaka umebakwa unanibaka utabakwa alibakwa aliyebakwa hubaki wanabakwa alimbaka mbakweni walibakwa aliyembaka amembaka akibakwa wanaobaka anabakwa chambaka wamebakwa akimbaka ananibaka anayebaka kibakwe wabakwe wakiwabaka walimbaka wamembaka wanaobakwa wanapobakwa haubaki abakwe akabakwa ambakao ameshabaka anabaka anapobakwa asimbake hajabakwa hakubakwa inabakwa kuibaka walibaka waliombaka waliowabaka walipobakwa walivyobakwa waliwabaka wambake wamebaka wanabaka habaki haibaki haikubaki hakubaki hawabaki halikubaki haukubaki havikubaki hawakubaki hukubaki
-6	1906	lawama	lawama lawamani
-7	1907	milki	milki
-8	1908	umwa	kuumwa anaumwa unaumwa huumwa akiumwa naumwa aliyeumwa wakiumwa hawaumwi ameumwa niliumwa nimeumwa uliumwa utaumwa wataumwa wanaumwa anayeumwa akaumwa aumwaye mumwe niumwe ninaumwa ukiumwa atakapoumwa alipoumwa linaumwa nikiumwa aliumwa anaoumwa ataumwa hakuumwa haumwi umwa walioumwa wanaoumwa waumwe
-9	1909	nuru	nuru
-10	1910	mbuga	mbuga mbugani
-11	1911	taabu	taabu tabu taabuni tabuni
-12	1912	wamo	yumo wamo umo mo kuwamo vimo nimo waliokuwamo tumo huwa hawamo humo uwemo walikuwamo yaliyokuwamo kulimo iliyokuwamo kutokuwamo zilikuwamo alikuwamo haikuwamo hawakuwamo hayumo zilizokuwamo ilimo aliyekuwamo hakuwamo huwamo ilikuwamo kilichokuwamo walimo waliyokuwamo yalikuwamo zinazokuwamo anakuwamo awemo hatumo havikuwamo hayakuwamo kulikuwamo lilikuwamo mmo nilikuwamo niliyekuwamo niwemo tulikuwamo tuliyokuwamo uliokuwamo vimekuwamo wanaokuwamo watakaokuwamo watakuwamo wawemo ikiwamo wakiwamo akiwamo zikiwamo yakiwamo likiwamo ukiwamo vikiwamo kikiwamo awamo nikiwamo kukiwamo
+1	1901	robo	robo
+2	1902	kashfa	kashfa kashifa
+3	1903	balozi	balozi mabalozi
+4	1904	hubiri	hubiri kuhubiri wahubiri akihubiri alihubiri kuwahubiri walihubiri nahubiri nimehubiri ninayohubiri ukahubiri utanihubiria yatahubiriwa wakahubiri wanahubiri wanaohubiri wakihubiri kuhubiria akahubiri kuwahubiria alipohubiri muhubiri inahubiri akihubiria hatuhubiri kumhubiria ukimhubiri wahubirie walichohubiri wasihubiri anachokihubiri akiwahubiri aliyoyahubiri anahubiriwa atawahubiri ihubiriwe itahubiriwa tuliyowahubiri waliohubiri wawahubirie zauhubiri anahubiri inayohubiriwa tunahubiri akiihubiri akiwahubiria alichohubiri alihubiriwa aliuhubiri aliyehubiri anawahubiri anawahubiria anayehubiri hubirini ikihubiri inayohubiri inazihubiri itahubiri kuhubiriwa kuihubiri kulihubiri kuyahubiri mkiwahubiria ninahubiri tuihubiri tukahubiri uliohubiriwa unavyomuhubiria uwahubiri wakiwahubiria walihubiriwa waliihubiri walikihubiri walipowahubiri waliwahubiria wanaouhubiri wanapohubiri wanavyokuhubiria watahubiri yalihubiri yanayohubiriwa
+5	1905	sanii	wasanii kisanii sanii kusanii kiusanii nawasanii
+6	1906	baka	kubakwa mabaka baka kumbaka kubaka kitabaka bake waliobakwa amebakwa wakibakwa kuwabaka alinibaka aliyenibaka atambaka kunibaka nilimbaka nimebakwa ulinibaka umebakwa unanibaka utabakwa alibakwa aliyebakwa hubaki wanabakwa alimbaka mbakweni walibakwa aliyembaka amembaka akibakwa wanaobaka anabakwa chambaka wamebakwa akimbaka ananibaka anayebaka kibakwe wabakwe wakiwabaka walimbaka wamembaka wanaobakwa wanapobakwa haubaki abakwe akabakwa ambakao ameshabaka anabaka anapobakwa asimbake hajabakwa hakubakwa inabakwa kuibaka walibaka waliombaka waliowabaka walipobakwa walivyobakwa waliwabaka wambake wamebaka wanabaka habaki haibaki haikubaki hakubaki hawabaki halikubaki haukubaki havikubaki hawakubaki hukubaki
+7	1907	lawama	lawama lawamani
+8	1908	milki	milki
+9	1909	umwa	kuumwa anaumwa unaumwa huumwa akiumwa naumwa aliyeumwa wakiumwa hawaumwi ameumwa niliumwa nimeumwa uliumwa utaumwa wataumwa wanaumwa anayeumwa akaumwa aumwaye mumwe niumwe ninaumwa ukiumwa atakapoumwa alipoumwa linaumwa nikiumwa aliumwa anaoumwa ataumwa hakuumwa haumwi umwa walioumwa wanaoumwa waumwe
+10	1910	nuru	nuru
+11	1911	mbuga	mbuga mbugani
+12	1912	taabu	taabu tabu taabuni tabuni
 13	1913	mkate	mkate mikate mkateni
 14	1914	mchungaji	mchungaji wachungaji
 15	1915	maktaba	maktaba maktabani

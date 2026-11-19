@@ -1,100 +1,100 @@
-1	6201	mtufaha	mtufaa mtofaa mtufaha
-2	6202	naskia	wanaskia naskia
-3	6203	ngwini	ngwini
-4	6204	papasi	papasi
-5	6205	projekta	projekta
-6	6206	puna	puna pune kupuna
-7	6207	rambaza	rambaza kurambaza
-8	6208	sandarusi	sandarusi
-9	6209	sataranja	sataranja
-10	6210	sefu	sefu
-11	6211	subu	subu kusubu kiisubu
-12	6212	sukutua	sukutua husukutua kusukutua
-13	6213	tandala	tandala
-14	6214	tui	tui
-15	6215	uanagenzi	uanagenzi
-16	6216	ufu	ufu
-17	6217	ukapera	ukapera
-18	6218	ukoko	ukoko
-19	6219	urahisishaji	urahisishaji
-20	6220	utepetevu	utepetevu
-21	6221	vibiriti	vibiriti
-22	6222	zoolojia	zoolojia
-23	6223	chezeana	chezeana kuchezeana tunachezeana vilichezeana
-24	6224	damka	damka wakidamka alivyodamka hudamka kudamka nidamke
-25	6225	galawa	ngalawa galawa
-26	6226	guruneti	maguruneti guruneti
-27	6227	juha	majuha juha
-28	6228	koroboi	koroboi karabai
-29	6229	kutahini	kutahiniwa kutahini
-30	6230	mchapaji	wachapaji mchapaji
-31	6231	mkodishaji	mkodishaji wakodishaji
-32	6232	biogesi	biogesi
-33	6233	fofofo	fofofo
-34	6234	hatihati	hatihati
-35	6235	kaniki	kaniki
-36	6236	madaladala	madaladala
-37	6237	maige	maige
-38	6238	manati	manati
-39	6239	maranda	maranda
-40	6240	mchina	mchina
-41	6241	mdundiko	mdundiko
-42	6242	mrungi	mrungi mirungi
-43	6243	ndorobo	ndorobo
-44	6244	ng'o	ng'o
-45	6245	njemba	njemba
-46	6246	sufii	sufii
-47	6247	uchunaji	uchunaji
-48	6248	ufunguaji	ufunguaji
-49	6249	uletaji	uletaji
-50	6250	ulozi	ulozi
-51	6251	uvuguvugu	uvuguvugu
-52	6252	ahali	ahali
-53	6253	basha	basha
-54	6254	chaa	chaa
-55	6255	championi	machampioni championi
-56	6256	chenjua	chenjua kuchenjua
-57	6257	debi	debi
-58	6258	dhau	dhau
-59	6259	erevu	erevu vyerevu
-60	6260	fanyana	fanyana akifanyanayo kufanyanao
-61	6261	folda	folda
-62	6262	govi	govi
-63	6263	kanyagio	kanyagio
-64	6264	katekista	katekista makatekista
-65	6265	kema	kukema kema
-66	6266	keratini	keratini
-67	6267	kimongolia	kimongolia
-68	6268	kontinenti	kontinenti
-69	6269	kupri	kupri
-70	6270	kwaresima	kwaresima
-71	6271	maabadi	maabadi
-72	6272	matende	matende
-73	6273	mboo	mboo
-74	6274	mkatekumeni	mkatekumeni wakatekumeni
-75	6275	mlonge	mlonge mronge
-76	6276	mofolojia	mofolojia
-77	6277	msamba	msamba
-78	6278	pevua	pevua hupevua kupevusha
-79	6279	semantiki	semantiki
-80	6280	spinachi	spinachi
-81	6281	takriri	takriri
-82	6282	tashihisi	tashihisi
-83	6283	tatanisho	tatanisho matatanisho
-84	6284	titani	titani
-85	6285	tomasa	tomasa kutomasa alitomasa kutomaswa
-86	6286	udondoshaji	udondoshaji
-87	6287	udumishaji	udumishaji
-88	6288	ukimbiaji	ukimbiaji
-89	6289	ukopaji	ukopaji
-90	6290	urutubishaji	urutubishaji
-91	6291	utembeaji	utembeaji
-92	6292	utwana	utwana
-93	6293	uvuaji	uvuaji
-94	6294	kosefu	kosefu wakosefu
-95	6295	nyonge	kinyonge wanyonge nyonge
-96	6296	arafa	arafa
-97	6297	baiti	baiti
-98	6298	bambika	bambika kuwabambika alibambikwa kubambika wakibambikwa
-99	6299	bisibisi	bisibisi
-100	6300	bwata	bwata akibwata kubwata unabwata unayebwata walibwata
+1	6201	projekta	projekta
+2	6202	puna	puna pune kupuna
+3	6203	rambaza	rambaza kurambaza
+4	6204	sandarusi	sandarusi
+5	6205	sataranja	sataranja
+6	6206	sefu	sefu
+7	6207	subu	subu kusubu kiisubu
+8	6208	sukutua	sukutua husukutua kusukutua
+9	6209	tandala	tandala
+10	6210	tui	tui
+11	6211	uanagenzi	uanagenzi
+12	6212	ufu	ufu
+13	6213	ukapera	ukapera
+14	6214	ukoko	ukoko
+15	6215	urahisishaji	urahisishaji
+16	6216	utepetevu	utepetevu
+17	6217	vibiriti	vibiriti
+18	6218	zoolojia	zoolojia
+19	6219	chezeana	chezeana kuchezeana tunachezeana vilichezeana
+20	6220	damka	damka wakidamka alivyodamka hudamka kudamka nidamke
+21	6221	galawa	ngalawa galawa
+22	6222	guruneti	maguruneti guruneti
+23	6223	juha	majuha juha
+24	6224	koroboi	koroboi karabai
+25	6225	kutahini	kutahiniwa kutahini
+26	6226	mchapaji	wachapaji mchapaji
+27	6227	mkodishaji	mkodishaji wakodishaji
+28	6228	biogesi	biogesi
+29	6229	fofofo	fofofo
+30	6230	hatihati	hatihati
+31	6231	kaniki	kaniki
+32	6232	madaladala	madaladala
+33	6233	maige	maige
+34	6234	manati	manati
+35	6235	maranda	maranda
+36	6236	mchina	mchina
+37	6237	mdundiko	mdundiko
+38	6238	mrungi	mrungi mirungi
+39	6239	ndorobo	ndorobo
+40	6240	ng'o	ng'o
+41	6241	njemba	njemba
+42	6242	sufii	sufii
+43	6243	uchunaji	uchunaji
+44	6244	ufunguaji	ufunguaji
+45	6245	uletaji	uletaji
+46	6246	ulozi	ulozi
+47	6247	uvuguvugu	uvuguvugu
+48	6248	ahali	ahali
+49	6249	basha	basha
+50	6250	chaa	chaa
+51	6251	championi	machampioni championi
+52	6252	chenjua	chenjua kuchenjua
+53	6253	debi	debi
+54	6254	dhau	dhau
+55	6255	erevu	erevu vyerevu
+56	6256	fanyana	fanyana akifanyanayo kufanyanao
+57	6257	folda	folda
+58	6258	govi	govi
+59	6259	kanyagio	kanyagio
+60	6260	katekista	katekista makatekista
+61	6261	kema	kukema kema
+62	6262	keratini	keratini
+63	6263	kimongolia	kimongolia
+64	6264	kontinenti	kontinenti
+65	6265	kupri	kupri
+66	6266	kwaresima	kwaresima
+67	6267	maabadi	maabadi
+68	6268	matende	matende
+69	6269	mboo	mboo
+70	6270	mkatekumeni	mkatekumeni wakatekumeni
+71	6271	mlonge	mlonge mronge
+72	6272	mofolojia	mofolojia
+73	6273	msamba	msamba
+74	6274	pevua	pevua hupevua kupevusha
+75	6275	semantiki	semantiki
+76	6276	spinachi	spinachi
+77	6277	takriri	takriri
+78	6278	tashihisi	tashihisi
+79	6279	tatanisho	tatanisho matatanisho
+80	6280	titani	titani
+81	6281	tomasa	tomasa kutomasa alitomasa kutomaswa
+82	6282	udondoshaji	udondoshaji
+83	6283	udumishaji	udumishaji
+84	6284	ukimbiaji	ukimbiaji
+85	6285	ukopaji	ukopaji
+86	6286	urutubishaji	urutubishaji
+87	6287	utembeaji	utembeaji
+88	6288	utwana	utwana
+89	6289	uvuaji	uvuaji
+90	6290	kosefu	kosefu wakosefu
+91	6291	nyonge	kinyonge wanyonge nyonge
+92	6292	arafa	arafa
+93	6293	baiti	baiti
+94	6294	bambika	bambika kuwabambika alibambikwa kubambika wakibambikwa
+95	6295	bisibisi	bisibisi
+96	6296	bwata	bwata akibwata kubwata unabwata unayebwata walibwata
+97	6297	chubuka	chubuka iliyochubuka imechubuka kuchubuka mchubuke nilichubuka
+98	6298	drafti	drafti
+99	6299	droni	droni
+100	6300	ekumeni	ekumeni

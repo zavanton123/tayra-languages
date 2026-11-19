@@ -1,100 +1,100 @@
-1	5201	komandoo	makomandoo komandoo
-2	5202	lawiti	lawiti kumlawiti analawitiwa kuwalawiti anamlawiti akiwalawiti alilawiti aliyelawitiwa amewalawiti lawitiwa waliolawitiwa walipolawitiwa walivyolawitiwa wanaowalawiti walawiti
-3	5203	fumbata	kufumbata fumbata kuvifumbata kuyafumbata wakifumbatwa
-4	5204	dakiza	dakiza kudakiza akadakiza akamdakiza
-5	5205	umilikishaji	umilikishaji
-6	5206	maringo	maringo
-7	5207	ayari	ayari
-8	5208	hiba	hiba
-9	5209	lahani	lahani
-10	5210	kenda	kenda
-11	5211	urushaji	urushaji
-12	5212	pumba	pumba
-13	5213	fanicha	fanicha
-14	5214	mchongo	mchongo michongo
-15	5215	ujifunzaji	ujifunzaji
-16	5216	maakuli	maakuli
-17	5217	mfaransa	mfaransa
-18	5218	ahera	ahera akhera
-19	5219	dhahania	dhahania
-20	5220	findo	findo
-21	5221	mgusano	mgusano
-22	5222	uchapaji	uchapaji
-23	5223	umeng'enyaji	umeng'enyaji
-24	5224	tama	tama kitama
-25	5225	mporaji	mporaji waporaji
-26	5226	tingatinga	tingatinga
-27	5227	kokoto	kokoto
-28	5228	membe	membe
-29	5229	straika	straika mastraika
-30	5230	degedege	degedege
-31	5231	jemu	jemu
-32	5232	rijali	rijali
-33	5233	kituruki	kituruki
-34	5234	kasheshe	kasheshe
-35	5235	kicheche	kicheche vicheche
-36	5236	ukale	ukale
-37	5237	hamali	hamali mahamali
-38	5238	msusi	msusi wasusi
-39	5239	aorta	aorta
-40	5240	timazi	timazi
-41	5241	fulanifulani	fulanifulani
-42	5242	saladi	saladi
-43	5243	tuna	tuna tune wakatuna hutuna itune kutuna haituni inatuna itatuna kujituna tukutune
-44	5244	hilali	hilali
-45	5245	kirukanjia	virukanjia kirukanjia
-46	5246	wajapani	wajapani
-47	5247	pwaya	pwaya kupwaya alipwaya amepwaya ilipwaya inapwaya kimepwaya kinapwaya umepwaya vitampwaya yanapwaya apwaye
-48	5248	kaskazi	kaskazi
-49	5249	tepe	tepe
-50	5250	baunsa	mabaunsa baunsa
-51	5251	mitokondria	mitokondria
-52	5252	uainisho	uainisho
-53	5253	mtoano	mtoano
-54	5254	chuku	chuku
-55	5255	konstebo	konstebo
-56	5256	mchanyato	mchanyato michanyato
-57	5257	haidhuru	haidhuru
-58	5258	falaki	falaki
-59	5259	hidi	hidi kutahidi akahidi amehidi wanahidiwa wamehidi akihidi alihidi aliwahidi atajihidi
-60	5260	sipo	sipo asipo wasipo kusipo usipo nisipo zisipo
-61	5261	kigeugeu	kigeugeu vigeugeu
-62	5262	sulfuri	sulfuri
-63	5263	ukatibu	ukatibu
-64	5264	zebaki	zebaki
-65	5265	sahibu	masahibu sahibu
-66	5266	mdukuzi	wadukuzi mdukuzi
-67	5267	himidi	himidi umehimidiwa uhimidiwe limehimidiwa nitakuhimidi lihimidiwe ahimidiwe kuhimidi nakuhimidi twamhimidi
-68	5268	fosforasi	fosforasi fosiforasi
-69	5269	siki	siki
-70	5270	utegili	utegili
-71	5271	dibaji	dibaji
-72	5272	kitafunio	vitafunio kitafunio
-73	5273	propela	parapela propela
-74	5274	nikeli	nikeli
-75	5275	useremala	useremala
-76	5276	ania	lanie kuania kutaania kuwaania waania ania ilimuania kutamania
-77	5277	kafeini	kafeini kafeni
-78	5278	leba	leba
-79	5279	mtabiri	mtabiri watabiri
-80	5280	mlalamikiwa	mlalamikiwa walalamikiwa
-81	5281	soni	soni
-82	5282	mchapa	mchapa wachapa
-83	5283	kubughudhi	kubughudhiwa kubughudhi
-84	5284	nadhifu	nadhifu
-85	5285	ufujaji	ufujaji
-86	5286	upawa	upawa pawa
-87	5287	mluzi	miluzi mluzi mruzi
-88	5288	mwafrika	mwafrika
-89	5289	ukakasi	ukakasi
-90	5290	maizi	umaizi kumaizi maizi mmaizi msimaizi tunamaizi usimaizi wasimaizi
-91	5291	jeti	jeti
-92	5292	unyago	unyago unyagoni
-93	5293	karoti	karoti
-94	5294	madrasa	madrasa
-95	5295	chongea	chongea kuchongea anamchongea kuchongesha kuwachongea viwachongee akimchongea alimchongea iliyotuchongea kuichongea kumchongea nimechongewa tutawachongea wakajichongea
-96	5296	mlimwengu	mlimwengu walimwengu
-97	5297	suria	suria masuria
-98	5298	pishi	pishi
-99	5299	topografia	topografia
-100	5300	kigingi	vigingi kigingi
+1	5201	dakiza	dakiza kudakiza akadakiza akamdakiza
+2	5202	umilikishaji	umilikishaji
+3	5203	maringo	maringo
+4	5204	ayari	ayari
+5	5205	hiba	hiba
+6	5206	lahani	lahani
+7	5207	kenda	kenda
+8	5208	urushaji	urushaji
+9	5209	pumba	pumba
+10	5210	fanicha	fanicha
+11	5211	mchongo	mchongo michongo
+12	5212	ujifunzaji	ujifunzaji
+13	5213	maakuli	maakuli
+14	5214	mfaransa	mfaransa
+15	5215	ahera	ahera akhera
+16	5216	dhahania	dhahania
+17	5217	findo	findo
+18	5218	mgusano	mgusano
+19	5219	uchapaji	uchapaji
+20	5220	umeng'enyaji	umeng'enyaji
+21	5221	tama	tama kitama
+22	5222	mporaji	mporaji waporaji
+23	5223	tingatinga	tingatinga
+24	5224	kokoto	kokoto
+25	5225	membe	membe
+26	5226	straika	straika mastraika
+27	5227	degedege	degedege
+28	5228	jemu	jemu
+29	5229	rijali	rijali
+30	5230	kituruki	kituruki
+31	5231	kasheshe	kasheshe
+32	5232	kicheche	kicheche vicheche
+33	5233	ukale	ukale
+34	5234	hamali	hamali mahamali
+35	5235	msusi	msusi wasusi
+36	5236	aorta	aorta
+37	5237	timazi	timazi
+38	5238	fulanifulani	fulanifulani
+39	5239	saladi	saladi
+40	5240	tuna	tuna tune wakatuna hutuna itune kutuna haituni inatuna itatuna kujituna tukutune
+41	5241	hilali	hilali
+42	5242	kirukanjia	virukanjia kirukanjia
+43	5243	wajapani	wajapani
+44	5244	pwaya	pwaya kupwaya alipwaya amepwaya ilipwaya inapwaya kimepwaya kinapwaya umepwaya vitampwaya yanapwaya apwaye
+45	5245	kaskazi	kaskazi
+46	5246	tepe	tepe
+47	5247	baunsa	mabaunsa baunsa
+48	5248	mitokondria	mitokondria
+49	5249	uainisho	uainisho
+50	5250	mtoano	mtoano
+51	5251	chuku	chuku
+52	5252	konstebo	konstebo
+53	5253	mchanyato	mchanyato michanyato
+54	5254	haidhuru	haidhuru
+55	5255	falaki	falaki
+56	5256	hidi	hidi kutahidi akahidi amehidi wanahidiwa wamehidi akihidi alihidi aliwahidi atajihidi
+57	5257	sipo	sipo asipo wasipo kusipo usipo nisipo zisipo
+58	5258	kigeugeu	kigeugeu vigeugeu
+59	5259	sulfuri	sulfuri
+60	5260	ukatibu	ukatibu
+61	5261	zebaki	zebaki
+62	5262	sahibu	masahibu sahibu
+63	5263	mdukuzi	wadukuzi mdukuzi
+64	5264	himidi	himidi umehimidiwa uhimidiwe limehimidiwa nitakuhimidi lihimidiwe ahimidiwe kuhimidi nakuhimidi twamhimidi
+65	5265	fosforasi	fosforasi fosiforasi
+66	5266	siki	siki
+67	5267	utegili	utegili
+68	5268	dibaji	dibaji
+69	5269	kitafunio	vitafunio kitafunio
+70	5270	propela	parapela propela
+71	5271	nikeli	nikeli
+72	5272	useremala	useremala
+73	5273	ania	lanie kuania kutaania kuwaania waania ania ilimuania kutamania
+74	5274	kafeini	kafeini kafeni
+75	5275	leba	leba
+76	5276	mtabiri	mtabiri watabiri
+77	5277	mlalamikiwa	mlalamikiwa walalamikiwa
+78	5278	soni	soni
+79	5279	mchapa	mchapa wachapa
+80	5280	kubughudhi	kubughudhiwa kubughudhi
+81	5281	nadhifu	nadhifu
+82	5282	ufujaji	ufujaji
+83	5283	upawa	upawa pawa
+84	5284	mluzi	miluzi mluzi mruzi
+85	5285	mwafrika	mwafrika
+86	5286	ukakasi	ukakasi
+87	5287	maizi	umaizi kumaizi maizi mmaizi msimaizi tunamaizi usimaizi wasimaizi
+88	5288	jeti	jeti
+89	5289	unyago	unyago unyagoni
+90	5290	karoti	karoti
+91	5291	madrasa	madrasa
+92	5292	chongea	chongea kuchongea anamchongea kuchongesha kuwachongea viwachongee akimchongea alimchongea iliyotuchongea kuichongea kumchongea nimechongewa tutawachongea wakajichongea
+93	5293	mlimwengu	mlimwengu walimwengu
+94	5294	suria	suria masuria
+95	5295	pishi	pishi
+96	5296	topografia	topografia
+97	5297	kigingi	vigingi kigingi
+98	5298	zeituni	zaituni zeituni
+99	5299	duaradufu	duaradufu
+100	5300	nira	nira

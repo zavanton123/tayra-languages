@@ -1,100 +1,100 @@
-1	6101	ghafilika	kughafilika ghafilika imeghafilika
-2	6102	aproni	aproni
-3	6103	baobonye	baobonye
-4	6104	buba	buba
-5	6105	chapeo	chapeo
-6	6106	egemeo	egemeo
-7	6107	fila	fila filani
-8	6108	fitokombo	fitokombo
-9	6109	frasila	frasila
-10	6110	geuzi	geuzi vigeuzi
-11	6111	hezi	hezi
-12	6112	hondohondo	hondohondo
-13	6113	husuru	husuru alipohusuru
-14	6114	kalima	kalima kalimani
-15	6115	kobalti	kobalti
-16	6116	kola	kola
-17	6117	likiza	likiza hulikizwa
-18	6118	mekoniamu	mekoniamu
-19	6119	mkarara	mkarara mikarara
-20	6120	mpingamizi	mpingamizi wapingamizi
-21	6121	mreno	mreno
-22	6122	mtengo	mtengo
-23	6123	mtulinga	mtulinga
-24	6124	mwina	mwina
-25	6125	mzimamoto	mzimamoto wazimamoto
-26	6126	ndume	ndume
-27	6127	nyamavu	mnyamavu nyamavu
-28	6128	pedeli	pedeli pedali
-29	6129	pumbu	mapumbu pumbu
-30	6130	punyeto	punyeto
-31	6131	shashi	shashi
-32	6132	tekelezo	tekelezo matekelezo
-33	6133	tepetevu	tepetevu
-34	6134	tibamaungo	tibamaungo
-35	6135	tibaredio	tibaredio
-36	6136	uelezaji	uelezaji
-37	6137	ufilisi	ufilisi
-38	6138	ukaushaji	ukaushaji
-39	6139	ukurutu	ukurutu
-40	6140	ukuti	ukuti
-41	6141	upenyaji	upenyaji
-42	6142	usimbaji	usimbaji
-43	6143	uthibitishaji	uthibitishaji
-44	6144	mkoma	mkoma wakoma
-45	6145	vivu	wavivu vivu kivivu
-46	6146	anafora	anafora
-47	6147	chang'aa	chang'aa
-48	6148	digidigi	digidigi
-49	6149	donoa	akimdonoa atadonoa donoa kudonoa wanadonoa watadonolewa yalidonolewa
-50	6150	heko	heko
-51	6151	kifini	kifini
-52	6152	kisomali	kisomali
-53	6153	kurani	kurani
-54	6154	kware	kware
-55	6155	mpalestina	mpalestina
-56	6156	mzambia	mzambia
-57	6157	nailoni	nailoni
-58	6158	rasharasha	rasharasha
-59	6159	ruti	ruti
-60	6160	skimu	skimu
-61	6161	ubazazi	ubazazi
-62	6162	uchenjuaji	uchenjuaji
-63	6163	ugumba	ugumba
-64	6164	ujaji	ujaji
-65	6165	ukopeshaji	ukopeshaji
-66	6166	usimamiaji	usimamiaji
-67	6167	yakana	kuyakana aliyakana wanapoyakana yakana
-68	6168	banika	banika watakaobanika kubanika kuibanika kumbanika zimebanika
-69	6169	refarii	refarii refari
-70	6170	agoni	arigoni agoni
-71	6171	beleshi	beleshi mabeleshi
-72	6172	benzini	benzini
-73	6173	bromini	bromini bromi
-74	6174	chuchumaa	chuchumaa kuchuchumaa wachuchumae waliochuchumaa
-75	6175	daraka	daraka darakani
-76	6176	doti	doti
-77	6177	elektrodi	elektrodi
-78	6178	fauka	fauka
-79	6179	ganja	ganja
-80	6180	gongagonga	hugongagonga kugongagonga gongagonga
-81	6181	hemoglobini	hemoglobini
-82	6182	huwa	huwa huhuwa ahuweni huwe kuhuwa
-83	6183	iza	iza kuiiza kuiza miizamo
-84	6184	jamali	jamali
-85	6185	jambia	jambia
-86	6186	jichubua	jichubua anajichubua anayejichubua sijichubui wanajichubua
-87	6187	kakakuona	kakakuona
-88	6188	kandili	kandili
-89	6189	kaputi	kaputi kabuti
-90	6190	katapila	katapila makatapila
-91	6191	kiwele	kiwele viwele
-92	6192	kizinda	kizinda
-93	6193	maandalio	maandalio
-94	6194	makombo	makombo
-95	6195	mbatizaji	mbatizaji wabatizaji
-96	6196	mchagga	mchagga
-97	6197	mnyapara	wanyapara mnyapara
-98	6198	mrasimu	mrasimu warasimu
-99	6199	mshindwa	washindwa mshindwa
-100	6200	mtori	mtori
+1	6101	chapeo	chapeo
+2	6102	egemeo	egemeo
+3	6103	fila	fila filani
+4	6104	fitokombo	fitokombo
+5	6105	frasila	frasila
+6	6106	geuzi	geuzi vigeuzi
+7	6107	hezi	hezi
+8	6108	hondohondo	hondohondo
+9	6109	husuru	husuru alipohusuru
+10	6110	kalima	kalima kalimani
+11	6111	kobalti	kobalti
+12	6112	kola	kola
+13	6113	likiza	likiza hulikizwa
+14	6114	mekoniamu	mekoniamu
+15	6115	mkarara	mkarara mikarara
+16	6116	mpingamizi	mpingamizi wapingamizi
+17	6117	mreno	mreno
+18	6118	mtengo	mtengo
+19	6119	mtulinga	mtulinga
+20	6120	mwina	mwina
+21	6121	mzimamoto	mzimamoto wazimamoto
+22	6122	ndume	ndume
+23	6123	nyamavu	mnyamavu nyamavu
+24	6124	pedeli	pedeli pedali
+25	6125	pumbu	mapumbu pumbu
+26	6126	punyeto	punyeto
+27	6127	shashi	shashi
+28	6128	tekelezo	tekelezo matekelezo
+29	6129	tepetevu	tepetevu
+30	6130	tibamaungo	tibamaungo
+31	6131	tibaredio	tibaredio
+32	6132	uelezaji	uelezaji
+33	6133	ufilisi	ufilisi
+34	6134	ukaushaji	ukaushaji
+35	6135	ukurutu	ukurutu
+36	6136	ukuti	ukuti
+37	6137	upenyaji	upenyaji
+38	6138	usimbaji	usimbaji
+39	6139	uthibitishaji	uthibitishaji
+40	6140	mkoma	mkoma wakoma
+41	6141	vivu	wavivu vivu kivivu
+42	6142	anafora	anafora
+43	6143	chang'aa	chang'aa
+44	6144	digidigi	digidigi
+45	6145	donoa	akimdonoa atadonoa donoa kudonoa wanadonoa watadonolewa yalidonolewa
+46	6146	heko	heko
+47	6147	kifini	kifini
+48	6148	kisomali	kisomali
+49	6149	kurani	kurani
+50	6150	kware	kware
+51	6151	mpalestina	mpalestina
+52	6152	mzambia	mzambia
+53	6153	nailoni	nailoni
+54	6154	rasharasha	rasharasha
+55	6155	ruti	ruti
+56	6156	skimu	skimu
+57	6157	ubazazi	ubazazi
+58	6158	uchenjuaji	uchenjuaji
+59	6159	ugumba	ugumba
+60	6160	ujaji	ujaji
+61	6161	ukopeshaji	ukopeshaji
+62	6162	usimamiaji	usimamiaji
+63	6163	yakana	kuyakana aliyakana wanapoyakana yakana
+64	6164	banika	banika watakaobanika kubanika kuibanika kumbanika zimebanika
+65	6165	refarii	refarii refari
+66	6166	agoni	arigoni agoni
+67	6167	beleshi	beleshi mabeleshi
+68	6168	benzini	benzini
+69	6169	bromini	bromini bromi
+70	6170	chuchumaa	chuchumaa kuchuchumaa wachuchumae waliochuchumaa
+71	6171	daraka	daraka darakani
+72	6172	doti	doti
+73	6173	elektrodi	elektrodi
+74	6174	fauka	fauka
+75	6175	ganja	ganja
+76	6176	gongagonga	hugongagonga kugongagonga gongagonga
+77	6177	hemoglobini	hemoglobini
+78	6178	huwa	huwa huhuwa ahuweni huwe kuhuwa
+79	6179	iza	iza kuiiza kuiza miizamo
+80	6180	jamali	jamali
+81	6181	jambia	jambia
+82	6182	jichubua	jichubua anajichubua anayejichubua sijichubui wanajichubua
+83	6183	kakakuona	kakakuona
+84	6184	kandili	kandili
+85	6185	kaputi	kaputi kabuti
+86	6186	katapila	katapila makatapila
+87	6187	kiwele	kiwele viwele
+88	6188	kizinda	kizinda
+89	6189	maandalio	maandalio
+90	6190	makombo	makombo
+91	6191	mbatizaji	mbatizaji wabatizaji
+92	6192	mchagga	mchagga
+93	6193	mnyapara	wanyapara mnyapara
+94	6194	mrasimu	mrasimu warasimu
+95	6195	mshindwa	washindwa mshindwa
+96	6196	mtori	mtori
+97	6197	mtufaha	mtufaa mtofaa mtufaha
+98	6198	naskia	wanaskia naskia
+99	6199	ngwini	ngwini
+100	6200	papasi	papasi
