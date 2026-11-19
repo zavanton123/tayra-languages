@@ -552,6 +552,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return gaelic_tokens(text, ranks, names)
     if code == "kw":
         return cornish_tokens(text, ranks, names)
+    if code == "gv":
+        return manx_tokens(text)
     if code in FINNIC:
         return finnic_tokens(text, code)
     if code == "hi":
@@ -2264,6 +2266,34 @@ def welsh_name_pattern(name):
     return re.compile(r"(?<![^\W\d_])(?:" + "|".join(map(re.escape, spelled)) + r")(?![^\W\d_])")
 
 
+# Manx, as ManxParser reads it: t', v', s', b', d', dt' and m' written onto the next word (t'eh, s'mie, dt'ennym) and 'n "the"
+# and 's "and" onto the word before (ta'n, jeh'n) are words of their own; an apostrophe at a word's edge ('sy) and a mutation's
+# h-, n- or t- before a vowel (ny h-ellanyn) are no part of a word; a hyphen parts two words (ry-akin).
+MANX_WORD = re.compile("[a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ']+")
+MANX_APOSTROPHES = str.maketrans("´`’‘", "''''")
+MANX_VOWELS = "aeiouyàáâèéêìíîòóôùúû"
+MANX_MUTATION_HYPHEN = re.compile(f"(?<![a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ'])[hntHNT]-(?=[{MANX_VOWELS}{MANX_VOWELS.upper()}])")
+
+
+def manx_pieces(word):
+    word = word.strip("'")
+    if not word:
+        return []
+    low = word.lower()
+    for prefix in ("dt'", "t'", "v'", "s'", "b'", "d'", "m'"):
+        if low.startswith(prefix) and len(word) > len(prefix):
+            return [word[:len(prefix)]] + manx_pieces(word[len(prefix):])
+    for suffix in ("'n", "'s"):
+        if low.endswith(suffix) and len(word) > len(suffix):
+            return manx_pieces(word[:-len(suffix)]) + [word[-len(suffix):]]
+    return [word]
+
+
+def manx_tokens(text):
+    text = MANX_MUTATION_HYPHEN.sub(" ", text.translate(MANX_APOSTROPHES))
+    return [piece for run in MANX_WORD.findall(text) for piece in manx_pieces(run)]
+
+
 # The header of a lesson's questions, one per language: after it, a question and its answer on a line each, in turn.
 # The app cuts them off the text into a stage of their own (LessonQuestions.kt holds the same headers).
 QUESTION_HEADERS = {
@@ -2274,7 +2304,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
-        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:",
+        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:",
     )
 }
 
@@ -2726,6 +2756,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Cwestiynau:", "", text)
         if code == "kw":
             text = re.sub(r"(?m)^Govynnow:", "", text)
+        if code == "gv":
+            text = re.sub(r"(?m)^Feyshtyn:", "", text)
         if code == "ka":
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":
