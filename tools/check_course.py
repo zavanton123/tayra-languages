@@ -2635,7 +2635,7 @@ QUESTION_HEADERS = {
         "Frågor:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
-        "Maswali:", "Сұрақтар:", "Suallar:",
+        "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:",
     )
 }
 
