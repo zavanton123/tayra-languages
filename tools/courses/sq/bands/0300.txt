@@ -1,0 +1,100 @@
+1	201	jetoj	jeto jetofsh jetofshi jetofshim jetohet jetoi jetoja jetoje jetojmë jetojn jetojnë jetojsh jetojë jeton jetoni jetonim jetonin jetonit jetonte jetonë jetosh jetova jetove jetuaka jetuam jetuan jetuar
+2	202	sigurisht	
+3	203	vendos	vendosa vendose vendoset vendosi vendosim vendosin vendosja vendosni vendosnim vendosnin vendosnit vendoste vendosu vendosur vendosë vendosëm vendosën vendosësh vendosët
+4	204	kap	kapa kape kapeni kapi kapim kapin kapja kapje kapni kapnim kapnin kapnit kapte kapur kapëm kapën kapësh kapët
+5	205	lëviz	lëviza lëvize lëvizi lëvizim lëvizin lëvizja lëvizkan lëvizke lëvizni lëviznim lëviznin lëviznit lëvizte lëvizur lëvizë lëvizëm lëvizën lëvizës lëvizësh lëvizët
+6	206	epo	
+7	207	ha	haja haje hajeni hajë hamë hani hanim hanin hanit hante hanë hanën hapte hash hëngra hëngre hëngri hëngrëm hëngrën hëngrët ngrëntë ngrënë
+8	208	minutë	minut minuta minutash minutat minutave minute minuti minutën minutës
+9	209	shpejt	
+10	210	mbyll	mbylla mbylle mbylleni mbyllet mbylli mbyllim mbyllin mbyllja mbyllje mbyllka mbyllni mbyllnim mbyllnin mbyllnit mbyllte mbylltë mbyllu mbyllur mbyllë mbyllëm mbyllën mbyllësh mbyllët mshel
+11	211	poshtë	
+12	212	askush	askujt askë askënd
+13	213	gjithmonë	
+14	214	vetë	vehte vet veta vetash vetat vetave vetën vetës vetëve vetëëm
+15	215	familje	familja familjeje familjen familjes familjesh familjet familjeve
+16	216	vë	vija vije vini vinim vinin vinit vinte vumë vunë vura vure vuri vutë vëmë vënë vër vësh
+17	217	arrij	arrihej arrihen arrihet arrija arrijmë arrijn arrijnë arrijë arrimë arrin arrini arrinim arrinin arrinit arrinte arrinë arrirë arrish arrita arrite arriti arritur arritëm arritën arritët harrij
+18	218	rri	ndenja ndenje ndenji ndenjur ndenjëm ndenjën ndenjët rrija rrije rrijë rrimë rrini rrinim rrinin rrinit rrinte rrinë rrish
+19	219	babi	babin babit
+20	220	mbi	my
+21	221	sy	syri syrin syrit sysh sytë syve
+22	222	vëlla	calabria kavajë vlla vllai vllain vllaj vllau vëllai vëllain vëllait vëllaj vëllan vëllani vëllanë vëllau vëllaun vëllaut vëllezër vëllezërish vëllezërit vëllezërve
+23	223	mjaft	miaft njaft
+24	224	kujtoj	kujto kujtohej kujtohem kujtohemi kujtohen kujtoheni kujtohesh kujtohet kujtohu kujtohuni kujtoi kujtoja kujtoje kujtojmë kujtojnë kujtojë kujton kujtoni kujtonim kujtonin kujtonit kujtonte kujtova kujtove kujtuam kujtuan kujtuar kujtuat
+25	225	mbaroj	mbaro mbaroi mbaroja mbaroje mbarojmë mbarojn mbarojnë mbarojë mbaron mbaroni mbaronim mbaronin mbaronit mbaronte mbarova mbarove mbaruam mbaruan mbaruar mbaruat
+26	226	armë	arma arme armën armës armësh armët armëve
+27	227	dërgoj	dërgo dërgoftë dërgohen dërgoheshin dërgohet dërgoi dërgoja dërgoje dërgoji dërgojmë dërgojn dërgojnë dërgoju dërgojë dërgomë dërgon dërgoni dërgonim dërgonin dërgonit dërgonte dërgosh dërgova dërgove dërguam dërguan dërguar dërguat
+28	228	tre	
+29	229	përse	ce
+30	230	qytet	qytete qytetesh qytetet qyteteve qyteti qytetin qytetit qytetë
+31	231	fitoj	fito fitoftë fitohen fitohet fitoi fitoja fitoje fitojmë fitojn fitojnë fitojë fiton fitoni fitonim fitonin fitonit fitonte fitosh fitova fitove fituam fituan fituar fituat
+32	232	ende	
+33	233	pyes	pies pjes pyesi pyesim pyesin pyesish pyesja pyesje pyesni pyesnim pyesnin pyesnit pyeste pyesë pyesësh pyet pyeta pyete pyeteni pyetesh pyetesha pyetet pyeti pyetur pyetë pys
+34	234	lejoj	lejo lejohej lejohen lejoheni lejohesh lejohet lejoi lejoja lejoji lejojmë lejojn lejojnë lejojë lejomë lejon lejoni lejonim lejonin lejonit lejonte lejosh lejova lejove lejuam lejuan lejuar lejuat
+35	235	harroj	harro harrohen harrohet harroi harroja harroje harroji harrojmë harrojn harrojnë harrojë harron harroni harronim harronin harronte harrosh harrova harrove harruam harruan harruar harruat
+36	236	vesh	vesha veshe veshi veshim veshin veshit veshja veshje veshjesh veshjet veshjeve veshka veshke veshni veshnin veshte veshtë veshu veshur veshë veshëm veshën veshësh veshët veshëve vishja vishni vishte
+37	237	ndaj	ndahej ndahem ndahemi ndahen ndaheni ndahesh ndahesha ndaheshim ndahet ndahu ndahuni ndaja ndaje ndaji ndajmë ndajnë ndajë ndamë ndan ndani ndanim ndanin ndanit ndante ndanë ndarë ndatë ndau ndava ndave
+38	238	fut	fus fusim fuste fusësh futa fute futesh futet futi futim futin futja futje futni futnin futnit futsha futu futur futëm futën futët
+39	239	takoj	tako takofshim takoi takoja takoje takojmë takojnë takojë takon takoni takonim takonin takonit takonte takosh takot takova takove takuam takuan takuar takuat
+40	240	luaj	luaja luaje luaji luajmë luajn luajnë luajt luajta luajte luajtur luajë luan luani luanim luanin luante luash luj
+41	241	anë	ana anash ane anën anësh anët anëve
+42	242	përsëri	
+43	243	bashkë	bashk bashka bashku
+44	244	kujdes	kujdesa kujdese kujdesesh kujdeset kujdesi kujdesin kujdesit kujdesni kujdesë kujdesëm kujdesën kujdesësh kujdesët
+45	245	rreth	rrathë rrathësh rrathët rrathëve rrethe rrethet rrethi rrethim rrethin rrethit rrethë
+46	246	hyj	hy hyja hyji hyjin hyjit hyjmë hyjnë hyjë hyn hyni hynte hyr hyra hyri hyrë hysh
+47	247	heq	heqim heqin heqsh heqshim hequr heqësh hiq hiqe hiqi hiqja hiqje hiqni hiqnim hiqnin hiqnit hiqte hjek hoqa hoqe hoqi hoqëm hoqën hoqët
+48	248	zonjë	zonja zonjash zonjat zonjave zonje zonjën zonjës
+49	249	nënë	nanë nena nenat nenave nene nenë nenën nenës nëna nënash nënat nënave nëne nënën nënës
+50	250	ndihmë	ndihm ndihma ndihmash ndihmat ndihmave ndihme ndihmën nihmë
+51	251	dhomë	dhoma dhomash dhomat dhomave dhome dhomën dhomës
+52	252	vonë	
+53	253	fat	fate fatesh fatet fateve fati fatin fatit
+54	254	dakord	dakort dakortë
+55	255	prapa	mbrapa
+56	256	kokë	koka kokash kokat kokave koke kokën kokës kokët kokëve
+57	257	polici	policia policie policija policinë policis policisë
+58	258	përdor	përdora përdore përdoret përdori përdorin përdorja përdorje përdorni përdornim përdornin përdornit përdorte përdortë përdorur përdorë përdorëm përdorën përdorësh përdorët
+59	259	hedh	hedha hedhi hedhim hedhin hedhje hedhni hedhur hedhër hedhës hedhësh hidh hidhe hidhi hidhja hidhje hidhni hidhnim hidhnin hidhnit hidhte hodha hodhe hodhi hodhëm hodhën hodhët
+60	260	kaluar	kaluara kaluarat kaluarë kaluarën kaluarës
+61	261	zë	zija zije zini zinim zinin zinit zinte zo zumë zunë zura zure zuri zutë zëmë zënka zënke zëntë zënë zër zëra zërash zërat zërave zëri zërin zërit
+62	262	sapo	
+63	263	kthej	kthe kthefsha kthefshi ktheftë kthei ktheja ktheje ktheji kthejmë kthejn kthejnë ktheju kthejë kthen ktheni kthenim kthenin kthenit kthente kthenë kthesh ktheu ktheva ktheve kthyem kthyen kthyet
+64	264	mësoj	mëso mësoi mësoja mësoje mësoji mësojmë mësojnë mësojë mëson mësoni mësonim mësonin mësonit mësonte mësosh mësova mësove mësuam mësuan mësuar mësuat
+65	265	bëhem	behem bëfsh bëfsha bëfshi bëfshin bëftë bëhej bëhemi bëhen bëheni bëhesh bëhesha bëheshe bëheshim bëheshin bëheshit bëhet bëhu bëhuni bëja bëje bëjmë bëjnë bëka bëke bëkemi bëma bëmat bëmë bën bëni bënim bënin bënit bënte bënë bëre bëri bëtë
+66	266	ndjej	ndjehej ndjehem ndjehemi ndjehen ndjeheni ndjehesh ndjehesha ndjeheshe ndjehet ndjehu ndjehuni ndjeja ndjeje ndjejmë ndjejnë ndjejë ndjemë ndjen ndjeni ndjenim ndjenin ndjente ndjenë ndjer ndjeri ndjerë ndjesh ndjeva
+67	267	lidhje	lidhja lidhjeje lidhjen lidhjes lidhjet lidhjeve
+68	268	ide	ideja idenë
+69	269	paguaj	pagoi pagova pagove pagua paguaja paguaje paguaji paguajmë paguajn paguajnë paguajta paguajë paguaka paguake paguam paguan paguani paguanim paguanin paguanit paguante paguar paguash paguat
+70	270	eci	ec eca ece ecim ecin ecja ecje eckan ecke ecni ecnim ecnin ecnit ecte ectë ecu ecur ecurit ecëm ecën ecësh ecët hecim hecur hecë
+71	271	ndjek	ndiq ndiqja ndiqje ndiqni ndiqnim ndiqnin ndiqnit ndiqte ndjeka ndjeki ndjekim ndjekin ndjekja ndjekje ndjekjet ndjekni ndjektë ndjekur ndjekë ndjekës ndjekësh ndoqa ndoqe ndoqi ndoqëm ndoqën ndoqët njek
+72	272	tillë	tilla
+73	273	javë	java jave javën javës javësh javët javëve
+74	274	numër	numra numrash numrat numrave numri numrin numrit numërat numëri numërim numërin
+75	275	shpëtoj	shpëto shpëtofshin shpëtoftë shpëtohej shpëtohen shpëtohet shpëtoi shpëtoja shpëtoje shpëtojmë shpëtojnë shpëtojë shpëton shpëtoni shpëtonim shpëtonin shpëtonit shpëtonte shpëtosh shpëtova shpëtove shpëtuam shpëtuan shpëtuar shpëtuat
+76	276	luftë	lufta luftash luftat luftave lufte luftën luftëra luftërash luftërat luftërave luftës
+77	277	fare	
+78	278	rast	rasta raste rastesh rastet rasteve rasti rastin rastit rastë
+79	279	mundësi	mundësia mundësie mundësin mundësinë mundësish mundësisë mundësit mundësitë mundësive
+80	280	çoj	qoj qova ço çofsh çofshin çoftë çohu çoi çoja çoje çojmë çojnë çojë çon çoni çonim çonin çonit çonte çosh çova çove çuam çuan çuar çuat
+81	281	mami	mamin
+82	282	dashuri	dashni dashuria dashurie dashurinë dashuris dashurish dashurisë dashurit dashuritë dashurive
+83	283	fakt	fakte faktet fakteve fakti faktin faktit faktë
+84	284	pi	pij pija pijmë pijnë pike pikësh pikëshe pikëshin pimë pini pinim pinin pinit pinte pinë pira pirat pirë pirët pish pitet pitin pitja pitë piu piva pive
+85	285	moment	momente momentesh momentet momenti momentin momentit momentë
+86	286	derë	dera dere derën derës dyer dyersh dyert dyerve
+87	287	fortë	fort forta forti fortin fortët
+88	288	muaj	muaji muajin muajit muajsh muajt muajtë muajve muajë muej muj
+89	289	mes	mese mesi mesin mesit
+90	290	frikë	frika frikash frikat frikave frike frikën frikëra frikërat frikërave frikës frikët
+91	291	shkruaj	shkroi shkrova shkrove shkrua shkruaja shkruaje shkruaji shkruajmë shkruajn shkruajnë shkruajta shkruajte shkruajtur shkruajë shkruam shkruan shkruani shkruanim shkruanin shkruanit shkruante shkruar shkruash shkruat
+92	292	provoj	provo provoftë provohet provoi provoja provoje provoji provojmë provojnë provojë provon provoni provonim provonin provonit provonte provosh provova provove provuam provuan provuar provuat
+93	293	ndonjëherë	
+94	294	shpejtë	shpejta shpejti
+95	295	pasi	masi mbasi
+96	296	ndryshoj	ndrysho ndryshoi ndryshoja ndryshoje ndryshojmë ndryshojn ndryshojnë ndryshojë ndryshon ndryshoni ndryshonim ndryshonin ndryshonit ndryshonte ndryshosh ndryshova ndryshove ndryshuam ndryshuan ndryshuar ndryshuat
+97	297	pyetje	pyetja pyetjeje pyetjen pyetjes pyetjesh pyetjet pyetjeve
+98	298	pranoj	prano pranoftë pranohen pranohesh pranohet pranoi pranoja pranoje pranojmë pranojn pranojnë pranojë pranon pranoni pranonim pranonin pranonit pranonte pranosh pranova pranove pranuam pranuan pranuar pranuat
+99	299	bir	bij bijtë bijve bil biri birin birit biro
+100	300	shpirt	shpirta shpirtat shpirtave shpirte shpirti shpirtin shpirtit shpirtra shpirtrash shpirtrat shpirtrave shpirtë

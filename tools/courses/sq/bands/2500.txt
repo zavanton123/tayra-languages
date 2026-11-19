@@ -1,0 +1,100 @@
+1	2401	dhunti	dhuntia dhuntie dhuntinë dhuntisë dhuntitë dhuntive
+2	2402	mjegull	mjegulla mjegullat mjegullave mjegulle mjegullt mjegullë mjegullën mjegullës
+3	2403	ninë	nina ninën ninës
+4	2404	tullë	tulla tullash tullat tullave tulle tullën tullës
+5	2405	furrë	furra furrat furrave furre furrën furrës
+6	2406	grij	grifsha grija grije grijmë grijnë grin grini grinin grinit grinte grinë grirë gritë griu griva grive
+7	2407	mizë	miza mizash mizat mizave mize mizën mizëri mizës
+8	2408	ndërgjegje	ndërgjegja ndërgjegjeje ndërgjegjen ndërgjegjes ndërgjegjja
+9	2409	bregdet	bregdetet bregdeteve bregdeti bregdetin bregdetit
+10	2410	llaf	llafe llafet llafeve llafi llafin
+11	2411	zhdukje	zhdukja zhdukjeje zhdukjen zhdukjes zhdukjesh zhdukjet zhdukjeve
+12	2412	pall	palla palle pallim pallje pallën
+13	2413	televiziv	televizive
+14	2414	babagjysh	babagjyshat babagjyshi babagjyshin babagjyshit
+15	2415	perime	perimes perimesh perimet perimeve
+16	2416	betoj	beto betoni betonin betonit betova betove betuam betuan betuar betuat
+17	2417	përcjellë	përcjella përcjelle përcjellën përcjellës përcjellësh
+18	2418	urdhëruar	
+19	2419	besueshëm	
+20	2420	dridhem	dredhur dridhej dridhen dridheni dridheshin
+21	2421	gri	
+22	2422	karrem	karrema karremi karremin karremëve
+23	2423	bori	boria borinë boris borisë boritë borive
+24	2424	kek	keku kekun kekut
+25	2425	trevoj	trevor
+26	2426	mbjell	mbill mbillje mbillni mbillnim mbillnin mbillte mbjellat mbjellim mbjellin mbjellje mbjellshin mbjellur mbjellë mbjellësh mbolla mbolle mbolli mbollëm mbollën mjell molla
+27	2427	ndot	ndota ndote ndoti ndotim ndotin ndotja ndotje ndotni ndotur ndotë ndotën ndotës ndotësh
+28	2428	pafund	pafundëm
+29	2429	laps	lapsa lapsash lapsat lapsave lapsi lapsin lapsit
+30	2430	denjë	
+31	2431	mbështjell	mbështill mbështillja mbështillni mbështillnin mbështillte mbështjella mbështjelli mbështjellim mbështjellin mbështjellur mbështjellë mbështolla mbështolle mbështolli mbështollën
+32	2432	keqkuptim	keqkuptime keqkuptimesh keqkuptimet keqkuptimeve keqkuptimi keqkuptimin keqkuptimit
+33	2433	shuaj	shoftë shoi shova shuaje shuajmë shuajnë shuajta shuajti shuajtur shuajtën shuajë shuam shuan shuani shuanim shuanin shuanit shuante shuar shujtë
+34	2434	ketër	ketra ketrash ketrat ketrave ketri ketrin ketrit ketërr kitër
+35	2435	shkronjë	shkronja shkronjash shkronjat shkronjave shkronje shkronjën shkronjës
+36	2436	avancoj	avanco avancoi avancoja avancojmë avancojnë avancon avanconi avanconin avanconte avancova avancuan avancuar
+37	2437	ftua	ftoi ftoit ftoni ftonj ftonjtë ftu ftuara ftuari ftuarin ftuarit
+38	2438	fryj	fryje fryji fryjnë fryjë fryni frynte frynë fryrë fryva
+39	2439	dredh	dredha dredhi dredhim dredhin dredhur dredhësh dridhja dridhje dridhnin dridhte drodha drodhe drodhi drodhën
+40	2440	shyqyr	shyqyre shyqyri
+41	2441	piano	pianoja pianoje pianon pianos pianot
+42	2442	sundoj	sundo sundoi sundoje sundojmë sundojnë sundojë sundon sundoni sundonim sundonin sundonte sundova sunduam sunduan sunduar
+43	2443	njollë	njolla njollash njollat njollave njolle njollën njollës
+44	2444	shtirem	shtira shtirej shtiremi shtiren shtiresha shtireshe shtirë
+45	2445	kapak	kapaku kapakun kapakut kapakë kapakët kapakëve
+46	2446	kasolle	kasolla kasollen kasolles kasollet kasolleve kasollja kasollë
+47	2447	pakuptim	pakuptime pakuptimi pakuptimt pakuptimta pakuptimtë
+48	2448	padi	padia padinë padisë paditë
+49	2449	tekst	tekste tekstet teksteve teksti tekstin
+50	2450	absolut	absolute
+51	2451	qiri	qirinj qirinjsh qirinjtë qirinjve qiriu qiriun qiriut
+52	2452	mbajtës	mbajtësa mbajtëse mbajtëset mbajtësi mbajtësin mbajtësit mbajtësja
+53	2453	themeloj	themeloi themeloja themelojmë themelojnë themelon themeloni themelonin themelonte themelor themelova themeluam themeluan themeluar
+54	2454	shqyrtoj	shqyrtohet shqyrtojmë shqyrtojë shqyrton shqyrtova shqyrtuar
+55	2455	paraprak	paraprake
+56	2456	rekomandim	rekomandime rekomandimesh rekomandimet rekomandimeve rekomandimi rekomandimin rekomandimit
+57	2457	cikël	ciklat cikle ciklesh ciklet cikleve cikli ciklin ciklit
+58	2458	kalëroj	kalëro kalëroi kalëroja kalëroje kalërojmë kalërojnë kalërojë kalëron kalëroni kalëronin kalëronit kalëronte kalërova kalëruan kalëruar
+59	2459	zorrë	zorra zorrat zorre zorrën zorrës zorrësh zorrët zorrëve
+60	2460	rremë	
+61	2461	kuvertë	kuvert kuverta kuvertat kuverte kuvertën kuvertës
+62	2462	proshutë	proshuta proshutat proshutave proshute proshutën proshutës përshutë
+63	2463	shkund	shkunde shkundet shkundi shkundim shkundin shkundja shkundje shkundni shkundnin shkundte shkundur shkundë shkundëm shkundën
+64	2464	murg	murgj murgjit murgjve murgu murgun murgut
+65	2465	gjethe	gjethen gjethes gjethesh gjethet gjetheve gjethja
+66	2466	librari	libraria librarie librarinë librarisë libraritë librarive
+67	2467	thelbësor	thelbësore thelbësorë
+68	2468	kripë	kripa kripe kripra kripën kripës krypa krypë
+69	2469	djegë	djega djege djegesh djeget djegën djegës djegësh
+70	2470	besimtar	besimtare besimtarë besimtarët besimtarëve
+71	2471	shah	shahu shahun shahut
+72	2472	frymëzoj	frymëzoi frymëzoje frymëzojmë frymëzojnë frymëzojë frymëzon frymëzoni frymëzonin frymëzonte frymëzova frymëzove frymëzuam frymëzuan frymëzuar
+73	2473	bojë	boja bojën bojëra bojërat bojës
+74	2474	përmbajtje	përmbajtja përmbajtjen përmbajtjes
+75	2475	copëz	copëza copëzat copëzave copëze copëzën
+76	2476	holli	hollie hollin hollis hollit
+77	2477	bri	brina brinin brinit briri bririn bririt brirë brirësh brirët
+78	2478	theks	theksave theksi theksin theksit
+79	2479	vetëvendosje	vetëvendosja
+80	2480	vare	varen vareni varenë varesh vareshin varesë
+81	2481	batalion	batalione batalionet batalioneve batalioni batalionin batalionit
+82	2482	balenë	balen balena balenash balenat balenave balene balenën balenës
+83	2483	elefant	elefanteve elefanti elefantin elefantit elefantë elefantët elefantëve
+84	2484	kikirik	kikirika kikiriki kikirikin kikirikit kikiriku kikirikut kikirikë kikirikësh kikirikët kikirikëve
+85	2485	hallë	halla hallat hallave halle hallën hallës
+86	2486	mekanikë	mekanik mekanika mekanike mekanikën
+87	2487	lexim	lexime leximet leximeve leximi leximin leximit
+88	2488	berr	berra berri berrin berrit
+89	2489	shtëpiak	shtëpiake shtëpiaket
+90	2490	lugë	luga luge lugën lugës lugët lugëve
+91	2491	qindarkë	qindarka qindarkash qindarkat qindarkave qindarke qindarkën
+92	2492	fjali	fjalia fjalie fjalinë fjalish fjalisë fjalitë fjalive
+93	2493	ruajtje	ruajtja ruajtjeje ruajtjen ruajtjes ruajtjeve
+94	2494	xhan	xhanet xhani xhanin xhanëm
+95	2495	birë	bira birat bire birës
+96	2496	huazoj	huazo huazoi huazoja huazoje huazojmë huazojnë huazon huazoni huazonin huazonte huazova huazove huazuan huazuar huazuat
+97	2497	vjej	vjetë
+98	2498	recetë	receta recetash recetat recetave recete recetën recetës
+99	2499	hokej	hokei hokeji hokejin hokejit
+100	2500	vendosje	vendosja vendosjen vendosjes vendosjet vendosjeve

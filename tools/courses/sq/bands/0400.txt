@@ -1,0 +1,100 @@
+1	301	larg	
+2	302	tërë	tëra tërat tërin tërën tërëve
+3	303	vdekje	dekë vdekja vdekjeje vdekjen vdekjes vdekjesh vdekjet vdekjeve vdekë
+4	304	siç	
+5	305	person	persona personash personat personave personi personin personit
+6	306	përshëndetje	
+7	307	vështirë	fështirë vështir vështira vështiri vështirën
+8	308	arsye	arsya arsyeja arsyeje arsyen arsyes arsyesh arsyet arsyeve arsyja
+9	309	sonte	
+10	310	kontrolloj	kontrollo kontrollohej kontrollohem kontrollohen kontrollohesh kontrollohet kontrollohu kontrolloi kontrolloja kontrolloje kontrolloji kontrollojmë kontrollojn kontrollojnë kontrollojë kontrollon kontrolloni kontrollonim kontrollonin kontrollonte kontrollosh kontrollova kontrollove kontrolluam kontrolluan kontrolluar kontrolluat
+11	311	shkollë	shkoll shkolla shkollash shkollat shkollave shkolle shkollën shkollës
+12	312	quaj	quaja quaje quajmë quajn quajnë quajt quajta quajte quajtur quajë quan quani quanim quanin quanit quante
+13	313	përpiqem	përpiqej përpiqemi përpiqen përpiqeni përpiqesh përpiqesha përpiqeshe përpiqeshim përpiqeshin përpiqeshit përpiqet përpiqu përpiquni përpiqur përpjekur përpoqa
+14	314	mama	mamaja mamaje maman mamani mamanë mamas mamasë mamatë
+15	315	shpresoj	shpreso shpresoi shpresoja shpresoje shpresojmë shpresojnë shpresojë shpreson shpresoni shpresonim shpresonin shpresonit shpresonte shpresova shpresove shpresuam shpresuan shpresuar shpresuat
+16	316	njëjtë	njëjt njëjta njëjtat njëjti njëjtin njëjtën njëjtës njëjtët
+17	317	qëlloj	qëllo qëllohej qëllohen qëllohesh qëllohet qëlloi qëlloja qëlloje qëlloji qëllojmë qëllojnë qëllojë qëllomë qëllon qëlloni qëllonim qëllonin qëllonit qëllonte qëllosh qëllova qëllove qëlluam qëlluan qëlluar qëlluat
+18	318	nxjerr	nxir nxirja nxirje nxirni nxirnim nxirr nxirre nxirrni nxirte nxjerra nxjerri nxjerrim nxjerrin nxjerrja nxjerrje nxjerrni nxjerrur nxjerrë nxjerrësh nxora nxore nxori nxorëm nxorën nxorët
+19	319	gjithashtu	
+20	320	ujë	uji ujin ujis ujit ujita ujiti ujitja ujitje ujitni ujitur ujëra ujërash ujërat ujërave
+21	321	vjet	
+22	322	tokë	toka tokash tokat tokave toke tokën tokës troka troke troket trokë
+23	323	mendje	mendja mendjeje mendjen mendjes mendjesh mendjet mendjeve
+24	324	histori	historia historie historin historinë historira historish historisë historitë historive
+25	325	trup	trupa trupash trupat trupave trupi trupin trupit trupë trupën
+26	326	qen	qene qenesh qenet qeneve qeni qenin qenit qensh qentë qenve qenër
+27	327	nis	nisa nise nisemi niset nisi nisim nisin nisja nisje nisni nisnim nisnin niste nisu nisur nisëm nisën nisët
+28	328	telefon	telefona telefonash telefonat telefonave telefoni telefonin telefonit telefonë
+29	329	mend	mendesh mendsh mendtë mendu mendur mendë mendësh mendët
+30	330	këmbë	këm këmba këmbe këmbën këmbës këmbësh këmbët këmbëve
+31	331	nesër	
+32	332	mbet	mbes mbesi mbesim mbesin mbeta mbete mbetem mbetesh mbetet mbeti mbetja mbetni mbetnin mbetsh mbetshi mbetshin mbetur mbetë mbetëm mbetën mbetësh mbetët met
+33	333	luftoj	lufto luftohet luftoi luftoja luftoje luftojmë luftojn luftojnë luftojë lufton luftoni luftonim luftonin luftonit luftonte luftosh luftova luftove luftuam luftuan luftuar luftuat
+34	334	ndihem	ndier ndihej ndihemi ndihen ndiheni ndihesh ndihesha ndiheshe ndiheshim ndiheshin ndiheshit ndihet ndihuni
+35	335	plak	plaka plakat plakja plako plaku plakun plakur plakut plakë plakën pleq pleqsh pleqtë pleqve qak
+36	336	forcë	forca forcash forcat forcave force forcën forcës
+37	337	lojë	loja loje lojna lojën lojëra lojërash lojërat lojërave lojës
+38	338	dot	
+39	339	vjetër	vjetra vjetrat vjetri vjetrin vjetrit vjetrën vjetëra vjetërit vjetërve
+40	340	ca	cave
+41	341	mëngjes	mjes mëngjese mëngjeset mëngjeseve mëngjesi mëngjesin mëngjesit mëngjesë
+42	342	qetësohem	qetësohej qetësohemi qetësohen qetësoheni qetësohesh qetësohesha qetësoheshim qetësoheshin qetësohet qetësohu qetësohuni qetësuar
+43	343	gjak	gjakrat gjaku gjakun gjakut gjakë
+44	344	mundoj	mundo mundohej mundohem mundohemi mundohen mundoheni mundohesh mundohesha mundoheshe mundoheshim mundoheshin mundoheshit mundohet mundohu mundohuni mundoi mundoja mundoje mundojmë mundojnë mundon mundoni mundonim mundonte mundova mundove munduam munduan munduar munduat
+45	345	siguri	siguria sigurie sigurin sigurinë siguris sigurish sigurisë siguritë
+46	346	dollar	dollari dollarin dollarit dollarë dollarësh dollarët dollarëve
+47	347	gabim	gabime gabimesh gabimet gabimeve gabimi gabimin gabimit gabin gabit
+48	348	mbroj	mbro mbrofshin mbroftë mbrohem mbrohemi mbrohen mbroheni mbrohesh mbrohesha mbrohet mbrohu mbrohuni mbroi mbroja mbroje mbroji mbrojmë mbrojn mbrojnë mbrojta mbrojte mbrojtur mbrojë mbron mbroni mbronim mbronin mbronit mbronte mbronë mbrosh mbrove mbruam
+49	349	president	presidenti presidentin presidentit presidentja presidentë presidentësh presidentët presidentëve
+50	350	shtet	shtes shtete shtetesh shtetet shteteve shteti shtetin shtetit
+51	351	gjallë	gjall gjalla gjalli gjallëri gjallët gjallëve
+52	352	kundër	kontra kundra
+53	353	lartë	larta larti naltë
+54	354	lart	
+55	355	godas	godasi godasim godasin godasë godasësh godet godiste godit godita godite goditi goditja goditni goditnin goditur goditëm goditën goditët
+56	356	lloj	lloje llojesh llojet llojeve lloji llojin llojit llojë
+57	357	përfundoj	përfundo përfundohet përfundoi përfundoja përfundoje përfundoji përfundojmë përfundojn përfundojnë përfundojë përfundon përfundoni përfundonim përfundonin përfundonte përfundosh përfundova përfundove përfunduam përfunduan përfunduar përfunduat
+58	358	telefonoj	telefono telefonoi telefonoja telefonoje telefonoji telefonojmë telefonojnë telefonoju telefonojë telefonon telefononi telefononim telefononin telefononit telefononte telefonosh telefonova telefonove telefonuam telefonuan telefonuar telefonuat
+59	359	kujdesem	kujdesej kujdesemi kujdesen kujdeseni kujdesesh kujdesesha kujdeseshe kujdeseshim kujdeseshin kujdeset kujdesu kujdesuni kujdesur
+60	360	përpara	
+61	361	zjarr	zjarre zjarresh zjarret zjarreve zjarri zjarrin zjarrit zjarrt zjarrta zjarrtë zjarrë zjárri
+62	362	blej	bleja bleji blejmë blejn blejnë blejta blejë blemë blen bleni blente blenë blerë blesh bleu bleva bleve bli blija blini blinte bliri blirit
+63	363	vjedh	vidhja vidhje vidhni vidhnim vidhnin vidhnit vidhte vjedhi vjedhim vjedhin vjedhja vjedhje vjedhjet vjedhjeve vjedhni vjedhur vjedhë vjedhën vjedhësh vodha vodhe vodhi vodhëm vodhën vodhët
+64	364	sipas	simbas
+65	365	tip	tipa tipat tipi tipin
+66	366	milion	miliona milionat milionave milioni milionë milionësh milionët
+67	367	vetmi	vetmia vetmie vetmin vetminë vetmisë vetmit vetmja
+68	368	merrem	merrej merremi merren merreni merresh merresha merreshe merreshim merreshin merreshit merret merru merruni
+69	369	plan	plane planesh planeve plani planin planit plant planë
+70	370	lumtur	lumtura lumturin
+71	371	menjëherë	
+72	372	shkak	shkake shkaku shkakun shkakut shkakë shkaqe shkaqesh shkaqet shkaqeve
+73	373	quhem	quhej quhemi quhen quheni quhesh quheshe quheshin quhet
+74	374	fytyrë	fytyr fytyra fytyrash fytyrat fytyrave fytyre fytyrën fytyrës
+75	375	shef	shefa shefave shefe shefi shefin shefit shefja shefë
+76	376	çmendur	çmendura çmendurin çmendurit çmendurve
+77	377	ndërsa	
+78	378	lexoj	lexo lexohej lexohen lexohet lexoi lexoja lexoje lexoji lexojmë lexojn lexojnë lexojë lexon lexoni lexonim lexonin lexonit lexonte lexosh lexova lexove lexuam lexuan lexuar lexuat
+79	379	rregulloj	regullo regulloi regulloj regullova regullove regulluam regulluar rregullo rregullohej rregullohem rregullohemi rregullohen rregulloheni rregullohesh rregullohet rregullohu rregulloi rregulloja rregulloje rregulloji rregullojmë rregullojn rregullojnë rregullojë rregullon rregulloni rregullonim rregullonte rregullosh rregullova rregullove rregulluam rregulluan rregulluar rregulluat
+80	380	djalosh	djaloshe djaloshi djaloshin djaloshit djaloshë
+81	381	nën	ndën
+82	382	takim	takime takimesh takimet takimeve takimi takimin takimit takimë takin
+83	383	derisa	
+84	384	idiot	idiota idiotash idiotat idiote idioti idiotin idiotit idiotja idiotë idiotësh idiotët idiotëve
+85	385	burg	burgim burgin burgje burgjesh burgjet burgjeve burgu burgun burgut burgë
+86	386	lehtë	lehta
+87	387	lidh	lidha lidhe lidhem lidhesh lidhet lidhi lidhim lidhin lidhni lidhnim lidhnin lidhnit lidhte lidhu lidhur lidhë lidhëm lidhën lidhësh lidhët lill
+88	388	ushqim	ushqime ushqimesh ushqimet ushqimeve ushqimi ushqimin ushqimit
+89	389	doktor	doktora doktoresh doktoreshë doktori doktorin doktorit doktorr doktorri doktorë doktorësh doktorët doktorëve
+90	390	afër	
+91	391	prandaj	
+92	392	premtoj	premto premtoi premtojmë premtojnë premtojë premtomë premton premtoni premtonte premtova premtove premtuam premtuan premtuar premtuat
+93	393	rëndësishëm	rëndësishme
+94	394	dytë	dyta dyti dytin dytën dytës dytët
+95	395	qeveri	qeveria qeverie qeverija qeverin qeverinë qeverish qeverisë qeveritë qeverive
+96	396	shkatërroj	shkatërro shkatërrohej shkatërrohem shkatërrohen shkatërroheni shkatërrohesh shkatërroheshin shkatërrohet shkatërroi shkatërroja shkatërroje shkatërrojmë shkatërrojn shkatërrojnë shkatërrojë shkatërron shkatërroni shkatërronim shkatërronin shkatërronit shkatërronte shkatërrova shkatërrove shkatërruam shkatërruan shkatërruar shkatërruat
+97	397	drejt	
+98	398	katër	katërt
+99	399	lajm	lajme lajmesh lajmet lajmeve lajmi lajmin lajmit
+100	400	fle	fjeta fjetur flej flesh fli flija flinte flinë flisë flitë flë

@@ -1,0 +1,100 @@
+1	1801	fis	fise fisesh fiset fiseve fisi fisin fisit
+2	1802	lepur	lepuj lepujsh lepujt lepujve lepuri lepurin lepurit
+3	1803	argjend	argjendi argjendin argjendit argjendta argjendtë
+4	1804	fron	frone froni fronin fronit front fronte
+5	1805	thes	thasin thasë thasët thasëve these thesi thesin thesit thesë
+6	1806	relaksohem	relaksohej relaksohemi relaksohen relaksoheni relaksohesh relaksohesha relaksoheshim relaksoheshin relaksohet relaksohu relaksohuni relakson relaksuar
+7	1807	gjigant	gjigante gjiganti gjigantin gjigantit gjigantë gjigantësh gjigantët gjigantëve
+8	1808	kurriz	kurrize kurrizi kurrizin kurrizit
+9	1809	kij	ki kija kije kika kike kin kini kinit kinë kiu
+10	1810	infermiere	infermier infermieren infermieres infermieret infermierja
+11	1811	janar	janari janarin janarit
+12	1812	zyrtarisht	
+13	1813	arkë	arka arkat arkave arke arkin arkën arkës
+14	1814	dallim	dallime dallimesh dallimet dallimeve dallimi dallimin dallimit
+15	1815	ftesë	ftesa ftesash ftesat ftesave ftese ftesën ftesës
+16	1816	trajnoj	trajnohem trajnohen trajnohet trajnoi trajnoja trajnojmë trajnon trajnoni trajnuar
+17	1817	mburojë	mburoja mburojat mburojave mburoje mburojën mburojës
+18	1818	dështak	dështaku dështakun dështakë dështakësh dështakët dështakëve
+19	1819	shqiponjë	shqiponja shqiponjash shqiponjat shqiponjave shqiponje shqiponjën shqiponjës
+20	1820	bark	barku barkun barkut barqet
+21	1821	xhuxh	xhuxha xhuxhash xhuxhat xhuxhave xhuxhe xhuxhi xhuxhin xhuxhit xhuxhë xhuxhësh xhuxhët xhuxhëve
+22	1822	cilësi	cilësia cilësie cilësinë cilësish cilësisë cilësitë cilësive
+23	1823	grabitje	grabitjen grabitjes grabitjet grabitjeve
+24	1824	televizion	televizione televizionet televizioni televizionin televizionit
+25	1825	rrotë	rrota rrotash rrotat rrotave rrote rrotën rrotës
+26	1826	bekim	bekime bekimesh bekimet bekimi bekimin bekimit bekin bekit
+27	1827	gjuetar	gjuetare gjuetari gjuetarin gjuetarit gjuetarë gjuetarësh gjuetarët gjuetarëve
+28	1828	lekë	leka lekën
+29	1829	ankth	ankthe ankthesh ankthet anktheve ankthi ankthin ankthit
+30	1830	qij	qi qifsh qifsha qiftë qija qije qika qimë qin qinit qinte qinë qirje qirë qitë qiu qive
+31	1831	qese	qeseje qesen qeses qesesh qeset qeseve qesja qesë
+32	1832	hutoj	huto hutohen hutoi hutojmë hutojnë hutojë huton hutoni hutonte hutova hutove hutuan hutuar
+33	1833	bezdis	besdis bezdisa bezdise bezdisi bezdisim bezdisin bezdisja bezdisje bezdisni bezdisnin bezdiste bezdisur bezdisë bezdisës
+34	1834	ndërmjet	
+35	1835	ndalim	ndalime ndalimesh ndalimet ndalimeve ndalimi ndalimin ndalimit ndalini
+36	1836	larë	lara larat lare larën larës
+37	1837	turk	turke turku turq turqit
+38	1838	metodë	metoda metodash metodat metodave metode metodën metodës
+39	1839	qelb	qelba qelbash qelbe qelbesh qelbet qelbi qelbin qelbje qelbka qelbni qelbur qelbë qelbën qelbët
+40	1840	tym	tymi tymin tymit tymrat tymrave
+41	1841	luginë	lugina luginat luginave lugine luginën luginës
+42	1842	picë	pica picash picat picave pice picën picës
+43	1843	shëtitje	shëtitja shëtitjeje shëtitjen shëtitjes shëtitjesh shëtitjet shëtitjeve
+44	1844	përforcim	përforcime përforcimet përforcimi përforcimin
+45	1845	tingull	tinguj tingujsh tingujt tingujve tingulli tingullin tingullit
+46	1846	tradhtar	tradhtare tradhtari tradhtarin tradhtarë tradhtarët tradhëtar
+47	1847	pazakontë	pazakont pazakonta
+48	1848	xham	xhama xhamash xhamat xhamave xhamet xhamin xhamit
+49	1849	kurs	kursesh kurset kursi kursim kursin kursit
+50	1850	miratoj	miratohet miratoi miratoje miratojmë miratojnë miratojë miraton miratoni miratonim miratonin miratonte miratova miratuam miratuan miratuar miratuat
+51	1851	medie	media mediet
+52	1852	lisë	lisa lisat lisave lise liseta lisës
+53	1853	parlament	parlamenti parlamentit
+54	1854	bagazh	bagazhe bagazhet bagazheve bagazhi bagazhin bagazhit
+55	1855	xheloz	xheloze xhelozë
+56	1856	qasje	qasja qasjeje qasjen qasjes qasjesh qasjet qasjeve
+57	1857	afërm	afërme afërmi afërmin afërmit afërmja afërmve
+58	1858	aleat	aleate aleati aleatja aleatë aleatët aleatëve
+59	1859	urrejtje	urrejtja urrejtjeje urrejtjen urrejtjes urrejtjet urrejtjeve
+60	1860	çdokush	
+61	1861	han	hane hanet hani
+62	1862	punësoj	punëso punësoi punësoja punësoje punësojmë punësojnë punësojë punëson punësoni punësonim punësonin punësonit punësonte punësova punësove punësuam punësuan punësuat
+63	1863	lartësi	lartësia lartësie lartësinë lartësisë lartësitë
+64	1864	vallëzoj	vallëzo vallëzoi vallëzoja vallëzoje vallëzojmë vallëzojnë vallëzojë vallëzon vallëzoni vallëzonim vallëzonin vallëzonit vallëzonte vallëzova vallëzove vallëzuam vallëzuar vallëzuat
+65	1865	cep	cepa cepat cepi cepin cepit
+66	1866	autor	autori autorin autorit autorë autorësh autorët autorëve
+67	1867	përfundimisht	
+68	1868	bisht	bishta bishtat bishti bishtin bishtit
+69	1869	bashkëpunoj	bashkëpuno bashkëpunoi bashkëpunoja bashkëpunoje bashkëpunojmë bashkëpunojnë bashkëpunojë bashkëpunon bashkëpunoni bashkëpunonim bashkëpunonin bashkëpunonit bashkëpunonte bashkëpunova bashkëpunove bashkëpunuam bashkëpunuan bashkëpunuar bashkëpunuat
+70	1870	ditar	ditari ditarin ditarit ditarë ditarët ditarëve
+71	1871	ngase	
+72	1872	keqardhje	keqardhja keqardhjen keqardhjes keqardhjet
+73	1873	tashme	tashmen tashmes tashmja
+74	1874	gallatë	gallat
+75	1875	anuloj	anulo anulohet anuloi anuloja anuloje anulojmë anulojnë anulojë anulon anuloni anulonim anulonin anulonte anulova anulove anuluam anuluan anuluar anuluat
+76	1876	muskul	muskuj muskujsh muskujt muskujve muskuli muskulin muskulit
+77	1877	funksion	funksione funksionesh funksionet funksioneve funksioni funksionim funksionin funksionit
+78	1878	buxhet	buxheti buxhetin buxhetit
+79	1879	thaj	thaftë thahen thahet thaja thaji thajmë thajnë thamë than thani thante tharë thau thava thave
+80	1880	mamit	
+81	1881	gjoj	gjo gjoni gjonin gjonit gjova gjuan gjuar
+82	1882	aventurë	aventura aventurash aventurat aventurave aventure aventurën aventurës
+83	1883	zile	zileje zilen ziles zilesh zilet zileve zilja
+84	1884	çmendem	çmendej çmendemi çmenden çmendeni çmendesh çmendesha çmendeshe çmendeshin çmendet çmendu
+85	1885	alkool	alkoole alkooli alkoolin alkoolit
+86	1886	zotëroj	zotëroi zotëroja zotëroje zotërojmë zotërojnë zotërojë zotëron zotëroni zotëronim zotëronin zotëronte zotërova zotërove zotëruan zotëruar
+87	1887	presë	presa prese
+88	1888	trajnim	trajnime trajnimesh trajnimet trajnimeve trajnimi trajnimin trajnimit
+89	1889	injoroj	injoro injoroi injoroja injoroje injorojmë injorojnë injorojë injoron injoroni injoronim injoronin injoronte injorova injorove injoruan injoruar injoruat
+90	1890	përqafoj	përqafo përqafohemi përqafoi përqafoja përqafoje përqafojmë përqafojnë përqafojë përqafon përqafoni përqafonin përqafonte përqafova përqafove përqafuam përqafuan përqafuar
+91	1891	punësuar	punësuara punësuari punësuarit punësuarve
+92	1892	frutë	fruta frutash frutat frutave frute fruti
+93	1893	ëmë	amash amë em ëma ëme ëmën ëmës
+94	1894	shampanjë	shampanj shampanja shampanje shampanjën shampanjës
+95	1895	zgjedhë	zgjedha zgjedhe zgjedhën zgjedhës zgjedhësh
+96	1896	debil	debila debilat debilave debile debili debilin debilë
+97	1897	bërthamor	bërthamore bërthamorë
+98	1898	enjte	enjten enjtes enjëte
+99	1899	verbër	verbëra verbërit
+100	1900	përshkruaj	përshkrova përshkruaja përshkruaje përshkruajnë përshkruan përshkruani përshkruante përshkruar

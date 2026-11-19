@@ -1,0 +1,100 @@
+1	2601	hidhërohem	hidhërohemi hidhërohen hidhërohesh hidhërohet hidhërova hidhëruar
+2	2602	verore	veror verorja
+3	2603	sheqerkë	sheqerka sheqerkat sheqerkave sheqerke sheqerkës
+4	2604	trashëgoj	trashëgohen trashëgoheni trashëgoi trashëgoje trashëgojmë trashëgojnë trashëgojë trashëgon trashëgoni trashëgonin trashëgonte trashëgova trashëgove trashëguam trashëguan trashëguar
+5	2605	adhurues	adhuruese adhuruesi adhuruesit
+6	2606	kamerier	kamarier kamarjer kameriere kamerieri kamerierin kamerierit kamerierja kamerierë kamerierët
+7	2607	paq	
+8	2608	shtohem	shtohej shtohen shtoheni shtoheshin shtohet shtuar
+9	2609	riparoj	riparo riparoi riparoja riparoje riparojmë riparojnë riparojë riparon riparoni riparonim riparonin riparonte riparova riparuan riparuar
+10	2610	kokërr	kokrra kokrrat kokrrave kokrre kokrrën kokrrës
+11	2611	dymbëdhjetë	
+12	2612	val	baj vale vali
+13	2613	piramidë	piramida piramidat piramidave piramide piramidën piramidës
+14	2614	sirtar	sirtaret sirtari sirtarin sirtarit sirtarë sirtarët
+15	2615	transformoj	transformohen transformohet transformoi transformoje transformojmë transformojnë transformojë transformon transformoni transformonin transformonte transformova transformove transformuan transformuar
+16	2616	terrorizëm	terrorizmi terrorizmin terrorizmit
+17	2617	duartrokitje	duartrokitja duartrokitjen duartrokitjesh duartrokitjet duartrokitjeve
+18	2618	shalë	shala shalat shalave shale shalën shalës shalët shalëve
+19	2619	vodkë	vodka vodke vodkën
+20	2620	kapërcej	kapërce kapërceja kapërceje kapërcejmë kapërcejnë kapërcen kapërceni kapërcenim kapërcenin kapërcente kapërceu kapërceva kapërceve kapërcyem kapërcyen kapërcyer
+21	2621	kalbur	kalbura
+22	2622	përmasë	përmasa përmasash përmasat përmasave përmase përmasën përmasës
+23	2623	zbeh	zbehe zbehim zbehin zbehja zbehje zbehnin zbehta zbehte zbehtë zbehu zbehur zbehën zbehët
+24	2624	copëtoj	copëto copëtohet copëtoi copëtoja copëtoje copëtojmë copëtojnë copëtojë copëton copëtoni copëtonim copëtonin copëtonte copëtova copëtove copëtuan copëtuar
+25	2625	fizikë	fizika fizikën fizikës
+26	2626	nyjë	nyja nyjat nyjave nyje nyjën nyjës
+27	2627	hak	
+28	2628	veçanti	veçantia veçantinë veçantisë veçantitë
+29	2629	gjahtar	gjahtari gjahtarin gjahtarit gjahtarë gjahtarët gjahtarëve
+30	2630	vud	vu
+31	2631	çekiç	çekiçi çekiçin çekiçë çekiçët
+32	2632	trimëri	trimëria trimërie trimërinë trimërisë trimëritë
+33	2633	kungull	kunguj kungujt kungujve kungulli kungullin kungullit
+34	2634	përdorues	përdoruesi përdoruesin përdoruesish përdoruesit përdoruesve
+35	2635	tres	treta tretur
+36	2636	bren	brena breni brenin brent
+37	2637	përjashta	
+38	2638	konkurrencë	konkurrenca konkurrencën konkurrencës
+39	2639	hata	
+40	2640	qeverisje	qeverisja qeverisjeje qeverisjen qeverisjes qeverisjet qeverisjeve
+41	2641	pis	pisat pise pisë
+42	2642	balet	baleti baletin baletit
+43	2643	zota	zotave
+44	2644	flutur	flutura fluturat fluturave fluture fluturën fluturës
+45	2645	tradhti	tradhtia tradhtie tradhtinë tradhtisë
+46	2646	qarkulloj	qarkulloi qarkulloje qarkullojmë qarkullojnë qarkullojë qarkullon qarkullonim qarkullonin qarkullonte qarkullova qarkulluan qarkulluar
+47	2647	injorant	injorante injorantin injorantë injorantët
+48	2648	zor	zori
+49	2649	shkul	shkule shkulet shkuli shkulim shkulin shkulja shkulje shkulni shkulnim shkulnin shkulte shkulur shkulë shkulën
+50	2650	hidhur	hidhura hidhët
+51	2651	peshkoj	peshkoja peshkoje peshkojmë peshkojnë peshkon peshkoni peshkonim peshkonin peshkonte peshkuam peshkuan peshkuar
+52	2652	kompromis	kompromise kompromisesh kompromiset kompromiseve kompromisi kompromisin kompromisit
+53	2653	lëmsh	lëmshe lëmshi lëmshin lëmshit
+54	2654	audiencë	audienca audiencat audiencave audience audiencën audiencës
+55	2655	arë	ara arash arat arave are arën arës
+56	2656	gatim	gatime gatimesh gatimet gatimeve gatimi gatimin gatimit
+57	2657	diellor	diellore
+58	2658	gjind	gjindem gjindet
+59	2659	shtrydh	shtrydha shtrydhe shtrydhi shtrydhim shtrydhin shtrydhja shtrydhje shtrydhni shtrydhnin shtrydhte shtrydhur shtrydhën shtrydhësh shtrydhët
+60	2660	vjeshtë	vjeshta vjeshte vjeshtën vjeshtës
+61	2661	paradë	parada paradash paradat parade paradën paradës
+62	2662	projektligj	projektligje projektligjesh projektligjet projektligjeve projektligji projektligjin projektligjit
+63	2663	mbikëqyr	mbikëqyrim mbikëqyrja mbikëqyrje mbikëqyrur mbikëqyrës
+64	2664	rrënojë	rrënoja rrënojash rrënojat rrënojave rrënoje
+65	2665	huq	huqe huqesh huqet huqi huqin
+66	2666	barazim	barazimi
+67	2667	lej	la leva loj
+68	2668	vetëtim	vetëtima vetëtimat vetëtimë vetëtimën vetëtimës
+69	2669	justifikoj	justifiko justifikohem justifikohesh justifikoi justifikoje justifikojmë justifikojnë justifikojë justifikon justifikoni justifikonin justifikonte justifikove justifikuan justifikuar
+70	2670	kthetër	kthetra kthetrash kthetrat kthetrave kthetrën kthetrës
+71	2671	vapë	vapa vapën vapës
+72	2672	kompetencë	kompetenca kompetencash kompetencat kompetencave kompetence kompetencën kompetencës
+73	2673	hajn	ajin ajn hain hajna hajnat hajnave hajnin hajnit hajnë
+74	2674	shkurtë	shkurta shkurte shkurtesë shkurtën shkurtës
+75	2675	jetësor	jetësore
+76	2676	mulli	mullinj mullinjsh mullinjtë mullinjve mulliri mullirin mullirit
+77	2677	mel	meli
+78	2678	çadër	çadra çadrash çadrat çadrave çadre çadrën çadrës
+79	2679	ritual	rituale ritualesh ritualet ritualeve rituali ritualin ritualit
+80	2680	ves	pies pjes pyet pys vese vesesh veset veseve vesi vesin vesit veta vetur
+81	2681	ashtuquajtur	ashtuquajtura ashtuquajturi ashtuquajturin ashtuquajturit ashtuquajturën
+82	2682	konsumator	konsumatori konsumatorin konsumatorit konsumatorë konsumatorët konsumatorëve
+83	2683	dajë	daja dajat dajave daje dajën dajës
+84	2684	fërkoj	fërko fërkoi fërkoja fërkoje fërkoji fërkojmë fërkojnë fërkojë fërkon fërkoni fërkonim fërkonin fërkonte fërkova fërkove fërkuar
+85	2685	rejë	rejash rejat rejave reje rejin rejën rejës
+86	2686	mysliman	myslimane myslimani myslimanin myslimanit myslimanë myslimanësh myslimanët myslimanëve
+87	2687	vreshtari	aa ae vreshtaria
+88	2688	preh	prefsh prefshi prefshin preftë prehet prehje prehtë prehu preka preke prekej prekemi prekeni premë pretë preu preva preve prisja prisje prisnim prisnin prisnit priste prit prë
+89	2689	legjendar	legjendare legjendari
+90	2690	raft	rafte raftet rafteve rafti raftin raftit
+91	2691	meqenëse	
+92	2692	hiç	
+93	2693	lexues	lexuesi lexuesin lexuesish lexuesit lexuesve
+94	2694	acid	acide acidesh acidet acideve acidi acidin acidit
+95	2695	virgjëreshë	virgjëresha virgjëreshat virgjëreshave virgjëreshe virgjëreshën virgjëreshës
+96	2696	udhë	udha udhe udhën udhës udhët udhëve
+97	2697	vëllazëri	vllazni vëllazëria vëllazërie vëllazërinë vëllazërisë vëllazërive
+98	2698	senë	sen sena senat sene sent senës
+99	2699	kotem	kota kotur
+100	2700	grevë	greva grevash grevat grevave greve grevën grevës

@@ -1,0 +1,100 @@
+1	1901	bebë	beba bebat bebe bebin bebën bebës
+2	1902	tund	tunda tunde tundem tundet tundi tundim tundin tundja tundje tundni tundnin tundnit tundte tundu tundur tundë tundën tundësh
+3	1903	vihem	vihej vihemi vihen viheni vihesh vihesha viheshe viheshin vihet vihuni vënë
+4	1904	pranga	prangash prangat prangave
+5	1905	vërë	vëra vëre vërën
+6	1906	fill	fije fijesh fijet fijeve filli fillin fillit
+7	1907	martoj	marto martoi martoja martoje martojmë martojnë martojë marton martoni martonte martova martove martuam martuan martuar martuat
+8	1908	arsim	arsimi arsimim arsimin arsimit
+9	1909	diel	diela dielën
+10	1910	teze	tezen tezes tezet tezeve tezja
+11	1911	këshilloj	këshillohem këshillohemi këshillohet këshilloi këshilloja këshilloje këshillojmë këshillojnë këshillojë këshillon këshilloni këshillonin këshillonit këshillonte këshillova këshillove këshilluam këshilluan këshilluar këshilluat
+12	1912	shprehem	shprehej shprehemi shprehen shpreheni shprehesh shprehesha shpreheshim shpreheshin shprehet shprehu shprehuni shprehur
+13	1913	ngul	ngula ngule nguli ngulin ngulja ngulni ngulur ngulë ngulësh
+14	1914	tregti	tregtia tregtie tregtinë tregtisë
+15	1915	ter	tera tere teri terim terin terit terje ternit terur terëm terën
+16	1916	krenar	krenare
+17	1917	pasëm	pasme
+18	1918	vullnetar	vullnetare vullnetari vullnetarin vullnetarit vullnetarë vullnetarësh vullnetarët vullnetarëve
+19	1919	trokas	trokasim trokasin trokasë trokasësh troket trokisja trokisni trokiste trokit trokita trokite trokiti trokitja trokitni trokitur trokitëm trokitën trokitët
+20	1920	inatosem	inatosej inatosen inatoseni inatosesh inatosesha inatoset inatosu inatosur
+21	1921	nxit	nxis nxita nxite nxiti nxitin nxitja nxitje nxitni nxitur nxitëm nxitën nxitës nxitët
+22	1922	lig	ligë
+23	1923	dolli	dollia dollinë dollisë
+24	1924	all	alle
+25	1925	baltë	balta baltave balte baltën baltës
+26	1926	lek	leku lekun lekut lekësh lekët lekëve
+27	1927	rrogë	rroga rrogash rrogat rrogave rroge rrogën rrogës
+28	1928	përplasje	përplasja përplasjeje përplasjen përplasjes përplasjesh përplasjet përplasjeve
+29	1929	hi	hiri
+30	1930	trishtohem	trishtohen trishtoheni trishtohesh trishtohet trishtohuni trishtova trishtuar
+31	1931	përsipër	
+32	1932	beqar	beqare beqari beqaria beqarie beqarisë beqarit beqarë beqarësh beqarët beqarëve
+33	1933	ndershëm	
+34	1934	ndalohem	ndalohej ndalohen ndaloheni ndalohesh ndaloheshin ndalohet ndalohu ndalohuni ndaluar
+35	1935	ther	thera there theri therim therin therja therje therni thernim thernin therri therrin therte therur therë therëm therën therësh
+36	1936	komplikoj	komplikon komplikuar
+37	1937	avantazh	avantazhe avantazhesh avantazhet avantazheve avantazhi avantazhin avantazhit
+38	1938	shpjegim	shpjegime shpjegimesh shpjegimet shpjegimeve shpjegimi shpjegimin shpjegimit
+39	1939	helmoj	helmo helmohen helmoi helmoja helmoje helmojmë helmojnë helmojë helmon helmoni helmonin helmonte helmova helmove helmuan helmuar helmuat
+40	1940	përgjatë	
+41	1941	urinoj	urino urinoi urinoja urinoje urinojmë urinojnë urinojë urinon urinoni urinonte urinova urinove urinuan urinuar
+42	1942	bregu	bregun bregut
+43	1943	merë	mera merat mere merrë
+44	1944	zemërim	zemërime zemërimi zemërimin zemërimit
+45	1945	çifut	çifute çifuti çifutin çifutit çifutë çifutësh çifutët çifutëve
+46	1946	shprehje	shprehja shprehjeje shprehjen shprehjes shprehjesh shprehjet shprehjeve
+47	1947	gëzim	gzim gëzime gëzimesh gëzimet gëzimeve gëzimi gëzimin gëzimit
+48	1948	bukurosh	bukuroshe
+49	1949	heshtje	heshtja heshtjeje heshtjen heshtjes heshtjet heshtjeve
+50	1950	arratisem	arratisej arratisemi arratisen arratiseni arratisesh arratisesha arratiseshe arratiseshim arratiseshin arratiseshit arratiset arratisu arratisuni
+51	1951	qenie	qenia qenieje qenien qeniet qenieve qenje
+52	1952	tatuazh	tatuazha tatuazhe tatuazhesh tatuazhet tatuazheve tatuazhi tatuazhin tatuazhit tatuazhë tatuazhën
+53	1953	vetëvrasje	vetëvrasja vetëvrasjeje vetëvrasjen vetëvrasjes vetëvrasjesh vetëvrasjet vetëvrasjeve
+54	1954	hajvan	hajvani hajvanin hajvanit hajvanë hajvanësh hajvanët hajvanëve
+55	1955	historik	historike historikë
+56	1956	përfundimtar	përfundimtare përfundimtarja
+57	1957	not	nod noti
+58	1958	bela	belaja belaje belanë
+59	1959	arratisur	arratisuri arratisurit arratisurve
+60	1960	fiks	
+61	1961	merimangë	marimangë merimanga merimangash merimangat merimangave merimange merimangën merimangës
+62	1962	mirënjohës	mirënjohëse
+63	1963	ndërprej	ndërpre ndërpreje ndërprejmë ndërprejë ndërpreni ndërprenë ndërprer ndërpret ndërpreu ndërpreve
+64	1964	muze	muzetë muzeu muzeun muzeut muzeve
+65	1965	dollap	dollapi dollapin dollapit dollapë dollapët dollapëve
+66	1966	ftoh	ftoha ftohe ftohim ftohin ftohja ftohje ftoht ftohte ftohu ftohur ftohën ftohët
+67	1967	vallë	vall
+68	1968	ekran	ekrane ekranet ekrani ekranin ekranit
+69	1969	njohuri	njohuria njohurie njohurin njohurinë njohurish njohurisë njohurit njohuritë njohurive
+70	1970	frigorifer	frigoriferi frigoriferin frigoriferit frigoriferë frigoriferët
+71	1971	pranverë	prandverë pranvera pranverat pranverave pranvere pranverën pranverës
+72	1972	faktikisht	
+73	1973	emocionoj	emociono emocionohem emocionohesh emocionohet emocionon emocionova emocionuar
+74	1974	koncert	koncerte koncertet koncerti koncertin koncertit
+75	1975	diç	
+76	1976	befasi	befasia befasie befasinë befasisë befasitë
+77	1977	thashetheme	thashethem thashethemesh thashethemet thashethemeve
+78	1978	mostër	mostra mostrash mostrat mostrave mostre mostrën mostrës
+79	1979	vegël	vegla veglash veglat veglave veglën veglës
+80	1980	shkretë	shkret shkreta shkretin shkretën shkretët
+81	1981	miqësi	miqësia miqësie miqësinë miqësish miqësisë miqësitë miqësive
+82	1982	qime	kime qim qimen qimes qimesh qimet qimeve qimja qimë
+83	1983	arab	arabe arabi arabin arabë arabët arabëve
+84	1984	garazh	garazha garazhe garazhesh garazhet garazheve garazhi garazhin garazhit garazhë garazhën
+85	1985	gusht	gush gusha gushti gushtin gushtit
+86	1986	nxeh	nxeha nxehe nxehim nxehin nxehja nxehje nxehni nxeht nxehte nxehu nxehur nxehësh nxej nxejë
+87	1987	korrupsion	korrupsioni korrupsionin korrupsionit
+88	1988	ardhje	ardhja ardhjeje ardhjen ardhjes ardhjet ardhjeve
+89	1989	mjedis	mjedise mjedisesh mjediset mjediseve mjedisi mjedisin mjedisit
+90	1990	blerje	blerja blerjeje blerjen blerjes blerjesh blerjet blerjeve
+91	1991	përderisa	
+92	1992	hedhe	hedhet hedhja hedhë
+93	1993	skenar	skenari skenarin skenarit skenarë skenarësh skenarët skenarëve
+94	1994	peshkaqen	peshkaqena peshkaqene peshkaqenet peshkaqeneve peshkaqeni peshkaqenin peshkaqenit peshkaqenë peshkaqenësh peshkaqenët peshkaqenëve
+95	1995	njëfarë	
+96	1996	fe	feja feje fenë fesh fesë fetë feve
+97	1997	shtetas	shtetasi shtetasin shtetasit shtetasve
+98	1998	pasaportë	pasaporta pasaportash pasaportat pasaportave pasaporte pasaportën pasaportës
+99	1999	sakrifikoj	sakrifiko sakrifikohej sakrifikohem sakrifikohemi sakrifikohen sakrifikoheni sakrifikohesh sakrifikoheshin sakrifikohet sakrifikoi sakrifikoja sakrifikoje sakrifikojmë sakrifikojnë sakrifikojë sakrifikon sakrifikoni sakrifikonim sakrifikonin sakrifikonte sakrifikova sakrifikove sakrifikuam sakrifikuan sakrifikuar sakrifikuat
+100	2000	mjaftë	

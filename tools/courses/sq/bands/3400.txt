@@ -1,0 +1,100 @@
+1	3301	pasnesër	
+2	3302	pezull	
+3	3303	grimë	grima grime grimi grimin grimën grimës
+4	3304	nxënëse	nxënëseje nxënësen nxënëses nxënëset nxënëseve nxënësja
+5	3305	kom	kome komet komi komit komë
+6	3306	matematik	matematike matematiku
+7	3307	përmbi	
+8	3308	magnet	magnete magnetet magneti magnetin
+9	3309	putër	putra putrat putrën
+10	3310	papun	papunë
+11	3311	nxë	nxije nxini nxinin nxinte nxënë zan
+12	3312	mang	mangu mangut mangët
+13	3313	sakat	sakate sakatë
+14	3314	shiringë	shiringa shiringat shiringën
+15	3315	hulumtoj	hulumtoi hulumtoja hulumtojmë hulumtojnë hulumton hulumtoni hulumtonte hulumtova hulumtuan hulumtuar
+16	3316	shputë	shputa shputat shputave shputën shputës
+17	3317	mpreh	mprehe mprehim mprehin mprehja mprehje mprehni mpreht mprehte mprehur mprehën
+18	3318	filtër	filtra filtrat filtri filtrin
+19	3319	violinë	violina violinat violinave violine violinën violinës
+20	3320	agresion	agresione agresionet agresioneve agresioni agresionin agresionit
+21	3321	gëlltis	gëlltisin gëlltisë gëlltita gëlltite gëlltiti gëlltitim gëlltitja gëlltitje gëlltitni gëlltitën
+22	3322	imponohem	imponohej imponohemi imponohen imponoheni imponohesh imponohesha imponoheshin imponohet imponoj imponon imponuar
+23	3323	rrjep	rrjepim rrjepin rrjepur rrjepë
+24	3324	llogore	llogoren llogores llogoret llogoreve llogorja
+25	3325	përqesh	përqeshe përqeshi përqeshim përqeshin përqeshja përqeshje përqeshni përqeshnin përqeshte përqeshur përqeshën
+26	3326	grurë	gruri
+27	3327	teknologjik	teknologjike teknologjikë
+28	3328	mëngë	mënga mëngën mëngës mëngët
+29	3329	torollak	torollaku torollakut torollakë torollakët
+30	3330	pagëzoj	pagëzo pagëzoi pagëzoja pagëzojmë pagëzojnë pagëzon pagëzonin pagëzonte pagëzova pagëzuam pagëzuan pagëzuar
+31	3331	kall	kalle kallin kallur
+32	3332	kos	kosi kosin kosit
+33	3333	copë-copë	copa-copa
+34	3334	këmbej	këmbe këmbehen këmbeje këmbejmë këmbejnë këmben këmbeni këmbenim këmbenin këmbeu këmbeva këmbeve këmbyem këmbyen këmbyer
+35	3335	ekuacion	ekuacione ekuacionet ekuacioneve ekuacioni ekuacionin ekuacionit
+36	3336	asgjësoj	asgjësoi asgjësoje asgjësojmë asgjësojnë asgjëson asgjësoni asgjësonin asgjësonte asgjësova asgjësuam asgjësuan asgjësuar asgjësuat
+37	3337	vendosmëri	vendosmëria vendosmërie vendosmërinë vendosmërisë
+38	3338	himn	himne himnesh himnet himneve himni himnin himnit
+39	3339	gjallesë	gjallesa gjallesash gjallesat gjallesave gjallese gjallesën
+40	3340	acar	acari acarim acarin acarit acartë
+41	3341	vegë	vega vegën
+42	3342	reciprok	reciproke
+43	3343	lasht	lashta
+44	3344	busull	busulla busullat busullën busullës
+45	3345	qyqar	qyqare qyqarë
+46	3346	vagjinë	vagjina vagjinat vagjinave vagjine vagjinën vagjinës
+47	3347	atlet	atleti atletë atletët
+48	3348	afrikan	afrikani afrikanin afrikanit afrikanë afrikanët afrikanëve
+49	3349	lagështi	lagështia lagështie lagështinë lagështisë
+50	3350	trilloj	trilloi trilloje trillojmë trillojnë trillon trillonin trillonte trillova trilluan trilluar
+51	3351	armiqësor	armiqësore armiqësorë
+52	3352	miell	mielli miellin miellit mjell molla
+53	3353	aspirinë	aspirin aspirina aspirinat aspirinave aspirine aspirinën aspirinës
+54	3354	llafazan	llafazane llafazani
+55	3355	pirun	piruni pirunin pirunit pirunë pirunët
+56	3356	histerik	histerike
+57	3357	luleshtrydhe	luleshtrydheje luleshtrydhen luleshtrydhes luleshtrydhet luleshtrydheve luleshtrydhja
+58	3358	vath	vathi vathin vathësh vathët vëth vëthi vëthin vëthë vëthët
+59	3359	palcë	palca palcën palcës
+60	3360	mohim	mohime mohimet mohimi mohimin
+61	3361	islamik	islamike islamikë
+62	3362	vaksinim	vaksinime vaksinimesh vaksinimet vaksinimeve vaksinimi vaksinimin vaksinimit
+63	3363	mitër	mitra mitre mitrën mitrës
+64	3364	ngushtoj	ngushtohet ngushtoi ngushtoje ngushtojmë ngushtojnë ngushton ngushtoni ngushtonin ngushtonte ngushtuam ngushtuan ngushtuar
+65	3365	pëlcas	pëlcasin pëlcasësh pëlcet pëlciste pëlcit pëlcite pëlciti pëlcitur pëlcitën pëllcas
+66	3366	harxh	arç harxhet harxhi harxhim
+67	3367	grafik	grafika grafiku grafikun grafikut grafikë grafikët grafikëve
+68	3368	plotësim	plotësime plotësimet plotësimeve plotësimi plotësimin plotësimit
+69	3369	vendor	vendorë
+70	3370	karavidhe	karavidhen karavidhesh karavidhet karavidheve karavidhja
+71	3371	shpullë	shpulla shpullash shpullat shpulle shpullën
+72	3372	ivë	iva ive ivën
+73	3373	humnerë	humnera humnerat humnere humnerën humnerës
+74	3374	arsyetoj	arsyeto arsyetoi arsyetoja arsyetojmë arsyetojnë arsyeton arsyetoni arsyetonin arsyetonte arsyetova arsyetuan arsyetuar
+75	3375	përdhe	
+76	3376	posaçëm	
+77	3377	korr	korra korre korri korrim korrin korrja korrni korrnin korrte korrur korrën
+78	3378	xhind	xhindet xhindi xhindin xhindit
+79	3379	thar	thara thare thari tharja tharje
+80	3380	daulle	daullen daulles daullet daulleve daullja
+81	3381	vetjak	vetjake
+82	3382	trill	trille trillet trilli trillim trillime trillit
+83	3383	gëzof	gëzofi gëzofin gëzofit gëzofë gëzofët
+84	3384	dëbim	dëbime dëbimet dëbimeve dëbimi dëbimin dëbimit
+85	3385	çmos	
+86	3386	përrua	përrenj përrenjtë përrenjve përrenjë përroi përroin përroit
+87	3387	fitimprurës	fitimprurëse
+88	3388	breshër	breshk breshri breshën breshëri
+89	3389	mustardë	mustard mustarda mustarde mustardën mustardës
+90	3390	bronz	bronx bronze bronzi bronztë
+91	3391	fletore	fletoren fletoret fletorja
+92	3392	kunat	kunati kunatin kunatit kunetër kunetërit kunetërve
+93	3393	barazi	barazia barazie barazinë barazisë
+94	3394	guximtar	
+95	3395	lagësht	
+96	3396	akuarium	akuariume akuariumet akuariumeve akuariumi akuariumin akuariumit
+97	3397	hamendësoj	hamendëso hamendësoi hamendësoja hamendësojmë hamendësojnë hamendëson hamendësoni hamendësonte hamendësova hamendësuan hamendësuar
+98	3398	skllavëri	skllavëria skllavërie skllavërinë skllavërisë
+99	3399	sundimtar	sundimtari sundimtarit
+100	3400	pisllëk	pisllëkun pisllëqe

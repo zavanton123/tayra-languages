@@ -1,0 +1,100 @@
+1	4901	shtrojë	shtroja shtroje
+2	4902	efektivisht	
+3	4903	reper	reperë
+4	4904	zejtar	zejtari zejtarin zejtarë zejtarësh zejtarët zejtarëve
+5	4905	utopi	utopia utopie utopinë utopisë utopitë
+6	4906	hajat	ajet hajati hajatin hajatit
+7	4907	bymej	bymehet
+8	4908	suedisht	
+9	4909	zgurdulloj	zgurdulloja zgurdullojmë zgurdullon zgurdulloni zgurdulluar
+10	4910	njëzetepesë	
+11	4911	pantofël	pantofla
+12	4912	gjër	
+13	4913	rrasht	rreshtë
+14	4914	dyvjeçar	dyvjeçare
+15	4915	ngaj	ngaje
+16	4916	ujdhesë	ujdhesa
+17	4917	bukël	
+18	4918	hanxhi	hanxhiu
+19	4919	boa	boat
+20	4920	zhabinë	zhabina zhabinën zhabinës
+21	4921	fildishtë	
+22	4922	shkoq	shkoqur
+23	4923	grifshë	grifsha grifshat
+24	4924	çjerr	çjerrim çjerrin çjerrë
+25	4925	shosh	shosha shoshe shoshi shoshim shoshën
+26	4926	qivur	qivuri qivurin qivurit
+27	4927	qye	qej
+28	4928	llahtari	llahtaria
+29	4929	thërrmijë	thërrmi thërrmija
+30	4930	sodomi	sodomisë
+31	4931	tredh	trodha
+32	4932	ith	itha
+33	4933	thimth	thimtha thimthat
+34	4934	murr	murri murrit
+35	4935	bashkërendoj	bashkërendojmë bashkërendojnë bashkërendon bashkërendonte bashkërenduan bashkërenduar
+36	4936	antropologji	antropologjia antropologjinë antropologjisë
+37	4937	parabolë	parabola parabolën
+38	4938	gëlqere	gëlqereje gëlqerja
+39	4939	nalt	
+40	4940	mbars	mbarsur
+41	4941	cart	carta carti
+42	4942	pllajë	pllaja pllajat pllaje pllajën pllajës
+43	4943	gjëmë	gjëma gjëmat gjëmave gjëmën gjëmës
+44	4944	argat	
+45	4945	bajraktar	bajraktari bajraktarin bajraktarit bajraktarë bajraktarët bajraktarëve
+46	4946	kokëçarje	
+47	4947	grumbullues	grumbulluese
+48	4948	baladë	
+49	4949	tejdukshëm	
+50	4950	qymyrgur	qymyrguri qymyrgurin qymyrgurit
+51	4951	margaritar	margaritari margaritarë margaritarët
+52	4952	vishnjë	vishnja vishnje
+53	4953	afsh	afshet afshi afshin
+54	4954	denjoj	denjoi denjoja denjojnë denjon denjonte denjuar
+55	4955	putë	puta
+56	4956	serbisht	
+57	4957	bumerang	
+58	4958	patëllxhan	patëllxhani patëllxhanin patëllxhanit
+59	4959	bashkëngjis	bashkëngjita bashkëngjitur
+60	4960	nepotizëm	nepotizmi nepotizmin
+61	4961	kapedan	
+62	4962	kri	kria
+63	4963	disertacion	disertacionet disertacionin disertacionit
+64	4964	kafjall	kafjalli kafjallin kaftjall
+65	4965	polem	polet
+66	4966	baloj	balon
+67	4967	dioqezë	dioqeza dioqezat dioqezave dioqezën dioqezës
+68	4968	bathë	batha bathën bathës
+69	4969	pendoj	pendova pendove penduan penduar
+70	4970	biograf	biografin biografit
+71	4971	harb	harbut
+72	4972	eufemizëm	
+73	4973	patok	patoku patokut
+74	4974	diagnostik	diagnostike diagnostikë
+75	4975	siluetë	silueta siluetën siluetës
+76	4976	finok	finoku
+77	4977	përç	përça
+78	4978	kllapë	kllapa kllapën kllapës
+79	4979	dosë	dosa dosën
+80	4980	krahasues	krahasuese
+81	4981	dashakeq	dashakeqe
+82	4982	kinetikë	kinetike
+83	4983	gem	gema gemi
+84	4984	timonier	timonieri timonierin timonierit timonierë
+85	4985	kaliumi	
+86	4986	cof	cofsh coftë cofur cofë cofësh
+87	4987	baraspeshë	baraspesha baraspeshën
+88	4988	plug	plugu plugun plugut
+89	4989	ndajfolje	
+90	4990	abetare	abetaren abetares abetaret abetareve abetarja
+91	4991	kafshëror	kafshërore
+92	4992	autore	
+93	4993	sanxhak	sanxhaku sanxhakun sanxhakut
+94	4994	kullos	kullosa kullota
+95	4995	andej-këtej	
+96	4996	lëroj	lëroi lëronte lëruar
+97	4997	dëngël	dënglat dënglave
+98	4998	vickë	vicka vicki
+99	4999	shquhet	
+100	5000	këndë	kandë

@@ -1,0 +1,100 @@
+1	3101	oxhak	oxhaku oxhakun oxhakut oxhakë oxhakët oxhaqe oxhaqet oxhaqeve
+2	3102	kashtë	kashta kashte kashtën kashtës
+3	3103	seksualisht	
+4	3104	mosmarrëveshje	mosmarrëveshjet
+5	3105	tentim	tentime tentimesh tentimet tentimeve tentimi tentimin tentimit
+6	3106	makë	maka make makin
+7	3107	furçë	furça furçash furçat furçave furçe furçën furçës
+8	3108	qerre	qerren qerres qerret qerreve qerrja
+9	3109	motoçikletë	motoçikleta motoçikletash motoçikletat motoçikletave motoçiklete motoçikletën motoçikletës
+10	3110	aktivist	aktivisti aktivistin aktivistit aktivistë aktivistësh aktivistët aktivistëve
+11	3111	sos	sosa sosi sosim sosin sosje sosur sosën
+12	3112	aviacion	aviacioni aviacionit
+13	3113	çdoherë	
+14	3114	interpretoj	interpreto interpretohet interpretoi interpretoja interpretoje interpretojmë interpretojnë interpreton interpretoni interpretonim interpretonin interpretonte interpretova interpretuam interpretuan interpretuar
+15	3115	verandë	veranda verandat verande verandën verandës
+16	3116	shikues	shikuesit shikuesve
+17	3117	dorashkë	dorashka dorashkash dorashkat dorashkën
+18	3118	zmadhoj	zmadho zmadhohet zmadhoi zmadhoje zmadhojmë zmadhojnë zmadhon zmadhoni zmadhonin zmadhova zmadhove zmadhuar
+19	3119	komunizëm	komunizmi komunizmin komunizmit
+20	3120	supozim	supozime supozimet supozimeve supozimi supozimin supozimit
+21	3121	baticë	batica baticat baticave batice baticën baticës
+22	3122	trupor	trupore truporë
+23	3123	biologji	biologjia biologjie biologjinë biologjisë
+24	3124	virtyt	virtyte virtytet virtyteve virtyti virtytin virtytit
+25	3125	konkurroj	konkurroi konkurroja konkurrojmë konkurrojnë konkurrojë konkurron konkurroni konkurronin konkurronte konkurrova konkurruan konkurruar
+26	3126	mirësevjen	
+27	3127	shuplakë	shuplaka shuplakat shuplakave shuplake shuplakën shuplakës
+28	3128	bastis	bastisi bastisim bastisin bastisja bastisje bastisnin bastisnit bastisur bastisën
+29	3129	bërryl	bërryla bërrylat bërrylave bërryli bërrylin bërrylit
+30	3130	vatër	vatra vatrat vatrave vatre vatrën vatrës votra
+31	3131	bagëti	bagëtia bagëtie bagëtinë bagëtish bagëtisë bagëtitë bagëtive
+32	3132	panterë	pantera panterash panterat pantere panterën panterës
+33	3133	ziej	ziejnë ziejë zier zjerë
+34	3134	hormon	hormone hormonesh hormonet hormoneve hormoni hormonin hormonit
+35	3135	masturbohem	masturbohej masturbohen masturboheni masturbohesh masturbohesha masturboheshe masturboheshin masturbohet masturbohu masturbova masturbuar
+36	3136	njuton	njutoni njutonin njutonit njutonëve
+37	3137	pishë	pisha pishash pishat pishave pishe pishën pishës
+38	3138	zvarrë	
+39	3139	frymëzim	frymëzimi frymëzimin
+40	3140	përgjues	përgjuesi përgjuesin përgjuesit
+41	3141	fatkeq	fatkeqe
+42	3142	automobil	automobila automobilat automobilave automobili automobilin
+43	3143	feniks	feniksi feniksin feniksit feniksët
+44	3144	truall	troje trojesh trojet trojeve troll trualli truallin truallit truell
+45	3145	ligjërisht	
+46	3146	bilbil	bilbila bilbilat bilbili bilbilin bilbilit bylbyl
+47	3147	kryevepër	kryevepra kryeveprat kryeveprave kryevepre kryeveprën kryeveprës
+48	3148	themelim	themelimi themelimin themelimit
+49	3149	përgëzoj	përgëzoi përgëzoja përgëzoje përgëzojmë përgëzojnë përgëzon përgëzoni përgëzonte përgëzova përgëzuam përgëzuan përgëzuar
+50	3150	pasë	
+51	3151	malor	malore malori malorë
+52	3152	regjiment	regjimente regjimenteve regjimenti regjimentin regjimentit
+53	3153	ndrydh	ndrydha ndrydhe ndrydhi ndrydhim ndrydhin ndrydhja ndrydhje ndrydhni ndrydhur
+54	3154	vidh	vidha vidhat vidhe vidhet vidhi vidhin vidhit
+55	3155	plesht	pleshta pleshtat pleshtave pleshti pleshtin pleshtit
+56	3156	pajtim	pajtime pajtimet pajtimeve pajtimi pajtimin pajtimit
+57	3157	fjalëkryq	fjalëkryqe fjalëkryqet fjalëkryqeve fjalëkryqi fjalëkryqin fjalëkryqit
+58	3158	pelerinë	pelerina pelerinat pelerinën pelerinës
+59	3159	ngujoj	ngujoi ngujojmë ngujojnë ngujuan ngujuar
+60	3160	kitarë	kitara kitarave kitare kitarën kitarës
+61	3161	mërzi	mërzia mërzie mërzinë mërzisë mërzitë mërzive
+62	3162	vjel	vil vilnin vilte vjelim vjelin vjelur vjelë vole voli volën
+63	3163	gungë	gunga gungat gungave gunge gungën
+64	3164	njëmbëdhjetë	
+65	3165	adhurueshëm	adhurueshme
+66	3166	mbizotëroj	mbizoteroje mbizoteron mbizotërojnë mbizotërojë mbizotëron mbizotëronte mbizotëruar
+67	3167	çerdhe	çerdheje çerdhen çerdhes çerdhesh çerdhet çerdheve çerdhja
+68	3168	gjymtyrë	gjymtyra gjymtyre gjymtyrën gjymtyrës gjymtyrësh gjymtyrët gjymtyrëve
+69	3169	rimë	rima rimat rime rimën rimës
+70	3170	kontribuoj	kontribuoi kontribuoja kontribuoje kontribuojmë kontribuojnë kontribuon kontribuoni kontribuonin kontribuonit kontribuonte kontribuova kontribuuam kontribuuan kontribuuar
+71	3171	mitur	miture miturit
+72	3172	delfin	delfinet delfini delfinin delfinit delfinë delfinësh delfinët delfinëve
+73	3173	perëndoj	perëndoi perëndojnë perëndojë perëndon perëndonte perënduar
+74	3174	orkestër	orkestra orkestrat orkestrave orkestre orkestrën orkestrës
+75	3175	rras	rrasa rrase rrasi rrasim rrasin rrasja rrasje rrasni rrasnit rraste rrasur rrasën rrasët
+76	3176	tullac	tullace tullaci
+77	3177	darsmë	dasëm
+78	3178	tok	toka toke toki tokim tokin toku tokur tokën tokët
+79	3179	mbart	mbarte mbarti mbartim mbartin mbartja mbartni mbartnin mbartte mbartur
+80	3180	jehonë	jehona jehonat jehone jehonën jehonës
+81	3181	viç	viça viçat viçave viçi viçin viçit
+82	3182	qull	qullash qulli qullin qullur qullët
+83	3183	anashkaloj	anashkalohesha anashkalohet anashkaloi anashkaloja anashkaloje anashkalojmë anashkalojnë anashkalon anashkaloni anashkalonin anashkalonte anashkalova anashkalove anashkaluam anashkaluan anashkaluar
+84	3184	praj	prani pranin prëj
+85	3185	volum	volume volumi volumin
+86	3186	dinamikë	dinamik dinamika dinamikat dinamike dinamikën
+87	3187	enigmë	enigma enigmash enigmat enigmave enigme enigmën enigmës
+88	3188	lidhës	lidhëse lidhëset lidhësi
+89	3189	etnik	etnike etnikë
+90	3190	duaj	duaje duajt duani
+91	3191	mashkullor	mashkullore mashkullorë
+92	3192	zymtë	
+93	3193	çakmak	çakmaku çakmakun çakmakë
+94	3194	lavdëroj	lavdëro lavdëroftë lavdërohet lavdëroi lavdërojmë lavdërojnë lavdëron lavdëroni lavdëronin lavdëronte lavdërova lavdëruan lavdëruar
+95	3195	bujë	buja bujën
+96	3196	duartrokas	duartrokasim duartrokasin duartroket duartrokiste duartrokit duartrokite duartrokiti duartrokitja duartrokitni duartrokitur duartrokitën
+97	3197	pagëzim	pagëzime pagëzimet pagëzimi pagëzimin pagëzimit
+98	3198	gjellë	gjella gjelle gjellën gjellës gjellët gjellëve
+99	3199	arkitekturë	arkitektura arkitekture arkitekturën arkitekturës
+100	3200	alarmoj	alarmo alarmohem alarmohemi alarmohen alarmoheni alarmohesh alarmohet alarmoi alarmoje alarmojmë alarmojnë alarmon alarmoni alarmonte alarmova alarmuam alarmuan alarmuar

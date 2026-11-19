@@ -1,0 +1,83 @@
+1	6501	sahan	
+2	6502	shqiptarizim	shqiptarizimin
+3	6503	tëhu	
+4	6504	ushkur	
+5	6505	vlagë	vlaga
+6	6506	zagushi	
+7	6507	breshni	
+8	6508	bruka	
+9	6509	cull	
+10	6510	pec	
+11	6511	ruzhdije	
+12	6512	shorr	
+13	6513	aristokraci	
+14	6514	cyt	
+15	6515	gjashtëdhjetetetë	
+16	6516	idhujtari	idhujtarisë
+17	6517	kajmekam	kajmekami
+18	6518	koftor	koftorit
+19	6519	llërë	
+20	6520	mililitër	
+21	6521	shlivovicë	
+22	6522	dovlet	dovleti
+23	6523	turqizëm	turqizmat
+24	6524	skile	
+25	6525	bung	bungu
+26	6526	cergë	cerga
+27	6527	cullë	culle
+28	6528	deltar	deltari
+29	6529	garbi	
+30	6530	hime	
+31	6531	lakuriqësohem	lakuriqësuar
+32	6532	lakuriqësoj	lakuriqësuar
+33	6533	shqipohem	shqipo
+34	6534	shqipohet	shqipo
+35	6535	shqipoj	shqipo
+36	6536	shqipon	shqipo
+37	6537	rrudhem	rrudhur
+38	6538	tesh	teshat
+39	6539	barazohem	barazohej barazohemi barazohen barazohesh barazoheshim barazoheshin barazohet barazoi barazoje barazojmë barazojnë barazon barazonim barazonin barazonte barazuam barazuan barazuar
+40	6540	cubë	cuba cubash cubat cubave
+41	6541	flijohem	flijohej flijohen flijohet flijoi flijojnë flijon flijoni flijuan flijuar
+42	6542	droe	droja droje drojet
+43	6543	gjalles	gjallesa gjallesat
+44	6544	zbej	zbehur
+45	6545	grerë	grenzë
+46	6546	zhvirgjërohem	zhvirgjëruar
+47	6547	heqsim	heqim heqin heqsh heqshim hequr hiq hiqja hiqje hiqni hiqnim hiqnin hiqnit hiqte hoqa hoqe hoqi hoqëm hoqën hoqët
+48	6548	qyr	qyre
+49	6549	rrym	rryma rrymat rrymave
+50	6550	rruf	rrufa
+51	6551	ruoj	ruajta ruajtur
+52	6552	krodhë	krodha
+53	6553	dhemje	veme
+54	6554	venj	thura thurur
+55	6555	qengjë	qengja qengjat qengjave
+56	6556	tirë	tira tire
+57	6557	caq	caqe caqet caqeve
+58	6558	çars	çartur
+59	6559	fendë	fende
+60	6560	gjuoj	gjuajta gjuajtur
+61	6561	shurrohem	shurruar
+62	6562	thel	thela thelat
+63	6563	kedh	keç
+64	6564	brehem	brejtur
+65	6565	lihem	lashë
+66	6566	dhemat	dhomat
+67	6567	përrue	përrenj
+68	6568	aravë	arave
+69	6569	gravë	grave
+70	6570	ngjirem	ngjir
+71	6571	kapt	kapte
+72	6572	kaptë	kapte
+73	6573	mby	my
+74	6574	grûnë	tosk
+75	6575	shkopis	shkopit
+76	6576	cirkë	cirka cirke
+77	6577	rrëshajë	shaje
+78	6578	mihje	mihja
+79	6579	rrath	rrathë rrathësh rrathët rrathëve
+80	6580	citem	cita
+81	6581	fshikë	fshika
+82	6582	šḱip	shqyp
+83	6583	mëshel	mshel

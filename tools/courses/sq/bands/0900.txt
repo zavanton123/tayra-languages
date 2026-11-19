@@ -1,0 +1,100 @@
+1	801	shtoj	shto shtoftë shtoi shtoja shtoje shtoji shtojmë shtojnë shtojë shton shtoni shtonim shtonin shtonit shtonte shtova shtove shtuam shtuan shtuar shtuat
+2	802	shpreh	shpreha shprehe shprehi shprehim shprehin shprehja shprehni shprehnim shprehnin shprehnit shprehte shprehu shprehur shprehë shprehëm shprehën shprehësh shprehët
+3	803	përmend	përmenda përmende përmendet përmendi përmendim përmendin përmendja përmendje përmendni përmendte përmendur përmendë përmendën përmendësh përmendët
+4	804	imagjinoj	imagjino imagjinohet imagjinoi imagjinoja imagjinoje imagjinojmë imagjinojnë imagjinojë imagjinon imagjinoni imagjinonim imagjinonin imagjinonit imagjinonte imagjinova imagjinove imagjinuam imagjinuan imagjinuar
+5	805	goditje	goditja goditjeje goditjen goditjes goditjesh goditjet goditjeve
+6	806	gatshëm	gatshme
+7	807	fitore	fitoreje fitoren fitores fitoresh fitoret fitoreve fitorja
+8	808	humbje	humbja humbjeje humbjen humbjes humbjesh humbjet humbjeve
+9	809	shpesh	shpeshë
+10	810	shtrat	shtrati shtratin shtratit shtratë shtretër shtretërit shtretërve
+11	811	personal	personale personalë
+12	812	zhdukem	zhdukej zhdukemi zhduken zhdukeni zhdukesh zhdukesha zhdukeshe zhdukeshim zhdukeshin zhduket zhduku zhdukuni zhdukur
+13	813	klasë	klasa klasash klasat klasave klase klasi klasin klasën klasës
+14	814	ngjitem	ngjitej ngjitemi ngjiten ngjiteni ngjitesh ngjitesha ngjiteshe ngjiteshim ngjiteshin ngjitet ngjitu ngjituni ngjitur
+15	815	mashkull	mashkujt mashkulli mashkullin mashkullit meshkuj meshkujsh meshkujt meshkujve
+16	816	vrit	vritem vriteni vritesh vritet vriti vritë
+17	817	veproj	vepro veprohet veproi veproja veproje veprojmë veprojnë veprojë vepron veproni vepronim vepronin vepronit vepronte veprova veprove vepruam vepruan vepruar vepruat
+18	818	meqë	
+19	819	planifikoj	planifikohet planifikoi planifikoja planifikoje planifikojmë planifikojnë planifikojë planifikon planifikoni planifikonim planifikonin planifikonte planifikova planifikove planifikuam planifikuan planifikuar planifikuat
+20	820	shkel	shkela shkele shkeli shkelim shkelin shkelja shkelje shkeljet shkelni shkelnim shkelnin shkelnit shkelte shkelur shkelë shkelëm shkelën shkelës shkelësh shkelët
+21	821	krye	krerë krerësh krerët krerëve kreu kreun kreut krie kry kryera kryesh
+22	822	pemë	pema peme pemën pemës pemësh pemët pemëve
+23	823	kënaqem	kënaqej kënaqemi kënaqen kënaqeni kënaqesh kënaqesha kënaqeshe kënaqeshim kënaqeshin kënaqet kënaqu kënaquni kënaqur
+24	824	shkallë	shkall shkalla shkalle shkallën shkallës shkallësh shkallët shkallëve
+25	825	këndshëm	këndshme
+26	826	veturë	vetura veturash veturat veturave veturën veturës
+27	827	qiell	qiej qiejt qiejve qielli qiellin qiellit
+28	828	duroj	duro durohet duroi duroja duroje durojmë durojnë durojë duron duroni duronim duronin duronte durova durove duruam duruan duruar
+29	829	shtyj	shtyhem shtyhen shtyheni shtyhet shtyhu shtyhuni shtyja shtyje shtyji shtyjmë shtyjnë shtyjë shtymë shtyn shtyni shtynin shtynte shtynë shtyrë shtyu shtyva shtyve
+30	830	mall	malle mallet malli mallin mallit mallra mallrash mallrat mallrave mallë moll
+31	831	leje	lejen lejeni lejes
+32	832	liri	liria lirie lirike lirin lirinë liris lirisë liritë lirive
+33	833	stacion	stacione stacionet stacioneve stacioni stacionin stacionit
+34	834	tretë	tretat tretës tretësh
+35	835	shkëlqyer	shkëlqyera
+36	836	nevojitet	nevojiten
+37	837	luftëtar	luftar luftëtari luftëtarin luftëtarit luftëtarve luftëtarë luftëtarësh luftëtarët luftëtarëve
+38	838	dikur	
+39	839	rrah	rraf rraha rrahe rrahesh rrahet rrahi rrahim rrahin rrahni rrahu rrahur rrahë rrahëm rrahën rrahësh rrahët rreh rrih rrihja rrihje rrihni rrihnim rrihnin rrihte
+40	840	rrezikoj	rreziko rrezikohen rrezikohet rrezikoi rrezikoja rrezikoje rrezikojmë rrezikojnë rrezikojë rrezikon rrezikoni rrezikonim rrezikonin rrezikonit rrezikonte rrezikova rrezikove rrezikuam rrezikuan rrezikuar rrezikuat
+41	841	burim	burime burimesh burimet burimeve burimi burimin burimit
+42	842	bisedë	bised biseda bisedash bisedat bisedave bisede bisedën bisedës
+43	843	tutje	
+44	844	dashuroj	dashuro dashuroi dashuroja dashuroje dashurojmë dashurojnë dashurojë dashuron dashuroni dashuronim dashuronin dashuronte dashuror dashurova dashurove dashuruam dashuruan dashuruar dashuruat
+45	845	kërkesë	kërkesa kërkesash kërkesat kërkesave kërkese kërkesën kërkesës
+46	846	drejtor	drejtori drejtorin drejtorit drejtorë drejtorët drejtorëve
+47	847	gjysh	gjysha gjyshi gjyshin gjyshit gjyshë gjyshën gjyshër gjyshërit gjyshës
+48	848	mirëmëngjes	mirëmëngjesi
+49	849	zog	zogj zogjsh zogjtë zogjve zogu zogun zogut
+50	850	ëmbël	ëmbla ëmbëla
+51	851	bar	bare baresh baret bareve barin barit barna barnash barnat barnave barë barëra barërash barërat barërave barët
+52	852	çaj	çaja çaje çaji çajin çajit çajmë çajnë çajra çajrat çajrave çaka çamë çan çani çanin çanit çante çanë çara çarat çarë çarën çatë çau çava çave
+53	853	test	teste testet testeve testi testim testin testit
+54	854	qind	qindra
+55	855	kufi	kufijt kufijtë kufinj kufinjtë kufinjve kufiri kufirin kufirit
+56	856	mësim	mësime mësimesh mësimet mësimeve mësimi mësimin mësimit
+57	857	bastard	bastarda bastardi bastardin bastardit bastards bastardë bastardët bastardëve
+58	858	aspak	
+59	859	nxehtë	nxehta nxehti nxehtin
+60	860	pozicion	pozicione pozicionet pozicioni pozicionin pozicionit
+61	861	zgjat	zgjas zgjasë zgjata zgjate zgjatem zgjatesh zgjatet zgjati zgjatim zgjatin zgjatja zgjatje zgjatni zgjatnim zgjatnin zgjatur zgjatë zgjatëm zgjatën zgjatët
+62	862	veprim	veprime veprimesh veprimet veprimeve veprimi veprimin veprimit
+63	863	lojtar	lojtari lojtarin lojtarë lojtarët lojtarëve
+64	864	klient	klienta klientat klienti klientin klientit klientja klientë klientët klientëve
+65	865	respekt	respekte respektet respekti respektim respektin respektit
+66	866	kushdo	kujtdo këdo
+67	867	mbarë	mar
+68	868	përgjithmonë	
+69	869	special	speciale specialë
+70	870	dobët	dobëta dobëti dobëtin dobëtit
+71	871	vonoj	vono vonohej vonohem vonohemi vonohen vonoheni vonohesh vonoheshe vonohet vonoi vonoje vonoji vonojmë vonojnë vonojë vonon vononi vononin vononit vononte vonova vonove vonuam vonuan vonuat
+72	872	gazetë	gazeta gazetash gazetat gazetave gazete gazetën gazetës
+73	873	birrë	birra birrash birrat birrave birre birrën birrës
+74	874	portë	porta portat portave porte portën portës
+75	875	bind	binda binde bindesh bindet bindi bindim bindin bindja bindje bindjet bindni bindnim bindnin bindnit bindte bindë bindëm bindën bindës bindësh bindët
+76	876	goxha	
+77	877	çmenduri	çmenduria çmendurie çmendurinë çmendurira çmendurish çmendurisë
+78	878	kampion	kampionat kampioni kampionin kampionit kampionë kampionësh kampionët kampionëve
+79	879	art	arte artesh artet arteve arti artie artin artit
+80	880	masë	masat masave masën masës
+81	881	sinjal	sinjale sinjalesh sinjalet sinjaleve sinjali sinjalin sinjalit
+82	882	megjithatë	
+83	883	nevojshëm	nevojshme
+84	884	hyrje	hyrja hyrjeje hyrjen hyrjes hyrjesh hyrjet hyrjeve
+85	885	supozoj	supozo supozohej supozohem supozohesh supozohet supozoi supozoja supozoje supozojmë supozojnë supozojë supozon supozoni supozonim supozonin supozonte supozova supozuam supozuan supozuar supozuat
+86	886	sipër	
+87	887	vëmendje	vëmendja vëmendjeje vëmendjen vëmendjes
+88	888	disi	
+89	889	midis	
+90	890	shkëlqyeshëm	
+91	891	lokal	lokale lokalet lokaleve lokali lokalin lokalit lokalë
+92	892	metër	metra metrash metrave metri metërsh
+93	893	sëmundje	sëmundja sëmundjeje sëmundjen sëmundjes sëmundjesh sëmundjet sëmundjeve
+94	894	pabesueshëm	pabesueshme
+95	895	këndoj	këndo këndohet këndoi këndoja këndoje këndojmë këndojn këndojnë këndojë këndon këndoni këndonim këndonin këndonte këndova këndove kënduam kënduan kënduar kënduat
+96	896	telefonatë	telefonata telefonatash telefonatat telefonatave telefonatën telefonatës
+97	897	park	parkim parks parku parkun parkut parqe parqesh parqet parqeve
+98	898	kod	kodi kodin
+99	899	përgatis	përgatisim përgatisin përgatisja përgatisni përgatiste përgatisë përgatisësh përgatit përgatita përgatitur
+100	900	çast	çaste çastesh çastet çasteve çasti çastin çastit

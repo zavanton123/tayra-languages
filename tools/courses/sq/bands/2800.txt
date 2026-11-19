@@ -1,0 +1,100 @@
+1	2701	padit	padis padita padite paditi paditni paditur paditën
+2	2702	artistik	artistike
+3	2703	joshës	joshëse
+4	2704	profet	profeti profetin profetit profetë profetët profetëve
+5	2705	uragan	uragane uraganet uragani uraganin uraganit uraganët
+6	2706	biologjik	biologjike biologjikë
+7	2707	ethe	ethet
+8	2708	dëgjim	dëgjime dëgjimet dëgjimeve dëgjimi dëgjimin dëgjimit
+9	2709	anglishte	anglishteje anglishten anglishtes anglishtja
+10	2710	domate	domatesh domatet domatja
+11	2711	organizëm	organizma organizmat organizmave organizmi organizmin organizmit
+12	2712	kala	kalaja kalaje kalanë kalasë kalatë kalave
+13	2713	ulli	lli ullinj ullinjsh ullinjtë ullinjve ulliri ullirin ullirit
+14	2714	përzë	përzi përzura përzëmë përzënë përzësh
+15	2715	turi	turin turinj turinjtë turinjve turiri turirin turirit turit
+16	2716	hale	halei haleja haleje halen halenë halesh halesë haleve
+17	2717	dokërr	dokrra dokrrat
+18	2718	shqipe	shqipen shqipes shqipet shqipeve shqipja
+19	2719	lakmi	lakmia lakmie lakminë lakmisë lakmitë lakmive
+20	2720	betë	bet betës
+21	2721	shkelmoj	shkelmim shkelmo shkelmoi shkelmoja shkelmoje shkelmojmë shkelmojnë shkelmon shkelmoni shkelmonin shkelmova shkelmove shkelmuam shkelmuan shkelmuar
+22	2722	hu	hunj hunjtë huri hurin hurit
+23	2723	vërri	vri vëri
+24	2724	mëlçi	mëlçia mëlçie mëlçinë mëlçisë mëlçitë
+25	2725	vetëdije	vetëdija vetëdijen vetëdijes
+26	2726	prejardhje	prejardhja prejardhjeje prejardhjen prejardhjes prejardhjet
+27	2727	kureshtar	kureshtare kureshtarë kureshtarët kureshtarëve
+28	2728	fasule	fasuleje fasulen fasules fasulesh fasulet fasuleve fasulja
+29	2729	zëdhënës	zëdhënësi zëdhënësin zëdhënësit zëdhënësve
+30	2730	pështirë	
+31	2731	ze	zeja zejet
+32	2732	mençuri	mençuria mençurie mençurinë mençurisë
+33	2733	parazit	paraziti parazitë parazitët
+34	2734	autograf	autografe autografi autografin
+35	2735	konfiskoj	konfisko konfiskohet konfiskoi konfiskoje konfiskojmë konfiskojnë konfiskon konfiskoni konfiskonin konfiskonte konfiskuam konfiskuan konfiskuar konfiskuat
+36	2736	hell	helli
+37	2737	kuptueshëm	kuptueshme
+38	2738	horizont	horizonte horizontet horizonteve horizonti horizontin horizontit
+39	2739	shkurre	shkurreje shkurren shkurres shkurresh shkurret shkurreve shkurrja
+40	2740	filozofi	filozofia filozofie filozofike filozofinë filozofisë
+41	2741	bixhoz	bixhozi bixhozin bixhozit
+42	2742	bërthamë	berthama berthame bërthama bërthamat bërthamën bërthamës
+43	2743	djersë	djersa djerse djersën djersës djersët ndjersë niers
+44	2744	zili	zilia zilinë
+45	2745	veti	vetia vetinë vetitë vetive
+46	2746	citoj	cito citoi citoja citoje citojmë citojnë citon citoni citonim citonin citonte citova citove cituam cituan cituar cituat
+47	2747	britmë	britma britmash britmat britmave britme britmën
+48	2748	ling	lingu lingun lingut
+49	2749	veprimtari	veprimtaria veprimtarie veprimtarinë veprimtarish veprimtarisë veprimtaritë veprimtarive
+50	2750	rilindje	rilindja rilindjen rilindjes
+51	2751	zënkë	zënka zënkash zënkat zënkave zënke zënkën zënkës
+52	2752	përafërsisht	
+53	2753	kruaj	kroi krove krruaj kruaje kruajmë kruajnë kruan kruani kruante kruar kruat
+54	2754	atom	atome atomet atomeve atomi atomin atomit
+55	2755	brinjë	brinja brinje brinjës brinjët brinjëve
+56	2756	tetar	tetari tetarin tetarit tetarë
+57	2757	shurdhër	shurdhët
+58	2758	mjel	mil milja milte mjelin mjelë mola mole moli
+59	2759	fallco	
+60	2760	çlirohem	çlirohej çlirohemi çlirohen çliroheni çlirohesh çlirohesha çliroheshim çliroheshin çlirohet çlirohu çlirohuni çliruar
+61	2761	pah	
+62	2762	sëpatë	sëpata sëpatash sëpatat sëpate sëpatën sëpatës
+63	2763	shkrep	shkrepa shkrepat shkrepe shkrepi shkrepin shkrepja shkrepje shkrepka shkrepnin shkrepsë shkrepte shkrepur shkrepën shkrepët
+64	2764	fjalëkalim	fjalëkalime fjalëkalimesh fjalëkalimet fjalëkalimeve fjalëkalimi fjalëkalimin fjalëkalimit
+65	2765	ballkon	ballkone ballkonet ballkoneve ballkoni ballkonin ballkonit
+66	2766	arsyeshëm	
+67	2767	lopatë	lopata lopatat lopatave lopate lopatën
+68	2768	gjoja	
+69	2769	hava	ava havai havaja havaje havanë kava
+70	2770	spanjisht	
+71	2771	drithë	drithi drithin drithit drithëra drithërash drithërat drithërave
+72	2772	pothuaj	
+73	2773	flluskë	flluska flluskat flluskave flluske flluskën flluskës
+74	2774	errësoj	errësohet errësoi errësojnë errëson errësove errësuan errësuar
+75	2775	fyej	fyeja fyeni fyer fyeva fyeve
+76	2776	kub	kube kubesh kubet kubeve kubi kubin kubit
+77	2777	dhëndër	dhëndri dhëndrin dhëndrit dhëndurë dhëndurët dhëndëri dhëndërit dhëndërr dhëndërri dhëndërrin dhëndërrit
+78	2778	studiues	studiuesi studiuesin studiuesit studiuesve
+79	2779	turpërohem	turpërohej turpërohemi turpërohen turpëroheni turpërohesh turpëroheshin turpërohet turpëruar
+80	2780	madhështi	madhështia madhështie madhështinë madhështisë
+81	2781	festim	festime festimet festimeve festimi festimin festimit
+82	2782	bretk	brekët bretku bretkun
+83	2783	pushtues	pushtuese pushtuesi pushtuesin pushtuesit vrasësa vrasësat vrasësi
+84	2784	pashkë	pashkët pashkëve
+85	2785	gatoj	gatoi gator gatova gatove gatuan gatuar
+86	2786	mëparshëm	
+87	2787	fanatik	fanatike fanatikë fanatikët
+88	2788	gjithësesi	
+89	2789	brit	british britni britt britën
+90	2790	mill	mille milli millin millit mills millër
+91	2791	operë	opera operat operën operës
+92	2792	moçal	moçale moçalesh moçalet moçali moçalin moçalit
+93	2793	trazoj	trazo trazoi trazojmë trazojnë trazojë trazon trazoni trazonte trazova trazove trazuan trazuar
+94	2794	bush	bushat bushi bushin bushit
+95	2795	zgjua	zgjoi zgjoje zgju
+96	2796	fjalor	fjalori fjalorin fjalorit fjalorë fjalorët fjalorëve
+97	2797	grykë	gryka gryke grykën grykës grykët grykëve
+98	2798	dërrasë	dërrasa dërrasash dërrasat dërrasave dërrase dërrasën dërrasës
+99	2799	debat	
+100	2800	byrek	byreku byrekun byrekut byrekë byrekët

@@ -1,0 +1,100 @@
+1	1101	mesë	mesa mesash mese
+2	1102	budallallëk	budallallëku budallallëkun budallallëqe budallallëqesh budallallëqet budallallëqeve
+3	1103	milje	
+4	1104	francez	franceze francezi francezin francezit francezë francezët francezëve
+5	1105	shqiptare	shqiptaret shqiptarja
+6	1106	zakonshëm	zakonshme zakonshmin
+7	1107	shitje	shitja shitjeje shitjen shitjes shitjesh shitjet shitjeve
+8	1108	mesëm	mesme
+9	1109	shishe	shisheje shishen shishes shishesh shishet shisheve shishja
+10	1110	universitet	universitete universitetet universiteteve universiteti universitetin universitetit
+11	1111	detaj	detaje detajet detajeve detaji detajin detar detarë
+12	1112	festoj	festo festofshim festoi festoja festoje festojmë festojnë festojë feston festoni festonim festonin festonit festonte festova festove festuam festuan festuar festuat
+13	1113	rehat	rahat rehati rehatin rehatit rëhat
+14	1114	toger	togere togeri togerin togerit togerë togerët
+15	1115	adhuroj	adhurohej adhurohen adhurohesh adhurohesha adhuroheshin adhurohet adhuroja adhuroje adhurojmë adhurojn adhurojnë adhurojë adhuron adhuroni adhuronim adhuronin adhuronte adhurova adhuruakan adhuruan adhuruar
+16	1116	vepër	vepra veprash veprat veprave vepre veprën veprës
+17	1117	mbrojtës	mbrojtësa mbrojtësat mbrojtësave mbrojtëse mbrojtëset mbrojtësi mbrojtësin mbrojtësit
+18	1118	bandë	banda bandash bandat bandave bandi bandën bandës
+19	1119	ngrij	ngri ngrija ngrije ngriji ngrijmë ngrijnë ngrijë ngrimë ngrin ngrini ngrinim ngrinin ngrinit ngrinte ngrinë ngrir ngrirë ngrit ngritë ngriu ngriva ngrive
+20	1120	bythë	bytha bythe bythën bythës bythësh bythët bythëve
+21	1121	famshëm	famshme famshmi famshmin
+22	1122	presion	presioni presionin presionit
+23	1123	laj	lafsha lahej lahem lahemi lahen laheni lahesh lahesha laheshe laheshim laheshin lahet lahu lahuni laja laje lajmë lajnë laka lakan lake lamë lan lani lanim lanin lanit lante lanë lau lava lave
+24	1124	zgjoj	zgjo zgjoi zgjoja zgjoje zgjojmë zgjojnë zgjojë zgjon zgjoni zgjonim zgjonin zgjonte zgjova zgjove zgjuam zgjuan zgjuat
+25	1125	gjykatës	gjykatëse gjykatësi gjykatësin gjykatësit gjykatësve
+26	1126	ilaç	ilaçe ilaçesh ilaçet ilaçeve ilaçi ilaçin ilaçit
+27	1127	shmang	shmanga shmange shmangem shmangesh shmanget shmangi shmangim shmangin shmangja shmangje shmangni shmangnim shmangnin shmangnit shmangte shmangu shmangur shmangë shmangëm shmangën shmangësh shmangët
+28	1128	urë	ura urash urat urave ure urën urës
+29	1129	gaz	gaze gazet gazeve gazi gazin gazit gazra
+30	1130	fantazmë	fantazm fantazma fantazmash fantazmat fantazmave fantazme fantazmën fantazmës
+31	1131	shëroj	shëro shërohem shërohen shëroheni shërohesh shërohet shëroi shëroja shëroje shërojmë shërojnë shërojë shëron shëroni shëronim shëronin shëronte shërova shërove shëruam shëruan shëruar shëruat
+32	1132	vozit	vozis vozita vozite vozitem vozitesh vozitet voziti vozitim vozitin vozitja vozitje vozitni vozitnim vozitur vozitë vozitës vozitësh vozitët
+33	1133	blu	bluja
+34	1134	maskara	maskarai maskarain maskarait maskarenj maskarenjsh maskarenjtë maskarenjve
+35	1135	këshill	këshille këshilli këshillin këshillit
+36	1136	përcjell	përcill përcillja përcillje përcillni përcillnim përcillnin përcillte përcjelli përcjellim përcjellin përcjellja përcjellje përcjellni përcjellur përcolla përcolle përcolli përcollëm përcollën përcollët
+37	1137	nëntë	
+38	1138	ekonomik	ekonomike ekonomikë
+39	1139	ndërkombëtar	ndërkombëtare ndërkombëtarë
+40	1140	absolutisht	
+41	1141	lagje	lagjeje lagjen lagjes lagjesh lagjet lagjeve lagjja
+42	1142	hajdut	hajduti hajdutin hajdutit hajdutë hajdutësh hajdutët hajdutëve
+43	1143	udhëheq	udhëheqi udhëheqim udhëheqin udhëheqni udhëheqte udhëhequr udhëheqë udhëheqësh udhëhiq udhëhiqja udhëhiqje udhëhiqni udhëhiqnim udhëhiqnin udhëhiqte udhëhoqa udhëhoqe udhëhoqi udhëhoqëm udhëhoqën
+44	1144	caktuar	caktuara
+45	1145	vizitë	vizit vizita vizitat vizitave vizitën vizitës
+46	1146	shpërndaj	shpërnda shpërndahej shpërndahemi shpërndahen shpërndaheni shpërndahet shpërndahu shpërndahuni shpërndaja shpërndaje shpërndaji shpërndajmë shpërndajnë shpërndajë shpërndan shpërndani shpërndanë shpërndarë shpërndau shpërndava
+47	1147	ulët	ulëta
+48	1148	rajon	rajone rajonesh rajonet rajoneve rajoni rajonin rajonit
+49	1149	bashkim	bashkime bashkimesh bashkimet bashkimeve bashkimi bashkimin bashkimit
+50	1150	zezak	zezakja zezaku zezakun zezakut zezakve zezakë zezakësh zezakët zezakëve
+51	1151	pagesë	pagesa pagesash pagesat pagesave pagesën pagesës
+52	1152	aeroport	aeroporte aeroportet aeroporteve aeroporti aeroportin aeroportit aeroportë
+53	1153	brendshëm	brendshme
+54	1154	shkop	shkopa shkopat shkopi shkopin shkopinj shkopinjsh shkopinjtë shkopinjve shkopit
+55	1155	aksion	aksione aksionesh aksionet aksioneve aksioni aksionin aksionit
+56	1156	institucion	institucione institucionesh institucionet institucioneve institucioni institucionin institucionit
+57	1157	pistoletë	pistolet pistoleta pistoletat pistoletën
+58	1158	këshillë	këshilla këshillat këshillave këshillën këshillës
+59	1159	realitet	realitete realiteti realitetin realitetit
+60	1160	kthim	kthimet kthimi kthimin kthimit
+61	1161	dasmë	dasma dasmash dasmat dasmave dasme dasmën dasmës
+62	1162	plazh	plazha plazhe plazhesh plazhet plazheve plazhi plazhin plazhit plazhë
+63	1163	ngjan	ngjani ngjanin ngjanë ngjarë ngjau
+64	1164	xhiro	xhiroja xhiroje xhiron xhironi xhirosh xhirot
+65	1165	fajtor	fajtore fajtori fajtorin fajtorë fajtorët fajtorëve
+66	1166	bukuri	bukuria bukurie bukurinë bukurisë bukuritë bukurive
+67	1167	bekoj	beko bekofshin bekoftë bekoi bekoja bekoje bekojmë bekojnë bekojë bekomë bekon bekoni bekonin bekonit bekonte bekova bekove bekuam bekuan bekuar
+68	1168	dëshmitar	dëshmitari dëshmitarin dëshmitarit dëshmitarja dëshmitarë dëshmitarët dëshmitarëve
+69	1169	mbështetje	mbështetja mbështetjeje mbështetjen mbështetjes mbështetjet mbështetjeve
+70	1170	peng	pengim pengje pengjesh pengjet pengjeve pengu pengun pengut
+71	1171	theksoj	theksoi theksoja theksoje theksojmë theksojnë thekson theksoni theksonin theksonte theksova theksove theksuam theksuan theksuar theksuat
+72	1172	departament	departamentet departamenti departamentin departamentit
+73	1173	ngatërroj	ngatërro ngatërrohem ngatërrohemi ngatërrohen ngatërrohesh ngatërrohesha ngatërroheshe ngatërrohet ngatërroi ngatërroja ngatërroje ngatërrojmë ngatërrojnë ngatërrojë ngatërron ngatërroni ngatërronin ngatërronte ngatërrova ngatërrove ngatërruam ngatërruan ngatërruar ngatërruat
+74	1174	majtas	
+75	1175	gjyq	gjygj gjyqe gjyqesh gjyqet gjyqeve gjyqi gjyqin gjyqit
+76	1176	përpjekje	përpjekja përpjekjen përpjekjes përpjekjet përpjekjeve
+77	1177	përgjegjës	përgjegjëse përgjegjësin përgjegjësit përgjegjësja
+78	1178	rrotull	
+79	1179	taksi	taksia taksie taksin taksinë taksish taksisë taksit taksitë taksive
+80	1180	errët	errëta
+81	1181	tej	
+82	1182	fitues	fituese fituesi fituesin fituesit fituesja
+83	1183	kënaq	knaq kënaqa kënaqe kënaqi kënaqim kënaqin kënaqja kënaqje kënaqni kënaqnin kënaqte kënaqtë kënaqur kënaqëm kënaqën kënaqët
+84	1184	ar	are arin arit arësh
+85	1185	shofer	shoferi shoferin shoferit shoferë shoferët shoferëve
+86	1186	vezë	veza veze vezën vezës vezësh vezët vezëve
+87	1187	përsosur	përsosura
+88	1188	plagë	plaga plage plagën plagës plagësh plagët plagëve
+89	1189	pësoj	pësofsh pësoi pësoja pësoje pësojmë pësojnë pësojë pëson pësoni pësonim pësonin pësonte pësova pësove pësuam pësuan pësuar pësuat
+90	1190	tungjatjeta	
+91	1191	mjet	mjetet mjeteve mjeti mjetin mjetit
+92	1192	fermë	ferma fermash fermat fermave ferme fermën fermës
+93	1193	shëndet	shnet shëndeti shëndetin shëndetit
+94	1194	thesar	thesare thesaresh thesaret thesareve thesari thesarin thesarit thesarë thesarët
+95	1195	pronë	prona pronash pronat pronave prone pronën pronës
+96	1196	eh	ehe ehesh ehte ehu
+97	1197	njësoj	
+98	1198	hir	hire hiret hiri hirin hirit
+99	1199	mbretëri	mbretëria mbretërie mbretërin mbretërinë mbretërish mbretërisë mbretëritë mbretërive
+100	1200	dhunë	dhuna dhune dhunën dhunës

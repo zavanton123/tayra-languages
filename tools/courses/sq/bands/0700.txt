@@ -1,0 +1,100 @@
+1	601	fantastik	fantastike fantastikë fantastikët
+2	602	përmes	
+3	603	qytetar	qytetare qytetari qytetarin qytetarit qytetarë qytetarësh qytetarët qytetarëve
+4	604	rrezikshëm	rrezikshme
+5	605	ndalem	ndalej ndalemi ndalen ndaleni ndalesh ndalesha ndaleshe ndaleshin ndaleshit ndalet ndalu ndaluni ndalur
+6	606	lëvizje	lëvizja lëvizjeje lëvizjen lëvizjes lëvizjesh lëvizjet lëvizjeve
+7	607	pranë	
+8	608	shqiptar	shqiptari shqiptarin shqiptarit shqiptarë shqiptarësh shqiptarët shqiptarëve
+9	609	qendër	qendra qendrash qendrat qendrave qendre qendrën qendrës qëndër
+10	610	veçantë	veçant veçanta
+11	611	mrekulli	mrekullia mrekullie mrekullin mrekullinë mrekullira mrekullish mrekullisë mrekullitë mrekullive
+12	612	fotografi	fotografia fotografie fotografike fotografin fotografinë fotografish fotografisë fotografit fotografitë fotografive
+13	613	çelës	çelësa çelësash çelësat çelësave çelësi çelësin çelësit
+14	614	natyrisht	
+15	615	kalë	kali kalin kol kuaj kuajsh kuajt kuajve
+16	616	ardhme	ardhmen ardhmes ardhmet ardhmja
+17	617	listë	lista listash listat listave liste listën listës
+18	618	flok	floki floku flokun flokut flokë flokësh flokët flokëve
+19	619	madje	
+20	620	diell	diej diejt dielli diellin diellit dill
+21	621	mbrojtje	mbrojtja mbrojtjeje mbrojtjen mbrojtjes mbrojtjet mbrojtjeve
+22	622	meritoj	merito meritoi meritoja meritoje meritojmë meritojnë meritojë meriton meritoni meritonim meritonin meritonit meritonte meritova meritove merituam merituan merituar merituat
+23	623	mbush	mbusha mbushe mbushi mbushim mbushin mbushja mbushje mbushjet mbushni mbushnim mbushnin mbushnit mbushte mbushtë mbushur mbushë mbushëm mbushën mbushës mbushësh mbushët
+24	624	bazë	baza bazash bazat bazave baze bazën bazës
+25	625	zgjohem	zgjohej zgjohemi zgjohen zgjoheni zgjohesh zgjohesha zgjoheshe zgjoheshim zgjoheshin zgjohet zgjohu zgjohuni
+26	626	hotel	hotele hotelesh hotelet hoteleve hoteli hotelin hotelit
+27	627	fushë	fusha fushash fushat fushave fushe fushën fushës
+28	628	armik	armike armiku armikun armikut armiq armiqsh armiqtë armiqve
+29	629	shans	shansa shansat shanse shanset shanseve shansi shansin shansit shansë shansën
+30	630	informacion	informacione informacionesh informacionet informacioneve informacioni informacionin informacionit
+31	631	kënaqësi	kënaqësia kënaqësie kënaqësinë kënaqësish kënaqësisë kënaqësitë kënaqësive
+32	632	kot	koti kotë
+33	633	mbyt	mbys mbysim mbysin mbyste mbysësh mbyta mbyte mbytej mbytem mbytemi mbyten mbyteni mbytesh mbytesha mbyteshe mbyteshim mbyteshin mbytet mbyti mbytim mbytini mbytja mbytje mbytni mbytnin mbytsh mbytu mbytur mbytë mbytëm mbytën mbytës mbytësh mbytët
+34	634	mal	male malesh malet maleve mali malin malit mol
+35	635	rëndë	randë rënda
+36	636	gjithnjë	
+37	637	tamam	
+38	638	gisht	gishta gishtash gishtat gishtave gishti gishtin gishtit gishtë gishtërinj gjisht
+39	639	kafe	kafeje kafen kafenë kafes kafesë kafet kafetë kafja
+40	640	tren	trena trenash trenat trenave treni trenin trenit trent trentë trenë
+41	641	shqetësohem	shqetësohej shqetësohemi shqetësohen shqetësoheni shqetësohesh shqetësohesha shqetësoheshe shqetësoheshim shqetësoheshin shqetësohet shqetësohu shqetësohuni shqetësuar
+42	642	herët	
+43	643	asnjëherë	
+44	644	mbledh	mbledhi mbledhim mbledhin mbledhni mbledhur mbledhë mbledhëm mbledhësh mblidh mblidhja mblidhje mblidhni mblidhnim mblidhnin mblidhnit mblidhte mblodha mblodhe mblodhi mblodhëm mblodhën mblodhët mledh
+45	645	vlerë	vlera vlerash vlerat vlerave vlere vlerën vlerës
+46	646	ndjenjë	ndjenja ndjenjash ndjenjat ndjenjave ndjenje ndjenjën ndjenjës
+47	647	gjerman	gjermane gjermanen gjermanes gjermanet gjermaneve gjermani gjermanin gjermanisë gjermanit gjermanja gjermanë gjermanësh gjermanët gjermanëve
+48	648	kat	kate katesh katet kateve kati katin katit
+49	649	plotë	plota
+50	650	zgjidhje	zgjidhja zgjidhjeje zgjidhjen zgjidhjes zgjidhjesh zgjidhjet zgjidhjeve
+51	651	ardhshëm	ardhshme ardhshmi
+52	652	telash	telashe telashesh telashet telasheve telashi
+53	653	popull	popuj popujsh popujt popujve populli popullin popullit
+54	654	shoqe	shoqa shoqeje shoqen shoqes shoqesh shoqet shoqeve shoqja
+55	655	futem	futej futemi futeni futesha futeshe futeshim futeshin futuni
+56	656	dje	
+57	657	zonjushë	zonjush zonjusha zonjushat zonjushave zonjushën zonjushës
+58	658	yll	ile ill uj yje yjesh yjet yjeve ylli yllin yllit
+59	659	ftohtë	ftohta ftohti ftohtin
+60	660	shpjegoj	shpjego shpjegohem shpjegohen shpjegohesh shpjegohet shpjegohu shpjegoi shpjegoja shpjegoje shpjegojmë shpjegojnë shpjegojë shpjegon shpjegoni shpjegonim shpjegonin shpjegonit shpjegonte shpjegova shpjegove shpjeguam shpjeguan shpjeguar shpjeguat
+61	661	fluturoj	fluturo fluturohet fluturoi fluturoja fluturoje fluturojmë fluturojn fluturojnë fluturojë fluturon fluturoni fluturonim fluturonin fluturonit fluturonte fluturova fluturove fluturuam fluturuan fluturuar fluturuat
+62	662	vlej	vlejnë vlejtur vlejë vlen vleni vlente vlenë vyej
+63	663	borxh	borxhe borxhesh borxhet borxheve borxhi borxhin borxhit
+64	664	ishull	ishuj ishujsh ishujt ishujve ishulli ishullin ishullit
+65	665	çfarëdo	
+66	666	arrestoj	arresto arrestohej arrestohem arrestohemi arrestohen arrestoheni arrestohesh arrestohesha arrestoheshe arrestohet arrestoi arrestoja arrestoje arrestojmë arrestojn arrestojnë arrestojë arreston arrestoni arrestonim arrestonin arrestonit arrestonte arrestova arrestove arrestuam arrestuan arrestuar arrestuat
+67	667	nivel	nivele nivelet niveleve niveli nivelin nivelit
+68	668	krejt	kejt ket
+69	669	muzikë	muzik muzika muzikën muzikës
+70	670	kuti	kutia kutie kutija kutinë kutish kutisë kutitë kutive
+71	671	mjaftoj	mjafto mjaftoi mjaftoje mjaftojmë mjaftojn mjaftojnë mjaftojë mjafton mjaftoni mjaftonin mjaftonte mjaftuan mjaftuar
+72	672	gjuhë	gjuha gjuhe gjuhën gjuhës gjuhësh gjuhët gjuhëve
+73	673	fshat	fshati fshatin fshatit fshatra fshatrash fshatrat fshatrave
+74	674	mbuloj	mbulo mbuloftë mbuloi mbuloja mbuloje mbuloji mbulojmë mbulojnë mbulojë mbulon mbuloni mbulonim mbulonin mbulonte mbulova mbulove mbuluam mbuluan mbuluar mbuluat
+75	675	rezultat	rezultate rezultatet rezultateve rezultati rezultatin rezultatit
+76	676	fshihem	fshehur fshihej fshihemi fshihen fshiheni fshihesh fshihesha fshiheshe fshiheshim fshiheshin fshiheshit fshihet fshihu fshihuni
+77	677	kushtoj	kushto kushtohet kushtoi kushtoja kushtoje kushtoji kushtojmë kushtojn kushtojnë kushtojë kushton kushtoni kushtonim kushtonin kushtonte kushtova kushtove kushtuam kushtuan kushtuar kushtuat
+78	678	mbijetoj	mbijeto mbijetoi mbijetoja mbijetojmë mbijetojnë mbijetojë mbijeton mbijetoni mbijetonim mbijetonin mbijetonte mbijetova mbijetove mbijetuam mbijetuan mbijetuar
+79	679	paqe	paqeje paqen paqes paqetë paqja
+80	680	afrohem	afrohej afrohemi afrohen afroheni afrohesh afrohesha afroheshe afroheshim afroheshin afrohet afrohu afrohuni afrona
+81	681	sigurim	sigurime sigurimesh sigurimet sigurimeve sigurimi sigurimin sigurimit
+82	682	raport	raporte raportet raporteve raporti raportim raportin raportit
+83	683	përkas	përkasim përkasin përkasë përket përkiste përkitur
+84	684	qafë	qafa qafat qafave qafe qafën qafës qafësh
+85	685	mision	misione misionet misioneve misioni misionin misionit
+86	686	çantë	çanta çantash çantat çantave çante çantën çantës
+87	687	parti	partia partie partin partinë partish partisë partitë partive
+88	688	rroba	rrobash rrobat rrobave
+89	689	plumb	plum plumba plumbash plumbat plumbave plumbi plumbin plumbit plumbë
+90	690	ndërtesë	ndërtes ndërtesa ndërtesash ndërtesat ndërtesave ndërtese ndërtesën ndërtesës
+91	691	avion	aviona avioni avionin avionit avionë avionët avionëve
+92	692	dyshim	dyshime dyshimesh dyshimet dyshimeve dyshimi dyshimin dyshimit dyshimt dyshimta dyshimtë
+93	693	mbrëmje	mbramë mbrëmja mbrëmjeje mbrëmjen mbrëmjes mbrëmjet mbrëmjeve
+94	694	planet	planete planetet planeteve planeti planetin planetit planetë planetën planetët
+95	695	shkaktoj	shkakto shkaktohet shkaktoi shkaktoja shkaktoje shkaktojmë shkaktojnë shkaktojë shkakton shkaktoni shkaktonim shkaktonin shkaktonit shkaktonte shkaktova shkaktove shkaktuam shkaktuan shkaktuar shkaktuat
+96	696	ftoj	fto ftoftë ftoi ftoja ftoje ftoji ftojmë ftojnë ftojë fton ftoni ftonim ftonin ftonit ftonte ftova ftove ftuam ftuan ftuar ftuat
+97	697	ndërkohë	
+98	698	vogëlush	vogëlushe vogëlushet vogëlushi vogëlushin vogëlushit vogëlushja vogëlushë vogëlushët
+99	699	pamje	pamja pamjeje pamjen pamjes pamjesh pamjet pamjeve
+100	700	mjeshtër	mjeshtra mjeshtrat mjeshtrave mjeshtre mjeshtri mjeshtrin mjeshtrit mjeshtëri mjeshtërit mjeshtërve

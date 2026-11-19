@@ -1,0 +1,100 @@
+1	2801	adoptoj	adopto adoptoi adoptoja adoptojmë adoptojnë adoptojë adopton adoptoni adoptonin adoptonte adoptova adoptuan adoptuar
+2	2802	udhëzoj	udhëzo udhëzoi udhëzoje udhëzojmë udhëzojnë udhëzojë udhëzon udhëzoni udhëzonin udhëzonte udhëzova udhëzove udhëzuan udhëzuar udhëzuat
+3	2803	shkërdhej	shkërdhe shkërdheja shkërdheje shkërdhejnë shkërdhen shkërdhente shkërdheu shkërdheva shkërdheve shkërdhyem shkërdhyen shkërdhyer
+4	2804	ngjyros	ngjyrosa ngjyrosi ngjyrosim ngjyrosur
+5	2805	trung	trungje trungjet trungjeve trungu trungun trungut
+6	2806	përbërje	përbërja përbërjen përbërjet
+7	2807	mujor	mujore mujoret mujorë
+8	2808	shantazh	shantazhe shantazhesh shantazhet shantazheve shantazhi shantazhin shantazhit
+9	2809	denoncoj	denonco denoncoi denoncoja denoncoje denoncojmë denoncojnë denoncon denonconi denonconin denonconte denoncova denoncuam denoncuan denoncuar denoncuat
+10	2810	grimcë	grimca grimcash grimcat grimcave grimce grimcës
+11	2811	shquar	shquara
+12	2812	valle	valleje vallen valles vallesh vallet valleve vallja
+13	2813	gërshërë	gërshëra gërshërën gërshërët
+14	2814	shtat	shtata shtatat shtati shtatin shtatën
+15	2815	brishtë	brishta
+16	2816	hardhucë	hardhuca hardhucash hardhucat hardhuce hardhucën hardhucës
+17	2817	lulëzoj	lulëzoi lulëzoja lulëzojmë lulëzojnë lulëzojë lulëzon lulëzonin lulëzonte lulëzuan lulëzuar
+18	2818	islam	islame islami islamin islamit
+19	2819	ulërij	ulëras ulërimë ulërin ulërinin ulërinte ulërit ulërita ulëritur
+20	2820	stan	stane stanet staneve stani stanin stanit
+21	2821	katror	katrori katrorin katrorit katrorë katrorësh katrorët
+22	2822	çamçakëz	çamçakëzi çamçakëzin çamçakëzit çamçakëzë çamçakëzëve çumçakiz
+23	2823	kërcas	kërcasin kërcet kërciste kërcit kërcite kërciti kërcitja kërcitje kërcitur kërcitën
+24	2824	tinë	tina tine tinën tinës
+25	2825	letërsi	letërsia letërsie letërsinë letërsisë letërsitë
+26	2826	brengë	breng brenga brengat brengave brenge brengën brengës
+27	2827	fshesë	fshesa fshesash fshesat fshesave fshese fshesën fshesës
+28	2828	strehoj	strehohemi strehohuni strehoi strehojmë strehojnë strehon strehoni strehonin strehonte strehova strehove strehuam strehuan strehuar
+29	2829	tërësi	tërësia tërësie tërësinë
+30	2830	pëllumb	pllumb pëllumba pëllumbash pëllumbat pëllumbave pëllumbi pëllumbin pëllumbit
+31	2831	gjerdan	gjerdani gjerdanin gjerdanit gjerdanë gjerdanët gjordan
+32	2832	stinë	stina stine stinën stinës stinët stinëve
+33	2833	kalit	kalis kaliti kalitur
+34	2834	luks	luksi luksin luksit
+35	2835	balonë	ballon balona balonat balonave balone balonën balonës
+36	2836	lëkund	lëkunda lëkundet lëkundje lëkundur
+37	2837	litër	litra litri
+38	2838	lajmëtar	lajmëtare lajmëtari lajmëtarin lajmëtarit lajmëtarë lajmëtarët lajmëtarëve
+39	2839	mis	miset miseve misi misin misit
+40	2840	pellg	pellgje pellgjet pellgjeve pellgu pellgun pellgut
+41	2841	horr	hor horra horrash horrat horrave horri horrin horrit
+42	2842	qershi	qershia qershie qershinë qershish qershisë qershitë qershive
+43	2843	pinguin	pinguini pinguinin pinguinit pinguinë pinguinësh pinguinët pinguinëve
+44	2844	psikolog	psikologu psikologun psikologut psikologë psikologësh psikologët psikologëve
+45	2845	galaktikë	galaktik galaktika galaktikat galaktikave galaktike galaktikën galaktikës
+46	2846	pesëmbëdhjetë	
+47	2847	jashtëtokësor	jashtëtokësore jashtëtokësori jashtëtokësorin jashtëtokësorë jashtëtokësorët jashtëtokësorëve
+48	2848	skelet	skelete skeletet skeleti skeletin skeletit skeletë skeletëve
+49	2849	arkitekt	arkitekti arkitektin
+50	2850	pendë	penda pendat pende pendën pendës pendësh pendët pendëve
+51	2851	kofshë	kofsha kofshe kofshën kofshës kofshësh kofshët kofshëve koshë
+52	2852	parashutë	parashuta parashutat parashutën
+53	2853	vloj	vlojmë vlojnë vlon vloni vlonin vlonte vlorë vluar
+54	2854	bashkësi	bashkësia bashkësie bashkësinë bashkësisë bashkësitë bashkësive
+55	2855	arbër	arben arbri arbrin
+56	2856	bejzboll	bejzbolli bejzbollin bejzbollit
+57	2857	re	retë reve
+58	2858	nofull	nofulla nofullash nofullat nofullave nofulle nofullën
+59	2859	fishekzjarr	fishekzjarreve fishekzjarri fishekzjarrit fishekzjarrë fishekzjarrësh fishekzjarrët fishekzjarrëve
+60	2860	doganë	dogana doganash doganat doganave dogane doganën doganës
+61	2861	autopsi	autopsia autopsinë autopsisë
+62	2862	gozhdë	gozhda gozhdat gozhdave gozhde gozhdën gozhdës gozhdësh gozhdët
+63	2863	bajgë	bajga bajgash bajgat bajgave bajge bajgën
+64	2864	elektricitet	elektriciteti elektricitetin elektricitetit
+65	2865	varëse	varësen varëses varëset varëseve varësja
+66	2866	endacak	endacake endacaku endacakun endacakut endacakë endacakësh endacakët endacakëve
+67	2867	ngjall	ngjalle ngjalli ngjallim ngjallin ngjallja ngjallje ngjallni ngjallnin ngjallte ngjallur ngjallë ngjallën
+68	2868	deve	deveja deves devesë devetë deveve
+69	2869	kob	kobi kobin kobit
+70	2870	samar	samari samarin samarit
+71	2871	oreks	oreksi oreksin
+72	2872	vullkan	vullkane vullkanet vullkaneve vullkani vullkanin vullkanit
+73	2873	murtajë	mortajë murtaja murtaje murtajën murtajës
+74	2874	dukë	duka dukën dukës dukësh dukët
+75	2875	trotuar	trotuare trotuaret trotuareve trotuari trotuarin trotuarit
+76	2876	tekë	teka tekat tekave teke
+77	2877	sqarim	sqarime sqarimet sqarimeve sqarimi sqarimin sqarimit
+78	2878	sharrë	sharra sharrat sharre sharrën sharrës
+79	2879	mikeshë	mikesha mikeshën
+80	2880	bujqësi	bujqësia bujqësinë bujqësisë
+81	2881	babë	babën
+82	2882	zhvendosem	zhvendosej zhvendosemi zhvendosen zhvendoseni zhvendosesh zhvendosesha zhvendoseshe zhvendoseshin zhvendoset zhvendosur
+83	2883	kryengritje	kryengritja kryengritjen kryengritjes
+84	2884	gudulis	gudulise gudulisesh gudulisi gudulisin gudulisja gudulisje gudulisni guduliste gudulisur gudulisë gudulisët kilikos
+85	2885	shpallje	shpallja shpalljen shpalljes shpalljet shpalljeve
+86	2886	ironi	ironia ironie ironinë
+87	2887	shurrë	shurra shurre shurrën shurrës
+88	2888	acaroj	acaro acaroi acaroja acaroje acarojnë acaron acaroni acaronin acaronte acarova acarove acaruan acaruar
+89	2889	shkëndijë	shkëndija shkëndijat shkëndije shkëndijën shkëndijës
+90	2890	sërë	sëra sërën sërës
+91	2891	acarohem	acarohej acarohen acaroheni acarohesh acarohesha acaroheshin acarohet acaruar
+92	2892	përkthyer	
+93	2893	krenohem	krenohej krenohemi krenohen krenoheni krenohesh krenohesha krenoheshe krenoheshin krenohet krenohuni krenuar
+94	2894	vrapim	vrapime vrapimet vrapimeve vrapimi vrapimin vrapimit
+95	2895	afrim	afrime afrimet afrimeve afrimi afrimin afrimit
+96	2896	fener	feneri fenerin fenerit fenerë fenerët fenerëve
+97	2897	karkalec	karkaleca karkalecash karkalecat karkalecave karkaleci
+98	2898	kryqëzoj	kryqëzo kryqëzohen kryqëzoi kryqëzoje kryqëzojmë kryqëzojnë kryqëzon kryqëzoni kryqëzonim kryqëzonin kryqëzonte kryqëzuam kryqëzuan kryqëzuar
+99	2899	vendimtar	vendimtare
+100	2900	harmoj	harmon harmoni harmonin

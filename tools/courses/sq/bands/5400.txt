@@ -1,0 +1,100 @@
+1	5301	jofitimprurës	jofitimprurëse
+2	5302	gjedhe	gjedhet gjedheve
+3	5303	cërrik	cërriku cërrikut
+4	5304	afërisht	
+5	5305	horë	hora horash hore horës
+6	5306	ushtoj	ushtojnë ushton ushtuan ushtuar
+7	5307	nazizëm	nazizmi nazizmin
+8	5308	pashmangshmërisht	
+9	5309	mortje	mortja
+10	5310	diapazon	diapazoni diapazonit
+11	5311	këndell	këndellim këndellja këndellje këndellur
+12	5312	autoambulancë	
+13	5313	jetëshkrim	jetëshkrimi jetëshkrimin
+14	5314	laraman	laramane laramani
+15	5315	pështjell	pështjellim
+16	5316	ateizëm	ateizmi ateizmin ateizmit
+17	5317	kronologji	kronologjia kronologjinë kronologjisë
+18	5318	njëtrajtshëm	
+19	5319	erëz	
+20	5320	pashpjegueshëm	
+21	5321	ishullor	ishullore
+22	5322	rade	
+23	5323	panxhar	panxhari
+24	5324	gërdec	gërdeci gërdecin gërdecit
+25	5325	rekës	
+26	5326	aderoj	aderoi aderoja aderojmë aderojnë aderon aderonin aderuan aderuar
+27	5327	larmi	larmia larminë
+28	5328	letargjik	letargjike
+29	5329	stopohem	stopohet stopohuni stopuar
+30	5330	fierak	fieraku fierakun fierakut fierakë fierakët fierakëve
+31	5331	qos	qosa qosja
+32	5332	nëntoger	nëntogeri nëntogerit
+33	5333	djalëri	djalëria djalërinë djalërisë
+34	5334	përgjithësim	përgjithësime përgjithësimet përgjithësimit
+35	5335	dixhitalizim	dixhitalizimi dixhitalizimin dixhitalizimit
+36	5336	mjegullnajë	mjegullnaja
+37	5337	thjeshtëzoj	thjeshtëzuar
+38	5338	quk	quka quku
+39	5339	curril	currilat currilave
+40	5340	sedër	sedra sedrën
+41	5341	bardhok	bardhak bardhoc bardhoku bardhush
+42	5342	radikalizëm	radikalizmi radikalizmin radikalizmit
+43	5343	altruizëm	altruizmi
+44	5344	ndë	
+45	5345	degëz	degëza degëzat
+46	5346	qamet	kiamet
+47	5347	pasdrekë	pasdreke
+48	5348	ujti	ulti uti
+49	5349	shquaj	shquajnë shquan shquanin shquante
+50	5350	kuksian	kuksiani kuksianë kuksianët kuksianëve
+51	5351	cakoj	cako cakon cakoni cakonin cakonit cakuar
+52	5352	drapër	draprin
+53	5353	dekadent	dekadente
+54	5354	nëngrup	nëngrupe nëngrupet nëngrupeve nëngrupi nëngrupin nëngrupit
+55	5355	treçerek	
+56	5356	noc	
+57	5357	jehon	
+58	5358	harlis	harlisur
+59	5359	tellall	tellallë
+60	5360	ngulmoj	ngulmoi ngulmojnë ngulmon ngulmonte ngulmuar
+61	5361	shkërmoq	shkërmoqi shkërmoqur shkërmoqën
+62	5362	pallaskë	pallaska pallaskat pallaskës
+63	5363	dhallë	
+64	5364	loqe	
+65	5365	zdrukthëtar	zdrukthëtari
+66	5366	stuhishëm	
+67	5367	mamës	
+68	5368	njëzetekatër	
+69	5369	tërthore	tërthorja
+70	5370	meskin	meskine
+71	5371	hithër	hidh hithra hithrat hithrave hithre hithrën hithrës
+72	5372	shkarpë	shkarpa
+73	5373	gjezdis	gjezdisim gjezdiste gjezdisur
+74	5374	shtagë	shtaga shtagat
+75	5375	vranët	
+76	5376	krutan	krutanët krutanëve
+77	5377	shqep	shkopinj shqepur
+78	5378	zjarrmi	zjarrmia
+79	5379	abazhur	
+80	5380	gjiriz	
+81	5381	bëshëm	
+82	5382	dybek	dybeku dybekun dybekut
+83	5383	puk	puka puki
+84	5384	hartoj	
+85	5385	shquhem	
+86	5386	shëllirë	
+87	5387	zgjebe	zgjeben zgjebja
+88	5388	sakicë	sakica sakicën
+89	5389	kërriç	kiç kërriçi
+90	5390	ushtë	ushta ushte ushtën
+91	5391	fyl	fyle
+92	5392	laureshë	lauresha
+93	5393	purgator	
+94	5394	dra	
+95	5395	huj	
+96	5396	ulkonjë	ulkonja
+97	5397	havi	havie
+98	5398	kudhër	kudhra kudhrën
+99	5399	luleradhiqe	luleradhiqet luleradhiqeve
+100	5400	shprehës	shprehëse

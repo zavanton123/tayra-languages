@@ -1,0 +1,100 @@
+1	701	njihem	njihej njihemi njihen njiheni njihesh njihesha njiheshim njiheshin njiheshit njihet njihni njihu njihuni njohur njohura
+2	702	kurvë	kurva kurvash kurvat kurvave kurve kurvën kurvës
+3	703	lajmëroj	lajmëro lajmërohem lajmërohen lajmëroheni lajmërohesh lajmërohet lajmërohu lajmërohuni lajmëroi lajmëroja lajmëroje lajmëroji lajmërojmë lajmërojnë lajmërojë lajmëron lajmëroni lajmëronim lajmëronin lajmëronte lajmërova lajmërove lajmëruam lajmëruan lajmëruar lajmëruat
+4	704	drejtim	drejtime drejtimesh drejtimet drejtimeve drejtimi drejtimin drejtimit drejtit
+5	705	ndez	ndeza ndeze ndezet ndezi ndezim ndezin ndezja ndezje ndezni ndezur ndezë ndezëm ndezën ndezës ndezësh ndiz ndize
+6	706	lodh	lodha lodhe lodhi lodhim lodhin lodhja lodhje lodhka lodhni lodhte lodhtë lodhur lodhë lodhëm lodhën lodhët
+7	707	aksident	aksidente aksidentet aksidenteve aksidenti aksidentin aksidentit aksidentë
+8	708	këngë	kënga kënge këngën këngës këngësh këngët këngëve
+9	709	dyqan	duqan duçen dyqane dyqanesh dyqanet dyqaneve dyqani dyqanin dyqanit
+10	710	avokat	avokate avokati avokatin avokatit avokatja avokatë avokatësh avokatët avokatëve
+11	711	zbres	zbresim zbresin zbresë zbresësh zbrisja zbrisni zbriste zbrit zbrita zbritur
+12	712	kryetar	kryetari kryetarin kryetarit kryetarja kryetarë kryetarët
+13	713	gjeneral	gjenerale gjeneralet gjeneraleve gjenerali gjeneralin gjeneralit gjeneralë gjeneralët gjeneralëve
+14	714	kudo	
+15	715	mjaftueshëm	mjaftueshme
+16	716	oficer	oficera oficeri oficerin oficerit oficerja oficerë oficerësh oficerët oficerëve
+17	717	ngadalë	
+18	718	viktimë	viktim viktima viktimat viktimave viktimën viktimës
+19	719	klub	klube klubesh klubet klubeve klubi klubin klubit
+20	720	shtrij	shtri shtrihej shtrihem shtrihemi shtrihen shtriheni shtrihesh shtrihesha shtriheshin shtrihet shtrihu shtrihuni shtrije shtrijmë shtrijnë shtriju shtrijë shtrin shtrini shtrirë shtriu shtriva shtrive
+21	721	kusht	kushte kushtesh kushtet kushteve kushti kushtin kushtit
+22	722	qepë	qepa qepe qepën qepës qepësh qepët qepëve
+23	723	mish	misha mishi mishin mishit mishra mishrat mishrave
+24	724	njoftoj	njofto njoftohem njoftohemi njoftohet njoftohu njoftohuni njoftoi njoftoja njoftoje njoftojmë njoftojnë njoftojë njofton njoftoni njoftonim njoftonin njoftonte njoftova njoftove njoftuam njoftuan njoftuar njoftuat
+25	725	energji	energjia energjie energjin energjinë energjish energjisë energjitë energjive
+26	726	ajër	ajra ajri ajrin ajrit ajëri
+27	727	sesa	
+28	728	mbrëmë	mbramë mbrëm
+29	729	program	programe programet programeve programi programim programin programit programë
+30	730	hënë	hon hëna hënat hënave hëne hënën hënës hënëz
+31	731	shpresë	shpres shpresa shpresash shpresat shpresave shprese shpresën shpresës
+32	732	qaj	kaj qafsh qaja qaje qajmë qajnë qaka qamë qan qani qanim qanin qanit qante qanë qarë qatë qau qava qave
+33	733	pothuajse	
+34	734	kamera	kameran kamerat kamerave kamerën
+35	735	shumicë	shumica shumicat shumicave shumice shumicën shumicës
+36	736	prapanicë	prapanic prapanica prapanicat prapanicave prapanice prapanicën prapanicës
+37	737	përgjigjem	përgjigjej përgjigjemi përgjigjesh përgjigjeshe përgjigju përgjigjuni përgjigjur
+38	738	interesant	interesante interesantë
+39	739	shoqëri	shoqëria shoqërie shoqërin shoqërinë shoqërish shoqërisë shoqëritë shoqërive
+40	740	shpatë	shpata shpatash shpatat shpatave shpate shpatën shpatës
+41	741	copë	copa copash copat copave cope copën copëra copërat copës copësh
+42	742	rojë	roja rojat rojave roje rojet rojën rojës
+43	743	gjithsesi	
+44	744	urim	urime urimesh urimet urimeve urimi urimin urimit
+45	745	përkthej	përkthe përkthehet përkthehu përktheja përktheje përkthejmë përkthejnë përkthejë përkthen përktheni përkthenin përkthenit përkthente përktheu përktheva përktheve përkthyem përkthyen
+46	746	ngjyrë	ngjyr ngjyra ngjyrash ngjyrat ngjyrave ngjyre ngjyrën ngjyrës
+47	747	tavolinë	tavolin tavolina tavolinash tavolinat tavolinave tavoline tavolinën tavolinës
+48	748	shfaq	shfaqa shfaqe shfaqem shfaqesh shfaqet shfaqi shfaqim shfaqin shfaqja shfaqni shfaqnim shfaqnin shfaqte shfaqu shfaqur shfaqë shfaqëm shfaqën shfaqësh shfaqët
+49	749	vlerësoj	vlerëso vlerësohen vlerësohet vlerësoi vlerësoja vlerësoje vlerësojmë vlerësojnë vlerësojë vlerëson vlerësoni vlerësonim vlerësonin vlerësonit vlerësonte vlerësova vlerësuam vlerësuan vlerësuar
+50	750	ua	
+51	751	shfaqje	shfaqja shfaqjeje shfaqjen shfaqjes shfaqjesh shfaqjet shfaqjeve
+52	752	ngjarje	ngjarja ngjarjeje ngjarjen ngjarjes ngjarjesh ngjarjet ngjarjeve
+53	753	garë	gara garash garat garave gare garën garës
+54	754	det	dejt dete detet deteve deti detin detit
+55	755	martesë	martes martesa martesash martesat martesave martese martesën martesës
+56	756	plot	
+57	757	linjë	linja linjash linjat linjave linje linjën linjës
+58	758	hero	heroi heroin heroit heron heronj heronjsh heronjtë heronjve
+59	759	liroj	lirohej lirohem lirohemi lirohen liroheni lirohesh lirohesha lirohet lirohu liroi liroja liroje liroji lirojmë lirojnë lirojë liron lironi lironin lironte lirova lirove liruan liruar
+60	760	moshë	mishë mosha moshash moshat moshave moshe moshën moshës
+61	761	normal	normale normalja normalë
+62	762	bombë	bomba bombash bombat bombave bombe bombën bombës
+63	763	mjek	mjeke mjekim mjeku mjekun mjekut mjekë mjekësh mjekët mjekëve
+64	764	puth	putha puthe puthet puthi puthim puthin puthja puthmë puthni puthnin puthnit puthsha puthte puthur puthë puthëm puthën puthës puthësh puthët
+65	765	ferr	ferri ferrin ferrit
+66	766	ndërroj	ndërro ndërrohem ndërrohemi ndërrohen ndërrohesh ndërrohet ndërrohu ndërrohuni ndërroi ndërroja ndërroje ndërrojmë ndërrojnë ndërrojë ndërron ndërroni ndërronim ndërronin ndërronit ndërronte ndërrova ndërrove ndërruam ndërruan ndërruar ndërruat
+67	767	hip	hipa hipe hipi hipim hipin hipja hipje hipni hipnim hipnin hipte hipur hipëm hipën hipët
+68	768	pamundur	pamundura pamundurën
+69	769	lindje	lindja lindjeje lindjen lindjes lindjesh lindjet lindjeve
+70	770	shtatë	
+71	771	gur	guri gurin gurit gurë gurësh gurët gurëve
+72	772	thirrje	thirrjen thirrjes thirrjet thirrjeve
+73	773	preferoj	preferoi preferoja preferoje preferojmë preferojnë preferojë preferon preferoni preferonim preferonin preferonit preferonte preferova preferove preferuam preferuan preferuar
+74	774	dritare	dritareje dritaren dritares dritaresh dritaret dritareve dritarja
+75	775	operacion	operacione operacionet operacioneve operacioni operacionin operacionit
+76	776	sukses	suksese sukseset suksesi suksesin suksesit
+77	777	shërbej	shërbe shërbehem shërbehet shërbehu shërbehuni shërbeja shërbeje shërbeji shërbejmë shërbejn shërbejnë shërbejë shërben shërbeni shërbenim shërbenin shërbenit shërbente shërbeu shërbeva shërbeve shërbyem shërbyen shërbyer shërbyet
+78	778	dhjetë	dhejt dhet dhit
+79	779	thellë	thell thella thellët
+80	780	kërkim	kërkime kërkimesh kërkimet kërkimeve kërkimi kërkimin kërkimit
+81	781	dhëmb	dham dhëmbi dhëmbin dhëmbit dhëmbë dhëmbësh dhëmbët dhëmbëve
+82	782	xhaxha	xhaxhai xhaxhain xhaxhait xhaxhallarë xhaxhallarësh xhaxhallarët xhaxhanë xhaxhi
+83	783	serioz	serioze seriozë
+84	784	ditëlindje	ditëlindja ditëlindjeje ditëlindjen ditëlindjes ditëlindjet ditëlindjeve
+85	785	falje	falja faljen faljes faljet
+86	786	partner	partneri partnerin partnerit partnerja partners partnerë partnerësh partnerët partnerëve
+87	787	gjyshe	gjysheje gjyshen gjyshes gjyshet gjysheve gjyshja
+88	788	djeg	digj digje digjja digjje digjni digjnim digjnin digjnit digjte djegi djegim djegin djegni djegsh djegur dogja dogje dogji dogjëm dogjën dogjët
+89	789	faqe	faqeje faqen faqes faqesh faqet faqeve faqja
+90	790	sëmurë	sëmurëve
+91	791	braktis	braktisa braktise braktisi braktisim braktisin braktisja braktisni braktisnim braktisnin braktiste braktistë braktisur braktisë braktisëm braktisën braktisësh braktisët
+92	792	fuqishëm	fuqishme fuqishmi fuqishmin
+93	793	huaj	goj huaja huaji huajin huajit huajsh huajt huajve huej uej
+94	794	parasysh	
+95	795	betejë	betej beteja betejash betejat betejave beteje betejën betejës
+96	796	gjendem	gjendej gjendemi gjenden gjendeni gjendesh gjendesha gjendeshe gjendeshin gjendet gjendur
+97	797	formë	forma formash format formave forme formën formës
+98	798	peshk	peshke peshkim peshku peshkun peshkut peshkë peshq peshqish peshqit peshqve
+99	799	thikë	thika thikash thikat thikave thike thikën thikës
+100	800	zyrtar	zyrtare zyrtari zyrtarit zyrtarë zyrtarët zyrtarëve

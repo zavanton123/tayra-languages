@@ -1,0 +1,100 @@
+1	3801	çrregullt	çrregullta
+2	3802	mbledhës	mbledhëse mbledhësi mbledhësit
+3	3803	pulëbardhë	pulëbardha pulëbardhash pulëbardhat pulëbardhave pulëbardhe pulëbardhën
+4	3804	parzmore	parzmoren parzmorja
+5	3805	fre	frerin frerë frerët frerëve
+6	3806	ruajtës	ruajtëse ruajtësi ruajtësin ruajtësit
+7	3807	axhë	axha axhën axhës
+8	3808	xhenet	xheneti xhenetin xhenetit
+9	3809	dëshmor	dëshmori dëshmorë dëshmorët
+10	3810	vërtetim	vërtetime vërtetimet vërtetimi vërtetimin
+11	3811	carangth	crank
+12	3812	stemë	stema stemat steme stemën stemës
+13	3813	blasfemi	blasfemie blasfeminë blasfemisë blasfemitë
+14	3814	rrenë	rrena rrenat rrenave rrene rrenën
+15	3815	kanellë	kanella kanelle kanellën kanellës
+16	3816	tregtoj	tregtoi tregtoja tregtoje tregtojmë tregtojnë tregton tregtonim tregtonin tregtonte tregtuan tregtuar
+17	3817	kërthizë	kërthiza kërthizën kërthizës
+18	3818	mëshoj	mësho mëshoi mëshoja mëshojmë mëshojnë mëshon mëshoni mëshonte mëshove mëshuar
+19	3819	vathë	vatha vathe vathet vathën vathës
+20	3820	paharrueshëm	paharrueshme
+21	3821	kok	
+22	3822	djegje	djegja djegjen djegjes djegjet djegjeve
+23	3823	lajkë	lajka lajkat lajkave
+24	3824	tesha	
+25	3825	gjithësi	gjithësia gjithësinë gjithësisë
+26	3826	ankoj	anko ankoni ankova ankove ankuam ankuan ankuar ankuat
+27	3827	katërmbëdhjetë	
+28	3828	zvogëlim	zvogëlimi zvogëlimin zvogëlimit
+29	3829	insulinë	insulina insulinat insulinave insuline insulinën insulinës
+30	3830	ngushticë	ngushtica ngushticat ngushticave ngushticën ngushticës
+31	3831	gjëegjëzë	gjëegjëza gjëegjëzash gjëegjëzat gjëegjëze
+32	3832	xixë	xixa xixat
+33	3833	stërmadh	stërmadhe
+34	3834	dardhë	dardha dardhat dardhave dardhe dardhën dardhës
+35	3835	qartësi	qartësia qartësie qartësinë qartësisë
+36	3836	kacabu	kacabunj kacabunjve
+37	3837	peshore	peshoren peshores peshorja
+38	3838	mirëfilltë	
+39	3839	zambak	zambaku zambakut zambakë zambakët zambakëve
+40	3840	kreh	kref krehim krehin krehja krehje krehur krehën
+41	3841	dhen	dhentë dhenve dhën
+42	3842	braktisje	braktisja braktisjeje braktisjen braktisjes braktisjesh braktisjet braktisjeve
+43	3843	gamë	gama
+44	3844	adresoj	adreso adresoi adresoje adresojmë adresojnë adreson adresoni adresonin adresonte adresova adresuan adresuar
+45	3845	kallam	kallama kallamat kallami kallamin kallamit kallëm
+46	3846	klerik	kleriku klerikë klerikët
+47	3847	kujdesje	kujdesja kujdesjen kujdesjes
+48	3848	suxhuk	suxhuku suxhukun suxhukë suxhukët
+49	3849	skuter	skuteri skuterin skuterët
+50	3850	hut	huta huti hutin hutit hutët
+51	3851	shqiptohem	shqiptohej shqiptohen shqiptohet shqiptuar
+52	3852	asgjësim	asgjësimet asgjësimi asgjësimin asgjësimit
+53	3853	nacionalist	nacionaliste nacionalisti nacionalistin nacionalistit nacionalistë nacionalistësh nacionalistët nacionalistëve
+54	3854	jozyrtar	jozyrtare
+55	3855	mashë	masha mashat mashe mashën mashës
+56	3856	bajame	bajameje bajamen bajames bajamesh bajamet bajameve bajamja
+57	3857	kushtëzoj	kushtëzoi kushtëzojmë kushtëzojnë kushtëzon kushtëzoni kushtëzonte kushtëzuan kushtëzuar
+58	3858	gështenjë	gështenja gështenjash gështenjat gështenjave gështenje gështenjën gështenjës
+59	3859	ahur	ahuri ahurin ahurit ahër har haur
+60	3860	përçaj	përçajmë përçajnë përçan përçani përçante përçanë përçarë përçau
+61	3861	hallet	hallat
+62	3862	çorientoj	çorientoi çorientojnë çorientoni çorientonte çorientove çorientuar
+63	3863	rrepë	rrepa rrepash rrepat rrepe rrepën rrepës
+64	3864	lilë	lilin
+65	3865	dhez	dheze dhezi dhezim dhezin dhezja dhezni dhezur
+66	3866	modesti	modestia modestie modestinë modestisë
+67	3867	rra	
+68	3868	evidentoj	evidentoi evidentojmë evidentojnë evidenton evidentonim evidentonte evidentuam evidentuan evidentuar
+69	3869	vrojtim	vrojtime vrojtimet vrojtimeve vrojtimi vrojtimin vrojtimit
+70	3870	hajmë	
+71	3871	gërryej	gërryejmë gërryejnë gërryen gërryeni gërryente gërryer
+72	3872	mej	meha
+73	3873	ver	verra
+74	3874	blerim	blerimi blerimin
+75	3875	paparashikuar	paparashikuara
+76	3876	fosfor	fosfori fosforin fosforit
+77	3877	jahni	jani
+78	3878	shteroj	shteroi shterojnë shteron shteruam shteruan shteruar
+79	3879	incizoj	incizoi incizoje incizojmë incizojnë incizon incizonte incizuar incizuat
+80	3880	sokol	sokoli sokolin sokolit
+81	3881	beton	betoni betonin
+82	3882	emigrim	emigrime emigrimesh emigrimet emigrimeve emigrimi emigrimin emigrimit
+83	3883	hallkë	hallka hallkash hallkat hallkave hallke hallkën hallkës
+84	3884	hatër	hatri
+85	3885	ase	
+86	3886	cenoj	ceno cenoi cenojmë cenojnë cenon cenoni cenonin cenonte cenove cenuan cenuar
+87	3887	këllk	këllku këllkun këllqe këllqet
+88	3888	demet	demeti
+89	3889	tramvaj	tramvaje tramvajet tramvajeve tramvaji tramvajin tramvajit tramvajë
+90	3890	veteriner	veterineri veterinerin veterinerit veterinerë veterinerët veterinerëve
+91	3891	tul	tule tulesh tulet tuli tulin tulit
+92	3892	harabel	harabela harabelat harabelave harabeli harabelin harabelit
+93	3893	putanë	putana putanat putanave putane putanën
+94	3894	shtang	shtanga shtange shtangim shtangin shtangu shtangur shtangën shtangët
+95	3895	pallua	palloi palloin palloit
+96	3896	rrjedhshëm	
+97	3897	ujor	ujorë
+98	3898	karshi	
+99	3899	ibrik	ibriku ibrikun ibrikut ibrikë ibrikët
+100	3900	sistematik	sistematike sistematikë

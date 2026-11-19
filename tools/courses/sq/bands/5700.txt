@@ -1,0 +1,100 @@
+1	5601	pjesëtim	
+2	5602	përzhit	përzhita përzhiti përzhitje
+3	5603	shtrëngesë	shtrëngesa
+4	5604	kavajas	kavajasi kavajasit kavajasve
+5	5605	yshtje	yshtja
+6	5606	err	
+7	5607	shumëzim	
+8	5608	mefshtë	
+9	5609	brazdë	brazda
+10	5610	shparg	shpargu
+11	5611	plasarit	plasarita
+12	5612	micë	mice
+13	5613	kredh	kredhin kredhur krodha
+14	5614	togfjalësh	togfjalëshat togfjalëshi togfjalëshin togfjalëshit
+15	5615	ngërthej	ngërthejnë ngërthen ngërthyer
+16	5616	endë	enda
+17	5617	sinus	
+18	5618	zhapi	shapi zhapik
+19	5619	meleq	melek
+20	5620	lylc	lulës
+21	5621	sapë	sapa
+22	5622	mistri	
+23	5623	ungji	
+24	5624	buzëqumësht	
+25	5625	armëtar	armëtarëve
+26	5626	rrëshirë	
+27	5627	drang	drangu
+28	5628	pejgamber	
+29	5629	kërbisht	kërbishtja
+30	5630	magar	magarin
+31	5631	sherp	sherpa sherpi
+32	5632	vërvit	vërviti vërvitur
+33	5633	hajdutëri	hajdutëria hajdutërinë hajdutëritë
+34	5634	myftar	miftar muhtar muhtarit myftari myftarin
+35	5635	cuk	cuka cuku
+36	5636	cikë	cika cike cikën cikës
+37	5637	censurë	
+38	5638	amvisëri	
+39	5639	lëmoj	lëmon
+40	5640	cërka	
+41	5641	tarr	
+42	5642	strall	stralli
+43	5643	urroj	
+44	5644	ofshamë	
+45	5645	ekuinoks	
+46	5646	morrac	morracak
+47	5647	bythëqirë	bythëqira
+48	5648	acetilen	
+49	5649	vrikë	
+50	5650	thelbsisht	
+51	5651	-u	
+52	5652	çafë	çafën
+53	5653	blem	
+54	5654	parmëz	
+55	5655	muskulaturë	
+56	5656	imtësoj	imtësuar
+57	5657	gjobis	
+58	5658	kompensatë	
+59	5659	guall	guaj
+60	5660	avullore	
+61	5661	rribë	rriba
+62	5662	largesë	largese
+63	5663	pantomimë	
+64	5664	zemërngushtë	
+65	5665	majasëll	
+66	5666	gabel	
+67	5667	tëharr	tëharrje
+68	5668	dijetare	
+69	5669	stap	
+70	5670	pensë	pense
+71	5671	urlë	urla
+72	5672	mbarsje	
+73	5673	trashaman	
+74	5674	gashtë	
+75	5675	shejtanllëk	
+76	5676	fellë	fella
+77	5677	shkartoj	shkartuar
+78	5678	cezium	
+79	5679	ehull	
+80	5680	paganizëm	
+81	5681	deroj	deron
+82	5682	shtyr	
+83	5683	armëpunues	
+84	5684	ungj	
+85	5685	qihem	
+86	5686	fërgohem	
+87	5687	fjalaman	
+88	5688	shpirtmadh	
+89	5689	hasëll	
+90	5690	gërdit	gërditur
+91	5691	bigë	
+92	5692	bubu	
+93	5693	majicë	majica
+94	5694	kocë	
+95	5695	vrragë	
+96	5696	kular	
+97	5697	hakërri	
+98	5698	cirkoj	cirkojmë
+99	5699	tartabiqe	
+100	5700	xhade	

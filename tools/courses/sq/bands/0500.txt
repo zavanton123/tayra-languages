@@ -1,0 +1,100 @@
+1	401	fillim	fillime fillimet fillimeve fillimi fillimin fillimit fillimë
+2	402	polic	polica policat policin policit policja policë policën policësh policët policëve
+3	403	siguroj	siguro sigurohej sigurohem sigurohemi sigurohen siguroheni sigurohesh sigurohesha siguroheshe siguroheshim siguroheshin sigurohet sigurohu sigurohuni siguroi siguroja sigurojmë sigurojnë siguroju sigurojë siguron siguroni siguronin siguronte sigurova sigurove siguruam siguruan siguruar
+4	404	mundur	
+5	405	lëshoj	lshoj lësho lëshoi lëshoja lëshoje lëshoji lëshojmë lëshojn lëshojnë lëshojë lëshomë lëshon lëshoni lëshonim lëshonin lëshonit lëshonte lëshova lëshove lëshuam lëshuan lëshuar lëshuat
+6	406	këtej	ktej këndej
+7	407	anije	anie anija anijeje anijen anijes anijesh anijet anijeve anijë
+8	408	tepër	
+9	409	shqetësoj	shqetëso shqetësoi shqetësoja shqetësojmë shqetësojnë shqetësojë shqetëson shqetësoni shqetësonim shqetësonin shqetësonte shqetësova shqetësove shqetësuam shqetësuan shqetësuar shqetësuat
+10	410	grup	grupe grupet grupeve grupi grupim grupin grupit grupë
+11	411	zbuloj	zbulo zbulohej zbulohemi zbulohen zbulohet zbuloi zbuloja zbuloje zbulojmë zbulojnë zbulojë zbulon zbuloni zbulonim zbulonin zbulonit zbulonte zbulova zbulove zbuluam zbuluan zbuluar zbuluat
+12	412	thërras	thërrasim thërrasin thërrasë thërrasësh thërret thërrisni thërriste thërrit thërrita thërrite thërriti thërritja thërritje thërritni thërritur thërritën thërritët
+13	413	erë	era ere erën erëra erërash erërat erërave erës
+14	414	bashkoj	bashko bashkoftë bashkohej bashkohem bashkohemi bashkohen bashkoheni bashkohesh bashkohesha bashkoheshe bashkoheshim bashkoheshin bashkoheshit bashkohet bashkohu bashkohuni bashkoi bashkoja bashkoje bashkoji bashkojmë bashkojnë bashkojë bashkon bashkoni bashkonim bashkonin bashkonte bashkova bashkove bashkuam bashkuan bashkuar bashkuara bashkuat
+15	415	pesë	
+16	416	amerikan	amerikane amerikani amerikanin amerikanit amerikanë amerikanësh amerikanët amerikanëve
+17	417	thirr	thirra thirre thirresh thirret thirri thirrim thirrin thirrja thirrmë thirrni thirrnin thirrte thirrur thirrë thirrëm thirrën thirrës thirrësh thirrët
+18	418	motër	motra motrash motrat motrave motre motrën motrës
+19	419	mrekullueshëm	mrekullueshme mrekullueshmi
+20	420	libër	libra librash librat librave libri librin librit
+21	421	mbase	
+22	422	prek	preka preke preket preki prekim prekin prekja prekje prekjet prekni preknim preknin preknit prekte preku prekur prekëm prekën prekët
+23	423	mbret	mbreti mbretin mbretit mbretë mbretër mbretërish mbretërit mbretërve
+24	424	tërheq	tërheqa tërheqi tërheqim tërheqin tërheqja tërheqje tërheqka tërhequr tërheqë tërheqës tërheqëse tërheqësh tërhiq tërhiqe tërhiqja tërhiqje tërhiqni tërhiqnim tërhiqnin tërhiqnit tërhiqte tërhoqa tërhoqe tërhoqi tërhoqëm tërhoqën tërhoqët
+25	425	gjysmë	gjys gjysma gjysmat gjysme gjysmën gjysmës gjysëm
+26	426	lirë	lira lirën
+27	427	ndal	nal ndala ndale ndali ndalin ndalja ndalni ndalnim ndalnin ndalte ndalur ndalë ndalëm ndalën ndalësh ndalët ndalím
+28	428	martohem	martohej martohemi martohen martoheni martohesh martohesha martoheshe martoheshim martoheshin martoheshit martohet martohu martohuni martuar
+29	429	kapiten	kapitene kapiteni kapitenin kapitenit kapitenja kapitenë kapitenët kapitenëve
+30	430	tashmë	
+31	431	drejtoj	drejto drejtohej drejtohem drejtohemi drejtohen drejtoheni drejtohesh drejtohesha drejtohet drejtohu drejtohuni drejtoi drejtoja drejtoje drejtoji drejtojmë drejtojnë drejtojë drejton drejtoni drejtonim drejtonin drejtonit drejtonte drejtova drejtove drejtuam drejtuan drejtuar drejtuat
+32	432	çuditshëm	çuditshme
+33	433	çështje	çështja çështjeje çështjen çështjes çështjesh çështjet çështjeve
+34	434	rëndësi	rëndësia rëndësie rëndësinë rëndësisë
+35	435	pikë	pika pikash pikat pikave pike pikën pikës
+36	436	gaboj	gabo gabohej gabohem gabohen gaboheni gabohesh gabohesha gabohet gaboi gaboja gaboje gabojmë gabojnë gabon gaboni gabonim gabonin gabonit gabonte gabova gabove gabuam gabuan gabuar gabuat
+37	437	dritë	drita dritash dritat dritave drite dritën dritës
+38	438	fsheh	fsheha fshehe fshehem fshehet fshehi fshehim fshehin fshehja fshehje fshehni fshehnin fsheht fshehta fshehte fshehtë fshehu fshehur fshehë fshehëm fshehën fshehësh fshehët fshih
+39	439	more	mor ore
+40	440	qetë	qeta qetat
+41	441	gojë	gjëjë goja goje gojën gojës gojët gojëve golë
+42	442	thjeshtë	thjeshta thjeshti
+43	443	urrej	urre urreja urreje urrejmë urrejn urrejnë urrejtur urrejë urren urreni urrenin urrenit urrente urrenë urreu urreva urryem urryer urryet
+44	444	krijoj	krijo krijohej krijohen krijohet krijoi krijoja krijoje krijoji krijojmë krijojnë krijojë krijon krijoni krijonim krijonin krijonit krijonte krijova krijove krijuam krijuan krijuar krijuat
+45	445	hë	
+46	446	zyrë	zyra zyrash zyrat zyrave zyre zyrën zyrës
+47	447	përgjigje	përgjigja përgjigjen përgjigjeni përgjigjes përgjigjesha përgjigjet përgjigjeve përgjigjja përgjigjë
+48	448	budalla	budall budallai budallain budallait budallat budallenj budallenjtë
+49	449	shenjë	shenja shenjash shenjat shenjave shenje shenjën shenjës shenjët
+50	450	kontroll	kontrolla kontrollet kontrolli kontrollim kontrollin kontrollit kontrollë kontrollën kontrollës
+51	451	pushoj	pusho pushofsh pushofshin pushoftë pushohem pushohesh pushohet pushoi pushoja pushoje pushojmë pushojnë pushojë pushon pushoni pushonim pushonin pushonit pushonte pushosh pushova pushove pushuam pushuan pushuar pushuat
+52	452	kompani	kompania kompanie kompanija kompanin kompaninë kompanis kompanisë kompanitë kompanive
+53	453	zgjedhje	zgedhje zgjedhja zgjedhjeje zgjedhjen zgjedhjes zgjedhjesh zgjedhjet zgjedhjeve
+54	454	seks	sekse seksi seksin seksit
+55	455	sekondë	sekonda sekondash sekondat sekondave sekonde sekondi sekondën sekondës
+56	456	vrasje	vrasja vrasjeje vrasjen vrasjes vrasjesh vrasjet vrasjeve
+57	457	nder	nderet nderi nderin nderit nderë
+58	458	radhë	radha radhe radhën radhës radhët radhëve rradh rradha rradhë rradhën rradhës rradhët
+59	459	marrëveshje	marrëveshja marrëveshjeje marrëveshjen marrëveshjes marrëveshjet marrëveshjeve
+60	460	tung	
+61	461	faj	faje fajet fajeve faji fajin fajit
+62	462	zgjedh	zgedh zgidh zgjedhi zgjedhim zgjedhimit zgjedhin zgjedhni zgjedhte zgjedhur zgjedhët zgjidhja zgjidhni zgjidhte zgjodha zgjodhi
+63	463	lind	linda linde lindi lindim lindin lindni lindnim lindnin lindnit lindte lindur lindë lindëm lindën lindës lindësh lindët
+64	464	festë	festa festash festat festave feste festën festës
+65	465	tall	talla talle tallej tallem tallemi tallen talleni tallesh tallesha talleshe talleshin tallet talli tallim tallin tallja tallni tallnin tallte tallu tallur tallëm tallën tallët
+66	466	mijë	mijëra
+67	467	letër	letra letrash letrat letrave letre letrën letrës
+68	468	film	filma filmash filmat filmave filmi filmim filmin filmit
+69	469	besim	besime besimesh besimet besimeve besimi besimin besimit
+70	470	mallkoj	mallko mallkoftë mallkoi mallkoje mallkojmë mallkojnë mallkojë mallkon mallkoni mallkonin mallkonte mallkova mallkove mallkuan mallkuar
+71	471	fuqi	fuqia fuqie fuqija fuqin fuqinë fuqish fuqisë fuqit fuqitë fuqive
+72	472	spital	spitale spitalet spitaleve spitali spitalin spitalit
+73	473	vrapoj	vrapo vrapoi vrapoja vrapoje vrapojmë vrapojnë vrapojë vrapon vraponi vraponim vraponin vraponit vraponte vrapova vrapove vrapuam vrapuan vrapuar vrapuat
+74	474	urdhëroj	urdhëro urdhërohet urdhëroi urdhëroja urdhëroje urdhërojmë urdhërojnë urdhërojë urdhëron urdhëroni urdhëronin urdhëronte urdhërova urdhërove urdhëruam urdhëruan urdhëruat
+75	475	zi	zeza zezat zezave zeze zezë zezën zezës zia zinj
+76	476	mungoj	mungo mungoi mungoja mungoje mungojmë mungojn mungojnë mungojë mungon mungoni mungonim mungonin mungonit mungonte mungova mungove munguaka munguam munguan munguar munguat
+77	477	ligj	ligje ligjesh ligjet ligjeve ligji ligjin ligjit
+78	478	detyrë	detyra detyrash detyrat detyrave detyre detyrën detyrës
+79	479	ndryshe	
+80	480	mesazh	mesazhe mesazhesh mesazhet mesazheve mesazhi mesazhin mesazhit mesazhë
+81	481	biznes	biznese bizneset bizneseve biznesi biznesin biznesit
+82	482	qartë	kjartë qarta
+83	483	gjendje	gjendja gjendjeje gjendjen gjendjes gjendjet gjendjeve
+84	484	femër	femra femrash femrat femrave femre femrën femrës
+85	485	vendim	vendime vendimesh vendimet vendimeve vendimi vendimin vendimit
+86	486	iu	
+87	487	zonë	zona zonash zonat zonave zone zonën zonës
+88	488	thyej	theva thyeja thyeje thyeji thyejmë thyejn thyejnë thyejë thyen thyeni thyenin thyente thyer thyera thyet thyeva thyeve
+89	489	ngrihem	ngrihej ngrihemi ngrihen ngriheni ngrihesh ngrihesha ngriheshe ngriheshim ngriheshin ngrihet ngrihu ngrihuni ngritu ngritur
+90	490	ngre	ngremë ngren ngrenë ngresh ngri ngrija ngrije ngrini ngrinim ngrinin ngrinit ngrinte ngrita ngrite ngriti ngritur ngritëm ngritën ngritët
+91	491	skuadër	skuadra skuadrat skuadrave skuadre skuadrën skuadrës
+92	492	sistem	sisteme sistemesh sistemet sistemeve sistemi sistemin sistemit
+93	493	gënjej	gënje gënjeja gënjeje gënjejmë gënjejn gënjejnë gënjejë gënjen gënjeni gënjenim gënjenin gënjente gënjenë gënjeu gënjeva gënjeve gënjyem gënjyen gënjyer gënjyet
+94	494	frikësoj	frikëso frikësohej frikësohem frikësohemi frikësohen frikësoheni frikësohesh frikësohesha frikësoheshe frikësoheshin frikësohet frikësohu frikësoi frikësoja frikësojmë frikësojnë frikësojë frikëson frikësoni frikësonte frikësova frikësove frikësuar frikësuat
+95	495	rrezik	rreziku rrezikun rrezikut rrezikë rreziqe rreziqesh rreziqet rreziqeve
+96	496	prish	prisha prishe prishet prishi prishim prishin prishja prishje prishni prishnim prishnin prishnit prishte prishtë prishur prishë prishëm prishën prishësh prishët
+97	497	nëpër	
+98	498	djall	djaj djajtë djajve djalli djallin djallit djallë
+99	499	takohem	takohej takohemi takohen takoheni takohesh takohesha takoheshe takoheshim takoheshin takoheshit takohet takohu takohuni takuar
+100	500	agjent	agjente agjenti agjentin agjentit agjentja agjentë agjentët agjentëve

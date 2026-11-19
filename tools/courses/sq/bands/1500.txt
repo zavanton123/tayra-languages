@@ -1,0 +1,100 @@
+1	1401	sugjeroj	sugjeroi sugjeroja sugjeroje sugjerojmë sugjerojnë sugjeron sugjeroni sugjeronin sugjeronit sugjeronte sugjerova sugjerove sugjeruan sugjeruar
+2	1402	rrëmujë	rrëmuja rrëmujat rrëmujën rrëmujëra rrëmujës rëmujë
+3	1403	tunel	tunele tunelet tuneleve tuneli tunelin tunelit
+4	1404	rrethoj	rrethoja rrethoje rrethojmë rrethojnë rrethojë rrethojës rrethon rrethoni rrethuan rrethuar
+5	1405	valë	vala vale valën valës valësh valët valëve
+6	1406	pritje	pritjeje pritjen pritjes pritjet
+7	1407	sqaroj	sqaro sqarohem sqarohemi sqarohet sqaroi sqaroja sqaroje sqarojmë sqarojnë sqarojë sqaron sqaroni sqaronin sqaronit sqaronte sqarova sqarove sqaruam sqaruan sqaruar
+8	1408	postë	posta postat postave poste posti postin postën postës
+9	1409	bashkëpunim	bashkëpunime bashkëpunimesh bashkëpunimet bashkëpunimeve bashkëpunimi bashkëpunimin bashkëpunimit
+10	1410	duhan	duhani duhanin duhanit duhon
+11	1411	shtrigë	shtriga shtrigash shtrigat shtrigave shtrige shtrigën shtrigës
+12	1412	harxhoj	harxho harxhohet harxhoi harxhoja harxhoje harxhojmë harxhojnë harxhojë harxhon harxhoni harxhonim harxhonin harxhonte harxhova harxhove harxhuam harxhuan harxhuar harxhuat
+13	1413	ëmbëlsirë	ëmbëlsira ëmbëlsirash ëmbëlsirat ëmbëlsirave ëmbëlsire ëmbëlsirën ëmbëlsirës
+14	1414	argëtues	argëtuese argëtuesi
+15	1415	anglisht	
+16	1416	kërce	kërceje kërcen kërcesh kërcet kërceve
+17	1417	kuvend	kuvende kuvendet kuvendeve kuvendi kuvendin kuvendit kuvënd
+18	1418	legjendë	legjend legjenda legjendash legjendat legjendave legjende legjendën legjendës
+19	1419	mot	mote motesh motet moteve moti motin motit
+20	1420	mallkim	mallkime mallkimet mallkimi mallkimin mallkimit
+21	1421	poshtër	posht poshtri poshtërim
+22	1422	rrip	rripa rripat rripave rripi rripin rripit rryp
+23	1423	ajroj	ajro ajron ajror ajrore
+24	1424	perëndimor	perëndimore perëndimorin perëndimorë perëndimorët perëndimorëve
+25	1425	kënd	kënde këndet këndeve këndi këndim këndin këndit
+26	1426	garantoj	garanto garantoi garantoja garantoje garantojmë garantojnë garantojë garanton garantoni garantonin garantonit garantonte garantova garantuam garantuan garantuar
+27	1427	votoj	voto votohej votohen votoheshin votohet votoi votoja votoje votojmë votojnë votojë voton votoni votonim votonin votonit votonte votova votove votuam votuan votuar votuat
+28	1428	kërcënoj	kërcëno kërcënohen kërcënohet kërcënoi kërcënoja kërcënoje kërcënojmë kërcënojnë kërcënon kërcënoni kërcënonin kërcënonte kërcënova kërcënove kërcënuan kërcënuar kërcënuat
+29	1429	maj	maja majat maji majin majit majta majtur
+30	1430	negativ	negative negativi negativë negativët
+31	1431	rruaj	rrofsh rrofsha rrofshin rroftë rroi rrova rrove rruaja rruaje rruajmë rruajnë rruajta rruajtur rruan rruani rruante rruar
+32	1432	afërt	afërta afërti
+33	1433	përshtatem	përshtatej përshtatemi përshtaten përshtateni përshtatesh përshtateshe përshtatet përshtatu përshtatur
+34	1434	mëshirë	mëshir mëshira mëshire mëshirën mëshirës
+35	1435	hollë	holla hollash hollat hollave
+36	1436	derdh	derdha derdhe derdhet derdhi derdhim derdhin derdhja derdhni derdhnim derdhnin derdhte derdhu derdhur derdhë derdhëm derdhën derdhësh
+37	1437	vetmuar	vetmuara
+38	1438	rrallë	rralla rrallën
+39	1439	mbrapsht	
+40	1440	pafajshëm	
+41	1441	titull	tituj titujsh titujt titujve titulli titullin titullit
+42	1442	shtesë	shtesa shtesat shtesën
+43	1443	territor	territore territoresh territoret territoreve territori territorin territorit
+44	1444	prodhoj	prodho prodhohen prodhohet prodhoi prodhoje prodhojmë prodhojnë prodhojë prodhon prodhoni prodhonim prodhonin prodhonte prodhova prodhuam prodhuan prodhuar
+45	1445	shpik	shpika shpike shpikim shpikin shpikja shpikje shpikjet shpikni shpiknin shpikte shpiku shpikur shpikë shpikëm shpikën shpikës shpikësh
+46	1446	përfundim	përfundime përfundimet përfundimeve përfundimi përfundimin përfundimit
+47	1447	buzëqesh	buzëqesha buzëqeshe buzëqeshi buzëqeshim buzëqeshin buzëqeshja buzëqeshni buzëqeshnin buzëqeshte buzëqeshu buzëqeshur buzëqeshë buzëqeshën buzëqeshësh buzëqeshët
+48	1448	kushëri	kushërinj kushërinjsh kushërinjtë kushërinjve kushërira kushërirat kushëriri kushëririn kushëririt
+49	1449	komandë	komand komanda komandat komandave komande komandën komandës
+50	1450	oqean	oqeane oqeanet oqeaneve oqeani oqeanin oqeanit
+51	1451	fjalim	fjalime fjalimet fjalimi fjalimin fjalimit
+52	1452	sikurse	
+53	1453	varfër	varfra varfrit varfëra varfëri varfërit varfërve
+54	1454	dëshmoj	dëshmo dëshmohet dëshmoi dëshmoja dëshmoje dëshmojmë dëshmojnë dëshmojë dëshmon dëshmoni dëshmonim dëshmonin dëshmonte dëshmova dëshmove dëshmuam dëshmuan dëshmuar dëshmuat
+55	1455	komunë	komuna komunat komunave komune komunën komunës
+56	1456	pleh	plehra plehrash plehrat plehrave plehu plehun plehër
+57	1457	shtrenjtë	shtrejt shtrenjt shtrenjta shtrenjti
+58	1458	kursej	kursehen kursehet kurseja kurseje kurseji kursejmë kursejnë kursejë kursen kurseni kursenim kursenin kursenit kursente kurseu kurseva kurseve kursyem kursyen kursyer kursyet
+59	1459	mahnitshëm	mahnitshme
+60	1460	ça	
+61	1461	artikull	artikuj artikujsh artikujt artikujve artikulli artikullin artikullit
+62	1462	nënshkruaj	nënshkroi nënshkrova nënshkrove nënshkruaja nënshkruaje nënshkruajmë nënshkruajnë nënshkruajë nënshkruam nënshkruan nënshkruani nënshkruanin nënshkruanit nënshkruante nënshkruar nënshkruat
+63	1463	raketë	raket raketa raketash raketat raketave rakete raketën raketës
+64	1464	talent	talente talentesh talentet talenteve talenti talentin talentit talentëve
+65	1465	shënim	shënime shënimesh shënimet shënimeve shënimi shënimin shënimit
+66	1466	xhaketë	xhaket xhaketa xhaketat xhaketave xhakete xhaketën xhaketës
+67	1467	protestë	protesta protestash protestat protestave proteste protestën protestës
+68	1468	demon	demona demoni demonin demonit demonë demonësh demonët demonëve
+69	1469	teatër	teatri teatrin teatrit teatro teatrosh teatrot teatrove
+70	1470	elektrik	elektrike elektriku elektrikun elektrikë elektrikët eletrike
+71	1471	ngarkoj	ngarko ngarkohen ngarkohet ngarkohuni ngarkoi ngarkoja ngarkoje ngarkojmë ngarkojnë ngarkojë ngarkon ngarkoni ngarkonim ngarkonin ngarkonte ngarkova ngarkove ngarkuan ngarkuar ngarkuat
+72	1472	vizitor	vizitori vizitorin vizitorit vizitorë vizitorësh vizitorët vizitorëve
+73	1473	revole	revolen revoles revolet revolja
+74	1474	vonesë	vones vonesa vonesën
+75	1475	kilometër	kilometra kilometrash kilometri
+76	1476	teori	teoria teorike teorinë teorisë teoritë
+77	1477	vetvete	vetveten vetvetes vetvetja
+78	1478	mjekësor	mjekësore mjekësorë
+79	1479	shpellë	shpella shpellash shpellat shpellave shpelle shpellën shpellës
+80	1480	mëkat	mëkate mëkatesh mëkatet mëkateve mëkati mëkatin mëkatit
+81	1481	televizor	televizori televizorin televizorit televizorë
+82	1482	armatos	armatose armatosi armatosim armatosin armatosja armatosje armatosni armatoste armatosur armatosën
+83	1483	hall	halle halli hallin
+84	1484	përballë	
+85	1485	lezetshëm	lezetshme
+86	1486	kancer	kanceri kancerin kancerit
+87	1487	marrëzi	marrëzia marrëzie marrëzinë marrëzira marrëzirat marrëzish marrëzisë marrëzitë marrëzive
+88	1488	faturë	fatura faturash faturat faturave fature faturën faturës
+89	1489	kapelë	kapel kapela kapelat kapelave kapele kapelën kapelës
+90	1490	qëndrim	qëndrimi qëndrimin
+91	1491	habit	habis habita habitat habite habitem habitesh habiti habitja habitje habitni habitur habitëm habitën habitët
+92	1492	rresht	rreshta rreshtash rreshtat rreshtave rreshti rreshtin rreshtit
+93	1493	bari	barinj barinjsh barinjtë barinjve baris bariu bariun bariut
+94	1494	sillë	cile silla sille sillësh
+95	1495	hekur	ekur hekura hekurash hekurat hekurave hekuri hekurin hekurit hekurt hekurta
+96	1496	freskët	freskëta
+97	1497	financiar	financiare
+98	1498	senator	senatore senatori senatorin senatorit senatorë senatorët senatorëve
+99	1499	skllav	skllave skllavet skllavi skllavin skllavit skllavja skllavë skllavët skllevër skllevërit skllevërve
+100	1500	gjuajtje	gjuajtja gjuajtjen gjuajtjes gjuajtjet gjuajtjeve

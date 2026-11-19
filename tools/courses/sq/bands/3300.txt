@@ -1,0 +1,100 @@
+1	3201	beng	bengt bengut benk
+2	3202	bole	bolet
+3	3203	turshi	turshinë turshitë turshive
+4	3204	prehër	prehri prehrin prehën prehëri prehërin
+5	3205	qeshje	qeshja qeshjen qeshjes qeshjet qeshjeve
+6	3206	baraz	
+7	3207	limonadë	limonad limonada limonadash limonadat limonade limonadën limonadës limonatë
+8	3208	mushkë	mushka mushkash mushkat mushke mushkën mushkës
+9	3209	papagall	papagaj papagajtë papagalli papagallin papagallit
+10	3210	shkumë	shkuma shkume shkumën shkumës
+11	3211	endem	endej endemi enden endeshin endur
+12	3212	koshere	kosheres kosheret kosherja
+13	3213	rrumbullak	rrumbullake rrumbullakë rrumbullakët
+14	3214	orientim	orientime orientimet orientimeve orientimi orientimin orientimit
+15	3215	padrejtësi	padrejtësia padrejtësie padrejtësinë padrejtësisë padrejtësitë
+16	3216	ni	
+17	3217	galë	gala galat gale
+18	3218	bosht	boshte boshtet boshteve boshti boshtin boshtit
+19	3219	prijës	prijësi prijësin prijësit prijësve
+20	3220	gjermanisht	
+21	3221	qymyr	qymyri qymyrin qymyrit
+22	3222	çarje	çarja çarjen çarjes çarjet çarjeve
+23	3223	çuditërisht	
+24	3224	rregullore	rregulloren rregullores
+25	3225	va	vash vatë vau vaun vaut
+26	3226	shurdh	shurdha shurdhe shurdhi shurdhit shurdhur shurdhë shurdhët shurdhëve
+27	3227	peshkop	peshkopi peshkopin peshkopit peshkopë peshkopët peshkopëve
+28	3228	shpërfill	shpërfilla shpërfille shpërfilli shpërfillim shpërfillin shpërfillja shpërfillni shpërfillnin shpërfillte shpërfillur shpërfillën shpërfillësh
+29	3229	argjentinas	argjentinase argjentinasi argjentinasin argjentinasit
+30	3230	gjinde	gjinden gjindeni gjindesh
+31	3231	arterie	arteria arterien arteriet arterieve
+32	3232	dyzet	
+33	3233	arktik	arktiku arktikut
+34	3234	ngreh	ngrehim ngrehu ngrehur
+35	3235	lakër	lakra lakrat lakrave lakre lakrën lakrës
+36	3236	influencë	influenca influencash influencat influencave influence influencën influencës
+37	3237	trime	trimen trimja trimneshë
+38	3238	bilanc	bilanci bilancin
+39	3239	stërgjysh	stërgjyshe stërgjyshi stërgjyshin stërgjyshit stërgjyshëve
+40	3240	gand	gandi gandin gandit
+41	3241	dhjamë	dhjam dhjami dhjamin dhjamit
+42	3242	gdhend	gdhendet gdhendi gdhendim gdhendin gdhendja gdhendni gdhendnin gdhendte gdhendur gdhendëm
+43	3243	gru	gruja
+44	3244	pshurr	pshurre pshurri pshurrni pshurrsh pshurrsha pshurrte pshurrur pshurrë pshurrët
+45	3245	këmbësor	këmbësori këmbësorin këmbësorit këmbësorë këmbësorësh këmbësorët këmbësorëve
+46	3246	pitër	
+47	3247	akullnajë	akullnaja akullnajash akullnajat akullnajave akullnaje akullnajën akullnajës
+48	3248	ngushëlloj	ngushëlloi ngushëlloja ngushëllojmë ngushëllojnë ngushëllojë ngushëllon ngushëlloni ngushëllonim ngushëllonin ngushëllonte ngushëlluan ngushëlluar
+49	3249	short	shorte shortet shorti shortin shortit
+50	3250	hyll	hyje hylli
+51	3251	gjemb	gjemba gjembash gjembat gjembave gjembi gjembin
+52	3252	boshllëk	boshllëkun boshllëqe boshllëqet
+53	3253	mazhorancë	mazhoranca mazhorance mazhorancën mazhorancës
+54	3254	metaforë	metafora metaforat metaforave metafore metaforën metaforës
+55	3255	buall	buaj buajt buajve bualli buallin buallit
+56	3256	fontanë	fontana fontanën
+57	3257	ylber	ylbere ylberi ylberin ylberit
+58	3258	pidh	pidha pidhi pidhin pidhit
+59	3259	sorrë	sorra sorrat sorrave sorre sorrën sorrës
+60	3260	geto	getoja getoje geton getos getot
+61	3261	eng	
+62	3262	samë	sama same samin samës
+63	3263	hudhër	hudhra hudhrat
+64	3264	shpirtëroj	shpirtëror
+65	3265	sanksion	sanksione sanksionesh sanksionet sanksioneve sanksioni sanksionin sanksionit
+66	3266	koqe	koqen koqesh koqet koqeve koqja
+67	3267	arrati	arratia arratie arratinë arratisë
+68	3268	kanaçe	kanaçen kanaçesh kanaçet kanaçeve kanaçja
+69	3269	gjep	gjepa gjepat gjepin gjepur
+70	3270	xhelozi	xhelozia xhelozie xhelozinë xhelozisë
+71	3271	heci	hec hece hecin hecni hecnim hecte hecën paskësh
+72	3272	kaploj	kaploi kaplojnë kaplon kaplonte kaplou kapluan kapluar
+73	3273	grep	grepa grepat grepi grepin grepit
+74	3274	dell	dejtë della delli dellin dellit
+75	3275	epsh	epshe epshet epsheve epshi epshin epshit
+76	3276	ndriçim	ndriçimi ndriçimin ndriçimit
+77	3277	kollë	kolla kolle kollën kollës
+78	3278	trashëgim	trashëgime trashëgimeve trashëgimi trashëgimin trashëgimit
+79	3279	emigracion	emigracioni emigracionin emigracionit
+80	3280	syzë	syza syzat syzave
+81	3281	gonxhe	gonxheje gonxhen gonxhes gonxhesh gonxhet gonxheve gonxhja
+82	3282	krip	kripur
+83	3283	hendek	hendeku hendekun
+84	3284	llum	llumi llumin llumit llumra llumrave
+85	3285	shkëlqim	
+86	3286	rripë	rip rripa rripat rripave
+87	3287	pëlqim	pëlqime pëlqimesh pëlqimet pëlqimeve pëlqimi pëlqimin pëlqimit
+88	3288	shtazë	shtaza shtaze shtazën shtazënë shtazës shtazët shtazëve
+89	3289	qelbës	qelbëse qelbësi qelbësit
+90	3290	boronicë	boronica boronicash boronicat boronicave boronice boronicën boronicës
+91	3291	kult	kulte kultet kulteve kulti kultin kultit
+92	3292	mjellmë	mjellma mjellmat mjellmave mjellme mjellmën mjellmës mjelmë
+93	3293	vashë	vasha vashat vashave vashe vashën vashës
+94	3294	resht	reshta reshte reshti reshtim reshtin reshtje reshtni reshtnin reshtte reshtur reshtën
+95	3295	kufje	kufja kufjen kufjes kufjesh kufjet kufjeve
+96	3296	verilindje	verilindja verilindjes
+97	3297	spirancë	spiranca spirancat spirance spirancën spirancës
+98	3298	kund	
+99	3299	afatgjatë	
+100	3300	vemje	veme vemja vemjet

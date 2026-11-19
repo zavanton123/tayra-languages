@@ -1,0 +1,100 @@
+1	5101	tepsi	tepsia tepsinë tepsisë
+2	5102	shollë	shuall
+3	5103	amshoj	amshuar
+4	5104	sherbet	sherbeti
+5	5105	hobe	hobet
+6	5106	rabat	rabati rabatit
+7	5107	aerodinamikë	aerodinamikën
+8	5108	shtog	shtogu shtogut
+9	5109	dëlirë	
+10	5110	borzilok	borziloku borzilokun borzilokut
+11	5111	ibret	
+12	5112	mërmërit	mërmërita mërmërite mërmëriti mërmëritur
+13	5113	ndryshore	ndryshoret
+14	5114	nodhie	nodhi
+15	5115	lëngë	
+16	5116	kembë	
+17	5117	gore	gorë
+18	5118	amfib	amfibe
+19	5119	vijëzoj	vijëzojnë vijëzuar
+20	5120	cok	coka coke
+21	5121	avan	avans
+22	5122	rasë	rasa rasat rase rasën
+23	5123	oligarki	oligarkia oligarkie oligarkinë oligarkisë
+24	5124	ligjërim	ligjërime ligjërimet ligjërimi ligjërimin ligjërimit
+25	5125	brokë	broka broke
+26	5126	rrikë	rrika rrikave
+27	5127	krifë	krifa krifën
+28	5128	gdhe	gdhë
+29	5129	morth	morthi
+30	5130	musht	
+31	5131	abdes	
+32	5132	përafrohem	përafrohemi përafrohen përafrohet përafrohu përafruar
+33	5133	mjedër	mjedra mjedrat mjedrës
+34	5134	personifikoj	personifikojnë personifikon personifikonte personifikove personifikuar
+35	5135	dynd	dyndja dyndur dyndën
+36	5136	çap	çape çapi çapja
+37	5137	urth	urthi urthin urthit
+38	5138	kukutë	kukutës
+39	5139	dhjatë	dhjata
+40	5140	kryqëzor	kryqëzorin
+41	5141	kaproll	kaproj kaprolli
+42	5142	fuzhnjë	fuzhnjat
+43	5143	mret	mreti mretit
+44	5144	mbërtheckë	mbërtheckat mbërtheckën
+45	5145	hungëroj	hungëron
+46	5146	bati	batia
+47	5147	plugoj	plugoja
+48	5148	plehëroj	plehërojnë
+49	5149	rreckaman	rreckamanë
+50	5150	mug	mugu mugun
+51	5151	zgjyrë	zgjyra zgjyrat
+52	5152	përkore	përkoren përkores përkorja
+53	5153	shët	
+54	5154	shtremb	shtrembur
+55	5155	astar	astarte
+56	5156	kaliqafë	
+57	5157	mjau	
+58	5158	lukër	lukën
+59	5159	çlidh	çlidhje
+60	5160	qiparis	qiparisit
+61	5161	masturbues	
+62	5162	rugjë	rugë
+63	5163	byk	
+64	5164	curran	
+65	5165	krakë	kraku
+66	5166	mendër	
+67	5167	zhvirgjëroj	zhvirgjëronin zhvirgjëruar
+68	5168	mblesëri	mblesëria
+69	5169	ulcerë	ulcera ulcerat ulcerave ulcerën ulcerës
+70	5170	transkriptim	transkriptime transkriptimet transkriptimi transkriptimin
+71	5171	bakllava	bakllavaja
+72	5172	çajtore	çajtoren çajtoret çajtoreve
+73	5173	qiraxhi	qiraxhinj qiraxhinjtë qiraxhiu qiraxhiut
+74	5174	aritmetikë	aritmetika aritmetike aritmetikën
+75	5175	balluke	balluket baluke
+76	5176	akord	
+77	5177	cipras	ciprasi
+78	5178	homoseksualitet	homoseksualiteti homoseksualitetin homoseksualitetit
+79	5179	jashtëmartesor	jashtëmartesore
+80	5180	zhvlerësoj	zhvlerësoi zhvlerësojmë zhvlerësojnë zhvlerëson zhvlerësova zhvlerësuar
+81	5181	zeje	zeja zejen zejes zejesh zejet zejeve
+82	5182	kërp	kërpi kërpit
+83	5183	nenexhik	nenexhiku
+84	5184	lug	lugjet lugjeve lugu lugun lugut
+85	5185	tematik	tematike tematikë
+86	5186	çok	çoku çokut
+87	5187	atashe	
+88	5188	dubloj	dubloi dublojmë dublon dublonte dubluar
+89	5189	skuth	skutha skuthi
+90	5190	jetësoj	jetësoi jetësojmë jetësojnë jetësoni jetësonte jetësuam jetësuar
+91	5191	huall	hoje hojet hojeve huell
+92	5192	mullë	mulla mulle
+93	5193	zvjellët	zhdërvjellët
+94	5194	pelegrin	pelegrini pelegrinin pelegrinit
+95	5195	shqarr	shar shqarri shqarrin
+96	5196	rimbursoj	rimbursojmë rimbursojnë rimburson rimbursova rimbursuar
+97	5197	gjakmarrje	gjakmarrja gjakmarrjen gjakmarrjes gjakmarrjet
+98	5198	ago	
+99	5199	lëngoj	lëngojnë lëngon lëngonte lënguar
+100	5200	mbarohem	mbarohen mbarohet mbarova mbaruar

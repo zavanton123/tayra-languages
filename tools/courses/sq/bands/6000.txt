@@ -1,0 +1,100 @@
+1	5901	mëtoj	mëtojnë mëton mëtonte
+2	5902	aktivizëm	aktivizmi aktivizmin
+3	5903	kthinë	kthina kthinat kthinave
+4	5904	bojkotim	
+5	5905	autokraci	
+6	5906	autobiografik	autobiografike
+7	5907	biografik	biografike biografikë
+8	5908	copëzim	copëzimi copëzimin copëzimit
+9	5909	qose	qosja
+10	5910	kukoj	kuko
+11	5911	arrëz	arrëza
+12	5912	cac	caca caci
+13	5913	dallëndyshe	dallëndyshet dallëndysheve dallëndyshja
+14	5914	rreptësi	rreptësia rreptësinë
+15	5915	dygjuhësi	dygjuhësia dygjuhësinë
+16	5916	cikloj	cikloni ciklonin ciklonit
+17	5917	bës	
+18	5918	qimnon	
+19	5919	hajneshë	hajneshat
+20	5920	mështekër	mështekën
+21	5921	shtathedhur	
+22	5922	vranësi	
+23	5923	bundë	bunda
+24	5924	dënjë	
+25	5925	muf	
+26	5926	arrëthyese	
+27	5927	pjergull	pjergullat
+28	5928	caktar	
+29	5929	lahur	lahuri
+30	5930	vjelës	
+31	5931	çalok	
+32	5932	tetëkëmbësh	tetëkëmbëshi
+33	5933	shkulm	shkulmi
+34	5934	bletar	
+35	5935	xhuxhmaxhuxh	xhuxhmaxhuxhët
+36	5936	nëntësh	
+37	5937	suret	
+38	5938	sëmbim	
+39	5939	bojëkafe	
+40	5940	gërmuq	
+41	5941	zgërdhihem	zgërdhyer
+42	5942	theror	
+43	5943	hakërrohem	
+44	5944	çalim	çalime
+45	5945	gjerb	gjerbi
+46	5946	plëndës	plans
+47	5947	zhytër	
+48	5948	qyrek	qyrekët
+49	5949	shtatëkëndësh	
+50	5950	gufoj	gufon
+51	5951	qafëz	qafëzat
+52	5952	armenishte	
+53	5953	shpirë	
+54	5954	llumë	
+55	5955	semitik	semitike
+56	5956	hejë	
+57	5957	copan	copani
+58	5958	urdhë	urdhat
+59	5959	arushan	
+60	5960	mbërdhe	
+61	5961	hipizëm	hipizmi
+62	5962	astrobiolog	
+63	5963	kungatë	
+64	5964	gjenealogji	gjenealogjia
+65	5965	birth	
+66	5966	këndmatës	
+67	5967	ajnik	
+68	5968	fiziolog	fiziologu
+69	5969	lulesë	
+70	5970	korp	korpi
+71	5971	çyryk	
+72	5972	tepë	
+73	5973	malloj	
+74	5974	elips	
+75	5975	absolutizëm	absolutizmi
+76	5976	morsë	
+77	5977	fonemë	fonemat
+78	5978	lapë	lapës
+79	5979	vogëlimë	
+80	5980	homonim	
+81	5981	harrohem	
+82	5982	shtarët	
+83	5983	rrëmbythje	
+84	5984	dhel	dhele
+85	5985	ortografi	
+86	5986	gjalm	gjalmë
+87	5987	shkal	shkalët
+88	5988	rrëfyestore	rrëfyestorja
+89	5989	thark	
+90	5990	ujshëm	
+91	5991	invadoj	invadojnë
+92	5992	tridhjetenjë	
+93	5993	shtatoj	shtatova
+94	5994	apostrof	
+95	5995	denjësi	denjësinë
+96	5996	shumëkëmbësh	shumëkëmbëshi
+97	5997	vedër	vedra
+98	5998	ditëzi	
+99	5999	karkanxholl	karkanxholli
+100	6000	allosua	allosoj

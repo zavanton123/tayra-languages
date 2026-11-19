@@ -1,0 +1,100 @@
+1	3001	sqep	sqepi sqepin
+2	3002	latin	latine
+3	3003	pambuk	pambuku pambukun pambukut
+4	3004	kthjellët	
+5	3005	panair	panaire panairesh panairet panaireve panairi panairin panairit
+6	3006	peshkatar	peshkatarit peshkatarë peshkatarët
+7	3007	nofkë	nofka nofkat nofkën
+8	3008	çarçaf	carcaf çarshaf çarçafi çarçafin çarçafit çarçafë çarçafët çarçafëve
+9	3009	mëri	mëria mërie mërinë mërisë mëritë
+10	3010	lavaman	lavamani lavamanin lavamanit lavamanë
+11	3011	avull	avuj avujt avujve avulli avullin avullit
+12	3012	përkund	përkundi përkundur përkundër
+13	3013	artileri	artileria artilerie artilerinë artilerish artilerisë
+14	3014	vinç	vinça vinçat vinçave vinçi vinçin vinçit
+15	3015	lepurush	lepurushe lepurushi lepurushin lepurushja lepurushët
+16	3016	gaforre	gaforreje gaforren gaforres gaforresh gaforret gaforreve gaforrja
+17	3017	motivoj	motivoi motivoja motivojmë motivojnë motivon motivoni motivonin motivonte motivova motivuan motivuar
+18	3018	kristal	
+19	3019	kartolinë	kartolina kartolinash kartolinat kartolinave kartoline kartolinën
+20	3020	korb	korba korbat korbave korbi korbin korbit
+21	3021	teh	tehe tehet tehu tehun tehut
+22	3022	pjesërisht	
+23	3023	kronik	kronika kronikat kronike kronikë
+24	3024	risi	risia risie risin risinë risish risisë risitë risive
+25	3025	abuzim	abuzimi abuzimit
+26	3026	ngjesh	ngjeshi ngjeshin ngjeshja ngjeshje ngjeshur
+27	3027	ekzagjeroj	ekzagjero ekzagjeroi ekzagjeroja ekzagjeroje ekzagjerojmë ekzagjerojnë ekzagjeron ekzagjeroni ekzagjerova ekzagjeruan ekzagjeruar
+28	3028	spec	speca specash specat specave speci specin specit
+29	3029	legen	legena legenat legeni legenin legenit
+30	3030	aft	afte aftet afti aftin aftit
+31	3031	hahem	hahej hahen hahesh hahet ngrënë
+32	3032	zbukuroj	zbukuro zbukuroi zbukuroja zbukuroje zbukurojmë zbukurojnë zbukuron zbukuroni zbukuronim zbukuronin zbukuronte zbukurova zbukurove zbukuruan zbukuruar zbukuruat
+33	3033	krahas	
+34	3034	qit	qita qite qiti qitja qitje qitke qitni qitsha qitur qitën
+35	3035	nënvizoj	nënvizo nënvizoi nënvizoja nënvizoje nënvizojmë nënvizojnë nënvizon nënvizonin nënvizonte nënvizova nënvizuam nënvizuan nënvizuar
+36	3036	dhatë	dhate
+37	3037	milingonë	milingona milingonash milingonat milingonave milingone milingonën milingonës
+38	3038	përkëdhel	përkëdhele përkëdheli përkëdhelim përkëdhelin përkëdhelja përkëdhelje përkëdhelni përkëdhelnin përkëdhelsha përkëdhelte përkëdhelur përkëdhelësh
+39	3039	mitraloz	mitralozat mitralozi mitralozin mitralozë mitroloz
+40	3040	nishan	nishane nishanet nishaneve nishani nishanin nishanit
+41	3041	shqiptoj	shqiptoi shqiptoja shqiptoje shqiptojmë shqiptojnë shqipton shqiptoni shqiptonin shqiptonte shqiptuan shqiptuar shqiptuat
+42	3042	ironik	ironike ironikë
+43	3043	njëmijë	
+44	3044	përkohshëm	
+45	3045	pjerdh	pirdh pjerdhin pjerdhur pordh pordha pordhe pordhi pordhën pordhët
+46	3046	vithe	vithet vitheve
+47	3047	mushkonjë	mushkonja mushkonjash mushkonjat mushkonjave mushkonje mushkonjën mushkonjës
+48	3048	memec	memece memeci memecin memecë memecët memecëve
+49	3049	mandarinë	mandarin mandarina mandarinat mandarinave mandarine mandarini mandarinin mandarinës
+50	3050	përshkoj	përshkoi përshkojmë përshkojnë përshkojë përshkon përshkoni përshkonin përshkonte përshkova përshkuam përshkuan përshkuar përshkuat
+51	3051	udhëzues	udhëzuese udhëzuesi udhëzuesin
+52	3052	rreshtoj	rreshto rreshtohen rreshtohuni rreshtoi rreshtojmë rreshtojnë rreshton rreshtonin rreshtonte rreshtova rreshtuam rreshtuan rreshtuar
+53	3053	bak	baku
+54	3054	krej	krejn krejni krejnit krejtë krerë kreva
+55	3055	palos	palosa palose palosi palosim palosja palosje palosni palosnin palosur palosëm
+56	3056	kalori	kaloria kalorinë kalorish kalorisë kaloritë kalorive
+57	3057	tallje	tallja talljeje talljen talljes talljesh talljet talljeve
+58	3058	ndryshohem	ndryshohej ndryshohen ndryshohesh ndryshoheshin ndryshohet ndryshova ndryshuar
+59	3059	shkathët	
+60	3060	shall	shalle shallet shalli shallin
+61	3061	qorr	qorre
+62	3062	emëroj	emëro emëroi emëroja emëroje emërojmë emërojnë emëron emëroni emëronin emëronte emërova emërove emëruam emëruan emëruat
+63	3063	anormal	anormale
+64	3064	marihuanë	marihuan marihuana marihuanën marihuanës
+65	3065	dembel	dembela dembele dembelë demel
+66	3066	topit	topitja topitur
+67	3067	esëll	esull
+68	3068	flirtoj	flirtoi flirtoja flirtoje flirtojmë flirtojnë flirton flirtoni flirtonin flirtonte flirtova flirtove flirtuake flirtuar
+69	3069	mirëmbajtje	mirëmbajtja mirëmbajtjen mirëmbajtjes
+70	3070	dorëshkrim	dorëshkrime dorëshkrimet dorëshkrimi dorëshkrimin
+71	3071	botues	botuese botuesi botuesin botuesit botuesve
+72	3072	prezervativ	prezervativa prezervativi prezervativin prezervativit prezervativë prezervativët
+73	3073	njollos	njollosa njollose njolloset njollosi njollosim njollosin njollosja njollosje njollosni njollosnin njolloste njollosur njollosën njollosët
+74	3074	hollësi	hollësia hollësie hollësira hollësirat hollësitë
+75	3075	komunal	komunale
+76	3076	shuj	shuhen shuhet shujta shunë
+77	3077	kuotë	kuota kuotat kuotave kuote kuotën kuotës
+78	3078	shejtan	shejtani shejtanin shejtanit shejtanë shejtanët
+79	3079	heshtë	heshta heshtat heshtave heshte heshtën heshtës heshtësh
+80	3080	altar	altari altarin altarit altarë altarët
+81	3081	plaçkë	plaçka plaçkat
+82	3082	egjiptian	egjiptiane egjiptianë egjiptianët
+83	3083	natyrshëm	
+84	3084	kompjuterik	kompjuterike
+85	3085	ngath	ngathtë ngathët
+86	3086	shigjetar	shigjetari shigjetarin shigjetarit shigjetarë shigjetarët shigjetarëve
+87	3087	vito	vido
+88	3088	energjik	energjike energjikë
+89	3089	marenë	marena marinë mërinë
+90	3090	djersitur	djersitura
+91	3091	birësoj	birëso birësoi birësojmë birësojnë birësojë birëson birësoni birësonte birësova birësuam birësuan birësuar birësuat
+92	3092	thur	thura thuri thurim thurin thurja thurje thurni thurnin thurr thurte thurur thurën
+93	3093	kërmill	kërmij kërmilli
+94	3094	bullgar	bullgare bullgari bullgarin bullgarit bullgarë bullgarët bullgarëve
+95	3095	fall	falli fallin falls
+96	3096	brisk	brisku briskun briskut brisqe brisqet
+97	3097	çlodhem	çlodhesh çlodhet çlodhu çlodhur
+98	3098	fashë	fasha fashat fashave fashe fashën fashës
+99	3099	muzg	muzgjet muzgu muzgun muzgut
+100	3100	kontekst	kontekste kontekstet konteksteve konteksti kontekstin kontekstit

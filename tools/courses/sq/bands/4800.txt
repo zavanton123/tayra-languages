@@ -1,0 +1,100 @@
+1	4701	supersticioz	supersticioze
+2	4702	shtuara	
+3	4703	hirtë	
+4	4704	avari	
+5	4705	durrsak	durrsaku durrsakun durrsakut durrsakë durrsakët durrsakëve
+6	4706	bejkë	beg bege bejkën bejkër bekë
+7	4707	malësor	malsor malësore malësori malësorit malësorë malësorët malësorëve
+8	4708	vajgur	vajguri vajgurin
+9	4709	daltë	dalta dalte daltën daltës
+10	4710	tiji	
+11	4711	bioteknologji	bioteknologjia bioteknologjinë bioteknologjisë
+12	4712	mallëngjej	mallëngjen mallëngjeu mallëngjeva mallëngjyer
+13	4713	biolog	
+14	4714	cit	cita citi citim
+15	4715	luspë	luspa luspat
+16	4716	prefekturë	prefektura prefekturat prefekturave prefekture prefekturës
+17	4717	rjep	rjepi rjepim rjepin rjepur
+18	4718	lezet	
+19	4719	shfuqizim	shfuqizimi shfuqizimin shfuqizimit
+20	4720	koprac	koprace
+21	4721	ambalazh	ambalazhe ambalazhet ambalazheve ambalazhi ambalazhin ambalazhit
+22	4722	epem	epa epur
+23	4723	tespihe	tespihesh tespihet tespiheve tespije
+24	4724	maraj	maraja
+25	4725	grah	graf
+26	4726	bashkëveproj	bashkëveprojmë bashkëveprojnë bashkëvepron bashkëveproni bashkëvepronte bashkëvepruar
+27	4727	spurdhjak	spurdhjaku
+28	4728	ndëryjor	ndëryjore
+29	4729	ratë	
+30	4730	april	
+31	4731	shuk	shuka shuke shuku shukun shukur
+32	4732	hordhi	hordhisë hordhitë hordhive
+33	4733	doç	doçi doçin doçit
+34	4734	birrem	birren bjerrë
+35	4735	toskë	toska toske toskën toskës toskët
+36	4736	legë	lega legat legës
+37	4737	mag	magu
+38	4738	dang	
+39	4739	zdryp	strip
+40	4740	analogji	analogjia analogjinë analogjisë analogjitë analogjive
+41	4741	aga	agai agait agallarë agallarëve agë
+42	4742	gogë	goga goge gogja gogën gogës
+43	4743	stromë	strom stroma
+44	4744	shpirtkeq	shpirtkeqi
+45	4745	qëro	qëroi qëron
+46	4746	tërfil	tërfili
+47	4747	tingulloj	tingullon tingulloni tingullonte
+48	4748	trinë	trina trinën
+49	4749	gjiton	gjitone gjitonët
+50	4750	mackë	mackat macke
+51	4751	gulçoj	gulçoja gulçojnë gulçon gulçuar
+52	4752	gërdallë	gërdalla gërdallave gërdalle gërdallës
+53	4753	qere	qereke
+54	4754	terminologji	terminologjia terminologjinë terminologjisë
+55	4755	urinim	urinimi urinimin urinimit
+56	4756	kanun	kanunet kanuneve kanuni kanunin kanunit
+57	4757	përkrenare	përkrenaren përkrenares përkrenarja
+58	4758	dhëmballë	dhëmballa dhëmballat dhëmballën dhëmballët
+59	4759	tredhur	
+60	4760	elb	elbi elbin elbit
+61	4761	lakim	lakime lakimet lakimi lakimin lakimit
+62	4762	veprues	vepruese vepruesi
+63	4763	oazë	oaza oaze oazën
+64	4764	gjizë	gjiza
+65	4765	pupë	pupa pupe pupën pupës
+66	4766	shterp	shterpë
+67	4767	abonim	abonime abonimet abonimeve abonimi abonimin abonimit
+68	4768	shoshë	shosha shoshe shoshën
+69	4769	sulfur	sulfuri sulfurit
+70	4770	kopër	kopra
+71	4771	dredhëz	dredhë dredhëza dredhëzat
+72	4772	vaki	
+73	4773	mpiks	mpiksja mpiksje mpiksur
+74	4774	manjë	manja manjat manje manjën manjës
+75	4775	trashem	trashen trashesh trashet trashur
+76	4776	qel	qela qelë
+77	4777	laring	laringu laringun laringut
+78	4778	kacafyt	kacafytje kacafytur
+79	4779	monarki	monarkia monarkie monarkinë monarkisë monarkitë
+80	4780	zhavorr	zhavorri zhavorrin zhavorrit
+81	4781	pllakos	pllakose pllakosi pllakosja pllakosje pllakosur pllakosën
+82	4782	sintaksë	sintaksa sintakse sintaksën
+83	4783	hurmë	hurma hurmat hurmave
+84	4784	rre	rreja rreje rresh
+85	4785	gjeometri	gjeometrie gjeometrinë gjeometrisë
+86	4786	automat	automate automatin
+87	4787	amvisë	amvisa amvisat amvisave amvise amvisën
+88	4788	thinjë	thinja thinjash thinjat thinjave thinje
+89	4789	farkë	farka farkës
+90	4790	gjeologji	gjeologjia gjeologjisë
+91	4791	përshesh	
+92	4792	jorgan	jorgani jorganin jorganit jorganë
+93	4793	muskuloz	muskuloze
+94	4794	llokum	llokume llokumet llokumin
+95	4795	kushtrim	kushtrimi kushtrimin kushtrimit
+96	4796	yjësi	yjësia yjësinë yjësisë yjësitë
+97	4797	embargo	
+98	4798	letargji	letargjia letargjie letargjinë letargjisë
+99	4799	kaldajë	kaldaja kaldajat kaldajave kaldaje kaldajën kaldajës
+100	4800	gjuhëtar	gjuhëtari gjuhëtarin gjuhëtarit gjuhëtarë gjuhëtarët gjuhëtarëve

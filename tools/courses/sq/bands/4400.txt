@@ -1,0 +1,100 @@
+1	4301	çoban	çobani çobanin çobanit çobanë çobanët
+2	4302	aids	aids-i aids-in
+3	4303	karficë	karfica
+4	4304	barnatore	barnatoren barnatores barnatoret barnatoreve barnatorja
+5	4305	thrak	thraka thrakë thrakës
+6	4306	rrëshqitëse	rrëshqitës
+7	4307	serrë	serra serrat serrave serrës
+8	4308	permanent	permanente
+9	4309	lëvdatë	lëvdata lëvdatat lëvdatave lëvdate
+10	4310	lakoj	lako lakon lakoni lakuar
+11	4311	bahe	baha bahen bahesh bahet
+12	4312	lende	land len lend lendeje lenden lendes lendesh lendet lendeve linde lënde
+13	4313	gjeografi	gjeografia gjeografie gjeografinë
+14	4314	mugull	mugulla mugullën
+15	4315	qurrash	qurrashe qurrashë qyrrash
+16	4316	visk	viski
+17	4317	cabe	
+18	4318	llavë	llava llavave llave llavën llavës
+19	4319	projektues	projektuesi projektuesin projektuesit projektuesve
+20	4320	bashkëjetoj	bashkëjetoi bashkëjetojmë bashkëjetojnë bashkëjeton bashkëjetoni bashkëjetonim bashkëjetonin bashkëjetonte bashkëjetova bashkëjetuan bashkëjetuar
+21	4321	kurban	kurbane
+22	4322	gjuhësor	gjuhësore gjuhësorë
+23	4323	kontradiktë	kontradikta kontradiktash kontradiktat kontradiktave kontradikte
+24	4324	sanksionoj	sanksionoi sanksionojmë sanksionojnë sanksionon sanksiononin sanksiononte sanksionuan sanksionuar
+25	4325	vresht	vreshta vreshtat vreshtave vreshti vreshtin vreshtit
+26	4326	shkretoj	shkretoi shkretojnë shkreton shkretuan shkretuar
+27	4327	rrojë	rrojës
+28	4328	hierarki	hierarkia hierarkie hierarkinë hierarkisë hierarkitë hierarkive
+29	4329	kamatë	kamata kamatat kamatave kamate kamatën kamatës
+30	4330	korit	korita
+31	4331	abrash	abrashi abrashin abrashit
+32	4332	rangë	range
+33	4333	nguroj	nguro nguroi nguroja ngurojnë nguron nguroni nguronte nguruan nguruar nguruat
+34	4334	pilaf	
+35	4335	ëndje	ëndja
+36	4336	qerpik	qerpiku qerpikut qerpikë qerpikët qerpikëve
+37	4337	marrëzisht	marrëzísht
+38	4338	festohem	festohej festohen festoheshin festohet festuar
+39	4339	krehër	krahën krehra krehrin krehën
+40	4340	thelë	thela thelat thele
+41	4341	vendtakim	vendtakime vendtakimi vendtakimin vendtakimit
+42	4342	sinonim	sinonime sinonimi sinonimin
+43	4343	frashër	frashëri frashërin
+44	4344	jak	jaku jakët
+45	4345	lartësoj	lartësoi lartësojmë lartësojnë lartëson lartësuan lartësuar
+46	4346	vang	
+47	4347	gurmaz	gurmazi gurmazin gurmazit
+48	4348	pardje	
+49	4349	evident	evidente
+50	4350	thërrmoj	thërmuar thërrmon thërrmuar
+51	4351	prime	primet primeve
+52	4352	bisturi	bisturinë
+53	4353	brij	brika brin brinin brinit brirë
+54	4354	kalcium	kalciumi
+55	4355	pjalm	pjalmi
+56	4356	gërshet	gërsheta gërshetat gërshetin
+57	4357	bashkëjetesë	bashkëjetesa bashkëjetese bashkëjetesën bashkëjetesës
+58	4358	gurrë	gurra gurrat gurri gurrën gurrës
+59	4359	bërbëlit	
+60	4360	hungërim	hungërima
+61	4361	esh	es eshin eshë
+62	4362	brushë	brusha brushat brushën brushës
+63	4363	qefin	
+64	4364	statikë	statik statika statike
+65	4365	idealist	idealisti idealistë idealistësh idealistët
+66	4366	hebraik	hebraike hebraikë
+67	4367	halë	halat halin halën
+68	4368	melankoli	melankolia melankolike melankolinë
+69	4369	horizontal	horizontale
+70	4370	dërgues	dërguesi dërguesin dërguesit dërguesve
+71	4371	shtupë	shtupa shtupat shtupën shtupës
+72	4372	bocë	boca bocat bocave bocën
+73	4373	padiskutueshëm	
+74	4374	belbëzoj	belbëzoi belbëzoja belbëzoje belbëzojnë belbëzon belbëzonte belbëzova belbëzuar
+75	4375	flijoj	flijohej flijohen flijohet flijoi flijojnë flijon flijoni flijuan flijuar
+76	4376	rumune	rumunen rumunet
+77	4377	përparëse	përparësen përparëset
+78	4378	vazhdë	vazhda vazhdën
+79	4379	xhungë	xhunga xhungat xhungën xhungës
+80	4380	ninullë	ninulla ninullat ninullave ninulle ninullën
+81	4381	bobo	obobo
+82	4382	tras	trase
+83	4383	ranor	ranore
+84	4384	atdhetar	atdhetari atdhetarin atdhetarit atdhetarë atdhetarësh atdhetarët atdhetarëve
+85	4385	çaloj	çaloi çalojnë çalon çalonte çaluam çaluar
+86	4386	argjilë	argjila argjile argjilën argjilës
+87	4387	shegë	shega shege shegën shegës shegët shegëve
+88	4388	avaz	avazi avazin avazit
+89	4389	zhabë	zhaba zhabave zhabën zhabës
+90	4390	kokore	kokoren
+91	4391	kërci	kërcinjtë kërcinjve kërciri kërcirin
+92	4392	mavijos	mavijosur
+93	4393	ëndërrimtar	ëndërrimtarë
+94	4394	rrua	rroi rruash
+95	4395	akrobat	akrobate
+96	4396	sida	
+97	4397	injorohem	injorohej injorohemi injorohen injoroheni injorohet injorova injoruar
+98	4398	kallamar	kallamari
+99	4399	tërshërë	tërshëra tërshëre tërshërën tërshërës
+100	4400	gdhendje	gdhendja gdhendjen gdhendjes gdhendjet

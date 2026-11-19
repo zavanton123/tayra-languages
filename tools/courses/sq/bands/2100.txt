@@ -1,0 +1,100 @@
+1	2001	sëmur	sëmura sëmure sëmurem sëmuresh sëmuri sëmurin sëmurit sëmurja sëmurje sëmurur sëmurën sëmurët
+2	2002	dëshpëroj	dëshpëro dëshpëruar
+3	2003	arratis	arratisa arratise arratisi arratisim arratisja arratisje arratisni arratisëm arratisën arratisët
+4	2004	varrezë	varreza varrezash varrezat varrezave varreze varrezën varrezës
+5	2005	vuajtje	vuajtja vuajtjen vuajtjes vuajtjesh vuajtjet vuajtjeve
+6	2006	ndëshkoj	ndëshko ndëshkohen ndëshkoheni ndëshkohesh ndëshkohet ndëshkoi ndëshkoja ndëshkoje ndëshkojmë ndëshkojnë ndëshkojë ndëshkon ndëshkoni ndëshkonin ndëshkonit ndëshkonte ndëshkova ndëshkove ndëshkuam ndëshkuan ndëshkuar
+7	2007	mesnatë	mesnat mesnata mesnatën mesnatës
+8	2008	has	hasa hase hasi hasim hasin haska hasni hasnim hasnin hasshim haste hasur hasë hasëm hasën hasët
+9	2009	gërmoj	gërmo gërmoi gërmoja gërmoje gërmojmë gërmojnë gërmojë gërmon gërmoni gërmonin gërmonte gërmova gërmove gërmuam gërmuan gërmuar
+10	2010	fatkeqësi	fatkeqësia fatkeqësie fatkeqësinë fatkeqësira fatkeqësish fatkeqësisë fatkeqësitë fatkeqësive
+11	2011	grumbull	grumbuj grumbujt grumbulli grumbullim grumbullin grumbullit
+12	2012	shkencor	shkencore shkencorë
+13	2013	krisur	krisura krisuri krisurit
+14	2014	demokraci	demokracia demokracie demokracinë demokracisë demokracitë demokracive
+15	2015	ani	
+16	2016	lagur	lagura
+17	2017	izoloj	izolo izoloi izoloje izolojmë izolojnë izolon izoloni izolonim izolonin izolonte izolova izoluam izoluan izoluar
+18	2018	kurorë	kurora kurorat kurorave kurore kurorën kurorës
+19	2019	largë	
+20	2020	sfidoj	sfido sfidoi sfidoja sfidoje sfidojmë sfidojnë sfidojë sfidon sfidoni sfidonim sfidonin sfidonte sfidova sfidove sfiduam sfiduan sfiduar sfiduat
+21	2021	tryezë	tryeza tryezat tryezën tryezës
+22	2022	nejse	
+23	2023	arritje	arritja arritjen arritjes arritjesh arritjet arritjeve
+24	2024	josh	josha joshe joshi joshim joshin joshja joshje joshni joshnin joshte joshur joshën
+25	2025	uiski	uiskin
+26	2026	shërbëtor	shërbëtori shërbëtorin shërbëtorit shërbëtorja shërbëtorë shërbëtorësh shërbëtorët shërbëtorëve
+27	2027	lundroj	lundro lundroi lundroja lundroje lundrojmë lundrojnë lundrojë lundron lundroni lundronim lundronin lundronte lundruam lundruan lundruar lundruat
+28	2028	imzot	
+29	2029	vijoj	vijo vijoi vijoja vijoje vijojmë vijojnë vijon vijoni vijonim vijonin vijonit vijonte vijova vijuam vijuan vijuar
+30	2030	rekomandoj	rekomando rekomandohet rekomandoi rekomandoja rekomandoje rekomandojmë rekomandojnë rekomandojë rekomandon rekomandoni rekomandonin rekomandonit rekomandonte rekomandova rekomandove rekomanduam rekomanduan rekomanduar rekomanduat
+31	2031	nuhat	nuhas nuhata nuhate nuhati nuhatin nuhatja nuhatje nuhatni nuhatnin nuhatur nuhatëm nuhatën nuhatës
+32	2032	gjersa	
+33	2033	kulm	kulme kulmet kulmeve kulmi kulmin kulmit
+34	2034	pasagjer	pasagjere pasagjeri pasagjerit pasagjerë pasagjerët pasagjerëve
+35	2035	jakë	jaka jakash jakave jake jakën jakës
+36	2036	mjekër	mjekra mjekrat mjekrave mjekre mjekrrën mjekrën mjekrës mjekërr
+37	2037	bimë	bima bime bimën bimës bimësh bimët bimëve
+38	2038	rrahje	rrahja rrahjeje rrahjen rrahjes rrahjesh rrahjet rrahjeve
+39	2039	paqësor	paqësore paqësori paqësorin paqësorit paqësorë paqësorët paqësorëve
+40	2040	përkul	përkula përkule përkulej përkulem përkulemi përkulen përkuleni përkulesh përkulesha përkuleshe përkuleshin përkulet përkuli përkulim përkulin përkulja përkulje përkulni përkulsh përkulshin përkulte përkulu përkuluni përkulur përkulën përkulët
+41	2041	tragjedi	tragjedia tragjedie tragjedinë tragjedish tragjedisë tragjeditë tragjedive
+42	2042	platformë	platforma platformash platformat platformave platforme platformën platformës
+43	2043	besnikëri	besnikëria besnikërie besnikërin besnikërinë besnikërisë
+44	2044	përqendroj	përqendrohem përqendrohemi përqendroheni përqendrohesh përqendrohet përqendrohu përqendroi përqendrojmë përqendrojnë përqendron përqendroni përqendruam përqendruan përqendruar përqendruat
+45	2045	end	enda endi endim endin endja endje endni endnin endur
+46	2046	përkthim	përkthime përkthimet përkthimeve përkthimi përkthimin përkthimit
+47	2047	kar	kare kari karin karit
+48	2048	andaj	
+49	2049	kryq	kryqe kryqet kryqeve kryqi kryqin kryqit
+50	2050	shteg	shtegu shtegun shtegut shtigje shtigjet shtigjeve
+51	2051	kafkë	kafka kafkash kafkat kafkave kafke kafkën kafkës
+52	2052	njëzet	njizet
+53	2053	rosë	rosa rosash rosat rosave rose rosën rosës
+54	2054	mbiemër	mbiemra mbiemrat mbiemrave mbiemri mbiemrin mbiemrit
+55	2055	fshatar	fshatare fshatari fshatarin fshatarit fshatarë fshatarësh fshatarët fshatarëve
+56	2056	përjashtim	përjashtime përjashtimet përjashtimeve përjashtimi përjashtimin përjashtimit
+57	2057	madhësi	madhësia madhësie madhësinë madhësisë madhësitë madhësive
+58	2058	rregullt	rregullta
+59	2059	degë	dega dege degën degës degësh degët degëve
+60	2060	rozë	rozën
+61	2061	ankesë	ankesa ankesash ankesat ankesave ankese ankesën ankesës
+62	2062	përfitim	përfitime përfitimesh përfitimet përfitimeve përfitimi përfitimin përfitimit
+63	2063	qysh	qish
+64	2064	drogoj	drogohesh drogohet drogoi drogojnë drogove droguan droguar
+65	2065	gjurmoj	gjurmo gjurmohet gjurmoi gjurmoja gjurmoje gjurmojmë gjurmojnë gjurmojë gjurmon gjurmoni gjurmonim gjurmonin gjurmonte gjurmova gjurmuam gjurmuan gjurmuar
+66	2066	makth	makthe makthet maktheve makthi makthin makthit mankth
+67	2067	mbresëlënës	mbresëlënëse
+68	2068	popullsi	popullsia popullsie popullsinë popullsisë popullsitë popullsive
+69	2069	këmbim	këmbime këmbimet këmbimeve këmbimi këmbimin këmbimit
+70	2070	fletë	fleta fletat fletave flete fletën fletës fletësh fletët fletëve
+71	2071	komunikoj	komuniko komunikoi komunikoja komunikoje komunikojmë komunikojnë komunikojë komunikon komunikoni komunikonim komunikonin komunikonte komunikova komunikuam komunikuan komunikuar komunikuat
+72	2072	luftarak	luftarake luftarakë
+73	2073	plastikë	plastik plastika plastike plastikën plastikës
+74	2074	kryeqytet	kryeqytete kryeqytetesh kryeqytetet kryeqyteteve kryeqyteti kryeqytetin kryeqytetit
+75	2075	rrëfej	rrëfe rrëfehem rrëfehemi rrëfehen rrëfehesh rrëfehet rrëfeje rrëfejmë rrëfejnë rrëfen rrëfeni rrëfenin rrëfente rrëfeu rrëfeva rrëfeve rrëfyen rrëfyer rrëfyet
+76	2076	jashtëzakonisht	
+77	2077	rastësisht	
+78	2078	rrymë	rryma rrymat rrymave rryme rrymën rrymës
+79	2079	pavarur	pavarura
+80	2080	dem	dema demash demat demave demi demin demit
+81	2081	prag	pragje pragjet pragjeve pragu pragun pragut prak
+82	2082	sipërfaqe	sipërfaqen sipërfaqes sipërfaqja
+83	2083	fisnik	fisniku fisnikun fisnikut fisnikë fisnikësh fisnikët fisnikëve
+84	2084	përputh	përputhet përputhim përputhin përputhja përputhje përputhni përputhur
+85	2085	papritmas	
+86	2086	inteligjencë	inteligjenca inteligjencën inteligjencës
+87	2087	caktoj	cakto caktohet caktoi caktoja caktoje caktojmë caktojnë caktojë cakton caktoni caktonim caktonin caktonit caktonte caktova caktove caktuam caktuan caktuat
+88	2088	muhabet	muhabete muhabetet muhabeti muhabetin muhabetit
+89	2089	pranim	pranime pranimet pranimeve pranimi pranimin pranimit
+90	2090	totalisht	
+91	2091	vijë	vijash vijat vijave vijën vijës
+92	2092	krimb	krimba krimbash krimbat krimbave krimbi krimbin krimbit krimbur krimë kërmij kërminj
+93	2093	herr	herri herrin herrit
+94	2094	cak	caka cake cakim caku cakun cakut cakën caqe caqet caqeve
+95	2095	kore	korea koreja koreje koren korenë kores koresë koret koreve korja korë
+96	2096	pederast	peder pederasta pederastë pederastët pederastëve
+97	2097	mundim	mundime mundimesh mundimet mundimeve mundimi mundimin mundimit mundish
+98	2098	frymëmarrje	frymëmarrja frymëmarrjen frymëmarrjes
+99	2099	pallë	palla pallash pallave palle pallën pallës
+100	2100	bash	bashe basheve bashi bashin bashit bashë

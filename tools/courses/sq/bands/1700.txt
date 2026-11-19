@@ -1,0 +1,100 @@
+1	1601	identifikoj	identifiko identifikohen identifikohet identifikohu identifikohuni identifikoi identifikoja identifikoje identifikojmë identifikojnë identifikojë identifikon identifikoni identifikonim identifikonin identifikonte identifikova identifikove identifikuam identifikuan identifikuar identifikuat
+2	1602	ofendoj	ofendo ofendohem ofendohesh ofendohet ofendoi ofendoja ofendoje ofendojmë ofendojnë ofendon ofendoni ofendonim ofendonin ofendonte ofendova ofendove ofenduan ofenduar ofenduat
+3	1603	çudi	çudia çudie çudinë çudira çudirave çudish çudisë çudit çudita çuditur çuditë çudive
+4	1604	perandori	perandoria perandorie perandorinë perandorish perandorisë perandoritë perandorive
+5	1605	njoftim	njoftime njoftimesh njoftimet njoftimeve njoftimi njoftimin njoftimit
+6	1606	patë	pata patash patat patave pate patin patën patës
+7	1607	artë	
+8	1608	barkë	barka barkash barkat barkave barke barkën barkës
+9	1609	kështjellë	kështjella kështjellash kështjellat kështjellave kështjelle kështjellën kështjellës
+10	1610	mbeturinë	mbeturin mbeturina mbeturinash mbeturinat mbeturinave mbeturine mbeturinën
+11	1611	emocion	emocione emocionesh emocionet emocioneve emocioni emocionin emocionit
+12	1612	lis	lisa lisat lisave lise liseta lisi lisin lisit
+13	1613	biçikletë	biçikleta biçikletash biçikletat biçikletave biçikletën biçikletës
+14	1614	prill	pri prilli prillin prillit
+15	1615	jeshil	jeshile jeshilet jeshilja jeshiltë jeshilë
+16	1616	analizë	analiza analizash analizat analizave analize analizën analizës
+17	1617	shëndoshë	shnosh shëndosh shëndosha shëndoshin
+18	1618	leh	lef lehe lehi lehin lehja lehje lehni lehnin lehte lehur lehë lehët
+19	1619	mirëdita	
+20	1620	përfaqësues	përfaqësuese përfaqësuesi përfaqësuesin përfaqësuesish përfaqësuesit përfaqësuesve
+21	1621	padyshim	
+22	1622	përjetoj	përjeto përjetoi përjetoja përjetoje përjetojmë përjetojnë përjetojë përjeton përjetoni përjetonim përjetonin përjetonit përjetonte përjetova përjetove përjetuam përjetuan përjetuar përjetuat
+23	1623	lakuriq	lakuriqe lakuriqi lakuriqin lakuriqit lakuriqë lakuriqësh lakuriqët lakuriqëve
+24	1624	nëntor	nëntori nëntorin nëntorit
+25	1625	port	porte portesh portet porteve porti portin portit
+26	1626	rërë	rerë rëra rërat rëre rërën rërës
+27	1627	aromë	aroma aromash aromat aromave arome aromën aromës
+28	1628	shijshëm	shijshme
+29	1629	hetoj	heto hetohen hetohet hetoi hetoja hetoje hetojmë hetojnë hetojë heton hetoni hetonin hetonte hetova hetuam hetuan hetuar hetuat
+30	1630	karrocë	karroca karrocash karrocat karrocën karrocës
+31	1631	helm	helme helmet helmi helmim helmin helmit
+32	1632	pasdite	
+33	1633	fëlliq	fëlliqa fëlliqe fëlliqi fëlliqim fëlliqin fëlliqja fëlliqni fëlliqtë fëlliqur fëlliqë fëlliqën fëlliqësh fëlliqët
+34	1634	mashtrues	mashtruese mashtruesi mashtruesin mashtruesit
+35	1635	terren	terreni terrenin terrenit
+36	1636	palë	pala palat pale palën palës
+37	1637	flakë	flaka flake flakën flakës flakësh flakët flakëve
+38	1638	çokollatë	çokollata çokollatash çokollatat çokollatave çokollate çokollatën çokollatës
+39	1639	demokratik	demokratike demokratikë
+40	1640	ndikim	ndikimet ndikimi ndikimin ndikimit
+41	1641	bile	bilen biles bilet bilja
+42	1642	naftë	nafta naftën naftës
+43	1643	guvernator	guvernatori guvernatorin guvernatorit guvernatorët
+44	1644	ama	amo
+45	1645	nganjëherë	
+46	1646	shkëmb	shkëmbe shkëmbesh shkëmbi shkëmbin shkëmbinj shkëmbinjsh shkëmbinjtë shkëmbinjve shkëmbit
+47	1647	tufë	tufa tufat tufave tufe tufën tufës
+48	1648	shkarkoj	shkarko shkarkohem shkarkohen shkarkohesh shkarkohet shkarkoi shkarkoja shkarkoje shkarkojmë shkarkojnë shkarkojë shkarkon shkarkoni shkarkonin shkarkonte shkarkova shkarkove shkarkuam shkarkuan shkarkuar shkarkuat
+49	1649	vëzhgoj	vëzhgo vëzhgohet vëzhgoi vëzhgoja vëzhgoje vëzhgojmë vëzhgojnë vëzhgojë vëzhgon vëzhgoni vëzhgonim vëzhgonin vëzhgonte vëzhgova vëzhgove vëzhguam vëzhguan vëzhguar
+50	1650	kodër	kodra kodrat kodrave kodre kodrën kodrës
+51	1651	gomë	goma gomash gomat gomave gome gomën gomës
+52	1652	zero	
+53	1653	ushtroj	ushtro ushtrohem ushtrohemi ushtrohesh ushtrohet ushtroi ushtroja ushtroje ushtrojmë ushtrojnë ushtrojë ushtron ushtroni ushtronim ushtronin ushtronit ushtronte ushtrova ushtrove ushtruam ushtruan ushtruar ushtruat
+54	1654	këshilltar	këshilltare këshilltari këshilltarin këshilltarit këshilltarja këshilltarë këshilltarësh këshilltarët këshilltarëve
+55	1655	shtrëngoj	shtrëngo shtrëngohem shtrëngohen shtrëngohet shtrëngohu shtrëngohuni shtrëngoi shtrëngoja shtrëngoje shtrëngoji shtrëngojmë shtrëngojnë shtrëngojë shtrëngon shtrëngoni shtrëngonim shtrëngonin shtrëngonte shtrëngova shtrëngove shtrënguam shtrënguan shtrënguar
+56	1656	jugor	jugore jugorë jugorët
+57	1657	tërësisht	
+58	1658	kupë	kupa kupat kupave kupe kupin kupën kupës
+59	1659	fëlliqësirë	fëlliqësira fëlliqësirash fëlliqësirat fëlliqësirën
+60	1660	simbol	simbole simbolesh simbolet simboleve simboli simbolin simbolit
+61	1661	çun	çuna çunash çunat çunave çuni çunin çunit çuno
+62	1662	ngarkesë	ngarkesa ngarkesash ngarkesat ngarkesave ngarkese ngarkesën ngarkesës
+63	1663	shkencëtar	shkencëtari shkencëtarin shkencëtarit shkencëtarë shkencëtarësh shkencëtarët shkencëtarëve
+64	1664	bashki	bashkia bashkie bashkinë bashkish bashkisë bashkitë bashkive
+65	1665	hapje	hapja hapjeje hapjen hapjes hapjet hapjeve
+66	1666	ndjesë	ndjesa ndjesat ndjesën
+67	1667	qelizë	qeliza qelizash qelizat qelizave qelize qelizën qelizës
+68	1668	temë	temat temën temës
+69	1669	llogaris	llogarisim llogarisin llogarisni llogarisë llogarisësh llogarit llogarita llogaritur
+70	1670	rreze	rrezeje rrezen rrezes rrezet rrezeve rrezja
+71	1671	biskotë	biskota biskotash biskotat biskotave biskote biskotën biskotës
+72	1672	shën	
+73	1673	dimër	dimra dimrash dimrat dimrave dimri dimrin dimrit
+74	1674	syze	syzet syzeve
+75	1675	buton	butona butonat butoni butonin
+76	1676	pagë	paga pagash pagat pagave page pagën pagës
+77	1677	tempull	tempuj tempujsh tempujt tempujve tempulli tempullin tempullit
+78	1678	lodër	lodra lodrash lodrat lodrave lodre lodrën lodrës
+79	1679	shtunë	shtuna shtunat shtunave shtunën shtunës
+80	1680	budallaqe	budallaqja
+81	1681	teproj	tepro teproi teproja teproje teprojmë teprojnë tepron teproni tepronin tepronte teprova teprove tepruam tepruan tepruar tepruat
+82	1682	gjithandej	
+83	1683	përkrah	përkraha përkrahe përkrahi përkrahim përkrahin përkrahja përkrahje përkrahni përkrahnin përkrahte përkrahur përkrahë përkrahëm përkrahën
+84	1684	besnik	besnike besniku besnikun besnikë
+85	1685	ankohem	ankohej ankohemi ankohen ankoheni ankohesh ankohesha ankoheshe ankoheshim ankoheshin ankoheshit ankohet ankohu ankuar
+86	1686	çati	çatia çatie çatinë çatisë çatitë çative
+87	1687	durim	durimi durimin durimit
+88	1688	kulturë	kultura kulturash kulturat kulturave kulture kulturën kulturës
+89	1689	gatuaj	gatova gatuaja gatuaje gatuajmë gatuajnë gatuajë gatuani gatuante gatuar
+90	1690	pendohem	pendohej pendohemi pendohen pendoheni pendohesh pendohesha pendohet pendohu pendohuni penduar
+91	1691	qark	qarku qarkun qarkut qarqe qarqesh qarqet qarqeve
+92	1692	sasi	sasia sasie sasinë sasisë sasitë sasive
+93	1693	vërdallë	vërdall
+94	1694	zakon	zakone zakonesh zakonet zakoneve zakoni zakonin zakonish zakonit zakontë
+95	1695	këngëtar	këngëtare këngëtari këngëtarin këngëtarja këngëtarë këngëtarët
+96	1696	komplet	
+97	1697	lutje	lutjen lutjes lutjesh lutjet lutjeve
+98	1698	përgjithshëm	
+99	1699	mirëpo	
+100	1700	parim	parime parimet parimeve parimi parimin parin parit

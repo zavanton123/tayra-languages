@@ -1,0 +1,100 @@
+1	3601	norvegjez	norvegjeze
+2	3602	farkëtar	farkëtari farkëtarin farkëtarit farkëtarë farkëtarët farkëtarëve
+3	3603	cilindër	cilindra cilindrat cilindrave cilindri cilindrin cilindrit
+4	3604	përgjithësisht	
+5	3605	dimëror	dimërore
+6	3606	llastoj	llastojmë llastojnë llastoni llastonte llastove llastuar
+7	3607	kul	
+8	3608	zbehem	zbehej zbehen zbehesh zbehet zbehur
+9	3609	dukagjin	dukagjini dukagjinin dukagjinit dukagjinët dukagjinëve
+10	3610	dukuri	dukuria dukurie dukurinë dukurisë dukuritë dukurive
+11	3611	parregullt	parregullta
+12	3612	kureshtje	kureshtja kureshtjen kureshtjes kureshtjet
+13	3613	zvarranik	zvarraniku zvarranikun zvarranikut zvarranikë zvarranikësh zvarranikët zvarranikëve
+14	3614	vetvetiu	
+15	3615	harresë	harresa harrese harresën harresës
+16	3616	fuqizoj	fuqizohet fuqizoi fuqizoja fuqizojmë fuqizojnë fuqizon fuqizoni fuqizonte fuqizuan fuqizuar
+17	3617	evidencë	evidenca evidencat evidencave evidence evidencën evidencës
+18	3618	ngurroj	ngurro ngurroi ngurroja ngurrojnë ngurron ngurroni ngurronim ngurronin ngurronte ngurrova ngurruan ngurruar
+19	3619	trembëdhjetë	
+20	3620	lak	laku leqe leqet
+21	3621	buxhetor	buxhetore buxhetorë
+22	3622	arnë	arn arna arne arnes arnën harën
+23	3623	orgazmë	orgazma orgazmash orgazmat orgazme orgazmën orgazmës
+24	3624	liq	liqe
+25	3625	qelq	qelqe qelqet qelqi qelqin qelqit
+26	3626	ombrellë	ombrella ombrellat ombrellave ombrelle ombrellën ombrellës
+27	3627	kukuvajkë	kukuvajka kukuvajkat kukuvajkën kukuvajkës
+28	3628	plasë	plasa plase plasën plasës plasësh
+29	3629	lëmuar	lëmuara
+30	3630	aman	
+31	3631	pilivesë	pilivesa pilivesash pilivesave pilivese pilivesën pilivesës
+32	3632	cik	cika cike ciku cikën çik
+33	3633	sternë	stern sterë
+34	3634	bend	bendi bendin
+35	3635	këputë	këputa këpute këputën
+36	3636	qortoj	qorto qortoi qortoja qortoje qortojnë qorton qortoni qortonin qortonte qortova qortove qortuan qortuar
+37	3637	kudër	kudra kudre kudrës
+38	3638	kulloj	kulloi kullojmë kullojnë kullon kulloni kullonin kullonte kulluar
+39	3639	mbresë	mbresa mbresash mbresat mbresën mbresës
+40	3640	lar	lari larin larit larët
+41	3641	marrës	marrëse marrësi marrësin marrësit marrësve
+42	3642	fërgoj	fërgojmë fërgojnë fërgon fërgoni fërguar fërguara
+43	3643	fryhem	fryhen fryhet fryrë
+44	3644	sulem	sulej sulemi sulen sulesh suleshin sulet sulu suluni sulur
+45	3645	tra	trani trari trau treni
+46	3646	astronomi	astronomia astronomike astronominë astronomisë
+47	3647	masturbim	masturbime masturbimi masturbimin masturbimit
+48	3648	call	calle
+49	3649	njomë	njomur
+50	3650	kunatë	kunata kunatat kunatave kunate kunatën kunatës
+51	3651	shpërdoroj	shpërdoro shpërdoroi shpërdoroja shpërdorojmë shpërdorojnë shpërdoron shpërdoroni shpërdoronin shpërdoronte shpërdorove shpërdoruam shpërdoruan shpërdoruar shpërdoruat
+52	3652	fllad	flladet flladi flladin
+53	3653	afishe	afishen afishet afisheve afishja
+54	3654	pohim	pohime pohimet pohimeve pohimi pohimin pohimit
+55	3655	kaçavidë	kaçavida kaçavidën
+56	3656	sfungjer	sfungjeri sfungjerin sfungjerit sfungjerë sfungjerët
+57	3657	udhëhiqem	udhëhequr udhëhiqemi udhëhiqen udhëhiqeni udhëhiqesh udhëhiqeshin udhëhiqet udhëhoqa
+58	3658	zëj	zëna zënë
+59	3659	konjak	konjaku konjakun
+60	3660	vej	
+61	3661	petrit	petriti petritin petritit
+62	3662	trysni	trysnia trysnie trysnija trysninë trysnisë trysnive
+63	3663	polemikë	polemika polemikash polemikat polemikave polemike polemikën polemikës
+64	3664	lyp	lype lypi lypim lypin lypja lypje lypke lypni lypnin lypte lypur lypën
+65	3665	përkujtimore	përkujtimor përkujtimoren përkujtimores përkujtimorja
+66	3666	qetësim	qetësime qetësimi qetësimin qetësimit
+67	3667	kangur	kangun kanguret kanguri kangurin kangurit
+68	3668	veçoj	veçoi veçoja veçoje veçojmë veçojnë veçon veçoni veçonim veçonit veçonte veçuan veçuar
+69	3669	bel	
+70	3670	paparashikueshëm	
+71	3671	keqbërës	keqbërësi keqbërësit
+72	3672	natanë	natan natani natanin
+73	3673	kapitalizëm	kapitalizmi kapitalizmin kapitalizmit
+74	3674	vrull	vrulli vrullin vrullit
+75	3675	reçel	reçele reçeli reçelin reçelit
+76	3676	dialekt	dialekte dialektet dialekteve dialekti dialektin dialektit
+77	3677	administroj	administrohen administrohet administroi administrojmë administrojnë administron administroni administronin administronte administruam administruan administruar
+78	3678	dremit	dremita dremitja dremitje dremitur
+79	3679	tullumbace	
+80	3680	erëza	
+81	3681	homolog	homologe homologu homologun homologut homologë homologët homologëve
+82	3682	lugat	lugati lugetër lugetërit
+83	3683	xhel	xhelat xheli xhelin xhelit
+84	3684	pafe	pafetë
+85	3685	regj	regji regjim regjur regjësh
+86	3686	korrë	korra korrat korrave
+87	3687	hamshor	hamshori hamshorin hamshorë hamshorët
+88	3688	ekonomist	ekonomisti ekonomistin ekonomistit ekonomistë ekonomistësh ekonomistët ekonomistëve
+89	3689	tepricë	teprica tepricat tepricave teprice tepricën tepricës
+90	3690	kryqëzatë	kryqëzata kryqëzatash kryqëzatat kryqëzatave kryqëzate kryqëzatën kryqëzatës
+91	3691	dylbi	dylbia dylbit dylbitë
+92	3692	prij	priji prirë
+93	3693	evlat	evlad vlad
+94	3694	germë	germa germat germave germe germën germës gërmë
+95	3695	përçarje	përçarja përçarjeje përçarjen përçarjes përçarjesh përçarjet përçarjeve
+96	3696	gjymtoj	gjymtoi gjymtoni gjymtonte gjymtove gjymtuan gjymtuar gjymtuat
+97	3697	qilar	qilari qilarin qilarit qilarë qilarët
+98	3698	avancim	avancimin
+99	3699	karmë	karma karme karmën karmës
+100	3700	presh	pras preshi preshin preshit preshë

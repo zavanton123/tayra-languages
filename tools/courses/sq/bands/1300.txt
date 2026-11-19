@@ -1,0 +1,100 @@
+1	1201	teksa	
+2	1202	lum	lumtë
+3	1203	peshë	pesha peshash peshat peshave peshe peshën peshës
+4	1204	xhep	xhepa xhepash xhepat xhepave xhepi xhepin xhepit
+5	1205	majmun	majmuna majmuni majmunin majmunit majmunve majmunë majmunësh majmunët majmunëve
+6	1206	pajtoj	pajto pajtohej pajtohem pajtohemi pajtohen pajtoheni pajtohesh pajtohesha pajtoheshe pajtoheshim pajtoheshin pajtoheshit pajtohet pajtohu pajtohuni pajtoi pajtojmë pajtojnë pajton pajtoni pajtonin pajtonte pajtova pajtove pajtuam pajtuan pajtuar
+7	1207	mbërrij	mbërrijmë mbërrijnë mbërrijë mbërrin mbërrini mbërrinim mbërrinë mbërrita mbërritur
+8	1208	shpërthim	shpërthime shpërthimet shpërthimeve shpërthimi shpërthimin shpërthimit
+9	1209	familjar	familjare familjarë familjarët familjarëve
+10	1210	hije	hie hija hijeje hijen hijes hijeshi hijet hijeve hje
+11	1211	efekt	efekte efektet efekteve efekti efektin
+12	1212	gjepura	gjepurash gjepurat gjepurave
+13	1213	mundshëm	mundshme
+14	1214	perëndim	perëndime perëndimet perëndimi perëndimin perëndimit
+15	1215	sinqertë	sinqert sinqerta sinqertët
+16	1216	ndër	
+17	1217	përtej	
+18	1218	shënoj	shëno shënohet shënoi shënoja shënoje shënojmë shënojnë shënojë shënon shënoni shënonim shënonin shënonte shënova shënove shënuam shënuan
+19	1219	palloj	pallo pallohej pallohem pallohemi pallohen palloheni pallohesh pallohesha palloheshin pallohet palloi palloja palloje pallojmë pallojnë pallojë pallomë pallon palloni pallonim pallonin pallonte pallova pallove palluam palluan palluar palluat
+20	1220	pistë	pista pistat pistave piste pistën pistës
+21	1221	kullë	kulla kullash kullat kullave kulle kulli kullën kullës
+22	1222	kuzhinë	guzhinë kuzhina kuzhinat kuzhinave kuzhine kuzhinën kuzhinës
+23	1223	fustan	fustane fustanet fustaneve fustani fustanin fustanit
+24	1224	gjoks	gjokse gjoksesh gjokset gjokseve gjoksi gjoksin gjoksit
+25	1225	premtim	premtime premtimesh premtimet premtimeve premtimi premtimin premtimit
+26	1226	send	sende sendesh sendet sendeve sendi sendin sendit
+27	1227	shekull	shekuj shekujsh shekujt shekujve shekulli shekullin shekullit
+28	1228	frikshëm	frikshme
+29	1229	tërmet	termet tërmete tërmetesh tërmetet tërmeteve tërmeti tërmetin tërmetit
+30	1230	sinqerisht	
+31	1231	krishtlindje	krishtlindjet krishtlindjeve
+32	1232	sesi	
+33	1233	botëror	botërore botërorë
+34	1234	mësohem	mësohej mësohemi mësohen mësoheni mësohesh mësohesha mësoheshe mësoheshim mësoheshin mësohet mësohu mësohuni mësuar
+35	1235	guxim	guximi guximin
+36	1236	shesh	shesha sheshe sheshet shesheve sheshi sheshin sheshit sheshtë shit
+37	1237	intervistë	intervista intervistash intervistat intervistave interviste intervistën intervistës
+38	1238	grusht	grushta grushtash grushtat grushte grushtet grushteve grushti grushtin grushtit
+39	1239	shtroj	shtro shtrohet shtroi shtroja shtroje shtrojmë shtrojnë shtron shtroni shtronim shtronin shtronte shtrova shtrove shtruam shtruan shtruar shtruat
+40	1240	zemëroj	zemëro zemërohej zemërohem zemërohen zemërohesh zemërohet zemëroi zemëroja zemëroje zemërojmë zemërojnë zemëron zemëroni zemëronte zemërova zemërove zemëruam zemëruan zemëruar
+41	1241	shikim	shikime shikimesh shikimet shikimeve shikimi shikimin shikimit
+42	1242	varros	varrosa varrose varrosem varroset varrosi varrosim varrosin varrosja varrosje varrosni varrosnin varrosur varrosë varrosëm varrosën varrosësh
+43	1243	sidomos	
+44	1244	pantallona	pantallonash pantallonat pantallonave pantollona
+45	1245	askund	
+46	1246	bukë	buka buke bukën bukës bukët bukëve
+47	1247	ashpër	ashpra ashpëra
+48	1248	dragua	dragoi dragoin dragoit dragonj dragonjsh dragonjtë dragonjve draguan
+49	1249	direkt	
+50	1250	rob	robi robtë robër robërit
+51	1251	lut	lus luta lute luti lutim lutja lutni lutur lutëm lutën lutët
+52	1252	litar	litari litarin litarit litarë litarët litarëve
+53	1253	kopsht	kopshte kopshtesh kopshtet kopshteve kopshti kopshtin kopshtit kopësht
+54	1254	ndyrësirë	ndyrësir ndyrësira ndyrësirat ndyrësirave ndyrësirën
+55	1255	terrorist	terrorista terroristash terroristat terroriste terroristi terroristë terroristët terroristëve
+56	1256	shtator	sht shtatori shtatorin shtatorit
+57	1257	loz	los loza loze lozi lozim lozin lozja lozje lozni loznim loznin lozte lozur lozën
+58	1258	rrëmbej	rrëmbe rrëmbeja rrëmbeje rrëmbejmë rrëmbejnë rrëmbejë rrëmben rrëmbeni rrëmbenim rrëmbenin rrëmbente rrëmbeu rrëmbeva rrëmbeve rrëmbyem rrëmbyen rrëmbyer rrëmbyet
+59	1259	stil	stile stilet stili stilin stilit
+60	1260	krizë	kriza krizat krizave krizën krizës
+61	1261	hesht	heshta heshte heshti heshtim heshtin heshtja heshtni heshtnin heshtte heshtur heshtëm heshtën heshtët
+62	1262	studim	studime studimesh studimet studimeve studimi studimin studimit
+63	1263	zhvillim	zhvillime zhvillimesh zhvillimet zhvillimeve zhvillimi zhvillimin zhvillimit
+64	1264	numëroj	numero numeroi numeroj numeroje numeron numeroni numerova numerove numeruan numeruar numëro numërohen numërohet numëroi numëroja numëroje numëroji numërojmë numërojnë numërojë numëron numëroni numërova numëruar
+65	1265	shpall	shpalla shpalle shpallet shpalli shpallim shpallin shpallja shpallni shpallnim shpallnin shpallte shpallur shpallë shpallëm shpallën shpallësh shpallët
+66	1266	stuhi	stuhia stuhie stuhija stuhinë stuhish stuhisë stuhitë stuhive
+67	1267	kolegj	kolegje kolegjet kolegji kolegjin kolegjit
+68	1268	magjistar	magjistari magjistarin magjistarit magjistarja magjistarë magjistarësh magjistarët magjistarëve
+69	1269	fshij	fshi fshija fshije fshiji fshijmë fshijnë fshijë fshika fshimë fshin fshini fshinim fshinin fshinte fshinë fshirë fshiu fshiva fshive
+70	1270	pavarësisht	
+71	1271	afroj	afro afroi afroja afroje afrojmë afrojnë afroju afrojë afron afroni afronin afronte afrova afrove afruam afruan afruat
+72	1272	jashtëm	jashtme
+73	1273	dush	dushe dushet dusheve dushi dushin dushit
+74	1274	helikopter	helikoptera helikopteri helikopterin helikopterit helikopterë helikopterët helikopterëve
+75	1275	punëtor	punëtori punëtorin punëtorit punëtorë punëtorësh punëtorët punëtorëve
+76	1276	taksë	taksa taksash taksat taksave takse taksën taksës
+77	1277	diamant	diamante diamantesh diamantet diamanteve diamanti diamantin diamantit diamantë diamantësh diamantët diamantëve
+78	1278	mërzitur	mërzitura
+79	1279	rrjedh	rridhnin rridhte rrjedha rrjedhave rrjedhim rrjedhimit rrjedhin rrjedhur rrjedhë rrjedhën rrjedhës rrodhe rrodhi rrodhën
+80	1280	shtënë	shtën shtëna shtënash shtënat shtënave shtëne shtënën shtënës
+81	1281	ëndërroj	ëndërro ëndërroi ëndërroja ëndërroje ëndërrojmë ëndërrojnë ëndërrojë ëndërron ëndërroni ëndërronim ëndërronin ëndërronit ëndërronte ëndërrova ëndërrove ëndërruam ëndërruan ëndërruar
+82	1282	ekspert	eksperte eksperti ekspertin ekspertë ekspertësh ekspertët
+83	1283	alarm	alarme alarmesh alarmet alarmeve alarmi alarmin alarmit
+84	1284	egër	
+85	1285	reagoj	reago reagoi reagoja reagoje reagojmë reagojnë reagojë reagon reagoni reagonim reagonin reagonit reagonte reagova reagove reaguam reaguan reaguar reaguat
+86	1286	tremb	tremba trembe trembem trembesh trembet trembi trembim trembin trembja trembni trembte trembë trembëm trembën trembësh trembët trëmb
+87	1287	shqetësim	shqetësime shqetësimesh shqetësimet shqetësimeve shqetësimi shqetësimin shqetësimit
+88	1288	magjik	magjike magjikë
+89	1289	ngec	ngeca ngece ngeci ngecim ngecin ngecja ngecje ngecni ngecnim ngecnin ngecte ngecur ngecë ngecëm ngecën ngecësh
+90	1290	shfrytëzoj	shfrytëzo shfrytëzohen shfrytëzohet shfrytëzoi shfrytëzoja shfrytëzoje shfrytëzojmë shfrytëzojn shfrytëzojnë shfrytëzojë shfrytëzon shfrytëzoni shfrytëzonim shfrytëzonin shfrytëzonit shfrytëzonte shfrytëzova shfrytëzove shfrytëzuam shfrytëzuan shfrytëzuar shfrytëzuat
+91	1291	datë	datat datave datën datës
+92	1292	hakmarrje	hakmarrja hakmarrjeje hakmarrjen hakmarrjes
+93	1293	restorant	restorante restorantet restoranti restorantin restorantit restorantë restorantëve
+94	1294	ve	veja vejan veje vejë veve vo
+95	1295	paksa	
+96	1296	dëmtoj	dëmtohet dëmtoi dëmtoja dëmtoje dëmtojmë dëmtojnë dëmtojë dëmton dëmtoni dëmtonim dëmtonin dëmtonte dëmtova dëmtove dëmtuam dëmtuan dëmtuar
+97	1297	gju	arbëresh calabria gjunjë gjunjët gjunjëve gjuri gjurin gjurit glu ukraine
+98	1298	banesë	banesa banesash banesat banesave banese banesën banesës
+99	1299	evropian	evropiane evropiani evropianë evropianët
+100	1300	mars	mar marsi marsin marsit

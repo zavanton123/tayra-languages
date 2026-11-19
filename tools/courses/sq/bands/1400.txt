@@ -1,0 +1,100 @@
+1	1301	përbashkët	përbashkëta
+2	1302	përshëndet	përshëndes përshëndeta përshëndete përshëndetem përshëndeti përshëndetin përshëndetja përshëndetjet përshëndetni përshëndetnin përshëndetnit përshëndetu përshëndetur përshëndetëm përshëndetën përshëndetës përshëndetësh përshëndetët
+3	1303	përhap	përhapa përhape përhapet përhapi përhapim përhapin përhapja përhapje përhapjen përhapni përhapnim përhapnin përhapnit përhapte përhapur përhapë përhapëm përhapën përhapët
+4	1304	prift	prifti priftin priftit priftërinj priftërinjtë priftërinjve
+5	1305	infektoj	infektohemi infektohen infektohesh infektohet infektoi infektojnë infektojë infekton infektuar
+6	1306	kafshoj	kafsho kafshoi kafshoja kafshoje kafshojmë kafshojnë kafshojë kafshon kafshoni kafshonin kafshonte kafshova kafshove kafshuan kafshuar
+7	1307	kyç	kyça kyçe kyçesh kyçet kyçeve kyçi kyçim kyçin kyçit kyçja kyçje kyçni kyçnin kyçte kyçur kyçëm kyçën kyçët
+8	1308	mençur	mençura mençurin mençurit
+9	1309	parashikoj	parashiko parashikohet parashikoi parashikoja parashikoje parashikojmë parashikojnë parashikojë parashikon parashikoni parashikonim parashikonin parashikonte parashikova parashikove parashikuam parashikuan parashikuar parashikuat
+10	1310	domethënë	
+11	1311	personalisht	
+12	1312	bazoj	bazohej bazohem bazohemi bazohen bazohesh bazohet bazuar
+13	1313	çift	çifte çiftesh çiftet çifteve çifti çiftin çiftit çiftë
+14	1314	bosh	boshe boshë
+15	1315	zhvilloj	zhvilloi zhvilloja zhvilloje zhvillojmë zhvillojnë zhvillon zhvilloni zhvillonim zhvillonin zhvillonte zhvillova zhvilluam zhvilluan zhvilluar zhvilluat
+16	1316	robot	robota robotat roboti robotin robotit robots robotë robotësh robotët robotëve
+17	1317	kalim	kalime kalimet kalimeve kalimi kalimin kalimit
+18	1318	merak	marak meraku merakun merakut
+19	1319	sallë	salla sallat sallave salle salli sallën sallës
+20	1320	finale	final finaleje finalen finales finalet finaleve finalja
+21	1321	përsëris	përsërisim përsërisin përsërisni përsëriste përsërisë përsërisësh
+22	1322	ndërtim	ndërtime ndërtimet ndërtimeve ndërtimi ndërtimin ndërtimit
+23	1323	valixhe	valixheje valixhen valixhes valixhesh valixhet valixheve valixhja
+24	1324	ngas	ngarë ngasim ngasin ngasje ngasur ngasë ngasës ngasësh ngisja ngiste ngit
+25	1325	karrige	karriga karrigen karriges karriget karrigia karrigë karrike karrikë
+26	1326	brengosem	brengosej brengosemi brengosen brengoseni brengosesh brengosesha brengoseshe brengoseshit brengoset brengosu brengosuni brengosur
+27	1327	parajsë	parajs parajsa parajsat parajsave parajse parajsën parajsës
+28	1328	kërcënim	kërcënime kërcënimet kërcënimeve kërcënimi kërcënimin kërcënimit
+29	1329	grek	greke greken grekes greket grekeve grekja greku grekun grekut grekë grekësh grekët grekëve
+30	1330	federal	federale federalë federalët federalëve
+31	1331	realizoj	realizofshin realizohen realizohet realizoi realizoja realizoje realizojmë realizojnë realizojë realizon realizoni realizonim realizonin realizonit realizonte realizova realizove realizuam realizuan realizuar realizuat
+32	1332	premte	premten premtes premteve
+33	1333	krijesë	krijes krijesa krijesash krijesat krijesave krijesën krijesës
+34	1334	aftë	
+35	1335	udhëheqës	udhëheqëse udhëheqësi udhëheqësin udhëheqësit udhëheqësja udhëheqësve
+36	1336	qelbësirë	qelbësira qelbësirat qelbësirave qelbësire qelbësirën qelbësirës
+37	1337	dysheme	dyshemeja dyshemen dyshemenë dyshemesë dyshemetë
+38	1338	vampir	vampira vampirat vampirave vampiri vampirin vampirit vampirë vampirësh vampirët vampirëve
+39	1339	surprizë	surpriz surpriza surprizat surprizën surprizës
+40	1340	informoj	informo informoi informoja informoje informojmë informojnë informojë informon informoni informova informuan informuar
+41	1341	ujk	auk ujku ujkun ujkut ujq ujqish ujqit ujqve ujqër uk
+42	1342	zhgënjej	zhgënje zhgënjeheni zhgënjehesh zhgënjehet zhgënjeja zhgënjeje zhgënjejmë zhgënjejnë zhgënjejë zhgënjen zhgënjeni zhgënjente zhgënjeu zhgënjeva zhgënjeve zhgënjyem zhgënjyen zhgënjyer zhgënjyet
+43	1343	lëng	lëngje lëngjesh lëngjet lëngjeve lëngu lëngun lëngut lëngët
+44	1344	ngut	ngus nguta ngutem ngutemi nguteni ngutesh ngutet nguti ngutim ngutin ngutja ngutje ngutni ngutu ngutuni ngutur ngutë ngutën ngutët
+45	1345	organizatë	organizata organizatash organizatat organizatave organizate organizatën organizatës
+46	1346	studioj	studioja studioje studiojmë studiojnë studiojë studioni studionin studionte studiova studiuam studiuar
+47	1347	mashtrim	mashtrime mashtrimet mashtrimeve mashtrimi mashtrimin mashtrimit
+48	1348	gjarpër	gjarpri gjarprin gjarprit gjarpëri gjarpërin gjarpërinj gjarpërinjsh gjarpërinjtë gjarpërinjve gjarpërit
+49	1349	argëtohem	argëto argëtohej argëtohemi argëtohen argëtoheni argëtohesh argëtohesha argëtoheshe argëtoheshim argëtoheshin argëtoheshit argëtohet argëtohu argëtohuni argëtoi argëtoj argëtoja argëtojmë argëtojnë argëton argëtoni argëtonte argëtova argëtove argëtuam argëtuan argëtuar
+50	1350	ndikoj	ndiko ndikohesh ndikohet ndikoi ndikoja ndikoje ndikojmë ndikojnë ndikojë ndikon ndikoni ndikonim ndikonin ndikonte ndikuam ndikuan ndikuar ndikuat
+51	1351	tregtar	tregtare tregtari tregtarin tregtarit tregtarë tregtarësh tregtarët tregtarëve
+52	1352	vazhdimisht	
+53	1353	sfidë	sfida sfidash sfidat sfidave sfide sfidën sfidës
+54	1354	thith	thitha thithe thithi thithim thithin thithja thithje thithka thithke thithni thithnim thithnin thithte thithur thithëm thithën thithët
+55	1355	bravo	
+56	1356	ndërmend	
+57	1357	ekonomi	ekonomia ekonomie ekonominë ekonomish ekonomisë ekonomitë ekonomive
+58	1358	ngjit	ngjis ngjita ngjite ngjiti ngjitim ngjitin ngjitja ngjitje ngjitni ngjitur ngjitë ngjitëm ngjitën ngjitës ngjitësh ngjitët
+59	1359	opozitë	opozita opozitat opozitave opozite opozitën opozitës
+60	1360	puthje	puthja puthjeje puthjen puthjes puthjesh puthjet puthjeve
+61	1361	qira	qera qiraja qiran qiranë qirasë qiratë
+62	1362	banor	banori banorin banorit banorë banorësh banorët banorëve
+63	1363	jashtëzakonshëm	jashtëzakonshme
+64	1364	pestë	pesta pesti pestin pestën
+65	1365	aktor	aktore aktori aktorin aktorit aktorja aktorë aktorësh aktorët aktorëve
+66	1366	falas	
+67	1367	dëshmi	dëshmia dëshmie dëshminë dëshmisë dëshmit dëshmitë dëshmive
+68	1368	teknologji	teknologjia teknologjie teknologjinë teknologjish teknologjisë teknologjitë teknologjive
+69	1369	shkencë	shkenca shkencash shkencat shkencave shkence shkencën shkencës
+70	1370	shkrim	shkrime shkrimesh shkrimet shkrimeve shkrimi shkrimin shkrimit
+71	1371	shkretëtirë	shkreti shkretirë shkretëtira shkretëtirat shkretëtirave shkretëtire shkretëtirën shkretëtirës
+72	1372	shpëtim	shpëtime shpëtimet shpëtimi shpëtimin shpëtimit
+73	1373	varkë	varka varkash varkat varkave varke varkën varkës
+74	1374	pako	pakoja pakoje pakon pakos pakot
+75	1375	panjohur	panjohura panjohuri panjohurin panjohurit panjohurve panjohurën panjohurës
+76	1376	shpërblim	shpërblime shpërblimet shpërblimeve shpërblimi shpërblimin shpërblimit
+77	1377	bindur	
+78	1378	qumësht	qumsht qumësh qumështi qumështin qumështit
+79	1379	vërtetoj	vërteto vërtetohet vërtetoi vërtetoja vërtetoje vërtetojmë vërtetojnë vërtetojë vërteton vërtetoni vërtetonte vërtetuar vërtetuat
+80	1380	djathtas	
+81	1381	nëpërmjet	
+82	1382	rol	rolin
+83	1383	metë	met meta metat metin metën
+84	1384	foto	foton fotot
+85	1385	bijë	bija bijat bijave bije bijën bijës
+86	1386	turne	turner turneu turneun turneut
+87	1387	butë	butin
+88	1388	aktualisht	
+89	1389	digjem	digjej digjemi digjen digjeni digjesh digjeshin digjet digju
+90	1390	laborator	laboratore laboratori laboratorin laboratorit laboratorë laboratorët
+91	1391	sjellshëm	sjellshme
+92	1392	koleg	kolegu kolegun kolegut kolegë kolegësh kolegët kolegëve
+93	1393	shkurt	shk shkurte shkurtesë shkurti shkurtim shkurtin shkurtit
+94	1394	frikacak	frikacake frikacaku frikacakë frikacakët
+95	1395	përkryej	përkryeja përkryeni përkryer
+96	1396	transferoj	transfero transferohem transferohemi transferohen transferoheni transferohesh transferohesha transferohet transferoi transferoja transferoje transferojmë transferojnë transferojë transferon transferoni transferonim transferonin transferonit transferonte transferova transferove transferuam transferuan transferuar transferuat
+97	1397	gjykoj	gjyko gjykohem gjykohen gjykoheni gjykohesh gjykohet gjykoi gjykoja gjykoje gjykojmë gjykojnë gjykojë gjykon gjykoni gjykonim gjykonin gjykonit gjykonte gjykova gjykove gjykuam gjykuan gjykuar
+98	1398	pallat	pallate pallatesh pallatet pallateve pallati pallatin pallatit pallatë
+99	1399	mënd	mëndja mëndje mëndjet mëndsh mëndur mëndët
+100	1400	liqen	liqene liqenet liqeneve liqeni liqenin liqenit

@@ -1,0 +1,100 @@
+1	1501	trim	trima trimash trimat trimave trimi trimin trimit trish trisha
+2	1502	bishë	bisha bishash bishat bishave bishe bishën bishës
+3	1503	temperaturë	temperatura temperaturash temperaturat temperaturave temperature temperaturën temperaturës
+4	1504	djathë	djadh djath djathi djathin djathit djathëra djathërat djathërave
+5	1505	tetor	tet teton tetori tetorin tetorit
+6	1506	studio	studioi studion studios studiosh studiot
+7	1507	gradë	grada gradat gradën gradës gradësh
+8	1508	plas	plasa plase plasi plasim plasin plasja plasje plasni plasnin plaste plastë plasur plasën
+9	1509	veçanërisht	
+10	1510	përmbaj	përmbahem përmbahemi përmbahesh përmbahet përmbahu përmbajnë përmbajtur përmbaju përmbajë përmban përmbante përmbanë
+11	1511	ndërpres	ndërprerë ndërpresim ndërpresin ndërpresë ndërpresësh ndërpreva
+12	1512	përvojë	përvoja përvojash përvojat përvojave përvoje përvojën përvojës
+13	1513	oborr	oborre oborresh oborret oborreve oborri oborrin oborrit
+14	1514	madhështor	madhështore madhështori madhështorë
+15	1515	man	mana manat manave mani manin manit mën
+16	1516	europ	europa europë europën europës
+17	1517	spiun	spiuna spiuni spiunim spiunin spiunit spiunë spiunësh spiunët spiunëve
+18	1518	engjëll	engjëj engjëjsh engjëjt engjëjve engjëlli engjëllin engjëllit ëngjëj ëngjëjt ëngjëjve ëngjëll ëngjëlli ëngjëllin ëngjëllit
+19	1519	ndokush	
+20	1520	fole	folei foleja folenë foles folesë foletë
+21	1521	ndihmës	ndihmësa ndihmëse ndihmësi ndihmësin ndihmësit ndihmësja ndihmësve
+22	1522	propozoj	propozo propozoi propozoja propozoje propozojmë propozojnë propozojë propozon propozoni propozonim propozonin propozonte propozova propozove propozuam propozuan propozuar propozuat
+23	1523	republikë	republika republikat republikave republike republikën republikës
+24	1524	mohoj	moho mohohet mohoi mohoja mohoje mohojmë mohojnë mohojë mohon mohoni mohonin mohonit mohonte mohova mohove mohuan mohuar
+25	1525	lot	loti lotin lotit lotë lotësh lotët lotëve
+26	1526	qershor	qer qershori qershorin qershorit qershorë qërshor
+27	1527	pushkë	pushka pushkat pushke pushkën pushkës pushkësh pushkët pushkëve
+28	1528	përshtatshëm	përshtatshme
+29	1529	befasoj	befaso befasohem befasohesh befasohesha befasoi befasojmë befasojë befason befasoni befasonte befasova befasove befasuan befasuar
+30	1530	rezervë	rezerv rezerva rezervat rezervave rezervën rezervës
+31	1531	reagim	reagime reagimesh reagimet reagimeve reagimi reagimin reagimit
+32	1532	fabrikë	fabrika fabrikash fabrikat fabrikave fabrike fabrikën fabrikës
+33	1533	koronavirus	koronavirusi koronavirusin
+34	1534	kufomë	kufoma kufomash kufomat kufomave kufome kufomën kufomës
+35	1535	mërzitshëm	mërzitshme
+36	1536	lodhem	lodhej lodhemi lodhen lodheni lodhesh lodhesha lodheshe lodheshin lodhet lodhu lodhur
+37	1537	verdhë	verdh verdha verdhën
+38	1538	dhuroj	dhuro dhuroi dhuroja dhuroje dhurojmë dhurojnë dhurojë dhuron dhuroni dhuronim dhuronin dhuronte dhurova dhurove dhuruam dhuruan dhuruar dhuruat
+39	1539	buzë	buza buze buzën buzës buzësh buzët buzëve
+40	1540	plotësoj	plotëso plotësoftë plotësohen plotësohet plotësoi plotësoja plotësoje plotësojmë plotësojnë plotësojë plotëson plotësoni plotësonim plotësonin plotësonit plotësonte plotësova plotësove plotësuam plotësuan plotësuar plotësuat
+41	1541	krejtësisht	
+42	1542	tmerr	mer tmerre tmerret tmerreve tmerri tmerrin tmerrit tmerrë
+43	1543	punonjës	punonjëse punonjësi punonjësit punonjësve
+44	1544	shtatzënë	shtatzëna shtatzëni
+45	1545	mirëmbrëma	
+46	1546	nip	nipi nipin nipit nipër nipërit nipërve
+47	1547	kandidat	kandidati kandidatin kandidatit kandidatja kandidatë kandidatësh kandidatët kandidatëve
+48	1548	grabit	grabis grabita grabite grabitet grabiti grabitin grabitja grabitur grabitëm grabitën grabitës grabitësh
+49	1549	plus	
+50	1550	sajë	saja sajat saje sajin sajën
+51	1551	gjini	gjeri gjinia gjinie gjininë gjinisë gjinitë gjinive gjiri jeni xheni xhini
+52	1552	sheqer	sheqeri sheqerin sheqerit
+53	1553	boll	
+54	1554	përmirësoj	përmirëso përmirësohem përmirësohemi përmirësohen përmirësohesh përmirësohet përmirësoi përmirësoja përmirësoje përmirësojmë përmirësojnë përmirësojë përmirëson përmirësoni përmirësonim përmirësonin përmirësonte përmirësova përmirësove përmirësuam përmirësuan përmirësuar
+55	1555	shëmtoj	shëmtojnë shëmton shëmtuar
+56	1556	porosi	porosia porosinë porosis porosisë porositë
+57	1557	profesionist	profesionista profesioniste profesionisti profesionistë profesionistësh profesionistët profesionistëve
+58	1558	tigër	tigra tigrat tigri tigrin tigrit
+59	1559	gjelbër	gjelbra gjelbëra gjelbërim gjelbërt gjelbërta gjelbërtë
+60	1560	notoj	noto notoi notoja notoje notojmë notojnë notojë noton notoni notonim notonin notonit notonte notova notuam notuan notuar notuat
+61	1561	nxënës	nxënësi nxënësin nxënësish nxënësit nxënësve
+62	1562	fqinj	fqinja fqinji fqinjin fqinjit fqinjtë fqinjë fqinjësh fqinjët fqinjëve
+63	1563	fitim	fitime fitimesh fitimet fitimeve fitimi fitimin fitimit
+64	1564	kalorës	kalorësa kalorëse kalorësi kalorësin kalorësit kalorësve
+65	1565	foshnjë	foshnja foshnjat foshnjave foshnje foshnjën foshnjës
+66	1566	li	lia linë
+67	1567	pikturë	piktura pikturash pikturat pikturave pikture pikturën pikturës
+68	1568	pasqyrë	pasqyra pasqyrash pasqyrat pasqyrave pasqyre pasqyrën pasqyrës
+69	1569	pluhur	pluhura pluhurat pluhurave pluhuri pluhurin pluhurit
+70	1570	pension	pensionet pensioneve pensioni pensionin pensionit
+71	1571	saqë	
+72	1572	gjasë	gjasa gjasash gjasat gjasave gjase gjasën
+73	1573	trashë	
+74	1574	turmë	turma turmat turmave turme turmën turmës
+75	1575	artist	artiste artisti artistin artistit artistë artistësh artistët artistëve
+76	1576	fyt	fyte fytet fyti fytin fytit
+77	1577	zhyt	zhys zhyta zhyte zhytem zhytesh zhytet zhyti zhytin zhytja zhytje zhytni zhytu zhytur zhytëm zhytën zhytës
+78	1578	përfitoj	përfito përfitoi përfitoja përfitoje përfitojmë përfitojnë përfitojë përfiton përfitoni përfitonim përfitonin përfitonit përfitonte përfitova përfitove përfituam përfituan përfituar përfituat
+79	1579	gjer	ger gjeri
+80	1580	ballë	balle balli ballin ballit ballësh ballët ballëve
+81	1581	ber	beri berin berit berë
+82	1582	kockë	kocka kockash kockat kockave kockën
+83	1583	mat	mate matet mati matin matje matur
+84	1584	pushtoj	poshtroj pushto pushtoftë pushtoi pushtoja pushtoje pushtojmë pushtojnë pushtojë pushton pushtoni pushtonim pushtonin pushtonit pushtonte pushtova pushtove pushtuam pushtuan pushtuar pushtuat
+85	1585	titra	titrat titrave
+86	1586	gënjeshtar	gënjeshtari gënjeshtarin gënjeshtarit gënjeshtarë gënjeshtarësh gënjeshtarët gënjeshtarëve
+87	1587	humor	humori humorin humorit
+88	1588	ashensor	ashensori ashensorin ashensorit ashensorë ashensorësh ashensorët ashensorëve
+89	1589	bodrum	bodrume bodrumesh bodrumet bodrumeve bodrumi bodrumin bodrumit
+90	1590	gomar	gomari gomarin gomarit gomarë gomarët gomarëve
+91	1591	ngaqë	
+92	1592	nen	nene nenet neni
+93	1593	kopje	kopja kopjen kopjet
+94	1594	vullnet	vullneti vullnetin vullnetit
+95	1595	fizik	fizike
+96	1596	flamur	flamuj flamujsh flamujt flamujve flamuri flamurin flamurit flamurë flamurët flamurëve
+97	1597	tortë	torta tortash tortat tortave torte tortën tortës
+98	1598	borë	bora borat bore borën borës dëborë
+99	1599	prokuror	prokurore prokurori prokurorin prokurorit prokurorja
+100	1600	jon	jone jonesh jonet joneve joni jonin jonit

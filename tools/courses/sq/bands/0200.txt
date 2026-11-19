@@ -1,0 +1,100 @@
+1	101	pra	
+2	102	shtëpi	shpia shpiem shpije shpini shtëpia shtëpie shtëpija shtëpije shtëpin shtëpinë shtëpis shtëpish shtëpisë shtëpit shtëpitë shtëpive
+3	103	tregoj	trego tregohej tregohem tregohemi tregohen tregoheni tregohesh tregohesha tregoheshe tregohet tregohu tregohuni tregoi tregoja tregoje tregoji tregojmë tregojn tregojnë tregoju tregojë tregomë tregon tregoni tregonim tregonin tregonit tregonte tregosh tregova tregove treguam treguan treguar treguat
+4	104	kështu	
+5	105	vras	vraftë vramë vranë vrarë vrasi vrasim vrasin vrasni vrasë vrasësh vratë vrau vrava vrave vret vrisja vrisje vrisni vrisnim vrisnin vrisnit vriste vrite vritje vritni vritnin
+6	106	sepse	
+7	107	atje	
+8	108	besoj	beso besohej besohet besoi besoja besoje besoji besojmë besojn besojnë besojë besomë beson besoni besonim besonin besonit besonte besonë besosh besova besove besuam besuan besuar besuat
+9	109	pas	mbas
+10	110	pa	
+11	111	kërkoj	kërko kërkohen kërkohet kërkoi kërkoja kërkoje kërkoji kërkojmë kërkojn kërkojnë kërkoju kërkojë kërkon kërkoni kërkonim kërkonin kërkonit kërkonte kërkonë kërkosh kërkova kërkove kërkuam kërkuan kërkuar kërkuat
+12	112	iki	hiki ik ika ike ikim ikin ikini ikish ikja ikje ikni iknim iknin iknit iksh ikte iku ikur ikura ikë ikëm ikën ikësh ikët
+13	113	tek	
+14	114	kthehem	kthehej kthehemi kthehen ktheheni kthehesh kthehesha ktheheshe ktheheshim ktheheshin ktheheshit kthehet kthehu kthehuni kthyer kthyera
+15	115	disa	disave
+16	116	ja	
+17	117	ndonjë	ndonjëri
+18	118	zotëri	zotni zotri zotëria zotërie zotërin zotërinj zotërinjsh zotërinjtë zotërinjve zotërinë zotërisë zotërit zotëriu zotëriun zotëriut
+19	119	bukur	bukura bukurat bukurin bukurit bukurë bukurën bukër
+20	120	çdo	gjdo qdo xhdo
+21	121	fal	fala falni falur falësh
+22	122	ri	re reja ren rinj
+23	123	asgjë	asgjëja asgjëje
+24	124	ndihmoj	ndihmo ndihmoftë ndihmohen ndihmohet ndihmoi ndihmoja ndihmoje ndihmoji ndihmojmë ndihmojn ndihmojnë ndihmojë ndihmomë ndihmon ndihmoni ndihmonim ndihmonin ndihmonit ndihmonte ndihmonë ndihmosh ndihmova ndihmove ndihmuam ndihmuan ndihmuar ndihmuat nidhmoj nihmoj
+25	125	vajzë	vajza vajzash vajzat vajzave vajze vajzën vajzës vajë
+26	126	jetë	jeta jetat jete jetën jetëra jetërat jetërave jetës jetësh jetët jetëve
+27	127	herë	hera herave here herin herën herës herësh herëve
+28	128	vit	vite vitesh vitet viteve vitevet viti vitin vitit vjetve vjetët
+29	129	ndoshta	nashta noshta
+30	130	vete	vajta vajti vajtur vehte vet veten vetes vetja vija vinte
+31	131	dikush	dika dike dikujt dikë dikën dikës
+32	132	ditë	dita dite ditën ditës ditësh ditët ditëve
+33	133	ashtu	ashty
+34	134	kurrë	kurr
+35	135	tyre	tyne
+36	136	baba	babai babain babait baballarë baballarësh baballarët baballarëve baban babanë
+37	137	pëlqej	pëlqeja pëlqeje pëlqejmë pëlqejn pëlqejnë pëlqejë pëlqeka pëlqen pëlqeni pëlqenim pëlqenin pëlqenit pëlqente pëlqenë pëlqeu pëlqeva pëlqeve pëlqyeka pëlqyen pëlqyer
+38	138	ose	
+39	139	saj	
+40	140	fëmijë	fmi fëmi fëmij fëmija fëmije fëmijën fëmijëri fëmijës fëmijësh fëmijët fëmijëve
+41	141	mundem	mundej mundemi munden mundeni mundesh mundesha mundeshe mundeshim mundeshin mundeshit mundet mundu
+42	142	prej	pej pre
+43	143	deri	teri
+44	144	filloj	fillo fillohet filloi filloja filloje fillojmë fillojn fillojnë fillojë fillon filloni fillonim fillonin fillonit fillonte fillosh fillova fillove filluam filluan filluar filluat
+45	145	ma	
+46	146	atëherë	
+47	147	largoj	largo largofshin largohej largohem largohemi largohen largoheni largohesh largohesha largoheshe largoheshim largoheshin largoheshit largohet largohu largohuni largoi largoja largoje largoji largojmë largojnë largoju largojë largon largoni largonim largonin largonit largonte largova largove larguam larguan larguar larguat
+48	148	njoh	njef njeh njehe njehje njehni njehë njih njihja njihte njof njofa njofta njoftur njoha njohe njohi njohim njohin njohja njohje njohjet njohta njohtur njohu njohur njohë njohëm njohën njohës njohësh njohët
+49	149	rrugë	rruga rruge rrugën rrugës rrugësh rrugët rrugëve
+50	150	le	lëna lënë
+51	151	shok	shoke shoki shoktë shoku shokun shokut shokve shokë shokën shokësh shokët shokëve
+52	152	problem	problema probleme problemesh problemet problemeve problemi problemin problemit problemë
+53	153	dorë	dora dore dorën dorës duar duarsh duart duartë duarve
+54	154	brenda	brënda mbrenda mrenda
+55	155	humb	humba humbas humbasim humbasin humbasni humbasë humbasësh humbe humbet humbi humbim humbin humbiste humbit humbja humbni humbnim humbnin humbnit humbte humbtë humbur humbura humbë humbëm humbën humbës humbësh humbët hup
+56	156	aty	
+57	157	hap	hapa hapat hape hapeni hapet hapi hapim hapin hapja hapkan hapni hapnim hapnin hapnit hapte hapur hapëm hapën hapësh hapët
+58	158	grua	gra grash gratë grave gruaja gruaje gruan gruanë gruas grue
+59	159	jashtë	
+60	160	drejtë	drejta drejtash drejtat drejtave drejte drejti drejtën drejtës
+61	161	sigurt	sigurta sigurtë
+62	162	kaloj	kalo kalofsh kalofshi kalofshit kaloftë kalohen kalohet kaloi kaloja kaloje kaloji kalojmë kalojn kalojnë kalojë kalojën kalon kaloni kalonim kalonin kalonit kalonte kalosh kalova kalove kaluam kaluan kaluat
+63	163	orë	ora ore orën orës orësh orët orëve
+64	164	duhem	dashur duhej duhemi duhen duheni duhesh duhesha duheshe duheshim duheshin duheshit duhur duhura
+65	165	punoj	puno punohet punoi punoja punoje punojmë punojn punojnë punojsh punojë punoka punon punoni punonim punonin punonit punonte punonë punosh punova punove punuake punuam punuan punuar punuat
+66	166	kaq	
+67	167	hajde	hajdeni
+68	168	aq	aqë
+69	169	as	
+70	170	ia	
+71	171	emër	emra emrash emrat emrave emri emrin emrit emën emëri emërin
+72	172	nevojë	nevoja nevojash nevojat nevojave nevoje nevojën nevojës
+73	173	sikur	
+74	174	sjell	sill sillja sillje sillni sillnim sillnin sillnit sillte sjella sjelli sjellim sjellin sjellni sjellshin sjelltë sjellu sjellur sjellë sjellësh sjellët solla solle solli sollëm sollën sollët
+75	175	sot	sod
+76	176	qëndroj	qëndro qëndroi qëndroja qëndroje qëndroji qëndrojmë qëndrojn qëndrojnë qëndrojë qëndron qëndroni qëndronim qëndronin qëndronit qëndronte qëndror qëndrosh qëndrova qëndrove qëndruam qëndruan qëndruar qëndruat
+77	177	makinë	makina makinash makinat makinave makine makinën makinës
+78	178	gati	
+79	179	dëshiroj	dëshiro dëshiroi dëshiroja dëshiroje dëshirojmë dëshirojn dëshirojnë dëshirojë dëshiron dëshironi dëshironim dëshironin dëshironit dëshironte dëshironë dëshirova dëshirove dëshiruam dëshiruan dëshiruar dëshiruat
+80	180	gjithçka	
+81	181	ndaloj	ndalo ndaloftë ndaloi ndaloja ndaloje ndaloji ndalojmë ndalojn ndalojnë ndalojë ndalon ndaloni ndalonim ndalonin ndalonit ndalonte ndalosh ndalova ndalove ndaluam ndaluan ndaluar ndaluat
+82	182	gjatë	ghat gjata gjati
+83	183	vazhdoj	vazhdo vazhdohet vazhdoi vazhdoja vazhdoje vazhdojmë vazhdojn vazhdojnë vazhdojë vazhdon vazhdoni vazhdonim vazhdonin vazhdonit vazhdonte vazhdosh vazhdova vazhdove vazhduam vazhduan vazhduar vazhduat
+84	184	botë	bota botat bote boten botes botet boteve botën botëra botërat botërave botës botët botëve
+85	185	mik	mike mikeje miken mikes miket mikeve miki mikja miku mikun mikut miq miqsh miqtë miqve
+86	186	zemër	zemra zemrash zemrat zemrave zemre zemrën zemrës zëmra zëmrat zëmrave zëmre zëmrën zëmrës zëmër
+87	187	pjesë	pjesa pjese pjesën pjesës pjesësh pjesët pjesëve
+88	188	çka	
+89	189	fjalë	fjala fjale fjalën fjalës fjalësh fjalët fjalëve
+90	190	mënyrë	mynyrë mënyr mënyra mënyrash mënyrat mënyrave mënyre mënyrën mënyrës
+91	191	pastaj	pasandaj pastajë psaj pstaj
+92	192	ulem	ul ula ule ulej ulemi ulen uleni ulesh ulesha uleshe uleshim uleshin ulet uli ulim ulin ulja ulje ulni ulnim ulnin ulnit ulte ultë ulu uluni ulur ulëm ulën
+93	193	asnjë	asnjëri
+94	194	thjesht	
+95	195	bie	biem bien biesh bije bini binim binin binit binte bjer bjerë prumë prunë prure pruri prurë ra rama ramin ramë ramën ranë rashë rëntë rënë
+96	196	natë	nata nate natën natës net netë netësh netët netëve
+97	197	vogël	vegjël vogla voglat voglën vogëla
+98	198	akoma	
+99	199	vërtet	
+100	200	burrë	burr burra burrash burrat burrave burri burrin burrit burro

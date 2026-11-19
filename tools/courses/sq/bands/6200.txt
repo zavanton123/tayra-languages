@@ -1,0 +1,100 @@
+1	6101	mriz	mrizi
+2	6102	bulmet	
+3	6103	integral	
+4	6104	meshar	meshari mesharin mesharit
+5	6105	qukë	quka qukat
+6	6106	lushë	lusha lushën lushës
+7	6107	molis	molise molisja molisje molisur
+8	6108	qenësishëm	
+9	6109	caf	cafi cafit
+10	6110	kërrabë	krrabë
+11	6111	anadollak	anadollake anadollakë
+12	6112	bleron	
+13	6113	xhubletë	xhubleta xhubletës
+14	6114	ujëmatës	ujëmatësin ujëmatësit ujëmatësve
+15	6115	belot	beloti belotin belotit
+16	6116	kallauz	kallauzi
+17	6117	shemë	shema sheme
+18	6118	ofiq	ofiqe ofiqet
+19	6119	zgrip	
+20	6120	përkorë	
+21	6121	xhemat	
+22	6122	gugash	gugashi
+23	6123	vuno	vunoi
+24	6124	pukjan	pukjanë pukjanët
+25	6125	hyzmet	hyzmetin
+26	6126	byrektore	byrektoren byrektores byrektoret byrektoreve
+27	6127	zyshë	zysha
+28	6128	peqinas	peqinasi peqinasit peqinasve
+29	6129	qitet	qitur
+30	6130	makutëri	makutëria makutërinë
+31	6131	vorr	vorret vorri
+32	6132	dëllinjë	dëllinja dëllinje dëllinjën dëllinjës
+33	6133	antisemitik	antisemitike
+34	6134	rraboshtë	rraboshta
+35	6135	sukë	suka suke sukës
+36	6136	fshatarësi	fshatarësia fshatarësinë
+37	6137	beden	bedena bedenat bedenave bedeni bedenit
+38	6138	anakronik	anakronike
+39	6139	qerthull	qerthuj qerthulli
+40	6140	bjerrje	bjerrja bjerrjen bjerrjes
+41	6141	çapje	çapja çapjen çapjes
+42	6142	arbërisht	
+43	6143	kombëtarisht	
+44	6144	imt	
+45	6145	burrneshë	burrnesha burrneshave
+46	6146	besëtytni	besëtytnia besëtytnitë besëtytnive
+47	6147	afinitet	afinitetin
+48	6148	trumzë	trumza
+49	6149	arsimtare	
+50	6150	bardhec	bardheci
+51	6151	virologji	virologjinë
+52	6152	qenësi	qenësia qenësinë qenësisë
+53	6153	cirrozë	cirroza cirrozës
+54	6154	nasip	nasipi
+55	6155	krajl	krajli kral
+56	6156	vepror	veprore
+57	6157	mokër	mokrës
+58	6158	konformizëm	konformizmi konformizmin
+59	6159	letërkëmbim	
+60	6160	vlug	vlugun
+61	6161	ashk	
+62	6162	prore	
+63	6163	aferim	
+64	6164	murrë	murra
+65	6165	mëmësi	mëmësia mëmësinë
+66	6166	prapashtesë	prapashtesa prapashtesave prapashtesën
+67	6167	zbyth	zbythi zbythja zbythje zbythën
+68	6168	aksham	akshamit
+69	6169	capje	capja capjen
+70	6170	shkabë	shkaba shkabën shkabës
+71	6171	selit	selita selite selitur
+72	6172	bjeshkatar	bjeshkatare bjeshkatarët bjeshkatarëve
+73	6173	buxhak	buxhaku
+74	6174	capoj	capo
+75	6175	shap	shapi shapin
+76	6176	bareshë	baresha
+77	6177	gazep	gazepi
+78	6178	thartor	thartori
+79	6179	sharkë	sharka
+80	6180	beogradas	beogradasit
+81	6181	nëm	nëma nëmur
+82	6182	gjoc	gjoci gjocit
+83	6183	përsiat	përsiatje përsiatur
+84	6184	përdhunë	përdhuna
+85	6185	parahistori	parahistoria parahistorinë
+86	6186	zëvendësueshëm	
+87	6187	luloj	lulo
+88	6188	turtull	turtulli
+89	6189	arkipelag	
+90	6190	matkë	
+91	6191	rrokë	rroka rroke rrokën
+92	6192	xehe	xehes
+93	6193	gegërishte	gegërishten gegërishtja
+94	6194	gajtan	gajtani
+95	6195	sharki	sharkia
+96	6196	militarizim	militarizimi militarizimin
+97	6197	njëzetedy	
+98	6198	arnaut	
+99	6199	tepe	
+100	6200	ciu	

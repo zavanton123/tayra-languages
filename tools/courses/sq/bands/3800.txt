@@ -1,0 +1,100 @@
+1	3701	kënetë	këneta kënetash kënetat kënetave kënete kënetën kënetës
+2	3702	rrjesht	rrjeshta rrjeshtat rrjeshti
+3	3703	servis	servise serviset serviseve servisi servisin servisit
+4	3704	artar	artan
+5	3705	kolaps	kolapsi kolapsin
+6	3706	vërtit	vërtita vërtite vërtitet vërtiti vërtitje vërtitur
+7	3707	morr	morrat morrave morrin
+8	3708	bazen	bazenin
+9	3709	odë	oda odash odat odave odën odës
+10	3710	biografi	biografinë
+11	3711	kokosh	kokoshi kokoshka
+12	3712	ferrë	ferra ferrash ferrat ferrave ferre ferrën ferrës
+13	3713	rruazë	rruaza rruazat rruazave rruaze
+14	3714	jaguar	jaguari jaguarin jaguarit
+15	3715	çekan	çekani çekanin çekanit çekanë çekanëve
+16	3716	vyer	vyera
+17	3717	mensë	mensa mensat mensave mense mensën mensës
+18	3718	dëngla	
+19	3719	therrë	therr therra therrat
+20	3720	mërgim	mërgimi mërgimin mërgimit
+21	3721	fundërrinë	fundërrina
+22	3722	manaferrë	manaferra manaferrash manaferrat manaferrave manaferre
+23	3723	higjienë	higjiena higjienën higjienës
+24	3724	administrim	administrimi administrimin
+25	3725	bujk	bujku bujq bujqish bujqit bujqve
+26	3726	domosdoshmëri	domosdoshmëria domosdoshmërie domosdoshmërinë domosdoshmërish domosdoshmërisë domosdoshmëritë
+27	3727	huazim	huazime huazimesh huazimet huazimeve huazimi huazimin huazimit
+28	3728	këshillim	këshillime këshillimet këshillimeve këshillimi këshillimin këshillimit
+29	3729	mez	meze mezet mezeve mezit
+30	3730	ndarës	ndarëse ndarësi ndarësin ndarësit ndarësve
+31	3731	hartim	hartime hartimet hartimeve hartimi hartimin hartimit
+32	3732	thek	thekur
+33	3733	koll	kolli kollin kollit kolë
+34	3734	trishtoj	trishto trishtoi trishtojnë trishton trishtoni trishtonte trishtova trishtuam trishtuan trishtuar
+35	3735	zabel	zabeli zabelin zabelit
+36	3736	epërm	epërme
+37	3737	kameraman	kameramani kameramanë
+38	3738	parashikues	parashikuese parashikuesi parashikuesin parashikuesit parashikuesja
+39	3739	kone	koner
+40	3740	imam	imami imamin imamit imamë imamët imamëve
+41	3741	berber	berberit
+42	3742	adoptohem	adopto adoptohej adoptohen adoptoheni adoptohesh adoptohesha adoptohet adoptoi adoptoja adoptojmë adoptojnë adopton adoptoni adoptonin adoptonte adoptova adoptuan adoptuar
+43	3743	vëllim	vëllime vëllimesh vëllimet vëllimeve vëllimi vëllimin vëllimit
+44	3744	këst	këste këstet kësteve kësti këstin këstit
+45	3745	tjerr	tirrja tjerrin tjerrë tora torra torre torrën
+46	3746	braktisem	braktisej braktisemi braktisen braktiseni braktisesh braktiseshin braktiset braktisur
+47	3747	fokë	foka fokat fokave foke fokën fokës
+48	3748	instruksion	instruksione instruksionesh instruksionet instruksioneve instruksioni instruksionit
+49	3749	pikoj	piko pikoi pikojnë pikojë pikon pikonin pikonte pikove pikuar
+50	3750	eshtra	
+51	3751	pakujdesshëm	
+52	3752	spikat	spikati spikatin spikatur spikatën
+53	3753	eshtër	eshtrash eshtrat eshtrave eshtre eshtrën eshtërat
+54	3754	domosdoshmërisht	
+55	3755	ndalje	ndalja ndaljen ndaljes
+56	3756	atletik	atletike atletiks
+57	3757	buf	bufi bufin bufit bufët bufëve
+58	3758	pupël	pupla puplash puplat puplave
+59	3759	thembër	thembra thembrat thembrave thembrën thembrës
+60	3760	ardian	ardiani ardianin
+61	3761	mollaqe	mollaqet
+62	3762	alumin	alumini aluminin aluminit
+63	3763	fantazoj	fantazoja fantazojmë fantazojnë fantazon fantazoni fantazonim fantazonte fantazova fantazove fantazuar
+64	3764	fisnikëri	fisnikëria fisnikërie fisnikërinë fisnikërisë
+65	3765	vile	viler vileri vilet
+66	3766	pjellë	pjella pjellat pjelle pjellën
+67	3767	sobë	soba sobat sobe sobën sobës
+68	3768	thithkë	thithka thithkash thithkat thithke thithkën thithkës
+69	3769	racizëm	racizmi racizmin
+70	3770	shfryj	shfry shfryhesh shfryhu shfryrë çfryj
+71	3771	bashkëbisedim	bashkëbisedime bashkëbisedimet bashkëbisedimeve bashkëbisedimi bashkëbisedimin bashkëbisedimit
+72	3772	tytë	tyta tytat tytave tyte tytën tytës
+73	3773	bjerr	birr bjerrë bora bore borën
+74	3774	cal	cali calin calit
+75	3775	anarki	anarkia anarkie anarkinë anarkisë anarkive
+76	3776	shkurtabiq	shkurtabiqe shkurtabiqi shkurtabiqin shkurtabiqë
+77	3777	zuskë	zuska zuskash zuskat zuske zuskën
+78	3778	pilë	pila pilat pilave pile
+79	3779	gjeografik	gjeografike gjeografikë
+80	3780	befas	
+81	3781	luaneshë	luanesha luaneshat luaneshave luaneshe luaneshën luaneshës
+82	3782	teshë	teshat teshave teshe
+83	3783	kurorëzoj	kurorëzo kurorëzohet kurorëzoi kurorëzoja kurorëzoje kurorëzojmë kurorëzojnë kurorëzon kurorëzoni kurorëzonin kurorëzuam kurorëzuan kurorëzuar
+84	3784	klith	klitha klithi klithin klithja klithje klithmë klithni klithnin klithte klithur
+85	3785	kazan	kazani
+86	3786	majm	majme majmur
+87	3787	avulloj	avulloi avulloje avullojmë avullojnë avullon avulloni avullove avulluan avulluar
+88	3788	gunë	gun guna gunat gunave gunën
+89	3789	dyshues	dyshuese
+90	3790	incizim	incizime incizimet incizimeve incizimi incizimin incizimit
+91	3791	ndjell	ndill ndillnim ndillnin ndillte ndjellin ndjellshim ndjellë ndolle ndolli
+92	3792	burrëri	burrëria burrërie burrërinë burrërisë
+93	3793	ngjalë	ngjala ngjalash ngjalat ngjalave ngjale ngjalën ngjalës
+94	3794	tatëpjetë	tatëpjeta tatëpjetën
+95	3795	qift	qifte qiftet qifti
+96	3796	shalqi	shalqinj shalqinjtë shalqiri shalqirin shalqirit
+97	3797	skeptik	skeptiku skeptikë skeptikët skeptikëve
+98	3798	afërditë	afërdita afërditën afërditës
+99	3799	përdhos	përdhosa përdhose përdhosi përdhosin përdhosja përdhosje përdhosur përdhosën përdhosët
+100	3800	tut	tuta tute tutin tutte tutën

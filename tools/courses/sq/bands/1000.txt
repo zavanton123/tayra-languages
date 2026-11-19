@@ -1,0 +1,100 @@
+1	901	udhëtoj	udhëto udhëtoi udhëtoja udhëtoje udhëtojmë udhëtojnë udhëtojë udhëton udhëtoni udhëtonim udhëtonin udhëtonit udhëtonte udhëtova udhëtove udhëtuam udhëtuan udhëtuar udhëtuat
+2	902	video	videoja videon videos videosh videot videove
+3	903	jug	jugu jugun jugut
+4	904	skenë	skena skenat skenave skeni skenën skenës
+5	905	guxoj	guxoi guxoja guxoje guxojmë guxojn guxojnë guxojë guxon guxoni guxonin guxonte guxonë guxova guxove guxuar
+6	906	qetësi	qetësia qetësie qetësinë qetësisë
+7	907	unazë	unaza unazash unazat unazave unaze unazën unazës
+8	908	perëndi	perendi perëndia perëndie perëndinë perëndisë perënditë perëndive
+9	909	mbath	mbatha mbathe mbathi mbathim mbathin mbathja mbathje mbathjet mbathjeve mbathka mbathni mbathnim mbathnin mbathte mbathur mbathë mbathëm mbathën mbathësh mbathët
+10	910	pyll	pyje pyjesh pyjet pyjeve pylli pyllin pyllit pyllë
+11	911	drejtësi	drejtësia drejtësie drejtësinë drejtësisë
+12	912	fik	fika fike fiki fikim fikin fikja fikje fikni fiknin fikte fiktë fiku fikun fikur fikut fikëm fikën fikët fiq fiqtë fiqve
+13	913	lumë	luma lume lumenj lumenjsh lumenjtë lumenjve lumi lumin lumit lumën
+14	914	majtë	majta majte majtën majtës shmajt
+15	915	përdorim	përdorime përdorimesh përdorimet përdorimeve përdorimi përdorimin përdorimit
+16	916	interes	interesa interesash interesat interesave interesi interesim interesin interesit
+17	917	tetë	
+18	918	ndesh	ndesha ndeshe ndeshem ndeshesh ndeshet ndeshi ndeshim ndeshin ndeshja ndeshni ndeshnim ndeshnin ndeshte ndeshu ndeshur ndeshëm ndeshën ndeshësh ndeshët
+19	919	banjë	banja banjat banjo banjën banjës
+20	920	njerëzor	njerëzore njerëzorë
+21	921	treg	tregje tregjesh tregjet tregjeve tregu tregun tregut tregë
+22	922	ushtarak	ushtarake ushtaraku ushtarakë ushtarakët
+23	923	fluturim	fluturime fluturimet fluturimeve fluturimi fluturimin fluturimit
+24	924	zhurmë	zhurma zhurmash zhurmat zhurmave zhurme zhurmën zhurmës
+25	925	kontakt	kontakte kontaktet kontakti kontaktin kontaktit
+26	926	lule	luleje lulen lules lulesh lulet luleve lulja
+27	927	dokument	dokumenta dokumentat dokumentave dokumente dokumentet dokumenteve dokumenti dokumentin
+28	928	shembull	shembuj shembujsh shembujt shembujve shembulli shembullin shembullit
+29	929	kamion	kamiona kamionat kamionet kamioni kamionin kamionit kamionë kamionët kamionëve
+30	930	kurse	
+31	931	dhemb	dhembe dhembi dhembim dhembin dhembja dhembka dhembnin dhembte dhembtë dhembur dhembët
+32	932	bllokoj	blloko bllokohen bllokohet bllokoi bllokoja bllokoje bllokojmë bllokojn bllokojnë bllokojë bllokon bllokoni bllokonte bllokova bllokove bllokuam bllokuan bllokuar
+33	933	motor	moton motora motorat motorave motori motorin motorit motorr motorra motorrat motorri motorrin motorrit motors motorë motorësh motorët motorëve
+34	934	zakonisht	
+35	935	shpif	shpifa shpife shpifi shpifim shpifin shpifja shpifje shpifka shpifni shpifnin shpifte shpifur shpifë shpifën shpifët
+36	936	shi	shira shirash shirat shirave shiu shiun shiut
+37	937	kombëtar	kombëtare kombëtaret kombëtarë
+38	938	refuzoj	refuzo refuzohet refuzoi refuzoja refuzoje refuzojmë refuzojnë refuzojë refuzon refuzoni refuzonim refuzonin refuzonit refuzonte refuzova refuzove refuzuam refuzuan refuzuar refuzuat
+39	939	dështoj	dështo dështoi dështoja dështoje dështojmë dështojnë dështojë dështon dështoni dështonim dështonin dështonte dështova dështove dështuam dështuan dështuar dështuat
+40	940	drekë	dreka drekash drekat drekave dreke drekën drekës
+41	941	mace	mac maca macat macave maceje macen maces macesh macet maceve macja macë macën macës maçe
+42	942	llogari	llogaria llogarie llogarin llogarinë llogarish llogaritë llogarive
+43	943	kostum	kostume kostumet kostumeve kostumi kostumin kostumit
+44	944	komandant	komandanti komandantin komandantit komandantja komandantë komandantësh komandantët komandantëve
+45	945	aftësi	aftësia aftësie aftësija aftësinë aftësish aftësisë aftësit aftësitë aftësive
+46	946	plotësisht	
+47	947	këpucë	këpuc këpuca këpucat këpuce këpucën këpucës këpucësh këpucët këpucëve puc
+48	948	dyshuar	dyshuara dyshuari dyshuarin dyshuarish dyshuarit dyshuarve
+49	949	falënderoj	falenderoj falëndero falënderohem falënderoja falënderoje falënderojmë falënderojë falënderon falënderuar
+50	950	gjurmë	gjurm gjurma gjurme gjurmën gjurmës gjurmësh gjurmët gjurmëve
+51	951	vrimë	vrima vrimat vrimave vrime vrimën vrimës
+52	952	kompjuter	kompjutera kompjuterash kompjuterat kompjuterave kompjuteri kompjuterin kompjuterit kompjuterë kompjuterët kompjuterëve kompjutër
+53	953	andej	anej
+54	954	rritje	rritja rritjeje rritjen rritjes rritjet rritjeve
+55	955	aeroplan	aeroplana aeroplanet aeroplaneve aeroplani aeroplanin aeroplanit aeroplanë aeroplanësh aeroplanët aeroplanëve aro
+56	956	profesor	profesore profesori profesorin profesorit profesorë profesorësh profesorët profesorëve
+57	957	secili	secilin
+58	958	biletë	bileta biletash biletat biletave bilete biletën biletës
+59	959	deklaroj	deklaro deklarohesh deklarohet deklaroi deklaroja deklaroje deklarojmë deklarojnë deklarojë deklaron deklaroni deklaronin deklaronte deklarova deklarove deklaruam deklaruan deklaruar deklaruat
+60	960	ngroh	ngroha ngrohe ngrohem ngrohesh ngrohet ngrohi ngrohim ngrohin ngrohja ngrohje ngrohni ngrohnin ngroht ngrohta ngrohte ngrohtë ngrohu ngrohur ngrohë ngrohëm ngrohën ngrohës ngrohët
+61	961	magji	magjia magjie magjija magjin magjinë magjish magjisë magjitë magjive
+62	962	gotë	got gota gotash gotat gotave gote gotën gotës
+63	963	hetim	hetime hetimesh hetimet hetimeve hetimi hetimin hetimit
+64	964	pengoj	pengo pengohen pengohet pengoi pengoja pengoje pengojmë pengojnë pengojë pengon pengoni pengonim pengonin pengonte pengova pengove penguam penguan penguar
+65	965	ari	arinj arinjsh arinjtë arinjve ariu ariun ariut
+66	966	ndyj	ndyrë ndytë
+67	967	dalje	dalja daljeje daljen daljes daljet daljeve
+68	968	kamë	kama kamat kamave kamën kamës
+69	969	akull	akuj akujt akujve akulli akullin akullit akullt akullë akëll
+70	970	privat	private privatë
+71	971	përbindësh	përbindësha përbindëshash përbindëshat përbindëshave përbindëshe përbindëshi përbindëshin përbindëshit përbindëshët
+72	972	turp	turpe turpet turpi turpin turpit
+73	973	tri	
+74	974	objektiv	objektiva objektivat objektive objektivi objektivin objektivit objektivë objektivët
+75	975	rreshter	rreshteri rreshterin rreshterit rreshterë rreshterët
+76	976	mbështet	mbështes mbështeta mbështete mbështetem mbështetesh mbështetet mbështeti mbështetim mbështetin mbështetja mbështetni mbështetnim mbështetnin mbështetu mbështetur mbështetë mbështetëm mbështetën mbështetës mbështetësh mbështetët
+77	977	falë	
+78	978	dyshoj	dysho dyshohej dyshohet dyshoi dyshoja dyshoje dyshojmë dyshojnë dyshojë dyshon dyshoni dyshonim dyshonin dyshonit dyshonte dyshova dyshuan dyshuat
+79	979	trajtoj	trajto trajtohen trajtoheni trajtohesh trajtohet trajtoi trajtoja trajtoje trajtojmë trajtojnë trajtojë trajton trajtoni trajtonim trajtonin trajtonit trajtonte trajtova trajtove trajtuam trajtuan trajtuar trajtuat
+80	980	burgos	burgosa burgose burgosesh burgoset burgosi burgosim burgosin burgosja burgosje burgosni burgoste burgosur burgosurit burgosëm burgosën
+81	981	përgjegjësi	përgjegjësia përgjegjësie përgjegjësinë përgjegjësish përgjegjësisë përgjegjësitë përgjegjësive
+82	982	radio	radioja radioje radion radios radiot
+83	983	diskutoj	diskuto diskutohet diskutoja diskutojmë diskutojnë diskutojë diskuton diskutoni diskutonim diskutuam diskutuan diskutuar
+84	984	djathtë	djatht djathta djathtën
+85	985	sjellje	sjellja sjelljeje sjelljen sjelljes sjelljesh sjelljet sjelljeve
+86	986	sotëm	sotme
+87	987	dosje	dosja dosjen dosjes dosjet dosjeve
+88	988	student	studentat studente studenti studentin studentja studentë studentët studentëve
+89	989	rrëzoj	rrëzo rrëzohej rrëzohem rrëzohemi rrëzohen rrëzoheni rrëzohesh rrëzohet rrëzoi rrëzoja rrëzoje rrëzojmë rrëzojnë rrëzojë rrëzon rrëzoni rrëzonim rrëzonin rrëzonit rrëzonte rrëzova rrëzove rrëzuam rrëzuan rrëzuar rrëzuat
+90	990	shpërthej	shpërthe shpërtheja shpërthejmë shpërthejnë shpërthejë shpërthen shpërtheni shpërthenin shpërthente shpërtheu shpërtheva shpërthyem shpërthyen shpërthyer
+91	991	dorëzohem	dorëzohej dorëzohemi dorëzohen dorëzoheni dorëzohesh dorëzohesha dorëzoheshe dorëzoheshim dorëzoheshin dorëzohet dorëzohu dorëzohuni dorëzova dorëzuar
+92	992	rrjet	rrjete rrjetesh rrjetet rrjeteve rrjeti rrjetin rrjetit
+93	993	kinez	kineze kinezi kinezin kinezit kinezë kinezësh kinezët kinezëve
+94	994	mur	muret muri
+95	995	hundë	hunda hunde hundën hundës hundësh hundët hundëve
+96	996	apartament	apartamente apartamentesh apartamentet apartamenteve apartamenti apartamentin apartamentit
+97	997	dorëzoj	dorëzo dorëzoi dorëzoja dorëzoje dorëzojmë dorëzojnë dorëzojë dorëzon dorëzoni dorëzonim dorëzonin dorëzonit dorëzonte dorëzova dorëzove dorëzuam dorëzuan dorëzuar dorëzuat
+98	998	mashtroj	mashtro mashtrohem mashtrohen mashtrohesh mashtrohet mashtroi mashtroja mashtroje mashtrojmë mashtrojnë mashtrojë mashtron mashtroni mashtronim mashtronin mashtronte mashtrova mashtrove mashtruam mashtruan mashtruar mashtruat
+99	999	pasuri	pasuria pasurie pasurin pasurinë pasurisë pasurit pasuritë pasurive
+100	1000	mësues	mësuesi mësuesin mësuesit mësuesve

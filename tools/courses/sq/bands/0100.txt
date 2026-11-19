@@ -1,0 +1,100 @@
+1	1	të	t
+2	2	e	
+3	3	jam	ish isha ishe ishim ishin ishit ishte jan janë je jem jemi jeni jenë jesh jetë ji jini jom qe qenka qenkam qenkan qenke qenkemi qenkeni qenë qenësh qenëve qeshë qeshësh qofsh qofsha qofshi qofshin qofshit qoftë qënë është
+4	4	kam	ka kanë kau ke kem kemi keni kenë kesh ketë ki kini kisha kishe kishim kishin kishit kishte paska paskam paskan paske paskemi paskeni pastë pasur pat pata pate pati patur patëm patën patët paç paça paçi paçim paçit
+5	5	dua	dashka dashkam dashkan dashke dashta dashtë dashur dashura daç daçi desh desha deshe deshi deshëm deshën deshët do doja doje dojë don doni donim donin donit donte donë du duam duan duash duashe due
+6	6	në	nê ën
+7	7	nuk	nuku s
+8	8	i	
+9	9	më	m mbë mâ
+10	10	një	nja nje nji njo njëra njëri njërin njërën
+11	11	që	qi çe
+12	12	dhe	dhera dherash dherave dhet dheu dheun dheut
+13	13	për	
+14	14	po	
+15	15	ky	kjo kësaj këta këtij këto këtyre këtë qo qy
+16	16	me	mee
+17	17	ai	ata atij ato atyne atyre atë to
+18	18	unë	meje mu mua un una une uno
+19	19	se	
+20	20	ti	teje ty
+21	21	bëj	ba bej bo bon bë bëfsh bëfshi bëftë bëhemi bëhen bëheni bëhesh bëhesha bëheshe bëheshin bëhet bëhu bëhuni bëja bëje bëji bëjmë bëjnë bëjë bëmat bëmë bën bëni bënim bënin bënit bënte bënë bëra bëre bëri bërë bësh bëtë
+22	22	ta	
+23	23	ne	na nesh neve
+24	24	çfarë	ç çfar
+25	25	jo	
+26	26	them	tha thamë thane thanë thashë thata thatë the theme themi themë thesha theshe thoi thoja thoje thoni thonj thonjtë thonjve thonë thosha thoshe thoshim thoshin thoshit thoshte thotë thua thuai thuaj thuaja thuaje thuaji thuaju thuani thuash thuhet thënë
+27	27	mirë	mir mira mirat mirave miri mirën mirës mirët mirëve
+28	28	nga	
+29	29	mund	muej muj munda munde mundi mundin mundja mundni mundnim mundnin mundnit mundsh mundte mundtë mundë mundëm mundën mundës mundësh mundët
+30	30	di	dihej dihen diheshin dihet dij dija dije dijen dijeni dijes dijmë dijë dimë din dini dinim dinin dinit dinte dinë dish dita dite diti ditka ditkam ditkan ditke ditkeni ditshi ditshin ditur ditëm ditën ditët diu
+31	31	te	
+32	32	si	
+33	33	ju	jua jush juve
+34	34	im	ima ime imi imin imja imët mi mia miat mija sime simes tim time timen timin timit
+35	35	shumë	shum shuma shumash shumat shumave shume shumti shumën shumës
+36	36	duhet	duhete duhett duhetta duhettë duhetë
+37	37	por	
+38	38	vij	ardhka ardhke ardhsh ardhshim ardhtë ardhur ardhura ardhë eja ejani erdha erdhe erdhi erdhëm erdhën erdhët vi vija vije vijmë vijnë vijë vini vinim vinin vinit vinj vinte vish vjen
+39	39	shkoj	shko shkofsh shkofshi shkofshin shkoftë shkohet shkoi shkoja shkoje shkoji shkojmë shkojn shkojnë shkojsh shkojë shkoka shkomë shkon shkoni shkonim shkonin shkonit shkonte shkonë shkosh shkova shkove shkuam shkuan shkuar shkuara shkuarja shkuarje shkuarën shkuarës shkuat
+40	40	këtu	
+41	41	marr	marra marrim marrin marrit marrja marrje marrka marrni marrsh marrsha marrshim marrshin marrt marrtë marru marrë marrësh marrët merr merre merri merrja merrje merrni merrnim merrnin merrnit merrte mora mori morra morre morri morrëm morrën morrët morëm morën morët
+42	42	u	
+43	43	yt	jot jote jotja sat sate tu tua tuat tue tënd tënde tënden tëndin tëndit tët yte yti
+44	44	ajo	asaj
+45	45	mendoj	mendo mendohej mendohem mendohemi mendohen mendoheni mendohesh mendohesha mendohet mendohu mendohuni mendoi mendoja mendoje mendoji mendojmë mendojn mendojnë mendojsh mendojë mendon mendoni mendonim mendonin mendonit mendonte mendonë mendosh mendova mendove menduam menduan menduar menduat mëndoj
+46	46	tani	tash tashi tashti
+47	47	gjithë	gjith gjitha gjithash gjithat gjithave gjithin gjithëve
+48	48	mos	
+49	49	a	
+50	50	vetëm	vetme vetëmi
+51	51	nëse	nase nose
+52	52	gjë	gja gjo gjâ gjê gjëja gjëje gjënë gjëra gjërash gjërat gjërave gjësë
+53	53	edhe	
+54	54	ku	kuh kun
+55	55	kur	
+56	56	njeri	njer njeriu njeriun njeriut njerëz njerëzish njerëzit njerëzve njerí
+57	57	tjetër	tetër tjatrë tjatër tjer tjera tjerat tjerë tjerët tjerëve tjeter tjetra tjetre tjetri tjetrin tjetrit tjetrën tjetrës tjetëri tjetërin tjetërtë
+58	58	shoh	pafshim pake pamë panë pasha pashë pe penjtë peri perin perit sheh shehu shehun shehut shehë shih shihe shihej shihem shihemi shihen shiheni shihesh shihet shihja shihje shihni shihnim shihnin shihnit shihte shiva shof shohi shohim shohin shohë shohësh
+59	59	rregull	rregulla rregullash rregullat rregullave rregulle rregulli rregullim rregullin rregullit rregulltë rregullën
+60	60	shikoj	shiko shikohej shikohem shikohemi shikohen shikoheni shikohesh shikohesha shikoheshe shikoheshin shikohet shikohu shikohuni shikoi shikoja shikoje shikojeni shikoji shikojmë shikojn shikojnë shikojë shikomë shikon shikoni shikonim shikonin shikonit shikonte shikonë shikosh shikova shikove shikuam shikuan shikuar shikuat
+61	61	duke	ty
+62	62	sa	
+63	63	jap	ap dha dhamë dhan dhanë dhashë dhon dhënash dhënave dhëni dhëntë dhënçin dhënë ep japim japin japë japësh jep jepet jepi jepini jepja jepje jepni jepnim jepnin jepnit jepte tosk
+64	64	pse	ce
+65	65	kohë	koha kohe kohën kohëra kohërat kohërave kohës kohësh kohët kohëve
+66	66	parë	parash pari parën parës parët parëve
+67	67	pres	prefsh preftë preka preke prekemi prekeni premë prerë presi presim presin presish presje presni press presësh pret pretë preu preva preve priftë prisja prisje prisni prisnim prisnin prisnit priste prit prita prite priti pritja pritni pritshim pritur pritën pritët
+68	68	tij	
+69	69	keq	keqe keqja këqij këqija këqinj
+70	70	para	paraja paranë parasë parat paratë parave
+71	71	pak	paka pake paki pakte paktë paktën paku pakë pakën pakës pakët
+72	72	ndodh	ndodha ndodhe ndodhem ndodhesh ndodhet ndodhi ndodhia ndodhie ndodhim ndodhin ndodhinë ndodhisë ndodhitë ndodhive ndodhja ndodhje ndodhka ndodhnin ndodhta ndodhte ndodhtë ndodhur ndodhë ndodhëm ndodhën ndodhët
+73	73	apo	
+74	74	gjej	gjeja gjeje gjejeni gjeji gjejmë gjejn gjejnë gjejsh gjejë gjen gjeni gjenim gjenin gjenit gjenitë gjeniu gjeniun gjente gjesh gjeshe gjeshë gjeta gjete gjeti gjetur gjetëm gjetën gjetët
+75	75	flas	flasi flasim flasin flasë flasësh flet flisja flisje flisni flisnim flisnin flisnit fliste flitej fliten flitet fol fola foli folka folke folsha folur folëm folën folët
+76	76	zot	zotat zoti zotin zotit zotë zotër zotërat zotërinj zotërinjsh zotërinjtë zotërinjve zotërve zotët zotëve
+77	77	kush	kuj kujt kë
+78	78	dreq	dreqe dreqi dreqin dreqit dreqë dreqër dreqërish dreqërit
+79	79	së	
+80	80	dukem	dok duk duka dukej dukemi duken dukeni dukesh dukesha dukeshe dukeshim dukeshin dukeshit duket dukja dukni duksh dukte duku dukuni dukur dukëm dukën dukësh dukëshe dukët
+81	81	juaj	juaja juaji suaj tuaj tuaja tuajat tuajave tuajin tuajit tuajt tuajve tuajën
+82	82	dëgjoj	dëgjo dëgjofshim dëgjoftë dëgjohej dëgjohem dëgjohemi dëgjohen dëgjohesh dëgjoheshin dëgjohet dëgjoi dëgjoja dëgjoje dëgjoji dëgjojmë dëgjojn dëgjojnë dëgjojë dëgjomë dëgjon dëgjoni dëgjonim dëgjonin dëgjonit dëgjonte dëgjonë dëgjosh dëgjova dëgjove dëgjuam dëgjuan dëgjuar dëgjuat ndëgjoj
+83	83	dy	dyja dyve
+84	84	diçka	
+85	85	faleminderit	falemnderit flm
+86	86	punë	puna pune punën punës punësh punët punëve
+87	87	vend	ven vende vendesh vendet vendeve vendi vendin vendit vendë vënd vënde vëndet vëndi vëndin vëndit
+88	88	ynë	jona jonë onë sonë tanë tanët tanëve tona tonat tonin tonit tonë tonën yni
+89	89	cili	cila cilat cilave cilin cilit cilja cilla cilli cilën cilës cilët cilëve silla çela çeli çili
+90	90	vdes	des vdeksh vdeksha vdekshin vdekun vdekur vdekura vdekuri vdekurin vdekurit vdekurve vdesi vdesim vdesin vdesni vdesë vdesësh vdiq vdiqa vdiqe vdiqi vdiqëm vdiqën vdiqët vdis vdisja vdisje vdisni vdisnim vdisnin vdisnit vdiste
+91	91	lutem	lutej lutemi luten luteni lutesh lutesha luteshe luteshim luteshin luteshit lutet lutu lutuni lutur
+92	92	fund	fun funde fundesh fundet fundeve fundi fundin fundit fundja fundë
+93	93	djalë	djali djalin djalit djem djema djemsh djemtë djemve
+94	94	kuptoj	kupto kuptohej kuptohemi kuptohen kuptohet kuptoi kuptoja kuptoje kuptojmë kuptojn kuptojnë kuptojë kupton kuptoni kuptonim kuptonin kuptonit kuptonte kuptonë kuptosh kuptova kuptove kuptuake kuptuam kuptuan kuptuar kuptuat
+95	95	vërtetë	vërteta vërtetat vërteti vërtetën vërtetës
+96	96	lë	la lamë lanë lashë leni lera lere leri lerë lerëni lerës lihej lihen lihesh liheshin lihet lija lije lini linim linin linit linte loj lëmenjve lëmi lëmin lëmit lëmë lëna lëni lënë lër lëre lëreni lëri lërmë lërë lësh
+97	97	mbaj	mbaja mbaje mbajeni mbaji mbajmë mbajn mbajnë mbajsh mbajt mbajta mbajte mbajti mbajtka mbajtke mbajtshin mbajtur mbajtë mbajtëm mbajtën mbajtët mbaju mbajë mbake mban mbani mbanim mbanin mbanit mbante mbanë mbash paj
+98	98	madh	madhe madhi madhin madhit madhja math mëdha mëdhenj
+99	99	dal	dala dalat dale daleni dalim dalin dalë dalën dalës dalësh del dil dilja dilni dilte dola dole doli dolëm dolën
+100	100	hej	

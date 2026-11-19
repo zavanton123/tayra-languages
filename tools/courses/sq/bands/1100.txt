@@ -1,0 +1,100 @@
+1	1001	lamtumirë	lamtumir lamtumira lamtumirat lamtumire lamtumirën lamtumirës lamtumirët
+2	1002	shpejtësi	shpejtësia shpejtësie shpejtësin shpejtësinë shpejtësisë shpejtësitë shpejtësive
+3	1003	shenjtë	shejt shenjt shenjta shenjti
+4	1004	plagos	plagosa plagose plagosesh plagoset plagosi plagosin plagosja plagosje plagosur plagosë plagosën
+5	1005	kujtim	kujtime kujtimesh kujtimet kujtimeve kujtimi kujtimin kujtimit
+6	1006	krevat	krevate krevatesh krevatet krevateve krevati krevatin krevatit krevatë
+7	1007	mezi	mëzi
+8	1008	tërhiqem	tërhiqej tërhiqemi tërhiqen tërhiqeni tërhiqesh tërhiqeshim tërhiqeshin tërhiqet tërhiqu tërhiquni
+9	1009	gjykatë	gjykat gjykata gjykatash gjykatat gjykatave gjykate gjykatën
+10	1010	kurth	kurtha kurthe kurthesh kurthet kurtheve kurthi kurthin kurthit kurthë kurthën
+11	1011	vjeçar	vjeçare vjeçari vjeçarja vjeçarë vjeçarët
+12	1012	mbretëreshë	mbretëresh mbretëresha mbretëreshash mbretëreshat mbretëreshave mbretëreshe mbretëreshëa mbretëreshën mbretëreshës
+13	1013	mbushem	mbushej mbushemi mbushen mbusheni mbushesh mbushesha mbusheshin mbushet mbushu mbushuni mbushur
+14	1014	saktësisht	
+15	1015	kontratë	kontrat kontrata kontratat kontratave kontratën kontratës
+16	1016	rus	ruse rusët
+17	1017	tregim	tregime tregimet tregimeve tregimi tregimin tregimit
+18	1018	uroj	uro uroi uroja uroje urojmë urojnë urojë uromë uron uroni uronim uronin uronte urova urove uruam uruan uruar
+19	1019	gënjeshtër	gënjeshtra gënjeshtrash gënjeshtrat gënjeshtrave gënjeshtre gënjeshtrën gënjeshtrës
+20	1020	organizoj	organizo organizohemi organizohet organizoi organizoja organizoje organizojmë organizojnë organizojë organizon organizoni organizonim organizonin organizonit organizonte organizova organizove organizuam organizuan organizuar organizuara organizuat
+21	1021	pajisje	pajisja pajisjen pajisjes pajisjet pajisjeve
+22	1022	kriminel	kriminela krimineli kriminelin kriminelit kriminelë kriminelësh kriminelët kriminelëve
+23	1023	ndiej	ndieja ndieje ndiejmë ndiejnë ndiejë ndiem ndien ndieni ndienim ndienin ndiente ndier ndierë ndiet ndieva ndieve ndjeu ndjeva ndjeve
+24	1024	uri	uni uria urie urisë
+25	1025	kishë	kisha kishash kishat kishave kishe kishën kishës
+26	1026	princeshë	princesha princeshash princeshat princeshave princeshe princeshën princeshës
+27	1027	futboll	futbolli futbollin futbollit
+28	1028	pronar	pronare pronari pronarin pronarit pronarja pronarë pronarët pronarëve
+29	1029	vizitoj	vizito vizitohesh vizitoi vizitoja vizitoje vizitojmë vizitojnë vizitojë viziton vizitoni vizitonim vizitonin vizitonit vizitonte vizitova vizitove vizituam vizituan vizituar vizituat
+30	1030	nderoj	ndero nderoftë nderohej nderohem nderohen nderoheni nderohesh nderohet nderoi nderoja nderoje nderojmë nderojnë nderojë nderon nderoni nderonim nderonin nderonte nderova nderove nderuam nderuan nderuar nderuat
+31	1031	shijoj	shijo shijofshi shijoftë shijoi shijoja shijoje shijoji shijojmë shijojnë shijojë shijon shijoni shijonim shijonin shijonte shijova shijove shijuam shijuan shijuar shijuat
+32	1032	hidhem	hidhej hidhemi hidhen hidheni hidhesh hidhesha hidheshe hidheshin hidhet hidhu hidhuni
+33	1033	errësirë	errësir errësira errësirat errësire errësirën errësirës
+34	1034	uritur	uritura uriturit
+35	1035	kartë	karta kartash kartat kartave karte kartën kartës
+36	1036	tingëlloj	tingëlloi tingëllojmë tingëllojnë tingëllojë tingëllon tingëllonte
+37	1037	përndryshe	
+38	1038	bërtas	bërtasim bërtasin bërtasë bërtasësh bërtet bërtiste bërtit bërtita bërtite bërtiti bërtitja bërtitje bërtitni bërtitnin bërtitnit bërtitur bërtitën bërtitët
+39	1039	vuaj	voi vuaja vuaje vuajmë vuajnë vuajta vuajtur vuajë vuam vuan vuani vuanim vuanin vuanit vuante vuj
+40	1040	komb	kombat kombe kombesh kombet kombeve kombi kombin kombit komë
+41	1041	prezantoj	prezanto prezantohem prezantohemi prezantohen prezantohesh prezantohesha prezantohet prezantohu prezantohuni prezantoi prezantoja prezantoje prezantojmë prezantojnë prezantojë prezanton prezantoni prezantova prezantuam prezantuar
+42	1042	veç	
+43	1043	dënoj	dënohem dënohen dënoheni dënohesh dënohet dënoi dënojmë dënojnë dënojë dënon dënoni dënonte dënove dënuan dënuar
+44	1044	detektiv	detektive detektivi detektivin detektivit detektivja detektivë detektivët detektivëve
+45	1045	stërvis	stërvit stërvita stërvite stërvitem stërvitesh stërvitet stërviti stërvitim stërvitin stërvitja stërvitje stërvitni stërvitnin stërvitu stërvitur stërvitëm stërvitën stërvitës stërvitësh stërvitët
+46	1046	pasojë	pasoj pasoja pasojash pasojat pasojave pasoje pasojën pasojës
+47	1047	perfekt	perfekte perfektë
+48	1048	anëtar	anëtari anëtarin anëtarit anëtarja anëtarë anëtarësh anëtarët anëtarëve
+49	1049	kamp	kampe kampet kampeve kampi kampim kampin kampit
+50	1050	ushqej	ushqe ushqehej ushqehem ushqehemi ushqehen ushqehesh ushqehet ushqehu ushqeja ushqeje ushqejmë ushqejnë ushqejë ushqen ushqeni ushqente ushqeu ushqeva ushqeve ushqyer
+51	1051	hapësirë	hapësira hapësirat hapësirën hapësirës
+52	1052	kolonel	koloneli kolonelin kolonelit
+53	1053	brengos	brengosa brengose brengosi brengosin brengosja brengosje brengosni brengoste brengosur brengosë
+54	1054	autobus	autobusi autobusin autobusit autobusë autobusësh autobusët autobusëve
+55	1055	përreth	
+56	1056	pushtet	pushtete pushtetesh pushtetet pushteteve pushteti pushtetin pushtetit
+57	1057	real	reale realë
+58	1058	shkurtër	shkurtra shkurtëra
+59	1059	dëm	dam dëme dëmesh dëmet dëmeve dëmi dëmin dëmit
+60	1060	adresë	adres adresa adresash adresat adresave adrese adresën adresës
+61	1061	shpinë	shpina shpinat shpine shpinën shpinës
+62	1062	dru	druja druni drunj drunjtë druri drurin drurit drurë drurësh drurët drurëve
+63	1063	madhëri	madhëria madhërinë madhërisë
+64	1064	tentoj	tento tentoi tentoja tentoje tentojmë tentojnë tentojë tenton tentoni tentonin tentonit tentonte tentova tentove tentuam tentuan tentuar tentuat
+65	1065	dehem	deha dehemi dehen dehesh dehesha dehet dehur dehura
+66	1066	sezon	sezona sezone sezonet sezoni sezonin sezonit sezonë sezonës
+67	1067	pulë	pula pulash pulat pulave pule pulën pulës
+68	1068	shkërdhatë	shkërdhat shkërdhata shkërdhatash shkërdhatat shkërdhatave shkërdhate shkërdhatën shkërdhatës shkërdhatët
+69	1069	celular	celulari celularin celularit celularë celularësh celularët celularëve
+70	1070	varr	varre varresh varret varreve varri varrim varrin varrit varrje varrur
+71	1071	ngel	ngela ngele ngelesh ngelet ngeli ngelim ngelin ngelja ngelni ngelnim ngelnin ngelte ngelur ngelë ngelëm ngelën ngelësh ngelët
+72	1072	princ	princa princat prince princesh princi princin princit princë
+73	1073	marrëdhënie	marrëdhënia marrëdhënien marrëdhënies marrëdhëniet marrëdhënieve marrëdhënje
+74	1074	autoritet	autoritete autoritetesh autoritetet autoriteteve autoriteti autoritetin autoritetit
+75	1075	martë	marta martat martave marti martën martës
+76	1076	ngushtë	ngushta
+77	1077	natyrë	natyra natyre natyrën natyrës
+78	1078	interesuar	interesuara
+79	1079	periudhë	periudha periudhash periudhat periudhave periudhe periudhën periudhës
+80	1080	fundjavë	fundjava fundjavat fundjavave fundjave fundjavën fundjavës
+81	1081	shije	shija shijen shijes shijesh shijet shijeve
+82	1082	paralajmëroj	paralajmëro paralajmëroi paralajmëroja paralajmëroje paralajmërojmë paralajmërojnë paralajmërojë paralajmëron paralajmëroni paralajmëronin paralajmëronte paralajmërova paralajmërove paralajmëruam paralajmëruan paralajmëruar paralajmëruat
+83	1083	ofertë	ofert oferta ofertash ofertat ofertave oferte ofertën ofertës
+84	1084	lëkurë	lëkur lëkura lëkure lëkurën lëkurës lëkurët lëkurëve
+85	1085	cigare	cigareje cigaren cigares cigaresh cigaret cigareve cigarja cingare
+86	1086	mbledhje	mbledhja mbledhjeje mbledhjen mbledhjes mbledhjesh mbledhjet mbledhjeve mledhje
+87	1087	de	deu
+88	1088	mërzit	mërzis mërzita mërzite mërzitem mërzitesh mërzitet mërziti mërzitin mërzitja mërzitje mërzitni mërzitëm mërzitën mërzitët
+89	1089	tradhtoj	tradhto tradhtoi tradhtoja tradhtoje tradhtojmë tradhtojnë tradhtojë tradhton tradhtoni tradhtonim tradhtonin tradhtonte tradhtova tradhtove tradhtuan tradhtuar tradhtuat tradhëto tradhëtoi tradhëtoj tradhëtoja tradhëtoje tradhëtojmë tradhëtojnë tradhëton tradhëtonin tradhëtonit tradhëtonte tradhëtova tradhëtove tradhëtuam tradhëtuan tradhëtuar tradhëtuat
+90	1090	derr	derra derrash derrat derrave derri derrin derrit derrë
+91	1091	njësi	njësia njësie njësinë njësish njësisë njësit njësitë njësive
+92	1092	papritur	papritura papriturën
+93	1093	maskë	maska maskat maskave maskën maskës
+94	1094	rend	renda rende renden rendet rendeve rendi rendim rendin rendit rendja rendje rendni rendnin rendur rendën
+95	1095	përball	përballa përballe përballem përballesh përballet përballi përballim përballin përballja përballje përballni përballnin përballte përballu përballur përballëm përballën përballësh përballët
+96	1096	majë	maja majash majat majave maje majën majës
+97	1097	model	modele modelesh modelet modeleve modeli modelin modelit modelja
+98	1098	regjistroj	regjistro regjistrohej regjistrohem regjistrohemi regjistrohesh regjistrohet regjistrohu regjistroi regjistroje regjistrojmë regjistrojnë regjistrojë regjistron regjistroni regjistrova regjistruam regjistruan regjistruar
+99	1099	hartë	harta hartat hartave harte hartën hartës
+100	1100	internet	interneti internetin internetit

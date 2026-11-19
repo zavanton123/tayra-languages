@@ -1,0 +1,100 @@
+1	5801	pjesore	
+2	5802	bulmetore	bulmetorja
+3	5803	tiranas	tiranasit
+4	5804	rigë	riga rigën rigës
+5	5805	kaçkavall	
+6	5806	buj	bujtur
+7	5807	azgan	
+8	5808	diqysh	
+9	5809	hendboll	hendbolli hendbollin
+10	5810	hasmëri	hasmëria hasmëritë hasmërive
+11	5811	voc	voca voci vocit
+12	5812	rrek	rrekur
+13	5813	miop	miope
+14	5814	mbruhem	mbrujtur
+15	5815	gjok	gjokë
+16	5816	dëmshpërblej	dëmshpërbleje dëmshpërblejnë dëmshpërblen dëmshpërblente dëmshpërblyer
+17	5817	nahijë	nahi nahije
+18	5818	ëmbëltore	ëmbëltoret ëmbëltorja
+19	5819	fiqir	fiqiri
+20	5820	shqyptare	shqyptaret
+21	5821	imagjinueshëm	
+22	5822	bonjë	bonjat bonje bonjës
+23	5823	kallm	kallmi kallëm
+24	5824	kurm	kurmi kurmin
+25	5825	vezullon	
+26	5826	arixhi	arixhinj arixhinjsh arixhiu
+27	5827	çirak	
+28	5828	lulëkuqe	lulëkuqet lulëkuqeve
+29	5829	brymë	bryma
+30	5830	elbasanas	elbasanasi elbasanasit
+31	5831	cakë	caka cake cakën cakës
+32	5832	thuk	thuktë
+33	5833	begenis	begenisur
+34	5834	vëngër	
+35	5835	papaja	
+36	5836	meshin	meshini
+37	5837	lacë	laca lacat lace
+38	5838	grigjë	grigjën grigjës
+39	5839	kic	kice kici
+40	5840	cirë	cira
+41	5841	adash	adashi adashin
+42	5842	usht	ushta
+43	5843	alarmim	alarmimit
+44	5844	mësysh	
+45	5845	gjedhë	gjëthë
+46	5846	runë	runa
+47	5847	amësi	amësia amësie
+48	5848	gak	
+49	5849	dune	dunja
+50	5850	afishoj	afishojnë afishonte afishuar
+51	5851	kotorr	kotorri kotorrit
+52	5852	hasm	hasmi hasmin hasmit
+53	5853	bronkit	bronkiti bronkitin bronkitit
+54	5854	verr	verra verri
+55	5855	anesë	anesa anese
+56	5856	bruz	
+57	5857	shkoqit	shkoqitur
+58	5858	këna	
+59	5859	abdikim	abdikimin
+60	5860	mëkëmb	mëkëmbur
+61	5861	përciptazi	
+62	5862	astrofizikë	
+63	5863	bonjak	bonjaku
+64	5864	bors	borsa borsat borsi
+65	5865	cucëll	
+66	5866	frëngji	frëngjia
+67	5867	bec	beci
+68	5868	jodemokratik	jodemokratike
+69	5869	qafir	kafir qafiri
+70	5870	zymbyl	zymbylit
+71	5871	rrëfyes	rrëfyesin
+72	5872	shpyllëzoj	shpyllëzuar
+73	5873	dyzetepesë	
+74	5874	qytë	qyta
+75	5875	ballas	
+76	5876	punësi	punësisë
+77	5877	jofetar	jofetare
+78	5878	anemi	
+79	5879	kumt	kumti kumtin
+80	5880	krup	krupa
+81	5881	llagap	llagapi
+82	5882	thashethemexhi	thashethemexhinjtë
+83	5883	kullumbri	kulumbri
+84	5884	gepek	
+85	5885	hurdhë	hurdha
+86	5886	ëndërrim	
+87	5887	llohë	llo
+88	5888	sterrë	
+89	5889	trumbë	trumba trumë
+90	5890	erz	
+91	5891	farmakologji	farmakologjinë
+92	5892	gaztor	gaztorin gaztorit
+93	5893	cakërroj	cakërrojmë cakërruar
+94	5894	akth	
+95	5895	kruspull	
+96	5896	xeheror	xeherorëve
+97	5897	ofshaj	ofshajnë ofsharë
+98	5898	kanavacë	kanavacën
+99	5899	pasoni	
+100	5900	përçap	përçapje

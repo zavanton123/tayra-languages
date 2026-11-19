@@ -1,0 +1,100 @@
+1	4401	teshtij	teshtirë teshtiu teshtiva
+2	4402	saji	
+3	4403	këqyr	kqyr këqyre këqyri këqyrim këqyrin këqyrja këqyrje këqyrni këqyrte këqyrur
+4	4404	bezdisem	bezdisen bezdiseni bezdisesh bezdiset bezdisur
+5	4405	ashkël	ashkla ashklën ashër
+6	4406	shpurë	shpura shpure shpuri shpurën shpurës
+7	4407	tus	tuta
+8	4408	bulë	bulat bule
+9	4409	pipëz	pipëza pipëzat pipëzën
+10	4410	ngjeth	ngjethem ngjethës
+11	4411	xhingël	xhingla
+12	4412	trikë	trika trikat trike
+13	4413	arrç	arç
+14	4414	timër	timën
+15	4415	shqit	shqite shqiti shqitja shqitur
+16	4416	rit	
+17	4417	lulediell	luledielli
+18	4418	sistematikisht	
+19	4419	vjehrrë	vjehrra vjehrrat vjehrrave vjehrre vjehrrën vjehrrës
+20	4420	gjeometrik	gjeometrike
+21	4421	parmë	parma parme
+22	4422	gjëmoj	gjëmojmë gjëmojnë gjëmon gjëmoni gjëmonin gjëmonte gjëmuan gjëmuar
+23	4423	anatomi	anatomia anatomie anatominë anatomisë
+24	4424	matematikan	matematikani matematikanë matematikanët matematikanëve
+25	4425	çark	çarku çarqe çarqet
+26	4426	zhanër	zhanre zhanret zhanreve zhanri zhanrin zhanrit
+27	4427	kulaç	kulaçe kulaçi kulaçin kulaçit
+28	4428	gramatikë	gramatika gramatike gramatikën gramatikës
+29	4429	ateist	ateiste ateistë ateistët ateistëve
+30	4430	agjëroj	agjëroi agjërojmë agjërojnë agjëron agjëroni agjëronin agjëronte agjëruan agjëruar
+31	4431	gatë	gate
+32	4432	kotec	koteci
+33	4433	shpëlaj	shplaj shpëlarë shpërlaj
+34	4434	temjan	temjani temjanin temjanit
+35	4435	sha	
+36	4436	konsistoj	konsistojnë konsiston konsistonin konsistonte konsistuar
+37	4437	bask	baske basket baskë baskët baskëve
+38	4438	milor	milon milori
+39	4439	psikologjikisht	
+40	4440	avashtë	
+41	4441	lakuriqësi	lakuriqësia lakuriqësie lakuriqësinë lakuriqësisë
+42	4442	çart	çartje çartur çartë
+43	4443	rrebesh	rrebeshe rrebeshesh rrebeshet rrebesheve rrebeshi
+44	4444	ndërsjellë	
+45	4445	kundërvë	kundërvunë kundërvura kundërvure kundërvënë
+46	4446	zët	zit
+47	4447	shumëngjyrësh	shumëngjyrëshe
+48	4448	jaran	jarani
+49	4449	boçe	boçet boçja
+50	4450	sinagogë	sinagoga sinagogat sinagogave sinagoge sinagogën sinagogës
+51	4451	grimcoj	grimcohen grimcoi grimcoje grimcojnë grimcuar grimcuat
+52	4452	gop	gopi
+53	4453	brohoritje	
+54	4454	pjerr	pjerrët
+55	4455	mëshiroj	mëshiro mëshiroftë mëshirojnë mëshiron mëshiruar
+56	4456	skalit	skalis skalitur skalitën
+57	4457	socializëm	socializmi socializmin socializmit
+58	4458	myk	
+59	4459	fashizëm	fashizmi fashizmin fashizmit
+60	4460	trangull	tranguj trangujt trangujve trangulli trangullit
+61	4461	bizon	bizonet bizoneve bizoni bizonin
+62	4462	çandër	çandra
+63	4463	leckaman	leckamane leckamani
+64	4464	qukapik	qukapiku qukapikun qukapikët
+65	4465	bibilush	bibilushi bibilushin
+66	4466	cekëtinë	cektinë cekëtina cekëtinën
+67	4467	cingëroj	cingëro cingëroi cingëron
+68	4468	malok	maloku malokun malokut malokët
+69	4469	yndyrshëm	
+70	4470	biokimi	biokimia biokimie biokimike biokiminë biokimisë
+71	4471	vlonjat	vlonjati vlonjatin vlonjatit vlonjatë vlonjatët vlonjatëve
+72	4472	dhënës	dhënëse dhënësi dhënësit
+73	4473	tuberkuloz	tuberkulozi tuberkulozin
+74	4474	mesdhetar	mesdhetare
+75	4475	stepem	stepej stepen stepeni stepesh stepet stepuni stepur
+76	4476	lemzë	lemza lemzave lemzën
+77	4477	darë	dara dare darën
+78	4478	ligjëroj	ligjëroi ligjërojmë ligjërojnë ligjëron ligjëronte ligjëruan ligjëruar
+79	4479	mbarësi	mbarësia mbarësinë mbarësisë
+80	4480	paradoks	
+81	4481	kaush	kausha kaushi kaushin kaushët
+82	4482	lon	
+83	4483	erëzë	erëzat
+84	4484	tërthortë	tërthor
+85	4485	kokëfortësi	kokëfortësia kokëfortësinë kokëfortësisë
+86	4486	rrenacak	rrenc
+87	4487	fink	fing
+88	4488	myshk	myshku myshqet
+89	4489	shurdhoj	shurdhojnë shurdhon shurdhova shurdhove shurdhuar
+90	4490	ftohtësi	ftohtësia ftohtësinë ftohtësisë
+91	4491	herdhe	herdhet herdheve
+92	4492	cifël	cifla ciflat ciflave
+93	4493	kadife	
+94	4494	fyell	fyelli fyellin fyellit
+95	4495	ngrys	ngrysje ngryste ngrysur
+96	4496	çair	çaire çairi çairin çairit
+97	4497	spango	spangoje spangon
+98	4498	bishtalec	bishtaleca bishtalecave bishtaleci bishtalecin bishtalecit
+99	4499	shumëzoj	shumëzoi shumëzoje shumëzojmë shumëzojnë shumëzon shumëzove shumëzuar
+100	4500	thundër	thundra thundrat thundrave thundrën

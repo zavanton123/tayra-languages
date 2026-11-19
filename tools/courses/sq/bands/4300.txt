@@ -1,0 +1,100 @@
+1	4201	tog	togje togu togut
+2	4202	vaksinoj	vaksinojmë vaksinojnë vaksinoni vaksinuan vaksinuar vaksinuat
+3	4203	lokalitet	lokalitete lokalitetet lokaliteteve lokaliteti lokalitetin lokalitetit
+4	4204	stufë	stufa stufat stufave stufe stufën stufës
+5	4205	sopatë	sopata sopatën
+6	4206	dëfrej	dëfren dëfreni dëfrente dëfreu dëfreva dëfryer dëfryet
+7	4207	përkrahës	
+8	4208	afatshkurtër	
+9	4209	panjë	panjat panje panjën panjës
+10	4210	ujerë	ujera ujerat ujerave
+11	4211	lejlek	lejleku lejlekun lejlekut lejlekë lejlekët lejlekëve
+12	4212	mbij	mbijnë mbirë mbiva mbive
+13	4213	doemos	
+14	4214	mpij	mpi mpin mpinte mpiu
+15	4215	dëmshëm	
+16	4216	spinaq	spinaqi spinaqin
+17	4217	cut	cute
+18	4218	autonomi	autonomia autonominë autonomisë
+19	4219	absorboj	absorbohen absorbohet absorbojnë absorbon absorbonte absorbuar
+20	4220	kremtim	kremtime kremtimet kremtimeve kremtimi kremtimin kremtimit
+21	4221	shëmbëlltyrë	shëmbëlltyra shëmbëlltyrat shëmbëlltyre shëmbëlltyrën shëmbëlltyrës
+22	4222	kath	kathi kathrin
+23	4223	fell	
+24	4224	zogth	zogtha
+25	4225	sensual	sensuale
+26	4226	folje	folja foljen foljes foljet foljeve
+27	4227	astronom	astronomët
+28	4228	tetëdhjetë	
+29	4229	ajkë	ajka ajke ajkën ajkës
+30	4230	rreshtim	rreshtimet rreshtimeve rreshtimi rreshtimin rreshtimit
+31	4231	saç	saçin
+32	4232	rumun	rumuni rumunin rumunë rumunët rumunëve
+33	4233	vjershë	vjersha vjershat
+34	4234	diktoj	diktova diktuar
+35	4235	gjëndër	gjëndra gjëndrash gjëndrat gjëndrave gjëndre gjëndrën gjëndrës
+36	4236	shndrit	shndrite shndriti shndritje shndritur
+37	4237	fishkëllej	fishkëlle fishkëllejnë fishkëllen fishkëllenin fishkëlleu fishkëlleva fishkëllyen fishkëllyer
+38	4238	shkreh	shkreha shkrehe shkrehim shkrehje shkrehu shkrehur
+39	4239	malë	mala male malën malës
+40	4240	çengel	çengela çengelat çengeli çengelin
+41	4241	jasemin	jasemi jaseminë jasmin
+42	4242	rrem	rrema rremat rremi
+43	4243	leverdis	leverdiste
+44	4244	synet	syneti
+45	4245	rrënjësor	rrënjësore
+46	4246	cipë	cipa cipat cipave cipe cipën cipës
+47	4247	seksualitet	seksualitetin seksualitetit
+48	4248	bërës	bërësi bërësin bërësit bërësve
+49	4249	sanë	sana sane sanin
+50	4250	dejë	deja deje dejës
+51	4251	sënduk	sënduku sëndukun sëndukut sëndukët
+52	4252	krua	kroi kroin kroit kroje krojet krojeve kruash
+53	4253	kuk	
+54	4254	altruist	altruiste
+55	4255	ngricë	ngrica ngricash ngricat ngricave ngrice ngricën ngricës
+56	4256	pëllumbeshë	pëllumbesha
+57	4257	çiltër	
+58	4258	gani	
+59	4259	manushaqe	manushaqen manushaqes manushaqet manushaqeve manushaqja
+60	4260	parcelë	parcela parcelash parcelat parcelave parcele parcelën parcelës
+61	4261	bajat	bajate
+62	4262	qurra	qurrat qurre qyrra
+63	4263	harlë	harli
+64	4264	nëntëdhjetë	
+65	4265	përgjakshëm	
+66	4266	etapë	etapa etapat etapave etape etapën etapës
+67	4267	mullar	mullari mullarin mullarit mullarët
+68	4268	pot	
+69	4269	shqiptim	shqiptimi shqiptimin shqiptimit
+70	4270	kundërsulm	
+71	4271	turrë	tira tire turra turrën turrës
+72	4272	bic	bice bici bicin bicit
+73	4273	farefis	farefisi farefisin farefisit
+74	4274	mendjemadhësi	mendjemadhësia mendjemadhësinë mendjemadhësisë
+75	4275	takat	takati takatin
+76	4276	artrit	artriti
+77	4277	shpretkë	shpretka shpretke shpretkën shpretkës
+78	4278	abstrakt	abstrakte
+79	4279	adoleshencë	adoleshenca adoleshencën adoleshencës
+80	4280	përfill	përfille përfilli përfillim përfillin përfillja përfillje përfillni përfillte përfillur përfillën
+81	4281	batoj	bato baton batoni batonin batonit batuar batuat
+82	4282	vyshkem	vyshkej vyshkemi vyshken vyshkesh vyshket vyshkur
+83	4283	shkrepës	shkrepëse
+84	4284	shfuqizoj	shfuqizoi shfuqizojmë shfuqizojnë shfuqizon shfuqizonin shfuqizonte shfuqizove shfuqizuan shfuqizuar
+85	4285	hala	ala
+86	4286	banë	bana banat bane banës
+87	4287	mbështjellëse	mbështjellëset mbështjellësja
+88	4288	verbëri	verbëria verbërinë
+89	4289	lyth	lytha lythat lythave lythin
+90	4290	patologji	patologjia patologjike patologjinë
+91	4291	op	
+92	4292	çapkën	çapkëne çapkëni çapkënë
+93	4293	turqisht	
+94	4294	arsimtar	arsimtari arsimtarin arsimtarit arsimtarë arsimtarët arsimtarëve
+95	4295	ag	agje agu agun
+96	4296	vegjë	vegjëi
+97	4297	hare	
+98	4298	murriz	murrizi murrizin murrizit
+99	4299	poçe	poçen poçet poçeve
+100	4300	lagë	lagësh

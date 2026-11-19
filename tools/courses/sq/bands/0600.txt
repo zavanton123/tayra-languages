@@ -1,0 +1,100 @@
+1	501	ëndërr	andërr ëndrra ëndrrash ëndrrat ëndrrave ëndrre ëndrrën ëndrrës ëndërra ëndërrat ëndërrave ëndërre ëndërrën
+2	502	sekret	sekrete sekretet sekreteve sekreti sekretin sekretit sekretë
+3	503	saktë	sakta
+4	504	interesoj	intereson interesonin interesonte
+5	505	ah	ahu ahut
+6	506	zgjuar	zgjuara zgjuari zgjuarin zgjuarit
+7	507	lëndoj	lëndo lëndohej lëndohem lëndohen lëndoheni lëndohesh lëndohet lëndoi lëndoja lëndoje lëndojmë lëndojnë lëndojë lëndon lëndoni lëndonim lëndonin lëndonte lëndova lëndove lënduan lënduar lënduat
+8	508	rritem	rritej rritemi rriten rriteni rritesh rritesha rriteshe rriteshim rriteshin rriteshit rritet rritu rritur
+9	509	politik	politika politikat politikave politike politikë politikën politikës
+10	510	krah	kra krahu krahun krahut krahë krahësh krahët krahëve
+11	511	situatë	situat situata situatash situatat situatave situatën situatës
+12	512	diku	
+13	513	shes	shesim shesin shesë shesësh shet shisja shisni shiste shita shitur
+14	514	pije	pija pijeje pijen pijeni pijes pijesh pijet pijeve
+15	515	ndeshje	ndeshja ndeshjeje ndeshjen ndeshjes ndeshjesh ndeshjet ndeshjeve
+16	516	bisedoj	bisedo bisedohet bisedoi bisedoja bisedoje bisedojmë bisedojnë bisedojë bisedon bisedoni bisedonim bisedonin bisedonit bisedonte bisedova bisedove biseduam biseduan biseduar biseduat
+17	517	vrasës	vrasësave vrasëse vrasësi vrasësin vrasësish vrasësit vrasësja vrasësve
+18	518	seriozisht	
+19	519	prind	prindi prindin prindit prindrit prindër prindërit prindërve prindët
+20	520	vjeç	vjeçe
+21	521	funksionoj	funksionoi funksionojnë funksionojë funksionon funksiononte funksionuan funksionuar
+22	522	qesh	kesh qesha qeshe qeshet qeshi qeshim qeshin qeshja qeshni qeshnim qeshnin qeshnit qeshte qeshu qeshur qeshëm qeshën qeshët
+23	523	pushim	pushime pushimesh pushimet pushimeve pushimi pushimin pushimit pushimë
+24	524	bushtër	bushtra bushtrash bushtrat bushtrave bushtre bushtrën bushtrës buç buçe
+25	525	pare	paree paren pares paresh paret pareve parja
+26	526	mirupafshim	
+27	527	rris	rrinj rrisim rrisin rrisja rrisje rrisni rrisnim rrisnin rrisnit rriste rrisë rrisësh rrit rrita rrite rriti rritim rritin rritja rritni rritnin rritur rritë rritëm rritën rritët
+28	528	bardhë	bardha bardhat bardhave bardhe bardhën bardhët bardhëve
+29	529	ruaj	ruaja ruaje ruaji ruajmë ruajn ruajnë ruajsh ruajt ruajta ruajte ruajtur ruajtë ruaju ruajë ruani ruanim ruanin ruante
+30	530	ushtri	ushtria ushtrie ushtrin ushtrinë ushtris ushtrisë ushtritë ushtrive
+31	531	gjuaj	gjuaja gjuaje gjuaji gjuajmë gjuajn gjuajnë gjuajta gjuajte gjuajtur gjuajë gjuani gjuanim gjuanin gjuante
+32	532	shaka	shakaja shakaje shakanë shakara shakatë
+33	533	detyroj	detyro detyrohej detyrohem detyrohemi detyrohen detyroheni detyrohesh detyrohet detyroi detyroja detyroje detyrojmë detyrojnë detyrojë detyron detyroni detyronin detyronte detyrova detyrove detyruam detyruan detyruar detyruat
+34	534	sërish	sërishmi
+35	535	ej	
+36	536	darkë	darka darkat darkave darke darkën darkës
+37	537	qëllim	qëllime qëllimesh qëllimet qëllimeve qëllimi qëllimin qëllimit
+38	538	top	topa topash topat topave tope topesh topet topeve topi topin
+39	539	kryej	kreu kreva kreve kryeja kryeje kryejmë kryejn kryejnë kryejë kryem kryen kryeni kryenim kryenin kryenit kryente kryer kryet
+40	540	kërcej	kërceftë kërcehet kërceja kërceje kërcejmë kërcejn kërcejnë kërcejë kërcen kërceni kërcenim kërcenin kërcenit kërcente kërceu kërceva kërceve kërcim kërcime kërcimet kërcimi kërcimin kërcimit kërcyem kërcyen kërcyer kërcyet
+41	541	ndryshim	ndryshime ndryshimesh ndryshimet ndryshimeve ndryshimi ndryshimin ndryshimit
+42	542	ushtar	ushtari ushtarin ushtarit ushtarve ushtarë ushtarësh ushtarët ushtarëve
+43	543	qejf	qejfe qejfet qejfeve qejfi qejfin qejfit
+44	544	zhduk	zhduka zhduke zhduki zhdukim zhdukin zhdukja zhdukni zhduknin zhdukte zhduku zhdukur zhdukë zhdukëm zhdukën zhdukësh zhdukët
+45	545	frymë	fryma fryme frymën frymës frymësh frymëve
+46	546	zgjidh	zgidh zgjidha zgjidhe zgjidhet zgjidhi zgjidhim zgjidhin zgjidhja zgjidhni zgjidhnim zgjidhnin zgjidhnit zgjidhte zgjidhur zgjidhë zgjidhëm zgjidhën zgjidhësh zgjidhët
+47	547	alo	
+48	548	kryesor	kryeson kryesore kryesoret kryesori kryesorin kryesorja kryesorë
+49	549	verë	venat venë venën vera verat verave vere verën verëra verërat verës
+50	550	krim	krime krimesh krimet krimeve krimi krimin krimit
+51	551	ekip	ekipa ekipe ekipet ekipeve ekipi ekipin ekipit ekipë ekipën
+52	552	udhëtim	udhëtime udhëtimet udhëtimeve udhëtimi udhëtimin udhëtimit
+53	553	gëzoj	gëzo gëzofsh gëzofshi gëzofshim gëzohem gëzohemi gëzohen gëzohesh gëzohesha gëzoheshe gëzohet gëzohu gëzohuni gëzoi gëzoja gëzoje gëzojmë gëzojnë gëzoju gëzojë gëzon gëzoni gëzonim gëzonin gëzonte gëzova gëzove gëzuam gëzuan
+54	554	gjashtë	
+55	555	nxitoj	nxito nxitohem nxitohemi nxitohesh nxitohet nxitohu nxitoi nxitoja nxitoje nxitojmë nxitojnë nxitojë nxiton nxitoni nxitonim nxitonin nxitonte nxitova nxitove nxituam nxituan nxituar nxituat
+56	556	tmerrshëm	tmerrshme
+57	557	përfshij	përfshi përfshihej përfshihem përfshihemi përfshihen përfshihesh përfshihet përfshija përfshije përfshijmë përfshijnë përfshijë përfshimë përfshin përfshini përfshinim përfshinin përfshinit përfshinte përfshinë përfshir përfshirë përfshitë përfshiu përfshiva përfshive
+58	558	gjumë	gjumash gjumi gjumin gjumit
+59	559	pastroj	pastro pastrohej pastrohem pastrohemi pastrohen pastroheni pastrohesh pastroheshin pastrohet pastrohu pastrohuni pastroi pastroja pastroje pastroji pastrojmë pastrojnë pastrojë pastron pastroni pastronim pastronin pastronit pastronte pastrova pastrove pastruam pastruan pastruar pastruat
+60	560	pikërisht	
+61	561	ekzistoj	ekzistoi ekzistoja ekzistoje ekzistojmë ekzistojn ekzistojnë ekzistojë ekziston ekzistoni ekzistonim ekzistonin ekzistonte ekzistuan ekzistuar
+62	562	farë	fara farash farat farave farën farës
+63	563	urdhër	urdhra urdhrat urdhrave urdhri urdhrin urdhrit urdhën urdhëra urdhërat urdhërave urdhëri urdhërin urdhërit
+64	564	publik	publike publiku publikun publikut publikë
+65	565	përveç	
+66	566	provë	prova provash provat provave prove provën provës
+67	567	kuq	kuqe kuqi kuqin kuqja kuqke kuqte kuqtë kuqur
+68	568	mi	minj minjsh minjtë minjve miu miun miut
+69	569	betohem	betohej betohemi betohen betoheni betohesh betohesha betoheshe betoheshin betohet betohu betohuni betuar
+70	570	prapë	
+71	571	mut	muti mutin mutit mutra mutrat
+72	572	tru	truri trurin trurit trutë
+73	573	trap	trapa trapash trapat trapave trape trapet trapeve trapi trapin trapit trapët
+74	574	dëshirë	dëshir dëshira dëshirash dëshirat dëshirave dëshire dëshirën dëshirës
+75	575	mendim	mendime mendimesh mendimet mendimeve mendimi mendimin mendimit
+76	576	var	vara varese varet vari varim varin varja varje varka varke varni varnim varnin varte varur varëm varën varët
+77	577	shërbim	shërbime shërbimesh shërbimet shërbimeve shërbimi shërbimin shërbimit
+78	578	çmim	çmime çmimesh çmimet çmimeve çmimi çmimin çmimit
+79	579	sulm	sulme sulmet sulmeve sulmi sulmin sulmit sulmë
+80	580	at	ati atin atit etër etërit etërve
+81	581	dhuratë	dhurat dhurata dhuratash dhuratat dhuratave dhurate dhuratën dhuratës
+82	582	sillem	sillej sillemi sillen silleni sillesh sillesha silleshe silleshim silleshin sillet sillu silluni sillur
+83	583	ndërtoj	ndërto ndërtohej ndërtohen ndërtohet ndërtoi ndërtoja ndërtoje ndërtojmë ndërtojnë ndërtojë ndërton ndërtoni ndërtonim ndërtonin ndërtonte ndërtova ndërtove ndërtuam ndërtuan ndërtuar ndërtuat
+84	584	shtyp	shtypa shtype shtypet shtypi shtypim shtypin shtypit shtypja shtypje shtypni shtypnim shtypnin shtypte shtypur shtypë shtypëm shtypën shtypës shtypësh shtypët
+85	585	dhimbje	dhimbja dhimbjeje dhimbjen dhimbjes dhimbjesh dhimbjet dhimbjeve
+86	586	pastër	pastra pastën pastërt pastërta
+87	587	kafshë	kafsh kafsha kafshe kafshën kafshës kafshësh kafshët kafshëve
+88	588	qesharak	qesharake qesharakë
+89	589	gëzuar	gëzuara
+90	590	njëherë	
+91	591	mbahem	mbahej mbahemi mbahen mbaheni mbahesh mbahesha mbaheshe mbaheshim mbaheshin mbahet mbahu mbahuni mbajtur
+92	592	sulmoj	sulmo sulmoi sulmoja sulmoje sulmojmë sulmojn sulmojnë sulmojë sulmon sulmoni sulmonim sulmonin sulmonit sulmonte sulmova sulmove sulmuam sulmuan sulmuar sulmuat
+93	593	drogë	droga drogash drogat drogave droge drogën drogëra drogës
+94	594	ndryshëm	ndryshme
+95	595	bast	basta baste bastet basteve basti bastin bastun bastë
+96	596	veri	veriu veriun veriut
+97	597	ofroj	ofro ofrohem ofrohen ofrohesh ofrohet ofroi ofroja ofroje ofrojmë ofrojnë ofrojë ofron ofroni ofronim ofronin ofronit ofronte ofrova ofrove ofruam ofruan ofruar ofruat
+98	598	kuptim	kuptime kuptimesh kuptimet kuptimeve kuptimi kuptimin kuptimit
+99	599	bankë	banka bankash bankat bankave banke bankën bankës
+100	600	patjetër	

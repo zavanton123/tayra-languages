@@ -1,0 +1,100 @@
+1	4801	llahtarshëm	
+2	4802	nge	ngae
+3	4803	përjetësoj	përjetësoi përjetësojnë përjetëson përjetësonte përjetësuan përjetësuar
+4	4804	refren	refrene refrenet refreni refrenin refrenit
+5	4805	kallumë	kallum
+6	4806	panoramë	
+7	4807	pluskoj	pluskojnë pluskon pluskonin pluskonte
+8	4808	eshkë	eshka
+9	4809	sisë	sisa
+10	4810	rrëzë	rrëza rrëze rrëzës
+11	4811	cicëroj	cicëroi cicërojnë cicëron cicëronin cicëruan cicëruar
+12	4812	galinë	galina
+13	4813	ndryj	ndryrë
+14	4814	mih	miha mihi mihim mihja mihur
+15	4815	grosh	groshësh
+16	4816	ithtar	ithtari ithtarë ithtarët ithtarëve
+17	4817	autogol	autogola autogolat autogoli autogolin autogolit
+18	4818	pështym	pështyma pështysh
+19	4819	tunxh	tunxhi tunxhit
+20	4820	pris	prist
+21	4821	gabonjë	gabojë
+22	4822	plep	plepa plepat plepave plepi plepit
+23	4823	çakë	çaka çakën çakës
+24	4824	cke	
+25	4825	kosinus	
+26	4826	pitas	
+27	4827	thak	thaks
+28	4828	mëllenjë	mëllenja
+29	4829	cofëtinë	coftinë cofëtina
+30	4830	sisor	sisorë
+31	4831	gërric	gërricje gërricni gërricur
+32	4832	sjellës	sjellësi sjellësit
+33	4833	irracional	irracionale
+34	4834	kalldrëm	kalldrëmi
+35	4835	mërgatë	mërgata mërgatën mërgatës
+36	4836	rij	riva
+37	4837	spontanisht	
+38	4838	napë	napa nape napën
+39	4839	rozmarinë	rozmarina
+40	4840	usta	ustallarë ustallarët ustallarëve
+41	4841	karafil	karafila karafilat karafili karafilin karafilit
+42	4842	turrem	turra turret turrur
+43	4843	gizë	giza gizës
+44	4844	çuç	çuçi çuçin çuçit
+45	4845	shtëllungë	shtëllunga shtëllungat shtëllungave
+46	4846	teshtimë	teshtima teshtimat teshtimave teshtime teshtimën teshtimës tështimë
+47	4847	tangë	tanga tangat tangi
+48	4848	çuk	çuka çuku çukur çukën
+49	4849	djerr	djerrë dora dorra
+50	4850	atraksion	
+51	4851	shushunjë	shushunja shushunjat
+52	4852	matematikisht	
+53	4853	hernie	hernia
+54	4854	pulpë	pulpa pulpat pulpën pulpës
+55	4855	vragë	vraga vragat
+56	4856	bilë	bila bilën bilës
+57	4857	nyell	nyejsh nyejt nyejve nyelli nyellit
+58	4858	përsos	përsosa përsosi përsosim përsosja përsosje përsosëm
+59	4859	kërrus	kërrusur
+60	4860	biseksual	biseksuale
+61	4861	shelg	shelgjet shelgjeve shelgu shelgut
+62	4862	gogël	gogla goglat goglave
+63	4863	blozë	bloza bloze
+64	4864	poligon	
+65	4865	malazez	
+66	4866	zverk	zverku zverkun zverkut
+67	4867	aciditet	aciditeti aciditetin aciditetit
+68	4868	kërcell	kërcejtë kërcelli
+69	4869	kalloj	kallo kallon
+70	4870	grazhd	grazhdi
+71	4871	rusishte	rusishten rusishtja
+72	4872	tërthorazi	
+73	4873	resh	reshtë
+74	4874	tis	
+75	4875	urtësinë	
+76	4876	satirë	satira satirat satirave satire satirën satirës
+77	4877	xhufkë	xhufka xhufkat xhufke xhufkën
+78	4878	rrasë	rrasa rrasat rrase rrasën
+79	4879	cub	cuba cubash cubat cubave cubi
+80	4880	rrajë	rraja rrajave rrajën rrajës
+81	4881	log	logu
+82	4882	baroneshë	baronesha baroneshën
+83	4883	erozion	erozioni erozionin erozionit
+84	4884	balë	bala bale balën balës
+85	4885	përnjëherësh	
+86	4886	shat	shatin shatë
+87	4887	pjesëz	
+88	4888	arsenik	arseniku
+89	4889	zogë	zoga zogat
+90	4890	vendrojë	vendroja vendrojave vendroje vendrojën
+91	4891	prurës	prurësi
+92	4892	gjinkallë	gjinkalla gjinkallat gjinkallave gjinkallën
+93	4893	kurbinas	kurbinasit kurbinasve
+94	4894	nacionalizëm	nacionalizmi nacionalizmin
+95	4895	shtijë	shtija shtije
+96	4896	namaz	
+97	4897	kalium	
+98	4898	devolli	
+99	4899	çerr	çerrat çerri
+100	4900	makut	makute

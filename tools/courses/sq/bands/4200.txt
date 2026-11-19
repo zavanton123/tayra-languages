@@ -1,0 +1,100 @@
+1	4101	hallakat	hallakatje hallakatur
+2	4102	shul	shuli shulin shulit
+3	4103	marramendje	
+4	4104	kompozoj	kompozo kompozoi kompozon kompozonte kompozova kompozuar
+5	4105	ndrikull	ndrikulla ndrikullat ndrikulle
+6	4106	arsimoj	arsimojnë arsimonte arsimuan arsimuar
+7	4107	vektor	vektori vektorin vektorit vektorë vektorët vektorëve
+8	4108	buron	buroi buruar
+9	4109	hangër	hangra hongër ngrënë
+10	4110	thëri	thëni
+11	4111	xixëllonjë	xixëllonja xixëllonjash xixëllonjat
+12	4112	bënj	bënja bëntë
+13	4113	bujtinë	bujtina bujtinat bujtinave bujtine bujtinën bujtinës
+14	4114	qek	qeka
+15	4115	pincë	pinca pincat pince pincën
+16	4116	hum	huma
+17	4117	thjeshtësi	thjeshtësia thjeshtësinë
+18	4118	nëmë	namë nom nomi nëma
+19	4119	azot	azoti azotit
+20	4120	bojkotoj	bojkoto bojkotoi bojkotojmë bojkotojnë bojkoton bojkotoni bojkotonim bojkotonin bojkotonte bojkotuam bojkotuan bojkotuar
+21	4121	push	pushi
+22	4122	zotësi	zotësia zotësie zotësinë zotësisë zotësitë
+23	4123	malësi	malësia malësie malësinë malësisë malësitë malësive
+24	4124	sqetull	sqetulla sqetullat sqetullave sqetullën sqetullës
+25	4125	gren	grenit grent
+26	4126	tonelatë	tonelata tonelatat tonelatave
+27	4127	korrje	korrja korrjen korrjes korrjet korrjeve
+28	4128	papërcaktuar	
+29	4129	yjor	yjore
+30	4130	qelizor	qelizore qelizorë
+31	4131	pacaktuar	
+32	4132	thartë	
+33	4133	verbërisht	
+34	4134	dervish	dervishi dervishin dervishit dervishët dervishëve
+35	4135	mllef	mllefe mllefet mllefi mllefin mllefit
+36	4136	logjistikë	logjistika logjistike logjistikën logjistikës
+37	4137	qas	qasi qasim qasin qasja qasni qasnin qaste qasur qasën
+38	4138	arkeologjik	arkeologjike arkeologjikë
+39	4139	sahat	sahate sahatet sahati sahatin sahatit
+40	4140	platin	platini
+41	4141	koeficient	koeficiente koeficientet koeficienteve koeficienti koeficientin koeficientit koefiçent
+42	4142	strugë	struga strugën strugës
+43	4143	miqësohem	miqësohemi miqësohen miqësoheni miqësohesh miqësohesha miqësoheshit miqësohet miqësohuni miqësuar
+44	4144	lang	langjet
+45	4145	gjobit	gjobiti gjobitja gjobitje gjobitur gjobitën
+46	4146	lejekalim	lejekalimet lejekalimi lejekalimin
+47	4147	vërshoj	vërshoi vërshojnë vërshon vërshonin vërshuan vërshuar
+48	4148	harpë	harpa harpat harpën harpës
+49	4149	pjell	pjellin pjellur polli pollën
+50	4150	gjashtëmbëdhjetë	
+51	4151	pic	pica picat pici
+52	4152	gjashtëdhjetë	
+53	4153	gjeolog	gjeologu gjeologë gjeologësh gjeologët gjeologëve
+54	4154	kallaj	kallaji kallajit
+55	4155	haber	habere haberin
+56	4156	nikoqir	nikoqiri nikoqirin nikoqirit nikoqirë nikoqirët nikoqirëve
+57	4157	fshikëz	fshikëza fshikëzën fshikëzës
+58	4158	përditësoj	përditësoi përditësojmë përditësojnë përditëson përditësoni përditësuar
+59	4159	pederasti	
+60	4160	gjirafë	gjirafa gjirafat gjirafave gjirafe gjirafën
+61	4161	hajni	hajnia hajnie hajninë hajnisë hajnitë
+62	4162	ritë	ritën ritës
+63	4163	pjepër	pjepra pjeprat pjepri pjeprin pjeprit
+64	4164	goro	
+65	4165	çelur	
+66	4166	tallë	talla tallash talle tallën tallës tallësh
+67	4167	shotë	shota shotat shote shotet shotën shotës
+68	4168	shatërvan	shatërvani shatërvanin shatërvanit shatërvanë shatërvanët
+69	4169	shapkë	shapka shapkat shapkën
+70	4170	zanor	
+71	4171	gjetiu	gjetaj gjeti gjetkë njeti
+72	4172	tekstil	tekstile tekstilesh tekstilet tekstileve tekstili tekstilit
+73	4173	kthjelloj	kthjellohet kthjelloje kthjellojmë kthjellojnë kthjellova kthjelluar
+74	4174	kthjell	kthjella kthjelli kthjellim kthjelltë kthjellu kthjellur
+75	4175	kodrinë	kodrina kodrinat kodrinave kodrine kodrinën kodrinës
+76	4176	jugperëndim	jugperëndimi
+77	4177	lëvdoj	lëvdoi lëvdoja lëvdojmë lëvdojnë lëvdon lëvdoni lëvduar
+78	4178	shakë	shakash shakat shakave shake
+79	4179	rrudhos	rrudh rrudha rrudhosur rrudhur
+80	4180	zift	zifti ziftit
+81	4181	garth	garthin
+82	4182	ramazan	ramazani ramazanin
+83	4183	mishngrënës	mishngrënëse
+84	4184	naze	
+85	4185	lëvozhgë	lëvozhga lëvozhgat lëvozhgën lëvozhgës
+86	4186	sfurk	sfurka sfurkat sfurku sfurkun sfurqe sfurqet
+87	4187	ode	oda oden odes odja
+88	4188	vis	vise viset viseve visi visit
+89	4189	soj	soji
+90	4190	shkencërisht	
+91	4191	lopçar	lopçari lopçarin lopçarë lopçarët
+92	4192	kanxhë	ganxhë kanxha kanxhat kanxhe kanxhën
+93	4193	kinezisht	
+94	4194	shkrumb	
+95	4195	strohë	strofa strofat strofe stroh
+96	4196	jargë	jarga jargët jargëve
+97	4197	gazmend	gazmendi gazment
+98	4198	shtrembërim	shtrembërime shtrembërimet shtrembërimeve shtrembërimi shtrembërimin shtrembërimit
+99	4199	astrologji	astrologjia astrologjike astrologjinë astrologjisë
+100	4200	gjinore	

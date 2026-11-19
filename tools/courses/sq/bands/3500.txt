@@ -1,0 +1,100 @@
+1	3401	gërmadhë	gërmadha gërmadhash gërmadhat gërmadhave gërmadhe gërmadhën gërmadhës
+2	3402	diabet	diabeti diabetin diabetit
+3	3403	leshko	leshkot
+4	3404	kapter	kapteri kapterit
+5	3405	ekzakt	ekzakte
+6	3406	rënkoj	rënko rënkoi rënkoje rënkojnë rënkon rënkonte rënkove rënkuar
+7	3407	quar	quer
+8	3408	grushtoj	grushto grushtoi grushtoja grushtoje grushtojmë grushtojnë grushton grushtoni grushtonte grushtuar
+9	3409	admirues	admiruese admiruesi admiruesit
+10	3410	parapëlqej	parapëlqeja parapëlqejmë parapëlqejnë parapëlqen parapëlqeni parapëlqenin parapëlqenit parapëlqente parapëlqeu parapëlqyer
+11	3411	përcaktim	përcaktimi përcaktimin
+12	3412	apokalips	apokalipsi apokalipsin apokalipsit
+13	3413	historian	historiani historianin historianit historianë historianësh historianët historianëve
+14	3414	afrikane	
+15	3415	patriot	
+16	3416	njëbrirësh	njëbrirëshat njëbrirëshi njëbrirëshin njëbrirëshit
+17	3417	bërllog	bërllogu bërllok
+18	3418	meshë	mesha meshe meshën meshës meshët
+19	3419	shqisë	shqisa shqisat shqisave
+20	3420	rusisht	
+21	3421	lisën	
+22	3422	nëpunës	nëpunësi nëpunësit
+23	3423	pëlhurë	pëlhura pëlhurat pëlhurave pëlhure pëlhurën pëlhurës
+24	3424	zgjim	zgjimet zgjimi zgjimin zgjimit
+25	3425	nu	
+26	3426	djersij	djersija djersijmë djersijnë djersin djersini djersinë djersirë djersit
+27	3427	shkas	shkarë
+28	3428	vjollcë	vjollca vjollcat vjollce vjollcën vjollcës
+29	3429	step	stepa stepat stepe stepi steps stepë
+30	3430	cek	ceka cekim cekin cekja cekni ceku cekur cekëm cekën
+31	3431	dend	dende dendi dendur
+32	3432	normalitet	normalitetit
+33	3433	zhvendosje	zhvendosja zhvendosjeje zhvendosjen zhvendosjes zhvendosjet zhvendosjeve
+34	3434	motivim	motivime motivimet motivimi motivimin motivimit
+35	3435	shkodran	shkodrani shkodranin shkodranit shkodranë shkodranët shkodranëve
+36	3436	inflacion	inflacioni inflacionin inflacionit
+37	3437	spontan	spontane
+38	3438	adhurim	adhurime adhurimet adhurimi adhurimin adhurimit
+39	3439	rrëshqas	rrëshkas rrëshqasim rrëshqasin rrëshqasë
+40	3440	trokitje	trokitjen
+41	3441	ananas	ananaset ananasi ananasin ananasit
+42	3442	rroj	rrofshi rroja rroje rrojtur
+43	3443	zagar	zagare zagari zagarin zagarit zagarë zagarët zagarëve zar zari zarë
+44	3444	kumbull	kumbulla kumbullash kumbullat kumbullave kumbulle kumbullën kumbullës
+45	3445	maçok	maçoku maçokun maçokë maçokët maçokëve maçorr
+46	3446	vaftë	
+47	3447	ang	angu
+48	3448	prefekt	prefekte prefekti prefektin prefektit prefektë prefektët prefektëve
+49	3449	çikë	çika çikat çikave çike çikën çikës
+50	3450	bakter	baktere bakteresh bakteret baktereve bakteri bakterin bakterit
+51	3451	borde	borden bordeni bordenit border
+52	3452	derdhje	derdhja derdhjen derdhjes derdhjet derdhjeve
+53	3453	luc	luca luci lucin lucit
+54	3454	idhull	idhuj idhujt idhulli
+55	3455	bubullimë	bubullima
+56	3456	skifter	skifteri skifterin skifterit skifterë skifterësh skifterët skifterëve
+57	3457	leopard	leopardi leopardin leopardit leopardët
+58	3458	tkurr	tkurre tkurret tkurri tkurrin tkurrja tkurrje tkurrur tkurrën
+59	3459	punishte	punishteje punishten punishtes punishtet punishteve punishtja
+60	3460	pëllëmbë	pëllëmba pëllëmbe pëllëmbën pëllëmbës pëllëmbët pëllëmbëve
+61	3461	testikul	testikuj testikujsh testikujt testikujve testikuli testikulin
+62	3462	rrudhë	rrudha rrudhash rrudhat rrudhave rrudhe
+63	3463	qytezë	qyteza qytezash qytezat qytezave qyteze qytezën qytezës
+64	3464	dijetar	dijetari dijetarin dijetarit dijetarë dijetarësh dijetarët dijetarëve
+65	3465	heri	
+66	3466	pasazh	pasazhe pasazhet pasazheve pasazhi
+67	3467	pikël	pikla pikëla pikëlat pikëli pikëlin
+68	3468	bakër	bakri bakrin bakrit
+69	3469	lylë	lyla lyle
+70	3470	kopshtar	kopshtari kopshtarin kopshtarit kopshtarë kopshtarët
+71	3471	zogëz	zogëza zogëzat zogëzave zogëze zogëzën
+72	3472	garbe	garber
+73	3473	përgjak	përgjakur
+74	3474	astronaut	astronauti astronautët
+75	3475	përafërt	
+76	3476	trak	traka trake trakte trakë trakën trakës
+77	3477	rrafsh	rrafshe rrafshet rrafshi rrafshin rrafshit rrafshët
+78	3478	çel	çela çele çeli çelim çelin çelja çelje çelni çelte çelën çelët çil
+79	3479	flihet	fjetur flihej
+80	3480	gjenocid	gjenocide gjenocidet gjenocideve gjenocidi gjenocidin gjenocidit
+81	3481	pështymë	pështyma pështymat pështyme pështymën pështymës
+82	3482	barrikadë	barrikada barrikadat barrikadave barrikade barrikadën barrikadës
+83	3483	domosdoshëm	
+84	3484	krahinë	krahina krahinat krahinave krahine krahinën krahinës
+85	3485	njerkë	njerka njerkën njerkës
+86	3486	greminë	gremina gremine greminën greminës
+87	3487	fjongo	fjongoje fjongon fjongos fjongosh fjongot
+88	3488	vorbull	vorbulla vorbullat vorbullave vorbulle vorbullën vorbullës
+89	3489	vjedhës	vjedhësi vjedhësit
+90	3490	neverit	neverita neveritje neveritur neveritës
+91	3491	molekulë	molekula molekulat molekulave
+92	3492	prijë	prija prije
+93	3493	përfytyroj	përfytyro përfytyroi përfytyroja përfytyrojmë përfytyrojnë përfytyron përfytyroni përfytyronim përfytyronit përfytyronte përfytyrova përfytyruar
+94	3494	shyt	shut
+95	3495	kometë	kometa kometat kometave komete kometën kometës
+96	3496	pordhë	pordha pordhe pordhën pordhës pordhët
+97	3497	pornografi	pornografia pornografie pornografinë pornografisë
+98	3498	shtrembëroj	shtrembëro shtrembërojnë shtrembëron shtrembëronin shtrembërova shtrembërove shtrembëruan shtrembëruar
+99	3499	dry	dryn dryna drynat dryni drynin drynit
+100	3500	thelloj	thellohet thelloi thellojmë thellojnë thellon thelloni thellonin thellonte thelluan thelluar
