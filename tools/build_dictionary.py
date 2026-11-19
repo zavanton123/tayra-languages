@@ -80,6 +80,7 @@ SOURCES = {
     "sw": ("Swahili", "swahili", "dictionaries/kaikki.org-dictionary-Swahili.jsonl.gz"),
     "kk": ("Kazakh", "kazakh", "dictionaries/kaikki.org-dictionary-Kazakh.jsonl.gz"),
     "az": ("Azerbaijani", None, "dictionaries/kaikki.org-dictionary-Azerbaijani.jsonl.gz"),
+    "af": ("Afrikaans", None, "dictionaries/kaikki.org-dictionary-Afrikaans.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
