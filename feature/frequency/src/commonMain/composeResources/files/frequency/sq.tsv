@@ -1,15 +1,15 @@
 # source: FrequencyWords sq (OpenSubtitles 2018) (CC BY-SA 4.0) + Leipzig Corpora Collection sqi_news_2019_1M, sqi_news_2020_1M (terms at https://wortschatz.uni-leipzig.de/en/download)
-# words: 6584
-të	të
+# words: 6587
+të	të t
 e	e
 jam	është jam je ishte janë jemi jetë qe jeni qenë isha jesh ishin ishe jem jenë qoftë ishim qënë qenka ishit jan ish qenke ji qofsh qenkan jini qeshësh qofshin qenkeni qenkam qeshë qofsha qofshi qenkemi jom qenëve qenësh qofshit
 kam	ka kam ke kemi kanë keni kishte kisha ketë pasur kishe kesh kishin kem kishim ki kenë patur pati paska paske pata kishit kini paç pate patëm pat patën paçim paskan paskam paçi paskeni pastë paskemi patët paça kau paçit
 dua	do dua dashur doja doni duan donte duam doje don duash desha dashura desh donin donim deshe dojë donë deshi donit deshën du deshët deshëm dashke dashtë dashka due duashe daç dashta dashkan dashkam daçi
 në	në ën nê
+nuk	nuk s nuku
 i	i
-nuk	nuk nuku
+më	më m mâ mbë
 një	një nje njëri njëra nja njërin njërën nji njo
-më	më mâ mbë
 që	që çe qi
 dhe	dhe dheut dheu dheun dhet dherave dherash dhera
 për	për
@@ -23,6 +23,7 @@ ti	ti ty teje
 bëj	bëj bërë bën bëjmë bësh bëhet bëjë bëni bëjnë bëri bëra bëje bëre bëja bë bënë bej bënte bëhesh bëhen bëmë bëhu bënim bënin bëhemi bëtë bëhuni bëji bëheni bënit ba bëhesha bo bëheshe bëftë bëheshin bëfsh bon bëfshi bëmat
 ta	ta
 ne	ne na nesh neve
+çfarë	çfarë ç çfar
 jo	jo
 them	them thotë tha thënë the thashë thuaj thua thuash thonë thoni themi thoja thoshte thanë thuaji thuhet thatë thosha thuaje thoje thuaju thuani thuaja thoshe thamë thane themë thata thoshin thonjtë theme thuai thoshit thoshim thoi thonj thonjve thesha theshe
 mirë	mirë mira mirën miri mir mirët mirat mirës mirëve mirave
@@ -30,24 +31,23 @@ nga	nga
 mund	mund munda mundi munde mundja mundë mundësh mundëm mundën mundin mundni mundte mundët mundës mundnim mundnin mundtë muj mundnit mundsh muej
 di	di dini dija din dimë ditën ditur dinë dish dije dita dinte dite ditët dijë dihet dijeni dij dinin dinim dinit dijmë dihen ditke dihej dijes dijen diti ditëm ditka ditkeni ditkan ditkam diu diheshin ditshin ditshi
 te	te
-çfarë	çfarë çfar
 si	si
 ju	ju juve jush jua
+im	im time ime tim mia mi sime imja imi mija timen miat timin timit imët ima simes imin
 shumë	shumë shume shum shumti shuma shumën shumës shumat shumave shumash
 duhet	duhet duhettë duhetta duhett duhetë duhete
-im	im time ime tim mia sime imja imi mija timen miat timin timit imët ima simes imin
 por	por
 vij	vjen eja ardhur erdhi vij vijnë ejani vish erdha erdhe vije vini vija vi erdhën erdhët erdhëm vijmë vinte vinin ardhura vinim vinit ardhë ardhtë ardhka ardhshim ardhke ardhsh vinj
 shkoj	shkojmë shkoj shko shkon shkuar shkoni shkosh shkojë shkoi shkojnë shkova shkonte shkoje shkoja shkuan shkove shkonim shkuam shkonin shkuarën shkuara shkonë shkojn shkohet shkonit shkofsh shkuat shkuarës shkuarja shkoftë shkojsh shkuarje shkoji shkofshi shkomë shkoka shkofshin
 këtu	këtu
 marr	marrë marr merr mori merre marrim merrni marrësh mora marrin merri morën marrtë merrte merrja marrje morëm morra morri merrje morre merrnin morët marra morrën merrnim marrja morrëm morrët merrnit marrt marrët marrni marrit marru marrsh marrsha marrka marrshin marrshim
 u	u
+yt	tënde jote yt tënd tu tua jot jotja yte yti tuat tënden tëndin tët sate sat tëndit tue
 ajo	ajo asaj
 mendoj	mendoj mendon mendova menduar mendoja mendoni mendo mendojnë mendosh mendoje mendojmë mendove mendojë mendonte menduam mendoi mendohet mendohem mendonin mendohu menduan mendonim mendojn menduat mendohesh mendonit mendohej mendohesha mëndoj mendohuni mendonë mendohen mendohemi mendoheni mendoji mendojsh
 tani	tani tash tashti tashi
 gjithë	gjithë gjitha gjithëve gjith gjithave gjithash gjithin gjithat
 mos	mos
-yt	tënde jote yt tënd tua jot jotja yte yti tuat tënden tëndin tët sate sat tëndit
 a	a
 vetëm	vetëm vetme vetëmi
 nëse	nëse nose nase
@@ -56,7 +56,6 @@ edhe	edhe
 ku	ku kun kuh
 kur	kur
 njeri	njeri njerëz njerëzit njeriu njerëzve njeriut njeriun njerëzish njer njerí
-pse	pse përse ce
 tjetër	tjetër tjera tjerë tjerët tjeter tjetrin tjetri tjerat tjerëve tjetra tjetrën tjetrit tjetrës tjer tjetre tjetëri tjetërtë tjetërin tetër tjatër tjatrë
 shoh	shoh shohim shihemi pashë sheh shohësh pe shihni shohin shohë pafshim shihja shih shihet pamë shihte shihe panë shihje shehu pake shihen shof shihnim shiva shihnin peri shiheni shihnit shohi pasha shihem shihej perit shihesh shehë shehut perin shehun penjtë
 rregull	rregull rregullat rregulla rregulle rregulli rregullave rregullin rregullim rregullash rregullit rregullën rregulltë
@@ -64,6 +63,7 @@ shikoj	shiko shikoni shikon shikoj shikoje shikosh shikojmë shikuar shikoja shi
 duke	duke ty
 sa	sa
 jap	jep jepi jap dhënë dha jepni japësh japim japin japë jepja dhashë jepini jepte dhanë dhënave jepet jepje jepnin dhamë jepnim dhënash jepnit ap dhëntë dhan ep dhëni dhënçin tosk dhon
+pse	pse ce
 kohë	kohë koha kohe kohën kohës kohët kohësh kohëve kohërave kohërat kohëra
 parë	parë pari parët parash parën parëve parës
 pres	prit prisni pres pret pritur presim presin prisja prerë presësh pritni priste prite prisje prisnim preu priti prita preke prisnin pritja preva preka preve pritën prisnit pritët presi press presje pretë priftë prefsh premë prekeni prekemi presni preftë presish pritshim
@@ -121,6 +121,7 @@ zotëri	zotëri zotërinj zotri zotëria zotëriu zotërisë zotërinë zotëriu
 bukur	bukur bukura bukurë bukurat bukurën bukurin bukurit bukër
 çdo	çdo qdo gjdo xhdo
 fal	fal falni falur falësh fala
+ri	re ri reja rinj ren
 asgjë	asgjë asgjëje asgjëja
 ndihmoj	ndihmoj ndihmo ndihmojë ndihmuar ndihmoni ndihmosh ndihmon ndihmojmë ndihmojnë ndihmoje ndihmonte ndihmoja ndihmoi ndihmove ndihmova ndihmuan ndihmomë ndihmonin ndihmoji ndihmuat ndihmoftë ndihmonim ndihmonit ndihmuam ndihmojn ndihmohen ndihmohet ndihmonë nihmoj nidhmoj
 vajzë	vajza vajzë vajzën vajzat vajze vajzës vajzave vajzash vajë
@@ -143,6 +144,7 @@ mundem	mundem mundesh mundet mundemi mundeni munden mundesha mundej mundeshe mun
 prej	prej pre pej
 deri	deri teri
 filloj	filluar fillon fillojmë filloi filloj fillo fillojë filloni fillojnë filluan fillova fillosh filluam fillove fillonte filloje filloja fillonin fillonim filluat fillojn fillohet fillonit
+ma	ma
 atëherë	atëherë
 largoj	largohu largohem larguar largohet largohesh largohemi largohuni largohen largo largoje largoheni largoj largoni largohej largova largove larguan largojmë largohesha largon largoi largojë largoheshe largoji largojnë larguam largoja largoheshin larguat largoheshim largonte largoheshit largonin largoju largonim largonit largofshin
 njoh	njoh njohur njeh njoha njohim njohin njihja njohëm njohë njohësh njihte njohe njohje njohu njohja njehë njohën njohës njef njof njohët njehe njohjet njohi njohtur njohta njoftur njehni njofta njih njehje njofa
@@ -178,7 +180,6 @@ makinë	makinë makina makinën makinës makine makinat makinave makinash
 gati	gati
 dëshiroj	dëshiron dëshironi dëshiroj dëshirojnë dëshironte dëshiroja dëshirojmë dëshiruar dëshiroje dëshirojë dëshironit dëshironin dëshironim dëshiroi dëshirova dëshironë dëshirojn dëshirove dëshiruat dëshiro dëshiruam dëshiruan
 gjithçka	gjithçka
-gjithmonë	gjithmonë gjithnjë
 ndaloj	ndalo ndaluar ndaloni ndaloj ndalosh ndaloje ndalojë ndalojmë ndalon ndaloi ndalojnë ndalova ndaloja ndalove ndalonte ndaluan ndaluam ndaluat ndalonim ndalonin ndaloji ndalonit ndalojn ndaloftë
 gjatë	gjatë gjata gjati ghat
 vazhdoj	vazhdo vazhdon vazhdojmë vazhdoni vazhdoj vazhdojnë vazhdojë vazhdosh vazhduar vazhdoi vazhdonte vazhdoje vazhdoja vazhduan vazhdove vazhdohet vazhdova vazhdonin vazhdonim vazhduam vazhdojn vazhduat vazhdonit
@@ -198,7 +199,6 @@ natë	natën natë natës nate nata netë net netët netëve netësh
 vogël	vogël vogla vegjël vogëla voglën voglat
 akoma	akoma
 vërtet	vërtet
-re	re reja retë ren
 burrë	burrë burri burra burrat burrin burrit burrave burr burrash burro
 jetoj	jeton jetoj jetuar jetojnë jetosh jetojmë jetojë jetoni jetonte jetoja jetoje jeto jetonin jetoi jetonim jetuan jetova jetojn jetohet jetuam jetonit jetove jetonë jetojsh jetofsh jetofshim jetuaka jetofshi
 sigurisht	sigurisht
@@ -212,6 +212,7 @@ shpejt	shpejt
 mbyll	mbylle mbyllur mbyll mbylli mbyllet mbyllim mbyllësh mbyllni mbylleni mbyllin mbyllja mbyllë mbylla mbyllje mbyllën mbyllte mbyllëm mbyllnin mbyllët mbyllnim mbyllu mbylltë mbyllnit mbyllka mshel
 poshtë	poshtë
 askush	askush askujt askënd askë
+gjithmonë	gjithmonë
 vetë	vetë vet veta vetën vetës vehte vetave vetëve vetash vetat vetëëm
 familje	familjen familje familja familjes familjet familjeve familjeje familjesh
 vë	vë vënë vini vura vuri vësh vinte vëmë vure vër vinin vunë vinim vinit vumë vije vutë vija
@@ -227,7 +228,7 @@ mbaroj	mbaruar mbaroi mbaroj mbaron mbarojë mbarova mbaruam mbarojmë mbarove m
 armë	armë armën armët arma armëve arme armësh armës
 dërgoj	dërguar dërgoj dërgoi dërgon dërgojmë dërgoni dërgo dërgojnë dërgova dërgojë dërguan dërgosh dërgoje dërgove dërgonte dërgoja dërgohet dërguam dërgohen dërgonin dërgoji dërguat dërgonim dërgojn dërgoheshin dërgomë dërgonit dërgoju dërgoftë
 tre	tre
-mi	mi miu minj minjtë miun miut minjve minjsh
+përse	përse ce
 qytet	qytet qyteti qytetit qytetin qytete qytetet qyteteve qytetë qytetesh
 fitoj	fituar fiton fitoj fitosh fitojmë fitojë fitoi fitova fitove fitojnë fitoni fituam fitonte fitoje fitoja fituan fito fitohet fitonim fituat fitohen fitonin fitonit fitojn fitoftë
 ende	ende
@@ -238,6 +239,7 @@ vesh	vesh veshur veshin veshët veshje veshi veshësh veshë veshjet veshja vesh
 ndaj	ndaj ndarë ndajmë ndahemi ndajë ndan ndajnë ndahet ndani ndahen ndaje ndanë ndamë ndahuni ndahem ndava ndau ndave ndahesh ndaja ndante ndaheni ndanim ndatë ndahu ndaji ndanin ndahej ndahesha ndaheshim ndanit
 fut	futur fut futu fute fus futet futesh futi futa fusim fusësh futën futja futëm fuste futni futët futje futim futin futsha futnit futnin
 takoj	takuar takoj takon takova takosh takuam takojë takoja tako takojmë takove takoje takoni takonte takoi takojnë takuan takuat takonim takonit takonin takot takofshim
+luaj	luaj luajtur luan luajmë luash luajnë luajë luani luaje luante luaja luajte luanim luanin luajta luajn luaji luajt luj
 anë	ana anën anë anash anët ane anësh anëve
 përsëri	përsëri
 bashkë	bashkë bashku bashk bashka
@@ -247,7 +249,6 @@ hyj	hyr hyrë hyj hyn hyni hysh hyjë hyjmë hyri hyjnë hy hyra hynte hyja hyji
 heq	heq hequr hiqe hiq heqim hiqi heqësh hiqni heqin hoqa hoqi hiqja hoqe hoqën hiqte hiqje hiqnin hoqëm hiqnim hjek hiqnit hoqët heqshim heqsh
 zonjë	zonja zonjë zonje zonjën zonjat zonjës zonjave zonjash
 nënë	nëna nënë nënën nënës nena nënat nëne nënave nenat nënash nenës nanë nenën nenave nenë nene
-ri	ri rinj
 ndihmë	ndihmë ndihmën ndihma ndihme ndihmat ndihmave ndihm nihmë ndihmash
 dhomë	dhomën dhomë dhoma dhomës dhome dhomat dhomave dhomash
 vonë	vonë
@@ -289,7 +290,6 @@ fortë	fortë fort forta forti fortët fortin
 muaj	muaj muajin muajsh muaji muajt muajit muajve muajë muajtë muej muj
 mes	mes mesin mesi mesit mese
 frikë	frikë frika frike frikën frikës frikërat frikat frikët frikëra frikave frikash frikërave
-luaj	luaj luajtur luajmë luash luajnë luajë luaje luante luaja luajte luanim luajta luajn luaji luajt luj
 shkruaj	shkruar shkruan shkruaj shkruash shkroi shkruajtur shkruante shkruani shkruaje shkruajnë shkruaja shkrova shkruajë shkruajmë shkruajta shkrove shkruajte shkruaji shkruanin shkruajn shkruat shkrua shkruanim shkruam shkruanit
 provoj	provuar provoj provoje provo provojmë provosh provoni provon provova provojë provoi provoja provojnë provove provuam provonte provuan provohet provonim provoji provonin provonit provuat provoftë
 ndonjëherë	ndonjëherë
@@ -414,7 +414,7 @@ grup	grup grupi grupin grupit grupe grupet grupeve grupim grupë
 zbuloj	zbuluar zbuloj zbulojmë zbuloi zbulova zbulon zbuluan zbulojnë zbulojë zbuluam zbulove zbulohet zbuloni zbulo zbuloje zbulonte zbuloja zbulohen zbuluat zbulonin zbulohej zbulonim zbulohemi zbulonit
 thërras	thërras thërret thërrasin thërrasim thërrasësh thërrisni thërrasë thërriste thërrit thërrite thërritur thërriti thërritje thërrita thërritën thërritët thërritni thërritja
 erë	erë era erën erës ere erërat erëra erërave erërash
-bashkohem	bashkuara bashkuar bashkohet bashkohen bashkohesh bashkohem bashkohemi bashkohu bashkoheni bashkojmë bashkon bashkuan bashkohuni bashkoj bashkojë bashkohej bashkova bashkoi bashkove bashkoni bashkonte bashkojnë bashko bashkoheshe bashkohesha bashkuat bashkuam bashkoheshin bashkoja bashkoji bashkoje bashkoheshim bashkoheshit bashkonin bashkonim bashkoftë
+bashkoj	bashkuara bashkuar bashkohet bashkohen bashkohesh bashkohem bashkohemi bashkohu bashkoheni bashkojmë bashkon bashkuan bashkohuni bashkoj bashkojë bashkohej bashkova bashkoi bashkove bashkoni bashkonte bashkojnë bashko bashkoheshe bashkohesha bashkuat bashkuam bashkoheshin bashkoja bashkoji bashkoje bashkoheshim bashkoheshit bashkonin bashkonim bashkoftë
 pesë	pesë
 amerikan	amerikan amerikane amerikanë amerikanët amerikanëve amerikani amerikanin amerikanit amerikanësh
 thirr	thirrur thirr thirre thirri thirra thirrja thirrni thirrë thirrën thirret thirrët thirrëm thirrim thirresh thirrësh thirrin thirrës thirrnin thirrte thirrmë
@@ -465,6 +465,7 @@ faj	faji fajin faj fajit fajet faje fajeve
 zgjedh	zgjedhur zgjedh zgjodhi zgjodha zgjidhja zgjedhim zgjedhin zgjidhni zgjedhi zgjidhte zgjedhni zgjedhte zgjedhët zgidh zgjedhimit zgedh
 lind	lindur linda lindi lind lindë lindin lindën linde lindte lindësh lindës lindim lindni lindëm lindnin lindët lindnit lindnim
 festë	festë festa festën festës feste festat festave festash
+tall	tallesh tallem tall tallur talleni tallet tallen tallesha talle tallej tallin tallemi tallni talleshe talleshin tallën tallnin tallu tallja talli talla tallët tallëm tallte tallim
 mijë	mijë mijëra
 letër	letër letra letrat letrën letre letrave letrës letrash
 film	film filmi filmin filma filmat filmit filmave filmash filmim
@@ -567,6 +568,7 @@ publik	publik publike publiku publikun publikut publikë
 përveç	përveç
 provë	prova provë provat prove provën provave provës provash
 kuq	kuqe kuq kuqja kuqtë kuqi kuqin kuqke kuqte kuqur
+mi	mi miu minj minjtë miun miut minjve minjsh
 betohem	betohem betuar betohesh betohu betohet betohemi betoheni betohen betohej betohesha betohuni betoheshe betoheshin
 prapë	prapë
 mut	mut muti mutin mutit mutra mutrat
@@ -582,7 +584,6 @@ at	at ati atit atin etërit etërve etër
 dhuratë	dhuratë dhurata dhuratën dhuratat dhurate dhuratave dhurat dhuratash dhuratës
 sillem	sillet sillesh silleni sillu sillen sillem sillemi sillej silluni silleshe sillesha sillur silleshin silleshim
 ndërtoj	ndërtuar ndërtojmë ndërtoj ndërtojnë ndërtoi ndërton ndërtohet ndërtojë ndërtuan ndërtoni ndërtova ndërtuam ndërtonim ndërtonte ndërtohen ndërtove ndërto ndërtonin ndërtohej ndërtoja ndërtuat ndërtoje
-tall	tallesh tall tallur tallet talle tallin tallni tallën tallnin tallu tallja talli talla tallët tallëm tallte tallim
 shtyp	shtyp shtypur shtype shtypi shtypit shtypin shtypni shtypësh shtypja shtypje shtypa shtypë shtypim shtypet shtypën shtypte shtypës shtypëm shtypnin shtypët shtypnim
 dhimbje	dhimbje dhimbjen dhimbja dhimbjet dhimbjes dhimbjeve dhimbjeje dhimbjesh
 pastër	pastër pastra pastërt pastërta pastën
@@ -606,7 +607,6 @@ qytetar	qytetarët qytetarëve qytetarë qytetar qytetare qytetari qytetarit qyt
 rrezikshëm	rrezikshme rrezikshëm
 ndalem	ndalu ndalet ndaluni ndalemi ndalem ndalesh ndaleni ndalen ndalur ndalej ndalesha ndaleshin ndaleshit ndaleshe
 lëvizje	lëvizje lëvizjet lëvizjen lëvizjes lëvizja lëvizjeve lëvizjeje lëvizjesh
-luan	luan luani luanin luanit luanët luana luanë luanëve luanve luanësh
 pranë	pranë
 shqiptar	shqiptar shqiptarët shqiptarë shqiptarëve shqiptari shqiptarit shqiptarin shqiptarësh
 qendër	qendër qendra qendrën qendrës qendrat qëndër qendrave qendre qendrash
@@ -636,6 +636,7 @@ kot	kot koti kotë
 mbyt	mbytur mbyt mbys mbytet mbyte mbysin mbyti mbytesh mbyta mbytem mbytën mbytë mbysim mbyteni mbytni mbyste mbysësh mbyten mbytje mbytej mbytesha mbytja mbytemi mbytësh mbytës mbyteshin mbytëm mbytu mbyteshe mbytët mbyteshim mbytini mbytim mbytsh mbytnin
 mal	mal malit mali male malet malin maleve mol malesh
 rëndë	rëndë rënda randë
+gjithnjë	gjithnjë
 tamam	tamam
 gisht	gishtin gishtat gisht gishtave gishta gishti gishtash gishtit gishtë gishtërinj gjisht
 kafe	kafe kafen kafenë kafeje kafja kafesë kafes kafetë kafet
@@ -646,7 +647,7 @@ asnjëherë	asnjëherë
 mbledh	mbledhur mbledh mbledhim mblidhni mbledhësh mbledhë mbledhin mblidh mblodhën mblodhi mbledhi mblodha mblidhte mblodhëm mblidhja mbledhni mblodhe mblidhje mblidhnim mblidhnin mbledhëm mledh mblodhët mblidhnit
 vlerë	vlerë vlera vlerat vlerën vlere vlerave vlerës vlerash
 ndjenjë	ndjenja ndjenjë ndjenjat ndjenjën ndjenje ndjenjave ndjenjës ndjenjash
-gjermane	gjermane gjerman gjermani gjermanët gjermanisë gjermanë gjermanet gjermanëve gjermanin gjermanit gjermaneve gjermanësh gjermanja gjermanes gjermanen
+gjerman	gjermane gjerman gjermani gjermanët gjermanisë gjermanë gjermanet gjermanëve gjermanin gjermanit gjermaneve gjermanësh gjermanja gjermanes gjermanen
 kat	katin kate kati kat katit katet kateve katesh
 plotë	plotë plota
 zgjidhje	zgjidhje zgjidhjen zgjidhjet zgjidhja zgjidhjes zgjidhjeje zgjidhjeve zgjidhjesh
@@ -754,7 +755,6 @@ shfaqje	shfaqje shfaqjen shfaqjes shfaqja shfaqjet shfaqjeje shfaqjeve shfaqjesh
 ngjarje	ngjarje ngjarjes ngjarjet ngjarja ngjarjen ngjarjeve ngjarjeje ngjarjesh
 garë	garë gara garën garat gare garës garave garash
 det	detit det deti detin dete detet deteve dejt
-meqë	meqë meqenëse
 martesë	martesë martesa martesën martesës martese martesat martes martesave martesash
 plot	plot
 linjë	linjë linja linjën linjat linjës linje linjave linjash
@@ -818,6 +818,7 @@ ngjitem	ngjitur ngjitu ngjitet ngjitem ngjitemi ngjitesh ngjiten ngjituni ngjite
 mashkull	mashkull meshkujt meshkuj mashkulli meshkujve mashkullit mashkullin meshkujsh mashkujt
 vrit	vrit vriteni vritet vritesh vriti vritem vritë
 veproj	vepruar vepron veprojmë veprojnë veprojë veproni veproj vepro vepronte veproi veprove vepruan veprohet veproja veprova vepronin veproje vepruam vepronim vepruat vepronit
+meqë	meqë
 planifikoj	planifikuar planifikon planifikoj planifikojmë planifikojnë planifikoni planifikova planifikoi planifikonte planifikuam planifikoja planifikove planifikohet planifikuan planifikoje planifikojë planifikonin planifikonim planifikuat
 shkel	shkelje shkelur shkel shkele shkelin shkelni shkeli shkelësh shkelë shkelja shkeljet shkela shkelim shkelën shkelte shkelës shkelëm shkelët shkelnin shkelnit shkelnim
 krye	krye kreut kryera kreun kreu krerët kryesh kry krerëve krerë krie krerësh
@@ -1253,7 +1254,6 @@ rob	rob robi robër robërit robtë
 lut	lutëm lus luta lut lutja lute luti lutën lutni lutët lutim lutur
 litar	litar litarin litarët litari litarë litarit litarëve
 kopsht	kopshtin kopsht kopshti kopshtit kopësht kopshtet kopshte kopshteve kopshtesh
-tallem	tallem talleni tallen tallesha tallej tallemi talleshe talleshin
 ndyrësirë	ndyrësirë ndyrësira ndyrësirat ndyrësirën ndyrësirave ndyrësir
 terrorist	terrorist terroristë terroriste terroristët terroristëve terroristi terrorista terroristat terroristash
 shtator	shtator sht shtatorit shtatori shtatorin
@@ -1726,6 +1726,7 @@ vërej	vërejtur vëreni vëren vërehet vërej vërejnë vërejta vëretë vër
 merakosem	merakos merakosesh merakosur merakosem merakoset merakosemi merakosesha merakoseni
 përshtypje	përshtypje përshtypjen përshtypja përshtypjet
 afat	afat afati afatit afatin afatet afate afateve afatesh
+luan	luani luanit luanët luanin luana luanë luanëve luanve luanësh
 kukull	kukull kukulla kukullën kukullat kukullave kukullës kukullash
 lopë	lopë lope lopët lopa lopën lopëve lopës lopësh
 patate	patate patatet patatesh patateve patates patatja pataten
@@ -2548,7 +2549,7 @@ grackë	grackë gracka grackën grackat
 emigrant	emigrantë emigrantët emigrantëve emigrant emigranti emigrantësh emigrantit emigrantin
 kusur	kusurin kusur kusuri kusuret kusure
 kuletë	kuletën kuleta kuletë kuletat
-furnizohem	furnizuar furnizon furnizohet furnizojnë furnizoj furnizojmë furnizohen furnizohemi furnizohem furnizoheshin furnizohuni furnizoheni furnizohesh furnizohej furnizoheshim
+furnizoj	furnizuar furnizon furnizohet furnizojnë furnizoj furnizojmë furnizohen furnizohemi furnizohem furnizoheshin furnizohuni furnizoheni furnizohesh furnizohej furnizoheshim
 jastëk	jastëk jastëkun jastëku jastëkut jastëkët jastëkë jastëkëve
 gjah	gjah gjahu gjahun gjahut
 qep	qep qepur qepa qepët
@@ -2683,12 +2684,13 @@ ashtuquajtur	ashtuquajtur ashtuquajturi ashtuquajtura ashtuquajturit ashtuquajtu
 konsumator	konsumatorët konsumatorëve konsumatorit konsumatorë konsumatorin konsumatori konsumator
 dajë	dajë dajën dajës daja daje dajat dajave
 fërkoj	fërkoj fërkon fërkoje fërko fërkuar fërkoni fërkova fërkojë fërkojmë fërkoi fërkoji fërkoja fërkonte fërkove fërkojnë fërkonim fërkonin
-rejë	rejat rejin reje rejash rejave rejës rejën reja
+rejë	rejat rejin reje rejash rejave rejës rejën
 mysliman	mysliman myslimane myslimanë myslimanët myslimanëve myslimanësh myslimani myslimanin myslimanit
 vreshtari	aa ae vreshtari vreshtaria
 preh	prehet prehu prehtë prehje prit prë preh prisja priste prisje prisnim preu preke prisnin preva preka preve prisnit pretë prefsh premë prekeni prekemi preftë prefshi prekej prefshin
 legjendar	legjendare legjendar legjendari
 raft	raft raftin rafte raftet rafti raftit rafteve
+meqenëse	meqenëse
 hiç	hiç
 lexues	lexuesit lexues lexuesve lexuesin lexuesi lexuesish
 acid	acid acidi acidit acide acidin acidet acideve acidesh
@@ -2854,6 +2856,7 @@ vloj	vlorë vlon vlonte vluar vlojnë vloni vlojmë vlonin
 bashkësi	bashkësisë bashkësi bashkësia bashkësinë bashkësive bashkësitë bashkësie
 arbër	arben arbër arbri arbrin
 bejzboll	bejzbolli bejzbollit bejzboll bejzbollin
+re	retë reve
 nofull	nofullën nofulla nofullat nofull nofulle nofullave nofullash
 fishekzjarr	fishekzjarrë fishekzjarrët fishekzjarr fishekzjarreve fishekzjarri fishekzjarrësh fishekzjarrëve fishekzjarrit
 doganë	dogana doganës doganat doganave doganë doganën doganash dogane

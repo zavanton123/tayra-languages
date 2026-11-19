@@ -68,8 +68,8 @@ HAND = {
     "qëndrimin": ["qëndrim"], "lirim": ["lirim"], "lirimin": ["lirim"], "shkëlqim": ["shkëlqim"], "përparim": ["përparim"],
     "fatlum": ["fatlum"], "guximtar": ["guximtar"], "unik": ["unik"], "kristal": ["kristal"], "patriot": ["patriot"],
     "dashurie": ["dashuri"], "premto": ["premtoj"], "premton": ["premtoj"], "gjata": ["gjatë"],
-    # The reflexive and passive u (u kthye) and the pronoun pair ta (ta jap), not forms of unë and ai.
-    "u": ["u"], "ta": ["ta"],
+    # The reflexive and passive u (u kthye) and the pronoun pairs ta and ma (ta jap, ma jep), not forms of unë and ai.
+    "u": ["u"], "ta": ["ta"], "ma": ["ma"],
     # mbrëmje "evening" is a word of its own, not a form of mbrëmë "last night".
     "mbrëmje": ["mbrëmje"], "mbrëmja": ["mbrëmje"], "mbrëmjet": ["mbrëmje"],
     # datë "date", not daj "to divide"; lum "happy" (të lumtë), not lumë "river".
@@ -78,8 +78,17 @@ HAND = {
     # Spellings of other words' forms: jan of janë, morra and morri of mora and mori, kurr of kurrë, të gjesh of gjej.
     "jan": ["jam"], "morra": ["marr"], "morri": ["marr"], "morrën": ["marr"], "morrëm": ["marr"], "morrët": ["marr"],
     "kurr": ["kurrë"], "gjesh": ["gjej"],
+    # The elided words, which the reader and the counts cut off at the apostrophe (s'kam, t'i, ç'ke, m'u).
+    "s": ["nuk"], "t": ["të"], "ç": ["çfarë"], "m": ["më"],
     # Forms of words with entries of their own, filed under a look-alike.
     "qan": ["qaj"], "pika": ["pikë"], "lidhja": ["lidhje"], "enët": ["enë"], "tanë": ["ynë"], "lindja": ["lindje"],
+    # Homographs whose commoner word the pack's table misses: të mi "my" (not mi "mouse"), të tu "your", e re "new"
+    # (not re "cloud"), luan "plays" (not luan "lion").
+    "mi": ["im", "mi"], "tu": ["yt"], "re": ["ri"], "reja": ["ri"], "luan": ["luaj"],
+    "retë": ["re"], "reve": ["re"], "luanit": ["luan"], "luanët": ["luan"], "luanë": ["luan"], "luanëve": ["luan"],
+    "luana": ["luan"], "luanësh": ["luan"], "luanve": ["luan"], "luani": ["luan", "luaj"], "luanin": ["luan", "luaj"],
+    # Words of their own the pack files as another's form: gjithnjë beside gjithmonë, përse beside pse, meqenëse beside meqë.
+    "gjithnjë": ["gjithnjë"], "përse": ["përse"], "meqenëse": ["meqenëse"],
     # Days of the week (e mërkurë, të dielën), which the pack lacks.
     "mërkurë": ["mërkurë"], "mërkurën": ["mërkurë"], "mërkura": ["mërkurë"], "diel": ["diel"], "dielën": ["diel"],
     "diela": ["diel"],
@@ -89,9 +98,17 @@ OVERRIDES = {**TABLE, **HAND}
 
 # Misspellings, dialect spellings, pieces and foreign words the pack has.
 EXCLUDE = {
-    "eshtë", "eshte", "eshta", "degjôj", "marre", "tu", "tun", "tuk", "tungë", "tye", "albanian", "forms", "nime", "nani",
+    "eshtë", "eshte", "eshta", "degjôj", "marre", "tun", "tuk", "tungë", "tye", "albanian", "forms", "nime", "nani",
     "ëm", "mo", "ngë", "nukë", "nëk", "çar", "ktu", "kah", "atu", "ay", "eti", "syresh", "shpi", "hide", "hidja", "tend",
     "ŋa", "umb", "um", "pro", "pron", "proj", "ska", "silli", "gjera", "gjerat", "gjerave", "gjerash", "boj", "çë",
     # Names and English (Dan, Dave, John, he), and be, mostly the news' BE (the EU).
     "dan", "dave", "dani", "dante", "xhon", "he", "be", "kame",
 }
+
+# Words the pack files under their mediopassive or feminine (bashkoj under bashkohem, gjerman under gjermane), shown as
+# the word itself.
+DISPLAY = {"bashkohem": "bashkoj", "furnizohem": "furnizoj", "gjermane": "gjerman"}
+
+# Forms sent to a word by hand above that stay with it, though the word's own spelling goes to another (retë stays with
+# re "cloud", whose spelling re is mostly ri's).
+STAY = {"retë", "reve", "luanit", "luanët", "luanë", "luanëve", "luana", "luanësh", "luanve", "luani", "luanin"}

@@ -229,6 +229,7 @@ import frequency_albanian  # noqa: E402
 
 OVERRIDES["sq"] = frequency_albanian.OVERRIDES
 EXCLUDE["sq"] = frequency_albanian.EXCLUDE
+DISPLAY["sq"] = frequency_albanian.DISPLAY
 
 # How common another word must be, against the form itself, to take a form that is also a word:
 # a more common word ("era" to "ser"), or a less common one of a kind that inflects for
@@ -5313,6 +5314,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     onward = None
                 # A Welsh form sent to a word by hand stays with it (meini of maen "stone", whose spelling is mostly bod's).
                 if language == "cy" and form in overrides:
+                    onward = None
+                # So do the Albanian ones listed (retë of re "cloud", whose spelling is mostly ri's).
+                if language == "sq" and form in frequency_albanian.STAY:
                     onward = None
                 # An Arabic word spelled as another's verb form keeps its own forms (يتكون of تكون, not of كان), and a verb
                 # spelled as another word keeps its own (لن of لان "to soften", not of لأن); but not one sent to its word by
