@@ -23,6 +23,7 @@ import math
 import os
 import re
 import sys
+import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import frequency_persian  # noqa: E402
@@ -54,6 +55,75 @@ def rules(rank_up_to):
     if rank_up_to <= 4000:
         return 0.95, 320, 550
     return 0.95, 350, 600
+
+
+# Ancient Greek words are matched as the reader matches them (AncientGreekParser) and as the list was built (greek_folded in
+# build_frequency_list.py): the grave read as the acute, an enclitic's second accent left out, the elision's apostrophe
+# straight. Keep the three the same.
+GRC_ACCENTS = "\u0301\u0342"
+
+
+def greek_folded(word):
+    decomposed = unicodedata.normalize("NFD", word.replace("\u2019", "'")).replace("\u0300", "\u0301")
+    accents = [i for i, c in enumerate(decomposed) if c in GRC_ACCENTS]
+    if len(accents) > 1 and decomposed[accents[-1]] == "\u0301":
+        decomposed = decomposed[:accents[-1]] + decomposed[accents[-1] + 1:]
+    return unicodedata.normalize("NFC", decomposed)
+
+
+def greek_bare(word):
+    """An Ancient Greek word without accents, breathings, iota subscripts or diaereses, lowercase."""
+    return "".join(c for c in unicodedata.normalize("NFD", word.lower()) if not unicodedata.combining(c))
+
+
+# The case endings an Ancient Greek name takes, by the ending of its nominative, compared bare (greek_bare), as the accent
+# moves with the ending (Δημήτριος, Δημητρίου): 2nd declension -ος, 1st -ας, -ης, -α, -η, 3rd -ων, -ις, -ευς, -ω, and
+# plural place names in -αι, -οι.
+GRC_NAME_ENDINGS = [
+    ("ους", ("ους", "ου", "ουν")),
+    ("ευς", ("ευς", "εως", "ει", "εα", "ευ")),
+    ("ος", ("ος", "ου", "ω", "ον", "ε")),
+    ("ας", ("ας", "ου", "α", "αν")),
+    ("ης", ("ης", "ου", "η", "ην", "ους", "ει", "ε")),
+    ("ων", ("ων", "ωνος", "ωνι", "ωνα", "ον", "οντος", "οντι", "οντα")),
+    ("ις", ("ις", "ιδος", "ιδι", "ιδα", "ιν", "ι", "εως", "ει")),
+    ("αι", ("αι", "ων", "αις", "ας")),
+    ("οι", ("οι", "ων", "οις", "ους")),
+    ("α", ("α", "ας", "ης", "η", "αν")),
+    ("η", ("η", "ης", "ην")),
+    ("ω", ("ω", "ους", "οι", "ουν")),
+]
+
+
+def grc_name_forms(names):
+    """The bare case forms of the course's Ancient Greek names (Νικίας: νικιου, νικια, νικιαν)."""
+    out = set()
+    for name in names:
+        bare = greek_bare(name)
+        out.add(bare)
+        for ending, endings in GRC_NAME_ENDINGS:
+            if bare.endswith(ending):
+                out.update(bare[:-len(ending)] + e for e in endings)
+                break
+    return out
+
+
+# What the reader would cut otherwise than the text means: an elided word keeps its apostrophe (δι’), and the Greek
+# question mark and ano teleia are letters to it.
+GRC_ELISION = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff][’'᾽ʼ](?![^\W\d_])")
+
+
+def greek_problems(text):
+    problems = []
+    if "\u037e" in text:
+        problems.append("U+037E (Greek question mark): write the ASCII ';'")
+    if "\u0387" in text:
+        problems.append("U+0387 (ano teleia): write the middle dot '·' (U+00B7)")
+    if unicodedata.normalize("NFC", text) != text:
+        problems.append("the text is not NFC: write precomposed letters")
+    for elided in sorted(set(m.group(0) for m in GRC_ELISION.finditer(text))):
+        problems.append(f"an elided word ('{elided}'): write the word in full")
+    return problems
 
 
 GREEK_ACCENTED = {"ά": "α", "έ": "ε", "ή": "η", "ί": "ι", "ό": "ο", "ύ": "υ", "ώ": "ω", "ΐ": "ϊ", "ΰ": "ϋ"}
@@ -151,6 +221,8 @@ def fold(code, word):
     # Persian words are matched as the reader matches them: ک and ی for ك and ي, no marks, no non-joiner.
     if code == "fa":
         return frequency_persian.bare(frequency_persian.persian_fold(word))
+    if code == "grc":
+        return greek_folded(word)
     # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
     if code == "hy":
         return word.replace("եւ", "և")
@@ -2117,7 +2189,7 @@ def welsh_name_pattern(name):
 QUESTION_HEADERS = {
     h.replace("\u00a0", " ") for h in (
         "أسئلة:", "Въпроси:", "Pitanja:", "Preguntes:", "Otázky:", "Cwestiynau:", "Spørgsmål:", "Fragen:",
-        "Ερωτήσεις:", "Questions:", "Demandoj:", "Preguntas:", "Küsimused:", "پرسش\u200cها:", "Kysymykset:",
+        "Ερωτήσεις:", "Ἐρωτήσεις:", "Questions:", "Demandoj:", "Preguntas:", "Küsimused:", "پرسش\u200cها:", "Kysymykset:",
         "Questions :", "Ceisteanna:", "Ceistean:", "שאלות:", "सवाल:", "Kérdések:", "Հարցեր\u2024", "Հարցեր։",
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
@@ -2431,6 +2503,9 @@ def check(path, brief=False):
     # A Latin word the list lacks counts as a case form of a name (Marcum, Romae) or as the word before its enclitic.
     if code == "la":
         la_names = latin_name_forms(course.get("names", []))
+    # An Ancient Greek word the list lacks counts as a name when it is a case form of one (Νικίου, Δημητρίῳ).
+    if code == "grc":
+        grc_names = grc_name_forms(course.get("names", []))
     seen_new = set()
     ok = True
     report = []
@@ -2538,6 +2613,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Spurningar:", "", text)
         if code == "la":
             text = re.sub(r"(?m)^Quaestiones:", "", text)
+        if code == "grc":
+            text = re.sub(r"(?m)^Ἐρωτήσεις:", "", text)
         if code == "tl":
             text = re.sub(r"(?m)^Mga tanong:", "", text)
         if code == "ga":
@@ -2606,6 +2683,8 @@ def check(path, brief=False):
             lowered = [w if w in ranks or w in names or w not in is_names else "\u0000name" for w in lowered]
         if code == "la":
             lowered = [latin_word(w, ranks, names, la_names) for w in lowered]
+        if code == "grc":
+            lowered = [w if w in ranks or w in names or greek_bare(w) not in grc_names else "\u0000name" for w in lowered]
         if code == "ka":
             lowered = [w if w in ranks or w in names or not georgian_name(w, names) else "\u0000name" for w in lowered]
         if code == "fa":
@@ -2650,6 +2729,8 @@ def check(path, brief=False):
         # The reader keeps the vowel signs and the tatweel in an Egyptian word: كتاب written with them is another word.
         if code == "arz" and EGYPTIAN_MARKS.search(lesson["text"]):
             problems.append("vowel signs or tatweel in the text: write it unvowelled")
+        if code == "grc":
+            problems += greek_problems(lesson["text"])
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
