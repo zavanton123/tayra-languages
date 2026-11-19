@@ -34,6 +34,9 @@ import sqlite3
 import sys
 from collections import Counter, defaultdict
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from frequency_urdu import TABLE_PRONOUNS, urdu_fold  # noqa: E402
+
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
 # Wiktionary dump.
@@ -81,6 +84,7 @@ SOURCES = {
     "kk": ("Kazakh", "kazakh", "dictionaries/kaikki.org-dictionary-Kazakh.jsonl.gz"),
     "az": ("Azerbaijani", None, "dictionaries/kaikki.org-dictionary-Azerbaijani.jsonl.gz"),
     "af": ("Afrikaans", None, "dictionaries/kaikki.org-dictionary-Afrikaans.jsonl.gz"),
+    "ur": ("Urdu", "urdu", "dictionaries/kaikki.org-dictionary-Urdu.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -113,6 +117,8 @@ SKIP_FORM_TAGS_BY_SOURCE = {
     "hu": {"possessive", "possessed-single", "possessed-many", "error-unrecognized-form"},
     # Malay entries give each word's Jawi spelling as a form; the app reads Malay in Latin letters.
     "ms": {"Jawi"},
+    # Urdu entries list the Hindi spelling (Devanagari) as a form.
+    "ur": {"Hindi"},
 }
 # The Azerbaijani personal pronouns' table lists all six on each one's page; a form goes to its own person and number.
 AZERBAIJANI_PERSONAL = {"mən": {"first-person", "singular"}, "sən": {"second-person", "singular"}, "o": {"third-person", "singular"},
@@ -298,7 +304,8 @@ def bengali_translation_entries(kept):
 
 
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"bn": clean_bengali, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length}
+CLEANERS = {"bn": clean_bengali, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
+            "ur": urdu_fold}
 
 
 # Swahili: the English Wiktionary names a verb with its hyphen ("passive of -penda"), and writes many forms as prose senses
@@ -662,6 +669,9 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
             stem = plain(word)[: min(3, len(word) - 1)]
             for x in d.get("forms", []):
                 if skipped_form(x, skip_tags) or other_pronoun_form(source, word, x):
+                    continue
+                # Urdu verb tables name their persons' pronouns (میں, تم, آپ) beside the forms, untagged or with the person's tags.
+                if source == "ur" and (not x.get("tags") or pos == "verb" and cleaner(x.get("form", "").strip()) in TABLE_PRONOUNS):
                     continue
                 form = cleaner(x.get("form", "").strip())
                 # A one-letter word has no forms, but for Azerbaijani's "o" ("he, she, it; that"): onu, ona, onun.
