@@ -15,4 +15,4 @@ split_sentence_exceptions: "Sur.|Sinj.|Dr.|eż.|Nru."
 word_chars: "a-zA-ZÀ-ÖØ-öø-ÿĀ-ſĊċĠġĦħŻż'"
 right_to_left: false
 show_romanization: false
-parser_type: spacedel
+parser_type: maltese
