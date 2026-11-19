@@ -1,0 +1,100 @@
+1	1601	skoler	
+2	1602	studhyoryon	
+3	1603	konna-tir	
+4	1604	reyn	
+5	1605	parkow	
+6	1606	profya	
+7	1607	seulabrys	
+8	1608	kevrennys	
+9	1609	tekstow	
+10	1610	vysytya	
+11	1611	kowrek	
+12	1612	kreffa	
+13	1613	omladhas	
+14	1614	sawya	
+15	1615	kodhans	
+16	1616	banow	vanow
+17	1617	downder	
+18	1618	a-derdro	
+19	1619	skiensek	
+20	1620	dioksid	
+21	1621	a-lebmyn	
+22	1622	owrek	
+23	1623	nerthek	
+24	1624	fresk	
+25	1625	temprek	
+26	1626	gwithans	
+27	1627	mencyon	
+28	1628	spladna	
+29	1629	hanter-bewnans	
+30	1630	lebmath	
+31	1631	derevyans	
+32	1632	spladnvraster	
+33	1633	deviser	dheviser dhevisoryon
+34	1634	glew	hlew klyw
+35	1635	defolyans	defolyansow dhefolyans
+36	1636	avonsyans	avonsyansow
+37	1637	pluv	bluv bluvow fluv
+38	1638	a-derdro'n	
+39	1639	tesen	desen tesennow
+40	1640	palores	balores paloresow
+41	1641	boghosek	boghosogyon voghosek
+42	1642	gwedhan	gwedhanes wedhan wedhanes
+43	1643	dowrgi	dhowrgeun dhowrgi dowrgeun dowrgy
+44	1644	berrhe	berrha berrhes berrheys berrhys verrhe verrheas
+45	1645	messach	messachys messajys vessajys
+46	1646	kudha	cudha gudha gudhons gudhys kudhys
+47	1647	dysker	dhyskoryon diskerys dyskoryon
+48	1648	neskar	neskerens
+49	1649	destna	desten testen
+50	1650	namoy	
+51	1651	havysi	
+52	1652	lyver-termyn	
+53	1653	warlinen	
+54	1654	yn-rag	
+55	1655	bledhynnyek	
+56	1656	dornskrif	
+57	1657	kuntellyans	
+58	1658	ti	
+59	1659	prag	
+60	1660	unnweyth	
+61	1661	yn-bann	
+62	1662	yethonieth	
+63	1663	treveglos	
+64	1664	godhasow	
+65	1665	golegys	
+66	1666	treusvewa	
+67	1667	leveryans	
+68	1668	systemow	
+69	1669	godhonydhyon	
+70	1670	krohen	
+71	1671	dhowrgleudhyow	
+72	1672	lojyk	
+73	1673	unsel	
+74	1674	gwandrans	
+75	1675	teknegieth	
+76	1676	komposyans	
+77	1677	othem	
+78	1678	kesolkenyow	
+79	1679	adhysk	
+80	1680	trovadnek	
+81	1681	sengel	
+82	1682	omdowloryon	
+83	1683	chons	chonsyow
+84	1684	abecedari	abecedaris abecedary
+85	1685	dehen	dhehen
+86	1686	gwithyas	gwithysi withyas wythysi
+87	1687	amontya	amont amontyes amontys
+88	1688	skeus	skeusow
+89	1689	glusek	lujek lusek
+90	1690	padel	padellow
+91	1691	medhegieth	medhygieth vedhegieth vedhygieth
+92	1692	serri	serras serrys sorras
+93	1693	logos	logojen logosen
+94	1694	degvledhen	degvledhynnyow dhegvledhen
+95	1695	greunvos	greunvosow reunvos
+96	1696	sin	sinys syn synys
+97	1697	arveth	arvethas arvethys
+98	1698	chevisya	chevisyes chevisys chevisyys jevisya
+99	1699	dasoberi	dasober dhasober dhasoberi tasoberi
+100	1700	mel	fel melion

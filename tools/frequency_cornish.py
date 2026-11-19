@@ -212,6 +212,9 @@ CORNISH_OVERRIDES = {
     **_to("poblans", "poblans", "boblans"),
     **_to("romans", "romans", "romansow"),
     **_to("tevi", "dyv", "tyv"),
+    **_to("kewsel", "kews", "gews"),
+    # The language's own name, written with a capital as a name is, is a word as Sowsnek is.
+    **_to("kernewek", "kernewek"),
 }
 
 CORNISH_EXCLUDE = {

@@ -1,0 +1,100 @@
+1	701	skav	scav
+2	702	frank	franc
+3	703	bronnvil	bronnviles vronnvil vronnviles
+4	704	hogen	hogednow hogennow
+5	705	kamm	gabmow gabmys gamm gammow kabm kabmow kammow kammys
+6	706	kregi	cregyn cregys gregas grog grogas grogsa grogys hregi kregyn kregys krog krogas
+7	707	ar	arow
+8	708	dhosedh	
+9	709	yeghes	
+10	710	poblek	
+11	711	koweth	coweth goweth gowetha gowethes howeth howetha howethes kowetha kowethys
+12	712	pryv	brev breves brevyon bryv freves prev preves prevow prevyon pryves pryvow
+13	713	treylyans	
+14	714	ledyer	
+15	715	versyon	
+16	716	leth	
+17	717	omma	obma
+18	718	argerdh	argerdhow
+19	719	tremena	dremen dremena dremenas dremenys thremena tremen tremenas tremenes tremenyas tremenys
+20	720	yow	
+21	721	hidrojen	
+22	722	tewl	dewl tewal
+23	723	filosofieth	filosofiethow
+24	724	diblans	dhiblans dyblans tiblans tyblans
+25	725	kresen	gresednow gresen grysyn kresennow
+26	726	mysi	mys vysi
+27	727	livrel	
+28	728	fia	fi fias fysa
+29	729	yn-mysk	
+30	730	urdh	
+31	731	universita	universites
+32	732	fytt	fyttow fyttys
+33	733	trev	drev
+34	734	kost	cost costys gost gostys hostys kostow kostys ost
+35	735	degi	degys dhegas dhegi dhug dog dug duges dugon dugys tegi
+36	736	musura	musur musurow musuryes musuryow musurys vusur vusura vusuryas
+37	737	troos	dewdros droos threys throos treis treys tros
+38	738	movyans	
+39	739	anodhans	
+40	740	tron	dron thronyow tronow
+41	741	down	dhown
+42	742	spys	spisow spysow
+43	743	delinyans	delinyansow dhelinyans dhelinyansow
+44	744	medhegneth	medhegnethow medhygneth vedhegneth
+45	745	gortos	gorta gortons gortys kortos kortys wortas wortos
+46	746	titel	
+47	747	serth	
+48	748	sewyans	
+49	749	naw	
+50	750	monyow	
+51	751	skath	skathow
+52	752	brastir	brastiryow vrastir vrastiryow
+53	753	ayrgylgh	ayrgelgh
+54	754	yeyn	yeynna
+55	755	dur	dhur duryow tur
+56	756	degea	degeas dhegea dhegeas tegea tegeas
+57	757	durya	dhurya dhuryas duryas duryes tursons turya turyas
+58	758	bilvil	bilvilyow vilvil
+59	759	frut	frutys
+60	760	meurgerys	
+61	761	teythyek	
+62	762	dustuni	
+63	763	gwyrdh	wyrdh
+64	764	lowarth	lowarthow lowarthyow
+65	765	kors	cors gors gorsen gorsow hors horses korsen korsennow korsow
+66	766	delanwes	delanwesow delanwesys dhelanwes dhelanwesow
+67	767	konvedhes	convedhes gonvedhas gonvedhens gonvedhes konvedhys
+68	768	politegores	
+69	769	ebron	
+70	770	hin	hinow hinyow
+71	771	askel	eskelli
+72	772	lesa	lesas lessa lessons lesys
+73	773	koos	cosow kosow
+74	774	ertach	
+75	775	nuklerek	
+76	776	peuns	beuns
+77	777	medhel	vedhel
+78	778	hwor	hwerydh wherydh whor
+79	779	fow	fowen fowys
+80	780	dhe'y	
+81	781	soudor	soudoryon
+82	782	helghya	helgh helghow helghyas helghyes helghys
+83	783	gover	goverow over overys wover woverow woveryow
+84	784	north-west	
+85	785	omdowler	
+86	786	gell	
+87	787	skrifennyas	skrifenysi
+88	788	gogledh	wogledh
+89	789	baner	banerow baneryow faner vaner vanerow
+90	790	arlodh	arlydhi
+91	791	furvyans	furvyansow
+92	792	leder	ledrow
+93	793	grug	grugow grugys hrug krugow rug rugys
+94	794	lehe	leha lehas lehes leheys lehi lehys lyhas
+95	795	medhek	medhogyon medhyk vedhek vedhogyon
+96	796	gwenen	gwenenen gwenenyow gwenyn wenen wenenen
+97	797	bardhonieth	vardhonieth
+98	798	skoodhya	
+99	799	hirder	
+100	800	radyo	radyos

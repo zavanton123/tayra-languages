@@ -36,6 +36,13 @@ class LessonQuestionsTest {
     }
 
     @Test
+    fun cornishQuestionsComeOff() {
+        val split = LessonQuestions.split("Tamsin a woer redya.\n\nGovynnow:\nPyth a woer Tamsin?\nHy a woer redya.")
+        assertEquals("Tamsin a woer redya.", split?.text)
+        assertEquals(listOf(LessonQuestion("Pyth a woer Tamsin?", "Hy a woer redya.")), split?.questions)
+    }
+
+    @Test
     fun blankLinesAmongTheQuestionsAndALineWrittenTwiceAreLetGo() {
         val split = LessonQuestions.split("Hasan çalışıyor.\n\nSorular:\nHasan ne yapıyor?\n\nÇalışıyor.\nNeden?\nNeden?\nÇünkü para lazım.")
         assertEquals(listOf("Hasan ne yapıyor?", "Neden?"), split?.questions?.map { it.question })

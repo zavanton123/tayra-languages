@@ -26,6 +26,7 @@ import sys
 import unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import frequency_cornish  # noqa: E402
 import frequency_persian  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -215,6 +216,9 @@ def fold(code, word):
     # So may the Welsh (mae'n, i'r).
     if code == "cy":
         return word.replace("’", "'").replace("ʼ", "'")
+    # And the Cornish (y'n, dhe'n, ha'y), as the reader has it.
+    if code == "kw":
+        return word.replace("’", "'").replace("‘", "'").replace("ʼ", "'")
     # And the Gaelic (a', b', dh'fhàg).
     if code == "gd":
         return word.replace("’", "'").replace("ʼ", "'").replace("‘", "'")
@@ -540,6 +544,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return welsh_tokens(text, ranks, names)
     if code == "gd":
         return gaelic_tokens(text, ranks, names)
+    if code == "kw":
+        return cornish_tokens(text, ranks, names)
     if code in FINNIC:
         return finnic_tokens(text, code)
     if code == "hi":
@@ -2119,6 +2125,34 @@ def welsh_tokens(text, ranks, names=frozenset()):
     return out
 
 
+# Cornish mutates a word's first letter (an gath of kath, y vamm of mamm, dhe Gernow): a form the list lacks counts as
+# the word it mutates (frequency_cornish.unmutated, as the list was built). A word with a hyphen (a-dro, yn-dann) the list
+# has counts whole; any other is its parts.
+CORNISH_WORD = re.compile(r"[^\W\d_]+(?:'[^\W\d_]+)*(?:-[^\W\d_]+(?:'[^\W\d_]+)*)*", re.UNICODE)
+
+
+def cornish_word(word, ranks, names=frozenset()):
+    """The list word or name a Cornish word is: itself if listed, else the commonest word it mutates."""
+    word = word.lower()
+    if word in ranks or word in names:
+        return word
+    found = [b for b in frequency_cornish.unmutated(word) if b in ranks or b in names]
+    return min(found, key=lambda b: ranks.get(b, len(ranks) + 1)) if found else word
+
+
+def cornish_tokens(text, ranks, names=frozenset()):
+    ranks = ranks or {}
+    out = []
+    text = text.replace("’", "'").replace("‘", "'").replace("ʼ", "'")
+    for match in CORNISH_WORD.finditer(text):
+        word = match.group(0)
+        if "-" in word and cornish_word(word, ranks, names) not in ranks and word.lower() not in names:
+            out.extend(cornish_word(part, ranks, names) for part in word.split("-") if part)
+        else:
+            out.append(cornish_word(word, ranks, names))
+    return out
+
+
 # Scottish Gaelic writes a dropped sound with an apostrophe at a word's edge (a' dol, b' urrainn, 's e, m' athair, th' agam),
 # which the list has as forms; any other apostrophe at an edge is a quotation mark. It lenites (mhòr of mòr, bhean of bean),
 # puts h- or t- before a vowel or s (a h-uile, an t-uisge, an t-sràid, na h-òrain) and dh', b', m', d' before a vowel or fh
@@ -2197,7 +2231,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
-        "Câu hỏi:", "Pyetje:",
+        "Câu hỏi:", "Pyetje:", "Govynnow:",
     )
 }
 
@@ -2639,6 +2673,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Ceistean:", "", text)
         if code == "cy":
             text = re.sub(r"(?m)^Cwestiynau:", "", text)
+        if code == "kw":
+            text = re.sub(r"(?m)^Govynnow:", "", text)
         if code == "ka":
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":

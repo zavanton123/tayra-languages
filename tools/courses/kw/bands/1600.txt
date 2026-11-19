@@ -1,0 +1,100 @@
+1	1501	hallo	
+2	1502	en-mes	
+3	1503	troos-hys	
+4	1504	esa'n	
+5	1505	offis	
+6	1506	kopel	
+7	1507	heliom	
+8	1508	dises	
+9	1509	teleskop	
+10	1510	wrelho	
+11	1511	tektonek	
+12	1512	croquet	
+13	1513	dinas	dhinas
+14	1514	trenk	drenk
+15	1515	helyk	helygen
+16	1516	pympes	bympes fympes pempes
+17	1517	drolla	dhrolla drollys
+18	1518	garth	garthyon karthyon warth
+19	1519	fysegydh	fisegydh fysegydhyon fysygydh
+20	1520	elektron	elektronow elektrons elektronys
+21	1521	gostla	gostel gostlow gostyas kostyas ostyas ostyes wostlow
+22	1522	bywskrif	bewskrif bewskrifow bewskrifyow vewskrif vewskrifow vywskrifow
+23	1523	glena	glen glenys klena lena lenes lenses lenys lyna
+24	1524	presentya	bresent bresentya bresentyas present presentyas presentyes presentys
+25	1525	rolya	rolas rolsa rolyas rolyes rolys
+26	1526	moskito	moskitos voskito voskitos
+27	1527	skovarn	dhiwscovarn diwskovarn scovarn skovarnow skovornow
+28	1528	setha	seth sethas sethys syth
+29	1529	dysmygi	desmygys dhismygas dhismygi dhismygis dhismygyas dhysmigas dhysmygi dismygi dismygyas dysmygiys tysmygas
+30	1530	tommhe	dobmhe dobmheas dommha dommhas dommhe thommhe tobmhe tobmhes tommha tommhes tommheys tommhys
+31	1531	hanaf	hanafow hanath
+32	1532	skoll	scollyon skollyon
+33	1533	karow	gerwys harow kerwes kerwys
+34	1534	per	ber fer peren
+35	1535	krogen	cregyn grogen kregyn
+36	1536	omgemeryansek	
+37	1537	kowethyansow	
+38	1538	kaderyer	
+39	1539	sodhek	
+40	1540	diskudhans	
+41	1541	eghenn	
+42	1542	laghyas	
+43	1543	notennow	
+44	1544	gweythres	
+45	1545	towlennow	
+46	1546	soled	
+47	1547	emesk	
+48	1548	trovannel	
+49	1549	isteylu	
+50	1550	gwaskedh	
+51	1551	fosforos	
+52	1552	karyans	garyans
+53	1553	parys	barys
+54	1554	sugna	sugnons sugnys
+55	1555	effeythi	effeythas effeythons effeythyas effeythys
+56	1556	teythi	deythi deythy teythien theythi
+57	1557	dasoberyans	dasoberyansow dhasoberyansow
+58	1558	bleus	blues vleus
+59	1559	kledher	cledher gledher ledher
+60	1560	brendya	bryntya bryntys prentis pryntya pryntyes pryntys
+61	1561	prysk	brysk bryskyn frysk prysken pryskyn
+62	1562	gradhya	gradhyes kradhya radhyas rydhsys
+63	1563	dena	denes denis denna dennys densys denys tena tenons
+64	1564	treylyansow	
+65	1565	chanel	
+66	1566	lieskweyth	
+67	1567	arwoedh	
+68	1568	gwiryonedh	
+69	1569	dyffransow	
+70	1570	kesunya	
+71	1571	donsyow	
+72	1572	lymnoryon	
+73	1573	sewenas	
+74	1574	shist	
+75	1575	komparek	
+76	1576	awosa	
+77	1577	difres	
+78	1578	kesstoffow	
+79	1579	dhispleg	
+80	1580	bondys	
+81	1581	lokomotyvyow	
+82	1582	glukos	
+83	1583	godhasys	
+84	1584	dibarow	dhibarow tibarow
+85	1585	purpur	burpur
+86	1586	medhegel	fedhegel vedhegel
+87	1587	amendya	amendyas amendys
+88	1588	fyord	fyordow
+89	1589	didhan	dhidhan
+90	1590	ambos	ambosow
+91	1591	torek	dhorek dorek torogen
+92	1592	porpos	borpos borposow forpos forposow porposes porposys
+93	1593	pyskador	byskador byskadoryon pescador pyscadoryon pyskadoryon
+94	1594	kowfordh	gowfordh gowfordhow kowfordhow
+95	1595	efani	efanas efanna efanys
+96	1596	bleydh	bleydhes bleydhi bleydhyow vleydhi
+97	1597	dendyl	dendil dendylys dhendil dhendilas dhendyl dhendylas tendyl tendyla
+98	1598	morvugh	morvughes vorvugh vorvughes
+99	1599	pedrevan	bedrevan bedrevanes pedrevanes
+100	1600	byth	beth
