@@ -2643,8 +2643,8 @@ EXCLUDE["br"] |= {"2l", "3e", "4e", "5vet", "6vet", "7vet", "8vet", "9vet", "10v
 # Hawaiian (build_frequency_list.py's hawaiian_words adds the words its pack lacks). The Niʻihau spellings with t go to the
 # words written today (te, ta of ka; teia of kēia), and so do spellings without the ʻokina or kahakō the pack has as words of
 # their own but text means as the marked word (aina of ʻāina, poe of poʻe, hoku of hōkū); the pack heads some words by their
-# unmarked spelling (mahele, kekele) or an old one (kāʻahi). Left out: elements and other loans no text needs, English, and
-# the slur nika.
+# unmarked spelling (mahele, kekele) or an old one (kāʻahi). Left out: elements and other loans no text needs, English, the
+# salad's made-up words, and the slur nika.
 OVERRIDES["haw"] = {
     "te": ["ka"], "ta": ["ka"], "teia": ["kēia"], "tupuna": ["kupuna"], "matuahine": ["makuahine"],
     "aina": ["ʻāina"], "poe": ["poʻe"], "hoku": ["hōkū"], "huhu": ["huhū"], "oki": ["ʻoki"], "nana": ["nānā"],
@@ -2663,4 +2663,5 @@ EXCLUDE["haw"] = {
     "sodiuma", "potasiuma", "silikone", "ʻaragona", "ʻaluminuma", "hiliuma", "likiuma", "naikokene", "haikokene", "ʻokikene",
     "makanekiuma", "kalepona", "kalipuna", "diabolo", "sā", "nika", "home", "anime", "le", "mi", "eo", "ame", "hoolea", "pukalani",
     "huaʻia", "keʻano", "waīʻikahaikana", "waīmaūana", "kaūawamala", "akāiuwapa", "ukaela", "ne", "ʻi", "kēiki", "ʻumikumamāwalu",
+    "palakiahine", "akonia",
 }
