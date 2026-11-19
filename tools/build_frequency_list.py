@@ -99,6 +99,7 @@ FALLBACKS = {
     "sq": {"leipzig": ["sqi_news_2020_1M", "sqi_wikipedia_2021_300K"]},
     "eu": {"leipzig": ["eus_wikipedia_2021_300K", "eus_news_2020_30K"]},
     "eo": {"leipzig": ["epo_newscrawl_2017_1M"]},
+    "vi": {"leipzig": ["vie_news_2022_1M", "vie-vn_web_2015_1M"]},
     "ko": {"leipzig": ["kor_news_2019_1M"]},
 }
 
@@ -133,8 +134,10 @@ SOURCE_ORDER["gl"] = ["frequencywords"]
 # Esperanto is counted from subtitles and news alone: its Wikipedia, much of it pages made by bots, adds their words
 # ("municipo", "kantono", "asteroido") and its headings' ("ligilo", "referenco") to the first thousand.
 SOURCE_ORDER["eo"] = ["frequencywords", "leipzig"]
-# Vietnamese is counted from subtitles alone, as its syllable list was built (wordfreq was not at hand).
-SOURCE_ORDER["vi"] = ["frequencywords"]
+# Vietnamese is counted from subtitles and, at 30% of the blend, news and web text: subtitles alone left the written
+# language's syllables far down (doanh 1309, triển 1051, chợ 1749) and some of the dictionary's out of the list; half and
+# half put doanh, nghiệp and triển in the first 250.
+SOURCE_ORDER["vi"] = ["frequencywords", "leipzig"]
 # Lithuanian is counted from web text, subtitles and news, as its shipped list was, which its courses are pinned to.
 SOURCE_ORDER["lt"] = ["wordfreq", "frequencywords", "leipzig"]
 # Irish has only Wikipedia (its articles, and Leipzig's sentences from them), where everyday words rank far down (cad
@@ -171,6 +174,8 @@ SOURCE_ORDER["hi"] = ["wordfreq", "frequencywords"]
 SOURCE_ORDER["hy"] = ["leipzig", "wikipedia_sentences", "frequencywords", "everyday"]
 SOURCE_WEIGHTS["hy"] = {"leipzig": 0.5, "wikipedia_sentences": 0.3, "frequencywords": 0.2, "everyday": 0.25}
 SOURCE_ROOTED = {"hy": {"frequencywords"}}
+BLEND.add("vi")
+SOURCE_WEIGHTS["vi"] = {"frequencywords": 0.7, "leipzig": 0.3}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -2629,7 +2634,24 @@ def frequencywords_counts(language, limit):
                 break
     if language == "hy":
         armenian_rejoin(counts)
+    if language == "vi":
+        vietnamese_lost_letters(counts)
     return counts, f"FrequencyWords {folder} (OpenSubtitles 2018)"
+
+
+def vietnamese_lost_letters(counts):
+    """
+    FrequencyWords' Vietnamese lacks the syllables that are one precomposed letter (ở, ạ, ừ, ồ: ở is 4,236 a million words
+    of news, 126 of its subtitles), keeping only their spellings with the tone mark apart, which its subtitles use for
+    about one in 58 of a syllable's uses; such a syllable is counted as that spelling scaled by that share, as it is over
+    the syllables the list has both ways (ổn, ốm).
+    """
+    nfc = {w: unicodedata.normalize("NFC", w) for w in counts}
+    both = [(counts[nfc[w]], c) for w, c in counts.items() if nfc[w] != w and nfc[w] in counts]
+    scale = sum(whole for whole, _ in both) / sum(apart for _, apart in both)
+    for w, letter in nfc.items():
+        if letter != w and len(letter) == 1 and "\u1e00" <= letter <= "\u1eff" and letter not in counts:
+            counts[letter] = round(counts.pop(w) * scale)
 
 
 def leipzig_counts(language, limit, source="leipzig"):
@@ -2641,6 +2663,10 @@ def leipzig_counts(language, limit, source="leipzig"):
         if path is None:
             continue
         used.append(corpus)
+        if language == "vi":
+            for word, n in vietnamese_sentence_counts(path).items():
+                counts[word] = counts.get(word, 0) + n
+            continue
         if language in LEIPZIG_DEDUPED:
             for word, n in leipzig_deduped_counts(language, path).items():
                 counts[word] = counts.get(word, 0) + n
@@ -2687,6 +2713,29 @@ def leipzig_deduped_counts(language, path):
             word_id, sentence_id, _ = line.split("\t")
             if int(sentence_id) in kept and int(word_id) in words:
                 counts[words[int(word_id)]] += 1
+    return counts
+
+
+# Vietnamese names are written with capitals and made of syllables that are words too (Hà Nội, Nguyễn Văn Minh: nội,
+# văn, minh), which a corpus's word counts fold into the words; so the sentences are counted here, a capitalised
+# syllable only where a sentence or a quote starts.
+VIETNAMESE_STARTS = set(".!?:…\"“(")
+
+
+def vietnamese_sentence_counts(path):
+    """A Vietnamese Leipzig corpus's syllables, counted over its sentences without the capitalised ones inside them."""
+    counts = defaultdict(int)
+    with tarfile.open(path) as tar:
+        member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+        for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+            sentence = unicodedata.normalize("NFC", line.rstrip("\n").partition("\t")[2])
+            end = 0
+            for match in WIKI_WORD.finditer(sentence):
+                word = match.group()
+                starts = end == 0 or any(c in VIETNAMESE_STARTS for c in sentence[end:match.start()])
+                end = match.end()
+                if word.islower() or starts and word[0].isupper() and (len(word) == 1 or word[1:].islower()):
+                    counts[word.lower()] += 1
     return counts
 
 
