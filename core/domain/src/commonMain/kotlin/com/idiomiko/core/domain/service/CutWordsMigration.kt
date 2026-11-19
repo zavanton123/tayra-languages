@@ -24,7 +24,8 @@ import com.idiomiko.core.domain.term.TermTextNormalizer
  * า): a phrase saved over the old cut is cut again, while a word saved stays the word it is, unless the lexicon has it and
  * the reader still reads it, alone, as several words (ไม่ดี is ไม่ + ดี, คิดว่า คิด + ว่า): it becomes those words, a
  * phrase. Armenian cuts nothing, but
- * matches և written as two letters (կարեւոր) as the one (կարևոր). Run at start: it changes nothing once the terms are as
+ * matches և written as two letters (կարեւոր) as the one (կարևոր). Ancient Greek cuts nothing either, but matches a word
+ * with the accent it has standing alone (καλὸς as καλός, ἄνθρωπός as ἄνθρωπος). Run at start: it changes nothing once the terms are as
  * the reader reads them.
  */
 class CutWordsMigration(
@@ -110,7 +111,7 @@ class CutWordsMigration(
 
     private companion object {
         /** The parsers that cut a word written as one into words, or match a saved word otherwise than it was saved. */
-        val PARSERS = setOf("arabic", "thai", "persian", "hebrew", "armenian")
+        val PARSERS = setOf("arabic", "thai", "persian", "hebrew", "armenian", "ancientgreek")
 
         /** Those whose saved words stay whole, but those of the lexicon the reader reads as several words. */
         val WHOLE_WORDS = setOf("thai")

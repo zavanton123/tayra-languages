@@ -1,0 +1,4 @@
+-- Ancient Greek is read with its own parser, which matches a word with the accent it has standing alone: the grave as the
+-- acute (καλὸς as καλός) and without the second accent an enclitic throws back (ἄνθρωπός as ἄνθρωπος). The words saved
+-- before are matched again at start (CutWordsMigration).
+UPDATE languages SET parser_type = 'ancientgreek' WHERE name = 'Ancient Greek' AND parser_type = 'spacedel';
