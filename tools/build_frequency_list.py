@@ -57,6 +57,7 @@ from build_dictionary import to_serbian_cyrillic  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_bengali  # noqa: E402
 import frequency_swahili  # noqa: E402
+import frequency_tamil  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -70,7 +71,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -237,6 +238,12 @@ SOURCE_FORMS["az"] = 2_000_000
 SOURCE_ORDER["af"] = ["leipzig", "wikipedia_sentences", "frequencywords"]
 BLEND.add("af")
 SOURCE_WEIGHTS["af"] = {"leipzig": 0.5, "wikipedia_sentences": 0.2, "frequencywords": 0.3}
+# Tamil is counted from web text, subtitles and news (frequency_tamil): its Wikipedia would add its pages' words. The subtitles,
+# 19,000 forms much of them spoken Tamil, weigh less than the others.
+SOURCE_ORDER["ta"] = ["wordfreq", "frequencywords", "leipzig"]
+FALLBACKS["ta"] = {"leipzig": ["tam_newscrawl_2011_1M", "tam_news_2019_100K", "tam_news_2020_100K"]}
+BLEND.add("ta")
+SOURCE_WEIGHTS["ta"] = {"wordfreq": 0.4, "frequencywords": 0.2, "leipzig": 0.4}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -5248,6 +5255,9 @@ def build(language, source, size):
     if language == "bn":
         label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
         return frequency_bengali.build(found, size, label)
+    if language == "ta":
+        label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
+        return frequency_tamil.build(found, size, label, SOURCE_WEIGHTS["ta"])
     return build_list(language, found, size)
 
 
