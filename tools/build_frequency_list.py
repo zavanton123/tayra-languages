@@ -14,7 +14,7 @@ blended, counted as whole words that are cut into a word and its particles as th
 Ancient Greek, which none of them has, is the New Testament: each word of the SBLGNT as MorphGNT gives its lemma by hand
 (build_greek).
 
-For Irish, Welsh and Georgian, whose sources are all Wikipedia or news, everyday sentences (Tatoeba's and Common
+For Irish, Welsh, Georgian and Yiddish, whose sources are all Wikipedia or news, everyday sentences (Tatoeba's and Common
 Voice's) are blended in too, and for Armenian, whose news and Wikipedia leave kitchen and family words far down,
 Tatoeba's; weighted by SOURCE_WEIGHTS.
 
@@ -182,6 +182,11 @@ SOURCE_WEIGHTS["vi"] = {"frequencywords": 0.7, "leipzig": 0.3}
 SOURCE_ORDER["sq"] = ["frequencywords", "leipzig"]
 BLEND.add("sq")
 SOURCE_WEIGHTS["sq"] = {"frequencywords": 0.9, "leipzig": 0.1}
+# Yiddish has no subtitles or news: Leipzig's 30,000 sentences of its Wikipedia alone left a list of 2,800 words. Its articles
+# are counted too, and Tatoeba's 27,000 sentences (150,000 words, YIVO spelling, everyday talk) are a third of the blend.
+SOURCE_ORDER["yi"] = ["leipzig", "wikipedia", "everyday"]
+BLEND.add("yi")
+SOURCE_WEIGHTS["yi"] = {"leipzig": 0.3, "wikipedia": 0.4, "everyday": 0.3}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -208,6 +213,7 @@ SOURCE_LICENCES = {
 }
 # A source's licence where a language takes only some of it: Armenian's everyday sentences are Tatoeba's alone.
 SOURCE_LICENCES[("hy", "everyday")] = "Tatoeba CC BY 2.0 FR"
+SOURCE_LICENCES[("yi", "everyday")] = "Tatoeba CC BY 2.0 FR"
 
 # Languages that capitalise their nouns, so a capitalised entry is not taken for a name.
 CAPITALISED_NOUNS = {"de"}
@@ -3016,6 +3022,7 @@ EVERYDAY = {
     "ka": {"tatoeba": "kat", "commonvoice": ("ka", "70dde553e48d7d0da452ba4ba070c001f65db88c", ["sentence-collector"])},
     # Common Voice's Armenian (hy-AM) has only hy_wiki, sentences of Wikipedia, which the list counts already: it is left out.
     "hy": {"tatoeba": "hye"},
+    "yi": {"tatoeba": "yid"},
 }
 # The names of the people in Tatoeba's sentences (Tom, Mary) with their case endings, where the language writes them
 # without a capital: Georgian ტომი is a book's "volume" as well, and Tom is in one Georgian sentence of ten.
