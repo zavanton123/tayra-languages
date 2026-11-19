@@ -9,7 +9,8 @@ The pack also lacks many common words (i, pra, vërtet, problem) and forms (doli
 frequency_albanian.tsv (form, tab, word): the subtitles' forms the pack lacks down to rank 4,500, read by hand, and
 below that the ones whose ending the pack's own tables give for a word of the pack. Forms written without ë or ç
 (mire, cfare) are left out, as are names and English. simplemma is not used for Albanian: the table replaces it,
-so the list is the same with or without it installed.
+so the list is the same with or without it installed. The news blended in counts only forms the pack or the table
+has: its others, guessed by their endings, were mostly names (Ramës, Kurtit) or words the pack lacks (kryeministri).
 """
 import os
 
@@ -67,6 +68,18 @@ HAND = {
     "qëndrimin": ["qëndrim"], "lirim": ["lirim"], "lirimin": ["lirim"], "shkëlqim": ["shkëlqim"], "përparim": ["përparim"],
     "fatlum": ["fatlum"], "guximtar": ["guximtar"], "unik": ["unik"], "kristal": ["kristal"], "patriot": ["patriot"],
     "dashurie": ["dashuri"], "premto": ["premtoj"], "premton": ["premtoj"], "gjata": ["gjatë"],
+    # The reflexive and passive u (u kthye) and the pronoun pair ta (ta jap), not forms of unë and ai.
+    "u": ["u"], "ta": ["ta"],
+    # mbrëmje "evening" is a word of its own, not a form of mbrëmë "last night".
+    "mbrëmje": ["mbrëmje"], "mbrëmja": ["mbrëmje"], "mbrëmjet": ["mbrëmje"],
+    # datë "date", not daj "to divide"; lum "happy" (të lumtë), not lumë "river".
+    "datë": ["datë"], "datën": ["datë"], "datës": ["datë"], "datat": ["datë"], "datave": ["datë"],
+    "lum": ["lum"], "lumtë": ["lum"], "lumi": ["lumë"], "lumin": ["lumë"], "lume": ["lumë"], "bija": ["bijë"],
+    # Spellings of other words' forms: jan of janë, morra and morri of mora and mori, kurr of kurrë, të gjesh of gjej.
+    "jan": ["jam"], "morra": ["marr"], "morri": ["marr"], "morrën": ["marr"], "morrëm": ["marr"], "morrët": ["marr"],
+    "kurr": ["kurrë"], "gjesh": ["gjej"],
+    # Forms of words with entries of their own, filed under a look-alike.
+    "qan": ["qaj"], "pika": ["pikë"], "lidhja": ["lidhje"], "enët": ["enë"], "tanë": ["ynë"], "lindja": ["lindje"],
     # Days of the week (e mërkurë, të dielën), which the pack lacks.
     "mërkurë": ["mërkurë"], "mërkurën": ["mërkurë"], "mërkura": ["mërkurë"], "diel": ["diel"], "dielën": ["diel"],
     "diela": ["diel"],
@@ -79,4 +92,6 @@ EXCLUDE = {
     "eshtë", "eshte", "eshta", "degjôj", "marre", "tu", "tun", "tuk", "tungë", "tye", "albanian", "forms", "nime", "nani",
     "ëm", "mo", "ngë", "nukë", "nëk", "çar", "ktu", "kah", "atu", "ay", "eti", "syresh", "shpi", "hide", "hidja", "tend",
     "ŋa", "umb", "um", "pro", "pron", "proj", "ska", "silli", "gjera", "gjerat", "gjerave", "gjerash", "boj", "çë",
+    # Names and English (Dan, Dave, John, he), and be, mostly the news' BE (the EU).
+    "dan", "dave", "dani", "dante", "xhon", "he", "be", "kame",
 }
