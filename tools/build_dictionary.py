@@ -79,6 +79,7 @@ SOURCES = {
     # wiktionary-to-yomitan has no Breton dictionary, so Breton is built from kaikki.org here.
     "br": ("Breton", "breton", "dictionaries/kaikki.org-dictionary-Breton.jsonl.gz"),
     "ms": ("Malay", "malay", "dictionaries/kaikki.org-dictionary-Malay.jsonl.gz"),
+    "pa": ("Punjabi", None, "dictionaries/kaikki.org-dictionary-Punjabi.jsonl.gz"),
     "bn": ("Bengali", None, "dictionaries/kaikki.org-dictionary-Bengali.jsonl.gz"),
     "sw": ("Swahili", "swahili", "dictionaries/kaikki.org-dictionary-Swahili.jsonl.gz"),
     "kk": ("Kazakh", "kazakh", "dictionaries/kaikki.org-dictionary-Kazakh.jsonl.gz"),
@@ -118,6 +119,8 @@ SKIP_FORM_TAGS_BY_SOURCE = {
     "hu": {"possessive", "possessed-single", "possessed-many", "error-unrecognized-form"},
     # Malay entries give each word's Jawi spelling as a form; the app reads Malay in Latin letters.
     "ms": {"Jawi"},
+    # Punjabi entries give each word's Shahmukhi spelling as a form; the app reads Punjabi in Gurmukhi.
+    "pa": {"Shahmukhi"},
     # Urdu entries list the Hindi spelling (Devanagari) as a form, and comparatives that are words of their own (بہتر of اچھا).
     "ur": {"Hindi", "comparative", "superlative"},
 }
@@ -160,7 +163,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else GURMUKHI_WORD_RE if source == "pa" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -323,8 +326,53 @@ def clean_tamil(word):
     return word
 
 
+# Gurmukhi words are letters and vowel signs (which \w leaves out), tippi and addak: no digits, no hyphen.
+GURMUKHI_WORD_RE = re.compile("^[\u0a01-\u0a65\u0a70-\u0a75]+$")
+
+
+def clean_gurmukhi(word):
+    """A Gurmukhi spelling in NFC, as the list and the checker have it (ਸ਼ as ਸ + nukta)."""
+    return unicodedata.normalize("NFC", word)
+
+
+def punjabi_extra_entries(pa_path, kept):
+    """
+    The Punjabi words the dump has only in Shahmukhi (ਪੱਧਰ as پدھر), under the Gurmukhi spelling its entry gives, with
+    its senses; then those the English Wiktionary's translation tables give that neither has (by part of speech, glossed
+    with the English words they translate): (word, pos, senses), none of them in [kept].
+    """
+    found = {}
+    with open_text(pa_path) as f:
+        for line in f:
+            d = json.loads(line)
+            spellings = [clean_gurmukhi(x["form"]) for x in d.get("forms", []) if "Gurmukhi" in x.get("tags", [])]
+            senses = [{"glosses": [s["glosses"][-1]]} for s in d.get("senses", [])
+                      if s.get("glosses") and not s.get("form_of") and not s.get("alt_of") and "form-of" not in s.get("tags", [])]
+            for word in spellings:
+                if senses and word not in kept and GURMUKHI_WORD_RE.match(word):
+                    found.setdefault((word, d.get("pos") or "unknown"), senses)
+    out = [(word, pos, senses) for (word, pos), senses in sorted(found.items())]
+    have = kept | {word for word, _ in found}
+    glossed = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "pa"' not in line:
+                continue
+            d = json.loads(line)
+            for t in d.get("translations", []):
+                word = clean_gurmukhi(t.get("word", "").strip()) if t.get("code") == "pa" else ""
+                if not word or word in have or not GURMUKHI_WORD_RE.match(word):
+                    continue
+                gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
+                if gloss not in glossed[word][d.get("pos") or "unknown"]:
+                    glossed[word][d.get("pos") or "unknown"].append(gloss)
+    out += [(word, pos, [{"glosses": [g]} for g in glosses]) for word, by_pos in sorted(glossed.items())
+            for pos, glosses in sorted(by_pos.items())]
+    return out
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"bn": clean_bengali, "ta": clean_tamil, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
+CLEANERS = {"bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
             "ur": urdu_fold}
 
 
@@ -718,6 +766,10 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
         return any("\u0600" <= c <= "\u06ff" or "\u0750" <= c <= "\u077f" for c in text)
 
     foreign = jawi if source == "ms" else (lambda text: cyrillic(text) or jawi(text)) if source == "az" else cyrillic
+    # Punjabi is read in Gurmukhi; its Shahmukhi spellings (forms and entries of their own) are left out.
+    if source == "pa":
+        latin_only, foreign = True, jawi
+    punjabi_vocative, punjabi_other = set(), set()
 
     print(f"Reading {en_path}", file=sys.stderr)
     with open_text(en_path) as f:
@@ -780,6 +832,12 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 own = is_clean_form(form, word, source) or (source == "az" and word == "o" and form != word and WORD_RE.match(form))
                 if not own or (latin_only and foreign(form)):
                     continue
+                if source == "pa":
+                    tags = set(x.get("tags", []))
+                    # A Punjabi noun's head gives the noun of the other gender (ਧੀ of ਪੁੱਤਰ), another word.
+                    if pos == "noun" and not x.get("source") and tags & {"feminine", "masculine"}:
+                        continue
+                    (punjabi_vocative if "vocative" in tags else punjabi_other).add((lowercase(form, source), word))
                 form_rows.append((lowercase(form, source), word))
                 pos_inflected.add((pos, word))
             if source == "ur":
@@ -811,6 +869,20 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
         form_count += db.total_changes - before
         print(f"  {len(added):,} entries from the Hindi entries' Urdu spellings, {db.total_changes - before:,} forms by rule", file=sys.stderr)
         label += "; English Wiktionary Hindi entries' Urdu spellings via kaikki.org"
+    if source == "pa":
+        words = {w for (w,) in db.execute("SELECT word_lc FROM entries")}
+        for word, pos, senses in punjabi_extra_entries(en_path, words):
+            entry_rows.append((next_id, word, word, pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+            next_id += 1
+            entry_count += 1
+            words.add(word)
+        flush()
+        label += ", its Shahmukhi entries' Gurmukhi spellings and its English entries' translation tables"
+        # A Punjabi noun's vocative that is a word of its own (ਰਾਜਾ "king" of ਰਾਜ, ਕਰਨਾ "to do" of ਕਰਨ) is that word alone.
+        rows = [pair for pair in punjabi_vocative - punjabi_other if pair[0] in words]
+        db.executemany("DELETE FROM forms WHERE form_lc = ? AND lemma = ?", rows)
+        form_count -= len(rows)
+        print(f"  {len(rows):,} Punjabi vocatives that are words of their own left out", file=sys.stderr)
     db.execute("DROP INDEX forms_unique")
     finish_output(db, path, out_path, source, "en", entry_count, form_count, label)
     print(f"Wrote {out_path}: {entry_count:,} entries, {form_count:,} form rows ({pointer_count:,} from form-of senses)", file=sys.stderr)
