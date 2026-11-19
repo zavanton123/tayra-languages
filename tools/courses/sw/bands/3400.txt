@@ -1,0 +1,100 @@
+1	3301	fumbatio	fumbatio
+2	3302	ficho	ficho mafichoni maficho
+3	3303	chemka	kuchemka nichemke unaochemka ichemke inayochemka yanayochemka vichemke imechemka inachemka yachemke visichemke yanachemka umechemka chemka kinachochemka zichemke zisichemke ulichemka yakichemka alichemka amechemka hayachemki huchemka ikichemka inavyochemka unachemka yalipochemka yatachemka zinachemka zinazochemka
+4	3304	kuna	kuna kujikuna kukuna anakuna nikune anajikuna kinachomkuna kuwakuna walikunwa yawakuna zilimkuna akakuna akijikuna akikuna akiwakuna akuna akune akunwa alilonikuna alilowakuna alipojikuna amekukuna amekunwa anakunwa ananikuna anavyojikuna atakuna ilinikuna kilimkuna kunakuna kunikuna limewakuna mkikuna nilipojikuna nilivyokunwa ninakuna tulikuna ujikune umkune wakunwa wanajikuna wanapokuna yamewakuna yanakuna
+5	3305	fremu	fremu
+6	3306	mende	mende
+7	3307	mtini	mitini mtini
+8	3308	misri	misri
+9	3309	fitina	fitina
+10	3310	mkwaju	mkwaju mikwaju mkwajuni
+11	3311	kirusi	kirusi
+12	3312	kumradhi	kumradhi
+13	3313	mshukiwa	mshukiwa washukiwa
+14	3314	kifaransa	kifaransa
+15	3315	hamahama	hamahama kuhamahama nikihamahama huhamahama wanaohamahama wakihamahama yalihamahama alihamahama walihamahama yakihamahama anayehamahama tukihamahama waliohamahama wanahamahama
+16	3316	ukosoaji	ukosoaji
+17	3317	satelaiti	satelaiti setilaiti setelaiti setlaiti
+18	3318	ghushi	kughushi ghushi alighushi kughushiwa walighushi wanaoghushi zisighushiwe aliyeghushi ameghushi walizoghushi wameghushi wanaghushi yaliyoghushi zikighushiwa zilighushiwa zimeghushiwa
+19	3319	amkia	amkia kuamkia kumwamkia kuwaamkia ameamkia huamkia kumamkia kumuamkia umeamkia wakimwamkia wataamkia zikiniamkia
+20	3320	mchangiaji	wachangiaji mchangiaji
+21	3321	nondo	nondo
+22	3322	delta	delta
+23	3323	mmonaki	wamonaki mmonaki
+24	3324	supu	supu
+25	3325	rai	rai kuwarai urai hatarai
+26	3326	hatarishi	hatarishi
+27	3327	kombora	makombora kombora
+28	3328	pakiti	pakiti paketi
+29	3329	zorota	zorota kuzorota imezorota ilizorota ulizorota inazorota huzorota zimezorota haitazorota ikizorota umezorota unazorota yalizorota zilizorota haikuzorota ikazorota inayozorota izorote ukazorota ukizorota uliozorota wanaozorota wazorota yazorota zikizorota
+30	3330	aghalabu	aghalabu
+31	3331	pakia	pakia kupakia inapakia tutapakia alipakia anapakia ilipakia kumpakia kuyapakia usipakie wanapakia yaliyopakia akipakia ikipakia kilipakia kuwapakia kuzipakia limepakia akapakia aliipakia aliopakia aliyempakia amepakia atakapopakia hupakia ikapakia imepakia kujipakia kukupakia nilimpakia ukipakia unapakia walinipakia waliyapakia wamepakia wamevipakia wanaopakia yakipakia zikipakia
+32	3332	taharuki	taharuki
+33	3333	kikristo	kikristo
+34	3334	ulazima	ulazima
+35	3335	pensheni	pensheni
+36	3336	kaba	kukaba inawakaba kunikaba nikabe ningemkaba kabwe kumkaba kukabwa kuikaba alimkaba ulikabwa anakaba hukaba humkaba inakaba wanaokaba yaliyowakaba amkaba kuwakaba akabwe aliwakaba amekabwa inayoikaba inayowakaba kaba nimekabwa wakabwa wakanikaba wamewakaba wanakabwa wanaokabwa wanaomkaba wanavyokaba
+37	3337	ikweta	ikweta
+38	3338	mvumilivu	mvumilivu wavumilivu
+39	3339	ofa	ofa
+40	3340	adha	adha
+41	3341	zulia	zulia mazulia
+42	3342	tuonane	tuonane
+43	3343	randaranda	randaranda kurandaranda anarandaranda narandaranda wanarandaranda nikirandaranda ukirandaranda wakirandaranda wanaorandaranda akirandaranda lilirandaranda
+44	3344	nduru	nduru
+45	3345	fiche	fiche
+46	3346	ushoga	ushoga
+47	3347	mwombaji	waombaji mwombaji
+48	3348	kibwagizo	kibwagizo vibwagizo
+49	3349	kipele	vipele kipele
+50	3350	mpangaji	wapangaji mpangaji
+51	3351	teke	mateke teke kiteke wateke
+52	3352	ugavana	ugavana
+53	3353	begi	begi mabegi
+54	3354	tema	kutema kutemwa temeke nimetema tunatema uiteme umetema kumtema uliotemwa alitemwa hutema kuitema litemayo waliotemwa aliyotema aliyetemwa ametema inayotema kitemwe lilitemwa usiteme aiteme akautema akitema alimtema aliwatema atema atemwe chamtema imemtema kiteme lililotemwa linayotema muyateme natema tema ulitemwa umemtema wakatema wakitema wakitemwa walimtema wamemtema wametema wameutema wamteme wanaotema yalitemwa zikitema
+55	3355	nyenyekevu	mnyenyekevu nyenyekevu wanyenyekevu kinyenyekevu
+56	3356	zimia	zimia kuzimia aliyezimia atazimia nikazimia nitazimia utazimia akizimia anamzimia anapozimia anazimia unazimia lazimia aliyemzimia alizimia amemzimia amezimia anawazimia kumzimia akazimia amekizimia hawamzimii kutuzimia kuwazimia mnamzimia namzimia nizimie uzimie waliozimia walivyozimia walizimia wanamzimia watakaozimia yakuzimia
+57	3357	urasimu	urasimu
+58	3358	afyuni	afyuni
+59	3359	zembe	wazembe mzembe kizembe zembe mazembe
+60	3360	uchu	uchu
+61	3361	machi	machi
+62	3362	haba	haba
+63	3363	inchi	inchi inchini
+64	3364	uvunjifu	uvunjifu
+65	3365	susia	susia kususia walisusia kuususia alisusia waliosusia wamesusia waliususia wakisusia wasusie imesusia susieni zilisusia ilisusia isisusie kilisusia kuisusia kumsusia kutosusia tunapomsusia tususie waisusie waliposusia wanasusia wangesusia wasisusie
+66	3366	ubeti	ubeti
+67	3367	kifuniko	kifuniko vifuniko
+68	3368	ghuba	ghuba
+69	3369	kitunda	kitunda vitunda
+70	3370	alasiri	alasiri
+71	3371	kufuli	kufuli
+72	3372	baruti	baruti
+73	3373	tasinifu	tasnifu tasinifu
+74	3374	unafuu	unafuu
+75	3375	ruwaza	ruwaza
+76	3376	nyoyo	nyoyo nyoyoni
+77	3377	staa	mastaa staa
+78	3378	nyika	nyika nyikani
+79	3379	kusaliti	kusaliti akusaliti atakusaliti kukusaliti nilikusaliti niliyekusaliti ningekusaliti sikukusaliti wanakusaliti kusalitiwa asikusaliti wamekusaliti
+80	3380	kanzu	kanzu
+81	3381	tarakimu	tarakimu
+82	3382	mkandarasi	mkandarasi wakandarasi
+83	3383	sherekea	sherekea kusherekea tunasherekea walisherekea atasherekea itasherekea nitasherekea utasherekea watasherekea anasherekea husherekea akisherekea wanasherekea alisherekea hawakusherekea ikisherekea kuusherekea ninasherekea tuisherekee tusherekee wakisherekea
+84	3384	kunguru	kunguru
+85	3385	mchekeshaji	mchekeshaji wachekeshaji
+86	3386	silabi	silabi
+87	3387	waingereza	waingereza
+88	3388	kijio	kijio chajio
+89	3389	paundi	paundi
+90	3390	kimeng'enya	vimeng'enya kimeng'enya
+91	3391	biarusi	biarusi
+92	3392	chesi	chesi
+93	3393	toba	toba
+94	3394	pampu	pampu
+95	3395	hidrojeni	hidrojeni haidrojeni
+96	3396	fueli	fueli
+97	3397	juni	juni
+98	3398	jalada	jalada majalada
+99	3399	payuka	kupayuka unapayuka akipayuka hupayuka napayuka ninapayuka ukipayuka msipayuke anapayuka payuka wapayuka alipayuka tunapayuka wanapopayuka
+100	3400	dunda	unadunda kudunda hudunda inayodunda unaodunda dunda ulidunda wanadunda alimdunda anadunda atazidunda kudundwa ukidunda akizidunda alidundwa aliyemdunda kinadunda kumdunda vinadunda wakidunda waliodunda wanavyodunda

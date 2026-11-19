@@ -1,0 +1,100 @@
+1	5301	zeituni	zaituni zeituni
+2	5302	duaradufu	duaradufu
+3	5303	nira	nira
+4	5304	nyambizi	nyambizi
+5	5305	spana	spana
+6	5306	wengu	wengu
+7	5307	kusi	kusi
+8	5308	mhoji	mhoji wahoji
+9	5309	upatu	upatu
+10	5310	konyeza	konyeza ananikonyeza
+11	5311	usharika	usharika
+12	5312	bruda	mabruda bruda
+13	5313	maksai	maksai
+14	5314	mufti	mufti
+15	5315	hindi	hindi
+16	5316	danganyifu	danganyifu kidanganyifu madanganyifu
+17	5317	kiyama	kiyama
+18	5318	korodani	korodani
+19	5319	kireno	kireno
+20	5320	taathira	taathira
+21	5321	fuo	fuo
+22	5322	safura	safura
+23	5323	stahimilivu	stahimilivu
+24	5324	tabaruku	nitakitabaruku tabaruku ilivyotabarukiwa imetabarukiwa kutabaruku
+25	5325	chaka	chaka machaka
+26	5326	kibantu	kibantu
+27	5327	mbege	mbege
+28	5328	mhamasishaji	mhamasishaji wahamasishaji
+29	5329	msahafu	misahafu msahafu
+30	5330	olimpiki	olimpiki
+31	5331	kichuguu	kichuguu vichuguu
+32	5332	difenda	difenda
+33	5333	fonimu	fonimu
+34	5334	slothi	slothi
+35	5335	tungamo	tungamo
+36	5336	uanamitindo	uanamitindo
+37	5337	mwanachuoni	mwanachuoni
+38	5338	sitaha	sitaha
+39	5339	taalamika	taalamika kutaalamika waliotaalamika
+40	5340	ubeleko	ubeleko mbeleko mbelekoni
+41	5341	mbebaji	wabebaji mbebaji
+42	5342	mhakiki	mhakiki wahakiki
+43	5343	endometriamu	endometriamu
+44	5344	koni	koni
+45	5345	mwandamo	mwandamo miandamo
+46	5346	hujaji	mahujaji hujaji
+47	5347	lehemu	lehemu kulehemu
+48	5348	gesti	gesti
+49	5349	kengeua	kengeua uliokengeuka kukengeuka hawatakengeuka nimekengeuka tunakengeuka waliokengeuka wamekengeuka
+50	5350	kirimu	kirimu mkirimu yaliyokirimiwa kuwakirimu alikirimiwa alimkirimu kukirimiwa kumkirimu tunakirimiwa
+51	5351	hayawani	hayawani
+52	5352	mpokezi	mpokezi wapokezi
+53	5353	tona	kutona tona haipatoni
+54	5354	alifu	alifu alifiwa ualifu kilitualifu kuualifu
+55	5355	pakata	pakata kupakata kupakatwa amempakata akipakata amepakatwa apakatwe itakapopakatwa kumpakata kuwapakata wanaopakata
+56	5356	kongoni	kongoni
+57	5357	majoka	majoka
+58	5358	udhanifu	udhanifu
+59	5359	beji	beji
+60	5360	masaibu	masaibu
+61	5361	amili	amili kuamilisha amilisha hujiamilisha huamili wamili
+62	5362	ukarani	ukarani
+63	5363	unono	unono
+64	5364	usemaji	usemaji
+65	5365	dia	dia diani
+66	5366	kaunta	kaunta
+67	5367	sufi	sufi
+68	5368	mchungwa	michungwa mchungwa
+69	5369	desimali	desimali
+70	5370	utasa	utasa
+71	5371	fosfeti	fosfeti fosifeti
+72	5372	mchemraba	mchemraba
+73	5373	printa	printa
+74	5374	unyevuanga	unyevuanga
+75	5375	sitiari	sitiari istiara
+76	5376	pepopunda	pepopunda
+77	5377	peruzi	peruzi kuperuzi akiperuzi kiperuzi tutaperuzi unapoperuzi wakiperuzi wanaoperuzi wanaperuzi
+78	5378	ukokotoaji	ukokotoaji
+79	5379	muhali	muhali
+80	5380	gwanda	magwanda gwanda
+81	5381	msuluhishi	msuluhishi wasuluhishi
+82	5382	fyata	fyata wamefyata amefyata imeufyata inafyata inaufyata yaufyata
+83	5383	kukodi	kukodi kukodiwa sikukodi
+84	5384	nishai	nishai
+85	5385	fangasi	fangasi
+86	5386	msasa	msasa msasani
+87	5387	mdhalimu	wadhalimu mdhalimu
+88	5388	nathari	nathari
+89	5389	astashahada	astashahada
+90	5390	jiolojia	jiolojia
+91	5391	helmeti	helmeti
+92	5392	bamiza	akajibamiza bamiza kumbamiza kuibamiza kuwabamiza kubamizwa alinibamiza imeibamiza ukajibamiza wameibamiza
+93	5393	lundika	lundika rundika hulundikwa zilizolundikana anayelundika kulundika kulundikana kulundikwa lundikana wakalundikana waliolundikana
+94	5394	mpingo	mpingo mipingo
+95	5395	bakari	bakari
+96	5396	katekisimu	katekisimu
+97	5397	upenzi	upenzi
+98	5398	ureno	ureno
+99	5399	myombo	miyombo myombo
+100	5400	spea	spea

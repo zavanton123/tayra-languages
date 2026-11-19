@@ -1,0 +1,100 @@
+1	5601	futari	futari
+2	5602	ujazaji	ujazaji
+3	5603	aushi	aushi
+4	5604	bikini	bikini
+5	5605	biokemia	biokemia
+6	5606	chaza	chaza
+7	5607	mkorogo	mkorogo mikorogo
+8	5608	mumiani	mumiani
+9	5609	opereta	opereta
+10	5610	udhalili	udhalili
+11	5611	kuafiki	kuafiki kuafikiwa hawakuafiki hakuafiki
+12	5612	beri	beri
+13	5613	enga	enga zengwe wenge zilienga ulioengwa wengeni
+14	5614	losheni	losheni
+15	5615	soketi	soketi
+16	5616	achama	achama huachama machame iachame anaachama linaachama wamachama
+17	5617	fupanyonga	fupanyonga
+18	5618	gameti	gameti
+19	5619	kwinini	kwinini
+20	5620	merikebu	merikebu
+21	5621	ubebaji	ubebaji
+22	5622	ujima	ujima
+23	5623	mwenda	mwenda mwendani waenda
+24	5624	tweza	tweza kumtweza kuitweza kutweza kuwatweza ukimtweza
+25	5625	dura	dura
+26	5626	kitinda	kitinda
+27	5627	sanda	sanda
+28	5628	ubelgiji	ubelgiji
+29	5629	ufanifu	ufanifu
+30	5630	zabadi	zabadi
+31	5631	thieta	thieta
+32	5632	mlipa	mlipa walipa
+33	5633	kikaango	kikaango kikaangoni vikaango
+34	5634	uniti	uniti
+35	5635	kidadisi	kidadisi
+36	5636	kilembwe	vilembwe kilembwe
+37	5637	kilipuzi	kilipuzi vilipuzi
+38	5638	kuukuu	kuukuu
+39	5639	mwanagenzi	mwanagenzi wanagenzi
+40	5640	nikanunua	nikanunua
+41	5641	boya	boya maboya
+42	5642	jamvi	jamvi majamvi jamvini
+43	5643	mkwanja	mkwanja
+44	5644	shampeni	shampeni
+45	5645	mshereheshaji	mshereheshaji washereheshaji
+46	5646	paroko	maparoko paroko
+47	5647	shindilia	shindilia kushindilia kuishindilia ikawashindilia kukushindilia kumshindilia kuzishindilia walitushindilia wanashindilia
+48	5648	zoeza	zoeza kujizoeza ajizoeze ninajizoeza inawazoeza tumezoezwa wamezoeza wamezoezwa yaliyowazoeza
+49	5649	kiliberali	kiliberali liberali
+50	5650	kipenga	kipenga
+51	5651	togwa	togwa
+52	5652	ustawishaji	ustawishaji
+53	5653	utelezi	utelezi
+54	5654	zeze	zeze
+55	5655	kapera	kapera makapera
+56	5656	kichomi	kichomi vichomi
+57	5657	leza	leza
+58	5658	mvumo	mvumo
+59	5659	mwanajiolojia	wanajiolojia mwanajiolojia
+60	5660	uchinjaji	uchinjaji
+61	5661	ukalimani	ukalimani
+62	5662	towashi	matowashi towashi
+63	5663	korofi	korofi wakorofi
+64	5664	adrenalini	adrenalini
+65	5665	rajamu	rajamu
+66	5666	ualbino	ualbino
+67	5667	upoteaji	upoteaji
+68	5668	utambulishaji	utambulishaji
+69	5669	mfasiri	mfasiri wafasiri
+70	5670	mtaka	mtaka wataka
+71	5671	mkemia	mkemia wakemia
+72	5672	kitumbua	vitumbua kitumbua
+73	5673	mwezeshaji	mwezeshaji
+74	5674	mkabidhi	mkabidhi mkabidhini wakabidhi
+75	5675	harara	harara
+76	5676	hiana	hiana
+77	5677	kaimati	kaimati
+78	5678	kifa	vifa kifa
+79	5679	mstahimilivu	wastahimilivu mstahimilivu
+80	5680	staftahi	staftahi kustaftahi
+81	5681	uki	uki
+82	5682	paramia	paramia kuparamia ninaparamia alivyokiparamia huparamia kuyaparamia liliparamia wakiparamia waliparamia
+83	5683	mbaazi	mbaazi
+84	5684	uongezaji	uongezaji
+85	5685	azimu	azimu iliazimiwa huazimiwa kuazimiwa yaliazimiwa ikaazimiwa imeazimiwa
+86	5686	geza	geza ngeze inaogeza kugeza imegeza kikagezwa kumgeza
+87	5687	muogeleaji	waogeleaji muogeleaji
+88	5688	upwa	upwa pwaa
+89	5689	bemba	bemba kimbembe wabemba kumbemba wabembe
+90	5690	jiometri	jiometri jiometria
+91	5691	kudadadeki	kudadadeki
+92	5692	msisimuko	msisimuko
+93	5693	ubishani	ubishani
+94	5694	upakaji	upakaji
+95	5695	ushenzi	ushenzi
+96	5696	uzawa	uzawa
+97	5697	kishoroba	kishoroba
+98	5698	kitubio	kitubio
+99	5699	rungoya	rungoya
+100	5700	soseji	soseji

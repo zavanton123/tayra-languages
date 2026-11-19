@@ -1,0 +1,100 @@
+1	5101	wembe	wembe nyembe
+2	5102	kishetani	kishetani
+3	5103	uchuuzi	uchuuzi
+4	5104	ulawiti	ulawiti
+5	5105	linga	linga alinga kilinge kilingeni vilinge kulinga kitalinga linge
+6	5106	taahira	taahira
+7	5107	ukiwa	ukiwa kiwa kiwani
+8	5108	kinai	kinai kinaisha anavikinai hakinai waukinai yanatukinaisha kukinai umemkinai unaokinaisha hukinai ikinai kumkinaisha umekinaisha wakinai wamekinai wamekinaiwa
+9	5109	udumavu	udumavu
+10	5110	uchango	uchango chango
+11	5111	ukosi	kosi ukosi
+12	5112	kitambi	kitambi vitambi
+13	5113	mbogo	mbogo
+14	5114	dodoso	dodoso madodoso
+15	5115	pareto	pareto
+16	5116	gulio	gulio magulio gulioni
+17	5117	kidusia	vidusia kidusia
+18	5118	jivinjari	jivinjari kujivinjari akijivinjari anajivinjari wanajivinjari
+19	5119	mbalamwezi	mbalamwezi
+20	5120	onevu	onevu mwonevu waonevu maonevu kionevu
+21	5121	tapatapa	tapatapa kutapatapa wanatapatapa akitapatapa anatapatapa vinatapatapa wakitapatapa watatapatapa
+22	5122	aste	aste waste paste
+23	5123	kurunzi	kurunzi
+24	5124	marahaba	marahaba
+25	5125	upiganaji	upiganaji
+26	5126	mchomo	michomo mchomo
+27	5127	alhamisi	alhamisi
+28	5128	veto	veto
+29	5129	nyenje	nyenje
+30	5130	judo	judo
+31	5131	reptilia	reptilia
+32	5132	mkongo	mkongo
+33	5133	sadifu	kusadifu inasadifu sadifu linasadifu yanasadifu yanayosadifu kulisadifu likisadifu linalosadifu linavyosadifu unasadifu zinasadifu zinazosadifu
+34	5134	uganga	uganga
+35	5135	pai	pai
+36	5136	mshindo	mshindo
+37	5137	kodo	kodoni kodo
+38	5138	ufyonzaji	ufyonzaji
+39	5139	urea	urea
+40	5140	uroho	uroho
+41	5141	tanzia	tanzia taazia
+42	5142	zuzu	zuzu mazuzu
+43	5143	toroli	toroli matoroli
+44	5144	momonyoa	momonyoa kumomonyoka kumomonyoa imomonyoke vilivyomomonyoka humomonyoka imemomonyoka inamomonyoka kumomonyolewa kunamomonyoa ukamomonyoa ukimomonyoka yakamomonyoka yamemomonyoka yanayomomonyoa
+45	5145	changudoa	changudoa machangudoa
+46	5146	cherehani	cherehani vyerehani
+47	5147	pekupeku	pekupeku
+48	5148	sengenya	sengenya kusengenya wanasengenya akamsengenya
+49	5149	fuatisha	fuatisha ukinifuatisha hufuatisha zilifuatisha msiifuatishe kufuatisha akifuatisha akiufuatisha kutofuatisha unifuatishe utafuatisha utajifuatisha
+50	5150	jeki	jeki
+51	5151	plasta	plasta
+52	5152	bwege	bwege mabwege
+53	5153	wamba	kuwamba wamba chamwamba hatawamba inayowamba anamwamba ikawambwa iliyowambwa inaiwamba kuiwamba liliwamba mwambaye namwamba tumewambwa tuwambe waliowambwa wambwa
+54	5154	ufizi	fizi ufizi
+55	5155	jeli	jeli
+56	5156	utofautishaji	utofautishaji
+57	5157	kalisiamu	kalisiamu kalisi
+58	5158	usuli	usuli
+59	5159	dinosauri	dinosauri dinosaria dinosau
+60	5160	eleveta	eleveta
+61	5161	mlalahoi	walalahoi mlalahoi
+62	5162	gegedu	gegedu
+63	5163	choyo	choyo wachoyo
+64	5164	sonya	sonya musonye anasonya wakisonya
+65	5165	tafrija	tafrija
+66	5166	aminifu	kiaminifu waaminifu aminifu waminifu
+67	5167	dahili	dahili kudahili kudahiliwa kimedahili vikidahili waliodahiliwa wanaodahiliwa kinadahili wadahiliwa wanadahiliwa watadahili watakaodahiliwa
+68	5168	ranchi	ranchi
+69	5169	lama	lama
+70	5170	tamvua	tamvua matamvua
+71	5171	zaha	zaha
+72	5172	inshallah	inshallah
+73	5173	tuta	tuta tutani
+74	5174	savana	savana
+75	5175	unyumba	unyumba
+76	5176	kisiki	kisiki visiki
+77	5177	uswahili	uswahilini uswahili
+78	5178	nusukaputi	nusukaputi
+79	5179	mshtaki	mshtaki mshitaki washtaki
+80	5180	mwanafizikia	wanafizikia mwanafizikia
+81	5181	vokali	vokali
+82	5182	paradiso	paradiso
+83	5183	sinki	sinki masinki
+84	5184	utatu	utatu
+85	5185	udukuzi	udukuzi
+86	5186	uholanzi	uholanzi
+87	5187	manusura	manusura
+88	5188	muundi	muundi miundi
+89	5189	lithiamu	lithi lithiamu
+90	5190	ngiri	ngiri
+91	5191	shehia	shehia
+92	5192	ulaini	ulaini
+93	5193	bibo	bibo mabibo
+94	5194	kizuka	vizuka kizuka
+95	5195	kangaruu	kangaruu
+96	5196	unururifu	unururifu
+97	5197	aridhi	aridhishe aridhi waridhike aridhike aridhini yaridhiwe
+98	5198	chekelea	chekelea kuchekelea anamchekelea tunachekelea wanachekelea akichekelea usichekelee achekelea akijichekelea anachekelea chekeleeni huchekelea kujichekelea nachekelea tulichekelea vinachekelea walichekelea
+99	5199	mkoko	mikoko mkoko mikokoni
+100	5200	dukuduku	dukuduku madukuduku

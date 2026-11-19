@@ -1,0 +1,100 @@
+1	5001	siwa	siwa masiwa
+2	5002	pijini	pijini
+3	5003	kaburu	kaburu
+4	5004	kirago	kirago virago
+5	5005	uaskofu	uaskofu
+6	5006	kilipukaji	kilipukaji vilipukaji
+7	5007	korido	korido koridoni
+8	5008	mfamasia	mfamasia wafamasia
+9	5009	ndara	ndara ndala
+10	5010	umaridadi	umaridadi
+11	5011	kiki	kiki
+12	5012	abee	abee bee
+13	5013	bubujiko	bubujiko
+14	5014	utupaji	utupaji
+15	5015	geji	geji
+16	5016	tumbusi	tumbusi
+17	5017	faraka	faraka kufarakana vilifarakana walifarakana zilifarakana alifarakana hazijafarakana ilipofarakana kilifarakana mfarakanao ulifarakana wafarakane wakafarakana
+18	5018	msumeno	msumeno misumeno
+19	5019	amonia	amonia
+20	5020	kisarufi	kisarufi
+21	5021	mfanyi	wafanyi mfanyi
+22	5022	mkongojo	mkongojo mikongojo
+23	5023	mlipaji	mlipaji walipaji
+24	5024	uharaka	uharaka
+25	5025	batiki	batiki
+26	5026	masumbwi	masumbwi
+27	5027	kiambato	kiambato viambato
+28	5028	nyuzijoto	nyuzijoto
+29	5029	gego	magego gego
+30	5030	dhalili	dhalili
+31	5031	saza	saza hakusazwa hawatasaza kusaza kusazwa
+32	5032	ufyatuaji	ufyatuaji
+33	5033	kimada	kimada vimada
+34	5034	mwanafalaki	mwanafalaki wanafalaki
+35	5035	mstahiki	mstahiki wastahiki
+36	5036	poka	poka kupokwa alipokwa hupoka kumpoka akipokwa alizopokwa anapokwa hupokwa ilipokwa iliyompoka itapokwa kipoke kupoka kuwapoka tulipokwa ukapokwa vimepokwa waliopokwa wamepokwa yamepokwa zinapokwa
+37	5037	avya	avya kuavya sikuavya vyamavya wanaoavya
+38	5038	kichochoro	kichochoro vichochoroni vichochoro
+39	5039	punja	punja kupunjwa kupunja kuwapunja vipunje anawapunja kumpunja hawapunjwi tumepunjwa wakapunjwa wanawapunja yamepunjwa
+40	5040	kijapani	kijapani
+41	5041	mhafidhina	wahafidhina mhafidhina
+42	5042	msoma	msoma wasoma
+43	5043	ratili	ratili
+44	5044	taabisha	taabisha amekutaabisha hamjataabishwa wajitaabishao yalimtaabisha kumtaabisha mnatutaabisha
+45	5045	fagia	fagia kufagia lilifagiliwa haifagiliwi kufagiliwa ulifagia usifagie walifagia yaliyofagia yamelifagia
+46	5046	ripota	ripota
+47	5047	pemba	pemba pembea vipembe lupembe mwampembwa upembe vijipembe wapemba wapembe
+48	5048	amfibia	amfibia
+49	5049	kielezi	vielezi kielezi
+50	5050	kisonono	kisonono
+51	5051	ungamo	ungamo maungamo
+52	5052	kinyozi	kinyozi vinyozi
+53	5053	legevu	legevu mlegevu kilegevu walegevu
+54	5054	mumama	mumama wamama
+55	5055	usia	usia aliwausia ameniusia akiwausia aliusia ameusia kuwausia vimeusia
+56	5056	isimu	isimu
+57	5057	parafujo	parafujo
+58	5058	songamana	songamana wasisongamane kusongamana uliosongamana vilivyosongamana wasongamane wanaposongamana waliosongamana iliyosongamana kinachosongamana limesongamana wamesongamana wanaosongamana zilizosongamana
+59	5059	kitenge	vitenge kitenge
+60	5060	papai	papai mapapai
+61	5061	hafidhi	hafidhi
+62	5062	marathoni	marathoni
+63	5063	polima	polima
+64	5064	taadhima	taadhima
+65	5065	goigoi	goigoi
+66	5066	rindima	rindima kurindima unaorindima hurindima ikirindima larindima likirindima uliorindima iliyorindima inayorindima litarindima unarindima yakirindima yanayorindima yatakayorindima zilirindima zinarindima zinazorindima zitarindima
+67	5067	kebehi	kebehi kuwakebehi walimkebehi kukebehi akawakebehi alimkebehi anakebehi anawakebehi wakinikebehi wananikebehi yazikebehi
+68	5068	tiifu	watiifu tiifu kitiifu vitiifu
+69	5069	msumbiji	msumbiji
+70	5070	huadhibu	huadhibiwa huadhibu
+71	5071	muelimishaji	waelimishaji muelimishaji mwelimishaji
+72	5072	chanika	kuchanika huchanika chanika zilizochanika ichanike ikachanika limechanika pakichanika ulichanika vimechanika
+73	5073	maya	maya mayani
+74	5074	peta	peta kupeta akapeta aliyapeta apeta atapeta ningepeta peteni wakipeta waliopeta watapeta
+75	5075	surua	surua
+76	5076	tahini	tahini watahini hutahiniwa kuwatahini alitahiniwa ikitahini utahini walitahiniwa hutahini litahiniwe mitahini tulitahiniwa waliotahiniwa wanatahiniwa
+77	5077	depo	depo deponi
+78	5078	silimu	silimu silimia kusilimu kusilimisha walisilimu alisilimu akasilimu wasilimia
+79	5079	mba	mba mbani
+80	5080	ukomeshaji	ukomeshaji
+81	5081	kalibu	kalibu kalibuni
+82	5082	torati	torati
+83	5083	hamira	hamira
+84	5084	kiporo	kiporo viporo
+85	5085	komba	kombani komba kukomba kujikomba najikomba zilizokombwa anajikomba kombwe wakombe wamekomba wasikombe yakombe
+86	5086	hojaji	hojaji
+87	5087	jo	jo
+88	5088	kisawe	visawe kisawe
+89	5089	cheki	kicheki cheki ucheki wanapochekiwa amcheki wacheki acheki mnayacheki nikamcheki wachekiwe wamcheki hainicheki sicheki sikucheki hatucheki hatukucheki
+90	5090	tisheti	tisheti
+91	5091	nanasi	mananasi nanasi
+92	5092	mrabaha	mrabaha mirabaha
+93	5093	jalidi	jalidi alivyojalidi
+94	5094	zubaa	azubae uliozubaa wakizubaa alizubaa kumezubaa kuzubaa amezubaa iliyozubaa kutozubaa tusizubae ukizubaa wakazubaa watazubaa zubaa
+95	5095	andazi	maandazi andazi
+96	5096	mtembezi	mtembezi watembezi
+97	5097	pancha	pancha
+98	5098	shani	shani
+99	5099	furushi	kifurushi mafurushi furushi
+100	5100	mubashara	mubashara

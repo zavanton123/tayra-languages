@@ -1,0 +1,100 @@
+1	3101	tangua	hutanguliwa kutangua ikitanguliwa imetanguliwa kutanguka uliotanguliwa ilitanguliwa kutanguliwa utatanguliwa alitanguliwa kilitanguliwa tangua ulitanguliwa wakitanguliwa yalitanguliwa akitanguliwa litatanguliwa inatanguliwa itatanguliwa ukitanguliwa kuitangua iliyotanguliwa itanguliwe kimetanguliwa likitanguliwa yakitanguliwa zilitanguliwa ilivyotanguliwa itakayotanguliwa kinatanguliwa kitakachotanguliwa kulitangua kulitanguliwa kutatanguliwa limetanguliwa umetanguliwa unaotanguliwa usipotanguliwa usitanguliwe utakaotanguliwa vinatanguliwa vitatanguliwa walitanguliwa yatanguliwe zilizotanguliwa zitanguliwe
+2	3102	mshumaa	mishumaa mshumaa
+3	3103	mdundo	midundo mdundo
+4	3104	vena	vena
+5	3105	ngamia	ngamia
+6	3106	maelewano	maelewano
+7	3107	kimbunga	kimbunga vimbunga
+8	3108	shangwe	shangwe
+9	3109	asisi	asisi waasisi kitaasisi ulioasisiwa uasisi iliyoasisiwa iliasisiwa aliasisi kuiasisi liliasisiwa aliyeasisi lasisi wasisi zinaasisi imeasisiwa kilichoasisiwa lililoasisiwa muuasisi nasisi uliasisiwa uliyoasisiwa walioasisi yaliasisiwa yaliyoasisiwa aliiasisi aliloasisi alipouasisi aliyeliasisi aliyoasisi aliyoiasisi ikaasisiwa ilipoasisiwa iliyoasisi kiasisi kilichoasisi kilipoasisiwa kukiasisi kulikoasisiwa likiasisi tuliasisi ukiasisiwa ulioasisi umeasisi umeasisiwa waliasisi waliasisiwa wataasisi yakiasisiwa zilizoasisi zilizoasisiwa
+10	3110	mwongozaji	mwongozaji waongozaji
+11	3111	hitimisho	hitimisho mahitimisho
+12	3112	mdanganyifu	mdanganyifu wadanganyifu
+13	3113	kushtaki	kushtakiwa kushtaki kutokushtakiwa
+14	3114	mwasisi	muasisi mwasisi waasisi
+15	3115	katakata	katakata nitakukatakata nitamkatakata watakukatakata kukatakata anawakatakata kuukatakata utazikatakata kumkatakata kuwakatakata kuyakatakata alimkatakata wakatakata walimkatakata wanachokatakata
+16	3116	upishi	upishi
+17	3117	polio	polio
+18	3118	fizikia	fizikia
+19	3119	njiwa	njiwa
+20	3120	muhogo	mihogo muhogo
+21	3121	ukabila	ukabila
+22	3122	pungufu	pungufu
+23	3123	warsha	warsha
+24	3124	genge	genge magenge gengeni magengeni
+25	3125	miadi	miadi
+26	3126	kipodozi	vipodozi kipodozi
+27	3127	shuti	shuti mashuti
+28	3128	shayiri	shayiri
+29	3129	sharubati	sharubati
+30	3130	hulka	hulka
+31	3131	gubika	gubika kugubikwa uligubikwa umegubikwa nikagubikwa imegubikwa zimegubikwa kugubika wamegubikwa yaligubikwa visivyogubika hugubikwa iliyogubikwa likigubikwa uliogubika uliogubikwa utagubikwa waligubikwa yaliyogubikwa ziligubikwa zilizogubikwa kiligubikwa akigubikwa ikawagubika iligubikwa iliigubika kilichogubikwa kuigubika liligubika lililogubikwa limegubikwa ulioligubika uliowagubika umegubika umeigubika viligubikwa hugubika ikigubikwa iligubika ilivyogubika iliyoligubika iliyowagubika imewagubika inagubikwa itagubikwa kimegubikwa kuligubika kumegubikwa liligubikwa lililogubika mmegubikwa nigubikwe ukigubika ukigubikwa uligubika vilivyogubikwa vimegubika wakigubikwa waliowagubika wanagubikwa wanaogubikwa yakigubikwa yaliyogubika yaliyoigubika yamegubikwa yanagubikwa yasiyogubikwa zikigubikwa
+32	3132	kimaendeleo	kimaendeleo
+33	3133	kiumbehai	viumbehai kiumbehai
+34	3134	nadhari	nadhari
+35	3135	ufaransa	ufaransa
+36	3136	silika	silika
+37	3137	pofusha	pofusha amepofushwa nilipofushwa kupofushwa hupofusha anipofushe ilinipofusha kumekupofusha ulipofushwa umepofushwa umpofushe yaliyonipofusha yamempofusha ameyapofusha alimpofusha ikupofushe inapofusha unatupofusha watapofushwa zikakupofusha
+38	3138	jeuri	jeuri
+39	3139	vilima	vilima vilimani
+40	3140	mhenga	wahenga mhenga
+41	3141	ninakupenda	ninakupenda
+42	3142	milimita	milimita milimeta
+43	3143	buibui	buibui
+44	3144	tangi	tangi matangi tenki
+45	3145	mwanahistoria	wanahistoria mwanahistoria
+46	3146	pudini	pudini
+47	3147	tende	tende
+48	3148	debe	debe madebe
+49	3149	sawia	sawia
+50	3150	kichaka	vichaka kichaka kichakani vichakani
+51	3151	muwa	miwa muwa mua
+52	3152	shavu	mashavu shavu mashavuni shavuni
+53	3153	udadisi	udadisi
+54	3154	diski	diski
+55	3155	majivuno	majivuno
+56	3156	kifafa	kifafa vifafa
+57	3157	sarakasi	sarakasi
+58	3158	boresho	boresho maboresho
+59	3159	chota	chota kuchota kinachotwa wakichota huchota kuyachota walipochota zimechotwa alichota tunapochota walichota zilichotwa akichota kuchotwa yachotwe huchotwa ilichota kuzichota wanachota zichote achote anachota ikichota kimetuchota kutochota mnachota tuchote tunachota tunakoyachota uchote utachota vikichota vimechota waliochota wanazichota yanakochotwa yanayochotwa zichotwe zilizochotwa zitachota
+60	3160	ogea	ogea kuogea ulizoogea nilizoogea kuiogea naogea sijaiogea utaogea walioogea
+61	3161	rubani	rubani marubani
+62	3162	staha	staha
+63	3163	sambaratisha	kusambaratisha kuisambaratisha nisiposambaratisha sijasambaratisha ulisambaratishwa kukisambaratisha kuwasambaratisha ilisambaratisha kuusambaratisha kuvisambaratisha kuzisambaratisha kusambaratishwa lilisambaratishwa vimesambaratishwa waliosambaratishwa akasambaratisha kulisambaratisha kutusambaratisha iisambaratishe ilipoisambaratisha iliposambaratisha ilisambaratishwa ilivyosambaratishwa iliyowasambaratisha imeisambaratisha imekisambaratisha imesambaratisha inayoisambaratisha itatusambaratisha kiliposambaratishwa kimesambaratishwa kitakachokisambaratisha kumsambaratisha kuyasambaratisha lililomsambaratisha sambaratisha umesambaratishwa utaisambaratisha wakiisambaratisha watasambaratishwa
+64	3164	mwanamitindo	mwanamitindo wanamitindo
+65	3165	unyevu	unyevu
+66	3166	finyu	finyu
+67	3167	duru	duru kuduru huduru ukiduru
+68	3168	nyongo	nyongo nyongoni
+69	3169	shutuma	shutuma
+70	3170	galaksi	galaksi magalaksi
+71	3171	twiga	twiga
+72	3172	utamu	utamu
+73	3173	sheikh	sheikh masheikh sheik
+74	3174	ogopesha	ogopesha kuogopesha kuwaogopesha inaogopesha unaogopesha anaogopesha haiogopeshi kuniogopesha kutuogopesha limekuogopesha mnaniogopesha anapoogopeshwa wanapoogopeshwa anaogopeshwa anayeogopeshwa halituogopeshi iliogopesha imeiogopesha inayowaogopesha isiwaogopeshe kilichomwogopesha kumwogopesha kuogopeshwa limemuogopesha linaogopesha ulimuogopesha umetuogopesha walioogopeshwa zinaogopesha zinawaogopesha
+75	3175	kikomunisti	kikomunisti
+76	3176	arobaini	arobaini arubaini
+77	3177	kitendawili	kitendawili vitendawili
+78	3178	shamiri	kushamiri hushamiri imeshamiri umeshamiri ilishamiri inashamiri yaliyoshamiri zishamiri wameshamiri itakaposhamiri itashamiri shamiri ukashamiri ukishamiri ulishamiri vinashamiri zikishamiri zilivyoshamiri ikishamiri ilivyoshamiri iliyoshamiri ishamiri kinashamiri kutoshamiri likishamiri liliposhamiri lilishamiri limeshamiri ulioshamiri unaoshamiri unashamiri ushamiri utashamiri vikishamiri vilishamiri vilivyoshamiri vimeshamiri vishamiri yakishamiri yalishamiri yalivyoshamiri yameshamiri yashamiri zimeshamiri zinashamiri zinazoshamiri
+79	3179	mimina	mimina unamimina kumimina kumiminwa akimimina ikimiminwa iliyomiminwa wamemimina ajimimine hajamimina humimina imimine kuyamimina nikimiminwa vilimimina walimimina yatamimina
+80	3180	pauni	pauni
+81	3181	fungu	fungu mafungu
+82	3182	kovu	kovu makovu
+83	3183	muhula	muhula mihula
+84	3184	msisitizo	msisitizo
+85	3185	faru	faru
+86	3186	usiri	usiri
+87	3187	chua	chua kuchua kuchuana watachuana uichue ukiichua huchuliwa akichuana walichuana atachuana anachuana itachuana wanachuana watakaochuana kilichua wakichuana zinachuana kujichua wachuana zichuliwe zitachuliwa anachuliwa anayechuana hakukuchuliwa haukuchuliwa hazikuchuliwa hazitachuliwa ilichua inachuana itakuchua kitachuana kuchuliwa kumchua mchuao michuao tunakuchua vilichuana vinavyochuana vitakavyochuana waliochuana wasingekuchua wawachua zichuane zikichuana zilichuana zilizochuana zilizochuliwa zinazochuana
+88	3188	feki	feki
+89	3189	posta	posta
+90	3190	ngojea	kungojea unangojea kumngojea ananingojea anapongojea anatungojea nikingojea wakingojea hungojea ukingojea wanaongojea wanangojea inangojea zangojea kuwangojea akingojea anawangojea kukungojea mnangojea nangojea ngojea nimemngojea tukingojea tukungojee tunangojea tusingojee wakimngojea walingojea zikingojea zinangojea
+91	3191	mhisani	wahisani mhisani
+92	3192	kiafrika	kiafrika
+93	3193	zatiti	zatiti kujizatiti imejizatiti wamejizatiti anajizatiti tulizizatiti ulijizatiti zimejizatiti amejizatiti inajizatiti alijizatiti kilijizatiti zilizozatitiwa wajizatiti yajizatiti aliyejizatiti haijajizatiti ikijizatiti ilijizatiti imezatitiwa kuizatiti kuzatiti lilivyojizatiti limejizatiti mlivyojizatiti nilijizatiti tujizatiti tulivyojizatiti umejizatiti unajizatiti vilivyojizatiti vimejizatiti vimezatiti waliojizatiti wanajizatiti watajizatiti zinavyojizatiti
+94	3194	hija	hija
+95	3195	trekta	matrekta trekta
+96	3196	inspekta	inspekta
+97	3197	kimarekani	kimarekani
+98	3198	uumbaji	uumbaji
+99	3199	kamilifu	kamilifu
+100	3200	utaifa	utaifa

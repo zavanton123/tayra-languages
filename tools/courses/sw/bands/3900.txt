@@ -1,0 +1,100 @@
+1	3801	mkundu	mkundu mkunduni mikundu
+2	3802	msagaji	wasagaji msagaji
+3	3803	taifisha	taifisha kutaifisha kutaifishwa alitaifisha ilitaifishwa ilitaifisha zitaifishwe zilitaifishwa kuzitaifisha yaliyotaifishwa umetaifishwa vilitaifishwa waliotaifisha itaifishe yalitaifishwa yametaifishwa yataifishwe zilizotaifishwa zitataifishwa haitataifisha havitataifishwa hazijataifishwa hazitataifishwa iliyataifisha imetaifishwa isingelitaifisha itaitaifisha itataifisha kinachotaifishwa kitataifishwa kuitaifisha kulitaifisha kuvitaifisha kuyataifisha mlivyotaifisha tumetaifisha vitaifishwe walimtaifisha wameyataifisha watayataifisha yatataifishwa zikitaifishwa zimetaifishwa
+4	3804	kivumishi	vivumishi kivumishi
+5	3805	mpinduzi	wapinduzi mpinduzi
+6	3806	angika	aangike angika ataangika imemwangika mumwangike nitawaangika nitayaangika niyaangike yamwangike
+7	3807	tambuu	tambuu
+8	3808	veli	veli
+9	3809	mithili	mithili
+10	3810	yaya	yaya mayaya
+11	3811	konda	makonda konda kondeni anakonda kukonda kukondesha ukonde ukakonda wakonde amekonda hakondi iliyokonda limekonda nimekonda waliokonda wanavyokonda
+12	3812	nzige	nzige
+13	3813	meng'enya	meng'enya kumeng'enya kumeng'enywa wanameng'enya humeng'enya humeng'enywa kilichomeng'enywa kujimeng'enya kuimeng'enya linameng'enya
+14	3814	sharubu	masharubu sharubu
+15	3815	waarabu	waarabu
+16	3816	upenyo	upenyo penyo
+17	3817	kitako	kitako vitako
+18	3818	kani	kani
+19	3819	nyutroni	neutroni nyutroni
+20	3820	chenga	chenga chenge kuchenga iliyotuchenga kuwachenga
+21	3821	ushambuliaji	ushambuliaji
+22	3822	kifupisho	kifupisho vifupisho
+23	3823	tukufu	tukufu
+24	3824	tako	tako matako takoni matakoni
+25	3825	utupu	utupu
+26	3826	tahakiki	tahakiki watahakiki mtahakiki utahakiki kitahakiki kutahakiki yatahakikiwa
+27	3827	uungwana	uungwana
+28	3828	mwanazuoni	wanazuoni mwanazuoni
+29	3829	usukani	usukani
+30	3830	chakata	chakata kuchakata kuchakatwa anachakata kuvichakata watachakata zinazochakata huchakatwa vinavyochakata huchakata itachakatwa itakayochakatwa kinachochakata lichakatwe mchakatao tumeshachakata unaochakata
+31	3831	utapeli	utapeli
+32	3832	kope	kope
+33	3833	nyooka	ulionyooka kunyooka nyooka pamenyooka iliyonyooka zilizonyooka inyooke umenyooka vimenyooka vinyookapo vinyooke yaliyonyooka yalinyooka zimenyooka imenyooka kinyooke kutonyooka ukanyooka unanyooka ungenyooka wamenyooka yanyooke yatanyooka
+34	3834	haragwe	maharagwe haragwe
+35	3835	bobea	bobea waliobobea aliyebobea kubobea wamebobea amebobea iliyobobea akibobea alibobea hubobea imebobea kimebobea akabobea anayebobea ilibobea nilipobobea uliobobea wabobea wakibobea walivyobobea waliyobobea wamezibobea yamebobea
+36	3836	jini	jini majini jinini
+37	3837	februari	februari
+38	3838	msajili	msajili msajilini wasajili
+39	3839	dari	dari darini madari
+40	3840	makamo	makamo
+41	3841	wika	wika kuwika hajawika hatawika huwika anawika akiwika atawika ikiwika wakiwika watawika waliowika aliwika awike inayowika uliowika waliwika
+42	3842	kopo	kopo makopo
+43	3843	upotoshaji	upotoshaji
+44	3844	kanga	khanga kanga
+45	3845	burudi	burudi kuburudika wanaburudika uburudike mburudike utaburudika wakiburudika wataburudika aburudike anaburudika burudika huburudika itaburudika tunaburudika unaburudika
+46	3846	kiingilio	kiingilio
+47	3847	stempu	stempu stampu
+48	3848	utabibu	utabibu
+49	3849	mchanganuo	mchanganuo michanganuo
+50	3850	kifusi	kifusi vifusi
+51	3851	chapati	chapati
+52	3852	fundo	fundo mafundo
+53	3853	kiwavi	viwavi kiwavi
+54	3854	sabato	sabato
+55	3855	kibete	kibete vibete
+56	3856	tanga	tanga tangia kutanga mtangazo ametanga atanga kumtangwa mitangao mwatangazo natanga tange wanatanga yalipotangwa
+57	3857	daka	daka kudaka nimekudaka wakamdaka alidaka kudakwa akadakwa amedaka kuwadaka kumdaka anazozidaka uliodaka wanadaka watadakwa hamjamdaka kuudaka lililodakwa adakwe akadaka akidaka aliidaka anadaka atadakwa inadaka kuidaka kuzidaka lilidakwa nikakidaka ulidakwa uliodakwa vimeidaka wakawadaka walimdaka wamedaka wanaodakwa yaliyodakwa
+58	3858	mja	mja mjani waja
+59	3859	ujira	ujira
+60	3860	mlinda	mlinda walinda
+61	3861	kwikwi	kwikwi
+62	3862	usultani	usultani
+63	3863	fungamana	imefungamana kufungamana zinazofungamana zisizofungamana hufungamana usiofungamana anaofungamana fungamana inayofungamana tunafungamana walifungamana yafungamane yalifungamana zinavyofungamana hawafungamani wanafungamana zinafungamana halifungamani havifungamani inafungamana isiyofungamana kutofungamana anafungamana asiyefungamana hakifungamani hautafungamana hayafungamani hayakufungamana isifungamane kutokufungamana linafungamana lisilofungamana nimefungamana tufungamane uliofungamana unafungamana unaofungamana wasiofungamana yanayofungamana zilizofungamana
+64	3864	ndama	ndama
+65	3865	uchumba	uchumba
+66	3866	mnyang'anyi	wanyang'anyi mnyang'anyi
+67	3867	kifaduro	kifaduro
+68	3868	mundu	mundu
+69	3869	hori	hori
+70	3870	wamarekani	wamarekani
+71	3871	matunzo	matunzo
+72	3872	mhubiri	mhubiri wahubiri
+73	3873	tetekuwanga	tetekuwanga
+74	3874	shikamoo	shikamoo
+75	3875	maadamu	maadamu maadam
+76	3876	ukungu	ukungu
+77	3877	shoka	shoka mashoka
+78	3878	mfuatano	mfuatano mifuatano
+79	3879	uimara	uimara
+80	3880	uaguzi	uaguzi
+81	3881	hakimiliki	hakimiliki
+82	3882	kilema	vilema kilema
+83	3883	mrija	mirija mrija
+84	3884	duma	duma kidume hadumini ukidume udume kuduma midume
+85	3885	sheheni	sheheni kusheheni imesheheni zimesheheni yaliyosheheni iliyosheheni limesheheni yamesheheni zilizosheheni kimesheheni uliosheheni vilivyosheheni kumesheheni zinazosheheni lililosheheni wamesheheni yaliosheheni zilisheheni aliyesheheni amesheheni ilisheheni lilisheheni linalosheheni umesheheni vilisheheni vimesheheni waliosheheni
+86	3886	mzabibu	mzabibu mizabibu
+87	3887	ukataji	ukataji
+88	3888	mtafaruku	mtafaruku mitafaruku
+89	3889	kulungu	kulungu
+90	3890	vali	vali
+91	3891	wakenya	wakenya
+92	3892	kidimbwi	kidimbwi vidimbwi
+93	3893	zimwi	zimwi mazimwi
+94	3894	mfiadini	wafiadini mfiadini
+95	3895	nakisi	nakisi yanakisiwa anakisiwa wanakisiwa unakisi
+96	3896	shada	shada
+97	3897	usugu	usugu
+98	3898	tasa	tasa taswa sitasi
+99	3899	uokoaji	uokoaji uokozi
+100	3900	mgando	mgando

@@ -1,0 +1,100 @@
+1	2601	sentimita	sentimita sentimeta
+2	2602	titi	matiti titi
+3	2603	shona	kushona kushonwa hushona lililoshonwa shona anashona lishonwe tulishona uzishone hushonwa iliyoshonwa imeshonwa alishona vinashona zimeshonwa aliyoshona vilivyoshonwa anavyoshona hatutashona ilishonwa imeshona kilichoshonwa kulishona kuyashona wanaoshona wanashona washona yaliyoshonwa zilizoshonwa zinashonwa
+4	2604	chonga	kuchonga chonge kuchongwa iliyochongwa chonga ilichongwa imechongwa kimechongwa unachonga yanachongwa yaliyochongwa zilizochongwa huchongwa walichonga akachongwa zilichongwa zimechongwa alivyochongwa kuichonga waliichonga alichonga kilichochongwa lililoichonga umechongwa vimechongwa akachonga akalichonga akichonga aliyouchonga chongwa ichongwe kilichongwa kilivyochongwa linalochongwa nachonga nilichonga nimechonga tuchonge tumechonga tumekichonga umechonga wamechonga wanaochonga yachongwe yamechongwa
+5	2605	majaliwa	majaliwa
+6	2606	riba	riba
+7	2607	lahaja	lahaja
+8	2608	zahanati	zahanati
+9	2609	mshenzi	mshenzi
+10	2610	bweni	bweni mabweni bwenini mabwenini
+11	2611	kaimu	kaimu
+12	2612	muonekano	muonekano mionekano
+13	2613	wasifu	wasifu
+14	2614	maradufu	maradufu
+15	2615	bembea	bembea hubembea kubembea kumbembea anabembea akibembea
+16	2616	mkosaji	mkosaji wakosaji
+17	2617	unyenyekevu	unyenyekevu
+18	2618	duara	duara
+19	2619	chakavu	chakavu
+20	2620	hakiki	kuhakiki hakiki wahakiki kuhakikiwa tuuhakiki imehakikiwa kiuhakiki iliyohakikiwa kihakiki ahakiki amehakiki kinahakiki wanahakiki hakikiwa huhakiki ilihakiki kuwahakiki kuzihakiki waliohakikiwa zihakikiwe akajihakiki akihakiki huhakikiwa imehakiki isiyohakikiwa kuihakiki kujihakiki limehakikiwa tukahakiki tunahakiki vilivyohakikiwa wakihakiki wamehakikiwa yaliyohakikiwa zikihakikiwa zilizohakikiwa zitahakikiwa
+21	2621	fedhehi	fedhehi kufedheheshwa amefedheheshwa nilimfedhehesha unafedhehesha amenifedhehesha hujamfedhehesha kumfedhehesha mnafedheheshwa nikimfedhehesha sitafedhehesha ulifedhehesha ulinifedhehesha umefedhehesha umemfedhehesha unanifedhehesha watafedheheshwa kufedhehesha aliyefedheheshwa kukifedhehesha kulifedhehesha kuwafedhehesha amemfedhehesha haimfedheheshi hatujaifedhehesha imenifedhehesha inayomfedhehesha kujifedhehesha kukufedhehesha kuufedhehesha linalofedhehesha linawafedhehesha umefedheheshwa wakifedheheshwa walifedheheshwa wametufedhehesha watakaolifedhehesha yanafedhehesha
+22	2622	ufasaha	ufasaha
+23	2623	alfabeti	alfabeti
+24	2624	mgongano	mgongano migongano
+25	2625	kwaa	kukwaza kujikwaa kukukwaza kwaa lilinikwaza ukajikwaa unajikwaa wanaomkwaza kuwakwaza kumkwaza alijikwaa hajikwai wanawakwaza akwaza hutajikwaa lililowakwaza yalikwaza yanakwaza anakukwaza inakwaza kwaza lilimkwaza ulimkwaza ameukwaa anamkwaza inamkwaza inawakwaza inayokwaza kilichowakwaza kilikukwaza kiliwakwaza kwae mmeshaukwaa tukajikwaa tumejikwaa wanajikwaa akwae alikwaa alikwaza alipojikwaa alipokwaa alipoukwaa aliyekukwaza aliyemkwaa amejikwaa anajikwaa ananikwaza haliwakwazi hujikwaa hukwaza imekwaa inakukwaza inaowakwaza inapokwaza itaikwaa itakwaza kikitukwaza kimewakwaza kinachomkwaza kinachonikwaza kinachotukwaza kinachowakwaza kinakukwaza kinakwaza kutowakwaza kutukwaza kuukwaa kuukwaza likawakwaza likimkwaza limenikwaza lingewakwaza lisikukwaze litakwaza tukakwaa tulimkwaza tulipojikwaa tunawakwaza tusijikwae twajikwaa ulipojikwaa unakwaza unanikwaza unaokwaza unatukwaza unaukwaa usiikwaze usimkwaze utawakwaza vinakwaza vyakukwaza wakizikwaza wakwaza walimkwaza walipojikwaa yakawakwaza yaliyokwaza yaliyonikwaza yaliyowakwaza yanaowakwaza yanayokwaza zilizokwaza zilizowakwaza zinakwaza zinazokwaza zinazotukwaza
+26	2626	athira	athira
+27	2627	hadhira	hadhira
+28	2628	ng'ata	kung'atwa kung'ata kukung'ata waking'ata hawang'ati kuwang'ata huwang'ata kutung'ata unang'atwa using'atwe watang'atwa hung'ata kumng'ata anang'atwa anapong'ata atang'atwa waliing'ata amng'ate hang'ati wanang'ata aliyeng'atwa ameng'atwa asing'ate akimng'ata alimng'ata anang'ata anapong'atwa anayeng'atwa haijaving'ata iwang'ate kujing'ata ng'ata waling'atwa waliong'atwa wanaong'atwa wang'atwapo wasiong'ata wawang'ate
+29	2629	jahazi	jahazi majahazi
+30	2630	mbunifu	wabunifu mbunifu
+31	2631	bichi	mbichi mabichi bichi wabichi vibichi mibichi
+32	2632	misheni	misheni
+33	2633	wakristo	wakristo
+34	2634	lami	lami
+35	2635	machungwa	machungwa
+36	2636	asali	asali
+37	2637	tafuna	kutafuna kuzitafuna sitafuni inakutafuna watawatafuna kutafunwa kuitafuna wanaotafuna hutafunwa imetafuna kuwatafuna tafuna akitafuna kulitafuna inatafunwa kilichotafunwa kinawatafuna tunakitafuna walitafuna wanapolitafuna inayotutafuna kukitafuna kutafunia kututafuna zinatafunwa inayotafuna watafune zitakutafuna inakitafuna kinachoitafuna kumtafuna kuutafuna unaitafuna unaoitafuna unaokitafuna unaowatafuna utalitafuna wanatafuna wanavyotafuna yanayokitafuna zimetafunwa zinazotafuna akikitafuna alitafuna anatafuna ataitafuna hatamtafuna hautafunwi hawakutafuna hutafuna ikitafuna iliyowatafuna inalitafuna inatafuna inatutafuna inayowatafuna itaitafuna itakayowatafuna itatutafuna kikatafuna kilimtafuna kukutafuna kuvitafuna linaloitafuna linalokutafuna linalotafuna naitafuna nilipotafuna sitatafuna tutafune ukitafuna ulizitafuna umeshatutafuna umetafuna unaolitafuna unaotutafuna ungetafuna utafune vikiitafuna vimetafuna vinavyolitafuna wakitafuna wakizitafuna wameshazitafuna wametafuna wanaitafuna wanaoitafuna yakiwatafuna yametafunwa yanayoitafuna zikitafuna zikitafunwa zilivyotafunwa zinapoitafuna zinavyotafunwa zinazolitafuna
+38	2638	ungua	ungua kuungua unaungua iliyoungua nimeungua tunaunguza utaunguza wakiunguza yakiungua yanayoungua zimeungua kuunguza inaungua imeungua huunguza iunguayo liliungua linaungua yaliyoungua ameungua ziliungua ikiuungua uliungua vikimuunguza zinaungua kujiunguza walioungua itakapoungua niungue vikaungua vilivyomwunguza hakikuungua huungua iliungua kilichoungua kunaungua vimeungua visiungue wakiungulia waliounguliwa alipoungua aliungua ameungulia angeungua ataungua ataunguza aungue hazijaungua ilimuunguza inaoungua inapoungua isiungue iungue kiliungua kuiunguza kuunguliwa kuviunguza kuwaunguza limeungua linaloungua liungue palipoungua tuliunguliwa tumeunguliwa ukiungua uliounguza uliunguza umemuunguza waliungua waliunguliwa wameungua wanaoungua wanaungua wataunguza yalipoungua yameungua yanaunguza zilizoungua zinaunguza zinazoungua zitaungua
+39	2639	staarabu	kistaarabu wastaarabu mstaarabu waliostaarabika iliyostaarabika wasiostaarabika yaliyostaarabika kiustaarabu kustaarabika staarabu wamestaarabika iliyostaarabisha imestaarabika kustaarabisha msiostaarabika staarabika tuliostaarabika uliostaarabika wastaarabike zilizostaarabika
+40	2640	ukuni	kuni ukuni
+41	2641	dhihiri	hudhihirika kudhihirika ilidhihirika imedhihirika utadhihirika zinazodhihirika inavyodhihirika zidhihirike inadhihirika ulidhihirika havidhihiriki zilidhihirika unaodhihirika haijadhihirika umedhihirika unadhihirika inayodhihirika linadhihirika itadhihirika dhihiri halijadhihirika havijadhihirika idhihiri yatakaodhihirika zisidhihirike inapodhihirika kudhihiri yamedhihirika zinadhihirika ukadhihirika yanayodhihirika zilizodhihirika amedhihirika ilipodhihirika mudhihiri usidhihirike utadhihiri vilivyodhihirika wanaodhihirika yanadhihirika adhihirike haikudhihirika hautadhihiri idhihirike ikadhihirika ikidhihiri imeshadhihirika ingedhihirika itakapodhihirika kilichodhihirika kimedhihirika kinachodhihirika kinadhihirika lilidhihirika limedhihirika unadhihiri vilidhihirika wamedhihirika wanapodhihirika watakaodhihirika yakidhihirika yaliyodhihirika zilidhihiri
+42	2642	sifuri	sifuri sufuri
+43	2643	tambi	tambi
+44	2644	mate	mate
+45	2645	himili	kuhimili muhimili uhimili imehimili yanahimili haihimili inahimili kuhimiliana kuhimilika kuhimiliwa huwahimili wahimili zihimili hauhimili himili ihimili inayohimili kitahimili kuhimilisha kuihimili kumhimili kuuhimili kuwahimili kuzihimili linahimili linahimilika vinavyohimiliwa zinahimili zinazohimili
+46	2646	utando	utando tando
+47	2647	mkanda	mkanda mikanda
+48	2648	uwakilishi	uwakilishi
+49	2649	kima	kima kimani
+50	2650	msamiati	msamiati misamiati
+51	2651	mwereka	mweleka mwereka miereka
+52	2652	mbolea	mbolea
+53	2653	azima	ameazimia kuazima ninaazimia imeazimia kuazimia niliazimia wameazimia nilimuazima unaazimia azima iliazimia waliazimia linaazimia aliazimia kuazimwa anaazimia nimeliazima tuazimie wanaazima alivyoazimia huazimwa kimeazimia wakaazimia yaliazimwa liliazimia nakuazimia umeazima walipoazimia kuwaazima limeazimia naazima sijaazima tuliazimia wakiazimia walioazimia akiazima aliyeazima anakoazimia aniazime azimia azimisha kiliazimia kuazimisha kuiazima kumuazima kumwazimia kuziazima kwakuazimwa liazimie likaazimia likiazimwa lililoazimia lililoazimwa niwaazime tuliyoazimia tumeazimia ukaazima ukiazima uliazimia ulioazimwa umeazimia vimeazimia wakiazima waliloazimia walivyoazimia wanaazimwa wanatuazima wasiazime yaazima yakuazima yaliazimia yanayoazimia yazimwe ziliazimia zimeazima
+54	2654	mwanafamilia	wanafamilia mwanafamilia
+55	2655	uundaji	uundaji
+56	2656	ukamilifu	ukamilifu
+57	2657	zurura	zurura anayezurura kuzurura akizurura nizurure ukizurura anazurura unazurura azurure hawazururi nazurura tunazurura umezurura wakizurura wanaozurura wanazurura hatukuzurura wazururao zinazozurura
+58	2658	teleza	teleza kuteleza inayoteleza unateleza anayeteleza atateleza kutelezeka sikuteleza uliteleza umeteleza utateleza huteleza inateleza kutelezesha aliteleza iliteleza kutelezea visivyoteleza wakiteleza yanateleza yanayoteleza zinateleza kutoteleza tulikotelezea akateleza ameteleza anateleza itatelezwa kutelezwa lisiteleze niliteleza ukatelezwa waliteleza wanapoteleza wasiteleze yasiyotelezeka yateleza zikitelezwa zilipoteleza zimeteleza zinazotelezeka
+59	2659	fimbo	fimbo
+60	2660	mlolongo	mlolongo milolongo
+61	2661	ukandamizaji	ukandamizaji
+62	2662	kijiti	kijiti vijiti
+63	2663	anasa	anasa
+64	2664	noa	umenoa kunoa kuinoa kuwanoa anaunoa havijanolewa lililonolewa mumenoa nimeunoa kukinoa kujinoa inayonolewa inanolewa kuzinoa kunolewa akiinoa kumnoa hunolewa anainoa anayeinoa atawanoa hanoi ikinolewa wananolewa ajinoe alikinoa anajinoa anayekinoa anayenolewa atakinoa kinachonolewa kulinoa noa unavyonoa wamenoa watanolewa zikijinoa
+65	2665	tozwa	tozwa kutozwa zinazotozwa hutozwa wanatozwa inayotozwa haitozwi hazitozwi wakitozwa zinatozwa hawatozwi unaotozwa watatozwa lilitozwa walitozwa vinavyotozwa wanayotozwa watozwe ilitozwa itozwayo unatozwa wanaotozwa yasiyotozwa zikitozwa isiyotozwa alitozwa anatozwa ikitozwa itakayotozwa itatozwa wametozwa watozwa yalitozwa akatozwa akitozwa aliyotozwa alizotozwa anayetozwa atatozwa atozwe haitatozwa hatozwi hautozwi imetozwa inatozwa itozwe kinachotozwa kutotozwa ulitozwa usitozwe utatozwa walichotozwa wanazotozwa wasitozwe watakapotozwa yanatozwa yatatozwa yatozwe zisitozwe zitozwe
+66	2666	stahimili	sitastahimili stahimili asiyestahimili kumstahimili singestahimili kutostahimili alipostahimili hangestahimili haungestahimili isiyostahimili kuistahimili kunistahimili kuzistahimili nistahimili wakastahimili zinazostahimili inayostahimili hawangestahimili hustahimili yasiyostahimili nilistahimili ustahimili yanayostahimili akastahimili alivyostahimili hakistahimili inastahimili kuwastahimili kuyastahimili linastahimili nikistahimili nimeyastahimili umestahimili unaostahimili vinavyostahimili wamestahimili
+67	2667	hui	huishia kuhuisha zihuishwe kuihuisha hunihuisha kumhuisha ukahuisha vilivyohuishwa kuhuishwa hui ahui inahuishwa haukuhuishwa huishika ukiyahuisha huisha kukihuisha huhuisha aliihuisha kuyahuisha unaohuisha aihuishe haihuishwi hawajahuisha huhuishwa huuhuisha inayohuisha kujihuisha kulihuisha linahuishwa linalohuisha tuhuishe tuihuishe tukihuishe tunahuisha ukihuishwa unahuishwa wakihuisha yahuishwe yanayohuishwa yangehuishwa yatahuishwa zilizohuishwa zisizohuishwa
+68	2668	kigaidi	kigaidi
+69	2669	spika	spika maspika
+70	2670	radi	radi
+71	2671	ufupi	ufupi
+72	2672	msikilizaji	wasikilizaji msikilizaji
+73	2673	mizani	mizani mzani
+74	2674	sulubu	asulubiwe kusulubiwa msulubishe sulubu kumsulubisha akasulubiwa amesulubisha humsulubisha imesulubisha kukusulubisha nimsulubu nitamsulubisha umsulubishe kumsulubu walivyomsulubisha wanamsulubisha mliyemsulubisha tusulubishe alisulubiwa akisulubiwa aliyemsulubisha aliyesulubiwa anavyosulubiwa hawasulubiwi huwasulubu kuusulubu kuwasulubu mmesulubiwa mnisulubishe umesulubiwa unamsulubu utawasulubu wakamsulubisha wakisulubika
+75	2675	utakatifu	utakatifu
+76	2676	uchochezi	uchochezi
+77	2677	ufunguzi	ufunguzi
+78	2678	sicho	kisicho sicho isicho asicho
+79	2679	matata	matatani matata
+80	2680	pumbavu	pumbavu kipumbavu wapumbavu
+81	2681	domo	domo madomo
+82	2682	adimu	adimu
+83	2683	zabibu	zabibu
+84	2684	plastiki	plastiki
+85	2685	wigo	wigo
+86	2686	maombolezo	maombolezo
+87	2687	kikatiba	kikatiba
+88	2688	kemia	kemia
+89	2689	tambarare	tambarare
+90	2690	uchoraji	uchoraji
+91	2691	usonji	usonji
+92	2692	kiashiria	viashiria kiashiria
+93	2693	bastola	bastola
+94	2694	kondomu	kondomu
+95	2695	kivita	kivita
+96	2696	tanda	tanda kimtandao kutandaza kutanda imetanda yametanda kuitandaza anatandaza umetandaza uliotanda lilitanda iliyotanda umetanda lililotanda walitanda wametanda zimetanda ilitandaza iliyotandwa kunakotandaza utandao chatanda kimetanda kutandwa vikatanda ilitanda linapotanda tandaza zilitanda akitandaza haujatanda ikatandaza inatanda inayotanda kilichotanda kulitanda likatanda limetanda linavyotanda mnatanda ukiitandaza utande utatandaza wakitandaza wametandwa watatandaza yaliyotanda zilizotanda
+97	2697	kingono	kingono
+98	2698	maridadi	maridadi
+99	2699	jumbe	jumbe majumbe
+100	2700	uzani	uzani

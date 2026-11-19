@@ -1,0 +1,100 @@
+1	2001	werevu	werevu
+2	2002	batili	batili kubatilisha ubatili batilisha ikibatilishwa usibatilishe zilibatilishwa itabatilishwa ukibatilisha ilibatilishwa alibatilisha isibatilishwe ningebatilisha nitabatilisha ubatilishe kubatilishwa kulibatilisha ilibatilisha ibatilishwe ikabatilisha ilibatili ilibatiliwa ilipobatiliwa unabatilisha kuzibatilisha atakayebatilishwa ubatilike vilibatilishwa zinajibatilisha utabatilika wanaibatilisha yanayobatilisha yatabatilika abatilishe haibatilishi hautabatilika hazijabatilishwa hubatili iliyoibatilisha inabatilisha inabatilishwa kibatilishe kimebatilishwa kuyabatilisha lilibatilisha mbatili ubatilishwe ulibatilishwa vilivyobatilishwa wakibatilisha yabatilishwe yalibatilishwa yaliobatilishwa zimebatilisha zinazobatilishwa
+3	2003	maelekezo	maelekezo
+4	2004	talanta	talanta
+5	2005	ushirika	ushirika
+6	2006	majumba	majumbani majumba
+7	2007	unyanyasaji	unyanyasaji
+8	2008	muumini	waumini muumini mwumini
+9	2009	kalenda	kalenda
+10	2010	msemo	msemo misemo
+11	2011	nyaraka	nyaraka
+12	2012	uvumi	uvumi
+13	2013	patana	kupatana walipatana kupatanisha kupatanishwa alipatana kuwapatanisha inapatana mkipatana nikapatana nilipatana tunajipatanisha watapatanisha zisizopatanishwa zilipatana wamepatana hawakupatana wapatane hupatana vilipatana waliopatana wanapatana zimepatana zinapatana hawapatani hazikupatana ilipatana patana wasiopatana yalipatana akawapatanisha hazipatani hupatanisha hupatanishwa mpatanishwe uliopatanishwa unaopatana unapatana wakapatana zinapatanishwa kutopatana kuzipatanisha aliwapatanisha atawapatanisha hakupatana halipatani havipatani isiyopatana kilipatana kinapatana tulipatanishwa zilizopatana akapatana anapatana apatanishe haipatani akapatanisha alipatanisha alipopatana aliyepatana hampatani hatupatani haupatani iliyopatana itapatana kisichopatana kujipatanisha kupatanika kuyapatanisha upatanishao vinapatana wakipatana walipowapatanisha wamepatanishwa wasipopatana yalipatanishwa yaliyopatana zisizopatana
+14	2014	mahususi	mahususi mahsusi
+15	2015	visha	visha kuvishwa kumvisha mvishe anapokuvisha atavishwa kukuvisha nivishe kuvisha vishwa atakayevishwa huwavisha kunivisha mumvishe mvisheni nakuvisha nimvishe ningevishwa nitamvisha nivishwe sitavishwa ulivishwa umenivisha uvishwe wavishane visheni akimvisha alivishwa amevishwa lilivishwa wakavishana wanavyovisha wakamvisha kujivisha kuvishana unapojivisha wakiwavisha wanapovishana akajivisha akamvisha alivyovishwa aliyevishwa anaivishwa anavishwa hajavishwa hakuvishwa ivishike kuwavisha kuzivisha tunajivisha tunaowavisha umevishwa wanaojivisha wanaovishwa
+16	2016	mhudumu	mhudumu wahudumu
+17	2017	chambua	kuchambua kuchambuliwa kuichambua inachambua kuzichambua unachambua nilichambua nikachambua nilimchambua tunakichambua zilichambuliwa kuyachambua anachambua alichambua kuwachambua yanachambua huchambua akichambua aliichambua kuuchambua kuvichambua ukichambua wakichambua aliyachambua huchambuliwa iliyochambuliwa kulichambua tutayachambua umechambua unachambuliwa imechambua lilichambua yalichambuliwa anaichambua atachambua ilichambua nauchambua nichambue tuyachambue wachambue wakachambua walichambua wanachambua yachambuliwe zilizochambuliwa amechambua ameichambua anamchambua anawachambua atachambuliwa atayachambua chambua hawachambui hutuchambua ikichambua ikiichambua inawachambua inayochambua kumchambua linachambua mkichambua nimechambua ninachambua nitachambua tuchambue tukazichambua tulichambua tunawachambua tuuchambue uchambue ukizichambua ulichambue umechambuliwa umeichambua walichambuliwa wameichambua wanaozichambua watachambua yalichambua yaliyochambuliwa yameshachambuliwa yanawachambua zikichambuliwa zinachambua zinachambuliwa
+18	2018	msiba	msiba misiba msibani misibani
+19	2019	miongo	miongo
+20	2020	kiapo	kiapo viapo
+21	2021	runinga	runinga runingani
+22	2022	kiraia	kiraia
+23	2023	kisi	kukisia kisia nakisia alikisia ninakisia wanakisia walikisia unakisia aliyekisia nikikisia nilichokisia nimekisia ninavyokisia ukikisia ulichokisia umekisia hukisia wamekisia inakisia ikikisia tunakisia yanakisia zinakisia ilikisia kikisi akisie akukisi anakisia imekisia kisi lakisi mkisi tukisie wakisi wakisia wakisie walivyokisia unakisi
+24	2024	igizo	maigizo igizo
+25	2025	fadhila	fadhila
+26	2026	theluji	theluji
+27	2027	goli	magoli goli golini
+28	2028	mpiga	mpiga wapiga wapigani
+29	2029	operesheni	operesheni oparesheni opresheni
+30	2030	sinema	sinema
+31	2031	kadirio	makadirio kadirio
+32	2032	pokonya	amenipokonya kunipokonya nitampokonya ulinipokonya kupokonya kuwapokonya kumpokonya kupokonywa ananipokonya angenipokonya kukupokonya alinipokonya aliyekupokonya amepokonya amepokonywa atampokonya lilipokonywa nawapokonya nilikupokonya nimekupokonya nimepokonywa ninakipokonya pokonya ulimpokonya vitampokonya wakampokonya wanaotupokonya wapokonye kutupokonya alipokonywa waliopokonywa walipokonywa wamepokonywa akampokonya akaupokonya alimpokonya alivyopokonywa aliwapokonya hazitupokonyi kukipokonya kuwapokonywa tumepokonywa wanapokonywa watapokonyana zimepokonywa zinatupokonya zinawapokonya
+33	2033	fuga	kufuga kufugwa hufugwa wanaofugwa hufuga wanafugwa wafugwao wanafuga wakifugwa anayefugwa kuifuga wakafugwa waliofugwa wamefugwa wafuga walifuga kuwafuga nafuga hawakufuga walifugwa kumfuga hawakufugwa amefugwa hawafugi wafugwa zimefugwa anafuga wanaofuga alifuga aliyefugwa amefuga anayofuga fugwa hawafugwi zinazofugwa awafuge inayofugwa nikafuga ukiwafuga yanafugwa afugwaye anaowafuga kuufuga niliyefugwa tunafuga tuwafugao waliofuga afuge akifuga akifugwa amfuge anafugwa atamfuga atawafuga fuga hafugwi hajafuga ifugwe linafuga linalofuga mfuge nifuge ninaowafuga nitafuga tunavyofuga ukifuga umezifuga unaowafuga unapofuga wafuge wamefuga wanaowafuga wanayoifuga wasiofugwa watafugwa zifugwazo zilifugwa zinafuga zinafugwa
+34	2034	feli	kufeli nilifeli umefeli utafeli amefeli wanaofeli ulifeli zimefeli waliofeli nimefeli aliyefeli ilifeli iliyofeli inavyofeli nitafeli ukifeli unapofeli alifeli wamefeli zilizofeli feli lilifeli afeli wakifeli wanafeli lililofeli ulipofeli zilifeli zitafeli akafeli imefeli wafeli walifeli watafeli anavyofeli inafeli likafeli alivyofeli angefeli atafeli hufeli umeshafeli anafeli anapofeli tulifeli tunapofeli wanapofeli wanavyofeli wasifeli yamefeli zikifeli
+35	2035	ufundi	ufundi
+36	2036	ubao	ubao ubaoni
+37	2037	sikukuu	sikukuu
+38	2038	komboa	komboa kujikomboa kuwakomboa kukomboa kumkomboa kuikomboa mjikomboe kutukomboa tumekombolewa kulikomboa awakomboe anamkomboa ninakomboa tunakomboa vilitukomboa kuukomboa aliyekombolewa atukomboe atawakomboa imekombolewa kuyakomboa ukombolewe hawajakombolewa imewakomboa waliokomboa waliokombolewa wanamkomboa akamkomboa alikombolewa ataikomboa haitukomboi ijikomboe ilikombolewa ilipojikomboa imeikomboa itakayowakomboa kuzikomboa tujikomboe tutakomboa tuwakomboe wakombolewe waliukomboa wamejikomboa wamekombolewa akakombolewa akiwakomboa aliyewakomboa anawakomboa atajikomboa haijamkomboa haitatukomboa hazikukombolewa hukombolewa ilikukomboa imkomboe inavyoikomboa inayomkomboa itatukomboa itayakomboa kukombolewa lilijikomboa lilipokombolewa linawakomboa litakombolewa litawakomboa tutawakomboa umemkomboa wajikomboe wakikomboa wakiukomboa wakomboa wakombolewa walipojikomboa wameikomboa wanajikomboa wangelikomboa watajikomboa yalikomboa zikombolewe zilizoikomboa zilizokombolewa zitajikomboa zitakazowakomboa
+39	2039	mazishi	mazishi mazishini
+40	2040	pingamizi	pingamizi mapingamizi
+41	2041	molekuli	molekuli
+42	2042	treni	treni
+43	2043	ndovu	ndovu ndofu
+44	2044	mnyonge	mnyonge wanyonge mnyongeni
+45	2045	beki	beki mabeki
+46	2046	hususan	hususan hususa
+47	2047	chungu	chungu vyungu mchungu kichungu michungu pachungu kuchungu
+48	2048	machafuko	machafuko
+49	2049	komaa	kukomaa hukomaa waliokomaa umekomaa aliyekomaa iliyokomaa hajakomaa hawajakomaa amekomaa kutokomaa hujakomaa nimekomaa watakapokomaa anakomaa wasiokomaa zilizokomaa wakikomaa havijakomaa lililokomaa wakomae watakomaa yaliyokomaa haijakomaa uliokomaa inakomaa wanakomaa wanapokomaa yamekomaa yanapokomaa hayajakomaa limekomaa wamekomaa anapokomaa inapokomaa tukomae hazijakomaa imekomaa komaa tumekomaa akikomaa walikomaa yakikomaa zilikomaa akakomaa haujakomaa ikikomaa ikomae kimekomaa unaokomaa unapokomaa akomae alikomaa angekomaa asiyekomaa haikomai haitakomaa ilikomaa ilipokomaa isiyokomaa itakomaa kilichokomaa likikomaa mnakomaa nakomaa nimeshakomaa pakakomaa tumeshakomaa tungekomaa ukakomaa ulikomaa unavyokomaa utakomaa yakakomaa yanaokomaa zikikomaa zilipokomaa zimekomaa zitakomaa
+50	2050	adhimisha	kuadhimisha huadhimishwa tunaadhimisha inaadhimishwa iliadhimishwa kuadhimishwa inaadhimisha nikiadhimisha ninaadhimisha wamwadhimisha huadhimisha aliadhimisha tunapoadhimisha ikiadhimishwa inayoadhimishwa iliyoadhimishwa wanaadhimisha iliadhimisha tukiadhimisha akiadhimisha unaadhimishwa ikiadhimisha kinaadhimisha uliadhimisha wakaadhimisha waliadhimishwa wanapoadhimisha inayoadhimisha tumeadhimisha waliadhimisha anaadhimishwa iliyoadhimisha yanaadhimishwa ameadhimisha ikaadhimishwa inapoadhimisha itaadhimisha kiliadhimisha kuadhimishia waadhimishe zinazoadhimisha zinazoadhimishwa adhimisha ataadhimisha huziadhimisha ilivyoadhimishwa imeadhimisha inavyoadhimishwa itaadhimishwa itakayoadhimishwa kilichoadhimisha kimeadhimisha kinachoadhimisha kuiadhimisha kuiadhimishwa liadhimishe linaadhimisha linaadhimishwa linaloadhimisha linapoadhimisha litaadhimisha tuadhimishe ukiadhimisha wakiadhimisha walioadhimisha wameadhimisha wangeiadhimisha watakapoadhimisha yaliadhimisha yaliyoadhimishwa yanayoadhimishwa zinaadhimisha zitaadhimishwa
+51	2051	atomi	atomi atomu
+52	2052	suluhu	suluhu
+53	2053	udanganyifu	udanganyifu
+54	2054	mwakani	mwakani
+55	2055	mfungwa	mfungwa wafungwa
+56	2056	dirisha	dirisha madirisha dirishani madirishani
+57	2057	unene	unene
+58	2058	ulevi	ulevi ulevini
+59	2059	kimo	kimo vimo kimoni
+60	2060	amina	amina amin
+61	2061	amsha	kuamsha kuniamsha kuwaamsha huamsha iliamsha amsha litaamsha kinachoniamsha kukuamsha viliamsha ikaniamsha inayoniamsha nimemwamsha uliamsha unamwamsha uniamshe usiniamshe wanawaamsha kimeamsha alimwamsha kumwamsha yaliamsha aliamsha inaamsha kuliamsha imeamsha kumuamsha akamwamsha inamwamsha kinachoamsha wamshike iliyoamsha inayoamsha zinazoamsha ameamsha anaamsha kuamshana kuiamsha kutuamsha liliamsha liliwaamsha linaoamsha nikamwamsha waliowaamsha yanaamsha akaamsha alimuamsha alipoamsha aliyeniamsha amewaamsha awaamshe ilivyoamsha iliwaamsha imewaamsha inatuamsha itaamsha kikiwaamsha kiliamsha kiliwaamsha kinaamsha kukiamsha kulikoamsha laamsha liamshe lililoamsha lililowaamsha linaamsha litakalowaamsha tuliamshe ukimuamsha uliniamsha ulioniamsha unaamsha utaiamsha waliamsha walivyowaamsha wameamsha wanaamsha wanaoamsha wanapowaamsha wawaamshe yaamsha yameamsha yanayoamsha ziliamsha zilimuamsha zimeamsha
+62	2062	jaala	jaala
+63	2063	medali	medali
+64	2064	ugaidi	ugaidi
+65	2065	budi	budi
+66	2066	radhi	radhi uradhi miradhi
+67	2067	mlio	mlio milio
+68	2068	kariri	kukariri alikaririwa kariri umekariri unakariri kukaririwa amekaririwa alikariri akariri alilikariri ikariri kuvikariri nikikariri nilikariri anayakariri walikaririwa wamekaririwa anakariri akikaririwa vilimkariri kulikariri walikariri kilimkariri anayekariri wakikariri akimkariri alimkariri alivyokaririwa aliwakariri anakaririwa anayekaririwa ikimkariri ilimkariri iliyokaririwa lilimkariri nilimkariri wanakariri akakaririwa akikariri aliyekaririwa amekariri ikiukariri ilivyokaririwa iliyomkariri kilikaririwa kuyakariri likimkariri lilikaririwa limekariri limewakariri tunaikariri vikimkariri vilikariri vilivyomkariri viliwakariri vimekaririwa vimemkariri wakikaririwa waliokaririwa wamekariri yanayokaririwa zilimkariri zimemkariri
+69	2069	ala	ala
+70	2070	nafaka	nafaka
+71	2071	nyanyasa	nyanyasa kunyanyaswa kuwanyanyasa kunyanyasa kuninyanyasa wananyanyaswa kumnyanyasa amenyanyaswa wakinyanyaswa akininyanyasa usimnyanyase anawanyanyasa anayenyanyaswa hawanyanyaswi iliyomnyanyasa kukunyanyasa umetunyanyasa usiwanyanyase walinyanyasa walinyanyaswa zikinyanyaswa alinyanyaswa wanaonyanyasa wanaonyanyaswa wakiwanyanyasa walionyanyaswa ananyanyasa anavyomnyanyasa inawanyanyasa kuinyanyasa wanawanyanyasa kuunyanyasa wakanyanyasa yakinyanyaswa akinyanyaswa akiwanyanyasa alivyonyanyaswa amewanyanyasa ananyanyaswa anavyonyanyaswa isiwanyanyase kutunyanyasa kuzinyanyasa ninamnyanyasa unamnyanyasa wamenyanyaswa wanavyonyanyaswa wanavyowanyanyasa wanyanyaswe aliowanyanyasa alivyoinyanyasa aliwanyanyasa aliyenyanyaswa anamnyanyasa anatunyanyasa anyanyaswa anyanyaswe hawatunyanyasi ikiwanyanyasa inanyanyasa kutokunyanyaswa kutonyanyaswa kuvinyanyasa mkitunyanyasa nilivyonyanyaswa nimnyanyase tumenyanyaswa tunanyanyaswa tunaonyanyaswa tunawanyanyasa tunyanyaswe tusiwanyanyase unaowanyanyasa wakamnyanyasa walivyoninyanyasa wananyanyasa wanaowanyanyasa wanyanyase zikiwanyanyasa zinawanyanyasa zinazomnyanyasa
+72	2072	ovyo	ovyo ovyoovyo
+73	2073	kitambulisho	kitambulisho vitambulisho
+74	2074	figo	figo mafigo
+75	2075	taswira	taswira
+76	2076	ukaguzi	ukaguzi
+77	2077	bia	bia mabia
+78	2078	lishe	lishe
+79	2079	liwa	kuliwa huliwa kinacholiwa kujiliwa nitaliwa tukaliwa aliwa ikiliwa zinaliwa inaliwa wanaliwa italiwa analiwa kinaliwa liwa zimeliwa zitaliwa ajiliwa aliwe iliwayo imeshaliwa inayoliwa yaliyoliwa imeliwa uliwe akiliwa linaliwa unaliwa yakiliwa ataliwa ililiwa tumeliwa waliwe wataliwa yanaliwa yanayoliwa zikiliwa anayeliwa hailiwi haliwi hayaliwi ikaliwa kikiliwa kililiwa lililoliwa litaliwa nikajiliwa vililiwa wakiliwa waliwao waliwayo watakaoliwa yanavyoliwa ziliwapo zinavyoliwa kiliwe iliwe yaliwe
+80	2080	vuja	kuvuja anavuja inavuja unavuja huvuja linavuja kinachovuja inayovuja mvuje zilivuja haukuvuja lililomvuja nitakapovuja ulivyovuja wavuja ulivuja wanaovuja zilizovuja vinavyovuja iliyovuja kilivuja yanavuja zinavuja vilivyovuja yalivuja akivuja alivuja ilivuja kuvujwa uliovuja yanayovuja avuje halivuji likivuja lililovuja lilivujwa linalovuja linavyovuja ukivuja vinavuja vuja wakivuja walilovuja waliovuja yakivuja yameshavuja yavuja yavujayo zinanivuja zitavuja
+81	2081	nguzo	nguzo kiguzo kiguzoni
+82	2082	gaidi	magaidi gaidi
+83	2083	aua	auawe auliwe wauawe aua auawa akaauawa walimaua iliauliwa waliauawa wauzayo auza
+84	2084	pua	pua puani mapua
+85	2085	upelelezi	upelelezi
+86	2086	kipofu	kipofu vipofu
+87	2087	eua	eua ameuawa wameuawa ameua wameua ameuliwa alieuawa wameuliwa kumeua yameua
+88	2088	kitongoji	vitongoji kitongoji vitongojini
+89	2089	hayana	hayana
+90	2090	uvamizi	uvamizi
+91	2091	osha	kuosha osha uoshe unaosha kuziosha haitaoshwa hazijaoshwa nitakuosha nitaosha nitauosha wananiosha yatakuosha zitaoshwa kuoshwa wakiosha wanaosha kuiosha hazikuoshwa hazioshwi huosha inaoshwa umetuosha usioshe vinaoshwa vinavyooshwa wakiviosha walimwosha walioshwa aoshe kuviosha mlioshwa nioshe nisipokuosha alipooshwa kuuosha naosha waoshe aliosha aliyetuosha hawataosha ioshwe kimeoshwa kujiosha kuliosha kutoosha moshe ukaosha umeliosha visivyooshwa walimuosha waliosha yaoshwe ziliosha
+92	2092	tamba	kutamba alitamba anayetamba zilizotamba ametamba anatamba ilitamba unatamba ulitamba akitamba wakitamba wanatamba inayotamba walitamba unayetamba aliyetamba tamba lilitamba zilitamba wanaotamba waliotamba kujitamba tambwe kilichotamba uliotamba ikitamba wametamba watambe ikatamba iliyotamba inatamba kilitamba zinatamba watamba zinazotamba aliotamba haujatamba hutambwa vitambazo akatamba inavyotamba kinatamba lililotamba linalotamba yanatamba zikitamba atamba atambe hutamba imetamba kikitamba kinachotamba limetamba linatamba mtambwe tunatamba ukitamba umetamba unaotamba usitambe wakijitamba watakaotamba yakitamba yatamba
+93	2093	mboga	mboga
+94	2094	tunuku	kutunukiwa ilitunukiwa alitunukiwa kumtunuku anatunukiwa waliotunukiwa inayotunukiwa niliwatunukia ninamtunukia ulinitunukia utanitunuku ametunukiwa walitunukiwa imetunukiwa kilitunukiwa tunukiwa kutunuku akatunukiwa ulitunukiwa alimtunuku aliyetunukiwa kuwatunuku watatunukiwa atunukiwe hutunukiwa ikatunukiwa imeitunukia imeshatunuku umetunukiwa vinavyotunukia zilitunukiwa zilizotunukiwa zinazotunukiwa atunukiwapo tutunukiwapo yalitunukiwa aliyotunukiwa aliyotutunuku ameshatunukiwa atawatunuku ikamtunuku kimetunukiwa kukutunuku kuwatunukia ulichotunukiwa walimtunukia wametunukiwa akitunukiwa akiwatunukia akiwatunuku alichotunukiwa alikotunukiwa alinitunukia alipotunukiwa aliwatunuku ameitunuku amekutunuku ametunukia atakayewatunuku atamtunukia atamtunuku atatunukiwa hajatunukiwa huwatunukia huwatunuku ilimtunuku iliyomtunuku imewatunuku itakayotunukiwa itunukiwe kiliwatunuku limetunukiwa nitunuku tulitunukiwa tumetunukiwa tunavyotunukiwa tunuku wakatunukiwa wakitunukiwa waliwatunuku watakaotunukiwa watunukiwa watunukiwe
+95	2095	uchawi	uchawi
+96	2096	yawe	yawe
+97	2097	mzinga	mizinga mzinga
+98	2098	mwangaza	mwangaza miangaza muangaza
+99	2099	dhoofu	kudhoofisha kudhoofika hudhoofisha ilidhoofika dhoofu kinadhoofisha imedhoofika itadhoofika kukudhoofisha kuudhoofisha yanamdhoofisha hudhoofika kumdhoofisha kudhoofu ulidhoofika kukidhoofisha yalidhoofisha walidhoofisha kuwadhoofisha likadhoofika ulidhoofisha lilidhoofisha vilidhoofisha kuidhoofisha aliyedhoofika anaudhoofisha hayadhoofishi iliodhoofika udhoofu uliodhoofika uliwadhoofisha walidhoofika amedhoofu imedhoofu umedhoofika adhoofike ingedhoofika kulidhoofisha likidhoofisha vinadhoofisha wanadhoofisha yanayodhoofisha ilidhoofisha imedhoofisha inayodhoofisha kukidhoofu kunadhoofisha udhoofike unadhoofisha yanadhoofisha alidhoofu alikidhoofisha aliudhoofisha amedhoofika ilidhoofu iliyodhoofu iliyokidhoofisha inavyodhoofisha isidhoofike itakayodhoofisha itakudhoofisha kiliidhoofisha kinadhoofika kitadhoofika kuudhoofu kuzidhoofisha linakidhoofisha mdhoofu nimedhoofika tumejidhoofisha ukadhoofika umedhoofisha umeshadhoofika unakidhoofisha utadhoofika wakidhoofika waliodhoofisha waliodhoofu wamedhoofu wanadhoofika wanaokidhoofisha wasiidhoofishe yameidhoofisha zikamdhoofisha zilidhoofisha zilizodhoofika zilizodhoofisha zinazodhoofisha
+100	2100	chifu	chifu machifu

@@ -1,0 +1,100 @@
+1	4101	mvivu	wavivu mvivu
+2	4102	nasibu	nasibu
+3	4103	salio	salio masalio
+4	4104	gridi	gridi
+5	4105	usomaji	usomaji
+6	4106	dampo	dampo
+7	4107	punguzo	punguzo mapunguzo
+8	4108	potelea	potelea kupotelea
+9	4109	minya	kuminya minya kuminywa kuiminya akaminya huminywa huminya imeminywa aliiminya alivyokuminya anaminya ilivyominywa inaminya kinachojiminya kinaminya kuwaminya lilipominywa unaminya unaminywa wameminywa wanaminywa wanapominywa
+10	4110	vinjari	kivinjari kuvinjari vinjari anavinjari wakivinjari vivinjari akivinjari amevinjari huvinjari inayovinjari kuuvinjari tuvinjari ukavivinjari vinavyovinjari wanavinjari zitavinjari
+11	4111	amshwa	amshwa inaamshwa huamshwa uliamshwa akaamshwa kuamshwa yanaamshwa waamshwe wakiamshwa aliamshwa limeamshwa umeamshwa akiamshwa aliyeamshwa niliamshwa unaamshwa unavyoamshwa waliamshwa zinaamshwa
+12	4112	uanaharakati	uanaharakati
+13	4113	kwajuka	umekwajuka amekwajuka kwajuka ukikwajuka zimekwajuka hukwajuka iliyokwajuka kukwajuka
+14	4114	sentigredi	sentigredi
+15	4115	jivuna	jivuna kujivuna mnajivuna ukijivuna walijivuna kinajivuna asijivune hujivuni wanajivuna wasijivune akajivuna anajivuna hujivuna inajivuna jivuneni mjivune nikajivuna nikijivuna tunajivuna watajivuna
+16	4116	tabibu	tabibu
+17	4117	yadi	yadi
+18	4118	utungisho	utungisho
+19	4119	mkasi	mkasi mikasi
+20	4120	ubikira	ubikira
+21	4121	dengu	dengu
+22	4122	tanua	kutanua kujitanua ilitanua wakitanua kuitanua alitanua hutanua imejitanua inayotanua linajitanua tanua tutanue vitatanua wajitanue wametanua yakitanua yanatanua zikitanua zilizotanua
+23	4123	neli	neli
+24	4124	sili	sili
+25	4125	mahameli	mahameli
+26	4126	taliki	taliki kumtaliki amtaliki nitakutaliki nitatalikiwa umetalikiwa kiitaliki akamtaliki alimtaliki aliyemtaliki aliyetalikiwa mtaliki nimetalikiwa tukamtaliki waliotalikiwa wanawataliki wataliki
+27	4127	tufani	tufani
+28	4128	nenepa	kunenepa anenepe atanenepa umenenepa kunenepesha hunenepa kumnenepesha imenenepa nenepa ananenepa kuwanenepesha nanenepa nimenenepa ungenenepa
+29	4129	ughaibuni	ughaibuni
+30	4130	waswahili	waswahili
+31	4131	msala	msalani msala mswala misala
+32	4132	pofuka	pofuka umepofuka amepofuka haitapofuka imepofuka yamepofuka kupofuka apofuke inapofuka panapofuka wanapofuka
+33	4133	kipashio	vipashio kipashio
+34	4134	milionea	milionea mamilionea
+35	4135	kiwiliwili	kiwiliwili viwiliwili
+36	4136	mwanahisa	wanahisa mwanahisa
+37	4137	ghani	kughani waghani wanaghani mghani ughani anavyoghani kilivyoghaniwa zilizoghani akighani alighani ataghani ghani kughaniwa walighani wanaoghani
+38	4138	chaneli	chaneli
+39	4139	mkesha	mkesha mikesha
+40	4140	vifurushi	vifurushi
+41	4141	nusura	nusura nusra
+42	4142	muunganisho	muunganisho miunganisho
+43	4143	nishani	nishani
+44	4144	kutahiri	kutahiriwa kutahiri kutokutahiriwa
+45	4145	dhifa	dhifa
+46	4146	mjuzi	mjuzi wajuzi
+47	4147	mnywaji	wanywaji mnywaji
+48	4148	spoti	spoti
+49	4149	mdaiwa	mdaiwa wadaiwa
+50	4150	refa	refa marefa
+51	4151	karakana	karakana
+52	4152	ukomunisti	ukomunisti ukoministi
+53	4153	sitiri	sitiri kujisitiri kukusitiri kusitiri hujisitiri kumsitiri akijisitiri akaisitiri aliyasitiri aliyemsitiri amsitiri kusitiriwa zinasitiri amejisitiri anamsitiri isiyositiriwa kikisitiri kitajisitiri kuisitiri kuwasitiri nikisitiri nisitiri ujisitiri yasiyositiri zilijisitiri
+54	4154	wasaa	wasaa wasaani
+55	4155	utitiri	utitiri
+56	4156	utendi	utendi
+57	4157	legea	legea kulegea lililegea inalegea litalegea alilegea hulegea iliyolegea limelegea nikilegea wamelegea ikilegea ilegee walegee imelegea ukalegea umelegea usilegee wasilegee yakalegea zimelegea
+58	4158	wiski	wiski
+59	4159	mtumizi	watumizi mtumizi
+60	4160	umisionari	umisionari
+61	4161	rununu	rununu
+62	4162	vuvuzela	vuvuzela
+63	4163	fasili	fasili hufasiliwa ufasili inafasiliwa kufasili iliyofasiliwa linalofasiliwa unafasiliwa yalifasiliwa aliifasili ikifasiliwa inavyofasiliwa kutofasili
+64	4164	gome	magome gome magomeni
+65	4165	tetereka	kutetereka usitetereke ilitetereka haikutetereka haitatetereka ikatetereka haijatetereka hakutetereka ulitetereka ametetereka angetetereka asiyetetereka haitetereki hatatetereka iliyotetereka imetetereka inayotetereka kisitetereke nitetereke tetereka tusitetereke ukitetereka uliotetereka unatetereka zilitetereka
+66	4166	karaha	karaha karahani
+67	4167	kichapo	kichapo vichapo
+68	4168	sononeka	sononeka unasononeka amesononeka hautasononeka kusononeka husononeka akisononeka hasononeki anasononeka ilivyosononeka nikasononeka ninasononeka nitasononeka tumesononeka ulisononeka umesononeka walisononeka wanaosononeka
+69	4169	wanja	wanja
+70	4170	mraibu	mraibu waraibu
+71	4171	mzinzi	mzinzi wazinzi
+72	4172	umetaboli	umetaboli umetabolini
+73	4173	aiskrimu	aiskrimu
+74	4174	blanketi	blanketi
+75	4175	uharamia	uharamia
+76	4176	kondakta	kondakta makondakta
+77	4177	themanini	themanini
+78	4178	megabaiti	mb megabaiti
+79	4179	hadubini	hadubini
+80	4180	bwaga	bwaga kumbwaga kuwabwaga kubwagwa kubwaga akimbwaga asimbwage kikiwabwaga imeibwaga kuibwaga wamebwagwa alibwagwa aliwabwaga imebwaga waliowabwaga wanavyobwagana yakambwaga abwagwa akabwagwa alimbwaga aliyebwaga ambwaga amebwaga amembwaga ameshawabwaga amewabwaga anajibwaga haujabwagwa hulibwaga ilibwaga kujibwaga wabwagwe waliobwagwa waliwabwaga wameibwaga wawabwage yaibwaga
+81	4181	samadi	samadi
+82	4182	alumini	alumini
+83	4183	tahiri	wanatahiriwa waliotahiriwa kuwatahiri hutahiriwa wanatahiri kumtahiri kutahiria alitahiriwa ametahiriwa hajatahiri walitahiri watahiriwa akitahiriwa alilotahiriwa aliyetahiriwa atahiriwe hawajatahiriwa kitatahiriwa tahiri wakitahiri wametahiriwa wanaotahiriwa anayetahiriwa asiyetahiriwa hajatahiriwa hatutahiri hutahiri inayotahiriwa waliotahiri walitahiriwa
+84	4184	ufinyanzi	ufinyanzi
+85	4185	mtoro	mtoro watoro
+86	4186	nyundo	nyundo
+87	4187	chimbo	machimbo chimbo
+88	4188	mwanzi	mianzi mwanzi mwanzini
+89	4189	uondoaji	uondoaji
+90	4190	wino	wino
+91	4191	kalori	kalori
+92	4192	chacha	wachache yamechacha kuchacha chacha wachacha inachacha umechacha zichache ukachachwa unapochacha mchache achacheni auchache kitachacha kuchachwa kumechacha vilivyochacha kichache
+93	4193	fomula	fomula fomyula
+94	4194	chemshwa	lililochemshwa kuchemshwa huchemshwa yaliyochemshwa iliyochemshwa chemshwa uliochemshwa vilivyochemshwa yamechemshwa zilizochemshwa
+95	4195	mfungo	mfungo
+96	4196	butwaa	butwaa
+97	4197	rungu	rungu marungu
+98	4198	vijito	vijito
+99	4199	fiti	fiti
+100	4200	hudhurungi	hudhurungi

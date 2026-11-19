@@ -1,0 +1,100 @@
+1	2801	uke	uke ukeni
+2	2802	foleni	foleni
+3	2803	bahatisha	bahatisha kubahatisha nilibahatisha kubahatishwa hubahatisha isiyobahatisha kujibahatisha nibahatishe amebahatisha hubahatishwa anabahatisha habahatishi akibahatisha haikubahatisha hakubahatisha hatabahatisha hawakubahatisha mliobahatisha sibahatishi sikubahatisha tumebahatisha ubahatishe uliyebahatisha wabahatishe walibahatishwa waliobahatisha wanabahatisha
+4	2804	hanjari	hanjari
+5	2805	kamishna	kamishna makamishna kamishena
+6	2806	upotevu	upotevu upotevuni
+7	2807	kiazi	viazi kiazi
+8	2808	ufukara	ufukara
+9	2809	ka	ka
+10	2810	hadaa	hadaa kuhadaa alimhadaa kunihadaa kuwahadaa alituhadaa kutuhadaa nahadaa nimewahadaa ninawahadaa tuwahadae umenihadaa wametuhadaa yanakuhadaa wakatuhadaa kumhadaa linamhadaa aliuhadaa wajihadaa wamewahadaa akiwahadaa aliyewahadaa amehadaa anawahadaa asituhadae huwahadaa ilivyowahadaa imetuhadaa kikiwahadaa kuihadaa kuyahadaa lisikuhadae wakiwahadaa wanaowahadaa wanawahadaa
+11	2811	kopesha	kopesha kukopesha kuwakopesha kukopeshwa kikakukopesha mkopeshapo nikopeshe yanayokopesha kuikopesha kukopeshana kumkopesha kuzikopesha wakopeshwe alikopeshwa angemkopesha umekopesha hukopeshwa wanakopeshwa zilikopeshwa alikopesha anayemkopesha kujikopesha kunikopesha vimekopeshwa waliokopeshwa wamekopeshwa wanakopeshana zikikopesha alimkopesha alizowakopesha anakopeshwa anayekopeshwa atakopeshwa haitawakopesha halikopeshi hazikopeshi hukopesha hukopeshana huwakopesha ikopeshwe ilikopeshwa iliowakopesha iliwakopesha imekopeshwa imemkopesha imeshakopesha inakopesha inayokopesha inazowakopesha itakopesha itawakopesha kilikopeshwa kimewakopesha kiwakopeshe kukikopesha kutokopeshwa kutokukopeshwa kutukopesha kuwakopeshe mnawakopesha nikijikopesha nimkopeshe tulimkopesha umkopeshe ungemkopesha vinavyokopeshwa wakakopeshwa wakizikopesha wakopesha wakopesheni walichokopeshwa walikopeshwa walinikopesha walioikopesha waliomkopesha walizokopeshana wanaokopeshwa wanaozikopesha wanapowakopesha wanawakopesha watakopeshana watakopeshwa yakopesha yakopeshe yaliyokopeshwa zikopeshwazo zikopeshwe zilikopesha zimekopesha zinazokopesha
+12	2812	kinda	makinda kinda kindani
+13	2813	mcheshi	mcheshi wacheshi
+14	2814	balaa	balaa
+15	2815	chuja	kuchuja kuchujwa iliyochujwa huchuja huchujwa chuja kuchujia kuyachuja kuichuja walichujwa hazichujwi kuwachuja watachujwa ilichujwa mnachuja wachujwe yaliyochujwa wanachuja ikichujwa inachuja wachuja zikichuja asiyechuja kuuchuja lilichujwa aliwachuja atazichuja hajachuja hauchuji hazijachujwa imechuja inavyochujwa kutokuchuja kuzichuja myachuje nikaichuja tukachujwa uchuje unachuja unachujwa unaochuja utachuja vinachujwa vinavyochuja wakachuja walichuja waliochuja wanachujwa wanaowachuja watachuja wawachuje yamejichuja yasiyochuja zichujwe zilichujwa zinachuja
+16	2816	majonzi	majonzi
+17	2817	mchimbaji	wachimbaji mchimbaji
+18	2818	jasusi	jasusi majasusi
+19	2819	umwagiliaji	umwagiliaji
+20	2820	chachu	chachu
+21	2821	kipenyo	kipenyo vipenyo
+22	2822	dhabihu	dhabihu kudhabihu kujidhabihu kuwadhabihu
+23	2823	mwonzi	mionzi mwonzi
+24	2824	mwiko	miiko mwiko
+25	2825	mnada	mnada minada mnadani
+26	2826	ulaji	ulaji
+27	2827	jenerali	jenerali majenerali
+28	2828	kinza	kinza kukinzana zinazokinzana kukinza amekinzwa yanakinzana inakinzana yanayokinzana unaokinzana zinakinzana hukinza inakinza zilizokinzana kutokinzana utakinza inayokinzana kinakinzana kutokukinzana linakinzana akikinzana anavyokinzana haikinzani imekinzwa lililokinzana unakinzana utakinzana vinakinzana wanaokinza yakikinzana yanayokinza zinazikinzana
+29	2829	usanifu	usanifu
+30	2830	upangaji	upangaji
+31	2831	juisi	juisi
+32	2832	muhtasari	muhtasari mhutasari
+33	2833	utume	utume
+34	2834	dawati	madawati dawati
+35	2835	nzi	nzi inzi
+36	2836	majimaji	majimaji
+37	2837	mgawanyo	mgawanyo migawanyo
+38	2838	mwanasaikolojia	wanasaikolojia mwanasaikolojia
+39	2839	chana	kuchana chana kuchanwa anachana iichane ikichana nichane usichane watakuchana wanachana akichana wakawachana kuichana akazichana anawachana huchanwa unachana achane aliyechana kuwachana wakichana wanaochana akachana alichana chanwa huchana kujichana kumchana akaichana alipochana alivyochana aliyeuchana atachanwa chane huuchana ikichanwa imechanwa inayochanwa kukichana kuzichana litachanwa mtajichana nikichana tukijichana walichana waliichana wanaojichana wasiochana zichane zitachanwa
+40	2840	ukumbusho	ukumbusho
+41	2841	ukusanyaji	ukusanyaji
+42	2842	propaganda	propaganda
+43	2843	vuguvugu	vuguvugu mavuguvugu
+44	2844	nena	mnene kunena wanene alinena anena inavyonena lililonenwa wananena nanena yaliyonenwa wanena yanenavyo nena twayanena wakinena anenayo atayanena hatanena yalivyonena imenenwa umenena walinena alivyonena amenena kilichonenwa kulinena linalonenwa nilinena ninene ukinenwa wakanena wamenena yanachonena
+45	2845	upofu	upofu
+46	2846	pevu	mpevu wapevu pevu mapevu
+47	2847	udikteta	udikteta
+48	2848	changamsha	kuchangamsha kukuchangamsha imechangamshwa achangamshe itachangamshwa kuchangamshwa kitatuchangamsha ninajichangamsha ninayechangamsha uchangamshe unachangamsha unanichangamsha huchangamsha kuwachangamsha utachangamsha alichangamsha changamsha ilichangamshwa kumchangamsha umeichangamsha kulichangamsha amechangamsha atakayemchangamsha ilichangamsha inayochangamsha itakuchangamsha kumechangamsha kutuchangamsha nitamchangamsha utamchangamsha vinachangamsha wakichangamsha walichangamsha watawachangamsha zimechangamshwa zinazochangamsha zinazochangamshwa
+49	2849	hara	kuharisha kuhara hara amhara huharisha anapohara anayehara huhara wanahara anaharisha hahari aharishe kuuharisha mkiharisha ninaiharisha utaharisha
+50	2850	uzee	uzeeni uzee
+51	2851	marudio	marudio
+52	2852	mwinuko	mwinuko miinuko
+53	2853	ushairi	ushairi
+54	2854	ufuatiliaji	ufuatiliaji
+55	2855	pepea	pepea kupepea kinapepea inapepea ikipepea kumpepea hupepea ingepepea naipepea utapepea yanapepea yanavyopepea wakipepea zipepee zitapepea akijipepea akipepea ipepee kuyapepea wakiwapepea wanavyopepea wapepeavyo
+56	2856	mkoba	mkoba mikoba
+57	2857	aya	aya
+58	2858	ubalozi	ubalozi ubalozini
+59	2859	penya	kupenya kuipenya ukipenya hupenya itapenya walipenya waliopenya hazipenyi inapenya inapopenya inayopenya lisilopenya tupenye wakapenya yatapenya zikapenya zilipopenya wamepenya yakapenya yasipenye kinapenya penya wakipenya akipenya alipenya aliyepenya anapenya atapenya hazitapenya iliyopenya ipenye isingepenya kuzipenya lililopenya lilipenya mliopenya ukaipenya ulipenya umepenya unapopenya utakaopenya wameshapenya wanapenya yapenye zimepenya zisizopenya
+60	2860	roboti	roboti
+61	2861	ami	ami amu
+62	2862	kimu	kujikimu kukimu twakimu kimu zinakimu kuwakimu hujikimu inayokimu kuikimu kumkimu kuyakimu watakavyojikimu zinazojikimu
+63	2863	mzalishaji	wazalishaji mzalishaji
+64	2864	mpwa	mpwa wapwa
+65	2865	embe	embe maembe
+66	2866	gofu	gofu magofu
+67	2867	kimazingira	kimazingira
+68	2868	mpunga	mpunga mipunga
+69	2869	mwajiri	mwajiri muajiri wajiri
+70	2870	kinasaba	vinasaba kinasaba
+71	2871	poromoko	maporomoko poromoko
+72	2872	rap	rap
+73	2873	kimbiza	kukimbiza kumkimbiza kukimbizwa anamkimbiza kuwakimbiza akikimbizwa alikimbizwa walikimbizwa kuukimbiza wakamkimbiza walimkimbiza anakimbizwa wanapokimbizwa akimkimbiza akiwakimbiza hukimbiza huwakimbiza kitakimbiza kuikimbiza umewakimbiza wakikimbizwa wakimbiza wakimkimbiza wanawakimbiza watakimbiza akakimbizwa akikimbiza akimbizwa akimbizwe alikokimbizwa alimkimbiza alipokimbizwa aliwakimbiza amekimbizwa anakimbiza anayekimbiza haitakimbiza ikimbize ikiukimbiza itakimbiza kilichowakimbiza kimbiza kinachowakimbiza kujikimbiza kumewakimbiza lilikimbizwa lililomkimbiza nilimkimbiza tulikimbizwa tunakimbiza ulikimbizwa unaokimbiza utakimbizwa wakimbize wakiwakimbiza waliokimbizwa wamekimbiza wanaikimbiza wanakimbiza wanakimbizwa wanaokimbiza wawakimbize yalimkimbiza yamemkimbiza yamewakimbiza yanawakimbiza zinazowakimbiza
+74	2874	mzio	mzio mizio
+75	2875	uboreshaji	uboreshaji
+76	2876	dhamiria	imedhamiria wamedhamiria amedhamiria umedhamiria anadhamiria kutadhamiria unadhamiria kudhamiria alidhamiria limedhamiria tumedhamiria kimedhamiria nimedhamiria walidhamiria dhamiria tukidhamiria hudhamiria ilidhamiria hakudhamiria ilivyodhamiria inadhamiria hatujadhamiria ikadhamiria lililodhamiria wakidhamiria wanadhamiria wanaodhamiria yamedhamiria zimedhamiria akadhamiria alipodhamiria aliyoyadhamiria amekidhamiria haijadhamiria hawajadhamiria idhamirie iliyodhamiria imekidhamiria inayodhamiria itadhamiria kinachodhamiria kumedhamiria kutodhamiria nilidhamiria sijadhamiria tukadhamiria tulichodhamiria tulidhamiria tuliyodhamiria tutadhamiria uliodhamiria unapodhamiria utadhamiria wakadhamiria walichodhamiria zikidhamiria
+77	2877	jiri	jiri yaliyojiri kitajiri yanayojiri kilichojiri yatakayojiri zimejiri yakijiri hautajiri itajiri limejiri zilijiri yanajiri kujiri ilijiri inajiri zinazojiri akajiri lililojiri yajiri kinachojiri kilijiri kitakachojiri kumejiri unajiri yalijiri yamejiri atakayojiri iliyojiri jirini kimejiri kinajiri kunajiri kuwajiri likijiri uliojiri vilijiri vilivyojiri yanavyojiri zikijiri zinavyojiri wajiri
+78	2878	kitoto	kitoto vitoto
+79	2879	mkufunzi	mkufunzi wakufunzi
+80	2880	zoza	zoza nimezozana nizozane ulizozana kuzozana wakizozana wanazozana unazozana tumezozana tusizozane tuzozane umezozana usizozane uzozane akizozana alizozana zikizozana zinazozozana zoze anazozana aliyezozana inazozana nikizozana tukazozana tulizozana vikizozana vinazozana wakiwazoza walizozana walizozazo wazozana zinazoza
+81	2881	nomino	nomino
+82	2882	kishindo	kishindo vishindo
+83	2883	uhifadhi	uhifadhi
+84	2884	kipepeo	vipepeo kipepeo
+85	2885	hekta	hekta hektari
+86	2886	hamsini	hamsini
+87	2887	kichocheo	kichocheo vichocheo
+88	2888	ondokea	ondokea niondokee kuondokea atatuondokea atuondokee imetuondokea kukuondokea kumwondokea nitakuondokea iliondokea aliondokea anajiondokea alijiondokea hujiondokea imeondokea kiliondokea akajiondokea alichoondokea ilivyoondokea ukituondokea umeondokea viliondokea walikoondokea wataondokea
+89	2889	kimbilio	kimbilio makimbilio
+90	2890	mashua	mashua
+91	2891	uponyaji	uponyaji
+92	2892	kiuno	kiuno kiunoni viuno viunoni
+93	2893	nyanyua	nyanyua kunyanyua sikunyanyua nilinyanyua vimeninyanyua kuinyanyua nyanyuliwa alinyanyua kumnyanyua alinyanyuliwa kunyanyuliwa viliinyanyua inawanyanyua akanyanyua anyanyue kujinyanyua kukinyanyua kuwanyanyua uunyanyue wakiinyanyua akinyanyua alipounyanyua aliwanyanyua aliyewanyanyua ameinyanyua hajanyanyua hunyanyua kiliwanyanyua kulinyanyua kutunyanyua kuunyanyua tukamnyanyua tunamnyanyua unaomnyanyua utanyanyua wakanyanyua wakinyanyua walinyanyuliwa walionyanyua wamenyanyua yamenyanyuliwa zimenyanyuliwa
+94	2894	zuru	zuru kuzuru alizuru amezuru vizuru tulizuru huzuru wakizuru wakazuru alipozuru anazuru kuizuru wanaozuru wanapozuru alimzuru huizuru ilizuru kumzuru limezuru ulizuru uzuru walizuru akizuru azuru kilizuru anapozuru atazuru kulizuru kutokuzuru kuvizuru kuzizuru lilizuru utaizuru waliozuru walipozuru walizozuru
+95	2895	laki	laki kumlaki kuwalaki alilakiwa uwalakini kuilaki kulaki kulakiwa kutalaki kuulaki mlaki tukamlaki tumlaki ulakini walilakiwa waliolakiwa wangetulaki watamlaki
+96	2896	mchambuzi	wachambuzi mchambuzi
+97	2897	ukarabati	ukarabati
+98	2898	jeneza	jeneza majeneza
+99	2899	cheche	cheche
+100	2900	tubu	kutubu utatubu watubu tubu atubu alipotubu alitubu atatubu natubu akitubu kutotubu aliyetubu anatubu hawajatubu wakatubu mtubu wametubu akatubu ikitubu mkutubu msipotubu tukitubu tutubu utubu zisizotubiwa tubuni

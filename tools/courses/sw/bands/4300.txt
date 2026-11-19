@@ -1,0 +1,100 @@
+1	4201	mtekaji	watekaji mtekaji mteka
+2	4202	mhindi	mhindi
+3	4203	mawaidha	mawaidha
+4	4204	gongo	magongo gongo
+5	4205	nyumbu	nyumbu
+6	4206	seviksi	seviksi
+7	4207	mbizi	mbizi mbizini
+8	4208	tindikali	tindikali
+9	4209	ubinafsishaji	ubinafsishaji
+10	4210	mtelemko	mtelemko
+11	4211	ufito	fito ufito
+12	4212	kemotherapi	kemotherapi
+13	4213	ususu	ususu susu
+14	4214	majembe	majembe
+15	4215	viza	viza
+16	4216	mkereketwa	wakereketwa mkereketwa
+17	4217	sufu	sufu
+18	4218	kombo	kombo
+19	4219	maharusi	maharusi
+20	4220	penseli	penseli
+21	4221	nata	kunata nate nata wanata ulionata ungenata aliyenatwa hujinata wanamnata yanayonata unaonata anata inayonata kinateni zinanata zinazonata
+22	4222	najisi	najisi unajisi unamnajisi kunajisiwa kunajisi alinajisiwa aliwanajisi aliyenajisiwa akainajisi aliyenajisi kuinajisi kuwanajisi vimenajisiwa wananajisiwa
+23	4223	kategoria	kategoria
+24	4224	mtekelezaji	watekelezaji mtekelezaji
+25	4225	shira	shira
+26	4226	korokoroni	korokoroni
+27	4227	kaseti	kaseti
+28	4228	umande	umande
+29	4229	mtahiniwa	watahiniwa mtahiniwa
+30	4230	makabiliano	makabiliano
+31	4231	dioksidi	dioksidi
+32	4232	nikotini	nikotini
+33	4233	menya	anamenya inayomenya kuimenya humenywa kumenyana menye menywa menya anaimenya atamenyana hazijamenywa ilipomenyana kumenya kumenywa kuyamenya wakimenyana walipomenyana wanamenyana
+34	4234	mdadisi	mdadisi wadadisi
+35	4235	nundu	nundu
+36	4236	modeli	modeli
+37	4237	demu	demu mademu
+38	4238	kokota	kukokota kukokotwa alikokota kujikokota kikokoteni kokota kuikokota wakikokota walikokota akamkokota hukokotwa humkokota inayokokotwa kokoteni linalokokotwa ulikokota unaokokotwa wanapojikokota
+39	4239	ukwato	ukwato kwato
+40	4240	mtumbwi	mtumbwi mitumbwi mtumbwini
+41	4241	mshikaji	washikaji mshikaji
+42	4242	foka	kufoka foka alifoka akifoka amefoka anafoka unafoka walipofoka walivyofoka wanafoka
+43	4243	ubeberu	ubeberu
+44	4244	usumaku	usumaku
+45	4245	ulafi	ulafi
+46	4246	lemaa	lemaa kulemaza amelemaa hulemaza kulemaa unaolemaza imelemazwa kulemazwa tulemae haulemazi imewalemaza inayowalemaza kulilemaza kuliwalemaza kuvilemaza kuzilemaza limelemaa umelemaa unalemaza usilemae vimelemaza vinalemaza walemae wamelemazwa zikalemazwa zilizonilemaza zimenilemaza
+47	4247	usaha	usaha
+48	4248	tumbili	tumbili
+49	4249	kokotoa	kokotoa kukokotoa inayokokotolewa hukokotolewa ilikokotoa anakokotoa ilivyokokotolewa kitakachokokotolewa tumekokotoa umekokotoa walivyokokotoa zikikokotolewa zinakokotolewa
+50	4250	tanzu	tanzu vitanzu kitanzu
+51	4251	krimu	krimu
+52	4252	drama	drama
+53	4253	feri	feri
+54	4254	urari	urari
+55	4255	sua	sua sue kusua inasua kunasuliwa zikisua
+56	4256	gugu	magugu gugu
+57	4257	rembo	rembo warembo mirembo marembo
+58	4258	kimanda	vimanda kimanda
+59	4259	dili	dili
+60	4260	mtunzaji	mtunzaji watunzaji
+61	4261	kaptula	kaptula kaptura
+62	4262	kibibi	kibibi vibibi
+63	4263	tyubu	tyubu
+64	4264	chotara	chotara machotara
+65	4265	dokezo	dokezo madokezo
+66	4266	jokofu	jokofu majokofu
+67	4267	tumbua	tumbua kutumbua kutumbuliwa waliotumbuliwa kuwatumbua anatumbuliwa anayetumbuliwa kumtumbua unatumbua wanatumbuliwa aliyotumbua amemtumbua ameshatumbua ametumbuliwa anapotumbuliwa anatumbua hawajatumbuliwa ikitumbua kuzitumbua wakitumbua wametumbua wametumbuliwa wanaotumbuliwa watatumbuliwa watumbuliwe
+68	4268	toni	toni
+69	4269	ustahimilivu	ustahimilivu ustahamilivu
+70	4270	baradhuli	baradhuli mabaradhuli
+71	4271	kashida	kashida
+72	4272	peasi	peasi
+73	4273	yananukia	yananukia
+74	4274	ndui	ndui
+75	4275	ujangili	ujangili
+76	4276	hamaki	hamaki nahamaki kuhamaki kutahamaki alihamaki iliyohamaki ninahamaki walihamaki
+77	4277	afueni	afueni
+78	4278	jemadari	jemadari majemadari
+79	4279	droo	droo
+80	4280	wekundu	wekundu
+81	4281	maziko	maziko mazikoni
+82	4282	gundi	gundi
+83	4283	kihafidhina	kihafidhina
+84	4284	nguruma	nguruma inayonguruma wakinguruma ilinguruma kunguruma kuunguruma aunguruma aungurume linaunguruma akanguruma anguruma angurume ataunguruma iliponguruma iliunguruma ilivyonguruma inanguruma inavyounguruma kilichonguruma mkinguruma ukinguruma uliunguruma zilinguruma zinavyonguruma
+85	4285	uvaaji	uvaaji
+86	4286	agizia	agizia atakuagizia kumwagizia kukuagizia nilikuagizia nitakuagizia kuagizia akaagizia ukiagizia wanaagizia
+87	4287	tapeli	matapeli tapeli
+88	4288	rehemu	rehemu ameturehemu atamrehemu nirehemu uliwarehemu amrehemu awarehemu kurehemu uturehemu wanawarehemu airehemu arehemu atakapoturehemu azirehemu kuwarehemu warehemu
+89	4289	tenisi	tenisi
+90	4290	disko	disko
+91	4291	uhuni	uhuni
+92	4292	ufufuo	ufufuo
+93	4293	divisheni	divisheni
+94	4294	amiri	amiri maamiri
+95	4295	mfuatiliaji	wafuatiliaji mfuatiliaji
+96	4296	kipuli	vipuli kipuli
+97	4297	kinidhamu	kinidhamu
+98	4298	malenga	malenga
+99	4299	changua	changua huchangua inachangua nilichanguliwa ulichangua kuchangua alichanguliwa waliochanguliwa aliyechanguliwa kuchanguliwa kumchangua waliomchangua waliowachangua wasimchangue
+100	4300	unajimu	unajimu

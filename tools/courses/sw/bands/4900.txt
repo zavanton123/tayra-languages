@@ -1,0 +1,100 @@
+1	4801	udahili	udahili
+2	4802	mtungaji	watungaji mtungaji
+3	4803	mbumbumbu	mbumbumbu
+4	4804	burashi	burashi brashi
+5	4805	furusha	furusha akanifurusha waliofurushwa kuwafurusha kufurushwa walifurushwa alifurushwa aliyefurushwa hufurushwa iliifurusha uliwafurusha wakafurushwa wamewafurusha
+6	4806	mwaniaji	mwaniaji wawaniaji
+7	4807	tahariri	tahariri
+8	4808	fiziolojia	fiziolojia
+9	4809	gredi	gredi
+10	4810	kisigino	kisigino visigino kisiginoni
+11	4811	mshawasha	mshawasha
+12	4812	mvi	mvi
+13	4813	pambazuko	mapambazuko pambazuko
+14	4814	bughudha	bughudha
+15	4815	ingereza	kingereza ingereza
+16	4816	jumatano	jumatano
+17	4817	brandi	brandi
+18	4818	jira	jira
+19	4819	mchukuzi	wachukuzi mchukuzi
+20	4820	oshea	oshea nitakuoshea kuoshea kujioshea kukuoshea kumuoshea
+21	4821	klorini	klorini
+22	4822	dharuba	dharuba
+23	4823	sinagogi	sinagogi
+24	4824	kihispania	kihispania
+25	4825	mofimu	mofimu
+26	4826	gereji	gereji
+27	4827	mkopeshaji	mkopeshaji wakopeshaji
+28	4828	mkorosho	mikorosho mkorosho
+29	4829	zimamoto	zimamoto
+30	4830	kibanzi	kibanzi vibanzi
+31	4831	tao	tao
+32	4832	mlundikano	mlundikano milundikano
+33	4833	stoo	stoo
+34	4834	iodini	iodini
+35	4835	ndewe	ndewe
+36	4836	usagaji	usagaji
+37	4837	adhama	adhama
+38	4838	mkuyu	mkuyu mkuyuni
+39	4839	shahiri	shahiri
+40	4840	tetema	tetema kutetemesha vinavyotetema inayotetema kuitetemesha alitetemesha inayotetemesha kututetemesha kuutetemesha liliutetemesha ukalitetemesha waliitetemesha wanaotetemesha yalilitetemesha yanatetemesha
+41	4841	agana	kuagana tulivyoagana alipoagana akiagana agana aliagana anaagana tunaagana wagane wakaagana wanaagana
+42	4842	mchi	mchi mchini
+43	4843	silo	silo isilowe yasiliwe zisiliwe
+44	4844	mgomvi	mgomvi wagomvi
+45	4845	ulanguzi	ulanguzi
+46	4846	seremala	seremala maseremala
+47	4847	mdai	mdai mdaini wadai
+48	4848	bughudhi	bughudhi kuwabughudhi kumbughudhi bughudhiwa anayebughudhi waliwabughudhi kutobughudhiwa wakibughudhiwa alibughudhiwa alimbughudhi inabughudhiwa kutombughudhi kutubughudhi unaowabughudhi wasibughudhiwe
+49	4849	kikokotozi	kikokotozi kikokotoo vikokotozi
+50	4850	mpagazi	wapagazi mpagazi
+51	4851	chujio	chujio
+52	4852	kikanisa	kikanisa vikanisa
+53	4853	kobe	kobe
+54	4854	matazamio	matazamio
+55	4855	pindwa	pindwa kupindwa zilizopindwa uliopindwa hayapindwi limepindwa kilichopindwa unapindwa
+56	4856	tanki	matanki tanki
+57	4857	alkoholi	alkoholi alikoholi
+58	4858	mhunzi	wahunzi mhunzi
+59	4859	shadidi	shadidi ushadidi isiyoshadidi kinashadidiwa unaoshadidiwa
+60	4860	tegua	tegua kutegua aliyetegua yaliteguliwa kiliteguliwa kitateguliwa kuteguliwa lisipoteguliwa nakitegua walioteguliwa wameteguliwa wayategue
+61	4861	ukwasi	ukwasi
+62	4862	potasiamu	potasiamu
+63	4863	pweza	pweza
+64	4864	haini	haini wahaini unahaini kihaini kilihaini
+65	4865	tahayari	kutahayari tahayari hatahayarishi alitahayari utatahayari
+66	4866	bohari	bohari
+67	4867	ndondi	ndondi
+68	4868	podoa	podoa kujipodoa hamtajipodoa iliyopodolewa kupodoa ajipodoe hujipodoa kujipodolea ukijipodoa wanapojipodoa
+69	4869	ree	rea ree
+70	4870	kinamasi	vinamasi kinamasi
+71	4871	piku	piku kupiku kuipiku alimpiku itapiku awapiku akiwapiku akiyapiku alipiku aliwapiku amewapiku ampiku anayewapiku atampiku hawakupikiwa ikiipiku iliipiku ilipiku iliwapiku imeipiku inavyoipiku kinakipiku kulipikiwa kulipiku kuupiku kuwapiku kuzipiku vipikiwe wakipikiwa wamepiku wataipiku
+72	4872	chupi	chupi
+73	4873	urani	urani
+74	4874	kinaya	kinaya
+75	4875	mavumbi	mavumbi mavumbini
+76	4876	tandikwa	tandikwa kutandikwa alitandikwa akatandikwa iliyotandikwa ilitandikwa ikatandikwa unatandikwa kimetandikwa aliyetandikwa iliotandikwa inatandikwa kinatandikwa vimetandikwa wakitandikwa yaliyotandikwa zilitandikwa
+77	4877	utesaji	utesaji
+78	4878	kizibo	kizibo vizibo
+79	4879	kiluwiluwi	viluwiluwi kiluwiluwi
+80	4880	utomvu	utomvu
+81	4881	dondakoo	dondakoo
+82	4882	agua	kuagua walioaguliwa imeaguliwa kuaguliwa walimuagua agua ague itaaguliwa
+83	4883	fasaha	fasaha
+84	4884	fuja	fuja kufuja kufujwa wanafuja tuzifuje wakifuja wanaofuja zikifujwa alifuja anafuja kuwafuja wanazifuja zilifujwa zilizofujwa zinazofujwa
+85	4885	magadi	magadi
+86	4886	plamu	plamu maplamu
+87	4887	uturi	uturi
+88	4888	ndisi	ndisi mwandisi handisi
+89	4889	gati	gati magati
+90	4890	babaisha	babaisha kubabaishwa kubabaisha hanibabaishi linambabaisha wasibabaishwe anababaishwa asibabaishwe hababaishwi hawambabaishi inababaishwa kinababaisha kumbabaisha lililowababaisha msibabaishwe unababaisha usinibabaishe wanababaishwa wasingebabaishwa
+91	4891	stroberi	stroberi
+92	4892	pambazuka	hakutapambazuka linapopambazuka kutapambazuka kupambazuke linapambazuka kumepambazuka kukipambazuka kulipopambazuka kupambazuka pambazuka
+93	4893	kapi	kapi makapi
+94	4894	rafu	rafu
+95	4895	mla	mla mlani
+96	4896	upokeaji	upokeaji
+97	4897	jaketi	jaketi majaketi
+98	4898	wizani	wizani
+99	4899	kiashirio	kiashirio viashirio
+100	4900	kigae	vigae vigaeni kigae
