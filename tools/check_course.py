@@ -2194,6 +2194,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
+        "Câu hỏi:",
     )
 }
 
@@ -2447,6 +2448,11 @@ def check(path, brief=False):
     # Chinese writes no spaces, so every name is matched whole, the longest first; and so does Thai.
     if code in ("zh", "ja", "th"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
+    # Vietnamese names are made of syllables that are words too (Mai, "tomorrow"; Hà Nội): a name counts where it is
+    # written as listed, with its capital, whole, and the same syllable in lower case is the word.
+    if code == "vi":
+        long_names = sorted(course.get("names", []), key=len, reverse=True)
+        names = set()
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
     if code == "uk":
@@ -2549,6 +2555,11 @@ def check(path, brief=False):
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
+            if code == "vi":
+                pattern = re.compile(r"(?<![^\W\d_])" + re.escape(name) + r"(?![^\W\d_])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
             if code == "tr":
                 pattern = re.compile(r"(?<![^\W\d_])" + re.escape(name) + r"(?:['’][^\W\d_]+)?(?![^\W\d_])")
                 whole_names += len(pattern.findall(text))
@@ -2629,6 +2640,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^सवाल:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
+        if code == "vi":
+            text = re.sub(r"(?m)^Câu hỏi:", "", text)
         if code == "fa":
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
         if code == "tok":
