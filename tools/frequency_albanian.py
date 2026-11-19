@@ -83,8 +83,9 @@ HAND = {
     # Forms of words with entries of their own, filed under a look-alike.
     "qan": ["qaj"], "pika": ["pikë"], "lidhja": ["lidhje"], "enët": ["enë"], "tanë": ["ynë"], "lindja": ["lindje"],
     # Homographs whose commoner word the pack's table misses: të mi "my" (not mi "mouse"), të tu "your", e re "new"
-    # (not re "cloud"), luan "plays" (not luan "lion").
-    "mi": ["im", "mi"], "tu": ["yt"], "re": ["ri"], "reja": ["ri"], "luan": ["luaj"],
+    # (not re "cloud"), luan "plays" (not luan "lion"), të vijë "may come" (not vijë "line").
+    "mi": ["im", "mi"], "tu": ["yt"], "re": ["ri"], "reja": ["ri"], "luan": ["luaj"], "vijë": ["vij"],
+    "vijën": ["vijë"], "vijës": ["vijë"], "vijat": ["vijë"], "vijave": ["vijë"], "vijash": ["vijë"],
     "retë": ["re"], "reve": ["re"], "luanit": ["luan"], "luanët": ["luan"], "luanë": ["luan"], "luanëve": ["luan"],
     "luana": ["luan"], "luanësh": ["luan"], "luanve": ["luan"], "luani": ["luan", "luaj"], "luanin": ["luan", "luaj"],
     # Words of their own the pack files as another's form: gjithnjë beside gjithmonë, përse beside pse, meqenëse beside meqë.
@@ -113,4 +114,5 @@ DISPLAY = {"bashkohem": "bashkoj", "furnizohem": "furnizoj", "gjermane": "gjerma
 
 # Forms sent to a word by hand above that stay with it, though the word's own spelling goes to another (retë stays with
 # re "cloud", whose spelling re is mostly ri's).
-STAY = {"retë", "reve", "luanit", "luanët", "luanë", "luanëve", "luana", "luanësh", "luanve", "luani", "luanin"}
+STAY = {"vijën", "vijës", "vijat", "vijave", "vijash", "retë", "reve", "luanit", "luanët", "luanë", "luanëve", "luana",
+        "luanësh", "luanve", "luani", "luanin"}
