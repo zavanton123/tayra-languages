@@ -30,6 +30,16 @@ class KhmerParserTest {
         assertEquals(listOf("ម្ដាយ", "ទៅ", "ផ្សារ"), words("ម្ដាយទៅផ្សារ"))
     }
 
+    /** By how common the words are: ឆ្កែបាត់ is ឆ្កែ "dog" + បាត់ "lost", not the rarer ឆ្កែបា and a rest that is no word. */
+    @Test
+    fun theLikeliestWordsWin() {
+        val ranks = mapOf("ឆ្កែ" to 1101, "បាត់" to 319, "ឆ្កែបា" to 5938, "សប្តាហ៍" to 960, "នេះ" to 14)
+        Lexicons.set("km", Lexicon(ranks.keys, ranks))
+        assertEquals(listOf("ឆ្កែ", "បាត់"), words("ឆ្កែបាត់"))
+        assertEquals(listOf("សប្ដាហ៍", "នេះ"), words("សប្ដាហ៍នេះ"))
+        assertEquals("សប្តាហ៍", KhmerParser().lexiconWord("សប្ដាហ៍"))
+    }
+
     /** Subscript ដ and ត look alike: the lexicon's word is found in either spelling and saved in the one with ត. */
     @Test
     fun subscriptDaAndTaAreTheSame() {

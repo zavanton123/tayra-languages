@@ -1,21 +1,22 @@
 package com.idiomiko.core.domain.parse
 
 /**
- * Khmer: a stretch of letters cut into the longest words the lexicon knows from the left, as [SegmentingParser] cuts it,
- * but never inside a syllable. A word does not end before a vowel sign or another sign written on its letter
- * (U+17B6–U+17D3, U+17DD: កម្រិត is not កម "scabies" + ្រិត), nor between a coeng (U+17D2) and the consonant it writes
- * under the letter before. A consonant alone is no word, though the dictionary has each letter: letters no word covers
- * go a syllable at a time and are one word together. ។ ៕ ៖, ៗ (which repeats the word before it), the other signs
- * U+17D4–U+17DB and the Khmer digits are no words, so ។ and ៕ end a sentence.
+ * Khmer: a stretch of letters cut into its likeliest words by how common they are, as [LaoParser] cuts Lao (from the left,
+ * the longest word first, cut ឆ្កែបាត់ into ឆ្កែបា + ត់ rather than ឆ្កែ "dog" + បាត់ "lost"), but never inside a syllable.
+ * A word does not end before a vowel sign or another sign written on its letter (U+17B6–U+17D3, U+17DD: កម្រិត is not កម
+ * "scabies" + ្រិត), nor between a coeng (U+17D2) and the consonant it writes under the letter before. A consonant alone is
+ * no word, though the dictionary has each letter: letters no word covers go a syllable at a time and are one word together.
+ * ។ ៕ ៖, ៗ (which repeats the word before it), the other signs U+17D4–U+17DB and the Khmer digits are no words, so ។ and ៕
+ * end a sentence.
  *
  * Subscript ដ and ត (្ដ, ្ត) look alike and are written either way (សប្ដាហ៍, សប្តាហ៍): a word is matched and saved with ្ត
- * ([lowercase]), and found in the lexicon in either spelling. So is a subscript រ, written before or after the subscript it
- * goes with (សាស្រ្ត, សាស្ត្រ): it is matched and saved after it, as the dictionaries write it.
+ * ([lowercase]), and the lexicon has its words so ([lexiconWord]). So is a subscript រ, written before or after the subscript
+ * it goes with (សាស្រ្ត, សាស្ត្រ): it is matched and saved after it, as the dictionaries write it.
  *
- * tools/build_frequency_list.py (khmer_break, khmer_word) and tools/check_course.py (khmer_spans) cut Khmer the same
- * way; keep the three the same.
+ * tools/build_frequency_list.py (khmer_break, khmer_word, segmenter) and tools/check_course.py (khmer_spans) cut Khmer the
+ * same way; keep the three the same.
  */
-class KhmerParser : SegmentingParser("Khmer", "km", joinUnknown = true) {
+class KhmerParser : SegmentingParser("Khmer", "km", joinUnknown = true, byFrequency = true) {
 
     override fun canBreak(run: String, at: Int): Boolean =
         at <= 0 || at >= run.length || !isSign(run[at]) && run[at - 1] != COENG
@@ -23,6 +24,8 @@ class KhmerParser : SegmentingParser("Khmer", "km", joinUnknown = true) {
     override fun standsApart(c: Char): Boolean = c in APART || c in DIGITS || c in LEK_ATTAK
 
     override fun lowercase(text: String): String = fold(text.lowercase())
+
+    override fun lexiconWord(word: String): String = fold(word)
 
     override fun matches(text: String, lexicon: Lexicon): Boolean =
         !(text.length == 1 && text[0] in CONSONANTS) && spellings(text).any { it in lexicon }
