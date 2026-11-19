@@ -656,7 +656,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return arabic_tokens(text, ranks, names)
     if code == "he":
         return hebrew_tokens(text, ranks, names)
-    if code == "id":
+    # Malay is read as Indonesian is: the same reader, clitics and reduplication.
+    if code in ("id", "ms"):
         return indonesian_tokens(text, ranks, heads, names)
     if code == "tl":
         return tagalog_tokens(text, ranks, names)
@@ -2559,7 +2560,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
-        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:",
+        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:",
     )
 }
 
@@ -2803,7 +2804,7 @@ def check(path, brief=False):
     names = {fold(code, n.lower()) for n in course.get("names", [])}
     # In Spanish a name of several words or joined by a hyphen (San José, al-Ándalus) counts as one known word wherever it
     # is written whole; the earlier languages count such names word by word, as they were written to.
-    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "he", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa", "yi") else []
+    long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or (code in ("it", "ca") and "'" in n)), key=len, reverse=True) if code in ("es", "it", "sr", "nl", "da", "no", "sv", "el", "ar", "he", "ca", "id", "hr", "bs", "bg", "ro", "mk", "fa", "yi", "ms") else []
     # So is an Egyptian one (شرم الشيخ, بور سعيد).
     if code == "arz":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
@@ -3009,6 +3010,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Preguntes:", "", text)
         if code == "id":
             text = re.sub(r"(?m)^Pertanyaan:", "", text)
+        if code == "ms":
+            text = re.sub(r"(?m)^Soalan:", "", text)
         if code == "mk":
             text = re.sub(r"(?m)^Прашања:", "", text)
         if code == "bg":
@@ -3077,7 +3080,7 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Հարցեր[:։․]", "", text)
             # A number's ending written after a hyphen (ժամը 7-ին, 5-րդ, 1990-ական) is part of the number.
             text = re.sub(r"(?<=\d)-[\u0561-\u0587]+", "", text)
-        toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id") else None)
+        toks = tokens(text, code, ranks, names, verbs, set(words) if code in ("it", "ko", "id", "ms") else None)
         if code == "tok":
             tok_problems, toks = toki_pona_words(toks, ranks)
         # A century or a king's number in capital Roman numerals (siglo XVI, Carlos V) is a number.
