@@ -2624,5 +2624,12 @@ OVERRIDES["br"] = {w: [w] for w in ("ni", "gwele", "int", "ya", "aes", "kae", "b
 OVERRIDES["br"].update({"wele": ["gwelet"], "zen": ["den"], "gelaouenn": ["kelaouenn"], "vil": ["mil"], "c'hant": ["kant"],
                         "gran": ["ober"], "grin": ["ober"], "gri": ["ober"], "grez": ["ober"], "gozh": ["kozh"],
                         "bemp": ["pemp"], "c'hell": ["gallout"], "fried": ["pried"]})
-# Noise: fed "fact" (no word of the pack, else filed under pediñ), a number, a name, a misspelling filed under genver.
-EXCLUDE["br"] = {"fed", "1añ", "james", "kenver"}
+# Nouns of their own the pack also files as their verbs' forms (harz "border" of herzel, beaj "journey" of beajiñ), and kerent
+# "relatives", kar's plural, not gar's.
+OVERRIDES["br"].update({"harz": ["harz"], "beaj": ["beaj"], "kerent": ["kar"]})
+# Noise: fed "fact" (no word of the pack, else filed under pediñ), a number, a name, a misspelling filed under genver; and
+# words of no entry filed under look-alikes (framm "frame" under bramm, plas "place" under blaz), Paris and Mari under
+# parañ, English new under nev.
+EXCLUDE["br"] = {"fed", "1añ", "james", "kenver", "framm", "plas", "paris", "vari", "new"}
+# Ordinals written with digits (5vet, 3e), which the reader and the checker read as numbers.
+EXCLUDE["br"] |= {"2l", "3e", "4e", "5vet", "6vet", "7vet", "8vet", "9vet", "10vet"}
