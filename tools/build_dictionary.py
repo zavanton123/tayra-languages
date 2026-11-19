@@ -113,6 +113,21 @@ SKIP_FORM_TAGS_BY_SOURCE = {
     # Malay entries give each word's Jawi spelling as a form; the app reads Malay in Latin letters.
     "ms": {"Jawi"},
 }
+# The Azerbaijani personal pronouns' table lists all six on each one's page; a form goes to its own person and number.
+AZERBAIJANI_PERSONAL = {"mən": {"first-person", "singular"}, "sən": {"second-person", "singular"}, "o": {"third-person", "singular"},
+                        "biz": {"first-person", "plural"}, "siz": {"second-person", "plural"}, "onlar": {"third-person", "plural"}}
+
+
+def other_pronoun_form(source, word, x):
+    """Whether [x] is another personal pronoun's form on an Azerbaijani pronoun's page (mən on biz's, biz as mən's plural)."""
+    if source != "az" or word not in AZERBAIJANI_PERSONAL:
+        return False
+    tags = set(x.get("tags", []))
+    if "personal" in tags and "pronoun" in tags:
+        return not AZERBAIJANI_PERSONAL[word] <= tags
+    return x.get("form", "").strip() in AZERBAIJANI_PERSONAL
+
+
 # A prose "form of X" gloss: the lemma is the last word, possibly after "(to)".
 PROSE_FORM_RE = re.compile(r"\b(?:de|del|do|da|of|von|von dem)\s+(?:\(to\)\s+)?([^\s()]+?)[.。]?$")
 # A gloss that is nothing but such a description, even without a form-of tag ("plural de muchacho").
@@ -572,8 +587,9 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     """
     cleaner = CLEANERS.get(source, lambda word: word)
     skip_tags = SKIP_FORM_TAGS | SKIP_FORM_TAGS_BY_SOURCE.get(source, set())
-    # Croatian is written in Latin letters; Malay too, its Jawi spellings (forms and entries of their own) left out.
-    latin_only = source in ("hr", "ms")
+    # Croatian is written in Latin letters; Malay too, its Jawi spellings (forms and entries of their own) left out; and
+    # Azerbaijani (since 1991), not in the Cyrillic before it nor the Arabic alphabet of Iran's South Azerbaijani.
+    latin_only = source in ("hr", "ms", "az")
     db, path = open_output(out_path)
     db.execute("CREATE UNIQUE INDEX forms_unique ON forms(form_lc, lemma)")
     entry_rows, form_rows, seen, next_id = [], [], 0, 1
@@ -594,7 +610,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     def jawi(text):
         return any("\u0600" <= c <= "\u06ff" or "\u0750" <= c <= "\u077f" for c in text)
 
-    foreign = jawi if source == "ms" else cyrillic
+    foreign = jawi if source == "ms" else (lambda text: cyrillic(text) or jawi(text)) if source == "az" else cyrillic
 
     print(f"Reading {en_path}", file=sys.stderr)
     with open_text(en_path) as f:
@@ -644,10 +660,12 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
             pos_totals[pos] += 1
             stem = plain(word)[: min(3, len(word) - 1)]
             for x in d.get("forms", []):
-                if skipped_form(x, skip_tags):
+                if skipped_form(x, skip_tags) or other_pronoun_form(source, word, x):
                     continue
                 form = cleaner(x.get("form", "").strip())
-                if not is_clean_form(form, word, source) or (latin_only and foreign(form)):
+                # A one-letter word has no forms, but for Azerbaijani's "o" ("he, she, it; that"): onu, ona, onun.
+                own = is_clean_form(form, word, source) or (source == "az" and word == "o" and form != word and WORD_RE.match(form))
+                if not own or (latin_only and foreign(form)):
                     continue
                 form_rows.append((lowercase(form, source), word))
                 pos_inflected.add((pos, word))
