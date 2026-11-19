@@ -32,69 +32,69 @@
 32	4432	ezberdintasun	ezberdintasuna ezberdintasunak ezberdintasunik
 33	4433	simaur	simaurra simaurrarekin simaurraren simaurreko simaurrez
 34	4434	milioidun	milioiduna milioidunak milioidunek milioidunen
-35	4435	antzu	antzua antzuak antzuarentzat antzurik antzutzat
-36	4436	existentzia	existentziak existentziako existentziaren existentziari existentziarik
-37	4437	solas	solasa solasean solaserako
-38	4438	hiztun	hiztuna hiztunak hiztunik
-39	4439	txikizio	txikizioa txikizioak txikizioan txikizioaren txikiziorik
-40	4440	bedeinkazio	bedeinkazioa bedeinkazioarekin bedeinkaziorik
-41	4441	atoi	atoia atoiak atoian atoira
-42	4442	konspiratu	konspiratuko konspiratuz konspiratzea konspiratzeko konspiratzen
-43	4443	letagin	letagina letaginak letaginean letaginen letaginetik
-44	4444	ematxar	ematxarra ematxarrak ematxarrek ematxarrekin
-45	4445	zurrunbilo	zurrunbiloa zurrunbiloak zurrunbiloan zurrunbiloaren zurrunbilora zurrunbilorik
-46	4446	mekanikari	mekanikaria mekanikariak mekanikariek mekanikaririk
-47	4447	glaziar	glaziarra glaziarrak glaziarraren glaziarrean glaziarreraino glaziarretan glaziarrez
-48	4448	tekla	teklak teklan teklari teklekin teklen
-49	4449	traumatiko	traumatikoa traumatikoagoa traumatikoak traumatikoaz traumatikoegia
-50	4450	ziniko	zinikoa zinikoak zinikoarekin zinikoegia zinikoei zinikoek zinikoentzat
-51	4451	antilope	antilopea antilopeak antilopearen antilopeek antilopeen antiloperik
-52	4452	karratu	karratua karratuak karratuan karratukoa
-53	4453	otzan	otzana otzanak otzanaren otzanean otzanek
-54	4454	maratoi	maratoia maratoian maratoiaren maratoiko maratoirako
-55	4455	urduritasun	urduritasuna urduritasunagatik urduritasunak urduritasunaren urduritasunari urduritasunaz urduritasunerako urduritasunez
-56	4456	komunismo	komunismoa komunismoan komunismoarekin komunismoaren komunismoari komunismoaz komunismorik
-57	4457	zimeldu	zimeldua zimelduko zimelduta zimeldutako zimeltzea zimeltzeko zimeltzen
-58	4458	dekretu	dekretua dekretuak dekretuaren dekretuen dekretuz
-59	4459	jarleku	jarlekua jarlekuak jarlekuan jarlekuen jarlekura
-60	4460	ahari	aharia ahariak ahariari ahariei aharien aharirik
-61	4461	perretxiko	perretxikoak perretxikoei perretxikoekin perretxikoetara perretxikoren perretxikorik perretxikotan perretxikotara perretxikoz
-62	4462	haitzarte	haitzartea haitzartean haitzarteko haitzartera haitzartetik
-63	4463	puzker	puzkerra puzkerrak puzkerraren puzkerrekin puzkerrik
-64	4464	inprimaki	inprimakia inprimakiak inprimakiaren inprimakiko inprimakirik
-65	4465	eskalatzaile	eskalatzailea eskalatzaileak eskalatzaileek eskalatzaileentzat eskalatzailerik
-66	4466	eskuizkribu	eskuizkribua eskuizkribuak eskuizkribuaren eskuizkribuaz eskuizkriburik
-67	4467	magnetiko	magnetikoa magnetikoak magnetikoan magnetikoaz magnetikoen
-68	4468	txirrindularitza	txirrindularitzak txirrindularitzako txirrindularitzan txirrindularitzara txirrindularitzarekin txirrindularitzaren txirrindularitzaz
-69	4469	komite	komitea komiteak komitean komitearen komiteari komiteko komitekoa
-70	4470	titular	titularra titularrak titularraren titularrei titularrek titularren titularrik
-71	4471	telesail	telesaila telesailaren telesailek telesailekin telesaileko telesailekoa telesailik
-72	4472	goretsi	goresteari goresteko goresten gorets goretsia goretsiko
-73	4473	pase	pasea paseak pasean pasearekin paserik
-74	4474	baratze	baratzea baratzean baratzeek baratzeetan baratzeko baratzera baratzerako baratzetik
-75	4475	barrualde	barrualdea barrualdean barrualdeen barrualdeko barrualdera
-76	4476	integratu	integra integratua integratuak integratuko integratuta integratutako integratzeak integratzeko integratzen
-77	4477	tropel	tropela tropelak tropelarekin tropelaren tropelari tropelaz tropelean tropeleko tropelera tropeletik
-78	4478	gordailu	gordailua gordailuak gordailuarekin gordailuen gordailukoa gordailurako gordailutik
-79	4479	katalana	katalanaren katalanen katalanez
-80	4480	fusil	fusila fusilak fusilarekin fusilek fusilen
-81	4481	gasolindegi	gasolindegiak gasolindegian gasolindegietako gasolindegiko gasolindegira gasolindegitik
-82	4482	tipiko	tipikoa tipikoak tipikoan tipikoen
-83	4483	ezuste	ezustea ezustearen ezustekoa ezustekoak ezustez
-84	4484	ara	arekin aren
-85	4485	txinera	txineraz
-86	4486	pitxi	pitxia pitxiak pitxiekin
-87	4487	betiere	
-88	4488	oraintsu	
-89	4489	emozionalki	
-90	4490	zuketa	zuketen
-91	4491	kappa	
-92	4492	ezein	
-93	4493	besterendu	besteren
-94	4494	berrehun	berrehunetik
-95	4495	minus	minusen
-96	4496	burrunba	burrunbaren burrunbatik
-97	4497	potentzia	potentziak potentzian potentzien
-98	4498	tresneria	tresnerian tresneriaren
-99	4499	flauta	flautak flautaren flautarentzat flautaz
-100	4500	harpa	harpak harparik harpen
+35	4435	bonboi	bonboia bonboiak bonboirik
+36	4436	antzu	antzua antzuak antzuarentzat antzurik antzutzat
+37	4437	existentzia	existentziak existentziako existentziaren existentziari existentziarik
+38	4438	solas	solasa solasean solaserako
+39	4439	hiztun	hiztuna hiztunak hiztunik
+40	4440	txikizio	txikizioa txikizioak txikizioan txikizioaren txikiziorik
+41	4441	bedeinkazio	bedeinkazioa bedeinkazioarekin bedeinkaziorik
+42	4442	atoi	atoia atoiak atoian atoira
+43	4443	konspiratu	konspiratuko konspiratuz konspiratzea konspiratzeko konspiratzen
+44	4444	letagin	letagina letaginak letaginean letaginen letaginetik
+45	4445	ematxar	ematxarra ematxarrak ematxarrek ematxarrekin
+46	4446	zurrunbilo	zurrunbiloa zurrunbiloak zurrunbiloan zurrunbiloaren zurrunbilora zurrunbilorik
+47	4447	mekanikari	mekanikaria mekanikariak mekanikariek mekanikaririk
+48	4448	glaziar	glaziarra glaziarrak glaziarraren glaziarrean glaziarreraino glaziarretan glaziarrez
+49	4449	tekla	teklak teklan teklari teklekin teklen
+50	4450	traumatiko	traumatikoa traumatikoagoa traumatikoak traumatikoaz traumatikoegia
+51	4451	ziniko	zinikoa zinikoak zinikoarekin zinikoegia zinikoei zinikoek zinikoentzat
+52	4452	antilope	antilopea antilopeak antilopearen antilopeek antilopeen antiloperik
+53	4453	karratu	karratua karratuak karratuan karratukoa
+54	4454	otzan	otzana otzanak otzanaren otzanean otzanek
+55	4455	maratoi	maratoia maratoian maratoiaren maratoiko maratoirako
+56	4456	urduritasun	urduritasuna urduritasunagatik urduritasunak urduritasunaren urduritasunari urduritasunaz urduritasunerako urduritasunez
+57	4457	komunismo	komunismoa komunismoan komunismoarekin komunismoaren komunismoari komunismoaz komunismorik
+58	4458	zimeldu	zimeldua zimelduko zimelduta zimeldutako zimeltzea zimeltzeko zimeltzen
+59	4459	dekretu	dekretua dekretuak dekretuaren dekretuen dekretuz
+60	4460	jarleku	jarlekua jarlekuak jarlekuan jarlekuen jarlekura
+61	4461	ahari	aharia ahariak ahariari ahariei aharien aharirik
+62	4462	perretxiko	perretxikoak perretxikoei perretxikoekin perretxikoetara perretxikoren perretxikorik perretxikotan perretxikotara perretxikoz
+63	4463	haitzarte	haitzartea haitzartean haitzarteko haitzartera haitzartetik
+64	4464	puzker	puzkerra puzkerrak puzkerraren puzkerrekin puzkerrik
+65	4465	inprimaki	inprimakia inprimakiak inprimakiaren inprimakiko inprimakirik
+66	4466	eskalatzaile	eskalatzailea eskalatzaileak eskalatzaileek eskalatzaileentzat eskalatzailerik
+67	4467	eskuizkribu	eskuizkribua eskuizkribuak eskuizkribuaren eskuizkribuaz eskuizkriburik
+68	4468	magnetiko	magnetikoa magnetikoak magnetikoan magnetikoaz magnetikoen
+69	4469	txirrindularitza	txirrindularitzak txirrindularitzako txirrindularitzan txirrindularitzara txirrindularitzarekin txirrindularitzaren txirrindularitzaz
+70	4470	komite	komitea komiteak komitean komitearen komiteari komiteko komitekoa
+71	4471	titular	titularra titularrak titularraren titularrei titularrek titularren titularrik
+72	4472	telesail	telesaila telesailaren telesailek telesailekin telesaileko telesailekoa telesailik
+73	4473	goretsi	goresteari goresteko goresten gorets goretsia goretsiko
+74	4474	pase	pasea paseak pasean pasearekin paserik
+75	4475	baratze	baratzea baratzean baratzeek baratzeetan baratzeko baratzera baratzerako baratzetik
+76	4476	barrualde	barrualdea barrualdean barrualdeen barrualdeko barrualdera
+77	4477	integratu	integra integratua integratuak integratuko integratuta integratutako integratzeak integratzeko integratzen
+78	4478	tropel	tropela tropelak tropelarekin tropelaren tropelari tropelaz tropelean tropeleko tropelera tropeletik
+79	4479	gordailu	gordailua gordailuak gordailuarekin gordailuen gordailukoa gordailurako gordailutik
+80	4480	katalana	katalanaren katalanen katalanez
+81	4481	fusil	fusila fusilak fusilarekin fusilek fusilen
+82	4482	gasolindegi	gasolindegiak gasolindegian gasolindegietako gasolindegiko gasolindegira gasolindegitik
+83	4483	tipiko	tipikoa tipikoak tipikoan tipikoen
+84	4484	ezuste	ezustea ezustearen ezustekoa ezustekoak ezustez
+85	4485	ara	arekin aren
+86	4486	txinera	txineraz
+87	4487	pitxi	pitxia pitxiak pitxiekin
+88	4488	betiere	
+89	4489	oraintsu	
+90	4490	emozionalki	
+91	4491	zuketa	zuketen
+92	4492	kappa	
+93	4493	ezein	
+94	4494	besterendu	besteren
+95	4495	berrehun	berrehunetik
+96	4496	minus	minusen
+97	4497	burrunba	burrunbaren burrunbatik
+98	4498	potentzia	potentziak potentzian potentzien
+99	4499	tresneria	tresnerian tresneriaren
+100	4500	flauta	flautak flautaren flautarentzat flautaz

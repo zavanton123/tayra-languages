@@ -1,100 +1,100 @@
-1	2001	agerian	
-2	2002	lehentasun	lehentasuna lehentasunak lehentasunean lehentasuneko lehentasunen lehentasunetako lehentasunik
-3	2003	gertakari	gertakaria gertakariagatik gertakariak gertakariaren gertakariaz gertakariei gertakariek gertakarien gertakarietan gertakarira gertakaririk
-4	2004	katoliko	katolikoa katolikoak katolikoan katolikoarekin katolikoaren katolikoei katolikoek katolikoekin katolikoen katolikoentzat katolikoetako katolikoetan katolikoetara katolikoetatik katolikoko katolikooi katolikora katolikotik katolikotzat
-5	2005	armatu	armatua armatuak armatuan armatuarekin armatuaren armatuari armatuaz armatuekin armatuen armatuetan armatura armaturik armatuta armatutako armatuz armatzeko armatzen
-6	2006	dohain	dohaina dohainak dohainarekin dohainaren dohainaz dohainean dohainei dohaineko dohainekoak dohainez dohaintzat
-7	2007	azkenaldi	azkenaldian azkenaldiko azkenaldiz
-8	2008	sakrifizio	sakrifizioa sakrifizioak sakrifizioan sakrifizioarekin sakrifizioaren sakrifizioarengatik sakrifizioari sakrifizioaz sakrifizioen sakrifizioko sakrifiziorako sakrifizioren sakrifiziorik sakrifizioz
-9	2009	jakintsu	jakintsua jakintsuagoa jakintsuagoak jakintsuak jakintsuaren jakintsuari jakintsuei jakintsuek jakintsuen jakintsuena jakintsuenak jakintsuetatik jakintsuok jakintsurik
-10	2010	bazkide	bazkidea bazkideak bazkidearekin bazkidearen bazkideari bazkideek bazkideekin bazkideentzat bazkideez bazkiderik
-11	2011	egongela	egongelak egongelako egongelakoa egongelan egongelara egongelaraino egongelarako egongelatik egongelatzat egongeletan
-12	2012	trukatu	truka trukatua trukatuak trukatuko trukaturik trukatuta trukatutako trukatuz trukatze trukatzea trukatzeak trukatzearekin trukatzeko trukatzen trukatzera
-13	2013	distantzia	distantziak distantzian distantziara distantziaren distantziari distantziarik distantziatara distantziatik distantziaz
-14	2014	errenditu	errendi errendituko errenditutako errendituz errenditze errenditzea errenditzeagatik errenditzearen errenditzeko errenditzen
-15	2015	ohartarazi	ohartaraziak ohartaraziko ohartaraztea ohartarazteagatik ohartarazteko ohartarazten ohartaraztera
-16	2016	akusatu	akusatua akusatuak akusatuaren akusatuari akusatuek akusatuen akusatuko akusatuta akusatutako akusatzea akusatzeak akusatzeko akusatzen
-17	2017	lotsati	lotsatia lotsatiak lotsatiaren lotsatiari lotsatiegi lotsatiegia lotsatiek lotsatiekin lotsatien lotsatientzat lotsatiez lotsatik
-18	2018	oinetako	oinetakoa oinetakoak oinetakoan oinetakoari oinetakoek oinetakoekin oinetakoen oinetakoetako oinetakoetan oinetakoetara oinetakorik
-19	2019	oihal	oihala oihalak oihalarekin oihalaren oihalarengatik oihalari oihalean oihalen oihalerako oihaletan oihaletik oihalez oihalik
-20	2020	men	mena menei meneko menekoa menekoak menera
-21	2021	so	soa sook soon sora
-22	2022	irail	iraila irailak irailaren irailean iraileko irailera irailerako irailetik
-23	2023	igogailu	igogailua igogailuak igogailuan igogailuarekin igogailuaren igogailuaz igogailuen igogailuetara igogailuko igogailura igogailuraino igogailurik igogailutik
-24	2024	liburutegi	liburutegia liburutegiak liburutegian liburutegiarekin liburutegien liburutegiko liburutegira liburutegirako liburutegirik liburutegitik
-25	2025	zango	zangoa zangoak zangoan zangoarekin zangoek zangoekin zangoen zangoetan zangoetara zangoetatik zangorik zangotik
-26	2026	ezeztatu	ezezta ezeztatua ezeztatuak ezeztatuko ezeztatuta ezeztatutako ezeztatze ezeztatzea ezeztatzean ezeztatzearen ezeztatzeko ezeztatzen
-27	2027	kaiola	kaiolak kaiolako kaiolan kaiolara kaiolaren kaiolatan kaiolatik kaiolen kaioletan kaioletatik
-28	2028	elektriko	elektrikoa elektrikoak elektrikoan elektrikoarekin elektrikoaren elektrikoari elektrikoekin elektrikoen elektrikoena elektrikoengatik elektrikoetan elektrikoez elektrikoko elektrikora elektrikotik
-29	2029	hauteskunde	hauteskundea hauteskundeak hauteskundeari hauteskundeei hauteskundeekin hauteskundeen hauteskundeetan hauteskundeetara hauteskundeez hauteskunderako hauteskundetan
-30	2030	hilerri	hilerria hilerriak hilerrian hilerriaren hilerrien hilerrietan hilerriko hilerrira hilerriraino hilerrirako hilerririk hilerritik hilerriz
-31	2031	neskatila	neskatilak neskatilaren neskatilarengan neskatilari neskatilaz neskatilei neskatilek neskatilekin neskatilen neskatilengatik neskatilentzat
-32	2032	osasuntsu	osasuntsua osasuntsuago osasuntsuagoa osasuntsuagoak osasuntsuak osasuntsuaren osasuntsuari osasuntsuek osasuntsurako osasuntsutzat
-33	2033	eginbehar	eginbeharra eginbeharragatik eginbeharrak eginbeharrarekin eginbeharraren eginbeharrari eginbeharrek eginbeharreko eginbeharrekoa eginbeharretan eginbeharretatik eginbeharretik eginbeharrez
-34	2034	salmenta	salmentak salmentako salmentan salmentara salmentarekin salmentaren salmentarik salmentaz salmentei salmentek salmentekin salmenten salmentetan salmentetarako
-35	2035	esklabo	esklaboa esklaboagatik esklaboak esklaboarekin esklaboaren esklaboei esklaboek esklaboekin esklaboen esklaboez esklaborik esklabotzat
-36	2036	oihukatu	oihukatuko oihukatuz oihukatzea oihukatzeagatik oihukatzeari oihukatzeko oihukatzen oihukatzera oihukatzerik
-37	2037	oxigeno	oxigenoa oxigenoak oxigenoarekin oxigenoaren oxigenoari oxigenorako oxigenorik
-38	2038	klasiko	klasikoa klasikoak klasikoan klasikoarekin klasikoaren klasikoekin klasikoen klasikoetan klasikoetatik klasikoko klasikora
-39	2039	gaitz	gaitza gaitzarekin gaitzaren gaitzarengatik gaitzari gaitzean gaitzei gaitzen gaitzerako gaitzetatik gaitzetik gaitzik
-40	2040	erromatar	erromatarra erromatarrak erromatarraren erromatarrari erromatarrek erromatarren erromatarrena erromatarrentzat erromatarretan erromatarrez erromatarrok
-41	2041	sukar	sukarra sukarrak sukarrarekin sukarraren sukarren sukarrerako sukarretan sukarretik sukarrik
-42	2042	ongietorri	ongietorria ongietorriagatik ongietorriak ongietorriko
-43	2043	tximu	tximua tximuak tximuarekin tximuei tximuek tximuekin tximuen tximuz
-44	2044	emagaldu	emagaldua emagalduak emagalduan emagalduaren emagalduei emagalduek emagalduekin emagalduen emagalduetan emagalduk emagaldurekin emagaldutzat
-45	2045	galtzaile	galtzailea galtzaileak galtzailearen galtzaileari galtzaileek galtzaileekin galtzaileen galtzaileentzat galtzaileez galtzaileok galtzailerik galtzailetzat
-46	2046	gris	grisa grisak grisarekin grisaren grisari grisean grisei griseko grisekoa grisetan grisetara grisetik grisez
-47	2047	baserri	baserria baserriagatik baserriak baserrian baserrien baserrietan baserriko baserrikoa baserrira baserrirako baserririk baserritik
-48	2048	besarkada	besarkadak besarkadan besarkadarekin besarkadaren besarkadarik besarkaden
-49	2049	amestu	amesteko amesten amestuko amestutako amestutakoa amestuz
-50	2050	ehunka	
-51	2051	kafetegi	kafetegia kafetegiak kafetegian kafetegiarekin kafetegiaren kafetegiari kafetegiaz kafetegietako kafetegietan kafetegietatik kafetegiko kafetegira kafetegitik
-52	2052	belaun	belauna belaunak belaunaren belaunarengatik belaunean belaunei belaunek belaunekin belauneko belaunen belaunerako belaunetan belaunetara belaunetatik belaunetik belaunez
-53	2053	neskame	neskamea neskameak neskamearekin neskamearen neskameari neskameei neskameek neskameekin neskameen neskameren neskametako neskametan
-54	2054	epai	epaia epaiagatik epaiak epaian epaiarekin epaiaren epaiari epaiok epairako epairik epaiz
-55	2055	gatazka	gatazkak gatazkan gatazkara gatazkarako gatazkarekin gatazkaren gatazkarengatik gatazkari gatazkarik gatazkatik gatazkaz gatazkekin gatazken gatazkengatik gatazketan gatazkez
-56	2056	ezkongabe	ezkongabea ezkongabeak ezkongabearen ezkongabeei ezkongabeek ezkongabeen ezkongabeentzat ezkongabeok ezkongaberen ezkongaberentzat ezkongabetan
-57	2057	tronu	tronua tronuagatik tronuak tronuan tronuarekin tronuaren tronuaz tronuen tronuko tronura tronurako tronurantz tronutik
-58	2058	apiril	apirila apirilak apirilaren apirilean apirileko apirilera apirilerako
-59	2059	olatu	olatua olatuak olatuan olatuarekin olatuaren olatuek olatuekin olatuen olatuengatik olatuetako olatuetan olatuetara olaturi olaturik
-60	2060	bloke	blokea blokeagatik blokeak blokean blokearen blokeari blokeetan blokeetara blokeko blokera blokerantz bloketara bloketik blokez
-61	2061	erara	
-62	2062	nazioarteko	nazioartekoa nazioartekoak nazioartekoez
-63	2063	motibo	motiboa motiboak motiboen motiboren motiborik
-64	2064	chef	chefa chefak chefarekin chefaren chefari chefik
-65	2065	sufrimendu	sufrimendua sufrimenduagatik sufrimenduak sufrimenduan sufrimenduarekin sufrimenduaren sufrimenduarengatik sufrimenduari sufrimenduaz sufrimenduen sufrimenduko sufrimendura sufrimendurako sufrimenduren sufrimendutik sufrimenduz
-66	2066	murgildu	murgildua murgilduko murgildurik murgilduta murgilduz murgiltze murgiltzea murgiltzeari murgiltzeko murgiltzen murgiltzera
-67	2067	udal	udala udalak udalarekin udalaren udalarentzat udalari udalean udaleko udalekoak udalera udaletako udaletan udaletik
-68	2068	amu	amua amuak amuan amuarekin amuaren amuari amuaz amuei amurik amutzat amuz
-69	2069	erlijio	erlijioa erlijioagatik erlijioak erlijioan erlijioarekin erlijioaren erlijioari erlijioaz erlijioei erlijioek erlijioen erlijioko erlijiokoak erlijioren erlijiori erlijiorik
-70	2070	animatu	anima animatua animatuak animatuko animatuta animatzea animatzeagatik animatzeko animatzen animatzera
-71	2071	komunikazio	komunikazioa komunikazioak komunikazioan komunikazioaren komunikazioaz komunikazioek komunikazioen komunikazioetan komunikaziora komunikaziorako komunikazioren komunikaziorik
-72	2072	meatzari	meatzaria meatzariak meatzariei meatzariek meatzariekin meatzarien meatzariengatik meatzarientzat meatzarietatik meatzariez meatzaririk
-73	2073	ezinbesteko	ezinbestekoa ezinbestekoago ezinbestekoak ezinbestekoaz ezinbestekoetako ezinbestekotzat
-74	2074	ekonomia	ekonomiak ekonomiako ekonomian ekonomiarako ekonomiaren ekonomiatan ekonomiaz
-75	2075	uxatu	uxa uxatuko uxatuz uxatzea uxatzeko uxatzen
-76	2076	kaskar	kaskarra kaskarragoa kaskarrak kaskarraz kaskarrean kaskarrei kaskarrek kaskarrekin kaskarrena kaskarretan
-77	2077	aparkatu	aparka aparkatua aparkatuak aparkatuko aparkaturik aparkatuta aparkatutako aparkatuz aparkatze aparkatzea aparkatzeko aparkatzen aparkatzera
-78	2078	zaintzaile	zaintzailea zaintzaileak zaintzailearekin zaintzailearen zaintzaileari zaintzaileaz zaintzaileei zaintzaileek zaintzaileen zaintzaileetako zaintzaileri zaintzailerik
-79	2079	gale	galek galeko galekoa galekoak galera galerekin galerengatik galetara
-80	2080	txotxolo	txotxoloa txotxoloak txotxoloari txotxoloegia txotxoloei
-81	2081	obeditu	obedituko obedituz obeditzea obeditzean obeditzeari obeditzeko obeditzen obeditzera
-82	2082	itzulera	itzulerak itzulerako itzuleran itzulerara itzulerarako itzuleraren itzulerarengatik itzulerari itzulerarik itzuleratik itzuleraz
-83	2083	zirkulu	zirkulua zirkuluak zirkuluan zirkuluaren zirkuluaz zirkuluetan zirkuluetatik zirkulukoak zirkulura zirkulutan zirkulutik
-84	2084	nabarmendu	nabarmen nabarmenduko nabarmenduz nabarmentzea nabarmentzeko nabarmentzen nabarmentzerik
-85	2085	oinordeko	oinordekoa oinordekoak oinordekoarekin oinordekoaren oinordekoaz oinordekoei oinordekoek oinordekoen oinordekorako oinordekori oinordekorik oinordekotzat
-86	2086	pareta	paretak paretako paretan paretara paretaren paretari paretarik paretatan paretatik paretei paretek pareten paretetako paretetan paretetatik
-87	2087	izkina	izkinak izkinako izkinakoa izkinan izkinara izkinaraino izkinarantz izkinaren izkinarik izkinatik izkinekin izkinetan izkinetara
-88	2088	promes	promesa promesak promesarekin promesaren promesari promesaz promesei promesek promesengatik promesik
-89	2089	ariketa	ariketak ariketako ariketan ariketarako ariketaren ariketari ariketarik ariketatzat ariketengatik
-90	2090	zentzudun	zentzuduna zentzudunagoa zentzudunagoak zentzudunak zentzudunean zentzudunek zentzudunena
-91	2091	kirten	kirtena kirtenak kirtenarekin kirtenari kirtenaz kirtenean kirtenek kirteneko kirtenok
-92	2092	hodei	hodeia hodeiak hodeian hodeiei hodeiek hodeien hodeietan hodeietara hodeietatik hodeirik hodeiz
-93	2093	lokatz	lokatza lokatzak lokatzarekin lokatzaren lokatzarengatik lokatzaz lokatzean lokatzeko lokatzen lokatzetan lokatzetatik lokatzetik lokatzez lokatzik
-94	2094	data	datak datarekin dataren datarik datei daten
-95	2095	belaunikatu	belaunika belaunikatuak belaunikatuko belaunikatuta belaunikatuz belaunikatzea belaunikatzearekin belaunikatzeko belaunikatzen
-96	2096	astearte	asteartea asteartean asteartearekin astearteaz astearteetan astearteko asteartera astearterako asteartetan asteartetik
-97	2097	hamabi	hamabia hamabiak hamabiek hamabietan hamabikoa hamabira hamabirako hamabiren hamabitan hamabitik
-98	2098	amodio	amodioa amodioagatik amodioak amodioan amodioarekin amodioaren amodioaz amodioen amodioez amodiorako amodioz
-99	2099	medikuntza	medikuntzak medikuntzako medikuntzan medikuntzara medikuntzaren medikuntzari medikuntzaz
-100	2100	isun	isuna isunak isunarekin isunaren isunei isunek isunekin isunetako isunik
+1	2001	lehentasun	lehentasuna lehentasunak lehentasunean lehentasuneko lehentasunen lehentasunetako lehentasunik
+2	2002	gertakari	gertakaria gertakariagatik gertakariak gertakariaren gertakariaz gertakariei gertakariek gertakarien gertakarietan gertakarira gertakaririk
+3	2003	katoliko	katolikoa katolikoak katolikoan katolikoarekin katolikoaren katolikoei katolikoek katolikoekin katolikoen katolikoentzat katolikoetako katolikoetan katolikoetara katolikoetatik katolikoko katolikooi katolikora katolikotik katolikotzat
+4	2004	armatu	armatua armatuak armatuan armatuarekin armatuaren armatuari armatuaz armatuekin armatuen armatuetan armatura armaturik armatuta armatutako armatuz armatzeko armatzen
+5	2005	dohain	dohaina dohainak dohainarekin dohainaren dohainaz dohainean dohainei dohaineko dohainekoak dohainez dohaintzat
+6	2006	azkenaldi	azkenaldian azkenaldiko azkenaldiz
+7	2007	sakrifizio	sakrifizioa sakrifizioak sakrifizioan sakrifizioarekin sakrifizioaren sakrifizioarengatik sakrifizioari sakrifizioaz sakrifizioen sakrifizioko sakrifiziorako sakrifizioren sakrifiziorik sakrifizioz
+8	2008	jakintsu	jakintsua jakintsuagoa jakintsuagoak jakintsuak jakintsuaren jakintsuari jakintsuei jakintsuek jakintsuen jakintsuena jakintsuenak jakintsuetatik jakintsuok jakintsurik
+9	2009	bazkide	bazkidea bazkideak bazkidearekin bazkidearen bazkideari bazkideek bazkideekin bazkideentzat bazkideez bazkiderik
+10	2010	egongela	egongelak egongelako egongelakoa egongelan egongelara egongelaraino egongelarako egongelatik egongelatzat egongeletan
+11	2011	trukatu	truka trukatua trukatuak trukatuko trukaturik trukatuta trukatutako trukatuz trukatze trukatzea trukatzeak trukatzearekin trukatzeko trukatzen trukatzera
+12	2012	distantzia	distantziak distantzian distantziara distantziaren distantziari distantziarik distantziatara distantziatik distantziaz
+13	2013	errenditu	errendi errendituko errenditutako errendituz errenditze errenditzea errenditzeagatik errenditzearen errenditzeko errenditzen
+14	2014	ohartarazi	ohartaraziak ohartaraziko ohartaraztea ohartarazteagatik ohartarazteko ohartarazten ohartaraztera
+15	2015	akusatu	akusatua akusatuak akusatuaren akusatuari akusatuek akusatuen akusatuko akusatuta akusatutako akusatzea akusatzeak akusatzeko akusatzen
+16	2016	lotsati	lotsatia lotsatiak lotsatiaren lotsatiari lotsatiegi lotsatiegia lotsatiek lotsatiekin lotsatien lotsatientzat lotsatiez lotsatik
+17	2017	oinetako	oinetakoa oinetakoak oinetakoan oinetakoari oinetakoek oinetakoekin oinetakoen oinetakoetako oinetakoetan oinetakoetara oinetakorik
+18	2018	oihal	oihala oihalak oihalarekin oihalaren oihalarengatik oihalari oihalean oihalen oihalerako oihaletan oihaletik oihalez oihalik
+19	2019	men	mena menei meneko menekoa menekoak menera
+20	2020	so	soa sook soon sora
+21	2021	irail	iraila irailak irailaren irailean iraileko irailera irailerako irailetik
+22	2022	igogailu	igogailua igogailuak igogailuan igogailuarekin igogailuaren igogailuaz igogailuen igogailuetara igogailuko igogailura igogailuraino igogailurik igogailutik
+23	2023	liburutegi	liburutegia liburutegiak liburutegian liburutegiarekin liburutegien liburutegiko liburutegira liburutegirako liburutegirik liburutegitik
+24	2024	zango	zangoa zangoak zangoan zangoarekin zangoek zangoekin zangoen zangoetan zangoetara zangoetatik zangorik zangotik
+25	2025	ezeztatu	ezezta ezeztatua ezeztatuak ezeztatuko ezeztatuta ezeztatutako ezeztatze ezeztatzea ezeztatzean ezeztatzearen ezeztatzeko ezeztatzen
+26	2026	kaiola	kaiolak kaiolako kaiolan kaiolara kaiolaren kaiolatan kaiolatik kaiolen kaioletan kaioletatik
+27	2027	elektriko	elektrikoa elektrikoak elektrikoan elektrikoarekin elektrikoaren elektrikoari elektrikoekin elektrikoen elektrikoena elektrikoengatik elektrikoetan elektrikoez elektrikoko elektrikora elektrikotik
+28	2028	hauteskunde	hauteskundea hauteskundeak hauteskundeari hauteskundeei hauteskundeekin hauteskundeen hauteskundeetan hauteskundeetara hauteskundeez hauteskunderako hauteskundetan
+29	2029	hilerri	hilerria hilerriak hilerrian hilerriaren hilerrien hilerrietan hilerriko hilerrira hilerriraino hilerrirako hilerririk hilerritik hilerriz
+30	2030	neskatila	neskatilak neskatilaren neskatilarengan neskatilari neskatilaz neskatilei neskatilek neskatilekin neskatilen neskatilengatik neskatilentzat
+31	2031	osasuntsu	osasuntsua osasuntsuago osasuntsuagoa osasuntsuagoak osasuntsuak osasuntsuaren osasuntsuari osasuntsuek osasuntsurako osasuntsutzat
+32	2032	eginbehar	eginbeharra eginbeharragatik eginbeharrak eginbeharrarekin eginbeharraren eginbeharrari eginbeharrek eginbeharreko eginbeharrekoa eginbeharretan eginbeharretatik eginbeharretik eginbeharrez
+33	2033	salmenta	salmentak salmentako salmentan salmentara salmentarekin salmentaren salmentarik salmentaz salmentei salmentek salmentekin salmenten salmentetan salmentetarako
+34	2034	esklabo	esklaboa esklaboagatik esklaboak esklaboarekin esklaboaren esklaboei esklaboek esklaboekin esklaboen esklaboez esklaborik esklabotzat
+35	2035	oihukatu	oihukatuko oihukatuz oihukatzea oihukatzeagatik oihukatzeari oihukatzeko oihukatzen oihukatzera oihukatzerik
+36	2036	oxigeno	oxigenoa oxigenoak oxigenoarekin oxigenoaren oxigenoari oxigenorako oxigenorik
+37	2037	klasiko	klasikoa klasikoak klasikoan klasikoarekin klasikoaren klasikoekin klasikoen klasikoetan klasikoetatik klasikoko klasikora
+38	2038	gaitz	gaitza gaitzarekin gaitzaren gaitzarengatik gaitzari gaitzean gaitzei gaitzen gaitzerako gaitzetatik gaitzetik gaitzik
+39	2039	erromatar	erromatarra erromatarrak erromatarraren erromatarrari erromatarrek erromatarren erromatarrena erromatarrentzat erromatarretan erromatarrez erromatarrok
+40	2040	sukar	sukarra sukarrak sukarrarekin sukarraren sukarren sukarrerako sukarretan sukarretik sukarrik
+41	2041	ongietorri	ongietorria ongietorriagatik ongietorriak ongietorriko
+42	2042	tximu	tximua tximuak tximuarekin tximuei tximuek tximuekin tximuen tximuz
+43	2043	emagaldu	emagaldua emagalduak emagalduan emagalduaren emagalduei emagalduek emagalduekin emagalduen emagalduetan emagalduk emagaldurekin emagaldutzat
+44	2044	galtzaile	galtzailea galtzaileak galtzailearen galtzaileari galtzaileek galtzaileekin galtzaileen galtzaileentzat galtzaileez galtzaileok galtzailerik galtzailetzat
+45	2045	gris	grisa grisak grisarekin grisaren grisari grisean grisei griseko grisekoa grisetan grisetara grisetik grisez
+46	2046	baserri	baserria baserriagatik baserriak baserrian baserrien baserrietan baserriko baserrikoa baserrira baserrirako baserririk baserritik
+47	2047	besarkada	besarkadak besarkadan besarkadarekin besarkadaren besarkadarik besarkaden
+48	2048	amestu	amesteko amesten amestuko amestutako amestutakoa amestuz
+49	2049	ehunka	
+50	2050	kafetegi	kafetegia kafetegiak kafetegian kafetegiarekin kafetegiaren kafetegiari kafetegiaz kafetegietako kafetegietan kafetegietatik kafetegiko kafetegira kafetegitik
+51	2051	belaun	belauna belaunak belaunaren belaunarengatik belaunean belaunei belaunek belaunekin belauneko belaunen belaunerako belaunetan belaunetara belaunetatik belaunetik belaunez
+52	2052	neskame	neskamea neskameak neskamearekin neskamearen neskameari neskameei neskameek neskameekin neskameen neskameren neskametako neskametan
+53	2053	epai	epaia epaiagatik epaiak epaian epaiarekin epaiaren epaiari epaiok epairako epairik epaiz
+54	2054	gatazka	gatazkak gatazkan gatazkara gatazkarako gatazkarekin gatazkaren gatazkarengatik gatazkari gatazkarik gatazkatik gatazkaz gatazkekin gatazken gatazkengatik gatazketan gatazkez
+55	2055	ezkongabe	ezkongabea ezkongabeak ezkongabearen ezkongabeei ezkongabeek ezkongabeen ezkongabeentzat ezkongabeok ezkongaberen ezkongaberentzat ezkongabetan
+56	2056	tronu	tronua tronuagatik tronuak tronuan tronuarekin tronuaren tronuaz tronuen tronuko tronura tronurako tronurantz tronutik
+57	2057	apiril	apirila apirilak apirilaren apirilean apirileko apirilera apirilerako
+58	2058	olatu	olatua olatuak olatuan olatuarekin olatuaren olatuek olatuekin olatuen olatuengatik olatuetako olatuetan olatuetara olaturi olaturik
+59	2059	bloke	blokea blokeagatik blokeak blokean blokearen blokeari blokeetan blokeetara blokeko blokera blokerantz bloketara bloketik blokez
+60	2060	erara	
+61	2061	nazioarteko	nazioartekoa nazioartekoak nazioartekoez
+62	2062	motibo	motiboa motiboak motiboen motiboren motiborik
+63	2063	chef	chefa chefak chefarekin chefaren chefari chefik
+64	2064	sufrimendu	sufrimendua sufrimenduagatik sufrimenduak sufrimenduan sufrimenduarekin sufrimenduaren sufrimenduarengatik sufrimenduari sufrimenduaz sufrimenduen sufrimenduko sufrimendura sufrimendurako sufrimenduren sufrimendutik sufrimenduz
+65	2065	murgildu	murgildua murgilduko murgildurik murgilduta murgilduz murgiltze murgiltzea murgiltzeari murgiltzeko murgiltzen murgiltzera
+66	2066	udal	udala udalak udalarekin udalaren udalarentzat udalari udalean udaleko udalekoak udalera udaletako udaletan udaletik
+67	2067	amu	amua amuak amuan amuarekin amuaren amuari amuaz amuei amurik amutzat amuz
+68	2068	erlijio	erlijioa erlijioagatik erlijioak erlijioan erlijioarekin erlijioaren erlijioari erlijioaz erlijioei erlijioek erlijioen erlijioko erlijiokoak erlijioren erlijiori erlijiorik
+69	2069	animatu	anima animatua animatuak animatuko animatuta animatzea animatzeagatik animatzeko animatzen animatzera
+70	2070	komunikazio	komunikazioa komunikazioak komunikazioan komunikazioaren komunikazioaz komunikazioek komunikazioen komunikazioetan komunikaziora komunikaziorako komunikazioren komunikaziorik
+71	2071	meatzari	meatzaria meatzariak meatzariei meatzariek meatzariekin meatzarien meatzariengatik meatzarientzat meatzarietatik meatzariez meatzaririk
+72	2072	ezinbesteko	ezinbestekoa ezinbestekoago ezinbestekoak ezinbestekoaz ezinbestekoetako ezinbestekotzat
+73	2073	ekonomia	ekonomiak ekonomiako ekonomian ekonomiarako ekonomiaren ekonomiatan ekonomiaz
+74	2074	uxatu	uxa uxatuko uxatuz uxatzea uxatzeko uxatzen
+75	2075	kaskar	kaskarra kaskarragoa kaskarrak kaskarraz kaskarrean kaskarrei kaskarrek kaskarrekin kaskarrena kaskarretan
+76	2076	aparkatu	aparka aparkatua aparkatuak aparkatuko aparkaturik aparkatuta aparkatutako aparkatuz aparkatze aparkatzea aparkatzeko aparkatzen aparkatzera
+77	2077	zaintzaile	zaintzailea zaintzaileak zaintzailearekin zaintzailearen zaintzaileari zaintzaileaz zaintzaileei zaintzaileek zaintzaileen zaintzaileetako zaintzaileri zaintzailerik
+78	2078	gale	galek galeko galekoa galekoak galera galerekin galerengatik galetara
+79	2079	txotxolo	txotxoloa txotxoloak txotxoloari txotxoloegia txotxoloei
+80	2080	obeditu	obedituko obedituz obeditzea obeditzean obeditzeari obeditzeko obeditzen obeditzera
+81	2081	itzulera	itzulerak itzulerako itzuleran itzulerara itzulerarako itzuleraren itzulerarengatik itzulerari itzulerarik itzuleratik itzuleraz
+82	2082	zirkulu	zirkulua zirkuluak zirkuluan zirkuluaren zirkuluaz zirkuluetan zirkuluetatik zirkulukoak zirkulura zirkulutan zirkulutik
+83	2083	nabarmendu	nabarmen nabarmenduko nabarmenduz nabarmentzea nabarmentzeko nabarmentzen nabarmentzerik
+84	2084	oinordeko	oinordekoa oinordekoak oinordekoarekin oinordekoaren oinordekoaz oinordekoei oinordekoek oinordekoen oinordekorako oinordekori oinordekorik oinordekotzat
+85	2085	pareta	paretak paretako paretan paretara paretaren paretari paretarik paretatan paretatik paretei paretek pareten paretetako paretetan paretetatik
+86	2086	izkina	izkinak izkinako izkinakoa izkinan izkinara izkinaraino izkinarantz izkinaren izkinarik izkinatik izkinekin izkinetan izkinetara
+87	2087	promes	promesa promesak promesarekin promesaren promesari promesaz promesei promesek promesengatik promesik
+88	2088	ariketa	ariketak ariketako ariketan ariketarako ariketaren ariketari ariketarik ariketatzat ariketengatik
+89	2089	zentzudun	zentzuduna zentzudunagoa zentzudunagoak zentzudunak zentzudunean zentzudunek zentzudunena
+90	2090	kirten	kirtena kirtenak kirtenarekin kirtenari kirtenaz kirtenean kirtenek kirteneko kirtenok
+91	2091	hodei	hodeia hodeiak hodeian hodeiei hodeiek hodeien hodeietan hodeietara hodeietatik hodeirik hodeiz
+92	2092	lokatz	lokatza lokatzak lokatzarekin lokatzaren lokatzarengatik lokatzaz lokatzean lokatzeko lokatzen lokatzetan lokatzetatik lokatzetik lokatzez lokatzik
+93	2093	data	datak datarekin dataren datarik datei daten
+94	2094	belaunikatu	belaunika belaunikatuak belaunikatuko belaunikatuta belaunikatuz belaunikatzea belaunikatzearekin belaunikatzeko belaunikatzen
+95	2095	astearte	asteartea asteartean asteartearekin astearteaz astearteetan astearteko asteartera astearterako asteartetan asteartetik
+96	2096	hamabi	hamabia hamabiak hamabiek hamabietan hamabikoa hamabira hamabirako hamabiren hamabitan hamabitik
+97	2097	amodio	amodioa amodioagatik amodioak amodioan amodioarekin amodioaren amodioaz amodioen amodioez amodiorako amodioz
+98	2098	medikuntza	medikuntzak medikuntzako medikuntzan medikuntzara medikuntzaren medikuntzari medikuntzaz
+99	2099	isun	isuna isunak isunarekin isunaren isunei isunek isunekin isunetako isunik
+100	2100	alemaniar	alemaniarena alemaniarra alemaniarrak alemaniarrei alemaniarrek alemaniarrekin alemaniarren alemaniarretan alemaniarretara alemaniarrik

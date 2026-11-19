@@ -1,100 +1,100 @@
-1	7001	kanpandorre	kanpandorrea kanpandorrean kanpandorretik
-2	7002	kamuflaje	kamuflajea kamuflajeko kamuflajetzat
-3	7003	ñabardura	ñabardurak ñabardurarik ñabardurekin
-4	7004	inauguratu	inauguratuko inauguratzea inauguratzen
-5	7005	ohatila	ohatilan ohatilara ohatilaz
-6	7006	banbu	banbua banbuaz banbuko
-7	7007	erruduntasun	erruduntasuna erruduntasunak erruduntasunaren
-8	7008	pribilegiatu	pribilegiatua pribilegiatuarekin pribilegiatuaz pribilegiatutzat
-9	7009	promestu	promesteko promesten promestua promestutako
-10	7010	sarkasmo	sarkasmoa sarkasmoak sarkasmorik
-11	7011	subirano	subiranoa subiranoak subiranotan subiranotzat
-12	7012	telesaio	telesaioa telesaioko telesaiorik
-13	7013	kukurutxo	kukurutxoa kukurutxoan kukurutxoaz kukurutxoetatik
-14	7014	kroaziar	kroaziarra kroaziarrak kroaziarren
-15	7015	astigar	astigarrak astigarraren astigarreko
-16	7016	itzalgailu	itzalgailua itzalgailuen
-17	7017	meskita	meskitan meskitaren meskitatan meskitatik
-18	7018	sastraka	sastrakan sastrakara sastrakatik sastrakek
-19	7019	mahaspasa	mahaspasak mahaspasarik mahaspasen
-20	7020	hanburger	hanburgerra hanburgerrak hanburgerrekin
-21	7021	menderaezin	menderaezina menderaezinak
-22	7022	lainotsu	lainotsua lainotsuak lainotsuetako lainotsuetan
-23	7023	profesionaltasun	profesionaltasuna profesionaltasunarengatik profesionaltasunez
-24	7024	oihulari	oihularia oihulariak
-25	7025	zuhurtasun	zuhurtasuna zuhurtasunaren zuhurtasunez
-26	7026	selektibo	selektiboa selektiboagoa selektiboak
-27	7027	eraile	erailea eraileak erailez
-28	7028	zurrunga	zurrungak zurrungara zurrungarik
-29	7029	liburuzain	liburuzaina liburuzainak liburuzainari
-30	7030	zirkunzidatu	zirkunzidatuta zirkunzidatzeak zirkunzidatzen
-31	7031	sermolari	sermolaria sermolariak sermolariek sermolaririk
-32	7032	diadema	diademak diademarekin diademarik
-33	7033	yeti	yetia yetiak yetiaz yetiren
-34	7034	langela	langelak langelan langelarentzat
-35	7035	usurpatzaile	usurpatzailea usurpatzaileak usurpatzailearen
-36	7036	fidagarritasun	fidagarritasuna fidagarritasunarekin fidagarritasunez
-37	7037	beirazko	beirazkoa beirazkoagatik
-38	7038	otzara	otzarak otzaran
-39	7039	palmondo	palmondoak palmondoaren palmondoen
-40	7040	errebote	errebotea errebotez
-41	7041	sinkronizazio	sinkronizazioa sinkronizazioarekin
-42	7042	difamazio	difamazioa difamazioagatik
-43	7043	alfila	alfilak alfilaren alfilari alfilentzat
-44	7044	jarabe	jarabea jarabeak jarabeen
-45	7045	kantina	kantinako kantinara kantinaren kantinatik
-46	7046	erdaindu	erdaindua erdainduta erdaintzean
-47	7047	fundatu	funda fundatuko fundatzen
-48	7048	telegrafo	telegrafoa telegrafoen telegrafora telegrafoz
-49	7049	apostolu	apostolua apostoluak apostoluei apostoluek
-50	7050	irabiaki	irabiakia irabiakian
-51	7051	brotxa	brotxak brotxaren
-52	7052	enara	enarak enaren
-53	7053	ereserki	ereserkia ereserkiak ereserkitzat
-54	7054	telekomunikazio	telekomunikazioak telekomunikazioen telekomunikazioetako
-55	7055	argitaratzaile	argitaratzailea argitaratzaileak argitaratzaileari
-56	7056	sindikal	sindikala sindikalaren sindikalez
-57	7057	komoda	komodak komodako komodaren komodok
-58	7058	hemisferio	hemisferioa hemisferioan hemisferioko hemisferiotik
-59	7059	collage	collagea collageak collagearen
-60	7060	hordi	hordia hordiak hordien
-61	7061	mozkorti	mozkortia mozkortiak mozkortien
-62	7062	dezentzia	dezentziak dezentziarekin dezentziaren
-63	7063	araztasun	araztasuna araztasunak araztasunaren araztasunean
-64	7064	suspentsio	suspentsioa suspentsioak suspentsiorik
-65	7065	aurrelari	aurrelaria aurrelariak aurrelaririk
-66	7066	losintxa	losintxak losintxatan losintxekin
-67	7067	antolakunde	antolakundea antolakundearekin antolakundearen antolakundeko
-68	7068	inkubagailu	inkubagailua inkubagailuan inkubagailuaren
-69	7069	bokarta	bokartak bokartekin
-70	7070	purgatorio	purgatorioa purgatorioan purgatorioko purgatoriotik
-71	7071	sakramentu	sakramentuak sakramentuekin sakramenturik
-72	7072	ahur	ahurra ahurrean ahurren
-73	7073	ideologiko	ideologikoa ideologikoaren ideologikoekin
-74	7074	bakun	bakuna bakunak bakunekin
-75	7075	itsulapiko	itsulapikoa itsulapikoak itsulapikoari
-76	7076	jaurtiki	jaurtik jaurtikita jaurtikitako jaurtikitzeko
-77	7077	ponte	pontea ponteak pontekoa
-78	7078	maoista	maoistak maoistaren maoistek
-79	7079	ikasbide	ikasbidea ikasbiderik
-80	7080	etzaleku	etzalekuak etzalekuan etzalekura
-81	7081	zurigarri	zurigarria zurigarriak zurigarririk
-82	7082	seneskal	seneskala seneskalaren seneskalen
-83	7083	araztegi	araztegia araztegiak araztegian
-84	7084	obus	obusak obusaren
-85	7085	mardul	mardula mardulak mardulen
-86	7086	errotazio	errotazioa errotazioan errotaziorik
-87	7087	mehatxagarri	mehatxagarria mehatxagarriak mehatxagarriek mehatxagarritzat
-88	7088	primate	primateak primateekin primateen primaterik
-89	7089	pronostiko	pronostikoa pronostikoak pronostikoen pronostikorik
-90	7090	asfalto	asfaltoa asfaltoak asfaltoan asfaltoko asfaltora
-91	7091	harmaila	harmailak harmailen harmailetako harmailetan harmailetara
-92	7092	arnasbide	arnasbideak arnasbideetako arnasbideetan arnasbidetik
-93	7093	txigorgailu	txigorgailua txigorgailuak txigorgailuan txigorgailuek txigorgailuko
-94	7094	botaniko	botanikoa botanikoak botanikoan botanikoko botanikotik
-95	7095	malkartsu	malkartsua malkartsuan malkartsuen malkartsura
-96	7096	patin	patinak patinean patinetan patinetik
-97	7097	barraka	barrakak barraken barraketako barraketan
-98	7098	birtual	birtuala birtualak birtualarekin birtualei
-99	7099	planifikazio	planifikazioa planifikazioaz planifikaziora planifikaziorik
-100	7100	indarberritu	indarberrituko indarberriturik indarberrituta indarberritzeko
+1	7001	izei	izeia izeiak izeien
+2	7002	kanpandorre	kanpandorrea kanpandorrean kanpandorretik
+3	7003	kamuflaje	kamuflajea kamuflajeko kamuflajetzat
+4	7004	ñabardura	ñabardurak ñabardurarik ñabardurekin
+5	7005	inauguratu	inauguratuko inauguratzea inauguratzen
+6	7006	ohatila	ohatilan ohatilara ohatilaz
+7	7007	banbu	banbua banbuaz banbuko
+8	7008	erruduntasun	erruduntasuna erruduntasunak erruduntasunaren
+9	7009	pribilegiatu	pribilegiatua pribilegiatuarekin pribilegiatuaz pribilegiatutzat
+10	7010	promestu	promesteko promesten promestua promestutako
+11	7011	sarkasmo	sarkasmoa sarkasmoak sarkasmorik
+12	7012	subirano	subiranoa subiranoak subiranotan subiranotzat
+13	7013	telesaio	telesaioa telesaioko telesaiorik
+14	7014	kukurutxo	kukurutxoa kukurutxoan kukurutxoaz kukurutxoetatik
+15	7015	kroaziar	kroaziarra kroaziarrak kroaziarren
+16	7016	astigar	astigarrak astigarraren astigarreko
+17	7017	itzalgailu	itzalgailua itzalgailuen
+18	7018	meskita	meskitan meskitaren meskitatan meskitatik
+19	7019	sastraka	sastrakan sastrakara sastrakatik sastrakek
+20	7020	mahaspasa	mahaspasak mahaspasarik mahaspasen
+21	7021	hanburger	hanburgerra hanburgerrak hanburgerrekin
+22	7022	menderaezin	menderaezina menderaezinak
+23	7023	lainotsu	lainotsua lainotsuak lainotsuetako lainotsuetan
+24	7024	profesionaltasun	profesionaltasuna profesionaltasunarengatik profesionaltasunez
+25	7025	oihulari	oihularia oihulariak
+26	7026	zuhurtasun	zuhurtasuna zuhurtasunaren zuhurtasunez
+27	7027	selektibo	selektiboa selektiboagoa selektiboak
+28	7028	eraile	erailea eraileak erailez
+29	7029	zurrunga	zurrungak zurrungara zurrungarik
+30	7030	liburuzain	liburuzaina liburuzainak liburuzainari
+31	7031	zirkunzidatu	zirkunzidatuta zirkunzidatzeak zirkunzidatzen
+32	7032	sermolari	sermolaria sermolariak sermolariek sermolaririk
+33	7033	diadema	diademak diademarekin diademarik
+34	7034	yeti	yetia yetiak yetiaz yetiren
+35	7035	langela	langelak langelan langelarentzat
+36	7036	usurpatzaile	usurpatzailea usurpatzaileak usurpatzailearen
+37	7037	fidagarritasun	fidagarritasuna fidagarritasunarekin fidagarritasunez
+38	7038	beirazko	beirazkoa beirazkoagatik
+39	7039	otzara	otzarak otzaran
+40	7040	palmondo	palmondoak palmondoaren palmondoen
+41	7041	errebote	errebotea errebotez
+42	7042	sinkronizazio	sinkronizazioa sinkronizazioarekin
+43	7043	difamazio	difamazioa difamazioagatik
+44	7044	alfila	alfilak alfilaren alfilari alfilentzat
+45	7045	jarabe	jarabea jarabeak jarabeen
+46	7046	kantina	kantinako kantinara kantinaren kantinatik
+47	7047	erdaindu	erdaindua erdainduta erdaintzean
+48	7048	fundatu	funda fundatuko fundatzen
+49	7049	telegrafo	telegrafoa telegrafoen telegrafora telegrafoz
+50	7050	apostolu	apostolua apostoluak apostoluei apostoluek
+51	7051	irabiaki	irabiakia irabiakian
+52	7052	brotxa	brotxak brotxaren
+53	7053	enara	enarak enaren
+54	7054	ereserki	ereserkia ereserkiak ereserkitzat
+55	7055	telekomunikazio	telekomunikazioak telekomunikazioen telekomunikazioetako
+56	7056	argitaratzaile	argitaratzailea argitaratzaileak argitaratzaileari
+57	7057	sindikal	sindikala sindikalaren sindikalez
+58	7058	komoda	komodak komodako komodaren komodok
+59	7059	hemisferio	hemisferioa hemisferioan hemisferioko hemisferiotik
+60	7060	collage	collagea collageak collagearen
+61	7061	hordi	hordia hordiak hordien
+62	7062	mozkorti	mozkortia mozkortiak mozkortien
+63	7063	dezentzia	dezentziak dezentziarekin dezentziaren
+64	7064	araztasun	araztasuna araztasunak araztasunaren araztasunean
+65	7065	suspentsio	suspentsioa suspentsioak suspentsiorik
+66	7066	aurrelari	aurrelaria aurrelariak aurrelaririk
+67	7067	losintxa	losintxak losintxatan losintxekin
+68	7068	antolakunde	antolakundea antolakundearekin antolakundearen antolakundeko
+69	7069	inkubagailu	inkubagailua inkubagailuan inkubagailuaren
+70	7070	bokarta	bokartak bokartekin
+71	7071	purgatorio	purgatorioa purgatorioan purgatorioko purgatoriotik
+72	7072	sakramentu	sakramentuak sakramentuekin sakramenturik
+73	7073	ahur	ahurra ahurrean ahurren
+74	7074	ideologiko	ideologikoa ideologikoaren ideologikoekin
+75	7075	bakun	bakuna bakunak bakunekin
+76	7076	itsulapiko	itsulapikoa itsulapikoak itsulapikoari
+77	7077	jaurtiki	jaurtik jaurtikita jaurtikitako jaurtikitzeko
+78	7078	ponte	pontea ponteak pontekoa
+79	7079	maoista	maoistak maoistaren maoistek
+80	7080	ikasbide	ikasbidea ikasbiderik
+81	7081	etzaleku	etzalekuak etzalekuan etzalekura
+82	7082	zurigarri	zurigarria zurigarriak zurigarririk
+83	7083	seneskal	seneskala seneskalaren seneskalen
+84	7084	araztegi	araztegia araztegiak araztegian
+85	7085	obus	obusak obusaren
+86	7086	mardul	mardula mardulak mardulen
+87	7087	errotazio	errotazioa errotazioan errotaziorik
+88	7088	mehatxagarri	mehatxagarria mehatxagarriak mehatxagarriek mehatxagarritzat
+89	7089	primate	primateak primateekin primateen primaterik
+90	7090	pronostiko	pronostikoa pronostikoak pronostikoen pronostikorik
+91	7091	asfalto	asfaltoa asfaltoak asfaltoan asfaltoko asfaltora
+92	7092	harmaila	harmailak harmailen harmailetako harmailetan harmailetara
+93	7093	arnasbide	arnasbideak arnasbideetako arnasbideetan arnasbidetik
+94	7094	txigorgailu	txigorgailua txigorgailuak txigorgailuan txigorgailuek txigorgailuko
+95	7095	botaniko	botanikoa botanikoak botanikoan botanikoko botanikotik
+96	7096	malkartsu	malkartsua malkartsuan malkartsuen malkartsura
+97	7097	patin	patinak patinean patinetan patinetik
+98	7098	barraka	barrakak barraken barraketako barraketan
+99	7099	birtual	birtuala birtualak birtualarekin birtualei
+100	7100	planifikazio	planifikazioa planifikazioaz planifikaziora planifikaziorik

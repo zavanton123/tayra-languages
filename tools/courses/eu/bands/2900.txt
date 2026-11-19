@@ -1,100 +1,100 @@
-1	2801	errugbi	errugbia errugbian errugbiaren errugbiaz errugbiko
-2	2802	gogortu	gogortua gogortuak gogortuko gogorturik gogortuta gogortutako gogortzea gogortzean gogortzeko gogortzen
-3	2803	pertsonalki	
-4	2804	muturreko	muturrekoa muturrekoak muturrekoegia muturrekoen muturrekoren muturrekorik muturrekotzat
-5	2805	haundi	haundia haundiago haundiagoa haundiak haundian haundiarekin haundiena haundietan haundiko haundirik haunditan haundiz
-6	2806	mediko	medikoa medikoak medikoan medikoarekin medikoaren medikoarengatik medikoari medikoei medikoek medikoen medikoengatik medikoetara medikora medikorik
-7	2807	jasanezin	jasanezina jasanezinagatik jasanezinago jasanezinagoa jasanezinak jasanezinarekin jasanezinaren jasanezinean
-8	2808	gerlari	gerlaria gerlariak gerlariaren gerlariei gerlariekin gerlarien gerlariok
-9	2809	logiko	logikoa logikoagoa logikoak logikoan logikoek logikoekin logikoen logikoena logikora logikorik
-10	2810	anker	ankerra ankerragoak ankerrak ankerrarekin ankerraren ankerrei ankerrek ankerren ankerrena ankerretako
-11	2811	espiritual	espirituala espiritualagoa espiritualagoak espiritualak espiritualaren espiritualari espiritualaz espiritualean espiritualekin espiritualen espiritualik
-12	2812	tribu	tribua tribuak tribuan tribuaren tribuaz tribuek tribuen tribuetako tribuko tribukoa tribukoak tribura tributik
-13	2813	zibilizazio	zibilizazioa zibilizazioak zibilizazioan zibilizazioaren zibilizazioaz zibilizazioek zibilizazioen zibilizaziok zibilizazioko zibilizaziora zibilizaziorako zibilizaziorik zibilizaziotik zibilizazioz
-14	2814	garrasika	
-15	2815	miloi	miloiak miloietatik miloirekin miloitik
-16	2816	irri	irria irriarekin irriaren irrien irririk
-17	2817	dolumin	dolumina doluminak doluminarekin doluminez doluminik
-18	2818	gailu	gailua gailuak gailuan gailuen gailuez
-19	2819	iskanbila	iskanbilak iskanbilan iskanbilarako iskanbilarik iskanbilatan iskanbilei iskanbilen iskanbiletan
-20	2820	etxola	etxolak etxolako etxolan etxolara etxolaraino etxolatan etxolatik etxolek etxolekin etxoletan
-21	2821	txistu	txistua txistuak txistuan txistuaren txisturik txistuz
-22	2822	produkzio	produkzioa produkzioak produkzioan produkzioaren produkzioari produkziorik
-23	2823	masaje	masajea masajeak masajearekin masajearen masajeekin masajeen masajekoa masajerik
-24	2824	kiskali	kiskalia kiskaliko kiskalita kiskalitako kiskaltzea kiskaltzean kiskaltzeko kiskaltzen kixkali
-25	2825	laztandu	laztandua laztanduko laztanduz laztantzea laztantzean laztantzeko laztantzen
-26	2826	babesleku	babeslekua babeslekuak babeslekuan babeslekuei babeslekuetan babeslekuetara babeslekura babeslekurik
-27	2827	zentzumen	zentzumena zentzumenak zentzumenei zentzumenekin zentzumenen zentzumenez zentzumenik
-28	2828	urtarril	urtarrila urtarrilak urtarrilaren urtarrilean urtarrileko urtarrilekoa urtarrilera urtarrilerako urtarriletik
-29	2829	brigada	brigadak brigadako brigadakoa brigadakoak brigadan brigadara brigadarako brigadarekin brigadari brigadarik brigadei brigadetan
-30	2830	bahiketa	bahiketak bahiketan bahiketaren bahiketari bahiketarik bahiketatik bahiketaz bahiketei
-31	2831	jainkosa	jainkosak jainkosaren jainkosarentzat jainkosari jainkosarik jainkosei jainkosen
-32	2832	ordutegi	ordutegia ordutegiak ordutegian ordutegiarekin ordutegiaren ordutegiekin ordutegiez ordutegirekin ordutegirik
-33	2833	erantsi	eranstea eransteko eransten erants erantsiak erantsian erantsiko erantsita erantsitako erantsiz
-34	2834	gauzatu	gauzatua gauzatuko gauzatuta gauzatuz gauzatzea gauzatzean gauzatzearen gauzatzeko gauzatzen
-35	2835	txiro	txiroa txiroak txiroan txiroegia txiroei txiroek txiroen txiroentzat txiroetan txirokoak
-36	2836	birritan	
-37	2837	aise	aiseago
-38	2838	burugogor	burugogorra burugogorrak burugogorregia burugogorrena
-39	2839	hauskor	hauskorra hauskorrago hauskorrak hauskorregia hauskorrekoa hauskorrena
-40	2840	errukitu	errukituko errukiturik errukituta errukitzea errukitzeko errukitzen
-41	2841	harribitxi	harribitxia harribitxiak harribitxiaren harribitxiekin harribitxien harribitxira harribitxiz
-42	2842	mikrofono	mikrofonoa mikrofonoak mikrofonoaren mikrofonoekin mikrofonora mikrofonorantz mikrofonorik mikrofonotik mikrofonoz
-43	2843	argudio	argudioa argudioak argudioarekin argudioei argudioek argudioen argudiorik
-44	2844	esparru	esparrua esparruak esparruan esparruaren esparruen esparruetara esparruetatik esparruko esparrura esparrutan esparrutik
-45	2845	drama	dramak dramako dramaren dramari dramarik dramen
-46	2846	korear	koreara korearen korearra korearrak korearrek korearren korearrentzat korearrik
-47	2847	eskumutur	eskumuturra eskumuturrak eskumuturraren eskumuturrean eskumuturrei eskumuturrek eskumuturrekoa eskumuturrekoak eskumuturretan eskumuturretatik eskumuturretik
-48	2848	desbideratu	desbidera desbideratua desbideratuak desbideratuko desbideratuz desbideratzea desbideratzeagatik desbideratzeko desbideratzen
-49	2849	heziketa	heziketak heziketako heziketan heziketarako heziketarekin heziketaren heziketari heziketarik heziketaz
-50	2850	odolustu	odoluste odolustea odolusteagatik odolusteko odolusten odolustera odolustuko odolustuta odolustutako odolustuz
-51	2851	erailketa	erailketak erailketako erailketarekin erailketaren erailketarik erailketekin erailketen erailketetan
-52	2852	matxinatu	matxina matxinatuak matxinatuko matxinatuta matxinatzea matxinatzeagatik matxinatzeak matxinatzeko matxinatzen
-53	2853	harrapakin	harrapakina harrapakinak harrapakinaren harrapakinari harrapakinek harrapakinera harrapakinetara harrapakinik
-54	2854	suspertu	susper suspertua suspertuko suspertze suspertzea suspertzeari suspertzeko suspertzen suspertzera suspertzerik
-55	2855	mexikar	mexikarra mexikarrak mexikarraren mexikarrari mexikarrean mexikarrei mexikarrek mexikarrekin mexikarren mexikarrentzat mexikarrik
-56	2856	baserritar	baserritarra baserritarrak baserritarraren baserritarrei baserritarrek baserritarrekin baserritarrok
-57	2857	elementu	elementua elementuak elementuaren elementuei elementuek elementuen elementuren elementutik
-58	2858	pasarte	pasartea pasarteak pasartean pasarteari pasarteetan pasarteren pasarterik
-59	2859	problema	problemak problemaren problemarik problemen
-60	2860	hanburgesa	hanburgesak hanburgesako hanburgesan hanburgesarik hanburgesen
-61	2861	elkarrizketatu	elkarrizketatua elkarrizketatuko elkarrizketatzea elkarrizketatzeagatik elkarrizketatzeko elkarrizketatzen
-62	2862	grabazio	grabazioa grabazioak grabazioaren grabazioen grabazioengatik grabazioren grabaziorik
-63	2863	postre	postrea postreak postrean postrearen postrearengatik postreen postrerako postrerik postretik
-64	2864	basurde	basurdea basurdeak basurdearen basurdeari basurdeei basurdeek basurdeekin basurdeen basurdeentzat
-65	2865	eskutitz	eskutitza eskutitzak eskutitzari eskutitzean eskutitzekin eskutitzen eskutitzik
-66	2866	zentratu	zentra zentratua zentratuko zentratuta zentratzea zentratzeko zentratzen
-67	2867	lorpen	lorpena lorpenak lorpenaren lorpenei lorpenen lorpenetan lorpenik
-68	2868	arkatz	arkatza arkatzak arkatzaren arkatzez arkatzik
-69	2869	plastiko	plastikoa plastikoak plastikoan plastikoarekin plastikoaren plastikoen plastikoetako plastikoetan plastikoz
-70	2870	ziurtasun	ziurtasuna ziurtasunak ziurtasunaren ziurtasunaz ziurtasunez ziurtasunik
-71	2871	dado	dadoa dadoak dadoan dadoaren dadoek dadoekin dadoen dadoetan dadorik dadotan
-72	2872	erro	erroa erroak erroek erroetara erroetatik erroko errotako errotan errotara errotik erroz
-73	2873	ikuskatu	ikuskatuak ikuskatuko ikuskatuta ikuskatzea ikuskatzeak ikuskatzeko ikuskatzen ikuskatzera ikuskatzerik
-74	2874	bonbardatu	bonbardatua bonbardatuko bonbardatzea bonbardatzearekin bonbardatzeko bonbardatzen bonbardatzera
-75	2875	oste	ostea osteagatik osteaz osteko ostekoa ostekoak ostera osterako ostetik
-76	2876	lokal	lokala lokalak lokalaren lokalean lokalekoa lokalera lokaletan lokaletara lokaletik lokalik
-77	2877	zazpigarren	zazpigarrena zazpigarrenak zazpigarrenaren zazpigarrenean zazpigarrenekoa zazpigarrenera zazpigarrenetik
-78	2878	dentista	dentistak dentistara dentistarako dentistarekin dentistaren dentistari dentistarik dentistek dentisten
-79	2879	artistiko	artistikoa artistikoak artistikoan artistikoarekin artistikoaren artistikoegia artistikoen artistikoko artistikorantz artistikotzat
-80	2880	funtzio	funtzioa funtzioak funtzioan funtzioei funtzioen funtzioetan funtzioetara funtzioetatik funtzioko funtzioren funtziotako
-81	2881	kontakizun	kontakizuna kontakizunak kontakizunarekin kontakizunaren kontakizunari kontakizunean kontakizunek kontakizuneko kontakizunetan kontakizunetik
-82	2882	intelektual	intelektuala intelektualak intelektualaren intelektualari intelektualaz intelektualek intelektualen intelektualenak intelektualez intelektualik
-83	2883	sasi	sasia sasiak sasian sasiaren sasien sasietan sasietarako sasietatik sasik sasiko sasikoa sasikoak sasiz
-84	2884	iris	irisaren irisean irisek irisekin iriseko irisen irisentzat
-85	2885	gudaroste	gudarostea gudarosteak gudarostean gudarostearekin gudarosteen gudarosteko gudarostera gudarosterik gudarostez
-86	2886	artelan	artelana artelanak artelanengatik artelanerako artelanez artelanik
-87	2887	elikagai	elikagaia elikagaiak elikagaiaren elikagaiekin elikagaien elikagaietan elikagaiez elikagaiok elikagairik elikagaitzat
-88	2888	hagin	hagina haginak haginean haginek haginekin hagineko haginetako haginetan haginik haginok
-89	2889	espedizio	espedizioa espedizioak espedizioan espedizioaren espedizioarentzat espedizioari espedizioetan espedizioko espediziotan espediziotik
-90	2890	protagonista	protagonistak protagonistaren protagonistek protagonisten
-91	2891	kointzidentzia	kointzidentziak kointzidentziarik kointzidentzietan
-92	2892	samur	samurra samurrago samurragoak samurrak samurrean samurrena
-93	2893	praktiko	praktikoa praktikoagoa praktikoak praktikoan praktikoen praktikoetan praktikorik praktikotik
-94	2894	psikiatra	psikiatrak psikiatrara psikiatrarekin psikiatraren psikiatrari psikiatrarik psikiatrek psikiatren
-95	2895	mozorrotu	mozorrotua mozorrotuko mozorroturik mozorrotuta mozorrotutako mozorrotutakoa mozorrotuz mozorrotzea mozorrotzen
-96	2896	albistegi	albistegia albistegiak albistegian albistegiaren albistegiek albistegien albistegietako albistegietan albistegietara albistegira albistegirako
-97	2897	kuartel	kuartela kuartelak kuartelaren kuartelari kuartelean kuarteleko kuartelera kuarteletako kuarteletan kuarteletara kuarteletik
-98	2898	meategi	meategia meategiak meategian meategiaren meategiari meategiaz meategiei meategien meategietako meategietan meategietatik meategiko meategikoak meategira
-99	2899	kapitolio	kapitolioa kapitolioak kapitolioan kapitolioaren kapitolioarentzat kapitolioari kapitolioaz kapitolioko kapitoliokoak kapitoliora kapitolioren kapitoliotik
-100	2900	lubaki	lubakia lubakiak lubakian lubakiaren lubakien lubakietako lubakietan lubakietara lubakietatik lubakitik lubakiz
+1	2801	gogortu	gogortua gogortuak gogortuko gogorturik gogortuta gogortutako gogortzea gogortzean gogortzeko gogortzen
+2	2802	pertsonalki	
+3	2803	muturreko	muturrekoa muturrekoak muturrekoegia muturrekoen muturrekoren muturrekorik muturrekotzat
+4	2804	haundi	haundia haundiago haundiagoa haundiak haundian haundiarekin haundiena haundietan haundiko haundirik haunditan haundiz
+5	2805	mediko	medikoa medikoak medikoan medikoarekin medikoaren medikoarengatik medikoari medikoei medikoek medikoen medikoengatik medikoetara medikora medikorik
+6	2806	jasanezin	jasanezina jasanezinagatik jasanezinago jasanezinagoa jasanezinak jasanezinarekin jasanezinaren jasanezinean
+7	2807	gerlari	gerlaria gerlariak gerlariaren gerlariei gerlariekin gerlarien gerlariok
+8	2808	logiko	logikoa logikoagoa logikoak logikoan logikoek logikoekin logikoen logikoena logikora logikorik
+9	2809	anker	ankerra ankerragoak ankerrak ankerrarekin ankerraren ankerrei ankerrek ankerren ankerrena ankerretako
+10	2810	espiritual	espirituala espiritualagoa espiritualagoak espiritualak espiritualaren espiritualari espiritualaz espiritualean espiritualekin espiritualen espiritualik
+11	2811	tribu	tribua tribuak tribuan tribuaren tribuaz tribuek tribuen tribuetako tribuko tribukoa tribukoak tribura tributik
+12	2812	zibilizazio	zibilizazioa zibilizazioak zibilizazioan zibilizazioaren zibilizazioaz zibilizazioek zibilizazioen zibilizaziok zibilizazioko zibilizaziora zibilizaziorako zibilizaziorik zibilizaziotik zibilizazioz
+13	2813	garrasika	
+14	2814	miloi	miloiak miloietatik miloirekin miloitik
+15	2815	irri	irria irriarekin irriaren irrien irririk
+16	2816	dolumin	dolumina doluminak doluminarekin doluminez doluminik
+17	2817	gailu	gailua gailuak gailuan gailuen gailuez
+18	2818	iskanbila	iskanbilak iskanbilan iskanbilarako iskanbilarik iskanbilatan iskanbilei iskanbilen iskanbiletan
+19	2819	etxola	etxolak etxolako etxolan etxolara etxolaraino etxolatan etxolatik etxolek etxolekin etxoletan
+20	2820	txistu	txistua txistuak txistuan txistuaren txisturik txistuz
+21	2821	produkzio	produkzioa produkzioak produkzioan produkzioaren produkzioari produkziorik
+22	2822	masaje	masajea masajeak masajearekin masajearen masajeekin masajeen masajekoa masajerik
+23	2823	kiskali	kiskalia kiskaliko kiskalita kiskalitako kiskaltzea kiskaltzean kiskaltzeko kiskaltzen kixkali
+24	2824	laztandu	laztandua laztanduko laztanduz laztantzea laztantzean laztantzeko laztantzen
+25	2825	babesleku	babeslekua babeslekuak babeslekuan babeslekuei babeslekuetan babeslekuetara babeslekura babeslekurik
+26	2826	zentzumen	zentzumena zentzumenak zentzumenei zentzumenekin zentzumenen zentzumenez zentzumenik
+27	2827	urtarril	urtarrila urtarrilak urtarrilaren urtarrilean urtarrileko urtarrilekoa urtarrilera urtarrilerako urtarriletik
+28	2828	brigada	brigadak brigadako brigadakoa brigadakoak brigadan brigadara brigadarako brigadarekin brigadari brigadarik brigadei brigadetan
+29	2829	bahiketa	bahiketak bahiketan bahiketaren bahiketari bahiketarik bahiketatik bahiketaz bahiketei
+30	2830	jainkosa	jainkosak jainkosaren jainkosarentzat jainkosari jainkosarik jainkosei jainkosen
+31	2831	ordutegi	ordutegia ordutegiak ordutegian ordutegiarekin ordutegiaren ordutegiekin ordutegiez ordutegirekin ordutegirik
+32	2832	erantsi	eranstea eransteko eransten erants erantsiak erantsian erantsiko erantsita erantsitako erantsiz
+33	2833	gauzatu	gauzatua gauzatuko gauzatuta gauzatuz gauzatzea gauzatzean gauzatzearen gauzatzeko gauzatzen
+34	2834	txiro	txiroa txiroak txiroan txiroegia txiroei txiroek txiroen txiroentzat txiroetan txirokoak
+35	2835	birritan	
+36	2836	aise	aiseago
+37	2837	burugogor	burugogorra burugogorrak burugogorregia burugogorrena
+38	2838	hauskor	hauskorra hauskorrago hauskorrak hauskorregia hauskorrekoa hauskorrena
+39	2839	errukitu	errukituko errukiturik errukituta errukitzea errukitzeko errukitzen
+40	2840	harribitxi	harribitxia harribitxiak harribitxiaren harribitxiekin harribitxien harribitxira harribitxiz
+41	2841	mikrofono	mikrofonoa mikrofonoak mikrofonoaren mikrofonoekin mikrofonora mikrofonorantz mikrofonorik mikrofonotik mikrofonoz
+42	2842	argudio	argudioa argudioak argudioarekin argudioei argudioek argudioen argudiorik
+43	2843	esparru	esparrua esparruak esparruan esparruaren esparruen esparruetara esparruetatik esparruko esparrura esparrutan esparrutik
+44	2844	drama	dramak dramako dramaren dramari dramarik dramen
+45	2845	korear	koreara korearen korearra korearrak korearrek korearren korearrentzat korearrik
+46	2846	eskumutur	eskumuturra eskumuturrak eskumuturraren eskumuturrean eskumuturrei eskumuturrek eskumuturrekoa eskumuturrekoak eskumuturretan eskumuturretatik eskumuturretik
+47	2847	desbideratu	desbidera desbideratua desbideratuak desbideratuko desbideratuz desbideratzea desbideratzeagatik desbideratzeko desbideratzen
+48	2848	heziketa	heziketak heziketako heziketan heziketarako heziketarekin heziketaren heziketari heziketarik heziketaz
+49	2849	odolustu	odoluste odolustea odolusteagatik odolusteko odolusten odolustera odolustuko odolustuta odolustutako odolustuz
+50	2850	erailketa	erailketak erailketako erailketarekin erailketaren erailketarik erailketekin erailketen erailketetan
+51	2851	matxinatu	matxina matxinatuak matxinatuko matxinatuta matxinatzea matxinatzeagatik matxinatzeak matxinatzeko matxinatzen
+52	2852	harrapakin	harrapakina harrapakinak harrapakinaren harrapakinari harrapakinek harrapakinera harrapakinetara harrapakinik
+53	2853	suspertu	susper suspertua suspertuko suspertze suspertzea suspertzeari suspertzeko suspertzen suspertzera suspertzerik
+54	2854	mexikar	mexikarra mexikarrak mexikarraren mexikarrari mexikarrean mexikarrei mexikarrek mexikarrekin mexikarren mexikarrentzat mexikarrik
+55	2855	baserritar	baserritarra baserritarrak baserritarraren baserritarrei baserritarrek baserritarrekin baserritarrok
+56	2856	elementu	elementua elementuak elementuaren elementuei elementuek elementuen elementuren elementutik
+57	2857	pasarte	pasartea pasarteak pasartean pasarteari pasarteetan pasarteren pasarterik
+58	2858	problema	problemak problemaren problemarik problemen
+59	2859	hanburgesa	hanburgesak hanburgesako hanburgesan hanburgesarik hanburgesen
+60	2860	elkarrizketatu	elkarrizketatua elkarrizketatuko elkarrizketatzea elkarrizketatzeagatik elkarrizketatzeko elkarrizketatzen
+61	2861	grabazio	grabazioa grabazioak grabazioaren grabazioen grabazioengatik grabazioren grabaziorik
+62	2862	postre	postrea postreak postrean postrearen postrearengatik postreen postrerako postrerik postretik
+63	2863	basurde	basurdea basurdeak basurdearen basurdeari basurdeei basurdeek basurdeekin basurdeen basurdeentzat
+64	2864	eskutitz	eskutitza eskutitzak eskutitzari eskutitzean eskutitzekin eskutitzen eskutitzik
+65	2865	zentratu	zentra zentratua zentratuko zentratuta zentratzea zentratzeko zentratzen
+66	2866	lorpen	lorpena lorpenak lorpenaren lorpenei lorpenen lorpenetan lorpenik
+67	2867	arkatz	arkatza arkatzak arkatzaren arkatzez arkatzik
+68	2868	plastiko	plastikoa plastikoak plastikoan plastikoarekin plastikoaren plastikoen plastikoetako plastikoetan plastikoz
+69	2869	ziurtasun	ziurtasuna ziurtasunak ziurtasunaren ziurtasunaz ziurtasunez ziurtasunik
+70	2870	dado	dadoa dadoak dadoan dadoaren dadoek dadoekin dadoen dadoetan dadorik dadotan
+71	2871	erro	erroa erroak erroek erroetara erroetatik erroko errotako errotan errotara errotik erroz
+72	2872	ikuskatu	ikuskatuak ikuskatuko ikuskatuta ikuskatzea ikuskatzeak ikuskatzeko ikuskatzen ikuskatzera ikuskatzerik
+73	2873	bonbardatu	bonbardatua bonbardatuko bonbardatzea bonbardatzearekin bonbardatzeko bonbardatzen bonbardatzera
+74	2874	oste	ostea osteagatik osteaz osteko ostekoa ostekoak ostera osterako ostetik
+75	2875	lokal	lokala lokalak lokalaren lokalean lokalekoa lokalera lokaletan lokaletara lokaletik lokalik
+76	2876	zazpigarren	zazpigarrena zazpigarrenak zazpigarrenaren zazpigarrenean zazpigarrenekoa zazpigarrenera zazpigarrenetik
+77	2877	dentista	dentistak dentistara dentistarako dentistarekin dentistaren dentistari dentistarik dentistek dentisten
+78	2878	artistiko	artistikoa artistikoak artistikoan artistikoarekin artistikoaren artistikoegia artistikoen artistikoko artistikorantz artistikotzat
+79	2879	funtzio	funtzioa funtzioak funtzioan funtzioei funtzioen funtzioetan funtzioetara funtzioetatik funtzioko funtzioren funtziotako
+80	2880	kontakizun	kontakizuna kontakizunak kontakizunarekin kontakizunaren kontakizunari kontakizunean kontakizunek kontakizuneko kontakizunetan kontakizunetik
+81	2881	intelektual	intelektuala intelektualak intelektualaren intelektualari intelektualaz intelektualek intelektualen intelektualenak intelektualez intelektualik
+82	2882	sasi	sasia sasiak sasian sasiaren sasien sasietan sasietarako sasietatik sasik sasiko sasikoa sasikoak sasiz
+83	2883	iris	irisaren irisean irisek irisekin iriseko irisen irisentzat
+84	2884	gudaroste	gudarostea gudarosteak gudarostean gudarostearekin gudarosteen gudarosteko gudarostera gudarosterik gudarostez
+85	2885	artelan	artelana artelanak artelanengatik artelanerako artelanez artelanik
+86	2886	elikagai	elikagaia elikagaiak elikagaiaren elikagaiekin elikagaien elikagaietan elikagaiez elikagaiok elikagairik elikagaitzat
+87	2887	hagin	hagina haginak haginean haginek haginekin hagineko haginetako haginetan haginik haginok
+88	2888	espedizio	espedizioa espedizioak espedizioan espedizioaren espedizioarentzat espedizioari espedizioetan espedizioko espediziotan espediziotik
+89	2889	protagonista	protagonistak protagonistaren protagonistek protagonisten
+90	2890	kointzidentzia	kointzidentziak kointzidentziarik kointzidentzietan
+91	2891	samur	samurra samurrago samurragoak samurrak samurrean samurrena
+92	2892	praktiko	praktikoa praktikoagoa praktikoak praktikoan praktikoen praktikoetan praktikorik praktikotik
+93	2893	psikiatra	psikiatrak psikiatrara psikiatrarekin psikiatraren psikiatrari psikiatrarik psikiatrek psikiatren
+94	2894	mozorrotu	mozorrotua mozorrotuko mozorroturik mozorrotuta mozorrotutako mozorrotutakoa mozorrotuz mozorrotzea mozorrotzen
+95	2895	albistegi	albistegia albistegiak albistegian albistegiaren albistegiek albistegien albistegietako albistegietan albistegietara albistegira albistegirako
+96	2896	kuartel	kuartela kuartelak kuartelaren kuartelari kuartelean kuarteleko kuartelera kuarteletako kuarteletan kuarteletara kuarteletik
+97	2897	meategi	meategia meategiak meategian meategiaren meategiari meategiaz meategiei meategien meategietako meategietan meategietatik meategiko meategikoak meategira
+98	2898	kapitolio	kapitolioa kapitolioak kapitolioan kapitolioaren kapitolioarentzat kapitolioari kapitolioaz kapitolioko kapitoliokoak kapitoliora kapitolioren kapitoliotik
+99	2899	lubaki	lubakia lubakiak lubakian lubakiaren lubakien lubakietako lubakietan lubakietara lubakietatik lubakitik lubakiz
+100	2900	itxuraz	

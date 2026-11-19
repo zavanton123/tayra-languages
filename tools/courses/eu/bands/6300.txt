@@ -1,100 +1,100 @@
-1	6201	frustratu	frustratua frustraturik frustratuta
-2	6202	irratsaio	irratsaioa irratsaioak irratsaioan irratsaiorik
-3	6203	puzzle	puzzlea puzzleak puzzlean puzzlearen puzzleko
-4	6204	orientatu	orientatuko orientatuta orientatzea orientatzeko orientatzen
-5	6205	abordatu	abordatzea abordatzeko abordatzen abordatzera
-6	6206	zartagin	zartagina zartaginak zartaginean zartaginera zartaginetik
-7	6207	nerabezaro	nerabezaroa nerabezaroan nerabezaroaren nerabezaroko nerabezarotik
-8	6208	abegikortasun	abegikortasuna abegikortasunagatik abegikortasunaren abegikortasunik
-9	6209	txingar	txingarrak txingarrek txingarren txingarretan
-10	6210	seriotasun	seriotasuna seriotasunak seriotasunaren seriotasunez
-11	6211	kanporaketa	kanporaketak kanporaketan kanporaketara kanporaketei kanporaketetan
-12	6212	jostundegi	jostundegia jostundegian jostundegiarekin jostundegietatik jostundegira
-13	6213	espontaneo	espontaneoa espontaneoak espontaneoan
-14	6214	gainazal	gainazala gainazalean gainazaleko gainazalera gainazalik
-15	6215	bokal	bokala bokalak bokaleko bokalera bokalik
-16	6216	jasmin	jasmina jasminaren jasminek jasminen
-17	6217	zaharberritu	zaharberritutako zaharberritze zaharberritzea zaharberritzearekin zaharberritzearen zaharberritzeko zaharberritzen
-18	6218	inprimategi	inprimategia inprimategiak inprimategian inprimategira inprimategirik
-19	6219	tindategi	tindategian tindategiaren tindategiko tindategira tindategitik
-20	6220	sozializatu	sozializatze sozializatzea sozializatzeko sozializatzen sozializatzera
-21	6221	aguantatu	aguantatuko aguantatzeagatik aguantatzen
-22	6222	ultramore	ultramorea ultramoreak ultramoreekin ultramoreen ultramoreko
-23	6223	errepikapen	errepikapenak errepikapenarekin errepikapenean errepikapenen errepikapenik
-24	6224	ziklismo	ziklismoa ziklismoan ziklismoaren ziklismoarentzat ziklismotik
-25	6225	paleolitiko	paleolitikoa paleolitikoak paleolitikoan paleolitikoaren paleolitikoko
-26	6226	buztin	buztina buztinarekin buztinean buztinetik buztinez
-27	6227	inauteri	inauteria inauteriak inauterian inauteriari inauterietan inauterietara
-28	6228	mikrouhin	mikrouhina mikrouhinean mikrouhinekin mikrouhinen mikrouhinerako mikrouhinetan
-29	6229	koroatu	koroatua koroatuak koroatuko koroatzea koroatzearen koroatzen
-30	6230	prefektu	prefektua prefektuak prefektuaren prefektuari prefekturako
-31	6231	findu	finduko fintzea fintzean fintzeko fintzen
-32	6232	eraberritu	eraberritua eraberritzea eraberritzeko
-33	6233	bis	bisak bisera
-34	6234	zundatu	zundatzeak zundatzeko zundatzen
-35	6235	saga	sagan sagaren
-36	6236	berotze	berotzea berotzeagatik berotzearen berotzeko berotzekoa berotzera berotzerik
-37	6237	hamarreko	hamarrekoa
-38	6238	hiruko	hirukoa hirukotan
-39	6239	borgoina	borgoinako borgoinan borgoinara
-40	6240	euskarazko	
-41	6241	zipitz	zipitzik
-42	6242	abiadan	
-43	6243	elektrolito	elektrolitoak
-44	6244	norgehiagoka	
-45	6245	lobotomia	
-46	6246	ber	
-47	6247	lurrundu	lurruntzen
-48	6248	binaka	
-49	6249	autista	
-50	6250	lar	
-51	6251	erdipurdi	
-52	6252	subjektibo	subjektiboa
-53	6253	erreberentzia	
-54	6254	pasiera	pasieran
-55	6255	peto	petoa
-56	6256	irakasgai	irakasgaia
-57	6257	ugalketa	ugalketaz
-58	6258	enbrage	enbragea enbrageak
-59	6259	boro	boroko
-60	6260	haluzinatu	haluzinatzen
-61	6261	flora	floren
-62	6262	pinta	pintetan
-63	6263	unatu	una
-64	6264	islada	isladak
-65	6265	deshidratatu	deshidratatua deshidratatuta
-66	6266	erresonantzia	erresonantziaren
-67	6267	birr	birra
-68	6268	aingira	aingirak
-69	6269	kaporal	kaporala
-70	6270	gaupasa	gaupasan gaupasaren
-71	6271	izpiliku	izpilikua
-72	6272	flexio	flexioak
-73	6273	eskuzko	eskuzkoa
-74	6274	sable	sableak
-75	6275	sakrilegio	sakrilegioa
-76	6276	ehize	ehizean ehizeen
-77	6277	arbi	arbiak
-78	6278	portugaldar	portugaldarra portugaldarrek
-79	6279	apolitiko	apolitikoa apolitikoekin apolitikoentzat
-80	6280	higiene	higienea
-81	6281	errugabetasun	errugabetasuna errugabetasunaren
-82	6282	zanga	zangak zangok
-83	6283	maluta	malutak
-84	6284	erraztasun	erraztasuna erraztasunak erraztasunez
-85	6285	turuta	turutak turuten
-86	6286	narrasti	narrastiak
-87	6287	metxa	metxak metxari
-88	6288	yogi	yogiri
-89	6289	kukurruku	kukurrukua kukurrukurik
-90	6290	sandia	sandiak sandiarekin
-91	6291	adardun	adarduna
-92	6292	kontraleiho	kontraleihoa kontraleihoak
-93	6293	negoziatzaile	negoziatzailea negoziatzaileari
-94	6294	funtzional	funtzionala funtzionalak
-95	6295	grebalari	grebalariak grebalarien
-96	6296	sargori	sargoria
-97	6297	gramatika	gramatikak gramatikan gramatikari
-98	6298	burgesia	burgesiaren
-99	6299	beroaldi	beroaldia beroaldiagatik beroaldiaz
-100	6300	aberaskume	aberaskumea
+1	6201	bitxigile	bitxigilea bitxigileak bitxigileari bitxigileek bitxigileen
+2	6202	frustratu	frustratua frustraturik frustratuta
+3	6203	irratsaio	irratsaioa irratsaioak irratsaioan irratsaiorik
+4	6204	puzzle	puzzlea puzzleak puzzlean puzzlearen puzzleko
+5	6205	orientatu	orientatuko orientatuta orientatzea orientatzeko orientatzen
+6	6206	abordatu	abordatzea abordatzeko abordatzen abordatzera
+7	6207	zartagin	zartagina zartaginak zartaginean zartaginera zartaginetik
+8	6208	nerabezaro	nerabezaroa nerabezaroan nerabezaroaren nerabezaroko nerabezarotik
+9	6209	abegikortasun	abegikortasuna abegikortasunagatik abegikortasunaren abegikortasunik
+10	6210	txingar	txingarrak txingarrek txingarren txingarretan
+11	6211	seriotasun	seriotasuna seriotasunak seriotasunaren seriotasunez
+12	6212	kanporaketa	kanporaketak kanporaketan kanporaketara kanporaketei kanporaketetan
+13	6213	jostundegi	jostundegia jostundegian jostundegiarekin jostundegietatik jostundegira
+14	6214	espontaneo	espontaneoa espontaneoak espontaneoan
+15	6215	gainazal	gainazala gainazalean gainazaleko gainazalera gainazalik
+16	6216	bokal	bokala bokalak bokaleko bokalera bokalik
+17	6217	jasmin	jasmina jasminaren jasminek jasminen
+18	6218	zaharberritu	zaharberritutako zaharberritze zaharberritzea zaharberritzearekin zaharberritzearen zaharberritzeko zaharberritzen
+19	6219	inprimategi	inprimategia inprimategiak inprimategian inprimategira inprimategirik
+20	6220	tindategi	tindategian tindategiaren tindategiko tindategira tindategitik
+21	6221	sozializatu	sozializatze sozializatzea sozializatzeko sozializatzen sozializatzera
+22	6222	aguantatu	aguantatuko aguantatzeagatik aguantatzen
+23	6223	ultramore	ultramorea ultramoreak ultramoreekin ultramoreen ultramoreko
+24	6224	errepikapen	errepikapenak errepikapenarekin errepikapenean errepikapenen errepikapenik
+25	6225	ziklismo	ziklismoa ziklismoan ziklismoaren ziklismoarentzat ziklismotik
+26	6226	paleolitiko	paleolitikoa paleolitikoak paleolitikoan paleolitikoaren paleolitikoko
+27	6227	buztin	buztina buztinarekin buztinean buztinetik buztinez
+28	6228	inauteri	inauteria inauteriak inauterian inauteriari inauterietan inauterietara
+29	6229	mikrouhin	mikrouhina mikrouhinean mikrouhinekin mikrouhinen mikrouhinerako mikrouhinetan
+30	6230	koroatu	koroatua koroatuak koroatuko koroatzea koroatzearen koroatzen
+31	6231	prefektu	prefektua prefektuak prefektuaren prefektuari prefekturako
+32	6232	findu	finduko fintzea fintzean fintzeko fintzen
+33	6233	eraberritu	eraberritua eraberritzea eraberritzeko
+34	6234	bis	bisak bisera
+35	6235	zundatu	zundatzeak zundatzeko zundatzen
+36	6236	saga	sagan sagaren
+37	6237	berotze	berotzea berotzeagatik berotzearen berotzeko berotzekoa berotzera berotzerik
+38	6238	hamarreko	hamarrekoa
+39	6239	hiruko	hirukoa hirukotan
+40	6240	borgoina	borgoinako borgoinan borgoinara
+41	6241	euskarazko	
+42	6242	zipitz	zipitzik
+43	6243	abiadan	
+44	6244	elektrolito	elektrolitoak
+45	6245	norgehiagoka	
+46	6246	lobotomia	
+47	6247	ber	
+48	6248	lurrundu	lurruntzen
+49	6249	binaka	
+50	6250	autista	
+51	6251	lar	
+52	6252	erdipurdi	
+53	6253	subjektibo	subjektiboa
+54	6254	erreberentzia	
+55	6255	pasiera	pasieran
+56	6256	peto	petoa
+57	6257	irakasgai	irakasgaia
+58	6258	ugalketa	ugalketaz
+59	6259	enbrage	enbragea enbrageak
+60	6260	boro	boroko
+61	6261	haluzinatu	haluzinatzen
+62	6262	flora	floren
+63	6263	pinta	pintetan
+64	6264	unatu	una
+65	6265	islada	isladak
+66	6266	deshidratatu	deshidratatua deshidratatuta
+67	6267	erresonantzia	erresonantziaren
+68	6268	birr	birra
+69	6269	aingira	aingirak
+70	6270	kaporal	kaporala
+71	6271	gaupasa	gaupasan gaupasaren
+72	6272	izpiliku	izpilikua
+73	6273	flexio	flexioak
+74	6274	eskuzko	eskuzkoa
+75	6275	sable	sableak
+76	6276	sakrilegio	sakrilegioa
+77	6277	ehize	ehizean ehizeen
+78	6278	arbi	arbiak
+79	6279	portugaldar	portugaldarra portugaldarrek
+80	6280	apolitiko	apolitikoa apolitikoekin apolitikoentzat
+81	6281	higiene	higienea
+82	6282	errugabetasun	errugabetasuna errugabetasunaren
+83	6283	zanga	zangak zangok
+84	6284	maluta	malutak
+85	6285	erraztasun	erraztasuna erraztasunak erraztasunez
+86	6286	turuta	turutak turuten
+87	6287	narrasti	narrastiak
+88	6288	metxa	metxak metxari
+89	6289	yogi	yogiri
+90	6290	kukurruku	kukurrukua kukurrukurik
+91	6291	sandia	sandiak sandiarekin
+92	6292	adardun	adarduna
+93	6293	kontraleiho	kontraleihoa kontraleihoak
+94	6294	negoziatzaile	negoziatzailea negoziatzaileari
+95	6295	funtzional	funtzionala funtzionalak
+96	6296	grebalari	grebalariak grebalarien
+97	6297	sargori	sargoria
+98	6298	gramatika	gramatikak gramatikan gramatikari
+99	6299	burgesia	burgesiaren
+100	6300	beroaldi	beroaldia beroaldiagatik beroaldiaz

@@ -1,100 +1,100 @@
-1	4801	interprete	interpretea interpreteak interpreteari interpreteen interpreterik
-2	4802	kutsu	kutsua kutsuren kutsuz
-3	4803	bihurgune	bihurgunea bihurguneak bihurgunean bihurguneaz bihurgunera bihurgunerik
-4	4804	abortu	abortua abortuan abortuari abortuaz
-5	4805	bizkotxo	bizkotxoa bizkotxoak bizkotxoekin bizkotxoetan
-6	4806	lausengu	lausengua lausenguagatik lausenguak lausengurik
-7	4807	bizitasun	bizitasuna bizitasunarekin bizitasunean bizitasunez
-8	4808	erlojugile	erlojugilea erlojugileak erlojugileari erlojugilerik
-9	4809	kantoi	kantoia kantoian kantoiaren kantoietan kantoiko kantoira
-10	4810	pentsalari	pentsalaria pentsalariak pentsalarien pentsalaririk
-11	4811	aitaorde	aitaordea aitaordeak aitaordearekin aitaordearen aitaordekoa aitaordekoak
-12	4812	ozpin	ozpina ozpinak ozpinetako ozpinetan
-13	4813	billar	billarean billarra billarrean billarreko billarretako
-14	4814	nagi	nagia nagiak nagian nagiek nagiok
-15	4815	erromes	erromesa erromesak erromesaren erromesen
-16	4816	ikastun	ikastuna ikastunak ikastunei ikastunen
-17	4817	goitizen	goitizena goitizenak goitizenik
-18	4818	atletismo	atletismoa atletismoak atletismoan atletismoko
-19	4819	blindatu	blindatua blindatuak blindatuta blindatutako blindatze blindatzea
-20	4820	onuradun	onuraduna onuradunak onuradunen
-21	4821	zuzi	zuzia zuziak zuziarekin zuziekin
-22	4822	mistiko	mistikoa mistikoago mistikoak mistikoaren mistikoek mistikoen mistikora mistikorako
-23	4823	deribatu	deribatua deribatuak deribatuaren
-24	4824	jolastoki	jolastokia jolastokian jolastokira jolastokirik
-25	4825	semaforo	semaforoa semaforoak semaforoan semaforoekin
-26	4826	umezain	umezaina umezainak umezainari umezainek umezainik
-27	4827	ahalbidetu	ahalbidetuko ahalbidetzeko ahalbidetzen
-28	4828	garbitasun	garbitasuna garbitasunaren garbitasunaz garbitasuneko garbitasunez
-29	4829	komentatu	komentatuko komentatzea komentatzeaz komentatzeko komentatzen
-30	4830	kartutxo	kartutxoa kartutxoak kartutxoen kartutxorik
-31	4831	beldar	beldarra beldarrak beldarrek beldarrekin
-32	4832	lasterbide	lasterbidea lasterbideak lasterbideetako lasterbiderik
-33	4833	gizalege	gizalegea gizalegeak gizalegearekin gizalegeko gizalegerako gizalegez
-34	4834	pintzel	pintzela pintzelak pintzelaren pintzelean pintzelekin pintzeletara
-35	4835	bidezidor	bidezidorra bidezidorrak bidezidorrek bidezidorreko bidezidorretik
-36	4836	latin	latina latinaren latinean latinek latineko latinera latinetik latinez
-37	4837	behor	behorra behorrak behorrek behorren behorretara
-38	4838	alanbre	alanbrea alanbrean alanbrearekin alanbrez
-39	4839	lakio	lakioa lakioak lakioan lakioarekin lakioen lakioz
-40	4840	tapiz	tapiza tapizak tapizaren tapizekin tapizen tapizera tapizez
-41	4841	oposizio	oposizioa oposizioan oposizioarekin oposizioarentzat oposizioari oposizioko oposiziokoak oposiziorik
-42	4842	bataio	bataioa bataioak bataioan bataioaren bataioen bataioetan bataioetara bataioko bataiora bataiorako
-43	4843	portxe	portxea portxean portxearen portxeetara portxeko portxerik
-44	4844	hartzaile	hartzailea hartzaileak hartzailearen hartzaileari hartzaileei hartzaileek hartzaileen hartzaileri hartzailerik
-45	4845	dialekto	dialektoa dialektoak dialektoan dialektoek dialektoren dialektorik dialektoz
-46	4846	holandar	holandarra holandarrak holandarrei holandarrek holandarrekin holandarrena holandarrentzat
-47	4847	olinpiko	olinpikoa olinpikoak olinpikoan olinpikoarekin olinpikoaren olinpikoen olinpikoetako olinpikoetan
-48	4848	belarrondoko	belarrondokoa belarrondokoak
-49	4849	goldatu	goldatuko goldatutako goldatuz goldatzea goldatzeko goldatzen
-50	4850	legeztatu	legeztatua legeztatzea legeztatzearen legeztatzeko legeztatzen
-51	4851	onetsi	onesten onetsia onetsiko onetsita
-52	4852	iluntze	iluntzea iluntzeak iluntzean iluntzearen iluntzeko iluntzekoak iluntzera iluntzeraino iluntzerako iluntzetan iluntzetik
-53	4853	kodetu	kodetua kodetuak kodetuko kodetuta kodetutako kodetzeko kodetzen
-54	4854	urteurrena	urteurrenaren urteurrenetan
-55	4855	ubeldu	ubeldua ubelduak ubeldurekin ubelduta ubelduz ubeltzea
-56	4856	bosteko	bostekoa bostekorik
-57	4857	zurruta	zurrutak zurrutari zurrutarik
-58	4858	olinpiar	
-59	4859	geroxeago	
-60	4860	hurbiletik	
-61	4861	debalde	
-62	4862	banaka	
-63	4863	postaria	
-64	4864	hemeretzi	hemeretzian
-65	4865	marti	martiri
-66	4866	eurok	euron
-67	4867	kremailera	kremailerako kremailerekin
-68	4868	sami	samia samira
-69	4869	hamargarren	hamargarrena
-70	4870	txelin	txelina txelinak txelinekoa
-71	4871	igerilari	igerilaria igerilariaren igerilaririk
-72	4872	tunika	tunikan tunikatik
-73	4873	kilima	kilimak kilimarik
-74	4874	rabbi	rabbia rabbiari
-75	4875	bolbora	bolborak bolborari
-76	4876	budista	budistako budistek budistentzat
-77	4877	arkitektura	arkitekturako arkitekturan arkitekturari
-78	4878	tango	tangoa tangorekin
-79	4879	mesfidati	mesfidatia mesfidatiagoak mesfidatiak
-80	4880	hasperen	hasperena hasperenak hasperenez
-81	4881	geografia	geografiako geografian geografiarekin geografiaren
-82	4882	basapiztia	basapiztiak
-83	4883	egiaztagiri	egiaztagiria egiaztagiriak egiaztagiriarekin
-84	4884	konkista	konkistak konkistan
-85	4885	pentsaera	pentsaeran pentsaeraz
-86	4886	sentsual	sentsuala sentsualak sentsualarekin sentsualeko
-87	4887	aitzur	aitzurra aitzurrarekin aitzurrean
-88	4888	mastekatu	mastekatuko mastekatzeak mastekatzen
-89	4889	aitabitxi	aitabitxia aitabitxiak aitabitxiek aitabitxientzat
-90	4890	espezia	espeziak espeziaren espeziarentzat espeziei espeziekin espezien
-91	4891	baloratu	baloratuko baloratuta baloratutako baloratzen
-92	4892	tsar	tsarra tsarraren tsarrari
-93	4893	bihozbera	bihozberak bihozberari bihozberok
-94	4894	antsietate	antsietatea antsietateak antsietaterako antsietatez
-95	4895	astinaldi	astinaldia astinaldiak astinaldiaz astinaldiei astinaldiren
-96	4896	altze	altzea altzeak altzearekin altzearen
-97	4897	taktiko	taktikoa taktikoak taktikoena taktikoetan taktikorik
-98	4898	leihatila	leihatilak leihatilan leihatilatik leihatilaz leihatiletan
-99	4899	eskulan	eskulana eskulanak eskulanari
-100	4900	amaginarreba	amaginarrebak amaginarrebarekin amaginarrebaren
+1	4801	austriar	austriarra austriarrak austriarrengandik austriarrik
+2	4802	interprete	interpretea interpreteak interpreteari interpreteen interpreterik
+3	4803	kutsu	kutsua kutsuren kutsuz
+4	4804	bihurgune	bihurgunea bihurguneak bihurgunean bihurguneaz bihurgunera bihurgunerik
+5	4805	abortu	abortua abortuan abortuari abortuaz
+6	4806	bizkotxo	bizkotxoa bizkotxoak bizkotxoekin bizkotxoetan
+7	4807	lausengu	lausengua lausenguagatik lausenguak lausengurik
+8	4808	bizitasun	bizitasuna bizitasunarekin bizitasunean bizitasunez
+9	4809	erlojugile	erlojugilea erlojugileak erlojugileari erlojugilerik
+10	4810	kantoi	kantoia kantoian kantoiaren kantoietan kantoiko kantoira
+11	4811	pentsalari	pentsalaria pentsalariak pentsalarien pentsalaririk
+12	4812	aitaorde	aitaordea aitaordeak aitaordearekin aitaordearen aitaordekoa aitaordekoak
+13	4813	ozpin	ozpina ozpinak ozpinetako ozpinetan
+14	4814	billar	billarean billarra billarrean billarreko billarretako
+15	4815	nagi	nagia nagiak nagian nagiek nagiok
+16	4816	erromes	erromesa erromesak erromesaren erromesen
+17	4817	ikastun	ikastuna ikastunak ikastunei ikastunen
+18	4818	goitizen	goitizena goitizenak goitizenik
+19	4819	atletismo	atletismoa atletismoak atletismoan atletismoko
+20	4820	blindatu	blindatua blindatuak blindatuta blindatutako blindatze blindatzea
+21	4821	onuradun	onuraduna onuradunak onuradunen
+22	4822	zuzi	zuzia zuziak zuziarekin zuziekin
+23	4823	mistiko	mistikoa mistikoago mistikoak mistikoaren mistikoek mistikoen mistikora mistikorako
+24	4824	deribatu	deribatua deribatuak deribatuaren
+25	4825	jolastoki	jolastokia jolastokian jolastokira jolastokirik
+26	4826	semaforo	semaforoa semaforoak semaforoan semaforoekin
+27	4827	umezain	umezaina umezainak umezainari umezainek umezainik
+28	4828	ahalbidetu	ahalbidetuko ahalbidetzeko ahalbidetzen
+29	4829	garbitasun	garbitasuna garbitasunaren garbitasunaz garbitasuneko garbitasunez
+30	4830	komentatu	komentatuko komentatzea komentatzeaz komentatzeko komentatzen
+31	4831	kartutxo	kartutxoa kartutxoak kartutxoen kartutxorik
+32	4832	beldar	beldarra beldarrak beldarrek beldarrekin
+33	4833	lasterbide	lasterbidea lasterbideak lasterbideetako lasterbiderik
+34	4834	gizalege	gizalegea gizalegeak gizalegearekin gizalegeko gizalegerako gizalegez
+35	4835	pintzel	pintzela pintzelak pintzelaren pintzelean pintzelekin pintzeletara
+36	4836	bidezidor	bidezidorra bidezidorrak bidezidorrek bidezidorreko bidezidorretik
+37	4837	latin	latina latinaren latinean latinek latineko latinera latinetik latinez
+38	4838	behor	behorra behorrak behorrek behorren behorretara
+39	4839	alanbre	alanbrea alanbrean alanbrearekin alanbrez
+40	4840	lakio	lakioa lakioak lakioan lakioarekin lakioen lakioz
+41	4841	tapiz	tapiza tapizak tapizaren tapizekin tapizen tapizera tapizez
+42	4842	oposizio	oposizioa oposizioan oposizioarekin oposizioarentzat oposizioari oposizioko oposiziokoak oposiziorik
+43	4843	bataio	bataioa bataioak bataioan bataioaren bataioen bataioetan bataioetara bataioko bataiora bataiorako
+44	4844	portxe	portxea portxean portxearen portxeetara portxeko portxerik
+45	4845	hartzaile	hartzailea hartzaileak hartzailearen hartzaileari hartzaileei hartzaileek hartzaileen hartzaileri hartzailerik
+46	4846	dialekto	dialektoa dialektoak dialektoan dialektoek dialektoren dialektorik dialektoz
+47	4847	holandar	holandarra holandarrak holandarrei holandarrek holandarrekin holandarrena holandarrentzat
+48	4848	olinpiko	olinpikoa olinpikoak olinpikoan olinpikoarekin olinpikoaren olinpikoen olinpikoetako olinpikoetan
+49	4849	belarrondoko	belarrondokoa belarrondokoak
+50	4850	goldatu	goldatuko goldatutako goldatuz goldatzea goldatzeko goldatzen
+51	4851	legeztatu	legeztatua legeztatzea legeztatzearen legeztatzeko legeztatzen
+52	4852	onetsi	onesten onetsia onetsiko onetsita
+53	4853	iluntze	iluntzea iluntzeak iluntzean iluntzearen iluntzeko iluntzekoak iluntzera iluntzeraino iluntzerako iluntzetan iluntzetik
+54	4854	kodetu	kodetua kodetuak kodetuko kodetuta kodetutako kodetzeko kodetzen
+55	4855	urteurrena	urteurrenaren urteurrenetan
+56	4856	ubeldu	ubeldua ubelduak ubeldurekin ubelduta ubelduz ubeltzea
+57	4857	bosteko	bostekoa bostekorik
+58	4858	zurruta	zurrutak zurrutari zurrutarik
+59	4859	olinpiar	
+60	4860	geroxeago	
+61	4861	hurbiletik	
+62	4862	debalde	
+63	4863	banaka	
+64	4864	postaria	
+65	4865	hemeretzi	hemeretzian
+66	4866	marti	martiri
+67	4867	eurok	euron
+68	4868	kremailera	kremailerako kremailerekin
+69	4869	sami	samia samira
+70	4870	hamargarren	hamargarrena
+71	4871	txelin	txelina txelinak txelinekoa
+72	4872	igerilari	igerilaria igerilariaren igerilaririk
+73	4873	tunika	tunikan tunikatik
+74	4874	kilima	kilimak kilimarik
+75	4875	rabbi	rabbia rabbiari
+76	4876	bolbora	bolborak bolborari
+77	4877	budista	budistako budistek budistentzat
+78	4878	arkitektura	arkitekturako arkitekturan arkitekturari
+79	4879	tango	tangoa tangorekin
+80	4880	mesfidati	mesfidatia mesfidatiagoak mesfidatiak
+81	4881	hasperen	hasperena hasperenak hasperenez
+82	4882	geografia	geografiako geografian geografiarekin geografiaren
+83	4883	basapiztia	basapiztiak
+84	4884	egiaztagiri	egiaztagiria egiaztagiriak egiaztagiriarekin
+85	4885	konkista	konkistak konkistan
+86	4886	pentsaera	pentsaeran pentsaeraz
+87	4887	sentsual	sentsuala sentsualak sentsualarekin sentsualeko
+88	4888	aitzur	aitzurra aitzurrarekin aitzurrean
+89	4889	mastekatu	mastekatuko mastekatzeak mastekatzen
+90	4890	aitabitxi	aitabitxia aitabitxiak aitabitxiek aitabitxientzat
+91	4891	espezia	espeziak espeziaren espeziarentzat espeziei espeziekin espezien
+92	4892	baloratu	baloratuko baloratuta baloratutako baloratzen
+93	4893	tsar	tsarra tsarraren tsarrari
+94	4894	bihozbera	bihozberak bihozberari bihozberok
+95	4895	antsietate	antsietatea antsietateak antsietaterako antsietatez
+96	4896	astinaldi	astinaldia astinaldiak astinaldiaz astinaldiei astinaldiren
+97	4897	altze	altzea altzeak altzearekin altzearen
+98	4898	taktiko	taktikoa taktikoak taktikoena taktikoetan taktikorik
+99	4899	leihatila	leihatilak leihatilan leihatilatik leihatilaz leihatiletan
+100	4900	eskulan	eskulana eskulanak eskulanari

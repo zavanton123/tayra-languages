@@ -1,100 +1,100 @@
-1	8201	jasankor	jasankorra jasankorrak
-2	8202	biderketa	biderketak
-3	8203	himno	himnoa
-4	8204	suposizio	suposizioa
-5	8205	faro	faroa
-6	8206	gozogile	gozogilerik
-7	8207	otseme	otsemea
-8	8208	absolbitu	absolbitzen
-9	8209	makar	makarra
-10	8210	hits	hitsa hitsean
-11	8211	eskizoide	eskizoidea
-12	8212	huntz	huntza
-13	8213	galga	galgak
-14	8214	pentagrama	pentagramak
-15	8215	txapeloker	txapelokerrak txapelokerrez
-16	8216	akrofobia	akrofobiak
-17	8217	harmonizatu	harmonizatzeko
-18	8218	itzain	itzaina
-19	8219	fuga	fugarik
-20	8220	antolamendu	antolamendua antolamenduaz
-21	8221	monotonia	monotoniaren
-22	8222	mortadela	mortadelaren
-23	8223	altruista	altruistan
-24	8224	kaligrafia	kaligrafian
-25	8225	txirrika	txirrikarekin
-26	8226	txalogarri	txalogarria txalogarriak
-27	8227	hemorroide	hemorroideak
-28	8228	uhate	uhatea uhateak
-29	8229	mikrokontrolagailu	mikrokontrolagailuei
-30	8230	labanda	labandarekin
-31	8231	atxiloaldi	atxiloaldia
-32	8232	pedigri	pedigria pedigriz
-33	8233	oilartu	oilartuta
-34	8234	goru	goruak
-35	8235	budismo	budismoa budismotik
-36	8236	lepra	leprak
-37	8237	neutrino	neutrinoz
-38	8238	fetitxista	fetitxistekin
-39	8239	mimetiko	mimetikoak
-40	8240	ilberri	ilberria ilberriarekin
-41	8241	intxaurrondo	intxaurrondoko intxaurrondora
-42	8242	sekuoia	sekuoien
-43	8243	koefiziente	koefizientea
-44	8244	llama	llamak
-45	8245	sezesio	sezesioa
-46	8246	prestutasun	prestutasuna
-47	8247	transkribatu	transkribatzen
-48	8248	aorta	aortako
-49	8249	edontzi	edontzia
-50	8250	narkotrafikatzaile	narkotrafikatzailea
-51	8251	aerodinamiko	aerodinamikoa
-52	8252	kafeontzi	kafeontziarekin
-53	8253	besoetako	besoetakoa
-54	8254	klabikula	klabikularaino
-55	8255	meningitis	meningitisa
-56	8256	mau	mauen
-57	8257	bonsai	bonsaia
-58	8258	arrazakeria	arrazakeriaren
-59	8259	autodefentsa	autodefentsaren
-60	8260	espiritualitate	espiritualitatearen
-61	8261	interferon	interferona
-62	8262	lev	levik
-63	8263	txekoslovakiar	txekoslovakiara txekoslovakiarra
-64	8264	marxismo	marxismoa marxismoari
-65	8265	nikotina	nikotinari
-66	8266	kuma	kumara
-67	8267	pikondo	pikondoak
-68	8268	arnes	arnesa
-69	8269	anbar	anbarretan
-70	8270	estetoskopio	estetoskopioa
-71	8271	farmazialari	farmazialaria
-72	8272	sufre	sufrea
-73	8273	aharrausi	aharrausiari
-74	8274	erremolatxa	erremolatxarekin
-75	8275	langabe	langabeen
-76	8276	inkoherentzia	inkoherentziarik
-77	8277	kontserbazio	kontserbazioaren
-78	8278	blogari	blogariak
-79	8279	ortzi	ortzia ortziari
-80	8280	erpuru	erpurua erpuruarekin
-81	8281	humano	humanoa
-82	8282	zirkulatu	zirkulatzea
-83	8283	betondo	betondoa
-84	8284	daltoniko	daltonikoa
-85	8285	kalamitate	kalamitatea
-86	8286	eguneraketa	eguneraketak
-87	8287	kina	kinara
-88	8288	diapasoi	diapasoia diapasoiaz
-89	8289	tronbosi	tronbosia
-90	8290	hiritartasun	hiritartasuna
-91	8291	prokontsul	prokontsula
-92	8292	eskalada	eskaladako
-93	8293	salami	salamia
-94	8294	edale	edalea
-95	8295	kromosoma	kromosomaren
-96	8296	alpinista	alpinistak
-97	8297	daniera	danieraz
-98	8298	eskotilla	eskotillatik
-99	8299	zutarri	zutarriak
-100	8300	epaimahaikide	epaimahaikideak
+1	8201	geologiko	geologikoak
+2	8202	jasankor	jasankorra jasankorrak
+3	8203	biderketa	biderketak
+4	8204	himno	himnoa
+5	8205	suposizio	suposizioa
+6	8206	faro	faroa
+7	8207	gozogile	gozogilerik
+8	8208	otseme	otsemea
+9	8209	absolbitu	absolbitzen
+10	8210	makar	makarra
+11	8211	hits	hitsa hitsean
+12	8212	eskizoide	eskizoidea
+13	8213	huntz	huntza
+14	8214	galga	galgak
+15	8215	pentagrama	pentagramak
+16	8216	txapeloker	txapelokerrak txapelokerrez
+17	8217	akrofobia	akrofobiak
+18	8218	harmonizatu	harmonizatzeko
+19	8219	itzain	itzaina
+20	8220	fuga	fugarik
+21	8221	antolamendu	antolamendua antolamenduaz
+22	8222	monotonia	monotoniaren
+23	8223	mortadela	mortadelaren
+24	8224	altruista	altruistan
+25	8225	kaligrafia	kaligrafian
+26	8226	txirrika	txirrikarekin
+27	8227	txalogarri	txalogarria txalogarriak
+28	8228	hemorroide	hemorroideak
+29	8229	uhate	uhatea uhateak
+30	8230	mikrokontrolagailu	mikrokontrolagailuei
+31	8231	labanda	labandarekin
+32	8232	atxiloaldi	atxiloaldia
+33	8233	pedigri	pedigria pedigriz
+34	8234	oilartu	oilartuta
+35	8235	goru	goruak
+36	8236	budismo	budismoa budismotik
+37	8237	lepra	leprak
+38	8238	neutrino	neutrinoz
+39	8239	fetitxista	fetitxistekin
+40	8240	mimetiko	mimetikoak
+41	8241	ilberri	ilberria ilberriarekin
+42	8242	intxaurrondo	intxaurrondoko intxaurrondora
+43	8243	sekuoia	sekuoien
+44	8244	koefiziente	koefizientea
+45	8245	llama	llamak
+46	8246	sezesio	sezesioa
+47	8247	prestutasun	prestutasuna
+48	8248	transkribatu	transkribatzen
+49	8249	aorta	aortako
+50	8250	edontzi	edontzia
+51	8251	narkotrafikatzaile	narkotrafikatzailea
+52	8252	aerodinamiko	aerodinamikoa
+53	8253	kafeontzi	kafeontziarekin
+54	8254	besoetako	besoetakoa
+55	8255	klabikula	klabikularaino
+56	8256	meningitis	meningitisa
+57	8257	mau	mauen
+58	8258	bonsai	bonsaia
+59	8259	arrazakeria	arrazakeriaren
+60	8260	autodefentsa	autodefentsaren
+61	8261	espiritualitate	espiritualitatearen
+62	8262	interferon	interferona
+63	8263	lev	levik
+64	8264	txekoslovakiar	txekoslovakiara txekoslovakiarra
+65	8265	marxismo	marxismoa marxismoari
+66	8266	nikotina	nikotinari
+67	8267	kuma	kumara
+68	8268	pikondo	pikondoak
+69	8269	arnes	arnesa
+70	8270	anbar	anbarretan
+71	8271	estetoskopio	estetoskopioa
+72	8272	farmazialari	farmazialaria
+73	8273	sufre	sufrea
+74	8274	aharrausi	aharrausiari
+75	8275	erremolatxa	erremolatxarekin
+76	8276	langabe	langabeen
+77	8277	inkoherentzia	inkoherentziarik
+78	8278	kontserbazio	kontserbazioaren
+79	8279	blogari	blogariak
+80	8280	ortzi	ortzia ortziari
+81	8281	erpuru	erpurua erpuruarekin
+82	8282	humano	humanoa
+83	8283	zirkulatu	zirkulatzea
+84	8284	betondo	betondoa
+85	8285	daltoniko	daltonikoa
+86	8286	kalamitate	kalamitatea
+87	8287	eguneraketa	eguneraketak
+88	8288	kina	kinara
+89	8289	diapasoi	diapasoia diapasoiaz
+90	8290	tronbosi	tronbosia
+91	8291	hiritartasun	hiritartasuna
+92	8292	prokontsul	prokontsula
+93	8293	eskalada	eskaladako
+94	8294	salami	salamia
+95	8295	edale	edalea
+96	8296	kromosoma	kromosomaren
+97	8297	alpinista	alpinistak
+98	8298	daniera	danieraz
+99	8299	eskotilla	eskotillatik
+100	8300	zutarri	zutarriak

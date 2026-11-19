@@ -1,100 +1,100 @@
-1	8701	zapalketa	zapalketak zapalketarako zapalketari
-2	8702	zumar	zumarrak zumarrari zumarrek zumarren
-3	8703	sanedrin	sanedrina sanedrinak sanedrinek sanedrinen
-4	8704	esportatu	esportatuko esportatzea esportatzen
-5	8705	janaritegi	janaritegia janaritegiak janaritegian
-6	8706	hipnotismo	hipnotismoa hipnotismoaren hipnotismorik hipnotismotik
-7	8707	kontzeptual	kontzeptuala kontzeptualean kontzeptualekoak
-8	8708	aktibazio	aktibazioa aktibazioan aktibaziorako
-9	8709	orbitatu	orbitatzean orbitatzeko orbitatzen
-10	8710	garbigarri	garbigarria garbigarriak garbigarririk
-11	8711	industrializatu	industrializatuak industrializatuta industrializatzen
-12	8712	bidet	bideta bidetak bidetarekin
-13	8713	jengibre	jengibrea jengibreak jengibrearekin
-14	8714	kastitate	kastitatea kastitatean kastitateari kastitateko
-15	8715	meditatu	meditatua meditatuko meditatzera
-16	8716	kuadrante	kuadrantean kuadranteetan kuadrantetik
-17	8717	finalerdi	finalerdia finalerdiak finalerdian finalerdietan
-18	8718	belarjale	belarjalea belarjaleak belarjaleen
-19	8719	tropiko	tropikoa tropikoan tropikoetan tropikoko
-20	8720	hipotermia	hipotermiako hipotermiarekin hipotermiari
-21	8721	madari	madariak madariekin madarik
-22	8722	lurrindegi	lurrindegia lurrindegian lurrindegiko
-23	8723	kartilago	kartilagoa kartilagoari kartilagoetan kartilagorik
-24	8724	potor	potoren potorik potorra
-25	8725	pedagogiko	pedagogikoa pedagogikoak pedagogikoan
-26	8726	lantzari	lantzaria lantzariak lantzariaren
-27	8727	soma	somara somen
-28	8728	hipokondriako	hipokondriakoa hipokondriakoentzat
-29	8729	armagabetu	armagabe armagabetua armagabetzeko
-30	8730	muntatze	muntatzea muntatzeko
-31	8731	gabiko	gabikoa gabikoak gabikoaren gabikorik
-32	8732	alfabeto	alfabetoaren
-33	8733	eguneratze	eguneratzea eguneratzeak eguneratzeko
-34	8734	miliar	miliara miliaren
-35	8735	erretxin	erretxinak erretxinik
-36	8736	espetxeratze	espetxeratzea espetxeratzeak espetxeratzearen espetxeratzeen espetxeratzeko
-37	8737	gurutzatze	gurutzatzea gurutzatzean gurutzatzeko gurutzatzera gurutzatzerik gurutzatzetik
-38	8738	hondoratze	hondoratzea hondoratzearekin hondoratzearen hondoratzeari hondoratzeko hondoratzerik hondoratzetik
-39	8739	agintera	aginterako
-40	8740	zut	zutarekin zutaz zutoi
-41	8741	batzarre	batzarrea batzarrean batzarreko batzarrekoa batzarrera batzarrerako batzarretan batzarretara
-42	8742	adiskidetze	adiskidetzea adiskidetzean adiskidetzearen adiskidetzeko
-43	8743	hogeiko	hogeikoa
-44	8744	eskeko	eskekoa eskekoaren eskekoen
-45	8745	biltegiratu	biltegira biltegiratuko biltegiratuta biltegiratzeko biltegiratzen
-46	8746	katalan	katalanaren katalanekoa katalanen katalanera katalanetik katalanez
-47	8747	deserri	deserria deserrian deserrira
-48	8748	zelular	zelularen zelularra
-49	8749	epail	epaila epailaren epailek epailera
-50	8750	hautemate	hautemateko
-51	8751	unibertsitario	unibertsitarioa
-52	8752	patriota	patriotak
-53	8753	konprimatu	konprimatua
-54	8754	eon	eona
-55	8755	parsec	parsecetan
-56	8756	mormoi	mormoiak mormoiek
-57	8757	mugurdi	mugurdia
-58	8758	hezueri	hezueria hezueriak
-59	8759	birtuoso	birtuosoa
-60	8760	antiazido	antiazidoa
-61	8761	defuntu	defuntua
-62	8762	serora	serorak
-63	8763	berdatu	berdatuak berdatzen
-64	8764	estatutu	estatutuak
-65	8765	alargundu	alargundua
-66	8766	loraldi	loraldia loraldian
-67	8767	burumuin	burumuinik
-68	8768	soilgune	soilgunean
-69	8769	perdigoi	perdigoiak
-70	8770	odolgarbi	odolgarbia odolgarbiko
-71	8771	zaire	zairera
-72	8772	magrebtar	magrebtarra magrebtarrak
-73	8773	karismatiko	karismatikoa karismatikoek
-74	8774	pauma	paumen
-75	8775	garnizio	garnizioak
-76	8776	nebulosa	nebulosan
-77	8777	gorrizta	gorriztak
-78	8778	elitista	elitisten
-79	8779	estekatu	estekatzen
-80	8780	bulimia	bulimiarekin
-81	8781	tonbola	tonbolan
-82	8782	kontrolatzaile	kontrolatzailea
-83	8783	grabatzaile	grabatzailea
-84	8784	purga	purgak
-85	8785	bahituri	bahituririk
-86	8786	bukanero	bukaneroa
-87	8787	jeans	jeansak
-88	8788	biopsia	biopsiak
-89	8789	behere	beherean behereko
-90	8790	trikotatu	trikotatze trikotatzen
-91	8791	espartzu	espartzua espartzuarekin
-92	8792	amodiozko	amodiozkoa
-93	8793	skate	skatea
-94	8794	kondentsadore	kondentsadorea kondentsadoreak
-95	8795	espiritualtasun	espiritualtasuna espiritualtasunari
-96	8796	neurgailu	neurgailua
-97	8797	erpe	erpeak
-98	8798	oinpe	oinpean oinpetan
-99	8799	tortila	tortilarik
-100	8800	lehenseme	lehensemea
+1	8701	tasatu	tasatua tasatzeko tasatzen
+2	8702	zapalketa	zapalketak zapalketarako zapalketari
+3	8703	zumar	zumarrak zumarrari zumarrek zumarren
+4	8704	sanedrin	sanedrina sanedrinak sanedrinek sanedrinen
+5	8705	esportatu	esportatuko esportatzea esportatzen
+6	8706	janaritegi	janaritegia janaritegiak janaritegian
+7	8707	hipnotismo	hipnotismoa hipnotismoaren hipnotismorik hipnotismotik
+8	8708	kontzeptual	kontzeptuala kontzeptualean kontzeptualekoak
+9	8709	aktibazio	aktibazioa aktibazioan aktibaziorako
+10	8710	orbitatu	orbitatzean orbitatzeko orbitatzen
+11	8711	garbigarri	garbigarria garbigarriak garbigarririk
+12	8712	industrializatu	industrializatuak industrializatuta industrializatzen
+13	8713	bidet	bideta bidetak bidetarekin
+14	8714	jengibre	jengibrea jengibreak jengibrearekin
+15	8715	kastitate	kastitatea kastitatean kastitateari kastitateko
+16	8716	meditatu	meditatua meditatuko meditatzera
+17	8717	kuadrante	kuadrantean kuadranteetan kuadrantetik
+18	8718	finalerdi	finalerdia finalerdiak finalerdian finalerdietan
+19	8719	belarjale	belarjalea belarjaleak belarjaleen
+20	8720	tropiko	tropikoa tropikoan tropikoetan tropikoko
+21	8721	hipotermia	hipotermiako hipotermiarekin hipotermiari
+22	8722	madari	madariak madariekin madarik
+23	8723	lurrindegi	lurrindegia lurrindegian lurrindegiko
+24	8724	kartilago	kartilagoa kartilagoari kartilagoetan kartilagorik
+25	8725	potor	potoren potorik potorra
+26	8726	pedagogiko	pedagogikoa pedagogikoak pedagogikoan
+27	8727	lantzari	lantzaria lantzariak lantzariaren
+28	8728	soma	somara somen
+29	8729	hipokondriako	hipokondriakoa hipokondriakoentzat
+30	8730	armagabetu	armagabe armagabetua armagabetzeko
+31	8731	muntatze	muntatzea muntatzeko
+32	8732	gabiko	gabikoa gabikoak gabikoaren gabikorik
+33	8733	alfabeto	alfabetoaren
+34	8734	eguneratze	eguneratzea eguneratzeak eguneratzeko
+35	8735	miliar	miliara miliaren
+36	8736	erretxin	erretxinak erretxinik
+37	8737	espetxeratze	espetxeratzea espetxeratzeak espetxeratzearen espetxeratzeen espetxeratzeko
+38	8738	gurutzatze	gurutzatzea gurutzatzean gurutzatzeko gurutzatzera gurutzatzerik gurutzatzetik
+39	8739	hondoratze	hondoratzea hondoratzearekin hondoratzearen hondoratzeari hondoratzeko hondoratzerik hondoratzetik
+40	8740	agintera	aginterako
+41	8741	zut	zutarekin zutaz zutoi
+42	8742	batzarre	batzarrea batzarrean batzarreko batzarrekoa batzarrera batzarrerako batzarretan batzarretara
+43	8743	adiskidetze	adiskidetzea adiskidetzean adiskidetzearen adiskidetzeko
+44	8744	hogeiko	hogeikoa
+45	8745	eskeko	eskekoa eskekoaren eskekoen
+46	8746	biltegiratu	biltegira biltegiratuko biltegiratuta biltegiratzeko biltegiratzen
+47	8747	katalan	katalanaren katalanekoa katalanen katalanera katalanetik katalanez
+48	8748	deserri	deserria deserrian deserrira
+49	8749	zelular	zelularen zelularra
+50	8750	epail	epaila epailaren epailek epailera
+51	8751	hautemate	hautemateko
+52	8752	unibertsitario	unibertsitarioa
+53	8753	patriota	patriotak
+54	8754	konprimatu	konprimatua
+55	8755	eon	eona
+56	8756	parsec	parsecetan
+57	8757	mormoi	mormoiak mormoiek
+58	8758	mugurdi	mugurdia
+59	8759	hezueri	hezueria hezueriak
+60	8760	birtuoso	birtuosoa
+61	8761	antiazido	antiazidoa
+62	8762	defuntu	defuntua
+63	8763	serora	serorak
+64	8764	berdatu	berdatuak berdatzen
+65	8765	estatutu	estatutuak
+66	8766	alargundu	alargundua
+67	8767	loraldi	loraldia loraldian
+68	8768	burumuin	burumuinik
+69	8769	soilgune	soilgunean
+70	8770	perdigoi	perdigoiak
+71	8771	odolgarbi	odolgarbia odolgarbiko
+72	8772	zaire	zairera
+73	8773	magrebtar	magrebtarra magrebtarrak
+74	8774	karismatiko	karismatikoa karismatikoek
+75	8775	pauma	paumen
+76	8776	garnizio	garnizioak
+77	8777	nebulosa	nebulosan
+78	8778	gorrizta	gorriztak
+79	8779	elitista	elitisten
+80	8780	estekatu	estekatzen
+81	8781	bulimia	bulimiarekin
+82	8782	tonbola	tonbolan
+83	8783	kontrolatzaile	kontrolatzailea
+84	8784	grabatzaile	grabatzailea
+85	8785	purga	purgak
+86	8786	bahituri	bahituririk
+87	8787	bukanero	bukaneroa
+88	8788	jeans	jeansak
+89	8789	biopsia	biopsiak
+90	8790	behere	beherean behereko
+91	8791	trikotatu	trikotatze trikotatzen
+92	8792	espartzu	espartzua espartzuarekin
+93	8793	amodiozko	amodiozkoa
+94	8794	skate	skatea
+95	8795	kondentsadore	kondentsadorea kondentsadoreak
+96	8796	espiritualtasun	espiritualtasuna espiritualtasunari
+97	8797	neurgailu	neurgailua
+98	8798	erpe	erpeak
+99	8799	oinpe	oinpean oinpetan
+100	8800	tortila	tortilarik

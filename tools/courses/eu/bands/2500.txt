@@ -1,100 +1,100 @@
-1	2401	garraio	garraioa garraioak garraioan garraioaren garraioaz garraioei garraioen garraioetako garraioko garraiokoa garraiora garraiorako garraiorik garraiotan garraioz
-2	2402	pasabide	pasabidea pasabideak pasabidean pasabidearen pasabideetan pasabideko pasabidera pasabiderako pasabiderik pasabidetik
-3	2403	fruta	frutak frutarik frutaz frutez
-4	2404	sinestesia	sinestesiak sinestesiaren sinestesiari sinestesiaz
-5	2405	hutsune	hutsunea hutsuneak hutsunean hutsuneez hutsuneren hutsunerik
-6	2406	atxiki	atxikia atxikiak atxikiko atxikita atxikitako atxikitzea atxikitzeko atxikitzen atxikiz
-7	2407	bela	belak belarekin belaren belarentzat belari belekin belen beletako
-8	2408	amarru	amarrua amarruak amarruan amarruaren amarruek amarruen amarruetan amarruren amarrurik amarrutik amarruz
-9	2409	jaurtiketa	jaurtiketak jaurtiketan jaurtiketara jaurtiketarako jaurtiketarekin jaurtiketaren jaurtiketarik jaurtiketen
-10	2410	adeitsu	adeitsua adeitsuagoa adeitsuagoak adeitsuak adeitsuan adeitsuarekin adeitsuaren adeitsuegia adeitsuegiak
-11	2411	inbaditu	inbaditua inbadituak inbadituko inbadituta inbadituz inbaditzea inbaditzeko inbaditzen inbaditzera
-12	2412	trebetasun	trebetasuna trebetasunak trebetasunaren trebetasunari trebetasunean trebetasunei trebetasunek trebetasunetako trebetasunez trebetasunik
-13	2413	motxila	motxilak motxilan motxilarekin motxilaren motxilarik motxilatik motxilez
-14	2414	errepublika	errepublikak errepublikako errepublikakoa errepublikan errepublikaren errepublikari errepublikarik errepublikatik
-15	2415	emaztegai	emaztegaia emaztegaiak emaztegaiarekin emaztegaiaren emaztegaiarengana emaztegaiari emaztegaien emaztegairik
-16	2416	funtsezko	funtsezkoa funtsezkoak funtsezkoena
-17	2417	gin	gina ginak ginarekin ginaren ginarentzat ginari ginei ginetik
-18	2418	asteazken	asteazkena asteazkenean asteazkeneko asteazkenekoa asteazkenera asteazkenerako asteazkenetan asteazkenetik asteazkenez
-19	2419	zintzotasun	zintzotasuna zintzotasunagatik zintzotasunak zintzotasunaren zintzotasunari zintzotasunaz zintzotasunean zintzotasuneko zintzotasunen zintzotasunez zintzotasunik
-20	2420	landa	landak landako landan landara landatik landetako landetan landetatik landok
-21	2421	kume	kumea kumeak kumeei kumeek kumeekin kumeen kumeetatik
-22	2422	kimiko	kimikoa kimikoagatik kimikoak kimikoaren kimikoaz kimikoek kimikoen kimikoetan kimikok kimikora kimikorako kimikorik
-23	2423	ase	asea aseko asetze asetzea asetzeko asetzen asetzerik
-24	2424	abere	aberea abereak aberearen abereei abereek abereekin abereen abereengana abereetan abererik aberetan
-25	2425	matematika	matematikak matematikako matematikakoa matematikan matematikarako matematikarekin matematikaren matematikatan matematikekin matematiketako matematiketan matematiketarako
-26	2426	xede	xedea xedeak xedearekin xedearen xedeari xedeez xedera xederantz xederekin xederik
-27	2427	sinadura	sinadurak sinaduran sinadurarekin sinaduraren sinadurarik sinadurei sinadurek sinaduren
-28	2428	erakusketa	erakusketak erakusketako erakusketakoa erakusketan erakusketara erakusketarako erakusketaren erakusketari erakusketatik erakusketaz erakusketen erakusketetan
-29	2429	alfonbra	alfonbrak alfonbran alfonbrara alfonbraren alfonbrari alfonbrarik alfonbratan alfonbratik alfonbraz alfonbrekin
-30	2430	sorginkeria	sorginkeriak sorginkerian sorginkeriarako sorginkeriarekin sorginkeriaren sorginkeriari sorginkeriarik sorginkeriatan sorginkeriaz sorginkeriekin sorginkerien
-31	2431	txukundu	txukundua txukunduko txukunduta txukuntzea txukuntzeko txukuntzen txukuntzera
-32	2432	arraun	arrauna arraunak arraunari arraunean arraunei arraunek arraunera arraunetan arraunetara arraunez arraunik
-33	2433	haran	harana haranak haranaren haranaz haranean haraneko haranekoa haranera haranetan haranetara haranetatik haranetik
-34	2434	zuritu	zurituak zurituko zurituta zuritutako zuritzea zuritzeagatik zuritzeak zuritzeko zuritzen zuritzera
-35	2435	ebakuntza	ebakuntzak ebakuntzan ebakuntzarako ebakuntzarekin ebakuntzaren ebakuntzarik ebakuntzatik ebakuntzekin
-36	2436	orbain	orbaina orbainagatik orbainak orbainarekin orbainarengatik orbainek orbainen orbainik
-37	2437	zapi	zapia zapiagatik zapiak zapian zapien zapiren zapirik zapitik
-38	2438	ordainketa	ordainketak ordainketan ordainketarako ordainketarekin ordainketaren ordainketarik ordainketatzat ordainketaz ordainketei ordainketekin ordainketen ordainketetan
-39	2439	ipotx	ipotxa ipotxak ipotxarekin ipotxaren ipotxari ipotxean ipotxei ipotxen ipotxentzat ipotxez
-40	2440	menu	menua menuagatik menuak menuan menuarekin menuaren menuari menuaz menuen menuko menura menurik menutik
-41	2441	entrenamendu	entrenamendua entrenamenduak entrenamenduan entrenamenduaren entrenamenduari entrenamenduek entrenamenduekin entrenamenduetan entrenamenduetara entrenamenduko entrenamendura entrenamendurako entrenamendurik
-42	2442	denboraldi	denboraldia denboraldian denboraldiaren denboraldiari denboraldiaz denboraldietan denboraldiko denboraldira denboraldirik denboralditik
-43	2443	komisario	komisarioa komisarioak komisarioarekin komisarioari komisarioek komisariora komisarioren
-44	2444	sarbide	sarbidea sarbideak sarbidean sarbidearen sarbideetara sarbideko sarbidera sarbiderik sarbidetik
-45	2445	lerdo	lerdoa lerdoak lerdoegia lerdoek lerdoena lerdorekin lerdori
-46	2446	aholkulari	aholkularia aholkulariak aholkulariarekin aholkulariari aholkulariek aholkularien aholkularitzat
-47	2447	kokaleku	kokalekua kokalekuak kokalekuan kokalekuarekin kokalekuaren kokalekuei kokalekuen kokalekuetan kokalekuetara kokalekura kokalekutik kokalekuz
-48	2448	portu	portua portuan portuko portura porturako portutan portutik
-49	2449	ipurtzulo	ipurtzuloa ipurtzuloak ipurtzuloan ipurtzuloarekin ipurtzuloen ipurtzuloez ipurtzuloko ipurtzulora ipurtzulorik ipurtzulotik
-50	2450	desira	desirak desirarako desiraren desirarik desiraz desirek
-51	2451	kandela	kandelak kandelarekin kandelaren kandelari kandelarik kandelei kandelek kandelekin kandelen
-52	2452	margolari	margolaria margolariak margolariaren margolariek margolarirako margolaririk
-53	2453	konderri	konderria konderriak konderrian konderriari konderriek konderrietan konderriko konderrikoa konderrikoak konderrira konderritik
-54	2454	estatua	estatuarengatik estatuarentzat estatuarik estatuaz estatuei estatuek estatuen estatuetako estatuetan estatuetatik
-55	2455	metal	metala metalak metalarekin metalaren metalaz metalei metaleko metalen metaletan metaletara metalik
-56	2456	zoriontasun	zoriontasuna zoriontasunak zoriontasunaren zoriontasunarengatik zoriontasunari zoriontasunaz zoriontasunean zoriontasunera zoriontasunerako zoriontasunerantz zoriontasunez zoriontasunik
-57	2457	babarrun	babarrunak babarrunek babarrunekin babarrunen babarrunetan babarrunez babarrunik
-58	2458	kai	kaia kaian kaiaren kaietan kaietara kaietatik kaiko kaira kairi kaitik
-59	2459	dutxatu	dutxatuko dutxatuta dutxatzea dutxatzearen dutxatzeko dutxatzen dutxatzera
-60	2460	orban	orbana orbanak orbanaren orbanek orbanekin orbanen orbanetan orbanik
-61	2461	kaleratze	kaleratzea kaleratzeagatik kaleratzeak kaleratzearen kaleratzeari kaleratzeekin kaleratzeen kaleratzeetan kaleratzeko kaleratzera kaleratzetik
-62	2462	kaiku	kaikua kaikuak kaikuengatik kaikuez kaikuk kaikuok kaikutzat
-63	2463	kudeatu	kudea kudeatuko kudeatze kudeatzea kudeatzeagatik kudeatzeak kudeatzeari kudeatzeko kudeatzen
-64	2464	mozorro	mozorroa mozorroak mozorroan mozorroarekin mozorroaren mozorroaz mozorroekin mozorroetara mozorrorik
-65	2465	gihar	giharra giharrak giharrean giharrek giharrekin giharren giharretako giharretan giharretara giharretatik giharrez
-66	2466	areagotu	areago areagotuko areagotuz areagotzea areagotzeak areagotzearen areagotzeko areagotzen
-67	2467	errieta	errietan errietarik
-68	2468	bolada	boladak boladan boladekin boladen
-69	2469	sentsazio	sentsazioa sentsazioak sentsazioek sentsazioekin sentsaziorik
-70	2470	pobre	pobrea pobreak pobrearen pobreei pobreek pobreekin pobreen pobreentzat pobreetako pobreetan pobreetara
-71	2471	logika	logikak logikan logikarako logikarekin logikaren logikari logikarik logikaz
-72	2472	ahaltsu	ahaltsua ahaltsuago ahaltsuagoa ahaltsuagoak ahaltsuak ahaltsuan ahaltsuaren ahaltsuegi ahaltsuegia ahaltsuek ahaltsuen ahaltsuena ahaltsuenak ahaltsura
-73	2473	inbertsio	inbertsioa inbertsioak inbertsioan inbertsioaren inbertsioarengatik inbertsioaz inbertsioei inbertsioek inbertsioekin inbertsioen inbertsioengatik inbertsioez inbertsiorik
-74	2474	fantasia	fantasiak fantasiako fantasian fantasiari fantasiarik fantasiatik fantasiaz fantasiei fantasiek fantasiekin fantasietako fantasietan
-75	2475	erreskatatu	erreskata erreskatatua erreskatatuak erreskatatuko erreskatatutako erreskatatzea erreskatatzeagatik erreskatatzeko erreskatatzen erreskatatzera
-76	2476	nerbio	nerbioa nerbioak nerbioaren nerbioei nerbioek nerbioen nerbioengatik nerbioentzat nerbioetako nerbioetan nerbioetatik nerbioez nerbiorik nerbiotako
-77	2477	aurrekontu	aurrekontua aurrekontuak aurrekontuan aurrekontuarekin aurrekontuaren aurrekontuari aurrekontuei aurrekontuekin aurrekonturik aurrekontutik
-78	2478	delta	deltak deltako deltakoak deltan deltaraino deltei
-79	2479	poeta	poetak poetarentzat poetarik poetatzat poetek poetentzat
-80	2480	zergati	zergatia zergatiak zergatiaz zergatiei zergatien zergatirik
-81	2481	konexio	konexioa konexioak konexioarekin konexioaren konexioari konexioaz konexioetan konexiorik
-82	2482	aberastasun	aberastasuna aberastasunak aberastasunarekin aberastasunaren aberastasunaz aberastasunean aberastasunekin aberastasunen aberastasunerako aberastasunez
-83	2483	urdail	urdaila urdailak urdailaren urdailari urdailean urdaileko urdailera urdailerako urdailetik
-84	2484	euskaratzaile	euskaratzailea euskaratzaileak euskaratzailearen
-85	2485	hegazti	hegaztia hegaztiak hegaztiaren hegaztiarengatik hegaztiei hegaztiek hegaztiekin hegaztien hegaztiengana hegaztirik
-86	2486	erretratu	erretratua erretratuak erretratuan erretratuarekin erretratuaren erretratuari erretratuaz erretratuek erretratuen erretratuetan erretraturako erretraturik
-87	2487	hiztegi	hiztegia hiztegiak hiztegian hiztegiarekin hiztegiekin hiztegien hiztegietan hiztegiko hiztegirik hiztegitik
-88	2488	vodka	vodkak vodkarekin vodkaren vodkarengatik vodkarik vodkaz
-89	2489	tortura	torturak torturan torturaren torturarik torturatik torturen
-90	2490	adibide	adibidea adibideak adibidean adibideari adibideekin adibideetako adibiderekin adibiderik adibidetzat
-91	2491	txabola	txabolak txabolako txabolan txabolara txabolaren txabolatan txabolatik txabolen txaboletara
-92	2492	ibiltari	ibiltaria ibiltariak ibiltariarekin ibiltariaren ibiltariari ibiltariaz ibiltariek ibiltarien ibiltariengatik ibiltariko ibiltariok ibiltaririk
-93	2493	kausa	kausak kausan kausarako kausarekin kausaren kausarentzat kausari kausarik kausatan kausetako
-94	2494	ideal	ideala idealak idealaren idealei idealek idealekin idealen idealena idealengatik idealik
-95	2495	gordin	gordina gordinak gordinaren gordinean gordinegi gordinegiak gordinera gordinez gordinik
-96	2496	erdigune	erdigunea erdigunean erdigunearen erdiguneekin erdiguneko erdigunekoa erdigunera erdigunerantz erdigunerik erdigunetik erdigunetzat
-97	2497	orratz	orratza orratzagatik orratzak orratzarekin orratzaren orratzean orratzekin orratzen orratzik
-98	2498	barruti	barrutia barrutiak barrutian barrutiek barrutietako barrutietan barrutietara barrutiko barrutikoa barrutira barrutitako barrutitan barrutitik
-99	2499	egosi	egos egosia egosiak egosiaren egosiegiak egosiko egosirik egosita egositako egosiz egostea egosteko egosten
-100	2500	pasta	pastak pastakoa pastarekin pastaren pastari pastarik pastekin pasten
+1	2401	pasabide	pasabidea pasabideak pasabidean pasabidearen pasabideetan pasabideko pasabidera pasabiderako pasabiderik pasabidetik
+2	2402	fruta	frutak frutarik frutaz frutez
+3	2403	sinestesia	sinestesiak sinestesiaren sinestesiari sinestesiaz
+4	2404	hutsune	hutsunea hutsuneak hutsunean hutsuneez hutsuneren hutsunerik
+5	2405	atxiki	atxikia atxikiak atxikiko atxikita atxikitako atxikitzea atxikitzeko atxikitzen atxikiz
+6	2406	bela	belak belarekin belaren belarentzat belari belekin belen beletako
+7	2407	amarru	amarrua amarruak amarruan amarruaren amarruek amarruen amarruetan amarruren amarrurik amarrutik amarruz
+8	2408	jaurtiketa	jaurtiketak jaurtiketan jaurtiketara jaurtiketarako jaurtiketarekin jaurtiketaren jaurtiketarik jaurtiketen
+9	2409	adeitsu	adeitsua adeitsuagoa adeitsuagoak adeitsuak adeitsuan adeitsuarekin adeitsuaren adeitsuegia adeitsuegiak
+10	2410	inbaditu	inbaditua inbadituak inbadituko inbadituta inbadituz inbaditzea inbaditzeko inbaditzen inbaditzera
+11	2411	trebetasun	trebetasuna trebetasunak trebetasunaren trebetasunari trebetasunean trebetasunei trebetasunek trebetasunetako trebetasunez trebetasunik
+12	2412	motxila	motxilak motxilan motxilarekin motxilaren motxilarik motxilatik motxilez
+13	2413	errepublika	errepublikak errepublikako errepublikakoa errepublikan errepublikaren errepublikari errepublikarik errepublikatik
+14	2414	emaztegai	emaztegaia emaztegaiak emaztegaiarekin emaztegaiaren emaztegaiarengana emaztegaiari emaztegaien emaztegairik
+15	2415	funtsezko	funtsezkoa funtsezkoak funtsezkoena
+16	2416	gin	gina ginak ginarekin ginaren ginarentzat ginari ginei ginetik
+17	2417	asteazken	asteazkena asteazkenean asteazkeneko asteazkenekoa asteazkenera asteazkenerako asteazkenetan asteazkenetik asteazkenez
+18	2418	zintzotasun	zintzotasuna zintzotasunagatik zintzotasunak zintzotasunaren zintzotasunari zintzotasunaz zintzotasunean zintzotasuneko zintzotasunen zintzotasunez zintzotasunik
+19	2419	landa	landak landako landan landara landatik landetako landetan landetatik landok
+20	2420	kume	kumea kumeak kumeei kumeek kumeekin kumeen kumeetatik
+21	2421	kimiko	kimikoa kimikoagatik kimikoak kimikoaren kimikoaz kimikoek kimikoen kimikoetan kimikok kimikora kimikorako kimikorik
+22	2422	ase	asea aseko asetze asetzea asetzeko asetzen asetzerik
+23	2423	abere	aberea abereak aberearen abereei abereek abereekin abereen abereengana abereetan abererik aberetan
+24	2424	matematika	matematikak matematikako matematikakoa matematikan matematikarako matematikarekin matematikaren matematikatan matematikekin matematiketako matematiketan matematiketarako
+25	2425	xede	xedea xedeak xedearekin xedearen xedeari xedeez xedera xederantz xederekin xederik
+26	2426	sinadura	sinadurak sinaduran sinadurarekin sinaduraren sinadurarik sinadurei sinadurek sinaduren
+27	2427	erakusketa	erakusketak erakusketako erakusketakoa erakusketan erakusketara erakusketarako erakusketaren erakusketari erakusketatik erakusketaz erakusketen erakusketetan
+28	2428	alfonbra	alfonbrak alfonbran alfonbrara alfonbraren alfonbrari alfonbrarik alfonbratan alfonbratik alfonbraz alfonbrekin
+29	2429	sorginkeria	sorginkeriak sorginkerian sorginkeriarako sorginkeriarekin sorginkeriaren sorginkeriari sorginkeriarik sorginkeriatan sorginkeriaz sorginkeriekin sorginkerien
+30	2430	txukundu	txukundua txukunduko txukunduta txukuntzea txukuntzeko txukuntzen txukuntzera
+31	2431	arraun	arrauna arraunak arraunari arraunean arraunei arraunek arraunera arraunetan arraunetara arraunez arraunik
+32	2432	haran	harana haranak haranaren haranaz haranean haraneko haranekoa haranera haranetan haranetara haranetatik haranetik
+33	2433	zuritu	zurituak zurituko zurituta zuritutako zuritzea zuritzeagatik zuritzeak zuritzeko zuritzen zuritzera
+34	2434	ebakuntza	ebakuntzak ebakuntzan ebakuntzarako ebakuntzarekin ebakuntzaren ebakuntzarik ebakuntzatik ebakuntzekin
+35	2435	orbain	orbaina orbainagatik orbainak orbainarekin orbainarengatik orbainek orbainen orbainik
+36	2436	zapi	zapia zapiagatik zapiak zapian zapien zapiren zapirik zapitik
+37	2437	ordainketa	ordainketak ordainketan ordainketarako ordainketarekin ordainketaren ordainketarik ordainketatzat ordainketaz ordainketei ordainketekin ordainketen ordainketetan
+38	2438	ipotx	ipotxa ipotxak ipotxarekin ipotxaren ipotxari ipotxean ipotxei ipotxen ipotxentzat ipotxez
+39	2439	menu	menua menuagatik menuak menuan menuarekin menuaren menuari menuaz menuen menuko menura menurik menutik
+40	2440	entrenamendu	entrenamendua entrenamenduak entrenamenduan entrenamenduaren entrenamenduari entrenamenduek entrenamenduekin entrenamenduetan entrenamenduetara entrenamenduko entrenamendura entrenamendurako entrenamendurik
+41	2441	denboraldi	denboraldia denboraldian denboraldiaren denboraldiari denboraldiaz denboraldietan denboraldiko denboraldira denboraldirik denboralditik
+42	2442	komisario	komisarioa komisarioak komisarioarekin komisarioari komisarioek komisariora komisarioren
+43	2443	sarbide	sarbidea sarbideak sarbidean sarbidearen sarbideetara sarbideko sarbidera sarbiderik sarbidetik
+44	2444	lerdo	lerdoa lerdoak lerdoegia lerdoek lerdoena lerdorekin lerdori
+45	2445	aholkulari	aholkularia aholkulariak aholkulariarekin aholkulariari aholkulariek aholkularien aholkularitzat
+46	2446	kokaleku	kokalekua kokalekuak kokalekuan kokalekuarekin kokalekuaren kokalekuei kokalekuen kokalekuetan kokalekuetara kokalekura kokalekutik kokalekuz
+47	2447	portu	portua portuan portuko portura porturako portutan portutik
+48	2448	ipurtzulo	ipurtzuloa ipurtzuloak ipurtzuloan ipurtzuloarekin ipurtzuloen ipurtzuloez ipurtzuloko ipurtzulora ipurtzulorik ipurtzulotik
+49	2449	desira	desirak desirarako desiraren desirarik desiraz desirek
+50	2450	kandela	kandelak kandelarekin kandelaren kandelari kandelarik kandelei kandelek kandelekin kandelen
+51	2451	margolari	margolaria margolariak margolariaren margolariek margolarirako margolaririk
+52	2452	konderri	konderria konderriak konderrian konderriari konderriek konderrietan konderriko konderrikoa konderrikoak konderrira konderritik
+53	2453	estatua	estatuarengatik estatuarentzat estatuarik estatuaz estatuei estatuek estatuen estatuetako estatuetan estatuetatik
+54	2454	metal	metala metalak metalarekin metalaren metalaz metalei metaleko metalen metaletan metaletara metalik
+55	2455	zoriontasun	zoriontasuna zoriontasunak zoriontasunaren zoriontasunarengatik zoriontasunari zoriontasunaz zoriontasunean zoriontasunera zoriontasunerako zoriontasunerantz zoriontasunez zoriontasunik
+56	2456	babarrun	babarrunak babarrunek babarrunekin babarrunen babarrunetan babarrunez babarrunik
+57	2457	kai	kaia kaian kaiaren kaietan kaietara kaietatik kaiko kaira kairi kaitik
+58	2458	dutxatu	dutxatuko dutxatuta dutxatzea dutxatzearen dutxatzeko dutxatzen dutxatzera
+59	2459	orban	orbana orbanak orbanaren orbanek orbanekin orbanen orbanetan orbanik
+60	2460	kaleratze	kaleratzea kaleratzeagatik kaleratzeak kaleratzearen kaleratzeari kaleratzeekin kaleratzeen kaleratzeetan kaleratzeko kaleratzera kaleratzetik
+61	2461	kaiku	kaikua kaikuak kaikuengatik kaikuez kaikuk kaikuok kaikutzat
+62	2462	kudeatu	kudea kudeatuko kudeatze kudeatzea kudeatzeagatik kudeatzeak kudeatzeari kudeatzeko kudeatzen
+63	2463	mozorro	mozorroa mozorroak mozorroan mozorroarekin mozorroaren mozorroaz mozorroekin mozorroetara mozorrorik
+64	2464	gihar	giharra giharrak giharrean giharrek giharrekin giharren giharretako giharretan giharretara giharretatik giharrez
+65	2465	areagotu	areago areagotuko areagotuz areagotzea areagotzeak areagotzearen areagotzeko areagotzen
+66	2466	errieta	errietan errietarik
+67	2467	bolada	boladak boladan boladekin boladen
+68	2468	sentsazio	sentsazioa sentsazioak sentsazioek sentsazioekin sentsaziorik
+69	2469	pobre	pobrea pobreak pobrearen pobreei pobreek pobreekin pobreen pobreentzat pobreetako pobreetan pobreetara
+70	2470	logika	logikak logikan logikarako logikarekin logikaren logikari logikarik logikaz
+71	2471	ahaltsu	ahaltsua ahaltsuago ahaltsuagoa ahaltsuagoak ahaltsuak ahaltsuan ahaltsuaren ahaltsuegi ahaltsuegia ahaltsuek ahaltsuen ahaltsuena ahaltsuenak ahaltsura
+72	2472	inbertsio	inbertsioa inbertsioak inbertsioan inbertsioaren inbertsioarengatik inbertsioaz inbertsioei inbertsioek inbertsioekin inbertsioen inbertsioengatik inbertsioez inbertsiorik
+73	2473	fantasia	fantasiak fantasiako fantasian fantasiari fantasiarik fantasiatik fantasiaz fantasiei fantasiek fantasiekin fantasietako fantasietan
+74	2474	erreskatatu	erreskata erreskatatua erreskatatuak erreskatatuko erreskatatutako erreskatatzea erreskatatzeagatik erreskatatzeko erreskatatzen erreskatatzera
+75	2475	nerbio	nerbioa nerbioak nerbioaren nerbioei nerbioek nerbioen nerbioengatik nerbioentzat nerbioetako nerbioetan nerbioetatik nerbioez nerbiorik nerbiotako
+76	2476	aurrekontu	aurrekontua aurrekontuak aurrekontuan aurrekontuarekin aurrekontuaren aurrekontuari aurrekontuei aurrekontuekin aurrekonturik aurrekontutik
+77	2477	delta	deltak deltako deltakoak deltan deltaraino deltei
+78	2478	poeta	poetak poetarentzat poetarik poetatzat poetek poetentzat
+79	2479	zergati	zergatia zergatiak zergatiaz zergatiei zergatien zergatirik
+80	2480	konexio	konexioa konexioak konexioarekin konexioaren konexioari konexioaz konexioetan konexiorik
+81	2481	aberastasun	aberastasuna aberastasunak aberastasunarekin aberastasunaren aberastasunaz aberastasunean aberastasunekin aberastasunen aberastasunerako aberastasunez
+82	2482	urdail	urdaila urdailak urdailaren urdailari urdailean urdaileko urdailera urdailerako urdailetik
+83	2483	euskaratzaile	euskaratzailea euskaratzaileak euskaratzailearen
+84	2484	hegazti	hegaztia hegaztiak hegaztiaren hegaztiarengatik hegaztiei hegaztiek hegaztiekin hegaztien hegaztiengana hegaztirik
+85	2485	erretratu	erretratua erretratuak erretratuan erretratuarekin erretratuaren erretratuari erretratuaz erretratuek erretratuen erretratuetan erretraturako erretraturik
+86	2486	hiztegi	hiztegia hiztegiak hiztegian hiztegiarekin hiztegiekin hiztegien hiztegietan hiztegiko hiztegirik hiztegitik
+87	2487	vodka	vodkak vodkarekin vodkaren vodkarengatik vodkarik vodkaz
+88	2488	tortura	torturak torturan torturaren torturarik torturatik torturen
+89	2489	adibide	adibidea adibideak adibidean adibideari adibideekin adibideetako adibiderekin adibiderik adibidetzat
+90	2490	txabola	txabolak txabolako txabolan txabolara txabolaren txabolatan txabolatik txabolen txaboletara
+91	2491	ibiltari	ibiltaria ibiltariak ibiltariarekin ibiltariaren ibiltariari ibiltariaz ibiltariek ibiltarien ibiltariengatik ibiltariko ibiltariok ibiltaririk
+92	2492	kausa	kausak kausan kausarako kausarekin kausaren kausarentzat kausari kausarik kausatan kausetako
+93	2493	ideal	ideala idealak idealaren idealei idealek idealekin idealen idealena idealengatik idealik
+94	2494	gordin	gordina gordinak gordinaren gordinean gordinegi gordinegiak gordinera gordinez gordinik
+95	2495	erdigune	erdigunea erdigunean erdigunearen erdiguneekin erdiguneko erdigunekoa erdigunera erdigunerantz erdigunerik erdigunetik erdigunetzat
+96	2496	orratz	orratza orratzagatik orratzak orratzarekin orratzaren orratzean orratzekin orratzen orratzik
+97	2497	barruti	barrutia barrutiak barrutian barrutiek barrutietako barrutietan barrutietara barrutiko barrutikoa barrutira barrutitako barrutitan barrutitik
+98	2498	egosi	egos egosia egosiak egosiaren egosiegiak egosiko egosirik egosita egositako egosiz egostea egosteko egosten
+99	2499	pasta	pastak pastakoa pastarekin pastaren pastari pastarik pastekin pasten
+100	2500	xarma	xarmak xarmarekin xarmaren xarmari xarmarik xarmaz xarmei

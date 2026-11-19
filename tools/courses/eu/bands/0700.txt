@@ -1,100 +1,100 @@
-1	601	metro	metroa metroak metroan metroaren metroaz metroei metroetan metroko metrokoa metrokoak metrora metroraino metrorantz metroren metrotako metrotan metrotara metrotatik metrotik metroz
-2	602	zalantza	zalantzak zalantzan zalantzarako zalantzarekin zalantzaren zalantzarik zalantzatan zalantzaz zalantzei zalantzek zalantzekin zalantzen zalantzengatik zalantzetan zalantzez
-3	603	ezinezko	ezinezkoa ezinezkoak ezinezkoei ezinezkoen ezinezkorik ezinezkotzat
-4	604	unibertsitate	unibertsitatea unibertsitateak unibertsitatean unibertsitatearen unibertsitatearentzat unibertsitateari unibertsitateetako unibertsitateetan unibertsitateetara unibertsitatek unibertsitateko unibertsitatekoa unibertsitatera unibertsitaterako unibertsitaterik unibertsitatetan unibertsitatetik
-5	605	eguzki	eguzkia eguzkiagatik eguzkiak eguzkian eguzkiarekin eguzkiaren eguzkiarengatik eguzkiari eguzkiaz eguzkiko eguzkira eguzkiraino eguzkirako eguzkirantz eguzkiren eguzkirik eguzkitako eguzkitan eguzkitara eguzkitarako eguzkitik
-6	606	tren	trena trenak trenarekin trenaren trenarentzat trenari trenean trenei trenek treneko trenekoa trenekoak trenen trenera treneraino trenerako trenetan trenetara trenetik trenik
-7	607	atseden	atsedena atsedenak atsedenaren atsedenaz atsedenean atsedeneko atsedenerako atsedenik
-8	608	paper	papera paperak paperarekin paperaren paperaz paperean paperei paperek paperekin papereko paperen papererako paperetan paperetarako paperez paperik paperok paperotan paperra paperrean
-9	609	maitemindu	maitemindua maiteminduak maiteminduko maitemindurik maiteminduta maitemindutako maitemintzea maitemintzean maitemintzearen maitemintzeko maitemintzen maitemintzera maitemintzerik
-10	610	kantatu	kanta kantaidazu kantaiguzu kantaiozu kantatua kantatuko kantatuta kantatutako kantatuz kantatzea kantatzeagatik kantatzeak kantatzean kantatzearen kantatzeari kantatzeko kantatzen kantatzera kantatzerik
-11	611	behartu	behartua behartuak behartuko beharturik behartuta behartutako behartuz behartzea behartzeagatik behartzeari behartzeko behartzen behartzera
-12	612	jator	jatorra jatorragoa jatorragoak jatorrak jatorraren jatorrari jatorraz jatorrek jatorren jatorrena jatorrenak
-13	613	gobernu	gobernua gobernuak gobernuan gobernuarekin gobernuaren gobernuarentzat gobernuari gobernuaz gobernuei gobernuek gobernuekin gobernuen gobernuk gobernuko gobernukoa gobernukoak gobernura gobernurako gobernurik gobernutan gobernutik
-14	614	zentzu	zentzua zentzuagatik zentzuak zentzuarekin zentzuaren zentzuari zentzuaz zentzuko zentzukoa zentzura zentzuren zentzurik zentzutan zentzuz
-15	615	kartzela	kartzelak kartzelako kartzelan kartzelara kartzelarako kartzelaren kartzelarengatik kartzelarik kartzelatan kartzelatik kartzelaz kartzelen kartzeletan
-16	616	kide	kidea kideagatik kideak kidearekin kidearen kideari kideaz kideei kideek kideekin kideen kideentzat kideetako kideez kideko kidekoak kideok kideren kiderik kidetzat kidez
-17	617	hementxe	
-18	618	harro	harroa harroago harroagoa harroak harroaren harroari harroegia harroegiak harroena harroenak harrok
-19	619	eskertu	eskertua eskertuko eskertuta eskertzea eskertzeagatik eskertzeak eskertzeko eskertzen eskertzera eskertzerik
-20	620	indartsu	indartsua indartsuago indartsuagoa indartsuagoak indartsuak indartsuaren indartsuegi indartsuegia indartsuegiak indartsuek indartsuekin indartsuen indartsuena indartsuenak indartsuetako indartsuko indartsutik indartsuz
-21	621	hizkuntza	hizkuntzak hizkuntzako hizkuntzan hizkuntzara hizkuntzarako hizkuntzaren hizkuntzarik hizkuntzatan hizkuntzatara hizkuntzaz hizkuntzengatik hizkuntzetan
-22	622	ahizpa	ahizpak ahizparekin ahizparen ahizparengan ahizparengana ahizparengandik ahizparentzat ahizpari ahizparik ahizpatzat ahizpaz ahizpei ahizpek ahizpekin ahizpen ahizpentzat
-23	623	arreba	arrebak arrebarekin arrebaren arrebarengan arrebarengana arrebarenganako arrebarengandik arrebarengatik arrebarentzat arrebari arrebarik arrebatzat arrebaz arrebei arrebek arrebekin arreben arrebetako
-24	624	bueno	
-25	625	makina	makinak makinako makinan makinara makinaraino makinarako makinarekin makinaren makinari makinarik makinatako makinatan makinatik makinaz makinei makinek makinekin makinen makinetako makinetan makinetara makinez
-26	626	komun	komuna komunak komunara komunarekin komunaren komunari komunean komunek komuneko komunekoa komunekoak komunen komunera komunerako komunetako komunetan komunetara komunetatik komunetik komunik
-27	627	zorionak	
-28	628	hondatu	honda hondatua hondatuak hondatuko hondaturik hondatuta hondatutako hondatutakoa hondatuz hondatzea hondatzeagatik hondatzean hondatzeko hondatzen hondatzera hondatzerik ondatu
-29	629	animalia	animaliak animaliaren animaliari animaliarik animaliatzat animaliaz animaliei animaliek animaliekin animalien animaliengan animaliengana animaliengatik animalientzat animalietako animalietan animalietatik animaliez
-30	630	denda	dendak dendako dendakoa dendan dendara dendarekin dendaren dendarengatik dendarik dendatan dendatara dendatik dendaz dendei dendek denden dendetako dendetan dendetara
-31	631	afaldu	afal afalduko afalduta afaltzea afaltzeko afaltzen afaltzera afaltzerik
-32	632	iraun	dirau diraute iraunen iraungo irautea irauteagatik irauteak irautean irautearekin irautearen irauteko irauten irauterik zirauen
-33	633	ikasle	ikaslea ikasleak ikaslearen ikasleari ikasleaz ikasleei ikasleek ikasleekin ikasleen ikasleengan ikasleengatik ikasleentzat ikasleetako ikaslek ikasleko ikasleok ikasleokin ikaslerekin ikasleren ikasleri ikaslerik ikasletik
-34	634	leiho	leihoa leihoak leihoan leihoarekin leihoaren leihoari leihoei leihoek leihoekin leihoen leihoetako leihoetan leihoetara leihoetarako leihoetatik leihoez leihoko leihokoa leihora leihoraino leihorantz leihoren leihorik leihotatik leihotik
-35	635	herrialde	herrialdea herrialdeagatik herrialdeak herrialdean herrialdearekin herrialdearen herrialdearengatik herrialdearentzat herrialdeari herrialdeaz herrialdeei herrialdeek herrialdeen herrialdeetan herrialdeetara herrialdeko herrialdekoa herrialdeok herrialdera herrialderako herrialderi herrialderik herrialdetako herrialdetan herrialdetara herrialdetatik herrialdetik
-36	636	zuzendari	zuzendaria zuzendariak zuzendariarekin zuzendariaren zuzendariarengana zuzendariarentzat zuzendariari zuzendariei zuzendariek zuzendariekin zuzendarien zuzendarientzat zuzendariez zuzendariok zuzendaririk zuzendaritzat
-37	637	behintzat	
-38	638	bezero	bezeroa bezeroagatik bezeroak bezeroarekin bezeroaren bezeroari bezeroaz bezeroei bezeroek bezeroekin bezeroen bezeroengatik bezeroentzat bezeroetako bezeroez bezerok bezeroren bezerori bezerorik bezerotzat bezeroz
-39	639	harritu	harritua harrituak harrituko harriturik harrituta harritzea harritzeko harritzen
-40	640	bueltatu	bueltatuko bueltaturik bueltatuz bueltatzea bueltatzeagatik bueltatzeak bueltatzean bueltatzeari bueltatzeko bueltatzen bueltatzera
-41	641	edozer	
-42	642	sinatu	sina sinatua sinatuak sinatuko sinatuta sinatutako sinatuz sinatzea sinatzeagatik sinatzeak sinatzean sinatzeari sinatzeaz sinatzeko sinatzen sinatzera sinatzerik
-43	643	ospitale	ospitalea ospitaleak ospitalean ospitalearen ospitaleari ospitaleek ospitaleetan ospitaleko ospitalekoa ospitalera ospitaleren ospitalerik ospitaletan ospitaletara ospitaletarako ospitaletik ospitalez
-44	644	dagoeneko	
-45	645	jabe	jabea jabeak jabearekin jabearen jabearengatik jabearentzat jabeari jabeei jabeek jabeekin jabeen jabeentzat jabeetako jaberik jabez
-46	646	zuhaitz	zuhaitza zuhaitzak zuhaitzarekin zuhaitzaren zuhaitzari zuhaitzaz zuhaitzean zuhaitzei zuhaitzek zuhaitzeko zuhaitzen zuhaitzentzat zuhaitzera zuhaitzerantz zuhaitzetako zuhaitzetan zuhaitzetara zuhaitzetaraino zuhaitzetatik zuhaitzetik zuhaitzez zuhaitzik zuhaitzok
-47	647	bilera	bilerak bilerako bileran bilerara bilerarako bilerarekin bileraren bilerarengatik bilerari bilerarik bileratan bileratik bilerengatik bileretako bileretan bileretara bileretatik bilerez
-48	648	informazio	informazioa informazioagatik informazioak informazioan informazioarekin informazioaren informazioari informazioen informazioetan informaziora informaziorako informaziorekin informazioren informaziorik informazioz
-49	649	kolore	kolorea koloreagatik koloreak kolorean kolorearekin kolorearen kolorearengatik koloreaz koloreei koloreek koloreekin koloreen koloreetan koloreez koloreko kolorekoa kolorekoak kolorerekin koloreren kolorerik koloretako koloretan koloretik kolorez
-50	650	baldin	
-51	651	gorpu	gorpua gorpuagatik gorpuak gorpuan gorpuarekin gorpuaren gorpuari gorpuaz gorpuek gorpuekin gorpuen gorpuetan gorpuetara gorpuetatik gorpuez gorpura gorpuren gorpurik gorputik gorpuz
-52	652	ikaragarri	ikaragarria ikaragarriagatik ikaragarriagoa ikaragarriak ikaragarrian ikaragarriarekin ikaragarriaz ikaragarriegia ikaragarriei ikaragarriek ikaragarriekin ikaragarriena ikaragarriraino ikaragarririk ikaragarriz
-53	653	pistola	pistolak pistolako pistolan pistolara pistolarekin pistolaren pistolari pistolarik pistolatik pistolaz pistolek pistolekin pistolen pistoletako pistoletan
-54	654	isilik	
-55	655	batere	
-56	656	etsai	etsaia etsaiak etsaian etsaiarekin etsaiaren etsaiarengana etsaiarengandik etsaiarentzat etsaiari etsaiaz etsaiei etsaiek etsaiekin etsaien etsaiengandik etsaientzat etsaietako etsaiez etsaiok etsairik etsaitzat
-57	657	samar	samarra
-58	658	jolastu	jolastea jolastean jolasteari jolasteaz jolasteko jolasten jolastera jolasterik jolastua jolastuko jolasturik jolastuta jolastuz
-59	659	zulo	zuloa zuloak zuloan zuloarekin zuloaren zuloari zuloei zuloen zuloengatik zuloetako zuloetan zuloetatik zuloko zulokoa zulora zulorantz zulorekin zulorik zulotan zulotik zuloz
-60	660	elkarrizketa	elkarrizketak elkarrizketako elkarrizketan elkarrizketara elkarrizketarako elkarrizketarekin elkarrizketaren elkarrizketari elkarrizketarik elkarrizketatik elkarrizketaz elkarrizketekin elkarrizketen elkarrizketetan elkarrizketetara
-61	661	politika	politikak politikako politikan politikara politikarako politikarekin politikaren politikaz politikekin politikez
-62	662	irakatsi	irakaste irakastea irakasteagatik irakasteak irakastearen irakasteaz irakasteko irakasten irakastera irakats irakatsidazu irakatsien irakatsiko irakatsiozu irakatsitako irakatsitakoa irakatsiz
-63	663	probatu	probatua probatuko probatuta probatutako probatzea probatzeagatik probatzeak probatzean probatzeko probatzen probatzera
-64	664	haserretu	hasarratu haserretua haserretuak haserretuko haserreturik haserretuta haserretutako haserretuz haserretzea haserretzeagatik haserretzean haserretzearen haserretzeko haserretzen haserretzera
-65	665	barregarri	barregarria barregarriagoa barregarriak barregarriekin barregarriena barregarririk barregarritzat
-66	666	urdin	urdina urdinagoa urdinagoak urdinak urdinarekin urdinaren urdinarentzat urdinari urdinaz urdinean urdinei urdinek urdinekin urdineko urdinekoa urdinekoak urdinen urdinenak urdinera urdineraino urdinetan urdinetik urdinez urdinik urdinok urdinokin
-67	667	funtzionatu	funtziona funtzionatuko funtzionatzea funtzionatzean funtzionatzeari funtzionatzeko funtzionatzen funtzionatzerik
-68	668	segurtasun	segurtasuna segurtasunagatik segurtasunak segurtasunarekin segurtasunaren segurtasunarengatik segurtasunari segurtasunaz segurtasunean segurtasuneko segurtasunekoa segurtasunekoak segurtasunera segurtasunerako segurtasunetik segurtasunez segurtasunik
-69	669	erregina	erreginak erreginarekin erreginaren erreginarengana erreginarengandik erreginarengatik erreginarentzat erreginari erreginarik erreginatik erreginatzat erreginaz erreginek erreginen erreginetako
-70	670	ezkontza	ezkontzak ezkontzako ezkontzakoak ezkontzan ezkontzara ezkontzarako ezkontzarekin ezkontzaren ezkontzari ezkontzarik ezkontzatik ezkontzaz ezkontzen ezkontzetako ezkontzetan ezkontzetara ezkontzetarako
-71	671	argitu	argituko argituta argitutako argitze argitzea argitzeagatik argitzeak argitzean argitzeko argitzen argitzera
-72	672	froga	frogak frogako frogan frogara frogarekin frogaren frogarik frogatan frogatik frogatzat frogei frogek frogekin frogen frogengatik frogetako
-73	673	hizketa	hizketak hizketan hizketara hizketarako hizketarekin hizketaren hizketari hizketarik hizketaz hizketek
-74	674	deabru	deabrua deabruak deabruarekin deabruaren deabruarengan deabruarengana deabruarengandik deabruarentzat deabruari deabruaz deabruei deabruek deabruekin deabruen deabruez deabruk deabruko deabruren deabrurik deabrutik deabrutzat deabruz
-75	675	epaile	epailea epaileak epailearekin epailearen epailearengana epailearengatik epaileari epaileei epaileek epaileekin epaileen epaileengana epaileetako epailek epaileok epaileren epailerengana epailerik epailetzat
-76	676	hortxe	
-77	677	txartel	txartela txartelak txartelarekin txartelaren txartelaz txartelean txartelei txartelek txartelekin txartelen txartelerako txarteletan txarteletatik txartelik
-78	678	moldatu	molda moldatua moldatuko moldaturik moldatuta moldatutako moldatze moldatzea moldatzearen moldatzeko moldatzen
-79	679	ederto	
-80	680	gutxienez	
-81	681	arima	arimak arimako arimakoa ariman arimaraino arimarako arimarekin arimaren arimarengatik arimarentzat arimari arimarik arimatik arimaz arimei arimek arimekin arimen arimengatik arimetan arimez
-82	682	akats	akatsa akatsak akatsaren akatsaz akatsean akatsei akatsek akatsekin akatsen akatsengatik akatserako akatsetako akatsetan akatsetatik akatsez akatsik
-83	683	eliza	elizak elizako elizakoa elizakoak elizan elizara elizarako elizarantz elizarekin elizaren elizarentzat elizari elizarik elizatik elizaz elizen elizetako elizetan elizetatik
-84	684	istripu	istripua istripuagatik istripuak istripuan istripuarekin istripuaren istripuari istripuaz istripuek istripuen istripuengatik istripuez istripuko istripukoa istripuren istripurik istriputik istripuz
-85	685	pila	pilak pilan pilarekin pilarik pilatik pilek pilekin pilo pilotan pilotatik
-86	686	sexu	sexua sexuagatik sexuak sexuan sexuarekin sexuaren sexuarengatik sexuari sexuaz sexuei sexuen sexuetako sexuko sexukoa sexukoak sexurako sexuren sexurik sexutan sexutik sexuz
-87	687	eurak	eurei eurek euren
-88	688	hi	higan higandik higatik hik hiregatik hirekin hiretako hiretzat hitaz
-89	689	musu	musua musuak musuaren musuari musuaz musuek musuekin musuengatik musuetan musurik musuz
-90	690	ilun	iluna ilunago ilunagoa ilunak ilunarekin ilunaren ilunari ilunaz ilunean ilunegi ilunegia ilunegiak ilunei ilunek ilunekin iluneko ilunekoa ilunekoak ilunen ilunena ilunenak ilunera ilunerako ilunetan ilunetara ilunetatik ilunetik ilunez ilunik
-91	691	eskuin	eskuina eskuinak eskuinarekin eskuinarentzat eskuinari eskuinaz eskuinean eskuineko eskuinekoa eskuinekoak eskuinera eskuinerantz eskuinetara eskuinetik eskuma
-92	692	konforme	
-93	693	eusko	
-94	694	haize	haizea haizeagatik haizeak haizean haizearekin haizearen haizearengatik haizeari haizeaz haizeei haizeek haizeen haizeetan haizeetara haizekoak haizerako haizeri haizerik haizetan haizetara haizetik
-95	695	zakil	zakila zakilak zakilarekin zakilaren zakilari zakilaz zakilean zakilei zakilek zakilekin zakileko zakilen zakilena zakilengatik zakilera zakiletik zakilez zakilik zakilok zakiltzat
-96	696	zazpi	zazpia zazpiak zazpian zazpiek zazpien zazpiengan zazpietan zazpietatik zazpik zazpikoa zazpitik
-97	697	jaurlaritza	jaurlaritzak jaurlaritzako jaurlaritzaren
-98	698	aitona	aitonak aitonarekin aitonaren aitonarengana aitonarengandik aitonarentzat aitonari aitonatik aitonek aitonen
-99	699	enpresa	enpresak enpresako enpresakoa enpresakoak enpresan enpresara enpresarako enpresarekin enpresaren enpresarentzat enpresarik enpresatan enpresatik enpresaz enpresei enpresek enpresen enpresentzat enpresetako enpresetan
-100	700	arabera	
+1	601	arau	araua arauak arauan arauaren arauei arauek arauekin arauen arauetako arauetan arauetatik arauez arauok araura arauren araurik arauz
+2	602	metro	metroa metroak metroan metroaren metroaz metroei metroetan metroko metrokoa metrokoak metrora metroraino metrorantz metroren metrotako metrotan metrotara metrotatik metrotik metroz
+3	603	zalantza	zalantzak zalantzan zalantzarako zalantzarekin zalantzaren zalantzarik zalantzatan zalantzaz zalantzei zalantzek zalantzekin zalantzen zalantzengatik zalantzetan zalantzez
+4	604	ezinezko	ezinezkoa ezinezkoak ezinezkoei ezinezkoen ezinezkorik ezinezkotzat
+5	605	unibertsitate	unibertsitatea unibertsitateak unibertsitatean unibertsitatearen unibertsitatearentzat unibertsitateari unibertsitateetako unibertsitateetan unibertsitateetara unibertsitatek unibertsitateko unibertsitatekoa unibertsitatera unibertsitaterako unibertsitaterik unibertsitatetan unibertsitatetik
+6	606	eguzki	eguzkia eguzkiagatik eguzkiak eguzkian eguzkiarekin eguzkiaren eguzkiarengatik eguzkiari eguzkiaz eguzkiko eguzkira eguzkiraino eguzkirako eguzkirantz eguzkiren eguzkirik eguzkitako eguzkitan eguzkitara eguzkitarako eguzkitik
+7	607	tren	trena trenak trenarekin trenaren trenarentzat trenari trenean trenei trenek treneko trenekoa trenekoak trenen trenera treneraino trenerako trenetan trenetara trenetik trenik
+8	608	atseden	atsedena atsedenak atsedenaren atsedenaz atsedenean atsedeneko atsedenerako atsedenik
+9	609	paper	papera paperak paperarekin paperaren paperaz paperean paperei paperek paperekin papereko paperen papererako paperetan paperetarako paperez paperik paperok paperotan paperra paperrean
+10	610	maitemindu	maitemindua maiteminduak maiteminduko maitemindurik maiteminduta maitemindutako maitemintzea maitemintzean maitemintzearen maitemintzeko maitemintzen maitemintzera maitemintzerik
+11	611	kantatu	kanta kantaidazu kantaiguzu kantaiozu kantatua kantatuko kantatuta kantatutako kantatuz kantatzea kantatzeagatik kantatzeak kantatzean kantatzearen kantatzeari kantatzeko kantatzen kantatzera kantatzerik
+12	612	behartu	behartua behartuak behartuko beharturik behartuta behartutako behartuz behartzea behartzeagatik behartzeari behartzeko behartzen behartzera
+13	613	jator	jatorra jatorragoa jatorragoak jatorrak jatorraren jatorrari jatorraz jatorrek jatorren jatorrena jatorrenak
+14	614	gobernu	gobernua gobernuak gobernuan gobernuarekin gobernuaren gobernuarentzat gobernuari gobernuaz gobernuei gobernuek gobernuekin gobernuen gobernuk gobernuko gobernukoa gobernukoak gobernura gobernurako gobernurik gobernutan gobernutik
+15	615	zentzu	zentzua zentzuagatik zentzuak zentzuarekin zentzuaren zentzuari zentzuaz zentzuko zentzukoa zentzura zentzuren zentzurik zentzutan zentzuz
+16	616	kartzela	kartzelak kartzelako kartzelan kartzelara kartzelarako kartzelaren kartzelarengatik kartzelarik kartzelatan kartzelatik kartzelaz kartzelen kartzeletan
+17	617	kide	kidea kideagatik kideak kidearekin kidearen kideari kideaz kideei kideek kideekin kideen kideentzat kideetako kideez kideko kidekoak kideok kideren kiderik kidetzat kidez
+18	618	hementxe	
+19	619	harro	harroa harroago harroagoa harroak harroaren harroari harroegia harroegiak harroena harroenak harrok
+20	620	eskertu	eskertua eskertuko eskertuta eskertzea eskertzeagatik eskertzeak eskertzeko eskertzen eskertzera eskertzerik
+21	621	indartsu	indartsua indartsuago indartsuagoa indartsuagoak indartsuak indartsuaren indartsuegi indartsuegia indartsuegiak indartsuek indartsuekin indartsuen indartsuena indartsuenak indartsuetako indartsuko indartsutik indartsuz
+22	622	hizkuntza	hizkuntzak hizkuntzako hizkuntzan hizkuntzara hizkuntzarako hizkuntzaren hizkuntzarik hizkuntzatan hizkuntzatara hizkuntzaz hizkuntzengatik hizkuntzetan
+23	623	ahizpa	ahizpak ahizparekin ahizparen ahizparengan ahizparengana ahizparengandik ahizparentzat ahizpari ahizparik ahizpatzat ahizpaz ahizpei ahizpek ahizpekin ahizpen ahizpentzat
+24	624	arreba	arrebak arrebarekin arrebaren arrebarengan arrebarengana arrebarenganako arrebarengandik arrebarengatik arrebarentzat arrebari arrebarik arrebatzat arrebaz arrebei arrebek arrebekin arreben arrebetako
+25	625	bueno	
+26	626	makina	makinak makinako makinan makinara makinaraino makinarako makinarekin makinaren makinari makinarik makinatako makinatan makinatik makinaz makinei makinek makinekin makinen makinetako makinetan makinetara makinez
+27	627	komun	komuna komunak komunara komunarekin komunaren komunari komunean komunek komuneko komunekoa komunekoak komunen komunera komunerako komunetako komunetan komunetara komunetatik komunetik komunik
+28	628	zorionak	
+29	629	hondatu	honda hondatua hondatuak hondatuko hondaturik hondatuta hondatutako hondatutakoa hondatuz hondatzea hondatzeagatik hondatzean hondatzeko hondatzen hondatzera hondatzerik ondatu
+30	630	animalia	animaliak animaliaren animaliari animaliarik animaliatzat animaliaz animaliei animaliek animaliekin animalien animaliengan animaliengana animaliengatik animalientzat animalietako animalietan animalietatik animaliez
+31	631	denda	dendak dendako dendakoa dendan dendara dendarekin dendaren dendarengatik dendarik dendatan dendatara dendatik dendaz dendei dendek denden dendetako dendetan dendetara
+32	632	afaldu	afal afalduko afalduta afaltzea afaltzeko afaltzen afaltzera afaltzerik
+33	633	iraun	dirau diraute iraunen iraungo irautea irauteagatik irauteak irautean irautearekin irautearen irauteko irauten irauterik zirauen
+34	634	ikasle	ikaslea ikasleak ikaslearen ikasleari ikasleaz ikasleei ikasleek ikasleekin ikasleen ikasleengan ikasleengatik ikasleentzat ikasleetako ikaslek ikasleko ikasleok ikasleokin ikaslerekin ikasleren ikasleri ikaslerik ikasletik
+35	635	leiho	leihoa leihoak leihoan leihoarekin leihoaren leihoari leihoei leihoek leihoekin leihoen leihoetako leihoetan leihoetara leihoetarako leihoetatik leihoez leihoko leihokoa leihora leihoraino leihorantz leihoren leihorik leihotatik leihotik
+36	636	herrialde	herrialdea herrialdeagatik herrialdeak herrialdean herrialdearekin herrialdearen herrialdearengatik herrialdearentzat herrialdeari herrialdeaz herrialdeei herrialdeek herrialdeen herrialdeetan herrialdeetara herrialdeko herrialdekoa herrialdeok herrialdera herrialderako herrialderi herrialderik herrialdetako herrialdetan herrialdetara herrialdetatik herrialdetik
+37	637	zuzendari	zuzendaria zuzendariak zuzendariarekin zuzendariaren zuzendariarengana zuzendariarentzat zuzendariari zuzendariei zuzendariek zuzendariekin zuzendarien zuzendarientzat zuzendariez zuzendariok zuzendaririk zuzendaritzat
+38	638	behintzat	
+39	639	bezero	bezeroa bezeroagatik bezeroak bezeroarekin bezeroaren bezeroari bezeroaz bezeroei bezeroek bezeroekin bezeroen bezeroengatik bezeroentzat bezeroetako bezeroez bezerok bezeroren bezerori bezerorik bezerotzat bezeroz
+40	640	harritu	harritua harrituak harrituko harriturik harrituta harritzea harritzeko harritzen
+41	641	bueltatu	bueltatuko bueltaturik bueltatuz bueltatzea bueltatzeagatik bueltatzeak bueltatzean bueltatzeari bueltatzeko bueltatzen bueltatzera
+42	642	edozer	
+43	643	sinatu	sina sinatua sinatuak sinatuko sinatuta sinatutako sinatuz sinatzea sinatzeagatik sinatzeak sinatzean sinatzeari sinatzeaz sinatzeko sinatzen sinatzera sinatzerik
+44	644	ospitale	ospitalea ospitaleak ospitalean ospitalearen ospitaleari ospitaleek ospitaleetan ospitaleko ospitalekoa ospitalera ospitaleren ospitalerik ospitaletan ospitaletara ospitaletarako ospitaletik ospitalez
+45	645	dagoeneko	
+46	646	jabe	jabea jabeak jabearekin jabearen jabearengatik jabearentzat jabeari jabeei jabeek jabeekin jabeen jabeentzat jabeetako jaberik jabez
+47	647	zuhaitz	zuhaitza zuhaitzak zuhaitzarekin zuhaitzaren zuhaitzari zuhaitzaz zuhaitzean zuhaitzei zuhaitzek zuhaitzeko zuhaitzen zuhaitzentzat zuhaitzera zuhaitzerantz zuhaitzetako zuhaitzetan zuhaitzetara zuhaitzetaraino zuhaitzetatik zuhaitzetik zuhaitzez zuhaitzik zuhaitzok
+48	648	bilera	bilerak bilerako bileran bilerara bilerarako bilerarekin bileraren bilerarengatik bilerari bilerarik bileratan bileratik bilerengatik bileretako bileretan bileretara bileretatik bilerez
+49	649	informazio	informazioa informazioagatik informazioak informazioan informazioarekin informazioaren informazioari informazioen informazioetan informaziora informaziorako informaziorekin informazioren informaziorik informazioz
+50	650	kolore	kolorea koloreagatik koloreak kolorean kolorearekin kolorearen kolorearengatik koloreaz koloreei koloreek koloreekin koloreen koloreetan koloreez koloreko kolorekoa kolorekoak kolorerekin koloreren kolorerik koloretako koloretan koloretik kolorez
+51	651	baldin	
+52	652	gorpu	gorpua gorpuagatik gorpuak gorpuan gorpuarekin gorpuaren gorpuari gorpuaz gorpuek gorpuekin gorpuen gorpuetan gorpuetara gorpuetatik gorpuez gorpura gorpuren gorpurik gorputik gorpuz
+53	653	ikaragarri	ikaragarria ikaragarriagatik ikaragarriagoa ikaragarriak ikaragarrian ikaragarriarekin ikaragarriaz ikaragarriegia ikaragarriei ikaragarriek ikaragarriekin ikaragarriena ikaragarriraino ikaragarririk ikaragarriz
+54	654	pistola	pistolak pistolako pistolan pistolara pistolarekin pistolaren pistolari pistolarik pistolatik pistolaz pistolek pistolekin pistolen pistoletako pistoletan
+55	655	isilik	
+56	656	batere	
+57	657	etsai	etsaia etsaiak etsaian etsaiarekin etsaiaren etsaiarengana etsaiarengandik etsaiarentzat etsaiari etsaiaz etsaiei etsaiek etsaiekin etsaien etsaiengandik etsaientzat etsaietako etsaiez etsaiok etsairik etsaitzat
+58	658	samar	samarra
+59	659	jolastu	jolastea jolastean jolasteari jolasteaz jolasteko jolasten jolastera jolasterik jolastua jolastuko jolasturik jolastuta jolastuz
+60	660	zulo	zuloa zuloak zuloan zuloarekin zuloaren zuloari zuloei zuloen zuloengatik zuloetako zuloetan zuloetatik zuloko zulokoa zulora zulorantz zulorekin zulorik zulotan zulotik zuloz
+61	661	elkarrizketa	elkarrizketak elkarrizketako elkarrizketan elkarrizketara elkarrizketarako elkarrizketarekin elkarrizketaren elkarrizketari elkarrizketarik elkarrizketatik elkarrizketaz elkarrizketekin elkarrizketen elkarrizketetan elkarrizketetara
+62	662	politika	politikak politikako politikan politikara politikarako politikarekin politikaren politikaz politikekin politikez
+63	663	irakatsi	irakaste irakastea irakasteagatik irakasteak irakastearen irakasteaz irakasteko irakasten irakastera irakats irakatsidazu irakatsien irakatsiko irakatsiozu irakatsitako irakatsitakoa irakatsiz
+64	664	probatu	probatua probatuko probatuta probatutako probatzea probatzeagatik probatzeak probatzean probatzeko probatzen probatzera
+65	665	haserretu	hasarratu haserretua haserretuak haserretuko haserreturik haserretuta haserretutako haserretuz haserretzea haserretzeagatik haserretzean haserretzearen haserretzeko haserretzen haserretzera
+66	666	barregarri	barregarria barregarriagoa barregarriak barregarriekin barregarriena barregarririk barregarritzat
+67	667	urdin	urdina urdinagoa urdinagoak urdinak urdinarekin urdinaren urdinarentzat urdinari urdinaz urdinean urdinei urdinek urdinekin urdineko urdinekoa urdinekoak urdinen urdinenak urdinera urdineraino urdinetan urdinetik urdinez urdinik urdinok urdinokin
+68	668	funtzionatu	funtziona funtzionatuko funtzionatzea funtzionatzean funtzionatzeari funtzionatzeko funtzionatzen funtzionatzerik
+69	669	segurtasun	segurtasuna segurtasunagatik segurtasunak segurtasunarekin segurtasunaren segurtasunarengatik segurtasunari segurtasunaz segurtasunean segurtasuneko segurtasunekoa segurtasunekoak segurtasunera segurtasunerako segurtasunetik segurtasunez segurtasunik
+70	670	erregina	erreginak erreginarekin erreginaren erreginarengana erreginarengandik erreginarengatik erreginarentzat erreginari erreginarik erreginatik erreginatzat erreginaz erreginek erreginen erreginetako
+71	671	ezkontza	ezkontzak ezkontzako ezkontzakoak ezkontzan ezkontzara ezkontzarako ezkontzarekin ezkontzaren ezkontzari ezkontzarik ezkontzatik ezkontzaz ezkontzen ezkontzetako ezkontzetan ezkontzetara ezkontzetarako
+72	672	argitu	argituko argituta argitutako argitze argitzea argitzeagatik argitzeak argitzean argitzeko argitzen argitzera
+73	673	froga	frogak frogako frogan frogara frogarekin frogaren frogarik frogatan frogatik frogatzat frogei frogek frogekin frogen frogengatik frogetako
+74	674	hizketa	hizketak hizketan hizketara hizketarako hizketarekin hizketaren hizketari hizketarik hizketaz hizketek
+75	675	deabru	deabrua deabruak deabruarekin deabruaren deabruarengan deabruarengana deabruarengandik deabruarentzat deabruari deabruaz deabruei deabruek deabruekin deabruen deabruez deabruk deabruko deabruren deabrurik deabrutik deabrutzat deabruz
+76	676	epaile	epailea epaileak epailearekin epailearen epailearengana epailearengatik epaileari epaileei epaileek epaileekin epaileen epaileengana epaileetako epailek epaileok epaileren epailerengana epailerik epailetzat
+77	677	hortxe	
+78	678	txartel	txartela txartelak txartelarekin txartelaren txartelaz txartelean txartelei txartelek txartelekin txartelen txartelerako txarteletan txarteletatik txartelik
+79	679	moldatu	molda moldatua moldatuko moldaturik moldatuta moldatutako moldatze moldatzea moldatzearen moldatzeko moldatzen
+80	680	ederto	
+81	681	gutxienez	
+82	682	arima	arimak arimako arimakoa ariman arimaraino arimarako arimarekin arimaren arimarengatik arimarentzat arimari arimarik arimatik arimaz arimei arimek arimekin arimen arimengatik arimetan arimez
+83	683	akats	akatsa akatsak akatsaren akatsaz akatsean akatsei akatsek akatsekin akatsen akatsengatik akatserako akatsetako akatsetan akatsetatik akatsez akatsik
+84	684	eliza	elizak elizako elizakoa elizakoak elizan elizara elizarako elizarantz elizarekin elizaren elizarentzat elizari elizarik elizatik elizaz elizen elizetako elizetan elizetatik
+85	685	istripu	istripua istripuagatik istripuak istripuan istripuarekin istripuaren istripuari istripuaz istripuek istripuen istripuengatik istripuez istripuko istripukoa istripuren istripurik istriputik istripuz
+86	686	pila	pilak pilan pilarekin pilarik pilatik pilek pilekin pilo pilotan pilotatik
+87	687	sexu	sexua sexuagatik sexuak sexuan sexuarekin sexuaren sexuarengatik sexuari sexuaz sexuei sexuen sexuetako sexuko sexukoa sexukoak sexurako sexuren sexurik sexutan sexutik sexuz
+88	688	eurak	eurei eurek euren
+89	689	hi	higan higandik higatik hik hiregatik hirekin hiretako hiretzat hitaz
+90	690	musu	musua musuak musuaren musuari musuaz musuek musuekin musuengatik musuetan musurik musuz
+91	691	ilun	iluna ilunago ilunagoa ilunak ilunarekin ilunaren ilunari ilunaz ilunean ilunegi ilunegia ilunegiak ilunei ilunek ilunekin iluneko ilunekoa ilunekoak ilunen ilunena ilunenak ilunera ilunerako ilunetan ilunetara ilunetatik ilunetik ilunez ilunik
+92	692	eskuin	eskuina eskuinak eskuinarekin eskuinarentzat eskuinari eskuinaz eskuinean eskuineko eskuinekoa eskuinekoak eskuinera eskuinerantz eskuinetara eskuinetik eskuma
+93	693	konforme	
+94	694	eusko	
+95	695	haize	haizea haizeagatik haizeak haizean haizearekin haizearen haizearengatik haizeari haizeaz haizeei haizeek haizeen haizeetan haizeetara haizekoak haizerako haizeri haizerik haizetan haizetara haizetik
+96	696	zakil	zakila zakilak zakilarekin zakilaren zakilari zakilaz zakilean zakilei zakilek zakilekin zakileko zakilen zakilena zakilengatik zakilera zakiletik zakilez zakilik zakilok zakiltzat
+97	697	zazpi	zazpia zazpiak zazpian zazpiek zazpien zazpiengan zazpietan zazpietatik zazpik zazpikoa zazpitik
+98	698	jaurlaritza	jaurlaritzak jaurlaritzako jaurlaritzaren
+99	699	aitona	aitonak aitonarekin aitonaren aitonarengana aitonarengandik aitonarentzat aitonari aitonatik aitonek aitonen
+100	700	enpresa	enpresak enpresako enpresakoa enpresakoak enpresan enpresara enpresarako enpresarekin enpresaren enpresarentzat enpresarik enpresatan enpresatik enpresaz enpresei enpresek enpresen enpresentzat enpresetako enpresetan

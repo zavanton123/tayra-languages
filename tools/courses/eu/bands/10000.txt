@@ -1,100 +1,100 @@
-1	9901	teorizatu	teorizatzen
-2	9902	runba	
-3	9903	analogiko	analogikoa
-4	9904	estoizismo	estoizismoa
-5	9905	akordeoilari	
-6	9906	hiperaktibitate	hiperaktibitatea
-7	9907	birbidali	birbidaltzen
-8	9908	pakistandar	
-9	9909	salati	
-10	9910	nepalera	
-11	9911	txitxi	txitxiak
-12	9912	marigorri	
-13	9913	existentzial	existentzialean
-14	9914	higidura	
-15	9915	findegi	
-16	9916	purifikazio	purifikazioa
-17	9917	katalizatzaile	
-18	9918	uraza	
-19	9919	afrikaans	afrikaansa
-20	9920	biziarteko	
-21	9921	hausa	hausaz
-22	9922	bulgariera	
-23	9923	belu	beluz
-24	9924	berdetasun	berdetasuna
-25	9925	hirigintza	
-26	9926	kontziliazio	
-27	9927	raid	
-28	9928	berretura	berreturak
-29	9929	tandem	
-30	9930	monogamia	
-31	9931	kardatu	
-32	9932	sinbolikoki	
-33	9933	kustodia	kustodian
-34	9934	jaurerri	jaurerria
-35	9935	trilogia	
-36	9936	koziente	
-37	9937	abatar	abatarra
-38	9938	transformatu	
-39	9939	iso	
-40	9940	adriatiko	adriatikoaren
-41	9941	diktatorial	diktatoriala
-42	9942	kontrairaultza	
-43	9943	fidagaitz	fidagaitza
-44	9944	letargia	
-45	9945	ionizazio	
-46	9946	agronomo	agronomoa
-47	9947	asfixia	
-48	9948	korroka	
-49	9949	txondor	txondorra
-50	9950	irandar	
-51	9951	zigorgabetasun	
-52	9952	perutar	perutarrak
-53	9953	psikodeliko	psikodelikoak
-54	9954	hautespen	
-55	9955	anime	
-56	9956	dingo	
-57	9957	egurgile	egurgilea
-58	9958	estilografiko	
-59	9959	arabazozo	
-60	9960	muskular	
-61	9961	binilo	biniloa
-62	9962	belusatu	belusatua
-63	9963	plastilina	
-64	9964	astunki	
-65	9965	albaniera	albanieraz
-66	9966	gehieneko	
-67	9967	petaka	
-68	9968	antitoxina	
-69	9969	dunba	
-70	9970	beluga	
-71	9971	bromo	
-72	9972	esponentzialki	
-73	9973	inkontzienteki	
-74	9974	lauretako	
-75	9975	zurixka	zurixkak
-76	9976	naturalista	
-77	9977	enpaste	enpasteak
-78	9978	dervixe	
-79	9979	panoramiko	panoramikoa
-80	9980	bertikalki	
-81	9981	eskalapoi	eskalapoiak
-82	9982	kurumino	
-83	9983	entzuera	
-84	9984	exhibizionista	
-85	9985	zurbiltasun	zurbiltasuna
-86	9986	basektomia	
-87	9987	koloreztatu	
-88	9988	arlekin	arlekinen
-89	9989	azkengabe	azkengabea
-90	9990	hiletari	
-91	9991	pilates	
-92	9992	etzidamu	
-93	9993	kontusio	
-94	9994	zoologo	zoologoa
-95	9995	egonkortzaile	egonkortzailea
-96	9996	ese	
-97	9997	laurehun	
-98	9998	espartin	espartinak
-99	9999	klausura	klausurako
-100	10000	mututasun	
+1	9901	milurteko	
+2	9902	teorizatu	teorizatzen
+3	9903	runba	
+4	9904	analogiko	analogikoa
+5	9905	estoizismo	estoizismoa
+6	9906	akordeoilari	
+7	9907	hiperaktibitate	hiperaktibitatea
+8	9908	birbidali	birbidaltzen
+9	9909	pakistandar	
+10	9910	salati	
+11	9911	nepalera	
+12	9912	txitxi	txitxiak
+13	9913	marigorri	
+14	9914	existentzial	existentzialean
+15	9915	higidura	
+16	9916	findegi	
+17	9917	purifikazio	purifikazioa
+18	9918	katalizatzaile	
+19	9919	uraza	
+20	9920	afrikaans	afrikaansa
+21	9921	biziarteko	
+22	9922	hausa	hausaz
+23	9923	bulgariera	
+24	9924	belu	beluz
+25	9925	berdetasun	berdetasuna
+26	9926	hirigintza	
+27	9927	kontziliazio	
+28	9928	raid	
+29	9929	berretura	berreturak
+30	9930	tandem	
+31	9931	monogamia	
+32	9932	kardatu	
+33	9933	sinbolikoki	
+34	9934	kustodia	kustodian
+35	9935	jaurerri	jaurerria
+36	9936	trilogia	
+37	9937	koziente	
+38	9938	abatar	abatarra
+39	9939	transformatu	
+40	9940	iso	
+41	9941	adriatiko	adriatikoaren
+42	9942	diktatorial	diktatoriala
+43	9943	kontrairaultza	
+44	9944	fidagaitz	fidagaitza
+45	9945	letargia	
+46	9946	ionizazio	
+47	9947	agronomo	agronomoa
+48	9948	asfixia	
+49	9949	korroka	
+50	9950	txondor	txondorra
+51	9951	irandar	
+52	9952	zigorgabetasun	
+53	9953	perutar	perutarrak
+54	9954	psikodeliko	psikodelikoak
+55	9955	hautespen	
+56	9956	anime	
+57	9957	dingo	
+58	9958	egurgile	egurgilea
+59	9959	estilografiko	
+60	9960	arabazozo	
+61	9961	muskular	
+62	9962	binilo	biniloa
+63	9963	belusatu	belusatua
+64	9964	plastilina	
+65	9965	astunki	
+66	9966	albaniera	albanieraz
+67	9967	gehieneko	
+68	9968	petaka	
+69	9969	antitoxina	
+70	9970	dunba	
+71	9971	beluga	
+72	9972	bromo	
+73	9973	esponentzialki	
+74	9974	inkontzienteki	
+75	9975	lauretako	
+76	9976	zurixka	zurixkak
+77	9977	naturalista	
+78	9978	enpaste	enpasteak
+79	9979	dervixe	
+80	9980	panoramiko	panoramikoa
+81	9981	bertikalki	
+82	9982	eskalapoi	eskalapoiak
+83	9983	kurumino	
+84	9984	entzuera	
+85	9985	exhibizionista	
+86	9986	zurbiltasun	zurbiltasuna
+87	9987	basektomia	
+88	9988	koloreztatu	
+89	9989	arlekin	arlekinen
+90	9990	azkengabe	azkengabea
+91	9991	hiletari	
+92	9992	pilates	
+93	9993	etzidamu	
+94	9994	kontusio	
+95	9995	zoologo	zoologoa
+96	9996	egonkortzaile	egonkortzailea
+97	9997	ese	
+98	9998	laurehun	
+99	9999	espartin	espartinak
+100	10000	klausura	klausurako

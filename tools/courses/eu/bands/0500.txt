@@ -67,15 +67,15 @@
 67	467	hasiera	hasierak hasierako hasierakoa hasierakoak hasieran hasierara hasierarako hasierarekin hasieraren hasierari hasierarik hasieratik hasierengatik hasieretako hasieretan
 68	468	ixo	
 69	469	gonbidatu	gonbida gonbidatua gonbidatuak gonbidatuarekin gonbidatuari gonbidatuei gonbidatuek gonbidatuekin gonbidatuen gonbidatuengana gonbidatuentzat gonbidatuetako gonbidatuetatik gonbidatuko gonbidaturen gonbidaturik gonbidatuta gonbidatutzat gonbidatuz gonbidatzea gonbidatzeagatik gonbidatzeak gonbidatzeko gonbidatzen gonbidatzerik
-70	470	bizkor	bizkorra bizkorrago bizkorragoa bizkorragoak bizkorrak bizkorraren bizkorrean bizkorregi bizkorregia bizkorregiak bizkorren bizkorrena bizkorrenak bizkorrentzat northern
-71	471	nolako	nolakoa nolakoak nolakoetan
-72	472	zin	zina zinagatik zinak zinarekin zinaren zinari zinean zineko zinera zinerako zinetik zinez zinik
-73	473	harreman	harremana harremanagatik harremanak harremanarekin harremanaren harremanarengatik harremanari harremanaz harremanean harremanei harremanek harremanekin harremanen harremanetako harremanetan harremanetik harremanez harremanik harremanok
-74	474	zenbaki	zenbakia zenbakiak zenbakian zenbakiarekin zenbakiaren zenbakiarentzat zenbakiei zenbakiek zenbakiekin zenbakien zenbakiengatik zenbakietan zenbakietara zenbakietarako zenbakietatik zenbakiez zenbakiko zenbakikoa zenbakikoak zenbakira zenbakiren zenbakirik zenbakitan zenbakitara zenbakitik zenbakiz
-75	475	maila	mailak mailako mailakoa mailakoak mailan mailara mailaraino mailarako mailarekin mailaren mailari mailarik mailatan mailatatik mailatik mailaz mailei mailek mailekin mailen mailetan mailetara
-76	476	estatu	estatuak estatuan estatuaren estatuarengatik estatuarentzat estatuari estatuaz estatuei estatuek estatuen estatuetako estatuetan estatuetatik estatuk estatuko estatukoa estatukoak estatura estaturako estaturantz estatutan estatutik
-77	477	erotu	erotua erotuak erotuko eroturik erotuta erotutako erotzea erotzeko
-78	478	arrisku	arriskua arriskuagatik arriskuak arriskuan arriskuaren arriskuari arriskuaz arriskuei arriskuek arriskuen arriskuetan arriskuetatik arriskuez arriskuko arriskura arriskurako arriskuren arriskurik arriskutan arriskutik arriskuz
+70	470	nolako	nolakoa nolakoak nolakoetan
+71	471	zin	zina zinagatik zinak zinarekin zinaren zinari zinean zineko zinera zinerako zinetik zinez zinik
+72	472	harreman	harremana harremanagatik harremanak harremanarekin harremanaren harremanarengatik harremanari harremanaz harremanean harremanei harremanek harremanekin harremanen harremanetako harremanetan harremanetik harremanez harremanik harremanok
+73	473	zenbaki	zenbakia zenbakiak zenbakian zenbakiarekin zenbakiaren zenbakiarentzat zenbakiei zenbakiek zenbakiekin zenbakien zenbakiengatik zenbakietan zenbakietara zenbakietarako zenbakietatik zenbakiez zenbakiko zenbakikoa zenbakikoak zenbakira zenbakiren zenbakirik zenbakitan zenbakitara zenbakitik zenbakiz
+74	474	maila	mailak mailako mailakoa mailakoak mailan mailara mailaraino mailarako mailarekin mailaren mailari mailarik mailatan mailatatik mailatik mailaz mailei mailek mailekin mailen mailetan mailetara
+75	475	estatu	estatuak estatuan estatuaren estatuarengatik estatuarentzat estatuari estatuaz estatuei estatuek estatuen estatuetako estatuetan estatuetatik estatuk estatuko estatukoa estatukoak estatura estaturako estaturantz estatutan estatutik
+76	476	erotu	erotua erotuak erotuko eroturik erotuta erotutako erotzea erotzeko
+77	477	arrisku	arriskua arriskuagatik arriskuak arriskuan arriskuaren arriskuari arriskuaz arriskuei arriskuek arriskuen arriskuetan arriskuetatik arriskuez arriskuko arriskura arriskurako arriskuren arriskurik arriskutan arriskutik arriskuz
+78	478	bizkor	bizkorra bizkorrago bizkorragoa bizkorragoak bizkorrak bizkorraren bizkorrean bizkorregi bizkorregia bizkorregiak bizkorren bizkorrena bizkorrenak bizkorrentzat
 79	479	arren	
 80	480	edozein	edozeina edozeinak edozeinena edozeinenak edozeinera edozeinetan
 81	481	apur	apurentzat apurra apurrak apurraren apurrean apurrek apurren apurrengatik apurretan apurretatik apurrik

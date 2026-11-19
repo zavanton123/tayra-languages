@@ -56,33 +56,33 @@
 56	956	uda	udak udako udan udarako udarantz udarekin udaren udari udarik udatik udaz udetan
 57	957	konpainia	konpainiak konpainiako konpainiakoa konpainiakoak konpainian konpainiara konpainiarako konpainiarekin konpainiaren konpainiarentzat konpainiari konpainiarik konpainiatzat konpainiaz konpainiei konpainiek konpainiekin konpainien konpainietan konpainietara
 58	958	sendo	sendoa sendoagatik sendoago sendoagoa sendoak sendoarekin sendoaz sendoegia sendoek sendoekin sendoen sendoena sendoetako sendoetan sendoetara sendoez sendoko sendokoa sendokoak sendorik sendoz
-59	959	bonba	bonbak bonban bonbarekin bonbaren bonbari bonbarik bonbatik bonbaz bonbek bonbekin bonben bonboi
-60	960	ikuskizun	ikuskizuna ikuskizunagatik ikuskizunak ikuskizunarekin ikuskizunaren ikuskizunari ikuskizunaz ikuskizunean ikuskizunekin ikuskizuneko ikuskizunekoa ikuskizunen ikuskizunera ikuskizunerako ikuskizunetako ikuskizunetan ikuskizunetik ikuskizunez ikuskizunik
-61	961	izeba	izebak izebarekin izebaren izebarengana izebarengatik izebari izebarik izebei izebek
-62	962	mintzatu	mintza mintzatua mintzatuko mintzatuz mintzatzea mintzatzeagatik mintzatzeak mintzatzean mintzatzeari mintzatzeko mintzatzen mintzatzera
-63	963	institutu	institutua institutuak institutuan institutuaren institutuari institutuen institutuetako institutuetan institutuko institutukoa institutura institututan institututik
-64	964	hortz	hortza hortzagatik hortzak hortzarekin hortzaren hortzean hortzei hortzekin hortzeko hortzen hortzetako hortzetan hortzetarako hortzetatik hortzetik hortzik
-65	965	latz	latza latzagoa latzagoak latzak latzarekin latzari latzean latzegia latzei latzen latzena latzetan latzetik
-66	966	garesti	garestia garestiago garestiagoa garestiagoak garestiak garestiarekin garestiaren garestiegi garestiegia garestiegiak garestiei garestiekin garestien garestiena garestienak garestietan garestikoak garestirik garestiz
-67	967	errusiar	errusiarra errusiarrak errusiarraren errusiarrarentzat errusiarrari errusiarrei errusiarrek errusiarrekin errusiarren errusiarrena errusiarrenak errusiarrengana errusiarrentzat errusiarrera errusiarretatik errusiarrez errusiarrok errusiartzat
-68	968	bala	balak balako balarekin balaren balarik balaz balek balekin balen
-69	969	agure	agurea agureak agurean agurearekin agurearen agureari agureek agureekin agureen
-70	970	auzi	auzia auziagatik auziak auzian auziarekin auziaren auziarengatik auziari auziaz auzietan auziez auziko auziraino auzirako auzirik auzitan auzitara
-71	971	giza	gizako gizakoak
-72	972	aurkako	aurkakoa aurkakoak aurkakoarekin aurkakoaren aurkakoek aurkakoen aurkakorik
-73	973	ahul	ahula ahulago ahulagoa ahulak ahularekin ahularen ahulari ahulaz ahulean ahulegi ahulegia ahulegiak ahulei ahulek ahulekin ahuleko ahulekoa ahulen ahulena ahulenak ahulengatik ahuletako ahuletan ahulez ahulik ahulontzat
-74	974	zapaldu	zapal zapaldua zapalduak zapalduan zapalduari zapalduko zapalduta zapaldutako zapaldutakoa zapalduz zapaltzea zapaltzeagatik zapaltzean zapaltzeko zapaltzen zapaltzera
-75	975	mozkortu	mozkortua mozkortuko mozkorturik mozkortuta mozkortutako mozkortuz mozkortzea mozkortzeagatik mozkortzeak mozkortzeari mozkortzeko mozkortzen mozkortzera
-76	976	aktore	aktorea aktoreak aktorearekin aktorearen aktoreei aktoreek aktoreekin aktoreen aktoreetako aktorerekin aktorerik
-77	977	ezarri	ezar ezarria ezarriak ezarriko ezarrita ezarritako ezarriz ezartzea ezartzean ezartzearen ezartzeko ezartzen ezartzera
-78	978	printze	printzea printzeagatik printzeak printzearekin printzearen printzearentzat printzeari printzeek printzeen printzerik printzez
-79	979	jarrera	jarrerak jarreran jarrerara jarrerarekin jarreraren jarrerari jarrerarik jarreratan jarreraz jarreren
-80	980	abisatu	abisa abisatua abisatuko abisatuta abisatuz abisatzea abisatzeagatik abisatzeko abisatzen abisatzera
-81	981	aleman	alemana alemanak alemanarekin alemanaren alemanaz alemanei alemanek alemanekin alemaneko alemanekoa alemanen alemanena alemanenak alemanengandik alemanentzat alemanetan alemanez alemanoi alemanok
-82	982	hari	haria hariak hariarekin hariaren hariarengatik hariari hariaz hariei hariek hariekin harien harik hariko harira harirekin hariren haririk haritik hariz
-83	983	programa	programak programako programakoa programan programara programarako programarekin programaren programarengatik programari programarik programatan programatik programaz programei programek programetan
-84	984	haurdun	haurduna haurdunak haurdunen haurdunenak
-85	985	lorategi	lorategia lorategiak lorategian lorategiarekin lorategiaren lorategiari lorategiekin lorategien lorategietan lorategietara lorategietatik lorategiko lorategikoa lorategikoak lorategira lorategiraino lorategirako lorategirik lorategitik
+59	959	ikuskizun	ikuskizuna ikuskizunagatik ikuskizunak ikuskizunarekin ikuskizunaren ikuskizunari ikuskizunaz ikuskizunean ikuskizunekin ikuskizuneko ikuskizunekoa ikuskizunen ikuskizunera ikuskizunerako ikuskizunetako ikuskizunetan ikuskizunetik ikuskizunez ikuskizunik
+60	960	izeba	izebak izebarekin izebaren izebarengana izebarengatik izebari izebarik izebei izebek
+61	961	mintzatu	mintza mintzatua mintzatuko mintzatuz mintzatzea mintzatzeagatik mintzatzeak mintzatzean mintzatzeari mintzatzeko mintzatzen mintzatzera
+62	962	institutu	institutua institutuak institutuan institutuaren institutuari institutuen institutuetako institutuetan institutuko institutukoa institutura institututan institututik
+63	963	hortz	hortza hortzagatik hortzak hortzarekin hortzaren hortzean hortzei hortzekin hortzeko hortzen hortzetako hortzetan hortzetarako hortzetatik hortzetik hortzik
+64	964	latz	latza latzagoa latzagoak latzak latzarekin latzari latzean latzegia latzei latzen latzena latzetan latzetik
+65	965	garesti	garestia garestiago garestiagoa garestiagoak garestiak garestiarekin garestiaren garestiegi garestiegia garestiegiak garestiei garestiekin garestien garestiena garestienak garestietan garestikoak garestirik garestiz
+66	966	errusiar	errusiarra errusiarrak errusiarraren errusiarrarentzat errusiarrari errusiarrei errusiarrek errusiarrekin errusiarren errusiarrena errusiarrenak errusiarrengana errusiarrentzat errusiarrera errusiarretatik errusiarrez errusiarrok errusiartzat
+67	967	bala	balak balako balarekin balaren balarik balaz balek balekin balen
+68	968	agure	agurea agureak agurean agurearekin agurearen agureari agureek agureekin agureen
+69	969	auzi	auzia auziagatik auziak auzian auziarekin auziaren auziarengatik auziari auziaz auzietan auziez auziko auziraino auzirako auzirik auzitan auzitara
+70	970	giza	gizako gizakoak
+71	971	aurkako	aurkakoa aurkakoak aurkakoarekin aurkakoaren aurkakoek aurkakoen aurkakorik
+72	972	ahul	ahula ahulago ahulagoa ahulak ahularekin ahularen ahulari ahulaz ahulean ahulegi ahulegia ahulegiak ahulei ahulek ahulekin ahuleko ahulekoa ahulen ahulena ahulenak ahulengatik ahuletako ahuletan ahulez ahulik ahulontzat
+73	973	zapaldu	zapal zapaldua zapalduak zapalduan zapalduari zapalduko zapalduta zapaldutako zapaldutakoa zapalduz zapaltzea zapaltzeagatik zapaltzean zapaltzeko zapaltzen zapaltzera
+74	974	mozkortu	mozkortua mozkortuko mozkorturik mozkortuta mozkortutako mozkortuz mozkortzea mozkortzeagatik mozkortzeak mozkortzeari mozkortzeko mozkortzen mozkortzera
+75	975	aktore	aktorea aktoreak aktorearekin aktorearen aktoreei aktoreek aktoreekin aktoreen aktoreetako aktorerekin aktorerik
+76	976	ezarri	ezar ezarria ezarriak ezarriko ezarrita ezarritako ezarriz ezartzea ezartzean ezartzearen ezartzeko ezartzen ezartzera
+77	977	printze	printzea printzeagatik printzeak printzearekin printzearen printzearentzat printzeari printzeek printzeen printzerik printzez
+78	978	jarrera	jarrerak jarreran jarrerara jarrerarekin jarreraren jarrerari jarrerarik jarreratan jarreraz jarreren
+79	979	abisatu	abisa abisatua abisatuko abisatuta abisatuz abisatzea abisatzeagatik abisatzeko abisatzen abisatzera
+80	980	aleman	alemana alemanak alemanarekin alemanaren alemanaz alemanei alemanek alemanekin alemaneko alemanekoa alemanen alemanena alemanenak alemanengandik alemanentzat alemanetan alemanez alemanoi alemanok
+81	981	hari	haria hariak hariarekin hariaren hariarengatik hariari hariaz hariei hariek hariekin harien harik hariko harira harirekin hariren haririk haritik hariz
+82	982	programa	programak programako programakoa programan programara programarako programarekin programaren programarengatik programari programarik programatan programatik programaz programei programek programetan
+83	983	haurdun	haurduna haurdunak haurdunen haurdunenak
+84	984	lorategi	lorategia lorategiak lorategian lorategiarekin lorategiaren lorategiari lorategiekin lorategien lorategietan lorategietara lorategietatik lorategiko lorategikoa lorategikoak lorategira lorategiraino lorategirako lorategirik lorategitik
+85	985	bonba	bonbak bonban bonbarekin bonbaren bonbari bonbarik bonbatik bonbaz bonbek bonbekin bonben
 86	986	salbu	
 87	987	kabroi	kabroia kabroiak kabroiek kabroien kabroiren kabroirik
 88	988	aldaketa	aldaketak aldaketako aldaketan aldaketarako aldaketarekin aldaketaren aldaketarengatik aldaketarik aldaketaz aldaketei aldaketekin aldaketen aldaketok

@@ -1,100 +1,100 @@
-1	5101	laka	lakak lakarengatik laken
-2	5102	basa	basan basoi basotan basotara
-3	5103	ondu	ondua onduak ondutako ondutakoa ontzeko ontzen
-4	5104	hirugarrenean	
-5	5105	mehatxuka	
-6	5106	trenez	
-7	5107	bigarrenean	
-8	5108	substantzia	substantziak
-9	5109	kutsakor	kutsakorra
-10	5110	swing	swinga
-11	5111	hazkatu	hazka
-12	5112	anomalia	anomaliak
-13	5113	herren	herrenago
-14	5114	zabalera	zabalerak zabaleran
-15	5115	elkarrekiko	elkarrekikoa
-16	5116	irekiera	irekierara irekieraz
-17	5117	inizial	iniziala inizialak inizialekin
-18	5118	balbula	balbulak balbularekin
-19	5119	klausula	klausulak
-20	5120	pornografia	pornografiako pornografiarik pornografiatzat
-21	5121	asmakuntza	asmakuntzak asmakuntzari asmakuntzaz
-22	5122	koinata	koinatak koinatarekin koinataren koinatarengatik
-23	5123	karel	karelari karelean kareleko kareletik
-24	5124	zurgin	zurgina zurginak
-25	5125	burdel	burdelak burdeleko burdelera burdeletan
-26	5126	fenix	fenixak fenixaren fenixen
-27	5127	sinfonia	sinfoniak sinfoniako sinfonian sinfonietan sinfoniez
-28	5128	betazal	betazalak betazalek betazalekin betazaleko betazalik
-29	5129	antibiotiko	antibiotikoak antibiotikoekin antibiotikoz
-30	5130	koral	korala koralak koraleko
-31	5131	armadun	armaduna armadunak armadunei
-32	5132	hesola	hesolak hesolatara hesolen hesoletan
-33	5133	logura	logurarekin logure logurez
-34	5134	hockey	hockeya hockeyarekin hockeyen
-35	5135	subjektu	subjektua subjektuak subjektuek subjektutzat
-36	5136	talisman	talismana talismanarekin talismanaren talismanari
-37	5137	anarkia	anarkian anarkiarekin anarkiaren anarkiarik
-38	5138	miope	miopea miopeagatik miopeegia
-39	5139	gaitzespen	gaitzespena gaitzespenak gaitzespenez gaitzespenik
-40	5140	robotika	robotikan robotikara robotikaren
-41	5141	hidrogeno	hidrogenoa hidrogenoaren hidrogenorik
-42	5142	katalogo	katalogoa katalogoan katalogoetan katalogora katalogorako
-43	5143	elektrikari	elektrikaria elektrikariak elektrikariek elektrikarien
-44	5144	sasijakintsu	sasijakintsua sasijakintsuak sasijakintsuari
-45	5145	kapritxo	kapritxoa kapritxoak kapritxoen kapritxoengatik kapritxorik
-46	5146	sauna	saunan saunara saunarantz saunatan
-47	5147	tsunami	tsunamia tsunamiak tsunamian tsunamiaren
-48	5148	eskasia	eskasian eskasiaren eskasiarentzat eskasiaz
-49	5149	udalbatza	udalbatzak udalbatzan udalbatzarako udalbatzetara
-50	5150	izenpetu	izenpetua izenpetuko izenpetzen izenpetzerik
-51	5151	alferrontzi	alferrontzia alferrontziarekin alferrontziok
-52	5152	eldarnio	eldarnioa eldarnioak eldarnioan eldarnioekin eldarniotan
-53	5153	arroila	arroilan arroilara arroilen
-54	5154	frekuentzia	frekuentziak frekuentzian
-55	5155	estimulu	estimulua estimuluei estimuluen estimuluetara estimulutik
-56	5156	aztikeria	aztikeriak aztikeriako aztikeriaren aztikerien
-57	5157	akorde	akordea akordeak akordearen akorderen
-58	5158	eskuragarri	eskuragarria eskuragarriago eskuragarriagoa eskuragarriak eskuragarririk
-59	5159	alga	algak algaz algekin algen
-60	5160	autonomo	autonomoa autonomoagoa autonomoak
-61	5161	nazaretar	nazaretarra nazaretarrak nazaretarraren nazaretarrari
-62	5162	handikeria	handikeriak handikerian handikeriaren handikeriarik handikeriaz
-63	5163	genero	generoa generoak generoaren generoen generorako generorik
-64	5164	dekorazio	dekorazioa dekorazioan
-65	5165	kolono	kolonoa kolonoak kolonoetako
-66	5166	objektibo	objektiboa objektiboak objektiboan objektiboaren objektiboari objektiboen objektibotik
-67	5167	milimetro	milimetroa milimetroko milimetrokoa milimetrora milimetroz
-68	5168	fideltasun	fideltasuna fideltasunez fideltasunik
-69	5169	identitate	identitatea identitatearekin
-70	5170	analizatu	analizatuko analizatzea analizatzen analizatzera
-71	5171	podium	podiuma podiumean podiumeko podiumera podiumetik
-72	5172	errezelo	errezeloa errezeloak errezelorik
-73	5173	zikiratu	zikiratua zikiratuko zikiratuta zikiratzea zikiratzeko zikiratzen
-74	5174	ezarpen	ezarpena ezarpenak ezarpenean ezarpenen
-75	5175	fosil	fosila fosilak fosilen
-76	5176	konpresore	konpresorea konpresoreak
-77	5177	kliniko	klinikoa klinikoak klinikoan klinikotik
-78	5178	entzungailu	entzungailua entzungailuak entzungailuekin entzungailurik
-79	5179	urdindu	urdindua urdinduko urdinduta urdintzen
-80	5180	prostituzio	prostituzioa prostituzioagatik prostituzioan prostituzioarekin prostituzioaren prostituzioko prostituziora
-81	5181	foku	fokua fokuak fokuan fokutik fokuz
-82	5182	engainu	engainua engainuak engainuan engainuaren engainura engainurik
-83	5183	panti	pantiak pantiei pantietan
-84	5184	sinkronizatu	sinkroniza sinkronizatua sinkronizatuta sinkronizatzea sinkronizatzen
-85	5185	tristatu	tristatuko tristatzea tristatzeko tristatzen
-86	5186	metrailadore	metrailadorea metrailadoreak metrailadoreaz metrailadoreen
-87	5187	sorgailu	sorgailua sorgailuak sorgailuekin
-88	5188	pepino	pepinoa pepinoak pepinoari pepinoek
-89	5189	jakinarazpen	jakinarazpena jakinarazpenak jakinarazpenaren jakinarazpenik
-90	5190	urretxindor	urretxindorra urretxindorrak urretxindorraren
-91	5191	giltzarrapo	giltzarrapoa giltzarrapoak giltzarrapoarekin giltzarrapoekin giltzarraporik
-92	5192	erakargarritasun	erakargarritasuna erakargarritasunari erakargarritasunik
-93	5193	intimo	intimoa intimoak intimoan intimoaren intimoaz intimoegia intimoena
-94	5194	gupidagabe	gupidagabea gupidagabeak gupidagabeetan
-95	5195	esnifatu	esnifatuko esnifatzeak esnifatzean esnifatzen
-96	5196	aje	ajea ajeak ajearekin ajearen ajerako ajerik
-97	5197	zabar	zabarra zabarrak zabarrena zabarretan
-98	5198	infanteria	infanteriak infanteriako infanteriakoak infanterian infanteriaren
-99	5199	bilatzaile	bilatzailea bilatzaileak bilatzailearen bilatzailetzat
-100	5200	paralinpiko	paralinpikoa paralinpikoak paralinpikoan paralinpikoetan paralinpikoko
+1	5101	islam	islama islamak islamarekin islamaren islamari islamean islamek islameko islamen islamera
+2	5102	laka	lakak lakarengatik laken
+3	5103	basa	basan basoi basotan basotara
+4	5104	ondu	ondua onduak ondutako ondutakoa ontzeko ontzen
+5	5105	hirugarrenean	
+6	5106	mehatxuka	
+7	5107	trenez	
+8	5108	bigarrenean	
+9	5109	substantzia	substantziak
+10	5110	kutsakor	kutsakorra
+11	5111	swing	swinga
+12	5112	hazkatu	hazka
+13	5113	anomalia	anomaliak
+14	5114	herren	herrenago
+15	5115	zabalera	zabalerak zabaleran
+16	5116	elkarrekiko	elkarrekikoa
+17	5117	irekiera	irekierara irekieraz
+18	5118	inizial	iniziala inizialak inizialekin
+19	5119	balbula	balbulak balbularekin
+20	5120	klausula	klausulak
+21	5121	pornografia	pornografiako pornografiarik pornografiatzat
+22	5122	asmakuntza	asmakuntzak asmakuntzari asmakuntzaz
+23	5123	koinata	koinatak koinatarekin koinataren koinatarengatik
+24	5124	karel	karelari karelean kareleko kareletik
+25	5125	zurgin	zurgina zurginak
+26	5126	burdel	burdelak burdeleko burdelera burdeletan
+27	5127	fenix	fenixak fenixaren fenixen
+28	5128	sinfonia	sinfoniak sinfoniako sinfonian sinfonietan sinfoniez
+29	5129	betazal	betazalak betazalek betazalekin betazaleko betazalik
+30	5130	antibiotiko	antibiotikoak antibiotikoekin antibiotikoz
+31	5131	koral	korala koralak koraleko
+32	5132	armadun	armaduna armadunak armadunei
+33	5133	hesola	hesolak hesolatara hesolen hesoletan
+34	5134	logura	logurarekin logure logurez
+35	5135	hockey	hockeya hockeyarekin hockeyen
+36	5136	subjektu	subjektua subjektuak subjektuek subjektutzat
+37	5137	talisman	talismana talismanarekin talismanaren talismanari
+38	5138	anarkia	anarkian anarkiarekin anarkiaren anarkiarik
+39	5139	miope	miopea miopeagatik miopeegia
+40	5140	gaitzespen	gaitzespena gaitzespenak gaitzespenez gaitzespenik
+41	5141	robotika	robotikan robotikara robotikaren
+42	5142	hidrogeno	hidrogenoa hidrogenoaren hidrogenorik
+43	5143	katalogo	katalogoa katalogoan katalogoetan katalogora katalogorako
+44	5144	elektrikari	elektrikaria elektrikariak elektrikariek elektrikarien
+45	5145	sasijakintsu	sasijakintsua sasijakintsuak sasijakintsuari
+46	5146	kapritxo	kapritxoa kapritxoak kapritxoen kapritxoengatik kapritxorik
+47	5147	sauna	saunan saunara saunarantz saunatan
+48	5148	tsunami	tsunamia tsunamiak tsunamian tsunamiaren
+49	5149	eskasia	eskasian eskasiaren eskasiarentzat eskasiaz
+50	5150	udalbatza	udalbatzak udalbatzan udalbatzarako udalbatzetara
+51	5151	izenpetu	izenpetua izenpetuko izenpetzen izenpetzerik
+52	5152	alferrontzi	alferrontzia alferrontziarekin alferrontziok
+53	5153	eldarnio	eldarnioa eldarnioak eldarnioan eldarnioekin eldarniotan
+54	5154	arroila	arroilan arroilara arroilen
+55	5155	frekuentzia	frekuentziak frekuentzian
+56	5156	estimulu	estimulua estimuluei estimuluen estimuluetara estimulutik
+57	5157	aztikeria	aztikeriak aztikeriako aztikeriaren aztikerien
+58	5158	akorde	akordea akordeak akordearen akorderen
+59	5159	eskuragarri	eskuragarria eskuragarriago eskuragarriagoa eskuragarriak eskuragarririk
+60	5160	alga	algak algaz algekin algen
+61	5161	autonomo	autonomoa autonomoagoa autonomoak
+62	5162	nazaretar	nazaretarra nazaretarrak nazaretarraren nazaretarrari
+63	5163	handikeria	handikeriak handikerian handikeriaren handikeriarik handikeriaz
+64	5164	genero	generoa generoak generoaren generoen generorako generorik
+65	5165	dekorazio	dekorazioa dekorazioan
+66	5166	kolono	kolonoa kolonoak kolonoetako
+67	5167	objektibo	objektiboa objektiboak objektiboan objektiboaren objektiboari objektiboen objektibotik
+68	5168	milimetro	milimetroa milimetroko milimetrokoa milimetrora milimetroz
+69	5169	fideltasun	fideltasuna fideltasunez fideltasunik
+70	5170	identitate	identitatea identitatearekin
+71	5171	analizatu	analizatuko analizatzea analizatzen analizatzera
+72	5172	podium	podiuma podiumean podiumeko podiumera podiumetik
+73	5173	errezelo	errezeloa errezeloak errezelorik
+74	5174	zikiratu	zikiratua zikiratuko zikiratuta zikiratzea zikiratzeko zikiratzen
+75	5175	ezarpen	ezarpena ezarpenak ezarpenean ezarpenen
+76	5176	fosil	fosila fosilak fosilen
+77	5177	konpresore	konpresorea konpresoreak
+78	5178	kliniko	klinikoa klinikoak klinikoan klinikotik
+79	5179	entzungailu	entzungailua entzungailuak entzungailuekin entzungailurik
+80	5180	urdindu	urdindua urdinduko urdinduta urdintzen
+81	5181	prostituzio	prostituzioa prostituzioagatik prostituzioan prostituzioarekin prostituzioaren prostituzioko prostituziora
+82	5182	foku	fokua fokuak fokuan fokutik fokuz
+83	5183	engainu	engainua engainuak engainuan engainuaren engainura engainurik
+84	5184	panti	pantiak pantiei pantietan
+85	5185	sinkronizatu	sinkroniza sinkronizatua sinkronizatuta sinkronizatzea sinkronizatzen
+86	5186	tristatu	tristatuko tristatzea tristatzeko tristatzen
+87	5187	metrailadore	metrailadorea metrailadoreak metrailadoreaz metrailadoreen
+88	5188	sorgailu	sorgailua sorgailuak sorgailuekin
+89	5189	pepino	pepinoa pepinoak pepinoari pepinoek
+90	5190	jakinarazpen	jakinarazpena jakinarazpenak jakinarazpenaren jakinarazpenik
+91	5191	urretxindor	urretxindorra urretxindorrak urretxindorraren
+92	5192	giltzarrapo	giltzarrapoa giltzarrapoak giltzarrapoarekin giltzarrapoekin giltzarraporik
+93	5193	erakargarritasun	erakargarritasuna erakargarritasunari erakargarritasunik
+94	5194	intimo	intimoa intimoak intimoan intimoaren intimoaz intimoegia intimoena
+95	5195	gupidagabe	gupidagabea gupidagabeak gupidagabeetan
+96	5196	esnifatu	esnifatuko esnifatzeak esnifatzean esnifatzen
+97	5197	aje	ajea ajeak ajearekin ajearen ajerako ajerik
+98	5198	zabar	zabarra zabarrak zabarrena zabarretan
+99	5199	infanteria	infanteriak infanteriako infanteriakoak infanterian infanteriaren
+100	5200	bilatzaile	bilatzailea bilatzaileak bilatzailearen bilatzailetzat

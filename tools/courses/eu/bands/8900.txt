@@ -1,100 +1,100 @@
-1	8801	fumigatu	fumigatzeko fumigatzen
-2	8802	enkriptazio	enkriptazioa
-3	8803	dastaketa	dastaketaren
-4	8804	pertxa	pertxan
-5	8805	magnesio	magnesioa
-6	8806	hipertentsio	hipertentsioa hipertentsiorako
-7	8807	formalismo	formalismoak
-8	8808	motozikleta	motozikletei
-9	8809	matrize	matrizea
-10	8810	pantaloi	pantaloia pantaloiak
-11	8811	finlandiar	finlandiarrean
-12	8812	bozkatzaile	bozkatzaileak
-13	8813	tsarista	tsaristako tsaristaren
-14	8814	zedro	zedroa zedroak
-15	8815	hodeitsu	hodeitsuko
-16	8816	haragitsu	haragitsua
-17	8817	gluten	glutenarekin glutenik
-18	8818	lentilla	lentillak
-19	8819	aliketa	aliketak
-20	8820	mutilazio	mutilazioa
-21	8821	triziklo	trizikloa triziklora
-22	8822	karrusel	karrusela karruselak
-23	8823	praktikaldi	praktikaldia praktikaldiko
-24	8824	egiatasun	egiatasuna egiatasunerako
-25	8825	lekeda	lekedaz
-26	8826	bizartegi	bizartegietara bizartegiko
-27	8827	preludio	preludioa
-28	8828	atoiontzi	atoiontziak
-29	8829	mohikano	mohikanoa
-30	8830	iratze	iratzea iratzeak
-31	8831	patinatzaile	patinatzailea
-32	8832	solista	solistak
-33	8833	beliko	belikoak
-34	8834	angeluzuzen	angeluzuzena
-35	8835	lingote	lingoteen
-36	8836	anfibio	anfibioak
-37	8837	gaeliko	gaelikoz
-38	8838	sentsorial	sentsorialak
-39	8839	alfabetiko	alfabetikoa alfabetikoan
-40	8840	kontsigna	kontsignak kontsignan
-41	8841	fonografo	fonografoa fonografoan
-42	8842	astrologia	astrologian
-43	8843	datil	datilak
-44	8844	beirate	beirateak
-45	8845	komatxo	komatxoak
-46	8846	estrofa	estrofak
-47	8847	estetiko	estetikoa estetikoan
-48	8848	karpo	karpoko
-49	8849	diban	dibana dibanean
-50	8850	etakide	etakidetzat
-51	8851	cancer	cancerra
-52	8852	kontsuletxe	kontsuletxean kontsuletxearen
-53	8853	melokotoi	melokotoien
-54	8854	erretratatu	erretratatzen
-55	8855	paperontzi	paperontzian paperontzitzat
-56	8856	maniobratu	maniobratzeko
-57	8857	erregresio	erregresioa
-58	8858	kolonbiar	kolonbiara kolonbiarra
-59	8859	mauser	mauserren
-60	8860	albaka	albakarekin
-61	8861	txortalari	txortalaria
-62	8862	medikamentu	medikamentua medikamentuak
-63	8863	termometro	termometroa
-64	8864	fluoreszente	fluoreszenteak
-65	8865	brigadier	brigadierra
-66	8866	hirukoiztu	hirukoizten
-67	8867	pago	pagoa pagoak
-68	8868	brageta	bragetara
-69	8869	eroapen	eroapena
-70	8870	berantiar	berantiarra
-71	8871	sinergia	sinergiak
-72	8872	lesbiko	lesbikoa
-73	8873	gogorapen	gogorapenik
-74	8874	orezta	oreztak oreztaz
-75	8875	biolinista	biolinistak biolinistarik
-76	8876	larderia	larderiaz
-77	8877	inskribatu	inskribatzen
-78	8878	koliko	kolikoa kolikoak
-79	8879	masoi	masoien masoiren
-80	8880	errekamara	errekamaran
-81	8881	dentsitate	dentsitatea
-82	8882	serafin	serafina
-83	8883	formaldehido	formaldehidoa
-84	8884	pipatu	pipatzen
-85	8885	sastakada	sastakadekin
-86	8886	autobiografiko	autobiografikoa autobiografikorik
-87	8887	harmoniatsu	harmoniatsua harmoniatsuago
-88	8888	denborazko	denborazkoak
-89	8889	mugalde	mugaldea mugaldean
-90	8890	idazkun	idazkunak
-91	8891	goitika	goitikako
-92	8892	busto	bustoa
-93	8893	hematoma	hematomak
-94	8894	alpiste	alpistea
-95	8895	langileburu	langileburua langilebururik
-96	8896	erlatibotasun	erlatibotasuna erlatibotasunaren
-97	8897	soziologiko	soziologikoan
-98	8898	hegaluze	hegaluzea
-99	8899	taka	taken
-100	8900	kloruro	kloruroa kloruroko
+1	8801	lehenseme	lehensemea
+2	8802	fumigatu	fumigatzeko fumigatzen
+3	8803	enkriptazio	enkriptazioa
+4	8804	dastaketa	dastaketaren
+5	8805	pertxa	pertxan
+6	8806	magnesio	magnesioa
+7	8807	hipertentsio	hipertentsioa hipertentsiorako
+8	8808	formalismo	formalismoak
+9	8809	motozikleta	motozikletei
+10	8810	matrize	matrizea
+11	8811	pantaloi	pantaloia pantaloiak
+12	8812	finlandiar	finlandiarrean
+13	8813	bozkatzaile	bozkatzaileak
+14	8814	tsarista	tsaristako tsaristaren
+15	8815	zedro	zedroa zedroak
+16	8816	hodeitsu	hodeitsuko
+17	8817	haragitsu	haragitsua
+18	8818	gluten	glutenarekin glutenik
+19	8819	lentilla	lentillak
+20	8820	aliketa	aliketak
+21	8821	mutilazio	mutilazioa
+22	8822	triziklo	trizikloa triziklora
+23	8823	karrusel	karrusela karruselak
+24	8824	praktikaldi	praktikaldia praktikaldiko
+25	8825	egiatasun	egiatasuna egiatasunerako
+26	8826	lekeda	lekedaz
+27	8827	bizartegi	bizartegietara bizartegiko
+28	8828	preludio	preludioa
+29	8829	atoiontzi	atoiontziak
+30	8830	mohikano	mohikanoa
+31	8831	iratze	iratzea iratzeak
+32	8832	patinatzaile	patinatzailea
+33	8833	solista	solistak
+34	8834	beliko	belikoak
+35	8835	angeluzuzen	angeluzuzena
+36	8836	lingote	lingoteen
+37	8837	anfibio	anfibioak
+38	8838	gaeliko	gaelikoz
+39	8839	sentsorial	sentsorialak
+40	8840	alfabetiko	alfabetikoa alfabetikoan
+41	8841	kontsigna	kontsignak kontsignan
+42	8842	fonografo	fonografoa fonografoan
+43	8843	astrologia	astrologian
+44	8844	datil	datilak
+45	8845	beirate	beirateak
+46	8846	komatxo	komatxoak
+47	8847	estrofa	estrofak
+48	8848	estetiko	estetikoa estetikoan
+49	8849	karpo	karpoko
+50	8850	diban	dibana dibanean
+51	8851	etakide	etakidetzat
+52	8852	cancer	cancerra
+53	8853	kontsuletxe	kontsuletxean kontsuletxearen
+54	8854	melokotoi	melokotoien
+55	8855	erretratatu	erretratatzen
+56	8856	paperontzi	paperontzian paperontzitzat
+57	8857	maniobratu	maniobratzeko
+58	8858	erregresio	erregresioa
+59	8859	kolonbiar	kolonbiara kolonbiarra
+60	8860	mauser	mauserren
+61	8861	albaka	albakarekin
+62	8862	txortalari	txortalaria
+63	8863	medikamentu	medikamentua medikamentuak
+64	8864	termometro	termometroa
+65	8865	fluoreszente	fluoreszenteak
+66	8866	brigadier	brigadierra
+67	8867	hirukoiztu	hirukoizten
+68	8868	pago	pagoa pagoak
+69	8869	brageta	bragetara
+70	8870	eroapen	eroapena
+71	8871	berantiar	berantiarra
+72	8872	sinergia	sinergiak
+73	8873	lesbiko	lesbikoa
+74	8874	gogorapen	gogorapenik
+75	8875	orezta	oreztak oreztaz
+76	8876	biolinista	biolinistak biolinistarik
+77	8877	larderia	larderiaz
+78	8878	inskribatu	inskribatzen
+79	8879	koliko	kolikoa kolikoak
+80	8880	masoi	masoien masoiren
+81	8881	errekamara	errekamaran
+82	8882	dentsitate	dentsitatea
+83	8883	serafin	serafina
+84	8884	formaldehido	formaldehidoa
+85	8885	pipatu	pipatzen
+86	8886	sastakada	sastakadekin
+87	8887	autobiografiko	autobiografikoa autobiografikorik
+88	8888	harmoniatsu	harmoniatsua harmoniatsuago
+89	8889	denborazko	denborazkoak
+90	8890	mugalde	mugaldea mugaldean
+91	8891	idazkun	idazkunak
+92	8892	goitika	goitikako
+93	8893	busto	bustoa
+94	8894	hematoma	hematomak
+95	8895	alpiste	alpistea
+96	8896	langileburu	langileburua langilebururik
+97	8897	erlatibotasun	erlatibotasuna erlatibotasunaren
+98	8898	soziologiko	soziologikoan
+99	8899	hegaluze	hegaluzea
+100	8900	taka	taken

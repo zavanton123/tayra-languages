@@ -1,100 +1,100 @@
-1	6001	branka	brankako brankakoa brankara brankaren brankatik
-2	6002	saltegi	saltegian saltegiaren saltegietan saltegiko saltegira
-3	6003	monitore	monitorea monitoreak monitorean monitoreetan monitorera
-4	6004	balore	balorea baloreak baloreekin baloreen balorerik
-5	6005	alkimia	alkimiak alkimiako alkimian alkimiaren
-6	6006	gag	gaga gagak gagaren gagek
-7	6007	elektromagnetiko	elektromagnetikoa elektromagnetikoagatik elektromagnetikoak elektromagnetikoaren elektromagnetikoko
-8	6008	chihuahua	chihuahuako chihuahuan chihuahuara chihuahuatik
-9	6009	tatuatu	tatua tatuatuko tatuatuta tatuatzen
-10	6010	artxidiozesi	artxidiozesia artxidiozesiak artxidiozesian artxidiozesiarekin artxidiozesiaren
-11	6011	aldamio	aldamioak aldamioan aldamioen aldamioetara aldamioetatik aldamiorik aldamiotik
-12	6012	pabiloi	pabiloia pabiloian pabiloira pabiloirako
-13	6013	konpetentzia	konpetentziak konpetentziakoak konpetentziarekin konpetentziarengatik konpetentziari konpetentziarik
-14	6014	ubel	ubela ubelak ubelari ubelen ubelerantz ubelik
-15	6015	kontsul	kontsula kontsulak kontsularen
-16	6016	klon	klona klonak klonarekin klonen klonentzat
-17	6017	ohatze	ohatzeak ohatzean ohatzera
-18	6018	zilbor	zilborrari zilborrean zilborreraino zilborretik
-19	6019	eski	eskia eskiak eskian eskien eskiko
-20	6020	klik	klika klikera
-21	6021	desbideratze	desbideratzea desbideratzeagatik desbideratzeen desbideratzeko
-22	6022	erretxina	erretxinak
-23	6023	tipi	tipikoa tipikoak
-24	6024	kapar	kaparekin kaparen kaparik kaparra kaparrei
-25	6025	erbeste	erbestea erbestean erbestearen erbestera
-26	6026	kare	karearekin kareaz kareen karetan
-27	6027	desjabetu	desjabetuko desjabetzea desjabetzeak desjabetzearen desjabetzen desjabetzerik
-28	6028	sestertzio	
-29	6029	defentsiba	defentsiban
-30	6030	kortisona	
-31	6031	doministiku	
-32	6032	eskumuin	eskumuinak
-33	6033	genetikoki	
-34	6034	zaldiko	
-35	6035	lemari	
-36	6036	akromegalia	
-37	6037	adobe	
-38	6038	banilla	
-39	6039	jauzika	
-40	6040	begetal	begetala
-41	6041	dinamiko	dinamikoa dinamikoaren
-42	6042	pneumonia	pneumoniaz
-43	6043	zitalkeria	zitalkeriak
-44	6044	habanar	habanara habanarik
-45	6045	biraketa	biraketak
-46	6046	pomelo	pomeloak
-47	6047	maia	maiak
-48	6048	karisma	karismarekin
-49	6049	kelvin	kelvinetan
-50	6050	zauritutako	zauritutakoak
-51	6051	fauna	faunatik
-52	6052	kobra	kobrak
-53	6053	adonis	adonisen
-54	6054	bizarzuri	bizarzuriren
-55	6055	papaia	papaiaren
-56	6056	bideokamera	bideokamerari bideokamerarik
-57	6057	pizzeria	pizzeriak pizzeriatik
-58	6058	lukurreria	lukurreriak lukurreriarekin
-59	6059	azafrai	azafraia azafraiaren
-60	6060	aldaera	aldaerak aldaerari
-61	6061	jamaikar	jamaikarra jamaikarren
-62	6062	errebantxa	errebantxak errebantxaren
-63	6063	patrizio	patrizioen
-64	6064	kontrakzio	kontrakzioa kontrakzioak
-65	6065	silaba	silabaraino
-66	6066	dopamina	dopaminarekin dopaminaz
-67	6067	krabelin	krabelina
-68	6068	burukada	burukadaren burukadarik
-69	6069	ukaezin	ukaezina ukaezinak
-70	6070	meloi	meloiak
-71	6071	obedientzia	obedientzian obedientziaren
-72	6072	neurona	neuronek neuronen
-73	6073	hirutasun	hirutasuna hirutasunaren
-74	6074	txantaje	txantajea txantajeaz
-75	6075	teoriko	teorikoa teorikoak
-76	6076	inpotentzia	inpotentziaren
-77	6077	fantastiko	fantastikoa fantastikoak
-78	6078	oilanda	oilandak oilandaren
-79	6079	zebra	zebrak zebraren zebrentzat
-80	6080	pentsamolde	pentsamoldea
-81	6081	helegite	helegitea helegiteak helegitean helegiteari
-82	6082	familiaburu	familiaburua familiaburuak
-83	6083	anputatu	anputatuak anputatuko anputatutako
-84	6084	kontrabandista	kontrabandistak kontrabandisten
-85	6085	mesfidantza	mesfidantzak mesfidantzaz
-86	6086	ahohandi	ahohandia
-87	6087	burokrazia	burokraziarekin burokraziari
-88	6088	urpekaritza	urpekaritzako urpekaritzarekin
-89	6089	biologo	biologoa biologoekin
-90	6090	beribil	beribila biribil
-91	6091	balde	baldea baldearekin
-92	6092	legenda	legendak legenden
-93	6093	masturbazio	masturbazioa masturbazioaren masturbazioarengatik
-94	6094	lehentasunezko	lehentasunezkoa
-95	6095	esklabotza	esklabotzan esklabotzarik esklabotzatik
-96	6096	mojito	mojitoak mojitoengatik
-97	6097	betaurrekodun	betaurrekoduna
-98	6098	likidazio	likidazioa likidazioen likidaziorekin
-99	6099	kanela	kanelarekin
-100	6100	agiritegi	agiritegiak agiritegian agiritegien
+1	6001	minor	minorra minorrean minorren minorrera
+2	6002	branka	brankako brankakoa brankara brankaren brankatik
+3	6003	saltegi	saltegian saltegiaren saltegietan saltegiko saltegira
+4	6004	monitore	monitorea monitoreak monitorean monitoreetan monitorera
+5	6005	balore	balorea baloreak baloreekin baloreen balorerik
+6	6006	alkimia	alkimiak alkimiako alkimian alkimiaren
+7	6007	gag	gaga gagak gagaren gagek
+8	6008	elektromagnetiko	elektromagnetikoa elektromagnetikoagatik elektromagnetikoak elektromagnetikoaren elektromagnetikoko
+9	6009	chihuahua	chihuahuako chihuahuan chihuahuara chihuahuatik
+10	6010	tatuatu	tatua tatuatuko tatuatuta tatuatzen
+11	6011	artxidiozesi	artxidiozesia artxidiozesiak artxidiozesian artxidiozesiarekin artxidiozesiaren
+12	6012	aldamio	aldamioak aldamioan aldamioen aldamioetara aldamioetatik aldamiorik aldamiotik
+13	6013	pabiloi	pabiloia pabiloian pabiloira pabiloirako
+14	6014	konpetentzia	konpetentziak konpetentziakoak konpetentziarekin konpetentziarengatik konpetentziari konpetentziarik
+15	6015	ubel	ubela ubelak ubelari ubelen ubelerantz ubelik
+16	6016	kontsul	kontsula kontsulak kontsularen
+17	6017	klon	klona klonak klonarekin klonen klonentzat
+18	6018	ohatze	ohatzeak ohatzean ohatzera
+19	6019	zilbor	zilborrari zilborrean zilborreraino zilborretik
+20	6020	eski	eskia eskiak eskian eskien eskiko
+21	6021	klik	klika klikera
+22	6022	desbideratze	desbideratzea desbideratzeagatik desbideratzeen desbideratzeko
+23	6023	erretxina	erretxinak
+24	6024	tipi	tipikoa tipikoak
+25	6025	kapar	kaparekin kaparen kaparik kaparra kaparrei
+26	6026	erbeste	erbestea erbestean erbestearen erbestera
+27	6027	kare	karearekin kareaz kareen karetan
+28	6028	desjabetu	desjabetuko desjabetzea desjabetzeak desjabetzearen desjabetzen desjabetzerik
+29	6029	sestertzio	
+30	6030	defentsiba	defentsiban
+31	6031	kortisona	
+32	6032	doministiku	
+33	6033	eskumuin	eskumuinak
+34	6034	genetikoki	
+35	6035	zaldiko	
+36	6036	lemari	
+37	6037	akromegalia	
+38	6038	adobe	
+39	6039	banilla	
+40	6040	jauzika	
+41	6041	begetal	begetala
+42	6042	dinamiko	dinamikoa dinamikoaren
+43	6043	pneumonia	pneumoniaz
+44	6044	zitalkeria	zitalkeriak
+45	6045	habanar	habanara habanarik
+46	6046	biraketa	biraketak
+47	6047	pomelo	pomeloak
+48	6048	maia	maiak
+49	6049	karisma	karismarekin
+50	6050	kelvin	kelvinetan
+51	6051	zauritutako	zauritutakoak
+52	6052	fauna	faunatik
+53	6053	kobra	kobrak
+54	6054	adonis	adonisen
+55	6055	bizarzuri	bizarzuriren
+56	6056	papaia	papaiaren
+57	6057	bideokamera	bideokamerari bideokamerarik
+58	6058	pizzeria	pizzeriak pizzeriatik
+59	6059	lukurreria	lukurreriak lukurreriarekin
+60	6060	azafrai	azafraia azafraiaren
+61	6061	aldaera	aldaerak aldaerari
+62	6062	jamaikar	jamaikarra jamaikarren
+63	6063	errebantxa	errebantxak errebantxaren
+64	6064	patrizio	patrizioen
+65	6065	kontrakzio	kontrakzioa kontrakzioak
+66	6066	silaba	silabaraino
+67	6067	dopamina	dopaminarekin dopaminaz
+68	6068	krabelin	krabelina
+69	6069	burukada	burukadaren burukadarik
+70	6070	ukaezin	ukaezina ukaezinak
+71	6071	meloi	meloiak
+72	6072	obedientzia	obedientzian obedientziaren
+73	6073	neurona	neuronek neuronen
+74	6074	hirutasun	hirutasuna hirutasunaren
+75	6075	txantaje	txantajea txantajeaz
+76	6076	teoriko	teorikoa teorikoak
+77	6077	inpotentzia	inpotentziaren
+78	6078	fantastiko	fantastikoa fantastikoak
+79	6079	oilanda	oilandak oilandaren
+80	6080	zebra	zebrak zebraren zebrentzat
+81	6081	pentsamolde	pentsamoldea
+82	6082	helegite	helegitea helegiteak helegitean helegiteari
+83	6083	familiaburu	familiaburua familiaburuak
+84	6084	anputatu	anputatuak anputatuko anputatutako
+85	6085	kontrabandista	kontrabandistak kontrabandisten
+86	6086	mesfidantza	mesfidantzak mesfidantzaz
+87	6087	ahohandi	ahohandia
+88	6088	burokrazia	burokraziarekin burokraziari
+89	6089	urpekaritza	urpekaritzako urpekaritzarekin
+90	6090	biologo	biologoa biologoekin
+91	6091	beribil	beribila biribil
+92	6092	balde	baldea baldearekin
+93	6093	legenda	legendak legenden
+94	6094	masturbazio	masturbazioa masturbazioaren masturbazioarengatik
+95	6095	lehentasunezko	lehentasunezkoa
+96	6096	esklabotza	esklabotzan esklabotzarik esklabotzatik
+97	6097	mojito	mojitoak mojitoengatik
+98	6098	betaurrekodun	betaurrekoduna
+99	6099	likidazio	likidazioa likidazioen likidaziorekin
+100	6100	kanela	kanelarekin

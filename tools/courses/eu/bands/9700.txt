@@ -1,100 +1,100 @@
-1	9601	guacamole	
-2	9602	fotoi	
-3	9603	elegia	
-4	9604	anafilaxi	anafilaxia
-5	9605	bixkotx	bixkotxa
-6	9606	kontsentsu	kontsentsurik
-7	9607	estola	
-8	9608	zozketatu	zozketatuko
-9	9609	purifikatu	
-10	9610	altzifre	altzifrea
-11	9611	estatiko	estatikoak
-12	9612	miter	mitera
-13	9613	usu	usuri
-14	9614	itxuraldatze	itxuraldatzeko
-15	9615	gripearen	
-16	9616	andeatu	
-17	9617	bizipoz	bizipoza
-18	9618	protestantismo	protestantismoa
-19	9619	taxidermista	
-20	9620	gradualki	
-21	9621	lurraldetasun	lurraldetasuna
-22	9622	gelba	gelbak
-23	9623	gaurkotu	
-24	9624	tronpetari	
-25	9625	leizezulo	leizezuloetako
-26	9626	hurrupa	
-27	9627	trapuketari	
-28	9628	intuitibo	intuitiboa
-29	9629	lakoi	
-30	9630	artatxori	artatxoriak
-31	9631	abemaria	
-32	9632	lepamagal	lepamagala
-33	9633	artifizialki	
-34	9634	prezipitazio	prezipitazioak
-35	9635	osin	
-36	9636	trigonometria	
-37	9637	seiehun	
-38	9638	lipar	
-39	9639	xenon	
-40	9640	memorizazio	memorizazioa
-41	9641	neon	
-42	9642	silizio	silizioaren
-43	9643	silizioa	silizioaren
-44	9644	izotzaldi	izotzaldia
-45	9645	zazpidun	zazpiduna
-46	9646	gurutzefika	
-47	9647	neurasteniko	neurastenikoa
-48	9648	baritono	baritonoak
-49	9649	liken	
-50	9650	paraplegiko	paraplegikoentzat
-51	9651	sorgintzaile	sorgintzailea
-52	9652	trizeps	trizepsak
-53	9653	gaztanbera	
-54	9654	bilagailu	
-55	9655	separatista	
-56	9656	korrelazio	korrelazioa
-57	9657	karranpa	
-58	9658	kusi	kusiko
-59	9659	isilaldi	
-60	9660	autodidakta	
-61	9661	janleku	janlekua
-62	9662	eklipsatu	
-63	9663	fotografia	
-64	9664	lumatxo	lumatxoak
-65	9665	kredo	kredoa
-66	9666	kardu	karduak
-67	9667	amniozentesi	amniozentesia
-68	9668	eraisketa	
-69	9669	blok	bloka
-70	9670	fetitxismo	
-71	9671	butano	
-72	9672	topografia	
-73	9673	galesera	
-74	9674	lanbrotsu	lanbrotsuak
-75	9675	errespetugabe	errespetugabea
-76	9676	ornogabe	
-77	9677	usin	
-78	9678	kanariar	
-79	9679	berriztagarri	
-80	9680	autokontrol	autokontrola
-81	9681	tokata	
-82	9682	handizkako	
-83	9683	infinituki	
-84	9684	fagot	fagota
-85	9685	pintada	pintadak
-86	9686	ereduzko	
-87	9687	gorozki	gorozkiak
-88	9688	bularki	bularkia
-89	9689	sakristia	sakristian
-90	9690	saxofoi	saxofoia
-91	9691	txizagura	
-92	9692	okupa	
-93	9693	buztinezko	
-94	9694	proiektatzaile	proiektatzailea
-95	9695	hunkibera	
-96	9696	itxaro	
-97	9697	dindirri	dindirria
-98	9698	anakroniko	anakronikoa
-99	9699	bildoski	bildoskia
-100	9700	aitakide	
+1	9601	erreginagai	
+2	9602	guacamole	
+3	9603	fotoi	
+4	9604	elegia	
+5	9605	anafilaxi	anafilaxia
+6	9606	bixkotx	bixkotxa
+7	9607	kontsentsu	kontsentsurik
+8	9608	estola	
+9	9609	zozketatu	zozketatuko
+10	9610	purifikatu	
+11	9611	altzifre	altzifrea
+12	9612	estatiko	estatikoak
+13	9613	miter	mitera
+14	9614	usu	usuri
+15	9615	itxuraldatze	itxuraldatzeko
+16	9616	gripearen	
+17	9617	andeatu	
+18	9618	bizipoz	bizipoza
+19	9619	protestantismo	protestantismoa
+20	9620	taxidermista	
+21	9621	gradualki	
+22	9622	lurraldetasun	lurraldetasuna
+23	9623	gelba	gelbak
+24	9624	gaurkotu	
+25	9625	tronpetari	
+26	9626	leizezulo	leizezuloetako
+27	9627	hurrupa	
+28	9628	trapuketari	
+29	9629	intuitibo	intuitiboa
+30	9630	lakoi	
+31	9631	artatxori	artatxoriak
+32	9632	abemaria	
+33	9633	lepamagal	lepamagala
+34	9634	artifizialki	
+35	9635	prezipitazio	prezipitazioak
+36	9636	osin	
+37	9637	trigonometria	
+38	9638	seiehun	
+39	9639	lipar	
+40	9640	xenon	
+41	9641	memorizazio	memorizazioa
+42	9642	neon	
+43	9643	silizio	silizioaren
+44	9644	silizioa	silizioaren
+45	9645	izotzaldi	izotzaldia
+46	9646	zazpidun	zazpiduna
+47	9647	gurutzefika	
+48	9648	neurasteniko	neurastenikoa
+49	9649	baritono	baritonoak
+50	9650	liken	
+51	9651	paraplegiko	paraplegikoentzat
+52	9652	sorgintzaile	sorgintzailea
+53	9653	trizeps	trizepsak
+54	9654	gaztanbera	
+55	9655	bilagailu	
+56	9656	separatista	
+57	9657	korrelazio	korrelazioa
+58	9658	karranpa	
+59	9659	kusi	kusiko
+60	9660	isilaldi	
+61	9661	autodidakta	
+62	9662	janleku	janlekua
+63	9663	eklipsatu	
+64	9664	fotografia	
+65	9665	lumatxo	lumatxoak
+66	9666	kredo	kredoa
+67	9667	kardu	karduak
+68	9668	amniozentesi	amniozentesia
+69	9669	eraisketa	
+70	9670	blok	bloka
+71	9671	fetitxismo	
+72	9672	butano	
+73	9673	topografia	
+74	9674	galesera	
+75	9675	lanbrotsu	lanbrotsuak
+76	9676	errespetugabe	errespetugabea
+77	9677	ornogabe	
+78	9678	usin	
+79	9679	kanariar	
+80	9680	berriztagarri	
+81	9681	autokontrol	autokontrola
+82	9682	tokata	
+83	9683	handizkako	
+84	9684	infinituki	
+85	9685	fagot	fagota
+86	9686	pintada	pintadak
+87	9687	ereduzko	
+88	9688	gorozki	gorozkiak
+89	9689	bularki	bularkia
+90	9690	sakristia	sakristian
+91	9691	saxofoi	saxofoia
+92	9692	txizagura	
+93	9693	okupa	
+94	9694	buztinezko	
+95	9695	proiektatzaile	proiektatzailea
+96	9696	hunkibera	
+97	9697	itxaro	
+98	9698	dindirri	dindirria
+99	9699	anakroniko	anakronikoa
+100	9700	bildoski	bildoskia

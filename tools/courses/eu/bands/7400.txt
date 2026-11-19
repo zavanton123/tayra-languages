@@ -1,100 +1,100 @@
-1	7301	mutilzahar	mutilzaharra mutilzaharrak
-2	7302	siberiar	siberiara siberiarra siberiarrak
-3	7303	ortopediko	ortopedikoa ortopedikoak ortopedikoaren
-4	7304	kortse	kortsea kortseak
-5	7305	soldatzaile	soldatzailea soldatzaileen
-6	7306	dastamen	dastamena dastamenarekin
-7	7307	igeriketa	igeriketara igeriketarekin
-8	7308	disekzio	disekzioa disekzioan
-9	7309	gelatxo	gelatxoan gelatxora
-10	7310	abdominal	abdominalak abdominalik
-11	7311	kalapita	kalapitan kalapitarik
-12	7312	gorpuzki	gorpuzkia gorpuzkiak
-13	7313	fisiologia	fisiologiaren fisiologiari
-14	7314	anormal	anormala anormalak anormalena
-15	7315	akre	akreko akrekoa
-16	7316	gepardo	gepardoa gepardoak
-17	7317	klip	klipak klipekin
-18	7318	gaztaina	gaztainak gaztainez
-19	7319	fereka	ferekak ferekarik
-20	7320	finantzaketa	finantzaketak finantzaketaren
-21	7321	logistika	logistikan logistikaz
-22	7322	sedimentu	sedimentuak sedimentuz
-23	7323	garestitu	garestitzeko garestitzera
-24	7324	iparramerikar	iparramerikarra iparramerikarren
-25	7325	kalumnia	kalumniaz kalumniengatik
-26	7326	faisai	faisaia faisaiak
-27	7327	moketa	moketako moketan moketaz
-28	7328	taldekatu	taldeka taldekatze taldekatzen
-29	7329	telefonista	telefonistak telefonistaz
-30	7330	marrazkilari	marrazkilaria marrazkilariaz
-31	7331	konstruktibo	konstruktiboak konstruktiboekin
-32	7332	kebab	kebaba kebabean
-33	7333	sinkronia	sinkronian sinkroniaz
-34	7334	oxido	oxidoaren oxidoari
-35	7335	gomendagarri	gomendagarria gomendagarriak gomendagarriaren
-36	7336	txibia	txibi txibiak txibiaren
-37	7337	pintxo	pintxoak
-38	7338	etxezulo	etxezuloa etxezuloan etxezuloz
-39	7339	errei	erreia erreian erreiez
-40	7340	jatordu	jatordua jatorduek jatorduko
-41	7341	jugoslaviar	jugoslaviarra
-42	7342	erpin	erpina erpinean erpinera
-43	7343	berakatz	berakatza
-44	7344	mutatu	mutatua mutatzeko
-45	7345	izartsu	izartsua izartsurantz
-46	7346	bururdi	bururdiak bururditik
-47	7347	oda	odei
-48	7348	elurtza	elurtzan
-49	7349	minigona	minigonak
-50	7350	kipula	kipulak kipularekin
-51	7351	sintonizatu	sintonizatuta sintonizatzen
-52	7352	pose	posea poseak
-53	7353	jasangarri	jasangarria jasangarriago jasangarriagoa
-54	7354	arranditsu	arranditsua
-55	7355	bozkario	bozkarioa bozkarioz
-56	7356	mikroskopio	mikroskopioa mikroskopioarekin mikroskopioz
-57	7357	neurotransmisore	neurotransmisorea neurotransmisorearen neurotransmisoreen
-58	7358	astronomo	astronomoa
-59	7359	ekologista	ekologistei ekologistek ekologistekin
-60	7360	napalm	napalma napalmik
-61	7361	kurbadura	kurbadurak kurbaduran kurbaduraren
-62	7362	kolon	kolonen
-63	7363	artisau	artisauak artisauaren
-64	7364	bahitura	bahiturak bahituran
-65	7365	karamelu	karamelua karameluak
-66	7366	islandiar	islandiarrak islandiarrek
-67	7367	argitalpen	argitalpenak argitalpenen
-68	7368	menditar	menditarra menditarrena
-69	7369	artiko	artikoa artikoaren artikoko artikora
-70	7370	probidentzia	probidentziak probidentziaren probidentziaz
-71	7371	titare	titarea titarerik
-72	7372	berrirakurri	berrirakurtzen
-73	7373	biluztasun	biluztasuna
-74	7374	txirrista	txirristaren
-75	7375	saihetsezin	saihetsezina saihetsezinak
-76	7376	zapal	zapala zapalago zapalak zapalekin
-77	7377	kalkulagailu	kalkulagailua kalkulagailuak kalkulagailuan
-78	7378	kasta	kastakoa kastaren
-79	7379	kloro	kloroa kloroak
-80	7380	betearazle	betearazlea betearazleko
-81	7381	arintasun	arintasuna arintasunez
-82	7382	dioxido	dioxidoa dioxidoaren dioxidoren
-83	7383	yuppie	yuppieak yuppieari
-84	7384	igorgailu	igorgailua igorgailurako igorgailurik
-85	7385	intsulina	intsulinako intsulinaren
-86	7386	kateme	katemea katemeak
-87	7387	eskirol	eskirola eskirolak
-88	7388	purutasun	purutasuna purutasunean
-89	7389	kokospeko	kokospekoa kokospekorik
-90	7390	edaritegi	edaritegia edaritegian edaritegiko
-91	7391	ikastegi	ikastegia ikastegian ikastegiaren
-92	7392	elizkoi	elizkoia elizkoiek
-93	7393	deskribaezin	deskribaezina
-94	7394	maniki	manikia manikiak
-95	7395	zirkular	zirkularra zirkularrak zirkularrean
-96	7396	akrobazia	akrobaziak akrobaziarekin
-97	7397	trakzio	trakzioa trakzioarekin
-98	7398	indultu	indultua indultuari indultuek indultuekin
-99	7399	obsesibo	obsesiboa obsesiboen
-100	7400	lodiera	lodierako
+1	7301	udalkide	udalkidea udalkideek udalkideok
+2	7302	mutilzahar	mutilzaharra mutilzaharrak
+3	7303	siberiar	siberiara siberiarra siberiarrak
+4	7304	ortopediko	ortopedikoa ortopedikoak ortopedikoaren
+5	7305	kortse	kortsea kortseak
+6	7306	soldatzaile	soldatzailea soldatzaileen
+7	7307	dastamen	dastamena dastamenarekin
+8	7308	igeriketa	igeriketara igeriketarekin
+9	7309	disekzio	disekzioa disekzioan
+10	7310	gelatxo	gelatxoan gelatxora
+11	7311	abdominal	abdominalak abdominalik
+12	7312	kalapita	kalapitan kalapitarik
+13	7313	gorpuzki	gorpuzkia gorpuzkiak
+14	7314	fisiologia	fisiologiaren fisiologiari
+15	7315	anormal	anormala anormalak anormalena
+16	7316	akre	akreko akrekoa
+17	7317	gepardo	gepardoa gepardoak
+18	7318	klip	klipak klipekin
+19	7319	gaztaina	gaztainak gaztainez
+20	7320	fereka	ferekak ferekarik
+21	7321	finantzaketa	finantzaketak finantzaketaren
+22	7322	logistika	logistikan logistikaz
+23	7323	sedimentu	sedimentuak sedimentuz
+24	7324	garestitu	garestitzeko garestitzera
+25	7325	iparramerikar	iparramerikarra iparramerikarren
+26	7326	kalumnia	kalumniaz kalumniengatik
+27	7327	faisai	faisaia faisaiak
+28	7328	moketa	moketako moketan moketaz
+29	7329	taldekatu	taldeka taldekatze taldekatzen
+30	7330	telefonista	telefonistak telefonistaz
+31	7331	marrazkilari	marrazkilaria marrazkilariaz
+32	7332	konstruktibo	konstruktiboak konstruktiboekin
+33	7333	kebab	kebaba kebabean
+34	7334	sinkronia	sinkronian sinkroniaz
+35	7335	oxido	oxidoaren oxidoari
+36	7336	gomendagarri	gomendagarria gomendagarriak gomendagarriaren
+37	7337	txibia	txibi txibiak txibiaren
+38	7338	pintxo	pintxoak
+39	7339	etxezulo	etxezuloa etxezuloan etxezuloz
+40	7340	errei	erreia erreian erreiez
+41	7341	jatordu	jatordua jatorduek jatorduko
+42	7342	jugoslaviar	jugoslaviarra
+43	7343	erpin	erpina erpinean erpinera
+44	7344	berakatz	berakatza
+45	7345	mutatu	mutatua mutatzeko
+46	7346	izartsu	izartsua izartsurantz
+47	7347	bururdi	bururdiak bururditik
+48	7348	oda	odei
+49	7349	elurtza	elurtzan
+50	7350	minigona	minigonak
+51	7351	kipula	kipulak kipularekin
+52	7352	sintonizatu	sintonizatuta sintonizatzen
+53	7353	pose	posea poseak
+54	7354	jasangarri	jasangarria jasangarriago jasangarriagoa
+55	7355	arranditsu	arranditsua
+56	7356	bozkario	bozkarioa bozkarioz
+57	7357	mikroskopio	mikroskopioa mikroskopioarekin mikroskopioz
+58	7358	neurotransmisore	neurotransmisorea neurotransmisorearen neurotransmisoreen
+59	7359	astronomo	astronomoa
+60	7360	ekologista	ekologistei ekologistek ekologistekin
+61	7361	napalm	napalma napalmik
+62	7362	kurbadura	kurbadurak kurbaduran kurbaduraren
+63	7363	kolon	kolonen
+64	7364	artisau	artisauak artisauaren
+65	7365	bahitura	bahiturak bahituran
+66	7366	karamelu	karamelua karameluak
+67	7367	islandiar	islandiarrak islandiarrek
+68	7368	argitalpen	argitalpenak argitalpenen
+69	7369	menditar	menditarra menditarrena
+70	7370	artiko	artikoa artikoaren artikoko artikora
+71	7371	probidentzia	probidentziak probidentziaren probidentziaz
+72	7372	titare	titarea titarerik
+73	7373	berrirakurri	berrirakurtzen
+74	7374	biluztasun	biluztasuna
+75	7375	txirrista	txirristaren
+76	7376	saihetsezin	saihetsezina saihetsezinak
+77	7377	zapal	zapala zapalago zapalak zapalekin
+78	7378	kalkulagailu	kalkulagailua kalkulagailuak kalkulagailuan
+79	7379	kasta	kastakoa kastaren
+80	7380	kloro	kloroa kloroak
+81	7381	betearazle	betearazlea betearazleko
+82	7382	arintasun	arintasuna arintasunez
+83	7383	dioxido	dioxidoa dioxidoaren dioxidoren
+84	7384	yuppie	yuppieak yuppieari
+85	7385	igorgailu	igorgailua igorgailurako igorgailurik
+86	7386	intsulina	intsulinako intsulinaren
+87	7387	kateme	katemea katemeak
+88	7388	eskirol	eskirola eskirolak
+89	7389	purutasun	purutasuna purutasunean
+90	7390	kokospeko	kokospekoa kokospekorik
+91	7391	edaritegi	edaritegia edaritegian edaritegiko
+92	7392	ikastegi	ikastegia ikastegian ikastegiaren
+93	7393	elizkoi	elizkoia elizkoiek
+94	7394	deskribaezin	deskribaezina
+95	7395	maniki	manikia manikiak
+96	7396	zirkular	zirkularra zirkularrak zirkularrean
+97	7397	akrobazia	akrobaziak akrobaziarekin
+98	7398	trakzio	trakzioa trakzioarekin
+99	7399	indultu	indultua indultuari indultuek indultuekin
+100	7400	obsesibo	obsesiboa obsesiboen

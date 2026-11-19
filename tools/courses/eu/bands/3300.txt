@@ -1,100 +1,100 @@
-1	3201	berrogeialdi	berrogeialdia berrogeialdiak berrogeialdian berrogeialdiaren berrogeialdiko berrogeialdira berrogeialdirik berrogeialditik
-2	3202	psikologiko	psikologikoa psikologikoak psikologikoari psikologikoengatik psikologikoetan psikologikorik psikologikotik
-3	3203	estolda	estoldak estoldako estoldarantz estoldatik estoldetako estoldetan estoldetara estoldetatik
-4	3204	gainbehera	gainbeheran gainbeheraren gainbeherari
-5	3205	desaktibatu	desaktiba desaktibatuko desaktibatuta desaktibatzea desaktibatzeagatik desaktibatzeko desaktibatzen
-6	3206	independente	independentea independenteak independenteegia independenteko
-7	3207	manipulatu	manipulatuko manipulatuta manipulatzea manipulatzeagatik manipulatzeko manipulatzen
-8	3208	estaldura	estaldurarekin estalduraren estaldurarik estalduratik estalduraz
-9	3209	dibertsio	dibertsioa dibertsioagatik dibertsioak dibertsioaren dibertsiorako dibertsiorik dibertsioz
-10	3210	organo	organoa organoak organoan organoaren organoek organoen
-11	3211	fisikoki	
-12	3212	atzelari	atzelaria atzelariak atzelarien atzelariok atzelaririk
-13	3213	orraztu	orraz orraztea orrazteari orrazteko orrazten orraztera orraztuko orraztuta
-14	3214	aireratu	airera aireratuko aireratze aireratzea aireratzean aireratzeko aireratzen aireratzera
-15	3215	marina	marinak marinako marinakoa marinakoak marinan marinara marinaren marinari marinetan marinok
-16	3216	akademia	akademiak akademiakoa akademian akademiara akademiarako akademiarentzat akademiari akademiatik akademiaz akademietatik
-17	3217	jipoi	jipoia jipoiagatik jipoiak jipoiaren jipoiaz jipoiekin jipoirik
-18	3218	marea	mareak mareako marearekin marearen mareari mareei mareetako
-19	3219	erregistratu	erregistratua erregistratuak erregistratuko erregistratuta erregistratutako erregistratuz erregistratzea erregistratzen erregistratzera
-20	3220	berdintasun	berdintasuna berdintasunagatik berdintasunak berdintasunarekin berdintasunaren berdintasunari berdintasunaz berdintasunean berdintasuneko
-21	3221	espaloi	espaloia espaloiak espaloian espaloiaren espaloietako espaloietan espaloiko espaloikoa espaloira espaloiraino espaloitik
-22	3222	aberri	aberria aberriagatik aberriak aberrian aberriaren aberriarengatik aberriarentzat aberriko aberritik
-23	3223	kanoi	kanoia kanoiak kanoian kanoiaren kanoiek kanoien kanoietatik kanoirik
-24	3224	larre	larrea larreak larrean larrearen larreen larreetan larreetatik larreez larreko larrera larretan
-25	3225	entzule	entzulea entzuleak entzuleari entzuleei entzuleek entzuleen entzuleentzat entzuleetako entzuleok entzulez
-26	3226	erabilera	erabilerarako erabileraren erabilerari erabilerarik
-27	3227	miaketa	miaketak miaketan miaketaren miaketatik miaketei
-28	3228	ekimen	ekimena ekimenagatik ekimenak ekimenaren ekimenengatik ekimenetan ekimenez ekimenik
-29	3229	bertute	bertutea bertuteak bertutean bertutearen bertuteari bertuteei bertuteek bertutez
-30	3230	adimentsu	adimentsua adimentsuago adimentsuagoak adimentsuak adimentsuaren adimentsuegia adimentsuekin adimentsuen adimentsuena adimentsuko
-31	3231	elektroniko	elektronikoa elektronikoak elektronikoan elektronikoari elektronikoek elektronikoekin elektronikora elektronikoz
-32	3232	blues	bluesa blueseko bluesen
-33	3233	txirrin	txirrina txirrinak txirrinari txirrinik
-34	3234	mozolo	mozoloa mozoloak mozoloek mozoloren
-35	3235	inurri	inurria inurriak inurriek inurriekin inurrien
-36	3236	finantza	finantzak finantzako finantzei finantzen finantzetako finantzetan finantzetara finantzez
-37	3237	detektatu	detekta detektatua detektatuko detektatzea detektatzeko detektatzen
-38	3238	freskagarri	freskagarria freskagarriak freskagarrien freskagarririk
-39	3239	noizbehinka	
-40	3240	danba	
-41	3241	tarteka	
-42	3242	gala	galak galako galan galara galarako galaren galatako galatan galatik galekin galen
-43	3243	gur	gurak gurari gurean gurera gurerantz gurik
-44	3244	txoko	txokoa txokoak txokoan txokoetan txokoko txokora txokotan txokotik
-45	3245	berregin	berregina berreginak berreginda berregindako berreginen berregingo berregitea berregitearen berregiteko berregiten berregitera
-46	3246	infinitu	infinitua infinituak infinituaren infinituen infinituena infinituetan infinituko infinitura infinituraino infiniturako
-47	3247	flash	flasha flashagatik flashak flasharekin flashekin flashen flashik
-48	3248	jakinmin	jakinmina jakinminagatik jakinminak jakinminarekin jakinminarengatik jakinminez jakinminik
-49	3249	argitsu	argitsua argitsuak argitsuaren argitsuegia argitsuen argitsuena argitsuk
-50	3250	literatura	literaturak literaturako literaturan literaturaren literaturaz
-51	3251	langabezia	langabeziak langabezian langabeziara langabeziarekin langabeziaren langabeziari
-52	3252	sinesgarri	sinesgarria sinesgarriagoa sinesgarriak sinesgarrian sinesgarriekin sinesgarriena sinesgarriren sinesgarritzat
-53	3253	errebelde	errebeldea errebeldeak errebeldearekin errebeldeek errebeldeekin errebeldeen errebeldeentzat errebelderen
-54	3254	sektore	sektorea sektoreak sektorean sektoreen sektoreetan sektoreko sektorera sektoretik
-55	3255	justifikatu	justifika justifikatua justifikatuko justifikatuta justifikatutako justifikatzeko justifikatzen
-56	3256	laba	labak laban labaz
-57	3257	afera	aferak aferan aferaren aferari aferarik aferaz aferei aferetan
-58	3258	estra	estrak estrarekin estrarik estrei
-59	3259	kulunkatu	kulunka kulunkatuko kulunkatzen
-60	3260	koitadu	koitadua koitaduak koitaduarentzat koitaduari
-61	3261	argazkilari	argazkilaria argazkilariak argazkilariei argazkilariek argazkilariekin argazkilaririk
-62	3262	mingain	mingaina mingainak mingainarekin mingainari mingainean mingainetik mingainik
-63	3263	erle	erleak erlearen erleei erleek erleez erlerik
-64	3264	asiar	asiara asiaren asiarra asiarrak asiarrei asiarrekin asiarren asiarrena asiarrik
-65	3265	jario	jarioa jarioak jarioan jarioaz jariotzen
-66	3266	igarle	igarlea igarleak igarlearen igarleari igarleek igarleen igarlerik
-67	3267	zabortegi	zabortegia zabortegian zabortegiaren zabortegietan zabortegiko zabortegira zabortegirik zabortegitik
-68	3268	urakan	urakana urakanak urakanarekin urakanaren urakanari urakanekin urakanen urakanerako urakanik
-69	3269	zaratatsu	zaratatsua zaratatsuak zaratatsuegia zaratatsuegiak zaratatsuekin zaratatsuena zaratatsurik
-70	3270	sendi	sendia sendiak sendian sendiarekin sendiaren sendiarengana sendiari sendiaz sendiko senditik
-71	3271	gehienbat	
-72	3272	enplegatu	enplegatua enplegatuak enplegaturik
-73	3273	burtsa	burtsak burtsako burtsan burtsara burtsaren burtsari burtsetatik
-74	3274	eskiatu	eskia eskiatzea eskiatzeak eskiatzeko eskiatzen eskiatzera
-75	3275	zorroztu	zorroz zorroztea zorrozteko zorrozten zorroztua zorroztuak zorroztuko zorrozturik zorroztuta zorroztutako zorroztuz
-76	3276	moto	motoa motoak motoan motoarekin motoei motora mototik motoz
-77	3277	muntatu	muntatuko muntatuta muntatzea muntatzeko muntatzen
-78	3278	ikatz	ikatza ikatzak ikatzarekin ikatzaren ikatzari ikatzaz ikatzean ikatzik
-79	3279	laser	laserra laserrak laserrarekin laserraren laserrari laserrekin laserrik
-80	3280	gripe	gripea gripeak gripearekin gripeaz gripera griperik gripez
-81	3281	artaburu	artaburua artaburuak artaburuaren artaburuek artaburuekin artaburuen artaburuok
-82	3282	fitxategi	fitxategia fitxategiak fitxategian fitxategiaren fitxategien fitxategietako fitxategietan fitxategira fitxategitik
-83	3283	fakultate	fakultatea fakultatean fakultateari fakultateko fakultatekoa fakultatera fakultaterako fakultaterik fakultatetik
-84	3284	suziri	suziria suziriak suzirian suziriarekin suziriaren suziriekin suzirien suzirira suziririk
-85	3285	final	finala finalak finalean finalei finaleko finalen finalera finaleraino finalerako finaletan finaletara
-86	3286	erridikulu	erridikulua erridikuluak erridikuluan erridikulurik
-87	3287	gutizia	gutiziak gutiziarekin gutiziarik gutizien gutiziengatik gutizietan
-88	3288	estela	estelak estelarekin estelaren estelari
-89	3289	dortoka	dortokak dortokaren dortokek dortoken
-90	3290	errekor	errekorra errekorrak errekorrari errekorraz errekorrei errekorren
-91	3291	faborito	faboritoa faboritoak faboritoan faboritoarekin faboritoaren faboritoen faboritoetako faboritorik
-92	3292	derrigortu	derrigor derrigortua derrigortuko derrigortuta derrigortutako derrigortzea derrigortzen
-93	3293	kezkagarri	kezkagarria kezkagarriagoa kezkagarriak kezkagarriena kezkagarririk kezkagarriz
-94	3294	irmo	irmoa irmoagoa irmoegi irmoena irmoko irmorik irmotik
-95	3295	musker	muskerra muskerrak muskerrarekin muskerraren muskerrei muskerrek
-96	3296	arduragabe	arduragabea arduragabeak arduragabean arduragabeegia arduragabeena arduragabeko
-97	3297	azentu	azentua azentuagatik azentuarekin azentuarengatik azentuentzat azenturik
-98	3298	eroetxe	eroetxea eroetxeak eroetxean eroetxera eroetxetik eroetxez
-99	3299	hegalari	hegalaria hegalariak hegalariei hegalarien hegalarietan hegalarietara hegalariren hegalaririk
-100	3300	gordeleku	gordelekua gordelekuan gordelekuetan gordelekuetara gordelekura gordelekurik gordelekutik gordelekutzat
+1	3201	psikologiko	psikologikoa psikologikoak psikologikoari psikologikoengatik psikologikoetan psikologikorik psikologikotik
+2	3202	estolda	estoldak estoldako estoldarantz estoldatik estoldetako estoldetan estoldetara estoldetatik
+3	3203	gainbehera	gainbeheran gainbeheraren gainbeherari
+4	3204	desaktibatu	desaktiba desaktibatuko desaktibatuta desaktibatzea desaktibatzeagatik desaktibatzeko desaktibatzen
+5	3205	independente	independentea independenteak independenteegia independenteko
+6	3206	manipulatu	manipulatuko manipulatuta manipulatzea manipulatzeagatik manipulatzeko manipulatzen
+7	3207	estaldura	estaldurarekin estalduraren estaldurarik estalduratik estalduraz
+8	3208	dibertsio	dibertsioa dibertsioagatik dibertsioak dibertsioaren dibertsiorako dibertsiorik dibertsioz
+9	3209	organo	organoa organoak organoan organoaren organoek organoen
+10	3210	fisikoki	
+11	3211	atzelari	atzelaria atzelariak atzelarien atzelariok atzelaririk
+12	3212	orraztu	orraz orraztea orrazteari orrazteko orrazten orraztera orraztuko orraztuta
+13	3213	aireratu	airera aireratuko aireratze aireratzea aireratzean aireratzeko aireratzen aireratzera
+14	3214	marina	marinak marinako marinakoa marinakoak marinan marinara marinaren marinari marinetan marinok
+15	3215	akademia	akademiak akademiakoa akademian akademiara akademiarako akademiarentzat akademiari akademiatik akademiaz akademietatik
+16	3216	jipoi	jipoia jipoiagatik jipoiak jipoiaren jipoiaz jipoiekin jipoirik
+17	3217	marea	mareak mareako marearekin marearen mareari mareei mareetako
+18	3218	erregistratu	erregistratua erregistratuak erregistratuko erregistratuta erregistratutako erregistratuz erregistratzea erregistratzen erregistratzera
+19	3219	berdintasun	berdintasuna berdintasunagatik berdintasunak berdintasunarekin berdintasunaren berdintasunari berdintasunaz berdintasunean berdintasuneko
+20	3220	espaloi	espaloia espaloiak espaloian espaloiaren espaloietako espaloietan espaloiko espaloikoa espaloira espaloiraino espaloitik
+21	3221	aberri	aberria aberriagatik aberriak aberrian aberriaren aberriarengatik aberriarentzat aberriko aberritik
+22	3222	kanoi	kanoia kanoiak kanoian kanoiaren kanoiek kanoien kanoietatik kanoirik
+23	3223	larre	larrea larreak larrean larrearen larreen larreetan larreetatik larreez larreko larrera larretan
+24	3224	entzule	entzulea entzuleak entzuleari entzuleei entzuleek entzuleen entzuleentzat entzuleetako entzuleok entzulez
+25	3225	erabilera	erabilerarako erabileraren erabilerari erabilerarik
+26	3226	miaketa	miaketak miaketan miaketaren miaketatik miaketei
+27	3227	ekimen	ekimena ekimenagatik ekimenak ekimenaren ekimenengatik ekimenetan ekimenez ekimenik
+28	3228	bertute	bertutea bertuteak bertutean bertutearen bertuteari bertuteei bertuteek bertutez
+29	3229	adimentsu	adimentsua adimentsuago adimentsuagoak adimentsuak adimentsuaren adimentsuegia adimentsuekin adimentsuen adimentsuena adimentsuko
+30	3230	elektroniko	elektronikoa elektronikoak elektronikoan elektronikoari elektronikoek elektronikoekin elektronikora elektronikoz
+31	3231	blues	bluesa blueseko bluesen
+32	3232	txirrin	txirrina txirrinak txirrinari txirrinik
+33	3233	mozolo	mozoloa mozoloak mozoloek mozoloren
+34	3234	inurri	inurria inurriak inurriek inurriekin inurrien
+35	3235	finantza	finantzak finantzako finantzei finantzen finantzetako finantzetan finantzetara finantzez
+36	3236	detektatu	detekta detektatua detektatuko detektatzea detektatzeko detektatzen
+37	3237	freskagarri	freskagarria freskagarriak freskagarrien freskagarririk
+38	3238	noizbehinka	
+39	3239	danba	
+40	3240	tarteka	
+41	3241	gala	galak galako galan galara galarako galaren galatako galatan galatik galekin galen
+42	3242	gur	gurak gurari gurean gurera gurerantz gurik
+43	3243	txoko	txokoa txokoak txokoan txokoetan txokoko txokora txokotan txokotik
+44	3244	berregin	berregina berreginak berreginda berregindako berreginen berregingo berregitea berregitearen berregiteko berregiten berregitera
+45	3245	infinitu	infinitua infinituak infinituaren infinituen infinituena infinituetan infinituko infinitura infinituraino infiniturako
+46	3246	flash	flasha flashagatik flashak flasharekin flashekin flashen flashik
+47	3247	jakinmin	jakinmina jakinminagatik jakinminak jakinminarekin jakinminarengatik jakinminez jakinminik
+48	3248	argitsu	argitsua argitsuak argitsuaren argitsuegia argitsuen argitsuena argitsuk
+49	3249	literatura	literaturak literaturako literaturan literaturaren literaturaz
+50	3250	langabezia	langabeziak langabezian langabeziara langabeziarekin langabeziaren langabeziari
+51	3251	sinesgarri	sinesgarria sinesgarriagoa sinesgarriak sinesgarrian sinesgarriekin sinesgarriena sinesgarriren sinesgarritzat
+52	3252	errebelde	errebeldea errebeldeak errebeldearekin errebeldeek errebeldeekin errebeldeen errebeldeentzat errebelderen
+53	3253	sektore	sektorea sektoreak sektorean sektoreen sektoreetan sektoreko sektorera sektoretik
+54	3254	justifikatu	justifika justifikatua justifikatuko justifikatuta justifikatutako justifikatzeko justifikatzen
+55	3255	laba	labak laban labaz
+56	3256	afera	aferak aferan aferaren aferari aferarik aferaz aferei aferetan
+57	3257	estra	estrak estrarekin estrarik estrei
+58	3258	kulunkatu	kulunka kulunkatuko kulunkatzen
+59	3259	koitadu	koitadua koitaduak koitaduarentzat koitaduari
+60	3260	argazkilari	argazkilaria argazkilariak argazkilariei argazkilariek argazkilariekin argazkilaririk
+61	3261	mingain	mingaina mingainak mingainarekin mingainari mingainean mingainetik mingainik
+62	3262	erle	erleak erlearen erleei erleek erleez erlerik
+63	3263	asiar	asiara asiaren asiarra asiarrak asiarrei asiarrekin asiarren asiarrena asiarrik
+64	3264	jario	jarioa jarioak jarioan jarioaz jariotzen
+65	3265	igarle	igarlea igarleak igarlearen igarleari igarleek igarleen igarlerik
+66	3266	zabortegi	zabortegia zabortegian zabortegiaren zabortegietan zabortegiko zabortegira zabortegirik zabortegitik
+67	3267	urakan	urakana urakanak urakanarekin urakanaren urakanari urakanekin urakanen urakanerako urakanik
+68	3268	zaratatsu	zaratatsua zaratatsuak zaratatsuegia zaratatsuegiak zaratatsuekin zaratatsuena zaratatsurik
+69	3269	sendi	sendia sendiak sendian sendiarekin sendiaren sendiarengana sendiari sendiaz sendiko senditik
+70	3270	gehienbat	
+71	3271	enplegatu	enplegatua enplegatuak enplegaturik
+72	3272	burtsa	burtsak burtsako burtsan burtsara burtsaren burtsari burtsetatik
+73	3273	eskiatu	eskia eskiatzea eskiatzeak eskiatzeko eskiatzen eskiatzera
+74	3274	zorroztu	zorroz zorroztea zorrozteko zorrozten zorroztua zorroztuak zorroztuko zorrozturik zorroztuta zorroztutako zorroztuz
+75	3275	moto	motoa motoak motoan motoarekin motoei motora mototik motoz
+76	3276	muntatu	muntatuko muntatuta muntatzea muntatzeko muntatzen
+77	3277	ikatz	ikatza ikatzak ikatzarekin ikatzaren ikatzari ikatzaz ikatzean ikatzik
+78	3278	laser	laserra laserrak laserrarekin laserraren laserrari laserrekin laserrik
+79	3279	gripe	gripea gripeak gripearekin gripeaz gripera griperik gripez
+80	3280	artaburu	artaburua artaburuak artaburuaren artaburuek artaburuekin artaburuen artaburuok
+81	3281	fitxategi	fitxategia fitxategiak fitxategian fitxategiaren fitxategien fitxategietako fitxategietan fitxategira fitxategitik
+82	3282	fakultate	fakultatea fakultatean fakultateari fakultateko fakultatekoa fakultatera fakultaterako fakultaterik fakultatetik
+83	3283	suziri	suziria suziriak suzirian suziriarekin suziriaren suziriekin suzirien suzirira suziririk
+84	3284	final	finala finalak finalean finalei finaleko finalen finalera finaleraino finalerako finaletan finaletara
+85	3285	erridikulu	erridikulua erridikuluak erridikuluan erridikulurik
+86	3286	gutizia	gutiziak gutiziarekin gutiziarik gutizien gutiziengatik gutizietan
+87	3287	estela	estelak estelarekin estelaren estelari
+88	3288	dortoka	dortokak dortokaren dortokek dortoken
+89	3289	errekor	errekorra errekorrak errekorrari errekorraz errekorrei errekorren
+90	3290	faborito	faboritoa faboritoak faboritoan faboritoarekin faboritoaren faboritoen faboritoetako faboritorik
+91	3291	derrigortu	derrigor derrigortua derrigortuko derrigortuta derrigortutako derrigortzea derrigortzen
+92	3292	kezkagarri	kezkagarria kezkagarriagoa kezkagarriak kezkagarriena kezkagarririk kezkagarriz
+93	3293	irmo	irmoa irmoagoa irmoegi irmoena irmoko irmorik irmotik
+94	3294	musker	muskerra muskerrak muskerrarekin muskerraren muskerrei muskerrek
+95	3295	arduragabe	arduragabea arduragabeak arduragabean arduragabeegia arduragabeena arduragabeko
+96	3296	azentu	azentua azentuagatik azentuarekin azentuarengatik azentuentzat azenturik
+97	3297	eroetxe	eroetxea eroetxeak eroetxean eroetxera eroetxetik eroetxez
+98	3298	hegalari	hegalaria hegalariak hegalariei hegalarien hegalarietan hegalarietara hegalariren hegalaririk
+99	3299	gordeleku	gordelekua gordelekuan gordelekuetan gordelekuetara gordelekura gordelekurik gordelekutik gordelekutzat
+100	3300	danbor	danborra danborrak danborraren danborrari danborrek danborrekin danborrik

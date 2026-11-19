@@ -1,100 +1,100 @@
-1	6301	kutxatila	kutxatilako kutxatilara kutxatilari
-2	6302	lagunarteko	lagunartekoa
-3	6303	irregular	irregularra irregularrak irregularrean
-4	6304	hermetiko	hermetikoa
-5	6305	jukutria	jukutriak jukutriaren
-6	6306	silueta	siluetak siluetekin
-7	6307	katabut	katabuta katabutak katabutean
-8	6308	ehorzketa	ehorzketan ehorzketaren
-9	6309	keroseno	kerosenoa
-10	6310	monopolio	monopolioa monopolioarentzat monopolioaz monopolioen
-11	6311	ganibet	ganibeta ganibetak ganibetarekin
-12	6312	pubis	pubisa pubisean pubiseko pubisetik
-13	6313	zorritsu	zorritsua zorritsuak
-14	6314	guru	gurua guruari
-15	6315	klandestinitate	klandestinitatea klandestinitatean klandestinitatearekin klandestinitatekoak
-16	6316	gelatina	gelatinarik gelatinaz
-17	6317	bekaizkeria	bekaizkeriaren bekaizkeriatik bekaizkeriaz
-18	6318	enda	endakoak endek enden
-19	6319	zekenkeria	zekenkeriaren zekenkeriari
-20	6320	askari	askaria askarirako
-21	6321	sesamo	sesamoa sesamoarekin
-22	6322	tesla	teslak teslaren
-23	6323	antisozial	antisoziala
-24	6324	mimiko	mimikoek mimikoen
-25	6325	lerde	lerdea lerdez
-26	6326	paradoxa	paradoxak paradoxaz
-27	6327	feminista	feministak feministek
-28	6328	eskandalagarri	eskandalagarria eskandalagarriak
-29	6329	bals	balsa balseko
-30	6330	azpiegitura	azpiegiturak azpiegituretarako
-31	6331	espira	espirak espirari
-32	6332	erlategi	erlategiak erlategien erlategietan
-33	6333	esponja	esponjak esponjek esponjen
-34	6334	gorpuzkera	gorpuzkerara gorpuzkeraz
-35	6335	kalifikazio	kalifikazioa kalifikaziorik
-36	6336	galilear	galileara galilearra galilearrarekin galilearraren
-37	6337	eskizofreniko	eskizofrenikoa eskizofrenikoak
-38	6338	ekosistema	ekosistemak ekosistemaren
-39	6339	apetitu	apetitua apetituari
-40	6340	likatsu	likatsua likatsuari likatsuz
-41	6341	arbitrario	arbitrarioa arbitrarioak
-42	6342	pate	patea pateak
-43	6343	bonu	bonua bonuak bonuen
-44	6344	presidenteorde	presidenteordea presidenteordeak
-45	6345	terrore	terrorea terrorearen terrorerik
-46	6346	laukote	laukotea laukotearekin laukoteko
-47	6347	giltzatu	giltzatuta
-48	6348	higatu	higatua higatuko higatuta higatzen
-49	6349	pizgailu	pizgailua
-50	6350	saihesbide	saihesbidea saihesbidearen saihesbidera saihesbidetik
-51	6351	zimendu	zimenduak zimendurik
-52	6352	xal	xala
-53	6353	plazebo	plazeboa
-54	6354	hauskortasun	hauskortasuna hauskortasunagatik
-55	6355	enpresaburu	enpresaburua enpresaburuen enpresaburuez
-56	6356	luzoker	luzokerra luzokerrak
-57	6357	ikerkuntza	ikerkuntzak ikerkuntzan ikerkuntzarako ikerkuntzarik
-58	6358	oboe	oboea oboeak oboeari
-59	6359	tonika	tonikara tonikarekin
-60	6360	esklabista	esklabistak esklabistei esklabistekin
-61	6361	anbiguo	anbiguoa anbiguoak
-62	6362	adarbakar	adarbakarra adarbakarrak adarbakarrei
-63	6363	metastasi	metastasia metastasiaz
-64	6364	bermut	bermuta bermutaz
-65	6365	burdinbide	burdinbideak burdinbidean
-66	6366	akuario	akuarioan akuarioaren akuarioko
-67	6367	justifikazio	justifikazioa justifikaziorik
-68	6368	zaporetsu	zaporetsua zaporetsuagoak zaporetsuak
-69	6369	finantzario	finantzarioa finantzarioak
-70	6370	dezepzio	dezepzioa dezepziorik
-71	6371	tolesgarri	tolesgarria tolesgarriko
-72	6372	haizete	haizetea haizeteek haizeteetatik
-73	6373	enparantza	enparantzan enparantzara
-74	6374	erromero	erromeroa erromeroarekin erromerorik
-75	6375	errazio	errazioa errazioak errazioekin erraziorik
-76	6376	turbulentzia	turbulentziak
-77	6377	plankton	planktona planktonarekin planktonek
-78	6378	krepe	krepea krepeak
-79	6379	finantzari	finantzaria finantzariak finantzariari
-80	6380	jainkotiar	jainkotiarra jainkotiarrak jainkotiarrari jainkotiarren
-81	6381	intsentsu	intsentsua intsentsuaren
-82	6382	zilindro	zilindroa zilindroetan zilindroko zilindrokoa
-83	6383	lehiakor	lehiakorra lehiakorrak
-84	6384	analfabeto	analfabetoa analfabetoaren analfabetoei
-85	6385	hitzontzi	hitzontzia hitzontziak
-86	6386	kakanarru	kakanarrua kakanarruok kakanarruren
-87	6387	ferekatu	ferekatuko ferekatzen
-88	6388	mandragora	mandragorak mandragorari mandragorentzat
-89	6389	fisikari	fisikaria fisikariek fisikarien
-90	6390	emagin	emagina emaginaren emaginei
-91	6391	ahapaldi	ahapaldia ahapaldiak ahapaldiko
-92	6392	barnealde	barnealdea barnealdean barnealdeen barnealdeko
-93	6393	nagusitasun	nagusitasuna nagusitasunari nagusitasunerako
-94	6394	mortu	mortua mortuaren mortuetan
-95	6395	barraskilo	barraskiloak barraskiloek barraskilorik
-96	6396	festibal	festibala festibalera festibalerako
-97	6397	partzial	partziala partzialeko
-98	6398	umiltasun	umiltasuna umiltasunez
-99	6399	subkontziente	subkontzientea subkontzienteak subkontzientean
-100	6400	atzerakoi	atzerakoia atzerakoiak atzerakoiek atzerakoien atzerakoiez
+1	6301	aberaskume	aberaskumea
+2	6302	kutxatila	kutxatilako kutxatilara kutxatilari
+3	6303	lagunarteko	lagunartekoa
+4	6304	irregular	irregularra irregularrak irregularrean
+5	6305	hermetiko	hermetikoa
+6	6306	jukutria	jukutriak jukutriaren
+7	6307	silueta	siluetak siluetekin
+8	6308	katabut	katabuta katabutak katabutean
+9	6309	ehorzketa	ehorzketan ehorzketaren
+10	6310	keroseno	kerosenoa
+11	6311	monopolio	monopolioa monopolioarentzat monopolioaz monopolioen
+12	6312	ganibet	ganibeta ganibetak ganibetarekin
+13	6313	pubis	pubisa pubisean pubiseko pubisetik
+14	6314	zorritsu	zorritsua zorritsuak
+15	6315	guru	gurua guruari
+16	6316	klandestinitate	klandestinitatea klandestinitatean klandestinitatearekin klandestinitatekoak
+17	6317	gelatina	gelatinarik gelatinaz
+18	6318	bekaizkeria	bekaizkeriaren bekaizkeriatik bekaizkeriaz
+19	6319	enda	endakoak endek enden
+20	6320	zekenkeria	zekenkeriaren zekenkeriari
+21	6321	askari	askaria askarirako
+22	6322	sesamo	sesamoa sesamoarekin
+23	6323	tesla	teslak teslaren
+24	6324	antisozial	antisoziala
+25	6325	mimiko	mimikoek mimikoen
+26	6326	lerde	lerdea lerdez
+27	6327	paradoxa	paradoxak paradoxaz
+28	6328	feminista	feministak feministek
+29	6329	eskandalagarri	eskandalagarria eskandalagarriak
+30	6330	bals	balsa balseko
+31	6331	azpiegitura	azpiegiturak azpiegituretarako
+32	6332	espira	espirak espirari
+33	6333	erlategi	erlategiak erlategien erlategietan
+34	6334	esponja	esponjak esponjek esponjen
+35	6335	gorpuzkera	gorpuzkerara gorpuzkeraz
+36	6336	kalifikazio	kalifikazioa kalifikaziorik
+37	6337	galilear	galileara galilearra galilearrarekin galilearraren
+38	6338	eskizofreniko	eskizofrenikoa eskizofrenikoak
+39	6339	ekosistema	ekosistemak ekosistemaren
+40	6340	apetitu	apetitua apetituari
+41	6341	likatsu	likatsua likatsuari likatsuz
+42	6342	arbitrario	arbitrarioa arbitrarioak
+43	6343	pate	patea pateak
+44	6344	bonu	bonua bonuak bonuen
+45	6345	presidenteorde	presidenteordea presidenteordeak
+46	6346	terrore	terrorea terrorearen terrorerik
+47	6347	laukote	laukotea laukotearekin laukoteko
+48	6348	giltzatu	giltzatuta
+49	6349	higatu	higatua higatuko higatuta higatzen
+50	6350	pizgailu	pizgailua
+51	6351	saihesbide	saihesbidea saihesbidearen saihesbidera saihesbidetik
+52	6352	zimendu	zimenduak zimendurik
+53	6353	xal	xala
+54	6354	plazebo	plazeboa
+55	6355	hauskortasun	hauskortasuna hauskortasunagatik
+56	6356	enpresaburu	enpresaburua enpresaburuen enpresaburuez
+57	6357	luzoker	luzokerra luzokerrak
+58	6358	ikerkuntza	ikerkuntzak ikerkuntzan ikerkuntzarako ikerkuntzarik
+59	6359	oboe	oboea oboeak oboeari
+60	6360	tonika	tonikara tonikarekin
+61	6361	esklabista	esklabistak esklabistei esklabistekin
+62	6362	anbiguo	anbiguoa anbiguoak
+63	6363	adarbakar	adarbakarra adarbakarrak adarbakarrei
+64	6364	metastasi	metastasia metastasiaz
+65	6365	bermut	bermuta bermutaz
+66	6366	burdinbide	burdinbideak burdinbidean
+67	6367	akuario	akuarioan akuarioaren akuarioko
+68	6368	justifikazio	justifikazioa justifikaziorik
+69	6369	zaporetsu	zaporetsua zaporetsuagoak zaporetsuak
+70	6370	finantzario	finantzarioa finantzarioak
+71	6371	dezepzio	dezepzioa dezepziorik
+72	6372	tolesgarri	tolesgarria tolesgarriko
+73	6373	haizete	haizetea haizeteek haizeteetatik
+74	6374	enparantza	enparantzan enparantzara
+75	6375	erromero	erromeroa erromeroarekin erromerorik
+76	6376	errazio	errazioa errazioak errazioekin erraziorik
+77	6377	turbulentzia	turbulentziak
+78	6378	plankton	planktona planktonarekin planktonek
+79	6379	krepe	krepea krepeak
+80	6380	finantzari	finantzaria finantzariak finantzariari
+81	6381	jainkotiar	jainkotiarra jainkotiarrak jainkotiarrari jainkotiarren
+82	6382	intsentsu	intsentsua intsentsuaren
+83	6383	zilindro	zilindroa zilindroetan zilindroko zilindrokoa
+84	6384	lehiakor	lehiakorra lehiakorrak
+85	6385	analfabeto	analfabetoa analfabetoaren analfabetoei
+86	6386	hitzontzi	hitzontzia hitzontziak
+87	6387	kakanarru	kakanarrua kakanarruok kakanarruren
+88	6388	ferekatu	ferekatuko ferekatzen
+89	6389	mandragora	mandragorak mandragorari mandragorentzat
+90	6390	fisikari	fisikaria fisikariek fisikarien
+91	6391	emagin	emagina emaginaren emaginei
+92	6392	ahapaldi	ahapaldia ahapaldiak ahapaldiko
+93	6393	barnealde	barnealdea barnealdean barnealdeen barnealdeko
+94	6394	nagusitasun	nagusitasuna nagusitasunari nagusitasunerako
+95	6395	mortu	mortua mortuaren mortuetan
+96	6396	barraskilo	barraskiloak barraskiloek barraskilorik
+97	6397	festibal	festibala festibalera festibalerako
+98	6398	partzial	partziala partzialeko
+99	6399	umiltasun	umiltasuna umiltasunez
+100	6400	subkontziente	subkontzientea subkontzienteak subkontzientean

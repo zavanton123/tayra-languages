@@ -39,9 +39,9 @@
 39	839	aberats	aberatsa aberatsagatik aberatsago aberatsagoa aberatsagoak aberatsak aberatsarekin aberatsaren aberatsarentzat aberatsari aberatsegia aberatsei aberatsek aberatsekin aberatseko aberatsekoa aberatsen aberatsena aberatsenak aberatsentzat aberatsetan aberatsik aberatsok
 40	840	sakon	sakona sakonago sakonagoa sakonagoak sakonak sakonaren sakonari sakonean sakonegi sakonegia sakonegiak sakonei sakonek sakoneko sakonekoa sakonen sakonena sakonenak sakoneraino sakonerantz sakonetan sakonetara sakonetatik sakonetik sakonik
 41	841	ardo	ardoa ardoagatik ardoak ardoarekin ardoaren ardoari ardoaz ardoen ardorekin ardoren ardorik ardotan ardoz
-42	842	nekatuta	nekatutako
-43	843	kutxa	kutxak kutxako kutxan kutxara kutxarekin kutxaren kutxari kutxatako kutxatan kutxatik kutxekin kutxen kutxetan
-44	844	honela	
+42	842	kutxa	kutxak kutxako kutxan kutxara kutxarekin kutxaren kutxari kutxatako kutxatan kutxatik kutxekin kutxen kutxetan
+43	843	honela	
+44	844	ordez	
 45	845	babes	babesa babesagatik babesak babesarekin babesaren babesarengatik babesari babesaz babesean babesek babeseko babesen babesera babeserako babesik
 46	846	arrunt	arrunta arruntago arruntak arruntarekin arruntaren arruntarengan arruntarengandik arruntari arruntean arruntek arruntekin arruntekoa arrunten arruntena arruntera arruntetan arruntez arruntik
 47	847	hirugarren	hirugarrena hirugarrenak hirugarrenari hirugarrenei hirugarreneko hirugarrenen hirugarrenera hirugarrenez hirugarrenik

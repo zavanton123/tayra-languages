@@ -1,100 +1,100 @@
-1	4501	merkantzia	merkantziak merkantzian merkantziarekin merkantziarik
-2	4502	yoga	yogako yogara yogarekin
-3	4503	gaztelania	gaztelanian gaztelaniara gaztelaniaz
-4	4504	sobiet	sobietak sobietei sobieten sobietetako
-5	4505	lima	limak limarekin limarik limek
-6	4506	eli	elia eliok elirekin eliri eliz
-7	4507	dotorezia	dotoreziarekin dotoreziaren dotoreziarik dotoreziaz
-8	4508	argumentu	argumentua argumentuek argumentuetako argumenturik
-9	4509	xanpu	xanpua xanpuan xanpuarekin xanpuaren xanpuren xanpurik xanpuz
-10	4510	hautagaitza	hautagaitzak hautagaitzakoa hautagaitzan hautagaitzara
-11	4511	bidelapur	bidelapurrak bidelapurrek bidelapurren
-12	4512	curry	currya curryak curryarekin curryaz curryk
-13	4513	normaltasun	normaltasuna normaltasunarekin normaltasunera normaltasunez normaltasunik
-14	4514	krispeta	krispetak krispetarik krispeten
-15	4515	hirukote	hirukotea hirukoteak hirukotean hirukoterik
-16	4516	errukigabe	errukigabea errukigabeak errukigabeena
-17	4517	eraginkortasun	eraginkortasuna eraginkortasunaren eraginkortasunaz eraginkortasunean eraginkortasunez eraginkortasunik
-18	4518	konboi	konboia konboiak konboiaren konboietan
-19	4519	gaindosi	gaindosia gaindosiak gaindosiaz
-20	4520	defendatzaile	defendatzailea defendatzaileak defendatzaileari defendatzailerik
-21	4521	konferentzia	konferentziak konferentzian konferentziara konferentziatik konferentzietan konferentzietara
-22	4522	abegi	abegia abegiaren
-23	4523	saldo	saldoa saldoak saldoarekin saldorik
-24	4524	adierazgarri	adierazgarria adierazgarriak adierazgarririk
-25	4525	yarda	yardako yardan yardara yardatara yardek
-26	4526	txilibitu	txilibitua txilibituan txilibituarekin txilibituari txilibituengatik
-27	4527	solasaldi	solasaldia solasaldiak solasaldian solasaldiaren solasaldiez
-28	4528	interpretazio	interpretazioa interpretazioagatik interpretazioak interpretazioarekin interpretazioarengatik interpretaziotzat
-29	4529	gupida	gupidaren gupidari gupidarik gupidaz
-30	4530	torpedo	torpedoa torpedoak torpedoarengatik torpedoen
-31	4531	pagano	paganoa paganoak paganoei paganoen paganoetan paganoren
-32	4532	belo	beloa beloak beloarekin beloaren beloen
-33	4533	ernaldu	ernaldua ernalduko ernaltzea ernaltzeko ernaltzen
-34	4534	bus	busa busean buseko buserako busez busik
-35	4535	harraska	harraskako harraskan harraskaren harraskatik
-36	4536	argizari	argizaria argizariak argizariarekin argizariaz argizaritan argizariz
-37	4537	abortatu	abortatuko abortatzea abortatzeko abortatzen
-38	4538	dizipulu	dizipulua dizipuluak dizipuluek dizipuluekin dizipuluen
-39	4539	tumore	tumorea tumoreak tumoreren tumorerik
-40	4540	tirania	tiraniak tiranian tiraniarekin tiraniaren tiraniari tiraniatik tiraniaz
-41	4541	errail	errailak errailei errailera errailetan errailetara errailetatik errailetik
-42	4542	landetxe	landetxea landetxean landetxera landetxeren
-43	4543	kapitalista	kapitalistak kapitalistan kapitalistaren kapitalistek kapitalisten
-44	4544	zuzentasun	zuzentasuna zuzentasunaren zuzentasunaz zuzentasunez
-45	4545	jaitsiera	jaitsierak jaitsieran jaitsierarako jaitsieraz
-46	4546	exotiko	exotikoa exotikoak exotikoan exotikoen
-47	4547	instrukzio	instrukzioa instrukzioak instrukzioan instrukzioen
-48	4548	bizio	bizioa bizioak bizioan bizioaren bizioei bizioen biziotik
-49	4549	molde	moldea moldeak moldean moldeetan
-50	4550	komentu	komentua komentuak komentuan komentuek komentuetan komentuko komentura komentutik
-51	4551	faraoi	faraoia faraoiak faraoiarekin faraoiaren faraoiari faraoiek
-52	4552	erdietsi	erdiestea erdiesteko erdiesten erdiestera erdietsiko erdietsita
-53	4553	aurreikuspen	aurreikuspena aurreikuspenak aurreikuspenen aurreikuspenerako aurreikuspenetan aurreikuspenetara
-54	4554	okupazio	okupazioa okupazioak okupazioan okupazioaren okupazioko okupaziorik
-55	4555	uztai	uztaia uztaiak uztaian uztaiarekin uztaiaren uztaiekin uztaira uztaitik
-56	4556	postontzi	postontzia postontziak postontzian postontzien postontzira postontziraino postontzitik
-57	4557	atomo	atomoa atomoak atomoaren atomoekin atomoen atomokoak atomoz
-58	4558	hidrauliko	hidraulikoa hidraulikoak hidraulikoaren hidraulikoari hidraulikorako hidraulikorik
-59	4559	fusible	fusiblea fusibleak fusibleei fusibleekin fusibleen fusiblera
-60	4560	lente	lentea lenteak lenteekin lenteen lenterik
-61	4561	kokots	kokotsa kokotsagatik kokotsarekin kokotsean kokotsera kokotserako kokotsik
-62	4562	autopista	autopistak autopistako autopistan autopistarekin autopistaren autopistatik
-63	4563	artxibatu	artxibatua artxibatuko artxibatuta artxibatutako artxibatzea artxibatzeko artxibatzen
-64	4564	musa	musari musek musen
-65	4565	hiruzpalau	
-66	4566	horzgabe	
-67	4567	berdinketa	berdinketan
-68	4568	karbono	karbonoaren
-69	4569	kurloi	kurloiei kurloiek
-70	4570	dilema	dilemarik dilemaz
-71	4571	morfina	morfinak morfinari
-72	4572	momia	momiak momiaren momiari
-73	4573	askatzaile	askatzailea askatzaileak askatzaileen askatzailetzat
-74	4574	mugarri	mugarria mugarrian mugarririk
-75	4575	hotzeri	hotzeria hotzeriak hotzeririk
-76	4576	kontrolgune	kontrolgunea kontrolguneak kontrolgunean kontrolgunetik
-77	4577	aker	akerra akerrak
-78	4578	iheskor	iheskorra iheskorrak
-79	4579	suhi	suhia suhiak suhiaren suhiarengana
-80	4580	biolentzia	biolentziako biolentziari biolentziarik biolentziaz
-81	4581	umemoko	umemokoa umemokoak umemokoen
-82	4582	irribarretsu	irribarretsua irribarretsuan irribarretsuarekin
-83	4583	sator	satorra
-84	4584	gorrotagarri	gorrotagarria gorrotagarriak gorrotagarriena gorrotagarririk
-85	4585	lehenaldi	lehenaldia lehenaldian lehenaldiaren lehenaldira lehenalditik
-86	4586	hausnarketa	hausnarketan hausnarketara hausnarketarako hausnarketaren hausnarketarik hausnarketek
-87	4587	bakarlari	bakarlaria bakarlariaren bakarlariek
-88	4588	gonbit	gonbita gonbitagatik gonbitak gonbiten
-89	4589	sineskeria	sineskeriak sineskeriaren sineskeriei sineskeriekin
-90	4590	karate	karatea karateak karatean karateko
-91	4591	tripulazio	tripulazioa tripulazioak tripulazioarekin tripulazioaren tripulazioari tripulazioko tripulaziorik
-92	4592	mirespen	mirespena mirespenaz mirespenez
-93	4593	kantitate	kantitatea kantitateak kantitatean kantitatearekin kantitaterik
-94	4594	gizatasun	gizatasuna gizatasunaren gizatasunik
-95	4595	ingeniaritza	ingeniaritzak ingeniaritzarekin ingeniaritzaren ingeniaritzari ingeniaritzaz
-96	4596	iparrorratz	iparrorratza iparrorratzak iparrorratzarekin iparrorratzari iparrorratzik
-97	4597	zimitz	zimitzak zimitzek zimitzekin zimitzen zimitzez
-98	4598	masta	mastak mastako mastan mastara mastari mastatik
-99	4599	kitzikatu	kitzika kitzikatua kitzikatuak kitzikatzea kitzikatzeko kitzikatzen
-100	4600	hibrido	hibridoa hibridoak hibridoen
+1	4501	harpa	harpak harparik harpen
+2	4502	merkantzia	merkantziak merkantzian merkantziarekin merkantziarik
+3	4503	yoga	yogako yogara yogarekin
+4	4504	gaztelania	gaztelanian gaztelaniara gaztelaniaz
+5	4505	sobiet	sobietak sobietei sobieten sobietetako
+6	4506	lima	limak limarekin limarik limek
+7	4507	eli	elia eliok elirekin eliri eliz
+8	4508	dotorezia	dotoreziarekin dotoreziaren dotoreziarik dotoreziaz
+9	4509	argumentu	argumentua argumentuek argumentuetako argumenturik
+10	4510	xanpu	xanpua xanpuan xanpuarekin xanpuaren xanpuren xanpurik xanpuz
+11	4511	hautagaitza	hautagaitzak hautagaitzakoa hautagaitzan hautagaitzara
+12	4512	bidelapur	bidelapurrak bidelapurrek bidelapurren
+13	4513	curry	currya curryak curryarekin curryaz curryk
+14	4514	normaltasun	normaltasuna normaltasunarekin normaltasunera normaltasunez normaltasunik
+15	4515	krispeta	krispetak krispetarik krispeten
+16	4516	hirukote	hirukotea hirukoteak hirukotean hirukoterik
+17	4517	errukigabe	errukigabea errukigabeak errukigabeena
+18	4518	eraginkortasun	eraginkortasuna eraginkortasunaren eraginkortasunaz eraginkortasunean eraginkortasunez eraginkortasunik
+19	4519	konboi	konboia konboiak konboiaren konboietan
+20	4520	gaindosi	gaindosia gaindosiak gaindosiaz
+21	4521	defendatzaile	defendatzailea defendatzaileak defendatzaileari defendatzailerik
+22	4522	konferentzia	konferentziak konferentzian konferentziara konferentziatik konferentzietan konferentzietara
+23	4523	abegi	abegia abegiaren
+24	4524	saldo	saldoa saldoak saldoarekin saldorik
+25	4525	adierazgarri	adierazgarria adierazgarriak adierazgarririk
+26	4526	yarda	yardako yardan yardara yardatara yardek
+27	4527	txilibitu	txilibitua txilibituan txilibituarekin txilibituari txilibituengatik
+28	4528	solasaldi	solasaldia solasaldiak solasaldian solasaldiaren solasaldiez
+29	4529	interpretazio	interpretazioa interpretazioagatik interpretazioak interpretazioarekin interpretazioarengatik interpretaziotzat
+30	4530	gupida	gupidaren gupidari gupidarik gupidaz
+31	4531	torpedo	torpedoa torpedoak torpedoarengatik torpedoen
+32	4532	pagano	paganoa paganoak paganoei paganoen paganoetan paganoren
+33	4533	belo	beloa beloak beloarekin beloaren beloen
+34	4534	ernaldu	ernaldua ernalduko ernaltzea ernaltzeko ernaltzen
+35	4535	bus	busa busean buseko buserako busez busik
+36	4536	harraska	harraskako harraskan harraskaren harraskatik
+37	4537	argizari	argizaria argizariak argizariarekin argizariaz argizaritan argizariz
+38	4538	abortatu	abortatuko abortatzea abortatzeko abortatzen
+39	4539	dizipulu	dizipulua dizipuluak dizipuluek dizipuluekin dizipuluen
+40	4540	tumore	tumorea tumoreak tumoreren tumorerik
+41	4541	tirania	tiraniak tiranian tiraniarekin tiraniaren tiraniari tiraniatik tiraniaz
+42	4542	errail	errailak errailei errailera errailetan errailetara errailetatik errailetik
+43	4543	landetxe	landetxea landetxean landetxera landetxeren
+44	4544	kapitalista	kapitalistak kapitalistan kapitalistaren kapitalistek kapitalisten
+45	4545	zuzentasun	zuzentasuna zuzentasunaren zuzentasunaz zuzentasunez
+46	4546	jaitsiera	jaitsierak jaitsieran jaitsierarako jaitsieraz
+47	4547	exotiko	exotikoa exotikoak exotikoan exotikoen
+48	4548	instrukzio	instrukzioa instrukzioak instrukzioan instrukzioen
+49	4549	bizio	bizioa bizioak bizioan bizioaren bizioei bizioen biziotik
+50	4550	molde	moldea moldeak moldean moldeetan
+51	4551	komentu	komentua komentuak komentuan komentuek komentuetan komentuko komentura komentutik
+52	4552	faraoi	faraoia faraoiak faraoiarekin faraoiaren faraoiari faraoiek
+53	4553	erdietsi	erdiestea erdiesteko erdiesten erdiestera erdietsiko erdietsita
+54	4554	aurreikuspen	aurreikuspena aurreikuspenak aurreikuspenen aurreikuspenerako aurreikuspenetan aurreikuspenetara
+55	4555	okupazio	okupazioa okupazioak okupazioan okupazioaren okupazioko okupaziorik
+56	4556	uztai	uztaia uztaiak uztaian uztaiarekin uztaiaren uztaiekin uztaira uztaitik
+57	4557	postontzi	postontzia postontziak postontzian postontzien postontzira postontziraino postontzitik
+58	4558	atomo	atomoa atomoak atomoaren atomoekin atomoen atomokoak atomoz
+59	4559	hidrauliko	hidraulikoa hidraulikoak hidraulikoaren hidraulikoari hidraulikorako hidraulikorik
+60	4560	fusible	fusiblea fusibleak fusibleei fusibleekin fusibleen fusiblera
+61	4561	lente	lentea lenteak lenteekin lenteen lenterik
+62	4562	kokots	kokotsa kokotsagatik kokotsarekin kokotsean kokotsera kokotserako kokotsik
+63	4563	autopista	autopistak autopistako autopistan autopistarekin autopistaren autopistatik
+64	4564	artxibatu	artxibatua artxibatuko artxibatuta artxibatutako artxibatzea artxibatzeko artxibatzen
+65	4565	musa	musari musek musen
+66	4566	hiruzpalau	
+67	4567	horzgabe	
+68	4568	berdinketa	berdinketan
+69	4569	karbono	karbonoaren
+70	4570	kurloi	kurloiei kurloiek
+71	4571	dilema	dilemarik dilemaz
+72	4572	morfina	morfinak morfinari
+73	4573	momia	momiak momiaren momiari
+74	4574	askatzaile	askatzailea askatzaileak askatzaileen askatzailetzat
+75	4575	mugarri	mugarria mugarrian mugarririk
+76	4576	hotzeri	hotzeria hotzeriak hotzeririk
+77	4577	kontrolgune	kontrolgunea kontrolguneak kontrolgunean kontrolgunetik
+78	4578	aker	akerra akerrak
+79	4579	iheskor	iheskorra iheskorrak
+80	4580	suhi	suhia suhiak suhiaren suhiarengana
+81	4581	biolentzia	biolentziako biolentziari biolentziarik biolentziaz
+82	4582	umemoko	umemokoa umemokoak umemokoen
+83	4583	irribarretsu	irribarretsua irribarretsuan irribarretsuarekin
+84	4584	sator	satorra
+85	4585	gorrotagarri	gorrotagarria gorrotagarriak gorrotagarriena gorrotagarririk
+86	4586	lehenaldi	lehenaldia lehenaldian lehenaldiaren lehenaldira lehenalditik
+87	4587	hausnarketa	hausnarketan hausnarketara hausnarketarako hausnarketaren hausnarketarik hausnarketek
+88	4588	bakarlari	bakarlaria bakarlariaren bakarlariek
+89	4589	gonbit	gonbita gonbitagatik gonbitak gonbiten
+90	4590	sineskeria	sineskeriak sineskeriaren sineskeriei sineskeriekin
+91	4591	karate	karatea karateak karatean karateko
+92	4592	tripulazio	tripulazioa tripulazioak tripulazioarekin tripulazioaren tripulazioari tripulazioko tripulaziorik
+93	4593	mirespen	mirespena mirespenaz mirespenez
+94	4594	kantitate	kantitatea kantitateak kantitatean kantitatearekin kantitaterik
+95	4595	gizatasun	gizatasuna gizatasunaren gizatasunik
+96	4596	ingeniaritza	ingeniaritzak ingeniaritzarekin ingeniaritzaren ingeniaritzari ingeniaritzaz
+97	4597	iparrorratz	iparrorratza iparrorratzak iparrorratzarekin iparrorratzari iparrorratzik
+98	4598	zimitz	zimitzak zimitzek zimitzekin zimitzen zimitzez
+99	4599	masta	mastak mastako mastan mastara mastari mastatik
+100	4600	kitzikatu	kitzika kitzikatua kitzikatuak kitzikatzea kitzikatzeko kitzikatzen

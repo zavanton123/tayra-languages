@@ -1,100 +1,100 @@
-1	8501	gasdun	gasduna gasdunik
-2	8502	enbalaje	enbalajea enbalajean
-3	8503	adierazpide	adierazpideen adierazpiderik
-4	8504	neandertal	neandertalak neandertalek neandertalena
-5	8505	frak	frakak frakez
-6	8506	garbitoki	garbitokia garbitokian
-7	8507	zinematografiko	zinematografikoa zinematografikoan zinematografikoko
-8	8508	merkurio	merkurioren
-9	8509	labar	labarraren labarrean
-10	8510	enparau	enparaua enparauak enparauek
-11	8511	supergizon	supergizona
-12	8512	toxikotasun	toxikotasuna toxikotasunaren toxikotasunetik
-13	8513	kakazte	kakazteagatik kakaztera kakazterik
-14	8514	bazilo	baziloak
-15	8515	karburagailu	karburagailua karburagailuak
-16	8516	fabrikazio	fabrikazioa
-17	8517	bioteknologia	bioteknologiaren
-18	8518	berraktibatu	berraktibatuko berraktibatuta
-19	8519	luto	lutoa lutoz
-20	8520	mandar	mandarekin mandarra
-21	8521	udalbatzar	udalbatzarrean udalbatzarretako
-22	8522	otomandar	otomandarra otomandarrekin
-23	8523	patentatu	patentatuko patentatutako patentatzen
-24	8524	simetria	simetrian simetriarik
-25	8525	laukizuzen	laukizuzena laukizuzenak
-26	8526	lorezaintza	lorezaintzako lorezaintzan lorezaintzaz
-27	8527	izangai	izangaiak izangairik
-28	8528	parlamentari	parlamentaria parlamentariaren
-29	8529	predikatu	predikatuko
-30	8530	bortxa	bortxari bortxaz
-31	8531	bionbo	bionboaren bionbotan
-32	8532	konbertitu	konbertituko konbertitzen
-33	8533	kontrapuntu	kontrapuntua kontrapuntuaren
-34	8534	sadismo	sadismoa
-35	8535	kalekume	kalekumea kalekumeak
-36	8536	kolaborazio	kolaborazioa kolaborazioarekin
-37	8537	georgiar	georgiarrek georgiarrekin
-38	8538	mailukatu	mailuka mailukatuko mailukatzen
-39	8539	zerrendatu	zerrendatzen
-40	8540	kromatiko	kromatikoa kromatikoko
-41	8541	bigarrengo	bigarrengoa bigarrengoan
-42	8542	irakasbide	irakasbideak irakasbidearen irakasbideetan
-43	8543	negoziagarri	negoziagarria
-44	8544	gurutzaldi	gurutzaldia gurutzaldian
-45	8545	pope	popea popeari
-46	8546	gorreri	gorreria gorreriaz gorreritik
-47	8547	ordoki	ordokia ordokian ordokira
-48	8548	menditsu	menditsua
-49	8549	auzolan	auzolana auzolanean
-50	8550	estratosfera	estratosferan estratosferatik
-51	8551	diosal	diosala diosalaz
-52	8552	blasfematu	blasfematzen
-53	8553	marxista	marxistak marxistako marxistaren
-54	8554	masokista	masokistak
-55	8555	desjabetze	desjabetzea desjabetzeak desjabetzearen desjabetzerik
-56	8556	pulpitu	pulpituan pulpitutik
-57	8557	mikroskopiko	mikroskopikoak mikroskopikoan
-58	8558	urtzaile	urtzailea urtzaileak urtzailearen
-59	8559	esneki	esnekiak esnekien esnekirik
-60	8560	maingu	maingua mainguak
-61	8561	itxurazale	itxurazaleari itxurazaleentzat
-62	8562	kromatu	kromatua kromatuak kromatuz
-63	8563	giroskopio	giroskopioa giroskopioak
-64	8564	gupidatsu	gupidatsua gupidatsuegia gupidatsuekin
-65	8565	errazionamendu	errazionamendua errazionamenduarengatik
-66	8566	erreki	errekia errekiak errekientzat
-67	8567	zutabegile	zutabegilea zutabegileek
-68	8568	logistiko	logistikoa logistikoak
-69	8569	hesgailu	hesgailua hesgailuz
-70	8570	pantomima	pantomiman
-71	8571	anputazio	anputazioak anputazioez
-72	8572	deskuidu	deskuidua deskuiduan
-73	8573	brontze	brontzea
-74	8574	abiazio	abiazioa abiazioko
-75	8575	zalantzagarri	zalantzagarria zalantzagarriak
-76	8576	klake	klakea klakerik klaketan
-77	8577	desinformazio	desinformazioa desinformazioaz
-78	8578	enbrioi	enbrioiak
-79	8579	ramadan	ramadana ramadanaren
-80	8580	lubrifikazio	lubrifikazioa
-81	8581	urkila	urkilak
-82	8582	polar	polarik polarrek polarrez
-83	8583	odoloste	odolostea odolostearen odolosterik
-84	8584	besazpi	besazpiak besazpian
-85	8585	tiragoma	tiragomekin tiragomez
-86	8586	kaliza	kalizan kalizaren
-87	8587	moneta	monetaren monetarik
-88	8588	eguzkilore	eguzkilorerekin eguzkiloreri
-89	8589	psikosi	psikosia psikosian
-90	8590	tektoniko	tektonikoarekin tektonikoen
-91	8591	plantazio	plantazioa plantazioan
-92	8592	bafle	bafleak
-93	8593	zodiako	zodiakoa zodiakoko
-94	8594	lemazain	lemazaina lemazainari lemazainentzat
-95	8595	bungalow	bungalowa bungalowean
-96	8596	katastrofiko	katastrofikoa katastrofikoagatik
-97	8597	memorandum	memorandumean
-98	8598	printzerri	printzerrian printzerriko
-99	8599	akolito	akolitoa akolitoak
-100	8600	muxar	muxarrak
+1	8501	uharri	uharrian uharrietatik
+2	8502	gasdun	gasduna gasdunik
+3	8503	enbalaje	enbalajea enbalajean
+4	8504	adierazpide	adierazpideen adierazpiderik
+5	8505	neandertal	neandertalak neandertalek neandertalena
+6	8506	frak	frakak frakez
+7	8507	garbitoki	garbitokia garbitokian
+8	8508	zinematografiko	zinematografikoa zinematografikoan zinematografikoko
+9	8509	merkurio	merkurioren
+10	8510	labar	labarraren labarrean
+11	8511	enparau	enparaua enparauak enparauek
+12	8512	supergizon	supergizona
+13	8513	toxikotasun	toxikotasuna toxikotasunaren toxikotasunetik
+14	8514	kakazte	kakazteagatik kakaztera kakazterik
+15	8515	bazilo	baziloak
+16	8516	karburagailu	karburagailua karburagailuak
+17	8517	fabrikazio	fabrikazioa
+18	8518	bioteknologia	bioteknologiaren
+19	8519	berraktibatu	berraktibatuko berraktibatuta
+20	8520	luto	lutoa lutoz
+21	8521	mandar	mandarekin mandarra
+22	8522	udalbatzar	udalbatzarrean udalbatzarretako
+23	8523	otomandar	otomandarra otomandarrekin
+24	8524	patentatu	patentatuko patentatutako patentatzen
+25	8525	simetria	simetrian simetriarik
+26	8526	laukizuzen	laukizuzena laukizuzenak
+27	8527	lorezaintza	lorezaintzako lorezaintzan lorezaintzaz
+28	8528	izangai	izangaiak izangairik
+29	8529	parlamentari	parlamentaria parlamentariaren
+30	8530	predikatu	predikatuko
+31	8531	bortxa	bortxari bortxaz
+32	8532	bionbo	bionboaren bionbotan
+33	8533	konbertitu	konbertituko konbertitzen
+34	8534	kontrapuntu	kontrapuntua kontrapuntuaren
+35	8535	sadismo	sadismoa
+36	8536	kalekume	kalekumea kalekumeak
+37	8537	kolaborazio	kolaborazioa kolaborazioarekin
+38	8538	georgiar	georgiarrek georgiarrekin
+39	8539	mailukatu	mailuka mailukatuko mailukatzen
+40	8540	zerrendatu	zerrendatzen
+41	8541	kromatiko	kromatikoa kromatikoko
+42	8542	bigarrengo	bigarrengoa bigarrengoan
+43	8543	irakasbide	irakasbideak irakasbidearen irakasbideetan
+44	8544	negoziagarri	negoziagarria
+45	8545	gurutzaldi	gurutzaldia gurutzaldian
+46	8546	pope	popea popeari
+47	8547	gorreri	gorreria gorreriaz gorreritik
+48	8548	ordoki	ordokia ordokian ordokira
+49	8549	menditsu	menditsua
+50	8550	auzolan	auzolana auzolanean
+51	8551	estratosfera	estratosferan estratosferatik
+52	8552	diosal	diosala diosalaz
+53	8553	blasfematu	blasfematzen
+54	8554	marxista	marxistak marxistako marxistaren
+55	8555	masokista	masokistak
+56	8556	desjabetze	desjabetzea desjabetzeak desjabetzearen desjabetzerik
+57	8557	pulpitu	pulpituan pulpitutik
+58	8558	mikroskopiko	mikroskopikoak mikroskopikoan
+59	8559	urtzaile	urtzailea urtzaileak urtzailearen
+60	8560	esneki	esnekiak esnekien esnekirik
+61	8561	maingu	maingua mainguak
+62	8562	itxurazale	itxurazaleari itxurazaleentzat
+63	8563	kromatu	kromatua kromatuak kromatuz
+64	8564	giroskopio	giroskopioa giroskopioak
+65	8565	gupidatsu	gupidatsua gupidatsuegia gupidatsuekin
+66	8566	errazionamendu	errazionamendua errazionamenduarengatik
+67	8567	erreki	errekia errekiak errekientzat
+68	8568	zutabegile	zutabegilea zutabegileek
+69	8569	logistiko	logistikoa logistikoak
+70	8570	hesgailu	hesgailua hesgailuz
+71	8571	pantomima	pantomiman
+72	8572	anputazio	anputazioak anputazioez
+73	8573	deskuidu	deskuidua deskuiduan
+74	8574	brontze	brontzea
+75	8575	abiazio	abiazioa abiazioko
+76	8576	zalantzagarri	zalantzagarria zalantzagarriak
+77	8577	klake	klakea klakerik klaketan
+78	8578	desinformazio	desinformazioa desinformazioaz
+79	8579	enbrioi	enbrioiak
+80	8580	ramadan	ramadana ramadanaren
+81	8581	lubrifikazio	lubrifikazioa
+82	8582	urkila	urkilak
+83	8583	polar	polarik polarrek polarrez
+84	8584	odoloste	odolostea odolostearen odolosterik
+85	8585	besazpi	besazpiak besazpian
+86	8586	tiragoma	tiragomekin tiragomez
+87	8587	kaliza	kalizan kalizaren
+88	8588	moneta	monetaren monetarik
+89	8589	eguzkilore	eguzkilorerekin eguzkiloreri
+90	8590	psikosi	psikosia psikosian
+91	8591	tektoniko	tektonikoarekin tektonikoen
+92	8592	plantazio	plantazioa plantazioan
+93	8593	bafle	bafleak
+94	8594	zodiako	zodiakoa zodiakoko
+95	8595	lemazain	lemazaina lemazainari lemazainentzat
+96	8596	bungalow	bungalowa bungalowean
+97	8597	katastrofiko	katastrofikoa katastrofikoagatik
+98	8598	memorandum	memorandumean
+99	8599	printzerri	printzerrian printzerriko
+100	8600	akolito	akolitoa akolitoak

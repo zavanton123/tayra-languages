@@ -469,7 +469,6 @@ milesker	milesker
 hasiera	hasieran hasiera hasieratik hasierako hasierara hasierakoak hasierari hasierakoa hasierarako hasierarekin hasierak hasierarik hasieraren hasieretan hasieretako hasierengatik
 ixo	ixo
 gonbidatu	gonbidatu gonbidatzen gonbidatuko gonbidatua gonbidatuak gonbidatuta gonbida gonbidatuen gonbidatzea gonbidatzeagatik gonbidatzeko gonbidatuei gonbidaturik gonbidatuentzat gonbidatuari gonbidatuek gonbidatuarekin gonbidatutzat gonbidatuekin gonbidatuengana gonbidatuetatik gonbidatuz gonbidaturen gonbidatzeak gonbidatzerik gonbidatuetako
-bizkor	bizkor bizkorra bizkorrago bizkorragoa bizkorrak northern bizkorrena bizkorregi bizkorragoak bizkorrenak bizkorren bizkorregiak bizkorraren bizkorrean bizkorrentzat bizkorregia
 nolako	nolako nolakoa nolakoak nolakoetan
 zin	zin zinez zina zinera zinean zineko zinerako zinik zinak zinetik zinari zinagatik zinaren zinarekin
 harreman	harreman harremanetan harremana harremanak harremanik harremanean harremanaren harremanei harremanetako harremanen harremanaz harremanez harremanarekin harremanagatik harremanetik harremanari harremanek harremanok harremanekin harremanarengatik
@@ -478,6 +477,7 @@ maila	maila mailako mailan mailakoa mailara mailaz mailak mailaren mailarik mail
 estatu	estatu estatuko estatuaren estatuak estatuan estatutik estatuari estatuetan estatutan estatuetako estatuarentzat estatukoak estatuek estatuen estaturako estatuarengatik estatuk estatura estatukoa estaturantz estatuei estatuetatik estatuaz
 erotu	erotu erotuta erotuko eroturik erotzeko erotua erotzea erotutako erotuak
 arrisku	arriskuan arriskua arrisku arriskurik arriskuak arriskutik arriskuaz arriskuez arriskutan arriskuen arriskuetatik arriskuaren arriskuei arriskuari arriskuren arriskuz arriskura arriskurako arriskuagatik arriskuko arriskuek arriskuetan
+bizkor	bizkor bizkorra bizkorrago bizkorragoa bizkorrak bizkorrena bizkorregi bizkorragoak bizkorrenak bizkorren bizkorregiak bizkorraren bizkorrean bizkorrentzat bizkorregia
 arren	arren
 edozein	edozein edozeina edozeinena edozeinak edozeinetan edozeinera edozeinenak
 apur	apur apurrak apurra apurren apurrik apurentzat apurrean apurraren apurretatik apurretan apurrek apurrengatik
@@ -572,6 +572,7 @@ abokatu	abokatu abokatua abokatuak abokaturik abokatuarekin abokatuari abokatuek
 aztertu	aztertu aztertzen aztertuko aztertzeko azter aztertzea aztertzera aztertuta aztertuz aztertua aztertzean aztertzeak aztertutako
 negar	negar negarrik negarra negarrak negarretan negarrari negarrek negarrean negarraren negarrerako negarrengatik negarrekin
 txanda	txanda txandak txandan txandara txandaren txandetan txandako txandatik txandarik txandakoak txandari txanden txandatan txandakoa
+nekatu	nekatuta nekatu nekatua nekatzen nekatuko nekatuak nekaturik neka nekatzea nekatzeko nekatutako
 ipurdi	ipurdia ipurdi ipurdian ipurditik ipurdiko ipurdiak ipurdiarekin ipurdiari ipurdiaren ipurdiz ipurdiaz ipurdikoa ipurdira ipurdikoak ipurdirik ipurdietan ipurdiren ipurdietara ipurdiagatik
 bart	bart
 arratsalde	arratsalde arratsaldean arratsaldeko arratsaldeon arratsaldea arratsaldez arratsalderako arratsaldera arratsaldetan arratsaldeak arratsaldekoak arratsaldeetan arratsaldekoa arratsaldeaz arratsaldearen
@@ -784,7 +785,6 @@ arnasa	arnasa arnasarik arnasari arnasan arnasaz arnasarekin arnasaren
 kamioi	kamioi kamioia kamioian kamioiak kamioira kamioiaren kamioitik kamioiari kamioietara kamioietan kamioien kamioiarekin kamioietatik kamioientzat kamioiagatik kamioiko kamioiaz kamioiekin kamioiei kamioirantz
 itxaropen	itxaropena itxaropen itxaropenik itxaropenez itxaropenak itxaropenarekin itxaropenaren itxaropenean itxaropenari itxaropenek itxaropenaz itxaropenerako itxaropenagatik itxaropenetan
 banku	banku bankua bankuak bankuan bankuko bankura bankuaren bankutik bankurik bankuek bankuen bankuari bankuei bankuekin bankuetan bankuarekin bankuez bankukoa bankurantz bankuetako
-ordeztu	ordez ordeztu ordezteko ordeztuko ordezten ordezteagatik ordeztea ordezte ordezteak
 mantendu	mantendu mantentzen mantenduko mantentzeko mantentzea manten mantenduz mantenduta mantentzeaz mantentzean mantentzeagatik mantendua mantenduak mantendutako mantentzearen mantentzerik
 segundo	segundo segundotan segundoan segundoko segundoz segundoak segundoetan segundoa segundorik segundoen segundoren segundotara segundoaren segundokoa segundora segundotik
 morroi	morroi morroia morroiak morroiek morroiaren morroien morroiari morroirekin morroiren morroirik morroian morroiok morroiekin morroiei
@@ -841,9 +841,9 @@ dei	deia deiak deirik deiaren deien deiari deiei deiarekin deian deiekin deiagat
 aberats	aberatsa aberats aberatsak aberatsena aberatsen aberatsek aberatsagoa aberatsei aberatsaren aberatsik aberatsekin aberatsentzat aberatsago aberatsok aberatseko aberatsenak aberatsekoa aberatsari aberatsetan aberatsarentzat aberatsarekin aberatsagoak aberatsagatik aberatsegia
 sakon	sakon sakona sakonago sakonak sakonean sakonagoa sakonena sakoneko sakonetan sakonenak sakonetara sakonaren sakonekoa sakonegi sakonegia sakoneraino sakonegiak sakonagoak sakonari sakonek sakonerantz sakonik sakonetatik sakonetik sakonen sakonei
 ardo	ardo ardoa ardorik ardoak ardoaren ardoaz ardoagatik ardoarekin ardoz ardoari ardotan ardoen ardorekin ardoren
-nekatuta	nekatuta nekatutako
 kutxa	kutxa kutxan kutxak kutxako kutxara kutxaren kutxatik kutxen kutxetan kutxekin kutxarekin kutxari kutxatan kutxatako
 honela	honela
+ordez	ordez
 babes	babesa babesean babesik babeserako babesak babesera babesagatik babesarekin babeseko babesaren babesari babesarengatik babesek babesaz babesen
 arrunt	arrunta arrunt arruntak arruntaren arruntean arruntez arruntek arrunten arruntari arruntena arruntago arruntik arruntarengan arruntarekin arruntetan arruntera arruntekoa arruntekin arruntarengandik
 hirugarren	hirugarren hirugarrena hirugarrenez hirugarrenik hirugarrenak hirugarrenen hirugarreneko hirugarrenera hirugarrenei hirugarrenari
@@ -958,7 +958,6 @@ agurtu	agurtu agurtzen agurtzera agurtzeko agurtuko agurtzea agurtua agurtzeagat
 uda	uda udan udako udarako udaren udarik udak udaz udarantz udatik udari udetan udarekin
 konpainia	konpainia konpainiak konpainiako konpainian konpainiaren konpainiarekin konpainiari konpainiek konpainiarik konpainien konpainiaz konpainiarentzat konpainiakoa konpainiarako konpainiekin konpainiara konpainiei konpainiakoak konpainietara konpainiatzat konpainietan
 sendo	sendoa sendo sendoak sendoagoa sendoena sendokoa sendoago sendorik sendoekin sendoegia sendoagatik sendoetara sendoen sendoaz sendoko sendoek sendoetan sendoez sendoarekin sendoetako sendoz sendokoak
-bonba	bonba bonbak bonben bonboi bonbarik bonbek bonbaren bonbekin bonbarekin bonbari bonbaz bonbatik bonban
 ikuskizun	ikuskizuna ikuskizun ikuskizunak ikuskizunean ikuskizunaren ikuskizunetan ikuskizunen ikuskizunik ikuskizunaz ikuskizunetako ikuskizunera ikuskizunerako ikuskizunarekin ikuskizunetik ikuskizunagatik ikuskizuneko ikuskizunekoa ikuskizunez ikuskizunekin ikuskizunari
 izeba	izeba izebak izebaren izebari izebarekin izebek izebarik izebarengana izebei izebarengatik
 mintzatu	mintzatu mintzatzen mintza mintzatuko mintzatzeko mintzatzea mintzatzera mintzatzeak mintzatuz mintzatzean mintzatzeagatik mintzatzeari mintzatua
@@ -985,6 +984,7 @@ hari	harik harira haria hari hariak haririk haritik hariari hariarekin hariaz ha
 programa	programa programaren programak programan programara programarekin programarik programari programarengatik programako programarako programatik programek programei programetan programakoa programatan programaz
 haurdun	haurdun haurdunak haurduna haurdunen haurdunenak
 lorategi	lorategian lorategi lorategia lorategiko lorategira lorategiak lorategitik lorategiaren lorategirik lorategikoa lorategietan lorategikoak lorategiekin lorategien lorategirako lorategietara lorategietatik lorategiari lorategiraino lorategiarekin
+bonba	bonba bonbak bonben bonbarik bonbek bonbaren bonbekin bonbarekin bonbari bonbaz bonbatik bonban
 salbu	salbu
 kabroi	kabroi kabroia kabroiak kabroiek kabroiren kabroirik kabroien
 aldaketa	aldaketa aldaketak aldaketarik aldaketen aldaketekin aldaketaren aldaketarako aldaketaz aldaketako aldaketarekin aldaketan aldaketei aldaketok aldaketarengatik
@@ -1199,7 +1199,6 @@ ok	ok
 txoro	txoro txoroa txoroak txoroekin txoroetan txoroek txororik txoroagoa txoroen txoroarekin txoroetako txorotan txoroago txoroentzat txororen txoroei txoroez
 deika	deika
 bisitatu	bisitatu bisitatzera bisitatzen bisitatuko bisitatzeko bisitatzea bisitatutako bisitatzeagatik bisitatzean bisitatze bisitatua
-nekatu	nekatu nekatua nekatzen nekatuko nekatuak nekaturik neka nekatzea nekatzeko nekatutako
 dama	dama damak damaren damen damarentzat damari damek damatzat damekin dametako damatan damarik
 mapa	mapa mapak mapan maparik mapetan maparen mapatik maparekin mapari mapatan mapako mapekin mapaz mapetarako maparaino mapara mapen mapetatik mapetako
 klase	klase klasea klasean klaseak klaseko klasera klaserik klasearen klaseen klasekoa klaseetan klaserako klasez klasetara klaseraino klaseren klasearekin klasetik klasetako klaseetara klaseekin klasetan klasearentzat klaseek klaserekin
@@ -3493,6 +3492,7 @@ txotxongilo	txotxongilo txotxongiloak txotxongiloa txotxongiloari txotxongiloen 
 bainuontzi	bainuontzian bainuontzia bainuontzi bainuontzira bainuontziko bainuontziak bainuontziarekin bainuontziaren bainuontzitik bainuontziei
 arkume	arkumea arkume arkumeekin arkumeak arkumeen arkumeari arkumeei arkumearen arkumeetako
 bularretako	bularretakoa bularretako bularretakorik bularretakoan bularretakoen bularretakoak bularretakok bularretakotan
+ordeztu	ordeztu ordezteko ordeztuko ordezten ordezteagatik ordeztea ordezte ordezteak
 saguzar	saguzar saguzarra saguzarrak saguzarraren saguzarren saguzarrekin saguzarrari saguzarrarengatik
 mugagabe	mugagabea mugagabe mugagabeak mugagabeko mugagabean mugagabearen mugagaberik mugagabera mugagabekoa
 zibilizatu	zibilizatuak zibilizatu zibilizatua zibilizatzea zibilizatzeko zibilizatutako
@@ -4434,6 +4434,7 @@ aparailu	aparailu aparailua aparailuak aparailuaren aparailuari aparailutik apar
 ezberdintasun	ezberdintasun ezberdintasunik ezberdintasunak ezberdintasuna
 simaur	simaurra simaur simaurrarekin simaurrez simaurreko simaurraren
 milioidun	milioiduna milioidun milioidunen milioidunak milioidunek
+bonboi	bonboi bonboiak bonboia bonboirik
 antzu	antzua antzu antzuak antzutzat antzurik antzuarentzat
 existentzia	existentzia existentziaren existentziak existentziari existentziarik existentziako
 solas	solasean solas solasa solaserako
@@ -9999,4 +10000,3 @@ ese	ese
 laurehun	laurehun
 espartin	espartinak
 klausura	klausurako
-mututasun	mututasun

@@ -1,100 +1,100 @@
-1	2701	paseo	paseoa paseoagatik paseoak paseoan paseoarekin paseoaren
-2	2702	zorigaitz	zorigaitza zorigaitzak zorigaitzarekin zorigaitzaren zorigaitzean zorigaitzeko zorigaitzekoa zorigaitzekoak zorigaitzen zorigaitzera zorigaitzetik zorigaitzik
-3	2703	eraikuntza	eraikuntzak eraikuntzako eraikuntzan eraikuntzara eraikuntzaren eraikuntzarik eraikuntzatik eraikuntzen
-4	2704	babesle	babeslea babesleak babesleei babesleek babesleekin babesleen babesleetako babesleetan babeslerik
-5	2705	boluntario	boluntarioa boluntarioak boluntarioek boluntarioekin boluntarioen boluntarioengatik boluntarioren boluntariorik
-6	2706	xurgatu	xurga xurgatuko xurgatuz xurgatze xurgatzea xurgatzean xurgatzeko xurgatzen
-7	2707	ertain	ertaina ertainak ertainaren ertainari ertainean ertaineko ertainekoa ertainekoak ertainen ertainentzat ertainetan ertainik
-8	2708	bate	batea bateak batearekin batearen bateari bateaz bateren bateri
-9	2709	korronte	korrontea korronteak korrontean korrontearen korronteen korronteez korrontera korronterik korrontetik
-10	2710	jakitun	jakituna jakitunak jakitunek jakitunik
-11	2711	eraginkor	eraginkorra eraginkorrago eraginkorragoa eraginkorragoak eraginkorrak eraginkorrean eraginkorrena
-12	2712	abendu	abendua abenduak abenduan abenduaren abendura abendurako
-13	2713	baroi	baroia baroiak baroian baroiarekin baroiaren baroiarentzat baroiari baroiaz
-14	2714	iragarpen	iragarpena iragarpenak iragarpenaren iragarpenean iragarpenen iragarpenik
-15	2715	pairatu	paira pairatuko pairatutako pairatzeko pairatzen
-16	2716	marinel	marinela marinelak marinelari marinelei marinelek marinelen marinelik marinelok
-17	2717	ahuldu	ahuldua ahulduko ahulduta ahuldutako ahulduz ahultzea ahultzeko ahultzen
-18	2718	barren	barrenak barrenean barrenera barreneraino barrenetan barrenetatik barrenetik barrenik
-19	2719	exekutibo	exekutiboa exekutiboak exekutiboaren exekutiboei exekutiboek exekutiboekin exekutiboen exekutiboena exekutiboetatik exekutiborik
-20	2720	hozka	hozkak hozkaren hozkarik
-21	2721	txiza	txixa txizarako txizaren txizatik
-22	2722	solo	soloa soloak soloan soloarekin soloen soloetan soloetara solorekin soloren solorik soloz
-23	2723	sinbolo	sinboloa sinboloak sinboloari sinboloei sinboloek sinbolorik
-24	2724	tximista	tximistak tximistaren tximistaz tximistek tximistekin
-25	2725	birus	birusa birusak birusarekin birusaren birusen birusez birusik
-26	2726	finkatu	finka finkatua finkatuko finkaturik finkatuta finkatzea finkatzeko finkatzen
-27	2727	lauso	lausoa lausoak lausoan lausoetan lausoren lausoz
-28	2728	tekniko	teknikoa teknikoak teknikoarekin teknikoegia teknikoekin teknikoen teknikoetan
-29	2729	salatari	salataria salatariak salatariari salatariaz
-30	2730	sagu	sagua saguak saguan saguarekin saguaren saguari saguekin saguen saguokin
-31	2731	sustrai	sustraia sustraiak sustraian sustraiei sustraiek sustraiekin sustraien sustraiengatik sustraietatik sustraiez sustraira sustrairik sustraitik
-32	2732	ezbehar	ezbeharra ezbeharragatik ezbeharrak ezbeharraren ezbeharrari ezbeharrean ezbeharrek ezbeharren ezbeharretan ezbeharrez ezbeharrik
-33	2733	gozoki	gozokia gozokiak gozokian gozokiek gozokiekin gozokien gozokietako gozokiez gozokirik gozokiz
-34	2734	izenburu	izenburua izenburuak izenburuan izenburuarekin izenburuek izenburuetan izenburuko izenbururik
-35	2735	iraultzaile	iraultzailea iraultzaileago iraultzaileak iraultzailean iraultzailearekin iraultzailearen iraultzaileaz iraultzaileek iraultzaileekin iraultzaileena iraultzaileez iraultzaileko iraultzaileok
-36	2736	sakela	sakelak sakelako sakelakoa sakelakoak sakelan sakeletan sakeletatik
-37	2737	noraino	
-38	2738	horrelaxe	
-39	2739	dohainik	
-40	2740	galtzak	
-41	2741	bizpahiru	
-42	2742	igoera	igoerak igoeran igoeraren igoerari igoerarik
-43	2743	prostituta	prostitutak prostitutaz prostitutei prostitutek prostituten
-44	2744	autobide	autobidea autobideak autobidean autobidearen autobideek autobideetan autobideko autobidera autobidetik
-45	2745	kolonia	koloniak koloniako kolonian koloniara koloniaren koloniarentzat koloniatan koloniek kolonietako kolonietan kolonietara kolonietatik
-46	2746	manta	mantak mantan mantarekin mantaren mantarik manten mantetan
-47	2747	azoka	azokak azokako azokakoa azokan azokara azokarako azokarekin azokaren azokari azokatik azoketako azoketan
-48	2748	ospakizun	ospakizuna ospakizunagatik ospakizunak ospakizunarekin ospakizunaren ospakizunaz ospakizunean ospakizuneko ospakizunen ospakizunera ospakizunerako ospakizunetako ospakizunetan ospakizunetara ospakizunik
-49	2749	egurrezko	egurrezkoa egurrezkoak
-50	2750	kokaina	kokainak kokainarekin kokainaren kokainarentzat kokainarik kokainaz
-51	2751	filosofia	filosofiak filosofiako filosofiakoa filosofian filosofiara filosofiaren filosofiari filosofiarik
-52	2752	luis	luisa luisak luisek luiseko luisen luisera
-53	2753	krema	kremak kreman kremarekin kremarik kremaz
-54	2754	egitura	egiturak egituran egiturarekin egituraren egiturari egiturarik egituratik egiturek
-55	2755	aurkikuntza	aurkikuntzak aurkikuntzaren aurkikuntzarik aurkikuntzaz aurkikuntzen aurkikuntzengatik aurkikuntzetan
-56	2756	erretiro	erretiroa erretiroak erretiroan erretiroaren erretiroarentzat erretiroei erretiroko erretirora erretirorako erretirorik erretirotik
-57	2757	alor	alorra alorrak alorraren alorrean alorreko alorretako alorretan alorretara alorretik
-58	2758	txano	txanoa txanoak txanoan txanoarekin txanoaren txanorik
-59	2759	lurrin	lurrina lurrinagatik lurrinak lurrinarekin lurrinaren lurrinari lurrinekin lurrinen lurrinez
-60	2760	likido	likidoa likidoak likidoan likidoek likidoekin likidoen likidoetako likidoetan likidoko likidorik likidoz
-61	2761	muin	muina muinak muinean muineko muinera muineraino muinetatik muinik
-62	2762	salbuespen	salbuespena salbuespenak salbuespenarekin salbuespenaren salbuespenekin salbuespeneko salbuespenik
-63	2763	eskalatu	eskalatuko eskalatzea eskalatzeak eskalatzearekin eskalatzeko eskalatzen eskalatzera
-64	2764	arerio	arerioa arerioak arerioaren arerioei arerioek arerioekin arerioen areriorik
-65	2765	suhiltzaile	suhiltzailea suhiltzaileak suhiltzaileei suhiltzaileek suhiltzaileekin suhiltzaileen suhiltzailerik suhiltzailez
-66	2766	alderantziz	
-67	2767	tamalgarri	tamalgarria tamalgarriak tamalgarrienak
-68	2768	lehengusina	lehengusinak lehengusinarekin lehengusinaren lehengusinari
-69	2769	epaimahai	epaimahaia epaimahaiak epaimahaian epaimahaiaren epaimahaiari epaimahairako
-70	2770	erraztu	erraztea errazteko errazten erraztuko
-71	2771	har	harak hararen harari harek hareko harra harrak harrek harren harrerako harrez harz
-72	2772	hur	huragatik hurarekin hurra hurrei hurren hurrena hurrengan hurrik
-73	2773	ezagutza	ezagutzak ezagutzan ezagutzara ezagutzaren ezagutzari ezagutzarik ezagutzatik ezagutzatzat ezagutzaz ezagutzekin ezagutzetara
-74	2774	eleberri	eleberria eleberriak eleberrian eleberriarekin eleberriaren eleberriari eleberrietako eleberriok eleberrirako eleberriren eleberririk
-75	2775	orkestra	orkestrak orkestrako orkestrakoa orkestran orkestrarekin orkestraren orkestrari orkestraz orkestrekin orkestren orkestretan
-76	2776	greko	grekoa grekoagatik grekoak grekoan grekoarekin grekoari grekoaz grekoei grekoek grekoekin grekoen grekoetan grekoko grekorik grekotik
-77	2777	alfa	alfak alfari
-78	2778	telegrama	telegramak telegraman telegramaren telegramarik telegramen telegrametan
-79	2779	xantaia	xantaiak xantaian xantaiarako xantaiaren xantaiari xantaiarik
-80	2780	prozedura	prozedurak prozeduran prozedurarekin prozeduraren prozedurari prozedurarik prozedurei
-81	2781	hilkutxa	hilkutxak hilkutxan hilkutxarekin hilkutxarik hilkutxetatik
-82	2782	argindar	argindarra argindarrak argindarrarekin argindarraren argindarrari argindarrerako argindarrik
-83	2783	ijito	ijitoa ijitoak ijitoei ijitoek ijitoen ijitoena ijitoengana ijitook
-84	2784	drogazale	drogazalea drogazaleak drogazaleek drogazalerik drogazaletzat drogazalez
-85	2785	elfo	elfoa elfoak elfoaren elfoari elfoei elfoek elfoekin elfoen elfoez elforik
-86	2786	aurkezpen	aurkezpena aurkezpenak aurkezpenean aurkezpenei aurkezpenekin aurkezpenerako aurkezpenetan aurkezpenik
-87	2787	aurrekari	aurrekaria aurrekariak aurrekariaren aurrekariei aurrekariek aurrekariekin aurrekariengatik aurrekaririk
-88	2788	leinu	leinua leinuak leinuan leinuaren leinuari leinuen leinuetako leinuko leinukoa leinutik
-89	2789	blai	
-90	2790	banatze	banatzea banatzeagatik banatzeak banatzean banatzearen banatzeari banatzeaz banatzeko banatzera
-91	2791	ego	egoa egoak egoaren egoarengatik egoarentzat egoaz egoekin egoko egora egorik
-92	2792	inspirazio	inspirazioa inspirazioagatik inspirazioak inspirazioaren inspirazioarengatik inspirazioari inspirazioaz inspirazioko inspiraziorik
-93	2793	manifestazio	manifestazioa manifestazioak manifestazioan manifestazioaren manifestazioari manifestazioek manifestazioetan manifestazioetara manifestazioko manifestaziora manifestaziorako manifestaziorik manifestaziotik
-94	2794	tragedia	tragediak tragedian tragediaren tragediarik tragediatik tragediaz tragedien
-95	2795	aintza	aintzak aintzara aintzarako aintzaren aintzari aintzaz
-96	2796	aizkora	aizkorak aizkorara aizkorarekin aizkoraren aizkorarik aizkoraz aizkorekin
-97	2797	osagai	osagaia osagaiak osagaiarekin osagaiek osagaietako osagaietan osagairik osagaitan
-98	2798	harrotu	harrotua harrotuak harrotuko harrotuta harrotzeko harrotzen
-99	2799	nabarmen	nabarmena nabarmenago nabarmenagoa nabarmenagoak nabarmenak nabarmenarekin nabarmenarentzat nabarmenegia nabarmenekin nabarmenena nabarmenenak nabarmenez nabarmenik
-100	2800	otsail	otsaila otsailak otsailaren otsailean otsailera
+1	2701	zorigaitz	zorigaitza zorigaitzak zorigaitzarekin zorigaitzaren zorigaitzean zorigaitzeko zorigaitzekoa zorigaitzekoak zorigaitzen zorigaitzera zorigaitzetik zorigaitzik
+2	2702	eraikuntza	eraikuntzak eraikuntzako eraikuntzan eraikuntzara eraikuntzaren eraikuntzarik eraikuntzatik eraikuntzen
+3	2703	babesle	babeslea babesleak babesleei babesleek babesleekin babesleen babesleetako babesleetan babeslerik
+4	2704	boluntario	boluntarioa boluntarioak boluntarioek boluntarioekin boluntarioen boluntarioengatik boluntarioren boluntariorik
+5	2705	xurgatu	xurga xurgatuko xurgatuz xurgatze xurgatzea xurgatzean xurgatzeko xurgatzen
+6	2706	ertain	ertaina ertainak ertainaren ertainari ertainean ertaineko ertainekoa ertainekoak ertainen ertainentzat ertainetan ertainik
+7	2707	bate	batea bateak batearekin batearen bateari bateaz bateren bateri
+8	2708	korronte	korrontea korronteak korrontean korrontearen korronteen korronteez korrontera korronterik korrontetik
+9	2709	jakitun	jakituna jakitunak jakitunek jakitunik
+10	2710	eraginkor	eraginkorra eraginkorrago eraginkorragoa eraginkorragoak eraginkorrak eraginkorrean eraginkorrena
+11	2711	abendu	abendua abenduak abenduan abenduaren abendura abendurako
+12	2712	baroi	baroia baroiak baroian baroiarekin baroiaren baroiarentzat baroiari baroiaz
+13	2713	iragarpen	iragarpena iragarpenak iragarpenaren iragarpenean iragarpenen iragarpenik
+14	2714	pairatu	paira pairatuko pairatutako pairatzeko pairatzen
+15	2715	marinel	marinela marinelak marinelari marinelei marinelek marinelen marinelik marinelok
+16	2716	ahuldu	ahuldua ahulduko ahulduta ahuldutako ahulduz ahultzea ahultzeko ahultzen
+17	2717	barren	barrenak barrenean barrenera barreneraino barrenetan barrenetatik barrenetik barrenik
+18	2718	exekutibo	exekutiboa exekutiboak exekutiboaren exekutiboei exekutiboek exekutiboekin exekutiboen exekutiboena exekutiboetatik exekutiborik
+19	2719	hozka	hozkak hozkaren hozkarik
+20	2720	txiza	txixa txizarako txizaren txizatik
+21	2721	solo	soloa soloak soloan soloarekin soloen soloetan soloetara solorekin soloren solorik soloz
+22	2722	sinbolo	sinboloa sinboloak sinboloari sinboloei sinboloek sinbolorik
+23	2723	tximista	tximistak tximistaren tximistaz tximistek tximistekin
+24	2724	birus	birusa birusak birusarekin birusaren birusen birusez birusik
+25	2725	finkatu	finka finkatua finkatuko finkaturik finkatuta finkatzea finkatzeko finkatzen
+26	2726	lauso	lausoa lausoak lausoan lausoetan lausoren lausoz
+27	2727	tekniko	teknikoa teknikoak teknikoarekin teknikoegia teknikoekin teknikoen teknikoetan
+28	2728	salatari	salataria salatariak salatariari salatariaz
+29	2729	sagu	sagua saguak saguan saguarekin saguaren saguari saguekin saguen saguokin
+30	2730	sustrai	sustraia sustraiak sustraian sustraiei sustraiek sustraiekin sustraien sustraiengatik sustraietatik sustraiez sustraira sustrairik sustraitik
+31	2731	ezbehar	ezbeharra ezbeharragatik ezbeharrak ezbeharraren ezbeharrari ezbeharrean ezbeharrek ezbeharren ezbeharretan ezbeharrez ezbeharrik
+32	2732	gozoki	gozokia gozokiak gozokian gozokiek gozokiekin gozokien gozokietako gozokiez gozokirik gozokiz
+33	2733	izenburu	izenburua izenburuak izenburuan izenburuarekin izenburuek izenburuetan izenburuko izenbururik
+34	2734	iraultzaile	iraultzailea iraultzaileago iraultzaileak iraultzailean iraultzailearekin iraultzailearen iraultzaileaz iraultzaileek iraultzaileekin iraultzaileena iraultzaileez iraultzaileko iraultzaileok
+35	2735	sakela	sakelak sakelako sakelakoa sakelakoak sakelan sakeletan sakeletatik
+36	2736	noraino	
+37	2737	horrelaxe	
+38	2738	dohainik	
+39	2739	galtzak	
+40	2740	bizpahiru	
+41	2741	igoera	igoerak igoeran igoeraren igoerari igoerarik
+42	2742	prostituta	prostitutak prostitutaz prostitutei prostitutek prostituten
+43	2743	autobide	autobidea autobideak autobidean autobidearen autobideek autobideetan autobideko autobidera autobidetik
+44	2744	kolonia	koloniak koloniako kolonian koloniara koloniaren koloniarentzat koloniatan koloniek kolonietako kolonietan kolonietara kolonietatik
+45	2745	manta	mantak mantan mantarekin mantaren mantarik manten mantetan
+46	2746	azoka	azokak azokako azokakoa azokan azokara azokarako azokarekin azokaren azokari azokatik azoketako azoketan
+47	2747	ospakizun	ospakizuna ospakizunagatik ospakizunak ospakizunarekin ospakizunaren ospakizunaz ospakizunean ospakizuneko ospakizunen ospakizunera ospakizunerako ospakizunetako ospakizunetan ospakizunetara ospakizunik
+48	2748	egurrezko	egurrezkoa egurrezkoak
+49	2749	kokaina	kokainak kokainarekin kokainaren kokainarentzat kokainarik kokainaz
+50	2750	filosofia	filosofiak filosofiako filosofiakoa filosofian filosofiara filosofiaren filosofiari filosofiarik
+51	2751	luis	luisa luisak luisek luiseko luisen luisera
+52	2752	krema	kremak kreman kremarekin kremarik kremaz
+53	2753	egitura	egiturak egituran egiturarekin egituraren egiturari egiturarik egituratik egiturek
+54	2754	aurkikuntza	aurkikuntzak aurkikuntzaren aurkikuntzarik aurkikuntzaz aurkikuntzen aurkikuntzengatik aurkikuntzetan
+55	2755	erretiro	erretiroa erretiroak erretiroan erretiroaren erretiroarentzat erretiroei erretiroko erretirora erretirorako erretirorik erretirotik
+56	2756	alor	alorra alorrak alorraren alorrean alorreko alorretako alorretan alorretara alorretik
+57	2757	txano	txanoa txanoak txanoan txanoarekin txanoaren txanorik
+58	2758	lurrin	lurrina lurrinagatik lurrinak lurrinarekin lurrinaren lurrinari lurrinekin lurrinen lurrinez
+59	2759	likido	likidoa likidoak likidoan likidoek likidoekin likidoen likidoetako likidoetan likidoko likidorik likidoz
+60	2760	muin	muina muinak muinean muineko muinera muineraino muinetatik muinik
+61	2761	salbuespen	salbuespena salbuespenak salbuespenarekin salbuespenaren salbuespenekin salbuespeneko salbuespenik
+62	2762	eskalatu	eskalatuko eskalatzea eskalatzeak eskalatzearekin eskalatzeko eskalatzen eskalatzera
+63	2763	arerio	arerioa arerioak arerioaren arerioei arerioek arerioekin arerioen areriorik
+64	2764	suhiltzaile	suhiltzailea suhiltzaileak suhiltzaileei suhiltzaileek suhiltzaileekin suhiltzaileen suhiltzailerik suhiltzailez
+65	2765	alderantziz	
+66	2766	tamalgarri	tamalgarria tamalgarriak tamalgarrienak
+67	2767	lehengusina	lehengusinak lehengusinarekin lehengusinaren lehengusinari
+68	2768	epaimahai	epaimahaia epaimahaiak epaimahaian epaimahaiaren epaimahaiari epaimahairako
+69	2769	erraztu	erraztea errazteko errazten erraztuko
+70	2770	har	harak hararen harari harek hareko harra harrak harrek harren harrerako harrez harz
+71	2771	hur	huragatik hurarekin hurra hurrei hurren hurrena hurrengan hurrik
+72	2772	ezagutza	ezagutzak ezagutzan ezagutzara ezagutzaren ezagutzari ezagutzarik ezagutzatik ezagutzatzat ezagutzaz ezagutzekin ezagutzetara
+73	2773	eleberri	eleberria eleberriak eleberrian eleberriarekin eleberriaren eleberriari eleberrietako eleberriok eleberrirako eleberriren eleberririk
+74	2774	orkestra	orkestrak orkestrako orkestrakoa orkestran orkestrarekin orkestraren orkestrari orkestraz orkestrekin orkestren orkestretan
+75	2775	greko	grekoa grekoagatik grekoak grekoan grekoarekin grekoari grekoaz grekoei grekoek grekoekin grekoen grekoetan grekoko grekorik grekotik
+76	2776	alfa	alfak alfari
+77	2777	telegrama	telegramak telegraman telegramaren telegramarik telegramen telegrametan
+78	2778	xantaia	xantaiak xantaian xantaiarako xantaiaren xantaiari xantaiarik
+79	2779	prozedura	prozedurak prozeduran prozedurarekin prozeduraren prozedurari prozedurarik prozedurei
+80	2780	hilkutxa	hilkutxak hilkutxan hilkutxarekin hilkutxarik hilkutxetatik
+81	2781	argindar	argindarra argindarrak argindarrarekin argindarraren argindarrari argindarrerako argindarrik
+82	2782	ijito	ijitoa ijitoak ijitoei ijitoek ijitoen ijitoena ijitoengana ijitook
+83	2783	drogazale	drogazalea drogazaleak drogazaleek drogazalerik drogazaletzat drogazalez
+84	2784	elfo	elfoa elfoak elfoaren elfoari elfoei elfoek elfoekin elfoen elfoez elforik
+85	2785	aurkezpen	aurkezpena aurkezpenak aurkezpenean aurkezpenei aurkezpenekin aurkezpenerako aurkezpenetan aurkezpenik
+86	2786	aurrekari	aurrekaria aurrekariak aurrekariaren aurrekariei aurrekariek aurrekariekin aurrekariengatik aurrekaririk
+87	2787	leinu	leinua leinuak leinuan leinuaren leinuari leinuen leinuetako leinuko leinukoa leinutik
+88	2788	blai	
+89	2789	banatze	banatzea banatzeagatik banatzeak banatzean banatzearen banatzeari banatzeaz banatzeko banatzera
+90	2790	ego	egoa egoak egoaren egoarengatik egoarentzat egoaz egoekin egoko egora egorik
+91	2791	inspirazio	inspirazioa inspirazioagatik inspirazioak inspirazioaren inspirazioarengatik inspirazioari inspirazioaz inspirazioko inspiraziorik
+92	2792	manifestazio	manifestazioa manifestazioak manifestazioan manifestazioaren manifestazioari manifestazioek manifestazioetan manifestazioetara manifestazioko manifestaziora manifestaziorako manifestaziorik manifestaziotik
+93	2793	tragedia	tragediak tragedian tragediaren tragediarik tragediatik tragediaz tragedien
+94	2794	aintza	aintzak aintzara aintzarako aintzaren aintzari aintzaz
+95	2795	aizkora	aizkorak aizkorara aizkorarekin aizkoraren aizkorarik aizkoraz aizkorekin
+96	2796	osagai	osagaia osagaiak osagaiarekin osagaiek osagaietako osagaietan osagairik osagaitan
+97	2797	harrotu	harrotua harrotuak harrotuko harrotuta harrotzeko harrotzen
+98	2798	nabarmen	nabarmena nabarmenago nabarmenagoa nabarmenagoak nabarmenak nabarmenarekin nabarmenarentzat nabarmenegia nabarmenekin nabarmenena nabarmenenak nabarmenez nabarmenik
+99	2799	otsail	otsaila otsailak otsailaren otsailean otsailera
+100	2800	errugbi	errugbia errugbian errugbiaren errugbiaz errugbiko

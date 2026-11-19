@@ -1,100 +1,100 @@
-1	3001	gomendio	gomendioa gomendioak gomendioei gomendioek gomendioekin gomendioen gomendioren gomendiorik
-2	3002	kasino	kasinoa kasinoak kasinoan kasinoen kasinoetan kasinoko kasinokoa kasinora kasinorako kasinorik kasinotik
-3	3003	murru	murrua murruagatik murruan murruaren murruaz murruko murrura murrurako murrutik
-4	3004	bozketa	bozketak bozketan bozketara bozketarako bozketarekin bozketaren
-5	3005	merkataritza	merkataritzako merkataritzakoa merkataritzan merkataritzarekin merkataritzaren merkataritzarik merkataritzatik
-6	3006	ugazaba	ugazabak ugazabarekin ugazabaren ugazabarik ugazaben ugazabentzat
-7	3007	zaildu	zaildua zailduak zailduko zailtzea zailtzeko zailtzen
-8	3008	garapen	garapena garapenak garapenarekin garapenaren garapenaz garapenean garapeneko garapenen garapenerako
-9	3009	hitzarmen	hitzarmena hitzarmenak hitzarmenaren hitzarmenean hitzarmenera hitzarmenez hitzarmenik
-10	3010	billete	billetea billeteak billeteekin billeteetan billeteez billeterik billetetan billetez
-11	3011	gehienez	
-12	3012	lotinant	lotinanta lotinantak lotinantarekin lotinantarentzat lotinantaz
-13	3013	ezizen	ezizena ezizenak ezizenarekin ezizenekoak ezizenez
-14	3014	jabego	jabegoa jabegoak jabegoan jabegoaz jabegoen jabegorik jabegotzat
-15	3015	akziodun	akzioduna akziodunak akziodunei akziodunek akziodunen akziodunentzat
-16	3016	zalgurdi	zalgurdia zalgurdiak zalgurdian zalgurdiaren zalgurdiari zalgurdiaz zalgurdira zalgurdirik zalgurditik
-17	3017	digital	digitala digitalak digitalaren digitalean digitalekin digitaleko digitalen
-18	3018	berme	bermea bermeak bermearekin bermeek bermeen bermeren bermerik bermetzat
-19	3019	ekoizpen	ekoizpena ekoizpenak ekoizpenaren ekoizpenean ekoizpenerako ekoizpenik
-20	3020	lanpara	lanparak lanparako lanpararekin lanpararen lanparari lanpararik lanparatik lanparekin
-21	3021	man	manak manek manen
-22	3022	erditu	erditua erdituko erditurik erditutako erdituz erditze erditzea erditzeagatik erditzeak erditzean erditzearen erditzeko erditzen erditzera
-23	3023	urrutiko	urrutikoa urrutikoak
-24	3024	tolestu	toles tolestea tolestean tolesteko tolesten tolestera tolestuko tolestuta
-25	3025	fitxa	fitxak fitxan fitxaren fitxari fitxarik fitxatik fitxengatik fitxetan
-26	3026	instalazio	instalazioa instalazioak instalazioek instalazioekin instalazioen instalazioetan instalazioetara instalazioetatik instalaziorik instalazioz
-27	3027	ukabil	ukabila ukabilak ukabilarekin ukabilaren ukabilean ukabilei ukabilek ukabilekin ukabilekoa
-28	3028	heroina	heroinak heroinarekin heroinaren heroinarik heroinaz
-29	3029	pasahitz	pasahitza pasahitzak pasahitzaz pasahitzez pasahitzik
-30	3030	autopsia	autopsiak autopsiako autopsian autopsiara autopsiarekin autopsiaren autopsiarik autopsiek
-31	3031	behatu	beha behatua behatuko behatuta behatuz behatzea behatzeagatik
-32	3032	txaleko	txalekoa txalekoak txalekoan txalekoarekin txalekoaren txalekoari txalekoen txalekorik txalekotik
-33	3033	kapital	kapitala kapitalak kapitalaren kapitalari kapitalean kapitalei kapitaleko
-34	3034	efektu	efektua efektuan efektuarekin efektuaren efekturik
-35	3035	ingurumen	ingurumena ingurumenagatik ingurumenarekin ingurumenaren ingurumenari ingurumenaz ingurumeneko ingurumenerako
-36	3036	kanpaleku	kanpalekua kanpalekuak kanpalekuan kanpalekuaren kanpalekuetako kanpalekuetan kanpalekukoak kanpalekura kanpalekuraino
-37	3037	loteria	loterian loteriara loteriaren loteriarik
-38	3038	amama	amamak amamarekin amamaren amamarentzat amamari
-39	3039	automatiko	automatikoa automatikoak automatikoan automatikoekin automatikook automatikora
-40	3040	zerrategi	zerrategia zerrategiak zerrategian zerrategiaren zerrategiaz zerrategiko zerrategikoa zerrategira zerrategitik
-41	3041	jangela	jangelako jangelakoa jangelan jangelara jangelarako jangelaren jangelatik
-42	3042	txikle	txiklea txikleak txiklearen txiklerik
-43	3043	erratu	erra erraidazu erraidazue erratuko erratuta erratzean
-44	3044	sendagai	sendagaia sendagaiak sendagaiek sendagaiekin sendagaien sendagaiez sendagairen sendagairik sendagaitzat
-45	3045	makillaje	makillajea makillajean makillajearen makillajeko makillajerako makillajerik makillajetik
-46	3046	masturbatu	masturbatua masturbatuko masturbatuta masturbatuz masturbatzea masturbatzeko masturbatzen masturbatzera
-47	3047	mendebal	mendebala mendebalak mendebalaren mendebalean mendebaleko mendebalekoa mendebalera mendebalerantz mendebaletik
-48	3048	errepublikano	errepublikanoa errepublikanoak errepublikanoan errepublikanoarekin errepublikanoaren errepublikanoei errepublikanoek errepublikanoekin errepublikanoen errepublikanoko errepublikanokoa errepublikanorik
-49	3049	enigma	enigmak enigman enigmara enigmarekin enigmaren enigmaz
-50	3050	zurbil	zurbila zurbilago zurbilagoa zurbilak zurbilaren
-51	3051	burdina	burdinak burdinako burdinarekin burdinaren burdinaz burdinekin burdinetan burdinez
-52	3052	heren	herena herenak herenean herenek herenen
-53	3053	elbarri	elbarria elbarriak elbarriek elbarriengatik elbarrientzat
-54	3054	eskoziar	eskoziarra eskoziarrak eskoziarrari eskoziarrei eskoziarrek eskoziarren eskoziarrez
-55	3055	zoriondu	zorionduko zorionduz zoriontzea zoriontzeko zoriontzen zoriontzera
-56	3056	zuzenbide	zuzenbidea zuzenbidean zuzenbideari zuzenbideko zuzenbidera zuzenbidez
-57	3057	inspiratu	inspiratua inspiratuko inspiraturik inspiratuta inspiratze inspiratzeko inspiratzen
-58	3058	dopin	dopina dopinagatik dopinarekin dopinaren dopinari dopinaz dopinean dopinik
-59	3059	perfume	perfumea perfumeak perfumearen perfumeen perfumeentzat perfumerik perfumez
-60	3060	at	
-61	3061	berlina	berlinek berlinen
-62	3062	sentibera	sentiberak sentiberarentzat sentiberekin
-63	3063	metalezko	metalezkoa metalezkoak
-64	3064	dinamita	dinamitak dinamitarekin dinamitaren dinamitarik dinamitaz
-65	3065	aurtengo	aurtengoa aurtengoz
-66	3066	agenda	agendak agendako agendan agendari agendarik agendatik
-67	3067	erreakzionatu	erreakziona erreakzionatuko erreakzionatzea erreakzionatzeko erreakzionatzen
-68	3068	bankari	bankaria bankariak bankariaren bankariek bankarien
-69	3069	onura	onurak onurako onuran onurarako onuraren onurarik onuratik onurengatik onurez
-70	3070	odoltsu	odoltsua odoltsuak odoltsuan odoltsuarekin odoltsuaren odoltsuegia odoltsuen odoltsuena odoltsura odoltsurik
-71	3071	arku	arkua arkuak arkuan arkuarekin arkuari arkuen arkuko arkuz
-72	3072	argitasun	argitasuna argitasunak argitasunarekin argitasunaren argitasunari argitasunean argitasuneko argitasunera argitasunez argitasunik
-73	3073	erosle	eroslea erosleak eroslearen eroslearengana eroslearengandik eroslearentzat erosleari erosleei erosleen erosleri eroslerik
-74	3074	bagoi	bagoia bagoiak bagoian bagoiaren bagoiari bagoien bagoietako bagoietan bagoietara bagoiko bagoira
-75	3075	udaletxe	udaletxea udaletxean udaletxearekin udaletxearen udaletxeari udaletxeko udaletxekoa udaletxera udaletxetik
-76	3076	sermoi	sermoia sermoiak sermoian sermoiaren sermoiek sermoiekin sermoietako sermoietan sermoirik sermoitik
-77	3077	nobela	nobelak nobelako nobelan nobelaren nobelari nobelen nobeletako nobeletan
-78	3078	xuxurlatu	xuxurlatuko xuxurlatuz xuxurlatzeak xuxurlatzean xuxurlatzeko xuxurlatzen
-79	3079	delikatu	delikatua delikatuagoa delikatuak delikatuan delikatuegia delikatuena delikaturen delikatuz
-80	3080	tiratzaile	tiratzailea tiratzaileak tiratzailearen tiratzaileaz tiratzaileei tiratzaileek tiratzaileen tiratzaileok tiratzailerik
-81	3081	itun	ituna itunak itunaren itunean itunek
-82	3082	ezohiko	ezohikoa ezohikoagoa ezohikoak ezohikoen ezohikoena
-83	3083	frantziar	frantziarra frantziarrak frantziarraren frantziarrean frantziarrei frantziarrek frantziarreko frantziarren frantziarrik
-84	3084	aterpe	aterpea aterpeak aterpean aterpearen aterpeetara aterpeko aterpera aterperik aterpetik
-85	3085	prentsaurreko	prentsaurrekoa prentsaurrekoak prentsaurrekoan prentsaurrekoarekin prentsaurrekoaren prentsaurrekora prentsaurrekorako prentsaurrekotan
-86	3086	trumoi	trumoia trumoiak trumoiaren trumoiari trumoiaz trumoiei trumoiek trumoien
-87	3087	giltzurrun	giltzurruna giltzurrunak giltzurrunean giltzurrunek giltzurrunekoak giltzurrunen giltzurrunetan giltzurrunetaraino giltzurrunik
-88	3088	zakarrontzi	zakarrontzia zakarrontziak zakarrontzian zakarrontzien zakarrontzietan zakarrontzietatik zakarrontzira zakarrontzirik zakarrontzitik
-89	3089	luxuzko	luxuzkoa luxuzkoago luxuzkorik
-90	3090	laburbildu	laburbilduko laburbilduz laburbiltzea laburbiltzeko laburbiltzen
-91	3091	jaiotza	jaiotzak jaiotzako jaiotzaren jaiotzatik jaiotzaz jaiotzez
-92	3092	xeke	xekea xekeak xekearekin xekearen xekearentzat xekeari xekerik
-93	3093	more	morea moreak morearekin moreengatik moretan morez
-94	3094	hontz	hontza hontzak hontzaren hontzei hontzek hontzez
-95	3095	terrorismo	terrorismoa terrorismoagatik terrorismoan terrorismoarekin terrorismoaren terrorismoari terrorismoaz terrorismoz
-96	3096	meatze	meatzea meatzeak meatzean meatzearen meatzeetako meatzeetan meatzeetatik meatzeko meatzera meatzetako meatzetan
-97	3097	goizero	
-98	3098	orrazkera	orrazkerak orrazkeran orrazkeraz
-99	3099	miazkatu	miazka miazkaturik miazkatzea miazkatzeko miazkatzen
-100	3100	taliban	talibana talibanak talibanei talibanek talibanekin talibanen
+1	3001	kasino	kasinoa kasinoak kasinoan kasinoen kasinoetan kasinoko kasinokoa kasinora kasinorako kasinorik kasinotik
+2	3002	murru	murrua murruagatik murruan murruaren murruaz murruko murrura murrurako murrutik
+3	3003	bozketa	bozketak bozketan bozketara bozketarako bozketarekin bozketaren
+4	3004	merkataritza	merkataritzako merkataritzakoa merkataritzan merkataritzarekin merkataritzaren merkataritzarik merkataritzatik
+5	3005	ugazaba	ugazabak ugazabarekin ugazabaren ugazabarik ugazaben ugazabentzat
+6	3006	zaildu	zaildua zailduak zailduko zailtzea zailtzeko zailtzen
+7	3007	garapen	garapena garapenak garapenarekin garapenaren garapenaz garapenean garapeneko garapenen garapenerako
+8	3008	hitzarmen	hitzarmena hitzarmenak hitzarmenaren hitzarmenean hitzarmenera hitzarmenez hitzarmenik
+9	3009	billete	billetea billeteak billeteekin billeteetan billeteez billeterik billetetan billetez
+10	3010	gehienez	
+11	3011	lotinant	lotinanta lotinantak lotinantarekin lotinantarentzat lotinantaz
+12	3012	ezizen	ezizena ezizenak ezizenarekin ezizenekoak ezizenez
+13	3013	jabego	jabegoa jabegoak jabegoan jabegoaz jabegoen jabegorik jabegotzat
+14	3014	akziodun	akzioduna akziodunak akziodunei akziodunek akziodunen akziodunentzat
+15	3015	zalgurdi	zalgurdia zalgurdiak zalgurdian zalgurdiaren zalgurdiari zalgurdiaz zalgurdira zalgurdirik zalgurditik
+16	3016	digital	digitala digitalak digitalaren digitalean digitalekin digitaleko digitalen
+17	3017	berme	bermea bermeak bermearekin bermeek bermeen bermeren bermerik bermetzat
+18	3018	ekoizpen	ekoizpena ekoizpenak ekoizpenaren ekoizpenean ekoizpenerako ekoizpenik
+19	3019	lanpara	lanparak lanparako lanpararekin lanpararen lanparari lanpararik lanparatik lanparekin
+20	3020	man	manak manek manen
+21	3021	erditu	erditua erdituko erditurik erditutako erdituz erditze erditzea erditzeagatik erditzeak erditzean erditzearen erditzeko erditzen erditzera
+22	3022	urrutiko	urrutikoa urrutikoak
+23	3023	tolestu	toles tolestea tolestean tolesteko tolesten tolestera tolestuko tolestuta
+24	3024	fitxa	fitxak fitxan fitxaren fitxari fitxarik fitxatik fitxengatik fitxetan
+25	3025	instalazio	instalazioa instalazioak instalazioek instalazioekin instalazioen instalazioetan instalazioetara instalazioetatik instalaziorik instalazioz
+26	3026	ukabil	ukabila ukabilak ukabilarekin ukabilaren ukabilean ukabilei ukabilek ukabilekin ukabilekoa
+27	3027	heroina	heroinak heroinarekin heroinaren heroinarik heroinaz
+28	3028	pasahitz	pasahitza pasahitzak pasahitzaz pasahitzez pasahitzik
+29	3029	autopsia	autopsiak autopsiako autopsian autopsiara autopsiarekin autopsiaren autopsiarik autopsiek
+30	3030	behatu	beha behatua behatuko behatuta behatuz behatzea behatzeagatik
+31	3031	txaleko	txalekoa txalekoak txalekoan txalekoarekin txalekoaren txalekoari txalekoen txalekorik txalekotik
+32	3032	kapital	kapitala kapitalak kapitalaren kapitalari kapitalean kapitalei kapitaleko
+33	3033	efektu	efektua efektuan efektuarekin efektuaren efekturik
+34	3034	ingurumen	ingurumena ingurumenagatik ingurumenarekin ingurumenaren ingurumenari ingurumenaz ingurumeneko ingurumenerako
+35	3035	kanpaleku	kanpalekua kanpalekuak kanpalekuan kanpalekuaren kanpalekuetako kanpalekuetan kanpalekukoak kanpalekura kanpalekuraino
+36	3036	loteria	loterian loteriara loteriaren loteriarik
+37	3037	amama	amamak amamarekin amamaren amamarentzat amamari
+38	3038	automatiko	automatikoa automatikoak automatikoan automatikoekin automatikook automatikora
+39	3039	zerrategi	zerrategia zerrategiak zerrategian zerrategiaren zerrategiaz zerrategiko zerrategikoa zerrategira zerrategitik
+40	3040	jangela	jangelako jangelakoa jangelan jangelara jangelarako jangelaren jangelatik
+41	3041	txikle	txiklea txikleak txiklearen txiklerik
+42	3042	erratu	erra erraidazu erraidazue erratuko erratuta erratzean
+43	3043	sendagai	sendagaia sendagaiak sendagaiek sendagaiekin sendagaien sendagaiez sendagairen sendagairik sendagaitzat
+44	3044	makillaje	makillajea makillajean makillajearen makillajeko makillajerako makillajerik makillajetik
+45	3045	masturbatu	masturbatua masturbatuko masturbatuta masturbatuz masturbatzea masturbatzeko masturbatzen masturbatzera
+46	3046	mendebal	mendebala mendebalak mendebalaren mendebalean mendebaleko mendebalekoa mendebalera mendebalerantz mendebaletik
+47	3047	errepublikano	errepublikanoa errepublikanoak errepublikanoan errepublikanoarekin errepublikanoaren errepublikanoei errepublikanoek errepublikanoekin errepublikanoen errepublikanoko errepublikanokoa errepublikanorik
+48	3048	enigma	enigmak enigman enigmara enigmarekin enigmaren enigmaz
+49	3049	zurbil	zurbila zurbilago zurbilagoa zurbilak zurbilaren
+50	3050	burdina	burdinak burdinako burdinarekin burdinaren burdinaz burdinekin burdinetan burdinez
+51	3051	heren	herena herenak herenean herenek herenen
+52	3052	elbarri	elbarria elbarriak elbarriek elbarriengatik elbarrientzat
+53	3053	eskoziar	eskoziarra eskoziarrak eskoziarrari eskoziarrei eskoziarrek eskoziarren eskoziarrez
+54	3054	zoriondu	zorionduko zorionduz zoriontzea zoriontzeko zoriontzen zoriontzera
+55	3055	zuzenbide	zuzenbidea zuzenbidean zuzenbideari zuzenbideko zuzenbidera zuzenbidez
+56	3056	inspiratu	inspiratua inspiratuko inspiraturik inspiratuta inspiratze inspiratzeko inspiratzen
+57	3057	dopin	dopina dopinagatik dopinarekin dopinaren dopinari dopinaz dopinean dopinik
+58	3058	perfume	perfumea perfumeak perfumearen perfumeen perfumeentzat perfumerik perfumez
+59	3059	at	
+60	3060	berlina	berlinek berlinen
+61	3061	sentibera	sentiberak sentiberarentzat sentiberekin
+62	3062	metalezko	metalezkoa metalezkoak
+63	3063	dinamita	dinamitak dinamitarekin dinamitaren dinamitarik dinamitaz
+64	3064	aurtengo	aurtengoa aurtengoz
+65	3065	agenda	agendak agendako agendan agendari agendarik agendatik
+66	3066	erreakzionatu	erreakziona erreakzionatuko erreakzionatzea erreakzionatzeko erreakzionatzen
+67	3067	bankari	bankaria bankariak bankariaren bankariek bankarien
+68	3068	onura	onurak onurako onuran onurarako onuraren onurarik onuratik onurengatik onurez
+69	3069	odoltsu	odoltsua odoltsuak odoltsuan odoltsuarekin odoltsuaren odoltsuegia odoltsuen odoltsuena odoltsura odoltsurik
+70	3070	arku	arkua arkuak arkuan arkuarekin arkuari arkuen arkuko arkuz
+71	3071	argitasun	argitasuna argitasunak argitasunarekin argitasunaren argitasunari argitasunean argitasuneko argitasunera argitasunez argitasunik
+72	3072	erosle	eroslea erosleak eroslearen eroslearengana eroslearengandik eroslearentzat erosleari erosleei erosleen erosleri eroslerik
+73	3073	bagoi	bagoia bagoiak bagoian bagoiaren bagoiari bagoien bagoietako bagoietan bagoietara bagoiko bagoira
+74	3074	udaletxe	udaletxea udaletxean udaletxearekin udaletxearen udaletxeari udaletxeko udaletxekoa udaletxera udaletxetik
+75	3075	sermoi	sermoia sermoiak sermoian sermoiaren sermoiek sermoiekin sermoietako sermoietan sermoirik sermoitik
+76	3076	nobela	nobelak nobelako nobelan nobelaren nobelari nobelen nobeletako nobeletan
+77	3077	xuxurlatu	xuxurlatuko xuxurlatuz xuxurlatzeak xuxurlatzean xuxurlatzeko xuxurlatzen
+78	3078	delikatu	delikatua delikatuagoa delikatuak delikatuan delikatuegia delikatuena delikaturen delikatuz
+79	3079	tiratzaile	tiratzailea tiratzaileak tiratzailearen tiratzaileaz tiratzaileei tiratzaileek tiratzaileen tiratzaileok tiratzailerik
+80	3080	itun	ituna itunak itunaren itunean itunek
+81	3081	ezohiko	ezohikoa ezohikoagoa ezohikoak ezohikoen ezohikoena
+82	3082	frantziar	frantziarra frantziarrak frantziarraren frantziarrean frantziarrei frantziarrek frantziarreko frantziarren frantziarrik
+83	3083	aterpe	aterpea aterpeak aterpean aterpearen aterpeetara aterpeko aterpera aterperik aterpetik
+84	3084	prentsaurreko	prentsaurrekoa prentsaurrekoak prentsaurrekoan prentsaurrekoarekin prentsaurrekoaren prentsaurrekora prentsaurrekorako prentsaurrekotan
+85	3085	trumoi	trumoia trumoiak trumoiaren trumoiari trumoiaz trumoiei trumoiek trumoien
+86	3086	giltzurrun	giltzurruna giltzurrunak giltzurrunean giltzurrunek giltzurrunekoak giltzurrunen giltzurrunetan giltzurrunetaraino giltzurrunik
+87	3087	zakarrontzi	zakarrontzia zakarrontziak zakarrontzian zakarrontzien zakarrontzietan zakarrontzietatik zakarrontzira zakarrontzirik zakarrontzitik
+88	3088	luxuzko	luxuzkoa luxuzkoago luxuzkorik
+89	3089	laburbildu	laburbilduko laburbilduz laburbiltzea laburbiltzeko laburbiltzen
+90	3090	jaiotza	jaiotzak jaiotzako jaiotzaren jaiotzatik jaiotzaz jaiotzez
+91	3091	xeke	xekea xekeak xekearekin xekearen xekearentzat xekeari xekerik
+92	3092	more	morea moreak morearekin moreengatik moretan morez
+93	3093	hontz	hontza hontzak hontzaren hontzei hontzek hontzez
+94	3094	terrorismo	terrorismoa terrorismoagatik terrorismoan terrorismoarekin terrorismoaren terrorismoari terrorismoaz terrorismoz
+95	3095	meatze	meatzea meatzeak meatzean meatzearen meatzeetako meatzeetan meatzeetatik meatzeko meatzera meatzetako meatzetan
+96	3096	goizero	
+97	3097	orrazkera	orrazkerak orrazkeran orrazkeraz
+98	3098	miazkatu	miazka miazkaturik miazkatzea miazkatzeko miazkatzen
+99	3099	taliban	talibana talibanak talibanei talibanek talibanekin talibanen
+100	3100	eroan	daroa daroat daroazu eroango eroatea eroateko eroaten zeroan

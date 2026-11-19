@@ -1,100 +1,100 @@
-1	2201	desiratu	desiratua desiratuko desiratutakoa desiratzea desiratzeko desiratzen desiratzera
-2	2202	zorabiatu	zorabiatuak zorabiatuko zorabiaturik zorabiatuta zorabiatutakoa zorabiatzeagatik zorabiatzeko zorabiatzen
-3	2203	errauts	errautsa errautsak errautsari errautsei errautsek errautsekin errautsen errautsera errautsetan errautsetara errautsetatik errautsetik errautsez
-4	2204	zomorro	zomorroa zomorroak zomorroaren zomorroekin zomorroen zomorroengandik zomorrok zomorrorik zomorroz
-5	2205	aizto	aiztoa aiztoak aiztoarekin aiztoaren aiztoekin aiztorik aiztoz
-6	2206	igerian	
-7	2207	karga	kargak kargako kargan kargarik kargaz kargekin
-8	2208	oilo	oiloa oiloak oiloarentzat oiloei oiloek oiloekin oiloen
-9	2209	eztarri	eztarria eztarriak eztarrian eztarriaren eztarriko eztarririk eztarritik
-10	2210	azeri	azari azeria azeriak azeriaren azeriari azeriek azeriekin azerien azerira azeriren azeririk
-11	2211	gudari	gudaria gudariak gudariaren gudariari gudariek gudariekin gudarien gudarik gudaririk
-12	2212	edalontzi	edalontzia edalontziak edalontzian edalontziaren edalontziekin edalontzien edalontzietan edalontzirekin edalontzitan
-13	2213	tentsio	tentsioa tentsioagatik tentsioak tentsioan tentsioaren tentsioari tentsioko tentsiorako tentsiorik
-14	2214	konponbide	konponbidea konponbidean konponbidearekin konponbidearen konponbideari konponbideetan konponbideetara konponbideren konponbiderik
-15	2215	sorta	sortak sortako sortaren sortatan sortaz
-16	2216	oztopo	oztopoa oztopoak oztopoarekin oztopoekin oztopoen oztopoengatik oztoporik oztopoz
-17	2217	maior	maiorra maiorrak maiorrarekin maiorraren maiorrari maiorreko maiorrik
-18	2218	politikari	politikaria politikariak politikariei politikariek politikariekin politikarien politikariengatik politikarientzat politikarik politikaririk
-19	2219	erregistro	erregistroa erregistroak erregistroan erregistroaren erregistroen erregistroetako erregistroetatik erregistroko erregistrora erregistroren erregistrorik erregistrotik
-20	2220	ezaugarri	ezaugarria ezaugarriak ezaugarriei ezaugarriekin ezaugarrietako ezaugarririk
-21	2221	helmuga	helmugak helmugan helmugara helmugaraino helmugarako helmugaren helmugei
-22	2222	ekonomiko	ekonomikoa ekonomikoak ekonomikoan ekonomikoarekin ekonomikoaren ekonomikoari ekonomikoaz ekonomikoek ekonomikoekin ekonomikoen ekonomikoengatik ekonomikoetan ekonomikoetara ekonomikoetatik ekonomikoez ekonomikoko ekonomikora ekonomikorako ekonomikorik ekonomikotik
-23	2223	matxinada	matxinadak matxinadan matxinadara matxinadarako matxinadarekin matxinadaren matxinadari matxinadarik matxinadatan matxinadatik matxinadaz matxinadek matxinaden matxinadetan
-24	2224	ahate	ahatea ahateak ahatearen ahateari ahateei ahateen ahateentzat ahateren ahaterik
-25	2225	multzo	multzoa multzoak multzoan multzoaren multzoari multzoaz multzoek multzoekin multzoetarako multzokoa multzorako multzoren multzotan multzotik
-26	2226	pailazo	pailazoa pailazoak pailazoaren pailazoari pailazoei pailazorik pailazotzat pailazoz
-27	2227	iheslari	iheslaria iheslariak iheslariaren iheslariaz iheslariek iheslariekin iheslarien iheslarietako iheslariok iheslaritzat
-28	2228	urtu	urtua urtuko urturik urtuta urtuz urtzea urtzean urtzeko urtzen
-29	2229	lehiatu	lehiatuko lehiatuta lehiatzea lehiatzeko lehiatzen lehiatzera lehiatzerik
-30	2230	zintzilik	
-31	2231	cowboy	cowboya cowboyak cowboyaren cowboyekin cowboyen cowboyrik
-32	2232	maskara	maskarak maskarakoa maskararen maskararik maskarekin maskarez
-33	2233	gatz	gatza gatzagatik gatzak gatzarekin gatzaz gatzen gatzetan gatzetik gatzez gatzik
-34	2234	zigilu	zigilua zigiluak zigiluan zigiluarekin zigiluaren zigiluei zigiluek zigiluekin zigiluen zigiluetan zigiluez zigiluren zigilurik zigiluz
-35	2235	pizza	pizzak pizzari pizzarik pizzaz
-36	2236	herrixka	herrixkak herrixkako herrixkan herrixkara herrixkarantz herrixkarekin herrixkari herrixkatik herrixkaz herrixken herrixketako herrixketan
-37	2237	ikasgai	ikasgaia ikasgaiagatik ikasgaiak ikasgaian ikasgaiaren ikasgaietako ikasgairako ikasgairik
-38	2238	tatuaje	tatuajea tatuajeagatik tatuajeak tatuajearen tatuajeekin tatuajeengatik tatuajeok tatuajeren tatuajerik
-39	2239	erdialde	erdialdea erdialdeak erdialdean erdialdeko erdialdekoak erdialdera erdialderaino erdialderantz erdialdetik
-40	2240	fabore	faborea faboreen faborez
-41	2241	gurin	gurina gurinarekin gurinaren gurinari gurinaz gurinetan gurinez gurinik
-42	2242	margolan	margolana margolanak margolanaren margolanari margolanek margolaneko margolanen margolanetako margolanetan margolanez margolanik
-43	2243	igaroko	
-44	2244	lehendabizi	
-45	2245	pintatu	pintatua pintatuak pintatuko pintatuta pintatutako pintatutakoa pintatzea pintatzeari pintatzeko pintatzen pintatzera
-46	2246	uzta	uztak uztan uztarako uztaren uztarik uztaz uztei uztekin uztetan
-47	2247	plaka	plakak plakan plakara plakaren plakari plakarik plakaz plakekin plaken
-48	2248	zientifiko	zientifikoa zientifikoago zientifikoak zientifikoan zientifikoarekin zientifikoaren zientifikoek zientifikoen zientifikoena zientifikoengatik zientifikoko zientifikora zientifikorantz zientifikoren zientifikorik
-49	2249	gorbata	gorbatak gorbatan gorbatarekin gorbataren gorbatarik gorbatatik gorbatekin
-50	2250	bosgarren	bosgarrena bosgarrenak bosgarrenean bosgarreneko bosgarrenera
-51	2251	biharamun	biharamuna biharamunarekin biharamunean biharamuneko biharamunerako biharamunetan biharamunetik biharamunik
-52	2252	aurreikusi	aurreikus aurreikusia aurreikusita aurreikusitako aurreikusitakoa aurreikusiz aurreikustea aurreikusteko aurreikusten
-53	2253	ebatzi	ebatz ebatzia ebatziko ebatzita ebaztea ebazteak ebazteko ebazten ebaztera
-54	2254	biluzi	biluzia biluziagatik biluziak biluzian biluziaren biluziari biluziaz biluziekin biluzien biluziena biluziko biluzirik biluziz biluzte biluztea biluzteak biluzteko biluzten
-55	2255	urtero	
-56	2256	zentzugabe	zentzugabea zentzugabeagatik zentzugabeagoa zentzugabeak zentzugabeen zentzugabeena zentzugabeko zentzugabekoa
-57	2257	jendetza	jendetzak jendetzan jendetzarekin jendetzaren jendetzari jendetzatik jendetzen jendetzetatik
-58	2258	txapelketa	txapelketak txapelketako txapelketakoa txapelketan txapelketara txapelketarako txapelketaren txapelketatik txapelketaz txapelketetan txapelketetara
-59	2259	barazki	barazkia barazkiak barazkiek barazkiekin barazkien barazkietarako barazkiez barazkirik barazkiz
-60	2260	sabai	sabaia sabaiak sabaian sabaiarekin sabaiaren sabaiari sabaietan sabaietatik sabaiko sabaira sabairaino sabaitik
-61	2261	or	ora orak orean ori orok oron orotako orotan orotara orotarako orraz
-62	2262	bigun	biguna bigunago bigunagoa bigunagoak bigunak bigunarekin bigunari bigunaz bigunegi bigunegia bigunegiak biguneko
-63	2263	aliatu	alia aliatua aliatuak aliatuarekin aliatuei aliatuek aliatuekin aliatuen aliatuentzat aliatuetako aliatuetatik aliatuez aliatuko aliaturik aliatuta aliatutzat aliatzen
-64	2264	orein	oreina oreinak oreinaren oreinarentzat oreinari oreinaz oreinek oreinen oreinetako oreinik
-65	2265	mailu	mailua mailuak mailuarekin mailuaren mailuari mailuaz mailuek mailurik
-66	2266	plaza	plazak plazako plazan plazara plazaren plazari plazatik
-67	2267	erregai	erregaia erregaiak erregaian erregaiaren erregaien erregaiez erregairik erregaiz
-68	2268	artzain	artzaina artzainak artzainarekin artzainaren artzainari artzainek artzainen artzainengandik artzainetako artzainik
-69	2269	mezulari	mezularia mezulariak mezulariarekin mezulariaren mezulariarentzat mezulariari mezulariei mezulariek mezulariekin mezularien mezulariok mezularitzat
-70	2270	abar	abarrak abarrei abarrekin abarren abarrerako abarretan
-71	2271	galtza	galtzei galtzekin galtzengatik galtzetako galtzetan galtzetatik
-72	2272	alokairu	alokairua alokairuak alokairuan alokairuarekin alokairuaren alokairuari alokairuaz alokairuko alokairukoa alokairurako
-73	2273	bibote	bibotea biboteak bibotearekin bibotearen biboteaz biboteetarako biboterik bibotez
-74	2274	kontzeptu	kontzeptua kontzeptuak kontzeptuan kontzeptuarekin kontzeptuaren kontzeptuari kontzeptuek kontzepturik
-75	2275	erantzule	erantzulea erantzuleak erantzuleei erantzuleek erantzuletzat
-76	2276	esploratzaile	esploratzailea esploratzaileak esploratzailearen esploratzailearentzat esploratzaileari esploratzaileek esploratzaileekin esploratzaileen esploratzaileetako esploratzaileok
-77	2277	analisi	analisia analisiak analisian analisiarekin analisiaren analisiari analisiek analisien analisietako analisietan analisirik
-78	2278	trenbide	trenbidea trenbideak trenbidean trenbidearen trenbidearentzat trenbideari trenbideei trenbideek trenbideetako trenbideetan trenbideetara trenbideko trenbidera trenbidetik
-79	2279	teknikoki	
-80	2280	bihurritu	bihurri bihurritua bihurrituko bihurrituta bihurrituz bihurritzea bihurritzeari bihurritzeko bihurritzen
-81	2281	gura	gurak gurako gurakoa guran gurari gurarik
-82	2282	marra	marrak marrako marrakoa marran marraren marrarik marraz marrekin marren
-83	2283	jarduera	jarduerak jarduerako jardueran jarduerara jarduerarekin jarduerari jarduerarik jardueratik jardueraz jarduerekin jardueren jarduerengatik jardueretan jardueretara
-84	2284	kamarada	kamaradak kamaradaren kamaradek kamaradekin kamaraden
-85	2285	armiarma	armiarmak armiarmaren armiarmari armiarmaz armiarmei armiarmek armiarmekin armiarmen armiarmentzat armiarmok
-86	2286	erreserba	erreserbak erreserbako erreserbakoa erreserban erreserbara erreserbarekin erreserbarik erreserbatik erreserben erreserbetan erreserbez
-87	2287	ondasun	ondasuna ondasunak ondasunarengatik ondasunari ondasunean ondasunek ondasunekin ondasunen ondasunez ondasunik
-88	2288	mintzo	mintzoa mintzoko
-89	2289	seigarren	seigarrena seigarrenak seigarrenaren seigarreneko seigarrenera
-90	2290	inbertitu	inbertituko inbertitutako inbertituz inbertitzea inbertitzeak inbertitzeko inbertitzen inbertitzera
-91	2291	ilehori	ilehoria ilehoriak ilehoriarekin ilehoriari ilehoriaz ilehoriekin ilehorien ilehoriez
-92	2292	hondamen	hondamena hondamenagatik hondamenak hondamenaren hondamenean hondamenera hondamenetik hondamenez hondamenik
-93	2293	espezie	espeziea espezieagatik espezieak espeziean espeziearen espeziearentzat espezieaz espezieekin espezieen espezieetako espezieko espeziekoa espezieren espezierentzat
-94	2294	hilgarri	hilgarria hilgarriago hilgarriagoa hilgarriagoak hilgarriak hilgarriarekin hilgarrien hilgarriena hilgarrienak hilgarriez hilgarririk hilgarritik hilgarriz
-95	2295	holako	holakoa holakoak holakoekin holakoen holakoetan holakorik
-96	2296	testu	testua testuak testuan testuarekin testuaren testuekin testurik testutik
-97	2297	martxo	martxoa martxoak martxoan martxoaren martxoko martxoren martxorik
-98	2298	gajo	gajoa gajoak gajoaren gajoari
-99	2299	whiski	whiskia whiskiagatik whiskiak whiskiarekin whiskiaren whiskiari whiskirik
-100	2300	tontor	tontoren tontorik tontorra tontorrak tontorraren tontorrari tontorrean tontorrei tontorreko tontorren tontorrera tontorreraino tontorrerantz tontorretan tontorretik tontorrik
+1	2201	zorabiatu	zorabiatuak zorabiatuko zorabiaturik zorabiatuta zorabiatutakoa zorabiatzeagatik zorabiatzeko zorabiatzen
+2	2202	errauts	errautsa errautsak errautsari errautsei errautsek errautsekin errautsen errautsera errautsetan errautsetara errautsetatik errautsetik errautsez
+3	2203	zomorro	zomorroa zomorroak zomorroaren zomorroekin zomorroen zomorroengandik zomorrok zomorrorik zomorroz
+4	2204	aizto	aiztoa aiztoak aiztoarekin aiztoaren aiztoekin aiztorik aiztoz
+5	2205	igerian	
+6	2206	karga	kargak kargako kargan kargarik kargaz kargekin
+7	2207	oilo	oiloa oiloak oiloarentzat oiloei oiloek oiloekin oiloen
+8	2208	eztarri	eztarria eztarriak eztarrian eztarriaren eztarriko eztarririk eztarritik
+9	2209	azeri	azari azeria azeriak azeriaren azeriari azeriek azeriekin azerien azerira azeriren azeririk
+10	2210	gudari	gudaria gudariak gudariaren gudariari gudariek gudariekin gudarien gudarik gudaririk
+11	2211	edalontzi	edalontzia edalontziak edalontzian edalontziaren edalontziekin edalontzien edalontzietan edalontzirekin edalontzitan
+12	2212	tentsio	tentsioa tentsioagatik tentsioak tentsioan tentsioaren tentsioari tentsioko tentsiorako tentsiorik
+13	2213	konponbide	konponbidea konponbidean konponbidearekin konponbidearen konponbideari konponbideetan konponbideetara konponbideren konponbiderik
+14	2214	sorta	sortak sortako sortaren sortatan sortaz
+15	2215	oztopo	oztopoa oztopoak oztopoarekin oztopoekin oztopoen oztopoengatik oztoporik oztopoz
+16	2216	maior	maiorra maiorrak maiorrarekin maiorraren maiorrari maiorreko maiorrik
+17	2217	politikari	politikaria politikariak politikariei politikariek politikariekin politikarien politikariengatik politikarientzat politikarik politikaririk
+18	2218	erregistro	erregistroa erregistroak erregistroan erregistroaren erregistroen erregistroetako erregistroetatik erregistroko erregistrora erregistroren erregistrorik erregistrotik
+19	2219	ezaugarri	ezaugarria ezaugarriak ezaugarriei ezaugarriekin ezaugarrietako ezaugarririk
+20	2220	helmuga	helmugak helmugan helmugara helmugaraino helmugarako helmugaren helmugei
+21	2221	ekonomiko	ekonomikoa ekonomikoak ekonomikoan ekonomikoarekin ekonomikoaren ekonomikoari ekonomikoaz ekonomikoek ekonomikoekin ekonomikoen ekonomikoengatik ekonomikoetan ekonomikoetara ekonomikoetatik ekonomikoez ekonomikoko ekonomikora ekonomikorako ekonomikorik ekonomikotik
+22	2222	matxinada	matxinadak matxinadan matxinadara matxinadarako matxinadarekin matxinadaren matxinadari matxinadarik matxinadatan matxinadatik matxinadaz matxinadek matxinaden matxinadetan
+23	2223	ahate	ahatea ahateak ahatearen ahateari ahateei ahateen ahateentzat ahateren ahaterik
+24	2224	multzo	multzoa multzoak multzoan multzoaren multzoari multzoaz multzoek multzoekin multzoetarako multzokoa multzorako multzoren multzotan multzotik
+25	2225	pailazo	pailazoa pailazoak pailazoaren pailazoari pailazoei pailazorik pailazotzat pailazoz
+26	2226	iheslari	iheslaria iheslariak iheslariaren iheslariaz iheslariek iheslariekin iheslarien iheslarietako iheslariok iheslaritzat
+27	2227	urtu	urtua urtuko urturik urtuta urtuz urtzea urtzean urtzeko urtzen
+28	2228	lehiatu	lehiatuko lehiatuta lehiatzea lehiatzeko lehiatzen lehiatzera lehiatzerik
+29	2229	zintzilik	
+30	2230	cowboy	cowboya cowboyak cowboyaren cowboyekin cowboyen cowboyrik
+31	2231	maskara	maskarak maskarakoa maskararen maskararik maskarekin maskarez
+32	2232	gatz	gatza gatzagatik gatzak gatzarekin gatzaz gatzen gatzetan gatzetik gatzez gatzik
+33	2233	zigilu	zigilua zigiluak zigiluan zigiluarekin zigiluaren zigiluei zigiluek zigiluekin zigiluen zigiluetan zigiluez zigiluren zigilurik zigiluz
+34	2234	pizza	pizzak pizzari pizzarik pizzaz
+35	2235	herrixka	herrixkak herrixkako herrixkan herrixkara herrixkarantz herrixkarekin herrixkari herrixkatik herrixkaz herrixken herrixketako herrixketan
+36	2236	ikasgai	ikasgaia ikasgaiagatik ikasgaiak ikasgaian ikasgaiaren ikasgaietako ikasgairako ikasgairik
+37	2237	tatuaje	tatuajea tatuajeagatik tatuajeak tatuajearen tatuajeekin tatuajeengatik tatuajeok tatuajeren tatuajerik
+38	2238	erdialde	erdialdea erdialdeak erdialdean erdialdeko erdialdekoak erdialdera erdialderaino erdialderantz erdialdetik
+39	2239	fabore	faborea faboreen faborez
+40	2240	gurin	gurina gurinarekin gurinaren gurinari gurinaz gurinetan gurinez gurinik
+41	2241	margolan	margolana margolanak margolanaren margolanari margolanek margolaneko margolanen margolanetako margolanetan margolanez margolanik
+42	2242	igaroko	
+43	2243	lehendabizi	
+44	2244	pintatu	pintatua pintatuak pintatuko pintatuta pintatutako pintatutakoa pintatzea pintatzeari pintatzeko pintatzen pintatzera
+45	2245	uzta	uztak uztan uztarako uztaren uztarik uztaz uztei uztekin uztetan
+46	2246	plaka	plakak plakan plakara plakaren plakari plakarik plakaz plakekin plaken
+47	2247	zientifiko	zientifikoa zientifikoago zientifikoak zientifikoan zientifikoarekin zientifikoaren zientifikoek zientifikoen zientifikoena zientifikoengatik zientifikoko zientifikora zientifikorantz zientifikoren zientifikorik
+48	2248	gorbata	gorbatak gorbatan gorbatarekin gorbataren gorbatarik gorbatatik gorbatekin
+49	2249	bosgarren	bosgarrena bosgarrenak bosgarrenean bosgarreneko bosgarrenera
+50	2250	biharamun	biharamuna biharamunarekin biharamunean biharamuneko biharamunerako biharamunetan biharamunetik biharamunik
+51	2251	aurreikusi	aurreikus aurreikusia aurreikusita aurreikusitako aurreikusitakoa aurreikusiz aurreikustea aurreikusteko aurreikusten
+52	2252	ebatzi	ebatz ebatzia ebatziko ebatzita ebaztea ebazteak ebazteko ebazten ebaztera
+53	2253	biluzi	biluzia biluziagatik biluziak biluzian biluziaren biluziari biluziaz biluziekin biluzien biluziena biluziko biluzirik biluziz biluzte biluztea biluzteak biluzteko biluzten
+54	2254	urtero	
+55	2255	zentzugabe	zentzugabea zentzugabeagatik zentzugabeagoa zentzugabeak zentzugabeen zentzugabeena zentzugabeko zentzugabekoa
+56	2256	jendetza	jendetzak jendetzan jendetzarekin jendetzaren jendetzari jendetzatik jendetzen jendetzetatik
+57	2257	txapelketa	txapelketak txapelketako txapelketakoa txapelketan txapelketara txapelketarako txapelketaren txapelketatik txapelketaz txapelketetan txapelketetara
+58	2258	barazki	barazkia barazkiak barazkiek barazkiekin barazkien barazkietarako barazkiez barazkirik barazkiz
+59	2259	sabai	sabaia sabaiak sabaian sabaiarekin sabaiaren sabaiari sabaietan sabaietatik sabaiko sabaira sabairaino sabaitik
+60	2260	or	ora orak orean ori orok oron orotako orotan orotara orotarako orraz
+61	2261	bigun	biguna bigunago bigunagoa bigunagoak bigunak bigunarekin bigunari bigunaz bigunegi bigunegia bigunegiak biguneko
+62	2262	aliatu	alia aliatua aliatuak aliatuarekin aliatuei aliatuek aliatuekin aliatuen aliatuentzat aliatuetako aliatuetatik aliatuez aliatuko aliaturik aliatuta aliatutzat aliatzen
+63	2263	orein	oreina oreinak oreinaren oreinarentzat oreinari oreinaz oreinek oreinen oreinetako oreinik
+64	2264	mailu	mailua mailuak mailuarekin mailuaren mailuari mailuaz mailuek mailurik
+65	2265	plaza	plazak plazako plazan plazara plazaren plazari plazatik
+66	2266	erregai	erregaia erregaiak erregaian erregaiaren erregaien erregaiez erregairik erregaiz
+67	2267	artzain	artzaina artzainak artzainarekin artzainaren artzainari artzainek artzainen artzainengandik artzainetako artzainik
+68	2268	mezulari	mezularia mezulariak mezulariarekin mezulariaren mezulariarentzat mezulariari mezulariei mezulariek mezulariekin mezularien mezulariok mezularitzat
+69	2269	abar	abarrak abarrei abarrekin abarren abarrerako abarretan
+70	2270	galtza	galtzei galtzekin galtzengatik galtzetako galtzetan galtzetatik
+71	2271	alokairu	alokairua alokairuak alokairuan alokairuarekin alokairuaren alokairuari alokairuaz alokairuko alokairukoa alokairurako
+72	2272	bibote	bibotea biboteak bibotearekin bibotearen biboteaz biboteetarako biboterik bibotez
+73	2273	kontzeptu	kontzeptua kontzeptuak kontzeptuan kontzeptuarekin kontzeptuaren kontzeptuari kontzeptuek kontzepturik
+74	2274	erantzule	erantzulea erantzuleak erantzuleei erantzuleek erantzuletzat
+75	2275	esploratzaile	esploratzailea esploratzaileak esploratzailearen esploratzailearentzat esploratzaileari esploratzaileek esploratzaileekin esploratzaileen esploratzaileetako esploratzaileok
+76	2276	analisi	analisia analisiak analisian analisiarekin analisiaren analisiari analisiek analisien analisietako analisietan analisirik
+77	2277	trenbide	trenbidea trenbideak trenbidean trenbidearen trenbidearentzat trenbideari trenbideei trenbideek trenbideetako trenbideetan trenbideetara trenbideko trenbidera trenbidetik
+78	2278	teknikoki	
+79	2279	bihurritu	bihurri bihurritua bihurrituko bihurrituta bihurrituz bihurritzea bihurritzeari bihurritzeko bihurritzen
+80	2280	gura	gurak gurako gurakoa guran gurari gurarik
+81	2281	marra	marrak marrako marrakoa marran marraren marrarik marraz marrekin marren
+82	2282	jarduera	jarduerak jarduerako jardueran jarduerara jarduerarekin jarduerari jarduerarik jardueratik jardueraz jarduerekin jardueren jarduerengatik jardueretan jardueretara
+83	2283	kamarada	kamaradak kamaradaren kamaradek kamaradekin kamaraden
+84	2284	armiarma	armiarmak armiarmaren armiarmari armiarmaz armiarmei armiarmek armiarmekin armiarmen armiarmentzat armiarmok
+85	2285	erreserba	erreserbak erreserbako erreserbakoa erreserban erreserbara erreserbarekin erreserbarik erreserbatik erreserben erreserbetan erreserbez
+86	2286	ondasun	ondasuna ondasunak ondasunarengatik ondasunari ondasunean ondasunek ondasunekin ondasunen ondasunez ondasunik
+87	2287	mintzo	mintzoa mintzoko
+88	2288	seigarren	seigarrena seigarrenak seigarrenaren seigarreneko seigarrenera
+89	2289	inbertitu	inbertituko inbertitutako inbertituz inbertitzea inbertitzeak inbertitzeko inbertitzen inbertitzera
+90	2290	ilehori	ilehoria ilehoriak ilehoriarekin ilehoriari ilehoriaz ilehoriekin ilehorien ilehoriez
+91	2291	hondamen	hondamena hondamenagatik hondamenak hondamenaren hondamenean hondamenera hondamenetik hondamenez hondamenik
+92	2292	espezie	espeziea espezieagatik espezieak espeziean espeziearen espeziearentzat espezieaz espezieekin espezieen espezieetako espezieko espeziekoa espezieren espezierentzat
+93	2293	hilgarri	hilgarria hilgarriago hilgarriagoa hilgarriagoak hilgarriak hilgarriarekin hilgarrien hilgarriena hilgarrienak hilgarriez hilgarririk hilgarritik hilgarriz
+94	2294	holako	holakoa holakoak holakoekin holakoen holakoetan holakorik
+95	2295	testu	testua testuak testuan testuarekin testuaren testuekin testurik testutik
+96	2296	martxo	martxoa martxoak martxoan martxoaren martxoko martxoren martxorik
+97	2297	gajo	gajoa gajoak gajoaren gajoari
+98	2298	whiski	whiskia whiskiagatik whiskiak whiskiarekin whiskiaren whiskiari whiskirik
+99	2299	tontor	tontoren tontorik tontorra tontorrak tontorraren tontorrari tontorrean tontorrei tontorreko tontorren tontorrera tontorreraino tontorrerantz tontorretan tontorretik tontorrik
+100	2300	positibo	positiboa positiboagoa positiboak positiboan positiboarekin positiboaren positiboari positiboaz positiboekin positiboena positiboren positiborik positibotik positiboz

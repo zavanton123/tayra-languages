@@ -1,100 +1,100 @@
-1	9501	kaskarreko	
-2	9502	ahazkor	ahazkorra
-3	9503	beheiti	
-4	9504	zirkuitulabur	
-5	9505	jangura	
-6	9506	higanot	
-7	9507	finantzazio	finantzazioa
-8	9508	islamiar	
-9	9509	kubiko	
-10	9510	linfoma	
-11	9511	grapatu	
-12	9512	mausoleo	
-13	9513	ziklista	
-14	9514	zisku	
-15	9515	salmahai	salmahaian
-16	9516	goilare	goilarea
-17	9517	karmin	
-18	9518	edangarri	
-19	9519	aroma	
-20	9520	kopula	
-21	9521	eoliko	eolikoetan
-22	9522	nanoteknologia	nanoteknologian
-23	9523	dispareunia	
-24	9524	ganga	
-25	9525	ausarki	
-26	9526	debaluatu	debaluatuak
-27	9527	despotismo	despotismoa
-28	9528	demokratizazio	demokratizazioa
-29	9529	promotore	
-30	9530	kinoa	
-31	9531	proportzional	proportzionala
-32	9532	nahastura	
-33	9533	ezbai	ezbaian
-34	9534	zeramika	
-35	9535	ostiralero	
-36	9536	ostegunero	
-37	9537	salbia	
-38	9538	ezkai	ezkaia
-39	9539	deuseztapen	deuseztapena
-40	9540	biela	
-41	9541	gamma	
-42	9542	bereizezin	bereizezinak
-43	9543	pott	
-44	9544	pendulu	
-45	9545	ongarritu	ongarritzen
-46	9546	toxikologia	
-47	9547	xabalina	
-48	9548	isatsdun	
-49	9549	mazedonia	mazedoniarekin
-50	9550	bentosa	bentosak
-51	9551	pottoko	pottokoa
-52	9552	filmatze	filmatzea filmatzeari filmatzeaz filmatzeko filmatzera filmatzerik
-53	9553	bonbardatze	bonbardatzea bonbardatzearekin bonbardatzeko bonbardatzera
-54	9554	agor	agorak
-55	9555	bel	belak belarekin belaren belarentzat belari belekin belen beletako
-56	9556	iratzartu	iratzartzea iratzartzerik
-57	9557	horizontal	horizontalak
-58	9558	urkatze	urkatzea urkatzeak urkatzearen urkatzeko urkatzera
-59	9559	esprint	esprintak esprintera
-60	9560	nibel	nibela nibelak nibeletan
-61	9561	orokortu	orokortua orokortuz orokortzeko
-62	9562	inposatze	inposatzea inposatzeko inposatzekoa
-63	9563	sai	saia
-64	9564	kui	kuiak kuiekin
-65	9565	botatu	botaidazu botaiezu botaiozu botaiozue botatuko botatzea botatzeagatik botatzeak botatzean botatzearekin botatzeari botatzeaz botatzeko botatzera botatzerik
-66	9566	eper	eperik
-67	9567	zesarea	zesarean
-68	9568	oinorde	oinordean oinordearekin oinordekoa oinordekoak
-69	9569	kapote	kapotean kapotearekin kapotera
-70	9570	hipokondria	hipokondriakoa hipokondrian hipokondriaren
-71	9571	mantar	mantarekin mantaren mantarik mantarreko
-72	9572	asistentzia	
-73	9573	zuhaizpe	zuhaizpean
-74	9574	barruki	barrukiak
-75	9575	diese	diesea
-76	9576	apoplexia	
-77	9577	bildumatu	bildumatzen
-78	9578	homeostasi	homeostasia
-79	9579	artezgailu	
-80	9580	katedradun	katedraduna
-81	9581	hestebete	hestebetea
-82	9582	zabaltza	zabaltzan
-83	9583	ikuska	
-84	9584	errefus	errefusa
-85	9585	walkman	
-86	9586	zubibide	zubibideetan
-87	9587	anexionatu	
-88	9588	frontoi	frontoian
-89	9589	dislexiko	dislexikoa
-90	9590	apokaliptiko	apokaliptikoa
-91	9591	fisioterapeuta	
-92	9592	fisiologo	fisiologoa
-93	9593	programagarri	programagarria
-94	9594	sekuentziatu	
-95	9595	lakera	
-96	9596	igitai	igitaia
-97	9597	ogitegi	
-98	9598	zinka	
-99	9599	bederatziehun	
-100	9600	erreginagai	
+1	9501	mut	
+2	9502	kaskarreko	
+3	9503	ahazkor	ahazkorra
+4	9504	beheiti	
+5	9505	zirkuitulabur	
+6	9506	jangura	
+7	9507	higanot	
+8	9508	finantzazio	finantzazioa
+9	9509	islamiar	
+10	9510	kubiko	
+11	9511	linfoma	
+12	9512	grapatu	
+13	9513	mausoleo	
+14	9514	ziklista	
+15	9515	zisku	
+16	9516	salmahai	salmahaian
+17	9517	goilare	goilarea
+18	9518	karmin	
+19	9519	edangarri	
+20	9520	aroma	
+21	9521	kopula	
+22	9522	eoliko	eolikoetan
+23	9523	nanoteknologia	nanoteknologian
+24	9524	dispareunia	
+25	9525	ganga	
+26	9526	ausarki	
+27	9527	debaluatu	debaluatuak
+28	9528	despotismo	despotismoa
+29	9529	demokratizazio	demokratizazioa
+30	9530	promotore	
+31	9531	kinoa	
+32	9532	proportzional	proportzionala
+33	9533	nahastura	
+34	9534	ezbai	ezbaian
+35	9535	zeramika	
+36	9536	ostiralero	
+37	9537	ostegunero	
+38	9538	salbia	
+39	9539	ezkai	ezkaia
+40	9540	deuseztapen	deuseztapena
+41	9541	biela	
+42	9542	gamma	
+43	9543	bereizezin	bereizezinak
+44	9544	pott	
+45	9545	pendulu	
+46	9546	ongarritu	ongarritzen
+47	9547	toxikologia	
+48	9548	xabalina	
+49	9549	isatsdun	
+50	9550	mazedonia	mazedoniarekin
+51	9551	bentosa	bentosak
+52	9552	pottoko	pottokoa
+53	9553	filmatze	filmatzea filmatzeari filmatzeaz filmatzeko filmatzera filmatzerik
+54	9554	bonbardatze	bonbardatzea bonbardatzearekin bonbardatzeko bonbardatzera
+55	9555	agor	agorak
+56	9556	bel	belak belarekin belaren belarentzat belari belekin belen beletako
+57	9557	iratzartu	iratzartzea iratzartzerik
+58	9558	horizontal	horizontalak
+59	9559	urkatze	urkatzea urkatzeak urkatzearen urkatzeko urkatzera
+60	9560	esprint	esprintak esprintera
+61	9561	nibel	nibela nibelak nibeletan
+62	9562	orokortu	orokortua orokortuz orokortzeko
+63	9563	inposatze	inposatzea inposatzeko inposatzekoa
+64	9564	sai	saia
+65	9565	kui	kuiak kuiekin
+66	9566	botatu	botaidazu botaiezu botaiozu botaiozue botatuko botatzea botatzeagatik botatzeak botatzean botatzearekin botatzeari botatzeaz botatzeko botatzera botatzerik
+67	9567	eper	eperik
+68	9568	zesarea	zesarean
+69	9569	oinorde	oinordean oinordearekin oinordekoa oinordekoak
+70	9570	kapote	kapotean kapotearekin kapotera
+71	9571	hipokondria	hipokondriakoa hipokondrian hipokondriaren
+72	9572	mantar	mantarekin mantaren mantarik mantarreko
+73	9573	asistentzia	
+74	9574	zuhaizpe	zuhaizpean
+75	9575	barruki	barrukiak
+76	9576	diese	diesea
+77	9577	apoplexia	
+78	9578	bildumatu	bildumatzen
+79	9579	homeostasi	homeostasia
+80	9580	artezgailu	
+81	9581	katedradun	katedraduna
+82	9582	hestebete	hestebetea
+83	9583	zabaltza	zabaltzan
+84	9584	ikuska	
+85	9585	errefus	errefusa
+86	9586	walkman	
+87	9587	zubibide	zubibideetan
+88	9588	anexionatu	
+89	9589	frontoi	frontoian
+90	9590	dislexiko	dislexikoa
+91	9591	apokaliptiko	apokaliptikoa
+92	9592	fisioterapeuta	
+93	9593	fisiologo	fisiologoa
+94	9594	programagarri	programagarria
+95	9595	sekuentziatu	
+96	9596	lakera	
+97	9597	igitai	igitaia
+98	9598	ogitegi	
+99	9599	zinka	
+100	9600	bederatziehun	

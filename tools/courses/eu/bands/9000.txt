@@ -1,100 +1,100 @@
-1	8901	kaudimen	kaudimena kaudimenik
-2	8902	komunikatzaile	komunikatzailea komunikatzaileak
-3	8903	biografiko	biografikoa biografikoak
-4	8904	bihitegi	bihitegiak
-5	8905	enbolia	enboliaren
-6	8906	patologiko	patologikoa patologikoak
-7	8907	ziropa	ziroparik
-8	8908	destruktore	destruktoreak
-9	8909	burka	burkak burkek
-10	8910	barealdi	barealdian
-11	8911	zurruntasun	zurruntasuna
-12	8912	marranta	marrantak
-13	8913	betikotu	betikotzeko
-14	8914	nazismo	nazismoa nazismoaren
-15	8915	lineal	lineala
-16	8916	aleatorio	aleatorioa aleatorioak
-17	8917	urbanizatu	urbanizatze urbanizatzea
-18	8918	patriarka	patriarken
-19	8919	exhibizionismo	exhibizionismoa exhibizionismoarengatik
-20	8920	bizargile	bizargilea bizargilearen
-21	8921	bidelagun	bidelaguna
-22	8922	errekarri	errekarria
-23	8923	amazona	amazonek amazonen
-24	8924	nabarmenkeria	nabarmenkeriarekin
-25	8925	monosilabo	monosilaboak monosilaboz
-26	8926	metano	metanoa
-27	8927	ikastaldi	ikastaldian ikastaldirik
-28	8928	bagoneta	bagonetak
-29	8929	figuratibo	figuratiboa
-30	8930	prehistoriko	prehistorikoak
-31	8931	propano	propanoa
-32	8932	inhibitzaile	inhibitzaileak
-33	8933	urrin	urrinen
-34	8934	zapatu	zapatuz
-35	8935	brida	bridak bridei
-36	8936	zilarkara	zilarkarak
-37	8937	kardiako	kardiakoa kardiakoak
-38	8938	filantropiko	filantropikoa filantropikoarengatik
-39	8939	uts	utsa utsarekin
-40	8940	kontramaisu	kontramaisua kontramaisuaren
-41	8941	aterabide	aterabidea aterabiderik
-42	8942	tolueno	toluenoa
-43	8943	bekozko	bekozkoa
-44	8944	zutundu	zutuntzen
-45	8945	informatikari	informatikaria
-46	8946	konfesio	konfesioa konfesiokoa
-47	8947	etiketatze	etiketatzean etiketatzearen etiketatzeko
-48	8948	suediera	suedieraz
-49	8949	patriotiko	patriotikoa patriotikoarekin
-50	8950	sekundario	sekundarioa sekundarioak
-51	8951	gaixoti	gaixotiak
-52	8952	diskete	disketeak
-53	8953	analogo	analogoa
-54	8954	digitu	digituko
-55	8955	jenialtasun	jenialtasuna
-56	8956	semebitxi	semebitxia
-57	8957	obulutegi	obulutegiak
-58	8958	biga	bigaren bigatik
-59	8959	ifrentzu	ifrentzua ifrentzuz
-60	8960	kakao	kakaoa
-61	8961	hierarkiko	hierarkikoa hierarkikorik
-62	8962	kaskabilo	kaskabiloetan
-63	8963	hadroi	hadroien
-64	8964	ekonomialari	ekonomialariak ekonomialariaren
-65	8965	ordaintzaile	ordaintzaileei ordaintzaileek
-66	8966	ganer	ganerrean ganerreko
-67	8967	bikoiti	bikoitia bikoitiak
-68	8968	kateter	kateterrak
-69	8969	polizoi	polizoia polizoiak
-70	8970	optimizatu	optimizatuak
-71	8971	martirio	martirioa
-72	8972	mach	machak
-73	8973	ruandar	ruandaren ruandarrik
-74	8974	tutsi	tutsiak
-75	8975	aerodinamika	aerodinamikan
-76	8976	erudizio	erudizioa erudiziorik
-77	8977	jendeztatu	jendeztatzera
-78	8978	trilioi	trilioien
-79	8979	erradikalismo	erradikalismoari
-80	8980	apendizitis	apendizitisa
-81	8981	gidoigile	gidoigilea
-82	8982	sortalde	sortaldea sortaldera
-83	8983	umoretsu	umoretsua
-84	8984	txorten	txortena
-85	8985	elikagarri	elikagarrienak
-86	8986	prelatu	prelatua prelatuan
-87	8987	anana	ananekin
-88	8988	konstante	konstanteak
-89	8989	jantzitegi	jantzitegian jantzitegietara
-90	8990	ortodontzia	ortodontziak
-91	8991	garagardogile	garagardogilea
-92	8992	akazia	akaziak
-93	8993	erreten	erretenean
-94	8994	barbituriko	barbiturikoak
-95	8995	sarde	sardea sardean
-96	8996	narrastu	narrasten
-97	8997	asma	asmara asmaren
-98	8998	baltsamatu	baltsamatua baltsamatzeko
-99	8999	nagikeria	nagikeriaren nagikeriatan
-100	9000	mofeta	mofeten
+1	8901	kloruro	kloruroa kloruroko
+2	8902	kaudimen	kaudimena kaudimenik
+3	8903	komunikatzaile	komunikatzailea komunikatzaileak
+4	8904	biografiko	biografikoa biografikoak
+5	8905	bihitegi	bihitegiak
+6	8906	enbolia	enboliaren
+7	8907	patologiko	patologikoa patologikoak
+8	8908	ziropa	ziroparik
+9	8909	destruktore	destruktoreak
+10	8910	burka	burkak burkek
+11	8911	barealdi	barealdian
+12	8912	zurruntasun	zurruntasuna
+13	8913	marranta	marrantak
+14	8914	betikotu	betikotzeko
+15	8915	nazismo	nazismoa nazismoaren
+16	8916	lineal	lineala
+17	8917	aleatorio	aleatorioa aleatorioak
+18	8918	urbanizatu	urbanizatze urbanizatzea
+19	8919	patriarka	patriarken
+20	8920	exhibizionismo	exhibizionismoa exhibizionismoarengatik
+21	8921	bizargile	bizargilea bizargilearen
+22	8922	bidelagun	bidelaguna
+23	8923	errekarri	errekarria
+24	8924	amazona	amazonek amazonen
+25	8925	nabarmenkeria	nabarmenkeriarekin
+26	8926	monosilabo	monosilaboak monosilaboz
+27	8927	metano	metanoa
+28	8928	ikastaldi	ikastaldian ikastaldirik
+29	8929	bagoneta	bagonetak
+30	8930	figuratibo	figuratiboa
+31	8931	prehistoriko	prehistorikoak
+32	8932	propano	propanoa
+33	8933	inhibitzaile	inhibitzaileak
+34	8934	urrin	urrinen
+35	8935	zapatu	zapatuz
+36	8936	brida	bridak bridei
+37	8937	zilarkara	zilarkarak
+38	8938	kardiako	kardiakoa kardiakoak
+39	8939	filantropiko	filantropikoa filantropikoarengatik
+40	8940	uts	utsa utsarekin
+41	8941	kontramaisu	kontramaisua kontramaisuaren
+42	8942	aterabide	aterabidea aterabiderik
+43	8943	tolueno	toluenoa
+44	8944	bekozko	bekozkoa
+45	8945	zutundu	zutuntzen
+46	8946	informatikari	informatikaria
+47	8947	konfesio	konfesioa konfesiokoa
+48	8948	etiketatze	etiketatzean etiketatzearen etiketatzeko
+49	8949	suediera	suedieraz
+50	8950	patriotiko	patriotikoa patriotikoarekin
+51	8951	sekundario	sekundarioa sekundarioak
+52	8952	gaixoti	gaixotiak
+53	8953	diskete	disketeak
+54	8954	analogo	analogoa
+55	8955	digitu	digituko
+56	8956	jenialtasun	jenialtasuna
+57	8957	semebitxi	semebitxia
+58	8958	obulutegi	obulutegiak
+59	8959	biga	bigaren bigatik
+60	8960	ifrentzu	ifrentzua ifrentzuz
+61	8961	kakao	kakaoa
+62	8962	hierarkiko	hierarkikoa hierarkikorik
+63	8963	kaskabilo	kaskabiloetan
+64	8964	hadroi	hadroien
+65	8965	ekonomialari	ekonomialariak ekonomialariaren
+66	8966	ordaintzaile	ordaintzaileei ordaintzaileek
+67	8967	ganer	ganerrean ganerreko
+68	8968	bikoiti	bikoitia bikoitiak
+69	8969	kateter	kateterrak
+70	8970	polizoi	polizoia polizoiak
+71	8971	optimizatu	optimizatuak
+72	8972	martirio	martirioa
+73	8973	mach	machak
+74	8974	ruandar	ruandaren ruandarrik
+75	8975	tutsi	tutsiak
+76	8976	aerodinamika	aerodinamikan
+77	8977	erudizio	erudizioa erudiziorik
+78	8978	jendeztatu	jendeztatzera
+79	8979	trilioi	trilioien
+80	8980	erradikalismo	erradikalismoari
+81	8981	apendizitis	apendizitisa
+82	8982	gidoigile	gidoigilea
+83	8983	sortalde	sortaldea sortaldera
+84	8984	umoretsu	umoretsua
+85	8985	txorten	txortena
+86	8986	elikagarri	elikagarrienak
+87	8987	prelatu	prelatua prelatuan
+88	8988	anana	ananekin
+89	8989	konstante	konstanteak
+90	8990	jantzitegi	jantzitegian jantzitegietara
+91	8991	ortodontzia	ortodontziak
+92	8992	garagardogile	garagardogilea
+93	8993	akazia	akaziak
+94	8994	erreten	erretenean
+95	8995	barbituriko	barbiturikoak
+96	8996	sarde	sardea sardean
+97	8997	narrastu	narrasten
+98	8998	asma	asmara asmaren
+99	8999	baltsamatu	baltsamatua baltsamatzeko
+100	9000	nagikeria	nagikeriaren nagikeriatan

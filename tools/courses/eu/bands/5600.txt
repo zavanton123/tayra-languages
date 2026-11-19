@@ -1,100 +1,100 @@
-1	5501	erako	erakoa
-2	5502	poliziako	poliziakoa poliziakoak
-3	5503	alta	
-4	5504	hilabetero	
-5	5505	zaunkaka	
-6	5506	lehentxeago	
-7	5507	rand	
-8	5508	txaloka	
-9	5509	filatelista	
-10	5510	kanario	kanarioa
-11	5511	kriskitin	kriskitina kriskitinak
-12	5512	euritako	euritakoa euritakorik
-13	5513	fotograma	fotogramak fotogramekin
-14	5514	hartualdi	hartualdia hartualditan
-15	5515	bitxilore	bitxilorea bitxiloreak
-16	5516	tofu	tofua
-17	5517	talentudun	talentuduna
-18	5518	bildumagile	bildumagilea bildumagileak bildumagileek
-19	5519	biderkatu	biderkatuko biderkatuta biderkatzen
-20	5520	ro	roz
-21	5521	kulunka	kulunkak kulunkan kulunkaren kulunkari
-22	5522	errebolber	errebolberra errebolberraren errebolberren
-23	5523	itsasgarri	itsasgarria itsasgarrian itsasgarririk
-24	5524	konfigurazio	konfigurazioa konfigurazioak
-25	5525	serum	seruma serumaren
-26	5526	platano	platanoa platanoak
-27	5527	konpartimentu	konpartimentua konpartimentuan konpartimentutik
-28	5528	eskema	eskemak
-29	5529	funtzionamendua	funtzionamenduan funtzionamenduaren
-30	5530	bandalismo	bandalismoa
-31	5531	deitura	deiturak deiturarentzat
-32	5532	matraka	matrakan matrakei
-33	5533	bolaluma	bolaluman bolalumarik
-34	5534	dilista	dilistak dilistekin
-35	5535	disfuntzio	disfuntzioa
-36	5536	elektronika	elektronikako elektronikari
-37	5537	mintzaira	mintzairak mintzairetan
-38	5538	lila	lilak lilarik
-39	5539	senior	seniorra seniorrek
-40	5540	petral	petrala
-41	5541	kartsu	kartsua kartsuenak
-42	5542	geldiezin	geldiezina geldiezinarekin geldiezinean
-43	5543	juliana	julianek julianekin julianen
-44	5544	iragankor	iragankorra iragankorrak
-45	5545	aura	aurak aurarik
-46	5546	oskarbi	oskarbia oskarbiaren
-47	5547	lagunkoi	lagunkoia lagunkoiaren lagunkoitzat
-48	5548	soul	soula
-49	5549	gozagarri	gozagarria gozagarriak gozagarriarekin
-50	5550	pentsaezin	pentsaezina pentsaezinak
-51	5551	australiar	australiarra australiarrak australiartzat
-52	5552	masusta	masustak masusten
-53	5553	kontsumo	kontsumoa kontsumorako
-54	5554	esentzia	esentziak esentzian esentziarekin
-55	5555	errabino	errabinoa errabinoak
-56	5556	goiburu	goiburua goiburuarekin
-57	5557	loreontzi	loreontzia loreontzian loreontzietan
-58	5558	operatu	operatuko operatzen
-59	5559	garaiezin	garaiezina garaiezinak garaiezintzat
-60	5560	ostruka	ostrukak ostrukek ostruken
-61	5561	txolin	txolina txolinak
-62	5562	ezdeus	ezdeusa ezdeusak ezdeusei
-63	5563	faxismo	faxismoa faxismoak faxismoaren faxismorik
-64	5564	utzikeria	utzikeriako utzikerian utzikeriaren utzikeriaz
-65	5565	ezkerralde	ezkerraldea ezkerraldean ezkerraldeko ezkerraldera ezkerraldetik
-66	5566	oniritzi	oniritzia oniritziarekin oniritziaren oniritzirik oniritzitik
-67	5567	ahatetxo	ahatetxoa ahatetxoak ahatetxorekin
-68	5568	urka	urkak urkarekin urkaren
-69	5569	pertsonalitate	pertsonalitatea pertsonalitatearen pertsonalitatetan
-70	5570	kolaboratzaile	kolaboratzailea kolaboratzaileak
-71	5571	galdetegi	galdetegiarekin galdetegiaren galdetegiko galdetegira
-72	5572	trufa	trufak trufari trufarik
-73	5573	dux	duxa duxak duxaren
-74	5574	galdara	galdararekin galdararen galdarei galdarek galdaretara
-75	5575	urdai	urdaia urdaian urdaiaren urdairik
-76	5576	errespetagarri	errespetagarria errespetagarriak
-77	5577	errubi	errubia errubiak errubiaren errubitan
-78	5578	sarrailagile	sarrailagilea sarrailagileak
-79	5579	bidexka	bidexkan bidexkaraino bidexkatan bidexkatik
-80	5580	disolbatu	disolba disolbatzea disolbatzen
-81	5581	lidergo	lidergoa lidergoan lidergoaren lidergoari lidergorako
-82	5582	esteroide	esteroideak esteroideentzat esteroiderekin esteroiderik
-83	5583	ebatsi	ebastea ebastearekin ebasteko ebasten ebastera
-84	5584	gogortasun	gogortasuna gogortasunak gogortasunarekin gogortasunik
-85	5585	eraldaketa	eraldaketak eraldaketan eraldaketei eraldaketen
-86	5586	guruin	guruina guruinak guruinen guruinetako guruinetan
-87	5587	bularrezur	bularrezurra bularrezurraren bularrezurrean bularrezurreraino
-88	5588	ikono	ikonoak ikonoetako
-89	5589	aduana	aduanako aduanan aduanara aduanaren aduanen aduanetako aduanetan
-90	5590	orube	orubea orubeak
-91	5591	konfidentzialtasun	konfidentzialtasuna konfidentzialtasunak konfidentzialtasunean
-92	5592	iman	imana imanarengana imani
-93	5593	legatu	legatua legatuak legatuan legatuarengatik
-94	5594	edukiontzi	edukiontzia edukiontziak edukiontzian edukiontzikoa edukiontzira edukiontzitik
-95	5595	heldutasun	heldutasuna heldutasunarekin heldutasunera heldutasunik
-96	5596	tronboi	tronboia tronboiak tronboiaren tronboiari tronboien tronboirik
-97	5597	betikotasun	betikotasuna betikotasunaren betikotasunaz betikotasunean
-98	5598	eroskeria	eroskeriak eroskerian eroskeriarekin eroskeriari eroskeriaz
-99	5599	amaiezin	amaiezina amaiezinak amaiezineko amaiezinetan
-100	5600	okindegi	okindegia okindegian okindegietan okindegiko
+1	5501	gasolindegia	gasolindegiak gasolindegian gasolindegietako
+2	5502	erako	erakoa
+3	5503	poliziako	poliziakoa poliziakoak
+4	5504	alta	
+5	5505	hilabetero	
+6	5506	zaunkaka	
+7	5507	lehentxeago	
+8	5508	rand	
+9	5509	txaloka	
+10	5510	filatelista	
+11	5511	kanario	kanarioa
+12	5512	kriskitin	kriskitina kriskitinak
+13	5513	euritako	euritakoa euritakorik
+14	5514	fotograma	fotogramak fotogramekin
+15	5515	hartualdi	hartualdia hartualditan
+16	5516	bitxilore	bitxilorea bitxiloreak
+17	5517	tofu	tofua
+18	5518	talentudun	talentuduna
+19	5519	bildumagile	bildumagilea bildumagileak bildumagileek
+20	5520	biderkatu	biderkatuko biderkatuta biderkatzen
+21	5521	ro	roz
+22	5522	kulunka	kulunkak kulunkan kulunkaren kulunkari
+23	5523	errebolber	errebolberra errebolberraren errebolberren
+24	5524	itsasgarri	itsasgarria itsasgarrian itsasgarririk
+25	5525	konfigurazio	konfigurazioa konfigurazioak
+26	5526	serum	seruma serumaren
+27	5527	platano	platanoa platanoak
+28	5528	konpartimentu	konpartimentua konpartimentuan konpartimentutik
+29	5529	eskema	eskemak
+30	5530	funtzionamendua	funtzionamenduan funtzionamenduaren
+31	5531	bandalismo	bandalismoa
+32	5532	deitura	deiturak deiturarentzat
+33	5533	matraka	matrakan matrakei
+34	5534	bolaluma	bolaluman bolalumarik
+35	5535	dilista	dilistak dilistekin
+36	5536	disfuntzio	disfuntzioa
+37	5537	elektronika	elektronikako elektronikari
+38	5538	mintzaira	mintzairak mintzairetan
+39	5539	lila	lilak lilarik
+40	5540	senior	seniorra seniorrek
+41	5541	petral	petrala
+42	5542	kartsu	kartsua kartsuenak
+43	5543	geldiezin	geldiezina geldiezinarekin geldiezinean
+44	5544	juliana	julianek julianekin julianen
+45	5545	iragankor	iragankorra iragankorrak
+46	5546	aura	aurak aurarik
+47	5547	oskarbi	oskarbia oskarbiaren
+48	5548	lagunkoi	lagunkoia lagunkoiaren lagunkoitzat
+49	5549	soul	soula
+50	5550	gozagarri	gozagarria gozagarriak gozagarriarekin
+51	5551	pentsaezin	pentsaezina pentsaezinak
+52	5552	australiar	australiarra australiarrak australiartzat
+53	5553	masusta	masustak masusten
+54	5554	kontsumo	kontsumoa kontsumorako
+55	5555	esentzia	esentziak esentzian esentziarekin
+56	5556	errabino	errabinoa errabinoak
+57	5557	goiburu	goiburua goiburuarekin
+58	5558	loreontzi	loreontzia loreontzian loreontzietan
+59	5559	operatu	operatuko operatzen
+60	5560	garaiezin	garaiezina garaiezinak garaiezintzat
+61	5561	ostruka	ostrukak ostrukek ostruken
+62	5562	txolin	txolina txolinak
+63	5563	ezdeus	ezdeusa ezdeusak ezdeusei
+64	5564	faxismo	faxismoa faxismoak faxismoaren faxismorik
+65	5565	utzikeria	utzikeriako utzikerian utzikeriaren utzikeriaz
+66	5566	ezkerralde	ezkerraldea ezkerraldean ezkerraldeko ezkerraldera ezkerraldetik
+67	5567	oniritzi	oniritzia oniritziarekin oniritziaren oniritzirik oniritzitik
+68	5568	ahatetxo	ahatetxoa ahatetxoak ahatetxorekin
+69	5569	urka	urkak urkarekin urkaren
+70	5570	pertsonalitate	pertsonalitatea pertsonalitatearen pertsonalitatetan
+71	5571	kolaboratzaile	kolaboratzailea kolaboratzaileak
+72	5572	galdetegi	galdetegiarekin galdetegiaren galdetegiko galdetegira
+73	5573	trufa	trufak trufari trufarik
+74	5574	dux	duxa duxak duxaren
+75	5575	galdara	galdararekin galdararen galdarei galdarek galdaretara
+76	5576	urdai	urdaia urdaian urdaiaren urdairik
+77	5577	errespetagarri	errespetagarria errespetagarriak
+78	5578	errubi	errubia errubiak errubiaren errubitan
+79	5579	sarrailagile	sarrailagilea sarrailagileak
+80	5580	bidexka	bidexkan bidexkaraino bidexkatan bidexkatik
+81	5581	disolbatu	disolba disolbatzea disolbatzen
+82	5582	lidergo	lidergoa lidergoan lidergoaren lidergoari lidergorako
+83	5583	esteroide	esteroideak esteroideentzat esteroiderekin esteroiderik
+84	5584	ebatsi	ebastea ebastearekin ebasteko ebasten ebastera
+85	5585	gogortasun	gogortasuna gogortasunak gogortasunarekin gogortasunik
+86	5586	eraldaketa	eraldaketak eraldaketan eraldaketei eraldaketen
+87	5587	guruin	guruina guruinak guruinen guruinetako guruinetan
+88	5588	bularrezur	bularrezurra bularrezurraren bularrezurrean bularrezurreraino
+89	5589	ikono	ikonoak ikonoetako
+90	5590	aduana	aduanako aduanan aduanara aduanaren aduanen aduanetako aduanetan
+91	5591	orube	orubea orubeak
+92	5592	konfidentzialtasun	konfidentzialtasuna konfidentzialtasunak konfidentzialtasunean
+93	5593	iman	imana imanarengana imani
+94	5594	legatu	legatua legatuak legatuan legatuarengatik
+95	5595	edukiontzi	edukiontzia edukiontziak edukiontzian edukiontzikoa edukiontzira edukiontzitik
+96	5596	heldutasun	heldutasuna heldutasunarekin heldutasunera heldutasunik
+97	5597	tronboi	tronboia tronboiak tronboiaren tronboiari tronboien tronboirik
+98	5598	betikotasun	betikotasuna betikotasunaren betikotasunaz betikotasunean
+99	5599	eroskeria	eroskeriak eroskerian eroskeriarekin eroskeriari eroskeriaz
+100	5600	amaiezin	amaiezina amaiezinak amaiezineko amaiezinetan

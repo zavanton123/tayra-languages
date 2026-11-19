@@ -1,100 +1,100 @@
-1	2301	positibo	positiboa positiboagoa positiboak positiboan positiboarekin positiboaren positiboari positiboaz positiboekin positiboena positiboren positiborik positibotik positiboz
-2	2302	animo	animoa animoak animoengatik animorik animoz
-3	2303	pe	peak pean peko peoi peri petako pez
-4	2304	leherketa	leherketak leherketan leherketarako leherketarekin leherketaren leherketari leherketarik leherketatik leherketaz leherketek leherketen
-5	2305	zelatatu	zelatatua zelatatuko zelatatuta zelatatutako zelatatzea zelatatzeagatik zelatatzeko zelatatzen
-6	2306	itsutu	itsutuko itsuturik itsututa itsututako itsutzea itsutzeko itsutzen
-7	2307	baloi	baloia baloiak baloiarekin baloiaren baloiari
-8	2308	mantso	mantsoa mantsoago mantsoagoa mantsoak mantsoan mantsoegi
-9	2309	sama	saman samek samekin samen samengatik samentzat samez
-10	2310	saltxitxa	saltxitxak saltxitxarako saltxitxarik saltxitxaz saltxitxek saltxitxen
-11	2311	golf	golfa golfak golfarekin golfaren golfean golfeko golfera golferako
-12	2312	artxibo	artxiboa artxiboak artxiboan artxiboekin artxiboen artxiboetan artxiboetara artxiboetatik artxiboko artxibokoak artxiborik
-13	2313	klan	klana klanak klanarekin klanaren klanari klanean klanek klaneko klanekoa klanekoak klanen klanera
-14	2314	anai	anaiagatik anaietako anairen anaitzat
-15	2315	ingeniari	ingeniaria ingeniariak ingeniariarekin ingeniariaren ingeniariei ingeniariek ingeniariekin ingeniarien ingeniarietako ingeniarik ingeniariok ingeniaririk
-16	2316	erreskate	erreskatea erreskateagatik erreskateak erreskatean erreskatearekin erreskatearen erreskateen erreskateko erreskatekoa erreskatera erreskaterik erreskatetik
-17	2317	gudu	gudua guduak guduan guduaren guduaz guduen guduko gudura gudurako gudurik gudutik
-18	2318	banketxe	banketxea banketxeak banketxean banketxearen banketxearentzat banketxeari banketxeei banketxeek banketxeekin banketxeen banketxeetako banketxeetan banketxeko banketxera banketxeren banketxerik banketxetan banketxetik
-19	2319	tente	tentea tenteak tenteko
-20	2320	susmatu	susma susmatuko susmatutako susmatuz susmatzea susmatzean susmatzeko susmatzen
-21	2321	tomate	tomatea tomateak tomatearekin tomateei tomateekin tomateen tomaterik
-22	2322	eskandalu	eskandalua eskandaluagatik eskandaluak eskandaluan eskandaluaren eskandaluarengatik eskandaluaz eskandaluetan eskandalurik eskandalutik
-23	2323	harakin	harakina harakinak harakinaren harakinarentzat harakinari harakinaz harakinek harakinen
-24	2324	miss	missa missaren
-25	2325	ezjakin	ezjakina ezjakinak ezjakinaren ezjakinean ezjakinei ezjakinentzat
-26	2326	publizitate	publizitatea publizitateagatik publizitateak publizitatean publizitatearekin publizitatearen publizitateko publizitatera publizitaterako publizitaterik
-27	2327	harrokeria	harrokeriak harrokerian harrokeriarako harrokeriarekin harrokeriaren harrokeriarik harrokeriatan harrokeriaz
-28	2328	alargun	alarguna alargunak alargunarekin alargunaren alargunari alargunei alargunek alargunekin alargunen alargunengatik alargunok
-29	2329	barrabil	barrabila barrabilak barrabilei barrabilek barrabileko barrabilen barrabiletako barrabiletan barrabiletatik barrabilez barrabilik
-30	2330	ikur	ikurra ikurrak ikurraren ikurrek ikurrekin ikurrekoa ikurren ikurrik
-31	2331	pasio	pasioa pasioak pasioarekin pasioaren pasioari pasioengatik pasiorekin pasioren pasiorik pasiotik pasioz
-32	2332	alproja	alprojak alprojarekin alprojaren alprojaz alprojekin alprojok
-33	2333	paregabe	paregabea paregabeak paregabearen paregabeari paregabeko paregabekoa paregabetara
-34	2334	estrategia	estrategiak estrategian estrategiarekin estrategiaren estrategiari estrategiarik estrategiaz estrategiek
-35	2335	atzerapen	atzerapena atzerapenak atzerapenarekin atzerapenarengatik atzerapenari atzerapenaz atzerapenez atzerapenik
-36	2336	taula	taulak taulako taulan taulara taularako taularekin taularen taulari taularik taulatik taulen
-37	2337	ostiko	ostikoa ostikoak ostikoarekin ostikoekin ostikorik ostikoz
-38	2338	patruila	patruilak patruilako patruilakoa patruilan patruilarekin patruilaren patruilarik patruilatik patruilek
-39	2339	olio	olioa olioak olioarekin olioaz olioekin oliorik oliotan
-40	2340	harrotasun	harrotasuna harrotasunak harrotasunarekin harrotasunaren harrotasunean harrotasunez harrotasunik
-41	2341	kapitulu	kapitulua kapituluak kapituluan kapituluaren kapituluari kapituluetan kapitulura kapitulurako kapitulurik
-42	2342	kobazulo	kobazuloa kobazuloak kobazuloan kobazuloaren kobazuloek kobazuloetako kobazuloetan kobazuloetara kobazuloko kobazulora kobazulotik
-43	2343	sexy	sexya sexyago sexyagoa sexyak sexyaren sexyari sexyaz sexyekin sexyena sexyenak sexyrik
-44	2344	lehia	lehiak lehian lehiara lehiarako lehiaren lehiari lehiarik lehiatik
-45	2345	kristau	kristaua kristauagoa kristauak kristauari kristauek kristauen kristauena kristauentzat kristauez kristauko kristauok kristautik
-46	2346	enbaxadore	enbaxadorea enbaxadoreak enbaxadorearekin enbaxadorearen enbaxadorearentzat enbaxadoreaz enbaxadoreek enbaxadoreekin enbaxadoreen enbaxadorerekin
-47	2347	opil	opila opilak opilarekin opilen opilez opilik
-48	2348	kondesa	kondesak kondesarekin kondesarentzat kondesari
-49	2349	bola	bolak bolan bolarekin bolekin bolen bolentzat boletan bolez
-50	2350	tematu	tematua tematuko tematurik tematuta tematzea tematzeagatik tematzeko tematzen
-51	2351	adoptatu	adoptatua adoptatuak adoptatuko adoptatutako adoptatzea adoptatzean adoptatzeko adoptatzen
-52	2352	garraiatu	garraia garraiatua garraiatuko garraiatuz garraiatzea garraiatzeagatik garraiatzeko garraiatzen garraiatzera
-53	2353	badaezpada	
-54	2354	italiar	italiarra italiarrak italiarrarekin italiarraz italiarrei italiarrek italiarrekin italiarren italiarrentzat italiarrok
-55	2355	suizidio	suizidioa suizidioagatik suizidioak suizidioaren suizidioaz suizidiorako suizidiotzat suizidioz
-56	2356	komunikatu	komunikatua komunikatuak komunikatuaren komunikatuko komunikatuta komunikatzea komunikatzeko komunikatzen
-57	2357	mutu	mutua mutuak mutuan mutuaren mutuen mutuko muturik
-58	2358	bihurri	bihur bihurria bihurriagoa bihurriak bihurrian bihurriarekin bihurriaren bihurriena bihurrienak bihurriengana bihurrietara bihurriko bihurriok bihurririk
-59	2359	egile	egilea egileak egilearen egileari egileek egileekin egileen egileengan egileengatik egileentzat egileetako egileren egiletik egiletzat
-60	2360	editore	editorea editoreak editorearekin editoreari editoreei editoreek editoreen editoreentzat editoreri editorerik
-61	2361	umezurtz	umezurtza umezurtzak umezurtzaren umezurtzei umezurtzek umezurtzen umezurtzentzat umezurtzok
-62	2362	tabako	tabakoa tabakoak tabakoan tabakoaren tabakoari tabakorik tabakoz
-63	2363	tanta	tantak tantara tantaraino tantaren tantarik tantaz tantek tantekin tanten tantetan
-64	2364	kexa	kexak kexarekin kexaren kexari kexarik kexen kexengatik
-65	2365	protesta	protestak protestan protestarik protestek protestetara
-66	2366	goibel	goibela goibelak goibelean goibelegi goibelekoa goibelena goibelez
-67	2367	errezeta	errezetak errezetarekin errezetaren errezetari errezetarik errezetaz errezetei errezeten
-68	2368	lehergailu	lehergailua lehergailuak lehergailuei lehergailuen lehergailuk lehergailuren lehergailurik lehergailuz
-69	2369	espioi	espioia espioiak espioiaren espioiek espioien espioietako espioirik espioitzat
-70	2370	atzoko	atzokoa atzokoagatik atzokoak atzokoan atzokoaren atzokoaz atzokoren
-71	2371	zaku	zakua zakuak zakuan zakuarekin zakuaren zakuari zakuei zakuekin zakuen zakuko zakura zakutik
-72	2372	korapilo	korapiloa korapiloak korapiloan korapiloarekin korapiloari korapiloek korapiloetako korapiloetan korapilokoa korapilora korapilorako korapilorekin korapiloren korapilorik
-73	2373	xume	xumea xumeagoak xumeak xumean xumearen xumeari xumeena xumeenak xumera xumeren
-74	2374	zezen	zezena zezenak zezenaren zezenari zezenek zezenekin zezenen zezenetan zezenetik zezeni zezenik
-75	2375	berrikusi	berrikus berrikusiko berrikusiz berrikustea berrikusteagatik berrikustean berrikusteko berrikusten berrikustera
-76	2376	gehiegizko	gehiegizkoa gehiegizkoagatik gehiegizkoak gehiegizkotzat
-77	2377	bakardade	bakardadea bakardadeak bakardadean bakardadearen bakardadeari bakardadeaz bakardadeko bakardadera bakardaderantz
-78	2378	elefante	elefantea elefanteak elefantearen elefanteari elefanteen elefantera elefanterik
-79	2379	azaro	azaroa azaroak azaroan azaroaren azaroko azarokoa azarora azarotik
-80	2380	bainugela	bainugelak bainugelako bainugelan bainugelara bainugelarekin bainugelarik bainugelaz bainugelekin
-81	2381	abuztu	abuztua abuztuak abuztuan abuztuarekin abuztuaren abuztuko abuztutik
-82	2382	ekain	ekaina ekainak ekainaren ekainaz ekainean ekaineko ekainera ekainerako ekainetik ekaini
-83	2383	udazken	udazkena udazkenaren udazkenari udazkenaz udazkenean udazkeneko udazkenekoa udazkenera udazkenerako udazkenetik
-84	2384	okupatu	okupatua okupatuak okupatuko okupaturik okupatuta okupatzea okupatzeko okupatzen okupatzera
-85	2385	badia	badiak badiako badian badiara badiaraino badiaren badiari badiatik badiaz badiok
-86	2386	harrezkero	
-87	2387	hiritar	hiritarra hiritarrak hiritarrei hiritarrek hiritarrekin hiritarren hiritarrentzat hiritarrok
-88	2388	gizen	gizena gizenak gizenarekin gizenegi gizenegia gizenen
-89	2389	informatu	informa informatua informatuko informatuta informatzea informatzeko informatzen informatzera
-90	2390	amildegi	amildegia amildegiak amildegian amildegiaren amildegiei amildegien amildegietako amildegiko amildegira amildegitik
-91	2391	kopiatu	kopiatuko kopiatzea kopiatzeko kopiatzen
-92	2392	lanpetu	lanpetua lanpetuan lanpetuaren lanpetuegi lanpetuegia lanpeturik lanpetutako lanpetutik
-93	2393	likore	likorea likoreagatik likoreak likorean likorearekin likorearen likorearentzat likoreari likoreaz likoreen likoreetan likoreez likoreko likorerik likoretan likorez
-94	2394	atzamar	atzamarra atzamarrak atzamarrarekin atzamarrean atzamarrekin atzamarreko atzamarren atzamarrera atzamarretako atzamarretan atzamarretara atzamarretatik atzamarrik
-95	2395	pantaila	pantailak pantailako pantailan pantailara pantailaraino pantailaren pantailari pantailatan pantailatik pantailetan
-96	2396	gonbidapen	gonbidapena gonbidapenagatik gonbidapenak gonbidapenarekin gonbidapenaren gonbidapenarengatik gonbidapenari gonbidapenaz gonbidapenean gonbidapenekin gonbidapenez gonbidapenik
-97	2397	marko	markoa markoak markoan markoetako markoko markora markorako markotik
-98	2398	banaketa	banaketak banaketako banaketakoak banaketan banaketarako banaketarekin banaketaren banaketari banaketarik banaketaz banaketetan banaketez
-99	2399	errenta	errentak errentako errentan errentarekin errentaren errentari errentarik errentatik errentaz errenten errentetatik
-100	2400	troll	trolla trollak trollaren trollei trollek trollekin trollen trolletan trolletara trollez trollik
+1	2301	animo	animoa animoak animoengatik animorik animoz
+2	2302	pe	peak pean peko peoi peri petako pez
+3	2303	leherketa	leherketak leherketan leherketarako leherketarekin leherketaren leherketari leherketarik leherketatik leherketaz leherketek leherketen
+4	2304	zelatatu	zelatatua zelatatuko zelatatuta zelatatutako zelatatzea zelatatzeagatik zelatatzeko zelatatzen
+5	2305	itsutu	itsutuko itsuturik itsututa itsututako itsutzea itsutzeko itsutzen
+6	2306	baloi	baloia baloiak baloiarekin baloiaren baloiari
+7	2307	mantso	mantsoa mantsoago mantsoagoa mantsoak mantsoan mantsoegi
+8	2308	sama	saman samek samekin samen samengatik samentzat samez
+9	2309	saltxitxa	saltxitxak saltxitxarako saltxitxarik saltxitxaz saltxitxek saltxitxen
+10	2310	golf	golfa golfak golfarekin golfaren golfean golfeko golfera golferako
+11	2311	artxibo	artxiboa artxiboak artxiboan artxiboekin artxiboen artxiboetan artxiboetara artxiboetatik artxiboko artxibokoak artxiborik
+12	2312	klan	klana klanak klanarekin klanaren klanari klanean klanek klaneko klanekoa klanekoak klanen klanera
+13	2313	anai	anaiagatik anaietako anairen anaitzat
+14	2314	ingeniari	ingeniaria ingeniariak ingeniariarekin ingeniariaren ingeniariei ingeniariek ingeniariekin ingeniarien ingeniarietako ingeniarik ingeniariok ingeniaririk
+15	2315	erreskate	erreskatea erreskateagatik erreskateak erreskatean erreskatearekin erreskatearen erreskateen erreskateko erreskatekoa erreskatera erreskaterik erreskatetik
+16	2316	gudu	gudua guduak guduan guduaren guduaz guduen guduko gudura gudurako gudurik gudutik
+17	2317	banketxe	banketxea banketxeak banketxean banketxearen banketxearentzat banketxeari banketxeei banketxeek banketxeekin banketxeen banketxeetako banketxeetan banketxeko banketxera banketxeren banketxerik banketxetan banketxetik
+18	2318	tente	tentea tenteak tenteko
+19	2319	susmatu	susma susmatuko susmatutako susmatuz susmatzea susmatzean susmatzeko susmatzen
+20	2320	tomate	tomatea tomateak tomatearekin tomateei tomateekin tomateen tomaterik
+21	2321	eskandalu	eskandalua eskandaluagatik eskandaluak eskandaluan eskandaluaren eskandaluarengatik eskandaluaz eskandaluetan eskandalurik eskandalutik
+22	2322	harakin	harakina harakinak harakinaren harakinarentzat harakinari harakinaz harakinek harakinen
+23	2323	miss	missa missaren
+24	2324	ezjakin	ezjakina ezjakinak ezjakinaren ezjakinean ezjakinei ezjakinentzat
+25	2325	publizitate	publizitatea publizitateagatik publizitateak publizitatean publizitatearekin publizitatearen publizitateko publizitatera publizitaterako publizitaterik
+26	2326	harrokeria	harrokeriak harrokerian harrokeriarako harrokeriarekin harrokeriaren harrokeriarik harrokeriatan harrokeriaz
+27	2327	alargun	alarguna alargunak alargunarekin alargunaren alargunari alargunei alargunek alargunekin alargunen alargunengatik alargunok
+28	2328	barrabil	barrabila barrabilak barrabilei barrabilek barrabileko barrabilen barrabiletako barrabiletan barrabiletatik barrabilez barrabilik
+29	2329	ikur	ikurra ikurrak ikurraren ikurrek ikurrekin ikurrekoa ikurren ikurrik
+30	2330	pasio	pasioa pasioak pasioarekin pasioaren pasioari pasioengatik pasiorekin pasioren pasiorik pasiotik pasioz
+31	2331	alproja	alprojak alprojarekin alprojaren alprojaz alprojekin alprojok
+32	2332	paregabe	paregabea paregabeak paregabearen paregabeari paregabeko paregabekoa paregabetara
+33	2333	estrategia	estrategiak estrategian estrategiarekin estrategiaren estrategiari estrategiarik estrategiaz estrategiek
+34	2334	atzerapen	atzerapena atzerapenak atzerapenarekin atzerapenarengatik atzerapenari atzerapenaz atzerapenez atzerapenik
+35	2335	taula	taulak taulako taulan taulara taularako taularekin taularen taulari taularik taulatik taulen
+36	2336	ostiko	ostikoa ostikoak ostikoarekin ostikoekin ostikorik ostikoz
+37	2337	patruila	patruilak patruilako patruilakoa patruilan patruilarekin patruilaren patruilarik patruilatik patruilek
+38	2338	olio	olioa olioak olioarekin olioaz olioekin oliorik oliotan
+39	2339	harrotasun	harrotasuna harrotasunak harrotasunarekin harrotasunaren harrotasunean harrotasunez harrotasunik
+40	2340	kapitulu	kapitulua kapituluak kapituluan kapituluaren kapituluari kapituluetan kapitulura kapitulurako kapitulurik
+41	2341	kobazulo	kobazuloa kobazuloak kobazuloan kobazuloaren kobazuloek kobazuloetako kobazuloetan kobazuloetara kobazuloko kobazulora kobazulotik
+42	2342	sexy	sexya sexyago sexyagoa sexyak sexyaren sexyari sexyaz sexyekin sexyena sexyenak sexyrik
+43	2343	lehia	lehiak lehian lehiara lehiarako lehiaren lehiari lehiarik lehiatik
+44	2344	kristau	kristaua kristauagoa kristauak kristauari kristauek kristauen kristauena kristauentzat kristauez kristauko kristauok kristautik
+45	2345	enbaxadore	enbaxadorea enbaxadoreak enbaxadorearekin enbaxadorearen enbaxadorearentzat enbaxadoreaz enbaxadoreek enbaxadoreekin enbaxadoreen enbaxadorerekin
+46	2346	opil	opila opilak opilarekin opilen opilez opilik
+47	2347	kondesa	kondesak kondesarekin kondesarentzat kondesari
+48	2348	bola	bolak bolan bolarekin bolekin bolen bolentzat boletan bolez
+49	2349	tematu	tematua tematuko tematurik tematuta tematzea tematzeagatik tematzeko tematzen
+50	2350	adoptatu	adoptatua adoptatuak adoptatuko adoptatutako adoptatzea adoptatzean adoptatzeko adoptatzen
+51	2351	garraiatu	garraia garraiatua garraiatuko garraiatuz garraiatzea garraiatzeagatik garraiatzeko garraiatzen garraiatzera
+52	2352	badaezpada	
+53	2353	italiar	italiarra italiarrak italiarrarekin italiarraz italiarrei italiarrek italiarrekin italiarren italiarrentzat italiarrok
+54	2354	suizidio	suizidioa suizidioagatik suizidioak suizidioaren suizidioaz suizidiorako suizidiotzat suizidioz
+55	2355	komunikatu	komunikatua komunikatuak komunikatuaren komunikatuko komunikatuta komunikatzea komunikatzeko komunikatzen
+56	2356	mutu	mutua mutuak mutuan mutuaren mutuen mutuko muturik
+57	2357	bihurri	bihur bihurria bihurriagoa bihurriak bihurrian bihurriarekin bihurriaren bihurriena bihurrienak bihurriengana bihurrietara bihurriko bihurriok bihurririk
+58	2358	egile	egilea egileak egilearen egileari egileek egileekin egileen egileengan egileengatik egileentzat egileetako egileren egiletik egiletzat
+59	2359	editore	editorea editoreak editorearekin editoreari editoreei editoreek editoreen editoreentzat editoreri editorerik
+60	2360	umezurtz	umezurtza umezurtzak umezurtzaren umezurtzei umezurtzek umezurtzen umezurtzentzat umezurtzok
+61	2361	tabako	tabakoa tabakoak tabakoan tabakoaren tabakoari tabakorik tabakoz
+62	2362	tanta	tantak tantara tantaraino tantaren tantarik tantaz tantek tantekin tanten tantetan
+63	2363	kexa	kexak kexarekin kexaren kexari kexarik kexen kexengatik
+64	2364	protesta	protestak protestan protestarik protestek protestetara
+65	2365	goibel	goibela goibelak goibelean goibelegi goibelekoa goibelena goibelez
+66	2366	errezeta	errezetak errezetarekin errezetaren errezetari errezetarik errezetaz errezetei errezeten
+67	2367	lehergailu	lehergailua lehergailuak lehergailuei lehergailuen lehergailuk lehergailuren lehergailurik lehergailuz
+68	2368	espioi	espioia espioiak espioiaren espioiek espioien espioietako espioirik espioitzat
+69	2369	atzoko	atzokoa atzokoagatik atzokoak atzokoan atzokoaren atzokoaz atzokoren
+70	2370	zaku	zakua zakuak zakuan zakuarekin zakuaren zakuari zakuei zakuekin zakuen zakuko zakura zakutik
+71	2371	korapilo	korapiloa korapiloak korapiloan korapiloarekin korapiloari korapiloek korapiloetako korapiloetan korapilokoa korapilora korapilorako korapilorekin korapiloren korapilorik
+72	2372	xume	xumea xumeagoak xumeak xumean xumearen xumeari xumeena xumeenak xumera xumeren
+73	2373	zezen	zezena zezenak zezenaren zezenari zezenek zezenekin zezenen zezenetan zezenetik zezeni zezenik
+74	2374	berrikusi	berrikus berrikusiko berrikusiz berrikustea berrikusteagatik berrikustean berrikusteko berrikusten berrikustera
+75	2375	gehiegizko	gehiegizkoa gehiegizkoagatik gehiegizkoak gehiegizkotzat
+76	2376	bakardade	bakardadea bakardadeak bakardadean bakardadearen bakardadeari bakardadeaz bakardadeko bakardadera bakardaderantz
+77	2377	elefante	elefantea elefanteak elefantearen elefanteari elefanteen elefantera elefanterik
+78	2378	azaro	azaroa azaroak azaroan azaroaren azaroko azarokoa azarora azarotik
+79	2379	bainugela	bainugelak bainugelako bainugelan bainugelara bainugelarekin bainugelarik bainugelaz bainugelekin
+80	2380	abuztu	abuztua abuztuak abuztuan abuztuarekin abuztuaren abuztuko abuztutik
+81	2381	ekain	ekaina ekainak ekainaren ekainaz ekainean ekaineko ekainera ekainerako ekainetik ekaini
+82	2382	udazken	udazkena udazkenaren udazkenari udazkenaz udazkenean udazkeneko udazkenekoa udazkenera udazkenerako udazkenetik
+83	2383	okupatu	okupatua okupatuak okupatuko okupaturik okupatuta okupatzea okupatzeko okupatzen okupatzera
+84	2384	badia	badiak badiako badian badiara badiaraino badiaren badiari badiatik badiaz badiok
+85	2385	harrezkero	
+86	2386	hiritar	hiritarra hiritarrak hiritarrei hiritarrek hiritarrekin hiritarren hiritarrentzat hiritarrok
+87	2387	gizen	gizena gizenak gizenarekin gizenegi gizenegia gizenen
+88	2388	informatu	informa informatua informatuko informatuta informatzea informatzeko informatzen informatzera
+89	2389	amildegi	amildegia amildegiak amildegian amildegiaren amildegiei amildegien amildegietako amildegiko amildegira amildegitik
+90	2390	kopiatu	kopiatuko kopiatzea kopiatzeko kopiatzen
+91	2391	lanpetu	lanpetua lanpetuan lanpetuaren lanpetuegi lanpetuegia lanpeturik lanpetutako lanpetutik
+92	2392	likore	likorea likoreagatik likoreak likorean likorearekin likorearen likorearentzat likoreari likoreaz likoreen likoreetan likoreez likoreko likorerik likoretan likorez
+93	2393	atzamar	atzamarra atzamarrak atzamarrarekin atzamarrean atzamarrekin atzamarreko atzamarren atzamarrera atzamarretako atzamarretan atzamarretara atzamarretatik atzamarrik
+94	2394	pantaila	pantailak pantailako pantailan pantailara pantailaraino pantailaren pantailari pantailatan pantailatik pantailetan
+95	2395	gonbidapen	gonbidapena gonbidapenagatik gonbidapenak gonbidapenarekin gonbidapenaren gonbidapenarengatik gonbidapenari gonbidapenaz gonbidapenean gonbidapenekin gonbidapenez gonbidapenik
+96	2396	marko	markoa markoak markoan markoetako markoko markora markorako markotik
+97	2397	banaketa	banaketak banaketako banaketakoak banaketan banaketarako banaketarekin banaketaren banaketari banaketarik banaketaz banaketetan banaketez
+98	2398	errenta	errentak errentako errentan errentarekin errentaren errentari errentarik errentatik errentaz errenten errentetatik
+99	2399	troll	trolla trollak trollaren trollei trollek trollekin trollen trolletan trolletara trollez trollik
+100	2400	garraio	garraioa garraioak garraioan garraioaren garraioaz garraioei garraioen garraioetako garraioko garraiokoa garraiora garraiorako garraiorik garraiotan garraioz

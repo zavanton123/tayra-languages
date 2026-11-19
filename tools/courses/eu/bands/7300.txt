@@ -1,100 +1,100 @@
-1	7201	idun	
-2	7202	gizonki	
-3	7203	kadentzia	
-4	7204	hitzezko	
-5	7205	euforiko	
-6	7206	sanba	
-7	7207	txabusina	
-8	7208	kubata	
-9	7209	bidesari	bidesaria
-10	7210	sozialki	
-11	7211	jaugin	jin
-12	7212	dardaraka	
-13	7213	amnistia	
-14	7214	jenial	jeniala
-15	7215	arratsero	
-16	7216	kirurgialari	
-17	7217	gatzgabetu	gatzgabetzeko
-18	7218	pomada	
-19	7219	nahierara	
-20	7220	herrena	
-21	7221	duela	duelarik
-22	7222	koreografia	
-23	7223	intzestu	intzestua
-24	7224	beltzarandu	beltzaranduak
-25	7225	antropologo	antropologoak
-26	7226	errun	errunak erruten
-27	7227	txolindu	txolinduta txolintzen
-28	7228	lolo	lolori
-29	7229	arro	arrorik
-30	7230	mendigoizale	mendigoizaleak mendigoizaleok
-31	7231	sodomia	sodomiarik
-32	7232	higadura	higadurak
-33	7233	higieniko	higienikoa higienikoagoa
-34	7234	ziatika	ziatikak
-35	7235	hitzaurre	hitzaurrea
-36	7236	txupete	txupetea txupeterik
-37	7237	sukurtsal	sukurtsala
-38	7238	arrapala	arrapalatik
-39	7239	noizbehinkako	noizbehinkakoa
-40	7240	esfinge	esfingea
-41	7241	originaltasun	originaltasuna
-42	7242	bazkalondo	bazkalondoan bazkalondoko
-43	7243	zainzuri	zainzuriak
-44	7244	lu	luk
-45	7245	oturuntza	oturuntzaren
-46	7246	surrealista	surrealistek
-47	7247	intriga	intrigaz
-48	7248	nekoso	nekosoa
-49	7249	kantonera	kantonerako
-50	7250	ezkerti	ezkertia ezkertiak
-51	7251	zeharkako	zeharkakoekin
-52	7252	mistika	mistikak
-53	7253	saxo	saxoaren
-54	7254	pubertaro	pubertaroa pubertaroko
-55	7255	maskulino	maskulinoa maskulinoarentzat
-56	7256	psikoterapeuta	psikoterapeutak
-57	7257	eskandinaviar	eskandinaviarrak
-58	7258	guardasol	guardasola
-59	7259	aratz	aratza aratzak
-60	7260	toreatzaile	toreatzailea
-61	7261	berrerosle	berreroslea
-62	7262	bulldog	bulldogak
-63	7263	polizial	poliziala polizialarekin
-64	7264	detonagailu	detonagailua
-65	7265	semantika	semantikarekin
-66	7266	pertsekuzio	pertsekuzioa
-67	7267	estratega	estrategak
-68	7268	eztabaidagai	eztabaidagaia
-69	7269	estereotipo	estereotipoa
-70	7270	garraiobide	garraiobidea garraiobideren
-71	7271	puxtarri	puxtarria
-72	7272	leuzemia	leuzemiari
-73	7273	margarina	margarinak
-74	7274	akreditazio	akreditazioa
-75	7275	argentinar	argentinarra
-76	7276	mirakuluzko	mirakuluzkoak
-77	7277	espekulatu	espekulatzen
-78	7278	txatar	txatarrean
-79	7279	genoma	genomako
-80	7280	desinfektatu	desinfektatzen
-81	7281	sexismo	sexismoa sexismoaren
-82	7282	errenka	errenkan
-83	7283	frijigailu	frijigailua frijigailuan
-84	7284	aloe	aloea aloeaz
-85	7285	zortziren	zortzirena zortzirenek
-86	7286	profanazio	profanazioa profanazioak
-87	7287	soslai	soslaia soslaiak
-88	7288	langa	langaz langen
-89	7289	erretoriko	erretorikoa erretorikoak
-90	7290	kolatu	kolatzen kolatzerik
-91	7291	hargin	hargina harginak
-92	7292	litio	litioa litioari
-93	7293	intelligentsia	intelligentsiako intelligentsiakoak
-94	7294	ebaketa	ebaketarekin ebaketarik
-95	7295	baltiko	baltikoan baltikoko
-96	7296	kokagune	kokagunea kokagunetik
-97	7297	dedukzio	dedukzioa dedukzioz
-98	7298	tomografia	tomografian tomografietan
-99	7299	taximetro	taximetroa taximetroarekin
-100	7300	udalkide	udalkidea udalkideek udalkideok
+1	7201	erlauntza	
+2	7202	idun	
+3	7203	gizonki	
+4	7204	kadentzia	
+5	7205	hitzezko	
+6	7206	euforiko	
+7	7207	sanba	
+8	7208	txabusina	
+9	7209	kubata	
+10	7210	bidesari	bidesaria
+11	7211	sozialki	
+12	7212	jaugin	jin
+13	7213	dardaraka	
+14	7214	amnistia	
+15	7215	jenial	jeniala
+16	7216	arratsero	
+17	7217	kirurgialari	
+18	7218	gatzgabetu	gatzgabetzeko
+19	7219	pomada	
+20	7220	nahierara	
+21	7221	herrena	
+22	7222	duela	duelarik
+23	7223	koreografia	
+24	7224	intzestu	intzestua
+25	7225	beltzarandu	beltzaranduak
+26	7226	antropologo	antropologoak
+27	7227	errun	errunak erruten
+28	7228	txolindu	txolinduta txolintzen
+29	7229	lolo	lolori
+30	7230	arro	arrorik
+31	7231	mendigoizale	mendigoizaleak mendigoizaleok
+32	7232	sodomia	sodomiarik
+33	7233	higadura	higadurak
+34	7234	higieniko	higienikoa higienikoagoa
+35	7235	ziatika	ziatikak
+36	7236	hitzaurre	hitzaurrea
+37	7237	txupete	txupetea txupeterik
+38	7238	sukurtsal	sukurtsala
+39	7239	arrapala	arrapalatik
+40	7240	noizbehinkako	noizbehinkakoa
+41	7241	esfinge	esfingea
+42	7242	originaltasun	originaltasuna
+43	7243	bazkalondo	bazkalondoan bazkalondoko
+44	7244	zainzuri	zainzuriak
+45	7245	lu	luk
+46	7246	oturuntza	oturuntzaren
+47	7247	surrealista	surrealistek
+48	7248	intriga	intrigaz
+49	7249	nekoso	nekosoa
+50	7250	kantonera	kantonerako
+51	7251	ezkerti	ezkertia ezkertiak
+52	7252	zeharkako	zeharkakoekin
+53	7253	mistika	mistikak
+54	7254	saxo	saxoaren
+55	7255	pubertaro	pubertaroa pubertaroko
+56	7256	maskulino	maskulinoa maskulinoarentzat
+57	7257	psikoterapeuta	psikoterapeutak
+58	7258	eskandinaviar	eskandinaviarrak
+59	7259	guardasol	guardasola
+60	7260	aratz	aratza aratzak
+61	7261	toreatzaile	toreatzailea
+62	7262	berrerosle	berreroslea
+63	7263	bulldog	bulldogak
+64	7264	polizial	poliziala polizialarekin
+65	7265	detonagailu	detonagailua
+66	7266	semantika	semantikarekin
+67	7267	pertsekuzio	pertsekuzioa
+68	7268	estratega	estrategak
+69	7269	eztabaidagai	eztabaidagaia
+70	7270	estereotipo	estereotipoa
+71	7271	garraiobide	garraiobidea garraiobideren
+72	7272	puxtarri	puxtarria
+73	7273	leuzemia	leuzemiari
+74	7274	margarina	margarinak
+75	7275	akreditazio	akreditazioa
+76	7276	argentinar	argentinarra
+77	7277	mirakuluzko	mirakuluzkoak
+78	7278	espekulatu	espekulatzen
+79	7279	txatar	txatarrean
+80	7280	genoma	genomako
+81	7281	desinfektatu	desinfektatzen
+82	7282	sexismo	sexismoa sexismoaren
+83	7283	errenka	errenkan
+84	7284	frijigailu	frijigailua frijigailuan
+85	7285	aloe	aloea aloeaz
+86	7286	zortziren	zortzirena zortzirenek
+87	7287	profanazio	profanazioa profanazioak
+88	7288	soslai	soslaia soslaiak
+89	7289	langa	langaz langen
+90	7290	erretoriko	erretorikoa erretorikoak
+91	7291	kolatu	kolatzen kolatzerik
+92	7292	hargin	hargina harginak
+93	7293	litio	litioa litioari
+94	7294	intelligentsia	intelligentsiako intelligentsiakoak
+95	7295	ebaketa	ebaketarekin ebaketarik
+96	7296	baltiko	baltikoan baltikoko
+97	7297	kokagune	kokagunea kokagunetik
+98	7298	dedukzio	dedukzioa dedukzioz
+99	7299	tomografia	tomografian tomografietan
+100	7300	taximetro	taximetroa taximetroarekin

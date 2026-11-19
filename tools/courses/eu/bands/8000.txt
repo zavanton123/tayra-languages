@@ -1,100 +1,100 @@
-1	7901	ketsu	ketsua ketsuetan
-2	7902	errizino	errizinoa errizinoari
-3	7903	zirin	zirina zirinekin zirinetan
-4	7904	goraipamen	goraipamena goraipamenak goraipamenez
-5	7905	lepahori	lepahoriak lepahorien lepahoririk
-6	7906	espiritismo	espiritismoa espiritismorik
-7	7907	egarritu	egarritua egarritzen
-8	7908	aintzin	aintzina aintzinean aintzineko
-9	7909	uher	uber uherra uherrak
-10	7910	garizuma	garizumako garizuman
-11	7911	konfederazio	konfederazioa konfederazioaren konfederazioari
-12	7912	telekomando	telekomandoa telekomandoari telekomandoekin
-13	7913	puntzoi	puntzoia puntzoiarekin puntzoiaren
-14	7914	hautatzaile	hautatzailea hautatzaileak
-15	7915	jaurtigailu	jaurtigailua jaurtigailuak
-16	7916	jaiotetxe	jaiotetxea jaiotetxera
-17	7917	egokiera	egokieraren egokieratan
-18	7918	biribiltasun	biribiltasunak biribiltasunekin
-19	7919	txiletar	txiletarra txiletarrei txiletarren
-20	7920	erreketa	erreketak erreketarekin
-21	7921	patinete	patinetea patineteagatik patinetean
-22	7922	akne	aknea akneak
-23	7923	urtsu	urtsua urtsuak
-24	7924	zerutar	zerutarra zerutarrak zerutarrena
-25	7925	balistika	balistikak balistikako balistikakoak
-26	7926	bideokonferentzia	bideokonferentzian bideokonferentziaz
-27	7927	desinfekzio	desinfekzioa desinfekzioan
-28	7928	ukatzaile	ukatzailea ukatzaileak ukatzailearen ukatzailerik
-29	7929	flotagailu	flotagailua flotagailuen flotagailuko
-30	7930	kraskagailu	kraskagailua kraskagailurik kraskagailutik
-31	7931	bizitoki	bizitokia bizitokian
-32	7932	takoidun	takoidunak takoidunekin takoidunen
-33	7933	zifratu	zifratua zifratuko
-34	7934	antiterrorista	antiterroristako antiterroristan
-35	7935	lausengari	lausengaria lausengariz
-36	7936	erregaliz	erregaliza erregalizaren
-37	7937	elikagailu	elikagailua elikagailuak elikagailuarekin elikagailuaren
-38	7938	hindi	hindia hindiz
-39	7939	koliseo	koliseoa koliseoan koliseoko koliseora
-40	7940	loba	lobaren lobok
-41	7941	lera	lerarekin leraz
-42	7942	liburuzale	liburuzalea liburuzaleen liburuzalerik
-43	7943	sardinzar	sardinzarrak sardinzarrei
-44	7944	artasoro	artasoroan artasoroetako artasoroetara
-45	7945	bereizkeria	bereizkeriarekin bereizkeriaren bereizkeriarik
-46	7946	budin	budina budinaren budinik
-47	7947	menopausia	menopausiaren menopausiarengatik menopausiatik
-48	7948	artikulazio	artikulazioak artikulazioek artikulazioen
-49	7949	egituratu	egituratua egituratuak egituratuta
-50	7950	pornografiko	pornografikoa pornografikoen
-51	7951	ziurgabetasun	ziurgabetasuna ziurgabetasunaren ziurgabetasunaz ziurgabetasunik
-52	7952	zekor	zekorra zekorrak zekorrari
-53	7953	nozitu	nozituko nozitzen
-54	7954	ahozapi	ahozapia ahozapiak
-55	7955	irregulartasun	irregulartasunak irregulartasunei irregulartasunen
-56	7956	bainuetxe	bainuetxea bainuetxeak bainuetxeetara
-57	7957	dadaista	dadaistak dadaistaren dadaistek
-58	7958	zare	zarea zaretan
-59	7959	mariskal	mariskala mariskalari
-60	7960	kosmetiko	kosmetikoa kosmetikoak kosmetikoen
-61	7961	koordinazio	koordinazioan koordinaziorako koordinaziorik
-62	7962	tirante	tiranteak tiranteekin
-63	7963	piromano	piromanoa piromanorik
-64	7964	abandonu	abandonua abandonuaren abandonuen
-65	7965	esmalte	esmaltea esmaltearekin
-66	7966	zinemaldi	zinemaldia zinemaldiko zinemaldirako
-67	7967	mitologia	mitologiako mitologian mitologiaren
-68	7968	aztarnategi	aztarnategian aztarnategitik
-69	7969	harritsu	harritsuagoak harritsuak harritsuetan harritsuko
-70	7970	tarot	tarota tarotak
-71	7971	leuntasun	leuntasuna leuntasunak leuntasunaren leuntasunez
-72	7972	samoar	samoarra samoarrengatik samoarrik
-73	7973	izain	izaina izainak
-74	7974	kamuts	kamutsa kamutsegia
-75	7975	generiko	generikoa generikoagoa generikoak generikoegia
-76	7976	galiar	galiara galiarra galiarrak
-77	7977	farmazeutiko	farmazeutikoak farmazeutikoan farmazeutikoen
-78	7978	lurrindu	lurrindua lurrinduak lurrinduta lurrintzen
-79	7979	txetnik	txetnikek txetniken
-80	7980	kaiolatu	kaiolatuak kaiolatuta kaiolatutako
-81	7981	gartsu	gartsua gartsuak
-82	7982	tapir	tapirra tapirrak
-83	7983	pragmatiko	pragmatikoa pragmatikoagoa pragmatikoak
-84	7984	klimatiko	klimatikoa klimatikoak klimatikoari
-85	7985	heroismo	heroismoa heroismoaren heroismorik heroismoz
-86	7986	arraunlari	arraunlaria arraunlariak arraunlarien
-87	7987	desertu	desertuan desertura desertutik
-88	7988	sionista	sionistak sionistan
-89	7989	yiddish	yiddisha yiddishez
-90	7990	pribatizatu	pribatizatuko pribatizatzea
-91	7991	totalitarismo	totalitarismoa totalitarismoaren
-92	7992	prediku	predikua predikuak predikuan predikuen
-93	7993	kartzelari	kartzelaria kartzelariak kartzelariei
-94	7994	laiko	laikoa laikoan laikora
-95	7995	nomada	nomadak nomadari nomadek nomaden
-96	7996	nobelagile	nobelagilea nobelagileak
-97	7997	gutiziatsu	gutiziatsua gutiziatsuak
-98	7998	medailoi	medailoia medailoiari medailoietako
-99	7999	lokaztu	lokazten lokaztua lokaztuko lokaztuta
-100	8000	burusi	burusia burusiak
+1	7901	katiuska	katiuskak katiuskek katiuskekin
+2	7902	ketsu	ketsua ketsuetan
+3	7903	errizino	errizinoa errizinoari
+4	7904	zirin	zirina zirinekin zirinetan
+5	7905	goraipamen	goraipamena goraipamenak goraipamenez
+6	7906	lepahori	lepahoriak lepahorien lepahoririk
+7	7907	espiritismo	espiritismoa espiritismorik
+8	7908	egarritu	egarritua egarritzen
+9	7909	aintzin	aintzina aintzinean aintzineko
+10	7910	uher	uber uherra uherrak
+11	7911	garizuma	garizumako garizuman
+12	7912	konfederazio	konfederazioa konfederazioaren konfederazioari
+13	7913	telekomando	telekomandoa telekomandoari telekomandoekin
+14	7914	puntzoi	puntzoia puntzoiarekin puntzoiaren
+15	7915	hautatzaile	hautatzailea hautatzaileak
+16	7916	jaurtigailu	jaurtigailua jaurtigailuak
+17	7917	jaiotetxe	jaiotetxea jaiotetxera
+18	7918	egokiera	egokieraren egokieratan
+19	7919	biribiltasun	biribiltasunak biribiltasunekin
+20	7920	txiletar	txiletarra txiletarrei txiletarren
+21	7921	erreketa	erreketak erreketarekin
+22	7922	patinete	patinetea patineteagatik patinetean
+23	7923	akne	aknea akneak
+24	7924	urtsu	urtsua urtsuak
+25	7925	zerutar	zerutarra zerutarrak zerutarrena
+26	7926	balistika	balistikak balistikako balistikakoak
+27	7927	bideokonferentzia	bideokonferentzian bideokonferentziaz
+28	7928	desinfekzio	desinfekzioa desinfekzioan
+29	7929	ukatzaile	ukatzailea ukatzaileak ukatzailearen ukatzailerik
+30	7930	flotagailu	flotagailua flotagailuen flotagailuko
+31	7931	kraskagailu	kraskagailua kraskagailurik kraskagailutik
+32	7932	bizitoki	bizitokia bizitokian
+33	7933	takoidun	takoidunak takoidunekin takoidunen
+34	7934	zifratu	zifratua zifratuko
+35	7935	antiterrorista	antiterroristako antiterroristan
+36	7936	lausengari	lausengaria lausengariz
+37	7937	erregaliz	erregaliza erregalizaren
+38	7938	elikagailu	elikagailua elikagailuak elikagailuarekin elikagailuaren
+39	7939	hindi	hindia hindiz
+40	7940	koliseo	koliseoa koliseoan koliseoko koliseora
+41	7941	loba	lobaren lobok
+42	7942	lera	lerarekin leraz
+43	7943	liburuzale	liburuzalea liburuzaleen liburuzalerik
+44	7944	sardinzar	sardinzarrak sardinzarrei
+45	7945	artasoro	artasoroan artasoroetako artasoroetara
+46	7946	bereizkeria	bereizkeriarekin bereizkeriaren bereizkeriarik
+47	7947	budin	budina budinaren budinik
+48	7948	menopausia	menopausiaren menopausiarengatik menopausiatik
+49	7949	artikulazio	artikulazioak artikulazioek artikulazioen
+50	7950	egituratu	egituratua egituratuak egituratuta
+51	7951	pornografiko	pornografikoa pornografikoen
+52	7952	ziurgabetasun	ziurgabetasuna ziurgabetasunaren ziurgabetasunaz ziurgabetasunik
+53	7953	zekor	zekorra zekorrak zekorrari
+54	7954	nozitu	nozituko nozitzen
+55	7955	ahozapi	ahozapia ahozapiak
+56	7956	irregulartasun	irregulartasunak irregulartasunei irregulartasunen
+57	7957	bainuetxe	bainuetxea bainuetxeak bainuetxeetara
+58	7958	dadaista	dadaistak dadaistaren dadaistek
+59	7959	zare	zarea zaretan
+60	7960	mariskal	mariskala mariskalari
+61	7961	kosmetiko	kosmetikoa kosmetikoak kosmetikoen
+62	7962	koordinazio	koordinazioan koordinaziorako koordinaziorik
+63	7963	tirante	tiranteak tiranteekin
+64	7964	piromano	piromanoa piromanorik
+65	7965	abandonu	abandonua abandonuaren abandonuen
+66	7966	esmalte	esmaltea esmaltearekin
+67	7967	zinemaldi	zinemaldia zinemaldiko zinemaldirako
+68	7968	mitologia	mitologiako mitologian mitologiaren
+69	7969	aztarnategi	aztarnategian aztarnategitik
+70	7970	harritsu	harritsuagoak harritsuak harritsuetan harritsuko
+71	7971	tarot	tarota tarotak
+72	7972	leuntasun	leuntasuna leuntasunak leuntasunaren leuntasunez
+73	7973	samoar	samoarra samoarrengatik samoarrik
+74	7974	izain	izaina izainak
+75	7975	kamuts	kamutsa kamutsegia
+76	7976	generiko	generikoa generikoagoa generikoak generikoegia
+77	7977	galiar	galiara galiarra galiarrak
+78	7978	farmazeutiko	farmazeutikoak farmazeutikoan farmazeutikoen
+79	7979	lurrindu	lurrindua lurrinduak lurrinduta lurrintzen
+80	7980	txetnik	txetnikek txetniken
+81	7981	kaiolatu	kaiolatuak kaiolatuta kaiolatutako
+82	7982	gartsu	gartsua gartsuak
+83	7983	tapir	tapirra tapirrak
+84	7984	pragmatiko	pragmatikoa pragmatikoagoa pragmatikoak
+85	7985	klimatiko	klimatikoa klimatikoak klimatikoari
+86	7986	heroismo	heroismoa heroismoaren heroismorik heroismoz
+87	7987	arraunlari	arraunlaria arraunlariak arraunlarien
+88	7988	desertu	desertuan desertura desertutik
+89	7989	sionista	sionistak sionistan
+90	7990	yiddish	yiddisha yiddishez
+91	7991	pribatizatu	pribatizatuko pribatizatzea
+92	7992	totalitarismo	totalitarismoa totalitarismoaren
+93	7993	prediku	predikua predikuak predikuan predikuen
+94	7994	kartzelari	kartzelaria kartzelariak kartzelariei
+95	7995	laiko	laikoa laikoan laikora
+96	7996	nomada	nomadak nomadari nomadek nomaden
+97	7997	nobelagile	nobelagilea nobelagileak
+98	7998	gutiziatsu	gutiziatsua gutiziatsuak
+99	7999	medailoi	medailoia medailoiari medailoietako
+100	8000	lokaztu	lokazten lokaztua lokaztuko lokaztuta

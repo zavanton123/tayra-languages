@@ -1,100 +1,100 @@
-1	5801	paragrafo	paragrafoa paragrafoaren
-2	5802	aurrerabide	aurrerabidea aurrerabidean aurrerabidearen aurrerabideaz aurrerabiderik
-3	5803	hebrear	hebrearra hebrearraren hebrearrek hebrearren hebrearretik
-4	5804	igarkizun	igarkizuna igarkizunak igarkizunaren igarkizunekin igarkizunen
-5	5805	barau	baraua barauak baraurik
-6	5806	torneo	torneoa torneoak torneoan torneotan torneotara
-7	5807	hezitzaile	hezitzailea hezitzaileak hezitzailearen hezitzaileari
-8	5808	esperimental	esperimentala esperimentalagoak esperimentalak esperimentalaren
-9	5809	altxamendu	altxamendua altxamenduak altxamenduan altxamenduarekin altxamenduaren altxamenduko altxamendurik altxamendutik
-10	5810	karrika	karrikako karrikan karrikaren karriketan
-11	5811	arrazional	arrazionala arrazionalak arrazionalean arrazionalegia arrazionalek
-12	5812	gatazkatsu	gatazkatsua gatazkatsuei gatazkatsuetako gatazkatsuetan gatazkatsutik
-13	5813	erreklamazio	erreklamazioa erreklamazioak erreklamazioen erreklamaziorik
-14	5814	estepa	estepako estepan estepari estepatik
-15	5815	pilotatu	pilotatzea pilotatzeagatik pilotatzeko pilotatzen pilotatzera
-16	5816	ehorztetxe	ehorztetxea ehorztetxean ehorztetxearen ehorztetxeko ehorztetxekoa
-17	5817	manifestu	manifestua manifestuak manifestuan manifesturik
-18	5818	hiruki	hirukia hirukiak hirukiarekin hirukiaren hirukiei hirukiekin hirukirik
-19	5819	inplikazio	inplikazioa inplikazioak inplikazioari
-20	5820	kaio	kaioa kaioak kaioari kaioek
-21	5821	txopa	txopako txopan txopara txoparen
-22	5822	mukizapi	mukizapia mukizapiak mukizapiek mukizapirik
-23	5823	portuges	portugesa portugesaren portugesari portugesek portugesez
-24	5824	jotzaile	jotzailea jotzaileak jotzaileei jotzaileek jotzailerik
-25	5825	harreragile	harreragilea harreragileak harreragileari harreragileekin
-26	5826	kasete	kasetea kaseteak kaseterik
-27	5827	lastertasun	lastertasuna lastertasunak lastertasunari lastertasunean
-28	5828	arrainontzi	arrainontzia arrainontziarekin arrainontziaren arrainontzien arrainontziko
-29	5829	urkamendi	urkamendia urkamendian urkamendiko urkamendikoa urkamendira urkamendirako
-30	5830	koadrante	koadrantea koadrantean koadrantearen koadranterantz koadrantetara koadrantetik
-31	5831	gizaseme	gizasemea gizasemeak gizasemeari gizasemeekin gizasemeen gizasemeok
-32	5832	etxegabe	etxegabea etxegabeak etxegabearen etxegabeekin etxegabeen etxegabeko
-33	5833	emisio	emisioa emisioaren emisioen emisiorako
-34	5834	kamerino	kamerinoa kamerinoak kamerinoan kamerinora
-35	5835	animazio	animazioa animazioan animazioaren animazioko animaziorako animaziorik
-36	5836	azkartasun	azkartasuna azkartasunagatik azkartasunak azkartasunaren azkartasunean azkartasunez
-37	5837	pedofilo	pedofiloa pedofiloak pedofiloaz pedofiloek pedofilorekin
-38	5838	plebeio	plebeioa plebeioak plebeioekin plebeioen plebeiorekin plebeiorik
-39	5839	patente	patentea patenteei patenteen patenteetako patenteetan patenterik
-40	5840	heroiko	heroikoa heroikoak heroikoaren heroikoaz
-41	5841	enplegua	enpleguak enpleguaren
-42	5842	krak	krakaz kraken
-43	5843	mania	maniak maniakoa maniakoak
-44	5844	kapota	kapotan kapotaren
-45	5845	ganba	ganbak ganbarako ganbei ganbekin
-46	5846	ore	orea oreak orean oreari
-47	5847	aitaita	aitaitak
-48	5848	taupadaka	
-49	5849	txandaka	
-50	5850	politikoki	
-51	5851	harpia	harpiaren
-52	5852	eratzi	erazten
-53	5853	melodia	
-54	5854	ahope	ahopean
-55	5855	anitz	
-56	5856	bostetan	
-57	5857	bihartik	
-58	5858	psikologikoki	
-59	5859	fartsa	fartsarekin
-60	5860	lukainka	lukainkak
-61	5861	bako	bakoan
-62	5862	erregela	erregelarekin
-63	5863	sexista	sexistek
-64	5864	gabardina	gabardinak gabardinaz
-65	5865	emigratu	emigratzen
-66	5866	sineskor	sineskorra
-67	5867	kolera	kolerak koleraren
-68	5868	aneurisma	aneurismak aneurismarik
-69	5869	patologia	patologiak patologiei
-70	5870	begiluze	begiluzea begiluzeetatik
-71	5871	mariera	marierekin marieren
-72	5872	teorema	teoremak teoremaren
-73	5873	estetika	estetikarik estetikaz
-74	5874	hezurdura	hezurdurak
-75	5875	zirimiri	sirimiri zirimiria
-76	5876	kuraia	kuraiak kuraiaz
-77	5877	sineste	sinesteekin sinesteetan
-78	5878	lastategi	lastategian lastategira
-79	5879	sinpatia	sinpatiaren sinpatiarik
-80	5880	etsenplu	etsenplua etsenpluak etsenpluen
-81	5881	kriseilu	kriseilua kriseiluak kriseilurik
-82	5882	malaria	malariak malariaren
-83	5883	kimio	kimioa kimioarekin kimioaren
-84	5884	hobetsi	hobestea hobesten
-85	5885	diktaketa	diktaketak diktaketan
-86	5886	aurpegiera	aurpegieran aurpegierari aurpegierarik
-87	5887	kalabaza	kalabazak kalabazarekin kalabazari
-88	5888	berritasun	berritasuna berritasunari berritasunen
-89	5889	xuxurla	xuxurlak xuxurlako xuxurlekin
-90	5890	belus	belusak belusekoa belusetan
-91	5891	idazketa	idazketan idazketaren
-92	5892	txerriki	txerrikia txerrikirik
-93	5893	alderdikide	alderdikideak alderdikideen
-94	5894	ezkata	ezkatak ezkataz ezkatetan
-95	5895	zentsura	zentsurak zentsuraren
-96	5896	produzitu	produzituko produzitzeko produzitzen
-97	5897	espinaka	espinakak espinaken espinakengatik
-98	5898	kaotiko	kaotikoa kaotikoak kaotikoan
-99	5899	suntsiketa	suntsiketak suntsiketara suntsiketarako
-100	5900	txandal	txandala txandalez txandalik
+1	5801	tibetar	tibetarra tibetarrak tibetarrek tibetarrentzat
+2	5802	paragrafo	paragrafoa paragrafoaren
+3	5803	aurrerabide	aurrerabidea aurrerabidean aurrerabidearen aurrerabideaz aurrerabiderik
+4	5804	hebrear	hebrearra hebrearraren hebrearrek hebrearren hebrearretik
+5	5805	igarkizun	igarkizuna igarkizunak igarkizunaren igarkizunekin igarkizunen
+6	5806	barau	baraua barauak baraurik
+7	5807	torneo	torneoa torneoak torneoan torneotan torneotara
+8	5808	hezitzaile	hezitzailea hezitzaileak hezitzailearen hezitzaileari
+9	5809	esperimental	esperimentala esperimentalagoak esperimentalak esperimentalaren
+10	5810	altxamendu	altxamendua altxamenduak altxamenduan altxamenduarekin altxamenduaren altxamenduko altxamendurik altxamendutik
+11	5811	karrika	karrikako karrikan karrikaren karriketan
+12	5812	arrazional	arrazionala arrazionalak arrazionalean arrazionalegia arrazionalek
+13	5813	gatazkatsu	gatazkatsua gatazkatsuei gatazkatsuetako gatazkatsuetan gatazkatsutik
+14	5814	erreklamazio	erreklamazioa erreklamazioak erreklamazioen erreklamaziorik
+15	5815	estepa	estepako estepan estepari estepatik
+16	5816	pilotatu	pilotatzea pilotatzeagatik pilotatzeko pilotatzen pilotatzera
+17	5817	ehorztetxe	ehorztetxea ehorztetxean ehorztetxearen ehorztetxeko ehorztetxekoa
+18	5818	manifestu	manifestua manifestuak manifestuan manifesturik
+19	5819	hiruki	hirukia hirukiak hirukiarekin hirukiaren hirukiei hirukiekin hirukirik
+20	5820	inplikazio	inplikazioa inplikazioak inplikazioari
+21	5821	kaio	kaioa kaioak kaioari kaioek
+22	5822	txopa	txopako txopan txopara txoparen
+23	5823	mukizapi	mukizapia mukizapiak mukizapiek mukizapirik
+24	5824	portuges	portugesa portugesaren portugesari portugesek portugesez
+25	5825	jotzaile	jotzailea jotzaileak jotzaileei jotzaileek jotzailerik
+26	5826	harreragile	harreragilea harreragileak harreragileari harreragileekin
+27	5827	kasete	kasetea kaseteak kaseterik
+28	5828	lastertasun	lastertasuna lastertasunak lastertasunari lastertasunean
+29	5829	arrainontzi	arrainontzia arrainontziarekin arrainontziaren arrainontzien arrainontziko
+30	5830	urkamendi	urkamendia urkamendian urkamendiko urkamendikoa urkamendira urkamendirako
+31	5831	koadrante	koadrantea koadrantean koadrantearen koadranterantz koadrantetara koadrantetik
+32	5832	gizaseme	gizasemea gizasemeak gizasemeari gizasemeekin gizasemeen gizasemeok
+33	5833	etxegabe	etxegabea etxegabeak etxegabearen etxegabeekin etxegabeen etxegabeko
+34	5834	emisio	emisioa emisioaren emisioen emisiorako
+35	5835	kamerino	kamerinoa kamerinoak kamerinoan kamerinora
+36	5836	animazio	animazioa animazioan animazioaren animazioko animaziorako animaziorik
+37	5837	azkartasun	azkartasuna azkartasunagatik azkartasunak azkartasunaren azkartasunean azkartasunez
+38	5838	pedofilo	pedofiloa pedofiloak pedofiloaz pedofiloek pedofilorekin
+39	5839	plebeio	plebeioa plebeioak plebeioekin plebeioen plebeiorekin plebeiorik
+40	5840	patente	patentea patenteei patenteen patenteetako patenteetan patenterik
+41	5841	heroiko	heroikoa heroikoak heroikoaren heroikoaz
+42	5842	enplegua	enpleguak enpleguaren
+43	5843	krak	krakaz kraken
+44	5844	mania	maniak maniakoa maniakoak
+45	5845	kapota	kapotan kapotaren
+46	5846	ganba	ganbak ganbarako ganbei ganbekin
+47	5847	ore	orea oreak orean oreari
+48	5848	aitaita	aitaitak
+49	5849	taupadaka	
+50	5850	txandaka	
+51	5851	politikoki	
+52	5852	harpia	harpiaren
+53	5853	eratzi	erazten
+54	5854	melodia	
+55	5855	ahope	ahopean
+56	5856	anitz	
+57	5857	bostetan	
+58	5858	bihartik	
+59	5859	psikologikoki	
+60	5860	fartsa	fartsarekin
+61	5861	lukainka	lukainkak
+62	5862	bako	bakoan
+63	5863	erregela	erregelarekin
+64	5864	sexista	sexistek
+65	5865	gabardina	gabardinak gabardinaz
+66	5866	emigratu	emigratzen
+67	5867	sineskor	sineskorra
+68	5868	kolera	kolerak koleraren
+69	5869	aneurisma	aneurismak aneurismarik
+70	5870	patologia	patologiak patologiei
+71	5871	begiluze	begiluzea begiluzeetatik
+72	5872	mariera	marierekin marieren
+73	5873	teorema	teoremak teoremaren
+74	5874	estetika	estetikarik estetikaz
+75	5875	hezurdura	hezurdurak
+76	5876	zirimiri	sirimiri zirimiria
+77	5877	kuraia	kuraiak kuraiaz
+78	5878	sineste	sinesteekin sinesteetan
+79	5879	lastategi	lastategian lastategira
+80	5880	sinpatia	sinpatiaren sinpatiarik
+81	5881	etsenplu	etsenplua etsenpluak etsenpluen
+82	5882	kriseilu	kriseilua kriseiluak kriseilurik
+83	5883	malaria	malariak malariaren
+84	5884	kimio	kimioa kimioarekin kimioaren
+85	5885	hobetsi	hobestea hobesten
+86	5886	diktaketa	diktaketak diktaketan
+87	5887	aurpegiera	aurpegieran aurpegierari aurpegierarik
+88	5888	kalabaza	kalabazak kalabazarekin kalabazari
+89	5889	berritasun	berritasuna berritasunari berritasunen
+90	5890	xuxurla	xuxurlak xuxurlako xuxurlekin
+91	5891	belus	belusak belusekoa belusetan
+92	5892	idazketa	idazketan idazketaren
+93	5893	txerriki	txerrikia txerrikirik
+94	5894	alderdikide	alderdikideak alderdikideen
+95	5895	ezkata	ezkatak ezkataz ezkatetan
+96	5896	zentsura	zentsurak zentsuraren
+97	5897	produzitu	produzituko produzitzeko produzitzen
+98	5898	espinaka	espinakak espinaken espinakengatik
+99	5899	kaotiko	kaotikoa kaotikoak kaotikoan
+100	5900	suntsiketa	suntsiketak suntsiketara suntsiketarako

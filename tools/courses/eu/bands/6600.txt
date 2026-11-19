@@ -1,100 +1,100 @@
-1	6501	para	paretako paretan paretara paretatik parez
-2	6502	klikatu	klika klikatzea
-3	6503	gabi	gabikoa gabikoak gabira
-4	6504	batura	baturak baturen
-5	6505	bosten	bostena bostentzat
-6	6506	zere	zerekoa
-7	6507	murgil	
-8	6508	galzori	galzorian
-9	6509	subjuntibo	subjuntiboko
-10	6510	elkarrenganako	
-11	6511	libreki	
-12	6512	igoal	
-13	6513	hileroko	
-14	6514	sendotza	sendotzen
-15	6515	pats	patsetan
-16	6516	kuluxka	
-17	6517	marika	
-18	6518	testosterona	
-19	6519	radio	
-20	6520	sum	
-21	6521	entzungor	
-22	6522	zientifikoki	
-23	6523	potasio	
-24	6524	milaren	
-25	6525	tantaka	
-26	6526	milako	
-27	6527	desberdintza	desberdintzen
-28	6528	zume	
-29	6529	diva	
-30	6530	akula	
-31	6531	fobia	
-32	6532	hoditeria	hoditeriak
-33	6533	sinpatiko	sinpatikoa sinpatikoagoak
-34	6534	hirurogei	hirurogeiena
-35	6535	zubipe	zubipean zubipeko
-36	6536	kurrinka	kurrinkak
-37	6537	itzalpe	itzalpean itzalpetik
-38	6538	besarte	besartean besartera
-39	6539	kohorte	kohorteetatik
-40	6540	anis	anisa
-41	6541	sor	sorra sorrera
-42	6542	epileptiko	epileptikoa
-43	6543	klaustrofobia	klaustrofobiarik
-44	6544	eskizofrenia	eskizofreniaren
-45	6545	lixiba	lixibari
-46	6546	psikoanalista	psikoanalistarentzat
-47	6547	kaloria	kaloriak
-48	6548	muxika	muxikak
-49	6549	zordun	zordunei zordunez
-50	6550	peptido	peptidoa
-51	6551	porto	portoa
-52	6552	pirateria	pirateriaren
-53	6553	oportunista	oportunistak
-54	6554	nartzisista	nartzisistak
-55	6555	errupia	errupiako
-56	6556	antolaketa	antolaketaz
-57	6557	ohepe	ohepean ohepekoa
-58	6558	marokoar	marokoarrak
-59	6559	parra	parrez
-60	6560	amoniako	amoniakoa
-61	6561	meskalina	meskalinarekin meskalinaren
-62	6562	xuhur	xuhurra xuhurragoa xuhurregiak
-63	6563	kaiman	kaimanak kaimanetan
-64	6564	genetika	genetikak genetikaren
-65	6565	errukitasun	errukitasuna errukitasunagatik errukitasunez
-66	6566	txerritoki	txerritokia
-67	6567	edanarazi	edanaraziko edanaraztea
-68	6568	herritartasun	herritartasuna herritartasunaren
-69	6569	ojiba	ojibak
-70	6570	saldukeria	saldukeriatik saldukeriaz
-71	6571	gorrimin	gorrimina gorriminaren gorriminerako
-72	6572	optimista	optimistak
-73	6573	turkesa	turkesak turkesarantz
-74	6574	klaustrofobiko	klaustrofobikoa
-75	6575	pobretu	pobretua pobretzen
-76	6576	tuberkulosi	tuberkulosia tuberkulosiak tuberkulosiaz
-77	6577	harmonika	harmonikak harmonikarako
-78	6578	lastaira	lastairak
-79	6579	atariko	atarikoa atarikoan
-80	6580	konbate	konbatea konbateko
-81	6581	oldar	oldarra oldarrean
-82	6582	joskintza	joskintzak joskintzari
-83	6583	inspiratzaile	inspiratzailea inspiratzaileak
-84	6584	metraileta	metrailetak metraileten
-85	6585	hozbero	hozberoa hozberoak
-86	6586	frenologia	frenologiak frenologiari
-87	6587	mehar	meharra meharragoa
-88	6588	bulegari	bulegaria
-89	6589	minbera	minberak
-90	6590	kasketa	kasketak kasketaren
-91	6591	jarauntsi	jaraunsteak jarauntsiko
-92	6592	antidepresibo	antidepresiboak antidepresiboen antidepresiboez
-93	6593	limonada	limonadak limonadako
-94	6594	espekulatzaile	espekulatzaileegia espekulatzaileek
-95	6595	begano	beganoa beganoak beganoarekin
-96	6596	aldaezin	aldaezina aldaezinak aldaezinegia
-97	6597	itaunketa	itaunketan
-98	6598	debozio	debozioa
-99	6599	atzaparka	atzaparkako
-100	6600	zartailu	zartailua zartailuaren zartailuekin
+1	6501	itzarri	itzarriko itzarritako itzartzea itzartzen itzartzera izartu
+2	6502	para	paretako paretan paretara paretatik parez
+3	6503	klikatu	klika klikatzea
+4	6504	gabi	gabikoa gabikoak gabira
+5	6505	batura	baturak baturen
+6	6506	bosten	bostena bostentzat
+7	6507	zere	zerekoa
+8	6508	murgil	
+9	6509	galzori	galzorian
+10	6510	subjuntibo	subjuntiboko
+11	6511	elkarrenganako	
+12	6512	libreki	
+13	6513	igoal	
+14	6514	hileroko	
+15	6515	sendotza	sendotzen
+16	6516	pats	patsetan
+17	6517	kuluxka	
+18	6518	marika	
+19	6519	testosterona	
+20	6520	radio	
+21	6521	sum	
+22	6522	entzungor	
+23	6523	zientifikoki	
+24	6524	potasio	
+25	6525	milaren	
+26	6526	tantaka	
+27	6527	milako	
+28	6528	desberdintza	desberdintzen
+29	6529	zume	
+30	6530	diva	
+31	6531	akula	
+32	6532	fobia	
+33	6533	hoditeria	hoditeriak
+34	6534	sinpatiko	sinpatikoa sinpatikoagoak
+35	6535	hirurogei	hirurogeiena
+36	6536	zubipe	zubipean zubipeko
+37	6537	kurrinka	kurrinkak
+38	6538	itzalpe	itzalpean itzalpetik
+39	6539	besarte	besartean besartera
+40	6540	kohorte	kohorteetatik
+41	6541	anis	anisa
+42	6542	sor	sorra sorrera
+43	6543	epileptiko	epileptikoa
+44	6544	klaustrofobia	klaustrofobiarik
+45	6545	eskizofrenia	eskizofreniaren
+46	6546	lixiba	lixibari
+47	6547	psikoanalista	psikoanalistarentzat
+48	6548	kaloria	kaloriak
+49	6549	muxika	muxikak
+50	6550	zordun	zordunei zordunez
+51	6551	peptido	peptidoa
+52	6552	porto	portoa
+53	6553	pirateria	pirateriaren
+54	6554	oportunista	oportunistak
+55	6555	nartzisista	nartzisistak
+56	6556	errupia	errupiako
+57	6557	antolaketa	antolaketaz
+58	6558	ohepe	ohepean ohepekoa
+59	6559	marokoar	marokoarrak
+60	6560	parra	parrez
+61	6561	amoniako	amoniakoa
+62	6562	meskalina	meskalinarekin meskalinaren
+63	6563	xuhur	xuhurra xuhurragoa xuhurregiak
+64	6564	kaiman	kaimanak kaimanetan
+65	6565	genetika	genetikak genetikaren
+66	6566	errukitasun	errukitasuna errukitasunagatik errukitasunez
+67	6567	txerritoki	txerritokia
+68	6568	edanarazi	edanaraziko edanaraztea
+69	6569	herritartasun	herritartasuna herritartasunaren
+70	6570	ojiba	ojibak
+71	6571	saldukeria	saldukeriatik saldukeriaz
+72	6572	gorrimin	gorrimina gorriminaren gorriminerako
+73	6573	optimista	optimistak
+74	6574	turkesa	turkesak turkesarantz
+75	6575	klaustrofobiko	klaustrofobikoa
+76	6576	pobretu	pobretua pobretzen
+77	6577	tuberkulosi	tuberkulosia tuberkulosiak tuberkulosiaz
+78	6578	harmonika	harmonikak harmonikarako
+79	6579	lastaira	lastairak
+80	6580	atariko	atarikoa atarikoan
+81	6581	konbate	konbatea konbateko
+82	6582	oldar	oldarra oldarrean
+83	6583	joskintza	joskintzak joskintzari
+84	6584	inspiratzaile	inspiratzailea inspiratzaileak
+85	6585	metraileta	metrailetak metraileten
+86	6586	hozbero	hozberoa hozberoak
+87	6587	frenologia	frenologiak frenologiari
+88	6588	mehar	meharra meharragoa
+89	6589	bulegari	bulegaria
+90	6590	minbera	minberak
+91	6591	kasketa	kasketak kasketaren
+92	6592	jarauntsi	jaraunsteak jarauntsiko
+93	6593	antidepresibo	antidepresiboak antidepresiboen antidepresiboez
+94	6594	limonada	limonadak limonadako
+95	6595	espekulatzaile	espekulatzaileegia espekulatzaileek
+96	6596	begano	beganoa beganoak beganoarekin
+97	6597	aldaezin	aldaezina aldaezinak aldaezinegia
+98	6598	itaunketa	itaunketan
+99	6599	debozio	debozioa
+100	6600	atzaparka	atzaparkako

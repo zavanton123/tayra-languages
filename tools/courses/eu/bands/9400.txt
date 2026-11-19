@@ -1,100 +1,100 @@
-1	9301	exorzista	exorzistak exorzistarik
-2	9302	delirio	delirioak delirioez
-3	9303	gizarteratze	gizarteratzea gizarteratzearen gizarteratzeko
-4	9304	gulag	gulagaren gulagean gulagetara
-5	9305	eskribau	eskribauak eskribauek
-6	9306	arrangura	arrangurarekin arranguraren
-7	9307	disoluzio	disoluzioa disoluzioak disoluziotan
-8	9308	oligarka	oligarkak oligarken
-9	9309	eklipse	eklipsearen eklipsetik
-10	9310	epitafio	epitafioa epitafiorako epitafiorik
-11	9311	liburudenda	liburudendako liburudendara
-12	9312	zitriko	zitrikoa zitrikoekin zitrikoetan
-13	9313	gabarra	gabarran gabarratan
-14	9314	ardogile	ardogilea ardogileak
-15	9315	kondentsatu	kondentsatuak kondentsatuko kondentsatzen
-16	9316	papagai	papagaiak papagaien
-17	9317	diruzain	diruzaina diruzainak
-18	9318	konplikazio	konplikazioak konplikazioren konplikaziorik
-19	9319	amilburu	amilburuak amilburuan
-20	9320	dominikar	dominikarra dominikarrera
-21	9321	tela	telekin telen
-22	9322	perbertso	perbertsoa perbertsoaren perbertsoena
-23	9323	burruntzali	burruntzalia burruntzaliak
-24	9324	limoiondo	limoiondoa limoiondoak limoiondoaren
-25	9325	margul	margula margulak
-26	9326	altruismo	altruismoaren altruismoaz altruismoz
-27	9327	endometriosi	endometriosia endometriosiari
-28	9328	fanatismo	fanatismoa fanatismoarekin
-29	9329	teletipo	teletipoak teletipoei teletipoz
-30	9330	habano	habanoa habanoak
-31	9331	minatu	minatua minaturik minatuta
-32	9332	pizkunde	pizkundea pizkundearengatik
-33	9333	lebitatu	lebitatzeko lebitatzen
-34	9334	etzaulki	etzaulkia etzaulkirik
-35	9335	erretagoardia	erretagoardiako erretagoardian
-36	9336	joskin	joskina joskinak joskinarekin
-37	9337	tiramisu	tiramisua tiramisurik
-38	9338	ospel	ospeleko ospeletan
-39	9339	bario	barioa barioarekin
-40	9340	trepeta	trepetak trepetez
-41	9341	profetizatu	profetizatuta profetizatuz profetizatzen
-42	9342	lizar	lizarra lizarrak
-43	9343	sionismo	sionismoa sionismoaren sionismoaz
-44	9344	trapezio	trapezioa trapeziorik trapeziotik
-45	9345	arauemaile	arauemaileak arauemaileek arauemaileetako
-46	9346	bortu	bortua bortuak
-47	9347	angina	anginak anginaren
-48	9348	zortziko	
-49	9349	peso	
-50	9350	interfono	interfonoa
-51	9351	txota	
-52	9352	amonio	
-53	9353	adiskidantza	
-54	9354	sevillar	sevillara
-55	9355	cava	
-56	9356	apa	
-57	9357	estimulazio	
-58	9358	magnolia	
-59	9359	loka	
-60	9360	sinarazi	
-61	9361	sorgor	
-62	9362	beltzuntza	beltzuntzak
-63	9363	maze	
-64	9364	koloso	
-65	9365	akupuntore	
-66	9366	mamarro	mamarroa
-67	9367	titanio	titanioa
-68	9368	saltxitxoi	
-69	9369	sakagailu	
-70	9370	melanoma	
-71	9371	elektroiman	elektroimanak
-72	9372	pederastia	
-73	9373	totel	totela
-74	9374	erreduktore	erreduktorea
-75	9375	irratizale	irratizaleen
-76	9376	fotografiko	fotografikoa
-77	9377	dueto	duetoa
-78	9378	mertxika	
-79	9379	muka	mukara
-80	9380	transatlantiko	transatlantikoa
-81	9381	gara	gira
-82	9382	broker	
-83	9383	klementina	
-84	9384	apika	
-85	9385	groenlandiar	groenlandiara
-86	9386	sabi	sabian
-87	9387	iraniar	
-88	9388	talko	talkoa
-89	9389	usteldura	usteldurak
-90	9390	haritzezko	
-91	9391	iheska	
-92	9392	peiote	peiotea
-93	9393	goleta	
-94	9394	ezkabia	
-95	9395	pesimista	
-96	9396	sokasalto	sokasaltoan
-97	9397	betekada	
-98	9398	kuter	
-99	9399	indibidualista	
-100	9400	integral	integrala
+1	9301	gatzatu	gatzatua gatzatuak
+2	9302	exorzista	exorzistak exorzistarik
+3	9303	delirio	delirioak delirioez
+4	9304	gizarteratze	gizarteratzea gizarteratzearen gizarteratzeko
+5	9305	gulag	gulagaren gulagean gulagetara
+6	9306	eskribau	eskribauak eskribauek
+7	9307	arrangura	arrangurarekin arranguraren
+8	9308	disoluzio	disoluzioa disoluzioak disoluziotan
+9	9309	oligarka	oligarkak oligarken
+10	9310	eklipse	eklipsearen eklipsetik
+11	9311	epitafio	epitafioa epitafiorako epitafiorik
+12	9312	liburudenda	liburudendako liburudendara
+13	9313	zitriko	zitrikoa zitrikoekin zitrikoetan
+14	9314	gabarra	gabarran gabarratan
+15	9315	ardogile	ardogilea ardogileak
+16	9316	kondentsatu	kondentsatuak kondentsatuko kondentsatzen
+17	9317	papagai	papagaiak papagaien
+18	9318	diruzain	diruzaina diruzainak
+19	9319	konplikazio	konplikazioak konplikazioren konplikaziorik
+20	9320	amilburu	amilburuak amilburuan
+21	9321	dominikar	dominikarra dominikarrera
+22	9322	tela	telekin telen
+23	9323	perbertso	perbertsoa perbertsoaren perbertsoena
+24	9324	burruntzali	burruntzalia burruntzaliak
+25	9325	limoiondo	limoiondoa limoiondoak limoiondoaren
+26	9326	margul	margula margulak
+27	9327	altruismo	altruismoaren altruismoaz altruismoz
+28	9328	endometriosi	endometriosia endometriosiari
+29	9329	fanatismo	fanatismoa fanatismoarekin
+30	9330	teletipo	teletipoak teletipoei teletipoz
+31	9331	habano	habanoa habanoak
+32	9332	minatu	minatua minaturik minatuta
+33	9333	pizkunde	pizkundea pizkundearengatik
+34	9334	lebitatu	lebitatzeko lebitatzen
+35	9335	etzaulki	etzaulkia etzaulkirik
+36	9336	erretagoardia	erretagoardiako erretagoardian
+37	9337	joskin	joskina joskinak joskinarekin
+38	9338	tiramisu	tiramisua tiramisurik
+39	9339	ospel	ospeleko ospeletan
+40	9340	bario	barioa barioarekin
+41	9341	trepeta	trepetak trepetez
+42	9342	profetizatu	profetizatuta profetizatuz profetizatzen
+43	9343	lizar	lizarra lizarrak
+44	9344	sionismo	sionismoa sionismoaren sionismoaz
+45	9345	trapezio	trapezioa trapeziorik trapeziotik
+46	9346	arauemaile	arauemaileak arauemaileek arauemaileetako
+47	9347	bortu	bortua bortuak
+48	9348	angina	anginak anginaren
+49	9349	zortziko	
+50	9350	peso	
+51	9351	interfono	interfonoa
+52	9352	txota	
+53	9353	amonio	
+54	9354	adiskidantza	
+55	9355	sevillar	sevillara
+56	9356	cava	
+57	9357	apa	
+58	9358	estimulazio	
+59	9359	magnolia	
+60	9360	loka	
+61	9361	sinarazi	
+62	9362	sorgor	
+63	9363	beltzuntza	beltzuntzak
+64	9364	maze	
+65	9365	koloso	
+66	9366	akupuntore	
+67	9367	mamarro	mamarroa
+68	9368	titanio	titanioa
+69	9369	saltxitxoi	
+70	9370	sakagailu	
+71	9371	melanoma	
+72	9372	elektroiman	elektroimanak
+73	9373	pederastia	
+74	9374	totel	totela
+75	9375	erreduktore	erreduktorea
+76	9376	irratizale	irratizaleen
+77	9377	fotografiko	fotografikoa
+78	9378	dueto	duetoa
+79	9379	mertxika	
+80	9380	muka	mukara
+81	9381	transatlantiko	transatlantikoa
+82	9382	gara	gira
+83	9383	broker	
+84	9384	klementina	
+85	9385	apika	
+86	9386	groenlandiar	groenlandiara
+87	9387	sabi	sabian
+88	9388	iraniar	
+89	9389	talko	talkoa
+90	9390	usteldura	usteldurak
+91	9391	haritzezko	
+92	9392	iheska	
+93	9393	peiote	peiotea
+94	9394	goleta	
+95	9395	ezkabia	
+96	9396	pesimista	
+97	9397	sokasalto	sokasaltoan
+98	9398	betekada	
+99	9399	kuter	
+100	9400	indibidualista	

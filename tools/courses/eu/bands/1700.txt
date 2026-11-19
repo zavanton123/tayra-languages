@@ -1,100 +1,100 @@
-1	1601	industria	industriak industriako industriakoa industrian industriarako industriarekin industriaren industriarentzat industriari industriarik industriaz industriek industriekin industrien industrietara
-2	1602	leialtasun	leialtasuna leialtasunagatik leialtasunak leialtasunarekin leialtasunaren leialtasunari leialtasunaz leialtasunean leialtasunek leialtasunez leialtasunik
-3	1603	diamante	diamantea diamanteak diamantearekin diamanteei diamanteek diamanteekin diamanteen diamanteengatik diamanteentzat diamanteez diamanterik diamantetan diamantez
-4	1604	zerga	zergak zergan zergaren zergarik zergaz zergei zergek zergekin zergen zergengatik zergetako zergetan zergetatik
-5	1605	laborategi	laborategia laborategiak laborategian laborategiarekin laborategiaren laborategiei laborategiekin laborategietako laborategietan laborategiko laborategikoa laborategira laborategirik laborategitik
-6	1606	gertaera	gertaerak gertaeran gertaerarekin gertaeraren gertaerari gertaerarik gertaeratan gertaeratik gertaerei gertaerek gertaeren gertaeretan
-7	1607	indarkeria	indarkeriak indarkeriakoak indarkerian indarkeriara indarkeriarako indarkeriarekin indarkeriaren indarkeriari indarkeriarik indarkeriaz
-8	1608	isiltasun	isiltasuna isiltasunak isiltasunaren isiltasunaz isiltasunean isiltasunera isiltasunetik isiltasunez
-9	1609	alfer	alferez alferra alferragoa alferrak alferrek alferrekin alferreko alferrekoa alferrekoak alferren alferrena alferrentzat alferrok
-10	1610	zirrara	zirrarak zirrararako zirrararen zirrararengatik zirrarari zirrararik zirraraz
-11	1611	kriminal	kriminala kriminalagatik kriminalak kriminalaren kriminalean kriminalei kriminalek kriminalekin kriminaleko kriminalekoa kriminalekoak kriminalen kriminalentzat kriminaletako kriminalik kriminaltzat
-12	1612	bizilagun	bizilaguna bizilagunak bizilagunarekin bizilagunaren bizilagunari bizilagunei bizilagunek bizilagunekin bizilagunen bizilagunengatik bizilagunentzat bizilagunik
-13	1613	gar	garra garrak garraren garrei garrek garrekin garretan garretaraino garretatik garrez garrik kar
-14	1614	biltegi	biltegia biltegiak biltegian biltegiarekin biltegiaren biltegiek biltegien biltegietan biltegietara biltegietatik biltegiko biltegikoak biltegira biltegiren biltegirik biltegitik
-15	1615	saltzaile	saltzailea saltzaileak saltzailearen saltzaileari saltzaileek saltzaileekin saltzaileen saltzaileentzat saltzaileren saltzaileri saltzailerik
-16	1616	karta	kartak kartako kartan kartaren kartari kartarik kartatan kartaz kartek kartekin karten kartetako kartetan
-17	1617	funts	funtsa funtsak funtsaren funtsari funtsean funtsek funtsekin funtsekoa funtsen funtsetan funtsetik funtsez funtsik
-18	1618	biki	bikia bikiak bikiaren bikiari bikiei bikiek bikiekin bikien bikiena bikietan bikietara bikietatik bikiren bikirik
-19	1619	berriketa	berriketak berriketan berriketara berriketarako berriketarekin berriketarik berriketatik berriketen berriketez
-20	1620	zama	zamak zamarako zamarekin zamarik
-21	1621	xehetasun	xehetasuna xehetasunak xehetasunean xehetasunei xehetasunek xehetasunekin xehetasunen xehetasunetan xehetasunez xehetasunik
-22	1622	indiar	indiarra indiarrak indiarrarekin indiarraren indiarrari indiarrei indiarrek indiarren indiarrena indiarrentzat indiarrerako indiarretako indiarretatik indiarrez indiarrik
-23	1623	nekazari	nekazaria nekazariak nekazariei nekazariek nekazariekin nekazarien nekazariengandik nekazarientzat nekazarik nekazariok nekazaririk
-24	1624	borondate	borondatea borondatearekin borondatearen borondateari borondateaz borondateko borondaterik borondatez
-25	1625	ixil	isil ixila ixilik
-26	1626	jokalari	jokalaria jokalariak jokalariaren jokalariei jokalariek jokalariekin jokalarien jokalarientzat jokalariez jokalariok jokalaririk jokalariz
-27	1627	txanpon	txanpona txanponak txanponekin txanponen txanponengatik txanponetan txanponez txanponik
-28	1628	erresuma	erresumak erresumako erresumakoa erresuman erresumara erresumarako erresumaren erresumari erresumarik erresumatik erresumaz erresumei erresumek erresumen erresumetako erresumetan
-29	1629	dastatu	dasta dastatuko dastatuz dastatzea dastatzeak dastatzean dastatzeaz dastatzeko dastatzen dastatzera
-30	1630	laugarren	laugarrena laugarrenak laugarrenarekin laugarrenaren laugarrenean laugarreneko laugarrenekoa laugarrenekoak laugarrenera laugarrenetik laugarrenez
-31	1631	ezpain	ezpaina ezpainak ezpainaren ezpainari ezpainean ezpainei ezpainek ezpainekin ezpaineko ezpainekoa ezpainen ezpainetako ezpainetan ezpainetara ezpainetarako ezpainetatik ezpainez ezpainik
-32	1632	homosexual	homosexuala homosexualak homosexualaren homosexualei homosexualek homosexualekin homosexualekoa homosexualen homosexualena homosexualentzat homosexualetatik homosexualik homosexualok
-33	1633	kontzientzia	kontzientziak kontzientziako kontzientzian kontzientziarekin kontzientziaren kontzientziari kontzientziarik kontzientziatik
-34	1634	arrantza	arrantzan arrantzara arrantzarako arrantzaren arrantzarik arrantzatik arrantzaz
-35	1635	gidoi	gidoia gidoiak gidoian gidoiarekin gidoiarengatik gidoiari gidoien gidoira gidoirako gidoirik gidoitik
-36	1636	jipoitu	jipoi jipoituak jipoituko jipoituta jipoituz jipoitzea jipoitzeko jipoitzen jipoitzera
-37	1637	biluzik	
-38	1638	gauerdi	gauerdia gauerdiak gauerdian gauerdiaren gauerdiko gauerdira gauerdirako gauerditik
-39	1639	lelo	leloa leloago leloagoa leloak leloan leloarekin leloaren leloarentzat leloegia leloen leloentzat leloetako lelook lelora leloren lelorik lelotzat
-40	1640	banpiro	banpiroa banpiroak banpiroaren banpiroari banpiroei banpiroek banpiroekin banpiroen banpiroengana banpiroentzat banpiroetan banpiroez banpirooi banpirook banpirorik banpiroz
-41	1641	txeke	txekea txekeak txekean txekearekin txekearengatik txekeari txekera txekerik txeketik
-42	1642	dibertitu	diberti dibertitua dibertituak dibertituko dibertituta dibertitzea dibertitzeagatik dibertitzeko dibertitzen dibertitzera
-43	1643	erreinu	erreinua erreinuagatik erreinuak erreinuan erreinuaren erreinuarentzat erreinuari erreinuen erreinuentzat erreinuetako erreinuetan erreinuko erreinura erreinutako erreinutik
-44	1644	segituan	
-45	1645	kexatu	kexatuko kexatzea kexatzeak kexatzeari kexatzeko kexatzen kexatzera
-46	1646	elkarte	elkartea elkarteak elkartean elkartearekin elkartearen elkartearentzat elkarteari elkarteei elkarteekin elkarteen elkarteetako elkarteko elkartekoa elkartera elkarterekin elkarteren elkarterentzat elkarterik
-47	1647	piano	pianoa pianoak pianoan pianoarekin pianoaren pianoarentzat pianoari pianoen pianoko pianora pianorako pianorik pianotik
-48	1648	ergelkeria	ergelkeriak ergelkeriarekin ergelkeriaren ergelkeriarik ergelkeriaz ergelkeriei ergelkeriekin ergelkerien ergelkeriengatik ergelkeriez
-49	1649	minbizi	minbizia minbiziak minbizian minbiziarekin minbiziaren minbiziari minbiziaz minbizirik minbizitik minbiziz
-50	1650	txiste	txistea txisteak txistearen txisteek txisteekin txisteen txisteetan txisteez txisterik
-51	1651	senargai	senargaia senargaiak senargaiarekin senargaiaren senargaiarengandik senargaiari senargaiekin senargaien senargairik
-52	1652	oihan	oihana oihanak oihanarekin oihanaren oihanari oihanaz oihanean oihaneko oihanera oihanetan oihanetik
-53	1653	garatu	garatua garatuak garatuko garaturik garatuta garatutako garatuz garatzea garatzeko garatzen
-54	1654	abiadura	abiadurak abiadurako abiaduran abiadurara abiadurarako abiaduraren abiadurarengatik abiadurari abiadurarik abiaduratan abiaduratik abiaduraz abiadurek
-55	1655	moral	morala moralak moralarekin moralaren moralarentzat moralari moralean moralei moraleko moralen moraletik moralik
-56	1656	txuri	txuria txuriagoak txuriak txurian txuriarekin txuriaren txuriaz txuriei txuriek txurien txurietan txuriko txurikoa txuririk txuriz
-57	1657	banda	bandak bandako bandakoa bandakoak bandan bandara bandarekin bandaren bandarentzat bandari bandarik bandatik bandaz banden bandetan
-58	1658	birjina	birjinak birjinan birjinaren birjinari birjinarik birjinekin birjinen
-59	1659	moda	modak modakoak modan modarekin modaren modari modaz
-60	1660	modelo	modeloa modeloak modeloarekin modeloaren modeloei modeloek modeloekin modeloen modeloengatik modeloetan modeloetatik modeloko modelokoa modeloren modelorik
-61	1661	koadro	koadroa koadroak koadroan koadroaren koadroari koadroaz koadroei koadroek koadroekin koadroen koadroetan koadroko koadroren koadrorik koadrotik koadroz
-62	1662	ahala	
-63	1663	kanpaina	kanpainak kanpainako kanpainakoa kanpainakoak kanpainan kanpainarako kanpainarekin kanpainaren kanpainari kanpainarik kanpainatik kanpainaz kanpainek kanpainen kanpainetan
-64	1664	mehatxatu	mehatxatua mehatxatuak mehatxatuko mehatxatuta mehatxatutako mehatxatuz mehatxatzeak mehatxatzeaz mehatxatzeko mehatxatzen mehatxatzera
-65	1665	sute	sutea suteagatik suteak sutean sutearekin sutearen suteari suteaz suteek suteen suteetako suteetan suteko sutera suterako suteren suterik sutetik
-66	1666	marraztu	marraztea marrazteari marrazteko marrazten marraztera marraztua marraztuko marraztuta marraztutako marraztuz
-67	1667	gradu	gradua graduak graduan graduarekin graduetan graduko gradukoa gradukoak gradura graduraino gradurekin gradutako gradutan gradutara gradutik
-68	1668	jausi	jausia jausiko jausita jausitako jausitakoa jaustea jausteko jausten jaustera
-69	1669	milioika	
-70	1670	galant	galanta galantak galantari galantenak
-71	1671	jeloskor	jeloskorra jeloskorrago jeloskorrak jeloskorregia
-72	1672	betaurreko	betaurrekoak betaurrekoei betaurrekoekin betaurrekoen betaurrekoengatik betaurrekoez betaurrekorik
-73	1673	atzealde	atzealdea atzealdeak atzealdean atzealdearen atzealdeari atzealdeaz atzealdeko atzealdekoak atzealdera atzealderen atzealdetik
-74	1674	gotorleku	gotorlekua gotorlekuak gotorlekuan gotorlekuaren gotorlekuari gotorlekuei gotorlekuen gotorlekuko gotorlekura gotorlekuraino gotorlekurantz gotorlekutik
-75	1675	zahartu	zahartua zahartuko zaharturik zahartuta zahartutako zahartzea zahartzeak zahartzean zahartzearekin zahartzearen zahartzeko zahartzen
-76	1676	itzulpen	itzulpena itzulpenak itzulpenari itzulpenean itzulpenei itzulpenekin itzulpenik
-77	1677	hileta	hiletak hiletaren hiletarik hiletaz hileten hiletengatik hiletetako hiletetan hiletetatik
-78	1678	uniforme	uniformea uniformeagatik uniformeak uniformean uniformearekin uniformearen uniformeari uniformeekin uniformeetara uniformeko uniformerik
-79	1679	ziega	ziegak ziegako ziegan ziegara ziegaraino ziegarako ziegatan ziegatik ziegetako ziegetan ziegetara ziegetatik
-80	1680	ispilu	ispilua ispiluak ispiluan ispiluarekin ispiluaren ispiluari ispiluaz ispiluei ispiluek ispiluekin ispiluen ispiluetan ispiluetatik ispilura ispilurik ispiluz
-81	1681	bezalaxe	
-82	1682	hamaika	hamaikak hamaiketan
-83	1683	tarta	tartak tartaren tartari tartarik tartaz tartei tartekin tarten tartengatik
-84	1684	krisi	krisia krisiagatik krisiak krisian krisiarekin krisiaren krisiari krisiaz krisien krisiren krisirik krisitik
-85	1685	hutsegite	hutsegitea hutsegiteak hutsegiteengatik hutsegiteetan hutsegiteetatik hutsegiteren hutsegiterik hutsegitetik
-86	1686	nazi	nazia naziak nazian naziaren naziei naziek naziekin nazien naziena nazienak naziengatik naziko naziok nazirik nazitzat naziz
-87	1687	ahalegindu	ahaleginduko ahaleginduta ahaleginduz ahalegintzea ahalegintzeagatik ahalegintzeko ahalegintzen ahalegintzera
-88	1688	eskas	eskasa eskasagatik eskasagoa eskasagoak eskasak eskasari eskasaz eskasean eskasegia eskasegiak eskasek eskasekoak eskasen eskasena eskasengatik eskasera
-89	1689	azalpen	azalpena azalpenak azalpenarekin azalpenarengatik azalpenean azalpenek azalpenen azalpenengatik azalpenetarako azalpenik
-90	1690	to	
-91	1691	ziri	ziria ziriak ziririk
-92	1692	esperimentu	esperimentua esperimentuak esperimentuan esperimentuarekin esperimentuaren esperimentuek esperimentuen esperimentuetako esperimentuetan esperimentuetara esperimentuetatik esperimentuez esperimentuko esperimentukoa esperimentura esperimenturako esperimenturen esperimenturik
-93	1693	lanbide	lanbidea lanbideak lanbidean lanbidearekin lanbidearen lanbideaz lanbideen lanbideetan lanbideetara lanbideko lanbiderako lanbideren lanbiderik lanbidetik lanbidez
-94	1694	sozial	soziala sozialagoa sozialak sozialarekin sozialaren sozialaz sozialean sozialek sozialekin sozialeko sozialen sozialengandik sozialera sozialerako sozialetara sozialetik sozialez sozialik
-95	1695	zoru	zorua zoruak zoruan zoruarekin zoruaren zoruari zoruek zoruko zorura zorurantz zorutik
-96	1696	oinaze	oinazea oinazeagatik oinazeak oinazean oinazearekin oinazearen oinazearentzat oinazeari oinazeaz oinazeek oinazerako oinazeren oinazerik oinazetan oinazetatik oinazetik oinazez
-97	1697	abantaila	abantailak abantailarekin abantailaren abantailari abantailarik abantailaz abantailek
-98	1698	domina	dominak dominaren dominarik dominaz dominek dominez
-99	1699	lepoko	lepokoa lepokoagatik lepokoak lepokoarekin lepokoaren lepokoarengatik lepokoari lepokoaz lepokoengatik lepokoetan lepokorik
-100	1700	fisiko	fisikoa fisikoagoa fisikoak fisikoan fisikoarekin fisikoaren fisikoari fisikoaz fisikoen fisikoez fisikoko fisikora fisikorako fisikorik fisikotzat fisikoz
+1	1601	leialtasun	leialtasuna leialtasunagatik leialtasunak leialtasunarekin leialtasunaren leialtasunari leialtasunaz leialtasunean leialtasunek leialtasunez leialtasunik
+2	1602	diamante	diamantea diamanteak diamantearekin diamanteei diamanteek diamanteekin diamanteen diamanteengatik diamanteentzat diamanteez diamanterik diamantetan diamantez
+3	1603	zerga	zergak zergan zergaren zergarik zergaz zergei zergek zergekin zergen zergengatik zergetako zergetan zergetatik
+4	1604	laborategi	laborategia laborategiak laborategian laborategiarekin laborategiaren laborategiei laborategiekin laborategietako laborategietan laborategiko laborategikoa laborategira laborategirik laborategitik
+5	1605	gertaera	gertaerak gertaeran gertaerarekin gertaeraren gertaerari gertaerarik gertaeratan gertaeratik gertaerei gertaerek gertaeren gertaeretan
+6	1606	indarkeria	indarkeriak indarkeriakoak indarkerian indarkeriara indarkeriarako indarkeriarekin indarkeriaren indarkeriari indarkeriarik indarkeriaz
+7	1607	isiltasun	isiltasuna isiltasunak isiltasunaren isiltasunaz isiltasunean isiltasunera isiltasunetik isiltasunez
+8	1608	alfer	alferez alferra alferragoa alferrak alferrek alferrekin alferreko alferrekoa alferrekoak alferren alferrena alferrentzat alferrok
+9	1609	zirrara	zirrarak zirrararako zirrararen zirrararengatik zirrarari zirrararik zirraraz
+10	1610	kriminal	kriminala kriminalagatik kriminalak kriminalaren kriminalean kriminalei kriminalek kriminalekin kriminaleko kriminalekoa kriminalekoak kriminalen kriminalentzat kriminaletako kriminalik kriminaltzat
+11	1611	bizilagun	bizilaguna bizilagunak bizilagunarekin bizilagunaren bizilagunari bizilagunei bizilagunek bizilagunekin bizilagunen bizilagunengatik bizilagunentzat bizilagunik
+12	1612	gar	garra garrak garraren garrei garrek garrekin garretan garretaraino garretatik garrez garrik kar
+13	1613	biltegi	biltegia biltegiak biltegian biltegiarekin biltegiaren biltegiek biltegien biltegietan biltegietara biltegietatik biltegiko biltegikoak biltegira biltegiren biltegirik biltegitik
+14	1614	saltzaile	saltzailea saltzaileak saltzailearen saltzaileari saltzaileek saltzaileekin saltzaileen saltzaileentzat saltzaileren saltzaileri saltzailerik
+15	1615	karta	kartak kartako kartan kartaren kartari kartarik kartatan kartaz kartek kartekin karten kartetako kartetan
+16	1616	funts	funtsa funtsak funtsaren funtsari funtsean funtsek funtsekin funtsekoa funtsen funtsetan funtsetik funtsez funtsik
+17	1617	biki	bikia bikiak bikiaren bikiari bikiei bikiek bikiekin bikien bikiena bikietan bikietara bikietatik bikiren bikirik
+18	1618	berriketa	berriketak berriketan berriketara berriketarako berriketarekin berriketarik berriketatik berriketen berriketez
+19	1619	zama	zamak zamarako zamarekin zamarik
+20	1620	xehetasun	xehetasuna xehetasunak xehetasunean xehetasunei xehetasunek xehetasunekin xehetasunen xehetasunetan xehetasunez xehetasunik
+21	1621	indiar	indiarra indiarrak indiarrarekin indiarraren indiarrari indiarrei indiarrek indiarren indiarrena indiarrentzat indiarrerako indiarretako indiarretatik indiarrez indiarrik
+22	1622	nekazari	nekazaria nekazariak nekazariei nekazariek nekazariekin nekazarien nekazariengandik nekazarientzat nekazarik nekazariok nekazaririk
+23	1623	borondate	borondatea borondatearekin borondatearen borondateari borondateaz borondateko borondaterik borondatez
+24	1624	ixil	isil ixila ixilik
+25	1625	jokalari	jokalaria jokalariak jokalariaren jokalariei jokalariek jokalariekin jokalarien jokalarientzat jokalariez jokalariok jokalaririk jokalariz
+26	1626	txanpon	txanpona txanponak txanponekin txanponen txanponengatik txanponetan txanponez txanponik
+27	1627	erresuma	erresumak erresumako erresumakoa erresuman erresumara erresumarako erresumaren erresumari erresumarik erresumatik erresumaz erresumei erresumek erresumen erresumetako erresumetan
+28	1628	dastatu	dasta dastatuko dastatuz dastatzea dastatzeak dastatzean dastatzeaz dastatzeko dastatzen dastatzera
+29	1629	laugarren	laugarrena laugarrenak laugarrenarekin laugarrenaren laugarrenean laugarreneko laugarrenekoa laugarrenekoak laugarrenera laugarrenetik laugarrenez
+30	1630	ezpain	ezpaina ezpainak ezpainaren ezpainari ezpainean ezpainei ezpainek ezpainekin ezpaineko ezpainekoa ezpainen ezpainetako ezpainetan ezpainetara ezpainetarako ezpainetatik ezpainez ezpainik
+31	1631	homosexual	homosexuala homosexualak homosexualaren homosexualei homosexualek homosexualekin homosexualekoa homosexualen homosexualena homosexualentzat homosexualetatik homosexualik homosexualok
+32	1632	kontzientzia	kontzientziak kontzientziako kontzientzian kontzientziarekin kontzientziaren kontzientziari kontzientziarik kontzientziatik
+33	1633	arrantza	arrantzan arrantzara arrantzarako arrantzaren arrantzarik arrantzatik arrantzaz
+34	1634	gidoi	gidoia gidoiak gidoian gidoiarekin gidoiarengatik gidoiari gidoien gidoira gidoirako gidoirik gidoitik
+35	1635	jipoitu	jipoi jipoituak jipoituko jipoituta jipoituz jipoitzea jipoitzeko jipoitzen jipoitzera
+36	1636	biluzik	
+37	1637	gauerdi	gauerdia gauerdiak gauerdian gauerdiaren gauerdiko gauerdira gauerdirako gauerditik
+38	1638	lelo	leloa leloago leloagoa leloak leloan leloarekin leloaren leloarentzat leloegia leloen leloentzat leloetako lelook lelora leloren lelorik lelotzat
+39	1639	banpiro	banpiroa banpiroak banpiroaren banpiroari banpiroei banpiroek banpiroekin banpiroen banpiroengana banpiroentzat banpiroetan banpiroez banpirooi banpirook banpirorik banpiroz
+40	1640	txeke	txekea txekeak txekean txekearekin txekearengatik txekeari txekera txekerik txeketik
+41	1641	dibertitu	diberti dibertitua dibertituak dibertituko dibertituta dibertitzea dibertitzeagatik dibertitzeko dibertitzen dibertitzera
+42	1642	erreinu	erreinua erreinuagatik erreinuak erreinuan erreinuaren erreinuarentzat erreinuari erreinuen erreinuentzat erreinuetako erreinuetan erreinuko erreinura erreinutako erreinutik
+43	1643	segituan	
+44	1644	kexatu	kexatuko kexatzea kexatzeak kexatzeari kexatzeko kexatzen kexatzera
+45	1645	elkarte	elkartea elkarteak elkartean elkartearekin elkartearen elkartearentzat elkarteari elkarteei elkarteekin elkarteen elkarteetako elkarteko elkartekoa elkartera elkarterekin elkarteren elkarterentzat elkarterik
+46	1646	piano	pianoa pianoak pianoan pianoarekin pianoaren pianoarentzat pianoari pianoen pianoko pianora pianorako pianorik pianotik
+47	1647	ergelkeria	ergelkeriak ergelkeriarekin ergelkeriaren ergelkeriarik ergelkeriaz ergelkeriei ergelkeriekin ergelkerien ergelkeriengatik ergelkeriez
+48	1648	minbizi	minbizia minbiziak minbizian minbiziarekin minbiziaren minbiziari minbiziaz minbizirik minbizitik minbiziz
+49	1649	txiste	txistea txisteak txistearen txisteek txisteekin txisteen txisteetan txisteez txisterik
+50	1650	senargai	senargaia senargaiak senargaiarekin senargaiaren senargaiarengandik senargaiari senargaiekin senargaien senargairik
+51	1651	oihan	oihana oihanak oihanarekin oihanaren oihanari oihanaz oihanean oihaneko oihanera oihanetan oihanetik
+52	1652	garatu	garatua garatuak garatuko garaturik garatuta garatutako garatuz garatzea garatzeko garatzen
+53	1653	abiadura	abiadurak abiadurako abiaduran abiadurara abiadurarako abiaduraren abiadurarengatik abiadurari abiadurarik abiaduratan abiaduratik abiaduraz abiadurek
+54	1654	moral	morala moralak moralarekin moralaren moralarentzat moralari moralean moralei moraleko moralen moraletik moralik
+55	1655	txuri	txuria txuriagoak txuriak txurian txuriarekin txuriaren txuriaz txuriei txuriek txurien txurietan txuriko txurikoa txuririk txuriz
+56	1656	banda	bandak bandako bandakoa bandakoak bandan bandara bandarekin bandaren bandarentzat bandari bandarik bandatik bandaz banden bandetan
+57	1657	birjina	birjinak birjinan birjinaren birjinari birjinarik birjinekin birjinen
+58	1658	moda	modak modakoak modan modarekin modaren modari modaz
+59	1659	modelo	modeloa modeloak modeloarekin modeloaren modeloei modeloek modeloekin modeloen modeloengatik modeloetan modeloetatik modeloko modelokoa modeloren modelorik
+60	1660	koadro	koadroa koadroak koadroan koadroaren koadroari koadroaz koadroei koadroek koadroekin koadroen koadroetan koadroko koadroren koadrorik koadrotik koadroz
+61	1661	ahala	
+62	1662	kanpaina	kanpainak kanpainako kanpainakoa kanpainakoak kanpainan kanpainarako kanpainarekin kanpainaren kanpainari kanpainarik kanpainatik kanpainaz kanpainek kanpainen kanpainetan
+63	1663	mehatxatu	mehatxatua mehatxatuak mehatxatuko mehatxatuta mehatxatutako mehatxatuz mehatxatzeak mehatxatzeaz mehatxatzeko mehatxatzen mehatxatzera
+64	1664	sute	sutea suteagatik suteak sutean sutearekin sutearen suteari suteaz suteek suteen suteetako suteetan suteko sutera suterako suteren suterik sutetik
+65	1665	marraztu	marraztea marrazteari marrazteko marrazten marraztera marraztua marraztuko marraztuta marraztutako marraztuz
+66	1666	gradu	gradua graduak graduan graduarekin graduetan graduko gradukoa gradukoak gradura graduraino gradurekin gradutako gradutan gradutara gradutik
+67	1667	jausi	jausia jausiko jausita jausitako jausitakoa jaustea jausteko jausten jaustera
+68	1668	milioika	
+69	1669	galant	galanta galantak galantari galantenak
+70	1670	jeloskor	jeloskorra jeloskorrago jeloskorrak jeloskorregia
+71	1671	betaurreko	betaurrekoak betaurrekoei betaurrekoekin betaurrekoen betaurrekoengatik betaurrekoez betaurrekorik
+72	1672	atzealde	atzealdea atzealdeak atzealdean atzealdearen atzealdeari atzealdeaz atzealdeko atzealdekoak atzealdera atzealderen atzealdetik
+73	1673	gotorleku	gotorlekua gotorlekuak gotorlekuan gotorlekuaren gotorlekuari gotorlekuei gotorlekuen gotorlekuko gotorlekura gotorlekuraino gotorlekurantz gotorlekutik
+74	1674	zahartu	zahartua zahartuko zaharturik zahartuta zahartutako zahartzea zahartzeak zahartzean zahartzearekin zahartzearen zahartzeko zahartzen
+75	1675	itzulpen	itzulpena itzulpenak itzulpenari itzulpenean itzulpenei itzulpenekin itzulpenik
+76	1676	hileta	hiletak hiletaren hiletarik hiletaz hileten hiletengatik hiletetako hiletetan hiletetatik
+77	1677	uniforme	uniformea uniformeagatik uniformeak uniformean uniformearekin uniformearen uniformeari uniformeekin uniformeetara uniformeko uniformerik
+78	1678	ziega	ziegak ziegako ziegan ziegara ziegaraino ziegarako ziegatan ziegatik ziegetako ziegetan ziegetara ziegetatik
+79	1679	ispilu	ispilua ispiluak ispiluan ispiluarekin ispiluaren ispiluari ispiluaz ispiluei ispiluek ispiluekin ispiluen ispiluetan ispiluetatik ispilura ispilurik ispiluz
+80	1680	bezalaxe	
+81	1681	hamaika	hamaikak hamaiketan
+82	1682	tarta	tartak tartaren tartari tartarik tartaz tartei tartekin tarten tartengatik
+83	1683	krisi	krisia krisiagatik krisiak krisian krisiarekin krisiaren krisiari krisiaz krisien krisiren krisirik krisitik
+84	1684	hutsegite	hutsegitea hutsegiteak hutsegiteengatik hutsegiteetan hutsegiteetatik hutsegiteren hutsegiterik hutsegitetik
+85	1685	nazi	nazia naziak nazian naziaren naziei naziek naziekin nazien naziena nazienak naziengatik naziko naziok nazirik nazitzat naziz
+86	1686	ahalegindu	ahaleginduko ahaleginduta ahaleginduz ahalegintzea ahalegintzeagatik ahalegintzeko ahalegintzen ahalegintzera
+87	1687	eskas	eskasa eskasagatik eskasagoa eskasagoak eskasak eskasari eskasaz eskasean eskasegia eskasegiak eskasek eskasekoak eskasen eskasena eskasengatik eskasera
+88	1688	azalpen	azalpena azalpenak azalpenarekin azalpenarengatik azalpenean azalpenek azalpenen azalpenengatik azalpenetarako azalpenik
+89	1689	to	
+90	1690	ziri	ziria ziriak ziririk
+91	1691	esperimentu	esperimentua esperimentuak esperimentuan esperimentuarekin esperimentuaren esperimentuek esperimentuen esperimentuetako esperimentuetan esperimentuetara esperimentuetatik esperimentuez esperimentuko esperimentukoa esperimentura esperimenturako esperimenturen esperimenturik
+92	1692	lanbide	lanbidea lanbideak lanbidean lanbidearekin lanbidearen lanbideaz lanbideen lanbideetan lanbideetara lanbideko lanbiderako lanbideren lanbiderik lanbidetik lanbidez
+93	1693	sozial	soziala sozialagoa sozialak sozialarekin sozialaren sozialaz sozialean sozialek sozialekin sozialeko sozialen sozialengandik sozialera sozialerako sozialetara sozialetik sozialez sozialik
+94	1694	zoru	zorua zoruak zoruan zoruarekin zoruaren zoruari zoruek zoruko zorura zorurantz zorutik
+95	1695	oinaze	oinazea oinazeagatik oinazeak oinazean oinazearekin oinazearen oinazearentzat oinazeari oinazeaz oinazeek oinazerako oinazeren oinazerik oinazetan oinazetatik oinazetik oinazez
+96	1696	abantaila	abantailak abantailarekin abantailaren abantailari abantailarik abantailaz abantailek
+97	1697	domina	dominak dominaren dominarik dominaz dominek dominez
+98	1698	lepoko	lepokoa lepokoagatik lepokoak lepokoarekin lepokoaren lepokoarengatik lepokoari lepokoaz lepokoengatik lepokoetan lepokorik
+99	1699	fisiko	fisikoa fisikoagoa fisikoak fisikoan fisikoarekin fisikoaren fisikoari fisikoaz fisikoen fisikoez fisikoko fisikora fisikorako fisikorik fisikotzat fisikoz
+100	1700	iaz	

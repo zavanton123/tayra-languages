@@ -1,100 +1,100 @@
-1	9101	inskripzio	inskripzioa
-2	9102	collie	colliea
-3	9103	hegazkintza	hegazkintzaren
-4	9104	lirio	lirioa
-5	9105	heliportu	heliportua heliportura
-6	9106	zabaltasun	zabaltasuna zabaltasunean
-7	9107	antzutasun	antzutasuna antzutasunari
-8	9108	tentelkeria	tentelkeriak tentelkeriarik
-9	9109	esprintatu	esprintatzen
-10	9110	neurokirurgia	neurokirurgiako neurokirurgian
-11	9111	hegoamerikar	hegoamerikarra
-12	9112	ukaldi	ukaldia
-13	9113	infartu	infartuak
-14	9114	ahalezko	ahalezkoa
-15	9115	glutamato	glutamatoak
-16	9116	pagoda	pagodak
-17	9117	konfirmatu	konfirmatuta
-18	9118	akuarela	akuarelak
-19	9119	anplifikadore	anplifikadorea anplifikadoreko
-20	9120	simulagailu	simulagailuan
-21	9121	jugular	jugularra jugularrean
-22	9122	sadomasokismo	sadomasokismoan
-23	9123	onibar	onibarra
-24	9124	goitu	goitzen
-25	9125	kitzikapen	kitzikapena
-26	9126	azukreztatu	azukreztatua azukreztatuak
-27	9127	ernalketa	ernalketaz
-28	9128	baleazale	baleazaleak
-29	9129	kateorratz	kateorratza
-30	9130	lauza	lauzak lauzan
-31	9131	milioiren	milioirentzat
-32	9132	hipokrisia	hipokrisiaren
-33	9133	sokatiralari	sokatiralaria sokatiralariak
-34	9134	delegatu	delegatzen
-35	9135	krustazeo	krustazeoa
-36	9136	subiranotasun	subiranotasuna
-37	9137	ukelele	ukelelea
-38	9138	preserbatibo	preserbatiboa preserbatiboaz
-39	9139	idazkaritza	idazkaritzan
-40	9140	bikoizketa	bikoizketak
-41	9141	idiliko	idilikoak
-42	9142	ekografia	ekografiak
-43	9143	fandango	fandangoan
-44	9144	terma	termak termetan
-45	9145	jak	jakagatik
-46	9146	mahaigain	mahaigainean mahaigaineko
-47	9147	optika	optikan
-48	9148	tratulari	tratulariak
-49	9149	mandamentu	mandamentuak mandamentuen
-50	9150	adierazkor	adierazkorra adierazkorrak
-51	9151	hilezin	hilezina hilezinak hilezinean
-52	9152	estropada	estropadak estropadan
-53	9153	memorizatu	memorizatuko memorizatzeko
-54	9154	parrandazale	parrandazalea parrandazaleen
-55	9155	errotulu	errotulua errotuluak
-56	9156	mikrotxip	mikrotxipa mikrotxiparen
-57	9157	eskuzorro	eskuzorroa eskuzorroekin
-58	9158	termal	termala termalak
-59	9159	lotune	lotuneak lotuneko
-60	9160	bitrina	bitrinak bitrinan
-61	9161	zanpatzaile	zanpatzailea zanpatzailearen
-62	9162	apaingela	apaingelan apaingelara
-63	9163	zimurtsu	zimurtsua zimurtsuekin
-64	9164	desertzio	desertzioa desertzioagatik desertzioan
-65	9165	ikerlan	ikerlana ikerlanen
-66	9166	autolaguntza	autolaguntzako autolaguntzakoa
-67	9167	txandakatu	txandakatzeko txandakatzera
-68	9168	xehatu	xehatuko xehatzen
-69	9169	metropoli	metropolia metropoliko metropolitan
-70	9170	arrosario	arrosarioak arrosarioekin
-71	9171	estruktura	estrukturari estrukturarik
-72	9172	orbital	orbitaleko orbitalen
-73	9173	inurritu	inurrituta inurritze
-74	9174	umeki	umekia umekiari
-75	9175	azpialde	azpialdean azpialdekoa
-76	9176	endorfina	endorfinak endorfinen
-77	9177	titaniko	titanikoa titanikoetan
-78	9178	azuleju	azulejuei azulejuen
-79	9179	zeluloide	zeluloideak zeluloidearekin
-80	9180	eritegi	eritegia eritegira eritegitik
-81	9181	irabelar	irabelarra irabelarrez
-82	9182	inurritegi	inurritegian inurritegietan
-83	9183	ugazabandre	ugazabandrea ugazabandrearen
-84	9184	mahatsondo	mahatsondoa mahatsondoen
-85	9185	afektibo	afektiboa afektiboaz afektiborik
-86	9186	utopiko	utopikoa utopikoaren utopikotzat
-87	9187	deformazio	deformazioa deformazioek
-88	9188	bizkarralde	bizkarraldeko bizkarraldekoak
-89	9189	sinatzaile	sinatzaileak sinatzaileek
-90	9190	borrokaleku	borrokalekua borrokalekura
-91	9191	hilkortasun	hilkortasuna hilkortasunari hilkortasunaz
-92	9192	intolerantzia	intolerantziaren intolerantziarengatik
-93	9193	fama	famak famarekin famaren
-94	9194	ekaiztsu	ekaiztsuak ekaiztsutik
-95	9195	matrikulatu	matrikulatuko matrikulatuta
-96	9196	kreole	kreolea kreoleak
-97	9197	maka	makek maken maketan
-98	9198	iledun	ileduna iledunagatik iledunak
-99	9199	aniztun	aniztuna aniztunak
-100	9200	gaztetxe	gaztetxean gaztetxeko gaztetxetik
+1	9101	kataplasma	kataplasmak
+2	9102	inskripzio	inskripzioa
+3	9103	collie	colliea
+4	9104	hegazkintza	hegazkintzaren
+5	9105	lirio	lirioa
+6	9106	heliportu	heliportua heliportura
+7	9107	zabaltasun	zabaltasuna zabaltasunean
+8	9108	antzutasun	antzutasuna antzutasunari
+9	9109	tentelkeria	tentelkeriak tentelkeriarik
+10	9110	esprintatu	esprintatzen
+11	9111	neurokirurgia	neurokirurgiako neurokirurgian
+12	9112	hegoamerikar	hegoamerikarra
+13	9113	ukaldi	ukaldia
+14	9114	infartu	infartuak
+15	9115	ahalezko	ahalezkoa
+16	9116	glutamato	glutamatoak
+17	9117	pagoda	pagodak
+18	9118	konfirmatu	konfirmatuta
+19	9119	akuarela	akuarelak
+20	9120	anplifikadore	anplifikadorea anplifikadoreko
+21	9121	simulagailu	simulagailuan
+22	9122	jugular	jugularra jugularrean
+23	9123	sadomasokismo	sadomasokismoan
+24	9124	onibar	onibarra
+25	9125	goitu	goitzen
+26	9126	kitzikapen	kitzikapena
+27	9127	azukreztatu	azukreztatua azukreztatuak
+28	9128	ernalketa	ernalketaz
+29	9129	baleazale	baleazaleak
+30	9130	kateorratz	kateorratza
+31	9131	lauza	lauzak lauzan
+32	9132	milioiren	milioirentzat
+33	9133	hipokrisia	hipokrisiaren
+34	9134	sokatiralari	sokatiralaria sokatiralariak
+35	9135	delegatu	delegatzen
+36	9136	krustazeo	krustazeoa
+37	9137	subiranotasun	subiranotasuna
+38	9138	ukelele	ukelelea
+39	9139	preserbatibo	preserbatiboa preserbatiboaz
+40	9140	idazkaritza	idazkaritzan
+41	9141	bikoizketa	bikoizketak
+42	9142	idiliko	idilikoak
+43	9143	ekografia	ekografiak
+44	9144	fandango	fandangoan
+45	9145	terma	termak termetan
+46	9146	jak	jakagatik
+47	9147	mahaigain	mahaigainean mahaigaineko
+48	9148	optika	optikan
+49	9149	tratulari	tratulariak
+50	9150	mandamentu	mandamentuak mandamentuen
+51	9151	adierazkor	adierazkorra adierazkorrak
+52	9152	hilezin	hilezina hilezinak hilezinean
+53	9153	estropada	estropadak estropadan
+54	9154	memorizatu	memorizatuko memorizatzeko
+55	9155	parrandazale	parrandazalea parrandazaleen
+56	9156	errotulu	errotulua errotuluak
+57	9157	mikrotxip	mikrotxipa mikrotxiparen
+58	9158	eskuzorro	eskuzorroa eskuzorroekin
+59	9159	termal	termala termalak
+60	9160	lotune	lotuneak lotuneko
+61	9161	bitrina	bitrinak bitrinan
+62	9162	zanpatzaile	zanpatzailea zanpatzailearen
+63	9163	apaingela	apaingelan apaingelara
+64	9164	zimurtsu	zimurtsua zimurtsuekin
+65	9165	desertzio	desertzioa desertzioagatik desertzioan
+66	9166	ikerlan	ikerlana ikerlanen
+67	9167	autolaguntza	autolaguntzako autolaguntzakoa
+68	9168	txandakatu	txandakatzeko txandakatzera
+69	9169	xehatu	xehatuko xehatzen
+70	9170	metropoli	metropolia metropoliko metropolitan
+71	9171	arrosario	arrosarioak arrosarioekin
+72	9172	estruktura	estrukturari estrukturarik
+73	9173	orbital	orbitaleko orbitalen
+74	9174	inurritu	inurrituta inurritze
+75	9175	umeki	umekia umekiari
+76	9176	azpialde	azpialdean azpialdekoa
+77	9177	endorfina	endorfinak endorfinen
+78	9178	titaniko	titanikoa titanikoetan
+79	9179	azuleju	azulejuei azulejuen
+80	9180	zeluloide	zeluloideak zeluloidearekin
+81	9181	eritegi	eritegia eritegira eritegitik
+82	9182	irabelar	irabelarra irabelarrez
+83	9183	inurritegi	inurritegian inurritegietan
+84	9184	ugazabandre	ugazabandrea ugazabandrearen
+85	9185	mahatsondo	mahatsondoa mahatsondoen
+86	9186	afektibo	afektiboa afektiboaz afektiborik
+87	9187	utopiko	utopikoa utopikoaren utopikotzat
+88	9188	deformazio	deformazioa deformazioek
+89	9189	bizkarralde	bizkarraldeko bizkarraldekoak
+90	9190	sinatzaile	sinatzaileak sinatzaileek
+91	9191	borrokaleku	borrokalekua borrokalekura
+92	9192	hilkortasun	hilkortasuna hilkortasunari hilkortasunaz
+93	9193	intolerantzia	intolerantziaren intolerantziarengatik
+94	9194	fama	famak famarekin famaren
+95	9195	ekaiztsu	ekaiztsuak ekaiztsutik
+96	9196	matrikulatu	matrikulatuko matrikulatuta
+97	9197	kreole	kreolea kreoleak
+98	9198	maka	makek maken maketan
+99	9199	iledun	ileduna iledunagatik iledunak
+100	9200	aniztun	aniztuna aniztunak

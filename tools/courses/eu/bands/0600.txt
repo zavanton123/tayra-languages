@@ -70,31 +70,31 @@
 70	570	aztertu	azter aztertua aztertuko aztertuta aztertutako aztertuz aztertzea aztertzeak aztertzean aztertzeko aztertzen aztertzera
 71	571	negar	negarra negarrak negarraren negarrari negarrean negarrek negarrekin negarrengatik negarrerako negarretan negarrik
 72	572	txanda	txandak txandako txandakoa txandakoak txandan txandara txandaren txandari txandarik txandatan txandatik txanden txandetan
-73	573	ipurdi	ipurdia ipurdiagatik ipurdiak ipurdian ipurdiarekin ipurdiaren ipurdiari ipurdiaz ipurdietan ipurdietara ipurdiko ipurdikoa ipurdikoak ipurdira ipurdiren ipurdirik ipurditik ipurdiz
-74	574	bart	
-75	575	arratsalde	arratsaldea arratsaldeak arratsaldean arratsaldearen arratsaldeaz arratsaldeetan arratsaldeko arratsaldekoa arratsaldekoak arratsaldeon arratsaldera arratsalderako arratsaldetan arratsaldez
-76	576	mahai	mahaia mahaiak mahaian mahaiarekin mahaiaren mahaiari mahaiekin mahaietako mahaietan mahaietara mahaietatik mahaiko mahaikoak mahaira mahairaino mahairako mahairen mahairik mahaitan mahaitik
-77	577	batu	batua batuago batuak batuan batuaren batuei batuek batuekin batuen batuena batuenak batuentzat batuetako batuetan batuetara batuetatik batuko batukoak baturen baturik batutan batuz batze batzea batzeagatik batzean batzeaz batzeko batzen batzera
-78	578	hegazkin	hegazkina hegazkinak hegazkinarekin hegazkinaren hegazkinarentzat hegazkinari hegazkinaz hegazkinean hegazkinei hegazkinek hegazkinekin hegazkineko hegazkinen hegazkinentzat hegazkinera hegazkinerako hegazkinetako hegazkinetan hegazkinetatik hegazkinetik hegazkinez hegazkinik hegazkinok
-79	579	usain	usaina usainagatik usainak usainarekin usainaren usainari usainaz usainean usainei usainek usainekin usainekoa usainen usainetako usainez usainik
-80	580	urrun	urruna urrunagatik urrunago urrunak urrunaren urrunean urrunegi urrunegia urrunekoa urrunekoak urrunen urrunena urrunera urruneraino urrunetan urrunetara
-81	581	ezker	ezkerra ezkerrak ezkerrarekin ezkerraren ezkerrarentzat ezkerraz ezkerrean ezkerregira ezkerreko ezkerrekoa ezkerrekoak ezkerrera ezkerrerako ezkerrerantz ezkerretan ezkerretara ezkerretik ezkerrik
-82	582	kamera	kamerak kamerako kameran kamerara kamerarako kamerarekin kameraren kamerarentzat kamerarik kameratik kameraz kamerei kamerek kamerekin kameren kamerentzat kameretan kameretara kamerez
-83	583	larri	larria larriagatik larriago larriagoa larriagoak larriak larrian larriaren larriegi larriegia larriegiak larriekin larrien larriena larriengatik larrietan larriko larriren larriri larririk larritan larriz
-84	584	langile	langilea langileak langilearekin langilearen langileari langileei langileek langileekin langileen langileena langileengandik langileengatik langileentzat langileetako langileetatik langileez langilek langileko langileok langileokin langilerekin langileren langilerik langiletan langilez
-85	585	putakume	putakumea putakumeak putakumeari putakumeek putakumeekin putakumeetako putakumeok putakumeri putakumerik
-86	586	hamar	hamarra hamarrak hamarrean hamarrek hamarrekoa hamarrera hamarreraino hamarretik hamarrez hamarrik
-87	587	zehar	zeharreko
-88	588	buruzko	buruzkoa buruzkoak buruzkoan buruzkoez buruzkorik
-89	589	telebista	telebistak telebistako telebistakoa telebistakoak telebistan telebistara telebistaraino telebistarako telebistarekin telebistaren telebistari telebistarik telebistatik telebistaz telebistekin telebisten telebistetako telebistetan telebistetara telebistetarako
-90	590	tratu	tratua tratuagatik tratuak tratuan tratuarekin tratuaren tratuari tratuaz tratuetan tratuez tratura traturako traturen traturik tratutan tratutik
-91	591	itzali	itzal itzalia itzaliko itzalita itzaliz itzaltzea itzaltzeak itzaltzean itzaltzeko itzaltzen itzaltzera itzaltzerik
-92	592	mota	motak motako motakoa motakoak motan motara motarekin motaren motari motarik motatako motatan motaz motek motekin
-93	593	kontrolatu	kontrola kontrolatua kontrolatuak kontrolatuko kontrolaturik kontrolatuta kontrolatutako kontrolatuz kontrolatzea kontrolatzearen kontrolatzeaz kontrolatzeko kontrolatzen kontrolatzera kontrolatzerik
-94	594	egunero	
-95	595	ahots	ahotsa ahotsak ahotsarekin ahotsaren ahotsari ahotsaz ahotsean ahotsei ahotsek ahotsekin ahotsen ahotsera ahotserako ahotsetako ahotsetan ahotsetarako ahotsez ahotsik
-96	596	gaixo	gaixoa gaixoagatik gaixoago gaixoak gaixoarekin gaixoaren gaixoarengan gaixoarentzat gaixoari gaixoaz gaixoegi gaixoei gaixoek gaixoekin gaixoen gaixoenak gaixoengana gaixoentzat gaixoez gaixoren gaixorengandik gaixotzat gaixoz
-97	597	aire	airea aireagatik aireak airean airearekin airearen aireari aireko airekoa airekoak airera airerako airerik airetan airetatik airetik airez
-98	598	botere	boterea botereagatik botereak boterean boterearekin boterearen boterearengatik boterearentzat botereari botereaz botereei botereek botereen botereko boterera botererako botererik boteretik boterez
-99	599	ordea	
-100	600	arau	araua arauak arauan arauaren arauei arauek arauekin arauen arauetako arauetan arauetatik arauez arauok araura arauren araurik arauz
+73	573	nekatu	neka nekatua nekatuak nekatuko nekaturik nekatuta nekatutako nekatzea nekatzeko nekatzen
+74	574	ipurdi	ipurdia ipurdiagatik ipurdiak ipurdian ipurdiarekin ipurdiaren ipurdiari ipurdiaz ipurdietan ipurdietara ipurdiko ipurdikoa ipurdikoak ipurdira ipurdiren ipurdirik ipurditik ipurdiz
+75	575	bart	
+76	576	arratsalde	arratsaldea arratsaldeak arratsaldean arratsaldearen arratsaldeaz arratsaldeetan arratsaldeko arratsaldekoa arratsaldekoak arratsaldeon arratsaldera arratsalderako arratsaldetan arratsaldez
+77	577	mahai	mahaia mahaiak mahaian mahaiarekin mahaiaren mahaiari mahaiekin mahaietako mahaietan mahaietara mahaietatik mahaiko mahaikoak mahaira mahairaino mahairako mahairen mahairik mahaitan mahaitik
+78	578	batu	batua batuago batuak batuan batuaren batuei batuek batuekin batuen batuena batuenak batuentzat batuetako batuetan batuetara batuetatik batuko batukoak baturen baturik batutan batuz batze batzea batzeagatik batzean batzeaz batzeko batzen batzera
+79	579	hegazkin	hegazkina hegazkinak hegazkinarekin hegazkinaren hegazkinarentzat hegazkinari hegazkinaz hegazkinean hegazkinei hegazkinek hegazkinekin hegazkineko hegazkinen hegazkinentzat hegazkinera hegazkinerako hegazkinetako hegazkinetan hegazkinetatik hegazkinetik hegazkinez hegazkinik hegazkinok
+80	580	usain	usaina usainagatik usainak usainarekin usainaren usainari usainaz usainean usainei usainek usainekin usainekoa usainen usainetako usainez usainik
+81	581	urrun	urruna urrunagatik urrunago urrunak urrunaren urrunean urrunegi urrunegia urrunekoa urrunekoak urrunen urrunena urrunera urruneraino urrunetan urrunetara
+82	582	ezker	ezkerra ezkerrak ezkerrarekin ezkerraren ezkerrarentzat ezkerraz ezkerrean ezkerregira ezkerreko ezkerrekoa ezkerrekoak ezkerrera ezkerrerako ezkerrerantz ezkerretan ezkerretara ezkerretik ezkerrik
+83	583	kamera	kamerak kamerako kameran kamerara kamerarako kamerarekin kameraren kamerarentzat kamerarik kameratik kameraz kamerei kamerek kamerekin kameren kamerentzat kameretan kameretara kamerez
+84	584	larri	larria larriagatik larriago larriagoa larriagoak larriak larrian larriaren larriegi larriegia larriegiak larriekin larrien larriena larriengatik larrietan larriko larriren larriri larririk larritan larriz
+85	585	langile	langilea langileak langilearekin langilearen langileari langileei langileek langileekin langileen langileena langileengandik langileengatik langileentzat langileetako langileetatik langileez langilek langileko langileok langileokin langilerekin langileren langilerik langiletan langilez
+86	586	putakume	putakumea putakumeak putakumeari putakumeek putakumeekin putakumeetako putakumeok putakumeri putakumerik
+87	587	hamar	hamarra hamarrak hamarrean hamarrek hamarrekoa hamarrera hamarreraino hamarretik hamarrez hamarrik
+88	588	zehar	zeharreko
+89	589	buruzko	buruzkoa buruzkoak buruzkoan buruzkoez buruzkorik
+90	590	telebista	telebistak telebistako telebistakoa telebistakoak telebistan telebistara telebistaraino telebistarako telebistarekin telebistaren telebistari telebistarik telebistatik telebistaz telebistekin telebisten telebistetako telebistetan telebistetara telebistetarako
+91	591	tratu	tratua tratuagatik tratuak tratuan tratuarekin tratuaren tratuari tratuaz tratuetan tratuez tratura traturako traturen traturik tratutan tratutik
+92	592	itzali	itzal itzalia itzaliko itzalita itzaliz itzaltzea itzaltzeak itzaltzean itzaltzeko itzaltzen itzaltzera itzaltzerik
+93	593	mota	motak motako motakoa motakoak motan motara motarekin motaren motari motarik motatako motatan motaz motek motekin
+94	594	kontrolatu	kontrola kontrolatua kontrolatuak kontrolatuko kontrolaturik kontrolatuta kontrolatutako kontrolatuz kontrolatzea kontrolatzearen kontrolatzeaz kontrolatzeko kontrolatzen kontrolatzera kontrolatzerik
+95	595	egunero	
+96	596	ahots	ahotsa ahotsak ahotsarekin ahotsaren ahotsari ahotsaz ahotsean ahotsei ahotsek ahotsekin ahotsen ahotsera ahotserako ahotsetako ahotsetan ahotsetarako ahotsez ahotsik
+97	597	gaixo	gaixoa gaixoagatik gaixoago gaixoak gaixoarekin gaixoaren gaixoarengan gaixoarentzat gaixoari gaixoaz gaixoegi gaixoei gaixoek gaixoekin gaixoen gaixoenak gaixoengana gaixoentzat gaixoez gaixoren gaixorengandik gaixotzat gaixoz
+98	598	aire	airea aireagatik aireak airean airearekin airearen aireari aireko airekoa airekoak airera airerako airerik airetan airetatik airetik airez
+99	599	botere	boterea botereagatik botereak boterean boterearekin boterearen boterearengatik boterearentzat botereari botereaz botereei botereek botereen botereko boterera botererako botererik boteretik boterez
+100	600	ordea	

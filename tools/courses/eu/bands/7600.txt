@@ -1,100 +1,100 @@
-1	7501	zitadela	zitadelako zitadelara zitadelatik zitadeletako
-2	7502	kolonizatu	kolonizatuko kolonizatzea kolonizatzeko kolonizatzen
-3	7503	jausgailu	jausgailua jausgailuak jausgailuan jausgailuz
-4	7504	tenor	tenorean tenorra tenorrak
-5	7505	puntualtasun	puntualtasuna puntualtasunak puntualtasunarekin puntualtasunez
-6	7506	aratuste	aratustea aratusteak aratusteetako aratusteetara
-7	7507	ohazal	ohazalak ohazalaren ohazalean ohazalekin
-8	7508	psike	psikea psikean psikearen psikeari
-9	7509	merezimendu	merezimendua merezimenduaren merezimenduaz merezimendurik
-10	7510	popular	popularra popularrak popularrean popularrena popularrenak
-11	7511	gertarazi	gertaraziko gertaraziz gertarazten
-12	7512	bermuda	bermudak bermudako bermudetan bermudetara
-13	7513	mazapan	mazapana mazapanak mazapanik
-14	7514	eter	eterra eterrak eterrean eterrik
-15	7515	palko	palkoa palkoak palkoan palkora
-16	7516	eratorri	erator eratorria eratorritako eratortzen
-17	7517	zentsuratu	zentsuratuko zentsuratzeko zentsuratzen
-18	7518	laburbide	laburbidea laburbideren laburbiderik
-19	7519	tranpolin	tranpolina tranpolinerako tranpolinetik
-20	7520	ostertz	ostertza ostertzaren ostertzera ostertzetik
-21	7521	alternatibo	alternatiboa alternatiboak alternatiboaren
-22	7522	audifono	audifonoa audifonoak audifonorik
-23	7523	etsaitu	etsaituta etsaitutako etsaituz etsaitzen
-24	7524	errepresio	errepresioa errepresioaren errepresioari
-25	7525	murtxikatu	murtxika murtxikatua murtxikatzea murtxikatzen
-26	7526	zuzentzaile	zuzentzailea zuzentzaileek zuzentzaileen zuzentzailerik
-27	7527	alkatxofa	alkatxofak alkatxofaren alkatxofek
-28	7528	beharrizan	beharrizana beharrizanaren beharrizanei beharrizaneko
-29	7529	paranormal	paranormalak paranormalari paranormalen paranormalez
-30	7530	bariazio	bariazioa bariazioak bariazioekin bariaziorik
-31	7531	biriki	birikiak birikian birikietako birikietan
-32	7532	libido	libidoa libidoak libidoaz
-33	7533	estradizio	estradizioa estradizioak estradizioen estradizioko
-34	7534	kargugabetu	kargugabetua kargugabetuko kargugabetzea kargugabetzen
-35	7535	sahats	sahatsa sahatsaren sahatsen
-36	7536	punpa	punpak punpatik punpekin
-37	7537	newyorktar	newyorktarra newyorktarrei newyorktarrek newyorktarrena
-38	7538	holding	holdinga holdingak holdingeko holdingen
-39	7539	egurtegi	egurtegia egurtegian egurtegira
-40	7540	trailer	trailerrak trailerren trailerrera trailerretako
-41	7541	itsasarte	itsasartea itsasartean itsasarteaz itsasarteko itsasartera itsasartetik
-42	7542	espetxealdi	espetxealdia espetxealdiak espetxealdian espetxealdiaz espetxealdira
-43	7543	titan	titana titanak titanekin titanen titanetako
-44	7544	fideikomiso	fideikomisoa fideikomisoan fideikomisoaren fideikomisoen fideikomisotik
-45	7545	mitin	mitina mitinak mitinaren mitinera mitinerako
-46	7546	desmuntatu	desmuntatzeko
-47	7547	kapo	kapoak kapoari kapotan
-48	7548	horixe	haiendako haietaz haiez haregatik harendako harez hargatik hoixe
-49	7549	boikotatu	boikota
-50	7550	okre	okrea okreak okrez
-51	7551	paleta	paletarekin paletaren paletatik
-52	7552	mala	malak malan malen maletako maletan maletara maletatik
-53	7553	tregoa	
-54	7554	elipsi	elipsiak
-55	7555	normalki	
-56	7556	hosanna	
-57	7557	zimiko	
-58	7558	aktiboki	
-59	7559	ixi	
-60	7560	kenketa	
-61	7561	berekoikeria	
-62	7562	nahieran	
-63	7563	zurgintza	
-64	7564	erretina	
-65	7565	gaurdaino	
-66	7566	iridio	iridioa
-67	7567	udaro	
-68	7568	plasma	
-69	7569	nabo	
-70	7570	zuhurki	
-71	7571	lauzpabost	
-72	7572	apurka	
-73	7573	troskista	
-74	7574	turbina	
-75	7575	sistematikoki	
-76	7576	laburdura	
-77	7577	parada	
-78	7578	albaitaritza	
-79	7579	platerkada	
-80	7580	autonomia	
-81	7581	ferratu	ferratzera
-82	7582	monarka	
-83	7583	elkarketa	
-84	7584	beran	
-85	7585	anemia	
-86	7586	lika	likek
-87	7587	makineria	
-88	7588	erizaintza	
-89	7589	konpultsibo	konpultsiboa
-90	7590	karnata	
-91	7591	absenta	
-92	7592	higikari	higikaria
-93	7593	eskulangile	
-94	7594	zorrozki	
-95	7595	berunezko	
-96	7596	merkurioa	
-97	7597	aiurri	
-98	7598	minutuero	
-99	7599	desodorante	desodorantea
-100	7600	melodrama	
+1	7501	transmisore	transmisorea transmisoreak transmisorearekin
+2	7502	zitadela	zitadelako zitadelara zitadelatik zitadeletako
+3	7503	kolonizatu	kolonizatuko kolonizatzea kolonizatzeko kolonizatzen
+4	7504	jausgailu	jausgailua jausgailuak jausgailuan jausgailuz
+5	7505	tenor	tenorean tenorra tenorrak
+6	7506	puntualtasun	puntualtasuna puntualtasunak puntualtasunarekin puntualtasunez
+7	7507	aratuste	aratustea aratusteak aratusteetako aratusteetara
+8	7508	ohazal	ohazalak ohazalaren ohazalean ohazalekin
+9	7509	psike	psikea psikean psikearen psikeari
+10	7510	merezimendu	merezimendua merezimenduaren merezimenduaz merezimendurik
+11	7511	popular	popularra popularrak popularrean popularrena popularrenak
+12	7512	gertarazi	gertaraziko gertaraziz gertarazten
+13	7513	bermuda	bermudak bermudako bermudetan bermudetara
+14	7514	mazapan	mazapana mazapanak mazapanik
+15	7515	eter	eterra eterrak eterrean eterrik
+16	7516	palko	palkoa palkoak palkoan palkora
+17	7517	eratorri	erator eratorria eratorritako eratortzen
+18	7518	zentsuratu	zentsuratuko zentsuratzeko zentsuratzen
+19	7519	laburbide	laburbidea laburbideren laburbiderik
+20	7520	tranpolin	tranpolina tranpolinerako tranpolinetik
+21	7521	ostertz	ostertza ostertzaren ostertzera ostertzetik
+22	7522	alternatibo	alternatiboa alternatiboak alternatiboaren
+23	7523	audifono	audifonoa audifonoak audifonorik
+24	7524	etsaitu	etsaituta etsaitutako etsaituz etsaitzen
+25	7525	errepresio	errepresioa errepresioaren errepresioari
+26	7526	murtxikatu	murtxika murtxikatua murtxikatzea murtxikatzen
+27	7527	zuzentzaile	zuzentzailea zuzentzaileek zuzentzaileen zuzentzailerik
+28	7528	alkatxofa	alkatxofak alkatxofaren alkatxofek
+29	7529	beharrizan	beharrizana beharrizanaren beharrizanei beharrizaneko
+30	7530	paranormal	paranormalak paranormalari paranormalen paranormalez
+31	7531	bariazio	bariazioa bariazioak bariazioekin bariaziorik
+32	7532	biriki	birikiak birikian birikietako birikietan
+33	7533	libido	libidoa libidoak libidoaz
+34	7534	estradizio	estradizioa estradizioak estradizioen estradizioko
+35	7535	kargugabetu	kargugabetua kargugabetuko kargugabetzea kargugabetzen
+36	7536	sahats	sahatsa sahatsaren sahatsen
+37	7537	punpa	punpak punpatik punpekin
+38	7538	newyorktar	newyorktarra newyorktarrei newyorktarrek newyorktarrena
+39	7539	holding	holdinga holdingak holdingeko holdingen
+40	7540	egurtegi	egurtegia egurtegian egurtegira
+41	7541	trailer	trailerrak trailerren trailerrera trailerretako
+42	7542	itsasarte	itsasartea itsasartean itsasarteaz itsasarteko itsasartera itsasartetik
+43	7543	espetxealdi	espetxealdia espetxealdiak espetxealdian espetxealdiaz espetxealdira
+44	7544	titan	titana titanak titanekin titanen titanetako
+45	7545	fideikomiso	fideikomisoa fideikomisoan fideikomisoaren fideikomisoen fideikomisotik
+46	7546	mitin	mitina mitinak mitinaren mitinera mitinerako
+47	7547	desmuntatu	desmuntatzeko
+48	7548	kapo	kapoak kapoari kapotan
+49	7549	horixe	haiendako haietaz haiez haregatik harendako harez hargatik hoixe
+50	7550	boikotatu	boikota
+51	7551	okre	okrea okreak okrez
+52	7552	paleta	paletarekin paletaren paletatik
+53	7553	mala	malak malan malen maletako maletan maletara maletatik
+54	7554	tregoa	
+55	7555	elipsi	elipsiak
+56	7556	normalki	
+57	7557	hosanna	
+58	7558	zimiko	
+59	7559	aktiboki	
+60	7560	ixi	
+61	7561	kenketa	
+62	7562	berekoikeria	
+63	7563	nahieran	
+64	7564	zurgintza	
+65	7565	erretina	
+66	7566	gaurdaino	
+67	7567	iridio	iridioa
+68	7568	udaro	
+69	7569	plasma	
+70	7570	nabo	
+71	7571	zuhurki	
+72	7572	lauzpabost	
+73	7573	apurka	
+74	7574	troskista	
+75	7575	turbina	
+76	7576	sistematikoki	
+77	7577	laburdura	
+78	7578	parada	
+79	7579	albaitaritza	
+80	7580	platerkada	
+81	7581	autonomia	
+82	7582	ferratu	ferratzera
+83	7583	monarka	
+84	7584	elkarketa	
+85	7585	beran	
+86	7586	anemia	
+87	7587	lika	likek
+88	7588	makineria	
+89	7589	erizaintza	
+90	7590	konpultsibo	konpultsiboa
+91	7591	karnata	
+92	7592	absenta	
+93	7593	higikari	higikaria
+94	7594	eskulangile	
+95	7595	zorrozki	
+96	7596	berunezko	
+97	7597	merkurioa	
+98	7598	aiurri	
+99	7599	minutuero	
+100	7600	desodorante	desodorantea

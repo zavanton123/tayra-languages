@@ -1,100 +1,100 @@
-1	4901	zunda	zundak zundaren zunden
-2	4902	nekazaritza	nekazaritzako nekazaritzan nekazaritzarako
-3	4903	lizentziatu	lizentziatua lizentziatuak lizentziatuta
-4	4904	hormigoi	hormigoia hormigoiagatik hormigoiarekin hormigoiaren hormigoiaz
-5	4905	itogarri	itogarria itogarriaren itogarrira
-6	4906	goibeldu	goibelduko goibeldurik goibelduz goibeltzea goibeltzeko goibeltzen
-7	4907	ultzera	ultzerak ultzeraren ultzerarik
-8	4908	tontokeria	tontokeriak tontokeriarik
-9	4909	laido	laidoa laidoak laidotzat
-10	4910	erasan	erasanda erasango erasateko erasaten
-11	4911	isilune	isilunea isiluneak isilunetan
-12	4912	eskeleto	eskeletoa eskeletoak eskeletoaren eskeletoekin
-13	4913	motozerra	motozerrak motozerrako motozerrarekin motozerraz motozerren
-14	4914	aldiri	aldiriak aldirietako aldirietan aldirietara aldiriko
-15	4915	hiruhileko	hiruhilekoa hiruhilekoan hiruhilekorako
-16	4916	bokazio	bokazioa bokazioak bokazioaren bokaziorik bokazioz
-17	4917	esmeralda	esmeraldak esmeralden
-18	4918	elegante	elegantea eleganteago eleganteegiak eleganteen
-19	4919	nu	nuek nuez nuri
-20	4920	ehortzi	ehortzia ehortziko ehortzita ehorzten
-21	4921	espekulazio	espekulazioa espekulazioak espekulazioaren espekulazioen
-22	4922	latino	latinoa latinoak latinoarengatik latinoez latinoren
-23	4923	eraikitzaile	eraikitzailea eraikitzaileak eraikitzailearekin eraikitzaileekin
-24	4924	konkistatzaile	konkistatzailea konkistatzaileak konkistatzaileei konkistatzailetzat
-25	4925	patruilatu	patruilatuko patruilatzea patruilatzeko patruilatzen patruilatzera
-26	4926	postari	postariak postarik postariok
-27	4927	erretilu	erretilua erretiluak erretiluko
-28	4928	aitzin	aitzina aitzinean aitzineko
-29	4929	larrugorri	larrugorriak larrugorrian larrugorriek larrugorritan
-30	4930	tableta	tabletak tabletako tabletaren tabletaz tabletetan
-31	4931	erradioaktibo	erradioaktiboa erradioaktiboagatik erradioaktiboagoa erradioaktiboak erradioaktiboaren erradioaktibora erradioaktiborantz erradioaktiboz
-32	4932	diskoetxe	diskoetxeak diskoetxean diskoetxearen diskoetxeko diskoetxera diskoetxerako diskoetxetan
-33	4933	omenaldi	omenaldia omenaldian omenaldiarekin omenaldiko omenaldira omenaldiren
-34	4934	labirinto	labirintoa labirintoak labirintoan labirintoari labirintoetan labirintora
-35	4935	iragazki	iragazkia iragazkiarekin iragazkiaren iragazkiaz iragazkira iragazkirantz
-36	4936	diskretu	diskretua diskretuagoa diskretuagoak diskretuak diskretuegia
-37	4937	eltxo	eltxoak eltxoek eltxoekin eltxoen eltxorik
-38	4938	piknik	piknika piknikak piknikean piknikekoa piknikera piknikerako
-39	4939	amuarrain	amuarraina amuarrainak amuarrainaren amuarrainek amuarrainez amuarrainik
-40	4940	programatzaile	programatzailea programatzaileak programatzaileei programatzaileen programatzailerik
-41	4941	pintore	pintorea pintoreak pintorearen pintoreek pintoreentzat pintorerik
-42	4942	apaltasun	apaltasuna apaltasunak apaltasunean apaltasunez apaltasunik
-43	4943	frankotiratzaile	frankotiratzailea frankotiratzaileak frankotiratzaileek frankotiratzaileen frankotiratzailerik
-44	4944	intentzio	intentzioa intentzioak intentzioarekin intentziorik
-45	4945	akta	aktak aktan aktarekin aktaren aktarik aktatik
-46	4946	jurisdikzio	jurisdikzioa jurisdikzioaren jurisdikziorik jurisdikziotik
-47	4947	sushi	sushia sushiak sushiarekin sushirako sushirik
-48	4948	kuantiko	kuantikoa kuantikoak kuantikoan kuantikoarekin kuantikoaren kuantikoko
-49	4949	bufalo	bufaloa bufaloak bufaloen bufalorik
-50	4950	goroldio	goroldioa goroldioan goroldioarekin goroldioari goroldiorik goroldioz
-51	4951	arbel	arbela arbelak arbelarekin arbelean arbeleko arbelera arbeletan
-52	4952	fiordo	fiordoa fiordoak fiordoan fiordoaren fiordoetako fiordoetan fiordora fiordotik
-53	4953	hipopotamo	hipopotamoa hipopotamoak hipopotamoarekin hipopotamoaren hipopotamorik
-54	4954	hautesle	hautesleak hautesleei hautesleek hautesleekin hautesleok hautesleren
-55	4955	osagile	osagilea osagileak osagileari osagileekin osagileen osagileren
-56	4956	haurtzain	haurtzaina haurtzainak haurtzainarekin haurtzainaren haurtzainari haurtzainei
-57	4957	eskorpioi	eskorpioia eskorpioiak eskorpioiaren eskorpioiari eskorpioien
-58	4958	koordinatu	koordinatua koordinatuak koordinatuko koordinatuta koordinatuz koordinatzea koordinatzeaz koordinatzeko koordinatzen
-59	4959	zaborrontzi	zaborrontziak zaborrontzian zaborrontziei zaborrontziek zaborrontziekin zaborrontzien zaborrontziko zaborrontzira zaborrontzitan zaborrontzitik
-60	4960	errebelatu	errebela errebelatua errebelatzea errebelatzeak errebelatzeko errebelatzen errebelatzera
-61	4961	heste	hestea hesteak hesteen hesteetako hesteetan
-62	4962	ubeldura	ubeldurak ubeldurarekin ubelduraz ubeldurekin
-63	4963	masaileko	masailekoa masailekoaren
-64	4964	enplegu	enpleguak enpleguaren
-65	4965	urruntze	urruntzea urruntzeagatik urruntzean urruntzeko urruntzerako
-66	4966	ausaz	
-67	4967	manu	
-68	4968	adeitasunez	
-69	4969	esaka	
-70	4970	longo	longorekin longori
-71	4971	soja	sojarekin
-72	4972	txistukatu	txistuka txistukatuko txistukatzen
-73	4973	formatu	formatua formatuan
-74	4974	barregura	barregurarik
-75	4975	galdegin	galdegindako galdegiten
-76	4976	puxika	puxikak
-77	4977	ganora	ganorarik ganoraz
-78	4978	jokaera	jokaerak jokaerari
-79	4979	kuadrilla	kuadrillako kuadrillarekin kuadrillen
-80	4980	kortesia	kortesiak kortesiaz
-81	4981	botazio	botazioa botazioaren botazioetan
-82	4982	eragiketa	eragiketak eragiketan eragiketarako eragiketaren
-83	4983	pintz	pintza pintzak pintzekin
-84	4984	bihozkada	bihozkadak bihozkadek bihozkaden bihozkadetan
-85	4985	basakeria	basakeriak basakeriaren basakeriari basakeriarik
-86	4986	biolento	biolentoa biolentoak
-87	4987	histeria	histeriak histeriaren histeriaz
-88	4988	errusiera	errusieraz
-89	4989	beto	betoa betoak betoarekin
-90	4990	diafragma	diafragmak diafragmaren diafragmatik
-91	4991	motibazio	motibazioa motibazioen
-92	4992	kilate	kilatea kilateko
-93	4993	bulkada	bulkadak bulkadari bulkadarik bulkaden
-94	4994	perfekzio	perfekzioa perfekziora perfekziorantz
-95	4995	intsignia	intsigniak intsigniarik intsigniek intsignietako
-96	4996	abilezia	abileziak abilezian abileziaren abileziarengatik
-97	4997	diesel	diesela dieselek
-98	4998	pertzepzio	pertzepzioa
-99	4999	erreplika	erreplikak erreplikan erreplikei
-100	5000	faktore	faktorea faktoreak
+1	4901	amaginarreba	amaginarrebak amaginarrebarekin amaginarrebaren
+2	4902	zunda	zundak zundaren zunden
+3	4903	nekazaritza	nekazaritzako nekazaritzan nekazaritzarako
+4	4904	lizentziatu	lizentziatua lizentziatuak lizentziatuta
+5	4905	hormigoi	hormigoia hormigoiagatik hormigoiarekin hormigoiaren hormigoiaz
+6	4906	itogarri	itogarria itogarriaren itogarrira
+7	4907	goibeldu	goibelduko goibeldurik goibelduz goibeltzea goibeltzeko goibeltzen
+8	4908	ultzera	ultzerak ultzeraren ultzerarik
+9	4909	tontokeria	tontokeriak tontokeriarik
+10	4910	laido	laidoa laidoak laidotzat
+11	4911	erasan	erasanda erasango erasateko erasaten
+12	4912	isilune	isilunea isiluneak isilunetan
+13	4913	eskeleto	eskeletoa eskeletoak eskeletoaren eskeletoekin
+14	4914	motozerra	motozerrak motozerrako motozerrarekin motozerraz motozerren
+15	4915	aldiri	aldiriak aldirietako aldirietan aldirietara aldiriko
+16	4916	hiruhileko	hiruhilekoa hiruhilekoan hiruhilekorako
+17	4917	bokazio	bokazioa bokazioak bokazioaren bokaziorik bokazioz
+18	4918	esmeralda	esmeraldak esmeralden
+19	4919	elegante	elegantea eleganteago eleganteegiak eleganteen
+20	4920	nu	nuek nuez nuri
+21	4921	ehortzi	ehortzia ehortziko ehortzita ehorzten
+22	4922	espekulazio	espekulazioa espekulazioak espekulazioaren espekulazioen
+23	4923	latino	latinoa latinoak latinoarengatik latinoez latinoren
+24	4924	eraikitzaile	eraikitzailea eraikitzaileak eraikitzailearekin eraikitzaileekin
+25	4925	konkistatzaile	konkistatzailea konkistatzaileak konkistatzaileei konkistatzailetzat
+26	4926	patruilatu	patruilatuko patruilatzea patruilatzeko patruilatzen patruilatzera
+27	4927	postari	postariak postarik postariok
+28	4928	erretilu	erretilua erretiluak erretiluko
+29	4929	aitzin	aitzina aitzinean aitzineko
+30	4930	larrugorri	larrugorriak larrugorrian larrugorriek larrugorritan
+31	4931	tableta	tabletak tabletako tabletaren tabletaz tabletetan
+32	4932	erradioaktibo	erradioaktiboa erradioaktiboagatik erradioaktiboagoa erradioaktiboak erradioaktiboaren erradioaktibora erradioaktiborantz erradioaktiboz
+33	4933	diskoetxe	diskoetxeak diskoetxean diskoetxearen diskoetxeko diskoetxera diskoetxerako diskoetxetan
+34	4934	omenaldi	omenaldia omenaldian omenaldiarekin omenaldiko omenaldira omenaldiren
+35	4935	labirinto	labirintoa labirintoak labirintoan labirintoari labirintoetan labirintora
+36	4936	iragazki	iragazkia iragazkiarekin iragazkiaren iragazkiaz iragazkira iragazkirantz
+37	4937	diskretu	diskretua diskretuagoa diskretuagoak diskretuak diskretuegia
+38	4938	eltxo	eltxoak eltxoek eltxoekin eltxoen eltxorik
+39	4939	piknik	piknika piknikak piknikean piknikekoa piknikera piknikerako
+40	4940	amuarrain	amuarraina amuarrainak amuarrainaren amuarrainek amuarrainez amuarrainik
+41	4941	programatzaile	programatzailea programatzaileak programatzaileei programatzaileen programatzailerik
+42	4942	pintore	pintorea pintoreak pintorearen pintoreek pintoreentzat pintorerik
+43	4943	apaltasun	apaltasuna apaltasunak apaltasunean apaltasunez apaltasunik
+44	4944	frankotiratzaile	frankotiratzailea frankotiratzaileak frankotiratzaileek frankotiratzaileen frankotiratzailerik
+45	4945	intentzio	intentzioa intentzioak intentzioarekin intentziorik
+46	4946	akta	aktak aktan aktarekin aktaren aktarik aktatik
+47	4947	jurisdikzio	jurisdikzioa jurisdikzioaren jurisdikziorik jurisdikziotik
+48	4948	sushi	sushia sushiak sushiarekin sushirako sushirik
+49	4949	kuantiko	kuantikoa kuantikoak kuantikoan kuantikoarekin kuantikoaren kuantikoko
+50	4950	bufalo	bufaloa bufaloak bufaloen bufalorik
+51	4951	goroldio	goroldioa goroldioan goroldioarekin goroldioari goroldiorik goroldioz
+52	4952	arbel	arbela arbelak arbelarekin arbelean arbeleko arbelera arbeletan
+53	4953	fiordo	fiordoa fiordoak fiordoan fiordoaren fiordoetako fiordoetan fiordora fiordotik
+54	4954	hipopotamo	hipopotamoa hipopotamoak hipopotamoarekin hipopotamoaren hipopotamorik
+55	4955	hautesle	hautesleak hautesleei hautesleek hautesleekin hautesleok hautesleren
+56	4956	osagile	osagilea osagileak osagileari osagileekin osagileen osagileren
+57	4957	haurtzain	haurtzaina haurtzainak haurtzainarekin haurtzainaren haurtzainari haurtzainei
+58	4958	eskorpioi	eskorpioia eskorpioiak eskorpioiaren eskorpioiari eskorpioien
+59	4959	koordinatu	koordinatua koordinatuak koordinatuko koordinatuta koordinatuz koordinatzea koordinatzeaz koordinatzeko koordinatzen
+60	4960	zaborrontzi	zaborrontziak zaborrontzian zaborrontziei zaborrontziek zaborrontziekin zaborrontzien zaborrontziko zaborrontzira zaborrontzitan zaborrontzitik
+61	4961	errebelatu	errebela errebelatua errebelatzea errebelatzeak errebelatzeko errebelatzen errebelatzera
+62	4962	heste	hestea hesteak hesteen hesteetako hesteetan
+63	4963	ubeldura	ubeldurak ubeldurarekin ubelduraz ubeldurekin
+64	4964	masaileko	masailekoa masailekoaren
+65	4965	enplegu	enpleguak enpleguaren
+66	4966	urruntze	urruntzea urruntzeagatik urruntzean urruntzeko urruntzerako
+67	4967	ausaz	
+68	4968	manu	
+69	4969	adeitasunez	
+70	4970	esaka	
+71	4971	longo	longorekin longori
+72	4972	soja	sojarekin
+73	4973	txistukatu	txistuka txistukatuko txistukatzen
+74	4974	formatu	formatua formatuan
+75	4975	barregura	barregurarik
+76	4976	galdegin	galdegindako galdegiten
+77	4977	puxika	puxikak
+78	4978	ganora	ganorarik ganoraz
+79	4979	jokaera	jokaerak jokaerari
+80	4980	kuadrilla	kuadrillako kuadrillarekin kuadrillen
+81	4981	kortesia	kortesiak kortesiaz
+82	4982	botazio	botazioa botazioaren botazioetan
+83	4983	eragiketa	eragiketak eragiketan eragiketarako eragiketaren
+84	4984	pintz	pintza pintzak pintzekin
+85	4985	bihozkada	bihozkadak bihozkadek bihozkaden bihozkadetan
+86	4986	basakeria	basakeriak basakeriaren basakeriari basakeriarik
+87	4987	biolento	biolentoa biolentoak
+88	4988	histeria	histeriak histeriaren histeriaz
+89	4989	errusiera	errusieraz
+90	4990	beto	betoa betoak betoarekin
+91	4991	diafragma	diafragmak diafragmaren diafragmatik
+92	4992	motibazio	motibazioa motibazioen
+93	4993	kilate	kilatea kilateko
+94	4994	bulkada	bulkadak bulkadari bulkadarik bulkaden
+95	4995	perfekzio	perfekzioa perfekziora perfekziorantz
+96	4996	intsignia	intsigniak intsigniarik intsigniek intsignietako
+97	4997	abilezia	abileziak abilezian abileziaren abileziarengatik
+98	4998	diesel	diesela dieselek
+99	4999	pertzepzio	pertzepzioa
+100	5000	erreplika	erreplikak erreplikan erreplikei

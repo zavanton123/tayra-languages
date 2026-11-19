@@ -1,100 +1,100 @@
-1	7701	igerialdi	igerialdia
-2	7702	superstizioso	superstiziosoa superstiziosoak
-3	7703	mirarizko	mirarizkoak
-4	7704	astronomiko	astronomikoa astronomikoak
-5	7705	pikete	piketeak piketerik
-6	7706	goilara	goilarak
-7	7707	amonatxo	amonatxoa
-8	7708	antxume	antxumeak
-9	7709	lepondo	lepondoak lepondoan
-10	7710	doi	doiaz
-11	7711	moka	moketako moketan
-12	7712	airbag	airbaga airbagak
-13	7713	aperitifa	aperitifak
-14	7714	hazkuntza	hazkuntzak
-15	7715	kabuki	kabukiren
-16	7716	miligramo	miligramoko
-17	7717	boz	boza
-18	7718	akustika	akustikarekin
-19	7719	anaiorde	anaiordea anaiordearen
-20	7720	kanape	kanapeak
-21	7721	marrazketa	marrazketan
-22	7722	krosko	kroskoa kroskoan
-23	7723	sarda	sardan
-24	7724	eranskailu	eranskailuak
-25	7725	body	bodya bodyk
-26	7726	xerpa	xerpek xerpentzat
-27	7727	izenpe	izenpea izenpean
-28	7728	konfederatu	konfederatuak konfederatuko
-29	7729	bargasta	bargastak
-30	7730	posesibo	posesiboa posesiborik
-31	7731	zinemazale	zinemazaleak zinemazaleentzat zinemazaleok
-32	7732	ipurgarbitzaile	ipurgarbitzailea ipurgarbitzaileak
-33	7733	adarjotze	adarjotzea
-34	7734	sentsualitate	sentsualitatea sentsualitatean
-35	7735	andrakume	andrakumea
-36	7736	ehule	ehulea ehuleen
-37	7737	fakturatu	fakturatzen
-38	7738	mailukada	mailukadaz mailukadek
-39	7739	folklore	folklorea folkloreak folkloreaz
-40	7740	folkloriko	folklorikoak folklorikoan folklorikokoa
-41	7741	sifoi	sifoia sifoian
-42	7742	zurrusta	zurrustak zurrustekin
-43	7743	erakusle	erakuslea erakuslearekin
-44	7744	detektagailu	detektagailua detektagailuak detektagailuek
-45	7745	zerratu	zerratua zerratzen
-46	7746	konfirmazio	konfirmazioa konfirmaziorik
-47	7747	astronomia	astronomian
-48	7748	aizkolari	aizkolaria aizkolariak
-49	7749	entziklopedia	entziklopedian entziklopediarik
-50	7750	ebakiondo	ebakiondoak ebakiondorik
-51	7751	kilika	kilikak
-52	7752	okil	okilak okilaren
-53	7753	semola	semolarekin
-54	7754	berniz	berniza bernizarekin
-55	7755	atzeraldi	atzeraldian
-56	7756	bakanal	bakanala
-57	7757	pertz	pertza pertzetako
-58	7758	maisutasun	maisutasuna maisutasunerako maisutasunez
-59	7759	herrikoi	herrikoia herrikoiagoak herrikoiaren
-60	7760	foka	fokak foken
-61	7761	monotono	monotonoa monotonoak
-62	7762	legegile	legegilea legegileko
-63	7763	ezproi	ezproiak ezproirik
-64	7764	sismiko	sismikoa sismikoekin
-65	7765	txindata	txindatak
-66	7766	baliza	balizara balizarako
-67	7767	erlatibitate	erlatibitatea erlatibitateagatik
-68	7768	fosforeszente	fosforeszentea fosforeszenteak
-69	7769	jardunaldi	jardunaldian
-70	7770	orga	orgak orgatik
-71	7771	jela	jelak
-72	7772	trasteleku	trastelekua trastelekuan
-73	7773	koraza	korazak korazan
-74	7774	rally	rallyan rallyetako
-75	7775	parkinson	parkinsona parkinsonekin
-76	7776	desinfektatzaile	desinfektatzailea
-77	7777	lurperatzaile	lurperatzailea
-78	7778	pixagura	pixagurari
-79	7779	sega	segan segarekin
-80	7780	pestizida	pestizidak pestizidez
-81	7781	abeltzaintza	abeltzaintzako abeltzaintzarako
-82	7782	deskodetu	deskodetuko deskodetzeak
-83	7783	eutanasia	eutanasiaren eutanasiaz
-84	7784	weber	weberrek
-85	7785	kisketa	kisketarik
-86	7786	andrazko	andrazkoak andrazkoekin
-87	7787	drone	droneak
-88	7788	gerrilla	gerrillako gerrillara
-89	7789	zertzelada	zertzeladaren zertzeladen
-90	7790	biberoi	biberoia biberoira
-91	7791	txipiroi	txipiroiak
-92	7792	bisexual	bisexuala bisexualik
-93	7793	kolpekari	kolpekaria kolpekarian
-94	7794	mediatiko	mediatikoan
-95	7795	seropositibo	seropositiboa seropositiboen
-96	7796	aberasgarri	aberasgarria
-97	7797	motordun	motorduna
-98	7798	koreera	koreeraz
-99	7799	senidetasun	senidetasuna senidetasunaren
-100	7800	berotegi	berotegiak berotegiraino
+1	7701	metamorfosi	metamorfosia
+2	7702	igerialdi	igerialdia
+3	7703	superstizioso	superstiziosoa superstiziosoak
+4	7704	mirarizko	mirarizkoak
+5	7705	astronomiko	astronomikoa astronomikoak
+6	7706	pikete	piketeak piketerik
+7	7707	goilara	goilarak
+8	7708	amonatxo	amonatxoa
+9	7709	antxume	antxumeak
+10	7710	lepondo	lepondoak lepondoan
+11	7711	doi	doiaz
+12	7712	moka	moketako moketan
+13	7713	airbag	airbaga airbagak
+14	7714	aperitifa	aperitifak
+15	7715	hazkuntza	hazkuntzak
+16	7716	kabuki	kabukiren
+17	7717	miligramo	miligramoko
+18	7718	boz	boza
+19	7719	akustika	akustikarekin
+20	7720	anaiorde	anaiordea anaiordearen
+21	7721	kanape	kanapeak
+22	7722	marrazketa	marrazketan
+23	7723	krosko	kroskoa kroskoan
+24	7724	sarda	sardan
+25	7725	eranskailu	eranskailuak
+26	7726	body	bodya bodyk
+27	7727	xerpa	xerpek xerpentzat
+28	7728	izenpe	izenpea izenpean
+29	7729	konfederatu	konfederatuak konfederatuko
+30	7730	bargasta	bargastak
+31	7731	posesibo	posesiboa posesiborik
+32	7732	zinemazale	zinemazaleak zinemazaleentzat zinemazaleok
+33	7733	ipurgarbitzaile	ipurgarbitzailea ipurgarbitzaileak
+34	7734	adarjotze	adarjotzea
+35	7735	sentsualitate	sentsualitatea sentsualitatean
+36	7736	andrakume	andrakumea
+37	7737	ehule	ehulea ehuleen
+38	7738	fakturatu	fakturatzen
+39	7739	mailukada	mailukadaz mailukadek
+40	7740	folklore	folklorea folkloreak folkloreaz
+41	7741	folkloriko	folklorikoak folklorikoan folklorikokoa
+42	7742	sifoi	sifoia sifoian
+43	7743	zurrusta	zurrustak zurrustekin
+44	7744	erakusle	erakuslea erakuslearekin
+45	7745	detektagailu	detektagailua detektagailuak detektagailuek
+46	7746	zerratu	zerratua zerratzen
+47	7747	konfirmazio	konfirmazioa konfirmaziorik
+48	7748	astronomia	astronomian
+49	7749	aizkolari	aizkolaria aizkolariak
+50	7750	entziklopedia	entziklopedian entziklopediarik
+51	7751	ebakiondo	ebakiondoak ebakiondorik
+52	7752	kilika	kilikak
+53	7753	okil	okilak okilaren
+54	7754	semola	semolarekin
+55	7755	berniz	berniza bernizarekin
+56	7756	atzeraldi	atzeraldian
+57	7757	bakanal	bakanala
+58	7758	pertz	pertza pertzetako
+59	7759	maisutasun	maisutasuna maisutasunerako maisutasunez
+60	7760	herrikoi	herrikoia herrikoiagoak herrikoiaren
+61	7761	foka	fokak foken
+62	7762	monotono	monotonoa monotonoak
+63	7763	legegile	legegilea legegileko
+64	7764	ezproi	ezproiak ezproirik
+65	7765	sismiko	sismikoa sismikoekin
+66	7766	txindata	txindatak
+67	7767	baliza	balizara balizarako
+68	7768	erlatibitate	erlatibitatea erlatibitateagatik
+69	7769	fosforeszente	fosforeszentea fosforeszenteak
+70	7770	jardunaldi	jardunaldian
+71	7771	orga	orgak orgatik
+72	7772	jela	jelak
+73	7773	trasteleku	trastelekua trastelekuan
+74	7774	koraza	korazak korazan
+75	7775	rally	rallyan rallyetako
+76	7776	parkinson	parkinsona parkinsonekin
+77	7777	desinfektatzaile	desinfektatzailea
+78	7778	lurperatzaile	lurperatzailea
+79	7779	pixagura	pixagurari
+80	7780	sega	segan segarekin
+81	7781	pestizida	pestizidak pestizidez
+82	7782	abeltzaintza	abeltzaintzako abeltzaintzarako
+83	7783	deskodetu	deskodetuko deskodetzeak
+84	7784	eutanasia	eutanasiaren eutanasiaz
+85	7785	weber	weberrek
+86	7786	kisketa	kisketarik
+87	7787	andrazko	andrazkoak andrazkoekin
+88	7788	drone	droneak
+89	7789	gerrilla	gerrillako gerrillara
+90	7790	zertzelada	zertzeladaren zertzeladen
+91	7791	biberoi	biberoia biberoira
+92	7792	txipiroi	txipiroiak
+93	7793	bisexual	bisexuala bisexualik
+94	7794	kolpekari	kolpekaria kolpekarian
+95	7795	mediatiko	mediatikoan
+96	7796	seropositibo	seropositiboa seropositiboen
+97	7797	aberasgarri	aberasgarria
+98	7798	motordun	motorduna
+99	7799	koreera	koreeraz
+100	7800	senidetasun	senidetasuna senidetasunaren

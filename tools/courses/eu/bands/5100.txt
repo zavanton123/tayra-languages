@@ -1,100 +1,100 @@
-1	5001	itxiera	itxierak itxierako itxieraren itxierari itxierarik
-2	5002	arraia	arraiak arraiok
-3	5003	bitxikeria	bitxikeriak bitxikeriaren bitxikeriekin
-4	5004	blokeo	blokeoa blokeoan blokeoaren blokeoaz
-5	5005	aristokrata	aristokratak aristokratek aristokraten
-6	5006	estasi	estasia estasiak estasian estasiaren
-7	5007	oporraldi	oporraldia oporraldiak oporraldian oporraldirik
-8	5008	pedal	pedala pedalak pedalei pedalekin
-9	5009	ordezkaritza	ordezkaritzak ordezkaritzara ordezkaritzarekin ordezkaritzari ordezkaritzarik ordezkaritzek
-10	5010	azeleragailu	azeleragailua azeleragailuari azeleragailukoa azeleragailutik
-11	5011	sakontasun	sakontasuna sakontasunean sakontasunik
-12	5012	dala	dalako dalan dalek dalen
-13	5013	ferry	ferrya
-14	5014	arabiera	arabieraz
-15	5015	kilker	kilkerra kilkerrak kilkerraren
-16	5016	kondor	kondorra kondorrak kondorraren kondorren
-17	5017	txalotu	txalotuko txalotutako txalotzea txalotzeaz txalotzen txalotzera
-18	5018	logale	logalea logaleak logalerik logalez
-19	5019	malgu	malgua malguago malguagoa malguak malgura
-20	5020	reggae	reggaea reggaean reggaearen
-21	5021	monje	monjea monjeak monjearen monjeek
-22	5022	goma	gomak gomari gomarik gomez
-23	5023	kontraeraso	kontraerasoa kontraerasoak kontraerasoan kontraerasorako
-24	5024	olerkari	olerkaria olerkariak olerkariari olerkariek
-25	5025	zaplazteko	zaplaztekoa zaplaztekoak
-26	5026	arpoi	arpoia arpoiak
-27	5027	sutu	sutuko sututa sutzeko sutzen
-28	5028	zementu	zementua zementuan zementuz
-29	5029	apeta	apetak apetaren apetarik apetek apeten apetetan
-30	5030	surf	surfa surfean surferako
-31	5031	mekanismo	mekanismoa mekanismoak mekanismoan mekanismoaren
-32	5032	xurgagailu	xurgagailua xurgagailuak xurgagailurik xurgagailuz
-33	5033	kautxu	kautxua kautxuaren
-34	5034	arrastatu	arrastatuko arrastatzean arrastatzen
-35	5035	hungariar	hungariarra hungariarrak
-36	5036	interferentzia	interferentziak interferentziaren interferentziarik
-37	5037	ezagutarazi	ezagutaraziko ezagutaraztea ezagutarazteak ezagutarazteari
-38	5038	biziraupen	biziraupena biziraupenaren biziraupenerako
-39	5039	behatzaile	behatzailea behatzaileak behatzailearen behatzaileei behatzaileek
-40	5040	haluzinazio	haluzinazioa haluzinazioak
-41	5041	abiapuntu	abiapuntua abiapuntura abiapuntutzat
-42	5042	abstraktu	abstraktua abstraktuak abstraktuan abstraktuegia abstraktuko abstrakturen
-43	5043	mendizale	mendizalea mendizaleak mendizalearen mendizaleek mendizaleentzat mendizalerik
-44	5044	matematikari	matematikaria matematikariak matematikariek matematikariekin matematikaririk
-45	5045	egoiliar	egoiliarra egoiliarrak egoiliarrek egoiliarren
-46	5046	mailegatu	mailegatuko mailegatzea mailegatzen mailegatzerik
-47	5047	koskor	koskorra koskorrak koskorraren koskorrean koskorren
-48	5048	salerosketa	salerosketak salerosketan salerosketarik salerosketetan
-49	5049	lehergarri	lehergarria lehergarriak lehergarrian lehergarriei lehergarririk
-50	5050	anestesia	anestesian anestesiaren anestesiarik anestesiatik anestesiaz
-51	5051	arrazoibide	arrazoibidea arrazoibideak arrazoibidean arrazoibidearen arrazoibidez
-52	5052	estalpe	estalpea estalpean estalpera
-53	5053	seihileko	seihilekoa seihilekoan seihilekoaren seihilekorako
-54	5054	estrategiko	estrategikoa estrategikoak estrategikoekin estrategikoengatik estrategikoetan estrategikoko
-55	5055	vietnamdar	vietnamdarra vietnamdarrak vietnamdarrei vietnamdarrek vietnamdarren
-56	5056	burezur	burezurra burezurraren burezurrean burezurrei burezurreko burezurren
-57	5057	zentinela	zentinelak zentinelarik zentinelei zentinelek
-58	5058	teleskopio	teleskopioa teleskopioan teleskopioarekin teleskopiotik
-59	5059	etorkin	etorkina etorkinak etorkinei etorkinen
-60	5060	pasibo	pasiboa pasiboak pasiboan pasibora pasibotzat
-61	5061	umil	umila umilagoa umilak umilaren umilean umilegia umilena
-62	5062	fusio	fusioa fusioak fusiokoa fusiorik
-63	5063	kudeatzaile	kudeatzailea kudeatzaileak kudeatzaileok
-64	5064	internazional	internazionala internazionalak internazionalaren internazionaleko
-65	5065	antzezle	antzezlea antzezleak antzezleek antzezleetako
-66	5066	harraldi	harraldia harraldiak harraldirako
-67	5067	federazio	federazioa federazioak federazioarekin federazioaren federazioko federaziokoak
-68	5068	yate	yatea yateagatik yatean yateekin yatera yaterik
-69	5069	aginpide	aginpidea aginpideari aginpidekoa aginpiderik aginpidetik aginpidez
-70	5070	igarobide	igarobidea igarobidean igarobidearen igarobideetan igarobideko igarobidera igarobidetik
-71	5071	maiztasun	maiztasuna maiztasunean maiztasunez
-72	5072	ulerkor	ulerkorra ulerkorragoa ulerkorrak ulerkorregia ulerkorrena
-73	5073	adats	adatsa adatsak adatsaren adatsari adatsean adatsik
-74	5074	ikaskide	ikaskidea ikaskideak ikaskideei ikaskideek ikaskideen ikaskideren
-75	5075	konbentzio	konbentzioa konbentzioak konbentzioaren konbentzioari konbentzioei konbentziora
-76	5076	herrikide	herrikidea herrikideak herrikideei herrikideen herrikideentzat herrikideok
-77	5077	soprano	sopranoa sopranoak sopranoaren sopranorekin sopranorik
-78	5078	kontsumitzaile	kontsumitzailea kontsumitzaileak kontsumitzailearen kontsumitzailearentzat kontsumitzaileei kontsumitzaileek kontsumitzaileen kontsumitzaileentzat
-79	5079	makulu	makulua makuluak makuluekin makuluren
-80	5080	kontabilitate	kontabilitatea kontabilitatean kontabilitatearekin kontabilitateko kontabilitaterik kontabilitatetik
-81	5081	probabilitate	probabilitatea probabilitateak probabilitateei probabilitateen
-82	5082	hautesbarruti	hautesbarrutia hautesbarrutiak hautesbarrutian hautesbarrutien hautesbarrutiko hautesbarrutiz
-83	5083	sultan	sultana sultanak sultanaren sultanari
-84	5084	kainoi	kainoia kainoiak kainoiarekin kainoiaren kainoiekin kainoietara
-85	5085	parrokia	parrokiak parrokian parrokiaren parrokiatan parrokiatik parrokiaz parrokiekin parrokietatik
-86	5086	fabrikatu	fabrikatua fabrikatuta fabrikatzea fabrikatzeko fabrikatzen
-87	5087	apalategi	apalategia apalategiak apalategian apalategira apalategitik apalategiz
-88	5088	ostadar	ortzadar ostadarra ostadarrak ostadarraren
-89	5089	yanki	yankia yankiak yankiei yankiek
-90	5090	pankarta	pankartak pankartarekin pankartarik pankartekin pankarten
-91	5091	altitude	altitudea altitudeagatik altitudeak altitudean altitudearen
-92	5092	ebaluazio	ebaluazioa ebaluazioak ebaluazioaren ebaluazioarengatik ebaluazioek
-93	5093	koloretsu	koloretsua koloretsuagoa koloretsuagoak koloretsuak koloretsuegia koloretsuen
-94	5094	persiar	persiaren persiarra persiarrak persiarrei persiarrek persiarrekin persiarren
-95	5095	uzki	uzkia uzkian uzkiarekin uzkiri uzkirik uzkitik
-96	5096	zalditegi	zalditegiak zalditegian zalditegiei zalditegietan zalditegietara zalditegiko zalditegira zalditegirako
-97	5097	editorial	editoriala editorialak editorialari editorialeko editorialera editorialerako
-98	5098	lurmutur	lurmuturra lurmuturraren lurmuturrean lurmuturrera lurmuturrerako lurmuturretik
-99	5099	agintaldi	agintaldia agintaldiak agintaldian agintaldiarekin agintaldiaren agintaldiko agintalditan agintaldiz
-100	5100	islam	islama islamak islamarekin islamaren islamari islamean islamek islameko islamen islamera
+1	5001	faktore	faktorea faktoreak
+2	5002	itxiera	itxierak itxierako itxieraren itxierari itxierarik
+3	5003	arraia	arraiak arraiok
+4	5004	bitxikeria	bitxikeriak bitxikeriaren bitxikeriekin
+5	5005	blokeo	blokeoa blokeoan blokeoaren blokeoaz
+6	5006	aristokrata	aristokratak aristokratek aristokraten
+7	5007	estasi	estasia estasiak estasian estasiaren
+8	5008	oporraldi	oporraldia oporraldiak oporraldian oporraldirik
+9	5009	pedal	pedala pedalak pedalei pedalekin
+10	5010	ordezkaritza	ordezkaritzak ordezkaritzara ordezkaritzarekin ordezkaritzari ordezkaritzarik ordezkaritzek
+11	5011	azeleragailu	azeleragailua azeleragailuari azeleragailukoa azeleragailutik
+12	5012	sakontasun	sakontasuna sakontasunean sakontasunik
+13	5013	dala	dalako dalan dalek dalen
+14	5014	ferry	ferrya
+15	5015	arabiera	arabieraz
+16	5016	kilker	kilkerra kilkerrak kilkerraren
+17	5017	kondor	kondorra kondorrak kondorraren kondorren
+18	5018	txalotu	txalotuko txalotutako txalotzea txalotzeaz txalotzen txalotzera
+19	5019	logale	logalea logaleak logalerik logalez
+20	5020	malgu	malgua malguago malguagoa malguak malgura
+21	5021	reggae	reggaea reggaean reggaearen
+22	5022	monje	monjea monjeak monjearen monjeek
+23	5023	goma	gomak gomari gomarik gomez
+24	5024	kontraeraso	kontraerasoa kontraerasoak kontraerasoan kontraerasorako
+25	5025	olerkari	olerkaria olerkariak olerkariari olerkariek
+26	5026	zaplazteko	zaplaztekoa zaplaztekoak
+27	5027	arpoi	arpoia arpoiak
+28	5028	sutu	sutuko sututa sutzeko sutzen
+29	5029	zementu	zementua zementuan zementuz
+30	5030	apeta	apetak apetaren apetarik apetek apeten apetetan
+31	5031	surf	surfa surfean surferako
+32	5032	mekanismo	mekanismoa mekanismoak mekanismoan mekanismoaren
+33	5033	xurgagailu	xurgagailua xurgagailuak xurgagailurik xurgagailuz
+34	5034	kautxu	kautxua kautxuaren
+35	5035	arrastatu	arrastatuko arrastatzean arrastatzen
+36	5036	hungariar	hungariarra hungariarrak
+37	5037	interferentzia	interferentziak interferentziaren interferentziarik
+38	5038	ezagutarazi	ezagutaraziko ezagutaraztea ezagutarazteak ezagutarazteari
+39	5039	biziraupen	biziraupena biziraupenaren biziraupenerako
+40	5040	behatzaile	behatzailea behatzaileak behatzailearen behatzaileei behatzaileek
+41	5041	haluzinazio	haluzinazioa haluzinazioak
+42	5042	abiapuntu	abiapuntua abiapuntura abiapuntutzat
+43	5043	abstraktu	abstraktua abstraktuak abstraktuan abstraktuegia abstraktuko abstrakturen
+44	5044	mendizale	mendizalea mendizaleak mendizalearen mendizaleek mendizaleentzat mendizalerik
+45	5045	matematikari	matematikaria matematikariak matematikariek matematikariekin matematikaririk
+46	5046	egoiliar	egoiliarra egoiliarrak egoiliarrek egoiliarren
+47	5047	mailegatu	mailegatuko mailegatzea mailegatzen mailegatzerik
+48	5048	koskor	koskorra koskorrak koskorraren koskorrean koskorren
+49	5049	salerosketa	salerosketak salerosketan salerosketarik salerosketetan
+50	5050	lehergarri	lehergarria lehergarriak lehergarrian lehergarriei lehergarririk
+51	5051	anestesia	anestesian anestesiaren anestesiarik anestesiatik anestesiaz
+52	5052	arrazoibide	arrazoibidea arrazoibideak arrazoibidean arrazoibidearen arrazoibidez
+53	5053	estalpe	estalpea estalpean estalpera
+54	5054	seihileko	seihilekoa seihilekoan seihilekoaren seihilekorako
+55	5055	estrategiko	estrategikoa estrategikoak estrategikoekin estrategikoengatik estrategikoetan estrategikoko
+56	5056	vietnamdar	vietnamdarra vietnamdarrak vietnamdarrei vietnamdarrek vietnamdarren
+57	5057	burezur	burezurra burezurraren burezurrean burezurrei burezurreko burezurren
+58	5058	zentinela	zentinelak zentinelarik zentinelei zentinelek
+59	5059	teleskopio	teleskopioa teleskopioan teleskopioarekin teleskopiotik
+60	5060	etorkin	etorkina etorkinak etorkinei etorkinen
+61	5061	pasibo	pasiboa pasiboak pasiboan pasibora pasibotzat
+62	5062	umil	umila umilagoa umilak umilaren umilean umilegia umilena
+63	5063	fusio	fusioa fusioak fusiokoa fusiorik
+64	5064	kudeatzaile	kudeatzailea kudeatzaileak kudeatzaileok
+65	5065	internazional	internazionala internazionalak internazionalaren internazionaleko
+66	5066	antzezle	antzezlea antzezleak antzezleek antzezleetako
+67	5067	harraldi	harraldia harraldiak harraldirako
+68	5068	federazio	federazioa federazioak federazioarekin federazioaren federazioko federaziokoak
+69	5069	yate	yatea yateagatik yatean yateekin yatera yaterik
+70	5070	aginpide	aginpidea aginpideari aginpidekoa aginpiderik aginpidetik aginpidez
+71	5071	igarobide	igarobidea igarobidean igarobidearen igarobideetan igarobideko igarobidera igarobidetik
+72	5072	maiztasun	maiztasuna maiztasunean maiztasunez
+73	5073	ulerkor	ulerkorra ulerkorragoa ulerkorrak ulerkorregia ulerkorrena
+74	5074	adats	adatsa adatsak adatsaren adatsari adatsean adatsik
+75	5075	ikaskide	ikaskidea ikaskideak ikaskideei ikaskideek ikaskideen ikaskideren
+76	5076	konbentzio	konbentzioa konbentzioak konbentzioaren konbentzioari konbentzioei konbentziora
+77	5077	herrikide	herrikidea herrikideak herrikideei herrikideen herrikideentzat herrikideok
+78	5078	soprano	sopranoa sopranoak sopranoaren sopranorekin sopranorik
+79	5079	kontsumitzaile	kontsumitzailea kontsumitzaileak kontsumitzailearen kontsumitzailearentzat kontsumitzaileei kontsumitzaileek kontsumitzaileen kontsumitzaileentzat
+80	5080	makulu	makulua makuluak makuluekin makuluren
+81	5081	kontabilitate	kontabilitatea kontabilitatean kontabilitatearekin kontabilitateko kontabilitaterik kontabilitatetik
+82	5082	probabilitate	probabilitatea probabilitateak probabilitateei probabilitateen
+83	5083	hautesbarruti	hautesbarrutia hautesbarrutiak hautesbarrutian hautesbarrutien hautesbarrutiko hautesbarrutiz
+84	5084	sultan	sultana sultanak sultanaren sultanari
+85	5085	kainoi	kainoia kainoiak kainoiarekin kainoiaren kainoiekin kainoietara
+86	5086	parrokia	parrokiak parrokian parrokiaren parrokiatan parrokiatik parrokiaz parrokiekin parrokietatik
+87	5087	fabrikatu	fabrikatua fabrikatuta fabrikatzea fabrikatzeko fabrikatzen
+88	5088	apalategi	apalategia apalategiak apalategian apalategira apalategitik apalategiz
+89	5089	ostadar	ortzadar ostadarra ostadarrak ostadarraren
+90	5090	yanki	yankia yankiak yankiei yankiek
+91	5091	pankarta	pankartak pankartarekin pankartarik pankartekin pankarten
+92	5092	altitude	altitudea altitudeagatik altitudeak altitudean altitudearen
+93	5093	ebaluazio	ebaluazioa ebaluazioak ebaluazioaren ebaluazioarengatik ebaluazioek
+94	5094	koloretsu	koloretsua koloretsuagoa koloretsuagoak koloretsuak koloretsuegia koloretsuen
+95	5095	persiar	persiaren persiarra persiarrak persiarrei persiarrek persiarrekin persiarren
+96	5096	uzki	uzkia uzkian uzkiarekin uzkiri uzkirik uzkitik
+97	5097	zalditegi	zalditegiak zalditegian zalditegiei zalditegietan zalditegietara zalditegiko zalditegira zalditegirako
+98	5098	editorial	editoriala editorialak editorialari editorialeko editorialera editorialerako
+99	5099	lurmutur	lurmuturra lurmuturraren lurmuturrean lurmuturrera lurmuturrerako lurmuturretik
+100	5100	agintaldi	agintaldia agintaldiak agintaldian agintaldiarekin agintaldiaren agintaldiko agintalditan agintaldiz

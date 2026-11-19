@@ -1,100 +1,100 @@
-1	7401	basilika	basilikak basilikan basilikara
-2	7402	bastart	bastarta bastartak
-3	7403	topagune	topagunea topagunera
-4	7404	urtekari	urtekaria urtekarian
-5	7405	tema	teman temaz
-6	7406	inkisizio	inkisizioa inkisizioko inkisiziokoa
-7	7407	kroketa	kroketak
-8	7408	euskaratu	euskaratua euskaratutako euskaratzea
-9	7409	juglare	juglarea juglareak juglareari
-10	7410	kaltzita	kaltzitak kaltzitaz
-11	7411	polemika	polemikan polemikarik polemikatik
-12	7412	konpaktu	konpaktua konpaktuak
-13	7413	elektroi	elektroia elektroiak
-14	7414	ihartu	ihar ihartzean
-15	7415	obulu	obulua obulura
-16	7416	kima	kimek kimekin kimen
-17	7417	metronomo	metronomoa metronomorik
-18	7418	konpontzaile	konpontzailea konpontzailearen konpontzaileok
-19	7419	hidrokarburo	hidrokarburoak hidrokarburoen
-20	7420	banjo	banjoa banjoak banjoarekin
-21	7421	espasmo	espasmoa espasmoak
-22	7422	mantu	mantua mantuan mantutik
-23	7423	eskutur	eskuturra eskuturreko
-24	7424	juridiko	juridikoa juridikoan juridikotik
-25	7425	itsasaldi	itsasaldia itsasaldiak itsasaldiez
-26	7426	kontinental	kontinentala kontinentalean kontinentalen
-27	7427	modernizatu	modernizatzeko modernizatzen
-28	7428	inperialista	inperialistako inperialistei inperialisten
-29	7429	armeniar	armeniarra armeniarrak armeniarrek
-30	7430	drainatu	drainatutako drainatzen
-31	7431	moskete	mosketea mosketeek mosketeko
-32	7432	baptista	baptistak baptistaren baptistatik
-33	7433	laborari	laboraria laborarien
-34	7434	astegun	asteguna astegunak astegunetan
-35	7435	beix	beixa
-36	7436	orno	ornoa ornoak
-37	7437	bateragarri	bateragarria bateragarriak
-38	7438	gaindiezin	gaindiezina gaindiezinak gaindiezinetan
-39	7439	txirbil	txirbila txirbilak txirbilaren txirbilarentzat
-40	7440	osziladore	osziladorea osziladorean osziladoreko
-41	7441	fetitxe	fetitxea fetitxeak fetitxeetarako
-42	7442	galaktiko	galaktikoa galaktikoaren
-43	7443	erlijiozko	erlijiozkoa erlijiozkoetara
-44	7444	gutiziatu	gutiziatua gutiziatzea gutiziatzen
-45	7445	erdilari	erdilariak erdilaririk
-46	7446	pixontzi	pixontzia pixontzian pixontzira
-47	7447	eztabaidaezin	eztabaidaezina eztabaidaezinak
-48	7448	udalburu	udalburua udalburuak udalburuari
-49	7449	neurologo	neurologoa neurologora
-50	7450	meteorologiko	meteorologikoa meteorologikoak meteorologikoko
-51	7451	azelerazio	azelerazioa azelerazioak
-52	7452	diametro	diametroa diametroaz diametrokoak
-53	7453	distortsio	distortsioa distortsioak distortsioarekin
-54	7454	astrologo	astrologoa astrologoak
-55	7455	genozidio	genozidioa genozidioak genozidioaren genozidiotzat
-56	7456	inpartzial	inpartziala inpartzialak
-57	7457	lentzeria	lentzeriako lentzerian lentzeriaren
-58	7458	pinazi	pinaziak pinaziekin
-59	7459	eunuko	eunukoa eunukoak eunukoez
-60	7460	peluxe	peluxea peluxeak peluxearen
-61	7461	intseminazio	intseminazioa intseminaziorik
-62	7462	proxeneta	proxenetaren proxenetarik proxeneten
-63	7463	medaila	medailak medailentzat
-64	7464	nazionalsozialista	nazionalsozialistari nazionalsozialistek nazionalsozialistok
-65	7465	emir	emirrak
-66	7466	ariar	ariara ariarena ariarren
-67	7467	selekzio	selekzioan selekzioarekin
-68	7468	aritmetika	aritmetikan aritmetikarekin
-69	7469	kolonial	kolonialari kolonialetara
-70	7470	malgutasun	malgutasuna malgutasunaz malgutasunik
-71	7471	metabolismo	metabolismoa metabolismoan
-72	7472	estolderia	estolderiak estolderian estolderietan
-73	7473	ilbete	ilbetean ilbetearekin
-74	7474	zalantzati	zalantzatia zalantzatiak
-75	7475	adigabetu	adigabe adigabetzen
-76	7476	orbel	orbela orbelak orbelen
-77	7477	txurro	txurroak txurrorekin txurrorik
-78	7478	patinatu	patinatzea patinatzen patinatzera
-79	7479	bobina	bobinak bobinan bobinaren bobinen
-80	7480	fatxada	fatxadan fatxadaren fatxadetan
-81	7481	lautu	lautua laututa lautzen
-82	7482	baldintzapen	baldintzapena baldintzapenak baldintzapenaren baldintzapenari
-83	7483	kronometro	kronometroa kronometroan kronometroaren
-84	7484	jopuntu	jopuntua jopuntuak jopuntuan jopuntuarekin
-85	7485	errebelazio	errebelazioa errebelazioak errebelazioen errebelazioetan
-86	7486	ameskeria	ameskeriak ameskerietan ameskeriez
-87	7487	latitude	latitudea latitudean latitudeko
-88	7488	somnifero	somniferoa somniferoak somniferoen
-89	7489	grekera	grekerara grekeraren grekeratik grekeraz
-90	7490	tinpano	tinpanoa tinpanoak tinpanoek
-91	7491	karakol	karakola karakolak karakolekin
-92	7492	panteoi	panteoia panteoian panteoiaren panteoiko
-93	7493	kalabozo	kalabozoan kalabozoetako kalabozoetan
-94	7494	nabe	nabeak nabearen nabera naberaino
-95	7495	zezenketa	zezenketak zezenketen zezenketetara
-96	7496	narrazio	narrazioa narrazioak narrazioan
-97	7497	koito	koitoa koitoak koitoaren
-98	7498	balantze	balantzea balantzeak balantzeekin balantzeen
-99	7499	behargin	behargina beharginak beharginek beharginen
-100	7500	transmisore	transmisorea transmisoreak transmisorearekin
+1	7401	lodiera	lodierako
+2	7402	basilika	basilikak basilikan basilikara
+3	7403	bastart	bastarta bastartak
+4	7404	topagune	topagunea topagunera
+5	7405	urtekari	urtekaria urtekarian
+6	7406	tema	teman temaz
+7	7407	inkisizio	inkisizioa inkisizioko inkisiziokoa
+8	7408	kroketa	kroketak
+9	7409	euskaratu	euskaratua euskaratutako euskaratzea
+10	7410	juglare	juglarea juglareak juglareari
+11	7411	kaltzita	kaltzitak kaltzitaz
+12	7412	polemika	polemikan polemikarik polemikatik
+13	7413	konpaktu	konpaktua konpaktuak
+14	7414	elektroi	elektroia elektroiak
+15	7415	ihartu	ihar ihartzean
+16	7416	obulu	obulua obulura
+17	7417	kima	kimek kimekin kimen
+18	7418	metronomo	metronomoa metronomorik
+19	7419	konpontzaile	konpontzailea konpontzailearen konpontzaileok
+20	7420	hidrokarburo	hidrokarburoak hidrokarburoen
+21	7421	banjo	banjoa banjoak banjoarekin
+22	7422	espasmo	espasmoa espasmoak
+23	7423	mantu	mantua mantuan mantutik
+24	7424	eskutur	eskuturra eskuturreko
+25	7425	juridiko	juridikoa juridikoan juridikotik
+26	7426	itsasaldi	itsasaldia itsasaldiak itsasaldiez
+27	7427	kontinental	kontinentala kontinentalean kontinentalen
+28	7428	modernizatu	modernizatzeko modernizatzen
+29	7429	inperialista	inperialistako inperialistei inperialisten
+30	7430	armeniar	armeniarra armeniarrak armeniarrek
+31	7431	drainatu	drainatutako drainatzen
+32	7432	moskete	mosketea mosketeek mosketeko
+33	7433	baptista	baptistak baptistaren baptistatik
+34	7434	laborari	laboraria laborarien
+35	7435	astegun	asteguna astegunak astegunetan
+36	7436	beix	beixa
+37	7437	orno	ornoa ornoak
+38	7438	bateragarri	bateragarria bateragarriak
+39	7439	gaindiezin	gaindiezina gaindiezinak gaindiezinetan
+40	7440	txirbil	txirbila txirbilak txirbilaren txirbilarentzat
+41	7441	osziladore	osziladorea osziladorean osziladoreko
+42	7442	fetitxe	fetitxea fetitxeak fetitxeetarako
+43	7443	galaktiko	galaktikoa galaktikoaren
+44	7444	erlijiozko	erlijiozkoa erlijiozkoetara
+45	7445	gutiziatu	gutiziatua gutiziatzea gutiziatzen
+46	7446	erdilari	erdilariak erdilaririk
+47	7447	pixontzi	pixontzia pixontzian pixontzira
+48	7448	eztabaidaezin	eztabaidaezina eztabaidaezinak
+49	7449	udalburu	udalburua udalburuak udalburuari
+50	7450	neurologo	neurologoa neurologora
+51	7451	meteorologiko	meteorologikoa meteorologikoak meteorologikoko
+52	7452	azelerazio	azelerazioa azelerazioak
+53	7453	diametro	diametroa diametroaz diametrokoak
+54	7454	distortsio	distortsioa distortsioak distortsioarekin
+55	7455	astrologo	astrologoa astrologoak
+56	7456	genozidio	genozidioa genozidioak genozidioaren genozidiotzat
+57	7457	inpartzial	inpartziala inpartzialak
+58	7458	lentzeria	lentzeriako lentzerian lentzeriaren
+59	7459	pinazi	pinaziak pinaziekin
+60	7460	eunuko	eunukoa eunukoak eunukoez
+61	7461	peluxe	peluxea peluxeak peluxearen
+62	7462	intseminazio	intseminazioa intseminaziorik
+63	7463	proxeneta	proxenetaren proxenetarik proxeneten
+64	7464	medaila	medailak medailentzat
+65	7465	nazionalsozialista	nazionalsozialistari nazionalsozialistek nazionalsozialistok
+66	7466	emir	emirrak
+67	7467	ariar	ariara ariarena ariarren
+68	7468	selekzio	selekzioan selekzioarekin
+69	7469	aritmetika	aritmetikan aritmetikarekin
+70	7470	kolonial	kolonialari kolonialetara
+71	7471	malgutasun	malgutasuna malgutasunaz malgutasunik
+72	7472	metabolismo	metabolismoa metabolismoan
+73	7473	estolderia	estolderiak estolderian estolderietan
+74	7474	ilbete	ilbetean ilbetearekin
+75	7475	zalantzati	zalantzatia zalantzatiak
+76	7476	adigabetu	adigabe adigabetzen
+77	7477	orbel	orbela orbelak orbelen
+78	7478	txurro	txurroak txurrorekin txurrorik
+79	7479	patinatu	patinatzea patinatzen patinatzera
+80	7480	bobina	bobinak bobinan bobinaren bobinen
+81	7481	fatxada	fatxadan fatxadaren fatxadetan
+82	7482	lautu	lautua laututa lautzen
+83	7483	baldintzapen	baldintzapena baldintzapenak baldintzapenaren baldintzapenari
+84	7484	kronometro	kronometroa kronometroan kronometroaren
+85	7485	jopuntu	jopuntua jopuntuak jopuntuan jopuntuarekin
+86	7486	errebelazio	errebelazioa errebelazioak errebelazioen errebelazioetan
+87	7487	ameskeria	ameskeriak ameskerietan ameskeriez
+88	7488	latitude	latitudea latitudean latitudeko
+89	7489	somnifero	somniferoa somniferoak somniferoen
+90	7490	grekera	grekerara grekeraren grekeratik grekeraz
+91	7491	tinpano	tinpanoa tinpanoak tinpanoek
+92	7492	karakol	karakola karakolak karakolekin
+93	7493	panteoi	panteoia panteoian panteoiaren panteoiko
+94	7494	kalabozo	kalabozoan kalabozoetako kalabozoetan
+95	7495	nabe	nabeak nabearen nabera naberaino
+96	7496	zezenketa	zezenketak zezenketen zezenketetara
+97	7497	narrazio	narrazioa narrazioak narrazioan
+98	7498	koito	koitoa koitoak koitoaren
+99	7499	balantze	balantzea balantzeak balantzeekin balantzeen
+100	7500	behargin	behargina beharginak beharginek beharginen

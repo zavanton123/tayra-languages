@@ -1,100 +1,100 @@
-1	4601	espainiera	espainierako espainieraz
-2	4602	psikotiko	psikotikoa psikotikoak psikotikoari psikotikoen
-3	4603	ulermen	ulermena ulermenarekin ulermenez
-4	4604	setio	setioa setioak setioan setioari setiorako
-5	4605	bilau	bilaua bilauak bilauek bilauren
-6	4606	garbigailu	garbigailua garbigailuak garbigailuan garbigailuaren garbigailutik
-7	4607	krisialdi	krisialdia krisialdian krisialdietan krisialdira krisialdirik
-8	4608	terapeuta	terapeutak terapeutarekin terapeutari
-9	4609	sirena	sirenak sirenarik sirenaz
-10	4610	aurkezle	aurkezlea aurkezleak aurkezleek aurkezleen aurkezlerik
-11	4611	lehenagoko	lehenagokoa lehenagokoak lehenagokoarekin lehenagokoek lehenagokora
-12	4612	gezurtatu	gezurtatuko gezurtatuta gezurtatzeko gezurtatzen gezurtatzera
-13	4613	ahabia	ahabiak ahabiekin arabia
-14	4614	balazta	balaztak balaztan balaztara balaztari balaztarik balaztatik balaztek balazten balaztetara
-15	4615	diseinatzaile	diseinatzailea diseinatzaileak diseinatzaileari diseinatzailerik
-16	4616	alzheimer	alzheimerra alzheimerrak alzheimerrarekin alzheimerraren alzheimerren alzheimerrerako alzheimerrik
-17	4617	kosmiko	kosmikoa kosmikoak kosmikoan kosmikoaren kosmikoetan kosmikoko kosmikorik
-18	4618	androide	androidea androideak androideetan
-19	4619	suitzar	suitzarra suitzarragatik suitzarrak suitzarrek
-20	4620	zimur	zimurra zimurrak zimurrarekin zimurrek zimurrik
-21	4621	ileorde	ileordea ileordeak ileordeari ileordekoa ileorderik
-22	4622	judizio	judizioa judizioan judizioaren judizioko judiziorako
-23	4623	zirkulazio	zirkulazioa zirkulazioan zirkulazioarekin zirkulaziorako zirkulaziotik
-24	4624	ekintzaile	ekintzailea ekintzaileak ekintzaileei ekintzaileek ekintzaileen
-25	4625	transakzio	transakzioa transakzioak transakzioei transakzioen
-26	4626	atlantiko	atlantikoa atlantikoan atlantikoaren atlantikoko atlantikora
-27	4627	meteorito	meteoritoa meteoritoak meteoritoan meteoritoen meteoritoengatik meteoritoez
-28	4628	bizkartzain	bizkartzaina bizkartzainak bizkartzainez bizkartzainik
-29	4629	ontzigain	ontzigaina ontzigainaren ontzigainean ontzigaineko ontzigainera ontzigainetik
-30	4630	tranbia	tranbiak tranbian tranbiara tranbiarantz tranbiarekin tranbien
-31	4631	bizardun	bizarduna bizardunak bizardunaren bizardunei bizardunekin
-32	4632	espazial	espaziala espazialagatik espazialak espazialei espazialetan espazialetatik
-33	4633	kontsumitu	kontsumituko kontsumitzea kontsumitzeko kontsumitzen
-34	4634	konfesatu	konfesatuko konfesatuz konfesatzeko konfesatzen konfesatzera
-35	4635	lankidetza	lankidetzan lankidetzaren lankidetzarik lankidetzaz
-36	4636	zelo	zeloa zeloak zeloek zeloen zelorik zeloz
-37	4637	amorante	amorantea amoranteak amorantearen amoranteek amoranterik
-38	4638	goialde	goialdea goialdean goialdeetan goialdeetara goialdeko goialdekoa goialdera
-39	4639	parlamentu	parlamentua parlamentuak parlamentuan parlamentuaren parlamentuko parlamenturako parlamenturantz
-40	4640	presondegi	presondegia presondegian presondegiei presondegietako presondegiko presondegira presondegitik
-41	4641	itsasertz	itsasertza itsasertzak itsasertzean itsasertzeko itsasertzera itsasertzetik
-42	4642	eskakizun	eskakizuna eskakizunak eskakizunaren eskakizunari eskakizunean eskakizunei eskakizunekin
-43	4643	aldare	aldarea aldarean aldarearen aldareari aldareko aldarera
-44	4644	judutar	judutarra judutarrak judutarrek judutarrekin judutarren judutarrez
-45	4645	santutegi	santutegia santutegiak santutegian santutegiaren santutegiko santutegira
-46	4646	hilarri	hilarria hilarriak hilarrian hilarriarekin hilarriaren hilarrien hilarrietan hilarririk
-47	4647	markesa	markesak markesarekin markesaren markesari
-48	4648	urteurren	urteurrenaren urteurrenean urteurreneko urteurrenera urteurrenerako urteurrenetan urteurrenetik urteurrenik
-49	4649	zelata	zelatan zelataren zelatari
-50	4650	gurtza	gurtzak gurtzarako gurtzari gurtzaz gurtzen
-51	4651	atzeraka	
-52	4652	txikito	
-53	4653	arkulari	arkulariak
-54	4654	abu	abuk
-55	4655	yuan	yuanetan
-56	4656	enpatia	enpatiarekin enpatiarik
-57	4657	berritzaile	berritzailea berritzaileagoa berritzaileagoak
-58	4658	tarifa	tarifak tarifatan
-59	4659	daga	dagak dagari dagok
-60	4660	azkura	azkuraren azkurarik
-61	4661	dirdira	dirdirak dirdiran
-62	4662	helmen	helmena
-63	4663	barkaezin	barkaezina barkaezinak barkaezinena
-64	4664	beira	beirak beiraren beirekin
-65	4665	igaraba	igarabak igarabaren igaraben
-66	4666	pinaburu	pinaburuak pinaburuan pinaburuaren pinaburuari pinaburuen
-67	4667	epidemia	epidemiak epidemiari epidemiarik epidemiaz epidemietan
-68	4668	ezatsegin	ezatsegina ezatseginagoak ezatseginak
-69	4669	ausazko	ausazkoa ausazkoak
-70	4670	algara	algarak algararik
-71	4671	berridatzi	berridatziko berridazteko berridazten
-72	4672	agonia	agoniak agonian agoniaren agoniarik
-73	4673	orgia	orgiak orgiaren orgiari orgiarik
-74	4674	urpekari	urpekaria urpekariak urpekarian urpekariei urpekariek urpekariekin
-75	4675	kabiar	kabiaraz kabiarra kabiarrik
-76	4676	japoniera	japonieraz
-77	4677	ulertezin	ulertezina ulertezinagoa ulertezinak ulertezinean
-78	4678	sastakai	sastakaia sastakaiak sastakaiaz sastakaiengatik
-79	4679	hurko	hurkoa hurkoak hurkoari hurkoei
-80	4680	panda	pandak pandako pandan pandaren pandari
-81	4681	pitilin	pitilina pitilinak pitilinarekin pitilinari pitilinen pitilinera
-82	4682	intimitate	intimitatea intimitatean intimitatearen intimitaterik
-83	4683	paralizatu	paralizatua paralizatuta paralizatzea paralizatzen
-84	4684	kurba	kurbak kurbako kurbara kurbari kurbetan
-85	4685	inbentario	inbentarioa inbentarioan inbentarioarekin inbentarioaren inbentariorik
-86	4686	diplomazia	diplomaziak diplomaziarako diplomaziaren diplomaziari diplomaziarik diplomaziaz
-87	4687	kuxkuxero	kuxkuxeroa kuxkuxeroak
-88	4688	kizkur	kizkurra kizkurrak kizkurreko
-89	4689	dardo	dardoa dardoak dardoetako dardoetan dardoz
-90	4690	gazteria	gazteriak gazteriako gazteriaren gazteriari gazteriekin
-91	4691	asmatzaile	asmatzailea asmatzaileak asmatzaileetako asmatzaileez
-92	4692	guraize	guraizea guraizeak guraizeei guraizeekin guraizeen guraizerik
-93	4693	sexualitate	sexualitatea sexualitatearen sexualitateari sexualitateko
-94	4694	gudaldi	gudaldia gudaldian gudaldiaren gudaldirako
-95	4695	bikaintasun	bikaintasuna bikaintasunak bikaintasunarekin bikaintasunaren bikaintasunera bikaintasunez
-96	4696	fraide	fraidea fraideak fraidearen fraideek fraideekin
-97	4697	abenturazale	abenturazalea abenturazaleak abenturazalez
-98	4698	tempo	tempoa tempoagatik tempoan tempoari
-99	4699	izozkailu	izozgailu izozkailua izozkailuan izozkailuarekin izozkailuaren izozkailutik
-100	4700	esplorazio	esplorazioa esplorazioan esplorazioaren esploraziorako
+1	4601	hibrido	hibridoa hibridoak hibridoen
+2	4602	espainiera	espainierako espainieraz
+3	4603	psikotiko	psikotikoa psikotikoak psikotikoari psikotikoen
+4	4604	ulermen	ulermena ulermenarekin ulermenez
+5	4605	setio	setioa setioak setioan setioari setiorako
+6	4606	bilau	bilaua bilauak bilauek bilauren
+7	4607	garbigailu	garbigailua garbigailuak garbigailuan garbigailuaren garbigailutik
+8	4608	krisialdi	krisialdia krisialdian krisialdietan krisialdira krisialdirik
+9	4609	terapeuta	terapeutak terapeutarekin terapeutari
+10	4610	sirena	sirenak sirenarik sirenaz
+11	4611	aurkezle	aurkezlea aurkezleak aurkezleek aurkezleen aurkezlerik
+12	4612	lehenagoko	lehenagokoa lehenagokoak lehenagokoarekin lehenagokoek lehenagokora
+13	4613	gezurtatu	gezurtatuko gezurtatuta gezurtatzeko gezurtatzen gezurtatzera
+14	4614	ahabia	ahabiak ahabiekin arabia
+15	4615	balazta	balaztak balaztan balaztara balaztari balaztarik balaztatik balaztek balazten balaztetara
+16	4616	diseinatzaile	diseinatzailea diseinatzaileak diseinatzaileari diseinatzailerik
+17	4617	alzheimer	alzheimerra alzheimerrak alzheimerrarekin alzheimerraren alzheimerren alzheimerrerako alzheimerrik
+18	4618	kosmiko	kosmikoa kosmikoak kosmikoan kosmikoaren kosmikoetan kosmikoko kosmikorik
+19	4619	androide	androidea androideak androideetan
+20	4620	suitzar	suitzarra suitzarragatik suitzarrak suitzarrek
+21	4621	zimur	zimurra zimurrak zimurrarekin zimurrek zimurrik
+22	4622	ileorde	ileordea ileordeak ileordeari ileordekoa ileorderik
+23	4623	judizio	judizioa judizioan judizioaren judizioko judiziorako
+24	4624	zirkulazio	zirkulazioa zirkulazioan zirkulazioarekin zirkulaziorako zirkulaziotik
+25	4625	ekintzaile	ekintzailea ekintzaileak ekintzaileei ekintzaileek ekintzaileen
+26	4626	transakzio	transakzioa transakzioak transakzioei transakzioen
+27	4627	atlantiko	atlantikoa atlantikoan atlantikoaren atlantikoko atlantikora
+28	4628	meteorito	meteoritoa meteoritoak meteoritoan meteoritoen meteoritoengatik meteoritoez
+29	4629	bizkartzain	bizkartzaina bizkartzainak bizkartzainez bizkartzainik
+30	4630	ontzigain	ontzigaina ontzigainaren ontzigainean ontzigaineko ontzigainera ontzigainetik
+31	4631	tranbia	tranbiak tranbian tranbiara tranbiarantz tranbiarekin tranbien
+32	4632	bizardun	bizarduna bizardunak bizardunaren bizardunei bizardunekin
+33	4633	espazial	espaziala espazialagatik espazialak espazialei espazialetan espazialetatik
+34	4634	kontsumitu	kontsumituko kontsumitzea kontsumitzeko kontsumitzen
+35	4635	konfesatu	konfesatuko konfesatuz konfesatzeko konfesatzen konfesatzera
+36	4636	lankidetza	lankidetzan lankidetzaren lankidetzarik lankidetzaz
+37	4637	zelo	zeloa zeloak zeloek zeloen zelorik zeloz
+38	4638	amorante	amorantea amoranteak amorantearen amoranteek amoranterik
+39	4639	goialde	goialdea goialdean goialdeetan goialdeetara goialdeko goialdekoa goialdera
+40	4640	parlamentu	parlamentua parlamentuak parlamentuan parlamentuaren parlamentuko parlamenturako parlamenturantz
+41	4641	presondegi	presondegia presondegian presondegiei presondegietako presondegiko presondegira presondegitik
+42	4642	itsasertz	itsasertza itsasertzak itsasertzean itsasertzeko itsasertzera itsasertzetik
+43	4643	eskakizun	eskakizuna eskakizunak eskakizunaren eskakizunari eskakizunean eskakizunei eskakizunekin
+44	4644	aldare	aldarea aldarean aldarearen aldareari aldareko aldarera
+45	4645	judutar	judutarra judutarrak judutarrek judutarrekin judutarren judutarrez
+46	4646	santutegi	santutegia santutegiak santutegian santutegiaren santutegiko santutegira
+47	4647	hilarri	hilarria hilarriak hilarrian hilarriarekin hilarriaren hilarrien hilarrietan hilarririk
+48	4648	markesa	markesak markesarekin markesaren markesari
+49	4649	urteurren	urteurrenaren urteurrenean urteurreneko urteurrenera urteurrenerako urteurrenetan urteurrenetik urteurrenik
+50	4650	zelata	zelatan zelataren zelatari
+51	4651	gurtza	gurtzak gurtzarako gurtzari gurtzaz gurtzen
+52	4652	atzeraka	
+53	4653	txikito	
+54	4654	arkulari	arkulariak
+55	4655	abu	abuk
+56	4656	yuan	yuanetan
+57	4657	enpatia	enpatiarekin enpatiarik
+58	4658	berritzaile	berritzailea berritzaileagoa berritzaileagoak
+59	4659	tarifa	tarifak tarifatan
+60	4660	daga	dagak dagari dagok
+61	4661	azkura	azkuraren azkurarik
+62	4662	dirdira	dirdirak dirdiran
+63	4663	helmen	helmena
+64	4664	barkaezin	barkaezina barkaezinak barkaezinena
+65	4665	beira	beirak beiraren beirekin
+66	4666	igaraba	igarabak igarabaren igaraben
+67	4667	pinaburu	pinaburuak pinaburuan pinaburuaren pinaburuari pinaburuen
+68	4668	epidemia	epidemiak epidemiari epidemiarik epidemiaz epidemietan
+69	4669	ezatsegin	ezatsegina ezatseginagoak ezatseginak
+70	4670	ausazko	ausazkoa ausazkoak
+71	4671	algara	algarak algararik
+72	4672	berridatzi	berridatziko berridazteko berridazten
+73	4673	agonia	agoniak agonian agoniaren agoniarik
+74	4674	orgia	orgiak orgiaren orgiari orgiarik
+75	4675	urpekari	urpekaria urpekariak urpekarian urpekariei urpekariek urpekariekin
+76	4676	kabiar	kabiaraz kabiarra kabiarrik
+77	4677	japoniera	japonieraz
+78	4678	ulertezin	ulertezina ulertezinagoa ulertezinak ulertezinean
+79	4679	sastakai	sastakaia sastakaiak sastakaiaz sastakaiengatik
+80	4680	hurko	hurkoa hurkoak hurkoari hurkoei
+81	4681	panda	pandak pandako pandan pandaren pandari
+82	4682	pitilin	pitilina pitilinak pitilinarekin pitilinari pitilinen pitilinera
+83	4683	intimitate	intimitatea intimitatean intimitatearen intimitaterik
+84	4684	paralizatu	paralizatua paralizatuta paralizatzea paralizatzen
+85	4685	kurba	kurbak kurbako kurbara kurbari kurbetan
+86	4686	inbentario	inbentarioa inbentarioan inbentarioarekin inbentarioaren inbentariorik
+87	4687	diplomazia	diplomaziak diplomaziarako diplomaziaren diplomaziari diplomaziarik diplomaziaz
+88	4688	kuxkuxero	kuxkuxeroa kuxkuxeroak
+89	4689	kizkur	kizkurra kizkurrak kizkurreko
+90	4690	dardo	dardoa dardoak dardoetako dardoetan dardoz
+91	4691	gazteria	gazteriak gazteriako gazteriaren gazteriari gazteriekin
+92	4692	asmatzaile	asmatzailea asmatzaileak asmatzaileetako asmatzaileez
+93	4693	guraize	guraizea guraizeak guraizeei guraizeekin guraizeen guraizerik
+94	4694	sexualitate	sexualitatea sexualitatearen sexualitateari sexualitateko
+95	4695	gudaldi	gudaldia gudaldian gudaldiaren gudaldirako
+96	4696	bikaintasun	bikaintasuna bikaintasunak bikaintasunarekin bikaintasunaren bikaintasunera bikaintasunez
+97	4697	fraide	fraidea fraideak fraidearen fraideek fraideekin
+98	4698	abenturazale	abenturazalea abenturazaleak abenturazalez
+99	4699	tempo	tempoa tempoagatik tempoan tempoari
+100	4700	izozkailu	izozgailu izozkailua izozkailuan izozkailuarekin izozkailuaren izozkailutik
