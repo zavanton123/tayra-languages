@@ -4267,6 +4267,8 @@ def build_thai(size):
 # The reader cuts Lao by how common its words are, as the list it ships with ranks them (LaoParser), so the Lao list is built
 # again from cuts made with the last one's ranks until they no longer change it, at most LAO_ROUNDS times, as Thai's is.
 LAO_ROUNDS = 6
+# Lao Wikipedia is small: below ten uses a word's rank says nothing (from rank 5,000 on), so rarer words are left out.
+LAO_MIN_COUNT = 10
 # Lao Wikipedia's own words and the pieces of its names and markup, which no learner reads in a text.
 LAO_EXCLUDE = {
     "ວິກິພີເດຍ", "ແມ່ແບບ", "ບົດຄວາມ", "ເວັບໄຊ", "ເວັບໄຊຕ໌", "ເວັບໄຊທ໌", "ໝວດໝູ່", "ກມ", "ອ້າງອີງ",
@@ -4322,8 +4324,8 @@ def build_lao(size):
 
 def lao_list(counts, noise, size, label):
     """
-    The list from Lao counts: the commonest words, a spelling with ຣ under the commoner one with ລ, and a misspelling or an
-    older spelling under the word it spells (frequency_lao.SPELLINGS).
+    The list from Lao counts: the commonest words met LAO_MIN_COUNT times or more, a spelling with ຣ under the commoner one
+    with ລ, and a misspelling or an older spelling under the word it spells (frequency_lao.SPELLINGS).
     """
     under = dict(frequency_lao.SPELLINGS)
     for word in counts:
@@ -4339,7 +4341,7 @@ def lao_list(counts, noise, size, label):
             continue
         scores[head] += n
         forms[head].append(word)
-    ranked = sorted(scores, key=lambda w: (-scores[w], w))[:size]
+    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if scores[w] >= LAO_MIN_COUNT][:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
         lines.append(word + "\t" + " ".join(sorted(forms[word], key=lambda f: (f != word, -counts[f], f))))
