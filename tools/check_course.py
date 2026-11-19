@@ -248,6 +248,9 @@ def fold(code, word):
         return frequency_persian.bare(frequency_persian.persian_fold(word))
     if code == "grc":
         return greek_folded(word)
+    # The Maltese reader reads ’ ‘ ´ ` as the apostrophe (ta’, f’Malta).
+    if code == "mt":
+        return word.translate(MALTESE_APOSTROPHES)
     # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
     if code == "hy":
         return word.replace("եւ", "և")
@@ -633,6 +636,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return manx_tokens(text)
     if code == "br":
         return breton_tokens(text, ranks, names)
+    if code == "mt":
+        return maltese_tokens(text)
     if code in FINNIC:
         return finnic_tokens(text, code)
     if code == "hi":
@@ -2489,6 +2494,24 @@ def breton_name_pattern(name):
     return re.compile(r"(?<![^\W\d_'])(?:" + "|".join(map(re.escape, spelled)) + r")(?![^\W\d_])")
 
 
+# Maltese words as MalteseParser reads them: letters and the apostrophe (ta', seta'), cut at a hyphen (il-kelb is il +
+# kelb, tad-dar tad + dar), and with a word cut short before another cut off it (f'Malta is f' + Malta, x'inhu x' + inhu);
+# the abbreviations the reader keeps with their full stop (Sur., Dr.) are words the list lacks.
+MALTESE_WORD = re.compile(r"Sur\.|Sinj\.|Dr\.|eż\.|Nru\.|[a-zA-ZÀ-ÖØ-öø-ÿĀ-ſ']+", re.IGNORECASE)
+MALTESE_APOSTROPHES = str.maketrans({"’": "'", "‘": "'", "´": "'", "`": "'"})
+
+
+def maltese_tokens(text):
+    out = []
+    for match in MALTESE_WORD.finditer(text.translate(MALTESE_APOSTROPHES)):
+        word = match.group(0)
+        while len(word) > 2 and word[1] == "'" and word[0].lower() in "fbmxst" and word[2].isalpha():
+            out.append(word[:2])
+            word = word[2:]
+        out.append(word)
+    return out
+
+
 # The header of a lesson's questions, one per language: after it, a question and its answer on a line each, in turn.
 # The app cuts them off the text into a stage of their own (LessonQuestions.kt holds the same headers).
 QUESTION_HEADERS = {
@@ -2500,7 +2523,7 @@ QUESTION_HEADERS = {
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
-        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:",
+        "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:",
     )
 }
 
@@ -2821,6 +2844,9 @@ def check(path, brief=False):
     # And a Breton one (Sant-Brieg, Pont-'n-Abad), mutated too (da Sant-Brieg, e Gemper).
     if code == "br":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # And a Maltese one (Ħal Qormi, San Ġwann, Sant'Iljan).
+    if code == "mt":
+        long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n or "'" in n or "’" in n), key=len, reverse=True)
     # Hungarian names take their endings unmarked (Annának, Budapestre): each part of a name counts, with its endings.
     if code == "hu":
         names = names | {fold(code, part.lower()) for n in course.get("names", []) for part in n.split()}
@@ -2983,6 +3009,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Feyshtyn:", "", text)
         if code == "br":
             text = re.sub(r"(?m)^Goulennoù:", "", text)
+        if code == "mt":
+            text = re.sub(r"(?m)^Mistoqsijiet:", "", text)
         if code == "ka":
             text = re.sub(r"(?m)^კითხვები:", "", text)
         if code == "hi":
