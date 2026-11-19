@@ -48,6 +48,12 @@ class SpokenNumbersTest {
     }
 
     @Test
+    fun malayCommaGroupedThousandsLoseTheirCommas() {
+        assertEquals("Harganya RM38000.", spoken("Harganya RM38,000.", "ms"))
+        assertEquals("Beratnya 2.5 kilogram.", spoken("Beratnya 2.5 kilogram.", "ms"))
+    }
+
+    @Test
     fun spaceGroupedThousandsLoseTheirSpaces() {
         assertEquals("У него было 38000 рублей.", spoken("У него было 38 000 рублей.", "ru"))
         assertEquals("Это стоит 1250000 рублей.", spoken("Это стоит 1 250 000 рублей.", "ru"))

@@ -56,7 +56,7 @@ object SpokenNumbers {
     private val POINT_GROUPING = setOf(
         "pt", "es", "de", "it", "nl", "el", "tr", "da", "nb", "no", "nn", "sr", "hr", "bs", "sl", "mk", "id", "ro", "ca", "gl", "vi", "is", "eu",
     )
-    private val COMMA_GROUPING = setOf("zh", "yue", "ja", "ko", "hi", "he", "th", "ga", "cy", "mt", "tl", "sw")
+    private val COMMA_GROUPING = setOf("zh", "yue", "ja", "ko", "hi", "he", "th", "ga", "cy", "mt", "tl", "sw", "ms")
     private val SPACE_GROUPING = setOf("ru", "uk", "be", "bg", "cs", "pl", "fr", "sv", "fi", "sk", "et", "lv", "lt", "hu", "kk", "af")
 
     private val POINT_NUMBER = Regex("""\d+(?:\.\d+)*""")
