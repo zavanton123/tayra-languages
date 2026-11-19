@@ -179,7 +179,7 @@ Things to know about the Breton list and the checker:
 
 - The courses are pinned to `tools/courses/br/wordlist.tsv`, a copy of the app's `br.tsv`. Its only source is
   Leipzig's 100,000 sentences of the Breton Wikipedia (the subtitles have 7,000 forms), so history, kings, wars and
-  the Church stand early (*roue* 63, *brezel* 87, *mervel* 78) and kitchen words late (*bara* 984, *kafe* 2437).
+  the Church stand early (*roue* 63, *brezel* 85, *mervel* 78) and kitchen words late (*bara* 984, *kafe* 2437).
   Check with `rank.py`; say *tra*, *ti*, *kêr* where the level needs it.
 - **Elided words are two words**: the reader keeps *d'ar*, *n'eo*, *m'en*, *p'edo*, *ma'z* whole, and the checker
   counts them as the two words they are (*da* + *ar*, *ne* + *eo*). *c'h* is one letter.
@@ -194,5 +194,5 @@ Things to know about the Breton list and the checker:
   *evit* (*ennañ*, *emaoc'h*, *edon*, *am boa*, *evidout*). *ra*, *ran*, *rez*, *reont* are *ober*'s; *ya* is "yes",
   not *mont*'s, and *ez a* is *ez* + *a* (write *mont a ra*, *aet eo*, *ez aio*); *bout* is a spelling of *bezañ* and is skipped.
 - **Spellings shared by two words**: a form counts for the word that holds it, so look it up with `rank.py`
-  before relying on it: *deus* is *dont*'s and *kaout*'s, *bet* is *bezañ*'s (and *kaout*'s), *gar* is "leg", *c'hall* is *gallout*'s
+  before relying on it: *deus* is *kaout*'s (*en deus*), so the imperative *deus!* does not count for *dont*, *bet* is *bezañ*'s (and *kaout*'s), *gar* is "leg", *c'hall* is *gallout*'s
   (*ne c'hall ket*), not *gall*'s.
