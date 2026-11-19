@@ -159,7 +159,8 @@ object DictionaryPacks {
     /** Languages with packs, as sources or as the language of the glosses, by ISO 639 code. */
     private val names: Map<String, String> = mapOf(
         "af" to "Afrikaans", "sq" to "Albanian", "grc" to "Ancient Greek", "ar" to "Arabic", "hy" to "Armenian",
-        "aii" to "Assyrian", "eu" to "Basque", "be" to "Belarusian", "bn" to "Bengali", "bs" to "Bosnian", "br" to "Breton",
+        "aii" to "Assyrian", "az" to "Azerbaijani", "eu" to "Basque", "be" to "Belarusian", "bn" to "Bengali",
+        "bs" to "Bosnian", "br" to "Breton",
         "bg" to "Bulgarian", "yue" to "Cantonese", "ca" to "Catalan", "zh" to "Chinese", "kw" to "Cornish",
         "hr" to "Croatian", "cs" to "Czech", "da" to "Danish", "nl" to "Dutch", "arz" to "Egyptian Arabic",
         "en" to "English", "eo" to "Esperanto", "et" to "Estonian", "fa" to "Farsi", "fi" to "Finnish",
