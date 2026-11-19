@@ -1,0 +1,100 @@
+1	6201	privaatspeurder	privaatspeurders
+2	6202	galm	galmende
+3	6203	enkelkamer	enkelkamers
+4	6204	assisteer	geassisteer
+5	6205	kosbaarheid	
+6	6206	motreën	
+7	6207	aankweek	
+8	6208	analis	
+9	6209	antisipeer	geantisipeer
+10	6210	strooijonker	strooijonkers
+11	6211	altemit	
+12	6212	inruil	
+13	6213	kondukteur	
+14	6214	waakeenheid	
+15	6215	roereier	roereiers
+16	6216	honneursstudent	honneursstudente
+17	6217	aktinied	aktiniede
+18	6218	landsnaam	
+19	6219	vierkantswortel	vierkantswortels
+20	6220	stiefmoeder	
+21	6221	polonium	
+22	6222	boekery	
+23	6223	bofbal	
+24	6224	alkali	alkali's alkalië
+25	6225	aksentueer	geaksentueer
+26	6226	amendement	amendemente
+27	6227	fundi	
+28	6228	pylinkvis	pylinkvisse
+29	6229	besoekersboek	
+30	6230	monoteïsme	
+31	6231	afruk	
+32	6232	beginselvas	
+33	6233	artisjok	artisjokke
+34	6234	ty	tye
+35	6235	afry	
+36	6236	bymekaarbring	
+37	6237	eiendomsbelasting	
+38	6238	werksverlies	werksverliese
+39	6239	bokkerol	boggerol boggerôl
+40	6240	fluoor	
+41	6241	reuseplaneet	reuseplanete
+42	6242	lantanied	lantaniede
+43	6243	aksioma	aksiomas
+44	6244	argon	
+45	6245	veldspaat	
+46	6246	asterisk	asteriske
+47	6247	kanonkoeël	kanonkoeëls
+48	6248	reebok	reebokke
+49	6249	attensie	attensies
+50	6250	agiteer	geagiteer
+51	6251	belastingstelsel	belastingstelsels
+52	6252	alleenspraak	alleensprake
+53	6253	praalgraf	
+54	6254	twee-en-twintig	
+55	6255	bloese	
+56	6256	neushoringvoël	neushoringvoëls
+57	6257	wesel	wesels
+58	6258	sewe-en-twintig	
+59	6259	begenadiging	
+60	6260	saketransaksie	saketransaksies
+61	6261	afvloei	
+62	6262	aula	
+63	6263	vaandrig	
+64	6264	aardskudding	aardskuddings
+65	6265	uitveër	uitveërs
+66	6266	bokkom	bokkoms
+67	6267	kansvatter	kansvatters
+68	6268	afsender	afsenders
+69	6269	beenmeel	
+70	6270	afteken	
+71	6271	aftel	
+72	6272	bedremmeld	bedremmelde
+73	6273	lourier	
+74	6274	bederwe	
+75	6275	beskinder	
+76	6276	woef	woefie
+77	6277	halogeen	halogene
+78	6278	buikholte	
+79	6279	varswatervis	varswatervisse
+80	6280	waterstofbom	waterstofbomme
+81	6281	bergketting	bergkettings
+82	6282	bergwind	bergwinde
+83	6283	uitkyktoring	uitkyktorings
+84	6284	vlugtelingkamp	vlugtelingkampe
+85	6285	moordvis	moordvisse
+86	6286	grammatikaal	
+87	6287	asielsoeker	asielsoekers
+88	6288	voetslaner	voetslaners
+89	6289	aanprys	aanprysende
+90	6290	huls	hulse
+91	6291	verkeersreëls	
+92	6292	knopiespinnekop	knopiespinnekoppe
+93	6293	skaatsplank	skaatsplanke
+94	6294	skoensool	skoensole
+95	6295	prysverhoging	prysverhogings
+96	6296	ampseed	
+97	6297	antisemitisme	
+98	6298	benseen	
+99	6299	sentour	sentoure
+100	6300	tegnesium	

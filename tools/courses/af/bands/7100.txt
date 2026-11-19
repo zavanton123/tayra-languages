@@ -1,0 +1,100 @@
+1	7001	nagvlinder	nagvlinders
+2	7002	nege-en-dertig	
+3	7003	ossikel	ossikels
+4	7004	pandeïsme	
+5	7005	sewe-en-twintigste	
+6	7006	spioenasienet	
+7	7007	tamboer	
+8	7008	toeristeburo	
+9	7009	twee-en-vyftig	
+10	7010	alleenhandel	
+11	7011	bakeliet	
+12	7012	boomgaard	
+13	7013	e-boekleser	e-boeklesers
+14	7014	kanteel	kantele
+15	7015	kommodoor	
+16	7016	marter	marters
+17	7017	neodimium	
+18	7018	renium	
+19	7019	telluur	
+20	7020	vier-en-sestig	
+21	7021	aanbesteding	aanbestedings
+22	7022	asepties	aseptiese
+23	7023	begraafplek	begraafplekke
+24	7024	aan-aan	
+25	7025	aanhanklikheid	
+26	7026	agt-en-vyftig	
+27	7027	agtereen	
+28	7028	agt-en-negentig	
+29	7029	babetjie	babetjies
+30	7030	aanplak	
+31	7031	aftreksom	aftreksomme
+32	7032	kaassmeer	
+33	7033	klonkie	
+34	7034	mierystervark	
+35	7035	smeerlap	
+36	7036	verbrands	
+37	7037	afspreek	
+38	7038	afwen	
+39	7039	agteroorval	
+40	7040	asmaties	asmatiese
+41	7041	begogel	
+42	7042	beleënheid	
+43	7043	benedeverdieping	
+44	7044	familiekrisis	
+45	7045	ginds	gindse
+46	7046	impie	impies
+47	7047	plaashond	
+48	7048	raskwota	raskwotas
+49	7049	snelheidsgrens	
+50	7050	spuitgoed	
+51	7051	vlugbalbaan	
+52	7052	allig	
+53	7053	armhorlosie	
+54	7054	voedsaamheid	
+55	7055	riemtelegram	
+56	7056	verbum	
+57	7057	afsê	
+58	7058	slimjan	
+59	7059	spoedbult	spoedbulte
+60	7060	afstem	
+61	7061	alvermoë	
+62	7062	aptekerswese	
+63	7063	bekonkel	
+64	7064	klinknaelbroek	
+65	7065	nagaap	nagape
+66	7066	smokkelhuis	
+67	7067	soutpiel	
+68	7068	kosrubriek	
+69	7069	mikrovliegtuig	
+70	7070	sewe-en-dertig	
+71	7071	beskimmel	beskimmelde
+72	7072	beskimmeld	beskimmelde
+73	7073	baatsugtig	baatsugtige
+74	7074	mineralogie	
+75	7075	mert	
+76	7076	aardalkali	aardalkali's
+77	7077	aardkundige	aardkundiges
+78	7078	aardrykskundig	
+79	7079	afding	
+80	7080	afskaduwing	
+81	7081	akklamasie	
+82	7082	begluur	
+83	7083	behaagsiek	
+84	7084	beplanting	
+85	7085	bergbeklimmer	bergbeklimmers
+86	7086	bitterbal	
+87	7087	handmenger	
+88	7088	hoerhuis	
+89	7089	onvatbaar	
+90	7090	sewe-en-veertigste	
+91	7091	snol	
+92	7092	taxidrywer	
+93	7093	vier-en-vyftig	
+94	7094	ses-en-sestig	
+95	7095	aalwynagtig	aalwynagtige
+96	7096	bagatel	
+97	7097	krieketblad	
+98	7098	twee-en-sewentig	
+99	7099	verskole	
+100	7100	vod	

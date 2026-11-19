@@ -1,0 +1,100 @@
+1	4101	agterlaat	
+2	4102	muntstuk	muntstukke
+3	4103	plaasmoord	plaasmoorde
+4	4104	beding	
+5	4105	staf	stawe
+6	4106	analiseer	geanaliseer
+7	4107	artistiek	artistieke
+8	4108	skroef	skroefie skroewe
+9	4109	kompas	kompasse
+10	4110	laken	lakens
+11	4111	abeel	abeele
+12	4112	skoenlapper	skoenlappers
+13	4113	baker	bakers
+14	4114	eggo	eggo's eggo'tjie geëggo
+15	4115	beken	bekenste
+16	4116	handlanger	handlangers
+17	4117	lat	latte
+18	4118	opsit	opsitte
+19	4119	landbouer	landbouers
+20	4120	beeldhouer	beeldhouers
+21	4121	besete	
+22	4122	lektor	lektore lektors
+23	4123	aftrek	
+24	4124	dapperheid	
+25	4125	vandeesweek	
+26	4126	gogga	goggas
+27	4127	immigrasie	
+28	4128	tagtig	
+29	4129	mossel	mossels
+30	4130	dekor	
+31	4131	aggressief	aggressiefste
+32	4132	koolstof	
+33	4133	kurrikulum	kurrikulums
+34	4134	informasie	
+35	4135	eienaardig	
+36	4136	agterbly	agterblyers
+37	4137	els	else
+38	4138	dieretuin	dieretuine
+39	4139	karig	karige kariger
+40	4140	toor	getoor tower
+41	4141	serp	serpe
+42	4142	vriendelikheid	
+43	4143	plooi	geplooi plooie plooitjies
+44	4144	suurlemoensap	
+45	4145	ongetroud	ongetroude
+46	4146	bedrywig	bedrywige bedrywiger bedrywigste
+47	4147	optrek	
+48	4148	simfonie	
+49	4149	stikstof	
+50	4150	wildtuin	wildtuine
+51	4151	kors	korsie korste
+52	4152	ballade	ballades
+53	4153	seewater	seewaters
+54	4154	baksteen	bakstene
+55	4155	dobbel	gedobbel
+56	4156	aantrekkingskrag	
+57	4157	ruit	ruite
+58	4158	meedeel	
+59	4159	drif	drifte
+60	4160	adem	geadem
+61	4161	beeldhouwerk	beeldhouwerke
+62	4162	bedaar	bedaarde
+63	4163	posbus	posbusse posbussies
+64	4164	tjek	tjeks
+65	4165	merendeels	
+66	4166	vlooi	vlooie vlooitjie
+67	4167	vryheidsoorlog	vryheidsoorloë
+68	4168	apteek	apteke
+69	4169	porsie	porsies
+70	4170	vurk	vurke
+71	4171	akkuraatheid	
+72	4172	ontkom	ontkome
+73	4173	peil	gepeil peile
+74	4174	vaart	vaarte
+75	4175	onwaardig	onwaardige onwaardigste
+76	4176	deurmaak	
+77	4177	objek	objekte
+78	4178	naburig	naburige
+79	4179	yslik	yslike
+80	4180	behulpsaam	
+81	4181	werkloos	
+82	4182	derm	derms
+83	4183	aangee	
+84	4184	loopgraaf	loopgrawe
+85	4185	kommandant	kommandante
+86	4186	besinning	besinninge besinnings
+87	4187	afsien	
+88	4188	er	erre ers
+89	4189	piekniek	piekniek's pieknieks
+90	4190	afwaarts	afwaartse
+91	4191	behoed	behoede behoeder behoeders
+92	4192	hals	halse
+93	4193	geldeenheid	geldeenhede
+94	4194	eina	
+95	4195	mikroskoop	mikroskope
+96	4196	dyk	dyke
+97	4197	aasvoël	aasvoëls
+98	4198	violet	violette
+99	4199	poeding	poedings
+100	4200	beskaafdheid	

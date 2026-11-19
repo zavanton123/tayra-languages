@@ -1,0 +1,100 @@
+1	3301	toerisme	
+2	3302	vlermuis	vlermuise
+3	3303	krans	kranse
+4	3304	wang	wange
+5	3305	soggens	
+6	3306	vyftien	
+7	3307	digkuns	
+8	3308	goeiemôre	
+9	3309	handtekening	handtekeninge
+10	3310	ontbied	
+11	3311	kalender	kalenders
+12	3312	doodskiet	doodgeskiet
+13	3313	insident	insidente
+14	3314	vanmiddag	
+15	3315	teer	geteer teerste
+16	3316	knoop	geknoop
+17	3317	regmaak	
+18	3318	viering	vieringe vierings
+19	3319	raaisel	raaisels
+20	3320	lens	lense
+21	3321	tier	tiere tiers
+22	3322	atoom	atome atoompie
+23	3323	vyftig	
+24	3324	lisensie	lisensieer lisensies
+25	3325	makeer	
+26	3326	kleremaker	kleremaakster kleremakers
+27	3327	pap	
+28	3328	herfs	
+29	3329	bril	brille brilletjie
+30	3330	verwoesting	verwoestinge verwoestings
+31	3331	taxi	taxi's taxis
+32	3332	fantasie	fantasieë
+33	3333	bedrieër	bedrieërs
+34	3334	afstammeling	afstammelinge
+35	3335	liefdesverhaal	liefdesverhale
+36	3336	anoniem	anonieme
+37	3337	druif	druiwe
+38	3338	lamp	lampe lampje
+39	3339	vuurwapen	vuurwapens
+40	3340	belas	
+41	3341	kussing	kussings
+42	3342	hiernamaals	
+43	3343	spek	
+44	3344	afsterwe	afsterwes
+45	3345	deels	
+46	3346	giet	gegiet gietende
+47	3347	bevraagteken	
+48	3348	boud	boude
+49	3349	pil	pille pilletjie
+50	3350	instruksie	instruksies
+51	3351	tropies	tropiese
+52	3352	voorvader	voorvaders
+53	3353	formule	formules
+54	3354	alkohol	alkohole alkohols
+55	3355	battery	battery's batterye batterytjie
+56	3356	kou	gekou kouende koutjie
+57	3357	wol	wolle wolletjie wolletjies wollie wollies
+58	3358	voordeur	voordeure
+59	3359	arend	arende
+60	3360	môreoggend	
+61	3361	protes	proteste
+62	3362	agenda	agenda's agendas
+63	3363	skuim	skuime skuimende skuimpies
+64	3364	uitslag	
+65	3365	anker	ankers geanker
+66	3366	lawaai	
+67	3367	afwyking	afwykinge afwykings
+68	3368	amnestie	
+69	3369	oplaai	oplaaiende
+70	3370	ark	arke arkie
+71	3371	bedelaar	bedelaars bedelaartjies
+72	3372	luisteraar	luisteraars
+73	3373	bynaam	
+74	3374	neerlê	neergelê
+75	3375	dinee	dinees
+76	3376	rooster	gerooster rooster's roosters
+77	3377	floreer	gefloreer
+78	3378	langsaan	
+79	3379	stoep	stoepe
+80	3380	reënval	reënvalle
+81	3381	industrieel	industriële
+82	3382	luiperd	luiperds
+83	3383	plastiek	plastieke
+84	3384	giftig	giftige giftiger giftigste
+85	3385	bende	bendes
+86	3386	bekommernis	bekommernisse
+87	3387	vermeld	vermelde
+88	3388	herkoms	
+89	3389	neutraal	neutrale
+90	3390	divisie	divisies
+91	3391	betekenisvol	betekenisvole betekenisvolle betekenisvoller
+92	3392	bakterie	bakterieë
+93	3393	skriftelik	skriftelike
+94	3394	wiskundig	wiskundige
+95	3395	kwalifikasie	kwalifikasies
+96	3396	persepsie	persepsies
+97	3397	vesel	vesels
+98	3398	billik	billike billiker billikste
+99	3399	koors	
+100	3400	vloed	vloede

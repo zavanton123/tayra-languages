@@ -1,0 +1,100 @@
+1	3401	nagmerrie	nagmerries
+2	3402	bemanning	bemannings
+3	3403	kennisgewing	kennisgewings
+4	3404	komeet	komete
+5	3405	kortliks	
+6	3406	beproewing	beproewinge beproewings
+7	3407	boon	bone boontjie boontjies
+8	3408	populêr	populêre populêrste
+9	3409	vergoeding	
+10	3410	nabyheid	
+11	3411	heuning	
+12	3412	onrus	
+13	3413	fiksie	fiksies
+14	3414	aanpak	
+15	3415	inleiding	inleidinge inleidings
+16	3416	setlaar	setlaars
+17	3417	sjokolade	
+18	3418	gordyn	gordyne gordyntjie gordyntjies
+19	3419	dimensie	dimensies
+20	3420	infeksie	infeksies
+21	3421	padda	paddas paddatjie parra parras
+22	3422	kampioenskap	kampioenskappe
+23	3423	skadelik	skadelike skadeliker skadelikste
+24	3424	deurbring	
+25	3425	aflewering	afleweringe aflewerings
+26	3426	ontvoer	ontvoerde
+27	3427	lepel	lepels lepeltjie lepeltjies
+28	3428	orrel	orrels orreltjie
+29	3429	raadpleeg	geraadpleeg raadplegende
+30	3430	sonlig	
+31	3431	benaming	benaminge benamings
+32	3432	knip	geknip knippende
+33	3433	eensaamheid	
+34	3434	walvis	walvisse
+35	3435	sosialisme	
+36	3436	ondertoe	
+37	3437	betoon	
+38	3438	behoue	
+39	3439	agentskap	agentskappe
+40	3440	pels	pelse pelsie
+41	3441	uitsterf	uitgesterf uitgestorwe
+42	3442	strik	strikke
+43	3443	tekening	tekeninge
+44	3444	bakboord	
+45	3445	steenkool	
+46	3446	vragmotor	vragmotors
+47	3447	sowaar	
+48	3448	krieket	
+49	3449	vliegveld	vliegvelde
+50	3450	rusie	gerusie rusies
+51	3451	verdrag	verdrae
+52	3452	barmhartig	barmhartige barmhartiger
+53	3453	skuur	skure skuurtjie
+54	3454	suig	gesuig suigende
+55	3455	ophang	
+56	3456	adel	
+57	3457	afwesig	afwesige
+58	3458	dialek	dialekte
+59	3459	burgeroorlog	burgeroorloë
+60	3460	voorkop	voorkoppe voorkoppie
+61	3461	messelaar	messelaars
+62	3462	klei	
+63	3463	aankoop	
+64	3464	gretig	gretige
+65	3465	spoeg	gespoeg spoegende
+66	3466	dokumentêr	dokumentêre
+67	3467	pêrel	pêrels
+68	3468	spoorweg	spoorweë
+69	3469	bas	basse baste
+70	3470	onvermydelik	onvermydelike
+71	3471	vlieënier	vlieëniers
+72	3472	rugsak	rugsakke rugsakkie
+73	3473	aardbewing	aardbewinge aardbewings
+74	3474	vertolking	vertolkings
+75	3475	bankrot	
+76	3476	kyker	kykers
+77	3477	lening	lenings
+78	3478	rassisme	
+79	3479	definitief	
+80	3480	moedeloos	
+81	3481	letterkundig	letterkundige
+82	3482	towenaar	towenaars
+83	3483	blus	geblus
+84	3484	bar	barder barre barste
+85	3485	aanhaling	aanhalings
+86	3486	spoorlyn	spoorlyne
+87	3487	donder	donderende gedonder
+88	3488	sertifikaat	sertifikate
+89	3489	aas	
+90	3490	gade	gades
+91	3491	vleuel	gevleuel vleuels
+92	3492	baai	baaie baaitjie gebaai
+93	3493	beoordelaar	beoordelaars
+94	3494	hef	hefte
+95	3495	visvang	visvanger visvangers visvangs visvangste
+96	3496	linkerkant	
+97	3497	aktiveer	geaktiveer
+98	3498	beminde	bemindes
+99	3499	vonk	vonke vonkie
+100	3500	syne	

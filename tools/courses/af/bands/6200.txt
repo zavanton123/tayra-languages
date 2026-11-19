@@ -1,0 +1,100 @@
+1	6101	bywoord	bywoorde
+2	6102	kiek	gekiek kiekende
+3	6103	openingseremonie	openingseremonies
+4	6104	fossielrekord	
+5	6105	seshonderd	
+6	6106	skroot	
+7	6107	onleesbaar	onleesbare
+8	6108	framboos	frambose
+9	6109	polshorlosie	polshorlosies
+10	6110	begroeting	begroetinge begroetings
+11	6111	wilgerboom	
+12	6112	walrus	walrusse
+13	6113	gousblom	gousblomme
+14	6114	kleefband	
+15	6115	behoef	behoefde
+16	6116	gehoorstuk	gehoorstukke
+17	6117	besetenheid	
+18	6118	hoëhakskoen	hoëhakskoene
+19	6119	weerstandsbeweging	
+20	6120	hommelby	hommelbye
+21	6121	ampswoning	ampswonings
+22	6122	grootmoeder	
+23	6123	sosialis	socialiste
+24	6124	wildekat	wildekatte
+25	6125	amulet	amulette
+26	6126	anoreksie	
+27	6127	beige	
+28	6128	aktuaris	aktuarisse
+29	6129	stinkhout	
+30	6130	beeldryk	beeldryke
+31	6131	barbaarsheid	barbaarshede
+32	6132	bêreplek	bêreplekke bêreplekkies
+33	6133	kolgans	kolganse
+34	6134	middelmatigheid	
+35	6135	poliesman	poliesmanne
+36	6136	papwiel	papwiele
+37	6137	antrasiet	
+38	6138	badhuis	badhuise
+39	6139	aardrykskundige	aardrykskundiges
+40	6140	afstudeer	
+41	6141	beenbreuk	beenbreuke
+42	6142	afsaksel	afsaksels
+43	6143	rathefboom	
+44	6144	beskonke	
+45	6145	saffier	saffiere
+46	6146	motorhawe	
+47	6147	rottang	
+48	6148	bedehuis	bedehuise
+49	6149	belus	beluste
+50	6150	begiftig	begiftigde
+51	6151	ou-ou	
+52	6152	beregting	
+53	6153	spraakvryheid	
+54	6154	altruïsties	altruïstiese
+55	6155	wolvin	wolvinne
+56	6156	kerkkoor	
+57	6157	meervoudsvorm	
+58	6158	tweeklank	tweeklanke
+59	6159	seeleeu	seeleeus
+60	6160	vanadium	
+61	6161	reparasie	reparasies
+62	6162	akkumuleer	geakkumuleer
+63	6163	aforisme	aforismes
+64	6164	telefoongids	telefoongidse
+65	6165	gastelys	
+66	6166	badplaas	
+67	6167	boereplaas	boereplase
+68	6168	drankoffer	drankoffers
+69	6169	afskeur	
+70	6170	verbleik	
+71	6171	bewarea	bewareas
+72	6172	bagasiebak	bagasiebakke
+73	6173	bedinging	
+74	6174	bedroewend	bedroewende
+75	6175	aardskok	aardskokke
+76	6176	tjoekie	
+77	6177	appeltert	
+78	6178	afsweer	
+79	6179	groenboon	groenbone
+80	6180	polisiekommissaris	
+81	6181	grimeerkunstenaar	grimeerkunstenaars
+82	6182	kardoes	kardoesie
+83	6183	alpakka	alpakkas
+84	6184	nagapie	nagapies
+85	6185	budjie	budjies
+86	6186	akkusatief	
+87	6187	puriteins	puriteinse
+88	6188	iep	ieper iepste
+89	6189	xenon	
+90	6190	ses-en-twintig	
+91	6191	pater	
+92	6192	vlootblou	
+93	6193	agteras	agterasse
+94	6194	boomslang	boomslange
+95	6195	afskeer	
+96	6196	hommel	hommels
+97	6197	treurlied	treurliedere
+98	6198	rooigras	
+99	6199	kiaat	
+100	6200	winkelvenster	winkelvensters

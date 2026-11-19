@@ -1,0 +1,100 @@
+1	1001	waarna	
+2	1002	aankom	aangekom aankomende
+3	1003	eenmaal	
+4	1004	gang	gange
+5	1005	gister	
+6	1006	gesondheid	
+7	1007	direkteur	direkteure direkteurs
+8	1008	half	halwe
+9	1009	groen	groene groener groenes groens groenste
+10	1010	reaksie	reaksies
+11	1011	meen	gemeen meenende
+12	1012	behaal	behaalde
+13	1013	links	linkse linkser
+14	1014	daarby	
+15	1015	aards	aardse
+16	1016	nommer	nommers
+17	1017	generaal	generaals
+18	1018	aanstel	aangestel
+19	1019	bekommerd	bekommerde
+20	1020	getal	getalle
+21	1021	kenmerk	gekenmerk kenmerke kenmerkende
+22	1022	glimlag	geglimlag glimlagge glimlaggende glimlagte
+23	1023	koue	
+24	1024	aanneem	aangeneem
+25	1025	toer	getoer toere toerende toertjie toertjies
+26	1026	betref	
+27	1027	engel	engele
+28	1028	geveg	gevegte
+29	1029	histories	historiese
+30	1030	vergadering	vergaderinge vergaderings
+31	1031	melk	gemelk
+32	1032	wild	wilde wilder wildste
+33	1033	daagliks	daaglikse
+34	1034	finaal	finale
+35	1035	gat	gaatjie gate gatjie gatte
+36	1036	tempel	tempels tempeltjie
+37	1037	vervaardig	vervaardigde vervaardiger vervaardigers
+38	1038	koste	kostes
+39	1039	nes	genes nessie neste
+40	1040	getuienis	getuienisse
+41	1041	helfte	helftes
+42	1042	hardloop	gehardloop hardlopende
+43	1043	samelewing	samelewings
+44	1044	lidmaat	lidmate
+45	1045	skuldig	skuldige skuldiges skuldigste
+46	1046	vanjaar	
+47	1047	perfek	perfekte
+48	1048	werklikheid	werklikhede
+49	1049	Russies	russiese
+50	1050	gevoel	gevoelens
+51	1051	lyf	lyfie lywe
+52	1052	meng	gemeng menger mengers mengs
+53	1053	verskeidenheid	verskeidenhede
+54	1054	mal	malle maller malles mals malste
+55	1055	bedank	
+56	1056	reën	gereën reëns reëntjie
+57	1057	goddelik	goddelike goddeliker goddelikke goddeliks
+58	1058	tema	tema's temas tematjies
+59	1059	verslag	verslae
+60	1060	mevrou	
+61	1061	speler	spelers
+62	1062	honderd	honderde
+63	1063	oggend	oggende
+64	1064	vanweë	
+65	1065	lyn	lyne lyntjie lyntjies
+66	1066	geliefde	geliefdes
+67	1067	stand	gestand stande stander standers stands
+68	1068	element	elemente elementjie elements
+69	1069	organisasie	organisasies
+70	1070	laai	gelaai laaie laaiende laaitjie
+71	1071	kameraad	kameraadjies kamerade
+72	1072	kaptein	kapteins
+73	1073	redelik	geredelik redelike redeliker redelikste
+74	1074	kaap	kape
+75	1075	volkome	
+76	1076	geslag	geslagte
+77	1077	uiters	uiterse
+78	1078	oorwinning	oorwinnings
+79	1079	beginsel	beginsels
+80	1080	weergawe	weergawes
+81	1081	slim	slime slimme slimmer slimste
+82	1082	privaat	private
+83	1083	boos	boosste bose
+84	1084	merk	gemerk merke merker merkers merkie merkies
+85	1085	beurt	beurte
+86	1086	digter	digteres digters
+87	1087	afstand	afstande
+88	1088	waarsku	gewaarsku
+89	1089	band	bande bandjie bandjies bands geband
+90	1090	onderrig	
+91	1091	basis	basisse
+92	1092	gemiddeld	gemiddelde
+93	1093	gevaarlik	gevaarlike gevaarliker gevaarlikste
+94	1094	rug	ruggie rûe rûens
+95	1095	bak	bakke bakkende gebak
+96	1096	leerling	leerlinge
+97	1097	sodoende	
+98	1098	open	geopen
+99	1099	positief	positiefste positiewe positiewer
+100	1100	klip	klippe

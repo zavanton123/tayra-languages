@@ -1,0 +1,100 @@
+1	201	enige	eniges enigeste
+2	202	noem	genoem
+3	203	hoog	hoogste hoë hoër
+4	204	soek	gesoek soekende
+5	205	natuurlik	natuurlike natuurliker natuurlikste
+6	206	ten	tens tentjie tentjies
+7	207	vorm	gevorm vorme vormende vormpie vorms
+8	208	steeds	
+9	209	dieselfde	
+10	210	verstaan	
+11	211	volgens	volgense
+12	212	moenie	
+13	213	mekaar	
+14	214	lê	gelê liggende lêende
+15	215	water	gewater waterende waters
+16	216	rolprent	rolprente rolprentjie
+17	217	lig	gelig ligste ligte ligtende ligter
+18	218	pa	pa's pappie pappies
+19	219	sodat	
+20	220	oog	ogie oë
+21	221	genoeg	
+22	222	Afrikaans	afrikaanse
+23	223	veral	
+24	224	moontlik	moontlike
+25	225	regtig	geregtig regtige
+26	226	geld	gelde
+27	227	los	gelos lose loser
+28	228	saak	sake
+29	229	gees	geeste
+30	230	miskien	
+31	231	leef	geleef lewende
+32	232	asseblief	seblief
+33	233	vol	volle voller volste
+34	234	pad	paadjie paaie
+35	235	alleen	alleenste
+36	236	tydens	
+37	237	laaste	
+38	238	niemand	
+39	239	verander	veranderde veranderende
+40	240	besluit	besluite
+41	241	gelukkig	gelukkige gelukkiger gelukkigste
+42	242	lekker	lekkerder lekkerders lekkers lekkerste lekkerstes lekkertjie
+43	243	loop	geloop lope lopende lopie
+44	244	dalk	
+45	245	veel	vele
+46	246	stuur	gestuur stuurs
+47	247	skool	skole skooltjie
+48	248	gevolg	gevolge
+49	249	dikwels	
+50	250	week	weke
+51	251	geval	gevalle
+52	252	lei	gelei leidende
+53	253	binne	
+54	254	manier	maniere
+55	255	luister	geluister luisterende
+56	256	oud	horingoud oeroud ouds oudste oudstes oue ouer ouere oueres oues stokoud
+57	257	maklik	maklike makliker maklikste
+58	258	gou	
+59	259	beteken	betekende
+60	260	graag	
+61	261	slaap	geslaap slape slapende
+62	262	sterk	sterke sterker sterkere sterkeres sterkers sterkes sterkste sterkstes
+63	263	verkeerd	verkeerde verkeerds verkeerdste
+64	264	majesteit	majesteite
+65	265	dra	draende gedra
+66	266	gemeente	gemeentes
+67	267	onthou	
+68	268	vier	gevier
+69	269	hoop	gehoop hope hopende hopie
+70	270	vroeg	vroegste vroeë vroeër
+71	271	trek	getrek trekke trekkende
+72	272	meneer	menere
+73	273	eet	geëet
+74	274	einde	eindes
+75	275	hoekom	
+76	276	probleem	probleempie probleme
+77	277	ontvang	ontvangende
+78	278	duidelik	duidelike duideliker duidelikste
+79	279	verskeie	verskeies
+80	280	wys	gewys
+81	281	vraag	vrae vragie
+82	282	maand	maande
+83	283	jammer	
+84	284	tweede	
+85	285	naby	nabye nader
+86	286	arm	arme armer armes armpie arms armste armstes
+87	287	vinnig	vinnige vinniger vinnigste
+88	288	stad	stede
+89	289	daarna	
+90	290	agter	
+91	291	kort	korte korter kortes kortste
+92	292	watter	
+93	293	stem	gestem stemme stemmende
+94	294	meeste	
+95	295	antwoord	antwoorde antwoordende geantwoord
+96	296	dogter	dogters dogtertjie dogtertjies
+97	297	uur	ure
+98	298	verloor	
+99	299	persoon	persone
+100	300	staat	state

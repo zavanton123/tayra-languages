@@ -1,0 +1,100 @@
+1	5901	handwoordeboek	
+2	5902	kameeldoring	kameeldorings
+3	5903	kopermyn	kopermyne
+4	5904	pensioentrekker	pensioentrekkers
+5	5905	afsmeek	
+6	5906	bekleed	
+7	5907	agnostikus	agnostici
+8	5908	sinsbou	
+9	5909	beheersing	
+10	5910	wêreldtoer	wêreldtoere
+11	5911	samespraak	samesprake
+12	5912	pateet	patete
+13	5913	veertigste	
+14	5914	amputasie	amputasies
+15	5915	beleë	
+16	5916	pleegouers	
+17	5917	skeikunde	
+18	5918	beswaarskrif	beswaarskrifte
+19	5919	goudvis	goudvisse goudvissies
+20	5920	vuurklip	
+21	5921	lugversorger	lugversorgers
+22	5922	hobo	hobo's
+23	5923	aanbrand	
+24	5924	boogskiet	
+25	5925	papaja	papajas
+26	5926	belhamel	belhamels
+27	5927	agterkleinseun	agterkleinseuns
+28	5928	geldwassery	
+29	5929	een-en-twintigste	
+30	5930	akrobaties	akrobatiese
+31	5931	geelhout	
+32	5932	alliterasie	alliterasies
+33	5933	bedrewenheid	bedrewenhede
+34	5934	waterbok	waterbokke
+35	5935	kokkewiet	kokkewiete
+36	5936	behang	behangde
+37	5937	apache	apaches
+38	5938	vuurvas	vuurvaste
+39	5939	bosbok	bosbokke
+40	5940	vleisbraai	vleisbraaie vleisbraaiers
+41	5941	preuts	preutse
+42	5942	ekstreem	
+43	5943	herverkiesing	
+44	5944	lym	lyme
+45	5945	telefoonhokkie	telefoonhokkies
+46	5946	hoeveelste	
+47	5947	mensehandel	
+48	5948	teetyd	teetye
+49	5949	skenkel	skenkels
+50	5950	sestigste	
+51	5951	rektum	
+52	5952	bibliografie	bibliografieë
+53	5953	asbes	
+54	5954	afvuur	
+55	5955	bazaar	bazaars
+56	5956	vuurwerk	
+57	5957	paljas	
+58	5958	kafeteria	
+59	5959	verblyfreg	
+60	5960	bloukraanvoël	bloukraanvoëls
+61	5961	altaarstuk	altaarstukke
+62	5962	koepee	koepees
+63	5963	melkskommel	melkskommels
+64	5964	seepkis	seepkissie seepkissies seepkiste
+65	5965	farmakologie	
+66	5966	bekoorlikheid	bekoorlikhede
+67	5967	onbedaarlik	
+68	5968	kwêvoël	kwêvoëls
+69	5969	beroer	beroerde
+70	5970	akupunktuur	
+71	5971	opgaardam	opgaardamme
+72	5972	njala	njalas
+73	5973	nuanse	
+74	5974	soetdoring	soetdorings
+75	5975	allo	allos
+76	5976	reun	reuns reuntjie
+77	5977	alkoholmisbruik	
+78	5978	hoogtevrees	
+79	5979	kaaskoek	
+80	5980	abattoir	abattoirs
+81	5981	beërf	
+82	5982	afstof	
+83	5983	kreukel	kreukels
+84	5984	stopteken	stoptekens
+85	5985	koorsig	koorsige koorsigste
+86	5986	broom	
+87	5987	epiloog	
+88	5988	akwaduk	akwadukte
+89	5989	skor	
+90	5990	voortbrengsel	voortbrengsels
+91	5991	apokalips	
+92	5992	grasgroen	
+93	5993	afsydigheid	
+94	5994	springgety	
+95	5995	benedeloop	
+96	5996	moltreinstelsel	moltreinstelsels
+97	5997	hangmat	hangmatte
+98	5998	makou	makoue
+99	5999	bloekom	bloekoms
+100	6000	abdikasie	

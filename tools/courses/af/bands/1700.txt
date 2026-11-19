@@ -1,0 +1,100 @@
+1	1601	rots	rotse
+2	1602	skrik	geskrik skrikke
+3	1603	beskerming	beskermings
+4	1604	uitgaan	uitgaande uitgegaan
+5	1605	vark	varke varkie
+6	1606	opgewonde	
+7	1607	dak	dakke dakkie
+8	1608	simbool	simbole
+9	1609	adres	adresse
+10	1610	versameling	versamelings
+11	1611	kleintjie	kleintjies
+12	1612	roete	roetes
+13	1613	waag	gewaag
+14	1614	jeug	
+15	1615	hout	
+16	1616	drank	dranke drankie
+17	1617	voormalige	
+18	1618	toekenning	toekennings
+19	1619	beleid	beleide beleidende
+20	1620	indruk	indrukke
+21	1621	voorwaarde	voorwaardes
+22	1622	instrument	instrumente instrumentjie instruments
+23	1623	inneem	ingeneem
+24	1624	beskuldigde	beskuldigdes
+25	1625	deeglik	deeglike deegliker
+26	1626	tydelik	tydelike
+27	1627	volwasse	
+28	1628	bitter	bitterder bittere bitterste
+29	1629	geselskap	geselskappe geselskappie
+30	1630	vanoggend	
+31	1631	oppervlak	oppervlakke
+32	1632	benadering	benaderinge benaderings
+33	1633	gereformeerd	gereformeerde
+34	1634	vroulik	vroulike vrouliker
+35	1635	verbied	verbiedende
+36	1636	steur	gesteur steurende
+37	1637	uitspraak	uitsprake
+38	1638	aansienlik	aansienlike aansienliker aansienlikste
+39	1639	emosie	emosies
+40	1640	spaar	gespaar
+41	1641	vlees	
+42	1642	skaam	geskaam
+43	1643	kilometer	kilometers
+44	1644	hiervoor	
+45	1645	vergroot	
+46	1646	vet	vete veter veters vetjie vetjies vets vetste vette vetter vettie vetties
+47	1647	jongmens	jongmense
+48	1648	skok	geskok skokke
+49	1649	opbou	opbouende opgebou
+50	1650	volmaak	volmaakste volmaakte
+51	1651	gunsteling	gunstelinge
+52	1652	instel	ingestel
+53	1653	kamera	kameras
+54	1654	instelling	instellinge instellings
+55	1655	traan	traantjie trane
+56	1656	verower	verowerde verowerende
+57	1657	troos	getroos
+58	1658	vloot	vlote
+59	1659	roekeloos	roekeloose
+60	1660	ontsnap	
+61	1661	vloer	vloere
+62	1662	kus	gekus kusse kuste
+63	1663	vuil	vuile vuiler vuilste
+64	1664	omring	omringde omringende
+65	1665	oorsaak	
+66	1666	doodgaan	doodgegaan
+67	1667	versorg	versorgde versorgende versorger versorgers
+68	1668	reus	reuse
+69	1669	nêrens	nergens
+70	1670	byt	byte bytende gebyt
+71	1671	verraai	verraaier verraaiers
+72	1672	behels	behelsende
+73	1673	woede	
+74	1674	ras	rasende rass rasse rassie rassies
+75	1675	slot	slotjie slotte
+76	1676	akkommodasie	
+77	1677	landbou	
+78	1678	brein	breine breins breintjie breintjies
+79	1679	besonderheid	besonderhede besonderheidjie
+80	1680	skoot	skote
+81	1681	rugby	
+82	1682	ondanks	
+83	1683	weggaan	weggegaan
+84	1684	erkenning	erkennings
+85	1685	vrystel	vrygestel
+86	1686	tegnies	tegniese
+87	1687	kol	kolde kolle koller kolletjie kolletjies kollie kollies
+88	1688	resep	resepte
+89	1689	doelwit	doelwitte
+90	1690	spoedig	spoedige spoediger
+91	1691	aanbod	aanbieding aanbiedinge aanbiedings
+92	1692	hallo	
+93	1693	publikasie	publikasies
+94	1694	teorie	teoriee teories
+95	1695	spandeer	gespandeer
+96	1696	munisipaliteit	munisipaliteite
+97	1697	weeg	geweeg
+98	1698	hierheen	
+99	1699	stort	gestort storte
+100	1700	êrens	

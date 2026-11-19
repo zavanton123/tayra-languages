@@ -1,0 +1,100 @@
+1	901	wapen	wapens wapentjie
+2	902	beloof	beloofde
+3	903	voordeel	voordele
+4	904	wyd	wydste wye wyer
+5	905	stof	stoffie stoffies stowwe
+6	906	gelowige	gelowiges
+7	907	verlore	
+8	908	behandel	behandelde behandelende
+9	909	herken	
+10	910	hanteer	gehanteer hanteerde
+11	911	sak	gesak saker sakie sakies sakke sakkies
+12	912	voorheen	
+13	913	geleë	
+14	914	sogenaamd	sogenaamde
+15	915	verteenwoordig	verteenwoordigde verteenwoordige verteenwoordigende verteenwoordigers
+16	916	leerder	geleerder leerders
+17	917	betekenis	betekenisse
+18	918	pos	gepos pose poss posse possie
+19	919	bevind	
+20	920	uitstekend	uitstekende uitstekender
+21	921	waaroor	
+22	922	bloot	bloots blote
+23	923	blyk	blyke blykies geblyk
+24	924	meter	meters metertjie metertjies
+25	925	spoor	gespoor spoortjie spoortjies spore
+26	926	tref	getref
+27	927	kruis	gekruis kruise kruisende kruisie
+28	928	veg	vegtende
+29	929	suksesvol	suksesvolle suksesvoller suksesvolste
+30	930	verbind	verbinde verbindende
+31	931	helder	helderder helderste
+32	932	skei	geskei skeidende
+33	933	nooi	genooi nooiens nooientjie noointjie
+34	934	president	president's presidente presidenters presidents
+35	935	aanvanklik	
+36	936	weier	geweier weiers
+37	937	moeg	moeë moeër
+38	938	diegene	
+39	939	doodmaak	doodgemaak
+40	940	meestal	
+41	941	spyt	gespyt spyte
+42	942	geskenk	geskenke geskenkie
+43	943	alreeds	
+44	944	hel	gehel helende heler helers helle heller hels
+45	945	verantwoordelik	verantwoordelike verantwoordeliker verantwoordelikste
+46	946	magtig	gemagtig magtige magtigende magtiger magtigste
+47	947	behoefte	behoeftes behoeftetjie
+48	948	straat	strate
+49	949	Sondag	sondae
+50	950	wakker	wakkere wakkerste
+51	951	hoogte	hoogtes hoogtetjie
+52	952	steel	gesteel
+53	953	verbeter	verbeterde verbeterende
+54	954	eiland	eilande eilandjie
+55	955	grap	gegrap grape grappe grappie grappies grapste
+56	956	optrede	optredes
+57	957	daad	dade
+58	958	venster	vensters
+59	959	jaarliks	jaarlikse
+60	960	mening	meninge menings
+61	961	eindig	eindige eindigende eindigs geeindig geëindig
+62	962	wedstryd	wedstryde
+63	963	gerus	
+64	964	aard	geaard
+65	965	bron	bronne bronner bronnie bronnies
+66	966	droog	droogste droë droër gedroog
+67	967	luitenant	
+68	968	vlag	vlae
+69	969	kuier	gekuier kuierende
+70	970	klim	geklim klimmende
+71	971	vernietig	vernietigde vernietigende vernietiger
+72	972	brood	brode
+73	973	departement	departemente
+74	974	militêr	militêre
+75	975	koerant	koerante koerantjie
+76	976	dui	duie duiste gedui
+77	977	onmiddellik	onmiddelik onmiddellike
+78	978	klere	
+79	979	twyfel	getwyfel twyfelende twyfels
+80	980	eis	eise eiser eisers geeis
+81	981	tipe	tipeer tipes
+82	982	klop	geklop kloppe klopper kloppers kloppie
+83	983	oorleef	oorlewende oorlewendes
+84	984	soen	gesoen soene soentjie
+85	985	vervang	vervangde vervangende vervanger
+86	986	seisoen	seisoene
+87	987	oortuig	oortuigende
+88	988	vermoor	vermoorde
+89	989	akademie	akademies akademiese akademiess
+90	990	finansieel	finansieele finansiële
+91	991	lys	lysie lyste
+92	992	hospitaal	hospitale
+93	993	eendag	
+94	994	regs	
+95	995	tradisioneel	tradisionele
+96	996	moord	moorde
+97	997	deelneem	deelgeneem deelneemers
+98	998	eier	eiers
+99	999	vrolik	vrolike vroliker vrolikste
+100	1000	beweer	beweerde

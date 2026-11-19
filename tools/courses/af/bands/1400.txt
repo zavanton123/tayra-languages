@@ -1,0 +1,100 @@
+1	1301	prent	prente prentjie
+2	1302	joune	
+3	1303	onderwys	
+4	1304	trein	treine treintjie
+5	1305	eienaar	eienaars
+6	1306	drama	drama's dramas
+7	1307	testament	testamente testaments
+8	1308	verwerp	verwerpers
+9	1309	vereis	
+10	1310	toegang	getoegang toegange
+11	1311	hierna	
+12	1312	vertaling	vertalings
+13	1313	berig	beriggie berigte
+14	1314	eiendom	eiendomme eiendoms
+15	1315	getuie	getuies
+16	1316	leeg	leë
+17	1317	prokureur	prokureurs
+18	1318	regeer	geregeer regerende
+19	1319	verdedig	verdedigde verdedigende verdediger verdedigers
+20	1320	onbekend	onbekende onbekender onbekendste
+21	1321	moontlikheid	moontlikhede
+22	1322	misdaad	misdade
+23	1323	hemels	hemelse
+24	1324	herinner	
+25	1325	onsself	
+26	1326	provinsie	provinsies
+27	1327	meet	gemeet meets
+28	1328	moed	moede
+29	1329	bruin	bruine bruiner bruiners bruines bruinste
+30	1330	kerkraad	kerkraads
+31	1331	regverdig	geregverdig regverdige regverdigende regverdiger regverdigste
+32	1332	styg	gestyg stygende styger
+33	1333	bladsy	bladsye
+34	1334	stroom	gestroom stroompie stroompies
+35	1335	opstel	opgestel opstelle opsteller opstellers opstelletjie
+36	1336	klank	klanke
+37	1337	funksie	funksies
+38	1338	oprig	opgerig
+39	1339	bereid	bereide
+40	1340	toneel	toneeltjie toneeltjies
+41	1341	vorentoe	
+42	1342	smaak	gesmaak smaakie
+43	1343	reageer	gereageer
+44	1344	verskoning	verskonings
+45	1345	uitgawe	uitgawes
+46	1346	verkondig	verkondigde verkondiger verkondigers
+47	1347	waardeur	
+48	1348	agtergrond	agtergronde
+49	1349	insig	insigte
+50	1350	media	mediae
+51	1351	waarheen	
+52	1352	dankbaar	dankbaarste
+53	1353	vakansie	vakansies
+54	1354	mensdom	
+55	1355	sel	selle
+56	1356	prakties	praktiese
+57	1357	dop	dope doper doppe dopper doppers doppie doppies gedop
+58	1358	verloop	
+59	1359	ewigheid	ewighede ewigheids
+60	1360	personeel	personele
+61	1361	onafhanklik	onafhanklike onafhankliker onafhanklikste
+62	1362	kombuis	kombuise
+63	1363	blanke	blankes
+64	1364	identifiseer	geidentifiseer geïdentifiseer
+65	1365	kaart	kaarte
+66	1366	belangstelling	belangstellings
+67	1367	dik	dikke dikker dikkes dikste
+68	1368	hoed	hoede hoedens hoedjie
+69	1369	vergelyk	vergelykende
+70	1370	fliek	flieks
+71	1371	rook	gerook rokende
+72	1372	laer	
+73	1373	rand	rande
+74	1374	naaste	naastes
+75	1375	skerp	skerpe skerper skerpste
+76	1376	guns	gunste
+77	1377	inderdaad	
+78	1378	verrassing	verassing verassings verrassings
+79	1379	verkiesing	verkiesings
+80	1380	woud	woude
+81	1381	boonop	
+82	1382	kla	gekla klade klae klaende klaer klaers
+83	1383	negatief	negatiefste negatiewe
+84	1384	identiteit	identiteite identiteits
+85	1385	uitdaging	uitdaginge uitdagings
+86	1386	saad	saadjie sade
+87	1387	verklaring	verklaringe verklarings
+88	1388	vertroue	
+89	1389	nood	noode
+90	1390	kategorie	kategoriee kategories kategorieë
+91	1391	olie	olies
+92	1392	blind	blinde blinder blindste
+93	1393	oorbly	oorblywende oorgebly
+94	1394	bestuurder	bestuurders bestuurdertjie
+95	1395	godsdiens	godsdienste
+96	1396	behoorlik	behoorlike behoorliks
+97	1397	sentrum	sentrums
+98	1398	baseer	gebaseer
+99	1399	plat	plate platjie platte platter platters platties
+100	1400	sentrale	sentrales

@@ -1,0 +1,100 @@
+1	3001	heeldag	
+2	3002	manuskrip	manuskripte
+3	3003	meld	gemeld melde melder
+4	3004	elf	
+5	3005	daaropvolgend	daaropvolgende
+6	3006	ervare	ervares
+7	3007	oorvloed	oorvloede
+8	3008	verveeld	verveelde
+9	3009	korrupsie	
+10	3010	hede	hedes
+11	3011	toorn	
+12	3012	agteruit	
+13	3013	daarbenewens	
+14	3014	wins	
+15	3015	gemoed	gemoedere
+16	3016	oorsee	
+17	3017	onderweg	
+18	3018	konstruksie	konstruksies
+19	3019	gerieflik	gerieflike geriefliker gerieflikste
+20	3020	aanvaarbaar	aanvaarbaarste
+21	3021	ontbind	ontbinde ontbindende ontbinders
+22	3022	voorraad	
+23	3023	behartig	
+24	3024	weldra	weldrae
+25	3025	verlowing	verlowings
+26	3026	aandeel	
+27	3027	vervaardiging	vervaardigings
+28	3028	baard	baarde
+29	3029	beskikking	beskikkinge
+30	3030	goewerneur	goewerneurs
+31	3031	toeris	toeriste
+32	3032	ingevolge	
+33	3033	beurs	beurse
+34	3034	rof	
+35	3035	pet	pete peters pets pette petter
+36	3036	beveg	
+37	3037	deeg	deegde deegie
+38	3038	onderhandel	onderhandelde
+39	3039	sabbat	sabbatte
+40	3040	nywerheid	nywerhede nywerheids
+41	3041	oorgawe	oorgawes
+42	3042	geduldig	geduldige geduldiger geduldigste
+43	3043	wysig	gewysig
+44	3044	orgaan	organe
+45	3045	toeskryf	toegeskryf
+46	3046	regdeur	
+47	3047	rakende	
+48	3048	erf	
+49	3049	matig	gematig matige matigende matiger
+50	3050	swembad	swembaddens swembadjie
+51	3051	kommer	kommers
+52	3052	evolusie	evolusies
+53	3053	simpatie	
+54	3054	verligting	
+55	3055	deursnee	
+56	3056	kritiseer	gekritiseer
+57	3057	doek	doeke doekie
+58	3058	klee	geklee
+59	3059	federaal	federale
+60	3060	kloof	gekloof klowe
+61	3061	sitkamer	sitkamers sitkamertjie
+62	3062	etnies	etniese
+63	3063	meubel	meubels
+64	3064	hoer	hoere
+65	3065	os	osse ossie
+66	3066	vergaan	
+67	3067	seermaak	
+68	3068	toeganklik	toeganklike toegankliker toeganklikste
+69	3069	lastig	lastige lastiger
+70	3070	vermeerder	vermeerderde vermeerderende
+71	3071	koeël	koeëls
+72	3072	kitaar	kitare
+73	3073	gif	gifte giwwe
+74	3074	agterkom	
+75	3075	herdenking	herdenkinge herdenkings
+76	3076	webblad	webbladdie
+77	3077	teoloog	teoloë
+78	3078	put	putte
+79	3079	sisteem	
+80	3080	horing	horings horinkie
+81	3081	suurstof	
+82	3082	snelheid	snelhede
+83	3083	opvatting	opvattinge opvattings
+84	3084	skryfwerk	
+85	3085	boks	bokse boksie geboks
+86	3086	sendeling	sendelinge
+87	3087	skeef	skewe
+88	3088	onsigbaar	onsigbare
+89	3089	opvoedkundig	opvoedkundige
+90	3090	ontneem	
+91	3091	sap	sappe sapper sappies saps
+92	3092	nagraads	nagraadse
+93	3093	goeienaand	
+94	3094	altaar	altare
+95	3095	veels	
+96	3096	afval	afvalle
+97	3097	finansies	
+98	3098	waartydens	
+99	3099	raamwerk	raamwerke raamwerkie
+100	3100	beswaar	beswaarde

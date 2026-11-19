@@ -1,0 +1,100 @@
+1	3901	bagasie	
+2	3902	databasis	
+3	3903	ambassadeur	ambassadeurs
+4	3904	ophef	
+5	3905	monarg	monarge
+6	3906	arts	artse
+7	3907	ruïne	ruïnes
+8	3908	skerf	skerwe
+9	3909	parasiet	parasiete
+10	3910	robot	robotte
+11	3911	bekentenis	bekentenisse
+12	3912	loods	loodse
+13	3913	vitamien	vitamiene
+14	3914	inspekteur	inspekteurende inspekteurs
+15	3915	bedroef	bedroefde
+16	3916	ham	hamme
+17	3917	wyser	wysers
+18	3918	betuig	
+19	3919	aantekening	aantekeninge aantekenings
+20	3920	skoondogter	skoondogters
+21	3921	katalogus	katalogusse
+22	3922	bekoorlik	bekoorlike bekoorlikste
+23	3923	aksent	aksente
+24	3924	swaan	swane
+25	3925	blits	blitse
+26	3926	adelik	adelike adelikke
+27	3927	dagga	
+28	3928	japie	
+29	3929	naasteliefde	
+30	3930	spreekwoord	spreekwoorde
+31	3931	senuweeagtig	senuweeagtige
+32	3932	uitdruk	uitdrukke
+33	3933	agterdeur	agterdeure agterdeurtjie
+34	3934	woordeskat	woordeskatte
+35	3935	afstootlik	afstootlike afstootliker afstootlikste
+36	3936	lood	
+37	3937	verwaarloos	
+38	3938	kilogram	kilogramme
+39	3939	aanhaal	
+40	3940	dor	dorre dorste
+41	3941	kapel	kapelle
+42	3942	fasiliteer	fasiliteerde gefasiliteer
+43	3943	voorstad	voorstadjie
+44	3944	vreedsaam	vreedsaamste
+45	3945	sewentig	
+46	3946	aanranding	aanrandings
+47	3947	domkop	domkoppe
+48	3948	dy	dye
+49	3949	voortplanting	
+50	3950	korrup	korrupste korrupte
+51	3951	dinosourus	dinosourusse
+52	3952	mensheid	
+53	3953	alliansie	alliansies
+54	3954	voorskrif	voorskriffie
+55	3955	au	aude aue auer aus
+56	3956	plofstof	
+57	3957	vuis	vuiste
+58	3958	vullis	
+59	3959	aanbetref	
+60	3960	bede	bedes
+61	3961	diploma	diplomas
+62	3962	winkelsentrum	winkelsentrums
+63	3963	wetenskaplik	
+64	3964	fiks	fikse fikser
+65	3965	opeet	opgeëet
+66	3966	werkwoord	werkwoorde
+67	3967	doos	dose dosie
+68	3968	aansluiting	aansluitings
+69	3969	angstig	angstige angstiger
+70	3970	uil	uile uiltjie
+71	3971	entstof	entstowwe
+72	3972	skraal	
+73	3973	inlei	ingelei inleidende
+74	3974	delikaat	delikaatste
+75	3975	skakering	skakeringe skakerings
+76	3976	bedel	bedelende gebedel
+77	3977	hakie	hakies
+78	3978	veldslag	veldslae
+79	3979	telegram	telegramme
+80	3980	aandrang	
+81	3981	penis	penisse
+82	3982	bont	bonte bonter bonters bontste
+83	3983	volstruis	volstruise
+84	3984	enersyds	
+85	3985	onaangenaam	onaangenaams onaangenaamste
+86	3986	spioeneer	gespioeneer
+87	3987	ingewande	
+88	3988	agterplaas	agterplase
+89	3989	boekwinkel	boekwinkels boekwinkeltjie
+90	3990	rog	roger rogers rogge
+91	3991	belet	
+92	3992	ertjie	erte ertjies
+93	3993	buffel	buffels
+94	3994	verte	vertes
+95	3995	skroom	geskroom
+96	3996	beroerte	beroertes
+97	3997	klier	kliere kliertjie
+98	3998	negende	
+99	3999	berokken	
+100	4000	skrap	geskrap

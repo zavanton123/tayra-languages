@@ -1,0 +1,100 @@
+1	5201	halssnoer	halssnoere
+2	5202	valskerm	valskerms
+3	5203	kostelik	kostelike kostelikste
+4	5204	kruk	krukke
+5	5205	fosfor	
+6	5206	primaat	primate
+7	5207	rampokker	rampokkers
+8	5208	reeksmoordenaar	reeksmoordenaars
+9	5209	trem	trems
+10	5210	rotstekening	rotstekeninge
+11	5211	fokkol	fokol
+12	5212	kartel	kartels
+13	5213	vloekwoord	vloekwoorde
+14	5214	motorfietsryer	motorfietsryers
+15	5215	ontklee	
+16	5216	geregshof	geregshowe
+17	5217	fiskaal	fiskale
+18	5218	kleim	kleims
+19	5219	halfbroer	halfbroers
+20	5220	analoog	
+21	5221	geskoolde	geskooldes
+22	5222	tesourie	
+23	5223	ateïsme	
+24	5224	trawant	trawante
+25	5225	onaards	onaardse
+26	5226	afstoot	
+27	5227	amber	
+28	5228	ordentlikheid	
+29	5229	laasnag	
+30	5230	sleutelbord	sleutelborde
+31	5231	voornaamwoord	voornaamwoorde
+32	5232	afsydig	afsydige
+33	5233	vetkoek	vetkoeke
+34	5234	benard	benarde
+35	5235	inspuit	inspuiters
+36	5236	banket	bankette
+37	5237	aftrekking	aftrekkings
+38	5238	agterstevoor	
+39	5239	kommandeur	
+40	5240	seevoël	seevoëls
+41	5241	kompartement	kompartemente kompartementjie kompartementjies
+42	5242	kuit	kuite
+43	5243	immoreel	
+44	5244	kelk	kelke kelkie
+45	5245	lugsak	lugsakke
+46	5246	veelrassig	veelrassige
+47	5247	antropologie	antropologies
+48	5248	agtervoegsel	agtervoegsels
+49	5249	skoonmoeder	
+50	5250	rondawel	rondawels
+51	5251	pou	poue
+52	5252	bioskoop	bioskope
+53	5253	agttiende	
+54	5254	smid	smede
+55	5255	fundamentalisme	
+56	5256	akkrediteer	geakkrediteer
+57	5257	gaas	gasie
+58	5258	voedsaam	voedsaamste
+59	5259	ystervark	ystervarke ystervarkie
+60	5260	losbandig	losbandige
+61	5261	koerantberig	koerantberigte
+62	5262	wantrouig	wantrouige
+63	5263	knal	knalle
+64	5264	skim	skimme
+65	5265	wildebees	wildebeeste
+66	5266	leunstoel	
+67	5267	aanbly	
+68	5268	ounooi	
+69	5269	spuug	gespuug
+70	5270	afvoer	afvoere afvoerende
+71	5271	baal	baals gebaal
+72	5272	bokser	boksers
+73	5273	voorskoot	voorskootjie voorskote
+74	5274	silikon	
+75	5275	angelier	angeliere
+76	5276	plaasdier	plaasdiere
+77	5277	alchemie	
+78	5278	sonate	sonates
+79	5279	afskeep	
+80	5280	skurf	skurwe
+81	5281	adelaar	adelaars
+82	5282	boep	boepie
+83	5283	ôraait	olraait oraait orraait
+84	5284	ambag	
+85	5285	magnesium	
+86	5286	bergtop	bergtoppe
+87	5287	smarag	smaragde
+88	5288	altoos	
+89	5289	beitel	beitels beiteltjie beiteltjies
+90	5290	koffiewinkel	koffiewinkels koffiewinkeltjie
+91	5291	argaïes	argaïese
+92	5292	mug	muggie
+93	5293	kampeerplek	kampeerplekke
+94	5294	benodigdhede	
+95	5295	smeltkroes	smeltkroese
+96	5296	morsdood	morsdooie
+97	5297	inasem	
+98	5298	blaker	blakers
+99	5299	grootpad	grootpaaie
+100	5300	bereidwillig	bereidwillige bereidwilligste

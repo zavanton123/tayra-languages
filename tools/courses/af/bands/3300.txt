@@ -1,0 +1,100 @@
+1	3201	ritme	ritmes
+2	3202	paal	paaltjie pale
+3	3203	beampte	beamptes
+4	3204	menigte	menigtes
+5	3205	passasier	passasiers
+6	3206	bruidegom	
+7	3207	soiets	
+8	3208	ontbloot	
+9	3209	dieet	diëte
+10	3210	hierdeur	
+11	3211	splinternuut	splinternuwe
+12	3212	hok	hokke hokkie
+13	3213	partykeer	
+14	3214	verstom	
+15	3215	nutteloos	nutteloosste
+16	3216	sewende	
+17	3217	skurk	skurke
+18	3218	teendeel	
+19	3219	toneelspel	toneelspele toneelspelende toneelspeler toneelspelers
+20	3220	vierkant	vierkante vierkantjie
+21	3221	stapel	gestapel stapels stapeltjie stapeltjies
+22	3222	ateljee	ateljees
+23	3223	kollege	kolleges
+24	3224	botsing	botsings
+25	3225	pomp	pompe pompie
+26	3226	aanstelling	aanstellings
+27	3227	paradys	paradyse
+28	3228	gerug	gerugte
+29	3229	meel	
+30	3230	ingenieur	ingenieurs
+31	3231	fluit	fluite fluitende fluiters fluitjie fluitjies gefluit
+32	3232	broei	broeiende broeier broeis gebroei
+33	3233	presteer	gepresteer
+34	3234	klant	klante
+35	3235	aftree	afgetree
+36	3236	aansteek	aangesteek
+37	3237	pensioen	pensioene pensioentjie
+38	3238	pakkie	pakkies
+39	3239	gestalte	gestaltes
+40	3240	middagete	
+41	3241	variasie	variasies
+42	3242	weeskind	weeskinders weeskindjie
+43	3243	ensovoorts	
+44	3244	beraam	beraamde
+45	3245	verplaas	verplaasde
+46	3246	saamkom	saamgekom
+47	3247	beloon	
+48	3248	burgerlik	burgerlike
+49	3249	boete	boetes
+50	3250	munt	munte
+51	3251	verloofde	verloofdes
+52	3252	kliniek	klinieke
+53	3253	opvoering	opvoerings
+54	3254	beoog	beoogde
+55	3255	heks	hekse
+56	3256	agtervolg	agtervolgde agtervolgende agtervolger agtervolgers
+57	3257	oorsig	
+58	3258	doeleinde	doeleindes
+59	3259	sentraal	
+60	3260	selfde	
+61	3261	peper	gepeper pepers
+62	3262	voorspelling	voorspellinge voorspellings
+63	3263	arriveer	gearriveer
+64	3264	begroting	begrotings
+65	3265	begraafplaas	begraafplase begraafplasie begrafplaas
+66	3266	kwaai	
+67	3267	skild	skilde
+68	3268	veiling	veilings
+69	3269	skedel	skedels skedeltjie
+70	3270	kudde	kuddes kuddetjie
+71	3271	hoofman	hoofmanne
+72	3272	berekening	berekeninge berekenings
+73	3273	weggesteek	
+74	3274	hoofkwartier	hoofkwartiere
+75	3275	uitkyk	uitgekyk
+76	3276	verdieping	verdiepings
+77	3277	geografies	geografiese
+78	3278	aanbidding	aanbiddings
+79	3279	aanbeveling	aanbevelings
+80	3280	maagd	maagde
+81	3281	genot	genote
+82	3282	teel	geteel
+83	3283	oortree	
+84	3284	gereedskap	gereedskappe
+85	3285	kak	gekak
+86	3286	argitektuur	argitekture
+87	3287	skitterend	skitterende skitterendste
+88	3288	boetie	boeties
+89	3289	skeer	geskeer
+90	3290	siklus	siklusse
+91	3291	beproef	beproefde
+92	3292	luis	luise
+93	3293	kommunisties	kommunistiese
+94	3294	sweef	gesweef swewende
+95	3295	plaat	plaatjie plaatjies plaats
+96	3296	versekering	versekeringe versekerings
+97	3297	aanraking	aanrakings
+98	3298	kristal	kristalle kristalletjie kristalletjies
+99	3299	reisiger	reisigers
+100	3300	duik	duike geduik

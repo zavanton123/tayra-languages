@@ -1,0 +1,100 @@
+1	3601	mantel	mantels manteltjie
+2	3602	geriewe	
+3	3603	handdoek	handdoeke
+4	3604	takbok	takbokke
+5	3605	fietsry	fietsryer fietsryers
+6	3606	aanvaller	aanvallers aanvallertjie
+7	3607	brandewyn	brandewyne brandewyntjie
+8	3608	bekendheid	
+9	3609	esel	esels eseltjie
+10	3610	meebring	
+11	3611	angel	angel's angele angels angeltjie
+12	3612	neut	neute
+13	3613	lafaard	lafaards
+14	3614	beman	bemande bemanne
+15	3615	sestig	
+16	3616	mier	miere
+17	3617	daarvandaan	
+18	3618	helm	helms
+19	3619	holte	holtes
+20	3620	ballingskap	ballingskappe
+21	3621	biografie	
+22	3622	afhaal	
+23	3623	pampoen	pampoene pampoentjie
+24	3624	sentimeter	sentimeters
+25	3625	byl	byle byltjie
+26	3626	lojaliteit	lojaliteite
+27	3627	motorfiets	motorfietse
+28	3628	ontspanning	ontspannings
+29	3629	myn	
+30	3630	halfrond	halfronde
+31	3631	spyskaart	spyskaarte
+32	3632	lapa	lapas
+33	3633	ledemaat	ledemate
+34	3634	maer	maerder maeres maerste
+35	3635	waterval	watervalle watervalletjie
+36	3636	taktiek	taktieke
+37	3637	aanskakel	aangeskakel
+38	3638	wrak	wrakke
+39	3639	huldig	gehuldig
+40	3640	buk	bukkende gebuk
+41	3641	sensitief	sensitiefste
+42	3642	dinastie	dinasties dinastieë
+43	3643	afskaf	afgeskaf
+44	3644	smaaklik	smaaklike smaakliker smaaklikste
+45	3645	vlei	gevlei vleie vleiende
+46	3646	iedere	ieder
+47	3647	renoster	renosters renostertjie
+48	3648	afmeting	afmetinge afmetings
+49	3649	swaartekrag	
+50	3650	joernaal	joernale
+51	3651	hartaanval	hartaanvalle
+52	3652	moedertaal	moedertale
+53	3653	aanvraag	aanvrae
+54	3654	outyds	outydse
+55	3655	heup	heupe
+56	3656	ambisie	ambisies
+57	3657	subtiel	subtiele subtieler
+58	3658	hamer	gehamer hamers hamertjie
+59	3659	verkenner	verkenners
+60	3660	terapie	terapieë
+61	3661	afgrond	afgronde
+62	3662	teef	tewe
+63	3663	handskoen	handskoene
+64	3664	waarvandaan	
+65	3665	appèl	appèlle
+66	3666	beleg	beleggers
+67	3667	voedingstof	voedingstowwe
+68	3668	gety	getye
+69	3669	doodstil	
+70	3670	bondel	bondels bondeltjie bondeltjies gebondel
+71	3671	gram	gramme grams
+72	3672	nael	naels
+73	3673	kopiereg	kopieregte
+74	3674	hys	gehys
+75	3675	sigeuner	sigeuners
+76	3676	gewese	
+77	3677	regterkant	
+78	3678	elektron	elektrone
+79	3679	stadsaal	
+80	3680	omgang	
+81	3681	suurlemoen	suurlemoene
+82	3682	breuk	breuke
+83	3683	godin	godinne
+84	3684	moeras	moerasse
+85	3685	ferm	ferme fermer
+86	3686	boelie	boelies
+87	3687	bemagtig	bemagtigde bemagtigende
+88	3688	kronkel	gekronkel kronkelende kronkels
+89	3689	spyker	spykers spykertjie
+90	3690	weskus	
+91	3691	gedaante	gedaantes
+92	3692	seëning	seëninge
+93	3693	veertien	
+94	3694	kraai	gekraai kraaie
+95	3695	almag	
+96	3696	ru	ruwe ruwer
+97	3697	dosis	dosisse
+98	3698	kelner	kelners
+99	3699	besoedeling	besoedelings
+100	3700	pit	pite pitjie pitjies pits pitte

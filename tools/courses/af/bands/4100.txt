@@ -1,0 +1,100 @@
+1	4001	ontsteking	ontstekings
+2	4002	regmatig	regmatige
+3	4003	sakdoek	sakdoeke sakdoekie
+4	4004	karkas	karkasse karkassie
+5	4005	skilpad	skilpaaie
+6	4006	kolom	kolomme
+7	4007	mishandel	
+8	4008	gerief	
+9	4009	ligjaar	ligjare
+10	4010	ambassade	ambassades
+11	4011	agtste	
+12	4012	sens	sense
+13	4013	asteroïde	asteroïdes
+14	4014	kredietkaart	kredietkaarte
+15	4015	toonbank	toonbanke
+16	4016	mas	maste
+17	4017	wreedheid	wreedhede
+18	4018	ketel	ketels keteltjie
+19	4019	stokperdjie	stokperdjies
+20	4020	plafon	plafonne
+21	4021	slak	slakke
+22	4022	kleinseun	kleinseuns
+23	4023	oorslaan	oorgeslaan
+24	4024	borsel	borsels borseltjie borseltjies geborsel
+25	4025	sorgvuldig	sorgvuldige sorgvuldiger
+26	4026	poes	gepoes poese poesie poeste
+27	4027	duiker	duikers
+28	4028	naamwoord	naamwoorde
+29	4029	apostolies	apostoliese
+30	4030	mossie	mossies
+31	4031	rem	gerem remer remers remme
+32	4032	outisme	
+33	4033	pion	pionne
+34	4034	beskermer	beskermers
+35	4035	neutraliteit	
+36	4036	geraamte	geraamtes
+37	4037	skandelik	skandelike skandeliker skandelikste
+38	4038	skyfies	
+39	4039	behaag	
+40	4040	burgerskap	
+41	4041	diplomasie	
+42	4042	lekkergoed	
+43	4043	skel	geskel
+44	4044	wantroue	
+45	4045	donkerte	donkertes
+46	4046	x-straal	x-straaltjie x-strale
+47	4047	agting	
+48	4048	kortlys	kortlyste
+49	4049	opstandig	opstandige
+50	4050	bergreeks	bergreekse
+51	4051	akkedis	akkedisse
+52	4052	beligting	beligtings
+53	4053	baar	bare barende
+54	4054	kontroleer	gekontroleer
+55	4055	indeks	geindeks indekse
+56	4056	tabak	
+57	4057	nier	niere
+58	4058	sambreel	sambrele
+59	4059	ongedierte	ongediertes ongediertetjies
+60	4060	sprong	spronge
+61	4061	smous	smouse
+62	4062	granaat	granate
+63	4063	applikant	applikante
+64	4064	aandeelhouer	aandeelhouers
+65	4065	kleurryk	kleurryke kleurryker kleurrykste
+66	4066	reptiel	reptiele
+67	4067	kolf	gekolf kolwe
+68	4068	behoeftig	behoeftige behoeftiger
+69	4069	spinnekop	spinnekoppe
+70	4070	beheers	beheersde
+71	4071	tsaar	tsare
+72	4072	afskrif	
+73	4073	agtien	agttien
+74	4074	naaldwerk	naaldwerker
+75	4075	goeiemiddag	
+76	4076	dreigement	dreigemente
+77	4077	waterstof	
+78	4078	atmosferies	atmosferiese
+79	4079	voorgrond	
+80	4080	valk	valke valkie valkies
+81	4081	onderaan	
+82	4082	fok	gefok
+83	4083	teerpad	teerpaaie
+84	4084	geesdrif	
+85	4085	barbaars	barbaarse barbaarsste
+86	4086	diensplig	
+87	4087	bordeel	bordele
+88	4088	ambulans	ambulanse
+89	4089	seekoei	seekoeie
+90	4090	bekragtig	bekragtigde
+91	4091	parkeer	geparkeer
+92	4092	kleuterskool	
+93	4093	heldin	heldinne
+94	4094	ontlok	
+95	4095	lelie	lelies
+96	4096	konyn	konyne
+97	4097	skenking	
+98	4098	longontsteking	
+99	4099	afwagting	
+100	4100	reënboog	reënboë

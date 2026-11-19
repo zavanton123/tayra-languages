@@ -1,0 +1,100 @@
+1	2001	opsie	opsies
+2	2002	wyfie	wyfies
+3	2003	telkens	
+4	2004	nedersetting	nedersettings nedersettinkie
+5	2005	rapport	rapporte
+6	2006	kommunikasie	kommunikasies
+7	2007	geweer	geweertjie gewere
+8	2008	huisves	gehuisves
+9	2009	teenstander	teenstanders
+10	2010	gehalte	
+11	2011	s'n	
+12	2012	slang	slange
+13	2013	bad	baddens badjie
+14	2014	inheems	inheemse
+15	2015	stewig	stewige stewiger stewigste
+16	2016	afspraak	
+17	2017	woestyn	woestyne
+18	2018	netsoos	
+19	2019	dubbel	dubbele dubbelle dubbels dubbeltjie dubbeltjies
+20	2020	ontbyt	ontbyte
+21	2021	vervolg	vervolgde vervolge vervolger vervolgers
+22	2022	deurmekaar	deurmekaarste
+23	2023	twintig	
+24	2024	bepaling	bepalinge bepalings
+25	2025	eerstens	
+26	2026	byvoeg	bygevoeg
+27	2027	kompleks	komplekse komplekser
+28	2028	inkomste	inkomstes
+29	2029	aanskou	aanskoue aanskouer aanskouers
+30	2030	letterkunde	
+31	2031	orkes	orkeste
+32	2032	werknemer	werknemers
+33	2033	respekteer	gerespekteer
+34	2034	insek	insekte
+35	2035	lughawe	lughawens
+36	2036	teologie	
+37	2037	afhanklik	afhanklike afhankliker
+38	2038	allerlei	
+39	2039	suide	
+40	2040	skop	geskop
+41	2041	weerstand	weerstande
+42	2042	weduwee	weduwees wewenaar wewenaars
+43	2043	jagter	jagters
+44	2044	hawe	hawens hawes
+45	2045	wond	wonde
+46	2046	kommissie	kommissies
+47	2047	plus	plusse plussers
+48	2048	bruid	bruide bruidjie
+49	2049	leen	geleen leens leentjie
+50	2050	uitwerking	uitwerkinge uitwerkings
+51	2051	draad	draadjie drade
+52	2052	verhoed	
+53	2053	bakkie	bakkies
+54	2054	sondaar	sondaars sondares sondaresse
+55	2055	waarborg	gewaarborg waarborge
+56	2056	stigting	stigtings
+57	2057	mors	morse
+58	2058	heuwel	heuwels heuweltjie heuweltjies
+59	2059	skud	geskud
+60	2060	dek	dekke dekker dekkers
+61	2061	kombinasie	kombinasies
+62	2062	data	
+63	2063	vriendskap	
+64	2064	bekyk	
+65	2065	sedertdien	
+66	2066	beskawing	beskawings
+67	2067	toestemming	
+68	2068	openbaring	
+69	2069	blok	bloke blokke blokkie blokkies geblok
+70	2070	naand	
+71	2071	wek	gewek weker wekers wekkers
+72	2072	uitsondering	uitsonderinge uitsonderings
+73	2073	bedrag	bedraggie bedraggies
+74	2074	beledig	beledigde beledigende belediger beledigers
+75	2075	ruil	geruil
+76	2076	rykdom	rykdomme
+77	2077	swaard	swaarde swaardjie
+78	2078	fonds	fondse
+79	2079	opvoeding	
+80	2080	binnekort	
+81	2081	formeel	formeelste formele
+82	2082	deurdat	
+83	2083	weliswaar	
+84	2084	bestanddeel	bestanddele
+85	2085	Dinsdag	dinsdae
+86	2086	goedkeur	goedgekeur goedkeurende
+87	2087	biblioteek	biblioteke bibliotekie
+88	2088	komitee	komitees
+89	2089	plig	
+90	2090	kortverhaal	kortverhale
+91	2091	grootword	grootgeword
+92	2092	straal	strale
+93	2093	beer	beertjie bere
+94	2094	behulp	
+95	2095	saamstel	saamgestel
+96	2096	masjien	masjiene masjientjie
+97	2097	teiken	teikens
+98	2098	kreatief	kreatiefste kreatiewe
+99	2099	uitgewer	uitgewers
+100	2100	skrywe	geskrywe skrywes
