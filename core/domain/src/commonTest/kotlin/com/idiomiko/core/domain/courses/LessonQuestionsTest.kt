@@ -30,6 +30,12 @@ class LessonQuestionsTest {
     }
 
     @Test
+    fun theVietnameseHeaderIsFound() {
+        val split = LessonQuestions.split("Lan ở Hà Nội.\n\nCâu hỏi:\nLan ở đâu?\nLan ở Hà Nội.")
+        assertEquals(listOf(LessonQuestion("Lan ở đâu?", "Lan ở Hà Nội.")), split?.questions)
+    }
+
+    @Test
     fun blankLinesAmongTheQuestionsAndALineWrittenTwiceAreLetGo() {
         val split = LessonQuestions.split("Hasan çalışıyor.\n\nSorular:\nHasan ne yapıyor?\n\nÇalışıyor.\nNeden?\nNeden?\nÇünkü para lazım.")
         assertEquals(listOf("Hasan ne yapıyor?", "Neden?"), split?.questions?.map { it.question })
