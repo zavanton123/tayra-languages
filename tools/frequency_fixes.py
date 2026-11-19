@@ -2526,3 +2526,6 @@ REFILE = {"hy": {
         ("արձակ", "արձակել"), ("գրոհ", "գրոհել"), ("ջարդ", "ջարդել"), ("ձեռնարկ", "ձեռնարկել"), ("վառ", "վառել"),
         ("զարկ", "զարկել"), ("ազատ", "ազատել"), ("քաշ", "քաշել"), ("ձևավոր", "ձևավորել"), ("խաշ", "խաշել"))},
 }}
+
+# Vietnamese syllables counted for the English in subtitles ("I", "the"): i is a letter's name (i ngắn), the a silk gauze.
+EXCLUDE["vi"] = EXCLUDE.get("vi", set()) | {"i", "the"}
