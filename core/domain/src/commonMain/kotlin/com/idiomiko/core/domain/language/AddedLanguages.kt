@@ -377,6 +377,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun urdu() = LanguageDefinition(
+        language = Language(
+            name = "Urdu",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Urdu", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.rekhtadictionary.com/meaning-of-[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/ur/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ur&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = "۔.!?؟",
+            wordCharacters = "\\u200C\\u0600-\\u0608\\u0610-\\u061A\\u0620-\\u065F\\u066E-\\u06D3\\u06D5-\\u06EF\\u06FA-\\u06FF\\uFB50-\\uFDFF\\uFE70-\\uFEFC",
+            rightToLeft = true,
+            showRomanization = true,
+            parserType = "urdu",
+        ),
+    )
+
     private fun welsh() = LanguageDefinition(
         language = Language(
             name = "Welsh",
@@ -434,6 +452,7 @@ object AddedLanguages {
             oldIrish(),
             scottishGaelic(),
             tagalog(),
+            urdu(),
             welsh(),
             yiddish(),
         )

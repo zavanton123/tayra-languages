@@ -88,6 +88,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Toki Pona" to "Toki pona",
     "Turkish" to "Turc",
     "Ukrainian" to "Ukrainien",
+    "Urdu" to "Ourdou",
     "Vietnamese" to "Vietnamien",
     "Welsh" to "Gallois",
     "Yiddish" to "Yiddish",

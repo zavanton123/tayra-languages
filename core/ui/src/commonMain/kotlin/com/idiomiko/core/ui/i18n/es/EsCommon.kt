@@ -88,6 +88,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Toki Pona" to "Toki pona",
     "Turkish" to "Turco",
     "Ukrainian" to "Ucraniano",
+    "Urdu" to "Urdu",
     "Vietnamese" to "Vietnamita",
     "Welsh" to "Galés",
     "Yiddish" to "Ídish",

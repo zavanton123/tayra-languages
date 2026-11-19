@@ -28,4 +28,12 @@ class LanguageCodesTest {
         assertNotNull(Tutorials.forLanguage("Malay"))
         assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Malay" }.language.parserType)
     }
+
+    @Test
+    fun urduIsALanguageWithItsTutorial() {
+        assertEquals("ur", LanguageCodes.codeFor("Urdu"))
+        assertEquals("urd", LanguageCodes.tatoebaCode("ur"))
+        assertNotNull(Tutorials.forLanguage("Urdu"))
+        assertEquals("urdu", LanguageDefinitions.all.first { it.name == "Urdu" }.language.parserType)
+    }
 }

@@ -67,7 +67,7 @@ internal object OcrLanguages {
         "lv" to (OcrScript.LATIN to "lav"), "lt" to (OcrScript.LATIN to "lit"), "mk" to (OcrScript.CYRILLIC to "mkd"),
         "mn" to (OcrScript.CYRILLIC to "mon"), "ms" to (OcrScript.LATIN to "msa"), "mt" to (OcrScript.LATIN to "mlt"), "no" to (OcrScript.LATIN to "nor"),
         "pl" to (OcrScript.LATIN to "pol"), "pt" to (OcrScript.LATIN to "por"), "pa" to (OcrScript.GURMUKHI to "pan"),
-        "ro" to (OcrScript.LATIN to "ron"), "ru" to (OcrScript.CYRILLIC to "rus"), "sr" to (OcrScript.CYRILLIC to "srp+srp_latn"),
+        "ro" to (OcrScript.LATIN to "ron"), "ru" to (OcrScript.CYRILLIC to "rus"), "ur" to (OcrScript.ARABIC to "urd"), "sr" to (OcrScript.CYRILLIC to "srp+srp_latn"),
         "sk" to (OcrScript.LATIN to "slk"), "sl" to (OcrScript.LATIN to "slv"), "es" to (OcrScript.LATIN to "spa"),
         "sw" to (OcrScript.LATIN to "swa"), "sv" to (OcrScript.LATIN to "swe"), "th" to (OcrScript.THAI to "tha"),
         "bo" to (OcrScript.TIBETAN to "bod"), "tr" to (OcrScript.LATIN to "tur"), "uk" to (OcrScript.CYRILLIC to "ukr"),
@@ -90,7 +90,7 @@ internal object OcrLanguages {
         "mon" to "Mongolian", "msa" to "Malay", "mlt" to "Maltese", "nor" to "Norwegian", "pol" to "Polish", "por" to "Portuguese", "pan" to "Punjabi",
         "ron" to "Romanian", "rus" to "Russian", "srp" to "Serbian (Cyrillic)", "srp_latn" to "Serbian (Latin)", "slk" to "Slovak",
         "slv" to "Slovene", "spa" to "Spanish", "swa" to "Swahili", "swe" to "Swedish", "tha" to "Thai", "bod" to "Tibetan",
-        "tur" to "Turkish", "ukr" to "Ukrainian", "vie" to "Vietnamese", "cym" to "Welsh", "gle" to "Irish", "gla" to "Scottish Gaelic",
+        "tur" to "Turkish", "ukr" to "Ukrainian", "urd" to "Urdu", "vie" to "Vietnamese", "cym" to "Welsh", "gle" to "Irish", "gla" to "Scottish Gaelic",
         "fil" to "Filipino", "syr" to "Syriac", "chi_sim" to "Chinese (simplified)", "chi_tra" to "Chinese (traditional)",
     )
 }

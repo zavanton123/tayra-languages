@@ -88,6 +88,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Toki Pona" to "Токипона",
     "Turkish" to "Турецкий",
     "Ukrainian" to "Украинский",
+    "Urdu" to "Урду",
     "Vietnamese" to "Вьетнамский",
     "Welsh" to "Валлийский",
     "Yiddish" to "Идиш",

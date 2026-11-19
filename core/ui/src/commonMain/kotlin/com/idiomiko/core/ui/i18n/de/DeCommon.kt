@@ -88,6 +88,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Toki Pona" to "Toki Pona",
     "Turkish" to "Türkisch",
     "Ukrainian" to "Ukrainisch",
+    "Urdu" to "Urdu",
     "Vietnamese" to "Vietnamesisch",
     "Welsh" to "Walisisch",
     "Yiddish" to "Jiddisch",
