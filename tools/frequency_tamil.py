@@ -62,6 +62,10 @@ BARE_TAILS = ["ஆக", "ஆன", "ஆகும்", "ஆகவும்", "ஆ�
               "இல்லாமல்", "அற்ற"]
 
 
+# One short syllable closed by a consonant (கண், பெண், எண்).
+SHORT_SYLLABLE = re.compile("(?:[அஇஉஎஒ]|[\u0b95-\u0bb9][ிுெொ]?)[\u0b95-\u0bb9]\u0bcd")
+
+
 def oblique(word):
     """The stems a noun's cases are joined to, by its ending: மரம் மரத்த், வீடு வீட்ட் (and வீட்), கண் கண்ண் (and கண்)."""
     if word.endswith("ம்") and len(word) > 2:
@@ -69,7 +73,7 @@ def oblique(word):
     if word.endswith(("டு", "று")) and len(word) > 2:
         doubled = word[:-2] + word[-2] + VIRAMA + word[-2] + VIRAMA
         return {doubled, word}
-    if word[-1] == VIRAMA and len(word) == 2 or (len(word) == 3 and word[-1] == VIRAMA and word[0] in CONSONANTS and word[1] in "ிுெொ"):
+    if SHORT_SYLLABLE.fullmatch(word):
         # A short syllable's consonant doubles before a vowel (கண்ணை, பல்லை, பெண்ணை).
         return {word + word[-2] + VIRAMA, word}
     return {word}
@@ -92,10 +96,16 @@ def nominal_forms(word):
         forms |= {join(word[:-2] + VIRAMA, t) for t in ("இன்", "இல்", "இலும்", "இலே", "இலிருந்து")}
     forms.add(plural(word))
     forms |= {join(word, t) for t in BARE_TAILS}
+    # A short syllable's doubled consonant takes the clitics too (பெண்ணும், கண்ணே).
+    if SHORT_SYLLABLE.fullmatch(word):
+        forms |= {join(word + word[-2] + VIRAMA, t) for t in ("உம்", "ஏ", "ஆ", "ஓ")}
     forms |= {join(plural(word), t) for t in ("உம்", "ஏ", "ஆ", "ஆக", "ஆன", "ஆகவும்")}
     # A noun in -அம் stands bare before another (உலக நாடுகள், மாவட்ட ஆட்சியர்).
     if word.endswith("ம்") and len(word) > 4:
         forms.add(word[:-2])
+    # A word in -u may take the glide instead (பசுவை, பாலுவுக்கு), as names and short words do.
+    if word.endswith("ு"):
+        forms |= {word + "வ" + SIGNS[t[0]] + t[1:] for t in OBLIQUE_TAILS + ["உம்", "ஏ", "ஆ"] if t[0] in VOWELS}
     # The dative after a front vowel and -ம் nouns' short dative (பள்ளிக்கு, மரத்துக்கு is made above).
     if word[-1] in FRONT:
         forms |= {word + "க்கு", word + "க்கும்", word + "க்காக", word + "க்குப்"}
@@ -261,8 +271,10 @@ def unclitic(form):
 
 def unsandhi(form):
     """The form without the consonant doubled onto it before the next word (பள்ளிக்குப், வீட்டைப், செய்யச்)."""
-    if len(form) > 3 and form[-1] == VIRAMA and form[-2] in "கசதப" and form[-3] != VIRAMA:
-        return {form[:-2]}
+    if len(form) > 3 and form[-1] == VIRAMA and form[-2] in "கசதப":
+        # After a vowel, or after -ய், -ர், -ழ் (தமிழ்ப், நேர்க்).
+        if form[-3] != VIRAMA or len(form) > 4 and form[-4] in "யரழ":
+            return {form[:-2]}
     return set()
 
 
