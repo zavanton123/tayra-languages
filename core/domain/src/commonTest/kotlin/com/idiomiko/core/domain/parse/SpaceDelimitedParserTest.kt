@@ -123,6 +123,15 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun tamilKeepsVowelSignsAndViramaInTheWord() {
+        val tamil = LanguageDefinitions.all.single { it.name == "Tamil" }.language
+        assertEquals(
+            "[நான்] [பள்ளிக்குப்] [போகிறேன்]. [அம்மா] [வீட்டில்] [இருக்கிறார்]!",
+            tokensAsString("நான் பள்ளிக்குப் போகிறேன். அம்மா வீட்டில் இருக்கிறார்!", tamil),
+        )
+    }
+
+    @Test
     fun numberedAssignsSentences() {
         val tokens = parser.parse("Hi there. Bye.", TestLanguages.english).numbered()
         assertEquals(listOf("Hi", " ", "there", ". ", "Bye", "."), tokens.map { it.token })

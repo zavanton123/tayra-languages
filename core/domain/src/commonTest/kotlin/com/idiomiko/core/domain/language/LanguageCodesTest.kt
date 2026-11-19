@@ -36,4 +36,12 @@ class LanguageCodesTest {
         assertNotNull(Tutorials.forLanguage("Urdu"))
         assertEquals("urdu", LanguageDefinitions.all.first { it.name == "Urdu" }.language.parserType)
     }
+
+    @Test
+    fun tamilIsKnown() {
+        assertEquals("ta", LanguageCodes.codeFor("Tamil"))
+        assertEquals("tam", LanguageCodes.tatoebaCode("ta"))
+        assertNotNull(Tutorials.forLanguage("Tamil"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Tamil" }.language.parserType)
+    }
 }
