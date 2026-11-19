@@ -1237,6 +1237,8 @@ _OVERRIDES_D = {
         "ceļojām": ["ceļot"], "ceļosim": ["ceļot"], "ceļoji": ["ceļot"], "ceļojāt": ["ceļot"], "ceļodams": ["ceļot"],
         "ceļošu": ["ceļot"], "ceļojat": ["ceļot"], "ceļojiet": ["ceļot"], "ceļojusi": ["ceļot"], "ceļojuši": ["ceļot"],
         "ceļošanu": ["ceļot"], "ceļošanas": ["ceļot"], "ceļošanai": ["ceļot"], "ceļošanā": ["ceļot"],
+        # kuru "which", whose spelling the pack also gives to kurt "to kindle", which it put in the first 2,500.
+        "kuru": ["kurš"],
     },
     # Estonian: pronoun case forms (mu, mind, mul, sind, teda, neid...) are tied to more than 6 words in
     # the dictionary and were dropped; ma/sa/ta/me/te/nad were separate from mina/sina/tema/meie/teie/nemad;
