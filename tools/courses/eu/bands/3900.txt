@@ -1,0 +1,100 @@
+1	3801	salbazio	salbazioa salbazioaren salbazioaz salbaziotik
+2	3802	ogibide	ogibidea ogibideagatik ogibidean ogibiderik
+3	3803	franko	frankoak frankoetan frankokoa frankora frankoren frankori frankotik
+4	3804	labain	labaina labainak labainarekin labainaz labainik
+5	3805	dardara	dardarak dardaran dardararekin dardararen dardararik dardaraz dardaretan
+6	3806	beldurti	beldurtia beldurtiagoa beldurtiak beldurtiegiak beldurtiek beldurtitzat
+7	3807	ezkutari	ezkutaria ezkutariak ezkutariari ezkutariri ezkutaririk
+8	3808	salbatzaile	salbatzailea salbatzaileak salbatzailearen salbatzailerik salbatzailetzat
+9	3809	oihartzun	oihartzuna oihartzunak oihartzunaren oihartzunekin oihartzunen oihartzunera oihartzunez oihartzunik
+10	3810	makur	makurra makurrago makurrak makurrari makurrean makurren makurrena makurtzat
+11	3811	psikologo	psikologoa psikologoak psikologoarekin psikologoaren psikologoari psikologora
+12	3812	artile	artilea artilearekin artileaz artilerik
+13	3813	zingira	zingirak zingirako zingiran zingirara zingiraren zingiren zingiretako zingiretan zingiretara
+14	3814	tapoi	tapoia tapoiak tapoietako tapoiri
+15	3815	bataiatu	bataiatua bataiatuak bataiatuko bataiaturik bataiatuta bataiatzea bataiatzeko bataiatzen
+16	3816	abertzale	abertzalea abertzalearen abertzaleari abertzaleek abertzaleekin abertzaleen abertzalez
+17	3817	bortxatzaile	bortxatzailea bortxatzaileak bortxatzailearen bortxatzaileek bortxatzaileen
+18	3818	komiki	komikia komikiak komikian komikiekin komikien komikietan komikiez komikiko komikirik
+19	3819	kontinente	kontinentea kontinenteak kontinentean kontinenteetan kontinenteko kontinentera kontinenteraino kontinentetan kontinentetik
+20	3820	grabitate	grabitatea grabitateak grabitatearen grabitateari grabitateko
+21	3821	burges	burgesa burgesak burgesean burgesek burgesekin burgesen burgesentzat burgesera
+22	3822	ukondo	ukondoa ukondoak ukondoarekin ukondoaren ukondoaz ukondoekin ukondoetarako ukondoz
+23	3823	desadostasun	desadostasuna desadostasunak desadostasunaren desadostasunean desadostasunei desadostasunengatik desadostasunez desadostasunik
+24	3824	uztartu	uztartuta uztartuz uztartze uztartzea uztartzeak uztartzearen uztartzeko uztartzen
+25	3825	eskuliburu	eskuliburua eskuliburuak eskuliburuan eskuliburuaren eskuliburuetan eskuliburuko eskulibururen eskulibururik
+26	3826	gerezi	gereziak gerezien gerezirik
+27	3827	lasterkari	lasterkaria lasterkariak lasterkariek lasterkaririk
+28	3828	urtemuga	urtemugako urtemugan urtemugarako
+29	3829	iradokizun	iradokizuna iradokizunak iradokizunik
+30	3830	arrazoitu	arrazoitua arrazoituko arrazoituta arrazoituz arrazoitze arrazoitzeko arrazoitzen
+31	3831	amaorde	amaordea amaordeak amaordearekin amaordearen amaordekoa
+32	3832	ureztatu	ureztatuko ureztatuz ureztatzea ureztatzeko ureztatzen
+33	3833	dendari	dendaria dendariak dendariarekin dendariaren dendariari dendariek dendarientzat dendarietara dendarik
+34	3834	pospolo	pospoloa pospoloak pospoloekin pospoloen pospolorik
+35	3835	won	wonak wonek
+36	3836	hamazazpi	hamazazpien hamazazpira hamazazpitik
+37	3837	tekila	tekilak tekilarekin tekilarik
+38	3838	aurora	aurorak aurorara auroraren auroren
+39	3839	pribatutasun	pribatutasuna pribatutasunari pribatutasunean
+40	3840	bizibide	bizibidea bizibideari bizibiderako
+41	3841	beka	bekak bekako bekarekin bekarengatik bekari bekarik bekekin
+42	3842	bourbon	bourbona bourbonean
+43	3843	esamolde	esamoldea esamoldeak esamoldeari
+44	3844	enpresari	enpresaria enpresariak enpresariarentzat enpresariek
+45	3845	lehendakaritza	lehendakaritzako lehendakaritzan lehendakaritzara lehendakaritzarako lehendakaritzaren lehendakaritzarengatik
+46	3846	hobi	hobia hobiak hobian hobiaren hobira hobirako hobitik
+47	3847	gisatu	gisatua gisatuak gisatuaren gisaturik
+48	3848	bonbardaketa	bonbardaketak bonbardaketaren bonbardaketarik bonbardaketei bonbardaketek bonbardaketen bonbardaketetako bonbardaketetan
+49	3849	irabiatu	irabiatua irabiatuak irabiaturik irabiatuta
+50	3850	rap	rapa raparen
+51	3851	oldarkor	oldarkorra oldarkorrago oldarkorrak oldarkorregia
+52	3852	karramarro	karramarroa karramarroak karramarroaren karramarroek karramarroentzat
+53	3853	udare	udareak udarerik
+54	3854	konfidentzial	konfidentziala konfidentzialak
+55	3855	kooperatiba	kooperatibak kooperatibako kooperatiban kooperatibaren kooperatibarentzat kooperatibatik kooperatibaz
+56	3856	abiarazi	abiaraz abiaraziko abiarazte abiaraztea abiarazteko abiarazten
+57	3857	bidegabekeria	bidegabekeriak bidegabekeriaren bidegabekeriari bidegabekeriarik bidegabekeriatako bidegabekeriatan bidegabekeriaz bidegabekeriek bidegabekerien
+58	3858	otsokume	otsokumea otsokumeak otsokumearekin otsokumearengatik otsokumeekin otsokumeentzat otsokumerik
+59	3859	fikzio	fikzioa fikzioak fikzioan fikzioko fikziora fikziorako
+60	3860	erredura	erredurak erredurekin erreduren
+61	3861	marrubi	marrubia marrubiak marrubien marrubirik marrubiz
+62	3862	besaulki	besaulkia besaulkiak besaulkian besaulkiaren besaulkietan
+63	3863	gizabanako	gizabanakoa gizabanakoak gizabanakoan gizabanakoaren gizabanakoen gizabanakoez gizabanakorik
+64	3864	haserrearazi	haserrearaziko haserrearaztea haserrearazteko haserrearazten
+65	3865	etengailu	etengailua etengailuak etengailuarekin etengailuaren etengailuekin etengailura etengailurik
+66	3866	pinguino	pinguinoa pinguinoak pinguinoaren pinguinoari pinguinoei pinguinoek pinguinoz
+67	3867	diskoteka	diskotekak diskotekako diskotekan diskotekara diskotekarik diskotekatik
+68	3868	erotiko	erotikoa erotikoak erotikoan erotikoarekin erotikoek erotikoetan erotikoez erotikotik
+69	3869	sehaska	sehaskak sehaskako sehaskakoa sehaskakoak sehaskan sehaskarekin sehaskari sehaskatik
+70	3870	fax	faxa faxak faxaren faxek faxen faxez faxik
+71	3871	orbita	orbitako orbitan orbitaren orbitatik orbitaz orbitetatik
+72	3872	padura	padurako paduran padurara paduraren padurari paduretan paduretatik
+73	3873	murrizketa	murrizketak murrizketaren murrizketari murrizketarik murrizketaz murrizketekin murrizketen
+74	3874	izkira	izkirak izkirarik izkirekin izkiren izkirez
+75	3875	aitzindari	aitzindaria aitzindariak aitzindariek aitzindarien aitzindarietako
+76	3876	zutoin	zutoina zutoinak zutoinaren zutoinari zutoinean zutoinekoa zutoinera zutoinetan zutoinetik
+77	3877	elezahar	elezaharra elezaharrak elezaharretako elezaharretan elezaharrez
+78	3878	pinu	pinua pinuak pinuen pinuetako pinuetatik pinuko pinura
+79	3879	gorputegi	gorputegia gorputegian gorputegiarekin gorputegiko gorputegira gorputegitik
+80	3880	lohi	lohia lohiagoak lohiak lohian lohiaz lohiekin lohienak lohietan lohirik lohitan
+81	3881	mago	magoa magoak magoarekin magoen magorik
+82	3882	gainalde	gainaldea gainaldeak gainaldean gainaldeko gainaldekoa gainaldera gainalderaino gainaldetik
+83	3883	ekuazio	ekuazioa ekuazioak ekuazioan ekuazioaren ekuazioetan ekuaziotik
+84	3884	mahasti	mahastia mahastiak mahastian mahastien mahastietako mahastietan mahastiko mahastirik
+85	3885	izurde	izurdea izurdeak izurdeari izurdeaz izurdeek izurdeekin izurdeen
+86	3886	zartatu	zarta zartatua zartatuko zartatuta zartatuz zartatzea zartatzen zartatzera
+87	3887	norbera	
+88	3888	hilero	
+89	3889	haginka	
+90	3890	kakalardo	kakalardoa kakalardoak kakalardoek
+91	3891	zaparrada	zaparradak
+92	3892	kantziler	kantzilerra kantzilerrak kantzilerraren kantzilerrari
+93	3893	erbi	erbia erbiak erbiek erbietan
+94	3894	tipula	tipulak tipularik tipulaz tipulekin
+95	3895	saskibaloi	saskibaloia saskibaloian saskibaloiko
+96	3896	pot	potek potekoa poten
+97	3897	pala	palak palan palarekin palaren palarik palaz palekin paletatik
+98	3898	literalki	
+99	3899	zilegitu	zilegi
+100	3900	mu	muko muz

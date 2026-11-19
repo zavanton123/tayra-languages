@@ -1,0 +1,100 @@
+1	1501	ilundu	ilunduak ilunduko ilunduta ilundutako iluntzea iluntzeak iluntzean iluntzearen iluntzeko iluntzen iluntzera
+2	1502	bateria	bateriak bateriako baterian bateriara bateriarako bateriarekin bateriaren bateriarik bateriaz bateriekin baterien baterietako
+3	1503	zulatu	zula zulatua zulatuak zulatuko zulatuta zulatutako zulatuz zulatze zulatzea zulatzeak zulatzeko zulatzen zulatzerik
+4	1504	motz	motza motzago motzagoa motzagoak motzak motzarekin motzaz motzean motzegia motzegiak motzegiarekin motzekin motzeko motzekoa motzena motzenak motzetan motzez
+5	1505	orri	orria orriak orrian orriarekin orriaren orriarentzat orriari orriek orrien orrietako orrietan orriko orrira orrirako orririk orritan orritik orriz
+6	1506	kilo	kiloa kiloak kiloekin kiloko kilokoa kiloraino kilorekin kilotako kilotan
+7	1507	iraindu	iraindua irainduak irainduko irainduta iraindutako irainduz iraintze iraintzea iraintzeagatik iraintzeko iraintzen iraintzera
+8	1508	gauero	
+9	1509	unibertso	unibertsoa unibertsoak unibertsoan unibertsoaren unibertsoari unibertsoaz unibertsok unibertsoko unibertsora unibertsorako unibertsotan
+10	1510	lasterketa	lasterketak lasterketako lasterketakoa lasterketan lasterketara lasterketarako lasterketaren lasterketari lasterketarik lasterketatan lasterketatara lasterketatik lasterketaz lasterketei lasterketek lasterketen lasterketetako lasterketetan lasterketetara
+11	1511	esanahi	esanahia esanahiak esanahian esanahiarekin esanahiaren esanahiari esanahiaz esanahiren esanahirik esanahiz
+12	1512	gurpil	gurpila gurpilak gurpilaren gurpilari gurpilean gurpilei gurpilek gurpilekin gurpileko gurpilen gurpilera gurpiletan gurpiletara gurpilez gurpilik
+13	1513	ordezko	ordezkoa ordezkoak ordezkoarekin ordezkoei ordezkoek ordezkoekin ordezkoen ordezkoena ordezkoentzat ordezkook ordezkorik ordezkotzat
+14	1514	aurreztu	aurrezte aurreztea aurrezteko aurrezten aurreztera aurreztua aurreztuko aurreztuta aurreztutako aurreztutakoa aurreztuz
+15	1515	adierazpen	adierazpena adierazpenak adierazpenarekin adierazpenaren adierazpenaz adierazpenean adierazpenei adierazpenek adierazpenen adierazpenetan adierazpenik
+16	1516	etxalde	etxaldea etxaldeak etxaldean etxaldearen etxaldeari etxaldeaz etxaldeetako etxaldeetan etxaldeetara etxaldeko etxaldekoa etxaldekoak etxaldera etxalderen etxalderik etxaldetan etxaldetik
+17	1517	izaera	izaerak izaeran izaerara izaerarekin izaeraren izaerari izaeratik izaeraz
+18	1518	alkohol	alkohola alkoholak alkoholarekin alkoholaren alkoholari alkoholaz alkoholean alkoholerako alkoholetan alkoholez alkoholik
+19	1519	teniente	tenientea tenienteak tenientearekin tenientearen tenienteaz tenienteei
+20	1520	bider	
+21	1521	andregai	andregaia andregaiak andregaiarekin andregaiaren andregaiarentzat andregaiari andregaiaz andregaiek andregairik andregaiz
+22	1522	zale	zalea zaleak zalearen zaleei zaleek zaleekin zaleen zaleentzat zaleok zaleren zalerik
+23	1523	ezusteko	ezustekoa ezustekoak ezustekoan ezustekoaz ezustekoren ezustekorik ezustekoz
+24	1524	untxi	untxia untxiak untxiaren untxiari untxiei untxiek untxiekin untxien untxiengandik untxietako untxirekin untxiren untxirik untxiz
+25	1525	sen	sena senagatik senak senarekin senaren senari senaz senean senera senetik senez senik
+26	1526	tropa	tropak tropako tropan troparen tropari troparik tropei tropek tropekin tropen tropentzat
+27	1527	ostiral	ostirala ostiralak ostiralarekin ostiralaz ostiralean ostiraleko ostiralera ostiralerako ostiraletan ostiraletik
+28	1528	txalupa	txalupak txalupan txalupara txaluparaino txaluparako txaluparekin txaluparen txaluparik txalupatik txalupaz txalupen txalupetara
+29	1529	bozkatu	bozka bozkatua bozkatuko bozkatzea bozkatzearen bozkatzeko bozkatzen bozkatzera
+30	1530	erloju	erlojua erlojuak erlojuan erlojuaren erlojuari erlojuen erlojuetan erlojuko erlojurik erlojutik
+31	1531	nonahi	
+32	1532	kopia	kopiak kopian kopiarik kopiekin kopiez
+33	1533	marrazo	marrazoa marrazoak marrazoarekin marrazoaren marrazoarengana marrazoei marrazoek marrazoen marrazoengandik marrazoetan marrazorik marrazoz
+34	1534	gosari	gosaria gosariak gosarian gosariarekin gosariaren gosariaz gosarien gosarietako gosariko gosarikoa gosarira gosarirako gosaririk gosaritako gosaritan
+35	1535	letra	letrak letrako letran letrarekin letraren letrari letrarik letratik letraz letrek letrekin letren letretako
+36	1536	aspertu	asper aspertua aspertuak aspertuko asperturik aspertze aspertzeko aspertzen aspertzera aspertzerik
+37	1537	hunkitu	hunkitua hunkituko hunkiturik hunkituta hunkitzea hunkitzeko hunkitzen hunkitzera
+38	1538	fabrika	fabrikak fabrikako fabrikakoa fabrikan fabrikara fabrikarako fabrikarekin fabrikaren fabrikari fabrikarik fabrikatan fabrikatik fabrikaz fabrikek fabrikekin fabrikengatik fabriketako fabriketara
+39	1539	amorru	amorrua amorruak amorruan amorruarekin amorruaren amorruari amorruaz amorruei amorruren amorrurik amorrutan amorruz
+40	1540	lotsagabe	lotsagabea lotsagabeago lotsagabeak lotsagabeegia lotsagabeok lotsagaberik lotsagabetzat
+41	1541	ardi	ardia ardiak ardiarekin ardiaren ardiari ardiei ardiek ardiekin ardien ardiengana ardietatik ardiez ardiok ardirik
+42	1542	kontseilu	kontseilua kontseiluak kontseiluan kontseiluarekin kontseiluaren kontseiluarentzat kontseiluari kontseiluetan kontseiluko kontseilukoak kontseilura kontseilurako kontseilurantz kontseilutik
+43	1543	fresko	freskoa freskoago freskoagoa freskoak freskoarengatik freskoaz freskoegi freskoegia freskoei freskoekin freskoenak freskorik
+44	1544	oinarri	oinarria oinarriak oinarrian oinarriaren oinarriek oinarrien oinarrietan oinarrietara oinarriko oinarrira oinarriraino oinarririk oinarritik oinarritzat
+45	1545	be	bea beak bean bearekin bearen bearentzat beari beaz been berantz beri betara betik bez
+46	1546	teilatu	teilatua teilatuak teilatuan teilatuaren teilatuetan teilatuetara teilatuetatik teilatuko teilatukoa teilatukoak teilatura teilaturaino teilaturako teilaturen teilaturik teilatutik
+47	1547	ordain	ordaina ordainak ordainaren ordainean ordainei ordainetan ordainik ordainz
+48	1548	botoi	botoia botoiak botoiaren botoiari botoiekin botoiengatik botoietatik botoiez botoiren botoirik botoitik
+49	1549	elikatu	elika elikatua elikatuak elikatuko elikaturik elikatuta elikatutako elikatuz elikatze elikatzea elikatzeagatik elikatzeari elikatzeaz elikatzeko elikatzen elikatzera elikatzerik
+50	1550	senide	senidea senideak senidearen senideei senideek senideekin senideen senideengan senideengatik senideentzat senideez senideok senideon senideren seniderik senidetzat senidez
+51	1551	topo	topori toporik
+52	1552	maritxu	maritxua maritxuago maritxuak maritxuaren maritxuek maritxuekin maritxuen maritxuentzat maritxuok maritxuren
+53	1553	estatubatuar	estatubatuarra estatubatuarrak estatubatuarraren estatubatuarrean estatubatuarrei estatubatuarrek estatubatuarrekin estatubatuarren estatubatuarrengatik estatubatuarrez
+54	1554	pilota	pelota pilotak pilotarekin pilotaren pilotarik pilotekin pilotez
+55	1555	azukre	azukrea azukreak azukrean azukrearekin azukrearen azukreari azukreko azukrerekin azukrerik azukrez
+56	1556	kantari	kantaria kantariak kantariaren kantariarentzat kantariekin kantarien kantaririk
+57	1557	desegin	desegina deseginak deseginda desegindako deseginez desegingo desegite desegitea desegitearekin desegiteari desegiteko desegiten desegitera
+58	1558	luzaroan	
+59	1559	oihuka	
+60	1560	ihesi	ihesia ihesteari
+61	1561	eskuzabal	eskuzabala eskuzabalago eskuzabalagoa eskuzabalagoak eskuzabalak eskuzabalaren eskuzabalegia eskuzabalek eskuzabalena eskuzabaltzat
+62	1562	neke	nekea nekeagatik nekeak nekean nekearekin nekearen nekeari nekeentzat nekerik nekez
+63	1563	itzal	itzala itzalak itzalarekin itzalaren itzalari itzalean itzalei itzalek itzalekin itzaleko itzalen itzalera itzalerantz itzaletan itzaletara itzaletatik itzaletik itzalez itzalik
+64	1564	politiko	politikoa politikoak politikoan politikoarekin politikoaren politikoari politikoei politikoek politikoekin politikoen politikoengatik politikoentzat politikoetan politikoez politikoko politikorekin politikorik politikotik politikotzat
+65	1565	arroz	arroza arrozagatik arrozarekin arrozaren arrozari arrozetan arrozik arrozoi
+66	1566	forma	formak formako forman formara formarekin formaren formari formarik formatan formaz formek formen
+67	1567	piper	piperra piperrak piperrarekin piperrek piperrekin piperreko piperren piperrengatik piperrera piperretik piperrez piperrik
+68	1568	ministro	ministroa ministroak ministroarekin ministroaren ministroarengatik ministroarentzat ministroari ministroei ministroek ministroen ministroentzat
+69	1569	irabazle	irabazlea irabazleak irabazlearekin irabazlearen irabazlearentzat irabazleari irabazleek irabazleen irabazleetako irabazleez irabazlera irabazlerik irabazletzat irabazlez
+70	1570	erizain	erizaina erizainak erizainarekin erizainaren erizainari erizainei erizainek erizainekin erizainen erizainik
+71	1571	kontzentratu	kontzentra kontzentratua kontzentratuak kontzentratuko kontzentraturik kontzentratuta kontzentratuz kontzentratzea kontzentratzeko kontzentratzen
+72	1572	ke	kea keagatik keak kearekin kearen keari keaz kek kera keri kerik ketan kez
+73	1573	zoritxarrez	
+74	1574	antzeztu	antzez antzezte antzeztea antzezteagatik antzezteak antzezteari antzezteko antzezten antzeztera antzeztuko antzeztuz
+75	1575	pauso	pausoa pausoak pausoan pausoarekin pausoari pausoaz pausoei pausoen pausoetan pausora pausorik pausotara pausoz
+76	1576	zenbatu	zenba zenbatuak zenbatuko zenbatuta zenbatzea zenbatzeak zenbatzean zenbatzeko zenbatzen
+77	1577	bainu	bainua bainuak bainuan bainuaren bainuen bainuetan bainuetarako bainuko bainura bainurako bainurik bainutik
+78	1578	putz	putza putzak putzik
+79	1579	posta	postak postako postan postara postarako postarekin postaren postaz postek postekin posten
+80	1580	mihi	mihia mihiak mihian mihiarekin mihiaren mihiari mihiaz mihirik mihitik
+81	1581	mailegu	mailegua maileguagatik maileguak maileguan maileguarekin maileguaren maileguen maileguengatik maileguetako maileguetan maileguko mailegurik maileguz
+82	1582	urdanga	urdangak urdangari urdangaz urdangekin
+83	1583	lisatu	lisa lisatua lisatuak lisatuko lisatuta lisatzea lisatzeaz lisatzeko lisatzen
+84	1584	horrenbeste	
+85	1585	irtenbide	irtenbidea irtenbideak irtenbidearen irtenbideari irtenbideren irtenbiderik
+86	1586	urri	urria urriago urriagoak urriak urrian urriarekin urriaren urriegiak urrietako urrietan urrik urriko urrira
+87	1587	ustel	ustela ustelagatik ustelagoa ustelak ustelarekin ustelaren ustelari ustelean ustelek ustelen ustelena ustelengatik ustelik ustelok
+88	1588	dokumentu	dokumentua dokumentuak dokumentuaren dokumentuari dokumentuek dokumentuekin dokumentuen dokumentuengatik dokumentuetan dokumentuetara dokumentuez dokumenturen dokumenturik
+89	1589	komeni	komeniko
+90	1590	zorro	zorroa zorroak zorroan zorroarekin zorroaren zorroari zorroaz zorroko zorrorik zorrotik zorroz
+91	1591	bazkari	bazkaria bazkariagatik bazkariak bazkarian bazkariarekin bazkariaren bazkariaz bazkariez bazkariko bazkarira bazkarirako bazkaririk bazkaritan bazkaritara bazkaritarako bazkaritik
+92	1592	abandonatu	abandona abandonatua abandonatuak abandonatuko abandonaturik abandonatuta abandonatutako abandonatzea abandonatzeko abandonatzen abandonatzera
+93	1593	bakarti	bakartia bakartiago bakartiagoa bakartiak bakartian bakartiaren bakartiarentzat bakartiari bakartiei bakartiek bakartien bakartiena bakartietan bakartiren bakartiz
+94	1594	ikusle	ikuslea ikusleak ikuslearen ikusleari ikusleei ikusleek ikusleekin ikusleen ikusleengatik ikusleentzat ikusleok ikusleren ikuslerik ikusletik
+95	1595	mugatu	mugatua mugatuagoa mugatuak mugatuan mugatuarekin mugatuko mugatukoa mugaturako mugaturekin mugatuta mugatutik mugatuz mugatzea mugatzeko mugatzen
+96	1596	antzeman	antzemanda antzemanez antzemango antzematea antzemateagatik antzematean antzemateko antzematen
+97	1597	produktu	produktua produktuak produktuarekin produktuaren produktuaz produktuei produktuek produktuekin produktuen produktuetan produktuetatik produkturen produkturik
+98	1598	gobernatu	goberna gobernatua gobernatuko gobernatuta gobernatutako gobernatzea gobernatzearen gobernatzeko gobernatzen gobernatzera
+99	1599	artikulu	artikulua artikuluak artikuluan artikuluaren artikuluaz artikuluen artikuluetako artikuluez artikuluko artikulurako artikulutan
+100	1600	inspektore	inspektorea inspektoreak inspektorearekin inspektorearen inspektoreari inspektoreek inspektoreekin

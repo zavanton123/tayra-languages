@@ -1,0 +1,100 @@
+1	4201	promozio	promozioa promozioagatik promozioan promozioaren promoziorako promoziorik
+2	4202	administratzaile	administratzailea administratzaileak administratzailearekin administratzaileari administratzaileek administratzaileekin administratzailerik
+3	4203	jariatu	darie darizue jaria jariatze jariatzea jariatzeari jariatzen zerien
+4	4204	ordainsari	ordainsaria ordainsariagatik ordainsariak ordainsaririk ordainsaritik
+5	4205	helduleku	heldulekua heldulekuak heldulekuan heldulekuaren heldulekuren heldulekurik heldulekutik
+6	4206	letreiatu	letreia letreiatuko letreiatze letreiatzen
+7	4207	lorezain	lorezaina lorezainak lorezainek
+8	4208	eskuoihal	eskuoihala eskuoihalak eskuoihaleko eskuoihalen eskuoihaletik eskuoihalez eskuoihalik
+9	4209	bibrazio	bibrazioa bibrazioak bibrazioaren bibrazioaz bibrazioek bibraziorik bibrazioz
+10	4210	global	globala globalak globalaren globalarengatik globalari globalera
+11	4211	gremio	gremioa gremioak gremioan gremioko gremiora
+12	4212	campus	campusean campuseko campusera campusetara campusetik
+13	4213	harategi	harategia harategiak harategian harategiko harategira harategirik harategitik
+14	4214	etenaldi	etenaldia etenaldian etenaldiari etenaldien etenaldiko
+15	4215	berezitasun	berezitasuna berezitasunak berezitasunez berezitasunik
+16	4216	aparatu	aparatua aparatuak aparatuaren aparatuek aparatuekin
+17	4217	autografo	autografoa autografoak autografoekin autograforik
+18	4218	belardi	belardia belardian belardiei belardietako belardiko belardira belarditik
+19	4219	populazio	populazioa populazioak populazioan populazioarekin populazioaren populazioaz
+20	4220	erregeorde	erregeordea erregeordeak erregeordearekin erregeordearen
+21	4221	lauki	laukia laukiak laukian laukiaren laukietan laukira laukirik
+22	4222	zoologiko	zoologikoa zoologikoak zoologikoan zoologikoaren zoologikoko zoologikora zoologikotik
+23	4223	krokodilo	krokodiloa krokodiloak krokodiloarekin krokodiloaren krokodiloekin krokodiloen krokodiloren
+24	4224	bekain	bekaina bekainak bekainarekin bekainean bekaineko bekainera bekainerako bekainetik bekainik
+25	4225	kutxazain	kutxazaina kutxazainak kutxazainarekin kutxazainari kutxazainera kutxazainerantz
+26	4226	radar	radareko radarra radarrak radarrarekin radarrean radarrerako
+27	4227	dokumentatu	dokumentatua dokumentaturik dokumentatuta dokumentatzea dokumentatzeko dokumentatzen
+28	4228	aldagela	aldagelak aldagelan aldagelara aldageletako aldageletan aldageletara
+29	4229	fundazio	fundazioa fundazioak fundazioan fundazioaren fundazioarentzat fundazioari fundazioko fundaziotik
+30	4230	inperial	inperiala inperialak inperialarekin inperialaren inperialean inperialeko inperialekoa inperialen inperialera inperialetik
+31	4231	ontziola	ontziolak ontziolakoak ontziolan ontziolara ontziolatako ontziolatan ontziolatik ontziolen ontzioletara
+32	4232	karpeta	karpetak karpetan karpetara karpetari karpetarik
+33	4233	batuta	batutan batutarekin batutaren
+34	4234	aburuz	
+35	4235	publikoki	
+36	4236	urrunetik	
+37	4237	ilar	ilarra ilarrak ilarrekin ilarrik
+38	4238	horrelakoxe	horrelakoxea horrelakoxeak
+39	4239	suediar	suediarra suediarrak suediarrarekin suediarraren suediarrekin
+40	4240	arka	arkan
+41	4241	diktadura	diktadurako diktaduraren diktaduretan
+42	4242	txirula	txirulak txirularik txiruletako
+43	4243	birjintasun	birjintasuna birjintasunarekin birjintasunaren birjintasunari
+44	4244	otarraina	otarrainak
+45	4245	astronauta	astronautak astronautek
+46	4246	etapa	etapan etaparako etapari etaparik etapetan
+47	4247	formula	formulak formulako formulan formularik formulatik
+48	4248	azeleratu	azeleratuko azeleratzeko azeleratzen azeleratzera
+49	4249	salda	saldak saldan saldarekin saldari
+50	4250	janzkera	janzkerak janzkerako janzkeraren janzkerari janzkerengatik
+51	4251	poliza	polizak polizarekin polizaren
+52	4252	tasa	tasak tasaren tasarik
+53	4253	txio	txioa txioak txioen txiorik
+54	4254	absolutu	absolutua absolutuak absolutuarekin absolutuaren absolutuena absolutukoa absolututik
+55	4255	saindu	saindua sainduak sainduan sainduaren sainduari
+56	4256	kliskatu	kliskatuko kliskatuta kliskatzea kliskatzeko kliskatzen
+57	4257	egintza	egintzak egintzan egintzaren egintzarik egintzekin egintzen egintzetatik
+58	4258	bufoi	bufoia bufoiari bufoien bufoiez
+59	4259	diagonal	diagonala diagonalago diagonalaren diagonalean
+60	4260	oroipen	oroipenak
+61	4261	halakoxe	halakoxea halakoxeak
+62	4262	garondo	garondoa garondoan garondoetan garondora garondotik
+63	4263	garaiera	garaierak garaierako garaieran garaierara garaierarik garaieren
+64	4264	gurutzegrama	gurutzegramak gurutzegraman gurutzegramarekin gurutzegramari gurutzegramen
+65	4265	gidabaimen	gidabaimena gidabaimenak gidabaimenarekin gidabaimenaren gidabaimenik
+66	4266	motxin	motxina motxinak motxinetan
+67	4267	zarpail	zarpaila zarpailago zarpailak zarpailekin
+68	4268	deskargatu	deskargatua deskargatuko deskargatuta deskargatzeko deskargatzen deskargatzera
+69	4269	berotasun	berotasuna berotasunak berotasunez berotasunik
+70	4270	adur	adurra adurrak adurrarekin adurretan adurrez adurrik
+71	4271	kuxin	kuxina kuxinak kuxinean kuxinek kuxinetan
+72	4272	album	albuma albumak albumean albumik
+73	4273	kadete	kadetea kadeteak kadeteen kadeteok
+74	4274	turismo	turismoa turismoak turismoan turismoarentzat turismoaz
+75	4275	termino	terminoa terminoan terminoetan terminorik
+76	4276	noblezia	nobleziak nobleziakoa noblezian nobleziara nobleziaren nobleziari nobleziarik nobleziatik
+77	4277	bilkura	bilkurak bilkurako bilkuran bilkurara bilkurarako bilkuraren bilkurari bilkuretan bilkuretara
+78	4278	ikuspen	ikuspena ikuspenak ikuspenarekin ikuspenetan ikuspenik
+79	4279	buruhauste	buruhaustea buruhausteak buruhaustean buruhausteren buruhausterik
+80	4280	argibide	argibidea argibideak argibideekin argibideen argibideok argibiderik
+81	4281	filmazio	filmazioa filmazioak filmazioan filmazioaren filmazioari filmaziorik
+82	4282	aletegi	aletegia aletegiak aletegian aletegietan aletegira
+83	4283	bozeramaile	bozeramailea bozeramaileak bozeramaileari
+84	4284	tanpoi	tanpoia tanpoiak tanpoien tanpoitzat
+85	4285	gelakide	gelakidea gelakideak gelakidearekin gelakidearen gelakideari gelakideek gelakiderik
+86	4286	erakarpen	erakarpena erakarpenarekin erakarpenaren erakarpenari erakarpenik
+87	4287	organismo	organismoa organismoak organismoek
+88	4288	txakurtegi	txakurtegia txakurtegiak txakurtegian txakurtegiaren txakurtegietako txakurtegietan txakurtegiko txakurtegikoak txakurtegira txakurtegitik
+89	4289	erraustu	erraustea errausteko errausten erraustua erraustuko erraustuta erraustutako
+90	4290	manifestatu	manifestatuko manifestatzea manifestatzeak manifestatzeko manifestatzen manifestatzera
+91	4291	soldadutza	soldadutzan soldadutzara soldadutzarako soldadutzari soldadutzatik
+92	4292	lautada	lautadak lautadako lautadan lautadatik lautadek lautadetan lautadetara
+93	4293	mehe	mehea meheago meheagoa meheak mehean meheekin
+94	4294	onddo	onddoa onddoak onddoek onddoen onddoez onddorik onddoz
+95	4295	aitzurtu	aitzurtuta aitzurtzea aitzurtzeko aitzurtzen
+96	4296	goraipatu	goraipatuko goraipatzea goraipatzeko goraipatzen
+97	4297	kriket	cricket kriketa kriketean kriketeko
+98	4298	kolektibo	kolektiboa kolektiboak kolektiboan kolektiboaren kolektiboari kolektiboen kolektiboko
+99	4299	amildu	amil amilduko amiltze amiltzeko amiltzen
+100	4300	inbertitzaile	inbertitzailea inbertitzaileak inbertitzaileari inbertitzaileek inbertitzaileekin inbertitzaileen

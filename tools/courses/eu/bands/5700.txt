@@ -1,0 +1,100 @@
+1	5601	gotiko	gotikoa gotikoak gotikoaren gotikoekin
+2	5602	tronpa	tronpak tronparekin tronparen tronpaz tronpek
+3	5603	newton	newtonek newtonen
+4	5604	jaurtitzaile	jaurtitzailea jaurtitzaileak jaurtitzaileaz
+5	5605	arakatzaile	arakatzailea arakatzaileak arakatzaileren
+6	5606	matxuratu	matxuratua matxuratuko matxuratuta matxuratutako matxuratzen
+7	5607	itxurati	itxuratia itxuratiak
+8	5608	mamut	mamuta mamutak mamutaren mamuten
+9	5609	sits	sitsa sitsak sitsarekin sitsari
+10	5610	tapaki	tapakiak tapakiarekin tapakietatik tapakirik
+11	5611	karaoke	karaokea karaokean karaokearen karaokera
+12	5612	sala	salak salan salara salari salatik salek salen
+13	5613	agresibo	agresiboa agresiboago agresiboagoa agresiboak agresiboaren
+14	5614	konplot	konplota konplotagatik konplotaren konplotean
+15	5615	oparotasun	oparotasuna oparotasunagatik oparotasunaren oparotasunean oparotasuneko
+16	5616	neurologiko	neurologikoa neurologikoak neurologikoen neurologikorik
+17	5617	paraboliko	parabolikoa parabolikoak
+18	5618	ekologiko	ekologikoa ekologikoak ekologikoan ekologikoko ekologikoz
+19	5619	kamioilari	kamioilaria kamioilariak kamioilariei kamioilariek
+20	5620	etxadi	etxadia etxadian etxadiko etxadira etxaditan etxaditara
+21	5621	udaleku	udalekua udalekuetako udalekuetan udalekura udalekutik
+22	5622	muskuilu	muskuilua muskuiluak muskuiluari
+23	5623	orrazi	orrazia orraziak orraziarekin orraziaren orraziko
+24	5624	ku	kuak kuok kuotan kuotatik kura kutan
+25	5625	informatiko	informatikoa informatikoak informatikoan informatikoaren
+26	5626	dohaintza	dohaintzak dohaintzan dohaintzarako dohaintzaren dohaintzez
+27	5627	bakezale	bakezalea bakezaleak bakezaleen bakezaletzat
+28	5628	diktatu	diktatua diktatuko diktatzeko diktatzen
+29	5629	bulebar	bulebarra bulebarrak bulebarrean bulebarreko bulebarrekoa bulebarrera bulebarretik
+30	5630	eritasun	eritasuna eritasunak eritasunen eritasunengatik eritasunik
+31	5631	kosako	kosakoa kosakoak kosakoen kosakook
+32	5632	isolatzaile	isolatzailea isolatzaileak isolatzailean isolatzaileaz isolatzailerik
+33	5633	itzalaldi	itzalaldia itzalaldiak itzalaldian itzalaldiaren
+34	5634	erreminta	erremintak erremintarekin erremintarik erreminten
+35	5635	eszeptiko	eszeptikoa eszeptikoak eszeptikoegia eszeptikoei eszeptikoek
+36	5636	aireztatu	aireztatua aireztatze aireztatzea aireztatzeak aireztatzeko aireztatzen aireztatzera
+37	5637	gidoilari	gidoilaria gidoilariak gidoilariarekin gidoilariek gidoilarien
+38	5638	makabro	makabroa makabroak makabroena makabroenak makabrorik makabrotzat
+39	5639	egunerokotasun	egunerokotasuna egunerokotasunak egunerokotasunaren egunerokotasunean egunerokotasunera
+40	5640	hamarraldi	hamarraldia hamarraldian hamarraldiaren hamarraldietan hamarraldiko
+41	5641	eltze	eltzea eltzeez eltzeko eltzerik eltzetik
+42	5642	krater	kraterra kraterrak kraterrean kraterreko kraterretik
+43	5643	lorratz	lorratza lorratzari lorratzean lorratzen lorratzik
+44	5644	departamendu	departamendua departamenduak departamenduan departamendurekin departamendutik
+45	5645	korazatu	korazatua korazatuak korazatuarekin korazatuaren korazatuari korazatura
+46	5646	kaktus	kaktusa kaktusak kaktusaren kaktusari kaktusean kaktusez
+47	5647	argiztatu	argiztaturik argiztatuta argiztatze argiztatzea argiztatzeari argiztatzeko argiztatzen
+48	5648	ospitaleratu	ospitaleratua ospitaleratuta ospitaleratzea ospitaleratzen
+49	5649	zurrut	zurrutak zurrutari zurruterako zurrutik
+50	5650	seta	setaz seten
+51	5651	erratz	erratzean
+52	5652	mantentze	mantentzea mantentzeagatik mantentzean mantentzearen mantentzeaz mantentzeko mantentzerako mantentzerik
+53	5653	set	setaz seten setik
+54	5654	modako	modakoak
+55	5655	aba	abak abaren abari abetako
+56	5656	puntuazio	puntuazioa puntuaziorik
+57	5657	neketsu	neketsua neketsurik
+58	5658	lanaldi	lanaldia
+59	5659	urtxintxa	urtxintxak urtxintxaren
+60	5660	apalki	
+61	5661	zerbeza	
+62	5662	ui	
+63	5663	pagotxa	
+64	5664	bospasei	
+65	5665	aitamatu	aitama
+66	5666	lez	
+67	5667	biba	
+68	5668	ahoskera	ahoskerarik
+69	5669	alergiko	alergikoa
+70	5670	zendu	zendua
+71	5671	pentsakor	pentsakorrak
+72	5672	ukan	ukaten
+73	5673	folk	folka
+74	5674	ikusgai	ikusgaitik
+75	5675	aktibista	aktibistak
+76	5676	sindrome	sindromea
+77	5677	amai	amaia amairik
+78	5678	inurrijale	inurrijalea
+79	5679	vietnamera	vietnameraz
+80	5680	polka	polkako
+81	5681	aholkularitza	aholkularitzari aholkularitzarik
+82	5682	mendekotasun	mendekotasuna mendekotasunik
+83	5683	barazkijale	barazkijalea barazkijaleak
+84	5684	baliokide	baliokidea baliokideak baliokideko
+85	5685	prokuradore	prokuradorea prokuradoreak
+86	5686	apo	apoarekin apoen
+87	5687	alderantzizko	alderantzizkoa
+88	5688	urdinxka	urdinxkak urdinxkaren
+89	5689	injustizia	injustiziak injustiziaren injustiziatik
+90	5690	loradenda	loradendako loradendara loradendaren
+91	5691	hemorragia	hemorragiak hemorragiarekin hemorragiarik
+92	5692	jelosia	jelosiarik jelosiaz
+93	5693	mertzeria	mertzerian mertzeriara
+94	5694	sandalo	sandaloa sandaloaren
+95	5695	bioleta	bioletak
+96	5696	herrestatu	herrestatzen
+97	5697	ukiezin	ukiezina ukiezinak ukiezineko
+98	5698	lokomotor	lokomotora lokomotorak lokomotoraren lokomotorra
+99	5699	telenobela	telenobelako telenobelarik
+100	5700	tanga	tangak tangan tangaren tangaz

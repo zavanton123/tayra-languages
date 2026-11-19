@@ -1,0 +1,100 @@
+1	7801	zutoihal	zutoihala zutoihalak
+2	7802	urguilu	urguilua
+3	7803	zinismo	zinismoa zinismoak zinismorik
+4	7804	kooperazio	kooperazioa kooperazioaren
+5	7805	falo	faloa faloaren
+6	7806	lokailu	lokailuak lokailuaren
+7	7807	astaperrexil	astaperrexila astaperrexilaren
+8	7808	orangutan	orangutana
+9	7809	idealista	idealistak
+10	7810	jainkotasun	jainkotasunaren jainkotasunez
+11	7811	monologo	monologoak monologoan monologoaren
+12	7812	atmosferiko	atmosferikoa atmosferikoak
+13	7813	sindikalista	sindikalistarekin sindikalistekin
+14	7814	hebreera	hebreerako hebreeraz
+15	7815	ozono	ozonoan ozonora
+16	7816	lurrunkor	lurrunkorrak lurrunkorrik
+17	7817	atlas	atlasa atlaseko
+18	7818	hilberri	hilberriak hilberrietan
+19	7819	garraiolari	garraiolariak garraiolariei
+20	7820	emakumezale	emakumezalea emakumezaletzat
+21	7821	sulfuro	sulfuroa sulfuroaren
+22	7822	kontzesio	kontzesioa kontzesioak
+23	7823	periferia	periferiako periferian
+24	7824	zibernetiko	zibernetikoa zibernetikoekin zibernetikoen
+25	7825	bitartekaritza	bitartekaritzako bitartekaritzarik
+26	7826	metaforiko	metaforikoa metaforikoaren
+27	7827	neurosi	neurosia neurosiak
+28	7828	grotesko	groteskoa groteskoen groteskorako
+29	7829	bidoi	bidoia
+30	7830	analogia	analogiaren
+31	7831	automata	automatak automatei
+32	7832	oinordetu	oinordetuko
+33	7833	akabu	akabua akabuko akaburaino
+34	7834	hamaka	hamakako hamakatik
+35	7835	galgatu	galgatzea galgatzeko
+36	7836	bit	bita bitak
+37	7837	erakusgai	erakusgaiak erakusgaiekin
+38	7838	bizeps	bizepsa bizepsak bizepsek
+39	7839	hirusta	hirustak
+40	7840	harpidetza	harpidetzan harpidetzari
+41	7841	eskarmentudun	eskarmentuduna eskarmentudunekin
+42	7842	aljeriar	aljeriarra aljeriarren
+43	7843	sutauts	sutautsa sutautsik
+44	7844	ola	olan
+45	7845	flotagarri	flotagarria flotagarrien
+46	7846	ahoratu	ahoratzen
+47	7847	toldo	toldoak toldotik
+48	7848	baztanga	baztangak baztangari
+49	7849	bypass	bypassak bypasserako
+50	7850	altzairutegi	altzairutegia altzairutegian altzairutegiko
+51	7851	keinukari	keinukaria keinukariak
+52	7852	porotsu	porotsua porotsuak
+53	7853	hamahirugarren	hamahirugarrena hamahirugarrenera
+54	7854	kortex	kortexa kortexean
+55	7855	nonahiko	nonahikoa nonahikoak
+56	7856	jangarri	jangarria jangarriak
+57	7857	alegoria	alegoriaren alegoriaz
+58	7858	sareta	saretak
+59	7859	ugaritasun	ugaritasuna ugaritasunaz ugaritasunean
+60	7860	erlojupeko	erlojupekoak
+61	7861	zikoitz	zikoitza zikoitzak
+62	7862	gautxori	gautxoria
+63	7863	arno	arnoa arnora
+64	7864	makarroi	makarroiak
+65	7865	himen	himena
+66	7866	zatiki	zatikiak zatikietan
+67	7867	errealismo	errealismoa errealismoagatik
+68	7868	merkealdi	merkealdiko merkealdikoa
+69	7869	perkusio	perkusioa perkusiorik
+70	7870	pausa	pausako pausan pausarik
+71	7871	arasa	arasan arasetatik
+72	7872	antxeta	antxetak antxeten
+73	7873	eskobatu	eskobatzeko eskobatzen
+74	7874	errebolta	erreboltak erreboltaren
+75	7875	aerosorgailu	aerosorgailuak aerosorgailuaren aerosorgailuari
+76	7876	permutazio	permutazioak
+77	7877	sabotatu	sabotatzen
+78	7878	kanibalismo	kanibalismoa kanibalismoari kanibalismora
+79	7879	gazitu	gazitua gazituak
+80	7880	megatoi	megatoiak megatoiko megatoikoa
+81	7881	agerkunde	agerkundearen agerkundeen
+82	7882	estatistiko	estatistikoa
+83	7883	pinporta	pinportak pinportek
+84	7884	anorexiko	anorexikoa anorexikoarekin anorexikorik
+85	7885	madalena	madalenak
+86	7886	bernizatu	berniza bernizatua
+87	7887	katapulta	katapultak katapultekin
+88	7888	laborantza	laborantzarako laborantzari
+89	7889	garo	garoa garoak
+90	7890	bikarbonato	bikarbonatoa bikarbonatotan
+91	7891	kurrika	kurrikak
+92	7892	abegitsu	abegitsua abegitsuagoa abegitsuetan
+93	7893	laborista	laboristek laboristen
+94	7894	inausi	inausteko inausten
+95	7895	figurante	figurantea figuranteen
+96	7896	piperbeltz	piperbeltza piperbeltzarekin
+97	7897	topaleku	topalekuan topalekura topalekuraino
+98	7898	odolki	odolkia odolkiak
+99	7899	korsikar	korsikara korsikarra korsikarrak korsikarren
+100	7900	katiuska	katiuskak katiuskek katiuskekin

@@ -1,0 +1,100 @@
+1	2601	deklaratu	deklara deklaratua deklaratuko deklaratzea deklaratzean deklaratzeko deklaratzen deklaratzera
+2	2602	kalkulatu	kalkula kalkulatua kalkulatuko kalkulatuta kalkulatutako kalkulatzeak kalkulatzean kalkulatzeko kalkulatzen
+3	2603	afrikar	afrikara afrikarik afrikarra afrikarrago afrikarrak afrikarrari afrikarrek afrikarren
+4	2604	negoziazio	negoziazioa negoziazioak negoziazioan negoziazioaren negoziazioen negoziazioetan negoziazioetara negoziazioetatik
+5	2605	hornitu	hornitua hornituak hornituko horniturik hornituta hornitutako hornitze hornitzea hornitzeagatik hornitzeko hornitzen
+6	2606	nabigatu	nabiga nabigatuko nabigatzea nabigatzeko nabigatzen nabigatzera
+7	2607	belauniko	
+8	2608	adio	
+9	2609	irain	iraina irainak irainaren irainarengatik irainean irainei irainek irainen irainengatik irainetarako irainetatik irainik iraintzat
+10	2610	programatu	programatua programatuak programatuko programatuta programatutako programatze programatzea programatzean programatzen programatzera
+11	2611	tradizio	tradizioa tradizioak tradizioan tradizioarekin tradizioaren tradizioari tradizioei tradizioen tradizioko tradiziorik tradizioz
+12	2612	talka	talkak talkan talkarik
+13	2613	jomuga	jomugak jomugan jomugara jomugarako jomugarantz jomugaren jomugatzat jomugen
+14	2614	tonu	tonua tonuagatik tonuak tonuaren tonuko tonuz
+15	2615	xake	xakea xakeak xakean xakearen xakeko xakera xakerako
+16	2616	enbor	enborra enborrak enborraren enborrean enborren enborrera enborretatik enborretik
+17	2617	kostalde	kostaldea kostaldeak kostaldean kostaldearen kostaldeko kostaldekoa kostaldera kostalderaino kostalderantz kostaldetatik kostaldetik
+18	2618	prakak	
+19	2619	oroigarri	oroigarria oroigarriak oroigarriaren oroigarrietako oroigarririk oroigarritzat oroigarriz
+20	2620	ibilaldi	ibilaldia ibilaldiak ibilaldian ibilaldietako ibilaldietan ibilaldiko ibilaldira ibilaldirik
+21	2621	koma	komako koman komatik
+22	2622	fidagarri	fidagarria fidagarriagoa fidagarriak fidagarriarentzat fidagarriena fidagarrienak fidagarririk
+23	2623	lantza	lantzak lantzako lantzan lantzarekin lantzaren lantzarik lantzatik lantzek lantzekin
+24	2624	oratu	ora oratuko oraturik oratuta oratuz oratzea oratzean oratzeko oratzen
+25	2625	karabana	karabanak karabanan karabanara karabanaren karabanarengatik karabanari karabanei karabanetako karabanetan karabanetara
+26	2626	birika	birikak birikarik birikatik birikei birikengatik biriketako biriketan biriketara biriketaraino biriketatik
+27	2627	aktibo	aktiboa aktiboago aktiboagoa aktiboak aktiboan aktiboekin aktiboen aktiborik
+28	2628	atsekabe	atsekabea atsekabeagatik atsekabeak atsekabean atsekabearekin atsekabearengatik atsekabeekin atsekabeen atsekaberako atsekaberik atsekabez
+29	2629	artifizial	artifiziala artifizialak artifizialarekin artifizialaren artifizialean artifizialek artifizialekin artifizialeko artifizialen artifizialera artifizialez artifizialik
+30	2630	zilarrezko	zilarrezkoa zilarrezkoak zilarrezkoaz zilarrezkoekin
+31	2631	desatsegin	desatsegina desatseginagoa desatseginak desatseginetan
+32	2632	poztasun	poztasuna poztasunak poztasunaren poztasunari poztasunean poztasunez poztasunik
+33	2633	gaileta	gailetak gailetaren gailetarik gailetekin gaileten
+34	2634	ikertzaile	ikertzailea ikertzaileak ikertzaileek ikertzaileen ikertzaileok ikertzailerik
+35	2635	katilu	katilua katiluak katiluan katiluekin katiluen katiluengatik katilura katilurik
+36	2636	euli	eulia euliak euliaz euliei euliek euliekin eulien eulik eulirik
+37	2637	txango	txangoa txangoak txangoan txangoaren txangoaz txangoen txangoko txangora txangorako txangotik txangoz
+38	2638	kanal	kanala kanalak kanalaren kanalean kanalek kanaleko kanalekoa kanalera kanalerako kanaletan kanaletatik kanaletik kanalez
+39	2639	senatu	senatua senatuak senatuan senatuarekin senatuaren senatuari senatuen senatuko senatura senaturaino
+40	2640	jendaurrean	
+41	2641	jarraian	
+42	2642	goraintzi	goraintziak goraintziekin goraintzirik
+43	2643	diziplina	diziplinakoa diziplinaren diziplinari diziplinarik diziplinaz
+44	2644	saiakera	saiakerak saiakeran saiakerarekin saiakerarik saiakeraz saiakerek
+45	2645	komisaria	komisariako komisarian komisariara komisariarekin komisariatara komisariek
+46	2646	atzerritar	atzerritarik atzerritarra atzerritarrak atzerritarrei atzerritarrek atzerritarrekin atzerritarren atzerritarrena atzerritarrentzat
+47	2647	elektrizitate	elektrizitatea elektrizitateak elektrizitatean elektrizitatearen elektrizitateaz elektrizitateko elektrizitaterik elektrizitatetik elektrizitatez
+48	2648	diseinu	diseinua diseinuak diseinuan diseinuarekin diseinuaren diseinuari diseinuekin diseinuen diseinuko diseinurako
+49	2649	baikor	baikorra baikorrak baikorraz baikorrean baikorregi baikorretan baikortzat
+50	2650	atzapar	atzaparra atzaparrak atzaparrarekin atzaparrari atzaparrek atzaparrekin atzaparren atzaparretan atzaparretatik atzaparretik atzaparrez atzaparrik
+51	2651	eskarmentu	eskarmentua eskarmentuak eskarmentuaren eskarmentuari eskarmentuko eskarmenturako eskarmenturik eskarmentuz
+52	2652	sugar	sugarra sugarrak sugarraren sugarrean sugarrek sugarren sugarretan sugarretara sugarretarantz sugarretatik sugarrez
+53	2653	izurrite	izurritea izurriteak izurritean izurritearekin izurriteaz izurriteei izurriteen izurriteren izurriterik izurritetik
+54	2654	leize	leizea leizeak leizean leizearen leizeetako leizeetan leizeetara leizeetatik leizeko leizera leizerantz leizetan leizetik
+55	2655	brandy	brandya brandyrik
+56	2656	perbertitu	perbertitua perbertituak perbertituarentzat perbertituei perbertituen perbertitzen
+57	2657	kementsu	kementsua kementsuago kementsuagoa kementsuak kementsuek kementsuen kementsuena
+58	2658	sandwich	sandwicha sandwichak sandwicharekin sandwicharen sandwichetan
+59	2659	porno	pornoa pornoago pornoak pornoan pornoaren pornoko pornorik
+60	2660	kritiko	kritikoa kritikoak kritikoan kritikoarengatik kritikoei kritikoek kritikoekin kritikoentzat kritikorik kritikoz
+61	2661	lehiakide	lehiakidea lehiakideak lehiakidearen lehiakideei lehiakideek lehiakideen lehiakideentzat lehiakiderik
+62	2662	oi	
+63	2663	burdinazko	burdinazkoa
+64	2664	eskopeta	eskopetak eskopetarekin eskopetaz eskopetekin
+65	2665	armadura	armadurak armaduran armadurarekin armaduraren armadurek armadurekin
+66	2666	berritu	berritua berrituko berrituta berritutako berritzea berritzeko berritzen
+67	2667	estazio	estazioa estazioak estazioan estazioarekin estazioaren estazioko estaziokoa estaziora estaziotik
+68	2668	kore	korea koreak korean korearen koreari koreaz koreen
+69	2669	kamiseta	kamisetak kamisetakoa kamisetan kamisetarekin kamisetarik kamisetek
+70	2670	arrakastatsu	arrakastatsua arrakastatsuagoa arrakastatsuak arrakastatsuek arrakastatsuen arrakastatsuena arrakastatsuenak arrakastatsura
+71	2671	turista	turistak turistakoak turistan turistaz turistei turistek turistekin turisten turistentzat turistez
+72	2672	halabehar	halabeharra halabeharragatik halabeharrak halabeharraren halabeharrari halabeharrek halabeharrekin halabeharrez halabeharrik
+73	2673	atxiloketa	atxiloketak atxiloketarako atxiloketarekin atxiloketaren atxiloketari atxiloketarik atxiloketatik atxiloketaz atxiloketei atxiloketekin atxiloketen atxiloketez
+74	2674	atsedenaldi	atsedenaldia atsedenaldiak atsedenaldian atsedenaldiko atsedenaldirako atsedenaldirik atsedenalditik
+75	2675	historiko	historikoa historikoak historikoan historikoari historikoetan historikoko historikora historikorik historikotik historikoz
+76	2676	bekatari	bekataria bekatariak bekatariei bekatariek bekatarien bekatariok bekatariren bekataririk bekatariz
+77	2677	zuzendaritza	zuzendaritzak zuzendaritzako zuzendaritzakoa zuzendaritzan zuzendaritzarako zuzendaritzaren zuzendaritzarik zuzendaritzatik zuzendaritzaz
+78	2678	kanpoalde	kanpoaldea kanpoaldean kanpoaldearekin kanpoaldeko kanpoaldekoa kanpoaldekoak kanpoaldera kanpoaldetik
+79	2679	zaharkitu	zaharki zaharkitua zaharkituak zaharkituarekin zaharkituari zaharkituentzat zaharkituetan zaharkituta zaharkitutako zaharkitzen
+80	2680	altzairu	altzairua altzairuak altzairuaren altzairuari altzairuaz altzairurekin altzairurik altzairuz
+81	2681	fase	fasea faseak fasean fasearen faseei faseetan faseko fasera faserako fasetan
+82	2682	estralurtar	estralurtarra estralurtarrak estralurtarrari estralurtarrei estralurtarrek estralurtarrekin estralurtarren estralurtarrengan estralurtarrengana estralurtarretara estralurtarrik
+83	2683	egungo	egungoak egungoekin egungoentzat
+84	2684	eri	eriak eriarekin eriei erik
+85	2685	psikopata	psikopatak psikopataren psikopatei psikopatek psikopatekin psikopaten
+86	2686	jatorrizko	jatorrizkoa jatorrizkoak jatorrizkoan jatorrizkoaren
+87	2687	tenperatura	tenperaturak tenperaturan tenperaturara tenperaturaren tenperaturarik tenperaturek tenperaturekin
+88	2688	lelokeria	lelokeriak lelokeriarik lelokeriatan lelokerien lelokerietan
+89	2689	aholkatu	aholkatuko aholkatutako aholkatzea aholkatzeko aholkatzen
+90	2690	berretsi	berrestea berresteko berresten berretsia berretsiko berretsita berretsitako berretsiz
+91	2691	jertse	jertsea jertseak jertsean jertsearekin jertsearen jertseko
+92	2692	txoritxo	txoritxoa txoritxoak txoritxoari txoritxoek txoritxoen txoritxoentzat txoritxoetako
+93	2693	kapitalismo	kapitalismoa kapitalismoak kapitalismoan kapitalismoarekin kapitalismoaren kapitalismoari kapitalismora kapitalismorik
+94	2694	astiro	
+95	2695	ofizialki	
+96	2696	ganbara	ganbarak ganbarako ganbaran ganbarara ganbarari ganbaratik ganbaraz ganbaretan
+97	2697	antzezlan	antzezlana antzezlanagatik antzezlanak antzezlanarekin antzezlanaren antzezlanari antzezlanean antzezlaneko antzezlanera antzezlanerako antzezlanetan antzezlanik antzezlantzat
+98	2698	portaera	portaeran portaerara portaeraren portaerari portaerarik portaeraz
+99	2699	dokumental	dokumentala dokumentalak dokumentalaren dokumentalaz dokumentalean dokumentaleko dokumentalik
+100	2700	habia	habi habiak habian habiara habiatik habietako habietatik kabi kabia

@@ -1,0 +1,100 @@
+1	2901	itxuraz	
+2	2902	astero	
+3	2903	hamabost	hamabosten
+4	2904	alerta	alertak alertako alertan
+5	2905	belarritako	belarritakoa belarritakoak belarritakorik
+6	2906	erradiazio	erradiazioa erradiazioak erradiazioarekin erradiazioaren erradiaziorik
+7	2907	petrolio	petrolioa petrolioagatik petrolioak petrolioan petrolioaren petrolioaz
+8	2908	zigarreta	zigarretak zigarretan zigarretarekin zigarretaren zigarretarik zigarretatik zigarretei
+9	2909	kapa	kaparekin kaparen kaparik kapaz
+10	2910	espetxeratu	espetxeratuko espetxeratuta espetxeratuz espetxeratzea espetxeratzeak espetxeratzearen espetxeratzeko espetxeratzen
+11	2911	milia	miliak miliako miliara miliaren miliatan miliatara miliaz
+12	2912	gamelu	gamelua gameluak gameluan gameluarekin gameluaren gameluari gameluei gameluek gameluekin gameluen gamelura gameluren gamelurik gameluz
+13	2913	oinatz	oinatza oinatzak oinatzarekin oinatzei oinatzek oinatzekin oinatzen oinatzez oinatzik
+14	2914	entsalada	entsaladak entsaladako entsaladakoak entsaladan entsaladarako entsaladarekin entsaladari entsaladarik
+15	2915	baketsu	baketsua baketsuago baketsuak baketsuan baketsuari baketsuekin baketsuen baketsuentzat
+16	2916	gortina	gortinak gortinako gortinaren gortinari gortinaz gortinekin gortinen gortinetan
+17	2917	kalitate	kalitatea kalitateagatik kalitateak kalitatean kalitatearekin kalitateari kalitateaz kalitateko
+18	2918	arbola	arbolak arbolan arbolarekin arbolaren arbolari arbolarik arbolaz arbolek arbolekin arbolen arboletako arboletan arboletatik arbolez
+19	2919	etsipen	etsipena etsipenagatik etsipenak etsipenarekin etsipenaren etsipenean etsipenerako etsipenetik etsipenez etsipenik
+20	2920	granada	granadak granadako granadei granadekin granaden
+21	2921	plataforma	plataformak plataforman plataformara plataformaren plataformari plataformatik plataformetan
+22	2922	gatibu	gatibua gatibuak gatibuekin gatibuen gatiburik
+23	2923	maskota	maskotak maskotarekin maskotarik maskotatzat maskotei maskoten maskotentzat
+24	2924	serie	seriea serieak seriean seriearen serieko
+25	2925	europar	europara europaren europarentzat europarra europarrak europarraz europarrekin
+26	2926	ahaide	ahaidea ahaideak ahaidearen ahaideek ahaideen ahaideren ahaiderik
+27	2927	kondoi	kondoia kondoiak kondoiei kondoiren kondoirik
+28	2928	merkatari	merkataria merkatariak merkatariaren merkatariari merkatariei merkatariek merkatariekin merkatarien merkatarientzat merkatariren
+29	2929	izter	izterra izterrak izterrari izterrean izterrei izterreko izterren izterrera izterreraino izterretako izterretan izterretara izterrez
+30	2930	tona	tonak tonako tonakoa tonatako
+31	2931	elkartasun	elkartasuna elkartasunagatik elkartasunaz elkartasunez
+32	2932	zailtasun	zailtasuna zailtasunak zailtasunean zailtasunen zailtasunez zailtasunik
+33	2933	terapia	terapiak terapian terapiara terapiarako terapiarekin terapiaren terapiari terapiarik terapietan
+34	2934	espiatu	espia espiatzea espiatzearen espiatzeko espiatzen espiatzera
+35	2935	azenario	azenarioa azenarioak azenarioaren azenarioekin azenariorengatik
+36	2936	harrapari	harraparia harrapariak harrapariaren harrapariei harrapariek harrapariekin harraparien harraparientzat harrapariok harraparirik
+37	2937	ulu	ulua uluak uluan uluaren ulurik
+38	2938	paisaia	paisaiak paisaian paisaiaren paisaiari paisaiarik paisaiaz paisaiei paisaien paisaietan
+39	2939	gene	genea geneak geneei geneek geneekin geneen geneetan generen genetan
+40	2940	pentagono	pentagonoa pentagonoak pentagonoan pentagonoarekin pentagonoarentzat pentagonoari pentagonoko pentagonokoa pentagonora pentagonotik
+41	2941	iseka	isekak isekan isekari isekarik
+42	2942	birao	biraoa biraoak biraoekin biraoen biraoren biraorik biraotzat
+43	2943	irlandar	irlandarra irlandarrak irlandarrari irlandarrean irlandarrei irlandarrek irlandarren irlandarrentzat
+44	2944	alkoholiko	alkoholikoa alkoholikoak alkoholikoan alkoholikoaren alkoholikoek alkoholikoen alkoholikotik
+45	2945	iletsu	iletsua iletsuagoa iletsuak iletsuarekin iletsuaren iletsuari iletsuaz iletsuegiak iletsuko
+46	2946	toxiko	toxikoa toxikoak toxikoaren toxikoegia toxikoek toxikoen toxikorik toxikotik toxikoz
+47	2947	kako	kakoa kakoak kakoan kakoarekin kakoari kakoaz kakoek kakoetan kakoetatik kakorik
+48	2948	auzokide	auzokidea auzokideak auzokideari auzokideei auzokideek auzokideekin auzokideen auzokideentzat auzokidetik
+49	2949	gehiengo	gehiengoa gehiengoak gehiengoarekin gehiengoaren gehiengoari gehiengoei gehiengoentzat gehiengoko
+50	2950	onartezin	onartezina onartezinak onartezinen
+51	2951	koska	koskak koskako koskarekin koskaren koskek
+52	2952	arto	artoa artoarekin artoz
+53	2953	mando	mandoa mandoak mandoan mandoarekin mandoek
+54	2954	txirrindulari	txirrindularia txirrindulariak txirrindulariaren txirrindulariei txirrindulariek txirrindularien txirrindularirik
+55	2955	suite	suitea suiteak suitean suitearen suiteko suitera suitetik
+56	2956	irudipen	irudipena irudipenak irudipenen irudipenez irudipenik irudipenok
+57	2957	garden	gardena gardenak gardenarekin gardenaren gardenean gardeneko gardenen gardenera gardenez
+58	2958	zoo	zooa zooak zooan zooei zooko zookoa zoora zoorik
+59	2959	bapatean	
+60	2960	utikan	
+61	2961	zotin	zotina zotinak zotinok
+62	2962	betiereko	betierekoa betierekoak betierekoan
+63	2963	imitatu	imitatzea imitatzearekin imitatzeko imitatzen
+64	2964	taupada	taupadak taupadarik taupadatan taupadekin taupaden
+65	2965	sorgindu	sorgindua sorginduko sorgindurik sorginduta sorgindutako sorgintze sorgintzen
+66	2966	bele	belea beleak belearen beleari beleei beleek beleekin beleen beleengan beletako
+67	2967	ikusmen	ikusmena ikusmenak ikusmenarekin ikusmenaren ikusmenari ikusmenean ikusmeneko ikusmenerako ikusmenetik ikusmenik
+68	2968	nekagarri	nekagarria nekagarriagoa nekagarriak nekagarrian nekagarrien nekagarriena nekagarriren nekagarririk nekagarritzat
+69	2969	inbasio	inbasioa inbasioagatik inbasioak inbasioan inbasioaren inbasioari inbasioaz inbasiorako inbasiorik inbasiotarako inbasiotik
+70	2970	mundial	mundiala mundialak mundialena mundialera mundialerako mundialetako mundialetara
+71	2971	pelotoi	pelotoia pelotoiak pelotoian pelotoiaren pelotoiari pelotoien pelotoiko pelotoira
+72	2972	probintzia	probintziak probintziako probintziakoa probintziakoak probintzian probintzien probintzietako probintzietan probintziez
+73	2973	barneratu	barneratua barneratuko barneratuta barneratuz barneratzea barneratzeaz barneratzeko barneratzen barneratzera barneratzerik
+74	2974	tiroketa	tiroketak tiroketako tiroketan tiroketaren tiroketari tiroketarik tiroketatik tiroketei
+75	2975	antzezpen	antzezpena antzezpenagatik antzezpenak antzezpenaren antzezpenarengatik antzezpenari antzezpenean antzezpenera antzezpenetan antzezpenik
+76	2976	amanda	amandak amandarekin amandaren amandari
+77	2977	ferra	ferrak ferran ferrari ferrarik
+78	2978	lurpe	lupe lurpean lurpeko lurpera lurpetik
+79	2979	ogitarteko	ogitartekoa ogitartekoak ogitartekoan ogitartekoen ogitartekorik otarteko
+80	2980	abeslari	abeslaria abeslariak abeslarian abeslariarekin abeslariaren abeslaririk
+81	2981	iltze	iltzea iltzeak iltzeari iltzeekin iltzeen iltzerako iltzerik
+82	2982	isolatu	isolatua isolatuak isolatuko isolaturik isolatuta isolatzea isolatzen isolatzera
+83	2983	boxeo	boxeoa boxeoak boxeoan boxeoaren boxeoari boxeoko boxeorik boxeotik
+84	2984	azpijoko	azpijokoa azpijokoak azpijokoan azpijokoaren azpijokoaz azpijokoen azpijokorik azpijokotan azpijokoz
+85	2985	aspertuta	
+86	2986	suzko	
+87	2987	abian	
+88	2988	isilpeko	isilpekoa isilpekoak isilpekoan
+89	2989	baldintzapeko	baldintzapekoa baldintzapekoarekin baldintzapekoaren
+90	2990	izeko	izekoak izekoengana izekok izekorekin izekoren izekori
+91	2991	beltzaran	beltzarana beltzaranak beltzaranen
+92	2992	gurutziltzatu	gurutziltzatua gurutziltzatuko gurutziltzatuta gurutziltzatutako gurutziltzatzeak gurutziltzatzearen gurutziltzatzeko gurutziltzatzen
+93	2993	eskale	eskalea eskaleak eskaleari eskaleek eskaleekin eskaleen eskalerik eskaletik eskalez
+94	2994	zirriborro	zirriborroa zirriborroak zirriborroan zirriborroaren zirriborroengatik zirriborrorik zirriborroz
+95	2995	arabiar	arabiara arabiaren arabiarra arabiarrak arabiarrek arabiarren arabiarrentzat arabiarretan arabiarrez
+96	2996	tximeleta	tximeletak tximeletan tximeletaren tximeletei tximeletek tximeletekin tximeleten
+97	2997	almirante	almirantea almiranteak almirantearekin almirantearen almiranteari almiranteen
+98	2998	hies	hiesa hiesak hiesarekin hiesaren hiesari hiesaz hiesera hieserako
+99	2999	aplikazio	aplikazioa aplikazioak aplikazioan aplikazioaren aplikazioaz aplikazioek aplikazioen aplikazioren aplikaziorik
+100	3000	hilotz	hilotza hilotzak hilotzarekin hilotzaren hilotzaz hilotzean hilotzekin hilotzetako hilotzez hilotzik

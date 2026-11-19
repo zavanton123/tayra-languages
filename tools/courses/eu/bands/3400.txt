@@ -1,0 +1,100 @@
+1	3301	danbor	danborra danborrak danborraren danborrari danborrek danborrekin danborrik
+2	3302	mutante	mutantea mutanteak mutantearen mutanteei mutanteek mutanteekin mutanteen mutanteren mutanterik
+3	3303	mekaniko	mekanikoa mekanikoak mekanikoaren mekanikoek mekanikoen mekanikoengatik mekanikoetatik mekanikora mekanikorik mekanikotik mekanikoz
+4	3304	chic	chica chicago chicok
+5	3305	fenomeno	fenomenoa fenomenoak
+6	3306	cross	crossek crosseko crossen crossentzat
+7	3307	bultzada	bultzadak bultzadarekin bultzadarik bultzadaz
+8	3308	isilarazi	isilaraz isilarazidazu isilaraziko isilaraztea isilarazteko isilarazten
+9	3309	amaigabe	amaigabea amaigabeak amaigabean amaigabearen amaigabeaz amaigabeen amaigabeetan amaigabeko
+10	3310	heze	hezea hezeak hezearen hezeari hezeegi hezeetan hezeko
+11	3311	gimnasio	gimnasioa gimnasioan gimnasiokoa gimnasiora gimnasiotik
+12	3312	ingurune	ingurunea ingurunean ingurunearekin inguruneari inguruneaz inguruneko ingurunera ingurunerako ingurunetik
+13	3313	hiltegi	hiltegia hiltegiak hiltegian hiltegiaren hiltegien hiltegietan hiltegiko hiltegira hiltegirako hiltegitik
+14	3314	erdu	
+15	3315	truk	
+16	3316	pop	popak poparekin poparen
+17	3317	limusina	limusinak limusinako limusinan limusinarantz limusinari limusinatik limusinaz limusinen limusinetako limusinetan limusinetara
+18	3318	hipoteka	hipotekak hipotekarekin hipotekaren hipotekarik hipotekek hipotekekin hipoteken
+19	3319	ikasgela	ikasgelak ikasgelako ikasgelan ikasgelara ikasgelaraino ikasgelaren ikasgelarik ikasgelatara ikasgelatik ikasgeletan ikasgeletara
+20	3320	boxeolari	boxeolaria boxeolariak boxeolariari boxeolariei boxeolariek boxeolarien boxeolarientzat boxeolariren boxeolaririk boxeolaritzat
+21	3321	arlote	arlotea arloteak arloteei arloteen arloteengatik arlotez
+22	3322	urteberri	urteberria urteberrian urteberriko urteberrira urteberrirako urteberriz
+23	3323	banana	bananak bananaren bananatik bananek bananekin bananen
+24	3324	zizare	xixare zizarea zizareak zizareek zizareekin zizareen zizarez
+25	3325	orkatila	orkatilak orkatilakoa orkatilan orkatilari orkatilek orkatiletako orkatiletan orkatiletara orkatiletaraino
+26	3326	genetiko	genetikoa genetikoak genetikoan genetikoaren genetikoek genetikoekin genetikoko genetikorik
+27	3327	eragile	eragilea eragileak eragilearen eragileei eragileko eragilerik eragiletzat
+28	3328	organiko	organikoa organikoak organikoan organikoarekin organikoena organikoko organikokoak organikorik
+29	3329	koilara	koilarak koilararekin koilarari koilararik
+30	3330	dimisio	dimisioa dimisioak dimisioaren
+31	3331	alergia	alergiak alergiaren alergiarik alergiengatik
+32	3332	miseria	miseriak miseriako miserian miseriaren miseriatik miseriekin
+33	3333	higuingarri	higuingarria higuingarriak higuingarriena
+34	3334	baba	babak babatik babaz
+35	3335	identifikazio	identifikazioa identifikazioarekin identifikaziora identifikazioren identifikaziorik
+36	3336	zehaztasun	zehaztasuna zehaztasunak zehaztasunaren zehaztasunengatik zehaztasunez zehaztasunik
+37	3337	itzultzaile	itzultzailea itzultzaileak itzultzailearen itzultzaileen
+38	3338	txit	
+39	3339	errata	erraten
+40	3340	saltoka	
+41	3341	giltzape	giltzapean giltzapearen giltzapera
+42	3342	sol	solak solik solok
+43	3343	heu	heuk heure
+44	3344	gailendu	gailen gailenduko gailentzea gailentzeko gailentzen
+45	3345	berdindu	berdindua berdinduko berdinduta berdintzea berdintzeko berdintzen berdintzera
+46	3346	estres	estresa estresagatik estresak estresarekin estresaren estresaz estreseko estresik
+47	3347	erbesteratu	erbestera erbesteratua erbesteratuak erbesteratuko erbesteraturik erbesteratuta erbesteratutako erbesteratzea erbesteratzearekin erbesteratzearen erbesteratzera
+48	3348	luzera	luzerak luzerako luzeran luzeraz
+49	3349	hilkor	hilkorra hilkorrak hilkorraren hilkorrari hilkorraz hilkorrek hilkorrekin hilkorren hilkorrena hilkorrentzat hilkorrera hilkorretan hilkorrik hilkorrok
+50	3350	dibisio	dibisioa dibisioak dibisioan dibisioaren dibisioarentzat dibisioetan dibisioko dibisiokoak dibisiora dibisioraino dibisiotan
+51	3351	esfera	esferan esferarako esferarekin esferaren esferarik esferen
+52	3352	negarti	negartia negartiagoa negartiak negartiarekin negartiaren negartiarengatik negartiek negartienak
+53	3353	demokratiko	demokratikoa demokratikoak demokratikoaren demokratikoari demokratikoek demokratikoez demokratikoko demokratikorako demokratikorik
+54	3354	psikiatriko	psikiatrikoa psikiatrikoak psikiatrikoan psikiatrikoaren psikiatrikoetako psikiatrikoetan psikiatrikoetatik psikiatrikokoak psikiatrikora psikiatrikotik
+55	3355	esamesa	esamesak esamesarik esamesei esamesek esamesen
+56	3356	legal	legala legalak legalaren legalik legaltzat
+57	3357	jeinu	jeinua jeinuak jeinuaren jeinuari jeinuaz
+58	3358	dosi	dosia dosiak dosiaren dosiaz
+59	3359	biolin	biolina biolinak biolinaren biolinari biolinek biolinen biolinik
+60	3360	koltxoi	koltxoia koltxoiak koltxoian koltxoiaren koltxoietan koltxoirik koltxoitik
+61	3361	sorkuntza	sorkuntzak sorkuntzan sorkuntzara sorkuntzarekin sorkuntzaren sorkuntzari sorkuntzarik sorkuntzaz
+62	3362	ahuntz	ahuntza ahuntzak ahuntzaren ahuntzari ahuntzei ahuntzek ahuntzekin ahuntzen ahuntzetik
+63	3363	kontsulta	kontsultak kontsultako kontsultan kontsultara kontsultarako kontsultarik kontsultatik kontsulten kontsultetan
+64	3364	oparo	oparoa oparoagatik oparoagoa oparoagoak oparoak oparoan oparoarekin oparoegia oparoen oparoena oparoetan
+65	3365	konpas	konpasa konpasak konpasaren konpasari konpasean konpaseko
+66	3366	fardel	fardela fardelak fardelaz fardelean fardeletan
+67	3367	geldo	geldoa geldoago geldoagoak geldoak geldoan geldoegi geldoegia geldoen geldoko geldotzat
+68	3368	webgune	webgunea webguneak webgunean webguneaz webguneetako webguneko webgunera webgunerako webgunerik webgunetan
+69	3369	kutsadura	kutsadurak kutsaduran kutsaduraren kutsaduratik
+70	3370	lira	lirak lirarekin liraren
+71	3371	arrazista	arrazistak arrazistarik arrazistek arrazisten
+72	3372	aldarte	aldartea aldartean aldartearen aldartez
+73	3373	zamalkatu	zamalka zamalkatuko zamalkatuz zamalkatzeko zamalkatzen
+74	3374	emankor	emankorra emankorragoa emankorragoak emankorrak emankorrean emankorrena emankorretik
+75	3375	meritu	meritua merituak merituaren merituetan meriturik
+76	3376	garbitzaile	garbitzailea garbitzaileak garbitzailearen garbitzaileari garbitzaileek garbitzaileok garbitzailerik
+77	3377	irakurle	irakurlea irakurleak irakurleari irakurleei irakurleek irakurleen irakurleentzat irakurlek
+78	3378	koru	korua koruak koruan koruaren koruen koruko korura
+79	3379	mugan	
+80	3380	gutxieneko	gutxienekoa gutxienekoarekin
+81	3381	marine	marinea marineak marinearen marineek marineen marineetan marineko marineok marinerik marinetan
+82	3382	upel	upela upelak upelaren upelean upelei upelekin upelen upelera upeletan upeletara
+83	3383	pribilegio	pribilegioa pribilegioak pribilegioaren pribilegioarengatik pribilegioek pribilegioen pribilegioez pribilegioz
+84	3384	erlazio	erlazioa erlazioak erlazioaren erlazioari erlazioaz erlazioei erlazioen erlazioren erlaziorik
+85	3385	eskifaia	eskifaiak eskifaiako eskifaian eskifaiaren eskifaiari eskifaiarik eskifaiaz
+86	3386	kondaira	kondairak kondairako kondairan kondairaren kondairari kondairek kondairetako
+87	3387	kotoi	kotoia kotoiarekin kotoiaren kotoiari kotoiaz kotoietan kotoiz
+88	3388	xaboi	xaboia xaboiarekin xaboiaren xaboirik xaboiz
+89	3389	itsaspeko	itsaspekoa itsaspekoak itsaspekoan itsaspekoaren itsaspekoek itsaspekoekin itsaspekoen itsaspekoetan itsaspekora itsaspekorik
+90	3390	sormen	sormena sormenak sormenaren sormenari sormenean sormenerantz sormenik
+91	3391	kontsolamendu	kontsolamendua kontsolamenduaren kontsolamenduaz kontsolamenduetan kontsolamendurako kontsolamendurik
+92	3392	katedral	katedrala katedralak katedralaren katedralean katedraleko katedralera katedraleraino katedralerako katedraletan
+93	3393	erradikal	erradikala erradikalagoa erradikalak erradikalaren erradikalari erradikalean erradikalen
+94	3394	jazarpen	jazarpena jazarpenagatik jazarpenak jazarpenarekin jazarpenaz jazarpenean jazarpenerako jazarpenetik jazarpenik
+95	3395	gogoeta	gogoetak gogoetaz
+96	3396	marmelada	marmeladak marmeladarekin marmeladarik
+97	3397	arintze	arintzea arintzeak arintzeaz arintzeko
+98	3398	maletategi	maletategia maletategian maletategiko maletategikoa maletategitik
+99	3399	garratz	garratza garratzak garratzegi garratzegia garratzik
+100	3400	karma	karmak karman karmaren karmen

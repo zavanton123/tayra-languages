@@ -1,0 +1,100 @@
+1	5901	euforia	euforiak euforiarekin euforiaz
+2	5902	manikura	manikurarekin manikuraren manikurarik manikurekin
+3	5903	arnasketa	arnasketan arnasketarekin arnasketaren arnasketari
+4	5904	opio	opioa opioan opiorik
+5	5905	kanpin	kanpina kanpinean
+6	5906	kimono	kimonoa kimonoagatik kimonoan
+7	5907	erreuma	erreumak erreumarekin erreumarengatik
+8	5908	bohemiar	bohemiarra bohemiarrak bohemiarrek bohemiarren
+9	5909	mitiko	mitikoa mitikoak mitikoarentzat
+10	5910	klarinete	klarinetea klarineteak klarinetearen
+11	5911	transexual	transexuala transexualak transexualarekin transexualen
+12	5912	gori	goria goriak goriegi goriekin
+13	5913	hipnosi	hipnosia hipnosiaren hipnosiari hipnosiaz
+14	5914	lapitz	lapitza lapitzak lapitzik
+15	5915	periskopio	periskopioa periskopioak periskopioaren periskopiotik
+16	5916	hudo	hudoa hudoak hudoei hudoek
+17	5917	orojakile	orojakilea orojakileak
+18	5918	hamarren	hamarrena hamarrenak hamarrenik
+19	5919	bahi	bahia bahian bahirako
+20	5920	giltzarri	giltzarria giltzarriak
+21	5921	besaburu	besaburua besaburuak besaburuan besaburukoak
+22	5922	lanbro	lanbroa lanbroak lanbrotik
+23	5923	kimu	kimua kimuak kimuengatik kimuz
+24	5924	irakiar	irakiarrak irakiarrei irakiarren irakiarrentzat
+25	5925	uniformedun	uniformeduna uniformedunak uniformedunek uniformedunetako uniformedunok
+26	5926	psikiatria	psikiatriako psikiatrian
+27	5927	epaimahaiko	epaimahaikoaren epaimahaikoek
+28	5928	behaketa	behaketan behaketaren behaketen behaketetan
+29	5929	diruzale	diruzalea diruzaleak
+30	5930	boli	bolia boliarekin
+31	5931	amantal	amantala
+32	5932	ilustrazio	ilustrazioa ilustrazioak ilustrazioarentzat
+33	5933	desenkusa	desenkusak
+34	5934	pottoka	pottokak pottokari
+35	5935	prima	primek primengatik
+36	5936	koldarkeria	koldarkeriarako koldarkeriari koldarkeriaz
+37	5937	pergamino	pergaminoa pergaminoak pergaminoan pergaminoaren
+38	5938	errezetatu	errezetatuko errezetatzeko errezetatzen
+39	5939	egiptoar	egiptoarra egiptoarrak egiptoarrek
+40	5940	pisutsu	pisutsua pisutsuegia pisutsuegiak pisutsuen
+41	5941	beltxarga	beltxargak beltxargaren beltxargen
+42	5942	erredakzio	erredakzioa erredakzioaren erredakziora
+43	5943	informatika	informatikako informatikan informatikaren
+44	5944	inprimagailu	inprimagailua inprimagailuan
+45	5945	artritis	artritisa artritisak artritisean
+46	5946	koskabilo	koskabiloak koskabiloetan
+47	5947	mate	matea mateak mateok matetan
+48	5948	tolerantzia	tolerantziarako tolerantziaren tolerantziarik
+49	5949	optiko	optikoa optikoak optikoaren optikoaz
+50	5950	kupoi	kupoiak kupoien kupoietan
+51	5951	dotoretasun	dotoretasuna dotoretasunaren dotoretasunez
+52	5952	proiekzio	proiekzioa proiekzioak proiekzioaren proiekzioen proiekzioetara
+53	5953	hierarkia	hierarkian hierarkiarekin hierarkiaren hierarkiarik hierarkiei hierarkien
+54	5954	uzker	uzkerra uzkerrak uzkerrek uzkerrik
+55	5955	arteria	arteriak arterietako
+56	5956	jopu	jopua jopuak jopuaren jopuek
+57	5957	eskote	eskotea eskoteak eskotean
+58	5958	metxero	metxeroa metxeroko metxerorik
+59	5959	ustiatu	ustiatzea ustiatzeko ustiatzen
+60	5960	konpositore	konpositorea konpositoreak konpositorearen konpositorerik
+61	5961	zaia	zaian zaiei zaiek
+62	5962	irakurgai	irakurgaia irakurgaiak irakurgairen
+63	5963	ehizaldi	ehizaldia ehizaldian ehizaldien
+64	5964	afinatu	afinaturik afinatuta afinatzeko
+65	5965	xingola	xingolak xingolarekin
+66	5966	begetariano	begetarianoa begetarianoak
+67	5967	gidaliburu	gidaliburua gidaliburuak gidaliburuan gidalibururik
+68	5968	miresmen	miresmena miresmenaren miresmenez
+69	5969	kantxa	kantxak kantxan
+70	5970	kabaret	kabareta kabareteko kabaretera
+71	5971	sikario	sikarioa sikarioak sikarioek
+72	5972	okin	okina okinak okinaren
+73	5973	martetar	martetarra martetarrak martetarrek martetarren
+74	5974	formulario	formularioa formularioak formulariorik
+75	5975	nini	ninia niniak ninietara
+76	5976	korporatibo	korporatiboagoa korporatiboak korporatiboaren korporatiboetan korporatibora korporatibotik
+77	5977	lansari	lansaria lansariarekin lansaritik
+78	5978	bideragarri	bideragarria bideragarriak
+79	5979	eramaile	eramailea eramaileak eramailearen
+80	5980	betile	betileak betileei betileetatik betileko
+81	5981	opatu	opaiozu opatuko opatzeagatik opatzeko opatzen opatzera
+82	5982	ezkur	ezkurra ezkurrak
+83	5983	orainaldi	orainaldia orainaldian orainaldiaren orainaldiko orainaldira
+84	5984	kiosko	kioskoa kioskoan kioskoko
+85	5985	lehorgailu	lehorgailua lehorgailuak lehorgailuarekin lehorgailuetan lehorgailura
+86	5986	ebanjelio	ebanjelioa ebanjelioak ebanjelioan ebanjelioaren ebanjelioaz
+87	5987	protesi	protesia protesiarekin protesiko protesikoa protesirik
+88	5988	lupa	lupak luparen lupaz lupek lupen
+89	5989	simulatu	simulatua simulatzea simulatzeko simulatzen
+90	5990	bizialdi	bizialdia bizialdian bizialdiko
+91	5991	unai	unaia unaiek unaien unaiengandik
+92	5992	erreformatorio	erreformatorioa erreformatorioan erreformatoriora
+93	5993	engranaje	engranajea engranajeak engranajearen engranajeek engranajeen
+94	5994	arkakuso	arkakusoak arkakusoekin
+95	5995	mozio	mozioa mozioarekin mozioari
+96	5996	urmael	urmaela urmaelaren urmaelean urmaeleko urmaelera
+97	5997	kromo	kromoa kromoak kromoekin kromoen
+98	5998	eiakulazio	eiakulazioa eiakulazioaren eiakulazioaz eiakulaziorik
+99	5999	azkonar	azkonarra azkonarrak azkonarraren azkonarrekin
+100	6000	minor	minorra minorrean minorren minorrera

@@ -1,0 +1,100 @@
+1	8601	lotailu	lotailuak lotailuekin
+2	8602	bekaizti	bekaiztia bekaiztiak bekaiztiegia
+3	8603	croissant	croissanta croissantak croissantik
+4	8604	olerkigintza	olerkigintzan olerkigintzari
+5	8605	arkeologia	arkeologian arkeologiarengatik
+6	8606	degenerazio	degenerazioa
+7	8607	bisore	bisorea bisoreak
+8	8608	urbanizazio	urbanizazioaren urbanizaziorako
+9	8609	eiakulatu	eiakulatzea eiakulatzen
+10	8610	argiztapen	argiztapenarekin argiztapenekoa
+11	8611	herbizida	herbizidekin herbiziden
+12	8612	berdingabe	berdingabea berdingabeko
+13	8613	linfozito	linfozitoak linfozitoen
+14	8614	mokasin	mokasinak
+15	8615	perpaus	perpausa perpausak perpausean
+16	8616	metriko	metrikoa metrikoagatik
+17	8617	uretra	uretrako uretratik
+18	8618	analgesiko	analgesikoak
+19	8619	jarraigo	jarraigoa jarraigoko
+20	8620	komodin	komodina komodinak
+21	8621	nitrato	nitratoa nitratoak
+22	8622	baraila	barailaren barailok
+23	8623	hezle	hezlea hezleak hezlearen
+24	8624	jauretxe	jauretxea jauretxeak jauretxeari
+25	8625	feudal	feudala
+26	8626	tornikete	torniketea torniketeak torniketean
+27	8627	ziklope	ziklopea ziklopeen
+28	8628	anestesiatu	anestesiatuta
+29	8629	petrikilo	petrikiloa petrikiloaz
+30	8630	kiroldegi	kiroldegia kiroldegira
+31	8631	odolgabe	odolgabea odolgabeak
+32	8632	paristar	paristarra paristarrek paristarrentzat
+33	8633	inkoherente	inkoherentea inkoherenteetatik
+34	8634	frakzio	frakzioa frakzioaren
+35	8635	ginekologo	ginekologoa ginekologoarekin
+36	8636	bibliko	biblikoa biblikoetan
+37	8637	begitarte	begitartea begitartean
+38	8638	metadona	metadonara metadonarekin
+39	8639	interaktibo	interaktiboa interaktiboak interaktiboena
+40	8640	lekaime	lekaimearekin lekaimeari
+41	8641	drogeria	drogerietako drogerietan
+42	8642	dermatologo	dermatologoa dermatologoak dermatologoarekin
+43	8643	zimel	zimela zimelak
+44	8644	gardentasun	gardentasuna gardentasunak
+45	8645	borda	bordara bordatik borden
+46	8646	ibi	ibia ibiko
+47	8647	kamino	kaminoa kaminoaz kaminotik
+48	8648	jaunartze	jaunartzean jaunartzekoa jaunartzerako jaunartzetik
+49	8649	adimendun	adimenduna adimendunen adimendunetan
+50	8650	haluzinogeno	haluzinogenoa haluzinogenoak haluzinogenoren
+51	8651	interakzio	interakzioa interakzioak interakzioei interakzioetan
+52	8652	mendilerro	mendilerroa mendilerroak mendilerroetatik mendilerroko
+53	8653	aurkibide	aurkibidea aurkibidean aurkibideaz aurkibiderik
+54	8654	mendebaldar	mendebaldarra mendebaldarrena mendebaldarrik
+55	8655	azienda	aziendaren aziendarik hazienda
+56	8656	nahaski	nahaskia nahaskiak nahaskietan
+57	8657	horitu	horituak horituta horitzen
+58	8658	sinonimo	sinonimoa sinonimoak sinonimorik
+59	8659	porlan	porlana porlanaz porlanean
+60	8660	alkatetza	alkatetzan alkatetzara alkatetzarako
+61	8661	zehaztugabe	zehaztugabea zehaztugabeek zehaztugaberen
+62	8662	sagarrondo	sagarrondoa sagarrondoak sagarrondoen sagarrondoetara
+63	8663	abstrakzio	abstrakzioa abstrakzioan abstrakzioetan
+64	8664	kastrazio	kastrazioa kastrazioak kastrazioaren
+65	8665	gonbidatzaile	gonbidatzailea gonbidatzaileak gonbidatzaileari
+66	8666	estremista	estremistak estremistek estremisten
+67	8667	longitude	longitudea longitudean longitudeko
+68	8668	funsgabe	funsgabea funsgabeak funsgabez
+69	8669	zikoina	zikoinaren zikoinari zikoinengatik
+70	8670	kali	kaliko kaliren kaliz
+71	8671	itsaslabar	itsaslabarra itsaslabarrak itsaslabarretatik itsaslabarretik
+72	8672	errekadu	errekadua errekaduak errekaduen
+73	8673	segizio	segizioa segizioan segizioengatik segiziora
+74	8674	zuhaizti	zuhaiztian zuhaiztiko zuhaiztiren
+75	8675	suntsigarri	suntsigarria suntsigarriena suntsigarriko
+76	8676	nektar	nektarra nektarrak nektarrez
+77	8677	idortu	idortua idortuta idortzen
+78	8678	erritmiko	erritmikoa erritmikoan erritmikoekin
+79	8679	teologiko	teologikoa teologikoak teologikoan
+80	8680	haizagailu	haizagailuan haizagailuaren haizagailutik
+81	8681	erradiografia	erradiografiak erradiografian erradiografiarik
+82	8682	pikor	pikorra pikorraren pikorrekin pikorrez
+83	8683	orbaindu	orbaindua orbaintzea orbaintzen
+84	8684	erreaktibo	erreaktiboa erreaktiboak erreaktiboaren
+85	8685	letoniar	letoniarra letoniarrarentzat letoniarrean
+86	8686	kareharri	kareharrian kareharriaren kareharriz
+87	8687	galtzada	galtzadak galtzadako galtzadan galtzadek
+88	8688	hoztasun	hoztasuna hoztasunaren hoztasunik
+89	8689	koroazio	koroazioa koroazioan koroaziora koroaziorako
+90	8690	poligrafo	poligrafoa poligrafoak poligrafora poligraforen
+91	8691	digeritu	digerituko digerituz digeritzeko digeritzen
+92	8692	sentimentalismo	sentimentalismoa sentimentalismoan sentimentalismoaren
+93	8693	aberkide	aberkideak aberkideen aberkideok
+94	8694	errulo	erruloak erruloekin erruloetan errulorik
+95	8695	entzuleria	entzuleriako entzuleriaren entzuleriatik
+96	8696	ziliziar	ziliziaren ziliziarrak ziliziarrek
+97	8697	mistizismo	mistizismoa mistizismoaren mistizismoari
+98	8698	komunio	komunioa komunioan komunioko komuniorako
+99	8699	pinudi	pinudia pinudiarekin pinudira
+100	8700	tasatu	tasatua tasatzeko tasatzen

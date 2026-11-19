@@ -1,0 +1,100 @@
+1	4101	kola	kolarekin kolaz
+2	4102	errublo	errubloekin errubloko errublotan errublotatik
+3	4103	matxura	matxurak matxuraren matxurarik matxurekin
+4	4104	eskudiru	eskudirua eskudirurik eskudirutan eskudiruz
+5	4105	siesta	siestan siestaren siestarik
+6	4106	hektarea	hektareak hektareako hektareatako hektareatan
+7	4107	sozialista	sozialistak sozialistarekin sozialistek sozialisten
+8	4108	atertu	atertuko atertzeko atertzen
+9	4109	miresle	mireslea miresleak miresleek
+10	4110	onuragarri	onuragarria onuragarriago onuragarriak onuragarrien onuragarriena onuragarrietan
+11	4111	komedia	komediak komedian komediaren komediarik komediez
+12	4112	arduragabekeria	arduragabekeriaren arduragabekeriarik arduragabekeriatan arduragabekeriaz arduragabekerietan
+13	4113	etiko	etikoa etikoak etikoan
+14	4114	txirla	txirlak txirlan txirlarekin txirlarik txirlek
+15	4115	lerden	lerdena lerdenago lerdenak
+16	4116	loti	lotia lotiak lotiok
+17	4117	florin	florinak florinek florineko florinekoa
+18	4118	ildo	ildoak ildoan ildorekin ildoren ildorik ildotik
+19	4119	lerdokeria	lerdokeriak lerdokeriarik lerdokeriaz
+20	4120	disimulatu	disimulatuta disimulatzea disimulatzeko disimulatzen
+21	4121	jarraibide	jarraibidea jarraibideak jarraibideen jarraibiderik
+22	4122	kuku	kukua kukuak kukuaren
+23	4123	elkarlan	elkarlana elkarlanaren elkarlanean elkarlaneko elkarlanerako
+24	4124	artazi	artaziak artaziarekin artaziekin artazien artaziok artazirik
+25	4125	igeltsero	igeltseroa igeltseroak igeltseroei igeltseroek igeltseroekin
+26	4126	mendekatzaile	mendekatzailea mendekatzaileak mendekatzaileek mendekatzaileen mendekatzaileena mendekatzaileok
+27	4127	plato	platoa platoak platoan platora platotik
+28	4128	errima	errimak errimarik errimek errimen
+29	4129	lokarri	lokarria lokarriak lokarrietatik
+30	4130	kreatzaile	kreatzailea kreatzaileak kreatzailearekin kreatzailearen kreatzaileari
+31	4131	esfortzu	esfortzua esfortzuak esfortzuaren esfortzuengatik esfortzurik esfortzuz
+32	4132	apaldu	apalduko apaltzea apaltzeko apaltzen
+33	4133	erekzio	erekzioa erekzioak erekzioaren erekzioari erekziorik
+34	4134	arkitekto	arkitektoa arkitektoak arkitektoaren arkitektoari arkitektoek arkitektoen
+35	4135	txakurkume	txakurkumea txakurkumeak txakurkumearekin txakurkumeei
+36	4136	ebakuazio	ebakuazioa ebakuazioan ebakuazioaren ebakuazioari ebakuazioaz ebakuaziorako
+37	4137	jetzi	jetziko jezte jeztea jezteko jezten
+38	4138	trofeo	trofeoa trofeoak trofeoaren trofeoekin trofeoen trofeoko trofeoz
+39	4139	jostatu	josta jostatuko jostatzea jostatzeko jostatzen jostatzera
+40	4140	errezitatu	errezitatuko errezitatuz errezitatzea errezitatzean errezitatzearen errezitatzen errezitatzera
+41	4141	adiskidetsu	adiskidetsua adiskidetsuagoa adiskidetsuak adiskidetsuan adiskidetsuekin
+42	4142	dirudun	diruduna dirudunak dirudunek dirudunen
+43	4143	bikingo	bikingoa bikingoagoak bikingoak bikingoei bikingoekin bikingoen bikingorik
+44	4144	eskuadroi	eskuadroia eskuadroiak eskuadroiarekin eskuadroiaren eskuadroiari eskuadroietako eskuadroiko
+45	4145	pozoitsu	pozoitsua pozoitsuak pozoitsuaren pozoitsuari pozoitsuegia pozoitsuen pozoitsuez pozoitsuren
+46	4146	intxaur	intxaurra intxaurrak intxaurrei intxaurrek intxaurrez intxaurrik
+47	4147	baia	baiak baian baiaren baiarik baiez
+48	4148	istribor	istriborra istriborrean istriborreko istriborrera istriborretik
+49	4149	begirale	begiralea begiraleak begiraleek begiraleen begiraleengatik begiraleko begiralerik
+50	4150	kontrabando	kontrabandoa kontrabandoak kontrabandoan kontrabandoaren kontrabandoko kontrabandokoa kontrabandokoak kontrabandoz
+51	4151	takoi	takoia takoiak takoiekin takoirik
+52	4152	komantxe	komantxea komantxeak komantxeek komantxeekin komantxeen
+53	4153	pizgarri	pizgarria pizgarriak pizgarriekin pizgarrien pizgarririk
+54	4154	gereziondo	gereziondoa gereziondoak gereziondoaren gereziondoen
+55	4155	komunikabide	komunikabideak komunikabideei komunikabideek komunikabideekin komunikabideen komunikabideetako komunikabideetan komunikabideren
+56	4156	hizki	hizkia hizkiak hizkian hizkiarekin hizkiaz hizkiek hizkientzat hizkietan hizkirik
+57	4157	elite	elitea eliteak elitearen eliteari eliteaz eliteen eliteko elitekoa elitekoak eliteren
+58	4158	hurbileko	hurbilekoa hurbilekoak hurbilekoek
+59	4159	harrikatu	harrika harrikatuko harrikatzea harrikatzeko harrikatzen harrikatzera
+60	4160	errota	errotak errotako errotan errotara errotaren errotarik erroten errotetara
+61	4161	gisan	
+62	4162	arineketa	arineketan
+63	4163	berrogei	berrogeiak
+64	4164	ezkor	ezkorra ezkorrak
+65	4165	unibertsal	unibertsala unibertsalak unibertsalarekin unibertsalari
+66	4166	kobre	kobrea kobreari
+67	4167	perla	perlak perlako perlekin
+68	4168	garaikur	garaikurra garaikurrarengatik garaikurrean garaikurren
+69	4169	zurezko	zurezkoa zurezkoak
+70	4170	fa	fara fei fen
+71	4171	zeurekoi	zeurekoia
+72	4172	sutondo	sutondoa sutondoan sutondoetan sutondora
+73	4173	taro	taroa taroren tarori
+74	4174	esanguratsu	esanguratsua esanguratsuagoak esanguratsuak esanguratsuarekin esanguratsuena esanguratsuetan esanguratsuri
+75	4175	espioitza	espioitzako espioitzan espioitzaren espioitzari espioitzaz
+76	4176	ezkonbizitza	ezkonbizitzak ezkonbizitzan ezkonbizitzarekin ezkonbizitzari ezkonbizitzaz
+77	4177	sadiko	sadikoa sadikoagoa sadikoak
+78	4178	itsaskor	itsaskorra itsaskorragoak itsaskorrak itsaskorrera
+79	4179	grabaketa	grabaketak grabaketaren grabaketarik grabaketetara
+80	4180	sarraskitu	sarraskitua sarraskituak sarraskitzeko sarraskitzen sarraskitzera
+81	4181	fanatiko	fanatikoa fanatikoak fanatikoarekin fanatikoek fanatikoekin fanatikoen
+82	4182	usaimen	usaimena usaimenak usaimenarekin usaimenari usaimenerako usaimenik
+83	4183	dona	donekin donen donengatik donok
+84	4184	bunker	bunkerra bunkerrean bunkerreko bunkerren bunkerretik
+85	4185	kapelu	kapelua kapeluan
+86	4186	mandatu	mandatua mandatuak mandatuen mandatuko
+87	4187	sastakatu	sastaka sastakatuko sastakatuz sastakatzea sastakatzeko sastakatzen
+88	4188	txuleta	txuletak txuletatan txuletoi
+89	4189	alper	alperra alperrak alperrei alperrik
+90	4190	ihesaldi	ihesaldia ihesaldiak ihesaldian ihesaldiaren ihesaldiari ihesaldiekin
+91	4191	tiket	tiketa tiketak
+92	4192	apaingarri	apaingarria apaingarriak apaingarriaz apaingarriekin apaingarrietako apaingarriren apaingarririk
+93	4193	protestante	protestantea protestanteak protestanteek protestanteen
+94	4194	mahats	mahatsa mahatsak mahatsaren mahatsetik mahatsik
+95	4195	lurrun	lurruna lurrunagatik lurrunak lurrunetan
+96	4196	bizipen	bizipena bizipenak bizipenari bizipenek bizipenetara bizipenetatik bizipenez
+97	4197	jaiegun	jaieguna jaiegunak jaiegunaren jaiegunean jaiegunetan jaiegunik
+98	4198	patrika	patrikak patrikako patrikan patrikatik patriketan
+99	4199	koipe	koipea koipean koipearekin koiperik koipez
+100	4200	hipotesi	hipotesia hipotesian hipotesiaren

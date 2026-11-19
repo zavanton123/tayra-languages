@@ -1,0 +1,100 @@
+1	5401	espageti	espagetiak espagetietan
+2	5402	montzoi	montzoia montzoiak montzoiarekin montzoiari montzoiek
+3	5403	tirita	tiritak tiritarik
+4	5404	zetro	zetroa zetroaren zetrorik
+5	5405	dobela	dobelek dobelekin dobelen
+6	5406	magal	magalaren magalean magaletan magalik
+7	5407	nostalgia	nostalgiaren nostalgiarik nostalgiaz
+8	5408	iratzargailu	iratzargailua iratzargailuarekin
+9	5409	diagnostikatu	diagnostikatua diagnostikatzeko
+10	5410	berrabiarazi	berrabiaraztea berrabiarazten
+11	5411	mortero	morteroa morteroak morteroek
+12	5412	jirafa	jirafak jirafaren jirafen
+13	5413	deportatu	deportatua deportatuko deportatzea
+14	5414	mapatxe	mapatxeak mapatxeren
+15	5415	zerra	zerrak zerrarentzat zerrekin zerren
+16	5416	garagar	garagarra garagarraren garagarren garagarrerako
+17	5417	txamarra	txamarrak txamarrako txamarran txamarrari
+18	5418	done	donearen donek doneko
+19	5419	apain	apaina apainak apainekin
+20	5420	bekadun	bekaduna bekadunak bekadunek
+21	5421	konketa	konketak konketako konketan konketarik
+22	5422	dinastia	dinastiak dinastiaren dinastiari dinastiarik
+23	5423	espiral	espirala espiralak espiralari espiralean
+24	5424	zuzendariorde	zuzendariordea zuzendariordeak zuzendariordearekin zuzendariordeen
+25	5425	kartoi	kartoia kartoiak kartoietan
+26	5426	sarkastiko	sarkastikoa sarkastikoak sarkastikoan sarkastikoren
+27	5427	kontsola	kontsolako kontsolan kontsolara kontsolaren kontsolari kontsolatik
+28	5428	autobiografia	autobiografiak autobiografian autobiografiarako autobiografiarik autobiografietan
+29	5429	asteroide	asteroideak asteroideek asteroideekin asteroideen
+30	5430	galestar	galestarra galestarrak galestarrek
+31	5431	auzune	auzunea auzunean auzuneko auzunetan auzunetik
+32	5432	haserrekor	haserrekorra haserrekorrago haserrekorrak
+33	5433	debeku	debekua debekuarekin debekuaren debekuei debekurik
+34	5434	mendixka	mendixkak mendixkan mendixkaren mendixken
+35	5435	desarmatu	desarmaturik desarmatuta desarmatzeko desarmatzen
+36	5436	afalordu	afalordua afalorduan afalordurako
+37	5437	hirigune	hirigunea hirigunean hiriguneko hirigunera hirigunetik
+38	5438	transfusio	transfusioa transfusioak transfusioekin transfusiorik
+39	5439	burukomin	burukomina burukominak burukominarekin burukominik
+40	5440	erretorika	erretorikak erretorikan erretorikarako erretorikarekin erretorikaren
+41	5441	informal	informala informalagoa informalarekin informalean
+42	5442	ezinegon	ezinegona ezinegonak ezinegonarekin ezinegonean ezinegonez
+43	5443	erradio	erradioa erradioan erradioarekin erradioko
+44	5444	gimnasia	gimnasiako gimnasian gimnasiatik
+45	5445	hangar	hangarra hangarrean hangarretik
+46	5446	hamaiketako	hamaiketakoa hamaiketakoagatik hamaiketakoan hamaiketakoaren hamaiketakorako
+47	5447	tartaro	tartaroa tartaroak tartaroei tartaroekin
+48	5448	testuliburu	testuliburua testuliburuak testuliburuan testulibururik
+49	5449	hiena	hienak hienekin hienen
+50	5450	neutralizatu	neutralizatua neutralizatuko neutralizatuta neutralizatzeko neutralizatzen
+51	5451	mimo	mimoa mimoak mimoek mimoen mimoetan mimorik
+52	5452	desertore	desertorea desertoreak desertorearentzat desertoreei
+53	5453	aterpetxe	aterpetxea aterpetxeak aterpetxean aterpetxekoa aterpetxera
+54	5454	tutu	tutua tutuak tutuan tutuaren tututik
+55	5455	manifestari	manifestariak manifestariek manifestariekin manifestarien
+56	5456	lehorte	lehortea lehorteak lehortearen lehorteari lehorterik
+57	5457	konkor	konkorra konkorrak konkorrek konkorrik
+58	5458	amatatu	amata amatatuko amatatzen
+59	5459	narkotiko	narkotikoak narkotikoekin narkotikoen narkotikoetako
+60	5460	mikrobio	mikrobioa mikrobioak mikrobioei
+61	5461	helize	helizea helizeak helizearekin helizeari helizeen
+62	5462	albaniar	albaniarra albaniarrak albaniarraren albaniarrari albaniarrei
+63	5463	ukimen	ukimena ukimenak ukimenarekin ukimenaren ukimenerako
+64	5464	infektatu	infekta infektatua infektatuak infektatuko infektatuta infektatzeko infektatzen
+65	5465	koipetsu	koipetsua koipetsuak koipetsuek koipetsuetara koipetsutik
+66	5466	apokalipsi	apokalipsia apokalipsiak apokalipsiarekin apokalipsiaren apokalipsiari apokalipsiko
+67	5467	berun	beruna berunarekin berunaren berunez
+68	5468	bakartasun	bakartasuna bakartasunak bakartasunaren bakartasunaz bakartasunetik
+69	5469	bertikal	bertikala bertikalak bertikalean bertikalez
+70	5470	sintetiko	sintetikoa sintetikoak sintetikoarekin sintetikoari sintetikoei sintetikoekin sintetikoren
+71	5471	gila	gilan gilek gilekin gilentzat
+72	5472	faila	failako failan failaren failarik
+73	5473	zamaketari	zamaketaria zamaketariak zamaketariek zamaketariekin
+74	5474	amandre	amandrea amandreak amandreari amandreen
+75	5475	medikazio	medikazioa medikazioarekin medikazioaren medikaziorik
+76	5476	sonar	sonarra sonarrak sonarrean sonarreko
+77	5477	paralelo	paraleloa paraleloak paraleloekin paralelora paralelorako paraleloren
+78	5478	ziurtagiri	ziurtagiria ziurtagiriak ziurtagiriaren ziurtagiririk
+79	5479	sozietate	sozietatea sozietatean sozietatearen sozietateko
+80	5480	igeltsu	igeltsua igeltsuak igeltsuan igeltsurako
+81	5481	atletiko	atletikoa atletikoak atletikoan atletikoaren atletikoko
+82	5482	animatzaile	animatzailea animatzaileak animatzaileek animatzaileen
+83	5483	bikini	bikinia bikiniak bikinian bikiniaren bikiniaz bikiniei bikinien bikinietako bikinira
+84	5484	gizajale	gizajalea gizajaleak gizajaleei gizajaleen gizajaleez gizajaleren
+85	5485	amaraun	amarauna amaraunaren amaraunaz amaraunean amarauneko amaraunen amaraunetik
+86	5486	adopzio	adopzioa adopzioaz adopzioen adopziorako adopziorik
+87	5487	fakzio	fakzioa fakzioak fakzioek fakzioen fakziorik fakziotan
+88	5488	sekzio	sekzioa sekzioan sekzioaren sekzioko sekziora sekziotik
+89	5489	paramilitar	paramilitarrak paramilitarrei paramilitarrekoa paramilitarren paramilitarretako
+90	5490	antolatzaile	antolatzailea antolatzaileak antolatzaileek antolatzaileekin antolatzaileentzat
+91	5491	kripta	kriptako kriptan kriptara kriptaren kriptarik
+92	5492	basozain	basozaina basozainak basozainarekin basozainaren basozainei basozainekin
+93	5493	dike	dikea dikeak dikearen dikeei dikeentzat dikeetan
+94	5494	teklatu	teklatua teklatuak teklatuan teklatuaren teklatuetan
+95	5495	amatasun	amatasuna amatasunak amatasunarekin amatasunaren amatasunari amatasuneko
+96	5496	konspiratzaile	konspiratzaileak konspiratzailearekin konspiratzaileari konspiratzaileek konspiratzaileen konspiratzailerik konspiratzailetzat
+97	5497	garaikide	garaikidea garaikidean garaikidearen garaikideei garaikideez garaikideko garaikiderako garaikiderik
+98	5498	udara	udarak udarako udaran udararekin udararen udarari udarekin udaren
+99	5499	maniako	maniakoa maniakoak
+100	5500	gasolindegia	gasolindegiak gasolindegian gasolindegietako

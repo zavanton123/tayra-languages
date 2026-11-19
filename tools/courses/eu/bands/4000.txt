@@ -1,0 +1,100 @@
+1	3901	lambda	lambdan
+2	3902	trankil	trankila
+3	3903	bolumen	bolumena
+4	3904	koka	kokarik kokaz
+5	3905	amuleto	amuletoa amuletoak amuletoarekin amuletoari amuletorik
+6	3906	mauka	maukak maukan maukarekin
+7	3907	jade	jadea jadeak jaderi jaderik
+8	3908	erronda	errondak errondan errondarako errondaren
+9	3909	harmonia	harmoniak harmonian harmoniaren
+10	3910	erreforma	erreformak erreforman erreformei erreformek
+11	3911	maisulan	maisulana maisulanak maisulanei maisulanik
+12	3912	alderrai	alderraia alderraiak alderraiaren
+13	3913	konfiskatu	konfiskatuko konfiskatzea konfiskatzeko konfiskatzen
+14	3914	dokumentazio	dokumentazioa dokumentazioan dokumentaziorik
+15	3915	laga	lagaidazue lagaiezue lagako lagata lagatzea lagatzen
+16	3916	onargarri	onargarria onargarriagoa onargarriak onargarrietara
+17	3917	begibakar	begibakarra begibakarrak begibakarraren
+18	3918	erregu	erregua erreguak erreguarekin erreguen
+19	3919	abusatu	abusatutako abusatzea abusatzeagatik abusatzen
+20	3920	zuntz	zuntza zuntzak zuntzei zuntzekin zuntzetan zuntzez zuntzik
+21	3921	izokin	izokina izokinak izokinaren izokinek
+22	3922	abade	abadea abadearekin abadearen abadeengatik
+23	3923	porru	porrua porruak porruari porrurik
+24	3924	ugaztun	ugaztuna ugaztunak ugaztunek ugaztunen ugaztunik ugaztunok
+25	3925	errealista	errealistak errealistan errealistarekin errealisten errealistez
+26	3926	zozketa	zozketak zozketako zozketan zozketaren zozketarik zozketaz
+27	3927	eden	edenean edeneko edenekoa edenera edenerantz edenetik edengo edentzat
+28	3928	bazkalordu	bazkalordua bazkalorduan bazkalordura bazkalordutik
+29	3929	barnetegi	barnetegia barnetegiak barnetegian barnetegiko barnetegira barnetegitan barnetegitik
+30	3930	oliba	olibak olibaren olibatik olibekin
+31	3931	poliziaburu	poliziaburua poliziaburuak poliziaburuarekin poliziaburuaren poliziaburuari poliziaburuek
+32	3932	zalditeria	zalditeriak zalditeriako zalditeriakoa zalditeriarekin zalditeriarik zalditeriatik
+33	3933	ardatz	ardatza ardatzak ardatzari ardatzean
+34	3934	taktika	taktikak taktikarik taktikekin taktiken
+35	3935	greziar	greziarra greziarrek greziarren
+36	3936	batailoi	batailoia batailoiak batailoian batailoiaren batailoiez batailoitik
+37	3937	osotasun	osotasuna osotasunak osotasunari osotasunaz osotasunean osotasunerako osotasunik
+38	3938	enkante	enkantea enkanteak enkantean enkanteek enkanteetan
+39	3939	arotz	arotza arotzak arotzarekin arotzaren arotzari
+40	3940	lerrokatu	lerrokatua lerrokatuko lerrokatuta lerrokatze lerrokatzen lerrokatzera
+41	3941	umiliazio	umiliazioa umiliazioak umiliazioaren umiliaziorik
+42	3942	ordenatu	ordenatua ordenatuak ordenatuko ordenatuta ordenatzea ordenatzeko ordenatzen
+43	3943	galai	galaia galaiagoa galaiak galaien
+44	3944	gizotso	gizotsoa gizotsoak gizotsoek gizotsoekin
+45	3945	dolu	dolua doluan doluaren doluaz doluko dolura doluz
+46	3946	mertzenario	mertzenarioa mertzenarioak mertzenarioei mertzenarioek
+47	3947	deskribapen	deskribapena deskribapenak deskribapenarekin deskribapenari deskribapenean deskribapenekin
+48	3948	kalezulo	kalezuloa kalezuloan kalezuloko kalezulora kalezulotan
+49	3949	anonimo	anonimoa anonimoan anonimoei anonimoen anonimoetan anonimoetara
+50	3950	ezjakintasun	ezjakintasuna ezjakintasunak ezjakintasunaren ezjakintasunarengatik ezjakintasunaz ezjakintasunean ezjakintasunetik ezjakintasunez
+51	3951	abusu	abusua abusuagatik abusuak abusuarekin abusuaren abusurik
+52	3952	burko	burkoa burkoak burkoarekin burkoaren burkoari burkoen burkoetan
+53	3953	bildots	bildotsa bildotsagatik bildotsak bildotsaren bildotsarentzat bildotsen
+54	3954	askapen	askapena askapenaren askapenari askapenaz askapenerako askapenetan
+55	3955	testuinguru	testuingurua testuinguruak testuinguruan testuingurura testuingurutik
+56	3956	listu	lis listen listua listuaren listurik listuta listuz
+57	3957	eboluzio	eboluzioa eboluzioak eboluzioan eboluzioarekin eboluzioaren eboluzioari eboluziorik eboluziotik eboluziotzat
+58	3958	urtegi	urtegia urtegiagatik urtegiak urtegian urtegiaren urtegiek urtegietan urtegietatik urtegiko urtegikoa urtegira urtegitara
+59	3959	koko	kokoa kokoak kokoarekin kokoekin kokotako
+60	3960	forentse	forentsea forentseak forentsearen forentseari forentseek forentseen
+61	3961	artatu	arta artatuko artatzea artatzeari artatzeko artatzen artatzera
+62	3962	monumentu	monumentua monumentuak monumentuan monumentuaren monumentuei monumentuen monumentuetatik monumenturaino monumenturik monumentutik
+63	3963	bar	bara barak baren barrak barrarekin barraren barrekin barrik
+64	3964	aitortza	aitortzak aitortzaren aitortzarik aitortzatik aitortzen
+65	3965	marrazkia	marrazkiak marrazkian marrazkiaren marrazkiei marrazkiek marrazkien marrazkietan marrazkiez
+66	3966	urrutitik	
+67	3967	goragalea	
+68	3968	ondotxo	
+69	3969	irribarrez	
+70	3970	logia	logiaren
+71	3971	sano	sanoa sanoagatik
+72	3972	eskultura	eskulturak eskulturetan
+73	3973	indioilar	indioilarra indioilarrak indioilarrik
+74	3974	globo	globoa globoak globoan globoarekin globoei globoetan
+75	3975	gizagaixo	gizagaixoa gizagaixoak gizagaixoaren gizagaixoari gizagaixoek
+76	3976	miragarri	miragarria miragarriak miragarrian miragarriez
+77	3977	potentzial	potentziala potentzialak potentzialarekin potentzialaren potentzialen
+78	3978	putazain	putazaina putazainak putazainarekin putazainaren putazainen
+79	3979	konpentsatu	konpentsa konpentsatuko konpentsatzeko konpentsatzen
+80	3980	metafora	metaforak metaforekin
+81	3981	sekta	sektak sektako sektan
+82	3982	saltoki	saltokia saltokian saltokietan saltokiko saltokira saltokitik
+83	3983	ostikada	ostikadak ostikadaren ostikadarik
+84	3984	jendaila	jendailarekin jendailaren jendailari
+85	3985	ikuskatzaile	ikuskatzailea ikuskatzaileak ikuskatzailearen ikuskatzailerik
+86	3986	balantza	balantzan balantzarekin balantzari
+87	3987	artilleria	artilleriak artilleriako artilleriarekin artilleriari artilleriarik artilleriatik
+88	3988	sakonera	sakoneran sakoneraren sakonerarik sakoneretatik
+89	3989	idazmakina	idazmakinak idazmakinan idazmakinara idazmakinarik idazmakinaz idazmakinen idazmakinetara
+90	3990	hemezortzi	hamazortzi
+91	3991	santutasun	santutasuna santutasunak santutasunaren santutasunarentzat santutasunari santutasunera santutasunik
+92	3992	trafikatzaile	trafikatzailea trafikatzaileak trafikatzaileekin trafikatzaileen
+93	3993	hirugihar	hirugiharra hirugiharrak hirugiharrarekin hirugiharrekoak hirugiharrerako hirugiharretan
+94	3994	top	topean topera
+95	3995	goiztiar	goiztiarra goiztiarrago goiztiarrak goiztiarrean goiztiarrekin goiztiarrena goiztiarretik
+96	3996	urtaro	urtaroa urtaroak urtaroen urtarorik urtarotarako
+97	3997	fisika	fisikak fisikako fisikan fisikarako fisikaren fisikarentzat fisikaz
+98	3998	doako	doakoa doakoak
+99	3999	estandar	estandarra estandarrak estandarrari estandarrei estandarrekin estandarren
+100	4000	zereal	zereala zerealak zerealetako zerealez

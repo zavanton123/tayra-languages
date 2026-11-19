@@ -1,0 +1,100 @@
+1	7601	maula	
+2	7602	asteroko	
+3	7603	helio	
+4	7604	tonaka	
+5	7605	frigido	frigidoa
+6	7606	lustre	lustrea
+7	7607	letoniera	letonieraz
+8	7608	ortografia	
+9	7609	almanaka	
+10	7610	larunbatero	
+11	7611	bihotzerre	bihotzerrea
+12	7612	klinikoki	
+13	7613	diabetiko	diabetikoa
+14	7614	zotinka	
+15	7615	aeronautiko	aeronautikoa
+16	7616	beila	beilan
+17	7617	barizela	barizelarekin
+18	7618	tinbre	tinbrea tinbreak
+19	7619	indikatibo	indikatiboko indikatibokoa
+20	7620	magma	magmak
+21	7621	bazkidetza	bazkidetzaren
+22	7622	doilorkeria	doilorkerian
+23	7623	birringailu	birringailura
+24	7624	hiperaktibo	hiperaktiboa hiperaktiboak
+25	7625	osatugabe	osatugabeak
+26	7626	sakristau	sakristaua
+27	7627	usakume	usakumearen
+28	7628	deabrukeria	deabrukeriak
+29	7629	hantura	hanturaren
+30	7630	sendaezin	sendaezina
+31	7631	ele	elea elearekin
+32	7632	inhalagailu	inhalagailua inhalagailuarengatik
+33	7633	labaindu	labaintzen
+34	7634	sinesbera	sinesberen
+35	7635	birramona	birramonarekin
+36	7636	likantropo	likantropoak
+37	7637	itsumen	itsumenagatik
+38	7638	mandarina	mandarinak
+39	7639	narratzaile	narratzailea
+40	7640	apoarmatu	apoarmatua
+41	7641	urlia	urliarekin
+42	7642	eskrupulu	eskrupulurik
+43	7643	aitajaun	aitajauna aitajaunari
+44	7644	saiakuntza	saiakuntzetan
+45	7645	errain	erraina errainaren
+46	7646	aga	agen
+47	7647	legendun	legendunak
+48	7648	desordu	desorduan
+49	7649	almibar	almibarra almibarrerako
+50	7650	eskimal	eskimala
+51	7651	mosketari	mosketaria mosketariak
+52	7652	globulu	globulua
+53	7653	kontaezin	kontaezinak
+54	7654	frustragarri	frustragarria
+55	7655	toga	togen
+56	7656	bulba	bulbako
+57	7657	errenkada	errenkadan errenkadara
+58	7658	dibergente	dibergentea dibergenteak
+59	7659	eskoltatu	eskoltatuko
+60	7660	hazama	hazamak
+61	7661	desobedientzia	desobedientziak
+62	7662	harpidedun	harpideduna
+63	7663	iritsiera	iritsieran
+64	7664	enperatriz	enperatriza
+65	7665	urdintasun	urdintasuna urdintasunaren
+66	7666	afalondo	afalondoa afalondoan
+67	7667	txingor	txingorra
+68	7668	mataza	matazak
+69	7669	bisturi	bisturia bisturiz
+70	7670	estresagarri	estresagarria
+71	7671	guaiaba	guaiabak
+72	7672	ole	olea
+73	7673	egiazkotasun	egiazkotasuna egiazkotasunagatik
+74	7674	libragailu	libragailua libragailuaren
+75	7675	uranio	uranioa
+76	7676	arnasgailu	arnasgailua
+77	7677	prisma	prismaren
+78	7678	buia	buietan
+79	7679	pascal	pascalen
+80	7680	diabetes	diabetesa diabetesarekin
+81	7681	utopia	utopiaren
+82	7682	zerumuga	zerumugan
+83	7683	kalkulatzaile	kalkulatzailea
+84	7684	ketu	ketua
+85	7685	sinplifikatu	sinplifikatzea
+86	7686	marraza	marrazak
+87	7687	pikorta	pikortak
+88	7688	hurrenkera	hurrenkeraz
+89	7689	legionario	legionarioa
+90	7690	mugazain	mugazainak mugazainek
+91	7691	fonetika	fonetikaren
+92	7692	sabotaje	sabotajea
+93	7693	boreal	boreala borealerantz
+94	7694	metanfetamina	metanfetaminak
+95	7695	fabula	fabulak
+96	7696	zekale	zekaleen
+97	7697	ziape	ziapea
+98	7698	karbohidrato	karbohidratoak
+99	7699	arabarba	arabarbek
+100	7700	metamorfosi	metamorfosia

@@ -1,0 +1,100 @@
+1	901	kontratatu	kontrata kontratatua kontratatuak kontratatuko kontratatuta kontratatutako kontratatuz kontratatzea kontratatzeagatik kontratatzeak kontratatzean kontratatzeari kontratatzeaz kontratatzeko kontratatzen kontratatzera
+2	902	autobus	autobusa autobusagatik autobusak autobusarekin autobusaren autobusari autobusean autobusei autobusek autobuseko autobusekoa autobusekoak autobusera autobuserako autobuserantz autobusetan autobusetara autobusetik autobusez autobusik
+3	903	jolas	jolasa jolasak jolasaren jolasean jolasek jolasekin jolasen jolasengatik jolasentzat jolaserako jolasetan jolasik jolastzat
+4	904	debekatu	debekatua debekatuak debekatuko debekaturik debekatuta debekatutako debekatuz debekatzea debekatzeko debekatzen
+5	905	elur	elurra elurragatik elurrak elurrarekin elurraren elurrean elurrek elurren elurretako elurretan elurretara elurretatik elurretik elurrez elurri elurrik
+6	906	ausartu	ausar ausartuko ausartzea ausartzeagatik ausartzeko ausartzen
+7	907	abiatu	abia abiatua abiatuko abiaturik abiatuta abiatuz abiatzea abiatzeko abiatzen abiatzera
+8	908	publiko	publikoa publikoagatik publikoak publikoan publikoarekin publikoaren publikoarengatik publikoarentzat publikoari publikoaz publikoei publikoek publikoen publikoena publikoetako publikoetan publikoetara publikoetatik publikoko publikokoa publikora publikorako publikoren publikorik publikotik
+9	909	geldiarazi	geldiaraz geldiaraziko geldiarazita geldiaraziz geldiaraztea geldiarazteko geldiarazten geldiaraztera geldiarazterik
+10	910	heroi	heroia heroiak heroiaren heroiarengatik heroiari heroiei heroiek heroiekin heroien heroientzat heroiez heroikoa heroikoak heroiren heroirik heroitzat
+11	911	pisu	pisua pisuagatik pisuak pisuan pisuarekin pisuaren pisuarengatik pisuari pisuekin pisuetara pisuetatik pisuko pisukoa pisura pisuraino pisurantz pisurekin pisuren pisurik pisutan pisutik
+12	912	salatu	sala salatua salatuak salatuko salatuta salatzea salatzeagatik salatzeari salatzeko salatzen salatzera
+13	913	itsusi	itsusia itsusiago itsusiagoa itsusiagoak itsusiak itsusian itsusiarekin itsusiek itsusiekin itsusien itsusiena itsusienak itsusietara itsusiez itsusiok itsusirik itsusiz
+14	914	kolpe	kolpea kolpeagatik kolpeak kolpean kolpearekin kolpearen kolpeari kolpeek kolpeengatik kolpeetara kolpeetatik kolpeez kolpera kolperako kolperekin kolperen kolperik kolpetan kolpetara kolpetik kolpez
+15	915	makurtu	makur makurtua makurtuko makurtuta makurtutako makurtuz makurtzea makurtzean makurtzeari makurtzeko makurtzen
+16	916	mende	mendea mendeak mendean mendearekin mendearen mendeari mendeaz mendeen mendeetako mendeetan mendeko mendekoa mendekoak mendera menderen mendetan mendetik mendez
+17	917	arin	arina arinago arinagoa arinagoak arinak arinaren arinean arinegi arinegia arinegiak arinei arineko arinekoa arinekoak arinen arinena arinetan arinez arintzat
+18	918	pertsonal	pertsonala pertsonalago pertsonalagoa pertsonalak pertsonalarekin pertsonalaren pertsonalari pertsonalaz pertsonalean pertsonalegia pertsonalei pertsonalekin pertsonaleko pertsonalen pertsonalena pertsonalengatik pertsonalera pertsonalerako pertsonaletako pertsonaletan pertsonaletik pertsonalez pertsonalik pertsonaltzat
+19	919	zarata	zaratak zaratan zaratarekin zarataren zaratarengatik zaratari zaratarik zaratatik zarataz zaratek zaratekin zaraten
+20	920	existitu	existituko existitzea existitzean existitzearen existitzeari existitzeko existitzen
+21	921	bista	bistak bistako bistakoa bistakoak bistan bistara bistarako bistarik bistatik bistaz
+22	922	belarri	belarria belarriagatik belarriak belarrian belarriarekin belarriaren belarriari belarriek belarriekin belarrien belarriengatik belarrientzat belarrietako belarrietan belarrietara belarrietaraino belarrietarako belarrietatik belarriez belarrik belarriko belarrira belarririk belarritan belarritik belarriz
+23	923	truke	trukea trukeak trukearen trukeari trukeko trukerako trukerik
+24	924	eskaintza	eskaintzak eskaintzan eskaintzaren eskaintzari eskaintzarik eskaintzaz eskaintzei
+25	925	uko	ukoa ukoaz
+26	926	errudun	erruduna errudunago errudunak errudunaren errudunek errudunen erruduni errudunik erruduntzat
+27	927	errepide	errepidea errepideak errepidean errepidearen errepideari errepideaz errepideekin errepideen errepideetako errepideetan errepideetara errepideetatik errepideko errepidekoak errepidera errepideraino errepiderik errepidetik errepidez
+28	928	etengabe	etengabea etengabeagatik etengabeak etengabean etengabearen etengabekoa
+29	929	biktima	biktimak biktimarekin biktimaren biktimarengatik biktimari biktimarik biktimatik biktimatzat biktimaz biktimei biktimek biktimekin biktimen biktimengatik biktimentzat biktimetako biktimetan biktimok
+30	930	albo	alboa alboak alboan alboari alboen alboetako alboetan alboetara alboetatik alboko albokoa albokoak albora alborantz albotik
+31	931	akabo	
+32	932	engainatu	engaina engainatua engainatuak engainatuko engainaturik engainatuta engainatzea engainatzeak engainatzeko engainatzen engainatzera
+33	933	infernu	infernua infernuak infernuan infernuaren infernuari infernuaz infernuetako infernuetara infernuko infernukoa infernura infernurako infernurik infernutan infernutik
+34	934	piztia	piztiak piztian piztiarekin piztiaren piztiarentzat piztiari piztiarik piztiaz piztiei piztiek piztiekin piztien piztientzat piztietan
+35	935	aulki	aulkia aulkiagatik aulkiak aulkian aulkiarekin aulkiaren aulkiari aulkiei aulkiekin aulkien aulkietan aulkietara aulkietatik aulkiez aulkiotan aulkira aulkirako aulkirekin aulkirik aulkitik
+36	936	ekaitz	ekaitza ekaitzagatik ekaitzak ekaitzarekin ekaitzaren ekaitzarengatik ekaitzari ekaitzaz ekaitzean ekaitzei ekaitzek ekaitzekin ekaitzeko ekaitzekoa ekaitzekoak ekaitzen ekaitzengatik ekaitzera ekaitzerako ekaitzetako ekaitzetik ekaitzik
+37	937	txori	txoria txoriagatik txoriak txoriarekin txoriaren txoriarentzat txoriari txoriaz txoriei txoriek txoriekin txorien txoriengandik txoriengatik txorietan txoriez txoriren txoririk txoritan txoritik txoriz
+38	938	zortzi	zortziak zortzian zortziekin zortzien zortzietako zortzietan zortzik zortzira zortzirekin zortzirik zortzitik zorzi
+39	939	urruti	urrutiago urrutian urrutiegi urrutien urrutiena urrutietan urrutikoa urrutikoak urrutira urrutiraino
+40	940	otso	otsoa otsoak otsoaren otsoari otsoaz otsoei otsoek otsoekin otsoen otsoengandik otsoentzat otsoetako otsoetan otsoetara otsoez otsok otsook otsorik otsoz
+41	941	berde	berdea berdeagoa berdeak berdean berdearekin berdearen berdeekin berdeen berdeena berdeetan berdeko berdekoa berdeok berdera berderik berdetan berdetik berdez
+42	942	plazer	plazera plazeragatik plazerak plazeraren plazerari plazeraz plazerean plazerekoa plazeren plazerera plazererako plazerez plazerik plazerra plazerragatik plazerrak plazerraren plazerrarengatik plazerrari plazerren plazerretan plazerrik
+43	943	laguntzaile	laguntzailea laguntzaileak laguntzailearekin laguntzailearen laguntzaileari laguntzaileei laguntzaileek laguntzaileekin laguntzaileen laguntzaileentzat laguntzaileetako laguntzaileko laguntzaileraino laguntzaileren laguntzailerik laguntzailetako laguntzailetzat laguntzailez
+44	944	behingoz	
+45	945	aupa	
+46	946	maisu	maisua maisuak maisuarekin maisuaren maisuari maisuei maisuek maisuekin maisuen maisuentzat maisurik
+47	947	prezio	prezioa prezioagatik prezioak prezioan prezioarekin prezioaren prezioari prezioaz prezioek prezioekin prezioen preziorik preziotan preziotik prezioz
+48	948	ilargi	ilargia ilargiak ilargian ilargiarekin ilargiaren ilargiari ilargiaz ilargiekin ilargiengatik ilargiko ilargira ilargiraino ilargirako ilargirantz ilargirik ilargitan ilargitik
+49	949	hutsik	
+50	950	misio	misioa misioagatik misioak misioan misioarekin misioaren misioari misioaz misioek misioen misioetara misioko misiokoa misiora misiorako misiorik misiotan misiotik
+51	951	lotsa	lotsak lotsan lotsarako lotsaren lotsari lotsarik lotsatan lotsatik lotsatzat lotsaz lotsez lotsok
+52	952	lanpetuta	lanpetutak lanpetutako
+53	953	ipini	ipinia ipinidazu ipiniko ipiniozu ipinita ipinitako ipintzen
+54	954	krimen	krimena krimenagatik krimenak krimenarekin krimenaren krimenaz krimenean krimenei krimenekin krimeneko krimenen krimenengatik krimenerako krimenetan krimenetik krimenez krimenik krimentzat
+55	955	agurtu	agurtua agurtuko agurtze agurtzea agurtzeagatik agurtzeak agurtzeko agurtzen agurtzera
+56	956	uda	udak udako udan udarako udarantz udarekin udaren udari udarik udatik udaz udetan
+57	957	konpainia	konpainiak konpainiako konpainiakoa konpainiakoak konpainian konpainiara konpainiarako konpainiarekin konpainiaren konpainiarentzat konpainiari konpainiarik konpainiatzat konpainiaz konpainiei konpainiek konpainiekin konpainien konpainietan konpainietara
+58	958	sendo	sendoa sendoagatik sendoago sendoagoa sendoak sendoarekin sendoaz sendoegia sendoek sendoekin sendoen sendoena sendoetako sendoetan sendoetara sendoez sendoko sendokoa sendokoak sendorik sendoz
+59	959	bonba	bonbak bonban bonbarekin bonbaren bonbari bonbarik bonbatik bonbaz bonbek bonbekin bonben bonboi
+60	960	ikuskizun	ikuskizuna ikuskizunagatik ikuskizunak ikuskizunarekin ikuskizunaren ikuskizunari ikuskizunaz ikuskizunean ikuskizunekin ikuskizuneko ikuskizunekoa ikuskizunen ikuskizunera ikuskizunerako ikuskizunetako ikuskizunetan ikuskizunetik ikuskizunez ikuskizunik
+61	961	izeba	izebak izebarekin izebaren izebarengana izebarengatik izebari izebarik izebei izebek
+62	962	mintzatu	mintza mintzatua mintzatuko mintzatuz mintzatzea mintzatzeagatik mintzatzeak mintzatzean mintzatzeari mintzatzeko mintzatzen mintzatzera
+63	963	institutu	institutua institutuak institutuan institutuaren institutuari institutuen institutuetako institutuetan institutuko institutukoa institutura institututan institututik
+64	964	hortz	hortza hortzagatik hortzak hortzarekin hortzaren hortzean hortzei hortzekin hortzeko hortzen hortzetako hortzetan hortzetarako hortzetatik hortzetik hortzik
+65	965	latz	latza latzagoa latzagoak latzak latzarekin latzari latzean latzegia latzei latzen latzena latzetan latzetik
+66	966	garesti	garestia garestiago garestiagoa garestiagoak garestiak garestiarekin garestiaren garestiegi garestiegia garestiegiak garestiei garestiekin garestien garestiena garestienak garestietan garestikoak garestirik garestiz
+67	967	errusiar	errusiarra errusiarrak errusiarraren errusiarrarentzat errusiarrari errusiarrei errusiarrek errusiarrekin errusiarren errusiarrena errusiarrenak errusiarrengana errusiarrentzat errusiarrera errusiarretatik errusiarrez errusiarrok errusiartzat
+68	968	bala	balak balako balarekin balaren balarik balaz balek balekin balen
+69	969	agure	agurea agureak agurean agurearekin agurearen agureari agureek agureekin agureen
+70	970	auzi	auzia auziagatik auziak auzian auziarekin auziaren auziarengatik auziari auziaz auzietan auziez auziko auziraino auzirako auzirik auzitan auzitara
+71	971	giza	gizako gizakoak
+72	972	aurkako	aurkakoa aurkakoak aurkakoarekin aurkakoaren aurkakoek aurkakoen aurkakorik
+73	973	ahul	ahula ahulago ahulagoa ahulak ahularekin ahularen ahulari ahulaz ahulean ahulegi ahulegia ahulegiak ahulei ahulek ahulekin ahuleko ahulekoa ahulen ahulena ahulenak ahulengatik ahuletako ahuletan ahulez ahulik ahulontzat
+74	974	zapaldu	zapal zapaldua zapalduak zapalduan zapalduari zapalduko zapalduta zapaldutako zapaldutakoa zapalduz zapaltzea zapaltzeagatik zapaltzean zapaltzeko zapaltzen zapaltzera
+75	975	mozkortu	mozkortua mozkortuko mozkorturik mozkortuta mozkortutako mozkortuz mozkortzea mozkortzeagatik mozkortzeak mozkortzeari mozkortzeko mozkortzen mozkortzera
+76	976	aktore	aktorea aktoreak aktorearekin aktorearen aktoreei aktoreek aktoreekin aktoreen aktoreetako aktorerekin aktorerik
+77	977	ezarri	ezar ezarria ezarriak ezarriko ezarrita ezarritako ezarriz ezartzea ezartzean ezartzearen ezartzeko ezartzen ezartzera
+78	978	printze	printzea printzeagatik printzeak printzearekin printzearen printzearentzat printzeari printzeek printzeen printzerik printzez
+79	979	jarrera	jarrerak jarreran jarrerara jarrerarekin jarreraren jarrerari jarrerarik jarreratan jarreraz jarreren
+80	980	abisatu	abisa abisatua abisatuko abisatuta abisatuz abisatzea abisatzeagatik abisatzeko abisatzen abisatzera
+81	981	aleman	alemana alemanak alemanarekin alemanaren alemanaz alemanei alemanek alemanekin alemaneko alemanekoa alemanen alemanena alemanenak alemanengandik alemanentzat alemanetan alemanez alemanoi alemanok
+82	982	hari	haria hariak hariarekin hariaren hariarengatik hariari hariaz hariei hariek hariekin harien harik hariko harira harirekin hariren haririk haritik hariz
+83	983	programa	programak programako programakoa programan programara programarako programarekin programaren programarengatik programari programarik programatan programatik programaz programei programek programetan
+84	984	haurdun	haurduna haurdunak haurdunen haurdunenak
+85	985	lorategi	lorategia lorategiak lorategian lorategiarekin lorategiaren lorategiari lorategiekin lorategien lorategietan lorategietara lorategietatik lorategiko lorategikoa lorategikoak lorategira lorategiraino lorategirako lorategirik lorategitik
+86	986	salbu	
+87	987	kabroi	kabroia kabroiak kabroiek kabroien kabroiren kabroirik
+88	988	aldaketa	aldaketak aldaketako aldaketan aldaketarako aldaketarekin aldaketaren aldaketarengatik aldaketarik aldaketaz aldaketei aldaketekin aldaketen aldaketok
+89	989	errespetu	errespetua errespetuagatik errespetuak errespetuan errespetuarekin errespetuaren errespetuari errespetuaz errespeturik errespetutik errespetuz
+90	990	zubi	zubia zubiak zubian zubiarekin zubiaren zubiari zubiaz zubien zubiko zubira zubiraino zubirako zubirantz zubiren zubirik zubitik
+91	991	atzeratu	atzeratua atzeratuak atzeratuko atzeraturik atzeratuta atzeratutako atzeratuz atzeratzea atzeratzeagatik atzeratzeko atzeratzen
+92	992	aparta	apartak apartarekin apartarengatik
+93	993	gidari	gidaria gidariak gidarian gidariarekin gidariaren gidariari gidariaz gidariek gidaririk gidaritzat
+94	994	otoitz	otoitza otoitzak otoitzaren otoitzari otoitzean otoitzei otoitzekin otoitzen otoitzerako otoitzetan otoitzez otoitzik
+95	995	etzan	dautza etzaidazu etzana etzanda etzandako etzanen etzanez etzango etzanik etzatea etzateko etzaten etzatera zeutzan
+96	996	gaztelu	gaztelua gazteluak gazteluan gazteluaren gazteluari gazteluen gazteluetan gazteluetatik gazteluko gaztelukoa gaztelura gaztelurako gaztelurantz gaztelurik gaztelutan gaztelutik gazteluz
+97	997	eroso	erosoa erosoago erosoagoa erosoak erosoan erosoegi erosoen erosoena erosokoa erosorik
+98	998	ohitu	ohitua ohituak ohituko ohiturik ohituta ohitutako ohituz ohitzea ohitzeko ohitzen ohitzera
+99	999	irrati	irratia irratiagatik irratiak irratian irratiarekin irratiaren irratiarengatik irratiari irratiek irratien irratietan irratiko irratikoa irratira irratirako irratiren irratirik irratitan irratitik irratiz
+100	1000	mehatxu	mehatxua mehatxuak mehatxuan mehatxuarekin mehatxuaren mehatxuari mehatxuaz mehatxuei mehatxuek mehatxuekin mehatxuen mehatxuengatik mehatxuez mehatxuko mehatxuren mehatxurik mehatxutik mehatxutzat mehatxuz

@@ -1,0 +1,100 @@
+1	4301	torloju	torlojua torlojuak torlojuetarako torlojuz
+2	4302	batel	batela batelak batelari batelean batelera bateletara batelik
+3	4303	eramangarri	eramangarria eramangarriagoa eramangarriak eramangarrian eramangarrietan
+4	4304	estatistika	estatistikak estatistikako estatistikakoak estatistikaren estatistikei estatistikekin estatistiken estatistiketatik
+5	4305	ghetto	ghettoa ghettoak ghettoan ghettoetan ghettoko ghettora ghettorantz ghettotik
+6	4306	negualde	negualdeko negualdekoa negualdera negualderantz negualdetik
+7	4307	farmazia	farmaziako farmaziakoa farmazian farmaziara farmaziatik farmazietan
+8	4308	aisialdi	aisialdia aisialdian aisialdiaren aisialdiaz aisialdiko aisialdira aisialdirako
+9	4309	feria	feriako feriakoak ferian feriara feriarako feriarik feriatik ferietara
+10	4310	probokazio	probokazioa probokazioan probokazioekin probokazioen probokaziorik probokaziotan
+11	4311	oholtza	oholtzak oholtzako oholtzan oholtzara oholtzaren oholtzatik
+12	4312	olagarro	olagarroa olagarroak olagarroarekin olagarroaren olagarroren
+13	4313	tropikal	tropikala tropikalak tropikalaren tropikalean tropikaletan
+14	4314	matematiko	matematikoa matematikoak matematikoaz matematikoek matematikoko matematikori
+15	4315	gizaldi	gizaldia gizaldiak gizaldiari gizaldien gizaldietan gizaldikoak gizalditik gizaldiz
+16	4316	polo	poloa poloan poloetan poloko polora poloraino polorako polorik
+17	4317	diplomatiko	diplomatikoa diplomatikoan diplomatikoarekin diplomatikoaren diplomatikoek diplomatikoena diplomatikoetan diplomatikoz
+18	4318	zoroetxe	zoroetxea zoroetxeak zoroetxean zoroetxeei zoroetxeko zoroetxera zoroetxeren zoroetxetik
+19	4319	luzapen	luzapena luzapenak luzapenarekin luzapenetan luzapenetik luzapenik
+20	4320	sumin	sumina suminak suminarekin suminaren suminarengatik suminerako suminez suminik
+21	4321	lurtar	lurtarra lurtarrak lurtarrarekin lurtarraren lurtarrei lurtarrik
+22	4322	karitate	karitatea karitateak karitatean karitatearen karitatearengatik karitaterako karitaterik karitatez
+23	4323	birziklatu	birziklatuko birziklatuz birziklatze birziklatzea birziklatzearen birziklatzeaz birziklatzeko birziklatzen birziklatzera
+24	4324	bengala	bengalak bengalako bengalarik bengalen
+25	4325	izara	izarak izarek izarekin izaren izaretan
+26	4326	inposatu	inposa inposatua inposatuko inposatutako inposatuz inposatzea inposatzeko inposatzen
+27	4327	mahuka	mahukak mahukaren mahukatik
+28	4328	ameslari	ameslaria ameslariak ameslariei ameslariek
+29	4329	laburpen	laburpena laburpenagatik laburpenak laburpenari laburpenik
+30	4330	ponpa	ponpak ponpan ponparaino ponparen ponpek
+31	4331	idatziz	
+32	4332	hola	
+33	4333	sakonki	
+34	4334	jarraika	
+35	4335	barna	barnen
+36	4336	hamalau	hamalauak
+37	4337	kaliforniar	kaliforniara
+38	4338	boga	bogan bogek
+39	4339	ahozko	ahozkoa
+40	4340	topaketa	topaketak topaketan topaketetan topaketetatik
+41	4341	botagura	botagurak botagurarekin botaguraren
+42	4342	begizta	begiztak begiztari begiztarik
+43	4343	aukeraketa	aukeraketak aukeraketan aukeraketen aukeraketetan
+44	4344	maniobra	maniobrarako maniobraren maniobratzat maniobrek maniobretara maniobretatik
+45	4345	errutina	errutinak errutinan errutinara errutinarekin errutinen
+46	4346	desagerpen	desagerpena desagerpenagatik desagerpenak desagerpenarekin desagerpenaz
+47	4347	poetiko	poetikoa poetikoak poetikoan poetikoekin poetikorik poetikotzat
+48	4348	hornikuntza	hornikuntzak hornikuntzako hornikuntzan hornikuntzekin
+49	4349	fededun	fededuna fededunak fededunei
+50	4350	hizlari	hizlaria hizlariak hizlariei hizlaririk hizlaritzat
+51	4351	erorketa	erorketak erorketaren erorketarik erorketatik erorketaz
+52	4352	zitazio	zitazioa zitazioak zitazioari zitazioko zitaziotik
+53	4353	ordainagiri	ordainagiria ordainagiriak ordainagirian ordainagiriaren ordainagiririk
+54	4354	esmokin	esmokina esmokinak esmokinarekin
+55	4355	biologia	biologiako biologian biologiarekin biologiaren
+56	4356	apar	aparra aparrak aparrean aparrez aparrik
+57	4357	kapera	kaperako kaperan kaperara kaperaraino
+58	4358	tramankulu	tramankulua tramankuluak tramankuluekin tramankuluok
+59	4359	hirukoitz	hirukoitza hirukoitzak hirukoitzarekin hirukoitzaren hirukoitzean hirukoitzeko
+60	4360	paranoia	paranoiak paranoiarekin paranoiaren paranoiarik paranoiatik paranoiek
+61	4361	harea	hareak harean harearekin hareatan hareaz
+62	4362	tradizional	tradizionala tradizionalak tradizionalean tradizionalek tradizionalekin tradizionaleko tradizionaletik
+63	4363	ongile	ongilea ongileak ongileek ongileentzat
+64	4364	akastun	akastuna akastunak akastunek
+65	4365	oldartu	oldartuko oldartutako oldartzea oldartzeko oldartzen
+66	4366	ostikatu	ostika ostikatua ostikatuko ostikatuta ostikatzea ostikatzeko ostikatzen ostikatzera
+67	4367	komiko	komikoa komikoak komikoaren komikoegia
+68	4368	lursail	lursaila lursailak lursailaren lursailean lursailen lursailera lursailetan lursailetatik
+69	4369	akademiko	akademikoa akademikoan akademikoaren akademikoari akademikoetan akademikorako
+70	4370	aitaginarreba	aitaginarrebak aitaginarrebarekin aitaginarrebaren aitaginarrebarentzat aitaginarrebari
+71	4371	berrikuntza	berrikuntzak berrikuntzan berrikuntzaren berrikuntzarik berrikuntzen berrikuntzez
+72	4372	golko	golkoa golkoan golkoaren golkoko golkokoak golkora golkoraino golkotik
+73	4373	laudorio	laudorioa laudorioak laudorioen
+74	4374	maindire	maindirea maindireak maindireekin maindireetan maindireetatik maindiretan
+75	4375	moko	mokoa mokoak mokoan mokoaren mokoen mokorik
+76	4376	sumendi	sumendia sumendiak sumendian sumendiaren sumendirik
+77	4377	dantzaleku	dantzalekua dantzalekuan dantzalekurako dantzalekutik
+78	4378	heterosexual	heterosexuala heterosexualak heterosexualaren heterosexualean heterosexualei heterosexualek heterosexualen heterosexualentzat
+79	4379	ziklo	zikloa zikloak zikloan zikloaren zikloko ziklora ziklorik
+80	4380	terminal	terminala terminalak terminalarekin terminalaren terminalari terminalean terminalekin terminalera terminaletik
+81	4381	merkaturatu	merkaturatuko merkaturatze merkaturatzea merkaturatzeaz merkaturatzeko merkaturatzen
+82	4382	erasokor	erasokorra erasokorragoa erasokorrak erasokorrari erasokorrean
+83	4383	bekoki	bekokia bekokiak bekokian bekokiarekin bekokiko bekokitik
+84	4384	industrial	industriala industrialak industrialaren industrialean industrialek industrialen industrialetako industrialik
+85	4385	adostasun	adostasuna adostasunean adostasuneko adostasunera adostasunik
+86	4386	grabitazio	grabitazioa grabitazioagatik grabitazioak grabitazioaren grabitaziotik
+87	4387	debate	debatea debateak debatean debatearen debateaz debateen debateetan debatera debatetik
+88	4388	oinazetu	oinazetua oinazetuta oinazetzea oinazetzeko oinazetzen
+89	4389	bikotekide	bikotekidea bikotekideak bikotekideekin bikotekiderik
+90	4390	fedegabe	fedegabea fedegabeak fedegabean fedegabeen fedegabeez fedegabeko fedegabera
+91	4391	arantza	arantzak arantzan arantzarik arantzatik arantzaz arantzek arantzen arantzetan arantzez
+92	4392	mintegi	mintegia mintegiak mintegian mintegiarekin mintegiaren mintegiari mintegien mintegiko mintegira mintegiren mintegitzat
+93	4393	ibar	ibarra ibarrean ibarreko ibarrera ibarretik
+94	4394	papar	paparra paparraren paparrean paparreko paparrekoa
+95	4395	editatu	editatua editatuak editatuko editatutako editatze editatzeaz editatzeko editatzen
+96	4396	apelazio	apelazioa apelazioaren apelazioari apelazioetan apelaziorako apelazioren apelaziorik
+97	4397	martzial	martziala martzialak martzialaren martzialei martzialen martzialetako martzialetan martzialetatik
+98	4398	hautsontzi	hautsontzia hautsontziak hautsontzian hautsontziaren hautsontzirako hautsontzirik
+99	4399	haurtzaindegi	haurtzaindegia haurtzaindegiak haurtzaindegian haurtzaindegiaren haurtzaindegiaz haurtzaindegiko haurtzaindegikoak haurtzaindegira haurtzaindegitik
+100	4400	eskumen	eskumena eskumenak eskumenean eskumenekoa eskumenetik eskumenik

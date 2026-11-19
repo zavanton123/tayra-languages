@@ -1,0 +1,100 @@
+1	6101	lizentziadun	lizentziaduna
+2	6102	adoratu	adora adoratuko adoratuz adoratzen
+3	6103	garezur	garezurra garezurraren garezurretik
+4	6104	ingelera	ingelerak ingelerako ingeleraz
+5	6105	ezetsi	ezesteko ezesten ezets ezetsita
+6	6106	immoral	immorala immoralak immoralik
+7	6107	komediante	komediantea komedianteek komedianteentzat
+8	6108	alienatu	aliena alienatuta
+9	6109	kabineteburu	kabineteburua kabineteburuak
+10	6110	monasterio	monasterioa monasterioak monasterioko monasteriora
+11	6111	ermitau	ermitaua ermitauak ermitauan ermitauaren
+12	6112	argigarri	argigarria argigarriagoa argigarrian
+13	6113	gema	gemak gematik gemen gemetako
+14	6114	zio	zioa zioak ziorik zioz
+15	6115	jagon	jagoteko jagoten
+16	6116	genital	genitalak genitalean genitalei genitaletara
+17	6117	arautegi	arautegia arautegiak arautegiaren
+18	6118	iturburu	iturburua iturburura iturburutik
+19	6119	mozkorraldi	mozkorraldia mozkorraldiak
+20	6120	txosna	txosnan txosnara txosnaz
+21	6121	gaza	gazako gazan gazen
+22	6122	zafiro	zafiroa zafiroak zafiroen zafirorik
+23	6123	leotardo	leotardoak
+24	6124	akuri	akuria akuriak akuririk
+25	6125	itsutasun	itsutasuna itsutasunak
+26	6126	kanabera	kanaberaren kanaberarik
+27	6127	plangintza	plangintzak plangintzan plangintzaren plangintzarik
+28	6128	igarpen	igarpena
+29	6129	batxilergo	batxilergoa batxilergoan batxilergoko
+30	6130	gidaritza	gidaritzara gidaritzarako gidaritzaren
+31	6131	erromantze	erromantzea erromantzeekin erromantzeena erromantzera
+32	6132	morse	morsea morsera
+33	6133	dote	dotea dotearekin dotearen doteari
+34	6134	borra	borrak borrekin
+35	6135	kanibal	kanibalak kanibalen
+36	6136	box	boxek boxeko boxen boxetara
+37	6137	kostazain	kostazaina kostazainak kostazainei kostazainek kostazainen
+38	6138	pika	pikak pikako
+39	6139	errentagarri	errentagarria errentagarriak
+40	6140	propultsio	propultsioa propultsiorako
+41	6141	deialdi	deialdia deialdiekin deialditik
+42	6142	euritsu	euritsua euritsuak euritsuaren euritsuetan
+43	6143	legoa	legoak legoatara
+44	6144	hizpide	hizpidea hizpidean hizpidera hizpiderik
+45	6145	azalore	azalorea azaloreekin azaloreetan
+46	6146	biografia	biografiak biografian biografiaren
+47	6147	hazbete	hazbeteak hazbeteko hazbetekoa
+48	6148	moralitate	moralitatea moralitatearen
+49	6149	intentsitate	intentsitatea intentsitateak intentsitatearen intentsitatekoak
+50	6150	kontakatilu	kontakatilua kontakatiluak
+51	6151	pneumatiko	pneumatikoak pneumatikoaren pneumatikoetan
+52	6152	turistiko	turistikoa turistikoan turistikoegia turistikoena turistikoetara
+53	6153	abil	abila abilak abilarengana abilena abilenak
+54	6154	pana	panak panek panen
+55	6155	planetario	planetarioan planetarioaren planetariora planetariorekin
+56	6156	gaizkide	gaizkidea gaizkideak gaizkideari
+57	6157	trafikatu	trafikatuko trafikatuta trafikatutako trafikatzea trafikatzen
+58	6158	argiketari	argiketaria argiketariaren argiketaririk
+59	6159	kamisoi	kamisoia kamisoiak kamisoiarekin
+60	6160	numero	numeroa numerorik numerotatik
+61	6161	iragazi	iragaziko iragazteko iragazten
+62	6162	belaki	belakia belakiarekin belakiaren belakiaz
+63	6163	eskuinalde	eskuinaldean eskuinaldeko eskuinaldera eskuinaldetik
+64	6164	esprai	espraia espraiak espraiarekin
+65	6165	txirotasun	txirotasuna txirotasunaren txirotasunean txirotasunetik
+66	6166	ezegonkortasun	ezegonkortasuna ezegonkortasunak ezegonkortasunaren
+67	6167	konkordun	konkorduna konkordunak konkordunari
+68	6168	legebiltzarkide	legebiltzarkidea legebiltzarkideak legebiltzarkideari legebiltzarkideei
+69	6169	psikoanalisi	psikoanalisia psikoanalisian psikoanalisiaren psikoanalisiari psikoanalisira
+70	6170	konparazio	konparazioa konparazioak konparazioan konparazioaz konparaziorik
+71	6171	kognitibo	kognitiboa kognitiboak kognitiboaren kognitiboen
+72	6172	gihartsu	gihartsua gihartsuago gihartsuagoa gihartsuagoak gihartsuak
+73	6173	tolerante	tolerantea toleranteago toleranteagoa toleranteagoak toleranteak
+74	6174	kozinatu	kozinatua kozinatzen kozinatzera
+75	6175	kanpaldi	kanpaldiak kanpaldian kanpaldikoa kanpalditik
+76	6176	buruxka	buruxkak buruxkek buruxken buruxkengatik
+77	6177	orientazio	orientazioa orientaziorako orientaziorik
+78	6178	behealde	behealdea behealdean behealdekoa
+79	6179	kupel	kupela kupelak kupeleko kupeletik
+80	6180	kizkurtu	kizkurtua kizkurtuak kizkurtuta kizkurtzen
+81	6181	salerosi	saleroste salerostean salerosten salerostera
+82	6182	lehenetsi	lehenestea lehenesten lehenetsiko lehenetsiz
+83	6183	gerraontzi	gerraontzia gerraontziari gerraontziko gerraontzira
+84	6184	zozo	zozoa zozoak
+85	6185	parametro	parametroak parametroen parametroetan parametroren
+86	6186	berrerosi	berrerosiko berrerosteko
+87	6187	kanadar	kanadarra kanadarrak kanadarrekin kanadarren
+88	6188	labore	laboreak laboreen laborez
+89	6189	transbordadore	transbordadorea transbordadorean transbordadorearekin transbordadorearen transbordadorera
+90	6190	marmol	marmola marmolaren
+91	6191	ahulgune	ahulgunea ahulguneak
+92	6192	ulergaitz	ulergaitza ulergaitzak
+93	6193	lukurari	lukuraria lukurariak lukurariei lukurariek
+94	6194	antisemitismo	antisemitismoa antisemitismoaren antisemitismoari antisemitismotik
+95	6195	kiskalgarri	kiskalgarria kiskalgarriak kiskalgarrian kiskalgarriaren kiskalgarrietan
+96	6196	antzekotasun	antzekotasuna antzekotasunak antzekotasunaz antzekotasunik
+97	6197	simulazio	simulazioa simulazioak simulazioek
+98	6198	kopilotu	kopilotua kopilotuak kopilotuaren kopiloturik
+99	6199	atenastar	atenastarra atenastarrak atenastarrek atenastarren
+100	6200	bitxigile	bitxigilea bitxigileak bitxigileari bitxigileek bitxigileen

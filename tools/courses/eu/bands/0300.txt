@@ -1,0 +1,100 @@
+1	201	aukera	aukerak aukerako aukerakoa aukeran aukerarako aukerarekin aukeraren aukerarengatik aukerari aukerarik aukeratik aukeraz aukerei aukerekin aukeren aukerengatik aukeretako aukeretarako aukeretatik aukerez
+2	202	lo	loa loak loan loaren lora lorekin loren lorengatik lori lorik lotan lotara lotarako lotik
+3	203	ate	atea ateak atean atearekin atearen ateari ateei ateek ateekin ateen ateetan ateetara ateetaraino ateetarako ateetarantz ateetatik ateko atekoa ateraino aterako aterantz ateren ateri aterik atetara atetik atez
+4	204	irabazi	irabaz irabazia irabaziak irabaziaren irabaziari irabaziek irabaziekin irabazien irabaziengatik irabazientzat irabazietan irabazietarako irabazietatik irabaziez irabaziko irabaziozu irabazirik irabazita irabazitako irabazitakoa irabazitzat irabaziz irabaztea irabazteagatik irabazteak irabaztean irabaztearen irabazteari irabazteaz irabazteko irabazten irabaztera irabazterik
+5	205	ziur	ziurra ziurrago ziurragoa ziurrarekin ziurrean ziurrekin ziurrena ziurrera ziurrik ziurtzat
+6	206	bete	betea beteago beteagoa beteagoak beteak betean betearekin betearen beteaz beteegi beteegia beteei beteek beteetan beteidazu beteko betera beterako beterik beteta betetako betetakoa betetan betetik betetzat betetzea betetzeagatik betetzeak betetzean betetzearen betetzeaz betetzeko betetzen betetzera betetzerik betez
+7	207	nagusi	nagusia nagusiagatik nagusiago nagusiagoa nagusiagoak nagusiak nagusian nagusiarekin nagusiaren nagusiarengana nagusiarengatik nagusiarentzat nagusiari nagusiaz nagusiegi nagusiegia nagusiei nagusiek nagusiekin nagusien nagusiena nagusienak nagusiengan nagusiengana nagusientzat nagusietako nagusietan nagusietara nagusiez nagusik nagusiko nagusikoa nagusiok nagusira nagusiraino nagusirako nagusirekin nagusiren nagusirik nagusitan nagusitik nagusitzat
+8	208	aizu	aizue
+9	209	ene	enea eneko enetzat
+10	210	irten	irtena irtenak irtenda irtendako irtenez irtengo irtete irtetea irteteagatik irteteak irtetean irteteaz irteteko irteten irtetera irteterik
+11	211	emazte	emaztea emazteagatik emazteak emaztean emaztearekin emaztearen emaztearengan emaztearengana emaztearengandik emaztearengatik emaztearentzat emazteari emazteaz emazteei emazteek emazteekin emazteen emazteengana emazteentzat emazteetako emazteez emazterekin emazterik emaztetik emaztetzat
+12	212	beldur	beldura beldurra beldurragatik beldurrak beldurrarekin beldurraren beldurrari beldurraz beldurrean beldurrei beldurrek beldurrekin beldurreko beldurren beldurretik beldurrez beldurrik bildur
+13	213	ea	
+14	214	buruz	
+15	215	idatzi	idatz idatzia idatziak idatziko idatziozu idatzirik idatzita idatzitako idatzitakoa idazte idaztea idazteagatik idazteak idaztean idaztearen idazteari idazteaz idazteko idazten idaztera
+16	216	min	mina minagatik minagoa minak minarako minarekin minaren minarengandik minarengatik minarentzat minari minarik minatik minaz minean minegia minei minek minekin minen minena minengatik minera minerako minetan minetatik minetik minez mini minik minok mintzat
+17	217	aldi	aldia aldiagatik aldiak aldian aldiaren aldiari aldiaz aldietako aldietan aldietatik aldiko aldikoa aldikoak aldira aldirako aldirik alditako alditan alditatik alditik aldiz
+18	218	bihar	biharko biharkoa biharkoak biharkoan biharkoaren biharkoari biharkoaz biharkorako biharkorik biharra
+19	219	pixka	pixkak pixkat
+20	220	laguntza	laguntzak laguntzako laguntzan laguntzarako laguntzarekin laguntzaren laguntzarengatik laguntzari laguntzarik laguntzaz laguntzen laguntzetan laguntzetatik
+21	221	familia	familiak familiako familiakoa familiakoak familian familiara familiarako familiarantz familiarekin familiaren familiarengan familiarengana familiarengandik familiarengatik familiarentzat familiari familiarik familiatako familiatan familiatik familiaz familiei familiek familiekin familien familiengana familiengatik familientzat familietako familietan familietara familietatik familiez
+22	222	txar	txarra txarragatik txarrago txarragoa txarragoak txarrak txarrarekin txarraren txarrari txarraz txarrean txarrei txarrek txarrekin txarreko txarrekoa txarren txarrena txarrenak txarrengatik txarrera txarrerako txarretan txarretik txarrez txarri txarrik txartzat
+23	223	une	unea uneak unean unearen unearengatik uneaz uneei uneek uneetan uneko unera unerako uneren unerik unetan unetik unetxo unez
+24	224	ordaindu	ordaindua ordainduak ordainduko ordaindurik ordainduta ordaindutako ordaindutakoa ordainduz ordaintze ordaintzea ordaintzeagatik ordaintzeak ordaintzean ordaintzearen ordaintzeari ordaintzeaz ordaintzeko ordaintzen ordaintzera ordaintzerik
+25	225	atze	atzea atzean atzeetan atzeko atzekoa atzekoak atzeraino atzerako atzerantz atzetik
+26	226	nora	
+27	227	erantzun	erantzuidazu erantzuidazue erantzuiozu erantzuiozue erantzuna erantzunak erantzunarekin erantzunaren erantzunaz erantzunda erantzunean erantzunek erantzunekin erantzuneko erantzunen erantzunera erantzunetik erantzunez erantzungo erantzunik erantzutea erantzuteagatik erantzuteak erantzutean erantzuteari erantzuteko erantzuten erantzutera
+28	228	lur	lurra lurragatik lurrak lurrarekin lurraren lurrarengatik lurrari lurraz lurrean lurrei lurrek lurrekin lurreko lurrekoa lurrekoak lurren lurrera lurreraino lurrerako lurrerantz lurretako lurretan lurretara lurretarako lurretatik lurretik lurrez lurrik lurrok lurrotan
+29	229	arrazoi	arrazoia arrazoiagatik arrazoiak arrazoiarekin arrazoiaren arrazoiari arrazoiaz arrazoiei arrazoiekin arrazoien arrazoiengatik arrazoietako arrazoietan arrazoietara arrazoiez arrazoik arrazoira arrazoiren arrazoirengatik arrazoirik arrazoiz
+30	230	hara	
+31	231	polit	polita politagatik politago politagoa politagoak politak politarekin politaren politarentzat politari politean politegia politei politek politekin politeko politekoak politen politena politenak politengatik politentzat politera politik politok zuzenen
+32	232	begi	begia begiagatik begiak begian begiarekin begiaren begiarentzat begiari begiaz begiei begiek begiekin begien begiengatik begientzat begietako begietan begietara begietarako begietatik begiez begiko begikoa begikoak begirako begirik begitan begitik begiz
+33	233	agindu	agindua aginduagatik aginduak aginduarekin aginduaren aginduarentzat aginduari aginduei aginduek aginduekin aginduen aginduetan aginduetara aginduko agindura agindurik aginduta agindutako agindutakoa agindutara agindutik agindutzat aginduz agintzea agintzean agintzeko agintzen agintzera
+34	234	erosi	eros erosia erosiak erosidazu erosiko erosiozu erosirik erosita erositako erositakoa erosiz erostea erosteagatik erosteak erostean erosteari erosteaz erosteko erosten erostera
+35	235	kezkatu	kezkatua kezkatuak kezkatuko kezkaturik kezkatuta kezkatutako kezkatuz kezkatzea kezkatzeagatik kezkatzeari kezkatzeko kezkatzen kezkatzerik
+36	236	batera	
+37	237	artean	
+38	238	nahikoa	
+39	239	heldu	hel heldua helduago helduagoa helduagoak helduak helduarekin helduaren helduegia helduei helduek helduekin helduen helduena helduentzat helduko helduok helduren helduri heldurik helduta heldutan heldutzat helduz heltze heltzea heltzeagatik heltzeak heltzean heltzearen heltzeari heltzeaz heltzeko heltzen heltzera
+40	240	baita	baitako baitan baitara baitatik beita
+41	241	onartu	onar onartua onartuak onartuko onarturik onartuta onartutako onartuz onartzea onartzeagatik onartzeak onartzean onartzearen onartzeaz onartzeko onartzen onartzera onartzerik
+42	242	eseri	eser eseria eseriko eserita eseritako eseriz esertzea esertzeagatik esertzeak esertzean esertzearen esertzeko esertzen esertzera esertzerik jezarri
+43	243	ote	
+44	244	gela	gelak gelako gelakoa gelan gelara gelaraino gelarako gelarekin gelaren gelari gelarik gelatako gelatan gelatara gelatik gelatzat gelaz gelek gelen geletako geletan geletara geletaraino geletatik
+45	245	ireki	irekia irekiago irekiagoa irekiagoak irekiak irekian irekiaren irekidazu irekiei irekien irekiena irekietan irekiez irekiko irekikoa irekikoak irekiozu irekira irekirik irekita irekitako irekitik irekitzat irekitze irekitzea irekitzeagatik irekitzeak irekitzean irekitzearen irekitzen irekitzera irekitzerik irekiz
+46	246	nahiko	nahikoak nahikoan nahikoarekin nahikorekin nahikorik nahikotaraino nahikotzat
+47	247	zain	zaina zainak zainaren zainera zainetako zainetan zainetatik zainez zainik
+48	248	huts	hutsa hutsagatik hutsago hutsak hutsarekin hutsaren hutsarengandik hutsarengatik hutsari hutsaz hutsean hutsegia hutsei hutsek hutsekin hutseko hutsekoak hutsen hutsera hutsetan hutsetarako hutsetik hutsez hutsi
+49	249	geldi	geldia geldiak geldian geldietako geldietan geldiko geldirik
+50	250	axola	axolako axolakoa axolarik
+51	251	bezalako	bezalakoa bezalakoagoa bezalakoak bezalakoaren bezalakoei bezalakoek bezalakoekin bezalakoen bezalakoengatik bezalakoentzat bezalakoez bezalakook bezalakoren bezalakorik
+52	252	zera	zerak zerako zeran zerarekin zeraren zerarengatik zerari zerarik zeratik zeraz zerengatik zerez zeroi zerok zeron
+53	253	erdi	erdia erdiagatik erdiak erdian erdiarekin erdiaren erdiari erdiaz erdiei erdiek erdiekin erdien erdietan erdiko erdikoa erdikoak erdira erdiraino erdirako erdirantz erdirekin erdiren erdirik erditan erditik erditze erditzea erditzeagatik erditzeak erditzean erditzearen erditzeko erditzen erditzera erdiz
+54	254	erabaki	erabakia erabakiak erabakian erabakiarekin erabakiaren erabakiari erabakiaz erabakiei erabakiek erabakiekin erabakien erabakiengatik erabakietan erabakiko erabakira erabakiren erabakirik erabakita erabakitako erabakitakoa erabakitzat erabakitzea erabakitzeagatik erabakitzean erabakitzearen erabakitzeko erabakitzen erabakitzera erabakitzerik erabakiz
+55	255	jaso	jasoa jasoak jasoko jasota jasotako jasotakoa jasotzea jasotzeagatik jasotzeak jasotzean jasotzearen jasotzeaz jasotzeko jasotzen jasotzera jasotzerik jasoz
+56	256	oker	okerra okerragatik okerrago okerragoa okerragoak okerrak okerrarekin okerraren okerrarengatik okerrarentzat okerrari okerraz okerrean okerrek okerrekin okerreko okerrekoa okerrekoak okerren okerrena okerrenak okerrengatik okerrera okerrerako okerretan okerretik okerrez okerrik
+57	257	anaia	anaiak anaiarekin anaiaren anaiarengan anaiarengana anaiarengandik anaiarengatik anaiarentzat anaiari anaiarik anaiatzat anaiaz anaiei anaiek anaiekin anaien anaiengana anaiengatik anaietako anaiez anaiok
+58	258	edan	edana edanarekin edanari edanaz edanda edandako edandakoa edanean edanez edango edanik edate edatea edateagatik edateak edatean edatearekin edatearen edateari edateaz edateko edatekoa edatekoak edatekorik edaten edatera edaterik eran
+59	259	ondoren	ondorenak ondoreneko ondorenetan ondorenik
+60	260	ederki	
+61	261	kontatu	konta kontaidazu kontaiezu kontaiezue kontaiguzu kontaiozu kontaiozue kontatua kontatuak kontatuko kontaturik kontatuta kontatutako kontatutakoa kontatuz kontatzea kontatzeagatik kontatzeak kontatzean kontatzearekin kontatzeari kontatzeko kontatzen kontatzera kontatzerik
+62	262	talde	taldea taldeagatik taldeak taldean taldearekin taldearen taldearengatik taldearentzat taldeari taldeaz taldeei taldeek taldeekin taldeen taldeetako taldeetan taldeez taldek taldeko taldekoa taldekoak taldeok taldera talderako talderekin talderen talderik taldetan taldetik taldetzat
+63	263	ur	ura uragatik urak urarekin uraren urari uraz urean urek ureko uren urengatik uretako uretan uretara uretaraino uretarako uretarantz uretatik uretik urez uri urik
+64	264	ezkondu	ezkon ezkondua ezkonduak ezkonduko ezkondurik ezkonduta ezkondutako ezkonduz ezkontze ezkontzea ezkontzeagatik ezkontzeak ezkontzean ezkontzearekin ezkontzearen ezkontzeari ezkontzeaz ezkontzeko ezkontzen ezkontzera ezkontzerik
+65	265	atsegin	atsegina atseginagatik atseginago atseginagoa atseginagoak atseginak atseginari atseginean atseginegia atseginekoa atseginen atseginena atseginerako atseginez atseginik
+66	266	konpondu	konpon konpondua konponduko konponduta konponduz konpontze konpontzea konpontzeagatik konpontzeak konpontzean konpontzearen konpontzeko konpontzen konpontzera konpontzerik
+67	267	goiz	goiza goizagatik goizaz goizean goizeko goizekoa goizekoak goizera goizerako goizetako goizetan goizetik goizez goizik goizon
+68	268	pertsona	pertsonak pertsonako pertsonan pertsonarekin pertsonaren pertsonarengatik pertsonarentzat pertsonari pertsonarik pertsonatatik pertsonatik pertsonatzat pertsonaz pertsonei pertsonek pertsonekin pertsonen pertsonentzat pertsonetako pertsonetatik pertsonez pertsonok
+69	269	zoragarri	zoragarria zoragarriagatik zoragarriago zoragarriagoa zoragarriak zoragarrian zoragarriarekin zoragarriaren zoragarriarengatik zoragarriari zoragarriaz zoragarriekin zoragarrien zoragarriena zoragarrienak zoragarriengatik zoragarrietan zoragarrietara zoragarrietatik zoragarriok zoragarrira zoragarririk
+70	270	bertan	
+71	271	itxi	itxia itxiak itxiko itxiozu itxirik itxita itxitako itxiz ixten
+72	272	arraio	arraioa
+73	273	berdin	berdina berdinagatik berdinak berdinarekin berdinaren berdinaz berdinean berdinekin berdineko berdinekoak berdinen berdinera berdinetan berdinetik berdinez berdintzat
+74	274	errege	erregea erregeagatik erregeak erregean erregearekin erregearen erregearengan erregearengana erregearenganaino erregearengandik erregearengatik erregearentzat erregeari erregeaz erregeei erregeek erregeen erregeengan erregeentzat erregeez erregek erregerekin erregeren erregeri erregerik
+75	275	herri	herria herriagatik herriak herrian herriarekin herriaren herriarengan herriarengatik herriarentzat herriari herriaz herriek herrien herrientzat herrietako herrietan herrietara herrietatik herriez herrik herriko herrikoa herrikoak herriok herrira herriraino herrirako herrirantz herriren herririk herritan herritara herritik herriz
+76	276	bost	bosta bostak bostean bostekin bostekoa bostentzat bostera bostetatik bostetik bostez bostok boston
+77	277	minutu	minutua minutuak minutuan minutuen minutuetan minutuez minutuko minutukoa minutura minuturako minuturantz minuturekin minuturen minututako minututan minututara minututik minutuz
+78	278	irakurri	irakur irakurria irakurriak irakurridazu irakurriguzu irakurriko irakurririk irakurrita irakurritako irakurritakoa irakurriz irakurtze irakurtzea irakurtzeagatik irakurtzeak irakurtzean irakurtzeari irakurtzeaz irakurtzeko irakurtzen irakurtzera
+79	279	gogor	gogorra gogorragatik gogorrago gogorragoa gogorragoak gogorrak gogorrarekin gogorraren gogorrarentzat gogorrari gogorrean gogorregi gogorregia gogorregiak gogorrek gogorrekin gogorreko gogorrekoa gogorrekoak gogorren gogorrena gogorrenak gogorrera gogorrerako gogorretan gogorretatik gogorretik gogorrez gogorrik gogortzat
+80	280	igo	igoiozu igoko igota igotako igotze igotzea igotzeagatik igotzeak igotzean igotzearen igotzeari igotzeaz igotzeko igotzen igotzera igoz
+81	281	hiri	hiria hiriak hirian hiriarekin hiriaren hiriarentzat hiriari hiriaz hiriei hiriek hiriekin hirien hirietako hirietan hirietara hirietatik hirik hiriko hirikoa hirikoek hirikoen hirira hiriraino hirirako hirirantz hiriren hiririk hiritako hiritan hiritik hiriz
+82	282	ikasi	ikas ikasia ikasiak ikasiaren ikasienak ikasiko ikasirik ikasita ikasitako ikasitakoa ikasiz ikaste ikastea ikasteak ikastean ikasteari ikasteaz ikasteko ikasten ikastera
+83	283	espero	esperoan esperoko esperoz
+84	284	behe	behea beheak behean beheko behekoa behekoak behera beheraino beherako beherantz beheren behetik
+85	285	bikain	bikaina bikainagatik bikainago bikainagoa bikainak bikainarekin bikainaren bikainarengatik bikainarentzat bikainari bikainaz bikainean bikainegia bikainei bikainek bikainekin bikaineko bikainekoa bikainen bikainena bikainenak bikainetan bikainik bikaintzat
+86	286	bukatu	buka bukatua bukatuak bukatuko bukaturik bukatuta bukatutakoa bukatuz bukatzea bukatzeagatik bukatzeak bukatzean bukatzeko bukatzen bukatzera bukatzerik
+87	287	gazte	gaztea gazteago gazteagoa gazteagoak gazteak gaztean gaztearekin gaztearen gaztearengandik gaztearentzat gazteari gazteaz gazteegi gazteegia gazteegiak gazteei gazteek gazteekin gazteen gazteena gazteenak gazteengan gazteengana gazteenganako gazteentzat gazteetako gazteez gaztek gazteok gazterekin gazteren gazteri gazterik gaztez
+88	288	lau	laua lauak lauan lauaren lauegia lauen lauentzat lauetako lauetan lauk lauko laukoa laura laurak laurako laurek laurekin lauren laurentzat laurez laurok laurokin lautan lautik lauz
+89	289	behin	
+90	290	bihotz	bihotza bihotzagatik bihotzak bihotzarekin bihotzaren bihotzarengatik bihotzarentzat bihotzari bihotzaz bihotzean bihotzei bihotzek bihotzekin bihotzeko bihotzekoa bihotzekoak bihotzen bihotzengatik bihotzera bihotzeraino bihotzerako bihotzetako bihotzetan bihotzetatik bihotzetik bihotzez bihotzik
+91	291	toki	tokia tokiagatik tokiak tokian tokiarekin tokiaren tokiari tokiek tokien tokietako tokietan tokietara tokik tokiko tokikoa tokiok tokion tokira tokiraino tokirantz tokiren tokirik tokitako tokitan tokitara tokitarako tokitatik tokitik tokiz
+92	292	inguru	ingurua inguruak inguruan inguruarekin inguruaren inguruari inguruaz inguruetako inguruetan inguruetara inguruk inguruko ingurukoa ingurukoak inguruotako inguruotan ingurura ingururako ingururekin ingurutik
+93	293	ala	alak alan alara alaren alari alen
+94	294	haur	haurra haurragatik haurrak haurrarekin haurraren haurrarengatik haurrarentzat haurrari haurraz haurrei haurrek haurrekin haurreko haurren haurrengan haurrengandik haurrengatik haurrentzat haurrez haurrik haurrok haurron haurtzat
+95	295	gaizki	gaizkia gaizkiago gaizkiak gaizkian gaizkiarekin gaizkiaren gaizkiari gaizkiaz gaizkien gaizkirako gaizkitik gaizkitzat
+96	296	gutxi	gutxiago
+97	297	aste	astea asteagatik asteak astean astearen asteaz asteei asteekin asteetan asteetarako asteko astekoa astekoak asteon asteotako asteotan astera asterako asteren asterik astetako astetan astetara astetarako astetik astez
+98	298	ideia	ideiak ideian ideiarekin ideiaren ideiari ideiarik ideiaz ideiei ideiek ideiekin ideien ideiengatik ideietan ideiez
+99	299	elkarrekin	
+100	300	zaindu	zaindua zainduak zainduko zainduta zainduz zaintze zaintzea zaintzeagatik zaintzeak zaintzearekin zaintzearen zaintzeari zaintzeaz zaintzeko zaintzen zaintzera zaintzerik

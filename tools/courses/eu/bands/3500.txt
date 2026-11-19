@@ -1,0 +1,100 @@
+1	3401	profeta	profetak profetaren profetari profetek
+2	3402	aingura	aingurak aingurako ainguraraino ainguraren aingurari ainguraz
+3	3403	instalatu	instalatuko instalatuta instalatzea instalatzeko instalatzen
+4	3404	ondorioztatu	ondoriozta ondorioztatuko ondorioztatuta ondorioztatzeko ondorioztatzen ondorioztatzera
+5	3405	predikari	predikaria predikariaren predikariari predikariek predikarien
+6	3406	bitamina	bitaminak bitaminaren bitaminaz bitaminei bitaminekin
+7	3407	ihesbide	ihesbidea ihesbideak ihesbiderako ihesbideren ihesbiderik ihesbidetik
+8	3408	adreilu	adreilua adreiluak adreiluarekin adreiluen adreiluz
+9	3409	burusoil	burusoila burusoilak burusoilari burusoilek burusoilik
+10	3410	gizadi	gizadia gizadiak gizadian gizadiarekin gizadiaren gizadiarentzat
+11	3411	azido	azidoa azidoak azidoan azidoarekin azidoaz azidoegia azidoek
+12	3412	gaitzetsi	gaitzestea gaitzesteari gaitzesten gaitzetsia gaitzetsiko gaitzetsita
+13	3413	bitartekari	bitartekaria bitartekariak bitartekarian bitartekariaren bitartekariaz bitartekaririk
+14	3414	igel	igela igelak igelaren igelari igelei igelek igelen igelez
+15	3415	errore	errorea erroreak errorearen erroreen erroreren errorerik
+16	3416	matxino	matxinoa matxinoak matxinoaren matxinoei matxinoek matxinoekin matxinoen
+17	3417	grafiko	grafikoa grafikoak grafikoan grafikoegia grafikoekin grafikoetan grafikoetara
+18	3418	tribuno	tribunoa tribunoak
+19	3419	flotatu	flotatuko flotatuz flotatzeko flotatzen
+20	3420	edizio	edizioa edizioak edizioan edizioaz ediziorako ediziotan
+21	3421	intsektu	intsektua intsektuak intsektuan intsektuen intsekturik
+22	3422	zinegotzi	zinegotzia zinegotziak zinegotziaren zinegotziek zinegotzien zinegotziri
+23	3423	atomiko	atomikoa atomikoak atomikoan atomikoaren atomikoari atomikoen atomikoz
+24	3424	hein	heinean
+25	3425	ilegorri	ilegorria ilegorriak ilegorriarekin
+26	3426	gehigarri	gehigarria gehigarriak gehigarrian gehigarriarekin gehigarriekin gehigarrirako gehigarririk
+27	3427	islatu	islatua islatuko islatuta islatutako islatzeko islatzen
+28	3428	deuseztatu	deuseztatua deuseztatuko deuseztatuta deuseztatzea deuseztatzean deuseztatzeko deuseztatzen deuseztatzera
+29	3429	eguneratu	eguneratua eguneratuko eguneratuta eguneratzea eguneratzeak eguneratzeko eguneratzen
+30	3430	loratu	lora loratua loratuak loratuko loratzeagatik loratzeko loratzen
+31	3431	espezialitate	espezialitatea espezialitateak espezialitatean espezialitateari espezialitateetako espezialitateez
+32	3432	isats	isatsa isatsak isatsarekin isatsari isatsaz isatseko isatsen isatseraino isatsetik
+33	3433	sinesmen	sinesmena sinesmenak sinesmenarengatik sinesmenaz sinesmenean sinesmenen sinesmenengatik sinesmenera sinesmenetan sinesmenik
+34	3434	iruzurgile	iruzurgilea iruzurgileak iruzurgilearen iruzurgileek iruzurgileekin iruzurgileok iruzurgiletzat
+35	3435	transmisio	transmisioa transmisioak transmisioan transmisioarekin transmisioaren transmisioaz transmisiokoak transmisiorako transmisiorik
+36	3436	konspirazio	konspirazioa konspirazioak konspirazioan konspirazioaren konspirazioari konspirazioei konspirazioren konspiraziorik
+37	3437	koaderno	koadernoa koadernoagatik koadernoak koadernoan koadernoarekin koadernoaz koadernoen koadernorik
+38	3438	erietxe	erietxea erietxeak erietxean erietxearekin erietxearen erietxeei erietxeen erietxeetan erietxeko erietxera
+39	3439	oren	orenek orenekin orenen oreni
+40	3440	sokatira	sokatirak sokatirako sokatiran sokatirarekin sokatiraren sokatirari
+41	3441	jakintza	jakintzak jakintzan jakintzara jakintzaren jakintzari jakintzaz
+42	3442	probokatu	proboka probokatutako probokatuz probokatzea probokatzeko probokatzen
+43	3443	jaioberri	jaioberria jaioberriak jaioberriaren jaioberriari jaioberriei jaioberriek jaioberrien jaioberrietako jaioberritan
+44	3444	meza	mezak mezan mezarako mezaren mezari mezatara mezetan mezetara
+45	3445	zaletasun	zaletasuna zaletasunak zaletasunerako zaletasunez zaletasunik
+46	3446	inkesta	inkestak inkestaren inkestari inkestek inkestekin inkesten inkestetan
+47	3447	alien	alienak alienekin alieneko alienen alienengatik alienik
+48	3448	uhin	uhina uhinak uhinek uhinen uhinetatik uhinik
+49	3449	maizter	maizterra maizterrak maizterrari maizterrei maizterren maizterrik
+50	3450	lehorreratze	lehorreratzea lehorreratzean lehorreratzearen lehorreratzeko lehorreratzera lehorreratzeraino lehorreratzerako lehorreratzerekin lehorreratzetik
+51	3451	gaztaro	gaztaroa gaztaroak gaztaroan gaztaroari gaztaroaz gaztaroko gaztarokoak
+52	3452	piramide	piramidea piramideak piramidearen piramideari piramideekin piramideen piramideetara piramideko piramidetik
+53	3453	alba	albak alban
+54	3454	kikara	kikarak kikararen kikaratan
+55	3455	konbinazio	konbinazioa konbinazioak konbinazioetan konbinaziokoa
+56	3456	koba	kobak kobako koban kobara kobaren koben
+57	3457	paranoiko	paranoikoa paranoikoak
+58	3458	asmakizun	asmakizuna asmakizunagatik asmakizunak asmakizunaren asmakizunetan asmakizunetara asmakizunik
+59	3459	tornado	tornadoa tornadoak tornadoaren tornadoari tornadoen tornadorik
+60	3460	hilezkor	hilezkorra hilezkorrak hilezkorraren hilezkorrek hilezkorren hilezkorrik
+61	3461	gibel	gibela gibelak gibelari gibelean gibeleko gibelerako gibeletik gibelik
+62	3462	dramatiko	dramatikoa dramatikoagoa dramatikoak dramatikoan dramatikoegi dramatikoegia dramatikoena dramatikori dramatikorik
+63	3463	araudi	araudia araudiak araudian araudiaren araudiari araudiren araudirik
+64	3464	eternitate	eternitatea eternitatean eternitatearen eternitatera eternitateraino eternitaterako
+65	3465	kitatu	kita kitatua kitatuko kitatuta kitatzea kitatzeari kitatzeko kitatzen
+66	3466	au	
+67	3467	obsesio	obsesioa obsesioak
+68	3468	iruzkin	iruzkina iruzkinak iruzkinen iruzkinik
+69	3469	egonkor	egonkorra egonkorrak egonkorrik
+70	3470	aza	azak azaren azari azarik azei azen azetako
+71	3471	lata	latak latakoak latan latari latek latekin latetan
+72	3472	txofer	txoferra txoferrak txoferrarekin txoferraren txoferrari txoferrekin txoferrik txofertzat
+73	3473	berekoi	berekoia berekoiak berekoiaren berekoiegia berekoiez berekoiok berekoitzat
+74	3474	sentsore	sentsorea sentsoreak sentsoreei sentsoreek sentsoreekin sentsoreetan sentsoreez sentsorerik
+75	3475	anaitasun	anaitasuna anaitasunagatik anaitasunak anaitasunarekin anaitasunaren anaitasunari anaitasunean anaitasunekoak anaitasunetan anaitasunetatik
+76	3476	palestinar	palestinarra palestinarrak palestinarrei palestinarrek palestinarrekin palestinarren palestinarrengatik palestinarrik palestinarrontzat
+77	3477	gong	gonga gongekin
+78	3478	marihuana	marihuanak marihuanaren marihuanaz
+79	3479	kometa	kometak kometarekin kometaren kometari
+80	3480	eztei	ezteiak ezteietan ezteietara ezteiez
+81	3481	isla	islak islaren islarik islekin
+82	3482	huskeria	huskeriak huskeriaren huskeriekin
+83	3483	geruza	geruzak geruzako geruzan geruzaren geruzarengatik geruzetan
+84	3484	makal	makala makalago makalak makalek makaletara
+85	3485	antzara	antzarak antzararen antzarekin antzaretan
+86	3486	hats	hatsa hatsak hatsarengatik hatsaz hatsean hatseraino hatsik
+87	3487	poker	pokerra pokerrean pokerreko pokerrekoa pokerren pokerrik
+88	3488	erratza	erratzak erratzarekin erratzaren erratzekin erratzen
+89	3489	software	softwarea softwareak softwarearekin softwarearen softwareko
+90	3490	txotxongilo	txotxongiloa txotxongiloak txotxongiloari txotxongiloekin txotxongiloen txotxongiloetako txotxongilorik
+91	3491	bainuontzi	bainuontzia bainuontziak bainuontzian bainuontziarekin bainuontziaren bainuontziei bainuontziko bainuontzira bainuontzitik
+92	3492	arkume	arkumea arkumeak arkumearen arkumeari arkumeei arkumeekin arkumeen arkumeetako
+93	3493	bularretako	bularretakoa bularretakoak bularretakoan bularretakoen bularretakok bularretakorik bularretakotan
+94	3494	saguzar	saguzarra saguzarrak saguzarraren saguzarrarengatik saguzarrari saguzarrekin saguzarren
+95	3495	mugagabe	mugagabea mugagabeak mugagabean mugagabearen mugagabeko mugagabekoa mugagabera mugagaberik
+96	3496	zibilizatu	zibilizatua zibilizatuak zibilizatutako zibilizatzea zibilizatzeko
+97	3497	modulu	modulua moduluak moduluan moduluarekin moduluaren moduluari moduluko modulutik
+98	3498	dozenaka	
+99	3499	egiaz	
+100	3500	lulu	luluri

@@ -1,0 +1,100 @@
+1	6901	pure	purea purearekin
+2	6902	koherente	koherentea koherenteak
+3	6903	mezenas	mezenasa mezenasek
+4	6904	inprimatzaile	inprimatzailea inprimatzaileak inprimatzailearen
+5	6905	zenbakidun	zenbakiduna zenbakidunak
+6	6906	koiote	koiotea koioteak
+7	6907	kaputxino	kaputxinoa kaputxinoak
+8	6908	arbitro	arbitroa arbitroak
+9	6909	kastore	kastorea kastoreak
+10	6910	azpisuge	azpisugea azpisugeak
+11	6911	janarazi	janaraziko janarazten
+12	6912	armistizio	armistizioak armistizioaren
+13	6913	marketin	marketineko marketinerako
+14	6914	bihurkin	bihurkina bihurkinik
+15	6915	domino	dominoa dominoan
+16	6916	errepresalia	errepresaliarik errepresalien
+17	6917	mingots	mingotsa mingotsak
+18	6918	kaltegabe	kaltegabea kaltegabeena kaltegabekoa
+19	6919	lurrazal	lurrazala lurrazalean lurrazalera lurrazaletik
+20	6920	piltzar	piltzarrak piltzarrek piltzarretan
+21	6921	buletin	buletina buletinak buletinetan
+22	6922	dominatu	dominatuko dominatzeko dominatzen
+23	6923	atximurkatu	atximurka atximurkatzen
+24	6924	polemiko	polemikoa polemikoegia
+25	6925	ehorzle	ehorzlea ehorzleengatik
+26	6926	prozesadore	prozesadoreetan
+27	6927	gospel	gospeletik
+28	6928	mazopa	mazoparen
+29	6929	lumadun	lumaduna
+30	6930	erretaula	erretaularekin
+31	6931	soldatapeko	soldatapekoa
+32	6932	eztabaidagarri	eztabaidagarria eztabaidagarriek
+33	6933	zangar	zangarra
+34	6934	koherentzia	koherentziarik
+35	6935	hegaleko	hegalekorik
+36	6936	janzki	janzkia
+37	6937	alberjinia	alberjiniak
+38	6938	instintu	instintua
+39	6939	premu	premua
+40	6940	erretira	erretirarik
+41	6941	katebegi	katebegia
+42	6942	amatxi	amatxirekin
+43	6943	brontzezko	brontzezkoa
+44	6944	kanpadenda	kanpadendak kanpadendara
+45	6945	jendetasun	jendetasuna jendetasunez
+46	6946	esteka	estekak estekarik
+47	6947	inbutu	inbutua inbutuan
+48	6948	soziologia	soziologiako soziologian
+49	6949	koilarakada	koilarakadak koilarakadatik
+50	6950	historiaurre	historiaurrearekin historiaurreko historiaurrekoa
+51	6951	dementzia	dementziarako dementziarekin
+52	6952	desertatu	desertatzea desertatzen
+53	6953	estoiko	estoikoak estoikoen
+54	6954	banka	bankako bankan
+55	6955	hernia	herniarekin herniari
+56	6956	patologo	patologoa patologoaren
+57	6957	medium	mediuma mediumak
+58	6958	hamalaugarren	hamalaugarrena hamalaugarrenez
+59	6959	urruma	urrumak urrumaren
+60	6960	gizagabe	gizagabea gizagabeak gizagabetik
+61	6961	odolzale	odolzalea odolzaleak
+62	6962	burokrata	burokratek burokraten
+63	6963	zibiko	zibikoa zibikoak zibikoaren
+64	6964	alabaorde	alabaordea alabaordetzat
+65	6965	mango	mangoak mangoengatik
+66	6966	monitorizatu	monitorizatuta monitorizatzen
+67	6967	saridun	sariduna saridunak
+68	6968	nekaezin	nekaezina nekaezinari
+69	6969	mekanografia	mekanografian mekanografiarik
+70	6970	portzelana	portzelanaz portzelanen
+71	6971	ipurtargi	ipurtargiak ipurtargiz
+72	6972	inflazio	inflazioa inflazioak inflaziora
+73	6973	lanordu	lanordua lanorduak
+74	6974	obal	obala obalari obalean
+75	6975	txitxar	txitxarra txitxarrak txitxarraren
+76	6976	kirurgiko	kirurgikoa kirurgikoaren kirurgikoaz kirurgikorik
+77	6977	graduondoko	graduondokoa graduondokoan graduondokoarekin
+78	6978	bakarrizketa	bakarrizketak bakarrizketan bakarrizketarik
+79	6979	arrazismo	arrazismoa arrazismoaren arrazismoaz
+80	6980	idor	idorra idorrak idorrean
+81	6981	klitori	klitoria klitoriak klitorian
+82	6982	lehergai	lehergaiak lehergaietan lehergaiez
+83	6983	lengoaia	lengoaiaren lengoaiatan lengoaiaz
+84	6984	gaita	gaitak gaitaren gaiten
+85	6985	batezbesteko	batezbestekoa batezbestekoak batezbestekotik
+86	6986	estimulatu	estimulatzea estimulatzeko estimulatzen
+87	6987	inguma	ingumarekin ingumaren ingumekin
+88	6988	sagardo	sagardoa sagardoarekin sagardoz
+89	6989	geraleku	geralekua geralekuetan geralekurako
+90	6990	zerbitzugune	zerbitzuguneko zerbitzugunerantz zerbitzuguneren
+91	6991	terapeutiko	terapeutikoa terapeutikoak terapeutikoan
+92	6992	arrunkeria	arrunkeriaz arrunkeriengatik arrunkeriez
+93	6993	txatal	txatalarekin txatalen txatalez
+94	6994	asilo	asiloa asiloaren asiloko
+95	6995	maskuri	maskuria maskurian maskuriaren
+96	6996	integrazio	integrazioa integrazioaren integraziorik
+97	6997	plagio	plagioa plagioaren plagiorako
+98	6998	kristautasun	kristautasuna kristautasunaren kristautasunaz kristautasunean
+99	6999	zapo	zapoa zapoaren zapoz
+100	7000	izei	izeia izeiak izeien

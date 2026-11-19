@@ -1,0 +1,100 @@
+1	1901	gurutze	gurutzea gurutzeagatik gurutzeak gurutzean gurutzearekin gurutzearen gurutzeari gurutzeaz gurutzeen gurutzekoa gurutzera gurutzerantz gurutzetik gurutzez
+2	1902	erritmo	erritmoa erritmoak erritmoan erritmoarekin erritmoaren erritmoari erritmoko erritmora erritmorik erritmotik
+3	1903	begirune	begirunea begiruneagatik begiruneak begirunearekin begirunerik begirunez
+4	1904	hondamendi	hondamendia hondamendiak hondamendian hondamendiaren hondamendiari hondamendiaz hondamendien hondamendietako hondamendiez hondamendira hondamendirako hondamendirantz hondamenditik
+5	1905	harroputz	harroputza harroputzagoa harroputzak harroputzaz harroputzegia harroputzek harroputzekin harroputzenak harroputzentzat harroputzez
+6	1906	potolo	potoloa potoloago potoloak potoloarekin potoloaren potoloarengana potoloarentzat potoloari potoloegi potoloegia potoloei potoloena potoloren potolorik
+7	1907	izpi	izpia izpiak izpiarekin izpiaren izpiei izpiek izpiekin izpien izpietan izpietatik izpiren izpirik izpitan
+8	1908	bandera	banderak banderako banderan banderaraino banderarekin banderaren banderari banderarik banderek banderen
+9	1909	umore	umorea umoreak umorearekin umorearen umoreaz umoreko umorerik umorez
+10	1910	greba	grebak greban grebara grebarekin grebaren grebari grebarik grebei
+11	1911	pasaporte	pasaportea pasaporteak pasaportean pasaportearekin pasaportearen pasaporteari pasaporteek pasaporteekin pasaporteen pasaporteko pasaporterik pasaportez
+12	1912	prozesu	prozesua prozesuak prozesuan prozesuarekin prozesuaren prozesuari prozesuek prozesuko prozesura prozesurik
+13	1913	pirata	piratak piratarekin pirataren piratarik piratei piratek piratekin piraten piratok
+14	1914	atzerri	atzerrian atzerriarekin atzerriko atzerrikoak atzerrira atzerrirako atzerritik
+15	1915	batasun	batasuna batasunagatik batasunak batasunarekin batasunaren batasunari batasunean batasuneko batasunen batasunetik batasunik
+16	1916	inperio	inperioa inperioagatik inperioak inperioan inperioaren inperioari inperioko inperiora inperioraino inperiorantz inperioren
+17	1917	oroimen	oroimena oroimenagatik oroimenak oroimenaren oroimenari oroimenean oroimeneko oroimenen oroimenera oroimenetan oroimenetik oroimenez oroimenik
+18	1918	ostu	os osteagatik osten ostua ostuak ostuko ostuta ostutako ostutakoa
+19	1919	kemen	kemena kemenak kemenaren kemenarengatik kemenari kemenaz kemenez kemenik
+20	1920	zanpatu	zanpa zanpatua zanpatuak zanpatuko zanpatuta zanpatutako zanpatuz zanpatzeko zanpatzen zanpatzera
+21	1921	egotzi	egotz egotzia egotziko egotzita egotziz egoztea egozteko egozten
+22	1922	galtzerdi	galtzerdia galtzerdiak galtzerdian galtzerdiek galtzerdien galtzerdietako galtzerdietan galtzerdietaraino galtzerdikoa galtzerdiren galtzerdirik galtzerditan
+23	1923	laino	lainoa lainoagatik lainoak lainoan lainoarekin lainoekin lainoen lainoetan lainorantz lainorik lainoz
+24	1924	hondakin	hondakina hondakinak hondakinek hondakinekin hondakinen hondakinetan hondakinetara hondakinetatik hondakinez hondakinik
+25	1925	fronte	frontea fronteak frontean frontearen fronteen fronteko frontera fronterako fronterantz fronterik frontetan frontetik
+26	1926	gobernadore	gobernadorea gobernadoreak gobernadorearekin gobernadorearen gobernadorearentzat gobernadoreari gobernadoreei gobernadoreek gobernadoreen gobernadorerik
+27	1927	urriki	erruki
+28	1928	gorila	gorilak gorilaren gorilari gorilarik gorilaz gorilei gorilek gorilekin gorilen
+29	1929	ondorengo	ondorengoa ondorengoak ondorengoan ondorengoaren ondorengoari ondorengoaz ondorengoei ondorengoek ondorengoen ondorengoentzat ondorengoko ondorengorik
+30	1930	zientzialari	zientzialaria zientzialariak zientzialariarentzat zientzialariei zientzialariek zientzialarien zientzialariok zientzialaririk
+31	1931	fiskal	fiskala fiskalak fiskalarekin fiskalaren fiskalarentzat fiskalari fiskalek fiskaletan
+32	1932	erakunde	erakundea erakundeak erakundean erakundearekin erakundearen erakundeei erakundeek erakundeekin erakundeen erakundeetan erakundeko erakunderekin erakunderen erakunderik erakundetan erakundetik
+33	1933	sobietar	sobietarra sobietarrak sobietarraren sobietarrean sobietarrei sobietarrek sobietarrekin sobietarreko sobietarren sobietarrentzat sobietarrera sobietartzat
+34	1934	opa	opakoa open
+35	1935	deseroso	deserosoa deserosoak deserosoan deserosoena deserosoetan
+36	1936	sentipen	sentipena sentipenak sentipenarekin sentipenekin sentipenen sentipenetan sentipenetara sentipenez sentipenik
+37	1937	buztan	buztana buztanak buztanarekin buztanaren buztanari buztanean buztanei buztaneko buztanera buztanetik buztanik
+38	1938	uztail	uztaila uztailak uztailaren uztailean uztaileko uztailera uztailerako uztailetik
+39	1939	gezi	gezia geziak geziarekin geziaren geziaz geziei geziek geziekin gezien gezietatik gezira gezirik geziz
+40	1940	famatu	fama famatua famatuak famatuaren famatuek famatuen famatuena famatuenak famatuko famatukoa famaturen famaturik
+41	1941	pilatu	pilatua pilatuko pilaturik pilatuta pilatutako pilatuz pilatzea pilatzean pilatzearen pilatzeko pilatzen
+42	1942	tenplu	tenplua tenpluak tenpluan tenpluaren tenpluen tenpluetan tenpluetatik tenpluko tenplura tenplutik
+43	1943	garaje	garajea garajeak garajean garajearen garajeekin garajeetan garajeko garajekoa garajera garajeraino garajerako garajerantz garajetik
+44	1944	trikimailu	trikimailua trikimailuak trikimailuekin trikimailuen trikimailuetako trikimailuetan trikimailuez trikimailurako trikimailuren trikimailurik trikimailuz
+45	1945	marroi	marroia marroiak marroian marroiarekin marroiari marroiek marroiekin marroiez marroiko marroikoa marroira
+46	1946	harresi	harresia harresiak harresian harresiaren harresiaz harresien harresietan harresietara harresietatik harresiko harresira harresiraino harresirik harresitik
+47	1947	hondar	hondarekin hondarra hondarrak hondarraren hondarrean hondarrekin hondarreko hondarren hondarrera hondarrerako hondarrerantz hondarretan hondarretara hondarretatik hondarretik hondarrez hondarrik
+48	1948	laranja	laranjak laranjan laranjaren laranjari laranjarik laranjaz laranjekin laranjengatik
+49	1949	keinu	keinua keinuak keinuaren keinuei keinuek keinuetan keinuren keinuri keinurik keinutzat keinuz
+50	1950	iradoki	iradokiko iradokitako iradokitze iradokitzea iradokitzeagatik iradokitzeko iradokitzen iradokiz
+51	1951	sos	sosa sosak sosaren sosei soseko sosen sosik
+52	1952	tanke	tankea tankeak tankean tankeari tankeei tankeek tankeekin tankeen tankeetan tankeetara tankeko tankera tankerako tankerekin tankerik tanketik
+53	1953	nuklear	nuklearra nuklearrak nuklearrarekin nuklearraren nuklearrean nuklearrekin nuklearreko nuklearrekoa nuklearren nuklearretan nuklearretatik nuklearrik
+54	1954	ikastetxe	ikastetxea ikastetxeak ikastetxean ikastetxearen ikastetxeari ikastetxeaz ikastetxeetako ikastetxeetan ikastetxeko ikastetxera ikastetxerako ikastetxetik
+55	1955	legezko	legezkoa legezkoak
+56	1956	etxeratu	etxeratuko etxeratze etxeratzea etxeratzean etxeratzeari etxeratzeko etxeratzen
+57	1957	harrera	harrerak harrerako harrerakoa harrerakoak harreran harrerara harrerarekin harreraren harrerarengatik harreratik
+58	1958	eromen	eromena eromenak eromenaren eromenean eromenera eromenerako eromenetik eromenez eromenik
+59	1959	zentro	zentroa zentroak zentroan zentroarekin zentroaren zentroarengatik zentroari zentroetan zentroetatik zentroko zentrokoa zentrokoak zentrora zentroren zentrorik zentrotik
+60	1960	planta	plantak plantan plantara plantaren plantari plantarik plantatik plantekin
+61	1961	lehortu	lehortua lehortuko lehortuta lehortutako lehortuz lehortzea lehortzean lehortzeko lehortzen lehortzera
+62	1962	terrorista	terroristak terroristaren terroristarentzat terroristari terroristarik terroristei terroristek terroristekin terroristen terroristetako
+63	1963	apropos	aproposa aproposagoa aproposak aproposaren aproposean aproposen aproposena aproposera aproposik
+64	1964	pilotu	pilotua pilotuak pilotuarekin pilotuaren pilotuek pilotuen pilotuentzat pilotuok piloturik pilotuz
+65	1965	museo	museoa museoak museoan museoaren museoari museoetan museoko museokoa museokoak museora museorako museoren museorik museotara museotik
+66	1966	epaitegi	epaitegia epaitegiak epaitegian epaitegiarekin epaitegiaren epaitegiari epaitegiek epaitegien epaitegietako epaitegietan epaitegietara epaitegietaraino epaitegiko epaitegira epaitegiraino epaitegirako epaitegitik
+67	1967	kubo	kuboa kuboak kuboan kuboarekin kuboaren kuboari kubora kuborako kuboren kubotik
+68	1968	torturatu	torturatua torturatuak torturatuko torturatuta torturatutako torturatuz torturatzea torturatzeagatik torturatzeko torturatzen torturatzera
+69	1969	samurai	samuraia samuraiak samuraiaren samuraiarentzat samuraiei samuraiek samuraien samuraiok
+70	1970	ixte	ixtea ixteak ixtean ixtearekin ixteari ixteaz ixteko ixtera ixterik
+71	1971	objektu	objektua objektuak objektuari objektuei objektuek objektuekin objektuen objektuetako objektuetatik objektuez objekturik objektutzat
+72	1972	zehaztu	zehaztea zehazteko zehazten zehaztera zehazterik zehaztua zehaztuko zehaztuta zehaztutako zehaztuz
+73	1973	jarraitzaile	jarraitzailea jarraitzaileak jarraitzailearen jarraitzaileei jarraitzaileek jarraitzaileekin jarraitzaileen jarraitzaileentzat jarraitzaileetako jarraitzaileri jarraitzailerik
+74	1974	behartsu	behartsua behartsuago behartsuak behartsuarekin behartsuegia behartsuegiak behartsuei behartsuek behartsuekin behartsuen behartsuena behartsuengatik behartsuentzat behartsurik
+75	1975	madarikazio	madarikazioa madarikazioak madarikazioarekin madarikazioaren madarikazioaz madarikaziorik madarikaziotik
+76	1976	anbulantzia	anbulantziak anbulantziako anbulantzian anbulantziarekin anbulantziaren anbulantziari anbulantziarik anbulantziek anbulantzietan
+77	1977	xanpain	xanpaina xanpainak xanpainarekin xanpainarengatik xanpainez xanpainik
+78	1978	bataila	batailak batailako batailan batailara batailarako batailarantz batailaren batailari batailarik batailatik batailei batailetan
+79	1979	kulero	kuleroa kuleroak kuleroei kuleroek kuleroekin kuleroen kuleroetan kuleroko kulerorik kulerotatik
+80	1980	eztanda	eztandak eztandarako eztandaren eztandaz eztandei eztanden
+81	1981	hoztu	hoztea hozteko hozten hoztuko hoztuta
+82	1982	berba	berbak berbaren berbarik berbatan berbaz berbei berbek berben berbetan
+83	1983	obra	obrak obrako obran obrara obrarako obrarekin obraren obrari obratik obren obretan obretatik obrez
+84	1984	boteretsu	boteretsua boteretsuagoa boteretsuak boteretsuaren boteretsuegia boteretsuek boteretsuekin boteretsuen boteretsuena boteretsuenak boteretsuko
+85	1985	tratamendu	tratamendua tratamenduagatik tratamenduak tratamenduan tratamenduarekin tratamenduaren tratamenduari tratamenduaz tratamenduek tratamenduen tratamenduetara tratamenduko tratamendurako tratamendurik
+86	1986	gako	gakoa gakoak gakoarekin gakoetako gakora gakoren
+87	1987	kanpai	kanpaia kanpaiak kanpaiarekin kanpaiek kanpaiekin kanpaien kanpaietarako kanpaira kanpairaino kanpaitik
+88	1988	ibilgailu	ibilgailua ibilgailuak ibilgailuan ibilgailuaren ibilgailuaz ibilgailuekin ibilgailuen ibilgailuetako ibilgailuetan ibilgailuetara ibilgailuetatik ibilgailura ibilgailuren ibilgailurik ibilgailutik ibilgailuz
+89	1989	jatorri	jatorria jatorriagatik jatorriak jatorrian jatorriarekin jatorriaren jatorriari jatorriaz jatorriei jatorrietako jatorriko jatorrikoa jatorrira jatorritik jatorriz
+90	1990	komunitate	komunitatea komunitateak komunitatean komunitatearen komunitatearentzat komunitateari komunitateen komunitateetan komunitateko komunitatera komunitaterako
+91	1991	izerdi	izerdia izerdiak izerdian izerdiaren izerdiari izerdiaz izerdietan izerdirik izerditan izerdiz
+92	1992	abisu	abisua abisuagatik abisuak abisuren abisurik
+93	1993	bilduma	bildumak bildumako bildumakoa bilduman bildumarako bildumarekin bildumaren bildumarik
+94	1994	duintasun	duintasuna duintasunagatik duintasunak duintasunarekin duintasunaren duintasunarentzat duintasunari duintasunean duintasunerako duintasunez duintasunik
+95	1995	joera	joerak joerarekin joerarik joerekin joeren joerentzat joerez
+96	1996	gurdi	gurdia gurdiak gurdian gurdiarekin gurdiari gurdietan gurdiko gurdira gurdirik gurditik
+97	1997	tentel	tentela tentelagoa tentelak tentelek tentelengatik
+98	1998	hausnartu	hausnar hausnartuko hausnarturik hausnartutako hausnartuz hausnartze hausnartzea hausnartzeko hausnartzen hausnartzera
+99	1999	musukatu	musukatua musukatuko musukatzea musukatzeagatik musukatzeari musukatzeko musukatzen musukatzera
+100	2000	igerileku	igerilekua igerilekuak igerilekuan igerilekuaren igerilekuari igerilekuaz igerilekuko igerilekura igerilekuraino igerilekurik igerilekutik

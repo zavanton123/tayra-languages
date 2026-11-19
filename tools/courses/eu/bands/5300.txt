@@ -1,0 +1,100 @@
+1	5201	errefau	errefaua errefauak errefauek errefauetatik
+2	5202	disekatu	disekatua disekatuak disekatuko disekatuta disekatzea
+3	5203	kontserbatorio	kontserbatorioa kontserbatorioan kontserbatorioaren kontserbatorioaz kontserbatorioetan kontserbatorioko kontserbatoriora
+4	5204	espezializatu	espezializatua espezializatuak espezializatuko espezializatutako
+5	5205	indize	indizea indizeak indizeaz indizeen indizeko
+6	5206	teknologiko	teknologikoa teknologikoak teknologikoan teknologikoaren teknologikotik
+7	5207	bridge	bridgea bridgean bridgeko bridgetik
+8	5208	errekrutatu	errekruta errekrutatzeko errekrutatzen errekrutatzera
+9	5209	umetoki	umetokia umetokian umetokiaren umetokira umetokirik umetokitik
+10	5210	mendate	mendatea mendatean mendaterik mendatetik
+11	5211	hazkunde	hazkundea hazkundearen hazkundeko hazkunderako
+12	5212	esklusibo	esklusiboa esklusiboak esklusiboarekin esklusiboetako esklusibotzat
+13	5213	liberal	liberala liberalak liberalek liberalekin
+14	5214	larba	larbak larbako larbarik larbei larben
+15	5215	imitazio	imitazioa imitazioak imitazioaren imitazioen
+16	5216	gazela	gazelak gazelek gazelekin gazelen
+17	5217	traktore	traktorea traktoreak traktorearekin
+18	5218	haragijale	haragijalea haragijaleak haragijaleen
+19	5219	erantzungailu	erantzungailua erantzungailuak erantzungailuan erantzungailuko erantzungailura
+20	5220	zatiketa	zatiketak zatiketan zatiketara zatiketaren zatiketari zatiketarik zatiketek
+21	5221	probokatzaile	probokatzailea probokatzaileago probokatzaileak probokatzaileegia probokatzailerik
+22	5222	ikerlari	ikerlaria ikerlariak ikerlariek
+23	5223	koreografo	koreografoa koreografoak koreografoaren koreografoei koreografoekin
+24	5224	mongoliar	mongoliarra mongoliarrak mongoliarrek mongoliarrok mongoliarron
+25	5225	erdibitu	erdibitua erdibituko erdibituta erdibitzen
+26	5226	errotore	errotorea errotoreak errotorearen errotoreari errotoreen errotoreetara errotoreko
+27	5227	historialari	historialaria historialariak historialariarentzat historialariei historialariek historialarien historialariren
+28	5228	penal	penala penalak penalarekin penalaren penalean penalekoak penalik
+29	5229	ageriko	agerikoa agerikoak agerikoegiak agerikorik
+30	5230	triangelu	triangelua triangeluak triangeluaren triangeluko
+31	5231	motibatu	motibatua motibatuko motibaturik motibatuta motibatzea motibatzeko motibatzen
+32	5232	berriki	
+33	5233	etxekoak	
+34	5234	oinutsik	
+35	5235	herenegun	
+36	5236	honelaxe	
+37	5237	motozale	motozalea
+38	5238	turbo	turboa
+39	5239	laurogei	laurogeira
+40	5240	egoista	egoistak
+41	5241	filantropo	filantropoa
+42	5242	erlatibo	erlatiboa erlatiboetan
+43	5243	afganiar	afganiarra afganiarrei
+44	5244	orotariko	orotarikoa
+45	5245	eguzkipe	eguzkipean eguzkipeko
+46	5246	xiringa	xiringak xiringan
+47	5247	kuota	kuotak
+48	5248	frankizia	frankiziak frankiziaren frankiziarentzat frankiziekin
+49	5249	gorakada	gorakadak gorakadan gorakadari gorakaden
+50	5250	demas	demasa demasak demaseko
+51	5251	espres	espresa espresari espresez espresik
+52	5252	titulartasun	titulartasuna titulartasunaren titulartasunerako
+53	5253	gonazale	gonazalea gonazaleari
+54	5254	nukleo	nukleoa nukleoak nukleoan nukleoaren
+55	5255	atorra	atorrak atorrarekin
+56	5256	azpiratu	azpiratua azpiratuko azpiratuta azpiratzen
+57	5257	kulpa	kulparen kulparik kulpaz
+58	5258	ideologia	ideologiak ideologian ideologiei
+59	5259	adulterio	adulterioa adulterioagatik adulteriorako adulteriorik
+60	5260	homosexualitate	homosexualitatea homosexualitateak homosexualitatearekin homosexualitatearen homosexualitatera
+61	5261	kolapso	kolapsoa kolapsoko
+62	5262	antidoto	antidotoa antidotorik
+63	5263	kantata	kantatak kantatarako kantatarekin kantataren
+64	5264	haritz	haritza haritzak haritzarekin haritzen
+65	5265	bonbilla	bonbillak bonbillarik
+66	5266	biztanleria	biztanleriako biztanleriaren biztanleriari
+67	5267	meteoro	meteoroa meteoroak meteoroez
+68	5268	ortodoxo	ortodoxoa ortodoxoak ortodoxoekin ortodoxoren
+69	5269	dimititu	dimitituko dimititzeko dimititzen dimititzera
+70	5270	alibi	alibia alibirik
+71	5271	antolakuntza	antolakuntzak antolakuntzako antolakuntzan antolakuntzaren
+72	5272	solido	solidoa solidoak solidoari solidorik
+73	5273	piraña	pirañak pirañarik
+74	5274	gernu	gernua gernuaren
+75	5275	inbertsore	inbertsorea inbertsoreek inbertsoreekin inbertsoreen inbertsoreetako
+76	5276	mairu	mairua mairuentzat
+77	5277	itsasgora	itsasgorak itsasgoran itsasgoraren
+78	5278	erotasun	erotasuna erotasunaren erotasunek
+79	5279	trabesti	trabestia trabestiak trabestiei trabestiz
+80	5280	mea	mean meek meekin
+81	5281	aingerutxo	aingerutxoa aingerutxoak aingerutxoekin
+82	5282	itxaropentsu	itxaropentsua itxaropentsuak itxaropentsuena
+83	5283	arantzurde	arantzurdea arantzurdeak arantzurdeaz
+84	5284	erreprimitu	erreprimitua erreprimitzea erreprimitzearekin erreprimitzen
+85	5285	zola	zolak zolan zolaraino zolaren
+86	5286	sardina	sardinak sardinekin
+87	5287	teontzi	teontzia teontzietan teontzitik
+88	5288	soluzio	soluzioa soluziorik
+89	5289	kubatar	kubatarra kubatarrak kubatarraren
+90	5290	errinozero	errinozeroa errinozeroak
+91	5291	estoniar	estoniarra estoniarrak
+92	5292	bisitaldi	bisitaldia bisitaldiak bisitaldian bisitaldira
+93	5293	ezkonberri	ezkonberriak ezkonberriei ezkonberriek ezkonberrien ezkonberrientzat ezkonberriz
+94	5294	bolatoki	bolatokian bolatokiko bolatokikoa bolatokira
+95	5295	maximo	maximoa maximoak maximoan maximoekin maximora
+96	5296	parasito	parasitoa parasitoek
+97	5297	kontserbadore	kontserbadorea kontserbadoreak kontserbadoreegia kontserbadoreek kontserbadoreko
+98	5298	ababor	ababorra ababorrean ababorreko ababorrera ababorretik
+99	5299	tarantula	tarantulak tarantularen tarantularik tarantulatan tarantulek tarantulekin
+100	5300	proiektatu	proiektatua proiektatzea proiektatzen

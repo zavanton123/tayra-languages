@@ -1,0 +1,100 @@
+1	8301	geisha	geishen
+2	8302	irekidura	irekidurak
+3	8303	konpilatu	konpilatzeko konpilatzen
+4	8304	garatzaile	garatzailea
+5	8305	artizar	artizarra artizarraren
+6	8306	isilgailu	isilgailua
+7	8307	jonki	jonkia
+8	8308	eskuzapi	eskuzapiarekin
+9	8309	urreztatu	urreztatua
+10	8310	partaidetza	partaidetzari
+11	8311	jainkozale	jainkozalea
+12	8312	hormonal	hormonala
+13	8313	estilista	estilistarekin
+14	8314	hungariera	hungarieraz
+15	8315	dohatsu	dohatsua dohatsuarekin
+16	8316	paktu	paktua
+17	8317	hidra	hidraren
+18	8318	sodomita	sodomitez
+19	8319	haragikeria	haragikeriak
+20	8320	berdexka	berdexkakoak
+21	8321	epilepsia	epilepsiak
+22	8322	kodex	kodexa
+23	8323	doktrina	doktrinak
+24	8324	ñame	ñameak
+25	8325	epaitza	epaitzaren
+26	8326	haizetsu	haizetsua
+27	8327	topazio	topazioak
+28	8328	hotsandiko	hotsandikoa
+29	8329	desfibriladore	desfibriladorea desfibriladoreak
+30	8330	odisea	odiseako
+31	8331	igotzaile	igotzaileek igotzailerik
+32	8332	limosna	limosnaren
+33	8333	nikel	nikela
+34	8334	legenar	legenarra legenarrari
+35	8335	jolasaldi	jolasaldia jolasaldiaz
+36	8336	eszeptizismo	eszeptizismoa
+37	8337	herabe	herabeegia
+38	8338	aska	askan askaren
+39	8339	aurkakotasun	aurkakotasunik
+40	8340	epizentro	epizentroa epizentroaren
+41	8341	artseniko	artsenikoa artsenikoko
+42	8342	diapositiba	diapositibak
+43	8343	simetriko	simetrikoa simetrikoago
+44	8344	sintaxi	sintaxia
+45	8345	gurutzaketa	gurutzaketan
+46	8346	eskolaurre	eskolaurrean eskolaurreko
+47	8347	konbustio	konbustioa
+48	8348	asimetriko	asimetrikoak asimetrikoen
+49	8349	tulipa	tulipak tulipan
+50	8350	kaletar	kaletarra kaletarrak
+51	8351	modernotasun	modernotasuna modernotasunaren
+52	8352	judo	judoa
+53	8353	apetatsu	apetatsua
+54	8354	dekadentzia	dekadentziaren
+55	8355	sufragista	sufragistak
+56	8356	elgorri	elgorria
+57	8357	fluxu	fluxua
+58	8358	eho	ehotzeko ehotzen
+59	8359	hobeezin	hobeezina hobeezinak
+60	8360	zahi	zahia zahiari
+61	8361	sorkari	sorkaririk
+62	8362	txantxar	txantxarrik
+63	8363	feudo	feudoa feudoan
+64	8364	hazteri	hazteria hazteriaren
+65	8365	liriko	lirikoa
+66	8366	bidaide	bidaideak
+67	8367	aleroi	aleroiak
+68	8368	altxagarri	altxagarria
+69	8369	itzuri	itzuririk
+70	8370	giltzain	giltzaina giltzainari
+71	8371	erronbo	erronboa erronboak erronboan
+72	8372	lozorro	lozorroan lozorroaren lozorrotik
+73	8373	bibragailu	bibragailua bibragailuak
+74	8374	surflari	surflaria surflariak
+75	8375	ordenadore	ordenadoreak ordenadorean
+76	8376	bataiatzaile	bataiatzailea bataiatzailearen
+77	8377	ezkila	ezkilak ezkilen
+78	8378	nostalgiko	nostalgikoa nostalgikoak
+79	8379	ezkertiar	ezkertiarra ezkertiarren
+80	8380	koipeztatu	koipezta koipeztatua
+81	8381	elkargune	elkargunea elkargunean
+82	8382	arruntasun	arruntasuna arruntasunarekin
+83	8383	pistatxo	pistatxoak
+84	8384	pabo	paboak pabotan
+85	8385	jaioleku	jaiolekua jaiolekura
+86	8386	zurrutero	zurruteroa
+87	8387	anotatu	anotatuko
+88	8388	charleston	charlestona charlestonen
+89	8389	dardaratu	dardaratzen
+90	8390	automatizatu	automatizatuak
+91	8391	quorum	quoruma quorumerako quorumik
+92	8392	ikurrin	ikurrina ikurrinen
+93	8393	aldagai	aldagaia aldagaiak
+94	8394	akustiko	akustikoa akustikoen
+95	8395	futbolin	futbolina futbolinean
+96	8396	peritu	peritua perituaren
+97	8397	tendoi	tendoia tendoiak
+98	8398	buruhandi	buruhanditik
+99	8399	errele	errelea erreleak
+100	8400	bizigabe	bizigabeak

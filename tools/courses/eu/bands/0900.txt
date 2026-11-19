@@ -1,0 +1,100 @@
+1	801	sarjentu	sarjentua sarjentuak sarjentuarekin sarjentuaren sarjentuarentzat sarjentuari sarjentuen sarjenturik
+2	802	taberna	tabernak tabernako tabernakoa tabernakoak tabernan tabernara tabernarako tabernarekin tabernaren tabernari tabernarik tabernatara tabernatik tabernei tabernen tabernetako tabernetan tabernetara tabernetatik
+3	803	ezagun	ezaguna ezagunagoa ezagunak ezagunarekin ezagunaren ezagunaz ezagunean ezagunegia ezagunegiak ezagunei ezagunek ezagunekin ezagunen ezagunena ezagunenak ezagunengandik ezagunetako ezagunetan ezagunetatik ezagunez ezagunik
+4	804	arrakasta	arrakastak arrakastako arrakastakoa arrakastan arrakastara arrakastarako arrakastarekin arrakastaren arrakastarengatik arrakastari arrakastarik arrakastaz arrakastekin arrakasten arrakastetan
+5	805	poltsa	boltsa poltsak poltsako poltsan poltsara poltsarekin poltsaren poltsari poltsarik poltsatan poltsatik poltsei poltsek poltsekin poltsen poltsengatik poltsetan
+6	806	era	erak erakoa erarekin eraren erarik eratako eratan eratara eraz erez
+7	807	hainbat	
+8	808	askatasun	askatasuna askatasunagatik askatasunak askatasunarekin askatasunaren askatasunarengatik askatasunarentzat askatasunari askatasunaz askatasunean askatasunekin askatasuneko askatasunekoa askatasunen askatasunera askatasunerako askatasunerantz askatasunetik askatasunez askatasunik
+9	809	tarte	tartea tarteak tartean tartearekin tarteaz tarteekin tarteetan tarteetatik tarteko tartekoa tartekoak tartera tarterako tarterik tartetik
+10	810	tratatu	trata tratatua tratatuagatik tratatuak tratatuko trataturik tratatutako tratatuz tratatzea tratatzeagatik tratatzeak tratatzean tratatzeari tratatzeko tratatzen tratatzera
+11	811	zeharkatu	zeharka zeharkatua zeharkatuko zeharkatuta zeharkatuz zeharkatzea zeharkatzeagatik zeharkatzean zeharkatzeko zeharkatzen zeharkatzera
+12	812	kalte	kaltea kalteagatik kalteak kaltean kaltearekin kaltearen kalteari kalteaz kalteen kalteko kalterako kalteren kalterik kaltetan kaltetzat
+13	813	urrundu	urrundua urrunduko urrunduta urrunduz urruntzea urruntzeagatik urruntzean urruntzeko urruntzen
+14	814	osatu	osa osatua osatuak osatuko osaturik osatuta osatutako osatuz osatze osatzea osatzeagatik osatzeak osatzean osatzearen osatzeko osatzen osatzera osatzerik
+15	815	txikitu	txikitua txikituak txikituko txikituta txikituz txikitzea txikitzeko txikitzen txikitzera txikitzerik
+16	816	adierazi	adieraz adieraziko adierazita adierazitako adieraziz adieraztea adierazteak adierazteko adierazten adieraztera adierazterik
+17	817	hurbil	hurbila hurbilago hurbilagoa hurbilagoak hurbilak hurbilean hurbilegi hurbilekoa hurbilekoak hurbilen hurbilena hurbilenak
+18	818	ziurtatu	ziurta ziurtatua ziurtatuak ziurtatuko ziurtaturik ziurtatuta ziurtatzea ziurtatzeko ziurtatzen ziurtatzera ziurtatzerik
+19	819	topatu	topatuko topaturik topatutako topatuz topatze topatzea topatzeak topatzean topatzearen topatzeaz topatzeko topatzen topatzerik
+20	820	mesede	mesedea mesedeagatik mesedeak mesedean mesedearen mesedeei mesedeen mesedeez mesedeko mesedera mesederako mesederi mesederik mesedetako mesedetan
+21	821	ikertu	iker ikertua ikertuko ikertuz ikertzea ikertzean ikertzeari ikertzeko ikertzen ikertzera
+22	822	porrot	porrota porrotagatik porrotak porrotarekin porrotaren porrotari porrotaz porrotean porrotek porrotekin porroteko porroten porrotera porroterako porrotetan porrotetik porrotez porrotik porrottzat
+23	823	oroitu	oroit oroitua oroituak oroituko oroiturik oroituz oroitzea oroitzeagatik oroitzeak oroitzeaz oroitzeko oroitzen
+24	824	jadanik	
+25	825	kito	
+26	826	zabor	zaborra zaborrak zaborrarekin zaborraren zaborrari zaborraz zaborrean zaborrekoa zaborren zaborrera zaborrerako zaborretan zaborretara zaborretatik zaborretik zaborrez zaborrik
+27	827	muga	mugak mugako mugara mugaraino mugaren mugarik mugatik mugaz mugei mugen mugetan mugetara mugetaraino mugetatik mugez
+28	828	itzel	itzela itzelak itzelaren itzelean itzelek itzeleko itzelekoak itzelena itzelenak
+29	829	nonbait	
+30	830	goxo	goxoa goxoago goxoagoa goxoagoak goxoak goxoan goxoaren goxoaz goxoegia goxoek goxoena goxoenak goxoko goxotik goxoz
+31	831	auzo	auzoa auzoak auzoan auzoarekin auzoaren auzoari auzoek auzoekin auzoen auzoengatik auzoetako auzoetan auzoetara auzoetatik auzoko auzokoa auzokoak auzora auzorako auzorik auzotan auzotik
+32	832	basati	basatia basatiago basatiagoa basatiagoak basatiak basatian basatiaren basatiari basatiaz basatiegia basatiei basatiek basatiekin basatien basatiena basatienak basatiengandik basatientzat basatietako basatietan basatietara basatiko basatiok basatiren basatiz
+33	833	soin	soina soinean soineko soinekoa soinekoak soinetik soinez
+34	834	antza	
+35	835	txo	txoak txotik
+36	836	munstro	munstroa munstroak munstroarekin munstroaren munstroari munstroei munstroek munstroen munstroengandik munstroetan munstroez munstrok munstrorik munstrotzat munstroz
+37	837	sendatu	senda sendatua sendatuak sendatuko sendaturik sendatuta sendatutako sendatze sendatzea sendatzeagatik sendatzeak sendatzean sendatzearekin sendatzearen sendatzeaz sendatzeko sendatzen sendatzera sendatzerik
+38	838	dei	deia deiagatik deiak deian deiarekin deiaren deiari deiei deiek deiekin deien deietarako deira deirako deiren deirik deitik
+39	839	aberats	aberatsa aberatsagatik aberatsago aberatsagoa aberatsagoak aberatsak aberatsarekin aberatsaren aberatsarentzat aberatsari aberatsegia aberatsei aberatsek aberatsekin aberatseko aberatsekoa aberatsen aberatsena aberatsenak aberatsentzat aberatsetan aberatsik aberatsok
+40	840	sakon	sakona sakonago sakonagoa sakonagoak sakonak sakonaren sakonari sakonean sakonegi sakonegia sakonegiak sakonei sakonek sakoneko sakonekoa sakonen sakonena sakonenak sakoneraino sakonerantz sakonetan sakonetara sakonetatik sakonetik sakonik
+41	841	ardo	ardoa ardoagatik ardoak ardoarekin ardoaren ardoari ardoaz ardoen ardorekin ardoren ardorik ardotan ardoz
+42	842	nekatuta	nekatutako
+43	843	kutxa	kutxak kutxako kutxan kutxara kutxarekin kutxaren kutxari kutxatako kutxatan kutxatik kutxekin kutxen kutxetan
+44	844	honela	
+45	845	babes	babesa babesagatik babesak babesarekin babesaren babesarengatik babesari babesaz babesean babesek babeseko babesen babesera babeserako babesik
+46	846	arrunt	arrunta arruntago arruntak arruntarekin arruntaren arruntarengan arruntarengandik arruntari arruntean arruntek arruntekin arruntekoa arrunten arruntena arruntera arruntetan arruntez arruntik
+47	847	hirugarren	hirugarrena hirugarrenak hirugarrenari hirugarrenei hirugarreneko hirugarrenen hirugarrenera hirugarrenez hirugarrenik
+48	848	izutu	izutua izutuko izuturik izututa izututako izutzea izutzeagatik izutzearekin izutzeko izutzen izutzera izutzerik
+49	849	txerri	txarri txerria txerriak txerriarekin txerriaren txerriari txerriaz txerriei txerriek txerriekin txerrien txerrientzat txerriez txerririk txerritik zerri
+50	850	zoratu	zoratuak zoratuko zoraturik zoratuta zoratzean zoratzeko zoratzen
+51	851	haragi	haragia haragiagatik haragiak haragian haragiarekin haragiaren haragiari haragiaz haragien haragietan haragiko haragirik haragitan haragitarako haragiz
+52	852	sari	saria sariagatik sariak sarian sariarekin sariaren sariari sariei sariek sariekin sarien sarietako sarietarako sariko sarirako sariren saririk saritzat sariz
+53	853	zaindari	zaindaria zaindariak zaindariarekin zaindariaren zaindariari zaindariei zaindariek zaindariekin zaindarien zaindarientzat zaindarietako zaindariez zaindariok zaindariren zaindaririk zaindaritzat zaindariz
+54	854	zabal	zabala zabalago zabalagoa zabalagoak zabalak zabalaren zabalari zabalaz zabalean zabalegi zabalegia zabalek zabalekin zabaleko zabalekoa zabalekoak zabalena zabalerantz zabaletako zabaletan zabaletara zabaletik zabalik
+55	855	oheratu	oheratuak oheratuko oheratutako oheratuz oheratze oheratzea oheratzeak oheratzean oheratzeari oheratzeko oheratzen oheratzera oheratzerik
+56	856	patu	patua patuak patuan patuarekin patuaren patuari patuaz patuetara patuko patukoak paturantz paturik
+57	857	perfektu	perfektua perfektuagoa perfektuak perfektuan perfektuarekin perfektuaren perfektuegia perfektuen perfektuena perfektuetan perfektukoa perfekturako perfekturik perfektutik perfektuz
+58	858	jaiki	jaikia jaikiko jaikita jaikitzea jaikitzeagatik jaikitzean jaikitzeko jaikitzen jaikitzerik
+59	859	interes	interesa interesagatik interesak interesarekin interesaren interesarengatik interesean interesei interesek interesekin intereseko interesekoa interesekoak interesen interesengatik intereserako interesetan interesetara interesetik interesez interesik
+60	860	zehatz	zehatza zehatzago zehatzagoa zehatzagoak zehatzak zehatzarekin zehatzean zehatzegia zehatzek zehatzekin zehatzen zehatzena zehatzetan zehatzik
+61	861	ausart	ausarta ausartago ausartagoa ausartagoak ausartak ausartaren ausartari ausartegi ausartegia ausartei ausartek ausartekin ausarten ausartena ausartenak ausartengatik ausartentzat ausartez ausartok
+62	862	espetxe	espetxea espetxeak espetxean espetxearekin espetxearen espetxeek espetxeen espetxeetako espetxeetan espetxeko espetxekoa espetxera espetxerako espetxerik espetxetan espetxetik espetxez
+63	863	inozo	inozoa inozoagoa inozoak inozoan inozoarekin inozoari inozoegia inozoei inozoek inozoen inozoena inozoentzat inozoetan inozoez inozook inozoren inozorik inozotzat inozoz
+64	864	albiste	albistea albisteak albistean albistearekin albistearen albisteei albisteek albisteekin albisteen albisteetan albisteez albisteko albisteren albisterik albistez
+65	865	hautatu	hauta hautatua hautatuak hautatuko hautatuta hautatutako hautatutakoa hautatuz hautatze hautatzea hautatzeagatik hautatzeko hautatzen hautatzera hautatzerik
+66	866	horma	hormak hormako horman hormara hormarako hormarekin hormaren hormari hormarik hormatan hormatik hormaz hormei hormekin hormen hormetako hormetan hormetara hormetatik
+67	867	bururatu	bururatuko bururatzea bururatzeko bururatzen
+68	868	jaurti	jaurtia jaurtiak jaurtiko jaurtiozu jaurtita jaurtitako jaurtitze jaurtitzea jaurtitzeagatik jaurtitzeaz jaurtitzeko jaurtitzen jaurtitzera jaurtiz
+69	869	dantzatu	dantzatua dantzatuko dantzatuz dantzatzea dantzatzeak dantzatzean dantzatzearen dantzatzeaz dantzatzeko dantzatzen dantzatzera dantzatzerik
+70	870	lerro	lerroa lerroak lerroan lerroaren lerroari lerroei lerroek lerroen lerroetan lerroetara lerroko lerrokoa lerrokoak lerrook lerrora lerroraino lerrorik lerrotan lerrotara lerrotik lerroz
+71	871	alegia	alegiak
+72	872	ikaratu	ikaratua ikaratuak ikaratuko ikaraturik ikaratuta ikaratutako ikaratuz ikaratzea ikaratzeari ikaratzeko ikaratzen ikaratzerik
+73	873	soka	sokak sokan sokara sokarako sokarekin sokaren sokari sokarik sokatik sokaz sokek sokekin soken soketako soketan soketatik
+74	874	oihu	oihua oihuak oihuei oihuek oihuekin oihuen oihuetatik oihurik oihutik oihuz
+75	875	saio	saioa saioak saioan saioarekin saioaren saioarengatik saioari saioen saioetan saioetara saiokoa saiora saiorako saiorik saiotik saiotzat
+76	876	santu	santua santuagatik santuak santuan santuarekin santuaren santuarengatik santuarentzat santuari santuaz santuek santuekin santuen santuenak santuentzat santuetan santuez santuko santura santuren santutik santutzat
+77	877	euri	euria euriagatik euriak eurian euriarekin euriaren euriari euriaz eurien euririk euritan euritarako euritatik euritik
+78	878	irribarre	irribarrea irribarreak irribarrean irribarrearen irribarreaz irribarreekin irribarreen irribarreren irribarrerik irribarretako
+79	879	norma	normak norman normarekin normaren normari normaz normek normekin
+80	880	eraztun	eraztuna eraztunagatik eraztunak eraztunarekin eraztunaren eraztunari eraztunaz eraztunean eraztunekin eraztunen eraztunetako eraztunetatik eraztunik
+81	881	ekin	ekina ekinarekin ekinaren ekinean ekinerako ekinez ekingo ekitea ekiteari ekiteko ekiten ekitera hakio zakizkiete zakizkio zekiean zekizkien
+82	882	ekintza	ekintzak ekintzan ekintzara ekintzarako ekintzarekin ekintzaren ekintzari ekintzarik ekintzatan ekintzatik ekintzatzat ekintzei ekintzek ekintzekin ekintzen ekintzengatik ekintzetan ekintzetara ekintzetatik
+83	883	inguratu	ingura inguratua inguratuak inguratuko inguraturik inguratuta inguratutako inguratuz inguratze inguratzea inguratzean inguratzeko inguratzen
+84	884	ekialde	ekialdea ekialdeak ekialdean ekialdearen ekialdeko ekialdekoa ekialdekoak ekialdera ekialderako ekialderantz ekialdetik
+85	885	ezkutu	ezkutua ezkutuak ezkutuan ezkutuarekin ezkutuaren ezkutuari ezkutuaz ezkutuek ezkutuena ezkutuetako ezkutuetan ezkutuko ezkutukoa ezkutukoak ezkuturen ezkuturik ezkututako ezkututik
+86	886	pena	penak penaren penarengatik penarik penaz penen penetan
+87	887	estutu	estu estutua estutuak estutuko estuturik estututa estututako estutuz estutze estutzea estutzeak estutzearen estutzeari estutzeko estutzen estutzera estutzerik
+88	888	ordubete	ordubetean ordubeteko ordubetera ordubeterako ordubeteren ordubetetik ordubetez
+89	889	bikote	bikotea bikoteak bikotean bikotearekin bikotearen bikotearengatik bikoteari bikoteaz bikoteei bikoteek bikoteekin bikoteen bikoteentzat bikoteetan bikoteko bikoterako bikoterekin bikoterik bikotetik
+90	890	neurri	neurria neurriak neurrian neurriarekin neurriaren neurriari neurriei neurriek neurriekin neurrien neurriengatik neurrietan neurrietara neurriko neurrikoa neurrikoak neurrira neurrirako neurririk neurritan neurritik neurritzat neurriz
+91	891	maleta	maletak maletako maletan maletara maletarekin maletaren maletari maletarik maletatik maletei maletekin maleten maletetan
+92	892	pribatu	pribatua pribatuago pribatuak pribatuan pribatuarekin pribatuaren pribatuari pribatuaz pribatuei pribatuek pribatuekin pribatuen pribatuengatik pribatuetan pribatuetara pribatuez pribatuko pribatukoa pribatukoak pribatura pribaturako pribaturen pribaturik pribatutik
+93	893	judu	judua juduak juduan juduaren juduari juduei juduek juduekin juduen juduenak juduentzat juduko juduren judurik judutik judutzat juduz
+94	894	iparralde	iparraldea iparraldeak iparraldean iparraldearen iparraldeko iparraldekoa iparraldekoak iparraldera iparralderako iparralderantz iparraldetik
+95	895	proba	probak proban probara probarako probaren probari probarik probek probekin proben probetako probetan probetara
+96	896	zerbitzari	zerbitzaria zerbitzariak zerbitzarian zerbitzariarekin zerbitzariaren zerbitzariarentzat zerbitzariari zerbitzariei zerbitzariek zerbitzariekin zerbitzarien zerbitzarientzat zerbitzarietan zerbitzarietara zerbitzarietatik zerbitzariok zerbitzarira zerbitzaririk zerbitzaritik zerbitzaritzat
+97	897	militar	militarekoa militarra militarragoa militarrak militarrarekin militarraren militarraz militarrean militarrei militarrek militarrekin militarreko militarrekoa militarren militarrentzat militarrera militarrerako militarretan militarretik militarrik
+98	898	frantses	frantsesa frantsesak frantsesarekin frantsesaren frantsesari frantsesaz frantsesean frantsesei frantsesek frantsesekin frantseseko frantsesen frantsesena frantsesengana frantsesengandik frantsesentzat frantsesera frantsesetik frantsesez frantsesi frantsesik frantsesok
+99	899	osasun	osasuna osasunagatik osasunak osasunarekin osasunaren osasunarengatik osasunarentzat osasunari osasunaz osasunean osasuneko osasunekoak osasunera osasunerako osasunez
+100	900	hitzordu	hitzordua hitzorduak hitzorduan hitzorduaren hitzorduei hitzorduen hitzorduetako hitzorduetan hitzorduetara hitzorduez hitzordura hitzordurako hitzorduren hitzordurik

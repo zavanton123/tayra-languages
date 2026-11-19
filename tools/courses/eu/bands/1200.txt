@@ -1,0 +1,100 @@
+1	1101	jardun	dihardu dihardugu dihardut dihardute diharduzu diharduzue jarduna jardunda jardundako jardunez jardungo jardunik jardutea jarduteak jardutean jarduteari jarduteaz jarduteko jarduten jardutera niharduen ziharduen ziharduten
+2	1102	gezurti	gezurtia gezurtiagoa gezurtiak gezurtiei gezurtien gezurtiena gezurtiok gezurtirik gezurtitzat
+3	1103	nabaritu	nabari nabarituko nabarituz nabaritzen
+4	1104	jaka	jakak jakako jakan jakarekin jakaren jakari jakarik jake jakek jakekin jaken
+5	1105	postu	postua postuak postuan postuaren postuari postuen postuetan postuetara postuko postura posturaino posturako posturekin posturen posturik postutan postutara postutik postuz
+6	1106	eztabaidatu	eztabaidatua eztabaidatuak eztabaidatuko eztabaidatze eztabaidatzea eztabaidatzeak eztabaidatzeari eztabaidatzeko eztabaidatzen eztabaidatzera
+7	1107	ordena	ordenak ordenako ordenakoak ordenan ordenara ordenarekin ordenaren ordenari ordenarik ordenatan ordenaz ordenei ordenekin ordenen ordenengatik ordenetan
+8	1108	fede	fedea fedeagatik fedeak fedean fedearekin fedearen fedearengatik fedeari fedeaz fedeko fedekoa federen federik fedez
+9	1109	bilakatu	bilaka bilakatua bilakatuko bilakaturik bilakatuta bilakatutako bilakatuz bilakatzea bilakatzean bilakatzeko bilakatzen bilakatzera
+10	1110	proiektu	proiektua proiektuak proiektuan proiektuarekin proiektuaren proiektuari proiektuaz proiektuei proiektuek proiektuen proiektuetan proiektuetara proiektuko proiektukoa proiektura proiekturako proiekturen proiekturik
+11	1111	gurutzatu	gurutza gurutzatua gurutzatuak gurutzatuan gurutzatuko gurutzaturik gurutzatuta gurutzatutako gurutzatuz gurutzatzea gurutzatzean gurutzatzeko gurutzatzen gurutzatzera gurutzatzerik
+12	1112	kate	katea kateak katean katearekin katearen katearentzat kateari kateek kateekin kateen kateengatik kateetara kateetatik katek kateko katekoa katekoak katera katerako katerekin kateri katerik katetan katetik katez
+13	1113	beldurgarri	beldurgarria beldurgarriago beldurgarriagoa beldurgarriagoak beldurgarriak beldurgarrian beldurgarriarekin beldurgarriaren beldurgarriari beldurgarriaz beldurgarriekin beldurgarriena beldurgarriez beldurgarrira beldurgarriren beldurgarririk beldurgarritik
+14	1114	zauri	zauria zauriak zaurian zauriarekin zauriaren zauriari zauriei zauriek zauriekin zaurien zauriengatik zaurietako zaurietan zaurietatik zauririk zauritik zauriz
+15	1115	jostailu	jostailua jostailuagatik jostailuak jostailuei jostailuek jostailuekin jostailuen jostailuentzat jostailuetako jostailuk jostailuoi jostailuok jostailuren jostailurik jostailutik jostailuz
+16	1116	kontxo	
+17	1117	kontrol	kontrola kontrolak kontrolarekin kontrolaren kontrolari kontrolaz kontrolean kontrolek kontroleko kontrolera kontrolerako kontroletan kontroletik kontrolez kontrolik
+18	1118	oro	ororekin ororen orori oroz
+19	1119	hezkuntza	hezkuntzak hezkuntzako hezkuntzan hezkuntzara hezkuntzarako hezkuntzaren hezkuntzari hezkuntzarik hezkuntzatik hezkuntzaz
+20	1120	pelikula	pelikulak pelikulako pelikulakoa pelikulakoak pelikulan pelikulara pelikularako pelikularen pelikulari pelikularik pelikulatan pelikulek pelikulen pelikuletan
+21	1121	erraldoi	erraldoia erraldoiak erraldoian erraldoiarekin erraldoiaren erraldoiari erraldoiei erraldoiek erraldoiekin erraldoien erraldoientzat erraldoietan erraldoietara erraldoiez erraldoiko erraldoira
+22	1122	geltoki	geltokia geltokiak geltokian geltokiaren geltokietan geltokietara geltokietatik geltokiko geltokikoa geltokira geltokiraino geltokirantz geltokirik geltokitan geltokitik
+23	1123	erakarri	erakar erakarria erakarriko erakarrita erakarriz erakartzea erakartzeko erakartzen erakartzera
+24	1124	bizimodu	bizimodua bizimoduak bizimoduan bizimoduarekin bizimoduaren bizimoduari bizimoduaz bizimoduen bizimoduko bizimodura bizimodurik bizimodutik
+25	1125	ezezagun	ezezaguna ezezagunak ezezagunarekin ezezagunaren ezezagunari ezezagunean ezezagunei ezezagunek ezezagunekin ezezaguneko ezezagunekoa ezezagunen ezezagunera ezezagunerantz ezezagunetan ezezagunetara ezezagunetatik ezezagunetik ezezagunez ezezagunik
+26	1126	mamu	mamua mamuak mamuarekin mamuaren mamuarengandik mamuari mamuei mamuek mamuekin mamuen mamuengatik mamuetan mamuez mamuren mamurik mamuz
+27	1127	astebete	astebetea astebetean astebeteko astebetera astebeterako astebetetik astebetez
+28	1128	disko	diskoa diskoagatik diskoak diskoan diskoarekin diskoaren diskoarengatik diskoari diskoaz diskoek diskoen diskoetan diskoez diskoko diskora diskorako diskoren diskorik diskotik
+29	1129	berotu	berotua berotuko berotuta berotutako berotuz berotzea berotzeagatik berotzearen berotzeko berotzen berotzera berotzerik
+30	1130	boto	botoa botoak botoan botoarekin botoaren botoek botoekin botoen botok botoko botorengatik botorik bototik botoz
+31	1131	ohartu	ohartua ohartuak ohartuko ohartuta ohartzea ohartzean ohartzeko ohartzen ohartzera
+32	1132	zibil	zibila zibilagoa zibilak zibilarekin zibilaren zibilari zibilaz zibilean zibilei zibilek zibilekin zibileko zibilekoak zibilen zibilengatik zibilera zibiletan zibiletara zibiletik zibilez zibilik
+33	1133	errespetatu	errespeta errespetatua errespetatuko errespetatuta errespetatuz errespetatzea errespetatzeagatik errespetatzeaz errespetatzeko errespetatzen errespetatzera
+34	1134	zapata	zapatak zapatan zapatarekin zapataren zapatari zapatarik zapatatik zapatei zapatek zapatekin zapaten zapatengatik zapatetan zapatetatik
+35	1135	oraingoz	
+36	1136	trago	tragoa tragoagatik tragoak tragoan tragoaren tragoaz tragorekin tragoren tragorik
+37	1137	bidaiatu	bidaiatua bidaiatuko bidaiatuz bidaiatzea bidaiatzeagatik bidaiatzean bidaiatzeari bidaiatzeaz bidaiatzeko bidaiatzen bidaiatzera
+38	1138	bereziki	
+39	1139	mordo	mordoa mordoak mordoarekin mordoaren mordoari mordoaz
+40	1140	susmagarri	susmagarria susmagarriak susmagarrian susmagarriaren susmagarriari susmagarriek susmagarriekin susmagarrien susmagarriena susmagarrietako susmagarriez susmagarriren susmagarriri susmagarririk susmagarritzat
+41	1141	zigortu	zigortua zigortuak zigortuko zigortuta zigortutako zigortzea zigortzeari zigortzeko zigortzen zigortzera
+42	1142	barne	barnea barneko barnekoa barnera barnetik
+43	1143	izendatu	izenda izendatua izendatuak izendatuko izendaturik izendatuta izendatutako izendatzea izendatzean izendatzeaz izendatzeko izendatzen izendatzera
+44	1144	izoztu	izoztea izozteak izozteaz izozteko izozten izoztua izoztuak izoztuko izozturik izoztuta izoztutako izoztutakoa
+45	1145	aholku	aholkua aholkuagatik aholkuak aholkuarekin aholkuaren aholkuari aholkuei aholkuekin aholkuen aholkuengatik aholkuren aholkurik aholkuz
+46	1146	epaitu	epai epaitua epaituak epaituko epaitutako epaitzea epaitzeak epaitzearen epaitzeko epaitzen epaitzera
+47	1147	inportante	inportantea inportanteagatik inportanteago inportanteagoa inportanteagoak inportanteak inportantearen inportanteegia inportanteegiak inportanteekin inportanteena inportanteenak inportanterik inportantetzat
+48	1148	potro	potroa potroak potroei potroek potroekin potroen potroengatik potroetako potroetan potroetatik potroez potrorekin potrorik potrotan potrotara potrotatik
+49	1149	epaiketa	epaiketak epaiketako epaiketan epaiketara epaiketarako epaiketarekin epaiketaren epaiketari epaiketarik epaiketatik epaiketaz epaiketetako epaiketetan epaiketez
+50	1150	apaiz	apaiza apaizak apaizarekin apaizaren apaizarengana apaizari apaizaz apaizei apaizek apaizekin apaizen apaizetako apaizetan apaizez apaizi apaizik
+51	1151	sorgin	sorgina sorginagatik sorginagoa sorginak sorginarekin sorginaren sorginarengana sorginari sorginaz sorginei sorginek sorginen sorginenak sorginengana sorginetan sorginetik sorginez sorginik sorgintzat
+52	1152	bideo	bideoa bideoak bideoan bideoarekin bideoaren bideoaz bideoei bideoekin bideoetako bideoetan bideoko bideokoa bideorako bideoren bideorik
+53	1153	kazetari	kazetaria kazetariak kazetariarekin kazetariaren kazetariarengan kazetariari kazetariaz kazetariei kazetariek kazetariekin kazetarien kazetariengana kazetarientzat kazetarik kazetariok kazetaririk kazetariz
+54	1154	iturri	iturria iturriak iturrian iturriarekin iturriaren iturriari iturriei iturriek iturriekin iturrien iturriengatik iturrietatik iturriko iturrikoa iturrira iturriraino iturrirako iturrirantz iturrirekin iturriren iturririk iturritik iturritzat
+55	1155	aitatxo	aitatxoak aitatxorekin aitatxoren aitatxori
+56	1156	gerturatu	gertura gerturatuko gerturatuz gerturatzea gerturatzeagatik gerturatzearen gerturatzeko gerturatzen
+57	1157	itsu	itsua itsuagatik itsuago itsuagoa itsuak itsuan itsuarekin itsuaren itsuari itsuegia itsuei itsuek itsuekin itsuen itsuentzat itsuko itsuok itsura itsurik itsutik
+58	1158	hezur	hezurra hezurragatik hezurrak hezurrarekin hezurraz hezurrean hezurrei hezurrek hezurrekin hezurren hezurrera hezurreraino hezurretako hezurretan hezurretara hezurretaraino hezurretatik hezurretik hezurrez hezurrik
+59	1159	solairu	solairua solairuak solairuan solairuen solairuetan solairuko solairukoa solairura solairuraino solairurantz solairurik solairutako solairutan solairutik solairuz
+60	1160	kopa	kopak kopako kopan koparako koparekin kopari koparik kopatik kopekin kopen kopetako kopetan
+61	1161	faltsu	faltsua faltsuagatik faltsuak faltsuarekin faltsuaren faltsuek faltsuekin faltsuen faltsuena faltsuengatik faltsuez faltsurik faltsutatik faltsuz
+62	1162	damutu	damutuko damuturik damututa damutze damutzea damutzeko damutzen damutzerik
+63	1163	topa	topaz topon
+64	1164	isuri	isur isuria isuriak isuriari isuriko isuriren isurita isuritako isuritakoa isuriz isurtze isurtzea isurtzeak isurtzeaz isurtzeko isurtzen isurtzera isurtzerik
+65	1165	irentsi	irenstea irenstean irensteko irensten irenstera irents irentsia irentsiak irentsiko irentsita irentsiz
+66	1166	parke	parkea parkeak parkean parkearen parkeen parkeetako parkeetan parkeko parkekoa parkekoak parkera parkeraino parkerako parkerantz parketik parkez
+67	1167	gor	goraz gorena gorenak gorentzat gorra gorrak gorrari gorrek gorren gorrentzat
+68	1168	kopuru	kopurua kopuruak kopuruan kopuruarekin kopuruaren kopuruarengatik kopuruari kopuruaz kopuruek kopuruetan kopuruko kopururaino kopururik kopuruz
+69	1169	urrezko	urrezkoa urrezkoak urrezkoena
+70	1170	esperientzia	esperientziak esperientzian esperientziarekin esperientziaren esperientziari esperientziarik esperientziatik esperientziaz esperientziek esperientziez
+71	1171	maiestate	maiestatea maiestateak maiestatearekin maiestatearen maiestatearentzat maiestateari maiestateaz maiestateren
+72	1172	lasterka	lasterkako lasterkarik lasterkatan lasterketako lasterketan lasterketara lasterketatik
+73	1173	altu	altua altuagatik altuago altuagoa altuagoak altuak altuan altuarekin altuegi altuegia altuegiak altuei altuekin altuen altuena altuenak altuetan altuko altukoa altukoak alturaino alturako
+74	1174	unitate	unitatea unitateak unitatean unitatearekin unitatearen unitateari unitateek unitateekin unitateetan unitateko unitatekoa unitateok unitatera unitaterik unitatetan unitatetik unitatez
+75	1175	negu	negua neguak neguan neguaren neguaz neguko negukoa negura negurako negurik negutik neguz
+76	1176	gorentasun	gorentasuna gorentasunak gorentasunarekin gorentasunaren gorentasunarentzat gorentasunari gorentasunean gorentasunek gorentasuntzat
+77	1177	arrautza	arrautzak arrautzan arrautzarekin arrautzarik arrautzatik arrautzaz arrautzekin arrautzen arrautzetan arrautzetatik arrautzez
+78	1178	fin	fina finago finagoa finagoak finak finarekin finaren finaz finean finegi finegia finegiak fineko finekoak finen finena finenak finetan fini
+79	1179	garun	garuna garunagatik garunak garunarekin garunaren garunari garunaz garunean garunei garunek garunekin garuneko garunen garunera garuneraino garunetako garunetan garunetik garunik
+80	1180	esne	esnea esneak esnean esnearekin esnearen esneari esneaz esneko esnerako esnerik esnetan esnetik esnez
+81	1181	eskailera	eskailerak eskaileran eskailerara eskaileraraino eskailerarantz eskailerarekin eskaileraren eskailerarik eskaileratan eskaileratik eskailerekin eskaileren eskailerengatik eskaileretako eskaileretan eskaileretara eskaileretatik
+82	1182	hesi	hesia hesiak hesian hesiarekin hesiaren hesiari hesiek hesiekin hesien hesietan hesietara hesiko hesira hesiraino hesirantz hesirik hesitik hesiz
+83	1183	salto	saltoa saltoak saltoen saltorik
+84	1184	kultura	kulturak kulturan kulturaren kulturarik kulturaz
+85	1185	soldata	soldatak soldatan soldatarako soldatarekin soldataren soldatari soldatarik soldatatan soldatatik soldataz soldatek soldatekin soldaten soldatetan
+86	1186	lotura	loturak loturako loturakoa loturarako loturarekin loturaren loturarik loturatik loturaz loturei loturekin loturez
+87	1187	hego	hegal hegoa hegoak hegoan hegoek hegoekin hegoen hegoetan hegoko hegora hegorako hegorantz hegorik hegotik
+88	1188	gaixotasun	gaixotasuna gaixotasunak gaixotasunarekin gaixotasunaren gaixotasunari gaixotasunaz gaixotasunean gaixotasunek gaixotasunekin gaixotasunen gaixotasunerako gaixotasunetatik gaixotasunetik gaixotasunez gaixotasunik
+89	1189	kapela	kapelak kapelako kapelan kapelara kapelarekin kapelaren kapelari kapelarik kapelatik kapelekin kapelen kapelok
+90	1190	energia	energiak energiarekin energiaren energiari energiarik energiatik energiaz energiei
+91	1191	imajinatu	imajinatuko imajinatutako imajinatutakoa imajinatzea imajinatzen imajinatzerik
+92	1192	traizio	traizioa traizioagatik traizioak traizioan traizioarekin traizioaren traizioarengatik traizioaz traizioek traizioekin traiziora traiziorako traizioren traiziorik traiziotzat traizioz
+93	1193	zoro	zoroa zoroago zoroagoa zoroagoak zoroak zoroan zoroarekin zoroaren zoroegia zoroek zoroen zoroena zororen zororik zorotan zorotzat
+94	1194	edari	edaria edariagatik edariak edarian edariarekin edariaren edariarengatik edariari edariekin edarien edarietan edarietara edariez edariko edariok edarira edariren edaririk edariz
+95	1195	labur	laburra laburrago laburragoa laburragoak laburrak laburrarekin laburraren laburrean laburregi laburregia laburregiak laburrek laburrekin laburreko laburrena laburrera laburrerako laburretan laburretatik laburrez
+96	1196	ok	
+97	1197	txoro	txoroa txoroago txoroagoa txoroak txoroarekin txoroei txoroek txoroekin txoroen txoroentzat txoroetako txoroetan txoroez txororen txororik txorotan
+98	1198	deika	
+99	1199	bisitatu	bisitatua bisitatuko bisitatutako bisitatze bisitatzea bisitatzeagatik bisitatzean bisitatzeko bisitatzen bisitatzera
+100	1200	nekatu	neka nekatua nekatuak nekatuko nekaturik nekatutako nekatzea nekatzeko nekatzen

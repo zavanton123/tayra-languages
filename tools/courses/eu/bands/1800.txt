@@ -1,0 +1,100 @@
+1	1701	iaz	
+2	1702	emozio	emozioa emozioagatik emozioak emozioan emozioarekin emozioaren emozioei emozioek emozioekin emozioen emozioez emoziorik emozioz
+3	1703	trebe	trebea trebeago trebeagoa trebeak trebeen trebeena trebeenak treberik
+4	1704	erantzukizun	erantzukizuna erantzukizunak erantzukizunarekin erantzukizunaren erantzukizunari erantzukizunei erantzukizunekoa erantzukizunen erantzukizunetatik erantzukizunez erantzukizunik erantzukizuntzat
+5	1705	gaixotu	gaixotua gaixotuko gaixotutako gaixotuz gaixotzea gaixotzearekin gaixotzeko gaixotzen
+6	1706	sagar	sagaren sagarra sagarrak sagarrarekin sagarraren sagarrari sagarrek sagarrekin sagarren sagarretan sagarrik
+7	1707	eskari	eskaria eskariak eskarian eskariaren eskariari eskariaz eskariei eskariekin eskarien eskarietan eskariez eskarirako eskaririk eskariz
+8	1708	kable	kablea kableak kablearekin kablearen kableari kableaz kableekin kableetan kableko kablera kablerako kablerantz kableren kablerik kabletik kablez
+9	1709	alkandora	alkandorak alkandorako alkandoran alkandorarekin alkandoraren alkandorarentzat alkandorari alkandorarik alkandoratik alkandorek alkandoretako alkandoretan
+10	1710	azti	aztia aztiak aztiarekin aztiaren aztiari aztiek aztiekin aztien aztiok aztirako aztiren aztirik aztitzat
+11	1711	aseguru	asegurua aseguruagatik aseguruak aseguruan aseguruarekin aseguruaren aseguruaz aseguruek aseguruen aseguruetan aseguruko asegurukoa asegururako asegururik
+12	1712	baliatu	balia baliatuak baliatuko baliaturik baliatuta baliatuz baliatzea baliatzeko baliatzen
+13	1713	oinarrizko	oinarrizkoa oinarrizkoak oinarrizkoegia oinarrizkoena oinarrizkoenak oinarrizkoengatik
+14	1714	erregutu	erregutuko erregutuz erregutzea erregutzeko erregutzen erregutzera
+15	1715	epe	epea epeak epean epearekin epearen eperik
+16	1716	dantzari	dantzaria dantzariak dantzariaren dantzariari dantzariei dantzariek dantzariekin dantzarien dantzariengana dantzarientzat dantzariez dantzarik dantzaririk dantzaritzat dantzariz
+17	1717	berpiztu	berpiz berpizte berpiztea berpizteak berpiztean berpiztearen berpizteari berpizteko berpizten berpiztua berpiztuko
+18	1718	apal	apala apalago apalagoa apalagoak apalak apalari apalean apalegia apalek apalekin apaleko apalekoa apalen apalenak apalera apaletako apaletan apaletatik apaletik apalik
+19	1719	iloba	ilobak ilobarekin ilobaren ilobarengatik ilobarentzat ilobari ilobarik ilobatzat ilobaz ilobei ilobek
+20	1720	balea	baleak balearen baleari baleatan baleatik baleek baleekin baleen baleetan
+21	1721	amorratu	amorratua amorratuak amorratuarekin amorratuarentzat amorratuari amorratuek amorratuekin amorratuen amorratuentzat amorratuko amorraturik amorratuta amorratutako amorratuz amorratzea amorratzeko amorratzen
+22	1722	tamaina	tamainak tamainako tamainakoa tamainakoak tamainan tamainarekin tamainaren tamainari tamainaz
+23	1723	ehiztari	ehiztaria ehiztariak ehiztariaren ehiztariei ehiztariek ehiztarien ehiztarik ehiztariren ehiztaririk
+24	1724	marrazki	marrazkiak marrazkian marrazkiaren marrazkiei marrazkiek marrazkien marrazkietan marrazkiez marrazkiko marrazkirik marrazkiz
+25	1725	izu	izua izuak izuaren izuari izuaz izuek izuen izuengatik izura izurik izuz
+26	1726	agentzia	agentziak agentziako agentziakoa agentziakoak agentzian agentziara agentziarekin agentziaren agentziarentzat agentziari agentziarik agentziatik agentziaz agentziei agentziek agentziekin agentzien agentzietako
+27	1727	kartel	kartela kartelagatik kartelak kartelaren kartelari kartelean kartelek kartelekin karteleko kartelekoak kartelen kartelentzat kartelera karteletan kartelez kartelik
+28	1728	lehoi	lehoia lehoiak lehoiarekin lehoiaren lehoiarentzat lehoiari lehoiei lehoiek lehoiekin lehoien lehoietara lehoirik
+29	1729	krudel	krudela krudelago krudelagoa krudelagoak krudelak krudelegia krudelegiak krudelena
+30	1730	pakete	paketea paketeak paketean paketearen paketeekin paketeren paketerik paketetan
+31	1731	zikindu	zikindua zikinduko zikindurik zikinduta zikindutako zikindutakoa zikinduz zikintzea zikintzeagatik zikintzeak zikintzearen zikintzeko zikintzen zikintzera zikintzerik
+32	1732	orrialde	orrialdea orrialdeak orrialdean orrialdeekin orrialdeen orrialdeetan orrialdeetara orrialdeetatik orrialdeko orrialdera orrialderik orrialdetan orrialdetatik orrialdetik
+33	1733	misterio	misterioa misterioak misterioan misterioarekin misterioaren misterioari misterioetan misterioez misterioko misteriorik misteriotan misterioz
+34	1734	jazo	jazoko jazota jazotako jazotakoa jazotzen jazotzerik jazoz
+35	1735	lurreratu	lurreratuko lurreratuz lurreratze lurreratzea lurreratzeak lurreratzean lurreratzeko lurreratzen lurreratzera
+36	1736	eragozpen	eragozpena eragozpenagatik eragozpenak eragozpenarengatik eragozpenen eragozpenengatik eragozpenetako eragozpenik eragozpentzat
+37	1737	kongresu	kongresua kongresuak kongresuan kongresuarekin kongresuaren kongresuari kongresuko kongresura kongresurako kongresutik
+38	1738	zero	zeroan zeroen zeroetan zerok zerora zerorekin zeroren zerori zerotik zeroz
+39	1739	enperadorea	enperadoreak enperadorearekin enperadorearen enperadorearentzat enperadoreari
+40	1740	eske	eskea eskean eskekoa eskera eskeri
+41	1741	erronka	erronkak erronkarako erronkaren erronkari erronkarik erronkatzat erronkaz erronkei erronkek erronken erronketara erronkez
+42	1742	garrasi	garrasia garrasiak garrasiaren garrasiei garrasiek garrasiekin garrasien garrasirik garrasitan garrasitik
+43	1743	oparitu	oparituko oparituta oparitutako oparitutakoa oparituz oparitzea oparitzeak oparitzeaz oparitzen oparitzerik
+44	1744	jenio	jenioa jenioak jenioarekin jenioaren jenioek jenioen jenioko jeniook jeniorik
+45	1745	muino	muinoa muinoak muinoan muinoaren muinoaz muinoei muinoen muinoetako muinoetan muinoetara muinoetaraino muinoko muinokoa muinokoak muinora muinotik
+46	1746	hondoratu	hondora hondoratua hondoratuak hondoratuko hondoratuta hondoratzea hondoratzearekin hondoratzearen hondoratzeari hondoratzeko hondoratzen hondoratzerik
+47	1747	doinu	doinua doinuak doinuan doinuarekin doinuaren doinuari doinuek doinuekin doinuez doinura doinurik doinutik doinuz
+48	1748	zuhur	zuhurra zuhurrago zuhurragoa zuhurragoak zuhurrak zuhurraren zuhurrean zuhurregi zuhurregia zuhurrena zuhurtzat
+49	1749	ikasketa	ikasketak ikasketan ikasketarako ikasketarik ikasketek ikasketekin ikasketen ikasketengatik ikasketetan ikasketetarako ikasketez
+50	1750	usteldu	usteldua ustelduak ustelduko usteldurik ustelduta usteldutako usteltze usteltzea usteltzearen usteltzeko usteltzen
+51	1751	ekitaldi	ekitaldia ekitaldiagatik ekitaldiak ekitaldian ekitaldiarekin ekitaldiaren ekitaldietan ekitaldiko ekitaldira ekitaldirako ekitaldiren ekitaldiri ekitaldirik ekitalditik ekitaldiz
+52	1752	osoko	osokoa osokoak
+53	1753	makila	makilak makilan makilara makilarekin makilaren makilarik makilatik makilaz makilekin makilen makilengatik makiletan
+54	1754	dutxa	dutxak dutxako dutxakoa dutxan dutxara dutxarako dutxarekin dutxaren dutxarik dutxatik dutxei dutxen dutxetako dutxetan dutxetara
+55	1755	delitu	delitua delituagatik delituak delituan delituaren delituaz delituek delituen delituetan delituez delituren deliturik delitutan delitutik delitutzat
+56	1756	zopa	zopak zopan zoparako zoparekin zoparen zopari zoparik zopatan zopetan
+57	1757	identifikatu	identifika identifikatua identifikatuko identifikaturik identifikatuta identifikatuz identifikatze identifikatzea identifikatzeko identifikatzen identifikatzera
+58	1758	bertsio	bertsioa bertsioak bertsioan bertsioaren bertsioari bertsioetatik bertsioko bertsiorik
+59	1759	hamarkada	hamarkadak hamarkadako hamarkadakoa hamarkadakoak hamarkadan hamarkadara hamarkadarako hamarkadaren hamarkadatan hamarkadatik hamarkadaz hamarkadetako hamarkadetan
+60	1760	santa	santak santan
+61	1761	saltsa	saltsak saltsako saltsan saltsarako saltsarekin saltsaren saltsari saltsarik saltsatan saltsetan
+62	1762	armairu	armairua armairuak armairuan armairuarekin armairuaren armairuekin armairuetan armairuetatik armairuko armairura armairuren armairutan armairutik
+63	1763	adostu	adostea adosteko adosten adostua adostuko adosturik adostuta adostutako adostutakoa
+64	1764	ausardia	ausardiak ausardiako ausardian ausardiarako ausardiaren ausardiarengatik ausardiarik ausardiatik ausardiaz
+65	1765	karrera	karrerak karrerako karreran karrerarekin karreraren karrerarengatik karrerari karrerarik karreraz karreretan karreretara
+66	1766	nota	notak notan notarekin notaren notarik notaz notei notek notekin noten notetan notetara notetatik
+67	1767	belaunaldi	belaunaldia belaunaldiak belaunaldian belaunaldiaren belaunaldiari belaunaldiek belaunaldien belaunaldietako belaunaldietan belaunaldiko belaunaldikoak belaunaldira belaunaldiren belaunaldirik belaunalditan belaunalditatik belaunaldiz
+68	1768	alarma	alarmak alarmako alarmarekin alarmaren alarmari alarmarik
+69	1769	izozki	izozkia izozkiagatik izozkiak izozkiarekin izozkiaren izozkien izozkiren izozkirik izozkitan izozkiz
+70	1770	proposamen	proposamena proposamenagatik proposamenak proposamenarekin proposamenaren proposamenari proposamenaz proposamenekin proposamenik
+71	1771	izorra	
+72	1772	txalo	txaloa txaloak txaloan txaloek txaloekin txalorik
+73	1773	arrotz	arrotza arrotzak arrotzarengandik arrotzean arrotzei arrotzek arrotzekin arrotzen arrotzenak arrotzengandik arrotzez arrotzik
+74	1774	distiratsu	distiratsua distiratsuago distiratsuagoa distiratsuak distiratsuarekin distiratsuaren distiratsuegia distiratsuei distiratsuek distiratsuen distiratsuena distiratsuenak distiratsuko distiratsuok distiratsura distiratsurik distiratsutik distiratsuz
+75	1775	lantegi	lantegia lantegiak lantegian lantegiaren lantegiaz lantegiek lantegien lantegietan lantegiko lantegikoa lantegira lantegirako lantegiren lantegitik
+76	1776	gasolina	gasolinarako gasolinarekin gasolinaren gasolinarengatik gasolinarentzat gasolinarik gasolinaz
+77	1777	gizonezko	gizonezkoa gizonezkoak gizonezkoaren gizonezkoarengatik gizonezkoarentzat gizonezkoei gizonezkoek gizonezkoekin gizonezkoen gizonezkoena gizonezkoenak gizonezkoentzat gizonezkook gizonezkoz
+78	1778	muxu	muxua muxuak muxuan muxuekin muxurik
+79	1779	pista	pistak pistako pistakoa pistan pistara pistarako pistarekin pistaren pistari pistarik pistatik pistek pistekin pistetan
+80	1780	malko	malkoa malkoak malkoei malkoek malkoekin malkoen malkoengatik malkoetan malkoetaraino malkoez malkorik malkotan malkoz
+81	1781	landare	landarea landareak landarean landarearekin landarearen landarearengatik landareari landareei landareek landareekin landareen landareentzat landareetan landareez landarekoa landareren landarerik landarez
+82	1782	jiratu	jira jiratua jiratuko jiratuta jiratuz jiratzea jiratzeko jiratzen
+83	1783	ibilbide	ibilbidea ibilbideak ibilbidean ibilbidearekin ibilbidearen ibilbideari ibilbideez ibilbideko ibilbiderako ibilbiderik ibilbidetik
+84	1784	ezkero	
+85	1785	paseatu	paseatuko paseatuta paseatuz paseatzea paseatzeko paseatzen paseatzera
+86	1786	iragarki	iragarkia iragarkiagatik iragarkiak iragarkian iragarkiaren iragarkiari iragarkiei iragarkiek iragarkien iragarkiengatik iragarkietako iragarkietan iragarkietatik iragarkiko iragarkikoak iragarkirako iragarkirik iragarkitik
+87	1787	erail	eraila erailak erailda eraildako erailko erailtzea erailtzeak erailtzean erailtzeko erailtzen
+88	1788	titulu	titulua tituluak tituluarekin tituluari tituluekin tituluko titulurako titulurekin titulurik
+89	1789	tontakeria	tontakeriak tontakeriarik tontakeriatan tontakeriaz tontakerien tontakerietan tontakeriez
+90	1790	markatu	markatua markatuak markatuko markaturik markatuta markatutako markatzea markatzeko markatzen markatzera
+91	1791	nahita	
+92	1792	salaketa	salaketak salaketari salaketarik salaketetan salaketez
+93	1793	batzar	batzarra batzarrak batzarraren batzarrari batzarrean batzarreko batzarrekoa batzarrera batzarrerako batzarretan batzarretara
+94	1794	erreal	erreala errealagoa errealagoak errealak errealarekin errealaren errealaz errealean errealeko errealera errealerako errealetik errealik
+95	1795	poesia	poesiak poesiakoa poesian poesiara poesiarekin poesiaren poesiari poesiarik poesiaz poesiekin
+96	1796	zentimo	zentimoa zentimoak zentimoan zentimoko zentimokoa zentimoraino zentimorekin zentimoren zentimorik zentimotan zentimotik
+97	1797	bizar	bizarra bizarragatik bizarrak bizarrarekin bizarrarengatik bizarrean bizarretatik bizarretik bizarrik
+98	1798	tunel	tunela tunelak tunelarekin tunelaren tunelean tunelen tunelera tuneletan tuneletara tuneletik tunelez tunelik
+99	1799	primerako	primerakoa primerakoak
+100	1800	atso	atsoa atsoak atsoarekin atsoari atsoen atsoentzat atsook

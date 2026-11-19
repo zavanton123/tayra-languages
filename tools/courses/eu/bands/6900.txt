@@ -1,0 +1,100 @@
+1	6801	boikot	boikota boikotak boikotaren
+2	6802	kapot	kapotaren kapotean kapotera
+3	6803	izur	izura izurik izurrak
+4	6804	gabetu	gabetua gabetuak gabetutako gabetzeak gabetzearen gabetzen
+5	6805	alfabetoa	alfabetoaren
+6	6806	ihar	igar ihara iharrak
+7	6807	libreta	libretan libretetan
+8	6808	txokolatina	
+9	6809	miau	
+10	6810	erresidentzia	
+11	6811	idatzizko	
+12	6812	gainkarga	
+13	6813	preseski	
+14	6814	melankolia	
+15	6815	ena	
+16	6816	portzentaje	portzentajea
+17	6817	akordeoi	akordeoia
+18	6818	teorikoki	
+19	6819	igandero	
+20	6820	zelanbait	
+21	6821	terminologia	
+22	6822	bakezko	
+23	6823	bina	
+24	6824	nehoiz	
+25	6825	urpeko	
+26	6826	antropologia	
+27	6827	musikalki	
+28	6828	atzotik	
+29	6829	ozenki	
+30	6830	zarataka	
+31	6831	defizit	defizita
+32	6832	urrundik	
+33	6833	kamamila	
+34	6834	monarkia	monarkiak
+35	6835	pontxe	pontxea
+36	6836	azaburu	azaburua
+37	6837	malabarista	malabaristak
+38	6838	egokitzapen	egokitzapena
+39	6839	espora	esporak
+40	6840	zeremonial	zeremoniala
+41	6841	aurrerakoi	aurrerakoiak
+42	6842	misogino	misoginoa
+43	6843	destilatu	destilatua
+44	6844	laranjondo	laranjondoak
+45	6845	edredoi	edredoia
+46	6846	migraina	migrainak
+47	6847	adierazle	adierazlea
+48	6848	izartxo	izartxoa
+49	6849	plural	plurala pluralean
+50	6850	musikazale	musikazalea
+51	6851	ezeroso	ezerosoa
+52	6852	parabola	parabolak
+53	6853	deiadar	deiadarra
+54	6854	kopek	kopekera
+55	6855	gurutzada	gurutzadan
+56	6856	errumaniar	errumaniarra
+57	6857	volt	volteko voltekoa
+58	6858	balezta	baleztak baleztaren
+59	6859	ereinotz	ereinotza ereinotzak
+60	6860	felazio	felazioak
+61	6861	sodio	sodioa
+62	6862	pinpirin	pinpirina
+63	6863	txekiar	txekiarra txekiarrean
+64	6864	dekadente	dekadentea dekadenteak
+65	6865	txirikorda	txirikordak
+66	6866	erroskilla	erroskillak
+67	6867	gratinatu	gratinatua gratinatuak
+68	6868	txankleta	txankletak
+69	6869	estatuburu	estatuburua
+70	6870	elkargo	elkargoa elkargoak elkargoko
+71	6871	bertigo	bertigoa bertigoak
+72	6872	gigolo	gigoloa gigoloak
+73	6873	totem	totema
+74	6874	itsasbehera	itsasbeheran
+75	6875	haxix	haxixa
+76	6876	oies	oiesak
+77	6877	anemona	anemonak anemonatik
+78	6878	akrobata	akrobatak akrobatarik
+79	6879	itxarongela	itxarongelan itxarongelara
+80	6880	ezten	eztena eztenak
+81	6881	bakoiti	bakoitia bakoitiak bakoitietan
+82	6882	etsamina	etsaminak etsaminan
+83	6883	hozkatu	hozkatzeko hozkatzen
+84	6884	eraispen	eraispena eraispenaren
+85	6885	mesedegarri	mesedegarria mesedegarriagoa
+86	6886	bibotedun	biboteduna
+87	6887	hamaikagarren	hamaikagarrena
+88	6888	erupzio	erupzioa erupzioraino
+89	6889	kotizazio	kotizazioa kotizazioak
+90	6890	hamabigarren	hamabigarrena
+91	6891	mendetasun	mendetasuna mendetasunik
+92	6892	behizain	behizaina behizainak
+93	6893	bertset	bertseta bertsetak
+94	6894	bapore	baporea
+95	6895	sandalia	sandaliak
+96	6896	tabu	tabua
+97	6897	parpaila	parpailak parpailez
+98	6898	triku	trikua trikuak
+99	6899	horixka	horixkak horixken
+100	6900	nabigazio	nabigazioa nabigazioan

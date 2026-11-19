@@ -1,0 +1,100 @@
+1	6701	gandor	gandorra gandorraren
+2	6702	gramofono	gramofonoa gramofonoan
+3	6703	ogasun	ogasuna ogasunak ogasuneko ogasunetik
+4	6704	soplete	sopletea sopletearekin sopleteren
+5	6705	miso	misoa misoarekin
+6	6706	nazionalista	nazionalistak nazionalisten
+7	6707	gudaleku	gudalekua gudalekuan gudalekuaren gudalekura
+8	6708	diskriminazio	diskriminazioa diskriminazioaren
+9	6709	tetraplegiko	tetraplegikoek tetraplegikoen
+10	6710	zurtoin	zurtoina zurtoinak
+11	6711	jatun	jatuna jatunegia
+12	6712	iduneko	idunekoa idunekoak
+13	6713	jostura	josturak josturaren
+14	6714	zabalkunde	zabalkundea zabalkundearekin zabalkundearen
+15	6715	zurrundu	zurrunduta zurruntzeko zurruntzen
+16	6716	anfetamina	anfetaminak anfetaminaz anfetaminen
+17	6717	inkontziente	inkontzientea inkontzientean inkontzientearen
+18	6718	eskultore	eskultorea eskultoreak eskultoreen
+19	6719	penintsula	penintsulan penintsularen penintsulatik
+20	6720	legenardun	legenardunak legenardunaren legenardunekin legenardunen
+21	6721	immune	immunea immuneak
+22	6722	esplotazio	esplotazioa esplotazioagatik
+23	6723	herpes	herpesa herpesik
+24	6724	erredentzio	erredentzioa erredentzioaren erredentzioari erredentziorako
+25	6725	habitat	habitata habitatean
+26	6726	lantalde	lantaldea lantaldean lantaldeek lantaldekoa
+27	6727	desesperazio	desesperazioa desesperazioak desesperazioan desesperazioaren desesperazioraino
+28	6728	paralisi	paralisia paralisiak paralisiaz
+29	6729	binario	binarioa binarioak binarioan binarioekin
+30	6730	oinaztu	oinaztua oinaztuak
+31	6731	ahanztura	ahanzturan ahanzturara ahanzturaren
+32	6732	erromesaldi	erromesaldia erromesaldiak erromesaldian erromesaldiaren erromesalditik
+33	6733	abeltzain	abeltzaina abeltzainak abeltzainen
+34	6734	klandestino	klandestinoa klandestinoei klandestinoetan klandestinora klandestinoren
+35	6735	manipulazio	manipulazioa manipulazioan manipulazioaren
+36	6736	biribildu	biribilduko biribilduz biribiltzen
+37	6737	legebiltzar	legebiltzarra legebiltzarrak legebiltzarraren legebiltzarrean legebiltzarreko
+38	6738	soldatu	soldatuta soldatuz soldatzen
+39	6739	aurrerakin	aurrerakina aurrerakinik
+40	6740	ahi	ahia ahien
+41	6741	zianuro	zianuroa zianuroarekin zianurotik
+42	6742	diligentzia	diligentziako diligentzian diligentziatik diligentziaz
+43	6743	hamster	hamsterrak hamsterren hamsterrentzat
+44	6744	etxejabe	etxejabea etxejabeak etxejabearekin etxejabeari
+45	6745	obario	obarioak obarioetan obarioez obarioko obariotik
+46	6746	alfil	alfilak alfilaren alfilari alfilentzat alfilera
+47	6747	langileria	langileriak langileriaren langileriarentzat langileriarik
+48	6748	armamentu	armamentua armamentuan armamentuarekin armamentuaren
+49	6749	kronometratu	kronometra kronometratuak kronometratzen
+50	6750	teleferiko	teleferikoa teleferikoan teleferikoko teleferikorantz
+51	6751	kuria	kuriako kurian kuriara kuriaren
+52	6752	moraltasun	moraltasuna moraltasunagatik moraltasunak moraltasunari moraltasunik
+53	6753	izerditsu	izerditsua izerditsuak izerditsuetan
+54	6754	gotortu	gotortuko gotortuta gotortuz gotortze gotortzeko
+55	6755	leherkari	leherkariak leherkariek leherkarien leherkaririk leherkariz
+56	6756	ganberari	ganberaria ganberariak ganberariari ganberaritik
+57	6757	aitatxi	aitatxik aitatxiren aitatxiri
+58	6758	kongregazio	kongregazioan kongregazioaren kongregazioarentzat kongregazioari kongregaziorik
+59	6759	soropil	soropila soropilean soropiletan
+60	6760	harrobi	harrobian harrobira harrobitik
+61	6761	airelinea	airelineak airelinearen airelineen
+62	6762	instituzio	instituzioa instituzioan instituzioek instituziorik
+63	6763	kafeina	kafeinak kafeinarekin kafeinarik
+64	6764	kartzelatu	kartzelatua kartzelatuko kartzelatuta kartzelatzea
+65	6765	filial	filiala filialarekin filialeko
+66	6766	meta	metak metan metara meten
+67	6767	prebentzio	prebentzioak prebentzioari prebentziorako
+68	6768	kontsulatu	kontsulatua kontsulatuak kontsulatuan kontsulatuarekin kontsulatukoa kontsulatutik
+69	6769	kamikaze	kamikazea kamikazeak kamikazez
+70	6770	fisiologiko	fisiologikoa fisiologikoak fisiologikoetan fisiologikorik
+71	6771	naufrago	naufragoa naufragoak naufragoei
+72	6772	sinestun	sinestuna sinestunak sinestunaren sinestunei
+73	6773	administratu	administratua administratuko administratzea administratzen
+74	6774	administratibo	administratiboa administratiboaren administratiboen administratiboko administratiborik
+75	6775	atarte	atartean atarteko atartera
+76	6776	ikustaldi	ikustaldia ikustaldian ikustaldiaren
+77	6777	infragorri	infragorriak infragorriarekin infragorriaren infragorriz
+78	6778	azpil	azpila azpilak azpilean azpilen azpiletan
+79	6779	multinazional	multinazionalak multinazionalek multinazionalen multinazionalik
+80	6780	lerroburu	lerroburua lerroburuak lerroburuen lerroburuetan
+81	6781	primario	primarioa primarioak primarioen primarioena primarioetan
+82	6782	inportazio	inportazioa inportazioak inportazioko inportaziokoa inportaziorako
+83	6783	seminario	seminarioa seminarioan seminarioko seminariora seminariotan
+84	6784	fuselaje	fuselajea fuselajean fuselajearen fuselajeko
+85	6785	oilategi	oilategia oilategian oilategiaren oilategiko oilategira oilategitik
+86	6786	postetxe	postetxea postetxean postetxeko postetxera
+87	6787	lehoinabar	lehoinabarra lehoinabarrak lehoinabarraren lehoinabarren
+88	6788	bilgarri	bilgarria bilgarriak bilgarriko bilgarrirako
+89	6789	behatoki	behatokia behatokian behatokiek behatokien behatokira behatokitik
+90	6790	informatzaile	informatzailea informatzaileak informatzailearekin informatzaileen
+91	6791	lurzoru	lurzorua lurzoruarekin lurzoruaren lurzoruko lurzorutik
+92	6792	kamarote	kamarotean kamaroteko kamarotera kamaroterik kamarotetik
+93	6793	sinfoniko	sinfonikoa sinfonikoan sinfonikoarentzat sinfonikoetan sinfonikoko
+94	6794	mokor	mokorra mokorrak mokorrarekin mokorraren mokorrei mokorreko
+95	6795	geriatriko	geriatrikoak geriatrikoan geriatrikoarekin geriatrikora geriatrikotik
+96	6796	safari	safaria safariak safarian safariaren safarira
+97	6797	bosniar	bosniara bosniarekin bosniarentzat bosniarra bosniarrak bosniarrengatik
+98	6798	txip	txipak txiparekin txiparen
+99	6799	abal	abala abalak abalik
+100	6800	bujia	bujiak bujien bujietan

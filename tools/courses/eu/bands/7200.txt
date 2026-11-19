@@ -1,0 +1,100 @@
+1	7101	lehiakortasun	lehiakortasuna lehiakortasunagatik lehiakortasunari lehiakortasunik
+2	7102	hartzekodun	hartzekodunak hartzekodunekin hartzekodunen hartzekodunetatik hartzekodunetik
+3	7103	hurbiltasun	hurbiltasunagatik hurbiltasunaren hurbiltasunari hurbiltasuneko
+4	7104	biolontxelo	biolontxeloa biolontxeloak biolontxeloaz biolontxelora
+5	7105	aztertzaile	aztertzailea aztertzaileak aztertzailearengandik aztertzaileari aztertzaileek
+6	7106	upelgile	upelgilea upelgileak upelgilearentzat upelgileari
+7	7107	konstelazio	konstelazioak konstelazioan konstelazioaren konstelazioei
+8	7108	ortu	ortua ortuan ortuarekin ortutik
+9	7109	gonbito	gonbitoa gonbitoak gonbitoarekin gonbitoari gonbitoek gonbitoen
+10	7110	gezilari	gezilaria gezilariak gezilariek gezilariok
+11	7111	auditorium	auditoriuma auditoriumaren auditoriumean auditoriumeko
+12	7112	torturatzaile	torturatzailea torturatzaileak torturatzailearen torturatzaileen torturatzailetzat
+13	7113	siziliar	siziliara siziliaren siziliarra siziliarrak
+14	7114	proportzio	proportzioa proportzioak proportzioan proportziorik
+15	7115	esterilizatu	esterilizatuak esterilizatuta esterilizatzeagatik esterilizatzeko esterilizatzen
+16	7116	indigena	indigenak indigenarekin indigenaren indigenei indigenekin indigenen
+17	7117	kamio	kamioak kamioarekin kamioarengatik kamioentzat kamioetan kamioetara
+18	7118	loki	lokiak lokian lokietan lokiren
+19	7119	menda	mendarekin mendetan mendez
+20	7120	akademiako	akademiakoa
+21	7121	esprinter	esprintera esprinterra esprinterrak esprinterraren
+22	7122	horizontala	horizontalak
+23	7123	eraikitze	eraikitzea eraikitzeagatik eraikitzeak eraikitzean eraikitzearen eraikitzeari eraikitzeko eraikitzekoa eraikitzera
+24	7124	mintz	mintzak mintzari mintzeko
+25	7125	zilborra	zilborrari
+26	7126	agora	agorak agoran agoratik
+27	7127	itzartu	itzartuko itzarturik itzartzea itzartzera
+28	7128	barn	barnekoa
+29	7129	kimikari	kimikaria kimikariak kimikariek kimikarik
+30	7130	ikuskatze	ikuskatzea ikuskatzeak ikuskatzeko ikuskatzera ikuskatzerako ikuskatzerik
+31	7131	adia	adiaren adiek
+32	7132	seiko	seikoa
+33	7133	baratu	bara baratzen
+34	7134	perrexil	perrexila
+35	7135	titipunta	titipuntak
+36	7136	aniztasun	aniztasuna
+37	7137	kamelia	kameliak
+38	7138	gel	gelagatik
+39	7139	apio	apioa
+40	7140	gorringo	gorringoa
+41	7141	kontrolagailu	kontrolagailua
+42	7142	abioi	abioia
+43	7143	mentxebike	mentxebikeak mentxebikeen
+44	7144	zalantzakor	zalantzakorra
+45	7145	ozeanografo	ozeanografoak ozeanografoen
+46	7146	bektore	bektorea
+47	7147	batuketa	batuketak
+48	7148	liburuki	liburukia
+49	7149	dorpe	dorpea
+50	7150	ahuakate	ahuakatea
+51	7151	seismo	seismoak
+52	7152	sinagoga	sinagogan sinagogara
+53	7153	apatx	apatxak
+54	7154	permanente	permanentea
+55	7155	datorren	datorrenaz datorrenerako
+56	7156	galeper	galeperra
+57	7157	metraila	metrailak
+58	7158	infinitesimal	infinitesimala
+59	7159	diplomazialari	diplomazialariak
+60	7160	ilaje	ilajea
+61	7161	inpotente	inpotentea
+62	7162	proportzionaltasun	proportzionaltasuna proportzionaltasunak
+63	7163	maskulinitate	maskulinitatea
+64	7164	zabu	zabua zabuan
+65	7165	moralista	moralistak moralistarik
+66	7166	garatxo	garatxoa garatxoak
+67	7167	maitemin	maitemina maiteminak maiteminez
+68	7168	flamenko	flamenkoa flamenkoak
+69	7169	arrabol	arrabola arrabolarekin
+70	7170	urrutizkin	urrutizkina urrutizkinean
+71	7171	musiko	musikoa musikoei
+72	7172	legegizon	legegizona legegizonak legegizonek
+73	7173	arroa	
+74	7174	berariaz	
+75	7175	moralki	
+76	7176	rapsodia	
+77	7177	penitentzia	
+78	7178	unide	inude
+79	7179	psikoterapia	
+80	7180	orduka	
+81	7181	kip	
+82	7182	margolaritza	
+83	7183	mekanika	
+84	7184	zorpetu	
+85	7185	nazionalitate	nazionalitatea
+86	7186	sonata	
+87	7187	ukondokada	
+88	7188	migratu	migratzen
+89	7189	ante	
+90	7190	zutunik	
+91	7191	leialki	
+92	7192	zezin	zezina
+93	7193	esangura	
+94	7194	hamarnaka	
+95	7195	antxu	antxua
+96	7196	narratiba	
+97	7197	mekanikoki	
+98	7198	txikoria	
+99	7199	bartzelonar	bartzelonara
+100	7200	erlauntza	

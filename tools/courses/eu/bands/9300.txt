@@ -1,0 +1,100 @@
+1	9201	txintxirrin	txintxirrina txintxirrinak
+2	9202	txarteldegi	txarteldegira txarteldegirako txarteldegitik
+3	9203	bastoi	bastoia bastoiak bastoirik
+4	9204	arkeologo	arkeologoak arkeologoei arkeologoek
+5	9205	morroilo	morroiloa morroiloaz morroiloz
+6	9206	merenge	merengea merengeak
+7	9207	bulartsu	bulartsua bulartsuak bulartsuena
+8	9208	grapa	grapak graparik
+9	9209	txingurri	txingurriak txingurriengandik xinaurri
+10	9210	jeloskortasun	jeloskortasuna jeloskortasunak jeloskortasunez
+11	9211	hegazkingintza	hegazkingintzan hegazkingintzaren
+12	9212	humanista	humanistak humanistaren
+13	9213	zorne	zornea zornez
+14	9214	takigrafia	takigrafian takigrafiari
+15	9215	diskriminatu	diskriminatzeko diskriminatzen
+16	9216	antiaereo	antiaereoak antiaereoekin
+17	9217	liana	lianekin lianetan
+18	9218	ornodun	ornodunak ornodunek
+19	9219	favela	favelan favelarantz
+20	9220	harpidetu	harpidetua harpidetuta
+21	9221	legamia	legamiak legamiaren
+22	9222	estandarte	estandarteak estandarteekin
+23	9223	protoi	protoiak protoiez
+24	9224	degradazio	degradazioa degradazioaren
+25	9225	hieroglifiko	hieroglifikoa hieroglifikoen hieroglifikoetatik
+26	9226	ozpindu	ozpindua ozpinduta ozpintzen
+27	9227	solstizio	solstizioa solstizioan solstizioaren
+28	9228	transplante	transplantea transplantetan
+29	9229	kedar	kedarra kedarrak
+30	9230	depresibo	depresiboa depresiboarekin
+31	9231	argimutil	argimutila argimutilak
+32	9232	ugalkortasun	ugalkortasuna ugalkortasunak
+33	9233	alhadura	alhadurarekin alhaduraren
+34	9234	estanko	estankoan estankoaren
+35	9235	sanskrito	sanskritoa sanskritoz
+36	9236	txintxeta	txintxetak txintxetarik
+37	9237	burujabetza	burujabetzarekin burujabetzaren
+38	9238	kolonizatzaile	kolonizatzaileek kolonizatzaileen
+39	9239	bisuts	bisutsa bisutsak bisutsaren
+40	9240	murmurikatu	murmurikatzeari murmurikatzen
+41	9241	industriagune	industriaguneak industriaguneetatik
+42	9242	konfeti	konfetiak konfetiarekin
+43	9243	elektrodo	elektrodoak elektrodoekin
+44	9244	has	haseko hasera haserako
+45	9245	traumatismo	traumatismoa traumatismoz
+46	9246	kontularitza	kontularitzakoa kontularitzara
+47	9247	alpinismo	alpinismoa alpinismoaz
+48	9248	ultrakontserbadore	ultrakontserbadorea ultrakontserbadoreago
+49	9249	nenufar	nenufarez nenufarrekin
+50	9250	balakatu	balakatzea balakatzen balakatzera
+51	9251	fi	fitik fiz
+52	9252	nigeriar	nigeriara nigeriarrak nigeriarrek
+53	9253	aberkoi	aberkoia aberkoiak
+54	9254	espezifiko	espezifikoa espezifikoetan
+55	9255	abaniko	abanikoa abanikoagatik abanikoarekin
+56	9256	polen	polena polenari
+57	9257	gaualdi	gaualdia gaualdirik
+58	9258	eki	ekian ekiok
+59	9259	idealizatu	idealizatua idealizatzea
+60	9260	kontralto	kontraltoa kontraltoei
+61	9261	karikatura	karikaturak karikaturaren
+62	9262	granito	granitoa granitoko
+63	9263	adaburu	adaburuan adaburura adabururaino
+64	9264	martorri	martorria martorriarekin
+65	9265	oftalmologo	oftalmologoak oftalmologoaren
+66	9266	boliviar	boliviara boliviarrak
+67	9267	korrosio	korrosioa korrosioaz
+68	9268	sakan	sakana sakanean
+69	9269	ikusgarritasun	ikusgarritasuna ikusgarritasunaren
+70	9270	keztatu	keztatua keztatzen
+71	9271	megafono	megafonoa megafonotik
+72	9272	uzkaili	uzkailiko uzkailtzeko
+73	9273	zelta	zeltak zeltarako
+74	9274	intoxikatu	intoxikatua intoxikatzea
+75	9275	heretiko	heretikoa heretikoaren
+76	9276	arnasestu	arnasestua arnasestuak
+77	9277	islamiko	islamikoa islamikoarekin islamikoaren
+78	9278	proiektibo	proiektiboa proiektiboek proiektiboentzat
+79	9279	neurozientzia	neurozientziaren neurozientziari
+80	9280	klero	kleroa kleroaren
+81	9281	manifa	manifan manifara
+82	9282	iterazio	iterazioa iteraziora
+83	9283	alkalino	alkalinoa alkalinoak
+84	9284	kolonizazio	kolonizazioaren kolonizaziorako
+85	9285	masokismo	masokismoa masokismoaren masokismoz
+86	9286	katalizatu	kataliza katalizatuko
+87	9287	adagio	adagioa adagiok
+88	9288	inpunitate	inpunitateak inpunitaterik
+89	9289	medusa	medusak medusen
+90	9290	irendu	irendua irenduak
+91	9291	instrumental	instrumentala instrumentalak instrumentalaren
+92	9292	makinista	makinistak makinistarekin
+93	9293	bekaitz	bekaitza bekaitzez
+94	9294	oraintsuko	oraintsukoa oraintsukoak
+95	9295	biomekanika	biomekanikaren biomekanikaz
+96	9296	baketze	baketzea baketzearen baketzeko
+97	9297	disfuntzional	disfuntzionala disfuntzionalak
+98	9298	intolerante	intolerantea intoleranteen
+99	9299	aprobetxategi	aprobetxategia aprobetxategiak
+100	9300	gatzatu	gatzatua gatzatuak

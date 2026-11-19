@@ -1,0 +1,100 @@
+1	1801	edonor	
+2	1802	lesbiana	lesbianak lesbianarik lesbianei lesbianek lesbianekin lesbianen lesbianengatik lesbianentzat
+3	1803	musikari	musikaria musikariak musikariarekin musikariarentzat musikariei musikariek musikariekin musikarien musikarik musikariok musikaririk
+4	1804	damu	damua damuak damuaz damuen damurik damuz
+5	1805	zonbi	zonbia zonbiak zonbiaren zonbiei zonbiek zonbiekin zonbien zonbiez zonbiz
+6	1806	borrokalari	borrokalaria borrokalariagoak borrokalariak borrokalariaren borrokalariari borrokalariei borrokalariek borrokalarien borrokalariena borrokalarientzat borrokalaririk borrokalaritzat
+7	1807	kasko	kaskoa kaskoak kaskoan kaskoaren kaskoekin kaskoko kaskook kaskora kaskorik kaskotik
+8	1808	deskribatu	deskriba deskribaiguzu deskribatua deskribatuak deskribatuko deskribatutako deskribatuz deskribatze deskribatzea deskribatzeagatik deskribatzeari deskribatzeko deskribatzen
+9	1809	leun	leuna leunagoa leunak leunean leunegi leunegiak leunekin leuneko leunekoa leunen leunena leunenak leunetan
+10	1810	baxu	baxua baxuagatik baxuago baxuagoa baxuagoak baxuak baxuan baxuarekin baxuaren baxuegi baxuegia baxuen baxuena baxuenak baxuetan baxuko baxukoa baxurik
+11	1811	galdezka	
+12	1812	nolanahi	
+13	1813	aurren	aurrena aurreneko aurrenekoa aurrenik
+14	1814	soil	soila soilagatik soilago soilak soilarekin soilaren soilean soilera soilerako soiltzat
+15	1815	rol	rola rolak rolaren rolaz rolean rolen roletik rolik
+16	1816	ustekabe	ustekabea ustekabeak ustekabean ustekabearen ustekabeaz ustekabeen ustekabeko ustekabekoa ustekabekoak ustekaberik ustekabez
+17	1817	ikusgarri	ikusgarria ikusgarriagoa ikusgarriak ikusgarrian ikusgarriaren ikusgarriari ikusgarriegiak ikusgarriena ikusgarrienak ikusgarriko ikusgarrirako
+18	1818	abentura	abenturak abenturako abenturara abenturarekin abenturaren abenturarik abenturaz abenturen abenturetan
+19	1819	aldendu	aldenduko aldenduta aldenduz aldentze aldentzea aldentzeak aldentzean aldentzeko aldentzen
+20	1820	haurtxo	haurtxoa haurtxoagatik haurtxoak haurtxoarekin haurtxoaren haurtxoarentzat haurtxoari haurtxoek haurtxoen haurtxorik
+21	1821	punta	puntak puntako puntakoa puntan puntara puntaraino puntarekin puntaren puntari puntatan puntatik puntek puntetako puntetan puntetaraino puntetatik
+22	1822	tamalez	
+23	1823	zirraragarri	zirraragarria zirraragarriagoa zirraragarriak zirraragarriena zirraragarrienak zirraragarririk
+24	1824	abizen	abizena abizenagatik abizenak abizenarekin abizenari abizenaz abizeneko abizenik
+25	1825	betebehar	betebeharra betebeharragatik betebeharrak betebeharraren betebeharrarengatik betebeharrari betebeharraz betebeharrei betebeharrek betebeharrekin betebeharretan betebeharretatik betebeharrez betebeharrik
+26	1826	kokatu	kokatua kokatuko kokatuta kokatutako kokatuz kokatzea kokatzearekin kokatzeko kokatzen
+27	1827	koroa	koroak koroan koroarako koroarekin koroaren koroari koroarik koroekin
+28	1828	ale	alea aleak aleekin aleen alek alera aleren alerik aletan alez
+29	1829	erakargarri	erakargarria erakargarriago erakargarriagoa erakargarriagoak erakargarriak erakargarriena erakargarrienak
+30	1830	memoria	memoriak memoriako memoriakoak memorian memoriara memoriaren memoriari memoriarik memoriatik memoriaz memorietatik
+31	1831	erromantiko	erromantikoa erromantikoagoa erromantikoak erromantikoaren erromantikoek erromantikoekin erromantikoen erromantikoena erromantikoko erromantikoren
+32	1832	egoitza	egoitzak egoitzako egoitzakoa egoitzan egoitzara egoitzaraino egoitzarako egoitzarekin egoitzaren egoitzari egoitzarik egoitzatik egoitzetan egoitzetara egoitzetatik
+33	1833	jokabide	jokabidea jokabideagatik jokabideak jokabidean jokabidearen jokabideari jokabideaz jokabideek jokabideen jokabiderik
+34	1834	sofa	sofako sofan sofara sofaren sofarik sofatan sofatik
+35	1835	paradisu	paradisua paradisuak paradisuan paradisuaren paradisuari paradisuen paradisuko paradisura paradisurantz paradisurik paradisutik
+36	1836	aurten	
+37	1837	zentral	zentrala zentralak zentralarekin zentralaren zentralari zentralaz zentralean zentralekin zentraleko zentralekoa zentralekoak zentralera zentraleraino zentraletako zentraletik zentralik
+38	1838	arrats	arratsa arratsak arratsaren arratsean arratseko arratserako arratsetan arratsetarako
+39	1839	bainatu	bainatuko bainatuta bainatuz bainatzea bainatzeak bainatzeko bainatzen bainatzera
+40	1840	dibortziatu	dibortzia dibortziatua dibortziatuak dibortziatuko dibortziaturik dibortziatuta dibortziatzea dibortziatzeko dibortziatzen dibortziatzera
+41	1841	ordulari	ordularia ordulariak ordulariarekin ordulariaren ordulariari ordulariaz ordulariekin ordularien ordulariengatik ordularietako ordulariko ordularirik ordularitik
+42	1842	sorbalda	sorbaldak sorbaldan sorbaldara sorbaldarekin sorbaldaren sorbaldatik sorbaldekin sorbalden sorbaldetako sorbaldetan sorbaldetaraino sorbaldetatik
+43	1843	erreka	errekak errekako errekan errekara errekaraino errekarekin errekaren errekari errekarik errekatan errekatik errekaz erreketan errekez
+44	1844	sabel	sabela sabelak sabelarekin sabelaren sabelaz sabelean sabeleko sabelekoa sabelera sabeletik sabelik
+45	1845	liskar	liskarra liskarrak liskarraren liskarrean liskarren liskarretan liskarretik liskarrez liskarrik liskartzat
+46	1846	sindikatu	sindikatua sindikatuak sindikatuan sindikatuaren sindikatuari sindikatuei sindikatuek sindikatuekin sindikatuen sindikatuentzat sindikatuetako sindikatuko sindikatukoa sindikatukoak sindikatuok sindikaturik sindikatutako sindikatutik sindikatzeko
+47	1847	konde	kondea kondeak kondearekin kondearen kondeari kondeaz
+48	1848	atari	ataria atariak atarian atariaren atarien atarik atarira atariren ataririk ataritan ataritik
+49	1849	adore	adorea adoreagatik adoreak adorean adorearen adoreari adoreaz adorerik adorez
+50	1850	poltsiko	poltsikoa poltsikoak poltsikoan poltsikoetan poltsikoetatik poltsikoko poltsikorik poltsikotik
+51	1851	entrenatzaile	entrenatzailea entrenatzaileak entrenatzailearekin entrenatzailearen entrenatzaileari entrenatzaileei entrenatzaileek entrenatzaileetako entrenatzailerik entrenatzailez
+52	1852	trafiko	trafikoa trafikoagatik trafikoak trafikoan trafikoarekin trafikoaren trafikoarentzat trafikoari trafikoko trafikora trafikorekin trafikorik
+53	1853	tripa	tripak tripako tripan triparen tripari tripatik tripaz tripek tripetako tripetan
+54	1854	federal	federala federalak federalarekin federalaren federalaz federalean federalei federalek federaleko federalekoa federalekoak federalen federalentzat federalera federaletako federalez federalik
+55	1855	laku	lakua lakuak lakuan lakuarekin lakuaren lakuari lakuen lakuetan lakuetara lakuko lakura lakurako lakurik lakutik
+56	1856	baimendu	baimendua baimenduak baimenduko baimenduta baimendutako baimendutakoa baimenduz baimentzea baimentzeagatik baimentzeko baimentzen baimentzera
+57	1857	inon	
+58	1858	antzinako	antzinakoa antzinakoagoa antzinakoak antzinakoen antzinakoena
+59	1859	teknologia	teknologiak teknologiako teknologian teknologiarako teknologiarekin teknologiaren teknologiarengatik teknologiarik teknologien
+60	1860	traje	trajea trajeak trajean trajearekin trajearen trajeari trajeek trajeen trajeri trajerik trajez
+61	1861	agortu	agortua agortuak agortuko agortuta agortzean agortzeko agortzen
+62	1862	baliabide	baliabidea baliabideak baliabideei baliabideek baliabideekin baliabideen baliabideengatik baliabideetako baliabideetan baliabideetara baliabidera baliabiderik baliabidetzat baliabidez
+63	1863	inolaz	
+64	1864	mendebaldeko	mendebaldekoa mendebaldekoen mendebaldekook
+65	1865	bitarte	bitartea bitarteekin bitarteko bitartekoa bitartekoak bitartera bitartez
+66	1866	biloba	bilobak bilobarekin bilobaren bilobari bilobaz bilobei bilobek bilobentzat bilobok
+67	1867	eredu	eredua ereduak ereduan ereduarekin ereduaren ereduari ereduen ereduetako eredura eredurik eredutzat
+68	1868	eskularru	eskularrua eskularruak eskularruan eskularruaren eskularruek eskularruekin eskularruetan eskularrura eskularrurik
+69	1869	orokor	orokorra orokorrago orokorrak orokorraren orokorrari orokorraz orokorrean orokorregiak orokorrei orokorreko orokorrekoa orokorren orokorrera orokorrerako orokorretan orokorretik orokorrik
+70	1870	antzerki	antzerkia antzerkiak antzerkian antzerkiaren antzerkiaz antzerkien antzerkietara antzerkiko antzerkikoa antzerkira antzerkirako antzerkirik
+71	1871	neba	nebak nebarekin nebaren nebari nebarik nebaz
+72	1872	gerriko	gerrikoa gerrikoak gerrikoan gerrikoarekin gerrikoaren gerrikorik
+73	1873	ageri	ageria ageriago agerikoa agerikoak agerira
+74	1874	ron	rona ronarekin ronean ronek ronekin ronen ronez
+75	1875	distira	distirak distiran distiraren distirari distirarik distiratik distiraz
+76	1876	panpina	panpinak panpinarekin panpinaren panpinarengatik panpinari panpinarik panpinatzat panpinek panpinekin panpinen panpinentzat panpinetan
+77	1877	ostegun	osteguna ostegunak ostegunean osteguneko ostegunera ostegunerako ostegunetan ostegunez
+78	1878	sortzaile	sortzailea sortzaileak sortzailearen sortzaileari sortzaileegia sortzaileei sortzaileek sortzaileen sortzaileena sortzaileentzat sortzaileko
+79	1879	xahutu	xahutua xahutuko xahututa xahututako xahutuz xahutze xahutzea xahutzeak xahutzeko xahutzen xahutzerik
+80	1880	aintzira	aintzirak aintzirako aintziran aintzirara aintzirarako aintzirarantz aintziraren aintziratik aintzirekin aintziretako aintziretan aintziretara aintziretatik
+81	1881	bizidun	biziduna bizidunago bizidunak bizidunaren bizidunaz bizidunei bizidunek bizidunekin bizidunen bizidunena bizidunetan bizidunez bizidunik
+82	1882	ilunpe	ilunpea ilunpeak ilunpean ilunpearen ilunpeari ilunpeei ilunpeen ilunpeetako ilunpeetan ilunpeko ilunpera ilunperantz ilunperik ilunpetako ilunpetan ilunpetara ilunpetatik
+83	1883	konektatu	konekta konektatua konektatuko konektaturik konektatuta konektatuz konektatzea konektatzean konektatzeko konektatzen konektatzera
+84	1884	libra	librak librako librakoa libraren librari libratan librek libretan
+85	1885	hautagai	hautagaia hautagaiak hautagaiarekin hautagaiaren hautagaiari hautagaiei hautagaiek hautagaiekin hautagaien hautagaientzat hautagaietako hautagaiok hautagairik
+86	1886	pozoi	pozoia pozoiagatik pozoiak pozoian pozoiaren pozoiari pozoiaz
+87	1887	sukaldari	sukaldaria sukaldariagatik sukaldariak sukaldariarekin sukaldariaren sukaldariari sukaldariei sukaldariek sukaldarien sukaldarirentzat sukaldaririk
+88	1888	harago	
+89	1889	lehenbailehen	
+90	1890	mingarri	mingarria mingarriagoa mingarriagoak mingarriak mingarrian mingarriegia mingarriekin mingarrien mingarriena mingarririk
+91	1891	duda	dudak dudaren dudarik
+92	1892	pertsonaia	pertsonaiak pertsonaian pertsonaiarekin pertsonaiaren pertsonaiari pertsonaiaz pertsonaiei pertsonaiek pertsonaien pertsonaietako
+93	1893	egarri	egarria egarriak egarririk egarriz
+94	1894	hauts	hautsa hautsak hautsarekin hautsaren hautsari hautsaz hautsean hautsen hautsera hautsetan hautsetatik hautsetik hautsez hautsik
+95	1895	ostatu	ostatua ostatuak ostatuan ostatuaren ostatuetan ostatuko ostatura ostaturen ostaturik ostatutik ostatuz
+96	1896	basamortu	basamortua basamortuak basamortuan basamortuaren basamortuetara basamortuetatik basamortuko basamortukoa basamortura basamortutik
+97	1897	hedatu	heda hedatua hedatuak hedatuko hedatuta hedatzea hedatzeak hedatzean hedatzeko hedatzen hedatzerik
+98	1898	bermatu	berma bermatua bermatuko bermatuta bermatutako bermatzea bermatzeko bermatzen
+99	1899	opera	operak operako operakoa operan operara operarako operarekin operari operarik operaz operekin
+100	1900	misteriotsu	misteriotsua misteriotsuago misteriotsuak misteriotsuan misteriotsuaren misteriotsuari misteriotsuaz misteriotsuekin misteriotsuen misteriotsuena misteriotsutan

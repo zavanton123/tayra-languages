@@ -1,0 +1,100 @@
+1	3501	boa	book
+2	3502	erreferentzia	erreferentziak erreferentziaren erreferentziarik erreferentziek
+3	3503	ekoitzi	ekoitziko ekoitzitakoa ekoiztea ekoizteko ekoizten ekoiztera
+4	3504	patroi	patroia patroiak patroiari
+5	3505	aterki	aterkia aterkiak aterkiarekin aterkiaren aterkiekin aterkien aterkirik
+6	3506	limoi	limoia limoiak limoiarekin limoirik limoiz
+7	3507	ahoskatu	ahoska ahoskatua ahoskatuko ahoskatze ahoskatzea ahoskatzeko ahoskatzen
+8	3508	saritu	saritua sarituak sarituko saritutako saritzeko saritzen
+9	3509	argaldu	argaldua argalduko argaltzeak argaltzean argaltzeko argaltzen argaltzera
+10	3510	erein	ereindako ereingo ereitea ereiteko ereiten ereitera
+11	3511	gurtu	gurtua gurtzea gurtzeak gurtzeari gurtzeko gurtzen gurtzera
+12	3512	enperadore	enperadoreak enperadorearekin enperadorearen enperadorearentzat enperadoreari enperadoretik
+13	3513	kirurgia	kirurgiak kirurgian kirurgiarekin kirurgiaren kirurgiarik kirurgiaz kirurgien kirurgietan
+14	3514	litro	litroak litroetan litroko litrotan
+15	3515	masa	masak masako masan masaren masei
+16	3516	bezpera	bezperak bezperako bezperan bezperetan
+17	3517	sarraila	sarrailak sarrailako sarrailan sarrailaren sarrailarengatik sarrailarik sarrailekin
+18	3518	mika	mikak mikarekin mikaren mikek mikekin mikentzat
+19	3519	azpimarratu	azpimarra azpimarratua azpimarratuko azpimarratuta azpimarratutako azpimarratutakoa azpimarratzea azpimarratzeko azpimarratzen
+20	3520	erakustaldi	erakustaldia erakustaldiagatik erakustaldiak erakustaldiaren erakustaldira erakustaldirako erakustaldirik
+21	3521	ongizate	ongizatea ongizateagatik ongizatearekin ongizatearen ongizateaz ongizateko ongizaterako ongizaterik
+22	3522	ahultasun	ahultasuna ahultasunak ahultasunekin ahultasunetan ahultasunez
+23	3523	hornitzaile	hornitzailea hornitzaileak hornitzailearekin hornitzailearen hornitzaileari hornitzaileek hornitzailerik
+24	3524	mikro	mikroa mikroak mikroan mikroaren mikroaz mikrora mikroren
+25	3525	inprobisatu	inprobisa inprobisatua inprobisatuak inprobisatuko inprobisaturik inprobisatuta inprobisatutako inprobisatzea inprobisatzeko inprobisatzen
+26	3526	ezkutaleku	ezkutalekua ezkutalekuak ezkutalekuan ezkutalekuekin ezkutalekura ezkutalekuren ezkutalekurik ezkutalekutik
+27	3527	oskol	oskola oskolak oskolaren oskolari oskolean oskoleko oskoleraino oskolez
+28	3528	rodeo	rodeoa rodeoak rodeoan rodeoaren rodeoen rodeoetako rodeoetan rodeoetara rodeoko rodeorako rodeotan
+29	3529	mula	mulan mularekin
+30	3530	bedeinkapen	bedeinkapena bedeinkapenak bedeinkapenarekin bedeinkapenaren bedeinkapenari
+31	3531	arakatz	arakatzean arakatzeko arakatzen arakatzera
+32	3532	kuttun	kuttuna kuttunak kuttunena
+33	3533	linterna	linternak linternako linternarekin linternaren linternarik linternen
+34	3534	koordenatu	koordenatua koordenatuak
+35	3535	tiradera	tiraderan tiraderatik tiraderaz tiraderen tiraderetan
+36	3536	kalibre	kalibrea kalibreko kalibrekoa
+37	3537	egoskor	egoskorra egoskorragoa egoskorrak egoskorregia egoskorrez
+38	3538	zeken	zekena zekenak zekenaz
+39	3539	finko	finkoa finkoak finkoan finkoekin finkora finkorik
+40	3540	eztul	eztula eztulak eztularen eztularengatik eztulean eztulerako eztulik
+41	3541	kategoria	kategoriak kategoriako kategoriakoa kategorian kategoriara kategoriatan kategoriatik kategorien
+42	3542	uso	usoa usoak usoek usoekin usoen usoko usorekin usoren
+43	3543	konstituzio	konstituzioa konstituzioagatik konstituzioak konstituzioan konstituzioaren
+44	3544	trebatu	trebatua trebatuak trebatuko trebatutako trebatutakoa trebatzea trebatzen
+45	3545	tik	
+46	3546	mesias	mesiasa mesiasen
+47	3547	asaldatu	asaldatuko asaldaturik asaldatuta asaldatzea asaldatzen
+48	3548	adingabe	adingabea adingabeak adingabearen adingabeei adingabeekin adingabeen adingabeentzat adingabeko adingabekoa
+49	3549	sutsua	sutsuak sutsuan sutsuarentzat sutsuari sutsuaz
+50	3550	irauli	iraulia iraulirik irauliz iraultzea iraultzeko iraultzen
+51	3551	kapsula	kapsulako kapsulan kapsulara kapsularako kapsularekin kapsularen kapsulari kapsulatik kapsulek kapsuletan kapsuletara
+52	3552	konputagailu	konputagailua konputagailuagatik konputagailuak konputagailuan konputagailuarekin konputagailuaren konputagailuari konputagailuaz konputagailuen konputagailurik
+53	3553	poloniar	poloniarra poloniarrak poloniarrari poloniarrek poloniarrekin poloniarrekoak poloniarren poloniarrentzat poloniarretatik
+54	3554	elikadura	elikadurak elikadurakoa elikaduran elikadurarako elikaduraren
+55	3555	espainol	espainola espainolak espainolaz espainolek espainolen espainolera espainolez
+56	3556	jarraipen	jarraipena jarraipenarekin jarraipenaren jarraipenean jarraipenez jarraipenik
+57	3557	demokrata	demokratak demokratan demokrataren demokratek demokraten demokratentzat demokratok
+58	3558	titiburu	titiburua titiburuak titiburuan titiburuen titiburuentzat titiburuetan titibururik titiburutik
+59	3559	pentsio	pentsioa pentsioak pentsioarekin pentsioaren pentsioen pentsioko
+60	3560	aurrealde	aurrealdea aurrealdeak aurrealdean aurrealdeari aurrealdeko aurrealdera aurrealderaino aurrealdetik
+61	3561	teknikari	teknikaria teknikariak teknikariarekin teknikariari teknikariei teknikariek teknikariekin teknikarien teknikarientzat
+62	3562	bahitzaile	bahitzailea bahitzaileak bahitzailearekin bahitzailearen bahitzaileari bahitzaileaz bahitzaileei bahitzaileek bahitzaileekin bahitzaileetako
+63	3563	oka	okarik okei
+64	3564	propaganda	propagandak propagandako propagandarako propagandaren propagandarik
+65	3565	psi	psiak psiko psikoa psiren psitik
+66	3566	iazko	iazkoa iazkoak iazkoarekin
+67	3567	eskolta	eskoltak eskoltako eskoltarekin eskoltaren eskoltarik
+68	3568	irin	irina irinarekin irinaren irinari
+69	3569	erreserbatu	erreserbatua erreserbatuak erreserbatuko erreserbatuta erreserbatzea erreserbatzen
+70	3570	labezomorro	labezomorroa labezomorroak labezomorroei labezomorroekin labezomorroen
+71	3571	orlegi	orlegia orlegiak orlegiaren orlegiari orlegien orlegietan orlegirako orlegirantz orlegitik
+72	3572	angelu	angelua angeluak angeluan angeluari angeluko angelurik
+73	3573	mirakulu	mirakulua mirakuluak mirakuluen mirakuluengatik mirakuluetan mirakuluz
+74	3574	idi	idia idiak idiaren idiari idiei idiek idik idirik
+75	3575	borrero	borreroa borreroak borreroaren borreroarengana borreroek borrerok borrerorik
+76	3576	malda	maldako maldan maldaren maldatik maldetara
+77	3577	zelda	zeldak zeldan zeldara zeldarik zeldatik zeldetan zeldetara
+78	3578	bainujantzi	bainujantzia bainujantziak bainujantzian bainujantziarekin bainujantzien bainujantzietan bainujantzirik
+79	3579	konplize	konplizea konplizeak konplizearekin konplizeaz konplizeek
+80	3580	mami	mamia mamiak mamian mamira mamirik mamitan
+81	3581	estreinaldi	estreinaldia estreinaldiak estreinaldian estreinaldiaren estreinaldiari estreinaldiko estreinaldira estreinaldirako
+82	3582	lapiko	lapikoa lapikoak lapikoan lapikoarekin lapikoekin lapikora lapikorik
+83	3583	finantzatu	finantzatua finantzatuko finantzatuz finantzatzea finantzatzeagatik finantzatzean finantzatzeko finantzatzen finantzatzera
+84	3584	etzi	
+85	3585	edota	
+86	3586	aio	
+87	3587	urde	urdea urdeak
+88	3588	ataka	atakako atakan atakatik
+89	3589	gogotsu	gogotsua gogotsuagoa
+90	3590	epo	eporako eporen epori eporik
+91	3591	konposatu	konposatua konposatuko konposatutako konposatzea konposatzen
+92	3592	definizio	definizioa definizioaren definizioen definiziorik definizioz
+93	3593	disfrutatu	disfrutatuko disfrutatzeko disfrutatzen
+94	3594	bolante	bolantea bolanteak bolantean bolantearen bolanteari
+95	3595	kanpatu	kanpa kanpatuko kanpaturik kanpatuta kanpatzeko kanpatzen kanpatzera
+96	3596	adiskidetu	adiskidetuko adiskidetuta adiskidetzea adiskidetzean adiskidetzearen adiskidetzeko adiskidetzen
+97	3597	espezialista	espezialistara espezialistarekin espezialistaren espezialistek espezialistekin espezialisten
+98	3598	sekuentzia	sekuentziak sekuentziako sekuentziarekin sekuentziaren sekuentziatik sekuentzien
+99	3599	musikal	musikala musikalak musikalaren musikalaz musikalean musikalek musikaleko musikalerako musikalik
+100	3600	desfile	desfilea desfileagatik desfileak desfilean desfilearen desfileari desfileaz desfileetako desfileko desfilerako desfileren

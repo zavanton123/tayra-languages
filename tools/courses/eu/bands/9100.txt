@@ -1,0 +1,100 @@
+1	9001	penetrazio	penetrazioa
+2	9002	irrits	irritsa irritsari
+3	9003	kriptografia	kriptografiari
+4	9004	kosmologo	kosmologoa kosmologoek
+5	9005	deserosotasun	deserosotasuna deserosotasunengatik
+6	9006	konbultsio	konbultsioak
+7	9007	ekuatore	ekuatorean
+8	9008	zintzilikario	zintzilikarioa
+9	9009	abiaburu	abiaburuak
+10	9010	antiseptiko	antiseptikoak
+11	9011	copyright	copyrighta
+12	9012	aeroespazial	aeroespaziala aeroespazialean
+13	9013	jogailu	jogailua
+14	9014	txateatu	txateatzen
+15	9015	agresibitate	agresibitatea agresibitaterik
+16	9016	txarrama	txerrama zerrama
+17	9017	naftalina	naftalinan
+18	9018	paria	pariak
+19	9019	fidakor	fidakorra fidakorrak
+20	9020	elbarritasun	elbarritasuna
+21	9021	erreibindikazio	erreibindikazioak
+22	9022	sarketa	sarketarako
+23	9023	azalgorri	azalgorriak
+24	9024	berdegune	berdegunea berdeguneen
+25	9025	anakonda	anakondaren
+26	9026	derbi	derbia derbian
+27	9027	afrikaner	afrikanerrek afrikanerrez
+28	9028	asegurudun	aseguruduna asegurudunak
+29	9029	hortzeria	hortzeriaren
+30	9030	sinposio	sinposioan
+31	9031	erretore	erretorea
+32	9032	almena	almenetara
+33	9033	henna	hennaz
+34	9034	bronkitis	bronkitisa
+35	9035	gerruntze	gerruntzea
+36	9036	idolatra	idolatrak idolatrek
+37	9037	sismologo	sismologoa sismologoek
+38	9038	ondeste	ondestean ondestetik
+39	9039	hozgarri	hozgarria
+40	9040	milandar	milandarrak milandarren
+41	9041	edema	edeman
+42	9042	muselina	muselinarekin
+43	9043	kirtenkeria	kirtenkeriak
+44	9044	artillari	artillaria artillariekin
+45	9045	esperanto	esperantorik
+46	9046	sedazio	sedazioa
+47	9047	kargaontzi	kargaontzia
+48	9048	hutsezin	hutsezina hutsezinak
+49	9049	lexiko	lexikoa
+50	9050	lauhazka	lauhazkan
+51	9051	termonuklear	termonuklearrak
+52	9052	martirizatu	martirizatzen
+53	9053	kadmio	kadmioa
+54	9054	engaiatu	engaiatutako engaiatzen
+55	9055	proxenetismo	proxenetismoa
+56	9056	ezkonarreba	ezkonarrebak
+57	9057	bilgailu	bilgailua
+58	9058	finitu	finitua finituak
+59	9059	iskilu	iskiluak iskiluaren
+60	9060	kokotx	kokotxa kokotxean
+61	9061	kausitu	kausitzen
+62	9062	deskalifikatu	deskalifikatuak
+63	9063	dramatismo	dramatismoaz
+64	9064	abagune	abagunea
+65	9065	birigarro	birigarroa
+66	9066	papagaitxo	papagaitxoak
+67	9067	kaxmir	kaxmirreko
+68	9068	xahu	xahua
+69	9069	almendra	almendrak
+70	9070	enbargo	enbargoa enbargorik
+71	9071	nasai	nasaien
+72	9072	konfidentzia	konfidentziek
+73	9073	hegats	hegatsari hegatsean
+74	9074	ikarati	ikaratiaren
+75	9075	atrofia	atrofiaren
+76	9076	konbentzional	konbentzionala konbentzionalaren
+77	9077	alokatzaile	alokatzailea alokatzailearekin
+78	9078	operatzaile	operatzailea operatzaileak
+79	9079	adiguri	adiguria
+80	9080	karaktere	karakteretan
+81	9081	funtzionalitate	funtzionalitatea
+82	9082	bikario	bikarioa
+83	9083	antikristo	antikristoaren
+84	9084	ohaide	ohaidea ohaideen
+85	9085	isotopo	isotopoak
+86	9086	nafarreri	nafarreria nafarreriaren
+87	9087	autodeterminazio	autodeterminazioa autodeterminazioagatik
+88	9088	prusiar	prusiarra prusiarrek
+89	9089	kirolzale	kirolzalea kirolzaleok
+90	9090	goranzko	goranzkoan
+91	9091	desgaitu	desgai
+92	9092	eresi	eresia
+93	9093	fusilamendu	fusilamenduak
+94	9094	belaontzi	belaontzia belaontziak
+95	9095	teknizismo	teknizismoekin
+96	9096	izozkitegi	izozkitegian izozkitegirik
+97	9097	intsonorizatu	intsonorizatua intsonorizatuta
+98	9098	hantuste	hantustea
+99	9099	aberriratu	aberriratzen
+100	9100	kataplasma	kataplasmak

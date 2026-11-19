@@ -1,0 +1,100 @@
+1	5301	tifoi	tifoia tifoiak tifoiaren tifoiaz tifoitik
+2	5302	ezintasun	ezintasuna ezintasunak ezintasunaren ezintasunaz ezintasunez
+3	5303	zirriborratu	zirriborratzeko zirriborratzen
+4	5304	hilezkortasun	hilezkortasuna hilezkortasunaren hilezkortasunari hilezkortasunik
+5	5305	lozio	lozioa lozioak lozioarengatik loziorik
+6	5306	lainotu	lainotua lainotuko lainotuta lainotzeko lainotzen
+7	5307	errepertorio	errepertorioa errepertorioko errepertoriorako
+8	5308	zuhurtzia	zuhurtziak zuhurtziara zuhurtziarik zuhurtziaz
+9	5309	dirulaguntza	dirulaguntzak dirulaguntzarik dirulaguntzaz dirulaguntzen
+10	5310	estraditatu	estradita estraditatzea estraditatzeaz estraditatzeko estraditatzen
+11	5311	berrantolatu	berrantolatuko berrantolatuta berrantolatzean berrantolatzeko berrantolatzen
+12	5312	migrazio	migrazioa migrazioak migrazioaz migraziotik
+13	5313	kutsagarri	kutsagarria kutsagarriak kutsagarrien
+14	5314	kanguru	kangurua kanguruak kanguruari
+15	5315	ehundu	ehunduta ehuntzeaz ehuntzen
+16	5316	ezkontide	ezkontidea ezkontideak ezkontidearekin ezkontideari ezkontideen
+17	5317	nitrogeno	nitrogenoa nitrogenoak nitrogenoarekin
+18	5318	neutral	neutrala neutralagoa neutralak neutraletan
+19	5319	salneurri	salneurria salneurriak salneurriaren
+20	5320	oinezko	oinezkoak oinezkoen oinezkoengandik oinezkorik
+21	5321	isolamendu	isolamendua isolamenduan isolamenduaz isolamendura
+22	5322	jabal	jabalak jabalek jabaleko jabalen
+23	5323	apaindegi	apaindegia apaindegian apaindegietara apaindegira
+24	5324	korrikalari	korrikalaria korrikalariak korrikalariei
+25	5325	tranpati	tranpatia tranpatiak tranpatiei tranpatiren
+26	5326	misiolari	misiolaria misiolariak misiolariek
+27	5327	frustrazio	frustrazioa frustrazioak frustraziorik
+28	5328	hindu	hindua hinduak hinduek
+29	5329	marmoka	marmokak marmokaz marmokek marmoken
+30	5330	motots	mototsa mototsak mototsarekin mototsei mototsetan
+31	5331	litera	literak literan literara literatik literetara
+32	5332	doitu	doitua doitze doitzeak doitzeko doitzerik
+33	5333	feromona	feromonak feromonek feromonen
+34	5334	erregular	erregularra erregularragatik erregularragoa erregularrak erregularrean erregularretan
+35	5335	argitaletxe	argitaletxea argitaletxeak argitaletxean argitaletxeek argitaletxeen argitaletxeetan argitaletxera argitaletxetik
+36	5336	futbolari	futbolaria futbolariak futbolariek futbolarien
+37	5337	protestatu	protestatuko protestatzea protestatzeko protestatzen protestatzera
+38	5338	negutegi	negutegia negutegiak negutegian negutegietan negutegiko negutegira
+39	5339	katagorri	katagorria katagorriak katagorriek katagorrien
+40	5340	ezpal	ezpala ezpalak ezpalekoa ezpalekoak
+41	5341	itzulinguru	itzulingurua itzulinguruak itzulinguruko
+42	5342	mihise	mihisea mihiseak mihisean mihisetan
+43	5343	erakusleiho	erakusleihoa erakusleihoan erakusleihoari erakusleihoko erakusleihora erakusleihotik
+44	5344	ontzidi	ontzidia ontzidiak ontzidian ontzidiaren ontzidiko
+45	5345	autoestimu	autoestimua autoestimuak autoestimuari autoestimurako autoestimurik
+46	5346	hibernazio	hibernazioa hibernazioan hibernazioaren hibernaziora hibernaziotik
+47	5347	neurrigabe	neurrigabea neurrigabeagatik neurrigabeak neurrigabean neurrigabeko
+48	5348	entxufe	entxufea entxufeak entxufeei entxufeetan entxuferik entxufetik
+49	5349	kanposantu	kanposantua kanposantuak kanposantuan kanposantuetan kanposantura kanposanturaino
+50	5350	ipurmasail	ipurmasaila ipurmasailak ipurmasailaren ipurmasailean ipurmasailetan
+51	5351	ontza	ontzak ontzatan ontzen
+52	5352	as	asa asarekin aseko
+53	5353	altura	alturak alturako alturakoa alturan alturara alturarekin
+54	5354	karpa	karpak karpakoak karparen karpetan karpetara
+55	5355	zazpiko	zazpikoa zazpikoei zazpikoen zazpikora zazpikorekin
+56	5356	antisemita	
+57	5357	zurrutean	
+58	5358	panorama	
+59	5359	hamarretan	
+60	5360	antzina	
+61	5361	hirurehun	
+62	5362	ornitologo	ornitologoa
+63	5363	hika	hikaz
+64	5364	txatarra	txatarrak
+65	5365	dinamika	dinamikarekin
+66	5366	berdel	berdela
+67	5367	plutonio	plutonioa plutonioaren
+68	5368	ongarri	ongarria ongarrietan
+69	5369	dekoratzaile	dekoratzailea dekoratzaileari
+70	5370	ogro	ogroa ogrok
+71	5371	higuin	higuina higuinez
+72	5372	ezegonkor	ezegonkorra ezegonkorrak ezegonkorregia
+73	5373	alternatiba	alternatibak alternatibarik
+74	5374	despedida	despedidako despedidan despedidaz
+75	5375	kana	kanarekin kanek kanen kanok
+76	5376	loto	lotoa lotoak
+77	5377	epiko	epikoa epikoan epikoek
+78	5378	siku	sikua sikuagoa sikuak
+79	5379	brasildar	brasildarra brasildarrei brasildarrek brasildarrez
+80	5380	maionesa	maionesak maionesarekin maionesarik
+81	5381	gantz	gantza gantzak
+82	5382	saiheski	saiheskia saiheskiak
+83	5383	minimo	minimoa minimoan minimoekin minimora
+84	5384	limurtzaile	limurtzailea limurtzaileak limurtzailez
+85	5385	mediterraneo	mediterraneoa mediterraneoan mediterraneoko
+86	5386	lanegun	laneguna lanegunarengatik lanegunaz lanegunean
+87	5387	egonezin	egonezina egonezinik
+88	5388	osasungarri	osasungarria osasungarriena
+89	5389	holograma	hologramak
+90	5390	txakal	txakalak txakalengatik
+91	5391	adrenalina	adrenalinak adrenalinaz
+92	5392	olo	oloa olorik
+93	5393	eskuadra	eskuadrak eskuadrarik
+94	5394	sardexka	sardexkaz
+95	5395	bankarrot	bankarrota bankarrotagatik bankarrotak
+96	5396	kanoa	kanoak kanoako kanoatan
+97	5397	zirkin	zirkinik
+98	5398	suntsiezin	suntsiezina suntsiezinak
+99	5399	bufanda	bufandak bufandarekin bufandarik
+100	5400	narras	narrasa narrasena

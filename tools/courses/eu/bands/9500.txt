@@ -1,0 +1,100 @@
+1	9401	karrozeria	
+2	9402	iodo	
+3	9403	heriozko	
+4	9404	malba	
+5	9405	korrespondentzia	
+6	9406	pianola	
+7	9407	baltsamo	baltsamoa
+8	9408	pasealeku	pasealekuan
+9	9409	bizargin	
+10	9410	krokis	
+11	9411	alfabetatze	
+12	9412	emasabel	emasabela
+13	9413	sintetizadore	
+14	9414	pilotari	
+15	9415	girlanda	
+16	9416	goiaingeru	goiaingerua
+17	9417	brikolaje	
+18	9418	jori	joria
+19	9419	hogeigarren	
+20	9420	belaunetako	
+21	9421	hamaseigarren	
+22	9422	dema	
+23	9423	biola	
+24	9424	moldiztegi	moldiztegia
+25	9425	nazionalizatu	
+26	9426	jaiotegun	jaioteguna
+27	9427	adeitsuki	
+28	9428	itsasgizon	itsasgizona
+29	9429	zahagi	zahagia
+30	9430	kros	
+31	9431	espermizida	
+32	9432	estrogeno	estrogenoak
+33	9433	benaz	
+34	9434	samariar	
+35	9435	xakelari	
+36	9436	telefonatu	telefona
+37	9437	izarpean	
+38	9438	irarri	
+39	9439	zapaburu	
+40	9440	goibeltasun	goibeltasuna
+41	9441	kaleidoskopio	
+42	9442	mozal	mozala
+43	9443	demokratikoki	
+44	9444	zifratze	
+45	9445	kokoriko	
+46	9446	baxera	
+47	9447	umel	
+48	9448	balaztatu	
+49	9449	teila	
+50	9450	irriz	
+51	9451	kaskatu	kaskatuta
+52	9452	irakurraldi	
+53	9453	lupia	
+54	9454	watt	
+55	9455	detekzio	detekzioa
+56	9456	silex	
+57	9457	amina	
+58	9458	zortzidun	
+59	9459	hankaluze	
+60	9460	likidezia	
+61	9461	mulato	mulatoak
+62	9462	trafikari	trafikaria
+63	9463	abstinentzia	
+64	9464	akigarri	akigarria
+65	9465	mimosa	
+66	9466	sutegi	sutegian
+67	9467	hiruna	
+68	9468	hertu	her
+69	9469	trazu	
+70	9470	forint	
+71	9471	ziho	zihoen
+72	9472	bideoklip	
+73	9473	goragale	
+74	9474	disenteria	
+75	9475	absoluzio	absoluzioa
+76	9476	historikoki	
+77	9477	kenyar	kenyara
+78	9478	bereki	berekiko
+79	9479	klorhidriko	klorhidrikoa
+80	9480	heresia	
+81	9481	teologia	
+82	9482	vibrio	
+83	9483	matematikoki	
+84	9484	zortziehun	
+85	9485	meteorologia	
+86	9486	prismatikoak	
+87	9487	mezularitza	
+88	9488	aberrazio	
+89	9489	gaziki	
+90	9490	biometriko	biometrikoak
+91	9491	laneratu	laneratzeko
+92	9492	ska	
+93	9493	opereta	
+94	9494	parrokiako	
+95	9495	ultrasoinu	ultrasoinuen
+96	9496	gangrena	
+97	9497	munta	
+98	9498	gorbatadun	
+99	9499	mandala	
+100	9500	mut	

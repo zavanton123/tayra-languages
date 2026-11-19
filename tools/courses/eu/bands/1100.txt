@@ -1,0 +1,100 @@
+1	1001	zenbait	zenbaitena
+2	1002	dotore	dotorea dotoreago dotoreagoa dotoreak dotorean dotorearekin dotoreegi dotoreek dotoreekin dotoreen dotoreena dotoreenak dotoreetan dotoreko dotorerik dotorez
+3	1003	erokeria	erokeriak erokerian erokeriara erokeriaren erokeriarik erokeriek erokerietan
+4	1004	jai	jaia jaiak jaian jaiaren jaiari jaiaz jaiekin jaiengatik jaietan jaietara jaietarako jaik jaiko jaikoa jaikoak jaiotako jaira jairako jairik
+5	1005	tranpa	tranpak tranpan tranpara tranparekin tranparen tranpari tranparik tranpaz tranpekin tranpen tranpetan tranpetatik tranpez
+6	1006	marka	markak markako markakoa markakoak markan markara markaraino markarekin markaren markari markarik markatik markatzat markek markekin marken markengatik markotako
+7	1007	are	area arean arearen areaz areko
+8	1008	urre	urrea urreagatik urreak urrean urrearekin urrearen urreari urrera urrerekin urrerik urretan urrez
+9	1009	taxi	taxia taxiagatik taxiak taxian taxiarekin taxiaren taxiari taxiaz taxiek taxien taxiengatik taxietan taxiko taxikoa taxira taxirako taxirik taxitan taxitik taxiz
+10	1010	ezabatu	ezaba ezabatua ezabatuak ezabatuko ezabaturik ezabatuta ezabatutako ezabatuz ezabatze ezabatzea ezabatzeak ezabatzearekin ezabatzeko ezabatzen ezabatzera
+11	1011	alkate	alkatea alkateak alkatearekin alkatearen alkatearengana alkatearentzat alkateari alkateaz
+12	1012	artista	artistak artistaren artistarentzat artistari artistatzat artistei artistek artistekin artisten artistentzat artistez artistok
+13	1013	irudikatu	irudika irudikatua irudikatuak irudikatuko irudikatuta irudikatutako irudikatuz irudikatze irudikatzea irudikatzeak irudikatzean irudikatzearekin irudikatzeko irudikatzen irudikatzera
+14	1014	lapurreta	lapurretak lapurretako lapurretan lapurretara lapurretarako lapurretarekin lapurretaren lapurretarik lapurretatik lapurretaz lapurreten lapurretetan lapurretetarako
+15	1015	maitagarri	maitagarria maitagarriagoak maitagarriak maitagarrian maitagarriarekin maitagarriari maitagarriek maitagarriekin maitagarrien maitagarriena maitagarrienak maitagarrientzat maitagarrietako maitagarrietan maitagarriren maitagarririk maitagarriz
+16	1016	opor	oporrak oporrei oporrekin oporren oporretako oporretan oporretara oporretatik oporrez oporrik
+17	1017	helbide	helbidea helbideak helbidean helbidearekin helbidearen helbideaz helbideekin helbideen helbidera helbideren helbiderik helbidetan
+18	1018	ipar	iparra iparrak iparraren iparrean iparreko iparrekoa iparrekoak iparrera iparrerantz iparretik
+19	1019	martxa	martxan martxarako martxarekin martxaren martxari
+20	1020	sinestezin	sinestezina sinestezinak sinestezinean sinestezineko sinestezinena
+21	1021	lehengo	lehengoa lehengoagatik lehengoak lehengoan lehengoarekin lehengoaren lehengoarengatik lehengoek lehengora lehengoren lehengoz
+22	1022	zakur	zakura zakurra zakurrak zakurrarekin zakurraren zakurrari zakurrei zakurrek zakurrekin zakurren zakurrengatik zakurretan zakurretara zakurrez zakurrik
+23	1023	babo	baboa baboak baboarekin baboari baboek baboen baboenak baborik
+24	1024	traba	trabak traban trabaren trabarik trabatik trabengatik
+25	1025	printzesa	printzesak printzesarekin printzesaren printzesarentzat printzesari printzesatzat printzesaz printzesei printzesek printzesekin printzesen
+26	1026	irudi	irudia irudiak irudian irudiarekin irudiaren irudiarengatik irudiarentzat irudiari irudiaz irudiei irudiek irudiekin irudien irudietako irudietan irudietarako irudietatik irudiko irudikoa irudiok irudiotan irudiotatik irudira irudirekin irudiren irudirik iruditan irudiz
+27	1027	konfiantza	konfiantzak konfiantzako konfiantzan konfiantzaren konfiantzari konfiantzarik konfiantzaz
+28	1028	ukatu	uka ukatua ukatuak ukatuko ukatuta ukatuz ukatze ukatzea ukatzeak ukatzean ukatzearen ukatzeari ukatzeko ukatzen ukatzera ukatzerik
+29	1029	gaixorik	
+30	1030	urtebete	urtebetea urtebetean urtebeteko urtebetekoa urtebetera urtebeterako urtebeteren urtebetetik urtebetez
+31	1031	zehazki	
+32	1032	garrantzi	garrantzia garrantziagatik garrantziaz garrantziko garrantzirik garrantziz
+33	1033	aitortu	aitortuko aitortuta aitortuz aitortzea aitortzeak aitortzeko aitortzen aitortzera
+34	1034	bahitu	bahitua bahituak bahituari bahituei bahituek bahituekin bahituen bahituez bahituko bahiturik bahituta bahitutako bahituz bahitze bahitzea bahitzeagatik bahitzean bahitzeko bahitzen bahitzera
+35	1035	mugimendu	mugimendua mugimenduak mugimenduan mugimenduarekin mugimenduaren mugimenduarentzat mugimenduari mugimenduaz mugimenduei mugimenduek mugimenduekin mugimenduen mugimenduetan mugimenduetatik mugimenduk mugimenduko mugimendukoak mugimendura mugimendurik mugimendutan
+36	1036	ehun	ehuna ehunak ehunean ehunek ehunekin ehuneko ehunekoa ehunen ehunera ehunetik
+37	1037	eremu	eremua eremuak eremuan eremuaren eremuei eremuen eremuetan eremuetara eremuetatik eremuko eremura eremuraino eremurako eremutan eremutara eremutik
+38	1038	mutur	muturik muturra muturrak muturrarekin muturraren muturrari muturrean muturrek muturrekoa muturrekoak muturren muturrera muturreraino muturretako muturretan muturretara muturretik muturrez muturrik
+39	1039	kilometro	kilometroa kilometroak kilometroan kilometroetan kilometroko kilometrokoa kilometrora kilometrotako kilometrotan kilometrotara kilometrotatik kilometrotik kilometroz
+40	1040	sudur	sudurra sudurrak sudurrarekin sudurraren sudurrari sudurrean sudurrekin sudurreko sudurren sudurrera sudurrerako sudurretako sudurretatik sudurretik sudurrik sur
+41	1041	izaki	izakia izakiak izakiarekin izakiaren izakiei izakiek izakiekin izakien izakienganako izakiok izakiren izakirik izakitzat
+42	1042	defendatu	defenda defendatua defendatuko defendatutako defendatuz defendatzea defendatzeagatik defendatzeak defendatzearekin defendatzearen defendatzeari defendatzeaz defendatzeko defendatzen defendatzera defendatzerik
+43	1043	botila	botilak botilan botilara botilarekin botilaren botilari botilarik botilatatik botilatik botilaz botilekin botilen botiletan botiletarako botilez
+44	1044	eten	etena etenagatik etenak etenaren etenaz etenda etenean etenez etengo etenik etetea eteteagatik eteteak eteteari eteteko eteten etetera eteterik
+45	1045	jakinarazi	jakinaraz jakinarazidazu jakinaraziezu jakinaraziko jakinaraziz jakinaraztea jakinarazteagatik jakinarazteak jakinaraztean jakinarazteko jakinarazten jakinaraztera
+46	1046	zerbitzatu	zerbitza zerbitzatua zerbitzatuko zerbitzatuta zerbitzatuz zerbitzatzea zerbitzatzeak zerbitzatzean zerbitzatzeaz zerbitzatzeko zerbitzatzen zerbitzatzera
+47	1047	lurperatu	lurperatua lurperatuak lurperatuko lurperaturik lurperatuta lurperatutako lurperatze lurperatzea lurperatzeak lurperatzean lurperatzeko lurperatzen lurperatzera
+48	1048	urtebetetze	urtebetetzea urtebetetzeagatik urtebetetzeak urtebetetzean urtebetetzearen urtebetetzeari urtebetetzeko urtebetetzekoa urtebetetzera urtebetetzerako urtebetetzerik
+49	1049	noizbait	
+50	1050	hatz	hatza hatzagatik hatzak hatzarekin hatzari hatzaz hatzean hatzei hatzek hatzekin hatzeko hatzen hatzetan hatzetatik hatzez hatzik
+51	1051	amore	amorerik
+52	1052	sentimendu	sentimendua sentimenduagatik sentimenduak sentimenduaren sentimenduei sentimenduek sentimenduekin sentimenduen sentimenduengatik sentimenduetan sentimenduez sentimenduren sentimendurik sentimenduz
+53	1053	zutik	
+54	1054	hitzeman	hitzemana hitzemanda hitzemandakoa hitzemanez hitzemango hitzemate hitzematea hitzematen
+55	1055	kantu	kantua kantuak kantuan kantuarekin kantuaren kantuari kantuekin kantuen kantuez kanturen kanturik kantuz
+56	1056	jatetxe	jatetxea jatetxeak jatetxean jatetxearekin jatetxearen jatetxeari jatetxeek jatetxeen jatetxeetako jatetxeetan jatetxeetara jatetxeko jatetxekoa jatetxera jatetxeraino jatetxerako jatetxeren jatetxerik jatetxetan jatetxetara jatetxetik
+57	1057	errepikatu	errepika errepikatua errepikatuak errepikatuko errepikatuta errepikatutako errepikatuz errepikatzea errepikatzeko errepikatzen errepikatzera errepikatzerik
+58	1058	margotu	margo margotua margotuak margotuko margoturik margotuta margotutako margotuz margotzea margotzeak margotzearen margotzeari margotzeko margotzen margotzera
+59	1059	gorrotatu	gorrota gorrotatua gorrotatuko gorrotatuz gorrotatzea gorrotatzeko gorrotatzen gorrotatzera
+60	1060	hobetu	hobetua hobetuak hobetuko hobetuta hobetuz hobetze hobetzea hobetzeak hobetzean hobetzeari hobetzeko hobetzen hobetzera
+61	1061	kontratu	kontratua kontratuak kontratuan kontratuarekin kontratuaren kontratuarengatik kontratuaz kontratuei kontratuekin kontratuen kontratuetako kontratuetara kontratuez kontratuko kontraturen kontraturik kontratutik kontratutzat kontratuz
+62	1062	sufritu	sufri sufrituak sufrituko sufrituz sufritzea sufritzeak sufritzeko sufritzen sufritzerik
+63	1063	motor	motora motorra motorragatik motorrak motorrarekin motorraren motorrari motorraz motorrean motorrei motorrek motorreko motorrekoak motorren motorrera motorrerako motorretako motorretan motorretik motorrez motorrik
+64	1064	azal	azala azalak azalarekin azalaren azalarengatik azalarentzat azalari azalaz azalean azalekin azaleko azalekoa azalekoak azalen azalera azaleraino azalerako azaletan azaletatik azaletik azalez azalik
+65	1065	justizia	justiziak justiziako justizian justiziara justiziarako justiziarekin justiziaren justiziari justiziarik justiziatik justiziaz
+66	1066	astindu	astin astindua astinduak astinduko astindurik astinduta astindutako astinduz astintze astintzea astintzeagatik astintzearen astintzeari astintzeko astintzen astintzera
+67	1067	aske	askea askeago askeak askean askearen askeaz askeegi askeen askeena askeetan askeetara askera askeren
+68	1068	neskato	neskatoa neskatoak neskatoarekin neskatoaren neskatoari neskatoekin neskatoen neskatoentzat neskatoren
+69	1069	zeregin	zeregina zereginak zereginaren zereginaz zereginean zereginei zereginekin zereginen zereginetako zereginetan zereginetara zereginetatik zereginik zeregintzat
+70	1070	suposatu	suposa suposatuz suposatzen
+71	1071	profesional	profesionala profesionalago profesionalagoa profesionalak profesionalarekin profesionalaren profesionalarengatik profesionalaz profesionalean profesionalei profesionalek profesionaleko profesionalen profesionalena profesionalengatik profesionaletan profesionaletik profesionalik profesionaltzat
+72	1072	ordenagailu	ordenagailua ordenagailuak ordenagailuan ordenagailuarekin ordenagailuaren ordenagailuari ordenagailuaz ordenagailuek ordenagailuekin ordenagailuen ordenagailuetako ordenagailuetan ordenagailuetara ordenagailuetatik ordenagailuez ordenagailuko ordenagailura ordenagailurako ordenagailuren ordenagailurik ordenagailutan ordenagailutik ordenagailuz
+73	1073	klub	kluba klubak klubarekin klubaren klubean klubei klubeko klubekoa klubekoak kluben klubera kluberako klubetako klubetan klubetara klubetatik klubetik klubik
+74	1074	barik	
+75	1075	lurralde	lurraldea lurraldeak lurraldean lurraldearekin lurraldearen lurraldeari lurraldeaz lurraldeen lurraldeetan lurraldeetatik lurraldeko lurraldera lurralderaino lurralderantz lurraldetik
+76	1076	begirada	begiradak begiradan begiradarekin begiradaren begiradari begiradarik begiradatik begiradaz begiraden begiradetara begiradetatik begiradez
+77	1077	komandante	komandantea komandanteagatik komandanteak komandantearekin komandantearen komandantearentzat komandanteari komandanteei komandanteek komandanteetako komandanterik
+78	1078	asteburu	asteburua asteburuak asteburuan asteburuaz asteburuetan asteburuetara asteburuetarako asteburuko asteburukoa asteburura astebururako astebururik asteburutan
+79	1079	konbentzitu	konbentzi konbentzitua konbentzituko konbentziturik konbentzituta konbentzituz konbentzitzea konbentzitzeagatik konbentzitzeko konbentzitzen konbentzitzera
+80	1080	belar	belarekin belaren belarentzat belarra belarragatik belarrak belarrarekin belarraren belarrari belarrean belarrekin belarren belarretan belarrez belarrik
+81	1081	ospetsu	ospetsua ospetsuago ospetsuagoa ospetsuak ospetsuan ospetsuarekin ospetsuaren ospetsuaz ospetsuek ospetsuekin ospetsuen ospetsuena ospetsuenak ospetsuengan ospetsuentzat ospetsuetako ospetsuetan ospetsuetatik ospetsukoa ospetsura ospetsuren ospetsurik ospetsutik
+82	1082	ahalegin	ahalegina ahaleginagatik ahaleginak ahaleginaren ahaleginarengatik ahaleginari ahaleginean ahaleginei ahaleginek ahaleginen ahaleginengatik ahaleginetan ahaleginez ahaleginik
+83	1083	luzatu	luza luzatua luzatuko luzatuta luzatutako luzatuz luzatze luzatzea luzatzeak luzatzearen luzatzeko luzatzen luzatzera luzatzerik
+84	1084	negarrez	
+85	1085	hartz	hartza hartzak hartzarekin hartzaren hartzarentzat hartzari hartzei hartzek hartzekoak hartzentzat hartzeraino hartzetako hartzetik hartzik
+86	1086	presidente	presidentea presidenteak presidentearekin presidentearen presidentearentzat presidenteari presidenteen presidenterik presidentetzat
+87	1087	azterketa	azterketak azterketako azterketan azterketara azterketarako azterketarekin azterketaren azterketari azterketarik azterketek azterketen azterketetan azterketetara azterketetarako
+88	1088	ogi	ogia ogiagatik ogiak ogian ogiarekin ogiaren ogiaz ogiez ogira ogirik ogitan ogiz
+89	1089	egiazko	egiazkoa egiazkoagoa egiazkoagoak egiazkoak egiazkoari egiazkoen egiazkoena egiazkora egiazkotzat
+90	1090	igande	igandea igandeak igandean igandeen igandeetako igandeetan igandeko igandera iganderako iganderik igandetako igandetan igandez
+91	1091	hire	
+92	1092	amatxo	amatxoagatik amatxoak amatxoari amatxorekin amatxoren amatxori
+93	1093	robot	robota robotak robotarekin robotaren robotari robotaz robotei robotek robotekin roboten robotentzat roboti
+94	1094	ohar	oharra oharragatik oharrak oharrarekin oharraren oharrarengatik oharrari oharrean oharrekin oharreko oharren oharretan oharrik
+95	1095	milaka	
+96	1096	soinu	soinua soinuagatik soinuak soinuan soinuarekin soinuaren soinuari soinuaz soinuei soinuek soinuekin soinuen soinuetan soinuez soinuren soinurik soinuz
+97	1097	uharte	uhartea uharteak uhartean uhartearen uharteari uharteek uharteetako uharteetan uharteetara uharteetatik uharteko uhartekoa uhartera uharteraino uharterik uhartetik
+98	1098	espazio	espazioa espazioak espazioan espazioaren espazioaz espazioko espaziokoa espaziokoak espaziora espaziorako espaziorantz espaziorik espaziotik
+99	1099	lotsatu	lotsatua lotsatuak lotsatuko lotsaturik lotsatuta lotsatzea lotsatzeko lotsatzen lotsatzera lotsatzerik
+100	1100	garaipen	garaipena garaipenagatik garaipenak garaipenarekin garaipenaren garaipenarengatik garaipenean garaipenekin garaipeneko garaipenekoa garaipenen garaipenera garaipenerako garaipenetan garaipenez garaipenik

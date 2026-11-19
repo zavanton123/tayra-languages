@@ -1,0 +1,100 @@
+1	3101	eroan	daroa daroat daroazu eroango eroatea eroateko eroaten zeroan
+2	3102	iraingarri	iraingarria iraingarriak iraingarriaren iraingarrien iraingarriengatik iraingarriok iraingarririk iraingarritzat
+3	3103	bare	barea bareak barean barearen bareen bareko barera barerik baretan baretik
+4	3104	berogailu	berogailua berogailuak berogailuan berogailuarekin berogailuaren berogailuarentzat berogailuari berogailuko berogailura berogailurik
+5	3105	artalde	artaldea artaldeagatik artaldeak artaldean artaldearen artaldeari artaldeen artaldeetako artaldeko artaldekoak artaldera artalderik artaldetik
+6	3106	liga	ligak ligako ligakoa ligan ligarentzat ligatik ligek ligetan
+7	3107	planeatu	planeatua planeaturik planeatuta planeatutako planeatzeko planeatzen
+8	3108	independentzia	independentziako independentziarako independentziaren independentziari independentziatik
+9	3109	handitasun	handitasuna handitasunak handitasunaren handitasunarengatik handitasunari handitasunean handitasunerako handitasunez
+10	3110	jaki	jakia jakiak jakiek jakien jakiengatik jakiez jakiren jakirik jakitzat
+11	3111	atentatu	atentatua atentatuagatik atentatuak atentatuan atentatuarekin atentatuaren atentatuari atentatuetan atentatutan
+12	3112	suntsipen	suntsipena suntsipenagatik suntsipenak suntsipenaren suntsipenari suntsipenean suntsipenera suntsipenerako suntsipenetik
+13	3113	hedabide	hedabidea hedabideak hedabideei hedabideek hedabideekin hedabideen hedabideetan hedabideetara hedabideetatik
+14	3114	hiribide	hiribidea hiribideak hiribidean hiribidearen hiribideen hiribideetako hiribideetan hiribideko hiribidera hiribideraino hiribidetik
+15	3115	legio	legioa legioak legioan legioaren legioari legioei legioek legioekin legioen legioetara legioko legiorako
+16	3116	haga	hagak hagako hagan hagara hagatik hagen
+17	3117	gorotz	gorotza gorotzak gorotzean gorotzek gorotzekin gorotzez gorotzik
+18	3118	beta	betak betarik betatan betek betekin beten betengatik betentzat
+19	3119	aldaka	aldakak aldakako aldakan aldakara aldakaren aldakarik aldakatan aldaken
+20	3120	eskaut	eskauta eskautak eskautekin eskauteko eskauten eskautentzat eskautok
+21	3121	zirku	zirkua zirkuak zirkuan zirkuaren zirkuko zirkura zirkurik
+22	3122	iruzurti	iruzurtia iruzurtiak iruzurtiaren iruzurtiei iruzurtientzat
+23	3123	pisatu	pisa pisatuko pisatzea pisatzen pisatzera
+24	3124	estalki	estalkia estalkiak estalkiaren estalkien estalkirik
+25	3125	definitu	defini definitua definituko definituta definitzea definitzeko definitzen definitzerik
+26	3126	entzunaldi	entzunaldia entzunaldiak entzunaldian entzunaldiko entzunaldira entzunaldirik entzunalditik
+27	3127	pipa	pipan piparako piparen pipari piparik pipek pipen pipetako
+28	3128	zeta	zetak zetako zetan zetara zetaraino zetarako zetaren zetari zetarik zetaz
+29	3129	antena	antenak antenako antenarekin antenen antenengatik antenetako
+30	3130	mito	mitoa mitoak mitoari mitoaz mitoen mitoren mitorik mitotik
+31	3131	gazi	gazia gaziak gaziarekin gaziegi gaziegia gazietako gazietan gaziko gaziraino gaziz
+32	3132	mental	mentala mentalak mentalaren mentalarentzat mentalari mentalean mentalekin mentaleko mentalen mentalik
+33	3133	ministerio	ministerioa ministerioak ministerioan ministerioaren ministerioari ministerioen ministerioko ministeriokoa ministeriokoak ministeriora ministerioren
+34	3134	eseki	esekiko esekirik esekita esekitzeko esekitzen
+35	3135	dukesa	dukesak dukesarekin dukesaren dukesari dukesatzat
+36	3136	inteligentzia	inteligentziak inteligentziako inteligentziarekin inteligentziaren inteligentziari inteligentziarik inteligentzien
+37	3137	orro	orroa orroak orroen orroetan
+38	3138	adoretsu	adoretsua adoretsuagoa adoretsuak adoretsuekin adoretsuena adoretsuren
+39	3139	postal	postala postalagatik postalak postalekin postalen postaletako postaletan
+40	3140	galeria	galeriak galeriako galeriakoa galerian galeriara galeriaren galeriari galeriatara galerietan galerietatik
+41	3141	bizileku	bizilekua bizilekuak bizilekuan bizilekuaren bizilekuari bizilekuaz bizilekura bizilekurik bizilekuz
+42	3142	ekarpen	ekarpena ekarpenagatik ekarpenak ekarpenaren ekarpenen ekarpenik
+43	3143	junior	juniorra juniorrek juniorrekin juniorren
+44	3144	eskuburdina	eskuburdinak eskuburdinarik eskuburdinek eskuburdinekin
+45	3145	kupula	kupulak kupulan kupulara kupularen kupulatik
+46	3146	palanka	palankak palankarekin palankaren palankari palankarik palankatik palankekin
+47	3147	berehalako	berehalakoa berehalakoak berehalakoan
+48	3148	profil	profila profilak profilarekin profilean profilerako profilik
+49	3149	kontzentrazio	kontzentrazioa kontzentrazioarekin kontzentraziorako kontzentraziorik kontzentraziotik
+50	3150	asto	astoa astoak astoarekin astoaren astoen astoenak astoengana
+51	3151	supermerkatu	supermerkatua supermerkatuak supermerkatuan supermerkatuaren supermerkatuek supermerkatuko supermerkatura
+52	3152	haitzulo	haitzuloa haitzuloak haitzuloan haitzuloaren haitzuloen haitzuloetako haitzuloetan haitzuloetara haitzuloko haitzulora haitzulotik
+53	3153	alaitu	alaituko alaitzeko alaitzen alaitzera
+54	3154	kardinal	kardinala kardinalak kardinalarekin kardinalaren kardinalari kardinalek
+55	3155	test	testa testak testaren testean testek testekin testik
+56	3156	komertzial	komertziala komertzialago komertzialak komertzialaren komertzialean komertzialei komertzialek komertzialekin komertzialekoak komertzialen komertzialerako komertzialetik
+57	3157	ikusezin	ikusezina ikusezinagatik ikusezinak ikusezinarekin ikusezinaren ikusezinari ikusezinean ikusezinei ikusezinek ikusezinekin ikusezinen ikusezinera
+58	3158	instrumentu	instrumentua instrumentuak instrumentuaren instrumentuari instrumentuaz instrumentuei instrumentuen instrumentuetako instrumentuetan instrumentuez instrumenturekin instrumenturen instrumenturik
+59	3159	arlo	arloa arloak arloan arloetan arloko arlokoa arlokoak arlotan
+60	3160	koktel	koktela koktelak koktelari koktelaz koktelean koktelekin koktelen koktelera koktelerako koktelez
+61	3161	kalkulu	kalkulua kalkuluak kalkuluek kalkuluekin kalkuluen kalkuluetan kalkuluko kalkulurako kalkulurik
+62	3162	lizentzia	lizentziak lizentzian lizentziarekin lizentziaren lizentziarik
+63	3163	kamerari	kameraria kamerariak kamerariarekin kamerariari
+64	3164	infiltratu	infiltratua infiltratuak infiltratuta infiltratutako infiltratze infiltratzea infiltratzeko
+65	3165	irakin	irakina irakinak irakinda irakingo irakitea irakiteko irakiten irakitera
+66	3166	psikologia	psikologiak psikologiako psikologian psikologiara psikologiaren
+67	3167	sailkatu	sailkatua sailkatuak sailkatuko sailkatuta sailkatze sailkatzea sailkatzen
+68	3168	zilar	zilarra zilarrak zilarraren zilarrean zilarreko zilarrez zilarrik
+69	3169	uhal	uhala uhalak uhalaren uhalean uhalek uhalekin uhalez uhalik
+70	3170	iratxo	iratxoa iratxoak iratxoaz iratxoek iratxoen iratxoez iratxoz
+71	3171	esperimentatu	esperimentatuko esperimentatutako esperimentatzea esperimentatzeko esperimentatzen esperimentatzera
+72	3172	nasa	nasak nasako nasan nasara nasaren nasarentzat nasatik nasetan
+73	3173	esaera	esaerak esaerari
+74	3174	zotz	zotza zotzak zotzei zotzekin
+75	3175	desberdintasun	desberdintasuna desberdintasunak desberdintasunik
+76	3176	larrutu	larrutuko larrutzea larrutzeko larrutzen larrutzera
+77	3177	egonaldi	egonaldia egonaldian egonaldiaren egonaldiaz egonaldirako
+78	3178	jaialdi	jaialdia jaialdiak jaialdian jaialdiaren jaialdietan jaialdiko jaialdikoa jaialdira jaialdirako
+79	3179	aditz	aditza aditzak aditzarekin aditzean aditzeko aditzen aditzera aditzetik
+80	3180	eskala	eskalak eskalako eskalakoak eskalan eskalaren eskalarik eskalez
+81	3181	eskumuturreko	eskumuturrekoa eskumuturrekoagatik eskumuturrekoak eskumuturrekoaren eskumuturrekoengatik eskumuturrekorik
+82	3182	kimika	kimikako kimikan kimikara kimikaren kimikarik kimikaz kimikok
+83	3183	arre	arrea arrean arrek arrera
+84	3184	zorri	zorria zorriak zorrik zorriok zorririk
+85	3185	korapilatsu	korapilatsua korapilatsuagoa korapilatsuagoak korapilatsuak korapilatsuan korapilatsuarentzat korapilatsuari korapilatsuegia korapilatsuena korapilatsuz
+86	3186	bortxaketa	bortxaketako bortxaketarako bortxaketarekin bortxaketarik bortxaketatik bortxaketen bortxaketez
+87	3187	etika	etikak etikako etikan etikara etikarekin etikaren etikari etikaz etiketan
+88	3188	zentzugabekeria	zentzugabekeriak zentzugabekeriaren zentzugabekeriari zentzugabekeriarik zentzugabekeriaz zentzugabekeriei zentzugabekerien
+89	3189	suntsitzaile	suntsitzailea suntsitzaileagoa suntsitzaileak suntsitzailearen suntsitzaileari suntsitzaileen suntsitzaileenak suntsitzaileez suntsitzailetik
+90	3190	sintoma	sintomak sintomaren sintomarik sintomatzat sintomei sintomek sintomekin sintomen sintometako
+91	3191	taldekide	taldekidea taldekideak taldekidearen taldekideei taldekideek taldekideekin taldekideentzat taldekideok taldekidetzat
+92	3192	diskurtso	diskurtsoa diskurtsoak diskurtsoan diskurtsoarekin diskurtsoaren diskurtsoei diskurtsoekin diskurtsorik
+93	3193	ñimiño	ñimiñoa ñimiñoak ñimiñoarentzat ñimiñoek ñimiñoena ñimiñoenak ñimiñoetan ñimiñorik ñimiñoz
+94	3194	ondare	ondarea ondareagatik ondareak ondarearekin ondarearen ondareaz ondareen ondarekoak ondaretzat
+95	3195	emozional	emozionala emozionalagatik emozionalak emozionalarekin emozionalaren emozionalean emozionalek emozionalekin emozionalena emozionalik
+96	3196	atleta	atletak atletaren atletari atletarik atletei atletentzat atletez
+97	3197	gabirai	gabiraia gabiraiak gabiraiarekin gabiraiari gabirairi
+98	3198	ganbera	ganberak ganberako ganberan ganberara ganberaraino ganberaren ganberatik ganberetan
+99	3199	iraunkor	iraunkorra iraunkorragoa iraunkorrak iraunkorrari iraunkorraz iraunkorrean iraunkorreko iraunkorretara iraunkorrik
+100	3200	dinosauro	dinosauroa dinosauroak dinosauroarekin dinosauroaz dinosauroei dinosauroen dinosauroez dinosaurorik

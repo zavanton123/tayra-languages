@@ -1,0 +1,100 @@
+1	3601	terraza	terrazak terrazan terrazara terrazarekin terrazaren terrazatan terrazatik terrazetan
+2	3602	idazkera	idazkerak idazkerako idazkeran idazkerarekin idazkeraren idazkerari
+3	3603	laguntasun	laguntasuna laguntasunak laguntasunarekin laguntasunaren laguntasunaz laguntasunean laguntasunez laguntasunik
+4	3604	gutxiengo	gutxiengoa gutxiengoak gutxiengoaren gutxiengoekin gutxiengoen gutxiengoetan gutxiengoez gutxiengokoak
+5	3605	komando	komandoa komandoak komandoaren komandoei komandoek komandoko komandokoa
+6	3606	jogurt	jogurta jogurtak jogurtaren jogurtari jogurtean
+7	3607	lesio	lesioa lesioak lesioei lesioen lesiora lesiorik lesiotik lesioz
+8	3608	arrantzale	arrantzalea arrantzaleak arrantzalearen arrantzaleaz arrantzaleek arrantzaleen arrantzalek
+9	3609	laburtu	laburtuak laburtuko laburturik laburtuta laburtuz laburtzea laburtzeko laburtzen laburtzera
+10	3610	estadio	estadioa estadioak estadioan estadioaren estadioetan estadiora estadiorantz estadiotik
+11	3611	re	rekoa
+12	3612	transferentzia	transferentziak transferentzian transferentziarako transferentziaren
+13	3613	omega	omegak omegarekin
+14	3614	zentimetro	zentimetroko zentimetrokoa zentimetrokoak zentimetroz
+15	3615	maistra	maistrak maistraren maistrari
+16	3616	tapa	tapak tapan taparen taparik tapen
+17	3617	kirolari	kirolaria kirolariak kirolariaren kirolariek kirolarien
+18	3618	ahalguztidun	ahalguztiduna ahalguztidunagatik ahalguztidunak ahalguztidunaren ahalguztidunari
+19	3619	faxista	faxistak faxistatzat faxistek faxisten
+20	3620	amateur	amateurra amateurrak amateurren amateurrez
+21	3621	trinko	trinkoa trinkoagoa trinkoak trinkoan trinkoegia trinkoen
+22	3622	tragiko	tragikoa tragikoagatik tragikoak tragikoan tragikoari tragikoekin
+23	3623	ikasturte	ikasturtea ikasturtean ikasturteko
+24	3624	aurrezki	aurrezkia aurrezkiak aurrezkiekin aurrezkietako aurrezkirik
+25	3625	estimu	estimua estimuagatik estimuan estimuaren estimutan
+26	3626	algoritmo	algoritmoa algoritmoak algoritmoan algoritmoaren algoritmoaz
+27	3627	serbiar	serbiarra serbiarrak serbiarrek serbiarren serbiarrez
+28	3628	deklarazio	deklarazioa deklarazioak deklarazioan deklarazioetan deklaraziorik
+29	3629	zorabio	zorabioa zorabioak zorabioan zorabioaren zorabioekin zorabiorik
+30	3630	idazmahai	idazmahaia idazmahaian idazmahaiaren idazmahaiko idazmahaira idazmahaitik
+31	3631	formazio	formazioa formazioan formazioaren formazioari formaziora formaziorik
+32	3632	saski	saskia saskiak saskian saskikoa saskira
+33	3633	errehabilitazio	errehabilitazioa errehabilitazioan errehabilitazioaren errehabilitazioari errehabilitaziora errehabilitaziorik errehabilitaziotik
+34	3634	aleluia	
+35	3635	gertutik	
+36	3636	eskuila	eskuilak eskuilaren eskuilari
+37	3637	erabakigarri	erabakigarria erabakigarriak erabakigarrian
+38	3638	gol	gola goleko goletara
+39	3639	putre	putrea putreak putrearen putreei putreek putreekin putreen putrez
+40	3640	ziztatu	zizta ziztatuko ziztaturik ziztatzea ziztatzen ziztatzera
+41	3641	beterano	beteranoa beteranoak beteranoaren beteranoek beteranoekin beteranoen
+42	3642	estresatu	estresa estresatua estresaturik estresatuta estresatutako estresatzeko estresatzen
+43	3643	pijama	pijamak pijamako pijaman pijamarekin pijamarik pijamaz pijamen
+44	3644	friki	frikia frikiak frikiei frikiek frikien frikientzat frikiez frikira
+45	3645	azazkal	azazkalak azazkalean azazkalei azazkalen azazkaletako azazkaletan azazkalik
+46	3646	dimentsio	dimentsioa dimentsioak dimentsioan dimentsioetatik dimentsioko dimentsioren dimentsiotako dimentsiotan
+47	3647	araztu	araziozu araztea arazteko arazten araztera araztuko araztuta
+48	3648	gari	garia gariak gariarekin gariaren gariaz gariekin garirik
+49	3649	erosotasun	erosotasuna erosotasunagatik erosotasunak erosotasunaren erosotasunari erosotasunean erosotasunera erosotasunerako erosotasunetan erosotasunez erosotasunik
+50	3650	uholde	uholdea uholdeak uholdean uholdearekin uholdearen uholdeetan uholdetan
+51	3651	musulman	musulmana musulmanak musulmanei musulmaneko musulmanen musulmanez musulmanok
+52	3652	zeinu	zeinua zeinuak zeinuekin zeinuen zeinuetako zeinuetan zeinukoa zeinukoak zeinurik
+53	3653	zisne	zisnea zisneak zisnearen zisneen
+54	3654	lei	leia leiak leiari
+55	3655	trauma	traumak traumaren traumarengatik traumari traumarik traumen
+56	3656	bizkarrezur	bizkarrezurra bizkarrezurraren bizkarrezurrari bizkarrezurrean bizkarrezurreko bizkarrezurrera bizkarrezurrerako
+57	3657	aldakor	aldakorra aldakorragoak aldakorrak aldakorreko aldakorrekoa aldakorrekoak aldakorretan
+58	3658	zuhaixka	zuhaixkak zuhaixkan zuhaixkatik zuhaixkek zuhaixken zuhaixketan zuhaixketara
+59	3659	hotzikara	hotzikarak hotzikaratan hotzikaraz hotzikarek hotzikarez
+60	3660	txinparta	txinpartak txinpartako txinpartek txinparten
+61	3661	hezetasun	hezetasuna hezetasunagatik hezetasunak hezetasunarekin hezetasunari hezetasunean hezetasunik
+62	3662	marmota	marmotak marmotaren marmotari marmoten
+63	3663	sesio	sesioa sesioak sesioan sesioaren sesiorik sesiotan sesiotatik
+64	3664	komisio	komisioa komisioak komisioarekin komisioaren komisioko komisiorik
+65	3665	txertatu	txertatua txertatuak txertatuko txertatuta txertatuz txertatze txertatzea txertatzeko txertatzen
+66	3666	egutegi	egutegia egutegiak egutegian egutegiaren egutegiari egutegiei egutegietan egutegira egutegirik egutegitik
+67	3667	curriculum	curriculuma curriculumak curriculumarekin curriculumean curriculumik
+68	3668	jostun	jostuna jostunak jostunaren jostunarengana jostunari jostunekin jostunen jostunez jostunik
+69	3669	irizpide	irizpidea irizpideak irizpidearen irizpideari irizpideaz irizpideen irizpideez irizpiderik
+70	3670	autoritate	autoritatea autoritatearekin autoritatearen autoritateari autoritateei autoritateek autoritateen autoritaterik autoritatez
+71	3671	zahartzaro	zahartzaroa zahartzaroak zahartzaroan zahartzaroarekin zahartzaroari zahartzaroaz zahartzaroko zahartzarora zahartzarorako
+72	3672	txerto	txartu txertoa txertoak txertoen txertoetara txertoez txertoren txertorik
+73	3673	gehiegikeria	gehiegikeriak gehiegikerian gehiegikeriara gehiegikeriaren gehiegikeriarik gehiegikeriaz gehiegikerien gehiegikerietan gehiegikeriez
+74	3674	kontraesan	kontraesana kontraesanak kontraesanean kontraesanei kontraesanen kontraesanetako kontraesanetan kontraesanetatik kontraesanez
+75	3675	umezurztegi	umezurztegia umezurztegiak umezurztegian umezurztegiaren umezurztegiko umezurztegira umezurztegitik umezurztegiz
+76	3676	orgasmo	orgasmoa orgasmoak orgasmoan orgasmoaren orgasmora orgasmoren orgasmorik orgasmotik
+77	3677	euskal	
+78	3678	arazi	araziko
+79	3679	tinta	tintak tintako tintan tintaz
+80	3680	irrigarri	irrigarria irrigarriak irrigarriena
+81	3681	perimetro	perimetroa perimetroan perimetrokoak perimetrora
+82	3682	partaide	partaidea partaideak partaideen partaideok
+83	3683	herensuge	herensugea herensugeak herensugearekin herensugearen herensugerik
+84	3684	goizalde	goizaldea goizaldean goizaldeko goizaldera goizalderako
+85	3685	gizendu	gizenduko gizentzeko gizentzen gizentzera
+86	3686	gizatiar	gizatiarra gizatiarrago gizatiarragoa gizatiarragoak gizatiarrak gizatiarrekin gizatiarrena gizatiarretik
+87	3687	luxu	luxua luxuaren luxurik luxuz
+88	3688	apezpiku	apezpikua apezpikuak apezpikuarekin apezpikuari apezpikuei apezpikuok apezpikuren
+89	3689	banatzaile	banatzailea banatzaileak banatzailearekin banatzailearen banatzailearentzat banatzaileari banatzaileekin banatzaileen banatzailerik
+90	3690	ugaldu	ugal ugalduz ugaltze ugaltzea ugaltzeak ugaltzeko ugaltzen
+91	3691	bidegurutze	bidegurutzea bidegurutzean bidegurutzeko bidegurutzera
+92	3692	fusilatu	fusila fusilatua fusilatuak fusilatuko fusilaturik fusilatuta fusilatze fusilatzeko fusilatzen
+93	3693	trapu	trapua trapuak trapuekin trapura trapuz
+94	3694	klima	klimak klimara klimarako klimaren klimari klimatan klimetan
+95	3695	perspektiba	perspektibak perspektibarekin perspektibaren perspektibari perspektibarik perspektibatik perspektiben
+96	3696	histeriko	histerikoa histerikoak histerikoaren histerikoegia histerikoena histerikoez
+97	3697	holokausto	holokaustoa holokaustoan holokaustoaren holokaustoarengatik holokaustoari holokaustoaz holokaustoren holokaustotik
+98	3698	pitzatu	pitzatua pitzatuak pitzatuko pitzaturik pitzatuta pitzatzen
+99	3699	lasto	lastoa lastoak lastoan lastoarekin lastoei lastorik lastotik
+100	3700	pixoihal	pixoihala pixoihalak pixoihalari pixoihalean pixoihalekin pixoihaletan pixoihalik

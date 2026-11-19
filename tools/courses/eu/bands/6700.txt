@@ -1,0 +1,100 @@
+1	6601	zezenko	zezenkoa
+2	6602	brokoli	brokolia brokoliarekin
+3	6603	perbertsio	perbertsioa perbertsioko
+4	6604	tipulin	tipulina tipulinak tipulinarekin tipulinen
+5	6605	bendatu	bendatua bendatuta bendatzen
+6	6606	egingarri	egingarria egingarriak
+7	6607	txerrikume	txerrikumea txerrikumeak
+8	6608	eranskin	eranskina eranskinean
+9	6609	kontrolaezin	kontrolaezina kontrolaezinak
+10	6610	trakea	trakeako trakean trakeatik
+11	6611	sistematiko	sistematikoa sistematikoak
+12	6612	gertutasun	gertutasuna gertutasunean
+13	6613	desabantaila	desabantailak desabantailan desabantailarik
+14	6614	kolesterol	kolesterola kolesterolak
+15	6615	homizidio	homizidioen homizidioetan
+16	6616	ninfa	ninfak ninfaren
+17	6617	anatomia	anatomiak anatomiarekin anatomiaren
+18	6618	etniko	etnikoetara etnikoko
+19	6619	zinematografo	zinematografoa zinematografora
+20	6620	segmentu	segmentua segmentuak
+21	6621	esklusa	esklusak esklusaren esklusatik
+22	6622	besape	besapeak besapean besapeetan
+23	6623	detergente	detergentea detergentearen
+24	6624	nomina	nominak nominan nominaren nominatik
+25	6625	errepikakor	errepikakorra
+26	6626	errektore	errektoreak errektorearen
+27	6627	fetu	fetua fetuaren feturik
+28	6628	errape	errapeak rape
+29	6629	orin	orina orinak
+30	6630	malenkonia	malenkoniaren malenkoniaz
+31	6631	jentil	jentila jentilak
+32	6632	plaga	plagak plagen
+33	6633	herrimin	herrimina herriminez herriminik
+34	6634	erregealdi	erregealdia erregealdiko
+35	6635	erramu	erramua erramuz
+36	6636	kartzelaldi	kartzelaldia kartzelaldiak kartzelaldiaren
+37	6637	belgikar	belgikarra belgikarrek belgikarren
+38	6638	psikosomatiko	psikosomatikoa psikosomatikoak psikosomatikoekin
+39	6639	lasagna	lasagnak lasagnarekin lasagnaren
+40	6640	ohelagun	ohelaguna ohelagunak
+41	6641	fluor	fluorra fluorraren
+42	6642	amabitxi	amabitxia amabitxiak amabitxiaren
+43	6643	txita	txitak
+44	6644	bisoi	bisoia bisoiaren
+45	6645	hautazko	hautazkoa hautazkoak
+46	6646	zenbakitu	zenbakituak zenbakituta
+47	6647	dildo	dildoa dildoak dildorik
+48	6648	zurbildu	zurbilduko zurbiltzen
+49	6649	patruilari	patruilaria patruilariek patruilariekin
+50	6650	pikante	pikantea pikanteak
+51	6651	luterano	luteranoa luteranorik
+52	6652	errimatu	errimatzen
+53	6653	karraskari	karraskaria karraskariak
+54	6654	mitologiko	mitologikoa mitologikoan
+55	6655	aleazio	aleazioa aleazioak aleazioaz
+56	6656	subertsibo	subertsiboa subertsiboagatik subertsiboak subertsiboaren
+57	6657	erradioaktibitate	erradioaktibitatea erradioaktibitateak erradioaktibitatearen
+58	6658	kontraste	kontrastea kontrastearekin kontrastearen kontrasterik
+59	6659	erizaindegi	erizaindegia erizaindegian erizaindegira
+60	6660	transkripzio	transkripzioa transkripzioak
+61	6661	kaki	kakiak
+62	6662	toxina	toxinak toxinaz
+63	6663	neurotiko	neurotikoa neurotikoentzat neurotikoetatik neurotikotzat
+64	6664	telepatia	telepatiaren telepatiarik telepatiaz
+65	6665	krudeltasun	krudeltasuna krudeltasunez krudeltasunik
+66	6666	indaba	indabak indabekin
+67	6667	setiatu	setiatuak setiaturik setiatzea setiatzen
+68	6668	petalo	petaloak
+69	6669	apatia	apatiak apatiara apatiaren apatiatik
+70	6670	abertzaletasun	abertzaletasuna abertzaletasunari
+71	6671	notario	notarioa notarioaren notarioaz
+72	6672	txahalki	txahalkia
+73	6673	txorrota	txorrotak txorrotatik txorrotekin
+74	6674	etiopiar	etiopiarra etiopiarrak etiopiarrek
+75	6675	garau	garauak
+76	6676	neskazahar	neskazaharra neskazaharrak
+77	6677	ustiapen	ustiapena ustiapenari ustiapenerako
+78	6678	landaredi	landaredia landarediak landaredian landarediari landarediaz
+79	6679	junta	juntak juntarik juntetatik
+80	6680	damatxo	damatxoa damatxoak
+81	6681	sabana	sabanako sabanakoa sabanan sabanaren
+82	6682	puma	pumak pumaren pumekin pumen
+83	6683	antxoa	antxoak antxoarekin antxoaren antxoarik
+84	6684	inplante	inplantea inplanteak
+85	6685	finalista	finalistak finalistei
+86	6686	argazkigintza	argazkigintzak argazkigintzan argazkigintzarekin
+87	6687	sentiberatasun	sentiberatasuna sentiberatasunean
+88	6688	konstituzional	konstituzionala konstituzionalak konstituzionaleko konstituzionalik
+89	6689	foro	foroan forora
+90	6690	erorarazi	eroraraziko
+91	6691	mamitsu	mamitsua mamitsuago mamitsuak mamitsuegiak
+92	6692	ponpatu	ponpatzen
+93	6693	sorosle	soroslea sorosleak sorosleen
+94	6694	malguki	malgukia malgukiak malgukiaren
+95	6695	autismo	autismoa autismoagatik autismoaren autismoari autismoaz
+96	6696	bateraezin	bateraezina bateraezinak
+97	6697	ahaldun	ahalduna
+98	6698	mobilizatu	mobilizatuta mobilizatzea mobilizatzeko
+99	6699	hipotekatu	hipotekatuta hipotekatutako
+100	6700	berpizkunde	berpizkundea berpizkundeko

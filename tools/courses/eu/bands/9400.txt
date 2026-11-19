@@ -1,0 +1,100 @@
+1	9301	exorzista	exorzistak exorzistarik
+2	9302	delirio	delirioak delirioez
+3	9303	gizarteratze	gizarteratzea gizarteratzearen gizarteratzeko
+4	9304	gulag	gulagaren gulagean gulagetara
+5	9305	eskribau	eskribauak eskribauek
+6	9306	arrangura	arrangurarekin arranguraren
+7	9307	disoluzio	disoluzioa disoluzioak disoluziotan
+8	9308	oligarka	oligarkak oligarken
+9	9309	eklipse	eklipsearen eklipsetik
+10	9310	epitafio	epitafioa epitafiorako epitafiorik
+11	9311	liburudenda	liburudendako liburudendara
+12	9312	zitriko	zitrikoa zitrikoekin zitrikoetan
+13	9313	gabarra	gabarran gabarratan
+14	9314	ardogile	ardogilea ardogileak
+15	9315	kondentsatu	kondentsatuak kondentsatuko kondentsatzen
+16	9316	papagai	papagaiak papagaien
+17	9317	diruzain	diruzaina diruzainak
+18	9318	konplikazio	konplikazioak konplikazioren konplikaziorik
+19	9319	amilburu	amilburuak amilburuan
+20	9320	dominikar	dominikarra dominikarrera
+21	9321	tela	telekin telen
+22	9322	perbertso	perbertsoa perbertsoaren perbertsoena
+23	9323	burruntzali	burruntzalia burruntzaliak
+24	9324	limoiondo	limoiondoa limoiondoak limoiondoaren
+25	9325	margul	margula margulak
+26	9326	altruismo	altruismoaren altruismoaz altruismoz
+27	9327	endometriosi	endometriosia endometriosiari
+28	9328	fanatismo	fanatismoa fanatismoarekin
+29	9329	teletipo	teletipoak teletipoei teletipoz
+30	9330	habano	habanoa habanoak
+31	9331	minatu	minatua minaturik minatuta
+32	9332	pizkunde	pizkundea pizkundearengatik
+33	9333	lebitatu	lebitatzeko lebitatzen
+34	9334	etzaulki	etzaulkia etzaulkirik
+35	9335	erretagoardia	erretagoardiako erretagoardian
+36	9336	joskin	joskina joskinak joskinarekin
+37	9337	tiramisu	tiramisua tiramisurik
+38	9338	ospel	ospeleko ospeletan
+39	9339	bario	barioa barioarekin
+40	9340	trepeta	trepetak trepetez
+41	9341	profetizatu	profetizatuta profetizatuz profetizatzen
+42	9342	lizar	lizarra lizarrak
+43	9343	sionismo	sionismoa sionismoaren sionismoaz
+44	9344	trapezio	trapezioa trapeziorik trapeziotik
+45	9345	arauemaile	arauemaileak arauemaileek arauemaileetako
+46	9346	bortu	bortua bortuak
+47	9347	angina	anginak anginaren
+48	9348	zortziko	
+49	9349	peso	
+50	9350	interfono	interfonoa
+51	9351	txota	
+52	9352	amonio	
+53	9353	adiskidantza	
+54	9354	sevillar	sevillara
+55	9355	cava	
+56	9356	apa	
+57	9357	estimulazio	
+58	9358	magnolia	
+59	9359	loka	
+60	9360	sinarazi	
+61	9361	sorgor	
+62	9362	beltzuntza	beltzuntzak
+63	9363	maze	
+64	9364	koloso	
+65	9365	akupuntore	
+66	9366	mamarro	mamarroa
+67	9367	titanio	titanioa
+68	9368	saltxitxoi	
+69	9369	sakagailu	
+70	9370	melanoma	
+71	9371	elektroiman	elektroimanak
+72	9372	pederastia	
+73	9373	totel	totela
+74	9374	erreduktore	erreduktorea
+75	9375	irratizale	irratizaleen
+76	9376	fotografiko	fotografikoa
+77	9377	dueto	duetoa
+78	9378	mertxika	
+79	9379	muka	mukara
+80	9380	transatlantiko	transatlantikoa
+81	9381	gara	gira
+82	9382	broker	
+83	9383	klementina	
+84	9384	apika	
+85	9385	groenlandiar	groenlandiara
+86	9386	sabi	sabian
+87	9387	iraniar	
+88	9388	talko	talkoa
+89	9389	usteldura	usteldurak
+90	9390	haritzezko	
+91	9391	iheska	
+92	9392	peiote	peiotea
+93	9393	goleta	
+94	9394	ezkabia	
+95	9395	pesimista	
+96	9396	sokasalto	sokasaltoan
+97	9397	betekada	
+98	9398	kuter	
+99	9399	indibidualista	
+100	9400	integral	integrala

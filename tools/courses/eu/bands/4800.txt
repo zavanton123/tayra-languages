@@ -1,0 +1,100 @@
+1	4701	trantsizio	trantsizioa trantsizioak trantsizioan trantsizioekin trantsizioko trantsiziotik
+2	4702	inaugurazio	inaugurazioa inaugurazioan inauguraziora inauguraziorako
+3	4703	zundaketa	zundaketak zundaketako zundaketan zundaketaren zundaketei zundaketek
+4	4704	arrakala	arrakalak arrakalan arrakalarik arrakaletatik
+5	4705	erretzaile	erretzailea erretzaileak erretzaileentzat
+6	4706	partikula	partikulak partikulatako partikulatan partikulen
+7	4707	idolo	idoloa idoloak idoloei idoloetako idolotik
+8	4708	beherapen	beherapena beherapenak beherapenetan beherapenik
+9	4709	dekano	dekanoa dekanoak dekanoarekin dekanoaren
+10	4710	kabinete	kabinetea kabinetean kabinetearekin kabineteko kabinetekoa
+11	4711	sinboliko	sinbolikoa sinbolikoak sinbolikoan sinbolikorik sinbolikotzat
+12	4712	kazeta	kazetak kazetan kazetara kazetaren
+13	4713	irismen	irismena irismenak irismenarekin irismenean irismenetik
+14	4714	mutazio	mutazioa mutazioak mutazioaren mutazioen
+15	4715	adeitasun	adeitasuna adeitasunagatik adeitasunari adeitasunik
+16	4716	baratxuri	baratxuria baratxuriak baratxuriaren baratxuriei baratxuriekin
+17	4717	grabagailu	grabagailua grabagailuak grabagailuarekin grabagailuaren grabagailuek grabagailuko
+18	4718	espartar	espartara espartaren espartarrak espartarrei espartarrekin espartarren espartarrik
+19	4719	huno	hunoa hunoak hunoek hunoen
+20	4720	sorterri	sorterria sorterrian sorterriaren sorterrietara sorterriko sorterrira
+21	4721	eslogan	eslogana esloganak esloganarekin esloganekin esloganetan esloganik slogan
+22	4722	kono	konoak konoan konoaren konoek konoen konoetatik konorik
+23	4723	masailezur	masailezurra masailezurrak masailezurrarekin masailezurrean masailezurreraino masailezurrik
+24	4724	literario	literarioa literarioaz literarioei literarioetan literariorik
+25	4725	partisano	partisanoak partisanoei partisanoekin partisanoen
+26	4726	anfitrioi	anfitrioia anfitrioiaren anfitrioiarentzat anfitrioiari anfitrioirik
+27	4727	judizial	judiziala judizialak judizialaren judizialari judizialaz judizialekoa judizialik
+28	4728	mirabe	mirabea mirabeak mirabearekin mirabeek mirabeen miraberen mirabetzat
+29	4729	langabetu	langabetua langabetuak langabetuek langabetuen langabetuentzat
+30	4730	potrozorri	potrozorria potrozorriak potrozorriok potrozorrira potrozorririk
+31	4731	izerditu	izerdituak izerdituko izerdituta izerditzea izerditzeari izerditzen
+32	4732	autore	autorea autoreak autorearekin autorearen autoreari
+33	4733	mantenu	mantenua mantenuak mantenuan mantenurako
+34	4734	bakterio	bakterioa bakterioak bakterioari bakterioek bakterioekin bakterioen bakterioez bakteriorik
+35	4735	taxilari	taxilaria taxilariak taxilariaren taxilariari taxilariaz taxilarien taxilarik
+36	4736	herdoildu	herdoildua herdoilduak herdoilduko herdoilduta herdoildutako herdoilduz herdoiltzen
+37	4737	tako	takoa takoak takoek takorik
+38	4738	termiko	termikoa termikoak termikoarekin termikoaren termikoek termikoekin termikoen termikorik
+39	4739	larruazal	larruazala larruazalak larruazalaren larruazalean larruazaleko
+40	4740	aborigen	aborigena aborigenak aborigenei aborigenek aborigenekin aborigenen
+41	4741	tenis	tenisa tenisean teniseko tenisera teniserako
+42	4742	inbaditzaile	inbaditzailea inbaditzaileak inbaditzailean inbaditzailearen inbaditzaileek inbaditzaileen
+43	4743	garabi	garabia garabiak garabiarekin garabiaren garabiari
+44	4744	inplikatu	inplikatua inplikatuak inplikatuta inplikatutako inplikatzea inplikatzen
+45	4745	korporazio	korporazioa korporazioak korporazioan korporazioek korporazioen korporazioetako korporazioko korporaziokoa
+46	4746	mutilatu	mutilatua mutilatuak mutilatuko mutilatuta mutilatuz mutilatzea mutilatzen mutilatzera
+47	4747	dong	dongera
+48	4748	arpilatu	arpilatua arpilatzea arpilatzeak arpilatzeko arpilatzen
+49	4749	leka	lekak lekan lekatik lekek
+50	4750	bisa	bisak bisan bisarik
+51	4751	aldeztu	aldez aldezteko aldezten aldeztuko aldeztuz
+52	4752	arras	
+53	4753	behinola	
+54	4754	bostehun	
+55	4755	bazka	
+56	4756	hamahiru	
+57	4757	urpe	urpean urpera
+58	4758	umiliagarri	umiliagarria umiliagarriena
+59	4759	neurekoi	neurekoia
+60	4760	country	countrya countryko countryrako
+61	4761	ninja	ninjak ninjarekin ninjaz
+62	4762	pantera	panterak panteraren panterari panterei
+63	4763	egonkortasun	egonkortasuna egonkortasunarekin egonkortasunerako egonkortasunik
+64	4764	deskarga	deskargak deskargan deskargarako
+65	4765	doktoretza	doktoretzak doktoretzarik
+66	4766	arrezife	arrezifea arrezifearen
+67	4767	atun	atuna atunak atunarekin
+68	4768	kazetaritza	kazetaritzan kazetaritzaren
+69	4769	ukabilkada	ukabilkadak ukabilkadan ukabilkadarik
+70	4770	ezkutaketa	ezkutaketan ezkutaketetan
+71	4771	mafioso	mafiosoa mafiosoak mafiosoarekin
+72	4772	loro	loroa loroak loroen
+73	4773	analista	analistak analistarekin analistari analistek
+74	4774	fantasma	fantasmak fantasmaren fantasmari fantasmarik fantasmaz fantasmei
+75	4775	alkategai	alkategaia alkategaiak
+76	4776	zintzur	zintzurra zintzurrak zintzurrean zintzurreraino zintzurretik
+77	4777	sinesgarritasun	sinesgarritasuna sinesgarritasunaren sinesgarritasunari sinesgarritasunik
+78	4778	femenino	femeninoa femeninoagoa femeninoak femeninoan femeninoarekin femeninoegiak
+79	4779	gizatxar	gizatxarra gizatxarren gizatxarrez gizatxarrik
+80	4780	erregimen	erregimena erregimenak erregimenaren erregimenari erregimenetik
+81	4781	habe	habea habeak habeen
+82	4782	aberaste	aberastea aberastean aberasteko aberastera
+83	4783	daniar	daniarra daniarrak daniarrek
+84	4784	intuizio	intuizioa intuizioak intuizioarekin intuizioz
+85	4785	berdintsu	berdintsua berdintsuak
+86	4786	bagaje	bagajea bagajeak bagajean bagajearekin bagajeari bagajerik
+87	4787	ongintza	ongintzak ongintzako ongintzarako
+88	4788	penizilina	penizilinak penizilinarekin penizilinaren penizilinarik penizilinaz
+89	4789	aspirina	aspirinak aspirinarengatik aspirinarik
+90	4790	handiuste	handiustea handiusteei handiusteekin handiustekoa
+91	4791	italiera	italieraz
+92	4792	birraitona	birraitonak birraitonaren birraitonek
+93	4793	maiordomo	maiordomoa maiordomoak maiordomoarekin maiordomoari
+94	4794	norvegiar	norvegiarra norvegiarrak norvegiarrek norvegiarrekin norvegiarren
+95	4795	lanabes	lanabesa lanabesak
+96	4796	hipnotizatu	hipnotiza hipnotizatua hipnotizatuko hipnotizatuta hipnotizatzeko
+97	4797	mespretxu	mespretxua mespretxuz
+98	4798	lama	lamak lamaren lamari lamek lamengandik
+99	4799	muskulu	muskulua muskuluak muskuluaren muskuluek muskuluen
+100	4800	austriar	austriarra austriarrak austriarrengandik austriarrik

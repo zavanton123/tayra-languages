@@ -1,0 +1,100 @@
+1	3701	haitz	atx haitza haitzak haitzean haitzetan haitzetatik haitzetik haitzez
+2	3702	atmosfera	atmosferak atmosferako atmosferan atmosferara atmosferaraino atmosferarekin atmosferaren atmosferari atmosferatara atmosferatik atmosferaz
+3	3703	arra	arratik
+4	3704	dontzeila	dontzeilak dontzeilaren dontzeilarik dontzeilek
+5	3705	aliantza	aliantzak aliantzarekin aliantzaren aliantzari
+6	3706	dieta	dietak dietako dietan dietarik
+7	3707	absurdo	absurdoa absurdoak absurdoena
+8	3708	tanto	tantoa tantoak tantoren tantorik tantotan
+9	3709	ezkongai	ezkongaia ezkongaiak ezkongaiek ezkongaien ezkongaitzat
+10	3710	moteldu	motelduko motelduta moteltzeko moteltzen moteltzera
+11	3711	fidel	fidela fidelak fidelen fidelenak
+12	3712	kritikari	kritikaria kritikariak kritikariek kritikarien kritikarientzat kritikariok
+13	3713	kaltegarri	kaltegarria kaltegarriak kaltegarriena kaltegarrienak kaltegarriren
+14	3714	burbuila	burbuilak burbuilarik burbuilatik burbuilekin
+15	3715	diskrezio	diskrezioa diskrezioak diskrezioan diskrezioaz diskreziorik diskrezioz
+16	3716	goratu	goratua goratuak goratuta goratze goratzeko goratzen
+17	3717	buda	budak budaren budari budarik budek buden
+18	3718	kontulari	kontularia kontulariak kontulariek kontulariez kontularirik
+19	3719	balkoi	balkoia balkoiak balkoian balkoiaren balkoietan balkoira balkoitik
+20	3720	funtzionario	funtzionarioa funtzionarioak funtzionarioek funtzionarioekin funtzionarioen
+21	3721	iturgin	iturgina iturginak iturginaren iturginari iturginen iturginik iturgintzat
+22	3722	zintzoki	
+23	3723	paperezko	paperezkoa paperezkoak
+24	3724	altzairuzko	altzairuzkoa altzairuzkoak
+25	3725	aipu	aipua aipuak aipurik
+26	3726	hitzartu	hitzartua hitzartuko hitzartuta hitzartutako hitzartutakoa hitzartzeko
+27	3727	operadore	operadorea operadoreak operadoreari operadoreei
+28	3728	barbaro	barbaroa barbaroak barbaroei barbaroek barbaroen
+29	3729	temati	tematia tematiagoa tematiak tematiarekin tematikoa
+30	3730	iratzarri	iratzar iratzarriko iratzarrita iratzarritako iratzartzea iratzartzen iratzartzerik
+31	3731	gertuko	gertukoa gertukoagoa gertukoak gertukoei gertukoek gertukoen gertukoena gertukoenak
+32	3732	pi	pia piko pikoak pira piz
+33	3733	urruneko	urrunekoa urrunekoak urrunekoenak
+34	3734	segada	segadak segadan segadatik segaden
+35	3735	lema	lemak leman lemarekin lemaren lematzat
+36	3736	figura	figurak figuran figurarekin figuraren figuretan
+37	3737	suizida	suizidak suizidaren suizidekin suiziden
+38	3738	ustelkeria	ustelkeriak ustelkerian ustelkeriara ustelkeriarekin ustelkeriaren ustelkeriari ustelkeriaz ustelkerietan
+39	3739	zerraldo	zerraldoa zerraldoak zerraldoan zerraldoen zerraldoko zerraldora
+40	3740	biologiko	biologikoa biologikoak biologikoan biologikoari
+41	3741	kakahuete	kakahuetea kakahueteak kakahuetean kakahueteei kakahueterik kakahuetez
+42	3742	nahasmen	nahasmena nahasmenak nahasmenarekin nahasmenaren nahasmenean
+43	3743	doilor	doilorra doilorrak doilorraren doilorrari doilorraz doilorrei doilorren doilorrik
+44	3744	edabe	edabea edabeak edabeaz edabeei edabeetan
+45	3745	tesi	tesia tesiak tesian tesiaren tesiari tesiaz
+46	3746	pobrezia	pobreziak pobrezian pobreziara pobreziarekin pobreziaren pobreziarik pobreziatik
+47	3747	errezel	errezelak errezelarekin errezelean errezelekin errezeleko errezelen errezelengatik errezeletik errezelik
+48	3748	segurtatu	segurta segurtatua segurtatuko segurtatuta segurtatzea segurtatzean segurtatzeko segurtatzen
+49	3749	ontasun	ontasuna ontasunak ontasunarekin ontasunaren ontasunean ontasunerako ontasunez
+50	3750	ukendu	ukendua ukenduak ukenduaren ukenduek ukenduren ukendurik ukenduz
+51	3751	egitasmo	egitasmoa egitasmoak egitasmoarekin egitasmoaren egitasmoari egitasmoaz egitasmoen egitasmoetan egitasmorik egitasmotik
+52	3752	maskor	maskorra maskorrak maskorraren maskorrean maskorrei maskorretik maskorrik
+53	3753	galtzontzilo	galtzontziloa galtzontziloak galtzontziloek galtzontziloetan galtzontzilorik galtzontzilotan
+54	3754	etxetxo	etxetxoa etxetxoak etxetxoan etxetxoarekin etxetxoaz etxetxoetan etxetxoetara etxetxora
+55	3755	partitura	partiturak partituran partiturara partituraren partiturari partiturarik partituraz
+56	3756	ostalari	ostalaria ostalariak ostalariaren ostalariari ostalariek ostalarientzat ostalariz
+57	3757	albaitari	albaitaria albaitariak albaitarian albaitariarekin albaitariaren albaitariarengana albaitariei albaitariek albaitaririk
+58	3758	diputatu	diputatua diputatuak diputatuaren diputatuari diputatuei diputatuek diputatuen
+59	3759	gaztetasun	gaztetasuna gaztetasunak gaztetasunarekin gaztetasunaren gaztetasunaz gaztetasunean
+60	3760	etorbide	etorbidea etorbideak etorbidean etorbidearekin etorbidearen etorbideko etorbidera etorbidetik
+61	3761	milizia	miliziak miliziako miliziakoa milizian miliziarekin miliziaren miliziarentzat miliziatik miliziek
+62	3762	orpo	orpoa orpoak orpoarekin orpoaren orpoen orpoetan orpoetatik orpora orpoz
+63	3763	zeuek	
+64	3764	ezustean	
+65	3765	zaunka	zaunkarik
+66	3766	dinar	dinarrak dinarretan
+67	3767	bingo	bingoan bingoren
+68	3768	xafla	xaflak xaflan xaflarekin xaflari
+69	3769	gisako	gisakoa gisakoak
+70	3770	barbakoa	barbakoak barbakoan barbakoara barbakoarik
+71	3771	benda	bendak benden
+72	3772	gramo	gramoa gramoak gramoko gramokoa gramorekin
+73	3773	ebakuatu	ebakuatuko ebakuatzea ebakuatzeko ebakuatzen ebakuatzera
+74	3774	zortzigarren	zortzigarrena zortzigarrenean
+75	3775	lekukotasun	lekukotasuna lekukotasunagatik lekukotasunak lekukotasunekin lekukotasunez
+76	3776	bigundu	bigunduko biguntzea biguntzen
+77	3777	urdaiazpiko	urdaiazpikoa urdaiazpikoak urdaiazpikoarekin urdaiazpikokoa urdaiazpikorik
+78	3778	abesbatza	abesbatzak abesbatzako abesbatzan abesbatzaren abesbatzaz abesbatzen
+79	3779	alaitasun	alaitasuna alaitasunaren alaitasunean alaitasunez
+80	3780	nadi	nadia nadiak nadiarekin nadiaren nadiarentzat nadiari nadiaz
+81	3781	itu	itua ituak ituan ituaren itura iturik
+82	3782	faltsutu	faltsutuko faltsututako faltsutze faltsutzea faltsutzeagatik faltsutzeko faltsutzen
+83	3783	boligrafo	boligrafoa boligrafoak boligraforik
+84	3784	si	sia sian siri sirik
+85	3785	erasotzaile	erasotzailea erasotzaileak erasotzailearen erasotzaileari erasotzaileei erasotzaileek erasotzaileen
+86	3786	lehendakariorde	lehendakariordea lehendakariordeak lehendakariordearekin lehendakariordearen lehendakariordeetako
+87	3787	zimurtu	zimurtua zimurtuak zimurtuta zimurtutako zimurtzea zimurtzeko zimurtzen
+88	3788	bote	botea boteak botearen botera boterik
+89	3789	konplimendu	konplimendua konplimenduagatik konplimenduak konplimendurik konplimendutan konplimenduz
+90	3790	israeldar	israeldarra israeldarrak israeldarrari israeldarrei israeldarrek israeldarren israeldarrik
+91	3791	gerri	gerria gerriak gerrian gerriaren gerriraino gerrirako gerritik
+92	3792	aran	arana aranak aranean aranekin araneko aranen aranera aranetik
+93	3793	tximinia	tximiniak tximiniako tximinian tximiniaren tximiniarik
+94	3794	dopatu	dopatuta dopatzeko dopatzen dopatzera
+95	3795	etengabeko	etengabekoa
+96	3796	zi	zian ziek ziok zira zitako zitan zitara zitatik
+97	3797	yen	yeneko yenen yenetara yenetik
+98	3798	materia	materiaren materiaz
+99	3799	anabasa	anabasak anabasan anabasaren
+100	3800	flota	flotak flotako flotarekin flotaren flotarik

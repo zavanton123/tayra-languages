@@ -1,0 +1,100 @@
+1	8001	deun	deuna deunaren deunari
+2	8002	salmo	salmoa salmoen
+3	8003	hipnotiko	hipnotikoa hipnotikoak hipnotikoan
+4	8004	entzutetsu	entzutetsua entzutetsuetan
+5	8005	brodatu	brodatua brodatuak
+6	8006	lizeo	lizeoa lizeoan lizeora
+7	8007	burokratiko	burokratikoa burokratikoak burokratikotik
+8	8008	aitatasun	aitatasuna aitatasunak
+9	8009	termo	termoa termoak termorik
+10	8010	sarraskijale	sarraskijaleak sarraskijaleek sarraskijaleen
+11	8011	iraunkortasun	iraunkortasuna iraunkortasunean iraunkortasunerantz iraunkortasunik
+12	8012	abzesu	abzesua abzesuak
+13	8013	futbolzale	futbolzalea futbolzaleak futbolzaleek
+14	8014	telefonia	telefoniak telefoniako
+15	8015	baioneta	baionetak baionetarekin baionetaz
+16	8016	hegoafrikar	hegoafrikara hegoafrikarrak hegoafrikarren
+17	8017	koordinatzaile	koordinatzailea koordinatzailearekin koordinatzailearen
+18	8018	hizkuntzalari	hizkuntzalariak hizkuntzalariek hizkuntzalaririk
+19	8019	apatxe	apatxeak apatxeek apatxeen
+20	8020	kamioizale	kamioizalea kamioizaleak kamioizaleekin
+21	8021	berenjena	berenjenak berenjenaren berenjenekin
+22	8022	udaltzain	udaltzainak udaltzainari udaltzainei
+23	8023	intsektizida	intsektizidak intsektizidari
+24	8024	burujabe	burujabea burujabean burujabeko
+25	8025	kloroformo	kloroformoa kloroformoaren
+26	8026	noria	norian noriaren noriok
+27	8027	legar	legarra legarrarekin legarraz
+28	8028	biribilgune	biribilgunea biribilgunean biribilguneetan biribilgunera
+29	8029	tinbal	tinbalak tinbalekin tinbaletan
+30	8030	berna	bernan bernetako bernetan
+31	8031	egozentriko	egozentrikoa egozentrikoagatik egozentrikoen egozentrikoena
+32	8032	probaldi	probaldiak probaldian
+33	8033	immunitate	immunitatea immunitatearen immunitaterik
+34	8034	berrabiatu	berrabiatuko berrabiatzea berrabiatzeko
+35	8035	kapilau	kapilaua kapilauaren kapilauari
+36	8036	legen	legena legenaz
+37	8037	utero	uteroan uteroko uterorik uterotik
+38	8038	umegorri	umegorria umegorriak
+39	8039	ibaiertz	ibaiertza ibaiertzak ibaiertzean
+40	8040	hegaldun	hegaldunagatik hegaldunak hegaldunek
+41	8041	nabigatzaile	nabigatzailea nabigatzaileek
+42	8042	kontratazio	kontratazioa kontratazioak kontratazioan
+43	8043	antisorgailu	antisorgailua antisorgailuak antisorgailurik
+44	8044	superstizio	superstizioa superstizioak superstizioekin
+45	8045	pixatoki	pixatokia pixatokian pixatokiari pixatokietan
+46	8046	errementari	errementaria errementariak errementariari errementariek
+47	8047	usurpatu	usurpatua usurpatze usurpatzea usurpatzen
+48	8048	erribera	erriberara erriberarako erriberatan erriberatik
+49	8049	munduratu	munduratuko munduratzea munduratzeko munduratzen
+50	8050	eskergabe	eskergabea eskergabeak eskergabeari eskergabekoak
+51	8051	golde	goldeak goldean goldearen goldera
+52	8052	alkimista	alkimistak alkimistarik alkimistek alkimisten
+53	8053	abaildu	abailduko abailduta abailtzearen abailtzeko abailtzen
+54	8054	deportazio	deportazioa deportazioak deportazioekin deportaziorako
+55	8055	deliberatu	deliberatua deliberatuak deliberaturik deliberatuta
+56	8056	insomnio	insomnioa insomnioak insomnioaren insomnioz
+57	8057	zikloi	zikloiak zikloiaren zikloien zikloirik
+58	8058	egoismo	egoismoa egoismoak egoismoarekin egoismorik egoismoz
+59	8059	salbamendu	salbamendua salbamenduak salbamenduko salbamendukoak
+60	8060	biltegiratze	biltegiratzeko
+61	8061	okra	okrez
+62	8062	horditu	horditua hordituta horditzeko horditzen
+63	8063	triangeluar	triangeluaren triangeluarra
+64	8064	alda	aldek alden aldetako aldetan aldetara aldetatik aldez aldon
+65	8065	erdiratu	erdira erdiratuko
+66	8066	zamari	zamaria zamariak zamarik
+67	8067	probeta	probetak probetako probetan probetara probetarako
+68	8068	prefektura	prefekturak prefekturako prefekturan
+69	8069	debut	debuta
+70	8070	debutatu	debuta
+71	8071	kraska	
+72	8072	dinamo	
+73	8073	immunologiko	immunologikoa
+74	8074	epeka	
+75	8075	meme	
+76	8076	haiku	
+77	8077	kliska	
+78	8078	abaraska	
+79	8079	barkabera	
+80	8080	zukugailu	
+81	8081	urrekara	
+82	8082	ekonomista	
+83	8083	besondo	
+84	8084	jakingura	
+85	8085	kimioterapia	
+86	8086	durundi	
+87	8087	erreskada	erreskadan
+88	8088	monopolizatu	
+89	8089	platertxo	platertxoak
+90	8090	musketa	
+91	8091	borragoma	
+92	8092	adjektibo	
+93	8093	birsaldu	birsaltzen
+94	8094	berilio	
+95	8095	partzialki	
+96	8096	gaurdanik	
+97	8097	problematiko	problematikoa
+98	8098	akusatzaile	akusatzailea
+99	8099	txilintxa	txilintxok
+100	8100	behiki	behikia

@@ -1,0 +1,100 @@
+1	1401	kaxa	kaxak kaxako kaxakoak kaxan kaxara kaxarekin kaxaren kaxarik kaxatan kaxatik kaxaz kaxen kaxetan kaxoi
+2	1402	gaizkile	gaizkilea gaizkileak gaizkilearen gaizkilearengatik gaizkileari gaizkileek gaizkileekin gaizkileen gaizkileentzat gaizkileetako gaizkileetatik gaizkileez gaizkileon gaizkilerekin gaizkilerik gaizkiletzat gaizkilez
+3	1403	idazle	idazlea idazleak idazlearekin idazlearen idazlearentzat idazleari idazleei idazleek idazleen idazlek idazleren idazlerik idazletzat
+4	1404	errealitate	errealitatea errealitateak errealitatean errealitatearekin errealitatearen errealitateari errealitateaz errealitateen errealitateetan errealitateetatik errealitateko errealitatekoa errealitatera errealitaterik errealitatetik
+5	1405	japoniar	japoniarenak japoniarra japoniarrak japoniarraren japoniarrarengana japoniarrari japoniarrei japoniarrek japoniarrekin japoniarren japoniarrentzat japoniarrera japoniarrez
+6	1406	txarto	
+7	1407	txorta	txortan txortara txortaren txortarik
+8	1408	alai	alaia alaiago alaiagoa alaiak alaian alaiarekin alaiegi alaiek alaiena alaietan alaietara alaiez alaiko
+9	1409	hegaldi	hegaldia hegaldiak hegaldian hegaldiaren hegaldiaz hegaldietako hegaldietan hegaldiko hegaldira hegaldirako hegaldirik hegalditan
+10	1410	iluntasun	iluntasuna iluntasunagatik iluntasunak iluntasunarekin iluntasunaren iluntasunari iluntasunaz iluntasunean iluntasuneko iluntasunera iluntasunerako iluntasunetik iluntasunez iluntasunik
+11	1411	traste	trastea trasteak trastean trastearekin trastearen trasteari trasteen trasterik trastez
+12	1412	justu	justua justuak justuan justuaren justuena justurik
+13	1413	material	materiala materialak materialarekin materialaren materialean materialek materialekin materialekoa materialen materialera materialez materialik
+14	1414	areto	aretoa aretoak aretoan aretoaren aretoen aretoetako aretoetan aretoko aretora aretorako aretorik aretotan aretotik aretoz
+15	1415	arrosa	arrosak arrosako arrosan arrosarekin arrosaren arrosarik arrosatik arrosaz arrosek arrosekin arrosen arrosengatik arrosetan arrosetara arrosez
+16	1416	gaitasun	gaitasuna gaitasunagatik gaitasunak gaitasunarekin gaitasunaren gaitasunari gaitasunaz gaitasunean gaitasunetatik gaitasunik
+17	1417	zital	zitala zitalagoa zitalak zitalarekin zitalaren zitalari zitalek zitalen zitalena zitalenak zitalez
+18	1418	lider	liderra liderrak liderraren liderrari liderrei liderrek liderrekin liderren liderrentzat liderretako liderrik lidertzat
+19	1419	gailur	gailurra gailurrak gailurraren gailurrari gailurrean gailurreko gailurrera gailurreraino gailurrerako gailurrerantz gailurretan gailurretik gailurrik
+20	1420	lanpostu	lanpostua lanpostuagatik lanpostuak lanpostuan lanpostuarekin lanpostuarengatik lanpostuaz lanpostuen lanpostuetara lanpostuetatik lanpostuez lanpostura lanposturako lanposturik lanpostutatik lanpostutik
+21	1421	aingeru	aingerua aingeruak aingeruarekin aingeruaren aingeruari aingeruei aingeruek aingeruekin aingeruen aingeruetan aingeruk
+22	1422	egokitu	egokitua egokituak egokituko egokituta egokitutako egokituz egokitzea egokitzeak egokitzeari egokitzeko egokitzen egokitzera
+23	1423	presio	presioa presioak presioarekin presioaren presioarengatik presioari presioek presiorik presioz
+24	1424	ebaki	ebakia ebakiak ebakiko ebakirako ebakirik ebakita ebakitik ebakitze ebakitzea ebakitzeagatik ebakitzeko ebakitzen ebakiz
+25	1425	pentsamendu	pentsamendua pentsamenduak pentsamenduan pentsamenduaren pentsamenduek pentsamenduekin pentsamenduen pentsamenduetan pentsamenduetatik pentsamenduok pentsamendurik pentsamendutik pentsamenduz
+26	1426	bortxatu	bortxatua bortxatuak bortxatuko bortxatutako bortxatuz bortxatzea bortxatzeagatik bortxatzeko bortxatzen bortxatzera
+27	1427	baldintza	baldintzak baldintzan baldintzarekin baldintzaren baldintzarik baldintzatan baldintzei baldintzekin baldintzen baldintzetan baldintzez
+28	1428	akordio	akordioa akordioak akordioan akordioaren akordioari akordioei akordioek akordioetan akordioren akordiorik
+29	1429	dorre	dorrea dorreak dorrean dorrearen dorreari dorreaz dorreei dorreek dorreekin dorreen dorreetan dorreetara dorreko dorrekoa dorrera dorrerik dorretatik dorretik
+30	1430	norabide	norabidea norabideak norabidean norabidearekin norabidearen norabideari norabideaz norabideetan norabideko norabiderik norabidetan norabidetik norabidez
+31	1431	itsasontzi	itsasontzia itsasontziak itsasontzian itsasontziaren itsasontziari itsasontziaz itsasontziek itsasontzien itsasontzietatik itsasontziez itsasontziko itsasontzira itsasontzirako itsasontzirik itsasontzitan itsasontzitik itsasontziz
+32	1432	libera	liberak liberako liberakoa liberan liberarekin liberaren liberatan liberatik liberek
+33	1433	oilasko	oilaskoa oilaskoak oilaskoan oilaskoarekin oilaskoari oilaskoei oilaskoen oilaskoetako oilaskoko oilaskorik
+34	1434	kutsatu	kutsa kutsatua kutsatuak kutsatuko kutsaturik kutsatuta kutsatutako kutsatuz kutsatzea kutsatzeari kutsatzeko kutsatzen kutsatzera
+35	1435	dragoi	dragoia dragoiak dragoiarekin dragoiaren dragoiaz dragoiei dragoiek dragoiekin dragoien dragoiko dragoirekin dragoiren dragoirik
+36	1436	barrena	barrenak barrenetan barrenetatik
+37	1437	urratu	urratua urratuak urratuari urratuaz urratuen urratuko urraturik urratuta urratutako urratuz urratze urratzea urratzeagatik urratzean urratzeko urratzen
+38	1438	lehor	lehorra lehorrak lehorraren lehorraz lehorrean lehorregi lehorregia lehorrekin lehorreko lehorrekoa lehorrera lehorrerako lehorrerantz lehorretara lehorretik lehorrez
+39	1439	magia	magiak magiako magian magiara magiarekin magiaren magiarengatik magiari magiarik magiatik magiaz
+40	1440	alokatu	aloka alokatua alokatuak alokatuan alokatuko alokatuta alokatutako alokatuz alokatzea alokatzean alokatzearen alokatzeaz alokatzeko alokatzen
+41	1441	deus	
+42	1442	argitaratu	argitaratua argitaratuak argitaratuko argitaratuta argitaratutako argitaratzea argitaratzeagatik argitaratzean argitaratzeko argitaratzen argitaratzera
+43	1443	tximino	tximinoa tximinoak tximinoarekin tximinoaren tximinoei tximinoek tximinoekin tximinoen tximinoentzat tximinoetatik tximinorik tximinotik
+44	1444	oroitzapen	oroitzapena oroitzapenak oroitzapenarekin oroitzapenaz oroitzapenei oroitzapenek oroitzapenen oroitzapenengatik oroitzapenetan oroitzapenetara oroitzapenetatik oroitzapenez oroitzapenik
+45	1445	akaso	
+46	1446	pazientzia	pazientziak pazientziarekin pazientziaren pazientziarengatik pazientziarik pazientziaz
+47	1447	zakar	zakarra zakarrak zakarraren zakarrean zakarrekin zakarreko zakarrera zakarretan zakarretara zakarrik
+48	1448	mugikor	mugikorra mugikorrak mugikorrarekin mugikorraren mugikorrari mugikorrean mugikorrek mugikorreko mugikorrena mugikorrera mugikorretako mugikorretan mugikorretatik mugikorretik mugikorrik
+49	1449	izotz	izotza izotzak izotzarekin izotzaren izotzari izotzaz izotzean izotzekin izotzen izotzera izotzetan izotzetik izotzez izotzik
+50	1450	futbol	futbola futbolak futbolarekin futbolaren futbolaz futbolean futboleko futbolekoa futbolera futbolerako futboletik
+51	1451	grazia	graziak graziako grazian graziarekin graziaren graziari graziarik graziaz
+52	1452	ilara	ilarak ilarako ilaran ilarara ilararen ilarari ilararik ilaratan ilaratik ilaren ilaretan
+53	1453	soto	sotoa sotoak sotoan sotoaren sotoetan sotoetatik sotoko sotokoa sotora sotoraino sotorik sototik
+54	1454	sinple	sinplea sinpleago sinpleagoa sinpleak sinplean sinpleegia sinpleekin sinpleena sinpleenak sinplekoak
+55	1455	eskualde	eskualdea eskualdeagatik eskualdeak eskualdean eskualdearen eskualdeen eskualdeetako eskualdeetan eskualdeetatik eskualdeko eskualdekoa eskualdekoak eskualdera eskualderako eskualderantz eskualderik eskualdetik
+56	1456	esaldi	esaldia esaldiak esaldian esaldiaren esaldiari esaldien esaldietan esaldiren esaldirik esalditan esaldiz
+57	1457	furgoneta	furgonetak furgonetako furgonetakoa furgonetan furgonetara furgonetarantz furgonetarekin furgonetaren furgonetari furgonetarik furgonetatik furgonetek
+58	1458	giro	giroa giroak giroan giroarekin giroari giroaz giroetan giroko girora girotik giroz
+59	1459	emakumezko	emakumezkoa emakumezkoak emakumezkoarekin emakumezkoaren emakumezkoari emakumezkoek emakumezkoekin emakumezkoen emakumezkoenak emakumezkoetan emakumezkorik emakumezkotik emakumezkotzat
+60	1460	nazka	nazkaz
+61	1461	lodi	lodia lodiago lodiagoa lodiak lodiarekin lodiaren lodiegi lodiegia lodiek lodiekin lodien lodiena lodienak lodiko lodirik lodiz
+62	1462	erantzi	erantz erantziak erantziko erantziozu erantziozue erantzita erantziz eranztea eranzteko eranzten eranztera
+63	1463	kirol	kirola kirolagatik kirolak kirolarekin kirolaren kirolean kiroleko kirolekoak kirolen kirolerako kiroletako kiroletan kiroletara kiroletarako kiroletik kirolez kirolik
+64	1464	menderatu	menderatua menderatuko menderaturik menderatuta menderatutako menderatuz menderatzea menderatzearen menderatzeko menderatzen menderatzera menderatzerik
+65	1465	natural	naturala naturalago naturalagoa naturalak naturalarekin naturalaren naturalean naturaleko naturalekoa naturalekoak naturalen naturalena naturalenak naturalengatik naturalera naturalerako naturaletatik naturaletik naturalez naturalik naturaltzat
+66	1466	kontzertu	kontzertua kontzertuagatik kontzertuak kontzertuan kontzertuaren kontzertuari kontzertuen kontzertuetako kontzertuetan kontzertuetara kontzertuko kontzertura kontzerturako kontzerturik kontzertutik
+67	1467	zaintza	zaintzak zaintzako zaintzakoa zaintzakoak zaintzan zaintzarekin zaintzaren zaintzari zaintzarik zaintzatik zaintzaz
+68	1468	komunista	komunistak komunistako komunistakoa komunistan komunistaren komunistarentzat komunistari komunistarik komunistatzat komunistaz komunistei komunistek komunistekin komunisten komunistenganako komunistentzat komunistok
+69	1469	larunbat	larunbata larunbatak larunbatean larunbateko larunbatera larunbaterako larunbatetan larunbatetik
+70	1470	aireportu	aireportua aireportuak aireportuan aireportuaren aireportuetako aireportuetan aireportuetara aireportuetatik aireportuko aireportukoa aireportura aireporturako aireporturik aireportutik aireportuz
+71	1471	urrats	urratsa urratsak urratsari urratsean urratsei urratsek urratseko urratsen urratserako urratsetan urratsetara urratsez urratsik
+72	1472	erosketa	erosketak erosketako erosketan erosketara erosketarekin erosketaren erosketari erosketarik erosketek erosketekin erosketen erosketengatik erosketetan erosketetara erosketetarako erosketez
+73	1473	gosaldu	gosal gosalduko gosaltzea gosaltzeari gosaltzeaz gosaltzeko gosaltzen gosaltzera
+74	1474	txinatar	txinatarra txinatarrak txinatarrari txinatarrean txinatarrei txinatarrek txinatarrekin txinatarren txinatarrena txinatarrenak txinatarrera txinatarrez txinatarrik
+75	1475	burmuin	burmuina burmuinak burmuinarekin burmuinaren burmuinari burmuinaz burmuinean burmuinek burmuineko burmuinen burmuinera burmuinerako burmuinetan burmuinetara
+76	1476	estu	es este esten estua estuago estuagoa estuak estuan estuarekin estuegi estuegia estuegiak estuekin estuena estuetan estuetatik estura esturen esturik estutan
+77	1477	udaberri	udaberria udaberriak udaberrian udaberriarekin udaberriaren udaberriari udaberriaz udaberriekin udaberriko udaberrira udaberrirako udaberririk udaberritik
+78	1478	eguneroko	egunerokoa egunerokoak egunerokoan egunerokoaren egunerokora
+79	1479	dirutza	dirutzak dirutzarekin dirutzaren dirutzarik dirutzaz
+80	1480	bertako	bertakoa bertakoak bertakoek bertakoekin bertakoen bertakoren
+81	1481	arnastu	arnas arnastea arnasteagatik arnasteak arnastean arnasteko arnasten arnastera
+82	1482	noiztik	
+83	1483	amesgaizto	amesgaiztoa amesgaiztoak amesgaiztoari amesgaiztoek amesgaiztoen amesgaiztoetan amesgaiztoetara amesgaiztoko amesgaiztorik
+84	1484	bazter	bazterra bazterrak bazterrean bazterrek bazterrekin bazterreko bazterren bazterrera bazterretan bazterretara bazterretatik bazterretik bazterrik bazterrok bazterrotan
+85	1485	magiko	magikoa magikoak magikoan magikoarekin magikoaren magikoari magikoaz magikoek magikoekin magikoen magikoetatik magikoez magikoko magikora magikorik magikotik
+86	1486	negoziatu	negozia negoziatuko negoziaturik negoziatuta negoziatzea negoziatzearen negoziatzeko negoziatzen negoziatzera negoziatzerik
+87	1487	astelehen	astelehena astelehenak astelehenarekin astelehenean asteleheneko astelehenekoa astelehenera astelehenerako astelehenetako astelehenetan astelehenetik astelehenez
+88	1488	lehiaketa	lehiaketak lehiaketako lehiaketan lehiaketara lehiaketarako lehiaketarekin lehiaketaren lehiaketarik lehiaketatik lehiaketekin lehiaketen lehiaketetan lehiaketetara
+89	1489	ozen	ozena ozenago ozenagoak ozenak ozenegi ozenetako
+90	1490	miretsi	mirestea miresteari miresteko miresten mirestera mirets miretsia miretsiko miretsita miretsiz
+91	1491	akzio	akzioa akzioak akzioan akzioaren akzioei akzioek akzioekin akzioen akzioengatik akzioetan akzioez akzioko akziorako akziorik akziotan akzioz
+92	1492	gomendatu	gomendatua gomendatuko gomendatuta gomendatutako gomendatutakoa gomendatzea gomendatzeagatik gomendatzeko gomendatzen gomendatzera
+93	1493	ertz	ertza ertzak ertzarekin ertzaren ertzean ertzei ertzekin ertzeko ertzekoa ertzen ertzera ertzeraino ertzerantz ertzetako ertzetan ertzetatik ertzetik ertzez ertzik
+94	1494	urkatu	urkatua urkatuak urkatuko urkatuta urkatuz urkatzea urkatzeak urkatzearen urkatzeko urkatzen urkatzera
+95	1495	ozeano	ozeanoa ozeanoak ozeanoan ozeanoarekin ozeanoaren ozeanoari ozeanoek ozeanoen ozeanoetako ozeanoetan ozeanoko ozeanokoa ozeanora ozeanorantz ozeanoren ozeanotik
+96	1496	eskaera	eskaerak eskaeran eskaerarekin eskaeraren eskaerari eskaerarik eskaerei eskaerekin eskaeren
+97	1497	aro	aroa aroak aroan aroarekin aroaren aroko arokoa arokoak arora arotik
+98	1498	gorte	gortea gorteak gortean gortearekin gortearen gortearentzat gorteari gorteen gorteko gortekoa gortera gorterako gortetik
+99	1499	batzorde	batzordea batzordeak batzordean batzordearekin batzordearen batzordeari batzordeetan batzordeko batzordekoa batzordekoak batzordera batzorderako batzordetik
+100	1500	iraultza	iraultzak iraultzan iraultzara iraultzarekin iraultzaren iraultzari iraultzaz iraultzen

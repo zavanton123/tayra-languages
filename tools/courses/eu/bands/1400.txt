@@ -1,0 +1,100 @@
+1	1301	pilula	pilulak pilularekin pilularen pilularik pilulatan pilulaz pilulei pilulek pilulekin pilulen pilulengatik piluletan
+2	1302	zeozer	
+3	1303	erne	ernea erneago erneagoa erneak ernetzen
+4	1304	merkatu	merkatua merkatuak merkatuan merkatuaren merkatuaz merkatuen merkatuetan merkatuetatik merkatuez merkatuko merkatukoa merkatura merkaturako merkaturen merkaturik merkatutan merkatutik
+5	1305	eszena	eszenak eszenan eszenara eszenarako eszenarekin eszenaren eszenari eszenarik eszenatan eszenatik eszenaz eszenekin eszenen eszenetan eszenez
+6	1306	hots	hotsa hotsak hotsarekin hotsaren hotsarengatik hotsean hotsek hotsen hotsik
+7	1307	natura	naturak naturako naturan naturarekin naturaren naturari naturatik naturaz
+8	1308	maitale	maitalea maitaleak maitalearekin maitalearen maitaleari maitaleei maitaleek maitaleekin maitaleen maitaleentzat maitaleetako maitalerekin maitalerik maitaletzat maitalez
+9	1309	eserleku	eserlekua eserlekuak eserlekuan eserlekuarekin eserlekuaren eserlekuari eserlekuek eserlekuekin eserlekuen eserlekuetako eserlekuetan eserlekuetara eserlekuetatik eserlekuko eserlekukoa eserlekukoak eserlekura eserlekuraino eserlekurik eserlekutako eserlekutik
+10	1310	datu	datua datuak datuek datuekin datuen datuengatik datuetan datuk datuok daturik
+11	1311	landu	landua landuak landuko landutako landuz lantze lantzea lantzean lantzeari lantzeaz lantzeko lantzen lantzera
+12	1312	estilo	estiloa estiloak estiloan estiloarekin estiloaren estiloari estiloaz estiloetan estiloko estilokoa estilokoak estilora estilorik estilotik estiloz
+13	1313	erabateko	erabatekoa erabatekoak erabatekoan erabatekoarekin erabatekoaren erabatekoaz erabatekotik
+14	1314	estimatu	estimatua estimatuak estimatuko estimatuta estimatzea estimatzeak estimatzeko estimatzen
+15	1315	kezka	kezkak kezkarako kezkaren kezkarik kezkaz kezkei kezkek kezken kezkengatik kezketako kezketatik
+16	1316	edertasun	edertasuna edertasunagatik edertasunak edertasunarekin edertasunaren edertasunarengatik edertasunari edertasunaz edertasunean edertasuneko edertasunetik edertasunez edertasunik
+17	1317	igarri	igar igarriko igartzearen igartzeko igartzen
+18	1318	ugari	ugaria ugariago ugariagoak ugariak ugariegiak ugariei ugariek ugarien ugariena ugarietako ugariko ugarikoa ugarikoak ugarira ugarirekin ugariren ugariri ugaritan ugariz
+19	1319	irteera	irteerak irteerako irteerakoa irteerakoak irteeran irteerara irteerarako irteerarantz irteeraren irteerarik irteeratik irteerekin
+20	1320	zeharo	
+21	1321	nortasun	nortasuna nortasunak nortasunarekin nortasunaren nortasunari nortasunaz nortasunean nortasunetik nortasunez nortasunik
+22	1322	mozkor	mozkorra mozkorragatik mozkorrago mozkorragoa mozkorrak mozkorraren mozkorrarengatik mozkorrari mozkorregi mozkorregia mozkorrei mozkorrek mozkorrekin mozkorren mozkorrena mozkorrik mozkortzat
+23	1323	sare	sarea sareak sarean sarearekin sarearen sareari sareekin sareen sareetan sareetara sareetarantz sareetatik sareko sarera sarerik saretan saretik
+24	1324	egiaztatu	egiazta egiaztatua egiaztatuak egiaztatuko egiaztatuta egiaztatutako egiaztatuz egiaztatzea egiaztatzeko egiaztatzen egiaztatzera
+25	1325	handitu	handitua handituen handituez handituko handituta handituz handitze handitzea handitzeak handitzean handitzeko handitzen
+26	1326	jabetu	jabetua jabetuko jabeturik jabetuta jabetzea jabetzeagatik jabetzeaz jabetzeko jabetzen jabetzera
+27	1327	sasoi	sasoia sasoiak sasoian sasoiaren sasoiekin sasoien sasoiengatik sasoiko sasoikoa sasoikoak sasoira sasoirako sasoirik sasoitik sasoiz
+28	1328	rock	rocka rockaren rockek rockeko rocken rockera rockeraino rocketik rockik rockok
+29	1329	iruzur	iruzurra iruzurragatik iruzurrak iruzurraren iruzurrarengatik iruzurraz iruzurrean iruzurrei iruzurren iruzurrez iruzurrik
+30	1330	ipuin	ipuina ipuinak ipuinarekin ipuinaren ipuinean ipuinekin ipuineko ipuinen ipuinera ipuinetako ipuinetan ipuinetatik ipuinez ipuinik
+31	1331	bikoitz	bikoitza bikoitzagatik bikoitzak bikoitzarekin bikoitzaren bikoitzaz bikoitzean bikoitzek bikoitzeko bikoitzen bikoitzetik bikoitzez bikoitzik
+32	1332	besarkatu	besarka besarkatua besarkatuko besarkaturik besarkatuta besarkatuz besarkatze besarkatzea besarkatzearekin besarkatzearen besarkatzeaz besarkatzeko besarkatzen besarkatzera besarkatzerik
+33	1333	lankide	lankidea lankideak lankidearekin lankidearen lankideari lankideei lankideek lankideekin lankideen lankideentzat lankideetako lankideez lankideok lankideren lankiderik
+34	1334	gas	gasa gasagatik gasak gasarekin gasaren gasekin gaseko gasen gaserako gasetan gasetik gasez gasik
+35	1335	titi	titia titiak titian titiei titiek titiekin titien titiengatik titietan titietara titietatik titiez titirik tititako
+36	1336	kobratu	kobratuko kobratuta kobratuz kobratze kobratzea kobratzeak kobratzeko kobratzen kobratzera
+37	1337	henry	
+38	1338	bazkaldu	bazkal bazkalduko bazkaltze bazkaltzea bazkaltzeko bazkaltzen bazkaltzera
+39	1339	mendebalde	mendebaldea mendebaldeak mendebaldean mendebaldearekin mendebaldearen mendebaldearentzat mendebaldekoa mendebaldera mendebalderako mendebalderantz mendebaldetik
+40	1340	gazta	gaztakoa gaztarekin gaztaren gaztarik gaztatara gaztek gazten gaztetako gaztetan gaztetatik gaztez
+41	1341	apartamentu	apartamentua apartamentuak apartamentuan apartamentuarekin apartamentuaren apartamentuei apartamentuetako apartamentuetan apartamentuko apartamentukoak apartamentura apartamenturako apartamenturik apartamentutan apartamentutik
+42	1342	behatz	behatza behatzak behatzarekin behatzaren behatzaz behatzean behatzei behatzek behatzekin behatzeko behatzen behatzentzat behatzetan behatzetara behatzetarako behatzetatik behatzetik behatzez behatzik
+43	1343	arduradun	arduraduna arduradunak arduradunarekin arduradunaren arduradunari arduradunaz arduradunei arduradunek arduradunekin arduradunen arduradunetako
+44	1344	miatu	mia miatuko miatuta miatze miatzea miatzean miatzeko miatzen miatzera
+45	1345	txapeldun	txapelduna txapeldunak txapeldunaren txapeldunarengana txapeldunarentzat txapeldunari txapeldunean txapeldunei txapeldunen txapeldunentzat txapeldunik txapeldunok txapelduntzat
+46	1346	botika	botikak botikan botikara botikaren botikari botikarik botikatarako botikatik botikekin botiken botiketara botiketarako botikez
+47	1347	kontaktu	kontaktua kontaktuak kontaktuan kontaktuarekin kontaktuaren kontaktuari kontaktuei kontaktuek kontaktuen kontaktuetan kontaktuko kontakturako kontakturik kontaktuz
+48	1348	nazional	nazionala nazionalagatik nazionalak nazionalarekin nazionalaren nazionalarentzat nazionalari nazionalaz nazionalean nazionalei nazionalek nazionaleko nazionalekoa nazionalekoak nazionalen nazionalera nazionalerako nazionaletako nazionaletan nazionaletik
+49	1349	idazkari	idazkaria idazkariak idazkariarekin idazkariaren idazkariari idazkariaz idazkariei idazkariek idazkarien idazkaririk
+50	1350	noble	noblea nobleagoa nobleak noblearekin noblearen nobleei nobleek nobleekin nobleen nobleena nobleenak nobleetan noblekoa noblerik
+51	1351	kirats	kiratsa kiratsak kiratsaren kiratsari kiratsaz kiratserako kiratsik
+52	1352	hezi	hez hezia heziak heziko hezita hezitako hezitakoa hezitzeak hezitzeko hezitzen hezitzera heziz heztea hezteari hezteko hezten
+53	1353	zinema	zinemak zinemako zinemakoa zineman zinemara zinemarako zinemaren zinemarentzat zinemari zinemarik zinematik zinemaz zinemetako zinemetan zinemetatik
+54	1354	mirari	miraria mirariak mirariaren mirariaz mirariei mirariekin mirarien mirarietan mirariez mirariren miraririk mirariz
+55	1355	maiz	maizago maizegi
+56	1356	teoria	teoriak teorian teoriarako teoriarekin teoriaren teoriari teoriarik teoriatik teoriaz teoriek teorietan
+57	1357	talentu	talentua talentuak talentuan talentuarekin talentuaren talentuari talentuaz talentuen talentuko talenturen talenturik talentuz
+58	1358	hustu	huste hustea husteagatik husteko husten hustera hustua hustuak hustuko hustuta hustutako hustuz
+59	1359	bidezko	bidezkoa bidezkoago bidezkoak bidezkoek bidezkoena bidezkora bidezkorik
+60	1360	bular	bularra bularrak bularrarekin bularraren bularrari bularrean bularrei bularrekin bularreko bularren bularrentzat bularrera bularreraino bularrerako bularretan bularretara bularretatik bularretik bularrez bularrik
+61	1361	ospe	ospea ospeagatik ospeak ospearekin ospearen ospeari ospeaz ospeko ospera osperako osperik
+62	1362	presa	presak presako presara presarekin presaren presarik presaz presekin presok
+63	1363	baieztatu	baiezta baieztatua baieztatuko baieztatuta baieztatuz baieztatzea baieztatzeko baieztatzen baieztatzera baieztatzerik
+64	1364	operazio	operazioa operazioagatik operazioak operazioan operazioarekin operazioaren operazioari operazioei operazioek operazioen operazioetako operazioetan operazioetarako operazioetatik operaziora operaziorako operaziorik
+65	1365	aldizkari	aldizkaria aldizkariak aldizkarian aldizkariaren aldizkariari aldizkariei aldizkariek aldizkarien aldizkarietako aldizkarietan aldizkarietarako aldizkarik aldizkariko aldizkarikoa aldizkarira aldizkarirako aldizkariren aldizkaririk aldizkaritik
+66	1366	base	basea baseak basean basearen baseari baseetan baseetatik baseko basera baseraino baserantz basetik
+67	1367	eguraldi	eguraldia eguraldiagatik eguraldiak eguraldiarekin eguraldiaren eguraldiari eguraldiaz eguraldietan eguraldirako
+68	1368	gay	gaya gayak gayaren gayaz gayei gayek gayekin gayen gayentzat
+69	1369	bukaera	bukaerak bukaerako bukaerakoa bukaeran bukaerara bukaeraraino bukaerarako bukaerarantz bukaeraren bukaerari bukaerarik bukaeratan bukaeratik bukaerek bukaerengatik
+70	1370	jauregi	jauregia jauregiak jauregian jauregiarekin jauregiaren jauregiarentzat jauregiari jauregietan jauregiko jauregikoak jauregira jauregirako jauregirik jauregitik
+71	1371	zesar	zesarean zesarrek zesarren zesarrentzat
+72	1372	iragarri	iragar iragarria iragarriko iragarrita iragarritako iragarritakoa iragarriz iragartzea iragartzeagatik iragartzeak iragartzean iragartzeko iragartzen iragartzera
+73	1373	zapore	zaporea zaporeak zaporearekin zaporearen zaporeaz zaporeek zaporeetan zaporeko zaporekoa zaporekoak zaporerik zaporetako zaporez
+74	1374	ordezkari	ordezkaria ordezkariak ordezkariarekin ordezkariari ordezkariei ordezkariek ordezkariekin ordezkarien ordezkarietako ordezkariez ordezkariok ordezkariren ordezkaririk
+75	1375	antzeratu	antzera antzeratzen
+76	1376	honelako	honelakoa honelakoak honelakoetan honelakorik
+77	1377	popa	popak popan poparekin poparen popatik
+78	1378	aitzakia	aitzakiak aitzakian aitzakiarekin aitzakiaren aitzakiarik aitzakiatan aitzakiatzat aitzakiaz aitzakiekin aitzakiez
+79	1379	ezberdin	ezberdina ezberdinak ezberdinean ezberdinek ezberdinekin ezberdineko ezberdinen ezberdinetako ezberdinetan ezberdinetara ezberdinetatik ezberdinez
+80	1380	arriskatu	arriskatua arriskatuko arriskatuz arriskatzea arriskatzeak arriskatzeko arriskatzen arriskatzera
+81	1381	nolatan	
+82	1382	inola	
+83	1383	eztabaida	eztabaidak eztabaidan eztabaidara eztabaidarako eztabaidaren eztabaidarik eztabaidatik eztabaidei eztabaidekin eztabaiden eztabaidetan eztabaidetara
+84	1384	hantxe	
+85	1385	gastatu	gasta gastatua gastatuak gastatuko gastatuta gastatutako gastatuz gastatzea gastatzeagatik gastatzeak gastatzeari gastatzeko gastatzen
+86	1386	tresna	tresnak tresnan tresnara tresnarekin tresnaren tresnarik tresnatzat tresnek tresnekin tresnen tresnetako tresnetan
+87	1387	beroki	berokia berokiagatik berokiak berokian berokiarekin berokiaren berokiari berokietako berokiok berokirekin berokirik berokitik
+88	1388	bedeinkatu	bedeinka bedeinkatua bedeinkatuak bedeinkatuko bedeinkatuta bedeinkatzea bedeinkatzeko bedeinkatzen
+89	1389	traidore	traidorea traidoreak traidorearekin traidorearen traidorearentzat traidoreari traidoreei traidoreek traidoreen traidoreena traidoreentzat traidorerik traidoretzat traidorez
+90	1390	seguruenik	
+91	1391	sakatu	saka sakatuko sakatuta sakatuz sakatzea sakatzean sakatzearekin sakatzeko sakatzen sakatzera
+92	1392	leial	leiala leialagoak leialak leialaren leialari leialean leialei leialek leialekin leialen leialena leialenak leialez leialtzat
+93	1393	puska	puskak puskarekin puskaren puskatan puskaz puskekin pusketan
+94	1394	premia	premiak premiako premian premiarekin premiaren premiarengatik premiarik premiatan premiaz premien premietan
+95	1395	zaldun	zalduna zaldunak zaldunarekin zaldunaren zaldunari zaldunei zaldunek zaldunekin zalduneko zaldunen zaldunentzat zaldunetako zaldunetan zaldunik zaldunok
+96	1396	apuntatu	apunta apuntatua apuntatuko apuntatuta apuntatutako apuntatuz apuntatzea apuntatzeari apuntatzeko apuntatzen
+97	1397	duke	dukea dukeak dukearekin dukearen dukearentzat dukeari dukeko
+98	1398	ohitura	ohiturak ohiturarekin ohituraren ohiturari ohiturarik ohituraz ohiturei ohiturek ohiturekin ohituren ohituretan ohituretara ohiturez
+99	1399	ailegatu	ailegatuak ailegatuko ailegatuta ailegatzea ailegatzean ailegatzeko ailegatzen
+100	1400	egunsenti	egunsentia egunsentiak egunsentian egunsentiarekin egunsentiaren egunsentiari egunsentiko egunsentira egunsentirako egunsentirantz egunsentirik egunsentitik

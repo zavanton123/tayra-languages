@@ -1,0 +1,100 @@
+1	8401	tribal	tribala
+2	8402	zerrauts	zerrautsa zerrautsetan zerrautsetatik
+3	8403	entzuketa	entzuketak entzuketen
+4	8404	sofiar	sofiarekin sofiaren
+5	8405	urki	urkiak urkitik
+6	8406	kolaborazionista	kolaborazionistaren kolaborazionisten
+7	8407	basaran	basaranak basaranen
+8	8408	aintzazko	aintzazkoa
+9	8409	eultzilari	eultzilaria
+10	8410	metropolitano	metropolitanoa metropolitanoan metropolitanoko
+11	8411	udatiar	udatiarrak udatiarren
+12	8412	degradatu	degradatuko
+13	8413	irrintzi	irrintziak irrintzirik
+14	8414	txantxangorri	txantxangorria
+15	8415	robotiko	robotikoa
+16	8416	xantaiagile	xantaiagilea xantaiagileak
+17	8417	ubera	uberan
+18	8418	txirringa	txirringan txirringarekin
+19	8419	jendaurre	jendaurreko jendaurrera
+20	8420	puzgarri	puzgarrian puzgarriarekin
+21	8421	abstentzio	abstentzioa abstentzioak
+22	8422	pezeta	pezetan pezetarekin
+23	8423	bilur	bilurra bilurrak bilurrekin
+24	8424	etxarte	etxartera etxartetik
+25	8425	operatibo	operatiboa operatiboak
+26	8426	zeremoniatsu	zeremoniatsua zeremoniatsuago
+27	8427	perfumatu	perfumatua perfumatuak
+28	8428	aretozain	aretozaina aretozainak
+29	8429	izapide	izapideak
+30	8430	akatsgabe	akatsgabea akatsgabeak
+31	8431	hareatza	hareatzan hareatzara
+32	8432	banitate	banitatea banitateak
+33	8433	mitxoleta	mitxoletaren
+34	8434	demografiko	demografikoak demografikoan demografikoetan
+35	8435	prestigio	prestigioa prestigioaren
+36	8436	burdindegi	burdindegian burdindegira
+37	8437	idisko	idiskoa
+38	8438	lintxatu	lintxatzera
+39	8439	lintxamendu	lintxamendua lintxamendutik
+40	8440	elektrokuzio	elektrokuzioa
+41	8441	humanitate	humanitatea humanitatearen humanitateaz
+42	8442	txat	txata txateko
+43	8443	eufemismo	eufemismoa eufemismoak
+44	8444	intoxikazio	intoxikazioa intoxikazioagatik
+45	8445	proletario	proletarioak
+46	8446	erregailu	erregailua erregailuarekin
+47	8447	batata	batatak
+48	8448	soldadugai	soldadugaiak soldadugaien
+49	8449	atzerakin	atzerakinak atzerakinik
+50	8450	itzalkin	itzalkina itzalkinak
+51	8451	ihi	ihia ihiek
+52	8452	unionista	unionistek unionisten
+53	8453	solaskide	solaskideak solaskidearekin
+54	8454	parentesi	parentesia
+55	8455	olana	olanara olanatik
+56	8456	irabiagailu	irabiagailua irabiagailuan irabiagailuarekin
+57	8457	txantiloi	txantiloiak
+58	8458	sukoi	sukoia sukoiak
+59	8459	bits	bitsa bitsarekin bitsetan
+60	8460	sendategi	sendategiei sendategietan sendategira
+61	8461	adabaki	adabakia adabakiak adabakirekin
+62	8462	disolbatzaile	disolbatzailea disolbatzailerik
+63	8463	oinazetsu	oinazetsua
+64	8464	sailburu	sailburuak
+65	8465	deitzaile	deitzailea deitzaileak
+66	8466	hertsi	hertsia hertsiegia hertsirik
+67	8467	furgoi	furgoiarekin furgoietara
+68	8468	etxekotu	etxekotua etxekotuak
+69	8469	marratxo	marratxoak marratxoaz
+70	8470	metodista	metodistak metodisten
+71	8471	koloredun	koloreduna koloredunak
+72	8472	kaltzio	kaltzioa kaltzioaren
+73	8473	hegatxabal	hegatxabala hegatxabalaren
+74	8474	hipotetiko	hipotetikoa hipotetikoan
+75	8475	pitoi	pitoiak pitoirik
+76	8476	pistoi	pistoia pistoiak pistoiaren
+77	8477	kirikino	kirikinoa
+78	8478	katamixar	katamixarra katamixarrak
+79	8479	filmegile	filmegileak filmegileek
+80	8480	gomuta	gomutan
+81	8481	ohekide	ohekidea ohekidearen
+82	8482	legelari	legelaria legelariekin
+83	8483	pederasta	pederastak
+84	8484	txetxeniar	txetxeniarra txetxeniarrean
+85	8485	mozkorkeria	mozkorkerian mozkorkeriaren mozkorkeriatan
+86	8486	errekasto	errekastoa errekastoek
+87	8487	herdoil	herdoila herdoilaren
+88	8488	irispide	irispidea irispidetik
+89	8489	mirra	mirraz
+90	8490	diferentzial	diferentziala diferentzialik
+91	8491	kuakero	kuakeroa kuakeroen
+92	8492	olibondo	olibondoa
+93	8493	petroglifo	petroglifoak petroglifoaren
+94	8494	fular	fularra fularrak fularrarekin
+95	8495	bikoizle	bikoizlea bikoizlearen
+96	8496	apardun	aparduna
+97	8497	laukoitz	laukoitza laukoitzaren
+98	8498	autoktono	autoktonoa autoktonoak autoktonoen
+99	8499	gogorkeria	gogorkerian gogorkeriarik
+100	8500	uharri	uharrian uharrietatik

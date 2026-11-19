@@ -1,0 +1,100 @@
+1	401	atzera	
+2	402	arraro	arraroa arraroagatik arraroagoa arraroagoak arraroak arraroan arraroarekin arraroaren arraroari arraroegia arraroegiak arraroei arraroek arraroekin arraroen arraroena arraroenak arraroetan arraroetatik arraroko arraroren arrarorik arrarotzat arraroz
+3	403	berezi	berezia bereziago bereziagoa bereziak berezian bereziarekin bereziaren bereziari bereziaz bereziegia bereziei bereziek bereziekin berezien bereziena berezienak bereziengatik berezientzat berezietako berezietan berezietara bereziez bereziko berezikoa berezira berezirako bereziren berezirik berezitan berezitik berezitzat
+4	404	konturatu	kontura konturatua konturatuko konturaturik konturatuta konturatzea konturatzeak konturatzean konturatzearen konturatzeaz konturatzeko konturatzen
+5	405	ohe	ohea oheagatik oheak ohean ohearekin ohearen oheari oheaz oheek oheen oheetan oheetara oheko ohekoa ohera oheraino oherako oheri oherik ohetan ohetik
+6	406	jada	
+7	407	heriotza	herio heriotzak heriotzako heriotzan heriotzara heriotzaraino heriotzarako heriotzarantz heriotzarekin heriotzaren heriotzarengatik heriotzari heriotzarik heriotzatik heriotzaz heriotzek heriotzekin heriotzen heriotzengatik heriotzetan heriotzok
+8	408	garbi	garbia garbiagatik garbiago garbiagoa garbiagoak garbiak garbian garbiaren garbiaz garbiegiak garbiekin garbien garbiena garbientzat garbietako garbiko garbikoa garbikoak garbira garbirik garbitan
+9	409	mutiko	mutikoa mutikoak mutikoarekin mutikoaren mutikoarengana mutikoarengandik mutikoarengatik mutikoarentzat mutikoari mutikoaz mutikoei mutikoek mutikoekin mutikoen mutikoez mutikok mutikook mutikoren mutikori mutikorik mutikotako mutikotan mutikotzat mutikoz
+10	410	hanka	hankak hankako hankakoa hankan hankara hankarekin hankaren hankari hankarik hankatan hankatik hankaz hankei hankek hankekin hanken hankengatik hanketako hanketan hanketara hanketatik
+11	411	ezetz	ezetza ezetzik
+12	412	primeran	
+13	413	madarikatu	madarika madarikatua madarikatuak madarikatuan madarikatuarekin madarikatuaren madarikatuari madarikatuaz madarikatuei madarikatuek madarikatuekin madarikatuen madarikatuengan madarikatuengandik madarikatuengatik madarikatuetako madarikatuetan madarikatuk madarikatuko madarikatuok madarikatuokin madarikatura madarikaturen madarikaturik madarikatuta madarikatutako madarikatutik madarikatzearekin madarikatzen
+14	414	kontra	kontrako
+15	415	zorte	zortea zorteagatik zorteak zortean zortearekin zortearen zorteaz zorteko zortekoa zorterik zortetara zortetzat zortez
+16	416	zabaldu	zabal zabaldua zabalduak zabalduko zabaldurik zabalduta zabaldutako zabalduz zabaltze zabaltzea zabaltzeagatik zabaltzeak zabaltzean zabaltzearekin zabaltzearen zabaltzeko zabaltzen zabaltzera zabaltzerik
+17	417	pare	parea pareak parean parearekin parearen pareaz pareko parekoa parekoak parera pareraino parerik paretako paretan paretara paretatik paretik parez
+18	418	baizik	
+19	419	lasaitu	lasaitua lasaituko lasaiturik lasaituta lasaituz lasaitzea lasaitzean lasaitzeko lasaitzen lasaitzera
+20	420	bigarren	bigarrena bigarrenak bigarrenarekin bigarrenaren bigarrenarentzat bigarrenari bigarrenaz bigarreneko bigarrenera bigarrenetik bigarrenez bigarrenik
+21	421	ostia	ostiak ostiako ostian ostiaren ostiarik ostiatan ostiatik ostiaz
+22	422	zikin	zikina zikinagatik zikinago zikinagoa zikinagoak zikinak zikinarekin zikinaren zikinari zikinean zikinegia zikinei zikinek zikinekin zikinekoa zikinekoak zikinen zikinena zikinenak zikinengatik zikinera zikinerako zikinetako zikinetan zikinetara zikinetik zikinez zikinik zikinok zikinongatik zikintzat
+23	423	film	filma filmak filmarekin filmaren filmarentzat filmari filmaz filmean filmei filmek filmekin filmeko filmekoa filmekoak filmen filmengatik filmera filmerako filmetako filmetan filmetara filmetatik filmetik filmez filmik
+24	424	bulego	bulegoa bulegoak bulegoan bulegoarekin bulegoaren bulegoari bulegoaz bulegoen bulegoetan bulegoetara bulegoetatik bulegoko bulegokoa bulegora bulegorako bulegorantz bulegoren bulegorik bulegotara bulegotik bulegotzat bulegoz
+25	425	aspaldi	aspaldian aspaldiko aspaldikoa aspaldikoak aspaldikoaren aspaldikoek aspalditik
+26	426	milioi	milioia milioiak milioiaren milioiek milioiekin milioien milioiengatik milioietako milioietara milioiez milioiko milioikoa milioiok milioira milioiraino milioirako milioirekin milioitako milioitan milioitik
+27	427	joko	jokoa jokoagatik jokoak jokoan jokoarekin jokoaren jokoari jokoaz jokoek jokoekin jokoen jokoetako jokoetan jokoetara jokoetarako jokoetatik jokoez jokoko jokora jokorako jokorekin jokorik jokotan jokotik jokoz
+28	428	desagertu	desager desagertua desagertuak desagertuko desagerturik desagertuta desagertutako desagertuz desagertze desagertzea desagertzeagatik desagertzeak desagertzean desagertzearekin desagertzearen desagertzeari desagertzeko desagertzen desagertzera desagertzerik
+29	429	borrokatu	borrokatua borrokatuko borrokaturik borrokatutako borrokatuz borrokatzea borrokatzeak borrokatzean borrokatzearekin borrokatzeari borrokatzeaz borrokatzeko borrokatzen borrokatzera borrokatzerik
+30	430	guraso	gurasoa gurasoak gurasoei gurasoek gurasoekin gurasoen gurasoengatik gurasoentzat gurasoez gurasok gurasook gurasorik gurasotzat gurasoz
+31	431	plan	plana planagatik planak planarekin planaren planarengatik planari planaz planean planei planek planekin planen planera planerako planetako planetan planetara planetatik planez planik
+32	432	egoki	egokia egokiago egokiagoa egokiagoak egokiak egokian egokiarekin egokiaren egokiarentzat egokiari egokiaz egokiei egokiekin egokien egokiena egokienak egokiengatik egokietan egokietara egokiko egokira egokiren egokirik egokitzat
+33	433	aski	askirekin
+34	434	txakur	txakura txakurak txakurra txakurragatik txakurrak txakurrarekin txakurraren txakurrarengana txakurrarengatik txakurrarentzat txakurrari txakurraz txakurrean txakurrei txakurrek txakurrekin txakurren txakurrengan txakurrengana txakurrentzat txakurretan txakurretara txakurrez txakurri txakurrik txakurrok txakurtzat
+35	435	arduratu	arduratua arduratuko arduraturik arduratuta arduratuz arduratzea arduratzeagatik arduratzearekin arduratzearen arduratzeko arduratzen arduratzera
+36	436	bitxi	bitxia bitxiagatik bitxiagoa bitxiagoak bitxiak bitxian bitxiarekin bitxiaren bitxiari bitxiaz bitxiei bitxiek bitxiekin bitxien bitxiena bitxietan bitxiez bitxiko bitxirako bitxiren bitxiri bitxirik bitxitan bitxiz
+37	437	goi	goia goiak goian goiari goiena goiko goikoa goikoak goitik
+38	438	bestela	
+39	439	txantxa	txantxak txantxako txantxan txantxarekin txantxaren txantxarik txantxatako txantxatan txantxaz txantxei txantxekin txantxen txantxetako txantxetan txantxetarako txantxetatik
+40	440	iritzi	deritzete deritzezu deritzezue deritzo deritzogu deritzok deritzot deritzote deritzozu deritzozue iritzia iritziagatik iritziak iritzian iritziarekin iritziaren iritziari iritziaz iritziei iritziek iritzien iritzietara iritziko iritzira iritzirako iritziren iritzirik iritziz irizten na neritzon zeritzan zeritzon zeritzoten
+41	441	aipatu	aipa aipatua aipatuak aipatuko aipaturik aipatuta aipatutako aipatutakoa aipatuz aipatze aipatzea aipatzeagatik aipatzeak aipatzean aipatzeaz aipatzeko aipatzen
+42	442	atxilotu	atxilo atxilotua atxilotuak atxilotuek atxilotuen atxilotuetako atxilotuko atxiloturen atxiloturik atxilotuta atxilotutako atxilotuz atxilotze atxilotzea atxilotzeagatik atxilotzeak atxilotzean atxilotzeari atxilotzeko atxilotzen atxilotzera
+43	443	asmatu	asma asmaidazu asmatua asmatuak asmatuko asmatuta asmatutako asmatutakoa asmatuz asmatze asmatzea asmatzeak asmatzean asmatzeari asmatzeko asmatzen asmatzera asmatzerik
+44	444	parte	partea parteak partean partearekin partearen parteari parteaz parteetako parteko partera parteraino parterekin parteren parterik partetan partetatik partetik partetzat partez
+45	445	ezkutatu	ezkuta ezkutatua ezkutatuko ezkutaturik ezkutatuta ezkutatutako ezkutatutakoa ezkutatuz ezkutatzea ezkutatzeagatik ezkutatzeak ezkutatzean ezkutatzeari ezkutatzeaz ezkutatzeko ezkutatzen ezkutatzera ezkutatzerik
+46	446	demontre	demontrea demontreko demontrera demontrerekin demontreren demontreri demontretan demontrez
+47	447	hazi	haz hazia haziak haziaren haziarentzat haziekin hazien haziko hazira hazita hazitako hazitakoa hazitarako hazitik hazitzen haziz haztea hazteagatik hazteak haztean haztearen hazteari hazteko hazten haztera
+48	448	nahiago	
+49	449	igaro	igaroa igarota igarotako igarotakoa igarotze igarotzea igarotzeagatik igarotzeak igarotzean igarotzearen igarotzeko igarotzen igarotzera igarotzerik igaroz iragan iragana
+50	450	bero	beroa beroagatik beroago beroagoa beroagoak beroak beroan beroarekin beroaren beroari beroaz beroegi beroegia beroegiak beroen beroena beroenak beroentzat beroetako beroetan beroetara beroetarako beroko berorik berotan berotik beroz
+51	451	tori	
+52	452	ontzi	ontzia ontziak ontzian ontziarekin ontziaren ontziari ontziaz ontziei ontziek ontziekin ontzien ontzietako ontzietan ontzietara ontzietatik ontziez ontziko ontzira ontziren ontzirik ontzitan ontzitik ontziz untzi
+53	453	merezi	merezia mereziak mereziari mereziko merezitako
+54	454	mediku	medikua medikuak medikuan medikuarekin medikuaren medikuarengan medikuarengana medikuari medikuaz medikuei medikuek medikuekin medikuen medikuengana medikuengatik medikuentzat medikuetako medikuetan medikuetara medikuk medikuko medikura medikuren medikurik medikutara medikutatik medikutik
+55	455	ile	ilea ileagatik ileak ilean ilearekin ilearen ilearentzat ileari ileaz ileek ileekin ileen ileetako ileetatik ileko ilera ilerako ilerik iletatik iletik iletzat ilez
+56	456	janari	janaria janariagatik janariak janarian janariarekin janariaren janariarengatik janariari janariaz janariei janarien janariengatik janarietan janariko janariraino janarirako janarirantz janariren janaririk janaritako janaritan janaritarako janaritik janaritzat janariz
+57	457	musika	musikak musikako musikan musikara musikarako musikarekin musikaren musikarengatik musikarentzat musikarik musikaz
+58	458	gidatu	gida gidatua gidatuak gidatuko gidaturik gidatuta gidatutako gidatutakoa gidatuz gidatze gidatzea gidatzeagatik gidatzeak gidatzean gidatzeari gidatzeko gidatzen gidatzera
+59	459	altxatu	altxa altxatuko altxaturik altxatuta altxatutako altxatzea altxatzeagatik altxatzean altxatzeaz altxatzeko altxatzen altxatzera
+60	460	gorroto	gorrotoa gorrotoagatik gorrotoak gorrotoan gorrotoarekin gorrotoaren gorrotoari gorrotoaz gorrotoko gorrotora gorrotorako gorrotorik gorrototik gorrotoz
+61	461	sei	seia seiak seian seiarekin seiaren seiek seietan seietatik seik seikoa seira seirekin seitik
+62	462	gertu	gertuago gertuan gertuegi gertuen gertuena gertukoa gertukoak gertura gerturako gerturik
+63	463	irakasle	irakaslea irakasleagatik irakasleak irakaslean irakaslearekin irakaslearen irakaslearengan irakaslearengandik irakaslearentzat irakasleari irakasleaz irakasleei irakasleek irakasleen irakasleez irakasleok irakasleren irakaslerik irakasletan irakasletzat
+64	464	aukeratu	aukeratua aukeratuak aukeratuko aukeratuta aukeratutako aukeratuz aukeratzea aukeratzeagatik aukeratzeak aukeratzean aukeratzeari aukeratzeko aukeratzen aukeratzera aukeratzerik
+65	465	gorri	gorria gorriagatik gorriagoa gorriak gorrian gorriarekin gorriaren gorriarengatik gorriarentzat gorriari gorriaz gorriei gorriek gorriekin gorrien gorriena gorrientzat gorrietan gorrietara gorrietatik gorriko gorrikoa gorrira gorriraino gorrirako gorrirekin gorrirentzat gorririk gorritan gorritik gorriz
+66	466	milesker	
+67	467	hasiera	hasierak hasierako hasierakoa hasierakoak hasieran hasierara hasierarako hasierarekin hasieraren hasierari hasierarik hasieratik hasierengatik hasieretako hasieretan
+68	468	ixo	
+69	469	gonbidatu	gonbida gonbidatua gonbidatuak gonbidatuarekin gonbidatuari gonbidatuei gonbidatuek gonbidatuekin gonbidatuen gonbidatuengana gonbidatuentzat gonbidatuetako gonbidatuetatik gonbidatuko gonbidaturen gonbidaturik gonbidatuta gonbidatutzat gonbidatuz gonbidatzea gonbidatzeagatik gonbidatzeak gonbidatzeko gonbidatzen gonbidatzerik
+70	470	bizkor	bizkorra bizkorrago bizkorragoa bizkorragoak bizkorrak bizkorraren bizkorrean bizkorregi bizkorregia bizkorregiak bizkorren bizkorrena bizkorrenak bizkorrentzat northern
+71	471	nolako	nolakoa nolakoak nolakoetan
+72	472	zin	zina zinagatik zinak zinarekin zinaren zinari zinean zineko zinera zinerako zinetik zinez zinik
+73	473	harreman	harremana harremanagatik harremanak harremanarekin harremanaren harremanarengatik harremanari harremanaz harremanean harremanei harremanek harremanekin harremanen harremanetako harremanetan harremanetik harremanez harremanik harremanok
+74	474	zenbaki	zenbakia zenbakiak zenbakian zenbakiarekin zenbakiaren zenbakiarentzat zenbakiei zenbakiek zenbakiekin zenbakien zenbakiengatik zenbakietan zenbakietara zenbakietarako zenbakietatik zenbakiez zenbakiko zenbakikoa zenbakikoak zenbakira zenbakiren zenbakirik zenbakitan zenbakitara zenbakitik zenbakiz
+75	475	maila	mailak mailako mailakoa mailakoak mailan mailara mailaraino mailarako mailarekin mailaren mailari mailarik mailatan mailatatik mailatik mailaz mailei mailek mailekin mailen mailetan mailetara
+76	476	estatu	estatuak estatuan estatuaren estatuarengatik estatuarentzat estatuari estatuaz estatuei estatuek estatuen estatuetako estatuetan estatuetatik estatuk estatuko estatukoa estatukoak estatura estaturako estaturantz estatutan estatutik
+77	477	erotu	erotua erotuak erotuko eroturik erotuta erotutako erotzea erotzeko
+78	478	arrisku	arriskua arriskuagatik arriskuak arriskuan arriskuaren arriskuari arriskuaz arriskuei arriskuek arriskuen arriskuetan arriskuetatik arriskuez arriskuko arriskura arriskurako arriskuren arriskurik arriskutan arriskutik arriskuz
+79	479	arren	
+80	480	edozein	edozeina edozeinak edozeinena edozeinenak edozeinera edozeinetan
+81	481	apur	apurentzat apurra apurrak apurraren apurrean apurrek apurren apurrengatik apurretan apurretatik apurrik
+82	482	gorputz	gorputza gorputzak gorputzarekin gorputzaren gorputzari gorputzaz gorputzean gorputzei gorputzek gorputzeko gorputzekoa gorputzen gorputzera gorputzerako gorputzetan gorputzetatik gorputzetik gorputzez gorputzik
+83	483	eskaini	eskain eskainia eskainiak eskainiaz eskainiezu eskainiko eskainiozu eskainita eskainitako eskainiz eskaintzen
+84	484	beso	besoa besoagatik besoak besoan besoarekin besoaren besoari besoaz besoei besoek besoekin besoen besoetan besoetara besoetarako besoetatik besoko besokoa besokoak besora besorik besotan besotatik besotik besoz
+85	485	itxoin	itxoingo itxoitea itxoiteagatik itxoiteko itxoiten itxoiterik
+86	486	suntsitu	suntsi suntsitua suntsituak suntsituko suntsiturik suntsituta suntsitutako suntsituz suntsitze suntsitzea suntsitzeagatik suntsitzean suntsitzeaz suntsitzeko suntsitzen suntsitzera
+87	487	bidaia	bidaiak bidaiako bidaian bidaiara bidaiarako bidaiarekin bidaiaren bidaiari bidaiarik bidaiatan bidaiatik bidaiaz bidaiekin bidaien bidaiengatik bidaietako bidaietan bidaietara bidaiez
+88	488	zoriontsu	zoriontsua zoriontsuagatik zoriontsuago zoriontsuagoa zoriontsuagoak zoriontsuak zoriontsuan zoriontsuaren zoriontsuegia zoriontsuekin zoriontsuena zoriontsuenak zoriontsuengatik zoriontsuetako zoriontsuetan zoriontsurantz zoriontsuren zoriontsurik zoriontsutik
+89	489	negozio	negozioa negozioagatik negozioak negozioan negozioarekin negozioaren negozioarentzat negozioari negozioaz negozioei negozioek negozioekin negozioen negozioengatik negozioetako negozioetan negozioetara negozioetatik negozioez negozioko negoziokoa negoziora negoziorako negozioren negoziorik negoziotan negoziotara negoziotik negoziotzat negozioz
+90	490	mezu	mezua mezuagatik mezuak mezuan mezuarekin mezuaren mezuari mezuei mezuek mezuekin mezuen mezuengatik mezuetan mezuetara mezuez mezuotan mezura mezuren mezurik mezutik mezuz
+91	491	azpi	azpia azpiak azpian azpien azpietako azpietan azpietara azpietatik azpiko azpikoa azpikoak azpira azpiraino azpitik
+92	492	zeren	
+93	493	libre	librea libreago libreagoak libreak librean librearekin librearen librearentzat libreari libreen libreenak libreetan libreko librekoa librera libreren librerik libretan libretik
+94	494	festa	festak festako festakoa festan festara festarako festarekin festaren festari festarik festatan festatik festaz festei festekin festen festengatik festetako festetan festetara festetarako festetatik
+95	495	piku	pikua pikuak pikuen pikutan pikutara
+96	496	hotz	hotza hotzago hotzagoa hotzagoak hotzak hotzarekin hotzaren hotzari hotzaz hotzean hotzegi hotzegia hotzegiak hotzek hotzekin hotzeko hotzekoa hotzekoak hotzen hotzena hotzera hotzerako hotzetan hotzetatik hotzetik hotzez hotzik
+97	497	lege	legea legeak legean legearekin legearen legearentzat legeari legeaz legeei legeek legeekin legeen legeetako legeetan legeko legeok legera legerako legeren legerik legetik
+98	498	aurkeztu	aurkez aurkezte aurkeztea aurkezteagatik aurkezteak aurkeztean aurkezteari aurkezteaz aurkezteko aurkezten aurkeztera aurkeztua aurkeztuak aurkeztuko aurkezturik aurkeztuta aurkeztutako aurkeztuz
+99	499	historia	historiak historiako historiakoa historiakoak historian historiara historiarako historiarekin historiaren historiarengatik historiari historiarik historiatik historiaz historiei historiek historiekin historietako historietan historietarako historiez
+100	500	gose	gosea goseagatik goseak gosearekin gosearen goseaz goseen goseko goserik gosetik gosez

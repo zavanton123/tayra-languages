@@ -1,0 +1,100 @@
+1	701	arreta	arretak arretako arretan arretarako arretarekin arretaren arretarengatik arretarik arretaz
+2	702	asti	astia astiagatik astirik astiz
+3	703	arrain	arrai arraina arrainak arrainarekin arrainaren arrainari arrainaz arrainei arrainek arrainekin arrainen arrainentzat arrainerako arrainetan arrainez arrainik
+4	704	helburu	helburua helburuagatik helburuak helburuan helburuarekin helburuari helburuaz helburuek helburuen helburuetarako helburuetatik helburura helbururekin helbururen helbururik helburutik helburutzat helburuz
+5	705	inportatu	inporta inportatua inportatuak inportatuko inportatutako inportatze inportatzea inportatzeko
+6	706	antz	antzean antzeko antzekoa antzekoak antzerako antzez antzik
+7	707	gainditu	gaindi gainditua gaindituko gaindituta gainditutako gaindituz gainditzea gainditzeaz gainditzeko gainditzen gainditzerik
+8	708	adi	adiago adiaren adiek
+9	709	sail	saila sailagatik sailak sailarekin sailaren sailari sailean saileko sailekoa sailekoak sailen sailera sailerako sailetan sailetara sailetik sailik
+10	710	serio	serioa serioago serioagoa serioagoak serioak serioan serioarekin serioaz serioegi serioegia serioei serioek serioena serioengatik serioez seriorik seriotan seriotzat
+11	711	buruzagi	buruzagia buruzagiak buruzagiarekin buruzagiaren buruzagiarentzat buruzagiari buruzagiaz buruzagiei buruzagiek buruzagiekin buruzagien buruzagientzat buruzagietako buruzagirik buruzagitzat
+12	712	antolatu	antola antolatua antolatuak antolatuko antolatuta antolatutako antolatuz antolatzea antolatzeagatik antolatzeak antolatzearen antolatzeko antolatzen
+13	713	lore	lorea loreak lorean lorearekin lorearen loreari loreei loreek loreekin loreen loreengatik loreetarako loreetatik lorek lorekoak lorerekin lorerik loretan lorez
+14	714	amona	amonak amonarekin amonaren amonarengana amonarengatik amonarentzat amonari amonatik amonaz amonen
+15	715	zauritu	zauritua zaurituak zaurituarekin zaurituarentzat zaurituei zaurituekin zaurituen zaurituengatik zaurituetan zaurituko zauriturekin zaurituren zauriturik zaurituta zaurituz zauritzea zauritzeko zauritzen zauritzerik
+16	716	hilketa	hilketak hilketako hilketan hilketarako hilketarekin hilketaren hilketari hilketarik hilketatik hilketatzat hilketaz hilketekin hilketen hilketengatik hilketetako hilketetan hilketez
+17	717	adar	adarra adarrak adarrarekin adarraren adarrean adarrei adarrek adarrekin adarren adarrera adarreraino adarrerako adarretan adarretarako adarretatik adarretik adarrez adarrik
+18	718	nazkagarri	nazkagarria nazkagarriak nazkagarrian nazkagarriarekin nazkagarriaren nazkagarriari nazkagarriegia nazkagarriei nazkagarriekin nazkagarrien nazkagarriena nazkagarrienak nazkagarrietan nazkagarriez nazkagarrira nazkagarritzat
+19	719	zuzenean	
+20	720	zerrenda	zerrendak zerrendako zerrendakoa zerrendan zerrendara zerrendarako zerrendarekin zerrendaren zerrendari zerrendarik zerrendatan zerrendatatik zerrendatik zerrendaz zerrendei zerrendetako zerrendetan
+21	721	sistema	sistemak sistemako sisteman sistemara sistemaraino sistemarako sistemarekin sistemaren sistemari sistemarik sistematik sistemaz sistemei sistemek sistemekin sistemen sistemetako sistemetan sistemez
+22	722	gozo	gozoa gozoagatik gozoago gozoagoa gozoagoak gozoak gozoan gozoarekin gozoaren gozoegia gozoek gozoekin gozoen gozoena gozoenak gozoetan gozoko gozokoa gozokoak gozora gozorik gozoz
+23	723	zuzendu	zuzendua zuzenduak zuzenduko zuzendurik zuzenduta zuzendutako zuzendutakoa zuzenduz zuzentzea zuzentzeagatik zuzentzean zuzentzeko zuzentzen zuzentzera
+24	724	ohore	ohorea ohoreagatik ohoreak ohorean ohorearekin ohorearen ohorearengatik ohoreari ohoreaz ohoreko ohorerako ohorerik ohoretan ohorez
+25	725	moduko	moduan modukoa modukoak modukoei modukoentzat modukook modukoren
+26	726	dibertigarri	dibertigarria dibertigarriago dibertigarriagoa dibertigarriagoak dibertigarriak dibertigarriegia dibertigarriekin dibertigarrien dibertigarriena dibertigarrienak dibertigarrira dibertigarriren dibertigarririk dibertigarritik
+27	727	puntu	puntua puntuak puntuan puntuarekin puntuekin puntuetako puntuetan puntuetara puntuko puntukoa puntura punturaino punturako punturekin punturen punturengatik punturik puntutara puntutaraino puntutik puntutzat
+28	728	benga	
+29	729	jeneral	jenerala jeneralak jeneralarekin jeneralaren jeneralarengatik jeneralarentzat jeneralari jeneralaz jeneralean jeneralei jeneralek jeneraleko jeneralen
+30	730	maitatu	maita maitatua maitatuak maitatuko maitatutako maitatuz maitatzea maitatzeagatik maitatzeak maitatzean maitatzearen maitatzeari maitatzeaz maitatzeko maitatzen maitatzera maitatzerik
+31	731	droga	drogak drogako drogan drogarako drogarekin drogaren drogari drogarik drogatan drogatik drogaz drogei drogek drogekin drogen drogengatik drogetan drogetara drogetarako drogetatik drogez drogok drogon
+32	732	ardura	ardurak ardurako ardurakoa ardurakoak arduran ardurarekin arduraren ardurari ardurarik arduraz ardurek arduretatik
+33	733	lepo	lepoa lepoak lepoan lepoarekin lepoaren lepoari lepoetan lepora leporaino leporako leporik lepotik
+34	734	fidatu	fida fidatuko fidatuz fidatzea fidatzeagatik fidatzeko fidatzen fidatzera fidatzerik
+35	735	urduri	urduria urduriago urduriak urduriaren urduriegi urduriegia urdurien
+36	736	hortaz	
+37	737	harri	harria harriak harrian harriarekin harriaren harriari harriei harriek harriekin harrien harrietan harriez harrik harrikoa harriok harriren harririk harritan harritik harriz
+38	738	grabatu	graba grabatua grabatuak grabatuko grabaturik grabatuta grabatutako grabatutakoa grabatuz grabatzea grabatzeari grabatzeaz grabatzeko grabatzen grabatzera
+39	739	beldurtu	beldurtua beldurtuko beldurturik beldurtuta beldurtutako beldurtzea beldurtzeagatik beldurtzeko beldurtzen beldurtzera beldurtzerik
+40	740	logela	logelak logelako logelan logelara logelaraino logelarekin logelaren logelari logelarik logelatan logelatik logelen logeletako logeletan logeletara logeletatik
+41	741	beharrezko	beharrezkoa beharrezkoago beharrezkoagoa beharrezkoak beharrezkoena beharrezkoetan beharrezkotzat
+42	742	posible	posiblea posibleak posiblerekin posibletan
+43	743	banatu	bana banatua banatuak banatuko banaturik banatuta banatutako banatutakoa banatuz banatzeagatik banatzen
+44	744	baztertu	bazter baztertua baztertuak baztertuko bazterturik baztertuta baztertutako baztertuz baztertzea baztertzeko baztertzen baztertzera baztertzerik
+45	745	harrigarri	harrigarria harrigarriago harrigarriagoa harrigarriagoak harrigarriak harrigarrian harrigarriarekin harrigarriaz harrigarriei harrigarriekin harrigarriena harrigarrienak harrigarriraino harrigarririk harrigarriz
+46	746	zerikusi	zerikusia zerikusik zerikusiren zerikusirik
+47	747	korrika	korrikan korrikarik korrikaz
+48	748	ondorio	ondorioa ondorioak ondorioaz ondorioei ondorioek ondorioekin ondorioen ondorioetan ondorioetatik ondorioren ondoriori ondoriorik ondorioz
+49	749	alferrik	
+50	750	bisita	bisitak bisitan bisitara bisitarako bisitarekin bisitaren bisitarengatik bisitari bisitarik bisitekin bisiten bisitengatik bisitetan bisitetara bisitetarako
+51	751	amerikar	amerikara amerikaren amerikarentzat amerikarra amerikarragoa amerikarrak amerikarraren amerikarrarengatik amerikarrari amerikarrean amerikarrei amerikarrek amerikarrekin amerikarrekoa amerikarren amerikarrentzat amerikarretik amerikarrez amerikarrik amerikarrok amerikartzat
+52	752	afari	abari afaria afariagatik afariak afarian afariarekin afariaren afariarengatik afariari afariaz afarien afarietan afarietarako afariko afarikoa afarira afarirako afariren afaririk afaritako afaritan afaritara afaritarako afaritik
+53	753	preso	presoa presoak presoarekin presoaren presoari presoei presoek presoekin presoen presoentzat presoetako presoko presorekin presoren presorik presotik presotzat
+54	754	barkamen	barkamena barkamenak barkamenaren barkamenari barkamenaz barkamenerako barkamenik
+55	755	interesgarri	interesgarria interesgarriago interesgarriagoa interesgarriak interesgarrian interesgarriegia interesgarriekin interesgarriena interesgarrienak interesgarrietara interesgarriren interesgarririk interesgarritzat
+56	756	bultzatu	bultza bultzatuko bultzaturik bultzatuta bultzatutako bultzatuz bultzatzea bultzatzeko bultzatzen bultzatzerik
+57	757	txosten	txostena txostenagatik txostenak txostenarekin txostenaren txostenari txostenaz txostenean txostenek txostenekin txosteneko txostenen txostenengatik txostenetan txostenetatik txostenik
+58	758	sarrera	sarrerak sarrerako sarrerakoa sarrerakoak sarreran sarrerara sarrerarako sarrerarantz sarrerarekin sarreraren sarrerari sarrerarik sarreratan sarreratik sarrerek sarrerekin sarreren sarreretako sarreretan sarreretara
+59	759	triste	tristea tristeagoa tristeak tristearekin tristeaz tristeegi tristeegia tristeegiak tristeekin tristeena tristeetan tristeetatik tristera tristerik tristetan
+60	760	abestu	abes abestea abesteagatik abestean abestearekin abesteari abesteaz abesteko abesten abestera abestua abestuak abestuko abestuz
+61	761	aditu	aditua adituagoak adituak adituaren adituari adituaz adituei adituek adituekin adituen adituena adituentzat adituetako adituetatik adituez adituk adituko adituren aditurik aditutzat aditzea aditzen aditzerik
+62	762	ibai	ibaia ibaiak ibaian ibaiaren ibaiari ibaiek ibaien ibaietan ibaietara ibaietatik ibaiko ibaira ibairaino ibairantz ibairik ibaitik
+63	763	te	tea teagatik teak tean tearekin tearen tearengatik teari teen tera terako terekin terik tez
+64	764	seinale	seinalea seinaleak seinalean seinalearekin seinalearen seinaleari seinaleei seinaleen seinaleko seinalera seinalerantz seinaleren seinalerik seinaletik seinaletzat
+65	765	egunkari	egunkaria egunkariak egunkarian egunkariarekin egunkariaren egunkariari egunkariei egunkariek egunkariekin egunkarien egunkarietako egunkarietan egunkarietara egunkarietatik egunkarik egunkariko egunkarikoa egunkarira egunkarirako egunkariren egunkaririk egunkaritik
+66	766	txorakeria	txorakeriak txorakerian txorakeriarekin txorakeriaren txorakeriarik txorakeriatan txorakeriaz txorakeriek txorakeriekin txorakeriengatik txorakerietan txorakeriez
+67	767	estali	estal estalia estaliak estaliko estaliozu estalirik estalita estalitako estaliz estaltzea estaltzeagatik estaltzean estaltzeko estaltzen estaltzera
+68	768	momentu	momentua momentuak momentuan momentuaren momentuaz momentuetan momentuko momentukoa momenturako momenturen momenturik momentutan momentutik momentuz
+69	769	gozatu	goza gozatua gozatuko gozatuz gozatzea gozatzeak gozatzeko gozatzen gozatzera
+70	770	garagardo	garagardoa garagardoagatik garagardoak garagardoan garagardoarekin garagardoaren garagardoarengatik garagardoari garagardoaz garagardoekin garagardoen garagardora garagardorako garagardorekin garagardoren garagardorik garagardotan garagardotik garagardoz
+71	771	ikerketa	ikerketak ikerketako ikerketakoa ikerketakoak ikerketan ikerketara ikerketarako ikerketarantz ikerketarekin ikerketaren ikerketarengatik ikerketarentzat ikerketari ikerketarik ikerketatan ikerketatik ikerketaz ikerketei ikerketek ikerketekin ikerketen ikerketengatik ikerketetako ikerketetan ikerketez
+72	772	zorion	zoriona zorionaren zorionari zorionaz zorioneko zorionekoa zorionekoak zorionen zorionerako zorionez zorionik
+73	773	ofizial	ofiziala ofizialagoa ofizialak ofizialarekin ofizialaren ofizialarengatik ofizialari ofizialean ofizialei ofizialek ofizialekin ofizialeko ofizialen ofizialena ofizialentzat ofizialera ofizialetan ofizialetara ofizialetatik ofizialetik ofizialez ofizialik
+74	774	frogatu	frogaidazu frogatua frogatuko frogatuta frogatutako frogatutakoa frogatzea frogatzean frogatzeko frogatzen frogatzera frogatzerik
+75	775	adibidez	
+76	776	sukalde	sukaldea sukaldeak sukaldean sukaldearekin sukaldearen sukaldeari sukaldeaz sukaldeetan sukaldeko sukaldekoa sukaldera sukalderaino sukalderako sukalderik sukaldetan sukaldetik sukaldetzat
+77	777	berreskuratu	berreskura berreskuratua berreskuratuko berreskuraturik berreskuratuta berreskuratutako berreskuratzea berreskuratzeagatik berreskuratzean berreskuratzearen berreskuratzeaz berreskuratzeko berreskuratzen berreskuratzera
+78	778	filmatu	filma filmatua filmatuko filmatuta filmatutako filmatutakoa filmatuz filmatzea filmatzeari filmatzeaz filmatzeko filmatzen filmatzera filmatzerik
+79	779	zigor	zigorra zigorrak zigorrarekin zigorraren zigorrari zigorraz zigorrean zigorrek zigorrekin zigorreko zigorren zigorrera zigorretara zigorretik zigorrez zigorrik zigortzea zigortzeari zigortzeko zigortzera
+80	780	katu	katua katuak katuan katuarekin katuaren katuari katuei katuek katuekin katuen katuengatik katuentzat katuk katuren katurik katutik katuz
+81	781	arnasa	arnasan arnasarekin arnasaren arnasari arnasarik arnasaz
+82	782	kamioi	kamioia kamioiagatik kamioiak kamioian kamioiarekin kamioiaren kamioiari kamioiaz kamioiei kamioiekin kamioien kamioientzat kamioietan kamioietara kamioietatik kamioiko kamioira kamioirantz kamioitik
+83	783	itxaropen	itxaropena itxaropenagatik itxaropenak itxaropenarekin itxaropenaren itxaropenari itxaropenaz itxaropenean itxaropenek itxaropenerako itxaropenetan itxaropenez itxaropenik
+84	784	banku	bankua bankuak bankuan bankuarekin bankuaren bankuari bankuei bankuek bankuekin bankuen bankuetako bankuetan bankuez bankuko bankukoa bankura bankurantz bankurik bankutik
+85	785	ordeztu	ordez ordezte ordeztea ordezteagatik ordezteak ordezteko ordezten ordeztuko
+86	786	mantendu	manten mantendua mantenduak mantenduko mantenduta mantendutako mantenduz mantentzea mantentzeagatik mantentzean mantentzearen mantentzeaz mantentzeko mantentzen mantentzerik
+87	787	segundo	segundoa segundoak segundoan segundoaren segundoen segundoetan segundoko segundokoa segundora segundoren segundorik segundotan segundotara segundotik segundoz
+88	788	morroi	morroia morroiak morroian morroiaren morroiari morroiei morroiek morroiekin morroien morroiok morroirekin morroiren morroirik
+89	789	apurtu	apurtua apurtuak apurtuko apurturik apurtuta apurtutako apurtuz apurtzea apurtzean apurtzeaz apurtzeko apurtzen apurtzera
+90	790	abesti	abestia abestiak abestian abestiarekin abestiaren abestiarentzat abestiaz abestiei abestiek abestiekin abestien abestietako abestietan abestiko abestirekin abestiren abestirik
+91	791	zerbitzu	zerbitzua zerbitzuagatik zerbitzuak zerbitzuan zerbitzuarekin zerbitzuaren zerbitzuarengatik zerbitzuari zerbitzuaz zerbitzuei zerbitzuek zerbitzuekin zerbitzuen zerbitzuengatik zerbitzuetan zerbitzuetara zerbitzuetarako zerbitzuetatik zerbitzuez zerbitzuko zerbitzukoa zerbitzukoak zerbitzura zerbitzurako zerbitzuren zerbitzurik zerbitzutik zerbitzuz
+92	792	bizkar	bizkarra bizkarrak bizkarrarekin bizkarraren bizkarrarentzat bizkarrari bizkarrean bizkarrei bizkarreko bizkarrekoa bizkarrekoak bizkarren bizkarrera bizkarrerako bizkarrerantz bizkarretan bizkarretik bizkarrez bizkarrik bizkarroi
+93	793	ingeles	ingelesa ingelesak ingelesarekin ingelesaren ingelesari ingelesaz ingelesean ingelesei ingelesek ingelesekin ingeleseko ingelesekoa ingelesen ingelesentzat ingelesera ingeleserako ingelesetik ingelesez ingelesik ingelesok ingeleson
+94	794	ezpata	ezpatak ezpatako ezpatan ezpatarekin ezpataren ezpatari ezpatarik ezpataz ezpatek ezpatekin ezpaten ezpatez
+95	795	ito	itoa itoak itoko itota itotako itotze itotzea itotzeari itotzeko itotzen itotzera itotzerik itoz
+96	796	interesatu	interesa interesatua interesatuak interesatuko interesaturik interesatuta interesatuz interesatzea interesatzeagatik interesatzeko interesatzen
+97	797	adiskide	adiskidea adiskideagatik adiskideak adiskidearengatik adiskideari adiskideei adiskideek adiskideen adiskideengatik adiskideentzat adiskideetatik adiskideez adiskideok adiskideren adiskiderik adiskidetzat adiskidez
+98	798	eraikin	eraikina eraikinagatik eraikinak eraikinarekin eraikinaren eraikinari eraikinaz eraikinean eraikinek eraikineko eraikinekoa eraikinekoak eraikinen eraikinera eraikinerantz eraikinetako eraikinetan eraikinetara eraikinetarako eraikinetatik eraikinetik eraikinez eraikinik
+99	799	hega	hegan hegaz
+100	800	lehertu	lehertua lehertuko lehertuta lehertutako lehertuz lehertzea lehertzeak lehertzearen lehertzeari lehertzeko lehertzen lehertzera

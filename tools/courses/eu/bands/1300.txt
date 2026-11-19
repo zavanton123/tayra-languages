@@ -1,0 +1,100 @@
+1	1201	dama	damak damaren damarentzat damari damarik damatan damatzat damek damekin damen dametako
+2	1202	mapa	mapak mapako mapan mapara maparaino maparekin maparen mapari maparik mapatan mapatik mapaz mapekin mapen mapetako mapetan mapetarako mapetatik
+3	1203	klase	klasea klaseak klasean klasearekin klasearen klasearentzat klaseek klaseekin klaseen klaseetan klaseetara klaseko klasekoa klasera klaseraino klaserako klaserekin klaseren klaserik klasetako klasetan klasetara klasetik klasez
+4	1204	aztarna	aztarnak aztarnaren aztarnari aztarnarik aztarnatik aztarnaz aztarnei aztarnekin aztarnen
+5	1205	mendeku	mendekua mendekuagatik mendekuak mendekuan mendekuarekin mendekuaren mendekuari mendekuaz mendekuko mendekurako mendekuren mendekurik mendekuz
+6	1206	suge	sugea sugeak sugearekin sugearen sugeari sugeei sugeek sugeekin sugeen sugeetan sugeez sugek sugerekin sugeren sugeri sugerik
+7	1207	zelai	zelaia zelaiagoa zelaiak zelaian zelaiaren zelaiaz zelaiei zelaiek zelaien zelaietako zelaietan zelaietara zelaietaraino zelaietarako zelaietatik zelaiko zelaira zelairantz zelaitik
+8	1208	apustu	apustua apustuak apustuan apustuari apustuaz apustuen apusturen apusturik
+9	1209	puskatu	puskatua puskatuak puskatuko puskaturik puskatuta puskatutako puskatuz puskatzea puskatzeagatik puskatzeak puskatzearen puskatzeko puskatzen puskatzera
+10	1210	kostatu	kostatuko kostatzen
+11	1211	aspergarri	aspergarria aspergarriagoa aspergarriak aspergarriegia aspergarriekin aspergarriena aspergarrira aspergarrirako aspergarririk aspergarritzat aspergarriz
+12	1212	legez	
+13	1213	patata	patatak patataren patatarik patatei patatek patatekin pataten patatentzat patatez
+14	1214	eragotzi	eragotz eragotzia eragotziko eragotzita eragoztea eragozteagatik eragozteko eragozten eragoztera eragozterik
+15	1215	defentsa	defentsak defentsako defentsan defentsara defentsarako defentsarekin defentsaren defentsarik defentsaz defentsek defentsen defentsez
+16	1216	gehitu	gehi gehitua gehituko gehituta gehitutako gehituz gehitzea gehitzeko gehitzen
+17	1217	altxor	altxorra altxorrak altxorrarekin altxorraren altxorrarengatik altxorrari altxorraz altxorren altxorrera altxorretik altxorrez altxorrik
+18	1218	hitzaldi	hitzaldia hitzaldiak hitzaldian hitzaldiarekin hitzaldiaren hitzaldiarengatik hitzaldiari hitzaldiekin hitzaldien hitzaldietako hitzaldietan hitzaldiko hitzaldira hitzaldirako hitzaldiren hitzaldirik
+19	1219	koldar	koldarra koldarrak koldarrarekin koldarraren koldarregia koldarregiak koldarrei koldarrek koldarrekin koldarren koldarrena koldarrenak koldarrentzat koldarrez koldarrok koldartzat
+20	1220	nazkatu	nazkatua nazkatuko nazkaturik nazkatuta nazkatzea nazkatzeak nazkatzean nazkatzen
+21	1221	sumatu	sumatuko sumatutako sumatuz sumatzeagatik sumatzean sumatzeko sumatzen
+22	1222	garaitu	garaitua garaituak garaituko garaituta garaitutako garaitzea garaitzeko garaitzen
+23	1223	susmo	susmoa susmoagatik susmoak susmoarekin susmoen susmoengatik susmoetan susmoetara susmorekin susmoren susmorik susmotan susmoz
+24	1224	igeri	
+25	1225	proposatu	proposa proposatuak proposatuko proposatutako proposatutakoa proposatuz proposatzea proposatzeko proposatzen proposatzera
+26	1226	mindu	mindua minduak minduko mindurik minduta mindutako mintzea mintzeagatik mintzeko mintzen mintzerik
+27	1227	busti	bustia bustiago bustiak bustian bustiarekin bustiari bustiegia bustiek bustiekin bustien bustiko bustirik bustita bustitako bustitzea bustitzeagatik bustitzeak bustitzean bustitzearen bustitzeko bustitzen bustitzera
+28	1228	merke	merkea merkeago merkeagoa merkeagoak merkeak merkearekin merkeari merkeegi merkeegiak merkeei merkeek merkeen merkeena merkeenak merkeetan merkeko merkera merkeren merkerik
+29	1229	detektibe	detektibea detektibeak detektibearekin detektibearen detektibearentzat detektibeari detektibeei detektibeek detektibeekin detektibeen
+30	1230	behi	behia behiak behian behiarekin behiaren behiarentzat behiari behiei behiek behiekin behien behientzat behietatik behiri behirik
+31	1231	bekatu	bekatua bekatuagatik bekatuak bekatuan bekatuaren bekatuari bekatuaz bekatuei bekatuek bekatuekin bekatuen bekatuengatik bekatuetako bekatuez bekaturako bekaturik bekatutan bekatutik bekatutzat bekatuz
+32	1232	aurreratu	aurreratua aurreratuak aurreratuko aurreraturik aurreratuta aurreratze aurreratzea aurreratzeagatik aurreratzeak aurreratzeko aurreratzen aurreratzera aurreratzerik
+33	1233	arratoi	arratoia arratoiak arratoiaren arratoiei arratoiek arratoiekin arratoien arratoientzat arratoiez arratoirik arratoitan arratoiz
+34	1234	josi	jos josia josiko josita jositako joste jostea josteagatik jostearen josteari josteko josten jostera
+35	1235	inolako	inolakorik
+36	1236	putaseme	putasemea putasemeak putasemeaz putasemeek putasemeok
+37	1237	hilobi	hilobia hilobiak hilobian hilobiaren hilobiari hilobiaz hilobien hilobietan hilobietatik hilobiko hilobira hilobiraino hilobirako hilobirantz hilobirik hilobitik
+38	1238	ostean	
+39	1239	ziurrenik	
+40	1240	jauzi	jauzia jauziak jauzian jauziaren jauziek jauzitik
+41	1241	etxebizitza	etxebizitzak etxebizitzakoa etxebizitzara etxebizitzaren etxebizitzarengatik etxebizitzarik etxebizitzatan etxebizitzatik etxebizitzatzat etxebizitzei etxebizitzekin etxebizitzen etxebizitzetako etxebizitzetan etxebizitzok
+42	1242	errugabe	errugabea errugabeak errugabeari errugabeei errugabeek errugabeekin errugabeen errugabeena errugaberen errugaberik errugabetzat errugabez
+43	1243	zorrotz	zorrotza zorrotzago zorrotzagoa zorrotzagoak zorrotzak zorrotzaren zorrotzaz zorrotzegia zorrotzek zorrotzekin zorrotzekoa zorrotzen zorrotzena zorrotzenak zorrotzetan zorrotzik
+44	1244	nazio	nazioa nazioak nazioarekin nazioaren nazioarengatik nazioarentzat nazioari nazioei nazioek nazioekin nazioen nazioko naziokoa nazioren naziorik
+45	1245	sasikume	sasikumea sasikumeak sasikumearekin sasikumearen sasikumeari sasikumeaz sasikumeei sasikumeek sasikumeen sasikumeengatik sasikumeez sasikumeok
+46	1246	halaxe	
+47	1247	gune	gunea guneak gunean gunearekin gunearen guneari guneen guneetako guneetan guneetara guneetatik guneez guneko gunera gunerik gunetan gunetik
+48	1248	planeta	planetak planetako planetakoak planetan planetara planetaraino planetarako planetaren planetari planetarik planetatik planetaz planetei planetek planeten planetetan
+49	1249	portatu	portatuko portatuz portatzea portatzeagatik portatzeari portatzeko portatzen portatzera
+50	1250	atal	atala atalak atalaren atalari atalean atalei atalekin ataleko atalekoa atalekoak atalen atalera atalerako ataletako ataletan atalez
+51	1251	pixa	pixak pixan pixarekin pixaren pixari pixarik pixatan pixaz pixen
+52	1252	hondartza	hondartzak hondartzako hondartzakoak hondartzan hondartzara hondartzaraino hondartzarako hondartzarantz hondartzaren hondartzarik hondartzatik hondartzek hondartzetan hondartzetara hondartzez
+53	1253	koronel	koronela koronelagatik koronelak koronelarekin koronelaren koronelarentzat koronelari
+54	1254	zigarro	zigarroa zigarroagatik zigarroak zigarroarekin zigarroaren zigarroekin zigarroren zigarrorik
+55	1255	kotxe	kotxea kotxeagatik kotxeak kotxean kotxearekin kotxearen kotxearengatik kotxeari kotxeen kotxeetan kotxeez kotxeko kotxekoa kotxera kotxerik kotxetatik kotxetik kotxez
+56	1256	labana	labanak labanarekin labanaren labanarik labanatik labanaz labanekin labanez
+57	1257	aginte	agintea aginteak agintean agintearekin agintearen aginteari aginteaz aginteek aginteen aginteetan aginteko aginterako aginterik agintetik
+58	1258	bira	birak birako biran birarekin biraren biratik biraz birek birekin biren birengatik birentzat biretan
+59	1259	astun	astuna astunago astunagoa astunagoak astunak astunarekin astunaren astunari astunaz astunegi astunegia astunegiak astunekin astuneko astunen astunena astunenak astunentzat astunetako astunetan astunez astunik
+60	1260	putzu	putzua putzuak putzuan putzuarekin putzuaren putzuaz putzuek putzuekin putzuen putzuetako putzuetan putzuetatik putzuk putzuko putzukoa putzura putzuraino putzurantz putzuren putzurik putzutik
+61	1261	ordezkatu	ordezka ordezkatua ordezkatuak ordezkatuko ordezkatuta ordezkatuz ordezkatze ordezkatzea ordezkatzearen ordezkatzeari ordezkatzeko ordezkatzen ordezkatzera ordezkatzerik
+62	1262	guda	gudak gudako gudan gudara gudarako gudaren gudarik gudatan gudatik gudei
+63	1263	emaitza	emaitzarako emaitzarekin emaitzaren emaitzari emaitzarik emaitzaz emaitzei emaitzek emaitzekin emaitzen emaitzengatik emaitzetan
+64	1264	zori	zoria zoriak zorian zoriarekin zoriaren zorira zoriz
+65	1265	lehengusu	lehengusua lehengusuagatik lehengusuak lehengusuarekin lehengusuaren lehengusuarentzat lehengusuari lehengusuaz lehengusuei lehengusuek lehengusutzat
+66	1266	gizarte	gizartea gizarteak gizartean gizartearekin gizartearen gizartearentzat gizarteari gizarteko gizartera gizarterako gizartetik
+67	1267	ehiza	ehizak ehizako ehizakoa ehizan ehizara ehizarako ehizarekin ehizaren ehizarik ehizatik ehizatzea ehizatzeari ehizatzeaz ehizatzeko ehizatzen ehizatzera ehizaz ehizetan
+68	1268	jabetza	jabetzak jabetzako jabetzakoa jabetzakoak jabetzan jabetzarekin jabetzaren jabetzari jabetzarik jabetzatik jabetzen jabetzez
+69	1269	prentsa	prentsak prentsako prentsakoa prentsakoak prentsan prentsara prentsarako prentsarekin prentsaren prentsarentzat prentsari prentsarik prentsatik
+70	1270	poliki	
+71	1271	espiritu	espiritua espirituak espirituan espirituarekin espirituaren espirituarentzat espirituari espirituei espirituek espirituekin espirituen espirituetan espirituri espirituz
+72	1272	okertu	okertua okertuak okertuko okerturik okertuta okertuz okertzea okertzean okertzearekin okertzeko okertzen okertzera
+73	1273	alderdi	alderdia alderdiak alderdian alderdiaren alderdiarentzat alderdiari alderdiek alderdien alderdietan alderdiko alderdikoa alderdikoak alderdira alderdiren alderdirik alderditan alderditik alderdiz
+74	1274	agiri	agiria agiriak agirian agiriarekin agiriaren agiriek agiriekin agirien agirietan agirietatik agiriko agiriren agiririk
+75	1275	auskalo	
+76	1276	lapur	lapurra lapurragatik lapurrak lapurraren lapurrari lapurraz lapurrei lapurrek lapurrekin lapurren lapurrena lapurrez lapurrik lapurrok lapurrontzat lapurtzat
+77	1277	egur	egurekin egurra egurrak egurrarekin egurraren egurrean egurretako egurrez egurrik
+78	1278	adimen	adimena adimenagatik adimenak adimenarekin adimenaren adimenarentzat adimenari adimenaz adimenean adimenek adimeneko adimenera adimenerako adimenetik adimenez adimenik
+79	1279	sarri	sarriago sarriak sarriegi sarrien sarritan
+80	1280	bederatzi	bederatzia bederatziak bederatzian bederatzien bederatzietako bederatzietan bederatzietatik bederatzik bederatzikoa bederatzirekin bederatziri bederatzitan
+81	1281	zientzia	zientziak zientziako zientzian zientziarekin zientziaren zientziarengatik zientziarentzat zientziari zientziaz zientziek zientzien zientzietako zientzietan zientzietara
+82	1282	kode	kodea kodeak kodean kodearekin kodearen kodearengatik kodeari kodeaz kodeen kodeko koderik kodetik kodez
+83	1283	kargu	kargua karguak karguan karguarekin karguari karguei karguekin karguen karguengatik karguetako karguko kargura karguraino kargurako karguren kargurik kargutik
+84	1284	nolabait	
+85	1285	kosta	kostako kostakoa kostan kostara kostaraino kostatik
+86	1286	estudio	estudioa estudioak estudioan estudioarekin estudioaren estudioarentzat estudioari estudioek estudioen estudioetako estudioetan estudioetara estudioetatik estudioko estudiora estudiorako estudiorik estudiotan estudiotik
+87	1287	herritar	herritara herritarra herritarrak herritarrari herritarrei herritarrek herritarrekin herritarren herritarrengandik herritarrengatik herritarrentzat herritarrik herritarrok herritarron
+88	1288	bizikleta	bizikletak bizikletako bizikletakoa bizikletan bizikletara bizikletarekin bizikletaren bizikletarengatik bizikletarik bizikletatik bizikletaz bizikletei bizikletetan bizikletetara
+89	1289	gorabehera	gorabeherak gorabeherako gorabeheraren gorabeherarik gorabeherekin gorabeheren
+90	1290	usaindu	usainduko usainduz usaintzea usaintzeagatik usaintzean usaintzeari usaintzeko usaintzen usaintzera
+91	1291	ohiko	ohikoa ohikoagoa ohikoak ohikoaren ohikoen ohikoena ohikoenak
+92	1292	etsi	este esten etsia etsiak etsiko etsita
+93	1293	zurrumurru	zurrumurrua zurrumurruak zurrumurruarekin zurrumurruaren zurrumurruei zurrumurruek zurrumurruen zurrumurruez zurrumurruren zurrumurrurik zurrumurrutzat
+94	1294	plater	platera platerak plateraren platerean platerek platerekin platereko platerera plateretan plateretatik platerik platerra platerrak platerraren
+95	1295	entrenatu	entrena entrenatua entrenatuko entrenatuta entrenatutako entrenatuz entrenatzea entrenatzeagatik entrenatzeak entrenatzeko entrenatzen entrenatzera
+96	1296	ikuspegi	ikuspegia ikuspegiak ikuspegian ikuspegiarekin ikuspegiaren ikuspegiaz ikuspegirik ikuspegitik
+97	1297	irrika	irrikan irrikarako irrikaren irrikarik irrikatan irrikaz
+98	1298	auzitegi	auzitegia auzitegiak auzitegian auzitegiarekin auzitegiaren auzitegiarentzat auzitegiari auzitegiek auzitegien auzitegietako auzitegietan auzitegiko auzitegikoa auzitegira auzitegirik
+99	1299	eskuratu	eskuratua eskuratuak eskuratuko eskuratuta eskuratutako eskuratuz eskuratzea eskuratzeagatik eskuratzean eskuratzearen eskuratzeaz eskuratzeko eskuratzen eskuratzera
+100	1300	epa	

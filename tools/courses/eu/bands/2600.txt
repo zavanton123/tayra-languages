@@ -1,0 +1,100 @@
+1	2501	xarma	xarmak xarmarekin xarmaren xarmari xarmarik xarmaz xarmei
+2	2502	esperantza	esperantzak esperantzan esperantzarako esperantzarekin esperantzaren esperantzarik esperantzaz esperantzetan
+3	2503	ebazpen	ebazpena ebazpenagatik ebazpenak ebazpenarekin ebazpenaren ebazpenari ebazpenean ebazpenik
+4	2504	demokrazia	demokraziak demokrazian demokraziarako demokraziarekin demokraziaren demokraziarentzat demokraziari demokraziarik demokraziaz
+5	2505	erreakzio	erreakzioa erreakzioak erreakzioen erreakziorik
+6	2506	arrano	arranoa arranoak arranoan arranoarekin arranoaren arranoarengan arranoaz arranoek arranoen arranorako
+7	2507	konkistatu	konkistatua konkistatuko konkistatutako konkistatuz konkistatzea konkistatzeko konkistatzen konkistatzera
+8	2508	ilunabar	ilunabarra ilunabarrak ilunabarraren ilunabarrari ilunabarraz ilunabarrean ilunabarreko ilunabarrera ilunabarrerako ilunabarretan ilunabarretik
+9	2509	ohol	ohola oholak oholarekin oholaren oholari oholaz oholean oholei oholek oholen oholerantz oholetan oholez oholik
+10	2510	arroka	arrokak arrokako arrokan arrokara arrokaraino arrokarantz arrokaren arrokatik arrokei arroken arroketan arroketatik arrokez
+11	2511	irla	irlak irlako irlan irlara irlaraino irlaren irlatik irlaz irlen irlengatik irletako irletan
+12	2512	ezti	eztia eztiak eztian eztiarekin eztiaren eztienak eztira eztirik eztitan
+13	2513	zutabe	zutabea zutabeak zutabean zutabearen zutabeari zutabeei zutabeen zutabeetan zutabekoak zutaberik zutabetik zutabez
+14	2514	zatar	zatarra zatarragoa zatarragoak zatarrak zatarraren zatarregia zatarregiak zatarrei zatarrekin zatarrena zatarrengatik zatarrez zatarrik
+15	2515	baliotsu	baliotsua baliotsuago baliotsuagoa baliotsuagoak baliotsuak baliotsuarekin baliotsuegia baliotsuen baliotsuena baliotsuko baliotsuren baliotsurik
+16	2516	aparkaleku	aparkalekua aparkalekuak aparkalekuan aparkalekuaren aparkalekuko aparkalekura aparkalekurik aparkalekutik aparkalekuz
+17	2517	sendagile	sendagilea sendagileak sendagilearen sendagilearentzat sendagileari sendagileei sendagileek
+18	2518	agertoki	agertokia agertokian agertokiaren agertokiko agertokira agertokitik
+19	2519	testamentu	testamentua testamentuagatik testamentuak testamentuan testamentuarekin testamentuaren testamentuaz testamentuko testamenturik
+20	2520	zelula	zelulak zelulako zelulakoa zelulakoak zelularen zelulari zelulatan zelulatik zelulek zelulekin zelulen zeluletan zeluletatik
+21	2521	masail	masaila masailak masailari masailean masailei masailekoa masaileraino masailetako masailetan masailetatik masailez
+22	2522	irakurketa	irakurketak irakurketan irakurketara irakurketarako irakurketaren irakurketarengatik irakurketarik irakurketei irakurketen irakurketok
+23	2523	zeremonia	zeremoniak zeremoniako zeremonian zeremoniara zeremoniarekin zeremoniaren zeremoniarik zeremoniatik zeremoniaz zeremoniek zeremonien zeremoniez
+24	2524	ekoizle	ekoizlea ekoizleak ekoizlearekin ekoizlearen ekoizleek ekoizleetako ekoizlerekin ekoizleren
+25	2525	labe	labea labeak labean labearekin labeari labeetara labeko labekoa labera labetik
+26	2526	hilzori	hilzorian hilzorien hilzorikoak
+27	2527	zuku	zukua zukuak zukuan zukuarekin zukuarengatik zukuari zukurik zukuz
+28	2528	berreraiki	berreraikia berreraikiko berreraikitzea berreraikitzeagatik berreraikitzean berreraikitzeko berreraikitzen berreraikitzera
+29	2529	depresio	depresioa depresioagatik depresioak depresioan depresioarekin depresioaren depresioek depresiorako
+30	2530	dardarka	
+31	2531	irekitzeko	irekitzekoa irekitzekoak
+32	2532	etiketa	etiketak etiketan etiketarekin etiketaren etiketarik etiketaz
+33	2533	nerabe	nerabea nerabeak nerabeek nerabeekin nerabeen nerabeez neraberik
+34	2534	ballet	balleta balletak balletaz balletean balleteko balletera balletik
+35	2535	erabilgarri	erabilgarria erabilgarriago erabilgarriagoa erabilgarriak erabilgarriarengatik erabilgarrienak erabilgarririk
+36	2536	klinika	klinikako klinikan klinikara klinikaren klinikatik kliniketako
+37	2537	misil	misila misilak misilekin misilen misiletako
+38	2538	drogatu	drogatua drogatuko drogatuta drogatuz drogatzea drogatzeko drogatzen drogatzera
+39	2539	pa	pan pekin pen pok
+40	2540	inprimatu	inprimatua inprimatuak inprimatuko inprimatuta inprimatutako inprimatzea inprimatzeak inprimatzeko inprimatzen
+41	2541	eskupeko	eskupekoa eskupekoak eskupekoaren eskupekoei eskupekoengatik eskupekoetan eskupekorik eskupekotan
+42	2542	igorri	igor igorria igorriko igorritako igortze igortzea igortzeari igortzeko igortzen na
+43	2543	gona	gonak gonan gonaren gonarik gonatan gonekin gonen gonetan
+44	2544	kokapen	kokapena kokapenak kokapenarekin kokapenaren kokapenari kokapenaz kokapenera kokapenerantz kokapenetan kokapenik
+45	2545	kutun	kutuna kutunago kutunak kutunaren kutunean kutunegi kutunen kutunena kutunik
+46	2546	altuera	altuerak altuerako altueran altuerara altuerarekin altueraren altuerari altueratik altueraz altuerei altuerek
+47	2547	duin	duina duinagatik duinago duinagoa duinak duinean duinegi duinekoa duinekoak duinena duinik
+48	2548	ikastaro	ikastaroa ikastaroak ikastaroan ikastaroaren ikastaroaz ikastaroetan ikastaroetara ikastaroko ikastarokoa ikastarora ikastarorako ikastaroren ikastarorik
+49	2549	olerki	olerkia olerkiak olerkiaren olerkiei olerkiek olerkiengatik olerkiez olerkiren
+50	2550	mafia	mafiak mafiako mafiakoa mafiakoak mafiarekin mafiaren mafiarentzat mafiari mafiarik mafiaz mafiekin
+51	2551	praktika	praktikak praktikan praktikara praktikarekin praktikaren praktikarik praktikaz praktiken praktiketako praktiketan
+52	2552	zintzilikatu	zintzilika zintzilikatua zintzilikatuak zintzilikatuko zintzilikatuta zintzilikatutako zintzilikatzea zintzilikatzearen zintzilikatzeko zintzilikatzen
+53	2553	epel	epela epelago epelagoa epelak epelarekin epelean epelekin epelen epelera epeletan epeletara epeletik epelez
+54	2554	demonio	demonioa demonioak demonioek
+55	2555	loria	loriak lorian loriara loriarako loriaren loriari loriarik loriatik loriaz
+56	2556	presentzia	presentziak presentzian presentziara presentziarekin presentziaren presentziari presentziatik presentziaz
+57	2557	gaiztakeria	gaiztakeriak gaiztakeriarako gaiztakeriaren gaiztakeriarik gaiztakeriatan gaiztakeriatik gaiztakeriaz gaiztakerien gaiztakeriengatik
+58	2558	izpiritu	izpiritua izpirituak izpirituarekin izpirituaren izpirituari izpirituek izpirituekin izpirituen izpirituok izpirituz
+59	2559	margo	margoa margoak margoek margoen margoengatik margoetan margoetara margoko margokoak margori margorik margoz
+60	2560	kritikatu	kritikatuko kritikatuz kritikatzea kritikatzeagatik kritikatzeak kritikatzeari kritikatzeko kritikatzen
+61	2561	fruitu	fruitua fruituak fruituekin fruituen fruituengatik fruitura fruiturik fruituz
+62	2562	noraezean	
+63	2563	zita	zitak zitaren zitarik ziten
+64	2564	erauzi	erauz erauzia erauziko erauzita erauzitako erauztea erauzteko erauzten erauztera
+65	2565	pultsu	pultsua pultsuak pultsuan pultsuen pultsurik
+66	2566	moja	mojak mojaren mojari mojarik mojatako mojei mojek mojen mojengatik mojetako
+67	2567	kostu	kostua kostuak kostuarekin kostuaren kostuari kostuei kostuekin kostuen kostuengatik kostura kosturik
+68	2568	okela	okelan okelarekin okelaren okelarik okelaz
+69	2569	nano	nanoa nanoagatik nanoak nanoaren nanoari nanoei nanoek nanoekin nanoen nanook
+70	2570	eraitsi	eraiste eraistea eraisteak eraistean eraisteko eraisten eraistera eraitsia eraitsiko eraitsita eraitsiz
+71	2571	akusazio	akusazioa akusazioak akusazioan akusazioaren akusazioari akusazioei akusazioek akusazioen akusazioez akusaziorik
+72	2572	hunkigarri	hunkigarria hunkigarriak hunkigarriena hunkigarririk
+73	2573	zalaparta	zalapartak zalapartan zalapartarako zalapartarengatik zalapartari zalapartarik zalapartekin
+74	2574	salgai	salgaia salgaiak salgaien salgairik
+75	2575	txapel	txapela txapelak txapelarekin txapelei txapelik
+76	2576	memelo	memeloa memeloak memeloari memelorik
+77	2577	ikara	ikarak ikaran ikararik ikaratan ikaraz ikarok
+78	2578	administrazio	administrazioa administrazioak administrazioan administrazioaren administrazioarentzat administrazioari administrazioek administrazioekin administrazioko
+79	2579	imajina	
+80	2580	dozena	dozenak dozenaren dozenatik
+81	2581	oreka	orekak orekan orekaren orekari orekarik orekaz
+82	2582	garaile	garailea garaileak garailearen garaileek garaileen garailetzat garailez
+83	2583	marikoi	marikoia marikoiak marikoiek marikoirik marikoitzat
+84	2584	aurkari	aurkaria aurkariak aurkariaren aurkariari aurkariei aurkariek aurkaririk aurkaritik
+85	2585	ehizatu	ehizatua ehizatuak ehizatuko ehizatuta ehizatutakoa ehizatuz ehizatzea ehizatzeari ehizatzeaz ehizatzeko ehizatzera
+86	2586	putetxe	putetxea putetxeak putetxean putetxeetan putetxeetara putetxeetatik putetxeko putetxera putetxerik putetxetara
+87	2587	kabina	kabinak kabinako kabinan kabinara kabinarekin kabinatik kabinaz kabinek kabinekin kabinetan
+88	2588	sarraski	sarraskia sarraskiagatik sarraskiak sarraskian sarraskiarekin sarraskiaren sarraskiei sarraskiek sarraskien sarraskietan sarraskiez sarraskira sarraskirako sarraskirik
+89	2589	hiriburu	hiriburua hiriburuak hiriburuan hiriburuaz hiriburuetan hiriburuko hiriburukoa hiriburura hiribururaino hiribururantz hiriburutik
+90	2590	espainiar	espainiarra espainiarrak espainiarrarekin espainiarraren espainiarrari espainiarrean espainiarrei espainiarrek espainiarrekin espainiarren espainiarrena espainiarrengandik espainiarrera espainiartzat
+91	2591	enbaxada	enbaxadak enbaxadako enbaxadakoa enbaxadakoak enbaxadan enbaxadara enbaxadarekin enbaxadarik enbaxadaz enbaxadek enbaxaden enbaxadetan enbaxadetara
+92	2592	elastiko	elastikoa elastikoak elastikoarekin elastikoaz elastikoekin elastikorik
+93	2593	negatibo	negatiboa negatiboagoa negatiboak negatiboan negatiboarekin negatiboaren negatiboek negatiboekin negatiboen negatiboena negatibotik
+94	2594	galaxia	galaxiak galaxiako galaxian galaxiaren galaxiari galaxiarik galaxiatan galaxiei galaxien galaxietako galaxietatik
+95	2595	etxekoandre	etxekoandrea etxekoandreak etxekoandrearekin etxekoandrearen etxekoandrearentzat etxekoandreari etxekoandreen etxekoandreentzat
+96	2596	lagin	lagina laginagatik laginak laginarekin laginei laginekin laginen laginetatik laginez laginik
+97	2597	ikuspuntu	ikuspuntua ikuspuntuak ikuspuntuan ikuspuntuaren ikuspuntuen ikuspuntuetatik ikuspunturen ikuspunturik ikuspuntutik
+98	2598	soro	soroa soroak soroan soroekin soroen soroetako soroetan soroetara soroetatik soroez sorotik
+99	2599	bikoiztu	bikoiztea bikoizten bikoiztua bikoiztuak bikoiztuko bikoiztuta
+100	2600	aberastu	aberasten aberastuko aberastutako aberastuz

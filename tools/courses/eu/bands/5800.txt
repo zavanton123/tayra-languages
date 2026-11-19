@@ -1,0 +1,100 @@
+1	5701	katakume	katakumea katakumeak
+2	5702	alkateorde	alkateordea alkateordeak alkateordearen alkateorderik
+3	5703	klaxon	klaxona klaxonak klaxonik
+4	5704	irakaskuntza	irakaskuntzako irakaskuntzan irakaskuntzaren
+5	5705	zoko	zokoan zokoren zokorik zokotik
+6	5706	maxwell	maxwellek maxwellen maxwellez
+7	5707	mintzagai	mintzagaia mintzagaira mintzagairik
+8	5708	irreal	irreala irrealagoa irrealena
+9	5709	kontalari	kontalaria kontalariak kontalariaz
+10	5710	hozkada	hozkadak hozkadarekin
+11	5711	libiar	libiarrak libiarrek libiarreko
+12	5712	plus	plusa plusak plusarengatik
+13	5713	metaliko	metalikoa metalikoak metalikoan
+14	5714	veneziar	veneziara veneziaren veneziarrek
+15	5715	soda	sodak sodarekin sodarik
+16	5716	diagnosi	diagnosia diagnosirako
+17	5717	puritano	puritanoa puritanoentzat
+18	5718	logo	logoa logoak logorik
+19	5719	casting	castinga castingeko castingekoak castingera
+20	5720	heldugabe	heldugabea heldugabeak heldugabeen heldugabeko
+21	5721	errolda	erroldak erroldan erroldaren
+22	5722	armategi	armategia armategiak armategiari armategira
+23	5723	elurte	elurtea elurteak
+24	5724	zapalkuntza	zapalkuntzak zapalkuntzarekin zapalkuntzarik zapalkuntzatik
+25	5725	guztiahaldun	guztiahalduna guztiahaldunak guztiahaldunaren guztiahaldunari
+26	5726	txolarre	txolarrea txolarreak txolarrearen txolarreren
+27	5727	aluminio	aluminioa aluminioz
+28	5728	prostata	prostatako prostatarako prostatarekin prostatatik
+29	5729	eskorga	eskorgak eskorgaren eskorgari
+30	5730	espektro	espektroa espektroak espektroaren
+31	5731	klimax	klimaxa klimaxean klimaxera klimaxerako
+32	5732	superheroi	superheroia superheroiak superheroiek superheroirik
+33	5733	kultu	kultua kultuak kultuko kulturako
+34	5734	gosete	gosetea gosetean goseteek
+35	5735	mikatz	mikatza mikatzagoa mikatzak mikatzegiak mikatzena
+36	5736	orkidea	orkideak orkideen orkideez
+37	5737	abadia	abadiak abadian abadiara abadiaren
+38	5738	txotx	txotxa txotxarekin txotxaren txotxekin txotxetara
+39	5739	adikzio	adikzioa adikzioei adikziorekin
+40	5740	liztor	liztorra liztorrak liztorrei liztorrek
+41	5741	neurketa	neurketak neurketarik neurketek
+42	5742	euskaldun	euskaldunak euskaldunek euskaldunentzat euskaldunon
+43	5743	erregosi	erregosia erregosiak
+44	5744	abangoardia	abangoardiako abangoardian abangoardiaren
+45	5745	lausengatu	lausengatua lausengatzea lausengatzen
+46	5746	urkatzaile	urkatzailea urkatzaileak urkatzaileari
+47	5747	ahaztezin	ahaztezina ahaztezinak ahaztezinaren
+48	5748	espermatozoide	espermatozoideak espermatozoideei espermatozoiderik
+49	5749	kargagailu	kargagailua kargagailuan
+50	5750	bilakaera	bilakaerak bilakaeran bilakaerarekin bilakaerari
+51	5751	zartako	zartakoa zartakoekin zartakorik zartakoz
+52	5752	lux	luxeko luxekoak luxen luxetik
+53	5753	fabrikatzaile	fabrikatzailea fabrikatzaileak fabrikatzailearen fabrikatzaileek fabrikatzaileekin
+54	5754	kirasdun	kirasduna kirasdunak kirasdunean
+55	5755	ultimatum	ultimatuma ultimatumak
+56	5756	errezu	errezuak errezuan errezuen errezurako
+57	5757	kroniko	kronikoa kronikoak kronikoekin kronikoetako kronikoez
+58	5758	ziborg	ziborga ziborgak ziborgari
+59	5759	ateo	ateoa ateoak
+60	5760	sozialismo	sozialismoa sozialismoak sozialismoaren
+61	5761	moxal	moxala moxalaren moxaletik
+62	5762	musuzapi	musuzapia musuzapiak musuzapien musuzapirik
+63	5763	zulagailu	zulagailua zulagailuak zulagailuarekin zulagailuaren
+64	5764	tifus	tifusa tifusez tifusik
+65	5765	kontable	kontablea kontableak kontablearekin kontableentzat
+66	5766	kontagailu	kontagailua kontagailuan kontagailuarekin
+67	5767	lekaio	lekaioa lekaioak lekaioaren
+68	5768	fotokopia	fotokopiak fotokopiarik
+69	5769	irrazional	irrazionala irrazionalak irrazionalaren irrazionalekin
+70	5770	kafesne	kafesnea kafesneak
+71	5771	txorimalo	txorimaloa txorimaloaren txorimaloen txorimalorik
+72	5772	bisonte	bisonteak bisonteen
+73	5773	eskabide	eskabidea eskabideari
+74	5774	kamuflatu	kamuflatuak kamuflatuta kamuflatzeko kamuflatzen
+75	5775	boxeatu	boxeatuko boxeatzeko boxeatzen
+76	5776	psikiko	psikikoa psikikoak psikikoaren psikikoaz psikikoen
+77	5777	digestio	digestioa digestioagatik digestioak digestioko digestiorako
+78	5778	kolaboratu	kolaboratuko kolaboratzea kolaboratzeko kolaboratzen
+79	5779	txinpantze	txinpantzeak txinpantzeek txinpantzerik
+80	5780	abegikor	abegikorra abegikorrago abegikorragoak abegikorrak
+81	5781	katastrofe	katastrofea katastrofeen katastrofeengatik
+82	5782	gozotasun	gozotasuna gozotasunak gozotasunarekin gozotasunez
+83	5783	jostorratz	jostorratza jostorratzak jostorratzaren jostorratzarentzat
+84	5784	automobil	automobilean automobilekin automobilera automobiletik
+85	5785	konpresio	konpresioa konpresioarekin
+86	5786	sorleku	sorlekua sorlekuan sorlekura
+87	5787	hetero	heteroa heteroak heteroek
+88	5788	izadi	izadia izadiak izadiaren
+89	5789	haginkada	haginkadak haginkadaz haginkadekin
+90	5790	kontserbatu	kontserbatuak kontserbatuko kontserbaturik kontserbatuta kontserbatzeko kontserbatzen
+91	5791	etxabere	etxaberea etxabereak etxabereen etxabererik
+92	5792	gotzain	gotzaina gotzainarekin gotzainaren gotzainek
+93	5793	silo	siloa siloak siloan silora siloraino
+94	5794	kudeaketa	kudeaketak kudeaketan kudeaketarako
+95	5795	depilatu	depilatuta depilatzea depilatzeari depilatzeko depilatzen
+96	5796	honelakoxe	honelakoxea honelakoxeak
+97	5797	matxete	matxetea matxeteak matxeteekin matxetez
+98	5798	wifi	wifia wifiaz wifirik
+99	5799	profanatu	profanatuko profanatutako profanatzea profanatzen
+100	5800	tibetar	tibetarra tibetarrak tibetarrek tibetarrentzat

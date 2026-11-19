@@ -1,0 +1,100 @@
+1	4001	izurri	izurria izurriagatik izurriak izurriarekin izurrietako
+2	4002	zurrun	zurruna zurrunago zurrunagoa zurrunen zurrunetik
+3	4003	formal	formala formalago formalak formalean formalegia formalen formalerako formalik
+4	4004	tirano	tiranoa tiranoak tiranoaren tiranoei tiranoen tiranorik tiranotzat
+5	4005	berritsu	berritsua berritsuagoa berritsuak berritsuegi berritsuegia
+6	4006	haurdunaldi	haurdunaldia haurdunaldiak haurdunaldian haurdunaldiarekin haurdunaldiaren haurdunaldiari haurdunaldien haurdunaldiez haurdunaldiko haurdunaldirik
+7	4007	lantoki	lantokia lantokiak lantokian lantokietara lantokiko lantokira lantokiraino lantokitik
+8	4008	alferkeria	alferkeriak alferkerian alferkeriaz alferkerietan
+9	4009	prototipo	prototipoa prototipoak prototipoan prototipoen prototiporen prototiporik
+10	4010	erregimentu	erregimentua erregimentuak erregimentuaren erregimentuarentzat erregimentuko erregimentukoak erregimentura erregimentutan erregimentutik
+11	4011	filosofo	filosofoa filosofoak filosofoaren filosofoei filosofoek
+12	4012	infekzio	infekzioa infekzioak infekzioetan infekziorako infekzioren
+13	4013	xehe	xehea xeheak xehean xehearen xeherik xehez
+14	4014	boltxebike	boltxebikea boltxebikeak boltxebikeei boltxebikeek boltxebikeekin boltxebikeen boltxebikeentzat boltxebikerik
+15	4015	koinatu	koinatua koinatuak koinatuarekin koinatuaren koinatuari koinatuek
+16	4016	erabiltzaile	erabiltzailea erabiltzaileak erabiltzailearen erabiltzailearentzat erabiltzaileari erabiltzaileei erabiltzaileek erabiltzaileen
+17	4017	errepasatu	errepasa errepasatuko errepasatzea errepasatzeko errepasatzen errepasatzera
+18	4018	jantoki	jantokia jantokian jantokien jantokiko jantokira
+19	4019	barrikada	barrikadak barrikadako barrikadan barrikadara barrikadatik barrikadei barrikadekin barrikadetatik
+20	4020	ubide	ubidea ubideak ubidean ubideko ubidera ubiderantz ubidetik
+21	4021	tindatu	tindatua tindatuak tindatuko tindatuta tindatzeko tindatzen tindatzera
+22	4022	oilar	oilarra oilarrak oilarrarekin oilarraren oilarrari oilarren
+23	4023	aurreiritzi	aurreiritzia aurreiritziak aurreiritziek aurreiritziengatik aurreiritzirik aurreiritziz
+24	4024	bozgorailu	bozgorailua bozgorailuak bozgorailuan bozgorailuarekin bozgorailuaren bozgorailuari bozgorailuei bozgorailuetatik bozgorailurik bozgorailutik
+25	4025	gotor	gotorra gotorrak gotorrean gotorregi gotorrekin gotorrekoak gotorretako gotorretik gotorrik
+26	4026	emaile	emailea emaileak emailean emailearen emaileei emaileek emaileen emailera emailerik emailetan
+27	4027	sutsu	sutsuago sutsuagoa sutsuak sutsuan sutsuarentzat sutsuari sutsuaz sutsuegia sutsuena sutsuenak
+28	4028	automatikoki	
+29	4029	musuka	
+30	4030	argal	
+31	4031	segidan	
+32	4032	bilioi	bilioiak
+33	4033	lain	lainez
+34	4034	txahal	txahala txahalak
+35	4035	korta	kortak kortan kortarik
+36	4036	ebidentzia	ebidentziak ebidentziarik ebidentziek
+37	4037	bederatzigarren	bederatzigarrena bederatzigarrenak bederatzigarrenaren
+38	4038	jaguar	jaguarra jaguarrak jaguarrarekin jaguarraren jaguarrari jaguarren
+39	4039	koñak	koñaka koñakarekin
+40	4040	petardo	petardoa petardoagatik petardoak petardoek petardoez
+41	4041	poster	posterra posterrak posterrarekin posterrari posterretako posterrik
+42	4042	iaio	iaioa iaioagoa iaioak
+43	4043	proteina	proteinak proteinekin
+44	4044	higiezin	higiezinak higiezinen higiezinetako higiezinetan
+45	4045	deskontu	deskontua deskontuarekin deskontuarengatik deskonturako deskonturik
+46	4046	diagnostiko	diagnostikoa diagnostikoagatik diagnostikoak diagnostikoan diagnostikoaren
+47	4047	distiratu	distiratuak distiratuko distiratzeko distiratzen
+48	4048	eredugarri	eredugarria eredugarriak eredugarrian
+49	4049	diktadore	diktadorea diktadorearen diktadoreari diktadoreetan diktadoretzat
+50	4050	purpura	purpurak purpurara purpurari purpuraz
+51	4051	tronpeta	tronpetak tronpetarekin tronpetaren tronpetek tronpeten
+52	4052	zirkuitu	zirkuitua zirkuituak zirkuituan zirkuituari zirkuituen zirkuituko
+53	4053	manera	manerak manerarik
+54	4054	lizunkeria	lizunkeriak lizunkerian lizunkeriaren lizunkeriarik lizunkeriatan
+55	4055	mandatari	mandataria mandatariak mandatariari mandatariek
+56	4056	programazio	programazioa programazioan programazioarekin programazioaren programazioaz
+57	4057	mantal	mantala mantalak mantalaren mantalekin
+58	4058	zifra	zifrak zifrako zifrengatik
+59	4059	aldapa	aldapak aldapako aldapan aldaparik
+60	4060	esleitu	esleitua esleituak esleituko esleituta esleitzeko esleitzen
+61	4061	planifikatu	planifikatua planifikatuak planifikaturik planifikatzea planifikatzeko planifikatzen
+62	4062	paraxutista	paraxutistak paraxutistei paraxutistek paraxutisten paraxutistok
+63	4063	iraungi	iraungia iraungiko iraungita iraungitze iraungitzen
+64	4064	erreportaje	erreportajea erreportajearekin erreportajearen erreportajerik
+65	4065	ostra	ostrak ostrarik ostrekin ostren ostrengatik ostretan
+66	4066	eskuzabaltasun	eskuzabaltasuna eskuzabaltasunagatik eskuzabaltasunak eskuzabaltasunaren eskuzabaltasunari eskuzabaltasunean eskuzabaltasunez eskuzabaltasunik
+67	4067	saltatu	salta saltatuta saltatzea saltatzeko saltatzen saltatzerik
+68	4068	injekzio	injekzioa injekzioak injekzioarekin injekzioaren injekzioengatik
+69	4069	bertso	bertsoa bertsoak bertsoaz bertsoek bertsoen bertsorik bertsotan
+70	4070	liburuxka	liburuxkak liburuxkakoak liburuxkan liburuxkaren liburuxkatik liburuxkaz liburuxkek liburuxketan
+71	4071	master	masterra masterrak masterrarekin masterreko masterrik
+72	4072	txikikeria	txikikeriak txikikeriaren txikikeriei txikikeriekin txikikeriengatik txikikerietan
+73	4073	apelatu	apela apelatuko apelatzea apelatzeko apelatzen apelatzerik
+74	4074	makillatu	makillatuko makillaturik makillatuta makillatzea makillatzeko makillatzen
+75	4075	kontsolatu	kontsolatuko kontsolatzea kontsolatzeko kontsolatzen
+76	4076	turkiar	turkiarra turkiarrak turkiarrek turkiarreko turkiarren turkiarrez
+77	4077	erreaktore	erreaktorea erreaktoreak erreaktorean erreaktoreetatik erreaktorera erreaktoretan
+78	4078	mineral	minerala mineralak mineralen
+79	4079	duelu	duelua dueluagatik dueluak dueluan dueluetan duelura duelurako duelutan
+80	4080	dekoratu	dekoratua dekoratuak dekoratuan dekoratuen dekoratuetan dekoratuta dekoratzea dekoratzeko dekoratzen
+81	4081	erbinude	erbinudea erbinudeak erbinudeek erbinudeen
+82	4082	belatz	belatza belatzak belatzaren belatzek belatzekin belatzik
+83	4083	graduazio	graduazioa graduazioak graduazioan graduazioaz graduazioko graduaziokoa graduaziora graduaziorako
+84	4084	olinpiada	olinpiadak olinpiadan olinpiadetako olinpiadetan olinpiadetara
+85	4085	itsasoratu	itsasora itsasoratuko itsasoratuta itsasoratzeko itsasoratzen itsasoratzera
+86	4086	kopeta	kopetak kopetako kopetan kopetaraino kopetaren kopetari
+87	4087	lehenengoan	
+88	4088	noizko	
+89	4089	estropezu	estropezua
+90	4090	hamasei	hamaseiarekin
+91	4091	euskara	euskarara euskaraz
+92	4092	mestizo	mestizoa mestizoak mestizoari
+93	4093	iraupen	iraupena iraupenaren iraupenaz iraupenez iraupenik
+94	4094	entzumen	entzumena entzumenaren entzumenean entzumeneko entzumenerako
+95	4095	muki	mukia mukiak
+96	4096	bihozgabe	bihozgabea bihozgabeak bihozgabeena bihozgabeenak
+97	4097	ahobero	ahoberoa ahoberoak
+98	4098	eguzkitsu	eguzkitsua eguzkitsuak eguzkitsuan eguzkitsuetan
+99	4099	gutxiegi	gutxiegia gutxiegiak gutxiegirekin
+100	4100	ironiko	ironikoa ironikoan ironikoena

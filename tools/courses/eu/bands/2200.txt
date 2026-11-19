@@ -1,0 +1,100 @@
+1	2101	alemaniar	alemaniarena alemaniarra alemaniarrak alemaniarrei alemaniarrek alemaniarrekin alemaniarren alemaniarretan alemaniarretara alemaniarrik
+2	2102	galdeketa	galdeketak galdeketan galdeketarako galdeketarekin galdeketaren galdeketarik galdeketatik galdeketekin galdeketetan
+3	2103	hosto	hostoa hostoak hostoarentzat hostoaz hostoekin hostoen hostoetako hostoetan hostoetatik hostoko hostorik hostoz
+4	2104	burutu	burutua burutuko burututa burutzea burutzeak burutzeaz burutzeko burutzen
+5	2105	zur	zura zurak zuraren zurean zuren zurengatik zurera zuretara zuretik zurik
+6	2106	indio	indioa indioak indioari indioei indioek indioekin indioen indioentzat indioetatik indiora indioren indiorik indiotik
+7	2107	kristal	kristala kristalak kristalarekin kristalaren kristalean kristalek kristaleko kristalen kristalera kristaletan kristaletik kristalez kristalik
+8	2108	gitarra	gitarrak gitarrarekin gitarraren gitarrek gitarrekin gitarren
+9	2109	matrikula	matrikulak matrikulan matrikularekin matrikularen matrikularengatik matrikulari matrikularik matrikulei matrikulen
+10	2110	gastu	gastua gastuak gastuei gastuen gastuetan gastuez gasturik gastutan
+11	2111	gizateria	gizateriak gizaterian gizateriarekin gizateriaren gizateriarengatik gizateriarentzat gizateriari
+12	2112	otoi	otoiz
+13	2113	aktibatu	aktiba aktibatua aktibatuko aktibaturik aktibatuta aktibatuz aktibatzeko aktibatzen
+14	2114	zatitu	zatitua zatituko zatituta zatitutako zatitze zatitzea zatitzeko zatitzen
+15	2115	aurrerapen	aurrerapena aurrerapenak aurrerapenaz aurrerapenean aurrerapenei aurrerapenek aurrerapeneko aurrerapenik
+16	2116	galarazi	galaraz galaraziko galarazita galarazitako galaraziz galaraztea galarazteagatik galarazteko galarazten
+17	2117	ahantzi	ahantz ahantzia ahantziak ahantziko ahantzita ahantzitako ahanztea ahanzteaz ahanzteko ahanzten
+18	2118	ar	arekin aren arrago arragoa arragoak arrak arrarekin arraren arrari arrean arregi arrek arrera arri
+19	2119	kreditu	kreditua kredituak kredituan kredituaren kredituaz kredituen kredituetan kreditura krediturako krediturik kreditutik
+20	2120	adiskidetasun	adiskidetasuna adiskidetasunagatik adiskidetasunak adiskidetasunaren adiskidetasunarengatik adiskidetasunari adiskidetasunaz adiskidetasunean adiskidetasuneko adiskidetasunerako adiskidetasunez adiskidetasunik
+21	2121	helikoptero	helikopteroa helikopteroak helikopteroan helikopteroarekin helikopteroaren helikopteroari helikopteroei helikopteroek helikopteroen helikopteroetan helikopterora helikopterorik helikopterotik helikopteroz
+22	2122	esplikatu	esplika esplikaiezu esplikatuko esplikaturik esplikatzea esplikatzeari esplikatzeko esplikatzen esplikatzera
+23	2123	zoritxar	zoritxarra zoritxarrak zoritxarrarekin zoritxarraren zoritxarrari zoritxarraz zoritxarrek zoritxarreko zoritxarrekoa zoritxarrekoak zoritxarren zoritxarrera zoritxarrerako zoritxarrik
+24	2124	kaos	kaosa kaosagatik kaosak kaosaren kaosean kaoseko kaosera kaosetik
+25	2125	tigre	tigrea tigreak tigrean tigrearen tigreari tigreei tigreek tigreen tigreez tigrerik tigretik
+26	2126	lizun	lizuna lizunago lizunagoa lizunak lizunaren lizunari lizunean lizunena lizunetan
+27	2127	txokolate	txokolatea txokolateak txokolatean txokolatearekin txokolatearen txokolateari txokolaterik txokolatez
+28	2128	munizio	munizioa munizioagatik munizioak munizioarekin munizioaren munizioari munizioen muniziorik munizioz
+29	2129	kanpamentu	kanpamentua kanpamentuan kanpamentuaren kanpamentuekin kanpamentuetako kanpamentuetara kanpamentuetatik kanpamentuko kanpamentukoak kanpamentura kanpamenturaino kanpamenturako kanpamenturantz kanpamentutik
+30	2130	landatu	landatuko landatuta landatutako landatuz landatzea landatzeagatik landatzean landatzeko landatzen landatzera
+31	2131	itsatsi	itsastea itsasteagatik itsasteak itsastean itsasteko itsasten itsatsia itsatsiak itsatsiko itsatsita itsatsitako
+32	2132	faktura	fakturak fakturarako fakturarekin fakturaren fakturarengatik fakturei
+33	2133	antzoki	antzokia antzokiak antzokian antzokiaren antzokiekin antzokietako antzokietan antzokiko antzokikoa antzokira antzokirako antzokitik
+34	2134	xerra	xerrak xerrarik xerratan xerrekin xerretan xerrez
+35	2135	poema	poemak poeman poemaren poemarik
+36	2136	bilaketa	bilaketak bilaketan bilaketarako bilaketaren bilaketari bilaketaz bilaketekin
+37	2137	pintura	pinturak pinturan pinturara pinturaren pinturari pinturarik pinturatik pinturaz pinturei pinturekin pinturen
+38	2138	konorte	konortea konortearekin konortera konorterik
+39	2139	altzari	altzaria altzariak altzariek altzariekin altzarien altzarietan altzariren altzaririk altzariz
+40	2140	zutitu	zutitua zutituko zutituta zutitze zutitzeak zutitzean zutitzeko zutitzen
+41	2141	britainiar	britainiarra britainiarrak britainiarraren britainiarrarengatik britainiarrari britainiarrean britainiarrei britainiarrek britainiarrekin britainiarren britainiarrentzat britainiarrera britainiarretik britainiarrok
+42	2142	frijitu	frijitua frijituak frijituarekin frijituaz frijituei frijituekin frijituen frijituko frijiturik frijituta frijitutako frijitzea frijitzeko frijitzen
+43	2143	sobera	soberako soberakoak soberan
+44	2144	barra	barrak barrako barran barrara barrarekin barraren barratan barratara barrekin
+45	2145	agurgarri	agurgarria agurgarriagatik agurgarriagoak agurgarriak agurgarrian agurgarriarekin agurgarriaren agurgarriari agurgarriek agurgarrien agurgarriok agurgarritzat
+46	2146	neurtu	neur neurtua neurtuak neurtuko neurtuta neurtuz neurtzea neurtzeko neurtzen neurtzerik
+47	2147	biztanle	biztanlea biztanleak biztanleei biztanleek biztanleekin biztanleen biztanleentzat biztanleetako biztanleez biztanleko biztanleok biztanlerekin biztanlerik biztanletik
+48	2148	korridore	korridorea korridoreak korridorean korridorearen korridoreen korridoreetako korridoreetan korridoreko korridorera korridoretik korridorez
+49	2149	erresistentzia	erresistentziak erresistentziako erresistentziakoa erresistentzian erresistentziara erresistentziarekin erresistentziaren erresistentziarentzat erresistentziari erresistentziarik
+50	2150	praka	prakarik prakei prakek prakekin praken praketan praketatik
+51	2151	dibortzio	dibortzioa dibortzioagatik dibortzioak dibortzioan dibortzioarekin dibortzioaren dibortzioarengatik dibortzioari dibortzioaz dibortzioen dibortzioko dibortziorako dibortziorik dibortziotik
+52	2152	kasualitate	kasualitatea kasualitateak kasualitateen kasualitaterik kasualitatez
+53	2153	plano	planoa planoak planoan planoarekin planoaren planoei planoengatik planoko planorako planotik
+54	2154	barnean	
+55	2155	arraza	arrazak arrazako arrazakoa arrazakoak arrazaren arrazarengatik arrazarentzat arrazari arrazatik arrazen
+56	2156	patio	patioa patioan patioaren patioetan patioko patiora patioraino patiorantz patiotik
+57	2157	atezain	atezaina atezainak atezainarekin atezainaren atezainari atezainik
+58	2158	satelite	satelitea sateliteak satelitearekin satelitearen sateliteek sateliteekin sateliteen sateliteetan sateliteko sateliteren satelitetik satelitez
+59	2159	moderno	modernoa modernoagoa modernoak modernoan modernoaren modernoari modernoegia modernoek modernoekin modernoen modernoena modernoenak modernoetako modernoko modernotzat
+60	2160	hozkailu	hozkailua hozkailuak hozkailuan hozkailuaren hozkailuen hozkailuko hozkailura hozkailurako hozkailurik hozkailutik
+61	2161	departamentu	departamentua departamentuak departamentuan departamentuarekin departamentuaren departamentuari departamentuetara departamentuko departamentukoak departamentura departamentutan departamentuz
+62	2162	tirokatu	tirokatua tirokatuak tirokatuko tirokatutako tirokatuz tirokatzea tirokatzeari tirokatzeko tirokatzen
+63	2163	gutxietsi	gutxiestea gutxiesteko gutxiesten gutxietsia gutxietsiak gutxietsiko gutxietsirik gutxietsita gutxietsiz
+64	2164	negargarri	negargarria negargarriak negargarriarekin negargarriaren negargarriekin negargarriena negargarriren
+65	2165	txukun	txukuna txukunago txukunagoak txukunak txukunean txukunen txukunena txukunik
+66	2166	hasiberri	hasiberria hasiberriak hasiberriaren hasiberriari hasiberriei hasiberriek hasiberriekin hasiberrien hasiberrientzat hasiberriok hasiberriri
+67	2167	haurtzaro	haurtzaroa haurtzaroan haurtzaroarekin haurtzaroaren haurtzaroari haurtzaroaz haurtzaroko haurtzarokoa haurtzarorik haurtzarotik
+68	2168	trukean	
+69	2169	presaka	
+70	2170	idiota	idiotak idiotaren idiotari idiotek
+71	2171	luma	lumak luman lumaren lumarik lumaz lumekin lumen lumetan
+72	2172	teknika	teknikak teknikan teknikarekin teknikaren teknikarik teknikaz teknikei teknikek tekniketan teknikok
+73	2173	jokaldi	jokaldia jokaldiak jokaldian jokaldiarekin jokaldiaren jokaldien jokaldietako jokaldirik jokalditan
+74	2174	senatari	senataria senatariak senatariarekin senatariaren senatariarentzat senatariei senatariek senatariekin senatarien senatariok senatariri senataririk
+75	2175	euro	euroak euroko eurokoa eurorekin eurotako eurotan
+76	2176	kritika	kritikak kritikan kritikarako kritikarekin kritikaren kritikarentzat kritikarik kritikei
+77	2177	beisbol	beisbola beisbolak beisbolarekin beisbolaren beisbolaz beisbolean beisboleko beisbolekoa beisbolera beisboletik beisbolik
+78	2178	eme	emea emeak emearekin emearen emeari emeei emeek emeekin emeen emeenganako emek emerekin emerik
+79	2179	tristura	tristurak tristurarako tristurarekin tristuraren tristurari tristurarik tristuratik tristuraz
+80	2180	eguerdi	eguerdia eguerdian eguerdiaren eguerdietan eguerdiko eguerdira eguerdirako eguerditik
+81	2181	maiatz	maiatza maiatzak maiatzaren maiatzarengatik maiatzean maiatzeko maiatzen maiatzerako
+82	2182	kanpotar	kanpotarra kanpotarrak kanpotarrarekin kanpotarrari kanpotarrekin kanpotarren kanpotarrez kanpotarrik
+83	2183	paziente	pazientea pazienteak pazientearekin pazientearen pazienteei pazienteek pazienteekin pazienteen pazienteetako pazienteetan pazienteez pazienteren pazienterik pazientez
+84	2184	lurrikara	lurrikarak lurrikarako lurrikaran lurrikararen lurrikararik lurrikaratik lurrikaraz lurrikarei lurrikarek lurrikaren lurrikaretako lurrikaretan lurrikarez
+85	2185	errifle	erriflea errifleak erriflearekin erriflearen errifleaz errifleek errifleekin errifleen errifleetan errifleez erriflerekin erriflerik erriflez
+86	2186	jazz	jazza jazzak jazzarekin jazzari jazzaz jazzean jazzeko
+87	2187	laurden	laurdena laurdenak laurdenean laurdenek laurdeneko laurdenera laurdenetan laurdenetik
+88	2188	irudimen	irudimena irudimenak irudimenarekin irudimenaren irudimenari irudimenaz irudimenean irudimenetan irudimenetik irudimenez irudimenik
+89	2189	arbaso	arbasoa arbasoak arbasoaren arbasoei arbasoek arbasoekin arbasoen arbasoengandik arbasoetako arbasok
+90	2190	biziraun	biziraungo biziraute bizirautea bizirauteak bizirauteko bizirauten
+91	2191	tiroka	
+92	2192	hogei	hogeiak hogeian hogeikoa hogeiri
+93	2193	otordu	otordua otorduagatik otorduak otorduan otorduaren otorduari otorduaz otorduek otorduekin otorduetako otorduetan otorduetarako otorduko otordurako otordurik
+94	2194	liluragarri	liluragarria liluragarriak liluragarrian liluragarriarekin liluragarriaren liluragarriari liluragarriena
+95	2195	neskatxa	neskatxak neskatxarekin neskatxaren neskatxari neskatxaz neskatxek neskatxekin neskatxen
+96	2196	metodo	metodoa metodoak metodoarekin metodoaren metodoaz metodoei metodoek metodoekin metodoetako metodorik
+97	2197	konplexu	konplexua konplexuago konplexuagoa konplexuagoak konplexuak konplexuan konplexuaren konplexuari konplexuegia konplexuegiak konplexuei konplexuekin konplexuena konplexuez konplexuko konplexurantz konplexurik konplexutik konplexuz
+98	2198	protokolo	protokoloa protokoloak protokoloan protokoloaren protokoloari protokoloaz protokoloko protokolora protokoloren protokolorik
+99	2199	hodi	hodia hodiak hodian hodiarekin hodiaren hodiek hodiekin hodien hodietako hodietan hodietara hodietatik hodira hoditik hodiz
+100	2200	pozoitu	pozoi pozoitua pozoituak pozoituko pozoituta pozoitutako pozoitze pozoitzea pozoitzeko pozoitzen pozoitzera

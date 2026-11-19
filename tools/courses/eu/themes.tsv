@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Basque)
+eu-mini-0100	100	A1	Home and family	Etxean eta familian
+eu-mini-0200	200	A1	Everyday life	Egunero
+eu-mini-0300	300	A1	Food and shopping	Jatekoak eta erosketak
+eu-mini-0400	400	A2	In the city	Hirian
+eu-mini-0500	500	A2	School and work	Eskola eta lana
+eu-mini-0600	600	A2	Free time and hobbies	Aisialdia eta zaletasunak
+eu-mini-0700	700	A2	Health and the body	Osasuna eta gorputza
+eu-mini-0800	800	A2	Travel and holidays	Bidaiak eta oporrak
+eu-mini-0900	900	A2	Nature and the seasons	Natura eta urtaroak
+eu-mini-1000	1000	A2	Birthdays, parties and friends	Urtebetetzeak, festak eta lagunak
+eu-mini-1100	1100	B1	Living and housing	Etxebizitza bila
+eu-mini-1200	1200	B1	Memories	Oroitzapenak
+eu-mini-1300	1300	B1	Jobs and training	Lanbideak eta ikasketak
+eu-mini-1400	1400	B1	Getting around	Nola iritsi?
+eu-mini-1500	1500	B1	Money and shopping	Dirua eta erosketak
+eu-mini-1600	1600	B1	Experiencing culture	Kultura bizi
+eu-mini-1700	1700	B1	Sport and exercise	Kirola eta ariketa
+eu-mini-1800	1800	B1	The environment in daily life	Ingurumena egunerokoan
+eu-mini-1900	1900	B1	Letters, messages and media	Gutunak, mezuak eta hedabideak
+eu-mini-2000	2000	B1	Neighbourhood	Auzoa
+eu-mini-2100	2100	B2	Cooking and food	Sukaldaritza eta janaria
+eu-mini-2200	2200	B2	Body and mind	Gorputza eta burua
+eu-mini-2300	2300	B2	The world of work	Lanaren mundua
+eu-mini-2400	2400	B2	Science and technology	Zientzia eta teknologia
+eu-mini-2500	2500	B2	History you can touch	Ukitzeko moduko historia
+eu-mini-2600	2600	B2	Travelling in the Basque Country	Euskal Herrian barrena
+eu-mini-2700	2700	B2	Generations	Belaunaldiak
+eu-mini-2800	2800	B2	Music	Musika
+eu-mini-2900	2900	B2	Society and living together	Elkarbizitza
+eu-mini-3000	3000	B2	Small columns	Zutabe txikiak
+eu-mini-3100	3100	B2	Home and decoration	Etxea eta apainketa
+eu-mini-3200	3200	B2	Fashion and clothes	Moda eta arropa
+eu-mini-3300	3300	B2	The great outdoors	Aire zabalean
+eu-mini-3400	3400	B2	Traditional crafts	Ofizio zaharrak
+eu-mini-3500	3500	B2	Technology and society	Teknologia eta gizartea
+eu-mini-3600	3600	B2	Rivers, coast and the sea	Ibaiak, kostaldea eta itsasoa
+eu-mini-3700	3700	B2	Books and language	Liburuak eta hizkuntza
+eu-mini-3800	3800	B2	Everyday economics	Eguneroko ekonomia
+eu-mini-3900	3900	B2	Village life	Herriko bizitza
+eu-mini-4000	4000	B2	City life columns	Hiriko zutabeak
+eu-mini-4100	4100	C1	Body and mind in daily life	Gorputza eta burua egunerokoan
+eu-mini-4200	4200	C1	Architecture and heritage	Arkitektura eta ondarea
+eu-mini-4300	4300	C1	Climate and energy	Klima eta energia
+eu-mini-4400	4400	C1	Everyday paperwork	Eguneroko paperak
+eu-mini-4500	4500	C1	Film and television	Zinema eta telebista
+eu-mini-4600	4600	C1	Research and discovery	Ikerketa eta aurkikuntzak
+eu-mini-4700	4700	C1	Living far from home	Etxetik urrun bizi
+eu-mini-4800	4800	C1	The mind in daily life	Burua egunerokoan
+eu-mini-4900	4900	C1	Sport and society	Kirola eta gizartea
+eu-mini-5000	5000	C1	Short essays	Saiakera laburrak
+eu-mini-5100	5100	C1	Archaeology and the past	Arkeologia eta iragana
+eu-mini-5200	5200	C1	The science of cooking	Sukaldaritzaren zientzia
+eu-mini-5300	5300	C1	Landscapes	Paisaiak
+eu-mini-5400	5400	C1	Caring for others	Besteak zaintzen
+eu-mini-5500	5500	C1	Visual arts	Arte plastikoak
+eu-mini-5600	5600	C1	Journalism and media	Kazetaritza eta hedabideak
+eu-mini-5700	5700	C1	Transport and mobility	Garraioa eta mugikortasuna
+eu-mini-5800	5800	C1	The Basque language	Euskara
+eu-mini-5900	5900	C1	Starting a business	Enpresa bat sortzen
+eu-mini-6000	6000	C1	Memoirs	Memoriak
+eu-mini-6100	6100	C1	The universe and the stars	Unibertsoa eta izarrak
+eu-mini-6200	6200	C1	Mining and natural resources	Meatzaritza eta baliabide naturalak
+eu-mini-6300	6300	C1	Food and health	Elikadura eta osasuna
+eu-mini-6400	6400	C1	Theatre and stage	Antzerkia eta eszena
+eu-mini-6500	6500	C1	Engineering	Ingeniaritza
+eu-mini-6600	6600	C1	Farm to table	Baserritik mahaira
+eu-mini-6700	6700	C1	Words and where they come from	Hitzak eta haien jatorria
+eu-mini-6800	6800	C1	Basque literature	Euskal literatura
+eu-mini-6900	6900	C1	Numbers and reasoning	Zenbakiak eta arrazoibidea
+eu-mini-7000	7000	C1	Travel columns	Bidaia zutabeak
+eu-mini-7100	7100	C1	Public health	Osasun publikoa
+eu-mini-7200	7200	C1	Everyday philosophy	Eguneroko filosofia
+eu-mini-7300	7300	C1	Folk festivals and fairs	Jaiak eta azokak
+eu-mini-7400	7400	C1	Animal behaviour	Animalien portaera
+eu-mini-7500	7500	C1	Work and the labour market	Lana eta lan merkatua
+eu-mini-7600	7600	C1	Cities of the world	Munduko hiriak
+eu-mini-7700	7700	C1	Inventions and inventors	Asmakizunak eta asmatzaileak
+eu-mini-7800	7800	C1	Public services	Zerbitzu publikoak
+eu-mini-7900	7900	C1	Mountains and hills	Mendiak eta muinoak
+eu-mini-8000	8000	C1	Family columns	Familiako zutabeak
+eu-mini-8100	8100	C2	The human body	Giza gorputza
+eu-mini-8200	8200	C2	Prevention and resilience	Prebentzioa eta erresilientzia
+eu-mini-8300	8300	C2	Design and craft	Diseinua eta eskulangintza
+eu-mini-8400	8400	C2	Emotions and relationships	Emozioak eta harremanak
+eu-mini-8500	8500	C2	Explorers and travellers	Esploratzaileak eta bidaiariak
+eu-mini-8600	8600	C2	The forest	Basoa
+eu-mini-8700	8700	C2	Advertising and communication	Publizitatea eta komunikazioa
+eu-mini-8800	8800	C2	Food culture in the Basque Country	Euskal sukaldaritza
+eu-mini-8900	8900	C2	Traditional and classical music	Musika tradizionala eta klasikoa
+eu-mini-9000	9000	C2	Essays on time	Denborari buruzko saiakerak
+eu-mini-9100	9100	C2	Chemistry and materials	Kimika eta materialak
+eu-mini-9200	9200	C2	Maps and finding the way	Mapak eta bidea aurkitzea
+eu-mini-9300	9300	C2	Tales and legends	Ipuinak eta kondairak
+eu-mini-9400	9400	C2	Rare professions	Lanbide bitxiak
+eu-mini-9500	9500	C2	Urban planning	Hirigintza
+eu-mini-9600	9600	C2	Everyday physics	Eguneroko fisika
+eu-mini-9700	9700	C2	Gardens and botany	Lorategiak eta botanika
+eu-mini-9800	9800	C2	Folk art and customs	Herri artea eta ohiturak
+eu-mini-9900	9900	C2	Ethics and living together	Etika eta elkarbizitza
+eu-mini-10000	10000	C2	Learning and language	Ikasketa eta hizkuntza

@@ -1,0 +1,100 @@
+1	101	berri	barri berria berriagatik berriago berriagoa berriak berrian berriarekin berriaren berriarengana berriarengatik berriarentzat berriari berriaz berriegia berriei berriek berriekin berrien berriena berrienak berriengandik berriengatik berrientzat berrietako berrietan berrietara berriez berriko berrikoa berriok berrira berriraino berrirako berrirekin berriren berriri berririk berritan berritik
+2	102	alde	aldea aldeak aldean aldearekin aldearen aldeari aldeaz aldeei aldeek aldeen aldeetako aldeetan aldeetara aldeetarako aldeetatik aldek aldeko aldekoa aldekoak aldera alderaino alderako alderantz alderekin alderik aldetako aldetan aldetara aldetatik aldetik aldez
+3	103	gaur	gaurko gaurkoa gaurkoagatik gaurkoak gaurkoan gaurkoarekin gaurkoaren gaurkoaz gaurkorako gaurkoz
+4	104	neska	neskak neskan neskara neskarako neskarekin neskaren neskarengan neskarengana neskarenganaino neskarenganako neskarengandik neskarentzat neskari neskarik neskatan neskaz neskei neskek neskekin nesken neskengan neskengana neskenganako neskengandik neskengatik neskentzat nesketako nesketan nesketara neskez neskok
+5	105	tira	
+6	106	modu	modua moduagatik moduak moduan moduarekin moduaren moduari moduaz moduekin moduen moduez modukoa modukoak modura moduren modurik modutako modutan modutara moduz
+7	107	jende	jendea jendeagatik jendeak jendean jendearekin jendearen jendearengan jendearengana jendearenganako jendearengandik jendearengatik jendearentzat jendeari jendeaz jendeei jendek jendeok jenderekin jenderen jenderentzat jenderi jenderik jendez
+8	108	benetan	
+9	109	iruditu	badirudi badirudite dirudi dirudiela dirudielako dirudien dirudiena dirudienak dirudienean dirudienez dirudienik dirudigu dirudik dirudit dirudite diruditela diruditen diruditena dirudizu dirudizue dirudizula dirudizulako dirudizun dirudizuna genirudien irudi irudituko irudituta iruditzea iruditzeagatik iruditzeak iruditzearen iruditzeko iruditzen nirudien zenirudien zirudian zirudiela zirudielako zirudien zirudiena zirudienak zirudienean zirudienez zirudik ziruditek ziruditen
+10	110	inoiz	
+11	111	lagundu	lagundua lagunduak lagunduko lagundurik lagunduta lagundutako lagunduz laguntze laguntzea laguntzeagatik laguntzeak laguntzean laguntzearen laguntzeari laguntzeaz laguntzeko laguntzen laguntzera laguntzerik
+12	112	aurre	aurrea aurrean aurreekin aurreko aurrekoa aurrekoak aurreraino aurrerako aurrerantz aurretik aurrez
+13	113	izen	izena izenagatik izenak izenarekin izenaren izenarengatik izenari izenaz izenean izenei izenek izenekin izeneko izenekoa izenekoak izenen izenengatik izenentzat izenera izenetara izenetatik izenetik izenez izenik izenok
+14	114	beti	betirako
+15	115	begira	begirak
+16	116	gau	gaua gauak gauan gauarekin gauaren gauari gauaz gauean gauei gauekin gaueko gauen gauera gaueraino gauerako gauetako gauetan gauetarako gauetik gauez gauko gaukoa gauon gauotan gaura gauren gaurik gautan gautik gauz
+17	117	galdu	gal galdua galduak galduko galdurik galduta galdutako galdutakoa galduz galtze galtzea galtzeagatik galtzeak galtzean galtzearekin galtzearen galtzeari galtzeaz galtzeko galtzen galtzera galtzerik
+18	118	geratu	geratua geratuko geratuta geratutako geratuz geratze geratzea geratzeagatik geratzeak geratzean geratzearen geratzeari geratzeaz geratzeko geratzen geratzera geratzerik
+19	119	diru	dirua diruagatik diruak diruan diruarekin diruaren diruarengatik diruarentzat diruari diruaz diruetako diruk dirurekin diruren dirurengatik diruri dirurik dirutan dirutara dirutik diruz
+20	120	ekarri	dakar dakardan dakargu dakargula dakarkidazu dakarkigu dakarkigute dakarkiguzu dakarkio dakarkiot dakarkit dakarkizu dakarkizue dakarkizuet dakarkizut dakarrela dakarrelako dakarren dakarrena dakarrenean dakart dakarte dakartela dakarten dakartza dakartzadala dakartzan dakartzat dakartzate dakartzazu dakarzkigu dakarzkio dakarzkit dakarzkizu dakarzkizuet dakarzkizut dakarzu dakarzue dakarzula ekar ekardak ekardazu ekarria ekarriak ekarridazu ekarridazue ekarriguzu ekarriko ekarriozu ekarriozue ekarrita ekarritako ekarriz ekartzak ekartzazu ekartzazue ekartzea ekartzeagatik ekartzeak ekartzean ekartzearen ekartzeari ekartzeaz ekartzeko ekartzen ekartzera ekartzerik ekarzu gakartza na nakarzu zakartza zakartzate zekarrek zekarrela zekarren zekartek zekarten zekartzan zekartzaten zekarzkidatek
+21	121	bizitza	bizitzak bizitzako bizitzakoa bizitzakoak bizitzan bizitzara bizitzarako bizitzarekin bizitzaren bizitzarengatik bizitzarentzat bizitzari bizitzarik bizitzatan bizitzatik bizitzaz bizitzei bizitzek bizitzekin bizitzengatik bizitzetako bizitzetan bizitzetara bizitzetatik
+22	122	zuek	zerok zuei zuekin zuen zuengan zuengana zuenganako zuengandik zuengatik zuentzat zuetako zuetaz
+23	123	azken	azkena azkenak azkenaren azkenarengatik azkenaz azkenean azkenei azkeneko azkenekoa azkenekoak azkenen azkenena azkenera azkeneraino azkenerako azkenetan azkenetarako azkenez azkenik azkenotan
+24	124	eskatu	eska eskaidazu eskaiezu eskaiezue eskaiozu eskaiozue eskatua eskatuak eskatuko eskaturik eskatuta eskatutako eskatutakoa eskatuz eskatzea eskatzeagatik eskatzeak eskatzearekin eskatzearen eskatzeari eskatzeaz eskatzeko eskatzen eskatzera eskatzerik
+25	125	zein	zeina zeinak zeinarekin zeinaren zeinarengatik zeinari zeinean zeinei zeinek zeinekin zeinen zeinena zeinenak zeinera zeinetara zeini zeintzuei zeintzuen zeintzuk
+26	126	egia	egiak egiako egian egiara egiarako egiarekin egiaren egiari egiarik egiatan egiatik egiatzat egiekin egietan egiok egion
+27	127	mila	milak milan milara milatan milatik milen
+28	128	lortu	lor lortua lortuko lorturik lortuta lortutako lortutakoa lortuz lortze lortzea lortzeagatik lortzeak lortzean lortzearen lortzeari lortzeko lortzen lortzera lortzerik
+29	129	jainko	jainkoa jainkoagatik jainkoak jainkoan jainkoarekin jainkoaren jainkoarengan jainkoarengana jainkoarengandik jainkoarengatik jainkoarentzat jainkoari jainkoarren jainkoaz jainkoei jainkoek jainkoekin jainkoen jainkoengan jainkoengana jainkoengandik jainkoengatik jainkoetan jainkoetatik jainkok jainkook jainkoon jainkoren jainkori jainkorik jainkotik jainkotzat
+30	130	itxaron	itxaroidazu itxaroidazue itxaroiguzu itxaroiozu itxaronda itxarondako itxaronez itxarongo itxarote itxarotea itxaroteagatik itxaroteak itxarotean itxaroteari itxaroteaz itxaroteko itxaroten itxarotera itxaroterik
+31	131	jo	joa joak joaren joaz joek joekin joez jora jorekin joren jota jotak jotako jotakoa jotakoak jotarekin jotaz joten jotze jotzen joz
+32	132	beraz	
+33	133	gustatu	gusta gustatua gustatuko gustatuta gustatutako gustatuz gustatze gustatzea gustatzeak gustatzearen gustatzeaz gustatzeko gustatzen
+34	134	oraindik	
+35	135	kaka	kakak kakan kakara kakarako kakarantz kakarekin kakaren kakarengatik kakari kakarik kakatan kakatara kakatik kakaz kaken kakengatik kaketan kaketara
+36	136	ados	
+37	137	bota	botaidazu botaiezu botaiozu botaiozue botak botako botan botarekin botaren botata botatako botatan botatzea botatzeagatik botatzeak botatzean botatzearekin botatzeari botatzeaz botatzeko botatzen botatzera botatzerik botaz botei botekin boten botetako botetan botetatik botez botok
+38	138	mundu	mundua munduagatik munduak munduan munduarekin munduaren munduarentzat munduari munduaz munduei munduekin munduen munduetako munduetatik munduk munduko mundukoa mundukoak mundura mundurako mundurantz munduren munduri mundurik mundutan mundutatik mundutik
+39	139	begiratu	begiraidazu begiraiezu begiraiezue begiraiguzu begiraiguzue begiraiozu begiraiozue begiratua begiratuak begiratuko begiraturik begiratuta begiratuz begiratze begiratzea begiratzeagatik begiratzeak begiratzean begiratzearekin begiratzearen begiratzeari begiratzeaz begiratzeko begiratzen begiratzera begiratzeri begiratzerik begitu beitu
+40	140	andre	andere anderea andra andrea andreak andrearekin andrearen andrearengan andrearengana andrearentzat andreari andreaz andreei andreek andreekin andrek andreok andreren andrerentzat andrerik
+41	141	berriz	
+42	142	neu	neugandik neugatik neuk neure neuregatik neurekin neuretako neuretzat neuri
+43	143	denbora	denborak denborako denborakoa denboran denborarako denborarekin denboraren denborarengatik denborari denborarik denboratan denboratik denboraz denborekin denboren denboretan
+44	144	hain	
+45	145	mutil	mutila mutilak mutilarekin mutilaren mutilarengana mutilarentzat mutilari mutilaz mutilean mutilei mutilek mutilekin mutilen mutilengan mutilengatik mutilentzat mutiletako mutiletan mutiletik mutilez mutilik mutilok
+46	146	emakume	emakumea emakumeak emakumean emakumearekin emakumearen emakumearengana emakumearengandik emakumearengatik emakumearentzat emakumeari emakumeaz emakumeei emakumeek emakumeekin emakumeen emakumeengan emakumeenganako emakumeengandik emakumeengatik emakumeentzat emakumeetako emakumeetan emakumeez emakumek emakumeoi emakumeok emakumeokin emakumerekin emakumeren emakumerentzat emakumeri emakumerik emakumetzat emakumez
+47	147	jarraitu	jarrai jarraiki jarraitua jarraituak jarraituez jarraituko jarraituta jarraitutako jarraituz jarraitze jarraitzea jarraitzeagatik jarraitzeak jarraitzearekin jarraitzearen jarraitzeari jarraitzeaz jarraitzeko jarraitzen jarraitzera jarraitzerik
+48	148	saiatu	saia saiatua saiatuak saiatuko saiaturik saiatuta saiatutako saiatuz saiatze saiatzea saiatzeagatik saiatzeak saiatzean saiatzearekin saiatzeari saiatzeaz saiatzeko saiatzen saiatzera saiatzerik
+49	149	gain	gaina gainak gainaren gainean gaineko gainekoa gainekoak gainera gainerako gainetik gainez
+50	150	leku	lekua lekuak lekuan lekuarekin lekuaren lekuarengatik lekuari lekuaz lekuei lekuekin lekuen lekuetan lekuetara lekuez lekuk lekuko lekukoa lekukoak lekuotan lekura lekuraino lekurantz lekuren lekuri lekurik lekutan lekutara lekutatik lekutik lekutzat lekuz
+51	151	ahal	ahalak ahalaren ahalaz ahalekin ahaletatik ahalik ahalko
+52	152	esku	eskua eskuagatik eskuak eskuan eskuarekin eskuaren eskuarengatik eskuari eskuaz eskuei eskuek eskuekin eskuen eskuengatik eskuetako eskuetan eskuetara eskuetarako eskuetatik eskuez eskuko eskukoa eskukoak eskuok eskura eskurantz eskuren eskurik eskutan eskutara eskutatik eskutik eskuz
+53	153	han	handik hango hangoa hangoak hangoei hangoek hangoekin
+54	154	jan	jana janagatik janarekin janaren janaz janda jandako jandakoa janean janek janen janez jango jani janik jate jatea jateagatik jateak jatean jatearekin jatearen jateari jateaz jateko jatekoa jatekoagatik jatekoak jatekoarekin jatekoari jatekoaz jatekorik jatekotan jatekotik jaten jatera jaterik
+55	155	norbait	norbaitek norbaitekin norbaiten norbaitentzat norbaiti
+56	156	azkar	azkarago azkarra azkarrago azkarragoa azkarragoak azkarrak azkarrarekin azkarrarentzat azkarrari azkarrean azkarregi azkarregia azkarregiak azkarreko azkarren azkarrena azkarrenak azkarrik azkartzat
+57	157	hona	honaino
+58	158	eder	ederra ederragatik ederrago ederragoa ederragoak ederrak ederrarekin ederraren ederrarengandik ederrarentzat ederrari ederraz ederrean ederregia ederrei ederrek ederrekin ederreko ederrekoa ederren ederrena ederrenak ederrengan ederrengatik ederrentzat ederrera ederretako ederretan ederretik ederrez ederrik ederrok edertzat
+59	159	arazo	arazoa arazoak arazoan arazoarekin arazoaren arazoarengatik arazoari arazoaz arazoei arazoek arazoekin arazoen arazoengatik arazoetako arazoetan arazoetara arazoetatik arazoez arazorako arazorekin arazoren arazori arazorik arazotan arazoz
+60	160	pasatu	pasa pasaidazu pasaiozu pasako pasatua pasatuak pasatuko pasatuta pasatutako pasatuz pasatze pasatzea pasatzeagatik pasatzeak pasatzean pasatzearekin pasatzeari pasatzeaz pasatzeko pasatzen pasatzera pasatzerik
+61	161	iritsi	iriste iristea iristeagatik iristeak iristean iristearekin iristeaz iristeko iristen iristera iristerik irits iritsia iritsiak iritsiko iritsirik iritsita iritsitako iritsiz
+62	162	lasai	lasaia lasaiago lasaiagoa lasaiak lasaian lasaiarekin lasaiaren lasaiari lasaiegia lasaiekin lasaien lasaiena lasaienak lasaietan lasaiko lasairen lasairik
+63	163	kanpo	kanpoa kanpoan kanpoko kanpokoa kanpokoagoa kanpokoak kanpokoan kanpokoari kanpokoek kanpokoekin kanpokoen kanpokoentzat kanpokorik kanpora kanporako kanporantz kanpotik
+64	164	bila	
+65	165	bakar	bakara bakarik bakarra bakarragatik bakarrak bakarrarekin bakarraren bakarrarengan bakarrarengandik bakarrarengatik bakarrarentzat bakarrari bakarraz bakarrean bakarrekin bakarreko bakarrekoa bakarrekoak bakarren bakarrengatik bakarrera bakarrerako bakarretako bakarretik bakarrez bakarri bakarrok bakartzat
+66	166	zenbat	zenbatek zenbatekin zenbaten zenbati
+67	167	barru	barrua barruak barruan barruari barruko barrukoa barrukoak barrura barruraino barrurako barrurantz barrurik barrutik
+68	168	erabili	darabil darabildan darabilela darabilen darabilenez darabilgu darabilkit darabilt darabilte darabilten darabiltenak darabiltza darabiltzate darabiltzazu darabilzkit darabilzu darabilzue darabilzuela darabilzula darabilzun erabil erabilia erabiliak erabiliek erabiliko erabilita erabilitako erabilitakoa erabiliz erabiltze erabiltzea erabiltzeagatik erabiltzeak erabiltzean erabiltzearekin erabiltzearen erabiltzeari erabiltzeaz erabiltzeko erabiltzen erabiltzera erabiltzerik generabiltzan na nerabilen zerabilela zerabilen zerabiltzan
+69	169	bide	bidea bideak bidean bidearekin bidearen bideari bideaz bideetako bideetan bideetara bideetarako bideetatik bideez bideko bidekoa bideok bidera bideraino biderako biderantz bideren biderik bidetako bidetatik bidetik bidetzat bidez
+70	170	hiru	hirua hiruak hiruan hiruarekin hiruei hiruek hiruekin hiruen hiruetako hiruetan hiruez hiruk hirukoa hiruoi hiruok hiruon hiruontzat hirura hiruraino hirurak hirurako hirurei hirurek hirurekin hiruren hirurengan hirurengatik hirurentzat hiruri hirurok hiruron hirurontzat hirutan hirutatik hirutik iru
+71	171	ume	umea umeagatik umeak umean umearekin umearen umearengatik umearentzat umeari umeaz umeei umeek umeekin umeen umeengan umeengandik umeengatik umeentzat umeetako umeetatik umeez umek umeok umeraino umerako umerekin umeren umerentzat umerik umetako umetan umetatik umetzat umez
+72	172	seme	semea semeagatik semeak semearekin semearen semearengan semearengana semearengatik semearentzat semeari semeaz semeei semeek semeekin semeen semeengatik semeentzat semeetako semeetatik semek semeok semerekin semerik semetzat
+73	173	hala	
+74	174	txiki	txikia txikiagatik txikiago txikiagoa txikiagoak txikiak txikian txikiarekin txikiaren txikiarengatik txikiarentzat txikiari txikiaz txikiegia txikiegiak txikiegirik txikiei txikiek txikiekin txikien txikiena txikienak txikiengana txikiengandik txikiengatik txikientzat txikietako txikietan txikietara txikietatik txikiez txikik txikiko txikikoa txikikoak txikiok txikiokin txikiontzat txikiotaz txikira txikirekin txikiren txikirik txikitako txikitan txikitatik txikitik txikitzat txikiz
+75	175	agian	
+76	176	noski	
+77	177	gelditu	gelditua geldituak geldituko geldituta gelditutako geldituz gelditzea gelditzeagatik gelditzeak gelditzean gelditzearen gelditzeko gelditzen gelditzera gelditzerik
+78	178	zeu	zeugan zeugatik zeuk zeure zeuregan zeureganako zeuregandik zeuregatik zeurekin zeuretako zeuretzat zeuri
+79	179	prest	presta
+80	180	aurrera	
+81	181	berriro	
+82	182	bidali	bidal bidalia bidaliak bidalidazu bidalidazue bidaliei bidaliguzu bidaliko bidaliozu bidalita bidalitako bidalitakoa bidaliz bidaltze bidaltzea bidaltzeagatik bidaltzeak bidaltzean bidaltzeari bidaltzeaz bidaltzeko bidaltzen bidaltzera bidaltzerik
+83	183	amaitu	amai amaitua amaituko amaituta amaitutako amaituz amaitzea amaitzeagatik amaitzean amaitzearen amaitzeari amaitzeaz amaitzeko amaitzen amaitzera amaitzerik
+84	184	kendu	ken kendua kenduak kenduko kenduta kendutako kenduz keniezue kentzea kentzeagatik kentzeak kentzean kentzearekin kentzearen kentzeari kentzeko kentzen kentzera kentzerik
+85	185	erakutsi	erakustazu erakuste erakustea erakusteagatik erakusteak erakustean erakusteari erakusteaz erakusteko erakusten erakustera erakusterik erakuts erakutsia erakutsidazu erakutsidazue erakutsiezu erakutsiguzu erakutsiguzue erakutsiko erakutsiozu erakutsiozue erakutsita erakutsitako erakutsiz
+86	186	zahar	zaharra zaharragatik zaharrago zaharragoa zaharragoak zaharrak zaharrarekin zaharraren zaharrarengan zaharrarengana zaharrarengatik zaharrari zaharraz zaharrean zaharregi zaharregia zaharregiak zaharrei zaharrek zaharrekin zaharreko zaharrekoa zaharrekoak zaharren zaharrena zaharrenak zaharrengatik zaharrentzat zaharrera zaharreraino zaharrerako zaharrerantz zaharretako zaharretan zaharretatik zaharretik zaharrez zaharri zaharrik zaharrok
+87	187	mugitu	mugi mugitua mugituko mugiturik mugituta mugituz mugitze mugitzea mugitzean mugitzeari mugitzeaz mugitzeko mugitzen mugitzera mugitzerik
+88	188	ze	zerako zerengatik zetako zetan zetara zetaraino zetarako
+89	189	auto	autoa autoagatik autoak autoan autoarekin autoaren autoarengatik autoari autoaz autoei autoek autoekin autoen autoetako autoetan autoetara autoetatik autoez autok autoko autokoa autora autoraino autorako autorantz autorekin autoren autorik autotan autotik autoz
+90	190	gogoratu	gogoraidazue gogoratua gogoratuak gogoratuko gogoraturik gogoratuta gogoratuz gogoratze gogoratzea gogoratzeagatik gogoratzeak gogoratzean gogoratzeari gogoratzeaz gogoratzeko gogoratzen gogoratzera
+91	191	polizia	poliziak poliziakoa poliziakoak polizian poliziara poliziarako poliziarekin poliziaren poliziarengan poliziarengana poliziarengandik poliziarentzat poliziari poliziarik poliziatik poliziatzat poliziaz poliziei poliziek poliziekin polizien poliziengan poliziengandik poliziengatik polizientzat polizietako polizietatik poliziok
+92	192	aldatu	alda aldatua aldatuak aldatuko aldatuta aldatutako aldatuz aldatze aldatzea aldatzeagatik aldatzean aldatzearekin aldatzearen aldatzeari aldatzeaz aldatzeko aldatzekoa aldatzen aldatzera aldatzerik
+93	193	argi	argia argiago argiagoa argiagoak argiak argian argiarekin argiaren argiarengatik argiari argiaz argiegi argiegia argiei argiek argiekin argien argiena argienak argientzat argietan argietatik argiez argik argiko argikoa argira argirantz argiren argirik argitako argitan argitara argitik argitzat argiz
+94	194	gogo	gogoa gogoagatik gogoak gogoan gogoarekin gogoaren gogoari gogoaz gogoei gogoekin gogoetan gogoez gogok gogoko gogokoa gogokoak gogora gogorik gogotan gogotik gogoz
+95	195	sinetsi	sinestea sinesteagatik sinesteak sinestean sinestearen sinesteari sinesteko sinestekoa sinestekoak sinesten sinestera sinesterik sinets sinetsia sinetsidazu sinetsidazue sinetsiko sinetsiozu sinetsirik sinetsita sinetsiz sinisten
+96	196	sekula	sekulako sekulakoa sekulakoak sekulan
+97	197	agur	agura agurean agurra agurragatik agurrak agurrarekin agurraren agurrari agurrean agurrekin agurreko agurretan agurretarako agurrik
+98	198	ahaztu	ahatz ahaz ahazte ahaztea ahazteak ahazteaz ahazteko ahaztekoa ahaztekoak ahazten ahaztera ahazteraino ahazterik ahaztua ahaztuak ahaztuko ahazturik ahaztuta ahaztutako ahaztuz
+99	199	galdetu	galde galdeidazu galdeiezu galdeiozu galdetua galdetuak galdetuko galdetuta galdetutako galdetuz galdetze galdetzea galdetzeagatik galdetzeak galdetzean galdetzearen galdetzeari galdetzeko galdetzen galdetzera galdetzerik
+100	200	harrapatu	harrapa harrapatua harrapatuak harrapatuko harrapaturik harrapatuta harrapatutako harrapatutakoa harrapatuz harrapatzea harrapatzeagatik harrapatzeak harrapatzean harrapatzearen harrapatzeaz harrapatzeko harrapatzen harrapatzera
