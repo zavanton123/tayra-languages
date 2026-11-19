@@ -1,0 +1,21 @@
+name: Malay
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Malay"
+  - for: terms
+    type: popup
+    url: "https://prpm.dbp.gov.my/Cari1?keyword=[WORD]"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/ms/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=ms&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "Dr.|En.|Pn.|Tn.|Sdn.|Bhd.|Jln.|Kg.|Sg.|Hj.|Hjh.|Prof.|dll.|dsb.|hlm.|no.|bil.|Bil."
+word_chars: "a-zA-ZÀ-ÖØ-öø-ȳáéíóúÁÉÍÓÚñÑ"
+right_to_left: false
+show_romanization: true
+parser_type: spacedel

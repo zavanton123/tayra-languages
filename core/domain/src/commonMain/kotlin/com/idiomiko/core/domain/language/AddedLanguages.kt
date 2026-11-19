@@ -229,6 +229,25 @@ object AddedLanguages {
         ),
     )
 
+    private fun malay() = LanguageDefinition(
+        language = Language(
+            name = "Malay",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Malay", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://prpm.dbp.gov.my/Cari1?keyword=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/ms/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ms&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Dr.|En.|Pn.|Tn.|Sdn.|Bhd.|Jln.|Kg.|Sg.|Hj.|Hjh.|Prof.|dll.|dsb.|hlm.|no.|bil.|Bil.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳáéíóúÁÉÍÓÚñÑ",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun maltese() = LanguageDefinition(
         language = Language(
             name = "Maltese",
@@ -387,6 +406,7 @@ object AddedLanguages {
             kannada(),
             korean(),
             lao(),
+            malay(),
             maltese(),
             manx(),
             mongolian(),

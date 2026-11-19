@@ -1,6 +1,7 @@
 package com.idiomiko.core.domain.parse
 
 import com.idiomiko.core.domain.TestLanguages
+import com.idiomiko.core.domain.language.LanguageDefinitions
 import com.idiomiko.core.domain.model.Language
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -94,6 +95,15 @@ class SpaceDelimitedParserTest {
     @Test
     fun turkishLowercase() {
         assertEquals("ırmak iyi", TurkishParser().lowercase("IRMAK İYİ"))
+    }
+
+    @Test
+    fun malayCutsReduplicationsAndKeepsTitles() {
+        val malay = LanguageDefinitions.all.single { it.name == "Malay" }.language
+        assertEquals(
+            "[Dr.] [Aminah] [membeli] [buku]-[buku] [baharu]. [Kanak]-[kanak] [suka]!",
+            tokensAsString("Dr. Aminah membeli buku-buku baharu. Kanak-kanak suka!", malay),
+        )
     }
 
     @Test

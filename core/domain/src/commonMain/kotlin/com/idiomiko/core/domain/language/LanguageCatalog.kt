@@ -9,7 +9,7 @@ object LanguageCatalog {
         "Danish", "Dutch", "Egyptian Arabic", "English", "Esperanto", "Estonian", "Farsi", "Finnish",
         "French", "Galician", "Georgian", "German", "Greek", "Hawaiian", "Hebrew", "Hindi", "Hungarian",
         "Icelandic", "Indonesian", "Irish", "Italian", "Japanese", "Kannada", "Khmer", "Korean", "Lao",
-        "Latin", "Latvian", "Lithuanian", "Macedonian", "Maltese", "Mandarin Chinese", "Manx",
+        "Latin", "Latvian", "Lithuanian", "Macedonian", "Malay", "Maltese", "Mandarin Chinese", "Manx",
         "Mongolian", "Norwegian", "Old Irish", "Polish", "Portuguese", "Romanian", "Russian",
         "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Thai",
         "Toki Pona", "Turkish", "Ukrainian", "Vietnamese", "Welsh", "Yiddish",

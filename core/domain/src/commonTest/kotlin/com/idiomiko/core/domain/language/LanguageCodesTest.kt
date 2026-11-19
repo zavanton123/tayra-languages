@@ -20,4 +20,12 @@ class LanguageCodesTest {
     fun everyOptionHasTatoebaCode() {
         LanguageCodes.options.forEach { assertNotNull(LanguageCodes.tatoebaCode(it.code), it.code) }
     }
+
+    @Test
+    fun malayIsStandardMalay() {
+        assertEquals("ms", LanguageCodes.codeFor("Malay"))
+        assertEquals("zsm", LanguageCodes.tatoebaCode("ms"))
+        assertNotNull(Tutorials.forLanguage("Malay"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Malay" }.language.parserType)
+    }
 }

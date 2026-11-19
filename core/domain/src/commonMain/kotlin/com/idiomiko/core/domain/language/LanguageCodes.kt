@@ -35,6 +35,7 @@ object LanguageCodes {
         "kannada" to "kn",
         "lao" to "lo",
         "cantonese" to "yue",
+        "malay" to "ms",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -64,6 +65,7 @@ object LanguageCodes {
         "kn" to "kan",
         "lo" to "lao",
         "yue" to "yue",
+        "ms" to "zsm",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

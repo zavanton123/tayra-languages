@@ -62,6 +62,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Latvian" to "Letão",
     "Lithuanian" to "Lituano",
     "Macedonian" to "Macedônio",
+    "Malay" to "Malaio",
     "Maltese" to "Maltês",
     "Mandarin Chinese" to "Chinês (mandarim)",
     "Chinese (Simplified)" to "Chinês (simplificado)",

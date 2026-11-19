@@ -167,7 +167,7 @@ object DictionaryPacks {
         "haw" to "Hawaiian", "he" to "Hebrew", "hi" to "Hindi", "hu" to "Hungarian", "is" to "Icelandic",
         "id" to "Indonesian", "ga" to "Irish", "it" to "Italian", "ja" to "Japanese", "kn" to "Kannada",
         "km" to "Khmer", "ko" to "Korean", "lo" to "Lao", "la" to "Latin", "lv" to "Latvian",
-        "lt" to "Lithuanian", "mk" to "Macedonian", "mt" to "Maltese", "gv" to "Manx", "mn" to "Mongolian",
+        "lt" to "Lithuanian", "mk" to "Macedonian", "ms" to "Malay", "mt" to "Maltese", "gv" to "Manx", "mn" to "Mongolian",
         "no" to "Norwegian", "sga" to "Old Irish", "pl" to "Polish", "pt" to "Portuguese",
         "ro" to "Romanian", "ru" to "Russian", "gd" to "Scottish Gaelic", "sr" to "Serbian",
         "sk" to "Slovak", "sl" to "Slovene", "es" to "Spanish", "sw" to "Swahili", "sv" to "Swedish", "tl" to "Tagalog",
