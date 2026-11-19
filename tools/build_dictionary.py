@@ -35,7 +35,7 @@ import sys
 from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from frequency_urdu import TABLE_PRONOUNS, urdu_fold  # noqa: E402
+from frequency_urdu import TABLE_PRONOUNS, adjective_forms, noun_forms, urdu_fold, verb_forms  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -117,8 +117,8 @@ SKIP_FORM_TAGS_BY_SOURCE = {
     "hu": {"possessive", "possessed-single", "possessed-many", "error-unrecognized-form"},
     # Malay entries give each word's Jawi spelling as a form; the app reads Malay in Latin letters.
     "ms": {"Jawi"},
-    # Urdu entries list the Hindi spelling (Devanagari) as a form.
-    "ur": {"Hindi"},
+    # Urdu entries list the Hindi spelling (Devanagari) as a form, and comparatives that are words of their own (بہتر of اچھا).
+    "ur": {"Hindi", "comparative", "superlative"},
 }
 # The Azerbaijani personal pronouns' table lists all six on each one's page; a form goes to its own person and number.
 AZERBAIJANI_PERSONAL = {"mən": {"first-person", "singular"}, "sən": {"second-person", "singular"}, "o": {"third-person", "singular"},
@@ -588,6 +588,83 @@ def examples_of(sense):
 NOISE_SENSE_TAGS = {"form-of", "alt-of", "no-gloss", "morpheme", "romanization"}
 
 
+# The English Wiktionary's Urdu entries miss many everyday words (تک, رکھنا, دوران, یہی); its Hindi entries name their
+# Urdu spelling, and Hindi and Urdu share their words.
+HINDI_DUMP = "dictionaries/kaikki.org-dictionary-Hindi.jsonl.gz"
+
+
+def urdu_gender(d):
+    """masculine or feminine, from an entry's canonical form or head; None when it has neither or both."""
+    tags = set(d.get("tags", []))
+    for x in d.get("forms", []):
+        if "canonical" in (x.get("tags") or []):
+            tags |= set(x["tags"])
+    for h in d.get("head_templates", []):
+        g = str(h.get("args", {}).get("g", ""))
+        tags |= {"masculine"} if g.startswith("m") else {"feminine"} if g.startswith("f") else set()
+    genders = tags & {"masculine", "feminine"}
+    return next(iter(genders)) if len(genders) == 1 else None
+
+
+def urdu_from_hindi(kept, next_id):
+    """
+    Entries for the Urdu spellings of the Hindi entries (तक's تک) that no Urdu entry of the same part of speech has, glossed
+    as the Hindi entry is (its own senses, without its Devanagari examples), with their urdu_kept rows; and the next id.
+    """
+    have = {(word, pos) for word, pos, _, _ in kept}
+    added = []
+    with open_text(HINDI_DUMP) as f:
+        for line in f:
+            d = json.loads(line)
+            spellings = [urdu_fold(x["form"].strip()) for x in d.get("forms", []) if "Urdu" in (x.get("tags") or [])]
+            pos = d.get("pos") or "unknown"
+            spellings = [w for w in dict.fromkeys(spellings) if w and (w, pos) not in have and WORD_RE.match(w.replace(" ", ""))]
+            if not spellings:
+                continue
+            senses = []
+            for s in d.get("senses", []):
+                tags = s.get("tags", [])
+                if s.get("form_of") or s.get("alt_of") or "form-of" in tags or "alt-of" in tags:
+                    continue
+                glosses = [g.strip() for g in s.get("glosses", []) if g.strip()]
+                if not glosses:
+                    continue
+                sense = {"glosses": [glosses[-1]]}
+                kept_tags = [t for t in tags if t not in NOISE_SENSE_TAGS]
+                if kept_tags:
+                    sense["tags"] = kept_tags
+                senses.append(sense)
+            if not senses:
+                continue
+            # A Hindi adjective's table names its feminine (अच्छी) when it inflects.
+            inflects = pos == "adj" and any("feminine" in (x.get("tags") or []) for x in d.get("forms", []))
+            for word in spellings:
+                have.add((word, pos))
+                row = (next_id, word, lowercase(word, "ur"), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":")))
+                added.append((row, (word, pos, urdu_gender(d), inflects or pos == "noun")))
+                next_id += 1
+    return added, next_id
+
+
+def urdu_generated(kept):
+    """
+    (form, word) rows by frequency_urdu's rules: every verb's, a noun's whose table gave none, and an adjective's that the
+    Hindi entry's table shows inflected (an Urdu entry's that inflects has its table).
+    """
+    rows = []
+    for word, pos, gender, by_rule in kept:
+        if pos == "verb":
+            forms = verb_forms(word)
+        elif pos == "adj" and by_rule:
+            forms = adjective_forms(word)
+        elif pos == "noun" and by_rule:
+            forms = noun_forms(word, gender)
+        else:
+            forms = []
+        rows += [(lowercase(form, "ur"), word) for form in forms]
+    return rows
+
+
 def build_english_target(source, en_path, out_path, report_every=200_000):
     """
     Builds a pack whose glosses are the English Wiktionary's own definitions. Entries and forms
@@ -603,6 +680,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     entry_rows, form_rows, seen, next_id = [], [], 0, 1
     entry_count = form_count = pointer_count = 0
     pos_totals, pos_inflected = Counter(), set()
+    # Urdu's entries as (word, pos, gender, whether its forms are made by rule), for urdu_generated.
+    urdu_kept = []
 
     def flush():
         nonlocal entry_rows, form_rows, form_count
@@ -673,6 +752,9 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 # Urdu verb tables name their persons' pronouns (میں, تم, آپ) beside the forms, untagged or with the person's tags.
                 if source == "ur" and (not x.get("tags") or pos == "verb" and cleaner(x.get("form", "").strip()) in TABLE_PRONOUNS):
                     continue
+                # A noun names its other gender's word (لڑکی of لڑکا, والدہ of والد), no form of it.
+                if source == "ur" and set(x["tags"]) <= {"masculine", "feminine"}:
+                    continue
                 form = cleaner(x.get("form", "").strip())
                 # A one-letter word has no forms, but for Azerbaijani's "o" ("he, she, it; that"): onu, ona, onun.
                 own = is_clean_form(form, word, source) or (source == "az" and word == "o" and form != word and WORD_RE.match(form))
@@ -680,6 +762,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                     continue
                 form_rows.append((lowercase(form, source), word))
                 pos_inflected.add((pos, word))
+            if source == "ur":
+                urdu_kept.append((word, pos, urdu_gender(d), pos == "noun" and (pos, word) not in pos_inflected))
             if len(entry_rows) >= 5000 or len(form_rows) >= 50000:
                 flush()
     flush()
@@ -694,6 +778,17 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 entry_count += 1
         flush()
         label += " and its English entries' translation tables"
+    if source == "ur":
+        added, next_id = urdu_from_hindi(urdu_kept, next_id)
+        entry_rows = [row for row, _ in added]
+        urdu_kept += [kept for _, kept in added]
+        entry_count += len(added)
+        flush()
+        before = db.total_changes
+        db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, 1)", urdu_generated(urdu_kept))
+        form_count += db.total_changes - before
+        print(f"  {len(added):,} entries from the Hindi entries' Urdu spellings, {db.total_changes - before:,} forms by rule", file=sys.stderr)
+        label += "; English Wiktionary Hindi entries' Urdu spellings via kaikki.org"
     db.execute("DROP INDEX forms_unique")
     finish_output(db, path, out_path, source, "en", entry_count, form_count, label)
     print(f"Wrote {out_path}: {entry_count:,} entries, {form_count:,} form rows ({pointer_count:,} from form-of senses)", file=sys.stderr)

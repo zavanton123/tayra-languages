@@ -70,7 +70,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -110,6 +110,7 @@ FALLBACKS = {
     "ms": {"leipzig": ["msa-my_web_2013_1M"]},
     "af": {"leipzig": ["afr_news_2016_300K", "afr_news_2017_300K", "afr-za_web_2015_1M"],
            "wikipedia_sentences": ["afr_wikipedia_2021_300K"], "frequencywords": "af"},
+    "ur": {"leipzig": ["urd_newscrawl_2016_1M", "urd_wikipedia_2021_300K"]},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
@@ -208,6 +209,8 @@ SOURCE_WEIGHTS["sq"] = {"frequencywords": 0.9, "leipzig": 0.1}
 SOURCE_ORDER["yi"] = ["leipzig", "wikipedia", "everyday"]
 BLEND.add("yi")
 SOURCE_WEIGHTS["yi"] = {"leipzig": 0.3, "wikipedia": 0.4, "everyday": 0.3}
+# Urdu is counted from wordfreq's short list (23,000 forms), subtitles and Leipzig's news and Wikipedia sentences.
+SOURCE_ORDER["ur"] = ["wordfreq", "frequencywords", "leipzig"]
 # Maltese is counted from Leipzig's sentences, cut as the reader cuts them (maltese_counts): its news and Wikipedia, 60,000
 # sentences, gave a list of 4,700 words; its web text (blogs, forums, parishes, local councils), 300,000 more, is blended in
 # at half the weight, which takes the list towards the 10,000 the dictionary has. The Maltese Wikipedia's articles, at a tenth,
@@ -279,6 +282,9 @@ WORD_POS = {"noun", "adj", "verb", "adv", "pron", "prep", "num", "conj", "det", 
 # Per-language corrections, reviewed by hand.
 from frequency_fixes import ARABIC_CUT, ARABIC_WHOLE, DISPLAY, EXCLUDE, KOREAN_APART, KOREAN_CUT, KOREAN_STEMS, KOREAN_WHOLE, OVERRIDES, REFILE, SLOVAK_NEGATIVE_VERBS  # noqa: E402
 import frequency_persian  # noqa: E402
+import frequency_urdu  # noqa: E402
+OVERRIDES["ur"] = frequency_urdu.OVERRIDES
+EXCLUDE["ur"] = frequency_urdu.EXCLUDE
 import frequency_mongolian  # noqa: E402
 import frequency_lao  # noqa: E402
 import frequency_km  # noqa: E402
@@ -3070,6 +3076,8 @@ def normalise(language, form):
         return unicodedata.normalize("NFC", form)
     if language == "fa":
         return frequency_persian.persian_fold(form)
+    if language == "ur":
+        return frequency_urdu.urdu_fold(form)
     if language == "hy":
         return armenian_unmarked(form)
     # Some Vietnamese subtitles write a tone mark as a letter of its own, which the reader and the pack join to the vowel.
@@ -4615,7 +4623,7 @@ def load_dictionary(language):
                 else:
                     AZERBAIJANI_OWN.add(word_lc)
         # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
-        if language in ("hi", "mn", "kk") and p == "postp":
+        if language in ("hi", "mn", "kk", "ur") and p == "postp":
             p = "prep"
         # And Basque's (ondoren, aurka, gabe).
         if language == "eu" and p == "postp":
@@ -5726,6 +5734,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     freq[piece] += share
     if language == "hi":
         for w in [w for w in freq if not HINDI_LETTERS.fullmatch(w)]:
+            del freq[w]
+    if language == "ur":
+        for w in [w for w in freq if not frequency_urdu.LETTERS.fullmatch(w)]:
             del freq[w]
     label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
     if language == "kk":
