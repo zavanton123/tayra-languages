@@ -1,0 +1,100 @@
+1	2301	trema	drema
+2	2302	het	hetoù
+3	2303	c'hwi	
+4	2304	merc'hetaer	verc'hetaerien
+5	2305	amprest	amprestoù
+6	2306	bleud	bleudoù vleud
+7	2307	frammadur	frammadurioù
+8	2308	mantrus	vantrus
+9	2309	avielañ	avieliñ
+10	2310	froud	froudoù
+11	2311	komunouriezh	gomunouriezh
+12	2312	koustus	goustus koustusoc'h
+13	2313	kempredad	c'hempredad c'hempredidi gempredidi kempredidi
+14	2314	pourmenadenn	bourmenadenn bourmenadennoù fourmenadennoù pourmenadennoù
+15	2315	azon	azonoù
+16	2316	pellgargañ	bellgargañ fellgargañ
+17	2317	loa	loaioù
+18	2318	kengred	c'hengred gengred
+19	2319	kaier	c'haier gaier gaieroù kaieroù
+20	2320	pur	bur bure buri furet purañ pure
+21	2321	kloc'h	c'hleier c'hloc'h glec'h kleier
+22	2322	torzh	dorzh torzhioù
+23	2323	yev	yew
+24	2324	sec'hor	
+25	2325	gwerin	werin
+26	2326	neizhiañ	neizhañ neizhi neizhiont
+27	2327	belgiat	velgiat
+28	2328	mezhus	vezhus
+29	2329	gourenez	c'hourenez
+30	2330	brein	breinat vrein vreinañ
+31	2331	melldroader	melldroaderien velldroader velldroaderien
+32	2332	berniañ	bernañ berniez berniñ verniañ
+33	2333	moskeenn	moskeennoù voskeenn
+34	2334	tolpañ	dolpañ tolpet tolpiñ zolpañ
+35	2335	uzin	uzinoù
+36	2336	erbediñ	erbed erbedañ
+37	2337	goulennata	c'houlennata koulennata
+38	2338	lezc'hoar	lezc'hoarezed lezvreudeur lezvreur
+39	2339	goprad	c'hopridi gopridi
+40	2340	klotenn	c'hlotennoù glotenn glotennoù klotennoù
+41	2341	bont	bontoù fontoù pontoù
+42	2342	diwiskañ	diwisk diwiskan diwiskas diwiske diwiskec'h diwisked diwiskemp diwisken diwiskent diwisker diwiskes diwisket diwiskez diwiskfe diwiskfec'h diwiskfed diwiskfemp diwiskfen diwiskfent diwiskfes diwiski diwiskimp diwiskin diwiskint diwiskis diwiskit diwiskiñ diwiskje diwiskjec'h diwiskjed diwiskjemp diwiskjen diwiskjent diwiskjes diwiskjoc'h diwiskjod diwiskjomp diwiskjont diwiskjout diwisko diwiskomp diwiskont diwiskor diwiskot tiwiskas tiwiskañ ziwisk ziwiskañ ziwisked
+43	2343	dienn	
+44	2344	leuniañ	
+45	2345	rampo	
+46	2346	saezh	
+47	2347	svedeg	
+48	2348	esperanteg	
+49	2349	goell	
+50	2350	lezenniñ	
+51	2351	jahinañ	jahiniñ
+52	2352	emdreiñ	emdroiñ
+53	2353	dizereat	zizereat
+54	2354	moged	voged
+55	2355	palv	palvoù
+56	2356	ti-post	di-post
+57	2357	kaz	c'hizier
+58	2358	klod	glod
+59	2359	diresis	diresisoc'h
+60	2360	pennabeg	pennabegoù
+61	2361	delfin	delfined
+62	2362	gallus	c'hallus
+63	2363	tourc'h	dourc'h
+64	2364	keheder	c'heheder
+65	2365	deoliezh	zeoliezh
+66	2366	dron	dronoù
+67	2367	marzhus	varzhus
+68	2368	plom	blom
+69	2369	kuzh-heol	c'huzh-heol
+70	2370	moal	voal
+71	2371	ebeul	ebeulez ebeulien
+72	2372	elektron	elektronenn
+73	2373	laeroñsi	laeroñsioù
+74	2374	peoc'hus	beoc'hus
+75	2375	strinkañ	strinkal strinkas strinke
+76	2376	goustad	c'houstad goustatoc'h
+77	2377	hesk	heskenn heskennoù
+78	2378	kelc'hiek	gelc'hiek
+79	2379	tabutal	dabutal tabutiñ
+80	2380	arc'h	irc'hier
+81	2381	stagell	stagelloù
+82	2382	ber	ver
+83	2383	enorus	enorusañ enorusoc'h
+84	2384	lisead	liseadez liseidi
+85	2385	armañ	armer armis armiñ armor
+86	2386	koulm	goulm
+87	2387	bulgar	bulgared vulgar vulgared
+88	2388	meuliñ	meul meulas meule meulent meuler meules meulez veuliñ
+89	2389	arat	arad aret
+90	2390	kigenn	c'higenn gigenn
+91	2391	poan-benn	boan-benn
+92	2392	falc'hun	falc'huned
+93	2393	karc'har	c'harc'har karc'harioù
+94	2394	ejen	ejened oc'hen
+95	2395	dimez	timez zimez
+96	2396	kraoñ	c'hraou c'hraoñ c'hrevier graou krevier
+97	2397	kunujenn	gunujenn gunujennoù kunujennoù
+98	2398	kannadour	c'hannadour gannadour gannadourien kannadourien
+99	2399	dibennañ	dibenniñ tibennañ zibennañ
+100	2400	gwiader	gwiaderien wiaderien

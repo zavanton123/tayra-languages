@@ -1,0 +1,100 @@
+1	4001	filip	
+2	4002	golvan	
+3	4003	komer	c'homer gomer komeras komerent komeret komerin komerit komerjont komero komeromp komeront
+4	4004	kastor	
+5	4005	noblet	
+6	4006	ploue	
+7	4007	tabernakl	
+8	4008	beuzid	veuzid
+9	4009	a-darzh	
+10	4010	abdomen	
+11	4011	adren	
+12	4012	advugelañ	
+13	4013	alpaer	
+14	4014	amzer-da-zont	
+15	4015	anv-stroll	
+16	4016	archerdi	
+17	4017	arruz	
+18	4018	arstalenn	
+19	4019	arwer	
+20	4020	asperjez	
+21	4021	aval-gouzoug	
+22	4022	aveliñ	avelat avelañ avelfe avelin avelo
+23	4023	azezenn	
+24	4024	babourzh	
+25	4025	balc'h	
+26	4026	balzamegenn	
+27	4027	barad	
+28	4028	bariom	
+29	4029	baz	
+30	4030	pec'hiñ	bec'hiñ
+31	4031	berkeliom	
+32	4032	bezv	
+33	4033	bili-bann	
+34	4034	binioù-bras	
+35	4035	bizaj	
+36	4036	bizerez	
+37	4037	boks	
+38	4038	boued-laezh	
+39	4039	broenn	broen
+40	4040	brugeg	brugeier
+41	4041	buz	
+42	4042	kalir	c'halir
+43	4043	kanod	c'hanod
+44	4044	karr-nezañ	c'harr-nezañ
+45	4045	klañvgarr	c'hlañvgirri
+46	4046	c'hoantek	
+47	4047	c'hoantus	
+48	4048	c'hoarius	
+49	4049	kretaat	c'hretaat
+50	4050	taboulinañ	daboulinañ taboulinal taboulinat tabourinañ
+51	4051	daoulamm	
+52	4052	daskirier	
+53	4053	dentouriezh	
+54	4054	deog	deogoù
+55	4055	dereiñ	tereiñ zereiñ
+56	4056	derez-uhelañ	
+57	4057	deuñv	
+58	4058	diabeg	
+59	4059	diannez	
+60	4060	diantav	
+61	4061	diastuzer	diastuzerioù
+62	4062	dibourvez	
+63	4063	dibreder	
+64	4064	dic'halloud	
+65	4065	difuiñ	
+66	4066	digalonekaat	digalonekae tigalonekaat zigalonekaat
+67	4067	diglod	
+68	4068	digor-kalon	
+69	4069	tildenn	dildenn
+70	4070	diles	
+71	4071	dilun	
+72	4072	dirapar	
+73	4073	disammañ	disammiñ tisammañ zisammañ
+74	4074	disliv	
+75	4075	divarv	
+76	4076	dizarmañ	dizarmiñ tizarmañ zizarmañ
+77	4077	dizoare	
+78	4078	dizonest	
+79	4079	torek	dorek
+80	4080	dornañ	tornañ zornañ
+81	4081	douez	
+82	4082	doñjer	
+83	4083	drant	
+84	4084	drouiziezh	
+85	4085	drouklaouen	
+86	4086	troveni	droveni
+87	4087	e-metoù	
+88	4088	eilc'hoarier	
+89	4089	enbroañ	enbroiñ
+90	4090	eoriañ	eoriñ
+91	4091	eostiñ	eostañ eosto
+92	4092	eoul-douar	
+93	4093	eoulek	
+94	4094	erbiom	
+95	4095	askell-groc'hen	eskell-kroc'hen
+96	4096	euskaregerez	euskaregerien
+97	4097	evneta	
+98	4098	fennañ	
+99	4099	fiez	
+100	4100	filhor	

@@ -1,0 +1,100 @@
+1	1901	brank	brankoù vrank vrankoù
+2	1902	pinijenn	binijenn binijennoù pinijennoù
+3	1903	koazhañ	c'hoazhet goazhañ koazhet koazhiñ koazho
+4	1904	okitaneg	
+5	1905	onest	
+6	1906	a-is	
+7	1907	arvestiñ	
+8	1908	farsus	
+9	1909	nederlandeg	
+10	1910	didrouz	
+11	1911	dizimez	
+12	1912	naetaat	
+13	1913	nep	
+14	1914	sukr	
+15	1915	nevez-amzer	
+16	1916	antronoz	
+17	1917	erotek	erotekoc'h
+18	1918	gwregel	wregel
+19	1919	puñs	buñs
+20	1920	ski	skioù
+21	1921	glev	c'hlev
+22	1922	tramor	dramor
+23	1923	marichal	varichal varichaled
+24	1924	divarvel	zivarvel
+25	1925	drama	dramaoù
+26	1926	triad	triadoù
+27	1927	boull	boullañ voull
+28	1928	plouz	blouz blouzenn
+29	1929	tuta	duta
+30	1930	besprezidant	besprezidantez vesprezidantez
+31	1931	terzhienn	derzhienn terzhiennoù
+32	1932	gouli	c'houlioù goulioù
+33	1933	mab-kaer	vab-kaer
+34	1934	gwazhi	gwazhied wazhied wazhienn
+35	1935	kousk	c'housk gousk
+36	1936	gourener	c'hourenerien gourenerez gourenerien
+37	1937	karr-boutin	c'harr-boutin c'hirri-boutin kirri-boutin
+38	1938	tuchenn	duchenn tuchennoù
+39	1939	bombard	bombardoù vombard
+40	1940	gwarnizon	gwarnizonoù warnizon
+41	1941	argadiñ	argader argaderien
+42	1942	kodianañ	godianañ
+43	1943	lamm-dour	lammoù-dour
+44	1944	rakger	rakgerioù
+45	1945	diamant	diamantoù
+46	1946	arzh	arzhed arzhez
+47	1947	gavr	c'havr c'hivri givri
+48	1948	prad	brad pradeier pradoù
+49	1949	tor	dorioù norioù torioù
+50	1950	stern	sternioù
+51	1951	marvus	marvusañ varvus
+52	1952	trenk	drenk drenkañ drenkoc'h trenkoc'h
+53	1953	gwenan	gwenanenn wenan wenanenn
+54	1954	roued	rouedoù
+55	1955	tag	dag zag
+56	1956	moc'h	voc'h
+57	1957	preizhañ	breizhañ freizhañ preizhiñ
+58	1958	mamm-gaer	mammoù-kaer vamm-gaer
+59	1959	tachenn-emgann	dachenn-emgann tachennoù-emgann
+60	1960	dallañ	dallas dallet dallfe dallfec'h dallfed dallfemp dallfen dallfent dallfes dallimp dallis dalliñ dallje dalljec'h dalljed dalljemp dalljen dalljent dalljes dalljoc'h dalljod dalljomp dalljont dalljout dalloc'h dallor dallot tallas tallañ tallit zallañ
+61	1961	pigos	bigos figos figosoù pigosoù
+62	1962	pratik	bratikoù fratikoù pratikoù
+63	1963	fank	
+64	1964	hebiou	
+65	1965	vak	
+66	1966	chokolad	
+67	1967	noter	
+68	1968	vertuz	
+69	1969	resisaat	
+70	1970	erfin	
+71	1971	azeuliñ	azeulin
+72	1972	mallozh	vallozh
+73	1973	abardaez	abardahez
+74	1974	skoulm	skoulmoù
+75	1975	paeron	baeron faeron paeroned
+76	1976	rimadell	rimadelloù
+77	1977	bihanaat	vihanaat
+78	1978	sammañ	sammas samme sammer sammet sammfe sammfec'h sammfed sammfemp sammfen sammfent sammfes sammi sammimp sammis sammiñ sammje sammjec'h sammjed sammjemp sammjen sammjent sammjes sammjoc'h sammjod sammjomp sammjont sammjout sammoc'h sammor sammot
+79	1979	gwadek	gwadekañ wadek
+80	1980	arsailhañ	arsailh arsailhiñ
+81	1981	paner	baner faner paneroù
+82	1982	kemmadur	c'hemmadur c'hemmadurioù gemmadur gemmadurioù kemmadurioù
+83	1983	riz	ris
+84	1984	isañ	is isal ise isen isi isin isit iso isot
+85	1985	palat	baled balin balor faled palan palas pale paled palen pales palet pali palin palis palit palje palo palor palot valed
+86	1986	butun	vutun
+87	1987	naonegezh	naonegezhioù
+88	1988	milier	milieroù vilieroù
+89	1989	blot	plot
+90	1990	distabil	zistabil zistabilañ
+91	1991	erer	erered
+92	1992	soudañ	soud soudan soudiñ
+93	1993	katalan	gatalan gatalaned
+94	1994	amerindian	amerindianed
+95	1995	muzell	muzelloù vuzell
+96	1996	derv	dervenn
+97	1997	mestr-skol	mestrez-skol mistri-skol vestr-skol vestrez-skol vistri-skol
+98	1998	danzen	danzeet tanzen zanzen
+99	1999	dever	deverioù tever zever zeverioù
+100	2000	taol-kaer	daol-kaer taolioù-kaer zaol-kaer zaolioù-kaer

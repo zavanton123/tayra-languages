@@ -1,0 +1,100 @@
+1	2701	levn	levnañ
+2	2702	loer	loeroù
+3	2703	marmor	varmor
+4	2704	neved	nevedoù
+5	2705	palmez	balmezenn
+6	2706	raklavar	raklavaroù
+7	2707	skier	skierez
+8	2708	ti-annez	di-annez
+9	2709	ti-gwer	tiez-gwer
+10	2710	truezus	druezus
+11	2711	savlec'h	
+12	2712	born	porn
+13	2713	mall	vall
+14	2714	soul	soulenn
+15	2715	huniñ	hunan hunas hunañ hune huned hunen hunent huner hunes hunez huni huniañ hunin hunjod huno hunor
+16	2716	keur	c'heur
+17	2717	kloc'hdi	c'hloc'hdi
+18	2718	fuzeenn	fuzeennoù
+19	2719	kolladenn	golladenn kolladennoù
+20	2720	gourfenn	c'hourfenn gourfennañ gourfennoù
+21	2721	lec'hid	
+22	2722	meuriadel	veuriadel
+23	2723	chug	chugoù
+24	2724	binioù	biniawoù
+25	2725	pomper	bomperien pomperien
+26	2726	kamion	c'hamion gamion kamionoù
+27	2727	egorlestr	egorlistri
+28	2728	miliner	milinerien vilinerez vilinerien
+29	2729	pokat	bokat
+30	2730	prennañ	brennañ brennet frennañ prenne prenned prennen prennent prennes prennet prennit
+31	2731	gwisk	wisk
+32	2732	divout	zivout
+33	2733	enk	enkas enkañ
+34	2734	tantad	tantadoù
+35	2735	goañviñ	c'hoañviñ goañvañ
+36	2736	goustilh	c'houstilh goustilhoù
+37	2737	houad	houadez houidi
+38	2738	apotiker	apotikerez apotikerien
+39	2739	arm-tan	armoù-tan
+40	2740	batimant	batimantoù vatimant
+41	2741	benveg-seniñ	binvioù-seniñ
+42	2742	berraat	berra berrai berrait perraat verra verraat verrai
+43	2743	pinvidig	binvidien pinvidien
+44	2744	bourev	bourevien bourevion vourevion
+45	2745	kleweled	c'hleweled gleweled
+46	2746	gad	gedon
+47	2747	kartenn-bost	gartenn-bost kartennoù-post
+48	2748	mouchouer	mouchouerioù vouchouer
+49	2749	sarmon	sarmonioù
+50	2750	talm	dalm talmoù zalm
+51	2751	butuniñ	butunat butune vutunat vutuniñ
+52	2752	fichenn	fichennoù
+53	2753	peulvan	beulvanoù peulvanoù
+54	2754	siminal	siminalioù
+55	2755	treizhañ	dreizhañ dreizhiñ treizhiañ treizhiñ zreizhañ
+56	2756	diuz	dius diuzan diuzas diuze diuzec'h diuzed diuzemp diuzen diuzent diuzer diuzes diuzet diuzez diuzfe diuzfec'h diuzfed diuzfemp diuzfen diuzfent diuzfes diuzi diuzimp diuzin diuzint diuzis diuzit diuzje diuzjec'h diuzjed diuzjemp diuzjen diuzjent diuzjes diuzjoc'h diuzjod diuzjomp diuzjont diuzjout diuzo diuzomp diuzont diuzor diuzot tiuz ziuz ziuzet
+57	2757	mous	vous
+58	2758	kad	c'had c'hadoù
+59	2759	klañvdi	c'hlañvdi glañvdi
+60	2760	kazel	gazel kazelioù
+61	2761	sunañ	sunet suni sunis suniñ suno
+62	2762	trubard	drubard drubarded trubarded zrubarded
+63	2763	tonal	tonat tone toni zone zonen
+64	2764	kelan	c'helan c'helanoù gelan
+65	2765	baleadenn	baleadennoù valeadenn valeadennoù
+66	2766	goiñ	c'hoiñ
+67	2767	tro-c'houzoug	dro-c'houzoug troioù-gouzoug
+68	2768	liñs	lins liñsed
+69	2769	baot	baoted vaot
+70	2770	bizañ	bizas bize bizemp bizen bizent bizet bizi bizin bizis bizit vize
+71	2771	ruzañ	ruzal ruze ruzis ruziñ ruzoc'h ruzor ruzot
+72	2772	fallout	falliñ fallvezout
+73	2773	adober	
+74	2774	aozerez	
+75	2775	arc'heskopti	
+76	2776	arvrec'h	
+77	2777	c'hoaz	
+78	2778	denheñvel	
+79	2779	finlandat	
+80	2780	fiñvus	
+81	2781	kartennouriezh	gartennouriezh
+82	2782	gwelus	
+83	2783	hoc'h-gouez	
+84	2784	iskerentiad	
+85	2785	lunedoù	
+86	2786	pesketaerezh	
+87	2787	ragistorel	
+88	2788	rannyezhel	
+89	2789	respetad	
+90	2790	sevended	
+91	2791	skañvaat	skañvaad
+92	2792	sutal	sutañ
+93	2793	ti-moullañ	
+94	2794	barrennig	varrennig
+95	2795	ester	
+96	2796	achu	
+97	2797	dre-holl	
+98	2798	erotegezh	
+99	2799	helavarded	
+100	2800	hiraezh	

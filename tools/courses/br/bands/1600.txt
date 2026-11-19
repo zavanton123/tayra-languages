@@ -1,0 +1,100 @@
+1	1501	ti-gar	di-gar tiez-gar zi-gar
+2	1502	basañ	bas base baset basis basit basiñ basje basjes basor faso pasañ paset paso vas vasañ
+3	1503	dreistordinal	
+4	1504	skevent	
+5	1505	pet	
+6	1506	hañval	
+7	1507	holen	holenoù
+8	1508	aerlu	aerluioù
+9	1509	difetis	difetisoc'h zifetis
+10	1510	direizh	tireizh zireizh
+11	1511	doujañs	zoujañs
+12	1512	major	vajor
+13	1513	pardon	bardon fardon pardonioù
+14	1514	bazenn	bazennoù vazenn
+15	1515	kevrat	c'hevrat c'hevratoù gevrat gevratoù kevratoù
+16	1516	parkañ	barkañ barker farkañ parkan parkas parke parked parken parker parket parkfen parki parkis parkit parkje parko
+17	1517	profed	brofed brofeded profeded
+18	1518	menez-tan	menezioù-tan venez-tan
+19	1519	pegañ	begañ beget fegañ pegas peget pegi pegiñ pegot
+20	1520	brasaat	brasa brasai brasais brasait prasaat prasai vrasa vrasaat
+21	1521	kloerdi	c'hloerdi c'hloerdioù gloerdi gloerdioù kloerdioù
+22	1522	muzul	muzulioù vuzul
+23	1523	dimezell	dimezelled
+24	1524	ranndi	ranndioù
+25	1525	komz-plaen	c'homz-plaen gomz-plaen
+26	1526	adstêr	adstêrioù
+27	1527	morañ	moran moras more moren morer mores moret morfe morfen morfent morfes mori morin moris morit moriñ morje moro moror morot voran vorañ
+28	1528	peul	beul beulioù feulioù peulioù veul
+29	1529	azezañ	azez azezas azezet azeziñ
+30	1530	lazh	
+31	1531	sadorn	
+32	1532	didud	
+33	1533	raktal	
+34	1534	trovanel	drovanel
+35	1535	ordinal	ordinalañ ordinaloc'h
+36	1536	gouren	c'houren gourenoù kouren
+37	1537	mut	vut
+38	1538	per	berenn perenn perioù
+39	1539	stivell	stiogenn stivelled stivelloù
+40	1540	torgenn	dorgenn zorgenn
+41	1541	bruched	bruchedoù vruched
+42	1542	teskad	deskad teskadoù
+43	1543	sac'h	seier
+44	1544	ostaleri	ostalerioù
+45	1545	pleg	bleg blegoù flegoù plegoù
+46	1546	klopenn	c'hlopenn c'hlopennoù glopenn klopennoù
+47	1547	rentañ	rent rentas rentiñ rento rentout
+48	1548	kreiz-kêr	c'hreiz-kêr greiz-kêr
+49	1549	glaz	c'hlaz glizi klaz
+50	1550	mizvezh	mizvezhioù vizvezh vizvezhioù
+51	1551	korr	c'horr c'horrez gorr gorred gorrez korred korrez
+52	1552	kef	c'hef c'hefioù gef gefioù kefioù
+53	1553	orañjez	
+54	1554	lun	
+55	1555	paourentez	baourentez
+56	1556	aoter	aoterioù
+57	1557	neizh	neizhioù
+58	1558	plac'hig	plac'hedigoù
+59	1559	dir	zir
+60	1560	goullo	c'houlle c'houllo
+61	1561	anv-gwan	anvioù-gwan
+62	1562	mezegiezh	vezegiezh
+63	1563	denjentil	dudjentil tudjentil zenjentil
+64	1564	pourmen	bourmen pourmeniñ
+65	1565	ifern	ifernioù
+66	1566	batailhon	vatailhon vatailhonoù
+67	1567	nes	nesañ nesoc'h
+68	1568	dilestrañ	dilestras dilestriñ tilestras tilestrañ zilestras zilestrañ
+69	1569	boulc'hañ	boulc'het boulc'hiñ voulc'hañ
+70	1570	boest	boestoù voest voestoù
+71	1571	gast	c'hast c'histi gasted gisti
+72	1572	kantik	c'hantik c'hantikoù gantik kantikoù
+73	1573	repuiñ	repuas
+74	1574	foz	fozioù
+75	1575	dic'hortoz	dic'hortosoc'h zic'hortoz
+76	1576	plijus	blijus plijusañ plijusoc'h
+77	1577	kizeller	c'hizeller gizellerez gizellerien kizellerien kizellour
+78	1578	karta	c'harta garta gartaoù kartaoù
+79	1579	lien	
+80	1580	nobl	
+81	1581	ijin	
+82	1582	war-c'horre	
+83	1583	fizik	
+84	1584	digemm	
+85	1585	hollvedel	
+86	1586	lec'hanvadurezh	
+87	1587	douaroniezh	zouaroniezh
+88	1588	deiz-ha-bloaz	deizioù-ha-bloaz zeiz-ha-bloaz
+89	1589	ehan	ehanoù
+90	1590	glaou	c'hlaou c'hlaouenn
+91	1591	forn	fornioù
+92	1592	mesk	vesk
+93	1593	trugarez	drugarez zrugarez
+94	1594	bakteri	bakteriennoù vakterienn
+95	1595	godell	c'hodell c'hodelloù godelloù kodell
+96	1596	teuziñ	deuz deuze deuziñ teuz teuzas teuze teuzent teuzont teuzor
+97	1597	pellgomz	bellgomz bellgomzas pellgomzas pellgomzoù
+98	1598	molekul	molekulenn molekulennoù volekulenn volekulennoù
+99	1599	pluñv	bluñv fluñv
+100	1600	kastizañ	c'hastizañ gastizañ

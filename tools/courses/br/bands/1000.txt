@@ -1,0 +1,100 @@
+1	901	golo	c'holo c'holoioù goloioù
+2	902	brezhon	brezhoned vrezhon vrezhoned
+3	903	spontus	spontusañ spontusoc'h
+4	904	skoliad	skoliadez skoliadezed skolidi
+5	905	podad	bodad bodadoù vodad
+6	906	a-dreuz	
+7	907	piano	biano fiano pianoioù
+8	908	ramz	ramzed
+9	909	kousket	c'housked gousket kouske kousked kouskiñ
+10	910	gwallzarvoud	gwallzarvoudoù wallzarvoud wallzarvoudoù
+11	911	treuziñ	dreuzas dreuziñ treuzas treuzañ treuzet treuzo treuzont zreuziñ
+12	912	lusk	luskoù
+13	913	ti-kêr	di-kêr tiez-kêr
+14	914	kannañ	c'hannañ gannañ gannet ganniñ ganno kannet kanniñ
+15	915	nijal	nijas nije nijet nijiñ nijjont nijont
+16	916	estreget	estregetañ estregeti estregeto
+17	917	me	
+18	918	lizherenneg	lizherennegoù
+19	919	tevel	dav davi davis devel tav tavan tavas tave taven taves tavet tavi tavin tavis tavit tavo
+20	920	magañ	mag magan mage mager magerien magi magis magiñ mago magor magot vagas vagañ vage vagerien vagiñ
+21	921	isspesad	isspesadoù
+22	922	gwellaat	gwellae kwellaat wellaat wellae
+23	923	prederour	brederour brederourien brederourion frederourien prederourien
+24	924	diwan	divan divanoù diwanañ diwaniñ diwanoù tivan tivanoù tiwan tiwanañ zivan zivanoù ziwan ziwanañ
+25	925	start	startañ startoc'h
+26	926	pareañ	bare bareañ fareañ pare parean pareen parefen parei parein pareis pareo
+27	927	to	
+28	928	brezhoneger	brezhonegerez brezhonegerezed brezhonegerien vrezhoneger vrezhonegerien vrezhonegerion
+29	929	klok	glok glokañ klokañ klokoc'h
+30	930	divyezhek	
+31	931	siwazh	
+32	932	tregont	dregont zregont
+33	933	o-daou	o-div
+34	934	prim	brim brimoc'h frim primañ primoc'h
+35	935	plegañ	blegañ flegañ plegas plege pleger pleget plegis plegiñ plegor
+36	936	trouz	drouz trous trouzioù trouzoù
+37	937	kleze	c'hleze c'hlezeier c'hlezeoù gleve gleze kleve klezeier klezeoù klezeñv
+38	938	koublad	c'houblad c'houbladoù goublad goubladoù koubladoù
+39	939	arabat	
+40	940	mell-droad	vell-droad
+41	941	emren	emrenoc'h
+42	942	gwalarn	walarn
+43	943	yen	yenañ yeni yenoc'h
+44	944	kerkent	
+45	945	skoed	skoedoù
+46	946	melestradurel	velestradurel
+47	947	kelc'h	c'helc'h c'helc'hioù gelc'h gelc'hioù kelc'hioù
+48	948	àr	àrnezhe àrnezhi
+49	949	skignañ	skign skignent skigniñ
+50	950	preder	breder brederez brederien brederioù freder prederioù
+51	951	eme	emezañ emeze emezi emezo emezoc'h emezomp emezon emezor emezout
+52	952	prouiñ	brou brouas brouen brouet brouez brouiñ brouo frouez frouiñ prou prouan prouas prouañ proue prouec'h prouen prouent prouer proues prouet prouez proui prouin prouis prouit prouo prouomp prouont
+53	953	prouenn	brouenn brouennoù frouenn prouennoù
+54	954	maout	meot
+55	955	diwall	diwallañ tiwall ziwall
+56	956	gouzañv	c'houzañv gouzañviñ kouzañv
+57	957	sioul	sioulañ siouloc'h
+58	958	tad-kozh	dad-kozh dadoù-kozh zad-kozh zadoù-kozh
+59	959	medisin	medisined vedisin vedisined vedisinez
+60	960	mirour	mirourien virer virour virourez virourien
+61	961	miliad	miliadoù viliad viliadoù
+62	962	intañvez	intañv intañvezed
+63	963	munutenn	munutennoù vunutenn vunutennoù
+64	964	munud	munudoù vunud vunudoù
+65	965	mekanik	mekanikoù vekanik vekanikoù
+66	966	mengleuz	mengleuzioù vengleuz vengleuzioù
+67	967	suis	suised suisez
+68	968	lise	liseoù
+69	969	vogalenn	vogalennoù
+70	970	ledañ	lede ledet lediñ ledo
+71	971	brezel-bed	vrezel-bed
+72	972	koadek	c'hoadegi c'hoadegoù c'hoadek goadeg koadeg koadegi koadegoù
+73	973	turk	durk durked durkez turked
+74	974	steredenn	
+75	975	feal	fealañ
+76	976	lamm	lammoù
+77	977	tren	dren drenioù trenioù zren
+78	978	laerezh	laerat laere laeret laerimp laerint laeriñ laeroc'h laeront laeror laerot
+79	979	diskoulmañ	diskoulm diskoulmas tiskoulmañ ziskoulm ziskoulmañ
+80	980	micherour	micherourez micherourien micherourion vicherourez vicherourien vicherourion
+81	981	markiz	markizez markizien varkiz varkizez
+82	982	pred	fred fredoù predoù
+83	983	e-doug	
+84	984	bara	para vara
+85	985	marc'hadour	marc'hadourez marc'hadourien marc'hadourion varc'hadourien
+86	986	ardivink	ardivinkoù
+87	987	enrollañ	
+88	988	brudañ	brudal bruder brudiñ vrudas vrudañ vrude
+89	989	gwagenn	gwagennoù wagenn wagennoù
+90	990	enezeg	enezegi enezegoù
+91	991	feuls	feulsañ feulsoc'h
+92	992	iskis	iskisat iskisañ iskisoc'h
+93	993	arvor	arvorioù
+94	994	leve	leveoù
+95	995	sekretour	sekretourez sekretourezed sekretourien sekretourion
+96	996	kevandir	c'hevandir c'hevandirioù gevandir gevandirioù kevandirioù
+97	997	karrez	c'harrez c'harrezioù garrez garrezioù karrezioù
+98	998	alan	
+99	999	europat	
+100	1000	lur	lurioù

@@ -1,0 +1,100 @@
+1	3601	uhelgomzer	uhelgomzerioù
+2	3602	balirañ	valirañ
+3	3603	barrennig-stagañ	varrennig-stagañ
+4	3604	buanded	vuanded
+5	3605	gwarellvaez	warellvaez
+6	3606	brennig	brennigennoù
+7	3607	garm	garmoù
+8	3608	bridañ	bridas brides bridis bridiñ pride
+9	3609	birviken	virviken
+10	3610	bennigañ	pennigañ vennigañ
+11	3611	broñs	broñsoù vroñs
+12	3612	dibr	dibroù
+13	3613	tonn	donn
+14	3614	goulakaat	c'houlakaat
+15	3615	goullonderiñ	c'houllonderiñ goullonder koullonderiñ
+16	3616	kafedi	c'hafedi
+17	3617	morad	moriad
+18	3618	moru	morued
+19	3619	sorc'henn	sorc'hennoù
+20	3620	toer	doer
+21	3621	toger	doger
+22	3622	trubardiñ	drubardiñ trubardez zrubardiñ
+23	3623	chilean	chileaned
+24	3624	deraouiñ	deraou teraou zeraouiñ
+25	3625	torchañ	dorchañ torch torchas torche torchis torchiñ zorchañ
+26	3626	abrant	abrantoù
+27	3627	bu	bioù
+28	3628	biz-troad	bizied-treid bizied-troad
+29	3629	planter	blanterien
+30	3630	blein	plein vlein
+31	3631	pourmenerez	bourmenerien pourmenerien
+32	3632	kaol	c'haol
+33	3633	gedal	c'hedal gedañ gediñ gedo kedal
+34	3634	kegel	c'hegel gegel
+35	3635	kroateg	c'hroateg
+36	3636	krokodil	c'hrokodil krokodiled
+37	3637	groñj	c'hroñj
+38	3638	kwark	c'hwark gwark kwarkoù
+39	3639	dared	daredenn daredoù tared
+40	3640	dibenn-pred	dibennoù-pred
+41	3641	torchenn	dorchenn torchennoù
+42	3642	drez	dresenn
+43	3643	tud-varc'h	dud-varc'h
+44	3644	flemmskeudenn	flemmskeudennoù
+45	3645	kabestr	c'habestr gabestr
+46	3646	gourmarc'had	gourmarc'hadoù
+47	3647	kravatenn	gravatenn kravatennoù
+48	3648	kunujenniñ	c'hunujenniñ gunujenniñ
+49	3649	heuz	heuzoù
+50	3650	isofiser	isofiserien
+51	3651	kaerded	c'haerded gaerded
+52	3652	kempenner	c'hempenner gempenner
+53	3653	kribenn	c'hribennoù gribenn
+54	3654	louc'h	louc'hoù
+55	3655	pennad-stur	fennad-stur pennadoù-stur
+56	3656	plankenn-dre-lien	plankennoù-dre-lien
+57	3657	reked	rekedoù
+58	3658	taouarc'h	daouarc'h
+59	3659	dispac'hañ	tispac'hañ
+60	3660	toksin	toksinoù
+61	3661	toull-noz	toulloù-noz
+62	3662	treflez	dreflez dreflezenn
+63	3663	treizhad	dreizhadez dreizhidi
+64	3664	trolinenn	trolinennoù
+65	3665	vic'haner	vic'hanerien
+66	3666	gwadañ	gwadiñ kwadañ wadañ
+67	3667	gwenvidig	wenvidien wenvidig
+68	3668	gwerzhid	gwerzhidoù werzhid
+69	3669	gwrac'hell	gwrac'helloù wrac'hell
+70	3670	gourniz	c'hourniz gournizez
+71	3671	souezhañ	souezhas souezhiñ
+72	3672	tanañ	danañ danet tanet tanfe tanfec'h tanfed tanfemp tanfen tanfent tanfes tanimp tanis tanje tanjec'h tanjed tanjemp tanjen tanjent tanjes tanjoc'h tanjod tanjomp tanjont tanjout tanoc'h tanor tanot zanañ zanjed
+73	3673	kelennerezh	c'helennerezh gelennerezh
+74	3674	ave	
+75	3675	faoued	
+76	3676	kleñvel	gleñvel kleñver
+77	3677	marr	
+78	3678	paskal	
+79	3679	pichon	
+80	3680	a-c'haol	
+81	3681	a-c'haoliad	
+82	3682	a-dre	
+83	3683	abegiñ	abegal abegout
+84	3684	adenvel	
+85	3685	adjudant	
+86	3686	advab	
+87	3687	advevañ	adveviñ
+88	3688	aerva	
+89	3689	akordeon	
+90	3690	aktiniom	
+91	3691	akuit	
+92	3692	amanenn	
+93	3693	an-unan	
+94	3694	anduilh	
+95	3695	anv-gwan-verb	
+96	3696	arc'hantus	
+97	3697	azot	
+98	3698	azv	
+99	3699	baraer	
+100	3700	barr-amzer	

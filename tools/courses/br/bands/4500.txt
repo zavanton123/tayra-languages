@@ -1,0 +1,100 @@
+1	4401	kurunennañ	c'hurunennañ gurunennañ guruniñ kurunenniñ kuruniñ
+2	4402	gwalleürus	walleürus
+3	4403	gwrier	wrierez
+4	4404	hent-dall	hentoù-dall
+5	4405	jiletenn	jiletennoù
+6	4406	kester	kesterien
+7	4407	koagal	goagal koag koagat koagañ
+8	4408	laer-mor	laeron-vor
+9	4409	lampon	lamponed
+10	4410	livus	livusañ
+11	4411	lugell	lugelloù
+12	4412	ma-unan	va-unan
+13	4413	maenek	maeneg
+14	4414	mandolinenn	vandolinenn
+15	4415	meskl	mesklenn
+16	4416	moereb-kozh	voereb-kozh
+17	4417	molibden	volibden
+18	4418	morskoul	morskouled
+19	4419	nadoz-aer	nadozioù-aer
+20	4420	nemedenn	nemedennoù
+21	4421	panerad	paneradoù
+22	4422	beuc'h	peuc'h
+23	4423	poc'han	
+24	4424	rizeg	rizegi rizegoù
+25	4425	skiber	skiberioù
+26	4426	skudell	skudilli
+27	4427	stal-vutun	stalioù-butun
+28	4428	stalon	stalonoù
+29	4429	stouv	stouvoù
+30	4430	targazh	targizhier
+31	4431	diflukañ	tiflukañ ziflukañ
+32	4432	tommerez	tommerezioù
+33	4433	vaksin	vaksinoù
+34	4434	bilieg	vilieg viliegoù
+35	4435	yac'hus	yac'husoc'h
+36	4436	drastañ	drastiñ trastañ zrastas zrastañ
+37	4437	korolliñ	c'horolliñ gorollerien gorolliñ korollan korollas korollat korolle korollec'h korolled korollemp korollen korollent koroller korollerien korolles korollet korollez korollfe korollfec'h korollfed korollfemp korollfen korollfent korollfes korolli korollimp korollin korollint korollis korollit korollje korolljec'h korolljed korolljemp korolljen korolljent korolljes korolljoc'h korolljod korolljomp korolljont korolljout korollo korollomp korollont korollor korollot
+38	4438	ruziañ	ruze ruzias ruzis ruziñ
+39	4439	advamm	
+40	4440	ahez	
+41	4441	ankounac'h	
+42	4442	arc'hdugelezh	
+43	4443	aviañ	avian aviiñ aviout
+44	4444	avon	
+45	4445	boc'hek	boc'heg
+46	4446	bourdal	bourdas bourde bourden bourdent bourder bourdes bourdez bourdin vourdal
+47	4447	brec'hagn	
+48	4448	brig	
+49	4449	broc'hañ	
+50	4450	damc'hlas	
+51	4451	damc'houde	
+52	4452	digevanañ	tigevanañ zigevanañ
+53	4453	togañ	doge togan togas toge toges togis togo togor
+54	4454	doñviñ	doñvañ
+55	4455	dreog	
+56	4456	drezeg	
+57	4457	emwel	
+58	4458	enoeiñ	
+59	4459	erviñ	ervan erve erven ervet ervi ervin
+60	4460	falc'h	
+61	4461	frankizenn	
+62	4462	gouezel	gouezeled
+63	4463	gouher	
+64	4464	gramadegour	
+65	4465	krener	grenerien
+66	4466	gwilou	gwillou
+67	4467	gwrimenn	
+68	4468	hertz	
+69	4469	heugiñ	heugal
+70	4470	hewerzh	
+71	4471	hunegan	
+72	4472	jarneal	
+73	4473	jarne	jarneoù
+74	4474	jenofl	
+75	4475	kala-hañv	
+76	4476	kanastell	
+77	4477	kaour	
+78	4478	kartenn-hent	kartennoù-hent
+79	4479	kerc'heiz	
+80	4480	kazeg-koad	kezeg-koad
+81	4481	klegerek	
+82	4482	kof-gar	
+83	4483	kravazhataer	
+84	4484	kreizenn nukleel	kreizenn nukleel
+85	4485	lepton	
+86	4486	lok	
+87	4487	louzaouenn-an-hañv	
+88	4488	maeron	maeroned
+89	4489	masikod	
+90	4490	miaoual	miaouiñ viaoual
+91	4491	milligañ	
+92	4492	mindrailher	
+93	4493	mot	
+94	4494	mouster	mousterioù
+95	4495	nizez-vihan	
+96	4496	nouel	
+97	4497	noziñ	nozas noze nozo
+98	4498	o-femp	
+99	4499	onneg	
+100	4500	ourz	

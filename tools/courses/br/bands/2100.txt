@@ -1,0 +1,100 @@
+1	2001	ampartiz	
+2	2002	hudouriezh	
+3	2003	turkeg	
+4	2004	rev	
+5	2005	urzhiañ	
+6	2006	ragistor	
+7	2007	furchal	furch furchat furchañ furchiñ
+8	2008	darev	dare tare
+9	2009	siell	sielloù
+10	2010	flamm	flamme flammoù
+11	2011	gwevn	gwevnoc'h wevn
+12	2012	bete	pete vete
+13	2013	eilañ	eiler eiliñ
+14	2014	boueta	voueta
+15	2015	pod	podoù
+16	2016	eren	ere ereet ereiñ
+17	2017	pirc'hirin	birc'hirined pirc'hirined
+18	2018	koustañ	goustañ kouste koustet koustfe koustiñ kousto koustout
+19	2019	krennlavar	c'hrennlavar c'hrennlavarioù krennlavarioù
+20	2020	heg	
+21	2021	saviad	
+22	2022	tchekeg	
+23	2023	ahont	
+24	2024	dec'h	
+25	2025	uhelaat	
+26	2026	skoulmañ	
+27	2027	run	
+28	2028	sav-heol	
+29	2029	rom	
+30	2030	gitar-boud	c'hitar-boud
+31	2031	divalav	zivalav
+32	2032	her	
+33	2033	biz-meud	viz-meud
+34	2034	doktorelezh	zoktorelezh
+35	2035	renadenn	renadennoù
+36	2036	sturier	sturierien
+37	2037	lojañ	loj lojis lojiñ lojo lojor
+38	2038	mediñ	med medan medas mede meden meder medes medet medez medi medin medis medit medo medomp medont vediñ
+39	2039	anv-kadarn	anvioù-kadarn
+40	2040	asteroidenn	asteroidennoù
+41	2041	taos	daos taosoù
+42	2042	divroañ	divroiñ tivroañ zivroañ zivroiñ
+43	2043	harzlammer	harzlammerez harzlammerien
+44	2044	denañ	dene denes denis deniñ denot tenañ zenañ
+45	2045	kroashent	c'hroashent c'hroazhent kroazhent
+46	2046	keidenn	geidenn
+47	2047	mank	manked mankoù vankañ
+48	2048	tell	telloù zell
+49	2049	breud	breudoù vreudoù
+50	2050	nervenn	nervennoù
+51	2051	plad	blad pladoù vlad
+52	2052	beskont	beskonted beskontez veskont veskontez
+53	2053	bilhed	bilhedoù bilhidi vilhedoù
+54	2054	dispac'her	dispac'herien zispac'her
+55	2055	divinout	divin divinas divinañ divine divined diviner divines divini divinis diviniñ divino divinour zivinout
+56	2056	begenn	begennoù vegenn vegennoù
+57	2057	hadañ	hadan hadas hade hadec'h haded hademp haden hadent hader hades hadet hadez hadfe hadfec'h hadfed hadfemp hadfen hadfent hadfes hadi hadimp hadin hadint hadis hadit hadiñ hadje hadjec'h hadjed hadjemp hadjen hadjent hadjes hadjoc'h hadjod hadjomp hadjont hadjout hado hadoc'h hadomp hadont hador hadot
+58	2058	kazarn	c'hazarn c'hazarnioù gazarn kazarnioù
+59	2059	perzhiad	berzhiad berzhidi ferzhiad perzhiaded perzhidi
+60	2060	kannati	c'hannati c'hannatioù gannati kannatioù
+61	2061	klip	c'hlip c'hlipoù glip glipoù klipoù
+62	2062	keginer	c'heginer geginer geginerez keginerez keginerien
+63	2063	treuzwelus	dreuzwelus
+64	2064	tener	tenerañ
+65	2065	kromm	gromm
+66	2066	moullerez	moullerezioù voullerez
+67	2067	merzher	verzher verzherien
+68	2068	kavell	c'havell gavell
+69	2069	boudig	boudiged voudig voudiged
+70	2070	bolz	bolzioù volz
+71	2071	kreñvder	c'hreñvder greñvder kreñvderioù
+72	2072	keginañ	c'heginañ geginañ keginat keginiñ
+73	2073	diverkañ	diverket diverkiñ tiverkañ ziverkañ
+74	2074	korseg	c'horseg
+75	2075	douarenn	douarennoù zouarenn
+76	2076	kae	c'hae c'haeoù gae kaeoù
+77	2077	fraezh	
+78	2078	kantvet	
+79	2079	diskan	
+80	2080	labourerez-douar	labourer-douar
+81	2081	stabilded	
+82	2082	buhezek	
+83	2083	madelezhus	vadelezhus
+84	2084	aotren	
+85	2085	falz	filzier
+86	2086	tchek	dchek
+87	2087	kemmus	gemmus kemmusoc'h
+88	2088	krennamzerel	grennamzerel
+89	2089	pellder	bellder fellder pellderioù
+90	2090	lezvamm	leztad leztadoù
+91	2091	gweañ	gweiñ gweje gweo kweañ weañ wee wei
+92	2092	mestroni	vestroni
+93	2093	pask	fask vask
+94	2094	kalc'h	c'halc'h galc'hioù
+95	2095	panevet	paneve paneveti
+96	2096	pilat	bilat filat filit pilet pilis piliñ pilo pilor pilot
+97	2097	arload	arloadoù
+98	2098	kren-douar	c'hren-douar c'hrenoù-douar krenoù-douar
+99	2099	dornlevr	dornlevrioù zornlevr zornlevrioù
+100	2100	rusk	ruskenn ruskennoù

@@ -1,0 +1,100 @@
+1	1801	eizhvet	
+2	1802	skornet	
+3	1803	arsav	arsavioù
+4	1804	engroez	engroezioù
+5	1805	gouiziegezh	c'houiziegezh
+6	1806	toaz	doaz
+7	1807	follentez	follentezioù
+8	1808	burzhudus	vurzhudus
+9	1809	euzhus	euzhusañ euzhusoc'h
+10	1810	prometiñ	brometiñ
+11	1811	stok	stokoù
+12	1812	merzout	verzout
+13	1813	skeud	skeudoù
+14	1814	tarv	darv tirvi zarv
+15	1815	barrenn	barrennoù varrenn
+16	1816	meneziek	menezieg venezieg veneziek
+17	1817	triwec'h	driwec'h zriwec'h
+18	1818	merdeiñ	verdeiñ
+19	1819	gwanaat	gwana gwannaad kwanaat wanaat
+20	1820	gwarizi	warizi
+21	1821	pik	bik pikoù
+22	1822	gwenneg	gwenneien wenneien
+23	1823	eien	eienenn eienennoù
+24	1824	moereb	moerebed voereb voerebed
+25	1825	huchal	huchas huche huchent hucher huches huchet huchez huchit
+26	1826	harz-labour	harzoù-labour
+27	1827	tri-ugent	zri-ugent
+28	1828	lec'hiañ	lec'hie lec'hiñ
+29	1829	broadelezh	broadelezhioù vroadelezh
+30	1830	pakad	bakadoù fakadoù pakadoù
+31	1831	milin	milinoù vilin
+32	1832	dresañ	dresiñ
+33	1833	hobregonet	
+34	1834	skiant-prenet	
+35	1835	leal	
+36	1836	reizhañ	
+37	1837	saout	
+38	1838	a-zehou	
+39	1839	pegement	begement fegement
+40	1840	lorc'h	
+41	1841	lazher	lazherien
+42	1842	laz-kanañ	lazoù-kanañ
+43	1843	pazenn	pazennoù
+44	1844	tan-gwall	dan-gwall tangwall tanioù-gwall
+45	1845	truez	druez
+46	1846	follenn	follennoù
+47	1847	logod	logodenn logodennoù
+48	1848	kemplezh	c'hemplezh gemplezh kempleshañ kempleshoc'h
+49	1849	kouevr	c'houevr gouevr
+50	1850	geun	c'heun c'heunioù geunioù
+51	1851	mougañ	mougiñ vougañ
+52	1852	prezeg	brezeg
+53	1853	karbon	c'harbon garbon
+54	1854	gwalc'hiñ	gwalc'has gwalc'he kwalc'hiñ walc'he walc'hiñ
+55	1855	kroaziadeg	groaziadeg groaziadegoù kroaziadegoù
+56	1856	goleiñ	c'holeiñ c'holoiñ goloiñ koleiñ
+57	1857	paot	baotañ faot faotañ paotañ paotoc'h
+58	1858	promesa	bromesa fromesaoù promesaoù
+59	1859	sall	salle sallet
+60	1860	koñsul	c'hoñsul goñsul goñsuled koñsuled
+61	1861	kañseller	c'hañseller gañseller gañsellerez kañsellerez
+62	1862	sponterezh	
+63	1863	trevadennerezh	
+64	1864	lanv	
+65	1865	oaled	
+66	1866	laosk	laoskoc'h
+67	1867	stur	sturioù
+68	1868	prefeti	brefeti
+69	1869	rok	rokañ
+70	1870	bezhin	vezhin vezhinenn
+71	1871	pevar-ugent	bevar-ugent fevar-ugent
+72	1872	lik	liked
+73	1873	poell	boell foell
+74	1874	ambroug	ambrouger ambrougerez ambrougoù
+75	1875	taolenniñ	daolenner daolenniñ taolenner zaolenniñ
+76	1876	leue	leueioù leueoù
+77	1877	desevel	desaver zesaverien zesevel
+78	1878	matematikour	matematikourien vatematikourez vatematikourien
+79	1879	treitour	dreitour dreitourez dreitourien treitourien
+80	1880	tad-kaer	dad-kaer zad-kaer
+81	1881	dial	dialoù zial
+82	1882	stadañ	stade staden stadiñ
+83	1883	kember	c'hember gember
+84	1884	plantañ	blantañ flantañ
+85	1885	gorrek	c'horrek gorrekat gorrekoc'h
+86	1886	sekred	sekredoù
+87	1887	dilec'hiañ	dilec'hañ dilec'hiiñ dilec'hiñ tilec'hiañ zilec'hiañ
+88	1888	madelezh	vadelezh
+89	1889	raganv	raganvioù
+90	1890	breur-kaer	vreur-kaer
+91	1891	dibunadeg	dibunadegoù zibunadegoù
+92	1892	kure	c'hure gure
+93	1893	bleinañ	bleniañ vleinañ vleniañ
+94	1894	kevrin	c'hevrin c'hevrinoù gevrinoù kevrinoù
+95	1895	kemener	c'hemener gemenerez gemenerien kemenerez kemenerien
+96	1896	hoc'h	
+97	1897	grevus	c'hrevusañ c'hrevusoc'h grevusañ grevusoc'h
+98	1898	sakson	saksoned saksonez
+99	1899	tir	dirioù tirioù zirioù
+100	1900	analañ	analat analer analis

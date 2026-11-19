@@ -1,0 +1,100 @@
+1	3301	devezh-arat	zevezh-arat
+2	3302	dic'houzougañ	tic'houzougañ zic'houzougañ
+3	3303	digasted	zigasted
+4	3304	dinoaz	dinoasoc'h
+5	3305	divesker	zivesker
+6	3306	divontañ	divontet divontiñ tivontañ zivontañ
+7	3307	divuhez	zivuhez
+8	3308	dizroug	dizrouk
+9	3309	dogan	doganed
+10	3310	dreinek	dreineg
+11	3311	ec'honder	ec'honderioù
+12	3312	erc'hek	erc'hegoù
+13	3313	kibell	gibell kibelloù
+14	3314	grevusted	c'hrevusted
+15	3315	gwerzaouiñ	werzaouiñ
+16	3316	harz-lamm	harzoù-lamm
+17	3317	horzh	horzhioù
+18	3318	koumoulek	goumoulek
+19	3319	krazañ	c'hrazañ grazañ kraz krazet krazis kraziñ
+20	3320	kuñv	guñv
+21	3321	kêriad	gêriz kêriz
+22	3322	liver	liverez
+23	3323	louzaoueg	louzaouegoù
+24	3324	lugernus	lugernusañ
+25	3325	maen-bez	vaen-bez
+26	3326	metan	vetan
+27	3327	neblec'h	
+28	3328	rannvloaz	rannvloazioù
+29	3329	sac'h-dorn	seier-dorn
+30	3330	sapr	saprenn
+31	3331	skiañ	skian skias skie skied skien skient skies skiez skii skio skiot
+32	3332	torr-dimeziñ	dorr-dimeziñ
+33	3333	treitouriñ	dreitouriñ zreitouriñ
+34	3334	merdead	verdeidi
+35	3335	komm	c'homm
+36	3336	bezant	vezant
+37	3337	breutaat	vreutaat
+38	3338	ergerzhout	ergerzhis ergerzhiñ
+39	3339	flemm	flemmoù
+40	3340	gourvab	gourvibien
+41	3341	gwispid	wispidenn
+42	3342	melkonius	velkonius
+43	3343	pareour	pareer
+44	3344	pemzekvet	bemzekvet
+45	3345	gwere	were
+46	3346	komiserdi	gomiserdi
+47	3347	kroat	groat
+48	3348	meurvaen	meurvein
+49	3349	plavañ	blavañ flavor plave plaves plavis plavit plavor
+50	3350	tadig	zadig
+51	3351	tintal	tint tintañ tinto zint
+52	3352	achuiñ	achuas achue achuet
+53	3353	aourgi	aourgon
+54	3354	beskontelezh	veskontelezh
+55	3355	boked	bokedoù
+56	3356	brezhonekaat	prezhonekaat vrezhonekaat
+57	3357	brizh	vrizh
+58	3358	buzhug	buzhugenn vuzhugenn
+59	3359	karma	c'harma
+60	3360	katekiz	c'hatekiz
+61	3361	kentanv	c'hentanv gentanv
+62	3362	kenwerzher	c'henwerzher
+63	3363	koumanant	c'houmanant goumanant
+64	3364	tevaat	devaat
+65	3365	difraostañ	difraostiñ tifraostas tifraostañ zifraostañ
+66	3366	dourlivadur	dourlivadurioù zourlivadur zourlivadurioù
+67	3367	draenek	draeneg
+68	3368	edeg	edegi edeier
+69	3369	fichañ	fichet fichiñ
+70	3370	froudenn	froudennoù
+71	3371	kazout	c'hazout gazan gazet gazout kazan kazas kazen kazent kazet kazit kazo
+72	3372	geuniek	c'heuniek
+73	3373	gevrediñ	c'hevrediñ kevrediñ
+74	3374	kizidigezh	c'hizidigezh gizidigezh
+75	3375	glebiañ	c'hlebiañ
+76	3376	gloazus	c'hloazus
+77	3377	goaperezh	c'hoaperezh goapaerezh
+78	3378	kouc'h	c'houc'h gouc'h
+79	3379	gouelan	gouelaned gouelini
+80	3380	gourdad	c'hourdadoù gourdadoù
+81	3381	gwastañ	wastañ
+82	3382	gwevnded	wevnded
+83	3383	gwriziañ	gwriziennañ wriziennañ
+84	3384	kig-moc'h	c'hig-moc'h
+85	3385	rodell	rodelloù
+86	3386	sigaretenn	sigaretennoù
+87	3387	sizailh	sizailhoù
+88	3388	skediñ	skedas skedañ skede skeden skedent skedfe skedfent skedint skedje skedjent skedjont skedo skedont
+89	3389	sodiñ	sodas sodañ sode soden sodent soder sodes sodet sodez sodi sodin sodje sodjen sodo sodor
+90	3390	stammenn	stammennoù
+91	3391	bleuniañ	vleuniañ
+92	3392	bolz-enor	bolzioù-enor volz-enor
+93	3393	breserezh	vreserezh
+94	3394	bulgarek	vulgarek
+95	3395	distan	distanañ zistanañ
+96	3396	kor	c'hor
+97	3397	darañ	daret darin daris dariñ darot tarañ tarot zarañ
+98	3398	awenañ	aweniñ
+99	3399	bam	pam
+100	3400	disglavier	disglavieroù zisglavier

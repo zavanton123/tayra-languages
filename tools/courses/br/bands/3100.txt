@@ -1,0 +1,100 @@
+1	3001	emrener	emrenerez emrenerien
+2	3002	kiriegezh	giriegezh
+3	3003	gwander	gwanderioù wander
+4	3004	luc'hed	luc'hedenn
+5	3005	meud	veud veudoù
+6	3006	platin	blatin
+7	3007	ramparzh	ramparzhioù
+8	3008	tort	dort dorted
+9	3009	unpenn	unpennoù
+10	3010	drouklazhañ	drouklazhiñ trouklazhañ zrouklazhañ
+11	3011	roc'hell	roc'helloù
+12	3012	alarc'h	elerc'h
+13	3013	badeziñ	vadeziñ
+14	3014	c'hwitellat	c'hwistellat c'hwitell c'hwitelle
+15	3015	glazard	glazarded
+16	3016	kevan	c'hevan
+17	3017	marvailh	marvailhoù
+18	3018	mud	vud
+19	3019	mur	murioù vur
+20	3020	seizenn	seizennoù
+21	3021	bre	breoù
+22	3022	meneziad	menezidi veneziad venezidi
+23	3023	broc'h	broc'hed
+24	3024	farsal	farsan farse farsen farser farserien farses farsi farsis farso farsor farsot
+25	3025	kaletaat	c'haletaat galeta galetaat kaleta
+26	3026	krizder	c'hrizder grizder krizderioù
+27	3027	krogen	c'hrogen grogen
+28	3028	kabell	c'habell kabelloù
+29	3029	kimiour	c'himiour kimiourien
+30	3030	klon	c'hlon c'hlonoù klonoù
+31	3031	morbig	morbiged vorbig
+32	3032	meilh	meilhoù veilh
+33	3033	moualc'h	mouilc'hi voualc'h
+34	3034	malv	malvennoù valv valvenn valvennoù
+35	3035	korollerez	gorollerez gorollerien korollerien
+36	3036	krin	krinañ rin
+37	3037	adstummañ	adstummiñ
+38	3038	anal	
+39	3039	argoad	
+40	3040	atenat	
+41	3041	bred	
+42	3042	c'hwerv	
+43	3043	diwir	
+44	3044	doujus	
+45	3045	drouizel	
+46	3046	evnoniour	evnoniourien
+47	3047	greunvaen	
+48	3048	grik	
+49	3049	hewel	
+50	3050	hollc'halloudek	
+51	3051	koar	
+52	3052	laezh-ribod	
+53	3053	onestiz	
+54	3054	resisted	
+55	3055	roumaneg	
+56	3056	saksofon	
+57	3057	saotrañ	saotriñ
+58	3058	saourus	
+59	3059	steredoniezh	
+60	3060	tantalom	
+61	3061	touell	
+62	3062	uraniom	
+63	3063	yezhadurour	
+64	3064	watt	
+65	3065	c'hwez	
+66	3066	daoudroadek	
+67	3067	dibistig	
+68	3068	dioksidenn	
+69	3069	diret	
+70	3070	eeunded	
+71	3071	hael	
+72	3072	harellerezh	
+73	3073	heiz	
+74	3074	linad	
+75	3075	loargann	
+76	3076	naetadurezh	
+77	3077	neon	
+78	3078	porzh-pesketa	
+79	3079	teil	
+80	3080	otus	
+81	3081	adembann	
+82	3082	gousperoù	
+83	3083	louzawouriezh	
+84	3084	semplañ	sempliñ
+85	3085	spern	
+86	3086	barvek	
+87	3087	bemnoz	
+88	3088	gwechall-gozh	
+89	3089	purgator	
+90	3090	tali	dali zali
+91	3091	adprenañ	adpreniñ
+92	3092	bananez	vananezenn
+93	3093	biz-gwalenn	viz-gwalenn
+94	3094	proleteriezh	broleteriezh
+95	3095	disprizus	zisprizus
+96	3096	torzhellegezh	dorzhellegezh
+97	3097	enezad	enezidi
+98	3098	geriadurour	geriadurourien
+99	3099	kiez	c'hiez giez
+100	3100	koustiañs	goustiañs

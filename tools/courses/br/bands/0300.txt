@@ -1,0 +1,100 @@
+1	201	dimeziñ	dimezas dimeze dimezez dimezfe dimezi dimezin dimezioù dimezo timezas timeze timezin timeziñ timezo zimezas zimeze zimezfe zimeziñ zimezo
+2	202	stourm	stourmal stourmañ stourme stourmiñ stourmo stourmoù
+3	203	enez	inizi
+4	204	maouez	maouezed maouezi vaouez vaouezed vaouezi
+5	205	bennak	bennag bennaket
+6	206	diwezhañ	ziwezhañ
+7	207	kreskiñ	c'hresk c'hreskiñ gresk greskas greskiñ gresko kresk kreskas kresket kreski kreskis kresko
+8	208	setu	
+9	209	koll	c'holl c'holloù goll gollas goller gollet golljont gollo gollont kollan kollas kolle kollec'h kolled kollemp kollen kollent koller kolles kollet kollez kollfe kollfec'h kollfed kollfemp kollfen kollfent kollfes kolli kollimp kollin kollint kollis kollit kollje kolljec'h kolljed kolljemp kolljen kolljent kolljes kolljoc'h kolljod kolljomp kolljont kolljout kollo kolloc'h kollomp kollont kollor kollot kolloù
+10	210	kuit	
+11	211	difenn	difennet difenniñ difennoù tifenn zifenn zifennoù
+12	212	get	genin genoc'h gete geti getoñ
+13	213	e-touez	
+14	214	muioc'h	vuioc'h
+15	215	rouantelezh	rouantelezhioù
+16	216	korf	c'horf c'horfoù gorf gorfoù korfoù
+17	217	dour	doureier dourioù zour
+18	218	sant	santes santez santezed sent
+19	219	hepken	
+20	220	politikel	bolitikel politikeloc'h
+21	221	pried	bried briedoù fried friedoù priedoù
+22	222	prezidant	brezidant brezidanted brezidantez frezidant prezidanted prezidantez
+23	223	stêr	stêrioù
+24	224	nerzh	nerzhioù nerzhoù
+25	225	krediñ	c'hred c'hrede c'hreded c'hrediñ c'hredo gred gredan gredas grede greded gredent greder gredfent gredin grediñ gredjont gredo gredont kred kredan kredas krede kredec'h kreded kredemp kreden kredent kreder kredes kredet kredez kredfe kredfec'h kredfed kredfemp kredfen kredfent kredfes kredi kredimp kredin kredint kredis kredit kredje kredjec'h kredjed kredjemp kredjen kredjent kredjes kredjoc'h kredjod kredjomp kredjont kredjout kredo kredoc'h kredomp kredont kredor kredot kredout
+26	226	pal	bal fal falioù fili palioù val
+27	227	urzh	urzhioù
+28	228	gwerzhañ	gwerzh gwerzhan gwerzhas gwerzhe gwerzhec'h gwerzhed gwerzhemp gwerzhen gwerzhent gwerzher gwerzherez gwerzherien gwerzhes gwerzhet gwerzhez gwerzhfe gwerzhfec'h gwerzhfed gwerzhfemp gwerzhfen gwerzhfent gwerzhfes gwerzhfont gwerzhi gwerzhimp gwerzhin gwerzhint gwerzhioù gwerzhis gwerzhit gwerzhje gwerzhjec'h gwerzhjed gwerzhjemp gwerzhjen gwerzhjent gwerzhjes gwerzhjoc'h gwerzhjod gwerzhjomp gwerzhjont gwerzhjout gwerzho gwerzhoc'h gwerzhomp gwerzhont gwerzhor gwerzhot gwerzhour kwerzhañ werzh werzhas werzhañ werzhe werzhent werzherez werzherien werzhet werzhfe werzhioù werzhont
+29	229	milion	milionoù vilion vilionoù
+30	230	pennad	bennad bennadoù fennad fennadoù pennadoù vennad vennadoù
+31	231	familh	familhoù
+32	232	gwreg	gwragez wragez wreg
+33	233	distreiñ	distroas distroiñ distroje distrojed distrojemp distrojen distrojent distrojes distrojout tistreiñ tistroas tistroe tistrofe tistrofent tistroio tistroje tistroont zistreiñ zistroas zistroe zistroio zistroje zistroont zistroot
+34	234	studiañ	studial studias studie studier studies studiet studiis studiiñ studio studior
+35	235	digant	diganin diganit digantañ digante diganti diganto
+36	236	gounit	c'hounez c'houneze c'hounezer c'hounezet c'hounezo c'hounezont c'hounit gounez gounezan gouneze gounezer gounezet gounezez gounezi gounezimp gounezin gounezint gounezit gounezo gounezoc'h gounezomp gounezont gounezor gounezot
+37	237	embann	embannañ embanniñ embannoù
+38	238	miret	mir miras mires mirit miriñ miro mirout viran viras vire virent virer viret virfe virin virje virjont viro viront virout
+39	239	seniñ	soner sonerez sonerien sonerion
+40	240	kastell	c'hastell c'hastelloù c'hastilli c'hestell gastell gastilli kastelloù kastilli kestell kistilli
+41	241	koulskoude	goulskoude
+42	242	hent	hentoù
+43	243	hir	hirañ hiroc'h
+44	244	annezad	annezidi
+45	245	lezenn	lezennoù
+46	246	paotr	baotr baotred faotr paotred
+47	247	tiegezh	diegezh diegezhioù tiegezhioù ziegezh
+48	248	skrivagner	skrivagnerez skrivagnerezed skrivagnerien skrivagnerion skrivagnour
+49	249	kent	gent
+50	250	kornôg	c'hornaoueg c'hornôg gornaoueg gornôg kornaoueg
+51	251	buan	buanañ buanoc'h vuan vuanoc'h
+52	252	trec'h	drec'h zrec'h
+53	253	arc'hant	
+54	254	le	leoù
+55	255	ya	
+56	256	priñs	briñs briñsed briñsez friñs friñsed friñsez priñsed priñsez priñsezed
+57	257	soñjal	soñjan soñjas soñje soñjec'h soñjed soñjemp soñjen soñjent soñjer soñjes soñjet soñjez soñjfe soñjfec'h soñjfed soñjfemp soñjfen soñjfent soñjfes soñji soñjimp soñjin soñjint soñjis soñjit soñjiñ soñjje soñjjec'h soñjjed soñjjemp soñjjen soñjjent soñjjes soñjjoc'h soñjjod soñjjomp soñjjont soñjjout soñjo soñjoc'h soñjomp soñjont soñjor soñjot
+58	258	impalaer	impalaerez impalaerezed impalaerien impalaerion
+59	259	skeudenn	skeudennoù
+60	260	dug	duged dugez zug zuged zugez
+61	261	peogwir	
+62	262	kreiz	c'hreiz greis greiz kreis
+63	263	c'hoarvezout	c'hoarvez c'hoarvezas c'hoarveze c'hoarvezet c'hoarvezfe c'hoarvezje c'hoarvezo c'hoarvout
+64	264	par	bar bared barez barezed far farez farezed pared parez parezed
+65	265	alaman	alamaned
+66	266	abeg	abegoù
+67	267	loen	loened
+68	268	pemp	bemp femp
+69	269	reter	
+70	270	doue	doueoù zoue zoueoù
+71	271	padout	bad badas bade badet badfe badiñ badje bado badout fade fadet fado pad padan padas pade paden pader pades padet padez padfe padi padiñ padje pado padot vader vado
+72	272	devezh	devezhioù zevezh zevezhioù
+73	273	kinnig	c'hinnig c'hinnige c'hinnigoù ginnig ginnigas ginnige ginnigoù kinnigas kinnige kinnigis kinnigoù
+74	274	liv	livioù
+75	275	danvez	danvezioù zanvez zanvezioù
+76	276	galleg	c'halleg
+77	277	sellet	sellas selle selled sellen sellent seller sellfe sellit selliñ sellomp sellont sellout
+78	278	gallek	c'hallek
+79	279	latin	
+80	280	c'hoant	c'hoantoù
+81	281	dibenn	dibennoù zibennoù
+82	282	lez	divlez lezioù lezoù zivlez
+83	283	a-bezh	
+84	284	skol-veur	skolioù-meur
+85	285	broadel	broadelat broadelañ vroadel vroadelañ
+86	286	rannañ	rannas ranne rannent ranner rannet rannfe rannfec'h rannfed rannfemp rannfen rannfent rannfes rannimp rannis ranniñ rannje rannjec'h rannjed rannjemp rannjen rannjent rannjes rannjoc'h rannjod rannjomp rannjont rannjout ranno rannoc'h rannont rannor rannot
+87	287	priz	briz brizioù friz frizioù prizioù
+88	288	saozneg	saosneg
+89	289	ec'h	
+90	290	er-maez	
+91	291	arz	arzoù
+92	292	dirak	dirakañ dirake diraki dirazañ dirazi dirazo dirazomp dirazon
+93	293	fall	fallañ falloc'h gwashañ gwashoc'h washañ
+94	294	gwenn	c'hwennat gwennoc'h gwennoù wenn wennañ
+95	295	kelaouenn	c'helaouenn c'helaouennoù gelaouenn gelaouennoù kelaouennoù
+96	296	e-unan	
+97	297	koulz	c'houlz goulz
+98	298	menez	menezeier menezioù venez venezioù
+99	299	son	sonas sone sonet sonioù sono sonoù
+100	300	pouezus	bouezus bouezusañ bouezusoc'h pouezusañ pouezusoc'h

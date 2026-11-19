@@ -1,0 +1,100 @@
+1	1	ar	al an
+2	2	e	ennañ enni enno ennoc'h ennomp ennon ennout
+3	3	bezañ	be bec'h befe befec'h befed befemp befen befent befes ben bent bes bet bez bezan beze bezec'h bezed bezemp bezen bezent bezer bezes bezet bezez bezi bezimp bezin bezint bezioù bezit bezo bezoc'h bezomp bezont bezor bezot bije bijec'h bijed bijemp bijen bijent bijes bimp bin bint bioc'h bior biot boe boec'h boed boemp boen boent boes edo edoc'h edod edomp edon edont edos emaint emaoc'h emaomp emaon emaout emañ emeur fent oa oac'h oamp oan oant oar oas oc'h omp on out pezañ vefe vehe vez vezan vezañ veze vezent vezer vezo vezont vin vint vo voe voent zo
+4	4	a	
+5	5	da	d'a d'al d'am d'an d'ar d'aragona d'arras d'e d'eben d'egile d'em d'en d'este d'estudis d'eus d'evañ d'he d'hec'h d'hen d'hon d'o d'oa d'ober d'or d'orléans d'ul d'un d'unan d'ur deoc'h deomp dezhañ dezhe dezhi dezho dezhoñ dimp din dit
+6	6	ha	hag
+7	7	ur	ul un unan
+8	8	er	el en
+9	9	gant	ganeoc'h ganeomp ganeor ganimp ganin ganit gantañ gante ganti ganto kante kanto
+10	10	eus	ac'hanoc'h ac'hanomp ac'hanon ac'hanout anezhañ anezhe anezhi anezho anezhoñ
+11	11	ober	c'hraer c'hraet c'hris eure gra grae graec'h graed graemp graen graent graer graes graet grafe grafec'h grafed grafemp grafen grafent grafes graimp graint graio graje grajec'h grajed grajemp grajen grajent grajes gran gray greas greer grejoc'h grejod grejomp grejont grejout greoc'h greomp greont greor greot grez gri grin gris grisañ grit kris oberoù ra rae raed raent rafe rafent raint raio raje ran ray reas reer refont rejod rejont reomp reont rez rin ris rit
+12	12	eo	
+13	13	o	
+14	14	evit	evidoc'h evidomp evidon evidout evitañ evite eviti evito
+15	15	ne	n'a n'anavezer n'anavezomp n'e n'eas n'edo n'em n'emaint n'emañ n'en n'en-deus n'eo n'eur n'eus n'ez n'hall n'hallas n'halle n'halled n'hallent n'haller n'halljont n'hallo n'hallont n'he n'hell n'helle n'heller n'ho n'hon n'int n'o n'oa n'omp n'on n'ouzer n'ouzont n'roses ne'z
+16	16	war	warnañ warne warnezho warni warno warnoc'h warnomp warnon warnout
+17	17	dont	deu deuan deuas deue deuec'h deued deuemp deuen deuent deuer deues deuet deuez deufe deufec'h deufed deufemp deufen deufent deufes deui deuimp deuin deuint deuio deuis deuit deuje deujec'h deujed deujemp deujen deujent deujes deujoc'h deujod deujomp deujont deujout deuo deuoc'h deuomp deuont deuor deuot deus deuy dond donet teu teuas teue teuent teuer teufe teufent teuio teuje teujent teujont teuont teuy tonet tont zeu zeuas zeue zeufe zeuio zeuje zeujont zeuont zeus zeuy zont
+18	18	ma	m'a m'a'z m'ac'h m'ami m'anavezed m'anavezer m'az m'e m'edo m'edo-hi m'edont m'ema m'emaint m'emaomp m'emañ m'emañ-eñ m'emeur m'en m'en-doa m'eo m'eus m'ez m'he m'he-doa m'hemolc'h m'hen m'ho m'hon m'hor m'int m'intend'io m'o m'o-doa m'oiselle m'énerve m'était ma'z mar mard
+19	19	kaout	ac'h bet bije bo boa c'haout defe deus devez deveze devezet devo devoa devoe dez deze dije do doa doe gaoud gaout kaoud poa teus zeus zoe
+20	20	pe	
+21	21	he	hec'h
+22	22	ket	c'het
+23	23	den	dud ten tud zen zud
+24	24	sevel	sav savan savas save savec'h saved savemp saven savent saver saverez saverien saverion saves savet savez savfe savfec'h savfed savfemp savfen savfent savfes savi savimp savin savint savis savit savje savjec'h savjed savjemp savjen savjent savjes savjoc'h savjod savjomp savjont savjout savo savomp savont savor savot
+25	25	anv	anvioù
+26	26	mont	ad ae aec'h aed aemp aen aent aet afe afec'h afed afemp afen afent afes afont ahe aimp aint aio aje ajec'h ajed ajemp ajen ajent ajes as ay deomp eas eer ejoc'h ejod ejomp ejont ejout eoc'h eomp eont eor eorioù eot gerzh i in is it kerzh kit mond monet vond vonet vont yae yafe yaje yajont yeas yelo
+27	27	ivez	
+28	28	ez	
+29	29	evel	eveldoc'h eveldomp eveldon eveldout eveltañ evelte evelti evelto
+30	30	dre	drezañ dreze drezi drezo drezomp
+31	31	pa	p'e p'edo p'edont p'emaint p'emaoc'h p'emaon p'emañ p'emañ-eñ p'en p'en-deus p'eo p'er p'he p'o p'tit p'tits pa'z pan
+32	32	all	
+33	33	met	mes
+34	34	gallout	c'hall c'hallas c'halle c'halled c'hallent c'haller c'hallfe c'hallfed c'hallfent c'hallit c'hallje c'halljed c'halljent c'halljont c'hallo c'hallomp c'hallont c'hallout c'hell c'hellas c'helle c'helled c'hellent c'heller c'hellez c'hellfe c'hellfed c'hellfent c'hellje c'hello c'hellomp c'hellont gallan gallas galle gallec'h galled gallemp gallen gallent galler galles gallet gallfe gallfec'h gallfed gallfemp gallfen gallfent gallfes gallfont galli gallimp gallin gallint gallis gallit gallje galljec'h galljed galljemp galljen galljent galljes galljoc'h galljod galljomp galljont galljout gallo galloc'h gallomp gallont gallor gallot gell gellan gellas gelle gellec'h gelled gellemp gellen gellent geller gelles gellet gellez gellfe gellfec'h gellfed gellfemp gellfen gellfent gellfes gellimp gellin gellint gellis gellit gellje gelljec'h gelljed gelljemp gelljen gelljent gelljes gelljoc'h gelljod gelljomp gelljont gelljout gello gellomp gellont gellor gellot kalloc'h kallout
+35	35	kentañ	c'hentañ gentañ
+36	36	goude	c'houde koude
+37	37	lakaat	lak laka lakaan lakaas lakae lakaec'h lakaed lakaemp lakaen lakaent lakaer lakaes lakaet lakaez lakafe lakafec'h lakafed lakafemp lakafen lakafent lakafes lakai lakaimp lakain lakaint lakaio lakais lakait lakaje lakajec'h lakajed lakajemp lakajen lakajent lakajes lakajoc'h lakajod lakajomp lakajont lakajout lakao lakaoc'h lakaomp lakaont lakaor lakaot lakay lakez lakizien
+38	38	ouzh	outañ oute outi outo ouzhimp ouzhin ouzhoc'h ouzhomp
+39	39	bras	brasat brasañ brasoc'h vras vrasañ vrasoc'h
+40	40	miz	mis mizioù mizoù viz vizioù vizoù
+41	41	kavout	c'hav c'have c'haved c'haver c'havet c'havout gav gavas gave gaved gavent gaver gavet gavfe gavin gavint gavje gavjont gavo gavomp gavont gavor gavout kav kavan kavas kave kavec'h kaved kavemp kaven kavent kaver kaves kavet kavez kavfe kavfec'h kavfed kavfemp kavfen kavfent kavfes kavi kavimp kavin kavint kavioù kavis kavit kavje kavjec'h kavjed kavjemp kavjen kavjent kavjes kavjoc'h kavjod kavjomp kavjon kavjont kavjout kavo kavoc'h kavomp kavont kavor kavot
+42	42	daou	div diw zaou ziv
+43	43	etre	etrezañ etreze etrezi etrezo etrezomp
+44	44	meur	veur
+45	45	bro	broioù pro vro vroioù
+46	46	bloaz	bloazioù vloaz
+47	47	hini	
+48	48	chom	choman chomas chome chomec'h chomed chomel chomemp chomen choment chomer chomes chomet chomez chomfe chomfec'h chomfed chomfemp chomfen chomfent chomfes chomi chomimp chomin chomint chomis chomit chomiñ chomje chomjec'h chomjed chomjemp chomjen chomjent chomjes chomjoc'h chomjod chomjomp chomjont chomjout chomo chomoc'h chomomp chomont chomor chomot
+49	49	re	reo
+50	50	envel	anvan anve anved anvemp anven anvent anver anves anvet anvez anvi anvimp anvin anvit anvo anvomp anvont anvor anvot
+51	51	reiñ	ro roan roas roe roec'h roed roemp roen roent roer roes roet roez rofe rofec'h rofed rofemp rofen rofent rofes rofont roi roimp roin roint roio rois roit roje rojec'h rojed rojemp rojen rojent rojes rojoc'h rojod rojomp rojont rojout rooc'h roomp roont roor root roy
+52	52	penn	benn bennoù fenn fennoù pennoù venn
+53	53	gwelet	gwel gwelan gwelas gwelec'h gweled gweledoù gwelemp gwelen gwelent gweler gweles gwelez gwelfe gwelfec'h gwelfed gwelfemp gwelfen gwelfent gwelfes gweli gwelimp gwelin gwelint gwelioù gwelis gwelit gwelje gweljec'h gweljed gweljemp gweljen gweljent gweljes gweljoc'h gweljod gweljomp gweljont gweljout gwelo gweloc'h gwelomp gwelont gwelor gwelot gwelout kwelet kwelout wel welan welas wele weled welent weler welet welez welfe welfed welfet welimp welis welit welje weljont welo weloc'h welomp welont welor welout
+54	54	mat	gwell gwellat gwellañ gwelloc'h mad madoù vad vadoù vat well wellat wellañ welloc'h
+55	55	pep	bep
+56	56	doare	doareoù toare zoare zoareoù
+57	57	nemet	nemetañ nemete nemeti nemeto
+58	58	betek	vetek
+59	59	te	de teoù ze
+60	60	ebet	
+61	61	e-pad	
+62	62	hervez	hervezañ herveze hervezi hervezo
+63	63	roue	rouaned rouanez rouanezed
+64	64	kêr	c'hêr c'hêrioù gêr gêrioù kêrioù
+65	65	neuze	
+66	66	holl	
+67	67	skrivañ	skriv skrivan skrivas skrive skrivec'h skrived skrivemp skriven skrivent skriver skrives skrivet skrivez skrivfe skrivfec'h skrivfed skrivfemp skrivfen skrivfent skrivfes skrivi skrivimp skrivin skrivint skrivis skrivit skriviñ skrivje skrivjec'h skrivjed skrivjemp skrivjen skrivjent skrivjes skrivjoc'h skrivjod skrivjomp skrivjon skrivjont skrivjout skrivo skrivoc'h skrivomp skrivont skrivor skrivot
+68	68	em	
+69	69	kas	c'has c'hasas c'hase c'hased c'hasedoù c'haser c'haset c'haso gas gasas gase gasedoù gaser gasfe gasje gasjont gaso gasont kasan kasas kase kasec'h kased kasedoù kasemp kasen kasent kaser kases kaset kasez kasfe kasfec'h kasfed kasfemp kasfen kasfent kasfes kasi kasimp kasin kasint kasis kasit kasje kasjec'h kasjed kasjemp kasjen kasjent kasjes kasjoc'h kasjod kasjomp kasjont kasjout kaso kasoc'h kasomp kasont kasor kasot
+70	70	c'hoari	c'hoarian c'hoarias c'hoarie c'hoariec'h c'hoaried c'hoariemp c'hoarien c'hoarient c'hoarier c'hoarierez c'hoarierezed c'hoarierien c'hoarierion c'hoaries c'hoariet c'hoariez c'hoarife c'hoarifec'h c'hoarifed c'hoarifemp c'hoarifen c'hoarifent c'hoarifes c'hoarii c'hoariimp c'hoariin c'hoariint c'hoariis c'hoariit c'hoarije c'hoarijec'h c'hoarijed c'hoarijemp c'hoarijen c'hoarijent c'hoarijes c'hoarijoc'h c'hoarijod c'hoarijomp c'hoarijont c'hoarijout c'hoario c'hoarioc'h c'hoariomp c'hoariont c'hoarior c'hoariot c'hoarioù
+71	71	diwar	diwarnañ diwarni diwarno ziwar
+72	72	diouzh	dioutañ dioute diouti diouto diouzhimp diouzhin diouzhomp
+73	73	brezhoneg	vrezhoneg vrezhonegoù
+74	74	bloavezh	bloavezhioù vloavezh vloavezhioù
+75	75	tra	dra draoù traoù zra zraoù
+76	76	bout	bet boud boudoù boutañ boutoc'h fout pout voud voudoù vout voutañ voutoc'h
+77	77	lec'h	lec'hioù
+78	78	mervel	marvan marvas marve marvec'h marved marvemp marven marvent marver marves marvet marvez marvfe marvfec'h marvfed marvfemp marvfen marvfent marvfes marvi marvimp marvin marvint marvis marvit marvje marvjec'h marvjed marvjemp marvjen marvjent marvjes marvjoc'h marvjod marvjomp marvjont marvjout marvo marvomp marvont marvor marvot merwel varvas varve varvent varvet varvfe varvfec'h varvfent varvin varvje varvjent varvjont varvo varvont vervel
+79	79	pezh	bezh bezhioù fezh fezhioù pezhioù vezh
+80	80	klask	c'hlask c'hlasker glask glaskan glaskas glaske glasked glaskemp glasken glaskent glasker glaskerez glaskerien glaskfe glaskit glaskje glaskjont glasko glaskont klaskan klaskas klaske klaskec'h klasked klaskemp klasken klaskent klasker klaskerez klaskerien klaskes klasket klaskez klaskfe klaskfec'h klaskfed klaskfemp klaskfen klaskfent klaskfes klaski klaskimp klaskin klaskint klaskis klaskit klaskiñ klaskje klaskjec'h klaskjed klaskjemp klaskjen klaskjent klaskjes klaskjoc'h klaskjod klaskjomp klaskjont klaskjout klasko klaskoc'h klaskomp klaskont klaskor klaskot klaskoù
+81	81	kalz	c'halz galz
+82	82	lavaret	lavar lavaran lavaras lavarat lavare lavared lavarent lavarer lavarezh lavarfe lavarfemp lavarin lavarioù lavarit lavarjont lavaro lavaromp lavaront lavarout lavaroù
+83	83	yezh	yezhoù
+84	84	perzh	berzh berzhioù ferzh ferzhioù perzhioù verzh
+85	85	bed	bedoù fedoù ved vedoù
+86	86	brezel	brezelioù vrezel vrezelioù
+87	87	kemer	c'hemer c'hemeret gemer kemeras kemere kemerent kemerer kemeret kemerfe kemerimp kemerint kemerit kemerjont kemero kemeroc'h kemeromp kemeront kemerout
+88	88	ken	c'hen
+89	89	eil	
+90	90	nevez	nevesañ nevesoc'h
+91	91	brudet	brudetañ brudetoc'h vrudet vrudetañ vrudetoc'h
+92	92	bevañ	bev bevan bevas beve bevec'h beved bevemp beven bevent bever beves bevet bevez bevfe bevfec'h bevfed bevfemp bevfen bevfent bevfes bevi bevimp bevin bevint bevis bevit beviñ bevje bevjec'h bevjed bevjemp bevjen bevjent bevjes bevjoc'h bevjod bevjomp bevjont bevjout bevo bevomp bevont bevor bevot bew pevañ vev vevan vevas vevañ veve vevent vever vevez vevfe vevit veviñ vevjont vevo vevomp vevont
+93	93	mab	mibien mibion vab vibien vibion
+94	94	stad	stadoù
+95	95	a-raok	araozañ araozi araozomp
+96	96	tri	deir dri teir trioù zeir zri
+97	97	nebeut	nebeud nebeutañ nebeutoc'h
+98	98	tu	duioù tuioù zu zuioù
+99	99	gwech	c'hwech gwechoù kwech wech wechoù
+100	100	bugel	bugale vugale vugalez vugel

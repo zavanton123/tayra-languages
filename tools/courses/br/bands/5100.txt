@@ -1,0 +1,100 @@
+1	5001	rennad	
+2	5002	resisadur	
+3	5003	retredadez	retredidi
+4	5004	reviñ	revas reve revet revo
+5	5005	rez-an-douar	
+6	5006	richanañ	richan richanal richanat
+7	5007	riklus	
+8	5008	rod-stur	
+9	5009	roentgeniom	
+10	5010	romb	romboù
+11	5011	roster	
+12	5012	roueig	roueedigoù
+13	5013	rouezded	
+14	5014	roufennet	
+15	5015	rubidiom	
+16	5016	rutherfordiom	
+17	5017	ruzder	
+18	5018	sac'h-kein	
+19	5019	sakrañ	sakriñ
+20	5020	saksoneg	
+21	5021	salviñ	salvan salvas salvañ salve salven salves salvi salvis salvo
+22	5022	sammgarr	sammgirri
+23	5023	saour	
+24	5024	saourek	
+25	5025	saouriñ	
+26	5026	sardon	sardonenn
+27	5027	sarmoner	
+28	5028	seaborgiom	
+29	5029	sedr	
+30	5030	seizus	
+31	5031	selaouva	
+32	5032	seulabred	
+33	5033	sivolez	
+34	5034	skandiom	
+35	5035	skaotañ	skaoter skaotet skaotiñ
+36	5036	skas	skasoù
+37	5037	skabell	skebell
+38	5038	skejañ	
+39	5039	skiant-vat	
+40	5040	skinweler	
+41	5041	sklaerded	
+42	5042	skleuriñ	
+43	5043	skol-vistri	
+44	5044	skopañ	skopat skopiñ
+45	5045	skoseg	
+46	5046	skouarnad	skouarnadoù
+47	5047	skraber-oabl	
+48	5048	skrijañ	skrijal skrije
+49	5049	skub	
+50	5050	solwez	
+51	5051	sortial	sortiañ sortie sortiiñ
+52	5052	souder	
+53	5053	spegus	
+54	5054	spisverk	spisverkoù
+55	5055	stalonañ	staloniñ
+56	5056	starderez	
+57	5057	steredennus	
+58	5058	stern-gwiader	sternioù-gwiader
+59	5059	stiv	stivoù
+60	5060	stouk	
+61	5061	stourmus	stourmusañ
+62	5062	strak	
+63	5063	streviañ	
+64	5064	strouilh	
+65	5065	struskañval	
+66	5066	sulfur	
+67	5067	suner	
+68	5068	taboulinadeg	
+69	5069	takon	takonoù
+70	5070	tangarr	tangirri
+71	5071	taol-chañs	
+72	5072	taol-lagad	
+73	5073	taol-troad	taolioù-troad
+74	5074	tartan	
+75	5075	tarzhell	tarzhelloù
+76	5076	tatouerez	
+77	5077	teirzaolenn	teirzaolennoù
+78	5078	teknetiom	
+79	5079	telt	
+80	5080	temptus	
+81	5081	teodek	
+82	5082	ter-du	
+83	5083	teuzus	
+84	5084	tezh	
+85	5085	dezrann	tezrann
+86	5086	ti-butun	
+87	5087	ti-kañv	
+88	5088	ti-laezh	
+89	5089	ti-moulerezh	
+90	5090	ti-prenn	
+91	5091	ti-retred	
+92	5092	ti-yec'hed	
+93	5093	tibia	
+94	5094	tieg	
+95	5095	ti-plouz	tiez-plouz
+96	5096	diñsal	diñsiñ tiñsal
+97	5097	toaz-dent	
+98	5098	tommaat	tommaad
+99	5099	touller-bezioù	
+100	5100	tourz	

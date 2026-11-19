@@ -1,0 +1,100 @@
+1	2501	hungareg	
+2	2502	nev	
+3	2503	roueelezh	
+4	2504	akordeoñs	
+5	2505	alc'houez	
+6	2506	askellek	
+7	2507	fas	
+8	2508	feilhañs	
+9	2509	galianeg	
+10	2510	leandi	
+11	2511	poloneg	
+12	2512	ugentvet	
+13	2513	dilaoskiñ	dilaosket tilaoskiñ zilaoskiñ
+14	2514	ehanañ	
+15	2515	penn-kil-ha-troad	
+16	2516	annezañ	
+17	2517	diverrañ	diverral diverriñ tiverrañ ziverrañ
+18	2518	fav	favenn
+19	2519	foz-difenn	fozioù-difenn
+20	2520	poloniat	boloniat
+21	2521	rod-avel	rodoù-avel
+22	2522	daeroù	zaeroù
+23	2523	luc'hskeudenniñ	
+24	2524	kerneveureg	c'herneveureg
+25	2525	lamp	lampoù
+26	2526	baou	paou
+27	2527	kala	gala
+28	2528	eurier	eurieroù
+29	2529	kasketenn	gasketenn kasketennoù
+30	2530	kaezh	gaezh
+31	2531	marchosi	marchosioù
+32	2532	saoznegerez	saozneger saoznegerien
+33	2533	dispenn	tispenn zispenn
+34	2534	bonn	bonnoù
+35	2535	flemmgan	flemmganoù
+36	2536	kuzuliañ	guzuliañ
+37	2537	roudouz	roudour
+38	2538	gourhent	gourhentoù
+39	2539	kurd	gurd
+40	2540	kalonegezh	c'halonegezh galonegezh
+41	2541	kerc'henn	c'herc'henn gerc'henn
+42	2542	gwinieg	gwiniegi winieg
+43	2543	tata	data dataoù
+44	2544	flatrañ	flatrer flatrerien flatret
+45	2545	distabilded	zistabilded
+46	2546	dornad	dornadoù
+47	2547	luc'hskeudenner	
+48	2548	poazh	boazh
+49	2549	pont-gwint	pontoù-gwint
+50	2550	aostralian	aostralianed
+51	2551	gerdarzh	gerdarzhioù
+52	2552	ac'hano	
+53	2553	karitez	garitez
+54	2554	disoñjal	disoñjiñ tisoñjal zisoñjal
+55	2555	faout	faoutoù
+56	2556	grad	c'hrad
+57	2557	petore	betore
+58	2558	tach	tachoù zach
+59	2559	troadikell	troadikelloù zroadikelloù
+60	2560	died	diedoù
+61	2561	dour-beuz	dourioù-beuz
+62	2562	ru	ruioù
+63	2563	dlead	dleadoù zlead
+64	2564	feskenn	feskennoù
+65	2565	meurdezus	meurdezusañ veurdezus veurdezusañ
+66	2566	gwilioudiñ	wilioudiñ
+67	2567	roeñv	roeñvoù
+68	2568	rabin	rabined
+69	2569	gwriat	gwriad wriat
+70	2570	meleganez	meleganezed veleganez
+71	2571	bukañ	buk bukan bukas buken bukes buket buki bukis bukit buko vuk vukañ
+72	2572	kolo	c'holoenn goloenn goloennoù koloennoù
+73	2573	krignat	grignat krignal krignet krigniñ
+74	2574	kevatalenn	c'hevatalennoù gevatalenn gevatalennoù kevatalennoù
+75	2575	kest	c'hest gest kestoù
+76	2576	lopañ	lopat lope lopes lopiñ
+77	2577	metalek	vetalek
+78	2578	oberatadenn	oberatadennoù
+79	2579	skouadrenn	skouadrennoù
+80	2580	steredeg	steredegoù
+81	2581	stomog	stomogoù
+82	2582	azas	azasoc'h
+83	2583	klodus	c'hlodusañ
+84	2584	peur	beur
+85	2585	stardañ	stardiñ
+86	2586	stouiñ	stouas
+87	2587	zero	zeroioù
+88	2588	kimiadiñ	gimiadiñ kimiadañ kimiade
+89	2589	arnev	arnevioù arneñv
+90	2590	choual	chouan chouaned choue chouer choufe choufent choufes
+91	2591	beleg-meur	veleg-meur veleien-veur
+92	2592	pin	binenn pinenn
+93	2593	aerlestr	aerlistri
+94	2594	broud	broudoù vroud
+95	2595	taol-vaen	daol-vaen daolioù-maen taolioù-maen
+96	2596	displijadur	zisplijadur
+97	2597	kaoued	c'haouedoù gaoued kaouedoù
+98	2598	karnel	c'harnel garnel karnelioù
+99	2599	kloued	c'hlouedoù gloued klouedoù
+100	2600	kaoc'h	c'haoc'h gaoc'h

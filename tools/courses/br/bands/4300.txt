@@ -1,0 +1,100 @@
+1	4201	raganv-gour	raganvioù-gour
+2	4202	rakkeltiek	
+3	4203	rakstal	
+4	4204	ranngredenn	ranngredennoù
+5	4205	relegouer	
+6	4206	reniom	
+7	4207	reteriñ	
+8	4208	roc'hal	roc'hat
+9	4209	rodellek	
+10	4210	rodiom	
+11	4211	roufenn	roufennoù
+12	4212	roumanek	
+13	4213	rukun	
+14	4214	sakrist	
+15	4215	sal-debriñ	
+16	4216	sal-c'hortoz	salioù-gortoz
+17	4217	samariom	
+18	4218	sammus	
+19	4219	saotrus	
+20	4220	segondenn	
+21	4221	seizi	
+22	4222	siek	
+23	4223	sitroñs	
+24	4224	skav	
+25	4225	skingomzer	
+26	4226	skubellenn	
+27	4227	soutilded	
+28	4228	spazhañ	
+29	4229	splannder	
+30	4230	spluseg	splusegoù
+31	4231	spontailh	
+32	4232	spoue	
+33	4233	staotat	staotañ staotet staotiñ
+34	4234	stered-lostek	steredenn-lostek
+35	4235	stouvañ	stouviñ
+36	4236	sulfurek	
+37	4237	suraval	
+38	4238	sut	
+39	4239	svastika	
+40	4240	taol-gwad	
+41	4241	daoulinañ	daouliniñ taoulinas taoulinañ zaoulinañ
+42	4242	tatouiñ	datouiñ tatouañ tatouer zatouiñ
+43	4243	ti-meur	
+44	4244	titaniom	
+45	4245	touellus	
+46	4246	tramgarr	
+47	4247	trevad	
+48	4248	troatad	
+49	4249	trubuilhus	
+50	4250	tu-gouzañv	
+51	4251	tu-gra	
+52	4252	ugentad	
+53	4253	unanderenn	
+54	4254	urzhad	
+55	4255	bag-pesketa	vag-pesketa
+56	4256	mellkeineg	vellkeineged
+57	4257	bezhina	vezhina
+58	4258	vilded	
+59	4259	virgulenn	
+60	4260	volt	
+61	4261	moui	vouienn
+62	4262	brogarantez	vrogarantez
+63	4263	gwenaner	wenanerien
+64	4264	gwez-derv	wezenn-derv
+65	4265	gwigour	wigour
+66	4266	youc'hal	youal youañ youc'has
+67	4267	yourc'h	
+68	4268	dareviñ	zareviñ
+69	4269	difoupañ	tifoupañ zifoupañ
+70	4270	amgredoni	
+71	4271	argon	
+72	4272	askol	
+73	4273	aven	
+74	4274	azoniad	
+75	4275	bor	
+76	4276	breser	
+77	4277	brevet	
+78	4278	dimeurzh	
+79	4279	dizamant	
+80	4280	dizeil	
+81	4281	fallagriezh	
+82	4282	paunez	faun
+83	4283	gagn	
+84	4284	geo	
+85	4285	karbonat	
+86	4286	kerc'h	
+87	4287	korbell	
+88	4288	kouez	
+89	4289	levran	
+90	4290	liorzher	
+91	4291	mangaka	
+92	4292	melegan	
+93	4293	oferenn-bred	
+94	4294	ohm	
+95	4295	pevarzekvet	
+96	4296	picher	picheroù
+97	4297	pigosat	pigosal pigosiñ
+98	4298	pluñvek	
+99	4299	poder	
+100	4300	pres	

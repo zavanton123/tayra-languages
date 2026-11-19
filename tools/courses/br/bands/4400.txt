@@ -1,0 +1,100 @@
+1	4301	rozeg	
+2	4302	samourai	
+3	4303	savenn-douar	savennoù-douar
+4	4304	sekretourva	
+5	4305	skoaziañ	
+6	4306	skoul	
+7	4307	skriverezañ	
+8	4308	spoum	
+9	4309	tann	
+10	4310	tatouadur	
+11	4311	tavedek	
+12	4312	trok	
+13	4313	pabel	babel
+14	4314	troniñ	drone tronas tronañ trone troned tronen troner tronet tronfe troni tronis tronit tronje trono
+15	4315	fatañ	fate fatet fatis fatiñ fator
+16	4316	fromañ	froment fromiñ
+17	4317	gaouiad	gaouiaded
+18	4318	kog	c'hog gog
+19	4319	goubenner	goubennerioù
+20	4320	gwinier	gwinierien
+21	4321	kac'hat	kac'het kac'hout
+22	4322	kador-doull	gador-doull
+23	4323	kalonekaat	c'halonekaat galonekaat
+24	4324	kanolier	kanolierien
+25	4325	kaoteriad	gaoteriad
+26	4326	kaouad	kaouadoù
+27	4327	karadek	karadeg
+28	4328	kefeleg	c'hefeleg
+29	4329	kelorn	c'helorn kelornioù
+30	4330	kelvez	kelvezenn
+31	4331	korzailhenn	c'horzailhenn
+32	4332	mekanikerez	mekanikour vekanikour
+33	4333	melchon	velchonenn
+34	4334	mezhek	vezhek
+35	4335	momed	vomed
+36	4336	pariañ	bariañ fariañ pariis pariiñ parior
+37	4337	poblañsouriezh	boblañsouriezh
+38	4338	poull-neuial	poulloù-neuial
+39	4339	ribod	ribodoù ribot
+40	4340	skouarnek	skouarneg
+41	4341	taol-skrivañ	daol-skrivañ taolioù-skrivañ
+42	4342	duder	tuder
+43	4343	gwez-avaloù	gwezenn-avaloù wezenn-avaloù
+44	4344	alamandez	alamandezenned
+45	4345	alkaloid	alkaloidoù
+46	4346	arabegerez	arabegerien arabegerion
+47	4347	avank	avanked
+48	4348	avosetenn	avoseted
+49	4349	bag-kanoliañ	bagoù-kanoliañ vag-kanoliañ
+50	4350	paotaat	baotaat faotaat
+51	4351	parodienn	barodienn
+52	4352	batis	batisoù
+53	4353	beler	veler
+54	4354	pennwisk	bennwisk
+55	4355	bezhinaer	bezhinaerien vezhinaerien
+56	4356	pigell	bigell vigell
+57	4357	biz-bihan	viz-bihan
+58	4358	bizskriver	vizskriverez
+59	4359	boestad	boestadoù voestad
+60	4360	bouedañ	bouediñ vouedañ
+61	4361	poupig	boupiged
+62	4362	brec'h-vor	brec'hioù-mor vrec'h-vor
+63	4363	brennidenn	brennidennoù
+64	4364	broustañ	broustat vroustañ
+65	4365	puilhded	builhded
+66	4366	kaktuz	c'haktuz
+67	4367	garventez	c'harventez
+68	4368	kelorniad	c'helorniad gelorniad
+69	4369	kentr	c'hentr
+70	4370	geotek	c'heoteg c'heotek
+71	4371	klav	c'hlavioù klavioù
+72	4372	kleze-fuzuilh	c'hleze-fuzuilh
+73	4373	kolera	c'holera
+74	4374	grañj	c'hrañj
+75	4375	c'hwitelladenn	c'hwitelladennoù
+76	4376	c'hwitellerez	c'hwitellerezioù
+77	4377	kached	c'hached kachedoù
+78	4378	geriadurouriezh	c'heriadurouriezh
+79	4379	kilsell	c'hilsell
+80	4380	telennañ	delennañ delenniñ telennat telenniñ
+81	4381	dellid	dellidoù
+82	4382	ti-labour	di-labour tier-labour
+83	4383	diarc'hen	
+84	4384	diberc'hennañ	diberc'henniñ
+85	4385	dibrañ	dibriñ tibrañ zibrañ
+86	4386	tiretenn	diretenn
+87	4387	disurentez	zisurentez
+88	4388	diyalc'hañ	diyalc'hiñ ziyalc'hañ
+89	4389	dizampartiz	zizampartiz
+90	4390	dizonestiz	zizonestiz
+91	4391	dizour	dizourañ
+92	4392	tog-touseg	dogoù-touseg togoù-touseg
+93	4393	tonton	donton
+94	4394	eston	estonet
+95	4395	beskennad	feskennad veskennad
+96	4396	poñsin	foñsined poñsined
+97	4397	gaol	kaolioù
+98	4398	kreviñ	greviñ krev krevas kreve krevet krevi krevis
+99	4399	krial	grial kriañ kriiñ
+100	4400	gup	guped

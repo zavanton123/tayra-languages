@@ -1,0 +1,100 @@
+1	3901	kenwadelezh	genwadelezh
+2	3902	kizell	gizell kizelloù
+3	3903	goz	gozed
+4	3904	kriadenn	griadenn kriadennoù
+5	3905	grouan	grouanennoù
+6	3906	kuchenn	guchenn
+7	3907	gwerc'hted	werc'hted
+8	3908	gwerennad	werennad
+9	3909	harzh	harzhoù
+10	3910	heureuchin-reunek	heureuchined-reunek
+11	3911	jederez	jederezioù
+12	3912	kabac'h	
+13	3913	kan-ha-diskan	c'han-ha-diskan
+14	3914	kargas	gargas
+15	3915	kerez	c'herez
+16	3916	kernez	gernez
+17	3917	kivijer	givijerien kivijerien
+18	3918	klun	c'hlunioù
+19	3919	koc'hu	c'hoc'hu
+20	3920	koef	goef koefoù
+21	3921	komis	gomis
+22	3922	korz	c'horz
+23	3923	kounnariñ	gounnariñ
+24	3924	legestr	ligistri
+25	3925	lovr	lovrien
+26	3926	magus	magusoc'h
+27	3927	merien	merion
+28	3928	mesper	vesper
+29	3929	mikroskop	mikroskopoù
+30	3930	nec'hus	
+31	3931	oeñs	oeñsoù
+32	3932	peuznoz	beuznoz
+33	3933	peñsead	peñseidi
+34	3934	pikez	bikez
+35	3935	blazañ	blasañ plasañ
+36	3936	pod-te	podoù-te
+37	3937	preizhadeg	preizhadegoù
+38	3938	rederig	rederigoù
+39	3939	rouzañ	rouzed rouzer rouzet rouziñ
+40	3940	sebezus	sebezusoc'h
+41	3941	senklenn	senklennoù
+42	3942	skerb	skerboù
+43	3943	skinforn	skinfornioù
+44	3944	takson	taksonoù
+45	3945	talabarder	talabarderien
+46	3946	tan-arvest	tanioù-arvest
+47	3947	tan-taran	dan-taran
+48	3948	taouarc'heg	daouarc'heg taouarc'hegi
+49	3949	tiad	tiadoù
+50	3950	toriom	doriom
+51	3951	touzañ	douzañ touz touzis touziñ touzor zouzañ
+52	3952	trotal	drotal trotañ trotiñ
+53	3953	barrikenn	barrikennoù varrikenn
+54	3954	biz-kreiz	viz-kreiz
+55	3955	bole	vole
+56	3956	gwennel	gwennili wennili
+57	3957	gwerenn-dal	werenn-dal
+58	3958	gwiskerez	gwiskerezed wisker
+59	3959	tredaner	zredanerez
+60	3960	aotreed	aotreidi
+61	3961	berrentez	verrentez
+62	3962	bleuñviñ	bleuñviañ vleuñviñ
+63	3963	daoudroadeg	daoudroadeged
+64	3964	diwadañ	diwadiñ ziwadañ
+65	3965	galvedigezh	c'halvedigezh
+66	3966	gwri	gwrioù
+67	3967	haleg	halegenn
+68	3968	kafein	c'hafein
+69	3969	kestal	gestal kestañ
+70	3970	lennadur	lennadurioù
+71	3971	pentañ	bentañ fentañ pente pentis pentiñ
+72	3972	sili	silienn
+73	3973	mored	vored
+74	3974	warc'hoazh	
+75	3975	bokser	bokserien vokserien
+76	3976	doganiñ	doganañ toganiñ zoganiñ
+77	3977	fregañ	freg frege freget fregfont fregiñ
+78	3978	kal	c'hal gal
+79	3979	milin-dour	vilin-dour vilin-zour
+80	3980	pareañs	bareañs pareañsoù
+81	3981	kenfinañ	c'henfinañ genfinañ
+82	3982	goeñviñ	c'hoeñviñ koeñviñ
+83	3983	korc'hwezh	c'horc'hwezh gorc'hwezh korc'hwezhioù
+84	3984	koukoug	c'houkoug goukoug
+85	3985	gourbiolin	c'hourbiolin gourbiolinoù
+86	3986	greantour	c'hreantourien greantourien
+87	3987	gevel	c'hevel gevelioù
+88	3988	ti-skol	diez-skol tiez-skol
+89	3989	toullgofañ	doullgofañ toullgofiñ zoullgofañ
+90	3990	tro-gamm	dro-gamm troioù-kamm
+91	3991	enderv	
+92	3992	merc'hodenn	verc'hodenn
+93	3993	milin-avel	milinoù-avel vilin-avel vilinoù-avel
+94	3994	rostañ	rost rostet rostis rostiñ
+95	3995	abona	
+96	3996	adkouezhañ	
+97	3997	bozek	bozeg
+98	3998	dolmen	
+99	3999	drouin	
+100	4000	ferat	ferañ feres feriñ feror

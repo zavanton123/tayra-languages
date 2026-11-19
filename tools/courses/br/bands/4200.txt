@@ -1,0 +1,100 @@
+1	4101	fiñvskeudenn	fiñvskeudennoù
+2	4102	flaerius	
+3	4103	fleroviom	
+4	4104	foarlec'h	
+5	4105	fok	
+6	4106	follenn-nij	follennoù-nij
+7	4107	fonn	
+8	4108	fosfor	
+9	4109	foton	
+10	4110	friadur	
+11	4111	frotañ	frotiñ
+12	4112	kantol	gantol
+13	4113	karakenn	garakenn
+14	4114	kevrennad	gevrennad
+15	4115	kile	gile
+16	4116	glizh	
+17	4117	klujar	glujar
+18	4118	goafioù	
+19	4119	kobal	gobar
+20	4120	goprer	
+21	4121	krakvevañ	grakvevañ
+22	4122	greunek	
+23	4123	greunwin	
+24	4124	gwered	
+25	4125	gwezboell	
+26	4126	halañ	
+27	4127	hantereur	
+28	4128	hej	
+29	4129	helosk	
+30	4130	heoliek	
+31	4131	hepdale	
+32	4132	hiraezhus	
+33	4133	hirhoal	
+34	4134	hirvoan	
+35	4135	hoc'h-unan	
+36	4136	hollc'halloudus	
+37	4137	hollveliour	
+38	4138	horolajerezh	
+39	4139	hou	
+40	4140	isrannyezh	isrannyezhoù
+41	4141	isurzhiañ	
+42	4142	itriom	
+43	4143	izelegezh	
+44	4144	jahinerez	
+45	4145	jestraouiñ	
+46	4146	jirafenn	
+47	4147	kabell-touseg	kebell-touseg
+48	4148	kigennek	
+49	4149	kignat	c'hignat gignat kignañ kignet kigniñ
+50	4150	korrgi	
+51	4151	korz-sukr	
+52	4152	kribañ	kribat
+53	4153	labezañ	labeziñ
+54	4154	laouenidigezh	
+55	4155	laouer	
+56	4156	ledanded	
+57	4157	lenn-vor	
+58	4158	lezvugale	
+59	4159	lieskement	lieskementoù
+60	4160	lineg	
+61	4161	livek	
+62	4162	livrizh	
+63	4163	logota	
+64	4164	louedañ	louediñ
+65	4165	lufrañ	lufriñ
+66	4166	maen-hir	
+67	4167	maeziadez	maeziadoù
+68	4168	mallozhiñ	
+69	4169	marokan	
+70	4170	merenn-vihan	
+71	4171	meutad	
+72	4172	mezv-dall	
+73	4173	montr	montroù
+74	4174	morvaout	
+75	4175	nac'hidigezh	
+76	4176	naonek	
+77	4177	neodimiom	
+78	4178	neptuegezh	
+79	4179	nesaat	nessaad
+80	4180	neñvel	
+81	4181	nikel	
+82	4182	nitrek	
+83	4183	dor-dal	nor-dal
+84	4184	oged	ogedoù
+85	4185	osmiom	
+86	4186	otiz	
+87	4187	paper-moger	
+88	4188	pechez	
+89	4189	pedergwern	
+90	4190	pennti	
+91	4191	pevarzueg	
+92	4192	bilh	pilhoù
+93	4193	plañchod	
+94	4194	plutoniom	
+95	4195	pouezusted	
+96	4196	poulzañ	
+97	4197	predeneg	
+98	4198	preizherezh	
+99	4199	prometiom	
+100	4200	raden	

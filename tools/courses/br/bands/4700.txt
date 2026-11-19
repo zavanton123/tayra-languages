@@ -1,0 +1,100 @@
+1	4601	brizhkredennus	
+2	4602	brodet	
+3	4603	brokusted	
+4	4604	broust-dent	broustoù-dent
+5	4605	brulu	
+6	4606	bultur	
+7	4607	butan	
+8	4608	kador-sarmon	c'hadorioù-sarmon
+9	4609	kaher	c'haher
+10	4610	kaliforniom	c'haliforniom
+11	4611	garloc'henn	c'harloc'henn
+12	4612	garmat	c'harmat garmet
+13	4613	karrdiour	c'harrdiour
+14	4614	kartenn-vank	c'hartennoù-bank
+15	4615	garzhaoueg	c'harzhaoueg
+16	4616	katod	c'hatod
+17	4617	geiz	c'heiz
+18	4618	kelenndi	c'helenndi
+19	4619	kemener-dour	c'hemener-dour
+20	4620	keuneuta	c'heuneuta
+21	4621	keziom	c'heziom
+22	4622	ki-deñved	c'hi-deñved
+23	4623	kig-ha-farz	c'hig-ha-farz
+24	4624	glac'harus	c'hlac'harus
+25	4625	kleger	c'hleger
+26	4626	kloc'h-galv	c'hloc'h-galv
+27	4627	kloniñ	c'hlonañ klonas klonañ klone klonen klonet kloni klonis klonit klonje klono
+28	4628	c'hoant-staotat	
+29	4629	kofad	c'hofad
+30	4630	korfadur	c'horfadur
+31	4631	gougleze	c'hougleze
+32	4632	kouign-amann	c'houign-amann
+33	4633	kouvi	c'houvi
+34	4634	gouyen	c'houyen
+35	4635	gramadegel	c'hramadegel
+36	4636	kravazh	c'hravazh
+37	4637	krign	c'hrign
+38	4638	kroazour	c'hroazour
+39	4639	krouilh	c'hrouilh
+40	4640	kub	c'hub
+41	4641	c'hwegont	
+42	4642	c'hweziñ	c'hwesiñ
+43	4643	c'hwial	
+44	4644	c'hwibañ	c'hwipañ
+45	4645	c'hwil-derv	c'hwiled-derv
+46	4646	chadennañ	chadenniñ
+47	4647	chaloniezh	
+48	4648	chaokat	chaokañ chaokiñ
+49	4649	chervad	
+50	4650	chevra	
+51	4651	chilpat	chilpiñ
+52	4652	chug-frouezh	
+53	4653	kondor	c'hondor
+54	4654	damrous	
+55	4655	damzu	
+56	4656	daou-c'hant	
+57	4657	daskrenañ	daskreniñ taskrenañ zaskrenañ
+58	4658	debradus	
+59	4659	debrer-tud	debrerien-dud
+60	4660	delez	delezioù
+61	4661	demat	
+62	4662	demografek	
+63	4663	denek	
+64	4664	dervenneg	
+65	4665	teñvalaat	deñvalaat teñvalaad
+66	4666	diank	
+67	4667	dibur	
+68	4668	dic'hallek	
+69	4669	dic'haouiñ	
+70	4670	dichal	
+71	4671	didou	
+72	4672	diemouez	
+73	4673	difaezhus	
+74	4674	difraezh	
+75	4675	digened	
+76	4676	digoad	
+77	4677	dihidrogen	
+78	4678	dileizhañ	tileizhañ zileizhañ
+79	4679	dimerc'her	
+80	4680	dindandouar	
+81	4681	dipadapa	
+82	4682	disadorn	
+83	4683	disheñvelded	
+84	4684	dislealded	
+85	4685	dispered	
+86	4686	disproziom	
+87	4687	distabilaat	tistabilaat zistabilaat
+88	4688	distenn	distennoc'h
+89	4689	distouver	
+90	4690	disul	
+91	4691	divarc'hañ	divarc'het divarc'hiñ tivarc'hañ zivarc'hañ
+92	4692	divlev	
+93	4693	diwel	
+94	4694	diyac'h	
+95	4695	dizanav	
+96	4696	dizant	
+97	4697	dizenorus	
+98	4698	diziwezh	
+99	4699	teiñ	dois tois
+100	4700	torzhell	dorzhell

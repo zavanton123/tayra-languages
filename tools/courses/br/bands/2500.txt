@@ -1,0 +1,100 @@
+1	2401	neutron	neutronenn neutronennoù
+2	2402	bili	bilienn fili vili
+3	2403	tenor	denor denored tenored
+4	2404	peurechuiñ	beurechuiñ peurachuet peurachuiñ
+5	2405	brient	brientoù prient vrient
+6	2406	aketus	
+7	2407	arver	
+8	2408	askornek	
+9	2409	bailh	
+10	2410	breinadur	
+11	2411	diniver	
+12	2412	doñv	
+13	2413	leviañ	
+14	2414	manaveg	
+15	2415	stabilaat	
+16	2416	brug	
+17	2417	didruez	
+18	2418	heug	
+19	2419	karantezus	
+20	2420	limestra	
+21	2421	noazus	
+22	2422	serr-noz	
+23	2423	yenaat	yennaad
+24	2424	amann	
+25	2425	yun	
+26	2426	lorc'hus	
+27	2427	eilvet	
+28	2428	ampoezon	ampoezonoù
+29	2429	brokus	vrokusañ
+30	2430	droch	zroch
+31	2431	foetañ	foet foetal foeter foeti foetor
+32	2432	privezioù	brivezioù
+33	2433	troazh	zroazh
+34	2434	manifestiñ	manifestañ vanifestiñ
+35	2435	dic'hallus	
+36	2436	eneb	eneboù
+37	2437	kafe	kafeoù
+38	2438	risklus	risklusoc'h
+39	2439	jarl	jarloù
+40	2440	dornell	dornelloù zornell
+41	2441	kenedus	genedus kenedusañ
+42	2442	revr	revrioù
+43	2443	eürus	eürusañ eürusoc'h
+44	2444	erv	irvi
+45	2445	gell-du	c'hell-du
+46	2446	alamaneger	alamanegerien
+47	2447	braventez	vraventez
+48	2448	c'hoariell	c'hoarielloù
+49	2449	dant	zant
+50	2450	dibenn-sizhun	dibennoù-sizhun
+51	2451	muntrañ	muntriñ vuntrañ
+52	2452	postel	posteloù
+53	2453	pradenn	bradenn pradennoù
+54	2454	presbital	bresbital presbitalioù
+55	2455	stroñs	stroñsoù
+56	2456	korzenn	gorzenn
+57	2457	hanterour	hanterourez hanterourien
+58	2458	bouzar	vouzar
+59	2459	gwallañ	gwalliñ wallañ
+60	2460	rebech	rebechat rebechiñ
+61	2461	tristidigezh	dristidigezh
+62	2462	horolaj	horolajoù
+63	2463	digas	tigas zigas
+64	2464	o-zri	o-zeir
+65	2465	kouronkañ	gouronkañ kouronkat kouronkiñ
+66	2466	neuiñ	neu neuan neuas neue neuec'h neued neuemp neuen neuent neuer neues neuet neuez neufe neufec'h neufed neufemp neufen neufent neufes neui neuimp neuin neuint neuis neuit neuje neujen neujes neujout neuo neuoc'h neuomp neuont neuor neuot
+67	2467	karrdi	c'harrdi karrdioù
+68	2468	diogel	tiogel ziogel
+69	2469	direizhder	direizhderioù zireizhder
+70	2470	galloudek	c'halloudek galloudekañ galloudekoc'h
+71	2471	kevnid	gevnidenn kevnidenn
+72	2472	kredour	gredourien kredourez kredourien
+73	2473	ivin	ivinoù
+74	2474	mandarin	mandarined vandarined
+75	2475	biñs	biñsoù piñs viñs viñsoù
+76	2476	piler	pilerioù pileroù
+77	2477	klozañ	c'hlozañ glozañ klozas klozis kloziñ klozor
+78	2478	korfadurezh	c'horfadurezh gorfadurezh
+79	2479	hejañ	hejal hejas heje hejet hejfe hejfec'h hejfed hejfemp hejfen hejfent hejfes hejimp hejis hejiñ hejje hejjec'h hejjed hejjemp hejjen hejjent hejjes hejjoc'h hejjod hejjomp hejjont hejjout hejoc'h hejor hejot
+80	2480	dreser	dreserien dreserion treserez treserien
+81	2481	kaozeadenn	c'haozeadennoù gaozeadenn gaozeadennoù kaozeadennoù
+82	2482	krib	c'hrib c'hriboù grib kriboù
+83	2483	kouviad	c'houviad gouviad gouviidi kouviadez
+84	2484	kell	c'helloù divgell gelloù gilli kelloù killioù
+85	2485	magerez	mager magerezed magerien vagerez vagerien
+86	2486	samm	sammoù semmen
+87	2487	barv	barvenn barvioù
+88	2488	kanab	c'hanab ganab
+89	2489	lasañ	laser laset lasis lasiñ lasje lasoc'h
+90	2490	gwak	gwakañ gwakoc'h wak
+91	2491	feurmiñ	feurmer feurmerien feurmerion
+92	2492	gwazh-dour	gwazhioù-dour wazh-dour wazhioù-dour
+93	2493	kaoter	gaoter kaoterioù
+94	2494	brodañ	brod broder brodis brodiñ brodor prodañ prodi vrodañ
+95	2495	aluminiom	
+96	2496	atmosferenn	
+97	2497	daneg	
+98	2498	didermen	
+99	2499	gorilh	gorilhed
+100	2500	hegarat	

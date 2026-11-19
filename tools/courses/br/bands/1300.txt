@@ -1,0 +1,100 @@
+1	1201	dañjer	dañjerioù dañjeroù
+2	1202	ene	eneoù eneñv
+3	1203	pellaat	bella bellaat fella fellaat pella pellaad pellafe pellai pellain pellais pellait
+4	1204	askell	divaskell eskell zivaskell
+5	1205	person	berson bersoned ferson
+6	1206	bennozh	bennozhioù vennozhioù
+7	1207	aergelc'h	aergelc'hioù
+8	1208	dañjerus	dañjerusañ dañjerusoc'h zañjerus zañjerusoc'h
+9	1209	amezek	
+10	1210	faltazi	
+11	1211	laezh	
+12	1212	repu	
+13	1213	kristeniezh	gristeniezh
+14	1214	erc'h	
+15	1215	gleb	c'hleb glepañ glepoc'h
+16	1216	gaou	c'haou gevier
+17	1217	kempenn	c'hempenn gempenn kempennat kempennañ kempennoc'h kempennoù
+18	1218	peuriñ	beure beuriñ feurer feuriñ peuras peurat peurañ peure peuren peurent peurer peures peurez peuri peurioù peuro peuront peurot veure
+19	1219	votiñ	votañ
+20	1220	addimeziñ	addimezet
+21	1221	matezh	mitizhien vatezh vitizhien
+22	1222	touiñ	dou douent douiñ tou touas touañ toue touen touent touer toues touet toufen toui touis touit touje toujen touo zoues zouje
+23	1223	arabeg	
+24	1224	hêrezh	
+25	1225	eñvor	eñvorioù
+26	1226	rumm	rummoù
+27	1227	plaen	plaenoc'h
+28	1228	bedel	pedel vedel
+29	1229	talvoudus	dalvoudus talvoudusañ talvoudusoc'h
+30	1230	silabenn	silabennoù
+31	1231	katalaneg	c'hatalaneg
+32	1232	aneval	anevaled
+33	1233	hent-houarn	hentoù-houarn
+34	1234	gourc'hemenn	c'hourc'hemenn c'hourc'hemennas c'hourc'hemennoù gourc'hemennas gourc'hemennañ gourc'hemenniñ gourc'hemennoù kourc'hemenn
+35	1235	sentiñ	sentan sentas sente sentec'h sented sentemp senten sentent senter sentes sentet sentez sentfe sentfec'h sentfed sentfemp sentfen sentfent sentfes senti sentimp sentin sentint sentis sentit sentje sentjec'h sentjed sentjemp sentjen sentjent sentjes sentjoc'h sentjod sentjomp sentjont sentjout sento sentoc'h sentomp sentont sentor sentot
+36	1236	bourc'hiz	bourc'hizien vourc'hiz vourc'hizez vourc'hizien vourc'hizion
+37	1237	a-gleiz	
+38	1238	loar	
+39	1239	paol	baol
+40	1240	lein	leinoù
+41	1241	diaoul	diaouled diaoulez diaoulien diaouloù ziaoul
+42	1242	moullañ	moulañ voulañ voullañ
+43	1243	arvest	arvestoù
+44	1244	pedenn	bedenn bedennoù fedenn fedennoù pedennoù
+45	1245	'z	az
+46	1246	oferenn	oferennoù
+47	1247	krign-bev	c'hrign-bev c'hrignoù-bev grign-bev grignoù-bev krignoù-bev
+48	1248	distagañ	distagiñ distago tistagas tistagañ zistagas zistagañ zistago
+49	1249	iwerzhoneg	
+50	1250	sinaat	
+51	1251	hanter-kant	
+52	1252	chaseal	chaseiñ
+53	1253	homañ	
+54	1254	padus	badus
+55	1255	pour	bour four vour
+56	1256	bazh	bizhier pazh vazh
+57	1257	koant	c'hoantañ goant goantañ koantañ koantoc'h
+58	1258	gwarez	warez
+59	1259	gwiskad	gwiskadoù wiskad
+60	1260	karr-tan	c'harr-tan c'hirri-tan garr-tan girri-tan kirri-tan
+61	1261	dous	dousoc'h dousoù tous zous
+62	1262	arem	
+63	1263	dudi	tudi zudi
+64	1264	speredek	speredekañ speredekoc'h
+65	1265	bleunienn	bleunioù vleunienn vleunioù
+66	1266	pounner	bounner bounnerañ pounnerañ pounneroc'h
+67	1267	drouiz	drouized drouizez zrouiz
+68	1268	roz	ros rozenn
+69	1269	diwezhat	ziwezhat
+70	1270	pesketaer	besketaer besketaerien besketaerion pesketaerien
+71	1271	davet	davedout davetañ daveti daveto
+72	1272	arnevez	
+73	1273	frañsez	frañsizien
+74	1274	galv	c'halv galvoù
+75	1275	bezañs	vezañs
+76	1276	tev	tevañ tevoc'h zev
+77	1277	gwiad	gwiadoù
+78	1278	sorser	sorserez sorserien
+79	1279	poz	pozioù
+80	1280	teal	deal dean deer dei tean teas tee teec'h teed teemp teen teent teer tees teet teez tefes tei teimp tein teint teit teo teoc'h teomp teont teor teot zeal zean zeas zee zeit
+81	1281	tezenn	dezenn dezennoù tezennoù zezenn zezennoù
+82	1282	a-ratozh	
+83	1283	skiant-faltazi	
+84	1284	awen	
+85	1285	fentus	fentusoc'h
+86	1286	poblek	boblek
+87	1287	skeul	skeulioù
+88	1288	trizek	drizek zrizek
+89	1289	profañ	brofañ brofit frofañ profan profet profit profiñ
+90	1290	tamall	damall damalloù tamallout tamalloù zamall zamalloù
+91	1291	goap	c'hoap
+92	1292	fiziañs	
+93	1293	led	
+94	1294	chañs	chañsoù
+95	1295	geot	c'heot c'heotenn geotenn geotennoù
+96	1296	aber	aberioù
+97	1297	troc'h	droc'h troc'hoù
+98	1298	diaester	diaesterioù ziaester ziaesterioù
+99	1299	laer	laerez laeron
+100	1300	gwareg	gwaregoù wareg waregoù

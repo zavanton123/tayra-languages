@@ -1,0 +1,100 @@
+1	801	distruj	tistruj zistruj
+2	802	droug	drougoù zroug
+3	803	barzhoniezh	varzhoniezh
+4	804	gour	c'hour c'hourion goured gourion
+5	805	efedus	efedusañ efedusoc'h
+6	806	arab	arabed
+7	807	selaou	selaouas selaouat selaoue selaouer selaouet selaouit selaouiñ selaouont
+8	808	kazh	c'hazh c'hizhier gazh gazhez gizhier kazhez kizhier
+9	809	lez-varn	lezioù-barn
+10	810	kig	c'hig gig
+11	811	paper	baper baperioù baperoù faperoù paperioù paperoù
+12	812	labourer	labourerez labourerezed labourerien
+13	813	berzañ	berz berzet berziñ perz verz verzañ verzet
+14	814	paeañ	baeañ faeañ paean paeer paeiñ
+15	815	e-giz	
+16	816	daouzek	zaouzek
+17	817	kriz	c'hriz griz krisañ krisoc'h
+18	818	templ	dempl demploù temploù zemploù
+19	819	breizhat	vreizhat
+20	820	pegen	begen peger vegen
+21	821	kemmañ	c'hemmañ gemmañ kemmiñ
+22	822	beli	peli veli
+23	823	kredenn	c'hredenn c'hredennoù gredenn gredennoù kredennoù
+24	824	keflusker	c'heflusker c'hefluskerioù geflusker gefluskerioù kefluskerioù
+25	825	nav	
+26	826	gervel	c'halvas c'hervel galvan galvas galven galvet galvez gerwel kervel
+27	827	prevez	
+28	828	dilez	tilez zilez
+29	829	torfed	dorfed dorfedoù torfedoù zorfed zorfedoù
+30	830	moneiz	voneiz voneizioù
+31	831	manati	manatioù vanati vanatioù
+32	832	itron	itronezed itroun
+33	833	ganedigezh	c'hanedigezh ganedigezhioù
+34	834	niz	nized nizez nizezed
+35	835	bodadeg	bodadegoù vodadeg vodadegoù
+36	836	annez	annezioù
+37	837	kembraeger	gembraegerien kembraegerien
+38	838	pevare	bevare fevare
+39	839	meurvor	meurvorioù veurvor veurvorioù
+40	840	pav	bav bavioù favioù pavioù
+41	841	leon	leoned
+42	842	aotre	aotreoù
+43	843	aloubadeg	aloubadegoù
+44	844	lazhadeg	lazhadegoù
+45	845	pesk	besked pesked
+46	846	brec'h	brec'hioù divrec'h vrec'h vrec'hioù zivrec'h
+47	847	evezh	
+48	848	hin	hinoù
+49	849	metrad	metradoù vetrad vetradoù
+50	850	mennozh	vennozh
+51	851	barrek	barrekañ barrekoc'h varrek varrekañ
+52	852	muioc'h-mui	
+53	853	verb	verboù
+54	854	distag	tistag zistag
+55	855	anv-badez	anvioù-badez
+56	856	sec'h	sec'hañ sec'het sec'hiñ sec'hoc'h
+57	857	plijadur	blijadur blijadurioù flijadur plijadurioù
+58	858	argant	
+59	859	feur	feurioù
+60	860	degouezhout	degouezhas degouezhe degouezhemp degouezhi degouezho tegouezhas tegouezhe tegouezhout zegouezhas zegouezhe zegouezho zegouezhout
+61	861	spagnoleg	
+62	862	surentez	
+63	863	reuz	reuzioù
+64	864	iliz-veur	ilizoù-meur
+65	865	kompagnunezh	c'hompagnunezh gompagnunezh
+66	866	eontr	eontred
+67	867	dremm	dremmoù zremm
+68	868	alese	
+69	869	skolaj	skolajoù
+70	870	ospital	ospitalioù
+71	871	tourist	dourist douristed douristez touristed
+72	872	bank	bankoù vank vankoù
+73	873	frazenn	frazennoù
+74	874	prederouriezh	brederouriezh
+75	875	kein	c'hein gein keinoù
+76	876	kastiz	c'hastiz c'hastizoù gastiz kastizoù
+77	877	krenn	c'hrennañ grenn grennas grennañ grenno krennas krennañ krennet krennoc'h
+78	878	koulzad	c'houlzad c'houlzadoù goulzad koulzadoù
+79	879	evn	evned
+80	880	traoñienn	draonienn draoñienn traonienn traoñiennoù zraoñienn
+81	881	straed	
+82	882	gouenn	c'houenn c'houennoù gouennoù ouenn ouennoù
+83	883	glav	c'hlav c'hlaveier glaveier glavioù klaw
+84	884	gwrizienn	c'hwrizienn gwriziennoù gwrizioù wrizienn wriziennoù wrizioù
+85	885	houarn	
+86	886	aze	
+87	887	plijout	blijout
+88	888	dle	dleoù tle zle zleoù
+89	889	urzhiataer	urzhiataerez urzhiataerezioù urzhiataerioù
+90	890	kalet	galet galetañ kaled kaletañ kaletoc'h
+91	891	skiantour	skiantourez skiantourien skiantourion
+92	892	tostaat	dosta dostaas dostaat dostae dostai tosta tostaas tostae tostafe tostai tostais tostait zostaat
+93	893	kemenn	c'hemenn c'hemenne c'hemennoù gemenn gemennas gemenne gemennoù kemennan kemennas kemenne kemennec'h kemenned kemennemp kemennen kemennent kemenner kemennes kemennet kemennez kemennfe kemennfec'h kemennfed kemennfemp kemennfen kemennfent kemennfes kemenni kemennimp kemennin kemennint kemennis kemennit kemenniñ kemennje kemennjec'h kemennjed kemennjemp kemennjen kemennjent kemennjes kemennjoc'h kemennjod kemennjomp kemennjont kemennjout kemenno kemennomp kemennont kemennor kemennot kemennoù
+94	894	oabl	oablenn
+95	895	genoù	c'henoù genaouioù
+96	896	kouezhañ	gouezhañ kouezañ
+97	897	kembraeg	c'hembraeg gembraeg
+98	898	gwiskañ	gwiskfe gwiskfec'h gwiskfed gwiskfen gwiskfent gwiskfes gwiskis gwiskiñ gwiskje gwiskjed gwiskjen gwiskjent gwiskjes gwiskjont gwiskjout gwiskor kwiskañ wiskas wiskañ wiske wiskent wisko wiskont
+99	899	ti-embann	di-embann diez-embann tier-embann tiez-embann zi-embann
+100	900	sal	salioù

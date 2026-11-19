@@ -1,0 +1,100 @@
+1	3201	arwenn	
+2	3202	avu	
+3	3203	bedeladur	
+4	3204	beuz	
+5	3205	chaous	
+6	3206	chemet	
+7	3207	chimik	
+8	3208	danzouar	
+9	3209	daoubennek	
+10	3210	denoniezh	
+11	3211	deun	
+12	3212	didrevadenniñ	tidrevadenniñ zidrevadenniñ
+13	3213	digoumoul	
+14	3214	douarour	douarourien
+15	3215	enkrez	
+16	3216	ezvezant	
+17	3217	feltr	
+18	3218	fonologiezh	
+19	3219	fritez	
+20	3220	fured	
+21	3221	hañvourez	hañvourien
+22	3222	heliom	
+23	3223	hirded	
+24	3224	islandeg	
+25	3225	isrener	
+26	3226	lezirek	
+27	3227	loenoniourez	loenoniourien
+28	3228	lostek	
+29	3229	loustoni	
+30	3230	lufrus	
+31	3231	matematikel	
+32	3232	nijva	
+33	3233	niveriñ	niverañ nivere niverin
+34	3234	paler	
+35	3235	radiom	
+36	3236	rezin	
+37	3237	roc'hek	
+38	3238	skaf	
+39	3239	sklaeraat	
+40	3240	sod	
+41	3241	sodiom	
+42	3242	spisaat	
+43	3243	strinkenn	strinkennoù
+44	3244	unyezhek	
+45	3245	wolfram	
+46	3246	yac'haat	yac'haad
+47	3247	zirkoniom	
+48	3248	ankoù	
+49	3249	tin	
+50	3250	banjo	
+51	3251	brizhkredenn	brizhkredennoù
+52	3252	digor-frank	
+53	3253	drev	
+54	3254	esperantek	
+55	3255	frealz	
+56	3256	frealziñ	frealzañ
+57	3257	garan	
+58	3258	gleborek	
+59	3259	herr	
+60	3260	jod	
+61	3261	klet	
+62	3262	lus	
+63	3263	mezh	
+64	3264	nepred	
+65	3265	norvegeg	
+66	3266	ognon	
+67	3267	sev	
+68	3268	skoutez	skouted
+69	3269	timat	
+70	3270	ac'haleno	
+71	3271	hast	
+72	3272	itrikañ	
+73	3273	kreizer	
+74	3274	tatouet	
+75	3275	trev	
+76	3276	antreal	
+77	3277	pillig	billig
+78	3278	brenn	
+79	3279	gramadeg	
+80	3280	lestrañ	lestran lestro
+81	3281	ode	
+82	3282	poaniañ	boaniañ foaniañ poanial poaniiñ
+83	3283	ter	
+84	3284	triliv	
+85	3285	unnekvet	
+86	3286	seder	
+87	3287	pifal	bifal fife pifañ
+88	3288	gouin	gouinoù
+89	3289	gwent	went
+90	3290	kelvin	c'helvin
+91	3291	antren	antrean antreas antrejont antreomp
+92	3292	aotenn	aotennoù
+93	3293	arc'hantinat	
+94	3294	bazhad	bazhadoù vazhad
+95	3295	bestl	vestl
+96	3296	pouloud	bouloudenn
+97	3297	bual	bualed
+98	3298	kleñved-red	c'hleñved-red gleñved-red
+99	3299	gloaziad	c'hloazidi
+100	3300	c'hwil	c'hwiled

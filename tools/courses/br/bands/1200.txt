@@ -1,0 +1,100 @@
+1	1101	kilañ	c'hil c'hilañ gil gilañ kil kilas kilis kiliñ kilo
+2	1102	hud	
+3	1103	unvan	
+4	1104	noazh	
+5	1105	aerborzh	aerborzhioù
+6	1106	brezeler	brezelerien brezelerion brezelour vrezelour
+7	1107	feunteun	feunteunioù
+8	1108	pempvet	bempvet fempvet pempet
+9	1109	lammat	lammad lamman lammas lamme lammec'h lammed lammemp lammen lamment lammer lammes lammet lammez lammfe lammfec'h lammfed lammfemp lammfen lammfent lammfes lammi lammimp lammin lammint lammis lammit lammje lammjec'h lammjed lammjemp lammjen lammjent lammjes lammjoc'h lammjod lammjomp lammjont lammjout lammo lammoc'h lammomp lammont lammor lammot
+10	1110	klas	c'hlasoù glasoù klasoù
+11	1111	menel	manan manas mane maned manemp manen manent manes manet manez mani manimp manin manint manis manit manje manjen manjes mano manoc'h manomp manont manor manot vanas vane vaned vano
+12	1112	end-eeun	
+13	1113	sachañ	sachek
+14	1114	dres	zres
+15	1115	levraoueg	levraouegoù
+16	1116	taer	daer daerañ taerañ taeroc'h
+17	1117	heverk	heverkañ
+18	1118	hendad	hendadoù
+19	1119	sul	
+20	1120	eñvorenn	eñvorennoù
+21	1121	gweladenniñ	gweladennañ kweladenniñ weladenniñ
+22	1122	polotenn	bolotenn bolotennoù polotennoù volotenn
+23	1123	kof	c'hof gof
+24	1124	liester	liesterioù
+25	1125	gouzoug	c'houzoug goûg
+26	1126	displegadenn	displegadennoù zisplegadenn zisplegadennoù
+27	1127	gwalenn	gwalennoù gwalinier walenn walennoù
+28	1128	preizh	breizhoù freizh freizhoù preizhoù
+29	1129	bordañ	bord borde border bordiñ bordje bordjes ford pordañ vord vordañ vordo
+30	1130	gevred	c'hevred
+31	1131	ed	edoù
+32	1132	maread	mareadoù varead vareadoù
+33	1133	seblantout	seblante seblantiñ seblantjont
+34	1134	kerentiad	c'herentiad c'herentiadoù gerentiad gerentiadoù kerentiadoù
+35	1135	bale	baleañ baleet baleioù baleoù paleis vale valee
+36	1136	nemeur	
+37	1137	riez	riezoù
+38	1138	doare-skrivañ	doareoù-skrivañ zoare-skrivañ
+39	1139	sizhunvezh	sizhunvezhioù
+40	1140	striv	strivoù
+41	1141	goprañ	c'hoprañ c'hopret gopret gopriñ
+42	1142	testeni	desteni destenioù testenioù zesteni zestenioù
+43	1143	poliser	boliser boliserien poliserien
+44	1144	dañsal	dañsañ dañset dañsiñ dañsont tañsal tañsas tañse zañsal zañsent
+45	1145	kensonenn	c'hensonenn c'hensonennoù gensonenn kensonennoù
+46	1146	iwerzhonat	
+47	1147	yezhadur	yezhadurioù
+48	1148	trawalc'h	
+49	1149	votadeg	votadegoù
+50	1150	matematik	matematikoù
+51	1151	klemm	c'hlemm glemm
+52	1152	archer	archerien archerion
+53	1153	martolod	martoloded vartolod vartoloded
+54	1154	poazhañ	boazhat boazhañ foazhañ poazhat poazhe poazhet poazhiñ
+55	1155	kenetre	c'henetre kenetreze kenetrezo
+56	1156	kevre	c'hevre c'hevreoù gevre kevreoù
+57	1157	hollved	
+58	1158	adkemer	
+59	1159	honnezh	
+60	1160	pemzek	bemzek
+61	1161	hêr	hêred hêrez hêrezed
+62	1162	botez	boteier botoù votez votoù
+63	1163	stabil	stabilat stabilañ stabiloc'h
+64	1164	hunvre	hunvreoù huñvre huñvreoù
+65	1165	ampart	ampartañ ampartoc'h
+66	1166	laz	lazoù
+67	1167	skarzhañ	
+68	1168	denel	deneloc'h zenel
+69	1169	anzav	anzavan anzavas anzave anzaver anzavez anzavi anzavioù anzavit anzavjont anzavomp anzavont anzavot anzavout
+70	1170	meuz	meuzioù veuz veuzioù
+71	1171	skouarn	divskouarn skouarnoù zivskouarn
+72	1172	kador	c'hador c'hadorioù gador kadorioù keder
+73	1173	paz	faz fazioù pas pazioù pazoù
+74	1174	kombod	c'hombod c'hombodoù gombod gombodoù kombodoù
+75	1175	arbennik	
+76	1176	a-ziwar	
+77	1177	morse	
+78	1178	letanant	letananted
+79	1179	kilometr	c'hilometr gilometr gilometroù kilometroù
+80	1180	stered	steredennoù
+81	1181	fest	festoù
+82	1182	kreñvaat	c'hreñvaat greñvaat kreñvaad
+83	1183	koronal	c'horonal goronal koronaled
+84	1184	plankenn	blankenn blankennoù plankennoù plenk
+85	1185	manifestadeg	manifestadegoù vanifestadeg vanifestadegoù
+86	1186	fur	furañ furien furion furoc'h
+87	1187	mougev	mougevioù vougev vougevioù
+88	1188	gresianeg	c'hresianeg
+89	1189	mervent	vervent
+90	1190	bae	
+91	1191	spont	spontoù
+92	1192	munut	munutoù vunut
+93	1193	lonkañ	lonk lonkas lonke lonket lonkfe lonkfec'h lonkfed lonkfemp lonkfen lonkfent lonkfes lonkimp lonkis lonkiñ lonkje lonkjec'h lonkjed lonkjemp lonkjen lonkjent lonkjes lonkjoc'h lonkjod lonkjomp lonkjont lonkjout lonkoc'h lonkor lonkot
+94	1194	berañ	beran beras bere berec'h beremp beren berent berer beres beret berez berfe berfec'h berfed berfemp berfen berfent berfes beri berimp berin berint beris berit beriñ berje berjec'h berjed berjemp berjen berjent berjes berjoc'h berjod berjomp berjont berjout bero beromp beront beror berot peran perañ peren peres perez pero veras verañ vere veri verin verit veriñ vero veront
+95	1195	naplez	
+96	1196	douar-bras	zouar-bras
+97	1197	aner	anerioù
+98	1198	laouen	laouenañ laouenoc'h
+99	1199	dan	daned
+100	1200	beuziñ	beuze beuzes beuzet beuzo peuziñ veuzet veuziñ

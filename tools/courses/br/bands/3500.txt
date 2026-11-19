@@ -1,0 +1,100 @@
+1	3401	doareenn	doareennoù zoareennoù
+2	3402	kenwerzhañ	genwerzhañ
+3	3403	korvent	c'horventoù korventoù
+4	3404	kulator	c'hulator kulatorez
+5	3405	laou	laouenn
+6	3406	liñvadenn	liñvadennoù
+7	3407	merc'h-kaer	verc'h-kaer
+8	3408	pasianted	basianted
+9	3409	garmal	c'harmal karmal
+10	3410	gedour	geder gedourien gedourion
+11	3411	spilhenn	spilhennoù spilhoù
+12	3412	tachañ	tachas tache tachet tachis tachiñ
+13	3413	ti-debriñ	tier-debriñ tiez-debriñ
+14	3414	dirañ	dire diriñ tire tirer ziren
+15	3415	tridal	dridal tride triden trident trides tridi tridis
+16	3416	karour	garer garour garourien karer karourien
+17	3417	adaskell	adeskell
+18	3418	adlenn	adlennen adlennit
+19	3419	adwerzhañ	
+20	3420	albaneg	
+21	3421	amerikiom	
+22	3422	ampoezoniñ	
+23	3423	anoued	
+24	3424	arliv	
+25	3425	arsenik	
+26	3426	arvelen	
+27	3427	bamus	
+28	3428	begeg	
+29	3429	besk	
+30	3430	bizoù	bizeier
+31	3431	boued-mor	
+32	3432	braziliat	
+33	3433	chañsus	
+34	3434	chouchenn	
+35	3435	damant	
+36	3436	danek	
+37	3437	deuet-mat	
+38	3438	diaoulek	
+39	3439	digalon	
+40	3440	digoadañ	digoadiñ tigoadañ zigoadañ
+41	3441	digreizennañ	digreizenniñ tigreizennañ zigreizennañ
+42	3442	disent	
+43	3443	diseven	
+44	3444	divlaz	
+45	3445	dizampart	
+46	3446	dizifenn	
+47	3447	enaouiñ	
+48	3448	endervezh	
+49	3449	entanus	
+50	3450	estonus	
+51	3451	etrerannyezhel	
+52	3452	etresteredel	
+53	3453	feukus	
+54	3454	figus	
+55	3455	foenn	
+56	3456	frikorneg	
+57	3457	kazel-yev	gazel-ge
+58	3458	germaniom	
+59	3459	goulaouiñ	c'houlaouiñ goulaouas goulaouañ
+60	3460	gwarizius	
+61	3461	gwaskediñ	gwasked gwaskede kwaskediñ waskediñ
+62	3462	hebleg	
+63	3463	hirbadus	
+64	3464	hirgarrezenn	
+65	3465	hon-unan	
+66	3466	hudourez	
+67	3467	iridiom	
+68	3468	italianegerez	italianegerien
+69	3469	izelvor	
+70	3470	javed	
+71	3471	keuneud	
+72	3472	kistin	
+73	3473	kloridenn	
+74	3474	kofek	
+75	3475	kourtes	
+76	3476	lantanom	
+77	3477	laouek	
+78	3478	lardañ	lard lardiñ
+79	3479	lart	
+80	3480	lazhus	
+81	3481	leizh	
+82	3482	lestr-karg	
+83	3483	lidek	
+84	3484	litr	
+85	3485	lounezh	
+86	3486	louzañ	louzan louze
+87	3487	magadurezh	
+88	3488	makron	
+89	3489	meinek	
+90	3490	menezek	
+91	3491	merglet	
+92	3492	miltir	
+93	3493	morvil	morviled
+94	3494	naontekvet	
+95	3495	nikun	
+96	3496	niobiom	
+97	3497	onn	
+98	3498	orged	
+99	3499	pegeit	
+100	3500	pintet	

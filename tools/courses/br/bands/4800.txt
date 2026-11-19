@@ -1,0 +1,100 @@
+1	4701	dourlivourez	dourlivourien
+2	4702	drask	
+3	4703	dremedal	
+4	4704	dreolan	
+5	4705	tristaat	dristaat
+6	4706	droug-kein	
+7	4707	droukrañsus	
+8	4708	duenn	duennoù
+9	4709	dugel	
+10	4710	duik	
+11	4711	ehan-labour	
+12	4712	einsteiniom	
+13	4713	elipsenn	
+14	4714	emouez	
+15	4715	empennañ	
+16	4716	emroüs	
+17	4717	eontr-kozh	
+18	4718	eoulgimiezh	
+19	4719	esperantegerez	esperantegerien
+20	4720	estajerenn	
+21	4721	estlammus	
+22	4722	estoneg	
+23	4723	etremek	
+24	4724	euriadur	euriadurioù
+25	4725	eurier-godell	
+26	4726	europiom	
+27	4727	evlec'h	
+28	4728	evn-preizh	evned-preizh
+29	4729	ez-vihan	
+30	4730	falloni	
+31	4731	falsle	falsleoù
+32	4732	fankigell	
+33	4733	faosoni	
+34	4734	faoutañ	faoutiñ
+35	4735	felc'h	
+36	4736	fermiom	
+37	4737	fermion	
+38	4738	pezh-kanol	fezh-kanol
+39	4739	peñs	feñsoù
+40	4740	plac'h-a-gambr	flac'h-a-gambr
+41	4741	flatal	flat flatañ
+42	4742	flemmer	
+43	4743	fonnusted	
+44	4744	forc'had	
+45	4745	forniañ	forniñ
+46	4746	fosfat	
+47	4747	fougasus	fougasusoc'h
+48	4748	frankaat	
+49	4749	frañsezat	
+50	4750	freskter	
+51	4751	frikañ	frikis frikiñ
+52	4752	fuzuilher-mor	fuzuilherien-vor
+53	4753	gadoliniom	
+54	4754	kador-vrec'h	gador-vrec'h
+55	4755	gaouierez	gaouierien
+56	4756	garmiñ	c'harmiñ garman garment
+57	4757	kartenn-gred	gartenn-gred
+58	4758	kartenniñ	gartenniñ
+59	4759	garvder	
+60	4760	garz	
+61	4761	kemplezhded	gemplezhded
+62	4762	geotus	
+63	4763	kevredadouriezh	gevredadouriezh
+64	4764	gioc'h	
+65	4765	gitar-tredan	
+66	4766	glac'hariñ	
+67	4767	glesker	
+68	4768	kleñvedouriezh	gleñvedouriezh
+69	4769	koadañ	c'hoadañ goadañ koadiñ
+70	4770	godelleg	
+71	4771	kolist	golisted
+72	4772	korfenn	gorfenn
+73	4773	gouelier	
+74	4774	gouezvildi	
+75	4775	kougoul	gougoul
+76	4776	goulennaoueg	goulennaouegoù
+77	4777	goumon	
+78	4778	kourtezi	gourtezi
+79	4779	gourvenn	
+80	4780	goustilhañ	c'houstilhañ goustilhiñ koustilhañ
+81	4781	krenerez	grenerez
+82	4782	krikal	grikal
+83	4783	krouusted	grouusted
+84	4784	krozal	grozal krozas krozañ krozis
+85	4785	kuriusted	guriusted
+86	4786	gwagennek	
+87	4787	gwanded	
+88	4788	gwared	
+89	4789	gwarell	
+90	4790	gwaskin	gwaskon
+91	4791	gwellentez	
+92	4792	gwentañ	gwental
+93	4793	gwez-kistin	
+94	4794	gwinizh-du	
+95	4795	gwiñver	
+96	4796	gwrezverker	
+97	4797	hadron	
+98	4798	hafniom	
+99	4799	hangae	
+100	4800	harellat	harell harelle hareller

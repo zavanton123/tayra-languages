@@ -1,0 +1,100 @@
+1	1001	divizout	divize divizis tivizout zivizout
+2	1002	bir	biroù pir vir
+3	1003	loc'hañ	loc'h loc'has loc'hat loc'het loc'hioù loc'hiñ loc'hoù
+4	1004	pinvidigezh	binvidigezh binvidigezhioù finvidigezh finvidigezhioù pinvidigezhioù
+5	1005	saveteiñ	
+6	1006	armet	
+7	1007	menegiñ	venegiñ
+8	1008	gorre	c'horre gorreoù
+9	1009	askorn	eskern
+10	1010	kelt	c'helt gelt gelted kelted
+11	1011	kustum	c'hustum gustum
+12	1012	pignat	bignat pign pignal pignas pigne pignent pigner pigniñ pigno
+13	1013	bod	bodoù
+14	1014	barr	barroù parr varr varroù
+15	1015	keodedour	c'heodedour c'heodedourien geodedour geodedourez geodedourien geodedourion keodedourien keodedourion
+16	1016	digarez	digarezioù zigarez zigarezioù
+17	1017	elektronek	
+18	1018	leur	
+19	1019	skañv	skañvat skañvañ skañvoc'h
+20	1020	dañs	dañsoù tañs zañs
+21	1021	leat	lead leas lee leec'h leed leemp leen leent leer lees leet leez lefe lefec'h lefed lefemp lefen lefent lefes lei leimp leint leis leit leje lejec'h lejed lejemp lejen lejent lejes lejoc'h lejod lejomp lejont lejout leo leomp leont leor leot
+22	1022	muzuliañ	vuzuliañ
+23	1023	glan	c'hlan glanoc'h klan
+24	1024	bann	bannoù pann vann vannoù
+25	1025	leuskel	leuskal leusker
+26	1026	bugaleaj	vugaleaj
+27	1027	barner	barnerien varner varnerien varnerion
+28	1028	gar	c'haroù c'herent divhar garioù garoù gerent zivhar
+29	1029	kerzhout	c'herzh c'herzhed c'herzher gerzh gerzhas gerzhe gerzhed gerzhet gerzhout kerzh kerzhan kerzhas kerzhat kerzhe kerzhec'h kerzhed kerzhemp kerzhen kerzhent kerzher kerzhes kerzhet kerzhez kerzhfe kerzhfec'h kerzhfed kerzhfemp kerzhfen kerzhfent kerzhfes kerzhi kerzhimp kerzhin kerzhint kerzhis kerzhit kerzhiñ kerzhje kerzhjec'h kerzhjed kerzhjemp kerzhjen kerzhjent kerzhjes kerzhjoc'h kerzhjod kerzhjomp kerzhjont kerzhjout kerzho kerzhoc'h kerzhomp kerzhont kerzhor kerzhot
+30	1030	eskopti	eskoptioù
+31	1031	kantad	c'hantad c'hantadoù gantad gantadoù kantadoù
+32	1032	argadenn	argadennoù
+33	1033	diskibl	diskibien diskibion diskibled ziskibien ziskibion ziskibl ziskibled
+34	1034	traezh	draezh draezhenn draezhennoù traezhenn traezhennoù zraezh zraezhenn
+35	1035	santout	santan santas santañ sante santed santen santer santes santet santi santis santit santo
+36	1036	skingomz	
+37	1037	skorn	skornañ
+38	1038	louzoù	louzeier
+39	1039	garv	c'harv garvoc'h
+40	1040	leanez	lean leaned leanezed
+41	1041	pennlec'h	bennlec'h fennlec'h pennlec'hioù
+42	1042	italianeg	
+43	1043	keit	
+44	1044	donder	donderioù zonder
+45	1045	peadra	beadra feadra
+46	1046	renkad	renkadoù
+47	1047	kened	c'hened gened
+48	1048	krennard	c'hrennard grennard grennarded grennardenn grennardez krennarded krennardenn krennardez
+49	1049	baron	baroned baronez faron varon varoned varonez
+50	1050	diskennad	diskennadez diskennidi ziskennadezed ziskennidi
+51	1051	parañ	baran baras barañ bared baret barez barezed bari barin baris barit baro farez farezed fari faris faro paran paras pared paren parent parer pares paret parez parezed pari parin parint paris parit paro parot varan varin varo
+52	1052	metoù	meteier vetoù
+53	1053	nac'hañ	
+54	1054	greantel	c'hreantel
+55	1055	gaz	c'haz c'hazoù gazoù
+56	1056	prientiñ	brientiñ frientiñ priental prientañ prientin
+57	1057	amezeg	amezegez amezegezed amezeien amezeion
+58	1058	plasenn	blasenn flasenn flasennoù plasennoù
+59	1059	kementad	c'hementad c'hementadoù gementad gementadoù kementadoù
+60	1060	kevrenn	gevrenn kevrennoù
+61	1061	skoazellañ	skoazellis skoazelliñ
+62	1062	deiziad	deiziadoù zeiziad zeiziadoù
+63	1063	gwan	gwanañ gwanoc'h wan wanoc'h
+64	1064	maner	manerioù
+65	1065	pouezañ	bouezañ pouesañ poueze poueziñ
+66	1066	telenn	delenn telennoù zelenn
+67	1067	medalenn	medalennoù medalinier vedalenn vedalennoù
+68	1068	ker	c'herañ gerañ kerañ kerioù keroc'h
+69	1069	a-sav	
+70	1070	ribl	ribloù
+71	1071	tour-tan	dour-tan dourioù-tan tourioù-tan zour-tan
+72	1072	treuzkas	dreuzkas zreuzkas
+73	1073	mezeg	mezegez mezeien vezeg vezegez vezeien vezeion
+74	1074	japanat	
+75	1075	aozer	
+76	1076	entre	
+77	1077	nozvezh	nozvezhioù
+78	1078	sot	sotañ
+79	1079	trevadenner	drevadenner drevadennerien drevadennerion trevadennerien
+80	1080	tavarn	davarn davarnioù tavarnioù zavarn
+81	1081	bleiz	bleidi bleizi vleiz vleizez
+82	1082	kaozeal	c'haozeal gaoze gaozeal gaozee gaozeont kaoze kaozean kaozeas kaozee kaozeec'h kaozeed kaozeemp kaozeen kaozeent kaozeer kaozees kaozeet kaozeez kaozefe kaozefec'h kaozefed kaozefemp kaozefen kaozefent kaozefes kaozei kaozeimp kaozein kaozeint kaozeis kaozeit kaozeje kaozejec'h kaozejed kaozejemp kaozejen kaozejent kaozejes kaozejoc'h kaozejod kaozejomp kaozejont kaozejout kaozeo kaozeomp kaozeont kaozeor kaozeot
+83	1083	rejimant	rejimantoù
+84	1084	e-tal	
+85	1085	unnek	
+86	1086	tron	zron
+87	1087	neuz	neuzioù
+88	1088	deiziadur	deiziadurioù zeiziadur
+89	1089	gwin	gwinoù win
+90	1090	meskaj	meskajoù
+91	1091	taboulin	daboulin taboulinoù zaboulin zaboulinoù
+92	1092	arbennigour	arbennigourez arbennigourien arbennigourion
+93	1093	gopr	c'hopr c'hoproù goproù
+94	1094	betek-henn	
+95	1095	test	dest destoù testoù zest
+96	1096	kab	c'hab gab
+97	1097	deskrivañ	teskrivañ zeskrivañ
+98	1098	diskouezadeg	diskouezadegoù ziskouezadeg ziskouezadegoù
+99	1099	gounid	c'hounid c'hounidoù gounidoù
+100	1100	enkadenn	enkadennoù

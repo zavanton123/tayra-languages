@@ -1,0 +1,100 @@
+1	3701	beked	
+2	3702	berjinez	
+3	3703	braster	
+4	3704	bredvezeg	
+5	3705	brein-krign	
+6	3706	brezelek	
+7	3707	bulgareg	
+8	3708	kendi	c'hendi
+9	3709	c'hwervoni	
+10	3710	c'hwibon	
+11	3711	kastiz-lazh	c'hastiz-lazh
+12	3712	kengourener	c'hengourener
+13	3713	kerneveg	c'herneveg
+14	3714	daoubleget	
+15	3715	daouder	
+16	3716	diboan	
+17	3717	dichañs	
+18	3718	digomz	
+19	3719	digwener	
+20	3720	dousik	
+21	3721	douster	
+22	3722	tro-vrec'h	dro-vrec'h
+23	3723	evnoniezh	
+24	3724	eürusted	
+25	3725	fonnusaat	
+26	3726	fouge	
+27	3727	fraoñv	
+28	3728	galv-diwall	
+29	3729	genaoueg	
+30	3730	kilpenn	gilpenn
+31	3731	gorre-kêr	
+32	3732	gwitibunan	
+33	3733	hanafer	
+34	3734	hañviñ	
+35	3735	heizez	
+36	3736	helavar	
+37	3737	heniwerzhoneg	
+38	3738	heugus	
+39	3739	heñvelded	
+40	3740	heñvelson	
+41	3741	hizivaat	
+42	3742	hordenn	
+43	3743	horolajer	
+44	3744	houarnek	
+45	3745	hêrezhel	
+46	3746	ijinus	
+47	3747	istr	
+48	3748	jav	
+49	3749	kig-bevin	
+50	3750	karr-arsailh	kirri-arsailh
+51	3751	lagenn	
+52	3752	leziregezh	
+53	3753	leñvañ	leñval leñvan leñvas leñve leñven leñviñ leñvo
+54	3754	libanat	
+55	3755	lipous	
+56	3756	lirzhin	
+57	3757	lizheradur	
+58	3758	luc'h	
+59	3759	mailhoni	
+60	3760	marbr	
+61	3761	marilhañ	
+62	3762	marzh	
+63	3763	mereng	
+64	3764	mezher	
+65	3765	mikrometr	
+66	3766	milimetr	
+67	3767	mintinvezh	
+68	3768	molekulel	
+69	3769	monoklonel	
+70	3770	morgousket	morgousketat morgousketañ morgousketoc'h morgouskiñ
+71	3771	mouar	
+72	3772	mousc'hoarzh	
+73	3773	mul	
+74	3774	naonedat	
+75	3775	naplezek	
+76	3776	neptuniom	
+77	3777	nevezadus	
+78	3778	niveroniezh	
+79	3779	noazhded	
+80	3780	ouz	
+81	3781	periant	
+82	3782	pimant	
+83	3783	plaouiañ	blaouiañ flaouiañ plaoufañ
+84	3784	porzh-brezel	
+85	3785	rakkristen	
+86	3786	rakverb	
+87	3787	ranngalon	
+88	3788	regiñ	regañ
+89	3789	reizhveliezh	reizhveli
+90	3790	reuzus	
+91	3791	riklañ	
+92	3792	risklañ	
+93	3793	riv	
+94	3794	rouanez-vamm	
+95	3795	ruoc'hal	
+96	3796	ruteniom	
+97	3797	satanazet	
+98	3798	serbeg	
+99	3799	silisiom	
+100	3800	skobitell	

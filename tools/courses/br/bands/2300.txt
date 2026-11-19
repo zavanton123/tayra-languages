@@ -1,0 +1,100 @@
+1	2201	pianoour	bianoourez pianoourez pianoourien
+2	2202	riezad	riezadoù
+3	2203	gwalc'h	walc'h
+4	2204	floc'h	floc'hed
+5	2205	serb	serbed
+6	2206	tañva	dañva
+7	2207	treut	dreut treutoc'h
+8	2208	bac'hañ	bac'her bac'hiañ bac'hiñ pac'hañ vac'hañ
+9	2209	boutailh	boutailhoù voutailh
+10	2210	krank	c'hrank c'hranked kranked
+11	2211	sankañ	sank sankiñ sanko
+12	2212	dantañ	dantan dante dantes dantis tante zantañ
+13	2213	azeuldi	azeuldioù
+14	2214	boutailhad	boutailhadoù voutailhad voutailhadoù
+15	2215	boned	bonedoù foned
+16	2216	lestr-brezel	listri-brezel
+17	2217	lonker	lonkerez lonkerien
+18	2218	birviñ	bervet virviñ
+19	2219	bouc'hal	bouc'halioù bouc'hili vouc'hal
+20	2220	mengleuzier	mengleuzierien vengleuzierien
+21	2221	diskargañ	diskarg diskarget diskargiñ tiskargañ ziskargañ
+22	2222	gweledigezh	gweledigezhioù weledigezh weledigezhioù
+23	2223	gloazadenn	c'hloazadenn c'hloazadennoù gloazadennoù
+24	2224	kantreer	gantreer gantreerien kantreerien
+25	2225	gwastell	gwastilli gwestell wastell
+26	2226	c'hwezhañ	c'hwezhe c'hwezhiñ
+27	2227	soubenn	soubennoù
+28	2228	ec'hon	
+29	2229	prestañ	brestañ frestañ prestas prestet prestiñ presto
+30	2230	kanadian	c'hanadian ganadian ganadianez
+31	2231	koroll	c'horoll gorolloù korolloù
+32	2232	kaouenn	c'haouenned gaouenn kaouenned
+33	2233	kounnar	c'hounnar gounnar
+34	2234	rodal	rodas rode roden rodent roder rodes rodet rodez rodi rodin rodis rodit rodo rodor
+35	2235	hopal	hop hopañ hope hopiñ
+36	2236	tibetat	dibetaned tibetan tibetaned tibetiz
+37	2237	a-zevri	
+38	2238	da-gaout	
+39	2239	digablus	
+40	2240	finneg	
+41	2241	oksigen	
+42	2242	pemzektez	
+43	2243	sac'hañ	sac'het sac'hiñ
+44	2244	splujañ	splujiñ
+45	2245	dol	
+46	2246	dregantad	
+47	2247	e-ser	
+48	2248	hidrogen	
+49	2249	roc'hellek	
+50	2250	aberzhañ	aberzhiñ
+51	2251	feuket	
+52	2252	skinoberiek	
+53	2253	aluzen	aluzon
+54	2254	druzoni	zruzoni
+55	2255	ger-mell	gerioù-mell
+56	2256	hiraat	hira hirae
+57	2257	sabrenn	sabrennoù
+58	2258	besroue	vesrouanez vesroue
+59	2259	kroaziad	c'hroaziad groazidi kroazidi
+60	2260	estrañjour	estrañjourien
+61	2261	loupard	louparded
+62	2262	oadour	oadourien oadourion
+63	2263	trubarderezh	drubarderezh
+64	2264	frouezhus	frouezhusañ frouezhusoc'h
+65	2265	modernaat	vodernaat
+66	2266	trepas	drepas trepasoù
+67	2267	asied	asiedoù
+68	2268	gwaskañ	gwaskiñ kwaskañ waskañ
+69	2269	arc'hdug	arc'hduged arc'hdugez
+70	2270	kalvez	c'halvez gilvizien kilvizien
+71	2271	tevenn	tevennoù tevinier
+72	2272	tiern	dierned tierned
+73	2273	kiger	c'higer giger gigerien
+74	2274	krapañ	c'hrapañ grapat grapañ krapat kraper krapet krapiñ krapout
+75	2275	krez	c'hres c'hrez c'hrezioù rez
+76	2276	dar	daroù diri tar ziri
+77	2277	flastrañ	
+78	2278	israelat	
+79	2279	lealded	
+80	2280	ozhac'h	
+81	2281	peg	
+82	2282	renabliñ	
+83	2283	danat	
+84	2284	fiziout	
+85	2285	morzhol	
+86	2286	mouk	
+87	2287	pehini	
+88	2288	peotramant	
+89	2289	tornaod	
+90	2290	ezvezañs	
+91	2291	gouestlañ	gouestliñ
+92	2292	dizale	
+93	2293	pere	
+94	2294	arched	archedoù
+95	2295	druz	drusoc'h
+96	2296	lore	loreenn
+97	2297	mezv	vezv
+98	2298	rannbennad	rannbennadoù
+99	2299	displijus	displijusoc'h
+100	2300	maneg	manegoù vaneg

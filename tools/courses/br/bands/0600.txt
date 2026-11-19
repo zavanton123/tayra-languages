@@ -1,0 +1,100 @@
+1	501	hanter	
+2	502	pab	bab babed babez bibien fab pibien
+3	503	niverus	niverusañ niverusoc'h
+4	504	glas	c'hlas glasañ
+5	505	lid	lidoù
+6	506	kreisteiz	c'hreisteiz greisteiz
+7	507	gloazañ	c'hloaz c'hloazañ c'hloazet c'hloazioù gloaz gloazer gloazet gloazioù kloazañ
+8	508	kuzh	c'huzh guzh kuzhioù
+9	509	kuzul	c'huzul c'huzulioù guzul guzulioù kuzulioù
+10	510	niverenn	niverennoù
+11	511	prenañ	bren brenas brenañ brene brenerien brenet brenin brenont frenañ frenin pren prenan prenas prene prenec'h prened prenemp prenen prenent prener prenerien prenes prenet prenez prenfe prenfec'h prenfed prenfemp prenfen prenfent prenfes preni prenimp prenin prenint prenis prenit preniñ prenje prenjec'h prenjed prenjemp prenjen prenjent prenjes prenjoc'h prenjod prenjomp prenjont prenjout preno prenomp prenont prenor prenot
+12	512	aozañ	aoziñ
+13	513	mui	
+14	514	sklaer	sklaerat sklaerañ sklaeroc'h
+15	515	merkañ	merkas merke merken merker merket merkimp merkis merkit merkiñ merkoc'h merkot verkas verkañ verke verker verkiñ verko verkont
+16	516	hen	henañ
+17	517	istorour	istorourez istorourien istorourion
+18	518	perak	
+19	519	netra	
+20	520	mirdi	mirdioù virdi virdioù
+21	521	adkavout	adkavet
+22	522	toull	doull doullañ doulloù toullas toullañ toullet toulloù zoull
+23	523	boaz	boas boazioù voas voaz voazioù
+24	524	embannadur	embannadurioù
+25	525	a-us	
+26	526	kenwerzh	c'henwerzh c'henwerzhioù genwerzh
+27	527	don	donañ donoc'h zon zonañ zonoc'h
+28	528	e-kreiz	
+29	529	stal	stalioù
+30	530	lâret	lâras lâre
+31	531	mod	modoù vod
+32	532	degemer	degemeroù tegemer zegemer
+33	533	desket	desketoc'h zesket
+34	534	hengounel	hengouneloc'h
+35	535	tomm	domm dommañ dommoc'h tommañ tommoc'h zomm
+36	536	hennezh	
+37	537	dilhad	zilhad
+38	538	skiant	skiantoù
+39	539	polis	bolis polisoù
+40	540	kontrol	c'hontrol gontrol
+41	541	roud	roudoù
+42	542	forzh	forzhioù
+43	543	kar	c'har c'haroù c'herent garoù gerent kerent
+44	544	fellout	fell fellel
+45	545	beleg	belegez belegezed beleien beleion veleg velegez velegezed veleien veleion
+46	546	penn-kentañ	benn-kentañ
+47	547	bagad	bagadoù vagad vagadoù
+48	548	moger	mogerioù voger vogerioù
+49	549	gwez	gwezenn gwezennoù wez wezenn wezennoù
+50	550	kleiz	c'hleiz gleiz
+51	551	peoc'h	beoc'h
+52	552	distro	distroioù tistro zistro
+53	553	frankiz	frankizioù frankizoù
+54	554	beaj	beajoù veaj veajoù
+55	555	banniel	bannieloù vanniel
+56	556	stank	stankañ stanker stankoc'h stankoù
+57	557	geriadur	c'heriadur geriadurioù
+58	558	renkañ	renkan renkas renke renkec'h renked renkemp renken renkent renker renkes renket renkez renkfe renkfec'h renkfed renkfemp renkfen renkfent renkfes renki renkimp renkin renkint renkis renkit renkje renkjec'h renkjed renkjemp renkjen renkjent renkjes renkjoc'h renkjod renkjomp renkjon renkjont renkjout renko renkoc'h renkomp renkont renkor renkot
+59	559	korn	c'hern c'herniel c'horn c'hornioù gern gorn gornioù kern kerniel kernioù kornioù
+60	560	dreist	dreistañ zreist
+61	561	red	redoù
+62	562	harpañ	harpas harpe harped harper harpet harpis harpiñ
+63	563	genad	c'henad genadoù
+64	564	tour	dourioù tourioù
+65	565	del	deil delienn deliennoù delioù zelioù
+66	566	metr	metroù vetr
+67	567	delwenn	delwennoù zelwenn zelwennoù
+68	568	displegañ	displeg displeger displegis displegiñ displegoù tispleg tisplegañ tispleger zispleg zisplegañ zispleger zisplegiñ
+69	569	a-zivout	
+70	570	palez	balez balezioù falez falezioù palezioù
+71	571	brav	bravañ bravoc'h vrav vravañ vravoc'h
+72	572	skoazell	skoazelloù
+73	573	kaer	c'haer c'haerañ gaer gaerañ gaeroc'h kaerañ kaeroc'h
+74	574	dehou	dehoù zehou zehoù
+75	575	kalon	c'halon c'halonoù galon kalonoù
+76	576	tamm-ha-tamm	
+77	577	plant	blant blantenn blantennoù plantenn plantennoù
+78	578	staget	
+79	579	keltiek	c'heltieg geltieg geltiek keltek
+80	580	parrez	barrez barrezioù barrouz farrez parrezioù varrez
+81	581	hengoun	hengounioù
+82	582	marc'h	c'hezeg gezeg kezeg varc'h
+83	583	kuitaat	c'huitaat guita guitaat kuita kuitae kuitaont
+84	584	lies	liesañ liesoc'h
+85	585	talvoudegezh	dalvoudegezh dalvoudegezhioù talvoudegezhioù zalvoudegezh
+86	586	digor	digoroc'h tigor zigor
+87	587	park	bark barkeier parkeier parkoù vark varkoù
+88	588	karr	c'harr c'hirri garr girri kirri
+89	589	hañv	hañvoù
+90	590	enor	enorioù
+91	591	eured	euredoù
+92	592	lagad	daoulagad lagadoù zaoulagad
+93	593	pediñ	bedas bede beded bedi bediñ bedo fede fediñ fedor fedoù ped pedan pedas pede pedec'h peded pedemp peden pedent pedes pedet pedez pedfe pedfec'h pedfed pedfemp pedfen pedfent pedfes pedi pedimp pedin pedint pedis pedit pedje pedjec'h pedjed pedjemp pedjen pedjent pedjes pedjoc'h pedjod pedjomp pedjont pedjout pedo pedoc'h pedomp pedont pedor pedot veded
+94	594	perc'henn	berc'henn berc'henned berc'hennez ferc'henn ferc'henned perc'henned perc'hennez perc'hennezed
+95	595	kelenn	c'helenn c'helennoù gelenn gelennoù kelennenn kelennoù
+96	596	cheñch	cheñchañ cheñchiñ
+97	597	kleñved	c'hleñved c'hleñvedoù gleñved gleñvedoù kleñvedoù
+98	598	echu	
+99	599	kuzhat	c'huzhat guzhat guzhañ guzhet kuzhañ kuzhet kuzhiñ
+100	600	kontelezh	c'hontelezh c'hontelezhioù gontelezh kontelezhioù

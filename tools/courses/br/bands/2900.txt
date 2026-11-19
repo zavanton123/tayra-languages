@@ -1,0 +1,100 @@
+1	2801	latar	
+2	2802	sentus	
+3	2803	anadiñ	anado
+4	2804	aluzenour	aluzener
+5	2805	damez	
+6	2806	gwe	we
+7	2807	faezhañ	
+8	2808	lev	
+9	2809	pebr	
+10	2810	raz	
+11	2811	armel	
+12	2812	klañvidik	
+13	2813	brabant	vrabant
+14	2814	dioksigen	zioksigen
+15	2815	flemmañ	flemme flemmiñ
+16	2816	gov	c'hov
+17	2817	nezañ	neze neziñ
+18	2818	saludiñ	saludan saludas salude saluden saludent saluder saludes saludez saludin saludo
+19	2819	fulenn	fulenned
+20	2820	gouelec'h	gouelec'hioù
+21	2821	gwinegr	gwinêgr
+22	2822	seizañ	seize seized seizes seizet seizin
+23	2823	aspediñ	asped
+24	2824	marc'hegezh	varc'hegezh
+25	2825	rektor	rektored
+26	2826	irvin	irvinenn
+27	2827	brezelgar	vrezelgar
+28	2828	glanaat	c'hlanaat glana glanai glanais glanait
+29	2829	deliaouek	deliaoueg
+30	2830	tell-gastiz	dell-gastiz telloù-kastiz
+31	2831	eilmaer	eilmaerez
+32	2832	flourdilizenn	flourdiliz
+33	2833	fuzuilhañ	fuzuilher fuzuilherien fuzuilhiñ
+34	2834	krizded	c'hrizded grizded
+35	2835	krigner	c'hrignerien krignerien
+36	2836	milliget	villiget
+37	2837	prezegenner	brezegenner prezegennerien
+38	2838	sec'hed	
+39	2839	skol-vamm	skolioù-mamm
+40	2840	touellañ	douellañ zouellañ
+41	2841	binim	vinim
+42	2842	bouc'h	vouc'hed
+43	2843	fer	ferenn
+44	2844	gouiziek	gouiziekañ gouiziekoc'h
+45	2845	meurvorel	veurvorel
+46	2846	rastell	rastelloù restell
+47	2847	avielour	avielourien
+48	2848	badez	vadez
+49	2849	gweuz	diweuz weuz
+50	2850	douaroniour	douaroniourien
+51	2851	garzh	c'harzh girzhier
+52	2852	krougañ	grougañ
+53	2853	lugañ	lug lugas luge luged lugent luger luges lugez lugin lugis lugor
+54	2854	preñv	breñved preñved
+55	2855	moullerezh	voullerezh
+56	2856	dialañ	tialañ zialañ
+57	2857	beni	benioù veni
+58	2858	kap	c'hap
+59	2859	breutaer	breutaerien vreutaer vreutaerien
+60	2860	korporal	c'horporal gorporal
+61	2861	kemberiñ	gemberiñ kemberañ
+62	2862	morlenn	vorlenn
+63	2863	yunañ	yunimp yuniñ
+64	2864	kornek	gornek korniek
+65	2865	maeronez	vaeronez
+66	2866	araogenn	araogennoù
+67	2867	bevoniezh	vevoniezh
+68	2868	bugel-bihan	bugale-vihan vugale-vihan
+69	2869	krennvrezhoneg	c'hrennvrezhoneg
+70	2870	diazezourez	diazezerez diazezour ziazezour
+71	2871	dourañ	douras doure doured dourent dourer doures dourez douro tourañ touro zourañ
+72	2872	treujenn-gaol	dreujenn-gaol
+73	2873	karvan	c'harvan garvan
+74	2874	gwetur	gweturioù wetur
+75	2875	gwiriekaat	wiriekaat
+76	2876	madig	madigoù vadigoù
+77	2877	segal	segalenn segalennoù
+78	2878	sotoni	sotonioù
+79	2879	bagon	bagonioù fagon vagon
+80	2880	bonnañ	bonne bonnet bonnis bonniñ ponnañ vonnañ
+81	2881	roñfl	roñfled roñflez
+82	2882	bevoniour	vevoniour vevoniourien
+83	2883	lipat	lip lipan lipas lipañ liper lipis lipiñ lipor lipot
+84	2884	megin	meginoù vegin
+85	2885	spurmantiñ	spurmantas spurmantet spurmantis
+86	2886	glavek	c'hlavekañ glaviek
+87	2887	arruout	arru arruas arrue arruent
+88	2888	karedig	c'haredig garedig
+89	2889	dourvarc'h	dourvarc'hed zourvarc'h
+90	2890	tremeniad	dremenidi tremenidi
+91	2891	kouign	c'houign c'houignoù gouign kouignoù
+92	2892	kannerez	c'hanner ganner kanner kannerezed
+93	2893	proton	broton brotonenn protonenn
+94	2894	krenañ	grenañ grenet krenas krene krenfe krenfec'h krenfed krenfemp krenfen krenfent krenfes krenimp kreniñ krenoc'h krenor krenot
+95	2895	konifl	c'honifled c'honikl c'honikled gonifled
+96	2896	kourser	c'hourser gourser gourserien kourserien
+97	2897	deredek	derediñ deredout tered terede teredek zerede zeredek
+98	2898	madek	madeg
+99	2899	nant	
+100	2900	newton	

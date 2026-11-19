@@ -1,0 +1,100 @@
+1	3801	skrabañ	skrabat
+2	3802	skrij	
+3	3803	sonour	
+4	3804	souzañ	souz souzen souzet
+5	3805	spagnolegerez	spagnolegerien
+6	3806	stankted	
+7	3807	stleug	
+8	3808	stol	
+9	3809	stribourzh	
+10	3810	sulvezh	
+11	3811	tasad	
+12	3812	ti-emzivaded	
+13	3813	ti-gward	
+14	3814	ti-pediñ	
+15	3815	difluk	tifluk
+16	3816	traet	
+17	3817	troazhañ	droazhañ troazhiñ
+18	3818	uhelvarr	
+19	3819	uvelded	
+20	3820	vanadiom	
+21	3821	vandalerezh	
+22	3822	morouriezh	vorouriezh
+23	3823	moustrañ	moustriñ voustrañ
+24	3824	yezher	
+25	3825	alc'hweder	
+26	3826	amjestr	
+27	3827	anvadurezh	
+28	3828	balan	
+29	3829	put	but
+30	3830	fil	
+31	3831	mammig	
+32	3832	troazhus	
+33	3833	ac'hane	
+34	3834	adtremen	
+35	3835	adwelout	adweled
+36	3836	alkimiezh	
+37	3837	amresis	
+38	3838	astommañ	astommiñ
+39	3839	avelek	
+40	3840	dispredet	
+41	3841	diuzañ	
+42	3842	dizaon	
+43	3843	evezhierez	evezhier
+44	3844	gwenvidik	
+45	3845	hollandat	
+46	3846	intrañ	intras intre intred intriñ intro
+47	3847	ion	
+48	3848	kenavo	
+49	3849	largañ	large largiñ
+50	3850	leur-c'hoari	
+51	3851	liesyezhek	
+52	3852	maltouter	
+53	3853	paprika	
+54	3854	pil	
+55	3855	pobladur	
+56	3856	rog	
+57	3857	skuizhus	
+58	3858	sportva	
+59	3859	tarzhus	
+60	3860	tibeteg	
+61	3861	troadeg	
+62	3862	voulouz	
+63	3863	c'hwezekvet	
+64	3864	devri	zevri
+65	3865	kaleted	galeted
+66	3866	terzhienn-ruz	derzhienn-ruz
+67	3867	doan	toan
+68	3868	dube	tube
+69	3869	minic'hi	vinic'hi
+70	3870	a-uc'h	
+71	3871	afroamerikan	afroamerikaned
+72	3872	aksiom	aksiomoù
+73	3873	annev	annevioù
+74	3874	barr-avel	barroù-avel
+75	3875	barr-livañ	barroù-livañ
+76	3876	barver	varver
+77	3877	pignerez	bignerez fignerez
+78	3878	bismut	vismut
+79	3879	brom	vrom
+80	3880	bruzun	vruzun
+81	3881	kangourou	c'hangouroued
+82	3882	kardeur	c'hardeur
+83	3883	glazenn	c'hlazenn
+84	3884	klor	c'hlor
+85	3885	goulakadenn	c'houlakadenn goulakadennoù
+86	3886	chevr	chevrenn
+87	3887	dañjerusted	zañjerusted
+88	3888	tec'had	dec'hidi
+89	3889	digoadenn	digoadennoù
+90	3890	disentiñ	disentout zisentiñ
+91	3891	distardañ	distardiñ tistardañ zistardañ
+92	3892	divarregezh	zivarregezh
+93	3893	divinadell	divinadelloù
+94	3894	dizanaoudek	zizanaoudek
+95	3895	doareañ	doareiñ zoareañ
+96	3896	drougiezh	zrougiezh
+97	3897	turzhunell	durzhunell
+98	3898	enklotenn	enklotennoù
+99	3899	fentigell	fentigelloù
+100	3900	fust	fustoù
