@@ -2667,4 +2667,69 @@ EXCLUDE["haw"] = {
 }
 # Basque: Spanish and English words and syllables of the subtitles that the packs have as rare words (de, la, ge, ka, go).
 EXCLUDE["eu"] = EXCLUDE.get("eu", set()) | {"de", "ge", "la", "ma", "ka", "go", "no", "do", "tu", "mi", "ira", "ei", "ler", "the",
-                                            "and", "you", "my", "me", "new", "los", "san", "york"}
+                                            "and", "you", "my", "me", "new", "los", "san", "york", "look",
+                                            "martin", "erroma"}
+
+
+def _basque(word, forms):
+    return {form: [word] for form in forms.split()}
+
+
+# Basque forms the packs' tables also file under look-alikes, where the look-alike gets most of its count from them (baten
+# of bat under bakoitza and bata, hartzen of hartu under hartz "bear", the question words' cases under each other), and the
+# colloquial and joined spellings of the subtitles (nere, zan, ixten, sinisten, baitut).
+OVERRIDES["eu"] = {
+    **_basque("bat", "baten batek batekin batez bati bateko batentzat batengatik bategatik batak bataz batari bataren batan "
+                     "batetan batetara baton batetako batetarako batetatik batekoa batekoak"),
+    **_basque("batzuk", "batzuek batzuen batzuekin batzuei batzuentzat batzuengatik batzuetako batzuez"),
+    **_basque("bakoitz", "bakoitza bakoitzak bakoitzeko bakoitzari bakoitzaren bakoitzarekin bakoitzarentzat bakoitzarengatik "
+                         "bakoitzaz"),
+    **_basque("nor", "nork nori norena norekin norenak noren nortzuk norak norentzat norengatik norarekin norari noraren nortzuen "
+                     "nortzuek nortzuekin nortzuei nur"),
+    **_basque("zein", "zeinen zeintzuk zeinek zeini zeinekin zeintzuen zeintzuei"),
+    **_basque("zenbat", "zenbatek zenbatekin zenbati zenbaten"),
+    **_basque("zer", "zertara"),
+    **_basque("hartu", "hartzen hartzera hartzean hartzekoa"),
+    **_basque("zu", "zurekin zuretako"),
+    **_basque("bera", "beren berekin berentzat berengatik beragatik"),
+    **_basque("bere", "berean berekoak beretik bereko berekoa berera beretako berena"),
+    **_basque("bero", "beroa"),
+    **_basque("ero", "eroak"),
+    **_basque("utzi", "uzten"),
+    **_basque("landu", "lantzen"),
+    **_basque("bete", "betetako betez betetan"),
+    **_basque("sinetsi", "sinestea sinesteko sinesteak sinesteagatik sinestekoa sinestekoak sinesterik sinestera sinestearen "
+                         "sinesteari sinestean sinisten"),
+    **_basque("esan", "esate esateko esatea esatera esaterako esatean esateak esaterik esateari esatearen esateaz esatearekin "
+                      "esatetik esatekoak esatekoa esateagatik"),
+    **_basque("bizi", "bizitzen bizitzeko bizitzea bizitzera bizitzean bizitzeagatik"),
+    **_basque("iruditu", "iruditzen"),
+    **_basque("ohe", "ohera"),
+    **_basque("lur", "lurrera"),
+    **_basque("espetxe", "espetxera"),
+    **_basque("estatu", "estatuaren estatuak estatuan estatuari"),
+    **_basque("izu", "izua"),
+    **_basque("hatz", "hatza"),
+    **_basque("asko", "askok askotarako"),
+    **_basque("ni", "nere"),
+    **_basque("itxi", "ixten"),
+    **_basque("aurkeztu", "aurkezten"),
+    **_basque("gu", "gutako"),
+    **_basque("hona", "honaino"),
+    **_basque("aspaldi", "aspaldian"),
+    **_basque("kontra", "kontrako"),
+    **_basque("ahal", "ahalko"),
+    **_basque("pasatu", "pasako"),
+    **_basque("une", "unetxo"),
+    **_basque("iragan", "iragana"),
+    **_basque("pixka", "pixkat"),
+    **_basque("samar", "samarra"),
+    **_basque("aizu", "aizue"),
+    **_basque("bezala", "bezela"),
+    **_basque("izan", "zan zenidake baitu baitut baitzen"),
+    **_basque("egon", "baitago"),
+    **_basque("egin", "dagizut"),
+    **_basque("argal", "argal"),
+    **_basque("urduri", "urduri"),
+    **_basque("txoko", "txoko txokoa txokoak"),
+}

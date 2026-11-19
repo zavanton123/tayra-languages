@@ -2444,11 +2444,11 @@ BASQUE_VERBS = {
         +zeuzkaten
     """,
     # esan's own present and past (zer diozu? "what do you say?"), as the pack files them.
-    "esan": "diot diozu dio diogu diozue diote nioen zenioen zioen genioen zenioten zioten",
+    "esan": "+diot +diozu +dio +diogu +diozue +diote nioen zenioen zioen genioen zenioten zioten",
     "ekarri": "dakart dakarzu dakar dakargu dakarzue dakarte dakartzat dakartza nekarren zekarren",
     "eraman": "daramat daramazu darama daramagu daramazue daramate daramatzat daramatza neraman zeraman",
     "erabili": "darabilt darabilzu darabil darabilgu darabilte nerabilen zerabilen",
-    "iruditu": "dirudi dirudite dirudizu dirudit dirudizue zirudien ziruditen",
+    "iruditu": "+dirudi +dirudite dirudizu dirudit dirudizue zirudien ziruditen",
 }
 # dena "everything, all" (guztia), with its case forms: a word of its own, though spelled as den, izan's relative, with -a.
 BASQUE_DENA = "dena denak denek denok denei denen denekin denentzat denetan denetarik denari denaren denarekin"
@@ -2501,11 +2501,18 @@ BASQUE_WORDS = {
     "lehengo": "adj", "inola": "adv", "nolatan": "adv", "seguruenik": "adv", "txikitu": "verb", "txorakeria": "noun",
     "moldatu": "verb", "geldiarazi": "verb", "ikaratu": "verb", "berreskuratu": "verb", "luzaroan": "adv",
     "zeharkatu": "verb", "kontxo": "intj", "inportante": "adj", "hainbat": "det", "zenbait": "det", "akats": "noun",
-    "bahitu": "verb", "horrenbeste": "adv",
+    "bahitu": "verb", "horrenbeste": "adv", "kito": "intj", "zehazki": "adv", "urduri": "adj", "txoko": "noun", "sumatu": "verb",
+    "okertu": "verb", "sakatu": "verb", "aurreratu": "verb", "imajinatu": "verb", "inolaz": "adv", "nolanahi": "adv",
+    "zaintza": "noun", "harago": "adv", "estimatu": "verb", "komeni": "adj", "ezkero": "conj", "sendo": "adj", "inozo": "adj",
+    "babo": "adj", "epa": "intj", "apuntatu": "verb",
 }
+# Verbs the Polish pack calls nouns (aurkeztu "prezentować"), whose forms are made as a verb's.
+BASQUE_VERB_KIND = {"aurkeztu", "engainatu", "aspertu", "hunkitu", "trukatu", "txukundu", "eskiatu", "armagabetu"}
 # Forms that stay with a second word as well: zuen is ukan's past and zuek's genitive "your"; zuri "to you" and "white",
 # hari "to him" and "thread".
 BASQUE_SHARED = {"zuen": ["izan", "zuek"], "zuri": ["zu", "zuri"], "hari": ["hura", "hari"]}
+# esan's present is also the auxiliary with a dative (esan diot "I told him", eman dio "he gave him"): diot, diodan, badiozu.
+BASQUE_DATIVE_AUXILIARY = re.compile(r"^(?:ba)?dio")
 # The relative of izan's present in -a is in -en (da: den, dela; dira: diren, direla).
 BASQUE_IZAN_A = {"da", "dira", "gara", "zara"}
 # What a relative form (dudan, den) takes as a noun or adverb would: dudana, dudanean "when I have", dudanik.
@@ -2646,7 +2653,7 @@ def basque_relink(db, pos, lemmas, common):
             p = "prep" if p == "postp" else p
             if p not in WORD_POS or word != word_lc or not is_wordlike(word_lc) or len(word_lc) < 2:
                 continue
-            kinds_of[word_lc].add(p)
+            kinds_of[word_lc].add("verb" if word_lc in BASQUE_VERB_KIND else p)
             # A noun or adjective the English pack has only as a verb's radical (zati of zatitu) is a word, as zabal is.
             radical = word_lc not in pos and p in ("noun", "adj") and lemmas.get(word_lc) and all(
                 l in verbs and basque_radical(l) == word_lc for l in lemmas[word_lc])
@@ -2672,7 +2679,8 @@ def basque_relink(db, pos, lemmas, common):
     for form in BASQUE_DENA.split():
         overrides.setdefault(form, ["dena"])
     for form, verb in basque_verb_table().items():
-        overrides.setdefault(form, BASQUE_SHARED.get(form, [verb]))
+        both = verb == "esan" and BASQUE_DATIVE_AUXILIARY.match(form)
+        overrides.setdefault(form, BASQUE_SHARED.get(form, ["izan", "esan"] if both else [verb]))
     for word, text in BASQUE_PRONOUNS.items():
         for form in text.split():
             overrides.setdefault(form, BASQUE_SHARED.get(form, [word]))
