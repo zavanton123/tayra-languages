@@ -714,6 +714,18 @@ def russian_name_forms(names):
     return forms
 
 
+def mongolian_name_forms(names):
+    """The case forms of Mongolian names, by the list builder's paradigms (Дорж, Доржийн, Доржид, Доржоос, Доржтой)."""
+    import frequency_mongolian
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", name.lower()):
+            if part:
+                forms.add(part)
+                forms.update(frequency_mongolian.noun_forms(part))
+    return forms
+
+
 def armenian_name_forms(names):
     """
     The case forms of Armenian names, from their regular declension, with the article: Արամ, Արամը, Արամն, Արամի, Արամին,
@@ -2262,7 +2274,7 @@ QUESTION_HEADERS = {
         "Pertanyaan:", "Spurningar:", "Domande:", "質問：", "კითხვები:", "질문:", "Quaestiones:", "Klausimai:",
         "Прашања:", "Vragen:", "Spørsmål:", "Pytania:", "Perguntas:", "Întrebări:", "Вопросы:", "Vprašanja:",
         "Frågor:", "คำถาม:", "Mga tanong:", "Sorular:", "Запитання:", "問題：", "问题：", "wile sona:",
-        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:",
+        "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:",
     )
 }
 
@@ -2523,6 +2535,9 @@ def check(path, brief=False):
         names = set()
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
+    # Mongolian names take the case endings joined (Доржийн, Доржид, Ануг, Ховдоос).
+    if code == "mn":
+        names = names | mongolian_name_forms(course.get("names", []))
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
     # A Yiddish name takes the possessive -ס, or -עס after a sibilant, or -'ס (חנהס, מאָריסעס, מאָשע'ס).
@@ -2723,6 +2738,8 @@ def check(path, brief=False):
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
         if code == "tok":
             text = re.sub(r"(?m)^wile sona:", "", text)
+        if code == "mn":
+            text = re.sub(r"(?m)^Асуултууд:", "", text)
         if code == "hy":
             text = re.sub(r"(?m)^Հարցեր[:։․]", "", text)
             # A number's ending written after a hyphen (ժամը 7-ին, 5-րդ, 1990-ական) is part of the number.
