@@ -61,6 +61,13 @@ class LessonQuestionsTest {
     }
 
     @Test
+    fun theTeluguHeaderIsFound() {
+        val split = LessonQuestions.split("రాము హైదరాబాద్‌లో ఉంటాడు.\n\nప్రశ్నలు:\nరాము ఎక్కడ ఉంటాడు?\nరాము హైదరాబాద్‌లో ఉంటాడు.")
+        assertEquals("రాము హైదరాబాద్‌లో ఉంటాడు.", split?.text)
+        assertEquals(listOf(LessonQuestion("రాము ఎక్కడ ఉంటాడు?", "రాము హైదరాబాద్‌లో ఉంటాడు.")), split?.questions)
+    }
+
+    @Test
     fun theVietnameseHeaderIsFound() {
         val split = LessonQuestions.split("Lan ở Hà Nội.\n\nCâu hỏi:\nLan ở đâu?\nLan ở Hà Nội.")
         assertEquals(listOf(LessonQuestion("Lan ở đâu?", "Lan ở Hà Nội.")), split?.questions)
