@@ -37,7 +37,9 @@ import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import kotlin.test.assertTrue
 import androidx.compose.ui.test.hasScrollToIndexAction
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performScrollToNode
 import java.io.File
 import javax.imageio.ImageIO
@@ -81,17 +83,15 @@ class BooksScreenTest {
     /** The books a bulk action was asked for, by action. */
     private val bulk = mutableMapOf<String, List<String>>()
 
-    private fun ComposeUiTest.show(library: List<BookListItem> = books) = setContent {
-        var state by remember { mutableStateOf(BooksUiState(loading = false, books = library, wordsLearned = 349)) }
+    private fun ComposeUiTest.show(library: List<BookListItem> = books, phone: Boolean = false) = setContent {
+        var state by remember { mutableStateOf(BooksUiState(loading = false, books = library)) }
         IdiomikoTheme {
             ProvideWindowWidth {
                 CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
-                    Surface(color = MaterialTheme.colorScheme.background) {
+                    Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                         Column {
                             AppTopBar(title = "Idiomiko", onNavigate = {}, section = NavSection.BOOKS)
-                            BooksContent(
-                                state,
-                                BooksCallbacks(
+                            val callbacks = BooksCallbacks(
                                     onSort = { state = state.copy(sort = it) },
                                     onProgress = { state = state.copy(progress = it) },
                                     onTags = { tags, all -> state = state.copy(tags = tags, matchAllTags = all) },
@@ -100,8 +100,8 @@ class BooksScreenTest {
                                     onSelectAll = { all -> state = state.copy(selected = if (all) state.filteredBooks.map { it.id }.toSet() else emptySet()) },
                                     onArchiveSelected = { bulk["archive"] = state.selectedBooks.map { it.title } },
                                     onDeleteSelected = { bulk["delete"] = state.selectedBooks.map { it.title } },
-                                ),
-                            )
+                                )
+                            if (phone) PhoneBooksContent(state, callbacks, selecting = false, onDone = {}) else BooksContent(state, callbacks)
                         }
                     }
                 }
@@ -110,71 +110,73 @@ class BooksScreenTest {
     }
 
     @Test
-    fun theTableShowsReadingProgressStatusAndVocabulary() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun theTableShowsReadingProgressStatusAndVocabulary() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         show()
         waitForIdle()
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it) }
 
-        // Only the card of the book being read gives its page; the list does not.
-        onNodeWithText("Page 3 of 5 · 1,223 words").assertExists()
-        assertEquals(1, onAllNodesWithText("Page ", substring = true).fetchSemanticsNodes().size)
-        onNodeWithText("Continue reading").assertExists()
-        // The book being read is on its card only: the list below leaves it out, so it is not offered twice.
-        assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
+        // The card of the book being read gives its page and the minutes left; its row gives the page as its status.
+        onNodeWithText("Page 3 of 5 · ~13 min left").assertExists()
+        onNodeWithText("Page 3 of 5").assertExists()
+        onNodeWithText("CONTINUE READING").assertExists()
+        // The table lists every book, the one on the card too.
+        assertEquals(2, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
         assertTrue(onAllNodesWithText("40%").fetchSemanticsNodes().isNotEmpty())
-        // The tab; the one book in progress is the card's, so no badge of it shows in the list.
-        assertEquals(1, onAllNodesWithText("In progress").fetchSemanticsNodes().size)
-        assertEquals(5, onAllNodesWithText("Finished").fetchSemanticsNodes().size)
-        onNode(hasScrollToIndexAction()).performScrollToNode(hasText("6 books  ·  349 words learned"))
-        onNodeWithText("6 books  ·  349 words learned").assertExists()
-        onNodeWithText("Not opened yet").assertExists()
+        // The tab, and the four finished books' pills.
+        onNodeWithText("Reading 1").assertExists()
+        assertEquals(4, onAllNodesWithText("Finished").fetchSemanticsNodes().size)
+        onNode(hasScrollToIndexAction()).performScrollToNode(hasText("6 books · 2,391 words"))
+        onNodeWithText("6 books · 2,391 words").assertExists()
+        // A book never opened has no time.
+        onNodeWithText("—").assertExists()
     }
 
-    /** When the one match is the book in the continue card, the list says there is nothing else, not that the filters hide it. */
+    /** A filter matching only the book on the Continue card still lists it in the table. */
     @Test
-    fun aFilterMatchingOnlyTheContinuedBookOffersOtherBooks() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aFilterMatchingOnlyTheContinuedBookListsIt() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         show()
         onNodeWithTag("progress-READING").performClick()
         waitForIdle()
-        onNodeWithText("Continue reading").assertExists()
-        onNodeWithText("No other books yet").assertExists()
-        // The header's Find books and the empty list's own.
-        assertEquals(2, onAllNodesWithText("Find books").fetchSemanticsNodes().size)
+        onNodeWithText("CONTINUE READING").assertExists()
+        onNodeWithTag("book-row-1").assertExists()
+        onNodeWithText("No other books yet").assertDoesNotExist()
         onNodeWithText("No books match these filters.").assertDoesNotExist()
     }
 
     /** A phone library holding only the book being read shows its card and no claim that filters hide the rest. */
     @Test
     fun aPhoneLibraryOfOnlyTheContinuedBookOffersOtherBooks() = runDesktopComposeUiTest(width = 420, height = 900) {
-        show(books.take(1))
+        show(books.take(1), phone = true)
         waitForIdle()
-        onNodeWithText("Continue reading").assertExists()
+        onNodeWithText("CONTINUE READING").assertExists()
         onNode(hasScrollToIndexAction()).performScrollToNode(hasText("No other books yet"))
         onNodeWithText("No other books yet").assertExists()
         onNodeWithText("No books match these filters.").assertDoesNotExist()
     }
 
     @Test
-    fun theProgressTabsKeepOnlyMatchingBooks() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun theProgressTabsKeepOnlyMatchingBooks() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         show()
         onNodeWithTag("progress-NOT_STARTED").performClick()
         waitForIdle()
-        onNodeWithText("1 book").assertExists()
+        onNodeWithText("1 book · 420 words").assertExists()
         onNodeWithText("Not opened").assertExists()
-        // Only in the card of the book being read, not in the list.
+        // Only in the card of the book being read, which the filter leaves out of the table.
         assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
     }
 
     @Test
-    fun selectingBooksOffersTheBulkActions() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun selectingBooksOffersTheBulkActions() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         show()
         assertEquals(0, onAllNodesWithContentDescription("Select Long text").fetchSemanticsNodes().size, "no checkboxes until Select")
+        onNode(hasScrollToIndexAction()).performScrollToNode(hasTestTag("select-books"))
         onNodeWithTag("select-books").performClick()
+        onNodeWithContentDescription("Select Long text").performScrollTo()
         onNodeWithContentDescription("Select Long text").performClick()
         onNodeWithContentDescription("Select Demo").performClick()
         onNodeWithText("2 of 6 selected").assertExists()
         System.getenv("BOOKS_SELECTED_SCREENSHOT")?.let { save(it) }
-        onNodeWithText("Archive").performClick()
+        onNodeWithText("Archive").performScrollTo().performClick()
         waitForIdle()
         assertEquals(listOf("Long text", "Demo"), bulk["archive"])
 
@@ -185,14 +187,15 @@ class BooksScreenTest {
     }
 
     @Test
-    fun cardsCanBeSelectedToo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun cardsCanBeSelectedToo() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         show()
         onNodeWithContentDescription("grid view").performClick()
         System.getenv("BOOKS_GRID_SCREENSHOT")?.let { save(it) }
+        onNode(hasScrollToIndexAction()).performScrollToNode(hasTestTag("select-books"))
         onNodeWithTag("select-books").performClick()
         onNodeWithContentDescription("Select Short Demo").performClick()
         onNodeWithText("1 of 6 selected").assertExists()
-        onNodeWithText("Delete").performClick()
+        onNodeWithText("Delete").performScrollTo().performClick()
         waitForIdle()
         assertEquals(listOf("Short Demo"), bulk["delete"])
         onNodeWithTag("done-selecting").performClick()
@@ -218,11 +221,11 @@ class BooksScreenTest {
     fun aPhoneListsBooksAsCardsAndFiltersFromSheets() = runDesktopComposeUiTest(width = 400, height = 1400) {
         var selecting by mutableStateOf(false)
         setContent {
-            var state by remember { mutableStateOf(BooksUiState(loading = false, books = books, wordsLearned = 349)) }
+            var state by remember { mutableStateOf(BooksUiState(loading = false, books = books)) }
             IdiomikoTheme {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
-                        Surface(color = MaterialTheme.colorScheme.background) {
+                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             Column {
                                 AppTopBar(title = "Books", onNavigate = {}, section = NavSection.BOOKS, actions = { PhoneBooksMenu(archived = false, selecting, onSelecting = { selecting = it }, onNewBook = {}, onArchive = {}) })
                                 PhoneBooksContent(
@@ -245,32 +248,27 @@ class BooksScreenTest {
             }
         }
         waitForIdle()
-        onNodeWithText("Page 3 of 5 · 1,223 words").assertExists()
-        onNodeWithText("40% read").assertExists()
-        onNodeWithText("69% known").assertExists()
-        onNodeWithText("Your library").assertExists()
+        onNodeWithText("Page 3 of 5 · ~13 min left").assertExists()
+        onNodeWithText("Pages read").assertExists()
+        onNodeWithText("69%").assertExists()
+        onNodeWithText("Your library").assertDoesNotExist()
         onNodeWithText("Read, learn, and build your vocabulary with every text.").assertDoesNotExist()
         assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
         onNodeWithTag("book-row-1").assertDoesNotExist()
-        onNodeWithText("example.com", substring = true).assertExists()
-        onNodeWithText("100% read · 74% known").assertExists()
+        onNodeWithText("103 words · ~2 min").assertExists()
+        onNodeWithText("74% known").assertExists()
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 
-        // Progress joins the other controls in a sheet rather than taking a separate tab row.
-        onNodeWithTag("phone-progress").performClick()
-        onNodeWithText("Not started").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("book-row-6").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Not opened yet", substring = true).assertExists()
-        onNodeWithTag("phone-progress").performClick()
-        onNodeWithText("All progress").performClick()
-
-        // Sorting from the sheet.
-        onNodeWithTag("phone-sort").performClick()
-        onNodeWithText("Title").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Title").fetchSemanticsNodes().size == 1 }
-
-        // The tags from the sheet, applied at once.
+        // The status, the tags and the order share one sheet behind Filters.
         onNodeWithTag("phone-filters").performClick()
+        onNodeWithTag("status-NOT_STARTED").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("book-row-6").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("too hard now").assertExists()
+        onNodeWithTag("status-ALL").performClick()
+        onNodeWithTag("sort-TITLE").performClick()
+
+        // The full tag filter, applied at once.
+        onNodeWithTag("tag-filter").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("tag-news").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("tag-news").performClick()
         onNodeWithTag("apply-tags").performClick()
@@ -280,7 +278,7 @@ class BooksScreenTest {
         // Ticking books starts from the bar's menu.
         onNodeWithContentDescription("List actions").performClick()
         onNodeWithText("Select books").performClick()
-        onNodeWithText("Continue reading").assertDoesNotExist()
+        onNodeWithText("CONTINUE READING").assertDoesNotExist()
         onNodeWithTag("book-row-1").assertExists()
         onNodeWithContentDescription("Select A Maldição").performClick()
         onNodeWithText("1 of 2 selected").assertExists()
@@ -300,7 +298,7 @@ class BooksScreenTest {
                         LocalDensity provides Density(density.density, 1.3f),
                         LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {},
                     ) {
-                        Surface(color = MaterialTheme.colorScheme.background) {
+                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             PhoneBooksContent(BooksUiState(loading = false, books = books), BooksCallbacks(), selecting = false, onDone = {})
                         }
                     }
@@ -309,7 +307,7 @@ class BooksScreenTest {
         }
         waitForIdle()
         val rootWidth = onAllNodes(isRoot())[0].fetchSemanticsNode().size.width
-        listOf("phone-progress", "phone-filters", "phone-sort").forEach { tag ->
+        listOf("phone-filters").forEach { tag ->
             val node = onNodeWithTag(tag).assertIsDisplayed().fetchSemanticsNode()
             assertTrue(node.positionInRoot.x >= 0f && node.positionInRoot.x + node.size.width <= rootWidth, "$tag stays inside the viewport at 130% text")
         }
@@ -317,14 +315,14 @@ class BooksScreenTest {
 
     /** An empty library offers the language's free book pack, and the offer waits while it downloads. */
     @Test
-    fun anEmptyLibraryOffersTheBookPack() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun anEmptyLibraryOffersTheBookPack() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         var state by mutableStateOf(BooksUiState(loading = false, books = emptyList(), languages = emptyList(), currentLanguageId = 1, packAvailable = true))
         var asked = 0
         setContent {
             IdiomikoTheme {
                 ProvideWindowWidth {
                     CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
-                        Surface(color = MaterialTheme.colorScheme.background) {
+                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             Column {
                                 AppTopBar(title = "Idiomiko", onNavigate = {}, section = NavSection.BOOKS)
                                 BooksContent(state.copy(languages = listOf(com.idiomiko.core.domain.model.Language(id = 1, name = "Portuguese"))), BooksCallbacks(onDownloadBooks = { asked++ }))
@@ -344,23 +342,23 @@ class BooksScreenTest {
     }
 
     @Test
-    fun theBooksCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun theBooksCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         show()
         waitForIdle()
         onNodeWithTag("tag-filter").performClick()
         onNodeWithTag("tag-news").performClick()
         onNodeWithTag("tag-travel").performClick()
         onNodeWithTag("apply-tags").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("3 books").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("3 books · 1,489 words").fetchSemanticsNodes().isNotEmpty() }
         for (title in listOf("Long text", "Um sábado tranquilo", "A Maldição")) assertTrue(onAllNodesWithText(title).fetchSemanticsNodes().isNotEmpty(), title)
         assertEquals(0, onAllNodesWithText("Demo").fetchSemanticsNodes().size)
 
         onNodeWithTag("tag-filter").performClick()
         onNodeWithTag("match-all").performClick()
         onNodeWithTag("apply-tags").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 book").fetchSemanticsNodes().isNotEmpty() }
-        // In the card of the book being read only, not again in the list.
-        assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 book · 1,223 words").fetchSemanticsNodes().isNotEmpty() }
+        // On the card of the book being read, and as the one row of the table.
+        assertEquals(2, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
     }
 
 }

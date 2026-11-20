@@ -3,15 +3,22 @@ package com.idiomiko.core.ui.i18n.zh
 /** The home page with its book list and archive, the book form, bookmarks and page editing. */
 internal val zhBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
-    "Read, learn, and build your vocabulary with every text." to "阅读、学习，每篇文本都让你的词汇量更进一步。",
     "Continue reading" to "继续阅读",
-    "Your library" to "我的书库",
     "Select" to "选择",
     "Search titles or tags" to "搜索标题或标签",
     "Done" to "完成",
     "{1} books" to "{1} 本书",
-    "{1} words learned" to "已学会 {1} 个单词",
     "Recently opened" to "最近打开",
+    "Find books online" to "在线查找图书",
+    "Page {0} of {1} · ~{2} min left" to "第 {0} 页，共 {1} 页 · 还剩约 {2} 分钟",
+    "Words you know" to "你认识的词",
+    "Words known" to "认识的词",
+    "Opened" to "打开时间",
+    "hard for you" to "对你有难度",
+    "too hard now" to "目前太难",
+    "Read again" to "再读一遍",
+    "Select to archive or delete several" to "选择多本书以归档或删除",
+    "Select to unarchive or delete several" to "选择多本书以取消归档或删除",
     // BooksScreen.kt
     "Archived books" to "已归档的书籍",
     "Delete \"{0}\"?" to "删除“{0}”？",
@@ -34,9 +41,7 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Add a book" to "添加书籍",
     // PhoneBooks.kt
     "Select books" to "选择书籍",
-    "{0}% read" to "已读 {0}%",
     "{0}% known" to "已掌握 {0}%",
-    "Page {0} of {1} · {2}" to "第 {0} 页，共 {1} 页 · {2}",
     "Book" to "书籍",
     "{0} of {1} selected" to "已选择 {0}/{1}",
     "{0} books" to "{0} 本书",
@@ -44,13 +49,8 @@ internal val zhBooks: Map<String, String> = mapOf(
     "list view" to "列表视图",
     "grid view" to "网格视图",
     "Select all books" to "选择全部书籍",
-    "Reading progress" to "阅读进度",
-    "Vocabulary known" to "已掌握词汇",
-    "Last opened" to "上次打开",
-    "Not opened yet" to "尚未打开",
     "In progress" to "进行中",
     "Finished" to "已读完",
-    "Opened {0}" to "打开于{0}",
     "Select {0}" to "选择“{0}”",
     "Delete {0} selected" to "删除所选（{0}）",
     "Delete selected" to "删除所选",
@@ -71,7 +71,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     // BooksViewModel.kt: sort and progress labels, shown through tr(label).
     "Recently read" to "最近阅读",
     "Title" to "标题",
-    "All progress" to "全部进度",
     "Not started" to "未开始",
 
     // BookFormScreen.kt

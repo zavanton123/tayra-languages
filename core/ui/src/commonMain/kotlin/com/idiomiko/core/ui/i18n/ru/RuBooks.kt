@@ -3,15 +3,22 @@ package com.idiomiko.core.ui.i18n.ru
 /** The home page with its book list and archive, the book form, bookmarks and page editing. */
 internal val ruBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
-    "Read, learn, and build your vocabulary with every text." to "Читайте, учитесь и пополняйте словарный запас с каждым текстом.",
     "Continue reading" to "Продолжить чтение",
-    "Your library" to "Ваша библиотека",
     "Select" to "Выбрать",
     "Search titles or tags" to "Поиск по названиям и тегам",
     "Done" to "Готово",
     "{1} books" to "{1} книга|{1} книги|{1} книг",
-    "{1} words learned" to "{1} слово выучено|{1} слова выучено|{1} слов выучено",
     "Recently opened" to "Недавно открытые",
+    "Find books online" to "Найти книги онлайн",
+    "Page {0} of {1} · ~{2} min left" to "Страница {0} из {1} · осталось ~{2} мин",
+    "Words you know" to "Знакомые вам слова",
+    "Words known" to "Знакомые слова",
+    "Opened" to "Открыта",
+    "hard for you" to "сложно для вас",
+    "too hard now" to "пока слишком сложно",
+    "Read again" to "Перечитать",
+    "Select to archive or delete several" to "Выберите несколько, чтобы архивировать или удалить",
+    "Select to unarchive or delete several" to "Выберите несколько, чтобы вернуть из архива или удалить",
     // BooksScreen.kt
     "Archived books" to "Книги в архиве",
     "Delete \"{0}\"?" to "Удалить «{0}»?",
@@ -34,9 +41,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Add a book" to "Добавить книгу",
     // PhoneBooks.kt
     "Select books" to "Выбрать книги",
-    "{0}% read" to "{0}% прочитано",
     "{0}% known" to "{0}% известно",
-    "Page {0} of {1} · {2}" to "Страница {0} из {1} · {2}",
     "Book" to "Книга",
     "{0} of {1} selected" to "Выбрано {0} из {1}",
     "{0} books" to "{0} книга|{0} книги|{0} книг",
@@ -44,13 +49,8 @@ internal val ruBooks: Map<String, String> = mapOf(
     "list view" to "Вид списком",
     "grid view" to "Вид плиткой",
     "Select all books" to "Выбрать все книги",
-    "Reading progress" to "Прогресс чтения",
-    "Vocabulary known" to "Знакомые слова",
-    "Last opened" to "Последнее открытие",
-    "Not opened yet" to "Ещё не открывалась",
     "In progress" to "В процессе",
     "Finished" to "Прочитано",
-    "Opened {0}" to "Открыта {0}",
     "Select {0}" to "Выбрать «{0}»",
     "Delete {0} selected" to "Удалить выбранные ({0})",
     "Delete selected" to "Удалить выбранные",
@@ -71,7 +71,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     // BooksViewModel.kt: sort and progress labels, shown through tr(label).
     "Recently read" to "Недавно прочитанные",
     "Title" to "Название",
-    "All progress" to "Любой прогресс",
     "Not started" to "Не начато",
 
     // BookFormScreen.kt

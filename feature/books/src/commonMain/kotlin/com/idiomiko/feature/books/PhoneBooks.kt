@@ -9,12 +9,13 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
@@ -29,35 +30,34 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.model.BookListItem
+import com.idiomiko.core.ui.components.AppBottomSheet
 import com.idiomiko.core.ui.components.AppIconButton
+import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.ButtonSize
+import com.idiomiko.core.ui.components.ChipSize
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
+import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.OverflowMenu
-import com.idiomiko.core.ui.components.PickerSheet
 import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.ProgressTrack
 import com.idiomiko.core.ui.components.ScrollList
 import com.idiomiko.core.ui.components.SearchField
-import com.idiomiko.core.ui.components.SelectButton
+import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.SelectableChip
 import com.idiomiko.core.ui.components.TagFilterSheet
-import com.idiomiko.core.ui.components.TintedSurface
-import com.idiomiko.core.ui.components.ToggleButton
+import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.itemMotion
 import com.idiomiko.core.ui.components.pressScale
-import com.idiomiko.core.ui.components.relativeTo
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
-import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
@@ -76,8 +76,8 @@ internal fun PhoneBooksMenu(archived: Boolean, selecting: Boolean, onSelecting: 
 }
 
 /**
- * The books on a phone: the one being read as a card to go on with, two compact browsing rows,
- * and the library as a dense reading queue.
+ * The books on a phone, in one column: the one being read as a card to go on with, the search with the
+ * status, tags and order behind Filters, and the library as cards.
  */
 @Composable
 internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, selecting: Boolean, onDone: () -> Unit, modifier: Modifier = Modifier) {
@@ -87,79 +87,46 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
     val continued = state.continueWith?.takeIf { !state.archived && !showChecks }
     val books = continued?.let { shown -> state.filteredBooks.filter { it.id != shown.id } } ?: state.filteredBooks
     var sheet by remember { mutableStateOf<PhoneBooksSheet?>(null) }
-    ScrollList(modifier.fillMaxSize(), contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
+    ScrollList(
+        modifier.fillMaxSize(),
+        contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
         if (state.archived && state.books.isEmpty()) {
             item { EmptyArchive() }
             return@ScrollList
         } else if (state.archived) {
-            item {
-                Text(tr("Books you have set aside. Unarchive one to keep reading it."), Modifier.padding(bottom = AppSpacing.l), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            }
+            item { Text(tr("Books you have set aside. Unarchive one to keep reading it."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
         } else if (state.books.isEmpty()) {
-            item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks) }
+            item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks, callbacks.onFindBooks) }
             return@ScrollList
         } else {
             continued?.let { book -> item { PhoneContinueCard(book) { callbacks.onOpen(book) } } }
         }
-        item { SearchField(state.search, callbacks.onSearch, tr("Search titles or tags"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m)) }
         item {
-            Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                SelectButton(
-                    state.progress.tabLabel,
-                    onClick = { sheet = PhoneBooksSheet.PROGRESS },
-                    modifier = Modifier.weight(1f).testTag("phone-progress"),
-                    active = state.progress != ProgressFilter.ALL,
-                )
-                ToggleButton(
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                SearchField(state.search, callbacks.onSearch, tr("Search titles or tags"), Modifier.weight(1f))
+                SecondaryButton(
                     tr("Filters"),
-                    active = state.tags.isNotEmpty(),
                     onClick = { sheet = PhoneBooksSheet.FILTERS },
-                    modifier = Modifier.weight(1f).testTag("phone-filters"),
-                    badge = if (state.tags.isEmpty()) 0 else 1,
-                    enabled = state.availableTags.isNotEmpty(),
+                    modifier = Modifier.testTag("phone-filters"),
+                    icon = AppIcons.Tune,
+                    badge = state.filterCount.takeIf { it > 0 },
                 )
-                ToggleButton(tr("Sort"), active = false, onClick = { sheet = PhoneBooksSheet.SORT }, modifier = Modifier.weight(1f).testTag("phone-sort"))
             }
         }
-        item {
-            if (showChecks) {
-                BooksSelectionBar(state, callbacks, onDone)
-            } else {
-                Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-                    Text(if (state.archived) tr("Archive") else tr("Your library"), Modifier.weight(1f), style = AppText.sectionTitle)
-                    Text(tr(state.sort.label), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                }
-            }
-        }
+        if (showChecks) item { BooksSelectionBar(state, callbacks, onDone) }
         if (books.isEmpty()) {
             item { NoBooks(state.archived, callbacks.onNewBook, onlyContinued = state.filteredBooks.isNotEmpty(), onFindBooks = callbacks.onFindBooks) }
         } else {
-            items(books.size, key = { books[it].id }) { i -> Column(itemMotion()) {
-                PhoneBookCard(books[i], books[i].id in state.selected, showChecks, callbacks)
-                Spacer(Modifier.height(AppSpacing.m))
-            }}
+            items(books.size, key = { books[it].id }) { i -> Box(itemMotion()) { PhoneBookCard(books[i], books[i].id in state.selected, showChecks, callbacks) } }
         }
-        item { Footer(state) }
+        item { LibraryFooter(state, onSelect = null, Modifier.padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xs)) }
     }
 
     when (sheet) {
-        PhoneBooksSheet.PROGRESS -> PickerSheet(
-            title = tr("Progress"),
-            options = ProgressFilter.entries,
-            selected = state.progress,
-            label = { tr(it.label) },
-            onDismiss = { sheet = null },
-            onPick = { callbacks.onProgress(it); sheet = null },
-        )
-        PhoneBooksSheet.SORT -> PickerSheet(
-            title = tr("Sort"),
-            options = BookSort.entries,
-            selected = state.sort,
-            label = { tr(it.label) },
-            onDismiss = { sheet = null },
-            onPick = { callbacks.onSort(it); sheet = null },
-        )
-        PhoneBooksSheet.FILTERS -> TagFilterSheet(
+        PhoneBooksSheet.FILTERS -> PhoneFiltersSheet(state, callbacks, onTags = { sheet = PhoneBooksSheet.TAGS }, onDismiss = { sheet = null })
+        PhoneBooksSheet.TAGS -> TagFilterSheet(
             state.availableTags,
             state.tags,
             state.matchAllTags,
@@ -170,88 +137,107 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
     }
 }
 
-private enum class PhoneBooksSheet { PROGRESS, FILTERS, SORT }
+private enum class PhoneBooksSheet { FILTERS, TAGS }
 
-/** The book being read most recently: its cover, where the reader is, the two bars and the way back in. */
+/** The filters behind the Filters button: the status, the most used tags with the way to all of them, and the order. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
+private fun PhoneFiltersSheet(state: BooksUiState, callbacks: BooksCallbacks, onTags: () -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    TintedSurface(colors.primary, Modifier.padding(bottom = AppSpacing.l), shape = AppShapes.large, verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            BookCover(book, 56.dp)
-            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(tr("Continue reading"), style = AppText.smallTitle, color = colors.primary)
-                Text(book.title.inLearnedScript(), style = AppText.sectionTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                Text(tr("Page {0} of {1} · {2}", book.currentPage, book.pageCount, words(book.wordCount)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+    val chips: @Composable (@Composable () -> Unit) -> Unit = { content ->
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) { content() }
+    }
+    AppBottomSheet(onDismissRequest = onDismiss) {
+        Column(
+            Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m).testTag("filters-sheet"),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        ) {
+            Text(tr("Filters"), style = AppText.itemTitle)
+            Text(tr("Status"), style = AppText.emphasis, color = colors.onSurfaceVariant)
+            chips {
+                ProgressFilter.entries.forEach { filter ->
+                    SelectableChip(
+                        tr(filter.label),
+                        selected = state.progress == filter,
+                        onClick = { callbacks.onProgress(filter) },
+                        modifier = Modifier.testTag("status-${filter.name}"),
+                        count = state.counts[filter] ?: 0,
+                        size = ChipSize.Small,
+                    )
+                }
+            }
+            if (state.availableTags.isNotEmpty()) {
+                Text(tr("Tags"), style = AppText.emphasis, color = colors.onSurfaceVariant)
+                chips {
+                    state.availableTags.take(SHEET_TAGS).forEach { tag ->
+                        SelectableChip(
+                            "#$tag",
+                            selected = tag in state.tags,
+                            onClick = { callbacks.onTags(if (tag in state.tags) state.tags - tag else state.tags + tag, state.matchAllTags) },
+                            modifier = Modifier.testTag("tag-chip-$tag"),
+                            tint = AppAccents.purple,
+                            size = ChipSize.Small,
+                        )
+                    }
+                    LinkText(tr("Filter by tags"), onTags, Modifier.testTag("tag-filter"), icon = AppIcons.Tag, style = MaterialTheme.typography.bodyMedium)
+                }
+            }
+            Text(tr("Sort"), style = AppText.emphasis, color = colors.onSurfaceVariant)
+            chips {
+                BookSort.entries.forEach { sort ->
+                    SelectableChip(tr(sort.label), selected = state.sort == sort, onClick = { callbacks.onSort(sort) }, modifier = Modifier.testTag("sort-${sort.name}"), size = ChipSize.Small)
+                }
             }
         }
-        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            LabelledBar(tr("{0}% read", book.progressPercent), book.progressPercent, AppAccents.blue, Modifier.weight(1f))
-            LabelledBar(book.masteryPercent?.let { tr("{0}% known", it) } ?: "…", book.masteryPercent, AppAccents.green, Modifier.weight(1f))
+    }
+}
+
+/** The book being read most recently: its cover, where the reader is, the two shares and the way back in. */
+@Composable
+internal fun PhoneContinueCard(book: BookListItem, onContinue: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l).testTag("continue-card"), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            BookCover(book, PHONE_CONTINUE_COVER)
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                Text(tr("Continue reading").uppercase(), style = AppText.overline, color = colors.primary)
+                Text(book.title.inLearnedScript(), style = AppText.sectionTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                Text(placeLine(book), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
         }
+        ContinueBars(book, Modifier.fillMaxWidth(), spacing = AppSpacing.l, vertical = false)
         PrimaryButton(tr("Continue"), onClick = onContinue, modifier = Modifier.fillMaxWidth().testTag("continue-reading"), size = ButtonSize.Large)
     }
 }
 
-/** A compact metric with its label above the bar, so translated text can grow without clipping. */
-@Composable
-private fun LabelledBar(label: String, percent: Int?, color: Color, modifier: Modifier = Modifier) {
-    val colors = MaterialTheme.colorScheme
-    Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-        Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
-        ProgressTrack((percent ?: 0) / 100f, color, Modifier.fillMaxWidth(), height = AppSizes.trackThick)
-    }
-}
-
-/** A book as a dense queue row: cover, title, one useful metadata line, and an exceptional status. */
+/** A book as a card: cover, title, length, the share of its words known, and its progress ring. */
 @Composable
 private fun PhoneBookCard(book: BookListItem, selected: Boolean, selecting: Boolean, callbacks: BooksCallbacks) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.card
     val press = remember { MutableInteractionSource() }
-    Column(
+    Row(
         Modifier.fillMaxWidth().pressScale(press).clip(shape).border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), shape)
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
             .clickable(press, LocalIndication.current) { if (selecting) callbacks.onToggle(book) else callbacks.onOpen(book) }
             .testTag("book-row-${book.id}").padding(start = AppSpacing.m, end = AppSpacing.xs, top = AppSpacing.m, bottom = AppSpacing.m),
+        verticalAlignment = Alignment.CenterVertically,
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            if (selecting) Box(Modifier.padding(end = AppSpacing.xs)) { BookCheckbox(book, selected, callbacks) }
-            BookCover(book, 44.dp)
-            Spacer(Modifier.width(AppSpacing.m))
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    Text(book.title.inLearnedScript(), Modifier.weight(1f), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                    if (book.readingStatus == ReadingStatus.FINISHED) {
-                        Text(tr("Finished"), style = AppText.label, color = AppAccents.green, maxLines = 1)
-                    }
-                }
-                Text(bookMetadata(book), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(
-                    buildList {
-                        add(tr("{0}% read", book.progressPercent))
-                        book.masteryPercent?.let { add(tr("{0}% known", it)) }
-                    }.joinToString(" · "),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = colors.onSurfaceVariant,
-                    maxLines = 1,
-                )
-            }
-            BookMenu(book, callbacks)
+        if (selecting) Box(Modifier.padding(end = AppSpacing.xs)) { BookCheckbox(book, selected, callbacks) }
+        BookCover(book, THUMB)
+        Spacer(Modifier.width(AppSpacing.m))
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+            Text(book.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(lengthLine(book), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            KnownShare(book, labelled = true)
         }
+        Spacer(Modifier.width(AppSpacing.s))
+        ProgressRing(book, SMALL_RING)
+        BookMenu(book, callbacks, selecting)
     }
 }
 
-private fun bookMetadata(book: BookListItem): String = buildList {
-    add(words(book.wordCount))
-    book.sourceUri?.takeIf { it.isNotBlank() }?.let { add(compactSource(it)) }
-    add(book.lastOpened?.let { tr("Opened {0}", it.relativeTo()) } ?: tr("Not opened yet"))
-}.joinToString(" · ")
+private val PHONE_CONTINUE_COVER = 56.dp
 
-/** A readable host for web sources and a filename for imported local sources. */
-private fun compactSource(source: String): String {
-    val afterScheme = source.substringAfter("://", source)
-    val host = afterScheme.substringBefore('/').removePrefix("www.")
-    val filename = source.substringAfterLast('/').substringAfterLast('\\')
-    return host.takeIf { it.isNotBlank() } ?: filename.ifBlank { source }
-}
+/** The most used tags the Filters sheet offers as chips; the rest are behind Filter by tags. */
+private const val SHEET_TAGS = 6

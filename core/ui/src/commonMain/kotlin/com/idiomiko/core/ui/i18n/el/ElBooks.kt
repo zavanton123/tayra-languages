@@ -3,15 +3,22 @@ package com.idiomiko.core.ui.i18n.el
 /** The home page with its book list and archive, the book form, bookmarks and page editing. */
 internal val elBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
-    "Read, learn, and build your vocabulary with every text." to "Διαβάστε, μάθετε και εμπλουτίστε το λεξιλόγιό σας με κάθε κείμενο.",
     "Continue reading" to "Συνέχεια ανάγνωσης",
-    "Your library" to "Η βιβλιοθήκη σας",
     "Select" to "Επιλογή",
     "Search titles or tags" to "Αναζήτηση τίτλων ή ετικετών",
     "Done" to "Τέλος",
     "{1} books" to "{1} βιβλίο|{1} βιβλία",
-    "{1} words learned" to "{1} λέξη μαθεμένη|{1} λέξεις μαθεμένες",
     "Recently opened" to "Άνοιξαν πρόσφατα",
+    "Find books online" to "Βρείτε βιβλία στο διαδίκτυο",
+    "Page {0} of {1} · ~{2} min left" to "Σελίδα {0} από {1} · απομένουν ~{2} λεπ.",
+    "Words you know" to "Λέξεις που γνωρίζετε",
+    "Words known" to "Γνωστές λέξεις",
+    "Opened" to "Άνοιγμα",
+    "hard for you" to "δύσκολο για εσάς",
+    "too hard now" to "πολύ δύσκολο προς το παρόν",
+    "Read again" to "Διαβάστε ξανά",
+    "Select to archive or delete several" to "Επιλέξτε πολλά για αρχειοθέτηση ή διαγραφή",
+    "Select to unarchive or delete several" to "Επιλέξτε πολλά για επαναφορά από το αρχείο ή διαγραφή",
     // BooksScreen.kt
     "Archived books" to "Αρχειοθετημένα βιβλία",
     "Delete \"{0}\"?" to "Διαγραφή «{0}»;",
@@ -34,9 +41,7 @@ internal val elBooks: Map<String, String> = mapOf(
     "Add a book" to "Προσθήκη βιβλίου",
     // PhoneBooks.kt
     "Select books" to "Επιλογή βιβλίων",
-    "{0}% read" to "{0}% διαβασμένο",
     "{0}% known" to "{0}% γνωστό",
-    "Page {0} of {1} · {2}" to "Σελίδα {0} από {1} · {2}",
     "Book" to "Βιβλίο",
     "{0} of {1} selected" to "Επιλέχθηκαν {0} από {1}",
     "{0} books" to "{0} βιβλίο|{0} βιβλία",
@@ -44,13 +49,8 @@ internal val elBooks: Map<String, String> = mapOf(
     "list view" to "Προβολή λίστας",
     "grid view" to "Προβολή πλέγματος",
     "Select all books" to "Επιλογή όλων των βιβλίων",
-    "Reading progress" to "Πρόοδος ανάγνωσης",
-    "Vocabulary known" to "Γνωστό λεξιλόγιο",
-    "Last opened" to "Τελευταίο άνοιγμα",
-    "Not opened yet" to "Δεν έχει ανοιχτεί ακόμη",
     "In progress" to "Σε εξέλιξη",
     "Finished" to "Ολοκληρωμένα",
-    "Opened {0}" to "Άνοιξε {0}",
     "Select {0}" to "Επιλογή «{0}»",
     "Delete {0} selected" to "Διαγραφή επιλεγμένων ({0})",
     "Delete selected" to "Διαγραφή επιλεγμένων",
@@ -71,7 +71,6 @@ internal val elBooks: Map<String, String> = mapOf(
     // BooksViewModel.kt: sort and progress labels, shown through tr(label).
     "Recently read" to "Διαβάστηκαν πρόσφατα",
     "Title" to "Τίτλος",
-    "All progress" to "Κάθε πρόοδος",
     "Not started" to "Δεν ξεκίνησαν",
 
     // BookFormScreen.kt

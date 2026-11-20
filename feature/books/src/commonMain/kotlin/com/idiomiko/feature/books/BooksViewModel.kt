@@ -6,33 +6,26 @@ import co.touchlab.kermit.Logger
 import com.idiomiko.core.domain.books.BookPackService
 import com.idiomiko.core.domain.books.BookPacks
 import com.idiomiko.core.domain.dictionary.PackState
+import com.idiomiko.core.domain.home.NextUp
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.model.BookListItem
 import com.idiomiko.core.domain.model.Language
-import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.repository.BookRepository
 import com.idiomiko.core.domain.repository.LanguageRepository
-import com.idiomiko.core.domain.repository.TermListFilter
-import com.idiomiko.core.domain.repository.TermListSort
-import com.idiomiko.core.domain.repository.TermRepository
 import com.idiomiko.core.domain.service.BookService
 import com.idiomiko.core.domain.service.BookStatsService
 import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.domain.stats.StudyTime
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.flatMapLatest
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
 
-enum class BookSort(val label: String) { RECENT("Recently opened"), TITLE("Title"), MASTERY("Vocabulary known") }
+enum class BookSort(val label: String) { RECENT("Recently opened"), TITLE("Title"), MASTERY("Words known") }
 
 enum class ReadingStatus { NOT_STARTED, READING, FINISHED }
 
@@ -52,10 +45,11 @@ val BookListItem.progressPercent: Int
         ReadingStatus.READING -> if (pageCount > 0) (100 * (currentPage - 1) / pageCount).coerceIn(0, 99) else 0
     }
 
+/** The library's status tabs, in the order they show. */
 enum class ProgressFilter(val label: String, val status: ReadingStatus?) {
-    ALL("All progress", null),
+    ALL("All", null),
+    READING("Reading", ReadingStatus.READING),
     NOT_STARTED("Not started", ReadingStatus.NOT_STARTED),
-    READING("In progress", ReadingStatus.READING),
     FINISHED("Finished", ReadingStatus.FINISHED),
 }
 
@@ -64,6 +58,32 @@ enum class BooksView { LIST, GRID }
 /** Share of the book's distinct terms that are no longer unknown, or null before stats exist. */
 val BookListItem.masteryPercent: Int?
     get() = stats?.takeIf { it.distinctTerms > 0 }?.let { 100 - it.unknownPercent }
+
+/** How hard a book's words are for the reader, by the share of them known. */
+enum class KnownLevel { COMFORTABLE, HARD, TOO_HARD }
+
+/** Below this share of its words known a book is hard going. */
+const val HARD_BELOW = 50
+
+/** Below this share of its words known a book is better left for later. */
+const val TOO_HARD_BELOW = 30
+
+fun knownLevel(percent: Int): KnownLevel = when {
+    percent < TOO_HARD_BELOW -> KnownLevel.TOO_HARD
+    percent < HARD_BELOW -> KnownLevel.HARD
+    else -> KnownLevel.COMFORTABLE
+}
+
+/** The minutes the whole book takes at the app's reading pace. */
+val BookListItem.readingMinutes: Int get() = StudyTime.readingMinutes(wordCount)
+
+/** The words still to read: the current page and those after it, its pages taken as equal; none once finished. */
+val BookListItem.wordsLeft: Int
+    get() = when (readingStatus) {
+        ReadingStatus.FINISHED -> 0
+        ReadingStatus.NOT_STARTED -> wordCount
+        ReadingStatus.READING -> (wordCount - NextUp.pageWords(this) * (currentPage - 1)).coerceIn(0, wordCount)
+    }
 
 data class BooksUiState(
     val loading: Boolean = true,
@@ -79,7 +99,6 @@ data class BooksUiState(
     val tags: Set<String> = emptySet(),
     /** Whether a book needs every one of [tags], or any of them. */
     val matchAllTags: Boolean = false,
-    val wordsLearned: Int = 0,
     /** Ticked books; only those still listed count, so a filter never hides a selected book from a bulk action. */
     val selected: Set<Long> = emptySet(),
     /** Whether a pack of free books for the language can be downloaded, offered while the library is empty. */
@@ -119,8 +138,6 @@ data class BooksUiState(
     val continueWith: BookListItem?
         get() = books.filter { it.readingStatus == ReadingStatus.READING }.maxByOrNull { it.lastOpened ?: Instant.DISTANT_PAST }
 
-    val currentlyReading: Int get() = books.count { it.readingStatus == ReadingStatus.READING }
-
     /** Every tag the listed books have, the most used first. */
     val availableTags: List<String>
         get() = books.flatMap { it.tags }.groupingBy { it }.eachCount().entries
@@ -128,13 +145,15 @@ data class BooksUiState(
 
     val selectedBooks: List<BookListItem> get() = filteredBooks.filter { it.id in selected }
 
+    /** How many filters differ from the defaults: a status, each tag, an order. */
+    val filterCount: Int get() = (if (progress != ProgressFilter.ALL) 1 else 0) + tags.size + (if (sort != BookSort.RECENT) 1 else 0)
+
 }
 
 class BooksViewModel(
     private val archived: Boolean,
     books: BookRepository,
     languages: LanguageRepository,
-    terms: TermRepository,
     private val settings: SettingsRepository,
     private val bookService: BookService,
     private val bookStats: BookStatsService,
@@ -151,18 +170,9 @@ class BooksViewModel(
 
     private data class TagChoice(val tags: Set<String> = emptySet(), val matchAll: Boolean = false)
 
-    private data class Options(val sort: BookSort, val progress: ProgressFilter, val view: BooksView, val wordsLearned: Int)
+    private data class Options(val sort: BookSort, val progress: ProgressFilter, val view: BooksView)
 
-    /** Words known in the language being learned. */
-    @OptIn(ExperimentalCoroutinesApi::class)
-    private val wordsLearned = settings.settings.map { it.currentLanguageId }.distinctUntilChanged()
-        .flatMapLatest { id ->
-            terms.observeList(TermListFilter(languageId = id.takeIf { it != 0L }, minStatus = TermStatus.WELL_KNOWN, maxStatus = TermStatus.WELL_KNOWN), TermListSort(), 0, 1)
-        }
-        .map { it.totalCount }
-        .catch { e -> Logger.w(e) { "Counting learned terms failed" }; emit(0) }
-
-    private val options = combine(sort, progress, view, wordsLearned) { s, m, v, w -> Options(s, m, v, w) }
+    private val options = combine(sort, progress, view) { s, m, v -> Options(s, m, v) }
 
     val state: StateFlow<BooksUiState> = combine(
         books.observeBooks(archived).onEach(::computeMissingStats),
@@ -190,7 +200,6 @@ class BooksViewModel(
             sort = opts.sort,
             progress = opts.progress,
             view = opts.view,
-            wordsLearned = opts.wordsLearned,
             packAvailable = pack != null,
             packState = pack?.state,
         )

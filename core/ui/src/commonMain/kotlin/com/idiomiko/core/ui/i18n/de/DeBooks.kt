@@ -3,15 +3,22 @@ package com.idiomiko.core.ui.i18n.de
 /** The home page with its book list and archive, the book form, bookmarks and page editing. */
 internal val deBooks: Map<String, String> = mapOf(
     // BooksScreen.kt: the redesign
-    "Read, learn, and build your vocabulary with every text." to "Lies, lerne und erweitere deinen Wortschatz mit jedem Text.",
     "Continue reading" to "Weiterlesen",
-    "Your library" to "Deine Bibliothek",
     "Select" to "Auswählen",
     "Search titles or tags" to "Titel oder Tags suchen",
     "Done" to "Fertig",
     "{1} books" to "{1} Buch|{1} Bücher",
-    "{1} words learned" to "{1} Wort gelernt|{1} Wörter gelernt",
     "Recently opened" to "Zuletzt geöffnet",
+    "Find books online" to "Bücher online finden",
+    "Page {0} of {1} · ~{2} min left" to "Seite {0} von {1} · noch ~{2} Min.",
+    "Words you know" to "Wörter, die du kennst",
+    "Words known" to "Bekannte Wörter",
+    "Opened" to "Geöffnet",
+    "hard for you" to "schwer für dich",
+    "too hard now" to "noch zu schwer",
+    "Read again" to "Erneut lesen",
+    "Select to archive or delete several" to "Mehrere auswählen, um sie zu archivieren oder zu löschen",
+    "Select to unarchive or delete several" to "Mehrere auswählen, um sie aus dem Archiv zu holen oder zu löschen",
     // BooksScreen.kt
     "Archived books" to "Archivierte Bücher",
     "Delete \"{0}\"?" to "„{0}“ löschen?",
@@ -34,9 +41,7 @@ internal val deBooks: Map<String, String> = mapOf(
     "Add a book" to "Buch hinzufügen",
     // PhoneBooks.kt
     "Select books" to "Bücher auswählen",
-    "{0}% read" to "{0} % gelesen",
     "{0}% known" to "{0} % bekannt",
-    "Page {0} of {1} · {2}" to "Seite {0} von {1} · {2}",
     "Book" to "Buch",
     "{0} of {1} selected" to "{0} von {1} ausgewählt",
     "{0} books" to "{0} Buch|{0} Bücher",
@@ -44,13 +49,8 @@ internal val deBooks: Map<String, String> = mapOf(
     "list view" to "Listenansicht",
     "grid view" to "Rasteransicht",
     "Select all books" to "Alle Bücher auswählen",
-    "Reading progress" to "Lesefortschritt",
-    "Vocabulary known" to "Bekannter Wortschatz",
-    "Last opened" to "Zuletzt geöffnet",
-    "Not opened yet" to "Noch nicht geöffnet",
     "In progress" to "Begonnen",
     "Finished" to "Beendet",
-    "Opened {0}" to "Geöffnet {0}",
     "Select {0}" to "„{0}“ auswählen",
     "Delete {0} selected" to "Ausgewählte löschen ({0})",
     "Delete selected" to "Ausgewählte löschen",
@@ -71,7 +71,6 @@ internal val deBooks: Map<String, String> = mapOf(
     // BooksViewModel.kt: sort and progress labels, shown through tr(label).
     "Recently read" to "Zuletzt gelesen",
     "Title" to "Titel",
-    "All progress" to "Jeder Fortschritt",
     "Not started" to "Nicht begonnen",
 
     // BookFormScreen.kt

@@ -33,10 +33,16 @@ object AppAccents {
     /** Accents that tell the items of a list apart, in this order: language codes, courses, chart series. */
     val sequence: List<Color> = listOf(blue, green, purple, red, amber, teal, pink, orange, brown)
 
-    /** The soft colours of the books' drawn covers. */
-    val covers: List<Color> = listOf(
-        Color(0xFF5B8DEF), Color(0xFF34B5A0), Color(0xFF9B7BEA), Color(0xFFF0A13A), Color(0xFFE2738F),
-        Color(0xFF6CA85A), Color(0xFF4A90E2), Color(0xFF4CC38A),
+    /** The books' drawn covers: each a gradient from its first colour at the top left to its second, under white type. */
+    val coverGradients: List<Pair<Color, Color>> = listOf(
+        Color(0xFF2A7AA8) to Color(0xFF1AA39A),
+        Color(0xFF7B5CD6) to Color(0xFFC06FD8),
+        Color(0xFFF08A24) to Color(0xFFE0457B),
+        Color(0xFF2E9D5B) to Color(0xFF7CC48F),
+        Color(0xFFC9893F) to Color(0xFFE7B765),
+        Color(0xFF455A64) to Color(0xFF7D97A3),
+        Color(0xFFE0457B) to Color(0xFFF2A9C2),
+        Color(0xFF1F5F8B) to Color(0xFF5B8FD6),
     )
 
     /** A mark on a solid accent or status colour, such as a tick on a filled box. */
