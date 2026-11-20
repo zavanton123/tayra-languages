@@ -50,6 +50,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.BlendMode
@@ -59,6 +60,8 @@ import androidx.compose.ui.graphics.CompositingStrategy
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.graphics.luminance
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.LayoutCoordinates
 import androidx.compose.ui.layout.onGloballyPositioned
@@ -79,6 +82,7 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppBorders
+import com.idiomiko.core.ui.theme.AppElevation
 import com.idiomiko.core.ui.theme.AppMotion
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
@@ -191,11 +195,17 @@ fun TableHeaderCell(label: String, modifier: Modifier = Modifier, icon: ImageVec
     }
 }
 
-/** One choice of a [SegmentedToggle]: its icon, its label (or none, to show the icon alone), and its name for screen readers. */
-class Segment<T>(val value: T, val icon: ImageVector? = null, val label: String? = null, val description: String? = label, val testTag: String? = null)
+/**
+ * One choice of a [SegmentedToggle]: its icon, its label (or none, to show the icon alone), an optional [count]
+ * after the label, and its name for screen readers.
+ */
+class Segment<T>(val value: T, val icon: ImageVector? = null, val label: String? = null, val description: String? = label, val testTag: String? = null, val count: Int? = null)
 
-/** How a [SegmentedToggle] or [CountTabs] marks the chosen one: [Soft], on a wash of the primary colour, or [Solid], filled with it. */
-enum class SegmentStyle { Soft, Solid }
+/**
+ * How a [SegmentedToggle] or [CountTabs] marks the chosen one: [Soft], on a wash of the primary colour, [Solid],
+ * filled with it, or [Raised] (a toggle only), a card lifted out of a grey track, its text in the text colour.
+ */
+enum class SegmentStyle { Soft, Solid, Raised }
 
 /**
  * A choice of a few, side by side in an outline, the chosen one tinted: a list or grid view, a tab.
@@ -214,25 +224,40 @@ fun <T> SegmentedToggle(
 ) {
     val colors = MaterialTheme.colorScheme
     val solid = style == SegmentStyle.Solid
+    val raised = style == SegmentStyle.Raised
+    // A dark theme's surface is darker than the track, so there the raised card is lifted toward the text colour instead.
+    val raisedFill = if (colors.surface.luminance() < 0.5f) lerp(colors.surfaceContainerHigh, colors.onSurface, RAISED_LIFT) else colors.surface
+    val highlight = when {
+        raised -> raisedFill
+        solid -> colors.primary
+        else -> colors.primary.copy(alpha = AppAlpha.soft)
+    }
     // Where each segment sits, so the chosen one's highlight can glide to it from the one before.
     val places = remember { mutableStateMapOf<Int, Pair<Int, Int>>() }
     // The row the segments sit in: each is measured against it, as a tooltip wraps an icon in a box of its own.
     var row by remember { mutableStateOf<LayoutCoordinates?>(null) }
     val chosen = segments.indexOfFirst { it.value == selected }
-    Box(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).height(height).cardSurface(AppShapes.control).padding(AppSpacing.xs)) {
+    val track = if (raised) Modifier.clip(AppShapes.panel).background(colors.surfaceContainerHigh) else Modifier.cardSurface(AppShapes.control)
+    Box(modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).height(height).then(track).padding(AppSpacing.xs)) {
         places[chosen]?.let { (left, width) ->
             val x by animateIntAsState(left, AppMotion.spec())
             val w by animateIntAsState(width, AppMotion.spec())
             Box(
-                Modifier.offset { IntOffset(x, 0) }.width(with(LocalDensity.current) { w.toDp() }).fillMaxHeight().clip(AppShapes.compact)
-                    .background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)).testTag("segment-highlight"),
+                Modifier.offset { IntOffset(x, 0) }.width(with(LocalDensity.current) { w.toDp() }).fillMaxHeight()
+                    .then(if (raised) Modifier.shadow(AppElevation.low, AppShapes.compact) else Modifier).clip(AppShapes.compact)
+                    .background(highlight).testTag("segment-highlight"),
             )
         }
         Row(Modifier.then(if (fill) Modifier.fillMaxWidth() else Modifier).fillMaxHeight().onPlaced { row = it }, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             segments.forEachIndexed { index, segment ->
                 val active = index == chosen
                 val tint by animateColorAsState(
-                    if (active) (if (solid) colors.onPrimary else colors.primary) else colors.onSurfaceVariant,
+                    when {
+                        !active -> colors.onSurfaceVariant
+                        raised -> colors.onSurface
+                        solid -> colors.onPrimary
+                        else -> colors.primary
+                    },
                     AppMotion.spec(AppMotion.short),
                 )
                 // Where the segment sits in the row, for the highlight to find it.
@@ -240,7 +265,7 @@ fun <T> SegmentedToggle(
                     .onGloballyPositioned { segment -> row?.takeIf { it.isAttached }?.let { places[index] = it.localPositionOf(segment, Offset.Zero).x.roundToInt() to segment.size.width } }
                 val body = Modifier.clip(AppShapes.compact)
                     // Until the segments are placed, the chosen one draws its own highlight.
-                    .then(if (active && places[chosen] == null) Modifier.background(if (solid) colors.primary else colors.primary.copy(alpha = AppAlpha.soft)) else Modifier)
+                    .then(if (active && places[chosen] == null) Modifier.background(highlight) else Modifier)
                     .clickable { onSelect(segment.value) }
                     .padding(horizontal = if (segment.label == null) (if (dense) AppSpacing.s else AppSpacing.m) else if (fill) AppSpacing.s else AppSpacing.l)
                     .then(if (segment.testTag != null) Modifier.testTag(segment.testTag) else Modifier)
@@ -251,10 +276,10 @@ fun <T> SegmentedToggle(
                         }
                         if (segment.label != null) {
                             Text(
-                                segment.label,
+                                if (segment.count != null) "${segment.label} ${segment.count}" else segment.label,
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = tint,
-                                fontWeight = if (active) FontWeight.SemiBold else FontWeight.Normal,
+                                fontWeight = if (active || raised) FontWeight.SemiBold else FontWeight.Normal,
                                 maxLines = 1,
                                 overflow = TextOverflow.Ellipsis,
                             )
@@ -442,6 +467,9 @@ fun OverflowMenu(contentDescription: String, modifier: Modifier = Modifier, butt
 }
 
 private val SEGMENT_HEIGHT = 40.dp
+
+/** How far a [SegmentStyle.Raised] segment is lifted toward the text colour in a dark theme. */
+private const val RAISED_LIFT = 0.12f
 private val TAB_UNDERLINE_FILL = 3.dp
 private val TAB_UNDERLINE = 2.dp
 
