@@ -13,8 +13,8 @@ the web: the STM and SinMin corpora), subtitles (a fifth of the blend) and Wikip
 when the si-en pack has it (the English Wiktionary's Sinhala entries, a parallel Sinhala-English word
 dictionary, and everyday words added by hand), and a corpus form is counted for the word it is a form of.
 
-- **The ranks lean to the news.** Words of reports rank high (මහතා 30, රජය 78, පොලිසිය 126,
-  ජනාධිපති 260), everyday words lower than in speech (පොත 338, ගෙදර 359, අම්මා 371, වතුර 907).
+- **The ranks lean to the news.** Words of reports rank high (මහතා 30, රජය 79, පොලිසිය 151,
+  ජනාධිපති 261), everyday words lower than in speech (පොත 338, ගෙදර 359, අම්මා 371, වතුර 907).
   Write everyday stories anyway: a news word goes into an ordinary scene (a police officer who helps,
   a village festival, a school match). Subtitles bring in the spoken words (මම, ඒක, ඕනෑ, එයා, ඔයා).
 - **Verbs are listed by the -නවා form** (කරනවා, යනවා, එනවා, බලනවා), with all their forms: the present
@@ -32,7 +32,7 @@ dictionary, and everyday words added by hand), and a corpus form is counted for 
 - **Spelling variants are folded**: misspellings with ල for ළ, න for ණ, ද for ඳ (ලඟ, පමන, සදහා) and
   the older ක්‍ෂ and කථා are forms of the standard spelling (ළඟ, පමණ, සඳහා, පක්ෂය, කතාව). Write the
   standard spelling: ළඟ, පහළ, ඉහළ, කළා, පමණ, සඳහා, ඊළඟ, තත්ත්වය.
-- **List noise**: the rude pronouns උඹ (29) and ඌ (81) rank high from the subtitles: skip them, or use
+- **List noise**: the rude pronouns උඹ (28) and ඌ (82) rank high from the subtitles: skip them, or use
   them only where a story needs them. A few names and English letters spelled out (එස්, ඩී) are left
   out; skip any fragment you meet.
 
@@ -67,7 +67,7 @@ lesson never needs another lesson to make sense.
   පැවසීය*) and the written passive come in from rank 1001, for letters, news, columns and essays.
   Never mix the two in one sentence.
 - **Politeness and address**: Sinhala speakers call each other by name or by a kin word (අම්මා,
-  තාත්තා, අක්කා, අයියා, නංගී, මල්ලී, සීයා, ආච්චී) more than by "you". ඔයා is the everyday "you"
+  තාත්තා, අක්කා, අයියා, නංගී, මල්ලී, සීයා, ආච්චි) more than by "you". ඔයා is the everyday "you"
   between family and friends; ඔබ is the polite and written one (to strangers, in shops, offices and
   letters). Never use උඹ, තෝ or තමුසේ, which are rude. Adults are named with මහතා, මහත්මිය, මිස්, සර්
   where respect is due (*පෙරේරා මහතා*).

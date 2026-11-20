@@ -280,6 +280,8 @@ HAND_ENTRIES = {
     "ලබාදෙනවා": ("verb", "to provide, to give"), "පවත්වනවා": ("verb", "to hold, to conduct, to maintain"),
     "හඳුන්වනවා": ("verb", "to introduce, to call (by a name)"), "ලබාගන්නවා": ("verb", "to obtain, to get"),
     "කරගන්නවා": ("verb", "to get done, to do for oneself"), "මිනිසා": ("noun", "man, human being"),
+    "කෝච්චිය": ("noun", "train"), "ඉර": ("noun", "sun"),
+    "ඉස්පිරිතාලය": ("noun", "hospital"), "සතුට": ("noun", "happiness, joy"),
 }
 SINHALA_WORDS.update({word: kind for word, (kind, _) in HAND_ENTRIES.items()})
 # Spellings of one word, the second the one listed: නෑ is නැහැ, said.
@@ -298,7 +300,8 @@ SPELLINGS = {"නෑ": "නැහැ", "නැද්ද": "නැහැ", "න�
              "පක්‍ෂය": "පක්ෂය", "පරීක්‍ෂණ": "පරීක්ෂණය", "අමාත්‍යංශය": "අමාත්‍යාංශය", "වේලාව": "වෙලාව", "සහභාගී": "සහභාගි",
              "තරඟය": "තරගය", "කථාව": "කතාව", "කථා": "කතාව", "සහාය": "සහය", "කාලේ": "කාලය", "ඇත්නම්": "ඇත",
              "යුතුව": "යුතු", "අම්ම": "අම්මා", "තරඟ": "තරගය", "පක්‍ෂ": "පක්ෂය",
-             "ලිපි": "ලිපිය", "නීති": "නීතිය", "පරීක්ෂණ": "පරීක්ෂණය"}
+             "ලිපි": "ලිපිය", "නීති": "නීතිය", "පරීක්ෂණ": "පරීක්ෂණය", "හොඳයි": "හොඳ", "ආච්චී": "ආච්චි",
+             "ආච්චීගේ": "ආච්චි"}
 SINHALA_FORMS.update(SPELLINGS)
 # Corpus spellings that are no words: letters and endings written apart.
 NOT_WORDS = {"ක්", "ට", "ගේ", "ය", "ව", "ක", "ද", "ම", "යි", "ත්", "වල", "වලට", "වලින්", "වලදී", "වලත්", "ගෙන්",
