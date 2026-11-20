@@ -99,6 +99,7 @@ SOURCES = {
     "gu": ("Gujarati", None, "dictionaries/kaikki.org-dictionary-Gujarati.jsonl.gz"),
     "si": ("Sinhala", None, "dictionaries/kaikki.org-dictionary-Sinhalese.jsonl.gz"),
     "ha": ("Hausa", None, "dictionaries/kaikki.org-dictionary-Hausa.jsonl.gz"),
+    "mr": ("Marathi", None, "dictionaries/kaikki.org-dictionary-Marathi.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -175,7 +176,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else SINHALA_WORD_RE if source == "si" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else SINHALA_WORD_RE if source == "si" else MARATHI_WORD_RE if source == "mr" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -452,8 +453,32 @@ def punjabi_extra_entries(pa_path, kept):
     return out
 
 
+# Marathi words are letters and vowel signs, as the reader reads them: no digits, no danda, no hyphen (the tables' stems, कर-).
+MARATHI_LETTERS = "\u0900-\u0963\u0971-\u097f\u200c\u200d"
+MARATHI_WORD_RE = re.compile(f"^[{MARATHI_LETTERS}]+$")
+MARATHI_RUN = re.compile(f"[{MARATHI_LETTERS}]+")
+# The labels a Marathi verb table names its rows and persons by (मी, तुम्ही, एकवचन "singular"), beside the forms.
+MARATHI_TABLE_LABELS = {"मी", "तू", "हा", "ही", "हे", "तो", "ती", "ते", "त्या", "आम्ही", "आपण", "तुम्ही", "ह्या", "या", "एकवचन", "अनेकवचन",
+                        "धातू", "होकारार्थी", "नकारार्थी"}
+
+
+def clean_marathi(word):
+    """
+    A Marathi spelling as texts have it: NFC, and the eyelash ra as ऱ + virama (दुसऱ्या), however it is typed (र + virama +
+    joiner); a joiner after a conjunct's र (मंत्र् + joiner + याला) is dropped. Of a table cell with a note or romanisation, the word it
+    starts with.
+    """
+    word = re.sub("(?<!\u094d)\u0930\u094d\u200d", "\u0931\u094d", unicodedata.normalize("NFC", word).strip())
+    # The tables write a conjunct's र before य as the eyelash too (स्त्ऱ्या), which it never is (स्त्र्या).
+    word = word.replace("\u094d\u200d", "\u094d").replace("\u094d\u0931\u094d", "\u094d\u0930\u094d")
+    if re.search(r"[A-Za-z(/,]", word):
+        run = MARATHI_RUN.match(word)
+        return run.group(0) if run else ""
+    return word
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
-CLEANERS = {"te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
+CLEANERS = {"mr": clean_marathi, "te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
             "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean}
 
 
@@ -1147,6 +1172,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 # A Nepali pronoun's table lists every pronoun (म's has हामी, तिमी, यो...): its forms come from frequency_nepali.
                 if source == "ne" and pos == "pron":
                     continue
+                if source == "mr" and pos == "verb" and cleaner(x.get("form", "").strip()) in MARATHI_TABLE_LABELS:
+                    continue
                 # A noun names its other gender's word (لڑکی of لڑکا, والدہ of والد), no form of it.
                 if source == "ur" and set(x["tags"]) <= {"masculine", "feminine"}:
                     continue
@@ -1175,12 +1202,13 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 flush()
     flush()
     label = f"English Wiktionary {SOURCES[source][0]} entries via kaikki.org"
-    if source in ("bn", "ta", "te", "ne", "gu"):
+    if source in ("bn", "ta", "te", "ne", "gu", "mr"):
         kept = {w for (w,) in db.execute("SELECT word FROM entries")}
         translated = (bengali_translation_entries(kept) if source == "bn"
                       else bengali_translation_entries(kept, "ta", clean_tamil, TAMIL_WORD_RE) if source == "ta"
                       else bengali_translation_entries(kept, "ne", clean_nepali, NEPALI_WORD_RE) if source == "ne"
                       else bengali_translation_entries(kept, "gu", clean_gujarati, GUJARATI_WORD_RE) if source == "gu"
+                      else bengali_translation_entries(kept, "mr", clean_marathi, MARATHI_WORD_RE) if source == "mr"
                       else telugu_translation_entries(kept))
         for word, by_pos in sorted(translated.items()):
             for pos, glosses in sorted(by_pos.items()):
