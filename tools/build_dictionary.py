@@ -101,6 +101,7 @@ SOURCES = {
     "ha": ("Hausa", None, "dictionaries/kaikki.org-dictionary-Hausa.jsonl.gz"),
     "mr": ("Marathi", None, "dictionaries/kaikki.org-dictionary-Marathi.jsonl.gz"),
     "zu": ("Zulu", None, "dictionaries/kaikki.org-dictionary-Zulu.jsonl.gz"),
+    "am": ("Amharic", None, "dictionaries/kaikki.org-dictionary-Amharic.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -481,6 +482,35 @@ def clean_marathi(word):
 def strip_zulu_tones(word):
     """The English Wiktionary marks Zulu tone and length on its heads and tables (umúntu, ngihambē); texts never do."""
     return unicodedata.normalize("NFC", "".join(c for c in unicodedata.normalize("NFD", word) if not unicodedata.combining(c)))
+
+
+# Amharic: the Ethiopic letters the reader reads as a word's (wordCharacters, without the Ethiopic digits).
+AMHARIC_WORD_RE = re.compile("^[\u1200-\u135a\u135d-\u135f\u1380-\u138f\u2d80-\u2dde\uab01-\uab2e]+$")
+
+
+def amharic_translation_entries(kept):
+    """
+    The one-word Amharic translations the English Wiktionary's tables give that its Amharic entries lack (the noun ጠረጴዛ
+    "table", the verb ተጫወተ "play"), by part of speech, each glossed with the English words it translates: word -> pos -> glosses.
+    A translation's senses sit on the entry or on its senses, by the dump's age.
+    """
+    entries = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "am"' not in line:
+                continue
+            d = json.loads(line)
+            translations = list(d.get("translations", []))
+            for s in d.get("senses", []):
+                translations += s.get("translations", [])
+            for t in translations:
+                word = unicodedata.normalize("NFC", t.get("word", "")).strip() if t.get("code") == "am" else ""
+                if not word or word in kept or not AMHARIC_WORD_RE.match(word):
+                    continue
+                gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
+                if gloss not in entries[word][d.get("pos") or "unknown"]:
+                    entries[word][d.get("pos") or "unknown"].append(gloss)
+    return entries
 
 
 # How each source's spellings are normalised before matching, when it needs it at all.
@@ -1208,13 +1238,14 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 flush()
     flush()
     label = f"English Wiktionary {SOURCES[source][0]} entries via kaikki.org"
-    if source in ("bn", "ta", "te", "ne", "gu", "mr"):
+    if source in ("bn", "ta", "te", "ne", "gu", "mr", "am"):
         kept = {w for (w,) in db.execute("SELECT word FROM entries")}
         translated = (bengali_translation_entries(kept) if source == "bn"
                       else bengali_translation_entries(kept, "ta", clean_tamil, TAMIL_WORD_RE) if source == "ta"
                       else bengali_translation_entries(kept, "ne", clean_nepali, NEPALI_WORD_RE) if source == "ne"
                       else bengali_translation_entries(kept, "gu", clean_gujarati, GUJARATI_WORD_RE) if source == "gu"
                       else bengali_translation_entries(kept, "mr", clean_marathi, MARATHI_WORD_RE) if source == "mr"
+                      else amharic_translation_entries(kept) if source == "am"
                       else telugu_translation_entries(kept))
         for word, by_pos in sorted(translated.items()):
             for pos, glosses in sorted(by_pos.items()):
