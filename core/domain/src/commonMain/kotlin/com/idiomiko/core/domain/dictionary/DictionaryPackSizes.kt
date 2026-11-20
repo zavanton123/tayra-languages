@@ -71,7 +71,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "ja-de" to 25_938_416L, "ja-el" to 3_567_407L, "ja-en" to 42_340_414L, "ja-es" to 11_352_592L, "ja-fr" to 9_958_974L,
         "ja-names" to 50_200_926L, "ja-pl" to 4_360_442L, "ja-pt" to 4_270_267L, "ja-ru" to 18_738_398L, "ja-zh" to 16_797_660L,
         "ka-en" to 10_608_421L, "ka-fr" to 757_274L, "ka-pl" to 1_707_381L, "ka-ru" to 2_675_954L, "kk-en" to 2_505_086L, "km-en" to 540_319L,
-        "km-ru" to 251_704L, "kn-en" to 1_333_768L, "kn-ru" to 55_946L, "ko-en" to 8_155_561L, "ko-fr" to 1_927_703L,
+        "km-ru" to 251_704L, "kn-en" to 1_333_768L, "kn-ru" to 55_946L, "ko-en" to 8_157_693L, "ko-fr" to 1_927_703L,
         "ko-pl" to 615_233L, "ko-ru" to 666_232L, "ko-zh" to 11_509_306L, "kw-en" to 837_166L, "la-el" to 1_571_850L,
         "la-en" to 20_252_702L, "la-pl" to 3_775_365L, "la-zh" to 3_706_726L, "lo-en" to 270_914L, "lo-ru" to 65_987L, "lt-en" to 4_301_221L, "lt-pl" to 1_494_831L,
         "lt-zh" to 850_608L, "lv-en" to 4_660_890L, "lv-pl" to 899_787L, "lv-zh" to 651_299L, "mk-en" to 13_329_046L, "mk-pl" to 853_980L, "mk-zh" to 1_576_339L,
