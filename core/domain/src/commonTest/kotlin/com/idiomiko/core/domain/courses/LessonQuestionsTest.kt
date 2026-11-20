@@ -76,6 +76,14 @@ class LessonQuestionsTest {
     }
 
     @Test
+    fun theSinhalaHeaderIsFound() {
+        // ප්‍රශ්න, with the joiner of its conjunct.
+        val split = LessonQuestions.split("නිමල් ගාල්ලේ ඉන්නවා.\n\nප්\u200Dරශ්න:\nනිමල් කොහෙද ඉන්නේ?\nනිමල් ගාල්ලේ ඉන්නවා.")
+        assertEquals("නිමල් ගාල්ලේ ඉන්නවා.", split?.text)
+        assertEquals(listOf(LessonQuestion("නිමල් කොහෙද ඉන්නේ?", "නිමල් ගාල්ලේ ඉන්නවා.")), split?.questions)
+    }
+
+    @Test
     fun theVietnameseHeaderIsFound() {
         val split = LessonQuestions.split("Lan ở Hà Nội.\n\nCâu hỏi:\nLan ở đâu?\nLan ở Hà Nội.")
         assertEquals(listOf(LessonQuestion("Lan ở đâu?", "Lan ở Hà Nội.")), split?.questions)
