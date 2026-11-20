@@ -35,8 +35,11 @@ data class LanguageOverview(
     val daysRead: Int,
     /** Words read on an average day with reading. */
     val wordsPerReadingDay: Int,
+    /** Days in a row with any study, as [StudyActivity] counts them. */
     val streak: Int,
     val longestStreak: Int,
+    /** Every day with study: reading, flashcards or words saved. */
+    val study: StudyActivity,
     /** Words read by day, for the days with reading. */
     val readingDays: Map<LocalDate, Int>,
     val known: Int,

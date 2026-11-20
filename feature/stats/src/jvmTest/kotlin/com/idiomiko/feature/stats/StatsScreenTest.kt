@@ -99,7 +99,7 @@ class StatsScreenTest {
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Nothing to count yet")).fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodes(hasText("Reading activity")).fetchSemanticsNodes().size)
+        assertEquals(0, onAllNodes(hasText("Study activity")).fetchSemanticsNodes().size)
         onNodeWithTag("stats-start").performClick()
         assertEquals(listOf<Route>(Route.Books), visited)
     }
@@ -110,8 +110,9 @@ class StatsScreenTest {
         assertEquals(1670, overview.wordsRead)
         assertEquals(870, overview.wordsReadThisWeek)
         assertEquals(7, overview.daysRead)
-        assertEquals(3, overview.streak)
+        assertEquals(4, overview.streak)
         assertEquals(4, overview.longestStreak)
+        assertEquals(overview.study.streak, overview.streak)
         assertEquals(3, overview.known)
         assertEquals(3, overview.learning)
         assertEquals(1, overview.ignored)
@@ -132,15 +133,17 @@ class StatsScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Reading activity")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Study activity")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("STATS_SCREENSHOT")?.let { path ->
             waitForIdle()
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
         }
         // In its tile, as the year and total of the language in the table, and at the top of the cumulative chart.
         assertEquals(4, onAllNodesWithText("1,670").fetchSemanticsNodes().size)
-        onNodeWithText("3 days").assertExists()
+        // The streak counts the flashcards three days ago, as the activity squares do: reading, reviews and words saved.
+        onNodeWithText("4 days").assertExists()
         onNodeWithText("Longest: 4 days").assertExists()
+        onNodeWithText("9 days studied in 2026").assertExists()
         onNodeWithText("Words saved today").assertExists()
         onNodeWithText("2 words saved this week").assertExists()
         onNodeWithText("3 words being learned").assertExists()

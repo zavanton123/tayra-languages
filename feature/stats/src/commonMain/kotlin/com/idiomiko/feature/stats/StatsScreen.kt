@@ -50,8 +50,7 @@ import com.idiomiko.core.domain.service.StatsService
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.stats.ChartPoint
 import com.idiomiko.core.domain.stats.LanguageOverview
-import com.idiomiko.core.domain.stats.heatLevel
-import com.idiomiko.core.ui.components.ActivityHeatmapCard
+import com.idiomiko.core.ui.components.StudyActivityCard
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
@@ -187,7 +186,7 @@ private fun OverviewTiles(o: LanguageOverview) {
         Tile(tr("Words read"), formatCount(animatedCount(o.wordsRead)), tr("{0} this week", formatCount(o.wordsReadThisWeek)), AppIcons.MenuBook, AppAccents.blue, "words-read"),
         Tile(tr("Known words"), formatCount(animatedCount(o.known)), trPlural(o.learning, "{1} word being learned", "{1} words being learned", formatCount(o.learning)), AppIcons.DoneAll, AppAccents.green, "known-words"),
         Tile(tr("Words saved today"), formatCount(animatedCount(o.savedToday)), trPlural(o.savedThisWeek, "{1} word saved this week", "{1} words saved this week", formatCount(o.savedThisWeek)), AppIcons.Abc, AppAccents.orange, "words-today"),
-        Tile(tr("Reading streak"), animatedCount(o.streak).let { trPlural(it, "{0} day", "{0} days") }, trPlural(o.longestStreak, "Longest: {0} day", "Longest: {0} days"), AppIcons.Flame, AppAccents.pink, "streak"),
+        Tile(tr("Study streak"), animatedCount(o.streak).let { trPlural(it, "{0} day", "{0} days") }, trPlural(o.longestStreak, "Longest: {0} day", "Longest: {0} days"), AppIcons.Flame, AppAccents.pink, "streak"),
         Tile(tr("Days with reading"), formatCount(animatedCount(o.daysRead)), tr("{0} words a day on average", formatCount(o.wordsPerReadingDay)), AppIcons.History, AppAccents.purple, "days-read"),
         Tile(tr("Pages read"), formatCount(animatedCount(o.pagesRead)), trPlural(o.booksFinished, "{1} book finished", "{1} books finished", formatCount(o.booksFinished)), AppIcons.Book, AppAccents.teal, "pages-read"),
     )
@@ -204,27 +203,17 @@ private fun OverviewTiles(o: LanguageOverview) {
     }
 }
 
-/** The recent days, darker the more words were read on them. */
+/** A calendar year of study days, this one first, back to the year of the first study. */
 @Composable
 private fun ActivityCard(o: LanguageOverview) {
-    // A calendar year at a time, this one first, back to the year of the first reading; only its days are
-    // compared, so a busy year long ago does not make this one look quiet.
     var year by rememberSaveable { mutableStateOf(o.today.year) }
-    val firstYear = o.readingDays.keys.minOfOrNull { it.year } ?: o.today.year
-    val shown = o.readingDays.filterKeys { it.year == year }
-    ActivityHeatmapCard(
-        title = tr("Reading activity"),
-        subtitle = { trPlural(shown.size, "{1} day with reading in {2}", "{1} days with reading in {2}", formatCount(shown.size), "$year") },
-        today = o.today,
-        levels = {
-            val max = shown.values.maxOrNull() ?: 0
-            shown.mapValues { heatLevel(it.value, max) }
-        },
+    val firstYear = o.study.days.keys.minOfOrNull { it.year } ?: o.today.year
+    val days = o.study.days.keys.count { it.year == year }
+    StudyActivityCard(
+        o.study,
         range = LocalDate(year, 1, 1)..LocalDate(year, 12, 31),
+        subtitle = trPlural(days, "{1} day studied in {2}", "{1} days studied in {2}", formatCount(days), "$year"),
         action = { YearSwitch(year, canBack = year > firstYear, canForward = year < o.today.year) { year = it } },
-        fewer = tr("Fewer words"),
-        more = tr("More words"),
-        describe = { date -> o.readingDays[date]?.takeIf { it > 0 }?.let { trPlural(it, "{1} word read", "{1} words read", formatCount(it)) } ?: tr("Nothing read") },
     )
 }
 

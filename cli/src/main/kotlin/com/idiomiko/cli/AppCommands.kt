@@ -130,7 +130,7 @@ class StatsCommand : Command("stats", "Reading and vocabulary statistics of the 
         Output(json, """
             ${json.language}
               words read:      ${json.wordsRead} (${json.wordsReadThisWeek} this week, ${json.wordsPerReadingDay} on a reading day)
-              days with reading: ${json.daysRead}; streak ${json.streak}, longest ${json.longestStreak}
+              days with reading: ${json.daysRead}; study streak ${json.streak}, longest ${json.longestStreak}
               terms:           ${json.knownTerms} known, ${json.learningTerms} learning, ${json.ignoredTerms} ignored
         """.trimIndent())
     }

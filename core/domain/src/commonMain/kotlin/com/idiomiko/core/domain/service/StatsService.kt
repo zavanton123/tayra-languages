@@ -19,7 +19,6 @@ import kotlin.time.Clock
 data class ReadingStatsSummary(
     val table: List<LanguageReadCounts>,
     val chart: Map<String, List<ChartPoint>>,
-    val streak: Int,
 )
 
 class StatsService(
@@ -36,7 +35,6 @@ class StatsService(
         return ReadingStatsSummary(
             table = ReadingStats.tableData(entries, today),
             chart = ReadingStats.chartData(entries),
-            streak = ReadingStats.streak(entries.mapTo(HashSet()) { it.date }, today),
         )
     }
 
@@ -45,6 +43,8 @@ class StatsService(
         val today = today()
         val byDate = ReadingStats.byLanguage(wordsRead.dailyCounts())[languageName].orEmpty().filterValues { it > 0 }
         val activity = learning.activity(languageId)
+        // A day of flashcards or saved words keeps the streak as a day of reading does, as on the activity squares.
+        val study = study(byDate, activity, today)
         val statuses = activity.termsByStatus
         val reviewsTotal = activity.reviews.values.sum()
         return LanguageOverview(
@@ -53,8 +53,9 @@ class StatsService(
             wordsReadThisWeek = ReadingStats.counts(byDate, today).week,
             daysRead = byDate.size,
             wordsPerReadingDay = if (byDate.isEmpty()) 0 else byDate.values.sum() / byDate.size,
-            streak = ReadingStats.streak(byDate.keys, today),
-            longestStreak = ReadingStats.longestStreak(byDate.keys),
+            streak = study.streak,
+            longestStreak = study.longestStreak,
+            study = study,
             readingDays = byDate,
             known = statuses[TermStatus.WELL_KNOWN] ?: 0,
             learning = statuses.filterKeys { it.isLearning }.values.sum(),
@@ -74,15 +75,16 @@ class StatsService(
 
     /** The study in the language with [languageId], named [languageName] as the words-read records name it. */
     suspend fun studyActivity(languageId: Long, languageName: String): StudyActivity {
-        val activity = learning.activity(languageId)
         val read = ReadingStats.byLanguage(wordsRead.dailyCounts())[languageName].orEmpty()
-        return StudyActivity.of(read, activity.reviews, activity.termsSaved, today())
+        return study(read, learning.activity(languageId), today())
     }
+
+    /** The one rule for a study day, behind the streaks and the activity squares alike. */
+    private fun study(read: Map<LocalDate, Int>, activity: LanguageActivity, today: LocalDate): StudyActivity =
+        StudyActivity.of(read, activity.reviews, activity.termsSaved, today)
 
     /** The words counted as saved today in the language with [languageId], the latest first. */
     suspend fun savedToday(languageId: Long): List<SavedWord> = learning.savedOn(languageId, today())
-
-    suspend fun streak(): Int =ReadingStats.streak(wordsRead.dailyCounts().mapTo(HashSet()) { it.date }, today())
 
     private companion object {
         const val SAVED_WEEKS = 12
