@@ -76,6 +76,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Old Irish" to "Irlandês antigo",
     "Polish" to "Polonês",
     "Portuguese" to "Português",
+    "Punjabi" to "Punjabi",
     "Portuguese (Brazil)" to "Português (Brasil)",
     "Romanian" to "Romeno",
     "Russian" to "Russo",

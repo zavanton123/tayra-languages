@@ -76,6 +76,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Old Irish" to "Παλαιά ιρλανδικά",
     "Polish" to "Πολωνικά",
     "Portuguese" to "Πορτογαλικά",
+    "Punjabi" to "Παντζάμπι",
     "Portuguese (Brazil)" to "Πορτογαλικά (Βραζιλίας)",
     "Romanian" to "Ρουμανικά",
     "Russian" to "Ρωσικά",

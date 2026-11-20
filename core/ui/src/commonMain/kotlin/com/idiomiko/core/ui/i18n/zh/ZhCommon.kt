@@ -76,6 +76,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Old Irish" to "古爱尔兰语",
     "Polish" to "波兰语",
     "Portuguese" to "葡萄牙语",
+    "Punjabi" to "旁遮普语",
     "Portuguese (Brazil)" to "葡萄牙语（巴西）",
     "Romanian" to "罗马尼亚语",
     "Russian" to "俄语",
