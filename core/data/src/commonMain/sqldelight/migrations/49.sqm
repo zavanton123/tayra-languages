@@ -1,3 +1,4 @@
 -- Amharic words take every Ethiopic letter and the gemination marks (ሰ፟ማ, ፚ); an Amharic made before cut its words at them.
-UPDATE languages SET word_characters = 'ሀ-ፚ፝-፟፩-፼ᎀ-ᎏⶀ-ⷞꬁ-ꬮ'
-WHERE name = 'Amharic' AND parser_type = 'spacedel' AND word_characters = 'ሀ-ፙ፩-፼';
+-- The word characters are escapes (ሀ), written here with # for the backslash, which the generated code would read.
+UPDATE languages SET word_characters = replace('#u1200-#u135A#u135D-#u135F#u1369-#u137C#u1380-#u138F#u2D80-#u2DDE#uAB01-#uAB2E', '#', char(92))
+WHERE name = 'Amharic' AND parser_type = 'spacedel' AND word_characters = replace('#u1200-#u1359#u1369-#u137C', '#', char(92));
