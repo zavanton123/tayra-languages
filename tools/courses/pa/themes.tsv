@@ -42,3 +42,43 @@ pa-mini-4000	4000	B2	City life columns	ਸ਼ਹਿਰੀ ਜ਼ਿੰਦਗੀ 
 pa-mini-4100	4100	C1	Body and mind in daily life	ਰੋਜ਼ਾਨਾ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਤਨ ਅਤੇ ਮਨ
 pa-mini-4200	4200	C1	Architecture and heritage	ਇਮਾਰਤਸਾਜ਼ੀ ਅਤੇ ਵਿਰਸਾ
 pa-mini-4300	4300	C1	Climate and energy	ਮੌਸਮ ਅਤੇ ਊਰਜਾ
+pa-mini-4400	4400	C1	Everyday paperwork	ਰੋਜ਼ਾਨਾ ਕਾਗ਼ਜ਼ੀ ਕਾਰਵਾਈ
+pa-mini-4500	4500	C1	Film and television	ਫ਼ਿਲਮ ਅਤੇ ਟੈਲੀਵਿਜ਼ਨ
+pa-mini-4600	4600	C1	Research and discovery	ਖੋਜ ਅਤੇ ਨਵੀਆਂ ਲੱਭਤਾਂ
+pa-mini-4700	4700	C1	Living far from home	ਘਰ ਤੋਂ ਦੂਰ ਜ਼ਿੰਦਗੀ
+pa-mini-4800	4800	C1	The mind in daily life	ਰੋਜ਼ਾਨਾ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਮਨ
+pa-mini-4900	4900	C1	Sport and society	ਖੇਡ ਅਤੇ ਸਮਾਜ
+pa-mini-5000	5000	C1	Short essays	ਛੋਟੇ ਲੇਖ
+pa-mini-5100	5100	C1	Archaeology and the past	ਪੁਰਾਤੱਤਵ ਅਤੇ ਬੀਤਿਆ ਸਮਾਂ
+pa-mini-5200	5200	C1	The science of cooking	ਖਾਣਾ ਪਕਾਉਣ ਦਾ ਵਿਗਿਆਨ
+pa-mini-5300	5300	C1	Landscapes	ਕੁਦਰਤੀ ਨਜ਼ਾਰੇ
+pa-mini-5400	5400	C1	Caring for others	ਦੂਜਿਆਂ ਦੀ ਦੇਖਭਾਲ
+pa-mini-5500	5500	C1	Visual arts	ਚਿੱਤਰਕਾਰੀ ਅਤੇ ਦ੍ਰਿਸ਼ ਕਲਾਵਾਂ
+pa-mini-5600	5600	C1	Journalism and media	ਪੱਤਰਕਾਰੀ ਅਤੇ ਮੀਡੀਆ
+pa-mini-5700	5700	C1	Transport and mobility	ਆਵਾਜਾਈ ਅਤੇ ਸਫ਼ਰ
+pa-mini-5800	5800	C1	The Punjabi language	ਪੰਜਾਬੀ ਭਾਸ਼ਾ
+pa-mini-5900	5900	C1	Starting a business	ਕਾਰੋਬਾਰ ਸ਼ੁਰੂ ਕਰਨਾ
+pa-mini-6000	6000	C1	Memoirs	ਯਾਦਾਂ
+pa-mini-6100	6100	C1	The universe and the stars	ਬ੍ਰਹਿਮੰਡ ਅਤੇ ਤਾਰੇ
+pa-mini-6200	6200	C1	Mining and natural resources	ਖਾਣਾਂ ਅਤੇ ਕੁਦਰਤੀ ਸਰੋਤ
+pa-mini-6300	6300	C1	Food and health	ਖ਼ੁਰਾਕ ਅਤੇ ਸਿਹਤ
+pa-mini-6400	6400	C1	Theatre and stage	ਨਾਟਕ ਅਤੇ ਰੰਗਮੰਚ
+pa-mini-6500	6500	C1	Engineering	ਇੰਜੀਨੀਅਰਿੰਗ
+pa-mini-6600	6600	C1	Farm to table	ਖੇਤ ਤੋਂ ਥਾਲੀ ਤੱਕ
+pa-mini-6700	6700	C1	Words and where they come from	ਸ਼ਬਦ ਅਤੇ ਉਨ੍ਹਾਂ ਦਾ ਮੂਲ
+pa-mini-6800	6800	C1	Punjabi literature	ਪੰਜਾਬੀ ਸਾਹਿਤ
+pa-mini-6900	6900	C1	Numbers and reasoning	ਅੰਕ ਅਤੇ ਤਰਕ
+pa-mini-7000	7000	C1	Travel columns	ਸਫ਼ਰਨਾਮੇ
+pa-mini-7100	7100	C1	Public health	ਲੋਕ ਸਿਹਤ
+pa-mini-7200	7200	C1	Everyday philosophy	ਰੋਜ਼ਾਨਾ ਫ਼ਲਸਫ਼ਾ
+pa-mini-7300	7300	C1	Folk festivals and fairs	ਲੋਕ ਤਿਉਹਾਰ ਅਤੇ ਮੇਲੇ
+pa-mini-7400	7400	C1	Animal behaviour	ਜਾਨਵਰਾਂ ਦਾ ਵਿਹਾਰ
+pa-mini-7500	7500	C1	Work and the labour market	ਕੰਮ ਅਤੇ ਰੁਜ਼ਗਾਰ
+pa-mini-7600	7600	C1	Cities of the world	ਦੁਨੀਆ ਦੇ ਸ਼ਹਿਰ
+pa-mini-7700	7700	C1	Inventions and inventors	ਕਾਢਾਂ ਅਤੇ ਕਾਢਕਾਰ
+pa-mini-7800	7800	C1	Public services	ਲੋਕ ਸੇਵਾਵਾਂ
+pa-mini-7900	7900	C1	Mountains and hills	ਪਹਾੜ ਅਤੇ ਪਹਾੜੀਆਂ
+pa-mini-8000	8000	C1	Family columns	ਪਰਿਵਾਰਕ ਕਾਲਮ
+pa-mini-8100	8100	C2	The human body	ਮਨੁੱਖੀ ਸਰੀਰ
+pa-mini-8200	8200	C2	Prevention and resilience	ਬਚਾਅ ਅਤੇ ਹੌਸਲਾ
+pa-mini-8300	8300	C2	Design and craft	ਡਿਜ਼ਾਈਨ ਅਤੇ ਦਸਤਕਾਰੀ

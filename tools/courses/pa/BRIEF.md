@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Punjabi word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `pa-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 4,269 words: the last course is `pa-mini-4300`
-(ranks 4201–4269).
+`themes.tsv` gives each course its theme. The list has 8,290 words: the last course is `pa-mini-8300`
+(ranks 8201–8290).
 
 Punjabi is written here in Gurmukhi (ਗੁਰਮੁਖੀ), the script of East Punjab, never in Shahmukhi.
 
@@ -63,8 +63,17 @@ story; a lesson never needs another lesson to make sense.
     their everyday ones (*ਮਿਲਣਾ*, *ਮੁਤਾਬਕ*, *ਵੱਲੋਂ*); idioms (*ਮੁਹਾਵਰੇ*) explained by their context;
   - ranks 3001–4000: everything before, in a more literary, descriptive style: precise adjectives
     and clear images, the newspaper column (a light reflection on everyday life);
-  - ranks 4001–4269 (C1): everything before, with more abstract and nuanced content: a short essay
-    or reflective column that weighs two sides, an interview, a portrait, a review.
+  - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short essay
+    or reflective column that weighs two sides, an interview, a portrait, a review;
+  - ranks 5001–6000 (C1): the same, with the more specialised words of professions, sciences and
+    the arts, each made clear by its context, and texts that explain a process or compare
+    viewpoints in some depth;
+  - ranks 6001–8000 (C1): the same, with figurative language and idioms used more freely, words
+    chosen for their shades of meaning, and topics that need some background, which the text
+    gives;
+  - ranks 8001–8290 (C2): texts close to what native readers meet: literary prose, academic and
+    journalistic registers, learned words explained by their context. Still standalone, calm and
+    easy to follow for a reader at the level.
   After rank 1000 sentences get longer and joined, dialogue can carry more of the story, and a story
   may be told by a first-person narrator or as an e-mail, a letter or a diary entry. From rank 2000 a
   lesson may also be a short informative or opinion text, as long as it is everyday, calm and easy to
@@ -147,7 +156,7 @@ Write `tools/courses/pa/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, after that `C1`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 8000 `C1`, after that `C2`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/pa/<id>.json`
 
