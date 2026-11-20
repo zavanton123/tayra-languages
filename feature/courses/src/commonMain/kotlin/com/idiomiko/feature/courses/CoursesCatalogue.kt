@@ -212,8 +212,8 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
     Row(modifier.fillMaxSize()) {
         ScrollColumn(
             // The end padding keeps the cards clear of the sidebar's own scrollbar.
-            Modifier.width(SIDEBAR + AppSpacing.xxxl + AppSpacing.l).fillMaxHeight().testTag("sidebar"),
-            contentModifier = Modifier.padding(start = AppSpacing.xxxl, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
+            Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l).fillMaxHeight().testTag("sidebar"),
+            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             LevelCard(state.journey)
