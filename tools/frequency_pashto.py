@@ -1,0 +1,614 @@
+"""
+Pashto for tools/build_dictionary.py, tools/build_frequency_list.py and tools/check_course.py.
+
+The reader (PashtoParser) matches a word in Pashto letters without marks, its spellings of one letter folded together, as texts
+write them in Afghanistan and Pakistan: ك as ک, گ as ګ, ۀ, ە, ہ and ھ as ه, Urdu's ٹ, ڈ and ڑ as ټ, ډ and ړ, and the yes ی,
+ى, ې, ے, ۍ, ئ and ۓ all as ي (چې, چي and چی are one word, as are ډېر and ډير, کېږي and کيږي, سړی and سړي). The other
+letters Pashto has of its own stay apart (ښ, ږ, ځ, څ, ڼ beside ش, ژ, ز, ص, ن). The vowel signs, tatweel and the
+non-joiner go. Keep pashto_fold and PashtoParser.fold the same.
+
+The dictionary pack and the list keep each word as it is spelled (سړی, ډېر); only its matching (word_lc, forms) is folded.
+"""
+import re
+import unicodedata
+
+ZWNJ = "\u200c"
+# A long vowel or hamza seat written as a letter and a combining sign.
+_COMPOSED = (
+    ("\u0627\u0653", "\u0622"), ("\u0627\u0654", "\u0623"), ("\u0627\u0655", "\u0625"), ("\u0648\u0654", "\u0624"),
+)
+_LETTERS = str.maketrans({
+    "\u0643": "\u06a9",  # ك  ک
+    "\u06af": "\u06ab",  # گ  ګ
+    "\u06c0": "\u0647", "\u06d5": "\u0647", "\u06c1": "\u0647", "\u06be": "\u0647",  # ۀ ە ہ ھ  ه
+    "\u0679": "\u067c", "\u0688": "\u0689", "\u0691": "\u0693",  # ٹ ڈ ڑ  ټ ډ ړ
+    # ی ى ې ے ۍ ئ ۓ  ي
+    "\u06cc": "\u064a", "\u0649": "\u064a", "\u06d0": "\u064a", "\u06d2": "\u064a", "\u06cd": "\u064a",
+    "\u0626": "\u064a", "\u06d3": "\u064a",
+})
+# The vowel signs, shadda, sukun, the hamza and madda signs, superscript alef, tatweel and the non-joiner.
+_MARKS = re.compile("[\u064b-\u065f\u0670\u0640\u200c]")
+# The letters of a Pashto word as the reader reads it (PashtoParser's word characters, folded).
+LETTERS = re.compile("[\u0621-\u063a\u0641-\u064a\u0679-\u06d3]+")
+
+
+def pashto_fold(word):
+    """A word as the reader matches it (PashtoParser.fold)."""
+    for spread, composed in _COMPOSED:
+        word = word.replace(spread, composed)
+    return _MARKS.sub("", word).translate(_LETTERS)
+
+
+# A table cell of the English Wiktionary: the word, then its romanisation and notes ("کوم (kawә́m)"), some letters in their
+# presentation forms (کوﺉ).
+_RUN = re.compile("[\u0600-\u06ff\u200c]+")
+# The vowel signs and tatweel a pack spelling leaves out, as texts do.
+_SPELLING_MARKS = re.compile("[\u064b-\u065f\u0670\u0640]")
+
+
+def clean_pashto(word):
+    """A pack spelling: the Pashto word a cell or headword starts with, without vowel signs, ك as ک and ۀ as ه."""
+    word = unicodedata.normalize("NFKC", word.strip())
+    if re.search(r"[A-Za-z(/,]", word) or "\u0259" in word or "\u04d9" in word:
+        run = _RUN.match(word)
+        word = run.group(0) if run else ""
+    for spread, composed in _COMPOSED:
+        word = word.replace(spread, composed)
+    return _SPELLING_MARKS.sub("", word).replace("\u0643", "\u06a9").replace("\u06c0", "\u0647").strip(ZWNJ)
+
+
+def spelling_rank(word):
+    """
+    How Afghan a spelling of a folded word is, to show the commonest one: the more of Pashto's own yes it writes (ې, ۍ, ی, ئ
+    for the ي of Pakistani and older spellings) and of its own letters (ګ for گ), the more; of two alike, the pack's first.
+    """
+    return sum(c in "\u06d0\u06cd\u06cc\u0626" for c in word), sum(c in "\u067c\u0681\u0685\u0689\u0693\u0696\u069a\u06ab\u06bc" for c in word)
+
+
+# A word as the reader cuts it: a run of its word characters for Pashto (AddedLanguages), the non-joiner and marks inside.
+READER_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06ef\u06fa-\u06ff"
+                         "\ufb50-\ufdff\ufe70-\ufefc]+")
+# Leipzig's Pashto corpora hold Dari and Persian sentences too (its 2011 news crawl a quarter, and some Bosnian). A Pashto sentence
+# has one of Pashto's own letters, or one of these words, which Persian has not.
+_OWN_LETTERS = re.compile("[\u067c\u0681\u0685\u0689\u0693\u0696\u069a\u06ab\u06bc\u06cd\u06d0]")
+_OWN_WORDS = {"د", "په", "کي", "چي", "يي", "دی", "ده", "دي", "ته", "لري", "شوی", "وو", "يو", "دا", "هم", "سره", "پر"}
+
+
+def is_pashto(sentence):
+    if _OWN_LETTERS.search(sentence):
+        return True
+    return any(pashto_fold(w) in _OWN_WORDS for w in READER_WORD.findall(sentence))
+
+
+def sentence_counts(path):
+    """A Leipzig corpus's word counts over its Pashto sentences, the words cut and folded as the reader cuts and matches them."""
+    import io
+    import tarfile
+    from collections import Counter
+    counts = Counter()
+    with tarfile.open(path) as tar:
+        member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+        for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+            sentence = line.rstrip("\n").partition("\t")[2]
+            if is_pashto(sentence):
+                counts.update(w for w in map(pashto_fold, READER_WORD.findall(sentence)) if LETTERS.fullmatch(w))
+    return counts
+
+
+# Common words the English Wiktionary has no Pashto entry for (له, هم, خپل, سهار, ليکل), or has only in a rare sense (سر
+# "secret", not "head"; کس, تنه, باره, مالي): word | part of speech | English gloss | forms no rule makes. tools/build_dictionary.py
+# adds them to the pack as entries of their own, glossed so.
+_HAND = """
+له|prep|from; by; with (له ... سره)
+هم|adv|also, too; even
+تر|prep|until, up to; than; under (تر ... لاندې)
+څخه|postp|from (له ... څخه)
+خو|conj|but; though
+خپل|adj|own, one's own|خپله خپلې خپلو
+باید|adv|must, should
+اړه|noun|relation (په اړه: about)
+ورته|adj|similar, alike
+توګه|noun|manner, way (په ... توګه)
+خوا|noun|side, direction (له خوا: by)|خواوې خواوو
+لکه|prep|like, as
+نن|adv|today
+ما|pron|me (oblique of زه)
+هېڅ|det|no, none; nothing
+همدا|pron|this very, this same
+اوسه|noun|now (تر اوسه: until now)
+امله|noun|reason (له امله: because of)
+حال|noun|state, condition
+مهال|noun|time, period
+ترسره|adv|accomplished (ترسره کول: to carry out)
+تړاو|noun|connection (په تړاو: concerning)
+کولای|adv|able (کولای شي: can)
+پیدا|adj|found; born (پیدا کول: to find)
+چا|pron|whom (oblique of څوک)
+شته|verb|there is, exists
+نشته|verb|there is not
+مشر|noun|leader, elder; head|مشران مشرانو مشري
+ترمنځ|postp|between
+ضد|noun|opposite; against (د ... ضد)
+مخکې|adv|before, earlier; in front
+پاتې|adj|remaining, left
+مخنیوی|noun|prevention
+یعني|conj|that is, namely
+آیا|particle|question particle (whether)
+حتی|adv|even
+خورا|adv|very, most
+پورته|adv|up, above
+بلکې|conj|but rather
+سربېره|prep|besides, in addition to
+کوم|det|which; some|کومه کومې کومو
+نیم|adj|half
+چمتو|adj|ready, prepared
+خوشې|adj|released, free (خوشې کول: to release)
+تازه|adj|fresh, new
+روان|adj|current, ongoing; flowing|روانه روانې روانو
+دوام|noun|continuation
+ثبت|noun|registration, record
+ملاتړ|noun|support
+حل|noun|solution
+پام|noun|attention, care
+کچه|noun|level, rate
+حق|noun|right; truth
+اړتیا|noun|need
+مخه|noun|front, way (مخه نیول: to stop)
+وروستی|adj|last, latest, recent
+اړوند|adj|related, concerned
+راتلونکی|adj|coming, next, future
+کم|adj|little, few, less
+توکی|noun|item, article (pl. توکي: goods)
+وضعیت|noun|situation
+ولاړ|adj|standing|ولاړه ولاړې ولاړو
+جدي|adj|serious
+عملي|adj|practical
+مقام|noun|position, authority; official
+مبارزه|noun|fight, struggle, campaign
+پوره|adj|full, complete, enough
+عام|adj|public, general, common|عامه عامې عامو
+ټینګار|noun|emphasis, insistence
+هکله|noun|matter (په دې هکله: about this)
+حواله|noun|reference (په حواله: citing)
+اساس|noun|basis (پر اساس: according to)
+مخامخ|adv|facing, face to face
+مهم|adj|important
+ترڅ|noun|course (په ترڅ کې: during)
+بېلابېل|adj|various, different
+سرچینه|noun|source
+اندازه|noun|amount, size, measure
+پلان|noun|plan
+ټپي|adj|wounded|ټپیان ټپیانو
+همدارنګه|adv|likewise, also
+پوځي|adj|military
+څېر|noun|likeness (په څېر: like)
+اصلي|adj|main, original, real
+نېټه|noun|date
+ملکي|adj|civilian
+تړون|noun|agreement, treaty
+بنسټ|noun|foundation, basis
+اساسي|adj|basic, fundamental
+غیر|adj|non-, other than
+چاپ|noun|print, printing
+مشري|noun|leadership
+بهیر|noun|process, course
+ناسته|noun|sitting, meeting
+نظام|noun|system, order; regime
+اوسنی|adj|present, current
+سلنه|noun|percent
+لیک|noun|letter
+عمومي|adj|general
+لامل|noun|cause, reason
+فساد|noun|corruption
+عمل|noun|action, deed
+تن|noun|person (counting people)|تنه تنو
+خاطر|noun|sake (د ... له خاطره: for the sake of)|خاطره
+لومړنی|adj|primary, first, initial
+کرنه|noun|agriculture, farming
+ټاکل|verb|to appoint, to choose, to set|ټاکي وټاکي ټاکم ټاکو وټاکل ټاکلی ټاکلي ټاکلو ټاکنه ټاکنې ټاکنو
+بدلون|noun|change
+پلاوی|noun|delegation
+موجود|adj|present, existing
+عملیات|noun|operations|عملیاتو
+بحث|noun|discussion, debate
+پراختیا|noun|expansion, development
+قومي|adj|tribal, national
+موده|noun|period, length of time
+قوماندان|noun|commander
+دیني|adj|religious
+ادبي|adj|literary
+پخوا|adv|before, formerly, earlier
+پلی|adj|on foot; carried out (پلی کول: to implement)
+بدل|adj|changed (بدل کول: to change)
+اوربند|noun|ceasefire
+مشهور|adj|famous
+ځایي|adj|local
+خوراکي|adj|food (adj.), edible
+مواد|noun|materials, substances|موادو
+تولید|noun|production
+قانوني|adj|legal, lawful
+مانا|noun|meaning
+سهار|noun|morning
+سیستم|noun|system
+بریالی|adj|successful
+نظامي|adj|military
+همداسې|adv|just so, likewise
+کلن|adj|years old (لس کلن: ten years old)
+خلاف|noun|opposite; against (د ... خلاف)
+لرونکی|adj|having, owning
+بشپړ|adj|complete, whole
+غبرګون|noun|reaction, response
+تراوسه|adv|so far, until now
+زیان|noun|harm, damage, loss
+تګ|noun|going
+یادونه|noun|mention; note
+مثبت|adj|positive
+راتګ|noun|coming, arrival
+سرتېری|noun|soldier
+فلم|noun|film
+ګواښ|noun|threat
+پخپله|adv|oneself, by oneself
+استفاده|noun|use
+لړۍ|noun|series, chain
+لیدنه|noun|visit, meeting
+زمینه|noun|ground, background; opportunity
+مراسم|noun|ceremony|مراسمو
+باب|noun|chapter; matter
+فشار|noun|pressure
+جمهوري|adj|republican (of a republic)
+پوهاوی|noun|awareness
+وسیله|noun|means, tool
+ترتیب|noun|order, arrangement
+مختلف|adj|different, various
+تطبیق|noun|implementation
+انتقال|noun|transfer
+اقدام|noun|action, step
+کمېټه|noun|committee
+هماغه|pron|that same, that very
+ټولګی|noun|class, classroom
+هټۍ|noun|shop
+ستړی|adj|tired
+خوشحاله|adj|happy, glad
+خفه|adj|sad, upset; annoyed
+ناروغ|adj|ill, sick|ناروغه ناروغې ناروغو ناروغان ناروغانو
+روغ|adj|healthy, well|روغه روغې روغو
+یخ|adj|cold|یخه یخې یخو
+سبزي|noun|vegetables, greens
+جامې|noun|clothes|جامو
+کمیس|noun|shirt (kameez)
+پیزار|noun|shoe, shoes
+ریل|noun|train
+پخلنځی|noun|kitchen
+کټ|noun|bed (charpoy)
+بستره|noun|bed, bedding
+کمپله|noun|blanket
+میره|noun|husband
+ناست|adj|sitting, seated|ناسته ناستې ناستو
+ویده|adj|asleep
+هېڅکله|adv|never
+خرڅ|adj|spent, sold (خرڅ کول: to spend, to sell)
+خبر|adj|aware, informed (خبر کول: to inform)
+سر|noun|head; top, end|سرونه سرونو
+کس|noun|person (counting people)|کسان کسانو
+باره|noun|matter (په باره کې: about)
+مالي|adj|financial
+خالي|adj|empty
+کافي|adj|enough, sufficient
+ګروپ|noun|group
+بوره|noun|sugar
+لا|adv|still, yet
+دین|noun|religion
+پوسته|noun|post, checkpost
+مړ|adj|dead|مړه مړې مړو
+وړاندې|adv|forward, ahead; before (له ... وړاندې)
+نوموړی|adj|the said, the aforementioned|نوموړې نوموړي نوموړو
+امنیت|noun|security
+امنیتي|adj|security (adj.)
+چاره|noun|affair, matter (pl. چارې: affairs)|چارې چارو
+یوازې|adv|only, alone|یواځې
+موخه|noun|aim, purpose
+بهرنی|adj|foreign, outside
+ځانګړی|adj|special, particular
+کبله|noun|reason (له کبله: because of)
+وینا|noun|speech
+ریاست|noun|directorate, presidency
+ورسره|adv|with him, with her, with them
+چارواکی|noun|official, authority
+متحده|adj|united
+رامنځته|adv|into being (رامنځته کول: to create)
+تګلاره|noun|policy, course
+نامه|noun|name (په نامه: named)
+لخوا|postp|by (د ... لخوا)
+ترلاسه|adv|in hand (ترلاسه کول: to obtain)
+مرستیال|noun|deputy, assistant
+وای|particle|would (marks the conditional)
+ترڅنګ|postp|beside, alongside; besides
+روغتیایي|adj|health (adj.)
+تاوتریخوالی|noun|violence
+ولایتي|adj|provincial
+کمېسیون|noun|commission
+شامل|adj|included
+کوونکی|noun|doer, one who does (زده کوونکی: student)
+ټولنیز|adj|social
+پروسه|noun|process
+پاملرنه|noun|attention, care
+بهر|adv|outside, abroad
+چاپېریال|noun|environment, surroundings
+لګښت|noun|cost, expense
+پیاوړی|adj|strong, powerful
+ګډ|adj|joint, common, mixed
+اختر|noun|Eid, festival
+تایید|noun|confirmation, approval
+چاودنه|noun|explosion
+شخصي|adj|personal, private
+مذهبي|adj|religious
+لیکنه|noun|writing, article
+خوندي|adj|safe, protected
+دنیا|noun|world
+مذاکرات|noun|negotiations|مذاکراتو
+پټ|adj|hidden, secret
+خبرداری|noun|warning
+معلوم|adj|known, clear
+دمخه|adv|before, beforehand
+تورن|adj|accused
+مقابل|adj|opposite, facing
+همغږي|noun|coordination
+مدني|adj|civil
+قوي|adj|strong
+تمه|noun|expectation, hope
+پرمهال|postp|during, at the time of
+عادي|adj|ordinary, normal
+دغسې|adj|such, like this
+شرایط|noun|conditions|شرایطو
+بیان|noun|statement, expression
+همدغه|pron|this very, this same
+ژوبله|noun|injury, casualties
+توپیر|noun|difference
+منفي|adj|negative
+امکان|noun|possibility
+کمزوری|adj|weak
+دننه|adv|inside
+کمښت|noun|shortage, decrease
+ورڅخه|adv|from him, from her, from them
+رهبري|noun|leadership
+اطلاعات|noun|information, intelligence|اطلاعاتو
+زیاتره|adv|mostly, most
+همداراز|adv|likewise, also
+مدیریت|noun|management
+داخلي|adj|internal, domestic
+واکمني|noun|rule, reign
+ادامه|noun|continuation
+اړ|adj|compelled, in need (اړ کېدل: to have to)
+ناوړه|adj|bad, harmful
+میلادي|adj|AD, of the Christian era
+وېش|noun|division, distribution
+وړتیا|noun|ability, capacity
+پلوه|noun|side, respect (له دې پلوه: in this respect)
+مړینه|noun|death
+وده|noun|growth, development
+خلاص|adj|open; free, finished
+بندیز|noun|ban, sanction
+معرفي|noun|introduction
+ممکن|adj|possible
+قوم|noun|tribe, people
+روزنه|noun|training, upbringing
+اندېښنه|noun|worry, concern
+غوندې|postp|like, as
+خوښ|adj|pleased, liked, chosen
+غوښتونکی|noun|seeker, one who demands
+مطلب|noun|point, meaning, aim
+اغېز|noun|effect, influence
+مبارکي|noun|congratulations
+کنټرول|noun|control
+ثبات|noun|stability
+یوځای|adv|together
+ماتې|noun|defeat
+هرڅه|pron|everything
+کیسه|noun|story
+هرکلی|noun|welcome
+لارښوونه|noun|guidance, instruction
+ماموریت|noun|mission
+البته|adv|of course
+مسوول|adj|responsible; official
+ورباندې|adv|on it, on him, on them
+انرژي|noun|energy
+جوړښت|noun|structure
+کمپاین|noun|campaign
+واسطه|noun|means (په واسطه: by means of)
+ونډه|noun|share, contribution
+ورځنی|adj|daily
+درناوی|noun|respect
+خراب|adj|bad; broken, spoiled
+آزاد|adj|free|ازاد
+غور|noun|consideration, attention
+حضور|noun|presence
+حالات|noun|conditions, circumstances|حالاتو
+هسې|adv|just, for nothing, in vain
+ولسوال|noun|district governor
+توان|noun|ability, strength
+تخنیکي|adj|technical
+حقوق|noun|rights; law|حقوقو
+کارکوونکی|noun|worker, employee
+استعمال|noun|use
+ستونزه|noun|problem, difficulty
+ولسي|adj|national, of the people
+تجارتي|adj|commercial, trade (adj.)
+هوايي|adj|air (adj.), aerial
+تا|pron|you (oblique of ته)
+راته|adv|to me, to us
+درته|adv|to you
+روښانه|adj|bright, clear
+وار|noun|turn, time
+علیه|prep|against
+دفاعي|adj|defence (adj.), defensive
+خپور|adj|published, spread|خپره خپرې خپاره خپرو
+پکې|adv|in it, among them
+پرې|adv|on it, on them
+ترې|adv|from it, from him, from them
+پاره|noun|sake (له ... پاره: for)
+"""
+# Forms of the pack's words that its tables lack, irregular or often written: word | forms.
+_MORE_FORMS = """
+ويل|وايي وايم وايې وايو وايئ ووايي ووايم ووايې ووايو ووايئ وايه ووايه وويل وويلې وويله وويلو وويلم ويلي ويلی ويلې ويلو
+کول|وکړ وکړو وکړم وکړې وکړي وکړل وکړه کړی کړې کړي کړل کړه کړ کړو کړلی کړلې کړلي
+ورکول|ورکوي ورکوم ورکوو ورکوې ورکړي ورکړم ورکړو ورکړې ورکړل ورکړ ورکړه ورکړی ورکولو
+کېدل|شو شوه شول شوي شوې شوی شوم شوو وشو وشوه وشول وشوي وشي کېدای کیدای کېږي کېږم شي شم شې نشي
+لرل|درلود درلوده درلودل درلودې نلري
+رسېدل|ورسېد ورسېده ورسېدل ورسېدو ورسېږي رسېږي رسېږم رسېدو
+تلل|لاړ لاړه لاړل لاړې لاړم ولاړ ولاړه ځي ځم ځو ځئ
+راتلل|راغی راغلی راغلي راغلې راغله راغلل راځي راشي راځم راشم
+يم|وه وې وو ول وئ ياست ؤ
+يو|يوه يوې يوو
+همدا|همدې همدغه
+کال|کاله کلونو
+منځ|منځه
+ياد|ياده يادې يادو
+"""
+# Spellings the pack has as words of their own that are another word's, as Pakistani and older texts write it (چه for چې,
+# کښې for کې, وایروس for ویروس), or forms filed under a rare word spelled alike (کړي "does", not کړۍ "ring"; لري "has", not
+# لرې "far"; شي "becomes", not شی "thing").
+_SPELLED_AS = """
+چه|چې
+کښې|کې
+پکښې|پکې
+وايروس|ويروس
+لاره|لار
+پاته|پاتې
+لیرې|لرې
+ان|آن
+اووني|اونۍ
+قومندان|قوماندان
+ډاکتر|ډاکټر
+بلکه|بلکې
+ایا|آیا
+دپاره|لپاره
+سو|کېدل
+سي|کېدل
+سوي|کېدل
+مځکه|ځمکه
+خلګ|خلک
+ږغ|غږ
+"""
+# Verbs the pack lacks, with the stem their present and imperative are made of, and the prefix of their perfective ("و" but for
+# verbs with a prefix of their own): infinitive | present stem | perfective prefix | English gloss.
+_HAND_VERBS = """
+خپرېدل|خپرېږ||to be published, to spread
+کارول|کارو|و|to use
+رسول|رسو|و|to deliver, to bring
+سپارل|سپار|و|to hand over, to entrust
+وېشل|وېش|و|to divide, to distribute
+ساتل|سات|و|to keep, to protect
+لیکل|لیک|و|to write
+څښل|څښ|و|to drink
+نیول|نیس|و|to hold, to seize, to catch
+ښودل|ښی|و|to show
+ښکارېدل|ښکارېږ||to seem, to appear
+جوړېدل|جوړېږ||to be made, to be built
+رسېدل|رسېږ|و|to arrive, to reach
+ګرځېدل|ګرځ|و|to walk, to wander; to turn
+اوښتل|اوړ|وا|to turn, to cross over
+پوښتل|پوښت|و|to ask
+تښتېدل|تښت|و|to flee, to run away
+غږول|غږو|و|to call; to play (an instrument)
+لګېدل|لګېږ|و|to be hit; to be spent; to seem
+لګول|لګو|و|to apply, to put on; to spend
+خلاصول|خلاصو||to open, to free
+پرانیستل|پرانیز||to open
+پېښېدل|پېښېږ||to happen
+کېناستل|کېن||to sit down
+پاڅېدل|پاڅ||to get up, to stand up
+ځغاستل|ځغل|و|to run
+لمبل|لامب|و|to bathe, to swim
+وینځل|وینځ|و|to wash
+لېږل|لېږ|و|to send
+خندل|خاند|و|to laugh
+ژړل|ژاړ|و|to cry, to weep
+"""
+
+
+def more_forms():
+    """(form, word) pairs of _MORE_FORMS and _SPELLED_AS, as spelled."""
+    pairs = []
+    for line in _MORE_FORMS.strip().splitlines():
+        word, forms = line.split("|")
+        pairs += [(form, word) for form in forms.split()]
+    for line in _SPELLED_AS.strip().splitlines():
+        form, word = line.split("|")
+        pairs.append((form, word))
+    return pairs
+
+
+def hand_entries():
+    """The _HAND and _HAND_VERBS words: (word, pos, gloss, forms)."""
+    out = []
+    for line in _HAND.strip().splitlines():
+        word, pos, gloss, *forms = line.split("|")
+        out.append((word, pos, gloss, forms[0].split() if forms else []))
+    for line in _HAND_VERBS.strip().splitlines():
+        verb, stem, prefix, gloss = line.split("|")
+        out.append((verb, "verb", gloss, verb_forms(verb, stem, prefix)))
+    return out
+
+
+def verb_forms(verb, stem, prefix="و"):
+    """
+    A verb's forms by the regular rules, from its infinitive (لیکل) and present stem (لیک): the present (لیکم, لیکې, لیکي,
+    لیکو, لیکئ) and imperative (لیکه), each also with the perfective prefix (ولیکي, ولیکه); the past (لیکلم, لیکلې, لیکه,
+    لیکله, لیکلو, لیکلئ, لیکل), also perfective (ولیکل); the participle (لیکلی, لیکلې, لیکلي, لیکلو), the infinitive's oblique
+    (لیکلو). Its yes are written once, folded (frequency_pashto.pashto_fold folds ې, ی, ئ as ي).
+    """
+    past = verb[:-1]
+    present = [stem + e for e in ("م", "ې", "ي", "و", "ئ", "ه")]
+    simple_past = [verb + e for e in ("م", "ې", "ه", "و", "ئ")] + [verb, past + "ه"]
+    participle = [verb + e for e in ("ی", "ې", "ي", "و", "یو")]
+    forms = present + simple_past + participle
+    if prefix:
+        forms += [prefix + f for f in present + simple_past]
+    return list(dict.fromkeys(f for f in forms if f != verb))
+
+
+def nominal_forms(word, pos):
+    """
+    The regular forms of a noun or adjective the pack has no table for, by its ending: a consonant's plural in -ونه (ولایتونه)
+    and -ان (مشران) with their obliques (-ونو, -انو) and the oblique plural -و (نورو); an adjective's feminine -ه, -ې (خپله,
+    خپلې); -ه's -ې and -و (سولې, سولو); a final ye's oblique plural -یو and -و (سړیو, پیسو); -ا's -وې, -وو, -ګانې, -ګانو.
+    """
+    if " " in word or len(word) < 2:
+        return []
+    last = word[-1]
+    if pos == "pron" and last in "\u0647\u064a\u06cc\u06d0\u06cd\u0626\u0627\u0648":
+        out = []
+    elif last in "\u0647":
+        out = [word[:-1] + "\u06d0", word[:-1] + "\u0648"]
+    elif last in "\u064a\u06cc\u06d0\u06cd\u0626":
+        out = [word[:-1] + "\u064a\u0648", word[:-1] + "\u0648"]
+    elif last == "\u0627":
+        out = [word + "\u0648\u06d0", word + "\u0648\u0648", word + "\u06ab\u0627\u0646\u06d0", word + "\u06ab\u0627\u0646\u0648"]
+    elif last == "\u0648":
+        out = [word + "\u06ab\u0627\u0646\u06d0", word + "\u06ab\u0627\u0646\u0648"]
+    elif pos == "pron":
+        out = [word + "\u0648"]
+    elif pos == "noun":
+        out = [word + "\u0648\u0646\u0647", word + "\u0648\u0646\u0648", word + "\u0627\u0646", word + "\u0627\u0646\u0648", word + "\u0648"]
+    else:
+        out = [word + "\u0647", word + "\u06d0", word + "\u0648"]
+    return out
+
+
+# The list's corrections, as frequency_fixes.OVERRIDES and EXCLUDE have them, folded: the other spellings with their word; the
+# verb forms the pack also has as a rare word spelled alike (کړي "does" and کړۍ "ring", لري "has" and لرې "far", شي "becomes"
+# and شی "thing", وو "were" and "wind", مني "accepts" and "semen") with their verb.
+OVERRIDES = {pashto_fold(form): [pashto_fold(word)] for line in _SPELLED_AS.strip().splitlines() for form, word in [line.split("|")]}
+OVERRIDES.update({pashto_fold(form): [pashto_fold(verb)] for form, verb in (
+    ("کړي", "کول"), ("کړه", "کول"), ("کړ", "کول"), ("کړې", "کول"), ("لري", "لرل"), ("شي", "کېدل"), ("شو", "کېدل"),
+    ("وو", "يم"), ("وه", "يم"), ("مني", "منل"),
+    # And the forms filed under a rare word spelled alike: لارې "ways" (not لارۍ "lorry"), ډېرې, کلي "villages", ملګري
+    # "friends", تنه and کسان "persons".
+    ("لارې", "لار"), ("ډېرې", "ډېر"), ("کلي", "کلی"), ("ملګري", "ملګری"), ("تنه", "تن"), ("کسان", "کس"), ("غونډې", "غونډه"), ("بولي", "بلل"), ("خوري", "خوړل"))})
+# How a word is shown where the pack's spellings would show another word's (ترۍ for ترې, مېنه "home" for مینه "love").
+DISPLAY = {pashto_fold(w): w for w in "چې دی ترې مینه رئیس امریکایي زوی".split()}
+# Persian words of the Dari sentences among the Pashto ones (برای "for", کشور "country", مردم "people", است "is"), and بين, the
+# piece of بين المللي ("international").
+EXCLUDE = {pashto_fold(w) for w in "برای کشور مردم من کند اند بين کرد است از با این خود".split()}
+# And names the pack has as words (کندهار, the province; حسين "handsome", the name Hussain).
+EXCLUDE |= {pashto_fold(w) for w in "کندهار حسين".split()}

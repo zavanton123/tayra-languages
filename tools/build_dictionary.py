@@ -39,6 +39,7 @@ from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from frequency_urdu import TABLE_PRONOUNS, adjective_forms, noun_forms, urdu_fold, verb_forms  # noqa: E402
 import frequency_nepali  # noqa: E402
+from frequency_pashto import clean_pashto, hand_entries, more_forms, nominal_forms, pashto_fold  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -92,6 +93,7 @@ SOURCES = {
     "ta": ("Tamil", None, "dictionaries/kaikki.org-dictionary-Tamil.jsonl.gz"),
     "te": ("Telugu", None, "dictionaries/kaikki.org-dictionary-Telugu.jsonl.gz"),
     "ne": ("Nepali", None, "dictionaries/kaikki.org-dictionary-Nepali.jsonl.gz"),
+    "ps": ("Pashto", None, "dictionaries/kaikki.org-dictionary-Pashto.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -429,7 +431,59 @@ def punjabi_extra_entries(pa_path, kept):
 
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"te": clean_telugu, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto}
+
+
+def pashto_translation_entries(kept):
+    """
+    The Pashto words the English Wiktionary's translation tables give that its Pashto entries lack (it has 1,600 entries,
+    its tables 4,000 Pashto words), by part of speech, each glossed with the English words it translates: word -> pos -> glosses.
+    """
+    entries = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "ps"' not in line:
+                continue
+            d = json.loads(line)
+            # The tables are the entry's, or (most) a sense's, which glosses the English word where the table does not.
+            tables = [(t, None) for t in d.get("translations", [])]
+            tables += [(t, s) for s in d.get("senses", []) for t in s.get("translations", [])]
+            for t, s in tables:
+                word = clean_pashto(t.get("word", "")) if t.get("code") == "ps" else ""
+                if not word or word in kept or not PASHTO_WORD_RE.match(word):
+                    continue
+                sense = t.get("sense") or (s.get("glosses") or [None])[-1] if s else t.get("sense")
+                gloss = d["word"] + (f" ({sense})" if sense else "")
+                if gloss not in entries[word][d.get("pos") or "unknown"]:
+                    entries[word][d.get("pos") or "unknown"].append(gloss)
+    return entries
+
+
+def pashto_hand(db, next_id, inflected):
+    """
+    Adds frequency_pashto's hand-glossed words with their forms, and the regular forms (nominal_forms) of each noun and adjective,
+    which most tables lack (ژبه's gives ژبې, not ژبو), but those spelled as an entry is (سره "with" is no form of سر); returns
+    the entries added and the next id.
+    """
+    rows, forms = [], []
+    for word, pos, gloss, made in hand_entries():
+        rows.append((next_id, word, lowercase(word, "ps"), pos, None, json.dumps([{"glosses": [gloss]}], ensure_ascii=False, separators=(",", ":"))))
+        next_id += 1
+        forms += [(lowercase(form, "ps"), word, 0) for form in made]
+        if made:
+            inflected.add((pos, word))
+    db.executemany("INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES (?, ?, ?, ?, ?, ?)", rows)
+    db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, ?)", forms)
+    db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, 0)", [(lowercase(form, "ps"), word) for form, word in more_forms()])
+    entries = {w for (w,) in db.execute("SELECT word_lc FROM entries")}
+    made = [(lowercase(form, "ps"), word, 1) for word, pos in db.execute("SELECT word, pos FROM entries WHERE pos IN ('noun', 'adj', 'det', 'num', 'pron')")
+            for form in nominal_forms(word, pos) if lowercase(form, "ps") not in entries]
+    db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, ?)", made)
+    return len(rows), next_id
+
+
+# A Pashto word of the translation tables: its letters alone, one word.
+PASHTO_WORD_RE = re.compile("^[\u0621-\u063a\u0641-\u064a\u0679-\u06d3]+$")
 
 
 # Swahili: the English Wiktionary names a verb with its hyphen ("passive of -penda"), and writes many forms as prose senses
@@ -451,6 +505,9 @@ def lowercase(word, source):
     """Turkish and Azerbaijani have a dotted and a dotless i, so "I" lowers to "ı" and "İ" to "i"; the app does the same."""
     if source in ("tr", "az"):
         word = word.replace("I", "ı").replace("İ", "i")
+    # Pashto words are matched with their spellings of one letter folded together (frequency_pashto), and written as spelled.
+    if source == "ps":
+        return pashto_fold(word)
     return word.lower()
 
 
@@ -1030,6 +1087,20 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
         db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, 1)", nepali_generated(nepali_kept, pos_inflected))
         form_count += db.total_changes - before
         print(f"  {db.total_changes - before:,} forms by rule", file=sys.stderr)
+    if source == "ps":
+        kept = {w for (w,) in db.execute("SELECT word FROM entries")}
+        for word, by_pos in sorted(pashto_translation_entries(kept).items()):
+            for pos, glosses in sorted(by_pos.items()):
+                senses = [{"glosses": [g]} for g in glosses]
+                entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+                next_id += 1
+                entry_count += 1
+        flush()
+        label += " and its English entries' translation tables"
+        added, next_id = pashto_hand(db, next_id, pos_inflected)
+        entry_count += added
+        form_count = db.execute("SELECT COUNT(*) FROM forms").fetchone()[0]
+        label += "; common words it lacks, glossed by hand (tools/frequency_pashto.py)"
     if source == "ur":
         added, next_id = urdu_from_hindi(urdu_kept, next_id)
         entry_rows = [row for row, _ in added]
