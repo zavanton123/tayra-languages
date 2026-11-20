@@ -3410,6 +3410,46 @@ Trong Cài đặt, bạn cũng có thể chọn tiếng mẹ đẻ, ngôn ngữ 
 
 在“设置”里，你还可以选择你的母语、界面语言、离线词典和语音。现在打开“课程”，选择第一门课程，开始阅读吧。祝你好运！""",
             ),
+            "zu" to Tutorial(
+                title = "Indlela yokufunda nge-Idiomiko",
+                text = """Wamukelekile ku-Idiomiko! Le ncwadi emfushane ikukhombisa ukuthi ungalisebenzisa kanjani lolu hlelo ukuze ufunde ulimi ngokufunda. Ibhalwe ngolimi olufundayo, ngakho-ke iwumbhalo wakho wokuqala wokuzijwayeza. Ungakhathazeki uma ungakaqondi wonke amagama okwamanje.
+
+Kungani ukufunda kusebenza
+
+Sifunda ulimi kangcono emibhalweni eminingi ethakazelisayo esicishe siyiqonde. Uma wazi amagama amaningi asekhasini, ungaqagela amanye, futhi igama ngalinye elisha kuba lula ukulikhumbula. I-Idiomiko ikusiza ukuthola imibhalo enjalo futhi ikhumbula wonke amagama ohlangana nawo.
+
+Imibala ikhombisa okwaziyo
+
+Amagama ongakawagcini aluhlaza okwesibhakabhaka: amasha kuwe. Chofoza igama ukuze ubone ukuhumusha kwalo olimini lwakho lwebele, ulibheke esichazamazwini noma uzwe ukuthi lizwakala kanjani. Bese ukhetha ukuthi ulazi kangakanani. Izimo ezisuka ku-1 kuya ku-4 zisho ukuthi usalifunda igama, futhi umbala walo uya uphaphatheka njengoba ulifunda. Okwaziwayo kusho ukuthi ulazi kahle igama, bese lingabi nambala nhlobo. Ziba kungokwamagama abantu nezindawo, izinombolo namanye amagama ongadingi ukuwafunda. Ungagcina nomusho wamagama amaningana ndawonye.
+
+Qeda ikhasi ngalinye
+
+Ekupheleni kwekhasi, makisa amagama asele njengaziwayo. Lonke igama eliluhlaza okwesibhakabhaka elisele ekhasini liba elaziwayo. Yile ndlela i-Idiomiko efunda ngayo ukuthi yimaphi amagama osuwazi kakade, ngakho-ke yiba qotho: uma igama lingakacaci, qala ulichofoze ulinike isimo sokufunda. Bese ikhasi elilandelayo likhombisa amagama ambalwa aluhlaza okwesibhakabhaka.
+
+Lalela futhi uhumushe
+
+Cindezela inkinobho yokudlala ukuze uzwe umbhalo ufundwa ngokuzwakalayo, umusho ngomusho. Uma ukumisa okuzenzakalelayo kuvuliwe, ukufunda kuyama ngemuva komusho ngamunye, ukuze ukwazi ukuwuphinda. Uma umusho unzima kakhulu, ungawuhumusha, kodwa qala uzame ukuwuqonda wena.
+
+Izifundo nemibhalo yakho
+
+Isikrini Sezifundo sinezifundo esezilungile: izindaba ezimfushane nezilula, kusukela ezingeni elilula kakhulu, u-A1, kuya kwelinzima kakhulu, u-C2. Isifundo ngasinye sifundisa amagama ayikhulu alandelayo phakathi kwamagama asetshenziswa kakhulu olimini. Ungalanda izifundo zolimi lwakho kuZilungiselelo, ngaphansi kwesithi Izifundo. KuZincwadi ungangeza nemibhalo yakho: namathisela isihloko, ngenisa ifayela, noma wenze isifundo sakho ngemibhalo oyikhethayo.
+
+Izinga lakho lamagama
+
+Esigabeni Samagama, uhlu lokuvama kwamagama lukhombisa amagama asetshenziswa kakhulu olimini lwakho. Uma usulwazi kancane ulimi, setha izinga lakho lamagama lapho, bese i-Idiomiko ikumakisela amagama avame kakhulu njengaziwayo.
+
+Amakhadi okufunda
+
+Lonke igama olifundayo lithola ikhadi lokufunda. Nsuku zonke, buyekeza amakhadi afike isikhathi sawo kuMakhadi; imizuzu embalwa yanele. Ukufunda kusewumsebenzi omkhulu, futhi amakhadi asiza ukuthi amagama amasha ahlale nawe.
+
+Kwenze umkhuba
+
+Funda kancane nsuku zonke, ngisho imizuzu eyishumi nje. Khetha imibhalo oyithandayo, futhi uyifunde izikhathi ezingaphezu kwesisodwa. Lalela futhi ufunde ngesikhathi esisodwa. Ungagcini wonke amagama: gcina amagama ofuna ukuwafunda, futhi uqhubeke ufunda. Ungabona inqubekela phambili yakho ezibalweni, nasemagameni angasaluhlaza okwesibhakabhaka.
+
+Ekhompyutheni, izinqamuleli zekhibhodi zenza ukufunda kushesha. Izinombolo ezisuka ku-1 kuya ku-4 zisetha isimo, u-K umakisa igama njengelaziwayo, u-I uyaliziba, u-T uhumusha umusho, bese inkinobho yesikhala idlala noma imisa umsindo. Uzozithola zonke kuZilungiselelo, ngaphansi kwesithi Izinqamuleli zekhibhodi.
+
+KuZilungiselelo ungakhetha nolimi lwakho lwebele, ulimi lohlelo, izichazamazwi ezingadingi i-inthanethi namazwi. Manje vula Izifundo, khetha isifundo sokuqala bese uqala ukufunda. Ngikufisela inhlanhla!""",
+            ),
         )
     }
 

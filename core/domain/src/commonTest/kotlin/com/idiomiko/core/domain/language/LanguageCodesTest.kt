@@ -105,4 +105,12 @@ class LanguageCodesTest {
         assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Marathi" }.language.parserType)
         assertEquals(setOf(Script.DEVANAGARI), Scripts.of("mr"))
     }
+
+    @Test
+    fun zuluIsALanguageWithItsTutorial() {
+        assertEquals("zu", LanguageCodes.codeFor("Zulu"))
+        assertEquals("zul", LanguageCodes.tatoebaCode("zu"))
+        assertNotNull(Tutorials.forLanguage("Zulu"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Zulu" }.language.parserType)
+    }
 }

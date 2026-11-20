@@ -12,7 +12,7 @@ object LanguageCatalog {
         "Latin", "Latvian", "Lithuanian", "Macedonian", "Malay", "Maltese", "Mandarin Chinese", "Manx", "Marathi",
         "Mongolian", "Nepali", "Norwegian", "Old Irish", "Pashto", "Polish", "Portuguese", "Punjabi", "Romanian", "Russian",
         "Scottish Gaelic", "Serbian", "Sinhala", "Slovak", "Slovene", "Spanish", "Swahili", "Swedish", "Tagalog", "Tamil", "Telugu", "Thai",
-        "Toki Pona", "Turkish", "Ukrainian", "Urdu", "Vietnamese", "Welsh", "Yiddish",
+        "Toki Pona", "Turkish", "Ukrainian", "Urdu", "Vietnamese", "Welsh", "Yiddish", "Zulu",
     )
 
     /** Languages translations and example sentences can be shown in. */

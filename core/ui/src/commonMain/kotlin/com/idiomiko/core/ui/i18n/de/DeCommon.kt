@@ -104,6 +104,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Vietnamese" to "Vietnamesisch",
     "Welsh" to "Walisisch",
     "Yiddish" to "Jiddisch",
+    "Zulu" to "Zulu",
 
     // App.kt
     "Could not start: {0}" to "Start fehlgeschlagen: {0}",

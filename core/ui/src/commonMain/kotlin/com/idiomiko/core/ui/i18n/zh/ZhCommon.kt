@@ -104,6 +104,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Vietnamese" to "越南语",
     "Welsh" to "威尔士语",
     "Yiddish" to "意第绪语",
+    "Zulu" to "祖鲁语",
 
     // App.kt
     "Could not start: {0}" to "无法启动：{0}",

@@ -1,0 +1,18 @@
+name: Zulu
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Zulu"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/zu/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=zu&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "uMnu.|uNkk.|uNksz.|uDkt.|Mnu.|Nkk.|Nksz.|Dkt.|njll."
+word_chars: "a-zA-Z"
+right_to_left: false
+show_romanization: false
+parser_type: spacedel

@@ -178,6 +178,7 @@ private val flags: Map<String, List<DrawableResource>> by lazy {
         "tr" to listOf(Res.drawable.flag_tr),
         "uk" to listOf(Res.drawable.flag_ua),
         "ur" to listOf(Res.drawable.flag_pk),
+        "zu" to listOf(Res.drawable.flag_za),
         "vi" to listOf(Res.drawable.flag_vn),
         "cy" to listOf(Res.drawable.flag_gb_wls),
         "ga" to listOf(Res.drawable.flag_ie),

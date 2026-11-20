@@ -571,6 +571,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun zulu() = LanguageDefinition(
+        language = Language(
+            name = "Zulu",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Zulu", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/zu/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=zu&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "uMnu.|uNkk.|uNksz.|uDkt.|Mnu.|Nkk.|Nksz.|Dkt.|njll.",
+            wordCharacters = "a-zA-Z",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     val all: List<LanguageDefinition> by lazy {
         listOf(
             afrikaans(),
@@ -604,6 +622,7 @@ object AddedLanguages {
             urdu(),
             welsh(),
             yiddish(),
+            zulu(),
         )
     }
 }

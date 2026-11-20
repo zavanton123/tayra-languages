@@ -146,6 +146,15 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun zuluKeepsPrefixedNamesWholeAndCutsAtHyphens() {
+        val zulu = LanguageDefinitions.all.single { it.name == "Zulu" }.language
+        assertEquals(
+            "[uMnu.] [Dlamini] [uhlala] [eGoli] [noThemba]. [Ngakho]-[ke] [ufunda] [isiZulu] [e]-[KwaZulu]-[Natal]!",
+            tokensAsString("uMnu. Dlamini uhlala eGoli noThemba. Ngakho-ke ufunda isiZulu e-KwaZulu-Natal!", zulu),
+        )
+    }
+
+    @Test
     fun azerbaijaniLowercase() {
         assertEquals("ışıq indi", AzerbaijaniParser().lowercase("Işıq İndi"))
         assertEquals("indi", AzerbaijaniParser().lowercase("i\u0307ndi"), "the dot an İ left when lowercased as other languages do")
