@@ -40,6 +40,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from frequency_urdu import TABLE_PRONOUNS, adjective_forms, noun_forms, urdu_fold, verb_forms  # noqa: E402
 import frequency_nepali  # noqa: E402
 from frequency_pashto import clean_pashto, hand_entries, more_forms, nominal_forms, pashto_fold  # noqa: E402
+import frequency_sinhala  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -95,6 +96,7 @@ SOURCES = {
     "ne": ("Nepali", None, "dictionaries/kaikki.org-dictionary-Nepali.jsonl.gz"),
     "ps": ("Pashto", None, "dictionaries/kaikki.org-dictionary-Pashto.jsonl.gz"),
     "gu": ("Gujarati", None, "dictionaries/kaikki.org-dictionary-Gujarati.jsonl.gz"),
+    "si": ("Sinhala", None, "dictionaries/kaikki.org-dictionary-Sinhalese.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -171,7 +173,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else SINHALA_WORD_RE if source == "si" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -280,6 +282,8 @@ def clean_serbian_cyrillic(word):
 BENGALI_LETTERS = "\u0980-\u09e5\u09f0\u09f1\u200c\u200d"
 BENGALI_WORD_RE = re.compile(f"^[{BENGALI_LETTERS}]+$")
 BENGALI_RUN = re.compile(f"[{BENGALI_LETTERS}]+")
+# Sinhala words as frequency_sinhala spells them: letters, vowel signs, al-lakuna and the joiner of a conjunct.
+SINHALA_WORD_RE = re.compile(f"^{frequency_sinhala.LETTERS.pattern}$")
 
 
 def clean_bengali(word):
@@ -448,7 +452,7 @@ def punjabi_extra_entries(pa_path, kept):
 
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean}
 
 
 def pashto_translation_entries(kept):
@@ -1144,6 +1148,27 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
         db.executemany("DELETE FROM forms WHERE form_lc = ? AND lemma = ?", rows)
         form_count -= len(rows)
         print(f"  {len(rows):,} Punjabi vocatives that are words of their own left out", file=sys.stderr)
+    if source == "si":
+        kept = {w for (w,) in db.execute("SELECT word FROM entries")}
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        for word, (pos, gloss) in sorted(frequency_sinhala.HAND_ENTRIES.items()):
+            if word not in kept:
+                kept.add(word)
+                senses = [{"glosses": [gloss]}]
+                entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+                next_id += 1
+                entry_count += 1
+        for word, glosses in sorted(frequency_sinhala.para_dict_glosses(root).items()):
+            if word in kept:
+                continue
+            senses = [{"glosses": [", ".join(glosses)]}]
+            entry_rows.append((next_id, word, lowercase(word, source), "unknown", None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+            next_id += 1
+            entry_count += 1
+            if len(entry_rows) >= 5000:
+                flush()
+        flush()
+        label += ", everyday words by hand and the Sinhala-English parallel word dictionary (kasunw22/sinhala-para-dict, MIT)"
     db.execute("DROP INDEX forms_unique")
     finish_output(db, path, out_path, source, "en", entry_count, form_count, label)
     print(f"Wrote {out_path}: {entry_count:,} entries, {form_count:,} form rows ({pointer_count:,} from form-of senses)", file=sys.stderr)
