@@ -4,7 +4,7 @@ Each course teaches one band of 100 words from the Breton word frequency list (`
 index, rank, word, its common forms). Course `br-mini-0300` teaches ranks 201–300 and may use every word
 ranked 1–300. Ten lessons, each introducing about ten of the band's words, so the course covers the band;
 a learner who finishes it knows the 300 most common words. `themes.tsv` gives each course its theme. The
-list has 5,170 words, so the courses stop at rank 5200 (the last band has 70 words).
+list has 5,249 words, so the courses stop at rank 5300 (the last band has 49 words).
 
 ## The register
 
@@ -83,7 +83,7 @@ lesson to make sense.
     gwirionez*, *a-hend-all*; common sayings and idioms explained by the context;
   - ranks 3001–4000: everything before, in a more literary, descriptive style: precise adjectives and clear
     images, the newspaper column (a light reflection on everyday life);
-  - ranks 4001–5200 (C1): more abstract and nuanced content: a short essay or reflective column that weighs two
+  - ranks 4001–5300 (C1): more abstract and nuanced content: a short essay or reflective column that weighs two
     sides, an interview, a portrait, a review; the more specialised words of professions, sciences and the arts,
     each made clear by its context; long sentences that stay easy to parse.
   After rank 1000 sentences get longer and joined, dialogue can carry more of the story, and a story may be told
@@ -179,7 +179,7 @@ Things to know about the Breton list and the checker:
 
 - The courses are pinned to `tools/courses/br/wordlist.tsv`, a copy of the app's `br.tsv`. Its only source is
   Leipzig's 100,000 sentences of the Breton Wikipedia (the subtitles have 7,000 forms), so history, kings, wars and
-  the Church stand early (*roue* 63, *brezel* 85, *mervel* 78) and kitchen words late (*bara* 984, *kafe* 2437).
+  the Church stand early (*roue* 63, *brezel* 85, *mervel* 78) and kitchen words late (*bara* 984, *kafe* 2520).
   Check with `rank.py`; say *tra*, *ti*, *kêr* where the level needs it.
 - **Elided words are two words**: the reader keeps *d'ar*, *n'eo*, *m'en*, *p'edo*, *ma'z* whole, and the checker
   counts them as the two words they are (*da* + *ar*, *ne* + *eo*). *c'h* is one letter.
@@ -189,9 +189,12 @@ Things to know about the Breton list and the checker:
 - **Mutations**: a mutated form the list lacks counts as the word it mutates (*vreudeur* is *breudeur*, *welan* is
   *gwelan*, *Vrest* is *Brest*). A mutated spelling that is itself a list word or form counts as that: *varv* is
   *marv* "death", so *a varv* "dies" does not count for *mervel* (write *mervel a ra*, *marvet eo*).
-- **Verb forms**: the list has the forms Wikipedia uses, mostly the third person; `extra_forms.tsv` adds the
-  personal forms of the verbs from the dictionary pack (*gwelan*, *kavomp*, *deuin*) and of *e*, *bezañ*, *kaout* and
-  *evit* (*ennañ*, *emaoc'h*, *edon*, *am boa*, *evidout*). *ra*, *ran*, *rez*, *reont* are *ober*'s; *ya* is "yes",
+- **Verb forms**: the list has the forms Wikipedia uses, mostly the third person, and the regular forms of the verbs
+  the dictionary pack has no table for (*divizet*, *meneg*, *krogas*, *embanne*), as it has the plurals and comparatives
+  Wikipedia writes (*straedoù*, *mennozhioù*, *diwezhatoc'h*); `extra_forms.tsv` adds the other personal forms of the
+  verbs, from the pack's tables (*gwelan*, *kavomp*, *deuin*) or by the same rules (*divizan*, *deskriv*, *kilit*,
+  *kuzhjont*), and those of *e*, *bezañ*, *kaout*, *ober* and *evit* (*ennañ*, *emaoc'h*, *edon*, *am boa*, *raen*,
+  *evidout*). *ra*, *ran*, *rez*, *reont* are *ober*'s; *ya* is "yes",
   not *mont*'s, and *ez a* is *ez* + *a* (write *mont a ra*, *aet eo*, *ez aio*); *bout* is a spelling of *bezañ* and is skipped.
 - **Spellings shared by two words**: a form counts for the word that holds it, so look it up with `rank.py`
   before relying on it: *deus* is *kaout*'s (*en deus*), so the imperative *deus!* does not count for *dont*, *bet* is *bezañ*'s (and *kaout*'s), *gar* is "leg", *c'hall* is *gallout*'s
