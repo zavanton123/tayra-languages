@@ -28,6 +28,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Bosnian" to "Bósnio",
     "Breton" to "Bretão",
     "Bulgarian" to "Búlgaro",
+    "Burmese" to "Birmanês",
     "Cantonese" to "Cantonês",
     "Catalan" to "Catalão",
     "Chinese" to "Chinês",

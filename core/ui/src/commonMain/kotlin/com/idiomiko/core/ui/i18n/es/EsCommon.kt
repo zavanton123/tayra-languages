@@ -28,6 +28,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Bosnian" to "Bosnio",
     "Breton" to "Bretón",
     "Bulgarian" to "Búlgaro",
+    "Burmese" to "Birmano",
     "Cantonese" to "Cantonés",
     "Catalan" to "Catalán",
     "Chinese" to "Chino",

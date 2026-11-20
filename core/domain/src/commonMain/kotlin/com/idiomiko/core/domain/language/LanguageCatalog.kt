@@ -5,7 +5,7 @@ object LanguageCatalog {
     /** Names of the predefined languages a user can learn, in display order. */
     val targetLanguages: List<String> = listOf(
         "Afrikaans", "Albanian", "Ancient Greek", "Arabic", "Armenian", "Assyrian", "Azerbaijani", "Basque", "Belarusian", "Bengali",
-        "Bosnian", "Breton", "Bulgarian", "Cantonese", "Catalan", "Cornish", "Croatian", "Czech",
+        "Bosnian", "Breton", "Bulgarian", "Burmese", "Cantonese", "Catalan", "Cornish", "Croatian", "Czech",
         "Danish", "Dutch", "Egyptian Arabic", "English", "Esperanto", "Estonian", "Farsi", "Finnish",
         "French", "Galician", "Georgian", "German", "Greek", "Gujarati", "Hausa", "Hawaiian", "Hebrew", "Hindi", "Hungarian",
         "Icelandic", "Indonesian", "Irish", "Italian", "Japanese", "Kannada", "Kazakh", "Khmer", "Korean", "Lao",

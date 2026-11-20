@@ -28,6 +28,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Bosnian" to "Bosnisch",
     "Breton" to "Bretonisch",
     "Bulgarian" to "Bulgarisch",
+    "Burmese" to "Birmanisch",
     "Cantonese" to "Kantonesisch",
     "Catalan" to "Katalanisch",
     "Chinese" to "Chinesisch",

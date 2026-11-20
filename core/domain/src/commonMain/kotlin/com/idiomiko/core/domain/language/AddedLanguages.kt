@@ -107,6 +107,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun burmese() = LanguageDefinition(
+        language = Language(
+            name = "Burmese",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Burmese", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/my/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=my&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = "။!?",
+            wordCharacters = "\\u1000-\\u103F\\u104C-\\u109F",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "burmese",
+        ),
+    )
+
     private fun cantonese() = LanguageDefinition(
         language = Language(
             name = "Cantonese",
@@ -670,6 +687,7 @@ object AddedLanguages {
             ancientGreek(),
             arabic(),
             assyrian(),
+            burmese(),
             cantonese(),
             cornish(),
             egyptianArabic(),

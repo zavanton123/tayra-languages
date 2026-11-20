@@ -9,7 +9,7 @@ import com.idiomiko.core.domain.morphology.ChineseScript
 /** The writing systems text recognition tells apart: the engines read some and not others. */
 internal enum class OcrScript {
     LATIN, CYRILLIC, GREEK, ARABIC, HEBREW, ARMENIAN, GEORGIAN, DEVANAGARI, BENGALI, GURMUKHI, GUJARATI, TAMIL, TELUGU, KANNADA, SINHALA, THAI, LAO, KHMER,
-    TIBETAN, SYRIAC, ETHIOPIC, HAN_SIMPLIFIED, HAN_TRADITIONAL, JAPANESE, KOREAN,
+    TIBETAN, SYRIAC, ETHIOPIC, MYANMAR, HAN_SIMPLIFIED, HAN_TRADITIONAL, JAPANESE, KOREAN,
 }
 
 /** What recognizing a language takes: its script, and the Tesseract models that read it. */
@@ -65,7 +65,7 @@ internal object OcrLanguages {
         "kk" to (OcrScript.CYRILLIC to "kaz"), "km" to (OcrScript.KHMER to "khm"), "ko" to (OcrScript.KOREAN to "kor"),
         "kn" to (OcrScript.KANNADA to "kan"), "lo" to (OcrScript.LAO to "lao"), "la" to (OcrScript.LATIN to "lat"),
         "lv" to (OcrScript.LATIN to "lav"), "lt" to (OcrScript.LATIN to "lit"), "mk" to (OcrScript.CYRILLIC to "mkd"),
-        "mn" to (OcrScript.CYRILLIC to "mon"), "ms" to (OcrScript.LATIN to "msa"), "mt" to (OcrScript.LATIN to "mlt"), "ne" to (OcrScript.DEVANAGARI to "nep"), "no" to (OcrScript.LATIN to "nor"),
+        "mn" to (OcrScript.CYRILLIC to "mon"), "my" to (OcrScript.MYANMAR to "mya"), "ms" to (OcrScript.LATIN to "msa"), "mt" to (OcrScript.LATIN to "mlt"), "ne" to (OcrScript.DEVANAGARI to "nep"), "no" to (OcrScript.LATIN to "nor"),
         "ps" to (OcrScript.ARABIC to "pus"), "pl" to (OcrScript.LATIN to "pol"), "pt" to (OcrScript.LATIN to "por"), "pa" to (OcrScript.GURMUKHI to "pan"),
         "ro" to (OcrScript.LATIN to "ron"), "ru" to (OcrScript.CYRILLIC to "rus"), "ur" to (OcrScript.ARABIC to "urd"), "yo" to (OcrScript.LATIN to "yor"), "sr" to (OcrScript.CYRILLIC to "srp+srp_latn"),
         "si" to (OcrScript.SINHALA to "sin"), "sk" to (OcrScript.LATIN to "slk"), "te" to (OcrScript.TELUGU to "tel"), "sl" to (OcrScript.LATIN to "slv"), "es" to (OcrScript.LATIN to "spa"),
@@ -88,7 +88,7 @@ internal object OcrLanguages {
         "grc" to "Ancient Greek", "heb" to "Hebrew", "yid" to "Yiddish", "hin" to "Hindi", "mar" to "Marathi", "san" to "Sanskrit", "hun" to "Hungarian",
         "isl" to "Icelandic", "ind" to "Indonesian", "ita" to "Italian", "kaz" to "Kazakh", "khm" to "Khmer", "kor" to "Korean",
         "kan" to "Kannada", "lao" to "Lao", "lat" to "Latin", "lav" to "Latvian", "lit" to "Lithuanian", "mkd" to "Macedonian",
-        "mon" to "Mongolian", "msa" to "Malay", "mlt" to "Maltese", "nep" to "Nepali", "nor" to "Norwegian", "pus" to "Pashto", "pol" to "Polish", "por" to "Portuguese", "pan" to "Punjabi",
+        "mon" to "Mongolian", "mya" to "Burmese", "msa" to "Malay", "mlt" to "Maltese", "nep" to "Nepali", "nor" to "Norwegian", "pus" to "Pashto", "pol" to "Polish", "por" to "Portuguese", "pan" to "Punjabi",
         "ron" to "Romanian", "rus" to "Russian", "srp" to "Serbian (Cyrillic)", "srp_latn" to "Serbian (Latin)", "sin" to "Sinhala", "slk" to "Slovak",
         "slv" to "Slovene", "spa" to "Spanish", "swa" to "Swahili", "swe" to "Swedish", "tha" to "Thai", "tam" to "Tamil", "tel" to "Telugu", "bod" to "Tibetan",
         "tur" to "Turkish", "ukr" to "Ukrainian", "urd" to "Urdu", "uzb" to "Uzbek", "yor" to "Yoruba", "vie" to "Vietnamese", "cym" to "Welsh", "gle" to "Irish", "gla" to "Scottish Gaelic",
