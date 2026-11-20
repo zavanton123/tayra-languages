@@ -43,6 +43,7 @@ import frequency_nepali  # noqa: E402
 import frequency_pashto  # noqa: E402
 import frequency_gujarati  # noqa: E402
 import frequency_sinhala  # noqa: E402
+import frequency_uzbek  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -333,6 +334,9 @@ def fold(code, word):
     # So does the Afrikaans one (’n, ma’s).
     if code == "af":
         return word.translate(AFRIKAANS_APOSTROPHES)
+    # Uzbek oʻ, gʻ and the tutuq belgisi are matched however a text (or a newWords entry) types them (o'zbek, ma’no).
+    if code == "uz":
+        return frequency_uzbek.normalise(word)
     # Armenian և is matched as the one letter where a text writes it as two (նաեւ), as the reader matches it.
     if code == "hy":
         return word.replace("եւ", "և")
@@ -738,6 +742,10 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
     # Azerbaijani words as the reader reads them: lowercased the Turkish way, an apostrophe inside a word (Qur'an) kept.
     if code == "az":
         return [azerbaijani_lower(word) for word in WORD.findall(text.replace("’", "'"))]
+    # Uzbek words as the reader reads them (UzbekParser): oʻ, gʻ and the tutuq belgisi kept inside a word however they are
+    # typed (o'zbek, ma’no), a hyphen between words.
+    if code == "uz":
+        return [word.lower() for word in frequency_uzbek.words(text)]
     if code == "ko":
         return korean_tokens(text, ranks, names, heads)
     if code == "ar":
@@ -1008,6 +1016,18 @@ def marathi_name_forms(names):
             for stem in marathi_name_stems(part):
                 out |= frequency_marathi.with_clitics({stem} | {stem + t for t in frequency_marathi.OBLIQUE_TAILS})
     return out
+
+
+def uzbek_name_forms(names):
+    """The case and possessive forms of Uzbek names, by the list builder's paradigms (Dilnoza, Dilnozaga, Toshkentda)."""
+    forms = set()
+    for name in names:
+        for part in re.split(r"[\s-]+", frequency_uzbek.normalise(name).lower()):
+            if part:
+                for form in frequency_uzbek.noun_forms(part) | {part}:
+                    forms.add(form)
+                    forms.update(frequency_uzbek.with_clitics(form))
+    return forms
 
 
 def armenian_name_forms(names):
@@ -2775,7 +2795,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:", "Su'aalo:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:", "Su'aalo:", "Savollar:",
         "ጥያቄዎች፦", "ጥያቄዎች:",
     )
 }
@@ -3072,6 +3092,9 @@ def check(path, brief=False):
     # Kazakh names take the case endings joined (Асқардың, Алматыда, Айгүлге).
     if code == "kk":
         names = names | kazakh_name_forms(course.get("names", []))
+    # Uzbek names take the case endings joined (Dilnozaga, Toshkentda), and are read with their oʻ and gʻ as the text is.
+    if code == "uz":
+        names = names | uzbek_name_forms(course.get("names", []))
     if code == "uk":
         names = names | ukrainian_name_forms(course.get("names", []))
     # A Yiddish name takes the possessive -ס, or -עס after a sibilant, or -'ס (חנהס, מאָריסעס, מאָשע'ס).
@@ -3393,6 +3416,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Jautājumi:", "", text)
         if code == "kk":
             text = re.sub(r"(?m)^Сұрақтар:", "", text)
+        if code == "uz":
+            text = re.sub(r"(?m)^Savollar:", "", text)
         if code == "eu":
             text = re.sub(r"(?m)^Galderak:", "", text)
             # A case ending written onto digits (7etan, 2020an, 3ra) is part of the number.
