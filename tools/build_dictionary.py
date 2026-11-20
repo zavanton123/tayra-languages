@@ -41,6 +41,7 @@ from frequency_urdu import TABLE_PRONOUNS, adjective_forms, noun_forms, urdu_fol
 import frequency_nepali  # noqa: E402
 from frequency_pashto import clean_pashto, hand_entries, more_forms, nominal_forms, pashto_fold  # noqa: E402
 import frequency_sinhala  # noqa: E402
+from frequency_hausa import AJAMI, hausa_clean  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -97,6 +98,7 @@ SOURCES = {
     "ps": ("Pashto", None, "dictionaries/kaikki.org-dictionary-Pashto.jsonl.gz"),
     "gu": ("Gujarati", None, "dictionaries/kaikki.org-dictionary-Gujarati.jsonl.gz"),
     "si": ("Sinhala", None, "dictionaries/kaikki.org-dictionary-Sinhalese.jsonl.gz"),
+    "ha": ("Hausa", None, "dictionaries/kaikki.org-dictionary-Hausa.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -452,7 +454,7 @@ def punjabi_extra_entries(pa_path, kept):
 
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean}
 
 
 def pashto_translation_entries(kept):
@@ -511,6 +513,10 @@ PASHTO_WORD_RE = re.compile("^[\u0621-\u063a\u0641-\u064a\u0679-\u06d3]+$")
 # only, linked to its noun-class appendix ("m class (I) inflected form of -zuri", "... positive degree present of -wako
 # (“he/she is (around there)”)"): those are forms of the word named, without the hyphen.
 SWAHILI_PROSE_FORM = re.compile(r"\[\[Appendix:Swahili.*\bof (-?[a-z]+(?: na)?)(?: \(“[^”]*”\))?(?:;.*)?$")
+
+
+# Hausa senses that only name the word they are a form or a spelling of.
+HAUSA_PROSE_FORM = re.compile(r"^(possessed form|Niger standard spelling) of (\S+)$")
 
 
 def swahili_plain_gloss(gloss):
@@ -935,6 +941,76 @@ def urdu_from_hindi(kept, next_id):
     return added, next_id
 
 
+# The English Wiktionary has about 1,700 Hausa words and misses the commonest (na, ne, kuma, za, akwai); Wikidata's Hausa lexemes
+# (CC0, dictionaries/wikidata-ha-lexemes.tsv and wikidata-ha-forms.tsv, from its query service) add 1,100 more, and the English
+# entries' translation tables some more. Their Ajami (ha-arab) spellings are left out.
+HAUSA_LEXEMES = "dictionaries/wikidata-ha-lexemes.tsv"
+HAUSA_LEXEME_FORMS = "dictionaries/wikidata-ha-forms.tsv"
+HAUSA_POS = {"noun": "noun", "verb": "verb", "adjective": "adj", "adverb": "adv", "preposition": "prep", "interjection": "intj",
+             "numeral": "num", "proper noun": "name", "proverb": "proverb", "suffix": "suffix", "linker": "particle",
+             "determiner": "det", "demonstrative determiner": "det", "interrogative determinant": "det", "conjunction": "conj",
+             "coordinating conjunction": "conj", "subordinating conjunction": "conj", "complementizer": "conj",
+             "demonstrative adverb": "adv", "interrogative adverb": "adv", "verbal locution": "phrase", "pronominal locution": "phrase",
+             "nominal": "noun"}
+# A Wikidata form that is the lexeme's own: its plural, an adjective's feminine, a verb's form before an object or a pronoun,
+# another spelling. Its synonyms, verbal nouns and a noun's other gender are words of their own.
+HAUSA_FORM_FEATURES = {"plural", "direct object clause", "pronominal verb", "indirect object clause"}
+
+
+def _wikidata_text(cell):
+    m = re.fullmatch(r'"(.*)"(?:@([a-z-]+))?', cell.strip())
+    return (m.group(1).replace('\\"', '"'), m.group(2)) if m else (None, None)
+
+
+def hausa_lexemes():
+    """Wikidata's Hausa lexemes in Latin letters: (word, pos, glosses, forms)."""
+    lexemes = {}
+    with open(HAUSA_LEXEMES, encoding="utf-8") as f:
+        next(f)
+        for line in f:
+            uri, lemma, category, glosses = (line.rstrip("\n").split("\t") + ["", "", "", ""])[:4]
+            word, script = _wikidata_text(lemma)
+            if not word or script not in ("ha", "ha-ne") or AJAMI.search(word):
+                continue
+            category = _wikidata_text(category)[0] or ""
+            pos = HAUSA_POS.get(category, "pron" if "pronoun" in category else "particle" if "particle" in category else category)
+            text = _wikidata_text(glosses)[0] or ""
+            senses = [g.strip() for g in text.split(" | ") if g.strip()]
+            lexemes[uri] = (hausa_clean(word), pos, senses, set())
+    with open(HAUSA_LEXEME_FORMS, encoding="utf-8") as f:
+        next(f)
+        for line in f:
+            uri, _, rep, features = (line.rstrip("\n").split("\t") + ["", "", "", ""])[:4]
+            form = _wikidata_text(rep)[0]
+            features = set((_wikidata_text(features)[0] or "").split(","))
+            if uri not in lexemes or not form or AJAMI.search(form):
+                continue
+            word, pos, _, forms = lexemes[uri]
+            if features & HAUSA_FORM_FEATURES or features <= {"singular", ""} or pos == "adj" and "feminine" in features:
+                forms.add(hausa_clean(form))
+    return list(lexemes.values())
+
+
+def hausa_translation_entries():
+    """The Hausa words of the English entries' translation tables, by part of speech: word -> pos -> English glosses."""
+    entries = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "ha"' not in line:
+                continue
+            d = json.loads(line)
+            for t in d.get("translations", []):
+                if t.get("code") != "ha":
+                    continue
+                word = hausa_clean(t.get("word", ""))
+                if not word or AJAMI.search(word) or not WORD_RE.match(word.replace(" ", "")):
+                    continue
+                gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
+                if gloss not in entries[word][d.get("pos") or "unknown"]:
+                    entries[word][d.get("pos") or "unknown"].append(gloss)
+    return entries
+
+
 def urdu_generated(kept):
     """
     (form, word) rows by frequency_urdu's rules: every verb's, a noun's whose table gave none, and an adjective's that the
@@ -976,7 +1052,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     skip_tags = SKIP_FORM_TAGS | SKIP_FORM_TAGS_BY_SOURCE.get(source, set())
     # Croatian is written in Latin letters; Malay too, its Jawi spellings (forms and entries of their own) left out; and
     # Azerbaijani (since 1991), not in the Cyrillic before it nor the Arabic alphabet of Iran's South Azerbaijani.
-    latin_only = source in ("hr", "ms", "az")
+    latin_only = source in ("hr", "ms", "az", "ha")
     db, path = open_output(out_path)
     db.execute("CREATE UNIQUE INDEX forms_unique ON forms(form_lc, lemma)")
     entry_rows, form_rows, seen, next_id = [], [], 0, 1
@@ -1006,6 +1082,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     if source == "pa":
         latin_only, foreign = True, jawi
     punjabi_vocative, punjabi_other = set(), set()
+    if source == "ha":
+        foreign = AJAMI.search
 
     print(f"Reading {en_path}", file=sys.stderr)
     with open_text(en_path) as f:
@@ -1025,6 +1103,12 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                     prose = [m.group(1) for g in s.get("glosses", [])[-1:] if (m := SWAHILI_PROSE_FORM.search(g))]
                     # A form of the one-letter -a ("of": ya, za, vya) stays an entry, as the pack keeps no one-letter lemma.
                     targets = [t for t in (swahili_lemma(t) for t in targets or prose) if len(t) > 1]
+                if source == "ha" and not targets:
+                    # "possessed form of sātā̀" (satar), and "Niger standard spelling of 'ya", which is the same word folded.
+                    targets = [cleaner(m.group(2)) for g in s.get("glosses", [])[-1:] if (m := HAUSA_PROSE_FORM.match(g))]
+                if source == "ha":
+                    # A form of two words names them together ("plural of ɗan and 'ya").
+                    targets = [t for target in targets for t in target.split(" and ")]
                 for lemma in targets:
                     if is_clean_form(word, lemma, source) and not (latin_only and foreign(lemma)):
                         form_rows.append((lowercase(word, source), lemma))
@@ -1065,6 +1149,10 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                     continue
                 # A noun names its other gender's word (لڑکی of لڑکا, والدہ of والد), no form of it.
                 if source == "ur" and set(x["tags"]) <= {"masculine", "feminine"}:
+                    continue
+                # So does a Hausa one (yarinya of yaro, saniya of sa), and a pronoun the others of its person (ita, su of shi).
+                if source == "ha" and (pos == "noun" and {"masculine", "feminine"} & set(x.get("tags", []))
+                                       or pos == "pron" and cleaner(x.get("form", "")) in ("shi", "ita", "su")):
                     continue
                 form = cleaner(x.get("form", "").strip())
                 # A one-letter word has no forms, but for Azerbaijani's "o" ("he, she, it; that"): onu, ona, onun.
@@ -1169,6 +1257,33 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 flush()
         flush()
         label += ", everyday words by hand and the Sinhala-English parallel word dictionary (kasunw22/sinhala-para-dict, MIT)"
+    if source == "ha":
+        have = {(w, p) for w, p in db.execute("SELECT word, pos FROM entries")}
+        added = 0
+        for word, pos, glosses, forms in hausa_lexemes():
+            if not glosses or (word, pos) in have or not WORD_RE.match(word.replace(" ", "")):
+                continue
+            have.add((word, pos))
+            senses = [{"glosses": [g]} for g in glosses]
+            entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+            next_id += 1
+            added += 1
+            for form in forms:
+                if is_clean_form(form, word, source):
+                    form_rows.append((lowercase(form, source), word))
+        for word, by_pos in sorted(hausa_translation_entries().items()):
+            for pos, glosses in sorted(by_pos.items()):
+                if (word, pos) in have or any(w == word for w, _ in have):
+                    continue
+                have.add((word, pos))
+                senses = [{"glosses": [g]} for g in glosses]
+                entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+                next_id += 1
+                added += 1
+        entry_count += added
+        flush()
+        print(f"  {added:,} entries from Wikidata's Hausa lexemes and the English entries' translation tables", file=sys.stderr)
+        label += "; Wikidata Hausa lexemes (CC0); its English entries' translation tables"
     db.execute("DROP INDEX forms_unique")
     finish_output(db, path, out_path, source, "en", entry_count, form_count, label)
     print(f"Wrote {out_path}: {entry_count:,} entries, {form_count:,} form rows ({pointer_count:,} from form-of senses)", file=sys.stderr)
