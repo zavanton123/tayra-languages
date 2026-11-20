@@ -272,7 +272,7 @@ private fun FlashcardsRow(due: Int, onNavigate: (Route) -> Unit) {
         icon = AppIcons.Style,
         tint = AppAccents.teal,
         tag = "flashcards",
-        onClick = { onNavigate(Route.Flashcards) },
+        onClick = { onNavigate(Route.Flashcards()) },
     )
 }
 
@@ -382,7 +382,7 @@ private fun FlashcardsCard(due: Int, modifier: Modifier, fill: Boolean, onNaviga
         if (due > 0) animatedCount(due).let { shown -> trPlural(shown, "{1} card due today", "{1} cards due today", formatCount(shown)) } else tr("All caught up"),
         if (due > 0) tr("Review them to keep your words fresh.") else tr("No cards are due right now."),
         AppIcons.Style, AppAccents.teal, "flashcards", modifier, fill,
-        button = tr("Review flashcards"), primary = due > 0, onClick = { onNavigate(Route.Flashcards) },
+        button = tr("Review flashcards"), primary = due > 0, onClick = { onNavigate(Route.Flashcards()) },
     )
 }
 

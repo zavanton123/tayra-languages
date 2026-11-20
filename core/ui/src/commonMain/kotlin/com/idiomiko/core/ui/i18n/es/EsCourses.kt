@@ -368,4 +368,9 @@ internal val esCourses: Map<String, String> = mapOf(
     "Add question" to "Añadir pregunta",
     "Each question needs an answer" to "Cada pregunta necesita una respuesta",
     "Each answer needs its question" to "Cada respuesta necesita su pregunta",
+    "Quick session" to "Sesión rápida",
+    "Quick session done" to "Sesión rápida terminada",
+    "You answered {0} cards." to "Has respondido {0} tarjeta.|Has respondido {0} tarjetas.",
+    "{0} more are due today." to "Hoy queda {0} más.|Hoy quedan {0} más.",
+    "Keep going" to "Seguir",
 )

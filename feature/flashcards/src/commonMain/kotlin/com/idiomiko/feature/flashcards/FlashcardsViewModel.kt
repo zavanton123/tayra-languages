@@ -131,6 +131,10 @@ data class FlashcardsUiState(
     /** When the card on show came up, for the timer the settings may show; null without a card. */
     val shownAt: TimeSource.Monotonic.ValueTimeMark? = null,
     val showTimer: Boolean = false,
+    /** The cards a quick session stops after; null goes on to the end of the day's cards. */
+    val limit: Int? = null,
+    /** The quick session has had its [limit] of answers: no card shows until it is asked to go on. */
+    val limitReached: Boolean = false,
 ) {
     /**
      * How the card on show is answered: by showing it when it has no blank to fill, and by typing
@@ -215,6 +219,9 @@ class FlashcardsViewModel(
 
     /** The extra pass under way, kept here as well as in the state so a load reads the one it acts on. */
     private var pass: ExtraPass? = null
+
+    /** The answers a quick session stops after; null for none. */
+    private var limit: Int? = null
 
     /** The answers given this session, the latest last; going back takes them back one at a time. */
     private val steps = ArrayDeque<SessionStep>()
@@ -341,7 +348,11 @@ class FlashcardsViewModel(
         val shownBefore = _state.value.card?.termId
         viewModelScope.launch {
             val mode = settings.current.flashcardAnswerMode.takeIf { it in _state.value.modes } ?: AnswerMode.SHOW
-            val session = nextSession(prefer)
+            val found = nextSession(prefer)
+            // A quick session stops at its limit, unless a pass of extra cards was started from there.
+            val limit = this@FlashcardsViewModel.limit
+            val limitReached = limit != null && pass == null && _state.value.answered >= limit && found.card != null
+            val session = if (limitReached) found.copy(card = null, term = null) else found
             val language = languageId?.let { languages.getById(it) } ?: session.term?.let { languages.getById(it.languageId) }
             current = session.card
             val term = session.term
@@ -374,13 +385,15 @@ class FlashcardsViewModel(
                     pass = pass,
                     shownAt = shownAt,
                     showTimer = settings.current.flashcardShowTimer,
+                    limit = limit,
+                    limitReached = limitReached,
                 )
             }
             scheduleAuto()
             if (term != null && language != null) loadExtras(term, language)
             findOutHearing(_state.value.card?.languageCode)
             // Nothing to show while a card being learned waits: look again as its time nears.
-            if (session.card == null && session.nextLearningAt != null) {
+            if (session.card == null && session.nextLearningAt != null && !limitReached) {
                 waitingJob = viewModelScope.launch {
                     delay(15.seconds)
                     load()
@@ -566,6 +579,18 @@ class FlashcardsViewModel(
             pass = ExtraPass(study, ids)
             load()
         }
+    }
+
+    /** Stops the session after [limit] answers, as a quick session from Home; null reviews every card due. */
+    fun limitTo(limit: Int?) {
+        this.limit = limit?.takeIf { it > 0 }
+    }
+
+    /** Goes on past the quick session's limit, to the rest of the cards due. */
+    fun keepGoing() {
+        if (limit == null) return
+        limit = null
+        load()
     }
 
     /** Leaves the extra pass for the day's own cards. */

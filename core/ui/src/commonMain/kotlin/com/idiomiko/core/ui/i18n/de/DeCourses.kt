@@ -368,4 +368,9 @@ internal val deCourses: Map<String, String> = mapOf(
     "Add question" to "Frage hinzufügen",
     "Each question needs an answer" to "Jede Frage braucht eine Antwort",
     "Each answer needs its question" to "Jede Antwort braucht ihre Frage",
+    "Quick session" to "Kurze Runde",
+    "Quick session done" to "Kurze Runde geschafft",
+    "You answered {0} cards." to "Du hast {0} Karte beantwortet.|Du hast {0} Karten beantwortet.",
+    "{0} more are due today." to "Heute ist noch {0} fällig.|Heute sind noch {0} fällig.",
+    "Keep going" to "Weitermachen",
 )

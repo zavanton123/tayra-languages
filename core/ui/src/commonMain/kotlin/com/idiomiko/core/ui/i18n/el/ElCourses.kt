@@ -368,4 +368,9 @@ internal val elCourses: Map<String, String> = mapOf(
     "Add question" to "Προσθήκη ερώτησης",
     "Each question needs an answer" to "Κάθε ερώτηση χρειάζεται απάντηση",
     "Each answer needs its question" to "Κάθε απάντηση χρειάζεται την ερώτησή της",
+    "Quick session" to "Γρήγορη συνεδρία",
+    "Quick session done" to "Η γρήγορη συνεδρία ολοκληρώθηκε",
+    "You answered {0} cards." to "Απαντήσατε σε {0} κάρτα.|Απαντήσατε σε {0} κάρτες.",
+    "{0} more are due today." to "Σήμερα απομένει ακόμη {0}.|Σήμερα απομένουν ακόμη {0}.",
+    "Keep going" to "Συνέχεια",
 )

@@ -203,7 +203,7 @@ class HomeScreenTest {
         onNodeWithTag("action-book").performClick()
         onNodeWithTag("action-flashcards").performClick()
         assertEquals(1, continued)
-        assertEquals(listOf(Route.Read(7), Route.Flashcards), visited)
+        assertEquals(listOf(Route.Read(7), Route.Flashcards()), visited)
     }
 
     @Test

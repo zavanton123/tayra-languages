@@ -14,7 +14,9 @@ val flashcardsModule = module {
 }
 
 fun NavGraphBuilder.flashcardsGraph(navController: NavController) {
-    composable<Route.Flashcards> { FlashcardsScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
+    composable<Route.Flashcards> { entry ->
+        FlashcardsScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }, limit = entry.toRoute<Route.Flashcards>().limit)
+    }
     composable<Route.BrowseFlashcards> { entry ->
         BrowseFlashcardsScreen(termId = entry.toRoute<Route.BrowseFlashcards>().termId, onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() })
     }

@@ -164,7 +164,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, microphoneLevel = viewModel.microphoneLevel, onTypeInstead = viewModel::typeInstead, onTryAgain = viewModel::tryAgain, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, microphoneLevel = viewModel.microphoneLevel, onTypeInstead = viewModel::typeInstead, onTryAgain = viewModel::tryAgain, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass, onKeepGoing = viewModel::keepGoing),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -823,6 +823,31 @@ class FlashcardsScreenTest {
         assertEquals(3, viewModel.state.value.counts.total)
         assertEquals(3, runBlocking { service.observeDueCount().first() })
         assertTrue(onNodeWithTag("flashcard-progress-bar", useUnmergedTree = true).fetchSemanticsNode().config[SemanticsProperties.ProgressBarRangeInfo].current > 0f, "the bar moved")
+    }
+
+    /** A quick session stops after its limit with the cards still due, and goes on to them when asked. */
+    @Test
+    fun aQuickSessionStopsAtItsLimitUntilAskedToGoOn() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = show(moreTerms = { id ->
+            listOf("pão" to "Eu comprei pão.", "leite" to "Bebo leite.").forEach { (text, sentence) ->
+                terms.save(Term(languageId = id, text = text, textLc = text, status = TermStatus.NEW_1, translation = "x", sentence = sentence))
+            }
+        })
+        viewModel.limitTo(2)
+        viewModel.load()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Quick session · card 1 of 2").fetchSemanticsNodes().isNotEmpty() }
+        for (answer in 1..2) {
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Show answer").fetchSemanticsNodes().isNotEmpty() }
+            onNodeWithText("Show answer").performClick()
+            onNodeWithTag("answer-Easy").performClick()
+            waitUntil(timeoutMillis = 5_000) { viewModel.state.value.answered == answer }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("quick-session-done").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("You answered 2 cards. 1 more is due today.").assertExists()
+        save("QUICK_SESSION_SCREENSHOT")
+        onNodeWithTag("keep-going").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(false, viewModel.state.value.limitReached)
     }
 
     /** The shortcut back is the configurable one: given another key, that key goes back and Ctrl+Z no longer does. */

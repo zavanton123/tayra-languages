@@ -368,4 +368,9 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Add question" to "Adicionar pergunta",
     "Each question needs an answer" to "Cada pergunta precisa de uma resposta",
     "Each answer needs its question" to "Cada resposta precisa da sua pergunta",
+    "Quick session" to "Sessão rápida",
+    "Quick session done" to "Sessão rápida concluída",
+    "You answered {0} cards." to "Você respondeu {0} flashcard.|Você respondeu {0} flashcards.",
+    "{0} more are due today." to "Falta mais {0} para hoje.|Faltam mais {0} para hoje.",
+    "Keep going" to "Continuar",
 )

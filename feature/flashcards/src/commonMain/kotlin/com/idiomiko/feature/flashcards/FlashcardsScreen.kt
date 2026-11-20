@@ -175,9 +175,12 @@ fun FlashcardsDialog(onNavigate: (Route) -> Unit, onClose: () -> Unit) {
     }
 }
 
-/** Reviewing the flashcards of the language being learned, one card at a time; with [onClose], in a dialog. */
+/**
+ * Reviewing the flashcards of the language being learned, one card at a time; with [onClose], in a dialog.
+ * A [limit] makes it a quick session, which stops after that many answers unless asked to go on.
+ */
 @Composable
-fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel = koinViewModel(), onClose: (() -> Unit)? = null, onBack: (() -> Unit)? = null) {
+fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel = koinViewModel(), onClose: (() -> Unit)? = null, onBack: (() -> Unit)? = null, limit: Int? = null) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     CollectEvents(viewModel.events) { event ->
@@ -189,7 +192,10 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     // Leaving the screen stops the reading too.
     DisposableEffect(speaker) { onDispose { speaker.stop() } }
     // Coming back from editing a term or the settings shows the card as it is now.
-    LaunchedEffect(Unit) { viewModel.load() }
+    LaunchedEffect(Unit) {
+        viewModel.limitTo(limit)
+        viewModel.load()
+    }
     // A sync, pulled for or on its own, may bring answers given on another device: the cards are read again, the one on show kept.
     val sync = koinInject<AutoSync>()
     LaunchedEffect(sync) {
@@ -254,6 +260,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onTryAgain = viewModel::tryAgain,
                 onStudyMore = { studyingMore = true },
                 onEndPass = viewModel::endPass,
+                onKeepGoing = viewModel::keepGoing,
             ),
             modifier = Modifier.padding(padding),
             overlay = overlay,
@@ -325,6 +332,8 @@ internal class FlashcardActions(
     val onStudyMore: () -> Unit = {},
     /** Leaves an extra pass for the day's own cards. */
     val onEndPass: () -> Unit = {},
+    /** Goes on past a quick session's limit. */
+    val onKeepGoing: () -> Unit = {},
 )
 
 private val AnswerMode.shortcut: HotkeyAction
@@ -522,10 +531,13 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
     val pass = state.pass
     // The day's cards stay one number through the session; an extra pass counts its own cards. A card
     // in its steps still waits, so the bar goes by the answers given against those still to give.
-    val total = pass?.termIds?.size ?: state.sessionTotal
+    // A quick session counts up to its limit, or to the cards due when fewer are.
+    val limit = state.limit?.takeIf { pass == null }
+    val total = pass?.termIds?.size ?: limit?.let { minOf(it, state.answered + counts.total) } ?: state.sessionTotal
     val progress = when {
         total == 0 -> 0f
         pass != null -> pass.done.toFloat() / total
+        limit != null -> (state.answered.toFloat() / total).coerceAtMost(1f)
         else -> state.answered.toFloat() / (state.answered + counts.total).coerceAtLeast(1)
     }
     // The card on show is still to do.
@@ -553,6 +565,7 @@ private fun Progress(state: FlashcardsUiState, compact: Boolean, onEndPass: () -
         Text(
             when {
                 pass != null -> tr("{0} · card {1} of {2}", pass.study.title(), current, total)
+                limit != null && total > 0 && state.card != null -> tr("{0} · card {1} of {2}", tr("Quick session"), current, total)
                 total == 0 -> tr("No cards today")
                 state.card == null -> tr("{0} of {1} answered", current, total)
                 // The cards really left, as the counts below say; the bar moves with the answers instead.
@@ -1062,6 +1075,10 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         Box(Modifier.size(FINISHED_ICON_TILE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
             Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
         }
+        if (state.limitReached) {
+            QuickSessionDone(state, actions)
+            return@Column
+        }
         val title = when {
             waiting != null -> tr("Nothing to review right now")
             state.answered > 0 -> tr("All done for today")
@@ -1084,6 +1101,23 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         // Past the day's limits: more new cards, the coming days' reviews, the forgotten ones, or practice.
         SecondaryButton(tr("Study more"), onClick = actions.onStudyMore, modifier = NoFocus.testTag("study-more"), icon = Icons.Default.Add)
         if (state.canUndo) QuietButton(tr("Previous card"), onClick = actions.onUndo, modifier = NoFocus)
+    }
+}
+
+/** A quick session's answers are given: how many cards are still due, and the way on to them. */
+@Composable
+private fun QuickSessionDone(state: FlashcardsUiState, actions: FlashcardActions) {
+    Text(tr("Quick session done"), style = AppText.headline, textAlign = TextAlign.Center, modifier = Modifier.testTag("quick-session-done"))
+    Text(
+        trPlural(state.answered, "You answered {0} card.", "You answered {0} cards.") + " " +
+            trPlural(state.counts.total, "{0} more is due today.", "{0} more are due today."),
+        style = MaterialTheme.typography.bodyLarge,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+        textAlign = TextAlign.Center,
+    )
+    PrimaryButton(tr("Keep going"), onClick = actions.onKeepGoing, modifier = NoFocus.padding(top = AppSpacing.s).testTag("keep-going"), icon = AppIcons.Style)
+    state.reading?.let { reading ->
+        SecondaryButton(tr("Continue reading"), onClick = { actions.onRead(reading.bookId) }, modifier = NoFocus.testTag("continue-reading"), icon = AppIcons.MenuBook)
     }
 }
 

@@ -368,4 +368,9 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Add question" to "添加问题",
     "Each question needs an answer" to "每个问题都需要答案",
     "Each answer needs its question" to "每个答案都需要对应的问题",
+    "Quick session" to "快速复习",
+    "Quick session done" to "快速复习完成",
+    "You answered {0} cards." to "你回答了 {0} 张卡片。",
+    "{0} more are due today." to "今天还有 {0} 张待复习。",
+    "Keep going" to "继续",
 )

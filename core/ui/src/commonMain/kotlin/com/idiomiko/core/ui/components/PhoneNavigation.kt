@@ -49,7 +49,7 @@ internal val readPages = listOf(
 
 /** The flashcard pages, the same on the wide bar's Flashcards menu and the phone's Flashcards sheet. */
 internal val flashcardPages = listOf(
-    MoreEntry("Review flashcards", AppIcons.Style, Route.Flashcards),
+    MoreEntry("Review flashcards", AppIcons.Style, Route.Flashcards()),
     MoreEntry("Browse flashcards", AppIcons.ViewList, Route.BrowseFlashcards()),
     MoreEntry("Flashcard statistics", AppIcons.BarChart, Route.FlashcardStats),
 )

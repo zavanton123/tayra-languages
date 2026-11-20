@@ -123,9 +123,9 @@ sealed interface Route {
 
     @Serializable
     data class EditLesson(val courseId: String, val lessonId: String) : Route
-    /** Reviewing the flashcards of the language being learned. */
+    /** Reviewing the flashcards of the language being learned; a [limit] stops a quick session after that many answers. */
     @Serializable
-    data object Flashcards : Route
+    data class Flashcards(val limit: Int? = null) : Route
 
     /** Every flashcard of the language being learned, to search, sort and manage; the browser of Anki. [termId] names a card to open on arrival. */
     @Serializable

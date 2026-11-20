@@ -368,4 +368,9 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Add question" to "Добавить вопрос",
     "Each question needs an answer" to "У каждого вопроса должен быть ответ",
     "Each answer needs its question" to "У каждого ответа должен быть вопрос",
+    "Quick session" to "Быстрое повторение",
+    "Quick session done" to "Быстрое повторение закончено",
+    "You answered {0} cards." to "Вы ответили на {0} карточку.|Вы ответили на {0} карточки.|Вы ответили на {0} карточек.",
+    "{0} more are due today." to "На сегодня осталась ещё {0}.|На сегодня осталось ещё {0}.|На сегодня осталось ещё {0}.",
+    "Keep going" to "Продолжить",
 )
