@@ -1,100 +1,100 @@
-1	2101	ibhaza	ibhaza
-2	2102	uxamu	uxamu yaboxamu naboxamu noxamu oxamu
-3	2103	hlokoloza	hlokoloza lokuhlokoloza ngokuhlokoloza ukuhlokoloza ukumhlokoloza uyihlokoloza bahlokoloza basihlokoloze uyihlokoloze
-4	2104	eshwama	eshwama wokweshwama akweshwamayo izokweshwama lokweshwama ngiyakweshwama ngiyayeshwama singayeshwami useshwama
-5	2105	umqamelo	umqamelo komqamelo ngomqamelo imiqamelo zemiqamelo
-6	2106	isiqhingana	isiqhingana neziqhingana iziqhingana
-7	2107	unozungezilanga	unozungezilanga lukanozungezilanga sikanozungezilanga sonozungezilanga onozungezilanga zonozungezilanga
-8	2108	inhlwathi	inhlwathi izinhlwathi yizinhlwathi zinhlwathi
-9	2109	insundu	abensundu insundu nensundu elabensundu labensundu zabensundu ensundu ezinsundu zinsundu
-10	2110	iqili	amaqili iqili uyiqili kweqili
-11	2111	nqaka	nqaka ekunqakulweni eyinqaka silinqake yayinqakisana nganqakwa ukunqaka usinqaka
-12	2112	ubukhosikazi	ebukhosikazini ubukhosikazi
-13	2113	ujeke	ujeke nojeke njengojeke
-14	2114	umudwa	ngomudwa nemidwa umudwa nomudwa
-15	2115	ukuqoma	ukuqoma yokuqoma kokuqoma ngokuqoma zokuqoma
-16	2116	umphambili	umphambili inomphambili komphambili ngomphambili
-17	2117	ingungumbane	ingungumbane nengungumbane izingungumbane nezingungumbane ngungumbane zingungumbane
-18	2118	isiswazi	lwesiswazi isiswazi
-19	2119	ibhulakufesi	ibhulakufesi njengamabhulakufesi
-20	2120	impempe	impempe nezimpempe ngempempe wezimpempe
-21	2121	isipanela	izipanela isipanela nezipanela ngesipanela
-22	2122	itswayi	yetswayi itswayi etswayini letswayi anetswayi
-23	2123	khiza	khiza ukukhiza abakhizi esingabakhizi lalikhiza okhizayo ozikhizayo
-24	2124	tatamisa	tatamisa abatatamisi abatatamisa atatamisa oyitatamisayo ezazitatamisa
-25	2125	umqophi	umqophi abaqophi yomqophi zabaqophi
-26	2126	bohla	bohla abohle ubohle lubohle ibohle kubohla kubohle
-27	2127	inkwali	inkwali enkwalini izinkwali nezinkwali ngasezinkwalini zinkwali
-28	2128	ukhweshe	ukhweshe ngokhweshe nokhweshe izinkweshe
-29	2129	labaya	labaya walabaya nalabaya nowalabaya
-30	2130	ukoko	ukoko koko
-31	2131	duda	duda edude edudwa liyadudana wadudana wadudulwa edudulwa ukududulwa abadudulwe
-32	2132	inxele	angamanxele inxele senxele lesenxele ngamanxele wenxele
-33	2133	iwodi	iwodi ewodini amawodi emawodini namawodi
-34	2134	nqekuza	nqekuza enqekuzisa banqekuzisa elalinqekuza wanqekuzisa
-35	2135	popola	popola ukupopola yokupopola ngayipopola sipopole
-36	2136	umcwali	umcwali abacwali nabacwali ngumcwali njengabacwali ungumcwali
-37	2137	ububomvu	ububomvu ngobubomvu nobubomvu obubomvu bubomvu
-38	2138	ambathisa	ambathisa lawambathisa wazambathisa azambathise nimambathise ungambathisi wabambathisa yokwambathisa bambathiswe abambathiswayo ongambathiswanga wangambathiswa zambathiswa
-39	2139	vulekile	vulekile elalivulekile asavulekile iyavulekile isivulekile esingavulekile asivulekile belivulekile
-40	2140	impelesi	impelesi izimpelesi nempelesi yimpelesi nezimpelesi
-41	2141	isiqholo	iziqholo esiqholo isiqholo ngeziqholo uyisiqholo yiziqholo
-42	2142	isigege	isigege izigege
-43	2143	ikheji	ikheji emakhejini ekhejini esekhejini amakheji
-44	2144	umhlaza	umhlaza enomhlaza lomhlaza somhlaza yomhlaza
-45	2145	ingqumbi	engqumbini izingqumbi ingqumbi engqumbeni
-46	2146	isidudla	isidudla njengesidudla wesidudla yesidudla yisidudla
-47	2147	isikhwehlela	isikhwehlela izikhwehlela
-48	2148	isinzima	besinzima isinzima sesinzima ezinzima esinzima nezinzima njengezinzima bezinzima ngezinzima sinzima zinzima
-49	2149	ingwane	ingwane izingwane nengwane ngwane
-50	2150	isiswahili	isiswahili esiswahili ngesiswahili zesiswahili
-51	2151	ubuluhlaza	ubuluhlaza ngobuluhlaza njengobuluhlaza obuluhlaza
-52	2152	cambalala	cambalala ngokucambalala bacambalala ucambalale wacambalala ayacambalala
-53	2153	chathaza	chathaza bechathazelana nginichathazele uchathazele ukuchathazela abasichathazele asichathazele
-54	2154	chilizela	chilizela awachilizele azichilizelwa uzokuchilizela ezichilizela ukuchilizela
-55	2155	igoqo	igoqo negoqo egoqweni namagoqo
-56	2156	inalithi	inalithi yenalithi enenalithi
-57	2157	uhele	uhele eheleni ngaseheleni kuhele
-58	2158	unyezi	unyezi konyezi kunyezi nonyezi wunyezi
-59	2159	ujinja	ujinja nojinja
-60	2160	bulisa	bulisa ubulise wambulisa bulisani ngambulisa ngiyalibulisa ubulisa ukumbulisa
-61	2161	khawuleza	likhawuleze zakhawuleziswa khawuleza ukhawuleze esikhawulezayo
-62	2162	ingulule	ingulule kwengulule izingulule kunengulule nezingulule
-63	2163	iklwa	iklwa ngeklwa kweklwa
-64	2164	ilokwe	ilokwe
-65	2165	qamela	qamela engaqamelisa ezaziqamela isiqamele ngizoqamela waqamela
-66	2166	ubumpohlo	ubumpohlo zobumpohlo
-67	2167	isinkwe	isinkwe izinkwe esinkweni
-68	2168	tetema	tetema iyatetema etetemayo ngitetema ukutetema uyatetema
-69	2169	unondwebu	unondwebu likanondwebu nelikanondwebu nonondwebu
-70	2170	zono	zono
-71	2171	imbambe	imbambe embambe ngimbambe
-72	2172	hlukuza	hlukuza wayihlukuza ehlukuzweni layihlukuza ahlukuzise
-73	2173	inswelo	inswelo izinswelo
-74	2174	isihla	isihla ezihla besihla onezihla sihla
-75	2175	ngqofa	ngqofa alingqofele ukungqofa ulingqofe walingqofela ingqofana
-76	2176	isishuqulu	izishuqulu isishuqulu
-77	2177	umvingqi	imivingqi umvingqi
-78	2178	impuco	mpuco njengempuco impuco
-79	2179	insele	insele yinsele
-80	2180	intulo	nentulo elentulo intulo ntulo yintulo
-81	2181	ikhekheba	ikhekheba amakhekheba lwamakhekheba makhekheba
-82	2182	imbube	imbube lembube
-83	2183	iqeqeba	iqeqeba yiqeqeba yeqeqeba
-84	2184	isicholo	isicholo nesicholo esicholo izicholo
-85	2185	isijula	isijula ngesijula izijula ngezijula
-86	2186	qimba	qimba uqimba niqimba ukuqimba
-87	2187	ubumtoti	ubumtoti nobumtoti ngubumtoti
-88	2188	umlamu	umlamu kumlamu ngabalamu
-89	2189	xhuga	xhuga bengixhugela exhugela ixhugela uxhuge uyaxhuga
-90	2190	qhephuka	qhephuka aqhephukile liqhephukile ngaqhephuka
-91	2191	sintu	sintu
-92	2192	ibhaka	ibhaka amabhaka ebhaka ngibhaka
-93	2193	ilantshi	ilantshi namalantshi selantshi
-94	2194	inkwazi	inkwazi enkwazini ezinkwazini
-95	2195	qathaka	qathaka aqathakele bazoziqathakela ezoqathaka kwaqathaka
-96	2196	umkhumbimkhathi	umkhumbimkhathi nemikhumbimkhathi womkhumbimkhathi
-97	2197	enzakalisa	enzakalisa akwenzakalisile ukubenzakalisa eyenzakalisayo lokwenzakalisa ukwenzakalisa enzakaliswe ukwenzakaliswa ezenzakaliswe yenzakaliswe
-98	2198	ubunjani	ubunjani bunjani obunjani
-99	2199	amala	amala singamala wamala
-100	2200	imbuzikazi	imbuzikazi nezimbuzikazi ngembuzikazi
+1	2101	umdweshu	imidweshu umdweshu emdweshini ngemidweshu
+2	2102	simemo	simemo
+3	2103	duda	duda edude edudwa liyadudana nokududana wadudana wadudulwa edudulwa ukududulwa abadudulwe
+4	2104	isihlephu	isihlephu yizihlephu kwezihlephu izihlephu
+5	2105	nqaka	nqaka ekunqakulweni eyinqaka silinqake yayinqakisana nganqakwa ukunqaka usinqaka zokunqakisana
+6	2106	zipho	zipho
+7	2107	isambane	yisambane esambane isambane ngesambane wesambane ngokwezambane wezambane yabezambane lwezambane
+8	2108	gqoma	gqoma ezigqomayo lagqoma ziyagqoma elingagqomi
+9	2109	isitambu	isitambu nesitambu esitambini ngesitambu
+10	2110	iwodi	iwodi ewodini amawodi emawodini namawodi wodi
+11	2111	izu	ezu bezu izu nezu wezu
+12	2112	ibhaza	ibhaza
+13	2113	uxamu	uxamu yaboxamu naboxamu noxamu oxamu
+14	2114	hlokoloza	hlokoloza lokuhlokoloza ngokuhlokoloza ukuhlokoloza ukumhlokoloza uyihlokoloza bahlokoloza basihlokoloze uyihlokoloze
+15	2115	itswayi	yetswayi itswayi etswayini letswayi anetswayi tswayi
+16	2116	khiza	khiza ukukhiza abakhizi esingabakhizi lalikhiza mkhize okhizayo ozikhizayo
+17	2117	umqamelo	umqamelo komqamelo ngomqamelo imiqamelo zemiqamelo
+18	2118	isiqhingana	isiqhingana neziqhingana iziqhingana
+19	2119	unozungezilanga	unozungezilanga lukanozungezilanga sikanozungezilanga sonozungezilanga onozungezilanga zonozungezilanga
+20	2120	inhlwathi	inhlwathi izinhlwathi yizinhlwathi zinhlwathi
+21	2121	insundu	abensundu insundu nensundu elabensundu labensundu zabensundu ensundu ezinsundu zinsundu
+22	2122	impelesi	impelesi izimpelesi nempelesi yimpelesi eyimpelesi nezimpelesi
+23	2123	ubukhosikazi	ebukhosikazini ubukhosikazi
+24	2124	ujeke	ujeke nojeke njengojeke
+25	2125	umudwa	ngomudwa nemidwa umudwa nomudwa
+26	2126	ukuqoma	ukuqoma yokuqoma kokuqoma ngokuqoma zokuqoma
+27	2127	umphambili	umphambili inomphambili komphambili ngomphambili
+28	2128	ingungumbane	ingungumbane nengungumbane izingungumbane nezingungumbane ngungumbane zingungumbane
+29	2129	isiswazi	lwesiswazi isiswazi
+30	2130	ibhulakufesi	ibhulakufesi njengamabhulakufesi
+31	2131	impempe	impempe nezimpempe ngempempe wezimpempe
+32	2132	isipanela	izipanela isipanela nezipanela ngesipanela
+33	2133	uhele	uhele eheleni ngaseheleni hele kuhele
+34	2134	tatamisa	tatamisa abatatamisi abatatamisa atatamisa oyitatamisayo ezazitatamisa
+35	2135	umqophi	umqophi abaqophi yomqophi zabaqophi
+36	2136	bohla	bohla abohle ubohle lubohle ibohle kubohla kubohle
+37	2137	inkwali	inkwali enkwalini izinkwali nezinkwali ngasezinkwalini zinkwali
+38	2138	ukhweshe	ukhweshe ngokhweshe nokhweshe izinkweshe
+39	2139	labaya	labaya walabaya nalabaya nowalabaya
+40	2140	ukoko	ukoko koko
+41	2141	nqekuza	nqekuza enqekuzisa banqekuzisa elalinqekuza wanqekuzisa
+42	2142	popola	popola ukupopola yokupopola ngayipopola sipopole
+43	2143	umcwali	umcwali abacwali nabacwali ngumcwali njengabacwali ungumcwali
+44	2144	ububomvu	ububomvu ngobubomvu nobubomvu obubomvu bubomvu
+45	2145	ambathisa	ambathisa lawambathisa wazambathisa azambathise nimambathise ungambathisi wabambathisa yokwambathisa bambathiswe abambathiswayo ongambathiswanga wangambathiswa zambathiswa
+46	2146	isiqholo	iziqholo esiqholo isiqholo ngeziqholo uyisiqholo yiziqholo
+47	2147	isigege	isigege izigege
+48	2148	ikheji	ikheji emakhejini ekhejini esekhejini amakheji
+49	2149	umhlaza	umhlaza enomhlaza lomhlaza somhlaza yomhlaza
+50	2150	ingqumbi	engqumbini izingqumbi ingqumbi engqumbeni
+51	2151	isidudla	isidudla njengesidudla wesidudla yesidudla yisidudla
+52	2152	isikhwehlela	isikhwehlela izikhwehlela
+53	2153	ngqofa	ngqofa alingqofele ukungqofa ulingqofe walingqofela yokuzingqofela ingqofana
+54	2154	ingwane	ingwane izingwane nengwane ngwane
+55	2155	isinzima	besinzima isinzima sesinzima ezinzima esinzima nezinzima njengezinzima bezinzima ngezinzima sinzima zinzima
+56	2156	isiswahili	isiswahili esiswahili ngesiswahili zesiswahili
+57	2157	ubuluhlaza	ubuluhlaza ngobuluhlaza njengobuluhlaza obuluhlaza
+58	2158	chilizela	chilizela awachilizele azichilizelwa uzokuchilizela ezichilizela ukuchilizela
+59	2159	igoqo	igoqo negoqo egoqweni namagoqo
+60	2160	inalithi	inalithi yenalithi enenalithi
+61	2161	unyezi	unyezi konyezi kunyezi nonyezi wunyezi
+62	2162	ujinja	ujinja nojinja
+63	2163	bulisa	bulisa ubulise wambulisa bulisani ngambulisa ngiyalibulisa ubulisa ukumbulisa
+64	2164	khawuleza	likhawuleze zakhawuleziswa khawuleza ukhawuleze esikhawulezayo
+65	2165	idube	idube dube amadube kuneyedube namadube nedube yedube
+66	2166	ingulule	ingulule kwengulule izingulule kunengulule nezingulule
+67	2167	idweshu	idweshu dweshu
+68	2168	iklwa	iklwa ngeklwa kweklwa
+69	2169	ilokwe	ilokwe
+70	2170	qamela	qamela engaqamelisa ezaziqamela isiqamele ngizoqamela waqamela
+71	2171	ubumpohlo	ubumpohlo zobumpohlo
+72	2172	isinkwe	isinkwe izinkwe esinkweni
+73	2173	isilwi	isilwi yizilwi ubeyisilwi yisilwi
+74	2174	tetema	tetema iyatetema etetemayo ngitetema ukutetema uyatetema
+75	2175	unondwebu	unondwebu likanondwebu nelikanondwebu nonondwebu
+76	2176	zono	zono
+77	2177	imbambe	imbambe embambe ngimbambe
+78	2178	umvundla	womvundla kwakuwumvundla kamvundla lomvundla somvundla umvundla
+79	2179	hlukuza	hlukuza wayihlukuza ehlukuzweni layihlukuza ahlukuzise
+80	2180	inswelo	inswelo izinswelo
+81	2181	isihla	isihla ezihla besihla onezihla sihla
+82	2182	isishuqulu	izishuqulu isishuqulu
+83	2183	umvingqi	imivingqi umvingqi
+84	2184	impuco	mpuco njengempuco impuco
+85	2185	insele	insele yinsele
+86	2186	intulo	nentulo elentulo intulo ntulo yintulo
+87	2187	ikhekheba	ikhekheba amakhekheba lwamakhekheba makhekheba
+88	2188	imbube	imbube lembube
+89	2189	iqeqeba	iqeqeba yiqeqeba yeqeqeba
+90	2190	isicholo	isicholo nesicholo esicholo izicholo
+91	2191	isijula	isijula ngesijula izijula ngezijula
+92	2192	qimba	qimba uqimba niqimba ukuqimba
+93	2193	ubumtoti	ubumtoti nobumtoti ngubumtoti
+94	2194	umlamu	umlamu kumlamu ngabalamu
+95	2195	xhuga	xhuga bengixhugela exhugela ixhugela uxhuge uyaxhuga
+96	2196	ivaka	ivaka amavaka bangamavaka vaka
+97	2197	qhephuka	qhephuka aqhephukile liqhephukile ngaqhephuka
+98	2198	sintu	sintu
+99	2199	ibhaka	ibhaka amabhaka ebhaka ngibhaka
+100	2200	ilantshi	ilantshi namalantshi selantshi
