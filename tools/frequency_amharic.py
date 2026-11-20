@@ -8,11 +8,12 @@ and the vowel after it as one letter, so an ending fuses with the letter before 
 text word is therefore read here as consonants and vowels (syllables), its affixes taken off as sound, not as letters.
 
 A text word is credited to the words of the am-en pack (dictionaries/am-en.sqlite: the English Wiktionary's Amharic entries
-and the Amharic words of its translation tables) it is a form of: itself when it is one, else a form the pack lists, else a
-word with its prepositions and endings taken off (nouns, adjectives, pronouns, numbers), else a verb whose root consonants are
-left when the verb's markers are taken off (verb_lemmas). Spellings that sound alike count as one (ሀ ሐ ኀ, ሰ ሠ, አ ዐ, ጸ ፀ,
-ሀ ሃ, አ ኣ), as Amharic writes them either way. A word of the pack keeps its own count; a form of several words is shared by
-how common each is by the forms of no other.
+and the Amharic words of its translation tables) and AMHARIC_WORDS it is a form of: itself when it is one, else a form the
+pack or AMHARIC_FORMS lists, else a word with its prepositions and endings taken off (Lexicon.nominal), else a verb whose stem
+is left when the verb's markers are taken off (Lexicon.verbal: each verb's stems are made from its perfective's pattern,
+verb_stems). Spellings that sound alike count as one (ሀ ሐ ኀ, ሰ ሠ, አ ዐ, ጸ ፀ, ሀ ሃ, አ ኣ), as Amharic writes them either way;
+the list writes a word as the pack does, in the spelling the texts use most. A word of the lexicon keeps its own count; a form
+of several words is shared by how common each is by the forms of no other.
 
 Counted from web text (CC-100's Amharic, and OPUS's CCMatrix), Leipzig's Wikipedia sentences, and the subtitles, talks and
 news OPUS has (OpenSubtitles, TED2020, Global Voices), each the share of the blend WEIGHTS gives. Lines in Tigrinya, which the
@@ -137,7 +138,7 @@ NOMINAL_PREFIXES = ["yA", "bA", "lA", "kA", "slA", "'ndA", "wAdA", "'skA", "kAnA
 NOMINAL_LAYERS = [
     ["m", "s", "na", "ma", "ko", "mma"],
     ["n", "nn", "nu", "nnu"],
-    ["u", "e", "Wa", "acn", "achu", "acAw", "h", "x", "wo", "itu", "ytu", "Witu",
+    ["u", "e", "Wa", "acn", "achu", "acAw", "h", "x", "wo", "itu", "ytu", "Witu", "yAw", "yAwa",
      "w", "ye", "wa", "cn", "chu", "cAw", "Wacn", "Wachu", "WacAw", "Wa"],
     ["oc", "woc", "at", "an", "yat"],
 ]
@@ -247,7 +248,7 @@ for _kind, _words in {
     "pron": "እርስ ምናምን ስንት ይኸው ማንም ሁላችን ሁላችሁ እያንዳንዱ",
     "det": "ማንኛውም አንዳንድ ሌላ አብዛኛው መላ",
     "adj": """በርካታ ተጨማሪ ተመሳሳይ ሰላማዊ ጠንካራ ተግባራዊ ተገቢ ፖለቲካዊ መንፈሳዊ አጠቃላይ ታሪካዊ ማህበራዊ ህዝባዊ ምርጥ ትክክለኛ ወታደራዊ
-        አዝናኝ አስቂኝ ሕያው በጎ በቂ ሰራሽ ቅርብ ክቡር አልባ ቅድስት ተደጋጋሚ ፈቃደኛ ጋዜጣዊ ውብ አሉታዊ ቀጥተኛ ውድቅ ስኬታማ ሀገራዊ አሳሳቢ ዓመታዊ አስደናቂ
+        ጎጂ አዝናኝ አስቂኝ ሕያው በጎ በቂ ሰራሽ ቅርብ ክቡር አልባ ቅድስት ተደጋጋሚ ፈቃደኛ ጋዜጣዊ ውብ አሉታዊ ቀጥተኛ ውድቅ ስኬታማ ሀገራዊ አሳሳቢ ዓመታዊ አስደናቂ
         ተከታታይ መደበኛ አነስተኛ ወቅታዊ ታዋቂ ውጤታማ ታማኝ ማዕከላዊ ህጋዊ መንግስታዊ ተጠያቂ ምቹ ቀጣይ ተንቀሳቃሽ ተጨባጭ ሰብዓዊ ክልላዊ
         አገራዊ አስቸኳይ አስተማማኝ አሳዛኝ ቀዳሚ አስገራሚ ኢኮኖሚያዊ ዴሞክራሲያዊ ብሔራዊ ባህላዊ ቋሚ ሞቃት እውን ይቅር ዘመናዊ ዓለም አቀፍ
         አቀፍ ውድ ርካሽ ደስተኛ ቀጭን ወፍራም ንጹሕ ቆሻሻ ሙቅ ቀዝቃዛ ጣፋጭ ሰነፍ ጎበዝ ብልህ ደግ ክፉ ሀብታም ድሃ ጤነኛ ታማሚ ባዶ""",
@@ -262,7 +263,7 @@ for _kind, _words in {
         ማስታወቂያ ማሳያ አስፈጻሚ ካርድ ብድር ኮሌጅ ማረጋገጫ አቅርቦት ባህሪ እውነታ ሙያ መዋቅር ብዙሃን ምስክር አሰልጣኝ ንድፍ
         አርቲስት ቪዲዮ መምህር አርበኛ ራዕይ ሰበብ መለያ ቅሬታ ምእመን ጣቢያ ዲሞክራሲ እይታ ነዳጅ ትርፍ ምንዛሪ አጠቃቀም ማስታወሻ
         ጠዋት ኩሽና ምሳ እራት አትክልት ብርድ ጥቅምት ጳጉሜ ጉዳት መሐንዲስ ሹፌር ታክሲ ባቡር አውሮፕላን ጣራ ግድግዳ ደረጃ ሻንጣ
-        እውቅና ትግበራ አርማ በረከት መድን ስንቅ ዕንቁ ጋሽ ለጋሽ ጥሰት ቀጠና ስልት ስሌት እስላም መብራት ጎን መዝገብ ምዝገባ መቻቻል አስርት መከራ ቅኝ ቅናሽ ቀኖና ዳንስ ጫና ሥላሴ በቀል እትም ምድብ
+        አንድምታ እውቅና ትግበራ አርማ በረከት መድን ስንቅ ዕንቁ ጋሽ ለጋሽ ጥሰት ቀጠና ስልት ስሌት እስላም መብራት ጎን መዝገብ ምዝገባ መቻቻል አስርት መከራ ቅኝ ቅናሽ ቀኖና ዳንስ ጫና ሥላሴ በቀል እትም ምድብ
         ስድብ ምደባ ዝማኔ እስር እጥረት እልቂት ርስት እጥፍ መጠን ቅርስ እገዛ ብቃት ሰሞን መርህ ስፍራ ፍሬ ምትክ ምቾት መቀመጫ ቀኝ ግራ መሃል ስኬት ሴራ ምልክት አንፃር ማህበር መገናኛ በላይነት አማካኝነት ምርመራ ሪፖርተር ተሞክሮ አምራች አፈጻጸም ሰንበት
         መጠይቅ ጨረታ አስተዳዳሪ ትስስር ሬዲዮ ህልውና ደንበኛ ዕቃ ማስጠንቀቂያ ቅርንጫፍ ጎል ሽያጭ ልቦና አቀባበል ማሻሻያ ስያሜ ጽሕፈት
         አጋማሽ ምሕረት አቤቱታ ተከታይ ፖለቲከኛ መገለጫ መደብ ኤጀንሲ መግባባት ተቀማጭ ሰይጣን ተቀባይነት ሊቀመንበር መሥሪያ
@@ -271,7 +272,7 @@ for _kind, _words in {
         ተመለሰ አበላ አጠጣ ለበሰ አወለቀ ነቃ ቀሰቀሰ አወቀ አደረገ ተደረገ ተባለ ተከተለ መሰለ አስፈለገ ታወሰ ተመለከተ ተለየ ተጠበቀ
         አስታወቀ ታየ አሳየ ቻለ ተቻለ ተጀመረ ተከላከለ አቀረበ ተካሄደ ተሰጠ ተወሰነ አስረዳ ጠቆመ ተገለጸ ቆመ ተቀመጠ አለቀሰ አጠበ
         ታጠበ ተዘጋጀ አዘጋጀ ተሰማ አሰማ ተመረቀ ተጓዘ ደወለ ተጠራ አዳመጠ ተሳተፈ አሳተፈ ተረከበ አስረከበ ተፈጠረ ተጣላ ታረቀ ጸለየ
-        አጣራ አዳነ አሳመነ አስቆመ በቀለ አነሰ ተወ ቀረ ከፋ ተባበረ አስቀደመ ተያያዘ ለያየ ተለያየ አስወገደ አሳለፈ አሸነፈ አሳደገ አስተማረ አወረደ አስቻለ ተግባባ
+        አፈራ አፈረሰ አበረከተ አበረታታ አጣራ አዳነ አሳመነ አስቆመ በቀለ አነሰ ተወ ቀረ ከፋ ተባበረ አስቀደመ ተያያዘ ለያየ ተለያየ አስወገደ አሳለፈ አሸነፈ አሳደገ አስተማረ አወረደ አስቻለ ተግባባ
         አለፈ በለጠ ተሾመ አከበረ ተከበረ ዋኘ ሮጠ ዘለለ ወደቀ ተራመደ ጠፋ አጠፋ ተሻለ አሻሻለ ጨረሰ ተጠናቀቀ አጠናቀቀ ሞከረ ተሞከረ ጠበቀ ተጠቀመ""",
     "intj": "እሺ አቤት ወይኔ ኧረ",
 }.items():
@@ -286,28 +287,33 @@ AMHARIC_FORMS = {
     "ዉስጥ": "ውስጥ", "ውጪ": "ውጭ", "ነዉ": "ነው", "ቤተ": "ቤት", "ሕገ": "ሕግ", "ህገ": "ሕግ", "ቃለ": "ቃል", "ክፍለ": "ክፍል",
     "መጻሕፍት": "መጽሐፍ", "መጻህፍት": "መጽሐፍ", "ታላላቅ": "ታላቅ", "ትልልቅ": "ትልቅ", "ትንንሽ": "ትንሽ", "ብዬ": "አለ",
     "ነኝ": "ነው", "ነህ": "ነው", "ነሽ": "ነው", "ናት": "ነው", "ነን": "ነው", "ናችሁ": "ነው", "ናቸው": "ነው", "ነዎት": "ነው",
-    "ነበር": "ነበረ", "ጋ": "ጋር", "እንጅ": "እንጂ", "በኃላ": "በኋላ", "በሁዋላ": "በኋላ", "ማነው": "ማን", "ምንድን": "ምን",
+    "ነበር": "ነበረ", "ጋ": "ጋር", "ሀገር": "አገር", "እንጅ": "እንጂ", "በኃላ": "በኋላ", "በሁዋላ": "በኋላ", "ማነው": "ማን", "ምንድን": "ምን",
     "ምንድነው": "ምን", "ያለምንም": "ምንም", "ግዜ": "ጊዜ", "መች": "መቼ", "መተው": "ተወ", "ሂድ": "ሄደ", "ሂጂ": "ሄደ",
     "ሂዱ": "ሄደ", "ቁም": "ቆመ", "ቁሙ": "ቆመ", "ና": "መጣ", "ነይ": "መጣ", "ኑ": "መጣ", "ይላል": "አለ", "ይላሉ": "አለ",
     "ትላለች": "አለ", "ብሎ": "አለ", "ብለው": "አለ", "ብላ": "አለ", "ብለህ": "አለ", "ብለሽ": "አለ", "ብለን": "አለ",
     "ብላችሁ": "አለ", "ብለዋል": "አለ", "ብሏል": "አለ", "ብላለች": "አለ", "ብያለሁ": "አለ", "ብለናል": "አለ", "እንበል": "አለ",
-    "ልበል": "አለ", "የኔ": "እኔ", "አገራት": "አገር", "ቤተሰቦች": "ቤተሰብ", "ታላቁ": "ታላቅ", "የሴት": "ሴት", "አዩ": "አየ", "አዬ": "አየ", "አብረን": "አብሮ", "አብረው": "አብሮ", "አብረኝ": "አብሮ", "መቸም": "መቼ",
-    "ወይንም": "ወይም", "ወይንስ": "ወይም", "ያክል": "ያህል", "ብሎም": "አለ", "ባይ": "አለ", "ባዮች": "አለ", "ያዩ": "አየ", "እርሶ": "እርስዎ", "እላለሁ": "አለ", "ትላለህ": "አለ", "ትያለሽ": "አለ", "እንላለን": "አለ", "ትላላችሁ": "አለ", "ሌላኛው": "ሌላ", "አብዛኞቹ": "አብዛኛው", "ፍቃድ": "ፈቃድ", "አንጻር": "አንፃር", "አማካይነት": "አማካኝነት",
+    "ልበል": "አለ", "በል": "አለ", "በይ": "አለ", "እያንዳንዳቸው": "እያንዳንዱ", "እያንዳንዳችን": "እያንዳንዱ", "እያንዳንዳችሁ": "እያንዳንዱ",
+    "እያንዳንዷ": "እያንዳንዱ", "የኔ": "እኔ", "አገራት": "አገር", "ቤተሰቦች": "ቤተሰብ", "ታላቁ": "ታላቅ", "የሴት": "ሴት", "አዩ": "አየ", "አዬ": "አየ", "አብረን": "አብሮ", "አብረው": "አብሮ", "አብረኝ": "አብሮ", "መቸም": "መቼ",
+    "ወይንም": "ወይም", "ሚልዮን": "ሚሊዮን", "ሚሊየን": "ሚሊዮን", "ቢልዮን": "ቢሊዮን", "ቢሊየን": "ቢሊዮን", "ደሞ": "ደግሞ",
+    "ደሞም": "ደግሞ", "እንደማለት": "አለ", "ስላሉ": "አለ", "ስላለ": "አለ", "ስላላቸው": "አለ", "መቸ": "መቼ", "አብረውት": "አብሮ",
+    "አብሮት": "አብሮ", "ወይንስ": "ወይም", "ያክል": "ያህል", "ብሎም": "አለ", "ባይ": "አለ", "ባዮች": "አለ", "ያዩ": "አየ", "እርሶ": "እርስዎ", "እላለሁ": "አለ", "ትላለህ": "አለ", "ትያለሽ": "አለ", "እንላለን": "አለ", "ትላላችሁ": "አለ", "ሌላኛው": "ሌላ", "አብዛኞቹ": "አብዛኛው", "ፍቃድ": "ፈቃድ", "አንጻር": "አንፃር", "አማካይነት": "አማካኝነት",
 }
 # The stems of አለ ("say; there is, have") that the rules can't make from its letters: ይ-ል-ኣል, ሲ-ል, የሚ-ል, ብ-ሎ, በ-ል, ማ-ለት,
 # የ-ለ-ም, የ-ሌለ.
 AMHARIC_STEMS = {
-    "al": {"አለ": 3}, "alA": {"አለ": 1}, "l": {"አለ": 2}, "bl": {"አለ": 1}, "bAl": {"አለ": 1}, "lAt": {"አለ": 4}, "yAl": {"አለ": 1}, "lel": {"አለ": 1},
+    "al": {"አለ": 3}, "alA": {"አለ": 1}, "l": {"አለ": 2}, "bl": {"አለ": 1}, "lAt": {"አለ": 4}, "yAl": {"አለ": 1}, "lel": {"አለ": 1},
     "lelA": {"አለ": 1}, "yAlA": {"አለ": 1},
 }
 # Words that are no words of an ordinary text: letters, abbreviations, bound forms that are words only with the next.
-AMHARIC_EXCLUDED = {"ዘሪሁን", "ገብረ", "ጥሩነሽ", "አንዳርጋቸው", "ስመ", "አርሰናል", "አርሲ", "ማርሻል", "ጋና", "ካሳሁን", "ቻይና", "ግርማ", "ደሴ",
+AMHARIC_EXCLUDED = {"ጎጃም", "መተማ", "ዘሪሁን", "ገብረ", "ጥሩነሽ", "አንዳርጋቸው", "ስመ", "አርሰናል", "አርሲ", "ማርሻል", "ጋና", "ካሳሁን", "ቻይና", "ግርማ", "ደሴ",
                     "ዳኒ", "ጥላሁን", "ንጥረ", "ለንደን", "ናንሲ", "ወያኔ", "እስመ", "ዐ", "ሥነ", "ስነ", "ድረ", "ፀረ", "ርዕሰ", "ኃይለ",
                     "ደብረ", "ሊቀ", "ቅድመ", "ግብረ", "ሀገረ", "ደቀ", "አብያተ", "ሊቃነ"}
 # Pack entries that are other words' forms or the words of a rare verb whose stems take far commoner words' forms (ናደ:
 # እንዳሉ, ላለ: ይላል): no words of the list, their forms read by the rules.
-AMHARIC_UNLISTED = {"የተለያዩ", "የሥራ", "የውጭ", "የትግራይ", "የንግድ", "የፖለቲካ", "ማንኛው", "አገራት", "ቤተሰቦች", "ታላቁ", "የሴት", "የኔ",
-                    "ናደ", "ጎ", "አር", "በዳ", "ላለ", "ላላ", "ና"}
+AMHARIC_UNLISTED = {"ማዎቅ", "ቻይ", "የተፈጥሮ", "የተለያዩ", "የሥራ", "የውጭ", "የትግራይ", "የንግድ", "የፖለቲካ", "ማንኛው", "አገራት", "ቤተሰቦች", "ታላቁ",
+                    "የሴት", "የኔ", "ናደ", "ጎ", "አር", "በዳ", "ላለ", "ላላ", "ና", "የተባበረ", "የሌሊት", "የተጠጋጋ", "የመኪና", "የፀሐይ",
+                    "የበሰለ", "የበታች", "የእርሻ", "በመሠረት", "የከበረ", "የተከበረ", "በደስታ", "የደስታ", "የሳምባ", "የሰማይ", "የፌዝ", "የተለያየ",
+                    "የባህል", "ከባሻገር", "ከየት", "የተለመደ", "የካቶሊክ", "የወላይታ", "የደግነት", "የግሪክ", "የጥንት"}
 
 
 # What may come before a stem: nothing or a preposition (a perfective, a gerund, an imperative: ሰበረ, የሰበረ, ሰብሮ, ስበር),
@@ -333,6 +339,7 @@ def _base_stems(letters):
         out = {c1 + v1 + c2 + "A" + c3 + "A": FREE, c1 + v1 + c2 + "A" + c3: ANY, c1 + v1 + c2 + c3: FREE | PERSON}
         if v1 == "A":
             out[c1 + c2 + "A" + c3] = ANY
+        return out
         return out
     if len(letters) == 3 and vs == ["A", "a", "A"]:
         # A repeated or mutual verb (ለያየ, ደጋገመ, ተያያዘ): ይለያያል, ለያይቶ, መለያየት.
@@ -399,6 +406,8 @@ def verb_stems(key):
             # The jussive and gerund lose the base's first vowel (ያድርግ, አድርጎ, አምጥቶ).
             _add(out, {"a" + s[0] + s[1:].lstrip("A"): k for s, k in base.items()}, FREE | PERSON)
             _add(out, base, INFINITIVE)
+            # ማወቅ is ma + the base's perfective stem (አወቀ: wAq).
+            _add(out, {key.lstrip("'")[1:-1]: INFINITIVE}, ANY)
     return out
 
 
@@ -463,6 +472,7 @@ class Lexicon:
                 continue
             self.kinds[key].add(pos)
             self.spellings[key].add(word)
+        self.pack = set(self.kinds)
         for word, kind in AMHARIC_WORDS.items():
             key = sounds(word)
             self.kinds[key].add(kind)
@@ -494,10 +504,34 @@ class Lexicon:
             plain = {v for v in heads - causative if not v.startswith("tA")} or heads - causative
             heads = causative if key.startswith("ma") and causative else plain if key.startswith("mA") and plain else heads
             if len(heads) == 1 and "verb" in self.kinds[key] and self.kinds[key] <= {"verb", "noun"}:
-                self.forms[key] = heads
+                head = next(iter(heads))
+                if head not in self.pack and key in self.pack:
+                    # The perfective was added by hand (ቻለ) and the pack has the infinitive (መቻል): the word is the pack's,
+                    # which the app can look up, and the perfective its form.
+                    head, key = key, head
+                    finite.discard(key)
+                self.forms[key] = {head}
                 del self.kinds[key]
-                for stem in verb_stems(key):
-                    self.stems[stem].pop(key, None)
+                for stem in self.stems.values():
+                    if key in stem:
+                        stem[head] = stem.get(head, 0) | stem.pop(key)
+        # A verb whose last two root letters are one (ወደደ, አነበበ) writes them once before a vowel (ይወዳል, ታነባለች), where
+        # that stem is no other verb's (ይመጣል is መጣ's, not መጠጠ's).
+        for key in sorted(finite):
+            letters = _letters_of(key)
+            base = letters[1:] if letters[0][0] == "'" and len(letters) == 4 else letters
+            if len(base) == 3 and [v for _, v in base] == ["A", "A", "A"] and base[1][0] == base[2][0]:
+                stem = ("a" if base is not letters else "") + base[0][0] + "A" + base[1][0]
+                if stem not in self.stems:
+                    self.stems[stem] = {key: PERSON}
+        # A ተ- passive the pack has no entry for is its verb's (ተፈታ, ተሰራ: ፈታ, ሠራ).
+        for key in sorted(finite):
+            if key.startswith("tA"):
+                continue
+            passive = {"tA" + s: FREE for s, k in verb_stems(key).items() if k & FREE and not s.startswith(("a", "'"))}
+            for stem in passive:
+                if stem not in self.stems:
+                    self.stems[stem] = {key: FREE}
         for stem, kinds in AMHARIC_STEMS.items():
             for verb in kinds:
                 self.stems[stem][sounds(verb)] = self.stems[stem].get(sounds(verb), 0) | kinds[verb]
@@ -580,7 +614,7 @@ class Lexicon:
             return frozenset({key})
         nominal_cost, nominal = self.nominal(key)
         verbal_cost, verbal = self.verbal(key)
-        if nominal and verbal and verbal_cost <= nominal_cost and key.endswith("u"):
+        if nominal and verbal and verbal_cost <= nominal_cost <= 2 and key.endswith("u"):
             return nominal | verbal
         return nominal or verbal
 
