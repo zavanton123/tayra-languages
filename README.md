@@ -153,8 +153,10 @@ them and read as words of their own (학교에서 is 학교 + 에서), and verbs
   for a language the first time a photo in it is read, and can be removed under Dictionaries.
 - Long texts are split into pages by paragraph or by word count; pages can be edited, added
   or removed later.
-- The library shows every book with its language, progress and how much of its vocabulary
-  is already known, with search, sorting, filters and an archive for finished books.
+- The library puts the book being read on top, with the minutes left at a learner's pace, then
+  lists every book with a cover drawn from its title, its length in minutes, progress and how much
+  of its vocabulary is already known, flagged when the book is hard going; as a table or a grid,
+  with search, sorting, filters, quick actions on hover and an archive for finished books.
 
 ## Command line
 
