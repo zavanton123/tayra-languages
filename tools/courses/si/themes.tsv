@@ -1,0 +1,101 @@
+# id	rankUpTo	level	topic (English)	title (Sinhala)
+si-mini-0100	100	A1	Home and family	නිවස සහ පවුල
+si-mini-0200	200	A1	Everyday life	එදිනෙදා ජීවිතය
+si-mini-0300	300	A1	Food and shopping	කෑම සහ බඩු මිලදී ගැනීම
+si-mini-0400	400	A2	In the city	නගරයේ
+si-mini-0500	500	A2	School and work	පාසල සහ රැකියාව
+si-mini-0600	600	A2	Free time and hobbies	විවේකය සහ විනෝදාංශ
+si-mini-0700	700	A2	Health and the body	සෞඛ්‍යය සහ ශරීරය
+si-mini-0800	800	A2	Travel and holidays	සංචාර සහ නිවාඩු
+si-mini-0900	900	A2	Nature and the seasons	සොබාදහම සහ කාලගුණය
+si-mini-1000	1000	A2	Birthdays, parties and friends	උපන්දින, සාද සහ යාළුවෝ
+si-mini-1100	1100	B1	Living and housing	නිවාස සහ ජීවත් වීම
+si-mini-1200	1200	B1	Memories	මතකයන්
+si-mini-1300	1300	B1	Jobs and training	රැකියා සහ පුහුණුව
+si-mini-1400	1400	B1	Getting around	ගමන් බිමන්
+si-mini-1500	1500	B1	Money and shopping	මුදල් සහ සාප්පු යාම
+si-mini-1600	1600	B1	Experiencing culture	සංස්කෘතිය අත්විඳීම
+si-mini-1700	1700	B1	Sport and exercise	ක්‍රීඩා සහ ව්‍යායාම
+si-mini-1800	1800	B1	The environment in daily life	එදිනෙදා ජීවිතයේ පරිසරය
+si-mini-1900	1900	B1	Letters, messages and media	ලිපි, පණිවිඩ සහ මාධ්‍ය
+si-mini-2000	2000	B1	Neighbourhood	අසල්වැසියෝ
+si-mini-2100	2100	B2	Cooking and food	ඉවුම් පිහුම් සහ ආහාර
+si-mini-2200	2200	B2	Body and mind	ශරීරය සහ මනස
+si-mini-2300	2300	B2	The world of work	රැකියා ලෝකය
+si-mini-2400	2400	B2	Science and technology	විද්‍යාව සහ තාක්ෂණය
+si-mini-2500	2500	B2	History you can touch	ස්පර්ශ කළ හැකි ඉතිහාසය
+si-mini-2600	2600	B2	Travelling in Sri Lanka	ශ්‍රී ලංකාවේ සංචාර
+si-mini-2700	2700	B2	Generations	පරම්පරා
+si-mini-2800	2800	B2	Music	සංගීතය
+si-mini-2900	2900	B2	Society and living together	සමාජය සහ සහජීවනය
+si-mini-3000	3000	B2	Small columns	කෙටි ලිපි
+si-mini-3100	3100	B2	Home and decoration	නිවස සහ අලංකරණය
+si-mini-3200	3200	B2	Fashion and clothes	විලාසිතා සහ ඇඳුම්
+si-mini-3300	3300	B2	The great outdoors	එළිමහන
+si-mini-3400	3400	B2	Traditional crafts	සාම්ප්‍රදායික කර්මාන්ත
+si-mini-3500	3500	B2	Technology and society	තාක්ෂණය සහ සමාජය
+si-mini-3600	3600	B2	Rivers, lagoons and the sea	ගංගා, කලපු සහ මුහුද
+si-mini-3700	3700	B2	Books and language	පොත් සහ භාෂාව
+si-mini-3800	3800	B2	Everyday economics	එදිනෙදා ආර්ථිකය
+si-mini-3900	3900	B2	Village life	ගැමි ජීවිතය
+si-mini-4000	4000	B2	City life columns	නාගරික ජීවිතය ගැන ලිපි
+si-mini-4100	4100	C1	Body and mind in daily life	එදිනෙදා ජීවිතයේ ශරීරය සහ මනස
+si-mini-4200	4200	C1	Architecture and heritage	ගෘහ නිර්මාණ සහ උරුමය
+si-mini-4300	4300	C1	Climate and energy	දේශගුණය සහ බලශක්තිය
+si-mini-4400	4400	C1	Everyday paperwork	එදිනෙදා ලියකියවිලි
+si-mini-4500	4500	C1	Film and television	චිත්‍රපට සහ රූපවාහිනිය
+si-mini-4600	4600	C1	Research and discovery	පර්යේෂණ සහ සොයාගැනීම්
+si-mini-4700	4700	C1	Living far from home	නිවසින් ඈතව ජීවත් වීම
+si-mini-4800	4800	C1	The mind in daily life	එදිනෙදා ජීවිතයේ මනස
+si-mini-4900	4900	C1	Sport and society	ක්‍රීඩාව සහ සමාජය
+si-mini-5000	5000	C1	Short essays	කෙටි රචනා
+si-mini-5100	5100	C1	Archaeology and the past	පුරාවිද්‍යාව සහ අතීතය
+si-mini-5200	5200	C1	The science of cooking	ඉවුම් පිහුම්වල විද්‍යාව
+si-mini-5300	5300	C1	Landscapes	භූ දර්ශන
+si-mini-5400	5400	C1	Caring for others	අන් අය රැක බලා ගැනීම
+si-mini-5500	5500	C1	Visual arts	දෘශ්‍ය කලා
+si-mini-5600	5600	C1	Journalism and media	පුවත්පත් කලාව සහ මාධ්‍ය
+si-mini-5700	5700	C1	Transport and mobility	ප්‍රවාහනය සහ ගමනාගමනය
+si-mini-5800	5800	C1	The Sinhala language	සිංහල භාෂාව
+si-mini-5900	5900	C1	Starting a business	ව්‍යාපාරයක් ආරම්භ කිරීම
+si-mini-6000	6000	C1	Memoirs	මතක සටහන්
+si-mini-6100	6100	C1	The universe and the stars	විශ්වය සහ තාරකා
+si-mini-6200	6200	C1	Mining and natural resources	පතල් සහ ස්වභාවික සම්පත්
+si-mini-6300	6300	C1	Food and health	ආහාර සහ සෞඛ්‍යය
+si-mini-6400	6400	C1	Theatre and stage	නාට්‍ය සහ වේදිකාව
+si-mini-6500	6500	C1	Engineering	ඉංජිනේරු විද්‍යාව
+si-mini-6600	6600	C1	Farm to table	කෙතේ සිට මේසයට
+si-mini-6700	6700	C1	Words and where they come from	වචන සහ ඒවායේ මූලාරම්භය
+si-mini-6800	6800	C1	Sinhala literature	සිංහල සාහිත්‍යය
+si-mini-6900	6900	C1	Numbers and reasoning	අංක සහ තර්කනය
+si-mini-7000	7000	C1	Travel columns	සංචාර ලිපි
+si-mini-7100	7100	C1	Public health	මහජන සෞඛ්‍යය
+si-mini-7200	7200	C1	Everyday philosophy	එදිනෙදා දර්ශනය
+si-mini-7300	7300	C1	Festivals and peraheras	උත්සව සහ පෙරහැර
+si-mini-7400	7400	C1	Animal behaviour	සතුන්ගේ හැසිරීම
+si-mini-7500	7500	C1	Work and the labour market	රැකියාව සහ ශ්‍රම වෙළඳපොළ
+si-mini-7600	7600	C1	Cities of the world	ලෝකයේ නගර
+si-mini-7700	7700	C1	Inventions and inventors	නව නිපැයුම් සහ නිපැයුම්කරුවන්
+si-mini-7800	7800	C1	Public services	රාජ්‍ය සේවා
+si-mini-7900	7900	C1	Mountains and hills	කඳු සහ කඳුකර
+si-mini-8000	8000	C1	Family columns	පවුල ගැන ලිපි
+si-mini-8100	8100	C2	The human body	මිනිස් සිරුර
+si-mini-8200	8200	C2	Prevention and resilience	වැළැක්වීම සහ ඔරොත්තු දීම
+si-mini-8300	8300	C2	Design and craft	නිර්මාණකරණය සහ ශිල්පය
+si-mini-8400	8400	C2	Emotions and relationships	හැඟීම් සහ සබඳතා
+si-mini-8500	8500	C2	Explorers and travellers	ගවේෂකයෝ සහ සංචාරකයෝ
+si-mini-8600	8600	C2	The forest	වනාන්තරය
+si-mini-8700	8700	C2	Advertising and communication	වෙළඳ දැන්වීම් සහ සන්නිවේදනය
+si-mini-8800	8800	C2	Food culture in Sri Lanka	ශ්‍රී ලංකාවේ ආහාර සංස්කෘතිය
+si-mini-8900	8900	C2	Traditional and classical music	සාම්ප්‍රදායික සහ ශාස්ත්‍රීය සංගීතය
+si-mini-9000	9000	C2	Essays on time	කාලය ගැන රචනා
+si-mini-9100	9100	C2	Chemistry and materials	රසායන විද්‍යාව සහ ද්‍රව්‍ය
+si-mini-9200	9200	C2	Maps and finding the way	සිතියම් සහ මඟ සොයා ගැනීම
+si-mini-9300	9300	C2	Tales and legends	කතා සහ ජනප්‍රවාද
+si-mini-9400	9400	C2	Rare professions	දුර්ලභ වෘත්තීන්
+si-mini-9500	9500	C2	Urban planning	නාගරික සැලසුම්කරණය
+si-mini-9600	9600	C2	Everyday physics	එදිනෙදා භෞතික විද්‍යාව
+si-mini-9700	9700	C2	Gardens and botany	උද්‍යාන සහ උද්භිද විද්‍යාව
+si-mini-9800	9800	C2	Folk art and customs	ජන කලා සහ සිරිත් විරිත්
+si-mini-9900	9900	C2	Ethics and living together	ආචාර ධර්ම සහ සහජීවනය
+si-mini-10000	10000	C2	Learning and language	ඉගෙනීම සහ භාෂාව
