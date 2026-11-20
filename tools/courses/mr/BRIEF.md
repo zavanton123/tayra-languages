@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Marathi word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `mr-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 4,477 words: the last course is `mr-mini-4500`
-(77 words).
+`themes.tsv` gives each course its theme. The list has 4,480 words: the last course is `mr-mini-4500`
+(80 words).
 
 ## The list
 
@@ -16,21 +16,22 @@ after it. So:
 
 - **The ranks lean to the news.** Words of reports rank high (पोलीस 29, जिल्हा 60, पक्ष 78, निवडणूक 88,
   मुख्यमंत्री 145, सरकार 164), everyday words lower than in speech (शाळा 153, मुलगी 230, पुस्तक 232,
-  आई 357, मित्र 527, आवडणे 644). Write everyday stories anyway: a news word goes into an ordinary scene
+  आई 362, मित्र 542, आवडणे 655). Write everyday stories anyway: a news word goes into an ordinary scene
   (a police officer who shows the way, a village that asks the district for water, a film made in a village).
 - **Verbs are listed by the infinitive in -णे** (करणे, जाणे, येणे, देणे, घेणे, होणे), with all their
   forms (करतो, केला, केलेल्या, करणार, करायला, करून, करण्यासाठी); `newWords` holds the headword as the
   band has it. आहे, आहेत, होता, होते are असणे's; नव्हता is नसणे's; नाही "no, not" is a word of its own
   (with नाहीत, नाहीये). A noun's case forms and postpositions written on its oblique (घरात, घराला, घराचा,
-  घरासाठी; शाळेत, शाळेपासून; पाण्यात) and the pronouns' (मला, माझा, त्याला, त्याच्याबरोबर, तिच्या, आमच्या,
-  यांनी) are its forms.
+  घरासाठी; शाळेत, शाळेपासून; पाण्यात) or on the noun as it is (सरकारने, रेल्वेत, सकाळचा, प्रकारचे), an adverb's
+  genitive (सध्याचा, आतापर्यंत) and the pronouns' (मला, माझा, त्याला, त्याच्याबरोबर, तिच्या, आमच्या, यांनी) are its
+  forms.
 - **Adjectives in -ा are cited in the neuter -े**, as the pack has them: मोठे (मोठा, मोठी, मोठ्या), नवे,
   जुने, काळे, दुसरे, पहिले. Teach the headword as the band gives it.
 - **हा, ही, हे and तो, ती, ते are six words**: हा "this (m)" holds या, याचा, यासाठी; हे "these, this (n)"
   holds यांनी, यांना (the honorific "he, she" of the news: *पाटील यांनी सांगितले*); तो holds त्या, त्याला,
   त्याच्या; ते holds त्यांना, त्यांनी. The headwords' ranks are 3, 4, 9, 7, 19, 25.
 - **List noise**: some words collect stray forms (रोज holds रोजी "on (a date)", मध्ये holds मध्या), a few
-  ranks are lifted by names in the news (राज 544, प्रकाश 473, किरण 784, यश 292 are also first names); a
+  ranks are lifted by names in the news (राज 562, प्रकाश 484, किरण 776, यश 292 are also first names); a
   few shared spellings are split by how common each word is (गावी "in the village" and गाणे's गावी "should
   sing"). Teach a word in its main sense; skip a word that is only noise.
 
@@ -65,7 +66,7 @@ lesson never needs another lesson to make sense.
   - ranks 1–300: the present (*करतो, करते, करतात*); आहे / आहेत and नाही; the cases on the oblique
     (*घराला, घराचा, घरात, मुंबईत, शाळेत*) and the commonest postpositions written on (*-साठी, -मध्ये,
     -वर, -कडे, -बरोबर*); the genitive agreeing with its noun (*माझा भाऊ, माझी आई, माझे घर*); questions with
-    काय, कोण, का, कुठे (243), किती (306); the future in -णार (*करणार आहे*) and the clitics -च "just",
+    काय, कोण, का, कुठे (243), किती (310); the future in -णार (*करणार आहे*) and the clitics -च "just",
     -ही "also" (*आजच, मीही*);
   - ranks 301–600: the simple past and its agreement (*तो गेला, ती गेली; मी पुस्तक वाचले*), the agent
     in -ने (*त्याने, सुनीताने*); the future (*करेन, करशील, करेल, करू, कराल, करतील*); the conjunctive
