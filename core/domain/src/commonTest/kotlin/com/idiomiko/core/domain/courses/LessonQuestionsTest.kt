@@ -32,7 +32,7 @@ class LessonQuestionsTest {
         val headers = listOf(
             "Questions :", "Հարցեր․", "پرسش‌ها:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "问题：", "Ἐρωτήσεις:", "Pyetje:",
             "פֿראַגעס:", "Асуултууд:", "ຄຳຖາມ:", "Jautājumi:", "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:",
-            "Пытанні:", "Mistoqsijiet:", "Soalan:", "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:", "प्रश्नहरू:", "Tambayoyi:", "Imibuzo:", "ጥያቄዎች፦", "Savollar:",
+            "Пытанні:", "Mistoqsijiet:", "Soalan:", "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:", "प्रश्नहरू:", "Tambayoyi:", "Imibuzo:", "ጥያቄዎች፦", "Savollar:", "မေးခွန်းများ:",
             "پوښتنې:",
             "ጥያቄዎች:",
             "Su'aalo:",
