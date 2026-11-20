@@ -102,6 +102,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Turkish" to "Türkisch",
     "Ukrainian" to "Ukrainisch",
     "Urdu" to "Urdu",
+    "Uzbek" to "Usbekisch",
     "Vietnamese" to "Vietnamesisch",
     "Welsh" to "Walisisch",
     "Yiddish" to "Jiddisch",

@@ -71,7 +71,7 @@ internal object OcrLanguages {
         "si" to (OcrScript.SINHALA to "sin"), "sk" to (OcrScript.LATIN to "slk"), "te" to (OcrScript.TELUGU to "tel"), "sl" to (OcrScript.LATIN to "slv"), "es" to (OcrScript.LATIN to "spa"),
         "sw" to (OcrScript.LATIN to "swa"), "sv" to (OcrScript.LATIN to "swe"), "th" to (OcrScript.THAI to "tha"),
         "ta" to (OcrScript.TAMIL to "tam"),
-        "bo" to (OcrScript.TIBETAN to "bod"), "tr" to (OcrScript.LATIN to "tur"), "uk" to (OcrScript.CYRILLIC to "ukr"),
+        "bo" to (OcrScript.TIBETAN to "bod"), "tr" to (OcrScript.LATIN to "tur"), "uk" to (OcrScript.CYRILLIC to "ukr"), "uz" to (OcrScript.LATIN to "uzb"),
         "vi" to (OcrScript.LATIN to "vie"), "cy" to (OcrScript.LATIN to "cym"), "ga" to (OcrScript.LATIN to "gle"),
         "gd" to (OcrScript.LATIN to "gla"), "tl" to (OcrScript.LATIN to "fil"), "aii" to (OcrScript.SYRIAC to "syr"),
         "gv" to (OcrScript.LATIN to "script/Latin"), "kw" to (OcrScript.LATIN to "script/Latin"), "haw" to (OcrScript.LATIN to "script/Latin"), "ha" to (OcrScript.LATIN to "script/Latin"),
@@ -91,7 +91,7 @@ internal object OcrLanguages {
         "mon" to "Mongolian", "msa" to "Malay", "mlt" to "Maltese", "nep" to "Nepali", "nor" to "Norwegian", "pus" to "Pashto", "pol" to "Polish", "por" to "Portuguese", "pan" to "Punjabi",
         "ron" to "Romanian", "rus" to "Russian", "srp" to "Serbian (Cyrillic)", "srp_latn" to "Serbian (Latin)", "sin" to "Sinhala", "slk" to "Slovak",
         "slv" to "Slovene", "spa" to "Spanish", "swa" to "Swahili", "swe" to "Swedish", "tha" to "Thai", "tam" to "Tamil", "tel" to "Telugu", "bod" to "Tibetan",
-        "tur" to "Turkish", "ukr" to "Ukrainian", "urd" to "Urdu", "vie" to "Vietnamese", "cym" to "Welsh", "gle" to "Irish", "gla" to "Scottish Gaelic",
+        "tur" to "Turkish", "ukr" to "Ukrainian", "urd" to "Urdu", "uzb" to "Uzbek", "vie" to "Vietnamese", "cym" to "Welsh", "gle" to "Irish", "gla" to "Scottish Gaelic",
         "fil" to "Filipino", "syr" to "Syriac", "chi_sim" to "Chinese (simplified)", "chi_tra" to "Chinese (traditional)",
     )
 }

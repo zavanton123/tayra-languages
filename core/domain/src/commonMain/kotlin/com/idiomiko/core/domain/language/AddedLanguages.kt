@@ -574,6 +574,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun uzbek() = LanguageDefinition(
+        language = Language(
+            name = "Uzbek",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Uzbek", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/uz/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=uz&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "h.k.|mln.|mlrd.|prof.|Prof.|akad.|dots.|t.f.n.|f.f.d.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳʻʼ",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "uzbek",
+        ),
+    )
+
     private fun welsh() = LanguageDefinition(
         language = Language(
             name = "Welsh",
@@ -660,6 +678,7 @@ object AddedLanguages {
             tamil(),
             telugu(),
             urdu(),
+            uzbek(),
             welsh(),
             yiddish(),
             zulu(),

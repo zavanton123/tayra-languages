@@ -172,7 +172,7 @@ object DictionaryPacks {
         "ne" to "Nepali", "no" to "Norwegian", "sga" to "Old Irish", "ps" to "Pashto", "pl" to "Polish", "pt" to "Portuguese", "pa" to "Punjabi",
         "ro" to "Romanian", "ru" to "Russian", "gd" to "Scottish Gaelic", "sr" to "Serbian", "si" to "Sinhala",
         "sk" to "Slovak", "sl" to "Slovene", "so" to "Somali", "es" to "Spanish", "sw" to "Swahili", "sv" to "Swedish", "tl" to "Tagalog", "ta" to "Tamil", "te" to "Telugu",
-        "th" to "Thai", "tok" to "Toki Pona", "tr" to "Turkish", "uk" to "Ukrainian", "ur" to "Urdu", "vi" to "Vietnamese",
+        "th" to "Thai", "tok" to "Toki Pona", "tr" to "Turkish", "uk" to "Ukrainian", "ur" to "Urdu", "uz" to "Uzbek", "vi" to "Vietnamese",
         "cy" to "Welsh", "yi" to "Yiddish", "zu" to "Zulu", "names" to "Names",
     )
 

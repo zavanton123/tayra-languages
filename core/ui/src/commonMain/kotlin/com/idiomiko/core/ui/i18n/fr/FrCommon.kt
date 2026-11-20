@@ -102,6 +102,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Turkish" to "Turc",
     "Ukrainian" to "Ukrainien",
     "Urdu" to "Ourdou",
+    "Uzbek" to "Ouzbek",
     "Vietnamese" to "Vietnamien",
     "Welsh" to "Gallois",
     "Yiddish" to "Yiddish",

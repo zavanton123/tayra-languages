@@ -102,6 +102,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Turkish" to "Turecki",
     "Ukrainian" to "Ukraiński",
     "Urdu" to "Urdu",
+    "Uzbek" to "Uzbecki",
     "Vietnamese" to "Wietnamski",
     "Welsh" to "Walijski",
     "Yiddish" to "Jidysz",

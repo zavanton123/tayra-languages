@@ -102,6 +102,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Turkish" to "Τουρκικά",
     "Ukrainian" to "Ουκρανικά",
     "Urdu" to "Ούρντου",
+    "Uzbek" to "Ουζμπεκικά",
     "Vietnamese" to "Βιετναμικά",
     "Welsh" to "Ουαλικά",
     "Yiddish" to "Γίντις",

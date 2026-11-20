@@ -48,6 +48,7 @@ object LanguageCodes {
         "marathi" to "mr",
         "zulu" to "zu",
         "somali" to "so",
+        "uzbek" to "uz",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -89,6 +90,7 @@ object LanguageCodes {
         "mr" to "mar",
         "zu" to "zul",
         "so" to "som",
+        "uz" to "uzb",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

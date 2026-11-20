@@ -102,6 +102,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Turkish" to "Turco",
     "Ukrainian" to "Ucraniano",
     "Urdu" to "Urdu",
+    "Uzbek" to "Uzbeque",
     "Vietnamese" to "Vietnamita",
     "Welsh" to "Galês",
     "Yiddish" to "Iídiche",

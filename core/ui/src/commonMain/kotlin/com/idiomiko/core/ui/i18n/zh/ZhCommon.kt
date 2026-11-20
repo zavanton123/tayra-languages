@@ -102,6 +102,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Turkish" to "土耳其语",
     "Ukrainian" to "乌克兰语",
     "Urdu" to "乌尔都语",
+    "Uzbek" to "乌兹别克语",
     "Vietnamese" to "越南语",
     "Welsh" to "威尔士语",
     "Yiddish" to "意第绪语",
