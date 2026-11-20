@@ -584,11 +584,11 @@ def build(size, download, dictionaries=None):
             stems[stem] = word
     # A verb first, as its forms are shorter than it (හදන of හදනවා).
     words = set(own) | {w for w in weak if w.endswith("නවා") and not any(m in own for m in made.get(w, ()))}
-    for word in sorted(weak, key=len):
+    for word in sorted(weak, key=lambda w: (len(w), w)):
         if word not in stems and not any(w in words and not unrelated(word, w) for w in made.get(word, ()) if w != word):
             words.add(word)
     # A plural shorter than its noun (නිලධාරීන් of නිලධාරියා, ළමයි of ළමයා) is the noun's.
-    for word in sorted(words & weak, key=len):
+    for word in sorted(words & weak, key=lambda w: (len(w), w)):
         if any(w in words and w.endswith("ා") and len(w) > len(word) and not unrelated(word, w) for w in made.get(word, ())):
             words.discard(word)
 

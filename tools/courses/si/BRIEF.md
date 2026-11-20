@@ -13,8 +13,8 @@ the web: the STM and SinMin corpora), subtitles (a fifth of the blend) and Wikip
 when the si-en pack has it (the English Wiktionary's Sinhala entries, a parallel Sinhala-English word
 dictionary, and everyday words added by hand), and a corpus form is counted for the word it is a form of.
 
-- **The ranks lean to the news.** Words of reports rank high (මහතා 30, රජය 79, පොලිසිය 151,
-  ජනාධිපති 261), everyday words lower than in speech (පොත 337, ගෙදර 357, අම්මා 369, වතුර 871).
+- **The ranks lean to the news.** Words of reports rank high (මහතා 30, රජය 79, පොලිසිය 152,
+  ජනාධිපති 262), everyday words lower than in speech (පොත 337, ගෙදර 357, අම්මා 369, වතුර 875).
   Write everyday stories anyway: a news word goes into an ordinary scene (a police officer who helps,
   a village festival, a school match). Subtitles bring in the spoken words (මම, ඒක, ඕනෑ, එයා, ඔයා).
 - **Verbs are listed by the -නවා form** (කරනවා, යනවා, එනවා, බලනවා), with all their forms: the present
