@@ -1,0 +1,73 @@
+# id	rankUpTo	level	topic (English)	title (Burmese)
+my-mini-0100	100	A1	Home and family	အိမ်နှင့် မိသားစု
+my-mini-0200	200	A1	Everyday life	နေ့စဉ်ဘဝ
+my-mini-0300	300	A1	Food and shopping	အစားအစာနှင့် ဈေးဝယ်ခြင်း
+my-mini-0400	400	A2	In the city	မြို့ထဲမှာ
+my-mini-0500	500	A2	School and work	ကျောင်းနှင့် အလုပ်
+my-mini-0600	600	A2	Free time and hobbies	အားလပ်ချိန်နှင့် ဝါသနာ
+my-mini-0700	700	A2	Health and the body	ကျန်းမာရေးနှင့် ခန္ဓာကိုယ်
+my-mini-0800	800	A2	Travel and holidays	ခရီးသွားခြင်းနှင့် အားလပ်ရက်
+my-mini-0900	900	A2	Nature and the seasons	သဘာဝနှင့် ရာသီများ
+my-mini-1000	1000	A2	Birthdays, parties and friends	မွေးနေ့၊ ပွဲနှင့် သူငယ်ချင်းများ
+my-mini-1100	1100	B1	Living and housing	နေထိုင်ရာ အိမ်ခန်း
+my-mini-1200	1200	B1	Memories	အမှတ်တရများ
+my-mini-1300	1300	B1	Jobs and training	အလုပ်အကိုင်နှင့် လေ့ကျင့်ရေး
+my-mini-1400	1400	B1	Getting around	သွားလာရေး
+my-mini-1500	1500	B1	Money and shopping	ငွေကြေးနှင့် ဈေးဝယ်ခြင်း
+my-mini-1600	1600	B1	Experiencing culture	ယဉ်ကျေးမှုကို ခံစားခြင်း
+my-mini-1700	1700	B1	Sport and exercise	အားကစားနှင့် လေ့ကျင့်ခန်း
+my-mini-1800	1800	B1	The environment in daily life	နေ့စဉ်ဘဝထဲက ပတ်ဝန်းကျင်
+my-mini-1900	1900	B1	Letters, messages and media	စာ၊ သတင်းစကားနှင့် မီဒီယာ
+my-mini-2000	2000	B1	Neighbourhood	ရပ်ကွက်
+my-mini-2100	2100	B2	Cooking and food	ချက်ပြုတ်ခြင်းနှင့် အစားအစာ
+my-mini-2200	2200	B2	Body and mind	ကိုယ်နှင့် စိတ်
+my-mini-2300	2300	B2	The world of work	အလုပ်လောက
+my-mini-2400	2400	B2	Science and technology	သိပ္ပံနှင့် နည်းပညာ
+my-mini-2500	2500	B2	History you can touch	ထိတွေ့နိုင်သော သမိုင်း
+my-mini-2600	2600	B2	Travelling in Myanmar	မြန်မာပြည်ထဲ ခရီးသွားခြင်း
+my-mini-2700	2700	B2	Generations	မျိုးဆက်များ
+my-mini-2800	2800	B2	Music	ဂီတ
+my-mini-2900	2900	B2	Society and living together	လူ့အဖွဲ့အစည်းနှင့် အတူနေထိုင်ခြင်း
+my-mini-3000	3000	B2	Small columns	ဆောင်းပါးတိုများ
+my-mini-3100	3100	B2	Home and decoration	အိမ်နှင့် အလှဆင်ခြင်း
+my-mini-3200	3200	B2	Fashion and clothes	ဖက်ရှင်နှင့် အဝတ်အစား
+my-mini-3300	3300	B2	The great outdoors	ပြင်ပ သဘာဝ
+my-mini-3400	3400	B2	Traditional crafts	ရိုးရာ လက်မှုပညာ
+my-mini-3500	3500	B2	Technology and society	နည်းပညာနှင့် လူ့အဖွဲ့အစည်း
+my-mini-3600	3600	B2	Rivers, lakes and the sea	မြစ်၊ ကန်နှင့် ပင်လယ်
+my-mini-3700	3700	B2	Books and language	စာအုပ်နှင့် ဘာသာစကား
+my-mini-3800	3800	B2	Everyday economics	နေ့စဉ် စီးပွားရေး
+my-mini-3900	3900	B2	Village life	ကျေးလက်ဘဝ
+my-mini-4000	4000	B2	City life columns	မြို့ပြဘဝ ဆောင်းပါးများ
+my-mini-4100	4100	C1	Body and mind in daily life	နေ့စဉ်ဘဝထဲက ကိုယ်နှင့် စိတ်
+my-mini-4200	4200	C1	Architecture and heritage	ဗိသုကာနှင့် အမွေအနှစ်
+my-mini-4300	4300	C1	Climate and energy	ရာသီဥတုနှင့် စွမ်းအင်
+my-mini-4400	4400	C1	Everyday paperwork	နေ့စဉ် စာရွက်စာတမ်း
+my-mini-4500	4500	C1	Film and television	ရုပ်ရှင်နှင့် ရုပ်မြင်သံကြား
+my-mini-4600	4600	C1	Research and discovery	သုတေသနနှင့် ရှာဖွေတွေ့ရှိမှု
+my-mini-4700	4700	C1	Living far from home	အိမ်နှင့် ဝေးရာမှာ နေထိုင်ခြင်း
+my-mini-4800	4800	C1	The mind in daily life	နေ့စဉ်ဘဝထဲက စိတ်
+my-mini-4900	4900	C1	Sport and society	အားကစားနှင့် လူ့အဖွဲ့အစည်း
+my-mini-5000	5000	C1	Short essays	စာစီစာကုံး တိုများ
+my-mini-5100	5100	C1	Archaeology and the past	ရှေးဟောင်းသုတေသနနှင့် အတိတ်
+my-mini-5200	5200	C1	The science of cooking	ချက်ပြုတ်ခြင်း၏ သိပ္ပံ
+my-mini-5300	5300	C1	Landscapes	ရှုခင်းများ
+my-mini-5400	5400	C1	Caring for others	အခြားသူများကို ပြုစုစောင့်ရှောက်ခြင်း
+my-mini-5500	5500	C1	Visual arts	ပန်းချီနှင့် ရုပ်ပုံအနုပညာ
+my-mini-5600	5600	C1	Journalism and media	သတင်းစာပညာနှင့် မီဒီယာ
+my-mini-5700	5700	C1	Transport and mobility	သယ်ယူပို့ဆောင်ရေး
+my-mini-5800	5800	C1	The Burmese language	မြန်မာဘာသာစကား
+my-mini-5900	5900	C1	Starting a business	စီးပွားရေး စတင်ခြင်း
+my-mini-6000	6000	C1	Memoirs	ကိုယ်တွေ့မှတ်တမ်းများ
+my-mini-6100	6100	C1	The universe and the stars	စကြဝဠာနှင့် ကြယ်များ
+my-mini-6200	6200	C1	Mining and natural resources	သတ္တုတွင်းနှင့် သဘာဝ သယံဇာတ
+my-mini-6300	6300	C1	Food and health	အစားအစာနှင့် ကျန်းမာရေး
+my-mini-6400	6400	C1	Theatre and stage	ပြဇာတ်နှင့် စင်မြင့်
+my-mini-6500	6500	C1	Engineering	အင်ဂျင်နီယာပညာ
+my-mini-6600	6600	C1	Farm to table	လယ်ကွင်းမှ ထမင်းဝိုင်းဆီ
+my-mini-6700	6700	C1	Words and where they come from	စကားလုံးများနှင့် ၎င်းတို့၏ မူလ
+my-mini-6800	6800	C1	Burmese literature	မြန်မာစာပေ
+my-mini-6900	6900	C1	Numbers and reasoning	ကိန်းဂဏန်းနှင့် ဆင်ခြင်တွေးခေါ်ခြင်း
+my-mini-7000	7000	C1	Travel columns	ခရီးသွား ဆောင်းပါးများ
+my-mini-7100	7100	C1	Public health	ပြည်သူ့ကျန်းမာရေး
+my-mini-7200	7200	C1	Everyday philosophy	နေ့စဉ် ဒဿနိကဗေဒ
