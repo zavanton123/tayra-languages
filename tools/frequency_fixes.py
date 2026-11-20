@@ -1549,8 +1549,8 @@ OVERRIDES.setdefault("mt", {}).update({
     **{f: ["għand"] for f in ("għandi", "għandek", "għandu", "għandha", "għandna", "għandkom", "għandhom", "għandix",
                              "għandekx", "għandux", "għandhiex", "għandniex", "għandkomx", "għandhomx")},
     "kont": ["kien"], "kontijiet": [], "kienetx": ["kien"], "kinitx": ["kien"], "miegħek": ["ma'"],
-    # parti "part" has no entry of its own, but is filed under parta "to depart".
-    "parti": [], "partijiet": [],
+    # parti "part" has no entry of its own, but is filed under parta "to depart" (frequency_maltese adds the word).
+    "parti": ["parti"], "partijiet": ["parti"],
 })
 # sliema "peace", ħal "condition" (obsolete) and marsa "harbour" (archaic) are counted as the places Tas-Sliema, Ħal Qormi and
 # Marsa.

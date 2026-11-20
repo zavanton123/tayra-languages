@@ -371,6 +371,7 @@ OVERRIDES["kk"] = frequency_kazakh.KAZAKH_OVERRIDES
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
 import frequency_punjabi  # noqa: E402
+import frequency_maltese  # noqa: E402
 
 OVERRIDES["pa"] = frequency_punjabi.OVERRIDES
 EXCLUDE["pa"] = frequency_punjabi.EXCLUDE
@@ -3593,12 +3594,26 @@ def maltese_counts(language, limit, source="leipzig"):
                 maltese_unmarked(piece, words) for match in MALTESE_WORD.finditer(sentence)
                 for piece in maltese_pieces(match.group(0), known)):
             continue
+        cut, end = [], 0
         for match in MALTESE_WORD.finditer(sentence):
             pieces = maltese_pieces(match.group(0), known)
             if pieces and sentence[match.end():match.end() + 1] == "-" and pieces[-1] + "-" in MALTESE_JOINED:
                 pieces[-1] += "-"
             for piece in pieces:
                 counts[piece] += 1
+            if pieces:
+                starts = not cut or any(c in VIETNAMESE_STARTS for c in sentence[end:match.start()])
+                cut.append((pieces[-1], match.group(0)[2 * (len(pieces) - 1):], starts))
+            end = match.end()
+        # And how often each word is written in lowercase where no sentence starts, which tells a word from a name, and in a
+        # sentence the pack knows most words of, which tells it from English (frequency_maltese).
+        maltese = 2 * sum(p in words or p in MALTESE_JOINED or p in MALTESE_SHORT for p, _, _ in cut) >= len(cut)
+        for piece, written, starts in cut:
+            frequency_maltese.AMONG_MALTESE[piece] += maltese
+            frequency_maltese.SEEN_IN[piece] += 1
+            if not starts:
+                frequency_maltese.WRITTEN[piece] += 1
+                frequency_maltese.LOWER[piece] += written == written.lower()
     top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
     return dict(top), label
 
@@ -4828,6 +4843,8 @@ def load_dictionary(language):
     if language == "mt":
         for form_lc, of in maltese_generated_forms(db).items():
             lemmas[form_lc].extend(sorted(l for l in of if is_wordlike(l)))
+        # And the other packs' words, the regular and suffixed forms and the loanwords the pack lacks (frequency_maltese).
+        frequency_maltese.load(pos, lemmas, common, DICTIONARIES, WORD_POS, OVERRIDES.get("mt", {}), EXCLUDE.get("mt", set()))
     if language == "ur":
         frequency_urdu.mend(db, pos, lemmas, common)
     # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
@@ -6014,6 +6031,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         for w in [w for w in freq if not frequency_pashto.LETTERS.fullmatch(w)]:
             del freq[w]
     label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
+    if language == "mt":
+        # And the Maltese words and forms made for the pack (frequency_maltese).
+        frequency_maltese.SEEN = dict(freq)
     if language == "kk":
         # The Kazakh paradigms are made for the forms the counts have (frequency_kazakh).
         frequency_kazakh.SEEN = set(freq)
