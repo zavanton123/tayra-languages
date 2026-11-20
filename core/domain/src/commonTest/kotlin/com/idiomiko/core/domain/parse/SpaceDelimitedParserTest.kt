@@ -108,7 +108,11 @@ class SpaceDelimitedParserTest {
     fun amharicWordsAreCutAtItsWordSpaceAndKeepTheirGeminationMark() {
         val amharic = LanguageDefinitions.all.first { it.name == "Amharic" }.language
         assertEquals("[ልጁ]፡[ቤት]፡[ገባ]። [ሰ፟ማ]፣ [ፚ]!", tokensAsString("ልጁ፡ቤት፡ገባ። ሰ፟ማ፣ ፚ!", amharic))
-        assertEquals(listOf(true, false), parser.parse("ገባ። ቤቱ", amharic).filter { !it.isWord }.map { it.isEndOfSentence })
+        val expected = listOf(
+            Triple("ገባ", true, false), Triple("። ", false, true), Triple("ቤቱ", true, false), Triple("፣ ", false, false),
+            Triple("ገባ", true, false),
+        )
+        assertEquals(expected, tokenTriples("ገባ። ቤቱ፣ ገባ", amharic))
     }
 
     @Test
