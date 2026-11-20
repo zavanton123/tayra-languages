@@ -53,6 +53,7 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.state.CollectEvents
+import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import kotlinx.coroutines.CoroutineScope
@@ -205,8 +206,8 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
     Row(modifier.fillMaxSize()) {
         ScrollColumn(
             // The same gap on either side of the cards, measured to the scrollbar on the right.
-            Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l + BAR_ROOM).fillMaxHeight().testTag("sidebar"),
-            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + BAR_ROOM, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
+            Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l + AppSizes.scrollbarRoom).fillMaxHeight().testTag("sidebar"),
+            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + AppSizes.scrollbarRoom, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             LevelCard(state.journey)
@@ -216,7 +217,7 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
         ScrollColumn(
             Modifier.weight(1f).fillMaxHeight(),
             state = nav.scroll,
-            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + BAR_ROOM, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
+            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + AppSizes.scrollbarRoom, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
             verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
         ) {
             ScreenHeader(tr("Courses"), subtitle = null)
@@ -330,8 +331,6 @@ private fun Results(state: CoursesUiState, actions: CoursesActions, items: @Comp
 
 private val SIDEBAR = 300.dp
 
-/** What a column's scrollbar takes at its right edge on the desktop: the bar and its inset. */
-private val BAR_ROOM = 12.dp
 private val FOUR_COLUMNS = 1000.dp
 private val THREE_COLUMNS = 720.dp
 

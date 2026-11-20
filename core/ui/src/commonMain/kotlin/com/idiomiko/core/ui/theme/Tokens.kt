@@ -172,6 +172,9 @@ object AppSizes {
     val readableWidth = 760.dp
     val contentWidth = 1100.dp
     val pageWidth = 1480.dp
+
+    /** What a column's scrollbar takes at its right edge on the desktop: the bar and its inset. */
+    val scrollbarRoom = 12.dp
 }
 
 /**
