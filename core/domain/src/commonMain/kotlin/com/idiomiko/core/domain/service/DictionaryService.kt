@@ -24,6 +24,7 @@ import com.idiomiko.core.domain.morphology.Morphology
 import com.idiomiko.core.domain.parse.HausaParser
 import com.idiomiko.core.domain.parse.KhmerParser
 import com.idiomiko.core.domain.parse.PersianParser
+import com.idiomiko.core.domain.parse.YorubaParser
 import com.idiomiko.core.domain.repository.DictionaryRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -338,11 +339,15 @@ class DictionaryService(
         _packs.update { list -> list.map { if (it.pack.id == id) it.copy(state = state) else it } }
     }
 
-    /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart, Persian writes ک and ی, Hausa its hooked letters. */
+    /**
+     * Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart, Persian
+     * writes ک and ی, Hausa its hooked letters, Yoruba is in NFC.
+     */
     private fun lowercase(word: String, dictionary: DictionaryId): String = when (dictionary.sourceLanguage) {
         "tr" -> word.replace('I', 'ı').replace('İ', 'i').lowercase()
         "fa" -> PersianParser.fold(word).lowercase()
         "ha" -> HausaParser.fold(word).lowercase()
+        "yo" -> YorubaParser.standard(word.lowercase())
         else -> word.lowercase()
     }
 

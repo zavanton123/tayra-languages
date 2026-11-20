@@ -107,6 +107,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Welsh" to "Gallois",
     "Yiddish" to "Yiddish",
     "Zulu" to "Zoulou",
+    "Yoruba" to "Yoruba",
 
     // App.kt
     "Could not start: {0}" to "Impossible de démarrer : {0}",

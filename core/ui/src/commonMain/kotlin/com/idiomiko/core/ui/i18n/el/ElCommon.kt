@@ -107,6 +107,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Welsh" to "Ουαλικά",
     "Yiddish" to "Γίντις",
     "Zulu" to "Ζουλού",
+    "Yoruba" to "Γιορούμπα",
 
     // App.kt
     "Could not start: {0}" to "Δεν ήταν δυνατή η εκκίνηση: {0}",

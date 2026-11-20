@@ -1,0 +1,18 @@
+name: Yoruba
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Yoruba"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/yo/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=yo&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "Dr.|Prof.|Mr.|Mrs.|Ms.|Rev.|Gov.|Sen."
+word_chars: "a-zA-ZÀ-ÖØ-öø-ȳ\\u1E00-\\u1EFF\\u0300-\\u036F"
+right_to_left: false
+show_romanization: true
+parser_type: yoruba

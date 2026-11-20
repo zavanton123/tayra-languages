@@ -107,6 +107,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Welsh" to "Walijski",
     "Yiddish" to "Jidysz",
     "Zulu" to "Zulu",
+    "Yoruba" to "Joruba",
 
     // App.kt
     "Could not start: {0}" to "Nie udało się uruchomić: {0}",

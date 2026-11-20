@@ -31,6 +31,7 @@ object ParserRegistry {
         "maltese" to MalteseParser(),
         "hausa" to HausaParser(),
         "uzbek" to UzbekParser(),
+        "yoruba" to YorubaParser(),
     )
 
     /** Parser types with their display names. */

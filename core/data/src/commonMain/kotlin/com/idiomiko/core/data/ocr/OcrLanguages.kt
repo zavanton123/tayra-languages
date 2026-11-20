@@ -67,7 +67,7 @@ internal object OcrLanguages {
         "lv" to (OcrScript.LATIN to "lav"), "lt" to (OcrScript.LATIN to "lit"), "mk" to (OcrScript.CYRILLIC to "mkd"),
         "mn" to (OcrScript.CYRILLIC to "mon"), "ms" to (OcrScript.LATIN to "msa"), "mt" to (OcrScript.LATIN to "mlt"), "ne" to (OcrScript.DEVANAGARI to "nep"), "no" to (OcrScript.LATIN to "nor"),
         "ps" to (OcrScript.ARABIC to "pus"), "pl" to (OcrScript.LATIN to "pol"), "pt" to (OcrScript.LATIN to "por"), "pa" to (OcrScript.GURMUKHI to "pan"),
-        "ro" to (OcrScript.LATIN to "ron"), "ru" to (OcrScript.CYRILLIC to "rus"), "ur" to (OcrScript.ARABIC to "urd"), "sr" to (OcrScript.CYRILLIC to "srp+srp_latn"),
+        "ro" to (OcrScript.LATIN to "ron"), "ru" to (OcrScript.CYRILLIC to "rus"), "ur" to (OcrScript.ARABIC to "urd"), "yo" to (OcrScript.LATIN to "yor"), "sr" to (OcrScript.CYRILLIC to "srp+srp_latn"),
         "si" to (OcrScript.SINHALA to "sin"), "sk" to (OcrScript.LATIN to "slk"), "te" to (OcrScript.TELUGU to "tel"), "sl" to (OcrScript.LATIN to "slv"), "es" to (OcrScript.LATIN to "spa"),
         "sw" to (OcrScript.LATIN to "swa"), "sv" to (OcrScript.LATIN to "swe"), "th" to (OcrScript.THAI to "tha"),
         "ta" to (OcrScript.TAMIL to "tam"),
@@ -91,7 +91,7 @@ internal object OcrLanguages {
         "mon" to "Mongolian", "msa" to "Malay", "mlt" to "Maltese", "nep" to "Nepali", "nor" to "Norwegian", "pus" to "Pashto", "pol" to "Polish", "por" to "Portuguese", "pan" to "Punjabi",
         "ron" to "Romanian", "rus" to "Russian", "srp" to "Serbian (Cyrillic)", "srp_latn" to "Serbian (Latin)", "sin" to "Sinhala", "slk" to "Slovak",
         "slv" to "Slovene", "spa" to "Spanish", "swa" to "Swahili", "swe" to "Swedish", "tha" to "Thai", "tam" to "Tamil", "tel" to "Telugu", "bod" to "Tibetan",
-        "tur" to "Turkish", "ukr" to "Ukrainian", "urd" to "Urdu", "uzb" to "Uzbek", "vie" to "Vietnamese", "cym" to "Welsh", "gle" to "Irish", "gla" to "Scottish Gaelic",
+        "tur" to "Turkish", "ukr" to "Ukrainian", "urd" to "Urdu", "uzb" to "Uzbek", "yor" to "Yoruba", "vie" to "Vietnamese", "cym" to "Welsh", "gle" to "Irish", "gla" to "Scottish Gaelic",
         "fil" to "Filipino", "syr" to "Syriac", "chi_sim" to "Chinese (simplified)", "chi_tra" to "Chinese (traditional)",
     )
 }

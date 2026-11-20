@@ -627,6 +627,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun yoruba() = LanguageDefinition(
+        language = Language(
+            name = "Yoruba",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Yoruba", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/yo/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=yo&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Dr.|Prof.|Mr.|Mrs.|Ms.|Rev.|Gov.|Sen.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳ\\u1E00-\\u1EFF\\u0300-\\u036F",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "yoruba",
+        ),
+    )
+
     private fun zulu() = LanguageDefinition(
         language = Language(
             name = "Zulu",
@@ -681,6 +699,7 @@ object AddedLanguages {
             uzbek(),
             welsh(),
             yiddish(),
+            yoruba(),
             zulu(),
         )
     }

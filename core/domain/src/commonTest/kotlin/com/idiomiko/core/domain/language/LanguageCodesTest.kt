@@ -129,4 +129,12 @@ class LanguageCodesTest {
         assertNotNull(Tutorials.forLanguage("Uzbek"))
         assertEquals("uzbek", LanguageDefinitions.all.first { it.name == "Uzbek" }.language.parserType)
     }
+
+    @Test
+    fun yorubaIsALanguageWithItsTutorial() {
+        assertEquals("yo", LanguageCodes.codeFor("Yoruba"))
+        assertEquals("yor", LanguageCodes.tatoebaCode("yo"))
+        assertNotNull(Tutorials.forLanguage("Yoruba"))
+        assertEquals("yoruba", LanguageDefinitions.all.first { it.name == "Yoruba" }.language.parserType)
+    }
 }

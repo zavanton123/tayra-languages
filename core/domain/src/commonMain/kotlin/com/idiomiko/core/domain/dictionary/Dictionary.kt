@@ -173,7 +173,7 @@ object DictionaryPacks {
         "ro" to "Romanian", "ru" to "Russian", "gd" to "Scottish Gaelic", "sr" to "Serbian", "si" to "Sinhala",
         "sk" to "Slovak", "sl" to "Slovene", "so" to "Somali", "es" to "Spanish", "sw" to "Swahili", "sv" to "Swedish", "tl" to "Tagalog", "ta" to "Tamil", "te" to "Telugu",
         "th" to "Thai", "tok" to "Toki Pona", "tr" to "Turkish", "uk" to "Ukrainian", "ur" to "Urdu", "uz" to "Uzbek", "vi" to "Vietnamese",
-        "cy" to "Welsh", "yi" to "Yiddish", "zu" to "Zulu", "names" to "Names",
+        "cy" to "Welsh", "yi" to "Yiddish", "yo" to "Yoruba", "zu" to "Zulu", "names" to "Names",
     )
 
     /** The sources of the editions, by their names in the packs' ids. */

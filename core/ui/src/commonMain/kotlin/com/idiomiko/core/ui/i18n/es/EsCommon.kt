@@ -107,6 +107,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Welsh" to "Galés",
     "Yiddish" to "Ídish",
     "Zulu" to "Zulú",
+    "Yoruba" to "Yoruba",
 
     // App.kt
     "Could not start: {0}" to "No se pudo iniciar: {0}",
