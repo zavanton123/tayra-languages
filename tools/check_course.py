@@ -34,6 +34,7 @@ import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
 import frequency_hausa  # noqa: E402
 import frequency_zulu  # noqa: E402
+import frequency_amharic  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
@@ -787,6 +788,10 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return SINHALA_WORD.findall(text.replace("\u200c", ""))
     if code == "mr":
         return MARATHI_WORD.findall(text)
+    # Amharic words as the reader cuts them (its wordCharacters and exceptionsSplitSentences in AddedLanguages.kt): runs
+    # of Ethiopic letters, cut at the word space ፡ and the other Ethiopic marks; one written in Ethiopic digits is a number.
+    if code == "am":
+        return [w for w in frequency_amharic.reader_words(text) if not frequency_amharic.DIGIT.search(w)]
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -2760,6 +2765,7 @@ QUESTION_HEADERS = {
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
         "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:",
+        "ጥያቄዎች፦", "ጥያቄዎች:",
     )
 }
 
@@ -3350,6 +3356,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Tambayoyi:", "", text)
         if code == "zu":
             text = re.sub(r"(?m)^Imibuzo:", "", text)
+        if code == "am":
+            text = re.sub(r"(?m)^ጥያቄዎች[፦:]", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3484,6 +3492,12 @@ def check(path, brief=False):
             lowered = [w if w in ranks or w in names else
                        frequency_zulu.checker_word(w, ranks, i < len(toks) and any(c.isupper() for c in toks[i][1:])) or w
                        for i, w in enumerate(lowered)]
+        # Amharic writes its prepositions and endings onto a word (ለልጆቻችን, የሚሰብሩት, የሳራ) and some letters two ways (ሰ ሠ,
+        # ሀ ሐ ኀ): a name with them is a name, and a word the list lacks is read by the rules the list was built with
+        # (frequency_amharic).
+        if code == "am":
+            lowered = [w if w in ranks or w in names else "\u0000name" if frequency_amharic.checker_name(w, names)
+                       else frequency_amharic.checker_word(w, ranks) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0

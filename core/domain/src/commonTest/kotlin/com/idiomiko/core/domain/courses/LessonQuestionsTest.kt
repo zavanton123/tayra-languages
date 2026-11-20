@@ -32,12 +32,20 @@ class LessonQuestionsTest {
         val headers = listOf(
             "Questions :", "Հարցեր․", "پرسش‌ها:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "问题：", "Ἐρωτήσεις:", "Pyetje:",
             "פֿראַגעס:", "Асуултууд:", "ຄຳຖາມ:", "Jautājumi:", "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:",
-            "Пытанні:", "Mistoqsijiet:", "Soalan:", "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:", "प्रश्नहरू:", "Tambayoyi:", "Imibuzo:",
+            "Пытанні:", "Mistoqsijiet:", "Soalan:", "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:", "प्रश्नहरू:", "Tambayoyi:", "Imibuzo:", "ጥያቄዎች፦",
             "پوښتنې:",
+            "ጥያቄዎች:",
         )
         for (header in headers) {
             assertEquals(1, LessonQuestions.split("Story.\n\n$header\nQ?\nA.")?.questions?.size, header)
         }
+    }
+
+    @Test
+    fun theAmharicHeaderIsFound() {
+        val split = LessonQuestions.split("ሳራ በአዲስ አበባ ትኖራለች።\n\nጥያቄዎች፦\nሳራ የት ትኖራለች?\nሳራ በአዲስ አበባ ትኖራለች።")
+        assertEquals("ሳራ በአዲስ አበባ ትኖራለች።", split?.text)
+        assertEquals(listOf(LessonQuestion("ሳራ የት ትኖራለች?", "ሳራ በአዲስ አበባ ትኖራለች።")), split?.questions)
     }
 
     @Test

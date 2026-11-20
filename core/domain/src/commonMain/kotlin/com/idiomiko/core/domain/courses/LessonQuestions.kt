@@ -25,6 +25,7 @@ object LessonQuestions {
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
         "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200Dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:",
+        "ጥያቄዎች፦", "ጥያቄዎች:",
     ).mapTo(HashSet()) { normalized(it) }
 
     /**
