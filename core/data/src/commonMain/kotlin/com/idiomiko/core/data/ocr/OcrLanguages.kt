@@ -76,7 +76,7 @@ internal object OcrLanguages {
         "gd" to (OcrScript.LATIN to "gla"), "tl" to (OcrScript.LATIN to "fil"), "aii" to (OcrScript.SYRIAC to "syr"),
         "gv" to (OcrScript.LATIN to "script/Latin"), "kw" to (OcrScript.LATIN to "script/Latin"), "haw" to (OcrScript.LATIN to "script/Latin"), "ha" to (OcrScript.LATIN to "script/Latin"),
         "sga" to (OcrScript.LATIN to "script/Latin"), "tok" to (OcrScript.LATIN to "script/Latin"), "nah" to (OcrScript.LATIN to "script/Latin"),
-        "nv" to (OcrScript.LATIN to "script/Latin"),
+        "nv" to (OcrScript.LATIN to "script/Latin"), "so" to (OcrScript.LATIN to "script/Latin"),
     )
 
     private val TITLES: Map<String, String> = mapOf(
