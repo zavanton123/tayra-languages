@@ -85,15 +85,21 @@ def plural(word):
     return word + "கள்"
 
 
+def short_oblique(word):
+    """A noun in -அம் has a short oblique before -இன் and -இல் too (உலகின், உலகில்), but for one in -யம் (நிலையில் is
+    நிலை's)."""
+    if word.endswith("ம்") and len(word) > 4 and word[-3] not in "யவ":
+        return {join(word[:-2] + VIRAMA, t) for t in ("இன்", "இல்", "இலும்", "இலே", "இலிருந்து")}
+    return set()
+
+
 @functools.lru_cache(maxsize=None)
 def nominal_forms(word):
     """A noun's (or number's, pronoun's) cases, plural and clitics by rule."""
     forms = set()
     for stem in oblique(word) | {plural(word)}:
         forms |= {join(stem, t) for t in OBLIQUE_TAILS}
-    # A noun in -அம் has a short oblique before -இன் and -இல் too (உலகின், உலகில்), but for one in -யம் (நிலையில் is நிலை's).
-    if word.endswith("ம்") and len(word) > 4 and word[-3] not in "யவ":
-        forms |= {join(word[:-2] + VIRAMA, t) for t in ("இன்", "இல்", "இலும்", "இலே", "இலிருந்து")}
+    forms |= short_oblique(word)
     forms.add(plural(word))
     forms |= {join(word, t) for t in BARE_TAILS}
     # A short syllable's doubled consonant takes the clitics too (பெண்ணும், கண்ணே).
@@ -317,16 +323,42 @@ TAMIL_FORMS = {
     "தனது": "தான்", "தமது": "தாம்", "எமது": "யாம்", "எம்": "யாம்", "எம்மை": "யாம்", "எமக்கு": "யாம்", "அவரது": "அவர்",
     "அவனது": "அவன்", "அவளது": "அவள்", "அவர்களது": "அவர்கள்", "இவரது": "இவர்", "இவனது": "இவன்", "இவளது": "இவள்",
     "இவர்களது": "இவர்கள்", "இதனை": "இது", "அதனை": "அது", "எதனை": "எது", "இதனையும்": "இது", "அதனையும்": "அது",
+    # Accusatives spelled as a rarer noun of the pack, which the corpus has for the accusative (கடலை "the sea", not "peanut";
+    # பாலை "the milk", not "desert").
+    "கடலை": "கடல்", "பாலை": "பால்", "அளவை": "அளவு", "இருப்பை": "இருப்பு", "ஆண்டை": "ஆண்டு", "மயிலை": "மயில்",
+    "சொத்தை": "சொத்து", "வாலை": "வால்", "வாளை": "வாள்", "நஞ்சை": "நஞ்சு", "இரண்டை": "இரண்டு", "தேளை": "தேள்",
+    "அலகை": "அலகு", "அவரை": "அவர்",
+    # கடத்து's verbal noun "smuggling, kidnapping" in the news, rather than கட's "crossing".
+    "கடத்தல்": "கடத்து",
 }
 for _word, _forms in {
     "உள்": "உள்ளது உள்ள உள்ளனர் உள்ளன உள்ளார் உள்ளேன் உள்ளோம் உள்ளாய் உள்ளீர்கள் உள்ளார்கள் உள்ளான் உள்ளாள் உள்ளதாக உள்ளதால் உள்ளதை "
            "உள்ளவர் உள்ளவர்கள் உள்ளதும் உள்ளவை உள்ளவற்றை",
 }.items():
     TAMIL_FORMS.update({_form: _word for _form in _forms.split()})
+# The pronouns' oblique stems, which the pack has as pronouns of their own ("your", "my own"): they and their cases are the
+# pronoun's forms (உங்களுக்கு of நீங்கள், தன்னை of தான்), as என்'s "my" is நான்'s.
+PRONOUN_STEMS = {"உங்கள்": "நீங்கள்", "உன்": "நீ", "நம்": "நாம்", "நம்மள்": "நாம்", "எங்கள்": "நாங்கள்", "தன்": "தான்",
+                 "தம்": "தாம்", "தங்கள்": "தாங்கள்", "என்": "நான்"}
+STEMS_OF = defaultdict(set)
+for _stem, _pronoun in PRONOUN_STEMS.items():
+    STEMS_OF[_pronoun].add(_stem)
+    if _stem != "என்":
+        TAMIL_FORMS[_stem] = _pronoun
+# Polite nouns in -அர் the pack has beside their -அன் noun as words of their own: they are its polite form (word_forms), and
+# the two are listed as one under the commoner spelling.
+POLITE_OF = {"மனிதர்": "மனிதன்", "தமிழர்": "தமிழன்", "அமைச்சர்": "அமைச்சன்", "ஒருவர்": "ஒருவன்", "கவிஞர்": "கவிஞன்",
+             "புலவர்": "புலவன்", "ஆண்டவர்": "ஆண்டவன்", "உழவர்": "உழவன்", "கள்ளர்": "கள்ளன்", "தேவதூதர்": "தேவதூதன்",
+             "ஆயர்": "ஆயன்"}
+# "Everyone", which the pack has with its clitic -உம் written on beside the hand-made word: that word's form.
+TAMIL_FORMS.update({"அனைவரும்": "அனைவர்", "எல்லோரும்": "எல்லோர்"})
+# Pack words that are another's form, with their table: the polite nouns, and the forms above that are pack words.
+MERGED = {**POLITE_OF, "அனைவரும்": "அனைவர்", "எல்லோரும்": "எல்லோர்"}
 # Kinds the pack gives a word that its forms would be wrongly made by: நீ "you" as a verb (நீக்க is நீக்கு's).
 DROPPED_KINDS = {("நீ", "verb"), ("உள்", "verb")}
 # Pack links that are wrong (ஒரு is its own word, not ஒன்று's form), as (form, lemma).
-WRONG_LINKS = {("ஒரு", "ஒன்று"), ("ஆம்", "ஆ"), ("ஆ", "ஆம்"), ("பல்", "பல"), ("மா", "அம்மா")}
+WRONG_LINKS = {("ஒரு", "ஒன்று"), ("ஆம்", "ஆ"), ("ஆ", "ஆம்"), ("பல்", "பல"), ("மா", "அம்மா"), ("கட", "கடை"),
+               ("நம்ப", "நம்மள்"), ("நம்ப", "நம்")}
 # Words whose tables are another's again (the literary யான் "I" declines as நான்): their forms are that word's.
 TABLELESS = {"யான்"}
 SINGULARS = {"அவன்": "அவர்கள்", "அவள்": "அவர்கள்", "அவர்": "அவர்கள்", "இவன்": "இவர்கள்", "இவள்": "இவர்கள்", "இவர்": "இவர்கள்"}
@@ -337,13 +369,13 @@ KEEP = {"என்று", "என", "என்ற", "என்பது", "எ�
         "கூட", "போது", "மூலம்", "வரை", "பிறகு", "பின்னர்", "மீது", "உடன்", "அதனால்", "இல்லாமல்", "கூடாது", "வேண்டும்",
         "வேண்டாம்", "உண்டு", "சென்ற", "அருகில்", "முதலில்", "சுற்றி", "நோக்கி", "தவிர", "உள்ளே", "வெளியே", "கீழே", "மேலே",
         "முன்பு", "பின்பு", "இல்லை", "போல", "போன்ற", "மட்டும்", "எனவே", "எனினும்", "மேலும்", "அதாவது", "திரும்ப", "இனி",
-        "ஓர்",
+        "ஓர்", "முனைவர்",
         # The pronouns, which the pack's tables give as one another's forms (நாம் of நான், அவர்கள் of அவர்).
         "நான்", "நாம்", "நாங்கள்", "நீ", "நீங்கள்", "அவன்", "அவள்", "அவர்", "அவர்கள்", "இவன்", "இவள்", "இவர்", "இவர்கள்",
         "அது", "இது", "அவை", "இவை", "தான்", "தாம்", "தாங்கள்", "யார்", "எது", "எவை"}
 # Pack words the list leaves out: letters, case endings written apart after a number or a Latin word (2020-இல்), and
 # abbreviations.
-NOT_WORDS = {"பா", "கோ", "ரா", "கோவை", "கள்", "ஆல்", "இன்", "உம்", "எல்", "அல்", "ஆன்", "அம்", "மு", "ரூ", "அ", "இ", "உ", "எ", "ஒ", "க", "ச", "த", "ப", "ம", "ந", "வ", "இல்", "ஐ", "ஆம்ப", "கி", "மீ", "செ", "டி", "எஸ்", "பி", "ஜி",
+NOT_WORDS = {"இலங்கு", "உன்னு", "பா", "கோ", "ரா", "கோவை", "கள்", "ஆல்", "இன்", "உம்", "எல்", "அல்", "ஆன்", "அம்", "மு", "ரூ", "அ", "இ", "உ", "எ", "ஒ", "க", "ச", "த", "ப", "ம", "ந", "வ", "இல்", "ஐ", "ஆம்ப", "கி", "மீ", "செ", "டி", "எஸ்", "பி", "ஜி",
              "எம்", "கே", "சி", "ஏ", "ஆர்"}
 
 
@@ -356,6 +388,7 @@ def lexicon(dictionaries):
     db = sqlite3.connect(os.path.join(dictionaries, "ta-en.sqlite"))
     kinds = defaultdict(set)
     names = set()
+    living = defaultdict(set)
     for word, pos, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
         word = unicodedata.normalize("NFC", word)
         if not TAMIL_LETTERS.fullmatch(word):
@@ -365,8 +398,17 @@ def lexicon(dictionaries):
             pos = "noun"
         if pos == "name":
             names.add(word)
-        elif pos in WORD_KINDS and word not in NOT_WORDS and (word, pos) not in DROPPED_KINDS:
+        elif (pos in WORD_KINDS and word not in NOT_WORDS and word not in MERGED and (word, pos) not in DROPPED_KINDS
+              and not (pos == "pron" and word in PRONOUN_STEMS)):
             kinds[word].add(pos)
+            if not all(set(s.get("tags", ())) & {"obsolete", "archaic"} for s in json.loads(senses) or [{}]):
+                living[word].add(pos)
+    # A kind whose every sense is obsolete makes no forms beside a living one (தலை "head", not the verb "to be exalted" whose
+    # தலைவர் would be "they will be exalted").
+    for word, alive in living.items():
+        kinds[word] &= alive
+    for word in [w for w, ks in kinds.items() if not ks]:
+        del kinds[word]
     for word, (kind, _) in TAMIL_WORDS.items():
         # A polite noun in -அர் is the pack's -அன் noun's form (word_forms), when the pack has that.
         if not (word.endswith("ர்") and "noun" in kinds.get(word[:-2] + "ன்", ())):
@@ -374,6 +416,9 @@ def lexicon(dictionaries):
     table = defaultdict(set)
     for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
         form, lemma = unicodedata.normalize("NFC", form), unicodedata.normalize("NFC", lemma)
+        if lemma in PRONOUN_STEMS and lemma not in kinds and (form, lemma) not in WRONG_LINKS:
+            lemma = PRONOUN_STEMS[lemma]
+        lemma = MERGED.get(lemma, lemma)
         if lemma not in kinds or form == lemma or (form, lemma) in WRONG_LINKS or not TAMIL_LETTERS.fullmatch(form):
             continue
         # A singular pronoun's table gives the plural's forms too (அவர்களை under அவன்): they are the plural's.
@@ -416,8 +461,13 @@ def word_forms(word, ks, table_of, helpers):
     forms = set(table_of.get(word, ()))
     if word in TAMIL_WORDS:
         forms |= set(TAMIL_WORDS[word][1].split())
+    for stem in STEMS_OF.get(word, ()):
+        forms |= {stem} | nominal_forms(stem)
     if ks & NOMINAL or "adj" in ks and word[-1] == VIRAMA:
         forms |= nominal_forms(word)
+        # A pronoun's plural is a pronoun of its own (அவர்கள், நாங்கள்), with its own cases.
+        if "pron" in ks:
+            forms = {f for f in forms if not f.startswith(plural(word)[:-1])}
         # A noun of a person in -அன் has its polite form in -அர் (மாணவன் மாணவர், தலைவன் தலைவர்).
         polite = word[:-2] + "ர்"
         if "noun" in ks and word.endswith("ன்") and len(word) > 3 and word[-3] in CONSONANTS and polite not in polite_known:
@@ -465,6 +515,17 @@ def build(found, size, label, weights=None):
             for form in (verb_forms(word, frozenset(table_of.get(word, ())), helpers) if "verb" in ks else set()) | table_of.get(word, set()):
                 if form in needed:
                     verbal[form].add(word)
+    # The short oblique is no reading of a form another word makes (காலில் is கால்'s, வழக்கில் வழக்கு's), nor of a name's case
+    # (மோகனின், கமலின்): not when the bare stem is a word or a name, or is as common as the noun, or the noun is rare beside it.
+    for word, ks in kinds.items():
+        if not ks & NOMINAL:
+            continue
+        stem = word[:-2] + VIRAMA
+        for form in (short_oblique(word) & needed) - table_of.get(word, set()):
+            if word in made.get(form, ()) and (len(made[form]) > 1 or stem in kinds or stem in names
+                                               or counts.get(stem, 0.0) >= counts.get(word, 0.0)
+                                               or counts.get(word, 0.0) < counts.get(form, 0.0) / 10):
+                made[form].discard(word)
     # A name's spellings and case forms are no words (இலங்கை, மதுரையில்), unless a table has them as a word's form.
     name_forms = set()
     for name in names:
@@ -502,11 +563,17 @@ def build(found, size, label, weights=None):
         own, others = direct[form] if form in direct else plain_heads(form)
         share = counts.get(form, 0.0)
         # A noun of its own whose plural and cases the corpus has too keeps its count (பாடல் "song", not பாடு's "singing";
-        # கட்டிடம் "building", not கட்டு's).
-        if own and others and (max(alone.get(o, 0.0) for o in others) <= share
+        # கட்டிடம் "building", not கட்டு's), and so does a word commoner by its own forms than the others (நட "walk", not
+        # நடு's infinitive "to plant").
+        if own and others and (max(alone.get(o, 0.0) for o in others) <= max(share, alone.get(own, 0.0))
                                or "noun" in kinds[own] and alone.get(own, 0.0) >= share / 10):
             return frozenset({own})
         if own or others:
+            # A word that keeps its count keeps its forms with a clitic or a doubled consonant too (நிறையப், நிறையவும் of
+            # நிறைய, not நிறை's infinitive).
+            for base in sorted(bases(form)) if not own else ():
+                if base in kinds and base not in others and made.get(base, set()) & others and decide(base) == {base}:
+                    return frozenset({base})
             return frozenset(others or {own})
         heads = set()
         for base in sorted(bases(form)):
@@ -600,6 +667,8 @@ def checker_word(token, words, ranks, names=frozenset()):
     found = []
     for candidate in candidates:
         for key in index.get(candidate[:2], ()):
-            if candidate in _rule_forms(key):
+            # A short oblique the list gives the noun none of was no reading of the list's either (மோகனின், கமலின்).
+            if candidate in _rule_forms(key) and not (candidate in short_oblique(key)
+                                                      and not short_oblique(key) & set(words[key][2])):
                 found.append((words[key][0], key))
     return min(found)[1] if found else None
