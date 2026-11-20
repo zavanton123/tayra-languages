@@ -195,7 +195,7 @@ _BY_HAND = {
     "ඉන්නවා": "ඉන්න ඉන්නේ ඉන්නවද ඉන්නවාද හිටියා හිටිය හිටියේ හිටපු ඉඳලා ඉඳල ඉඳන් ඉද්දී ඉන්නකොට හිටියත් හිටියොත් ඉන්නම් "
               "ඉන්නත් ඉන්නව ඉන්නෙ හිටියෙ ඉඳිද්දී ඉදල ඉඳලම",
     "සිටිනවා": "සිටින සිටින්නේ සිටියි සිටී සිටිති සිටිමු සිටිමින් සිටියා සිටිය සිටියේ සිටියේය සිටියාය සිටි සිටීම සිටීමට "
-               "සිටිද්දී සිටියහ සිටියෝය සිටින්න සිටින්නට සිටියදී සිටිය යුතු",
+               "සිටිද්දී සිටියහ සිටියෝය සිටින්න සිටින්නට සිටියදී",
     "තිබෙනවා": "තිබෙන තිබෙන්නේ තිබේ තිබෙයි තිබෙති තිබූ තිබූයේ තිබුණි තිබිණ තිබිණි තිබී තිබීම තිබීමට තිබීමේ තිබෙනු තිබේද "
                "තිබුණා තිබුණ තිබුණේ තිබුණු තිබුණත් තිබුණොත් තිබිලා තියෙනවා තියෙන තියෙන්න තියෙන්නේ තියෙනවද තියෙනවාද තියෙනව "
                "තියනවා තියන තියෙන්නෙ තිබ්බා තිබුණෙ තිබෙන්න තිබෙන්නට තිබිය තිබියදී",
@@ -468,9 +468,10 @@ def lexicon(dictionaries):
             own[word].add(pos)
     for word, kind in SINHALA_WORDS.items():
         own[word].add(kind)
-    for form in SINHALA_FORMS:
-        own.pop(form, None)
-        weak.discard(form)
+    for form, word in SINHALA_FORMS.items():
+        if form != word:
+            own.pop(form, None)
+            weak.discard(form)
     return own, weak - set(own) - set(NOT_WORDS), names - set(own)
 
 
@@ -646,3 +647,22 @@ def build(size, download, dictionaries=None):
             listed = [word] + listed[:FORMS_LISTED - 1]
         lines.append(word + "\t" + " ".join(listed))
     return "\n".join(lines) + "\n", label
+
+
+def checker_word(word, ranks):
+    """
+    The listed form [word] is with a clitic written on that the list lacks with it (ගෙදරත් of ගෙදර, පොතෙනුත් of පොතෙන්,
+    පොතකි of පොතක්), or None (check_course).
+    """
+    candidates = []
+    if word.endswith("ුත්"):
+        candidates.append(word[:-3] + AL_LAKUNA)
+    if word.endswith("ත්"):
+        candidates.append(word[:-2])
+    if word.endswith(("ද", "ම")):
+        candidates.append(word[:-1])
+    if word.endswith("යි"):
+        candidates.append(word[:-2])
+    if word.endswith("කි"):
+        candidates.append(word[:-1] + AL_LAKUNA)
+    return next((c for c in candidates if letters(c) >= 2 and c in ranks), None)
