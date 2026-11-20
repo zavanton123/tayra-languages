@@ -210,7 +210,14 @@ internal class BooksCallbacks(
     val onDownloadBooks: () -> Unit = {},
     /** Opens the free books of online libraries. */
     val onFindBooks: () -> Unit = {},
-)
+) {
+    /** Back to every book: no search, no status, no tags. */
+    fun clearFilters() {
+        onSearch("")
+        onProgress(ProgressFilter.ALL)
+        onTags(emptySet(), false)
+    }
+}
 
 /** The page below the top bar: the title, the book being read, the toolbar, and the books as a table or a grid. */
 @Composable
@@ -255,7 +262,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         if (showChecks) item { BooksSelectionBar(state, callbacks, onDone = { selecting = false; callbacks.onSelectAll(false) }) }
         item {
             when {
-                books.isEmpty() -> NoBooks(state.archived, callbacks.onNewBook)
+                books.isEmpty() -> NoBooks(state.archived, callbacks.onNewBook, onClearFilters = callbacks::clearFilters, onBackToBooks = callbacks.onBackToBooks)
                 wide && state.view == BooksView.LIST -> BookTable(state, books, showChecks, callbacks, onSelect)
                 else -> Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                     BookGrid(books, state.selected, showChecks, callbacks)
@@ -529,21 +536,55 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
 
 /**
  * The archive with nothing in it: the mascot at an empty box beside what archiving does, the way back to the
- * library, and how archiving works. Side by side on a wide window, the picture above on a narrow one.
+ * library, and how archiving works.
  */
 @Composable
 internal fun EmptyArchive(onBackToBooks: () -> Unit) {
     var explaining by remember { mutableStateOf(false) }
+    ArchiveEmptyCard(
+        title = tr("No archived books yet"),
+        message = tr("When you archive a book, it will appear here. You can restore it to your library whenever you're ready."),
+        action = tr("Back to my books") to onBackToBooks,
+        link = tr("How archiving works") to { explaining = true },
+        tags = "archive-back" to "archive-how",
+    )
+    if (explaining) {
+        AppDialog(
+            onDismissRequest = { explaining = false },
+            confirmButton = { QuietButton(tr("Got it"), onClick = { explaining = false }) },
+            title = { Text(tr("How archiving works")) },
+            text = {
+                Text(tr("Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive."))
+            },
+            modifier = Modifier.testTag("archive-how-dialog"),
+        )
+    }
+}
+
+/** The archive holds books, but none match the search or filters: the way to see them all, or back to the library. */
+@Composable
+internal fun NoArchivedMatches(onClearFilters: () -> Unit, onBackToBooks: () -> Unit) {
+    ArchiveEmptyCard(
+        title = tr("No archived books match"),
+        message = tr("None of your archived books match this search or these filters. Clear them to see all your archived books."),
+        action = tr("Clear filters") to onClearFilters,
+        link = tr("Back to my books") to onBackToBooks,
+        tags = "archive-clear" to "archive-back",
+    )
+}
+
+/**
+ * The archive's empty card: the mascot at an empty box beside a title, a line, one button and one link. Side by
+ * side on a wide window, the picture above on a narrow one. [tags] name the button and the link for tests.
+ */
+@Composable
+private fun ArchiveEmptyCard(title: String, message: String, action: Pair<String, () -> Unit>, link: Pair<String, () -> Unit>, tags: Pair<String, String>) {
     val wide = !LocalWindowWidth.current.isCompact
     val words = @Composable {
-        Text(tr("No archived books yet"), style = AppText.pageTitle)
-        Text(
-            tr("When you archive a book, it will appear here. You can restore it to your library whenever you're ready."),
-            style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-        PrimaryButton(tr("Back to my books"), onClick = onBackToBooks, modifier = Modifier.padding(top = AppSpacing.s).testTag("archive-back"))
-        LinkText(tr("How archiving works"), onClick = { explaining = true }, modifier = Modifier.testTag("archive-how"))
+        Text(title, style = AppText.pageTitle)
+        Text(message, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        PrimaryButton(action.first, onClick = action.second, modifier = Modifier.padding(top = AppSpacing.s).testTag(tags.first))
+        LinkText(link.first, onClick = link.second, modifier = Modifier.testTag(tags.second))
     }
     val card = Modifier.fillMaxWidth().widthIn(max = EMPTY_ARCHIVE_MAX).cardSurface(AppShapes.large).padding(AppSpacing.xxxl).testTag("empty-archive")
     Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.TopCenter) {
@@ -559,17 +600,6 @@ internal fun EmptyArchive(onBackToBooks: () -> Unit) {
             }
         }
     }
-    if (explaining) {
-        AppDialog(
-            onDismissRequest = { explaining = false },
-            confirmButton = { QuietButton(tr("Got it"), onClick = { explaining = false }) },
-            title = { Text(tr("How archiving works")) },
-            text = {
-                Text(tr("Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive."))
-            },
-            modifier = Modifier.testTag("archive-how-dialog"),
-        )
-    }
 }
 
 private val EMPTY_ARCHIVE_MAX = 1040.dp
@@ -581,9 +611,16 @@ private const val ARCHIVE_PICTURE_RATIO = 1.5f
  * book in the continue card above: the library holds nothing else, so the way on is another book.
  */
 @Composable
-internal fun NoBooks(archived: Boolean, onNewBook: () -> Unit, onlyContinued: Boolean = false, onFindBooks: () -> Unit = {}) {
+internal fun NoBooks(
+    archived: Boolean,
+    onNewBook: () -> Unit,
+    onlyContinued: Boolean = false,
+    onFindBooks: () -> Unit = {},
+    onClearFilters: () -> Unit = {},
+    onBackToBooks: () -> Unit = {},
+) {
     when {
-        archived -> EmptyState(AppIcons.Book, tr("No archived books."))
+        archived -> NoArchivedMatches(onClearFilters, onBackToBooks)
         onlyContinued -> EmptyState(AppIcons.Book, tr("No other books yet"), action = { QuietButton(tr("Find books"), onClick = onFindBooks) })
         else -> EmptyState(AppIcons.Book, tr("No books match these filters."), action = { QuietButton(tr("Create a book"), onClick = onNewBook) })
     }

@@ -133,6 +133,19 @@ class BooksTableTest {
     }
 
     @Test
+    fun anArchiveWithNoMatchesClearsItsFilters() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        // The one book is under way, so none is waiting to be started.
+        page(library = books.take(1), archived = true)
+        onNodeWithTag("progress-NOT_STARTED").performClick()
+        waitForIdle()
+        onNodeWithText("No archived books match").assertExists()
+        shot("archive-no-match")
+        onNodeWithTag("archive-clear").performClick()
+        waitForIdle()
+        assertEquals(0, onAllNodesWithTag("archive-clear").fetchSemanticsNodes().size)
+    }
+
+    @Test
     fun anEmptyArchiveOnAPhoneAndInTheDark() = runDesktopComposeUiTest(width = 400, height = 860) {
         page(library = emptyList(), archived = true, phone = true, theme = AppThemes.night)
         onNodeWithTag("empty-archive").assertIsDisplayed()

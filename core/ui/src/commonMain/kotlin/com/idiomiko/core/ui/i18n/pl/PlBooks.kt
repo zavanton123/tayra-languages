@@ -59,7 +59,6 @@ internal val plBooks: Map<String, String> = mapOf(
     "Read" to "Czytaj",
     "Edit" to "Edytuj",
     "Bookmarks" to "Zakładki",
-    "No archived books." to "Brak zarchiwizowanych książek.",
     "No books match these filters." to "Żadna książka nie pasuje do tych filtrów.",
     "No other books yet" to "Nie masz jeszcze innych książek",
     "Create a book" to "Utwórz książkę",
@@ -240,4 +239,6 @@ internal val plBooks: Map<String, String> = mapOf(
     "How archiving works" to "Jak działa archiwum",
     "Got it" to "Rozumiem",
     "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Zarchiwizuj książkę z jej menu ⋮, aby usunąć ją z biblioteki bez kasowania. Jej strony, twój postęp i zapisane z niej słowa zostają. Aby znów ją czytać, otwórz Zarchiwizowane książki i wybierz Przywróć z archiwum.",
+    "No archived books match" to "Żadna zarchiwizowana książka nie pasuje",
+    "None of your archived books match this search or these filters. Clear them to see all your archived books." to "Żadna z twoich zarchiwizowanych książek nie pasuje do tego wyszukiwania ani filtrów. Wyczyść je, aby zobaczyć wszystkie zarchiwizowane książki.",
 )

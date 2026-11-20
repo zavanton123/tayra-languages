@@ -59,7 +59,6 @@ internal val elBooks: Map<String, String> = mapOf(
     "Read" to "Ανάγνωση",
     "Edit" to "Επεξεργασία",
     "Bookmarks" to "Σελιδοδείκτες",
-    "No archived books." to "Δεν υπάρχουν αρχειοθετημένα βιβλία.",
     "No books match these filters." to "Κανένα βιβλίο δεν ταιριάζει με αυτά τα φίλτρα.",
     "No other books yet" to "Δεν υπάρχουν ακόμη άλλα βιβλία",
     "Create a book" to "Δημιουργία βιβλίου",
@@ -240,4 +239,6 @@ internal val elBooks: Map<String, String> = mapOf(
     "How archiving works" to "Πώς λειτουργεί η αρχειοθέτηση",
     "Got it" to "Εντάξει",
     "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Αρχειοθέτησε ένα βιβλίο από το μενού ⋮ του για να το βγάλεις από τη βιβλιοθήκη σου χωρίς να το διαγράψεις. Οι σελίδες του, η πρόοδός σου και οι λέξεις που αποθήκευσες από αυτό μένουν. Για να το ξαναδιαβάσεις, άνοιξε τα Αρχειοθετημένα βιβλία και διάλεξε Επαναφορά από το αρχείο.",
+    "No archived books match" to "Κανένα αρχειοθετημένο βιβλίο δεν ταιριάζει",
+    "None of your archived books match this search or these filters. Clear them to see all your archived books." to "Κανένα από τα αρχειοθετημένα βιβλία σου δεν ταιριάζει με αυτή την αναζήτηση ή τα φίλτρα. Καθάρισέ τα για να δεις όλα τα αρχειοθετημένα βιβλία σου.",
 )

@@ -59,7 +59,6 @@ internal val deBooks: Map<String, String> = mapOf(
     "Read" to "Lesen",
     "Edit" to "Bearbeiten",
     "Bookmarks" to "Lesezeichen",
-    "No archived books." to "Keine archivierten Bücher.",
     "No books match these filters." to "Keine Bücher passen zu diesen Filtern.",
     "No other books yet" to "Noch keine anderen Bücher",
     "Create a book" to "Buch erstellen",
@@ -240,4 +239,6 @@ internal val deBooks: Map<String, String> = mapOf(
     "How archiving works" to "So funktioniert das Archiv",
     "Got it" to "Verstanden",
     "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Archiviere ein Buch über sein ⋮-Menü, um es aus deiner Bibliothek zu nehmen, ohne es zu löschen. Seine Seiten, dein Fortschritt und die daraus gespeicherten Wörter bleiben erhalten. Um es wieder zu lesen, öffne „Archivierte Bücher“ und wähle „Aus dem Archiv holen“.",
+    "No archived books match" to "Keine archivierten Bücher passen",
+    "None of your archived books match this search or these filters. Clear them to see all your archived books." to "Keines deiner archivierten Bücher passt zu dieser Suche oder diesen Filtern. Setze sie zurück, um alle archivierten Bücher zu sehen.",
 )

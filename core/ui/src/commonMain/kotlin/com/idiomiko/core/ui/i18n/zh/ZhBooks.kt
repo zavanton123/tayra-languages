@@ -59,7 +59,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Read" to "阅读",
     "Edit" to "编辑",
     "Bookmarks" to "书签",
-    "No archived books." to "没有已归档的书籍。",
     "No books match these filters." to "没有符合这些筛选条件的书籍。",
     "No other books yet" to "还没有其他书籍",
     "Create a book" to "创建书籍",
@@ -240,4 +239,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     "How archiving works" to "归档如何运作",
     "Got it" to "知道了",
     "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "从书的 ⋮ 菜单中归档，可将它移出书库而不删除。它的页面、你的进度以及从中保存的单词都会保留。要再次阅读，请打开“已归档的书籍”并选择“取消归档”。",
+    "No archived books match" to "没有符合条件的已归档书籍",
+    "None of your archived books match this search or these filters. Clear them to see all your archived books." to "你的已归档书籍中没有符合此搜索或筛选条件的。清除它们即可查看所有已归档书籍。",
 )

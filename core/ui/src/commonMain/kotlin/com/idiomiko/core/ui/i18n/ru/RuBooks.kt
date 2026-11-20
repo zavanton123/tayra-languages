@@ -59,7 +59,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Read" to "Читать",
     "Edit" to "Изменить",
     "Bookmarks" to "Закладки",
-    "No archived books." to "В архиве нет книг.",
     "No books match these filters." to "Нет книг, подходящих под фильтры.",
     "No other books yet" to "Других книг пока нет",
     "Create a book" to "Создать книгу",
@@ -240,4 +239,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "How archiving works" to "Как работает архив",
     "Got it" to "Понятно",
     "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Отправьте книгу в архив через её меню ⋮, чтобы убрать её из библиотеки, не удаляя. Её страницы, ваш прогресс и сохранённые из неё слова останутся. Чтобы снова её читать, откройте «Книги в архиве» и выберите «Вернуть из архива».",
+    "No archived books match" to "Нет подходящих книг в архиве",
+    "None of your archived books match this search or these filters. Clear them to see all your archived books." to "Ни одна книга в архиве не подходит под этот поиск или фильтры. Сбросьте их, чтобы увидеть все книги в архиве.",
 )

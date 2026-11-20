@@ -117,7 +117,7 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
         }
         if (showChecks) item { BooksSelectionBar(state, callbacks, onDone) }
         if (books.isEmpty()) {
-            item { NoBooks(state.archived, callbacks.onNewBook, onlyContinued = state.filteredBooks.isNotEmpty(), onFindBooks = callbacks.onFindBooks) }
+            item { NoBooks(state.archived, callbacks.onNewBook, onlyContinued = state.filteredBooks.isNotEmpty(), onFindBooks = callbacks.onFindBooks, onClearFilters = callbacks::clearFilters, onBackToBooks = callbacks.onBackToBooks) }
         } else {
             items(books.size, key = { books[it].id }) { i -> Box(itemMotion()) { PhoneBookCard(books[i], books[i].id in state.selected, showChecks, callbacks) } }
         }
