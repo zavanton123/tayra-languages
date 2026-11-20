@@ -74,7 +74,7 @@ internal object OcrLanguages {
         "bo" to (OcrScript.TIBETAN to "bod"), "tr" to (OcrScript.LATIN to "tur"), "uk" to (OcrScript.CYRILLIC to "ukr"),
         "vi" to (OcrScript.LATIN to "vie"), "cy" to (OcrScript.LATIN to "cym"), "ga" to (OcrScript.LATIN to "gle"),
         "gd" to (OcrScript.LATIN to "gla"), "tl" to (OcrScript.LATIN to "fil"), "aii" to (OcrScript.SYRIAC to "syr"),
-        "gv" to (OcrScript.LATIN to "script/Latin"), "kw" to (OcrScript.LATIN to "script/Latin"), "haw" to (OcrScript.LATIN to "script/Latin"),
+        "gv" to (OcrScript.LATIN to "script/Latin"), "kw" to (OcrScript.LATIN to "script/Latin"), "haw" to (OcrScript.LATIN to "script/Latin"), "ha" to (OcrScript.LATIN to "script/Latin"),
         "sga" to (OcrScript.LATIN to "script/Latin"), "tok" to (OcrScript.LATIN to "script/Latin"), "nah" to (OcrScript.LATIN to "script/Latin"),
         "nv" to (OcrScript.LATIN to "script/Latin"),
     )

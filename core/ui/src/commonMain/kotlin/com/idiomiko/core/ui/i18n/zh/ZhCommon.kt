@@ -48,6 +48,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "German" to "德语",
     "Greek" to "希腊语",
     "Gujarati" to "古吉拉特语",
+    "Hausa" to "豪萨语",
     "Hawaiian" to "夏威夷语",
     "Hebrew" to "希伯来语",
     "Hindi" to "印地语",

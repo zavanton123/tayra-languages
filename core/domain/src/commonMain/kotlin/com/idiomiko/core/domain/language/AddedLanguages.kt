@@ -158,6 +158,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun hausa() = LanguageDefinition(
+        language = Language(
+            name = "Hausa",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Hausa", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/ha/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ha&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|ʼ='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Dr.|Alh.|Mal.|Haj.|Farf.|Prof.|Sen.|Hon.|Mr.|Mrs.",
+            wordCharacters = "a-zA-ZÀ-ÖØ-öø-ȳɓɗƁƊƘƙƳƴ'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "hausa",
+        ),
+    )
+
     private fun hawaiian() = LanguageDefinition(
         language = Language(
             name = "Hawaiian",
@@ -545,6 +563,7 @@ object AddedLanguages {
             cornish(),
             egyptianArabic(),
             gujarati(),
+            hausa(),
             hawaiian(),
             irish(),
             japanese(),

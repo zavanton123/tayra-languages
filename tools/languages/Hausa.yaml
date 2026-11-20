@@ -1,0 +1,18 @@
+name: Hausa
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Hausa"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/ha/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=ha&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|ʼ='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "Dr.|Alh.|Mal.|Haj.|Farf.|Prof.|Sen.|Hon.|Mr.|Mrs."
+word_chars: "a-zA-ZÀ-ÖØ-öø-ȳɓɗƁƊƘƙƳƴ'"
+right_to_left: false
+show_romanization: false
+parser_type: hausa

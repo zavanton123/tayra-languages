@@ -48,6 +48,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "German" to "Γερμανικά",
     "Greek" to "Ελληνικά",
     "Gujarati" to "Γκουτζαράτι",
+    "Hausa" to "Χάουσα",
     "Hawaiian" to "Χαβανέζικα",
     "Hebrew" to "Εβραϊκά",
     "Hindi" to "Χίντι",

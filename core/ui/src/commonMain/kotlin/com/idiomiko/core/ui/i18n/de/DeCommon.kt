@@ -48,6 +48,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "German" to "Deutsch",
     "Greek" to "Griechisch",
     "Gujarati" to "Gujarati",
+    "Hausa" to "Hausa",
     "Hawaiian" to "Hawaiisch",
     "Hebrew" to "Hebräisch",
     "Hindi" to "Hindi",

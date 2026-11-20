@@ -48,6 +48,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "German" to "Alemán",
     "Greek" to "Griego",
     "Gujarati" to "Guyaratí",
+    "Hausa" to "Hausa",
     "Hawaiian" to "Hawaiano",
     "Hebrew" to "Hebreo",
     "Hindi" to "Hindi",

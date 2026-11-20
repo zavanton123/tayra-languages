@@ -74,6 +74,8 @@ import idiomiko.core.ui.generated.resources.flag_mn
 import idiomiko.core.ui.generated.resources.flag_mt
 import idiomiko.core.ui.generated.resources.flag_mx
 import idiomiko.core.ui.generated.resources.flag_my
+import idiomiko.core.ui.generated.resources.flag_ne
+import idiomiko.core.ui.generated.resources.flag_ng
 import idiomiko.core.ui.generated.resources.flag_nl
 import idiomiko.core.ui.generated.resources.flag_no
 import idiomiko.core.ui.generated.resources.flag_np
@@ -182,6 +184,7 @@ private val flags: Map<String, List<DrawableResource>> by lazy {
         "kw" to listOf(Res.drawable.flag_gb),
         "arz" to listOf(Res.drawable.flag_eg),
         "haw" to listOf(Res.drawable.flag_us),
+        "ha" to listOf(Res.drawable.flag_ng, Res.drawable.flag_ne),
         "kn" to listOf(Res.drawable.flag_in),
         "ta" to listOf(Res.drawable.flag_in),
         "te" to listOf(Res.drawable.flag_in),

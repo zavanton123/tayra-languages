@@ -48,6 +48,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "German" to "Niemiecki",
     "Greek" to "Grecki",
     "Gujarati" to "Gudżarati",
+    "Hausa" to "Hausa",
     "Hawaiian" to "Hawajski",
     "Hebrew" to "Hebrajski",
     "Hindi" to "Hindi",
