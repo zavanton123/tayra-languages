@@ -38,6 +38,7 @@ from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from frequency_urdu import TABLE_PRONOUNS, adjective_forms, noun_forms, urdu_fold, verb_forms  # noqa: E402
+import frequency_nepali  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -90,6 +91,7 @@ SOURCES = {
     "ur": ("Urdu", "urdu", "dictionaries/kaikki.org-dictionary-Urdu.jsonl.gz"),
     "ta": ("Tamil", None, "dictionaries/kaikki.org-dictionary-Tamil.jsonl.gz"),
     "te": ("Telugu", None, "dictionaries/kaikki.org-dictionary-Telugu.jsonl.gz"),
+    "ne": ("Nepali", None, "dictionaries/kaikki.org-dictionary-Nepali.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -166,7 +168,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -325,6 +327,21 @@ def telugu_translation_entries(kept):
     return entries
 
 
+# Nepali words are Devanagari letters and vowel signs, as the reader reads them: no digits, no danda.
+NEPALI_LETTERS = "\u0900-\u0963\u0971-\u097f\u200c\u200d"
+NEPALI_WORD_RE = re.compile(f"^[{NEPALI_LETTERS}]+$")
+NEPALI_RUN = re.compile(f"[{NEPALI_LETTERS}]+")
+
+
+def clean_nepali(word):
+    """A Nepali spelling in NFC; of a table cell that carries its romanisation or a note, the word it starts with."""
+    word = unicodedata.normalize("NFC", word).strip()
+    if re.search(r"[A-Za-z(/,]", word):
+        run = NEPALI_RUN.match(word)
+        return run.group(0) if run else ""
+    return word
+
+
 def bengali_translation_entries(kept, code="bn", clean=None, word_re=None):
     """
     The Bengali words the English Wiktionary's translation tables give that its Bengali entries lack (নেতা "leader", ঘন্টা
@@ -412,7 +429,7 @@ def punjabi_extra_entries(pa_path, kept):
 
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"te": clean_telugu, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold}
+            "ur": urdu_fold, "ne": clean_nepali}
 
 
 # Swahili: the English Wiktionary names a verb with its hyphen ("passive of -penda"), and writes many forms as prose senses
@@ -859,6 +876,19 @@ def urdu_generated(kept):
     return rows
 
 
+def nepali_generated(kept, inflected):
+    """
+    (form, word) rows for Nepali: the pronouns' forms (frequency_nepali.PRONOUNS, as the pack's tables list every pronoun on each
+    one's page), and a noun's, adjective's or number's plural and postpositions written on (घरहरू, घरमा) when it has no table.
+    """
+    words = {word for word, _ in kept}
+    rows = [(form, word) for word, forms in frequency_nepali.PRONOUNS.items() if word in words for form in forms.split()]
+    for word, pos in kept:
+        if pos in ("noun", "adj", "num") and (pos, word) not in inflected and len(word) > 1:
+            rows += [(form, word) for form in frequency_nepali.pack_forms(word, {pos})]
+    return rows
+
+
 def build_english_target(source, en_path, out_path, report_every=200_000):
     """
     Builds a pack whose glosses are the English Wiktionary's own definitions. Entries and forms
@@ -876,6 +906,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     pos_totals, pos_inflected = Counter(), set()
     # Urdu's entries as (word, pos, gender, whether its forms are made by rule), for urdu_generated.
     urdu_kept = []
+    # Nepali's as (word, pos), for nepali_generated.
+    nepali_kept = []
 
     def flush():
         nonlocal entry_rows, form_rows, form_count
@@ -950,6 +982,9 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 # Urdu verb tables name their persons' pronouns (میں, تم, آپ) beside the forms, untagged or with the person's tags.
                 if source == "ur" and (not x.get("tags") or pos == "verb" and cleaner(x.get("form", "").strip()) in TABLE_PRONOUNS):
                     continue
+                # A Nepali pronoun's table lists every pronoun (म's has हामी, तिमी, यो...): its forms come from frequency_nepali.
+                if source == "ne" and pos == "pron":
+                    continue
                 # A noun names its other gender's word (لڑکی of لڑکا, والدہ of والد), no form of it.
                 if source == "ur" and set(x["tags"]) <= {"masculine", "feminine"}:
                     continue
@@ -966,25 +1001,35 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                     (punjabi_vocative if "vocative" in tags else punjabi_other).add((lowercase(form, source), word))
                 form_rows.append((lowercase(form, source), word))
                 pos_inflected.add((pos, word))
+            if source == "ne":
+                nepali_kept.append((word, pos))
             if source == "ur":
                 urdu_kept.append((word, pos, urdu_gender(d), pos == "noun" and (pos, word) not in pos_inflected))
             if len(entry_rows) >= 5000 or len(form_rows) >= 50000:
                 flush()
     flush()
     label = f"English Wiktionary {SOURCES[source][0]} entries via kaikki.org"
-    if source in ("bn", "ta", "te"):
+    if source in ("bn", "ta", "te", "ne"):
         kept = {w for (w,) in db.execute("SELECT word FROM entries")}
         translated = (bengali_translation_entries(kept) if source == "bn"
                       else bengali_translation_entries(kept, "ta", clean_tamil, TAMIL_WORD_RE) if source == "ta"
+                      else bengali_translation_entries(kept, "ne", clean_nepali, NEPALI_WORD_RE) if source == "ne"
                       else telugu_translation_entries(kept))
         for word, by_pos in sorted(translated.items()):
             for pos, glosses in sorted(by_pos.items()):
                 senses = [{"glosses": [g]} for g in glosses]
                 entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+                if source == "ne":
+                    nepali_kept.append((word, pos))
                 next_id += 1
                 entry_count += 1
         flush()
         label += " and its English entries' translation tables"
+    if source == "ne":
+        before = db.total_changes
+        db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, 1)", nepali_generated(nepali_kept, pos_inflected))
+        form_count += db.total_changes - before
+        print(f"  {db.total_changes - before:,} forms by rule", file=sys.stderr)
     if source == "ur":
         added, next_id = urdu_from_hindi(urdu_kept, next_id)
         entry_rows = [row for row, _ in added]
