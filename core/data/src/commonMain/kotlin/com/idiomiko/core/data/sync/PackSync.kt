@@ -1,6 +1,10 @@
 package com.idiomiko.core.data.sync
 
 import com.russhwolf.settings.Settings
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
 import com.idiomiko.core.domain.account.PackChoices
 import com.idiomiko.core.domain.books.BookPackService
 import com.idiomiko.core.domain.books.BookPacks
@@ -23,6 +27,11 @@ data class PackChoice(val pack: String, val installed: Boolean, val at: Long) {
 
 /** The packs chosen on this device, kept with the settings. */
 class SyncedPacks(private val store: Settings, private val clock: Clock = Clock.System) : PackChoices {
+    private val taken = MutableStateFlow(0L)
+
+    /** Moves on each time a choice is kept. */
+    val changes: StateFlow<Long> = taken.asStateFlow()
+
     override fun chose(pack: String, installed: Boolean) = take(PackChoice(pack, installed, clock.now().toEpochMilliseconds()))
 
     override fun found(pack: String) {
@@ -39,6 +48,7 @@ class SyncedPacks(private val store: Settings, private val clock: Clock = Clock.
     fun take(choice: PackChoice) {
         store.putBoolean(removedKey(choice.pack), !choice.installed)
         store.putLong(atKey(choice.pack), choice.at)
+        taken.update { it + 1 }
     }
 
     private fun atKey(pack: String) = "sync.pack.$pack"

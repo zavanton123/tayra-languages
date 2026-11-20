@@ -16,6 +16,8 @@ import com.idiomiko.core.data.sync.libraryChanges
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withTimeout
 import com.idiomiko.core.data.sync.SyncTransport
@@ -41,6 +43,7 @@ import java.util.Properties
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
+import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 /**
@@ -57,12 +60,14 @@ class SyncEngineTest {
         var account: String? = "http://localhost me@example.com"
         var failPullAfter = Int.MAX_VALUE
         var pushes = 0
+        var failPush = false
         var pulls = 0
 
         override fun syncAccount(): String? = account
 
         override suspend fun push(request: PushRequest): PushResponse {
             pushes++
+            if (failPush) throw AccountException(AccountProblem.OFFLINE, "Gone")
             for (incoming in request.records) {
                 val id = incoming.kind to incoming.key
                 val stored = records[id]?.first
@@ -327,6 +332,56 @@ class SyncEngineTest {
         phone.word("lobo")
         delay(1_500)
         assertEquals(1, account.pushes, "nor after a sync")
+    }
+
+    /** What is not sent yet is known here: from a write until a sync sends it, through a sync that fails; what a sync takes is not. */
+    @Test
+    fun whatIsNotSentYetIsKnown() = runBlocking<Unit> {
+        suspend fun unsent(device: Device) = withTimeout(5_000) { device.engine.unsent().first() }
+        assertTrue(unsent(phone), "before the first sync everything is to send")
+        phone.word("casa")
+        phone.engine.syncNow()
+        assertFalse(unsent(phone), "all sent")
+        assertTrue(phone.engine.lastSynced() != null)
+
+        val seen = MutableStateFlow<Boolean?>(null)
+        val watching = launch(Dispatchers.Default) { phone.engine.unsent().collect { seen.value = it } }
+        withTimeout(5_000) { seen.first { it == false } }
+        phone.word("lobo")
+        withTimeout(5_000) { seen.first { it == true } }
+
+        account.failPush = true
+        assertFailsWith<AccountException> { phone.engine.syncNow() }
+        delay(1_000)
+        assertEquals(true, seen.value, "a sync that failed sent nothing")
+        account.failPush = false
+        phone.engine.syncNow()
+        withTimeout(5_000) { seen.first { it == false } }
+
+        phone.settings.update { it.copy(dailyGoalMinutes = 25) }
+        withTimeout(5_000) { seen.first { it == true } }
+        phone.engine.syncNow()
+        withTimeout(5_000) { seen.first { it == false } }
+        watching.cancel()
+
+        // The desktop takes all of it; what it took is not its own to send.
+        Thread.sleep(5)
+        desktop.engine.syncNow()
+        assertEquals(listOf("casa", "lobo"), desktop.rows("SELECT text_lc FROM terms ORDER BY text_lc"))
+        assertEquals(25, desktop.settings.current.dailyGoalMinutes)
+        assertFalse(unsent(desktop), "pulled changes are not unsent")
+
+        phone.word("gato", TermStatus.NEW_2)
+        phone.engine.syncNow()
+        Thread.sleep(5)
+        desktop.engine.syncNow()
+        assertFalse(unsent(desktop))
+        desktop.terms.updateStatus(listOf(desktop.id("gato")), TermStatus.LEARNING_3)
+        assertTrue(unsent(desktop), "a change of its own is")
+
+        account.account = "http://localhost other@example.com"
+        assertTrue(unsent(desktop), "nothing is sent to another account yet")
+        assertEquals(null, desktop.engine.lastSynced())
     }
 
     @Test

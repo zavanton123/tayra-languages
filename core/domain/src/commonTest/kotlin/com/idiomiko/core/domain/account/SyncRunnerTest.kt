@@ -36,6 +36,8 @@ class SyncRunnerTest {
             return SyncSummary(0, 0, 0)
         }
         override suspend fun needsCombining() = combining
+        var before: Instant? = null
+        override fun lastSynced() = before
     }
 
     private class Env(scope: TestScope) {
@@ -53,6 +55,12 @@ class SyncRunnerTest {
         assertEquals(Instant.fromEpochMilliseconds(testScheduler.currentTime), env.runner.status.value.lastSynced)
         advanceTimeBy(5.hours)
         assertEquals(1, env.sync.started, "nothing more after it")
+    }
+
+    @Test
+    fun aSyncBeforeTheAppStartedCounts() = runTest {
+        val sync = Sync().apply { before = Instant.fromEpochMilliseconds(1_000) }
+        assertEquals(Instant.fromEpochMilliseconds(1_000), SyncRunner(sync).status.value.lastSynced)
     }
 
     @Test

@@ -172,7 +172,7 @@ INSERT OR REPLACE INTO sync_pending(kind, key, record) VALUES (:kind, :key, :rec
 hasOwnLibrary:
 SELECT EXISTS (SELECT 1 FROM terms WHERE status <> 0) OR EXISTS (SELECT 1 FROM flashcards) OR EXISTS (SELECT 1 FROM pages WHERE start_date IS NOT NULL);
 
--- No rows: observed, it tells when anything sync sends is written.
+-- No rows: observed, it tells when anything sync sends is written, or a sync notes what it sent.
 changeSignal:
 SELECT 1 WHERE
     EXISTS (SELECT 1 FROM terms WHERE 0) OR EXISTS (SELECT 1 FROM term_parents WHERE 0) OR EXISTS (SELECT 1 FROM level_terms WHERE 0)
@@ -182,7 +182,8 @@ SELECT 1 WHERE
     OR EXISTS (SELECT 1 FROM language_dictionaries WHERE 0) OR EXISTS (SELECT 1 FROM language_scripts WHERE 0)
     OR EXISTS (SELECT 1 FROM books WHERE 0) OR EXISTS (SELECT 1 FROM book_tag_map WHERE 0) OR EXISTS (SELECT 1 FROM pages WHERE 0)
     OR EXISTS (SELECT 1 FROM page_bookmarks WHERE 0) OR EXISTS (SELECT 1 FROM words_read WHERE 0)
-    OR EXISTS (SELECT 1 FROM playlists WHERE 0) OR EXISTS (SELECT 1 FROM playlist_items WHERE 0) OR EXISTS (SELECT 1 FROM sync_tombstones WHERE 0);
+    OR EXISTS (SELECT 1 FROM playlists WHERE 0) OR EXISTS (SELECT 1 FROM playlist_items WHERE 0) OR EXISTS (SELECT 1 FROM sync_tombstones WHERE 0)
+    OR EXISTS (SELECT 1 FROM fsrs_parameters WHERE 0) OR EXISTS (SELECT 1 FROM videos WHERE 0) OR EXISTS (SELECT 1 FROM sync_state WHERE 0);
 
 -- A language's words and what belongs to them, read at once when a pull is applied.
 termsOfLanguage:

@@ -32,9 +32,11 @@ import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppSpacing
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlin.time.Instant
@@ -51,10 +53,12 @@ data class SyncPromptState(
     /** A sync is under way. */
     val running: Boolean = false,
     val progress: SyncProgress? = null,
-    /** When this device last synced since the app started. */
+    /** When this device last synced. */
     val lastSynced: Instant? = null,
     /** The last sync did not finish. */
     val lastFailed: Boolean = false,
+    /** This device holds changes not sent yet; taken as so until it is known. */
+    val unsent: Boolean = true,
     val summary: SyncSummary? = null,
     val problem: AccountProblem? = null,
     val problemText: String? = null,
@@ -64,6 +68,7 @@ data class SyncPromptState(
     val doneUnseen: Boolean = false,
 )
 
+@OptIn(ExperimentalCoroutinesApi::class)
 class SyncPromptViewModel(private val sync: SyncRunner, private val accounts: AccountRepository) : ViewModel() {
     private val _state = MutableStateFlow(SyncPromptState(available = accounts.available, signedIn = accounts.signedIn.value != null))
     val state: StateFlow<SyncPromptState> = _state.asStateFlow()
@@ -73,6 +78,8 @@ class SyncPromptViewModel(private val sync: SyncRunner, private val accounts: Ac
             sync.status.collect { s -> _state.update { it.copy(running = s.running, progress = s.progress, lastSynced = s.lastSynced ?: it.lastSynced, lastFailed = s.problem != null) } }
         }
         viewModelScope.launch { accounts.signedIn.collect { email -> _state.update { it.copy(signedIn = email != null) } } }
+        // Signing in to another account makes everything here unsent to it.
+        viewModelScope.launch { accounts.signedIn.flatMapLatest { sync.unsent() }.collect { unsent -> _state.update { it.copy(unsent = unsent) } } }
     }
 
     /** Asks again, or shows the sync this dialog started while it still runs. */

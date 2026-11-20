@@ -1,6 +1,9 @@
 package com.idiomiko.core.ui.components
 
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.graphics.toPixelMap
+import com.idiomiko.core.ui.theme.AppAccents
+import kotlin.math.abs
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
@@ -120,7 +123,7 @@ class AppTopBarTest {
         assertEquals("Z", initial("  ", "zed@example.com"))
     }
 
-    /** The sync status shows only with an account service and asks to sync; it says when the device last synced, or that a sync runs or failed. */
+    /** The sync status shows only with an account service and asks to sync; green only while synced with nothing left to send, it says when the device last synced, that changes wait, or that a sync runs or failed. */
     @OptIn(ExperimentalTestApi::class)
     @Test
     fun theSyncStatusOpensTheQuestion() = runDesktopComposeUiTest(width = 1600, height = 1000) {
@@ -140,12 +143,45 @@ class AppTopBarTest {
         entry = SyncEntry(running = false, lastSynced = kotlin.time.Clock.System.now() - kotlin.time.Duration.parse("2m")) { asked++ }
         waitForIdle()
         onNodeWithContentDescription("Synced 2 minutes ago").assertExists()
-        System.getenv("SYNC_STATUS_SCREENSHOT")?.let { path ->
-            javax.imageio.ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", java.io.File(path))
-        }
+        assertEquals(true, cloudIsGreen(), "synced, with nothing left to send")
+        saveBar("SYNC_STATUS_SCREENSHOT")
+        // Something changed here since: the cloud turns grey until the next sync.
+        entry = SyncEntry(running = false, lastSynced = kotlin.time.Clock.System.now() - kotlin.time.Duration.parse("2m"), unsent = true) { asked++ }
+        waitForIdle()
+        onNodeWithContentDescription("Changes not synced yet").assertExists()
+        assertEquals(false, cloudIsGreen())
+        saveBar("SYNC_STATUS_SCREENSHOT", "-unsent")
+        // Never synced, it asks to sync whatever this device holds.
+        entry = SyncEntry(running = false, unsent = true) { asked++ }
+        waitForIdle()
+        onNodeWithContentDescription("Sync").assertExists()
+        assertEquals(false, cloudIsGreen())
         entry = SyncEntry(running = false, failed = true) { asked++ }
         waitForIdle()
         onNodeWithContentDescription("Sync failed").assertExists()
+        assertEquals(false, cloudIsGreen())
+    }
+
+    /** Whether the bar's cloud is drawn in the green that says all is synced. */
+    @OptIn(ExperimentalTestApi::class)
+    private fun androidx.compose.ui.test.ComposeUiTest.cloudIsGreen(): Boolean {
+        val pixels = onNodeWithTag("sync-icon", useUnmergedTree = true).captureToImage().toPixelMap()
+        val green = AppAccents.green
+        return (0 until pixels.width).any { x ->
+            (0 until pixels.height).any { y ->
+                val c = pixels[x, y]
+                abs(c.red - green.red) < 0.03f && abs(c.green - green.green) < 0.03f && abs(c.blue - green.blue) < 0.03f
+            }
+        }
+    }
+
+    /** The bar, with the cloud, saved to the file the environment variable [env] names. */
+    @OptIn(ExperimentalTestApi::class)
+    private fun androidx.compose.ui.test.ComposeUiTest.saveBar(env: String, suffix: String = "") {
+        val path = System.getenv(env) ?: return
+        val image = onRoot().captureToImage().toAwtImage()
+        val strip = image.getSubimage(0, 0, image.width, minOf(image.height, 72))
+        javax.imageio.ImageIO.write(strip, "png", java.io.File(path.replace(".png", "$suffix.png")))
     }
 
     /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages. */

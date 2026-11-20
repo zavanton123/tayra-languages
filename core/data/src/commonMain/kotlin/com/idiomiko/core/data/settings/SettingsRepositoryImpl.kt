@@ -36,6 +36,11 @@ class SettingsRepositoryImpl(
 
     private val state = MutableStateFlow(load())
 
+    private val stamps = MutableStateFlow(0L)
+
+    /** Moves on each time a setting that follows the account is noted as changed, after its time is kept. */
+    val stamped: StateFlow<Long> = stamps.asStateFlow()
+
     init {
         // Settings chosen before their changes were timed count as chosen now, so they reach the account.
         for (field in SyncedSettings.fields) {
@@ -63,7 +68,10 @@ class SettingsRepositoryImpl(
         return current to result
     }
 
-    private fun stamp(name: String, at: Long = clock.now().toEpochMilliseconds()) = store.putLong(SyncedSettings.stampKey(name), at)
+    private fun stamp(name: String, at: Long = clock.now().toEpochMilliseconds()) {
+        store.putLong(SyncedSettings.stampKey(name), at)
+        stamps.update { it + 1 }
+    }
 
     /** The settings that follow the account, with when each last changed here. */
     fun synced(): List<SyncedValue> = current.let { s ->

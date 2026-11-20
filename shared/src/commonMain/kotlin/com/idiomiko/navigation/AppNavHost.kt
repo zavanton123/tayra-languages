@@ -106,8 +106,8 @@ fun AppNavHost(openCourses: Int = 0) {
     // Syncing is asked from the wide bar's button or by pulling a phone page down; neither shows without an account service.
     val syncPrompt = koinViewModel<SyncPromptViewModel>()
     val sync by syncPrompt.state.collectAsStateWithLifecycle()
-    val syncEntry = remember(sync.available, sync.running, sync.lastSynced, sync.lastFailed) {
-        if (sync.available) SyncEntry(sync.running, sync.lastSynced, sync.lastFailed, syncPrompt::open) else null
+    val syncEntry = remember(sync.available, sync.running, sync.lastSynced, sync.lastFailed, sync.unsent) {
+        if (sync.available) SyncEntry(sync.running, sync.lastSynced, sync.lastFailed, sync.unsent, syncPrompt::open) else null
     }
     val pullToSync = syncEntry != null && LocalWindowWidth.current.isCompact && destination?.let(::pullsToSync) == true
     // The bars' avatar, while signed in: the account's picture or first letter, leading to the account page.

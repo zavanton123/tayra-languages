@@ -34,18 +34,19 @@ import kotlin.time.Duration.Companion.seconds
 import kotlin.time.Instant
 
 /**
- * Syncing from anywhere in the app: whether a sync is under way, when this device last synced since the
- * app started, whether the last sync failed, and asking whether to sync now.
+ * Syncing from anywhere in the app: whether a sync is under way, when this device last synced, whether
+ * the last sync failed, whether it holds changes not sent yet, and asking whether to sync now.
  */
-class SyncEntry(val running: Boolean, val lastSynced: Instant? = null, val failed: Boolean = false, val open: () -> Unit)
+class SyncEntry(val running: Boolean, val lastSynced: Instant? = null, val failed: Boolean = false, val unsent: Boolean = false, val open: () -> Unit)
 
 /** Provided at the root of the app; null where the build has no account service. */
 val LocalSyncEntry = compositionLocalOf<SyncEntry?> { null }
 
 /**
- * The wide bar's sync status as a single cloud: green once this device has synced, grey while it syncs, before
- * its first sync or after one failed. What it means ("Synced 2 minutes ago", "Syncing…", "Sync failed") is its
- * tooltip and its description; a click asks whether to sync now.
+ * The wide bar's sync status as a single cloud: green while this device has synced and has nothing left to
+ * send; grey while it syncs, before its first sync, after one failed, and as soon as anything changed here is
+ * not sent yet. What it means ("Synced 2 minutes ago", "Changes not synced yet", "Syncing…", "Sync failed")
+ * is its tooltip and its description; a click asks whether to sync now.
  */
 @Composable
 internal fun SyncStatusButton(entry: SyncEntry) {
@@ -61,10 +62,11 @@ internal fun SyncStatusButton(entry: SyncEntry) {
     val label = when {
         entry.running -> tr("Syncing…")
         entry.failed -> tr("Sync failed")
-        synced != null -> tr("Synced {0}", synced.relativeTo(now))
-        else -> tr("Sync")
+        synced == null -> tr("Sync")
+        entry.unsent -> tr("Changes not synced yet")
+        else -> tr("Synced {0}", synced.relativeTo(now))
     }
-    val good = synced != null && !entry.running && !entry.failed
+    val good = synced != null && !entry.unsent && !entry.running && !entry.failed
     AppTooltip(label) {
         Box(
             Modifier.clip(AppShapes.control).clickable(onClickLabel = tr("Sync now"), role = Role.Button, onClick = entry.open)
@@ -76,12 +78,12 @@ internal fun SyncStatusButton(entry: SyncEntry) {
             else Icon(
                 when {
                     entry.failed -> AppIcons.CloudOff
-                    synced != null -> AppIcons.CloudDone
+                    good -> AppIcons.CloudDone
                     else -> AppIcons.Cloud
                 },
                 contentDescription = null,
                 tint = if (good) AppAccents.green else colors.onSurfaceVariant,
-                modifier = Modifier.size(AppSizes.icon),
+                modifier = Modifier.size(AppSizes.icon).testTag("sync-icon"),
             )
         }
     }

@@ -395,5 +395,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minuty czytania i fiszek dziennie. Strona główna pokazuje, ile już dziś zrobiono.",
     "daily goal" to "cel dzienny",
     "Sync failed" to "Synchronizacja nie powiodła się",
+    "Changes not synced yet" to "Zmiany jeszcze niezsynchronizowane",
     "Synced {0}" to "Zsynchronizowano {0}",
 )

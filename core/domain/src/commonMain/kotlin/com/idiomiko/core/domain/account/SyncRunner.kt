@@ -3,6 +3,7 @@ package com.idiomiko.core.domain.account
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -17,7 +18,7 @@ data class SyncStatus(
     val running: Boolean = false,
     /** How far the sync under way has got; null when none is, or it has not said yet. */
     val progress: SyncProgress? = null,
-    /** When this device last synced, since the app started. */
+    /** When this device last synced with the account signed in to, kept across restarts. */
     val lastSynced: Instant? = null,
     /** Why the last sync failed; null when it did not. */
     val problem: AccountProblem? = null,
@@ -35,8 +36,11 @@ class SyncRunner(
     private val sync: LibrarySync,
     private val clock: Clock = Clock.System,
 ) {
-    private val _status = MutableStateFlow(SyncStatus())
+    private val _status = MutableStateFlow(SyncStatus(lastSynced = sync.lastSynced()))
     val status: StateFlow<SyncStatus> = _status.asStateFlow()
+
+    /** Whether this device holds changes not sent yet, as [LibrarySync.unsent] says. */
+    fun unsent(): Flow<Boolean> = sync.unsent()
 
     private val running = Mutex()
     /** The sync under way, whose result a sync asked for meanwhile takes instead of running another after it. */

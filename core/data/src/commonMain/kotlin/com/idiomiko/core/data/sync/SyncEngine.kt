@@ -30,11 +30,17 @@ import com.idiomiko.sync.SyncKinds
 import com.idiomiko.sync.SyncMerge
 import com.idiomiko.sync.SyncRecord
 import app.cash.sqldelight.coroutines.asFlow
+import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.emitAll
+import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.merge
+import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
@@ -43,6 +49,8 @@ import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.buildJsonObject
 import kotlinx.serialization.json.put
 import kotlin.time.Clock
+import kotlin.time.Duration.Companion.milliseconds
+import kotlin.time.Instant
 
 /** The account's side of sync: sending records, and taking the ones changed after a change number. */
 interface SyncTransport {
@@ -103,6 +111,7 @@ class SyncEngine(
                 db.syncQueries.startOver()
                 db.syncRecordsQueries.clearPending()
             }
+            settings.remove(LAST_SYNCED)
             settings.putString(ACCOUNT, account)
         }
         val state = withContext(databaseDispatcher) { db.syncQueries.state().awaitAsOne() }
@@ -161,7 +170,51 @@ class SyncEngine(
             }
         }
         val settingsChanged = applySettings(db, toApply.filter { it.kind == SyncKinds.SETTING }, device)
+        settings.putLong(LAST_SYNCED, clock.now().toEpochMilliseconds())
         SyncSummary(sent = outgoing.records.size, received = incoming.size, changed = changed + settingsChanged)
+    }
+
+    override fun lastSynced(): Instant? {
+        if (!syncedWithThisAccount()) return null
+        return settings.getLongOrNull(LAST_SYNCED)?.let(Instant::fromEpochMilliseconds)
+    }
+
+    /**
+     * Read again a moment after the library, the settings that follow the account or the packs chosen
+     * change, and after each sync notes what it sent. What a sync takes from the account keeps the time
+     * it was changed at elsewhere, before this sync began, so it is not counted.
+     */
+    @OptIn(FlowPreview::class)
+    override fun unsent(): Flow<Boolean> =
+        merge(
+            libraryChanges(provider).onStart { emit(Unit) },
+            userSettings?.stamped?.map { } ?: emptyFlow(),
+            packs?.changes?.map { } ?: emptyFlow(),
+        ).debounce(SETTLE).map { unsentOrUnknown() }.distinctUntilChanged()
+
+    /** A library that cannot be read now counts as holding changes. */
+    private suspend fun unsentOrUnknown(): Boolean = try {
+        hasUnsent()
+    } catch (e: CancellationException) {
+        throw e
+    } catch (e: Exception) {
+        true
+    }
+
+    private fun syncedWithThisAccount(): Boolean {
+        val account = transport.syncAccount() ?: return false
+        return settings.getStringOrNull(ACCOUNT)?.let(::withCurrentAddress) == account
+    }
+
+    /** Whether the next sync would send anything: what [syncNow] reads, without making it into records to send. */
+    private suspend fun hasUnsent(): Boolean {
+        if (!syncedWithThisAccount()) return true
+        val db = provider.database()
+        val state = withContext(databaseDispatcher) { db.syncQueries.state().awaitAsOne() }
+        val since = state.last_push_at?.takeIf { state.full_push == 0L } ?: return true
+        if (userSettings?.synced().orEmpty().any { it.at > since && it.at > 0 }) return true
+        if (packs?.choices().orEmpty().any { it.at > since }) return true
+        return withContext(databaseDispatcher) { Reader(db, state.device_id).changedSince(since) }.records.isNotEmpty()
     }
 
     /** The settings that follow the account changed here since [since]; the languages being learned by code. */
@@ -537,6 +590,10 @@ class SyncEngine(
 
     private companion object {
         const val ACCOUNT = "sync.account"
+        /** When this device last finished a sync with that account, in epoch milliseconds. */
+        const val LAST_SYNCED = "sync.last_synced"
+        /** How long the changes are let settle before what is unsent is read again. */
+        val SETTLE = 300.milliseconds
         const val BATCH = 1_000
         /** The order pulled records are applied in: what others refer to first. */
         val ORDER = listOf(SyncKinds.LANGUAGE, SyncKinds.VOCABULARY_LEVEL, SyncKinds.TERM, SyncKinds.FLASHCARD, SyncKinds.PRACTICE_PROGRESS, SyncKinds.PRACTICE_EXAMPLE, SyncKinds.REVIEW)
@@ -571,7 +628,7 @@ internal class Languages(rows: List<Pair<Long, String>>) {
     val codeOfId: Map<Long, String> = rows.mapNotNull { (id, name) -> LanguageCodes.codeFor(name)?.let { id to it } }.toMap()
 }
 
-/** Emits whenever anything sync sends is written. */
+/** Emits whenever anything sync sends is written, or a sync notes what it sent. */
 fun libraryChanges(provider: DatabaseProvider): Flow<Unit> = flow {
     emitAll(provider.database().syncRecordsQueries.changeSignal().asFlow().drop(1).map { })
 }

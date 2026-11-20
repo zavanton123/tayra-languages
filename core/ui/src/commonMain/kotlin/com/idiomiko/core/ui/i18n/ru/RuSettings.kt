@@ -395,5 +395,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "Минуты чтения и карточек в день. На главной видно, сколько уже сделано сегодня.",
     "daily goal" to "цель на день",
     "Sync failed" to "Синхронизация не удалась",
+    "Changes not synced yet" to "Изменения ещё не синхронизированы",
     "Synced {0}" to "Синхронизировано {0}",
 )

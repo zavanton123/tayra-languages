@@ -1,8 +1,10 @@
 package com.idiomiko.core.domain.account
 
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.flowOf
 import kotlin.time.Instant
 
 /** The account a device is signed in to, as the account service has it. */
@@ -143,6 +145,17 @@ interface LibrarySync {
      * yet, and both hold words, texts or reading of their own. Throws as [syncNow] does.
      */
     suspend fun needsCombining(): Boolean
+
+    /**
+     * Whether this device holds changes the account has not been sent yet, said again whenever the
+     * library or the settings that follow the account change: what the next sync would send. True
+     * until this device has synced with the account signed in to. What a sync writes here, taken from
+     * other devices, is not a change to send.
+     */
+    fun unsent(): Flow<Boolean> = flowOf(false)
+
+    /** When this device last synced with the account signed in to, kept across restarts; null before its first sync. */
+    fun lastSynced(): Instant? = null
 }
 
 enum class SignInProvider { GOOGLE, APPLE }

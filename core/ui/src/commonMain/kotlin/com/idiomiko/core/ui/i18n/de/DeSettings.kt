@@ -395,5 +395,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minuten Lesen und Karteikarten am Tag. Die Startseite zeigt, wie weit du heute bist.",
     "daily goal" to "Tagesziel",
     "Sync failed" to "Synchronisierung fehlgeschlagen",
+    "Changes not synced yet" to "Änderungen noch nicht synchronisiert",
     "Synced {0}" to "Synchronisiert {0}",
 )

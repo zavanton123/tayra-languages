@@ -395,5 +395,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minutos de lectura y tarjetas al día. Inicio muestra cuánto llevas hoy.",
     "daily goal" to "objetivo diario",
     "Sync failed" to "La sincronización falló",
+    "Changes not synced yet" to "Cambios aún sin sincronizar",
     "Synced {0}" to "Sincronizado {0}",
 )

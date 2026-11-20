@@ -14,6 +14,7 @@ import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
@@ -42,6 +43,7 @@ import com.idiomiko.core.ui.components.SyncEntry
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlin.time.Duration.Companion.minutes
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -69,11 +71,18 @@ class SyncPromptTest {
 
     private class Sync(var combining: Boolean = false, var failing: Boolean = false, val hold: CompletableDeferred<Unit>? = null) : LibrarySync {
         var syncs = 0
+        /** What this device holds unsent; a sync that finishes sends it all. */
+        val pending = MutableStateFlow(false)
+        /** When this device synced before the app started. */
+        var before: kotlin.time.Instant? = null
+        override fun unsent() = pending
+        override fun lastSynced() = before
         override suspend fun syncNow(progress: (SyncProgress) -> Unit): SyncSummary {
             progress(SyncProgress(SyncPhase.SENDING, 12_000, 47_480))
             hold?.await()
             if (failing) throw AccountException(AccountProblem.OFFLINE, "No connection")
             syncs++
+            pending.value = false
             return SyncSummary(sent = 3, received = 5, changed = 2)
         }
         override suspend fun needsCombining() = combining
@@ -88,7 +97,7 @@ class SyncPromptTest {
         setContent {
             val state by viewModel.state.collectAsStateWithLifecycle()
             IdiomikoTheme {
-                CompositionLocalProvider(LocalSyncEntry provides SyncEntry(state.running, state.lastSynced, state.lastFailed, viewModel::open)) {
+                CompositionLocalProvider(LocalSyncEntry provides SyncEntry(state.running, state.lastSynced, state.lastFailed, state.unsent, viewModel::open)) {
                     AppTopBar(title = "Home", onNavigate = {})
                 }
                 SyncPrompt(viewModel, onOpenAccount = { accountOpened++ })
@@ -114,6 +123,26 @@ class SyncPromptTest {
         onNodeWithTag("sync-dialog").assertDoesNotExist()
         // The bar says when the device last synced.
         onNodeWithContentDescription("Synced just now").assertExists()
+    }
+
+    /** Green only while nothing changed here is unsent: a change turns the cloud grey, a sync green again; a failed one leaves it grey. */
+    @Test
+    fun theBarSaysWhenChangesWaitToBeSent() = runDesktopComposeUiTest(width = 1600, height = 900) {
+        val sync = Sync().apply { before = kotlin.time.Clock.System.now() - 2.minutes }
+        showBar(Accounts("reader@example.com"), sync)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithContentDescription("Synced 2 minutes ago").fetchSemanticsNodes().isNotEmpty() }
+
+        sync.pending.value = true
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithContentDescription("Changes not synced yet").fetchSemanticsNodes().isNotEmpty() }
+        sync.failing = true
+        onNodeWithTag("sync-button").performClick()
+        onNodeWithTag("sync-confirm").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithContentDescription("Sync failed").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(true, sync.pending.value, "nothing was sent")
+
+        sync.failing = false
+        onNodeWithText("Try again").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithContentDescription("Synced just now").fetchSemanticsNodes().isNotEmpty() }
     }
 
     @Test
