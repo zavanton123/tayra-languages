@@ -28,6 +28,7 @@ import unicodedata
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import frequency_cornish  # noqa: E402
 import frequency_bengali  # noqa: E402
+import frequency_marathi  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
@@ -77,6 +78,10 @@ SINHALA_WORD = re.compile(r"[\u0d80-\u0dff\u200d]+")
 SINHALA_NAME_ENDINGS = sorted({e + c for e in ["", "ට", "ගේ", "ව", "ගෙන්", "ේ", "ෙන්", "ින්", "දී", "ේදී", "ලා", "ලාට", "ලාගේ",
                                                "ගෙ", "වත්"]
                                for c in ("", "ත්", "ද", "ම", "යි")} - {""}, key=len, reverse=True)
+# Marathi words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Devanagari letters, vowel signs, virama
+# and nukta, and the joiners, without the digits and the danda; Python's \w leaves out the signs and would cut every word.
+MARATHI_LETTERS = "\u0900-\u0963\u0971-\u097f\u200c\u200d"
+MARATHI_WORD = re.compile(f"[{MARATHI_LETTERS}]+")
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 # An Urdu word: a run of the reader's word characters for Urdu (AddedLanguages), as the text is folded (frequency_urdu).
 URDU_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06ef\u06fa-\u06ff\ufb50-\ufdff\ufe70-\ufefc]+")
@@ -774,6 +779,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return GUJARATI_WORD.findall(text)
     if code == "si":
         return SINHALA_WORD.findall(text.replace("\u200c", ""))
+    if code == "mr":
+        return MARATHI_WORD.findall(text)
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -957,6 +964,28 @@ def kazakh_name_forms(names):
                 forms.add(part)
                 forms.update(frequency_kazakh.noun_forms(part))
     return forms
+
+
+def marathi_name_stems(name):
+    """A Marathi name's stems the endings go on: itself (मीराला, राहुलचा), and its oblique (पुण्यात of पुणे, नाशिकाला)."""
+    stems = {name}
+    if name[-1] == "ा":
+        stems |= {name[:-1] + "े", name[:-1] + "्या"}
+    elif name[-1] == "े":
+        stems.add(name[:-1] + "्या")
+    elif not frequency_marathi.vowel_final(name):
+        stems.add(name + "ा")
+    return stems
+
+
+def marathi_name_forms(names):
+    """A Marathi name's forms, and each part's of a name of several words: its stems with the cases, postpositions and clitics."""
+    out = set()
+    for name in names:
+        for part in name.split():
+            for stem in marathi_name_stems(part):
+                out |= frequency_marathi.with_clitics({stem} | {stem + t for t in frequency_marathi.OBLIQUE_TAILS})
+    return out
 
 
 def armenian_name_forms(names):
@@ -2724,7 +2753,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:",
     )
 }
 
@@ -3008,6 +3037,11 @@ def check(path, brief=False):
     if code == "si":
         names = names | {n + ending for n in names for ending in SINHALA_NAME_ENDINGS}
         long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
+    # A Marathi name takes its case endings, postpositions and clitics written on (मीराला, पुण्यात, नाशिकमध्ये); one of several
+    # words (नवी मुंबई) counts as one known word wherever it is written whole, its last word's endings too.
+    if code == "mr":
+        names = names | marathi_name_forms(course.get("names", []))
+        long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
     # Kazakh names take the case endings joined (Асқардың, Алматыда, Айгүлге).
     if code == "kk":
         names = names | kazakh_name_forms(course.get("names", []))
@@ -3157,6 +3191,15 @@ def check(path, brief=False):
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
+            if code == "mr":
+                *first, last = name.split()
+                endings = sorted(frequency_marathi.with_clitics(frequency_marathi.OBLIQUE_TAILS), key=len, reverse=True)
+                pattern = re.compile(f"(?<![{MARATHI_LETTERS}])" + re.escape(" ".join(first)) + " (?:"
+                                     + "|".join(re.escape(s) for s in sorted(marathi_name_stems(last), key=len, reverse=True))
+                                     + ")(?:" + "|".join(map(re.escape, endings)) + f")?(?![{MARATHI_LETTERS}])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
             if code == "br":
                 pattern = breton_name_pattern(name)
                 whole_names += len(pattern.findall(text))
@@ -3266,6 +3309,10 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^ಪ್ರಶ್ನೆಗಳು:", "", text)
         if code == "ta":
             text = re.sub(r"(?m)^கேள்விகள்:", "", text)
+        if code == "mr":
+            text = re.sub(r"(?m)^प्रश्न:", "", text)
+            # A number in Devanagari or Western digits, with the ending written on (१०वी, २०२४मध्ये, ५व्या), is a number.
+            text = re.sub(f"[०-९0-9]+[{MARATHI_LETTERS}]*", " ", text)
         if code == "bn":
             text = re.sub(r"(?m)^প্রশ্ন:", "", text)
             # A number in Bengali or Western digits, with the classifier or ending written on (১০টা, ৫ জন's ৫, ২০২৪-এ), is a number.
@@ -3389,6 +3436,11 @@ def check(path, brief=False):
         if code == "bn":
             lowered = [w if w in ranks or w in names or len(w) < 3 or w[-1] not in "ইও" or w[:-1] not in ranks else w[:-1]
                        for w in lowered]
+        # A Marathi word with the clitic -च "just", -ही "also" or -सुद्धा written on (घरीच, मीही) that the list lacks is read as
+        # the form without it.
+        if code == "mr":
+            lowered = [w if w in ranks or w in names else next((b for b in frequency_marathi.unclitic(w) if b in ranks), w)
+                       for w in lowered]
         # Swahili writes a verb with its markers in front (tutakapokutana) and an adjective with its class prefix (vizuri): a word
         # the list lacks is read by the rules the list was built with (frequency_swahili).
         if code == "sw":
@@ -3457,6 +3509,12 @@ def check(path, brief=False):
             problems.append("a letter with nukta typed as one character: write the text in NFC (letter + nukta)")
         if code == "si":
             problems += sinhala_problems(lesson["text"])
+        # The list and the dictionary have Marathi in NFC, its eyelash ra as ऱ् (दुसऱ्या): the reader reads one typed with a
+        # joiner (र् + ZWJ) or a precomposed nukta letter as another word.
+        if code == "mr" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
+            problems.append("a nukta letter typed as one character: write the text in NFC (letter + nukta)")
+        if code == "mr" and re.search("[\u200c\u200d]", lesson["text"]):
+            problems.append("a joiner in the text: write the eyelash ra as ऱ् (दुसऱ्या), with no joiner")
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
