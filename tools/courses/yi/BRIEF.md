@@ -4,13 +4,17 @@ Each course teaches one band of 100 words from the Yiddish word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its forms). Course `yi-mini-0300` teaches ranks 201–300
 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's words, so
 the course covers the band; a learner who finishes it knows the 300 most common words. `themes.tsv`
-gives each course its theme. The list has 5,581 words: the courses are `yi-mini-0100` to
-`yi-mini-5600`, 56 of them (the last band holds ranks 5501–5581).
+gives each course its theme. The list has 5,886 words: the courses are `yi-mini-0100` to
+`yi-mini-5900`, 59 of them (the last band holds ranks 5801–5886).
 
 The list was counted from Yiddish Wikipedia (Leipzig's sentences and the articles) and Tatoeba's
 everyday sentences. Wikipedia's Yiddish is written largely by Hasidic writers in unpointed
 spelling; the builder files those spellings under their YIVO words, so the list is in YIVO
-spelling and its forms include the unpointed ones (פון under פֿון, האט under האָבן).
+spelling and its forms include the unpointed ones (פון under פֿון, האט under האָבן). A word's forms
+include its regular inflections that the counts have, in YIVO spelling: a noun's plural (קאָנטינענטן,
+קרובֿים, רשימות), a verb's participles and zu-infinitive, also with a separable prefix (אויפֿגעהערט,
+אַרויסגעגאַנגען, באַשלאָסן, אָנצוקומען), an adjective's endings (דאָזיקע, הײַנטיקן). The ranks up to 1500
+are pinned as the first courses were written; the bands after it follow the rebuilt list.
 
 ## What the lessons are: mini stories
 
@@ -64,7 +68,7 @@ story; a lesson never needs another lesson to make sense.
     *אויב* and *טאָמער*, *כאָטש*, *אַפֿילו*;
   - ranks 3001–4000 (B2): a more descriptive style, the feuilleton (the light column on everyday
     life), dialogue that marks *דו* and *איר* (the polite form);
-  - ranks 4001–5600 (C1): written and press style: essays, portraits, reviews, calm news and feature
+  - ranks 4001–5900 (C1): written and press style: essays, portraits, reviews, calm news and feature
     writing, set expressions and proverbs used where they fit, the specialised words of trades,
     sciences and the arts, each made clear by its context.
   From rank 2000 a lesson may also be a short informative or opinion text (a column, a letter to a
@@ -171,8 +175,8 @@ Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, 
 Things to know about the Yiddish list:
 
 - The courses are pinned to `tools/courses/yi/wordlist.tsv`; `bands/*.txt` come from it and from
-  `extra_forms.tsv` (present tenses, imperatives, adjective endings and irregular forms the
-  Wikipedia counts lack).
+  `extra_forms.tsv` (irregular forms and the forms the counts lack: the list itself has the regular
+  plurals, participles, presents and adjective endings the counts have).
 - Wikipedia ranks religious and scholarly words high (*רבי* 30, *הרבֿ* 53, *רב* 78, *ישיבֿה* 120,
   *ספֿר* 154, the Hebrew months) and everyday words later than you might expect: *ווער* 126, *קליין*
   128, *הויז* 157, *זאָגן* 158, *איצט* 168, *טאַטע* 192, *יאָ* 197, *מאַמע* 248, *וויפֿל* 357, *ניין* 391,
