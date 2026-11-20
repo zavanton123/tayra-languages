@@ -81,7 +81,7 @@ class StatsService(
 
     /** The one rule for a study day, behind the streaks and the activity squares alike. */
     private fun study(read: Map<LocalDate, Int>, activity: LanguageActivity, today: LocalDate): StudyActivity =
-        StudyActivity.of(read, activity.reviews, activity.termsSaved, today)
+        StudyActivity.of(read, activity.reviews, activity.termsSaved, today, activity.reviewTime, activity.averageAnswer)
 
     /** The words counted as saved today in the language with [languageId], the latest first. */
     suspend fun savedToday(languageId: Long): List<SavedWord> = learning.savedOn(languageId, today())

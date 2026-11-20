@@ -390,6 +390,9 @@ private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) 
         SwitchSetting(tr("Show learning levels"), tr("Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known."), settings.showLearningLevels) { v ->
             viewModel.update { it.copy(showLearningLevels = v) }
         }
+        SettingRow(tr("Daily goal"), tr("Minutes of reading and flashcards a day. Home shows how far today has got."), divider = true, modifier = Modifier.testTag("daily-goal")) {
+            DailyGoalStepper(settings, viewModel)
+        }
         SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {
             NumberStepper(
                 value = settings.statsSampleSize,
@@ -399,6 +402,19 @@ private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) 
         }
     }
 }
+
+/** The daily goal in minutes, five at a time. */
+@Composable
+internal fun DailyGoalStepper(settings: UserSettings, viewModel: SettingsViewModel) {
+    NumberStepper(
+        value = settings.dailyGoalMinutes,
+        range = UserSettings.MIN_DAILY_GOAL..UserSettings.MAX_DAILY_GOAL,
+        name = tr("daily goal"),
+        step = DAILY_GOAL_STEP,
+    ) { n -> viewModel.update { it.copy(dailyGoalMinutes = n) } }
+}
+
+private const val DAILY_GOAL_STEP = 5
 
 /**
  * The `idiomiko` command of the desktop app: where a terminal finds it when it is on the PATH, else the

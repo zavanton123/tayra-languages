@@ -397,4 +397,7 @@ internal val deSettings: Map<String, String> = mapOf(
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Deine Wörter, Texte, dein Lesefortschritt und deine Lerneinstellungen werden mit deinem Konto und deinen anderen Geräten abgeglichen.",
     "Sign in to your account to sync your library with your other devices." to "Melde dich bei deinem Konto an, um deine Bibliothek mit deinen anderen Geräten zu synchronisieren.",
     "Open Account" to "Konto öffnen",
+    "Daily goal" to "Tagesziel",
+    "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minuten Lesen und Karteikarten am Tag. Die Startseite zeigt, wie weit du heute bist.",
+    "daily goal" to "Tagesziel",
 )

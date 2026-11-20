@@ -111,6 +111,7 @@ class SettingsRepositoryImpl(
             reduceMotion = store.getBoolean(Keys.REDUCE_MOTION, defaults.reduceMotion),
             experimentalVideos = store.getBoolean(Keys.EXPERIMENTAL_VIDEOS, defaults.experimentalVideos),
             showLearningLevels = store.getBoolean(Keys.SHOW_LEARNING_LEVELS, defaults.showLearningLevels),
+            dailyGoalMinutes = store.getInt(Keys.DAILY_GOAL, defaults.dailyGoalMinutes).coerceIn(UserSettings.MIN_DAILY_GOAL, UserSettings.MAX_DAILY_GOAL),
             statsSampleSize = store.getInt(Keys.STATS_SAMPLE_SIZE, defaults.statsSampleSize),
             readingFontScale = store.getFloat(Keys.FONT_SCALE, defaults.readingFontScale),
             readingLineHeight = store.getFloat(Keys.LINE_HEIGHT, defaults.readingLineHeight),
@@ -244,6 +245,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.REDUCE_MOTION, s.reduceMotion)
         store.putBoolean(Keys.EXPERIMENTAL_VIDEOS, s.experimentalVideos)
         store.putBoolean(Keys.SHOW_LEARNING_LEVELS, s.showLearningLevels)
+        store.putInt(Keys.DAILY_GOAL, s.dailyGoalMinutes)
         store.putInt(Keys.STATS_SAMPLE_SIZE, s.statsSampleSize)
         store.putFloat(Keys.FONT_SCALE, s.readingFontScale)
         store.putFloat(Keys.LINE_HEIGHT, s.readingLineHeight)
@@ -333,6 +335,7 @@ class SettingsRepositoryImpl(
         const val EXPERIMENTAL_VIDEOS = "experimental_videos"
         const val SHOW_LEARNING_LEVELS = "show_learning_levels"
         const val STATS_SAMPLE_SIZE = "stats_calc_sample_size"
+        const val DAILY_GOAL = "daily_goal_minutes"
         const val FONT_SCALE = "reading_font_scale"
         const val LINE_HEIGHT = "reading_line_height"
         const val READING_FONT = "reading_font"

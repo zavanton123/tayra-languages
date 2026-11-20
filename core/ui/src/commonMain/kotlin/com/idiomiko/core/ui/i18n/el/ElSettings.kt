@@ -397,4 +397,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Οι λέξεις, τα κείμενα, η ανάγνωση και οι ρυθμίσεις μάθησής σας ενημερώνονται με τον λογαριασμό και τις άλλες συσκευές σας.",
     "Sign in to your account to sync your library with your other devices." to "Συνδεθείτε στον λογαριασμό σας για να συγχρονίσετε τη βιβλιοθήκη σας με τις άλλες συσκευές σας.",
     "Open Account" to "Άνοιγμα λογαριασμού",
+    "Daily goal" to "Ημερήσιος στόχος",
+    "Minutes of reading and flashcards a day. Home shows how far today has got." to "Λεπτά ανάγνωσης και καρτών την ημέρα. Η αρχική σελίδα δείχνει πόσο έχεις προχωρήσει σήμερα.",
+    "daily goal" to "ημερήσιο στόχο",
 )

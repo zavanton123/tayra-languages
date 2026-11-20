@@ -397,4 +397,7 @@ internal val plSettings: Map<String, String> = mapOf(
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Twoje słowa, teksty, czytanie i ustawienia nauki zostaną uzgodnione z kontem i innymi urządzeniami.",
     "Sign in to your account to sync your library with your other devices." to "Zaloguj się na konto, aby synchronizować bibliotekę z innymi urządzeniami.",
     "Open Account" to "Otwórz konto",
+    "Daily goal" to "Cel dzienny",
+    "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minuty czytania i fiszek dziennie. Strona główna pokazuje, ile już dziś zrobiono.",
+    "daily goal" to "cel dzienny",
 )

@@ -2,6 +2,7 @@ package com.idiomiko.core.domain.stats
 
 import com.idiomiko.core.domain.model.TermStatus
 import kotlinx.datetime.LocalDate
+import kotlin.time.Duration
 import kotlin.time.Instant
 
 /** What the database holds about the reader's work in one language, beyond the words read. */
@@ -11,6 +12,10 @@ data class LanguageActivity(
     val termsSaved: Map<LocalDate, Int> = emptyMap(),
     /** Flashcard answers by day, and how many of them were not "Again". */
     val reviews: Map<LocalDate, Int> = emptyMap(),
+    /** The time the answers took by day, an answer from before it was timed counted as [StudyTime.UNTIMED_ANSWER]. */
+    val reviewTime: Map<LocalDate, Duration> = emptyMap(),
+    /** How long an answer takes on average, from the timed ones; null before any was timed. */
+    val averageAnswer: Duration? = null,
     val reviewsRemembered: Int = 0,
     val pagesRead: Int = 0,
     val booksFinished: Int = 0,

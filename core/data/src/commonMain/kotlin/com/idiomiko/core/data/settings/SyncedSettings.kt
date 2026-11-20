@@ -29,6 +29,7 @@ internal object SyncedSettings {
         text("nativeLanguage", { it.nativeLanguage }) { s, v -> s.copy(nativeLanguage = v) },
         text(MY_LANGUAGES, { it.myLanguages }) { s, v -> s.copy(myLanguages = v) },
         flag("showLearningLevels", { it.showLearningLevels }) { s, v -> s.copy(showLearningLevels = v) },
+        number("dailyGoalMinutes", { it.dailyGoalMinutes }) { s, v -> s.copy(dailyGoalMinutes = v.coerceIn(UserSettings.MIN_DAILY_GOAL, UserSettings.MAX_DAILY_GOAL)) },
         number("flashcardNewPerDay", { it.flashcardNewPerDay }) { s, v -> s.copy(flashcardNewPerDay = v.coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY)) },
         number("flashcardReviewsPerDay", { it.flashcardReviewsPerDay }) { s, v -> s.copy(flashcardReviewsPerDay = v.coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY)) },
         number("flashcardRetention", { it.flashcardRetention }) { s, v -> s.copy(flashcardRetention = v.coerceIn(UserSettings.MIN_FLASHCARD_RETENTION, UserSettings.MAX_FLASHCARD_RETENTION)) },

@@ -9,6 +9,9 @@ import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.stats.LanguageActivity
 import com.idiomiko.core.domain.stats.LearningStatsRepository
 import com.idiomiko.core.domain.stats.SavedWord
+import com.idiomiko.core.domain.stats.StudyTime
+import kotlin.time.Duration
+import kotlin.time.Duration.Companion.milliseconds
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.atStartOfDayIn
 import kotlinx.datetime.plus
@@ -31,6 +34,9 @@ class LearningStatsRepositoryImpl(
                 .groupBy({ it.first }, { it.second }).mapValues { (_, counts) -> counts.sum() },
             termsSaved = queries.termSavedTimes(languageId).awaitAsList().map { it.day() }.groupingBy { it }.eachCount(),
             reviews = reviews.map { it.reviewed_at.day() }.groupingBy { it }.eachCount(),
+            reviewTime = reviews.groupBy({ it.reviewed_at.day() }) { it.taken_ms?.milliseconds ?: StudyTime.UNTIMED_ANSWER }
+                .mapValues { (_, times) -> times.fold(Duration.ZERO, Duration::plus) },
+            averageAnswer = reviews.mapNotNull { it.taken_ms }.takeIf { it.isNotEmpty() }?.average()?.milliseconds,
             reviewsRemembered = reviews.count { it.rating.toInt() != Rating.AGAIN.value },
             pagesRead = queries.pagesRead(languageId).awaitAsOne().toInt(),
             booksFinished = queries.booksFinished(languageId).awaitAsOne().toInt(),

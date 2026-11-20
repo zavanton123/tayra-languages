@@ -397,4 +397,7 @@ internal val esSettings: Map<String, String> = mapOf(
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Tus palabras, textos, lectura y ajustes de aprendizaje se ponen al día con tu cuenta y tus otros dispositivos.",
     "Sign in to your account to sync your library with your other devices." to "Inicia sesión en tu cuenta para sincronizar tu biblioteca con tus otros dispositivos.",
     "Open Account" to "Abrir la cuenta",
+    "Daily goal" to "Objetivo diario",
+    "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minutos de lectura y tarjetas al día. Inicio muestra cuánto llevas hoy.",
+    "daily goal" to "objetivo diario",
 )

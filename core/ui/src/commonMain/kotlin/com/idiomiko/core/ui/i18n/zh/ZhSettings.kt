@@ -397,4 +397,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "你的单词、文本、阅读进度和学习设置将与你的账户和其他设备保持一致。",
     "Sign in to your account to sync your library with your other devices." to "登录你的账户，即可在其他设备间同步你的资料库。",
     "Open Account" to "打开账户",
+    "Daily goal" to "每日目标",
+    "Minutes of reading and flashcards a day. Home shows how far today has got." to "每天阅读和复习抽认卡的分钟数。主页会显示今天的进度。",
+    "daily goal" to "每日目标",
 )

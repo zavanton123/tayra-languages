@@ -23,6 +23,8 @@ data class UserSettings(
     val experimentalVideos: Boolean = true,
     /** Show the four learning levels, 1 to 4, rather than one Learning status; the levels are kept either way. */
     val showLearningLevels: Boolean = false,
+    /** Minutes of study a day the reader aims for, reading and flashcards together; Home shows how far today has got. */
+    val dailyGoalMinutes: Int = DEFAULT_DAILY_GOAL,
     val statsSampleSize: Int = 5,
     val readingFontScale: Float = 1.0f,
     val readingLineHeight: Float = 1.6f,
@@ -164,6 +166,9 @@ data class UserSettings(
     companion object {
         const val DEFAULT_THEME = "default"
         const val DEFAULT_READING_FONT = "serif"
+        const val DEFAULT_DAILY_GOAL = 15
+        const val MIN_DAILY_GOAL = 5
+        const val MAX_DAILY_GOAL = 180
         const val MIN_STATS_SAMPLE_SIZE = 1
         const val MAX_STATS_SAMPLE_SIZE = 500
         const val MAX_FLASHCARDS_PER_DAY = 9999

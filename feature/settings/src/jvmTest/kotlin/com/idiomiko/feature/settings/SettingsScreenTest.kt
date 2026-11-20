@@ -63,6 +63,9 @@ class SettingsScreenTest {
         onNodeWithText("130%").assertExists()
         onNodeWithContentDescription("Decrease book stats page sample size").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.statsSampleSize == 4 }
+        // The daily goal moves five minutes at a time.
+        onNodeWithContentDescription("Increase daily goal").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.dailyGoalMinutes == 20 }
 
         // The reading font is chosen from a list whose entries are drawn in their own fonts.
         onNodeWithText("System serif").performClick()

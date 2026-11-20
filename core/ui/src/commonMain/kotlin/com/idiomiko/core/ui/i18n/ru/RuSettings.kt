@@ -397,4 +397,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Ваши слова, тексты, чтение и настройки обучения будут обновлены по аккаунту и другим вашим устройствам.",
     "Sign in to your account to sync your library with your other devices." to "Войдите в аккаунт, чтобы синхронизировать библиотеку с другими устройствами.",
     "Open Account" to "Открыть аккаунт",
+    "Daily goal" to "Цель на день",
+    "Minutes of reading and flashcards a day. Home shows how far today has got." to "Минуты чтения и карточек в день. На главной видно, сколько уже сделано сегодня.",
+    "daily goal" to "цель на день",
 )
