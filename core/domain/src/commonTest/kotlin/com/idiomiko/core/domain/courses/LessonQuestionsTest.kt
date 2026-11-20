@@ -33,6 +33,7 @@ class LessonQuestionsTest {
             "Questions :", "Հարցեր․", "پرسش‌ها:", "คำถาม:", "សំណួរ៖", "Mga tanong:", "问题：", "Ἐρωτήσεις:", "Pyetje:",
             "פֿראַגעס:", "Асуултууд:", "ຄຳຖາມ:", "Jautājumi:", "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:",
             "Пытанні:", "Mistoqsijiet:", "Soalan:", "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:", "प्रश्नहरू:",
+            "پوښتنې:",
         )
         for (header in headers) {
             assertEquals(1, LessonQuestions.split("Story.\n\n$header\nQ?\nA.")?.questions?.size, header)

@@ -35,6 +35,7 @@ import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
 import frequency_nepali  # noqa: E402
+import frequency_pashto  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -274,6 +275,9 @@ def fold(code, word):
     # Urdu words are matched as the reader matches them (UrduParser): ک, ی and ہ for ك, ي and ه, no marks, no non-joiner.
     if code == "ur":
         return frequency_urdu.urdu_fold(word)
+    # Pashto words are matched as the reader matches them (PashtoParser): its yes all as ي, ك as ک, گ as ګ, no marks.
+    if code == "ps":
+        return frequency_pashto.pashto_fold(word)
     if code == "grc":
         return greek_folded(word)
     # The Maltese reader reads ’ ‘ ´ ` as the apostrophe (ta’, f’Malta).
@@ -737,6 +741,9 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
     if code == "ur":
         return URDU_WORD.findall(frequency_urdu.urdu_fold(text))
+    # A Pashto word: a run of the reader's word characters for Pashto (AddedLanguages), folded after it is cut.
+    if code == "ps":
+        return [f for f in map(frequency_pashto.pashto_fold, frequency_pashto.READER_WORD.findall(text)) if f]
     if code == "hy":
         text = text.translate(ARMENIAN_WORD_MARKS)
     # The reader cuts Albanian at an apostrophe, which is no letter of its words: s'kam is s + kam, t'i is t + i.
@@ -2679,7 +2686,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:",
     )
 }
 
@@ -3224,6 +3231,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^wile sona:", "", text)
         if code == "ur":
             text = re.sub(r"(?m)^سوالات:", "", text)
+        if code == "ps":
+            text = re.sub(r"(?m)^پوښتنې:", "", text)
         if code == "mn":
             text = re.sub(r"(?m)^Асуултууд:", "", text)
         if code == "lv":
