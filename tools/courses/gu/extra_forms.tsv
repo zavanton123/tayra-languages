@@ -1,3 +1,4 @@
 # Forms of list words that the list and the list builder's rules (tools/frequency_gujarati.py) both lack, which
 # ordinary text needs: headword<TAB>forms. The checker reads a rule-made form (કરાવીશું, છોકરાઓમાં) without them.
 બંને	બંનેને
+બંને	બંનેએ
