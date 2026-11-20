@@ -66,7 +66,6 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -285,7 +284,7 @@ private fun TopicChip(topic: Topic, selected: Boolean, onClick: () -> Unit) {
         Modifier.clip(AppShapes.pill).background(if (selected) HERO_TEXT else HERO_TEXT.copy(alpha = AppAlpha.soft)).clickable(onClick = onClick)
             .padding(horizontal = AppSpacing.m, vertical = AppSpacing.xs + AppSpacing.xxs).testTag("topic-${topic.name}"),
     ) {
-        Text(topic.label, style = AppText.labelStrong.copy(fontSize = 13.sp), color = if (selected) HERO_END else HERO_TEXT, maxLines = 1, softWrap = false)
+        Text(topic.label, style = AppText.labelStrong, color = if (selected) HERO_END else HERO_TEXT, maxLines = 1, softWrap = false)
     }
 }
 
@@ -300,7 +299,7 @@ private fun HowHard(minKnown: Int, onChange: (Int) -> Unit, compact: Boolean) {
         Text(
             if (minKnown == 0) tr("All levels") else tr("{0}%+ known", minKnown),
             Modifier.testTag("how-hard-threshold"),
-            style = AppText.labelStrong.copy(fontWeight = FontWeight.Bold),
+            style = AppText.labelBold,
             color = if (minKnown == 0) colors.onSurfaceVariant else knownTint(minKnown),
             maxLines = 1,
             softWrap = false,
@@ -308,7 +307,7 @@ private fun HowHard(minKnown: Int, onChange: (Int) -> Unit, compact: Boolean) {
     }
     val hard: @Composable () -> Unit = { Text(tr("Hard"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
     val easy: @Composable () -> Unit = { Text(tr("Easy"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
-    val title: @Composable () -> Unit = { Text(tr("How hard?"), style = AppText.labelStrong.copy(fontWeight = FontWeight.Bold)) }
+    val title: @Composable () -> Unit = { Text(tr("How hard?"), style = AppText.labelBold) }
     if (compact) {
         Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("how-hard"), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             Row(verticalAlignment = Alignment.CenterVertically) { Box(Modifier.weight(1f)) { title() }; threshold() }
@@ -400,7 +399,7 @@ private fun Shelves(state: FindBooksUiState, actions: FindBooksActions, open: (F
 private fun ShelfRow(shelf: Shelf, books: ShelfBooks<FoundBookItem>, state: FindBooksUiState, actions: FindBooksActions, open: (FoundBookItem) -> Unit, compact: Boolean) {
     Column(Modifier.fillMaxWidth().testTag("shelf-${shelf.name}"), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         SectionTitle(shelf.title, shelf.subtitle(state), compact) {
-            LinkText(tr("See all"), onClick = { actions.onShowAll(shelf) }, modifier = Modifier.testTag("see-all-${shelf.name}"), style = AppText.labelStrong.copy(fontWeight = FontWeight.Bold))
+            LinkText(tr("See all"), onClick = { actions.onShowAll(shelf) }, modifier = Modifier.testTag("see-all-${shelf.name}"), style = AppText.labelBold)
         }
         val meta: @Composable (FoundBookItem) -> String = { item -> meta(item, byAuthor = shelf == Shelf.CLASSICS_WITHIN_REACH, hard = books.books.indexOf(item) >= books.hardFrom) }
         if (compact) {
@@ -469,7 +468,7 @@ private fun CoverTile(item: FoundBookItem, width: Dp, meta: String, actions: Fin
             KnownBadge(item, Modifier.align(Alignment.TopStart).padding(AppSpacing.m))
             AddBadge(item, actions, Modifier.align(Alignment.TopEnd).padding(AppSpacing.s))
         }
-        Text(book.title.inLearnedScript(), Modifier.padding(top = AppSpacing.m), style = AppText.itemTitle.copy(fontWeight = FontWeight.Bold), maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(book.title.inLearnedScript(), Modifier.padding(top = AppSpacing.m), style = AppText.itemTitleBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Text(meta, Modifier.padding(top = AppSpacing.xxs), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         item.error?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.error, maxLines = 1, overflow = TextOverflow.Ellipsis) }
     }
@@ -480,9 +479,9 @@ private fun CoverTile(item: FoundBookItem, width: Dp, meta: String, actions: Fin
 private fun KnownBadge(item: FoundBookItem, modifier: Modifier) {
     val coverage = item.coverage
     if (coverage == null && item.check != CoverageCheck.Checking) return
-    Box(modifier.clip(AppShapes.compact).background(BADGE_BACKGROUND).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs + 1.dp).testTag("known-${item.book.id}")) {
+    Box(modifier.clip(AppShapes.compact).background(BADGE_BACKGROUND).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs).testTag("known-${item.book.id}")) {
         if (coverage == null) AppSpinner(Modifier.size(AppSizes.iconTiny), size = SpinnerSize.Small)
-        else Text("${coverage.percent}%", style = AppText.badge.copy(fontWeight = FontWeight.ExtraBold), color = coverage.difficulty.color, maxLines = 1, softWrap = false)
+        else Text("${coverage.percent}%", style = AppText.badgeBold, color = coverage.difficulty.color, maxLines = 1, softWrap = false)
     }
 }
 
@@ -522,7 +521,7 @@ private fun Results(state: FindBooksUiState, actions: FindBooksActions, open: (F
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m), modifier = Modifier.testTag("results")) {
         val title = if (state.searched.isNotBlank()) tr("Results for “{0}”", state.searched) else state.topic?.label.orEmpty()
         SectionTitle(title, count(results), compact) {
-            LinkText(if (state.searched.isNotBlank()) tr("Clear search") else tr("Clear filters"), onClick = actions.onClearSearch, modifier = Modifier.testTag("clear-search"), style = AppText.labelStrong.copy(fontWeight = FontWeight.Bold))
+            LinkText(if (state.searched.isNotBlank()) tr("Clear search") else tr("Clear filters"), onClick = actions.onClearSearch, modifier = Modifier.testTag("clear-search"), style = AppText.labelBold)
         }
         when {
             results.books.isNotEmpty() -> BookGrid(results.books, compact, actions, open) { meta(it, byAuthor = false) }
@@ -682,7 +681,7 @@ private fun LibraryCard(source: BookSource, status: LibraryStatus, selected: Boo
                 }
             }
         }
-        Text(source.label, Modifier.padding(top = AppSpacing.m), style = AppText.itemTitle.copy(fontWeight = FontWeight.Bold), maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Text(source.label, Modifier.padding(top = AppSpacing.m), style = AppText.itemTitleBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Text(source.blurb, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Spacer(Modifier.weight(1f).height(AppSpacing.m))
         val (text, tint) = when (status) {
@@ -692,8 +691,8 @@ private fun LibraryCard(source: BookSource, status: LibraryStatus, selected: Boo
             LibraryStatus.UNREACHABLE -> tr("Can't reach right now") to AppAccents.orange
         }
         Row(Modifier.padding(top = AppSpacing.m).testTag("library-status-${source.name}"), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Box(Modifier.padding(top = AppSpacing.xs + 1.dp).size(AppSizes.dotSmall + 1.dp).clip(AppShapes.circle).background(tint))
-            Text(text, style = AppText.badge.copy(fontWeight = FontWeight.Bold), color = AppAccents.onWash(tint), maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Box(Modifier.padding(top = AppSpacing.xs).size(AppSizes.dotSmall).clip(AppShapes.circle).background(tint))
+            Text(text, style = AppText.badgeBold, color = AppAccents.onWash(tint), maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
     }
 }
@@ -758,9 +757,9 @@ internal val BookSource.icon: ImageVector
 private val BookSource.tint: Color get() = AppAccents.sequence[ordinal % AppAccents.sequence.size]
 
 /** The hero's navy, from the top left to the bottom right, under white type. */
-private val HERO_START = Color(0xFF1F5F8B)
-private val HERO_END = Color(0xFF24406B)
-private val HERO_TEXT = Color.White
+private val HERO_START = AppAccents.heroStart
+private val HERO_END = AppAccents.heroEnd
+private val HERO_TEXT = AppAccents.onAccent
 private const val HERO_MUTED = 0.82f
 private val HERO_RADIUS = 26.dp
 private val HERO_RADIUS_COMPACT = 20.dp
@@ -773,7 +772,7 @@ private val HERO_MASCOT = 210.dp
 private val HERO_PICTURE_FROM = 760.dp
 
 /** The white tab under a cover's share and its add button, a touch see-through. */
-private val BADGE_BACKGROUND = Color.White.copy(alpha = 0.94f)
+private val BADGE_BACKGROUND = AppAccents.onAccent
 private val ADD_BADGE = 30.dp
 
 private val SCALE_HEIGHT = 28.dp

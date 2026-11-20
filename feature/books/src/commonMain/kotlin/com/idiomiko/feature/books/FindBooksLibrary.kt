@@ -27,7 +27,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.books.discover.BookSource
@@ -59,7 +58,7 @@ internal fun LibraryChip(source: BookSource, onClear: () -> Unit) {
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Icon(source.icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconTiny))
-        Text(source.label, Modifier.padding(start = AppSpacing.s, end = AppSpacing.xs), style = AppText.labelStrong.copy(fontWeight = FontWeight.Bold), color = colors.primary, maxLines = 1)
+        Text(source.label, Modifier.padding(start = AppSpacing.s, end = AppSpacing.xs), style = AppText.labelBold, color = colors.primary, maxLines = 1)
         Icon(Icons.Default.Close, contentDescription = tr("Show every library"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconTiny))
     }
 }

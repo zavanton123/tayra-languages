@@ -48,6 +48,10 @@ object AppAccents {
     /** A mark on a solid accent or status colour, such as a tick on a filled box. */
     val onAccent = Color.White
 
+    /** The deep blues of a hero banner, from its top left to its bottom right, with [onAccent] text on them. */
+    val heroStart = Color(0xFF1F5F8B)
+    val heroEnd = Color(0xFF24406B)
+
     /**
      * An accent used as text or an icon on a wash of itself. On a dark surface the darker accents
      * (blue, purple, red) are too dim to read, so there they are lifted toward the theme's text colour.
@@ -253,6 +257,15 @@ object AppText {
 
     /** The text of a badge, a tag or a small caption that stands out. */
     val badge: TextStyle @Composable get() = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.SemiBold)
+
+    /** A label in bold: a control's own title, or a figure beside a scale. */
+    val labelBold: TextStyle @Composable get() = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold)
+
+    /** An item's title in bold, under a picture: a cover's or a library card's name. */
+    val itemTitleBold: TextStyle @Composable get() = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold)
+
+    /** A badge in bold, read at a glance on a picture: a share known, a status. */
+    val badgeBold: TextStyle @Composable get() = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.Bold)
 
     /** Small capitals above content: a card's state ("NEW"), an exercise's instruction. */
     val overline = TextStyle(fontSize = 12.sp, letterSpacing = 1.2.sp, fontWeight = FontWeight.Bold)
