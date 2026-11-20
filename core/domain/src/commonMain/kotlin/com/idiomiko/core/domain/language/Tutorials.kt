@@ -2770,6 +2770,46 @@ Na računalniku z bližnjicami na tipkovnici berete hitreje. Številke od 1 do 4
 
 V Nastavitvah lahko izberete tudi svoj materni jezik, jezik vmesnika, slovarje brez povezave in glasove. Zdaj odprite Tečaje, izberite prvi tečaj in začnite brati. Veliko uspeha!""",
             ),
+            "so" to Tutorial(
+                title = "Sida wax loogu barto Idiomiko",
+                text = """Ku soo dhawoow Idiomiko! Buuggan gaaban wuxuu ku tusayaa sida aad u isticmaali karto barnaamijka si aad luqad ugu barato akhris. Wuxuu ku qoran yahay luqadda aad baranayso, sidaa darteed waa qoraalka ugu horreeya ee aad ku tababaranayso. Ha welwelin haddii aadan weli fahmin eray kasta.
+
+Sababta akhrisku wax u tarayo
+
+Luqad waxaan sida ugu wanaagsan uga barannaa qoraallo badan oo xiiso leh oo aan ku dhowaad fahmi karno. Marka aad taqaanno inta badan erayada bog ku qoran, waad qiyaasi kartaa inta kale, eray kasta oo cusubna wuu fududaanayaa in la xasuusto. Idiomiko wuxuu kaa caawiyaa inaad hesho qoraallo noocaas ah, wuxuuna xasuustaa eray kasta oo aad la kulanto.
+
+Midabadu waxay muujiyaan waxa aad taqaanno
+
+Erayada aadan weli kaydin waa buluug: waa kuu cusub yihiin. Riix eray si aad u aragto turjumaaddiisa oo ku qoran luqaddaada hooyo, si aad uga raadiso qaamuus ama aad u maqasho sida loogu dhawaaqo. Kadib dooro inta aad u taqaanno. Heerarka 1 ilaa 4 waxay ka dhigan yihiin inaad weli baranayso erayga, midabkiisuna wuu khafiifaa markaad sii barato. La yaqaan waxay ka dhigan tahay inaad erayga si fiican u taqaanno, markaas midab ma yeesho. Iska dhaaf waxaa loogu talagalay magacyada, tirooyinka iyo erayada kale ee aadan u baahnayn inaad barato. Waxaad sidoo kale kaydin kartaa weedh ka kooban dhowr eray oo wada jira.
+
+Dhammee bog kasta
+
+Dhammaadka bogga, u calaamadee erayada hadhay inay yihiin kuwo la yaqaan. Eray kasta oo buluug ah oo bogga ku hadhay wuxuu noqonayaa mid la yaqaan. Sidan ayuu Idiomiko ku ogaadaa erayada aad hore u taqaanno, ee daacad ahaw: haddii eray aanu weli kuu caddayn, marka hore riix oo sii heer barasho. Markaas bogga xiga wuxuu muujinayaa erayo buluug ah oo ka yar.
+
+Dhageyso oo turjun
+
+Riix badhanka ciyaarista si aad u maqasho qoraalka oo kor loo akhrinayo, jumlad jumlad. Marka hakadka tooska ahi shidan yahay, akhrisku wuu istaagaa jumlad kasta kadib, si aad ugu celin karto. Haddii jumlad ay aad u adag tahay, waad turjumi kartaa, laakiin marka hore isku day inaad adigu fahanto.
+
+Koorsooyinka iyo qoraalladaada
+
+Shaashadda Koorsooyinka waxaa ku jira koorsooyin diyaarsan: sheekooyin gaagaaban oo fudud, laga bilaabo heerka ugu fudud, A1, ilaa kan ugu adag, C2. Koorso kastaa waxay baraysaa boqolka eray ee xiga ee ugu badan luqadda. Waxaad soo dejisan kartaa koorsooyinka luqaddaada adigoo galaya Dejinta, qaybta Koorsooyinka. Buugaagta waxaad sidoo kale ku dari kartaa qoraalladaada: ku dheji maqaal, soo geli fayl, ama koorso adiga kuu gaar ah ka samee qoraallo aad dooratay.
+
+Heerka erayadaada
+
+Qaybta Erayada, liiska erayada ugu badan wuxuu muujinayaa erayada ugu caansan luqaddaada. Haddii aad hore wax uga taqaanno luqadda, halkaas ku dhig heerka erayadaada, Idiomikona wuxuu kuu calaamadeynayaa erayada ugu badan inay yihiin kuwo la yaqaan.
+
+Kaararka
+
+Eray kasta oo aad baranayso wuxuu helaa kaar. Maalin kasta, dib u eeg kaararka waqtigoodu yimid ee ku jira Kaararka; dhowr daqiiqo ayaa ku filan. Akhrisku weli waa shaqada ugu muhiimsan, kaararkuna waxay ka caawiyaan erayada cusub inay kula sii jiraan.
+
+Ka dhig caado
+
+Wax yar akhri maalin kasta, xitaa toban daqiiqo. Dooro qoraallo aad jeceshahay, oo akhri in ka badan hal mar. Dhageyso oo akhri isku mar. Ha kaydin eray kasta: kaydi erayada aad rabto inaad barato, oo sii wad akhriska. Horumarkaaga waxaad ku arki kartaa tirakoobka, iyo erayada aan hadda buluug ahayn.
+
+Kombiyuutarka, furayaasha gaagaaban ee kiiboodhku waxay akhriska ka dhigaan mid degdeg ah. Tirooyinka 1 ilaa 4 waxay dhigaan heer, K wuxuu erayga u calaamadeeyaa mid la yaqaan, I wuu iska dhaafaa, T wuxuu turjumaa jumladda, furaha bannaankuna wuu daaraa ama hakiyaa codka. Dhammaantood waxaad ka heli doontaa Dejinta, qaybta Furayaasha kiiboodhka.
+
+Dejinta waxaad sidoo kale ku dooran kartaa luqaddaada hooyo, luqadda barnaamijka, qaamuusyada aan internetka u baahnayn iyo codadka. Hadda fur Koorsooyinka, dooro koorsada ugu horreysa oo bilow akhriska. Nasiib wanaagsan!""",
+            ),
             "sq" to Tutorial(
                 title = "Si të mësosh me Idiomiko",
                 text = """Mirë se erdhe në Idiomiko! Ky libër i shkurtër të tregon si ta përdorësh aplikacionin për të mësuar një gjuhë duke lexuar. Është shkruar në gjuhën që po mëson, prandaj është edhe teksti yt i parë për ushtrim. Mos u shqetëso nëse ende nuk e kupton çdo fjalë.

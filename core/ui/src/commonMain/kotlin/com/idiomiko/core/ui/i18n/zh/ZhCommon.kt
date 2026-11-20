@@ -90,6 +90,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Sinhala" to "僧伽罗语",
     "Slovak" to "斯洛伐克语",
     "Slovene" to "斯洛文尼亚语",
+    "Somali" to "索马里语",
     "Spanish" to "西班牙语",
     "Swahili" to "斯瓦希里语",
     "Swedish" to "瑞典语",

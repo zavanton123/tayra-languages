@@ -113,4 +113,12 @@ class LanguageCodesTest {
         assertNotNull(Tutorials.forLanguage("Zulu"))
         assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Zulu" }.language.parserType)
     }
+
+    @Test
+    fun somaliIsALanguageWithItsTutorial() {
+        assertEquals("so", LanguageCodes.codeFor("Somali"))
+        assertEquals("som", LanguageCodes.tatoebaCode("so"))
+        assertNotNull(Tutorials.forLanguage("Somali"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Somali" }.language.parserType)
+    }
 }

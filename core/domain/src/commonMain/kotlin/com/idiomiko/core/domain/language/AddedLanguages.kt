@@ -486,6 +486,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun somali() = LanguageDefinition(
+        language = Language(
+            name = "Somali",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Somali", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/so/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=so&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?",
+            exceptionsSplitSentences = "Dr.|Prof.|Md.|Mud.|Mr.|iwm.|tus.",
+            wordCharacters = "a-zA-Z'",
+            rightToLeft = false,
+            showRomanization = false,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun tagalog() = LanguageDefinition(
         language = Language(
             name = "Tagalog",
@@ -637,6 +655,7 @@ object AddedLanguages {
             pashto(),
             scottishGaelic(),
             sinhala(),
+            somali(),
             tagalog(),
             tamil(),
             telugu(),

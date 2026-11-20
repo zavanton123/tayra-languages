@@ -1,0 +1,18 @@
+name: Somali
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Somali"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/so/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=so&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?"
+split_sentence_exceptions: "Dr.|Prof.|Md.|Mud.|Mr.|iwm.|tus."
+word_chars: "a-zA-Z'"
+right_to_left: false
+show_romanization: false
+parser_type: spacedel

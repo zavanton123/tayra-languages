@@ -90,6 +90,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Sinhala" to "Cingalais",
     "Slovak" to "Slovaque",
     "Slovene" to "Slovène",
+    "Somali" to "Somali",
     "Spanish" to "Espagnol",
     "Swahili" to "Swahili",
     "Swedish" to "Suédois",

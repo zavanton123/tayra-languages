@@ -191,6 +191,15 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun somaliKeepsTheGlottalStopInsideAndAtTheEndOfAWord() {
+        val somali = LanguageDefinitions.all.single { it.name == "Somali" }.language
+        assertEquals(
+            "[Hooyo] [su'aal] [bay] [i] [weydiisay]: [lo'da] [immisa] [ah]? [Sanadka] 2024-[ka] [da'] [yar].",
+            tokensAsString("Hooyo su’aal bay i weydiisay: lo'da immisa ah? Sanadka 2024-ka da' yar.", somali),
+        )
+    }
+
+    @Test
     fun numberedAssignsSentences() {
         val tokens = parser.parse("Hi there. Bye.", TestLanguages.english).numbered()
         assertEquals(listOf("Hi", " ", "there", ". ", "Bye", "."), tokens.map { it.token })

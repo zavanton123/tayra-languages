@@ -90,6 +90,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Sinhala" to "Cingalés",
     "Slovak" to "Eslovaco",
     "Slovene" to "Esloveno",
+    "Somali" to "Somalí",
     "Spanish" to "Español",
     "Swahili" to "Suajili",
     "Swedish" to "Sueco",
