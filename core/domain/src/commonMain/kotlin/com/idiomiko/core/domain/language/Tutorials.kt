@@ -170,6 +170,46 @@ In Instellings kan jy ook jou moedertaal, die taal van die koppelvlak, vanlyn wo
 
 وفي الإعدادات كمان تقدر تختار لغتك الأم، ولغة الواجهة، وقواميس من غير نت، والأصوات. يلا افتح الكورسات، واختار أول كورس، وابدأ القراية. بالتوفيق!""",
             ),
+            "az" to Tutorial(
+                title = "Idiomiko ilə necə öyrənmək olar",
+                text = """Idiomiko-ya xoş gəlmisiniz! Bu qısa kitab tətbiqdən oxuyaraq dil öyrənmək üçün necə istifadə etməyi göstərir. O, öyrəndiyiniz dildə yazılıb, buna görə də həm də sizin ilk məşq mətninizdir. Hələ hər sözü başa düşmürsünüzsə, narahat olmayın.
+
+Oxumaq niyə kömək edir
+
+Dili ən yaxşı, demək olar ki, başa düşə bildiyimiz çoxlu maraqlı mətnlərdən öyrənirik. Səhifədəki sözlərin çoxunu bildiyiniz zaman qalanını təxmin edə bilərsiniz və hər yeni sözü yadda saxlamaq daha asan olur. Idiomiko sizə belə mətnlər tapmağa kömək edir və rastlaşdığınız hər sözü yadda saxlayır.
+
+Rənglər nəyi bildiyinizi göstərir
+
+Hələ saxlamadığınız sözlər mavidir: onlar sizin üçün yenidir. Sözün ana dilinizdəki tərcüməsini görmək, onu lüğətdə axtarmaq və ya necə səsləndiyini eşitmək üçün sözə klikləyin. Sonra onu nə qədər yaxşı bildiyinizi seçin. 1-dən 4-ə qədər statuslar sözü hələ öyrəndiyinizi bildirir və siz onu öyrəndikcə rəngi açılır. Bilinən o deməkdir ki, sözü yaxşı bilirsiniz və onda onun heç bir rəngi olmur. Nəzərə alma adlar, rəqəmlər və öyrənməyə ehtiyacınız olmayan digər sözlər üçündür. Bir neçə sözdən ibarət ifadəni də birlikdə saxlaya bilərsiniz.
+
+Hər səhifəni sona çatdırın
+
+Səhifənin sonunda qalan sözləri bilinən kimi qeyd edin. Səhifədə qalan hər mavi söz bilinən olur. Idiomiko hansı sözləri artıq bildiyinizi belə öyrənir, buna görə də dürüst olun: söz hələ aydın deyilsə, əvvəlcə ona klikləyin və ona öyrənmə statusu verin. Onda növbəti səhifədə daha az mavi söz olacaq.
+
+Dinləyin və tərcümə edin
+
+Mətnin cümlə-cümlə ucadan oxunmasını eşitmək üçün oynatma düyməsini basın. Avtomatik fasilə açıq olanda oxu hər cümlədən sonra dayanır ki, onu təkrar edə biləsiniz. Cümlə çox çətindirsə, onu tərcümə edə bilərsiniz, amma əvvəlcə onu özünüz başa düşməyə çalışın.
+
+Kurslar və öz mətnləriniz
+
+Kurslar ekranında hazır kurslar var: ən asan səviyyədən, A1-dən, ən çətin səviyyəyə, C2-yə qədər qısa və sadə hekayələr. Hər kurs dilin ən çox işlənən sözlərindən növbəti yüzünü öyrədir. Dilinizin kurslarını Parametrlərdə, Kurslar bölməsində yükləyə bilərsiniz. Kitablarda öz mətnlərinizi də əlavə edə bilərsiniz: məqalə yapışdırın, fayl idxal edin və ya seçdiyiniz mətnlərdən öz kursunuzu yaradın.
+
+Söz ehtiyatınızın səviyyəsi
+
+Söz ehtiyatı bölməsində sözlərin tezlik siyahısı dilinizin ən çox işlənən sözlərini göstərir. Dili artıq bir az bilirsinizsə, söz ehtiyatı səviyyənizi orada seçin və Idiomiko ən çox işlənən sözləri sizin üçün bilinən kimi qeyd edəcək.
+
+Kartlar
+
+Öyrəndiyiniz hər söz üçün bir kart yaranır. Hər gün Kartlar bölməsində vaxtı çatmış kartları təkrarlayın; bir neçə dəqiqə kifayətdir. Oxumaq yenə də əsas işdir, kartlar isə yeni sözlərin yadınızda qalmasına kömək edir.
+
+Bunu vərdişə çevirin
+
+Hər gün bir az oxuyun, on dəqiqə olsa belə. Xoşunuza gələn mətnləri seçin və onları bir dəfədən çox oxuyun. Eyni vaxtda dinləyin və oxuyun. Hər sözü saxlamayın: öyrənmək istədiyiniz sözləri saxlayın və oxumağa davam edin. İrəliləyişinizi statistikada və artıq mavi olmayan sözlərdə görə bilərsiniz.
+
+Kompüterdə klaviatura qısayolları oxumağı sürətləndirir. 1-dən 4-ə qədər rəqəmlər status verir, K sözü bilinən kimi qeyd edir, I onu nəzərə almır, T cümləni tərcümə edir, boşluq düyməsi isə səsi oynadır və ya dayandırır. Onların hamısını Parametrlərdə, Klaviatura qısayolları bölməsində tapacaqsınız.
+
+Parametrlərdə ana dilinizi, interfeysin dilini, oflayn lüğətləri və səsləri də seçə bilərsiniz. İndi Kursları açın, birinci kursu seçin və oxumağa başlayın. Uğurlar!""",
+            ),
             "be" to Tutorial(
                 title = "Як вучыць мову з Idiomiko",
                 text = """Вітаем у Idiomiko! Гэтая невялікая кніга пакажа вам, як вучыць мову з дапамогай праграмы, чытаючы тэксты. Яна напісана на мове, якую вы вывучаеце, таму гэта таксама ваш першы тэкст для практыкі. Не хвалюйцеся, калі пакуль разумееце не ўсе словы.

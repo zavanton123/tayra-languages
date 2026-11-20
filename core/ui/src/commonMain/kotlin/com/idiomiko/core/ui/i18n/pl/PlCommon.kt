@@ -21,6 +21,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Arabic" to "Arabski",
     "Armenian" to "Ormiański",
     "Assyrian" to "Asyryjski",
+    "Azerbaijani" to "Azerbejdżański",
     "Basque" to "Baskijski",
     "Belarusian" to "Białoruski",
     "Bosnian" to "Bośniacki",

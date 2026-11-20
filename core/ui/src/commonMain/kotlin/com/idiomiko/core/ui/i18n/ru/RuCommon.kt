@@ -21,6 +21,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Arabic" to "Арабский",
     "Armenian" to "Армянский",
     "Assyrian" to "Ассирийский",
+    "Azerbaijani" to "Азербайджанский",
     "Basque" to "Баскский",
     "Belarusian" to "Белорусский",
     "Bosnian" to "Боснийский",
