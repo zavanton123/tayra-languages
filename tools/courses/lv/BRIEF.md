@@ -204,7 +204,11 @@ Things to know about the Latvian list and the checker:
   other languages, the reflexive and prefixed verbs made from the pack's verbs (*noņemt*, *satikt*,
   *priecāties*), and a few common words no pack has (*labprāt*, *citur*, *papildus*). It was rebuilt
   after course 1400 (from 6,757 words to 10,000): ranks 1–1400 kept their order, and the words it
-  gained follow them (see "Words the list lacks").
+  gained follow them (see "Words the list lacks"). Past 1400 it was re-spliced once more to drop
+  words made from look-alikes (*sēdēties*, *piesacīties*, *mēģināties*, *jubilejs*), to stop
+  *pievērt* "to close a little" taking *pievērst*'s *pievērs*, and to add the words whose forms
+  they took (*sēsties*, *apsēsties*, *pievērst*, *attiekties*, *jubileja*, *izmērs*, *pārskats*,
+  *apmaksa*, *piekļuve*).
 - **The checker has no Latvian rules of its own** beyond leaving out the `Jautājumi:` header: it
   cuts words at spaces, punctuation and hyphens, and looks each one up as written (lowercased). A
   form counts only if the list or `extra_forms.tsv` has it under the headword; `rank.py` (in the
@@ -224,7 +228,7 @@ Things to know about the Latvian list and the checker:
 - **Negated verbs**: *ne-* is written joined to the verb (*nezina*, *nav*, *nebija*, *neesmu*), and
   every negated form counts for its verb, reflexive ones too (*nemācās*, *neatceros*, *nespēju*,
   *nedomāju*). A word that only begins like that is a word of its own (*nekad*, *neviens*,
-  *nedēļa*, *nelaime*). *nekur* "nowhere" is a word of its own (1512), no form of *kurt*.
+  *nedēļa*, *nelaime*). *nekur* "nowhere" is a word of its own (1513), no form of *kurt*.
 - **Reflexive verbs are words of their own**: *mācīties* "to learn" and *mācīt* "to teach",
   *skatīties* 171 and *skatīt*, *beigties* 485 and *beigt* 191, *sākties* 332 and *sākt* 107,
   *mainīties* 818 and *mainīt* 545, *turēties* 828 and *turēt* 540, *likties* 429 and *likt* 156.
@@ -237,8 +241,8 @@ Things to know about the Latvian list and the checker:
   *vakarā* 836 (*vakars* 526), *viņas* 144 (*viņa*), *esošais* 640 (*būt*), *kārtībā* 236
   (*kārtība*; teach it only as the phrase "all right", *viss kārtībā*), *vērā* 583 (only in *ņemt
   vērā*), *miris* 366 (*mirt* 695); *daži* 300 is the plural of *dažs* 391 (teach *daži* "some, a
-  few", skip *dažs*); a few superlatives (*jaunākais* 3134, *augstākais* 3756) and the odd negated
-  form (*negribot* 5984). The builder files the negated forms, comparatives
+  few", skip *dažs*); a few superlatives (*jaunākais* 3145, *augstākais* 3770) and the odd negated
+  form (*negribot* 6015). The builder files the negated forms, comparatives
   (*melnāks* under *melns*), participles (*izceptais* under *izcept*), most verbal nouns and the
   feminine nouns under their words, so the far bands hold rare but real words; some bands still
   have fewer teachable words, which is fine: never pad with noise.
@@ -261,7 +265,7 @@ Things to know about the Latvian list and the checker:
   so common words were missing (*satikt*, *nopirkt*, *zvanīt*, *uzrakstīt*, *apskatīt*, *pabeigt*,
   *samaksāt*, *apsolīt*, *labdien*, *visur*, *citur*, *labprāt*, *vienreiz*, *godīgs*, *kilometrs*,
   *noņemt*, *ielikt*, *apturēt*): the rebuilt list has them from rank 1401 on (*satikt* 1404,
-  *nopirkt* 1405, *zvanīt* 1434, *labdien* 1681). Courses up to 1400 were written without them:
+  *nopirkt* 1405, *zvanīt* 1434, *labdien* 1686). Courses up to 1400 were written without them:
   take them up from course 1500 on. Still missing: *vecmāmiņa*, *ardievu*, *gotika*; write around
   them (greet with *sveiki* or *labrīt*).
 - **Common forms the list misses** go in `extra_forms.tsv` (headword, a tab, the forms). It is
