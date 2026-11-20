@@ -1242,6 +1242,8 @@ _OVERRIDES_D = {
         # The days' adverbs (on Monday), and drīzāk "rather", which the pack lacks.
         "pirmdien": ["pirmdiena"], "otrdien": ["otrdiena"], "trešdien": ["trešdiena"], "ceturtdien": ["ceturtdiena"],
         "piektdien": ["piektdiena"], "sestdien": ["sestdiena"], "svētdien": ["svētdiena"], "drīzāk": ["drīz"],
+        # nekur "nowhere", which the pack files under nekurt, kurt's negated verb.
+        "nekur": ["nekur"],
     },
     # Estonian: pronoun case forms (mu, mind, mul, sind, teda, neid...) are tied to more than 6 words in
     # the dictionary and were dropped; ma/sa/ta/me/te/nad were separate from mina/sina/tema/meie/teie/nemad;
@@ -1305,7 +1307,9 @@ _EXCLUDE_D = {
     "sl": {"ok", "vaseh", "vasi", "vasjo", "vasmi"},
     # Abbreviations
     "lt": {"mln", "proc", "tūkst", "kt", "kt.", "mėn", "mėn.", "tolia", "toliai", "tolių", "tolui", "galį", "galio", "galis"},
-    "lv": set(),
+    # Latvian: Kristus (Christ), counted for krist and krusts, and Francija's cases, which the regular forms of francijs
+    # "francium" would take.
+    "lv": {"kristus", "francija", "francijas", "francijā", "franciju", "francijai"},
     # Estonian: names and English in the subtitles (and, kate, frank, pete are also rare Estonian words, which keep their
     # other forms), and simplemma's guesses ist (of istus) and ühendriik (Ühendriigid, a name).
     "et": {"and", "kate", "frank", "pete", "don", "morgan", "morgana", "morgani", "morganit", "morganiga", "morganile",
