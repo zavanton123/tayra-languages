@@ -58,6 +58,7 @@ import frequency_kannada  # noqa: E402
 import frequency_bengali  # noqa: E402
 import frequency_gujarati  # noqa: E402
 import frequency_sinhala  # noqa: E402
+import frequency_marathi  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
 import frequency_telugu  # noqa: E402
@@ -76,7 +77,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha", "mr",
     "si",
 ]
 
@@ -121,6 +122,8 @@ FALLBACKS = {
     "ur": {"leipzig": ["urd_newscrawl_2016_1M", "urd_wikipedia_2021_300K"]},
     "pa": {"leipzig": ["pan_wikipedia_2021_300K", "pan-in_web_2015_100K"]},
     "ps": {"leipzig": ["pus_news_2020_100K", "pus_newscrawl_2011_100K"], "wikipedia_sentences": ["pus_wikipedia_2021_30K"]},
+    "mr": {"leipzig": ["mar_newscrawl_2016_1M", "mar_news_2020_300K", "mar_news_2019_100K"],
+           "wikipedia_sentences": ["mar_wikipedia_2021_300K"]},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
@@ -267,6 +270,10 @@ SOURCE_WEIGHTS["ta"] = {"wordfreq": 0.4, "frequencywords": 0.2, "leipzig": 0.4}
 SOURCE_ORDER["ps"] = ["leipzig", "wikipedia_sentences"]
 BLEND.add("ps")
 SOURCE_WEIGHTS["ps"] = {"leipzig": 0.8, "wikipedia_sentences": 0.2}
+# Marathi has neither wordfreq nor FrequencyWords (OPUS's few subtitles have their vowel signs lost): it is counted from Leipzig's
+# news and its Wikipedia's sentences (frequency_marathi, which weighs them).
+SOURCE_ORDER["mr"] = ["leipzig", "wikipedia_sentences"]
+BLEND.add("mr")
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -5320,6 +5327,9 @@ def build(language, source, size):
     if language == "te":
         label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
         return frequency_telugu.build(found, size, label, SOURCE_WEIGHTS["te"])
+    if language == "mr":
+        label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
+        return frequency_marathi.build(found, size, label)
     return build_list(language, found, size)
 
 
