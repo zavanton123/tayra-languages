@@ -68,6 +68,7 @@ import frequency_zulu  # noqa: E402
 import frequency_amharic  # noqa: E402
 import frequency_somali  # noqa: E402
 import frequency_yoruba  # noqa: E402
+import frequency_yiddish  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -1591,7 +1592,7 @@ def yiddish_unpointed(word):
     return YIDDISH_MARKS.sub("", word).translate(YIDDISH_LIGATURES)
 
 
-def yiddish_spellings(freq, overrides, is_word, lemmas):
+def yiddish_spellings(freq, overrides, is_word, lemmas, found=None):
     """
     The YIVO word each unpointed spelling of the counts is, for OVERRIDES: one the pack calls the unpointed form of a word
     and has no sense of its own for (פון of פֿון, וואס of וואָס), or one it lacks whose pointed spelling it has (האט of האָט,
@@ -1614,6 +1615,9 @@ def yiddish_spellings(freq, overrides, is_word, lemmas):
         forms.add(form)
         if yiddish_unpointed(form) != form:
             pointed[yiddish_unpointed(form)].add(form)
+    # And the unpointed spellings of the forms frequency_yiddish found, which no pointed word of the pack has.
+    for form, to in (found or {}).items():
+        pointed[form].add(to)
     moved = {}
     for form in freq:
         if form in overrides or form in YIDDISH_STANDARD:
@@ -6560,8 +6564,15 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         return len(w) > 1 or language in ("ja", "ko") or bool(kinds & {"prep", "conj", "article", "pron", "det"}) or (
             language == "mn" and "particle" in kinds)
 
+    yiddish_spelled = {}
     if language == "yi":
-        overrides = {**yiddish_spellings(freq, overrides, is_word, lemmas), **overrides}
+        # The forms the pack's table lacks: plurals, participles, a verb's present, an adjective's endings (frequency_yiddish).
+        added, yiddish_spelled = frequency_yiddish.forms(freq, pos, lemmas, is_word, overrides, excluded, yiddish_unpointed,
+                                                          os.path.join(DICTIONARIES, "wty", "wty-yi-en.zip"),
+                                                          lambda w: normalise(language, w))
+        for form, word in added.items():
+            lemmas[form] = [word]
+        overrides = {**yiddish_spellings(freq, overrides, is_word, lemmas, yiddish_spelled), **overrides}
 
     try:
         from wordfreq import word_frequency
@@ -7541,6 +7552,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         if language == "yi":
             # A word the pack writes with a ligature (אױסגאַבע) is written as the list writes its forms.
             shown = normalise(language, shown)
+            # A form counted in unpointed spelling alone (קאנטינענטן) is listed in YIVO's too, as courses write it.
+            counted = list(dict.fromkeys(f for c in counted for f in (c, yiddish_spelled.get(c)) if f))
         if language == "ar":
             # The commonest spelling heads the word (أن, not ان), of those mostly counted for it and no word of the list.
             spelled = [f for f in counted if word in arabic_spellings(f) and count(f) > count(word) and forms[word][f] >= count(f) / 2
