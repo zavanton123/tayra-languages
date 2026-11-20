@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Latvian word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `lv-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 6,757 words, so the courses run from
-`lv-mini-0100` to `lv-mini-6800` (the last band holds 57 words).
+`themes.tsv` gives each course its theme. The list has 10,000 words, so the courses run from
+`lv-mini-0100` to `lv-mini-10000`.
 
 ## What the lessons are: mini stories
 
@@ -81,9 +81,12 @@ story; a lesson never needs another lesson to make sense.
   - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short essay
     or reflective column that weighs two sides, an interview, a portrait, a review; precise
     vocabulary for feelings, ideas and processes; long sentences that stay easy to parse;
-  - ranks 5001–6800 (C1): the same, with the more specialised words of professions, sciences and
+  - ranks 5001–8000 (C1): the same, with the more specialised words of professions, sciences and
     the arts, each made clear by its context, figurative language used more freely, and topics
-    that need some background, which the text gives.
+    that need some background, which the text gives;
+  - ranks 8001–10000 (C2): texts close to what native readers meet: literary prose with images
+    and rhythm, academic and journalistic registers, regional and learned words explained by
+    their context. Still standalone, calm and easy to follow for a reader at the level.
   After rank 1000 sentences get longer and joined (*jo*, *kad*, *kamēr*, *kaut gan*, *tāpēc*,
   *tomēr*, *bet*, *tātad*), dialogue can carry more of the story, and a story may be told by a
   first-person narrator or as an e-mail, a letter or a diary entry. From rank 2000 a lesson may also
@@ -168,7 +171,7 @@ Write `tools/courses/lv/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, after that `C1`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 8000 `C1`, up to 10000 `C2`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/lv/<id>.json`
 
@@ -197,8 +200,11 @@ Things to know about the Latvian list and the checker:
   (a copy of the app's `lv.tsv`); the checker reads it instead of the app's list, so a rebuilt app
   list does not move the bands. The `bands/*.txt` files come from it. The list is counted from
   subtitles, the web and news (wordfreq, OpenSubtitles, and Leipzig's news of 2016 and 2020 and its
-  web crawl of 2015) and kept only words its dictionary pack knows, so it is short (6,757 words) and lacks some everyday words (see
-  "Words the list lacks").
+  web crawl of 2015). Its words are those of the dictionary pack and of the Latvian packs glossed in
+  other languages, the reflexive and prefixed verbs made from the pack's verbs (*noņemt*, *satikt*,
+  *priecāties*), and a few common words no pack has (*labprāt*, *citur*, *papildus*). It was rebuilt
+  after course 1400 (from 6,757 words to 10,000): ranks 1–1400 kept their order, and the words it
+  gained follow them (see "Words the list lacks").
 - **The checker has no Latvian rules of its own** beyond leaving out the `Jautājumi:` header: it
   cuts words at spaces, punctuation and hyphens, and looks each one up as written (lowercased). A
   form counts only if the list or `extra_forms.tsv` has it under the headword; `rank.py` (in the
@@ -218,7 +224,7 @@ Things to know about the Latvian list and the checker:
 - **Negated verbs**: *ne-* is written joined to the verb (*nezina*, *nav*, *nebija*, *neesmu*), and
   every negated form counts for its verb, reflexive ones too (*nemācās*, *neatceros*, *nespēju*,
   *nedomāju*). A word that only begins like that is a word of its own (*nekad*, *neviens*,
-  *nedēļa*, *nelaime*). *nekur* "nowhere" is not in the list (it is no form of *kurt*).
+  *nedēļa*, *nelaime*). *nekur* "nowhere" is a word of its own (1512), no form of *kurt*.
 - **Reflexive verbs are words of their own**: *mācīties* "to learn" and *mācīt* "to teach",
   *skatīties* 171 and *skatīt*, *beigties* 485 and *beigt* 191, *sākties* 332 and *sākt* 107,
   *mainīties* 818 and *mainīt* 545, *turēties* 828 and *turēt* 540, *likties* 429 and *likt* 156.
@@ -231,12 +237,11 @@ Things to know about the Latvian list and the checker:
   *vakarā* 836 (*vakars* 526), *viņas* 144 (*viņa*), *esošais* 640 (*būt*), *kārtībā* 236
   (*kārtība*; teach it only as the phrase "all right", *viss kārtībā*), *vērā* 583 (only in *ņemt
   vērā*), *miris* 366 (*mirt* 695); *daži* 300 is the plural of *dažs* 391 (teach *daži* "some, a
-  few", skip *dažs*); a few superlatives (*jaunākais* 2483, *augstākais* 2890) and the odd negated
-  form (*negribot* 4047, *nevērst* 6377). The builder files the negated forms, comparatives
+  few", skip *dažs*); a few superlatives (*jaunākais* 3134, *augstākais* 3756) and the odd negated
+  form (*negribot* 5984). The builder files the negated forms, comparatives
   (*melnāks* under *melns*), participles (*izceptais* under *izcept*), most verbal nouns and the
   feminine nouns under their words, so the far bands hold rare but real words; some bands still
-  have fewer teachable words, which is fine: never pad with noise. The 24 multi-word entries
-  (*mobilais telefons*, *latviešu valoda*, *vārda diena*, *kad pūcei aste ziedēs*...) are skipped.
+  have fewer teachable words, which is fine: never pad with noise.
 - **Words that hold another word**, so a form counts for a headword it does not teach: *kaut* 65
   "though, at least" (*kaut kas*, *kaut gan*) holds the verb *kaut* "to slaughter" (*kauj*); *rīt*
   458 "tomorrow" holds *rīt* "to swallow" (*rij*); *klāt* 353 "present, near" holds *klāt* "to
@@ -252,13 +257,13 @@ Things to know about the Latvian list and the checker:
 - **Number words** decline (*divi*, *divas*, *divu*, *diviem*; *trīs*, *trim*, *triju*): *divi*,
   *trīs*, *četri*, *pieci*, *seši*... are entries, *viens* holds *viena*, *vienu*. With digits the
   noun still agrees: *2 gadi*, *5 gadi*, *10 gadu*, *21 gads*.
-- **Words the list lacks**: the list kept only the words its dictionary pack knows, so some common
-  words are missing altogether and count as outside words (*not in list*): *vecmāmiņa*, *labdien*,
-  *ardievu*, *zvanīt*, *nopirkt*, *uzrakstīt*, *izlasīt*, *apēst*, *izdzert*,
-  *pabeigt*, *samaksāt*, *satikt*, *apsolīt*, *apskatīt*, *visur*, *citur*, *labprāt*, *vienreiz*,
-  *godīgi*. Write around them: the plain past says a finished action well enough (*Viņa pirka
-  maizi*, *Viņš rakstīja vēstuli*, *Mēs ēdām zupu*); greet with *sveiki* or *labrīt*; call with
-  *piezvanīt* (1736).
+- **Words the list lacks**: until course 1400 the list had only the English dictionary pack's words,
+  so common words were missing (*satikt*, *nopirkt*, *zvanīt*, *uzrakstīt*, *apskatīt*, *pabeigt*,
+  *samaksāt*, *apsolīt*, *labdien*, *visur*, *citur*, *labprāt*, *vienreiz*, *godīgs*, *kilometrs*,
+  *noņemt*, *ielikt*, *apturēt*): the rebuilt list has them from rank 1401 on (*satikt* 1404,
+  *nopirkt* 1405, *zvanīt* 1434, *labdien* 1681). Courses up to 1400 were written without them:
+  take them up from course 1500 on. Still missing: *vecmāmiņa*, *ardievu*, *gotika*; write around
+  them (greet with *sveiki* or *labrīt*).
 - **Common forms the list misses** go in `extra_forms.tsv` (headword, a tab, the forms). It is
   generated by `lv_extra.py` in the writers' folder from the English Wiktionary Latvian dictionary
   (`dictionaries/lv-en.sqlite`), the prefixed and reflexive verbs' bases, the regular conjugations
@@ -272,7 +277,7 @@ Things to know about the Latvian list and the checker:
   *Cēsīm*, *Cēsīs*). A name of several words counts word by word: each part that is a list word
   counts at its rank, so put only the true name parts in `names`. Keep only true names in
   `names`, never common words, and never a name one of whose forms is a list word: as characters
-  avoid *Marta* (*marts*), *Ieva* (1589, "bird cherry"), *Juris* (*Jura*), *Valdis* (*Valdi*),
+  avoid *Marta* (*marts*), *Ieva* (1929, "bird cherry"), *Juris* (*Jura*), *Valdis* (*Valdi*),
   *Madara*, *Daina*, *Arta*, *Rota*, *Rasma*, *Mārīte*, *Guna*, *Kalvis*, and the places *Jūrmala*
   (936, "seaside"), *Saldus*, *Valka*, *Ape*, *Ērgļi*. Check every name and each of its case forms
   with `rank.py` before you use it.
@@ -280,12 +285,12 @@ Things to know about the Latvian list and the checker:
   135, *lūdzu* 118, *pilsēta* 120, *skola* 126, *ģimene* 158, *dzīvot* 157, *šodien* 194, *tēvs*
   218, *mamma* 234, *vīrs* 245, *dēls* 290, *sieva* 338, *brālis* 367, *tētis* 387, *māte* 377,
   *ēst* 438, *suns* 343, *istaba* 514, *meita* 548, *dzert* 655, *māsa* 697, *kafija* 822, *kaķis*
-  858, *virtuve* 1064, *piens* 891, *tēja* 1134, *vectēvs* 1437, *maize* 1329. The dialogue tag
+  858, *virtuve* 1064, *piens* 891, *tēja* 1134, *vectēvs* 1733, *maize* 1329. The dialogue tag
   *saka* (*sacīt* 94) and *teica* (*teikt* 75) are in the first band; *jautā* (*jautāt* 684) and
   *atbild* (*atbildēt* 410) come later. Days and months: *marts* 483, *maijs* 446, *septembris*
   413, *aprīlis* 546, *augusts* 556, *novembris* 602, *februāris* 720, *oktobris* 646, *jūlijs*
-  719, *jūnijs* 770, *janvāris* 809, *decembris* 747; *svētdiena* 1440, *sestdiena* 1546,
-  *piektdiena* 1513, *pirmdiena* 1910, *otrdiena* 2045, *ceturtdiena* 1939, *trešdiena* 2285;
+  719, *jūnijs* 770, *janvāris* 809, *decembris* 747; *svētdiena* 1481, *sestdiena* 1447,
+  *piektdiena* 1470, *pirmdiena* 1543, *otrdiena* 1573, *ceturtdiena* 1563, *trešdiena* 1640;
   *vasara* 357, *ziema* 530, *pavasaris* 825, *rudens* 888.
 - **Traps for a non-native writer**: going to a person is *pie* + genitive (*iet pie Andra*),
   to a place *uz* + accusative (*iet uz darbu*, *uz Rīgu*); "at home" and "home(wards)" are both
