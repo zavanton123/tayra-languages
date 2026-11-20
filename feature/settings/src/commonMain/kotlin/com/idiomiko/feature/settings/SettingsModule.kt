@@ -20,7 +20,7 @@ val settingsModule = module {
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
-    viewModel { AccountViewModel(get(), get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>()) }
+    viewModel { AccountViewModel(get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>()) }
     viewModel { SyncPromptViewModel(get(), get()) }
     viewModel { AccountBadgeViewModel(get()) }
     viewModel { ClearDataViewModel(get()) }

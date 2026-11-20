@@ -17,9 +17,10 @@ import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.domain.account.AccountRepository
-import com.idiomiko.core.domain.account.AutoSync
+import com.idiomiko.core.domain.account.SyncPhase
 import com.idiomiko.core.domain.account.SyncProgress
 import com.idiomiko.core.domain.account.SyncResult
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.SyncSummary
 import com.idiomiko.core.ui.components.AppDialog
 import com.idiomiko.core.ui.components.AppSpinner
@@ -27,6 +28,7 @@ import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.rememberToastState
+import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppSpacing
 import kotlinx.coroutines.CancellationException
@@ -46,12 +48,12 @@ data class SyncPromptState(
     val available: Boolean = false,
     val signedIn: Boolean = false,
     val step: SyncStep = SyncStep.ASK,
-    /** A sync is under way, on its own or asked. */
+    /** A sync is under way. */
     val running: Boolean = false,
     val progress: SyncProgress? = null,
-    /** When this device last synced since the app started, on its own or asked. */
+    /** When this device last synced since the app started. */
     val lastSynced: Instant? = null,
-    /** The last sync, on its own or asked, did not finish. */
+    /** The last sync did not finish. */
     val lastFailed: Boolean = false,
     val summary: SyncSummary? = null,
     val problem: AccountProblem? = null,
@@ -62,7 +64,7 @@ data class SyncPromptState(
     val doneUnseen: Boolean = false,
 )
 
-class SyncPromptViewModel(private val sync: AutoSync, private val accounts: AccountRepository) : ViewModel() {
+class SyncPromptViewModel(private val sync: SyncRunner, private val accounts: AccountRepository) : ViewModel() {
     private val _state = MutableStateFlow(SyncPromptState(available = accounts.available, signedIn = accounts.signedIn.value != null))
     val state: StateFlow<SyncPromptState> = _state.asStateFlow()
 
@@ -185,3 +187,10 @@ internal fun SyncDialog(state: SyncPromptState, actions: SyncPromptViewModel?, o
 
 /** Problems the account page explains and solves, rather than trying again. */
 private val ACCOUNT_PROBLEMS = setOf(AccountProblem.SIGNED_OUT, AccountProblem.SUBSCRIPTION_REQUIRED, AccountProblem.NOT_SET_UP)
+
+/** What the sync under way is doing, in a line; null while it has nothing to send. */
+internal fun progressLine(progress: SyncProgress): String? = when (progress.phase) {
+    SyncPhase.SENDING -> progress.total?.takeIf { it > 0 }?.let { tr("Sending {0} of {1}", formatCount(progress.done), formatCount(it)) }
+    SyncPhase.RECEIVING -> tr("Taking changes from other devices: {0}", formatCount(progress.done))
+    SyncPhase.APPLYING -> tr("Applying…")
+}

@@ -11,7 +11,7 @@ import com.idiomiko.core.domain.service.DemoDataService
 import com.idiomiko.core.domain.service.DictionaryService
 import com.idiomiko.core.domain.service.EmptyExceptionsMigration
 import com.idiomiko.core.domain.service.TranslationLanguageKeeper
-import com.idiomiko.core.domain.account.AutoSync
+import com.idiomiko.core.domain.account.AccountRepository
 import com.idiomiko.core.domain.service.LearningTranslations
 import com.idiomiko.core.domain.service.LearningLanguageService
 import com.idiomiko.core.domain.courses.CoursePackService
@@ -32,7 +32,7 @@ sealed interface BootstrapState {
 /**
  * Opens the database and makes sure the catalog languages exist, with demo data on first start,
  * then keeps saved translations in the native language, gives words being learned a translation
- * and flashcards a sentence, and syncs with the account, for as long as the app runs.
+ * and flashcards a sentence, for as long as the app runs. It never syncs: only the reader starts a sync.
  */
 class AppBootstrapViewModel(
     private val demoData: DemoDataService,
@@ -52,8 +52,8 @@ class AppBootstrapViewModel(
     private val cutWords: CutWordsMigration? = null,
     /** Mends the languages saved with an empty sentence-split exception, under which no word was found. */
     private val emptyExceptions: EmptyExceptionsMigration? = null,
-    /** Syncs with the account on its own, once the library is ready. */
-    private val autoSync: AutoSync? = null,
+    /** In the web app, takes up a sign-in made on another page of the service. */
+    private val accounts: AccountRepository? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<BootstrapState>(BootstrapState.Loading)
@@ -80,7 +80,7 @@ class AppBootstrapViewModel(
                 learningTranslations.start(viewModelScope)
                 practiceExamples.start(viewModelScope)
                 cardSentences.start(viewModelScope)
-                autoSync?.start(viewModelScope)
+                accounts?.let { viewModelScope.launch { runCatching { it.joinSharedSignIn() } } }
             } catch (e: Exception) {
                 Logger.e(e) { "Bootstrap failed" }
                 _state.value = BootstrapState.Failed(e.message ?: e.toString())

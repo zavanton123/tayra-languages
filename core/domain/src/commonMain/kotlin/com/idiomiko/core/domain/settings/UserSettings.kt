@@ -156,8 +156,6 @@ data class UserSettings(
     val knownWordCounts: String = "",
     /** An account service's address older versions let the reader type; kept in storage, no longer read. */
     val accountServer: String = "",
-    /** Whether this device syncs with the account on its own: at start, when brought back, and after changes. */
-    val autoSync: Boolean = true,
     /** When the cache of spoken audio was last emptied, in epoch milliseconds; 0 before its first use. */
     val speechCacheClearedAt: Long = 0,
 ) {

@@ -23,13 +23,11 @@ import androidx.compose.ui.test.runDesktopComposeUiTest
 import androidx.compose.ui.test.swipeDown
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.russhwolf.settings.MapSettings
-import com.idiomiko.core.data.settings.SettingsRepositoryImpl
 import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountInfo
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.domain.account.AccountRepository
-import com.idiomiko.core.domain.account.AutoSync
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.LibrarySync
 import com.idiomiko.core.domain.account.SignInClients
 import com.idiomiko.core.domain.account.SignInProvider
@@ -44,7 +42,6 @@ import com.idiomiko.core.ui.components.SyncEntry
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.emptyFlow
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -87,7 +84,7 @@ class SyncPromptTest {
 
     /** The wide bar over a page, with the dialog hosted as the app hosts it. */
     private fun ComposeUiTest.showBar(accounts: AccountRepository, sync: LibrarySync): SyncPromptViewModel {
-        val viewModel = SyncPromptViewModel(AutoSync(sync, accounts, SettingsRepositoryImpl(MapSettings()), emptyFlow()), accounts)
+        val viewModel = SyncPromptViewModel(SyncRunner(sync), accounts)
         setContent {
             val state by viewModel.state.collectAsStateWithLifecycle()
             IdiomikoTheme {
@@ -183,7 +180,7 @@ class SyncPromptTest {
     fun pullingAPhonePageDownAsksToSync() = runDesktopComposeUiTest(width = 400, height = 800) {
         val sync = Sync()
         val accounts = Accounts("reader@example.com")
-        val viewModel = SyncPromptViewModel(AutoSync(sync, accounts, SettingsRepositoryImpl(MapSettings()), emptyFlow()), accounts)
+        val viewModel = SyncPromptViewModel(SyncRunner(sync), accounts)
         setContent {
             IdiomikoTheme {
                 PullToSync(enabled = true, onPull = viewModel::open, modifier = Modifier.fillMaxSize()) {

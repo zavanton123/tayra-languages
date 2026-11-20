@@ -6,7 +6,6 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.UriHandler
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
-import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -18,13 +17,11 @@ import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
-import com.russhwolf.settings.MapSettings
-import com.idiomiko.core.data.settings.SettingsRepositoryImpl
 import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountInfo
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.domain.account.AccountRepository
-import com.idiomiko.core.domain.account.AutoSync
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.LibrarySync
 import com.idiomiko.core.domain.account.Plan
 import com.idiomiko.core.domain.account.IdentitySignIn
@@ -36,25 +33,19 @@ import com.idiomiko.core.domain.account.StoreProducts
 import com.idiomiko.core.domain.account.StorePurchases
 import com.idiomiko.core.domain.account.StoreReceipt
 import com.idiomiko.core.domain.account.Subscriptions
-import com.idiomiko.core.domain.account.SyncPhase
 import com.idiomiko.core.domain.account.SyncProgress
 import com.idiomiko.core.domain.account.SyncSummary
 import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.theme.IdiomikoTheme
-import kotlinx.coroutines.CompletableDeferred
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.async
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
-import kotlinx.coroutines.flow.emptyFlow
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.time.Instant
 
-/** The account page signed out and in: signing in, confirming the email, the plan, syncing. */
+/** The account page signed out and in: signing in, confirming the email, the plan, combining two libraries. */
 @OptIn(ExperimentalTestApi::class)
 class AccountScreenTest {
 
@@ -98,15 +89,12 @@ class AccountScreenTest {
     /** The addresses the page opened in the browser. */
     private val opened = mutableListOf<String>()
 
-    /** What syncs the page shown last, on its own or asked. */
-    private lateinit var auto: AutoSync
+    /** What syncs the page shown last, as asked from elsewhere in the app. */
+    private lateinit var runner: SyncRunner
 
-    private class FakeSync(var combining: Boolean = false, var failing: Boolean = false, val hold: CompletableDeferred<Unit>? = null) : LibrarySync {
+    private class FakeSync(var combining: Boolean = false) : LibrarySync {
         var syncs = 0
         override suspend fun syncNow(progress: (SyncProgress) -> Unit): SyncSummary {
-            progress(SyncProgress(SyncPhase.SENDING, 12_000, 47_480))
-            hold?.await()
-            if (failing) throw AccountException(AccountProblem.OFFLINE, "No connection")
             syncs++; combining = false; return SyncSummary(sent = 3, received = 5, changed = 2)
         }
         override suspend fun needsCombining() = combining
@@ -128,9 +116,8 @@ class AccountScreenTest {
     private fun ComposeUiTest.show(
         accounts: FakeAccounts, sync: LibrarySync = FakeSync(), store: StorePurchases? = null, identity: IdentitySignIn? = null,
     ): AccountViewModel {
-        val settings = SettingsRepositoryImpl(MapSettings())
-        auto = AutoSync(sync, accounts, settings, emptyFlow())
-        val viewModel = AccountViewModel(accounts, auto, settings, store?.let { Subscriptions(it, accounts) }, identity)
+        runner = SyncRunner(sync)
+        val viewModel = AccountViewModel(accounts, runner, store?.let { Subscriptions(it, accounts) }, identity)
         setContent {
             CompositionLocalProvider(LocalUriHandler provides object : UriHandler { override fun openUri(uri: String) { opened += uri } }) {
                 IdiomikoTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
@@ -241,73 +228,12 @@ class AccountScreenTest {
     }
 
     @Test
-    fun syncingSaysWhatItDid() = runDesktopComposeUiTest(width = 1400, height = 1600) {
-        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
-        val sync = FakeSync()
-        show(accounts, sync = sync)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("account-sync").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Sent: 3 · Taken from other devices: 2").assertExists()
-        onNodeWithTag("account-last-synced").assertExists()
-        assertEquals(1, sync.syncs)
-        save("ACCOUNT_SCREENSHOT", "-synced")
-    }
-
-    @Test
-    fun aSyncUnderWaySaysHowFarItHasGotAndSyncingNowWaitsForIt() = runDesktopComposeUiTest(width = 1400, height = 1600) {
-        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
-        val hold = CompletableDeferred<Unit>()
-        val sync = FakeSync(hold = hold)
-        val viewModel = show(accounts, sync = sync)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        // Stands for a sync begun on its own, such as when the app started.
-        val automatic = CoroutineScope(Dispatchers.Default).async { auto.syncNow() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sending 12,000 of 47,480").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Syncing…").assertExists()
-        onNodeWithTag("account-sync").assertIsNotEnabled()
-        save("ACCOUNT_SCREENSHOT", "-syncing")
-
-        runOnUiThread { viewModel.syncNow() }
-        hold.complete(Unit)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
-        runBlocking { automatic.await() }
-        assertEquals(1, sync.syncs, "the page took the result of the sync under way")
-        onNodeWithText("Sync now").assertExists()
-        assertEquals(0, onAllNodesWithTag("account-sync-progress").fetchSemanticsNodes().size)
-    }
-
-    @Test
-    fun aSyncThatDidNotFinishSaysSo() = runDesktopComposeUiTest(width = 1400, height = 1600) {
-        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
-        show(accounts, sync = FakeSync(failing = true))
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("account-sync").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-sync-problem").fetchSemanticsNodes().isNotEmpty() }
-    }
-
-    @Test
-    fun theFirstSyncAsksBeforeCombiningTwoLibraries() = runDesktopComposeUiTest(width = 1400, height = 1600) {
-        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
-        val sync = FakeSync(combining = true)
-        show(accounts, sync = sync)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("account-sync").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Combine the libraries?").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, sync.syncs, "nothing is combined before the answer")
-        save("ACCOUNT_SCREENSHOT", "-combine")
-        onNodeWithText("Combine").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(1, sync.syncs)
-    }
-
-    @Test
     fun aSyncAskedElsewhereThatWouldCombineAsksHere() = runDesktopComposeUiTest(width = 1400, height = 1600) {
         val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
         val sync = FakeSync(combining = true)
         show(accounts, sync = sync)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        runBlocking { auto.syncNow() }
+        runBlocking { runner.syncNow() }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Combine the libraries?").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Combine").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
@@ -315,13 +241,27 @@ class AccountScreenTest {
     }
 
     @Test
-    fun withoutASubscriptionSyncingWaits() = runDesktopComposeUiTest(width = 400, height = 1600) {
+    fun withoutASubscriptionThePlanSaysSyncIsNotActive() = runDesktopComposeUiTest(width = 400, height = 1600) {
         val accounts = FakeAccounts(active = false).apply { signedIn.value = "reader@example.com" }
         show(accounts)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Sync is not active on this account.").assertExists()
-        onNodeWithText("Syncing needs an active subscription.").assertExists()
-        onNodeWithTag("account-sync").assertIsNotEnabled()
         save("ACCOUNT_SCREENSHOT", "-phone")
+    }
+
+    /** Syncing is asked for from the bar's cloud or by pulling a phone page down; the page has no sync controls of its own. */
+    @Test
+    fun signedInThePageHoldsTheAccountAndNoSyncControls() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        val sync = FakeSync()
+        show(accounts, sync = sync)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-delete").assertExists()
+        for (text in listOf("Sync now", "Sync automatically", "Your words, texts, reading and learning setup, the same on all your devices.")) {
+            assertEquals(0, onAllNodesWithText(text).fetchSemanticsNodes().size, text)
+        }
+        assertEquals(0, onAllNodesWithTag("account-sync").fetchSemanticsNodes().size)
+        assertEquals(0, sync.syncs, "opening the page syncs nothing")
+        save("ACCOUNT_SCREENSHOT", "-signed-in")
     }
 }

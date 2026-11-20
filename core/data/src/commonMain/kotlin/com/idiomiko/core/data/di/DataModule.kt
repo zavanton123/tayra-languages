@@ -3,7 +3,7 @@ package com.idiomiko.core.data.di
 import com.idiomiko.core.domain.courses.LessonSummaries
 import org.koin.dsl.binds
 import com.idiomiko.core.domain.account.AccountRepository
-import com.idiomiko.core.domain.account.AutoSync
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.LibrarySync
 import com.idiomiko.core.domain.account.PackChoices
 import com.idiomiko.core.data.anki.AnkiArchiveReaderImpl
@@ -81,7 +81,6 @@ import com.idiomiko.core.data.sync.ServicePacks
 import com.idiomiko.core.data.sync.SyncEngine
 import com.idiomiko.core.data.sync.SyncedPacks
 import com.idiomiko.core.data.sync.SyncTransport
-import com.idiomiko.core.data.sync.libraryChanges
 import com.idiomiko.core.data.web.HttpWebPageReader
 import com.idiomiko.core.data.web.webPagesSupported
 import com.idiomiko.core.domain.backup.BackupRepository
@@ -205,7 +204,7 @@ val dataModule: Module = module {
     }
     single { SyncedPacks(get<Settings>()) }
     single<PackChoices> { get<SyncedPacks>() }
-    single { AutoSync(get(), get(), get(), changes = libraryChanges(get())) }
+    single { SyncRunner(get()) }
     single<LanguageRepository> { LanguageRepositoryImpl(get()) }
     single<BookRepository> { BookRepositoryImpl(get()) }
     single<VideoRepository> { VideoRepositoryImpl(get()) }

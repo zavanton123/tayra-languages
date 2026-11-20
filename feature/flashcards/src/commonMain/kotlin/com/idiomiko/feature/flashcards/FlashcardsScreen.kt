@@ -81,7 +81,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.idiomiko.core.domain.account.AutoSync
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.flashcards.AnswerMode
 import com.idiomiko.core.domain.flashcards.ExtraStudy
 import com.idiomiko.core.domain.flashcards.FlashcardService
@@ -196,8 +196,8 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
         viewModel.limitTo(limit)
         viewModel.load()
     }
-    // A sync, pulled for or on its own, may bring answers given on another device: the cards are read again, the one on show kept.
-    val sync = koinInject<AutoSync>()
+    // A sync may bring answers given on another device: the cards are read again, the one on show kept.
+    val sync = koinInject<SyncRunner>()
     LaunchedEffect(sync) {
         sync.status.map { it.running }.distinctUntilChanged().drop(1).filter { !it }
             .collect { viewModel.load(prefer = viewModel.state.value.card?.termId, keepAnswer = true) }

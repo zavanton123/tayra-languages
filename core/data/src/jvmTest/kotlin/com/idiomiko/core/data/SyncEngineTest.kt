@@ -21,6 +21,8 @@ import kotlinx.coroutines.withTimeout
 import com.idiomiko.core.data.sync.SyncTransport
 import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountProblem
+import com.idiomiko.core.domain.account.SyncResult
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.SyncPhase
 import com.idiomiko.core.domain.account.SyncProgress
 import com.idiomiko.core.domain.model.Language
@@ -54,11 +56,13 @@ class SyncEngineTest {
         var seq = 0L
         var account: String? = "http://localhost me@example.com"
         var failPullAfter = Int.MAX_VALUE
-        private var pulls = 0
+        var pushes = 0
+        var pulls = 0
 
         override fun syncAccount(): String? = account
 
         override suspend fun push(request: PushRequest): PushResponse {
+            pushes++
             for (incoming in request.records) {
                 val id = incoming.kind to incoming.key
                 val stored = records[id]?.first
@@ -304,6 +308,25 @@ class SyncEngineTest {
         desktop.engine.syncNow()
         phone.engine.syncNow()
         assertEquals(listOf("0"), phone.rows("SELECT status FROM terms WHERE text_lc = 'casa'"), "set back to unknown on purpose")
+    }
+
+    /** Nothing reaches the account until the reader asks: not at start, after changes, on signing in, or as time passes. */
+    @Test
+    fun nothingSyncsUntilAsked() = runBlocking<Unit> {
+        account.account = null
+        val runner = SyncRunner(phone.engine)
+        phone.word("casa")
+        phone.settings.update { it.copy(dailyGoalMinutes = 25) }
+        account.account = "http://localhost me@example.com"
+        delay(1_500)
+        assertEquals(0, account.pushes + account.pulls, "nothing went to the account on its own")
+        assertEquals(listOf<String>(), phone.rows("SELECT 1 FROM sync_state WHERE last_push_at IS NOT NULL"))
+
+        assertTrue(runner.syncNow() is SyncResult.Done)
+        assertTrue(account.get("term", "pt/casa") != null)
+        phone.word("lobo")
+        delay(1_500)
+        assertEquals(1, account.pushes, "nor after a sync")
     }
 
     @Test

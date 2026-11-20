@@ -6,7 +6,7 @@ import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountInfo
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.domain.account.AccountRepository
-import com.idiomiko.core.domain.account.AutoSync
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.SyncResult
 import com.idiomiko.core.domain.account.IdentityException
 import com.idiomiko.core.domain.account.IdentitySignIn
@@ -15,9 +15,6 @@ import com.idiomiko.core.domain.account.SignInProvider
 import com.idiomiko.core.domain.account.StoreException
 import com.idiomiko.core.domain.account.StoreProduct
 import com.idiomiko.core.domain.account.Subscriptions
-import com.idiomiko.core.domain.account.SyncProgress
-import com.idiomiko.core.domain.account.SyncSummary
-import com.idiomiko.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -26,7 +23,6 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
-import kotlin.time.Instant
 
 /** What the account page shows. */
 data class AccountUiState(
@@ -35,25 +31,14 @@ data class AccountUiState(
     /** The email of the account this device is signed in to; null when signed out. */
     val signedIn: String? = null,
     val account: AccountInfo? = null,
-    /** What the last sync from this page did. */
-    val synced: SyncSummary? = null,
     /** The first sync would combine this device's library with the account's: the page asks first. */
     val confirmCombine: Boolean = false,
-    /** When this device last synced, on its own or asked. */
-    val lastSynced: Instant? = null,
-    /** Why the last sync, on its own or asked, did not finish. */
-    val syncProblem: AccountProblem? = null,
-    /** A sync is under way, on its own or asked. */
-    val syncing: Boolean = false,
-    /** How far it has got; null until it says. */
-    val syncProgress: SyncProgress? = null,
     /** What the store sells here, while the account has no subscription; empty without a store. */
     val products: List<StoreProduct> = emptyList(),
     /** Whether the store can restore purchases here. */
     val storeAvailable: Boolean = false,
     /** The providers this app can sign in with, as the service takes them. */
     val signInProviders: List<SignInProvider> = emptyList(),
-    val autoSync: Boolean = true,
     /** What is under way, shown with a spinner; null when nothing is. */
     val busy: AccountTask? = null,
     /** What went wrong last, until the next action. */
@@ -69,11 +54,10 @@ enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIB
 
 enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, ACCOUNT_DELETED }
 
-/** The account this device is signed in to and syncing with it. */
+/** The account this device is signed in to, and combining its library with the account's when the reader agrees. */
 class AccountViewModel(
     private val accounts: AccountRepository,
-    private val sync: AutoSync,
-    private val settings: SettingsRepository,
+    private val sync: SyncRunner,
     /** Buying in the store, in the phone apps; null elsewhere. */
     private val subscriptions: Subscriptions? = null,
     /** Signing in with Google or Apple, where the platform can; null elsewhere. */
@@ -86,10 +70,6 @@ class AccountViewModel(
 
     init {
         reload()
-        viewModelScope.launch { sync.status.collect { status ->
-                _state.update { it.copy(lastSynced = status.lastSynced, syncProblem = status.problem, syncing = status.running, syncProgress = status.progress) }
-            } }
-        viewModelScope.launch { settings.settings.collect { s -> _state.update { it.copy(autoSync = s.autoSync) } } }
         // A sync asked for elsewhere found two libraries: the question is asked here.
         viewModelScope.launch { sync.status.map { it.waitingToCombine }.distinctUntilChanged().collect { waiting -> if (waiting) _state.update { it.copy(confirmCombine = true) } } }
     }
@@ -129,7 +109,7 @@ class AccountViewModel(
 
     fun signOut() = work(AccountTask.LOADING) {
         accounts.signOut()
-        _state.update { AccountUiState(available = it.available, autoSync = it.autoSync) }
+        _state.update { AccountUiState(available = it.available) }
         offerProviders()
     }
 
@@ -159,24 +139,19 @@ class AccountViewModel(
 
     fun cancelReset() = _state.update { it.copy(resetSentTo = null) }
 
-    /** Syncs, after asking when the first sync would combine two libraries; [combine] is the answer. */
+    /** Syncs, combining the two libraries when [combine], the reader's answer to the page's question. */
     fun syncNow(combine: Boolean = false) = work(AccountTask.SYNCING) {
-        when (val result = sync.syncNow(combine)) {
+        when (sync.syncNow(combine)) {
             SyncResult.NeedsCombining -> _state.update { it.copy(confirmCombine = true) }
-            is SyncResult.Done -> _state.update { it.copy(confirmCombine = false, synced = result.summary, done = AccountDone.SYNCED) }
+            is SyncResult.Done -> _state.update { it.copy(confirmCombine = false, done = AccountDone.SYNCED) }
         }
-    }
-
-    fun setAutoSync(on: Boolean) {
-        viewModelScope.launch { settings.update { it.copy(autoSync = on) } }
-        if (on) sync.request()
     }
 
     fun cancelCombine() = _state.update { it.copy(confirmCombine = false) }
 
     fun deleteAccount() = work(AccountTask.DELETING) {
         accounts.deleteAccount()
-        _state.update { AccountUiState(available = it.available, autoSync = it.autoSync, done = AccountDone.ACCOUNT_DELETED) }
+        _state.update { AccountUiState(available = it.available, done = AccountDone.ACCOUNT_DELETED) }
         offerProviders()
     }
 
@@ -208,7 +183,6 @@ class AccountViewModel(
         if (!store.subscribe(productId)) return@work
         load()
         _state.update { it.copy(done = AccountDone.SUBSCRIBED) }
-        sync.request()
     }
 
     /** Hands the service the subscriptions this store account already holds. */
@@ -231,7 +205,7 @@ class AccountViewModel(
             } catch (e: AccountException) {
                 _state.update {
                     val signedOut = e.problem == AccountProblem.SIGNED_OUT
-                    (if (signedOut) AccountUiState(available = it.available, autoSync = it.autoSync) else it).copy(problem = e.problem, problemText = e.message)
+                    (if (signedOut) AccountUiState(available = it.available) else it).copy(problem = e.problem, problemText = e.message)
                 }
                 if (e.problem == AccountProblem.SIGNED_OUT) offerProviders()
             } catch (e: IdentityException) {

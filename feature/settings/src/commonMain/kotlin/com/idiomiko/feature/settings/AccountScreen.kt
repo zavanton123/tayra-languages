@@ -11,7 +11,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -35,8 +34,6 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.domain.account.SignInProvider
-import com.idiomiko.core.domain.account.SyncPhase
-import com.idiomiko.core.domain.account.SyncProgress
 import com.idiomiko.core.ui.components.APP_NAME
 import com.idiomiko.core.ui.components.AccountAvatar
 import com.idiomiko.core.ui.components.LocalAccountBadge
@@ -44,7 +41,6 @@ import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.ConfirmDialog
-import com.idiomiko.core.ui.components.SwitchSetting
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -56,7 +52,6 @@ import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.StatusTints
-import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -68,8 +63,8 @@ import kotlin.time.Instant
 
 /**
  * Settings: the Idiomiko account this device is signed in to. Signed out, it signs in or
- * makes an account; signed in, it shows the subscription and syncing,
- * and signs out or deletes the account.
+ * makes an account; signed in, it shows the subscription, signs out or deletes the account,
+ * and asks whether to combine two libraries when a sync finds another one in the account.
  */
 @Composable
 fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: AccountViewModel = koinViewModel()) {
@@ -105,7 +100,7 @@ internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, o
         state.signedIn == null -> SignInCard(state, actions)
         else -> {
             AccountCard(state, actions)
-            SyncCard(state, actions)
+            CombineQuestion(state, actions)
             DeleteAccountCard(state, actions)
         }
     }
@@ -267,57 +262,17 @@ private fun ConfirmEmail(state: AccountUiState, actions: AccountViewModel?) {
     }
 }
 
+/** Asked when a sync found another library in the account: only the reader can choose to combine them. */
 @Composable
-private fun SyncCard(state: AccountUiState, actions: AccountViewModel?) {
-    val active = state.account?.plan?.active == true
-    ContentCard(
-        tr("Sync"),
-        subtitle = if (active) tr("Your words, texts, reading and learning setup, the same on all your devices.") else tr("Syncing needs an active subscription."),
-        icon = Icons.Default.Refresh,
-    ) {
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            val syncing = state.syncing || state.busy == AccountTask.SYNCING
-            PrimaryButton(
-                if (syncing) tr("Syncing…") else tr("Sync now"), onClick = { actions?.syncNow() }, enabled = active && state.busy == null && !state.syncing,
-                loading = syncing, modifier = Modifier.testTag("account-sync"),
-            )
-            state.syncProgress?.takeIf { syncing }?.let(::progressLine)?.let { line ->
-                Text(line, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-sync-progress"))
-            }
-            state.synced?.let { done ->
-                Text(
-                    tr("Sent: {0} · Taken from other devices: {1}", done.sent, done.changed),
-                    style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-synced"),
-                )
-            }
-            if (state.syncProblem != null && !syncing) {
-                Text(tr("The last sync did not finish; it is tried again in a while."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.error, modifier = Modifier.testTag("account-sync-problem"))
-            }
-            state.lastSynced?.let { at ->
-                Text(tr("Last synced {0}", when_(at)), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("account-last-synced"))
-            }
-            SwitchSetting(
-                tr("Sync automatically"), tr("When the app starts or comes back, and a little after you change something."), state.autoSync,
-                enabled = active, modifier = Modifier.testTag("account-auto-sync"),
-            ) { actions?.setAutoSync(it) }
-        }
-    }
-    if (state.confirmCombine) {
-        ConfirmDialog(
-            title = tr("Combine the libraries?"),
-            text = tr("Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays."),
-            confirmLabel = tr("Combine"),
-            onConfirm = { actions?.syncNow(combine = true) },
-            onDismiss = { actions?.cancelCombine() },
-        )
-    }
-}
-
-/** What the sync under way is doing, in a line; null while it has nothing to send. */
-internal fun progressLine(progress: SyncProgress): String? = when (progress.phase) {
-    SyncPhase.SENDING -> progress.total?.takeIf { it > 0 }?.let { tr("Sending {0} of {1}", formatCount(progress.done), formatCount(it)) }
-    SyncPhase.RECEIVING -> tr("Taking changes from other devices: {0}", formatCount(progress.done))
-    SyncPhase.APPLYING -> tr("Applying…")
+private fun CombineQuestion(state: AccountUiState, actions: AccountViewModel?) {
+    if (!state.confirmCombine) return
+    ConfirmDialog(
+        title = tr("Combine the libraries?"),
+        text = tr("Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays."),
+        confirmLabel = tr("Combine"),
+        onConfirm = { actions?.syncNow(combine = true) },
+        onDismiss = { actions?.cancelCombine() },
+    )
 }
 
 @Composable
@@ -384,12 +339,6 @@ private fun DoneNotice(done: AccountDone) {
         tint = StatusTints.ok,
         modifier = Modifier.testTag("account-done"),
     )
-}
-
-/** A moment as a reader reads it: the day and time, in the device's time zone. */
-private fun when_(at: Instant): String {
-    val t = at.toLocalDateTime(TimeZone.currentSystemDefault())
-    return "${t.date} ${t.hour.toString().padStart(2, '0')}:${t.minute.toString().padStart(2, '0')}"
 }
 
 private fun day(at: Instant): String = at.toLocalDateTime(TimeZone.currentSystemDefault()).date.toString()

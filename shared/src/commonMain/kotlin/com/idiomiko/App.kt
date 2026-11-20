@@ -26,8 +26,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.bootstrap.AppBootstrapViewModel
 import com.idiomiko.bootstrap.BootstrapState
@@ -60,7 +58,6 @@ import com.idiomiko.core.ui.theme.AppThemes
 import com.idiomiko.core.ui.theme.LocalThemePreview
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.navigation.AppNavHost
-import com.idiomiko.core.domain.account.AutoSync
 import org.koin.compose.KoinContext
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
@@ -183,8 +180,6 @@ fun App(titleBarInset: Dp = 0.dp) {
                         BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId, onChosen = { openCourses++ }) {
                             val flashcards = koinInject<FlashcardService>()
                             val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
-                            val autoSync = koinInject<AutoSync>()
-                            LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { autoSync.request() }
                             CompositionLocalProvider(
                                 LocalFlashcardsDue provides due,
                                 LocalVideosEnabled provides (videoSupported && settings.experimentalVideos),
