@@ -404,6 +404,8 @@ FORMS_PER_WORD_OF = {"cy": 120, "fa": 150, "mn": 150, "eu": 1000}
 FORMS_PER_WORD_OF["kk"] = 150
 # And an Uzbek one's (kitoblarimizda, borganimizni).
 FORMS_PER_WORD_OF["uz"] = 150
+# A Punjabi verb has its forms spelled with and without addak, nukta and a subjoined ਹ (ਲੱਗਦਾ, ਲਗਦਾ; ਪੜ੍ਹਨ, ਪੜ੍ਹਣ).
+FORMS_PER_WORD_OF["pa"] = 100
 
 
 # Languages whose words are written in Chinese characters or kana.
@@ -7415,7 +7417,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "hi":
         hindi_relink()
     if language == "pa":
-        overrides = {**overrides, **frequency_punjabi.relink(freq, pos, lemmas, is_word, count, overrides, excluded, DICTIONARIES)}
+        overrides = {**overrides, **frequency_punjabi.relink(freq, pos, lemmas, is_word, count, overrides, excluded, DICTIONARIES, common)}
 
     def armenian_relink():
         """
