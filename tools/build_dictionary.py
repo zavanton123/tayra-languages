@@ -42,6 +42,7 @@ import frequency_nepali  # noqa: E402
 from frequency_pashto import clean_pashto, hand_entries, more_forms, nominal_forms, pashto_fold  # noqa: E402
 import frequency_sinhala  # noqa: E402
 from frequency_hausa import AJAMI, hausa_clean  # noqa: E402
+import frequency_uzbek  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -103,6 +104,7 @@ SOURCES = {
     "zu": ("Zulu", None, "dictionaries/kaikki.org-dictionary-Zulu.jsonl.gz"),
     "am": ("Amharic", None, "dictionaries/kaikki.org-dictionary-Amharic.jsonl.gz"),
     "so": ("Somali", None, "dictionaries/kaikki.org-dictionary-Somali.jsonl.gz"),
+    "uz": ("Uzbek", None, "dictionaries/kaikki.org-dictionary-Uzbek.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -552,9 +554,33 @@ def somali_form(form, word):
     return form.startswith(head) or (word[0] in "aeiou" and form[:1] in "ytn" and form[1:].startswith(word[0]))
 
 
+def uzbek_translation_entries(kept):
+    """
+    The Uzbek words in the Latin alphabet the English Wiktionary's translation tables give that its Uzbek entries lack, by
+    part of speech, each glossed with the English words it translates: word -> pos -> glosses. A translation of several words
+    is left out, as the reader looks up one word at a time.
+    """
+    entries = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "uz"' not in line:
+                continue
+            d = json.loads(line)
+            for t in d.get("translations", []):
+                if t.get("code") != "uz" or {"Cyrillic", "Arabic"} & set(t.get("tags", [])):
+                    continue
+                word = frequency_uzbek.normalise(t.get("word", "").strip())
+                if not word or word in kept or not frequency_uzbek.WORD.fullmatch(word):
+                    continue
+                gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
+                if gloss not in entries[word][d.get("pos") or "unknown"]:
+                    entries[word][d.get("pos") or "unknown"].append(gloss)
+    return entries
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"mr": clean_marathi, "te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones, "so": somali_plain}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones, "so": somali_plain, "uz": frequency_uzbek.normalise}
 
 
 def pashto_translation_entries(kept):
@@ -1151,8 +1177,9 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     cleaner = CLEANERS.get(source, lambda word: word)
     skip_tags = SKIP_FORM_TAGS | SKIP_FORM_TAGS_BY_SOURCE.get(source, set())
     # Croatian is written in Latin letters; Malay too, its Jawi spellings (forms and entries of their own) left out; and
-    # Azerbaijani (since 1991), not in the Cyrillic before it nor the Arabic alphabet of Iran's South Azerbaijani.
-    latin_only = source in ("hr", "ms", "az", "ha")
+    # Azerbaijani (since 1991), not in the Cyrillic before it nor the Arabic alphabet of Iran's South Azerbaijani; and Uzbek
+    # (since 1993), not in the Cyrillic many still write it in nor the Arabic alphabet before that.
+    latin_only = source in ("hr", "ms", "az", "ha", "uz")
     db, path = open_output(out_path)
     db.execute("CREATE UNIQUE INDEX forms_unique ON forms(form_lc, lemma)")
     entry_rows, form_rows, seen, next_id = [], [], 0, 1
@@ -1177,7 +1204,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
     def jawi(text):
         return any("\u0600" <= c <= "\u06ff" or "\u0750" <= c <= "\u077f" for c in text)
 
-    foreign = jawi if source == "ms" else (lambda text: cyrillic(text) or jawi(text)) if source == "az" else cyrillic
+    foreign = jawi if source == "ms" else (lambda text: cyrillic(text) or jawi(text)) if source in ("az", "uz") else cyrillic
     # Punjabi is read in Gurmukhi; its Shahmukhi spellings (forms and entries of their own) are left out.
     if source == "pa":
         latin_only, foreign = True, jawi
@@ -1331,6 +1358,16 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
             for pos, glosses in sorted(by_pos.items()):
                 senses = [{"glosses": [g]} for g in glosses]
                 entry_rows.append((next_id, word, word, pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+                next_id += 1
+                entry_count += 1
+        flush()
+        label += " and its English entries' translation tables"
+    if source == "uz":
+        kept = {w for (w,) in db.execute("SELECT word FROM entries")}
+        for word, by_pos in sorted(uzbek_translation_entries(kept).items()):
+            for pos, glosses in sorted(by_pos.items()):
+                senses = [{"glosses": [g]} for g in glosses]
+                entry_rows.append((next_id, word, lowercase(word, source), pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
                 next_id += 1
                 entry_count += 1
         flush()
