@@ -44,8 +44,10 @@ everything you learn stays on your own device.
   For every language the app teaches that has a corpus to count.
 - **Pronunciation** with the device's speech voices, and recorded example sentences.
 - **Statistics** of words read and learned over time, per language and per book.
-- **A home page** with the words added today, your day streak and a year of study as a
-  heatmap, and one tap back into your course, your book or your flashcards.
+- **A home page** with a daily goal in minutes, your study streak, one suggested next step
+  (due flashcards, the next lesson or your book), the rest under way, your recently saved
+  words, how far you are through the most common words, courses and books for your level,
+  and the last 16 weeks of study.
 
 ## News
 

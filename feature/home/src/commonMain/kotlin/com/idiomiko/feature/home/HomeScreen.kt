@@ -1,75 +1,62 @@
 package com.idiomiko.feature.home
 
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.idiomiko.core.domain.courses.LessonStatus
-import com.idiomiko.core.domain.model.BookListItem
-import com.idiomiko.core.domain.playlists.Playlist
-import com.idiomiko.core.domain.stats.StudyActivity
-import com.idiomiko.core.ui.components.ActivityHeatmapCard
+import com.idiomiko.core.domain.courses.CourseProgress
+import com.idiomiko.core.domain.courses.LessonProgress
+import com.idiomiko.core.domain.stats.DailyGoal
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.ButtonSize
-import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LoadingIndicator
-import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
-import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.ProgressTrack
-import com.idiomiko.core.ui.components.ScreenHeader
-import com.idiomiko.core.ui.components.SecondaryButton
-import com.idiomiko.core.ui.components.StatTile
-import com.idiomiko.core.ui.components.YearSwitch
 import com.idiomiko.core.ui.components.animatedCount
-import com.idiomiko.core.ui.components.cardSurface
-import com.idiomiko.core.ui.components.inLearnedScript
-import com.idiomiko.core.ui.components.shortDate
-import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.formatCount
-import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.state.CollectEvents
 import com.idiomiko.core.ui.theme.AppAccents
+import com.idiomiko.core.ui.theme.AppAlpha
+import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import kotlinx.datetime.DateTimeUnit
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.minus
 import org.koin.compose.viewmodel.koinViewModel
 
 @Composable
@@ -83,14 +70,18 @@ fun HomeScreen(onNavigate: (Route) -> Unit, viewModel: HomeViewModel = koinViewM
     // Back from reading or reviewing, the day's figures have changed.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refresh() }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Home"), onNavigate = onNavigate, section = NavSection.HOME) },
+        topBar = {
+            AppTopBar(title = tr("Home"), onNavigate = onNavigate, section = NavSection.HOME, actions = { QuickAddButton(state.readsWebPages, onNavigate) })
+        },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        PageColumn(padding) { HomeContent(state, onNavigate, onContinueCourse = viewModel::continueCourse, onContinuePlaylist = viewModel::continuePlaylist, onSavedToday = viewModel::showSavedToday) }
+        PageColumn(padding) {
+            HomeContent(state, HomeActions(onNavigate, onOpenLesson = viewModel::openLesson, onContinuePlaylist = viewModel::continuePlaylist, onSavedToday = viewModel::showSavedToday))
+        }
     }
     val savedToday by viewModel.savedToday.collectAsStateWithLifecycle()
     savedToday?.let { words ->
@@ -98,372 +89,132 @@ fun HomeScreen(onNavigate: (Route) -> Unit, viewModel: HomeViewModel = koinViewM
     }
 }
 
+/** What the page's parts do: go somewhere, open a lesson, play the playlist on, list the words saved today. */
+internal class HomeActions(
+    val onNavigate: (Route) -> Unit,
+    val onOpenLesson: (CourseProgress, LessonProgress) -> Unit = { _, _ -> },
+    val onContinuePlaylist: () -> Unit = {},
+    val onSavedToday: () -> Unit = {},
+)
+
+/**
+ * Today's line, then the one step to take first, the rest under way, and the progress around them: in two
+ * columns on a wide window, the doing on the left and the progress on the right, one column otherwise.
+ */
 @Composable
-internal fun HomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit = {}, onSavedToday: () -> Unit = {}) {
-    val width = LocalWindowWidth.current
-    // A completed book is history, not something Home should offer to continue. The view-model
-    // already filters it out; keeping the guard here also protects previews and direct callers.
-    val shownState = if (state.book?.isCompleted == true) state.copy(book = null) else state
-    ScreenHeader(
-        tr("Home"),
-        if (state.languageName.isEmpty()) tr("Pick up where you left off.")
-        else tr("Pick up where you left off in {0}.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-    )
-    val activity = shownState.activity
-    if (width.isCompact) {
-        PhoneHomeContent(shownState, onNavigate, onContinueCourse, onContinuePlaylist, onSavedToday)
-        return
-    }
-    if (activity != null) {
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-            WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight(), onSavedToday)
-            StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
-        }
-    }
-    // What needs doing first: cards that are due, then the course and book under way, then the empty ones.
-    val courseUnderWay = shownState.course?.nextLesson != null
-    val cards: List<@Composable (Modifier, Boolean) -> Unit> = listOf(
-        (if (courseUnderWay) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> CourseCard(shownState, m, fill, onNavigate, onContinueCourse) },
-        (if (shownState.book != null) 1 else 2) to @Composable { m: Modifier, fill: Boolean -> BookCard(shownState, m, fill, onNavigate) },
-        (if (shownState.flashcardsDue > 0) 0 else 2) to @Composable { m: Modifier, fill: Boolean -> FlashcardsCard(shownState.flashcardsDue, m, fill, onNavigate) },
-    ).sortedBy { it.first }.map { it.second }
-    if (width.isExpanded) {
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-            cards.forEach { it(Modifier.weight(1f).fillMaxHeight(), true) }
-        }
-    } else {
-        cards.forEach { it(Modifier, false) }
-    }
-    // A playlist under way comes after the reading and the cards, as a quieter way back.
-    shownState.playlist?.let { PlaylistRow(it, onContinuePlaylist) }
-    if (activity != null) StudyActivityCard(activity)
-}
-
-internal enum class PhonePrimaryActivity { COURSE, FLASHCARDS, BOOK, BROWSE_COURSES }
-
-internal fun phonePrimaryActivity(state: HomeUiState): PhonePrimaryActivity = when {
-    state.course?.status == LessonStatus.IN_PROGRESS && state.course.nextLesson != null -> PhonePrimaryActivity.COURSE
-    state.flashcardsDue > 0 -> PhonePrimaryActivity.FLASHCARDS
-    state.book?.isCompleted == false -> PhonePrimaryActivity.BOOK
-    else -> PhonePrimaryActivity.BROWSE_COURSES
-}
-
-/** One prominent next step, followed by compact alternatives and secondary progress figures. */
-@Composable
-private fun PhoneHomeContent(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit, onSavedToday: () -> Unit) {
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { PhoneHomeItems(state, onNavigate, onContinueCourse, onContinuePlaylist, onSavedToday) }
-}
-
-@Composable
-private fun PhoneHomeItems(state: HomeUiState, onNavigate: (Route) -> Unit, onContinueCourse: () -> Unit, onContinuePlaylist: () -> Unit, onSavedToday: () -> Unit) {
-    val courseUnderWay = state.course?.status == LessonStatus.IN_PROGRESS && state.course.nextLesson != null
-    val primary = phonePrimaryActivity(state)
-    Box(Modifier.fillMaxWidth().testTag("primary-activity")) {
-        when (primary) {
-            PhonePrimaryActivity.COURSE -> CourseCard(state, Modifier, fill = false, onNavigate, onContinueCourse)
-            PhonePrimaryActivity.FLASHCARDS -> FlashcardsCard(state.flashcardsDue, Modifier, fill = false, onNavigate)
-            PhonePrimaryActivity.BOOK -> BookCard(state, Modifier, fill = false, onNavigate)
-            PhonePrimaryActivity.BROWSE_COURSES -> BrowseCoursesCard(onNavigate)
-        }
-    }
-    // Reviews are the second urgent action when a learner has a lesson under way.
-    if (primary == PhonePrimaryActivity.COURSE && state.flashcardsDue > 0) {
-        FlashcardsRow(state.flashcardsDue, onNavigate)
-    }
-    state.activity?.let { activity ->
-        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            WordsTodayTile(activity, Modifier.weight(1f).fillMaxHeight(), onSavedToday)
-            StreakTile(activity, Modifier.weight(1f).fillMaxHeight())
-        }
-    }
-    when (primary) {
-        PhonePrimaryActivity.FLASHCARDS -> {
-            // Keep real in-progress activities above empty discovery rows.
-            if (courseUnderWay) CourseRow(state, onNavigate, onContinueCourse)
-            if (state.book != null) BookRow(state.book, onNavigate)
-            if (!courseUnderWay) CourseRow(state, onNavigate, onContinueCourse)
-            if (state.book == null) BookRow(null, onNavigate)
-        }
-        PhonePrimaryActivity.COURSE -> {
-            BookRow(state.book, onNavigate)
-            if (state.flashcardsDue == 0) FlashcardsRow(0, onNavigate)
-        }
-        PhonePrimaryActivity.BOOK -> {
-            CourseRow(state, onNavigate, onContinueCourse)
-            FlashcardsRow(state.flashcardsDue, onNavigate)
-        }
-        PhonePrimaryActivity.BROWSE_COURSES -> {
-            BookRow(state.book, onNavigate)
-            FlashcardsRow(state.flashcardsDue, onNavigate)
-        }
-    }
-    // Listening comes after reading and the cards: fourth in the order of what to do next.
-    state.playlist?.let { PlaylistRow(it, onContinuePlaylist) }
-    state.activity?.let { StudyActivityCard(it) }
-}
-
-@Composable
-private fun BrowseCoursesCard(onNavigate: (Route) -> Unit) {
-    ActionCard(
-        tr("Continue course"), tr("No course in progress"), tr("Choose a course to start learning."),
-        AppIcons.School, AppAccents.blue, "course", Modifier, fill = false,
-        button = tr("Browse courses"), primary = true, onClick = { onNavigate(Route.Courses) },
-    )
-}
-
-@Composable
-private fun CourseRow(state: HomeUiState, onNavigate: (Route) -> Unit, onContinue: () -> Unit) {
-    val progress = state.course?.takeIf { it.status == LessonStatus.IN_PROGRESS && it.nextLesson != null }
-    val next = progress?.nextLesson
-    SecondaryActivityRow(
-        label = if (progress != null) tr("Continue course") else tr("Courses"),
-        title = progress?.course?.title?.inLearnedScript() ?: tr("No course in progress"),
-        detail = if (progress != null && next != null) {
-            val number = progress.lessons.indexOf(next) + 1
-            tr("Lesson {0}: {1}", number, next.lesson.title.inLearnedScript())
-        } else tr("Choose a course to start learning."),
-        icon = AppIcons.School,
-        tint = AppAccents.blue,
-        tag = "course",
-        onClick = if (progress != null) onContinue else ({ onNavigate(Route.Courses) }),
-    )
-}
-
-@Composable
-private fun BookRow(book: BookListItem?, onNavigate: (Route) -> Unit) {
-    val active = book
-    val percent = active?.let(::bookPercent)
-    SecondaryActivityRow(
-        label = if (active != null) tr("Continue book") else tr("Books"),
-        title = active?.title?.inLearnedScript() ?: tr("No book in progress"),
-        detail = active?.let {
-            if (it.pageCount > 1) tr("Page {0} of {1}", it.currentPage, it.pageCount)
-            else trPlural(it.wordCount, "{1} word", "{1} words", formatCount(it.wordCount))
-        } ?: tr("Open a book from your library to start reading."),
-        trailing = percent?.let { "$it%" },
-        icon = AppIcons.MenuBook,
-        tint = AppAccents.purple,
-        tag = "book",
-        onClick = { if (active != null) onNavigate(Route.Read(active.id)) else onNavigate(Route.Books) },
-    )
-}
-
-/** The playlist under way: its name and the text it got to; a tap plays on from there. */
-@Composable
-private fun PlaylistRow(playlist: Playlist, onContinue: () -> Unit) {
-    SecondaryActivityRow(
-        label = tr("Continue listening"),
-        title = playlist.name,
-        detail = playlist.currentItem?.title?.inLearnedScript() ?: trPlural(playlist.items.size, "{0} text", "{0} texts"),
-        trailing = "${(playlist.progress * 100).toInt()}%",
-        icon = AppIcons.Headphones,
-        tint = AppAccents.orange,
-        tag = "playlist",
-        onClick = onContinue,
-    )
-}
-
-@Composable
-private fun FlashcardsRow(due: Int, onNavigate: (Route) -> Unit) {
-    SecondaryActivityRow(
-        label = tr("Flashcards"),
-        title = if (due > 0) trPlural(due, "{1} card due today", "{1} cards due today", formatCount(due)) else tr("All caught up"),
-        detail = if (due > 0) tr("Review them to keep your words fresh.") else tr("No cards are due right now."),
-        icon = AppIcons.Style,
-        tint = AppAccents.teal,
-        tag = "flashcards",
-        onClick = { onNavigate(Route.Flashcards()) },
-    )
-}
-
-@Composable
-private fun SecondaryActivityRow(
-    label: String,
-    title: String,
-    detail: String,
-    icon: ImageVector,
-    tint: Color,
-    tag: String,
-    onClick: () -> Unit,
-    trailing: String? = null,
-) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth().cardSurface(AppShapes.card).testTag("card-$tag")) {
-        Row(
-            Modifier.fillMaxWidth().clickable(onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("action-$tag"),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-        ) {
-            IconTile(icon, size = 40, tint = tint)
-            Column(Modifier.weight(1f)) {
-                Text(label, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1)
-                Text(title, style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+internal fun HomeContent(state: HomeUiState, actions: HomeActions) {
+    TodayLine(state, actions)
+    BoxWithConstraints(Modifier.fillMaxWidth()) {
+        if (maxWidth >= TWO_COLUMNS) {
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                Column(Modifier.weight(1.5f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                    NextUpCard(state, actions)
+                    ContinueCard(state, actions)
+                    SuggestionsCard(state, actions)
+                }
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                    VocabularyCard(state, actions)
+                    RecentWordsCard(state, actions)
+                    RecentActivityCard(state, actions)
+                }
             }
-            if (trailing != null) Text(trailing, style = AppText.label, color = colors.onSurfaceVariant)
-            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
+        } else {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                NextUpCard(state, actions)
+                ContinueCard(state, actions)
+                RecentWordsCard(state, actions)
+                VocabularyCard(state, actions)
+                SuggestionsCard(state, actions)
+                RecentActivityCard(state, actions)
+            }
         }
     }
-}
-
-@Composable
-private fun WordsTodayTile(activity: StudyActivity, modifier: Modifier, onClick: () -> Unit) {
-    val weekStart = activity.today.minus(6, DateTimeUnit.DAY)
-    val week = activity.days.filterKeys { it in weekStart..activity.today }.values.sumOf { it.wordsSaved }
-    Tile(tr("Words saved today"), formatCount(animatedCount(activity.savedToday)), tr("{0} this week", formatCount(week)), AppIcons.Abc, AppAccents.orange, "words-today", modifier, onClick)
-}
-
-@Composable
-private fun StreakTile(activity: StudyActivity, modifier: Modifier) {
-    val detail = when {
-        activity.studiedToday -> trPlural(activity.longestStreak, "Longest: {0} day", "Longest: {0} days")
-        activity.streak > 0 -> tr("Study today to keep it going")
-        else -> tr("Study today to start a streak")
-    }
-    Tile(tr("Study streak"), animatedCount(activity.streak).let { trPlural(it, "{0} day", "{0} days") }, detail, AppIcons.Flame, AppAccents.pink, "streak", modifier)
-}
-
-@Composable
-private fun Tile(label: String, value: String, detail: String, icon: ImageVector, tint: Color, tag: String, modifier: Modifier, onClick: (() -> Unit)? = null) =
-    StatTile(label, value, detail, icon, tint, modifier.testTag("tile-$tag"), onClick)
-
-@Composable
-private fun CourseCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit, onContinue: () -> Unit) {
-    val progress = state.course
-    val next = progress?.nextLesson
-    if (progress == null || next == null) {
-        ActionCard(
-            tr("Continue course"), tr("No course in progress"), tr("Choose a course to start learning."), AppIcons.School, AppAccents.blue, "course", modifier, fill,
-            // With nothing under way, a course is the next step: its button leads.
-            button = tr("Browse courses"), primary = state.book == null, onClick = { onNavigate(Route.Courses) },
-        )
-        return
-    }
-    val started = progress.status != LessonStatus.NOT_STARTED
-    val total = progress.lessons.size
-    val number = progress.lessons.indexOf(next) + 1
-    ActionCard(
-        tr("Continue course"), progress.course.title.inLearnedScript(), tr("Lesson {0}: {1}", number, next.lesson.title.inLearnedScript()), AppIcons.School, AppAccents.blue, "course", modifier, fill,
-        button = if (started) tr("Continue course") else tr("Start course"), onClick = onContinue,
-        progress = if (total == 0) 0f else progress.completed.toFloat() / total,
-        progressText = trPlural(total, "{1} of {0} lesson", "{1} of {0} lessons", progress.completed),
-        error = state.error,
-    )
-}
-
-@Composable
-private fun BookCard(state: HomeUiState, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit) {
-    val book = state.book
-    if (book == null) {
-        ActionCard(
-            tr("Continue book"), tr("No book in progress"), tr("Open a book from your library to start reading."), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
-            button = tr("Browse books"), primary = false, onClick = { onNavigate(Route.Books) },
-        )
-        return
-    }
-    // As on Books: the pages finished, and never all of them until the book is marked finished.
-    val percent = bookPercent(book)
-    ActionCard(
-        // A text of one page has no pages to count, so its length is given instead.
-        tr("Continue book"), book.title.inLearnedScript(),
-        if (book.pageCount > 1) tr("Page {0} of {1}", book.currentPage, book.pageCount) else trPlural(book.wordCount, "{1} word", "{1} words", formatCount(book.wordCount)), AppIcons.MenuBook, AppAccents.purple, "book", modifier, fill,
-        button = tr("Continue book"), onClick = { onNavigate(Route.Read(book.id)) },
-        progress = percent / 100f, progressText = "$percent%",
-    )
-}
-
-private fun bookPercent(book: BookListItem): Int =
-    if (book.pageCount > 0) (100 * (book.currentPage - 1) / book.pageCount).coerceIn(0, 99) else 0
-
-@Composable
-private fun FlashcardsCard(due: Int, modifier: Modifier, fill: Boolean, onNavigate: (Route) -> Unit) {
-    ActionCard(
-        tr("Flashcards"),
-        if (due > 0) animatedCount(due).let { shown -> trPlural(shown, "{1} card due today", "{1} cards due today", formatCount(shown)) } else tr("All caught up"),
-        if (due > 0) tr("Review them to keep your words fresh.") else tr("No cards are due right now."),
-        AppIcons.Style, AppAccents.teal, "flashcards", modifier, fill,
-        button = tr("Review flashcards"), primary = due > 0, onClick = { onNavigate(Route.Flashcards()) },
-    )
 }
 
 /**
- * A way back into some study: what it is, how far it has got, and one button. With [fill] the
- * card takes the height it is given, its button at the bottom, so cards side by side line up.
+ * The day at a glance, in place of a page heading: the daily goal's ring with the minutes studied, and a
+ * strip of figures: the streak, the words saved today (which lists them) and the words known.
  */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun ActionCard(
-    label: String,
-    title: String,
-    detail: String,
-    icon: ImageVector,
-    tint: Color,
-    tag: String,
-    modifier: Modifier,
-    fill: Boolean,
-    button: String,
-    onClick: () -> Unit,
-    primary: Boolean = true,
-    progress: Float? = null,
-    progressText: String? = null,
-    error: String? = null,
-) {
+private fun TodayLine(state: HomeUiState, actions: HomeActions) {
     val colors = MaterialTheme.colorScheme
-    Column(
-        modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xl).testTag("card-$tag"),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+    val goal = state.goal
+    FlowRow(
+        Modifier.fillMaxWidth().testTag("today"),
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        itemVerticalAlignment = Alignment.CenterVertically,
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            IconTile(icon, size = 52, tint = tint)
-            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(label, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(title, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        // The goal is set in Settings, where the ring leads.
+        Row(
+            Modifier.clip(AppShapes.control).clickable(onClickLabel = tr("Change the daily goal"), role = Role.Button) { actions.onNavigate(Route.Settings) }
+                .padding(end = AppSpacing.s).testTag("daily-goal"),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+        ) {
+            GoalRing(goal)
+            Column {
+                Text(
+                    if (goal.reached) tr("Daily goal reached") else trPlural(goal.goal, "{1} of {0} minute today", "{1} of {0} minutes today", goal.done),
+                    style = AppText.itemTitle,
+                )
+                Text(
+                    if (goal.reached) trPlural(goal.done, "{0} minute of study today", "{0} minutes of study today")
+                    else trPlural(goal.left, "{0} minute to go: reading and flashcards count", "{0} minutes to go: reading and flashcards count"),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = colors.onSurfaceVariant,
+                )
             }
         }
-        Text(detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        if (progress != null) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                ProgressTrack(progress, tint, Modifier.weight(1f), height = AppSizes.trackThick)
-                if (progressText != null) Text(progressText, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+        val activity = state.activity
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            // Figures of nothing yet are left out, but for the words saved today, which lists them.
+            val streak = animatedCount(activity?.streak ?: 0)
+            if (streak > 0) Figure(AppIcons.Flame, AppAccents.pink, trPlural(streak, "{0}-day streak", "{0}-day streak"), "streak")
+            val saved = activity?.savedToday ?: 0
+            Figure(AppIcons.Abc, AppAccents.orange, trPlural(saved, "{1} word saved today", "{1} words saved today", formatCount(saved)), "saved-today", actions.onSavedToday)
+            state.vocabulary?.takeIf { it.known > 0 }?.let { words ->
+                Figure(AppIcons.DoneAll, AppAccents.green, trPlural(words.known, "{1} word known", "{1} words known", formatCount(words.known)), "known") { actions.onNavigate(Route.WordFrequency) }
             }
-        }
-        if (error != null) Text(error, style = MaterialTheme.typography.bodyMedium, color = colors.error)
-        if (fill) Spacer(Modifier.weight(1f))
-        val buttonModifier = Modifier.fillMaxWidth().testTag("action-$tag")
-        if (primary) {
-            PrimaryButton(button, onClick = onClick, modifier = buttonModifier, size = ButtonSize.Large)
-        } else {
-            SecondaryButton(button, onClick = onClick, modifier = buttonModifier, size = ButtonSize.Large)
         }
     }
 }
 
-/** Each recent day, darker the more was studied: words read, flashcards answered or words saved. */
+/** The day's minutes against the goal as a ring, the minutes in its middle; green once the goal is reached. */
 @Composable
-private fun StudyActivityCard(activity: StudyActivity) {
-    // A calendar year at a time, this one first, back to the year of the first study.
-    var year by rememberSaveable { mutableStateOf(activity.today.year) }
-    val firstYear = activity.days.keys.minOfOrNull { it.year } ?: activity.today.year
-    val range = LocalDate(year, 1, 1)..LocalDate(year, 12, 31)
-    ActivityHeatmapCard(
-        title = tr("Study activity"),
-        subtitle = {
-            val days = activity.days.keys.count { it.year == year }
-            trPlural(days, "{1} day studied in {2}", "{1} days studied in {2}", formatCount(days), "$year")
-        },
-        today = activity.today,
-        levels = { activity.levels(range.start, range.endInclusive) },
-        range = range,
-        fewer = tr("Less study"),
-        more = tr("More study"),
-        icon = AppIcons.History,
-        action = { YearSwitch(year, canBack = year > firstYear, canForward = year < activity.today.year) { year = it } },
-        describe = { date ->
-            val day = activity.days[date]
-            listOfNotNull(
-                day?.wordsRead?.takeIf { it > 0 }?.let { trPlural(it, "{1} word read", "{1} words read", formatCount(it)) },
-                day?.reviews?.takeIf { it > 0 }?.let { trPlural(it, "{1} review", "{1} reviews", formatCount(it)) },
-                day?.wordsSaved?.takeIf { it > 0 }?.let { trPlural(it, "{1} word saved", "{1} words saved", formatCount(it)) },
-            ).joinToString(" · ").ifEmpty { tr("Nothing studied") }
-        },
-    )
+private fun GoalRing(goal: DailyGoal) {
+    val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.tint)
+    val fill = if (goal.reached) AppAccents.green else MaterialTheme.colorScheme.primary
+    Box(Modifier.size(RING_SIZE), contentAlignment = Alignment.Center) {
+        Canvas(Modifier.size(RING_SIZE)) {
+            val stroke = RING_STROKE.toPx()
+            val corner = Offset(stroke / 2, stroke / 2)
+            val arc = Size(size.width - stroke, size.height - stroke)
+            drawArc(track, 0f, 360f, useCenter = false, topLeft = corner, size = arc, style = Stroke(stroke))
+            if (goal.fraction > 0f) drawArc(fill, -90f, 360f * goal.fraction, useCenter = false, topLeft = corner, size = arc, style = Stroke(stroke, cap = StrokeCap.Round))
+        }
+        Text("${goal.done}", style = AppText.labelStrong, maxLines = 1)
+    }
 }
+
+/** A figure of the day as a small pill; with [onClick], it leads on. */
+@Composable
+private fun Figure(icon: ImageVector, tint: Color, text: String, tag: String, onClick: (() -> Unit)? = null) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.clip(AppShapes.pill).background(colors.surface).border(AppBorders.hairline(), AppShapes.pill)
+            .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier)
+            .padding(horizontal = AppSpacing.m, vertical = AppSpacing.s).testTag("figure-$tag"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+    ) {
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconSmall))
+        Text(text, style = AppText.label, color = colors.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis)
+    }
+}
+
+/** Wide enough for the doing and the progress side by side. */
+private val TWO_COLUMNS = 1040.dp
+private val RING_SIZE = 52.dp
+private val RING_STROKE = 6.dp

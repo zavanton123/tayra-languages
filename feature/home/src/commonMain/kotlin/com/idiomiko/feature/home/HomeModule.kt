@@ -3,12 +3,15 @@ package com.idiomiko.feature.home
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
+import com.idiomiko.core.domain.web.WebPageReader
 import com.idiomiko.core.ui.navigation.Route
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val homeModule = module {
-    viewModel { HomeViewModel(get(), get(), get(), get(), get(), get(), get(), get()) }
+    viewModel {
+        HomeViewModel(get(), get(), get(), get(), get(), get(), get(), get(), frequency = getOrNull(), readsWebPages = getOrNull<WebPageReader>() != null)
+    }
 }
 
 fun NavGraphBuilder.homeGraph(navController: NavController) {
