@@ -95,7 +95,7 @@ PRONOUNS = {
     "यी": "यिनले यिनलाई यिनको यिनका यिनमा यिनी यिनीहरू यिनीहरु यिनीहरूले यिनीहरूलाई यिनीहरूको",
     "त्यो": "त्यस त्यसले त्यसलाई त्यसको त्यसका त्यसकी त्यसमा त्यसबाट त्यससँग त्यसरी त्यसकारण त्यसकै त्यसैले त्यसैमा त्यसैको",
     "ती": "तिनले तिनलाई तिनको तिनका तिनमा तिनी तिनीहरू तिनीहरु तिनीहरूले तिनीहरुले तिनीहरूलाई तिनीहरुलाई तिनीहरूको तिनीहरुको",
-    "के": "केले केलाई केको केका केमा केबाट केही",
+    "के": "केले केलाई केको केका केमा केबाट",
     "को": "कसले कसलाई कसको कसका कसकी कसमा कससँग कसबाट",
     "जो": "जस जसले जसलाई जसको जसका जसकी जसमा जससँग जसबाट जसरी",
     "कोही": "कसैले कसैलाई कसैको कसैका कसैमा कसैसँग",
@@ -487,6 +487,9 @@ class Analyser:
             if stem in self.nominal and tail in NOMINAL_TAILS:
                 for word in self.nominal[stem]:
                     nouns.setdefault(word, len(tail))
+            # A number with its classifier written on (दुईवटा, तीनजना).
+            if tail in NUMBER_TAILS and "num" in self.kinds.get(stem, ()):
+                nouns.setdefault(stem, len(tail))
             for kind, words in self.joined_prefixes.get(stem, ()):
                 if tail in self.after[kind]:
                     verbs |= words
