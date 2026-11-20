@@ -141,7 +141,7 @@ private fun LessonPath(lessons: List<LessonProgress>, current: LessonProgress, o
 
 private enum class StopKind { DONE, CURRENT, AHEAD }
 
-/** One stop of the lesson path: a flat circle, green when read, orange for the one to read next, grey ahead. */
+/** One stop of the lesson path: a flat circle, green with a tick when read, orange with its number for the one to read next, grey ahead. */
 @Composable
 private fun LessonStop(number: Int, kind: StopKind, size: Dp, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -157,7 +157,7 @@ private fun LessonStop(number: Int, kind: StopKind, size: Dp, onClick: () -> Uni
     ) {
         when (kind) {
             StopKind.DONE -> Icon(Icons.Default.Check, contentDescription = tr("Lesson {0}", number), tint = content, modifier = Modifier.size(AppSizes.icon))
-            StopKind.CURRENT -> Icon(AppIcons.PlayArrow, contentDescription = tr("Lesson {0}", number), tint = content, modifier = Modifier.size(AppSizes.iconXLarge))
+            StopKind.CURRENT -> Text("$number", style = AppText.sectionTitle, color = content)
             StopKind.AHEAD -> Text("$number", style = AppText.smallTitle, color = content)
         }
     }
