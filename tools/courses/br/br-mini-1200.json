@@ -1,0 +1,225 @@
+{
+  "id": "br-mini-1200",
+  "rankUpTo": 1200,
+  "level": "B1",
+  "title": "Eñvorennoù",
+  "description": "Ten stories about memories: an evening Breton class, a childhood on an island, an ancestor's letters, a farmers' demonstration, a grandmother's tales, a wedding, a childhood illness, a football team, a trip to Ireland and an old table.",
+  "topic": "Memories",
+  "names": [
+    "Anaod",
+    "Olier",
+    "Kemper",
+    "Jowan",
+    "Riok",
+    "Eusa",
+    "Brest",
+    "Breizh",
+    "Amerika",
+    "Ivinig",
+    "Naoned",
+    "Karaez",
+    "Fiakr",
+    "Donan",
+    "Iowa",
+    "Goneri",
+    "Montroulez",
+    "Yeun",
+    "Tinaig",
+    "Kraozon",
+    "Gwenaig",
+    "Nonna",
+    "Pondi",
+    "Arzhvael",
+    "Enoal",
+    "Sklerijenn",
+    "Lannuon",
+    "Fragan",
+    "Ewenig",
+    "Gwengamp",
+    "Jilian",
+    "Kemperle",
+    "Iwerzhon",
+    "Dulenn",
+    "Liam",
+    "Galway",
+    "Lars",
+    "Kopenhagen",
+    "Internet",
+    "Kerne",
+    "Danmark",
+    "Rumon",
+    "Mazhaliz",
+    "Gwened"
+  ],
+  "lessons": [
+    {
+      "title": "Ar c'hlasoù noz",
+      "summary": "Anaod finds an old Breton grammar book in the Kemper library and remembers the evening classes where Olier taught her to write Breton fifty years ago.",
+      "newWords": [
+        "klas",
+        "levraoueg",
+        "yezhadur",
+        "doare-skrivañ",
+        "unvan",
+        "kensonenn",
+        "liester",
+        "displegadenn",
+        "matematik",
+        "gresianeg"
+      ],
+      "text": "Anaod he deus 72 bloaz, hag e Kemper e vev. Un deiz, e levraoueg kêr, e kav ul levr kozh war un daol: ul levr yezhadur brezhonek. Kerkent e soñj en he c'hlasoù brezhoneg kentañ.\n\nE 1975 e laboure Anaod en ur stal e Kemper. Brezhoneg a gomze he zud er gêr, met ne ouie ket Anaod skrivañ ar yezh. Neuze ez eas d'ar c'hlasoù noz, bep Meurzh, e levraoueg kêr. Ar c'hlasoù a oa en ur sal vihan, e-kichen al levrioù.\n\nAr c'helenner a oa ur paotr yaouank, Olier e anv. Kelenner matematik e oa en ur skolaj. D'an deiz e roe kentelioù matematik d'ar vugale, ha d'an noz e rae klasoù brezhoneg evit an dud deuet.\n\nDa gentañ e tiskouezas Olier an doare-skrivañ unvan dezho. \"Gant an doare-skrivañ unvan e c'hall an holl dud lenn an hevelep levrioù,\" a lavaras. Abaoe he deus Anaod skrivet atav gant an doare-skrivañ-se.\n\nGoude e teuas ar yezhadur. Diaes e oa da Anaod. Ret e oa deskiñ ar c'hensonennoù a cheñch e penn ar gerioù: \"ur vamm\", \"ma zad\", \"e vreur\". Bep sizhun e roe Olier un displegadenn sklaer war ar c'hensonennoù-se, ha goude e skrive skouerioù war an daolenn.\n\nAl liester a oa diaes ivez. \"Perak ez eus kement a zoareoù da ober al liester?\" a c'houlennas Anaod un noz. \"N'em eus ket un displegadenn vat evit an dra-se,\" a respontas Olier. \"Er gresianeg kozh eo diaesoc'h c'hoazh!\" Gresianeg en doa desket Olier er skol-veur, hag a-wechoù e lenne un nebeud linennoù gresianeg e-pad ar c'hlasoù.\n\nGant klasoù Olier he deus desket Anaod skrivañ e brezhoneg. Bremañ e lenn kalz levrioù brezhonek, hag e levraoueg kêr e kemer anezho.\n\nHiziv e kemer al levr yezhadur kozh d'ar gêr. Er gêr e lenn adarre ar pennad war ar c'hensonennoù, hag e soñj en Olier hag en he c'hlasoù noz.\n\nGoulennoù:\nPetra a gav Anaod e levraoueg kêr?\nUl levr yezhadur brezhonek kozh a gav.\nPetra e oa Olier d'an deiz?\nKelenner matematik e oa en ur skolaj.\nPetra en deus Olier diskouezet da gentañ?\nAn doare-skrivañ unvan en deus diskouezet da gentañ.\nPerak ne oa ket aes al liester?\nRak ez eus kalz doareoù da ober al liester e brezhoneg.\nPelec'h en doa Olier desket ar gresianeg?\nEr skol-veur en doa desket ar gresianeg."
+    },
+    {
+      "title": "Treid noazh en Eusa",
+      "summary": "Jowan, eighty, remembers his childhood on the island of Eusa: the path along the bay, the spring, his sailor father, jumping from a plank into the sea and the day he nearly drowned.",
+      "newWords": [
+        "noazh",
+        "feunteun",
+        "lammat",
+        "gevred",
+        "martolod",
+        "plankenn",
+        "mervent",
+        "bae",
+        "douar-bras",
+        "beuziñ",
+        "bordañ"
+      ],
+      "text": "Jowan eo ma anv, ha 80 bloaz am eus. Ganet on bet en Eusa, un enez vihan e kornôg Breizh. Bremañ e vevan war an douar-bras, e Brest, met soñj am eus mat eus ma bugaleaj.\n\nPa oan bugel e veven gant ma zud en un ti bihan e-kichen ar bae. Un hent strizh a vorde ar bae, ha war an hent-se e kerzhemp bemdez, ma breur Riok ha me, da vont d'ar skol. En hañv e kerzhemp gant treid noazh, eus miz Mae betek miz Gwengolo.\n\nHon ti a oa e mervent an enez, hag e gevred an enez e oa ur feunteun. Bep beure ez aemp war droad betek ar feunteun e gevred. N'hon doa ket a zour en ti, hag ez aemp d'ar feunteun da gemer dour.\n\nMa zad a oa martolod war al listri bras a yae eus Brest betek Amerika. Bep tri miz e teue d'ar gêr. Pa welemp bag an douar-bras o tont er bae, e redemp betek ar porzh gant hon treid noazh.\n\nMa zad-kozh a ouie lenn an amzer. \"Pa zeu an avel vervent e teu ar glav,\" a lavare. Gwir e oa: gant an avel vervent e teue ar glav eus ar mor, ha neuze e veze leun ar feunteun.\n\nE porzh ar bae e oa ur blankenn hir. Bep hañv e lammemp, Riok ha me, diwar ar blankenn er mor. Un deiz, avat, e lammis re bell. Ne oan ket mat da neuñvial, hag ar mor a oa don eno. Tost e oan da veuziñ. Ur martolod kozh, a oa er porzh, a lammas er mor hag a gasas ac'hanon d'an aod.\n\n\"Meur a vartolod a zo bet beuzet tro-dro d'an enez,\" a lavaras ma zad pa glevas an istor. \"Ne fell ket din e vefes beuzet ivez.\" Ar sizhun war-lerc'h e teskas din neuñvial er bae.\n\nBremañ, bep hañv, ez an en-dro da Eusa. Kerzhout a ran gant treid noazh war an hent a vord ar bae, hag ez evan dour ar feunteun.\n\nGoulennoù:\nPelec'h eo bet ganet Jowan?\nEn Eusa, un enez vihan e kornôg Breizh, eo bet ganet.\nPenaos e kerzhe Jowan ha Riok en hañv?\nGant treid noazh e kerzhent.\nPetra a rae tad Jowan?\nMartolod e oa war al listri bras a yae betek Amerika.\nPelec'h e oa ar feunteun?\nE gevred an enez e oa ar feunteun.\nGant pe avel e teue ar glav?\nGant an avel vervent e teue ar glav.\nPetra a c'hoarvezas pa lammas Jowan re bell diwar ar blankenn?\nTost e oa da veuziñ, met ur martolod kozh a gasas anezhañ d'an aod."
+    },
+    {
+      "title": "Lizher an hendad",
+      "summary": "After her grandfather's death Ivinig finds letters from her ancestor's brother in America, learns how the family farm grew wheat, and writes down the family's memories.",
+      "newWords": [
+        "hendad",
+        "eñvorenn",
+        "ed",
+        "maread",
+        "kerentiad",
+        "riez",
+        "goprañ",
+        "testeni",
+        "hêr"
+      ],
+      "text": "Ivinig a zo ur vaouez yaouank eus Naoned. E miz Here e varvas he zad-kozh, e Karaez. Goude e varv ez eas Ivinig da di he zad-kozh, hag e kambr an den kozh e kavas kalz paperioù kozh: kartennoù, skridoù ha tregont lizher bennak.\n\nIvinig a gemeras al lizher kentañ hag a lennas anezhañ. Skrivet e oa bet e 1912, e Amerika. Ur paotr, Fiakr e anv, a skrive d'e vreur Donan. Donan a oa hendad Ivinig: tad-kozh he zad-kozh. Ur maread e chomas Ivinig hep fiñval, al lizher en he daouarn.\n\nGant ar skridoù-se e komprenas Ivinig istor he c'herentiad. Donan a oa ar mab kentañ, hag hêr douaroù ar familh e-kichen Karaez e oa. Ed a lakae en douar, hag en hañv e veze an ed melen er parkoù. Bep hañv e oa gopret gantañ pemp pe c'hwec'h den evit dastum an ed. An dud gopret a laboure gantañ e-pad ur sizhun, hag a zebre gant ar c'herentiad.\n\nFiakr, avat, ne oa ket hêr. E 1905 ez eas da Amerika. Eno e kavas labour en ur riez e kreiz Amerika, Iowa e anv. \"Bras-bras eo ar riez,\" a skrivas d'e vreur. \"Ed a weler e pep lec'h, betek penn ar bed. Amañ e vez gopret ugent den evit an eost.\" Er bloavezhioù goude e prenas Fiakr douaroù e-unan, hag ed a lakaas enno.\n\nUr maread hir e chomas Ivinig da lenn. Pep lizher a oa un testeni eus buhez ar c'herentiad: an eost, ar c'hleñvedoù, an eured, ar vugale. Eñvorennoù he zad-kozh a zeuas en-dro dezhi ivez: an istorioù a gonte dezhi pa oa bihan, diwar-benn an douaroù hag an ed.\n\nNeuze e tivizas Ivinig skrivañ eñvorennoù ar c'herentiad en ul levr bihan. \"Testeni Fiakr ha Donan ne vo ket kollet,\" a soñjas. E diwezh al levr e lakaas ur gartenn eus riez Iowa, hag ur skeudenn eus douaroù ar familh e Karaez.\n\nGoulennoù:\nPetra a gavas Ivinig e kambr he zad-kozh?\nKalz paperioù kozh a gavas, gant tregont lizher bennak.\nPiv e oa Donan?\nHendad Ivinig e oa, ha hêr douaroù ar familh.\nPetra a rae Donan bep hañv?\nGoprañ a rae pemp pe c'hwec'h den evit dastum an ed.\nE pe riez e veve Fiakr?\nE riez Iowa, e Amerika, e veve.\nPetra a zivizas Ivinig ober?\nDivizout a reas skrivañ eñvorennoù ar c'herentiad en ul levr bihan."
+    },
+    {
+      "title": "Ar vanifestadeg",
+      "summary": "Goneri, a retired gendarme, tells children about the big farmers' demonstration in Montroulez in 1961, when the gendarmes had to back away, and about Yeun, a farmer who later became mayor and his friend.",
+      "newWords": [
+        "manifestadeg",
+        "archer",
+        "letanant",
+        "koronal",
+        "poliser",
+        "taer",
+        "skarzhañ",
+        "kilañ",
+        "votadeg"
+      ],
+      "text": "Goneri a zo un den kozh eus Montroulez. Pa oa yaouank e oa archer, ha letanant e oa e 1961. Bremañ, pa c'houlenn ar vugale diwar-benn e labour gwechall, e kont dezho istor ar vanifestadeg vras.\n\nEn hañv 1961 e oa droug e tud ar maez. Re izel e oa ar prizioù, ha ne c'hallent ket bevañ diwar o labour. Un deiz e teuas miliadoù a dud ar maez da Vontroulez. Ur vanifestadeg vras e oa, ar vrasañ en doa gwelet Goneri biskoazh. Taer e oa an dud: kanañ a raent war ar blasenn, dirak an ti-kêr, ha lavaret a raent e oa re izel ar prizioù.\n\nGoneri a oa eno gant tregont archer. Gant an archerien e oa ivez poliserien deuet eus Brest. Ar c'horonal a roas un urzh d'al letanant: \"Ret eo deoc'h skarzhañ an dud eus ar blasenn!\" Met re a dud a oa. Ne c'halle ket an archerien hag ar boliserien skarzhañ kement a dud.\n\n\"Taer e oa ar vanifestadeg,\" a lavar Goneri, \"met n'em boa ket aon. Evidon-me e oa gwir gant tud ar maez.\" Un nebeud tud a dorras traoù dirak an ti-kêr. Neuze e lavaras ar c'horonal: \"Ret eo kilañ, archerien! Kilañ betek ar porzh!\" Kilañ a reas an archerien hag ar boliserien betek ar porzh. Goude meur a eurvezh ez eas tud ar maez d'ar gêr.\n\nE-touez tud ar maez e oa ur paotr yaouank, Yeun e anv. Taer e oa Yeun, ha komz a reas ouzh al letanant dirak an holl. Goude ar vanifestadeg, avat, ez eas Goneri da welet anezhañ war e zouaroù. Komz a rejont pell. Abaoe ez int mignoned.\n\nAr bloaz war-lerc'h e oa ur votadeg e Montroulez. Gant ar votadeg-se e voe dilennet Yeun da vaer. \"Ur maer mat a zo bet anezhañ,\" a lavar Goneri. \"Ha bep bloaz, d'an deiz ma oa bet ar vanifestadeg, e tebromp ouzh an hevelep taol.\"\n\nGoulennoù:\nPetra e oa Goneri e 1961?\nArcher e oa, ha letanant.\nPerak e teuas tud ar maez da Vontroulez?\nRe izel e oa ar prizioù, ha ne c'hallent ket bevañ diwar o labour.\nPetra a lavaras ar c'horonal d'al letanant da gentañ?\nLavaret a reas dezhañ skarzhañ an dud eus ar blasenn.\nPerak ne c'halle ket an archerien skarzhañ an dud?\nRe a dud a oa war ar blasenn.\nPetra a c'hoarvezas gant ar votadeg ar bloaz war-lerc'h?\nGant ar votadeg-se e voe dilennet Yeun da vaer."
+    },
+    {
+      "title": "Kontadennoù dindan ar stered",
+      "summary": "A man remembers the summer evenings when his old neighbour Tinaig told him tales under the stars about warriors who hid their booty in a cave, and how her stories gave him dreams and a love of the universe.",
+      "newWords": [
+        "stered",
+        "hollved",
+        "brezeler",
+        "preizh",
+        "mougev",
+        "hud",
+        "fur",
+        "spont",
+        "hunvre",
+        "denel"
+      ],
+      "text": "Pa oan bugel e tremenen an hañv e Kraozon, e ti ma zad-kozh. E-kichen e oa o chom ur vaouez kozh, Tinaig e anv. Tinaig a ouie kalz kontadennoù, ha bep noz, pa veze brav an amzer, e chomemp er-maez, dindan ar stered.\n\n\"Sell ouzh ar stered,\" a lavare Tinaig. \"Bras-bras eo an hollved, ha bihan eo an dud.\" Diskouez a rae din ar stered brasañ hag o anvioù. Kontañ a rae din ivez e oa an hollved kozh-kozh, koshoc'h eget an istor denel. \"Berr eo ar vuhez denel,\" a lavare, \"met ar stered a chom.\"\n\nGoude e konte Tinaig he c'hontadenn wellañ. Gwechall, a lavaras, e oa brezelerien taer war ar mor. Dont a raent eus an norzh gant o bigi, ha kemer a raent an aour hag an arc'hant e pep lec'h. Un nozvezh e teuas ar vrezelerien da Graozon gant o freizh. Kuzhat a rejont ar preizh en ur vougev, e-tal ar mor.\n\nEn hevelep maread e veve e Kraozon ur vaouez fur. Hud a ouie ober. Gant he hud e serras ar vaouez fur ar vougev, ha biskoazh n'eo bet digoret adarre. \"Ar preizh a zo c'hoazh er vougev,\" a lavare Tinaig. \"Met den ne gavo anezhañ, rak gwelloc'h eo d'an dud bezañ fur eget pinvidik.\"\n\nGoude ar gontadenn-se e voe spont ennon. N'em boa ket c'hoant da vont da gousket. \"Arabat eo kaout aon,\" a lavaras Tinaig, \"ar vrezelerien a zo marvet abaoe pell.\" Ha gant he c'homzoù e yeas ar spont kuit.\n\nE-pad an noz-se em boe un hunvre: e welen ar vougev, ar vrezelerien hag ar vaouez fur. Bep hañv goude em boe hunvreoù a-seurt-se. Met bremañ ez on bras, ha kelenner on. Ma merc'h a zeu ganin er-maez dindan ar stered, ha diskouez a ran dezhi an hollved. Kontañ a ran dezhi ivez kontadennoù Tinaig.\n\nGoulennoù:\nPelec'h e tremene ar paotr bihan an hañv?\nE Kraozon, e ti e dad-kozh, e tremene an hañv.\nPetra a lavare Tinaig diwar-benn an hollved?\nLavaret a rae e oa bras-bras ha kozh-kozh, koshoc'h eget an istor denel.\nPetra a reas ar vrezelerien gant o freizh?\nKuzhat a rejont o freizh en ur vougev, e-tal ar mor.\nPetra a reas ar vaouez fur gant he hud?\nSerriñ a reas ar vougev.\nPetra en doe ar paotr bihan e-pad an noz?\nUn hunvre en doe diwar-benn ar vougev hag ar vrezelerien."
+    },
+    {
+      "title": "Ar walenn hag ar botoù",
+      "summary": "Gwenaig shows her granddaughter Nonna her wedding ring and remembers her wedding with Arzhvael on a Sunday in 1965: the dishes her mother cooked, the dancing, and the new shoes she took off to dance.",
+      "newWords": [
+        "sul",
+        "gwalenn",
+        "fest",
+        "meuz",
+        "poazhañ",
+        "kador",
+        "lonkañ",
+        "dañsal",
+        "botez",
+        "laouen"
+      ],
+      "text": "Gwenaig he deus 82 bloaz. Ur Sul, e miz Mae, e teu Nonna, merc'h he merc'h, d'he gwelet e Pondi. Nonna a sell ouzh dorn Gwenaig. \"Pegen brav eo da walenn!\" a lavar. Neuze e kont Gwenaig dezhi istor he eured.\n\n\"Dimezet on bet gant da dad-kozh Arzhvael ur Sul, e miz Mae 1965. Ar walenn-se en deus lakaet war ma biz en iliz, dirak an holl. Abaoe n'em eus ket tennet ar walenn ur wech, zoken.\"\n\nGoude an iliz e voe ur fest bras e liorzh ma zud. Daou c'hant den a oa er fest. Ma mamm ha div eus he c'hoarezed o doa poazhet meuzioù e-pad tri deiz: kig, pesked ha bara. Ar meuz gwellañ a oa ar c'hig poazhet en tan. An dud kozh a oa war gadorioù e-kichen an ti, hag an dud yaouank a oa war ar c'hadorioù all e-kreiz al liorzh.\n\n\"Arzhvael ha me hon eus lonket gwin evit an nevez-eured, hag an holl o deus lonket gwin ganimp. Goude ez eas ar sonerien da seniñ, ha dañset hon eus betek tri eur goude hanternoz.\"\n\nMet poan he doa bet Gwenaig gant he botoù nevez. Botoù gwenn e oant, brav-tre, met re vihan. Goude un eurvezh e oa poan en he zreid. \"Neuze em eus tennet ma botoù,\" a lavar Gwenaig, \"hag em eus dañset gant treid noazh war an douar. Laouen-tre e oan. Ma mamm ne oa ket laouen, avat: 'Ur plac'h nevez-dimezet gant treid noazh!' a lavare.\"\n\nNonna a gav brav an istor. \"Ha pelec'h emañ ar botoù-se bremañ?\" a c'houlenn. Gwenaig a sav diouzh he c'hador hag a ya d'he c'hambr. Distreiñ a ra gant ur votez wenn kozh. \"Unan eus ar botoù a zo chomet ganin,\" a lavar. \"Hag ar walenn a zo chomet war ma biz. Laouen on bet gant da dad-kozh e-pad 50 vloaz.\"\n\nGoulennoù:\nE pe vloaz eo dimezet Gwenaig gant Arzhvael?\nE 1965 int bet dimezet, ur Sul e miz Mae.\nPelec'h e voe ar fest?\nE liorzh tud Gwenaig e voe ar fest.\nPiv en doa poazhet ar meuzioù?\nMamm Gwenaig ha div eus he c'hoarezed o doa poazhet ar meuzioù.\nPerak he deus tennet Gwenaig he botoù?\nRe vihan e oa he botoù nevez, ha poan a oa en he zreid.\nPenaos he deus dañset Gwenaig goude?\nGant treid noazh war an douar he deus dañset."
+    },
+    {
+      "title": "Ar goañv klañv",
+      "summary": "Enoal remembers the winter he was seven, when a bad cough, a sore throat and an earache kept him at home for a week, and how his grandfather's warm milk and the doctor's tiny tablets made him strong again.",
+      "newWords": [
+        "paz",
+        "gouzoug",
+        "skouarn",
+        "kof",
+        "munut",
+        "berañ",
+        "sizhunvezh",
+        "trawalc'h",
+        "morse",
+        "kreñvaat"
+      ],
+      "text": "Enoal eo ma anv, ha bremañ ez on mezeg e Lannuon. Pa soñjan em bugaleaj, e soñjan da gentañ en ur goañv: ar goañv ma oan seizh vloaz.\n\nE miz Genver 1998 em boe ur paz. Da gentañ e oa ur paz bihan, met goude un nebeud deizioù e oa deuet da vezañ ur paz kreñv-kreñv. Poan am boa em gouzoug, ha ne c'hallen ket debriñ. Goude e teuas ur boan em skouarn zehou, hag en noz e oa poan em c'hof ivez.\n\nMa mamm, Sklerijenn, a gasas ac'hanon d'ar mezeg. Ar mezeg a sellas ouzh ma gouzoug hag ouzh ma skouarn, hag a lakaas e zorn war ma c'hof. \"Ur paz fall en deus,\" a lavaras. \"Ret eo dezhañ chom er gêr e-pad ur sizhunvezh, ha kemer al louzoù-se.\" Munut-munut e oa al louzoù, gwenn ha ruz, ha bemdez e oa ret din kemer daou anezho gant dour.\n\nE-pad ar sizhunvezh-se e chomis er gêr. Er-maez e oa glav bemdez. E sellen ouzh ar glav o verañ diwar an to, hag e lennen levrioù. Bemdez e teue ma zad-kozh da welet ac'hanon. Laezh tomm a roe din. \"Evit da c'houzoug eo,\" a lavare. \"Al laezh tomm a zo mat evit kreñvaat.\"\n\nUr wech, avat, n'em boa ket c'hoant da chom er gêr ken. \"Trawalc'h!\" emezon. \"Trawalc'h eo din sellet ouzh ar glav o verañ!\" Ma zad-kozh a respontas: \"Gortoz un nebeud deizioù c'hoazh. Morse ne vez kaset kuit ur paz en un deiz.\"\n\nGwir e oa. Tamm-ha-tamm e yeas ar paz kuit. Ne oa mui poan em gouzoug nag em skouarn. E fin ar sizhunvezh e c'hallen debriñ adarre. Bemdez e oan kreñvoc'h. An deiz war-lerc'h ez is en-dro d'ar skol.\n\nMorse n'eo aet ar goañv-se eus ma spered. Bremañ, pa zeu ur bugel klañv da welet ac'hanon, e soñjan em zad-kozh, hag e lavaran d'ar familh: \"Ret eo dezhañ chom er gêr ur sizhunvezh, hag evañ laezh tomm evit kreñvaat.\"\n\nGoulennoù:\nPetra eo Enoal bremañ?\nMezeg eo e Lannuon.\nPetra en doa Enoal e miz Genver 1998?\nUr paz kreñv en doa, ha poan en e c'houzoug, en e skouarn hag en e gof.\nPenaos e oa al louzoù?\nMunut-munut e oant, gwenn ha ruz.\nPetra a roe an tad-kozh da Enoal?\nLaezh tomm a roe dezhañ evit kreñvaat.\nPelec'h e chomas Enoal e-pad ur sizhunvezh?\nEr gêr e chomas e-pad ur sizhunvezh."
+    },
+    {
+      "title": "Ar pempvet c'hoari",
+      "summary": "Fragan finds a photo of his football team from when he was fifteen and remembers how, after four lost matches, the team won the fifth one thanks to hard work and his skilful friend Ewenig.",
+      "newWords": [
+        "laz",
+        "polotenn",
+        "pemzek",
+        "pempvet",
+        "striv",
+        "stabil",
+        "ampart",
+        "sachañ",
+        "dres",
+        "end-eeun"
+      ],
+      "text": "Un deiz, e Gwengamp, e kav Fragan ur skeudenn gozh e-touez e levrioù kozh: laz mell-droad e skolaj, e 1999. Fragan a oa pemzek vloaz neuze. E-kichen dezhañ, war ar skeudenn, emañ e vignon gwellañ, Ewenig, ar bolotenn etre e zaouarn.\n\nLaz ar skolaj a oa ul laz bihan. Pemzek c'hoarier o doa, ha n'o doa ket gounezet netra er bloaz kent. Tad Ewenig a oa e penn al laz. \"N'oc'h ket ar re vrasañ,\" a lavare dezho, \"met gant striv e c'hallit bezañ ar re wellañ.\"\n\nAr pevar c'hoari kentañ a gollas al laz. Pep tro e teue ar bolotenn betek o fal. Ne oa ket stabil o difenn, ha re aes e oa d'ar c'hoarierien all tremen. Goude ar pevare c'hoari e lavaras tad Ewenig: \"Ret eo deoc'h bezañ stabil. Labourit an holl evit al laz, ha grit striv bemdez.\"\n\nNeuze e teuas al laz da labourat bep noz goude ar skol. Ewenig a oa ar c'hoarier ampartañ er skolaj. Gouzout a rae kas ar bolotenn dres el lec'h mat. Fragan ne oa ket ken ampart, met buan-tre e oa o redek.\n\nAr pempvet c'hoari a voe e Gwengamp, dirak o familhoù. Taer e oa ar c'hoarierien all. Unan anezho a lakaas e zorn war vrec'h Ewenig. Sachañ a reas warni, ha kouezhañ a reas Ewenig. Daoust da se e savas en-dro. Tost da fin ar c'hoari e kasas Fragan ar bolotenn dezhañ. Ewenig a gasas anezhi end-eeun er pal, dres e-kreiz. Ur pal! Gounezet o doa ar pempvet c'hoari.\n\n\"Hiziv ez eus bet graet striv ganeoc'h,\" a lavaras tad Ewenig. \"Stabil e oa an difenn, hag ampart e oa an holl.\" Biskoazh ne oa bet Fragan ken laouen.\n\nBremañ en deus Fragan 40 vloaz. Kerkent e kas ar skeudenn d'e vignon Ewenig, gant ul lizher elektronek: \"Ha soñj ac'h eus eus ar pempvet c'hoari?\" Ewenig a respont end-eeun: \"Soñj am eus! Ar pal gwellañ eus ma buhez!\"\n\nGoulennoù:\nPe oad en doa Fragan e 1999?\nPemzek vloaz en doa.\nPiv a oa e penn al laz?\nTad Ewenig a oa e penn al laz.\nPerak e kolle al laz?\nNe oa ket stabil an difenn, ha re aes e oa d'ar re all tremen.\nPetra a reas ur c'hoarier eus al laz all?\nSachañ a reas war vrec'h Ewenig.\nPenaos e voe gounezet ar pempvet c'hoari?\nEwenig a gasas ar bolotenn end-eeun er pal, dres e-kreiz."
+    },
+    {
+      "title": "Bale en Iwerzhon",
+      "summary": "Jilian remembers the summer she was twenty, when she flew from Brest to Ireland, walked the west coast with an Irishman and a Dane, and how the three friends picked up their old link again years later.",
+      "newWords": [
+        "aerborzh",
+        "iwerzhonat",
+        "dan",
+        "bale",
+        "kilometr",
+        "gweladenniñ",
+        "kenetre",
+        "menel",
+        "kevre",
+        "adkemer"
+      ],
+      "text": "Jilian a zo ur vaouez eus Kemperle. En hañv 2005, pa oa 20 vloaz, e kemeras ar c'harr-nij e aerborzh Brest evit mont da Iwerzhon. C'hoant he doa da vale war aodoù kornôg ar vro, e-pad ur miz.\n\nEn aerborzh Dulenn e komzas gant ur paotr yaouank, Liam e anv. Liam a oa un iwerzhonat eus Galway. C'hoant en doa da vale war an aodoù ivez. Gant Liam e oa ur mignon dezhañ, Lars, ur Dan eus Kopenhagen. Ne gomze ket Lars brezhoneg, ha ne gomze ket Jilian yezh Danmark: neuze e komzent saozneg kenetrezo.\n\nBale a reas an tri mignon e-pad tri sizhun. Bemdez e kerzhent ugent pe tregont kilometr. Gweladenniñ a rejont kestell kozh, ilizoù bihan ha porzhioù bihan. Liam a gonte dezho istor e vro, rak un iwerzhonat a oar kontañ istorioù. Lars, an Dan, a gane gant e gitar d'an noz. Etre an tri mignon e oa un darempred mat: komz a raent kalz kenetrezo, ha d'an noz e c'hoarient kartoù kenetrezo.\n\nE fin ar miz e oa ret dezho mont kuit. Liam a vanas e Galway, ha Lars a yeas en-dro da Gopenhagen. Jilian a gemeras ar c'harr-nij en aerborzh Dulenn. Ar c'hevre etre an tri mignon a chomas kreñv e-pad ur maread. Skrivañ a raent kalz kenetrezo dre Internet. Goude, avat, e tremenas ar bloavezhioù, ha kollet e voe ar c'hevre.\n\nE 2024 e kavas Jilian Liam war Internet. Kerkent e kasas ul lizher dezhañ. \"Ha c'hoant ac'h eus da adkemer hor c'hevre?\" a skrivas. Liam a respontas an deiz war-lerc'h: \"Ya! Ha Lars ivez.\" Neuze e tivizas an tri mignon adkemer o bale.\n\nEn hañv 2025 e teuas Liam ha Lars da Vreizh, evit gweladenniñ bro Jilian. Bale a rejont war aodoù Kerne, e-pad ur sizhun, ha kerzhet e voe 100 kilometr ganto. \"Ne vanomp ket pell an eil diouzh egile ken,\" a lavaras Lars, an Dan.\n\nGoulennoù:\nPelec'h e kemeras Jilian ar c'harr-nij e 2005?\nEn aerborzh Brest e kemeras ar c'harr-nij.\nPiv e oa Liam?\nUn iwerzhonat eus Galway e oa.\nPenaos e komze an tri mignon kenetrezo?\nSaozneg a gomzent kenetrezo.\nPetra a raent bemdez?\nBemdez e kerzhent ugent pe tregont kilometr.\nPetra a reas Liam ha Lars e 2025?\nDont a rejont da Vreizh evit gweladenniñ bro Jilian."
+    },
+    {
+      "title": "Ar c'hombod arbennik",
+      "summary": "Rumon receives the old table of his grandmother Mazhaliz, opens the special compartment she told him about, and reads her notes about her years as a nurse in Brest.",
+      "newWords": [
+        "kombod",
+        "arbennik",
+        "heverk",
+        "honnezh",
+        "a-ziwar",
+        "nemeur",
+        "aner",
+        "klemm",
+        "anzav",
+        "seblantout"
+      ],
+      "text": "Rumon a zo ur paotr 35 bloaz eus Gwened. Goude marv Mazhaliz, mamm e vamm, en deus bet he zaol gozh. Un daol vras eo, e koad, gant ur c'hombod arbennik dindan.\n\n\"Er c'hombod arbennik ez eus traoù evidout,\" en doa lavaret Mazhaliz dezhañ ur bloaz a-raok mervel. \"Pa vin aet, e c'halli digeriñ anezhañ.\"\n\nUr Sul, e miz Du, e lak Rumon an daol e-kreiz ar sal. Tennañ a ra ar paperioù kozh a-ziwar an daol. Neuze e klask digeriñ ar c'hombod. Da gentañ e klask en aner: serret mat eo. Klask a ra adarre, en aner c'hoazh. Goude un eurvezh e kav an doare: ret eo pouezañ war ar c'hoad dindan an daol. Ar c'hombod arbennik a zigor.\n\nEnnañ n'eus nemeur a draoù: ur vedalenn, ur skeudenn hag ul levr bihan skrivet gant dorn Mazhaliz. Ul levr a-ziwar he buhez eo. Rumon a chom e-kichen an daol hag a lenn.\n\nGoude ar brezel e labouras Mazhaliz en ospital Brest, gant ar re glañv. Ur vaouez heverk e oa. Honnezh a laboure noz ha deiz, hag ar vedalenn he doa bet evit he labour. Er bloavezhioù-se n'he doa nemeur a arc'hant, ha nemeur a amzer evit he bugale. Met ne rae klemm ebet. Den ne gleve klemm ebet ganti.\n\nEn dibenn al levr, avat, e anzav Mazhaliz un dra: \"Ret eo din anzav e oa diaes-tre din a-wechoù, ha da noz e oa aon ganin,\" he deus skrivet. \"Met ar re all ne ouient netra. Laouen e kavent ac'hanon atav.\"\n\nRumon a chom pell hep fiñval. Seblantout a rae Mazhaliz bezañ ar vaouez kreñvañ er bed. Bremañ e oar ne oa ket ken aes evel ma seblante. Heverk e oa, evit gwir.\n\nLakaat a ra ar skeudenn war an daol. \"Honnezh eo mamm ma mamm,\" a lavar d'e vugale. \"Ur vaouez heverk.\"\n\nGoulennoù:\nPetra en deus bet Rumon goude marv Mazhaliz?\nHe zaol gozh, gant ur c'hombod arbennik dindan, en deus bet.\nPenaos e tigor Rumon ar c'hombod?\nPouezañ a ra war ar c'hoad dindan an daol.\nPetra a gav er c'hombod?\nUr vedalenn, ur skeudenn hag ul levr bihan a-ziwar buhez Mazhaliz a gav.\nPetra a rae Mazhaliz goude ar brezel?\nE ospital Brest e labouras, gant ar re glañv.\nPetra a anzav Mazhaliz en dibenn al levr?\nAnzav a ra e oa diaes-tre dezhi a-wechoù, hag e oa aon ganti da noz."
+    }
+  ]
+}
