@@ -56,6 +56,15 @@ POSTPOSITIONS = ["साठी", "मध्ये", "मधून", "मधी�
                  "निमित्त", "निमित्ताने", "आत", "बाहेर", "मार्फत", "पोटी", "लाही", "लाच", "चाच", "चीच", "चेच", "च्याच"]
 OBLIQUE_TAILS = CASES + POSTPOSITIONS
 CLITICS = ["च", "ही", "सुद्धा"]
+# Many nouns take the cases on their direct form too (सरकारने, रेल्वेत, सकाळचा, बाहेरच्या, प्रकारचे), and adverbs of time
+# take the genitive and पर्यंत, पासून (सध्याचा, आतापर्यंत). Not -ं, -ंत, -स, -ना, -नी, -शी there: so many other words end
+# in them (सावंत, मानस, परवाना, जोशी); after a consonant not the locative -त, -तून, -तील either (रावत, कामत), which goes on
+# the oblique (हॉटेलात).
+DIRECT_TAILS = [t for t in OBLIQUE_TAILS if t not in ("ं", "ंत", "स", "ना", "नी", "शी")]
+CONSONANT_DIRECT_TAILS = [t for t in DIRECT_TAILS if t not in ("त", "तून", "तील")]
+ADVERB_TAILS = ["चा", "ची", "चे", "च्या", "चं", "पर्यंत", "पासून"]
+# The tails that also end a verb's past or present (बसला, नसतील): not on a word that is a verb's stem too (बस, नस).
+VERB_LIKE_TAILS = ("ला", "लाच", "लाही", "त", "तील")
 
 # A verb's present stem's endings (करतो, करते, करतात, करत, करताना), its future's (करेन, करशील, करेल, करू, कराल, करतील), and
 # the endings of the stem before -ाय (करायचा, करायला) and the infinitive's oblique (करण्यासाठी).
@@ -124,6 +133,8 @@ MARATHI_FORMS = {
     "दिलात": "देणे", "दिलेत": "देणे", "दिलीत": "देणे", "द्या": "देणे", "दे": "देणे", "देईल": "देणे", "देईन": "देणे",
     "द्याल": "देणे", "देतील": "देणे", "द्यावे": "देणे", "द्यावा": "देणे", "द्यावी": "देणे", "द्यायला": "देणे", "द्यायचे": "देणे",
     "द्यायचा": "देणे", "द्यायची": "देणे",
+    "न्यायला": "नेणे", "न्यायचा": "नेणे", "न्यायची": "नेणे", "न्यायचे": "नेणे", "न्यायच्या": "नेणे", "न्यायचं": "नेणे",
+    "न्यावे": "नेणे", "न्यावा": "नेणे", "न्यावी": "नेणे", "असेपर्यंत": "असणे", "असेपर्यंतच": "असणे",
     "घ्या": "घेणे", "घे": "घेणे", "घेईल": "घेणे", "घेईन": "घेणे", "घ्याल": "घेणे", "घेतील": "घेणे", "घ्यावे": "घेणे",
     "घ्यावा": "घेणे", "घ्यावी": "घेणे", "घ्यायला": "घेणे", "घ्यायचे": "घेणे", "घ्यायचा": "घेणे", "घ्यायची": "घेणे",
     # करणे's past on के- (केला: the table's), खाणे's (खाल्ला), पिणे's (प्यायला), पाहणे's (पाहिला), सांगणे's (सांगितला).
@@ -174,12 +185,13 @@ MARATHI_WORDS = {
     "किती": "adv", "बाबा": "noun", "संध्याकाळ": "noun", "दुपार": "noun", "डॉक्टर": "noun", "थंडी": "noun", "उशीर": "noun",
     "पटकन": "adv", "शिजवणे": "verb", "टेबल": "noun", "कृपया": "adv", "तिकीट": "noun", "हॉटेल": "noun", "नाटक": "noun",
     "फोन": "noun", "संगणक": "noun", "वरण": "noun", "मोदक": "noun", "पूजा": "noun", "सूर्य": "noun", "चंद्र": "noun",
+    "हस्तकला": "noun", "आसन": "noun",
 }
 # The masculine and neuter nouns with a locative in -ी (घरी "at home", गावी, वर्षी "in the year").
 LOCATIVE_I = {"घर", "गाव", "वर्ष", "साल", "ठिकाण", "प्रकरण", "मार्ग", "स्थान", "हात", "शेत", "देव", "जाग", "दार", "पाठ", "मन", "काम"}
 # Pack words of rare senses whose spelling is a commoner word's form: वेळा "large cardamoms" (वेळ's plural), ज्या "bowstring"
-# (जो's oblique).
-DROPPED = {"वेळा", "ज्या"}
+# (जो's oblique), शीस "fruit bud" (its oblique शिसा- is शिसे "lead"'s).
+DROPPED = {"वेळा", "ज्या", "शीस"}
 # Pasts of verbs the rules make wrongly: the past stem (for PAST_TAILS) by verb.
 PAST_STEMS = {"करणे": ["केल"], "जाणे": ["गेल"], "येणे": ["आल"], "देणे": ["दिल"], "घेणे": ["घेतल"], "होणे": ["झाल"], "असणे": ["असल"],
               "खाणे": ["खाल्ल"], "पिणे": ["प्यायल", "पील"], "पाहणे": ["पाहिल"], "सांगणे": ["सांगितल"], "बघणे": ["बघितल"],
@@ -240,6 +252,8 @@ def lexicon(dictionaries):
                 or lemma in MARATHI_PRONOUNS or form in MARATHI_FORMS or form in PRONOUN_FORMS):
             continue
         table[form].add(lemma)
+    ALSO_NAMES.clear()
+    ALSO_NAMES.update(names & set(kinds))
     return kinds, table, names - set(kinds)
 
 
@@ -291,6 +305,27 @@ def oblique_count(stem):
     return sum(COUNTS.get(stem + t, 0.0) for t in CASES)
 
 
+def free_count(stem, tails):
+    """How often the corpus has [stem] with [tails], but for the spellings that are words of their own or a pronoun's forms."""
+    return sum(COUNTS.get(stem + t, 0.0) for t in tails
+               if stem + t not in KINDS and stem + t not in MARATHI_FORMS and stem + t not in PRONOUN_FORMS)
+
+
+def stem_of_its_own(stem, word):
+    """
+    Whether a stem is another word's: a word of its own (आरोपी beside आरोप), another's form (दिले), another noun's oblique
+    (किल्ल्या- of किल्ला beside किल्ली, तारे- of तार beside तारा) or a verb's infinitive's (करण्या- of करणे beside करणी).
+    """
+    if stem != word and (stem in KINDS or stem in MARATHI_FORMS or stem in PRONOUN_FORMS) or STEM_NOUNS.get(stem, {word}) - {word}:
+        return True
+    infinitive = stem[:stem.rfind("ण्या")] + "णे" if "ण्या" in stem else ""
+    return "verb" in KINDS.get(infinitive, ())
+
+
+def is_verb(word):
+    return "verb" in KINDS.get(word, ()) or word in VERBS_BY_HAND
+
+
 def table_obliques(table):
     """
     A table's oblique stems: its datives' (मुलाला, मुलांना: मुला-, मुलां-) when it has their other cases too (मुलाने), so not
@@ -326,6 +361,70 @@ def nominal_forms(word, table, adjective=False, numeral=False):
     for stem in obliques:
         forms |= {stem + t for t in OBLIQUE_TAILS}
     return forms
+
+
+def keeps_table_kind(word, stem, obliques):
+    """
+    Whether a declension (by its first oblique) may stand for a table's: of a consonant-final noun, a feminine table's no
+    masculine (गप्पा- for गप्पी-) and only an -ी table's an -ी one (जखमी "wounded" is no oblique of जखम); not the direct
+    oblique of a noun in -ा whose table has -्या (गजरा: गजरात is गजर's), nor -्या of a noun in -ी whose plural is -्यां (वाटी).
+    """
+    if not vowel_final(word):
+        feminine = any(o.endswith(("े", "ी", "ीं")) for o in obliques)
+        if stem.endswith("ी"):
+            return any(o.endswith(("ी", "ीं")) for o in obliques)
+        return not (stem.endswith("ा") and feminine)
+    if word[-1] == "ा" and stem == word:
+        return not any(o.endswith(("्या", "्यां")) for o in obliques)
+    if word[-1] == "ी" and stem.endswith("्या"):
+        return not any(o.endswith("्यां") for o in obliques)
+    return True
+
+
+def retabled_forms(word, ks, table):
+    """
+    The forms of a noun whose table has obliques the corpus hardly has (दूध: दधा- for दुधा-; खेळाडू: खेळाडूवा-) by the
+    declensions the corpus has four times as often, on no stem that is another word's.
+    """
+    obliques = table_obliques(table)
+    if "noun" not in ks or not obliques:
+        return set()
+    classes = [(stems, plurals) for stems, plurals in noun_classes(word) if keeps_table_kind(word, stems[0], obliques)
+               and not (stems[0] == word and word in ALSO_NAMES)
+               and not any(PRIMARY_OBLIQUES.get(stem, word) != word or stem_of_its_own(stem, word) for stem in stems)
+               and not any(p != word and p in KINDS for p in plurals)] or [((), set())]
+    scores = [sum(free_count(stem, CASES) for stem in stems) for stems, _ in classes]
+    best = max(scores)
+    forms = set()
+    if best > 4 * sum(free_count(stem, CASES) for stem in obliques):
+        for (stems, plurals), score in zip(classes, scores):
+            if score >= best / 4:
+                forms |= set(stems) | plurals | {stem + t for stem in stems for t in OBLIQUE_TAILS}
+    return forms
+
+
+def direct_forms(word, ks, table):
+    """
+    A noun's cases and postpositions on its direct form (सरकारने, रेल्वेत, सकाळचा, बाहेरच्या), when the corpus has them at
+    least a quarter as often as on its obliques (not घरने beside घराने), and an adverb's genitive (सध्याचा, आतापर्यंत).
+    """
+    if word in ALSO_NAMES:
+        return set()
+    if ks & NOMINAL_KINDS and (not vowel_final(word) or word[-1] == "े"):
+        tails = DIRECT_TAILS if vowel_final(word) else CONSONANT_DIRECT_TAILS
+        # A verb's stem, or one the corpus has with a past's other endings too (मेला, मेली of मरणे; मधला, मधले "middle").
+        if is_verb(word + "णे") or word + "ली" in COUNTS or word + "ले" in COUNTS:
+            tails = [t for t in tails if t not in VERB_LIKE_TAILS]
+        rivals = [sum(oblique_count(stem) for stem in stems) for stems, _ in noun_classes(word)]
+        rivals.append(sum(oblique_count(stem) for stem in table_obliques(table)))
+        score = free_count(word, [t for t in tails if t in CASES])
+        tails = tails if score > 0 and score >= max(rivals) / 4 else []
+    elif "adv" in ks:
+        tails = ADVERB_TAILS
+    else:
+        return set()
+    # Not a word said twice (जवळजवळ "almost").
+    return {word + t for t in tails if t != word}
 
 
 def adjective_forms(word):
@@ -416,6 +515,14 @@ def tail_cost(word, form):
 PARTICIPLE = re.compile("(?:लेल|णार|णाऱ)(?:ा|ी|े|्या|ं)$")
 PRONOUN_FORMS = {}
 COUNTS = {}
+KINDS = {}
+# The pack's words that it has as names too (अक्षय, सागर): a name takes the cases on its direct form (अक्षयने), so those
+# forms are the name's, not the word's.
+ALSO_NAMES = set()
+# The verbs MARATHI_FORMS gives forms of, the pack has or not (नसणे).
+VERBS_BY_HAND = {word for word in MARATHI_FORMS.values() if word.endswith("णे")}
+# Each oblique stem a noun's table or rules give: stem -> nouns.
+STEM_NOUNS = {}
 PRIMARY_OBLIQUES = {}
 
 
@@ -451,14 +558,24 @@ def build(found, size, label):
 
     COUNTS.clear()
     COUNTS.update(counts)
+    KINDS.clear()
+    KINDS.update(kinds)
     table_of = defaultdict(set)
     for form, lemmas in table.items():
         for lemma in lemmas:
             table_of[lemma].add(form)
     PRIMARY_OBLIQUES.clear()
     PRIMARY_OBLIQUES.update(primary_obliques(kinds, table_of))
+    STEM_NOUNS.clear()
+    for word, ks in kinds.items():
+        if "noun" in ks:
+            for stem in table_obliques(table_of.get(word, ())) | {s for stems, _ in noun_classes(word) for s in stems}:
+                STEM_NOUNS.setdefault(stem, set()).add(word)
     # A verb's forms (its table's and the rules') and a noun's, adjective's or pronoun's, apart: form -> words.
     verbal, nominal = defaultdict(set), defaultdict(set)
+    # A noun's forms on its direct form (direct_forms) and on the obliques its table lacks (retabled_forms): its only when no
+    # other word has the form.
+    direct = defaultdict(set)
     # Of a verb's forms, the ones its table has and its participles (बिघडलेले, धावणारा): the only ones a word of its own
     # spelled the same may be (केलं "banana" is करणे's केलं; खाते "account" is no form of खाणे, nor देवी "goddess" of देणे).
     attested = defaultdict(set)
@@ -474,6 +591,11 @@ def build(found, size, label):
                         attested[form].add(as_word)
                 else:
                     nominal[form].add(as_word)
+        made = with_clitics(made | {word})
+        own_table = table_of.get(word, set()) if word == as_word else set()
+        for form in with_clitics(eyelash(direct_forms(word, ks, own_table) | retabled_forms(word, ks, own_table))):
+            if form in counts and form != as_word and form not in made:
+                direct[form].add(as_word)
 
     for word, ks in kinds.items():
         add(word, word, ks)
@@ -515,6 +637,10 @@ def build(found, size, label):
             for base in unclitic(form):
                 if base in kinds:
                     return None, {base}
+            others = direct.get(form, set())
+            if others:
+                longest = max(len(w) for w in others)
+                others = {w for w in others if len(w) == longest}
         return own, others
 
     found_heads = {form: candidates(form) for form in counts}
