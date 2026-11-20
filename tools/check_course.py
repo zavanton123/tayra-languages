@@ -33,6 +33,7 @@ import frequency_kannada  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
 import frequency_hausa  # noqa: E402
+import frequency_zulu  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
@@ -89,6 +90,9 @@ URDU_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u0
 # maqaf, the geresh and gershayim, the presentation forms, and the apostrophe, which its characterSubstitutions write for
 # ´ ` ’ ‘. Python's \w leaves out the points and would cut אַ off its word. The reader matches words as written, points and
 # all, with no other folding: פֿון and פון are two words to it.
+# Zulu words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Latin letters only, so an apostrophe or a
+# hyphen ends a word (ngakho-ke is ngakho + ke).
+ZULU_WORD = re.compile(r"[A-Za-z]+")
 YIDDISH_WORD = re.compile("[\u0591-\u05c7\u05d0-\u05f4\ufb1d-\ufb4f']+")
 YIDDISH_APOSTROPHES = str.maketrans("´`’‘", "''''")
 
@@ -769,6 +773,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return KANNADA_WORD.findall(text)
     if code == "ta":
         return TAMIL_WORD.findall(text)
+    if code == "zu":
+        return ZULU_WORD.findall(text)
     if code == "bn":
         return BENGALI_WORD.findall(text)
     if code == "te":
@@ -2753,7 +2759,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:",
     )
 }
 
@@ -3004,6 +3010,10 @@ def check(path, brief=False):
     # So is a Galician one (A Coruña, Santiago de Compostela, O Porriño).
     if code == "gl":
         long_names = sorted((n for n in course.get("names", []) if " " in n or "-" in n), key=len, reverse=True)
+    # A Zulu name keeps its capital behind the prefixes it takes (uThemba, kaThemba, noThemba, eGoli, eKwaZulu-Natal): each
+    # name counts as one known word wherever it is written, with or without them.
+    if code == "zu":
+        long_names = sorted(course.get("names", []), key=len, reverse=True)
     # Chinese writes no spaces, so every name is matched whole, the longest first; and so do Thai, Lao and Khmer.
     if code in ("zh", "ja", "th", "km"):
         long_names = sorted(course.get("names", []), key=len, reverse=True)
@@ -3205,6 +3215,11 @@ def check(path, brief=False):
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
+            if code == "zu":
+                pattern = re.compile(r"(?<![A-Za-z])[A-Za-z]{0,7}?" + re.escape(name) + r"(?![A-Za-z])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
             if code == "tr":
                 pattern = re.compile(r"(?<![^\W\d_])" + re.escape(name) + r"(?:['’][^\W\d_]+)?(?![^\W\d_])")
                 whole_names += len(pattern.findall(text))
@@ -3333,6 +3348,8 @@ def check(path, brief=False):
             text = re.sub(r"[૦-૯0-9]+(?:-?[\u0a80-\u0aff]+)?", " ", text)
         if code == "ha":
             text = re.sub(r"(?m)^Tambayoyi:", "", text)
+        if code == "zu":
+            text = re.sub(r"(?m)^Imibuzo:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3460,6 +3477,13 @@ def check(path, brief=False):
         # forms they are made on (frequency_hausa).
         if code == "ha":
             lowered = [w if w in ranks or w in names else frequency_hausa.checker_word(w, ranks) or w for w in lowered]
+        # Zulu writes a verb with its concords (ngiyambona), a noun with its prefix (nomngane, ngesikhathi) and a pronoun's
+        # forms (nabo, kuye): a word the list lacks is read by the rules the list was built with (frequency_zulu); one with a
+        # capital after its prefix only as a word the pack writes so (ngoMsombuluko, isiZulu).
+        if code == "zu":
+            lowered = [w if w in ranks or w in names else
+                       frequency_zulu.checker_word(w, ranks, i < len(toks) and any(c.isupper() for c in toks[i][1:])) or w
+                       for i, w in enumerate(lowered)]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
