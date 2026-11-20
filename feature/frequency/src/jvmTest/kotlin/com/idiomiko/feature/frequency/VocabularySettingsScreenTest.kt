@@ -8,7 +8,10 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.isNotEnabled
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.performSemanticsAction
@@ -58,7 +61,8 @@ class VocabularySettingsScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 10_000) { viewModel.state.value.list != null }
+        // The screen, not the view model: its state reaches the screen a moment after it changes.
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Suggested:", substring = true).assertExists()
         // The same estimate card as the question asked when a language is chosen: the level's name and the slider's start.
         assertEquals(2, onAllNodesWithText("Starting out").fetchSemanticsNodes().size)
@@ -68,7 +72,7 @@ class VocabularySettingsScreenTest {
 
         // The slider's stops run 0, 100, 200, 300, 400, 500, …: the sixth is 500.
         onNodeWithTag("level-slider").performSemanticsAction(androidx.compose.ui.semantics.SemanticsActions.SetProgress) { it(5f) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Words around this level").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithText("Words around this level").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("set-vocabulary-level").assertIsEnabled()
         waitForIdle()
         System.getenv("VOCABULARY_SETTINGS_SCREENSHOT")?.let { save(it) }
@@ -76,10 +80,10 @@ class VocabularySettingsScreenTest {
         onNodeWithTag("set-vocabulary-level").performScrollTo().performClick()
         onNodeWithText("Set your vocabulary level to 500?", substring = true).assertExists()
         onNodeWithText("Set level").performClick()
-        waitUntil(timeoutMillis = 10_000) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { terms.findByTextLc(portuguese, "dizer") }?.status)
         assertEquals(TermStatus.WELL_KNOWN, runBlocking { terms.findByTextLc(portuguese, "disse") }?.status)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Set to 500").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithText("Set to 500").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
     }
 
@@ -93,18 +97,18 @@ class VocabularySettingsScreenTest {
                 }
             }
         }
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("Explore word frequency").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithText("Explore word frequency").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Suggested:", substring = true).assertDoesNotExist()
         onNodeWithText("Reading preview").assertExists()
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
         onNodeWithTag("level-slider").performSemanticsAction(androidx.compose.ui.semantics.SemanticsActions.SetProgress) { it(5f) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Words around this level").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithText("Words around this level").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("VOCABULARY_SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onNodeWithTag("set-vocabulary-level").performScrollTo().performClick()
         onNodeWithText("Set your vocabulary level to 500?", substring = true).assertExists()
         onNodeWithText("Set level").performClick()
-        waitUntil(timeoutMillis = 10_000) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
-        onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { viewModel.state.value.level == 500 && !viewModel.state.value.saving }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodes(hasTestTag("set-vocabulary-level") and isNotEnabled()).fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.save(path: String) {

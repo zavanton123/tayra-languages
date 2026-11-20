@@ -8,7 +8,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
-import androidx.compose.ui.test.assertIsEnabled
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.isEnabled
 import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.captureToImage
@@ -61,7 +62,7 @@ class VocabularyLevelPromptTest {
     @Test
     fun puttingItOffClosesWithoutALevel() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("How much Portuguese do you know?").assertExists()
         assertEquals(2, onAllNodesWithText("Starting out").fetchSemanticsNodes().size, "the level's name and the slider's start")
         onNodeWithText("Start from scratch").assertExists()
@@ -75,14 +76,14 @@ class VocabularyLevelPromptTest {
     @Test
     fun movingTheSliderPicksALevelAndStartingSavesIt() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("level-slider").performSemanticsAction(SemanticsActions.SetProgress) { it(3f) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Start with 300 words").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithText("Start with 300 words").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Early beginner").assertExists()
         onNodeWithText("Words around this level").assertExists()
         System.getenv("LEVEL_PROMPT_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Start with 300 words").performClick()
-        waitUntil(timeoutMillis = 10_000) { closed == 1 }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { closed == 1 }
         assertEquals(false, runBlocking { service.needsLevel(portuguese) })
         assertEquals(300, viewModel.state.value.level)
     }
@@ -90,17 +91,18 @@ class VocabularyLevelPromptTest {
     @Test
     fun startingFromScratchStopsTheQuestion() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("prompt-set-level").assertIsEnabled()
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
+        // The prompt picks "starting out" itself, through the view model, a moment after the slider shows.
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodes(hasTestTag("prompt-set-level") and isEnabled()).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Start from scratch").performClick()
-        waitUntil(timeoutMillis = 10_000) { closed == 1 }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { closed == 1 }
         assertEquals(false, runBlocking { service.needsLevel(portuguese) })
     }
 
     @Test
     fun aPhoneGetsABottomSheetWithTheSampleText() = runDesktopComposeUiTest(width = 400, height = 860) {
         show()
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithTag("level-slider").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("How much Portuguese do you know?").assertExists()
         onNodeWithText("Example text").assertExists()
         // Words at the level and the reassurance are on the phone too, not only on wide screens.
@@ -108,11 +110,11 @@ class VocabularyLevelPromptTest {
         onNodeWithText("You can change it later", substring = true).assertExists()
         assertTrue(onAllNodesWithText("Reading preview").fetchSemanticsNodes().isEmpty())
         onNodeWithTag("level-slider").performSemanticsAction(SemanticsActions.SetProgress) { it(7f) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Start with 1,000 words").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { onAllNodesWithText("Start with 1,000 words").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Elementary").assertExists()
         System.getenv("LEVEL_SHEET_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Start with 1,000 words").performClick()
-        waitUntil(timeoutMillis = 10_000) { closed == 1 }
+        waitUntil(timeoutMillis = UI_WAIT_MILLIS) { closed == 1 }
         assertEquals(1000, viewModel.state.value.level)
     }
 
