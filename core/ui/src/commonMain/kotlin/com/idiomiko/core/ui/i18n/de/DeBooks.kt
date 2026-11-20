@@ -206,6 +206,7 @@ internal val deBooks: Map<String, String> = mapOf(
     "Adding…" to "Wird hinzugefügt…",
     "Add to library" to "Zur Bibliothek hinzufügen",
     "Could not reach {0}." to "{0} ist nicht erreichbar.",
+    "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg wird gerade gewartet. Versuche es später noch einmal oder wähle eine andere Bibliothek.",
     "None of these books is at this level yet." to "Noch keines dieser Bücher hat dieses Niveau.",
     "No books match your search." to "Keine Bücher passen zu deiner Suche.",
     "{0} has no books in {1}." to "{0} hat keine Bücher auf {1}.",

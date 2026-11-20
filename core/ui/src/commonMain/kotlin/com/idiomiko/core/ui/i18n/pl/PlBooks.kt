@@ -206,6 +206,7 @@ internal val plBooks: Map<String, String> = mapOf(
     "Adding…" to "Dodawanie…",
     "Add to library" to "Do biblioteki",
     "Could not reach {0}." to "Nie udało się połączyć z {0}.",
+    "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg jest w trakcie konserwacji. Spróbuj później lub wybierz inną bibliotekę.",
     "None of these books is at this level yet." to "Żadna z tych książek nie jest jeszcze na tym poziomie.",
     "No books match your search." to "Żadna książka nie pasuje do wyszukiwania.",
     "{0} has no books in {1}." to "{0} nie ma książek w języku {1}.",

@@ -206,6 +206,7 @@ internal val elBooks: Map<String, String> = mapOf(
     "Adding…" to "Προσθήκη…",
     "Add to library" to "Στη βιβλιοθήκη",
     "Could not reach {0}." to "Δεν ήταν δυνατή η σύνδεση με το {0}.",
+    "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Το Project Gutenberg είναι εκτός λειτουργίας για συντήρηση. Δοκίμασε ξανά αργότερα ή διάλεξε άλλη βιβλιοθήκη.",
     "None of these books is at this level yet." to "Κανένα από αυτά τα βιβλία δεν είναι ακόμη σε αυτό το επίπεδο.",
     "No books match your search." to "Κανένα βιβλίο δεν ταιριάζει με την αναζήτησή σας.",
     "{0} has no books in {1}." to "Το {0} δεν έχει βιβλία στα {1}.",

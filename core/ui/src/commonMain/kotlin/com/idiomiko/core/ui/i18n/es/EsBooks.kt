@@ -206,6 +206,7 @@ internal val esBooks: Map<String, String> = mapOf(
     "Adding…" to "Añadiendo…",
     "Add to library" to "Añadir a la biblioteca",
     "Could not reach {0}." to "No se pudo conectar con {0}.",
+    "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg está en mantenimiento. Vuelve a intentarlo más tarde o elige otra biblioteca.",
     "None of these books is at this level yet." to "Ninguno de estos libros es todavía de este nivel.",
     "No books match your search." to "Ningún libro coincide con tu búsqueda.",
     "{0} has no books in {1}." to "{0} no tiene libros en {1}.",

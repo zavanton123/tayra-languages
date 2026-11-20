@@ -206,6 +206,7 @@ internal val ptBooks: Map<String, String> = mapOf(
     "Adding…" to "Adicionando…",
     "Add to library" to "Adicionar à biblioteca",
     "Could not reach {0}." to "Não foi possível acessar {0}.",
+    "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "O Project Gutenberg está em manutenção. Tente de novo mais tarde ou escolha outra biblioteca.",
     "None of these books is at this level yet." to "Nenhum destes livros está neste nível ainda.",
     "No books match your search." to "Nenhum livro corresponde à sua busca.",
     "{0} has no books in {1}." to "{0} não tem livros em {1}.",

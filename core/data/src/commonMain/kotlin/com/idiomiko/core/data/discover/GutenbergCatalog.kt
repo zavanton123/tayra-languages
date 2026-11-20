@@ -7,6 +7,7 @@ import com.idiomiko.core.domain.books.discover.CatalogPage
 import com.idiomiko.core.domain.books.discover.FoundBook
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.timeout
+import io.ktor.client.request.HttpRequestBuilder
 import io.ktor.client.request.get
 import io.ktor.client.request.header
 import io.ktor.client.request.parameter
@@ -22,11 +23,14 @@ import kotlinx.coroutines.delay
  * readers browse it with; it answers in about a second where the Gutendex catalog can take most of
  * a minute. The feed names a book by its title and author only; its plain text and cover are at
  * fixed addresses by its number. A sample is the first 64 KB of the text, fetched with a range
- * request rather than the whole book.
+ * request rather than the whole book. While the site is down, the texts still come from its mirror; the
+ * search has no mirror, so it says the site is down for maintenance.
  */
 class GutenbergCatalog(
     private val client: HttpClient,
     private val baseUrl: String = "https://www.gutenberg.org",
+    /** Keeps the texts at the same paths as [baseUrl], but has no catalog to search. */
+    private val mirrorUrl: String = "https://gutenberg.pglaf.org",
 ) : BookCatalog {
     override val source = BookSource.GUTENBERG
 
@@ -44,11 +48,8 @@ class GutenbergCatalog(
     }
 
     override suspend fun sample(book: FoundBook): String {
-        val response = client.get(book.downloadUrl) {
+        val response = fetchText(book.downloadUrl) {
             header(HttpHeaders.Range, "bytes=0-${SAMPLE_BYTES - 1}")
-            // A partial answer kept by the client's cache would come back for the whole text later.
-            header(HttpHeaders.CacheControl, "no-store")
-            timeout { requestTimeoutMillis = TEXT_TIMEOUT; socketTimeoutMillis = TEXT_TIMEOUT }
         }
         // The range can end inside a character or a paragraph; both are cut off.
         val raw = checked(response).bodyAsBytes().decodeToString()
@@ -56,11 +57,21 @@ class GutenbergCatalog(
     }
 
     override suspend fun text(book: FoundBook): String {
-        val response = client.get(book.downloadUrl) {
+        val response = fetchText(book.downloadUrl) {}
+        return GutenbergText.clean(checked(response).bodyAsBytes().decodeToString())
+    }
+
+    /** The text at [url], from the mirror when the site itself answers that it is down. */
+    private suspend fun fetchText(url: String, extra: HttpRequestBuilder.() -> Unit): HttpResponse {
+        suspend fun from(address: String) = client.get(address) {
+            extra()
+            // A partial answer kept by the client's cache would come back for the whole text later.
             header(HttpHeaders.CacheControl, "no-store")
             timeout { requestTimeoutMillis = TEXT_TIMEOUT; socketTimeoutMillis = TEXT_TIMEOUT }
         }
-        return GutenbergText.clean(checked(response).bodyAsBytes().decodeToString())
+        val first = from(url)
+        if (first.status.value !in 502..504 || !url.startsWith(baseUrl)) return first
+        return from(mirrorUrl + url.removePrefix(baseUrl))
     }
 
     internal fun parse(feed: String): CatalogPage {
@@ -91,7 +102,9 @@ class GutenbergCatalog(
     private fun tag(entry: String, name: String): String? =
         Regex("<$name[^>]*>([^<]*)</$name>").find(entry)?.groupValues?.get(1)?.let(HtmlText::toPlainText)?.takeIf { it.isNotEmpty() }
 
-    private fun checked(response: HttpResponse): HttpResponse {
+    private suspend fun checked(response: HttpResponse): HttpResponse {
+        // The site's own maintenance page, as opposed to a gateway that timed out once.
+        if (response.status.value == 503 && response.bodyAsText().contains("maintenance", ignoreCase = true)) throw IllegalStateException(DOWN_FOR_MAINTENANCE)
         if (!response.status.isSuccess()) throw IllegalStateException("Project Gutenberg answered ${response.status.value}")
         return response
     }
@@ -102,6 +115,7 @@ class GutenbergCatalog(
         const val TEXT_TIMEOUT = 60_000L
         const val SAMPLE_BYTES = 65_536
         const val RETRY_DELAY = 1_000L
+        const val DOWN_FOR_MAINTENANCE = "Project Gutenberg is down for maintenance. Try again later, or pick another library."
         val BOOK_ID = Regex("""<id>[^<]*/ebooks/(\d+)\.opds</id>""")
         val NEXT = Regex("""<link[^>]*rel="next"""")
         val LANGUAGE_SUFFIX = Regex("""\s*\([^()]*\)$""")

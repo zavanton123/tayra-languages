@@ -109,7 +109,28 @@ class BookDiscoveryTest {
     @Test
     fun aFailingLibraryIsAnError() = runTest {
         val catalog = GutenbergCatalog(client { respond("", HttpStatusCode.ServiceUnavailable) })
-        assertFailsWith<IllegalStateException> { catalog.search("pt", "", 1) }
+        val e = assertFailsWith<IllegalStateException> { catalog.search("pt", "", 1) }
+        assertEquals("Project Gutenberg answered 503", e.message)
+    }
+
+    @Test
+    fun aLibraryDownForMaintenanceSaysSo() = runTest {
+        val catalog = GutenbergCatalog(client { respond("<title>Temporarily Down for Maintenance</title>", HttpStatusCode.ServiceUnavailable) })
+        val e = assertFailsWith<IllegalStateException> { catalog.search("pt", "", 1) }
+        assertEquals("Project Gutenberg is down for maintenance. Try again later, or pick another library.", e.message)
+    }
+
+    @Test
+    fun aTextComesFromTheMirrorWhileTheSiteIsDown() = runTest {
+        val book = GutenbergCatalog(client { respond(OPDS) }).search("pt", "", 1).books.first()
+        val catalog = GutenbergCatalog(client { request ->
+            if (request.url.host == "www.gutenberg.org") respond("", HttpStatusCode.ServiceUnavailable)
+            else respond("$HEADER\nUma noite destas.")
+        })
+        requests.clear()
+        assertEquals("Uma noite destas.", catalog.text(book))
+        assertEquals(listOf("www.gutenberg.org", "gutenberg.pglaf.org"), requests.map { it.url.host })
+        assertEquals(requests[0].url.encodedPath, requests[1].url.encodedPath)
     }
 
     private val file = File.createTempFile("idiomiko-discover", ".db").also { it.delete() }

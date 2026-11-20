@@ -206,6 +206,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Adding…" to "Добавляем…",
     "Add to library" to "В библиотеку",
     "Could not reach {0}." to "Не удалось связаться с {0}.",
+    "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg на техническом обслуживании. Попробуйте позже или выберите другую библиотеку.",
     "None of these books is at this level yet." to "Среди этих книг пока нет книг такого уровня.",
     "No books match your search." to "Ни одна книга не подходит под поиск.",
     "{0} has no books in {1}." to "В {0} нет книг на {1} языке.",

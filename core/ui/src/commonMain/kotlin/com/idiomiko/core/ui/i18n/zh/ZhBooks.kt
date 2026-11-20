@@ -206,6 +206,7 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Adding…" to "正在添加…",
     "Add to library" to "添加到书库",
     "Could not reach {0}." to "无法连接 {0}。",
+    "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg 正在维护。请稍后再试，或选择其他书库。",
     "None of these books is at this level yet." to "这些书中暂时没有这个级别的。",
     "No books match your search." to "没有符合搜索条件的书籍。",
     "{0} has no books in {1}." to "{0} 中没有{1}书籍。",
