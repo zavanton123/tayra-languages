@@ -1,0 +1,189 @@
+{
+  "id": "uz-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Uyda va oilada",
+  "description": "Ten short everyday stories about a young family in Tashkent: a new flat, work, two languages, a water problem, a new school year, a visit to the provinces, the news, a new system at work, Navruz and a day off together.",
+  "topic": "Home and family",
+  "names": [
+    "Anvar",
+    "Dilnoza",
+    "Toshkent",
+    "Zarina",
+    "Bekzod",
+    "Fargʻona",
+    "Navroʻz"
+  ],
+  "lessons": [
+    {
+      "title": "Yangi joy",
+      "summary": "Anvar and Dilnoza come to a big city and like their new flat.",
+      "newWords": [
+        "bu",
+        "bir",
+        "yangi",
+        "katta",
+        "yaxshi",
+        "bor",
+        "joy",
+        "shahar",
+        "men",
+        "biz",
+        "ham",
+        "kelmoq",
+        "va",
+        "demoq",
+        "koʻrmoq",
+        "turmoq",
+        "koʻp"
+      ],
+      "text": "Bu Anvar. Bu Dilnoza. Anvar va Dilnoza bir katta shaharga keladi. Bu shahar Toshkent.\n\nToshkentda Anvar va Dilnozaning yangi joyi bor. Bu joy katta. Bu joy yaxshi.\n\n— Bu joy yaxshi, — deydi Dilnoza.\n— Bu joy katta va yaxshi, — deydi Anvar. — Men bu joyni yaxshi koʻraman.\n— Men ham bu joyni yaxshi koʻraman, — deydi Dilnoza. — Biz bu joyda yaxshi turamiz.\n\nShahar ham katta. Shaharda yangi joylar koʻp. Ular shu shaharda turadi. Shaharda yaxshi joylar ham koʻp. Anvar va Dilnoza bu shaharni yaxshi koʻradi.\n\n— Biz yaxshi joyga keldik, — deydi Anvar.\n\nSavollar:\nAnvar va Dilnoza bir katta shaharga keladimi?\nAnvar va Dilnoza bir katta shaharga keladi.\nToshkentda ularning yangi joyi bormi?\nToshkentda ularning yangi joyi bor.\nDilnoza bu joyni yaxshi koʻradimi?\nDilnoza ham bu joyni yaxshi koʻradi."
+    },
+    {
+      "title": "Ish kuni",
+      "summary": "Anvar and Dilnoza both go to work every day; the way is short and they work for the family.",
+      "newWords": [
+        "ish",
+        "kun",
+        "bormoq",
+        "ishlamoq",
+        "yoʻl",
+        "vaqt",
+        "ketmoq",
+        "uchun",
+        "odam",
+        "u"
+      ],
+      "text": "Anvar har kun ishga boradi. Uning ishi shaharda. U shu ishda ishlaydi.\n\nIshga yoʻl yaxshi. Yoʻlda koʻp vaqt ketmaydi. Anvar yoʻlda koʻp odamni koʻradi. Odamlar ham ishga boradi.\n\nDilnoza ham ishlaydi. Uning ishi ham shu shaharda. Dilnoza ham har kun ishga boradi. U ishga Anvar bilan ketadi.\n\nBir kuni Dilnoza deydi:\n— Anvar, siz har kun koʻp ishlaysiz. Siz ishda koʻp vaqt boʻlasiz.\n— Men biz uchun ishlayman, — deydi Anvar. — Bu ish yaxshi.\n— Men ham biz uchun ishlayman, — deydi Dilnoza.\n\nAnvar va Dilnoza ishdan keladi. Ular har kun shu yoʻl bilan keladi. Ish katta emas, lekin yaxshi.\n\nSavollar:\nAnvar har kun ishga boradimi?\nAnvar har kun ishga boradi.\nYoʻlda koʻp vaqt ketadimi?\nYoʻlda koʻp vaqt ketmaydi.\nAnvar yoʻlda koʻp odamni koʻradimi?\nAnvar yoʻlda koʻp odamni koʻradi.\nDilnoza ham ishlaydimi?\nDilnoza ham ishlaydi."
+    },
+    {
+      "title": "Ikki til",
+      "summary": "Little Zarina uses two languages and says which one is best for her.",
+      "newWords": [
+        "til",
+        "oʻzbek",
+        "ikki",
+        "yosh",
+        "boshqa",
+        "aytmoq",
+        "oʻz",
+        "yoki",
+        "qilmoq",
+        "eng",
+        "foydalanmoq",
+        "esa"
+      ],
+      "text": "Bu Zarina. Zarina — Anvar va Dilnozaning qizi. U yosh. Zarina ikki tildan foydalanadi: oʻzbek tili va boshqa bir til.\n\nAnvar va Dilnoza oʻzbek. Ular har kun oʻzbek tilidan foydalanadi. Zarina ham ular bilan oʻzbek tilidan foydalanadi.\n\nDilnoza esa ishda boshqa tildan foydalanadi. U ishda boshqa tilda ish qiladi. Zarina bu tilni ham yaxshi koʻradi.\n\nBir kuni Dilnoza Zarinaga aytadi:\n— Zarina, siz uchun oʻzbek tili yaxshimi yoki boshqa til yaxshimi?\n— Ikki til ham yaxshi, — deydi Zarina. — Men uchun esa oʻz tilim eng yaxshi.\n\nAnvar aytadi:\n— Bu yaxshi! Har bir odam uchun oʻz tili eng yaxshi til.\n\nSavollar:\nZarina yoshmi?\nZarina yosh.\nZarina ikki tildan foydalanadimi?\nZarina ikki tildan foydalanadi.\nDilnoza ishda boshqa tilda ish qiladimi?\nDilnoza ishda boshqa tilda ish qiladi.\nZarina uchun eng yaxshi til oʻzbek tilimi yoki boshqa tilmi?\nZarina uchun oʻz tili eng yaxshi."
+    },
+    {
+      "title": "Suv chiqmaydi",
+      "summary": "There is no water in the flat; Anvar calls the district water service, and a man comes and finds the problem.",
+      "newWords": [
+        "suv",
+        "kerak",
+        "xizmat",
+        "tuman",
+        "kirmoq",
+        "chiqmoq",
+        "olmoq",
+        "mumkin",
+        "masala",
+        "qaramoq"
+      ],
+      "text": "Bir kuni Dilnoza suvga qaraydi. Suv chiqmaydi!\n\n— Anvar, suv chiqmaydi, — deydi Dilnoza. — Bizga suv kerak.\n— Bu katta masala emas, — deydi Anvar. — Tumanda suv xizmati bor. Men xizmatga aytaman.\n\nAnvar tuman xizmatiga aytadi:\n— Bizning joyda suv chiqmaydi. Bugun kelish mumkinmi?\n— Mumkin, — deydi xizmatdagi odam. — Biz kelamiz.\n\nXizmatdan bir odam keladi. U joyga kiradi va suvga qaraydi. U masalani koʻradi va bir ish qiladi. Suv chiqadi!\n\nDilnoza suvni oladi. Anvar ham suvni oladi.\n\n— Xizmatingiz yaxshi, — deydi Dilnoza. — Bizga suv juda kerak.\n\nOdam joydan chiqadi va ketadi.\n\nSavollar:\nDilnozaning joyida suv chiqadimi?\nDilnozaning joyida suv chiqmaydi.\nAnvar tuman xizmatiga aytadimi?\nAnvar tuman xizmatiga aytadi.\nXizmatdan bir odam keladimi?\nXizmatdan bir odam keladi.\nOdam joyga kiradimi?\nOdam joyga kiradi va suvga qaraydi."
+    },
+    {
+      "title": "Yangi yil",
+      "summary": "Bekzod starts a new school year; his parents give him books and he says what his aim is.",
+      "newWords": [
+        "taʼlim",
+        "oʻrta",
+        "boshlamoq",
+        "bosh",
+        "yil",
+        "bermoq",
+        "muhim",
+        "maqsad",
+        "boʻlmoq",
+        "ta",
+        "bola"
+      ],
+      "text": "Bu Bekzod. Bekzod ham Anvar va Dilnozaning bolasi. U yosh. Bekzod oʻrta maktabda taʼlim oladi.\n\nBu yilning boshi. Yangi taʼlim yili boshlanadi. Dilnoza Bekzodga 2 ta kitob beradi. Anvar esa unga 3 ta yangi kitob beradi.\n\n— Bu yil siz uchun muhim, — deydi Anvar. — Taʼlim har bir odam uchun muhim.\n— Mening maqsadim bor, — deydi Bekzod. — Mening maqsadim — yaxshi taʼlim olish.\n\nMaktabda bir katta odam aytadi:\n— Bugun yangi taʼlim yili boshlanadi. Har bir bolaning oʻz maqsadi boʻlishi kerak. Bu yil yaxshi boʻladi!\n\nBekzod bu kunni yaxshi koʻradi. Yilning boshi yaxshi.\n\nSavollar:\nBekzod oʻrta maktabda taʼlim oladimi?\nBekzod oʻrta maktabda taʼlim oladi.\nDilnoza Bekzodga 2 ta kitob beradimi?\nDilnoza Bekzodga 2 ta kitob beradi.\nBekzodning maqsadi bormi?\nBekzodning maqsadi bor: yaxshi taʼlim olish."
+    },
+    {
+      "title": "Viloyatda",
+      "summary": "The family visits Anvar's mother in the Fergana region; she stays there when they go back.",
+      "newWords": [
+        "viloyat",
+        "mamlakat",
+        "yer",
+        "ming",
+        "qolmoq",
+        "oʻtmoq",
+        "barcha",
+        "qoʻymoq",
+        "aholi"
+      ],
+      "text": "Anvarning onasi Fargʻona viloyatida turadi. Fargʻona — mamlakatning katta viloyati. Viloyatda aholi koʻp: har tumanda ming-ming odam turadi. Aholi yerda ishlaydi.\n\nBir kuni barcha Fargʻonaga boradi: Anvar, Dilnoza, Zarina va Bekzod. Yoʻlda koʻp vaqt oʻtadi.\n\nViloyatda yer katta. Har yerda yaxshi joylar bor.\n\n— Bu mamlakatning eng yaxshi yeri! — deydi Dilnoza.\n\nAnvarning onasi barcha uchun suv qoʻyadi. Dilnoza ham suv qoʻyadi.\n\nIkki kun oʻtadi. Barcha Toshkentga ketadi. Anvarning onasi esa viloyatda qoladi.\n\n— Siz ham biz bilan keting, — deydi Anvar.\n— Men shu yerda qolaman, — deydi u. — Mening yerim shu yer.\n\nSavollar:\nAnvarning onasi Fargʻona viloyatida turadimi?\nAnvarning onasi Fargʻona viloyatida turadi.\nViloyatda aholi koʻpmi?\nViloyatda aholi koʻp.\nAnvarning onasi Toshkentga ketadimi?\nAnvarning onasi viloyatda qoladi."
+    },
+    {
+      "title": "Yangi maʼlumot",
+      "summary": "Anvar and Dilnoza watch the news about the President's words on new works for the people.",
+      "newWords": [
+        "davlat",
+        "prezident",
+        "xalq",
+        "haqida",
+        "maʼlumot",
+        "koʻrsatmoq",
+        "tomonidan",
+        "ushbu",
+        "emoq"
+      ],
+      "text": "Bir kuni Anvar va Dilnoza televizorga qaraydi. Televizor davlat haqida maʼlumot koʻrsatadi.\n\nPrezident xalq haqida aytadi:\n— Mamlakatda yangi ishlar bor. Bu ishlar xalq uchun.\n\nTelevizor ushbu ishlar haqida koʻp maʼlumot koʻrsatadi. Ushbu ishlar davlat tomonidan qilinadi. Mamlakatda yangi joylar ham bor.\n\n— Bu yaxshi maʼlumot, — deydi Dilnoza.\n— Oʻtgan yil ham yangi ishlar bor edi, — deydi Anvar. — Ular yaxshi edi.\n\nPrezident yana aytadi:\n— Bu ishlar xalq tomonidan ham qilinadi.\n\nSavollar:\nTelevizor davlat haqida maʼlumot koʻrsatadimi?\nTelevizor davlat haqida maʼlumot koʻrsatadi.\nPrezident xalq haqida aytadimi?\nPrezident xalq haqida aytadi.\nUshbu ishlar davlat tomonidan qilinadimi?\nUshbu ishlar davlat tomonidan qilinadi."
+    },
+    {
+      "title": "Yangi tizim",
+      "summary": "Dilnoza's office creates a new system; the quality of the work goes up and she gets a good place.",
+      "newWords": [
+        "tizim",
+        "sifat",
+        "yaratmoq",
+        "soha",
+        "faoliyat",
+        "oshirmoq",
+        "hamda",
+        "ega",
+        "oʻrin"
+      ],
+      "text": "Dilnoza bir katta joyda ishlaydi. Uning sohasi — taʼlim.\n\nBir kuni ishda yangi tizim yaratiladi.\n— Bu tizim ishning sifatini oshiradi, — deydi bir katta odam. — Biz uni oʻzimiz yaratdik.\n\nYangi tizim yaxshi sifatga ega. Dilnozaning joyi ham shu tizimga ega boʻladi. Tizim maʼlumot beradi hamda ishni yaxshi qiladi. Dilnoza hamda boshqa odamlar tizimdan foydalanadi.\n\nDilnozaning faoliyati yaxshi boʻladi. Barcha odamlarning faoliyati ham yaxshi boʻladi. Ishning sifati oshiriladi. Bu sohada yangi tizim muhim.\n\nYil oxirida Dilnoza ishda yaxshi oʻrinni oladi. Bu oʻrin uning uchun muhim.\n\nSavollar:\nDilnozaning sohasi taʼlimmi?\nDilnozaning sohasi taʼlim.\nIshda yangi tizim yaratiladimi?\nIshda yangi tizim yaratiladi.\nTizim sifatni oshiradimi?\nTizim ishning sifatini oshiradi.\nDilnoza yaxshi oʻrinni oladimi?\nDilnoza ishda yaxshi oʻrinni oladi."
+    },
+    {
+      "title": "Navroʻz",
+      "summary": "The district organises Navruz; Anvar helps with the water and the holiday lasts two days.",
+      "newWords": [
+        "tashkil",
+        "etmoq",
+        "amal",
+        "davom",
+        "taʼminlamoq",
+        "boʻyicha",
+        "chiqarmoq"
+      ],
+      "text": "Tumanda Navroʻz boʻladi. Tuman Navroʻzni tashkil etadi. Barcha aholi Navroʻzga keladi.\n\nTuman Navroʻz boʻyicha yangi maʼlumot chiqaradi. Navroʻz ikki kun davom etadi.\n\nAnvar va Dilnoza ham bu ishni amalga oshiradi. Anvar barcha odamlarni suv bilan taʼminlaydi. Dilnoza esa joyni tashkil etadi.\n\nNavroʻz boʻyicha barcha ishlar amalga oshiriladi. Odamlar koʻp. Barcha yaxshi vaqt oʻtkazadi.\n\n— Navroʻz yana davom etadimi? — deydi Zarina.\n— Navroʻz ertaga ham davom etadi, — deydi Dilnoza.\n\nTuman yana maʼlumot chiqaradi: Navroʻz yaxshi boʻldi. Tuman barcha odamlarni suv bilan taʼminladi.\n\nSavollar:\nNavroʻzni tuman tashkil etadimi?\nNavroʻzni tuman tashkil etadi.\nNavroʻz ikki kun davom etadimi?\nNavroʻz ikki kun davom etadi.\nAnvar odamlarni suv bilan taʼminlaydimi?\nAnvar barcha odamlarni suv bilan taʼminlaydi."
+    },
+    {
+      "title": "Birga",
+      "summary": "On a day off the family stays together and goes into the city; everyone likes the day.",
+      "newWords": [
+        "ular",
+        "siz",
+        "emas",
+        "shu",
+        "bilan",
+        "har"
+      ],
+      "text": "Bu kun ish kuni emas. Anvar ishga bormaydi. Dilnoza ham ishga bormaydi. Ular shu kun bir joyda boʻladi. Zarina va Bekzod ham ular bilan.\n\n— Biz bu kun koʻp ish qilmaymiz, — deydi Anvar.\n— Har kun koʻp ish bor. Shu kun esa yaxshi kun, — deydi Dilnoza.\n\nBekzod aytadi:\n— Siz bilan shaharga boramizmi?\n— Boramiz, — deydi Anvar.\n\nUlar shaharga boradi. Shaharda koʻp odam bor. Odamlar ham shu kunni yaxshi koʻradi. Ular katta bir joyga kiradi. U yerda suv bor, yer katta. Zarina va Bekzod u yerda koʻp vaqt qoladi.\n\nKeyin ular joyga keladi.\n— Siz bilan bu kun yaxshi boʻldi, — deydi Dilnoza.\n— Shu kun emas, har kun yaxshi! — deydi Zarina.\n\nSavollar:\nBu kun ish kunimi?\nBu kun ish kuni emas.\nUlar shaharga boradimi?\nUlar shaharga boradi.\nShaharda koʻp odam bormi?\nShaharda koʻp odam bor."
+    }
+  ]
+}
