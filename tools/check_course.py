@@ -37,6 +37,7 @@ import frequency_telugu  # noqa: E402
 import frequency_nepali  # noqa: E402
 import frequency_pashto  # noqa: E402
 import frequency_gujarati  # noqa: E402
+import frequency_sinhala  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -68,6 +69,13 @@ NEPALI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0971-\u097f\u200c\u200d]+")
 # Gujarati words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Gujarati block with its vowel signs,
 # virama and digits. The joiners are no part of a word: the reader cuts a word at one.
 GUJARATI_WORD = re.compile(r"[\u0a80-\u0aff]+")
+# Sinhala words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Sinhala block with its vowel signs,
+# al-lakuna and digits, and the joiner of a conjunct (ප්‍රශ්නය); the reader drops the non-joiner (its characterSubstitutions).
+SINHALA_WORD = re.compile(r"[\u0d80-\u0dff\u200d]+")
+# The endings and postpositions a Sinhala name takes written on (නිමල්ට, නිමල්ගේ, ගාල්ලේ, කොළඹදී, නිමල්ලා), and the clitics.
+SINHALA_NAME_ENDINGS = sorted({e + c for e in ["", "ට", "ගේ", "ව", "ගෙන්", "ේ", "ෙන්", "ින්", "දී", "ේදී", "ලා", "ලාට", "ලාගේ",
+                                               "ගෙ", "වත්"]
+                               for c in ("", "ත්", "ද", "ම", "යි")} - {""}, key=len, reverse=True)
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 # An Urdu word: a run of the reader's word characters for Urdu (AddedLanguages), as the text is folded (frequency_urdu).
 URDU_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06ef\u06fa-\u06ff\ufb50-\ufdff\ufe70-\ufefc]+")
@@ -152,6 +160,19 @@ def grc_name_forms(names):
 # What the reader would cut otherwise than the text means: an elided word keeps its apostrophe (δι’), and the Greek
 # question mark and ano teleia are letters to it.
 GRC_ELISION = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff][’'᾽ʼ](?![^\W\d_])")
+
+
+def sinhala_problems(text):
+    """What makes a Sinhala text spelled otherwise than the list: not NFC, a joiner astray, a conjunct without its joiner."""
+    problems = []
+    if unicodedata.normalize("NFC", text) != text:
+        problems.append("the text is not NFC: write ො ෝ ෞ ේ as one sign each")
+    for word in sorted(set(SINHALA_WORD.findall(text.replace("\u200c", "")))):
+        if frequency_sinhala.STRAY_JOINER.search(word):
+            problems.append(f"a joiner astray in '{word}': it goes only after al-lakuna, in ්‍ර ්‍ය and ක්‍ෂ")
+        if re.search("\u0dca[\u0dbb\u0dba]", word):
+            problems.append(f"'{word}' has ්ර or ්ය without the joiner: write ්\u200dර, ්\u200dය (the reader takes them for other words)")
+    return problems
 
 
 def greek_problems(text):
@@ -742,6 +763,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return NEPALI_WORD.findall(text)
     if code == "gu":
         return GUJARATI_WORD.findall(text)
+    if code == "si":
+        return SINHALA_WORD.findall(text.replace("\u200c", ""))
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -2692,7 +2715,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:",
     )
 }
 
@@ -2971,6 +2994,11 @@ def check(path, brief=False):
     if code == "gu":
         names = names | {f for n in names for f in frequency_gujarati.name_forms(n)}
         long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
+    # A Sinhala name takes its endings written on (නිමල්ට, ගාල්ලේ, කොළඹදී); one of several words (ශ්‍රී ලංකාව) counts as one
+    # known word wherever it is written whole.
+    if code == "si":
+        names = names | {n + ending for n in names for ending in SINHALA_NAME_ENDINGS}
+        long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
     # Kazakh names take the case endings joined (Асқардың, Алматыда, Айгүлге).
     if code == "kk":
         names = names | kazakh_name_forms(course.get("names", []))
@@ -3115,6 +3143,11 @@ def check(path, brief=False):
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
+            if code == "si":
+                pattern = re.compile(r"(?<![\u0d80-\u0dff\u200d])" + re.escape(name) + "(?:" + "|".join(SINHALA_NAME_ENDINGS) + r")?(?![\u0d80-\u0dff\u200d])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
             if code == "br":
                 pattern = breton_name_pattern(name)
                 whole_names += len(pattern.findall(text))
@@ -3228,6 +3261,10 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^প্রশ্ন:", "", text)
             # A number in Bengali or Western digits, with the classifier or ending written on (১০টা, ৫ জন's ৫, ২০২৪-এ), is a number.
             text = re.sub(r"[০-৯0-9]+(?:-?[\u0980-\u09ff]+)?", " ", text)
+        if code == "si":
+            text = re.sub("(?m)^ප්\u200dරශ්න:", "", text)
+            # A number with its ending written on (10ට, 2024දී) is a number.
+            text = re.sub(r"[0-9\u0de6-\u0def]+(?:-?[\u0d80-\u0dff\u200d]+)?", " ", text)
         if code == "sw":
             text = re.sub(r"(?m)^Maswali:", "", text)
         if code == "te":
@@ -3353,6 +3390,9 @@ def check(path, brief=False):
         # the list lacks is read by the rules the list was built with (frequency_gujarati).
         if code == "gu":
             lowered = [w if w in ranks or w in names else frequency_gujarati.checker_word(w, words, ranks, names) or w for w in lowered]
+        # A Sinhala word with a clitic written on (ගෙදරත්, පොතකි) that the list lacks is read as the form without it.
+        if code == "si":
+            lowered = [w if w in ranks or w in names else frequency_sinhala.checker_word(w, ranks) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
@@ -3400,6 +3440,8 @@ def check(path, brief=False):
         # The list has Nepali in NFC: a letter with nukta typed as one character is another word to it.
         if code == "ne" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
             problems.append("a letter with nukta typed as one character: write the text in NFC (letter + nukta)")
+        if code == "si":
+            problems += sinhala_problems(lesson["text"])
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
