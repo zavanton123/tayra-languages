@@ -4,19 +4,23 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
 import com.idiomiko.core.domain.books.discover.Difficulty
+import com.idiomiko.core.domain.books.discover.TextCoverage
 import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.news.NewsArticle
 import com.idiomiko.core.domain.news.NewsBook
-import com.idiomiko.core.domain.news.NewsLevel
 import com.idiomiko.core.domain.news.NewsService
 import com.idiomiko.core.domain.news.NewsSource
+import com.idiomiko.core.domain.news.NewsTopic
+import com.idiomiko.core.domain.news.NewsTopics
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.ui.components.CoverageCheck
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.state.UiEvents
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CompletableJob
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -34,32 +38,47 @@ data class NewsItem(
     val check: CoverageCheck = CoverageCheck.NotChecked,
     val opening: Boolean = false,
     val error: String? = null,
+    /** The picture the article's page names, found while judging it, for an article whose feed gives none. */
+    val pagePicture: String? = null,
 ) {
-    val difficulty: Difficulty? get() = (check as? CoverageCheck.Checked)?.coverage?.difficulty
+    val coverage: TextCoverage? get() = (check as? CoverageCheck.Checked)?.coverage
+    val difficulty: Difficulty? get() = coverage?.difficulty
+    val picture: String? get() = article.imageUrl ?: pagePicture
+
+    /** The topics of the article, from the sections its feed files it under. */
+    val topics: List<NewsTopic> = NewsTopics.of(article)
 }
 
-/** How recent the articles listed are. */
-enum class NewsPeriod { ANY, TODAY, WEEK }
+/** How recent the articles shown are; a day is the last 24 hours. */
+enum class NewsPeriod { TODAY, WEEK, ANY }
+
+/** The order of the articles: the share of their words known, or how recent they are. */
+enum class NewsSort { EASIEST, NEWEST }
+
+/**
+ * The front page of the articles the filters leave: the lead, the best of the newest by the order chosen, the
+ * cards beside it, then the rest as rows, [hidden] of them waiting behind "See all".
+ */
+data class FrontPage(val lead: NewsItem?, val cards: List<NewsItem>, val rows: List<NewsItem>, val hidden: Int)
 
 data class NewsUiState(
     val languageName: String = "",
     val sources: List<NewsSource> = emptyList(),
-    /** Null shows every source's articles. */
-    val source: NewsSource? = null,
-    /** Null shows the articles whatever their difficulty. */
-    val difficulty: Difficulty? = null,
+    /** The names of the sources left out; none shows every source's articles. */
+    val hiddenSources: Set<String> = emptySet(),
     /** Words the title or summary must contain; blank shows every article. */
     val query: String = "",
-    val period: NewsPeriod = NewsPeriod.ANY,
-    /** Only the outlets that write in simple language. */
-    val easyOnly: Boolean = false,
+    val period: NewsPeriod = NewsPeriod.TODAY,
+    /** Whether the reader chose the period; until then a day with no news shows the week's. */
+    val periodChosen: Boolean = false,
+    val sort: NewsSort = NewsSort.EASIEST,
     /** Leaves out the articles already opened. */
     val hideRead: Boolean = false,
     /** A topic the article is filed under; null shows every topic. */
-    val topic: String? = null,
+    val topic: NewsTopic? = null,
     val articles: List<NewsItem> = emptyList(),
-    /** How many of the articles are listed; more come as the list is scrolled. */
-    val listed: Int = PAGE,
+    /** How many of the rows after the cards are shown; "See all" shows the rest. */
+    val rows: Int = ROWS,
     /** The articles already opened, by address. */
     val opened: Map<String, NewsBook> = emptyMap(),
     val loading: Boolean = true,
@@ -67,61 +86,79 @@ data class NewsUiState(
     val failed: List<NewsSource> = emptyList(),
     val loadedAt: Instant? = null,
 ) {
-    /** The articles every filter but difficulty lets through, which is what is judged to find the difficulty. */
-    val filtered: List<NewsItem>
+    /** The language of the sources, for the topics' names. */
+    val languageCode: String? get() = sources.firstOrNull()?.languageCode
+
+    /** The period shown: the one chosen, or the week while the day has no news yet. */
+    val shownPeriod: NewsPeriod
+        get() = if (!periodChosen && period == NewsPeriod.TODAY && loadedAt != null && articles.isNotEmpty() && articles.none { it.isFrom(NewsPeriod.TODAY, loadedAt) }) NewsPeriod.WEEK else period
+
+    /** Every filter but the topic, so the topics offered are those the other filters leave articles in. */
+    private val beforeTopic: List<NewsItem>
         get() {
             val words = query.trim().lowercase().split(Regex("\\s+")).filter { it.isNotEmpty() }
-            val since = loadedAt?.let { at ->
-                when (period) {
-                    NewsPeriod.ANY -> null
-                    NewsPeriod.TODAY -> at - 1.days
-                    NewsPeriod.WEEK -> at - 7.days
-                }
-            }
+            val period = shownPeriod
             return articles.filter { item ->
                 val article = item.article
-                (source == null || article.source == source) &&
-                    (!easyOnly || article.source.level == NewsLevel.EASY) &&
+                article.source.name !in hiddenSources &&
                     (!hideRead || article.url !in opened) &&
-                    (topic == null || article.topics.any { it.equals(topic, ignoreCase = true) }) &&
-                    (since == null || article.published?.let { it >= since } == true) &&
+                    (loadedAt == null || item.isFrom(period, loadedAt)) &&
                     words.all { word -> article.title.lowercase().contains(word) || article.summary.lowercase().contains(word) }
             }
         }
 
-    /** The articles of every filter, as many as are listed. */
-    val shown: List<NewsItem> get() = matching.take(listed)
+    /** The articles every filter lets through, in the order chosen. */
+    val filtered: List<NewsItem> get() = sorted(beforeTopic.filter { topic == null || topic in it.topics })
 
-    val hasMore: Boolean get() = matching.size > listed
+    private fun sorted(items: List<NewsItem>): List<NewsItem> {
+        val newest = items.sortedByDescending { it.article.published ?: Instant.DISTANT_PAST }
+        if (sort == NewsSort.NEWEST) return newest
+        // The judged first, the best known first; then those still to judge, newest first, so the top settles as they are judged.
+        val (judged, waiting) = newest.partition { it.coverage != null }
+        return judged.sortedByDescending { item -> item.coverage!!.let { it.known * 1000L / it.words.coerceAtLeast(1) } } + waiting
+    }
 
-    private val matching: List<NewsItem> get() = filtered.filter { difficulty == null || it.difficulty == difficulty }
+    /** The front page: the lead from the newest few, preferring one not read yet, then the cards and the rows in order. */
+    val front: FrontPage
+        get() {
+            val all = filtered
+            val pool = all.sortedByDescending { it.article.published ?: Instant.DISTANT_PAST }.take(LEAD_POOL).toSet()
+            val lead = all.firstOrNull { it in pool && it.article.url !in opened } ?: all.firstOrNull()
+            val rest = all - setOfNotNull(lead)
+            val rows = rest.drop(CARDS)
+            return FrontPage(lead, rest.take(CARDS), rows.take(this.rows), (rows.size - this.rows).coerceAtLeast(0))
+        }
 
-    /** How many of the filtered articles still wait to be judged while a difficulty is chosen. */
-    val stillChecking: Int
-        get() = if (difficulty == null) 0 else filtered.take(MAX_CHECKED).count { it.check == CoverageCheck.NotChecked || it.check == CoverageCheck.Checking }
+    /** The topics the articles left by the other filters are filed under, in a fixed order, and the one chosen. */
+    val topics: List<NewsTopic>
+        get() {
+            val code = languageCode ?: return emptyList()
+            val present = beforeTopic.flatMapTo(HashSet()) { it.topics } + listOfNotNull(topic)
+            return NewsTopic.entries.filter { it in present && NewsTopics.label(it, code) != null }
+        }
 
-    /** The topics most articles share, the most shared first; a topic of one article is no filter. */
-    val topics: List<String>
-        get() = articles.flatMap { item -> item.article.topics.map { it.trim() }.distinctBy { it.lowercase() } }
-            .groupBy { it.lowercase() }.values.filter { it.size >= 2 }
-            .sortedByDescending { it.size }.take(MAX_TOPICS).map { it.first() }
-
-    val hasEasySources: Boolean get() = sources.any { it.level == NewsLevel.EASY }
-
-    /** How many filters besides the search are set, for the phone's Filters button. */
+    /** How many filters of the phone's sheet are set, for its Filters button. */
     val activeFilters: Int
-        get() = listOf(source != null, difficulty != null, period != NewsPeriod.ANY, easyOnly, hideRead, topic != null).count { it }
+        get() = listOf(hiddenSources.isNotEmpty(), periodChosen && period != NewsPeriod.TODAY, hideRead).count { it }
 
     val filtering: Boolean
-        get() = source != null || difficulty != null || query.isNotBlank() || period != NewsPeriod.ANY || easyOnly || hideRead || topic != null
+        get() = hiddenSources.isNotEmpty() || query.isNotBlank() || hideRead || topic != null || (periodChosen && period != NewsPeriod.TODAY)
+
+    /** Every source failed, so there is nothing to show but the way to try again. */
+    val allFailed: Boolean get() = !loading && articles.isEmpty() && failed.isNotEmpty()
 
     companion object {
-        const val PAGE = 20
-
-        /** With a difficulty chosen, up to this many articles are judged to find the ones at it. */
-        const val MAX_CHECKED = 60
-        const val MAX_TOPICS = 12
+        /** The lead is the best of this many newest articles. */
+        const val LEAD_POOL = 12
+        const val CARDS = 4
+        const val ROWS = 10
     }
+}
+
+private fun NewsItem.isFrom(period: NewsPeriod, now: Instant): Boolean = when (period) {
+    NewsPeriod.ANY -> true
+    NewsPeriod.TODAY -> article.published?.let { it >= now - 1.days } == true
+    NewsPeriod.WEEK -> article.published?.let { it >= now - 7.days } == true
 }
 
 sealed interface NewsEvent {
@@ -129,9 +166,10 @@ sealed interface NewsEvent {
 }
 
 /**
- * The latest news of the language being learned. The articles listed are judged one after another
- * by the words the reader knows, which means reading each from its site; an article read becomes a
- * text of its own, kept with the news rather than among the books.
+ * The latest news of the language being learned, as a front page. Each article is judged by the words the reader
+ * knows, which for most sources means reading it from its site, so articles are judged a few at a time: the newest,
+ * from which the lead is picked, and the cards at once, and the others as they come into view. An article read
+ * becomes a text of its own, kept with the news rather than among the books.
  */
 class NewsViewModel(
     private val news: NewsService,
@@ -145,7 +183,11 @@ class NewsViewModel(
 
     private var language: Language? = null
     private var loadJob: Job? = null
-    private var checkJob: Job? = null
+
+    /** The articles waiting to be judged, the most wanted first, and the judging under way. */
+    private val waiting = ArrayDeque<String>()
+    private var judging: CompletableJob = SupervisorJob(viewModelScope.coroutineContext[Job])
+    private var workers = 0
 
     init {
         viewModelScope.launch {
@@ -161,22 +203,24 @@ class NewsViewModel(
     fun refresh() {
         val lang = language ?: run { _state.update { it.copy(loading = false) }; return }
         loadJob?.cancel()
-        checkJob?.cancel()
+        stopJudging()
         _state.update { it.copy(loading = true) }
         loadJob = viewModelScope.launch {
             val list = news.latest(lang)
-            val checked = _state.value.articles.associateBy { it.article.url }
+            val known = _state.value.articles.associateBy { it.article.url }
             _state.update { s ->
                 s.copy(
-                    // An article already judged keeps its judgement.
-                    articles = list.articles.map { article -> checked[article.url]?.copy(article = article) ?: NewsItem(article) },
+                    // An article already judged keeps its judgement and the picture found, and one cut short is judged again.
+                    articles = list.articles.map { article ->
+                        known[article.url]?.let { if (it.check == CoverageCheck.Checking) it.copy(check = CoverageCheck.NotChecked) else it }?.copy(article = article) ?: NewsItem(article)
+                    },
                     failed = list.failed,
                     loading = false,
                     loadedAt = clock.now(),
-                    listed = NewsUiState.PAGE,
+                    rows = NewsUiState.ROWS,
                 )
             }
-            checkShown()
+            judgeFront()
         }
     }
 
@@ -186,79 +230,116 @@ class NewsViewModel(
         if (clock.now() - at > STALE_AFTER) refresh()
     }
 
-    fun setSource(source: NewsSource?) = filter { it.copy(source = source) }
-    fun setDifficulty(difficulty: Difficulty?) = filter { it.copy(difficulty = difficulty) }
     fun setQuery(query: String) = filter { it.copy(query = query) }
-    fun setPeriod(period: NewsPeriod) = filter { it.copy(period = period) }
-    fun setEasyOnly(on: Boolean) = filter { it.copy(easyOnly = on) }
+    fun setPeriod(period: NewsPeriod) = filter { it.copy(period = period, periodChosen = true) }
+    fun setSort(sort: NewsSort) = filter { it.copy(sort = sort) }
     fun setHideRead(on: Boolean) = filter { it.copy(hideRead = on) }
-    fun setTopic(topic: String?) = filter { it.copy(topic = topic) }
+    fun setTopic(topic: NewsTopic?) = filter { it.copy(topic = topic) }
+
+    /** Shows or leaves out a source's articles; the last source shown stays. */
+    fun toggleSource(source: NewsSource) = filter { s ->
+        val hidden = if (source.name in s.hiddenSources) s.hiddenSources - source.name else s.hiddenSources + source.name
+        if (s.sources.all { it.name in hidden }) s else s.copy(hiddenSources = hidden)
+    }
+
+    fun showAllSources() = filter { it.copy(hiddenSources = emptySet()) }
 
     fun clearFilters() = filter {
-        it.copy(source = null, difficulty = null, query = "", period = NewsPeriod.ANY, easyOnly = false, hideRead = false, topic = null)
+        it.copy(hiddenSources = emptySet(), query = "", period = NewsPeriod.TODAY, periodChosen = false, hideRead = false, topic = null)
     }
 
-    /** Applies a change of filter, starting again from the top of the list. */
+    /** Shows every row of the front page. */
+    fun showAll() = _state.update { it.copy(rows = Int.MAX_VALUE) }
+
+    /** Applies a change of filter, starting again from the top of the page. */
     private fun filter(change: (NewsUiState) -> NewsUiState) {
-        _state.update { change(it).copy(listed = NewsUiState.PAGE) }
-        checkShown()
+        _state.update { change(it).copy(rows = NewsUiState.ROWS) }
+        judgeFront()
     }
 
-    fun showMore() {
-        if (!_state.value.hasMore) return
-        _state.update { it.copy(listed = it.listed + NewsUiState.PAGE) }
-        checkShown()
-    }
+    /** An article came into view: it is judged next, if it was not yet. */
+    fun seen(item: NewsItem) = judge(listOf(item.article.url), first = true)
 
     /** Opens the article to read, made into a text the first time. */
     fun open(item: NewsItem) {
         val lang = language ?: return
         if (item.opening) return
-        updateItem(item.article) { it.copy(opening = true, error = null) }
+        updateItem(item.article.url) { it.copy(opening = true, error = null) }
         viewModelScope.launch {
             try {
                 val bookId = news.open(item.article, lang, attribution(item.article))
-                updateItem(item.article) { it.copy(opening = false) }
+                updateItem(item.article.url) { it.copy(opening = false) }
                 events.send(NewsEvent.Read(bookId))
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
                 Logger.w(e) { "Opening ${item.article.url} failed" }
-                updateItem(item.article) { it.copy(opening = false, error = e.message?.let(::tr) ?: tr("Could not open the article")) }
+                updateItem(item.article.url) { it.copy(opening = false, error = e.message?.let(::tr) ?: tr("Could not open the article")) }
             }
         }
     }
 
-    /** Judges the listed articles not judged yet, one at a time. */
-    private fun checkShown() {
-        val lang = language ?: return
-        checkJob?.cancel()
-        checkJob = viewModelScope.launch {
-            // The filtered ones whatever their difficulty, as the difficulty is what is being found; with a
-            // difficulty chosen, beyond the ones listed, so the list fills with articles at it.
-            val waiting = _state.value.let { s -> s.filtered.take(if (s.difficulty != null) NewsUiState.MAX_CHECKED else s.listed) }
-                .filter { it.check == CoverageCheck.NotChecked }
-            for (item in waiting) {
-                updateItem(item.article) { it.copy(check = CoverageCheck.Checking) }
-                val check = try {
-                    news.coverage(item.article, lang)?.let { CoverageCheck.Checked(it) } ?: CoverageCheck.Failed(tr("This language cannot be checked"))
-                } catch (e: CancellationException) {
-                    updateItem(item.article) { it.copy(check = CoverageCheck.NotChecked) }
-                    throw e
-                } catch (e: Exception) {
-                    Logger.w(e) { "Checking ${item.article.url} failed" }
-                    CoverageCheck.Failed(e.message?.let(::tr) ?: tr("Could not read the article"))
+    /** The newest articles the filters leave, from which the lead is picked, and the cards beside it, are judged first. */
+    private fun judgeFront() {
+        val all = _state.value.filtered
+        val newest = all.sortedByDescending { it.article.published ?: Instant.DISTANT_PAST }.take(NewsUiState.LEAD_POOL)
+        waiting.clear()
+        judge((newest + all.take(NewsUiState.CARDS + 1)).map { it.article.url }.distinct(), first = false)
+    }
+
+    private fun judge(urls: List<String>, first: Boolean) {
+        val items = _state.value.articles.associateBy { it.article.url }
+        val wanted = urls.filter { url -> items[url]?.check == CoverageCheck.NotChecked && url !in waiting }
+        if (first) wanted.asReversed().forEach(waiting::addFirst) else wanted.forEach(waiting::addLast)
+        while (workers < WORKERS && waiting.isNotEmpty()) {
+            workers++
+            val job = judging
+            viewModelScope.launch(job) {
+                try {
+                    work()
+                } finally {
+                    if (job === judging) workers--
                 }
-                updateItem(item.article) { it.copy(check = check) }
             }
         }
     }
 
-    private fun updateItem(article: NewsArticle, change: (NewsItem) -> NewsItem) =
-        _state.update { s -> s.copy(articles = s.articles.map { if (it.article.url == article.url) change(it) else it }) }
+    /** Judges the articles waiting, one after another, until none waits. */
+    private suspend fun work() {
+        val lang = language ?: return
+        while (true) {
+            val url = waiting.removeFirstOrNull() ?: return
+            val item = _state.value.articles.firstOrNull { it.article.url == url } ?: continue
+            if (item.check != CoverageCheck.NotChecked) continue
+            updateItem(url) { it.copy(check = CoverageCheck.Checking) }
+            val (check, picture) = try {
+                news.judge(item.article, lang)?.let { CoverageCheck.Checked(it.coverage) to it.imageUrl } ?: (CoverageCheck.Failed(tr("This language cannot be checked")) to null)
+            } catch (e: CancellationException) {
+                updateItem(url) { it.copy(check = CoverageCheck.NotChecked) }
+                throw e
+            } catch (e: Exception) {
+                Logger.w(e) { "Checking $url failed" }
+                CoverageCheck.Failed(e.message?.let(::tr) ?: tr("Could not read the article")) to null
+            }
+            updateItem(url) { it.copy(check = check, pagePicture = picture) }
+        }
+    }
+
+    private fun stopJudging() {
+        judging.cancel()
+        judging = SupervisorJob(viewModelScope.coroutineContext[Job])
+        workers = 0
+        waiting.clear()
+    }
+
+    private fun updateItem(url: String, change: (NewsItem) -> NewsItem) =
+        _state.update { s -> s.copy(articles = s.articles.map { if (it.article.url == url) change(it) else it }) }
 
     private companion object {
         val STALE_AFTER = 15.minutes
+
+        /** How many articles are read and judged at once. */
+        const val WORKERS = 3
     }
 }
 

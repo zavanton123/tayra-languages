@@ -1,78 +1,82 @@
 package com.idiomiko.feature.news
 
-import com.idiomiko.core.ui.components.label
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import com.idiomiko.core.ui.components.ActiveFilterSummary
-import com.idiomiko.core.ui.components.ScrollColumn
-import com.idiomiko.core.ui.components.inLearnedScript
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
-import androidx.compose.runtime.remember
-import com.idiomiko.core.ui.components.AppBottomSheet
-import com.idiomiko.core.ui.components.ToggleButton
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.lazy.LazyListScope
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.selection.toggleable
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.idiomiko.core.domain.books.discover.Difficulty
 import com.idiomiko.core.domain.news.NewsLevel
 import com.idiomiko.core.domain.news.NewsSource
-import com.idiomiko.core.ui.components.AppFilterChip
+import com.idiomiko.core.domain.news.NewsTopic
+import com.idiomiko.core.domain.news.NewsTopics
+import com.idiomiko.core.ui.components.AppBottomSheet
+import com.idiomiko.core.ui.components.AppCheckbox
+import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
-import com.idiomiko.core.ui.components.AppSpinner
+import com.idiomiko.core.ui.components.AppMenu
+import com.idiomiko.core.ui.components.AppSwitch
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.CoverageLine
-import com.idiomiko.core.ui.components.DifficultyFilter
 import com.idiomiko.core.ui.components.EmptyState
+import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
-import com.idiomiko.core.ui.components.PlaceholderCards
 import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.QuietButton
-import com.idiomiko.core.ui.components.ScreenHeader
+import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.ScrollList
 import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.Segment
+import com.idiomiko.core.ui.components.SegmentStyle
 import com.idiomiko.core.ui.components.SegmentedToggle
-import com.idiomiko.core.ui.components.SpinnerSize
+import com.idiomiko.core.ui.components.SelectButton
+import com.idiomiko.core.ui.components.SelectMenu
 import com.idiomiko.core.ui.components.Tag
 import com.idiomiko.core.ui.components.TagSize
-import com.idiomiko.core.ui.components.cardSurface
-import com.idiomiko.core.ui.components.itemMotion
+import com.idiomiko.core.ui.components.ToggleButton
+import com.idiomiko.core.ui.components.inLearnedScript
 import com.idiomiko.core.ui.components.relativeTo
 import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.languageInSentence
@@ -80,6 +84,8 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.state.CollectEvents
+import com.idiomiko.core.ui.theme.AppBorders
+import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
@@ -110,16 +116,17 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
     // A language without news feeds still has its wikis.
     val tab = chosen ?: if (state.languageName.isNotEmpty() && state.sources.isEmpty()) NewsTab.WIKIPEDIA else NewsTab.NEWS
     val tabs: @Composable () -> Unit = { NewsTabs(tab) { chosen = it } }
+    val compact = LocalWindowWidth.current.isCompact
+    val refresh = if (tab == NewsTab.NEWS) viewModel::refresh else wiki::refresh
+    val loading = if (tab == NewsTab.NEWS) state.loading else wikiState.loading
     Scaffold(
         topBar = {
             AppTopBar(
                 title = tr("News"),
                 onNavigate = onNavigate,
                 section = NavSection.NEWS,
-                actions = {
-                    val loading = if (tab == NewsTab.NEWS) state.loading else wikiState.loading
-                    AppIconButton(Icons.Default.Refresh, contentDescription = tr("Refresh"), onClick = if (tab == NewsTab.NEWS) viewModel::refresh else wiki::refresh, enabled = !loading)
-                },
+                // A wide window's page has its own Refresh by the title.
+                actions = { if (compact) AppIconButton(Icons.Default.Refresh, contentDescription = tr("Refresh"), onClick = refresh, enabled = !loading) },
             )
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -131,7 +138,6 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
                     onWiki = wiki::setWiki,
                     onQuery = wiki::setQuery,
                     onLength = wiki::setLength,
-                    onDifficulty = wiki::setDifficulty,
                     onHideRead = wiki::setHideRead,
                     onMore = wiki::loadMore,
                     onOpen = wiki::open,
@@ -146,16 +152,17 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
         NewsContent(
             state,
             NewsActions(
-                onSource = viewModel::setSource,
-                onDifficulty = viewModel::setDifficulty,
                 onQuery = viewModel::setQuery,
                 onPeriod = viewModel::setPeriod,
-                onEasyOnly = viewModel::setEasyOnly,
+                onSort = viewModel::setSort,
+                onSource = viewModel::toggleSource,
+                onAllSources = viewModel::showAllSources,
                 onHideRead = viewModel::setHideRead,
                 onTopic = viewModel::setTopic,
                 onClear = viewModel::clearFilters,
-                onMore = viewModel::showMore,
+                onShowAll = viewModel::showAll,
                 onOpen = viewModel::open,
+                onSeen = viewModel::seen,
                 onRefresh = viewModel::refresh,
             ),
             Modifier.padding(padding),
@@ -164,263 +171,413 @@ fun NewsScreen(onNavigate: (Route) -> Unit, viewModel: NewsViewModel = koinViewM
     }
 }
 
-/** The choice between the news sites' feeds and the wikis. */
+/** The choice between the news sites' feeds and the wikis, at the start of the controls. */
 @Composable
 internal fun NewsTabs(selected: NewsTab, onSelect: (NewsTab) -> Unit) {
+    val compact = LocalWindowWidth.current.isCompact
     SegmentedToggle(
         NewsTab.entries.map { tab -> Segment(tab, label = if (tab == NewsTab.NEWS) tr("News sites") else tr("Wikis"), testTag = "tab-${tab.name}") },
         selected,
         onSelect,
+        style = SegmentStyle.Raised,
+        fill = compact,
     )
 }
 
 internal class NewsActions(
-    val onSource: (NewsSource?) -> Unit = {},
-    val onDifficulty: (Difficulty?) -> Unit = {},
     val onQuery: (String) -> Unit = {},
     val onPeriod: (NewsPeriod) -> Unit = {},
-    val onEasyOnly: (Boolean) -> Unit = {},
+    val onSort: (NewsSort) -> Unit = {},
+    val onSource: (NewsSource) -> Unit = {},
+    val onAllSources: () -> Unit = {},
     val onHideRead: (Boolean) -> Unit = {},
-    val onTopic: (String?) -> Unit = {},
+    val onTopic: (NewsTopic?) -> Unit = {},
     val onClear: () -> Unit = {},
-    val onMore: () -> Unit = {},
+    val onShowAll: () -> Unit = {},
     val onOpen: (NewsItem) -> Unit = {},
+    val onSeen: (NewsItem) -> Unit = {},
     val onRefresh: () -> Unit = {},
 )
 
+/**
+ * The news as a front page: the title with when it was read and Refresh, one row of controls, the topics, then the
+ * lead beside four cards and the rest as rows. A phone has one column: search and a Filters sheet, topics that scroll
+ * sideways, the lead, then cards with their picture at the left.
+ */
 @Composable
-internal fun NewsContent(state: NewsUiState, actions: NewsActions, modifier: Modifier = Modifier, now: Instant = Clock.System.now(), tabs: @Composable () -> Unit = {}) {
+internal fun NewsContent(
+    state: NewsUiState,
+    actions: NewsActions,
+    modifier: Modifier = Modifier,
+    now: Instant = Clock.System.now(),
+    tabs: @Composable () -> Unit = {},
+    filtersOpen: Boolean = false,
+) {
     val compact = LocalWindowWidth.current.isCompact
-    val list = rememberLazyListState()
-    // More articles are listed as the end of the list comes near.
-    LaunchedEffect(list, state.hasMore) {
-        snapshotFlow { list.layoutInfo.visibleItemsInfo.lastOrNull()?.index to list.layoutInfo.totalItemsCount }
-            .collect { (last, total) -> if (last != null && total > 0 && last >= total - 3) actions.onMore() }
-    }
-    Box(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
-        ScrollList(
-            Modifier.widthIn(max = AppSizes.contentWidth).fillMaxSize(),
-            state = list,
-            contentPadding = PaddingValues(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
-        ) {
-            item {
-                Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    ScreenHeader(
-                        tr("News"),
-                        if (state.languageName.isEmpty()) null
-                        else tr("The latest news in {0}, with how much of each article you already know.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-                    )
-                    tabs()
-                }
-            }
+    var sheet by remember { mutableStateOf(filtersOpen) }
+    val context = CardContext(state.sources, state.languageCode, state.opened.keys, now, actions.onOpen, actions.onSeen)
+    BoxWithConstraints(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+        val layout = when {
+            compact -> FrontLayout.PHONE
+            maxWidth >= WIDE_FROM -> FrontLayout.WIDE
+            else -> FrontLayout.MEDIUM
+        }
+        NewsPage(compact) {
+            if (!compact) part(gap = false) { NewsHeader(state.loadedAt, state.loading, now, actions.onRefresh) }
+            part(gap = !compact) { if (compact) PhoneControls(state, actions, tabs) { sheet = true } else DesktopControls(state, actions, tabs) }
             when {
-                state.languageName.isEmpty() -> item { EmptyState(AppIcons.Newspaper, tr("Choose a language to learn to see its news.")) }
-                state.sources.isEmpty() -> item {
+                state.languageName.isEmpty() -> part { EmptyState(AppIcons.Newspaper, tr("Choose a language to learn to see its news.")) }
+                state.sources.isEmpty() -> part {
                     EmptyState(AppIcons.Newspaper, tr("There is no news feed in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
                 }
-                else -> {
-                    item { Filters(state, actions) }
-                    if (state.failed.isNotEmpty()) item {
-                        Text(
-                            tr("Could not read: {0}", state.failed.joinToString(", ") { it.name }),
-                            Modifier.padding(bottom = AppSpacing.m),
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
-                    }
-                    when {
-                        state.loading && state.articles.isEmpty() -> item { PlaceholderCards(4) }
-                        state.shown.isEmpty() -> item {
-                            EmptyState(
-                                AppIcons.Newspaper,
-                                when {
-                                    state.articles.isEmpty() -> tr("The news could not be read. Check the connection and try again.")
-                                    state.stillChecking > 0 -> tr("None of the articles checked so far is at this level.")
-                                    else -> tr("No articles match these filters.")
-                                },
-                                action = {
-                                    if (state.articles.isNotEmpty()) QuietButton(tr("Clear filters"), onClick = actions.onClear)
-                                    else SecondaryButton(tr("Try again"), onClick = actions.onRefresh)
-                                },
-                            )
-                        }
-                        else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Column(itemMotion()) {
-                            NewsCard(state.shown[i], state, actions, compact, now, Modifier.padding(bottom = AppSpacing.m))
-                        }}
-                    }
-                    item {
-                        Text(
-                            tr("Articles belong to their publishers and are read from their sites for your own learning."),
-                            Modifier.fillMaxWidth().padding(top = AppSpacing.s, bottom = AppSpacing.l),
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            textAlign = TextAlign.Center,
-                        )
-                    }
+                state.loading && state.articles.isEmpty() -> part { FrontSkeleton(layout) }
+                state.allFailed -> part { OutageCard(actions.onRefresh, compact) }
+                state.articles.isEmpty() -> part { EmptyState(AppIcons.Newspaper, tr("No articles found.")) }
+                else -> frontPage(state, actions, context, layout)
+            }
+            if (state.sources.isNotEmpty()) part {
+                Text(
+                    tr("Articles belong to their publishers and are read from their sites for your own learning."),
+                    Modifier.fillMaxWidth().padding(top = AppSpacing.s),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    textAlign = TextAlign.Center,
+                )
+            }
+        }
+    }
+    if (sheet) FiltersSheet(state, actions) { sheet = false }
+}
+
+/** The topics, a notice of the sources that failed, the lead and the cards, then the rest under their heading. */
+private fun LazyListScope.frontPage(state: NewsUiState, actions: NewsActions, context: CardContext, layout: FrontLayout) {
+    val phone = layout == FrontLayout.PHONE
+    val topics = state.topics
+    if (topics.size > 1) part(key = "topics") { TopicRow(state, topics, actions.onTopic, scrolls = phone) }
+    if (state.failed.isNotEmpty()) part(key = "failed") { FailedSourcesNotice(state.failed, actions.onRefresh) }
+    val front = state.front
+    val lead = front.lead
+    if (lead == null) {
+        part(key = "no-match") { NoMatchCard(state, actions, compact = phone) }
+        return
+    }
+    when (layout) {
+        FrontLayout.WIDE -> part(key = "front") { WideFront(lead, front.cards, context) }
+        FrontLayout.MEDIUM -> part(key = "front") { MediumFront(lead, front.cards, context) }
+        FrontLayout.PHONE -> {
+            part(key = lead.article.url) { LeadCard(lead, context, PHONE_LEAD_PICTURE, Modifier.fillMaxWidth(), compact = true) }
+            front.cards.forEach { card -> part(key = card.article.url) { ThumbCard(card, context) } }
+        }
+    }
+    if (front.rows.isEmpty()) return
+    part(key = "more") { MoreHeader(state, front, actions.onShowAll, phone) }
+    val rows = front.rows
+    // Each row is an item of its own, so the rows are judged as they come into view; on a wide window they join into one card.
+    rows.forEachIndexed { i, row ->
+        part(key = row.article.url, gap = phone || i == 0) {
+            if (phone) ThumbCard(row, context) else ArticleRow(row, context, first = i == 0, last = i == rows.size - 1)
+        }
+    }
+}
+
+/** A part of the page, after the gap that parts it from the one above unless [gap] is false. */
+internal fun LazyListScope.part(key: Any? = null, gap: Boolean = true, content: @Composable () -> Unit) = item(key) {
+    val size = if (LocalWindowWidth.current.isCompact) AppSpacing.m else PAGE_GAP
+    Box(Modifier.fillMaxWidth().padding(top = if (gap) size else 0.dp)) { content() }
+}
+
+/** The lead at the left over two rows of two cards. */
+@Composable
+private fun WideFront(lead: NewsItem, cards: List<NewsItem>, context: CardContext) {
+    Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min).testTag("front-page"), horizontalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+        LeadCard(lead, context, LEAD_PICTURE, Modifier.weight(LEAD_WEIGHT).fillMaxHeight())
+        if (cards.isEmpty()) {
+            Spacer(Modifier.weight(2f))
+            return@Row
+        }
+        val stretch = cards.size > 2
+        Column(Modifier.weight(2f).then(if (stretch) Modifier.fillMaxHeight() else Modifier), verticalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+            cards.chunked(2).forEach { pair ->
+                Row(Modifier.fillMaxWidth().then(if (stretch) Modifier.weight(1f) else Modifier.height(IntrinsicSize.Min)), horizontalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+                    pair.forEach { ArticleCard(it, context, Modifier.weight(1f).fillMaxHeight()) }
+                    if (pair.size == 1) Spacer(Modifier.weight(1f))
                 }
             }
         }
     }
 }
 
-/** Search and the filters; on phones the filters wait in a sheet behind one button, so articles show at once. */
+/** A window too narrow for the cards beside the lead: the lead across, then the cards two to a row. */
 @Composable
-private fun Filters(state: NewsUiState, actions: NewsActions) {
+private fun MediumFront(lead: NewsItem, cards: List<NewsItem>, context: CardContext) {
+    Column(Modifier.fillMaxWidth().testTag("front-page"), verticalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+        LeadCard(lead, context, MEDIUM_LEAD_PICTURE, Modifier.fillMaxWidth())
+        cards.chunked(2).forEach { pair ->
+            Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+                pair.forEach { ArticleCard(it, context, Modifier.weight(1f).fillMaxHeight()) }
+                if (pair.size == 1) Spacer(Modifier.weight(1f))
+            }
+        }
+    }
+}
+
+/** "More from today", the order they are in, and See all while some wait behind it. */
+@Composable
+private fun MoreHeader(state: NewsUiState, front: FrontPage, onShowAll: () -> Unit, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
-    val compact = LocalWindowWidth.current.isCompact
-    var sheet by remember { mutableStateOf(false) }
-    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        SearchField(state.query, actions.onQuery, tr("Search the news"), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("news-search"))
-        if (compact) {
+    val title = when (state.shownPeriod) {
+        NewsPeriod.TODAY -> tr("More from today")
+        NewsPeriod.WEEK -> tr("More from this week")
+        NewsPeriod.ANY -> tr("More news")
+    }
+    Row(Modifier.fillMaxWidth().padding(top = if (compact) AppSpacing.xs else AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.weight(1f), verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            Text(title, Modifier.alignByBaseline(), style = if (compact) AppText.sectionTitle else AppText.headline)
+            Text(state.sort.label, Modifier.alignByBaseline(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        }
+        if (front.hidden > 0) {
+            LinkText(tr("See all {0}", state.filtered.size), onClick = onShowAll, modifier = Modifier.testTag("see-all"), style = AppText.labelStrong)
+        }
+    }
+}
+
+/** The page's column: centred on a wide window, with the same gap on either side measured to the scrollbar. */
+@Composable
+internal fun NewsPage(compact: Boolean, state: LazyListState = rememberLazyListState(), content: LazyListScope.() -> Unit) {
+    ScrollList(
+        Modifier.widthIn(max = AppSizes.pageWidth + AppSpacing.xxxl * 2 + AppSizes.scrollbarRoom).fillMaxSize(),
+        state = state,
+        contentPadding = PaddingValues(
+            start = if (compact) AppSpacing.l else AppSpacing.xxxl,
+            end = if (compact) AppSpacing.l else AppSpacing.xxxl + AppSizes.scrollbarRoom,
+            top = if (compact) AppSpacing.s else AppSpacing.xxl,
+            bottom = AppSpacing.xxxl,
+        ),
+        content = content,
+    )
+}
+
+/** "News", and at the right when the news was read and Refresh; a phone's bar has the title and Refresh, so it shows neither. */
+@Composable
+internal fun NewsHeader(loadedAt: Instant?, loading: Boolean, now: Instant, onRefresh: () -> Unit) {
+    if (LocalWindowWidth.current.isCompact) return
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+        Text(tr("News"), Modifier.weight(1f), style = AppText.pageTitle)
+        if (loadedAt != null) {
+            Text(tr("Updated {0}", loadedAt.relativeTo(now)), Modifier.testTag("news-updated"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        SecondaryButton(tr("Refresh"), onClick = onRefresh, modifier = Modifier.testTag("news-refresh"), icon = Icons.Default.Refresh, loading = loading)
+    }
+}
+
+/**
+ * The controls in one row: news or wikis, the search, the time, the sources, the order and Hide read. A window too
+ * narrow for that puts the search on a row of its own.
+ */
+@Composable
+private fun DesktopControls(state: NewsUiState, actions: NewsActions, tabs: @Composable () -> Unit) {
+    val search: @Composable (Modifier) -> Unit = { modifier ->
+        SearchField(state.query, actions.onQuery, tr("Search the news"), modifier, fieldModifier = Modifier.testTag("news-search"))
+    }
+    val rest: @Composable () -> Unit = {
+        PeriodToggle(state.shownPeriod, actions.onPeriod)
+        SourcesMenu(state, actions)
+        SelectMenu(NewsSort.entries, state.sort, actions.onSort, { it.label }, buttonModifier = Modifier.testTag("news-sort"))
+        HideReadSwitch(state.hideRead, actions.onHideRead, Modifier.testTag("hide-read"))
+    }
+    BoxWithConstraints(Modifier.fillMaxWidth()) {
+        if (maxWidth >= ONE_ROW_FROM) {
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                tabs()
+                search(Modifier.weight(1f))
+                rest()
+            }
+        } else {
+            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    tabs()
+                    search(Modifier.weight(1f))
+                }
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) { rest() }
+            }
+        }
+    }
+}
+
+/** A phone's controls: news or wikis, then the search beside Filters, which opens the sheet of the rest. */
+@Composable
+private fun PhoneControls(state: NewsUiState, actions: NewsActions, tabs: @Composable () -> Unit, onFilters: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        tabs()
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            SearchField(state.query, actions.onQuery, tr("Search the news"), Modifier.weight(1f), fieldModifier = Modifier.testTag("news-search"))
             val active = state.activeFilters
             ToggleButton(
                 tr("Filters"),
                 active = active > 0,
-                onClick = { sheet = true },
+                onClick = onFilters,
                 modifier = Modifier.testTag("news-filters"),
                 icon = AppIcons.Tune,
                 badge = active,
-                contentDescription = if (active > 0) trPlural(active, "{0} filter on", "{0} filters on") else null,
+                contentDescription = if (active > 0) trPlural(active, "{0} filter on", "{0} filters on") else tr("Filters"),
             )
-        } else {
-            FilterChips(state, actions)
-        }
-        // The filters on, in words, with the articles they leave; on a phone it also reopens the sheet.
-        if (state.filtering && !state.loading) {
-            ActiveFilterSummary(newsFilterSummary(state), tr("Clear filters"), onClear = actions.onClear, onEdit = if (compact) ({ sheet = true }) else null)
-        }
-        if (state.stillChecking > 0) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                AppSpinner(size = SpinnerSize.Small)
-                Text(
-                    trPlural(state.stillChecking, "Checking the words of {0} more article…", "Checking the words of {0} more articles…"),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = colors.onSurfaceVariant,
-                )
-            }
-        }
-    }
-    if (sheet) {
-        AppBottomSheet(onDismissRequest = { sheet = false }) {
-            ScrollColumn(
-                Modifier.fillMaxWidth(),
-                contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
-                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
-            ) {
-                Text(tr("Filters"), style = AppText.itemTitle)
-                FilterChips(state, actions)
-                PrimaryButton(
-                    if (state.hasMore) tr("Show articles") else trPlural(state.shown.size, "Show {0} article", "Show {0} articles"),
-                    onClick = { sheet = false },
-                    modifier = Modifier.fillMaxWidth().testTag("news-filters-done"),
-                )
-            }
         }
     }
 }
 
-/** When, which source, what level and which topic. */
+/** A phone's sheet of the filters: the time, the order, the sources and Hide read, and the way back to the articles. */
+@Composable
+private fun FiltersSheet(state: NewsUiState, actions: NewsActions, onDismiss: () -> Unit) {
+    AppBottomSheet(onDismissRequest = onDismiss) {
+        ScrollColumn(
+            Modifier.fillMaxWidth(),
+            contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m).testTag("news-filters-sheet"),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        ) {
+            Text(tr("Filters"), style = AppText.sectionTitle)
+            SheetSection(tr("When")) { PeriodToggle(state.shownPeriod, actions.onPeriod, fill = true) }
+            SheetSection(tr("Sort")) {
+                SegmentedToggle(NewsSort.entries.map { Segment(it, label = it.label, testTag = "sort-${it.name}") }, state.sort, actions.onSort, style = SegmentStyle.Raised, fill = true)
+            }
+            if (state.sources.size > 1) {
+                SheetSection(tr("Sources")) {
+                    Column(Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel)) {
+                        state.sources.forEachIndexed { i, source ->
+                            if (i > 0) AppDivider()
+                            SourceChoice(source, state, actions, Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s))
+                        }
+                    }
+                }
+            }
+            HideReadSwitch(state.hideRead, actions.onHideRead, Modifier.fillMaxWidth().testTag("sheet-hide-read"))
+            val count = state.filtered.size
+            PrimaryButton(trPlural(count, "Show {0} article", "Show {0} articles"), onClick = onDismiss, modifier = Modifier.fillMaxWidth().testTag("news-filters-done"))
+        }
+    }
+}
+
+@Composable
+private fun SheetSection(title: String, content: @Composable () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(title, style = AppText.labelStrong, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        content()
+    }
+}
+
+/** Today, This week or Any time, as one segmented control. */
+@Composable
+private fun PeriodToggle(selected: NewsPeriod, onSelect: (NewsPeriod) -> Unit, fill: Boolean = false) {
+    SegmentedToggle(NewsPeriod.entries.map { Segment(it, label = it.label, testTag = "period-${it.name}") }, selected, onSelect, style = SegmentStyle.Raised, fill = fill)
+}
+
+/** "Sources: all 6 ▾", and its menu: every source with a tick while its articles show, and a way back to all. */
+@Composable
+private fun SourcesMenu(state: NewsUiState, actions: NewsActions) {
+    var open by remember { mutableStateOf(false) }
+    val total = state.sources.size
+    val shown = total - state.hiddenSources.size
+    Box {
+        SelectButton(
+            if (shown == total) tr("Sources: all {0}", total) else tr("Sources: {0} of {1}", shown, total),
+            onClick = { open = true },
+            modifier = Modifier.testTag("news-sources"),
+            active = shown < total,
+        )
+        AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.testTag("news-sources-menu")) {
+            Row(
+                Modifier.fillMaxWidth().toggleable(value = shown == total, role = Role.Checkbox, onValueChange = { actions.onAllSources() })
+                    .padding(horizontal = AppSpacing.m, vertical = AppSpacing.s).testTag("source-all"),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
+            ) {
+                AppCheckbox(checked = shown == total, onCheckedChange = null)
+                Text(tr("All sources"), style = AppText.labelStrong)
+            }
+            AppDivider()
+            state.sources.forEach { source -> SourceChoice(source, state, actions, Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.xs)) }
+        }
+    }
+}
+
+/** A source to show or leave out: its tick, its colour, its name, and whether it writes in easy language. */
+@Composable
+private fun SourceChoice(source: NewsSource, state: NewsUiState, actions: NewsActions, modifier: Modifier = Modifier) {
+    val on = source.name !in state.hiddenSources
+    val color = sourceColor(state.sources, source)
+    Row(
+        Modifier.fillMaxWidth().toggleable(value = on, role = Role.Checkbox, onValueChange = { actions.onSource(source) }).then(modifier).testTag("source-${source.name}"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
+    ) {
+        AppCheckbox(checked = on, onCheckedChange = null)
+        SourceDot(color)
+        Text(source.name, Modifier.weight(1f, fill = false), style = AppText.label, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        if (source.level == NewsLevel.EASY) Tag(tr("Easy language"), size = TagSize.Small)
+    }
+}
+
+/** A switch with its label that turns the whole row: Hide read. */
+@Composable
+internal fun HideReadSwitch(on: Boolean, onChange: (Boolean) -> Unit, modifier: Modifier = Modifier) {
+    Row(
+        modifier.height(AppSizes.control).clip(AppShapes.control).toggleable(value = on, role = Role.Switch, onValueChange = onChange).padding(horizontal = AppSpacing.xs),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
+    ) {
+        AppSwitch(checked = on, onCheckedChange = null)
+        Text(tr("Hide read"), style = AppText.labelStrong, maxLines = 1, softWrap = false)
+    }
+}
+
+/** All, then the topics the articles are filed under, in the names the language's news uses; a phone's row scrolls sideways. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FilterChips(state: NewsUiState, actions: NewsActions) {
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            NewsPeriod.entries.forEach { period ->
-                AppFilterChip(selected = state.period == period, onClick = { actions.onPeriod(period) }, label = { Text(period.label) }, modifier = Modifier.testTag("period-${period.name}"))
-            }
-            if (state.hasEasySources) {
-                AppFilterChip(selected = state.easyOnly, onClick = { actions.onEasyOnly(!state.easyOnly) }, label = { Text(tr("Easy language only")) }, modifier = Modifier.testTag("easy-only"))
-            }
-            AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("hide-read"))
+private fun TopicRow(state: NewsUiState, topics: List<NewsTopic>, onTopic: (NewsTopic?) -> Unit, scrolls: Boolean) {
+    val code = state.languageCode ?: return
+    val chips: @Composable () -> Unit = {
+        TopicChip(tr("All"), selected = state.topic == null, tag = "topic-all") { onTopic(null) }
+        topics.forEach { topic ->
+            TopicChip(NewsTopics.label(topic, code).orEmpty().inLearnedScript(), selected = state.topic == topic, tag = "topic-${topic.name}") { onTopic(if (state.topic == topic) null else topic) }
         }
-        if (state.sources.size > 1) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                AppFilterChip(selected = state.source == null, onClick = { actions.onSource(null) }, label = { Text(tr("All sources")) }, modifier = Modifier.testTag("source-all"))
-                state.sources.forEach { source ->
-                    AppFilterChip(
-                        selected = state.source == source,
-                        onClick = { actions.onSource(source) },
-                        label = { Text(if (source.level == NewsLevel.EASY) tr("{0} · easy language", source.name) else source.name) },
-                        modifier = Modifier.testTag("source-${source.name}"),
-                    )
-                }
-            }
-        }
-        DifficultyFilter(state.difficulty, actions.onDifficulty)
-        val topics = state.topics
-        if (topics.isNotEmpty()) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                AppFilterChip(selected = state.topic == null, onClick = { actions.onTopic(null) }, label = { Text(tr("All topics")) }, modifier = Modifier.testTag("topic-all"))
-                topics.forEach { topic ->
-                    AppFilterChip(selected = state.topic == topic, onClick = { actions.onTopic(topic) }, label = { Text(topic) }, modifier = Modifier.testTag("topic-$topic"))
-                }
-            }
-        }
+    }
+    if (scrolls) {
+        Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) { chips() }
+    } else {
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) { chips() }
     }
 }
 
-/** The filters on, then how many articles they leave: "This week · Easy · 12 articles". */
-private fun newsFilterSummary(state: NewsUiState): String {
-    val parts = listOfNotNull(
-        state.period.takeIf { it != NewsPeriod.ANY }?.label,
-        state.source?.name,
-        state.difficulty?.label,
-        tr("Easy language only").takeIf { state.easyOnly },
-        tr("Hide read").takeIf { state.hideRead },
-        state.topic,
-    )
-    val count = if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(state.shown.size, "{0} article", "{0} articles")
-    return (parts + count).joinToString(" · ")
+/** A topic as a pill: outlined on the surface, or filled with the text colour while chosen. */
+@Composable
+private fun TopicChip(label: String, selected: Boolean, tag: String, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Box(
+        Modifier.clip(AppShapes.pill).background(if (selected) colors.onSurface else colors.surface)
+            .border(AppBorders.hairline(if (selected) colors.onSurface else colors.outlineVariant), AppShapes.pill)
+            .clickable(onClick = onClick).padding(horizontal = AppSpacing.m + AppSpacing.xxs, vertical = AppSpacing.s - AppSpacing.xxs).testTag(tag),
+    ) {
+        Text(label, style = AppText.labelStrong, color = if (selected) colors.surface else colors.onSurface, maxLines = 1, softWrap = false)
+    }
 }
 
-private val NewsPeriod.label: String
+internal val NewsPeriod.label: String
     get() = when (this) {
-        NewsPeriod.ANY -> tr("Any time")
         NewsPeriod.TODAY -> tr("Today")
         NewsPeriod.WEEK -> tr("This week")
+        NewsPeriod.ANY -> tr("Any time")
     }
 
-@Composable
-private fun NewsCard(item: NewsItem, state: NewsUiState, actions: NewsActions, compact: Boolean, now: Instant, modifier: Modifier) {
-    val colors = MaterialTheme.colorScheme
-    val article = item.article
-    val opened = state.opened[article.url]
-    // The whole card opens the article; its button only says what a tap does, quietly, as on every card.
-    Row(
-        modifier.fillMaxWidth().cardSurface().clickable(enabled = !item.opening) { actions.onOpen(item) }.padding(AppSpacing.l).testTag("article-${article.url}"),
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-    ) {
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Text(
-                    listOfNotNull(article.source.name, article.published?.relativeTo(now)).joinToString(" · "),
-                    Modifier.weight(1f, fill = false),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = colors.onSurfaceVariant,
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                )
-                if (article.source.level == NewsLevel.EASY) {
-                    Tag(tr("Easy language"), size = TagSize.Small)
-                }
-            }
-            Text(article.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 3, overflow = TextOverflow.Ellipsis)
-            if (article.summary.isNotEmpty()) Text(article.summary.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            // On a phone the quiet action ends the metadata line rather than taking a line of its own.
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.weight(1f)) { CoverageLine(item.difficulty, item.check, tag = article.url) }
-                if (compact) ReadButton(item, opened != null, actions, Modifier)
-            }
-            item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
-        }
-        if (!compact) ReadButton(item, opened != null, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = READ_BUTTON_WIDTH))
+internal val NewsSort.label: String
+    get() = when (this) {
+        NewsSort.EASIEST -> tr("Easiest first")
+        NewsSort.NEWEST -> tr("Newest first")
     }
-}
 
-@Composable
-private fun ReadButton(item: NewsItem, opened: Boolean, actions: NewsActions, modifier: Modifier) {
-    val text = if (opened) tr("Continue") else tr("Read")
-    QuietButton(text, onClick = { actions.onOpen(item) }, modifier = modifier.testTag("read-${item.article.url}"), loading = item.opening, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
-}
+/** The gap between the page's parts. */
+private val PAGE_GAP = 20.dp
 
-private val READ_BUTTON_WIDTH = 140.dp
+/** From this width the lead has the cards beside it. */
+private val WIDE_FROM = 1000.dp
+
+/** From this width the controls fit in one row. */
+private val ONE_ROW_FROM = 1180.dp

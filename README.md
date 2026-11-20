@@ -59,9 +59,13 @@ everything you learn stays on your own device.
   search for, read by their introduction or whole; it also covers the languages with no news feed
   (Breton, Latin, Manx, Cornish, Sanskrit...). Beside Wikipedia: Simple English Wikipedia, the
   Klexikon and MiniKlexikon (German for children), Wikivoyage's travel guides and Wikibooks.
-- Each article is marked easy, medium or hard by the share of its words you know, and opens in the
-  reader as a text of its own, kept with the news rather than among your books.
-- Filter by source, difficulty, topic, date, easy language, and articles not read yet, or search.
+- **A front page** for the filters chosen: the easiest of the newest articles leads, with its picture,
+  beside four cards, then the rest as rows. Each article shows the share of its words you know in the
+  colour of its level, the minutes it takes and the words new to you, and opens in the reader as a text
+  of its own, kept with the news rather than among your books.
+- Filter by time (today, this week, any time), source, topic and articles not read yet, or search;
+  sort by the share known or by date. The feeds' own sections are gathered into a few topics named
+  as the language's news names them (Brasil, Mundo, Política, Economia, Esporte... in Portuguese).
 
 ## Translation, online or offline
 

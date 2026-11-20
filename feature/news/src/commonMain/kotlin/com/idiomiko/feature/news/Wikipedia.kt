@@ -1,28 +1,23 @@
 package com.idiomiko.feature.news
 
-import com.idiomiko.core.ui.components.label
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import com.idiomiko.core.ui.components.ActiveFilterSummary
-import com.idiomiko.core.ui.components.ScrollColumn
-import com.idiomiko.core.ui.components.inLearnedScript
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -35,47 +30,49 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
-import com.idiomiko.core.domain.books.discover.Difficulty
 import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.news.NewsArticle
 import com.idiomiko.core.domain.news.NewsBook
 import com.idiomiko.core.domain.news.NewsService
+import com.idiomiko.core.domain.news.NewsTopic
 import com.idiomiko.core.domain.news.Wiki
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.ui.components.AppBottomSheet
-import com.idiomiko.core.ui.components.AppFilterChip
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppSpinner
+import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.CoverageCheck
-import com.idiomiko.core.ui.components.CoverageLine
-import com.idiomiko.core.ui.components.DifficultyFilter
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.LocalWindowWidth
-import com.idiomiko.core.ui.components.PlaceholderCards
+import com.idiomiko.core.ui.components.PlaceholderLine
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
-import com.idiomiko.core.ui.components.ScreenHeader
-import com.idiomiko.core.ui.components.ScrollList
+import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.Segment
+import com.idiomiko.core.ui.components.SegmentStyle
+import com.idiomiko.core.ui.components.SegmentedToggle
+import com.idiomiko.core.ui.components.SelectMenu
+import com.idiomiko.core.ui.components.SelectableChip
 import com.idiomiko.core.ui.components.SpinnerSize
-import com.idiomiko.core.ui.components.Tag
-import com.idiomiko.core.ui.components.TagSize
 import com.idiomiko.core.ui.components.ToggleButton
 import com.idiomiko.core.ui.components.cardSurface
-import com.idiomiko.core.ui.components.itemMotion
-import com.idiomiko.core.ui.i18n.LanguageCase
-import com.idiomiko.core.ui.i18n.languageInSentence
+import com.idiomiko.core.ui.components.inLearnedScript
+import com.idiomiko.core.ui.components.placeholder
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.state.UiEvents
+import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
@@ -89,6 +86,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.time.Clock
 
 /** How long a whole article is, by its size on the wiki. */
 enum class ArticleLength(val below: Int) {
@@ -112,7 +110,6 @@ data class WikiUiState(
     /** Words to look for; blank lists the most read articles. */
     val query: String = "",
     val length: ArticleLength = ArticleLength.ANY,
-    val difficulty: Difficulty? = null,
     val hideRead: Boolean = false,
     val articles: List<NewsItem> = emptyList(),
     val opened: Map<String, NewsBook> = emptyMap(),
@@ -124,9 +121,11 @@ data class WikiUiState(
     val shown: List<NewsItem>
         get() = articles.filter { item ->
             (length == ArticleLength.ANY || ArticleLength.of(item.article.length) == length) &&
-                (difficulty == null || item.difficulty == difficulty) &&
                 (!hideRead || item.article.url !in opened)
         }
+
+    /** How many filters of the phone's sheet are set, for its Filters button. */
+    val activeFilters: Int get() = listOf(length != ArticleLength.ANY, hideRead).count { it }
 }
 
 sealed interface WikiEvent {
@@ -176,7 +175,6 @@ class WikipediaViewModel(
     }
 
     fun setLength(length: ArticleLength) = _state.update { it.copy(length = length) }
-    fun setDifficulty(difficulty: Difficulty?) = _state.update { it.copy(difficulty = difficulty) }
     fun setHideRead(on: Boolean) = _state.update { it.copy(hideRead = on) }
 
     fun refresh() = reload()
@@ -290,11 +288,28 @@ private val Wiki.about: String?
         Wiki.WIKIBOOKS -> tr("Textbooks and guides, a chapter to a page.")
     }
 
+/** The wiki's picture on its articles' tiles. */
+private val Wiki.icon
+    get() = when (this) {
+        Wiki.WIKIVOYAGE -> AppIcons.Explore
+        Wiki.WIKIBOOKS -> AppIcons.MenuBook
+        Wiki.KLEXIKON, Wiki.MINIKLEXIKON -> AppIcons.School
+        else -> AppIcons.Globe
+    }
+
+/** The topic whose colours the wiki's tiles take. */
+private val Wiki.colors: NewsTopic
+    get() = when (this) {
+        Wiki.WIKIVOYAGE -> NewsTopic.LIFESTYLE
+        Wiki.WIKIBOOKS -> NewsTopic.SCIENCE
+        Wiki.KLEXIKON, Wiki.MINIKLEXIKON -> NewsTopic.CULTURE
+        else -> NewsTopic.WORLD
+    }
+
 internal class WikiActions(
     val onWiki: (Wiki) -> Unit = {},
     val onQuery: (String) -> Unit = {},
     val onLength: (ArticleLength) -> Unit = {},
-    val onDifficulty: (Difficulty?) -> Unit = {},
     val onHideRead: (Boolean) -> Unit = {},
     val onMore: () -> Unit = {},
     val onOpen: (NewsItem) -> Unit = {},
@@ -302,143 +317,56 @@ internal class WikiActions(
     val onRetry: () -> Unit = {},
 )
 
-/** On phones, the length, read and level filters wait in a sheet behind one button, so articles show at once. */
+/**
+ * The wikis' articles in the news page's frame: the same title and row of controls (the wiki, the length and Hide
+ * read in place of the news's filters), what the list holds, then the articles as cards, more loading at the end.
+ */
 @Composable
-private fun WikiFiltersButton(state: WikiUiState, actions: WikiActions) {
-    var sheet by remember { mutableStateOf(false) }
-    val active = listOf(state.length != ArticleLength.ANY, state.hideRead, state.difficulty != null).count { it }
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { ToggleButton(
-        tr("Filters"),
-        active = active > 0,
-        onClick = { sheet = true },
-        modifier = Modifier.testTag("wiki-filters"),
-        icon = AppIcons.Tune,
-        badge = active,
-        contentDescription = if (active > 0) trPlural(active, "{0} filter on", "{0} filters on") else null,
-    )
-    WikiFilterSummary(state, actions, onEdit = { sheet = true }) }
-    if (sheet) {
-        AppBottomSheet(onDismissRequest = { sheet = false }) {
-            ScrollColumn(
-                Modifier.fillMaxWidth(),
-                contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
-                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
-            ) {
-                Text(tr("Filters"), style = AppText.itemTitle)
-                WikiFilterChips(state, actions)
-                PrimaryButton(
-                    if (state.hasMore) tr("Show articles") else trPlural(state.shown.size, "Show {0} article", "Show {0} articles"),
-                    onClick = { sheet = false },
-                    modifier = Modifier.fillMaxWidth().testTag("wiki-filters-done"),
-                )
-            }
-        }
-    }
-}
-
-/** The filters on, in words, with the articles they leave; nothing while none is on. [onEdit] reopens a phone's sheet. */
-@Composable
-private fun WikiFilterSummary(state: WikiUiState, actions: WikiActions, onEdit: (() -> Unit)?) {
-    val parts = listOfNotNull(
-        state.length.takeIf { it != ArticleLength.ANY }?.label,
-        tr("Hide read").takeIf { state.hideRead },
-        state.difficulty?.label,
-    )
-    if (parts.isEmpty() || state.loading) return
-    val count = if (state.hasMore) tr("More than {0} articles", state.shown.size) else trPlural(state.shown.size, "{0} article", "{0} articles")
-    ActiveFilterSummary((parts + count).joinToString(" · "), tr("Clear filters"), onClear = {
-        actions.onLength(ArticleLength.ANY)
-        actions.onHideRead(false)
-        actions.onDifficulty(null)
-    }, onEdit = onEdit)
-}
-
-/** How long, whether read ones show, and what level. */
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun WikiFilterChips(state: WikiUiState, actions: WikiActions) {
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            ArticleLength.entries.forEach { length ->
-                AppFilterChip(selected = state.length == length, onClick = { actions.onLength(length) }, label = { Text(length.label) }, modifier = Modifier.testTag("length-${length.name}"))
-            }
-        }
-        // Not a length: a filter of its own, on its own line.
-        AppFilterChip(selected = state.hideRead, onClick = { actions.onHideRead(!state.hideRead) }, label = { Text(tr("Hide read")) }, modifier = Modifier.testTag("wiki-hide-read"))
-        DifficultyFilter(state.difficulty, actions.onDifficulty)
-    }
-}
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier: Modifier = Modifier, tabs: @Composable () -> Unit = {}) {
+internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier: Modifier = Modifier, tabs: @Composable () -> Unit = {}, filtersOpen: Boolean = false) {
     val compact = LocalWindowWidth.current.isCompact
     val list = rememberLazyListState()
+    var sheet by remember { mutableStateOf(filtersOpen) }
     LaunchedEffect(list, state.hasMore) {
         snapshotFlow { list.layoutInfo.visibleItemsInfo.lastOrNull()?.index to list.layoutInfo.totalItemsCount }
             .collect { (last, total) -> if (last != null && total > 0 && last >= total - 3) actions.onMore() }
     }
-    Box(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
-        ScrollList(
-            Modifier.widthIn(max = AppSizes.contentWidth).fillMaxSize(),
-            state = list,
-            contentPadding = PaddingValues(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
-        ) {
-            item {
-                Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    val site = state.wiki.label
-                    ScreenHeader(
-                        tr("News"),
-                        if (state.languageName.isEmpty()) null
-                        else {
-                            val language = languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)
-                            when {
-                                state.query.isNotBlank() -> tr("{0}: articles in {1} found by your search.", site, language)
-                                state.wiki.countsViews -> tr("{0}: the articles read most yesterday in {1}, with how much of each introduction you already know.", site, language)
-                                else -> tr("{0}: articles picked at random, with how much of each introduction you already know.", site)
-                            }
-                        },
-                    )
-                    tabs()
-                    if (state.wikis.size > 1) {
-                        FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                            state.wikis.forEach { wiki ->
-                                AppFilterChip(selected = state.wiki == wiki, onClick = { actions.onWiki(wiki) }, label = { Text(wiki.chipLabel) }, modifier = Modifier.testTag("wiki-site-${wiki.name}"))
-                            }
-                        }
-                    }
-                    if (state.languageName.isNotEmpty()) {
-                        state.wiki.about?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                    }
-                    SearchField(state.query, actions.onQuery, tr("Search: {0}", site), Modifier.fillMaxWidth(), fieldModifier = Modifier.testTag("wiki-search"))
-                    if (compact) {
-                        WikiFiltersButton(state, actions)
-                    } else {
-                        WikiFilterChips(state, actions)
-                        WikiFilterSummary(state, actions, onEdit = null)
-                    }
-                }
-            }
+    BoxWithConstraints(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
+        val columns = when {
+            compact -> 1
+            maxWidth >= WIDE_WIKI -> 3
+            else -> 2
+        }
+        NewsPage(compact, list) {
+            if (!compact) part(gap = false) { NewsHeader(null, state.loading, Clock.System.now(), actions.onRetry) }
+            part(gap = !compact) { if (compact) WikiPhoneControls(state, actions, tabs) { sheet = true } else WikiControls(state, actions, tabs) }
             when {
-                state.languageName.isEmpty() -> item { EmptyState(AppIcons.Globe, tr("Choose a language to learn to see its news.")) }
-                state.loading -> item { PlaceholderCards(4) }
-                state.error != null -> item {
+                state.languageName.isEmpty() -> part { EmptyState(AppIcons.Globe, tr("Choose a language to learn to see its news.")) }
+                state.loading -> part { WikiSkeleton(columns) }
+                state.error != null -> part {
                     EmptyState(
                         Icons.Default.Warning,
                         tr("{0} could not be read: {1}", state.wiki.label, state.error),
                         action = { SecondaryButton(tr("Try again"), onClick = actions.onRetry) },
                     )
                 }
-                state.shown.isEmpty() -> item { EmptyState(AppIcons.Globe, if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
-                else -> items(state.shown.size, key = { state.shown[it].article.url }) { i -> Column(itemMotion()) {
-                    WikiCard(state.shown[i], state, actions, compact, Modifier.padding(bottom = AppSpacing.m))
-                }}
+                state.shown.isEmpty() -> part { EmptyState(AppIcons.Globe, if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
+                else -> {
+                    part(key = "wiki-heading") { WikiHeading(state, compact) }
+                    state.shown.chunked(columns).forEach { row ->
+                        part(key = row.first().article.url) {
+                            Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+                                row.forEach { WikiCard(it, state, actions, Modifier.weight(1f).fillMaxHeight()) }
+                                repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
+                            }
+                        }
+                    }
+                }
             }
-            if (state.loadingMore) item { Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.l), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Medium) } }
-            item {
+            if (state.loadingMore) part { Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.l), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Medium) } }
+            part {
                 Text(
                     tr("{0}: articles free to share under CC BY-SA 4.0. Each is judged by its introduction.", state.wiki.label),
-                    Modifier.fillMaxWidth().padding(top = AppSpacing.s, bottom = AppSpacing.l),
+                    Modifier.fillMaxWidth().padding(top = AppSpacing.s),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     textAlign = TextAlign.Center,
@@ -446,36 +374,144 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
             }
         }
     }
+    if (sheet) WikiFiltersSheet(state, actions) { sheet = false }
 }
 
+/** What the list holds: the articles read most yesterday, picked at random, or found; and what sets the wiki apart. */
 @Composable
-private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, compact: Boolean, modifier: Modifier) {
+private fun WikiHeading(state: WikiUiState, compact: Boolean) {
+    val colors = MaterialTheme.colorScheme
+    val title = when {
+        state.query.isNotBlank() -> tr("Results for “{0}”", state.query.trim())
+        state.wiki.countsViews -> tr("Read most yesterday")
+        else -> tr("Picked at random")
+    }
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+        Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            Text(title, Modifier.alignByBaseline(), style = if (compact) AppText.sectionTitle else AppText.headline)
+            Text(state.wiki.label, Modifier.alignByBaseline(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
+        }
+        state.wiki.about?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
+    }
+}
+
+/** The wiki's controls in one row: news or wikis, the search, the wiki, the length and Hide read. */
+@Composable
+private fun WikiControls(state: WikiUiState, actions: WikiActions, tabs: @Composable () -> Unit) {
+    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        tabs()
+        SearchField(state.query, actions.onQuery, tr("Search: {0}", state.wiki.label), Modifier.weight(1f), fieldModifier = Modifier.testTag("wiki-search"))
+        if (state.wikis.size > 1) SelectMenu(state.wikis, state.wiki, actions.onWiki, { it.chipLabel }, buttonModifier = Modifier.testTag("wiki-site"))
+        SelectMenu(ArticleLength.entries, state.length, actions.onLength, { it.label }, buttonModifier = Modifier.testTag("wiki-length"), active = state.length != ArticleLength.ANY)
+        HideReadSwitch(state.hideRead, actions.onHideRead, Modifier.testTag("wiki-hide-read"))
+    }
+}
+
+/** A phone's: news or wikis, then the search beside Filters, which opens the sheet of the wiki, the length and Hide read. */
+@Composable
+private fun WikiPhoneControls(state: WikiUiState, actions: WikiActions, tabs: @Composable () -> Unit, onFilters: () -> Unit) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        tabs()
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            SearchField(state.query, actions.onQuery, tr("Search: {0}", state.wiki.label), Modifier.weight(1f), fieldModifier = Modifier.testTag("wiki-search"))
+            val active = state.activeFilters
+            ToggleButton(
+                tr("Filters"),
+                active = active > 0,
+                onClick = onFilters,
+                modifier = Modifier.testTag("wiki-filters"),
+                icon = AppIcons.Tune,
+                badge = active,
+                contentDescription = if (active > 0) trPlural(active, "{0} filter on", "{0} filters on") else tr("Filters"),
+            )
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun WikiFiltersSheet(state: WikiUiState, actions: WikiActions, onDismiss: () -> Unit) {
+    AppBottomSheet(onDismissRequest = onDismiss) {
+        ScrollColumn(
+            Modifier.fillMaxWidth(),
+            contentModifier = Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        ) {
+            Text(tr("Filters"), style = AppText.sectionTitle)
+            if (state.wikis.size > 1) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    state.wikis.forEach { wiki -> SelectableChip(wiki.chipLabel, selected = state.wiki == wiki, onClick = { actions.onWiki(wiki) }, modifier = Modifier.testTag("wiki-site-${wiki.name}")) }
+                }
+            }
+            SegmentedToggle(ArticleLength.entries.map { Segment(it, label = it.short, testTag = "length-${it.name}") }, state.length, actions.onLength, style = SegmentStyle.Raised, fill = true)
+            HideReadSwitch(state.hideRead, actions.onHideRead, Modifier.fillMaxWidth().testTag("wiki-sheet-hide-read"))
+            PrimaryButton(
+                if (state.hasMore) tr("Show articles") else trPlural(state.shown.size, "Show {0} article", "Show {0} articles"),
+                onClick = onDismiss,
+                modifier = Modifier.fillMaxWidth().testTag("wiki-filters-done"),
+            )
+        }
+    }
+}
+
+/**
+ * A wiki's article: a strip in the wiki's colours, the wiki and the article's length, the title, the introduction,
+ * the share of it known and its minutes, then the two ways in: the introduction, which the whole card opens too, or
+ * the whole article.
+ */
+@Composable
+private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val article = item.article
     val introOpened = article.url in state.opened
     val wholeOpened = NewsService.wholeKey(article) in state.opened
     val readLabel = if (introOpened) tr("Continue") else tr("Read the introduction")
-    // The whole card opens the introduction, so its buttons need not be big; reading the whole article stays a choice of its own.
-    val opens = Modifier.clickable(enabled = !item.opening, onClickLabel = readLabel) { actions.onOpen(item) }
+    val wiki = Wiki.entries.firstOrNull { it.siteName == article.source.name }
     Column(
-        modifier.fillMaxWidth().cardSurface().then(opens).padding(AppSpacing.l).testTag("wiki-${article.title}"),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
+        modifier.cardSurface(AppShapes.large).clickable(enabled = !item.opening, onClickLabel = readLabel) { actions.onOpen(item) }.testTag("wiki-${article.title}"),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Text(Wiki.entries.firstOrNull { it.siteName == article.source.name }?.label ?: article.source.name, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            ArticleLength.of(article.length)?.let { length ->
-                Tag(length.tag, size = TagSize.Small)
+        TopicTile(wiki?.colors, 32.dp, Modifier.fillMaxWidth().height(WIKI_STRIP), icon = wiki?.icon ?: AppIcons.Globe)
+        Column(Modifier.weight(1f).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Text(
+                listOfNotNull(wiki?.label ?: article.source.name, ArticleLength.of(article.length)?.tag).joinToString(" · "),
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+            Text(article.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Text(article.summary.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
+            Spacer(Modifier.weight(1f))
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                KnownBadge(item)
+                item.coverage?.minutes?.let { Text("· " + tr("~{0} min", it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
+            }
+            item.error?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.error, maxLines = 1, overflow = TextOverflow.Ellipsis) }
+            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+                QuietButton(readLabel, onClick = { actions.onOpen(item) }, modifier = Modifier.testTag("read-${article.url}"), loading = item.opening, size = ButtonSize.Compact, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
+                QuietButton(if (wholeOpened) tr("Continue the whole article") else tr("Whole article"), onClick = { actions.onOpenWhole(item) }, enabled = !item.opening, modifier = Modifier.testTag("whole-${article.url}"), size = ButtonSize.Compact)
             }
         }
-        Text(article.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        Text(article.summary.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
-        CoverageLine(item.difficulty, item.check, tag = article.url)
-        item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
-        Spacer(Modifier.height(AppSpacing.xxs))
-        FlowRow(itemVerticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-            val read = Modifier.testTag("read-${article.url}")
-            QuietButton(readLabel, onClick = { actions.onOpen(item) }, modifier = read, loading = item.opening, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
-            QuietButton(if (wholeOpened) tr("Continue the whole article") else tr("Whole article"), onClick = { actions.onOpenWhole(item) }, enabled = !item.opening, modifier = Modifier.testTag("whole-${article.url}"))
+    }
+}
+
+@Composable
+private fun WikiSkeleton(columns: Int) {
+    Column(verticalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+        repeat(2) {
+            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(GRID_GAP)) {
+                repeat(columns) {
+                    Column(Modifier.weight(1f).cardSurface(AppShapes.large)) {
+                        Box(Modifier.fillMaxWidth().height(WIKI_STRIP).placeholder(RectangleShape))
+                        Column(Modifier.padding(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                            PlaceholderLine(0.4f)
+                            PlaceholderLine(0.8f, height = AppSizes.titleLine)
+                            PlaceholderLine(1f)
+                            PlaceholderLine(0.6f)
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -488,10 +524,24 @@ private val ArticleLength.label: String
         ArticleLength.LONG -> tr("Long")
     }
 
-private val ArticleLength.tag: String
+/** The length on a phone's segmented control, where four must fit. */
+private val ArticleLength.short: String
     get() = when (this) {
-        ArticleLength.ANY -> ""
+        ArticleLength.ANY -> tr("Any")
+        ArticleLength.SHORT -> tr("Short")
+        ArticleLength.MEDIUM -> tr("Medium")
+        ArticleLength.LONG -> tr("Long")
+    }
+
+private val ArticleLength.tag: String?
+    get() = when (this) {
+        ArticleLength.ANY -> null
         ArticleLength.SHORT -> tr("Short article")
         ArticleLength.MEDIUM -> tr("Medium-length article")
         ArticleLength.LONG -> tr("Long article")
     }
+
+private val WIKI_STRIP = 84.dp
+
+/** From this width three wiki cards fit to a row. */
+private val WIDE_WIKI = 1000.dp
