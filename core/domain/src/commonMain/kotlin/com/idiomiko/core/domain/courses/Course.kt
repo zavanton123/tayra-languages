@@ -116,6 +116,8 @@ data class LessonBook(
     val pageCount: Int,
     val lastOpened: Instant?,
     val isCompleted: Boolean,
+    /** Whether a recording was added to the text, so the lesson can be listened to as it was read aloud. */
+    val hasAudio: Boolean = false,
 )
 
 /** A lesson being read, and where it sits in its course. */

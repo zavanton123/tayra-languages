@@ -58,6 +58,7 @@ class BookRepositoryImpl(private val provider: DatabaseProvider) : BookRepositor
                             val all = ReadingStage.allBits(hasQuestions = questionsOf(row.questions).isNotEmpty())
                             stages and all == all
                         } == true,
+                        hasAudio = row.has_audio,
                     )
                 },
             )

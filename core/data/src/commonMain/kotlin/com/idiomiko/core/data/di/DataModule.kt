@@ -90,6 +90,7 @@ import com.idiomiko.core.domain.books.discover.BookDiscoveryService
 import com.idiomiko.core.domain.courses.CoursePackService
 import com.idiomiko.core.domain.courses.CoursePackStore
 import com.idiomiko.core.domain.courses.CourseRepository
+import com.idiomiko.core.domain.courses.CourseKnowledge
 import com.idiomiko.core.domain.courses.CourseService
 import com.idiomiko.core.domain.courses.InstalledCoursePacks
 import com.idiomiko.core.domain.courses.SampleCourseSource
@@ -298,6 +299,7 @@ val dataModule: Module = module {
     single<CoursePackStore> { CoursePackRepository(get()) }
     single<SampleCourseSource> { InstalledCoursePacks(get()) }
     single { CourseService(get(), get(), get(), get(), get()) }
+    single { CourseKnowledge(get(), get()) }
     single { LessonSummaries(get(), get(), get()) }
     single { CoursePackService(get(), get(), get()) }
     single<PlaylistRepository> { PlaylistRepositoryImpl(get()) }
