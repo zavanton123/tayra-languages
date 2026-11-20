@@ -43,6 +43,7 @@ from frequency_pashto import clean_pashto, hand_entries, more_forms, nominal_for
 import frequency_sinhala  # noqa: E402
 from frequency_hausa import AJAMI, hausa_clean  # noqa: E402
 import frequency_uzbek  # noqa: E402
+from frequency_yoruba import WORD_ONLY as YORUBA_WORD_RE, bare, dotless, toneless, yoruba_standard  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -105,6 +106,7 @@ SOURCES = {
     "am": ("Amharic", None, "dictionaries/kaikki.org-dictionary-Amharic.jsonl.gz"),
     "so": ("Somali", None, "dictionaries/kaikki.org-dictionary-Somali.jsonl.gz"),
     "uz": ("Uzbek", None, "dictionaries/kaikki.org-dictionary-Uzbek.jsonl.gz"),
+    "yo": ("Yoruba", None, "dictionaries/kaikki.org-dictionary-Yoruba.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -181,7 +183,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else SINHALA_WORD_RE if source == "si" else MARATHI_WORD_RE if source == "mr" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else SINHALA_WORD_RE if source == "si" else MARATHI_WORD_RE if source == "mr" else YORUBA_WORD_RE if source == "yo" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -580,7 +582,7 @@ def uzbek_translation_entries(kept):
 
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"mr": clean_marathi, "te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones, "so": somali_plain, "uz": frequency_uzbek.normalise}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones, "so": somali_plain, "uz": frequency_uzbek.normalise, "yo": yoruba_standard}
 
 
 def pashto_translation_entries(kept):
@@ -652,6 +654,27 @@ def swahili_plain_gloss(gloss):
 
 def swahili_lemma(word):
     return word[1:] if len(word) > 1 and word.startswith("-") and not word.endswith("-") else word
+
+
+# Yoruba: the English Wiktionary titles an entry without its tones (ọkọ) and gives the toned word as its canonical form
+# (ọkọ̀ "vehicle", ọkọ́ "hoe"); a word without one is all mid tones (oko "farm"). An entry is filed under its toned word, a
+# second canonical form (bàbà, bábá) is a spelling of it, and its toneless and dotless spellings are generated forms of it
+# (yoruba_spellings), found by a lookup only when no entry has that spelling. An Ekiti form of a word ("ò", Ekiti for wò
+# "look") is no spelling of the standard language, where it is another word.
+def yoruba_heads(d):
+    """The toned spellings of an entry, its word first."""
+    title = yoruba_standard(d.get("word", "").strip())
+    canonical = [yoruba_standard(x["form"].strip()) for x in d.get("forms", []) if "canonical" in (x.get("tags") or []) and x.get("form")]
+    heads = [c for c in canonical if toneless(c).lower() == toneless(title).lower()]
+    # A second canonical form without tones (rì, ri) is the toneless spelling, generated with the others.
+    heads = [c for i, c in enumerate(heads) if i == 0 or toneless(c) != c]
+    return list(dict.fromkeys(heads)) or [title]
+
+
+def yoruba_spellings(word):
+    """The spellings of [word] typed without its tones, its dots or both."""
+    lc = word.lower()
+    return sorted({toneless(lc), dotless(lc), bare(lc)} - {lc})
 
 
 def lowercase(word, source):
@@ -1220,11 +1243,15 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 print(f"  scanned {seen:,} entries, kept {entry_count:,} with {form_count + len(form_rows):,} forms", file=sys.stderr)
             d = json.loads(line)
             word = cleaner(d.get("word", "").strip())
+            if source == "yo":
+                word, *variants = yoruba_heads(d)
             if not word or (latin_only and foreign(word)):
                 continue
             senses = []
             for s in d.get("senses", []):
                 tags = s.get("tags", [])
+                if source == "yo" and "Ekiti" in tags and (s.get("form_of") or s.get("alt_of")):
+                    continue
                 targets = [cleaner(x["word"]) for x in s.get("form_of", []) + s.get("alt_of", []) if x.get("word")]
                 if source == "sw":
                     prose = [m.group(1) for g in s.get("glosses", [])[-1:] if (m := SWAHILI_PROSE_FORM.search(g))]
@@ -1300,6 +1327,8 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 nepali_kept.append((word, pos))
             if source == "ur":
                 urdu_kept.append((word, pos, urdu_gender(d), pos == "noun" and (pos, word) not in pos_inflected))
+            if source == "yo":
+                form_rows += [(lowercase(v, source), word) for v in variants if lowercase(v, source) != lowercase(word, source)]
             if len(entry_rows) >= 5000 or len(form_rows) >= 50000:
                 flush()
     flush()
@@ -1445,6 +1474,13 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
         flush()
         print(f"  {added:,} entries from Wikidata's Hausa lexemes and the English entries' translation tables", file=sys.stderr)
         label += "; Wikidata Hausa lexemes (CC0); its English entries' translation tables"
+    if source == "yo":
+        words = sorted({w for (w,) in db.execute("SELECT word FROM entries")})
+        before = db.total_changes
+        db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, 1)",
+                       ((spelling, w) for w in words for spelling in yoruba_spellings(w)))
+        form_count += db.total_changes - before
+        print(f"  {db.total_changes - before:,} toneless and dotless spellings", file=sys.stderr)
     db.execute("DROP INDEX forms_unique")
     finish_output(db, path, out_path, source, "en", entry_count, form_count, label)
     print(f"Wrote {out_path}: {entry_count:,} entries, {form_count:,} form rows ({pointer_count:,} from form-of senses)", file=sys.stderr)
