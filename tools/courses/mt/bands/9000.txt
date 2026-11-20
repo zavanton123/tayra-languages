@@ -1,0 +1,100 @@
+1	8901	enerġetiku	enerġetiċi
+2	8902	merċenarji	
+3	8903	lilwa	
+4	8904	beħsiebhom	
+5	8905	ikkonkwista	ikkonkwistat ikkonkwistaw jikkonkwista jikkonkwistaw kkonkwista kkonkwistat kkonkwistaw tikkonkwista
+6	8906	transkonfinali	
+7	8907	kanċell	kanċelli
+8	8908	komiċi	
+9	8909	jidħaq	
+10	8910	empowerment	
+11	8911	mazz	mazzi
+12	8912	unikament	
+13	8913	regolazzjoni	
+14	8914	piraterija	
+15	8915	tqaċċit	
+16	8916	tisqija	
+17	8917	feroċi	
+18	8918	inkorporazzjoni	inkorporazzjonijiet
+19	8919	kasha	
+20	8920	stabiliti	
+21	8921	margun	imragen marguni mragen
+22	8922	maġġorparti	
+23	8923	trittiku	
+24	8924	irrevoka	irrevokaha irrevokat jirrevoka jirrevokaw rrevoka rrevokat rrevokaw rrevokawx tirrevoka
+25	8925	kruċifissjoni	
+26	8926	mirkeb	imriekeb mriekeb
+27	8927	furketta	frieket
+28	8928	punta	
+29	8929	dħulija	
+30	8930	transazzjonijiet	
+31	8931	kartiera	kartieri
+32	8932	asterojde	
+33	8933	burokratiċi	
+34	8934	konsenturi	
+35	8935	dej	dijna
+36	8936	xurban	xurbana
+37	8937	dijossidu	
+38	8938	krozzi	
+39	8939	jissejjħu	
+40	8940	akkredita	akkreditat akkreditaw jakkredita jakkreditah jakkreditana jakkreditaw
+41	8941	irresjeda	jirresjedi jirresjedu rresjeda rresjedew rresjediex tirresjedi
+42	8942	koniferi	
+43	8943	ħarrek	imħarrek iħarrikna jħarrku mħarrek nħarrku tħarrek tħarrku ħarrikni ħarrku
+44	8944	pitkalija	
+45	8945	fileġ	filġet filġithom mifluġ mifluġa mifluġin tifliġna tifliġni
+46	8946	prinċiparjament	
+47	8947	nettaru	nettari
+48	8948	reverendu	
+49	8949	addizjonali	
+50	8950	frustrati	
+51	8951	surreali	
+52	8952	ffamiljarizza	iffamiljarizza jiffamiljarizzaw niffamiljarizzaw tiffamiljarizza
+53	8953	tgħawwiġ	
+54	8954	senġi	senġijiet
+55	8955	sinfonika	
+56	8956	kordjali	
+57	8957	ċinga	ċineg ċingi
+58	8958	ġralha	
+59	8959	sriċed	
+60	8960	tettonika	
+61	8961	imejl	
+62	8962	inkrimina	jinkrimina jinkriminax ninkriminaw tinkrimina
+63	8963	ċiviċi	
+64	8964	ipparaguna	ipparagunat ipparagunaw jipparaguna jipparagunaw nipparagunaw pparagunat tipparaguna tipparagunax
+65	8965	lavrant	lavranti
+66	8966	attaka	attakatx attakaw attakawna attakawx jattakaw jattakawhom nattakax tattaka
+67	8967	dukali	
+68	8968	approssimazzjoni	approssimazzjonijiet
+69	8969	veġetali	
+70	8970	namur	
+71	8971	iggranfa	ggranfa ggranfat iggranfat jiggranfa jiggranfaw niggranfaw tiggranfa
+72	8972	neżża'	ineżża jneżżgħu jneżżgħuha jneżżgħulhom neżżgħu neżżgħuh neżżgħulu tneżża tneżża' tneżżgħu
+73	8973	depożitati	
+74	8974	jitlaqqam	
+75	8975	pueblo	
+76	8976	ingħarfa	jingħarfu jingħarfux ningħarfu
+77	8977	iċċellebra	jiċċellebraw niċċellebraw tiċċellebra ċċellebrat ċċellebraw
+78	8978	ffanga	ffangat iffanga iffangar jiffanga jiffangaw tiffanga
+79	8979	olomorfa	
+80	8980	tkelmet	
+81	8981	pulzija	
+82	8982	heats	
+83	8983	kontaminati	
+84	8984	boreholes	
+85	8985	iffulla	ffullat iffullat iffullaw jiffullaw
+86	8986	ssema	issemew issemiet jissema jssemix jssemu ssemiet tissema tissemiex
+87	8987	salvagwardjati	
+88	8988	ittradixxa	jittradixxi jittradixxu tittradixxi ttradixxa
+89	8989	pluvjali	
+90	8990	ddivida	diviż iddivida jiddividi jiddividu niddividu tiddividi tiddividiha
+91	8991	żanżan	inżanżan inżanżanhom iżanżan iżanżnu iżżanżan iżżanżnu jżanżan jżanżnu mżanżan żanżanna żanżnet żżanżnu
+92	8992	kompassjoni	
+93	8993	tqawwa	jitqawwa jitqawwew nitqawwew titqawwa tqawwejna tqawwew tqawwiet
+94	8994	barrikata	barrikati
+95	8995	interdizzjoni	
+96	8996	jiddaħlu	jiddaħlux
+97	8997	iċċekja	jiċċekja jiċċekjaw jiċċekjawx niċċekjaw
+98	8998	intanġibbli	
+99	8999	borrinu	borrini
+100	9000	opportuniżmu	

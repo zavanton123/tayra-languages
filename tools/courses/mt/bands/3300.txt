@@ -1,100 +1,100 @@
-1	3201	nofsillejl	
-2	3202	muftieħ	imfietaħ mfietaħ
-3	3203	naturalista	naturalisti
-4	3204	faxx	faxex faxxi
-5	3205	suġġettiv	soġġettiv suġġettiva suġġettivi
-6	3206	nikket	imnikket inikket inikktu jnikket jnikktu mnikket nnikktux tnikket tnikktux
-7	3207	mus	imwies mwies
-8	3208	xiel	xolt xul
-9	3209	qartas	imqartas qratas
-10	3210	romblu	rombli
-11	3211	korrezzjoni	korrezzjonijiet
-12	3212	xrara	ixrar xrar xrariet
-13	3213	tgħaxxaq	jitgħaxxaq jitgħaxxqu nitgħaxxaq nitgħaxxqu tgħaxxaqtx titgħaxxaq
-14	3214	kollaboratur	kollaboratriċi kollaboraturi
-15	3215	dud	dudu
-16	3216	problematiku	problematika problematiċi
-17	3217	ismar	samra somor
-18	3218	diplomazija	
-19	3219	diġestjoni	
-20	3220	fjakk	fjakka fjakki
-21	3221	ċelebri	
-22	3222	konsiderevolment	
-23	3223	attribut	attributi
-24	3224	tqabad	jitqabad jitqabdu nitqabdu nitqabdux titqabad titqabdu tqabadt tqabdet tqabdu
-25	3225	insettivoru	insettivora insettivori
-26	3226	ltim	iltiema iltim iltima ltiema
-27	3227	nazzjonaliżmu	
-28	3228	bxara	
-29	3229	esibixxa	esibew esibiet esibit jesibixxi jesibixxu tesibixxi
-30	3230	stabbilizzazzjoni	istabbilizzazzjoni
-31	3231	kkaċċja	ikkaċċja ikkaċċjat jikkaċċja jikkaċċjaw kkaċċjat kkaċċjaw nikkaċċjaw tikkaċċja
-32	3232	kolla	
-33	3233	kulfejn	
-34	3234	żebagħ	iżbogħ jiżbgħu jiżbogħ miżbugħ niżbgħu niżbogħ tiżbgħu tiżbogħ żebgħu
-35	3235	assessja	assessjar assessjat jassessjaw nassessjaw tassessja
-36	3236	qawsalla	qawsalli
-37	3237	morr	morra morri
-38	3238	keffa	kefef
-39	3239	elettromanjetiku	elettromanjetika elettromanjetiċi
-40	3240	suffara	saffara sfafar
-41	3241	bagħal	bagħla bagħli bgħula
-42	3242	qamħirrum	qamħirrun
-43	3243	xellef	imxellef ixellef ixellfu jxellef jxellfux mxellef xellfet xellfu
-44	3244	ċena	ċeni
-45	3245	tamar	itmar tamal tamra tmar
-46	3246	kukkudrill	kukkudrilli
-47	3247	dija	
-48	3248	loqma	loqom
-49	3249	vvaluta	ivvaluta ivvalutar ivvalutat jivvaluta jivvalutaw jivvalutawx nivvaluta nivvalutaw tivvaluta valutar valutat vvalutat vvalutaw
-50	3250	velu	veli velijiet
-51	3251	buffu	buffa buffi
-52	3252	entużjasta	entużjasti
-53	3253	saqqu	saqqijiet
-54	3254	kexxun	kxaxen
-55	3255	rebbaħ	inrebbħu irebbaħ jrebbaħ jrebbħu rebbħet rebbħu trebbaħ trebbħu
-56	3256	eċċeda	eċċedew eċċediet eċċedietx jeċċedi jeċċedix jeċċedu jeċċedux neċċedu teċċedi teċċedix
-57	3257	għaraq	
-58	3258	ddibatta	ddibattew dibattut iddibattejna iddibattew jiddibatti jiddibattu niddibatti niddibattu tiddibatti
-59	3259	awtentiċità	
-60	3260	bugħaddas	bugħaddasa
-61	3261	milizzja	milizzji
-62	3262	spiżjara	ispiżjara
-63	3263	koxxa	koxox koxxitha koxxtejn koxxtu
-64	3264	magħġun	magħġuna magħġunin
-65	3265	bard	
-66	3266	mbikkem	imbikkem imbikkma imbikkmin mbikkma
-67	3267	żrar	żrara
-68	3268	għammed	għammdu għammidtu jgħammdu jgħammed ngħammed tgħammdu tgħammidx
-69	3269	negozjatur	negozjaturi
-70	3270	tweġġa'	jitweġġgħux tweġġa tweġġax tweġġgħu
-71	3271	tari	tarja
-72	3272	kollezzjonist	kollezzjonista kollezzjonisti
-73	3273	ħruxija	ħruxijiet
-74	3274	lanza	lanez
-75	3275	indifferenti	
-76	3276	affordja	jaffordja jaffordjaw jaffordjawx jaffordjax naffordjaw naffordjawx naffordjax taffordja taffordjax
-77	3277	faqqiegħ	faqqiegħa
-78	3278	mnut	imnut
-79	3279	volpi	volpijiet
-80	3280	ġġerra	jiġġerra jiġġerrew niġġerrew tiġġerra
-81	3281	ostaġġ	ostaġġi
-82	3282	tarmak	
-83	3283	bieqja	bwieqi
-84	3284	muża	mużi
-85	3285	kunjat	kunjata kunjati
-86	3286	provdiment	provvediment
-87	3287	zekka	zekki
-88	3288	żeblaħ	imżeblaħ inżebilħu iżebilħu iżeblaħ iżżeblaħ jżebilħu jżeblaħ mżeblaħ żeblaħna żebliħ
-89	3289	seħer	sħarijiet
-90	3290	mgħarfa	imgħaref imgħarfa mgħaref
-91	3291	kontaminazzjoni	kontaminazzjonijiet
-92	3292	qoffa	qfief
-93	3293	alwett	alwetta alwetti alwettiet
-94	3294	merċa	
-95	3295	profondament	
-96	3296	bur	bura bwar ibwar
-97	3297	ħafi	ħafja ħafjin
-98	3298	pitgħada	
-99	3299	aluminju	aluminjum
-100	3300	sodju	
+1	3201	televixin	televixins
+2	3202	serp	serpa sriep
+3	3203	migrazzjoni	migrazzjonijiet
+4	3204	akkost	
+5	3205	staħa	istħu jistħi jistħihom jistħix jistħu jistħux mistħi mistħijin nistħi nistħix nistħu nistħux staħax stħajt stħaw tistħi tistħix tistħu tistħux
+6	3206	xellugija	
+7	3207	korrott	korrotti
+8	3208	sieket	siekta siktin
+9	3209	żviluppatur	iżviluppatur iżviluppaturi żviluppaturi
+10	3210	mnieħer	imneħirha imneħirhom imneħirna imnieħer imnieħirna imnieħrek imnieħri imnieħru imniħrijiet mneħirha mneħirhom mneħirna mnieħirha mnieħirhom mnieħrek mnieħri mnieħru mniħirhom
+11	3211	għasar	agħsar għasarha għasarna għasir għasret għosrien jagħsar jagħsarhom jagħsru jagħsruh jagħsrulek jagħsrulha nagħsru tagħsar tagħsarha tagħsarhom tagħsru
+12	3212	ingħad	ingħadu ngħad ngħadx
+13	3213	waterpolo	
+14	3214	issieħeb	
+15	3215	minerali	
+16	3216	effettivament	
+17	3217	kannabis	
+18	3218	klinika	kliniki
+19	3219	avvanzata	avvanzati
+20	3220	demgħa	demgħat dmugħ dmugħna
+21	3221	irrenja	irrenjat irrenjaw jirrenja jirrenjaw jirrenjawx nirrenja rrenja rrenjat rrenjaw tirrenja
+22	3222	kuritur	kurituri
+23	3223	komponent	komponenti komponentu
+24	3224	volontarjat	
+25	3225	martirju	martirji
+26	3226	ettaru	ettari
+27	3227	marad	imradna jimrad maradx mardet marditx mardu mradt nimrad timrad timradx
+28	3228	maġisterjali	
+29	3229	traffikar	
+30	3230	onorarju	onorarji
+31	3231	tarka	tarek tarki
+32	3232	rikostruzzjoni	rikostruzzjonijiet
+33	3233	ispirazzjoni	ispirazzjonijiet spirazzjoni
+34	3234	blogg	bloggijiet bloggin bloggs
+35	3235	irreżista	irreżistew irreżistewna irreżistiet jirreżisti jirreżistu jirreżistuhom jirreżistux nirreżisti nirreżistu nirreżistuha rreżista rreżistejtu rreżistew rreżistewx rreżistiet rreżistiex rreżistiha tirreżisti
+36	3236	nannakola	nannakoli
+37	3237	sinonimu	sinonimi
+38	3238	implika	implikat implikaw jimplika jimplikah jimplikaw jimplikawni jimplikax nimplika nimplikaw timplika timplikah timplikax
+39	3239	tibdiliet	
+40	3240	mħarsa	imħarsa
+41	3241	ċċertifika	iċċertifika iċċertifikat jiċċertifika jiċċertifikaw jiċċertifikawha niċċertifikaw tiċċertifika tiċċertifikana ċċertifikah ċċertifikat ċċertifikaw
+42	3242	pop	
+43	3243	nibet	jinbet jinbtu nibitx nibtet nibtu nibtux tinbet tinbitx
+44	3244	tropikali	
+45	3245	telgħa	telgħaha telgħat telgħax
+46	3246	probabbiltà	probabbilta probabbiltajiet
+47	3247	tilwim	tilwima
+48	3248	ivvinta	ivvintajtu ivvintat ivvintaw ivvintawha jivvinta jivvintah jivvintalu jivvintaw nivvinta nivvintaw tivvinta tivvintaha tivvintahom vvinta vvintaha vvintajna vvintajt vvintalhom vvintat vvintathom vvintaw
+49	3249	waranofsinhar	
+50	3250	antenat	antenata antenati
+51	3251	tqarbin	tqarbina
+52	3252	dokumentarju	dokumentarja dokumentarji
+53	3253	kross	
+54	3254	marsupjal	marsupjali
+55	3255	rivelazzjoni	rivelazzjonijiet
+56	3256	ton	tonijiet
+57	3257	progressiv	progressiva progressivi
+58	3258	tlaħħaq	tlaħħaqhom tlaħħaqx
+59	3259	irdoppja	irdoppjat irdoppjaw jirdoppja jirdoppjaw rdoppja rdoppjat rdoppjaw tirdoppja
+60	3260	ordinarju	ordinarja ordinarji
+61	3261	avvanz	avanz avvanzi
+62	3262	xjenzat	ixjenzati xjenzati
+63	3263	għasel	
+64	3264	kostali	
+65	3265	ċaħħad	imċaħħad inċaħħdu inċaħħduh inċaħħduhom iċaħħad iċaħħadhom iċaħħadni iċaħħdu iċaħħduna iċċaħħad iċċaħħadhom iċċaħħdu jċaħħad jċaħħadhom jċaħħadna jċaħħdu jċaħħduha jċaħħduhom jċaħħduna jċaħħduni mċaħħad nċaħħdu ċaħħadha ċaħħadx ċaħħdet ċaħħdithom ċaħħdu ċaħħduh ċċaħħad ċċaħħadha ċċaħħadlu ċċaħħadna ċċaħħdu
+66	3266	nassab	nassaba
+67	3267	mitħna	imtieħen mtieħen
+68	3268	inkoraġġixxa	jinkoraġġixxi jinkoraġġixxu jinkoraġġixxuhom jinkoraġġixxux ninkoraġġixxi ninkoraġġixxu tinkoraġġixxi
+69	3269	pika	piki
+70	3270	speċjalizzata	speċjalizzati
+71	3271	allokata	allokati
+72	3272	ala	aliena
+73	3273	sottomissjoni	sottomissjonijiet
+74	3274	ġurnaliżmu	
+75	3275	ntgħażel	intgħażel intgħażilna
+76	3276	għarusa	għarajjes għarajjeshom għarustu
+77	3277	tintlagħab	
+78	3278	daqskemm	
+79	3279	maniġer	maniġers
+80	3280	ispirata	ispirati spirata
+81	3281	osservatur	osservatriċi osservaturi
+82	3282	rranġata	irranġata irranġati rranġati
+83	3283	adegwat	adegwata adegwati
+84	3284	narawh	narawhx
+85	3285	akkademiċi	
+86	3286	arċipelagu	arċipelagi
+87	3287	nagħaġ	nagħġa nagħġiet
+88	3288	konverżjoni	konverżjonijiet
+89	3289	fuħħar	
+90	3290	tripletta	tripletti
+91	3291	almenu	
+92	3292	rappurtat	rappurtata rappurtati
+93	3293	iskanta	jiskanta jiskantak jiskantaw niskanta niskantaw niskantawx niskantax skanta skantajt skantani skantat skantatni skantaw tiskanta tiskantak tiskantax
+94	3294	komunitarju	komunitarja komunitarji
+95	3295	nazzjonalità	nazzjonalita nazzjonalitajiet
+96	3296	issaħħa	issaħħew jissaħħu nissaħħu ssaħħa ssaħħew tissaħħa
+97	3297	għereq	għarqien għeriqlu għeriqna għeriqniex għeriqt għeriqx għerqet għerqu għerqux jegħreq jegħreqx jegħriqx jegħrqu jegħrqux negħreq negħrqu tegħreq tegħrqu
+98	3298	ikkorrisponda	jikkorrispondi jikkorrispondix jikkorrispondu jikkorrispondux kkorrisponda nikkorrispondi nikkorrispondu tikkorrispondi tikkorrispondix
+99	3299	esperiment	esperimenti
+100	3300	ġurdien	ġrieden

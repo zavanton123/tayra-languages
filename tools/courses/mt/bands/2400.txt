@@ -1,100 +1,100 @@
-1	2301	għeneb	għenba għenbiet
-2	2302	assenja	assenjajt assenjar assenjat assenjaw jassenja jassenjaw nassenjaw tassenja tassenjax
-3	2303	esklużjoni	esklużjonijiet
-4	2304	proxxmu	proxxmi
-5	2305	aggressiv	aggressiva aggressivi
-6	2306	għabba	għabbejt għabbew għabbiet jgħabbi jgħabbix jgħabbu mgħobbi ngħabbu tagħbien tgħabbi
-7	2307	ppreferixxa	ipprefera ippreferejna ippreferejt ippreferew ippreferiet ippreferit ippreferixxa ippreferut jippreferix jippreferixxu nippreferix pprefera ppreferejna ppreferejt ppreferew ppreferiet ppreferut preferit preferut tippreferix
-8	2308	ponn	ponnijiet
-9	2309	poetiku	poetika poetiċi
-10	2310	għomor	
-11	2311	qatgħa	qatgħat qtajja'
-12	2312	tewmi	tewmija tewmin
-13	2313	għaġina	
-14	2314	ġudikant	ġudikanti
-15	2315	ċurkett	ċrieket
-16	2316	sellef	imsellef isellef isellfu issellfu jsellef jsellfu jsellifx msellef nsellfux sellfet sellfu ssellfu ssellifx
-17	2317	ħanin	ħanina ħnien
-18	2318	oġġettiv	oġġettivi
-19	2319	qabda	qabdiet
-20	2320	viċinanza	viċinanzi
-21	2321	nominazzjoni	nominazzjonijiet
-22	2322	daq	daqet daqu dduq dduqu dewqan dieq doqna doqt duq duqu idduq iduq iduqu induq induqu jduq jduqu nduq nduqu
-23	2323	statistiku	istatistika istatistiċi statistiċi
-24	2324	ffissa	ffissat ffissaw fissat iffissa iffissar iffissat iffissaw jiffissa jiffissaw niffissaw niffissawx tiffissa
-25	2325	ekonomikament	
-26	2326	selezzjoni	selezzjonijiet
-27	2327	stagħġeb	istagħġib jistagħġbu jistagħġeb nistagħġbu nistagħġbux nistagħġeb nistagħġibx stagħġbet stagħġbu stagħġib stagħġibna stagħġibt stagħġibtx tistagħġeb tistagħġibx
-28	2328	sebat	
-29	2329	xabla	ixwabel xwabel
-30	2330	bżar	bżariet bżaru
-31	2331	referì	referis
-32	2332	ġiri	
-33	2333	ffjorixxa	ffjorixxew ffjorixxi ffjorixxiet ffjorixxu iffjoriet iffjorixxa iffjorixxew iffjorixxiet iffjorixxu jiffjorixxi jiffjorixxix jiffjorixxu tiffjorixxi
-34	2334	ħabba	ħabbiet ħabbtejn ħbub
-35	2335	xebba	xebbiet
-36	2336	manjiera	manjieri
-37	2337	tiġieġ	tiġieġa tiġiġiet
-38	2338	medd	imidd imiddu immidd immiddu jmidd jmiddu meddejt meddet meddew midd middu mimdud mmiddu tmidd tmiddx
-39	2339	dekorattiv	dekorattiva dekorattivi
-40	2340	melodija	melodiji
-41	2341	traġiku	traġika traġiċi
-42	2342	sallab	imsallab insallbu isallab isallbu issallbu jsallab jsallbu msallab nsallab sallbu
-43	2343	saltan	insaltan isaltan isaltnu issaltan jsaltan jsaltnu nsaltnu saltnet saltnu ssaltan ssaltanx ssaltnu
-44	2344	għarus	għarajjes
-45	2345	munxar	
-46	2346	duħħan	dħaħen
-47	2347	witta	inwittu iwitti iwittu jwitti jwittu twitta twitti wittejna wittew wittiet wittu
-48	2348	ħażna	ħażniet
-49	2349	biegħed	begħditx begħidna biegħdu ibiegħdu ibiegħed inbiegħdu inbiegħed jbiegħdu jbiegħed nbiegħdu nbiegħed tbiegħdu tbiegħed
-50	2350	rawwem	imrawwem inrawmu inrawwem irawmu irawwem jrawmu jrawwem nrawmu nrawwem rawmet rawmu rawwimna rawwimt rawwimtu rawwimx trawmu
-51	2351	niżla	niżliet
-52	2352	baqra	baqar baqriet
-53	2353	ssellef	issellef issellfet issellfu jissellef jissellfu jissellifx nissellef nissellfu ssellfet ssellfu ssellifx tissellef
-54	2354	preferenza	preferenzi
-55	2355	adozzjoni	adozzjonijiet
-56	2356	żeffien	żeffiena
-57	2357	irregolarità	irregolaritajiet
-58	2358	ħaqq	
-59	2359	basta	bast imbasta mbasta
-60	2360	tħabat	jitħabat jitħabtu nitħabat nitħabtu titħabat tħabatna tħabatt tħabit tħabtet tħabtu tħabtux
-61	2361	zija	zijiet zijitha zitu
-62	2362	modifika	modifiki
-63	2363	dgħufija	dgħjufija dgħufitu
-64	2364	attribwixxa	attribwejt attribwejtu attribwejtx attribwew attribwiet attribwit attribwixxiet attribwixxu jattribwixxi jattribwixxu nattribwixxu tattribwixxi
-65	2365	infrastrutturali	
-66	2366	armla	
-67	2367	suf	
-68	2368	tebut	twiebet
-69	2369	astjena	astjenejt astjenew astjeniet jastjeni jastjenu nastjenu tastjeni
-70	2370	pulit	pulita puliti
-71	2371	kartolina	kartolini
-72	2372	unifikazzjoni	
-73	2373	pproġetta	ipproġetta ipproġettajna ipproġettajt ipproġettar ipproġettat ipproġettaw jipproġetta jipproġettaw nipproġettaw pproġettajna pproġettat pproġettaw proġettar proġettat tipproġetta
-74	2374	rxoxta	irxoxt irxoxta irxoxtar irxoxtat irxoxtaw jirxoxta jirxoxtaw nirxoxta rxoxt rxoxtat tirxoxta
-75	2375	riedni	
-76	2376	ċomb	
-77	2377	belti	beltija beltin
-78	2378	għatba	għatbiet għetiebi
-79	2379	approfitta	approfittajt approfittat approfittaw approfittax japprofitta japprofittaw japprofittawx japprofittax napprofitta napprofittaw tapprofitta
-80	2380	produttiv	produttiva produttivi
-81	2381	temporanjament	
-82	2382	kawt	kawta kawti
-83	2383	roża	
-84	2384	sfaxxa	isfaxxar jisfaxxa jisfaxxaw nisfaxxaw sfaxxajna sfaxxat sfaxxaw tisfaxxa
-85	2385	dieher	dehritx dehrux
-86	2386	predikatur	predikaturi
-87	2387	sawwat	imsawwat insawtu insawwat isawtu isawwat issawtu issawwat jsawtu jsawwat msawwat sawtet sawtu sawwatt sawwatx ssawwat
-88	2388	nixxiegħa	nixxigħat
-89	2389	mergħa	imriegħi mergħat
-90	2390	bidni	bidnija
-91	2391	xini	xwieni
-92	2392	importa	importat importaw jimporta jimportaw jimportax mporta nimportaw timporta
-93	2393	ja	
-94	2394	bravu	brava bravi
-95	2395	deroga	derogi
-96	2396	dielja	dwieli
-97	2397	ramli	ramlija ramlin
-98	2398	miskin	imsejken imsieken miskina msejken msieken
-99	2399	żarma	inżarma inżarmaw iżarma iżarmaw jżarma jżarmaw jżarmax nżarmaw żarmajna żarmar żarmat żarmaw
-100	2400	furnar	furnara
+1	2301	melħ	imlieħ
+2	2302	deżert	deżerti
+3	2303	maġenb	maġenbha maġenbhom maġenbi maġenbna maġenbu
+4	2304	kesa	iksi jiksi jiksiha jiksilek jiksili jiksu ksew ksiet ksietlu miksi miksija miksijin niksi niksu tiksi
+5	2305	teoloġija	teoloġiji
+6	2306	ftaħar	ftaħart ftaħarx ftaħret ftaħru jiftaħar jiftaħarx jiftaħru jiftaħrux niftaħar niftaħru tiftaħar
+7	2307	kulmin	
+8	2308	insett	insetti nsetti
+9	2309	protokoll	protokolla protokolli
+10	2310	kkwota	ikkwota ikkwotah ikkwotaha ikkwotajna ikkwotalek ikkwotalna ikkwotat ikkwotatu ikkwotaw jikkwota jikkwotah jikkwotaha jikkwotahom jikkwotaw jikkwotawhom jikkwotawni jikkwotax kkwotah kkwotaha kkwotajna kkwotajt kkwotat kkwotaw kwotat nikkwota nikkwotah nikkwotaw tikkwota tikkwotaha tikkwotana
+11	2311	approvata	approvati
+12	2312	organiżmu	organiżmi
+13	2313	itqiesa	jitqiesu jitqiesux jitqisux nitqiesu
+14	2314	infurzar	nfurzar
+15	2315	addizzjonali	
+16	2316	obda	jobdi jobdih jobdihom jobdihomx jobdix jobdu jobduh jobduhom jobdux nobdi nobdihom nobdik nobdu nobduh nobduha obdejt obdejtha obdejtu obdejtux obdew obdewx obdi obdieh obdiet obdietha obdietx obdiex obdiha obdihom obdix obdu tobdi tobdih tobdilna tobdix tobdu
+17	2317	utli	
+18	2318	evoluzzjoni	evoluzzjonijiet
+19	2319	eżamina	eżaminajna eżaminajt eżaminat eżaminaw eżaminax jeżamina jeżaminaw neżamina neżaminaw teżamina teżaminaw
+20	2320	diplomatiku	diplomatika diplomatiċi
+21	2321	abbuża	abbużajt abbużak abbużat abbużatek abbużaw abbużawhom abbużax jabbuża jabbużah jabbużaha jabbużak jabbużaw jabbużawx jabbużax nabbuża nabbużaw tabbuża tabbużah
+22	2322	evidenti	
+23	2323	jitħallew	jitħallewx
+24	2324	maratona	maratoni
+25	2325	satar	istru jostor jostorha jostru jostruh mistur mistura misturin nistru nsatar start tostor
+26	2326	voluntiera	
+27	2327	duttrina	duttrini
+28	2328	reġim	reġimi
+29	2329	invażjoni	invażjonijiet
+30	2330	agrikoltura	agrikolturi agrikultura
+31	2331	governattiv	governattiva governattivi
+32	2332	arkata	arkati
+33	2333	emozzjoni	emozzjonijiet
+34	2334	tneħħija	
+35	2335	kullimkien	
+36	2336	assoċja	assoċjah assoċjat assoċjatha assoċjaw assoċjawkom assoċjawx assoċjax jassoċja jassoċjah jassoċjahom jassoċjaw jassoċjawha nassoċja nassoċjaw nassoċjawha nassoċjawhom tassoċja tassoċjaha tassoċjahom
+37	2337	abbażi	
+38	2338	ressqa	inressqu inressquhom iressqu iressquli iressquna jressqu jressquh jressquhom jressqulna jressquna jressqux nressqu nressquh nressquhom ressqilhom tressqu tressqux
+39	2339	korporazzjoni	korporazzjonijiet
+40	2340	tond	tonda tondi
+41	2341	dell	dellha dellhom delli dellijiet dellu
+42	2342	spera	jispera jisperaw nispera nisperaw tispera
+43	2343	sider	isdra sidirha sidirhom sidirna sidrek sidri sidru
+44	2344	rivali	
+45	2345	faxxa	faxex
+46	2346	kungress	kungressi
+47	2347	perikoluż	perikoluża
+48	2348	limitu	
+49	2349	adottat	adottata adottati
+50	2350	nnegozja	innegozja innegozjajna innegozjajtu innegozjat innegozjaw jinnegozja jinnegozjaha jinnegozjahom jinnegozjaw negozjar negozjat ninnegozja ninnegozjaw nnegozjajna nnegozjat nnegozjaw tinnegozja tinnegozjax
+51	2351	osservazzjoni	osservazzjonijiet
+52	2352	aċċessibbli	
+53	2353	ħafer	aħfer aħfirli aħfirlu aħfru aħfruli jaħfer jaħfirha jaħfirlek jaħfirlekx jaħfirli jaħfirlu jaħfirx jaħfru jaħfruha maħfur maħfura naħfer naħfirlek naħfirlu naħfirx naħfru naħfrulu naħfrux taħfer taħfirha taħfirli taħfirlu taħfirx taħfru taħfrulhom taħfrux ħafirha ħafirli ħafirlu ħafirx ħafret ħafritlu ħafritx ħafrux ħfirt ħfirtlek
+54	2354	tlettax	
+55	2355	proviżorju	proviżorja proviżorji
+56	2356	popolarità	popolarita
+57	2357	interessata	interessati nteressati
+58	2358	awla	awli
+59	2359	provvista	provvisti
+60	2360	reġistru	reġistra reġistri
+61	2361	relattivament	
+62	2362	ponta	ponot
+63	2363	kumpens	kumpensi
+64	2364	inċertezza	inċertezzi nċertezza
+65	2365	kwalifika	kwalifiki
+66	2366	frażi	frażijiet
+67	2367	erbat	
+68	2368	fired	firdet firditha firdu firduha firduna firidha firidhom firidna firidni firidx frid fridna ifred infridna jifred jifredha jifridha jifridhom jifridkom jifridna jifridu mifrud mifruda mifrudin nfridna nifred nifridhom tifred tifredha tifridha tifridhom tifridna
+69	2369	borża	boroż
+70	2370	eleġibbli	eliġibbli
+71	2371	preparazzjoni	preparazzjonijiet
+72	2372	kampnar	kampnari
+73	2373	fratell	fra fratelli ifra
+74	2374	rħam	irħam irħama irħamiet rħama
+75	2375	akkwist	akkwisti
+76	2376	tort	torti
+77	2377	isfar	sofor
+78	2378	relegat	relegata relegati
+79	2379	majjistral	
+80	2380	ittestja	ittestjat ittestjaw jittestja jittestjaw nittestjaw tittestja ttestja ttestjaha ttestjat ttestjaw
+81	2381	format	formati
+82	2382	affresk	affreski
+83	2383	sensittiv	sensittiva sensittivi
+84	2384	abbandunata	abbandunati
+85	2385	perspettiva	perspettivi
+86	2386	xufier	xufiera xufieri
+87	2387	manifattura	manifatturi
+88	2388	arloġġ	arloġġi
+89	2389	itħallsa	jitħallsu jitħallsulhom jitħallsux nitħallsu titħallsu tħallsa tħallsilhom
+90	2390	ipprotesta	ipprotestat ipprotestaw jipprotesta jipprotestaw jipprotestax nipprotesta nipprotestaw nipprotestax pprotesta pprotestajna pprotestat pprotestatx pprotestaw pprotestawx pprotestax tipprotesta tipprotestaw
+91	2391	avolja	allavolja
+92	2392	inbid	
+93	2393	kuntrast	kuntrasti
+94	2394	żfin	
+95	2395	fenek	fenka fniek ifniek
+96	2396	vaganza	vaganzi vakanza
+97	2397	pedament	pedamenti
+98	2398	silġ	
+99	2399	nbidlet	inbidlet
+100	2400	indirizz	indirizzi ndirizz

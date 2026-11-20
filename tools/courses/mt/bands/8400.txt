@@ -1,0 +1,100 @@
+1	8301	sata	satax
+2	8302	portwali	
+3	8303	staqsejnih	staqsejniha
+4	8304	porfirju	
+5	8305	bandalori	
+6	8306	konklużżjoni	konklużżjonijiet
+7	8307	ambjenta	ambjentat jambjenta jambjentah jambjentaw tambjenta
+8	8308	ħarat	jaħartu jaħartuh jaħrat maħruta naħartu ħart ħrit
+9	8309	bajsikil	bajsikils bicycle
+10	8310	issorprenda	issorprendejt issorprendew issorprendiet jissorprendi jissorprendih jissorprendik jissorprendu jissorprenduna nissorprendi nissorprendu ssorprenda ssorprendejt ssorprendew ssorprendieni ssorprendiet tissorprendi
+11	8311	fiddien	fiddiena fiddieni
+12	8312	ottimista	ottimisti
+13	8313	faħxi	faħxija
+14	8314	dispensa	dispensi
+15	8315	assalt	assalta assalti
+16	8316	solstizju	solstizji
+17	8317	batteżimali	
+18	8318	preżunzjoni	preżunzjonijiet
+19	8319	skarpan	iskarpan iskrapan skrapan
+20	8320	sentimentali	
+21	8321	itbiegħda	jitbiegħdu nitbiegħdu titbiegħdu
+22	8322	irristruttura	irristrutturat jirristruttura jirristrutturaw nirristrutturaw rristruttura rristrutturat tirristruttura
+23	8323	newtrini	
+24	8324	agglomerazzjoni	agglomerazzjonijiet
+25	8325	superstizzjoni	superstizzjonijiet
+26	8326	glandola	glandoli
+27	8327	mmaniġġa	immaniġġa immaniġġar jimmaniġġa jimmaniġġaw maniġġar mmaniġġar mmaniġġata
+28	8328	ruxxmata	ruxxmati
+29	8329	fuqiex	
+30	8330	appoġġjati	
+31	8331	ġild	ġildhom ġildna ġildu ġlud ġludna
+32	8332	ipokresija	
+33	8333	opinjonisti	
+34	8334	ftehmu	
+35	8335	lingwisti	
+36	8336	viżibbilment	
+37	8337	jidhrilna	jidhrilniex
+38	8338	weġibni	
+39	8339	patrijarkali	
+40	8340	rinviju	rinviji
+41	8341	sfratta	jisfratta jisfrattaha jisfrattaw jisfrattawlek jisfrattawlhom jisfrattawlna jisfrattax nisfrattaw sfrattat sfrattaw
+42	8342	inix	
+43	8343	overdose	
+44	8344	baqgħa	baqgħax
+45	8345	reċipjenti	
+46	8346	ssoċjalizza	issoċjalizza jissoċjalizza jissoċjalizzaw nissoċjalizza nissoċjalizzaw tissoċjalizza
+47	8347	irrilassa	jirrilassa jirrilassaw nirrilassa nirrilassaw tirrilassa tirrilassani
+48	8348	bell	billu miblul miblula miblulin
+49	8349	rokokò	rokoko
+50	8350	anfiteatru	anfiteatri
+51	8351	iżolazzjoni	
+52	8352	iskatta	jiskatta jiskattaw skatta skattat skattaw skattax tiskatta
+53	8353	primordjali	
+54	8354	kapella	kapelli
+55	8355	jgħamlu	jgħamluha jgħamlux
+56	8356	ingaġġ	ingaġġi ngaġġ
+57	8357	kuntrattwali	
+58	8358	għammex	għammixlu jgħammex jgħammixna jgħammxu jgħammxulna mgħammex tgħammex tgħammixlu
+59	8359	suppożizzjonijiet	
+60	8360	brutalità	brutalita
+61	8361	intrebħa	jintrebħu jintrebħux nintrebħu
+62	8362	nkisbet	inkisbet
+63	8363	frekwentati	
+64	8364	gerbeb	gerbibha gerbibni igerbeb igerbu jgerbu tgerbeb tgerbib tgerbu
+65	8365	kultivari	
+66	8366	abita	abitaw jabita jabitaw tabita
+67	8367	tkarkir	tkarkira
+68	8368	diliġenza	
+69	8369	dijastolika	
+70	8370	popolin	
+71	8371	kordinament	
+72	8372	fanatiżmu	
+73	8373	reporters	
+74	8374	stupidu	istupidu stupida stupidi
+75	8375	fatam	fatmet fatmu ftim infatam joftmu miftum miftuma nfatam
+76	8376	gabbani	
+77	8377	bżieq	
+78	8378	pingwin	pengwin pingwini
+79	8379	tingħaraf	tingħarafx
+80	8380	nri	
+81	8381	atroċitajiet	
+82	8382	qarrieqi	
+83	8383	polemiċi	
+84	8384	dittatorjali	
+85	8385	sommarju	sommarja sommarji
+86	8386	ġiżirana	ġiżirajjen ġiżirani
+87	8387	jitlaqqmu	
+88	8388	jaħasra	
+89	8389	infirda	jinfirdu jinfirdux ninfirdu
+90	8390	bżulija	
+91	8391	lagomorfi	
+92	8392	orr	orrha
+93	8393	gwerrier	gwerriera gwerrieri
+94	8394	għidut	
+95	8395	skarsi	
+96	8396	iskorta	jiskortaw skortat skortaw
+97	8397	karstika	
+98	8398	suttana	
+99	8399	billa	billejna billitu ibillu inbillu jbillu nbillux
+100	8400	illustra	illustrat jillustra jillustraw llustrat tillustra

@@ -1,100 +1,100 @@
-1	2701	bagħbas	bagħbsu ibagħbas jbagħbas jbagħbasx jbagħbsux tbagħbas tbagħbis
-2	2702	ażil	
-3	2703	ġeometriku	ġeometrika ġeometriċi ġometriku
-4	2704	denfil	delfin dniefel
-5	2705	arterjuż	arterjuża arterjużi
-6	2706	sfruttament	isfruttament isfruttamenti
-7	2707	ġeografikament	
-8	2708	jasar	
-9	2709	teknikament	
-10	2710	vleġġa	vleġeġ
-11	2711	bagħad	bagħdu jobgħod jobogħdu nobgħod nobogħdu obogħdu tobgħod tobogħdu
-12	2712	ikħal	kaħla koħol
-13	2713	dalam	jidlam
-14	2714	ingwanta	ingwanti
-15	2715	aġġettiv	aġġettivi
-16	2716	pupa	pupi
-17	2717	prinċipessa	prinċipessi
-18	2718	ngħeleb	ingħelbu jingħelbu jingħeleb ngħelbet ngħelbu tingħeleb tingħelibx
-19	2719	assenta	assenti jassentu tassenti
-20	2720	rrabja	irrabja irrabjajt irrabjaw jirrabja jirrabjaw nirrabja nirrabjaw rrabjaw tirrabja
-21	2721	lampa	lampi
-22	2722	ġeometrija	ġjometrija ġometrija
-23	2723	sesswalment	
-24	2724	memorabbli	
-25	2725	produttività	
-26	2726	ġewwieni	ġewwenin ġewwinija
-27	2727	tgħabba	jitgħabba jitgħabbew jitgħabbiex nitgħabbew tgħabbejna tgħabbejniex tgħabbejt tgħabbew tgħabbiet titgħabba
-28	2728	atomiku	atomika atomiċi
-29	2729	irkoppa	
-30	2730	liem	ilum ilumu inlum jlum jlumu liemu limtu nlumx tlum tlumu tlumux
-31	2731	qalbieni	qalbenin qalbiena
-32	2732	ħxuna	
-33	2733	serra	
-34	2734	stupru	istupri istupru stupri
-35	2735	irjieħ	
-36	2736	ankra	ankrat ankraw ankri jankra jankraw nankraw tankra
-37	2737	qatar	joqtor joqtru
-38	2738	kompliċità	
-39	2739	dagħa	jidgħi jidgħu jidgħux midgħi nidgħi tidgħi
-40	2740	ċkien	jiċkien jiċkienu niċkien niċkienu tiċkien ċkienet ċkienu
-41	2741	sakra	
-42	2742	lixx	lixxa lixxi
-43	2743	sabar	sabru sieber
-44	2744	tagħlima	tagħlimiet
-45	2745	kulmeta	
-46	2746	qilla	
-47	2747	validità	
-48	2748	ħabrieki	ħabrieka
-49	2749	għassies	għassiesa
-50	2750	bella'	bella jbella' jbellgħu
-51	2751	tin	tina
-52	2752	angola	angolat
-53	2753	terminoloġija	terminoloġiji
-54	2754	żbroffa	iżbroffar jiżbroffa jiżbroffaw niżbroffa tiżbroffa tiżbroffax żbroffar żbroffat żbroffaw
-55	2755	spiżjar	ispiżjar ispiżjara
-56	2756	ħebb	iħebb iħebbu jħebb jħebbu ħebbet ħebbew ħebbu
-57	2757	minfejn	
-58	2758	għarraq	għarrqet għarrqu igħarraq jgħarraq jgħarraqx jgħarrqu mgħarraq ngħarraq ngħarrqu tagħriq tgħarraq tgħarrqu
-59	2759	larinġ	larinġa larinġiet
-60	2760	lessiku	lessiċi
-61	2761	staħba	jistaħba jistaħbew mistoħbi nistaħbew staħbew staħbiet tistaħba
-62	2762	bosk	boskijiet
-63	2763	xempju	xempji
-64	2764	għajb	
-65	2765	kranju	kranji
-66	2766	pprietka	ippridkar ippridkat ipprietka jipprietka jippritkaw nipprietka ppritkaw tipprietka
-67	2767	baċellerat	baċellerati
-68	2768	ħatt	inħott inħottu iħott iħottu jħott jħottu nħottu tħott ħattew
-69	2769	talanqas	
-70	2770	ddeterjora	ddeterjorat ddeterjoraw deterjorat iddeterjora iddeterjorat iddeterjoraw jiddeterjora jiddeterjoraw tiddeterjora
-71	2771	għawwiem	għawwiema
-72	2772	filli	
-73	2773	ċaħda	ċaħdiet
-74	2774	nħela	inħlew jinħela jinħeliex jinħlew jinħlewx ninħela ninħlew nħlew tinħela tinħeliex
-75	2775	ċentinarju	ċentinarja ċentinarji
-76	2776	żvolġa	jiżvolġi jiżvolġu niżvolġi niżvolġu tiżvolġi żvolġew żvolġiet żvolġietx
-77	2777	summien	summiena
-78	2778	komuniżmu	
-79	2779	riskjuż	riskjuża riskjużi
-80	2780	brejk	brejkijiet brejks
-81	2781	siġill	siġilli
-82	2782	niġġes	imniġġes iniġġes iniġġsu inniġġsu jniġġes jniġġisx jniġġsu jniġġsux mniġġes niġġisna tniġġes tniġġisx
-83	2783	żelaq	jiżloq jiżloqx jiżolqu niżolqu tiżloq tiżloqx żelqet żlaqt żliq
-84	2784	militanti	
-85	2785	ġeru	ġriewi
-86	2786	kesaħ	iksaħ jiksaħ jiksħu kesħet ksaħt niksaħ tiksaħ
-87	2787	lewż	lewża
-88	2788	sufan	sofa sufani sufanijiet
-89	2789	irħas	
-90	2790	ragħa	irgħa jirgħa jirgħaw jirgħu tirgħa tirgħu
-91	2791	dqiq	
-92	2792	ġurat	ġurati
-93	2793	ħaxixa	
-94	2794	manjetiku	manjetika manjetiċi
-95	2795	użanza	
-96	2796	sajjetta	sajjetti
-97	2797	arzell	arzella
-98	2798	roħs	
-99	2799	fiex	
-100	2800	ors	orsijiet
+1	2701	klassifikazzjoni	klassifikazzjonijiet
+2	2702	bilqiegħda	
+3	2703	impressjona	impressjonajt impressjonat impressjonatni impressjonatu impressjonaw impressjonawni impressjonawx jimpressjona jimpressjonaw jimpressjonawni jimpressjonax mpressjonat mpressjonatni mpressjonaw mpressjonawni nimpressjona nimpressjonaw nimpressjonax timpressjona timpressjonax
+4	2704	fqar	jifqaru
+5	2705	qali	
+6	2706	kolonjali	
+7	2707	kritiċi	
+8	2708	fekruna	fkieren ifkieren
+9	2709	jinħass	jinħassx
+10	2710	etika	
+11	2711	litteralment	letteralment
+12	2712	qajjem	qajjimha qajjimna
+13	2713	fiss	fissa fissi
+14	2714	sploda	jisploda jisplodi jisplodiha jisplodix jisplodu jisploduha jisploduhom nisplodu splodew splodieli splodiet splodietx splodiex sploditx splodut tisplodi
+15	2715	qabża	qabżiet qabżitha qabżithom
+16	2716	kumbinazzjoni	kumbinazzjonijiet
+17	2717	kriminalità	kriminalita kriminalitajiet
+18	2718	iżolat	iżolata iżolati
+19	2719	ristrett	ristretta ristretti
+20	2720	bejta	bejtiet
+21	2721	kontinentali	
+22	2722	dominju	dominji
+23	2723	implimentata	implimentati mplimentata mplimentati
+24	2724	jedd	jeddha jeddhom jeddi jeddijiet jeddijietu jeddna jeddu
+25	2725	innovattiv	innovattiva innovattivi nnovattiv nnovattiva nnovattivi
+26	2726	theddid	theddidha theddidhom
+27	2727	fortifikazzjonijiet	
+28	2728	kuġin	kuġina kuġinha kuġini kuġinitha kuġintha kuġinti kuġintu kuġinu kuġinuh kuġinuha kuġinuk
+29	2729	erbgħin	
+30	2730	inkorpora	inkorporah inkorporaha inkorporajt inkorporat inkorporatha inkorporaw inkorporawha inkorporawhom jinkorpora jinkorporah jinkorporaha jinkorporaw jinkorporawx jinkorporax ninkorporaw nkorpora nkorporat nkorporaw nkorporawhom tinkorpora tinkorporax
+31	2731	riżoluzzjoni	riżoluzzjonijiet
+32	2732	patrimonju	patrimonji
+33	2733	partiċella	partiċelli
+34	2734	fis	
+35	2735	ġestjoni	
+36	2736	mowbajl	mowbajls
+37	2737	fiżiċi	
+38	2738	dizzjunarju	dizzjunarji
+39	2739	evitata	evitati
+40	2740	artifiċjali	
+41	2741	barriera	barrieri
+42	2742	diskriminazzjoni	
+43	2743	garaxx	garaxxijiet
+44	2744	iffuka	ffukajna ffukat ffukaw ffukawx iffukajna iffukajt iffukat iffukaw jiffukaw niffukaw niffukawha tiffukax
+45	2745	kabbra	ikabbru ikabbruh ikabbruha ikabbruhom ikabbruna inkabbru jkabbru jkabbruh jkabbruha jkabbruhom jkabbrulu kabbrilna kabbritni nkabbru nkabbruha nkabbruhom tkabbra tkabbru
+46	2746	kompetenti	
+47	2747	xewk	xewka xwiek xwieki
+48	2748	epoka	epoki
+49	2749	universitarju	universitarja universitarji
+50	2750	nefqa	nefqiet
+51	2751	speċifikament	
+52	2752	laboratorju	laboratorji
+53	2753	dieta	dieti
+54	2754	ċittadella	ċittadelli
+55	2755	żdiedet	
+56	2756	offensiv	offensiva offensivi
+57	2757	ħasra	
+58	2758	parkeġġ	parkeġġi
+59	2759	determinazzjoni	determinazzjonijiet
+60	2760	aġġorna	aġġornar aġġornat aġġornaw aġġornax jaġġorna jaġġornaw jaġġornawhom jaġġornawna jaġġornax naġġornaw naġġornawha taġġorna taġġornaw
+61	2761	nannu	nannuh nannuha nannuhi nannuhom nannuk nannuwi
+62	2762	iskurja	jiskurja jiskurjah jiskurjaw jiskurjawlna jiskurjawlu niskurja niskurjaw skurja skurjah skurjajna skurjajt skurjajthom skurjajtu skurjat skurjaw skurjawlhom skurjawlna skurjax tiskurja
+63	2763	indiġena	indiġeni
+64	2764	faqqgħet	
+65	2765	sapport	
+66	2766	ssarraf	issarraf issarrfet issarrfu issarrfux jissarraf jissarrafx jissarrfu jissarrfux ssarrafx ssarrfet ssarrfitlu ssarrfitx ssarrfu tissarraf tissarrafx
+67	2767	artistiċi	
+68	2768	sbatax	
+69	2769	navali	
+70	2770	ljun	iljun iljuni ljuni
+71	2771	totalment	
+72	2772	intellettwali	
+73	2773	ikkonċentra	ikkonċentrajna ikkonċentrat ikkonċentraw jikkonċentra jikkonċentraw jikkonċentrawx kkonċentra kkonċentrat kkonċentraw nikkonċentra nikkonċentraw tikkonċentra tikkonċentrax
+74	2774	oħxon	eħxen ħoxna ħoxnin
+75	2775	għani	għonja ogħna
+76	2776	sodisfatt	sodisfatti
+77	2777	ffaċilita	ffaċilitalhom ffaċilitat ffaċilitaw iffaċilita iffaċilitajna iffaċilitar iffaċilitat iffaċilitaw jiffaċilita jiffaċilitalhom jiffaċilitaw niffaċilitaw niffaċilitawlhom tiffaċilita tiffaċilitalhom tiffaċilitax
+78	2778	suċċessiv	suċċessiva suċċessivi
+79	2779	esplora	esplorajna esplorat esploraw jesplora jesploraha jesploraw jesplorawhom nesplora nesploraw nesplorawhom tesplora tesplorah tesploraha tesploraw
+80	2780	lig	liga ligs
+81	2781	xebah	ixbhu jixbah jixbahni jixbahx jixbhu jixbhuh jixbhuha nixbah nixbhu tixbah tixbahni tixbahx tixbhu xbaht
+82	2782	intervjena	intervjenax intervjenejna intervjenew intervjenewx intervjeniet intervjenietx jintervjeni jintervjenix jintervjenu jintervjenux nintervjeni nintervjenu ntervjena ntervjeniet ntervjenietx tintervjeni tintervjenix
+83	2783	ħaqq	ħaqqek ħaqqekx ħaqqha ħaqqhiex ħaqqhom ħaqqhomx ħaqqna ħaqqniex
+84	2784	jintemm	jintemmx
+85	2785	dulur	duluri
+86	2786	obbliga	jobbliga jobbligah jobbligana jobbligaw jobbligawhom jobbligawna jobbligax jobliga nobbligaw obbligah obbligaha obbligahx obbligat obbligathom obbligatu obbligatx obbligaw obbligawha obbligawhom obligat tobbliga tobbligah tobbligahom tobbligana
+87	2787	organu	organi
+88	2788	eliminati	
+89	2789	oratorju	oratorji
+90	2790	ambaxxata	ambaxxati ambaxxatti
+91	2791	attivist	attivista attivisti
+92	2792	lemini	leminija leminin
+93	2793	ifilħa	jifilħu jifilħuha jifilħuni jifilħux nifilħu nifilħux tifilħu tifilħux
+94	2794	naqqax	imnaqqax inaqqax inaqqaxha inaqqxu jnaqqax jnaqqxu mnaqqax naqqaxha naqqaxhom naqqxet naqqxu naqqxuhom tinqix tnaqqax tnaqqxu
+95	2795	minoranza	minoranzi
+96	2796	strateġiku	istrateġika strateġika strateġiki
+97	2797	attendenza	attendenzi
+98	2798	ressaq	ressaqha ressaqhom ressaqna ressaqx
+99	2799	qala	qaliet qalietx qalti
+100	2800	dekorazzjoni	dekorazzjonijiet

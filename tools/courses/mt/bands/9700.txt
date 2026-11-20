@@ -1,0 +1,100 @@
+1	9601	maqjel	imqawel
+2	9602	nnaturalizza	naturalizzat
+3	9603	dabra	dbabar
+4	9604	iqba	jiqbax niqba qbajna qbat qbatu tiqba
+5	9605	aprezza	aprezzat japrezza japrezzaw naprezza naprezzaw
+6	9606	imlina	jimlina jimlini timlina timlini
+7	9607	manetta	manetti
+8	9608	suwiċida	suwiċidi
+9	9609	vaga	vagaw
+10	9610	werżqa	inwerżqu iwerżqu jwerżqu jwerżqux
+11	9611	irrifonda	jirrifondi jirrifondu tirrifondi
+12	9612	eċċitament	eċċitamenti
+13	9613	beżgħa	beżgħat beżgħax
+14	9614	musbieħ	msiebaħ
+15	9615	trejjaq	jitrejjaq jitrejjaqx jitrejqu nitrejqu titrejjaq trejqet trejqu
+16	9616	irrefletta	jirrefletti jirreflettu jirreflettux nirreflettu rreflettejna tirrefletti
+17	9617	radjoloġija	
+18	9618	ddenunzja	ddenunzjat iddenunzja iddenunzjah iddenunzjat iddenunzjaw jiddenunzja jiddenunzjaw tiddenunzja tiddenunzjaha
+19	9619	karim	karima
+20	9620	jarda	jardi
+21	9621	kaktus	
+22	9622	determinattiv	determinattivi
+23	9623	ispjuna	jispjuna jispjunaw jispjunax spjuna spjunaw
+24	9624	sewga	isewgu jsewgi jsewgu nsewgu sewgejt
+25	9625	għonnella	għenienel
+26	9626	ntasab	intasabt jintasab jintasbu nintasab ntasbu
+27	9627	ġamar	ġamra
+28	9628	debitur	debituri
+29	9629	kartografu	kartografi
+30	9630	ikkummerċjalizza	ikkummerċjalizzat jikkummerċjalizza jikkummerċjalizzaw kkummerċjalizzat tikkummerċjalizza
+31	9631	approssimattiv	approssimattiva approssimattivi
+32	9632	tbeżża'	tbeżża tbeżżani tbeżżax tbeżżgħu
+33	9633	arluġġar	
+34	9634	ċafċaf	iċafċaf jċafċfu ċafċif ċċafċaf
+35	9635	invalida	invalidat jinvalidaw tinvalida
+36	9636	iżvuga	jiżvugaw niżvugaw niżvugawha żvugaw
+37	9637	igwadanja	gwadanja gwadanjat gwadanjaw jigwadanja jigwadanjaw tigwadanja
+38	9638	żafżaf	safsaf żafżafa
+39	9639	ddieħak	ddieħku iddieħak iddieħku jiddieħak jiddieħku tiddieħak
+40	9640	dalma	
+41	9641	diriġent	diriġenta
+42	9642	eklittiku	eklittika
+43	9643	qronfol	qronfla
+44	9644	tlettin	
+45	9645	idden	jidden jiddnu nidden widdien
+46	9646	wardija	
+47	9647	jassar	ijassar ijassarna imjassar jjassarna mjassar tjassar tjassartu
+48	9648	biblijografija	biblijografiji
+49	9649	nemus	nemusa
+50	9650	mixtla	mixtliet
+51	9651	sejħula	insejħula isejħula jsejħula nsejħula
+52	9652	armonizzazzjoni	
+53	9653	użin	
+54	9654	demokratikament	
+55	9655	mango	
+56	9656	nagħal	nagħla ngħula
+57	9657	ċinju	ċinji
+58	9658	għamad	
+59	9659	ġennata	
+60	9660	faddla	ifaddlu jfaddlu nfaddlu tfaddlux
+61	9661	ħaxxen	iħaxxnu jħaxxen jħaxxinhom jħaxxnu nħaxxnu tħaxxnu
+62	9662	kexkex	ikexkex imkexkex jkexkex kexkxet kexkxu kexkxuna tkexkex tkexkixna
+63	9663	perċa	pereċ
+64	9664	traċċata	intraċċata intraċċati ittraċċati ntraċċata ntraċċati ttraċċata
+65	9665	ħosba	
+66	9666	farrad	farrada farradin mfarrad tfarrdu
+67	9667	bbulja	bbuljar ibbuljar jibbuljaw
+68	9668	ganċ	ganċijiet
+69	9669	isfronda	jisfronda jisfrondaw sfronda sfrondat sfrondaw sfrondax tisfronda
+70	9670	rekwiżizzjoni	rekwiżizzjonijiet
+71	9671	bjad	bjadlu bjadu jibjad jibjadlek jibjadu nibjad
+72	9672	belgħa	belgħat
+73	9673	dilettantiżmu	
+74	9674	intona	intonat jintona jintonaw ntona tintona
+75	9675	isperimenta	jisperimentaw nisperimentaw sperimenta sperimentaw
+76	9676	ċentralità	ċentralita ċentralitajiet
+77	9677	dublett	dbielet
+78	9678	ġgajta	
+79	9679	bilħaqq	
+80	9680	sigarrett	sigarretti
+81	9681	bażwi	bażwija bażwin
+82	9682	ċaqċaq	iċaqċaq iċaqċaqha iċċaqċaq ċċaqċaq ċċaqċaqx
+83	9683	ikkampanja	ikkampanjat ikkampanjaw jikkampanja jikkampanjaw kkampanja kkampanjaw
+84	9684	iddiżinfetta	jiddiżinfetta jiddiżinfettaw jiddiżinfettawhom tiddiżinfetta
+85	9685	gladjatur	gladjaturi
+86	9686	liwja	liwjiet
+87	9687	ivara	ivaraw jivaru jvara jvaraw
+88	9688	nxtamm	inxtammet jinxtamm jinxtammu jinxtammx tinxtamm tinxtammx
+89	9689	dewwa	ddewwi iddewwi idewwi imdewwi imdewwija jdewwi jdewwu
+90	9690	irrigwardja	jirrigwardja jirrigwardjaw tirrigwardja
+91	9691	sferiku	isferi sferi
+92	9692	pitrava	pitravi
+93	9693	respirazzjoni	
+94	9694	spella	jispelli jispellu spellew spelliet tispelli
+95	9695	iprattika	jiprattika jiprattikaw prattikat tiprattika
+96	9696	marrara	
+97	9697	ineżattezza	ineżattezzi
+98	9698	diffikultuż	diffikultuża diffikultużi
+99	9699	arrikkixxa	arrikkew arrikkewha arrikkiet arrikkit arrikkixxu jarrikkixxi jarrikkixxu jarrikkixxuh tarrikkixxi
+100	9700	kartell	krietel

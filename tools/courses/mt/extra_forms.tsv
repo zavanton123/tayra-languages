@@ -1,60 +1,666 @@
 # Forms the Maltese list misses, added to its word: headword<TAB>forms
-saqsa	jistaqsi tistaqsi nistaqsi jistaqsu nistaqsu tistaqsu staqsiet staqsew staqsejt staqsejna
-hemm	hemmx
-deher	deherx dehritx dehrux jidhirx tidhirx jidhrux
-kell	kellniex
-ried	riditx
+saqsa	jistaqsi tistaqsi nistaqsi jistaqsu nistaqsu tistaqsu staqsiet staqsew staqsejt staqsejna nistaqsih staqsejtu staqsieh tistaqsih staqsieni jistaqsih insaqsih staqsietu nistaqsiha jistaqsuh staqsih staqsejtha nistaqsihom tistaqsini jistaqsini nsaqsih jistaqsix insaqsiha tistaqsik staqsejthom jistaqsuk staqsieha jistaqsuni
+hemm	hemmx mhemmx mhemm hemmek
+deher	deherx jidhirlu jidhirli deheru deherlu deherli jidhirlux jidhirlix jidhirlek tidhirlu dehritlu jidhirlekx jidhirlha deherilhom jidherx deherna deherilha deherilna deherlux dehrulhom jidhrulhom dehrulek dehritilha
+kell	kellniex jkollhom jkollu ikollu ikollhom jkollha jkollna kellux ikollna jkollok kellhomx ikollha ikollok jkolli ikolli kellhiex jkollhomx jkollux kellix jkollokx jkollniex jkollhiex jkollkom ikollkom jkollix ikollhomx jkollkomx kellekx inkellha jkoll ikollux ikollokx
+ried	riditx ridux jridna riedha riedhom riedux jriduhx ridx jridha tridna riduhx riduhiex riduh tridni iridna riduni
 kell	kellhiex
-bena	mibnija
-ħalla	tħalliha
-fehem	fehemx
-ġie	ġejja
-ħa	tieħux
+bena	mibnija mibnijin bnewlu bnewhom bnewha nibnuha jibnulha jibnuha bnejtha jibnuh nibnuhom bnejthom nibnulu nibnuh jibnulhom bnewlha bnejnieh nibnulhom jibnuhom
+ħalla	tħalliha ħallieh ħalliena ħallewlna ħallietu ħallielna ħallewha jħalluh nħalluh inħalluh iħalluhom nħalluhom ħallieni ħallitux jħalluhom ħallewna ħallewhom inħalluhom
+fehem	fehemx mifhuma jifhimha jifhmuha nifhimha jifhimhom nifhmuh nifhmuha tifhimha tifhimhom jifhimni jifhmuhom nifhmuhom jifhmuh jifhimna ifhimni tifhimni fehemni
+ġie	ġejja ġejjin ġietu ġietni tiġik jiġini tiġini ġieni ġiethom tiġih tiġina tiġihom jiġuh jiġih jiġik jiġuni ġietna
+ħa	tieħux meħuda ħadha ħaduh ħaduha ħaditu meħudin ħadulu ħadtha ħaduhom jieħux ħaditha ħadhom jieħdux ħadni jieħduh ħaditlu
 kell	kellux
-nesa	nesiet
-pproteġa	protetti protetta
-għad	għadha għadhom għadna
-uża	jużawhom jużawh jużawha
-ġibed	ġibidha ġibditu
+nesa	nesiet minsija ninsiha minsijin ninsewhom ninsewha ninsihom tinsina ninsih tinsih jinsiha nesihom tinsieh jinsiehom jinsieh jinsewhom jinsihomx
+pproteġa	protetti protetta tipproteġihom nipproteġuhom jipproteġuhom jipproteġuh jipproteġiha tipproteġina jipproteġihom tipproteġih nipproteġuha tipproteġilek pproteġiha jipproteġih jipproteġġu tipproteġik jipproteġina tipproteġiha jipproteġuha jipproteġuna ipproteġuhom nipproteġiha pproteġietu
+għad	għadha għadhom għadna għadni għadhiex għadhomx għadek għadx għadniex għadnix għadkom għadekx għadkomx
+uża	jużawhom jużawh jużawha wżat jużaha jużah nużawhom jużahom nużawha użah tużah tużahom użaha użahom wżaw nużaha wżajna nużawhomx nużah użajtha wżajt wżawx użawha tużaha użawhom
+ġibed	ġibidha ġibditu miġbuda miġbudin niġbidlu jiġbidlu jiġbdulu tiġbidni jiġbidni tiġbidhom ġibidni ġibidli ġibduh jiġbdulhom ġibidlu niġbdulu jiġbduk jiġbidhom ġibditni jiġbidli jiġbduna jiġbdulna jiġbidna ġibdulu tiġbidna
 ħu	ħutu
 daħak	tidħaq daħket
-ta	tahom
-sieħeb	sħabha sħabu
-sieq	saqajh
-keċċa	keċċieh keċċiehom keċċiehx
-jum	ijiem
+ta	tahom mogħtija tah tana jagħtih jagħtina jagħtihom jagħtuh taha jagħtini jagħtik tagħtina jagħtuna nagħtuhom tagħtihom jagħtiha tagħtih tani tawni jagħtuhom tawha jagħtuha tawna
+sieħeb	sħabha sħabu iseħibni iseħibna jseħibna
+sieq	saqajh saqajhom saqajha saqajkom
+keċċa	keċċieh keċċiehom keċċiehx tkeċċew imkeċċija jitkeċċa mkeċċija tkeċċijiet tkeċċiet jkeċċih titkeċċa tkeċċejt jkeċċuhom tkeċċewx tkeċċejna keċċewhom jkeċċihom tkeċċih keċċietu tkeċċiex keċċihom ikeċċuh jkeċċuna ikeċċihom keċċiethom mkeċċijin nitkeċċa
+jum	ijiem jiemhom jiemu jiemek
 ta	tatu tatha tagħtha
-iben	uliedu wliedu
-għamel	għamlulu għamlitlu
-qal	qaltlu qaltilha
-dara	drajtx
-kien	kinux
+iben	uliedu wliedu uliedhom uliedna uliedha wlied wliedhom wliedna uliedek wliedha uliedkom wliedkom wliedek ibenu
+għamel	għamlulu għamlitlu jagħmilha għamilha tagħmilha jagħmluha għamilhom nagħmluh nagħmluha jagħmluh għamillu nagħmilha jagħmilhom għamluha jagħmilna jagħmillu għamlitha għamluh għamluhom għamlitu jagħmluhom tagħmilhom
+qal	qaltlu qaltilha jgħidli qalilna ngħidlek jgħidilna qalilhom jgħidlu qalulna qalulu tgħidli jgħidulu qaluli ngħidlu jgħidulna jgħidilha ngħidilkom jgħidulek qalilha jgħidlek tgħidlu tgħidilna jgħidilhom għidtlu qaltilna ngħiduha jgħiduli
+dara	drajtx jidru drawni darahom tidrah drajnieh drajthom drajniehom drajtha jidrahom dratu drah nidrawhom jidrilhom tidraha jidrawna drawhom jidrani tidrak drathom jidrilhomx drani jidrak drajtuni jidrilha
+kien	kinux kienux kinetx kinx jkonna
 ta	tani
-kellem	kellmitx
-ssieħeb	sseħibt
-kkomunika	kkomunikawx
-identifika	identifikajt
-vvota	ivvotajt
-lesta	lest
+kellem	kellmitx ikellimni jkellimni jkellimhom kellimni jkellmuh kellimha jkellimna ikellimna kellimhom kellmuh ikellimhom kellmitu kellmuni ikellmuhom kellimthom ikellimha kellmuna tkellimni kellmuhom ikellmuni jkellmuni kellimtha jkellmuna jkellimha
+ssieħeb	sseħibt nissieħebu jissieħebu ssieħebu jissieħebx
+kkomunika	kkomunikawx jikkomunikawlek jikkomunikalna nikkomunikalek ikkomunikatilhom jikkomunikalu
+identifika	identifikajt identifikawha jidentifikah jidentifikahom jidentifikawhom nidentifikah identifikathom jidentifikana jidentifikawha tidentifikah tidentifikaha identifikah nidentifikawhom tidentifikahom identifikahom identifikawhom jidentifikaha
+vvota	ivvotajt ivvotahom ivvotalhom jivvotalu tivvotalna
+lesta	lest lestieh lestieha ilestiha lestihom ilestilu lestiethom lestejtha lestihiex nlestuha tlestiha nlestihom ilestuh lestiha tlestihom jlestiha lestielna ilestilhom inlestiha inlestuha jlestulna jlestihom lestejnieh
 ta	tah jagħtih
-id	idejk idejh idejha
+id	idejk idejh idejha idejhom idejna jdejh jdejhom idejkom jdejha jdejna idx
 negozjant	negozjanta
-ġiegħel	ġegħilha ġegħilhiex inġiegħlek jġiegħlek
-kklassifika	ikklassifikaha
-għallem	għallimha
-sema'	isma'
+ġiegħel	ġegħilha ġegħilhiex inġiegħlek jġiegħlek ġġiegħelna ġiegħluhom ġiegħelha imġiegħelha iġiegħluk jġegħilna ġagħalni jġiegħluh iġiegħluna ġiegħluh ġġiegħelhom ġiegħelhom jġiegħluna jġegħilni ġġiegħilna iġiegħluhom iġġiegħelni jġiegħelna iġegħilna jġiegħluha
+kklassifika	ikklassifikaha nikklassifikawhom ikklassifikatu kklassifikah kklassifikaha tikklassifikaha jikklassifikawhom jikklassifikah tikklassifikah tikklassifikahom ikklassifikawha jikklassifikawha kklassifikahom jikklassifikahom jikklassifikaha nikklassifikawha kklassifikatu kklassifikawha ikklassifikatha
+għallem	għallimha jgħallimna għallimni jgħallimhom jgħallmuna għallimhom jgħallimni għallmuni jgħallmuhom ngħallmuhom għallmuna għallmitu għallmitni jgħallimha għallmuh għallimtkom ngħallmuk għallimtna għallimntna għallmuha jgħallmuni għallmitna tgħallimni jgħallimkom għallimilna
+sema'	isma' jisimgħuh smajtha semgħuh jisimgħuhom nisimgħuha nisimgħuhom nisimgħuh smajthom smajnieh semgħuha smajtni
 ħa	jieħux
 ġie	tiġikx
 qal	qalilha
 saqsa	staqsietu staqsietha staqsieh
 qal	qalilhom jgħidilhom tgħidli jgħidli
-ilu	ilni
-interessa	tinteressani
+ilu	ilni ilux ilhomx ilix lhom ilhiex lna lhomx lni iluna
+interessa	tinteressani jinteressah jinteressahom jinteressani jinteressana nteressat jinteressanix jinteressahomx jinteressawni jinteressak jinteressaha jinteressahx tinteressah interessani jinteressawha interessatni jinteressawna jinteressawhom tinteressahom tinteressana tinteressahomx jinteressahiex jinteressakx nteressaw interessatu interessatha tinteressanix tinteressaha jinteressaniex
 ta	tawha
 ħa	ħadhom
-ħeles	jeħilsu
-seraq	misruqa
-persuna	persuni
-daħħal	daħħalhom
-wera	wriehom
-hawn	hawnx
+ħeles	jeħilsu meħlusa jeħlisna ħelisha jeħlisha ħelsuha eħlisna meħlusin jeħlishom ħelsitha ħelisna teħliskom teħlisna eħlisni ħelsuh ħelsitna jeħlisni teħlishom teħlisha ħelishom ħelishiex ħelsitu ħelisni ħlistni ħelsuna ħlistha ħelsithiex teħlishomx
+seraq	misruqa serquh serqulha seraqhom seraqlu misruqin jisraqna seraqha serqitli serquli jisraqhom tisraqlu serquha jisraqlu seraqli tisraqlek serqitilna serqitilha serqitilhom jisraqha serquni serqulhom sraqtilhom serqitlu serqulu jisraqni jisraqlek serquhom
+persuna	persuni persuntu persunitha persunti
+daħħal	daħħalhom daħħalha ddaħħalniex daħħluhom idaħħalhom jdaħħalhom daħħluh jdaħħalha indaħħluha idaħħalni jdaħħluk indaħħluhom daħħalnieh iddaħħalhom daħħluha jdaħħluha ndaħħluha daħħlitni daħħaltha jdaħħluh daħħalni
+wera	wriehom jurina turina jurih juruna jurihom urina jurini jurik juruh urietna turik urih nuruhom juruk nurihom juriha juruhom turihom nurih urewni
+hawn	hawnx hawx
+għoġob	għoġobna għoġobt
+rabba	jrabbix
+solva	ssolvix
+patta	mpatti
+ħafer	aħfru ħfirt
+taffa	taffewx
+ħall	ħallejniex ħallejtu ħallejtx ħallewx
+tellef	ittellifx
+morr	morra
+ta'	tagħhomx tagħniex
+li	lli
+fi	fihomx fihiex fihx fihax
+għal	għalieh jgħali għaliek tgħali għalejt għalikhom
+bi	mb
+huwa	inhu mhu huwiex inhux nhu nhux
+ħafna	jżjed iktarx ħafnithom ktar żjed
+biex	biexu
+fuq	fuqhiex
+ukoll	wkollu
+sena	sninu sninha sninek sninhom snini
+sar	saritlu sarulu sarilha sarlu saritilha issirlu sarulhom issirilhom jsirulu ssirilha sarilhom sarulha isirlu ssirlu isirilhom saritilhom misjura
+hija	inhi hix mhi hijiex inhix mhijiexx
+wara	warajh warahom warak
+seta'	setatx setgħetha jistina setgħetu setawx tistieh setat
+wieħed	wħud
+huma	humiex inhuma tagħhomx
+fejn	fejnu fejnhom fejna fejnha feju
+dwar	jdwaru
+beda	mibdija jibdilhom bdieh bdieha nibdilha bdejtha tibdieh jibdieha jibdilha nibdilhom tibdilha jibdielu jibdielhom jibdewhom
+iżda	żda
+hekk	hekku
+ftit	nqas inqasih
+qabel	jaqbillu maqbula jaqbillek jaqbilli qabillu jaqbillux jaqbillhom jaqbillekx jaqbilhom jaqbilu
+biss	bissu
+żmien	żminijietna żminijietu żminijiethom
+bejn	bejna bejnithom bejniekom bejniehom
+baqa'	baqalu baqalna jibqalu jibqalek baqalhom baqaw jibqalhom jibqgħulek jibqalha baqgħuli jibqgħulha
+imma	mma
+xogħol	xogħolu xogħlijietu xogħlijiethom xogħolok xogħoli xogħlijieti xogħlijietha
+ra	jarah narawha narah tarah rah jarahom naraha narawhom tarahom jaraha raha ratu jarawha taraha narahom jarawhom rajh rajtha rajnieh rajthom
+kemm	kemmx
+mar	tmurlu jmurlek marritlu imorrulhom marrulu imurlek marruli imurli marlek imurilhom
+nies	niesu niesna nieshom niesha niesek
+kontra	kontrieh kontriehom kontrieha
+belt	beltna belthom beltu
+jaf	nafuha nafuh jafuh jafha jafhom nafuhom jafuha jafni nafhom nafha jafek jafuni tafuh jafuhom jafna afu jafulu nafhomx jafuna tafhom nafuhiex jafuhx tafuha tafha tafnix nafuhx nafek
+kompla	komplewha nkompluh komplieh inkompluh ikompluh komplewhom tkompluh nkompluha komplieha ikompluha tkomplijat
+għadda	għaddej għaddejjin għaddejja jgħaddih jgħaddiha għaddieli għaddielu jgħaddilu jgħaddihom għaddieh jgħadduh jgħaddilek jgħaddulhom jgħaddili għaddewhom jgħadduha tgħaddilhom jgħadduhom jgħaddulna ngħaddiha ngħaddih għaddielha għaddihom
+waqt	waqtha waqtu waqthom
+ħareġ	maħruġa ħariġha ħarġulu joħroġu joħroġhom joħorġuhom maħruġin ħarġitlu ħariġlu ħariġhom joħorġuh toħroġna toħroġlu ħarġuh ħarġitu joħorġulhom
+qiegħed	qegħda qiegħdin jqegħdu tqiegħedu qegħditilhom tqegħdu nqegħdu jqegħduhom iqegħdu tqiegħedx jqiegħduh inqegħdu nqegħduha jqiegħduha qegħditu inqegħduh nqiegħduh qegħidtlu qegħidtek
+ħadem	ħadimhom jaħdimhom naħdimlu taħdimha ħdimtha taħdimhom naħdimhom jaħdmulu ħadmitha taħdimlu ħdimthom jaħdmuha jaħdimlu jaħdmuh jaħdimli ħadmuni aħdimhom
+nsab	jnsab
+art	artiki artijietu artijiethom
+ngħata	tingħatalhom jingħatalhom jingħatalu tingħatalu ngħatatilhom ngħatalu ingħatalu ingħatalhom ngħatalhom ingħatatlu ngħatatlu ngħatawlu jingħatalkom jingħatu ingħatalha jingħatalha jingħatawlhom
+dar	darhom djarhom darha darna djarna darek djarkom darkom djaru dorthom darlu dawrilna ddurlek
+sab	misjuba isibuha insibuh sabha issibhom sabuha nsibuha jsibuha ssibha sabuh insibuha nsibuh insibuhom jsibha issibha isibha sabitu
+saħħa	saħħtiha saħħiethom saħħtha saħħah
+daħal	jidħlulna daħlitlu jidħollu daħallu jidħlulek nidħollu jidħollok daħalli daħlulu daħlulhom jidħollha tidħollu jidħolli
+triq	triqati triqatek triqatkom triqathom triqatna triqna
+dinja	dinjietu
+jien	jienx
+stat	statiku statu istatu statik statii
+ħajja	ħajtu ħajjithom ħajti ħajjitha ħajjitna ħajtek ħajjiethom ħajjitkom ħajjtu ħajjitu ħajjtha ħajjietha ħajjietna ħajjietkom ħajjiena ħajjiha
+reġa'	reġaw treġi jreġi reġat reġini ireġi jreġu rġigħu reġgħuhom
+ħadd	ħaddejha ħaddejh
+mara	marina marana marai
+magħruf	magħrufha
+wasal	jaslulna waslulna waslitilna waslitli wasallu jaslulhom waslitu waslulha waslitilha tasallu waslitlna jasluli wasluli jasallek waslitlu wasluhom
+qasam	maqsuma maqsumin jaqsamhom naqsmuhom jaqsamha naqsmuh jaqsmuha qasamhom taqsamhom taqsamha naqsmuha jaqsmuh jaqsamu qsamtulna jaqsmuhom naqsamhom jaqsamlek naqsamha jaqsmulek qasmuha
+tkellem	jitkellmuh tkellimha jitkellemu titkellimhom tkellimtha nitkellimha jitkellemx jitkellimha tkellimhiex tkellimhom jtkellmu tkellmulu jitkellmuha titkellimha jitkellimhom titkellemx
+qatt	qattx qattu
+ħin	ħinhom ħinha ħinek ħinkom ħini
+rebaħ	mirbuħa rebħuha rebħulhom rebħuh jirbaħha rebaħha jirbaħlu jirbħuha nirbħuha nirbħuh rbaħtha ntrebaħx rebħuhom rebaħlu rebaħhom nirbaħha jirbħuh
+nhar	nhari nharha
+miet	mitux mietlu mietli mietux mietitlu imutlu jmutilhom mietetx mietilhom tmutlu mitetx
+isem	ismu isimha isimhom ismi ismek isimna smu isimkom ismijiethom ismijietna isimi isimiha ismuh isemu isimu jsmu
+spiċċa	spiċċalu spiċċah jispiċċalu tispiċċalhom jspiċċa spiċċahom jispiċċalhom jispiċċi jispiċċah spiċċawha spiċċatilhom spiċċahx spiċċawlhom jispiċċawlu jispiċċawlek nispiċċawha spiċċawlna
+għex	ngħixuha jgħixha ngħixuh ngħixuhom għexuha għexha ngħixha mgħixa jgħixuhom jgħixuha għixna tgħixha jgħixhom tgħixhom jgħixuh tgħixuh għextha għixux għexhom
+kelma	kliemu kliemhom kliemha kliemi kliemna kliemek kliemkom kelmitha
+wassal	wassluh wasslitu twassalna wassalhom twassalhom wassalha jwassalna iwassalna jwassalhom jwassluh jwassalha wassalni twassalni wasslithom iwassalni jwassalni iwassalhom nwassluh wasslitna
+ħaseb	maħsuba jaħsibha jaħsbuha taħsibha naħsibha maħsubin ħsibtha jaħsbuh ħasibha ħasbuha ħasbuh naħsbuha jaħsbuhom ħasibhiex jaħsbuhiex jaħsbuni ħasbitu jaħsibhom
+bżonn	bżonnu bżonnhom bżonnha bżonnok bżonnkom
+aħna	aħniex tagħniex
+talab	mitluba nitolbuk jitolbuh talbuh nitlobkom talabha talabhom talabni nitolbuh talbuni jitlobna jitlobhom tlabtha nitolbukom mitlubin talabna talbuha titlobni titlobna jitolbuni talbitni jitlobha
+mexxa	mmexxija immexxija immexxijin mmexxijin tmexxina imexxih immexxiha imexxina imexxiha imexxihom jmexxih mexxieh jmexxina mmexxiha jmexxuhom mexxewhom jmexxiha tmexxih imexxulu imexxuha mexxihom jmexxihom imexxuhom
+seħħ	seħħlu seħħux iseħħilkom isseħħilhom jseħħilna seħħilna jseħħilha seħħitilha seħħewlu seħħetx
+ħaddiem	ħaddiemu
+tilef	mitlufa mitlufin jitlifha tilfuha tilifha tilfuhom nitilfuh nitilfuha tlifnieh jitilfuha titlifhom nitilfuhom jitilfuh tilfuh nitlifha tilfitu
+żamm	miżmuma nżammu inżammu miżmumin żammu jżommhom jżommuh iżommhom żammhom iżommha iżżommhom żammha żammitu iżommuh żommni jżommna
+ġab	miġjuba miġjubin ġabhom ġabuh ġabuna ġabitlu ġabha ġabli ġabitu iġibuhom ġiebu ġabitna ġabuhom ġabulu jġibulu ġabilna iġibhom
+nofs	nofshom nofsu nofsha nofsna nofsok nofskom
+awtorità	awtorita
+nstab	jinstabilhom nstabetx instablu nstabilhom instabulu instabilhom jinstablu jinstabulhom jinstabilha instabulhom
+emmen	emmnuni emmnuhx nemminha nemmnuha jemminha nemmnuhom jemminhom emmnuha emminni nemmnuh emmnuh jemmnuhom temminni temminhom jemmnuha nemminhom emminha temminnix
+laqgħa	laqgħathom laqgħax laqgħaha laqgħatx laqgħatna laqgħatha
+għadu	għadux
+festa	festini festina
+kiteb	miktuba miktubin kitibha kitiblu kitibhom jiktibha niktibha kitibli kitbitlu ktibthom niktiblek niktibhom jiktbuhom kitibhomx jiktbuha jiktiblu iktibli miktubha ktibtilkomx kitebx tiktibhom ktibtlu
+kiseb	miksuba miksubin kisbuh kisbitlu kisibhiex jiksiblu niksbuh kisibhom kisbuha kisbithom niksbuha kisibha kisbitu jiksbuhom jiksbuha ksibnieh tiksibha tiksiblu kisiblu
+sostna	sostnieh isostnuh jsostnuna nsostnuh sostnietu nsostnuhom jsostnuha sostnewhom insostnuh jsostnuhom isostnuhom isostnuha
+sewwa	imsewwija msewwija isewwih isewwiha jsewwih sewwewha isewwuni isewwuhom
+ntuża	jntuża
+għen	jgħinhom jgħinuna jgħinuhom jgħinna tgħinhom għinna jgħinuh tgħinna ngħinuhom jgħinek jgħinha għenuh tgħinha tgħinek jgħinuk jgħinuha għenuni jgħinuni jgħinni għenhom għinni għenitu għenitni tgħinni ngħinuh
+qalb	qlubna qlubkom qlubhom qalbuhom qalbuha
+dritt	dritti drittijiethom drittijietu drittu drittijietha
+missier	missirijietna missirijiethom missirijietu missirijietkom missirijieti missirijietek
+xtaq	mixtieqa nixtieqkom xtaqni nixtieqek jixtiequx nixtieqlek nixtieqilkom xtaquni tixtiqux jixtiequha xtaqulu jixtiqx xtaquh jixtieqha nixtieqlu nixtieqha jixtieqna nixtiqux jixtieqni jixtiqux
+ilma	ilmi lma
+fisser	fissrulna fissirlu nfissruhom fissirli ifissirlu jfissirlu fissirhielna ifissruhom fissrulu jfissirli infissirlek fissirha jfissirhom ifissirha fissrulha infissruh nfissruh nfissirha
+tnejn	tnejnhom
+semma	semmieh semmieha semmielu semmewha semmiha isemmihom jsemmih semmih nsemmilek jsemmili isemmili semmili
+lanqas	nqas inqasih
+lagħab	jilgħabu jilgħabha nilgħabu jilagħbuha nilagħbuha jilgħabhom jilgħablu tilgħabha jilagħabu intlagħabu jilgħabni nilgħabhom nilgħabha lagħabhom jilgħabuha lagħbuh lgħabnieh nilagħbuh
+ġara	jiġrilna jiġrilhom jiġrilu jiġrilha ġratli jiġrilek ġratilha jiġrili ġratlu ġaralhom ġratilhom jiġruli tiġrili ġratlek ġratilna ġrawlha ġrawli jiġrulek jiġrilux jiġrulna tiġrilna jġrilna tiġrilha tiġrilu jiġrilkom ġaralu
+erba'	erba
+tul	tulha tulhom
+ħares	iħarishom nħarsuhom tħarisha tħarisna jħarishom inħarsuh jħarsuha ħarisni nħarsuhx nħarsuh jħarsuhom jħarisha jħarisni
+flus	flushom flusu flusha flusna flusek flusi fluskom
+żied	żdiedu miżjuda żdiedlu miżjudin żdidux żiedhom iżżidlu żdiedx żidx jżidilhom iżiduha inżiduha jżidlu żidhom iżżidilhom iżidhom
+ħsieb	ħsiebu ħsiebhom ħsiebha ħsibijietu ħsiebna ħsiebi ħsiebek ħsibijieti ħsibijiethom ħsibu ħsibijietna ħsiebkom ħsibijietek ħsibijietkom ħsibhom
+punt	puntijiet
+internazzjonali	nternazzjonali
+stenna	mistennija jistenniehom nistennewha jistennewhom mistennijin nistennewhom nistennieha tistennieh jistenniena tistennieni stennieh jistennewha tistenniehom nistennieh jistennieh jistennix jistennieha jistennewni tistennix
+attività	attivita
+sehem	sehemhom sehemha sehimhom sehemu sehemi sehimna sehemna sehimha sehemkom sehemek
+naqas	jonqoshom jonqosna jonqosni jonqosha jonqoslu tonqoshom tonqoslu jonqsulu naqsulu naqashom naqsuk jonqoshiex naqsulhom naqsetx naqasni naqsuna nonqsuh
+bini	binijiet binijieti
+għadd	għaddha magħduda tgħoddhom ngħodduha għoddha magħdudin għaddhiex għaddhieli ngħodduhom ngħodduh jgħoddni jgħodduh jgħoddlu għaddejtli tgħoddha jgħoddha tgħoddhomx għoddhom għoddni għaddejnieh jgħodduhx jgħoddhom jgħoddlux
+nbena	nbnewlu jinbenix nbeniet inbeniet nbenax
+ġewwa	ġewwiena ġihom ġih
+laħaq	milħuqa ntlaħaqx laħquh nilħquhom jilħaqhom jilħaqlu tilħaqhom jilħquh nilħquh intlaħaqx ilħaqnieh nilħquha lħaqthom lħaqniehom jilħaqhomx lħaqnieh
+informazzjoni	nformazzjoni
+għaqda	għaqdithom
+raħal	raħalna raħalhom
+spjega	spjegalna jispjegalna spjegalu jispjegalu spjegatilna nispjegawha spjegatli spjegajtlu tispjegaha jispjegawlu spjegawlu spjegalha spjegawlna jispjegah nispjegawlhom spjegawli nispjegah spjegatilhom tispjegalu jispjegawlhom jispjegalhom nispjegalu nispjegalek tispjegalna nispjegaha spjegah jispjegawha
+qagħad	joqgħodu noqgħodu maqgħuda maqgħudin joqgħodux noqgħodux qgħadx joqogħdulek joqgħodlu joqgħodilna toqgħodu joqogħdulu joqgħodli joqgħodilhom
+pprova	jippruvawhom ppruvajtha jipprovaha nippruvawha ppruvawha jipprovah ippruvatu tipprovaha jipprovahom jippruvawha
+ltaqa'	iltaqa ltaqaw iltaqaw niltaqaw jiltaqawx iltaqatx jiltaqaw
+diġà	diġa
+mija	mijiex
+offra	offrewlu joffrilhom offrielu joffrilu joffrilna joffrulna toffrilhom offrielhom joffrulhom toffrilna offrieli offrewli toffrilu noffrulu noffrilek offrielha joffrulu toffrilek noffrulhom offrietlu joffruh offrilhom offrewlhom joffrilek joffrilha
+ħabbar	ħabbruh ħabbartha ħabbarha iħabbarha ħabbarhom ħabbarnielkom ħabbartilkom inħabbruhom nħabbruhom ħabbritha jħabbruh ħabbarielu ħabbrulhom ħabbarlek ħabbritni ħabbritilna ħabbritu
+soċjetà	soċjeta
+ħass	ħassu inħossni jħossuhom iħossuhom tħossha tħossok ħassejtni nħossni nħossuna ħassewhom inħossuna ħassitha ħassux jħossuhomx iħossha ħassejtha ħassha tħosshom
+mexa	jimxiha timxiha mxewxa mxieta nimxuha jimxuha imxietu nimxiha jimxihom mextu
+omm	ommijiethom ommijietna
+fetaħ	fetħitilna jiftaħlek fetħulhom fetħuha fetaħha jiftaħli jiftaħhom fetħuhom jiftaħlu fetħuh fetħuli fetaħli fetħulu tiftaħhom tiftaħlu niftħulhom ftaħtha niftaħlu niftaħha jiftħulna jiftħulek fetaħhom fetħulha
+esperjenza	esperjenzatu jesperjenzawha jesperjenzaha nesperjenzah esperjenzaha nesperjenzawha tesperjenzaha nesperjenzahom jesperjenzah
+qies	meqjusa qishom qisha meqjusin qisek qisni jqisuh qieshom iqisuh jqisuha inqisuh jqisuhom nqisuha nqisuhom jqishom qiesha inqisha inqisuhom iqisuha iqishom
+għażel	magħżula magħżulin jagħżilni għażluh magħżulha għażilni għażilhom tagħżilna jagħżluh jagħżluni jagħżilha għażluha għażilha jagħżilhom għażluni għażillu jagħżluhom għażiltkom jagħżillu nagħżilha
+inti	intix intx nti
+fond	tfondi fondew fondaw
+mil	milx milhomx milha milhom
+xorta	xortih xortihom xortik xortiha xortieh xortikom
+wettaq	wettaqha inwettquh wettquha jwettaqha nwettquh wettaqhom iwettaqhom nwettquha iwettaqha iwettaqu nwettquhom jwettaqhom inwettquha iwettquh jwettquh
+kamra	kamritha kamrithom
+rebħa	rebħitu rebħitha rebħietx rebħahom
+mewt	mewtha mewthom mewti mewtek mewtna
+serva	servili isservihom sservina jservuna servieh inservih jservih jservuh jservihom nservihom iservuna sservihom sservini isserviha servietu servih jservuk servieni
+ħoloq	joħloqha ħoloqhom joħloqlok toħloqlu ħoloqha ħoloqlu noħolqulhom ħolquha ħolquli joħloqlu joħolqulna ħolquhom ħolqulha ħloqniehom ħoloqhomx ħloqnielhom ħloqtilha joħolqulu toħloqha
+forma	formai
+ftehim	ftehimu
+għan	għanha għanijieti għanijietu
+kiber	tikbirlu jikbirli kibrulek kibirlu jikbrulu kibritlu
+nuqqas	nuqqasijietna nuqqasek
+komunità	komunita
+telaq	mitluqa mitluqin telquhx tlaqtni jitlaqha telaqha jitilquh telquh telqitu jitlaqhom telaqna titlaqni titlaqnix titlaqna tlaqthom talqu nitlaqha jitilquhom telaqhom
+ħtieġ	meħtieġa jeħtieġlu ħtieġlu jeħtieġlek maħtieġa jeħtiġlux jeħtieġilna jeħtieġha ħtieġilhom jeħtieġli ħtieġli jeħtieġilha niħtieġu neħtieġuha ħtieġiet meħtieġlu jeħtieġux
+waqaf	tiqafx jieqafx jiqafx tieqafx waqfuh jiqfux niqfux jieqaflu waqfetx nieqfux tieqfux niqafx waqfitlu waqaftlu jieqfux
+tmiem	tmiemu tmiemha tmiemhom
+saħaq	saħqitu misħuqa jisħaqlu jisħaqlek tisħaqlu nisħqulhom nisħquh
+akkuża	akkużah akkużathom jakkużani jakkużaha jakkużana jakkużawni jakkużahom akkużaha jakkużah takkużani akkużahom jakkużawhom takkużak takkużahom akkużawni akkużawhom takkużana akkużatu
+waqqaf	waqqfuh jwaqqfuh nwaqqfuk jwaqqafhom waqqfuhom waqqafha iwaqqafha iwaqqfuni iwaqqfuhom jwaqqfuni jwaqqfuhom waqqfuha iwaqqafhom twaqqafna jwaqqaflu iwaqqafhomx nwaqqfuhom waqqfitu
+rċieva	rċievew rċeviethom tirċieva rċevewhiex irċievejna jirċivux jirċievuha rċevitx jrċevew
+valur	valurha
+użu	użi wżu
+talba	talbitu talbitha talbithom talbietu talbitna
+mexxej	mexxeja
+stqarr	stqarrewlu stqarritu nistqarruh jistqarrlek jistqarrlu nistqarruha jistqarrilha stqarrejtha stqarrhom stqarrejtlek nistqarrilkom
+renju	renjijiet
+tela'	jitilgħulek telgħetilha jitlalek titlalek jitilgħuha
+twieled	twieldulhom twieldux twildux
+università	universitài
+reġjun	reġjunijiet
+eżista	eżistitx
+wieġeb	twiġbux jweġibni jwieġbux wiġbux inwieġbuhom iwieġbuha jweġibna iweġibna weġibtek weġibthom iweġibni tweġibni
+attenda	jattenduh attendix jattenduhom attendewha
+ħallas	jħallasha ħallaslu jħallashom jħallaslu iħallashom ħallashom iħallaslu jħallsuhom iħallasu ħallsuh inħallsulha ħallsulu jtħallsu iħallsuh nħallsuha
+waqa'	waqgħetilhom waqawli waqaw waqgħetlu waqalu waqat jaqalna waqgħetli waqgħtilhom jaqtu waqgħulu waqgħulha jaqgħulha
+bieb	bwiebha bwiebek
+sejjaħ	sejjaħlu jsejħulha jsejħulu isejjaħlu jsejjaħlu jsejħulhom nsejħulhom sejħulu nsejħulu sejjaħli issejjaħlu isejħulha nsejħulha ssejjaħlu insejħulu sejħulha isejħulu insejħulhom sejħitlu nsejjaħlu insejħulha isejħulhom
+prodott	prodottaw
+dam	dametx
+bidla	bidlitu bidlithom
+repubblika	repubblikana
+niżel	tinżilli niżluh niżlitilhom nżulha niżluk niżlitilha tinżillek niżletx jinżillha niżlitu tinżillu tinżillix niżlitli
+mistoqsija	mistoqsijijiet
+ħabib	ħbiebu ħbiebek ħbiebi ħbiebhom ħbiebha ħabibtha ħbiebna
+ġenitur	ġenituru
+għolja	għolji
+daqs	daqshiex
+magħmul	magħmulha
+qabad	maqbuda qabduh qabditu maqbudin jaqbadhom jaqbadni qabadha qabadhom qabditha jaqbduhom jaqbadha qabduhom naqbadlu taqbadha taqbadni qabdithom nqabadx jaqbduh jaqbduni
+laqa'	laqgħuh jilqgħuh laqgħuna nilqgħuh nilqgħukom laqgħuni laqgħetu jilqgħuni jilqgħuha milqugħha laqgħuhom laqgħuhx laqgħetek laqtek nilqgħuk
+għażla	għażlitu għażlitna għażlitha
+ngħaqad	ngħaqdetx jingħaqadha
+fakkar	tfakkarna ifakkarna tfakkarni jfakkarna ifakkruna infakkrukom ifakkarni tfakkarha jfakkruna jfakkarni infakkarkom jfakkruk fakkarni ifakkruni fakkruna fakkritni ifakkruk tfakkarhom infakkruhom infakkruh fakkritu fakkarhom
+ddeċieda	jiddeċidi tiddeċidi jiddeċidiha tiddeċidiha tiddeċidihom jiddeċidu jiddeċiduh jiddeċidilna tiddeċidih niddeċieduha ddeċidewhom
+stampa	stampahom jistampawlu tistampah stampaha jistampah jistampalna stampawha jistampahom stampili jistampawhom jistampawlhom
+biddel	biddilha biddillu inbiddluha jbiddluh ibiddluh biddlitilha nbiddluha biddlitu jbiddilha biddluhom jbiddlulhom tbiddillu biddilli ibiddlulkom jbiddluhx biddiltha jbiddlulna
+fittex	jfittxuh ifittxuh tfittixhom tfittxuni jfittxuha nfittxuh fittxitha jfittxuhom tfittixha jfittxuna jfittixhom ifittixhom ifittxuk fittixha tfittixnix nfittixu fittxuna tfittxuna
+żar	jżuruh jżuruha jżuruna jżuruhom żarha jżurna iżurna iżuruh iżurha żaruha żaruh jżurha iżuruna żaruna miżjura iżuruha iżżurhomx iżuruhom jżurhom
+ġabar	miġbura miġburin jiġborhom ġabarhom jiġbruh jiġborha tiġborna jiġbruhom jiġbrulu tiġborha tiġborhom inġbarna nġbarna niġbruhom iġborni jiġbruha ġabruha ġabruh
+moħħ	imħuħna mħuħna
+temm	mitmuma temmlu ntemmlu temmewha temmitlu itemmlu jtemmuh intemmuha jtemmha itemmha ittemmilna ntemmilhom jtemmlu jtemmuha intemmhom itemmhom
+ħajt	ħitanek
+miftuħ	miftuħha
+bank	banki banku
+pprovda	jipprovdilna tipprovdilhom jipprovdulhom jipprovdilu jipprovdilhom jipprovduh tipprovdihom jipprovdulna jipprovdulha tipprovdilna tipprovdilu tipprovdilha jipprovdulu pprovdielna jipprovdihom jipprovdilha pprovditilhom pprovdewlu
+ġebel	ġbla ġebli
+sfida	jisfidah tisfidana jisfidana sfidawhom jisfidahom jisfidani jisfidawna tisfidah sfidah sfidani sfidatha nisfidak sfidahom jisfidak nisfidahom jisfidaha tisfidalu
+segwa	jsegwuh segwitu isegwiha isegwuh jsegwihom isegwih isegwihom jsegwiha issegwih jsegwuhom insegwihom jsegwuna nsegwih segwieh jsegwih segwewha segwewhom insegwih jssegwu
+suġġett	soġġetti
+kitba	kitbietu kitbiethom kitbieti kitbitu kitbietna kitbithom kitbitux kitbietha
+mess	missili messu jmisshom misshom jmissna imisshom imissna imissha messhom jmissha imissni imissek messha mimsusa missha tmisslek messitna messux jmissniex tmissha
+qaddis	qaddisha qaddishom qaddistna
+opportunità	opportunita
+re	rina
+tlieta	tlett
+tramuntana	tramuntani
+rabat	marbuta marbutin rabtulu norbothom rabtuh rabtuha rabatha jorbtuna torbotna jorbtuni jorbotha jorbtuh torbothom jorbtuhom jorbothom norbtuhom jorbotni jorbotna norbotha jorbtuha rabatna rabathielna
+ftakar	niftakarni jiftakruh jiftakarha niftakarha niftakarhom jiftakarhom niftakruh tiftakarha jiftakruhom niftakarhomx jiftakarhomx niftakruha jiftakruha tiftakarhom jiftakruni niftakruhom tiftakruha ftakartni niftakruk jiftakruk tiftakarhiex ftakarni niftakarhiex
+ġid	ġidu ġidha ġidhom ġidek ġidkom ġidna
+punent	punenti
+prezz	prezzu prezzhom prezzi
+però	pero
+investiment	nvestiment
+le	lex lek
+xandar	jxandarha jxandruha mxandara nxandruhom ixandarha ixandarhom ixxandarha jxandruhomx ixxandruh jxandarhom xandritha xandruh inxandrulkom
+attiv	attivat jattiva tattiva attivatx jattivaw attivaw
+qara	jaqraha moqrija taqrahom taqralu taqrah naqrawha jaqrah jaqrahom taqraha naqrawhom qrajthom jaqrawlu jaqri jaqrawha qrawha taqrawha taqrawhom aqrahom jaqrana jaqralhom
+għada	għadiex għadieh
+nar	narhom
+wirt	wirthom wirti wirtijiet
+rabta	rabtitu rabtieti
+aċċetta	naċċettawha aċċettaha jaċċettaha jaċċettahom naċċettaha aċċettahx aċċettawha jaċċettawha jaċċettah aċċettatha jaċċettahiex aċċettawni aċċettawlu aċċettani aċċettahiex jaċċettawna taċċettaha jaċċettana naċċettawhom aċċettajthom
+inċident	nċident
+tgħallem	tgħallimhom tgħallimha jitgħallimha jitgħallmuha nitgħallmuhom tgħallimtha jitgħallmuh titgħallimha tgħallmuh tgħallimnieha nitgħallimha tgħallimtuh tgħallmuha tgħallmuna tgħallmuhx tgħallimlu jitgħallimhom tgħallmitu
+ħodon	ħdanha ħdanu ħdanhom ħdanek ħdani
+seba'	seba
+imħabba	imħabbitu
+test	testi tistu
+għalaq	għalquha jagħlqulu jagħlquh nagħlquhom jagħlaqha għalqitlu tagħlaqha għalaqlu jagħlaqlek jagħlaqlu jagħlquhom jagħlaqhom jagħlaqna jagħlqulna għalaqhom għalqulna għalqulhom għalquh nagħlqulek tagħlaqhom tagħlaqlu
+ħabb	iħobbha tħobbni nħobbuh ħabbna tħobbhom jħobbhom nħobbha inħobbhom nħobbok iħobbhom jħobbna jħobbuh ħabbhom jħobbha iħobbuh ħabbha ħabbejtni jħobbni nħobbhom tħobbok iħobbna
+ppubblika	ppubblikahx jippubblikawhom ippubblikaha jippubblikahom jippubblikahx ppubblikahom nippubblikawhom jippubblikaha jippubblikah tippubblikah tippubblikahom ippubblikalu ippubblikatu nippubblikahx
+appella	nappellalkom appellalu appellawlu nappellawlu appellalhom nappellawlkom appellalna nappellalek jappellaha
+żviluppa	jiżviluppaha żviluppaha żviluppah jiżviluppah tiżviluppahom jiżviluppawlu żviluppalhom niżviluppawhom tiżviluppah jiżviluppahom niżviluppawha niżviluppah żviluppawna żviluppalu żviluppajniehom jiżviluppawlek żviluppawha żviluppahom
+ddikjara	jiddikjarah ddikjaraha ddikjarah iddikjaraha niddikjarah tiddikjaraha jiddikjaraha ddikjaratha jiddikjarawhom niddikjarawha ddikjarahom tiddikjarahom jiddikjarawha ddikjarawhomx jiddikjaralna jiddikjarak
+port	porti
+poġġa	jitpoġġa tpoġġew tpoġġiet titpoġġa mpoġġija poġġieh poġġiha inpoġġuh tpoġġih poġġihom jpoġġih poġġih tpoġġiha poġġewhom inpoġġuhom jpoġġuh jpoġġuhom poġġietu tpoġġieh poġġiehom impoġġija inpoġġuha
+organizza	norganizzawha torganizzahom jorganizzaha norganizzahom organizzawlu organizzawha jorganizzawhom jorganizzahom jorganizzalhom organizzalu jorganizzalu organizzawlha organizzathom norganizzawhom organizzalhom jorganizzawlhom norganizzawlkom jorganizzawha jorganizzah
+dħul	dħuli dħulijiet
+għajn	għajnejh għajnejhom għajnejna għajnejha għajnejkom għajnejnhom għajna
+bagħat	jibgħatu bagħtuh nibgħatu bagħatni jibgħatha jibgħathom bagħatlu jibgħatilhom jibgħatilha bagħatli jibgħatli bgħat bagħathom jibgħatux bagħatha nibgħatlu jibgħatlu jibgħatilna tibgħatlu bagħatna bagħtuhom nibagħtuhom nibagħtuh bagħtitilna ibgħatu jibgħatna
+gawda	jitgawda titgawda jgawdihom ngawduha jgawduh ngawduhom tgawdiha ngawduh jgawdih igawdiha igawduh jgawdiha ingawduhom ingawduh ngawdihom tgawdih ingawduha ngawdih ingawdihom
+tagħlim	tagħlimu tagħlimek
+għaraf	ngħarfu jgħarfu għarfuh jagħrafha għaraftek nagħrfuh jagħrfuh jagħrafni tagħrfuh nagħrfuha nagħrafhom tagħrafni għarfitu jagħrafu
+stabbilixxa	jistabilixxi stabilixxew tistabilixxi jistabilixxu stabilixxiet stabbilewha nistabilixxu stabilixxewx jistabbilixxih jistabbilixxini stabbilitx stabbilithom jistabbilixxuh stabbilixxaha stabbilixxahom stabbilietha stabbilietu stabbilixxietha
+naqqas	tnaqqsulhom jnaqqaslu naqqsulhom tnaqqaslu inaqqaslu jnaqqashom naqqasnielu jnaqqasli nnaqqashom tnaqqsulu naqqasnieh inaqqasha jnaqqsuha jnaqqasha inaqqashom naqqasli
+mezz	mezzu
+xtara	mixtrija jixtruhom jixtruh tixtriha jixtriha jixtrihom tixtrih nixtrihom xtrajtha xtrajtlu mixtrijin nixtrihomx tixtrili nixtrilu nixtriha jixtrulu jixtrulha jixtrih tixtrihom nixtrilha xtrajthom jixtruha xtrajtilha
+tfisser	tfissruh
+sid	sidu sidhom sidha sidienhom sidienu
+arma	armiha jarmahom tarmah armajtha armah narmawhom jarmaha narmik narmahom narmiha tarmahom narmaha narmihom jarmawha armathom jarmawhom
+nazzjon	nazzjoni
+kwalità	kwalita
+bidel	mibdula mibdulin bidilha nibdluha bidlulu jibdilna nibdluhom bidillu bidlitlu jibdluha jibdluh inbdilna bdilthom bidilli tibdilna jibdluna jibdlulek inbidillu bidluha jibdlulu jibdillu
+futur	futuri
+xehed	xehedu jixhduh xehedx jixhedx jixhduha
+ħdejn	ħdejnu
+wied	wiedhom wieds
+skop	skopi
+sigurtà	sigurta
+proprjetà	propjeta proprjeta
+qawwa	iqawwiha tqawwilhom tqawwihom qawwietu jqawwini mqawwija tqawwih qawwithom iqawwulna tqawwilu jqawwihom qawwietha tqawwilek tqawwilna jqawwih jqawwilu tqawwili jqawwiha jqawwilna iqawwilha
+ħtieġa	ħtiġiethom ħtiġijietu
+opera	joperahom joperah joperani joperawha toperaha operawha
+ordna	ordnatlu ordnawlha ordnawlu ordnawlhom ordnawlna jordnawlek ordnajnielkom nordnawlhom ordnajtilkom jordnawli ordnajtli ordnajtlek jordnawlna nordnawlu jordnawlkom ordnawhom ordnathom
+oġġett	oġġettu
+verità	verita
+wirja	wirjietu
+indika	ndikat indikalhom ndika ndikaw jindikah jindikalhom ndikawlu tindikalek jindikalna tindikah jindikawlu jindikahom ndikawli indikatilna indikawlna jindikawli jindikaha ndikawx jindikawlhom indikawlhom indikalna tindikalna tindikaha indikathom jindikalu indikaha indikawlu
+ddiskuta	niddiskutuha ddiskutihom ddiskutejtha tiddiskutih jiddiskutih jiddiskutuh jiddiskutiha tiddiskutihom niddiskutuhom niddiskutiha niddiskutihom jiddiskutihom jiddiskutiex iddiskutiha iddiskutejtha ddiskutieh ddiskutix jiddiskuta jiddiskutuk iddiskutejtuh
+unur	unuru
+ħarab	jaħrabhom ħarablu ħarbulu naħrablu jaħrabha ħarbitli jaħarbulna ħarabli jaħrabli ħarbtilna taħrablu jaħarbulhom taħrabhom naħrabha taħrabilna ħarbitlu taħrabli ħarbulha ħarbitilha ħarbitlek ħarbulna naħarbuhom
+tenna	imtennija tennieh mtennija ntennuha intennuh jtennulek tennejtli tennieli tennielu
+impjieg	mpjiegi
+mela	mlewna imlielek jimlewna jimliena jimliehom imlieni timlielhom jimluna jimlieni imlewna timliena timliek jimlielek jimlewha imlewhom imliena timliehom jimlewhom mlietu timlieni imlejtha imlietu imlitni jimlewhielu
+żwieġ	żwieġhom żwieġkom żwieġna
+banda	bandana banditi
+awtur	awturu
+kiser	miksura kisirha miksurin jiksirhom jiksruha jiksirha tiksirha kisirli jiksruhom kisrulux jiksrulhom jiksrulha jiksruli kisirni tiksirhom niksruhom kisirhiex kisruha niksirlu tiksirli kisrulu
+applika	napplikawha japplikaha applikaha applikatli applikatha japplikalna tapplikaha japplikawha napplikahom napplikaha japplikahom tapplikahom napplikawhom applikahom applikawha japplikawhom
+tefa'	mitfugħa mitfugħin tefgħuh jitfgħuha tefgħuni jitfgħuh tefgħetu jitfgħuhom tefgħetni tefgħetna tefgħetha jitfgħulha tefgħuhom nitfgħuhom jitfgħuk jitfgħulu tfajtha tefgħuha titfgħuh tefgħuna jitfgħuna
+ras	rasu rashom rasha rasi rasna rasek raskom irjushom
+attenzjoni	attenzjonijiet
+nfetaħ	infetħulhom infetħulu infetaħli jinfetaħlu
+kors	korsi
+ħlas	ħlasi ħlaskom
+telfa	telfitu
+rritorna	rritornawha jirritornawha jirritornawhom rritornatha rritornawhom
+sewa	tiswielek tiswiha jiswielu jiswina swietu jiswielna jiswieha swiehom swewlha tiswilhom swietlu swietli jiswieli jiswielhom tiswielu swietna swietilhom jiswielek swielu jiswielkom swieli tiswielna jiswini jiswewlek tiswielhom swiethom swielha
+rringrazzja	nirringrazzjakom rringrazzjahom nirringrazzjak nirringrazzjah nirringrazzjahom jirringrazzjah irringrazzjah rringrazzjah nirringrazzjawhom jirringrazzjahom rringrazzjaha jirringrazzjani nirringrazzjawkom irringrazzjahom jirringrazzjawna tirringrazzjahom nirringrazzjakhom nirringrazzjahx jirringrazzjak irringrazzjatu rringrazzjajthom
+qata'	maqtugħa maqtugħin qatgħulu qtajtha qatgħetha naqtgħuha qatgħetlu qatgħuli qatalu jaqtgħulhom jaqtalu qatalux taqtiha qatgħulhom
+rtira	jirtiraha irtirahom irtiraha rtirawhom irtiralhom tirtirah jirtirawlu irtiratlu jirtirahom jirtirah
+eleġġa	eleġġewhom eleġġihom eleġġieh eleġġewni eleġġewkom eleġġih eleġġuh
+kelliem	kelliemi
+bata	jbatiha batik tbatih batuh nbatuhom batitu jbatihom
+figura	figurina
+tema	temijiet
+ppropona	pproponielha pproponielu jipproponuh nipproponulkom jipproponulha nipproponulek jipproponuha nipproponulhom ipproponejtha ipproponielu pproponejnieh pproponieh ipproponietlu
+għeleb	jegħlibha għelbuhom negħlbuhom tegħlibna tegħlibni għelbitni jegħlibhom negħlbuha jegħlibni għelbitu tegħlibha għelibhom tegħlibhom jegħlbuhiex tegħlbuhom jegħlbuna jegħlbuha jegħlbuhom għelebhom megħlubha għelbuh għelbithom
+salib	salibek salibu salibna
+ddeskriva	iddeskrivieh iddeskriviha jiddeskrivuh tiddeskrivih ddeskrivieh ddeskrivih ddeskriviha ddeskrivietha jiddeskriviha tiddeskriviha iddeskrivietu niddeskrivih niddeskrivuhom jiddeskrivih ddeskrivewha iddeskrivewha ddeskrivihom iddeskrivitu ddeskrivah iddeskrivaha niddeskriviha jiddeskrivuha jiddeskrivilek jiddeskrivihom iddeskrivih ddeskrivietu
+trattat	trattatu
+kiel	mikula jieklux mikulin tiekolx kielulha jiekolna jiekluk kielilu tiekolha jiekluhom niekluh niekluha jiekolx
+esprima	jesprimiha nesprimuha esprimieh nesprimihom jesprimihom nesprimiha jesprimih esprimih jesprimuhom esprimietu nesprimih jesprimihiex tesprimihom jesprimuha
+sensiela	sensieli
+sema	semiti semih
+qabeż	qabiżni taqbiżlu maqbuża jaqbiżha maqbużin qabżitilu qabżuh qabżitlu jaqbżuha jaqbżuk jaqbiżhom naqbżuh qabżitilhom qbiżnieh naqbiżhom qabżitilha qabiżli jaqbżuh naqbżuha qabiżlek jaqbiżlek
+qala'	maqlugħa jaqilgħuha maqlugħin naqlalu jaqilgħuh qalgħuli taqlalu naqilgħuha qalgħuh qalgħuha maqlugħha jaqlalhom qalgħetlek inqlajna qalgħuna qlajniehom qalgħetilhom qlajnielu
+għar	għerieni
+qam	qamlu qamli iqumlu
+demm	demmhom demmna demmha demmek demmkom
+ċċelebra	jiċċelebrawha niċċelebrawha niċċelebrawhom tiċċelebraha tiċċelebrah niċċelebrah ċċelebratilhom iċċelebrahom jiċċelebrah
+faċilità	faċilita faċilta
+fdal	fdalu fdalha fdali fdalkom
+dehra	dehrithom
+tama	tamina titmahom tmajtuni tamana
+ġrajja	ġrajjietha ġrajjietu
+żejt	żejtu żejthom
+independenti	ndipendenti
+indirizza	ndirizza ndirizzat jindirizzahom nindirizzawhom nindirizzawha ndirizzax nindirizzah indirizzaha ndirizzaw nindirizzakom jindirizzaha ndirizzajna jindirizzah jindirizzawhom indirizzah tindirizzahom nindirizzawhomx nindirizzahom nindirizzaha jindirizzana indirizzahom indirizzani ndirizzahom tindirizzana jindirizzani
+ċaħad	miċħuda ċaħadhiex jiċħadhom ċaħduhom miċħudin ċħadthom ċaħditlu jiċħduh tiċħadni ċaħditu miċħudha ċaħadha niċħadha jiċħadha ċħadtni niċħadhom ċaħdulu tiċħadha tiċħadhom jiċħduha ċaħduha
+ħila	ħiltu ħilitna ħilithom ħilti ħiltek ħilitha ħiliethom ħilitkom ħilthom
+twettaq	jitwettaqu twettaqha twettaqhom
+ħeġġeġ	inħeġġiġkom tħeġġiġna ħeġġiġhom tħeġġiġhom nħeġġiġkom ħeġġithom inħeġġuhom inħeġġukom iħeġġuna jħeġġiġna iħeġġiġhom nħeġġuhom iħeġġiġna ħeġġiġni nħeġġiġhom ħeġġuha jħeġġuhom iħeġġuhom inħeġġuk nħeġġukom jħeġġuna ħeġġitu
+ħatar	maħtura maħturin jaħtruh jaħtarha ħatarha ħatarni ħatritu ħatrithom ħatruh jaħtarhom ħatarhom ħatritni jaħtarlu
+ammetta	ammettihom nammettih nammettuha tammettiha ammettih jammettuhx jammettiha jammettihiex jammettuh ammettiha ammettietu ammettejtha
+assigura	nassigurak nassigurakom assigurana jassigurana jassigurah tassigurahom assigurathom assigurawhom jassigurahom nassigurah assigurah assigurahom nassigurawkom jassigurawna jassigurani assiguratni nassigurahom assigurani assiguratlu tassigurana nassigurawlkom nassigurakhom jassiguraha tassiguraha assigurawna assiguratna
+kkunsidra	jikkonsidra tikkonsidra nikkonsidraw kkonsidrat jikkonsidraw jikkunsidrahom jikkunsidraha jikkunsidrahiex nikkonsidra jikkunsidrawhom jikkunsidrah tikkunsidrah nikkunsidrah nikkunsidraha tikkonsidraw ikkonsidrat tikkunsidrahx nikkonsidrawha nikkunsidrawha kkunsidrah
+sejħa	sejħietu sejħitha sejħitu
+diffikultà	diffikulta
+qaddes	iqaddisha iqaddishom nqaddsuh jqaddisna jqaddisha tqaddisha jqaddisli
+ddependa	jiddipendi tiddipendi jiddipendu tiddipendix niddipendu jiddipendux ddipendiet
+laqat	milquta milqutin laqatni laqtitni laqtitu jolqtuna jolqotni tolqotni laqtuni laqatha jolqotna tolqotna laqtuh laqtithom laqathom jolqotha jolqtuhom tolqotha jolqtuhx laqtitilha tolqothom laqtitha jolqtuh laqtitna jolqtuk
+kittieb	kittiebs kittiebu
+sinjur	sinjurina
+binja	binji
+dmir	dmirijiethom dmirijietu dmirijietha dmirijietkom dmirijietna dmirijieti
+libes	milbusa jilbisha jilbsuha jilbsuhom nilbisha jilbsuh tilbishom ilbistha nilbishom lbistha tilbesha milbusin libsuh jilbishom libesha libsuha
+talb	talbna talbi talbhom talbek talbkom
+xewqa	xewqtu xewqithom xewqitha xewqitna xewqti xewqatha xewqatu
+qatel	maqtula qatluh joqtluh joqtluhom qatilha joqtolha joqtolhom qatilhom joqtluha maqtulin qatluhom qatlulu noqtluh toqtolha qatlitlu toqtollu qatillu joqtluni qatlithom joqtolkom toqtluni joqtolni noqtluhom
+magħluq	magħluqha
+libertà	liberta libertina
+deheb	dehebi
+dawwar	jdawwarha jdawruha dawruh jdawwarni iddawwarha dawwarha dawwarhom indawwarlu idawruh jdawruhom dawruha idawwarni dawwarni jdawwarna ddawwarha jdawwarhom ddawwarna dawruhom ndawruha
+daqq	idoqqha jdoqquha idoqqilhom idoqqlu ndoqquha daqqu daqqlu idoqqulna daqquha idoqquli ddoqqilha jdoqquh ddoqqilna doqqna jdoqqlok daqqitlix idoqqlok indoqqhom
+qatta'	iqatta inqatta qattajtha nqattgħuhom jqattgħuk nqattgħuha iqattgħuh jqattgħuh nqattgħuh qattgħethom qattgħetu qattgħuhom
+għola	togħli
+żżewweġ	jiżżewwiġha iżżewwiġha iżżewġitu żżewwiġha żżewwiġtha niżżewwiġha jiżżewwiġhom jiżżewġuha jiżżewġuni iżżewwiġtek jiżżewġuhom jiżżewwiġni żżewwiġu żżewġitu żżewweġu
+bint	uliedhom uliedna uliedu uliedha wlied wliedhom wliedu wliedna uliedek wliedha uliedkom wliedkom wliedek
+salva	salvatu isalvawlu isalvana isalvah salvana jsalvah jsalvahom jsalvana salvawha salvalu salvathom salvalha salvahom isalvaha nsalvawhom jsalvaha salvawni salvani salvah isalvahom salvaha insalvah salvajtuni salvatni jsalvakx
+resaq	ersaqna resqithom resquhom
+tella'	ittella itella intella ntellgħuhom titella tellgħuh tellgħuhom jtellgħuhom jtellgħuh jitella ntellgħuh tellajtli itellaw ittellgħuni
+stħarreġ	jistħarrġuhom
+ġġieled	niġġieldulu ġġieldux ġġielidna tiġġieledha
+fehma	fehmtu fehmithom fehmitu fehmietkom fehmitna fehmiethom fehmitha fehmti fehmieh fehmieti fehmietha fehmietu fehmi
+qeda	moqdija jaqdih jaqdik taqdihom jaqduh jaqdini jaqdihom naqdik taqdih moqdijin taqdina jaqdina naqduh jaqduk taqdik naqdihom jaqduha jaqduhom qdiethom qdietek qdietu jaqduna
+investa	nvesta nvestew nvestejna jinvestulha nvestit jinvestihom nvestiet jinvestiha nvestewx nvestiex ninvestuha investewhom jinvestuhom
+żvela	żvelah żvelatu żvelalna niżvelahom żvelawha żvelaha żvelahiex
+tejjeb	jtejjibhom jtejbuh ntejbuh ntejbuha ittejjibha intejbuh tejjibhom itejjibhom itejbulhom ntejbuhom ittejbulhom jtejbulna jtejjibha ittejjibhom ittejjiblu itejjibha
+qassis	qassisu
+rrapporta	rrappurtawlu rrappurtawni jirrappurtawhom rrapportawhom
+nieda	tnedijiet tnidijiet mniedija
+radju	radjijiet radjui
+neħħa	imneħħija mneħħija neħħiha neħħewlha jneħħiha neħħielu ineħħulu ineħħuh neħħihom neħħielux neħħilha tneħħilu tneħħihom neħħewha neħħewilu jneħħuh tneħħilhom inneħħih
+induna	ndunaw ndunax ndunajt ndunat ndunajna ndunawx ndunajtx ndunatx ndunajniex ndunajtu
+saq	misjuqa insuqha ssuqna isuqhom issuqha ssuqhom insuqek isuquha jsuqha saquhom misjuqin isuqha
+wiesa'	wiesa
+faqar	faqarha
+arresta	tarrestah arrestahom arrestah jarrestah jarrestawhom arrestawha jarrestawna jarrestahom arrestatu
+qassam	qassamhom jqassmuh inqassmuhom tqassmulhom jqassamhom qassmuh jqassmuhom jqassmuha iqassamha nqassmuhom iqassmuhom iqassamhom tqassamha inqassmuh iqassmulhom nqassamha qassamli jqassamha iqassmuh tqassmuhom qassamthom
+pproduċa	jipproduċuhom tipproduċa jipproduċuha tipproduċihom tipproduċieh jipproduċuh nipproduċuh jipproduċiha jipproduċih pproduċewha ipproduċietu
+ttama	jittamawna ttamawhom
+ntbagħat	ntbagħtulu ntbagħtitilhom ntbagħatu intbagħtetlu jintbagħatu
+apprezza	japprezzah napprezzawhom japprezzaha tapprezzaha napprezzawha japprezzawhom napprezzah japprezzahom japprezzawha japprezzahomx apprezzathom japprezzahiex tapprezzah apprezzawkom tapprezzahx apprezzajthom apprezzajnieh japprezzawni apprezzawha tapprezzahom
+xatt	xtutna xtutha xtuthom
+industrijali	ndustrijali
+ġarr	ġarru ġarrha iġorruh iġorruhom nġorrkom ġarritni nġarru iġorrha nġorruh inġarru jġorruhom ġġorrhom jġorrha nġorruhiex jġorrni jġorrna jġorrhom iġorrhom ġarrni
+siġġu	siġġi
+eżami	eżamii
+self	selfu selfuh selfuha
+dnub	dnubietna dnubiethom dnubietek dnubietu dnubieti dnubu dnubietkom dnubietha dnubi dnubek dnubhom dnubijiethom
+fadal	fadallu fadalli jifdallu fadallek fadallux jifdallek fadallhom fadallix jifdalli jifdallix fadalu jifdallux
+ntilef	tintiliflek jintilefx jintilfulek tintiliflu
+qarib	qaribu qaribitha
+okkupa	okkupatu jokkupaha okkupaha okkupah okkupawha okkupatha jokkupawha jokkupah okkupawhom tokkupalha jokkupawhom
+rotta	rotti
+bbaża	ibbażaha bbażahom bbażatha bbażaha tibbażah
+nkiteb	jinkitbulu
+ddefenda	jiddefendihom jiddefendih jiddefenduh jiddefendiha jiddefenduhom jiddefendina jiddefenduha niddefenduha ddefendih niddefendih tiddefendina niddefenduh tiddefenduha jiddifendu niddefendik jiddefendinix tiddefendini jiddifendih jiddefendini tiddefendih tiddefendihom
+kopra	jkoprilna tkoprilu
+ħwejjeġ	ħwejjiġhom ħwejjiġkom ħwejjiġha ħwejjiġna
+kkontribwixxa	jikkontribwixxa
+ammonta	jammontawhom
+għaqqad	jgħaqqadhom tgħaqqadhom jgħaqqadna jgħaqqduhom tgħaqqadna jgħaqqadha tgħaqqadha għaqqadha għaqqditna għaqqadhom ngħaqqduh jgħaqqduna jgħaqqadni jgħaqqduha għaqqdithom ngħaqqadha għaqqadni ngħaqqduha għaqqadniehom għaqqditu jgħaqqduh
+żgura	żgurah żguratlu jiżgurana niżgurakom tiżgurani jiżgurah tiżgurana niżgurak jiżguraha tiżguralu jiżgurahom jiżgurawlna żgurawha
+tmexxa	jitmexxu tmexxieh titmexxax
+kkonkluda	jikkonkludih ikkonkludieha kkonkludieh tikkonkludiha
+possibilità	possibilita possibilta possibbilta possibbilita
+uffiċjal	uffiċjalu
+ħelu	ħla
+baxxa	jbaxxuh baxxitx
+rieda	rieditha
+kapaċità	kapaċita
+twemmin	twemminu twemminhom twemmini twemminek twemminha
+xellug	xellugi
+vvjaġġa	jivjaġġa jivjaġġaw vjaġġaw tivjaġġaw
+wissa	twissijiet mwissija iwissina wissietu wissieh twissina wissiena jwissina wissiha wissithom wissiethom mwissijin wissiehom wissih wissejthom inwissih nwissikom twissini inwissikom iwissih wissewna twissew wissieni
+speċifiku	speċifikat jispeċifika tispeċifika jispeċifikaw speċifikax speċifikawx jispeċifikax speċifikaw nispeċifikaw speċifikajna nispeċifika tispeċifikax
+ħasel	maħsula taħsilhom taħsilli aħsilni jaħsluhom naħsluhom aħsilhom jaħsillek taħsilha naħsilhom taħsilni jaħsilhom jaħsillu naħsillu ħaslitli jaħsluh jaħslulhom taħselilhom
+mira	mirtu
+wegħda	wegħditu wegħdtu wegħditna wegħditha
+ġarrab	iġarrbuh iġġarrabni tiġribhom inġarrbuh jġarrbuna ġarrbuh tiġribi ġarrbuna iġarrabni
+twelid	twelidu twelidhom twelidi twelidha twelidek
+xeraq	jixraqlu tixraqlu jixraqilhom jixraqlux jixraqilha tixraqlux jixraqli jixraqilna xeraqlu
+klassifika	klassifikah
+attakka	attakkaha tattakkahom attakkatu attakkahom nattakkawha tattakkah jattakkawhom attakkawha jattakkak attakkatlu jattakkana jattakkawlna attakkawhom attakkawna attakkani jattakkaha jattakkahom nattakkawhom jattakkawha attakkathom jattakkah jattakkani
+falla	fallielu fallielhom jfalluna fallietli fallitlu jfalluha
+akkwista	akkwistaha jakkwistah akkwistah jakkwistahom jakkwistaha jakkwistalna nakkwistawhom takkwistaha jakkwistawha jakkwistawlna nakkwistaha jakkwistana akkwistalek takkwistahom jakkwistawni takkwistah akkwistahom
+xagħar	xagħaru
+wiegħed	wiegħdux wegħidtkom nwiegħduh wegħidthom twegħidhom nwiegħduk wiegħedx jwegħidni nwiegħedkom wegħidtha iwegħidna iwiegħduk wegħidtna jwiegħduk jwiegħedha
+ġenb	ġenbu ġenbha ġenbejha ġenbi ġenbejkom ġenbhom ġenbejh
+sodda	sodditha soddti soddtu soddtok
+ċempel	ċempillu ċempilli iċempillu iċempilli jċempluli ċempiltlu ċempluli iċemplulhom iċemplulu ċemplitlu inċempillu jċempillu jċemplulu nċempillu ċemplulna inċempillek jċempilli iċempluli jċemplulna iċemplulha ċempiltilha
+debutt	debutts
+ddedika	ddedikah iddedikah ddedikawha ddedikaha jiddedikah iddedikatlu niddedikah niddedikawha tiddedikah iddedikatli niddedikalhom iddedikawhom ddedikatlu niddedikaha ddedikalux jiddedikawha iddedikajtlu iddedikalu jiddedikalu ddedikalu
+tarf	tarfha tarfhom tarfu
+niżżel	niżżluh niżżlitu niżżillu niżżilha iniżżluha inniżżilha jniżżilha tniżżilha tniżżilhom niżżilhom jniżżluhom niżżluhom jniżżluha nniżżluh jniżżluh jniżżilhom iniżżilha iniżżluhom niżżluha
+identità	identita
+qagħda	qagħdi qagħdtu qagħdithom
+ħejja	mħejjija imħejjija jħejjina iħejjulhom mħejjiha imħejjijin mħejjijin ħejjielna iħejjina ħejjewha tħejjihom tħejjihomx tħejjina nħejjulu tħejjih iħejjihom ħejjih jħejjuk tħejjik
+leħen	leħenhom leħenha
+jisem	jisimhiex jismux
+approva	japprovahom approvathom approvaha napprovah japprovawhom napprovaha japprovah approvahom japprovaha approvawhom approvawha
+qalba	qlubna qlubkom qlubhom
+ħaddem	iħaddimhom iħaddmuha iħaddmuhom jħaddimha iħaddimha jħaddmuha nħaddmuhom ħaddimhom ħaddmuhom jħaddmuhom inħaddmuhom jħaddmuh jħaddimhom jħaddimni ħaddmithom inħaddmuh iħaddmuh ħaddmuh ħaddimha jħaddmulhom inħaddmuha
+hedded	jheddidha jheddidhom heddidhom heddidha heddidni theddidilha iheddidha jhedduna jhedduh jhedduhom hedduhom
+skuża	skużani tiskużah tiskużaha jiskużaha niskużah tiskużani skużawna
+saħħ	nsaħħuha jsaħħuha saħħha isaħħuha nsaħħuhom jsaħħuh nsaħħuh insaħħuhom jsaħħuli insaħħuh isaħħuk saħħewha saħħewhom
+intom	intomx
+emenda	jemendawha jemendahom jemendah jemendaha
+ffaċċja	jiffaċċaw jiffaċċa niffaċċaw tiffaċċa ffaċċat jiffaċċjawha ffaċċaw jiffaċċjakom niffaċċjawhom niffaċċawha jiffaċċjahom tiffaċċjaha niffaċċa iffaċċjajthom iffaċċjani jiffaċċjaha
+pont	ponti
+kanta	ikantaha kantana ikantawha jkantawha ikantahieli nkantah nkantawlu kantah inkantaha tikanti ikantawlu jkantawlu inkantat
+ħut	ħutu ħuti ħutna ħutha ħuthom ħutek ħutkom
+qabbel	tqabbilha inqabbluh tqabbilhom qabbilhom nqabbluh iqabbilha iqabbilhom qabbilha iqabbluh jqabbluh jqabbluhom qabbilthom inqabbilna nqabbluhom nqabbilhom nqabbilha iqabbluna tqabbilna qabblitna
+fassal	fasslitha fassalha fassalhom nfassluha nfassallu fassaltuh jfassluha fassalnieh jfassalhom jfasslulna fasslitilna ifassluh fassalnieha fassluha
+setgħa	setgħax setgħana
+faħħar	ifaħħarha faħħarha ifaħħarhom faħħruh ifaħħarlu faħħritha jfaħħruh infaħħruk nfaħħruk faħħritu faħħarhom ifaħħarni nfaħħruh ifaħħruna jfaħħruhom infaħħarha infaħħarlu tfaħħarna nfaħħarhom ifaħħarna
+ġieħ	ġieħna ġieħek ġieħha ġieħhom
+riħ	riħhom riħha
+kwart	kwartina
+introduċa	introduċieh ntrodott ntroduċa ntroduċiet ntroduċejna introduċiha introduċih ntroduċih ntroduċini jintroduċuhom jintroduċina nintroduċuhom introduċewlna nintroduċilkom jintroduċilek ntroduċieh tintroduċiha ntroduċejniex tintroduċihom introduċini jintroduċih introduċihom introduċieha ntroduċieni
+par	parhom paru
+deċiż	indeċiżi indeċiża ndeċiżi
+semma'	jissemma tissemma issemma ssemmew ssemmiet issemmiet issemmew isemma jissemmiex ssemmiex tissemmiex ssemmewx isemmiet insemma ssemmietx ssemmihom issemmili nissemma jsemmiex jisemma tissemmix issemmilhom ssemmejt issemmiha isemmieh issemmilna
+ċeda	jċedilu iċedulhom ċedilu nċeduh ċedejthom iċċedilhom ċediha nċedih iċeduli jċiedu ċedietha ċedielu ċedahom iċeduha ċediethom jċiedi ċedewha iċedulu
+kera	mikrija mikrijin kru tikrihom jikriha jikrih jikrili kruna tikrili jikruha krewlhom tikrilu jikrilna jikrilu kerah nikrulha
+artal	artalijiet
+ġabra	ġabritu ġabrithom
+sfond	isfondu
+ħaddan	jħaddnuha tħaddanna jħaddanha iħaddnuhom tħaddanha nħaddanhom iħaddanhom ħaddnuha jħaddanhom jħaddanhiex ħaddnuh iħaddanha jħaddnuhom jħaddnuh
+osserva	tosservahom josservawhom osservahom josservahomx josservahom josservaha josservah tosservah osservajthom nosservahom josservawna nosservawha
+impona	mposti mponew mponiet mpost mpona mposta imponietlu nimponuh mponielhom mponielu imponux
+dejn	dejna dejnu mdejna dejhom
+ġedded	inġedduh jġeddidhom iġedduh iġġeddidli jġeddidna iġeddidlu ġedditilna ġġeddidna jġeddidilha ġġeddidkom jġeddidlu
+rrispetta	jirrispettaha nirrispettah jirrispettawni nirrispettawhom nirrispettahom nirrispettawha tirrispettana jirrispettani jirrispettah tirrispettahx rispettatha irrispettah jrrispettaw rrispettani nirrispettak jirrispettana jirrispettaniex nirrispettaha jirrispettawna tirrispettah
+bomba	bombina
+għammar	għammarha jgħammruha jgħammarha jgħammarhom għammruha tgħammarha għammarhom jgħammruh
+nefaq	minfuqa jonfoqhom jonfquhom nonfquh nonfquhom nefaqha tonfoqhom jonfoqhomx jonfoqha jonfoqlok minfuqin nefaqhom nonfoqhom nefquhom jonfquha
+assi	assu
+ħaraq	maħruqa maħruqin ħarqulu jaħraqlu jaħarquh taħraqni taħraqhom jaħarquhom ħaraqhom ħarquhom jaħraqha jaħarquk jaħarquha jaħraqhom naħraqha ħarqitni ħarquha ħarquh jaħarquna maħruqha ħaraqni jaħarquhomx ħaraqlu ħarqulhom
+rrakkonta	jirrakontaw jirrakonta tirrakonta jirrakkontalu jirrakkontalhom rrakkontalhom nirrakontaw rrakontat tirrakontahom tirrakkontah jirrakontalna rrakontajna rrakontalu jirrakkontaha tirrakkontalna tirrakontalna nirrakonta jirrakkontalek tirrakkontalhom rrakkontalu rrakkontaha tirrakkontalu rrakkontawlhom irrakontat irrakkontawlu
+pinġa	mpinġija impinġija impinġijin pinġiha mpinġijin pinġieha tpinġilu jpinġilha jpinġuhom tpinġihom pinġielha pinġihom jpenġu ipenġi jpinġiha jpinġuh tpinġiha ipinġuh ipinġiha ipinġih jpinġih pinġewhom pinġiehom
+refa'	merfugħa merfugħin nerfgħuh jerfgħuni merfugħha refgħuh nerfgħuha refgħetha jerfgħuh jerfgħuha refgħuha jerfgħuhom jerfgħuk erfgħuha
+lejla	lejlietha
+safa	sfajtli
+ħabat	maħbuta ħabtuha
+tar	tarhom tarha tarna tarhomx
+għolla	mgħollija mgħollijin ngħolluhom għollieha jgħolluh imgħollija għollieh għollielhom jgħollulek ngħolluha għollielu għollietu ngħolluh jgħollulhom għollewhom għollietha
+qaleb	maqluba qalbitlu maqlubin qalibha taqlibha aqlibhom jaqlibha qlibtlu maqlubha qalibili qalibhom taqlibhieli qalibhielu taqlibhielu qalbuhom qalbuha
+innu	inni nni
+ħniena	ħnientu
+mejda	mwejjedi
+felaħ	tiflaħhom
+attira	jattirawhom jattiralu jattirahom jattirak tattiralek jattirah tattirani tattirah tattiralu
+weġġa'	iweġġa inweġġa jweġġgħuh weġġgħetni iweġġgħuk jweġġgħuni weġġajthom weġġgħulna weġġgħethom tweġġanix tweġġani weġġgħetu iweġġani iweġġgħuni
+raqad	norqodlok jorqdulek
+beka	jibkuh mibkija mibkijin bkejniek nibkuk nibkuha jibkiha nibkuh
+għana	mogħnija għenew mogħnijin għenietx jagħnuna
+ħabbat	jħabbtuha jħabbatha iħabbatha ħabbatlu ħabbtulu iħabbtuha tħabbatha jħabbtuni iħabbatlu jħabbtulu tħabbathiex ħabbathom iħabbatni iħabbtulna ħabbtuli jħabbtulek jħabbtuli iħabbathom ħabbtitna jħabbtuh ħabbtuh tħabbatni nħabbtulhom ħabbatha
+medda	medditu
+għerq	għeruqha għeruqu għeruqkom għeruqhom
+mina	minix
+stabbiliment	stabilimenti istabilimenti
+lok	lokha loku lokhom
+ddetermina	iddeterminawlna
+għajr	għajruh
+introduzzjoni	ntroduzzjoni
+stma	jistmaha tistmaha jistmah jistmawni jistmani stmawniex tistmah stmajthom nistmah nistmawkom stmawni stmawna jistmawna jistmawha stmawha jistmahom jistmawhom stmatha
+rnexxa	irnexxielu rnexxielu rnexxielhom irnexxielhom rnexxielha jirnexxielu irnexxielha jirnexxilu rnexxilux jirnexxilhom rnexxielna irnexxielna jirnexxielha rnexxielux jirnexxielna irnexxilu jirnexxielhom rnexxieli irnexxieli rnexxilhomx rnexxielhomx irnexxilhom rnexxilhom rnexxilu jirnexxilha rnexxilha jirnexxieli jirnexxielek rnexxilhiex jirnexxilek
+nifs	nifsu nifsek nifsha nifsi
+għajjat	għajjatlu jgħajjatli għajjatli jgħajtulha ngħajtulu jgħajjatha għajjatu għajjatlux għajjatlix tgħajjatlu għajtulhom jgħajtuli jgħajjatlek għajtuli jgħajjatlu għajtulha għajtulu jgħajtulu ngħajtulek
+sengħa	snajja
+kixef	mikxufa tikxifha jikxfuh jikxfuhom mikxufin kixfuh kixfitu kixifha tikxiflu nikxfuhom nikxfuh tikxifhom nikxfuha kixfuhx kixifhom nikxfulhom tikxifnix jikxfuha
+ħalaq	ħalaqhom ħalaqna ħalaqha ħalaqhiex ħalaqni joħloqha joħloqlok toħloqlu noħolqulhom joħloqlu joħolqulna joħolqulu toħloqha joħolquh toħloqilhom toħloqhom joħolquha toħloqlok noħolquhom noħolquh ħalaqkom
+aġir	aġiri
+iddeċieda	ddeċiedew iddeċiediet iddeċiedew ddeċiediet tiddeċiedix
+tal	tallu
+dgħajjef	idgħajjifha ddgħajjifhom idgħajfuha ddgħajjifha jdgħajfuha jdgħajjifhom dgħajfuh dgħajfitu dgħajfulu
+drawwa	drawwietu drawwietna
+ħobż	ħobżhom ħobżna ħobżu ħobżha ħobżkom ħobżok
+assista	jassistuha jassistuh jassistih jassistiha jassistuhom assistih nassistuhom jassistihom jassistina assistieh tassistihom nassistih
+indikazzjoni	ndikazzjoni
+ħassar	imħassara tħassarhom nħassarha tħassarlu ħassarha jħassarha ħassritli tħassarha ħassruh jħassarhom jħassarlu nħassruh
+għajxien	għixienhom
+ħakma	ħakmitu ħakmitna ħakmitha ħakmithom
+rkupra	jirkuprah jirkuprahom rkuprah irkupraha tirkuprahom
+infezzjoni	nfezzjoni
+stieden	stedinha stedinhom jistedinna tistedinna jistedinni stidnux nistiednuk stiednuh jistiednukom stedinnieh stiednuni jistiedinna nistiednuh nistiedinkom tistiedenek
+nqata'	nqattlu nqatgħetlu inqattlu inqatgħulhom nqatgħetilhom tinqatalu jinqatgħulu inqatgħetilhom nqatgħetilha inqatgħulha
+ħataf	maħtufa ħatfuha ħataflu jaħtafhom ħatafni ħatafha jaħtaflu ħatfuh jaħtafha jaħtfulek ħtafthom ħatafli ħatfuni ħatfithom jaħtfuna ħatfitha naħtfuhom jaħtafna ħtaftha jaħtfuha jaħtfuh
+ħoss	ħossok ħosshom
+flokk	flokku
+palk	palks
+akkademja	akkademji
+fada	tafdah tafdahom jafdah afdat jafdahom fdajthom jafdawni afdalu fdawha tafdani jafdahx nafdah fdatha jafdawhom afdajt fdajtilhom fdawli afdalek afdajtilhom fdajtuli nafdakx afdalha fdawlhom afdajtilna afdawkom
+affettwa	jaffettwah taffettwah affettwalu jaffettwani taffettwahom jaffettwawna jaffettwahom taffettwana affettwatek jaffettwawhom affettwatu taffettwalhom jaffettwaha affettwah affettwatha taffettwani affettwatlu taffettwak taffettwakx jaffettwawlek jaffettwawlna affettwani jaffettwawli taffettwalha jaffettwawni taffettwaniex taffettwalek affettwatna taffettwanix
+mogħdija	mogħdiji
+warrab	twarrabha iwarrabha twarrabhom iwarrabhom iwarrbuh jwarrbuhom jwarrbuni warrbuhom warrabha warrbuha iwarrbuni jwarrabha nwarrbuha inwarrbuhom warrbithom warrabhom inwarrbuh
+ħolma	ħolmithom ħolmieti
+awgura	nawguralkom awguralhom jawguralu nawguralek nawgurawlhom nawguralu nawguralhom awgurawlu awguralu nawgurawlu tawguralu nawgurawlha jawguralha awgurawlha awgurawli awguralha awgurawlna nawgurawlkom jawguralhom
+difen	midfuna midfunin difnuh difnuhom jidfnuh jidfnuhom jidfnuha indfinna jidfinni tidfinna difnuha jidfinha jidfinhom difinhom
+ħallat	inħalltuh jħalltuhx jħalltuh ħallathom iħalltuh jħallathom tħallatni tħallatnix ħalltuh iħallatha jħalltuha nħalltuhom iħalltuha tħallatna inħalltuhom tħallathom
+ġens	ġensna ġensu ġenshom ġensha ġensek ġensi
+ħakem	maħkuma maħkumin ħakmuhom jaħkimhom ħakimna jaħkimha taħkimhom ħakimhom jaħkimna jaħkmuna taħkimna ħakmuna ħakimha jaħkmuhom jaħkmuniex ħakmitni jaħkmuk ħakmuha ħakimni jaħkmuh ħakmuh ħakmulu ħkimtha taħkimha
+avvanza	javanzaw avanzat javanza avanzaw avanzajna
+qanqal	tqanqalna jqanqalna tqanqalni jqanqlulek qanqlitu jqanqluli qanqlitek iqanqalni tqanqalli tqanqalniex qanqalli qanqlitilhom jqanqlulna jqanqluna jqanqalni qanqalhom tqanqalhom iqanqalli jqanqalha tqanqluli qanqalni qanqlulu tqanqallek qanqallu
+folla	folli
+xorob	tixrobhom xoroblu xrobnieh tixrobilna xorbuh nixrobha tixorbuh xorobni tixroblu jixrobilna jixorbulu jixrobha xorbulu xorbulhom
+waħħal	nwaħħluh inwaħħalhom inwaħħlulhom iwaħħluha inwaħħalu waħħlitulu waħħaltha iwaħħlulhom waħħlitulna jwaħħlulna waħħlitu inwaħħluhom waħħalha nwaħħluhom
+eskluda	eskluditx eskludiha tiskludi jeskludiha jeskluduha eskludietu jeskludihom teskludihom
+impressjoni	mpressjoni
+rebbiegħa	rebbiegħti
+far	tforni jfornu forniet ifornu iforni jforni fornew jfornuhom ifornuhom nfornux
+naddaf	jnaddafha jnaddafhom naddafha jnaddafna jnaddfuh inaddaflu naddfuh inaddafna inaddafni innaddaflu
+dinjità	dinjita
+enfasizza	nenfasizzah
+glorja	glorji
+laħam	laħamhom laħamna
+inkwieta	nkwetat nkwetaw nkwetatu nkwetajt jinkwetawna jinkwetawni inkwetatha nkwetajna jinkwetawhom inkwetawni nkwetatha nkwetawhom nkwetatni inkwetatni ninkwitax nkwetajtu
+kant	kantha
+dejjaq	idejquh jdejjaqni idejjaqni jdejquni dejqitni idejquni dejqitu dejqithom idejjaqhom idejquha jdejjaqhom dejjaqhom jdejquna dejjaqni idejjaqkom idejjaqna jdejquha jdejjaqnix jdejqunix dejjaqha
+biegħ	mibjugħa jbigħhom biegħha bigħuha bigħuh ibigħhom jbigħuh tbigħhom bigħha jbigħulhom biegħethom nbigħuh jbigħulu jbigħlu jbigħlek nbigħuha biegħuhom mibjugħin biegħuh mibjugħha biegħuha ibigħuh
+stima	stimat tistima jistima nistima stimaw
+ħġieġ	ħġieġi
+kisser	kissirha kissirlu kissirilha ikissruk kissirthom tkissirna inkissruha jkissirha ikissruhom ikissruli kissrulhom ikissirhom jkissrulek kissritni kissruna jkissirni ikissirlu tkissirlu ikissirna kissritu kissritna inkissruh tkissrulhom
+serqa	serqitu
+għid	għidli għidilhom għidilna għidlu għidilha
+orkestra	orkestrahom
+ppromwova	nippromwoviha jppromwovi nippromwovuha jippromwovuha jippromwovihom ppromwovewlu ppromwovih
+bniet	bnietek bnietu bnietha bniethom
+nqered	nqerditilhom
+strieħ	striħux jistriħux jistrieħux
+ġar	ġaru ġirieni ġirienhom
+qiegħ	qiegħha
+għerf	għerfha għerfu għerfhom
+unità	unita
+ħażen	maħżuna jaħżnuha jaħżnuhom
+appoġġja	jappoġġjah nappoġġjawhom jappoġġjawha appoġġjah jappoġġjawhom jappoġġjani jappoġġjahom nappoġġjah tappoġġjah nappoġġjawha jappoġġjahx nappoġġjahom appoġġjawhom appoġġjawha tappoġġjaha
+qered	meqruda jeqridha jeqridhom qerduhiex teqridhom jeqridlu qeridha qerduha meqrudin qerduli qridnieh teqridilha jeqridlek eqridhom qerduhom qeridhom qerduh qerditha qerditu teqridilhom teqridha teqredha qeridhomx
+qabbad	qabbadni qabbduh jqabbduhom iqabbadha qabbadhom tqabbadha jqabbadha iqabbadhom qabbdulna inqabbadhom qabbadha qabbditni jqabbduna iqabbduk iqabbduh iqabbdulek qabbadtha iqabbduna tqabbadni jqabbadna iqabbadni
+dawra	dawrithom dawritu
+sellem	sellimlu insellmulek insellimlu nsellimlek issellimlek isellmulhom insellmulhom insellimlek issellimlu sellimli isellimli jsellmulu sellmulha isellmulek isellmulu isellmulha nsellimlu sellmitilna isellmuli jsellimli isellimlek nsellmulek
+siefer	jsiefrux
+prinċep	prinċipi
+intensiv	ntensiva ntensiv ntensivi
+akkumpanja	takkumpanjah jakkumpanjawhom akkompanjat takkumpanjaha akkumpanjah jakkompanjawha jakkompanja jakkumpanjah jakkumpanjahom jakkumpanjak takkompanja jakkumpanjana takkumpanjani nakkumpanjah takkumpanjana takkumpanjahom akkumpanjawhom akkompanjah jakkumpanjakom akkumpanjawni jakkumpanjawni jakkompanjakom jakkumpanjawha nakkumpanjahom nakkumpanjawhom jakkompanjaw akkompanjaw takkumpanjakom nakkompanja takkompanjah
+tfaċċa	tfaċċalu tfaċċawlu
+tħaddem	tħaddimhom tħaddmuhom
+varjetà	varjeta
+sħab	sħabu sħabi sħabhom sħabha sħabna sħabek sħabkom

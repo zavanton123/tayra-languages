@@ -1,100 +1,100 @@
-1	4001	devjazzjoni	devjazzjonijiet
-2	4002	ġamm	ġammijiet
-3	4003	bis	
-4	4004	ħafur	
-5	4005	żiffa	
-6	4006	antropologu	antropologa antropoloġi
-7	4007	passatur	
-8	4008	azzari	azzarin
-9	4009	xxottja	ixxuttja xxuttja
-10	4010	ffroda	ffrodat ffrodaw frodat iffrodaw jiffroda jiffrodaw
-11	4011	appellant	appellanti
-12	4012	assassina	assassinat jassassinaw
-13	4013	mandolin	mandolina
-14	4014	arpa	
-15	4015	għalieni	għalenija għalenin
-16	4016	fjamingu	fjamingi flamingo
-17	4017	suba'	subgħajn subgħu
-18	4018	bużullotta	bużullotti
-19	4019	distrazzjoni	distrazzjonijiet
-20	4020	żingu	
-21	4021	ferragħ	ferrgħu iferrgħu jferrgħu tferrgħu tifrigħ
-22	4022	perżut	perżuta prieżet
-23	4023	indokra	jindokra jindokraw tindokra
-24	4024	rvella	irvella irvellat irvellaw jirvella jirvellaw rvellat rvellaw tirvella
-25	4025	rmonk	irmonk
-26	4026	raġġiera	raġġieri
-27	4027	farraġ	farrġu ifarraġ infarrġu jfarraġ jfarrġu nfarraġ nfarrġu tfarraġ tfarrġu
-28	4028	kines	inkines jiknes kinset kinsu knis miknus niknes tiknes
-29	4029	pessimiżmu	
-30	4030	soċjalizzazzjoni	
-31	4031	rkotta	irkotta
-32	4032	elmu	elmi elmijiet
-33	4033	kaħlani	kaħlanija
-34	4034	oskur	oskura oskuri
-35	4035	darsa	dras
-36	4036	żerżaq	imżerżaq iżżerżaq iżżerżqu nżerżaq żżerżqu
-37	4037	ssimboleġġa	jissimboleġġa jissimboleġġaw tissimboleġġa
-38	4038	arkivista	
-39	4039	stallett	istallett istalletti stalletti
-40	4040	għuda	għawwied
-41	4041	metriku	metriċi
-42	4042	ħuxlief	
-43	4043	parta	inparti inpartu ipartu jpartu partu
-44	4044	assimila	assimilat assimilaw jassimila jassimilaw jassimilax nassimilaw tassimila tassimilax
-45	4045	fawwar	fawwart ifawwar jfawwar mfawwar tfawwar
-46	4046	kemxa	
-47	4047	ssemplifika	issemplifika jissemplifika jissemplifikaw nissemplifikaw semplifikat ssemplifikaw
-48	4048	ugwalment	
-49	4049	impotenza	
-50	4050	sink	sinkijiet
-51	4051	stikka	istikek istikka stikek
-52	4052	ċuċata	ċuċati
-53	4053	ssimpatizza	issimpatizza jissimpatizza jissimpatizzaw jissimpatizzax nissimpatizza tissimpatizza
-54	4054	sawwab	imsawwab insawwab isawbu isawwab jsawwab msawwab nsawbu nsawwab nsawwabx sawwabt
-55	4055	zalzett	zalzetta
-56	4056	tastiera	tastieri
-57	4057	benna	
-58	4058	xiber	ixbar
-59	4059	likwidazzjoni	likwidazzjonijiet
-60	4060	mantar	imnatar
-61	4061	allinjament	allinjamenti
-62	4062	saqqa	insaqqu isaqqi issaqqi issaqqu jsaqqi jsaqqu msaqqi saqqi
-63	4063	nagħas	jongħos nagħsu nongħos tongħos
-64	4064	ċirkonċiżjoni	
-65	4065	sismiku	sismika sismiċi
-66	4066	qalgħa	qalgħat qlejgħa
-67	4067	libien	liban lubien
-68	4068	ċanga	
-69	4069	astroloġikament	
-70	4070	epistemoloġija	
-71	4071	sperma	isperma
-72	4072	etnografiku	etnografika etnografiċi
-73	4073	amar	amarna amru jamar namru
-74	4074	bgħid	ibgħad
-75	4075	fardal	fradal
-76	4076	kuċċarina	kuċċarini
-77	4077	rmonka	irmunkar irmunkat jirmonka jirmonkaw rmonkat rmunkar tirmonka
-78	4078	bandal	ibandlu imbandal jbandal jitbandal jitbandalx jitbandlu nbandlu tbandal tbandil titbandal
-79	4079	kaħħal	ikaħħal imkaħħal kaħħala mkaħħal tkaħħlu
-80	4080	baħnan	
-81	4081	ħawli	ħawlija
-82	4082	qara'	
-83	4083	iżża	iżżejt iżżejtu iżżew iżżi iżżiet iżżu jiżżi jiżżu niżżi niżżu tiżżi tiżżu
-84	4084	xugaman	xugamani
-85	4085	allużjoni	allużjonijiet
-86	4086	twiddeb	jitwiddeb twiddbu twiddibna twiddibt
-87	4087	rikkieb	rikkieba
-88	4088	topografiku	topografika topografiċi
-89	4089	konfessjonali	
-90	4090	ħaleb	aħleb jaħleb ħlib
-91	4091	penetrazzjoni	
-92	4092	ffabbrika	fabbrikar fabbrikat ffabbrikat iffabbrikat iffabbrikaw jiffabbrikaw
-93	4093	raffinerija	raffineriji
-94	4094	għajjur	għajjura għajjurin
-95	4095	vinkolanti	
-96	4096	xema'	xemgħat
-97	4097	estasi	estasijiet
-98	4098	asfalt	
-99	4099	familjarità	
-100	4100	skorpjun	iskorpjun iskorpjuni skorpjuni
+1	4001	integrata	integrati ntegrata ntegrati
+2	4002	konformità	konformita
+3	4003	akkomoda	akkomodat jakkomoda jakkomodana jakkomodaw jakkomodawha nakkomoda nakkomodahom nakkomodaw takkomoda takkomodahom
+4	4004	konċentrazzjoni	konċentrazzjonijiet
+5	4005	impieg	impiegi mpieg mpiegi
+6	4006	nħakem	inħakem inħakmet inħakmu inħkimna jinħakem jinħakmu ninħakem ninħakmu nħakimna nħakimx nħakmet nħakmitx nħakmu tinħakem tinħakimx
+7	4007	bibliku	biblika
+8	4008	nanu	nana nani
+9	4009	ġojjell	ġojjelli
+10	4010	potenza	potenzi
+11	4011	leġiżlatura	leġiżlaturi
+12	4012	ira	
+13	4013	maturità	maturita maturitajiet
+14	4014	goff	goffi
+15	4015	inflazzjoni	
+16	4016	biża	
+17	4017	tranżazzjoni	tranżazzjonijiet
+18	4018	adda	addax addejna addewx addiet addilna jaddi jaddiha jaddu naddix
+19	4019	ombudsman	
+20	4020	ipoteżi	ipoteżijiet
+21	4021	diżgwid	diżgwidi
+22	4022	preċiżament	
+23	4023	rawwem	imrawwem inrawmu inrawwem inrawwimhom irawmu irawmulhom irawwem jrawmu jrawwem nrawmu nrawwem rawmet rawmitu rawmu rawmuha rawwimna rawwimni rawwimt rawwimtu rawwimx trawmu
+24	4024	kurjuż	kurjuża kurjużi
+25	4025	importa	importani importat importaw importawha jimporta jimportah jimportahom jimportana jimportaw jimportawhom jimportax mporta mportat nimportaw timporta timportah
+26	4026	għaxart	
+27	4027	brikks	brikksa
+28	4028	jinkisbu	jinkisbux
+29	4029	taħwid	taħwida
+30	4030	ekonomista	ekonomisti
+31	4031	ħabitat	ħabitati ħabitats
+32	4032	qasba	qasab
+33	4033	ħesrem	
+34	4034	manifestazzjoni	manifestazzjonijiet
+35	4035	dittatur	dittatura dittaturi
+36	4036	fdata	fdati
+37	4037	masters	
+38	4038	qattiel	qattiela
+39	4039	żbilanċ	iżbilanċ iżbilanċi żbilanċi
+40	4040	msejsa	imsejsa
+41	4041	potenzjali	
+42	4042	irreveda	irrevedew irrevediet jirrevedi jirrevedihom jirrevedu nirrevedi nirrevedu nirreveduha rreveda rrevedew tirrevedi tirrevediha
+43	4043	riklam	riklami
+44	4044	ffissa	ffissat ffissatha ffissaw fissat iffissa iffissaha iffissar iffissat iffissaw iffissawha jiffissa jiffissaha jiffissaw niffissaw niffissawx tiffissa
+45	4045	gwarniċ	gwarniċa gwarniċi
+46	4046	polz	polzi
+47	4047	mgħammra	imgħammra
+48	4048	brillanti	
+49	4049	qatgħa	qatgħaha qatgħat qatgħatha qtajja'
+50	4050	stand	istand istands
+51	4051	każwali	
+52	4052	novena	
+53	4053	diżappuntat	diżappuntata diżappuntati
+54	4054	merkurju	
+55	4055	pjanċa	pjanċi
+56	4056	mexjin	
+57	4057	ekwipaġġ	ekwipaġġi
+58	4058	mużajk	
+59	4059	msejħin	imsejħin
+60	4060	disprezz	disprezzi
+61	4061	dejjiema	dejjiemi
+62	4062	aggregat	aggregata aggregati
+63	4063	ċokon	
+64	4064	tmun	itmien
+65	4065	rqiq	irqaq irqiq irqiqa rqiqa
+66	4066	semitiku	semitika
+67	4067	ġifen	iġfna
+68	4068	nħarġu	inħarġu
+69	4069	rikonċiljazzjoni	rikonċiljazzjonijiet
+70	4070	frekwenza	frekwenzi
+71	4071	politka	
+72	4072	avjazzjoni	
+73	4073	kompless	komplessa komplessi
+74	4074	rrestawrata	irrestawrata irrestawrati rrestawrati
+75	4075	eredi	
+76	4076	ħonoq	joħnoq joħnoqha joħnoqhom joħnoqkom joħnoqx joħonqu joħonquh joħonqulu joħonquna joħonquni maħnuq maħnuqa maħnuqin noħnoq noħnoqha noħonqu noħonquh toħnoq toħonqu ħonoqlu ħonqot ħonqu
+77	4077	finalista	finalisti
+78	4078	riferenza	riferenzi
+79	4079	ikkumbatta	ikkumbattejt ikkumbattiet jikkumbatti jikkumbattu kkumbatta nikkumbatti nikkumbattu nikkumbattuha tikkumbatti
+80	4080	etniċi	
+81	4081	penali	
+82	4082	newtrali	
+83	4083	arkitettoniċi	
+84	4084	preservazzjoni	
+85	4085	rħis	irħis irħisa orħos rħisa
+86	4086	identiku	identika identiċi
+87	4087	ċertezza	ċertezzi
+88	4088	verb	verba verbi
+89	4089	tħaddim	
+90	4090	dixxendenti	
+91	4091	stakeholders	istakeholders
+92	4092	disinjatur	disinjaturi
+93	4093	xirka	xirkiet
+94	4094	dari	
+95	4095	inkwetata	inkwetati nkwetata nkwetati
+96	4096	gradwalment	
+97	4097	daż	
+98	4098	gwardja	gwardjana gwardji
+99	4099	għatx	
+100	4100	ossiġenu	ossiġnu

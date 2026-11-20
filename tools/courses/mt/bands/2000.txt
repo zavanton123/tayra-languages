@@ -1,100 +1,100 @@
-1	1901	ċatt	ċatta ċatti
-2	1902	kkaġuna	ikkaġuna ikkaġunajt ikkaġunat jikkaġuna jikkaġunaw jikkaġunawx kaġunat kkaġunat kkaġunaw nikkaġunax tikkaġuna
-3	1903	zuntier	znieter zuntieri
-4	1904	għalxejn	
-5	1905	dwal	
-6	1906	djalett	djaletti
-7	1907	impressjonanti	
-8	1908	ġewnaħ	ġwejnaħ ġwienaħ
-9	1909	midħla	
-10	1910	pprojbixxa	ipprojbixxa ipprojbixxiet ipprojbixxu jipprojbixxi jipprojbixxix jipprojbixxu nipprojbixxu pprojbiet pprojbixxew pprojbixxiet pprojbixxu projbit tipprojbix tipprojbixxi
-11	1911	dimostrazzjoni	dimostrazzjonijiet
-12	1912	ħfief	tiħfief ħfiefet
-13	1913	blokka	blokki blokkok blokok
-14	1914	dottorat	dottorati
-15	1915	ċċekkja	iċċekkja iċċekkjajt iċċekkjar iċċekkjat iċċekkjaw jiċċekkja jiċċekkjaw niċċekkja niċċekkjaw niċċekkjawx tiċċekkja tiċċekkjaw ċċekkjajna ċċekkjar ċċekkjat ċċekkjax
-16	1916	għażż	għożż għożżu jgħożż jgħożżu magħżuż ngħożż ngħożżu tgħożż tgħożżu
-17	1917	ġmiel	
-18	1918	effiċjenza	
-19	1919	merħla	imrieħel merħliet mrieħel
-20	1920	ġenetiku	ġenetika ġenetiċi
-21	1921	kastig	kastigi
-22	1922	heda	jehda jehdew jehdewx mehdi nehda nehdew tehda tehdew tehdiex
-23	1923	ħofra	ħofor ħofriet
-24	1924	tqala	tqaliet
-25	1925	indiċi	
-26	1926	avventura	avventuri
-27	1927	tilqima	
-28	1928	għafas	agħfas agħfsu għafast għafastu għafis għafset għafsu jagħfas jagħfasx jagħfsu magħfus nagħfas nagħfsu tagħfas tagħfasx tagħfsu
-29	1929	daħak	daħaq daħku dħakna dħakt idħak idħku jidħak jidħakx jidħku jidħkux nidħak nidħku tidħak tidħku
-30	1930	qamħ	qamħa qmuħ
-31	1931	kwota	kwoti
-32	1932	editorjal	editorjali
-33	1933	kkostitwixxa	ikkostitwiet ikkostitwixxu jikkostitwixxi jikkostitwixxu jikkostitwixxux kkostitwew kkostitwiet kkostitwit kkostitwixxiet kkostitwixxu kostitwit tikkostitwix tikkostitwixxi tikkostitwixxix
-34	1934	star	istar stara stari
-35	1935	rilevanti	
-36	1936	bejjiegħ	bejjiegħa
-37	1937	ċensura	ċensuri
-38	1938	qarraq	imqarraq inqarrqu iqarraq iqarrqu jqarraq jqarraqx jqarrqu jqarrqux mqarraq nqarrqu nqarrqux qarrqu tqarraq
-39	1939	biedja	
-40	1940	espona	esponew esponiet esponiex espost jesponi jesponix jesponu jesponux nesponi nesponu tesponi tesponu
-41	1941	ħmar	iħmir jiħmar jiħmaru tiħmar ħmara ħmir
-42	1942	ddefinixxa	ddefinew ddefiniet ddefinixxew ddefinixxiet iddefinejt iddefinew iddefiniet iddefinixxa iddefinixxew jiddefinixxi jiddefinixxix jiddefinixxu niddefinixxi niddefinixxu tiddefinixxi tiddefinixxix
-43	1943	trakk	trakkijiet
-44	1944	infern	nfern
-45	1945	psikoloġiku	psikoloġika psikoloġiċi
-46	1946	investitura	investituri
-47	1947	ħaffer	imħaffer inħaffer iħaffer iħaffru jħaffer jħaffru jħaffrux mħaffer nħaffru tħaffer tħaffru ħaffirt ħaffret ħaffru
-48	1948	ragħaj	ragħajja
-49	1949	televixin	televixins
-50	1950	serp	serpa sriep
-51	1951	ġġudika	iġġudika iġġudikat iġġudikaw jiġġudika jiġġudikaw jiġġudikax niġġudika niġġudikaw tiġġudika tiġġudikaw tiġġudikawx ġudikat ġġudikajna ġġudikajt ġġudikat ġġudikaw
-52	1952	abbiltà	abbiltajiet abilità
-53	1953	sieket	siekta siktin
-54	1954	issieħeb	
-55	1955	effettivament	
-56	1956	demgħa	demgħat dmugħ
-57	1957	volontarjat	
-58	1958	marad	imradna jimrad maradx mardet marditx mardu mradt nimrad timrad timradx
-59	1959	kunjom	kunjomijiet
-60	1960	tarka	tarek tarki
-61	1961	nannakola	nannakoli
-62	1962	sinonimu	sinonimi
-63	1963	kuġin	kuġina kuġinha kuġini kuġintha kuġinti kuġintu kuġinu kuġinuha
-64	1964	nibet	jinbet jinbtu nibitx nibtet nibtu nibtux tinbet tinbitx
-65	1965	tajjar	imtajjar intajjar intajru itajjar itajru ittajjar ittajru jtajjar jtajru jtajrux mtajjar ntajjar ntajru tajjart tajjarx tajret tajru titjir ttajru
-66	1966	waranofsinhar	
-67	1967	antenat	antenata antenati
-68	1968	bied	bad bid biedet biedu ibid ibidu inbidu jbid jbidu tbid
-69	1969	mnieħer	imneħirha imneħirhom imneħirna imnieħer imnieħrek imnieħri imnieħru imniħrijiet mneħirha mneħirhom mneħirna mnieħrek mnieħri mnieħru mniħirhom
-70	1970	avvanz	avanz avvanzi
-71	1971	għasel	
-72	1972	nassab	nassaba
-73	1973	mitħna	imtieħen mtieħen
-74	1974	ċċertifika	iċċertifika iċċertifikat jiċċertifika jiċċertifikaw niċċertifikaw tiċċertifika ċċertifikat ċċertifikaw
-75	1975	sottomissjoni	sottomissjonijiet
-76	1976	ħafer	aħfer aħfru jaħfer jaħfirx jaħfru maħfur naħfer naħfirx naħfru naħfrux taħfer taħfirx taħfru taħfrux ħafirx ħafret ħafritx ħafrux ħfirt
-77	1977	daqskemm	
-78	1978	maniġer	maniġers
-79	1979	osservatur	osservatriċi osservaturi
-80	1980	arċipelagu	arċipelagi
-81	1981	wisa'	wisgħat
-82	1982	għarusa	għarajjes
-83	1983	nagħaġ	nagħġa nagħġiet
-84	1984	fuħħar	
-85	1985	komunitarju	komunitarja komunitarji
-86	1986	telgħa	telgħat
-87	1987	ċiviltà	ċiviltajiet
-88	1988	ġurdien	ġrieden
-89	1989	għamara	għamajjar
-90	1990	wiret	iret jiret jirtu jirtux niret nirtu tiret tirtu wirtet wirtu wirtux writna writt
-91	1991	għasar	agħsar għasarna għasir għasret għosrien jagħsar jagħsru nagħsru tagħsar tagħsru
-92	1992	niket	
-93	1993	mbiegħed	imbegħdin imbiegħda imbiegħed mbegħdin mbiegħda
-94	1994	pubblikatur	pubblikatriċi pubblikaturi
-95	1995	eċċellenza	eċċellenzi
-96	1996	fela	fili flejna flejt flew fliet jifli jiflix jiflu mifli nifli niflu tifli tiflu
-97	1997	esponent	esponenta esponenti
-98	1998	disgħin	
-99	1999	tefa	itfi jitfi jitfix jitfu mitfi nitfi nitfu tafa tfew tfiet tifi titfi titfu
-100	2000	għaġeb	
+1	1901	lira	liri lirijiet
+2	1902	reġistrat	reġistrata reġistrati
+3	1903	assistenza	assistenzi
+4	1904	dixxiplu	dixxipli
+5	1905	irranġa	irranġaha irranġajna irranġajt irranġalna irranġat irranġaw irranġawhom irranġawli jirranġa jirranġah jirranġaha jirranġahom jirranġak jirranġalha jirranġalhom jirranġalna jirranġaw jirranġawhom jirranġawlhom jirranġawli jirranġawlu jirranġawx nirranġa nirranġah nirranġahom nirranġalu nirranġaw nirranġawha nirranġawhom rranġa rranġahom rranġajna rranġalha rranġat rranġaw rranġawha rranġawlu tirranġa tirranġaw
+6	1906	ttieħed	ittieħed ttieħedu
+7	1907	fenomenu	fenomena fenomeni
+8	1908	erja	erji
+9	1909	tinbidel	
+10	1910	kunflitt	kunflitti
+11	1911	tittieħed	
+12	1912	trasferiment	trasferimenti
+13	1913	professjoni	professjonijiet
+14	1914	preżentazzjoni	preżentazzjonijiet
+15	1915	immarka	immarkah immarkajt immarkat immarkata immarkaw jimmarka jimmarkah jimmarkahom jimmarkalek jimmarkaw jimmarkawlu jimmarkawna jimmarkax mmarka mmarkah mmarkajt mmarkalu mmarkat mmarkata mmarkaw mmarkax nimmarka nimmarkaw timmarka timmarkah timmarkaha timmarkaw
+16	1916	maħdum	maħduma maħdumha maħdumin
+17	1917	suspettat	suspettata suspettati
+18	1918	konvint	konvinta konvinti
+19	1919	ikkummenta	ikkummentajt ikkummentajtlu ikkummentalna ikkummentat ikkummentaw jikkummenta jikkummentaha jikkummentaw jikkummentawlek jikkummentax kkummenta kkummentajt kkummentat kkummentatx kkummentaw kkummentawli kkummentax nikkummenta nikkummentalu nikkummentaw nikkummentawx nikkummentax tikkummenta tikkummentaw tikkummentax
+20	1920	morali	
+21	1921	iddomina	ddomina ddominat ddominatlu ddominaw ddominawha iddominajna iddominat iddominaw jiddomina jiddominaw jiddominawha jiddominawlu niddominaw tiddomina
+22	1922	nobbli	
+23	1923	urban	urbana urbani
+24	1924	passaġġ	passaġġa passaġġi
+25	1925	sintomi	
+26	1926	sede	
+27	1927	era	eri
+28	1928	pensjoni	pensjonijiet
+29	1929	riċenti	
+30	1930	pilastru	pilastri
+31	1931	rivoluzzjoni	rivoluzzjonijiet
+32	1932	individwali	ndividwali
+33	1933	taħlita	
+34	1934	żviluppata	żviluppati
+35	1935	vara	varah vari
+36	1936	protetta	protetti
+37	1937	assedju	assedja assedjaha assedjaw assedjawha assedjawhom assedji jassedja jassedjaha jassedjahom jassedjaw tassedja
+38	1938	soċjalista	soċjalisti
+39	1939	privata	
+40	1940	estensiv	estensiva estensivi
+41	1941	ideal	ideali
+42	1942	konsulent	konsulenta konsulenti
+43	1943	ippretenda	ippretendejt ippretendew jippretendi jippretendih jippretendiha jippretendihom jippretendix jippretendu jippretenduha jippretenduna jippretendux nippretendi nippretendix nippretendu nippretenduha nippretendux ppretenda ppretendejtx ppretendew ppretendiet tippretendi tippretendiha tippretendu tippretendux
+44	1944	xela	ixlu jixli jixlu jixluh jixluk mixli mixlija mixlijin tixli xliet xlietu
+45	1945	trattament	trattamenti
+46	1946	inċentiv	inċentiva inċentivat inċentivaw inċentivi jinċentiva jinċentivaw jinċentivawx ninċentivaw ninċentivawhom nċentiv nċentivat nċentivi tinċentiva tinċentivahom
+47	1947	restrizzjonijiet	
+48	1948	seduta	seduti
+49	1949	iffoka	ffoka ffokat ffokaw iffokat iffokaw jiffoka jiffokaw niffoka niffokaw tiffoka
+50	1950	aġent	aġenta aġenti
+51	1951	studjuż	istudjuż istudjuża istudjużi studjuża studjużi
+52	1952	volum	volumi
+53	1953	spettaklu	ispettakli ispettaklu spettakli
+54	1954	diska	diski
+55	1955	kontinwament	
+56	1956	presidenza	presidenzi
+57	1957	ntemmet	intemmet
+58	1958	kurrent	kurrenti
+59	1959	email	emails
+60	1960	ristorant	ristoranti
+61	1961	konvenzjoni	konvenzjonijiet
+62	1962	reali	
+63	1963	varji	
+64	1964	funeral	funerali funeralijiet
+65	1965	nnifisha	innifisha
+66	1966	estenda	estendaw estendew estendieh estendiet estendiha jestendi jestendiha jestendilha jestendix jestendu jestendulna jestendux nestendi nestendiha nestendu nestenduh nestenduha testendi testendih testendix
+67	1967	doppju	doppji
+68	1968	distakk	distakki
+69	1969	piena	pieni
+70	1970	agrikolu	agrikola agrikoli
+71	1971	pellegrinaġġ	pellegrinaġġi
+72	1972	superjur	superjura superjuri
+73	1973	rurali	
+74	1974	imputat	imputata imputati
+75	1975	irrapreżenta	irrapreżentat irrapreżentaw jirrapreżenta jirrapreżentah jirrapreżentahom jirrapreżentaw jirrapreżentawha jirrapreżentawhom jirrapreżentawx nirrapreżenta nirrapreżentakom nirrapreżentaw nirrapreżentawha nirrapreżentawhom rrapreżenta rrapreżentat rrapreżentaw tirrapreżenta tirrapreżentahom tirrapreżentakom tirrapreżentaw
+76	1976	jinżamm	jinżammx
+77	1977	passaport	passaporti
+78	1978	personalment	
+79	1979	medju	
+80	1980	fama	fami
+81	1981	arrestati	
+82	1982	globali	
+83	1983	lokal	
+84	1984	intenzjoni	intenzjonijiet ntenzjoni
+85	1985	jinbidel	
+86	1986	materja	materji
+87	1987	serata	serati
+88	1988	rabba	imrobbi imrobbija inrabbi inrabbih inrabbu inrabbuh irabbi irabbiha irabbu irabbuh jrabbi jrabbiha jrabbihom jrabbina jrabbix jrabbu jrabbuha jrabbuhom jrabbux mrobbi mrobbija nrabbi nrabbu rabbejna rabbejt rabbejtek rabbejthom rabbejtu rabbejtuni rabbew rabbewhom rabbewni rabbi rabbieh rabbiet rabbietu rabbik rabbini trabbi trabbu
+89	1989	kkonferma	kkonfermaha
+90	1990	telefonata	telefonati
+91	1991	instema	jinstema ninstema nstema tinstema tinstemax
+92	1992	intrapriża	intrapriżi
+93	1993	theddida	
+94	1994	marka	marki
+95	1995	ġurnalist	
+96	1996	ħeba	aħbi jaħbi jaħbih jaħbiha jaħbihom jaħbilek jaħbix jaħbu jaħbuh jaħbuha jaħbuhom jaħbulu naħbi naħbix naħbu naħbuha naħbux taħbi taħbih taħbili taħbina taħbix ħaba ħabi ħabtha ħbejt ħbew ħbewhom ħbewlu ħbewx ħbiet ħbiethom ħebiex
+97	1997	reputazzjoni	
+98	1998	apparenza	apparenzi
+99	1999	segretarjat	segretarjati
+100	2000	skorer	iskorer iskorers skorers

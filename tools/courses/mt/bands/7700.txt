@@ -1,0 +1,100 @@
+1	7601	saħħara	isħaħar sħaħar
+2	7602	ippakkjar	ppakkjar
+3	7603	kontrol	
+4	7604	lleġiżla	illeġiżla illeġiżlat jilleġiżla jilleġiżlaw jilleġiżlax leġiżlat nilleġiżlaw tilleġiżla
+5	7605	irnexxiela	jirnexxiela rnexxiela
+6	7606	viġilanti	
+7	7607	issoda	issodat jissoda jissodaw ssoda ssodat tissoda
+8	7608	awtorevoli	
+9	7609	jonijiet	
+10	7610	kjarifika	kjarifiki
+11	7611	xniegħat	
+12	7612	jitkabbar	jitkabbarx
+13	7613	mant	manta manti mantijiet
+14	7614	lanterna	lanterni
+15	7615	nerv	nervi
+16	7616	alluda	alludiet jalludi jalludu nalludi talludi
+17	7617	sepulkru	sepulkri
+18	7618	mrażżna	imrażżna
+19	7619	nkesa	inkesa inksew inksiet jinkesa jinksew nkesiex nksew nksiet tinkesa
+20	7620	kundannabbli	
+21	7621	etimoloġija	etimoloġiji
+22	7622	kommossjoni	
+23	7623	elaborati	
+24	7624	riefnu	irwiefen rwiefen
+25	7625	materna	materni
+26	7626	attwa	attwat jattwa jattwah jattwahom jattwaw jattwawhom nattwaw tattwa
+27	7627	nemes	inmsa
+28	7628	temperament	temperamenti
+29	7629	allegorija	allegoriji
+30	7630	deludenti	
+31	7631	awsterità	
+32	7632	aġġastja	aġġusta aġġustat jaġġusta jaġġustaw naġġustaw taġġusta
+33	7633	ġżejjer	
+34	7634	ostja	ostji
+35	7635	interaġixxa	interaġixxew interaġixxiet jinteraġixxi jinteraġixxu ninteraġixxu tinteraġixxi
+36	7636	supremazija	
+37	7637	viċinat	viċinati
+38	7638	kokka	kokki kokkiet kokkina
+39	7639	frontispizju	
+40	7640	dinija	
+41	7641	mniżżlin	imniżżlin
+42	7642	denunzja	denunzji
+43	7643	amalgamazzjoni	amalgamazzjonijiet
+44	7644	biżejjed	
+45	7645	kwalifiċi	
+46	7646	lupi	
+47	7647	parowl	
+48	7648	tintebaħ	tintebaħx
+49	7649	irrifera	irriferejna irriferejt jirriferi jirriferihom jirriferix jirriferu nirriferi nirriferux rrifera rriferew rriferewx tirriferi
+50	7650	estratt	estratti
+51	7651	materjaliżmu	
+52	7652	formalità	formalita formalitajiet
+53	7653	propagazzjoni	
+54	7654	ttardja	ittardja ittardjaha ittardjar ittardjat jittardja jittardjalek jittardjaw tittardja ttardjalna ttardjat ttardjaw
+55	7655	indiċjar	
+56	7656	naffar	inaffar inaffru inaffruhom jnaffar jnaffarhom jnaffarx jnaffru jnaffrux naffarx naffret naffritu naffritx naffru tnaffar tnaffru
+57	7657	drastiċi	
+58	7658	konsolidazzjoni	konsolidazzjonijiet
+59	7659	sinjorina	sinjorini
+60	7660	voto	
+61	7661	jqarar	iqarar iqararha
+62	7662	patoloġija	patoloġiji
+63	7663	serduq	serduk sriedaq
+64	7664	klimatika	
+65	7665	sammar	imsammar insammru isammar isammru jissammar jissammru jsammru jsammruna msammar nissammru sammarna sammru sammruh ssammar tismir
+66	7666	protettorat	protettorati
+67	7667	imtappna	mtappna
+68	7668	velja	velji
+69	7669	ħallewh	ħallewhx
+70	7670	rinnovabbli	
+71	7671	maestà	
+72	7672	fattibbli	
+73	7673	notarili	
+74	7674	irrilaxxa	irrilaxxat jirrilaxxa jirrilaxxah jirrilaxxaw jirrilaxxawhom rrilaxxat rrilaxxaw tirrilaxxa tirrilaxxah
+75	7675	talin	
+76	7676	triloġija	
+77	7677	ġeoloġika	
+78	7678	tidħaq	tidħaqx
+79	7679	trijonfali	
+80	7680	restawratur	restawraturi
+81	7681	trasfużjoni	trasfużjonijiet
+82	7682	helpline	
+83	7683	andux	
+84	7684	tunellata	tunellati
+85	7685	giugno	
+86	7686	immanipula	immanipulat jimmanipula jimmanipulana jimmanipulaw mmanipulat mmanipulaw timmanipula
+87	7687	metodoloġija	metodoloġiji
+88	7688	riżolta	riżolti
+89	7689	tokki	
+90	7690	ferrieħ	ferrieħa
+91	7691	ħadma	
+92	7692	apatija	
+93	7693	ġentlom	ġentlomi
+94	7694	mressaq	imressaq
+95	7695	għodos	jogħdos jogħdsu togħdos
+96	7696	żahar	tiżhir
+97	7697	ffalsifika	falsifikar falsifikat ffalsifikaw iffalsifika iffalsifikahom iffalsifikar iffalsifikat tiffalsifika
+98	7698	presbiteri	
+99	7699	għeja	għejiha negħjewx tegħjewx
+100	7700	interkontinentali	

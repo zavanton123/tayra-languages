@@ -1,100 +1,100 @@
-1	3101	terapewtiku	terapewtiċi
-2	3102	żibeġ	żibġa żibġiet
-3	3103	dabbar	dabbarna dabbart dabbarx dabbru idabbar idabbru iddabbar jdabbar jdabbru ndabbar ndabbru
-4	3104	qlajja	qlajjiet
-5	3105	essenza	essenzi
-6	3106	xxala	ixxala ixxalajna jixxala jixxalaw nixxalaw tixxala xalar xxalaw
-7	3107	għannaq	għannaqtu għannqu jgħannaq jgħannqu jitgħannaq jitgħannqu ngħannqu tgħannaq tgħanniq tgħannqet
-8	3108	kimiku	kimiċi
-9	3109	volontarjament	
-10	3110	affaxxina	affaxxinat jaffaxxina jaffaxxinaw naffaxxina taffaxxina
-11	3111	dehen	
-12	3112	bbumbardja	bbumbardjar bbumbardjat bbumbardjaw ibbumbardja ibbumbardjar ibbumbardjat ibbumbardjaw jibbumbardja jibbumbardjaw tibbumbardja
-13	3113	ħenn	iħenn jħenn jħennu nħennu tħenn tħennx ħennejt ħennew ħennu
-14	3114	armonika	armoniċi
-15	3115	tgħatta	jitgħatta jitgħattew jitgħattewx nitgħatta tgħattew tgħattiet tgħattiex titgħatta titgħattiex
-16	3116	dment	
-17	3117	dab	dabu ddub dewbien dub dwieb iddub idub idubu jdub jdubu jdubux
-18	3118	umilja	jumilja jumiljaw numiljaw tumilja tumiljax umiljat
-19	3119	widdeb	inwiddbu iwiddbu iwiddeb jwiddbux jwiddeb mwiddeb twiddbu widdbet widdbu widdibt widdibtu
-20	3120	fwar	
-21	3121	soppa	sopop
-22	3122	ssikka	issikka issikkajtx issikkar issikkat jissikka jissikkaw nissikkaw ssikkat tissikka
-23	3123	bebbux	bebbuxu
-24	3124	debuttant	debuttanti
-25	3125	berbaq	berbaqx berbqet iberbaq jberbaq jberbaqx jberbqu mberbaq tberbaq tberbqu
-26	3126	kemmun	
-27	3127	kkonsla	jikkonsla jikkonslaw konsolat nikkonsla nikkonslaw tikkonsla
-28	3128	lapes	apis lapis lapsijiet
-29	3129	volontà	
-30	3130	butir	
-31	3131	faqa'	faqa faqgħet jifqa' jifqax jifqgħu mifqugħ tifqa tifqa'
-32	3132	fwieħa	fwejjaħ
-33	3133	involontarju	volontarja volontarji
-34	3134	qireq	qroqq
-35	3135	ġenoċidju	ġenoċidji
-36	3136	reġgħa	reġgħat
-37	3137	dakkar	dakkir dakkret ddakkar ddakkru idakkar iddakkar iddakkru imdakkar jdakkar jdakkru mdakkar ndakkru
-38	3138	liberazzjoni	
-39	3139	tappan	imtappan itappnu ittappan jtappan jtappnux mtappan ntappnu tappnet tappnu ttappan ttappnu
-40	3140	rarament	
-41	3141	ssaporta	issaporta issaportejna issaporti jissaporti jissaportu nissaporti nissaportix nissaportu ssaportejniex ssaportewx tissaporti
-42	3142	ħata	jaħti jaħtix jaħtu jaħtux naħtux taħti taħtu
-43	3143	qabru	qwabar
-44	3144	umiljazzjoni	umiljazzjonijiet
-45	3145	lampier	lampieri
-46	3146	irrabjat	
-47	3147	sesswalità	
-48	3148	sal	jsulu salet salu sul sulu
-49	3149	dineb	dinbu dinibx dnibt jidneb nidneb nidnibx tidneb tidnibx
-50	3150	idealment	
-51	3151	bażikament	
-52	3152	dundjan	dundjani
-53	3153	statwarju	istatwarju statwarji
-54	3154	rmiġġ	irmiġġ irmiġġi rmiġġi
-55	3155	vina	vini
-56	3156	għerusija	għerusijiet
-57	3157	stagħna	jistagħna jistagħnew nistagħna stagħnew stagħniet tistagħna
-58	3158	namra	namriet
-59	3159	leħja	
-60	3160	meraviljuż	meraviljuża meraviljużi
-61	3161	garr	garrejt garret igorr igorru ingorr ingorru jgorr jgorru ngorru tgorr
-62	3162	siment	
-63	3163	għer	jgħir jgħiru ngħir ngħiru tgħir tgħirx
-64	3164	kulturalment	
-65	3165	karkar	ikarkar ikarkru imkarkar jkarkar karkret karkru nkarkru tkarkar tkarkarx
-66	3166	mula	
-67	3167	gidem	gidmu jigdem jigdmu jigdmux migdum nigdem nigdmu tigdem
-68	3168	purgatorju	
-69	3169	niggeż	iniggeż iniggżu inniggeż jniggeż jniggżu niggżet niggżitx tingiż tniggeż tniggżu
-70	3170	baqbaq	ibaqbaq ibaqbqu imbaqbaq jbaqbaq tbaqbaq
-71	3171	eċċess	eċċessi
-72	3172	żbarka	iżbarkar jiżbarka jiżbarkaw jiżbarkax tiżbarka żbarkar żbarkat żbarkaw żbarkawx
-73	3173	raħħas	imraħħas inraħħsu iraħħas jraħħas jraħħsu nraħħsu traħħas traħħsu
-74	3174	wiżż	wiżża
-75	3175	nuċċali	nuċċalijiet
-76	3176	għarqa	għarqiet
-77	3177	rġulija	irġulija
-78	3178	kartellun	kartelluni
-79	3179	venda	vendi
-80	3180	stħaqq	jistħoqq jistħoqqu mistħoqq nistħoqq tistħoqq
-81	3181	biet	bit
-82	3182	dehbi	dehbija dehbin
-83	3183	minorenni	
-84	3184	ħakk	inħokk iħokk iħokku jħokk jħokku maħkuk nħokku tħokk ħokk
-85	3185	kaxxier	kaxxiera
-86	3186	kalamita	kalamiti
-87	3187	reġġa'	inreġġgħu ireġġgħu jreġġa' jreġġgħu nreġġa nreġġa' nreġġgħu reġġa reġġgħet reġġgħu treġġa treġġax treġġgħu treġġgħux
-88	3188	ħatab	ħatba
-89	3189	rkoppa	irkoppitha irkopptejn irkopptu rkoppitha rkopptejn rkoppti rkopptu
-90	3190	xjieħ	jixjieħ jixjieħu jixjieħx nixjieħ nixjieħu tixjieħ xjaħ xjieħu
-91	3191	kronoloġiku	kronoloġika kronoloġiċi
-92	3192	xorz	xorts
-93	3193	żena	iżnu jiżni jiżnu niżnu tiżni tiżnu żniet
-94	3194	frak	farka
-95	3195	mqareb	imqarba imqarbin imqareb mqarba mqarbin
-96	3196	mitjar	imtajar
-97	3197	qassar	imqassar inqassru iqassar iqassru jqassar jqassru mqassar qassru taqsir tqassru
-98	3198	xefaq	
-99	3199	qares	qarsin
-100	3200	dawran	dawrien
+1	3101	ġewnaħ	ġwejnaħ ġwienaħ
+2	3102	midħla	
+3	3103	papali	
+4	3104	preġudizzju	preġudizzji
+5	3105	trakk	trakki trakkijiet
+6	3106	riġel	riġilha riġlejh riġlejha riġlejhom riġlejn riġlek riġli riġlu
+7	3107	dimostrazzjoni	dimostrazzjonijiet
+8	3108	maħluqa	
+9	3109	strajk	istrajk istrajkijiet istrajks strajkijiet strajks
+10	3110	nstallat	installat installata installati nstallata nstallati nstallatu
+11	3111	kaxkar	ikaxkar ikaxkarhom ikaxkarna ikaxkarni ikaxkru imkaxkar inkaxkru jkaxkar jkaxkarha jkaxkarni jkaxkarx jkaxkru jkaxkrux kaxkarha kaxkarna kaxkret kaxkru kaxkruh kaxkruha kaxkrulu mkaxkar nkaxkar nkaxkru tkaxkar tkaxkarhom tkaxkir tkaxkru
+12	3112	influwenti	nfluwenti
+13	3113	trasparenti	
+14	3114	responsabbilità	responsabbilita responsabbilitajiet
+15	3115	daħak	daħakli daħaklu daħaq daħaqx daħket daħku dħakna dħakt idħak idħku jidħak jidħakx jidħku jidħkulha jidħkux nidħak nidħku tidħak tidħakli tidħaq tidħku
+16	3116	ħfief	tiħfief ħfiefet
+17	3117	mżejna	imżejna
+18	3118	nbidlu	inbidlu inbidluh inbidlux nbidlux
+19	3119	viżibbli	
+20	3120	blokka	blokki blokkok blokok
+21	3121	dottorat	dottorati
+22	3122	bies	bews bieset bieslu biesna biesni biesu biesx bisien bist bistu bus busli ibus ibusu ibusuha inbus inbuslek inbuslu jbus jbusilhom jbusu jbusuh jbusuha jbusuhom jbusulha nbus nbusha nbusu tbus tbusu
+23	3123	ċiviltà	ċivilta ċiviltajiet
+24	3124	te	tejiet tih tiha tihom tihu tik
+25	3125	jinħatar	jinħatarx
+26	3126	proporzjon	proporzjoni proporzjonijiet
+27	3127	jkabbar	ikabbar ikabbarha jkabbara jkabbarha jkabbarhom jkabbarna jkabbarx
+28	3128	rikoverat	rikoverata rikoverati
+29	3129	merħla	imrieħel merħliet mrieħel
+30	3130	ġenetiku	ġenetika ġenetiċi
+31	3131	kastig	kastigi
+32	3132	alfabett	alfabetti
+33	3133	riserva	riservi
+34	3134	wisa'	wisa wisgħat
+35	3135	intiż	intiża intiżi ntiż ntiża ntiżi
+36	3136	akkumpanjata	akkumpanjati akkumpanjatii
+37	3137	jitressaq	jitressaqx
+38	3138	iddikjarata	ddikjarata ddikjarati iddikjarati
+39	3139	kredibbli	
+40	3140	jittella	
+41	3141	diżappunt	diżappunti
+42	3142	kalkolu	kalkoli
+43	3143	kokaina	
+44	3144	ħofra	ħofor ħofriet
+45	3145	kowċis	
+46	3146	wiret	iret jiret jiritha jirtu jirtuh jirtuha jirtux niret niritha nirtu tiret tiritha tirtha tirtu wiritha wiritna wirtet wirtitha wirtu wirtuh wirtuha wirtux writna writt writtha writtna
+47	3147	tqala	tqaliet
+48	3148	żvantaġġ	iżvantaġġ iżvantaġġi żvantaġġi
+49	3149	immens	immensa immensi mmens mmensa
+50	3150	konness	konnessa konnessi
+51	3151	tinħass	tinħassx
+52	3152	spekulazzjoni	ispekulazzjoni ispekulazzjonijiet spekulazzjonijiet
+53	3153	difensiv	difensiva difensivi
+54	3154	kemmxejn	
+55	3155	rit	riti
+56	3156	poloz	
+57	3157	avventura	avventuri
+58	3158	kwota	kwotah kwoti
+59	3159	kompetenza	kompetenzi
+60	3160	uriena	urieni wriena wrieni
+61	3161	konfużjoni	
+62	3162	tilqima	
+63	3163	dedikata	dedikati
+64	3164	qamħ	qamħa qmuħ
+65	3165	evalwa	evalwajna evalwat evalwaw jevalwa jevalwaha jevalwalek jevalwaw jevalwawhom nevalwa nevalwaw nevalwawha nevalwawx tevalwa
+66	3166	kkostitwixxa	ikkostitwiet ikkostitwixxu jikkostitwixxi jikkostitwixxu jikkostitwixxuhom jikkostitwixxux kkostitwew kkostitwiet kkostitwit kkostitwixxiet kkostitwixxu kostitwit tikkostitwix tikkostitwixxa tikkostitwixxi tikkostitwixxix
+67	3167	mgħaġġla	
+68	3168	rvell	irvell irvelli irvellijiet rvelli rvellijiet
+69	3169	ddefinixxa	ddefinew ddefiniet ddefinixxew ddefinixxiet iddefinejt iddefinew iddefiniet iddefinietha iddefinixxa iddefinixxew jiddefinixxi jiddefinixxix jiddefinixxu jiddefinixxuh jiddefinixxuhom niddefinixxi niddefinixxu tiddefinixxi tiddefinixxix
+70	3170	editorjal	editorjali
+71	3171	arkeologu	arkeologi
+72	3172	star	istar stara stari
+73	3173	appartjena	jappartjeni jappartjenix jappartjenu jappartjenux nappartjeni nappartjenix nappartjenu tappartjeni tappartjenix
+74	3174	applikata	applikati
+75	3175	siewi	
+76	3176	rilevanti	
+77	3177	ħaffer	imħaffer inħaffer iħaffer iħaffru jħaffer jħaffru jħaffruhom jħaffrux mħaffer nħaffru tħaffer tħaffru ħaffirt ħaffret ħaffru ħaffruhom ħaffruli
+78	3178	bejjiegħ	bejjiegħa
+79	3179	ċensura	ċensuri
+80	3180	qarraq	imqarraq inqarrqu iqarraq iqarrqu jqarraq jqarraqx jqarrqu jqarrqux mqarraq nqarrqu nqarrqux qarrqu tqarraq
+81	3181	kondizzjoni	kondizzjonijiet
+82	3182	neputi	nepputi nepputih neputih neputiha
+83	3183	biedja	
+84	3184	organizzaturi	
+85	3185	lokalment	
+86	3186	iżolament	iżolamenti
+87	3187	tiri	
+88	3188	ħmar	iħmir jiħmar jiħmaru tiħmar ħmara ħmir
+89	3189	innoċenti	nnoċenti
+90	3190	ragħaj	ragħajha ragħajhom ragħajja
+91	3191	protettiv	protettiva protettivi
+92	3192	teżi	teżijiet
+93	3193	infern	nfern
+94	3194	psikoloġiku	psikoloġika psikoloġiċi
+95	3195	kampjun	kampjuni
+96	3196	investitura	investituri
+97	3197	għabba	għabbejt għabbew għabbewha għabbewhom għabbewlu għabbewna għabbieh għabbiena għabbieni għabbiet għabbietna għabbih għabbiha għabbihom jgħabbi jgħabbihom jgħabbihomx jgħabbina jgħabbix jgħabbu jgħabbuh jgħabbuha jgħabbuhom jgħabbuna mgħobbi mgħobbija mgħobbijin ngħabbu ngħabbuh ngħabbuhom tagħbien tgħabbi
+98	3198	privatizzazzjoni	privatizzazzjonijiet
+99	3199	xogħolijiet	xogħolijietu
+100	3200	tellef	intellef itellef itellfu itellfuh itellfuk itellfuna itellifna itellifni ittellef ittelliflu ittellifni ittellifx jtellef jtellfu jtellfuh jtellfuk jtellfukx jtellfulek jtellfulu jtellfux jtellifha jtellifhom jtellifna jtellifni jtellifx ntellfux ntellifx tellfet tellfitha tellfithom tellfitlu tellfitu tellfu tellfulhom tellfulhomx tellfulu tellifhom tellifx ttellfu ttellifx

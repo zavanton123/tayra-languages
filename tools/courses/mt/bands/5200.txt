@@ -1,100 +1,100 @@
-1	5101	ddeforma	ddeformat deformat iddeformat jiddeforma tiddeforma
-2	5102	annunzja	jannunzja
-3	5103	boqxiex	
-4	5104	xintill	
-5	5105	żagħka	
-6	5106	ffanfra	jiffanfra
-7	5107	tgeddes	jitgeddsu tgeddist tgeddsux tgezzez
-8	5108	twellija	twellijiet
-9	5109	ful	
-10	5110	povertà	
-11	5111	sakranazz	sakranazzi
-12	5112	saborra	
-13	5113	arkivja	arkivjar arkivjat jarkivja tarkivja
-14	5114	anġeliku	anġelika
-15	5115	ħammel	iħammel jħammlu mħammel taħmil tħammel ħammlu
-16	5116	silika	
-17	5117	xaħxieħ	xaħxieħa
-18	5118	muntun	imtaten mtaten
-19	5119	garnija	
-20	5120	żbib	iżbiba żbiba
-21	5121	belliegħa	
-22	5122	tnehid	
-23	5123	xaħmi	xaħmin
-24	5124	naqqa	jnaqqi tnaqqix
-25	5125	xaqqaq	imxaqqaq jxaqqu mxaqqaq xxaqqaq
-26	5126	smida	ismid
-27	5127	zokkri	zokkrija
-28	5128	azzjonarju	azzjonarja
-29	5129	velari	
-30	5130	raffinament	
-31	5131	supereroj	
-32	5132	dali	doli
-33	5133	birwin	birwina
-34	5134	predikat	predikati
-35	5135	pitarrun	pitarruni
-36	5136	xaħmet	
-37	5137	ġonta	ġonot
-38	5138	xalpa	xalpi xarpa
-39	5139	naturalizzazzjoni	
-40	5140	pastard	pastarda
-41	5141	nemex	
-42	5142	ġenjalità	
-43	5143	saqwi	
-44	5144	djuq	
-45	5145	bilbla	
-46	5146	mmonopolizza	immonopolizza immonopolizzaw jimmonopolizza jimmonopolizzaw
-47	5147	adultera	adulterat
-48	5148	ftila	ftejjel
-49	5149	falzità	falsità falzitajiet
-50	5150	bodbod	bdabad
-51	5151	biċċer	imbiċċer inbiċċru jbiċċer mbiċċer
-52	5152	antimonju	
-53	5153	tukan	tukani
-54	5154	trombettier	trumbettier
-55	5155	żgurament	
-56	5156	bexxiexa	
-57	5157	birrar	birrara
-58	5158	fatar	iftar joftru niftar toftor
-59	5159	tojlit	tojlits
-60	5160	qaqoċċ	
-61	5161	branka	branek branki
-62	5162	newwel	inewlu inewwel newlet
-63	5163	setaħ	
-64	5164	rali	
-65	5165	illużorju	illużorja illużorji
-66	5166	għors	
-67	5167	umanament	
-68	5168	ratal	
-69	5169	edifikanti	
-70	5170	ġelu	
-71	5171	aruka	
-72	5172	ċivilment	
-73	5173	inkorrett	inkorretta
-74	5174	tmasħan	jitmasħan jitmasħnu tmasħnu
-75	5175	tgħolla	jitgħolla tgħolliet titgħolla
-76	5176	idealizza	idealizzat jidealizza jidealizzaw
-77	5177	faċċol	faċċola faċċoli
-78	5178	fissed	ifissdu mfissed nfissdu
-79	5179	vvolontarja	ivvolontarjat jivvolontarjaw tivvolontarjaw vvolontarjajt
-80	5180	laqlaq	ilaqalqu ilaqlaq jlaqlaqx tlaqlaqx
-81	5181	brigg	briggs
-82	5182	berwieq	
-83	5183	kollazzjoni	
-84	5184	fiddi	
-85	5185	masturbazzjoni	
-86	5186	inabbiltà	
-87	5187	universalista	
-88	5188	ċagħqi	
-89	5189	perniċjotta	perniċjotti
-90	5190	biel	bul bulu
-91	5191	ntebagħ	intbagħt intbagħtu ntbagħtu
-92	5192	deformazzjoni	deformazzjonijiet
-93	5193	ġirasol	ġirasoli
-94	5194	kobalt	
-95	5195	qarnit	qarnita
-96	5196	triegħed	jitriegħed titriegħed tregħid triegħdet
-97	5197	magħlef	
-98	5198	produċenti	
-99	5199	iddawnlowdja	
-100	5200	mintna	
+1	5101	abbużiv	abbużiva abbużivi
+2	5102	intebħa	jintebħu jintebħux nintebħu nintebħux tintebħu
+3	5103	miġġielda	
+4	5104	donaturi	
+5	5105	ressqu	ressquh ressquhom ressqux
+6	5106	njorati	injorati
+7	5107	pajp	pajpijiet
+8	5108	periferija	periferiji
+9	5109	dewa	dwew dwiet jidwi jidwu tidwi
+10	5110	sforza	isforzar jisforza jisforzah jisforzaw nisforza sforzat tisforza
+11	5111	nfexx	infexx infexxejt infexxet infexxew jinfexx jinfexxu nfexxet nfexxew ninfexx ninfexxu tinfexx tinfexxu
+12	5112	wens	wensi
+13	5113	miġnun	imġienen miġnuna mġienen
+14	5114	tennista	tennisti
+15	5115	xolja	ixolji ixolju ixoljuh jxoljaw jxolji jxolju xoljew xoljiet xoljietha
+16	5116	pol	poli polu
+17	5117	radam	jordmu jordom jordomna mirdum mirduma mirdumin radmet radmu tordom
+18	5118	konsagrazzjoni	konsagrazzjonijiet
+19	5119	hemeż	ehmeż hemiżtu hemżet hemżu jehmeż jehmżu jehmżuha jehmżulhom mehmuż mehmuża mehmużin nehmeż tehmeż
+20	5120	danakollu	
+21	5121	professjonalità	professjonalita
+22	5122	trux	torox truxa
+23	5123	bail	
+24	5124	tisjir	tisjira
+25	5125	skolpit	skolpita skolpiti
+26	5126	soċjalment	
+27	5127	abbundanza	abbundanzi
+28	5128	tag	
+29	5129	ittestjar	ttestjar
+30	5130	frontliners	
+31	5131	visor	visors
+32	5132	estimi	
+33	5133	ġenju	ġenji
+34	5134	iniex	
+35	5135	offiża	offiżi
+36	5136	kwint	kwinti
+37	5137	fieragħ	fiergħa
+38	5138	responsabiltà	responsabilta responsabiltajiet
+39	5139	eżekuzzjoni	eżekuzzjonijiet
+40	5140	nidem	indem indmu jindem jindmu jindmux nidimx nidma nidmet nidmitx nidmu niedem niedma nindem nindmu tindem tindmux
+41	5141	hiex	
+42	5142	validità	validita
+43	5143	fantasija	fantasiji
+44	5144	plenarja	plenarji
+45	5145	mtejba	imtejba
+46	5146	abbużata	abbużati
+47	5147	mitoloġija	mitoloġiji
+48	5148	sud	
+49	5149	għawweġ	għawġux imgħawweġ jgħawweġ jgħawwiġli jgħawġu mgħawweġ ngħawġu tgħawweġ tgħawwiġx tgħawġu
+50	5150	parruċċani	
+51	5151	testjata	ittestjata ittestjati ttestjata ttestjati
+52	5152	eskluża	esklużi
+53	5153	monti	
+54	5154	rrappreżentata	irrappreżentata irrappreżentati rrappreżentati
+55	5155	inaċċettabbli	
+56	5156	stad	istadt jistad jistadek jistadu jistaduh mistad mistada nistad nistadu stadt stadu tistad
+57	5157	obbligazzjoni	obbligazzjonijiet obligazzjoni
+58	5158	klin	iklin
+59	5159	koordinazzjoni	
+60	5160	jinħadem	
+61	5161	staġjonali	
+62	5162	ġentili	
+63	5163	demokristjan	demokristjana demokristjani
+64	5164	kariżma	kariżmi
+65	5165	ġeografikament	ġeografikamentu
+66	5166	eżaminata	eżaminati
+67	5167	arzell	arzella arzelli
+68	5168	niten	intiena jinten jintnu jintnux tinten
+69	5169	preċiżjoni	
+70	5170	kjostru	kjostri
+71	5171	editja	editjaha editjahom editjajt editjar editjat jeditja neditja teditja
+72	5172	mudlam	mudlama mudlamin
+73	5173	replika	repliki
+74	5174	raħas	jorħos jorħsu orħos raħasx raħset raħsu raħsux roħos roħosx torħos
+75	5175	illegalment	llegalment
+76	5176	stħajjel	jistħajjel jistħajjilhom jistħajlu jistħajluhom mistħajjel nistħajjel nistħajjilha nistħajjilhom nistħajjilna nistħajjilni nistħajlu nistħajluh stħajjiltu stħajlu tistħajjel tistħajjilha tistħajjilhom tistħajlu
+77	5177	tikkonċerna	
+78	5178	leġġendarju	leġġendarja leġġendarji
+79	5179	ħallina	iħallina iħallini iħallinix jħallina jħallini jħalliniex jħallinix tħallina tħallini tħalliniex tħallinix ħalliniex
+80	5180	spontanju	spontanja spontanji
+81	5181	awdjo	
+82	5182	tifrik	
+83	5183	pubblikata	pubblikati
+84	5184	nniffsu	inniffsu nniffsi
+85	5185	doni	
+86	5186	parametri	
+87	5187	sejjieħ	
+88	5188	sensazzjoni	sensazzjonijiet
+89	5189	kalkulu	kalkuli
+90	5190	finitura	finituri
+91	5191	remot	remota remoti
+92	5192	ħatt	inħott inħottu iħott iħottha iħottu iħottuha jħott jħottha jħottu jħottuhom maħtuta nħottu tħott ħattew
+93	5193	boċċa	boċoċ boċċi
+94	5194	soffra	jsoffri jsoffru soffrejna soffrejt soffrew soffriet soffrih
+95	5195	kesħa	
+96	5196	radjazzjoni	
+97	5197	mħassra	imħassra
+98	5198	sfrenat	sfrenata sfrenati
+99	5199	maħmuġ	maħmuġa maħmuġin
+100	5200	sjieda	

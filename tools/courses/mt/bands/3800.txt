@@ -1,100 +1,100 @@
-1	3701	bergħud	briegħed
-2	3702	ineżistenti	
-3	3703	gawwi	gawwija gawwijiet
-4	3704	astrazzjoni	astrazzjonijiet
-5	3705	simetriku	simetrika simetriċi simmetriku
-6	3706	lanġas	lanġasa
-7	3707	viljakk	viljakki
-8	3708	saqqaf	imsaqqaf isaqqaf issaqqaf jsaqqaf jsaqqfu msaqqaf saqqfu ssaqqaf tisqif
-9	3709	birrajja	birrerija
-10	3710	sogħla	
-11	3711	vvendika	ivvendika ivvendikat jivvendika jivvendikaw nivvendikaw tivvendika vvendikaw
-12	3712	abolizzjoni	
-13	3713	mank	
-14	3714	ħawt	iħwat ħwat
-15	3715	sserva	isserva isserviet jisserva jisservew nisservew tisserva
-16	3716	qadd	qaddha qaddhom qaddu
-17	3717	ħarat	jaħartu jaħrat naħartu ħart ħrit
-18	3718	pizza	pizez
-19	3719	leġiżlatur	leġiżlaturi
-20	3720	xatba	xatbiet
-21	3721	senduq	sniedaq
-22	3722	rreffja	irreffja irreffjajt irreffjar irreffjaw jirreffja jirreffjaw nirreffja rreffjajt rreffjajtu tirreffja
-23	3723	awrina	
-24	3724	rattab	imrattab irattab irattbu jrattab jrattbu mrattab nrattbu rattbet rattbu trattab
-25	3725	tkessaħ	itkessaħ jitkessaħ jitkessħu nitkessaħ nitkessħux titkessaħ tkessaħx tkessiħ
-26	3726	xedd	ixidd jxidd jxiddu jxiddux nxiddu xiddu xxidd
-27	3727	tikmix	tikmixa
-28	3728	mluħa	imluħa
-29	3729	gaffa	gafef
-30	3730	divertenti	
-31	3731	baram	brim ibrim inbaram jobormu jobrom mibrum tobrom
-32	3732	makkja	makkji
-33	3733	ċajpar	imċajpar inċajpru iċajpar jċajpar jċajpru mċajpar ċajpru ċċajpru
-34	3734	providenzjali	
-35	3735	delużjoni	delużjonijiet
-36	3736	turment	turmenti
-37	3737	nokkla	nokkli
-38	3738	majna	imajna imajnaw jmajna jmajnaw majnat majnaw tmajna tmajnaw
-39	3739	oxxenità	oxxenitajiet
-40	3740	bbojkottja	bbojkottjat bbojkottjaw bojkottjar bojkottjat ibbojkottjar ibbojkottjat ibbojkottjaw jibbojkottja jibbojkottjaw
-41	3741	sikket	isikket isikktu issikket jsikket msikket nsikktu sikkitt sikkittu sikktu
-42	3742	bellah	bellahx bellhu imbellah jbellah mbellah
-43	3743	xgħir	
-44	3744	bandla	bandli
-45	3745	għoxa	għoxew jogħxa jogħxew nogħxa nogħxew togħxa
-46	3746	friġġ	friġġijiet
-47	3747	ħadrani	ħadranija ħadranin
-48	3748	okkażjonalment	
-49	3749	setgħan	setgħani
-50	3750	disperazzjoni	
-51	3751	potassju	
-52	3752	saħħaq	saħħqet saħħqu tisħiq
-53	3753	fatat	fatati
-54	3754	siringa	siringi
-55	3755	xewa	inxtewa ixwi jixwu mixwi tixwi xiwi
-56	3756	ssagramenta	sagramentat
-57	3757	tost	tosta tosti
-58	3758	luzzu	lozzu luzzijiet
-59	3759	abbozza	abbozzar abbozzat jabbozza nabbozzaw tabbozza
-60	3760	ħala	
-61	3761	eterosesswali	
-62	3762	kostitwenza	kostitwenzi
-63	3763	korla	
-64	3764	xkupilja	ixkupilja ixkupiljar ixkupilji xkupilji
-65	3765	silla	sulla
-66	3766	profondità	profonditajiet
-67	3767	moqżież	moqżieża
-68	3768	vvizzja	ivvizzjar ivvizzjat vizzjat vvizzjat vvizzjawx
-69	3769	terapista	terapisti
-70	3770	mxajtan	imxajtan imxajtna mxajtna mxajtnin
-71	3771	barax	baraxx brix joborxu jobrox mibrux obrox tobrox tobroxx
-72	3772	sfratta	jisfratta jisfrattaw jisfrattax nisfrattaw sfrattat sfrattaw
-73	3773	ħamallu	ħamalla ħamalli
-74	3774	ħawħ	ħawħa
-75	3775	mtedd	jimtedd jimteddu nimtedd timtedd
-76	3776	ġlekk	ġlekkijiet
-77	3777	siker	jisker jiskru jiskrux sikru skirna skirt
-78	3778	djakonija	
-79	3779	baqgħa	
-80	3780	għażżien	għażżenin għażżiena
-81	3781	mmanifesta	immanifestat jimmanifesta jimmanifestaw manifestat timmanifesta timmanifestax
-82	3782	gomma	
-83	3783	rokokò	
-84	3784	deterjorament	deterjoramenti
-85	3785	taġen	taġnijiet twaġen
-86	3786	aderixxa	aderixxew aderixxewx aderixxiet aderixxu jaderixxi jaderixxu taderixxi
-87	3787	dires	dris idris jidres
-88	3788	kurva	kurvi
-89	3789	kolonjaliżmu	
-90	3790	qbiela	qbejjel qbieli
-91	3791	abbina	abbinat abbinaw jabbina jabbinaw tabbina
-92	3792	aċċenn	aċċenni
-93	3793	faqqus	
-94	3794	bumunqar	
-95	3795	wirdien	wirdiena
-96	3796	sintassi	
-97	3797	għagħa	
-98	3798	kolonizzatur	kolonizzaturi
-99	3799	fied	fid fidu
-100	3800	froġa	frejjeġ
+1	3701	wesa'	jesa jesa' jesgħu jesgħux nesa' tesa tesa' tesahom
+2	3702	persunal	
+3	3703	konslu	konsli
+4	3704	lissen	ilissen ilissinhom ilissnu ilissnuha imlissen inlissen inlissinha jlissen jlissinx jlissnu jlissnuha jlissnux lissint lissintlu lissintu lissinx lissnet lissnitx lissnu lissnux mlissen nlissen nlissinx nlissnu nlissnuha tlissen tlissin tlissinha
+5	3705	kapulavur	kapulavuri
+6	3706	tiġrijiet	
+7	3707	ipprevjena	ipprevjenew ipprevjeniet jipprevjeni jipprevjenu jipprevjenuhom nipprevjenu pprevjena pprevjenew pprevjenewx pprevjeniet pprevjenietx tipprevjeni tipprevjenix
+8	3708	disgħa	
+9	3709	apprezzata	apprezzati apprezzatti
+10	3710	fortunatament	
+11	3711	raba	nrabi rabtilha traba
+12	3712	indirett	indiretta indiretti ndirett ndiretta ndiretti
+13	3713	ritwal	ritwali
+14	3714	fortuna	fortuni
+15	3715	traduttur	tradutturi
+16	3716	usa	
+17	3717	eħilsa	jeħilsu jeħilsuh jeħilsuha jeħilsuhom neħilsu teħilsu
+18	3718	kukki	
+19	3719	bennej	bennejja
+20	3720	projbizzjoni	projbizzjonijiet
+21	3721	wiri	
+22	3722	partikularment	
+23	3723	tajr	itjur tajriet tjur
+24	3724	pulzier	pulzieri
+25	3725	regulari	
+26	3726	amir	amiri emir emiri emiru
+27	3727	tixxandar	tixxandarx
+28	3728	neo	
+29	3729	triplu	tripla tripli
+30	3730	issalvagwardja	issalvagwardjat jissalvagwardja jissalvagwardjaw jissalvagwardjax nissalvagwardja nissalvagwardjaw ssalvagwardjat ssalvagwardjaw tissalvagwardja tissalvagwardjahom
+31	3731	arkanġlu	arkanġli
+32	3732	emissjonijiet	
+33	3733	pur	pura puri
+34	3734	ndafa	indafa
+35	3735	partiġġjan	partiġġjana partiġġjani
+36	3736	xkaffa	ixkafef ixkaffa xkafef
+37	3737	imtella	jimtella mtella
+38	3738	motiv	motivi
+39	3739	żero	zero żerijiet
+40	3740	mmodifika	immodifika immodifikar immodifikat immodifikata immodifikaw jimmodifika jimmodifikahom jimmodifikaw jimmodifikawhom mmodifikat mmodifikata mmodifikaw modifikat modifikata nimmodifikaw timmodifika timmodifikahom
+41	3741	tkattar	jitkattar jitkattru jitkattrulhom jtkattar nitkattru titkattar tkattir tkattret tkattru
+42	3742	xejjen	imxejjen inxejnu ixejjen ixejnu ixejnuna ixxejjen jxejjen jxejjinha jxejnu mxejjen nxejnu tixjin xejnet xxejjen xxejnu
+43	3743	prospettiva	prospettivi
+44	3744	reħa	erħi erħilha erħilhom erħili erħilna erħilu erħini erħu irħew irħewlha jerħi jerħiha jerħilha jerħu jerħulha merħi merħija merħijin nerħi nerħih nerħik nerħilha reħielha reħitilha rħejtux rħew rħewlha terħi terħilha
+45	3745	norma	normi
+46	3746	investigaturi	
+47	3747	kostum	kostumi
+48	3748	nġab	inġab inġabet inġabu inġieb inġiebu jinġab jinġabu nġabet nġabitilhom nġabu nġieb nġiebu tinġab
+49	3749	xandira	
+50	3750	jalla	
+51	3751	messija	messiji
+52	3752	persunaġġ	persunaġġi
+53	3753	adolexxenti	
+54	3754	trattata	ittrattata ittrattati ttrattata ttrattati
+55	3755	appunta	appuntah appuntaha appuntar appuntat appuntaw jappunta jappuntawx nappuntaw tappunta
+56	3756	ġganti	iġganti ġgantija
+57	3757	sistematiku	sistematika sistematiċi
+58	3758	sigarett	sigaretti
+59	3759	illibera	illiberat jillibera jilliberaha jilliberak jilliberana jilliberaw llibera lliberahom lliberajt lliberat lliberatu lliberaw lliberawha lliberawhom lliberax tillibera
+60	3760	merkant	merkanti
+61	3761	jinfirex	
+62	3762	ħarir	ħarira
+63	3763	inġinerija	
+64	3764	korrispondenza	korrispondenzi
+65	3765	rtirata	irtirata irtirati rtirati
+66	3766	nħeba	inħbejt inħbew inħbiet inħeba jinħbew jinħbewx jinħeba jinħebiex ninħbew ninħbewx ninħeba nħbejt nħbew nħbiet tinħeba
+67	3767	eqirda	jeqirdu jeqirduh jeqirduha jeqirduhom jeqirduk jeqirdulha jeqirdulhom jeqirduna jeqirduni jeqirdux neqirdu neqirduh neqirduhom neqirdukom neqirdulhom neqirdux teqirdu teqirdux
+68	3768	ssofri	issofri ssofrih ssofrix
+69	3769	nħolqu	inħolqu nħolqux
+70	3770	millenju	millenji
+71	3771	ħaruf	ħarufa ħrejjef ħrief
+72	3772	rispettata	rispettati
+73	3773	taparsi	
+74	3774	sparatura	isparatura isparaturi sparaturi
+75	3775	preżentament	
+76	3776	batut	batuta batuti
+77	3777	awards	
+78	3778	delizzju	delizzji
+79	3779	konti	
+80	3780	preseduta	preseduti
+81	3781	siewja	
+82	3782	xiex	
+83	3783	eċċessiv	eċċessiva eċċessivi
+84	3784	adu	ada adux
+85	3785	okkażżjoni	okkażżjonijiet
+86	3786	kustodja	kustodji
+87	3787	splussiv	isplussiv isplussivi splussiva splussivi
+88	3788	aħħarnett	
+89	3789	simboliku	simbolika simboliċi
+90	3790	preparamenti	
+91	3791	prima	primi
+92	3792	irduppja	irduppjajna irduppjat irduppjaw jirduppja jirduppjaw rduppjat rduppjaw rduppjawx
+93	3793	terroriżmu	
+94	3794	regolatur	regolaturi regulaturi
+95	3795	ttellgħet	ittellgħet ttellgħetx
+96	3796	murija	
+97	3797	kburija	kburitu
+98	3798	mwettqa	imwettqa
+99	3799	leġiżlazzjoni	leġiżlazzjonijiet
+100	3800	sigrieta	

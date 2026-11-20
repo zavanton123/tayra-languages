@@ -1,0 +1,100 @@
+1	9101	abbiss	abbissi abiss abissi
+2	9102	degradanti	
+3	9103	paletta	paletti
+4	9104	ddeduċa	dedott iddeduċa jiddeduċi niddeduċu tiddeduċi
+5	9105	bluha	
+6	9106	inkuruna	jinkuruna jinkurunaw ninkurunaw nkuruna
+7	9107	ikkrea	ikkreaw jikkrea jikkreaw kkreat kkreaw nikkreaw tikkrea tikkreax
+8	9108	umiljanti	
+9	9109	malja	malji
+10	9110	għeliem	
+11	9111	kefrija	
+12	9112	żelu	zelu
+13	9113	eskorta	eskortat jeskorta jeskortah jeskortaw teskorta
+14	9114	insapportabbli	nsapportabbli
+15	9115	maktur	imkatar mkatar
+16	9116	venerazzjoni	
+17	9117	sija	
+18	9118	dekadenza	
+19	9119	qatran	
+20	9120	għeri	għerija għerja
+21	9121	irriserva	jirriserva jirriservaw rriserva rriservat tirriserva
+22	9122	ttellef	ittellef ittelliflu ittellifni ittellifx ttellfu ttellifhom ttelliflu ttellifna ttellifx
+23	9123	iproduċa	jiproduċi jiproduċu produċew produċiet tiproduċi
+24	9124	ħmura	
+25	9125	baldakkin	baldakkini
+26	9126	qastan	
+27	9127	remissa	remissi
+28	9128	herra	herrew herri jherri jherru mherri mherrija mherrijin therri
+29	9129	ssallab	issallab issallabhom issallabt issallbu jissallab jissallbu nissallab tissallab
+30	9130	armel	
+31	9131	vizzjuż	vizzjużi
+32	9132	teorikament	teoretikament
+33	9133	ċawsla	ċawsli
+34	9134	ħanex	ħniex
+35	9135	żooloġija	
+36	9136	qdiem	jiqdiem qdiemet qdiemu tiqdiem
+37	9137	terħa	terħieh trieħi
+38	9138	rebus	
+39	9139	nasba	nasbiet
+40	9140	interpretu	interpreti
+41	9141	demarkazzjoni	demarkazzjonijiet
+42	9142	abdikazzjoni	
+43	9143	ċċassa	iċċassa iċċassajt iċċassat jiċċassa jiċċassaw niċċassa niċċassaw tiċċassa ċċassat ċċassatni
+44	9144	ittrenja	ittrenjat jittrenja jittrenjah jittrenjaw nittrenja tittrenja
+45	9145	trasferixxa	itrasferixxa itrasferixxew itrasferixxu ittrasferixxi jitrasferixxi titrasferixxi
+46	9146	eradika	eradikat jeradikaw neradikaw teradika
+47	9147	inġurja	inġurjah inġurjat jinġurjax nġurjat
+48	9148	ħadit	
+49	9149	sugu	sugi
+50	9150	applaws	applawsi
+51	9151	gverta	gverti
+52	9152	komplott	komplotti
+53	9153	baxà	paxà
+54	9154	ferra	iferra jferra nferra tferra tferrix
+55	9155	ipprofessa	ipprofessat jipprofessa jipprofessaw nipprofessaw pprofessa pprofessat
+56	9156	tnikker	jitnikker jitnikkru titnikker tnikkir tnikkirtx
+57	9157	skojjattlu	iskojjattli iskojjattlu skojjattli
+58	9158	ċekċek	iċekċku iċċekċek jċekċek jċekċku ċekċik
+59	9159	inuman	inumana inumani
+60	9160	stabar	jistabar nistabar nistabru stabret stabru tistabar
+61	9161	uranju	
+62	9162	għażżiela	
+63	9163	armistizju	armistizji
+64	9164	uqija	ewieq uqijiet wieq
+65	9165	irrombla	irromblat jirrombla jirromblahom jirromblaw rrombla rromblaw tirrombla
+66	9166	fellus	flieles
+67	9167	illaxka	illaxkat jillaxka jillaxkalu jillaxkaw llaxka llaxkax
+68	9168	ingravata	ingravajjet ngravata
+69	9169	gambetta	gambetti
+70	9170	sulfarina	sulfarini
+71	9171	pappagall	pappagalli
+72	9172	eżattezza	
+73	9173	twaħħad	jitwaħħad jitwaħħdu titwaħħad twaħħdet twaħħdu
+74	9174	emozzjonalment	
+75	9175	okkorra	jokkorri jokkorrix jokkorru tokkorri
+76	9176	ħalba	ħalbiet
+77	9177	ikritika	jikritika kritikajtu kritikat kritikaw
+78	9178	xema'	xema xemgħat
+79	9179	brodu	
+80	9180	karitattiv	karitattiva karitattivi
+81	9181	irriklama	jirriklama jirriklamaw nirriklama nirriklamaw rriklamaw tirriklama
+82	9182	selaħ	jisloħ jisloħha jisolħu jisolħulhom jisolħuna misluħ misluħa nisolħu tisloħ tisolħu
+83	9183	għarbiel	
+84	9184	mislub	
+85	9185	iskava	jiskava jiskavaw jiskavawha niskava niskavaw skavaw tiskava
+86	9186	pum	pumi pumijiet
+87	9187	deha	edha jedha jedhew medhija nedhew
+88	9188	perenni	
+89	9189	ebusija	
+90	9190	temperat	temperata temperati
+91	9191	ippopotamu	ippopotami
+92	9192	zopp	zopop zoppa
+93	9193	żdinga	iżdingar niżdinga żdingar żdingat
+94	9194	argumentazzjoni	argumentazzjonijiet
+95	9195	astroloġiku	astroloġika astroloġiċi
+96	9196	iddistribwixxa	jiddistribwixxi jiddistribwixxu tiddistribwixxi
+97	9197	bbeatifika	bbeatifikat bbeatifikatu beatifikat ibbeatifika ibbeatifikat jibbeatifika
+98	9198	waħħad	imwaħħad iwaħħad iwaħħdu jwaħħad jwaħħdu mwaħħad tewħid twaħħdu waħħadna waħħdet
+99	9199	ħambaq	inħambaq iħambaq iħambqu jħambaq jħambqu tħambaq ħambqu
+100	9200	makakk	makakka makakki

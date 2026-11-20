@@ -1,100 +1,100 @@
-1	2401	daħka	daħqa
-2	2402	beraq	berqa
-3	2403	ħanżir	ħanżira ħnieżer
-4	2404	leqq	ileqq ileqqu jleqq jleqqu jleqqx tleqq
-5	2405	ħama	irħama irħamiet rħama ħami
-6	2406	landa	landi laned
-7	2407	ddetta	ddettajna ddettat dettat iddetta iddettat iddettaw jiddetta jiddettaw niddettaw tiddetta
-8	2408	għall-anqas	għallinqas
-9	2409	nixxa	inixxi inixxu jnixxi jnixxix jnixxu nixxew nixxiet nnixxu tnixxi
-10	2410	likwidu	likwida likwidi
-11	2411	mmulta	immulta immultat jimmulta jimmultaw mmultat mmultaw timmulta
-12	2412	antiċipa	antiċipajt antiċipat antiċipatx antiċipaw jantiċipa jantiċipaw jantiċipax nantiċipa nantiċipaw tantiċipa
-13	2413	ħandaq	ħniedaq ħondoq
-14	2414	pejjep	inpejjep ipejjep ipejpu jpejjep jpejpu jpejpux npejjep pejjipna pejjipt tpejjep tpejjipx
-15	2415	ġobon	ġobna ġobnijiet
-16	2416	determinanti	
-17	2417	xaqleb	imxaqleb ixaqilbu ixaqleb ixxaqleb jxaqilbu jxaqleb mxaqleb nxaqleb xaqilbet xaqilbu xaqlib xxaqleb xxaqlibx
-18	2418	abitazzjoni	abitazzjonijiet
-19	2419	xjentifikament	
-20	2420	kotra	
-21	2421	għarwien	għarwenin għarwiena
-22	2422	għajjar	għajjarna għajjart għajjartu għajru igħajru jgħajjar jgħajru mgħajjar ngħajjar ngħajru tgħajjar tgħajru
-23	2423	miżien	imwieżen mwieżen
-24	2424	krema	kremi
-25	2425	eliminazzjoni	eliminazzjonijiet
-26	2426	nassa	nases nassi
-27	2427	ġarraf	imġarraf iġarraf iġarrfu iġġarraf iġġarrfu jġarraf jġarrfu mġarraf nġarrfu ġarrafna ġarrfet ġarrfu ġġarraf ġġarrafx ġġarrfu ġġarrfux
-28	2428	għaffeġ	għaffġet għaffġu imgħaffeġ jgħaffeġ jgħaffġu mgħaffeġ ngħaffeġ ngħaffġu tgħaffeġ tgħaffiġx
-29	2429	eleva	elevar elevat elevaw elevawx jeleva jelevaw televa
-30	2430	appostolat	apostolat
-31	2431	xemxi	xemxija xemxin
-32	2432	ħonoq	joħnoq joħnoqx joħonqu maħnuq noħnoq noħonqu toħnoq toħonqu ħonqot ħonqu
-33	2433	mibegħda	
-34	2434	aċċessa	aċċessat aċċessaw jaċċessa jaċċessaw taċċessa
-35	2435	ssalva	issalva issalvaw jissalva jissalvaw ssalvaw ssalvax tissalva
-36	2436	ssimbolizza	issimbolizzat jissimbolizza jissimbolizzaw simbolizzat ssimbolizzat ssimbolizzaw tissimbolizza
-37	2437	ffrekwenta	ffrekwentat frekwentat iffrekwentat iffrekwentaw jiffrekwenta jiffrekwentaw niffrekwenta tiffrekwenta
-38	2438	safejn	
-39	2439	insomma	imsomma
-40	2440	rtir	irtir irtiri rtiri
-41	2441	ljunfant	iljunfant iljunfanti ljunfanti
-42	2442	terapija	terapiji
-43	2443	niseġ	insiġ insiġt jinseġ jinsġu jinsġux minsuġ ninsġu nisġet nisġu nsiġ tinseġ
-44	2444	ġiebja	ġibjun ġwiebi
-45	2445	mingħal	mingħalih mingħaliha mingħalihom mingħalija mingħalik mingħalikom mingħalina
-46	2446	fjamma	fjammi
-47	2447	astronomu	astronoma astronomi
-48	2448	allaħares	
-49	2449	tgħammed	jitgħammdu jitgħammdux jitgħammed nitgħammed tgħammdet tgħammdu tgħammidna tgħammidt tgħammidx titgħammdu titgħammed
-50	2450	ħabsi	ħabsin
-51	2451	ħerba	ħereb
-52	2452	votant	
-53	2453	kotor	joktor joktru joktrux kotrot kotru ktir oktru toktor
-54	2454	mogħoż	mogħża mogħżiet
-55	2455	diriġenti	
-56	2456	borma	borom
-57	2457	vjola	
-58	2458	mgħammed	imgħammda imgħammdin imgħammed mgħammda mgħammdin
-59	2459	wessa'	inwessgħu iwessgħu jwessa' jwessgħu jwessgħux nwessa' nwessgħu twessa' twessgħu wessa wessajna wessgħet wessgħu
-60	2460	dendel	ddendlu dendlu iddendlu idendel idendlu imdendel indendel jdendel jdendlu mdendel ndendel ndendlu
-61	2461	barri	barrin
-62	2462	essenzjalment	
-63	2463	tawwal	imtawwal intawwal itawlu itawwal ittawwal jtawlu jtawwal mtawwal ntawlu ntawwal ntawwalx tawlet tawlu tawwalt titwil ttawwal
-64	2464	tempesta	tempesti
-65	2465	tentazzjoni	tentazzjonijiet
-66	2466	nixef	inxif jinxef jinxfu jinxfux ninxef ninxifx nixfet nixfu tinxef
-67	2467	trawwem	jitrawmu jitrawwem titrawmu titrawwem trawmet trawmu trawwim trawwimna trawwimt
-68	2468	nixfa	nixfiet
-69	2469	miżgħud	miżgħuda miżgħudin
-70	2470	eliminatorju	eliminatorja eliminatorji
-71	2471	ntiret	intirtet intirtu jintiret jintirtu ntirtet ntirtu tintiret tintiritx
-72	2472	kostitwenti	
-73	2473	ħalef	aħlef jaħlef maħluf naħlef taħlef ħalfet ħalfu ħlift ħliftu
-74	2474	denominazzjoni	denominazzjonijiet
-75	2475	invenzjoni	invenzjonijiet
-76	2476	tiben	tibna
-77	2477	applikabbli	
-78	2478	mafkar	imfakar mfakar
-79	2479	idda	iddejna iddejt iddejtu iddew iddi iddiet iddu jiddi jiddix jiddu niddi niddu tiddi tiddix tiddu
-80	2480	toqol	
-81	2481	kappell	ikpiepel kpiepel
-82	2482	agħma	għami għamja għomja
-83	2483	ttajjar	ittajjar ittajret ittajru jittajjar jittajru nittajjar nittajru tittajjar ttajret ttajru
-84	2484	ttollera	ittollera ittollerat jittollera jittolleraw jittollerawx jittollerax nittollera nittolleraw tittollera tollerat ttollerat ttolleraw ttollerax
-85	2485	bumbardament	bombardament bumbardamenti
-86	2486	mastrudaxxa	mastrudaxxi
-87	2487	fjura	
-88	2488	żaqq	jżoqqu
-89	2489	nefaħ	infaħt infiħ jonfoħ jonfħu minfuħ nefħet nefħu nfaħtu nfiħ nonfħu tonfoħ tonfħu
-90	2490	difna	difniet
-91	2491	umdità	
-92	2492	monetarju	monetarja monetarji
-93	2493	ramla	ramliet
-94	2494	rrabjat	irrabjata irrabjati rrabjata rrabjati
-95	2495	regolatur	regulaturi
-96	2496	sostenitur	sostenituri
-97	2497	pronunzja	pronunzji
-98	2498	addoċċ	
-99	2499	bużżieqa	bżieżaq
-100	2500	rimi	
+1	2401	muntanjuż	muntanjuża muntanjużi
+2	2402	gowler	gowlers
+3	2403	introdotta	introdotti ntrodotta ntrodotti
+4	2404	mbierek	imberkin imbierek imbierka mberkin mbierka
+5	2405	kiesaħ	kesħin kiesħa
+6	2406	deskrizzjoni	deskrizzjonijiet
+7	2407	inġinier	inġiniera inġinieri
+8	2408	mwielda	imwielda
+9	2409	ferrovjarju	ferrovjarja ferrovjarji
+10	2410	bitħa	btieħi
+11	2411	possibli	
+12	2412	konġunt	konġunta konġunti
+13	2413	tabella	tabelli
+14	2414	mozzjoni	mozzjonijiet
+15	2415	għanja	għanjiet
+16	2416	ward	warda wardiet
+17	2417	involviment	involvimenti
+18	2418	wieled	imwieled imwieleda inwieled mwieled mwieleda twelidx twieldu twieldulhom twieldux twildux wieldet
+19	2419	żbalja	jiżbalja jiżbaljaw jiżbaljawx jiżbaljax niżbalja niżbaljah niżbaljaw niżbaljawx niżbaljax tiżbalja tiżbaljax żbaljajna żbaljajt żbaljaw żbaljax
+20	2420	nukleari	
+21	2421	kkommetta	ikkommetta ikkommettew jikkommetta jikkommetti jikkommettiex jikkommettih jikkommettix jikkommettu jikkommettux kkommettejna kkommettejt kkommettejtu kkommettew kkommettiet kkommettiex kkommettiha kommess nikkommetti nikkommettu tikkommetti tikkommettix
+22	2422	tlagħba	intlagħbu jitlagħbu ntlagħbu
+23	2423	rregola	irregola irregolar irregolat jirregola jirregolaha jirregolahom jirregolaw jirregolawhom jirregolawx nirregolaw regolar regolat rregolat rregolaw rregolawx tirregola tirregolaha tirregolahom tirregolaw tirregolax
+24	2424	onora	jonora jonorah jonoraw jonorawna jonorawx jonorax nonora nonoraw nonorawha onorah onorat onoratha onoratu onoratuh onoratx onoraw onorawna onorax tonora tonorah tonorax tunura unurat unuratu
+25	2425	surmast	surmasti
+26	2426	fjuwil	fjuwils fuel
+27	2427	protagonist	protagonista protagonisti
+28	2428	ġilda	ġilditu ġlud ġludna
+29	2429	lat	lati lats latu
+30	2430	entużjażmu	
+31	2431	ntefa	intefa intfew intfiet intfietlu jintefa jintefah jintefaw jintefax jintfew nintefa nintefaw ntfew ntfiet tintefa tintefiex
+32	2432	appuntament	appuntamenti
+33	2433	aċċerta	aċċertajna aċċertajt aċċertajthom aċċertani aċċertat aċċertaw aċċertawna aċċertawx jaċċerta jaċċertah jaċċertaw naċċerta naċċertah naċċertak naċċertakom naċċertaw naċċertawha naċċertawhom taċċerta taċċertana
+34	2434	kongregazzjoni	kongregazzjonijiet
+35	2435	lbiċ	ilbiċ ilbiċi
+36	2436	enfasi	
+37	2437	ħasad	inħsadna jaħsad jaħsadhom jaħsadlu jaħsadni jaħsadx jaħsdu maħsud maħsuda naħsad naħsdu naħsduhom taħsad taħsadha taħsadhom taħsadlu taħsadna taħsadni taħsdu ħasadna ħasadni ħasadnix ħasdet ħasditha ħasdithom ħasditna ħasditni ħasditu ħasdu ħasduha
+38	2438	kejl	kejlijiet
+39	2439	abort	
+40	2440	ovvju	ovvja ovvji
+41	2441	spjegazzjoni	ispjegazzjoni ispjegazzjonijiet spjegazzjonijiet
+42	2442	solenni	
+43	2443	doppjetta	doppjetti
+44	2444	applikant	applikanti
+45	2445	lajk	lajka lajċi
+46	2446	kreattiv	kreattiva kreattivi
+47	2447	diversità	diversita diversitajiet
+48	2448	għargħar	imgħargħar
+49	2449	ddeżinjat	ddeżinjata ddeżinjati ddeżinjatu iddeżinjat iddeżinjata iddeżinjatha iddeżinjati
+50	2450	spezzjoni	ispezzjoni ispezzjonijiet spezzjonijiet
+51	2451	effiċjenti	
+52	2452	barokk	barokka
+53	2453	martri	
+54	2454	prattiċi	
+55	2455	magħmudija	magħmudijiet
+56	2456	żerriegħa	żerrigħat żrieragħ
+57	2457	rdum	irdum irdumijiet rdumijiet
+58	2458	dedikazzjoni	dedikazzjonijiet
+59	2459	ispeċjalizza	jispeċjalizza jispeċjalizzaw nispeċjalizza nispeċjalizzaw speċjalizza speċjalizzat speċjalizzaw tispeċjalizza tispeċjalizzaw
+60	2460	ftiehem	ftehem ftehemna ftehemx ftehimna ftehimt ftehmux ftiehemx ftiehmet ftiehmu inftiehem jiftehmux jiftiehem jiftiehemu jiftiehmu miftiehem nftiehem nftiehemx nftihemx niftiehem niftiehmu tiftiehem tiftiehemx tiftihemx
+61	2461	unjin	unjins
+62	2462	bierek	berikna berikt berikthom berkux bierket bierku iberikna ibierek ibierku inbierku jberikna jberikx jberkux jbierek jbierku jitbierek jitbierku nbierek nbierku nbierkulu tberikni tbierek tbierket tbierku titbierek
+63	2463	ġeneral	
+64	2464	erġa	erġajna erġajniex erġajt erġajtu erġajtx erġilu jerġaw jerġu jerġux nerġaw
+65	2465	ħeġġa	
+66	2466	taffa	imtaffija intaffi intaffu intaffuh itaffi itaffilhom itaffu itaffulna ittaffa ittaffi ittaffiet ittaffiha ittaffilu ittaffu jittaffa jittaffu jtaffi jtaffiha jtaffilha jtaffilna jtaffu jtaffulna jttaffu mtaffi mtaffija ntaffu ntaffuha ntaffulhom taffejna taffejt taffewx taffi taffiet taffietlu tittaffa ttaffa ttaffew ttaffi ttaffiet ttaffu
+67	2467	definit	definita definiti
+68	2468	istruzzjoni	istruzzjonijiet struzzjoni struzzjonijiet
+69	2469	jittieħed	
+70	2470	manutenzjoni	manutenzjonijiet
+71	2471	depożitu	depożiti
+72	2472	sigur	sigura siguri
+73	2473	waqfa	waqfax waqfiet waqfietx waqfithom
+74	2474	ikkonsulta	ikkonsultahom ikkonsultajna ikkonsultajt ikkonsultat ikkonsultaw ikkonsultax jikkonsulta jikkonsultah jikkonsultaw jikkonsultax kkonsulta kkonsultajna kkonsultajniex kkonsultajt kkonsultana kkonsultat kkonsultatx kkonsultawx kkonsultax nikkonsulta nikkonsultah tikkonsulta tikkonsultaw
+75	2475	devot	devota devoti
+76	2476	flotta	
+77	2477	konfermat	konfermata konfermati
+78	2478	sebgħin	
+79	2479	xejra	xejriet
+80	2480	stramb	istramb istramba stramba strambi
+81	2481	issodisfa	issodisfat issodisfaw issodisfax jissodisfa jissodisfahom jissodisfak jissodisfakx jissodisfalu jissodisfaw jissodisfawx jissodisfax nissodisfa nissodisfaw ssodisfa ssodisfat ssodisfaw ssodisfawx ssodisfax tissodisfa tissodisfahom tissodisfana tissodisfani tissodisfax
+82	2482	impossibbli	mpossibbli
+83	2483	bambin	bambini
+84	2484	novella	novelli
+85	2485	tnissel	jitnissel jitnisslu jitnisslux nitnisslu titnissel tnisselhom tnissil tnissilha tnissillek tnissilt tnisslet tnisslu
+86	2486	daqsxejn	
+87	2487	ferita	feriti
+88	2488	kuntrattur	kuntratturi
+89	2489	ddisinja	ddisinjah ddisinjaha ddisinjar ddisinjat ddisinjaw disinjar disinjat iddisinja iddisinjaha iddisinjahom iddisinjajt iddisinjar iddisinjat iddisinjaw jiddisinja jiddisinjalhom jiddisinjalu jiddisinjaw niddisinjaw tiddisinja tiddisinjaw
+90	2490	seminar	seminars
+91	2491	alleati	alleatii
+92	2492	apprezzament	apprezzamenti
+93	2493	sawwar	imsawwar insawru insawwar insawwarhom isawru isawwar issawru issawwar issawwarlu jsawru jsawruha jsawruhom jsawruna jsawwar jsawwarhom msawwar nsawru nsawwar sawret sawritha sawru sawruh sawruna sawwarha sawwarna sawwart sawwartek ssawru ssawwar ssawwarna
+94	2494	kollega	kollegi
+95	2495	dimensjoni	dimensjonijiet
+96	2496	sfrutta	isfruttar jisfrutta jisfruttah jisfruttaha jisfruttahom jisfruttalha jisfruttaw jisfruttawha jisfruttawhom nisfrutta nisfruttaw nisfruttawha nisfruttawhiex sfruttaha sfruttajt sfruttar sfruttat sfruttaw sfruttawhom tisfrutta tisfruttah tisfruttahom
+97	2497	sentiment	sentimenti
+98	2498	abbord	
+99	2499	utent	utenti
+100	2500	laqqa	ilaqqa inlaqqa jlaqqa laqqajna laqqajt laqqajthom laqqat laqqatha laqqathom laqqatna laqqatx laqqaw laqqawni laqqtu laqqtuha laqqtuni tlaqqa tlaqqana

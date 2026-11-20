@@ -1,100 +1,100 @@
-1	6301	reqq	
-2	6302	għelet	tegħlet
-3	6303	aggravanti	
-4	6304	ugwalità	
-5	6305	ddisċarġja	iddisċarġjat
-6	6306	qarra	jqarru
-7	6307	abbrevja	abbrevjat
-8	6308	nemmel	
-9	6309	alveolu	alveoli
-10	6310	inidentifikabbli	
-11	6311	minżel	imnieżel
-12	6312	misiħ	
-13	6313	raħma	reħma
-14	6314	raħim	
-15	6315	għabad	nagħbdu
-16	6316	għakkar	għakkarija
-17	6317	sann	senn
-18	6318	pubbliċist	
-19	6319	estirpa	estirpat
-20	6320	magg	maggijiet
-21	6321	tripp	
-22	6322	żmembra	żmembrat
-23	6323	oġġettivista	
-24	6324	diriġibbli	
-25	6325	bromu	
-26	6326	nettunju	
-27	6327	franċju	
-28	6328	sieħ	saħ
-29	6329	pulizjott	pulizjotti
-30	6330	kollaborazzjonista	
-31	6331	avvertiment	
-32	6332	burqax	
-33	6333	ppunteġġja	punteġġjat
-34	6334	deflorazzjoni	
-35	6335	lejli	lejlija
-36	6336	abolizzjoniżmu	
-37	6337	krimżi	
-38	6338	għammied	
-39	6339	avverta	
-40	6340	tabakkiera	tabakkieri
-41	6341	sforma	sfurmat
-42	6342	baqqan	jbaqqnu
-43	6343	ssakkeġġa	ssakkeġġaw
-44	6344	deċifratur	
-45	6345	ddekada	tiddekadi
-46	6346	ddenomina	iddenominat
-47	6347	annwarju	
-48	6348	fanfru	
-49	6349	nbala'	tinbala'
-50	6350	għomma	
-51	6351	vvomta	tivvomta
-52	6352	kosmoloġiku	kosmoloġika
-53	6353	burikba	
-54	6354	kadmju	
-55	6355	smewwieti	smewwitija
-56	6356	laħqa	
-57	6357	magħsra	
-58	6358	żbanda	jiżbandaw
-59	6359	brillant	
-60	6360	marun	
-61	6361	fakar	fakru
-62	6362	sfruttatur	isfruttaturi
-63	6363	legg	
-64	6364	intemperanza	
-65	6365	idrata	idratat
-66	6366	tena	
-67	6367	ddimensjona	dimensjonar
-68	6368	ċivilista	
-69	6369	boron	
-70	6370	emiena	
-71	6371	ddetronizza	detronizzat
-72	6372	ssistema	jissistemaw
-73	6373	reżħa	
-74	6374	tatù	
-75	6375	ġudizzjali	
-76	6376	ħallaq	
-77	6377	biċikletta	
-78	6378	għawa	
-79	6379	brillantin	brillantina
-80	6380	dijalisi	
-81	6381	siegħ	
-82	6382	ġibba	ġibeb
-83	6383	endorsja	endorsjar
-84	6384	maniġġabbli	
-85	6385	sfinġa	sfineġ
-86	6386	labjali	
-87	6387	bafer	
-88	6388	ħakkieka	
-89	6389	denotattiv	denotattiva
-90	6390	raħsa	raħsiet
-91	6391	dieheb	mdieheb
-92	6392	etnoċentriku	etnoċentrika
-93	6393	glottali	
-94	6394	simboloġija	
-95	6395	użurpazzjoni	
-96	6396	rpoża	irpożat
-97	6397	ġiegħed	mġiegħed
-98	6398	bidded	biddu
-99	6399	delineament	delinjament
-100	6400	attwarju	
+1	6301	sinjifikanti	
+2	6302	ortodoss	
+3	6303	waħidha	
+4	6304	predominanti	
+5	6305	skutella	iskutella iskutelli skutelli
+6	6306	oriġni	
+7	6307	ikkontempla	jikkontempla jikkontemplaw jikkontemplawx kkontempla kkontemplajna kkontemplat kkontemplaw nikkontempla nikkontemplahom nikkontemplaw tikkontempla tikkontemplahom tikkontemplax
+8	6308	organiċi	
+9	6309	aċċettazzjoni	
+10	6310	andi	andix
+11	6311	jinġarr	jinġarrx
+12	6312	staqsewh	staqsewhx
+13	6313	bilingwi	
+14	6314	jiġġedded	jiġġeddedx
+15	6315	ċioè	ċioe
+16	6316	kunsiderazzjonijiet	
+17	6317	rrekordjati	irrekordjati
+18	6318	immerita	jimmerita jimmeritah jimmeritahom jimmeritani jimmeritaw jimmeritax nimmeritaw nimmeritawx timmerita timmeritaha
+19	6319	ħalliha	ħallihiex
+20	6320	iblah	belha boloh
+21	6321	nnominata	innominata innominati nnominati
+22	6322	weġgħat	
+23	6323	awgurju	awgurji
+24	6324	fors	
+25	6325	ċċentrata	iċċentrata iċċentrati ċċentrati
+26	6326	żmenijiet	żmenijietna
+27	6327	akkwarell	akkwarella akkwarelli
+28	6328	bijosfera	bijosferi
+29	6329	mnissla	imnissla
+30	6330	stagħna	jistagħna jistagħnew jistagħnu nistagħna stagħnat stagħnaw stagħnew stagħniet tistagħna tistagħnu
+31	6331	vendetta	vendetti
+32	6332	krudil	krudili
+33	6333	effikaċi	
+34	6334	brimb	brimba
+35	6335	misħut	misħuta misħutin
+36	6336	darb	darbi darbs
+37	6337	vvelena	avvalenat avvelena avvelenat avvelenaw avvelenawli ivvalenat ivvelenar ivvelenat ivvelenatu jivvalenaw jivvelena jivvelenaw tavvelena tivvalena tivvelena vvalenat vvelenat
+38	6338	mediċinali	
+39	6339	vagun	vaguna vaguni
+40	6340	skorrett	skorretta skorretti
+41	6341	antifona	antifoni
+42	6342	prefett	prefetti
+43	6343	ċediment	ċedimenti
+44	6344	pedana	pedani pedanti
+45	6345	itniżżla	jitniżżlu jitniżżlux tniżżla
+46	6346	finanzjara	finanzjari
+47	6347	gradwazzjoni	gradwazzjonijiet
+48	6348	qatta	qatet qattahom
+49	6349	sedqa	
+50	6350	telefown	telefowns
+51	6351	ddepożita	ddepożitajt ddepożitat depożitar depożitat iddepożita iddepożitah iddepożitat iddepożitaw jiddepożita jiddepożitaw tiddepożita
+52	6352	għanda	
+53	6353	pudina	pudini
+54	6354	dubbien	dbieben dubbiena
+55	6355	sopran	soprana soprani
+56	6356	litteriżmu	
+57	6357	persistenti	
+58	6358	manipulazzjoni	manipulazzjonijiet
+59	6359	ittimbra	ittimbrahom ittimbrat ittimbrathom jittimbra jittimbraw jittimbrawlek jittimbrawni tittimbra tittimbrahom ttimbra ttimbrat
+60	6360	barrakka	barrakki
+61	6361	neża'	inżajt jinża jinża' jinżgħu neżax neżgħu ninża' ninżgħu ninżgħux nżajna tinża tinża' tinżax
+62	6362	tuffieħa	
+63	6363	magażin	magażins
+64	6364	blogger	bloggers
+65	6365	sofferenza	sofferenzi
+66	6366	xorok	
+67	6367	manteniment	
+68	6368	reġistratur	reġistraturi
+69	6369	inħassa	jinħassu jinħassux nħassew
+70	6370	rilevanza	
+71	6371	ħarrub	ħarruba ħarrubu
+72	6372	riġment	riġmenti
+73	6373	labra	labar
+74	6374	papat	papati
+75	6375	kilba	
+76	6376	abdika	abdikat abdikaw jabdika jabdikaw jabdikawx nabdikaw tabdika
+77	6377	posittiv	posittiva posittivi
+78	6378	mtarrġa	imtarrġa
+79	6379	bilwieqfa	
+80	6380	ikkultiva	ikkultivajna ikkultivat ikkultivathom ikkultivaw jikkultiva jikkultivaw jikkultivawhom kkultivat kkultivaw kkultivawha nikkultivaw nikkultivawha nikkultivawhom tikkultiva
+81	6381	intens	intensa intensi
+82	6382	qalziet	qliezet
+83	6383	namra	namri namriet
+84	6384	trażmess	trażmessa trażmessi
+85	6385	invażuri	
+86	6386	ssikka	issikka issikkaha issikkajtx issikkar issikkat jissikka jissikkah jissikkaw nissikkaw ssikkat tissikka
+87	6387	inugwaljanza	inegwaljanza inugwaljanzi
+88	6388	sekwestru	sekwestri
+89	6389	jużawh	jużawhx
+90	6390	ikkupja	ikkupjaha ikkupjat ikkupjaw ikkupjawhom jikkupjaw jikkupjawha jikkupjawhom kkupjat kkupjaw nikkupjaw nikkupjawha nikkupjawhom
+91	6391	xadin	xadina xadini
+92	6392	kalvarju	kalvarji
+93	6393	distrettwali	
+94	6394	liżar	lożor
+95	6395	benniena	
+96	6396	kżar	kżarijiet
+97	6397	ventilator	ventilators
+98	6398	alleat	alleatx
+99	6399	pruvaw	
+100	6400	jikkonċernaw	jikkonċernawhom jikkonċernawkom

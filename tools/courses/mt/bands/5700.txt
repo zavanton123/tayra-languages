@@ -1,100 +1,100 @@
-1	5601	ċaqlem	ċeklem
-2	5602	xrapnel	
-3	5603	ċulqana	
-4	5604	alakka	
-5	5605	teknokrazija	
-6	5606	ħannus	ħnienes
-7	5607	bbnazza	jibbnazza
-8	5608	fesfes	ifesfes jfesfsu
-9	5609	ħarref	jħarref
-10	5610	żżaqqaq	jiżżaqqaq tiżżaqqaq
-11	5611	stgħan	jistgħanu nistgħanu
-12	5612	ġerragħ	inġerrgħu iġġerragħ
-13	5613	tqażżeż	nitqażżeż nitqażżu
-14	5614	waħħax	iwaħħax jwaħħax
-15	5615	sfoga	nisfoga nisfugaw
-16	5616	maqrar	imqarar mqarar
-17	5617	ċċettja	jiċċettja niċċettja
-18	5618	dandan	imdandna mdandna
-19	5619	kedd	mikdud
-20	5620	tentufa	tentufiet
-21	5621	ċċansja	jiċċansja niċċansja
-22	5622	ekonomizza	nekonomizzaw tekonomizza
-23	5623	keffen	ikeffen keffnu
-24	5624	erħa	erħiet
-25	5625	alloġġja	alloġġjaw jalloġġjaw
-26	5626	żeġġ	inżiġġ iżżiġġ
-27	5627	serkin	serkini
-28	5628	għassed	għassdu tagħsid
-29	5629	suġġettività	soġġettività
-30	5630	ssomma	jissomma
-31	5631	trekken	jitrekknu trekknu
-32	5632	xenxel	jxenxlu
-33	5633	paqpaq	tpaqpiq
-34	5634	tbaħbaħ	jitbaħbaħ
-35	5635	stupidaġni	stupitaġni
-36	5636	karnivalesk	karnivaleska karnivaleski
-37	5637	tkeffen	jitkeffen titkeffen
-38	5638	waħxi	waħxija waħxin
-39	5639	rejjaħ	irejjaħ jrejjaħ
-40	5640	reżaħ	jirżħux tirżaħ
-41	5641	ċaflas	iċaflas ċaflis
-42	5642	qammel	imqammel iqammel
-43	5643	mekkek	mmekkek
-44	5644	demagoġiku	demagoġiċi
-45	5645	mingħul	mniegħel
-46	5646	rejjaq	trejqu
-47	5647	barraxa	
-48	5648	nofsana	
-49	5649	ċawlun	ċawluni
-50	5650	awtentikazzjoni	
-51	5651	amplifika	amplifikat jamplifika jamplifikaw
-52	5652	ħurrieq	
-53	5653	esklamazzjoni	esklamazzjonijiet
-54	5654	ġmiegħa	ġmigħat
-55	5655	bassa	bases
-56	5656	kuċċarda	kuċċardi
-57	5657	irreliġjuż	irreliġjuża irreliġjużi
-58	5658	ġandar	ġandra
-59	5659	deliberatament	
-60	5660	sparvier	isparvier
-61	5661	preġjat	preġjata preġjati
-62	5662	ddomestika	ddomestikat ddomestikaw iddomestika iddomestikat jiddomestikaw
-63	5663	nemmes	inemmes inemmsu jnemmes jnemmsu
-64	5664	torju	
-65	5665	tungstenu	
-66	5666	għul	għula
-67	5667	dibattibbli	
-68	5668	marċa	
-69	5669	armonizza	armonizzaw jarmonizza jarmonizzawx narmonizzaw
-70	5670	simbolista	
-71	5671	ħabriek	ħabrieka
-72	5672	plattin	plattini
-73	5673	urbanizza	urbanizzat
-74	5674	xorrox	
-75	5675	kollettività	
-76	5676	porkuspin	porkuspini
-77	5677	denominatur	denominaturi
-78	5678	awwista	awwisti
-79	5679	felles	ifellsu jfellsu tiflis
-80	5680	sfarġel	isfarġel sfarġla
-81	5681	kaxxaforti	
-82	5682	ddemokratizza	demokratizzat jiddemokratizza niddemokratizzaw
-83	5683	kloru	
-84	5684	vvibra	ivvibrar jivvibra jivvibraw
-85	5685	insolvenza	
-86	5686	kromb	
-87	5687	żift	
-88	5688	ngħaġen	tingħaġen
-89	5689	bera	brew ibri jibru
-90	5690	ċċirkoskriva	jiċċirkoskrivu ċirkoskritt
-91	5691	dib	
-92	5692	abt	
-93	5693	impossibilità	impossibbiltà impossibiltà
-94	5694	molibdenu	
-95	5695	qana	qonja
-96	5696	maġġordom	maġġurdom
-97	5697	llixxa	illixxar illixxat jillixxa llixxat tillixxa
-98	5698	litju	
-99	5699	popolarizzazzjoni	
-100	5700	taflija	
+1	5601	tellaq	intellaq itellaq itellqu ittellaq jtellaq jtellqu ntellaq ntellaqlek ntellaqlu ntellqu tellaqna tellqu tellquni tellqux ttellaq
+2	5602	għaqad	għaqadx għaqdet għaqdu jagħqad jagħqdu jagħqduhom nagħqdu nagħqduh nagħqduhom tagħqad tagħqadx
+3	5603	trasmess	trasmessa trasmessi
+4	5604	iffinalizza	ffinalizza ffinalizzajna ffinalizzat ffinalizzaw iffinalizzajna iffinalizzat jiffinalizza jiffinalizzaw niffinalizzaw tiffinalizza
+5	5605	ħsad	
+6	5606	onestà	onesta
+7	5607	prevalenti	
+8	5608	mdorri	imdorri
+9	5609	tewm	tewma
+10	5610	konservatorju	konservatorji
+11	5611	predaturi	
+12	5612	mgħarraf	imgħarraf
+13	5613	demografiku	demografika demografiċi
+14	5614	żewweġ	iżewweġ iżewwiġhom iżewġu iżewġuhom iżżewweġ iżżewwiġha iżżewġu jżewweġ jżewwiġhom jżewġu jżewġuha żewwiġha żewwiġna żewwiġni żewwiġt żewġet żewġitna żewġthom żżewwiġha żżewwiġx żżewġu żżewġuha żżewġuhom żżewġux
+15	5615	saħħar	imsaħħar isaħħar isaħħarhom isaħħru issaħħar issaħħarni issaħħart issaħħru isħaħar jissaħħar jissaħħru jsaħħar jsaħħru jsaħħruk msaħħar nissaħħar nissaħħarx saħħarni saħħret saħħritni saħħru ssaħħar ssaħħarna ssaħħret sħaħar tissaħħar
+16	5616	granit	granita graniti
+17	5617	ċagħaq	ċagħak ċagħka ċagħqa
+18	5618	dlonk	
+19	5619	oċeaniku	oċeanika oċeaniċi
+20	5620	titqiegħed	titqiegħedx
+21	5621	rumanzier	rumanziera rumanzieri
+22	5622	utilizza	jutilizza jutilizzah jutilizzahom jutilizzaw nutilizza nutilizzaw nutilizzawha tutilizza utilizzat
+23	5623	ittrasporta	ittrasportat ittrasportaw jittrasporta jittrasportah jittrasportaha jittrasportahom jittrasportaw jittrasportawha jittrasportawhom tittrasporta ttrasporta ttrasportahom ttrasportat ttrasportaw ttrasportawhom
+24	5624	indikattiv	indikattiva indikattivi ndikattiv
+25	5625	kunfidenti	
+26	5626	tlitt	
+27	5627	dilek	dilket dilku dlikt idlek jidlek jidlikhom midluk midluka midlukin tidlek
+28	5628	mċaħħda	imċaħħda
+29	5629	andha	andhiex
+30	5630	karatterizzat	karatterizzata karatterizzati
+31	5631	verbali	
+32	5632	itlaqqa	jitlaqqa titlaqqa tlaqqat tlaqqatha tlaqqatx
+33	5633	irrinunzja	irrinunzjat irrinunzjaw jirrinunzja jirrinunzjaw jirrinunzjax nirrinunzjax rrinunzja rrinunzjat rrinunzjatx rrinunzjaw tirrinunzja
+34	5634	rriveda	irrivedew jirrivedi rivedut tirrivedi
+35	5635	saħan	jisħnu jisħnux jisħon nisħon saħnet saħnu tisħon tisħonx
+36	5636	privatament	
+37	5637	ekumeniku	ekumenika
+38	5638	frammenti	
+39	5639	informata	informati nformati
+40	5640	disgħinijiet	
+41	5641	meditazzjoni	meditazzjonijiet
+42	5642	nifed	jinfdu jinfdux jinfed jinfidlek jinfidx minfud minfuda minfudin nifdet nifditlu nifdu nifduk nifidhom nifidlu ninfdu tinfed tinfidx
+43	5643	fazzjoni	fazzjonijiet
+44	5644	nobbiltà	nobbilta
+45	5645	pannelli	
+46	5646	injoranza	
+47	5647	ppreseduta	ippreseduta ppreseduti
+48	5648	preistoriku	preistorika preistoriki
+49	5649	dong	
+50	5650	kolonizzazzjoni	kolonizzazzjonijiet
+51	5651	oxxen	oxxena oxxeni
+52	5652	rpilja	irpilja irpiljar irpiljat irpiljaw jirpilja jirpiljaw nirpilja rpiljajna rpiljar rpiljat rpiljaw rpiljax tirpilja
+53	5653	qsar	jiqsaru qsaru
+54	5654	raġunament	raġunamenti
+55	5655	viva	vivax
+56	5656	kappellun	kappelluni
+57	5657	ġeografija	ġeografiji ġografija
+58	5658	tbaxxa	jitbaxxa jitbaxxew jitbaxxiex nitbaxxa nitbaxxew tbaxxejt tbaxxew tbaxxiet tbaxxietlu tbaxxih tbaxxiha tbaxxilu titbaxxa titbaxxiex
+59	5659	jazz	
+60	5660	żaqqaq	żaqqu
+61	5661	astronomija	
+62	5662	assigurata	assigurati
+63	5663	disat	
+64	5664	ken	kens kenu kenx kinu
+65	5665	riproduzzjoni	riproduzzjonijiet
+66	5666	bon	bona
+67	5667	ntalbu	intalbu ntalbux
+68	5668	elabora	elaborat jelabora jelaboraw nelabora telabora
+69	5669	qoton	qotna
+70	5670	botaniku	botanika
+71	5671	modulu	moduli
+72	5672	parrinu	parrina parrini parrinuh parrinuha
+73	5673	issupera	issuperaw jissupera jissuperaw jissuperawha jissuperawhom nissupera nissuperahom ssupera ssuperat ssuperaw tissupera tissuperaha
+74	5674	mmarkati	immarkati
+75	5675	għemejjel	
+76	5676	konfigurazzjoni	konfigurazzjonijiet
+77	5677	tema'	jitma' mitmugħ mitmugħa mitmugħin nitma' temgħet temgħethom temgħu temgħuh titma' tmajna tmajt tmajtu tmajtuni
+78	5678	sawt	swat
+79	5679	nunzju	
+80	5680	komunement	
+81	5681	ppopola	ippopolat jippopola jippopolaw popolar popolat popolatha ppopolaw ppopolawha
+82	5682	skjavitù	iskjavitu iskjavitù
+83	5683	suffiċjenti	
+84	5684	ċapċip	ċapċipa
+85	5685	irriċerka	irriċerkajt irriċerkat jirriċerka jirriċerkaha jirriċerkaw nirriċerka rriċerka rriċerkat tirriċerka
+86	5686	jitfakkar	jitfakkarx
+87	5687	mandraġġ	mandraġġi
+88	5688	difettuż	difettuża difettużi
+89	5689	fraġli	
+90	5690	investiti	nvestiti
+91	5691	fiħ	fiħa
+92	5692	ornament	ornamenta ornamenti
+93	5693	ffriżati	iffriżati
+94	5694	għasri	
+95	5695	influenza	influenzat influenzatek influenzaw jinfluenza jinfluenzaw jinfluenzawlna ninfluenza ninfluenzaw
+96	5696	fiehem	fehimtu fehmitx fehmux ifehimni ifiehem ifiehmu infiehem infiehmu jfehimna jfiehem jfiehmu nfiehem nfiehmu tfehimna tfehimni tfiehem tfiehemu
+97	5697	frustrazzjoni	frustrazzjonijiet
+98	5698	eklissi	eklissijiet
+99	5699	kapriċċ	kapriċċi kapriċċih
+100	5700	perjodiku	perjodika

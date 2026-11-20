@@ -1,100 +1,100 @@
-1	4801	xeff	
-2	4802	gamblu	gambli
-3	4803	newwieħ	newwieħa
-4	4804	sabi	
-5	4805	memorjal	memorjali
-6	4806	rizza	rizzi
-7	4807	ġolġol	ġlieġel
-8	4808	fewġa	fewġiet
-9	4809	xort	
-10	4810	kwiżż	
-11	4811	werreċ	imwerreċ inwerrċu jwerreċ
-12	4812	sella	iselli isellu jselli selli
-13	4813	żabra	
-14	4814	qarabagħli	
-15	4815	nam	namu
-16	4816	nejba	nejbiet
-17	4817	kitla	ktieli
-18	4818	dekoratur	dekoraturi
-19	4819	blonġun	blonġuni
-20	4820	teorista	teoristi
-21	4821	żurżieqa	żrieżaq
-22	4822	aċċentwa	aċċentwat aċċentwaw jaċċentwa jaċċentwaw naċċentwa
-23	4823	bażwar	imbażwar mbażwar
-24	4824	xaqquf	ċaqquf
-25	4825	kummissjonant	kummissjonanti
-26	4826	ikkomunika	
-27	4827	twennes	
-28	4828	kerrah	ikerrah ikerrhu jkerrah jkerrahx kerrhu
-29	4829	dekolonizzazzjoni	
-30	4830	depress	depressa depressi dipress
-31	4831	ninna	ininni ninni
-32	4832	għabid	għabd
-33	4833	ppopolarizza	ippopolarizzajna ippopolarizzaw jippopolarizza popolarizzat ppopolarizzat
-34	4834	xpruna	ixpruni xpruni
-35	4835	nnazzjonalizza	innazzjonalizza jinnazzjonalizza jinnazzjonalizzaw nazzjonalizzat tinnazzjonalizza
-36	4836	impotenti	
-37	4837	istituzzjonalizza	istituzzjonalizzat jistituzzjonalizza nistituzzjonalizzaw
-38	4838	lewa	jilwi jilwu liwi tilwi tilwix
-39	4839	moxt	moxtijiet
-40	4840	delega	delegi
-41	4841	ffotografa	ffotografat fotografat iffotografat
-42	4842	frażjoloġija	
-43	4843	ħanxar	imħanxar jħanxar jħanxru mħanxar
-44	4844	istitwixxa	istitwit jistitwixxi
-45	4845	beżżul	bżieżel
-46	4846	mmappja	immappja immappjat immappjaw jimmappja jimmappjaw mmappjat mmappjaw timmappja
-47	4847	għajnbaqar	għanbaqar
-48	4848	brindisi	
-49	4849	żemżem	żamżam
-50	4850	dlik	
-51	4851	qiel	qajl
-52	4852	ħemel	
-53	4853	rbombja	jirbombja tirbombja
-54	4854	qażquż	qżieqeż
-55	4855	provditur	provdituri provveditur
-56	4856	żvina	tiżvina żvinajt żvinat
-57	4857	fonoloġija	fonoloġiji
-58	4858	ttriplika	ittriplika ittriplikat jittriplika ttriplikat ttriplikaw
-59	4859	plaċenta	plaċenti
-60	4860	orkestrazzjoni	orkestrazzjonijiet
-61	4861	dderiva	dderivat idderivat jidderiva jidderivaw nidderivaw tidderiva
-62	4862	diffiċilment	
-63	4863	apoloġetika	
-64	4864	malek	imlejka mlejka mluk
-65	4865	universalità	
-66	4866	iżraq	żerqa żoroq
-67	4867	raxxax	iraxxax mraxxax traxxax
-68	4868	teknikalità	teknikalitajiet
-69	4869	bjuda	
-70	4870	attwalità	
-71	4871	borka	borok
-72	4872	tiegħem	intiegħem jtiegħem jtiegħmu ntiegħem ttiegħem
-73	4873	żarżar	iżarżar iżarżru żarżir żarżru
-74	4874	mmeravilja	immeraviljajt immeraviljat jimmeravilja meraviljat mmeraviljat nimmeravilja
-75	4875	litografiku	litografika litografiċi
-76	4876	ħaġel	ħaġla ħaġliet
-77	4877	frontun	frontuni
-78	4878	spanjulett	ispanjulett ispanjuletti spanjuletti
-79	4879	għollieqa	għolliqiet
-80	4880	rożinjol	rożinjoli rużinjol
-81	4881	avventurier	avventurieri
-82	4882	appassjona	appassjonat
-83	4883	kumpass	
-84	4884	maġra	miġra
-85	4885	ftiet	
-86	4886	taħħan	taħħana
-87	4887	ggalvanizza	galvanizzat iggalvanizzat
-88	4888	żgħorija	żgħoriti
-89	4889	bbrejkja	ibbrejkjar jibbrejkja
-90	4890	dewwem	ddewmu ddewwem dewmet dewmu iddewmu iddewwem idewmu jdewmu jdewwem mdewwem
-91	4891	terapewtika	
-92	4892	rħas	
-93	4893	lembut	lenbut
-94	4894	makkjetta	makkjetti
-95	4895	xewqan	xewqana
-96	4896	dilka	
-97	4897	quċċija	
-98	4898	liba	
-99	4899	simna	
-100	4900	friegħ	
+1	4801	intrema	intremew intremiet jintrema jintremiex jintremix ntremew ntremiet tintrema
+2	4802	provinċjali	
+3	4803	ħassieb	ħassieba ħassiebi
+4	4804	ċivilizzazzjoni	ċivilizzazzjonijiet
+5	4805	nbid	inbejjed nbejjed
+6	4806	rifed	irfid jirfdu jirfduh jirfduhom jirfed jirfidha mirfud mirfuda mirfudin ntrifed rfid tirfed
+7	4807	bara	barijiet bariti
+8	4808	terrorista	terroristi
+9	4809	ċitazzjoni	ċitazzjonijiet
+10	4810	katekeżi	katekeżijiet
+11	4811	passatemp	passatempi
+12	4812	masġar	imsaġar msaġar
+13	4813	esklussivament	
+14	4814	konverżazzjoni	konverżazzjonijiet
+15	4815	miżbla	miżbliet
+16	4816	fornitur	fornitura fornituri
+17	4817	katakombi	katakombijiet
+18	4818	sebħ	sebħek
+19	4819	tebgħa	tbajja tbajja' tebgħat
+20	4820	emigrazzjoni	emigrazzjonijiet
+21	4821	emozzjonali	
+22	4822	separatament	
+23	4823	eżenzjoni	eżenzjonijiet
+24	4824	nġabret	inġabret
+25	4825	kontradizzjoni	kontradizzjonijiet
+26	4826	forensiku	forensika
+27	4827	bijoloġija	
+28	4828	tranġa	jitranġa jitranġaw titranġa titranġalhom tranġat tranġatx tranġaw tranġawx tranġax ttranġaw
+29	4829	prostituzzjoni	
+30	4830	insensittiv	insensittiva insensittivi nsensittiv
+31	4831	fetħa	fetħiet
+32	4832	tlaqta	intlaqtu jitlaqtu ntlaqtu ntlaqtux
+33	4833	gidba	gidbiet
+34	4834	plural	plurali
+35	4835	relikwa	relikwi
+36	4836	kumplikazzjonijiet	
+37	4837	munizzjon	munizzjoni munizzjonijiet
+38	4838	romantiku	romantika
+39	4839	inklussiv	inklussiva inklussivi nklussiva
+40	4840	kummentarju	kummentarji
+41	4841	mnaqqxin	imnaqqxin
+42	4842	affarjiet	
+43	4843	penitenza	penitenzi
+44	4844	kkoreġa	ikkoreġa ikkoreġew ikkoreġi ikkoreġiet ikkoreġietu ikkoreġut jikkoreġi jikkoreġihom jikkoreġu kkoreġiet kkoreġut nikkoreġi nikkoreġih nikkoreġiha nikkoreġu nikkoreġuh nikkoreġuhom tikkoreġi tikkoreġih tikkoreġix
+45	4845	antoloġija	antoloġiji
+46	4846	jixxandru	jixxandrux
+47	4847	qabla	qwiebel
+48	4848	tikketta	tikketti
+49	4849	libsin	
+50	4850	pubbliċità	pubbliċita
+51	4851	sinsla	sinsliet sniesel
+52	4852	kredu	kredi kredijiet
+53	4853	impriża	impriżi
+54	4854	dixxendenza	
+55	4855	legalment	
+56	4856	vijabbli	
+57	4857	djaknu	djakni
+58	4858	ikkonsolida	ikkonsolidat ikkonsolidaw jikkonsolida jikkonsolidaw jikkonsolidax kkonsolida kkonsolidat kkonsolidaw nikkonsolidaw tikkonsolida
+59	4859	fittxew	fittxewx
+60	4860	kommemorattiv	kommemorattiva kommemorattivi
+61	4861	imbotta	imbottaha imbottalu imbottat imbottaw jimbotta jimbottaha jimbottaw mbotta mbottaw nimbotta timbotta timbottahom
+62	4862	fotografija	fotografiji
+63	4863	ammissjoni	ammissjonijiet
+64	4864	sponsorjat	sponsorjata sponsorjatha sponsorjati
+65	4865	xaħam	xaħmijiet
+66	4866	staġna	istaġnar jistaġna jistaġnaw jistaġnawx jistaġnax staġnajna staġnar staġnat staġnaw tistaġna tistaġnax
+67	4867	vjaġġatur	vjaġġaturi
+68	4868	slogan	islogan islogans slogans
+69	4869	qawl	qwiel
+70	4870	orizzontali	
+71	4871	endemiku	endemika
+72	4872	laguna	laguni
+73	4873	koordinata	koordinati
+74	4874	jarawh	jarawhx
+75	4875	teoloġiku	teoloġika teoloġiċi
+76	4876	riljiev	riljievi
+77	4877	neputijiet	neputijietu
+78	4878	perfettament	
+79	4879	transizzjoni	transizzjonijiet transizzjonijieti
+80	4880	inevitabbli	
+81	4881	ispjegala	jispjegali nispjegala tispjegali
+82	4882	romol	romlot romlu tormol
+83	4883	kreditu	krediti kredtu
+84	4884	adekwat	adekwata adekwati
+85	4885	ħamrani	ħamranija ħamranin
+86	4886	interpretata	interpretati nterpretata nterpretati
+87	4887	ipparkja	ipparkjat ipparkjatha ipparkjaw jipparkja jipparkjaw nipparkjaw pparkjaw tipparkja tipparkjax
+88	4888	ngħalqet	ingħalqet
+89	4889	definittiv	definittiva definittivi
+90	4890	esebixxa	esebixxew esebixxiet jesebixxi jesebixxih jesebixxu jesebixxuhom nesebixxi nesebixxu tesebixxi
+91	4891	kruha	kruhat
+92	4892	ħierġa	
+93	4893	irriforma	irriformaha irriformajna irriformat irriformatha irriformaw jirriforma jirriformaha jirriformaw nirriforma nirriformaw rriforma rriformat tirriforma tirriformah
+94	4894	difer	difrejh difrejha difrejhom difrejn difrejna difri difru dwiefer
+95	4895	algoritmu	algoritmi
+96	4896	ċereali	
+97	4897	kkonvertit	ikkonvertit ikkonvertita ikkonvertiti kkonvertita kkonvertiti
+98	4898	memorandum	memoranda
+99	4899	intlaqta	jintlaqtu jintlaqtux nintlaqtu nintlaqtux
+100	4900	staħba	jistaħba jistaħbew mistoħbi mistoħbija mistoħbijin nistaħbew staħbew staħbiet staħbilu tistaħba

@@ -1,100 +1,100 @@
-1	5201	sfieq	
-2	5202	żugraga	
-3	5203	aggravju	
-4	5204	ċippitatu	
-5	5205	kus	
-6	5206	ġeraħ	miġruħ
-7	5207	fabbli	
-8	5208	kafeina	
-9	5209	stmell	jistmell tistmell
-10	5210	nejka	nejkiet
-11	5211	xxierek	ixxierek jixxierek
-12	5212	xxoxxa	jixxoxxa jixxuxxaw
-13	5213	karnivalata	karnivalati
-14	5214	tħanżer	imħanżer jitħanżer jitħanżru
-15	5215	żnatura	jiżnaturaw tiżnatura żnaturat
-16	5216	xteħet	xteħtu
-17	5217	qama	iqjiem
-18	5218	kkankra	jikkankra kkankraw tikkankra
-19	5219	dikkiena	dkieken
-20	5220	maxtar	imaxtar jmaxtar maxtart
-21	5221	taqtaq	itaqtaq itaqtqu ttaqtaq
-22	5222	lablab	ilabalbu ilablab tlabalbu
-23	5223	ħexa	jaħxi naħxi naħxu taħxi
-24	5224	taptap	intaptpu itaptap ittaptap jtaptap
-25	5225	miera	imieri jmerux merew tmerix
-26	5226	sensel	jsenslu sensil ssensel
-27	5227	ħdar	jiħdar jiħdaru tiħdar ħdaret
-28	5228	bakkar	bakkarna ibakkru jbakkru tbakkar
-29	5229	tniehed	jitniehdu jitniehed titniehed
-30	5230	naħ	naħtux
-31	5231	muxgħar	
-32	5232	fruttożju	
-33	5233	ggaffa	gaffar
-34	5234	deduttiv	deduttiva
-35	5235	inapplikabbli	
-36	5236	batan	
-37	5237	frankiġja	frankiġji
-38	5238	ħżieża	ħżież
-39	5239	sommarjament	
-40	5240	bismut	
-41	5241	kraxx	
-42	5242	impreċiż	impreċiżi
-43	5243	tajprajter	tajprajters
-44	5244	tronġ	tronġa tronġiet
-45	5245	daka	daku
-46	5246	baja	
-47	5247	tafli	taflin
-48	5248	mana'	mana
-49	5249	emula	emulat jemula jemulaw nemulaw temula
-50	5250	ġema'	jiġma' niġma' ġemgħet ġemgħu
-51	5251	partikular	
-52	5252	ħaffiefa	
-53	5253	popolament	
-54	5254	fanfarun	
-55	5255	bblakka	jibblakka
-56	5256	ġudikatur	
-57	5257	dettaljatament	
-58	5258	beżżiegħi	
-59	5259	mgħid	
-60	5260	xiwa	
-61	5261	maqsam	imqasam
-62	5262	isqfija	
-63	5263	irwieħ	
-64	5264	infantiċida	
-65	5265	zukkini	żukkini
-66	5266	ffronta	jiffronta
-67	5267	arterjosklerożi	
-68	5268	deċiframent	
-69	5269	riffed	imriffed
-70	5270	sarraġ	
-71	5271	attributtiv	
-72	5272	ġebbes	tiġbis
-73	5273	konsiderabilment	
-74	5274	verġinali	
-75	5275	dikjarattiv	dikjarattiva
-76	5276	atomiżmu	
-77	5277	kapoċċ	kapoċċi
-78	5278	rammel	imrammel
-79	5279	aħħ	
-80	5280	itka	teka
-81	5281	abbassu	abbasso
-82	5282	kaħli	
-83	5283	ixx	ixxi
-84	5284	deplorabbli	
-85	5285	industrijalizza	industrijalizzat jindustrijalizza jindustrijalizzaw
-86	5286	manganiż	
-87	5287	vanità	vanitajiet
-88	5288	deliberattiv	deliberattiva deliberattivi
-89	5289	urbaniżmu	
-90	5290	bankarella	bankarelli
-91	5291	kolon	
-92	5292	vvenera	ivvenera jivvenera jivveneraw nivveneraw venerat vvenerat
-93	5293	destinatarju	destinatarji
-94	5294	lellux	lelluxa
-95	5295	ġidra	ġdur
-96	5296	xlief	xolfa
-97	5297	ddawnlowdja	jiddawnlowdjaw
-98	5298	baqqa'	baqqgħu
-99	5299	vjolentement	
-100	5300	xogħfa	
+1	5201	tilqim	tilqimx
+2	5202	sensar	issensru sensara
+3	5203	xarrab	imxarrab imxarrba imxarrbin inxarrab ixarrab ixarrbu ixxarrbu jxarrab jxarrbu mxarrab mxarrba mxarrbin nxarrab xarrbet
+4	5204	galleriji	
+5	5205	mfittxija	imfittxija
+6	5206	faqa'	faqa faqgħet faqgħetlu faqih infaqa jifqa' jifqax jifqgħu jinfaqa jinfaqax mifqugħ mifqugħa mifqugħin nfaqa nfqajna ninfaqa tifqa tifqa' tinfaqa
+7	5207	muskolu	muskoli
+8	5208	psikjatra	psikjatri
+9	5209	preistoriċi	
+10	5210	nessa	inessi inessiha inessina inessu inessuhom innessu jnessi jnessihom jnessu jnessuk jnessuna nessiena nessiet nessini tnessi tnessih tnessik tnessina tnessu
+11	5211	avorju	
+12	5212	basal	basla
+13	5213	għannaq	għannaqhom għannaqtu għannqu għannquhom għannquni jgħannaq jgħannaqha jgħannaqhom jgħannaqni jgħannqu jgħannquh jgħannquhom jitgħannaq jitgħannqu ngħannqu tgħannaq tgħannaqha tgħannaqhom tgħanniq tgħannqet
+14	5214	panew	panewijiet
+15	5215	iwiegħed	
+16	5216	inkarnazzjoni	inkarnazzjonijiet
+17	5217	afferma	affermat affermaw jafferma jaffermaw nafferma naffermaw tafferma taffermax
+18	5218	balla	balli ballijiet
+19	5219	jogħġbok	jogħġbokx
+20	5220	għama	għamieh għamielu għamihom għamili għamilix jagħmi jagħmihom jagħmik jagħmina jagħmu jagħmuli jagħmulna jagħmux mogħmija mogħmijin nagħmu tagħmi tagħmih
+21	5221	riċeviment	riċevimenti
+22	5222	romantiċi	
+23	5223	indikatur	indikaturi
+24	5224	iskada	jiskadu skada skadew skadielha skadieli skadielu skadiet skadilhom skadilu tiskadi
+25	5225	ajkla	ajkli
+26	5226	tingħad	tingħadx
+27	5227	rajn	rajnih
+28	5228	passiv	passiva passivi
+29	5229	kkollegata	ikkollegata ikkollegati kkollegati
+30	5230	kummissarji	
+31	5231	tubu	tuba tubi
+32	5232	enċiklika	enċikliki
+33	5233	roundabout	roundabouts
+34	5234	kabbru	kabbruh kabbruha
+35	5235	arroganti	
+36	5236	larinġ	larinġa larinġi larinġiet
+37	5237	saffa	imsaffi imsoffi insaffu isaffi isaffina issaffina jsaffi jsaffiha jsaffik jsaffu msoffi msoffija saffi saffiet saffiha saffina saffini ssaffi ssaffik ssaffina tisfija
+38	5238	dragun	draguni
+39	5239	xettiku	xettika xettiċi
+40	5240	anzjanità	anzjanita
+41	5241	tejjba	intejjbu intejjbuh itejjbu ittejjbu jtejjbu ntejjbu ntejjbuh ttejjbu
+42	5242	orjentali	
+43	5243	ippreveda	ipprevedejna ipprevedew ipprevediet jipprevedi jipprevedix jipprevedu nipprevedi nipprevedu ppreveda pprevedew pprevediet pprevediha tipprevedi tipprevediha tipprevedix
+44	5244	aggrava	aggravar aggravat aggravaw jaggrava jaggravaw taggrava
+45	5245	ipoġew	
+46	5246	persważ	persważa persważi
+47	5247	bastun	bsaten ibsaten
+48	5248	liem	ilum ilumu inlum jlum jlumna jlumni jlumu liemu limtu nlumx tlum tlumna tlumu tlumux
+49	5249	bixra	bixriet
+50	5250	lettur	letturi
+51	5251	elementari	
+52	5252	fosos	
+53	5253	ġestit	ġestita ġestiti
+54	5254	kaskata	kaskati
+55	5255	ingwanta	ingwanti ngwanti
+56	5256	żifna	żifniet
+57	5257	għajdut	għajduti
+58	5258	bella'	bella ibella ibellgħulhom jbella' jbellgħu jbellgħulhom jbellgħulna
+59	5259	fajl	fajls
+60	5260	medjuevu	
+61	5261	ċċajta	iċċajta iċċajtaw jiċċajta jiċċajtaw jiċċajtawx niċċajta niċċajtaw tiċċajta ċċajtajt ċċajtaw
+62	5262	sotto	
+63	5263	nqalgħu	inqalgħu nqalgħux
+64	5264	rappurtaġġ	rappurtaġġi
+65	5265	vidjos	
+66	5266	respiratorju	respiratorja respiratorji
+67	5267	rrabja	irrabja irrabjajt irrabjaw jirrabja jirrabjaw nirrabja nirrabjaw rrabjah rrabjaw tirrabja tirrabjah
+68	5268	ipreżenta	jipreżenta jipreżentaha jipreżentaw preżenta preżentaw tipreżenta
+69	5269	esploratur	esploraturi
+70	5270	mwiegħda	imwiegħda
+71	5271	realiżmu	
+72	5272	infetta	infettat infettaw jinfetta jinfettahom jinfettaw jinfettax nfetta nfettat nfettaw tinfetta
+73	5273	tinħareġ	
+74	5274	tatù	tattu tatu tatux
+75	5275	issewwa	issewwew issewwiet jissewwa ssewwa ssewwew ssewwiet ssewwietx tissewwa tissewwiex
+76	5276	nxteħet	inxteħet inxteħtet inxteħtu jinxteħet jinxteħtu ninxteħet ninxteħtux nxteħetlu nxteħtet nxteħtu nxteħtux tinxteħet tinxteħitx
+77	5277	ġenn	
+78	5278	vittorja	
+79	5279	mawra	
+80	5280	pjanat	pjanata pjanati
+81	5281	sostituzzjoni	sostituzzjonijiet
+82	5282	lawrja	lawrji
+83	5283	ċitru	ċitra ċitri
+84	5284	ġeometriku	ġeometrika ġeometriċi ġometriku
+85	5285	promontorju	promontorji
+86	5286	żelaq	jiżloq jiżloqx jiżolqu niżolqu tiżloq tiżloqx żelaqlu żelqet żelqitlu żlaqt żliq
+87	5287	benjamini	
+88	5288	devastanti	
+89	5289	provdiment	provvediment provvedimenti
+90	5290	vilel	
+91	5291	laterali	
+92	5292	ddekorata	ddekorati iddekorata iddekorati
+93	5293	studjo	istudjo
+94	5294	olzat	olzata olzati
+95	5295	loġġa	loġġi
+96	5296	rgħajja	
+97	5297	immodernizza	immodernizzajna immodernizzaw jimmodernizza jimmodernizzaw jimmodernizzawha mmodernizza mmodernizzat mmodernizzaw mmodernizzawx nimmodernizzaw timmodernizza
+98	5298	prolifiku	prolifika prolifiki
+99	5299	konxja	
+100	5300	appuntata	appuntati

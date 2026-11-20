@@ -1,100 +1,100 @@
-1	1601	spjegazzjoni	ispjegazzjoni ispjegazzjonijiet spjegazzjonijiet
-2	1602	applikant	applikanti
-3	1603	lajk	lajka lajċi
-4	1604	kreattiv	kreattiva kreattivi
-5	1605	għargħar	imgħargħar
-6	1606	effiċjenti	
-7	1607	magħmudija	magħmudijiet
-8	1608	żerriegħa	żerrigħat żrieragħ
-9	1609	rregola	irregola irregolar irregolat jirregola jirregolaw jirregolawx nirregolaw regolar regolat rregolat rregolaw rregolawx tirregola tirregolaw tirregolax
-10	1610	rdum	irdum irdumijiet rdumijiet
-11	1611	dedikazzjoni	dedikazzjonijiet
-12	1612	definit	definita definiti
-13	1613	depożitu	depożiti
-14	1614	sebgħin	
-15	1615	xejra	xejriet
-16	1616	stramb	istramb istramba stramba strambi
-17	1617	ntefa	intefa intfew intfiet jintefa jintfew nintefa ntfew ntfiet tintefa tintefiex
-18	1618	bambin	bambini
-19	1619	daqsxejn	
-20	1620	kkommetta	ikkommetta ikkommettew jikkommetti jikkommettix jikkommettu jikkommettux kkommettejna kkommettejt kkommettejtu kkommettew kkommettiet kkommettiex kommess nikkommetti nikkommettu tikkommetti tikkommettix
-21	1621	dimensjoni	dimensjonijiet
-22	1622	tnissel	jitnissel jitnisslu jitnisslux nitnisslu titnissel tnissil tnissilt tnisslet tnisslu
-23	1623	tmenin	
-24	1624	waqfa	waqfiet
-25	1625	ħalib	
-26	1626	ftiehem	ftehem ftehimna ftehimt ftehmux ftiehmet ftiehmu inftiehem jiftehmux jiftiehem jiftiehmu miftiehem nftiehem niftiehem niftiehmu tiftiehem
-27	1627	għaqli	għaqlija għaqlin
-28	1628	obda	jobdi jobdix jobdu jobdux nobdi nobdu obdejt obdejtu obdejtux obdew obdewx obdi obdiet obdietx obdiex obdu tobdi tobdix tobdu
-29	1629	oċean	oċeani oċeanu
-30	1630	trab	
-31	1631	tieġ	tiġijiet
-32	1632	ġeografiku	ġeografika ġeografiċi
-33	1633	għadira	għadajjar
-34	1634	lingwistiku	lingwistika lingwistiċi
-35	1635	impossibbli	
-36	1636	reviżjoni	reviżjonijiet
-37	1637	laqam	laqmijiet
-38	1638	biswit	
-39	1639	bierek	berikna berikt berkux bierket bierku ibierek ibierku inbierku jberikx jberkux jbierek jbierku jitbierek jitbierku nbierek nbierku tbierek tbierket tbierku titbierek
-40	1640	palm	palma
-41	1641	ġurament	ġuramenti
-42	1642	diżastru	diżastri
-43	1643	għaqal	
-44	1644	karità	karitajiet
-45	1645	skiet	
-46	1646	nqara	inqara inqrat inqraw jinqara jinqarax jinqraw jinqrawx nqrat nqraw tinqara tinqarax
-47	1647	definizzjoni	definizzjonijiet
-48	1648	but	bwiet ibwiet
-49	1649	femminili	
-50	1650	sħana	
-51	1651	nutar	nutara nutari
-52	1652	xiħ	ixjaħ ixjeħ xiħa xjuħ xwejjaħ
-53	1653	dlam	dlamijiet
-54	1654	liberu	libera liberi
-55	1655	sittin	
-56	1656	xarabank	xarabankijiet xarabanks
-57	1657	mewta	mewtiet mwiet
-58	1658	eżattament	
-59	1659	ugwaljanza	ugwaljanzi
-60	1660	weraq	werqa werqiet
-61	1661	ddisinja	ddisinjar ddisinjat ddisinjaw disinjar disinjat iddisinja iddisinjajt iddisinjar iddisinjat iddisinjaw jiddisinja jiddisinjaw niddisinjaw tiddisinja tiddisinjaw
-62	1662	platt	platti
-63	1663	għaxra	għaxriet
-64	1664	rema	armi irmew jarmi jarmix jarmu jarmux mormi narmi narmu rmew tarmi tarmix
-65	1665	blokk	blokki blokkijiet blokok
-66	1666	tmintax	
-67	1667	nom	nomi
-68	1668	kmandament	kmandamenti
-69	1669	votanti	
-70	1670	sempliċement	
-71	1671	aħħari	aħħarija aħħarin
-72	1672	kobor	
-73	1673	libsa	ilbiesi lbiesi
-74	1674	mekkaniku	mekkanika mekkaniċi
-75	1675	fgura	
-76	1676	ħaġar	ħaġra ħaġriet ħġur
-77	1677	tpinġija	tpenġija tpinġijiet
-78	1678	widna	widinti widintu widnejn
-79	1679	ġejjieni	
-80	1680	diversità	diversitajiet
-81	1681	duka	dukessa dukessi duki
-82	1682	stabbli	
-83	1683	verifika	verifiki
-84	1684	kċina	kċejjen
-85	1685	ziju	zijiet zijuh zijuha zijuhom zijuk zijuwi
-86	1686	nisel	
-87	1687	awtonomu	awtonoma awtonomi
-88	1688	parzjalment	
-89	1689	elimina	eliminajna eliminajt eliminat eliminatx eliminaw jelimina jeliminaw neliminaw telimina
-90	1690	dsatax	
-91	1691	tribù	tribujiet
-92	1692	gudja	
-93	1693	ħarifa	ħrejjef
-94	1694	sfrutta	isfruttar jisfrutta jisfruttaw nisfrutta nisfruttaw sfruttajt sfruttar sfruttat sfruttaw tisfrutta
-95	1695	mappa	mapep
-96	1696	assuma	assumejna assumejt assumew assumiet assunt jassumi jassumu nassumi nassumix nassumu tassumi tassumix
-97	1697	popolarità	
-98	1698	vjolent	vjolenta vjolenti
-99	1699	ċittadinanza	ċittadinanzi
-100	1700	ssokta	issokta issoktajt issoktar issoktat issoktaw jissokta jissoktaw nissokta nissoktaw ssoktar ssoktat ssoktaw tissokta
+1	1601	filmat	filmati
+2	1602	katidral	katidrali
+3	1603	professjonali	
+4	1604	opra	opri
+5	1605	preżenza	preżenzi
+6	1606	territorju	territorji
+7	1607	sfortunatament	
+8	1608	viżjoni	viżjonijiet
+9	1609	msejħa	imsejħa
+10	1610	iskor	iskors skor skors
+11	1611	kosta	kosti kostijiet
+12	1612	kumpless	kumplessa kumplessi
+13	1613	organizzata	organizzati
+14	1614	korp	korpi korpijiet
+15	1615	aċċess	aċċessi
+16	1616	kappillan	kappillani
+17	1617	irreġistra	irreġistrajna irreġistrat irreġistratu irreġistraw irreġistrax jirreġistra jirreġistraha jirreġistraw jirreġistrawha jirreġistrawhom jirreġistrawx jirreġistru nirreġistra nirreġistrah nirreġistraw rreġistra rreġistrah rreġistraha rreġistrajna rreġistrat rreġistratha rreġistratx rreġistraw rreġistrax tirreġistra tirreġistrah tirreġistraha tirreġistrahom tirreġistrax
+18	1618	proprju	proprja proprji
+19	1619	kriminali	
+20	1620	kritiku	kritika kritiki
+21	1621	impenn	impenni mpenn
+22	1622	artista	artisti artistiti
+23	1623	kunċert	kunċerti kunċertina
+24	1624	evidenza	evidenzi
+25	1625	kontinwu	kontinwa kontinwi
+26	1626	monument	monumenti
+27	1627	bażilika	bażiliki
+28	1628	kavallier	kavallieri
+29	1629	sindku	sindki
+30	1630	kulleġġ	kulleġġi
+31	1631	interessanti	nteressanti
+32	1632	distanza	distanzi
+33	1633	irrifletta	irriflettejna irriflettejt irriflettew irriflettiet jirrifletti jirriflettix jirriflettu jirriflettux nirrifletti nirriflettix nirriflettu rrifletta rriflettejt rriflettew rriflettiet rriflettietx rriflettiex tirrifletti tirriflettiha tirriflettix tirriflettu tirriflettuha
+34	1634	missjoni	missjonijiet
+35	1635	kabinett	kabinetti
+36	1636	innota	innotah innotajna innotajt innotat innotaw jinnota jinnotah jinnotaw jinnotax ninnota ninnotaha ninnotaw nnota nnotah nnotajna nnotajt nnotat nnotaw tinnota tinnotax
+37	1637	evita	evitahom evitajna evitajt evitalhom evitat evitatilna evitaw evitawhom evitawx evitax jevita jevitah jevitaha jevitahom jevitalhom jevitaw jevitawha jevitawhom nevita nevitah nevitahom nevitaw nevitawha tevita tevitah tevitahom
+38	1638	pereżempju	
+39	1639	ifforma	fforma fformat fformaw fformax ifformat ifformaw jifforma jifformaw jifformax nifforma nifformaw tifforma tifformaha tifformax
+40	1640	klima	klimi
+41	1641	ċifra	ċifri
+42	1642	primarja	primarji
+43	1643	mudell	mudelli
+44	1644	stabbilita	istabbilita stabbiliti
+45	1645	bbażata	bbażati ibbażata ibbażati
+46	1646	nħatar	inħatar nħatarx
+47	1647	ħatra	inħatru inħatrux jiħatru nħatru ħatriet
+48	1648	offerta	offerti
+49	1649	tali	
+50	1650	itlesta	jitlesta jitlestiex jitlestu titlesta tlesta tlestat tlestew tlestewx tlestieli tlestiet tlestietx tlestiex
+51	1651	varja	invarja invarjah invarjaw ivarja ivarjaw jvarja jvarjalek jvarjaw jvarjawx jvarji nvarjaw tvarja tvarjax varjat varjaw varjax
+52	1652	konsegwenza	konsegwenzi
+53	1653	rawnd	rawnds
+54	1654	spejjeż	ispejjeż
+55	1655	kamp	ikampa ikampaw jkampa jkampaw jkampawx jkampax kampa kampajna kampajt kampani kampawx kampi kampijiet nkampa nkampaw tkampa tkampax
+56	1656	metodu	metodi
+57	1657	negattiv	negattiva negattivi
+58	1658	fattur	fattura fatturi
+59	1659	klijent	klijenti klijentu
+60	1660	kunċett	kunċetti
+61	1661	antika	antikiti
+62	1662	referenza	referenzi
+63	1663	perit	periti
+64	1664	fondazzjoni	fondazzjonijiet
+65	1665	firex	firixha firixhom firxet firxu frixna frixt ifrex infirex infirixlu jifrex jifrixx mifrux mifruxa mifruxha mifruxin nfirex nifrex tifrex
+66	1666	viċi	
+67	1667	kardinal	kardinali
+68	1668	direttiva	direttivi
+69	1669	tkabbir	
+70	1670	investiga	investigah investigajna investigat investigatx investigaw investigawx investigax jinvestiga jinvestigahom jinvestigak jinvestigaw jinvestigawha jinvestigawx jinvestigax ninvestiga ninvestigaw nvestiga nvestigat nvestigaw nvestigawx nvestigax tinvestiga tinvestigah tinvestigaha tinvestigahom tinvestigalu
+71	1671	konsumatur	konsumaturi
+72	1672	prosekuzzjoni	prosekuzzjonijiet
+73	1673	letteratura	letteraturi
+74	1674	konsultazzjoni	konsultazzjonijiet
+75	1675	kantant	kantanta kantanti kantantx
+76	1676	donn	donnha donnhom donnok donnu
+77	1677	benefiċċju	benefiċċji
+78	1678	battalja	battalji
+79	1679	skart	iskart
+80	1680	traffiku	
+81	1681	strateġija	istrateġija istrateġiji strateġiji
+82	1682	itħalla	jitħalla jitħallielu jitħalliex jitħallix titħalla titħalliex tħalla tħallejna tħallejniex tħallejt tħallew tħallewlhom tħallewx tħallieh tħallieha tħallielu tħalliet tħallietx tħalliex tħallitilha tħallitx
+83	1683	protest	protesta protesti protisti
+84	1684	infurmat	infurmathom infurmati infurmatna infurmatu nfurmat nfurmati nfurmatna nfurmatu
+85	1685	kopja	kopji
+86	1686	gravi	
+87	1687	ddedikata	ddedikati iddedikata iddedikati
+88	1688	paga	pagi pagina
+89	1689	storiċi	istoriċi
+90	1690	provinċja	provinċji
+91	1691	ikkompeta	ikkompetejt ikkompetejtu ikkompetew ikkompetiet jikkompeti jikkompetilna jikkompetix jikkompetu jikkompetulu jikkompetux kkompeta kkompetejt kkompetew kkompetewx kkompetiet nikkompeti nikkompetu tikkompeti tikkompetix tikkompetu tikkompetulhom
+92	1692	irriżenja	irriżenjajna irriżenjajt irriżenjat irriżenjaw jirriżenja jirriżenjaw jirriżenjax nirriżenja nirriżenjaw rriżenja rriżenjajt rriżenjat rriżenjaw rriżenjax tirriżenja
+93	1693	kwalunkwe	
+94	1694	itneħħa	jitneħħa jitneħħielu jitneħħiex nitneħħa titneħħa titneħħax titneħħielhom titneħħielu titneħħiex tneħħa tneħħew tneħħewlhom tneħħewlu tneħħewx tneħħielha tneħħielu tneħħiet tneħħietx tneħħiex tneħħitilhom
+95	1695	sinifikanti	
+96	1696	ikkontesta	ikkontestajt ikkontestat ikkontestaw jikkontesta jikkontestah jikkontestalu jikkontestani jikkontestaw jikkontestawx jikkontestax kkontesta kkontestah kkontestajt kkontestat kkontestathom kkontestatx kkontestaw kkontestawha kkontestax nikkontesta nikkontestah nikkontestaw tikkontesta tikkontestah tikkontestahom tikkontestax
+97	1697	ambjentali	
+98	1698	involva	involvejt involvew involvewna involvieh involviet involvietx involvih jinvolvi jinvolvix jinvolvu jinvolvuha jinvolvuhom jinvolvux ninvolvi ninvolvu ninvolvuhom ninvolvux nvolva nvolvew nvolviet nvolvietx tinvolvi tinvolvix
+99	1699	midja	
+100	1700	marda	mardana

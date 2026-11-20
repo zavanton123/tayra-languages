@@ -1,100 +1,100 @@
-1	3301	avventuruż	avventuruża avventurużi
-2	3302	awtentika	awtentikat jawtentika jawtentikaw
-3	3303	ħmira	
-4	3304	kopertura	
-5	3305	maqdes	imqades mqades
-6	3306	bajtar	bajtra
-7	3307	eċċella	eċċellaw jeċċella jeċċellaw neċċellaw teċċella
-8	3308	ħarqa	ħarqiet ħrieqi
-9	3309	vit	viti
-10	3310	metrika	
-11	3311	akkompanjament	akkumpanjament
-12	3312	ekoloġija	
-13	3313	ċirasa	
-14	3314	roqgħa	
-15	3315	osservabbli	
-16	3316	xebgħa	xebgħat
-17	3317	silet	islet jislet mislut nislet siltu slit tislet
-18	3318	ġawhra	ġawhriet
-19	3319	fażola	
-20	3320	żrinġ	żrinġijiet
-21	3321	għalf	
-22	3322	għorfa	għorfiet għorof
-23	3323	bukkett	bukketti
-24	3324	aġġustament	aġġustamenti
-25	3325	qotni	qotnija qotnin
-26	3326	kullana	kullani
-27	3327	xbejba	xbejbiet
-28	3328	kustilja	kustilji
-29	3329	vjal	vjali
-30	3330	pubblikan	pubblikani
-31	3331	ħdura	
-32	3332	antropoloġija	
-33	3333	geżwer	igeżwru imgeżwer ingeżwer jgeżwer jgeżwru mgeżwer tgeżwer tgeżwru
-34	3334	ħema	aħmi jaħmi jaħmu moħmi taħmi ħmew
-35	3335	attrezza	attrezzar attrezzat attrezzaw jattrezza jattrezzaw
-36	3336	ddestina	ddestinat destinat iddestinat
-37	3337	pożati	
-38	3338	paxxa	inpaxxu ipaxxi jpaxxi jpaxxix jpaxxu paxxejt paxxew paxxut tpaxxi
-39	3339	rikatt	rikatti
-40	3340	adura	jadura jaduraw jadurax nadura naduraw tadura
-41	3341	intensifika	intensifikajna intensifikat intensifikaw intensifikax jintensifika jintensifikaw nintensifikaw tintensifika
-42	3342	rummien	rummiena
-43	3343	tema'	jitma' mitmugħ nitma' temgħet temgħu titma' tmajna tmajt tmajtu
-44	3344	ċpar	
-45	3345	ġemel	iġmla ġemla
-46	3346	sarima	
-47	3347	kkolonizza	ikkolonizza ikkolonizzat ikkolonizzaw jikkolonizza jikkolonizzaw kkolonizzat kkolonizzaw kolonizzat tikkolonizza
-48	3348	damask	
-49	3349	xammar	imxammar ixammar ixammru jxammar jxammru mxammar nxammru xammru
-50	3350	ġbejna	ġbejniet
-51	3351	qargħa	
-52	3352	sabbat	isabbat isabbtu issabbtu jsabbat jsabbtu nsabbat nsabbtu sabbatna ssabbat ssabbtu
-53	3353	tefgħa	tefgħat
-54	3354	affilja	affiljat affiljaw jaffiljaw taffilja
-55	3355	nitfa	intietef ntietef
-56	3356	emozzjona	emozzjonat jemozzjona jemozzjonaw jemozzjonax nemozzjona
-57	3357	alterna	alternat alternaw jalterna jalternaw talterna
-58	3358	kappar	kappara
-59	3359	riporter	reporter
-60	3360	mħadda	imħadda imħaded mħaded
-61	3361	ċirkulari	
-62	3362	sagramentali	
-63	3363	fotografiku	fotografika fotografiċi
-64	3364	masklu	maskli
-65	3365	sebaq	jisboq jisbqu sebqet sebqu tisboq
-66	3366	punteġġ	punteġġi
-67	3367	eżerċtu	eżerċti
-68	3368	demonju	demonji dimonju
-69	3369	werwer	imwerwer iwerwer iwerwru jitwerwer jitwerwru jwerwer jwerwru mwerwer nitwerwer nitwerwru titwerwer twerwer twerwirt twerwret twerwru
-70	3370	qliel	jiqliel qlielet
-71	3371	pern	prun
-72	3372	boss	
-73	3373	dinjitarju	dinjitarji
-74	3374	pranzu	pranzijiet
-75	3375	seftur	seftura sefturi
-76	3376	sadd	isodd isoddu issodd jsodd jsoddu misdud nsodd saddejt saddet sodd soddu ssodd
-77	3377	sagrosant	sagrosanta sagrosanti
-78	3378	mannara	imnanar mnanar
-79	3379	mawwar	mawru
-80	3380	bont	bonn
-81	3381	xkupa	ixkupa ixkupi xkupi
-82	3382	giddeb	giddbet giddbu igiddbu igiddeb jgiddbu tgiddeb
-83	3383	annessjoni	annessjonijiet
-84	3384	madmad	
-85	3385	ddendel	ddendlet ddendlu iddendilna iddendlet iddendlu jiddendel jiddendilx jiddendlu tiddendel
-86	3386	abbonament	abbonamenti
-87	3387	sahar	ishru jishar jishru nishar nishru tishru
-88	3388	instabbli	
-89	3389	espressiv	espressiva espressivi
-90	3390	ċċentra	iċċentrar iċċentrat iċċentraw jiċċentra jiċċentraw jiċċentrawx tiċċentra ċċentrat
-91	3391	kolonjalista	kolonjalist kolonjalisti
-92	3392	psikologa	psikologi psikoloġi
-93	3393	simetrija	simetriji
-94	3394	erojku	erojka erojċi
-95	3395	saram	
-96	3396	statwetta	istatwetta istatwetti statwetti
-97	3397	garigor	garigori
-98	3398	tpinġa	jitpinġa jitpinġew titpinġa tpenġa tpinġew tpinġiet
-99	3399	xoqqa	
-100	3400	fajjar	fajjart ifajjar jfajjar jfajru
+1	3301	liturġiku	liturġika
+2	3302	kult	kulti
+3	3303	kkonsagrat	ikkonsagrat ikkonsagrata ikkonsagrati kkonsagrata kkonsagrati
+4	3304	għamara	għamajjar
+5	3305	kaġun	kaġuni kaġunijiet
+6	3306	skedata	skedati
+7	3307	jintlaħqu	jintlaħqux
+8	3308	laqqam	ilaqqmu imlaqqam jlaqqam jlaqqamhom jlaqqmu laqqamha laqqamhom laqqamt laqqmet laqqmitu laqqmu laqqmuh laqqmuha laqqmuhom mlaqqam nlaqqmu tlaqqam tlaqqmu
+9	3309	ostaklu	ostakli
+10	3310	niket	
+11	3311	mbiegħed	imbegħdin imbiegħda imbiegħed mbegħdin mbiegħda
+12	3312	pubblikatur	pubblikatriċi pubblikaturi
+13	3313	kisbiet	
+14	3314	eċċellenza	eċċellenzi
+15	3315	esponent	esponenta esponenti
+16	3316	qtugħ	
+17	3317	immira	immirajna immirajtu immiraw jimmira jimmirahom jimmiraw mmira mmiraw nimmira nimmiraw timmira timmirax
+18	3318	mħallsa	imħallsa
+19	3319	disgħin	
+20	3320	fuljett	fuljetta fuljetti
+21	3321	ssepara	issepara isseparat isseparaw jissepara jisseparah jisseparaha jisseparahom jisseparana jisseparaw jisseparawhom jisseparawx nissepara nisseparaw sseparat sseparatu sseparaw tissepara tisseparah tisseparaha tisseparahom
+22	3322	tawh	tawhx
+23	3323	xebh	xebħ xebħu
+24	3324	mnaqqxa	imnaqqxa
+25	3325	għaġeb	
+26	3326	sparixxa	jisparixxi jisparixxu nisparixxi nisparixxu sparixxew sparixxewx sparixxiet sparixxietlu sparixxietx sparixxithom tisparixxi tisparixxix
+27	3327	immaġni	immaġnijiet
+28	3328	abbati	abbatijiet abbatin abbatini
+29	3329	umli	
+30	3330	varjant	varjanti
+31	3331	ittellgħa	ittellgħat jittellgħa jittellgħu jittellgħux tittellgħa ttellgħa ttellgħat ttellgħax
+32	3332	djarju	djarji
+33	3333	storikament	
+34	3334	moll	mollijiet
+35	3335	etniku	etnika
+36	3336	ħerqan	ħerqana ħerqanin
+37	3337	għata	għataw għatiet jgħati jgħatihom jgħatina jgħatix jgħatu jgħatuh jgħatuhom ngħati ngħatu ngħatuhom tgħati tgħatik tgħatini
+38	3338	filosofiku	filosofika filosofiċi
+39	3339	boll	bolli bolol
+40	3340	determinata	determinati
+41	3341	kmandant	kmandanta kmandanti
+42	3342	kondotta	kondotti
+43	3343	avviċina	avviċinajt avviċinajthom avviċinat avviċinatni avviċinatx avviċinaw avviċinawha avviċinawhom avviċinawna avviċinawni javviċina javviċinaw javviċinawni javviċinax navviċina navviċinaw navviċinawhom tavviċina
+44	3344	islam	iżlam
+45	3345	inkwetanti	nkwetanti
+46	3346	espansjoni	espansjonijiet
+47	3347	kisba	
+48	3348	mera	merieh merih meriha meritu mirja
+49	3349	istrina	strina
+50	3350	awtonomija	
+51	3351	jitressqu	jitressqux
+52	3352	merħba	
+53	3353	xifer	ixfar xfar xfarijiet xifirha
+54	3354	prietka	priedka prietki
+55	3355	ħallieq	ħallieqa
+56	3356	selvaġġa	selvaġġi
+57	3357	leali	
+58	3358	qosor	
+59	3359	ġa	ġak
+60	3360	jinħarġu	jinħarġux
+61	3361	għarb	
+62	3362	formalment	
+63	3363	sebbaħ	imsebbaħ insebbaħ insebbħu insebbħuha isebbaħ isebbħu isebbħuh issebbaħ issebbaħlek issebbħu jsebbaħ jsebbaħna jsebbħu jsebbħuh jsebbħuha jsebbħuhom msebbaħ nsebbaħ nsebbħu nsebbħuha sebbaħha sebbaħna sebbaħt sebbħet sebbħu sebbħuh sebbħuha ssebbaħ ssebbħu
+64	3364	gravità	gravita
+65	3365	kejjel	ikejjel ikejlu imkejjel inkejlu inkejluhom jkejjel jkejjilha jkejlu kejjilna kejjiltu kejlu mkejjel nkejlu nkejluh nkejluha nkejluhiex nkejluhom tkejjel tkejjilha tkejjilx tkejlu
+66	3366	arblu	arbli
+67	3367	lirika	
+68	3368	ġimgħatejn	
+69	3369	kurċifiss	kurċifissi
+70	3370	oġġezzjoni	obbjezzjoni objezzjoni oġġezzjonijiet
+71	3371	nkiser	inkiser inkisret inkisru inkisrux jinkiser jinkisirlu jinkisirx jinkisru jinkisrux nkisret nkisru nkisruh nkisrulhom nkisrux tinkiser tinkisirlu tinkisirx
+72	3372	kompetittività	kompetittivita
+73	3373	setta	setet setti settijiet
+74	3374	kon	koni konu
+75	3375	tranżizzjoni	tranżizzjonijiet
+76	3376	veteran	veterana veterani
+77	3377	suwiċidju	suwiċidji
+78	3378	ttraduċa	ittraduċew ittraduċewha ittraduċiet jittraduċi jittraduċihom jittraduċu jittraduċuhom nittraduċu nittraduċuh nittraduċuha nittraduċuhom tittraduċi tittraduċiha tittraduċihom tradott ttraduċew ttraduċewhom ttraduċi ttraduċiet ttraduċih ttraduċiha ttraduċu
+79	3379	ambizzjoni	ambizzjonijiet
+80	3380	xkiel	ixkiel xkilijiet
+81	3381	arkeoloġija	
+82	3382	atletika	
+83	3383	intenzjonat	intenzjonata intenzjonati ntenzjonat ntenzjonata ntenzjonati
+84	3384	vverifika	ivverifika ivverifikar ivverifikat jivverifika jivverifikaw jivverifikawha jivverifikawx nivverifika nivverifikah nivverifikaw tivverifika tivverifikah verifikar verifikat vverifikajna vverifikajt vverifikat vverifikaw vverifikawha
+85	3385	deċiżiv	deċiżiva deċiżivi
+86	3386	pinna	pinen
+87	3387	xaft	xaftijiet xafts
+88	3388	adeżjoni	
+89	3389	qalil	qalila
+90	3390	sovranità	sovranita sovranitajiet
+91	3391	ċinema	
+92	3392	ggwida	ggwidah ggwidahom ggwidat ggwidaw iggwidat iggwidaw jiggwida jiggwidah jiggwidahom jiggwidak jiggwidalu jiggwidana jiggwidaw jiggwidawha jiggwidawhom jiggwidawna niggwida niggwidah niggwidahom niggwidaw niggwidawhom tiggwida tiggwidahom tiggwidak tiggwidakom tiggwidana
+93	3393	persekuzzjoni	persekuzzjonijiet
+94	3394	sparar	isparar
+95	3395	sfurzat	sfurzata sfurzati sfurzatna
+96	3396	tisbiħ	
+97	3397	dawwal	dawlet dawwalli dawwalna ddawwal ddawwalha ddawwalli ddawwalna idawlu idawwal idawwalna iddawwal iddawwalna imdawwal jdawlu jdawluh jdawwal jdawwalha jdawwalhom jdawwallu jdawwalna jdawwalu jdawwalx mdawwal tidwil
+98	3398	orgni	orgnijiet
+99	3399	żarbun	żarbuna żraben
+100	3400	fiżikament	

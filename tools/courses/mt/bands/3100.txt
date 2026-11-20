@@ -1,100 +1,100 @@
-1	3001	nħażen	inħażen inħażnet jinħażen jinħażnu jinħażnux nħażnu tinħażen
-2	3002	ċess	
-3	3003	nessa	inessi inessu innessu jnessi jnessu nessiet tnessi tnessu
-4	3004	ċajtier	ċajtiera
-5	3005	teologu	teologi
-6	3006	azzjonista	azzjonisti
-7	3007	ġgantesk	ġganteska ġganteski
-8	3008	għafsa	għafsiet
-9	3009	kisi	
-10	3010	papra	papri
-11	3011	stamperija	istamperija istamperiji stamperiji
-12	3012	mielaħ	melħin mielħa
-13	3013	ġifa	ġwejjef
-14	3014	kalċi	kalċijiet
-15	3015	duttur	dottoressa dutturi
-16	3016	koeffiċjent	koeffiċjenti
-17	3017	aw	
-18	3018	maxtura	
-19	3019	għadis	
-20	3020	drammaturgu	drammaturgi
-21	3021	frawla	frawli
-22	3022	taħdit	
-23	3023	ħan	ħajjen ħinna ħinu
-24	3024	arbuxxell	arbuxell arbuxxelli
-25	3025	rifed	irfid jirfdu jirfed mirfud ntrifed rfid tirfed
-26	3026	kubu	
-27	3027	interdett	interdetti
-28	3028	abolixxa	aboliet abolit abolixxew abolixxiet jabolixxi jabolixxu tabolixxi
-29	3029	bajdani	bajdanija
-30	3030	parrinu	parrina parrini
-31	3031	ddata	datar datat ddatat iddata iddatat iddataw jiddata jiddataw niddataw tiddata
-32	3032	pastizz	pastizzi
-33	3033	dewweb	ddewbu ddewweb dewbu dewwibt iddewbu iddewweb idewbu imdewweb jdewweb mdewweb tidwib
-34	3034	fwied	fwiedhom fwiedna fwiedu
-35	3035	tigra	tigri
-36	3036	sinjifikanti	
-37	3037	rrafina	irfina raffinar raffinat rfina
-38	3038	trakka	jitrakka jitrakkaw titrakka trakkar trakkat trakkaw ttrakka
-39	3039	iblah	belha boloh
-40	3040	għeġubija	għeġubijiet
-41	3041	brimb	brimba
-42	3042	misħut	misħuta misħutin
-43	3043	ċediment	ċedimenti
-44	3044	sostenibbiltà	
-45	3045	ddepożita	ddepożitajt ddepożitat depożitar depożitat iddepożita iddepożitat iddepożitaw jiddepożita jiddepożitaw tiddepożita
-46	3046	dubbien	dbieben dubbiena
-47	3047	neża'	inżajt jinża jinża' jinżgħu neżax neżgħu ninża' ninżgħu ninżgħux nżajna tinża tinża' tinżax
-48	3048	tuffieħa	
-49	3049	rilevanza	
-50	3050	labra	labar
-51	3051	abdika	abdikat abdikaw jabdika jabdikaw jabdikawx nabdikaw tabdika
-52	3052	bilwieqfa	
-53	3053	intens	intensa intensi
-54	3054	xamm	inxomm inxommu ixomm ixommu ixxomm ixxommu jxomm jxommu nxomm nxommu xammejt xammejtu xammet xammew xxomm xxommu
-55	3055	qalziet	qliezet
-56	3056	inugwaljanza	inegwaljanza inugwaljanzi
-57	3057	lbies	
-58	3058	xadin	xadina xadini
-59	3059	distrettwali	
-60	3060	liżar	lożor
-61	3061	benniena	
-62	3062	kżar	kżarijiet
-63	3063	ħmerija	ħmerijiet
-64	3064	aljena	aljenat aljenaw jaljena jaljenaw naljenaw taljena
-65	3065	qatta	qatet
-66	3066	kattiv	kattiva kattivi
-67	3067	idroġenu	
-68	3068	ventilazzjoni	
-69	3069	pluviera	pluvieri
-70	3070	ġublew	
-71	3071	ġelat	ġelati
-72	3072	aggressjoni	aggressjonijiet
-73	3073	eċċitanti	
-74	3074	ħarrub	ħarruba
-75	3075	estradizzjoni	
-76	3076	sakkar	imsakkar insakkru isakkru issakkar issakkru jsakkru msakkar ssakkar ssakkru
-77	3077	teoriku	teoretiku teorika teoriċi
-78	3078	għatxan	għatxana
-79	3079	eku	eki
-80	3080	debba	dwieb
-81	3081	tużżana	tużżani
-82	3082	arterjali	
-83	3083	nifed	jinfdu jinfdux jinfed jinfidx minfud nifdet nifdu ninfdu tinfed tinfidx
-84	3084	sapun	sapuna
-85	3085	osservatorju	osservatorji
-86	3086	darab	darbet darbu jidrob midrub tidrob
-87	3087	terraq	interraq interrqu iterraq iterrqu itterraq jterraq jterrqu nterraq nterrqu terrqet tterraq
-88	3088	stenbaħ	jistenbaħ jistenbħu nistenbaħ nistenbħu stenbaħna stenbaħt stenbħet stenbħitx stenbħu tistenbaħ
-89	3089	għollieq	għolliqiet
-90	3090	muġugħ	muġugħa
-91	3091	rregolarizza	irregolarizzat jirregolarizza jirregolarizzaw regolarizzat rregolarizzat rregolarizzawx tirregolarizza
-92	3092	reħa	erħi erħu irħew jerħi jerħu merħi nerħi rħejtux rħew terħi
-93	3093	leġjun	leġjuni
-94	3094	natural	
-95	3095	ragħad	ragħda
-96	3096	depressjoni	
-97	3097	rama	armar armat armaw jarma jarmaw jarmawx jarmax narma narmaw rmaw tarma
-98	3098	ibridu	ibrida ibridi
-99	3099	feddej	feddejja
-100	3100	simpatiku	simpatika simpatiċi
+1	3001	zokkor	
+2	3002	intelliġenza	intelliġenzi
+3	3003	qasma	qasmiet qasmitha qasmitu
+4	3004	umiltà	umilta
+5	3005	maltemp	maltempijiet
+6	3006	integrazzjoni	
+7	3007	uffiċju	uffiċji
+8	3008	intelliġenti	ntelliġenti
+9	3009	avża	avżah avżaha avżajna avżajt avżajtu avżana avżat avżatu avżatx avżaw avżax javża javżak javżaw javżawhom javżawna navża navżah navżakom navżaw navżawhom tavża tavżaha tavżahom tavżana tavżaw
+10	3010	amministratur	amministraturi
+11	3011	virtwali	
+12	3012	indiċi	indiċijiet
+13	3013	monarkija	monarkiji
+14	3014	qajla	
+15	3015	radikali	
+16	3016	zokk	izkuk zkuk
+17	3017	trobbija	
+18	3018	subborg	subborgi
+19	3019	irreżenja	irreżenjajt irreżenjat irreżenjaw jirreżenja jirreżenjaw jirreżenjax nirreżenja rreżenja rreżenjaw rreżenjax tirreżenja
+20	3020	lment	ilment
+21	3021	perikolużi	
+22	3022	moda	modana
+23	3023	midneb	midinba midinbin
+24	3024	rispons	risponsi
+25	3025	fluss	flussi
+26	3026	immaniġġjar	mmaniġġjar
+27	3027	liturġija	liturġiji
+28	3028	nomina	nomini
+29	3029	prezzjuż	prezzjuża prezzjużi
+30	3030	priorità	priorita prioritajiet
+31	3031	eċċezzjonali	
+32	3032	rappreżentanza	rappreżentanzi
+33	3033	petizzjoni	petizzjonijiet
+34	3034	arkivju	arkivji
+35	3035	medd	imidd imiddu immidd immiddu jmidd jmiddu meddejt meddet meddew meddha meddu midd middin middu mimdud mimduda mimdudin mmiddu tmidd tmiddx
+36	3036	fiskali	
+37	3037	abbiltà	abbilta abbiltajiet abilita abilità
+38	3038	illimita	illimitat illimitaw jillimita jillimitah jillimitaw jillimitawha jillimitawhom jillimitawlu jillimitax llimita llimitah llimitat llimitatx llimitaw llimitax nillimita nillimitaw nillimitax tillimita tillimitah tillimitax
+39	3039	ġest	ġesti
+40	3040	ċċekkja	iċċekkja iċċekkjajt iċċekkjar iċċekkjat iċċekkjatha iċċekkjaw iċċekkjawli jiċċekkja jiċċekkjah jiċċekkjaw jiċċekkjawhom jiċċekkjawlek jiċċekkjawna niċċekkja niċċekkjaha niċċekkjahom niċċekkjaw niċċekkjawx tiċċekkja tiċċekkjaw ċċekkjajna ċċekkjar ċċekkjat ċċekkjatha ċċekkjax
+41	3041	profezija	profeziji
+42	3042	jitnaqqas	jitnaqqasu
+43	3043	stennija	istennija istennijiet jistennija nistennija tistennijix
+44	3044	kklassifikata	ikklassifikata ikklassifikati kklassifikati
+45	3045	suprem	suprema supremi
+46	3046	jintlagħbu	
+47	3047	metall	metalli
+48	3048	irrikjeda	jirrikjedi jirrikjedix jirrikjedu jirrikjedux nirrikjedi nirrikjedu rrikjeda rrikjedew rrikjediet tirrikjedi tirrikjedix
+49	3049	portal	portali portalijiet
+50	3050	prestiġjuż	prestiġjuża prestiġjużi
+51	3051	tunnellata	tunnellati
+52	3052	drammatiku	drammatika drammatiċi
+53	3053	kkontrollata	ikkontrollata ikkontrollati kkontrollati
+54	3054	pprojbixxa	ipprojbixxa ipprojbixxiet ipprojbixxu jipprojbixxi jipprojbixxix jipprojbixxu jipprojbixxuh jipprojbixxuhom nipprojbixxu pprojbiet pprojbietu pprojbixxew pprojbixxiet pprojbixxu projbit tipprojbix tipprojbixx tipprojbixxi
+55	3055	ġurija	ġuriji
+56	3056	sieqja	swieqi
+57	3057	affettwata	affettwati
+58	3058	ħmieġ	
+59	3059	benefattur	benefattriċi benefatturi
+60	3060	twettiq	
+61	3061	vassalli	
+62	3062	ordnata	ordnati
+63	3063	merkanzija	merkanziji
+64	3064	integrali	ntegrali
+65	3065	okkupazzjoni	okkupazzjonijiet
+66	3066	arena	areni
+67	3067	innomina	innominat innominaw innominawha jinnomina jinnominaw nnomina nnominat nnominaw nnominax tinnomina
+68	3068	tipikament	
+69	3069	piramida	piramidi
+70	3070	virtù	virtu virtujiet
+71	3071	tessut	tessuti
+72	3072	inkwistjoni	
+73	3073	detenzjoni	detenzjonijiet
+74	3074	diqa	dwejjaq
+75	3075	ingredjent	ingredjenti
+76	3076	kumpannija	kumpanniji
+77	3077	kkawżata	ikkawżata ikkawżati kkawżati
+78	3078	nanna	nannitha nannithom nannti nanntu
+79	3079	urġenza	
+80	3080	togħma	togħmiet
+81	3081	tħejja	jitħejja jitħejjew nitħejjew titħejja titħejjiex tħejjew tħejjiet tħejjiex
+82	3082	websajt	websajts
+83	3083	ċatt	ċatta ċatti
+84	3084	tiġrija	
+85	3085	zuntier	znieter zuntieri
+86	3086	sussegwentement	
+87	3087	djoċesan	djoċesana djoċesani
+88	3088	tajjar	imtajjar intajjar intajru itajjar itajru itajruh ittajjar ittajjarha ittajjarhom ittajru jtajjar jtajjarha jtajru jtajruhom jtajruli jtajrux mtajjar ntajjar ntajjarhom ntajru ntajruha tajjarha tajjart tajjarthom tajjarx tajret tajritilna tajritni tajru tajruhom tajrulu titjir ttajjarha ttajru
+89	3089	għalxejn	
+90	3090	lealtà	lealta lealtajiet
+91	3091	ssaħħaħ	issaħħaħ issaħħaħna jssaħħaħ ssaħħaħha ssaħħaħna
+92	3092	jlaħħaq	ilaħħaq jlaħħaqx
+93	3093	dwal	
+94	3094	koperattiva	koperattivi
+95	3095	djalett	djaletti
+96	3096	bied	bad bid biedet biedu ibid ibidlu ibidu inbidu jbid jbidlu jbidu tbid
+97	3097	effiċjenza	effiċjenzi
+98	3098	ssostni	issostni
+99	3099	espona	esponew esponielhom esponiet esponietu esponiex espost jesponi jesponix jesponu jesponuh jesponuhom jesponux nesponi nesponu nesponuhom nesponuhomx tesponi tesponu
+100	3100	batterija	batteriji

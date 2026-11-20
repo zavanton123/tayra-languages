@@ -1,0 +1,100 @@
+1	8501	astrazzjoni	astrazzjonijiet
+2	8502	mmanifesta	immanifestat jimmanifesta jimmanifestaw manifestat manifestata mmanifestata timmanifesta timmanifestax
+3	8503	tnaqqset	
+4	8504	primittivi	
+5	8505	saqqaf	imsaqqaf isaqqaf issaqqaf jsaqqaf jsaqqfu msaqqaf msaqqafa saqqfu ssaqqaf tisqif
+6	8506	ixxutja	ixxutjat jixxutja xxutja
+7	8507	giro	
+8	8508	azzjonist	
+9	8509	simetriku	simetrika simetriċi simmetriku
+10	8510	vvendika	ivvendika ivvendikat jivvendika jivvendikah jivvendikaw nivvendikaw tivvendika vvendikaw
+11	8511	lanġas	lanġasa
+12	8512	antikamra	
+13	8513	tupaja	
+14	8514	immissja	immissjajt jimmissja jimmissjah jimmissjani mmissjajt mmissjajtek nimmissja nimmissjah nimmissjaha nimmissjahom
+15	8515	korteżija	
+16	8516	jgħalqu	
+17	8517	fokus	
+18	8518	viljakk	viljakki
+19	8519	furur	
+20	8520	insulenta	insulentat jinsulenta jinsulentah jinsulentaw ninsulentaw nsulenta tinsulenta
+21	8521	pnewmonja	
+22	8522	iskula	jiskula jiskulaw jiskulax skula skulajna skulat skulaw tiskula
+23	8523	qanats	
+24	8524	ġada	ġadi
+25	8525	vitamini	
+26	8526	ristrutturazzjoni	
+27	8527	inġustament	nġustament
+28	8528	birrajja	birrerija
+29	8529	sogħla	
+30	8530	vili	
+31	8531	aċċeta	aċċetah aċċetajt aċċetat aċċetawx jaċċeta jaċċetaw jaċċetawna jaċċetawx jaċċetthom naċċetaw
+32	8532	abolizzjoni	
+33	8533	istukko	stukko
+34	8534	ferventi	
+35	8535	kjeriku	
+36	8536	ħniżrijiet	
+37	8537	rotazzjonali	
+38	8538	attivament	
+39	8539	eżawra	eżawrejt eżawrew teżawri teżawrik teżawru
+40	8540	theżżiża	
+41	8541	arpa	arpi
+42	8542	palata	
+43	8543	preċedenza	
+44	8544	sudditi	
+45	8545	mank	
+46	8546	artiġġjanat	
+47	8547	alloġġ	
+48	8548	ħawt	iħwat ħwat
+49	8549	sublimi	
+50	8550	xhar	
+51	8551	irrestrinġa	irrestrinġew irrestrinġiet jirrestrinġi jirrestrinġiha jirrestrinġu rrestrinġa rrestrinġew rrestrinġiet tirrestrinġi tirrestrinġix
+52	8552	alfabetiku	alfabetika
+53	8553	rattab	imrattab irattab irattbu irattbulu jrattab jrattbu mrattab nrattbu rattbet rattbu trattab
+54	8554	ella	
+55	8555	qadd	qaddha qaddhom qaddu
+56	8556	tnaqqir	
+57	8557	qrabatu	qrabati
+58	8558	umoristika	
+59	8559	novizzjat	novizzjati
+60	8560	governorat	governorati
+61	8561	protestant	
+62	8562	fraterna	
+63	8563	leġiżlatur	leġiżlaturi
+64	8564	xatba	xatbiet
+65	8565	ippredomina	jippredomina jippredominaw tippredomina
+66	8566	patrijottiżmu	
+67	8567	irrapurtati	rrapurtati
+68	8568	kerrej	
+69	8569	kurunella	
+70	8570	rreffja	irreffja irreffjajt irreffjar irreffjaw jirreffja jirreffjaw nirreffja rreffjajt rreffjajtu tirreffja
+71	8571	bankiera	
+72	8572	awrina	
+73	8573	nbidlitx	inbidlitx
+74	8574	sottoġeneru	
+75	8575	orbiti	
+76	8576	invalidità	invalidita
+77	8577	avżati	
+78	8578	iżvilluppa	jiżvilluppa jiżvilluppaw tiżvilluppa żvilluppa żvilluppat żvilluppaw
+79	8579	rima	
+80	8580	liberaliżmu	
+81	8581	tkaħħil	
+82	8582	tkessaħ	itkessaħ jitkessaħ jitkessħu nitkessaħ nitkessħux titkessaħ tkessaħx tkessiħ
+83	8583	premijiet	
+84	8584	iddentifika	ddentifikat jiddentifika jiddentifikahom jiddentifikaw jiddentifikawhom tiddentifika
+85	8585	kalorija	kaloriji
+86	8586	peres	
+87	8587	tikmix	tikmixa
+88	8588	filosofi	
+89	8589	glaċieri	
+90	8590	iddeffenda	ddeffenda iddeffendih jiddeffendi tiddeffendi
+91	8591	aċċettabli	
+92	8592	iskandalizza	jiskandalizza jiskandalizzahom jiskandalizzana jiskandalizzaw niskandalizza niskandalizzahom niskandalizzawx skandalizza skandalizzajt skandalizzat skandalizzaw tiskandalizza tiskandalizzak tiskandalizzax
+93	8593	mluħa	imluħa
+94	8594	gaffa	gafef
+95	8595	ikkondivida	ikkondividiet jikkondividi jikkondividu jikkondividuhom kkondivida nikkondividi nikkondividih nikkondividu tikkondividi
+96	8596	xxottja	ixxuttja jixxuttja jixxuttjaw xxuttja xxuttjat
+97	8597	divertenti	
+98	8598	bilingwiżmu	
+99	8599	makkja	makkji
+100	8600	ċajpar	imċajpar inċajpru iċajpar jċajpar jċajpru mċajpar ċajpru ċċajpru

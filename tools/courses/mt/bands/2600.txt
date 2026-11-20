@@ -1,100 +1,100 @@
-1	2501	dderieġa	dderiġiet ddirieġa idderieġa idderiġiet iddirieġa jidderieġi jidderieġu nidderieġi nidderieġu tidderieġi
-2	2502	tikka	tikek tikkiet
-3	2503	stonku	istonku
-4	2504	rifuġjat	refuġjat rifuġjata rifuġjati
-5	2505	ċelesti	
-6	2506	battal	battala battalna battlet battlu ibattal ibattlu imbattal inbattal inbattlu jbattal jbattlu mbattal tbattal tbattlu tbattlux
-7	2507	istituzzjonali	
-8	2508	glorjuż	glorjuża glorjużi
-9	2509	għajjien	għajjenin għajjiena
-10	2510	qatra	qatriet qtar
-11	2511	tjubija	tjubitek tjubithom tjubitu
-12	2512	werriet	werrieta
-13	2513	safar	
-14	2514	qadef	aqdef jaqdef jaqdfu naqdef naqdfu qadfet qadfu qdif qdifna taqdef
-15	2515	iġjene	
-16	2516	impurta	impurtat impurtaw jimpurtaw jimpurtax nimpurtaw
-17	2517	xirja	xirjiet
-18	2518	rifuġju	refuġju rifuġji
-19	2519	ġemgħa	ġemgħat ġmiegħi
-20	2520	għadab	għadbu jagħdab magħdub tagħdabx
-21	2521	mweġġa'	imweġġa' imweġġgħa imweġġgħin mweġġgħa mweġġgħin
-22	2522	lineari	linjari
-23	2523	awtorizzazzjoni	awtorizzazzjonijiet
-24	2524	kok	koka koki kokijiet
-25	2525	għira	
-26	2526	ġgant	iġganti ġganta ġigant
-27	2527	xkora	ixkejjer ixkora xkejjer
-28	2528	waddab	imwaddab iwaddab iwaddbu jwaddab jwaddabx jwaddbu nwaddab nwaddbu twaddab twaddbu twaddbux waddbet waddbu
-29	2529	ċivilizzazzjoni	ċivilizzazzjonijiet
-30	2530	nbid	inbejjed nbejjed
-31	2531	ċitazzjoni	ċitazzjonijiet
-32	2532	masġar	imsaġar msaġar
-33	2533	miżbla	miżbliet
-34	2534	sempliċità	
-35	2535	ġuf	
-36	2536	emigrazzjoni	emigrazzjonijiet
-37	2537	emozzjonali	
-38	2538	ħasseb	imħasseb iħassbu iħassbux iħasseb jħassbu jħasseb mħasseb tħassbu ħassbet ħassbu
-39	2539	fetħa	fetħiet
-40	2540	gidba	gidbiet
-41	2541	plural	plurali
-42	2542	penitenza	penitenzi
-43	2543	kkastiga	ikkastigar ikkastigat ikkastigaw jikkastiga jikkastigaw jikkastigax kkastigar kkastigat kkastigaw nikkastigaw tikkastiga
-44	2544	ħassieb	ħassieba
-45	2545	qabla	qwiebel
-46	2546	sinsla	sinsliet sniesel
-47	2547	sebħ	
-48	2548	djaknu	djakni
-49	2549	fotografija	fotografiji
-50	2550	xaħam	xaħmijiet
-51	2551	staġna	istaġnar jistaġna jistaġnaw jistaġnawx jistaġnax staġnajna staġnar staġnat staġnaw tistaġna tistaġnax
-52	2552	vjaġġatur	vjaġġaturi
-53	2553	qawl	qwiel
-54	2554	teoloġiku	teoloġika teoloġiċi
-55	2555	driegħ	dirgħajn driegħek driegħhom driegħi driegħna driegħu
-56	2556	neputijiet	
-57	2557	mmodifika	immodifika immodifikar immodifikat immodifikaw jimmodifika jimmodifikaw mmodifikat mmodifikaw modifikat nimmodifikaw timmodifika
-58	2558	għasses	għassu jgħasses jgħassu mgħasses ngħassu tgħasses tgħassu
-59	2559	romol	romlot romlu tormol
-60	2560	kreditu	krediti kredtu
-61	2561	ħamrani	ħamranija ħamranin
-62	2562	definittiv	definittiva definittivi
-63	2563	kruha	kruhat
-64	2564	memorandum	memoranda
-65	2565	qarrieq	qarrieqa
-66	2566	qarn	iqrun qrajna qrun
-67	2567	tipjip	
-68	2568	korsija	korsiji
-69	2569	ħjata	ħjatat
-70	2570	velenu	valenu veleni
-71	2571	tħaddet	jitħaddet jitħaddtu mitħaddet nitħaddet nitħaddtu titħaddet tħaddit tħadditna tħaddtu
-72	2572	kuraġġuż	kuraġġuża kuraġġużi
-73	2573	faraġ	
-74	2574	ċikkulata	ċikkulati ċikkulatina
-75	2575	ħeffa	
-76	2576	bijodiversità	bijodiversitajiet
-77	2577	għożża	
-78	2578	ċerva	ċriev
-79	2579	ark	arkijiet
-80	2580	imbotta	imbottat imbottaw jimbotta jimbottaw nimbotta timbotta
-81	2581	sellum	slielem
-82	2582	irmied	
-83	2583	ħaqar	jaħqar jaħqru maħqur moħqrija naħqru taħqar ħaqret ħaqru
-84	2584	oranġjo	
-85	2585	tmint	
-86	2586	majjal	majjali
-87	2587	aspira	aspirat jaspira jaspiraw naspiraw taspira
-88	2588	irrispettivament	
-89	2589	arterja	arterji
-90	2590	tlaqliq	
-91	2591	burdata	burdati
-92	2592	internazzjonalment	
-93	2593	ħarbat	imħarbat inħarbat iħarbat iħarbtu jħarbat jħarbtu jħarbtux mħarbat nħarbat nħarbtu tħarbat tħarbtu ħarbatna ħarbtet ħarbtu
-94	2594	potenzjalment	
-95	2595	sekwenza	sekwenzi
-96	2596	trijonf	
-97	2597	meraq	
-98	2598	malvizz	imlievez malvizzi mlievez
-99	2599	qarreb	inqarrbu inqarreb iqarrbu iqarreb jqarrbu jqarreb nqarrbu nqarreb qarrbet qarrbu qarribna tqarrbu tqarreb
-100	2600	ferrex	ferrxu iferrex iferrxu imferrex inferrxu jferrex jferrxu mferrex tferrex tferrxu
+1	2501	prekawzjoni	prekawzjonijiet
+2	2502	palm	palma palmi
+3	2503	pjanura	pjanuri
+4	2504	turistiċi	
+5	2505	tmenin	
+6	2506	distinzjoni	distinzjonijiet
+7	2507	tieġ	tieġu tiġijiet
+8	2508	rappreżentat	rappreżentata rappreżentati
+9	2509	kunjom	kunjomha kunjomhom kunjomi kunjomijiet kunjomijieti kunjomna kunjomok kunjomu
+10	2510	ħalib	
+11	2511	omelija	omeliji
+12	2512	nqara	inqara inqrat inqraw jinqara jinqarawx jinqarax jinqraw jinqrawlhom jinqrawx nqrat nqraw tinqara tinqarax
+13	2513	għaqli	għaqlija għaqlin
+14	2514	suċċessur	suċċessura suċċessuri
+15	2515	rużarju	
+16	2516	titqies	titqiesx
+17	2517	bankina	bankini
+18	2518	oċean	oċeani oċeanu
+19	2519	tipiku	tipika
+20	2520	ġeografiku	ġeografika ġeografiċi
+21	2521	għadira	għadajjar
+22	2522	lingwistiku	lingwistika lingwistiċi
+23	2523	reviżjoni	reviżjonijiet
+24	2524	laqam	laqmijiet
+25	2525	għaqal	għaqalha
+26	2526	plastik	plastiks plastiku
+27	2527	ġurament	ġuramenti
+28	2528	diżastru	diżastri
+29	2529	spira	inspirax ispira ispirahom ispirajt ispirani ispirat ispiratu ispiraw ispiri ispiru jispira jispirah jispiraha jispirak jispirana jispirani jispiraw jispirawna nispira spirah spiratha spiratu spiraw spirawni spiri tispira tispirah tispirak tispirakom tispirana tispirani tispirax tispirina
+30	2530	tiela'	telgħin tiela tielgħa
+31	2531	skiet	
+32	2532	rettur	retturi
+33	2533	lejlet	
+34	2534	definizzjoni	definizzjonijiet
+35	2535	feġġ	feġġejt feġġet feġġew feġġx ifeġġu ifeġġulhom ifiġġ ifiġġu infeġġu jfeġġu jfiġġ jfiġġu tfeġġa tfiġġ
+36	2536	ssottometta	issottometta issottomettew issottometti issottomettiet issottomettiethom jissottometti jissottomettihom jissottomettix jissottomettu jissottomettuhom nissottomettu sottomess ssottomettew ssottomettewx ssottomettieha ssottomettielu ssottomettiet ssottomettietx ssottomettu tissottometti tissottomettih
+37	2537	femminili	
+38	2538	sħana	
+39	2539	konferma	konfermi
+40	2540	nutar	nutara nutari
+41	2541	fejjaq	fejjaqha fejjaqhom fejjaqli fejjaqlu fejqu fejquna ifejjaq ifejjaqha ifejjaqlu ifejjaqna ifejqu ifejquh imfejjaq imfejqa infejjaq infejqu jfejjaq jfejjaqha jfejjaqhom jfejjaqlu jfejjaqna jfejjaqni jfejjaqx jfejqu jitfejjaq jitfejjaqx jitfejqu mfejjaq mfejqa nfejjaq nfejqu tfejjaq tfejjaqhom tfejjaqna tfejjaqx tfejqet tfejqu titfejjaq titfejjaqx
+42	2542	inzerta	inzertajna inzertajt inzertajtu inzertat inzertaw jinzerta jinzertaw jinzertawlek jinzertawx jinzertax ninzerta nzerta nzertajt nzertat nzertaw tinzerta tinzertalha
+43	2543	xiħ	ixjaħ ixjeħ xiħa xjuħ xwejjaħ
+44	2544	rikors	rikorsi
+45	2545	front	fronti frontijiet
+46	2546	arkitettoniku	arkitettonika
+47	2547	dlam	dlamijiet
+48	2548	liberu	libera liberi
+49	2549	perijodu	perijodi
+50	2550	vista	visti
+51	2551	qerda	
+52	2552	sittin	
+53	2553	xarabank	xarabankijiet xarabanks
+54	2554	mewta	mewtiet mwiet
+55	2555	eżattament	
+56	2556	tisħiħ	
+57	2557	trasparenza	
+58	2558	ppreservat	ippreservat ippreservata ippreservathom ippreservati ppreservata ppreservati
+59	2559	pesta	pesti
+60	2560	tratta	itrattaw itratti jitratta jitrattahom jitrattaw jitrattawx jitrattax nitratta nitrattaha nitrattaw titratta titrattax trattajt trattaw trattawna trattax tratti ttratti
+61	2561	turnew	turnewijiet
+62	2562	sostitwit	sostitwita sostitwiti
+63	2563	teżor	teżori
+64	2564	ugwaljanza	ugwaljanzi
+65	2565	weraq	werqa werqiet
+66	2566	platt	platti
+67	2567	analizza	analizzahom analizzahomx analizzajna analizzajt analizzajtu analizzat analizzaw janalizza janalizzah janalizzaha janalizzahom janalizzaw janalizzawx nanalizza nanalizzaw nanalizzawha nanalizzawhom tanalizza
+68	2568	radd	irodd iroddha iroddhielkom iroddhom iroddlu iroddu irrodd irroddilkom irroddu jrodd jroddha jroddhom jroddilha jroddilhom jroddilna jroddu jrodduhom jrodduhomx jroddulha jroddulna jroddulu raddejt raddet raddhom raddlek raddlu raddu rodd roddu rrodd rroddu rroddulek trodd troddilna troddlu troddu
+69	2569	affaċċja	affaċċjat affaċċjaw affaċċjax jaffaċċja jaffaċċjahom jaffaċċjaw naffaċċja naffaċċjaw taffaċċja taffaċċjaha
+70	2570	sajjar	imsajjar insajjar insajru insajrulu isajjar isajru issajjar issajjarha issajjarhom issajret issajru jissajjar jissajjarx jissajru jissajrux jsajjar jsajru jsajrux msajjar nsajjar nsajjarlu nsajru nsajruh sajjarhom sajjarna sajjart sajru ssajjar ssajjarha ssajjarli ssajjarx ssajru tissajjar
+71	2571	jixxandar	jixxandarx
+72	2572	għaxra	għaxriet
+73	2573	nominat	nominata nominati
+74	2574	blokk	blokki blokkijiet blokok
+75	2575	diżabbiltà	diżabbilta diżabbiltajiet
+76	2576	tħabbret	
+77	2577	tmintax	
+78	2578	salvata	salvatahom salvati
+79	2579	nom	nomi
+80	2580	nisel	nisilha nisilkom
+81	2581	kmandament	kmandamenti
+82	2582	votanti	
+83	2583	libsa	ilbiesi lbiesi libsithom libsitu
+84	2584	sempliċement	
+85	2585	vokazzjoni	vokazzjonijiet
+86	2586	aħħari	aħħarija aħħarin
+87	2587	kobor	
+88	2588	mekkaniku	mekkanika mekkaniċi
+89	2589	fgura	
+90	2590	ħaġar	ħaġra ħaġriet ħġur
+91	2591	tpinġija	tpenġija tpinġijiet
+92	2592	esportazzjoni	esportazzjonijiet
+93	2593	koperazzjoni	
+94	2594	ġejjieni	
+95	2595	ppublikat	ippublikat ippublikata ippublikatha ippublikati ppublikata ppublikati
+96	2596	duka	dukessa dukessi duki
+97	2597	stabbli	
+98	2598	verifika	verifiki
+99	2599	elimina	eliminajna eliminajt eliminat eliminatx eliminaw eliminawhom jelimina jeliminaw jeliminawni neliminaw telimina
+100	2600	lemaħ	ilmaħna ilmaħt ilmaħthom intlemaħ jilmaħ jilmaħha jilmaħhom jilmaħni jilmaħx lemaħhom lemaħni lemħet lemħu lemħuha lemħuhiex lmaħna lmaħt lmaħtx milmuħ milmuħa milmuħin nilmaħ nilmaħx ntlemaħ ntlemaħx tilmaħ

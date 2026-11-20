@@ -1,100 +1,100 @@
-1	5301	ekwiparabbli	
-2	5302	sfrakass	
-3	5303	nofsija	
-4	5304	sewqa	
-5	5305	rpoż	irpoż
-6	5306	tfajjar	titfajjar
-7	5307	maksra	
-8	5308	tbella'	
-9	5309	għaddab	għaddbu imgħaddba jgħaddab mgħaddba mgħaddbin
-10	5310	nazzjonalizzazzjoni	nazzjonalizzazzjonijiet
-11	5311	espressjoniżmu	
-12	5312	mell	
-13	5313	nagħniegħ	
-14	5314	korrettament	
-15	5315	erett	eretta eretti
-16	5316	ġulġlien	ġulġliena ġunġlien
-17	5317	reliġjożament	
-18	5318	żvantaġġa	jiżvantaġġaw tiżvantaġġax żvantaġġat
-19	5319	gallozz	gallozzi
-20	5320	salla	isalli jsalli jsallu sallu ssalli
-21	5321	sarsella	sarselli
-22	5322	ħasira	ħsajjar
-23	5323	għarib	għorba
-24	5324	abatija	abbatija
-25	5325	deprezzament	
-26	5326	qurdien	
-27	5327	ċuqlajta	ċuqlajti
-28	5328	sigarru	sigarri
-29	5329	żabar	jiżbru niżbru żabru
-30	5330	stkerrah	istkerrih jistkerrah jistkerrhu mistkerrah tistkerrah
-31	5331	żvaluta	iżvalutar jiżvaluta niżvalutaw tiżvaluta żvalutat
-32	5332	bużnanniet	
-33	5333	rogħda	
-34	5334	kuċċarun	kuċċaruni
-35	5335	depożitarju	depożitarja
-36	5336	tfief	
-37	5337	sefsef	isefsfu issefsef sefsif
-38	5338	depożitant	depożitanti
-39	5339	tkerrah	jitkerrah
-40	5340	klassista	klassisti
-41	5341	ġummiena	iġmiemen ġmiemen
-42	5342	siel	isil sil silt siltu
-43	5343	sultani	
-44	5344	mellaħ	immellaħ mmellaħ timliħ
-45	5345	tutela	
-46	5346	galletta	galletti
-47	5347	lamtu	lamti
-48	5348	swiċċ	iswiċċ
-49	5349	bbliċja	ibbliċjar ibbliċjat
-50	5350	lajċità	
-51	5351	kannestru	
-52	5352	omofobija	
-53	5353	rawndebawt	
-54	5354	teologali	
-55	5355	dejr	
-56	5356	vomtu	
-57	5357	ħaraġ	
-58	5358	aduratur	aduraturi
-59	5359	rmixk	irmixk
-60	5360	għoxx	
-61	5361	spjegabbli	
-62	5362	dderoga	dderogatx jidderogaw
-63	5363	fustani	fustanija
-64	5364	wiski	
-65	5365	żummara	
-66	5366	frakass	
-67	5367	stimulazzjoni	istimulazzjoni
-68	5368	għalef	jagħlef jagħlfu
-69	5369	tqatel	jitqatlu tqatlu
-70	5370	tanbar	jtanbar ntanbru ttanbar
-71	5371	umanizza	jumanizza umanizzat
-72	5372	apoloġetiku	apoloġetiċi
-73	5373	ħaxwex	tħaxwix tħaxwixx
-74	5374	ppredestina	ippredestina predestinat
-75	5375	żellaq	iżellaq jżellaq żellqu
-76	5376	agrett	agretti
-77	5377	pellikan	
-78	5378	karfa	
-79	5379	ġummar	
-80	5380	deru	
-81	5381	emanazzjoni	emanazzjonijiet
-82	5382	vokalizzazzjoni	vokalizzazzjonijiet
-83	5383	kennen	imkennen jkennu kennet kennint titkennen
-84	5384	ffajlja	ffajljat iffajljar
-85	5385	ħara	ħarja
-86	5386	delirju	dellirju
-87	5387	mankament	mankamenti
-88	5388	prossimu	prossima
-89	5389	palkett	palketti
-90	5390	mniex	imniex
-91	5391	ddwella	jiddwella niddwella
-92	5392	xximjotta	jixximjotta jixximjottaw tixximjottaw
-93	5393	ddiġerixxa	jiddiġerixxi jiddiġerixxu tiddiġerixxi
-94	5394	ddiverta	ddivertew niddiverti tiddiverti
-95	5395	merraq	imerraq imerrqu immerraq
-96	5396	ċipp	
-97	5397	imsiebaħ	
-98	5398	minutiera	
-99	5399	portmoni	
-100	5400	dekoruż	
+1	5301	arterjuż	arterjuża arterjużi
+2	5302	sfruttament	isfruttament isfruttamenti
+3	5303	var	
+4	5304	patrol	patrols
+5	5305	jasar	
+6	5306	mdawwra	imdawwra
+7	5307	kruċjat	kruċjati
+8	5308	ċċensura	iċċensura iċċensurah iċċensurat iċċensuraw iċċensurawni jiċċensura jiċċensuraw jiċċensurawha jiċċensurawx tiċċensura tiċċensurax ċensurat ċċensurah ċċensurat ċċensuratek ċċensuraw ċċensurawli
+9	5309	mpittra	impittra
+10	5310	bulettin	bulettini
+11	5311	krater	krateri kraters
+12	5312	ikkontradixxa	jikkontradixxi jikkontradixxix jikkontradixxu jikkontradixxuha nikkontradixxu tikkontradixxi tikkontradixxiha
+13	5313	teknikament	
+14	5314	liebsa	
+15	5315	edukata	edukati
+16	5316	vleġġa	vleġeġ
+17	5317	affiljata	affiljati
+18	5318	mdaħħla	imdaħħla
+19	5319	rinnovat	rinnovata rinnovati
+20	5320	roħs	roħsu roħsux
+21	5321	inkoraġġanti	nkoraġġanti
+22	5322	tlestija	
+23	5323	ikħal	kaħla koħol
+24	5324	dalam	jidlam
+25	5325	fundazzjoni	fundazzjonijiet
+26	5326	diesel	
+27	5327	jintwerew	jintwerewx
+28	5328	ikkumenta	ikkumentat ikkumentaw jikkumenta jikkumentaw jikkumentax kkumenta kkumentat kkumentatx kkumentaw nikkumenta nikkumentaw nikkumentawx nikkumentax tikkumenta
+29	5329	ankra	ankrat ankraw ankri jankra jankraw jankrawna nankraw tankra
+30	5330	aġġettiv	aġġettivi
+31	5331	razziżmu	
+32	5332	ddiverta	ddivertew jiddeverti jiddevertu niddeverti niddevertu niddiverti tiddeverti tiddevertiha tiddiverti
+33	5333	esportatur	esportaturi
+34	5334	supplementari	
+35	5335	varjata	varjati
+36	5336	mbgħad	imbgħad
+37	5337	ups	
+38	5338	tenur	tenuri tenurs
+39	5339	kristall	kristalli
+40	5340	pupa	pupi
+41	5341	prinċipessa	prinċipessi
+42	5342	ngħeleb	ingħelbu jingħelbu jingħeleb ngħelbet ngħelbu tingħeleb tingħelibx
+43	5343	assenta	assenti jassentu tassenti
+44	5344	prinċipat	prinċipati
+45	5345	superfiċjali	
+46	5346	futura	
+47	5347	lampa	lampi
+48	5348	ġeometrija	ġjometrija ġometrija
+49	5349	ippromova	ippromoviet jippromovi jippromoviha jippromovihom jippromovu nippromovi nippromovu nippromovuh nippromovuha ppromova ppromovew tippromovi tippromoviha
+50	5350	messaġġier	messaġġiera
+51	5351	trasformata	ittrasformata ittrasformati ttrasformata ttrasformati
+52	5352	oblast	oblasti oblasts
+53	5353	benessri	
+54	5354	sesswalment	
+55	5355	rikreattiv	rikreattiva rikreattivi
+56	5356	memorabbli	
+57	5357	kamera	
+58	5358	ġewwieni	ġewwenin ġewwinija
+59	5359	kkmanda	ikkmanda ikkmandah ikkmandat ikkmandaw jikkmanda jikkmandah jikkmandana jikkmandaw jikkmandawhom jikkmandawni kkmandah kmandat tikkmanda tikkmandak tikkmandana tikkmandani tikkmandaniex tikkmandax
+60	5360	ċirkolari	
+61	5361	atomiku	atomika atomiċi
+62	5362	ssejħet	issejħet
+63	5363	apsida	apsidi
+64	5364	irkoppa	
+65	5365	qalbieni	qalbenin qalbiena
+66	5366	ħxuna	
+67	5367	farsa	
+68	5368	bokka	bokki
+69	5369	sostanzjalment	
+70	5370	iffavorixxa	ffavorixxa ffavorixxew iffavorixxew iffavorixxiet jiffavorixxi jiffavorixxu jiffavorixxux niffavorixxi tiffavorixxi
+71	5371	tniġġiż	
+72	5372	isfiduċja	jisfiduċja jisfiduċjaw sfiduċja sfiduċjat
+73	5373	serra	
+74	5374	ittraskura	ittraskurajna ittraskurajt ittraskurat jittraskura jittraskuraha jittraskurahom jittraskuraw jittraskurawx nittraskura nittraskuraw nittraskurawx tittraskura tittraskurax ttraskura ttraskurajna ttraskurat ttraskuraw
+75	5375	matriċi	
+76	5376	stupru	istupri istupru stupri
+77	5377	espliċitu	espliċita espliċitaw espliċiti jespliċita jespliċitaw
+78	5378	lussu	lussi
+79	5379	irjieħ	
+80	5380	nqalbet	inqalbet
+81	5381	aqilba	jaqilbu jaqilbuh jaqilbuha jaqilbuhx jaqilbuk jaqilbuni naqilbu taqilbu
+82	5382	stimula	jistimula jistimulana jistimulaw nistimulaw stimulat stimulatni stimulaw tistimula tistimulah tistimulana
+83	5383	impressjonista	impressjonisti
+84	5384	tin	tina tinha tintu
+85	5385	qatar	joqtor joqtru
+86	5386	importaturi	mportaturi
+87	5387	ibigħ	ibigħha jbigħha
+88	5388	dagħa	jidgħi jidgħu jidgħux midgħi nidgħi tidgħi
+89	5389	ċkien	jiċkien jiċkienu niċkien niċkienu tiċkien ċkienet ċkienu
+90	5390	semmiegħa	
+91	5391	mdaqqsa	imdaqqsa
+92	5392	teleskopju	teleskopji
+93	5393	porzjon	porzjoni porzjonijiet
+94	5394	ambitu	ambiti
+95	5395	konkluża	konklużi
+96	5396	sakra	
+97	5397	priedki	
+98	5398	fittizju	fittizja fittizji
+99	5399	lixx	lixxa lixxi
+100	5400	komplet	kompleta kompleti kompliti

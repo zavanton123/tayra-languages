@@ -1,100 +1,100 @@
-1	4501	frugħ	
-2	4502	ċelestjali	
-3	4503	frankament	
-4	4504	fejjiedi	
-5	4505	brikkun	brikkuni
-6	4506	attribuzzjoni	attribuzzjonijiet
-7	4507	dimensjonali	
-8	4508	ċċivilizza	ċivilizzat
-9	4509	dakar	
-10	4510	tħin	
-11	4511	argumentattiv	argumentattiva
-12	4512	ħaten	ħatnu
-13	4513	serrieq	srieraq
-14	4514	kkredita	ikkreditar ikkreditat jikkredita jikkreditaw kkreditat tikkredita
-15	4515	akaċja	akaċji
-16	4516	qanfud	qanfuda qniefed
-17	4517	dehxa	
-18	4518	ġeneratur	ġeneraturi
-19	4519	għarras	tgħarras tgħarrsu
-20	4520	senswalità	
-21	4521	ssekonda	issekondat jissekonda sekondant ssekondat
-22	4522	edukazzjonali	
-23	4523	għads	għazz
-24	4524	sing	
-25	4525	żbir	
-26	4526	bbalzma	bbalzmar bbalzmat ibbalzmar ibbalzmat jibbalzma jibbalzmaw tibbalzma
-27	4527	bexx	jbexxu
-28	4528	allegra	allegraw jallegraw tallegra
-29	4529	partikularità	partikularitajiet
-30	4530	maltrattament	
-31	4531	ntreħa	jintreħa jintreħew tintreħa
-32	4532	balzmu	
-33	4533	landier	landiera
-34	4534	ddenunzja	ddenunzjat iddenunzja iddenunzjat iddenunzjaw jiddenunzja jiddenunzjaw tiddenunzja
-35	4535	ċattra	ċattri
-36	4536	għażeb	għożżieb għożżieba
-37	4537	berred	berrdet iberred imberred jberrdu jberred mberred tberred
-38	4538	lazz	lazzijiet
-39	4539	xifa	
-40	4540	marrad	imarrad imarrdu jmarrad marradna marrdet marrdu tmarradx
-41	4541	kittien	
-42	4542	gang	gangijiet
-43	4543	qaras	joqorsu joqros qarsu toqros
-44	4544	felli	flieli
-45	4545	novità	novitajiet
-46	4546	giref	grif migruf
-47	4547	fewwaħ	ifewwaħ imfewwaħ infewwaħ jfewwaħ jfewħu mfewwaħ
-48	4548	ddisprezza	disprezzat jiddisprezza jiddisprezzaw tiddisprezzax
-49	4549	preferibbli	
-50	4550	emanċipa	emanċipat emanċipaw jemanċipa jemanċipaw nemanċipa temanċipa
-51	4551	ttarrax	ittarrax nittarrxu ttarrxu
-52	4552	eżistenzjaliżmu	
-53	4553	dulliegħ	dulliegħa
-54	4554	deduzzjoni	
-55	4555	fjoritura	
-56	4556	sakkeġġ	sakk sakkeġġi
-57	4557	għadsa	għazza
-58	4558	sadid	
-59	4559	blast	
-60	4560	xeħħa	
-61	4561	senswali	
-62	4562	mqass	imqass imqassijiet mqassijiet
-63	4563	wikkiel	wikkelin wikkiela
-64	4564	mixta	
-65	4565	inċidentali	
-66	4566	sfigura	isfigurat jisfigura jisfiguraw sfigurat
-67	4567	tewa	mitwi titwi
-68	4568	nbela'	inbelgħet inbelgħu jinbela' nbelgħet tinbela tinbela'
-69	4569	kewn	
-70	4570	ħaġeb	ħuġbejn
-71	4571	ħabar	ħabret ħabru
-72	4572	astrologu	astrologi
-73	4573	senserija	
-74	4574	żżerżaq	iżżerżaq iżżerżqet iżżerżqu jiżżerżaq jiżżerżqu niżżerżaq tiżżerżaq żżerżqu
-75	4575	mustaċċ	mustaċċi
-76	4576	gidi	gidien gidja gidjien ġidi
-77	4577	qubbajt	
-78	4578	makakkerija	
-79	4579	nagħsa	
-80	4580	karus	karusijiet
-81	4581	żina	
-82	4582	nżabar	inżabar inżabru jinżabarx jinżabru tinżabar
-83	4583	paċenzjuż	paċenzjuża paċenzjużi
-84	4584	arrikkixxa	arrikkew arrikkiet arrikkit arrikkixxu jarrikkixxi jarrikkixxu tarrikkixxi
-85	4585	unjonista	unjonisti
-86	4586	żokra	
-87	4587	ħeqq	
-88	4588	fettaq	ifettaq jfettqu nfettqu tfettiq
-89	4589	tgħażżen	jitgħażżen jitgħażżnu nitgħażżen tgħażżinna
-90	4590	ssawwab	issawwab jissawbu jissawwab ssawbet
-91	4591	singulari	
-92	4592	lontra	lontri
-93	4593	daħkan	daħkana daħqan
-94	4594	derra	dderri idderri iderri inderri jderri
-95	4595	nagħma	nagħmiet
-96	4596	altera	alterat alteraw jaltera jalteraw taltera
-97	4597	aċiduż	aċiduża aċidużi
-98	4598	qafla	qafliet qfieli
-99	4599	riħan	
-100	4600	ddevasta	ddevastaw devastat iddevastajt iddevastat iddevastaw
+1	4501	nassa	nases nassi
+2	4502	ġarraf	imġarraf iġarraf iġarrfu iġġarraf iġġarrfu jġarraf jġarrfu mġarraf nġarrfu ġarrafna ġarrfet ġarrfu ġġarraf ġġarrafx ġġarrfu ġġarrfux
+3	4503	orjentat	orjentata orjentati
+4	4504	inizzjattiva	inizzjattivi
+5	4505	ordinazzjoni	ordinazzjonijiet
+6	4506	rutina	rutini
+7	4507	riservat	riservata riservati
+8	4508	jinġiebu	jinġieba
+9	4509	servers	
+10	4510	vokazzjonali	
+11	4511	riperkussjonijiet	
+12	4512	tberik	
+13	4513	adoloxxenti	
+14	4514	appostolat	apostolat
+15	4515	xemxi	xemxija xemxin
+16	4516	kkundannati	ikkundannati
+17	4517	stazzjonat	stazzjonata stazzjonati
+18	4518	idolu	idoli
+19	4519	emendata	emendati
+20	4520	delikat	delikati
+21	4521	ntrebħet	intrebħet
+22	4522	mibegħda	
+23	4523	sporadiċi	
+24	4524	ljunfant	iljunfant iljunfanti jljunfant ljunfanti
+25	4525	ħalef	aħlef aħlifli jaħlef maħluf maħlufa naħlef taħlef ħalfet ħalfu ħaliflek ħlift ħliftu
+26	4526	ġovanili	
+27	4527	soċjo	
+28	4528	spiritwalità	ispiritwalita ispiritwalità spiritwalita
+29	4529	privatezza	
+30	4530	ċiviku	ċivika
+31	4531	irrenda	irrendew jirrendi jirrendih jirrendihom jirrendilhom jirrendilu jirrendu jirrenduha jirrendux nirrendi nirrendu rrenda rrendew rrendewx rrendiet tirrendi tirrendih tirrendiha tirrendihiex tirrendilhom tirrendilna
+32	4532	ttollera	ittollera ittollerat jittollera jittollerahom jittolleraw jittollerawhom jittollerawx jittollerax nittollera nittolleraw tittollera tollerat ttollerat ttolleraw ttollerax
+33	4533	vetrina	vetrini
+34	4534	organizzattiv	organizzattiva organizzattivi
+35	4535	ribelljoni	ribelljonijiet
+36	4536	kurunell	kurunelli
+37	4537	jserraħ	iserraħ jserraħx
+38	4538	liċenzjat	liċenzjata liċenzjati
+39	4539	ssimbolizza	issimbolizzat jissimbolizza jissimbolizzaw simbolizzat ssimbolizzat ssimbolizzaw tissimbolizza
+40	4540	ġuf	ġufha ġufhom
+41	4541	intemma	intemmew jintemmu jintemmux ntemmejt ntemmew ntemmiet ntemmitx
+42	4542	parallel	parallela paralleli parallelu
+43	4543	safejn	
+44	4544	stipendju	istipendji istipendju stipendji
+45	4545	ċerimonjali	
+46	4546	veduti	
+47	4547	millimetru	millimetri
+48	4548	rtir	irtir irtiri rtiri
+49	4549	gradwat	gradwata gradwati
+50	4550	xiehda	
+51	4551	valutazzjoni	valutazzjonijiet
+52	4552	altru	
+53	4553	nħatret	inħatret
+54	4554	telekomunikazzjoni	telekomunikazzjonijiet
+55	4555	kabbar	kabbarha kabbarhom kabbarlha kabbarna
+56	4556	kroniku	kronika kroniki
+57	4557	skavat	skavata skavati
+58	4558	mea	
+59	4559	lapida	lapidi
+60	4560	terapija	terapiji
+61	4561	kolleġġjata	
+62	4562	ttajjar	ittajjar ittajjarha ittajjarhom ittajret ittajru jittajjar jittajru nittajjar nittajru tittajjar ttajjarha ttajjarlu ttajret ttajru
+63	4563	interu	intera interi
+64	4564	nfirxet	infirxet
+65	4565	evanġelista	evanġelisti
+66	4566	ors	orsi orsijiet
+67	4567	jixirqilhom	jixirqilhomx
+68	4568	distintiv	distintiva distintivi
+69	4569	mingħal	mingħalih mingħaliha mingħalihom mingħalija mingħalik mingħalikom mingħalina
+70	4570	fjamma	fjammi
+71	4571	kontrollat	kontrollata kontrollati
+72	4572	grafiku	grafika grafiki
+73	4573	astronomu	astronoma astronomi
+74	4574	skonta	jiskonta jiskontaw skontat skontaw tiskonta tiskontaw
+75	4575	vokabularju	vokabularji
+76	4576	fertili	
+77	4577	allaħares	
+78	4578	tgħammed	jitgħammdu jitgħammdux jitgħammed nitgħammed tgħammdet tgħammdu tgħammidna tgħammidt tgħammidx titgħammdu titgħammed
+79	4579	ħabsi	ħabsin
+80	4580	ħerba	ħereb
+81	4581	beatu	beati
+82	4582	votant	
+83	4583	notte	
+84	4584	mnaqqsa	imnaqqsa
+85	4585	kotor	joktor joktru joktrux kotrot kotru ktir oktru toktor
+86	4586	mogħoż	mogħża mogħżiet
+87	4587	bush	
+88	4588	diriġenti	
+89	4589	grammatika	grammatiki
+90	4590	rċevuta	irċevuta irċevuti rċevuti
+91	4591	murtal	murtali
+92	4592	ċirkolazzjoni	
+93	4593	għedt	għedtu għedtx
+94	4594	jiċċaqlaq	jiċċaqlaqx
+95	4595	borma	borom
+96	4596	idda	ddew iddejna iddejt iddejtu iddew iddi iddiet iddu jiddejnu jiddi jiddix jiddu niddi niddu tiddi tiddix tiddu
+97	4597	vjola	
+98	4598	andament	
+99	4599	rrafina	irfina irfinat irfinaw jirfina jirfinaw jirfinawhom nirfina nirfinaw raffinar raffinat rfina rfinajna rfinat rfinaw tirfina
+100	4600	whip	

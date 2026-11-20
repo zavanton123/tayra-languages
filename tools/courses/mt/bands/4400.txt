@@ -1,100 +1,100 @@
-1	4301	żiegħel	inżiegħel iżiegħel mżiegħel żegħilt żżiegħel
-2	4302	ġelled	iġelled jġelled nġelldu ġelldu ġġelled
-3	4303	theżżeż	theżżet titheżżeż
-4	4304	distratt	distratta distratti
-5	4305	treġija	
-6	4306	fuklar	fuklari
-7	4307	menqgħa	
-8	4308	zekzek	izekzku nzekzku zekzik
-9	4309	tislija	tislijiet
-10	4310	uniformità	
-11	4311	milgħuba	
-12	4312	bokkla	bokkli
-13	4313	mimmi	
-14	4314	semmen	imsemmen isemmen jissemmen tismin
-15	4315	tebqa	tebqiet
-16	4316	laħħam	ilaħħam ilaħħmu imlaħħam jlaħħmu laħħmet laħħmu mlaħħam tlaħħam tlaħħmu
-17	4317	ġidri	
-18	4318	bokser	boxers
-19	4319	saddad	imsaddad issaddu jsaddad jsaddux msaddad saddet ssaddad
-20	4320	xift	xiftijiet
-21	4321	bulebbiet	bulebbieta
-22	4322	għasfura	għasafar
-23	4323	ortografiku	ortografika ortografiċi
-24	4324	bankett	banketti
-25	4325	russett	irsieset rsieset russetti
-26	4326	ħaxxen	iħaxxnu jħaxxen jħaxxnu nħaxxnu tħaxxnu
-27	4327	ċentralizzazzjoni	
-28	4328	poppa	
-29	4329	ravjul	
-30	4330	siliċju	
-31	4331	dekompożizzjoni	dekompożizzjonijiet
-32	4332	eċċentriku	eċċentrika eċċentriċi
-33	4333	sunnara	snanar
-34	4334	ċejċa	ċejċiet
-35	4335	maniġġ	maniġġi
-36	4336	għorok	għerik għorokx jogħrku jogħrok jogħrokx nogħrok togħrok
-37	4337	ċaqċaq	iċaqċaq iċċaqċaq ċċaqċaq ċċaqċaqx
-38	4338	irġejjen	
-39	4339	plattina	plattini
-40	4340	okkażjonali	
-41	4341	astinenza	
-42	4342	tardiv	tardiva tardivi
-43	4343	dewwa	ddewwi iddewwi idewwi imdewwi jdewwi jdewwu
-44	4344	soċjevoli	
-45	4345	fard	
-46	4346	ħosbien	ħosbiena
-47	4347	tnalja	tnalji
-48	4348	ferraq	iferraq iferrqu jferrqu tferraq tferrqu tifriq
-49	4349	warrani	
-50	4350	miel	jmil jmilu jmilx milt tmil
-51	4351	ħoki	
-52	4352	ttiefes	mittiefes tittiefes ttiefset
-53	4353	sangisug	sangisugi
-54	4354	damm	dammet dammitx ddomm idomm indomm jdomm
-55	4355	rrileva	irrilevat jirrileva jirrilevaw rilevat rrilevat tirrileva
-56	4356	tpaċpiċ	
-57	4357	benġel	ibenġel imbenġel jbenġel jbenġlu mbenġel tbenġel
-58	4358	arseniku	
-59	4359	bbies	ibbies ibbieset ibbiesu jibbies jibbiesu tibbies
-60	4360	noli	
-61	4361	żeffen	iżeffnu iżżeffen jżeffen jżeffnu żeffintx żeffnu
-62	4362	fixel	jifxel mifxul
-63	4363	tbażwir	
-64	4364	entużjażma	entużjażmat entużjażmaw jentużjażma nentużjażma
-65	4365	poni	ponijiet ponis
-66	4366	wilġa	wileġ
-67	4367	falkun	falkuni
-68	4368	emarġina	emarġinat emarġinaw nemarġinaw temarġina
-69	4369	raqqa'	jraqqa jraqqa' raqqa traqqa' traqqigħ
-70	4370	nitroġenu	
-71	4371	simbolikament	
-72	4372	femminil	
-73	4373	ċoff	ċfuf
-74	4374	irrilevanti	
-75	4375	bdiel	bdielha bdielhom bdieli bdielu
-76	4376	maqbad	imqabad mqabad
-77	4377	żblokka	jiżblokka niżblokkaw
-78	4378	għallaq	għallqu mgħallaq
-79	4379	papoċċ	papoċċa
-80	4380	tarrax	itarrax ittarrax jtarrax tarrxu ttarrxu
-81	4381	ġellewż	ġellewża
-82	4382	abitabbli	
-83	4383	ġigġifogu	ġiġġifogu
-84	4384	ċikliku	ċiklika ċikliċi
-85	4385	antropoloġiku	antropoloġika antropoloġiċi
-86	4386	nkejja	inkejja
-87	4387	tixbiha	tixbihat
-88	4388	rtab	irtabet irtabu jirtab jirtabu rtabx tirtab
-89	4389	maqrut	imqaret mqaret
-90	4390	skuna	iskuna skejjen
-91	4391	jassar	ijassar imjassar mjassar tjassar tjassartu
-92	4392	zunnarija	
-93	4393	perreċ	imperreċ iperreċ iperrċu jperreċ jperrċu mperreċ nperreċ tperreċ tperrċu
-94	4394	għammieq	
-95	4395	daqna	
-96	4396	ddifferixxa	ddifferiet differit jiddifferixxi tiddifferixxi
-97	4397	potenti	
-98	4398	deliberazzjoni	deliberazzjonijiet
-99	4399	sfilata	isfilata isfilati sfilati
-100	4400	ċingjal	ċingjali
+1	4301	irraporta	irraportat irraportaw irraportawha jirraporta jirraportaw nirraporta rraporta rraportat rraportaw tirraporta
+2	4302	ipproċessar	pproċessar
+3	4303	zija	zijiet zijiethom zijih zijitha zitu
+4	4304	attribwixxa	attribwejt attribwejtu attribwejtx attribwew attribwiet attribwit attribwixxiet attribwixxiha attribwixxu jattribwixxi jattribwixxu jattribwixxuha nattribwixxu tattribwixxi tattribwixxih
+5	4305	korrispondent	korrispondenta korrispondenti
+6	4306	ipproċeda	ipproċedew ipproċediet jipproċedi jipproċedu jipproċedux nipproċedu pproċeda pproċedew pproċediet tipproċedi tipproċedix
+7	4307	immaġini	
+8	4308	priġunerija	
+9	4309	legat	legata legati
+10	4310	papiet	
+11	4311	leġislattiv	leġislattiva leġislattivi
+12	4312	modifika	modifiki
+13	4313	dgħufija	dgħjufija dgħufitu
+14	4314	ħaqar	jaħqar jaħqarhom jaħqarni jaħqru jaħqruh maħqur maħqura maħqurin moħqrija naħqru naħqruhom taħqar ħaqarhom ħaqret ħaqritek ħaqru ħaqruh
+15	4315	diploma	diplomi
+16	4316	armla	
+17	4317	pulit	plet pulita puliti
+18	4318	tebut	twiebet
+19	4319	ribelli	ribellijiet
+20	4320	aċċessa	aċċessat aċċessaw jaċċessa jaċċessah jaċċessaha jaċċessahom jaċċessaw jaċċessawha jaċċessawhom jaċċessawlu taċċessa taċċessaha
+21	4321	ffrekwenta	ffrekwentat frekwentat iffrekwentat iffrekwentaw jiffrekwenta jiffrekwentah jiffrekwentaw jiffrekwentawha jiffrekwentawhom niffrekwenta tiffrekwenta tiffrekwentaha
+22	4322	astjena	astjenejt astjenew astjeniet jastjeni jastjenu nastjenu tastjeni
+23	4323	intrama	intramat intramaw jintrama jintramaw ntrama ntramat ntramatx tintrama
+24	4324	bumbardament	bombardament bombardamenti bumbardamenti
+25	4325	kom	koma komik
+26	4326	amministrata	amministrati amministratii amministratti
+27	4327	itnieda	jitnieda jitniedu titnieda tnieda tniediet
+28	4328	suċċessjoni	suċċessjonijiet
+29	4329	pillola	pilloli
+30	4330	kartolina	kartolini
+31	4331	ippreserva	ippreservaw jippreserva jippreservah jippreservaha jippreservahom jippreservaw jippreservawhom nippreservaw nippreservawhom ppreserva ppreservaw tippreserva tippreservaha
+32	4332	terrestri	
+33	4333	dderieġa	dderieġiet dderiġiet ddirieġa idderieġa idderiġiet idderiġietu iddirieġa jidderieġi jidderieġu jiddirieġi jiddirieġu jiddirieġuh nidderieġi nidderieġu niddirieġi tidderieġi tiddirieġi
+34	4334	muniċipali	
+35	4335	ġerarkija	ġerarkiji
+36	4336	tqajjem	
+37	4337	kostrett	kostretta kostretti
+38	4338	miżerja	miżerji
+39	4339	ssalva	issalva issalvana issalvaw jissalva jissalvaw ssalvah ssalvahom ssalvalek ssalvana ssalvaniex ssalvaw ssalvax tissalva
+40	4340	jinħareġ	
+41	4341	insult	insulti nsult nsulti
+42	4342	unifikazzjoni	
+43	4343	folklor	
+44	4344	fargħun	faragħun faragħuni fargħuni
+45	4345	bagħad	bagħdu jobgħod jobgħodhom jobgħodna jobgħodok jobgħodu jobogħdu jobogħduha jobogħdukom jobogħduni nobgħod nobgħodhom nobgħodok nobgħodu nobogħdu obogħdu tobgħod tobgħodha tobgħodhom tobgħodu tobogħdu
+46	4346	lift	liftijiet lifts
+47	4347	rxoxta	irxoxt irxoxta irxoxtar irxoxtat irxoxtaw jirxoxta jirxoxtaw nirxoxta rxoxt rxoxtat tirxoxta
+48	4348	lussuż	lussuża lussużi
+49	4349	sfaxxa	isfaxxar jisfaxxa jisfaxxaw nisfaxxaw sfaxxajna sfaxxalhom sfaxxat sfaxxaw tisfaxxa
+50	4350	eremita	eremiti
+51	4351	riedni	
+52	4352	ċomb	
+53	4353	dijametru	dijametri
+54	4354	ntlaqtet	intlaqtet ntlaqtetx
+55	4355	belti	beltija beltin
+56	4356	għatba	għatbiet għetiebi
+57	4357	pejjep	inpejjep ipejjep ipejjipha ipejpu jpejjep jpejpu jpejpux npejjep pejjipna pejjipt tpejjep tpejjipx
+58	4358	assenjata	assenjati
+59	4359	lebsin	
+60	4360	produttiv	produttiva produttivi
+61	4361	perfezzjoni	perfezzjonijiet
+62	4362	ċellula	ċelluli
+63	4363	rikreazzjoni	
+64	4364	miżata	miżati miżatii
+65	4365	elenkati	
+66	4366	installazzjoni	installazzjonijiet
+67	4367	proża	
+68	4368	dritta	
+69	4369	studjata	studjati
+70	4370	senatur	senaturi
+71	4371	sikur	sikura sikuri
+72	4372	ħama	irħama irħamat irħamiet rħama rħamat ħami ħamilha
+73	4373	temporanjament	
+74	4374	kawt	kawta kawti
+75	4375	inkarigu	nkarigu
+76	4376	roża	
+77	4377	apokalissi	
+78	4378	dieher	dehritx dehrux
+79	4379	kameras	
+80	4380	taqbida	taqbidiet
+81	4381	fundat	fundata
+82	4382	ġustifikazzjoni	ġustifikazzjonijiet
+83	4383	ntebaħ	intebaħ ntebaħx
+84	4384	ġellied	ġellieda
+85	4385	ħasseb	imħasseb iħassbu iħassbux iħasseb iħassibna iħassibni jħassbu jħassbuk jħassbuna jħasseb jħassibna jħassibni mħasseb tħassbu ħassbet ħassbu
+86	4386	prospett	prospetti
+87	4387	predikatur	predikaturi
+88	4388	kotra	kotrana
+89	4389	nixxiegħa	nixxigħat
+90	4390	mergħa	imriegħi mergħat
+91	4391	endemiċi	
+92	4392	welfare	
+93	4393	ingħadda	ingħaddew ingħaddiet jingħadda jingħaddu jingħaddux ngħadda ngħaddew ngħaddewlu ngħaddieh ngħaddiet ningħaddu tingħadda
+94	4394	nkurunat	inkurunat inkurunata inkurunati nkurunati
+95	4395	attakkata	attakkati
+96	4396	assenza	assenzi
+97	4397	tinfirex	
+98	4398	bidni	bidnija
+99	4399	xini	xwieni
+100	4400	portafoll	portafolli

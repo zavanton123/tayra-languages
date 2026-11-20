@@ -1,100 +1,100 @@
-1	2001	staħa	istħu jistħi jistħix jistħu jistħux mistħi nistħi nistħix nistħu nistħux stħajt stħaw tistħi tistħix tistħu tistħux
-2	2002	xebh	xebħ
-3	2003	abbati	abbatijiet abbatin abbatini
-4	2004	fired	firdet firdu firidx frid fridna ifred jifred mifrud nifred tifred
-5	2005	umli	
-6	2006	bankina	
-7	2007	te	tejiet
-8	2008	ħerqan	ħerqana ħerqanin
-9	2009	filosofiku	filosofika filosofiċi
-10	2010	kmandant	kmandanta kmandanti
-11	2011	islam	iżlam
-12	2012	espansjoni	espansjonijiet
-13	2013	awtonomija	
-14	2014	merħba	
-15	2015	prietka	priedka prietki
-16	2016	xifer	ixfar xfar xfarijiet
-17	2017	kaxkar	ikaxkar ikaxkru imkaxkar inkaxkru jkaxkar jkaxkarx jkaxkru jkaxkrux kaxkarna kaxkret kaxkru mkaxkar nkaxkar nkaxkru tkaxkar tkaxkir tkaxkru
-18	2018	ħallieq	ħallieqa
-19	2019	jedd	jeddijiet
-20	2020	qosor	
-21	2021	għereq	għarqien għeriqna għeriqniex għeriqt għeriqx għerqet għerqu għerqux jegħreq jegħriqx jegħrqu jegħrqux negħreq negħrqu tegħreq tegħrqu
-22	2022	għarb	
-23	2023	oġġezzjoni	obbjezzjoni objezzjoni oġġezzjonijiet
-24	2024	umiltà	
-25	2025	tranżizzjoni	tranżizzjonijiet
-26	2026	suwiċidju	suwiċidji
-27	2027	bies	bews bieset biesu biesx bisien bist bistu bus ibus ibusu inbus jbus jbusu nbus nbusu tbus tbusu
-28	2028	ambizzjoni	ambizzjonijiet
-29	2029	xkiel	ixkiel xkilijiet
-30	2030	pinna	pinen
-31	2031	qalil	qalila
-32	2032	priorità	prioritajiet
-33	2033	ġa	
-34	2034	tisbiħ	
-35	2035	żarbun	żarbuna żraben
-36	2036	baħħar	baħħara baħħarx baħħret baħħru ibaħħar ibaħħru jbaħħar jbaħħarx jbaħħru nbaħħru tbaħħar
-37	2037	drapp	drappijiet
-38	2038	omiċidju	omiċidji
-39	2039	faqqas	faqqset faqqsu ifaqqas ifaqqsu jfaqqas jfaqqsu jfaqqsux tfaqqas tfaqqis tifqis
-40	2040	riċetta	riċetti
-41	2041	plakka	plakek plakki
-42	2042	umanitarju	umanitarja umanitarji
-43	2043	ssepara	issepara isseparat isseparaw jissepara jisseparaw jisseparawx nissepara nisseparaw sseparat sseparaw tissepara
-44	2044	nkiser	inkiser inkisret inkisru inkisrux jinkiser jinkisirx jinkisru jinkisrux nkisret nkisru nkisrux tinkiser tinkisirx
-45	2045	għarraf	għarrafna għarrafniex għarraft għarraftu għarrfet għarrfu għarrfux jgħarraf jgħarrfu ngħarraf ngħarrfu tgħarraf
-46	2046	kewkba	kwiekeb
-47	2047	ċiklu	ċikli
-48	2048	ntesa	intesa intesew intesiet intnesew intnesiet jintesa jintesew jintesewx jintesiex jintnesew jintnesewx nintesa nintesew ntesew ntesewx ntesiet ntesietx ntesiex ntnesa tintesa tintesiex
-49	2049	basar	basarx basret basru basrux bsarna bsarniex bsart bsartx jobsor jobsru jobsrux nobsor nobsorx nobsru ntbasar obsor tobsor tobsorx tobsru tobsrux
-50	2050	sfera	isfera isferi sferi
-51	2051	farfett	friefet
-52	2052	spiżerija	ispiżerija ispiżeriji spiżeriji
-53	2053	perċezzjoni	perċezzjonijiet
-54	2054	mistħija	
-55	2055	traċċa	traċċi
-56	2056	dimostrant	dimostranti
-57	2057	rvell	irvell irvellijiet rvellijiet
-58	2058	gravità	
-59	2059	esaġerat	esaġerata esaġerati
-60	2060	xaħħam	ixaħħam ixaħħmu jxaħħam jxaħħmu mxaħħam tixħim xaħħmu xxaħħamx xxaħħmu
-61	2061	awtomatiku	awtomatika awtomatiċi
-62	2062	ħall	inħall inħoll inħollu iħoll iħollu jħoll jħollu jħollx maħlul nħall nħoll nħollu tħoll tħollu ħallejna ħallejniex ħallejt ħallejtu ħallejtx ħallew ħallewx ħallitx ħoll
-63	2063	sahra	sahriet shari
-64	2064	islamiku	islamika islamiċi iżlamiku
-65	2065	awtorizza	awtorizzajtx awtorizzat awtorizzaw awtorizzax jawtorizza jawtorizzaw nawtorizza tawtorizza tawtorizzax
-66	2066	militar	
-67	2067	wiżen	iżen iżnu jiżen jiżnu niżen niżnu ntiżen tiżen tiżnu wiżinna wiżnu
-68	2068	aggressur	aggressuri
-69	2069	xaqq	ixoqq ixquq ixxoqq jxoqq mixquq xoqq xquq xxoqq
-70	2070	sebbaħ	imsebbaħ insebbaħ insebbħu isebbaħ isebbħu issebbaħ issebbħu jsebbaħ jsebbħu msebbaħ nsebbaħ nsebbħu sebbaħna sebbaħt sebbħet sebbħu ssebbaħ ssebbħu
-71	2071	nazzjonalità	nazzjonalitajiet
-72	2072	laqqam	ilaqqmu imlaqqam jlaqqam jlaqqmu laqqamt laqqmet laqqmu mlaqqam nlaqqmu tlaqqam tlaqqmu
-73	2073	għali	għalja għaljin ogħla
-74	2074	finanzjarjament	
-75	2075	tafal	
-76	2076	għannej	għannejja
-77	2077	sliem	
-78	2078	vverifika	ivverifika ivverifikar ivverifikat jivverifika jivverifikaw jivverifikawx nivverifika nivverifikaw tivverifika verifikar verifikat vverifikajna vverifikajt vverifikat vverifikaw
-79	2079	mislem	misilma misilmin
-80	2080	kitarra	kitarri
-81	2081	ppospona	ippospona ipposponejna ipposponew jipposponi jipposponu nipposponi nipposponu pospost pposponew pposponiet tipposponi
-82	2082	kejjel	ikejjel ikejlu imkejjel inkejlu jkejjel jkejlu kejjilna kejjiltu kejlu mkejjel nkejlu tkejjel tkejjilx tkejlu
-83	2083	ħnejja	ħnejjiet
-84	2084	fanal	fanali
-85	2085	soċju	soċja soċji
-86	2086	gerger	gergirt gergirtx gergret gergru igerger igergru ingerger ingergru jgerger jgergru jgergrux ngerger ngergirx ngergru tgerger tgergir tgergirx
-87	2087	nanniet	
-88	2088	ġudikatura	
-89	2089	ambizzjuż	ambizzjuża ambizzjużi
-90	2090	ugwali	
-91	2091	sura	suriet
-92	2092	storbju	istorbju
-93	2093	ram	
-94	2094	boll	bolol
-95	2095	grixti	
-96	2096	ġirja	ġirjiet
-97	2097	lingwaġġ	lingwaġġi
-98	2098	lanċa	laneċ
-99	2099	elevazzjoni	elevazzjonijiet
-100	2100	qroll	
+1	2001	distint	distinta distinti
+2	2002	estern	esterna esterni
+3	2003	atmosfera	atmosferi
+4	2004	biljett	biljetti
+5	2005	tressaq	tressaqha tressaqhom tressaqna tressaqx
+6	2006	strett	istrett istretti stretta stretti
+7	2007	kuntrarju	kuntrarja kuntrarji
+8	2008	pilota	piloti
+9	2009	riflessjoni	riflessjonijiet
+10	2010	pussess	pussessi
+11	2011	inġabra	jinġabru jinġabrux ninġabru tinġabru
+12	2012	avversarju	avversarja avversarji
+13	2013	pajsaġġ	pajsaġġi
+14	2014	profeta	profeti
+15	2015	oriġina	joriġina joriġinaw joriġinawx joriġinax oriġinat oriġinatx oriġinaw oriġinawx oriġinax toriġina
+16	2016	seminarju	seminarji
+17	2017	solva	insolvi insolviha insolvu insolvuha insolvuhom insolvulhom isolvi isolviha isolvu isolvuhom isolvux issolvi issolvu jsolvi jsolviha jsolvilek jsolvilhom jsolvilna jsolvu jsolvuhom jsolvux jssolvi nsolvi nsolvu nsolvuha nsolvuhom nsolvuhomx solvejna solvejnieha solvejniex solvejt solvejtilhom solvew solvieli solviet solvietx solviex solvut ssolvi ssolvix
+18	2018	mużiċist	mużiċista mużiċisti
+19	2019	interpretazzjoni	interpretazzjonijiet nterpretazzjoni
+20	2020	ħarsa	ħarsiet ħarsitha ħarsithom ħarsitna ħarstek ħarsti ħarstu ħarstuk
+21	2021	midalja	midalji
+22	2022	veloċità	veloċita veloċitajiet
+23	2023	ħajjar	imħajjar inħajjar inħajru inħajruh inħajrukom iħajjar iħajjarhom iħajjarna iħajjarni iħajru iħajruh iħajruha iħajruk iħajruni jħajjar jħajjarhom jħajru jħajruk jħajruna mħajjar nħajjar nħajru tħajjar tħajjarhom tħajjarna tħajjarni tħajjarx tħajru ħajjarha ħajjarhom ħajjarna ħajjarni ħajjart ħajjartu ħajret ħajritni ħajru ħajruh ħajruni
+24	2024	ċċelebrata	iċċelebrata iċċelebrati ċċelebrati
+25	2025	skandlu	iskandli iskandlu skandli
+26	2026	informa	informah informahom informajt informani informat informaw jinforma jinformahom jinformana jinformaw jinformawna nforma nformaw ninforma ninformaw tinforma tinformah tinformahom
+27	2027	kkonvinċa	ikkonvinċa ikkonvinċejna ikkonvinċejt ikkonvinċejtha ikkonvinċejtu ikkonvinċew ikkonvinċewni ikkonvinċi ikkonvinċieh ikkonvinċieni ikkonvinċiet ikkonvinċiex ikkonvinċih ikkonvinċihom ikkonvinċini ikkonvinċitni jikkonvinċi jikkonvinċih jikkonvinċiha jikkonvinċihom jikkonvinċik jikkonvinċix jikkonvinċu jikkonvinċuh jikkonvinċuhom kkonvinċew kkonvinċiet kkonvinċietx kkonvinċihom kkonvinċini nikkonvinċi nikkonvinċih nikkonvinċihom nikkonvinċu tikkonvinċi tikkonvinċih tikkonvinċihom tikkonvinċihomx tikkonvinċix
+28	2028	limiti	
+29	2029	ċertament	ċertamenti
+30	2030	favorit	favorita favoriti
+31	2031	but	butek butha buthom buti butna butu bwiet bwiethom bwietu ibwiet
+32	2032	eċċ	
+33	2033	naqra	naqa naqrah naqraha naqrahom naqrahomx naqriet
+34	2034	mistrieħ	mistrieħa
+35	2035	intwera	intwerew intweriet jintwera jintweriex ntwera ntwerew ntwerewx ntweriet ntwerietx ntweriex tintwera tintweriex
+36	2036	trasferit	ittrasferita ittrasferiti trasferita trasferiti ttrasferita ttrasferiti
+37	2037	marittimu	marittima marittimi
+38	2038	online	
+39	2039	kkunsidrata	ikkunsidrata ikkunsidrati kkunsidrati
+40	2040	vers	ivrus versi versu vrus vrusek vrusu
+41	2041	fixkel	fixkilha fixkilna fixklet fixklu fixkluh fixklux ifixkel ifixkilkom ifixklu ifixkluh ifixkluhom ifixkluna ifixkluni imfixkel infixklu jfixkel jfixkilha jfixkilhom jfixkilhomx jfixkilkom jfixkilna jfixkilni jfixkilx jfixklu jfixkluh jfixkluhom jfixklulu jfixkluna jfixklux jtfixkel mfixkel nfixklu nfixklux tfixkel tfixkil tfixkilhom tfixkilna tfixkilx tfixklu
+42	2042	konnessjoni	konnessjonijiet
+43	2043	nġabru	inġabru nġabrux
+44	2044	promoss	promossa promossi
+45	2045	testment	testmenti
+46	2046	għonq	għenuq għonqha għonqhom għonqi għonqna għonqok għonqu
+47	2047	diġitali	
+48	2048	reġistrazzjoni	reġistrazzjonijiet
+49	2049	inqala	inqalax jinqala jinqalaw jinqalawx jinqalax jinqalu ninqala nqala nqalalu nqalat nqalaw nqalax tinqala tinqalax
+50	2050	beraħ	
+51	2051	rifuġjat	refuġjat refuġjati rifuġjata rifuġjati
+52	2052	rrisponda	irrispondejt irrispondejtek irrispondejtha irrispondew irrispondi irrispondiet irrispondu jirrispondi jirrispondih jirrispondini jirrispondix jirrispondu jirrisponduni jirrispondux nirrispondi nirrispondih nirrispondu nirrisponduha nirrisponduhom rrispondejtx rrispondew rrispondewhom rrispondewni rrispondewx rrispondieh rrispondiet rrispondietu rrispondiex rrispondihx rrisponditx tirrispondi tirrispondih tirrispondiha tirrispondini tirrispondix tirrispondu
+53	2053	leġġenda	leġġendi
+54	2054	ipprattika	ipprattikaha ipprattikat ipprattikaw jipprattika jipprattikah jipprattikaha jipprattikaw jipprattikawha jipprattikawhom jipprattikawx jipprattikax nipprattika nipprattikah nipprattikaw nipprattikawha pprattika pprattikat pprattikaw pprattikawx tipprattika tipprattikah tipprattikaha tipprattikax
+55	2055	kontroversja	kontroversji
+56	2056	mġiba	imġiba imġibiet imġibitna imġibthom imġibtu mġibiet mġibithom mġibitna
+57	2057	attitudni	attitudnijiet
+58	2058	dahar	daharek daharha daharhom dahari daharna daharu dahrek dahri dahru jidhra jidhrilha jidhrilhom jidhrilhomx jidhrilkom jidhrilkomx jidhrilu jidhrix tidhra
+59	2059	ppreżentata	ippreżentata ippreżentati ppreżentati
+60	2060	konkors	konkorsi
+61	2061	tħarreġ	jitħarreġ jitħarrġu nitħarreġ nitħarrġu nitħarrġux titħarreġ tħarriġhom tħarriġna tħarriġni tħarriġt tħarrġet tħarrġu
+62	2062	ġġenera	iġġenera iġġenerat iġġeneraw jiġġenera jiġġeneraw niġġeneraw tiġġenera tiġġenerah tiġġeneraw tiġġenerax ġenerat ġġenerajt ġġenerat ġġeneraw
+63	2063	nbeda	inbdew inbdiet inbeda jinbdew jinbeda nbdew nbdiet nbdietx nbediex tinbeda
+64	2064	implimenta	implimentajna implimentat implimentaw implimentax jimplimenta jimplimentah jimplimentaha jimplimentahom jimplimentahx jimplimentaw jimplimentax mplimenta mplimentajna mplimentat nimplimentaw nimplimentawha nimplimentawhom timplimenta timplimentah timplimentahom
+65	2065	adotta	adottah adottajna adottajt adottaw adottawha adottawhom adottawx adottax jadotta jadottaha jadottaw jadottawha jadottawhom jadottawx nadottaw nadottawhom tadotta tadottaha
+66	2066	kontribuzzjoni	kontribuzzjonijiet
+67	2067	riżerva	riżervi
+68	2068	segwita	segwiti
+69	2069	impjega	impjegah impjegajna impjegata impjegaw jimpjega jimpjegah jimpjegahom jimpjegaw jimpjegawha jimpjegawhom jimpjegawlu jimpjegawx mpjega mpjegah mpjegat mpjegata nimpjegaw nimpjegawhom timpjega timpjegah timpjegaha timpjegahom timpjegax
+70	2070	sess	sessi sessihom
+71	2071	oppona	jopponi jopponix jopponu jopponuh jopponuhom nopponix nopponu nopponuh nopponuhom opponejna opponew opponewha opponewhom opponi opponiet opponietha opponiex oppost topponi topponix
+72	2072	sajjied	sajjieda
+73	2073	eżistenza	eżistenzi
+74	2074	mekkaniżmu	mekkaniżmi
+75	2075	weħel	jeħel jeħilha jeħilx jeħlu jeħlux neħel neħlu teħel teħilhom teħillu teħilx weħilna weħilt weħilthom weħiltx weħlet weħlu
+76	2076	qoxra	qoxriet qoxritha qoxrithom qoxritna qxejra qxur
+77	2077	inawgura	inawgurahom inawgurajt inawgurat inawguraw jinawgura jinawgurah jinawguraw ninawgura ninawgurah ninawguraw tinawgura
+78	2078	ddejjaq	ddejjaqna ddejjaqni ddejjaqnix ddejjaqt ddejjaqtx ddejjaqx ddejqet ddejqitx ddejqu ddejqux iddejjaq iddejjaqha iddejjaqna iddejjaqni iddejjaqt iddejjaqx iddejqet iddejqu jiddejjaq jiddejjaqx jiddejqu jiddejqux niddejjaq niddejjaqhom niddejjaqx niddejqu niddejqux tiddejjaq tiddejjaqx tiddejqu tiddejqux
+79	2079	kumpilazzjoni	kumpilazzjonijiet
+80	2080	arkitett	arkitetti
+81	2081	verġni	verġnijiet
+82	2082	għorab	għarab
+83	2083	attakkant	attakkanta attakkanti
+84	2084	skava	iskavi skavajna skavi
+85	2085	terremot	terremoti
+86	2086	tifkira	
+87	2087	xlokk	
+88	2088	skala	iskala iskali jiskala jiskalaw skalat skalaw skali tiskala
+89	2089	mertu	merti
+90	2090	komdu	komdi
+91	2091	kwiet	kwieta kwieti
+92	2092	patt	pattijiet
+93	2093	moskea	moskei moskej moskeji
+94	2094	umanità	umanita umanitajiet
+95	2095	perfett	perfetta perfetti
+96	2096	aġenda	aġendi
+97	2097	aġġornament	aġġornamenti
+98	2098	traġedja	traġedji
+99	2099	finanzjament	finanzjamenti
+100	2100	konsiderevoli	

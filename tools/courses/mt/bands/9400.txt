@@ -1,0 +1,100 @@
+1	9301	ikkonstata	ikkonstatat jikkonstataw kkonstata kkonstatat nikkonstata nikkonstatah tikkonstata
+2	9302	palju	palji paljijiet
+3	9303	għalieni	għalenija għalenin
+4	9304	fjamingu	fjamingi flamingo
+5	9305	inba	inbiet nbew nbiet tinbix
+6	9306	fotokopja	fotokopji
+7	9307	bużullotta	bużullotti
+8	9308	bronkite	
+9	9309	isgassa	jisgassaw nisgassaw sgassa sgassat
+10	9310	distrazzjoni	distrazzjonijiet
+11	9311	intelqa	jintelqu nintelqu nintelqux
+12	9312	sawwra	insawwru isawwru isawwruha jsawwru nsawwru
+13	9313	irxuxta	irxuxtajtu irxuxtatu jirxuxtaw jirxuxtawha nirxuxtaw rxuxtajt rxuxtat rxuxtaw
+14	9314	armarju	armarji
+15	9315	żingu	
+16	9316	ferragħ	ferrgħu iferrgħu jferrgħu tferrgħu tifrigħ
+17	9317	perżut	perżuta prieżet
+18	9318	xbin	xbinha xbinhom xbinkom xbinu
+19	9319	inżera	jinżera nżera tinżera
+20	9320	tmaqdir	
+21	9321	twiddeb	jitwiddeb twiddbu twiddibhom twiddibna twiddibt
+22	9322	ipperfezzjona	jipperfezzjona jipperfezzjoni nipperfezzjona nipperfezzjonaw pperfezzjona pperfezzjonat pperfezzjonaw tipperfezzjona
+23	9323	benġel	ibenġel imbenġel jbenġel jbenġilha jbenġlu mbenġel tbenġel
+24	9324	itħeġġa	jitħeġġu nitħeġġu tħeġġew
+25	9325	lagħaq	jilagħqu jilgħaq jilgħaqha jilgħaqu lagħqet nilagħqu nilgħaq tilgħaq tilgħaqu
+26	9326	evapora	evaporat jevapora jevaporaw jevaporax tevapora
+27	9327	ipprevala	jipprevali jipprevalu pprevala pprevalew tipprevali
+28	9328	rvella	irvella irvellat irvellaw jirvella jirvellaw rvellat rvellaw tirvella
+29	9329	rmonk	irmonk
+30	9330	morr	morra morri
+31	9331	raġġiera	raġġieri
+32	9332	pessimiżmu	
+33	9333	soċjalizzazzjoni	
+34	9334	rkotta	irkotta
+35	9335	elmu	elmi elmijiet
+36	9336	kaħlani	kaħlanija
+37	9337	ipposjeda	jipposjedi jipposjedu tipposjedi
+38	9338	inagħta	inagħtalha inagħtalu inagħtat inagħtaw jinagħta jinagħtaw tinagħta tinagħtalek
+39	9339	darsa	dras
+40	9340	parta	inparti inpartu ipartu jpartu jpartuhom partu
+41	9341	naxar	inxir jonxor jonxru jonxruhom minxur minxura minxurin nonxru tonxor tonxorha
+42	9342	sorm	sormha sormhom sormna sormok sormu sram
+43	9343	seħet	jisħet jisħetilhom jisħetx jisħtu jisħtuna nisħtux tisħet tisħetx
+44	9344	issostanzja	jissostanzja jissostanzjaha jissostanzjahom jissostanzjaw tissostanzja
+45	9345	wiled	jildu tildu tiled wildet wilditha wilditlu
+46	9346	ippuża	ippużajt ippużat jippużaw jippużawlek jippużawlu ppużat ppużaw
+47	9347	ssemplifika	issemplifika jissemplifika jissemplifikaw jissemplifikawhom nissemplifikaw semplifikat ssemplifikaw
+48	9348	ssimboleġġa	jissimboleġġa jissimboleġġaw tissimboleġġa
+49	9349	irrepreżenta	jirrepreżentaw rrepreżentat tirrepreżenta
+50	9350	arkivista	
+51	9351	stallett	istallett istalletti stalletti
+52	9352	ddisprezza	disprezzat jiddisprezza jiddisprezzah jiddisprezzaw jiddisprezzawha tiddisprezzax
+53	9353	ikkonfonda	ikkonfondejt ikkonfonditni jikkonfondi jikkonfondini jikkonfondu kkonfonda kkonfondiet nikkonfondi nikkonfondix tikkonfondi tikkonfondini tikkonfondix
+54	9354	għuda	għawwied
+55	9355	ikkonfoffa	ikkonfoffaw jikkonfoffa jikkonfoffaw kkonfoffa kkonfoffat kkonfoffaw
+56	9356	metriku	metriċi
+57	9357	erga	ergajna ergajt jergux nergaw
+58	9358	ħuxlief	
+59	9359	instama	instamat jinstama ninstama nstama tinstama
+60	9360	hairdresser	hairdressers
+61	9361	sottomarini	
+62	9362	għaġen	agħġen għaġnet għaġnu għaġnuh jagħġen jagħġnu jagħġnuha nagħġen tagħġen
+63	9363	imbarra	imbarrat jimbarraw mbarra mbarrat mbarraw
+64	9364	kemxa	
+65	9365	ikkompila	ikkompilahom ikkompilaw jikkompila jikkompilaw kkompila kkompilat kkompilaw
+66	9366	asserixxa	jasserixxi jasserixxu nasserixxu tasserixxi tasserixxu
+67	9367	illostra	illostrat jillostra jillostraw llostrat tillostrax
+68	9368	ugwalment	
+69	9369	lewa	jilwi jilwu lewini liwi lwi milwija milwijin tilwi tilwina tilwix
+70	9370	impotenza	
+71	9371	stikka	istikek istikka stikek
+72	9372	dijagramma	dijagrammi
+73	9373	ippassiġġa	jippassiġġa jippassiġġaw nippassiġġa nippassiġġaw tippassiġġa
+74	9374	ċuċata	ċuċati
+75	9375	ssimpatizza	issimpatizza jissimpatizza jissimpatizzaw jissimpatizzax nissimpatizza tissimpatizza
+76	9376	sawwab	imsawwab insawwab isawbu isawwab jsawwab msawwab nsawbu nsawwab nsawwabx sawwabt
+77	9377	ħammar	jħammar jħammru jħammrulna nħammar ħammru
+78	9378	istorda	jistordi jistordu jistorduk nistordi nistordu storda tistordi tistordih
+79	9379	zalzett	zalzetta
+80	9380	tastiera	tastieri
+81	9381	orribbli	
+82	9382	barkun	barkuni
+83	9383	venven	ivenven jvenven jvenvnu tvenven tvenvin venvinha
+84	9384	sidt	sidtha
+85	9385	ikkundana	ikkundanat kkundana kkundanat kkundanatu nikkundanaw tikkundana
+86	9386	referi	
+87	9387	benna	
+88	9388	xiber	ixbar
+89	9389	likwidazzjoni	likwidazzjonijiet
+90	9390	daqqaq	
+91	9391	mantar	imnatar
+92	9392	allinjament	allinjamenti
+93	9393	reliġjożità	reliġjożita
+94	9394	nagħas	jongħos nagħsu nongħos tongħos
+95	9395	iżmarka	jiżmarka żmarka żmarkat
+96	9396	ċirkonċiżjoni	
+97	9397	sismiku	sismika sismiċi
+98	9398	qalgħa	qalgħat qlejgħa
+99	9399	libien	liban lubien
+100	9400	issusspetta	issusspettat issusspettaw jissusspetta jissusspettawx nissusspetta nissusspettaw ssusspetta ssusspettaw

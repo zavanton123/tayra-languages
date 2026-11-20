@@ -1,100 +1,100 @@
-1	6001	inappellabbli	
-2	6002	ħarb	
-3	6003	għasida	
-4	6004	aġġastja	aġġusta
-5	6005	wirk	uriek
-6	6006	ineżatt	ineżatta
-7	6007	vanadju	
-8	6008	litem	
-9	6009	ħeddel	jħeddlu
-10	6010	żloga	jiżloga
-11	6011	nitten	tnitten
-12	6012	derogazzjoni	derogazzjonijiet
-13	6013	nvella	jinvella
-14	6014	broxk	
-15	6015	żżagħbel	żagħbil
-16	6016	tebaħ	
-17	6017	debbolizza	debbolizzi
-18	6018	awmenta	jawmenta
-19	6019	minħar	manħar
-20	6020	ħeja	jaħju
-21	6021	bkir	
-22	6022	naħar	jonħor
-23	6023	differentement	
-24	6024	qaraboċċ	qaraboċċa
-25	6025	kwadrett	kwadretti
-26	6026	inumanità	
-27	6027	irkupptejn	
-28	6028	ġennien	
-29	6029	addiju	addijo
-30	6030	twerreċ	
-31	6031	tagħdib	
-32	6032	paċpaċi	paċpaċa
-33	6033	żernaq	
-34	6034	smien	tismien
-35	6035	għalbiex	
-36	6036	darr	darrew
-37	6037	moqbejl	
-38	6038	diġeribbli	
-39	6039	żmanġa	
-40	6040	inkuba	jinkubaw
-41	6041	ħuttab	
-42	6042	skorfina	
-43	6043	ġġakbina	jiġġakbinaw
-44	6044	kkikkja	nikkikkjaw
-45	6045	xxampla	xxamplat
-46	6046	inkorrettezza	
-47	6047	xeher	tixher
-48	6048	żbrana	żbranat
-49	6049	klaxx	
-50	6050	armajn	
-51	6051	kaxxarizz	kaxxarizzi
-52	6052	qlejba	
-53	6053	takkun	tkaken
-54	6054	fetta	fetet
-55	6055	qliba	
-56	6056	jambi	tambi
-57	6057	pitarra	pitarri
-58	6058	eżagonu	eżagoni
-59	6059	kosbor	
-60	6060	għajxa	
-61	6061	faċilitazzjoni	
-62	6062	estrada	
-63	6063	alveolari	
-64	6064	sismoloġija	
-65	6065	umanitarjaniżmu	
-66	6066	abaku	
-67	6067	kostituzzjonalista	kostituzzjonalisti
-68	6068	ggassja	ggassjat iggassjar jiggassjaw
-69	6069	foxxna	foxxni
-70	6070	skakk	iskakki
-71	6071	fens	
-72	6072	titanju	
-73	6073	botna	
-74	6074	attivazzjoni	
-75	6075	ffedera	federat
-76	6076	madriperla	madreperla
-77	6077	ħassad	ħassada
-78	6078	ħannewija	
-79	6079	manjetiżmu	
-80	6080	maxxat	
-81	6081	bblastja	ibblastjar
-82	6082	tagħrib	
-83	6083	nażali	
-84	6084	nvell	invell invelli
-85	6085	ġakobita	ġakobiti
-86	6086	vokaliku	vokalika vokaliċi
-87	6087	rasul	rosol
-88	6088	espansiv	espansiva
-89	6089	frikativ	frikativa frikativi
-90	6090	galvaniku	galvanika
-91	6091	użurpatur	użurpaturi
-92	6092	kappun	kappuni
-93	6093	mgħażqa	imgħażqa imgħażqiet mgħażaq
-94	6094	umanist	umanisti
-95	6095	qabil	qbejjel
-96	6096	dekarbonizzazzjoni	
-97	6097	demilitarizzazzjoni	
-98	6098	qarja	
-99	6099	dugħa	
-100	6100	skannja	iskannjar
+1	6001	judo	
+2	6002	zalza	zlazi
+3	6003	statura	istatura
+4	6004	ġene	
+5	6005	rrelevanti	irrelevanti
+6	6006	indulġenza	indulġenzi
+7	6007	sostnuta	sostnuti
+8	6008	ostilità	ostilita ostilitajiet
+9	6009	xterdet	
+10	6010	buttuna	buttuni
+11	6011	skorjati	
+12	6012	żibel	
+13	6013	qarsa	
+14	6014	akronimu	
+15	6015	soċjaliżmu	
+16	6016	ftaħir	ftaħiri
+17	6017	dispost	disposta disposti
+18	6018	ippreġudika	ippreġudikat jippreġudika jippreġudikalna jippreġudikaw jippreġudikawx jippreġudikax nippreġudikax ppreġudika ppreġudikaw tippreġudika tippreġudikalu
+19	6019	bullettin	bullettini
+20	6020	analitiku	analitika
+21	6021	temporali	
+22	6022	koeżjoni	
+23	6023	spa	ispa ispina spina
+24	6024	ikkompara	ikkomparat jikkompara jikkomparah jikkomparaw jikkomparawx kkompara kkomparat nikkompara tikkompara tikkomparah
+25	6025	bijoloġika	
+26	6026	dominanza	dominanzi
+27	6027	nominali	
+28	6028	tren	treni trenijiet trinek
+29	6029	prefiss	prefissi
+30	6030	speranza	isperanza isperanzi
+31	6031	jintqal	jintqalu
+32	6032	sostenibbiltà	sostenibbilta
+33	6033	kredenzjali	
+34	6034	benesseri	
+35	6035	mandra	imnajdra mnajdra
+36	6036	bojkott	bojkotts
+37	6037	tattiċi	
+38	6038	qegħdha	
+39	6039	mistagħdra	
+40	6040	solitarju	solitarji
+41	6041	proteina	proteini
+42	6042	balieni	
+43	6043	mirakoluż	mirakoluża mirakolużi
+44	6044	ikkuntattjata	ikkuntattjati kkuntattjata kkuntattjati
+45	6045	sponsorizzazzjoni	isponsorizzazzjoni sponsorizzazzjonijiet
+46	6046	bidunett	
+47	6047	jiddispjaċih	jiddispjaċiha jiddispjaċihiex jiddispjaċihx
+48	6048	bbumbardja	bbumbardjar bbumbardjat bbumbardjaw bbumbardjawha ibbumbardaw ibbumbardja ibbumbardjar ibbumbardjat ibbumbardjaw ibbumbardjawha jibbumbardja jibbumbardjaw jibbumbardjawha jibbumbardjawhom jibbumbardjawna tibbumbardja
+49	6049	mdaqqas	imdaqqas
+50	6050	nstemgħet	instemgħet nstemgħetx
+51	6051	maniġment	
+52	6052	sabta	
+53	6053	kummentatur	kummentaturi
+54	6054	għina	għinitu igħina jgħina jgħini tgħina tgħini
+55	6055	wegħdu	wegħduh wegħduhom wegħduna
+56	6056	wadi	
+57	6057	stele	istele
+58	6058	kalzetta	kalzetti
+59	6059	ikkumpara	ikkumparat jikkumpara kkumpara kkumparat tikkumpara tikkumparaha
+60	6060	immudella	immudellat jimmudella jimmudellahom jimmudellalu jimmudellaw mmudella mmudellat mmudellaw nimmudella nimmudellaw timmudella timmudellana
+61	6061	disa	
+62	6062	affaċja	affaċjat affaċjaw jaffaċja jaffaċjaw jaffaċjax taffaċja
+63	6063	sesswalità	sesswalita
+64	6064	impenjattiva	impenjattivi
+65	6065	konfessur	konfessuri
+66	6066	rotazzjoni	rotazzjonijiet
+67	6067	ċiklun	ċikluni
+68	6068	konsolazzjoni	konsolazzjonijiet
+69	6069	waħx	uħux
+70	6070	blues	
+71	6071	prefettura	prefetturi
+72	6072	orali	
+73	6073	ferrieħi	ferreħija
+74	6074	labtu	labtijiet
+75	6075	twelled	twellidhom
+76	6076	umbrella	umbrelel
+77	6077	rqaq	irqaq irqaqet jirqaqu tirqaq
+78	6078	pedina	pedini
+79	6079	skrivan	iskrivan iskrivani skrivani
+80	6080	salamun	
+81	6081	jintgħażlu	
+82	6082	fejda	
+83	6083	nitolbok	
+84	6084	benefiċjarju	benefiċjarji
+85	6085	migranti	
+86	6086	umdu	umdi
+87	6087	bbukkja	bbukkjaw ibbukkjar ibbukkjaw jibbukkja jibbukkjaw nibbukkja nibbukkjaw tibbukkja
+88	6088	donna	donni
+89	6089	bżonnjuż	bżonnjuża bżonnjużi
+90	6090	mitoloġiku	mitoloġika mitoloġiċi
+91	6091	warajk	
+92	6092	definittivament	
+93	6093	immilita	immilitajt immilitaw jimmilita jimmilitaw mmilita mmilitaw nimmilita nimmilitaw timmilita
+94	6094	sebaħ	isbaħ jisbaħ nisbaħ sbaħna sebħet sebħu tisbaħ
+95	6095	weġgħa	
+96	6096	intriċċi	
+97	6097	differenzjali	
+98	6098	sagristan	sagristana sagristani
+99	6099	ħtif	
+100	6100	dimensja	

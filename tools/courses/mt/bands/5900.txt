@@ -1,100 +1,100 @@
-1	5801	bezzun	bziezen
-2	5802	universalizza	
-3	5803	mejjilla	
-4	5804	ekwilibra	ekwilibrat
-5	5805	nuffata	infafet nfafet
-6	5806	ġġestikola	jiġġestikola
-7	5807	deċifrazzjoni	
-8	5808	familjarment	
-9	5809	reġija	
-10	5810	xieref	xierfa
-11	5811	qdumija	qdumijiet
-12	5812	dehni	dehnija
-13	5813	deċentrament	
-14	5814	sireġ	tisreġ
-15	5815	akklama	akklamat jakklamaw
-16	5816	siliċiku	
-17	5817	ħamla	
-18	5818	bambinella	
-19	5819	werċ	
-20	5820	bajdan	bajdana
-21	5821	kejn	
-22	5822	bugħarwien	
-23	5823	taħħat	imtaħħat jtaħħat
-24	5824	avvera	avverat
-25	5825	kefen	
-26	5826	nħaleb	jinħalbu jinħaleb
-27	5827	stupidità	istupidità
-28	5828	qajjed	qajdet
-29	5829	ulieda	
-30	5830	kollettivista	
-31	5831	ħliel	
-32	5832	xjentement	
-33	5833	sfrakassa	jisfrakassa sfrakassar
-34	5834	indefinittivament	
-35	5835	ċaqqam	mċaqqam
-36	5836	llajċizza	jillajċizza lajċizzat
-37	5837	temprin	temprina
-38	5838	definibbli	
-39	5839	ċirkonċiż	ċirkonċiżi
-40	5840	qaħbu	
-41	5841	ddabbar	iddabbar
-42	5842	lajku	lajċi
-43	5843	selma	
-44	5844	argon	
-45	5845	ħram	
-46	5846	venewwa	
-47	5847	monakella	
-48	5848	moħriet	
-49	5849	fonoloġiku	fonoloġika fonoloġiċi
-50	5850	stronzju	istronzju
-51	5851	matmura	imtamar matmuriet
-52	5852	ċirkoskrizzjoni	ċirkoskrizzjonijiet
-53	5853	sillabarju	sillabarji
-54	5854	rrekwiżizzjona	irrekwiżizzjona rekwiżizzjonat rrekwiżizzjonat tirrekwiżizzjona
-55	5855	mmansa	immansa immansar jimmansa
-56	5856	xammem	ixammem xammet
-57	5857	fhumi	fhumija
-58	5858	immemorabbli	
-59	5859	ċċomba	
-60	5860	tebaq	
-61	5861	żniedi	
-62	5862	appellattiv	
-63	5863	ħalleb	iħalleb
-64	5864	bdejju	
-65	5865	fagozz	
-66	5866	tehdid	
-67	5867	ċċena	iċċenar
-68	5868	derogatorju	derogatorji
-69	5869	inumanament	
-70	5870	xxortja	jixxortja
-71	5871	paċoċċ	paċċu
-72	5872	ġludi	ġludin
-73	5873	smajjar	
-74	5874	tbagħal	jitbagħlu
-75	5875	żboxxla	niżboxxlaw
-76	5876	fewweġ	fewġet
-77	5877	naxra	
-78	5878	fuqani	fuqanija
-79	5879	liegħeb	jliegħeb
-80	5880	dimissjoni	
-81	5881	biegħa	
-82	5882	simenta	
-83	5883	benefiċenza	
-84	5884	ħaxja	
-85	5885	għaxxex	mgħaxxex
-86	5886	bużullottist	bużullottisti
-87	5887	żmaga	żmagat
-88	5888	ċaw	
-89	5889	umur	
-90	5890	xebgħan	
-91	5891	tgħam	
-92	5892	baħnanata	baħnanati
-93	5893	għosfor	
-94	5894	ddevalwa	jiddevalwa
-95	5895	irrilevanza	
-96	5896	brejku	
-97	5897	sfreġja	sfreġjaw
-98	5898	boloq	bloqt
-99	5899	ttrombja	tittrombja
-100	5900	nsarr	jinsarru
+1	5801	prassi	
+2	5802	inċert	inċerta inċerti nċert
+3	5803	sussidjarja	sussidjarji
+4	5804	intimu	intimi
+5	5805	rriproduċa	irriproduċa irriproduċew jirriproduċi jirriproduċih jirriproduċix jirriproduċu jirriproduċuhom jirriproduċux nirriproduċi nirriproduċu nirriproduċuhom rriproduċew tirriproduċi
+6	5806	indaga	indagajt indagajtx indagat jindaga jindagaw ndaga nindaga tindaga
+7	5807	riċiklat	riċiklata riċiklati
+8	5808	abitata	
+9	5809	irreċta	irreċtajt jirreċta jirreċtaw jirreċtawhom nirreċta rreċta rreċtajna rreċtajt rreċtat rreċtaw tirreċta
+10	5810	taxi	
+11	5811	dipressjoni	dipressjonijiet
+12	5812	effettwa	effettwat jeffettwa jeffettwaw teffettwa teffettwalna teffettwana teffettwax
+13	5813	reġġa'	inreġġgħu ireġġa ireġġgħu ireġġi ireġġu jreġġa' jreġġgħu jreġġix jreġġu jreġġux nreġġa nreġġa' nreġġgħu reġġa reġġgħet reġġgħu reġġgħuh reġġiet treġġa treġġax treġġgħu treġġgħux treġġi treġġix
+14	5814	ġewż	ġewża
+15	5815	ġuridiku	ġuridika
+16	5816	independentement	indipendentement
+17	5817	umilja	jumilja jumiljah jumiljaha jumiljani jumiljaw numiljaw tumilja tumiljah tumiljaha tumiljax umiljana umiljani umiljat
+18	5818	sperimentali	
+19	5819	kwotazzjoni	kwotazzjonijiet
+20	5820	dinjituż	dinjituża dinjitużi
+21	5821	dieqa	
+22	5822	bandisti	
+23	5823	rampa	rampi
+24	5824	pala	pali
+25	5825	tgħaxxaq	jitgħaxxaq jitgħaxxqu nitgħaxxaq nitgħaxxqu tgħaxxaqha tgħaxxaqtx titgħaxxaq
+26	5826	studios	istudios
+27	5827	tixbaħ	tixbaħa tixbaħha
+28	5828	shadow	
+29	5829	ssaporta	issaporta issaportejna issaporti jissaporti jissaportu jissaportuhom jissaportuhomx jistaporti jistaportu nissaporti nissaportix nissaportu nissaportuha nistaporti nistaportiha nistaportu ssaportejniex ssaportewx tissaporti tistaporti
+30	5830	rawh	rawhx
+31	5831	abolita	aboliti
+32	5832	ripetizzjoni	ripetizzjonijiet
+33	5833	paċifika	
+34	5834	ikkaratterizza	ikkaratterizzaw jikkaratterizza jikkaratterizzaw jikkaratterizzawna kkaratterizza kkaratterizzaw kkaratterizzawha nikkaratterizzaw tikkaratterizza tikkaratterizzahom
+35	5835	żnuber	
+36	5836	mikrobu	mikrobi
+37	5837	iprova	jiprova provajt provat provaw tiprova
+38	5838	impossibli	mpossibli
+39	5839	allele	
+40	5840	xxabbat	ixxabbat ixxabbtu jixxabbat jixxabbtu jixxabbtulhom nixxabbat nixxabbtu tixbit tixxabbat xxabbatt xxabbtu
+41	5841	dejma	
+42	5842	mandatorja	mandatorji
+43	5843	unitarju	unitarja unitarji
+44	5844	ħwar	ħwawar
+45	5845	gwarniġjon	gwarniġjoni
+46	5846	domus	
+47	5847	dem	demi
+48	5848	jeħodha	jeħodhiex
+49	5849	viżwali	
+50	5850	fora	
+51	5851	issussidja	issussidjat jissussidja jissussidjaha jissussidjalhom jissussidjaw jissussidjawhom jissussidji nissussidja nissussidjaw ssussidjat ssussidjaw tissussidja
+52	5852	kollettivament	
+53	5853	sillaba	sillabi
+54	5854	xniegħa	xnigħat
+55	5855	idjoma	idjomi
+56	5856	kalibru	
+57	5857	rabti	rabtija rabtin
+58	5858	liberalizzazzjoni	liberalizzazzjonijiet
+59	5859	intensità	intensita ntensità
+60	5860	itwaqqa	jitwaqqa jitwaqqax nitwaqqa titwaqqa titwaqqax twaqqat
+61	5861	dwett	dwetti
+62	5862	obeżità	obeżita
+63	5863	qaws	qwas
+64	5864	alpina	alpini
+65	5865	tut	tuta tuti
+66	5866	onorata	onorati
+67	5867	probabilment	
+68	5868	suppliment	supplimenti
+69	5869	kirja	
+70	5870	ddispra	ddisprat ddispraw ddisprax disprat iddispra iddisprat jiddispra jiddispraw tiddispra tiddisprax
+71	5871	illużjoni	illużjonijiet
+72	5872	impożizzjoni	impożizzjonijiet
+73	5873	kwartett	kwartetti
+74	5874	ideoloġiku	ideoloġika ideoloġiċi
+75	5875	konventwali	
+76	5876	primat	primati
+77	5877	wieżen	imwieżen inwieżnu iwieżen iwieżnu jwieżen jwieżnu mwieżen nwieżen nwieżnu twieżen wieżnu wiżinna
+78	5878	funzjonali	
+79	5879	sanità	
+80	5880	jintlibsu	
+81	5881	antenna	antenni
+82	5882	stmerrija	istmerrija
+83	5883	nostalġija	nostalġiji
+84	5884	nervuż	nervuża nervużi
+85	5885	ripetutament	
+86	5886	pirati	
+87	5887	importati	
+88	5888	jintrabat	jintrabatx
+89	5889	kombinazzjoni	kombinazzjonijiet
+90	5890	wisgħa	
+91	5891	sproporzjonat	sproporzjonata sproporzjonati
+92	5892	mwieġba	imwieġba
+93	5893	żewwaq	imżewwaq iżewqu iżewwaq iżżewwaq iżżewwaqha jżewqu jżewwaq mżewwaq nżewqu żewqet żewqu żżewwaq
+94	5894	ċass	ċassa ċassi
+95	5895	imblukka	imblukkah imblukkat imblukkatu imblukkaw jimblukkaw mblukkat mblukkaw timblukkax
+96	5896	bram	brama
+97	5897	org	
+98	5898	miti	
+99	5899	nofsiegħa	
+100	5900	bajjad	bajdet bajjada ibajjad imbajjada jbajdu mbajjad tbajdu tbajjad tibjid

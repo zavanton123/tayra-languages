@@ -1,0 +1,100 @@
+1	9401	ċanga	
+2	9402	invoka	invokat jinvoka jinvokaw nvoka nvokat tinvoka tinvokax
+3	9403	astroloġikament	
+4	9404	epistemoloġija	
+5	9405	etnografiku	etnografika etnografiċi
+6	9406	amar	amarna amru jamar namru
+7	9407	bgħid	ibgħad
+8	9408	żejża	żejżiet żejżietha żejżitha
+9	9409	fardal	fradal
+10	9410	kuċċarina	kuċċarini
+11	9411	rmonka	irmunkar irmunkat jirmonka jirmonkaw rmonkat rmunkar tirmonka
+12	9412	evada	evadew jevadi jevadu tevadi
+13	9413	bandal	ibandlu imbandal jbandal jitbandal jitbandalx jitbandlu nbandlu tbandal tbandil titbandal
+14	9414	kaħħal	ikaħħal imkaħħal kaħħala mkaħħal tkaħħlu
+15	9415	baħnan	
+16	9416	ballett	balletti
+17	9417	ħawli	ħawlija
+18	9418	tturmenta	ittormentat itturmentat jittormentaw jitturmentaw tittormenta tittormentah tturmentat
+19	9419	interċeda	jinterċedi jinterċedu tinterċedi
+20	9420	qara'	
+21	9421	ingrana	ingranat ingranaw jingrana jingranaw ngranat ngranaw tingrana
+22	9422	inċita	inċitaw jinċita jinċitaw jinċitax ninċita
+23	9423	xugaman	xugamani
+24	9424	allużjoni	allużjonijiet
+25	9425	assoċċja	assoċċjaha assoċċjat assoċċjaw assoċċjawhom jassoċċjaw jassoċċjawni nassoċċjaw nassoċċjawhom
+26	9426	agħta	nagħta nagħtaw nagħtax tagħta tagħtielha tagħtieli
+27	9427	ħara	iħarju taħri taħrik ħarja
+28	9428	rikkieb	rikkieba
+29	9429	topografiku	topografika topografiċi
+30	9430	konfessjonali	
+31	9431	ħaleb	aħleb jaħleb ħlib
+32	9432	penetrazzjoni	
+33	9433	mramma	imramma imrammti
+34	9434	ffabbrika	fabbrikar fabbrikat ffabbrikat iffabbrikat iffabbrikaw jiffabbrikaw
+35	9435	raffinerija	raffineriji
+36	9436	uniformità	uniformita
+37	9437	begħda	ibegħdu ibegħduhom ibegħduk ibegħduna inbegħdu inbegħduhom jbegħdu jbegħduhom jbegħduna nbegħduhom tbegħdu
+38	9438	żgiċċa	jiżgiċċa jiżgiċċaw niżgiċċa tiżgiċċa żgiċċat żgiċċatlu żgiċċatx
+39	9439	għajjur	għajjura għajjurin
+40	9440	vinkolanti	
+41	9441	ikkonverġa	ikkonverġew jikkonverġi jikkonverġihom jikkonverġu tikkonverġi
+42	9442	estasi	estasijiet
+43	9443	asfalt	
+44	9444	verġinità	verġinita
+45	9445	skorpjun	iskorpjun iskorpjuni skorpjuni
+46	9446	xewwex	ixewwex ixewwixhom ixewxu jxewwex jxewxu xewxu
+47	9447	weġġaħ	imweġġaħ inweġġħu iweġġħu jweġġaħx jweġġħu mweġġaħ tweġġaħ tweġġaħx
+48	9448	eżiġa	jeżiġi jeżiġu teżiġi
+49	9449	ivvjaġġja	ivvjaġġjat ivvjaġġjaw jivvjaġġja jivvjaġġjaw nivvjaġġja tivvjaġġja
+50	9450	għatas	jagħtas jagħtsu tagħtas
+51	9451	qadja	qadjiet
+52	9452	ppurifika	ippurifikat ippurifikaw jippurifika jippurifikana jippurifikaw jippurifikawna ppurifikat ppurifikaw purifikat tippurifika
+53	9453	laħlaħ	ilaħalħu inlaħlaħ jlaħalħu laħlaħhom mlaħlaħ tlaħlaħx tlaħliħ
+54	9454	qaqoċċa	
+55	9455	blanzun	blanzuni
+56	9456	faċċetta	faċċetti
+57	9457	mejjel	immejjel jmejjel jmejjilx mmejjel timjil tmejlux
+58	9458	irritalja	irritaljat irritaljaw jirritalja jirritaljaw jirritaljax rritalja rritaljat rritaljaw tirritalja
+59	9459	amministrattivament	
+60	9460	bisesswali	
+61	9461	lokomozzjoni	
+62	9462	alkoħoliżmu	
+63	9463	mazzarell	mazzarelli
+64	9464	falzifikazzjoni	falsifikazzjoni
+65	9465	qaħba	qħab
+66	9466	ġegħluna	iġegħluna iġegħluni jġegħluna jġegħluni
+67	9467	dissens	dissensi
+68	9468	ħarrax	inħarrxu iħarrax iħarrxu jħarrax tħarrxu ħarrxu
+69	9469	timbrata	ittimbrata ittimbrati ttimbrata ttimbrati
+70	9470	ittraċċa	ittraċċat jittraċċa jittraċċaw nittraċċa nittraċċaw tittraċċa ttraċċaw
+71	9471	iggusta	iggustaha iggustajt iggustajtek iggustajtu iggustat jiggustaw jiggustawhom niggustaw niggustawhom
+72	9472	żieni	żienja
+73	9473	illuda	jilludi jilludu nilludi nilludix nilludu nilludux tilludi
+74	9474	ikkorisponda	jikkorispondi jikkorispondix jikkorispondu nikkorispondu tikkorispondi
+75	9475	kanġa	ikanġi ikanġu jkanġi jkanġu tkanġi
+76	9476	ġbin	ġbinhom ġbini ġbinu
+77	9477	irrefja	jirrefja jirrefjaw jirrefjawx rrefjajt
+78	9478	pipa	pipi
+79	9479	reda'	jerda jerdax jerdgħu redgħu terda
+80	9480	eloġju	eloġji
+81	9481	għotor	għotrot jogħtor jogħtru nogħtru togħtor
+82	9482	fantażma	fantażmi
+83	9483	irrekluta	jirrekluta jirreklutaw rrekluta rreklutat rreklutaw tirrekluta
+84	9484	terrakotta	
+85	9485	iddiżintegra	ddiżintegra ddiżintegrat iddiżintegrat jiddiżintegra jiddiżintegraw tiddiżintegra
+86	9486	assimilazzjoni	
+87	9487	noli	nolijiet
+88	9488	insinwa	insinwat insinwaw jinsinwa jinsinwaw ninsinwa nsinwa nsinwaw tinsinwa
+89	9489	irriġenera	irriġenerat jirriġenera jirriġeneraw tirriġenera
+90	9490	inkonsista	jinkonsisti jinkonsistu tinkonsisti
+91	9491	tniffes	jitniffes jitniffsux nitniffisx titniffes titniffisx tniffsu
+92	9492	fettilla	ifettilli ifettillu jfettilli jfettillu
+93	9493	wita	witat witik
+94	9494	eżistenzjali	
+95	9495	irrekjeda	jirrekjedi jirrekjedu tirrekjedi
+96	9496	ċikonja	ċikonji
+97	9497	niek	jniku nejk nieket nik
+98	9498	buqar	buqari
+99	9499	ġeneralizzazzjoni	ġeneralizzazzjonijiet
+100	9500	dorsali	

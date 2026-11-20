@@ -1,100 +1,100 @@
-1	1701	bejt	bjut
-2	1702	qdusija	
-3	1703	nofsi	nofsani
-4	1704	onora	jonora jonoraw jonorawx jonorax nonora nonoraw onorat onoratx onoraw onorax tonora tonorax
-5	1705	reqqa	
-6	1706	grigal	
-7	1707	sajjar	imsajjar insajjar insajru isajjar isajru issajjar issajret issajru jissajjar jissajjarx jissajru jissajrux jsajjar jsajru jsajrux msajjar nsajjar nsajru sajjarna sajjart sajru ssajjar ssajjarx ssajru tissajjar
-8	1708	tradizzjonalment	
-9	1709	ssottometta	issottometta issottomettew issottometti issottomettiet jissottometti jissottomettix jissottomettu nissottomettu sottomess ssottomettew ssottomettewx ssottomettiet ssottomettietx ssottomettu tissottometti
-10	1710	ġenna	
-11	1711	qorob	joqorbu joqrob noqorbu qorbot qorbu qrobna qrobt toqrob toqrobx
-12	1712	erbatax	
-13	1713	nissel	imnissel inissel inisslu innissel innisslu jnissel jnisslu jnisslux mnissel nissilt nissiltu nisslet nisslu nisslux nnisslu tinsil tnissil tnisslu
-14	1714	ġudizzjarju	ġudizzjarja ġudizzjarji
-15	1715	xemi	semi xemija
-16	1716	skjav	iskjav iskjava iskjavi skjava skjavi
-17	1717	għaġġel	għaġġilna għaġġilt għaġġilx għaġġlet għaġġlu imgħaġġel jgħaġġel jgħaġġilx jgħaġġlu mgħaġġel ngħaġġel ngħaġġlu tgħaġġel
-18	1718	vulkan	vulkani
-19	1719	ddebutta	ddebuttajt ddebuttat ddebuttaw iddebutta iddebuttajt iddebuttat iddebuttaw jiddebutta jiddebuttaw niddebutta tiddebutta
-20	1720	mibgħut	mibgħuta mibgħutin
-21	1721	analizza	analizzajna analizzajt analizzajtu analizzat analizzaw janalizza janalizzaw janalizzawx nanalizza nanalizzaw tanalizza
-22	1722	kimika	kimiki kimiċi
-23	1723	xewki	xewkija xewkin
-24	1724	tkanta	jitkanta jitkantaw titkanta tkantat tkantaw tkantax
-25	1725	lemaħ	ilmaħna ilmaħt intlemaħ jilmaħ jilmaħx lemħet lemħu lmaħna lmaħt lmaħtx milmuħ nilmaħ nilmaħx ntlemaħ tilmaħ
-26	1726	fejjaq	fejqu ifejjaq ifejqu imfejjaq imfejqa infejjaq infejqu jfejjaq jfejjaqx jfejqu jitfejjaq jitfejjaqx jitfejqu mfejjaq mfejqa nfejjaq nfejqu tfejjaq tfejjaqna tfejjaqx tfejqet tfejqu titfejjaq titfejjaqx
-27	1727	providenza	provvidenza
-28	1728	spalla	ispalel ispalla ispallejn spallejn spallitha spallithom spallitna spalltek spallti spalltu
-29	1729	sies	insus issus isus isusu jsus jsusu sisien sistu ssus sus susu
-30	1730	adorazzjoni	adorazzjonijiet adurazzjoni
-31	1731	ntefaq	intefaq intefqet intefqu intnefaq jintefaq jintefqu jintnefaq jintnefqu ntefqet ntefqu tintefaq
-32	1732	mqar	imqar
-33	1733	innovazzjoni	innovazzjonijiet
-34	1734	tmienja	
-35	1735	korsa	koros korsijiet
-36	1736	ħajr	
-37	1737	splużjoni	isplużjoni isplużjonijiet splużjonijiet
-38	1738	tabilħaqq	
-39	1739	front	frontijiet
-40	1740	klassifikazzjoni	klassifikazzjonijiet
-41	1741	bilqiegħda	
-42	1742	fqar	jifqaru
-43	1743	qali	
-44	1744	kolonjali	
-45	1745	fekruna	fkieren ifkieren
-46	1746	litteralment	letteralment
-47	1747	fiss	fissa fissi
-48	1748	tiela'	telgħin tielgħa
-49	1749	bejta	bejtiet
-50	1750	għatta	għattejt għattew għatti għattiet jgħatti jgħattu jgħattux mgħotti ngħatti ngħattu tgħatti
-51	1751	qabża	qabżiet
-52	1752	rrestawra	irrestawra irrestawrajt irrestawrat irrestawraw jirrestawra jirrestawraw nirrestawraw restawrar restawrat rrestawrajna rrestawrajt rrestawrar rrestawrat rrestawraw tirrestawra
-53	1753	erbgħin	
-54	1754	fis	
-55	1755	dizzjunarju	dizzjunarji
-56	1756	barriera	barrieri
-57	1757	garaxx	garaxxijiet
-58	1758	universitarju	universitarja universitarji
-59	1759	sawwar	imsawwar insawru insawwar isawru isawwar issawru issawwar jsawru jsawwar msawwar nsawru nsawwar sawret sawru sawwarna sawwart ssawru ssawwar
-60	1760	nefqa	nefqiet
-61	1761	theddid	
-62	1762	speċifikament	
-63	1763	telefon	
-64	1764	ħasra	
-65	1765	determinazzjoni	determinazzjonijiet
-66	1766	sbatax	
-67	1767	ljun	iljun iljuni ljuni
-68	1768	oħxon	eħxen ħoxna ħoxnin
-69	1769	ssarraf	issarraf issarrfet issarrfu issarrfux jissarraf jissarrafx jissarrfu jissarrfux ssarrafx ssarrfet ssarrfitx ssarrfu tissarraf tissarrafx
-70	1770	xewk	xewka xwiek
-71	1771	għani	għonja ogħna
-72	1772	nannu	nannuh nannuha nannuhom nannuk nannuwi
-73	1773	radd	irodd iroddu irrodd irroddu jrodd jroddu raddejt raddet rodd roddu rrodd rroddu trodd troddu
-74	1774	aġġorna	aġġornar aġġornat aġġornaw aġġornax jaġġorna jaġġornaw jaġġornax naġġornaw taġġorna taġġornaw
-75	1775	nsteraq	insteraq insterqet insterqu insterqux jinsteraq jinsteraqx jinsterqu nsterqet nsterqu nsterqux
-76	1776	dulur	duluri
-77	1777	lemini	leminija leminin
-78	1778	minoranza	minoranzi
-79	1779	attendenza	attendenzi
-80	1780	dekorazzjoni	dekorazzjonijiet
-81	1781	ambaxxata	ambaxxati
-82	1782	ġuħ	ġwieħ
-83	1783	għalissa	
-84	1784	xitan	xjaten
-85	1785	naqqax	imnaqqax inaqqax inaqqxu jnaqqax jnaqqxu mnaqqax naqqxet naqqxu tinqix tnaqqax tnaqqxu
-86	1786	sebgħa	
-87	1787	sploda	jisplodi jisplodix jisplodu nisplodu splodew splodiet splodietx splodiex splodut tisplodi
-88	1788	forn	fran ifran
-89	1789	ġuvni	ġuvintur
-90	1790	qala	qaliet
-91	1791	satar	istru jostor jostru mistur nistru nsatar start tostor
-92	1792	xebah	ixbhu jixbah jixbahx jixbhu nixbah nixbhu tixbah tixbahx tixbhu xbaht
-93	1793	qiem	inqimu iqim iqimu jqim jqimu jqimux meqjum nqim nqimu nqimux qiemu qim qimt qimu tqim tqimu
-94	1794	ċensiment	ċensimenti
-95	1795	ffaċilita	ffaċilitat ffaċilitaw iffaċilita iffaċilitajna iffaċilitar iffaċilitat iffaċilitaw jiffaċilita jiffaċilitaw niffaċilitaw tiffaċilita tiffaċilitax
-96	1796	għam	għamet għamu għomt għum għumu igħumu jgħum jgħumu ngħum ngħumu tgħum
-97	1797	raġġ	raġġi
-98	1798	dalwaqt	
-99	1799	ħjiel	iħjieli ħjiliet ħjilijiet
-100	1800	feġġ	feġġejt feġġet feġġew feġġx ifiġġ ifiġġu jfiġġ jfiġġu tfiġġ
+1	1701	irrifjuta	irrifjutaha irrifjutahom irrifjutajt irrifjutajtu irrifjutat irrifjutatha irrifjutaw irrifjutawha jirrifjuta jirrifjutaw jirrifjutawx jirrifjutax nirrifjuta nirrifjutaha nirrifjutaw rrifjuta rrifjutah rrifjutaha rrifjutahom rrifjutajna rrifjutajt rrifjutajtx rrifjutat rrifjutatu rrifjutaw rrifjutawha rrifjutax tirrifjuta tirrifjutah tirrifjutaha tirrifjutawx tirrifjutax
+2	1702	massimu	massima massimi
+3	1703	eventwalment	
+4	1704	imperatur	imperaturi
+5	1705	limitat	limitata limitati
+6	1706	impjant	impjanti mpjant mpjanti
+7	1707	divorzju	divorzji
+8	1708	wżata	użata użati wżati
+9	1709	partikolarment	
+10	1710	riżenja	riżenji
+11	1711	pastorali	
+12	1712	neċessarju	neċessarja neċessarji neċessarjii
+13	1713	nett	netta netti
+14	1714	kompletament	
+15	1715	ikkontrolla	ikkontrollajna ikkontrollat ikkontrollaw jikkontrolla jikkontrollah jikkontrollaha jikkontrollahom jikkontrollaw jikkontrollawha jikkontrollawhom jikkontrollawlna jikkontrollawlu jikkontrollawx jikkontrollax kkontrollat kkontrollathom kkontrollaw kkontrollawha kkontrollax nikkontrolla nikkontrollah nikkontrollaw nikkontrollawha nikkontrollawhom nikkontrollawx tikkontrolla tikkontrollah tikkontrollaha tikkontrollahiex tikkontrollahom tikkontrollalhom tikkontrolli
+16	1716	illegali	llegali
+17	1717	entità	entita entitajiet
+18	1718	spiritwali	ispiritwali
+19	1719	turistiku	turistika
+20	1720	kriterju	kriterja kriterji
+21	1721	talent	talenti
+22	1722	ippjana	ippjanajna ippjanajt ippjanat ippjanaw jippjana jippjanaw nippjana nippjanaw nippjanawx ppjana ppjanajna ppjanajt ppjanat ppjanatu ppjanaw tippjana tippjanaw tippjanax
+23	1723	dieħla	
+24	1724	massa	massi
+25	1725	ospita	jospita jospitah jospitahom jospitaw jospitawx nospitaw ospitaha ospitajna ospitakom ospitat ospitatx ospitaw tospita tospitaha tospitahom
+26	1726	xutt	xuttijiet
+27	1727	skopra	jiskopri jiskoprih jiskopriha jiskoprihom jiskopru jiskopruha niskopri niskopriha niskopru niskopruh niskopruhom skoprejna skoprejniex skoprejt skoprejtha skoprejtu skoprejtx skoprew skoprewha skoprewhom skoprewx skoprieh skoprieha skopriet skopriethom skopriex skoprih skopriha skoprihiex tiskopri tiskoprih tiskopru
+28	1728	letterarju	letterarja letterarji
+29	1729	rumanz	rumanzi
+30	1730	żdieda	jiżdidux jiżdiedu jiżdiedulha jiżdiedulu jiżdiedux jżdiedu
+31	1731	preċedenti	
+32	1732	arkitettura	arkitetturi
+33	1733	ikkwalifika	ikkwalifikahom ikkwalifikajna ikkwalifikat ikkwalifikathom ikkwalifikaw jikkwalifika jikkwalifikah jikkwalifikaha jikkwalifikaw jikkwalifikawx jikkwalifikax kkwalifika kkwalifikajna kkwalifikajt kkwalifikat kkwalifikatx kkwalifikaw kkwalifikawx kkwalifikax nikkwalifika nikkwalifikaw tikkwalifika tikkwalifikah tikkwalifikaw
+34	1734	gwida	gwidi
+35	1735	serjetà	serjeta
+36	1736	reġjonali	
+37	1737	ppubblikata	ippubblikata ippubblikati ppubblikati
+38	1738	kunsillier	kunsilliera kunsillieri
+39	1739	ikkawża	ikkawżalek ikkawżalha ikkawżalhom ikkawżat ikkawżatilhom ikkawżaw jikkawża jikkawżaha jikkawżalha jikkawżaw jikkawżawha jikkawżawhom jikkawżawlhom jikkawżawlu jikkawżawx jikkawżax kkawża kkawżalha kkawżalhom kkawżat kkawżatilha kkawżatx kkawżaw kkawżawha kkawżawhom kkawżawx kkawżax nikkawżaw tikkawża tikkawżalek tikkawżalha tikkawżax
+40	1740	ċerimonja	ċerimonji
+41	1741	serje	
+42	1742	kontinent	kontinenti
+43	1743	kategorija	kategoriji
+44	1744	ikkundanna	ikkundannajna ikkundannat ikkundannatu ikkundannaw jikkundanna jikkundannaw jikkundannawkom jikkundannax kkundanna kkundannajna kkundannajtu kkundannat kkundannatu kkundannatx kkundannaw kkundannawha kkundannawhom kkundannawx kkundannax nikkundanna nikkundannaw nikkundannawx nikkundannax tikkundanna tikkundannawx tikkundannax
+45	1745	separat	separata separati
+46	1746	progress	progressi
+47	1747	allegatament	allegatamenti
+48	1748	akkużata	akkużati
+49	1749	nota	noti
+50	1750	emerġenza	emerġenzi
+51	1751	assassinju	assassinji
+52	1752	standard	istandard istandardi istandards standardi
+53	1753	prattika	prattiki
+54	1754	oriġinarjament	
+55	1755	internet	
+56	1756	mentali	
+57	1757	sett	setts sitti
+58	1758	ippjanar	ppjanar
+59	1759	album	albums
+60	1760	ikkritika	ikkritikah ikkritikahom ikkritikajna ikkritikajt ikkritikani ikkritikat ikkritikaw jikkritika jikkritikah jikkritikaha jikkritikahom jikkritikak jikkritikani jikkritikaw jikkritikawni jikkritikawx jikkritikax kkritika kkritikah kkritikahom kkritikajna kkritikajt kkritikajthom kkritikat kkritikatu kkritikaw kkritikax nikkritika nikkritikah nikkritikahom nikkritikaw tikkritika tikkritikah tikkritikaha tikkritikahom tikkritikani tikkritikaw tikkritikawna
+61	1761	passiġġier	passiġġiera passiġġieri
+62	1762	daqstant	
+63	1763	televiżjoni	
+64	1764	villa	
+65	1765	santwarju	santwarja santwarji
+66	1766	fundatur	fundatura fundaturi
+67	1767	twaqqif	
+68	1768	domanda	domandi
+69	1769	aġenzija	aġenziji
+70	1770	istruttura	jistrutturaw nistrutturaw strutturaw tistruttura
+71	1771	firxa	firxiet infirxu jifirxu jifirxuhom nfirxu nifirxu nifirxuha tifirxu
+72	1772	kor	kori korijiet
+73	1773	finalment	
+74	1774	kompjuter	kompjuters
+75	1775	monasteru	monasteri
+76	1776	kwartier	kwartieri
+77	1777	infermiera	nfermiera
+78	1778	sorpriż	sorpriża sorpriżi
+79	1779	skopert	iskoperta iskoperti skoperta skoperti
+80	1780	ċirkostanzi	
+81	1781	konklużjoni	konklużjonijiet
+82	1782	moderna	
+83	1783	irrikonoxxa	irrikonoxxew irrikonoxxewlna irrikonoxxieha irrikonoxxiet jirrikonoxxi jirrikonoxxih jirrikonoxxiha jirrikonoxxihom jirrikonoxxix jirrikonoxxu jirrikonoxxuh jirrikonoxxuha jirrikonoxxuhom jirrikonoxxux nirrikonoxxi nirrikonoxxiha nirrikonoxxihom nirrikonoxxix nirrikonoxxu nirrikonoxxuh nirrikonoxxuhom nirrikonoxxux rrikonoxxa rrikonoxxew rrikonoxxewhom rrikonoxxewx rrikonoxxielu rrikonoxxiet rrikonoxxiethom rrikonoxxietni rrikonoxxietu rrikonoxxiex rrikonoxxiha tirrikonoxxi tirrikonoxxih tirrikonoxxina tirrikonoxxix
+84	1784	sostanzjali	
+85	1785	prestazzjoni	prestazzjonijiet
+86	1786	ispara	jispara jisparalhom jisparalu jisparaw jisparawha jisparawhom jisparawlha jisparawlhom jisparawlu jisparawx jisparax nispara nisparaw nisparawlhom spara sparah sparajna sparajt sparajtlu sparajtux sparajtx sparalha sparalu sparat sparathom sparaw sparawlha sparawlhom sparawlu tispara tisparaw tisparax
+87	1787	semifinali	
+88	1788	frank	franka franki
+89	1789	jiżdied	jiżdidx jiżdiedx
+90	1790	bastiment	bastimenti bastimentii
+91	1791	skultura	iskultura iskulturi skulturi
+92	1792	purċissjoni	purċissjonijiet
+93	1793	adult	adulta adulti
+94	1794	ġeneru	ġeneri
+95	1795	artistiku	artistika
+96	1796	immigrazzjoni	
+97	1797	djalogu	djalogi
+98	1798	ittratta	ittrattah ittrattahom ittrattajna ittrattajtu ittrattat ittrattaw jittratta jittrattah jittrattaha jittrattahom jittrattaw jittrattawha jittrattawhom jittrattawkom jittrattawna jittrattawni jittrattax nittratta nittrattaw nittrattawha nittrattawhiex nittrattawhom nittrattax tittratta tittrattah tittrattaha tittrattahom tittrattax ttratta ttrattat ttrattaw
+99	1799	titular	titulari
+100	1800	inżamma	inżammew jinżammi jinżammu jinżammux nżammew

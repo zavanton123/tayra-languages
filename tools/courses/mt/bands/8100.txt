@@ -1,0 +1,100 @@
+1	8001	maġistratura	maġistraturi
+2	8002	rmied	
+3	8003	konġunzjoni	konġunzjonijiet
+4	8004	vertikalment	
+5	8005	molekulari	
+6	8006	jinġibed	
+7	8007	kerrejja	kerrejji
+8	8008	filantropiċi	
+9	8009	nqabeż	inqabeż
+10	8010	taħbita	
+11	8011	sturnell	isturnell isturnelli
+12	8012	proċessar	iproċessar
+13	8013	aċċidentali	
+14	8014	flawt	flawti flawtijiet
+15	8015	tiswir	tiswira
+16	8016	mnalla	imnalla
+17	8017	heaters	
+18	8018	skizzi	iskizzi
+19	8019	oriġinalità	oriġinalita
+20	8020	sufi	sufija sufin
+21	8021	windfarms	
+22	8022	muntaġġ	
+23	8023	adhom	adhomx
+24	8024	industrijalizzati	
+25	8025	sagħtar	
+26	8026	azzard	
+27	8027	staġonali	
+28	8028	vġili	vġilijiet
+29	8029	bieżel	beżlin bieżla biżlin
+30	8030	adulterju	adulterji
+31	8031	iddispona	iddisponew jiddisponi jiddisponu niddisponu tiddisponi
+32	8032	għabex	
+33	8033	barr	barret
+34	8034	polo	
+35	8035	industrijalizzazzjoni	
+36	8036	musketterija	
+37	8037	irreaġixxa	
+38	8038	affermattiv	affermattiva
+39	8039	feriment	ferimenti
+40	8040	dedika	dediki
+41	8041	jitwaqqgħu	jitwaqqgħux
+42	8042	ellittiku	ellittika ellittiċi
+43	8043	direttorati	
+44	8044	intgħarfa	jintgħarfu jintgħarfux nintgħarfu ntgħarfax
+45	8045	moltiplikazzjoni	
+46	8046	itkissra	jitkissru jitkissrux nitkissru
+47	8047	ipprofanata	ipprofanati pprofanata
+48	8048	ċorma	
+49	8049	korrotta	
+50	8050	dipendenzi	
+51	8051	relevanza	
+52	8052	parentesi	
+53	8053	renta	renti
+54	8054	iddiżappunta	ddiżappunta ddiżappuntajt ddiżappuntat ddiżappuntatni ddiżappuntatu ddiżappuntatx ddiżappuntaw iddiżappuntajt iddiżappuntani iddiżappuntat iddiżappuntaw niddiżappunta tiddiżappunta
+55	8055	improbabbli	
+56	8056	esportati	
+57	8057	jiġġeddu	
+58	8058	deportazzjoni	deportazzjonijiet
+59	8059	triljun	triljuni
+60	8060	bired	birdet birdu bridt jibred nibred tibred
+61	8061	mans	mansa mansi
+62	8062	passeriformi	
+63	8063	sistolika	
+64	8064	konservazzjonisti	
+65	8065	tati	tatiha tatik tatix
+66	8066	ġilju	ġilji
+67	8067	prużuntuż	prużuntużi
+68	8068	esodu	
+69	8069	politikanti	
+70	8070	dama	damak dami
+71	8071	pagun	paguni
+72	8072	swied	jiswied swiedu tiswied
+73	8073	beritta	berritta brieret
+74	8074	adatt	adatti
+75	8075	kordinatur	kordinaturi
+76	8076	kattedra	
+77	8077	karburant	karburanti
+78	8078	jitwarrab	
+79	8079	ippridka	jippridka jippridkaha jippridkaw jippridkawhom nippridkaw
+80	8080	grafiċi	
+81	8081	bellus	bellusi
+82	8082	tomna	itmien
+83	8083	paralimpiku	
+84	8084	inċens	
+85	8085	lessikali	
+86	8086	bassasa	bassasijiet
+87	8087	servuti	
+88	8088	politiko	politikoi
+89	8089	immobilizza	immobilizzat immobilizzaw jimmobilizza jimmobilizzaw mmobilizza mmobilizzat mmobilizzaw timmobilizza
+90	8090	qmis	qomos
+91	8091	armamenti	
+92	8092	spjegali	spjegalix
+93	8093	behold	
+94	8094	kontrattwanti	
+95	8095	immotiva	immotivat immotivaw jimmotiva jimmotivahom jimmotivana jimmotivaw jimmotivawha mmotiva mmotivat mmotivatni timmotiva timmotivahom
+96	8096	ġarra	ġarar
+97	8097	attirati	
+98	8098	tinħall	tinħallx
+99	8099	ikkundizzjona	ikkundizzjonat jikkundizzjona jikkundizzjonaw jikkundizzjoni kkundizzjona kkundizzjonat kkundizzjonaw tikkundizzjona
+100	8100	ċinturin	ċinturini

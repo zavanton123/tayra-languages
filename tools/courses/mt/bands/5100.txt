@@ -1,100 +1,100 @@
-1	5001	għansar	għansal
-2	5002	manjeżju	
-3	5003	baċċaċ	imbaċċaċ mbaċċaċ
-4	5004	involontarjament	
-5	5005	eċċetra	
-6	5006	ineleġibbli	ineliġibbli
-7	5007	bunemmiel	bunemmiela
-8	5008	tgħaġġeb	
-9	5009	xemxata	xemxati
-10	5010	ħannieqa	
-11	5011	milsa	
-12	5012	bagoll	
-13	5013	nir	
-14	5014	fettaħ	infettħu jfettħu mfettaħ nfettaħ
-15	5015	tarraf	itarraf mtarraf tarrfet
-16	5016	mmalafama	immalafama jimmalafamaw malafamat
-17	5017	ċinju	
-18	5018	ddeċifra	ddeċifrat deċifrar deċifrat iddeċifra iddeċifrat iddeċifraw jiddeċifra jiddeċifraw
-19	5019	grawwa	graw
-20	5020	pitirross	pitirrossi
-21	5021	nuħħala	naħħala
-22	5022	jodju	
-23	5023	almanakk	almanakki
-24	5024	qroqqa	
-25	5025	turufnament	
-26	5026	kies	
-27	5027	orrajt	
-28	5028	xħaħ	
-29	5029	debitament	
-30	5030	samat	mismut
-31	5031	għabra	
-32	5032	ħamallaġni	
-33	5033	għawwem	jgħawwem
-34	5034	ċiċċa	jċiċċi ċiċċi
-35	5035	kummissjonarju	kummissjonarji
-36	5036	qalla	tqalli
-37	5037	beatitudni	beatitudnijiet
-38	5038	gradenza	gradenzi
-39	5039	felul	felula
-40	5040	tqammel	jitqammel titqammel
-41	5041	sorra	sarar soror
-42	5042	vvantaġġja	jivvantaġġja jivvantaġġjaw tivvantaġġja vantaġġjat
-43	5043	beċċun	beċċuna bċieċen
-44	5044	ġerra	ġerrejna ġerrew ġerri ġerriet
-45	5045	krieh	jikrieh kriht tikrieh
-46	5046	buza	bwiez
-47	5047	testikola	testikoli
-48	5048	inugwali	inegwali
-49	5049	tast	tasti
-50	5050	ġorġina	
-51	5051	għamar	għamret
-52	5052	enunzja	enunzjat
-53	5053	żerriegħ	
-54	5054	inċinera	inċinerat
-55	5055	mmisja	immisjaw mmisjaw nimmisjaw
-56	5056	ċirkulatorju	ċirkulatorja
-57	5057	ħxien	jeħxien
-58	5058	emulazzjoni	
-59	5059	qibla	
-60	5060	matematikament	
-61	5061	mifrex	imfierex mfierex
-62	5062	ħaġġar	imħaġġar jħaġġar mħaġġar tħaġġar tħaġġru
-63	5063	poligonu	poligoni
-64	5064	ġeometrikament	ġometrikament
-65	5065	kassazzjoni	
-66	5066	idealistiku	idealistika idealistiċi
-67	5067	dottorali	
-68	5068	attribwibbli	
-69	5069	rriħersja	jirriħersja
-70	5070	falzarju	falsarju falzarji
-71	5071	ġjaċint	ġjaċinti
-72	5072	erbju	
-73	5073	ssopprima	jissopprimi soppress
-74	5074	vvittimizza	jivvittimizzawx nivvittimizzawx
-75	5075	lgħab	
-76	5076	għattan	ngħattan
-77	5077	trejn	
-78	5078	nferaq	inferaq tinferaq
-79	5079	palla	
-80	5080	raffinatezza	raffinatezzi
-81	5081	bbordja	ibbordjar jibbordja
-82	5082	fratriċidju	
-83	5083	klassiżmu	
-84	5084	allegrija	
-85	5085	ġewlaq	ġwielaq
-86	5086	wiżgħa	wiżgħat
-87	5087	nabi	nibi nubjien
-88	5088	sarġ	sruġ
-89	5089	nsilet	insiltu jinsilet jinsiltu nsiltu tinsilet
-90	5090	smid	ismid
-91	5091	ħabaq	
-92	5092	mamma	
-93	5093	verġinità	
-94	5094	assenjazzjoni	
-95	5095	ċensur	ċensuri
-96	5096	barju	
-97	5097	taljola	taljoli tarjola
-98	5098	klassikament	
-99	5099	ddeċima	iddeċimat iddeċimaw jiddeċima
-100	5100	ddijanjostika	dijanjostikat iddijanjostika jiddijanjostikaw
+1	5001	jiddaħħal	jiddaħħalx
+2	5002	beatifikazzjoni	
+3	5003	bizzilla	bizzilel
+4	5004	raxx	iroxx jroxx raxxew roxx roxxu troxx
+5	5005	assistita	assistiti
+6	5006	addattata	addattati
+7	5007	telfien	
+8	5008	kontributur	kontributuri
+9	5009	ikkonserva	ikkonservat ikkonservaw jikkonserva jikkonservahom jikkonservaw kkonserva kkonservaha kkonservajna kkonservat kkonservaw nikkonservaw nikkonservawha nikkonservawhom tikkonserva tikkonservah
+10	5010	kafetterija	kafetteriji
+11	5011	rinnovazzjoni	rinnovazzjonijiet
+12	5012	pjaċevoli	
+13	5013	ġeroglifiċi	
+14	5014	tortura	torturi
+15	5015	riġidu	riġida riġidi
+16	5016	żahra	
+17	5017	kwadrat	kwadrata kwadrati
+18	5018	issuspetta	issuspettat issuspettaw jissuspetta jissuspettaw nissuspetta nissuspettaw ssuspetta ssuspettat ssuspettaw tissuspetta
+19	5019	tanġibbli	
+20	5020	kompliċità	kompliċita
+21	5021	ġugarell	ġugarelli
+22	5022	ċertifikazzjoni	ċertifikazzjonijiet
+23	5023	kullħadd	
+24	5024	polemika	polemiki
+25	5025	foss	fossijiet
+26	5026	tgħabba	jitgħabba jitgħabbew jitgħabbiex nitgħabbew tgħabbejna tgħabbejniex tgħabbejt tgħabbew tgħabbiet tgħabbihom tgħabbitx titgħabba
+27	5027	ħabbel	imħabbel inħabblu iħabbel iħabblu jħabbel jħabbilx jħabblu jħabblux nħabblu tħabbel tħabblu ħabbilna ħabbilx ħabblet ħabblu
+28	5028	infurzat	infurzata infurzati nfurzat nfurzata nfurzati
+29	5029	irrakkuntala	jirrakkuntali jirrakkuntalu nirrakkuntalu tirrakkuntali tirrakkuntalu
+30	5030	referees	
+31	5031	fonti	
+32	5032	trasportata	ittrasportata ittrasportati ttrasportata ttrasportati
+33	5033	antikità	antikita
+34	5034	senter	snieter
+35	5035	sejjes	imsejjes isejjes issejjes issejjisha jsejjes msejjes sejset ssejsu tisjis
+36	5036	tankijiet	
+37	5037	baruni	barunijiet
+38	5038	xarba	xarbiet
+39	5039	mħaddma	imħaddma
+40	5040	azzarda	azzardajna azzardajt azzardajtx azzardat azzardaw azzardawx azzardax ażżarda ażżardat jazzarda jazzardaw jazzardawx jazzardax jażżarda nazzarda nazzardaw nazzardax tazzarda tazzardawx tażżarda
+41	5041	kommunikazzjoni	kommunikazzjonijiet
+42	5042	daħk	daħq daħqu
+43	5043	volta	voltai volti
+44	5044	tjieba	
+45	5045	ġibs	
+46	5046	qliegħ	
+47	5047	nstemgħu	instemgħu nstemgħux
+48	5048	ballet	
+49	5049	sfortunat	isfortunat isfortunata isfortunati iżvinturat sfortunata sfortunati
+50	5050	aspettattiva	aspettattivi
+51	5051	navigazzjoni	
+52	5052	għarraq	għarrqet għarrqu igħarraq jgħarraq jgħarraqlu jgħarraqx jgħarrqu jgħarrquh jgħarrquk mgħarraq ngħarraq ngħarrqu ngħarrquha tagħriq tgħarraq tgħarraqha tgħarrqu
+53	5053	infettiv	infettiva infettivi
+54	5054	predikazzjoni	
+55	5055	batta	battejtu battew batti battiet battietlu battietx battu battuh ibatti ibattu jbatti jbattu tbatti tbattu
+56	5056	aggredixxa	aggreda aggredejtu aggredew aggrediet aggredih aggredit jaggredixxi
+57	5057	jħallih	iħallih iħalliha jħalliha jħallihiex jħallihx
+58	5058	għarbel	għarbilna għarbilt għarbiltu għarbilx għarblet għarblu jgħarbel jgħarbilx jgħarblu mgħarbel mgħarbul ngħarbel ngħarblu tgħarbel tgħarbilni tgħarblu
+59	5059	verdett	verdetti
+60	5060	intervall	intervalli
+61	5061	ironija	ironiji
+62	5062	ħrafa	ħrejjef
+63	5063	awtentiku	awtentiċi
+64	5064	rimonta	rimonti
+65	5065	parabbola	parabboli
+66	5066	angolu	angoli
+67	5067	ssuġġerit	issuġġerit issuġġerita issuġġeriti ssuġġerita ssuġġeriti
+68	5068	neċessità	neċessita neċessitajiet
+69	5069	ddekora	ddekorat dekorat iddekora iddekorah iddekorajtu iddekorat iddekoratu jiddekoraw niddekoraw tiddekora
+70	5070	jtih	itih itiha jtiha
+71	5071	vertebrati	
+72	5072	agħa	tagħa tagħahom tagħax tagħtek tagħtha tagħthom tagħthomx tagħtna tagħtni
+73	5073	ħamiem	ħamiema ħamiemu ħamimiet
+74	5074	globalizzazzjoni	
+75	5075	rigoruż	rigoruża rigorużi
+76	5076	relattività	relattivita
+77	5077	aċċent	aċċenti
+78	5078	riga	rigi
+79	5079	fiduċjuż	fiduċjuża fiduċjużi
+80	5080	kawtela	kawteli
+81	5081	eternità	eternita
+82	5082	kalm	
+83	5083	xoljiment	
+84	5084	waħdieni	waħdani
+85	5085	qatigħ	
+86	5086	minhekk	
+87	5087	aċidu	aċidi aċtu
+88	5088	nfila	infila
+89	5089	faxxista	faxxisti
+90	5090	ekkleżjastiku	ekkleżjastika
+91	5091	ażil	ażilu
+92	5092	lupu	ilpup lpup lupa
+93	5093	mgħarrfa	imgħarrfa
+94	5094	bagħbas	bagħbasha bagħbasu bagħbsu ibagħbas jbagħbas jbagħbasx jbagħbsux tbagħbas tbagħbis
+95	5095	isfuma	jisfuma jisfumaw jisfumax sfuma sfumat sfumaw tisfuma
+96	5096	jott	jottijiet
+97	5097	sussegwentament	
+98	5098	ura	urieh urieha uriehom wrieh wrieha wriehom wriehx
+99	5099	tniżżlet	
+100	5100	nħas	inħass inħassu nħass nħassu nħassx

@@ -1,100 +1,100 @@
-1	2801	espożizzjoni	espożizzjonijiet
-2	2802	vawċer	vawċers
-3	2803	imparzjali	
-4	2804	musmar	imsiemer msiemer
-5	2805	tħasseb	jitħassbu jitħasseb jitħassibx nitħassbu nitħassbux nitħasseb titħasseb tħassbu tħassibna tħassibt
-6	2806	għejja	għajja għejjejt għejjew għejjiet jgħejja
-7	2807	ħsad	
-8	2808	indirettament	
-9	2809	ċċensura	iċċensura iċċensurat iċċensuraw jiċċensura jiċċensuraw jiċċensurawx tiċċensura tiċċensurax ċensurat ċċensurat ċċensuraw
-10	2810	tewm	tewma
-11	2811	demografiku	demografika demografiċi
-12	2812	musrana	imsaren msaren
-13	2813	ċagħaq	ċagħak ċagħka ċagħqa
-14	2814	dlonk	
-15	2815	oċeaniku	oċeanika oċeaniċi
-16	2816	ħawwel	imħawwel inħawlu iħawlu iħawwel jħawlu jħawwel mħawwel nħawlu tħawlu tħawwel ħawlu ħawwilna
-17	2817	sikka	sikek
-18	2818	ħajjat	ħajjata
-19	2819	anzjanità	
-20	2820	tlitt	
-21	2821	rriveda	irrivedew jirrivedi rivedut tirrivedi
-22	2822	saħan	jisħnu jisħnux jisħon nisħon saħnet saħnu tisħon tisħonx
-23	2823	kolonizzazzjoni	kolonizzazzjonijiet
-24	2824	oxxen	oxxena oxxeni
-25	2825	rpilja	irpilja irpiljar irpiljat irpiljaw jirpilja jirpiljaw nirpilja rpiljajna rpiljar rpiljat rpiljaw rpiljax tirpilja
-26	2826	stimula	jistimula jistimulaw nistimulaw stimulat stimulaw tistimula
-27	2827	qsar	jiqsaru qsaru
-28	2828	ġeografija	ġeografiji ġografija
-29	2829	żaqqaq	żaqqu
-30	2830	astronomija	
-31	2831	disat	
-32	2832	riproduzzjoni	riproduzzjonijiet
-33	2833	elabora	elaborat jelabora jelaboraw nelabora telabora
-34	2834	qoton	qotna
-35	2835	konfigurazzjoni	konfigurazzjonijiet
-36	2836	sawt	swat
-37	2837	ppopola	ippopolat jippopola jippopolaw popolar popolat ppopolaw
-38	2838	għasri	
-39	2839	eklissi	eklissijiet
-40	2840	difer	difrejn difri difru dwiefer
-41	2841	ndiema	indiema
-42	2842	atomu	atomi
-43	2843	għawġ	
-44	2844	imprezzabbli	
-45	2845	sfidant	isfidant isfidanta isfidanti sfidanti
-46	2846	ibigħ	
-47	2847	furban	furbani
-48	2848	lampun	lampuna
-49	2849	saffa	imsaffi imsoffi insaffu isaffi jsaffi jsaffu msoffi saffi saffiet ssaffi tisfija
-50	2850	għaġin	
-51	2851	osservanza	osservanzi
-52	2852	komunjoni	
-53	2853	kubrit	kubrita
-54	2854	tellaq	intellaq itellaq itellqu ittellaq jtellaq jtellqu ntellaq ntellqu tellaqna tellqu tellqux ttellaq
-55	2855	psikoloġija	
-56	2856	għalla	għallew għalliet għelejjel jgħalli jgħallu ngħallu tgħalli
-57	2857	farfar	farfarx farfret farfru ifarfar ifarfru infarfar infarfru jfarfar jfarfru tfarfar tfarfir tfarfru
-58	2858	umanista	umanisti
-59	2859	ħuġġieġa	ħġejjeġ
-60	2860	neputija	
-61	2861	akkumula	akkumulajna akkumulat akkumulaw jakkumula jakkumulaw jakkumulax nakkumulaw takkumula takkumulax
-62	2862	dixx	dixxijiet
-63	2863	ċint	ċnut
-64	2864	urta	jurta jurtaw jurtax nurtaw turta turtax urtar urtat urtaw
-65	2865	fondoq	fniedaq
-66	2866	ġewż	ġewża
-67	2867	independentement	indipendentement
-68	2868	kwotazzjoni	kwotazzjonijiet
-69	2869	dinjituż	dinjituża dinjitużi
-70	2870	pala	pali
-71	2871	żnuber	
-72	2872	dejma	
-73	2873	ħwar	ħwawar
-74	2874	xeħta	xeħtiet
-75	2875	kollettivament	
-76	2876	sillaba	sillabi
-77	2877	xniegħa	xnigħat
-78	2878	ċekken	inċekknu iċekken iċekknu iċċekken jċekken jċekknu mċekken nċekknu nċekknux tiċkin ċekkinna ċekkinx ċekknet ċekknu ċċekken
-79	2879	rabti	rabtija rabtin
-80	2880	dwett	dwetti
-81	2881	qaws	qwas
-82	2882	tut	tuta tuti
-83	2883	tbaxxa	jitbaxxa jitbaxxew jitbaxxiex nitbaxxa nitbaxxew tbaxxejt tbaxxew tbaxxiet titbaxxa titbaxxiex
-84	2884	ddispra	ddisprat ddispraw ddisprax disprat iddispra iddisprat jiddispra jiddispraw tiddispra tiddisprax
-85	2885	illużjoni	illużjonijiet
-86	2886	għaqad	għaqadx għaqdet għaqdu jagħqad jagħqdu nagħqdu tagħqad tagħqadx
-87	2887	kwartett	kwartetti
-88	2888	ideoloġiku	ideoloġika ideoloġiċi
-89	2889	tila	tili titli tlew
-90	2890	wieżen	imwieżen inwieżnu iwieżen iwieżnu jwieżen jwieżnu mwieżen nwieżen nwieżnu twieżen wieżnu wiżinna
-91	2891	saħħar	imsaħħar isaħħar isaħħru issaħħar issaħħart issaħħru isħaħar jissaħħar jissaħħru jsaħħar jsaħħru msaħħar nissaħħar nissaħħarx saħħret saħħru ssaħħar ssaħħarna ssaħħret sħaħar tissaħħar
-92	2892	ċass	ċassa ċassi
-93	2893	bram	brama
-94	2894	nofsiegħa	
-95	2895	qiegħa	qigħan
-96	2896	mazzun	imzazen mzazen
-97	2897	xxabbat	ixxabbat ixxabbtu jixxabbat jixxabbtu nixxabbat nixxabbtu tixbit tixxabbat xxabbatt xxabbtu
-98	2898	stħajjel	jistħajjel jistħajlu mistħajjel nistħajjel nistħajlu stħajjiltu stħajlu tistħajjel tistħajlu
-99	2899	ħliqa	ħlejjaq ħlejqa
-100	2900	ċkunija	ċkunitha ċkunithom ċkuniti ċkunitna ċkunitu
+1	2801	ġuħ	ġwieħ
+2	2802	għalissa	
+3	2803	iddistingwa	ddistingwa ddistingwew ddistingwewna ddistingwiet ddistingwiex iddistingwew iddistingwewna jiddistingwi jiddistingwih jiddistingwiha jiddistingwihom jiddistingwina jiddistingwix jiddistingwu jiddistingwuh jiddistingwuha jiddistingwuhom jiddistingwuna jiddistingwux niddistingwi niddistingwix niddistingwu niddistingwuha niddistingwuhom tiddistingwi tiddistingwiha tiddistingwihom tiddistingwina tiddistingwix
+4	2804	intitolat	intitolata intitolati ntitolat ntitolata ntitolati
+5	2805	xitan	xjaten
+6	2806	stabbiltà	istabbilta istabbiltà istabilita istabilità stabbilta stabbiltajiet stabilita stabilitti stabilità
+7	2807	ġera	iġri jiġri jiġrilek jiġrilha jiġrilhom jiġrili jiġrilkom jiġrilna jiġrilu jiġrilux jiġrix jiġru jiġrulek jiġruli jiġrulna jiġrux jġri jġrilna niġri niġru tiġri tiġrilha tiġrili tiġrilna tiġrilu tiġrix ġertu ġieri ġrejna ġrejt ġrew ġrewx ġriet
+8	2808	ffirmata	ffirmati iffirmata iffirmati
+9	2809	sebgħa	
+10	2810	esej	esejs
+11	2811	forn	fran ifran
+12	2812	ħawwad	imħawwad iħawdu iħawduk iħawwad iħawwadhom iħawwadni jħawdu jħawdux jħawwad jħawwadkom jħawwadna jħawwadni mħawwad nħawdu nħawwad tħawwad tħawwadna tħawwadni ħawdet ħawdu ħawduh ħawdulu ħawduna ħawwadhom ħawwadna ħawwadni ħawwadt ħawwadtni
+13	2813	spinta	ispinta
+14	2814	kkummissjona	ikkommissjona ikkommissjonat ikkommissjonatlu ikkommissjonaw ikkummissjona ikkummissjonajt ikkummissjonar ikkummissjonat ikkummissjonaw jikkummissjona jikkummissjonaw jikkummissjonawli jikkummissjonax kkommissjona kkommissjonat kkommissjonaw kkommissjonawha kkummissjonat kkummissjonathom kkummissjonaw kkummissjonawhom kummissjonar kummissjonat tikkummissjona
+15	2815	rażżan	imrażżan inrażżnu irażżan irażżanhom irażżnu irażżnuh irażżnuha irażżnuhom jrażżan jrażżanhom jrażżanna jrażżnu mrażżan nrażżan nrażżnu rażżanna rażżnet rażżnitx rażżnu trażżan trażżanhom trażżin trażżnu trażżnux
+16	2816	jissemmew	jissemmewx
+17	2817	tiżjin	tiżjina
+18	2818	espanda	espandew espandi espandiet espandih espandiha espandihom jespandi jespandu jespanduh nespandi nespandu nespanduha tespandi tespandilek
+19	2819	sovran	sovrana sovrani
+20	2820	formula	formuli
+21	2821	ikkalkula	ikkalkulajna ikkalkulajnieh ikkalkulajt ikkalkulajtha ikkalkulat ikkalkulatha ikkalkulaw ikkalkulawha jikkalkula jikkalkulaw kkalkula kkalkulah kkalkulat kkalkulaw kkalkulax nikkalkula nikkalkulalek nikkalkulaw nikkalkulawha nikkalkulawhom tikkalkula tikkalkulaw
+22	2822	ġuvni	ġuvintur
+23	2823	ħolom	joħlom joħlomha joħlomhom joħolmu joħolmuh joħolmux noħlom noħlomha noħolmu noħolmuh noħolmuha noħolmux oħlom toħlom toħlomhom ħlomt ħlomtha ħolmot ħolmu
+24	2824	għam	għamek għamet għamu għomt għum għumu igħumu jgħum jgħumu ngħum ngħumu tgħum tgħumha
+25	2825	paragrafu	paragrafi
+26	2826	ċensiment	ċensimenti
+27	2827	amministra	amministrah amministrajt amministralha amministrat amministraw jamministra jamministrah jamministraha jamministrahom jamministraw jamministrawhom namministraw namministrawhom tamministra tamministrax
+28	2828	kkaratterizzat	ikkaratterizzat ikkaratterizzata ikkaratterizzati kkaratterizzata kkaratterizzathom kkaratterizzati
+29	2829	filfatt	
+30	2830	ġġudika	iġġudika iġġudikani iġġudikat iġġudikatu iġġudikaw jiġġudika jiġġudikah jiġġudikahom jiġġudikak jiġġudikakom jiġġudikana jiġġudikani jiġġudikaw jiġġudikawhom jiġġudikawna jiġġudikawni jiġġudikax niġġudika niġġudikah niġġudikaha niġġudikahom niġġudikak niġġudikaw niġġudikawhom tiġġudika tiġġudikah tiġġudikaha tiġġudikahom tiġġudikahx tiġġudikaw tiġġudikawx ġudikat ġġudikah ġġudikajna ġġudikajt ġġudikat ġġudikatu ġġudikaw ġġudikawni
+31	2831	persentaġġ	persentaġġi
+32	2832	bankarju	bankarja bankarji
+33	2833	pensjonant	pensjonanti
+34	2834	probabbilment	
+35	2835	salvatur	salvaturi
+36	2836	raġġ	raġġi
+37	2837	destin	destinha destini destinu
+38	2838	dalwaqt	
+39	2839	tbissima	
+40	2840	ħjiel	iħjieli ħjiliet ħjilijiet
+41	2841	vizzju	vizzji vizzjijiet
+42	2842	konsiderazzjoni	konsiderazzjonijiet kunsiderazzjoni
+43	2843	tinħoloq	tinħoloqx
+44	2844	varjazzjoni	varjazzjonijiet
+45	2845	tajn	tajnih tjun
+46	2846	impenji	mpenji
+47	2847	anness	annessha annessi
+48	2848	griż	griża griżi
+49	2849	kannella	
+50	2850	toqba	toqbiet toqob
+51	2851	posposta	posposti
+52	2852	għajta	għajtiet
+53	2853	għeb	għab għajbien għebet għebu għebux għejbien għib igħibu jgħib jgħibu jgħibux jgħibx ngħib tgħib
+54	2854	alkoħol	alkoħoli
+55	2855	tissaħħaħ	
+56	2856	emigra	emigrajt emigrat emigraw jemigra jemigraw nemigra temigra
+57	2857	bhima	bhejjem
+58	2858	prevenzjoni	prevenzjonijiet
+59	2859	ħalliel	ħallelin ħalliela
+60	2860	stmata	stmati
+61	2861	sostenn	
+62	2862	ekwazzjoni	ekwazzjonijiet
+63	2863	skolastika	
+64	2864	imġieba	imġiebtek imġiebti imġiebtu mġieba
+65	2865	għarraf	għarrafha għarrafhom għarrafna għarrafni għarrafnielkom għarrafniex għarraft għarrafthom għarraftkom għarraftu għarrfet għarrfitha għarrfithiex għarrfitna għarrfitni għarrfitu għarrfu għarrfuhom għarrfux igħarrafna jgħarraf jgħarrafhom jgħarrafna jgħarrfu jgħarrfuhom jgħarrfuna ngħarraf ngħarrfu ngħarrfuhom ngħarrfukom tgħarraf tgħarrafha tgħarrafhom tgħarrafli tgħarrafna tgħarrafni
+66	2866	konfini	
+67	2867	univers	universi
+68	2868	dwana	
+69	2869	preliminari	
+70	2870	gwardjan	gwardjani
+71	2871	niexef	nexfin niexfa
+72	2872	possibilment	possibbilment
+73	2873	uffiċċjal	uffiċċjali
+74	2874	gideb	gdibt gdibtx gidbet gidbitx gidbu gidibx jigdbu jigdeb nigdbu nigdeb nigdibx tigdeb tigdibx
+75	2875	tintemm	tintemmx
+76	2876	infettati	nfettati
+77	2877	mossa	mossi
+78	2878	ndaqs	indaqs
+79	2879	inċiżjoni	inċiżjonijiet
+80	2880	infurma	infurmah infurmaha infurmahom infurmajna infurmajnieh infurmajtu infurmani infurmaw infurmawha infurmawhom infurmawna infurmawni infurmax jinfurma jinfurmah jinfurmaha jinfurmahom jinfurmak jinfurmaw jinfurmawhom jinfurmawna jinfurmawni jinfurmax nfurmah nfurmajna nfurmajnieh nfurmani nfurmaw nfurmawha nfurmawna nfurmawni nfurmax ninfurmaw ninfurmawha ninfurmawkom tinfurmaw tinfurmawna
+81	2881	kostanti	kostantina
+82	2882	mondjali	
+83	2883	koalizzjoni	koalizzjonijiet
+84	2884	appostoliku	appostolika appostoliċi
+85	2885	governanza	
+86	2886	baned	
+87	2887	kundanna	kundanni
+88	2888	uniformi	uniformijiet
+89	2889	raħħal	raħħala raħħali
+90	2890	salvataġġ	salvataġġi
+91	2891	prosit	
+92	2892	riċerkatur	riċerkaturi
+93	2893	dispjaċir	dispjaċiri
+94	2894	salarju	salarji
+95	2895	okkupata	okkupati
+96	2896	taħditiet	
+97	2897	profitt	profitti
+98	2898	maħżen	imħażen mħażen
+99	2899	pagament	pagamenti
+100	2900	oġġezzjona	joġġezzjona joġġezzjonaw joġġezzjonax noġġezzjona oġġezzjonajna oġġezzjonat oġġezzjonatx oġġezzjonaw oġġezzjonawx oġġezzjonax toġġezzjona toġġezzjonaw toġġezzjonax

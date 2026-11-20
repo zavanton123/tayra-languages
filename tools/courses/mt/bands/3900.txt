@@ -1,100 +1,100 @@
-1	3801	ddandan	iddandan jiddandan jiddandnu niddandan niddandnu tiddandan
-2	3802	ppreċiża	ippreċiżat jippreċiża jippreċiżaw nippreċiża nippreċiżaw ppreċiżat
-3	3803	tmejjel	jitmejjel jitmejlu nitmejlu titmejjel tmejjil tmejlux
-4	3804	invalidità	
-5	3805	ġejjien	ġejjiena
-6	3806	espressament	
-7	3807	kannamiela	kannamieli
-8	3808	nħabb	jinħabb jinħabbu ninħabbu tinħabb tinħabbu
-9	3809	għarrex	għarrxu jgħarrex jgħarrxu ngħarrex ngħarrxu tgħarrex
-10	3810	pronom	pronomi
-11	3811	kapitaliżmu	
-12	3812	oġġettiva	
-13	3813	abbli	
-14	3814	għalli	
-15	3815	raddiena	irdieden rdieden
-16	3816	qarben	inqarben iqarben jqarben jqarbnu mqarben qarbnu tqarben tqarbnu
-17	3817	ġġebbed	iġġebbdu iġġebbed jiġġebbdu jiġġebbdux jiġġebbed niġġebbdu tiġġebbed
-18	3818	enerġetiku	enerġetiċi
-19	3819	gerżuma	grieżem griżmejn
-20	3820	mazz	mazzi
-21	3821	tisqija	
-22	3822	għammex	jgħammex jgħammxu mgħammex tgħammex
-23	3823	margun	imragen marguni mragen
-24	3824	mirkeb	imriekeb mriekeb
-25	3825	furketta	frieket
-26	3826	kartiera	kartieri
-27	3827	xxokkja	ixxokkja ixxokkjat jixxokkja nixxokkja tixxokkja xxokkjat
-28	3828	alka	
-29	3829	xurban	xurbana
-30	3830	ffamiljarizza	iffamiljarizza jiffamiljarizzaw niffamiljarizzaw tiffamiljarizza
-31	3831	senġi	senġijiet
-32	3832	lavrant	lavranti
-33	3833	approssimazzjoni	approssimazzjonijiet
-34	3834	ffanga	ffangat iffanga iffangar jiffanga jiffangaw tiffanga
-35	3835	kompassjoni	
-36	3836	tqawwa	jitqawwa jitqawwew nitqawwew titqawwa tqawwejna tqawwew tqawwiet
-37	3837	interdizzjoni	
-38	3838	borrinu	borrini
-39	3839	intaxxa	intaxxat jintaxxa jintaxxaw jintaxxax nintaxxaw tintaxxa
-40	3840	nawwar	inawru inawwar jnawru jnawwar mnawwar nawru tinwir tnawru tnawwar
-41	3841	rikba	rikbiet
-42	3842	affaxxinanti	
-43	3843	ddeplora	iddeplora iddeplorat iddeploraw jiddeplora niddeploraw tiddeplora
-44	3844	gerbeb	igerbeb igerbu jgerbu tgerbeb tgerbib tgerbu
-45	3845	ddivida	diviż iddivida jiddividi jiddividu niddividu tiddividi
-46	3846	magħad	jomgħod jomgħodx jomogħdu mimgħud omgħod tomgħod
-47	3847	umaniżmu	
-48	3848	sistematikament	
-49	3849	pruwa	pruwi
-50	3850	kaboċċa	kaboċċi
-51	3851	xxotta	ixxotta ixxottaw ixxuttaw jixxotta jixxuttaw tixxotta tixxottax xxuttat
-52	3852	kallu	kallijiet
-53	3853	popolarment	
-54	3854	daħna	
-55	3855	preferenzjali	
-56	3856	ċarrat	imċarrat iċċarrat jċarrat jċarrtu ċarratna ċarrtet ċċarrat
-57	3857	mesaħ	imsaħ jimsaħ jimsħu mesħet mesħu timsaħ
-58	3858	tektek	itektek ittektek jtektek jtektku ntektek tektik ttektek
-59	3859	frugħa	frugħat
-60	3860	ċuċ	ċwieċ
-61	3861	moħba	moħbiet
-62	3862	beżaq	beżqet beżqu bżaqt inbeżaq jobżoq jobżqu mibżuq nbeżaq obżoq tobżoq
-63	3863	paċpaċ	inpaċpaċ inpaċpċu ipaċpaċ ipaċpċu jpaċpċu npaċpċu paċpaċna tpaċpaċ
-64	3864	stramberija	istramberija istramberiji stramberiji
-65	3865	demel	
-66	3866	lett	letta letti
-67	3867	sedil	sedili
-68	3868	degradanti	
-69	3869	paletta	paletti
-70	3870	ddeduċa	dedott iddeduċa jiddeduċi niddeduċu tiddeduċi
-71	3871	klarinett	klarinetti
-72	3872	bluha	
-73	3873	ġebbed	imġebbed inġebbdu inġebbed iġebbdu iġebbed iġġebbdu iġġebbed jġebbdu jġebbed mġebbed nġebbdu ġebbidna
-74	3874	umiljanti	
-75	3875	malja	malji
-76	3876	bellus	
-77	3877	għeliem	
-78	3878	kefrija	
-79	3879	żelu	zelu
-80	3880	taħan	itħan jitħan jitħnu mitħun titħan
-81	3881	maktur	imkatar mkatar
-82	3882	venerazzjoni	
-83	3883	sija	
-84	3884	dekadenza	
-85	3885	qatran	
-86	3886	żanżan	inżanżan iżanżan iżanżnu iżżanżan iżżanżnu jżanżan jżanżnu mżanżan żanżanna żanżnet żżanżnu
-87	3887	għeri	għerija għerja
-88	3888	ħmura	
-89	3889	qastan	
-90	3890	remissa	remissi
-91	3891	armel	
-92	3892	vizzjuż	vizzjużi
-93	3893	teorikament	teoretikament
-94	3894	ċawsla	ċawsli
-95	3895	ħanex	ħniex
-96	3896	ama	amat jama nama namaw tamaw
-97	3897	qdiem	jiqdiem qdiemet qdiemu tiqdiem
-98	3898	rebus	
-99	3899	nasba	nasbiet
-100	3900	demarkazzjoni	demarkazzjonijiet
+1	3801	leġittimu	leġittima leġittimi
+2	3802	sallab	imsallab insallbu isallab isallbu isallbuh issallbu jsallab jsallbu jsallbuh msallab nsallab sallbu sallbuh
+3	3803	ġibda	ġibdiet ġibditu
+4	3804	bozza	bozoz
+5	3805	riveduta	riveduti
+6	3806	għodu	
+7	3807	żaqq	jżoqqu jżoqquhom żaqqek żaqqha żaqqhom żaqqna
+8	3808	konvinċenti	
+9	3809	borra	
+10	3810	kondoljanza	kondoljanzi
+11	3811	anonimu	anonima anonimi
+12	3812	kkulurit	ikkulurit ikkulurita ikkuluriti kkulurita kkuluriti
+13	3813	neċessarjament	
+14	3814	esebiti	
+15	3815	saħħan	imsaħħan insaħħan insaħħnu isaħħan isaħħnu isaħħnuh isaħħnuhom issaħħan jsaħħan jsaħħanha jsaħħanna jsaħħnu jsaħħnuk msaħħan saħħanha saħħant saħħantu saħħnet saħħnitx saħħnu ssaħħan ssaħħanna tisħin
+16	3816	kuratur	kuraturi
+17	3817	ħerġin	
+18	3818	riħa	irwejjaħ riħitha rwejjaħ
+19	3819	sinagoga	sinagogi
+20	3820	manuvra	manuvri
+21	3821	xekkel	imxekkel inxekklu ixekkel ixekkilna ixekklu ixekkluha ixxekkel ixxekkilna ixxekklu jxekkel jxekkilni jxekkilx jxekklu jxekkluh jxekklulu jxekklux mxekkel nxekkel nxekklu xekkilx xekklet xekklu xekklulu xekkluna xekklux xxekkel xxekkilx xxekklu
+22	3822	workshop	workshops
+23	3823	karbonju	
+24	3824	tiftix	tiftixa
+25	3825	simpatija	simpatiji
+26	3826	etern	eterni
+27	3827	kanonku	kanonka kanonki
+28	3828	qawra	
+29	3829	abbazija	abazija abbaziji
+30	3830	ittrasforma	ittrasformah ittrasformaha ittrasformat ittrasformaw ittrasformawha jittrasforma jittrasformah jittrasformaha jittrasformana jittrasformaw jittrasformawhom nittrasformaw tittrasforma tittrasformah ttrasforma ttrasformah ttrasformaha ttrasformat ttrasformatha ttrasformaw ttrasformawha
+31	3831	ross	rossa
+32	3832	kalma	kalmi
+33	3833	rieqed	reqdin rieqda
+34	3834	xokk	xokkijiet
+35	3835	smar	ismart jismarux smart tismar
+36	3836	ddettalja	ddettaljat dettaljat iddettalja iddettaljat jiddettalja jiddettaljaw
+37	3837	identifikazzjoni	identifikazzjonijiet
+38	3838	ġurisdizzjoni	ġurisdizzjonijiet
+39	3839	pprovduta	ipprovduta ipprovduti pprovduti
+40	3840	basketball	
+41	3841	biered	bierda
+42	3842	gaġġa	gaġeġ
+43	3843	ubbidjenza	ubbidjenzi
+44	3844	viżiv	viżiva viżivi
+45	3845	reklamar	reklamari
+46	3846	prosperità	prosperita
+47	3847	ċilindru	ċilindri
+48	3848	għajnejja	
+49	3849	dejja	idejja jdejja
+50	3850	dependenza	dependenzi dipendenza
+51	3851	kiefer	kefrin kiefra
+52	3852	inawgurazzjoni	
+53	3853	bela'	bela belax belgħet belgħetx belgħu belgħuhom blajt blajtha blajtu jibilgħu jibilgħuhom jibilgħuna jibla jibla' jiblax miblugħ miblugħa miblugħin nibilgħu nibilgħuh nibilgħuhom nibla nibla' niblaha tibilgħu tibilgħuni tibla tibla' tiblax
+54	3854	bust	busti bustijiet
+55	3855	rifes	irfis irfisna irfist irfistu jirfes jirfisli jirfislu jirfsu jirfsuni mirfus nirfes nirfsu nirfsuhom rfisna rfist rifisx rifs rifset rifsitx rifsu tirfes tirfsu
+56	3856	ġustifikat	ġustifikata ġustifikati
+57	3857	approċċ	approċċi
+58	3858	aspirazzjonijiet	
+59	3859	mħeġġa	imħeġġa
+60	3860	parzjali	
+61	3861	sarraf	imsarraf insarrfu isarraf isarrfu isarrfuhom issarrfu issarrfux jsarraf jsarrafha jsarrfu jsarrfuhom nsarraf nsarrfu nsarrfuh nsarrfuha nsarrfuhom sarraflu sarrafna sarrfet sarrfu ssarrafx ssarrfu
+62	3862	madum	maduma madumiet
+63	3863	jitqassam	jitqassamx
+64	3864	personaġġ	personaġġi
+65	3865	eżilju	eżilja eżiljah eżilji jeżilja jeżiljah jeżiljaw teżilja teżiljahom
+66	3866	kompliċi	
+67	3867	tellief	telliefa
+68	3868	bagalja	bagalji
+69	3869	apoloġija	apoloġiji
+70	3870	reċiproku	reċiproka
+71	3871	metropolitana	metropolitani
+72	3872	kkollabora	ikkollabora ikkollaborat ikkollaboraw ikkollaborax jikkollabora jikkollaboraw jikkollaborawx kkollaborajna kkollaborat kkollaboraw nikkollabora nikkollaboraw tikkollabora tikkollaboraw
+73	3873	ikkumplimenta	ikkumplimentat jikkumplimenta jikkumplimentah jikkumplimentaw jikkumplimentawha kkumplimenta kkumplimentat kkumplimentaw nikkumplimenta tikkumplimenta
+74	3874	onorevoli	
+75	3875	adattata	adattati
+76	3876	unanimu	unanima unanimi
+77	3877	bijografija	bijografiji
+78	3878	artab	ratba rotob
+79	3879	astratt	astratta astratti
+80	3880	stress	istress
+81	3881	nħarġet	inħarġet
+82	3882	sehmu	sehma sehmi
+83	3883	sinifikat	sinifikati
+84	3884	serjament	
+85	3885	qajma	inqajmu iqajmu iqajmuni jqajmu jqajmuh jqajmuhom nqajmu qajmilhom qajmitlu tqajmu
+86	3886	paragun	paraguna paraguni
+87	3887	piano	
+88	3888	mweġġa'	imweġġa imweġġa' imweġġgħa imweġġgħin mweġġa mweġġgħa mweġġgħin
+89	3889	tislima	
+90	3890	vulkaniku	vulkanika vulkaniki
+91	3891	speċjalista	ispeċjalista ispeċjalisti speċjalisti
+92	3892	witta	imwittija inwittu iwitti iwittu jwitti jwittilna jwittu mwittija titwitta twitta twittew twitti twittiet wittejna wittew wittiet wittietli wittu
+93	3893	probation	
+94	3894	orbita	jorbita jorbitaw torbita
+95	3895	miexja	
+96	3896	ħlewwa	ħlew ħlewwitu
+97	3897	inqabda	jinqabdu jinqabdux ninqabdu ninqabdux
+98	3898	iffirmar	
+99	3899	birra	birer
+100	3900	qadi	
