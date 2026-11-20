@@ -57,6 +57,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Italian" to "Italien",
     "Japanese" to "Japonais",
     "Kannada" to "Kannada",
+    "Kazakh" to "Kazakh",
     "Khmer" to "Khmer",
     "Korean" to "Coréen",
     "Lao" to "Lao",

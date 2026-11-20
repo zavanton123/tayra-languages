@@ -57,6 +57,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Italian" to "意大利语",
     "Japanese" to "日语",
     "Kannada" to "卡纳达语",
+    "Kazakh" to "哈萨克语",
     "Khmer" to "高棉语",
     "Korean" to "韩语",
     "Lao" to "老挝语",
