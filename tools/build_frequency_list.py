@@ -59,6 +59,7 @@ import frequency_bengali  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
 import frequency_telugu  # noqa: E402
+import frequency_nepali  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -72,7 +73,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -5252,6 +5253,8 @@ def build(language, source, size):
         return build_khmer(size)
     if language == "sw":
         return frequency_swahili.build(size, download)
+    if language == "ne":
+        return frequency_nepali.build(size, download)
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
