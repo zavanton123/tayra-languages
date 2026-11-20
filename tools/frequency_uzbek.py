@@ -50,12 +50,17 @@ CC100_LINES = 2_000_000
 _CYRILLIC = re.compile("[Ѐ-ӿ]")
 
 
+# A word written with a capital inside a line this many times as often as without is a name (Jamshid, Toshkent, Navoiy), however
+# often a web address or a user name writes it in lowercase (jamshid).
+NAME_SHARE = 9
+
+
 def count_lines(lines):
     """
     The words of [lines] as the reader reads them, lowercased, with their counts. A line written in Cyrillic (Uzbek's other
-    alphabet) is left out; so is a word written only with a capital inside a line (Toshkent, Karimov), which is a name.
+    alphabet) is left out; so is a word written mostly with a capital inside a line (NAME_SHARE), which is a name.
     """
-    words, capital, plain = {}, set(), set()
+    words, capital, plain = {}, {}, {}
     for line in lines:
         if _CYRILLIC.search(line):
             continue
@@ -64,10 +69,10 @@ def count_lines(lines):
             words[key] = words.get(key, 0) + 1
             if word[0] != key[0]:
                 if i:
-                    capital.add(key)
+                    capital[key] = capital.get(key, 0) + 1
             else:
-                plain.add(key)
-    return {w: n for w, n in words.items() if not (w in capital and w not in plain)}
+                plain[key] = plain.get(key, 0) + 1
+    return {w: n for w, n in words.items() if capital.get(w, 0) <= NAME_SHARE * plain.get(w, 0) or not capital.get(w, 0)}
 
 
 def leipzig_sentences(path):
@@ -261,7 +266,7 @@ def derived_verbs(verb):
         return set()
     s = verb[:-3]
     if ends_in_vowel(s):
-        made = [s + "l", s + "n", s + "sh", s + "t", s + "tir", s + "ldi"[:-2] + "in"]
+        made = [s + "l", s + "n", s + "sh", s + "t", s + "tir"]
     else:
         made = [s + ("in" if s.endswith("l") else "il"), s + "in", s + "ish", s + "tir", s + "dir", s + "giz", s + "ir", s + "iz"]
     made += [m + "il" for m in made if m.endswith(("tir", "dir", "t", "giz", "iz", "ir"))]
@@ -281,15 +286,15 @@ def passive_of(verb, pos):
     return None
 
 
-# Spelling and the little words.
-CLITICS = ("mi", "chi", "ku", "gina", "da", "ham")
+# The particles written onto a word: the question -mi, -chi "and what about", -ku, -gina "only".
+CLITICS = ("mi", "chi", "ku", "gina")
 
 
 def with_clitics(form):
     """A form with the question -mi, -chi, -ku, -gina (only) and -u/-yu (and) written onto it; none onto a letter alone (u)."""
     if len(form) < 2:
         return set()
-    out = {form + c for c in CLITICS[:4]}
+    out = {form + c for c in CLITICS}
     out.add(form + ("yu" if ends_in_vowel(form) else "u"))
     return out
 
@@ -407,8 +412,6 @@ OVERRIDES = {"qil": ["qilmoq"]}
 # bora "regard" (borasida "as regards"), no form of bormoq for being spelled as its converb.
 OVERRIDES.update({form: ["bora"] for form in "bora borasida borada borasidagi boradagi".split()})
 OVERRIDES.update({form: ["bormoq"] for form in "boraman borasan boramiz borasiz boramanmi borasanmi boramizmi borasizmi".split()})
-# Forms of a pronoun spelled as words of their own, which keep them (unda "then", shunda "then", bunda "here").
-OWN = set()
 
 
 def regular_forms(word, kinds):
@@ -497,9 +500,8 @@ def load(db, pos, lemmas, common, lexicon_path):
         for form in [f for f, of in lemmas.items() if word in of]:
             lemmas[form] = [l for l in lemmas[form] if l != word]
         for form in forms.split():
-            if form not in OWN:
-                lemmas[form] = sorted(set(lemmas.get(form, [])) | {word})
-                fixed.add(form)
+            lemmas[form] = sorted(set(lemmas.get(form, [])) | {word})
+            fixed.add(form)
     # A verb of the pack is a word of its own, though the pack has it as another's form too.
     for word in [w for w in lemmas if "verb" in pos.get(w, set()) and w.endswith("moq")]:
         del lemmas[word]
