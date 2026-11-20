@@ -1,0 +1,219 @@
+{
+  "id": "az-mini-0800",
+  "rankUpTo": 800,
+  "level": "A2",
+  "title": "Səyahət və tətil",
+  "description": "Ten short stories about travel and holidays: Russian visitors at the burning mountain, a skiing accident at Şahdağ, booking a guest house in Lənkəran with an app, a wedding in Şəki, an old man back in Şuşa, a business meeting in Naxçıvan, a clever dog in a seaside village, stars over Şamaxı, a night on a Caspian cargo ship, and a folk tale of a merchant who keeps his oath.",
+  "topic": "Travel and holidays",
+  "names": [
+    "Sergey",
+    "Olqa",
+    "Moskva",
+    "Azərbaycan",
+    "Bakı",
+    "Elnarə",
+    "Suraxanı",
+    "Atəşgah",
+    "Rusiya",
+    "Elgiz",
+    "Asif",
+    "Şahdağ",
+    "Mədinə",
+    "Habil",
+    "Lənkəran",
+    "Dilarə",
+    "Şəki",
+    "Emin",
+    "Zemfira",
+    "Əkbər",
+    "Şuşa",
+    "Babək",
+    "Rəşid",
+    "Naxçıvan",
+    "Gülnarə",
+    "Tunar",
+    "Novxanı",
+    "Mahmud",
+    "Elcan",
+    "Şamaxı",
+    "Saturn",
+    "Rəfael",
+    "Əjdər",
+    "Xəzər",
+    "Rəhman",
+    "Həsən",
+    "Təbriz"
+  ],
+  "lessons": [
+    {
+      "title": "Yanan dağ",
+      "summary": "Russian visitors Sergey and Olqa come from Moscow to Bakı; Elnarə takes them to a mountain that has burned for thousands of years and to the ancient fire temple in Suraxanı.",
+      "newWords": [
+        "rus",
+        "paytaxt",
+        "yanmaq",
+        "dağ",
+        "atəş",
+        "təxminən",
+        "sanki",
+        "qədim",
+        "dini",
+        "din"
+      ],
+      "text": "Sergey və Olqa rusdur. Onlar Moskvada yaşayırlar. Bu il onlar ilk dəfə Azərbaycana gəldilər. Əvvəl onlar paytaxta, yəni Bakıya gəldilər. Paytaxt onlara çox gözəl göründü.\n\nSəhər onları gənc bir qadın gözləyirdi. Onun adı Elnarə idi. Elnarə rus dilini yaxşı bilirdi.\n— Bu gün sizə yanan bir dağ göstərəcəyəm, — Elnarə dedi.\n— Dağ necə yana bilər? — Olqa soruşdu.\n— Görəcəksiniz, — Elnarə dedi.\n\nOnlar paytaxtdan çıxdılar və təxminən 30 dəqiqə yol getdilər. Onların qarşısında kiçik bir dağ var idi. Dağın altından atəş çıxırdı.\n— Bu atəş təxminən 4000 ildir yanır, — Elnarə dedi. — Yerin altında qaz var. Qaz yuxarı çıxır və yanır.\nSergey atəşə yaxın getdi. Atəş çox güclü idi. Sanki bütün dağ yanırdı.\n\nSonra onlar Suraxanıya getdilər. Orada qədim bir bina var. Onun adı Atəşgahdır.\n— Bu, qədim dini bir yerdir, — Elnarə dedi. — Çox əsr əvvəl buraya atəşə inanan insanlar gəlirdi. Onların dinində atəş müqəddəs idi.\nBinanın ortasında da atəş yanırdı. Olqa uzun müddət atəşə baxdı. Sanki qədim insanlar hələ də burada yaşayırdılar.\n— Azərbaycanda başqa dinlər də var? — Sergey soruşdu.\n— Bəli. Bizim paytaxtda məscidlər də, kilsələr də var. Burada müxtəlif dinlərdən olan insanlar yaşayır.\n\nAxşam Sergey və Olqa Elnarəyə təşəkkür etdilər.\n— Bu gün çox maraqlı idi, — Olqa dedi. — Yanan dağı heç vaxt unutmayacağam.\n— Rusiyada belə dağ yoxdur, — Sergey dedi.\n\nSuallar:\nSergey və Olqa harada yaşayırlar?\nOnlar Moskvada yaşayırlar.\nElnarə hansı dili yaxşı bilirdi?\nElnarə rus dilini yaxşı bilirdi.\nDağda atəş neçə ildir yanır?\nAtəş təxminən 4000 ildir yanır.\nAtəş niyə yanır?\nYerin altında qaz var. Qaz yuxarı çıxır və yanır.\nAtəşgah nədir?\nAtəşgah qədim dini bir yerdir.\nKimlərin dinində atəş müqəddəs idi?\nAtəşə inanan insanların dinində atəş müqəddəs idi."
+    },
+    {
+      "title": "Dağda qəza",
+      "summary": "Sporty Elgiz goes skiing at Şahdağ with his experienced friend Asif, ignores his advice, falls and breaks his arm, and learns at the hospital that such accidents are normal for beginners.",
+      "newWords": [
+        "idman",
+        "təcrübə",
+        "asan",
+        "normal",
+        "qırmaq",
+        "qol",
+        "dərhal",
+        "xəstəxana",
+        "xəstə",
+        "qəza"
+      ],
+      "text": "Elgiz 25 yaşındadır. O, idmanı çox sevir. Hər səhər qaçır, həftədə iki dəfə futbol oynayır. Amma o, heç vaxt dağda xizək sürməyib.\n\nBir dəfə Elgiz dostu Asif ilə Şahdağa getdi. Şahdağ böyük və yüksək dağdır. Asif yaxşı xizək sürürdü. Onun böyük təcrübəsi var idi.\n— Xizək sürmək asandır? — Elgiz soruşdu.\n— Yox, asan deyil, — Asif dedi. — Təcrübə lazımdır. Əvvəl aşağıda öyrən.\nAmma Elgiz onu dinləmədi. O, fikirləşdi: \"Mən idmanı yaxşı bilirəm. Mənim üçün hər şey asandır.\" O, dağın ən yüksək yerinə qalxdı.\n\nElgiz aşağı sürməyə başladı. Əvvəl hər şey normal idi. Sonra o, çox sürətlə getdi və yerə düşdü. Onun sağ qolu çox ağrıyırdı.\nAsif dərhal onun yanına qaçdı.\n— Qolun necədir?\n— Pisdir. Deyəsən, qolumu qırdım.\nAsif dərhal xəstəxanaya zəng etdi. Bir saat sonra onlar xəstəxanaya çatdılar.\n\nHəkim Elgizin qoluna baxdı.\n— Bəli, qolunuz qırılıb, — həkim dedi. — Amma narahat olmayın, bu, normaldır. Bizim xəstəxanada belə xəstələr çox olur. Dağda hər gün bir-iki qəza olur. Bu xəstələrin çoxu gəncdir və onların təcrübəsi yoxdur.\n— Mən xəstəxanada neçə gün qalacağam? — Elgiz soruşdu.\n— Qalmayacaqsınız. Qəza ağır deyil. Bu gün evə gedə bilərsiniz. Amma bir ay idman etməyin.\n— Bir ay idman olmadan necə yaşayım? — Elgiz dedi.\n\nBir aydan sonra Elgizin qolu yenə normal oldu. O, Asifə dedi:\n— Gələn il yenə Şahdağa gedək. Amma bu dəfə mən əvvəl aşağıda öyrənəcəyəm.\n\nSuallar:\nElgiz nəyi çox sevir?\nO, idmanı çox sevir.\nKimin böyük təcrübəsi var idi?\nAsifin böyük təcrübəsi var idi.\nElgiz dağda nəyini qırdı?\nO, sağ qolunu qırdı.\nAsif nə etdi?\nAsif dərhal xəstəxanaya zəng etdi.\nHəkim qəza haqqında nə dedi?\nHəkim dedi ki, qəza ağır deyil.\nElgiz bir ay nə etməməli idi?\nO, bir ay idman etməməli idi."
+    },
+    {
+      "title": "Telefonda tətbiq",
+      "summary": "Mədinə and Habil plan a week in Lənkəran in April; the first website has no information, so they use an app, read a guest house's conditions, book it with a tap and write a short packing list.",
+      "newWords": [
+        "aprel",
+        "sayt",
+        "informasiya",
+        "tətbiq",
+        "siyahı",
+        "şərt",
+        "azı",
+        "basmaq",
+        "qısa"
+      ],
+      "text": "Mədinə və Habil Bakıda yaşayırlar. Aprel ayında onların bir həftə boş vaxtı var idi. Onlar Lənkərana getmək istəyirdilər. Aprel ayında Lənkəranda hava çox yaxşı olur.\n\nAxşam Mədinə Lənkəranda qonaq evi axtarırdı. O, bir neçə sayta baxdı. Birinci saytda informasiya az idi. Orada şəkil yox idi, qiymət də yox idi.\n— Bu saytda heç bir informasiya yoxdur, — Mədinə dedi.\n— Telefonda bir tətbiq var, — Habil dedi. — Tətbiqdə informasiya çox olur.\nHabil telefonda tətbiqi açdı. Tətbiqdə Lənkəranın qonaq evlərinin uzun siyahısı var idi. Siyahıda hər evin şəkli, qiyməti və şərtləri var idi.\n\nMədinə dənizin yanında kiçik bir qonaq evi seçdi. O, evin şərtlərini oxudu. Birinci şərt: pulun azı yarısını əvvəl ödəmək lazımdır. İkinci şərt: fikrinizi dəyişsəniz, azı 3 gün əvvəl xəbər verin.\n— Bu şərtlər pis deyil, — Habil dedi.\nMədinə \"Bəli\" sözünə basdı. Tətbiq soruşdu: \"Neçə nəfərsiniz?\" Mədinə \"2\" yazdı və yenə basdı. Sonra o, pulun yarısını ödədi. Bir dəqiqə sonra telefona qısa bir məktub gəldi: \"Sizi aprelin 10-da gözləyirik.\"\n\nSonra Mədinə qısa bir siyahı yazdı: Lənkərana nə aparmaq lazımdır? Siyahı çox qısa idi: çətir, dərman, iki kitab.\n— Çətir niyə? — Habil soruşdu.\n— Lənkəranda aprel ayında tez-tez yağış yağır, — Mədinə dedi.\n\nSuallar:\nMədinə və Habil hara getmək istəyirdilər?\nOnlar Lənkərana getmək istəyirdilər.\nBirinci saytda nə az idi?\nBirinci saytda informasiya az idi.\nTətbiqdə nə var idi?\nTətbiqdə qonaq evlərinin uzun siyahısı var idi.\nBirinci şərt nə idi?\nPulun azı yarısını əvvəl ödəmək lazım idi.\nQonaq evi onları nə vaxt gözləyir?\nQonaq evi onları aprelin 10-da gözləyir.\nSiyahıda nə var idi?\nSiyahıda çətir, dərman və iki kitab var idi."
+    },
+    {
+      "title": "Şəkidə mərasim",
+      "summary": "Dilarə is invited to Şəki, where her old friend Emin is marrying his school sweetheart Zemfira; she and her parents buy a new dress and flowers, and at the ceremony Emin first greets the old people out of respect.",
+      "newWords": [
+        "dəvət",
+        "valideyn",
+        "sevinmək",
+        "sevgili",
+        "paltar",
+        "dükan",
+        "dəstə",
+        "mərasim",
+        "camaat",
+        "səslənmək",
+        "hörmət"
+      ],
+      "text": "Bir gün Dilarəyə Şəkidən bir dəvət gəldi. Dəvəti onun köhnə dostu Emin göndərmişdi. Emin yazırdı: \"Əziz Dilarə! Mən və Zemfira ailə qururuq. Səni və valideynlərini mərasimə dəvət edirik.\"\n\nDilarə çox sevindi. Zemfira Eminin məktəb vaxtından sevgilisi idi. Onlar 10 il idi ki, bir-birini sevirdilər. İndi onlar ailə qururdular.\n\nDilarə valideynləri ilə maşınla Şəkiyə getdi. Yolda anası soruşdu:\n— Mərasim üçün yeni paltarın var?\n— Yoxdur, — Dilarə dedi. — Köhnə paltarımı götürmüşəm.\n— Şəkidə yaxşı dükanlar var. Gəl, sənə yeni paltar alaq.\nŞəkidə onlar kiçik bir dükana girdilər. Dükanda çox gözəl paltarlar var idi. Dilarə uzun, mavi bir paltar seçdi. Atası pulu ödədi. Sonra onlar başqa bir dükandan bir dəstə gül aldılar. Gül dəstəsi Zemfira üçün idi.\n\nAxşam mərasim başladı. Böyük bir binada çox camaat var idi: kişilər, qadınlar, uşaqlar. Musiqi səsləndi və hamı sevindi. Emin və Zemfira içəri girəndə camaat ayağa qalxdı.\nƏvvəl Emin yaşlı adamların yanına getdi və onlara salam verdi. Bu, yaşlı adamlara hörmət idi. Şəkidə yaşlı adamlara hörmət çox vacibdir. Yaşlı adamlar da Emini və Zemfiranı çox sevirdilər.\nDilarə dəstəni Zemfiraya verdi.\n— Çox sağ ol, — Zemfira dedi. — Paltarın çox gözəldir!\nGecə yarısına qədər musiqi səsləndi. Camaat oynadı. Dilarənin valideynləri də oynadılar. Dilarə də çox oynadı və çox sevindi.\n\nSuallar:\nDilarəyə haradan dəvət gəldi?\nDilarəyə Şəkidən dəvət gəldi.\nZemfira kimin sevgilisi idi?\nZemfira Eminin sevgilisi idi.\nDilarə dükanda nə seçdi?\nO, uzun, mavi bir paltar seçdi.\nDəstə kimin üçün idi?\nDəstə Zemfira üçün idi.\nMərasimdə Emin əvvəl nə etdi?\nEmin əvvəl yaşlı adamların yanına getdi. Bu, yaşlı adamlara hörmət idi.\nMərasimdə nə səsləndi?\nMərasimdə musiqi səsləndi."
+    },
+    {
+      "title": "Şuşaya yol",
+      "summary": "Eighty-year-old Əkbər left Şuşa in 1992; after the victory and the start of the city's restoration he goes back with his son Babək, finds the tree of his childhood still standing and speaks of the heroes and of peace.",
+      "newWords": [
+        "sonuncu",
+        "xəyal",
+        "qələbə",
+        "qəhrəman",
+        "bərpa",
+        "xatirə",
+        "ağac",
+        "can",
+        "indiki",
+        "sülh"
+      ],
+      "text": "Əkbər kişi 80 yaşındadır. O, Şuşada anadan olub. 1992-ci ildə o, ailəsi ilə Şuşadan getdi. Sonuncu dəfə o, şəhəri həmin il görmüşdü. Ondan sonra 28 il onun bir xəyalı var idi: Şuşaya qayıtmaq.\n\n2020-ci ildə qələbə xəbəri gəldi. Bu, böyük qələbə idi. Qəhrəman əsgərlər Şuşanı azad etmişdilər. Əkbər kişi televizorun qarşısında ağladı.\nSonra dövlət şəhəri bərpa etməyə başladı. Dövlət köhnə evləri, yolları və məscidləri bərpa edirdi.\n\nBu il Əkbər kişi oğlu Babək ilə Şuşaya getdi. Yolda Babək soruşdu:\n— Ata, köhnə Şuşa necə idi?\n— Çox gözəl idi, — Əkbər kişi dedi. — Məndə ondan çox xatirə qalıb. Evimizin yanında böyük bir ağac var idi. Uşaq vaxtı mən o ağacın altında oynayırdım.\nŞuşada onlar köhnə küçəyə getdilər. Ev yox idi, amma ağac orada idi! Əkbər kişi ağacın altında oturdu. Xatirələr bir-bir gəldi: anası, atası, dostları.\n— Canım Şuşa, — o dedi. — Mən 28 il bu günün xəyalı ilə yaşadım.\n— Ata, indiki Şuşa köhnə Şuşaya oxşayır? — Babək soruşdu.\n— Çox dəyişib. Amma ağac eynidir. Dağlar da eynidir. İndi şəhəri bərpa edirlər. Bir neçə ildən sonra indiki Şuşa yenə gözəl olacaq.\n\nAxşam onlar şəhərin meydanında dayandılar. Əkbər kişi dedi:\n— Bu qələbə üçün çox gənc canını verdi. Onlar bizim qəhrəmanlarımızdır. İndi ən vacib şey sülhdür. Mən istəyirəm ki, sənin uşaqların sülh içində yaşasınlar.\n— Sənin xəyalın həqiqət oldu, ata, — Babək dedi.\n\nSuallar:\nƏkbər kişi sonuncu dəfə Şuşanı nə vaxt görmüşdü?\nO, Şuşanı sonuncu dəfə 1992-ci ildə görmüşdü.\nƏkbər kişinin xəyalı nə idi?\nOnun xəyalı Şuşaya qayıtmaq idi.\nŞuşanı kim azad etmişdi?\nŞuşanı qəhrəman əsgərlər azad etmişdi.\nƏkbər kişi ağacın altında nə edirdi?\nUşaq vaxtı o, ağacın altında oynayırdı.\nƏkbər kişiyə görə indi ən vacib şey nədir?\nOna görə ən vacib şey sülhdür."
+    },
+    {
+      "title": "Naxçıvanda iclas",
+      "summary": "Expert Rəşid represents his Bakı company at a meeting with three officials in Naxçıvan; they discuss the plan, the small annual budget and the contract's terms, and he signs a three-year contract.",
+      "newWords": [
+        "ekspert",
+        "mühüm",
+        "təmsil",
+        "katib",
+        "əlaqədar",
+        "müqavilə",
+        "iclas",
+        "məmur",
+        "ibarət",
+        "büdcə",
+        "illik"
+      ],
+      "text": "Rəşid Bakıda bir şirkətdə işləyir. O, ekspertdir: insanlar üçün Azərbaycanın rayonlarına səfərlər hazırlayır. Bu il şirkət Naxçıvana da səfərlər təşkil etmək istəyirdi. Bu, şirkət üçün mühüm bir iş idi.\n\nBir gün müdir Rəşidi çağırdı.\n— Gələn həftə Naxçıvanda mühüm bir iclas var, — müdir dedi. — Şirkətimizi sən təmsil edəcəksən.\nŞirkətin katibi Gülnarə xanım Rəşid üçün təyyarə bileti aldı. O, Rəşidə bir neçə sənəd verdi.\n— Bu sənədlər iclasla əlaqədardır, — katib dedi. — Müqavilə də buradadır.\n\nNaxçıvanda iclas bir dövlət idarəsində oldu. İclasda üç məmur var idi. Rəşid ilə birlikdə iclas 4 nəfərdən ibarət idi. Birinci məmur dedi:\n— Biz istəyirik ki, Naxçıvana daha çox qonaq gəlsin. Bizim qədim şəhərlərimiz, gözəl dağlarımız var. Amma insanlar bunu bilmir.\nRəşid şirkətin planını göstərdi. Plan üç hissədən ibarət idi: dağlara səfər, qədim yerlərə səfər və Naxçıvanın yeməkləri.\nSonra onlar büdcəni danışdılar. İkinci məmur dedi:\n— Bizim illik büdcəmiz böyük deyil. Amma bu plana pul verə bilərik.\nSonra onlar müqavilənin şərtlərini oxudular. Müqavilə 3 illik idi. Müqaviləyə görə, şirkət hər il azı 2000 qonaq gətirəcək. Dövlət isə yollara pul verəcək.\n\nRəşid müdirə zəng etdi:\n— Şərtlər yaxşıdır. Müqaviləni imzalayım?\n— İmzala, — müdir dedi.\nRəşid müqaviləni imzaladı. Axşam o, katibə zəng etdi:\n— Gülnarə xanım, iclas çox yaxşı keçdi. Müqavilə ilə əlaqədar bütün sənədləri sabah gətirəcəyəm.\nSonra Rəşid qədim şəhərin küçələrində gəzdi.\n\nSuallar:\nRəşid kimdir?\nRəşid ekspertdir, bir şirkətdə işləyir.\nİclasda şirkəti kim təmsil etdi?\nİclasda şirkəti Rəşid təmsil etdi.\nİclas neçə nəfərdən ibarət idi?\nİclas 4 nəfərdən ibarət idi.\nMəmurların illik büdcəsi necə idi?\nOnların illik büdcəsi böyük deyildi.\nMüqavilə neçə illik idi?\nMüqavilə 3 illik idi."
+    },
+    {
+      "title": "Ağıllı it",
+      "summary": "Ten-year-old Tunar spends the summer in the seaside village of Novxanı; he is afraid of the neighbour's big dog until he sees how clever it is, and one night the dog finds him by the sea and leads him home.",
+      "newWords": [
+        "qəsəbə",
+        "ön",
+        "it",
+        "heyvan",
+        "yaxınlaşmaq",
+        "toxunmaq",
+        "dəymək",
+        "ağıllı",
+        "ağız",
+        "xeyli"
+      ],
+      "text": "Tunar 10 yaşındadır. Hər il o, anası ilə Novxanıya gedir. Novxanı dənizin yanında kiçik bir qəsəbədir. Qəsəbədə onların köhnə bir evi var. Evin önündə böyük bir ağac var.\n\nBu il birinci gün evin önünə böyük bir it gəldi. Tunar itdən qorxdu. O, itə yaxınlaşmadı.\n— Ana, bu kimin itidir? — o soruşdu.\n— Bilmirəm, — anası dedi. — Biz bu heyvanı tanımırıq. Ona toxunma.\nAxşam yanlarındakı evdən Mahmud kişi gəldi.\n— Qorxma, oğlum, — o dedi. — Bu, mənim itimdir. O, çox ağıllı heyvandır. Uşaqlara heç vaxt dəymir.\nTunar itə yaxınlaşdı. İt sakit dayandı. Tunar əli ilə itin başına toxundu.\n\nMahmud kişinin iti doğrudan da çox ağıllı idi. Hər səhər o, qəsəbənin dükanına gedirdi. Dükanda bir kişi onun ağzına qəzet qoyurdu. İt qəzeti ağzında evə gətirirdi və Mahmud kişinin önünə qoyurdu.\n— Bu it adamdan da ağıllıdır! — Tunar dedi.\n\nBir axşam Tunar dənizin yanında tək gəzirdi. O, xeyli uzağa getdi. Gecə oldu. Tunar evin yolunu tapa bilmədi. O, qaçdı, amma ayağı bir daşa dəydi və o, yerə düşdü. Tunar qorxdu və ağladı.\nSonra bir heyvan ona yaxınlaşdı. Bu, Mahmud kişinin iti idi! İt Tunarın yanında dayandı. Sonra o, qabağa getdi. Tunar da onunla getdi. Onlar xeyli yol getdilər və evin önünə çatdılar.\nAnası Tunarı gözləyirdi. O, oğlunu görəndə çox sevindi. Sonra o da itin başına toxundu.\n— Sağ ol, ağıllı heyvan, — o dedi.\n\nSuallar:\nNovxanı nədir?\nNovxanı dənizin yanında kiçik bir qəsəbədir.\nTunar əvvəl nədən qorxdu?\nO, böyük itdən qorxdu.\nMahmud kişi it haqqında nə dedi?\nO dedi ki, it çox ağıllıdır və uşaqlara heç vaxt dəymir.\nİt hər səhər ağzında nə gətirirdi?\nİt hər səhər ağzında qəzet gətirirdi.\nGecə Tunarı kim tapdı?\nOnu Mahmud kişinin iti tapdı."
+    },
+    {
+      "title": "Ulduzlara baxış",
+      "summary": "Twelve-year-old Elcan, who dreams about the universe, goes with his father to the observatory in the Şamaxı mountains, watches a film about the stars and, under a clear sky, sees Saturn.",
+      "newWords": [
+        "kainat",
+        "xüsusilə",
+        "sayılmaq",
+        "cəlb",
+        "nümayiş",
+        "adi",
+        "olduqca",
+        "mənbə",
+        "yayılmaq",
+        "ümumiyyətlə",
+        "aydın"
+      ],
+      "text": "Elcan 12 yaşındadır. Onun xəyalı kainatı öyrənməkdir. O, kainat haqqında çox kitab oxuyur. Kitablar və internet onun informasiya mənbələridir. Ulduzlar Elcanı həmişə özünə cəlb edir. O, ulduzları sevir, xüsusilə böyük ulduzları.\n\nBir dəfə Elcan atası ilə Şamaxıya getdi. Şamaxının dağlarında böyük bir rəsədxana var. Bu yer ulduzlara baxmaq üçün Azərbaycanın ən yaxşı yeri sayılır. Rəsədxana hər il çox qonaq cəlb edir. Xüsusilə uşaqlar buraya çox gəlir. Bu yer ölkənin ən maraqlı yerlərindən biri sayılır.\n\nAxşam orada kainat haqqında bir filmin nümayişi oldu. Filmə görə, bizim Günəş adi bir ulduzdur. Kainatda belə adi ulduzlar olduqca çoxdur. Bütün ulduzlar işıq mənbələridir. Onların işığı kainatda hər tərəfə yayılır.\nNümayişdən sonra rəsədxananın bir işçisi uşaqlarla danışdı.\n— Ümumiyyətlə, şəhərdə ulduzları görmək çətindir, — işçi dedi. — Şəhərin işığı hər tərəfə yayılır. Burada isə gecələr hava aydın olur.\n\nGecə saat 11-də onlar böyük bir teleskopun yanına getdilər. Hava olduqca aydın idi. Elcan teleskopla baxdı və Saturnu gördü.\n— Ata, bu adi ulduz deyil! — o dedi.\n— Düz deyirsən, — işçi dedi. — Bu, ulduz deyil, Saturndur.\nElcan uzun müddət yuxarı baxdı. Sanki bütün kainat onun qarşısında idi.\nÜmumiyyətlə, bu, Elcanın ən yaxşı səfəri idi. Evə qayıdanda o dedi:\n— Mən də kainatı öyrənəcəyəm.\n\nSuallar:\nElcanın xəyalı nədir?\nOnun xəyalı kainatı öyrənməkdir.\nŞamaxının dağlarında nə var?\nOrada böyük bir rəsədxana var.\nFilmə görə, Günəş necə ulduzdur?\nFilmə görə, Günəş adi bir ulduzdur.\nŞəhərdə ulduzları görmək niyə çətindir?\nÇünki şəhərin işığı hər tərəfə yayılır.\nElcan nəyi gördü?\nO, Saturnu gördü."
+    },
+    {
+      "title": "Gəmidə gecə",
+      "summary": "Fifteen-year-old Rəfael crosses the Caspian on his father Əjdər's cargo ship; at night the captain sees the air pressure falling, gives orders to secure the load and turns the ship towards an island, and in the morning they go on safely.",
+      "newWords": [
+        "kapitan",
+        "yük",
+        "vasitə",
+        "yaxud",
+        "təzyiq",
+        "əmr",
+        "çevirmək",
+        "artırmaq",
+        "ehtiyat"
+      ],
+      "text": "Rəfael 15 yaşındadır. Onun atası Əjdər kapitandır. O, böyük bir gəmidə işləyir. Gəmi Bakıdan Xəzərin o biri tərəfinə yük daşıyır. Gəmidə adamlar da gedir. Dənizdə gəmi yaxşı vasitədir: o, çox yük apara bilir.\n\nBir dəfə Rəfael atası ilə gəmiyə getdi. Gəmi axşam yola çıxdı. Kapitan oğluna gəmini göstərdi. Aşağıda yük var idi: 30 böyük maşın. Gəmidə ehtiyat su və yemək də var idi.\n— Ata, biz nə vaxt çatacağıq? — Rəfael soruşdu.\n— Hava yaxşı olsa, 18 saata çatarıq, yaxud 20 saata, — kapitan dedi.\n\nGecə kapitan təzyiqə baxdı. Havanın təzyiqi düşürdü.\n— Təzyiq düşür, — kapitan dedi. — Bu o deməkdir ki, hava pis olacaq.\nO, dərhal əmr verdi:\n— Yükü yoxlayın! Hər maşını yaxşı bağlayın!\nAdamlar kapitanın əmrini dərhal yerinə yetirdilər. Sonra kapitan radio ilə Bakıya danışdı. Dənizdə radio əsas əlaqə vasitəsidir.\nSonra kapitan gəmini bir adaya tərəf çevirdi.\n— Adanın arxasında dəniz sakit olur, — o dedi. Sonra o, gəminin gücünü artırdı.\n— Ata, bizim yeməyimiz çatacaq? — Rəfael soruşdu.\n— Narahat olma. Bizim ehtiyat yeməyimiz var. Kapitan həmişə ehtiyat saxlamalıdır.\n\nGecə hava pis oldu. Rəfael qorxdu, amma atası sakit idi. Kapitan bir saat, yaxud iki saat bir yerdə dayandı və dənizə baxdı.\nSəhər hava yaxşı oldu. Kapitan gəmini yenə şərqə çevirdi və gücü artırdı. Axşam onlar o biri tərəfə çatdılar.\n— Ata, sən gecə hər şeyi düzgün etdin, — Rəfael dedi.\n— Bu, mənim işimdir, oğlum, — kapitan dedi.\n\nSuallar:\nRəfaelin atası kimdir?\nOnun atası Əjdər kapitandır.\nGəmidə hansı yük var idi?\nGəmidə 30 böyük maşın var idi.\nGecə kapitan nəyə baxdı?\nKapitan havanın təzyiqinə baxdı.\nKapitan hansı əmri verdi?\nO dedi: \"Yükü yoxlayın! Hər maşını yaxşı bağlayın!\"\nKapitan gəmini hara çevirdi?\nO, gəmini bir adaya tərəf çevirdi.\nGəmidə ehtiyat yemək var idi?\nBəli, gəmidə ehtiyat yemək var idi."
+    },
+    {
+      "title": "Şeytan və and",
+      "summary": "A folk tale: a Muslim merchant from Şamaxı borrows money from his friend Həsən and swears to repay it in a year; in Təbriz the devil tells him to keep it, but he crosses the winter mountains, keeps his oath and is rewarded.",
+      "newWords": [
+        "müsəlman",
+        "borc",
+        "and",
+        "şeytan",
+        "vec",
+        "gic",
+        "pozmaq",
+        "dəli",
+        "mükafat"
+      ],
+      "text": "Çox qədim vaxtlarda Şamaxıda bir adam yaşayırdı. Onun adı Rəhman idi. O, ticarət edirdi. Rəhman yaxşı müsəlman idi: heç vaxt yalan danışmırdı.\n\nBir gün Rəhman Təbrizə getmək istədi. Amma onun pulu az idi. O, dostu Həsəndən borc aldı.\n— Bir ildən sonra borcumu qaytaracağam, — Rəhman dedi. — And içirəm.\nMüsəlman üçün and çox ciddi şeydir. Rəhman bunu bilirdi.\n\nTəbrizdə Rəhmanın işləri yaxşı getdi. O, çox pul qazandı. Bir gecə onun yanına qəribə bir adam gəldi. Bu adam şeytan idi, amma Rəhman bunu bilmirdi.\n— Borcunu niyə qaytarırsan? — şeytan dedi. — Dostun yaşlıdır, onun vecinə deyil. Kimin vecinədir? Pulu özünə saxla.\n— Mən and içmişəm, — Rəhman dedi. — Andımı pozmaq istəmirəm.\n— Sən gicsən? — şeytan dedi. — Gic olma! Heç kim bilməyəcək. Andı pozmaq asandır.\nAmma Rəhman şeytanı dinləmədi.\n\nQış gəldi. Dağlarda qar var idi. Təbrizdəki dostları ona dedilər:\n— Qışda dağlardan keçmək olmaz. Sən dəlisən? Yaza qədər gözlə.\n— Gözləyə bilmərəm, — Rəhman dedi. — Borcumu vaxtında qaytarmalıyam.\nHamı dedi ki, Rəhman dəlidir. Amma o, dağlardan keçdi və düz bir ildən sonra Şamaxıya çatdı. O, Həsənə borcunu qaytardı.\n\nHəsən çox sevindi.\n— Mən bilirdim ki, sən andını pozmazsan, — o dedi. — Bu pulun yarısı sənin mükafatındır.\nŞəhərin camaatı da bu xəbəri eşitdi. Hamı Rəhmana hörmət etdi. Bu hörmət ona ən böyük mükafat idi. Şeytan isə bu dəfə heç nə edə bilmədi.\n\nSuallar:\nRəhman kimdən borc aldı?\nO, dostu Həsəndən borc aldı.\nRəhman nəyə and içdi?\nO, and içdi ki, borcunu bir ildən sonra qaytaracaq.\nTəbrizdə Rəhmanın yanına kim gəldi?\nOnun yanına şeytan gəldi.\nDostları Rəhmana nə dedilər?\nOnlar dedilər: \"Sən dəlisən? Yaza qədər gözlə.\"\nHəsən Rəhmana nə verdi?\nHəsən pulun yarısını Rəhmana mükafat olaraq verdi."
+    }
+  ]
+}
