@@ -1,100 +1,100 @@
-1	3601	uhelgomzer	uhelgomzerioù
-2	3602	balirañ	valirañ
-3	3603	barrennig-stagañ	varrennig-stagañ
-4	3604	buanded	vuanded
-5	3605	gwarellvaez	warellvaez
-6	3606	brennig	brennigennoù
-7	3607	garm	garmoù
-8	3608	bridañ	bridas brides bridis bridiñ pride
-9	3609	birviken	virviken
-10	3610	bennigañ	pennigañ vennigañ
-11	3611	broñs	broñsoù vroñs
-12	3612	dibr	dibroù
-13	3613	tonn	donn
-14	3614	goulakaat	c'houlakaat
-15	3615	goullonderiñ	c'houllonderiñ goullonder koullonderiñ
-16	3616	kafedi	c'hafedi
-17	3617	morad	moriad
-18	3618	moru	morued
-19	3619	sorc'henn	sorc'hennoù
-20	3620	toer	doer
-21	3621	toger	doger
-22	3622	trubardiñ	drubardiñ trubardez zrubardiñ
-23	3623	chilean	chileaned
-24	3624	deraouiñ	deraou teraou zeraouiñ
-25	3625	torchañ	dorchañ torch torchas torche torchis torchiñ zorchañ
-26	3626	abrant	abrantoù
-27	3627	bu	bioù
-28	3628	biz-troad	bizied-treid bizied-troad
-29	3629	planter	blanterien
-30	3630	blein	plein vlein
-31	3631	pourmenerez	bourmenerien pourmenerien
-32	3632	kaol	c'haol
-33	3633	gedal	c'hedal gedañ gediñ gedo kedal
-34	3634	kegel	c'hegel gegel
-35	3635	kroateg	c'hroateg
-36	3636	krokodil	c'hrokodil krokodiled
-37	3637	groñj	c'hroñj
-38	3638	kwark	c'hwark gwark kwarkoù
-39	3639	dared	daredenn daredoù tared
-40	3640	dibenn-pred	dibennoù-pred
-41	3641	torchenn	dorchenn torchennoù
-42	3642	drez	dresenn
-43	3643	tud-varc'h	dud-varc'h
-44	3644	flemmskeudenn	flemmskeudennoù
-45	3645	kabestr	c'habestr gabestr
-46	3646	gourmarc'had	gourmarc'hadoù
-47	3647	kravatenn	gravatenn kravatennoù
-48	3648	kunujenniñ	c'hunujenniñ gunujenniñ
-49	3649	heuz	heuzoù
-50	3650	isofiser	isofiserien
-51	3651	kaerded	c'haerded gaerded
-52	3652	kempenner	c'hempenner gempenner
-53	3653	kribenn	c'hribennoù gribenn
-54	3654	louc'h	louc'hoù
-55	3655	pennad-stur	fennad-stur pennadoù-stur
-56	3656	plankenn-dre-lien	plankennoù-dre-lien
-57	3657	reked	rekedoù
-58	3658	taouarc'h	daouarc'h
-59	3659	dispac'hañ	tispac'hañ
-60	3660	toksin	toksinoù
-61	3661	toull-noz	toulloù-noz
-62	3662	treflez	dreflez dreflezenn
-63	3663	treizhad	dreizhadez dreizhidi
-64	3664	trolinenn	trolinennoù
-65	3665	vic'haner	vic'hanerien
-66	3666	gwadañ	gwadiñ kwadañ wadañ
-67	3667	gwenvidig	wenvidien wenvidig
-68	3668	gwerzhid	gwerzhidoù werzhid
-69	3669	gwrac'hell	gwrac'helloù wrac'hell
-70	3670	gourniz	c'hourniz gournizez
-71	3671	souezhañ	souezhas souezhiñ
-72	3672	tanañ	danañ danet tanet tanfe tanfec'h tanfed tanfemp tanfen tanfent tanfes tanimp tanis tanje tanjec'h tanjed tanjemp tanjen tanjent tanjes tanjoc'h tanjod tanjomp tanjont tanjout tanoc'h tanor tanot zanañ zanjed
-73	3673	kelennerezh	c'helennerezh gelennerezh
-74	3674	ave	
-75	3675	faoued	
-76	3676	kleñvel	gleñvel kleñver
-77	3677	marr	
-78	3678	paskal	
-79	3679	pichon	
-80	3680	a-c'haol	
-81	3681	a-c'haoliad	
-82	3682	a-dre	
-83	3683	abegiñ	abegal abegout
-84	3684	adenvel	
-85	3685	adjudant	
-86	3686	advab	
-87	3687	advevañ	adveviñ
-88	3688	aerva	
-89	3689	akordeon	
-90	3690	aktiniom	
-91	3691	akuit	
-92	3692	amanenn	
-93	3693	an-unan	
-94	3694	anduilh	
-95	3695	anv-gwan-verb	
-96	3696	arc'hantus	
-97	3697	azot	
-98	3698	azv	
-99	3699	baraer	
-100	3700	barr-amzer	
+1	3601	miltir	
+2	3602	morvil	morviled
+3	3603	naontekvet	
+4	3604	nikun	
+5	3605	niobiom	
+6	3606	onn	
+7	3607	pegeit	
+8	3608	pintet	
+9	3609	poultrennek	
+10	3610	rakdant	rakdent
+11	3611	ranell	
+12	3612	rimiañ	rimi rimian rimias rimie rimiec'h rimiemp rimien rimient rimies rimiet rimiez rimife rimifec'h rimifed rimifemp rimifen rimifent rimifes rimii rimiimp rimiin rimiint rimiis rimiit rimije rimijec'h rimijed rimijemp rimijen rimijent rimijes rimijoc'h rimijod rimijomp rimijont rimijout rimio rimiomp rimiont rimior rimiot
+13	3613	romaneg	
+14	3614	roudennek	
+15	3615	sach-blev	
+16	3616	saksell	
+17	3617	santimetr	
+18	3618	sioulder	
+19	3619	skav-gwrac'h	
+20	3620	skiant-prenañ	
+21	3621	soliusted	
+22	3622	souezhadenn	
+23	3623	staen	
+24	3624	stagus	
+25	3625	staon	
+26	3626	staot	
+27	3627	steredennig	
+28	3628	strakal	strakan strakas strakat strake strakec'h strakemp straken strakent strakes straket strakez strakfe strakfec'h strakfed strakfemp strakfen strakfent strakfes straki strakimp strakin strakint strakis strakit strakiñ strakje strakjec'h strakjed strakjemp strakjen strakjent strakjes strakjoc'h strakjod strakjomp strakjont strakjout strako strakomp strakont strakor strakot
+29	3629	strontiom	
+30	3630	tavarnour	
+31	3631	teirgwern	
+32	3632	teiryezhek	
+33	3633	ti-hent-houarn	
+34	3634	tibetek	
+35	3635	tsundere	
+36	3636	hun	
+37	3637	a-greiz-holl	
+38	3638	parrezian	barrezianiz
+39	3639	besamiral	
+40	3640	damruz	
+41	3641	diner	
+42	3642	dizingalded	
+43	3643	faezh	
+44	3644	faou	
+45	3645	gasterezh	
+46	3646	kozhni	gozhni
+47	3647	gweet	
+48	3648	hec'h-unan-penn	
+49	3649	lent	
+50	3650	loenoniezh	
+51	3651	lugerniñ	lugernal lugernan lugernas lugerne lugernec'h lugernemp lugernen lugernent lugernes lugernet lugernez lugernfe lugernfec'h lugernfed lugernfemp lugernfen lugernfent lugernfes lugerni lugernimp lugernin lugernint lugernis lugernit lugernje lugernjec'h lugernjed lugernjemp lugernjen lugernjent lugernjes lugernjoc'h lugernjod lugernjomp lugernjont lugernjout lugerno lugernomp lugernont lugernor lugernot
+52	3652	noplaat	nopla noplaan noplaas noplae noplaec'h noplaemp noplaen noplaent noplaes noplaet noplaez noplafe noplafec'h noplafed noplafemp noplafen noplafent noplafes noplai noplaimp noplain noplaint noplais noplait noplaje noplajec'h noplajed noplajemp noplajen noplajent noplajes noplajoc'h noplajod noplajomp noplajont noplajout noplao noplaomp noplaont noplaor noplaot
+53	3653	oberata	oberataan oberataas oberatae oberataec'h oberataemp oberataen oberataent oberataes oberataet oberataez oberatafe oberatafec'h oberatafed oberatafemp oberatafen oberatafent oberatafes oberatai oberataimp oberatain oberataint oberatais oberatait oberataje oberatajec'h oberatajed oberatajemp oberatajen oberatajent oberatajes oberatajoc'h oberatajod oberatajomp oberatajont oberatajout oberatao oberataomp oberataont oberataor oberataot
+54	3654	ozon	
+55	3655	piz	
+56	3656	blin	plin
+57	3657	trebez	
+58	3658	aba	
+59	3659	parlamanter	barlamanterien
+60	3660	follez	
+61	3661	laouenan	
+62	3662	paeroniañ	baeroniañ paeroni paeronian paeronias paeronie paeroniec'h paeroniemp paeronien paeronient paeronies paeroniet paeroniez paeronife paeronifec'h paeronifed paeronifemp paeronifen paeronifent paeronifes paeronii paeroniimp paeroniin paeroniint paeroniis paeroniit paeronije paeronijec'h paeronijed paeronijemp paeronijen paeronijent paeronijes paeronijoc'h paeronijod paeronijomp paeronijont paeronijout paeronio paeroniomp paeroniont paeronior paeroniot paeroniñ
+63	3663	esa	
+64	3664	kiañ	giañ gies kies kife kifen kifes
+65	3665	lili	lilienn
+66	3666	apotikerezh	apotikerezhioù
+67	3667	baleer	baleerien valeerien
+68	3668	blotvil	blotviled
+69	3669	karotez	c'harotez
+70	3670	koadourez	c'hoadour koadourien
+71	3671	tennadeg	dennadeg
+72	3672	dic'haou	zic'haou
+73	3673	diferad	diferadoù
+74	3674	evn-mor	evned-mor
+75	3675	gavotenn	gavotennoù
+76	3676	genn	gennoù
+77	3677	gouestoni	c'houestoni
+78	3678	heureuchin	heureuchinez
+79	3679	isgenad	isgenadoù
+80	3680	islavarenn	islavarennoù
+81	3681	kampiñ	c'hampiñ gampiñ kamp kampan kampas kampañ kampe kampec'h kampemp kampen kampent kampes kampet kampez kampfe kampfec'h kampfed kampfemp kampfen kampfent kampfes kampi kampimp kampin kampint kampis kampit kampje kampjec'h kampjed kampjemp kampjen kampjent kampjes kampjoc'h kampjod kampjomp kampjont kampjout kampo kampomp kampont kampor kampot
+82	3682	kation	kationoù
+83	3683	kleñvedus	c'hleñvedus
+84	3684	langaj	langajoù
+85	3685	leñvañ	leñval leñvan leñvas leñve leñvec'h leñvemp leñven leñvent leñves leñvet leñvez leñvfe leñvfec'h leñvfed leñvfemp leñvfen leñvfent leñvfes leñvi leñvimp leñvin leñvint leñvis leñvit leñviñ leñvje leñvjec'h leñvjed leñvjemp leñvjen leñvjent leñvjes leñvjoc'h leñvjod leñvjomp leñvjont leñvjout leñvo leñvomp leñvont leñvor leñvot
+86	3686	liorzhour	liorzhourien
+87	3687	liñsel	liñselioù
+88	3688	luc'heilerez	luc'heilerezioù
+89	3689	mallus	mallusoc'h
+90	3690	mereng	merengoù
+91	3691	mouest	vouest
+92	3692	panez	panes
+93	3693	paseporzh	paseporzhioù
+94	3694	penn-bazh	fenn-bazh
+95	3695	periant	periantoù
+96	3696	plaouiañ	blaouiañ flaouiañ plaoufañ plaoui plaouian plaouias plaouie plaouiec'h plaouiemp plaouien plaouient plaouies plaouiet plaouiez plaouife plaouifec'h plaouifed plaouifemp plaouifen plaouifent plaouifes plaouii plaouiimp plaouiin plaouiint plaouiis plaouiit plaouije plaouijec'h plaouijed plaouijemp plaouijen plaouijent plaouijes plaouijoc'h plaouijod plaouijomp plaouijont plaouijout plaouio plaouiomp plaouiont plaouior plaouiot
+97	3697	rakvarn	rakvarnan rakvarnas rakvarne rakvarnec'h rakvarnemp rakvarnen rakvarnent rakvarnes rakvarnet rakvarnez rakvarnfe rakvarnfec'h rakvarnfed rakvarnfemp rakvarnfen rakvarnfent rakvarnfes rakvarni rakvarnimp rakvarnin rakvarnint rakvarnioù rakvarnis rakvarnit rakvarnje rakvarnjec'h rakvarnjed rakvarnjemp rakvarnjen rakvarnjent rakvarnjes rakvarnjoc'h rakvarnjod rakvarnjomp rakvarnjont rakvarnjout rakvarno rakvarnomp rakvarnont rakvarnor rakvarnot
+98	3698	riklañ	rikl riklan riklas rikle riklec'h riklemp riklen riklent rikles riklet riklez riklfe riklfec'h riklfed riklfemp riklfen riklfent riklfes rikli riklimp riklin riklint riklis riklit riklje rikljec'h rikljed rikljemp rikljen rikljent rikljes rikljoc'h rikljod rikljomp rikljont rikljout riklo riklomp riklont riklor riklot
+99	3699	skourrad	skourradoù
+100	3700	skrabañ	skrab skraban skrabas skrabat skrabe skrabec'h skrabemp skraben skrabent skrabes skrabet skrabez skrabfe skrabfec'h skrabfed skrabfemp skrabfen skrabfent skrabfes skrabi skrabimp skrabin skrabint skrabis skrabit skrabje skrabjec'h skrabjed skrabjemp skrabjen skrabjent skrabjes skrabjoc'h skrabjod skrabjomp skrabjont skrabjout skrabo skrabomp skrabont skrabor skrabot

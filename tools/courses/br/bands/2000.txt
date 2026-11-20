@@ -1,100 +1,100 @@
-1	1901	brank	brankoù vrank vrankoù
-2	1902	pinijenn	binijenn binijennoù pinijennoù
-3	1903	koazhañ	c'hoazhet goazhañ koazhet koazhiñ koazho
-4	1904	okitaneg	
-5	1905	onest	
-6	1906	a-is	
-7	1907	arvestiñ	
-8	1908	farsus	
-9	1909	nederlandeg	
-10	1910	didrouz	
-11	1911	dizimez	
-12	1912	naetaat	
-13	1913	nep	
-14	1914	sukr	
-15	1915	nevez-amzer	
-16	1916	antronoz	
-17	1917	erotek	erotekoc'h
-18	1918	gwregel	wregel
-19	1919	puñs	buñs
-20	1920	ski	skioù
-21	1921	glev	c'hlev
-22	1922	tramor	dramor
-23	1923	marichal	varichal varichaled
-24	1924	divarvel	zivarvel
-25	1925	drama	dramaoù
-26	1926	triad	triadoù
-27	1927	boull	boullañ voull
-28	1928	plouz	blouz blouzenn
-29	1929	tuta	duta
-30	1930	besprezidant	besprezidantez vesprezidantez
-31	1931	terzhienn	derzhienn terzhiennoù
-32	1932	gouli	c'houlioù goulioù
-33	1933	mab-kaer	vab-kaer
-34	1934	gwazhi	gwazhied wazhied wazhienn
-35	1935	kousk	c'housk gousk
-36	1936	gourener	c'hourenerien gourenerez gourenerien
-37	1937	karr-boutin	c'harr-boutin c'hirri-boutin kirri-boutin
-38	1938	tuchenn	duchenn tuchennoù
-39	1939	bombard	bombardoù vombard
-40	1940	gwarnizon	gwarnizonoù warnizon
-41	1941	argadiñ	argader argaderien
-42	1942	kodianañ	godianañ
-43	1943	lamm-dour	lammoù-dour
-44	1944	rakger	rakgerioù
-45	1945	diamant	diamantoù
-46	1946	arzh	arzhed arzhez
-47	1947	gavr	c'havr c'hivri givri
-48	1948	prad	brad pradeier pradoù
-49	1949	tor	dorioù norioù torioù
-50	1950	stern	sternioù
-51	1951	marvus	marvusañ varvus
-52	1952	trenk	drenk drenkañ drenkoc'h trenkoc'h
-53	1953	gwenan	gwenanenn wenan wenanenn
-54	1954	roued	rouedoù
-55	1955	tag	dag zag
-56	1956	moc'h	voc'h
-57	1957	preizhañ	breizhañ freizhañ preizhiñ
-58	1958	mamm-gaer	mammoù-kaer vamm-gaer
-59	1959	tachenn-emgann	dachenn-emgann tachennoù-emgann
-60	1960	dallañ	dallas dallet dallfe dallfec'h dallfed dallfemp dallfen dallfent dallfes dallimp dallis dalliñ dallje dalljec'h dalljed dalljemp dalljen dalljent dalljes dalljoc'h dalljod dalljomp dalljont dalljout dalloc'h dallor dallot tallas tallañ tallit zallañ
-61	1961	pigos	bigos figos figosoù pigosoù
-62	1962	pratik	bratikoù fratikoù pratikoù
-63	1963	fank	
-64	1964	hebiou	
-65	1965	vak	
-66	1966	chokolad	
-67	1967	noter	
-68	1968	vertuz	
-69	1969	resisaat	
-70	1970	erfin	
-71	1971	azeuliñ	azeulin
-72	1972	mallozh	vallozh
-73	1973	abardaez	abardahez
-74	1974	skoulm	skoulmoù
-75	1975	paeron	baeron faeron paeroned
-76	1976	rimadell	rimadelloù
-77	1977	bihanaat	vihanaat
-78	1978	sammañ	sammas samme sammer sammet sammfe sammfec'h sammfed sammfemp sammfen sammfent sammfes sammi sammimp sammis sammiñ sammje sammjec'h sammjed sammjemp sammjen sammjent sammjes sammjoc'h sammjod sammjomp sammjont sammjout sammoc'h sammor sammot
-79	1979	gwadek	gwadekañ wadek
-80	1980	arsailhañ	arsailh arsailhiñ
-81	1981	paner	baner faner paneroù
-82	1982	kemmadur	c'hemmadur c'hemmadurioù gemmadur gemmadurioù kemmadurioù
-83	1983	riz	ris
-84	1984	isañ	is isal ise isen isi isin isit iso isot
-85	1985	palat	baled balin balor faled palan palas pale paled palen pales palet pali palin palis palit palje palo palor palot valed
-86	1986	butun	vutun
-87	1987	naonegezh	naonegezhioù
-88	1988	milier	milieroù vilieroù
-89	1989	blot	plot
-90	1990	distabil	zistabil zistabilañ
-91	1991	erer	erered
-92	1992	soudañ	soud soudan soudiñ
-93	1993	katalan	gatalan gatalaned
-94	1994	amerindian	amerindianed
-95	1995	muzell	muzelloù vuzell
-96	1996	derv	dervenn
-97	1997	mestr-skol	mestrez-skol mistri-skol vestr-skol vestrez-skol vistri-skol
-98	1998	danzen	danzeet tanzen zanzen
-99	1999	dever	deverioù tever zever zeverioù
-100	2000	taol-kaer	daol-kaer taolioù-kaer zaol-kaer zaolioù-kaer
+1	1901	skornet	
+2	1902	arsav	arsavioù
+3	1903	dresañ	dresan dresec'h dresemp dresen dresent dreses dresez dresfe dresfec'h dresfed dresfemp dresfen dresfent dresfes dresi dresimp dresin dresint dresis dresit dresiñ dresje dresjec'h dresjed dresjemp dresjen dresjent dresjes dresjoc'h dresjod dresjomp dresjont dresjout dreso dresomp dresont dresot tresfe
+4	1904	engroez	engroezioù
+5	1905	follentez	follentezioù
+6	1906	burzhudus	vurzhudus
+7	1907	lanv	lanvioù
+8	1908	oaled	oaledoù
+9	1909	euzhus	euzhusañ euzhusoc'h
+10	1910	stok	stokoù
+11	1911	skeud	skeudoù
+12	1912	tarv	darv tirvi zarv
+13	1913	barrenn	barrennoù varrenn
+14	1914	geun	c'heun c'heunioù geunioù geunoù
+15	1915	meneziek	menezieg venezieg veneziek
+16	1916	triwec'h	driwec'h zriwec'h
+17	1917	c'hwezhañ	c'hwezhan c'hwezhas c'hwezhe c'hwezhec'h c'hwezhemp c'hwezhen c'hwezhent c'hwezhes c'hwezhet c'hwezhez c'hwezhfe c'hwezhfec'h c'hwezhfed c'hwezhfemp c'hwezhfen c'hwezhfent c'hwezhfes c'hwezhi c'hwezhimp c'hwezhin c'hwezhint c'hwezhis c'hwezhit c'hwezhiñ c'hwezhje c'hwezhjec'h c'hwezhjed c'hwezhjemp c'hwezhjen c'hwezhjent c'hwezhjes c'hwezhjoc'h c'hwezhjod c'hwezhjomp c'hwezhjont c'hwezhjout c'hwezho c'hwezhomp c'hwezhont c'hwezhor c'hwezhot
+18	1918	gwarizi	warizi
+19	1919	pik	bik pikoù
+20	1920	gwenneg	gwenneien wenneien
+21	1921	eien	eienenn eienennoù
+22	1922	moereb	moerebed voereb voerebed
+23	1923	aberzh	aberzhioù aberzhoù
+24	1924	harz-labour	harzoù-labour
+25	1925	direnkañ	direnk direnkan direnkas direnkat direnke direnkec'h direnkemp direnken direnkent direnkes direnket direnkez direnkfe direnkfec'h direnkfed direnkfemp direnkfen direnkfent direnkfes direnki direnkimp direnkin direnkint direnkis direnkit direnkiñ direnkje direnkjec'h direnkjed direnkjemp direnkjen direnkjent direnkjes direnkjoc'h direnkjod direnkjomp direnkjont direnkjout direnko direnkomp direnkont direnkor direnkot tirenk tirenkas tirenkañ zirenk zirenkañ zirenke zirenket zirenkit zirenko
+26	1926	tri-ugent	zri-ugent
+27	1927	broadelezh	broadelezhioù vroadelezh
+28	1928	pakad	bakadoù fakadoù pakadoù
+29	1929	ehanañ	ehanan ehanas ehane ehanec'h ehanemp ehanen ehanent ehanes ehanet ehanez ehanfe ehanfec'h ehanfed ehanfemp ehanfen ehanfent ehanfes ehani ehanimp ehanin ehanint ehanis ehanit ehanje ehanjec'h ehanjed ehanjemp ehanjen ehanjent ehanjes ehanjoc'h ehanjod ehanjomp ehanjont ehanjout ehano ehanomp ehanont ehanor ehanot
+30	1930	klozañ	c'hlozañ glozañ glozfe klozan klozas kloze klozec'h klozemp klozen klozent klozes klozet klozez klozfe klozfec'h klozfed klozfemp klozfen klozfent klozfes klozi klozimp klozin klozint klozis klozit kloziñ klozje klozjec'h klozjed klozjemp klozjen klozjent klozjes klozjoc'h klozjod klozjomp klozjont klozjout klozo klozomp klozont klozor klozot
+31	1931	milin	milinoù vilin
+32	1932	hobregonet	
+33	1933	skiant-prenet	
+34	1934	leal	
+35	1935	saout	
+36	1936	a-zehou	
+37	1937	pegement	begement fegement
+38	1938	lorc'h	
+39	1939	lazher	lazherien
+40	1940	laz-kanañ	lazoù-kanañ
+41	1941	pazenn	pazennoù
+42	1942	mallozh	mallozhioù vallozh
+43	1943	tan-gwall	dan-gwall tangwall tanioù-gwall
+44	1944	truez	druez
+45	1945	follenn	follennoù
+46	1946	logod	logodenn logodennoù
+47	1947	kemplezh	c'hemplezh gemplezh kempleshañ kempleshoc'h
+48	1948	ankouaat	ankoua ankouaan ankouaas ankouae ankouaec'h ankouaemp ankouaen ankouaent ankouaes ankouaet ankouaez ankouafe ankouafec'h ankouafed ankouafemp ankouafen ankouafent ankouafes ankouai ankouaimp ankouain ankouaint ankouais ankouait ankouaje ankouajec'h ankouajed ankouajemp ankouajen ankouajent ankouajes ankouajoc'h ankouajod ankouajomp ankouajont ankouajout ankouao ankouaomp ankouaont ankouaor ankouaot
+49	1949	kouevr	c'houevr gouevr
+50	1950	karbon	c'harbon garbon
+51	1951	kroaziadeg	groaziadeg groaziadegoù kroaziadegoù
+52	1952	boueta	bouetaan bouetaas bouetae bouetaec'h bouetaemp bouetaen bouetaent bouetaes bouetaet bouetaez bouetafe bouetafec'h bouetafed bouetafemp bouetafen bouetafent bouetafes bouetai bouetaimp bouetain bouetaint bouetais bouetait bouetaje bouetajec'h bouetajed bouetajemp bouetajen bouetajent bouetajes bouetajoc'h bouetajod bouetajomp bouetajont bouetajout bouetao bouetaomp bouetaont bouetaor bouetaot voueta vouetaont
+53	1953	krennlavar	c'hrennlavar c'hrennlavarioù krennlavarioù krennlavaroù
+54	1954	adreizhañ	adreizh adreizhan adreizhas adreizhe adreizhec'h adreizhemp adreizhen adreizhent adreizhes adreizhet adreizhez adreizhfe adreizhfec'h adreizhfed adreizhfemp adreizhfen adreizhfent adreizhfes adreizhi adreizhimp adreizhin adreizhint adreizhis adreizhit adreizhje adreizhjec'h adreizhjed adreizhjemp adreizhjen adreizhjent adreizhjes adreizhjoc'h adreizhjod adreizhjomp adreizhjont adreizhjout adreizho adreizhomp adreizhont adreizhor adreizhot
+55	1955	brein	breinat breinet vrein vreinañ vreine vreinet
+56	1956	paot	baotañ faot faotañ paotañ paotoc'h
+57	1957	promesa	bromesa fromesaoù promesaoù
+58	1958	sall	salle sallet
+59	1959	saotrañ	saotran saotras saotre saotrec'h saotremp saotren saotrent saotres saotret saotrez saotrfe saotrfec'h saotrfed saotrfemp saotrfen saotrfent saotrfes saotri saotrimp saotrin saotrint saotris saotrit saotriñ saotrje saotrjec'h saotrjed saotrjemp saotrjen saotrjent saotrjes saotrjoc'h saotrjod saotrjomp saotrjont saotrjout saotro saotromp saotront saotror saotrot
+60	1960	koñsul	c'hoñsul goñsul goñsuled koñsuled
+61	1961	kañseller	c'hañseller gañseller gañsellerez kañsellerez
+62	1962	stardañ	stard stardan starde stardec'h stardemp starden stardent stardes stardet stardez stardfe stardfec'h stardfed stardfemp stardfen stardfent stardfes stardi stardimp stardin stardint stardis stardit stardiñ stardje stardjec'h stardjed stardjemp stardjen stardjent stardjes stardjoc'h stardjod stardjomp stardjont stardjout stardo stardomp stardont stardor stardot
+63	1963	sponterezh	
+64	1964	trevadennerezh	
+65	1965	laosk	laoskoc'h
+66	1966	stur	sturioù
+67	1967	prefeti	brefeti
+68	1968	rok	rokañ
+69	1969	bezhin	vezhin vezhinenn
+70	1970	puñs	buñs puñsioù
+71	1971	pevar-ugent	bevar-ugent fevar-ugent
+72	1972	lik	liked
+73	1973	poell	boell foell
+74	1974	leue	leueioù leueoù
+75	1975	matematikour	matematikourien vatematikourez vatematikourien
+76	1976	izelaat	izela izelaan izelaas izelae izelaec'h izelaemp izelaen izelaent izelaes izelaet izelaez izelafe izelafec'h izelafed izelafemp izelafen izelafent izelafes izelai izelaimp izelain izelaint izelais izelait izelaje izelajec'h izelajed izelajemp izelajen izelajent izelajes izelajoc'h izelajod izelajomp izelajont izelajout izelao izelaomp izelaont izelaor izelaot
+77	1977	treitour	dreitour dreitourez dreitourien treitourien
+78	1978	tad-kaer	dad-kaer zad-kaer
+79	1979	dial	dialoù zial
+80	1980	soudañ	soud soudan soudas soude soudec'h soudemp soudent soudes soudet soudez soudfe soudfec'h soudfed soudfemp soudfen soudfent soudfes soudi soudimp soudin soudint soudis soudit soudiñ soudje soudjec'h soudjed soudjemp soudjen soudjent soudjes soudjoc'h soudjod soudjomp soudjont soudjout soudo soudomp soudont soudor soudot
+81	1981	kember	c'hember gember
+82	1982	gorrek	c'horrek gorrekat gorrekoc'h
+83	1983	sekred	sekredoù
+84	1984	arzh	arzhed arzhez arzhoù
+85	1985	faziañ	fazian fazias fazie faziec'h faziemp fazien fazient fazier fazies faziet faziez fazife fazifec'h fazifed fazifemp fazifen fazifent fazifes fazii faziimp faziin faziint faziis faziit fazije fazijec'h fazijed fazijemp fazijen fazijent fazijes fazijoc'h fazijod fazijomp fazijont fazijout fazio faziomp faziont fazior faziot
+86	1986	madelezh	vadelezh
+87	1987	raganv	raganvioù
+88	1988	breur-kaer	vreur-kaer
+89	1989	dibunadeg	dibunadegoù zibunadegoù
+90	1990	kure	c'hure gure
+91	1991	skuilhañ	skuilh skuilhan skuilhas skuilhe skuilhec'h skuilhemp skuilhen skuilhent skuilhes skuilhet skuilhez skuilhfe skuilhfec'h skuilhfed skuilhfemp skuilhfen skuilhfent skuilhfes skuilhi skuilhimp skuilhin skuilhint skuilhis skuilhit skuilhje skuilhjec'h skuilhjed skuilhjemp skuilhjen skuilhjent skuilhjes skuilhjoc'h skuilhjod skuilhjomp skuilhjont skuilhjout skuilho skuilhomp skuilhont skuilhor skuilhot
+92	1992	ruilhañ	ruilh ruilhan ruilhas ruilhe ruilhec'h ruilhemp ruilhen ruilhent ruilhes ruilhet ruilhez ruilhfe ruilhfec'h ruilhfed ruilhfemp ruilhfen ruilhfent ruilhfes ruilhi ruilhimp ruilhin ruilhint ruilhis ruilhit ruilhje ruilhjec'h ruilhjed ruilhjemp ruilhjen ruilhjent ruilhjes ruilhjoc'h ruilhjod ruilhjomp ruilhjont ruilhjout ruilho ruilhomp ruilhont ruilhor ruilhot
+93	1993	adstummañ	adstumm adstumman adstummas adstumme adstummec'h adstummemp adstummen adstumment adstummes adstummet adstummez adstummfe adstummfec'h adstummfed adstummfemp adstummfen adstummfent adstummfes adstummi adstummimp adstummin adstummint adstummis adstummit adstummiñ adstummje adstummjec'h adstummjed adstummjemp adstummjen adstummjent adstummjes adstummjoc'h adstummjod adstummjomp adstummjont adstummjout adstummo adstummomp adstummont adstummor adstummot
+94	1994	kevrin	c'hevrin c'hevrinoù gevrinoù kevrinoù
+95	1995	kemener	c'hemener gemenerez gemenerien kemenerez kemenerien
+96	1996	hoc'h	
+97	1997	grevus	c'hrevusañ c'hrevusoc'h grevusañ grevusoc'h
+98	1998	sakson	saksoned saksonez
+99	1999	kenurzhiañ	c'henurzhiañ genurzhiañ genurzhiet kenurzhi kenurzhian kenurzhias kenurzhie kenurzhiec'h kenurzhiemp kenurzhien kenurzhient kenurzhies kenurzhiet kenurzhiez kenurzhife kenurzhifec'h kenurzhifed kenurzhifemp kenurzhifen kenurzhifent kenurzhifes kenurzhii kenurzhiimp kenurzhiin kenurzhiint kenurzhiis kenurzhiit kenurzhije kenurzhijec'h kenurzhijed kenurzhijemp kenurzhijen kenurzhijent kenurzhijes kenurzhijoc'h kenurzhijod kenurzhijomp kenurzhijont kenurzhijout kenurzhio kenurzhiomp kenurzhiont kenurzhior kenurzhiot
+100	2000	touellañ	douellañ touellan touellas touelle touellec'h touellemp touellen touellent touelles touellet touellez touellfe touellfec'h touellfed touellfemp touellfen touellfent touellfes touelli touellimp touellin touellint touellis touellit touellje touelljec'h touelljed touelljemp touelljen touelljent touelljes touelljoc'h touelljod touelljomp touelljont touelljout touello touellomp touellont touellor touellot zouellañ

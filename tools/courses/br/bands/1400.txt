@@ -1,100 +1,100 @@
-1	1301	dall	tall
-2	1302	greun	c'hreun c'hreunenn greunenn
-3	1303	postañ	bostas bostañ fostañ poste poster postes postiñ
-4	1304	breizhveuriat	breizhveurat vreizhveurat vreizhveuriat
-5	1305	koust	c'houst c'houstoù goust koustoù
-6	1306	fonnus	fonnusañ fonnusoc'h
-7	1307	trederenn	drederenn
-8	1308	ijinañ	
-9	1309	enoriñ	enorañ
-10	1310	drouk	zrouk
-11	1311	laz-seniñ	lazoù-seniñ
-12	1312	c'hwezh	c'hwezhioù
-13	1313	goustadik	goustadikañ goustadikoc'h
-14	1314	las	lasoù
-15	1315	loarenn	loarennoù
-16	1316	dougerez	douger dougerezed dougerien touger zouger
-17	1317	fri	frioù
-18	1318	si	sioù
-19	1319	silañ	silas silat silent silet siliñ silo
-20	1320	kolen	c'helin c'holen gelin golen
-21	1321	piramidenn	biramidenn biramidennoù piramidennoù
-22	1322	glann	c'hlann c'hlannoù glannoù klann klannoù
-23	1323	nij	
-24	1324	speredel	
-25	1325	bramm	brammoù frammoù
-26	1326	skuizh	skuizhañ
-27	1327	'm	am
-28	1328	dizoleiñ	tizoleiñ zizoleiñ
-29	1329	dizober	dizoberiñ tizober zizober
-30	1330	gwerz	gwerzioù werz werzioù
-31	1331	bandenn	bandennoù vandenn vandennoù
-32	1332	habask	habaskoc'h
-33	1333	nevezamzer	nevezamzerioù
-34	1334	bastard	bastarded bastardez bastardezed besterd vastard vastarded vesterd
-35	1335	tro-lavar	dro-lavar droioù-lavar troioù-lavar
-36	1336	abad	abadez ebed
-37	1337	spontañ	spontan sponte sponter sponterien spontis
-38	1338	yaou	
-39	1339	denelezh	zenelezh
-40	1340	gwener	wener
-41	1341	amprevan	amprevaned
-42	1342	argad	argadoù
-43	1343	mamm-gozh	vamm-gozh
-44	1344	arnodenn	arnodennoù
-45	1345	meskañ	veskañ
-46	1346	alc'hwez	alc'hwezioù
-47	1347	tarzhadenn	darzhadenn darzhadennoù tarzhadennoù
-48	1348	kalonek	galonek kalonekoc'h
-49	1349	pesketa	besketa
-50	1350	sae	saeoù
-51	1351	neñv	neñvoù
-52	1352	fest-noz	festoù-noz
-53	1353	pig	big pi piged
-54	1354	nijerez	nijerezed nijerezioù
-55	1355	donezon	donezonoù zonezon zonezonoù
-56	1356	marc'hadourezh	marc'hadourezhioù varc'hadourezh varc'hadourezhioù
-57	1357	karreg	c'harregoù c'herreg garreg gerreg karregoù kerreg
-58	1358	mennout	menn mennan mennas mennat menne mennen menner mennes mennez menni mennin mennit menno mennomp mennont vennas venne venner vennit vennout
-59	1359	ront	
-60	1360	c'hwec'hvet	
-61	1361	gronnañ	c'hronnañ gronnet gronniñ kronnañ
-62	1362	mintin	vintin
-63	1363	temperadur	demperadur demperadurioù temperadurioù zemperadurioù
-64	1364	eoul-maen	
-65	1365	pegoulz	
-66	1366	divugel	
-67	1367	va	
-68	1368	daou-ugent	zaou-ugent
-69	1369	amiral	amiraled
-70	1370	miliard	miliardoù viliard viliardoù
-71	1371	glad	c'hlad c'hladoù gladoù
-72	1372	souezhus	souezhusat souezhusañ souezhusoc'h
-73	1373	lemm	lemmañ lemme lemmet lemmoc'h
-74	1374	restr	restroù
-75	1375	mab-bihan	vab-bihan vibien-vihan
-76	1376	mel	vel
-77	1377	prof	brof frof profoù
-78	1378	marc'h-houarn	marc'hoù-houarn varc'h-houarn
-79	1379	skoaz	divskoaz zivskoaz
-80	1380	minorelezh	minorelezhioù vinorelezh vinorelezhioù
-81	1381	difenner	difennerien difennerion zifenner zifennerien
-82	1382	poull	foull poulloù
-83	1383	euro	euroioù
-84	1384	null	nullañ nulle nullet nulli
-85	1385	luc'hskeudenn	luc'hskeudennoù
-86	1386	toenn	doenn doennoù toennoù zoenn zoennoù
-87	1387	tal	dal zal zalioù
-88	1388	bourk	bourc'h bourc'hioù vourc'h
-89	1389	empenn	empennoù
-90	1390	benniget	venniget
-91	1391	bosenn	vosenn
-92	1392	pevarzek	bevarzek fevarzek
-93	1393	savenn	savennoù
-94	1394	degad	degadoù zegad
-95	1395	releg	relegenn relegoù
-96	1396	from	fromoù
-97	1397	diñs	diñsoù ziñs
-98	1398	prenestr	brenestr brenestroù frenestr prenester prenestri prenestroù
-99	1399	kempouez	c'hempouez gempouez
-100	1400	galian	c'halian c'halianed galianed galianez
+1	1301	'z	az
+2	1302	oferenn	oferennoù
+3	1303	sin	sinoù
+4	1304	krign-bev	c'hrign-bev c'hrignoù-bev grign-bev grignoù-bev krignoù-bev
+5	1305	iwerzhoneg	
+6	1306	sinaat	
+7	1307	hanter-kant	
+8	1308	homañ	
+9	1309	skuizh	skuizhas skuizhañ skuizhet skuizhont
+10	1310	berraat	berra berraan berraas berrae berraec'h berraemp berraen berraent berraes berraet berraez berrafe berrafec'h berrafed berrafemp berrafen berrafent berrafes berrai berraimp berrain berraint berrais berrait berraje berrajec'h berrajed berrajemp berrajen berrajent berrajes berrajoc'h berrajod berrajomp berrajont berrajout berrao berraomp berraont berraor berraot perraat verra verraat verrai
+11	1311	azasaat	azasa azasaan azasaas azasae azasaec'h azasaemp azasaen azasaent azasaes azasaet azasaez azasafe azasafec'h azasafed azasafemp azasafen azasafent azasafes azasai azasaimp azasain azasaint azasais azasait azasaje azasajec'h azasajed azasajemp azasajen azasajent azasajes azasajoc'h azasajod azasajomp azasajont azasajout azasao azasaomp azasaont azasaor azasaot
+12	1312	pour	bour four vour
+13	1313	bazh	bizhier pazh vazh
+14	1314	koant	c'hoantañ goant goantañ koantañ koantoc'h
+15	1315	gwiskad	gwiskadoù wiskad
+16	1316	karr-tan	c'harr-tan c'hirri-tan garr-tan girri-tan kirri-tan
+17	1317	dous	dousoc'h dousoù tous zous
+18	1318	arem	
+19	1319	poblek	boblek poblekoc'h
+20	1320	speredek	speredekañ speredekoc'h
+21	1321	bleunienn	bleunioù vleunienn vleunioù
+22	1322	pounner	bounner bounnerañ pounnerañ pounneroc'h
+23	1323	drouiz	drouized drouizez zrouiz
+24	1324	roz	ros rozenn
+25	1325	run	runioù runoù
+26	1326	pesketaer	besketaer besketaerien besketaerion pesketaerien
+27	1327	nij	nijoù
+28	1328	davet	davedout davetañ daveti daveto
+29	1329	poz	pozioù pozoù
+30	1330	arnevez	
+31	1331	awen	awenoù
+32	1332	frañsez	frañsizien
+33	1333	galv	c'halv galvoù
+34	1334	bezañs	vezañs
+35	1335	tev	tevañ tevoc'h zev
+36	1336	ambroug	ambrougan ambrougas ambrouge ambrougec'h ambrougemp ambrougen ambrougent ambrouger ambrougerez ambrouges ambrouget ambrougez ambrougfe ambrougfec'h ambrougfed ambrougfemp ambrougfen ambrougfent ambrougfes ambrougi ambrougimp ambrougin ambrougint ambrougis ambrougit ambrougje ambrougjec'h ambrougjed ambrougjemp ambrougjen ambrougjent ambrougjes ambrougjoc'h ambrougjod ambrougjomp ambrougjont ambrougjout ambrougo ambrougomp ambrougont ambrougor ambrougot ambrougoù
+37	1337	gwiad	gwiadoù
+38	1338	sorser	sorserez sorserien
+39	1339	teal	deal dean deer dei tean teas tee teec'h teed teemp teen teent teer tees teet teez tefes tei teimp tein teint teit teo teoc'h teomp teont teor teot zeal zean zeas zee zeit
+40	1340	tezenn	dezenn dezennoù tezennoù zezenn zezennoù
+41	1341	dibunañ	dibun dibunan dibunas dibune dibunec'h dibunemp dibunen dibunent dibunes dibunet dibunez dibunfe dibunfec'h dibunfed dibunfemp dibunfen dibunfent dibunfes dibuni dibunimp dibunin dibunint dibunis dibunit dibuniñ dibunje dibunjec'h dibunjed dibunjemp dibunjen dibunjent dibunjes dibunjoc'h dibunjod dibunjomp dibunjont dibunjout dibuno dibunomp dibunont dibunor dibunot tibun tibunañ tibuniñ zibun zibunas zibunañ zibuniñ
+42	1342	a-ratozh	
+43	1343	skiant-faltazi	
+44	1344	fentus	fentusoc'h
+45	1345	skeul	skeulioù
+46	1346	trizek	drizek zrizek
+47	1347	lun	lunioù
+48	1348	adlakaat	adlaka adlakaan adlakaas adlakae adlakaec'h adlakaemp adlakaen adlakaent adlakaes adlakaet adlakaez adlakafe adlakafec'h adlakafed adlakafemp adlakafen adlakafent adlakafes adlakai adlakaimp adlakain adlakaint adlakais adlakait adlakaje adlakajec'h adlakajed adlakajemp adlakajen adlakajent adlakajes adlakajoc'h adlakajod adlakajomp adlakajont adlakajout adlakao adlakaomp adlakaont adlakaor adlakaot
+49	1349	goap	c'hoap
+50	1350	greun	c'hreun c'hreunenn greunenn greunioù
+51	1351	pesketa	besketa pesketaan pesketaas pesketae pesketaec'h pesketaemp pesketaen pesketaent pesketaes pesketaet pesketaez pesketafe pesketafec'h pesketafed pesketafemp pesketafen pesketafent pesketafes pesketai pesketaimp pesketain pesketaint pesketais pesketait pesketaje pesketajec'h pesketajed pesketajemp pesketajen pesketajent pesketajes pesketajoc'h pesketajod pesketajomp pesketajont pesketajout pesketao pesketaomp pesketaont pesketaor pesketaot
+52	1352	fiziañs	
+53	1353	led	
+54	1354	chañs	chañsoù
+55	1355	geot	c'heot c'heotenn geotenn geotennoù
+56	1356	aber	aberioù
+57	1357	troc'h	droc'h troc'hoù
+58	1358	diaester	diaesterioù ziaester ziaesterioù
+59	1359	laer	laerez laeron
+60	1360	gwareg	gwaregoù wareg waregoù
+61	1361	gourdrouz	c'hourdrouz c'hourdrouzas c'hourdrouze c'hourdrouzjont gourdrouzal gourdrouzan gourdrouzas gourdrouze gourdrouzec'h gourdrouzemp gourdrouzen gourdrouzent gourdrouzes gourdrouzet gourdrouzez gourdrouzfe gourdrouzfec'h gourdrouzfed gourdrouzfemp gourdrouzfen gourdrouzfent gourdrouzfes gourdrouzi gourdrouzimp gourdrouzin gourdrouzint gourdrouzis gourdrouzit gourdrouziñ gourdrouzje gourdrouzjec'h gourdrouzjed gourdrouzjemp gourdrouzjen gourdrouzjent gourdrouzjes gourdrouzjoc'h gourdrouzjod gourdrouzjomp gourdrouzjont gourdrouzjout gourdrouzo gourdrouzomp gourdrouzont gourdrouzor gourdrouzot kourdrouz
+62	1362	dall	tall
+63	1363	breizhveuriat	breizhveurat vreizhveurat vreizhveuriat
+64	1364	koust	c'houst c'houstoù goust koustoù
+65	1365	fonnus	fonnusañ fonnusoc'h
+66	1366	silañ	silan silas silat sile silec'h silemp silen silent siles silet silez silfe silfec'h silfed silfemp silfen silfent silfes silimp silin silint silis silit siliñ silje siljec'h siljed siljemp siljen siljent siljes siljoc'h siljod siljomp siljont siljout silo silomp silont silor silot
+67	1367	renabliñ	renabl renablan renablas renable renablec'h renablemp renablen renablent renables renablet renablez renablfe renablfec'h renablfed renablfemp renablfen renablfent renablfes renabli renablimp renablin renablint renablis renablit renablje renabljec'h renabljed renabljemp renabljen renabljent renabljes renabljoc'h renabljod renabljomp renabljont renabljout renablo renablomp renablont renablor renablot
+68	1368	trederenn	drederenn
+69	1369	drouk	zrouk
+70	1370	laz-seniñ	lazoù-seniñ
+71	1371	c'hwezh	c'hwezhioù
+72	1372	goustadik	goustadikañ goustadikoc'h
+73	1373	las	lasoù
+74	1374	gronnañ	c'hronn c'hronnañ gronn gronnan gronnas gronne gronnec'h gronnemp gronnen gronnent gronnes gronnet gronnez gronnfe gronnfec'h gronnfed gronnfemp gronnfen gronnfent gronnfes gronni gronnimp gronnin gronnint gronnis gronnit gronniñ gronnje gronnjec'h gronnjed gronnjemp gronnjen gronnjent gronnjes gronnjoc'h gronnjod gronnjomp gronnjont gronnjout gronno gronnomp gronnont gronnor gronnot kronnañ
+75	1375	loarenn	loarennoù
+76	1376	emdreiñ	emdro emdroan emdroas emdroe emdroec'h emdroemp emdroen emdroent emdroes emdroet emdroez emdrofe emdrofec'h emdrofed emdrofemp emdrofen emdrofent emdrofes emdroi emdroimp emdroin emdroint emdrois emdroit emdroiñ emdroje emdrojec'h emdrojed emdrojemp emdrojen emdrojent emdrojes emdrojoc'h emdrojod emdrojomp emdrojont emdrojout emdroo emdroomp emdroont emdroor emdroot
+77	1377	dougerez	douger dougerezed dougerien touger zouger
+78	1378	fri	frioù
+79	1379	si	sioù
+80	1380	kolen	c'helin c'holen gelin golen
+81	1381	piramidenn	biramidenn biramidennoù piramidennoù
+82	1382	gwanaat	gwana gwanaan gwanaas gwanae gwanaec'h gwanaemp gwanaen gwanaent gwanaes gwanaet gwanaez gwanafe gwanafec'h gwanafed gwanafemp gwanafen gwanafent gwanafes gwanai gwanaimp gwanain gwanaint gwanais gwanait gwanaje gwanajec'h gwanajed gwanajemp gwanajen gwanajent gwanajes gwanajoc'h gwanajod gwanajomp gwanajont gwanajout gwanao gwanaomp gwanaont gwanaor gwanaot gwannaad kwanaat wanaas wanaat wanajont
+83	1383	glann	c'hlann c'hlannoù glannoù klann klannoù
+84	1384	speredel	
+85	1385	bramm	brammoù frammoù
+86	1386	yaou	yaouioù
+87	1387	'm	am
+88	1388	unaniñ	unanan unanas unane unanec'h unanemp unanen unanent unanes unanet unanez unanfe unanfec'h unanfed unanfemp unanfen unanfent unanfes unani unanimp unanin unanint unanis unanit unanje unanjec'h unanjed unanjemp unanjen unanjent unanjes unanjoc'h unanjod unanjomp unanjont unanjout unano unanomp unanont unanor unanot
+89	1389	dizober	dizoberiñ tizober zizober
+90	1390	reizhañ	reizhan reizhas reizhe reizhec'h reizhemp reizhen reizhent reizhes reizhet reizhez reizhfe reizhfec'h reizhfed reizhfemp reizhfen reizhfent reizhfes reizhi reizhimp reizhin reizhint reizhis reizhit reizhje reizhjec'h reizhjed reizhjemp reizhjen reizhjent reizhjes reizhjoc'h reizhjod reizhjomp reizhjont reizhjout reizho reizhomp reizhont reizhor reizhot
+91	1391	gwerz	gwerzioù werz werzioù
+92	1392	bandenn	bandennoù vandenn vandennoù
+93	1393	habask	habaskoc'h
+94	1394	nevezamzer	nevezamzerioù
+95	1395	bastard	bastarded bastardez bastardezed besterd vastard vastarded vesterd
+96	1396	tro-lavar	dro-lavar droioù-lavar troioù-lavar
+97	1397	abad	abadez ebed
+98	1398	denelezh	zenelezh
+99	1399	gwener	wener
+100	1400	amprevan	amprevaned

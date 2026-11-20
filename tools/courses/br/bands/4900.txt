@@ -1,100 +1,100 @@
-1	4801	hañvek	
-2	4802	hegarated	
-3	4803	helenn	
-4	4804	hemoglobin	
-5	4805	henhont	
-6	4806	herlegon	
-7	4807	heskenner	
-8	4808	hez	
-9	4809	hidrat	hidratoù
-10	4810	higenn	higennoù
-11	4811	hili	
-12	4812	hilligañ	hilligat
-13	4813	hirc'hareg	hirc'hareged
-14	4814	hirgelc'h	
-15	4815	hirvombard	
-16	4816	hirvoudus	
-17	4817	hoc'h-dreinek	hoc'hed-dreinek
-18	4818	hollegour	
-19	4819	holmiom	
-20	4820	honhont	
-21	4821	horolaj-dorn	
-22	4822	horolaj-heol	horolajoù-heol
-23	4823	houarn-marc'h	
-24	4824	houarnañ	houarniñ
-25	4825	houl	
-26	4826	huanad	
-27	4827	hunva	
-28	4828	hunvaleer	hunvaleerez
-29	4829	ifernus	
-30	4830	igor	
-31	4831	iliav	
-32	4832	interesant	
-33	4833	irin	
-34	4834	irvin-ruz	irvinenn-ruz
-35	4835	isframmadur	
-36	4836	islandat	
-37	4837	iterbiom	
-38	4838	ividig	
-39	4839	ivineg	
-40	4840	izelvarr	
-41	4841	izil	
-42	4842	kaherek	
-43	4843	kailhastr	
-44	4844	kalkiom	
-45	4845	kammigellañ	gammigellañ kammigellat
-46	4846	kanoliañ	
-47	4847	karibou	
-48	4848	karr-stlej	
-49	4849	katalaneger	katalanegerien
-50	4850	kation	
-51	4851	kazh-koad	
-52	4852	kañvaouus	
-53	4853	kehederel	
-54	4854	kendruez	
-55	4855	kenganez	
-56	4856	kernezh	
-57	4857	kigner	
-58	4858	kignez	
-59	4859	kik	
-60	4860	kleron	
-61	4861	kleuzañ	c'hleuzañ gleuzañ kleuziñ
-62	4862	klonel	
-63	4863	klorit	
-64	4864	koarañ	koarat koariñ
-65	4865	kollidik	
-66	4866	kolon	
-67	4867	korfek	
-68	4868	kouskva	
-69	4869	koñsuldi	koñsuldioù
-70	4870	grakal	c'hrakal grakat krak
-71	4871	kramenn	
-72	4872	krap	
-73	4873	kredoni	
-74	4874	kregina	kreginna
-75	4875	krenn-ha-krak	
-76	4876	krennvrezhonek	
-77	4877	kroazigellet	
-78	4878	kromet	
-79	4879	ksenon	
-80	4880	kuriom	
-81	4881	kuzher	
-82	4882	kuzulikat	c'huzulikat guzulikat
-83	4883	kêr-gloz	
-84	4884	labous-ki	
-85	4885	lagadour	
-86	4886	lambrig	
-87	4887	laoskoni	
-88	4888	laou-dar	
-89	4889	laouenaat	
-90	4890	lawrensiom	
-91	4891	lazherezh	
-92	4892	lazhdi	lazhti
-93	4893	lec'hideg	lec'hidegoù
-94	4894	leinañ	leiniñ
-95	4895	lemmded	
-96	4896	lennus	
-97	4897	letrin	
-98	4898	lieslugell	
-99	4899	lintrañ	lintriñ
-100	4900	litiom	
+1	4801	ehan-labour	
+2	4802	einsteiniom	
+3	4803	elipsenn	
+4	4804	emouez	
+5	4805	emroüs	
+6	4806	ensac'hañ	ensac'h ensac'han ensac'has ensac'he ensac'hec'h ensac'hemp ensac'hen ensac'hent ensac'hes ensac'het ensac'hez ensac'hfe ensac'hfec'h ensac'hfed ensac'hfemp ensac'hfen ensac'hfent ensac'hfes ensac'hi ensac'himp ensac'hin ensac'hint ensac'his ensac'hit ensac'hiñ ensac'hje ensac'hjec'h ensac'hjed ensac'hjemp ensac'hjen ensac'hjent ensac'hjes ensac'hjoc'h ensac'hjod ensac'hjomp ensac'hjont ensac'hjout ensac'ho ensac'homp ensac'hont ensac'hor ensac'hot
+7	4807	eontr-kozh	
+8	4808	eoulgimiezh	
+9	4809	esperantegerez	esperantegerien
+10	4810	estajerenn	
+11	4811	estlammus	
+12	4812	estoneg	
+13	4813	etremek	
+14	4814	euriadur	euriadurioù
+15	4815	eurier-godell	
+16	4816	europiom	
+17	4817	evlec'h	
+18	4818	evn-preizh	evned-preizh
+19	4819	ez-vihan	
+20	4820	falloni	
+21	4821	falsle	falsleoù
+22	4822	fankigell	
+23	4823	faosoni	
+24	4824	felc'h	
+25	4825	fermiom	
+26	4826	fermion	
+27	4827	pezh-kanol	fezh-kanol
+28	4828	peñs	feñsoù
+29	4829	plac'h-a-gambr	flac'h-a-gambr
+30	4830	flaeriañ	flaeri flaerian flaerias flaerie flaeriec'h flaeriemp flaerien flaerient flaeries flaeriet flaeriez flaerife flaerifec'h flaerifed flaerifemp flaerifen flaerifent flaerifes flaerii flaeriimp flaeriin flaeriint flaeriis flaeriit flaerije flaerijec'h flaerijed flaerijemp flaerijen flaerijent flaerijes flaerijoc'h flaerijod flaerijomp flaerijont flaerijout flaerio flaeriomp flaeriont flaerior flaeriot
+31	4831	flatal	flat flatañ flate flatec'h flatemp flaten flatent flates flatfe flatfec'h flatfed flatfemp flatfen flatfent flatfes flatimp flatint flatje flatjec'h flatjed flatjemp flatjen flatjent flatjes flatjoc'h flatjod flatjomp flatjont flatjout flatomp flatont flatot
+32	4832	flemmer	
+33	4833	fonnusted	
+34	4834	forc'had	
+35	4835	forniañ	forni fornian fornias fornie forniec'h forniemp fornien fornient fornies forniet forniez fornife fornifec'h fornifed fornifemp fornifen fornifent fornifes fornii forniimp forniin forniint forniis forniit fornije fornijec'h fornijed fornijemp fornijen fornijent fornijes fornijoc'h fornijod fornijomp fornijont fornijout fornio forniomp forniont fornior forniot forniñ
+36	4836	fosfat	
+37	4837	fougasus	fougasusoc'h
+38	4838	foulañ	foul foulan foulas foule foulec'h foulemp foulen foulent foules foulet foulez foulfe foulfec'h foulfed foulfemp foulfen foulfent foulfes fouli foulimp foulin foulint foulis foulit foulje fouljec'h fouljed fouljemp fouljen fouljent fouljes fouljoc'h fouljod fouljomp fouljont fouljout foulo foulomp foulont foulor foulot
+39	4839	frañsezat	
+40	4840	freskter	
+41	4841	fuzuilher-mor	fuzuilherien-vor
+42	4842	gadoliniom	
+43	4843	kador-vrec'h	gador-vrec'h
+44	4844	gallusted	gallustedoù
+45	4845	gaouierez	gaouierien
+46	4846	garmiñ	c'harmiñ garman garment
+47	4847	kartenn-gred	gartenn-gred
+48	4848	garvder	
+49	4849	garz	
+50	4850	kemplezhded	gemplezhded
+51	4851	geotus	
+52	4852	kevredadouriezh	gevredadouriezh
+53	4853	gioc'h	
+54	4854	gitar-tredan	
+55	4855	glesker	
+56	4856	kleñvedouriezh	gleñvedouriezh
+57	4857	koadañ	c'hoadañ goadañ koadan koadas koade koadec'h koademp koaden koadent koades koadet koadez koadfe koadfec'h koadfed koadfemp koadfen koadfent koadfes koadi koadimp koadin koadint koadis koadit koadiñ koadje koadjec'h koadjed koadjemp koadjen koadjent koadjes koadjoc'h koadjod koadjomp koadjont koadjout koado koadomp koadont koador koadot
+58	4858	godelleg	
+59	4859	kolist	golisted
+60	4860	korfenn	gorfenn
+61	4861	gouelier	
+62	4862	gouezvildi	
+63	4863	kougoul	gougoul
+64	4864	goulennaoueg	goulennaouegoù
+65	4865	goumon	
+66	4866	kourtezi	gourtezi
+67	4867	gourvenn	
+68	4868	krenerez	grenerez
+69	4869	krouusted	grouusted
+70	4870	kuriusted	guriusted
+71	4871	gwagennek	
+72	4872	gwanded	
+73	4873	gwared	
+74	4874	gwarell	
+75	4875	gwaskin	gwaskon
+76	4876	gwellentez	
+77	4877	gwez-kistin	
+78	4878	gwinizh-du	
+79	4879	gwiñver	
+80	4880	gwrezverker	
+81	4881	hadron	
+82	4882	hafniom	
+83	4883	hangae	
+84	4884	harellat	harell harellan harellas harelle harellec'h harellemp harellen harellent hareller harelles harellet harellez harellfe harellfec'h harellfed harellfemp harellfen harellfent harellfes harelli harellimp harellin harellint harellis harellit harellje harelljec'h harelljed harelljemp harelljen harelljent harelljes harelljoc'h harelljod harelljomp harelljont harelljout harello harellomp harellont harellor harellot
+85	4885	hañvek	
+86	4886	hegarated	
+87	4887	helenn	
+88	4888	hemoglobin	
+89	4889	henhont	
+90	4890	herlegon	
+91	4891	heskenner	
+92	4892	hez	
+93	4893	hidrat	hidratoù
+94	4894	higenn	higennoù
+95	4895	hili	
+96	4896	hilligañ	hillig hilligan hilligas hilligat hillige hilligec'h hilligemp hilligen hilligent hilliges hilliget hilligez hilligfe hilligfec'h hilligfed hilligfemp hilligfen hilligfent hilligfes hilligi hilligimp hilligin hilligint hilligis hilligit hilligje hilligjec'h hilligjed hilligjemp hilligjen hilligjent hilligjes hilligjoc'h hilligjod hilligjomp hilligjont hilligjout hilligo hilligomp hilligont hilligor hilligot
+97	4897	hirc'hareg	hirc'hareged
+98	4898	hirgelc'h	
+99	4899	hirvombard	
+100	4900	hirvoudus	

@@ -5,7 +5,7 @@
 5	305	dorn	daouarn dornioù taouarn torn zaouarn zorn
 6	306	brud	brudoù vrud
 7	307	klevet	c'hleved c'hlevet c'hlevont c'hlevout glevan glevas gleve gleved glevent glever glevet glevjont glevo glevont glevout klev klevas kleve kleved klever klevit kleviñ klevjont klevomp klevont klevot klevout
-8	308	lu	
+8	308	lu	luioù
 9	309	pouez	bouez fouez pouezioù vouez
 10	310	karg	c'harg c'hargoù garg gargoù kargoù
 11	311	savadur	savadurioù
@@ -15,7 +15,7 @@
 15	315	studi	studioù
 16	316	kreñv	c'hreñv c'hreñvañ greñv greñvañ greñvoc'h kreñvat kreñvañ kreñvoc'h
 17	317	kaoz	gaos gaoz gaoze gaozioù kaoze kaozioù
-18	318	roll	rolloù
+18	318	roll	rollioù rolloù
 19	319	eñ	eñv
 20	320	mestr	mestres mestrez mestrezed mistr mistri vestr vestrez vistr vistri
 21	321	enebour	eneber enebourez enebourien enebourion
@@ -24,7 +24,7 @@
 24	324	taolenn	daolenn daolennoù taolennoù zaolenn zaolennoù
 25	325	sell	selloù
 26	326	diaes	diaesat diaesañ diaesoc'h ziaes ziaesañ ziaesoc'h
-27	327	kregiñ	c'hregiñ gregiñ kregel
+27	327	kregiñ	c'hregiñ gregiñ grogas groge grogfe grogjont grogo grogont kregel krogan krogas kroge krogec'h krogemp krogent kroges kroget krogez krogfe krogfec'h krogfed krogfemp krogfen krogfent krogfes krogi krogimp krogin krogint krogis krogit krogje krogjec'h krogjed krogjemp krogjen krogjent krogjes krogjoc'h krogjod krogjomp krogjont krogjout krogo krogomp krogont krogor krogot
 28	328	zoken	
 29	329	rannvro	rannvroioù
 30	330	rener	renerez renerien renerion
@@ -40,9 +40,9 @@
 40	340	anv-lec'h	anvioù-lec'h
 41	341	aes	aesañ aesoc'h
 42	342	war-du	war-zu
-43	343	nac'h	nac'han nac'has nac'he nac'hent nac'her nac'het nac'hit nac'hiñ nac'ho nac'hont nac'hoù
+43	343	nac'h	nac'han nac'has nac'he nac'hent nac'her nac'het nac'hfe nac'hit nac'hiñ nac'hjont nac'ho nac'hont nac'hoù
 44	344	trede	drede zrede
-45	345	erruout	erru erruas errue erruek erruent erruet errui erruin errujont erruo
+45	345	erruout	erru erruan erruas errue erruec'h erruek erruemp erruen erruent errues erruet erruez errufe errufec'h errufed errufemp errufen errufent errufes errui erruimp erruin erruint erruis erruit erruje errujec'h errujed errujemp errujen errujent errujes errujoc'h errujod errujomp errujont errujout erruo erruomp erruont erruor erruot
 46	346	meurzh	veurzh
 47	347	micher	micherioù vicher vicherioù
 48	348	hogen	
@@ -53,7 +53,7 @@
 53	353	touez	douesk touesk zouesk zouez
 54	354	mignon	mignoned mignonez mignonezed vignon vignoned vignonez
 55	355	gwirionez	wirionez
-56	356	diazez	ziazez
+56	356	diazez	diazezoù ziazez
 57	357	servij	servijoù
 58	358	deskiñ	desk deskan deskas deske deskec'h desked deskemp desken deskent desker deskes deskez deskfe deskfec'h deskfed deskfemp deskfen deskfent deskfes deski deskimp deskin deskint deskis deskit deskje deskjec'h deskjed deskjemp deskjen deskjent deskjes deskjoc'h deskjod deskjomp deskjont deskjout desko deskoc'h deskomp deskont deskor deskot tesk teskas teske tesker teskint teskiñ teskjont tesko teskont zesk zeskas zeske zesker zeskfe zeskiñ zeskont
 59	359	arouez	arouezioù
@@ -61,11 +61,11 @@
 61	361	aod	aodoù
 62	362	koad	c'hoad c'hoadeier c'hoadoù goad goadeier goadoù koadeier koadoù
 63	363	marteze	marse varteze
-64	364	sikour	sikouriñ
-65	365	tizhout	dizh dizhas dizhout dizhoù tizh tizhas tizhañ tizhfent tizhis tizhiñ tizhjont tizhoù zizh zizhout
-66	366	eta	
+64	364	sikour	sikouran sikouras sikoure sikourec'h sikouremp sikouren sikourent sikoures sikouret sikourez sikourfe sikourfec'h sikourfed sikourfemp sikourfen sikourfent sikourfes sikouri sikourimp sikourin sikourint sikourioù sikouris sikourit sikouriñ sikourje sikourjec'h sikourjed sikourjemp sikourjen sikourjent sikourjes sikourjoc'h sikourjod sikourjomp sikourjont sikourjout sikouro sikouromp sikouront sikouror sikourot
+65	365	tizhout	dizh dizhas dizhe dizhet dizhont dizhout dizhoù tizh tizhan tizhas tizhañ tizhe tizhec'h tizhemp tizhen tizhent tizhes tizhet tizhez tizhfe tizhfec'h tizhfed tizhfemp tizhfen tizhfent tizhfes tizhi tizhimp tizhin tizhint tizhioù tizhis tizhit tizhiñ tizhje tizhjec'h tizhjed tizhjemp tizhjen tizhjent tizhjes tizhjoc'h tizhjod tizhjomp tizhjont tizhjout tizho tizhomp tizhont tizhor tizhot tizhoù zizh zizhout
+66	366	eta	etaan etaas etae etaec'h etaemp etaen etaent etaes etaet etaez etafe etafec'h etafed etafemp etafen etafent etafes etai etaimp etain etaint etais etait etaje etajec'h etajed etajemp etajen etajent etajes etajoc'h etajod etajomp etajont etajout etao etaomp etaont etaor etaot
 67	367	di	
-68	368	lesenvel	lesanvet
+68	368	lesenvel	lesanvan lesanvas lesanve lesanvec'h lesanvemp lesanven lesanvent lesanves lesanvet lesanvez lesanvfe lesanvfec'h lesanvfed lesanvfemp lesanvfen lesanvfent lesanvfes lesanvi lesanvimp lesanvin lesanvint lesanvis lesanvit lesanvje lesanvjec'h lesanvjed lesanvjemp lesanvjen lesanvjent lesanvjes lesanvjoc'h lesanvjod lesanvjomp lesanvjont lesanvjout lesanvo lesanvomp lesanvont lesanvor lesanvot
 69	369	arzour	arzourez arzourien arzourion
 70	370	aotrou	aotrouien aotrounez aotroù
 71	371	here	
@@ -75,9 +75,9 @@
 75	375	kelenner	c'helenner c'helennerien gelenner gelennerez gelennerien gelennerion kelennerez kelennerezed kelennerien kelennerion
 76	376	ruz	rusat
 77	377	dastum	dastume dastumet dastumfe dastumfec'h dastumfed dastumfemp dastumfen dastumfent dastumfes dastumfomp dastumfont dastumimp dastumis dastumiñ dastumje dastumjec'h dastumjed dastumjemp dastumjen dastumjent dastumjes dastumjoc'h dastumjod dastumjomp dastumjont dastumjout dastumoc'h dastumor dastumot tastum tastumas tastumed zastum zastumas zastume zastumont
-78	378	kristen	c'hristen gristen gristenez gristenien gristenion kristenez kristenien kristenion kristian
+78	378	kristen	c'hristen gristen gristenez gristenien gristenion kristenez kristenien kristenion kristenoc'h kristian
 79	379	poblañs	boblañs boblañsoù foblañs poblañsoù
-80	380	kompren	c'hompren gompren gomprenan gomprene komprenas komprenañ komprene komprenet komprenit kompreniñ kompreno
+80	380	kompren	c'hompren gompren gomprenan gomprene gomprenent gomprenfe gomprenfent gomprenont komprenan komprenas komprenañ komprene komprenec'h komprenemp komprenen komprenent komprenes komprenet komprenez komprenfe komprenfec'h komprenfed komprenfemp komprenfen komprenfent komprenfes kompreni komprenimp komprenin komprenint komprenis komprenit kompreniñ komprenje komprenjec'h komprenjed komprenjemp komprenjen komprenjent komprenjes komprenjoc'h komprenjod komprenjomp komprenjont komprenjout kompreno komprenomp komprenont komprenor komprenot
 81	381	taol	daol daolioù taolioù zaol
 82	382	lestr	lestroù listri
 83	383	spagn	
@@ -90,11 +90,11 @@
 90	390	lennegezh	lennegezhioù
 91	391	troad	daoudroad dreid droad droiad treid troadoù troiad zaoudroad zreid zroad zroiad
 92	392	eost	eostoù
-93	393	barzh	barzhed barzhez barzhezed parzh varzh varzhed varzhez
+93	393	barzh	barzhed barzhez barzhezed barzhioù parzh varzh varzhed varzhez
 94	394	darvoud	darvoudoù zarvoud zarvoudoù
 95	395	berr	berrañ berroc'h ferrat verr verrat verrañ verroc'h
 96	396	seblant	
 97	397	mae	vae
 98	398	ebrel	
 99	399	genver	
-100	400	kendelc'her	c'hendelc'her gendelc'her genderc'hel kendalc'has kendalc'he kendalc'ho kenderc'hel
+100	400	kendelc'her	c'hendelc'her gendalc'hont gendelc'her genderc'hel kendalc'han kendalc'has kendalc'he kendalc'hec'h kendalc'hemp kendalc'hen kendalc'hent kendalc'hes kendalc'het kendalc'hez kendalc'hfe kendalc'hfec'h kendalc'hfed kendalc'hfemp kendalc'hfen kendalc'hfent kendalc'hfes kendalc'hi kendalc'himp kendalc'hin kendalc'hint kendalc'his kendalc'hit kendalc'hje kendalc'hjec'h kendalc'hjed kendalc'hjemp kendalc'hjen kendalc'hjent kendalc'hjes kendalc'hjoc'h kendalc'hjod kendalc'hjomp kendalc'hjont kendalc'hjout kendalc'ho kendalc'homp kendalc'hont kendalc'hor kendalc'hot kenderc'hel

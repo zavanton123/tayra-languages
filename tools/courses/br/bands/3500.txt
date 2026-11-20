@@ -1,100 +1,100 @@
-1	3401	doareenn	doareennoù zoareennoù
-2	3402	kenwerzhañ	genwerzhañ
-3	3403	korvent	c'horventoù korventoù
-4	3404	kulator	c'hulator kulatorez
-5	3405	laou	laouenn
-6	3406	liñvadenn	liñvadennoù
-7	3407	merc'h-kaer	verc'h-kaer
-8	3408	pasianted	basianted
-9	3409	garmal	c'harmal karmal
-10	3410	gedour	geder gedourien gedourion
-11	3411	spilhenn	spilhennoù spilhoù
-12	3412	tachañ	tachas tache tachet tachis tachiñ
-13	3413	ti-debriñ	tier-debriñ tiez-debriñ
-14	3414	dirañ	dire diriñ tire tirer ziren
-15	3415	tridal	dridal tride triden trident trides tridi tridis
-16	3416	karour	garer garour garourien karer karourien
-17	3417	adaskell	adeskell
-18	3418	adlenn	adlennen adlennit
-19	3419	adwerzhañ	
-20	3420	albaneg	
-21	3421	amerikiom	
-22	3422	ampoezoniñ	
-23	3423	anoued	
-24	3424	arliv	
-25	3425	arsenik	
-26	3426	arvelen	
-27	3427	bamus	
-28	3428	begeg	
-29	3429	besk	
-30	3430	bizoù	bizeier
-31	3431	boued-mor	
-32	3432	braziliat	
-33	3433	chañsus	
-34	3434	chouchenn	
-35	3435	damant	
-36	3436	danek	
-37	3437	deuet-mat	
-38	3438	diaoulek	
-39	3439	digalon	
-40	3440	digoadañ	digoadiñ tigoadañ zigoadañ
-41	3441	digreizennañ	digreizenniñ tigreizennañ zigreizennañ
-42	3442	disent	
-43	3443	diseven	
-44	3444	divlaz	
-45	3445	dizampart	
-46	3446	dizifenn	
-47	3447	enaouiñ	
-48	3448	endervezh	
-49	3449	entanus	
-50	3450	estonus	
-51	3451	etrerannyezhel	
-52	3452	etresteredel	
-53	3453	feukus	
-54	3454	figus	
-55	3455	foenn	
-56	3456	frikorneg	
-57	3457	kazel-yev	gazel-ge
-58	3458	germaniom	
-59	3459	goulaouiñ	c'houlaouiñ goulaouas goulaouañ
-60	3460	gwarizius	
-61	3461	gwaskediñ	gwasked gwaskede kwaskediñ waskediñ
-62	3462	hebleg	
-63	3463	hirbadus	
-64	3464	hirgarrezenn	
-65	3465	hon-unan	
-66	3466	hudourez	
-67	3467	iridiom	
-68	3468	italianegerez	italianegerien
-69	3469	izelvor	
-70	3470	javed	
-71	3471	keuneud	
-72	3472	kistin	
-73	3473	kloridenn	
-74	3474	kofek	
-75	3475	kourtes	
-76	3476	lantanom	
-77	3477	laouek	
-78	3478	lardañ	lard lardiñ
-79	3479	lart	
-80	3480	lazhus	
-81	3481	leizh	
-82	3482	lestr-karg	
-83	3483	lidek	
-84	3484	litr	
-85	3485	lounezh	
-86	3486	louzañ	louzan louze
-87	3487	magadurezh	
-88	3488	makron	
-89	3489	meinek	
-90	3490	menezek	
-91	3491	merglet	
-92	3492	miltir	
-93	3493	morvil	morviled
-94	3494	naontekvet	
-95	3495	nikun	
-96	3496	niobiom	
-97	3497	onn	
-98	3498	orged	
-99	3499	pegeit	
-100	3500	pintet	
+1	3401	pouloud	bouloudenn
+2	3402	bruzunañ	bruzunan bruzunas bruzune bruzunec'h bruzunemp bruzunen bruzunent bruzunes bruzunet bruzunez bruzunfe bruzunfec'h bruzunfed bruzunfemp bruzunfen bruzunfent bruzunfes bruzuni bruzunimp bruzunin bruzunint bruzunis bruzunit bruzuniñ bruzunje bruzunjec'h bruzunjed bruzunjemp bruzunjen bruzunjent bruzunjes bruzunjoc'h bruzunjod bruzunjomp bruzunjont bruzunjout bruzuno bruzunomp bruzunont bruzunor bruzunot pruzunañ vruzunañ vruzuniñ
+3	3403	bual	bualed
+4	3404	kleñved-red	c'hleñved-red gleñved-red
+5	3405	gloaziad	c'hloazidi
+6	3406	c'hweziñ	c'hwesiñ c'hwezan c'hwezas c'hweze c'hwezec'h c'hwezemp c'hwezen c'hwezent c'hwezes c'hwezet c'hwezez c'hwezfe c'hwezfec'h c'hwezfed c'hwezfemp c'hwezfen c'hwezfent c'hwezfes c'hwezi c'hwezimp c'hwezin c'hwezint c'hwezis c'hwezit c'hwezje c'hwezjec'h c'hwezjed c'hwezjemp c'hwezjen c'hwezjent c'hwezjes c'hwezjoc'h c'hwezjod c'hwezjomp c'hwezjont c'hwezjout c'hwezo c'hwezomp c'hwezont c'hwezor c'hwezot
+7	3407	c'hwil	c'hwiled
+8	3408	devezh-arat	zevezh-arat
+9	3409	digasted	zigasted
+10	3410	digoadañ	digoadan digoadas digoade digoadec'h digoademp digoaden digoadent digoades digoadet digoadez digoadfe digoadfec'h digoadfed digoadfemp digoadfen digoadfent digoadfes digoadi digoadimp digoadin digoadint digoadis digoadit digoadiñ digoadje digoadjec'h digoadjed digoadjemp digoadjen digoadjent digoadjes digoadjoc'h digoadjod digoadjomp digoadjont digoadjout digoado digoadomp digoadont digoador digoadot tigoadañ zigoadañ
+11	3411	dinoaz	dinoasoc'h
+12	3412	divesker	zivesker
+13	3413	divontañ	divont divontan divontas divonte divontec'h divontemp divonten divontent divontes divontet divontez divontfe divontfec'h divontfed divontfemp divontfen divontfent divontfes divonti divontimp divontin divontint divontis divontit divontiñ divontje divontjec'h divontjed divontjemp divontjen divontjent divontjes divontjoc'h divontjod divontjomp divontjont divontjout divonto divontomp divontont divontor divontot tivontañ zivontañ
+14	3414	divuhez	zivuhez
+15	3415	dizroug	dizrouk
+16	3416	dogan	doganed
+17	3417	dreinek	dreineg
+18	3418	ec'honder	ec'honderioù
+19	3419	erc'hek	erc'hegoù
+20	3420	kibell	gibell kibelloù
+21	3421	grevusted	c'hrevusted
+22	3422	gwaskediñ	gwasked gwaskedan gwaskedas gwaskede gwaskedec'h gwaskedemp gwaskeden gwaskedent gwaskedes gwaskedet gwaskedez gwaskedfe gwaskedfec'h gwaskedfed gwaskedfemp gwaskedfen gwaskedfent gwaskedfes gwaskedi gwaskedimp gwaskedin gwaskedint gwaskedis gwaskedit gwaskedje gwaskedjec'h gwaskedjed gwaskedjemp gwaskedjen gwaskedjent gwaskedjes gwaskedjoc'h gwaskedjod gwaskedjomp gwaskedjont gwaskedjout gwaskedo gwaskedomp gwaskedont gwaskedor gwaskedot kwaskediñ waskediñ
+23	3423	harz-lamm	harzoù-lamm
+24	3424	horzh	horzhioù
+25	3425	koumoulek	goumoulek
+26	3426	krazañ	c'hrazañ grazañ kraz krazan krazas kraze krazec'h krazemp krazen krazent krazes krazet krazez krazfe krazfec'h krazfed krazfemp krazfen krazfent krazfes krazi krazimp krazin krazint krazis krazit kraziñ krazje krazjec'h krazjed krazjemp krazjen krazjent krazjes krazjoc'h krazjod krazjomp krazjont krazjout krazo krazomp krazont krazor krazot
+27	3427	kuñv	guñv
+28	3428	kêriad	gêriz kêriz
+29	3429	lardañ	lard lardan lardas larde lardec'h lardemp larden lardent lardes lardet lardez lardfe lardfec'h lardfed lardfemp lardfen lardfent lardfes lardi lardimp lardin lardint lardis lardit lardiñ lardje lardjec'h lardjed lardjemp lardjen lardjent lardjes lardjoc'h lardjod lardjomp lardjont lardjout lardo lardomp lardont lardor lardot
+30	3430	liver	liverez
+31	3431	louzaoueg	louzaouegoù
+32	3432	lugernus	lugernusañ
+33	3433	maen-bez	vaen-bez
+34	3434	metan	vetan
+35	3435	neblec'h	
+36	3436	piaouañ	biaouañ piaou piaouan piaouas piaouat piaoue piaouec'h piaouemp piaouen piaouent piaoues piaouet piaouez piaoufe piaoufec'h piaoufed piaoufemp piaoufen piaoufent piaoufes piaoui piaouimp piaouin piaouint piaouis piaouit piaouje piaoujec'h piaoujed piaoujemp piaoujen piaoujent piaoujes piaoujoc'h piaoujod piaoujomp piaoujont piaoujout piaouo piaouomp piaouont piaouor piaouot piaouout
+37	3437	rannvloaz	rannvloazioù
+38	3438	sac'h-dorn	seier-dorn
+39	3439	sapr	saprenn
+40	3440	skiañ	skian skias skie skiec'h skied skiemp skien skient skies skiet skiez skife skifec'h skifed skifemp skifen skifent skifes skii skiimp skiin skiint skiis skiit skije skijec'h skijed skijemp skijen skijent skijes skijoc'h skijod skijomp skijont skijout skio skiomp skiont skior skiot
+41	3441	torr-dimeziñ	dorr-dimeziñ
+42	3442	treitouriñ	dreitouriñ treitouran treitouras treitoure treitourec'h treitouremp treitouren treitourent treitoures treitouret treitourfe treitourfec'h treitourfed treitourfemp treitourfen treitourfent treitourfes treitouri treitourimp treitourin treitourint treitouris treitourit treitourje treitourjec'h treitourjed treitourjemp treitourjen treitourjent treitourjes treitourjoc'h treitourjod treitourjomp treitourjont treitourjout treitouro treitouromp treitouront treitouror treitourot zreitouriñ
+43	3443	vaksinañ	vaksinan vaksinas vaksine vaksinec'h vaksinemp vaksinen vaksinent vaksines vaksinet vaksinez vaksinfe vaksinfec'h vaksinfed vaksinfemp vaksinfen vaksinfent vaksinfes vaksini vaksinimp vaksinin vaksinint vaksinis vaksinit vaksiniñ vaksinje vaksinjec'h vaksinjed vaksinjemp vaksinjen vaksinjent vaksinjes vaksinjoc'h vaksinjod vaksinjomp vaksinjont vaksinjout vaksino vaksinomp vaksinont vaksinor vaksinot
+44	3444	merdead	verdeidi
+45	3445	komm	c'homm
+46	3446	bezant	vezant
+47	3447	feukañ	feuk feukas feuke feukec'h feukemp feuken feukent feukes feukez feukfe feukfec'h feukfed feukfemp feukfen feukfent feukfes feuki feukimp feukin feukint feukis feukit feukiñ feukje feukjec'h feukjed feukjemp feukjen feukjent feukjes feukjoc'h feukjod feukjomp feukjont feukjout feuko feukomp feukont feukor feukot
+48	3448	flemm	flemmoù
+49	3449	gourvab	gourvibien
+50	3450	gwispid	wispidenn
+51	3451	melkonius	velkonius
+52	3452	pareour	pareer
+53	3453	pemzekvet	bemzekvet
+54	3454	gwere	were
+55	3455	komiserdi	gomiserdi
+56	3456	kroat	groat
+57	3457	meurvaen	meurvein
+58	3458	plavañ	blavañ flavor plav plavan plavas plave plavec'h plavemp plaven plavent plaves plavet plavez plavfe plavfec'h plavfed plavfemp plavfen plavfent plavfes plavi plavimp plavin plavint plavis plavit plavje plavjec'h plavjed plavjemp plavjen plavjent plavjes plavjoc'h plavjod plavjomp plavjont plavjout plavo plavomp plavont plavor plavot
+59	3459	tadig	zadig
+60	3460	teñvalaat	deñvalaat teñvala teñvalaad teñvalaan teñvalaas teñvalae teñvalaec'h teñvalaemp teñvalaen teñvalaent teñvalaes teñvalaet teñvalaez teñvalafe teñvalafec'h teñvalafed teñvalafemp teñvalafen teñvalafent teñvalafes teñvalai teñvalaimp teñvalain teñvalaint teñvalais teñvalait teñvalaje teñvalajec'h teñvalajed teñvalajemp teñvalajen teñvalajent teñvalajes teñvalajoc'h teñvalajod teñvalajomp teñvalajont teñvalajout teñvalao teñvalaomp teñvalaont teñvalaor teñvalaot
+61	3461	tintal	tint tintan tintas tintañ tinte tintec'h tintemp tinten tintent tintes tintet tintez tintfe tintfec'h tintfed tintfemp tintfen tintfent tintfes tinti tintimp tintint tintis tintit tintje tintjec'h tintjed tintjemp tintjen tintjent tintjes tintjoc'h tintjod tintjomp tintjont tintjout tinto tintomp tintont tintor tintot zint
+62	3462	achuiñ	achuan achuas achue achuec'h achuemp achuen achuent achues achuet achuez achufe achufec'h achufed achufemp achufen achufent achufes achui achuimp achuin achuint achuis achuit achuje achujec'h achujed achujemp achujen achujent achujes achujoc'h achujod achujomp achujont achujout achuo achuomp achuont achuor achuot
+63	3463	advugelañ	advugelan advugelas advugele advugelec'h advugelemp advugelen advugelent advugeles advugelet advugelez advugelfe advugelfec'h advugelfed advugelfemp advugelfen advugelfent advugelfes advugeli advugelimp advugelin advugelint advugelis advugelit advugelje advugeljec'h advugeljed advugeljemp advugeljen advugeljent advugeljes advugeljoc'h advugeljod advugeljomp advugeljont advugeljout advugelo advugelomp advugelont advugelor advugelot
+64	3464	aourgi	aourgon
+65	3465	beskontelezh	veskontelezh
+66	3466	boked	bokedoù
+67	3467	brizh	vrizh
+68	3468	buzhug	buzhugenn vuzhugenn
+69	3469	karma	c'harma
+70	3470	katekiz	c'hatekiz
+71	3471	kentanv	c'hentanv gentanv
+72	3472	kenwerzher	c'henwerzher
+73	3473	dourlivadur	dourlivadurioù zourlivadur zourlivadurioù
+74	3474	draenek	draeneg
+75	3475	edeg	edegi edeier
+76	3476	empennañ	empennan empennas empenne empennec'h empennemp empennen empennent empennes empennet empennez empennfe empennfec'h empennfed empennfemp empennfen empennfent empennfes empenni empennimp empennin empennint empennis empennit empennje empennjec'h empennjed empennjemp empennjen empennjent empennjes empennjoc'h empennjod empennjomp empennjont empennjout empenno empennomp empennont empennor empennot
+77	3477	fichañ	fich fichan fichas fiche fichec'h fichemp fichen fichent fiches fichet fichez fichfe fichfec'h fichfed fichfemp fichfen fichfent fichfes fichi fichimp fichin fichint fichis fichit fichiñ fichje fichjec'h fichjed fichjemp fichjen fichjent fichjes fichjoc'h fichjod fichjomp fichjont fichjout ficho fichomp fichont fichor fichot
+78	3478	fouge	fougeoù
+79	3479	frikañ	frik frikan frikas frike frikec'h frikemp friken frikent frikes friket frikez frikfe frikfec'h frikfed frikfemp frikfen frikfent frikfes friki frikimp frikin frikint frikis frikit frikiñ frikje frikjec'h frikjed frikjemp frikjen frikjent frikjes frikjoc'h frikjod frikjomp frikjont frikjout frikomp frikont frikor frikot
+80	3480	fromañ	froman fromas frome fromec'h fromemp fromen froment fromes fromet fromez fromfe fromfec'h fromfed fromfemp fromfen fromfent fromfes fromi fromimp fromin fromint fromis fromit fromiñ fromje fromjec'h fromjed fromjemp fromjen fromjent fromjes fromjoc'h fromjod fromjomp fromjont fromjout fromo fromomp fromont fromor fromot
+81	3481	frotañ	frotan frotas frote frotec'h frotemp froten frotent frotes frotet frotez frotfe frotfec'h frotfed frotfemp frotfen frotfent frotfes froti frotimp frotin frotint frotis frotit frotiñ frotje frotjec'h frotjed frotjemp frotjen frotjent frotjes frotjoc'h frotjod frotjomp frotjont frotjout froto frotomp frotont frotor frotot
+82	3482	froudenn	froudennoù
+83	3483	geuniek	c'heuniek
+84	3484	gloazus	c'hloazus
+85	3485	goaperezh	c'hoaperezh goapaerezh
+86	3486	kouc'h	c'houc'h gouc'h
+87	3487	gouelan	gouelaned gouelini
+88	3488	gourdad	c'hourdadoù gourdadoù
+89	3489	gwevnded	wevnded
+90	3490	hizivaat	hiziva hizivaan hizivaas hizivae hizivaec'h hizivaemp hizivaen hizivaent hizivaes hizivaet hizivaez hizivafe hizivafec'h hizivafed hizivafemp hizivafen hizivafent hizivafes hizivai hizivaimp hizivain hizivaint hizivais hizivait hizivaje hizivajec'h hizivajed hizivajemp hizivajen hizivajent hizivajes hizivajoc'h hizivajod hizivajomp hizivajont hizivajout hizivao hizivaomp hizivaont hizivaor hizivaot
+91	3491	kig-moc'h	c'hig-moc'h
+92	3492	kozhañ	gozhañ gozhont kozhan kozhas kozhe kozhec'h kozhemp kozhen kozhent kozhes kozhet kozhez kozhfe kozhfec'h kozhfed kozhfemp kozhfen kozhfent kozhfes kozhi kozhimp kozhin kozhint kozhis kozhit kozhje kozhjec'h kozhjed kozhjemp kozhjen kozhjent kozhjes kozhjoc'h kozhjod kozhjomp kozhjont kozhjout kozho kozhomp kozhont kozhor kozhot
+93	3493	regiñ	reg regan regas regañ rege regec'h regemp regen regent reget regez regfe regfec'h regfed regfemp regfen regfent regfes regi regimp regin regint regit regje regjec'h regjed regjemp regjen regjent regjes regjoc'h regjod regjomp regjont regjout rego regomp regont regor regot
+94	3494	rodell	rodelloù
+95	3495	ruoc'hal	ruoc'h ruoc'han ruoc'has ruoc'he ruoc'hec'h ruoc'hemp ruoc'hen ruoc'hent ruoc'hes ruoc'het ruoc'hez ruoc'hfe ruoc'hfec'h ruoc'hfed ruoc'hfemp ruoc'hfen ruoc'hfent ruoc'hfes ruoc'hi ruoc'himp ruoc'hin ruoc'hint ruoc'his ruoc'hit ruoc'hje ruoc'hjec'h ruoc'hjed ruoc'hjemp ruoc'hjen ruoc'hjent ruoc'hjes ruoc'hjoc'h ruoc'hjod ruoc'hjomp ruoc'hjont ruoc'hjout ruoc'ho ruoc'homp ruoc'hont ruoc'hor ruoc'hot
+96	3496	sigaretenn	sigaretennoù
+97	3497	sizailh	sizailhoù
+98	3498	skediñ	skedan skedas skedañ skede skedec'h skedemp skeden skedent skedes skedet skedez skedfe skedfec'h skedfed skedfemp skedfen skedfent skedfes skedi skedimp skedin skedint skedis skedit skedje skedjec'h skedjed skedjemp skedjen skedjent skedjes skedjoc'h skedjod skedjomp skedjont skedjout skedo skedomp skedont skedor skedot
+99	3499	sodiñ	sodan sodas sodañ sode sodec'h sodemp soden sodent soder sodes sodet sodez sodfe sodfec'h sodfed sodfemp sodfen sodfent sodfes sodi sodimp sodin sodint sodis sodit sodje sodjec'h sodjed sodjemp sodjen sodjent sodjes sodjoc'h sodjod sodjomp sodjont sodjout sodo sodomp sodont sodor sodot
+100	3500	stammenn	stammennoù

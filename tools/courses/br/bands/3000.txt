@@ -1,100 +1,100 @@
-1	2901	aberiñ	
-2	2902	ac'hann	
-3	2903	ankouaat	ankouain ankouajen ankouajont
-4	2904	anv-verb	
-5	2905	chal	
-6	2906	chupenn	
-7	2907	davit	
-8	2908	fazenn	
-9	2909	ferv	
-10	2910	fiñvusted	
-11	2911	frouezhusted	
-12	2912	gwenedeg	
-13	2913	hetañ	hetiñ
-14	2914	hudour	
-15	2915	milis	
-16	2916	mod-all	
-17	2917	neveziñ	
-18	2918	orgedus	
-19	2919	perseg	
-20	2920	pevarzroadek	
-21	2921	rogoni	
-22	2922	silabennek	
-23	2923	silzig	
-24	2924	soavon	
-25	2925	spier	
-26	2926	abaf	
-27	2927	amiegez	
-28	2928	dismegañsus	
-29	2929	edan	
-30	2930	frondus	
-31	2931	kapitalouriezh	gapitalouriezh
-32	2932	ingalded	
-33	2933	leskiñ	losker
-34	2934	aonik	
-35	2935	pennek	
-36	2936	sil	
-37	2937	chouant	chouanted
-38	2938	antre	antreoù
-39	2939	arzorn	arzornioù
-40	2940	paouraat	baouraat
-41	2941	begel	begelioù
-42	2942	binimus	vinimus
-43	2943	biz-yod	viz-yod
-44	2944	derc'hent	zerc'hent
-45	2945	divarvelezh	zivarvelezh
-46	2946	dizenor	zizenor
-47	2947	touribell	douribell touribelloù
-48	2948	dudius	tudius
-49	2949	glebor	c'hlebor
-50	2950	gouron	gouroned
-51	2951	greanti	c'hreanti
-52	2952	gwiadiñ	wiadiñ
-53	2953	hiviz	hivizoù
-54	2954	hoalus	hoalusañ
-55	2955	levrdi	levrdioù
-56	2956	padusted	badusted
-57	2957	pellgomzer	pellgomzerioù
-58	2958	peurbadus	beurbadus
-59	2959	plusk	flusk
-60	2960	raoskl	raosklenn
-61	2961	skluz	skluzioù
-62	2962	tired	tiredoù
-63	2963	toazenn	doazenn toazennoù
-64	2964	tour-meur	dour-meur
-65	2965	bravaat	pravaat vravaat
-66	2966	c'hwek	
-67	2967	dishualañ	dishual zishual
-68	2968	hendra	hendraoù
-69	2969	trizekvet	drizekvet
-70	2970	azasadur	azasadurioù
-71	2971	paotreta	baotreta
-72	2972	broust	broustoù proust
-73	2973	glanded	c'hlanded
-74	2974	koreaneg	c'horeaneg
-75	2975	dispriz	zispriz
-76	2976	dramaour	dramaourien
-77	2977	kran	granañ kranañ
-78	2978	kren	gren
-79	2979	sivi	sivienn
-80	2980	tropell	tropelloù zropell
-81	2981	uvel	uveloc'h
-82	2982	malizenn	malizennoù valizenn
-83	2983	boue	foue
-84	2984	hendraour	hendraourien
-85	2985	porzh-mor	forzh-mor porzhioù-mor
-86	2986	bouton	boutonoù vouton
-87	2987	boulouard	boulouardoù voulouard
-88	2988	hediñ	hedan hedas hedañ hede hedec'h heded hedemp heden hedent heder hedes hedet hedez hedfe hedfec'h hedfed hedfemp hedfen hedfent hedfes hedi hedimp hedin hedint hedis hedit hedje hedjec'h hedjed hedjemp hedjen hedjent hedjes hedjoc'h hedjod hedjomp hedjont hedjout hedo hedoc'h hedomp hedont hedot
-89	2989	inosant	inosanted inosantez
-90	2990	frañsezad	frañsezidi frañseziz
-91	2991	suiñ	suas sue suet sufe suje suo
-92	2992	bag-dre-lien	bagoù-dre-lien bigi-dre-lien vag-dre-lien
-93	2993	poblañ	boblañ foblañ pobliñ
-94	2994	kastell-kreñv	c'hastell-kreñv
-95	2995	geometriezh	c'heometriezh
-96	2996	kilhog	c'hilheien c'hilhog gilhog kilhegi
-97	2997	govel	c'hovel
-98	2998	teirvet	deirvet
-99	2999	diduiñ	didual diduañ tiduiñ ziduiñ
-100	3000	direnkañ	direnkat direnkiñ tirenk tirenkañ zirenk zirenkañ
+1	2901	sentus	
+2	2902	aluzenour	aluzener
+3	2903	damez	
+4	2904	gwe	we
+5	2905	lev	
+6	2906	pebr	
+7	2907	raz	
+8	2908	armel	
+9	2909	klañvidik	
+10	2910	brabant	vrabant
+11	2911	nant	nantoù
+12	2912	dioksigen	zioksigen
+13	2913	gov	c'hov
+14	2914	saludiñ	saludan saludas salude saluden saludent saluder saludes saludez saludin saludo
+15	2915	fulenn	fulenned
+16	2916	gouelec'h	gouelec'hioù
+17	2917	gwinegr	gwinêgr
+18	2918	seizañ	seizan seizas seize seizec'h seized seizemp seizen seizent seizes seizet seizez seizfe seizfec'h seizfed seizfemp seizfen seizfent seizfes seizimp seizin seizint seizis seizit seizje seizjec'h seizjed seizjemp seizjen seizjent seizjes seizjoc'h seizjod seizjomp seizjont seizjout seizo seizomp seizont seizor seizot
+19	2919	marc'hegezh	marc'hegezhan marc'hegezhas marc'hegezhe marc'hegezhec'h marc'hegezhemp marc'hegezhen marc'hegezhent marc'hegezhes marc'hegezhet marc'hegezhez marc'hegezhfe marc'hegezhfec'h marc'hegezhfed marc'hegezhfemp marc'hegezhfen marc'hegezhfent marc'hegezhfes marc'hegezhi marc'hegezhimp marc'hegezhin marc'hegezhint marc'hegezhis marc'hegezhit marc'hegezhje marc'hegezhjec'h marc'hegezhjed marc'hegezhjemp marc'hegezhjen marc'hegezhjent marc'hegezhjes marc'hegezhjoc'h marc'hegezhjod marc'hegezhjomp marc'hegezhjont marc'hegezhjout marc'hegezho marc'hegezhomp marc'hegezhont marc'hegezhor marc'hegezhot varc'hegezh
+20	2920	rektor	rektored
+21	2921	sil	silioù
+22	2922	irvin	irvinenn
+23	2923	brezelgar	vrezelgar
+24	2924	deliaouek	deliaoueg
+25	2925	tell-gastiz	dell-gastiz telloù-kastiz
+26	2926	eilmaer	eilmaerez
+27	2927	flourdilizenn	flourdiliz
+28	2928	krizded	c'hrizded grizded
+29	2929	krigner	c'hrignerien krignerien
+30	2930	milliget	villiget
+31	2931	prezegenner	brezegenner prezegennerien
+32	2932	sec'hed	
+33	2933	skol-vamm	skolioù-mamm
+34	2934	binim	vinim
+35	2935	bouc'h	vouc'hed
+36	2936	bravaat	brava bravaan bravaas bravae bravaec'h bravaemp bravaen bravaent bravaes bravaet bravaez bravafe bravafec'h bravafed bravafemp bravafen bravafent bravafes bravai bravaimp bravain bravaint bravais bravait bravaje bravajec'h bravajed bravajemp bravajen bravajent bravajes bravajoc'h bravajod bravajomp bravajont bravajout bravao bravaomp bravaont bravaor bravaot pravaat vravaat
+37	2937	dishualañ	dishual dishualan dishualas dishuale dishualec'h dishualemp dishualen dishualent dishuales dishualet dishualez dishualfe dishualfec'h dishualfed dishualfemp dishualfen dishualfent dishualfes dishuali dishualimp dishualin dishualint dishualis dishualit dishualje dishualjec'h dishualjed dishualjemp dishualjen dishualjent dishualjes dishualjoc'h dishualjod dishualjomp dishualjont dishualjout dishualo dishualomp dishualont dishualor dishualot zishual
+38	2938	fer	ferenn
+39	2939	gouiziek	gouiziekañ gouiziekoc'h
+40	2940	meurvorel	veurvorel
+41	2941	rastell	rastelloù restell
+42	2942	adkargañ	adkarg adkargan adkargas adkarge adkargec'h adkargemp adkargen adkargent adkarges adkarget adkargez adkargfe adkargfec'h adkargfed adkargfemp adkargfen adkargfent adkargfes adkargi adkargimp adkargin adkargint adkargis adkargit adkargje adkargjec'h adkargjed adkargjemp adkargjen adkargjent adkargjes adkargjoc'h adkargjod adkargjomp adkargjont adkargjout adkargo adkargomp adkargont adkargor adkargot
+43	2943	avielour	avielourien
+44	2944	badez	vadez
+45	2945	gweuz	diweuz weuz
+46	2946	douaroniour	douaroniourien
+47	2947	garzh	c'harzh girzhier
+48	2948	preñv	breñved preñved
+49	2949	moullerezh	voullerezh
+50	2950	dialañ	dialan dialas diale dialec'h dialemp dialen dialent diales dialet dialez dialfe dialfec'h dialfed dialfemp dialfen dialfent dialfes diali dialimp dialin dialint dialis dialit dialje dialjec'h dialjed dialjemp dialjen dialjent dialjes dialjoc'h dialjod dialjomp dialjont dialjout dialo dialomp dialont dialor dialot tialañ zialañ
+51	2951	beni	benioù veni
+52	2952	kap	c'hap
+53	2953	breutaer	breutaerien vreutaer vreutaerien
+54	2954	korporal	c'horporal gorporal
+55	2955	garan	garanoù
+56	2956	kemberiñ	gemberiñ kemberan kemberas kemberañ kembere kemberec'h kemberemp kemberen kemberent kemberes kemberet kemberez kemberfe kemberfec'h kemberfed kemberfemp kemberfen kemberfent kemberfes kemberi kemberimp kemberin kemberint kemberis kemberit kemberje kemberjec'h kemberjed kemberjemp kemberjen kemberjent kemberjes kemberjoc'h kemberjod kemberjomp kemberjont kemberjout kembero kemberomp kemberont kemberor kemberot
+57	2957	morlenn	vorlenn
+58	2958	bouton	boutonioù boutonoù vouton
+59	2959	itrikañ	itrik itrikan itrikas itrike itrikec'h itrikemp itriken itrikent itrikes itriket itrikez itrikfe itrikfec'h itrikfed itrikfemp itrikfen itrikfent itrikfes itriki itrikimp itrikin itrikint itrikis itrikit itrikje itrikjec'h itrikjed itrikjemp itrikjen itrikjent itrikjes itrikjoc'h itrikjod itrikjomp itrikjont itrikjout itriko itrikomp itrikont itrikor itrikot
+60	2960	chaokat	chaok chaokan chaokas chaokañ chaoke chaokec'h chaokemp chaoken chaokent chaokes chaoket chaokez chaokfe chaokfec'h chaokfed chaokfemp chaokfen chaokfent chaokfes chaoki chaokimp chaokin chaokint chaokis chaokit chaokiñ chaokje chaokjec'h chaokjed chaokjemp chaokjen chaokjent chaokjes chaokjoc'h chaokjod chaokjomp chaokjont chaokjout chaoko chaokomp chaokont chaokor chaokot
+61	2961	kornek	gornek korniek
+62	2962	maeronez	vaeronez
+63	2963	poaniañ	boanias boaniañ boanie foaniañ poani poanial poanian poanias poanie poaniec'h poaniemp poanien poanient poanies poaniet poaniez poanife poanifec'h poanifed poanifemp poanifen poanifent poanifes poanii poaniimp poaniin poaniint poaniis poaniit poaniiñ poanije poanijec'h poanijed poanijemp poanijen poanijent poanijes poanijoc'h poanijod poanijomp poanijont poanijout poanio poaniomp poaniont poanior poaniot
+64	2964	adlenn	adlennan adlennas adlenne adlennec'h adlennemp adlennen adlennent adlennes adlennet adlennez adlennfe adlennfec'h adlennfed adlennfemp adlennfen adlennfent adlennfes adlenni adlennimp adlennin adlennint adlennis adlennit adlennje adlennjec'h adlennjed adlennjemp adlennjen adlennjent adlennjes adlennjoc'h adlennjod adlennjomp adlennjont adlennjout adlenno adlennomp adlennont adlennor adlennot
+65	2965	araogenn	araogennoù
+66	2966	bevoniezh	vevoniezh
+67	2967	bugel-bihan	bugale-vihan vugale-vihan
+68	2968	geometriezh	c'heometriezh geometriezhioù
+69	2969	krennvrezhoneg	c'hrennvrezhoneg
+70	2970	diazezourez	diazezerez diazezour ziazezour
+71	2971	diduiñ	didu didual diduan diduas diduañ didue diduec'h diduemp diduen diduent didues diduet diduez didufe didufec'h didufed didufemp didufen didufent didufes didui diduimp diduin diduint diduis diduit diduje didujec'h didujed didujemp didujen didujent didujes didujoc'h didujod didujomp didujont didujout diduo diduomp diduont diduor diduot tiduiñ ziduiñ
+72	2972	treujenn-gaol	dreujenn-gaol
+73	2973	gwetur	gweturioù wetur
+74	2974	ibil	ibilien ibilioù ibiloù
+75	2975	intrañ	intr intran intras intre intrec'h intred intremp intren intrent intres intret intrez intrfe intrfec'h intrfed intrfemp intrfen intrfent intrfes intri intrimp intrin intrint intris intrit intriñ intrje intrjec'h intrjed intrjemp intrjen intrjent intrjes intrjoc'h intrjod intrjomp intrjont intrjout intro intromp intront intror introt
+76	2976	madig	madigoù vadigoù
+77	2977	platin	blatin platinoù
+78	2978	segal	segalenn segalennoù
+79	2979	sotoni	sotonioù
+80	2980	bagon	bagonioù fagon vagon
+81	2981	bonnañ	bonnan bonnas bonne bonnec'h bonnemp bonnen bonnent bonnes bonnet bonnez bonnfe bonnfec'h bonnfed bonnfemp bonnfen bonnfent bonnfes bonni bonnimp bonnin bonnint bonnis bonnit bonniñ bonnje bonnjec'h bonnjed bonnjemp bonnjen bonnjent bonnjes bonnjoc'h bonnjod bonnjomp bonnjont bonnjout bonno bonnomp bonnont bonnor bonnot ponnañ vonnañ
+82	2982	roñfl	roñfled roñflez
+83	2983	bevoniour	vevoniour vevoniourien
+84	2984	gwarediñ	gwaredan gwaredas gwarede gwaredec'h gwaredemp gwareden gwaredent gwaredes gwaredet gwaredez gwaredfe gwaredfec'h gwaredfed gwaredfemp gwaredfen gwaredfent gwaredfes gwaredi gwaredimp gwaredin gwaredint gwaredis gwaredit gwaredje gwaredjec'h gwaredjed gwaredjemp gwaredjen gwaredjent gwaredjes gwaredjoc'h gwaredjod gwaredjomp gwaredjont gwaredjout gwaredo gwaredomp gwaredont gwaredor gwaredot warediñ
+85	2985	megin	meginoù vegin
+86	2986	spurmantiñ	spurmant spurmantan spurmantas spurmante spurmantec'h spurmantemp spurmanten spurmantent spurmantes spurmantet spurmantez spurmantfe spurmantfec'h spurmantfed spurmantfemp spurmantfen spurmantfent spurmantfes spurmanti spurmantimp spurmantin spurmantint spurmantis spurmantit spurmantje spurmantjec'h spurmantjed spurmantjemp spurmantjen spurmantjent spurmantjes spurmantjoc'h spurmantjod spurmantjomp spurmantjont spurmantjout spurmanto spurmantomp spurmantont spurmantor spurmantot
+87	2987	glavek	c'hlavekañ glaviek
+88	2988	arruout	arru arruan arruas arrue arruec'h arruemp arruen arruent arrues arruet arruez arrufe arrufec'h arrufed arrufemp arrufen arrufent arrufes arrui arruimp arruin arruint arruis arruit arruje arrujec'h arrujed arrujemp arrujen arrujent arrujes arrujoc'h arrujod arrujomp arrujont arrujout arruo arruomp arruont arruor arruot
+89	2989	kleñvel	glañvas gleñvel klañvan klañvas klañve klañvec'h klañvemp klañven klañvent klañves klañvet klañvez klañvfe klañvfec'h klañvfed klañvfemp klañvfen klañvfent klañvfes klañvi klañvimp klañvin klañvint klañvis klañvit klañvje klañvjec'h klañvjed klañvjemp klañvjen klañvjent klañvjes klañvjoc'h klañvjod klañvjomp klañvjont klañvjout klañvo klañvomp klañvont klañvor klañvot kleñver
+90	2990	karedig	c'haredig garedig
+91	2991	kromozom	c'hromozom kromozomoù
+92	2992	dourvarc'h	dourvarc'hed zourvarc'h
+93	2993	tremeniad	dremenidi tremenidi
+94	2994	kaletaat	c'haletaat galeta galetaat kaleta kaletaan kaletaas kaletae kaletaec'h kaletaemp kaletaen kaletaent kaletaes kaletaet kaletaez kaletafe kaletafec'h kaletafed kaletafemp kaletafen kaletafent kaletafes kaletai kaletaimp kaletain kaletaint kaletais kaletait kaletaje kaletajec'h kaletajed kaletajemp kaletajen kaletajent kaletajes kaletajoc'h kaletajod kaletajomp kaletajont kaletajout kaletao kaletaomp kaletaont kaletaor kaletaot
+95	2995	kouign	c'houign c'houignoù gouign kouignoù
+96	2996	kannerez	c'hanner ganner kanner kannerezed
+97	2997	proton	broton brotonenn protonenn
+98	2998	balirañ	balir baliran baliras balire balirec'h baliremp baliren balirent balires baliret balirez balirfe balirfec'h balirfed balirfemp balirfen balirfent balirfes baliri balirimp balirin balirint baliris balirit balirje balirjec'h balirjed balirjemp balirjen balirjent balirjes balirjoc'h balirjod balirjomp balirjont balirjout baliro baliromp baliront baliror balirot valir valirañ valire
+99	2999	krenañ	grenañ grenet krenan krenas krene krenec'h krenemp krenen krenent krenes krenet krenez krenfe krenfec'h krenfed krenfemp krenfen krenfent krenfes kreni krenimp krenin krenint krenis krenit kreniñ krenje krenjec'h krenjed krenjemp krenjen krenjent krenjes krenjoc'h krenjod krenjomp krenjont krenjout kreno krenoc'h krenomp krenont krenor krenot
+100	3000	paotaat	baota baotaat baotao faotaat paota paotaan paotaas paotae paotaec'h paotaemp paotaen paotaent paotaes paotaet paotaez paotafe paotafec'h paotafed paotafemp paotafen paotafent paotafes paotai paotaimp paotain paotaint paotais paotait paotaje paotajec'h paotajed paotajemp paotajen paotajent paotajes paotajoc'h paotajod paotajomp paotajont paotajout paotao paotaomp paotaont paotaor paotaot

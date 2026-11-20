@@ -1,100 +1,100 @@
-1	1701	atomek	
-2	1702	diembann	
-3	1703	prenn	
-4	1704	savboent	
-5	1705	flemmus	
-6	1706	dekvet	
-7	1707	ludu	
-8	1708	stekiñ	
-9	1709	evelkent	
-10	1710	pemoc'h	
-11	1711	gourel	c'hourel
-12	1712	rakskrid	rakskridoù
-13	1713	atizañ	atiz atizas atizer atiziñ
-14	1714	kras	c'hras gras
-15	1715	dourenn	dourennoù
-16	1716	ergerzhadenn	ergerzhadennoù
-17	1717	yar	yer
-18	1718	ged	ked
-19	1719	pinvidikaat	binvidikaat binvikaat finvidikaat pinvikaat
-20	1720	koan	goan koanioù
-21	1721	keneil	c'heneil c'heneiled geneil geneiled geneilez keneiled keneilez
-22	1722	armead	armeadoù
-23	1723	moan	moanoc'h
-24	1724	kazeg	gazeg
-25	1725	lec'hanv	lec'hanvioù
-26	1726	emzivad	emzivaded emzivadez emzivadezed
-27	1727	kev	c'hev c'hevioù gev kevioù kew
-28	1728	atlantel	
-29	1729	arrebeuri	
-30	1730	naon	
-31	1731	souezh	
-32	1732	sinaeg	
-33	1733	seiz	
-34	1734	daouad	zaouad
-35	1735	benel	penel venel
-36	1736	arnodiñ	
-37	1737	dilestradeg	dilestradegoù
-38	1738	deol	deoloc'h
-39	1739	lous	lousañ lousoc'h
-40	1740	meuleudi	meuleudioù veuleudi
-41	1741	tredeog	dredeog tredeoged tredeogez
-42	1742	glac'har	c'hlac'har
-43	1743	kimiezh	c'himiezh gimiezh
-44	1744	bragoù	brageier vragoù
-45	1745	korventenn	c'horventennoù gorventenn korventennoù
-46	1746	azen	azened azenez azenezed ezen
-47	1747	jestr	jestroù
-48	1748	milendall	milendalloù vilendall
-49	1749	gevell	c'hevell c'hevelled c'hevellez gevelled
-50	1750	roched	rochedoù
-51	1751	dibunañ	dibuniñ tibunañ tibuniñ zibunas zibunañ zibuniñ
-52	1752	c'hoarzhin	c'hoarzhan c'hoarzhas c'hoarzhe c'hoarzhec'h c'hoarzhed c'hoarzhemp c'hoarzhen c'hoarzhent c'hoarzher c'hoarzhes c'hoarzhet c'hoarzhez c'hoarzhfe c'hoarzhfec'h c'hoarzhfed c'hoarzhfemp c'hoarzhfen c'hoarzhfent c'hoarzhfes c'hoarzhi c'hoarzhimp c'hoarzhint c'hoarzhis c'hoarzhit c'hoarzhje c'hoarzhjec'h c'hoarzhjed c'hoarzhjemp c'hoarzhjen c'hoarzhjent c'hoarzhjes c'hoarzhjoc'h c'hoarzhjod c'hoarzhjomp c'hoarzhjont c'hoarzhjout c'hoarzho c'hoarzhoc'h c'hoarzhomp c'hoarzhont c'hoarzhor c'hoarzhot
-53	1753	gwrezverk	gwrezverkoù wrezverkoù
-54	1754	gwazh	gwazhioù wazh
-55	1755	gwern	gwernenn gwernioù wern
-56	1756	kavadenn	c'havadennoù gavadenn gavadennoù kavadennoù
-57	1757	marmouz	marmouzed marmouzien varmouz
-58	1758	c'hwezek	
-59	1759	tenner	denner tennerien
-60	1760	yezhoniour	yezhoniourien yezhoniourion
-61	1761	lann	lanneier
-62	1762	mindrailherez	mindrailherezioù vindrailherez vindrailherezioù
-63	1763	gouelañ	gouelal gouelar goueler goueliñ ouelas ouelañ ouele ouelent
-64	1764	a-dost	
-65	1765	lêr	
-66	1766	unander	
-67	1767	adlakaat	
-68	1768	ledanaat	
-69	1769	rust	
-70	1770	gros	
-71	1771	kembreat	gembreat
-72	1772	poellgor	foellgor
-73	1773	fresk	freskoc'h
-74	1774	argas	argasiñ
-75	1775	tanav	tanavoc'h
-76	1776	goueled	goueledoù
-77	1777	minor	vinored vinorez
-78	1778	seven	sevenoc'h
-79	1779	foll	follañ folle
-80	1780	baradoz	paradoz varadoz
-81	1781	koantenn	goantenn goantenned koantenned
-82	1782	nec'h	
-83	1783	razh	razhed
-84	1784	skedus	skedusañ skedusoc'h
-85	1785	krubuilh	c'hrubuilh c'hrubuilhoù grubuilh
-86	1786	teñvalijenn	deñvalijenn
-87	1787	melezour	melezourioù velezour velezourioù
-88	1788	kegin	c'hegin c'heginoù gegin keginoù
-89	1789	tasmant	dasmant dasmantoù tasmantoù zasmant
-90	1790	tigr	digred tigred
-91	1791	badeziant	badeziantoù vadeziant
-92	1792	notañ	not note notes notis notiñ noto notor
-93	1793	chomlec'h	chomlec'hioù
-94	1794	mantell	mantilli vantell
-95	1795	spiañ	spial spie spies spiiñ
-96	1796	manifester	manifesterien vanifesterien
-97	1797	peurvat	
-98	1798	rous	
-99	1799	svedat	
-100	1800	arverañ	
+1	1701	bran	brini fran vran
+2	1702	prezeg	brezeg prezegan prezegas prezege prezegec'h prezegemp prezegen prezegent prezeges prezeget prezegez prezegfe prezegfec'h prezegfed prezegfemp prezegfen prezegfent prezegfes prezegi prezegimp prezegin prezegint prezegis prezegit prezegje prezegjec'h prezegjed prezegjemp prezegjen prezegjent prezegjes prezegjoc'h prezegjod prezegjomp prezegjont prezegjout prezego prezegomp prezegont prezegor prezegot
+3	1703	marc'had-mat	marc'hadmat marc'hadmatoc'h
+4	1704	prizius	brizius priziusañ priziusoc'h
+5	1705	eoul	eoulioù eouloù
+6	1706	kreizennañ	c'hreizennañ greizennañ greizennet greizenniñ kreizennan kreizennas kreizenne kreizennec'h kreizennemp kreizennen kreizennent kreizennes kreizennet kreizennez kreizennfe kreizennfec'h kreizennfed kreizennfemp kreizennfen kreizennfent kreizennfes kreizenni kreizennimp kreizennin kreizennint kreizennis kreizennit kreizenniñ kreizennje kreizennjec'h kreizennjed kreizennjemp kreizennjen kreizennjent kreizennjes kreizennjoc'h kreizennjod kreizennjomp kreizennjont kreizennjout kreizenno kreizennomp kreizennont kreizennor kreizennot
+7	1707	elektron	elektronenn elektronoù
+8	1708	kevala	c'hevala c'hevalaoù gevala kevalaoù
+9	1709	mankout	mankan mankas manke mankec'h mankemp manken mankent manker mankes manket mankez mankfe mankfec'h mankfed mankfemp mankfen mankfent mankfes manki mankimp mankin mankint mankis mankit mankje mankjec'h mankjed mankjemp mankjen mankjent mankjes mankjoc'h mankjod mankjomp mankjont mankjout manko mankomp mankont mankor mankot vankas vanke vankfe vankont
+10	1710	a-bell	
+11	1711	efedusted	
+12	1712	ledander	
+13	1713	rusianeg	
+14	1714	furnez	
+15	1715	pri	
+16	1716	e-touesk	
+17	1717	seitek	
+18	1718	dispar	zispar
+19	1719	arvarus	arvarusañ
+20	1720	daonet	zaonet
+21	1721	neuñvial	neuial neuñvi neuñvian neuñvias neuñvie neuñviec'h neuñviemp neuñvien neuñvient neuñvies neuñviet neuñviez neuñvife neuñvifec'h neuñvifed neuñvifemp neuñvifen neuñvifent neuñvifes neuñvii neuñviimp neuñviin neuñviint neuñviis neuñviit neuñvije neuñvijec'h neuñvijed neuñvijemp neuñvijen neuñvijent neuñvijes neuñvijoc'h neuñvijod neuñvijomp neuñvijont neuñvijout neuñvio neuñviomp neuñviont neuñvior neuñviot neuñviñ
+22	1722	kurunennañ	c'hurunennañ gurunennañ guruniñ kurunennan kurunennas kurunennec'h kurunennemp kurunennen kurunennent kurunennes kurunennet kurunennez kurunennfe kurunennfec'h kurunennfed kurunennfemp kurunennfen kurunennfent kurunennfes kurunenni kurunennimp kurunennin kurunennint kurunennis kurunennit kurunenniñ kurunennje kurunennjec'h kurunennjed kurunennjemp kurunennjen kurunennjent kurunennjes kurunennjoc'h kurunennjod kurunennjomp kurunennjont kurunennjout kurunenno kurunennomp kurunennont kurunennor kurunennot kuruniñ
+23	1723	lavarenn	lavarennoù
+24	1724	repuad	repuidi
+25	1725	tommder	dommder
+26	1726	kevrinus	c'hevrinusañ gevrinus kevrinusoc'h
+27	1727	gouiziegezh	c'houiziegezh gouiziegezhioù gouiziegezhoù
+28	1728	trubuilh	drubuilh drubuilhoù trubuilhoù
+29	1729	adkas	adkasan adkasas adkase adkasec'h adkasemp adkasen adkasent adkases adkaset adkasez adkasfe adkasfec'h adkasfed adkasfemp adkasfen adkasfent adkasfes adkasi adkasimp adkasin adkasint adkasis adkasit adkasje adkasjec'h adkasjed adkasjemp adkasjen adkasjent adkasjes adkasjoc'h adkasjod adkasjomp adkasjont adkasjout adkaso adkasomp adkasont adkasor adkasot
+30	1730	bleinañ	bleinan bleinas bleine bleinec'h bleinemp bleinen bleinent bleines bleinet bleinez bleinfe bleinfec'h bleinfed bleinfemp bleinfen bleinfent bleinfes bleini bleinimp bleinin bleinint bleinis bleinit bleinje bleinjec'h bleinjed bleinjemp bleinjen bleinjent bleinjes bleinjoc'h bleinjod bleinjomp bleinjont bleinjout bleino bleinomp bleinont bleinor bleinot bleniañ vleinas vleinañ vleinje vleniañ
+31	1731	loch	lochoù
+32	1732	marvel	varvel
+33	1733	dereat	dereatoc'h zereat
+34	1734	gwirheñvel	gwirheñvelañ gwirheñveloc'h wirheñvel
+35	1735	gwiskamant	gwiskamantoù wiskamant
+36	1736	atizañ	atiz atizan atizas atize atizec'h atizemp atizen atizent atizer atizes atizet atizez atizfe atizfec'h atizfed atizfemp atizfen atizfent atizfes atizi atizimp atizin atizint atizis atizit atiziñ atizje atizjec'h atizjed atizjemp atizjen atizjent atizjes atizjoc'h atizjod atizjomp atizjont atizjout atizo atizomp atizont atizor atizot
+37	1737	kard	c'hard gard
+38	1738	kastilhaneg	c'hastilhaneg gastilhaneg
+39	1739	unwisk	unwiskoù
+40	1740	klañvourez	c'hlañvour c'hlañvourion glañvourez glañvourien klañvourien klañvourion
+41	1741	kann	c'hann c'hannoù gann kannoù
+42	1742	sankañ	sank sankas sankec'h sankemp sanken sankent sankes sanket sankez sankfe sankfec'h sankfed sankfemp sankfen sankfent sankfes sanki sankimp sankin sankint sankis sankiñ sankje sankjec'h sankjed sankjemp sankjen sankjent sankjes sankjoc'h sankjod sankjomp sankjont sankjout sanko sankomp sankont sankor sankot
+43	1743	notañ	not note notec'h notemp notes notet notfe notfec'h notfed notfemp notfen notfent notfes notimp notin notint notis notit notiñ notje notjec'h notjed notjemp notjen notjent notjes notjoc'h notjod notjomp notjont notjout noto notomp notont notor notot
+44	1744	hezoug	
+45	1745	japaneg	
+46	1746	divent	
+47	1747	skosat	
+48	1748	foñs	foñsoù
+49	1749	hemolc'h	
+50	1750	prefed	brefed brefeded prefeded
+51	1751	evaj	evajoù
+52	1752	pec'hed	bec'hedoù fec'hedoù pec'hedoù
+53	1753	neud	neudenn neudoù
+54	1754	trenkenn	drenkenn drenkennoù trenkennoù
+55	1755	mindrailherez	mindrailherezioù mindrailherezoù vindrailherez vindrailherezioù
+56	1756	peurechuiñ	beurechu beurechuiñ peurachuet peurachuiñ peurechu peurechuan peurechuas peurechue peurechuec'h peurechuemp peurechuen peurechuent peurechues peurechuet peurechuez peurechufe peurechufec'h peurechufed peurechufemp peurechufen peurechufent peurechufes peurechui peurechuimp peurechuin peurechuint peurechuis peurechuit peurechuje peurechujec'h peurechujed peurechujemp peurechujen peurechujent peurechujes peurechujoc'h peurechujod peurechujomp peurechujont peurechujout peurechuo peurechuomp peurechuont peurechuor peurechuot
+57	1757	goriñ	c'hori c'horiñ c'horo gor goran goras gorañ gore gorec'h gored goremp goren gorent gores goret gorez gorfe gorfec'h gorfed gorfemp gorfen gorfent gorfes gori gorimp gorin gorint gorioù goris gorit gorje gorjec'h gorjed gorjemp gorjen gorjent gorjes gorjoc'h gorjod gorjomp gorjont gorjout goro goroc'h goromp goront goror gorot korioù
+58	1758	boz	bozioù pozioù voz
+59	1759	gloan	c'hloan gloaneier
+60	1760	keuz	c'heuz keuzioù
+61	1761	tas	das tasoù zas
+62	1762	flour	flourañ flouret flouroc'h
+63	1763	naetaat	naeta naetaan naetaas naetae naetaec'h naetaemp naetaen naetaent naetaes naetaet naetaez naetafe naetafec'h naetafed naetafemp naetafen naetafent naetafes naetai naetaimp naetain naetaint naetais naetait naetaje naetajec'h naetajed naetajemp naetajen naetajent naetajes naetajoc'h naetajod naetajomp naetajont naetajout naetao naetaomp naetaont naetaor naetaot
+64	1764	padelezh	badelezh fadelezh
+65	1765	huchal	huch huchan huchas huche huchec'h huchemp huchen huchent hucher huches huchet huchez huchfe huchfec'h huchfed huchfemp huchfen huchfent huchfes huchi huchimp huchin huchint huchis huchit huchje huchjec'h huchjed huchjemp huchjen huchjent huchjes huchjoc'h huchjod huchjomp huchjont huchjout hucho huchomp huchont huchor huchot
+66	1766	kadour	c'hadour gader gadour gadourien kadourien
+67	1767	diwar-goust	
+68	1768	izelvroat	
+69	1769	sun	
+70	1770	arsav-brezel	
+71	1771	revel	
+72	1772	fae	
+73	1773	echedoù	
+74	1774	mevel	vevel
+75	1775	stadañ	stadan stadas stade stadec'h stademp staden stadent stades stadet stadez stadfe stadfec'h stadfed stadfemp stadfen stadfent stadfes stadi stadimp stadin stadint stadis stadit stadiñ stadje stadjec'h stadjed stadjemp stadjen stadjent stadjes stadjoc'h stadjod stadjomp stadjont stadjout stado stadomp stadont stador stadot
+76	1776	euskareg	
+77	1777	adwelet	adweled
+78	1778	e-mesk	
+79	1779	a-viskoazh	
+80	1780	arvestiñ	arvestan arvestas arveste arvestec'h arvestemp arvesten arvestent arvestes arvestet arvestez arvestfe arvestfec'h arvestfed arvestfemp arvestfen arvestfent arvestfes arvesti arvestimp arvestin arvestint arvestis arvestit arvestje arvestjec'h arvestjed arvestjemp arvestjen arvestjent arvestjes arvestjoc'h arvestjod arvestjomp arvestjont arvestjout arvesto arvestomp arvestont arvestor arvestot
+81	1781	vertuz	vertuzioù
+82	1782	trist	drist tristañ tristoc'h
+83	1783	kasoni	gasoni
+84	1784	koumoul	c'houmoul goumoulenn koumoulennoù
+85	1785	merdeiñ	merde merdean merdeas merdee merdeec'h merdeemp merdeen merdeent merdees merdeet merdeez merdefe merdefec'h merdefed merdefemp merdefen merdefent merdefes merdei merdeimp merdein merdeint merdeis merdeit merdeje merdejec'h merdejed merdejemp merdejen merdejent merdejes merdejoc'h merdejod merdejomp merdejont merdejout merdeo merdeomp merdeont merdeor merdeot verdeas verdee verdeiñ
+86	1786	chaseour	chaseer chaseourien
+87	1787	erbediñ	erbed erbedan erbedas erbedañ erbede erbedec'h erbedemp erbeden erbedent erbedes erbedet erbedez erbedfe erbedfec'h erbedfed erbedfemp erbedfen erbedfent erbedfes erbedi erbedimp erbedin erbedint erbedis erbedit erbedje erbedjec'h erbedjed erbedjemp erbedjen erbedjent erbedjes erbedjoc'h erbedjod erbedjomp erbedjont erbedjout erbedo erbedomp erbedont erbedor erbedot
+88	1788	displegadur	displegadurioù zisplegadur
+89	1789	banne	bannac'h bannac'hoù banneoù
+90	1790	portugalat	bortugalat
+91	1791	ti-bank	di-bank tiez-bank
+92	1792	kigenn	c'higenn gigenn kigennoù
+93	1793	goulennata	c'houlennata goulennataan goulennataas goulennatae goulennataec'h goulennataemp goulennataen goulennataent goulennataes goulennataet goulennataez goulennatafe goulennatafec'h goulennatafed goulennatafemp goulennatafen goulennatafent goulennatafes goulennatai goulennataimp goulennatain goulennataint goulennatais goulennatait goulennataje goulennatajec'h goulennatajed goulennatajemp goulennatajen goulennatajent goulennatajes goulennatajoc'h goulennatajod goulennatajomp goulennatajont goulennatajout goulennatao goulennataomp goulennataont goulennataor goulennataot koulennata
+94	1794	bali	balioù vali
+95	1795	dislavarout	dislavar dislavaran dislavaras dislavare dislavarec'h dislavaremp dislavaren dislavarent dislavares dislavaret dislavarez dislavarfe dislavarfec'h dislavarfed dislavarfemp dislavarfen dislavarfent dislavarfes dislavari dislavarimp dislavarin dislavarint dislavaris dislavarit dislavariñ dislavarje dislavarjec'h dislavarjed dislavarjemp dislavarjen dislavarjent dislavarjes dislavarjoc'h dislavarjod dislavarjomp dislavarjont dislavarjout dislavaro dislavaromp dislavaront dislavaror dislavarot tislavarout zislavar zislavaras zislavaro zislavarout
+96	1796	malañ	mal malas malat male malec'h maled malemp malen malent males malet malez malfe malfec'h malfed malfemp malfen malfent malfes malimp malin malint malit maliñ malje maljec'h maljed maljemp maljen maljent maljes maljoc'h maljod maljomp maljont maljout malo malomp malont malor malot valañ valent valet
+97	1797	atomek	
+98	1798	diembann	
+99	1799	prenn	
+100	1800	flemmus	

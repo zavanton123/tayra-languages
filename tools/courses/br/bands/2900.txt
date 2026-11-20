@@ -1,100 +1,100 @@
-1	2801	latar	
-2	2802	sentus	
-3	2803	anadiñ	anado
-4	2804	aluzenour	aluzener
-5	2805	damez	
-6	2806	gwe	we
-7	2807	faezhañ	
-8	2808	lev	
-9	2809	pebr	
-10	2810	raz	
-11	2811	armel	
-12	2812	klañvidik	
-13	2813	brabant	vrabant
-14	2814	dioksigen	zioksigen
-15	2815	flemmañ	flemme flemmiñ
-16	2816	gov	c'hov
-17	2817	nezañ	neze neziñ
-18	2818	saludiñ	saludan saludas salude saluden saludent saluder saludes saludez saludin saludo
-19	2819	fulenn	fulenned
-20	2820	gouelec'h	gouelec'hioù
-21	2821	gwinegr	gwinêgr
-22	2822	seizañ	seize seized seizes seizet seizin
-23	2823	aspediñ	asped
-24	2824	marc'hegezh	varc'hegezh
-25	2825	rektor	rektored
-26	2826	irvin	irvinenn
-27	2827	brezelgar	vrezelgar
-28	2828	glanaat	c'hlanaat glana glanai glanais glanait
-29	2829	deliaouek	deliaoueg
-30	2830	tell-gastiz	dell-gastiz telloù-kastiz
-31	2831	eilmaer	eilmaerez
-32	2832	flourdilizenn	flourdiliz
-33	2833	fuzuilhañ	fuzuilher fuzuilherien fuzuilhiñ
-34	2834	krizded	c'hrizded grizded
-35	2835	krigner	c'hrignerien krignerien
-36	2836	milliget	villiget
-37	2837	prezegenner	brezegenner prezegennerien
-38	2838	sec'hed	
-39	2839	skol-vamm	skolioù-mamm
-40	2840	touellañ	douellañ zouellañ
-41	2841	binim	vinim
-42	2842	bouc'h	vouc'hed
-43	2843	fer	ferenn
-44	2844	gouiziek	gouiziekañ gouiziekoc'h
-45	2845	meurvorel	veurvorel
-46	2846	rastell	rastelloù restell
-47	2847	avielour	avielourien
-48	2848	badez	vadez
-49	2849	gweuz	diweuz weuz
-50	2850	douaroniour	douaroniourien
-51	2851	garzh	c'harzh girzhier
-52	2852	krougañ	grougañ
-53	2853	lugañ	lug lugas luge luged lugent luger luges lugez lugin lugis lugor
-54	2854	preñv	breñved preñved
-55	2855	moullerezh	voullerezh
-56	2856	dialañ	tialañ zialañ
-57	2857	beni	benioù veni
-58	2858	kap	c'hap
-59	2859	breutaer	breutaerien vreutaer vreutaerien
-60	2860	korporal	c'horporal gorporal
-61	2861	kemberiñ	gemberiñ kemberañ
-62	2862	morlenn	vorlenn
-63	2863	yunañ	yunimp yuniñ
-64	2864	kornek	gornek korniek
-65	2865	maeronez	vaeronez
-66	2866	araogenn	araogennoù
-67	2867	bevoniezh	vevoniezh
-68	2868	bugel-bihan	bugale-vihan vugale-vihan
-69	2869	krennvrezhoneg	c'hrennvrezhoneg
-70	2870	diazezourez	diazezerez diazezour ziazezour
-71	2871	dourañ	douras doure doured dourent dourer doures dourez douro tourañ touro zourañ
-72	2872	treujenn-gaol	dreujenn-gaol
-73	2873	karvan	c'harvan garvan
-74	2874	gwetur	gweturioù wetur
-75	2875	gwiriekaat	wiriekaat
-76	2876	madig	madigoù vadigoù
-77	2877	segal	segalenn segalennoù
-78	2878	sotoni	sotonioù
-79	2879	bagon	bagonioù fagon vagon
-80	2880	bonnañ	bonne bonnet bonnis bonniñ ponnañ vonnañ
-81	2881	roñfl	roñfled roñflez
-82	2882	bevoniour	vevoniour vevoniourien
-83	2883	lipat	lip lipan lipas lipañ liper lipis lipiñ lipor lipot
-84	2884	megin	meginoù vegin
-85	2885	spurmantiñ	spurmantas spurmantet spurmantis
-86	2886	glavek	c'hlavekañ glaviek
-87	2887	arruout	arru arruas arrue arruent
-88	2888	karedig	c'haredig garedig
-89	2889	dourvarc'h	dourvarc'hed zourvarc'h
-90	2890	tremeniad	dremenidi tremenidi
-91	2891	kouign	c'houign c'houignoù gouign kouignoù
-92	2892	kannerez	c'hanner ganner kanner kannerezed
-93	2893	proton	broton brotonenn protonenn
-94	2894	krenañ	grenañ grenet krenas krene krenfe krenfec'h krenfed krenfemp krenfen krenfent krenfes krenimp kreniñ krenoc'h krenor krenot
-95	2895	konifl	c'honifled c'honikl c'honikled gonifled
-96	2896	kourser	c'hourser gourser gourserien kourserien
-97	2897	deredek	derediñ deredout tered terede teredek zerede zeredek
-98	2898	madek	madeg
-99	2899	nant	
-100	2900	newton	
+1	2801	skier	skierez
+2	2802	ti-annez	di-annez
+3	2803	ti-gwer	tiez-gwer
+4	2804	truezus	druezus
+5	2805	born	porn
+6	2806	mall	vall
+7	2807	soul	soulenn
+8	2808	huniñ	hunan hunas hunañ hune hunec'h huned hunemp hunen hunent huner hunes hunet hunez hunfe hunfec'h hunfed hunfemp hunfen hunfent hunfes huni huniañ hunimp hunin hunint hunis hunit hunje hunjec'h hunjed hunjemp hunjen hunjent hunjes hunjoc'h hunjod hunjomp hunjont hunjout huno hunomp hunont hunor hunot
+9	2809	keur	c'heur
+10	2810	kloc'hdi	c'hloc'hdi
+11	2811	fuzeenn	fuzeennoù
+12	2812	kolladenn	golladenn kolladennoù
+13	2813	gourfenn	c'hourfenn gourfennan gourfennas gourfennañ gourfenne gourfennec'h gourfennemp gourfennen gourfennent gourfennes gourfennet gourfennez gourfennfe gourfennfec'h gourfennfed gourfennfemp gourfennfen gourfennfent gourfennfes gourfenni gourfennimp gourfennin gourfennint gourfennis gourfennit gourfennje gourfennjec'h gourfennjed gourfennjemp gourfennjen gourfennjent gourfennjes gourfennjoc'h gourfennjod gourfennjomp gourfennjont gourfennjout gourfenno gourfennomp gourfennont gourfennor gourfennot gourfennoù
+14	2814	lec'hid	
+15	2815	meuriadel	veuriadel
+16	2816	dornañ	dornan dornas dorne dornec'h dornemp dornen dornent dornes dornet dornez dornfe dornfec'h dornfed dornfemp dornfen dornfent dornfes dorni dornimp dornin dornint dornis dornit dornje dornjec'h dornjed dornjemp dornjen dornjent dornjes dornjoc'h dornjod dornjomp dornjont dornjout dorno dornomp dornont dornor dornot tornañ zornañ
+17	2817	kleuzañ	c'hleuzañ gleuzañ gleuzont kleuzan kleuzas kleuze kleuzec'h kleuzemp kleuzen kleuzent kleuzes kleuzet kleuzez kleuzfe kleuzfec'h kleuzfed kleuzfemp kleuzfen kleuzfent kleuzfes kleuzi kleuzimp kleuzin kleuzint kleuzis kleuzit kleuziñ kleuzje kleuzjec'h kleuzjed kleuzjemp kleuzjen kleuzjent kleuzjes kleuzjoc'h kleuzjod kleuzjomp kleuzjont kleuzjout kleuzo kleuzomp kleuzont kleuzor kleuzot
+18	2818	chug	chugoù
+19	2819	paouraat	baouraat paoura paouraan paouraas paourae paouraec'h paouraemp paouraen paouraent paouraes paouraet paouraez paourafe paourafec'h paourafed paourafemp paourafen paourafent paourafes paourai paouraimp paourain paouraint paourais paourait paouraje paourajec'h paourajed paourajemp paourajen paourajent paourajes paourajoc'h paourajod paourajomp paourajont paourajout paourao paouraomp paouraont paouraor paouraot
+20	2820	binioù	biniawoù
+21	2821	pomper	bomperien pomperien
+22	2822	kamion	c'hamion gamion kamionoù
+23	2823	egorlestr	egorlistri
+24	2824	miliner	milinerien vilinerez vilinerien
+25	2825	prennañ	brennañ brennet frennañ prennan prennas prenne prennec'h prenned prennemp prennen prennent prennes prennet prennez prennfe prennfec'h prennfed prennfemp prennfen prennfent prennfes prenni prennimp prennin prennint prennis prennit prennje prennjec'h prennjed prennjemp prennjen prennjent prennjes prennjoc'h prennjod prennjomp prennjont prennjout prenno prennomp prennont prennor prennot
+26	2826	gwisk	wisk
+27	2827	divout	zivout
+28	2828	tantad	tantadoù
+29	2829	goañviñ	c'hoañviñ goañvan goañvas goañvañ goañve goañvec'h goañvemp goañven goañvent goañves goañvet goañvez goañvfe goañvfec'h goañvfed goañvfemp goañvfen goañvfent goañvfes goañvi goañvimp goañvin goañvint goañvis goañvit goañvje goañvjec'h goañvjed goañvjemp goañvjen goañvjent goañvjes goañvjoc'h goañvjod goañvjomp goañvjont goañvjout goañvo goañvomp goañvont goañvor goañvot
+30	2830	goustilh	c'houstilh goustilhoù
+31	2831	houad	houadez houidi
+32	2832	semplañ	sempl semplan semplas semple semplec'h semplemp semplen semplent semples semplet semplez semplfe semplfec'h semplfed semplfemp semplfen semplfent semplfes sempli semplimp semplin semplint semplis semplit sempliñ semplje sempljec'h sempljed sempljemp sempljen sempljent sempljes sempljoc'h sempljod sempljomp sempljont sempljout semplo semplomp semplont semplor semplot
+33	2833	apotiker	apotikerez apotikerien
+34	2834	arm-tan	armoù-tan
+35	2835	batimant	batimantoù vatimant
+36	2836	benveg-seniñ	binvioù-seniñ
+37	2837	pinvidig	binvidien pinvidien
+38	2838	bourev	bourevien bourevion vourevion
+39	2839	kleweled	c'hleweled gleweled
+40	2840	gad	gedon
+41	2841	kartenn-bost	gartenn-bost kartennoù-post
+42	2842	mouchouer	mouchouerioù vouchouer
+43	2843	butuniñ	butunan butunas butunat butune butunec'h butunemp butunen butunent butunes butunet butunez butunfe butunfec'h butunfed butunfemp butunfen butunfent butunfes butuni butunimp butunin butunint butunis butunit butunje butunjec'h butunjed butunjemp butunjen butunjent butunjes butunjoc'h butunjod butunjomp butunjont butunjout butuno butunomp butunont butunor butunot vutunat vutuniñ
+44	2844	arliv	arlivioù
+45	2845	fichenn	fichennoù
+46	2846	moustrañ	moustr moustran moustras moustre moustrec'h moustremp moustren moustrent moustres moustret moustrez moustrfe moustrfec'h moustrfed moustrfemp moustrfen moustrfent moustrfes moustri moustrimp moustrin moustrint moustris moustrit moustriñ moustrje moustrjec'h moustrjed moustrjemp moustrjen moustrjent moustrjes moustrjoc'h moustrjod moustrjomp moustrjont moustrjout moustro moustromp moustront moustror moustrot voustras voustrañ
+47	2847	siminal	siminalioù
+48	2848	yunañ	yunas yunet yunfe yunfec'h yunfed yunfemp yunfen yunfent yunfes yunimp yunint yunis yuniñ yunje yunjec'h yunjed yunjemp yunjen yunjent yunjes yunjoc'h yunjod yunjomp yunjont yunjout yunor yunot
+49	2849	diuz	dius diuzan diuzas diuze diuzec'h diuzed diuzemp diuzen diuzent diuzer diuzes diuzet diuzez diuzfe diuzfec'h diuzfed diuzfemp diuzfen diuzfent diuzfes diuzi diuzimp diuzin diuzint diuzis diuzit diuzje diuzjec'h diuzjed diuzjemp diuzjen diuzjent diuzjes diuzjoc'h diuzjod diuzjomp diuzjont diuzjout diuzo diuzomp diuzont diuzor diuzot tiuz ziuz ziuzet
+50	2850	lestrañ	lestran lestras lestre lestrec'h lestremp lestren lestrent lestres lestret lestrez lestrfe lestrfec'h lestrfed lestrfemp lestrfen lestrfent lestrfes lestri lestrimp lestrin lestrint lestris lestrit lestrje lestrjec'h lestrjed lestrjemp lestrjen lestrjent lestrjes lestrjoc'h lestrjod lestrjomp lestrjont lestrjout lestro lestromp lestront lestror lestrot
+51	2851	mous	vous
+52	2852	kad	c'had c'hadoù
+53	2853	klañvdi	c'hlañvdi glañvdi
+54	2854	dic'houzougañ	dic'houzoug dic'houzougan dic'houzougas dic'houzouge dic'houzougec'h dic'houzougemp dic'houzougen dic'houzougent dic'houzouges dic'houzouget dic'houzougez dic'houzougfe dic'houzougfec'h dic'houzougfed dic'houzougfemp dic'houzougfen dic'houzougfent dic'houzougfes dic'houzougi dic'houzougimp dic'houzougin dic'houzougint dic'houzougis dic'houzougit dic'houzougje dic'houzougjec'h dic'houzougjed dic'houzougjemp dic'houzougjen dic'houzougjent dic'houzougjes dic'houzougjoc'h dic'houzougjod dic'houzougjomp dic'houzougjont dic'houzougjout dic'houzougo dic'houzougomp dic'houzougont dic'houzougor dic'houzougot tic'houzougañ zic'houzougañ
+55	2855	kazel	gazel kazelioù
+56	2856	sunañ	sunan sunas sune sunec'h sunemp sunen sunent sunes sunet sunez sunfe sunfec'h sunfed sunfemp sunfen sunfent sunfes suni sunimp sunin sunint sunis sunit suniñ sunje sunjec'h sunjed sunjemp sunjen sunjent sunjes sunjoc'h sunjod sunjomp sunjont sunjout suno sunomp sunont sunor sunot
+57	2857	trubard	drubard drubarded trubarded zrubarded
+58	2858	tonal	tonan tonas tonat tone tonec'h tonemp tonen tonent tones tonez tonfe tonfec'h tonfed tonfemp tonfen tonfent tonfes toni tonimp tonin tonint tonis tonit tonje tonjec'h tonjed tonjemp tonjen tonjent tonjes tonjoc'h tonjod tonjomp tonjont tonjout tono tonomp tonont tonor tonot zone zonen
+59	2859	c'hwitellat	c'hwistellat c'hwitell c'hwitellan c'hwitellas c'hwitelle c'hwitellec'h c'hwitellemp c'hwitellen c'hwitellent c'hwitelles c'hwitellet c'hwitellez c'hwitellfe c'hwitellfec'h c'hwitellfed c'hwitellfemp c'hwitellfen c'hwitellfent c'hwitellfes c'hwitelli c'hwitellimp c'hwitellin c'hwitellint c'hwitellis c'hwitellit c'hwitellje c'hwitelljec'h c'hwitelljed c'hwitelljemp c'hwitelljen c'hwitelljent c'hwitelljes c'hwitelljoc'h c'hwitelljod c'hwitelljomp c'hwitelljont c'hwitelljout c'hwitello c'hwitellomp c'hwitellont c'hwitellor c'hwitellot
+60	2860	lipat	lip lipan lipas lipañ lipe lipec'h lipemp lipen lipent liper lipes lipet lipez lipfe lipfec'h lipfed lipfemp lipfen lipfent lipfes lipi lipimp lipin lipint lipis lipit lipiñ lipje lipjec'h lipjed lipjemp lipjen lipjent lipjes lipjoc'h lipjod lipjomp lipjont lipjout lipo lipomp lipont lipor lipot
+61	2861	kelan	c'helan c'helanoù gelan
+62	2862	gorrekaat	c'horrekaat c'horrekafe gorreka gorrekaan gorrekaas gorrekae gorrekaec'h gorrekaemp gorrekaen gorrekaent gorrekaes gorrekaet gorrekaez gorrekafe gorrekafec'h gorrekafed gorrekafemp gorrekafen gorrekafent gorrekafes gorrekai gorrekaimp gorrekain gorrekaint gorrekais gorrekait gorrekaje gorrekajec'h gorrekajed gorrekajemp gorrekajen gorrekajent gorrekajes gorrekajoc'h gorrekajod gorrekajomp gorrekajont gorrekajout gorrekao gorrekaomp gorrekaont gorrekaor gorrekaot korrekaat
+63	2863	baleadenn	baleadennoù valeadenn valeadennoù
+64	2864	kenwerzhañ	c'henwerzhe genwerzhas genwerzhañ genwerzhe kenwerzhan kenwerzhas kenwerzhe kenwerzhec'h kenwerzhemp kenwerzhen kenwerzhent kenwerzhes kenwerzhet kenwerzhez kenwerzhfe kenwerzhfec'h kenwerzhfed kenwerzhfemp kenwerzhfen kenwerzhfent kenwerzhfes kenwerzhi kenwerzhimp kenwerzhin kenwerzhint kenwerzhis kenwerzhit kenwerzhje kenwerzhjec'h kenwerzhjed kenwerzhjemp kenwerzhjen kenwerzhjent kenwerzhjes kenwerzhjoc'h kenwerzhjod kenwerzhjomp kenwerzhjont kenwerzhjout kenwerzho kenwerzhomp kenwerzhont kenwerzhor kenwerzhot
+65	2865	goiñ	c'hoiñ
+66	2866	c'hwek	c'hwekoc'h
+67	2867	tro-c'houzoug	dro-c'houzoug troioù-gouzoug
+68	2868	baot	baoted vaot
+69	2869	tevaat	deva devaat teva tevaan tevaas tevae tevaec'h tevaemp tevaen tevaent tevaes tevaet tevaez tevafe tevafec'h tevafed tevafemp tevafen tevafent tevafes tevai tevaimp tevain tevaint tevais tevait tevaje tevajec'h tevajed tevajemp tevajen tevajent tevajes tevajoc'h tevajod tevajomp tevajont tevajout tevao tevaomp tevaont tevaor tevaot
+70	2870	bizañ	bizas bize bizemp bizen bizent bizet bizi bizin bizis bizit vize
+71	2871	ruzañ	ruzal ruzan ruzas ruze ruzec'h ruzemp ruzen ruzent ruzes ruzet ruzez ruzfe ruzfec'h ruzfed ruzfemp ruzfen ruzfent ruzfes ruzimp ruzin ruzint ruzis ruzit ruziñ ruzje ruzjec'h ruzjed ruzjemp ruzjen ruzjent ruzjes ruzjoc'h ruzjod ruzjomp ruzjont ruzjout ruzo ruzoc'h ruzomp ruzont ruzor ruzot
+72	2872	fallout	fallan fallas falle fallec'h fallemp fallen fallent falles fallet fallez fallfe fallfec'h fallfed fallfemp fallfen fallfent fallfes falli fallimp fallin fallint fallis fallit falliñ fallje falljec'h falljed falljemp falljen falljent falljes falljoc'h falljod falljomp falljont falljout fallo fallomp fallont fallor fallot fallvezout
+73	2873	adober	
+74	2874	aozerez	
+75	2875	arc'heskopti	
+76	2876	arvrec'h	
+77	2877	c'hoaz	
+78	2878	denheñvel	
+79	2879	finlandat	
+80	2880	fiñvus	
+81	2881	kartennouriezh	gartennouriezh
+82	2882	gwelus	
+83	2883	hoc'h-gouez	
+84	2884	iskerentiad	
+85	2885	lunedoù	
+86	2886	pesketaerezh	
+87	2887	ragistorel	
+88	2888	rannyezhel	
+89	2889	respetad	
+90	2890	sevended	
+91	2891	sutal	sutan sutas sutañ sute sutec'h sutemp suten sutent sutes sutet sutez sutfe sutfec'h sutfed sutfemp sutfen sutfent sutfes suti sutimp sutin sutint sutis sutit sutje sutjec'h sutjed sutjemp sutjen sutjent sutjes sutjoc'h sutjod sutjomp sutjont sutjout suto sutomp sutont sutor sutot
+92	2892	ti-moullañ	
+93	2893	barrennig	varrennig
+94	2894	ester	
+95	2895	achu	
+96	2896	dre-holl	
+97	2897	erotegezh	
+98	2898	helavarded	
+99	2899	hiraezh	
+100	2900	latar	

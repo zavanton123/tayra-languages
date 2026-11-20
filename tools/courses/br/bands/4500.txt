@@ -1,100 +1,100 @@
-1	4401	kurunennañ	c'hurunennañ gurunennañ guruniñ kurunenniñ kuruniñ
-2	4402	gwalleürus	walleürus
-3	4403	gwrier	wrierez
-4	4404	hent-dall	hentoù-dall
-5	4405	jiletenn	jiletennoù
-6	4406	kester	kesterien
-7	4407	koagal	goagal koag koagat koagañ
-8	4408	laer-mor	laeron-vor
-9	4409	lampon	lamponed
-10	4410	livus	livusañ
-11	4411	lugell	lugelloù
-12	4412	ma-unan	va-unan
-13	4413	maenek	maeneg
-14	4414	mandolinenn	vandolinenn
-15	4415	meskl	mesklenn
-16	4416	moereb-kozh	voereb-kozh
-17	4417	molibden	volibden
-18	4418	morskoul	morskouled
-19	4419	nadoz-aer	nadozioù-aer
-20	4420	nemedenn	nemedennoù
-21	4421	panerad	paneradoù
-22	4422	beuc'h	peuc'h
-23	4423	poc'han	
-24	4424	rizeg	rizegi rizegoù
-25	4425	skiber	skiberioù
-26	4426	skudell	skudilli
-27	4427	stal-vutun	stalioù-butun
-28	4428	stalon	stalonoù
-29	4429	stouv	stouvoù
-30	4430	targazh	targizhier
-31	4431	diflukañ	tiflukañ ziflukañ
-32	4432	tommerez	tommerezioù
-33	4433	vaksin	vaksinoù
-34	4434	bilieg	vilieg viliegoù
-35	4435	yac'hus	yac'husoc'h
-36	4436	drastañ	drastiñ trastañ zrastas zrastañ
-37	4437	korolliñ	c'horolliñ gorollerien gorolliñ korollan korollas korollat korolle korollec'h korolled korollemp korollen korollent koroller korollerien korolles korollet korollez korollfe korollfec'h korollfed korollfemp korollfen korollfent korollfes korolli korollimp korollin korollint korollis korollit korollje korolljec'h korolljed korolljemp korolljen korolljent korolljes korolljoc'h korolljod korolljomp korolljont korolljout korollo korollomp korollont korollor korollot
-38	4438	ruziañ	ruze ruzias ruzis ruziñ
-39	4439	advamm	
-40	4440	ahez	
-41	4441	ankounac'h	
-42	4442	arc'hdugelezh	
-43	4443	aviañ	avian aviiñ aviout
-44	4444	avon	
-45	4445	boc'hek	boc'heg
-46	4446	bourdal	bourdas bourde bourden bourdent bourder bourdes bourdez bourdin vourdal
-47	4447	brec'hagn	
-48	4448	brig	
-49	4449	broc'hañ	
-50	4450	damc'hlas	
-51	4451	damc'houde	
-52	4452	digevanañ	tigevanañ zigevanañ
-53	4453	togañ	doge togan togas toge toges togis togo togor
-54	4454	doñviñ	doñvañ
-55	4455	dreog	
-56	4456	drezeg	
-57	4457	emwel	
-58	4458	enoeiñ	
-59	4459	erviñ	ervan erve erven ervet ervi ervin
-60	4460	falc'h	
-61	4461	frankizenn	
-62	4462	gouezel	gouezeled
-63	4463	gouher	
-64	4464	gramadegour	
-65	4465	krener	grenerien
-66	4466	gwilou	gwillou
-67	4467	gwrimenn	
-68	4468	hertz	
-69	4469	heugiñ	heugal
-70	4470	hewerzh	
-71	4471	hunegan	
-72	4472	jarneal	
-73	4473	jarne	jarneoù
-74	4474	jenofl	
-75	4475	kala-hañv	
-76	4476	kanastell	
-77	4477	kaour	
-78	4478	kartenn-hent	kartennoù-hent
-79	4479	kerc'heiz	
-80	4480	kazeg-koad	kezeg-koad
-81	4481	klegerek	
-82	4482	kof-gar	
-83	4483	kravazhataer	
-84	4484	kreizenn nukleel	kreizenn nukleel
-85	4485	lepton	
-86	4486	lok	
-87	4487	louzaouenn-an-hañv	
-88	4488	maeron	maeroned
-89	4489	masikod	
-90	4490	miaoual	miaouiñ viaoual
-91	4491	milligañ	
-92	4492	mindrailher	
-93	4493	mot	
-94	4494	mouster	mousterioù
-95	4495	nizez-vihan	
-96	4496	nouel	
-97	4497	noziñ	nozas noze nozo
-98	4498	o-femp	
-99	4499	onneg	
-100	4500	ourz	
+1	4401	trok	
+2	4402	avon	avonoù
+3	4403	pabel	babel
+4	4404	troniñ	drone tronan tronas tronañ trone tronec'h troned tronemp tronen tronent troner trones tronet tronez tronfe tronfec'h tronfed tronfemp tronfen tronfent tronfes troni tronimp tronin tronint tronis tronit tronje tronjec'h tronjed tronjemp tronjen tronjent tronjes tronjoc'h tronjod tronjomp tronjont tronjout trono tronomp tronont tronor tronot
+5	4405	fatañ	fat fatan fatas fate fatec'h fatemp faten fatent fates fatet fatez fatfe fatfec'h fatfed fatfemp fatfen fatfent fatfes fati fatimp fatin fatint fatis fatit fatiñ fatje fatjec'h fatjed fatjemp fatjen fatjent fatjes fatjoc'h fatjod fatjomp fatjont fatjout fato fatomp fatont fator fatot
+6	4406	gaouiad	gaouiaded
+7	4407	kog	c'hog gog
+8	4408	goubenner	goubennerioù
+9	4409	gwinier	gwinierien
+10	4410	kador-doull	gador-doull
+11	4411	kanolier	kanolierien
+12	4412	kaoteriad	gaoteriad
+13	4413	kaouad	kaouadoù
+14	4414	karadek	karadeg
+15	4415	kefeleg	c'hefeleg
+16	4416	kelorn	c'helorn kelornioù
+17	4417	kelvez	kelvezenn
+18	4418	korzailhenn	c'horzailhenn
+19	4419	lepton	leptonoù
+20	4420	mekanikerez	mekanikour vekanikour
+21	4421	melchon	velchonenn
+22	4422	mezhek	vezhek
+23	4423	momed	vomed
+24	4424	pariañ	bariañ fariañ parian parias parie pariec'h pariemp parien parient paries pariet pariez parife parifec'h parifed parifemp parifen parifent parifes parii pariimp pariin pariint pariis pariit pariiñ parije parijec'h parijed parijemp parijen parijent parijes parijoc'h parijod parijomp parijont parijout pario pariomp pariont parior pariot
+25	4425	poblañsouriezh	boblañsouriezh
+26	4426	poull-neuial	poulloù-neuial
+27	4427	ribod	ribodoù ribot
+28	4428	skouarnek	skouarneg
+29	4429	taol-skrivañ	daol-skrivañ taolioù-skrivañ
+30	4430	duder	tuder
+31	4431	gwez-avaloù	gwezenn-avaloù wezenn-avaloù
+32	4432	adc'hoari	adc'hoarian adc'hoarias adc'hoarie adc'hoariec'h adc'hoariemp adc'hoarien adc'hoarient adc'hoaries adc'hoariet adc'hoariez adc'hoarife adc'hoarifec'h adc'hoarifed adc'hoarifemp adc'hoarifen adc'hoarifent adc'hoarifes adc'hoarii adc'hoariimp adc'hoariin adc'hoariint adc'hoariis adc'hoariit adc'hoarije adc'hoarijec'h adc'hoarijed adc'hoarijemp adc'hoarijen adc'hoarijent adc'hoarijes adc'hoarijoc'h adc'hoarijod adc'hoarijomp adc'hoarijont adc'hoarijout adc'hoario adc'hoariomp adc'hoariont adc'hoarior adc'hoariot
+33	4433	adlivañ	adliv adlivan adlivas adlive adlivec'h adlivemp adliven adlivent adlives adlivet adlivez adlivfe adlivfec'h adlivfed adlivfemp adlivfen adlivfent adlivfes adlivi adlivimp adlivin adlivint adlivis adlivit adlivje adlivjec'h adlivjed adlivjemp adlivjen adlivjent adlivjes adlivjoc'h adlivjod adlivjomp adlivjont adlivjout adlivo adlivomp adlivont adlivor adlivot
+34	4434	alamandez	alamandezenned
+35	4435	alkaloid	alkaloidoù
+36	4436	arabegerez	arabegerien arabegerion
+37	4437	avank	avanked
+38	4438	avosetenn	avoseted
+39	4439	bag-kanoliañ	bagoù-kanoliañ vag-kanoliañ
+40	4440	parodienn	barodienn
+41	4441	batis	batisoù
+42	4442	beler	veler
+43	4443	peoc'haat	beoc'haas beoc'haat feoc'haat peoc'ha peoc'haan peoc'haas peoc'hae peoc'haec'h peoc'haemp peoc'haen peoc'haent peoc'haes peoc'haet peoc'haez peoc'hafe peoc'hafec'h peoc'hafed peoc'hafemp peoc'hafen peoc'hafent peoc'hafes peoc'hai peoc'haimp peoc'hain peoc'haint peoc'hais peoc'hait peoc'haje peoc'hajec'h peoc'hajed peoc'hajemp peoc'hajen peoc'hajent peoc'hajes peoc'hajoc'h peoc'hajod peoc'hajomp peoc'hajont peoc'hajout peoc'hao peoc'haomp peoc'haont peoc'haor peoc'haot
+44	4444	bezhinaer	bezhinaerien vezhinaerien
+45	4445	pigell	bigell vigell
+46	4446	biz-bihan	viz-bihan
+47	4447	bizskriver	vizskriverez
+48	4448	boestad	boestadoù voestad
+49	4449	bouedañ	bouedan bouedas bouede bouedec'h bouedemp boueden bouedent bouedes bouedet bouedez bouedfe bouedfec'h bouedfed bouedfemp bouedfen bouedfent bouedfes bouedi bouedimp bouedin bouedint bouedis bouedit bouediñ bouedje bouedjec'h bouedjed bouedjemp bouedjen bouedjent bouedjes bouedjoc'h bouedjod bouedjomp bouedjont bouedjout bouedo bouedomp bouedont bouedor bouedot vouedañ
+50	4450	poupig	boupiged
+51	4451	brec'h-vor	brec'hioù-mor vrec'h-vor
+52	4452	brennidenn	brennidennoù
+53	4453	broustañ	broustan broustas broustat brouste broustec'h broustemp brousten broustent broustes broustet broustez broustfe broustfec'h broustfed broustfemp broustfen broustfent broustfes brousti broustimp broustin broustint broustis broustit broustje broustjec'h broustjed broustjemp broustjen broustjent broustjes broustjoc'h broustjod broustjomp broustjont broustjout brousto broustomp broustont broustor broustot vroustañ
+54	4454	puilhded	builhded
+55	4455	kaktuz	c'haktuz
+56	4456	garmat	c'harmas c'harmat garmet
+57	4457	garventez	c'harventez
+58	4458	kelorniad	c'helorniad gelorniad
+59	4459	kentr	c'hentr
+60	4460	geotek	c'heoteg c'heotek
+61	4461	klav	c'hlavioù klavioù
+62	4462	kleze-fuzuilh	c'hleze-fuzuilh
+63	4463	kolera	c'holera
+64	4464	gougleze	c'hougleze gouglezeoù
+65	4465	grañj	c'hrañj
+66	4466	c'hwitelladenn	c'hwitelladennoù
+67	4467	c'hwitellerez	c'hwitellerezioù
+68	4468	kached	c'hached kachedoù
+69	4469	geriadurouriezh	c'heriadurouriezh
+70	4470	kilsell	c'hilsell
+71	4471	telennañ	delennañ delenniñ telennan telennas telennat telenne telennec'h telennemp telennen telennent telennes telennet telennez telennfe telennfec'h telennfed telennfemp telennfen telennfent telennfes telenni telennimp telennin telennint telennis telennit telenniñ telennje telennjec'h telennjed telennjemp telennjen telennjent telennjes telennjoc'h telennjod telennjomp telennjont telennjout telenno telennomp telennont telennor telennot
+72	4472	dellid	dellidoù
+73	4473	ti-labour	di-labour tier-labour
+74	4474	diarc'hen	
+75	4475	dibrañ	dibran dibras dibrec'h dibremp dibren dibrent dibres dibrez dibrfe dibrfec'h dibrfed dibrfemp dibrfen dibrfent dibrfes dibri dibrimp dibrin dibrint dibris dibrit dibriñ dibrje dibrjec'h dibrjed dibrjemp dibrjen dibrjent dibrjes dibrjoc'h dibrjod dibrjomp dibrjont dibrjout dibromp dibront dibror dibrot tibrañ zibrañ
+76	4476	dic'haouiñ	dic'haouan dic'haouas dic'haoue dic'haouec'h dic'haouemp dic'haouen dic'haouent dic'haoues dic'haouet dic'haouez dic'haoufe dic'haoufec'h dic'haoufed dic'haoufemp dic'haoufen dic'haoufent dic'haoufes dic'haoui dic'haouimp dic'haouin dic'haouint dic'haouis dic'haouit dic'haouje dic'haoujec'h dic'haoujed dic'haoujemp dic'haoujen dic'haoujent dic'haoujes dic'haoujoc'h dic'haoujod dic'haoujomp dic'haoujont dic'haoujout dic'haouo dic'haouomp dic'haouont dic'haouor dic'haouot
+77	4477	tiretenn	diretenn
+78	4478	disurentez	zisurentez
+79	4479	diyalc'hañ	diyalc'h diyalc'han diyalc'has diyalc'he diyalc'hec'h diyalc'hemp diyalc'hen diyalc'hent diyalc'hes diyalc'het diyalc'hez diyalc'hfe diyalc'hfec'h diyalc'hfed diyalc'hfemp diyalc'hfen diyalc'hfent diyalc'hfes diyalc'hi diyalc'himp diyalc'hin diyalc'hint diyalc'his diyalc'hit diyalc'hiñ diyalc'hje diyalc'hjec'h diyalc'hjed diyalc'hjemp diyalc'hjen diyalc'hjent diyalc'hjes diyalc'hjoc'h diyalc'hjod diyalc'hjomp diyalc'hjont diyalc'hjout diyalc'ho diyalc'homp diyalc'hont diyalc'hor diyalc'hot ziyalc'hañ
+80	4480	dizampartiz	zizampartiz
+81	4481	dizonestiz	zizonestiz
+82	4482	dizour	dizourañ
+83	4483	tog-touseg	dogoù-touseg togoù-touseg
+84	4484	tonton	donton
+85	4485	eston	estonet
+86	4486	beskennad	feskennad veskennad
+87	4487	poñsin	foñsined poñsined
+88	4488	gaol	kaolioù
+89	4489	kartenniñ	gartenniñ kartennan kartennas kartenne kartennec'h kartennemp kartennen kartennent kartennes kartennet kartennez kartennfe kartennfec'h kartennfed kartennfemp kartennfen kartennfent kartennfes kartenni kartennimp kartennin kartennint kartennis kartennit kartennje kartennjec'h kartennjed kartennjemp kartennjen kartennjent kartennjes kartennjoc'h kartennjod kartennjomp kartennjont kartennjout kartenno kartennomp kartennont kartennor kartennot
+90	4490	kasaat	gasaas gasaet kasa kasaan kasaas kasae kasaec'h kasaemp kasaen kasaent kasaes kasaet kasaez kasafe kasafec'h kasafed kasafemp kasafen kasafent kasafes kasai kasaimp kasain kasaint kasais kasait kasaje kasajec'h kasajed kasajemp kasajen kasajent kasajes kasajoc'h kasajod kasajomp kasajont kasajout kasao kasaomp kasaont kasaor kasaot
+91	4491	goustilhañ	c'houstilhañ goustilhan goustilhas goustilhe goustilhec'h goustilhemp goustilhen goustilhent goustilhes goustilhet goustilhez goustilhfe goustilhfec'h goustilhfed goustilhfemp goustilhfen goustilhfent goustilhfes goustilhi goustilhimp goustilhin goustilhint goustilhis goustilhit goustilhiñ goustilhje goustilhjec'h goustilhjed goustilhjemp goustilhjen goustilhjent goustilhjes goustilhjoc'h goustilhjod goustilhjomp goustilhjont goustilhjout goustilho goustilhomp goustilhont goustilhor goustilhot koustilhañ
+92	4492	kreviñ	greviñ krev krevan krevas kreve krevec'h krevemp kreven krevent kreves krevet krevez krevfe krevfec'h krevfed krevfemp krevfen krevfent krevfes krevi krevimp krevin krevint krevis krevit krevje krevjec'h krevjed krevjemp krevjen krevjent krevjes krevjoc'h krevjod krevjomp krevjont krevjout krevo krevomp krevont krevor krevot
+93	4493	krial	grial krian krias kriañ krie kriec'h kriemp krien krient kries kriet kriez krife krifec'h krifed krifemp krifen krifent krifes krii kriimp kriin kriint kriis kriit kriiñ krije krijec'h krijed krijemp krijen krijent krijes krijoc'h krijod krijomp krijont krijout krio kriomp kriont krior kriot
+94	4494	krikal	grikal griko krikan krikas krike krikec'h krikemp kriken krikent krikes kriket krikez krikfe krikfec'h krikfed krikfemp krikfen krikfent krikfes kriki krikimp krikin krikint krikis krikit krikje krikjec'h krikjed krikjemp krikjen krikjent krikjes krikjoc'h krikjod krikjomp krikjont krikjout kriko krikomp krikont krikor krikot
+95	4495	gup	guped
+96	4496	gwalleürus	walleürus
+97	4497	gwentañ	gwental gwentan gwentas gwente gwentec'h gwentemp gwenten gwentent gwentes gwentet gwentez gwentfe gwentfec'h gwentfed gwentfemp gwentfen gwentfent gwentfes gwenti gwentimp gwentin gwentint gwentis gwentit gwentje gwentjec'h gwentjed gwentjemp gwentjen gwentjent gwentjes gwentjoc'h gwentjod gwentjomp gwentjont gwentjout gwento gwentomp gwentont gwentor gwentot
+98	4498	gwrier	wrierez
+99	4499	hent-dall	hentoù-dall
+100	4500	jiletenn	jiletennoù

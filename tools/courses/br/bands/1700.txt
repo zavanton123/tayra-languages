@@ -1,100 +1,100 @@
-1	1601	dañser	dañserez dañserien dañsour tañser zañserien
-2	1602	gouezeleg	
-3	1603	respet	respetoù
-4	1604	raktresañ	raktreset
-5	1605	disfiz	zisfiz
-6	1606	peñse	beñse peñseoù
-7	1607	foar	foarioù
-8	1608	bresk	breskañ breskoc'h vresk
-9	1609	kizidik	c'hizidikañ kizidikat kizidikañ kizidikoc'h
-10	1610	bran	brini fran vran
-11	1611	marc'had-mat	marc'hadmat marc'hadmatoc'h
-12	1612	prizius	brizius priziusañ priziusoc'h
-13	1613	gouriz	c'houriz gourizoù
-14	1614	kadarnaat	c'hadarnaat gadarnaat kadarnaad
-15	1615	kevala	c'hevala c'hevalaoù gevala kevalaoù
-16	1616	douarañ	douaras douarat douaris douariñ touaras touarañ zouaras zouarañ
-17	1617	diskuizhañ	diskuizh diskuizhiñ tiskuizh tiskuizhañ ziskuizh ziskuizhañ
-18	1618	a-bell	
-19	1619	efedusted	
-20	1620	ledander	
-21	1621	rusianeg	
-22	1622	sklêrijenn	
-23	1623	furnez	
-24	1624	pri	
-25	1625	e-touesk	
-26	1626	seitek	
-27	1627	dispar	zispar
-28	1628	arvarus	arvarusañ
-29	1629	daonet	zaonet
-30	1630	neuñvial	neuial neuñviñ
-31	1631	lavarenn	lavarennoù
-32	1632	repuad	repuidi
-33	1633	tommder	dommder
-34	1634	bleuñv	bleuñvenn vleuñv
-35	1635	kevrinus	c'hevrinusañ gevrinus kevrinusoc'h
-36	1636	diskleriañ	tiskleriañ ziskleriañ
-37	1637	treuz	dreuz zreuz
-38	1638	prederiañ	brederiañ frederiañ
-39	1639	trubuilh	drubuilh drubuilhoù trubuilhoù
-40	1640	aliañ	alias alie alien alier alii aliiñ
-41	1641	loch	lochoù
-42	1642	marvel	varvel
-43	1643	dereat	dereatoc'h zereat
-44	1644	eoul	eoulioù
-45	1645	gwirheñvel	gwirheñvelañ gwirheñveloc'h wirheñvel
-46	1646	gwiskamant	gwiskamantoù wiskamant
-47	1647	kard	c'hard gard
-48	1648	kastilhaneg	c'hastilhaneg gastilhaneg
-49	1649	unwisk	unwiskoù
-50	1650	klañvourez	c'hlañvour c'hlañvourion glañvourez glañvourien klañvourien klañvourion
-51	1651	perc'henniezh	berc'henniezh
-52	1652	kann	c'hann c'hannoù gann kannoù
-53	1653	hezoug	
-54	1654	japaneg	
-55	1655	divent	
-56	1656	skosat	
-57	1657	foñs	foñsoù
-58	1658	hemolc'h	
-59	1659	prefed	brefed brefeded prefeded
-60	1660	evaj	evajoù
-61	1661	pec'hed	bec'hedoù fec'hedoù pec'hedoù
-62	1662	trenkenn	drenkenn drenkennoù trenkennoù
-63	1663	goriñ	c'hori c'horiñ c'horo gor goras gorañ gore gorec'h gored goren gorent gores goret gorez gori gorioù goro goroc'h korioù
-64	1664	boz	bozioù pozioù voz
-65	1665	gloan	c'hloan gloaneier
-66	1666	keuz	c'heuz keuzioù
-67	1667	tas	das tasoù zas
-68	1668	flour	flourañ flouret flouroc'h
-69	1669	padelezh	badelezh fadelezh
-70	1670	kadour	c'hadour gader gadour gadourien kadourien
-71	1671	diwar-goust	
-72	1672	izelvroat	
-73	1673	sun	
-74	1674	arsav-brezel	
-75	1675	revel	
-76	1676	fae	
-77	1677	echedoù	
-78	1678	mevel	vevel
-79	1679	digoll	digolliñ digolloù tigoll zigoll
-80	1680	trevadenniñ	drevadenniñ zrevadenniñ
-81	1681	andon	andonioù
-82	1682	neud	neudenn
-83	1683	euskareg	
-84	1684	adwelet	adweled
-85	1685	e-mesk	
-86	1686	viruz	
-87	1687	a-viskoazh	
-88	1688	gourdrouz	c'hourdrouz gourdrouzal gourdrouziñ kourdrouz
-89	1689	trist	drist tristañ tristoc'h
-90	1690	kasoni	gasoni
-91	1691	koumoul	c'houmoul goumoulenn koumoulennoù
-92	1692	mankout	mankan mankas manke manker manket manki mankis manko vankas vanke
-93	1693	chaseour	chaseer chaseourien
-94	1694	displegadur	displegadurioù zisplegadur
-95	1695	banne	bannac'h bannac'hoù banneoù
-96	1696	portugalat	bortugalat
-97	1697	ti-bank	di-bank tiez-bank
-98	1698	marc'hata	marc'hataezh marc'hatiñ varc'hata
-99	1699	bali	balioù vali
-100	1700	malañ	mal malat male maled malen malet maliñ malo malot valañ valent valet
+1	1601	jahinañ	jahin jahinan jahinas jahine jahinec'h jahinemp jahinen jahinent jahines jahinet jahinez jahinfe jahinfec'h jahinfed jahinfemp jahinfen jahinfent jahinfes jahini jahinimp jahinin jahinint jahinis jahinit jahiniñ jahinje jahinjec'h jahinjed jahinjemp jahinjen jahinjent jahinjes jahinjoc'h jahinjod jahinjomp jahinjont jahinjout jahino jahinomp jahinont jahinor jahinot
+2	1602	kloerdi	c'hloerdi c'hloerdioù gloerdi gloerdioù kloerdioù
+3	1603	muzul	muzulioù vuzul
+4	1604	dimezell	dimezelled
+5	1605	ranndi	ranndioù
+6	1606	komz-plaen	c'homz-plaen gomz-plaen
+7	1607	bleuñv	bleuñvenn bleuñvioù vleuñv
+8	1608	adstêr	adstêrioù
+9	1609	morañ	moran moras more moren morer mores moret morfe morfen morfent morfes mori morin moris morit moriñ morje moro moror morot voran vorañ
+10	1610	peul	beul beulioù feulioù peulioù veul
+11	1611	azezañ	azez azezan azezas azeze azezec'h azezemp azezen azezent azezes azezet azezez azezfe azezfec'h azezfed azezfemp azezfen azezfent azezfes azezi azezimp azezin azezint azezis azezit azeziñ azezje azezjec'h azezjed azezjemp azezjen azezjent azezjes azezjoc'h azezjod azezjomp azezjont azezjout azezo azezomp azezont azezor azezot
+12	1612	lazh	
+13	1613	sadorn	
+14	1614	didud	
+15	1615	raktal	
+16	1616	trovanel	drovanel
+17	1617	ordinal	ordinalañ ordinaloc'h
+18	1618	gouren	c'houren gourenan gourenas gourene gourenec'h gourenemp gourenen gourenent gourenet gourenfe gourenfec'h gourenfed gourenfemp gourenfen gourenfent gourenfes goureni gourenimp gourenin gourenint gourenis gourenit gourenje gourenjec'h gourenjed gourenjemp gourenjen gourenjent gourenjes gourenjoc'h gourenjod gourenjomp gourenjont gourenjout goureno gourenomp gourenont gourenor gourenot gourenoù kouren
+19	1619	mut	vut
+20	1620	per	berenn perenn perioù
+21	1621	stivell	stiogenn stivelled stivelloù
+22	1622	savboent	savboentoù
+23	1623	heskinañ	heskignat heskin heskinan heskinas heskine heskinec'h heskinemp heskinen heskinent heskines heskinet heskinez heskinfe heskinfec'h heskinfed heskinfemp heskinfen heskinfent heskinfes heskini heskinimp heskinin heskinint heskinis heskinit heskinje heskinjec'h heskinjed heskinjemp heskinjen heskinjent heskinjes heskinjoc'h heskinjod heskinjomp heskinjont heskinjout heskino heskinomp heskinont heskinor heskinot
+24	1624	bruched	bruchedoù vruched
+25	1625	teskad	deskad teskadoù
+26	1626	sac'h	seier
+27	1627	ostaleri	ostalerioù
+28	1628	pleg	bleg blegoù flegoù plegoù
+29	1629	klopenn	c'hlopenn c'hlopennoù glopenn klopennoù
+30	1630	bihanaat	bihana bihanaan bihanaas bihanae bihanaec'h bihanaemp bihanaen bihanaent bihanaes bihanaet bihanaez bihanafe bihanafec'h bihanafed bihanafemp bihanafen bihanafent bihanafes bihanai bihanaimp bihanain bihanaint bihanais bihanait bihanaje bihanajec'h bihanajed bihanajemp bihanajen bihanajent bihanajes bihanajoc'h bihanajod bihanajomp bihanajont bihanajout bihanao bihanaomp bihanaont bihanaor bihanaot vihana vihanaat
+31	1631	digoll	digollan digollas digolle digollec'h digollemp digollen digollent digolles digollet digollez digollfe digollfec'h digollfed digollfemp digollfen digollfent digollfes digolli digollimp digollin digollint digollioù digollis digollit digolliñ digollje digolljec'h digolljed digolljemp digolljen digolljent digolljes digolljoc'h digolljod digolljomp digolljont digolljout digollo digollomp digollont digollor digollot digolloù tigoll zigoll
+32	1632	kreiz-kêr	c'hreiz-kêr greiz-kêr
+33	1633	glaz	c'hlaz glizi klaz
+34	1634	molekul	molekulenn molekulennoù molekuloù volekulenn volekulennoù
+35	1635	furchal	furch furchan furchas furchat furchañ furche furchec'h furchemp furchen furchent furches furchet furchez furchfe furchfec'h furchfed furchfemp furchfen furchfent furchfes furchi furchimp furchin furchint furchis furchit furchiñ furchje furchjec'h furchjed furchjemp furchjen furchjent furchjes furchjoc'h furchjod furchjomp furchjont furchjout furcho furchomp furchont furchor furchot
+36	1636	korr	c'horr c'horrez gorr gorred gorrez korred korrez
+37	1637	kef	c'hef c'hefioù gef gefioù kefioù
+38	1638	orañjez	
+39	1639	paourentez	baourentez
+40	1640	aoter	aoterioù
+41	1641	lec'hanvadurezh	lec'hanvadurezhioù
+42	1642	plac'hig	plac'hedigoù
+43	1643	sklêrijenn	sklêrijennoù
+44	1644	dir	zir
+45	1645	goullo	c'houlle c'houllo
+46	1646	anv-gwan	anvioù-gwan
+47	1647	mezegiezh	vezegiezh
+48	1648	denjentil	dudjentil tudjentil zenjentil
+49	1649	pourmen	bourmen pourmenan pourmenas pourmene pourmenec'h pourmenemp pourmenen pourmenent pourmenes pourmenet pourmenez pourmenfe pourmenfec'h pourmenfed pourmenfemp pourmenfen pourmenfent pourmenfes pourmeni pourmenimp pourmenin pourmenint pourmenis pourmenit pourmeniñ pourmenje pourmenjec'h pourmenjed pourmenjemp pourmenjen pourmenjent pourmenjes pourmenjoc'h pourmenjod pourmenjomp pourmenjont pourmenjout pourmeno pourmenomp pourmenont pourmenor pourmenot
+50	1650	ifern	ifernioù
+51	1651	batailhon	vatailhon vatailhonoù
+52	1652	bakteri	bakteriennoù bakterioù vakterienn
+53	1653	nes	nesañ nesoc'h
+54	1654	aberzhañ	aberzhan aberzhas aberzhe aberzhec'h aberzhemp aberzhen aberzhent aberzhes aberzhet aberzhez aberzhfe aberzhfec'h aberzhfed aberzhfemp aberzhfen aberzhfent aberzhfes aberzhi aberzhimp aberzhin aberzhint aberzhis aberzhit aberzhiñ aberzhje aberzhjec'h aberzhjed aberzhjemp aberzhjen aberzhjent aberzhjes aberzhjoc'h aberzhjod aberzhjomp aberzhjont aberzhjout aberzho aberzhomp aberzhont aberzhor aberzhot
+55	1655	boest	boestoù voest voestoù
+56	1656	gast	c'hast c'histi gasted gisti
+57	1657	argadiñ	argadan argadas argade argadec'h argademp argaden argadent argader argaderien argades argadet argadez argadfe argadfec'h argadfed argadfemp argadfen argadfent argadfes argadi argadimp argadin argadint argadis argadit argadje argadjec'h argadjed argadjemp argadjen argadjent argadjes argadjoc'h argadjod argadjomp argadjont argadjout argado argadomp argadont argador argadot
+58	1658	kantik	c'hantik c'hantikoù gantik kantikoù
+59	1659	gwalc'hiñ	gwalc'han gwalc'has gwalc'he gwalc'hec'h gwalc'hemp gwalc'hen gwalc'hent gwalc'hes gwalc'het gwalc'hez gwalc'hfe gwalc'hfec'h gwalc'hfed gwalc'hfemp gwalc'hfen gwalc'hfent gwalc'hfes gwalc'hi gwalc'himp gwalc'hin gwalc'hint gwalc'his gwalc'hit gwalc'hje gwalc'hjec'h gwalc'hjed gwalc'hjemp gwalc'hjen gwalc'hjent gwalc'hjes gwalc'hjoc'h gwalc'hjod gwalc'hjomp gwalc'hjont gwalc'hjout gwalc'ho gwalc'homp gwalc'hont gwalc'hor gwalc'hot kwalc'hiñ walc'he walc'hiñ walc'ho
+60	1660	foz	fozioù
+61	1661	arsailhañ	arsailh arsailhan arsailhas arsailhe arsailhec'h arsailhemp arsailhen arsailhent arsailhes arsailhet arsailhez arsailhfe arsailhfec'h arsailhfed arsailhfemp arsailhfen arsailhfent arsailhfes arsailhi arsailhimp arsailhin arsailhint arsailhis arsailhit arsailhiñ arsailhje arsailhjec'h arsailhjed arsailhjemp arsailhjen arsailhjent arsailhjes arsailhjoc'h arsailhjod arsailhjomp arsailhjont arsailhjout arsailho arsailhomp arsailhont arsailhor arsailhot
+62	1662	dic'hortoz	dic'hortosoc'h zic'hortoz
+63	1663	plijus	blijus plijusañ plijusoc'h
+64	1664	kizeller	c'hizeller gizellerez gizellerien kizellerien kizellour
+65	1665	ergerzhout	ergerzh ergerzhan ergerzhas ergerzhe ergerzhec'h ergerzhemp ergerzhen ergerzhent ergerzhes ergerzhet ergerzhez ergerzhfe ergerzhfec'h ergerzhfed ergerzhfemp ergerzhfen ergerzhfent ergerzhfes ergerzhi ergerzhimp ergerzhin ergerzhint ergerzhis ergerzhit ergerzhiñ ergerzhje ergerzhjec'h ergerzhjed ergerzhjemp ergerzhjen ergerzhjent ergerzhjes ergerzhjoc'h ergerzhjod ergerzhjomp ergerzhjont ergerzhjout ergerzho ergerzhomp ergerzhont ergerzhor ergerzhot
+66	1666	karta	c'harta garta gartaoù kartaoù
+67	1667	lien	
+68	1668	nobl	
+69	1669	ijin	
+70	1670	war-c'horre	
+71	1671	fizik	
+72	1672	digemm	
+73	1673	hollvedel	
+74	1674	douaroniezh	zouaroniezh
+75	1675	deiz-ha-bloaz	deizioù-ha-bloaz zeiz-ha-bloaz
+76	1676	ehan	ehanoù
+77	1677	glaou	c'hlaou c'hlaouenn
+78	1678	viruz	viruzoù
+79	1679	forn	fornioù
+80	1680	mesk	vesk
+81	1681	trugarez	drugarez zrugarez
+82	1682	meuliñ	meul meulan meulas meule meulec'h meulemp meulen meulent meuler meules meulet meulez meulfe meulfec'h meulfed meulfemp meulfen meulfent meulfes meuli meulimp meulin meulint meulis meulit meulje meuljec'h meuljed meuljemp meuljen meuljent meuljes meuljoc'h meuljod meuljomp meuljont meuljout meulo meulomp meulont meulor meulot veuliñ
+83	1683	andon	andonioù andonoù
+84	1684	disoñjal	disoñjan disoñjas disoñje disoñjec'h disoñjemp disoñjen disoñjent disoñjes disoñjet disoñjez disoñjfe disoñjfec'h disoñjfed disoñjfemp disoñjfen disoñjfent disoñjfes disoñji disoñjimp disoñjin disoñjint disoñjis disoñjit disoñjiñ disoñjje disoñjjec'h disoñjjed disoñjjemp disoñjjen disoñjjent disoñjjes disoñjjoc'h disoñjjod disoñjjomp disoñjjont disoñjjout disoñjo disoñjomp disoñjont disoñjor disoñjot tisoñjal zisoñjal zisoñjas zisoñjje zisoñjo
+85	1685	godell	c'hodell c'hodelloù godelloù kodell
+86	1686	marc'hata	marc'hataan marc'hataas marc'hatae marc'hataec'h marc'hataemp marc'hataen marc'hataent marc'hataes marc'hataet marc'hataez marc'hataezh marc'hatafe marc'hatafec'h marc'hatafed marc'hatafemp marc'hatafen marc'hatafent marc'hatafes marc'hatai marc'hataimp marc'hatain marc'hataint marc'hatais marc'hatait marc'hataje marc'hatajec'h marc'hatajed marc'hatajemp marc'hatajen marc'hatajent marc'hatajes marc'hatajoc'h marc'hatajod marc'hatajomp marc'hatajont marc'hatajout marc'hatao marc'hataomp marc'hataont marc'hataor marc'hataot marc'hatiñ varc'hata
+87	1687	gouriz	c'houriz gourizioù gourizoù
+88	1688	perc'henniezh	berc'henniezh perc'henniezhioù
+89	1689	dañser	dañserez dañserien dañsour tañser zañserien
+90	1690	diskuizhañ	diskuizh diskuizhan diskuizhas diskuizhe diskuizhec'h diskuizhemp diskuizhen diskuizhent diskuizhes diskuizhet diskuizhez diskuizhfe diskuizhfec'h diskuizhfed diskuizhfemp diskuizhfen diskuizhfent diskuizhfes diskuizhi diskuizhimp diskuizhin diskuizhint diskuizhis diskuizhit diskuizhiñ diskuizhje diskuizhjec'h diskuizhjed diskuizhjemp diskuizhjen diskuizhjent diskuizhjes diskuizhjoc'h diskuizhjod diskuizhjomp diskuizhjont diskuizhjout diskuizho diskuizhomp diskuizhont diskuizhor diskuizhot tiskuizh tiskuizhañ ziskuizh ziskuizhañ ziskuizho
+91	1691	gouezeleg	
+92	1692	respet	respetoù
+93	1693	raktresañ	raktresan raktresas raktrese raktresec'h raktresemp raktresen raktresent raktreses raktreset raktresez raktresfe raktresfec'h raktresfed raktresfemp raktresfen raktresfent raktresfes raktresi raktresimp raktresin raktresint raktresis raktresit raktresje raktresjec'h raktresjed raktresjemp raktresjen raktresjent raktresjes raktresjoc'h raktresjod raktresjomp raktresjont raktresjout raktreso raktresomp raktresont raktresor raktresot
+94	1694	disfiz	zisfiz
+95	1695	peñse	beñse peñseoù
+96	1696	foar	foarioù
+97	1697	bresk	breskañ breskoc'h vresk
+98	1698	kizidik	c'hizidikañ kizidikat kizidikañ kizidikoc'h
+99	1699	luc'hskeudenniñ	luc'hskeudennan luc'hskeudennas luc'hskeudenne luc'hskeudennec'h luc'hskeudennemp luc'hskeudennen luc'hskeudennent luc'hskeudennes luc'hskeudennet luc'hskeudennez luc'hskeudennfe luc'hskeudennfec'h luc'hskeudennfed luc'hskeudennfemp luc'hskeudennfen luc'hskeudennfent luc'hskeudennfes luc'hskeudenni luc'hskeudennimp luc'hskeudennin luc'hskeudennint luc'hskeudennis luc'hskeudennit luc'hskeudennje luc'hskeudennjec'h luc'hskeudennjed luc'hskeudennjemp luc'hskeudennjen luc'hskeudennjent luc'hskeudennjes luc'hskeudennjoc'h luc'hskeudennjod luc'hskeudennjomp luc'hskeudennjont luc'hskeudennjout luc'hskeudenno luc'hskeudennomp luc'hskeudennont luc'hskeudennor luc'hskeudennot
+100	1700	strinkañ	strink strinkal strinkan strinkas strinke strinkec'h strinkemp strinken strinkent strinkes strinket strinkez strinkfe strinkfec'h strinkfed strinkfemp strinkfen strinkfent strinkfes strinki strinkimp strinkin strinkint strinkis strinkit strinkje strinkjec'h strinkjed strinkjemp strinkjen strinkjent strinkjes strinkjoc'h strinkjod strinkjomp strinkjont strinkjout strinko strinkomp strinkont strinkor strinkot

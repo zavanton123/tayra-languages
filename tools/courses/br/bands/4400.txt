@@ -1,100 +1,100 @@
-1	4301	rozeg	
-2	4302	samourai	
-3	4303	savenn-douar	savennoù-douar
-4	4304	sekretourva	
-5	4305	skoaziañ	
-6	4306	skoul	
-7	4307	skriverezañ	
-8	4308	spoum	
-9	4309	tann	
-10	4310	tatouadur	
-11	4311	tavedek	
-12	4312	trok	
-13	4313	pabel	babel
-14	4314	troniñ	drone tronas tronañ trone troned tronen troner tronet tronfe troni tronis tronit tronje trono
-15	4315	fatañ	fate fatet fatis fatiñ fator
-16	4316	fromañ	froment fromiñ
-17	4317	gaouiad	gaouiaded
-18	4318	kog	c'hog gog
-19	4319	goubenner	goubennerioù
-20	4320	gwinier	gwinierien
-21	4321	kac'hat	kac'het kac'hout
-22	4322	kador-doull	gador-doull
-23	4323	kalonekaat	c'halonekaat galonekaat
-24	4324	kanolier	kanolierien
-25	4325	kaoteriad	gaoteriad
-26	4326	kaouad	kaouadoù
-27	4327	karadek	karadeg
-28	4328	kefeleg	c'hefeleg
-29	4329	kelorn	c'helorn kelornioù
-30	4330	kelvez	kelvezenn
-31	4331	korzailhenn	c'horzailhenn
-32	4332	mekanikerez	mekanikour vekanikour
-33	4333	melchon	velchonenn
-34	4334	mezhek	vezhek
-35	4335	momed	vomed
-36	4336	pariañ	bariañ fariañ pariis pariiñ parior
-37	4337	poblañsouriezh	boblañsouriezh
-38	4338	poull-neuial	poulloù-neuial
-39	4339	ribod	ribodoù ribot
-40	4340	skouarnek	skouarneg
-41	4341	taol-skrivañ	daol-skrivañ taolioù-skrivañ
-42	4342	duder	tuder
-43	4343	gwez-avaloù	gwezenn-avaloù wezenn-avaloù
-44	4344	alamandez	alamandezenned
-45	4345	alkaloid	alkaloidoù
-46	4346	arabegerez	arabegerien arabegerion
-47	4347	avank	avanked
-48	4348	avosetenn	avoseted
-49	4349	bag-kanoliañ	bagoù-kanoliañ vag-kanoliañ
-50	4350	paotaat	baotaat faotaat
-51	4351	parodienn	barodienn
-52	4352	batis	batisoù
-53	4353	beler	veler
-54	4354	pennwisk	bennwisk
-55	4355	bezhinaer	bezhinaerien vezhinaerien
-56	4356	pigell	bigell vigell
-57	4357	biz-bihan	viz-bihan
-58	4358	bizskriver	vizskriverez
-59	4359	boestad	boestadoù voestad
-60	4360	bouedañ	bouediñ vouedañ
-61	4361	poupig	boupiged
-62	4362	brec'h-vor	brec'hioù-mor vrec'h-vor
-63	4363	brennidenn	brennidennoù
-64	4364	broustañ	broustat vroustañ
-65	4365	puilhded	builhded
-66	4366	kaktuz	c'haktuz
-67	4367	garventez	c'harventez
-68	4368	kelorniad	c'helorniad gelorniad
-69	4369	kentr	c'hentr
-70	4370	geotek	c'heoteg c'heotek
-71	4371	klav	c'hlavioù klavioù
-72	4372	kleze-fuzuilh	c'hleze-fuzuilh
-73	4373	kolera	c'holera
-74	4374	grañj	c'hrañj
-75	4375	c'hwitelladenn	c'hwitelladennoù
-76	4376	c'hwitellerez	c'hwitellerezioù
-77	4377	kached	c'hached kachedoù
-78	4378	geriadurouriezh	c'heriadurouriezh
-79	4379	kilsell	c'hilsell
-80	4380	telennañ	delennañ delenniñ telennat telenniñ
-81	4381	dellid	dellidoù
-82	4382	ti-labour	di-labour tier-labour
-83	4383	diarc'hen	
-84	4384	diberc'hennañ	diberc'henniñ
-85	4385	dibrañ	dibriñ tibrañ zibrañ
-86	4386	tiretenn	diretenn
-87	4387	disurentez	zisurentez
-88	4388	diyalc'hañ	diyalc'hiñ ziyalc'hañ
-89	4389	dizampartiz	zizampartiz
-90	4390	dizonestiz	zizonestiz
-91	4391	dizour	dizourañ
-92	4392	tog-touseg	dogoù-touseg togoù-touseg
-93	4393	tonton	donton
-94	4394	eston	estonet
-95	4395	beskennad	feskennad veskennad
-96	4396	poñsin	foñsined poñsined
-97	4397	gaol	kaolioù
-98	4398	kreviñ	greviñ krev krevas kreve krevet krevi krevis
-99	4399	krial	grial kriañ kriiñ
-100	4400	gup	guped
+1	4301	ranngredenn	ranngredennoù
+2	4302	relegouer	
+3	4303	reniom	
+4	4304	reteriñ	reteran reteras retere reterec'h reteremp reteren reterent reteres reteret reterez reterfe reterfec'h reterfed reterfemp reterfen reterfent reterfes reteri reterimp reterin reterint reteris reterit reterje reterjec'h reterjed reterjemp reterjen reterjent reterjes reterjoc'h reterjod reterjomp reterjont reterjout retero reteromp reteront reteror reterot
+5	4305	roc'hal	roc'han roc'has roc'hat roc'he roc'hec'h roc'hemp roc'hen roc'hent roc'hes roc'het roc'hez roc'hfe roc'hfec'h roc'hfed roc'hfemp roc'hfen roc'hfent roc'hfes roc'hi roc'himp roc'hin roc'hint roc'his roc'hit roc'hje roc'hjec'h roc'hjed roc'hjemp roc'hjen roc'hjent roc'hjes roc'hjoc'h roc'hjod roc'hjomp roc'hjont roc'hjout roc'ho roc'homp roc'hont roc'hor roc'hot
+6	4306	rodellek	
+7	4307	rodiom	
+8	4308	roufenn	roufennoù
+9	4309	roumanek	
+10	4310	rukun	
+11	4311	sakrist	
+12	4312	sal-debriñ	
+13	4313	sal-c'hortoz	salioù-gortoz
+14	4314	samariom	
+15	4315	sammus	
+16	4316	saotrus	
+17	4317	segondenn	
+18	4318	seizi	
+19	4319	siek	
+20	4320	sitroñs	
+21	4321	skav	
+22	4322	skolp	skolpoù
+23	4323	skubellenn	
+24	4324	soutilded	
+25	4325	splannder	
+26	4326	spluseg	splusegoù
+27	4327	spontailh	
+28	4328	spoue	
+29	4329	stered-lostek	steredenn-lostek
+30	4330	sulfurek	
+31	4331	suraval	
+32	4332	sut	
+33	4333	svastika	
+34	4334	taol-gwad	
+35	4335	tatouiñ	datouiñ tatou tatouan tatouas tatouañ tatoue tatouec'h tatouemp tatouen tatouent tatouer tatoues tatouez tatoufe tatoufec'h tatoufed tatoufemp tatoufen tatoufent tatoufes tatoui tatouimp tatouin tatouint tatouis tatouit tatouje tatoujec'h tatoujed tatoujemp tatoujen tatoujent tatoujes tatoujoc'h tatoujod tatoujomp tatoujont tatoujout tatouo tatouomp tatouont tatouor tatouot zatouiñ
+36	4336	ti-meur	
+37	4337	titaniom	
+38	4338	touellus	
+39	4339	tramgarr	
+40	4340	troatad	
+41	4341	trubuilhus	
+42	4342	trueziñ	drueziñ truezal truezan truezas truezañ trueze truezec'h truezemp truezen truezent truezes truezet truezez truezfe truezfec'h truezfed truezfemp truezfen truezfent truezfes truezi truezimp truezin truezint truezis truezit truezje truezjec'h truezjed truezjemp truezjen truezjent truezjes truezjoc'h truezjod truezjomp truezjont truezjout truezo truezomp truezont truezor truezot
+43	4343	tu-gouzañv	
+44	4344	tu-gra	
+45	4345	ugentad	
+46	4346	unanderenn	
+47	4347	urzhad	
+48	4348	bag-pesketa	vag-pesketa
+49	4349	mellkeineg	vellkeineged
+50	4350	bezhina	bezhinaan bezhinaas bezhinae bezhinaec'h bezhinaemp bezhinaen bezhinaent bezhinaes bezhinaet bezhinaez bezhinafe bezhinafec'h bezhinafed bezhinafemp bezhinafen bezhinafent bezhinafes bezhinai bezhinaimp bezhinain bezhinaint bezhinais bezhinait bezhinaje bezhinajec'h bezhinajed bezhinajemp bezhinajen bezhinajent bezhinajes bezhinajoc'h bezhinajod bezhinajomp bezhinajont bezhinajout bezhinao bezhinaomp bezhinaont bezhinaor bezhinaot vezhina
+51	4351	vilded	
+52	4352	virgulenn	
+53	4353	volt	
+54	4354	moui	vouienn
+55	4355	brogarantez	vrogarantez
+56	4356	gwenaner	wenanerien
+57	4357	gwez-derv	wezenn-derv
+58	4358	gwigour	wigour
+59	4359	yourc'h	
+60	4360	dareviñ	darevan darevas dareve darevec'h darevemp dareven darevent dareves darevet darevez darevfe darevfec'h darevfed darevfemp darevfen darevfent darevfes darevi darevimp darevin darevint darevis darevit darevje darevjec'h darevjed darevjemp darevjen darevjent darevjes darevjoc'h darevjod darevjomp darevjont darevjout darevo darevomp darevont darevor darevot zareviñ
+61	4361	amgredoni	
+62	4362	argon	
+63	4363	askol	
+64	4364	aven	
+65	4365	azoniad	
+66	4366	breser	
+67	4367	brevet	
+68	4368	dimeurzh	
+69	4369	dizamant	
+70	4370	dizeil	
+71	4371	fallagriezh	
+72	4372	paunez	faun
+73	4373	gagn	
+74	4374	geo	
+75	4375	karbonat	
+76	4376	kerc'h	
+77	4377	korbell	
+78	4378	kouez	
+79	4379	levran	
+80	4380	liorzher	
+81	4381	mangaka	
+82	4382	melegan	
+83	4383	oferenn-bred	
+84	4384	ohm	
+85	4385	pevarzekvet	
+86	4386	pluñvek	
+87	4387	poder	
+88	4388	pres	
+89	4389	rozeg	
+90	4390	samourai	
+91	4391	savenn-douar	savennoù-douar
+92	4392	sekretourva	
+93	4393	skoaziañ	skoazi skoazian skoazias skoazie skoaziec'h skoaziemp skoazien skoazient skoazies skoaziet skoaziez skoazife skoazifec'h skoazifed skoazifemp skoazifen skoazifent skoazifes skoazii skoaziimp skoaziin skoaziint skoaziis skoaziit skoazije skoazijec'h skoazijed skoazijemp skoazijen skoazijent skoazijes skoazijoc'h skoazijod skoazijomp skoazijont skoazijout skoazio skoaziomp skoaziont skoazior skoaziot
+94	4394	skoul	
+95	4395	skriverezañ	skriverezan skriverezas skrivereze skriverezec'h skriverezemp skriverezen skriverezent skriverezes skriverezet skriverezez skriverezfe skriverezfec'h skriverezfed skriverezfemp skriverezfen skriverezfent skriverezfes skriverezi skriverezimp skriverezin skriverezint skriverezis skriverezit skriverezje skriverezjec'h skriverezjed skriverezjemp skriverezjen skriverezjent skriverezjes skriverezjoc'h skriverezjod skriverezjomp skriverezjont skriverezjout skriverezo skriverezomp skriverezont skriverezor skriverezot
+96	4396	spoum	
+97	4397	sulfat	sulfatoù
+98	4398	tann	
+99	4399	tatouadur	
+100	4400	tavedek	

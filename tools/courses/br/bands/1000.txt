@@ -6,24 +6,24 @@
 6	906	a-dreuz	
 7	907	piano	biano fiano pianoioù
 8	908	ramz	ramzed
-9	909	kousket	c'housked gousket kouske kousked kouskiñ
+9	909	kousket	c'housked gousket gousko gouskont kouskan kouskas kouske kouskec'h kousked kouskemp kousken kouskent kouskes kouskez kouskfe kouskfec'h kouskfed kouskfemp kouskfen kouskfent kouskfes kouski kouskimp kouskin kouskint kouskis kouskit kouskiñ kouskje kouskjec'h kouskjed kouskjemp kouskjen kouskjent kouskjes kouskjoc'h kouskjod kouskjomp kouskjont kouskjout kousko kouskomp kouskont kouskor kouskot
 10	910	gwallzarvoud	gwallzarvoudoù wallzarvoud wallzarvoudoù
-11	911	treuziñ	dreuzas dreuziñ treuzas treuzañ treuzet treuzo treuzont zreuziñ
+11	911	treuziñ	dreuzas dreuze dreuziñ treuzan treuzas treuzañ treuze treuzec'h treuzemp treuzen treuzent treuzes treuzet treuzez treuzfe treuzfec'h treuzfed treuzfemp treuzfen treuzfent treuzfes treuzi treuzimp treuzin treuzint treuzis treuzit treuzje treuzjec'h treuzjed treuzjemp treuzjen treuzjent treuzjes treuzjoc'h treuzjod treuzjomp treuzjont treuzjout treuzo treuzomp treuzont treuzor treuzot zreuziñ
 12	912	lusk	luskoù
 13	913	ti-kêr	di-kêr tiez-kêr
-14	914	kannañ	c'hannañ gannañ gannet ganniñ ganno kannet kanniñ
-15	915	nijal	nijas nije nijet nijiñ nijjont nijont
+14	914	kannañ	c'hannañ gannañ gannet ganniñ ganno gannont kannan kannas kanne kannec'h kannemp kannen kannent kannes kannet kannez kannfe kannfec'h kannfed kannfemp kannfen kannfent kannfes kanni kannimp kannin kannint kannis kannit kanniñ kannje kannjec'h kannjed kannjemp kannjen kannjent kannjes kannjoc'h kannjod kannjomp kannjont kannjout kanno kannomp kannont kannor kannot
+15	915	nijal	nijan nijas nije nijec'h nijemp nijen nijent nijes nijet nijez nijfe nijfec'h nijfed nijfemp nijfen nijfent nijfes niji nijimp nijin nijint nijis nijit nijiñ nijje nijjec'h nijjed nijjemp nijjen nijjent nijjes nijjoc'h nijjod nijjomp nijjont nijjout nijo nijomp nijont nijor nijot
 16	916	estreget	estregetañ estregeti estregeto
 17	917	me	
 18	918	lizherenneg	lizherennegoù
-19	919	tevel	dav davi davis devel tav tavan tavas tave taven taves tavet tavi tavin tavis tavit tavo
-20	920	magañ	mag magan mage mager magerien magi magis magiñ mago magor magot vagas vagañ vage vagerien vagiñ
+19	919	tevel	dav davi davis devel tav tavan tavas tave tavec'h tavemp taven tavent taves tavet tavez tavfe tavfec'h tavfed tavfemp tavfen tavfent tavfes tavi tavimp tavin tavint tavis tavit tavje tavjec'h tavjed tavjemp tavjen tavjent tavjes tavjoc'h tavjod tavjomp tavjont tavjout tavo tavomp tavont tavor tavot
+20	920	magañ	mag magan magas mage magec'h magemp magen magent mager magerien mages maget magez magfe magfec'h magfed magfemp magfen magfent magfes magi magimp magin magint magis magit magiñ magje magjec'h magjed magjemp magjen magjent magjes magjoc'h magjod magjomp magjont magjout mago magomp magont magor magot vagas vagañ vage vagerien vagiñ vagont
 21	921	isspesad	isspesadoù
-22	922	gwellaat	gwellae kwellaat wellaat wellae
+22	922	gwellaat	gwella gwellaan gwellaas gwellae gwellaec'h gwellaemp gwellaen gwellaent gwellaes gwellaet gwellaez gwellafe gwellafec'h gwellafed gwellafemp gwellafen gwellafent gwellafes gwellai gwellaimp gwellain gwellaint gwellais gwellait gwellaje gwellajec'h gwellajed gwellajemp gwellajen gwellajent gwellajes gwellajoc'h gwellajod gwellajomp gwellajont gwellajout gwellao gwellaomp gwellaont gwellaor gwellaot kwellaat wella wellaas wellaat wellae wellaet wellajont wellao
 23	923	prederour	brederour brederourien brederourion frederourien prederourien
-24	924	diwan	divan divanoù diwanañ diwaniñ diwanoù tivan tivanoù tiwan tiwanañ zivan zivanoù ziwan ziwanañ
+24	924	diwan	divan divanoù diwanan diwanas diwanañ diwane diwanec'h diwanemp diwanen diwanent diwanes diwanet diwanez diwanfe diwanfec'h diwanfed diwanfemp diwanfen diwanfent diwanfes diwani diwanimp diwanin diwanint diwanis diwanit diwaniñ diwanje diwanjec'h diwanjed diwanjemp diwanjen diwanjent diwanjes diwanjoc'h diwanjod diwanjomp diwanjont diwanjout diwano diwanomp diwanont diwanor diwanot diwanoù tivan tivanoù tiwan tiwanas tiwanañ zivan zivanoù ziwan ziwanas ziwanañ ziwane ziwanfe ziwano
 25	925	start	startañ startoc'h
-26	926	pareañ	bare bareañ fareañ pare parean pareen parefen parei parein pareis pareo
+26	926	pareañ	bare bareas bareañ barefe bareje fareañ pare parean pareas paree pareec'h pareemp pareen pareent parees pareet pareez parefe parefec'h parefed parefemp parefen parefent parefes parei pareimp parein pareint pareis pareit pareje parejec'h parejed parejemp parejen parejent parejes parejoc'h parejod parejomp parejont parejout pareo pareomp pareont pareor pareot
 27	927	to	
 28	928	brezhoneger	brezhonegerez brezhonegerezed brezhonegerien vrezhoneger vrezhonegerien vrezhonegerion
 29	929	klok	glok glokañ klokañ klokoc'h
@@ -32,28 +32,28 @@
 32	932	tregont	dregont zregont
 33	933	o-daou	o-div
 34	934	prim	brim brimoc'h frim primañ primoc'h
-35	935	plegañ	blegañ flegañ plegas plege pleger pleget plegis plegiñ plegor
+35	935	plegañ	blegañ blegent flegañ plegan plegas plege plegec'h plegemp plegen plegent pleger pleges pleget plegez plegfe plegfec'h plegfed plegfemp plegfen plegfent plegfes plegi plegimp plegin plegint plegis plegit plegiñ plegje plegjec'h plegjed plegjemp plegjen plegjent plegjes plegjoc'h plegjod plegjomp plegjont plegjout plego plegomp plegont plegor plegot
 36	936	trouz	drouz trous trouzioù trouzoù
-37	937	kleze	c'hleze c'hlezeier c'hlezeoù gleve gleze kleve klezeier klezeoù klezeñv
+37	937	kleze	c'hleze c'hlezeier c'hlezeoù gleve gleze kleve klezeier klezeioù klezeoù klezeñv
 38	938	koublad	c'houblad c'houbladoù goublad goubladoù koubladoù
 39	939	arabat	
 40	940	mell-droad	vell-droad
 41	941	emren	emrenoc'h
 42	942	gwalarn	walarn
-43	943	yen	yenañ yeni yenoc'h
+43	943	yen	yenañ yeni yeno yenoc'h
 44	944	kerkent	
 45	945	skoed	skoedoù
 46	946	melestradurel	velestradurel
 47	947	kelc'h	c'helc'h c'helc'hioù gelc'h gelc'hioù kelc'hioù
 48	948	àr	àrnezhe àrnezhi
-49	949	skignañ	skign skignent skigniñ
+49	949	skignañ	skign skignan skignas skigne skignec'h skignemp skignen skignent skignes skignet skignez skignfe skignfec'h skignfed skignfemp skignfen skignfent skignfes skigni skignimp skignin skignint skignis skignit skigniñ skignje skignjec'h skignjed skignjemp skignjen skignjent skignjes skignjoc'h skignjod skignjomp skignjont skignjout skigno skignomp skignont skignor skignot
 50	950	preder	breder brederez brederien brederioù freder prederioù
-51	951	eme	emezañ emeze emezi emezo emezoc'h emezomp emezon emezor emezout
+51	951	eme	emean emeas emee emeec'h emeemp emeen emeent emees emeet emeez emefe emefec'h emefed emefemp emefen emefent emefes emei emeimp emein emeint emeis emeit emeje emejec'h emejed emejemp emejen emejent emejes emejoc'h emejod emejomp emejont emejout emeo emeomp emeont emeor emeot emezañ emeze emezi emezo emezoc'h emezomp emezon emezor emezout
 52	952	prouiñ	brou brouas brouen brouet brouez brouiñ brouo frouez frouiñ prou prouan prouas prouañ proue prouec'h prouen prouent prouer proues prouet prouez proui prouin prouis prouit prouo prouomp prouont
 53	953	prouenn	brouenn brouennoù frouenn prouennoù
 54	954	maout	meot
-55	955	diwall	diwallañ tiwall ziwall
-56	956	gouzañv	c'houzañv gouzañviñ kouzañv
+55	955	diwall	diwallan diwallas diwallañ diwalle diwallec'h diwallemp diwallen diwallent diwalles diwallet diwallez diwallfe diwallfec'h diwallfed diwallfemp diwallfen diwallfent diwallfes diwalli diwallimp diwallin diwallint diwallis diwallit diwallje diwalljec'h diwalljed diwalljemp diwalljen diwalljent diwalljes diwalljoc'h diwalljod diwalljomp diwalljont diwalljout diwallo diwallomp diwallont diwallor diwallot tiwall tiwalle tiwallje tiwallo tiwallont ziwall ziwallas ziwallo
+56	956	gouzañv	c'houzañv c'houzañvent c'houzañvo c'houzañvont gouzañvan gouzañvec'h gouzañvemp gouzañven gouzañvent gouzañves gouzañvet gouzañvez gouzañvfe gouzañvfec'h gouzañvfed gouzañvfemp gouzañvfen gouzañvfent gouzañvfes gouzañvi gouzañvimp gouzañvin gouzañvis gouzañvit gouzañviñ gouzañvje gouzañvjec'h gouzañvjed gouzañvjemp gouzañvjen gouzañvjent gouzañvjes gouzañvjoc'h gouzañvjod gouzañvjomp gouzañvjont gouzañvjout gouzañvo gouzañvomp gouzañvont gouzañvor gouzañvot kouzañv
 57	957	sioul	sioulañ siouloc'h
 58	958	tad-kozh	dad-kozh dadoù-kozh zad-kozh zadoù-kozh
 59	959	medisin	medisined vedisin vedisined vedisinez
@@ -67,16 +67,16 @@
 67	967	suis	suised suisez
 68	968	lise	liseoù
 69	969	vogalenn	vogalennoù
-70	970	ledañ	lede ledet lediñ ledo
+70	970	ledañ	ledas lede ledec'h ledemp leden ledent ledes ledet ledez ledfe ledfec'h ledfed ledfemp ledfen ledfent ledfes ledi ledimp ledin ledint ledis ledit lediñ ledje ledjec'h ledjed ledjemp ledjen ledjent ledjes ledjoc'h ledjod ledjomp ledjont ledjout ledo ledomp ledont ledor ledot
 71	971	brezel-bed	vrezel-bed
 72	972	koadek	c'hoadegi c'hoadegoù c'hoadek goadeg koadeg koadegi koadegoù
 73	973	turk	durk durked durkez turked
 74	974	steredenn	
 75	975	feal	fealañ
 76	976	lamm	lammoù
-77	977	tren	dren drenioù trenioù zren
-78	978	laerezh	laerat laere laeret laerimp laerint laeriñ laeroc'h laeront laeror laerot
-79	979	diskoulmañ	diskoulm diskoulmas tiskoulmañ ziskoulm ziskoulmañ
+77	977	tren	dren drenioù trenioù trenoù zren
+78	978	laerezh	laerat laere laeret laerezhan laerezhas laerezhe laerezhec'h laerezhemp laerezhen laerezhent laerezhes laerezhet laerezhez laerezhfe laerezhfec'h laerezhfed laerezhfemp laerezhfen laerezhfent laerezhfes laerezhi laerezhimp laerezhin laerezhint laerezhis laerezhit laerezhje laerezhjec'h laerezhjed laerezhjemp laerezhjen laerezhjent laerezhjes laerezhjoc'h laerezhjod laerezhjomp laerezhjont laerezhjout laerezho laerezhomp laerezhont laerezhor laerezhot laerimp laerint laeriñ laeroc'h laeront laeror laerot
+79	979	diskoulmañ	diskoulm diskoulman diskoulmas diskoulme diskoulmec'h diskoulmemp diskoulmen diskoulment diskoulmes diskoulmet diskoulmez diskoulmfe diskoulmfec'h diskoulmfed diskoulmfemp diskoulmfen diskoulmfent diskoulmfes diskoulmi diskoulmimp diskoulmin diskoulmint diskoulmis diskoulmit diskoulmje diskoulmjec'h diskoulmjed diskoulmjemp diskoulmjen diskoulmjent diskoulmjes diskoulmjoc'h diskoulmjod diskoulmjomp diskoulmjont diskoulmjout diskoulmo diskoulmomp diskoulmont diskoulmor diskoulmot tiskoulmañ ziskoulm ziskoulmañ ziskoulme
 80	980	micherour	micherourez micherourien micherourion vicherourez vicherourien vicherourion
 81	981	markiz	markizez markizien varkiz varkizez
 82	982	pred	fred fredoù predoù
@@ -84,8 +84,8 @@
 84	984	bara	para vara
 85	985	marc'hadour	marc'hadourez marc'hadourien marc'hadourion varc'hadourien
 86	986	ardivink	ardivinkoù
-87	987	enrollañ	
-88	988	brudañ	brudal bruder brudiñ vrudas vrudañ vrude
+87	987	enrollañ	enroll enrollan enrollas enrolle enrollec'h enrollemp enrollen enrollent enrolles enrollet enrollez enrollfe enrollfec'h enrollfed enrollfemp enrollfen enrollfent enrollfes enrolli enrollimp enrollin enrollint enrollis enrollit enrollje enrolljec'h enrolljed enrolljemp enrolljen enrolljent enrolljes enrolljoc'h enrolljod enrolljomp enrolljont enrolljout enrollo enrollomp enrollont enrollor enrollot
+88	988	brudañ	brudal brudan brudas brude brudec'h brudemp bruden brudent bruder brudes brudez brudfe brudfec'h brudfed brudfemp brudfen brudfent brudfes brudi brudimp brudin brudint brudis brudit brudiñ brudje brudjec'h brudjed brudjemp brudjen brudjent brudjes brudjoc'h brudjod brudjomp brudjont brudjout brudo brudomp brudont brudor brudot vrudas vrudañ vrude
 89	989	gwagenn	gwagennoù wagenn wagennoù
 90	990	enezeg	enezegi enezegoù
 91	991	feuls	feulsañ feulsoc'h

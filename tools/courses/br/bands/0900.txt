@@ -1,33 +1,33 @@
-1	801	distruj	tistruj zistruj
+1	801	distruj	distrujoù tistruj zistruj
 2	802	droug	drougoù zroug
 3	803	barzhoniezh	varzhoniezh
-4	804	gour	c'hour c'hourion goured gourion
+4	804	gour	c'hour c'hourion goured gourion gourioù
 5	805	efedus	efedusañ efedusoc'h
 6	806	arab	arabed
-7	807	selaou	selaouas selaouat selaoue selaouer selaouet selaouit selaouiñ selaouont
+7	807	selaou	selaouan selaouas selaouat selaoue selaouec'h selaouemp selaouen selaouent selaouer selaoues selaouet selaouez selaoufe selaoufec'h selaoufed selaoufemp selaoufen selaoufent selaoufes selaoui selaouimp selaouin selaouint selaouis selaouit selaouiñ selaouje selaoujec'h selaoujed selaoujemp selaoujen selaoujent selaoujes selaoujoc'h selaoujod selaoujomp selaoujont selaoujout selaouo selaouomp selaouont selaouor selaouot
 8	808	kazh	c'hazh c'hizhier gazh gazhez gizhier kazhez kizhier
 9	809	lez-varn	lezioù-barn
 10	810	kig	c'hig gig
 11	811	paper	baper baperioù baperoù faperoù paperioù paperoù
 12	812	labourer	labourerez labourerezed labourerien
-13	813	berzañ	berz berzet berziñ perz verz verzañ verzet
-14	814	paeañ	baeañ faeañ paean paeer paeiñ
+13	813	berzañ	berz berzas berze berzec'h berzemp berzent berzes berzet berzfe berzfec'h berzfed berzfemp berzfen berzfent berzfes berzimp berzin berzint berzis berzit berziñ berzje berzjec'h berzjed berzjemp berzjen berzjent berzjes berzjoc'h berzjod berzjomp berzjont berzjout berzo berzomp berzont berzor berzot perz verz verzañ verzet
+14	814	paeañ	baeas baeañ baee baeent baeont faeañ paean paeas paee paeec'h paeemp paeen paeent paeer paees paeet paeez paefe paefec'h paefed paefemp paefen paefent paefes paei paeimp paein paeint paeis paeit paeiñ paeje paejec'h paejed paejemp paejen paejent paejes paejoc'h paejod paejomp paejont paejout paeo paeomp paeont paeor paeot
 15	815	e-giz	
 16	816	daouzek	zaouzek
 17	817	kriz	c'hriz griz krisañ krisoc'h
 18	818	templ	dempl demploù temploù zemploù
 19	819	breizhat	vreizhat
 20	820	pegen	begen peger vegen
-21	821	kemmañ	c'hemmañ gemmañ kemmiñ
-22	822	beli	peli veli
+21	821	kemmañ	c'hemmañ gemmas gemmañ gemme gemmet gemmo gemmont kemman kemmas kemme kemmec'h kemmemp kemmen kemment kemmes kemmet kemmez kemmfe kemmfec'h kemmfed kemmfemp kemmfen kemmfent kemmfes kemmi kemmimp kemmin kemmint kemmis kemmit kemmiñ kemmje kemmjec'h kemmjed kemmjemp kemmjen kemmjent kemmjes kemmjoc'h kemmjod kemmjomp kemmjont kemmjout kemmo kemmomp kemmont kemmor kemmot
+22	822	beli	belioù peli veli
 23	823	kredenn	c'hredenn c'hredennoù gredenn gredennoù kredennoù
 24	824	keflusker	c'heflusker c'hefluskerioù geflusker gefluskerioù kefluskerioù
 25	825	nav	
-26	826	gervel	c'halvas c'hervel galvan galvas galven galvet galvez gerwel kervel
+26	826	gervel	c'halvas c'halve c'halvont c'hervel galvan galvas galve galvec'h galvemp galven galvent galves galvet galvez galvfe galvfec'h galvfed galvfemp galvfen galvfent galvfes galvi galvimp galvin galvint galvis galvit galvje galvjec'h galvjed galvjemp galvjen galvjent galvjes galvjoc'h galvjod galvjomp galvjont galvjout galvo galvomp galvont galvor galvot gerwel kervel
 27	827	prevez	
 28	828	dilez	tilez zilez
 29	829	torfed	dorfed dorfedoù torfedoù zorfed zorfedoù
-30	830	moneiz	voneiz voneizioù
+30	830	moneiz	moneizoù voneiz voneizioù
 31	831	manati	manatioù vanati vanatioù
 32	832	itron	itronezed itroun
 33	833	ganedigezh	c'hanedigezh ganedigezhioù
@@ -45,9 +45,9 @@
 45	845	pesk	besked pesked
 46	846	brec'h	brec'hioù divrec'h vrec'h vrec'hioù zivrec'h
 47	847	evezh	
-48	848	hin	hinoù
+48	848	hin	hinioù hinoù
 49	849	metrad	metradoù vetrad vetradoù
-50	850	mennozh	vennozh
+50	850	mennozh	mennozhioù vennozh
 51	851	barrek	barrekañ barrekoc'h varrek varrekañ
 52	852	muioc'h-mui	
 53	853	verb	verboù
@@ -57,16 +57,16 @@
 57	857	plijadur	blijadur blijadurioù flijadur plijadurioù
 58	858	argant	
 59	859	feur	feurioù
-60	860	degouezhout	degouezhas degouezhe degouezhemp degouezhi degouezho tegouezhas tegouezhe tegouezhout zegouezhas zegouezhe zegouezho zegouezhout
+60	860	degouezhout	degouezhan degouezhas degouezhe degouezhec'h degouezhemp degouezhen degouezhent degouezhes degouezhet degouezhez degouezhfe degouezhfec'h degouezhfed degouezhfemp degouezhfen degouezhfent degouezhfes degouezhi degouezhimp degouezhin degouezhint degouezhis degouezhit degouezhje degouezhjec'h degouezhjed degouezhjemp degouezhjen degouezhjent degouezhjes degouezhjoc'h degouezhjod degouezhjomp degouezhjont degouezhjout degouezho degouezhomp degouezhont degouezhor degouezhot tegouezhas tegouezhe tegouezhent tegouezhjont tegouezhout zegouezhas zegouezhe zegouezhent zegouezhet zegouezho zegouezhont zegouezhout
 61	861	spagnoleg	
 62	862	surentez	
 63	863	reuz	reuzioù
 64	864	iliz-veur	ilizoù-meur
-65	865	kompagnunezh	c'hompagnunezh gompagnunezh
+65	865	kompagnunezh	c'hompagnunezh gompagnunezh kompagnunezhioù
 66	866	eontr	eontred
 67	867	dremm	dremmoù zremm
 68	868	alese	
-69	869	skolaj	skolajoù
+69	869	skolaj	skolajioù skolajoù
 70	870	ospital	ospitalioù
 71	871	tourist	dourist douristed douristez touristed
 72	872	bank	bankoù vank vankoù
@@ -77,24 +77,24 @@
 77	877	krenn	c'hrennañ grenn grennas grennañ grenno krennas krennañ krennet krennoc'h
 78	878	koulzad	c'houlzad c'houlzadoù goulzad koulzadoù
 79	879	evn	evned
-80	880	traoñienn	draonienn draoñienn traonienn traoñiennoù zraoñienn
-81	881	straed	
+80	880	traoñienn	draonienn draoñienn traonienn traoniennoù traoñiennoù zraoñienn
+81	881	straed	straedoù
 82	882	gouenn	c'houenn c'houennoù gouennoù ouenn ouennoù
 83	883	glav	c'hlav c'hlaveier glaveier glavioù klaw
 84	884	gwrizienn	c'hwrizienn gwriziennoù gwrizioù wrizienn wriziennoù wrizioù
-85	885	houarn	
+85	885	houarn	houarnioù
 86	886	aze	
-87	887	plijout	blijout
+87	887	plijout	blij blijas blije blijet blijfe blijo blijout plij plijan plijas plije plijec'h plijemp plijen plijent plijes plijet plijez plijfe plijfec'h plijfed plijfemp plijfen plijfent plijfes pliji plijimp plijin plijint plijis plijit plijje plijjec'h plijjed plijjemp plijjen plijjent plijjes plijjoc'h plijjod plijjomp plijjont plijjout plijo plijomp plijont plijor plijot
 88	888	dle	dleoù tle zle zleoù
-89	889	urzhiataer	urzhiataerez urzhiataerezioù urzhiataerioù
+89	889	urzhiataer	urzhiataerez urzhiataerezioù urzhiataerioù urzhiataeroù
 90	890	kalet	galet galetañ kaled kaletañ kaletoc'h
 91	891	skiantour	skiantourez skiantourien skiantourion
-92	892	tostaat	dosta dostaas dostaat dostae dostai tosta tostaas tostae tostafe tostai tostais tostait zostaat
+92	892	tostaat	dosta dostaas dostaat dostae dostai dostajont dostaont tosta tostaan tostaas tostae tostaec'h tostaemp tostaen tostaent tostaes tostaet tostaez tostafe tostafec'h tostafed tostafemp tostafen tostafent tostafes tostai tostaimp tostain tostaint tostais tostait tostaje tostajec'h tostajed tostajemp tostajen tostajent tostajes tostajoc'h tostajod tostajomp tostajont tostajout tostao tostaomp tostaont tostaor tostaot zostaat
 93	893	kemenn	c'hemenn c'hemenne c'hemennoù gemenn gemennas gemenne gemennoù kemennan kemennas kemenne kemennec'h kemenned kemennemp kemennen kemennent kemenner kemennes kemennet kemennez kemennfe kemennfec'h kemennfed kemennfemp kemennfen kemennfent kemennfes kemenni kemennimp kemennin kemennint kemennis kemennit kemenniñ kemennje kemennjec'h kemennjed kemennjemp kemennjen kemennjent kemennjes kemennjoc'h kemennjod kemennjomp kemennjont kemennjout kemenno kemennomp kemennont kemennor kemennot kemennoù
 94	894	oabl	oablenn
 95	895	genoù	c'henoù genaouioù
-96	896	kouezhañ	gouezhañ kouezañ
+96	896	kouezhañ	gouezh gouezhas gouezhañ gouezhe gouezhfe gouezhjont gouezho gouezhont kouezañ kouezh kouezhan kouezhas kouezhe kouezhec'h kouezhemp kouezhen kouezhent kouezhes kouezhet kouezhez kouezhfe kouezhfec'h kouezhfed kouezhfemp kouezhfen kouezhfent kouezhfes kouezhi kouezhimp kouezhin kouezhint kouezhis kouezhit kouezhje kouezhjec'h kouezhjed kouezhjemp kouezhjen kouezhjent kouezhjes kouezhjoc'h kouezhjod kouezhjomp kouezhjont kouezhjout kouezho kouezhomp kouezhont kouezhor kouezhot
 97	897	kembraeg	c'hembraeg gembraeg
-98	898	gwiskañ	gwiskfe gwiskfec'h gwiskfed gwiskfen gwiskfent gwiskfes gwiskis gwiskiñ gwiskje gwiskjed gwiskjen gwiskjent gwiskjes gwiskjont gwiskjout gwiskor kwiskañ wiskas wiskañ wiske wiskent wisko wiskont
+98	898	gwiskañ	gwiskan gwiskas gwiske gwiskec'h gwiskemp gwisken gwiskent gwiskes gwiskez gwiskfe gwiskfec'h gwiskfed gwiskfemp gwiskfen gwiskfent gwiskfes gwiski gwiskimp gwiskin gwiskint gwiskis gwiskit gwiskiñ gwiskje gwiskjec'h gwiskjed gwiskjemp gwiskjen gwiskjent gwiskjes gwiskjoc'h gwiskjod gwiskjomp gwiskjont gwiskjout gwisko gwiskomp gwiskont gwiskor gwiskot kwiskañ wiskas wiskañ wiske wiskent wisko wiskont
 99	899	ti-embann	di-embann diez-embann tier-embann tiez-embann zi-embann
 100	900	sal	salioù

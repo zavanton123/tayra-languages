@@ -1,100 +1,100 @@
-1	2201	pianoour	bianoourez pianoourez pianoourien
-2	2202	riezad	riezadoù
-3	2203	gwalc'h	walc'h
-4	2204	floc'h	floc'hed
-5	2205	serb	serbed
-6	2206	tañva	dañva
-7	2207	treut	dreut treutoc'h
-8	2208	bac'hañ	bac'her bac'hiañ bac'hiñ pac'hañ vac'hañ
-9	2209	boutailh	boutailhoù voutailh
-10	2210	krank	c'hrank c'hranked kranked
-11	2211	sankañ	sank sankiñ sanko
-12	2212	dantañ	dantan dante dantes dantis tante zantañ
-13	2213	azeuldi	azeuldioù
-14	2214	boutailhad	boutailhadoù voutailhad voutailhadoù
-15	2215	boned	bonedoù foned
-16	2216	lestr-brezel	listri-brezel
-17	2217	lonker	lonkerez lonkerien
-18	2218	birviñ	bervet virviñ
-19	2219	bouc'hal	bouc'halioù bouc'hili vouc'hal
-20	2220	mengleuzier	mengleuzierien vengleuzierien
-21	2221	diskargañ	diskarg diskarget diskargiñ tiskargañ ziskargañ
-22	2222	gweledigezh	gweledigezhioù weledigezh weledigezhioù
-23	2223	gloazadenn	c'hloazadenn c'hloazadennoù gloazadennoù
-24	2224	kantreer	gantreer gantreerien kantreerien
-25	2225	gwastell	gwastilli gwestell wastell
-26	2226	c'hwezhañ	c'hwezhe c'hwezhiñ
-27	2227	soubenn	soubennoù
-28	2228	ec'hon	
-29	2229	prestañ	brestañ frestañ prestas prestet prestiñ presto
-30	2230	kanadian	c'hanadian ganadian ganadianez
-31	2231	koroll	c'horoll gorolloù korolloù
-32	2232	kaouenn	c'haouenned gaouenn kaouenned
-33	2233	kounnar	c'hounnar gounnar
-34	2234	rodal	rodas rode roden rodent roder rodes rodet rodez rodi rodin rodis rodit rodo rodor
-35	2235	hopal	hop hopañ hope hopiñ
-36	2236	tibetat	dibetaned tibetan tibetaned tibetiz
-37	2237	a-zevri	
-38	2238	da-gaout	
-39	2239	digablus	
-40	2240	finneg	
-41	2241	oksigen	
-42	2242	pemzektez	
-43	2243	sac'hañ	sac'het sac'hiñ
-44	2244	splujañ	splujiñ
-45	2245	dol	
-46	2246	dregantad	
-47	2247	e-ser	
-48	2248	hidrogen	
-49	2249	roc'hellek	
-50	2250	aberzhañ	aberzhiñ
-51	2251	feuket	
-52	2252	skinoberiek	
-53	2253	aluzen	aluzon
-54	2254	druzoni	zruzoni
-55	2255	ger-mell	gerioù-mell
-56	2256	hiraat	hira hirae
-57	2257	sabrenn	sabrennoù
-58	2258	besroue	vesrouanez vesroue
-59	2259	kroaziad	c'hroaziad groazidi kroazidi
-60	2260	estrañjour	estrañjourien
-61	2261	loupard	louparded
-62	2262	oadour	oadourien oadourion
-63	2263	trubarderezh	drubarderezh
-64	2264	frouezhus	frouezhusañ frouezhusoc'h
-65	2265	modernaat	vodernaat
-66	2266	trepas	drepas trepasoù
-67	2267	asied	asiedoù
-68	2268	gwaskañ	gwaskiñ kwaskañ waskañ
-69	2269	arc'hdug	arc'hduged arc'hdugez
-70	2270	kalvez	c'halvez gilvizien kilvizien
-71	2271	tevenn	tevennoù tevinier
-72	2272	tiern	dierned tierned
-73	2273	kiger	c'higer giger gigerien
-74	2274	krapañ	c'hrapañ grapat grapañ krapat kraper krapet krapiñ krapout
-75	2275	krez	c'hres c'hrez c'hrezioù rez
-76	2276	dar	daroù diri tar ziri
-77	2277	flastrañ	
-78	2278	israelat	
-79	2279	lealded	
-80	2280	ozhac'h	
-81	2281	peg	
-82	2282	renabliñ	
-83	2283	danat	
-84	2284	fiziout	
-85	2285	morzhol	
-86	2286	mouk	
-87	2287	pehini	
-88	2288	peotramant	
-89	2289	tornaod	
-90	2290	ezvezañs	
-91	2291	gouestlañ	gouestliñ
-92	2292	dizale	
-93	2293	pere	
-94	2294	arched	archedoù
-95	2295	druz	drusoc'h
-96	2296	lore	loreenn
-97	2297	mezv	vezv
-98	2298	rannbennad	rannbennadoù
-99	2299	displijus	displijusoc'h
-100	2300	maneg	manegoù vaneg
+1	2201	kren-douar	c'hren-douar c'hrenoù-douar krenoù-douar
+2	2202	dornlevr	dornlevrioù zornlevr zornlevrioù
+3	2203	foetañ	foet foetal foetan foetas foete foetec'h foetemp foeten foetent foeter foetes foetet foetez foetfe foetfec'h foetfed foetfemp foetfen foetfent foetfes foeti foetimp foetin foetint foetis foetit foetje foetjec'h foetjed foetjemp foetjen foetjent foetjes foetjoc'h foetjod foetjomp foetjont foetjout foeto foetomp foetont foetor foetot
+4	2204	rusk	ruskenn ruskennoù
+5	2205	buoc'h	buoc'henned vuoc'h
+6	2206	tager	dagerien tagerien zager
+7	2207	merc'h-vihan	verc'h-vihan
+8	2208	bouzellenn	bouzellennoù bouzelloù vouzellenn vouzelloù
+9	2209	kloz	c'hloz glos gloz
+10	2210	brientin	brientinien prientinion vrientinien
+11	2211	galaksienn	c'halaksienn galaksiennoù
+12	2212	gwiriekaat	gwirieka gwiriekaan gwiriekaas gwiriekae gwiriekaec'h gwiriekaemp gwiriekaen gwiriekaent gwiriekaes gwiriekaet gwiriekaez gwiriekafe gwiriekafec'h gwiriekafed gwiriekafemp gwiriekafen gwiriekafent gwiriekafes gwiriekai gwiriekaimp gwiriekain gwiriekaint gwiriekais gwiriekait gwiriekaje gwiriekajec'h gwiriekajed gwiriekajemp gwiriekajen gwiriekajent gwiriekajes gwiriekajoc'h gwiriekajod gwiriekajomp gwiriekajont gwiriekajout gwiriekao gwiriekaomp gwiriekaont gwiriekaor gwiriekaot wirieka wiriekaat
+13	2213	marilh	marilhoù varilh
+14	2214	anadiñ	anad anadan anadas anade anadec'h anademp anaden anadent anades anadet anadez anadfe anadfec'h anadfed anadfemp anadfen anadfent anadfes anadi anadimp anadin anadint anadis anadit anadje anadjec'h anadjed anadjemp anadjen anadjent anadjes anadjoc'h anadjod anadjomp anadjont anadjout anado anadomp anadont anador anadot
+15	2215	draen	drein trein zrein
+16	2216	marz	marzioù marzoù
+17	2217	neutron	neutronenn neutronennoù neutronoù
+18	2218	klañvdiourez	c'hlañvdiourezed glañvdiourez glañvdiourien klañvdiour klañvdiourezed klañvdiourien
+19	2219	goudor	goudorioù
+20	2220	merenn	verenn
+21	2221	ti-feurm	di-feurm
+22	2222	sol	solioù
+23	2223	korzenn	gorzenn korzennoù
+24	2224	dizolo	tizolo zizolo
+25	2225	benañ	benan benas bene benec'h benemp benen benent bener benes benet benez benfe benfec'h benfed benfemp benfen benfent benfes benimp benint benis benit beniñ benje benjec'h benjed benjemp benjen benjent benjes benjoc'h benjod benjomp benjont benjout beno benomp benont benor benot fenis penañ penes venañ veno
+26	2226	fulor	
+27	2227	bachelouriezh	vachelouriezh
+28	2228	he-unan	
+29	2229	yezh-vamm	
+30	2230	saoudat	
+31	2231	adembannadur	
+32	2232	breviñ	brevan brevas brevañ breve brevec'h brevemp breven brevent brever breves brevez brevfe brevfec'h brevfed brevfemp brevfen brevfent brevfes brevi breviañ brevimp brevin brevint brevis brevit brevje brevjec'h brevjed brevjemp brevjen brevjent brevjes brevjoc'h brevjod brevjomp brevjont brevjout brevo brevomp brevont brevor brevot brewiñ
+33	2233	pikol	fikol
+34	2234	blevek	vlevek
+35	2235	sonn	sonnoc'h
+36	2236	serjant	serjanted
+37	2237	reut	reutoc'h
+38	2238	muzik	muzikoù
+39	2239	nerzhus	nerzhusoc'h
+40	2240	prioldi	brioldi
+41	2241	sirk	sirkoù
+42	2242	ger-stur	c'her-stur gerioù-stur
+43	2243	kempred	gempred
+44	2244	morzhol	morzholioù
+45	2245	poanius	boanius poaniusañ
+46	2246	navvet	navet
+47	2247	glin	c'hlin daoulin glinoù taoulin
+48	2248	teltenn	deltenn teltennoù
+49	2249	danvez-pried	danvez-priedoù zanvez-pried
+50	2250	balum	balumed
+51	2251	koskor	c'hoskor goskor
+52	2252	flemmskrid	flemmskridoù
+53	2253	kurun	c'hurun c'hurunioù gurun kurunoù
+54	2254	skañvaat	skañva skañvaad skañvaan skañvaas skañvae skañvaec'h skañvaemp skañvaen skañvaent skañvaes skañvaet skañvaez skañvafe skañvafec'h skañvafed skañvafemp skañvafen skañvafent skañvafes skañvai skañvaimp skañvain skañvaint skañvais skañvait skañvaje skañvajec'h skañvajed skañvajemp skañvajen skañvajent skañvajes skañvajoc'h skañvajod skañvajomp skañvajont skañvajout skañvao skañvaomp skañvaont skañvaor skañvaot
+55	2255	skorneg	skornegi skornegoù
+56	2256	gwrac'h	gwrac'hed wrac'h
+57	2257	gwenodenn	gwenodennoù wenodenn wenodennoù
+58	2258	galleger	c'halleger c'hallegerien c'hallegerion gallegerez gallegerien
+59	2259	kantren	gantre gantreal gantren kantre kantreal kantreiñ kantrenan kantrenas kantrene kantrenec'h kantrenemp kantrenen kantrenent kantrenes kantrenet kantrenez kantrenfe kantrenfec'h kantrenfed kantrenfemp kantrenfen kantrenfent kantrenfes kantreni kantrenimp kantrenin kantrenint kantrenis kantrenit kantrenje kantrenjec'h kantrenjed kantrenjemp kantrenjen kantrenjent kantrenjes kantrenjoc'h kantrenjod kantrenjomp kantrenjont kantrenjout kantreno kantrenomp kantrenont kantrenor kantrenot
+60	2260	kalvar	c'halvar galvar kalvarioù
+61	2261	tagus	dagus tagusoc'h
+62	2262	ec'hon	ec'honoc'h
+63	2263	manifestiñ	manifest manifestan manifestas manifestañ manifeste manifestec'h manifestemp manifesten manifestent manifestes manifestet manifestez manifestfe manifestfec'h manifestfed manifestfemp manifestfen manifestfent manifestfes manifesti manifestimp manifestin manifestint manifestis manifestit manifestje manifestjec'h manifestjed manifestjemp manifestjen manifestjent manifestjes manifestjoc'h manifestjod manifestjomp manifestjont manifestjout manifestomp manifestont manifestor manifestot vanifestas vanifeste vanifestiñ
+64	2264	prestañ	brestañ frestañ prestas prestec'h prestemp prestet prestfe prestfec'h prestfed prestfemp prestfen prestfent prestfes prestimp prestin prestint prestiñ prestje prestjec'h prestjed prestjemp prestjen prestjent prestjes prestjoc'h prestjod prestjomp prestjont prestjout presto prestomp prestont prestot
+65	2265	diwaller	diwallerez diwallerezed diwallerien ziwaller
+66	2266	hopal	hop hopan hopas hopañ hope hopec'h hopemp hopen hopent hopes hopet hopez hopfe hopfec'h hopfed hopfemp hopfen hopfent hopfes hopi hopimp hopin hopint hopis hopit hopiñ hopje hopjec'h hopjed hopjemp hopjen hopjent hopjes hopjoc'h hopjod hopjomp hopjont hopjout hopo hopomp hopont hopor hopot
+67	2267	pellgargañ	bellgarg bellgargañ fellgargañ pellgarg pellgargan pellgargas pellgarge pellgargec'h pellgargemp pellgargen pellgargent pellgarges pellgarget pellgargez pellgargfe pellgargfec'h pellgargfed pellgargfemp pellgargfen pellgargfent pellgargfes pellgargi pellgargimp pellgargin pellgargint pellgargis pellgargit pellgargje pellgargjec'h pellgargjed pellgargjemp pellgargjen pellgargjent pellgargjes pellgargjoc'h pellgargjod pellgargjomp pellgargjont pellgargjout pellgargo pellgargomp pellgargont pellgargor pellgargot
+68	2268	deo	
+69	2269	drouziwezh	
+70	2270	gallaoueg	
+71	2271	ilin	
+72	2272	kichen-ha-kichen	
+73	2273	moraer	
+74	2274	war-sav	
+75	2275	a-unvouezh	
+76	2276	fealded	
+77	2277	peurunvan	
+78	2278	ruseg	
+79	2279	difiñv	
+80	2280	e-kerz	
+81	2281	liesliv	
+82	2282	mui-ouzh-mui	
+83	2283	naontek	
+84	2284	tintin	dintin
+85	2285	anken	ankenioù
+86	2286	louet	loued
+87	2287	olivez	olivezenn
+88	2288	didalvez	zidalvez
+89	2289	litrad	litradoù
+90	2290	wiski	wiskioù
+91	2291	muiañ-karet	vuiañ-karet
+92	2292	arkeologour	arkeologourien
+93	2293	divarrek	zivarrek
+94	2294	chaloni	chalonied
+95	2295	bri	brioù
+96	2296	marilhañ	marilhan marilhas marilhe marilhec'h marilhemp marilhen marilhent marilhes marilhet marilhez marilhfe marilhfec'h marilhfed marilhfemp marilhfen marilhfent marilhfes marilhi marilhimp marilhin marilhint marilhis marilhit marilhje marilhjec'h marilhjed marilhjemp marilhjen marilhjent marilhjes marilhjoc'h marilhjod marilhjomp marilhjont marilhjout marilho marilhomp marilhont marilhor marilhot
+97	2297	lezenniñ	lezennan lezennas lezenne lezennec'h lezennemp lezennen lezennent lezennes lezennet lezennez lezennfe lezennfec'h lezennfed lezennfemp lezennfen lezennfent lezennfes lezenni lezennimp lezennin lezennint lezennis lezennit lezennje lezennjec'h lezennjed lezennjemp lezennjen lezennjent lezennjes lezennjoc'h lezennjod lezennjomp lezennjont lezennjout lezenno lezennomp lezennont lezennor lezennot
+98	2298	kounnariñ	gounnariñ kounnaran kounnaras kounnare kounnarec'h kounnaremp kounnaren kounnarent kounnares kounnaret kounnarez kounnarfe kounnarfec'h kounnarfed kounnarfemp kounnarfen kounnarfent kounnarfes kounnari kounnarimp kounnarin kounnarint kounnaris kounnarit kounnarje kounnarjec'h kounnarjed kounnarjemp kounnarjen kounnarjent kounnarjes kounnarjoc'h kounnarjod kounnarjomp kounnarjont kounnarjout kounnaro kounnaromp kounnaront kounnaror kounnarot
+99	2299	leviañ	levi levian levias levie leviec'h leviemp levien levient levies leviet leviez levife levifec'h levifed levifemp levifen levifent levifes levii leviimp leviin leviint leviis leviit levije levijec'h levijed levijemp levijen levijent levijes levijoc'h levijod levijomp levijont levijout levio leviomp leviont levior leviot
+100	2300	pianoour	bianoourez pianoourez pianoourien

@@ -1,21 +1,21 @@
-1	201	dimeziñ	dimezas dimeze dimezez dimezfe dimezi dimezin dimezioù dimezo timezas timeze timezin timeziñ timezo zimezas zimeze zimezfe zimeziñ zimezo
-2	202	stourm	stourmal stourmañ stourme stourmiñ stourmo stourmoù
+1	201	dimeziñ	dimezan dimezas dimeze dimezec'h dimezemp dimezen dimezent dimezes dimezet dimezez dimezfe dimezfec'h dimezfed dimezfemp dimezfen dimezfent dimezfes dimezi dimezimp dimezin dimezint dimezioù dimezis dimezit dimezje dimezjec'h dimezjed dimezjemp dimezjen dimezjent dimezjes dimezjoc'h dimezjod dimezjomp dimezjont dimezjout dimezo dimezomp dimezont dimezor dimezot timezas timeze timezent timezin timeziñ timezje timezo zimezas zimeze zimezent zimezet zimezfe zimeziñ zimezje zimezjont zimezo
+2	202	stourm	stourmal stourman stourmas stourmañ stourme stourmec'h stourmemp stourmen stourment stourmes stourmet stourmez stourmfe stourmfec'h stourmfed stourmfemp stourmfen stourmfent stourmfes stourmi stourmimp stourmin stourmint stourmis stourmit stourmiñ stourmje stourmjec'h stourmjed stourmjemp stourmjen stourmjent stourmjes stourmjoc'h stourmjod stourmjomp stourmjont stourmjout stourmo stourmomp stourmont stourmor stourmot stourmoù
 3	203	enez	inizi
 4	204	maouez	maouezed maouezi vaouez vaouezed vaouezi
 5	205	bennak	bennag bennaket
 6	206	diwezhañ	ziwezhañ
-7	207	kreskiñ	c'hresk c'hreskiñ gresk greskas greskiñ gresko kresk kreskas kresket kreski kreskis kresko
+7	207	kreskiñ	c'hresk c'hreskiñ gresk greskas greske greskfe greskiñ gresko greskont kresk kreskan kreskas kreske kreskec'h kreskemp kresken kreskent kreskes kresket kreskez kreskfe kreskfec'h kreskfed kreskfemp kreskfen kreskfent kreskfes kreski kreskimp kreskin kreskint kreskis kreskit kreskje kreskjec'h kreskjed kreskjemp kreskjen kreskjent kreskjes kreskjoc'h kreskjod kreskjomp kreskjont kreskjout kresko kreskomp kreskont kreskor kreskot
 8	208	setu	
-9	209	koll	c'holl c'holloù goll gollas goller gollet golljont gollo gollont kollan kollas kolle kollec'h kolled kollemp kollen kollent koller kolles kollet kollez kollfe kollfec'h kollfed kollfemp kollfen kollfent kollfes kolli kollimp kollin kollint kollis kollit kollje kolljec'h kolljed kolljemp kolljen kolljent kolljes kolljoc'h kolljod kolljomp kolljont kolljout kollo kolloc'h kollomp kollont kollor kollot kolloù
+9	209	koll	c'holl c'holloù goll gollas goller gollet golljont gollo gollont kollan kollas kolle kollec'h kolled kollemp kollen kollent koller kolles kollet kollez kollfe kollfec'h kollfed kollfemp kollfen kollfent kollfes kolli kollimp kollin kollint kollioù kollis kollit kollje kolljec'h kolljed kolljemp kolljen kolljent kolljes kolljoc'h kolljod kolljomp kolljont kolljout kollo kolloc'h kollomp kollont kollor kollot kolloù
 10	210	kuit	
-11	211	difenn	difennet difenniñ difennoù tifenn zifenn zifennoù
+11	211	difenn	difennan difennas difenne difennec'h difennemp difennen difennent difennes difennet difennez difennfe difennfec'h difennfed difennfemp difennfen difennfent difennfes difenni difennimp difennin difennint difennioù difennis difennit difenniñ difennje difennjec'h difennjed difennjemp difennjen difennjent difennjes difennjoc'h difennjod difennjomp difennjont difennjout difenno difennomp difennont difennor difennot difennoù tifenn tifennas tifenne tifennont zifenn zifennas zifenne zifennoù
 12	212	get	genin genoc'h gete geti getoñ
 13	213	e-touez	
 14	214	muioc'h	vuioc'h
 15	215	rouantelezh	rouantelezhioù
 16	216	korf	c'horf c'horfoù gorf gorfoù korfoù
-17	217	dour	doureier dourioù zour
-18	218	sant	santes santez santezed sent
+17	217	dour	doureier dourioù douroù zour
+18	218	sant	santes santez santezed santoù sent
 19	219	hepken	
 20	220	politikel	bolitikel politikeloc'h
 21	221	pried	bried briedoù fried friedoù priedoù
@@ -25,31 +25,31 @@
 25	225	krediñ	c'hred c'hrede c'hreded c'hrediñ c'hredo gred gredan gredas grede greded gredent greder gredfent gredin grediñ gredjont gredo gredont kred kredan kredas krede kredec'h kreded kredemp kreden kredent kreder kredes kredet kredez kredfe kredfec'h kredfed kredfemp kredfen kredfent kredfes kredi kredimp kredin kredint kredis kredit kredje kredjec'h kredjed kredjemp kredjen kredjent kredjes kredjoc'h kredjod kredjomp kredjont kredjout kredo kredoc'h kredomp kredont kredor kredot kredout
 26	226	pal	bal fal falioù fili palioù val
 27	227	urzh	urzhioù
-28	228	gwerzhañ	gwerzh gwerzhan gwerzhas gwerzhe gwerzhec'h gwerzhed gwerzhemp gwerzhen gwerzhent gwerzher gwerzherez gwerzherien gwerzhes gwerzhet gwerzhez gwerzhfe gwerzhfec'h gwerzhfed gwerzhfemp gwerzhfen gwerzhfent gwerzhfes gwerzhfont gwerzhi gwerzhimp gwerzhin gwerzhint gwerzhioù gwerzhis gwerzhit gwerzhje gwerzhjec'h gwerzhjed gwerzhjemp gwerzhjen gwerzhjent gwerzhjes gwerzhjoc'h gwerzhjod gwerzhjomp gwerzhjont gwerzhjout gwerzho gwerzhoc'h gwerzhomp gwerzhont gwerzhor gwerzhot gwerzhour kwerzhañ werzh werzhas werzhañ werzhe werzhent werzherez werzherien werzhet werzhfe werzhioù werzhont
+28	228	gwerzhañ	gwerzh gwerzhan gwerzhas gwerzhe gwerzhec'h gwerzhed gwerzhemp gwerzhen gwerzhent gwerzher gwerzherez gwerzherien gwerzhes gwerzhet gwerzhez gwerzhfe gwerzhfec'h gwerzhfed gwerzhfemp gwerzhfen gwerzhfent gwerzhfes gwerzhfont gwerzhi gwerzhimp gwerzhin gwerzhint gwerzhioù gwerzhis gwerzhit gwerzhje gwerzhjec'h gwerzhjed gwerzhjemp gwerzhjen gwerzhjent gwerzhjes gwerzhjoc'h gwerzhjod gwerzhjomp gwerzhjont gwerzhjout gwerzho gwerzhoc'h gwerzhomp gwerzhont gwerzhor gwerzhot gwerzhour gwerzhoù kwerzhañ werzh werzhas werzhañ werzhe werzhent werzherez werzherien werzhet werzhfe werzhioù werzhont
 29	229	milion	milionoù vilion vilionoù
 30	230	pennad	bennad bennadoù fennad fennadoù pennadoù vennad vennadoù
-31	231	familh	familhoù
+31	231	familh	familhioù familhoù
 32	232	gwreg	gwragez wragez wreg
-33	233	distreiñ	distroas distroiñ distroje distrojed distrojemp distrojen distrojent distrojes distrojout tistreiñ tistroas tistroe tistrofe tistrofent tistroio tistroje tistroont zistreiñ zistroas zistroe zistroio zistroje zistroont zistroot
-34	234	studiañ	studial studias studie studier studies studiet studiis studiiñ studio studior
+33	233	distreiñ	distroas distroec'h distroet distrofec'h distroiñ distroje distrojec'h distrojed distrojemp distrojen distrojent distrojes distrojoc'h distrojod distrojomp distrojont distrojout distroo tistreiñ tistroas tistroe tistrofe tistrofent tistroio tistroje tistrojont tistroont zistreiñ zistroas zistroe zistroio zistroje zistrojont zistroo zistroont zistroot
+34	234	studiañ	studial studian studias studie studiec'h studiemp studien studient studier studies studiet studiez studife studifec'h studifed studifemp studifen studifent studifes studii studiimp studiin studiint studiis studiit studiiñ studije studijec'h studijed studijemp studijen studijent studijes studijoc'h studijod studijomp studijont studijout studio studiomp studiont studior studiot
 35	235	digant	diganin diganit digantañ digante diganti diganto
-36	236	gounit	c'hounez c'houneze c'hounezer c'hounezet c'hounezo c'hounezont c'hounit gounez gounezan gouneze gounezer gounezet gounezez gounezi gounezimp gounezin gounezint gounezit gounezo gounezoc'h gounezomp gounezont gounezor gounezot
-37	237	embann	embannañ embanniñ embannoù
+36	236	gounit	c'hounez c'houneze c'hounezer c'hounezet c'hounezo c'hounezont c'hounit gounez gounezan gouneze gounezer gounezet gounezez gounezi gounezimp gounezin gounezint gounezit gounezo gounezoc'h gounezomp gounezont gounezor gounezot gounitan gounitas gounite gounitec'h gounitemp gouniten gounitent gounites gounitet gounitez gounitfe gounitfec'h gounitfed gounitfemp gounitfen gounitfent gounitfes gouniti gounitimp gounitin gounitint gounitis gounitit gounitje gounitjec'h gounitjed gounitjemp gounitjen gounitjent gounitjes gounitjoc'h gounitjod gounitjomp gounitjont gounitjout gounito gounitomp gounitont gounitor gounitot
+37	237	embann	embannan embannas embannañ embanne embannec'h embannemp embannen embannent embannes embannet embannez embannfe embannfec'h embannfed embannfemp embannfen embannfent embannfes embanni embannimp embannin embannint embannis embannit embanniñ embannje embannjec'h embannjed embannjemp embannjen embannjent embannjes embannjoc'h embannjod embannjomp embannjont embannjout embanno embannomp embannont embannor embannot embannoù
 38	238	miret	mir miras mires mirit miriñ miro mirout viran viras vire virent virer viret virfe virin virje virjont viro viront virout
-39	239	seniñ	soner sonerez sonerien sonerion
-40	240	kastell	c'hastell c'hastelloù c'hastilli c'hestell gastell gastilli kastelloù kastilli kestell kistilli
+39	239	seniñ	sen senan senas sene senec'h senemp senen senent senes senet senez senfe senfec'h senfed senfemp senfen senfent senfes seni senimp senin senint senis senit senje senjec'h senjed senjemp senjen senjent senjes senjoc'h senjod senjomp senjont senjout seno senomp senont senor senot soner sonerez sonerien sonerion sonerioù
+40	240	kastell	c'hastell c'hastelloù c'hastilli c'hestell gastell gastilli kastellioù kastelloù kastilli kestell kistilli
 41	241	koulskoude	goulskoude
 42	242	hent	hentoù
 43	243	hir	hirañ hiroc'h
 44	244	annezad	annezidi
 45	245	lezenn	lezennoù
 46	246	paotr	baotr baotred faotr paotred
-47	247	tiegezh	diegezh diegezhioù tiegezhioù ziegezh
+47	247	tiegezh	diegezh diegezhioù tiegezhioù tiegezhoù ziegezh
 48	248	skrivagner	skrivagnerez skrivagnerezed skrivagnerien skrivagnerion skrivagnour
 49	249	kent	gent
 50	250	kornôg	c'hornaoueg c'hornôg gornaoueg gornôg kornaoueg
 51	251	buan	buanañ buanoc'h vuan vuanoc'h
-52	252	trec'h	drec'h zrec'h
+52	252	trec'h	drec'h trec'hioù trec'hoù zrec'h
 53	253	arc'hant	
 54	254	le	leoù
 55	255	ya	
@@ -60,7 +60,7 @@
 60	260	dug	duged dugez zug zuged zugez
 61	261	peogwir	
 62	262	kreiz	c'hreiz greis greiz kreis
-63	263	c'hoarvezout	c'hoarvez c'hoarvezas c'hoarveze c'hoarvezet c'hoarvezfe c'hoarvezje c'hoarvezo c'hoarvout
+63	263	c'hoarvezout	c'hoarvez c'hoarvezan c'hoarvezas c'hoarveze c'hoarvezec'h c'hoarvezemp c'hoarvezen c'hoarvezent c'hoarvezes c'hoarvezet c'hoarvezez c'hoarvezfe c'hoarvezfec'h c'hoarvezfed c'hoarvezfemp c'hoarvezfen c'hoarvezfent c'hoarvezfes c'hoarvezi c'hoarvezimp c'hoarvezin c'hoarvezint c'hoarvezis c'hoarvezit c'hoarvezje c'hoarvezjec'h c'hoarvezjed c'hoarvezjemp c'hoarvezjen c'hoarvezjent c'hoarvezjes c'hoarvezjoc'h c'hoarvezjod c'hoarvezjomp c'hoarvezjont c'hoarvezjout c'hoarvezo c'hoarvezomp c'hoarvezont c'hoarvezor c'hoarvezot c'hoarvout
 64	264	par	bar bared barez barezed far farez farezed pared parez parezed
 65	265	alaman	alamaned
 66	266	abeg	abegoù
@@ -68,10 +68,10 @@
 68	268	pemp	bemp femp
 69	269	reter	
 70	270	doue	doueoù zoue zoueoù
-71	271	padout	bad badas bade badet badfe badiñ badje bado badout fade fadet fado pad padan padas pade paden pader pades padet padez padfe padi padiñ padje pado padot vader vado
+71	271	padout	bad badas bade badent badet badfe badiñ badje bado badont badout fade fadet fado pad padan padas pade padec'h pademp paden padent pader pades padet padez padfe padfec'h padfed padfemp padfen padfent padfes padi padimp padin padint padis padit padiñ padje padjec'h padjed padjemp padjen padjent padjes padjoc'h padjod padjomp padjont padjout pado padomp padont pador padot vader vado
 72	272	devezh	devezhioù zevezh zevezhioù
-73	273	kinnig	c'hinnig c'hinnige c'hinnigoù ginnig ginnigas ginnige ginnigoù kinnigas kinnige kinnigis kinnigoù
-74	274	liv	livioù
+73	273	kinnig	c'hinnig c'hinnige c'hinniget c'hinnigoù ginnig ginnigas ginnige ginniget ginnigfe ginnigont ginnigoù kinnigan kinnigas kinnige kinnigec'h kinnigemp kinnigen kinnigent kinniges kinniget kinnigez kinnigfe kinnigfec'h kinnigfed kinnigfemp kinnigfen kinnigfent kinnigfes kinnigi kinnigimp kinnigin kinnigint kinnigis kinnigit kinnigje kinnigjec'h kinnigjed kinnigjemp kinnigjen kinnigjent kinnigjes kinnigjoc'h kinnigjod kinnigjomp kinnigjont kinnigjout kinnigo kinnigomp kinnigont kinnigor kinnigot kinnigoù
+74	274	liv	livioù livoù
 75	275	danvez	danvezioù zanvez zanvezioù
 76	276	galleg	c'halleg
 77	277	sellet	sellas selle selled sellen sellent seller sellfe sellit selliñ sellomp sellont sellout
@@ -91,7 +91,7 @@
 91	291	arz	arzoù
 92	292	dirak	dirakañ dirake diraki dirazañ dirazi dirazo dirazomp dirazon
 93	293	fall	fallañ falloc'h gwashañ gwashoc'h washañ
-94	294	gwenn	c'hwennat gwennoc'h gwennoù wenn wennañ
+94	294	gwenn	c'hwennat c'hwennet gwennet gwennoc'h gwennoù wenn wennañ
 95	295	kelaouenn	c'helaouenn c'helaouennoù gelaouenn gelaouennoù kelaouennoù
 96	296	e-unan	
 97	297	koulz	c'houlz goulz

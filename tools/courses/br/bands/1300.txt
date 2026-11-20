@@ -1,100 +1,100 @@
-1	1201	dañjer	dañjerioù dañjeroù
-2	1202	ene	eneoù eneñv
-3	1203	pellaat	bella bellaat fella fellaat pella pellaad pellafe pellai pellain pellais pellait
-4	1204	askell	divaskell eskell zivaskell
-5	1205	person	berson bersoned ferson
-6	1206	bennozh	bennozhioù vennozhioù
-7	1207	aergelc'h	aergelc'hioù
-8	1208	dañjerus	dañjerusañ dañjerusoc'h zañjerus zañjerusoc'h
-9	1209	amezek	
-10	1210	faltazi	
-11	1211	laezh	
-12	1212	repu	
-13	1213	kristeniezh	gristeniezh
-14	1214	erc'h	
-15	1215	gleb	c'hleb glepañ glepoc'h
-16	1216	gaou	c'haou gevier
-17	1217	kempenn	c'hempenn gempenn kempennat kempennañ kempennoc'h kempennoù
-18	1218	peuriñ	beure beuriñ feurer feuriñ peuras peurat peurañ peure peuren peurent peurer peures peurez peuri peurioù peuro peuront peurot veure
-19	1219	votiñ	votañ
-20	1220	addimeziñ	addimezet
-21	1221	matezh	mitizhien vatezh vitizhien
-22	1222	touiñ	dou douent douiñ tou touas touañ toue touen touent touer toues touet toufen toui touis touit touje toujen touo zoues zouje
-23	1223	arabeg	
-24	1224	hêrezh	
-25	1225	eñvor	eñvorioù
-26	1226	rumm	rummoù
-27	1227	plaen	plaenoc'h
-28	1228	bedel	pedel vedel
-29	1229	talvoudus	dalvoudus talvoudusañ talvoudusoc'h
-30	1230	silabenn	silabennoù
-31	1231	katalaneg	c'hatalaneg
-32	1232	aneval	anevaled
-33	1233	hent-houarn	hentoù-houarn
-34	1234	gourc'hemenn	c'hourc'hemenn c'hourc'hemennas c'hourc'hemennoù gourc'hemennas gourc'hemennañ gourc'hemenniñ gourc'hemennoù kourc'hemenn
-35	1235	sentiñ	sentan sentas sente sentec'h sented sentemp senten sentent senter sentes sentet sentez sentfe sentfec'h sentfed sentfemp sentfen sentfent sentfes senti sentimp sentin sentint sentis sentit sentje sentjec'h sentjed sentjemp sentjen sentjent sentjes sentjoc'h sentjod sentjomp sentjont sentjout sento sentoc'h sentomp sentont sentor sentot
-36	1236	bourc'hiz	bourc'hizien vourc'hiz vourc'hizez vourc'hizien vourc'hizion
-37	1237	a-gleiz	
-38	1238	loar	
-39	1239	paol	baol
-40	1240	lein	leinoù
-41	1241	diaoul	diaouled diaoulez diaoulien diaouloù ziaoul
-42	1242	moullañ	moulañ voulañ voullañ
-43	1243	arvest	arvestoù
-44	1244	pedenn	bedenn bedennoù fedenn fedennoù pedennoù
-45	1245	'z	az
-46	1246	oferenn	oferennoù
-47	1247	krign-bev	c'hrign-bev c'hrignoù-bev grign-bev grignoù-bev krignoù-bev
-48	1248	distagañ	distagiñ distago tistagas tistagañ zistagas zistagañ zistago
-49	1249	iwerzhoneg	
-50	1250	sinaat	
-51	1251	hanter-kant	
-52	1252	chaseal	chaseiñ
-53	1253	homañ	
-54	1254	padus	badus
-55	1255	pour	bour four vour
-56	1256	bazh	bizhier pazh vazh
-57	1257	koant	c'hoantañ goant goantañ koantañ koantoc'h
-58	1258	gwarez	warez
-59	1259	gwiskad	gwiskadoù wiskad
-60	1260	karr-tan	c'harr-tan c'hirri-tan garr-tan girri-tan kirri-tan
-61	1261	dous	dousoc'h dousoù tous zous
-62	1262	arem	
-63	1263	dudi	tudi zudi
-64	1264	speredek	speredekañ speredekoc'h
-65	1265	bleunienn	bleunioù vleunienn vleunioù
-66	1266	pounner	bounner bounnerañ pounnerañ pounneroc'h
-67	1267	drouiz	drouized drouizez zrouiz
-68	1268	roz	ros rozenn
-69	1269	diwezhat	ziwezhat
-70	1270	pesketaer	besketaer besketaerien besketaerion pesketaerien
-71	1271	davet	davedout davetañ daveti daveto
-72	1272	arnevez	
-73	1273	frañsez	frañsizien
-74	1274	galv	c'halv galvoù
-75	1275	bezañs	vezañs
-76	1276	tev	tevañ tevoc'h zev
-77	1277	gwiad	gwiadoù
-78	1278	sorser	sorserez sorserien
-79	1279	poz	pozioù
-80	1280	teal	deal dean deer dei tean teas tee teec'h teed teemp teen teent teer tees teet teez tefes tei teimp tein teint teit teo teoc'h teomp teont teor teot zeal zean zeas zee zeit
-81	1281	tezenn	dezenn dezennoù tezennoù zezenn zezennoù
-82	1282	a-ratozh	
-83	1283	skiant-faltazi	
-84	1284	awen	
-85	1285	fentus	fentusoc'h
-86	1286	poblek	boblek
-87	1287	skeul	skeulioù
-88	1288	trizek	drizek zrizek
-89	1289	profañ	brofañ brofit frofañ profan profet profit profiñ
-90	1290	tamall	damall damalloù tamallout tamalloù zamall zamalloù
-91	1291	goap	c'hoap
-92	1292	fiziañs	
-93	1293	led	
-94	1294	chañs	chañsoù
-95	1295	geot	c'heot c'heotenn geotenn geotennoù
-96	1296	aber	aberioù
-97	1297	troc'h	droc'h troc'hoù
-98	1298	diaester	diaesterioù ziaester ziaesterioù
-99	1299	laer	laerez laeron
-100	1300	gwareg	gwaregoù wareg waregoù
+1	1201	diwezhat	diwezhatoc'h ziwezhat
+2	1202	ijinañ	ijinan ijinas ijine ijinec'h ijinemp ijinen ijinent ijines ijinet ijinez ijinfe ijinfec'h ijinfed ijinfemp ijinfen ijinfent ijinfes ijini ijinimp ijinin ijinint ijinis ijinit ijinje ijinjec'h ijinjed ijinjemp ijinjen ijinjent ijinjes ijinjoc'h ijinjod ijinjomp ijinjont ijinjout ijino ijinomp ijinont ijinor ijinot
+3	1203	rediañ	redian redias redie rediec'h rediemp redien redient redies rediet rediez redife redifec'h redifed redifemp redifen redifent redifes redii rediimp rediin rediint rediis rediit redije redijec'h redijed redijemp redijen redijent redijes redijoc'h redijod redijomp redijont redijout redio rediomp rediont redior rediot
+4	1204	dizoleiñ	dizoloan dizoloas dizoloe dizoloec'h dizoloemp dizoloen dizoloent dizoloes dizoloet dizoloez dizolofe dizolofec'h dizolofed dizolofemp dizolofen dizolofent dizolofes dizoloi dizoloimp dizoloin dizoloint dizolois dizoloit dizoloje dizolojec'h dizolojed dizolojemp dizolojen dizolojent dizolojes dizolojoc'h dizolojod dizolojomp dizolojont dizolojout dizoloo dizoloomp dizoloont dizoloor dizoloot tizoleiñ tizoloas tizoloe tizolojont tizoloont zizoleiñ zizoloas zizoloent zizoloet
+5	1205	tamall	damall damallas damalle damallo damalloù tamallan tamallas tamalle tamallec'h tamallemp tamallen tamallent tamalles tamallet tamallez tamallfe tamallfec'h tamallfed tamallfemp tamallfen tamallfent tamallfes tamalli tamallimp tamallin tamallint tamallis tamallit tamallje tamalljec'h tamalljed tamalljemp tamalljen tamalljent tamalljes tamalljoc'h tamalljod tamalljomp tamalljont tamalljout tamallo tamallomp tamallont tamallor tamallot tamallout tamalloù zamall zamalle zamalloù
+6	1206	moullañ	moulañ moulet moull moullan moullas moulle moullec'h moullemp moullen moullent moulles moullet moullez moullfe moullfec'h moullfed moullfemp moullfen moullfent moullfes moulli moullimp moullin moullint moullis moullit moullje moulljec'h moulljed moulljemp moulljen moulljent moulljes moulljoc'h moulljod moulljomp moulljont moulljout moullo moullomp moullont moullor moullot voul voulas voulañ voulet voullas voullañ
+7	1207	gouestlañ	c'houestle gouestl gouestlan gouestlas gouestle gouestlec'h gouestlemp gouestlen gouestlent gouestles gouestlet gouestlez gouestlfe gouestlfec'h gouestlfed gouestlfemp gouestlfen gouestlfent gouestlfes gouestli gouestlimp gouestlin gouestlint gouestlis gouestlit gouestliñ gouestlje gouestljec'h gouestljed gouestljemp gouestljen gouestljent gouestljes gouestljoc'h gouestljod gouestljomp gouestljont gouestljout gouestlo gouestlomp gouestlont gouestlor gouestlot
+8	1208	awenañ	awenan awenas awene awenec'h awenemp awenen awenent awenes awenet awenez awenfe awenfec'h awenfed awenfemp awenfen awenfent awenfes aweni awenimp awenin awenint awenis awenit aweniñ awenje awenjec'h awenjed awenjemp awenjen awenjent awenjes awenjoc'h awenjod awenjomp awenjont awenjout aweno awenomp awenont awenor awenot
+9	1209	lec'hiañ	lec'hian lec'hias lec'hie lec'hiec'h lec'hiemp lec'hien lec'hient lec'hies lec'hiet lec'hiez lec'hife lec'hifec'h lec'hifed lec'hifemp lec'hifen lec'hifent lec'hifes lec'hii lec'hiimp lec'hiin lec'hiint lec'hiis lec'hiit lec'hije lec'hijec'h lec'hijed lec'hijemp lec'hijen lec'hijent lec'hijes lec'hijoc'h lec'hijod lec'hijomp lec'hijont lec'hijout lec'hio lec'hiomp lec'hiont lec'hior lec'hiot lec'hiñ
+10	1210	distagañ	distagan distagas distage distagec'h distagemp distagen distagent distages distaget distagez distagfe distagfec'h distagfed distagfemp distagfen distagfent distagfes distagi distagimp distagin distagint distagis distagit distagiñ distagje distagjec'h distagjed distagjemp distagjen distagjent distagjes distagjoc'h distagjod distagjomp distagjont distagjout distago distagomp distagont distagor distagot tistagas tistagañ zistagas zistagañ zistagfe zistago
+11	1211	enoriñ	enoran enoras enorañ enore enorec'h enoremp enoren enorent enores enoret enorez enorfe enorfec'h enorfed enorfemp enorfen enorfent enorfes enori enorimp enorin enorint enoris enorit enorje enorjec'h enorjed enorjemp enorjen enorjent enorjes enorjoc'h enorjod enorjomp enorjont enorjout enoro enoromp enoront enoror enorot
+12	1212	goleiñ	c'holeiñ c'holoas c'holoe c'holoiñ goloan goloas goloe goloec'h goloemp goloen goloent goloes goloet goloez golofe golofec'h golofed golofemp golofen golofent golofes goloi goloimp goloin goloint golois goloit goloiñ goloje golojec'h golojed golojemp golojen golojent golojes golojoc'h golojod golojomp golojont golojout goloo goloomp goloont goloor goloot koleiñ
+13	1213	votiñ	vot votan votas votañ vote votec'h votemp voten votent votes votet votfe votfec'h votfed votfemp votfen votfent votfes voti votimp votin votint votis votit votje votjec'h votjed votjemp votjen votjent votjes votjoc'h votjod votjomp votjont votjout voto votomp votont votor votot
+14	1214	bac'hañ	bac'han bac'has bac'he bac'hec'h bac'hemp bac'hen bac'hent bac'her bac'hes bac'het bac'hez bac'hfe bac'hfec'h bac'hfed bac'hfemp bac'hfen bac'hfent bac'hfes bac'hi bac'hiañ bac'himp bac'hin bac'hint bac'his bac'hit bac'hiñ bac'hje bac'hjec'h bac'hjed bac'hjemp bac'hjen bac'hjent bac'hjes bac'hjoc'h bac'hjod bac'hjomp bac'hjont bac'hjout bac'ho bac'homp bac'hont bac'hor bac'hot pac'hañ vac'has vac'hañ vac'he
+15	1215	annezañ	annezan annezas anneze annezec'h annezemp annezen annezent annezes annezet annezez annezfe annezfec'h annezfed annezfemp annezfen annezfent annezfes annezi annezimp annezin annezint annezis annezit annezje annezjec'h annezjed annezjemp annezjen annezjent annezjes annezjoc'h annezjod annezjomp annezjont annezjout annezo annezomp annezont annezor annezot
+16	1216	meskañ	meskan meskas meske meskec'h meskemp mesken meskent meskes mesket meskez meskfe meskfec'h meskfed meskfemp meskfen meskfent meskfes meski meskimp meskin meskint meskis meskit meskje meskjec'h meskjed meskjemp meskjen meskjent meskjes meskjoc'h meskjod meskjomp meskjont meskjout mesko meskomp meskont meskor meskot veskas veskañ veske vesket veskjont
+17	1217	mennout	menn mennan mennas mennat menne mennec'h mennemp mennen mennent menner mennes mennet mennez mennfe mennfec'h mennfed mennfemp mennfen mennfent mennfes menni mennimp mennin mennint mennis mennit mennje mennjec'h mennjed mennjemp mennjen mennjent mennjes mennjoc'h mennjod mennjomp mennjont mennjout menno mennomp mennont mennor mennot vennas venne vennent venner vennet vennit vennout
+18	1218	muntrañ	muntr muntran muntras muntre muntrec'h muntremp muntren muntrent muntres muntret muntrez muntrfe muntrfec'h muntrfed muntrfemp muntrfen muntrfent muntrfes muntri muntrimp muntrin muntrint muntris muntrit muntriñ muntrje muntrjec'h muntrjed muntrjemp muntrjen muntrjent muntrjes muntrjoc'h muntrjod muntrjomp muntrjont muntrjout muntro muntromp muntront muntror muntrot vuntr vuntras vuntrañ vuntrjont vuntront
+19	1219	gwaskañ	gwask gwaskan gwaskas gwaske gwaskec'h gwaskemp gwasken gwaskent gwaskes gwasket gwaskez gwaskfe gwaskfec'h gwaskfed gwaskfemp gwaskfen gwaskfent gwaskfes gwaski gwaskimp gwaskint gwaskis gwaskit gwaskiñ gwaskje gwaskjec'h gwaskjed gwaskjemp gwaskjen gwaskjent gwaskjes gwaskjoc'h gwaskjod gwaskjomp gwaskjont gwaskjout gwasko gwaskomp gwaskont gwaskor gwaskot kwaskañ wask waskas waskañ waske waskfe waskjont
+20	1220	kempenn	c'hempenn gempenn gempennas gempennet kempennan kempennas kempennat kempennañ kempenne kempennec'h kempennemp kempennen kempennent kempennes kempennet kempennez kempennfe kempennfec'h kempennfed kempennfemp kempennfen kempennfent kempennfes kempenni kempennimp kempennin kempennint kempennis kempennit kempennje kempennjec'h kempennjed kempennjemp kempennjen kempennjent kempennjes kempennjoc'h kempennjod kempennjomp kempennjont kempennjout kempenno kempennoc'h kempennomp kempennont kempennor kempennot kempennoù
+21	1221	douarañ	douaran douaras douarat douare douarec'h douaremp douaren douarent douares douaret douarez douarfe douarfec'h douarfed douarfemp douarfen douarfent douarfes douari douarimp douarin douarint douaris douarit douariñ douarje douarjec'h douarjed douarjemp douarjen douarjent douarjes douarjoc'h douarjod douarjomp douarjont douarjout douaro douaromp douaront douaror douarot touaras touarañ zouaras zouarañ zouare
+22	1222	addimeziñ	addimez addimezan addimezas addimeze addimezec'h addimezemp addimezen addimezent addimezes addimezet addimezez addimezfe addimezfec'h addimezfed addimezfemp addimezfen addimezfent addimezfes addimezi addimezimp addimezin addimezint addimezis addimezit addimezje addimezjec'h addimezjed addimezjemp addimezjen addimezjent addimezjes addimezjoc'h addimezjod addimezjomp addimezjont addimezjout addimezo addimezomp addimezont addimezor addimezot
+23	1223	fiziout	fizi fizian fizias fizie fiziec'h fiziemp fizien fizient fizies fiziet fiziez fizife fizifec'h fizifed fizifemp fizifen fizifent fizifes fizii fiziimp fiziin fiziint fiziis fiziit fizije fizijec'h fizijed fizijemp fizijen fizijent fizijes fizijoc'h fizijod fizijomp fizijont fizijout fizio fiziomp fiziont fizior fiziot
+24	1224	arverañ	arveran arveras arvere arverec'h arveremp arveren arverent arveres arveret arverez arverfe arverfec'h arverfed arverfemp arverfen arverfent arverfes arveri arverimp arverin arverint arveris arverit arverje arverjec'h arverjed arverjemp arverjen arverjent arverjes arverjoc'h arverjod arverjomp arverjont arverjout arvero arveromp arveront arveror arverot
+25	1225	kadarnaat	c'hadarnaat gadarna gadarnaas gadarnaat gadarnae kadarna kadarnaad kadarnaan kadarnaas kadarnae kadarnaec'h kadarnaemp kadarnaen kadarnaent kadarnaes kadarnaet kadarnaez kadarnafe kadarnafec'h kadarnafed kadarnafemp kadarnafen kadarnafent kadarnafes kadarnai kadarnaimp kadarnain kadarnaint kadarnais kadarnait kadarnaje kadarnajec'h kadarnajed kadarnajemp kadarnajen kadarnajent kadarnajes kadarnajoc'h kadarnajod kadarnajomp kadarnajont kadarnajout kadarnao kadarnaomp kadarnaont kadarnaor kadarnaot
+26	1226	desevel	desav desavan desavas desave desavec'h desavemp desaven desavent desaver desaves desavet desavez desavfe desavfec'h desavfed desavfemp desavfen desavfent desavfes desavi desavimp desavin desavint desavis desavit desavje desavjec'h desavjed desavjemp desavjen desavjent desavjes desavjoc'h desavjod desavjomp desavjont desavjout desavo desavomp desavont desavor desavot zesav zesaverien zesevel
+27	1227	adembann	adembannan adembannas adembanne adembannec'h adembannemp adembannen adembannent adembannes adembannet adembannez adembannfe adembannfec'h adembannfed adembannfemp adembannfen adembannfent adembannfes adembanni adembannimp adembannin adembannint adembannis adembannit adembannje adembannjec'h adembannjed adembannjemp adembannjen adembannjent adembannjes adembannjoc'h adembannjod adembannjomp adembannjont adembannjout adembanno adembannomp adembannont adembannor adembannot
+28	1228	servijañ	servijan servijas servije servijec'h servijemp servijen servijent servijes servijet servijez servijfe servijfec'h servijfed servijfemp servijfen servijfent servijfes serviji servijimp servijin servijint servijis servijit servijiñ servijje servijjec'h servijjed servijjemp servijjen servijjent servijjes servijjoc'h servijjod servijjomp servijjont servijjout servijo servijomp servijont servijor servijot
+29	1229	taolenniñ	daolenne daolenner daolenniñ taolennan taolennas taolenne taolennec'h taolennemp taolennen taolennent taolenner taolennes taolennet taolennez taolennfe taolennfec'h taolennfed taolennfemp taolennfen taolennfent taolennfes taolenni taolennimp taolennin taolennint taolennis taolennit taolennje taolennjec'h taolennjed taolennjemp taolennjen taolennjent taolennjes taolennjoc'h taolennjod taolennjomp taolennjont taolennjout taolenno taolennomp taolennont taolennor taolennot zaolenniñ
+30	1230	merzout	merz merzan merzas merze merzec'h merzemp merzen merzent merzes merzet merzez merzfe merzfec'h merzfed merzfemp merzfen merzfent merzfes merzi merzimp merzin merzint merzis merzit merzje merzjec'h merzjed merzjemp merzjen merzjent merzjes merzjoc'h merzjod merzjomp merzjont merzjout merzo merzomp merzont merzor merzot verzas verze verzjont verzout
+31	1231	lemel	lam laman lamas lame lamec'h lamemp lamen lament lames lamet lamez lamfe lamfec'h lamfed lamfemp lamfen lamfent lamfes lami lamimp lamin lamint lamis lamit lamje lamjec'h lamjed lamjemp lamjen lamjent lamjes lamjoc'h lamjod lamjomp lamjont lamjout lamo lamomp lamont lamor lamot lemen
+32	1232	diskleriañ	diskleri disklerian disklerias disklerie diskleriec'h diskleriemp disklerien disklerient diskleries diskleriet diskleriez disklerife disklerifec'h disklerifed disklerifemp disklerifen disklerifent disklerifes disklerii diskleriimp diskleriin diskleriint diskleriis diskleriit disklerije disklerijec'h disklerijed disklerijemp disklerijen disklerijent disklerijes disklerijoc'h disklerijod disklerijomp disklerijont disklerijout disklerio diskleriomp diskleriont disklerior diskleriot tisklerias tiskleriañ tisklerie zisklerias ziskleriañ zisklerie zisklerio
+33	1233	prometiñ	bromet brometas bromete brometiñ promet prometan prometas promete prometec'h prometemp prometen prometent prometes prometet prometez prometfe prometfec'h prometfed prometfemp prometfen prometfent prometfes prometi prometimp prometin prometint prometis prometit prometje prometjec'h prometjed prometjemp prometjen prometjent prometjes prometjoc'h prometjod prometjomp prometjont prometjout prometo prometomp prometont prometor prometot
+34	1234	faezhañ	faezhan faezhas faezhe faezhec'h faezhemp faezhen faezhent faezhes faezhet faezhez faezhfe faezhfec'h faezhfed faezhfemp faezhfen faezhfent faezhfes faezhi faezhimp faezhin faezhint faezhis faezhit faezhje faezhjec'h faezhjed faezhjemp faezhjen faezhjent faezhjes faezhjoc'h faezhjod faezhjomp faezhjont faezhjout faezho faezhomp faezhont faezhor faezhot
+35	1235	pellaat	bella bellaas bellaat bellae fella fellaat pella pellaad pellaan pellaas pellae pellaec'h pellaemp pellaen pellaent pellaes pellaet pellaez pellafe pellafec'h pellafed pellafemp pellafen pellafent pellafes pellai pellaimp pellain pellaint pellais pellait pellaje pellajec'h pellajed pellajemp pellajen pellajent pellajes pellajoc'h pellajod pellajomp pellajont pellajout pellao pellaomp pellaont pellaor pellaot
+36	1236	brasaat	brasa brasaan brasaas brasae brasaec'h brasaemp brasaen brasaent brasaes brasaet brasaez brasafe brasafec'h brasafed brasafemp brasafen brasafent brasafes brasai brasaimp brasain brasaint brasais brasait brasaje brasajec'h brasajed brasajemp brasajen brasajent brasajes brasajoc'h brasajod brasajomp brasajont brasajout brasao brasaomp brasaont brasaor brasaot prasaat prasai vrasa vrasaas vrasaat vrasae
+37	1237	spontañ	spontan spontas sponte spontec'h spontemp sponten spontent sponter sponterien spontes spontet spontez spontfe spontfec'h spontfed spontfemp spontfen spontfent spontfes sponti spontimp spontin spontint spontis spontit spontje spontjec'h spontjed spontjemp spontjen spontjent spontjes spontjoc'h spontjod spontjomp spontjont spontjout sponto spontomp spontont spontor spontot
+38	1238	gourc'hemenn	c'hourc'hemenn c'hourc'hemennas c'hourc'hemenne c'hourc'hemennoù gourc'hemennan gourc'hemennas gourc'hemennañ gourc'hemenne gourc'hemennec'h gourc'hemennemp gourc'hemennen gourc'hemennent gourc'hemennes gourc'hemennet gourc'hemennez gourc'hemennfe gourc'hemennfec'h gourc'hemennfed gourc'hemennfemp gourc'hemennfen gourc'hemennfent gourc'hemennfes gourc'hemenni gourc'hemennimp gourc'hemennin gourc'hemennint gourc'hemennis gourc'hemennit gourc'hemenniñ gourc'hemennje gourc'hemennjec'h gourc'hemennjed gourc'hemennjemp gourc'hemennjen gourc'hemennjent gourc'hemennjes gourc'hemennjoc'h gourc'hemennjod gourc'hemennjomp gourc'hemennjont gourc'hemennjout gourc'hemenno gourc'hemennomp gourc'hemennont gourc'hemennor gourc'hemennot gourc'hemennoù kourc'hemenn
+39	1239	plantañ	blantas blantañ blante blantet blanto flantañ plantan plantas plante plantec'h plantemp planten plantent plantes plantet plantez plantfe plantfec'h plantfed plantfemp plantfen plantfent plantfes planti plantimp plantin plantint plantis plantit plantje plantjec'h plantjed plantjemp plantjen plantjent plantjes plantjoc'h plantjod plantjomp plantjont plantjout planto plantomp plantont plantor plantot
+40	1240	dibennañ	dibennan dibennas dibenne dibennec'h dibennemp dibennen dibennent dibennes dibennet dibennez dibennfe dibennfec'h dibennfed dibennfemp dibennfen dibennfent dibennfes dibenni dibennimp dibennin dibennint dibennis dibennit dibenniñ dibennje dibennjec'h dibennjed dibennjemp dibennjen dibennjent dibennjes dibennjoc'h dibennjod dibennjomp dibennjont dibennjout dibenno dibennomp dibennont dibennor dibennot tibennañ zibennas zibennañ
+41	1241	chaseal	chasean chaseas chasee chaseec'h chaseemp chaseen chaseent chasees chaseet chaseez chasefe chasefec'h chasefed chasefemp chasefen chasefent chasefes chasei chaseimp chasein chaseint chaseis chaseit chaseiñ chaseje chasejec'h chasejed chasejemp chasejen chasejent chasejes chasejoc'h chasejod chasejomp chasejont chasejout chaseo chaseomp chaseont chaseor chaseot
+42	1242	kastizañ	c'hastizañ gastizañ kastizan kastizas kastize kastizec'h kastizemp kastizen kastizent kastizes kastizet kastizez kastizfe kastizfec'h kastizfed kastizfemp kastizfen kastizfent kastizfes kastizi kastizimp kastizin kastizint kastizis kastizit kastizje kastizjec'h kastizjed kastizjemp kastizjen kastizjent kastizjes kastizjoc'h kastizjod kastizjomp kastizjont kastizjout kastizo kastizomp kastizont kastizor kastizot
+43	1243	riskl	riskloù
+44	1244	krougañ	groug grougas grougañ grouget kroug krougan krougas krouge krougec'h krougemp krougen krougent krouges krouget krougez krougfe krougfec'h krougfed krougfemp krougfen krougfent krougfes krougi krougimp krougin krougint krougis krougit krougje krougjec'h krougjed krougjemp krougjen krougjent krougjes krougjoc'h krougjod krougjomp krougjont krougjout krougo krougomp krougont krougor krougot
+45	1245	prederiañ	brederiañ brederiet frederiañ prederi prederian prederias prederie prederiec'h prederiemp prederient prederies prederiet prederiez prederife prederifec'h prederifed prederifemp prederifen prederifent prederifes prederii prederiimp prederiin prederiint prederiis prederiit prederije prederijec'h prederijed prederijemp prederijen prederijent prederijes prederijoc'h prederijod prederijomp prederijont prederijout prederio prederiomp prederiont prederior prederiot
+46	1246	drouklazh	drouklazhet drouklazhoù zrouklazh
+47	1247	rebech	rebechan rebechas rebechat rebeche rebechec'h rebechemp rebechen rebechent rebeches rebechet rebechez rebechfe rebechfec'h rebechfed rebechfemp rebechfen rebechfent rebechfes rebechi rebechimp rebechin rebechint rebechis rebechit rebechiñ rebechje rebechjec'h rebechjed rebechjemp rebechjen rebechjent rebechjes rebechjoc'h rebechjod rebechjomp rebechjont rebechjout rebecho rebechomp rebechont rebechor rebechot rebechoù
+48	1248	bountañ	bount bountan bountas bounte bountec'h bountek bountemp bounten bountent bountes bountet bountez bountfe bountfec'h bountfed bountfemp bountfen bountfent bountfes bounti bountimp bountin bountint bountis bountit bountiñ bountje bountjec'h bountjed bountjemp bountjen bountjent bountjes bountjoc'h bountjod bountjomp bountjont bountjout bounto bountomp bountont bountor bountot vount vountas vountañ vounte vounto
+49	1249	postañ	bostas bostañ fostañ postan postas poste postec'h postemp posten postent poster postes postet postez postfe postfec'h postfed postfemp postfen postfent postfes posti postimp postin postint postis postit postiñ postje postjec'h postjed postjemp postjen postjent postjes postjoc'h postjod postjomp postjont postjout posto postomp postont postor postot
+50	1250	urzhiañ	urzhi urzhian urzhias urzhie urzhiec'h urzhiemp urzhien urzhient urzhies urzhiet urzhiez urzhife urzhifec'h urzhifed urzhifemp urzhifen urzhifent urzhifes urzhii urzhiimp urzhiin urzhiint urzhiis urzhiit urzhije urzhijec'h urzhijed urzhijemp urzhijen urzhijent urzhijes urzhijoc'h urzhijod urzhijomp urzhijont urzhijout urzhio urzhiomp urzhiont urzhior urzhiot
+51	1251	badeziñ	badezan badezas badeze badezec'h badezemp badezen badezent badezes badezet badezez badezfe badezfec'h badezfed badezfemp badezfen badezfent badezfes badezi badezimp badezin badezint badezis badezit badezje badezjec'h badezjed badezjemp badezjen badezjent badezjes badezjoc'h badezjod badezjomp badezjont badezjout badezo badezomp badezont badezor badezot padezo vadezet vadeziñ vadezont
+52	1252	askell	askellioù divaskell eskell zivaskell
+53	1253	arnodiñ	arnod arnodan arnodas arnode arnodec'h arnodemp arnoden arnodent arnodes arnodet arnodez arnodfe arnodfec'h arnodfed arnodfemp arnodfen arnodfent arnodfes arnodi arnodimp arnodin arnodint arnodis arnodit arnodje arnodjec'h arnodjed arnodjemp arnodjen arnodjent arnodjes arnodjoc'h arnodjod arnodjomp arnodjont arnodjout arnodo arnodomp arnodont arnodor arnodot
+54	1254	azeuliñ	azeul azeulan azeulas azeule azeulec'h azeulemp azeulen azeulent azeules azeulet azeulez azeulfe azeulfec'h azeulfed azeulfemp azeulfen azeulfent azeulfes azeuli azeulimp azeulin azeulint azeulis azeulit azeulje azeuljec'h azeuljed azeuljemp azeuljen azeuljent azeuljes azeuljoc'h azeuljod azeuljomp azeuljont azeuljout azeulo azeulomp azeulont azeulor azeulot
+55	1255	argas	argasan argasas argase argasec'h argasemp argasen argasent argases argaset argasez argasfe argasfec'h argasfed argasfemp argasfen argasfent argasfes argasi argasimp argasin argasint argasis argasit argasiñ argasje argasjec'h argasjed argasjemp argasjen argasjent argasjes argasjoc'h argasjod argasjomp argasjont argasjout argaso argasomp argasont argasor argasot
+56	1256	dañjer	dañjerioù dañjeroù
+57	1257	ene	eneoù eneñv
+58	1258	person	berson bersoned ferson
+59	1259	bennozh	bennozhioù vennozhioù
+60	1260	aergelc'h	aergelc'hioù
+61	1261	dañjerus	dañjerusañ dañjerusoc'h zañjerus zañjerusoc'h
+62	1262	amezek	
+63	1263	faltazi	
+64	1264	laezh	
+65	1265	repu	
+66	1266	kristeniezh	gristeniezh
+67	1267	erc'h	
+68	1268	gleb	c'hleb glepañ glepoc'h
+69	1269	gaou	c'haou gevier
+70	1270	peuriñ	beure beuriñ feurer feuriñ peuran peuras peurat peurañ peure peurec'h peuremp peuren peurent peurer peures peuret peurez peurfe peurfec'h peurfed peurfemp peurfen peurfent peurfes peuri peurimp peurin peurint peurioù peuris peurit peurje peurjec'h peurjed peurjemp peurjen peurjent peurjes peurjoc'h peurjod peurjomp peurjont peurjout peuro peuromp peuront peuror peurot veure
+71	1271	hêrezh	hêrezhioù
+72	1272	dudi	dudioù tudi zudi
+73	1273	gwarez	gwarezioù warez
+74	1274	profañ	brofas brofañ brofit brofjont frofañ profan profas profe profec'h profemp profen profent profes profet profez proffe proffec'h proffed proffemp proffen proffent proffes profi profimp profin profint profis profit profiñ profje profjec'h profjed profjemp profjen profjent profjes profjoc'h profjod profjomp profjont profjout profo profomp profont profor profot
+75	1275	matezh	mitizhien vatezh vitizhien
+76	1276	aliañ	alian alias alie aliec'h aliemp alien alient alier aliet aliez alife alifec'h alifed alifemp alifen alifent alifes alii aliimp aliin aliint aliis aliit aliiñ alije alijec'h alijed alijemp alijen alijent alijes alijoc'h alijod alijomp alijont alijout alio aliomp aliont alior aliot
+77	1277	touiñ	dou douent douiñ tou touan touas touañ toue touec'h touemp touen touent touer toues touet toufe toufec'h toufed toufemp toufen toufent toufes toui touimp touin touint touis touit touje toujec'h toujed toujemp toujen toujes toujoc'h toujod toujomp toujout touo touomp touont touor touot zoues zouje
+78	1278	arabeg	
+79	1279	eñvor	eñvorioù
+80	1280	padus	badus padusoc'h
+81	1281	rumm	rummoù
+82	1282	plaen	plaenoc'h
+83	1283	bedel	pedel vedel
+84	1284	talvoudus	dalvoudus talvoudusañ talvoudusoc'h
+85	1285	silabenn	silabennoù
+86	1286	katalaneg	c'hatalaneg
+87	1287	aneval	anevaled
+88	1288	hent-houarn	hentoù-houarn
+89	1289	mougañ	moug mougan mougas mouge mougec'h mougemp mougen mougent mouges mouget mougez mougfe mougfec'h mougfed mougfemp mougfen mougfent mougfes mougi mougimp mougin mougint mougis mougit mougiñ mougje mougjec'h mougjed mougjemp mougjen mougjent mougjes mougjoc'h mougjod mougjomp mougjont mougjout mougo mougomp mougont mougor mougot voug vougas vougañ
+90	1290	sentiñ	sentan sentas sente sentec'h sented sentemp senten sentent senter sentes sentet sentez sentfe sentfec'h sentfed sentfemp sentfen sentfent sentfes senti sentimp sentin sentint sentis sentit sentje sentjec'h sentjed sentjemp sentjen sentjent sentjes sentjoc'h sentjod sentjomp sentjont sentjout sento sentoc'h sentomp sentont sentor sentot
+91	1291	bourc'hiz	bourc'hizien vourc'hiz vourc'hizez vourc'hizien vourc'hizion
+92	1292	a-gleiz	
+93	1293	loar	
+94	1294	paol	baol
+95	1295	lein	leinoù
+96	1296	diaoul	diaouled diaoulez diaoulien diaouloù ziaoul
+97	1297	arvest	arvestoù
+98	1298	torgenn	dorgenn torgennoù zorgenn
+99	1299	pedenn	bedenn bedennoù fedenn fedennoù pedennoù
+100	1300	dihuniñ	dihun dihunan dihunas dihunañ dihune dihunec'h dihunemp dihunen dihunent dihuner dihunerioù dihunes dihunet dihunez dihunfe dihunfec'h dihunfed dihunfemp dihunfen dihunfent dihunfes dihuni dihunimp dihunin dihunint dihunis dihunit dihunje dihunjec'h dihunjed dihunjemp dihunjen dihunjent dihunjes dihunjoc'h dihunjod dihunjomp dihunjont dihunjout dihuno dihunomp dihunont dihunor dihunot tihun tihune tihuniñ zihun zihunas zihune zihunet zihuniñ

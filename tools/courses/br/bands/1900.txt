@@ -1,100 +1,100 @@
-1	1801	eizhvet	
-2	1802	skornet	
-3	1803	arsav	arsavioù
-4	1804	engroez	engroezioù
-5	1805	gouiziegezh	c'houiziegezh
-6	1806	toaz	doaz
-7	1807	follentez	follentezioù
-8	1808	burzhudus	vurzhudus
-9	1809	euzhus	euzhusañ euzhusoc'h
-10	1810	prometiñ	brometiñ
-11	1811	stok	stokoù
-12	1812	merzout	verzout
-13	1813	skeud	skeudoù
-14	1814	tarv	darv tirvi zarv
-15	1815	barrenn	barrennoù varrenn
-16	1816	meneziek	menezieg venezieg veneziek
-17	1817	triwec'h	driwec'h zriwec'h
-18	1818	merdeiñ	verdeiñ
-19	1819	gwanaat	gwana gwannaad kwanaat wanaat
-20	1820	gwarizi	warizi
-21	1821	pik	bik pikoù
-22	1822	gwenneg	gwenneien wenneien
-23	1823	eien	eienenn eienennoù
-24	1824	moereb	moerebed voereb voerebed
-25	1825	huchal	huchas huche huchent hucher huches huchet huchez huchit
-26	1826	harz-labour	harzoù-labour
-27	1827	tri-ugent	zri-ugent
-28	1828	lec'hiañ	lec'hie lec'hiñ
-29	1829	broadelezh	broadelezhioù vroadelezh
-30	1830	pakad	bakadoù fakadoù pakadoù
-31	1831	milin	milinoù vilin
-32	1832	dresañ	dresiñ
-33	1833	hobregonet	
-34	1834	skiant-prenet	
-35	1835	leal	
-36	1836	reizhañ	
-37	1837	saout	
-38	1838	a-zehou	
-39	1839	pegement	begement fegement
-40	1840	lorc'h	
-41	1841	lazher	lazherien
-42	1842	laz-kanañ	lazoù-kanañ
-43	1843	pazenn	pazennoù
-44	1844	tan-gwall	dan-gwall tangwall tanioù-gwall
-45	1845	truez	druez
-46	1846	follenn	follennoù
-47	1847	logod	logodenn logodennoù
-48	1848	kemplezh	c'hemplezh gemplezh kempleshañ kempleshoc'h
-49	1849	kouevr	c'houevr gouevr
-50	1850	geun	c'heun c'heunioù geunioù
-51	1851	mougañ	mougiñ vougañ
-52	1852	prezeg	brezeg
-53	1853	karbon	c'harbon garbon
-54	1854	gwalc'hiñ	gwalc'has gwalc'he kwalc'hiñ walc'he walc'hiñ
-55	1855	kroaziadeg	groaziadeg groaziadegoù kroaziadegoù
-56	1856	goleiñ	c'holeiñ c'holoiñ goloiñ koleiñ
-57	1857	paot	baotañ faot faotañ paotañ paotoc'h
-58	1858	promesa	bromesa fromesaoù promesaoù
-59	1859	sall	salle sallet
-60	1860	koñsul	c'hoñsul goñsul goñsuled koñsuled
-61	1861	kañseller	c'hañseller gañseller gañsellerez kañsellerez
-62	1862	sponterezh	
-63	1863	trevadennerezh	
-64	1864	lanv	
-65	1865	oaled	
-66	1866	laosk	laoskoc'h
-67	1867	stur	sturioù
-68	1868	prefeti	brefeti
-69	1869	rok	rokañ
-70	1870	bezhin	vezhin vezhinenn
-71	1871	pevar-ugent	bevar-ugent fevar-ugent
-72	1872	lik	liked
-73	1873	poell	boell foell
-74	1874	ambroug	ambrouger ambrougerez ambrougoù
-75	1875	taolenniñ	daolenner daolenniñ taolenner zaolenniñ
-76	1876	leue	leueioù leueoù
-77	1877	desevel	desaver zesaverien zesevel
-78	1878	matematikour	matematikourien vatematikourez vatematikourien
-79	1879	treitour	dreitour dreitourez dreitourien treitourien
-80	1880	tad-kaer	dad-kaer zad-kaer
-81	1881	dial	dialoù zial
-82	1882	stadañ	stade staden stadiñ
-83	1883	kember	c'hember gember
-84	1884	plantañ	blantañ flantañ
-85	1885	gorrek	c'horrek gorrekat gorrekoc'h
-86	1886	sekred	sekredoù
-87	1887	dilec'hiañ	dilec'hañ dilec'hiiñ dilec'hiñ tilec'hiañ zilec'hiañ
-88	1888	madelezh	vadelezh
-89	1889	raganv	raganvioù
-90	1890	breur-kaer	vreur-kaer
-91	1891	dibunadeg	dibunadegoù zibunadegoù
-92	1892	kure	c'hure gure
-93	1893	bleinañ	bleniañ vleinañ vleniañ
-94	1894	kevrin	c'hevrin c'hevrinoù gevrinoù kevrinoù
-95	1895	kemener	c'hemener gemenerez gemenerien kemenerez kemenerien
-96	1896	hoc'h	
-97	1897	grevus	c'hrevusañ c'hrevusoc'h grevusañ grevusoc'h
-98	1898	sakson	saksoned saksonez
-99	1899	tir	dirioù tirioù zirioù
-100	1900	analañ	analat analer analis
+1	1801	dekvet	
+2	1802	ludu	
+3	1803	evelkent	
+4	1804	pemoc'h	
+5	1805	gourel	c'hourel
+6	1806	rakskrid	rakskridoù
+7	1807	poellgor	foellgor poellgorioù
+8	1808	kras	c'hras gras
+9	1809	dourenn	dourennoù
+10	1810	ergerzhadenn	ergerzhadennoù
+11	1811	yar	yer
+12	1812	advabañ	advaban advabas advabe advabec'h advabemp advaben advabent advabes advabet advabez advabfe advabfec'h advabfed advabfemp advabfen advabfent advabfes advabi advabimp advabin advabint advabis advabit advabje advabjec'h advabjed advabjemp advabjen advabjent advabjes advabjoc'h advabjod advabjomp advabjont advabjout advabo advabomp advabont advabor advabot
+13	1813	ged	ked
+14	1814	koan	goan koanioù
+15	1815	keneil	c'heneil c'heneiled geneil geneiled geneilez keneiled keneilez
+16	1816	koustañ	goustas goustañ goustont koustan koustas kouste koustec'h koustemp kousten koustent koustes koustet koustez koustfe koustfec'h koustfed koustfemp koustfen koustfent koustfes kousti koustimp koustin koustint koustis koustit koustiñ koustje koustjec'h koustjed koustjemp koustjen koustjent koustjes koustjoc'h koustjod koustjomp koustjont koustjout kousto koustomp koustont koustor koustot koustout
+17	1817	armead	armeadoù
+18	1818	moan	moanoc'h
+19	1819	kazeg	gazeg
+20	1820	lec'hanv	lec'hanvioù
+21	1821	modernaat	moderna modernaan modernaas modernae modernaec'h modernaemp modernaen modernaent modernaes modernaet modernaez modernafe modernafec'h modernafed modernafemp modernafen modernafent modernafes modernai modernaimp modernain modernaint modernais modernait modernaje modernajec'h modernajed modernajemp modernajen modernajent modernajes modernajoc'h modernajod modernajomp modernajont modernajout modernao modernaomp modernaont modernaor modernaot vodernaat
+22	1822	emzivad	emzivaded emzivadez emzivadezed
+23	1823	kev	c'hev c'hevioù gev kevioù kew
+24	1824	analañ	analas analat analer analet analfe analfec'h analfed analfemp analfen analfent analfes analis analje analjec'h analjed analjemp analjen analjent analjes analjoc'h analjod analjomp analjont analjout
+25	1825	atlantel	
+26	1826	arrebeuri	
+27	1827	naon	
+28	1828	souezh	
+29	1829	sinaeg	
+30	1830	seiz	
+31	1831	daouad	zaouad
+32	1832	benel	penel venel
+33	1833	dilestradeg	dilestradegoù
+34	1834	deol	deoloc'h
+35	1835	lous	lousañ lousoc'h
+36	1836	meuleudi	meuleudioù veuleudi
+37	1837	tredeog	dredeog tredeoged tredeogez
+38	1838	glac'har	c'hlac'har
+39	1839	kimiezh	c'himiezh gimiezh
+40	1840	bragoù	brageier vragoù
+41	1841	korventenn	c'horventennoù gorventenn korventennoù
+42	1842	azen	azened azenez azenezed ezen
+43	1843	jestr	jestroù
+44	1844	milendall	milendalloù vilendall
+45	1845	gevell	c'hevell c'hevelled c'hevellez gevelled
+46	1846	roched	rochedoù
+47	1847	c'hoarzhin	c'hoarzhan c'hoarzhas c'hoarzhe c'hoarzhec'h c'hoarzhed c'hoarzhemp c'hoarzhen c'hoarzhent c'hoarzher c'hoarzhes c'hoarzhet c'hoarzhez c'hoarzhfe c'hoarzhfec'h c'hoarzhfed c'hoarzhfemp c'hoarzhfen c'hoarzhfent c'hoarzhfes c'hoarzhi c'hoarzhimp c'hoarzhint c'hoarzhis c'hoarzhit c'hoarzhje c'hoarzhjec'h c'hoarzhjed c'hoarzhjemp c'hoarzhjen c'hoarzhjent c'hoarzhjes c'hoarzhjoc'h c'hoarzhjod c'hoarzhjomp c'hoarzhjont c'hoarzhjout c'hoarzho c'hoarzhoc'h c'hoarzhomp c'hoarzhont c'hoarzhor c'hoarzhot
+48	1848	gwrezverk	gwrezverkoù wrezverkoù
+49	1849	dizimeziñ	dizimezan dizimezas dizimeze dizimezec'h dizimezemp dizimezen dizimezent dizimezes dizimezet dizimezez dizimezfe dizimezfec'h dizimezfed dizimezfemp dizimezfen dizimezfent dizimezfes dizimezi dizimezimp dizimezin dizimezint dizimezis dizimezit dizimezje dizimezjec'h dizimezjed dizimezjemp dizimezjen dizimezjent dizimezjes dizimezjoc'h dizimezjod dizimezjomp dizimezjont dizimezjout dizimezo dizimezomp dizimezont dizimezor dizimezot tizimezas zizimezas zizimeziñ
+50	1850	gwazh	gwazhioù wazh
+51	1851	gwern	gwernenn gwernioù wern
+52	1852	kavadenn	c'havadennoù gavadenn gavadennoù kavadennoù
+53	1853	marmouz	marmouzed marmouzien varmouz
+54	1854	c'hwezek	
+55	1855	tenner	denner tennerien
+56	1856	yezhoniour	yezhoniourien yezhoniourion
+57	1857	lann	lanneier
+58	1858	berniañ	bernañ berni bernian bernias bernie berniec'h berniemp bernien bernient bernies berniet berniez bernife bernifec'h bernifed bernifemp bernifen bernifent bernifes bernii berniimp berniin berniint berniis berniit bernije bernijec'h bernijed bernijemp bernijen bernijent bernijes bernijoc'h bernijod bernijomp bernijont bernijout bernio berniomp berniont bernior berniot berniñ vernias verniañ
+59	1859	gouelañ	gouelal gouelar gouelas gouele gouelemp gouelen gouelent goueler goueles gouelet gouelez gouelfe gouelfec'h gouelfed gouelfemp gouelfen gouelfent gouelfes goueli gouelimp gouelin gouelint gouelis gouelit goueliñ gouelje goueljec'h goueljed goueljemp goueljen goueljent goueljes goueljoc'h goueljod goueljomp goueljont goueljout gouelo gouelomp gouelont gouelor gouelot ouelas ouelañ ouele ouelent
+60	1860	koazhañ	c'hoazhet goazh goazhañ koazh koazhan koazhas koazhe koazhec'h koazhemp koazhen koazhent koazhes koazhet koazhez koazhfe koazhfec'h koazhfed koazhfemp koazhfen koazhfent koazhfes koazhi koazhimp koazhin koazhint koazhis koazhit koazhiñ koazhje koazhjec'h koazhjed koazhjemp koazhjen koazhjent koazhjes koazhjoc'h koazhjod koazhjomp koazhjont koazhjout koazho koazhomp koazhont koazhor koazhot
+61	1861	spiañ	spial spian spias spie spiec'h spiemp spien spient spies spiet spiez spife spifec'h spifed spifemp spifen spifent spifes spii spiimp spiin spiint spiis spiit spiiñ spije spijec'h spijed spijemp spijen spijent spijes spijoc'h spijod spijomp spijont spijout spio spiomp spiont spior spiot
+62	1862	trenk	drenk drenkañ drenkoc'h trenkas trenkoc'h
+63	1863	a-dost	
+64	1864	lêr	
+65	1865	unander	
+66	1866	rust	
+67	1867	gros	
+68	1868	kembreat	gembreat
+69	1869	fresk	freskoc'h
+70	1870	toaz	doaz toazioù
+71	1871	tanav	tanavoc'h
+72	1872	goueled	goueledoù
+73	1873	minor	vinored vinorez
+74	1874	seven	sevenoc'h
+75	1875	foll	follañ folle
+76	1876	baradoz	paradoz varadoz
+77	1877	koantenn	goantenn goantenned koantenned
+78	1878	nec'h	
+79	1879	razh	razhed
+80	1880	skedus	skedusañ skedusoc'h
+81	1881	krubuilh	c'hrubuilh c'hrubuilhoù grubuilh
+82	1882	teñvalijenn	deñvalijenn
+83	1883	melezour	melezourioù velezour velezourioù
+84	1884	lojañ	loj lojec'h lojemp lojen lojent lojet lojfe lojfec'h lojfed lojfemp lojfen lojfent lojfes lojimp lojin lojint lojis lojiñ lojje lojjec'h lojjed lojjemp lojjen lojjent lojjes lojjoc'h lojjod lojjomp lojjont lojjout lojo lojomp lojont lojor lojot
+85	1885	splujañ	spluj splujan splujas spluje splujec'h splujemp splujen splujent splujes splujet splujez splujfe splujfec'h splujfed splujfemp splujfen splujfent splujfes spluji splujimp splujin splujint splujis splujit splujiñ splujje splujjec'h splujjed splujjemp splujjen splujjent splujjes splujjoc'h splujjod splujjomp splujjont splujjout splujo splujomp splujont splujor splujot
+86	1886	kegin	c'hegin c'heginoù gegin keginoù
+87	1887	tasmant	dasmant dasmantoù tasmantoù zasmant
+88	1888	tigr	digred tigred
+89	1889	badeziant	badeziantoù vadeziant
+90	1890	chomlec'h	chomlec'hioù
+91	1891	keginañ	c'heginañ geginañ keginan keginas keginat kegine keginec'h keginemp keginen keginent kegines keginet keginez keginfe keginfec'h keginfed keginfemp keginfen keginfent keginfes kegini keginimp keginin keginint keginis keginit keginiñ keginje keginjec'h keginjed keginjemp keginjen keginjent keginjes keginjoc'h keginjod keginjomp keginjont keginjout kegino keginomp keginont keginor keginot
+92	1892	c'hoantaat	c'hoanta c'hoantaan c'hoantaas c'hoantae c'hoantaec'h c'hoantaemp c'hoantaen c'hoantaent c'hoantaes c'hoantaet c'hoantaez c'hoantafe c'hoantafec'h c'hoantafed c'hoantafemp c'hoantafen c'hoantafent c'hoantafes c'hoantai c'hoantaimp c'hoantain c'hoantaint c'hoantais c'hoantait c'hoantaje c'hoantajec'h c'hoantajed c'hoantajemp c'hoantajen c'hoantajent c'hoantajes c'hoantajoc'h c'hoantajod c'hoantajomp c'hoantajont c'hoantajout c'hoantao c'hoantaomp c'hoantaont c'hoantaor c'hoantaot
+93	1893	mantell	mantilli vantell
+94	1894	saezh	saezhioù saezhoù
+95	1895	manifester	manifesterien vanifesterien
+96	1896	didroc'hañ	didroc'h didroc'han didroc'has didroc'he didroc'hec'h didroc'hemp didroc'hen didroc'hent didroc'hes didroc'het didroc'hez didroc'hfe didroc'hfec'h didroc'hfed didroc'hfemp didroc'hfen didroc'hfent didroc'hfes didroc'hi didroc'himp didroc'hin didroc'hint didroc'his didroc'hit didroc'hiñ didroc'hje didroc'hjec'h didroc'hjed didroc'hjemp didroc'hjen didroc'hjent didroc'hjes didroc'hjoc'h didroc'hjod didroc'hjomp didroc'hjont didroc'hjout didroc'ho didroc'homp didroc'hont didroc'hor didroc'hot tidroc'hañ zidroc'h zidroc'hañ
+97	1897	peurvat	
+98	1898	rous	
+99	1899	svedat	
+100	1900	eizhvet	

@@ -3,14 +3,14 @@
 3	703	bered	beredoù vered
 4	704	alamaneg	
 5	705	kroaz	c'hroaz groaz groazioù groez kroazioù
-6	706	mil	miled vil vilañ
+6	706	mil	miled miloù vil vilañ
 7	707	kazetenner	c'hazetenner c'hazetennerez c'hazetennerezed gazetenner gazetennerez gazetennerien gazetennerion kazetennerez kazetennerien kazetennerion
 8	708	sizhun	sizhunioù
 9	709	aon	
 10	710	santel	santelañ
-11	711	aloubiñ	alouber alouberien alouberion aloubin
+11	711	aloubiñ	aloub alouban aloubas aloube aloubec'h aloubemp alouben aloubent alouber alouberien alouberion aloubes aloubet aloubez aloubfe aloubfec'h aloubfed aloubfemp aloubfen aloubfent aloubfes aloubi aloubimp aloubin aloubint aloubis aloubit aloubje aloubjec'h aloubjed aloubjemp aloubjen aloubjent aloubjes aloubjoc'h aloubjod aloubjomp aloubjont aloubjout aloubo aloubomp aloubont aloubor aloubot
 12	712	kendalc'h	c'hendalc'h c'hendalc'hioù gendalc'h kendalc'hioù
-13	713	choaz	choazas choaze choazent choazet choazont choazoù
+13	713	choaz	choazas choaze choazent choazet choazioù choazont choazoù
 14	714	seul	seulioù
 15	715	c'hoariva	c'hoarivaoù
 16	716	gwad	kwad wad
@@ -21,14 +21,14 @@
 21	721	ali	alioù
 22	722	oberour	oberourez oberourien oberourion
 23	723	kroc'hen	c'hrec'hin c'hroc'hen grec'hin groc'hen krec'hen krec'hin
-24	724	kenlabourat	c'henlabour c'henlabourat c'henlabourer genlabour genlabourat genlabourer genlabourerien genlabourerion kenlabour kenlabourer kenlabourerez kenlabourerien
-25	725	heuliañ	heuliat heuliñ
+24	724	kenlabourat	c'henlabour c'henlabourat c'henlabourer genlabour genlabouras genlabourat genlaboure genlabourer genlabourerien genlabourerion genlabouront kenlabour kenlabouran kenlabouras kenlaboure kenlabourec'h kenlabouremp kenlabouren kenlabourent kenlabourer kenlabourerez kenlabourerien kenlaboures kenlabouret kenlabourez kenlabourfe kenlabourfec'h kenlabourfed kenlabourfemp kenlabourfen kenlabourfent kenlabourfes kenlabouri kenlabourimp kenlabourin kenlabourint kenlabouris kenlabourit kenlabourje kenlabourjec'h kenlabourjed kenlabourjemp kenlabourjen kenlabourjent kenlabourjes kenlabourjoc'h kenlabourjod kenlabourjomp kenlabourjont kenlabourjout kenlabouro kenlabouromp kenlabouront kenlabouror kenlabourot
+25	725	heuliañ	heuli heulian heulias heuliat heulie heuliec'h heuliemp heulien heulient heulies heuliet heuliez heulife heulifec'h heulifed heulifemp heulifen heulifent heulifes heulii heuliimp heuliin heuliint heuliis heuliit heulije heulijec'h heulijed heulijemp heulijen heulijent heulijes heulijoc'h heulijod heulijomp heulijont heulijout heulio heuliomp heuliont heulior heuliot heuliñ
 26	726	anv-tiegezh	anvioù-tiegezh
 27	727	labous	laboused
 28	728	roc'h	reier roc'hoù
 29	729	kefridi	c'hefridi c'hefridioù gefridi gefridioù kefridioù
 30	730	traoñ	draou draoñ traou
-31	731	ingal	ingalañ ingaliñ ingaloc'h
+31	731	ingal	ingalañ ingale ingalet ingaliñ ingaloc'h
 32	732	melen	melenoù velen
 33	733	vi	vioù
 34	734	skouerenn	skouerennoù
@@ -38,15 +38,15 @@
 38	738	dianav	zianav
 39	739	tresadenn	dresadenn dresadennoù tresadennoù zresadennoù
 40	740	marc'heg	marc'heien varc'heg varc'heien varc'heion
-41	741	resev	resevas resevet reseviñ
+41	741	resev	resevan resevas reseve resevec'h resevemp reseven resevent reseves resevet resevez resevfec'h resevfed resevfemp resevfen resevfent resevfes resevimp resevin resevint reseviñ resevje resevjec'h resevjed resevjemp resevjen resevjent resevjes resevjoc'h resevjod resevjomp resevjont resevjout resevo resevomp resevont resevor resevot
 42	742	lost	lostoù
 43	743	beajiñ	beajan beajas beaje beajec'h beajed beajemp beajen beajent beajer beajes beajet beajez beajfe beajfec'h beajfed beajfemp beajfen beajfent beajfes beaji beajimp beajin beajint beajis beajit beajje beajjec'h beajjed beajjemp beajjen beajjent beajjes beajjoc'h beajjod beajjomp beajjont beajjout beajo beajomp beajont beajor beajot peajiñ veajas veaje veajer veajfe veaji veajiñ veajjont veajo veajont
 44	744	meuriad	meuriadoù veuriad veuriadoù
-45	745	goañv	c'hoañv goañvoù
+45	745	goañv	c'hoañv goañvioù goañvoù
 46	746	hed	hedoù
 47	747	prest	
 48	748	eben	
-49	749	lizher	
+49	749	lizher	lizheroù lizhiri
 50	750	peseurt	beseurt
 51	751	abati	abatioù
 52	752	dugelezh	dugelezhioù zugelezh zugelezhioù
@@ -54,7 +54,7 @@
 54	754	ki	c'hi c'hon chas gi gon kon
 55	755	anat	anatañ anatoc'h
 56	756	fazi	fazioù
-57	757	frouezh	frouezhenn
+57	757	frouezh	frouezhenn frouezhioù
 58	758	diouzhtu	
 59	759	padal	
 60	760	gresian	c'hresian c'hresianed c'hresianez gresianed
@@ -64,11 +64,11 @@
 64	764	a-berzh	
 65	765	eeun	eeunañ eeunoc'h
 66	766	notenn	notennoù
-67	767	talañ	dalañ daliñ tales talet taliñ zalañ
+67	767	talañ	dalas dalañ daliñ talas talec'h talemp talent tales talet talez talfe talfec'h talfed talfemp talfen talfent talfes talimp talint talis talit taliñ talje taljec'h taljed taljemp taljen taljent taljes taljoc'h taljod taljomp taljont taljout talo talomp talont talor talot zalañ
 68	768	kontadenn	c'hontadenn c'hontadennoù gontadenn gontadennoù kontadennoù
 69	769	kostez	c'hostez c'hostezioù gostez gostezioù kostezioù
 70	770	feiz	
-71	771	liorzh	liorzhoù
+71	771	liorzh	liorzhioù liorzhoù
 72	772	splann	splannañ splannoc'h
 73	773	diskenn	diskennet diskennfe diskennfec'h diskennfed diskennfemp diskennfen diskennfent diskennfes diskennimp diskennis diskenniñ diskennje diskennjec'h diskennjed diskennjemp diskennjen diskennjent diskennjes diskennjoc'h diskennjod diskennjomp diskennjont diskennjout diskennoc'h diskennot tiskenn tiskennas tiskenne tiskennent tiskennje tiskennont ziskenn ziskennas ziskenne ziskennfe
 74	774	manac'h	menec'h vanac'h venec'h
@@ -76,17 +76,17 @@
 76	776	aer	
 77	777	doujañ	douj doujan doujas douje doujec'h doujed doujemp doujen doujent doujer doujes doujet doujez doujfe doujfec'h doujfed doujfemp doujfen doujfent doujfes douji doujimp doujin doujint doujis doujit doujiñ doujje doujjec'h doujjed doujjemp doujjen doujjent doujjes doujjoc'h doujjod doujjomp doujjont doujjout doujo doujomp doujont doujor doujot touj toujañ toujent toujfe toujint toujo toujont zouj zoujañ zoujfent zoujont
 78	778	dave	daveoù zave
-79	779	hinienn	hiniennoù
+79	779	hinienn	hiniennioù hiniennoù
 80	780	broad	broadoù broiz vroad vroadoù vroidi
-81	781	yec'hed	
-82	782	krouidigezh	c'hrouidigezh grouidigezh
+81	781	yec'hed	yec'hedoù
+82	782	krouidigezh	c'hrouidigezh grouidigezh krouidigezhioù
 83	783	chadenn	chadennoù
 84	784	rusian	rusianed
 85	785	barregezh	barregezhioù varregezh varregezhioù
 86	786	maer	maered vaer vaered vaerez
 87	787	teñval	deñval deñvaloc'h teñvalañ teñvaloc'h
 88	788	kordenn	c'herdin c'hordenn c'hordennoù gerdin gordenn gordennoù kerdin kordennoù
-89	789	bodañ	bodan bodas bode boded boden boder bodes bodi bodit bodo bodot podañ vodas vodañ vode voden voder
+89	789	bodañ	bodan bodas bode bodec'h boded bodemp boden bodent boder bodes bodet bodez bodfe bodfec'h bodfed bodfemp bodfen bodfent bodfes bodi bodimp bodin bodint bodis bodit bodje bodjec'h bodjed bodjemp bodjen bodjent bodjes bodjoc'h bodjod bodjomp bodjont bodjout bodo bodomp bodont bodor bodot podañ vodas vodañ vode voden vodent voder vodet vodje vodont
 90	790	etrezek	
 91	791	biken	viken
 92	792	diwezh	diwez ziwezh
@@ -97,4 +97,4 @@
 97	797	dornskrid	dornskridoù zornskrid zornskridoù
 98	798	kenderv	c'henderv c'hendirvi c'heniterv genderv gendirvi geniterv genitervez kendirvi keniterv kenitervez
 99	799	sklav	sklaved sklavez sklavezed
-100	800	pakañ	bakañ bako fakañ pak pakas pakat paker paket pakiñ pako pakout
+100	800	pakañ	bakañ bako fakañ pak pakan pakas pakat pake pakec'h pakemp paken pakent paker pakes paket pakez pakfe pakfec'h pakfed pakfemp pakfen pakfent pakfes paki pakimp pakin pakint pakis pakit pakiñ pakje pakjec'h pakjed pakjemp pakjen pakjent pakjes pakjoc'h pakjod pakjomp pakjont pakjout pako pakomp pakont pakor pakot pakout

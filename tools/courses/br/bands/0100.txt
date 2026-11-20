@@ -8,11 +8,11 @@
 8	8	er	el en
 9	9	gant	ganeoc'h ganeomp ganeor ganimp ganin ganit gantañ gante ganti ganto kante kanto
 10	10	eus	ac'hanoc'h ac'hanomp ac'hanon ac'hanout anezhañ anezhe anezhi anezho anezhoñ
-11	11	ober	c'hraer c'hraet c'hris eure gra grae graec'h graed graemp graen graent graer graes graet grafe grafec'h grafed grafemp grafen grafent grafes graimp graint graio graje grajec'h grajed grajemp grajen grajent grajes gran gray greas greer grejoc'h grejod grejomp grejont grejout greoc'h greomp greont greor greot grez gri grin gris grisañ grit kris oberoù ra rae raed raent rafe rafent raint raio raje ran ray reas reer refont rejod rejont reomp reont rez rin ris rit
+11	11	ober	c'hraer c'hraet c'hris eure gra grae graec'h graed graemp graen graent graer graes graet grafe grafec'h grafed grafemp grafen grafent grafes graimp graint graio graje grajec'h grajed grajemp grajen grajent grajes gran gray greas greer grejoc'h grejod grejomp grejont grejout greoc'h greomp greont greor greot grez gri grin gris grisañ grit kris oberioù oberoù ra rae raed raemp raen raent rafe rafent raimp raint raio raje ran ray reas reer refont rejod rejont reomp reont rez rin ris rit
 12	12	eo	
 13	13	o	
 14	14	evit	evidoc'h evidomp evidon evidout evitañ evite eviti evito
-15	15	kaout	ac'h bet bije bo boa c'haout defe deus devez deveze devezet devo devoa devoe dez deze dije do doa doe gaoud gaout kaoud poa teus zeus zoe
+15	15	kaout	ac'h bet bije bo boa c'haout defe deus devez deveze devezet devo devoa devoe dez deze dije do doa doe gaoud gaout kaoud peus poa teus zeus zoe
 16	16	ne	n'a n'anavezer n'anavezomp n'e n'eas n'edo n'em n'emaint n'emañ n'en n'en-deus n'eo n'eur n'eus n'ez n'hall n'hallas n'halle n'halled n'hallent n'haller n'halljont n'hallo n'hallont n'he n'hell n'helle n'heller n'ho n'hon n'int n'o n'oa n'omp n'on n'ouzer n'ouzont n'roses ne'z
 17	17	war	warnañ warne warnezho warni warno warnoc'h warnomp warnon warnout
 18	18	ma	m'a m'a'z m'ac'h m'ami m'anavezed m'anavezer m'az m'e m'edo m'edo-hi m'edont m'ema m'emaint m'emaomp m'emañ m'emañ-eñ m'emeur m'en m'en-doa m'eo m'eus m'ez m'he m'he-doa m'hemolc'h m'hen m'ho m'hon m'hor m'int m'intend'io m'o m'o-doa m'oiselle m'énerve m'était ma'z mar mard
@@ -21,7 +21,7 @@
 21	21	ket	c'het
 22	22	den	dud ten tud zen zud
 23	23	dont	deu deuan deuas deue deuec'h deued deuemp deuen deuent deuer deues deuet deuez deufe deufec'h deufed deufemp deufen deufent deufes deui deuimp deuin deuint deuio deuis deuit deuje deujec'h deujed deujemp deujen deujent deujes deujoc'h deujod deujomp deujont deujout deuo deuoc'h deuomp deuont deuor deuot deuy dond donet teu teuas teue teued teuent teuer teufe teufent teuio teuje teujent teujont teuont teuy tonet tont zeu zeuas zeue zeufe zeuio zeuje zeujont zeuont zeus zeuy zont
-24	24	sevel	sav savan savas save savec'h saved savemp saven savent saver saverez saverien saverion saves savet savez savfe savfec'h savfed savfemp savfen savfent savfes savi savimp savin savint savis savit savje savjec'h savjed savjemp savjen savjent savjes savjoc'h savjod savjomp savjont savjout savo savomp savont savor savot
+24	24	sevel	sav savan savas save savec'h saved savemp saven savent saver saverez saverien saverion saves savet savez savfe savfec'h savfed savfemp savfen savfent savfes savi savimp savin savint savioù savis savit savje savjec'h savjed savjemp savjen savjent savjes savjoc'h savjod savjomp savjont savjout savo savomp savont savor savot
 25	25	anv	anvioù
 26	26	mont	ad ae aec'h aed aemp aen aent aet afe afec'h afed afemp afen afent afes afont ahe aimp aint aio aje ajec'h ajed ajemp ajen ajent ajes as ay deomp eas eer ejoc'h ejod ejomp ejont ejout eoc'h eomp eont eor eorioù eot gerzh i in is it kerzh kit mond monet vond vonet vont yae yafe yaje yajont yeas yelo
 27	27	ivez	
@@ -46,12 +46,12 @@
 46	46	bloaz	bloazioù vloaz
 47	47	hini	
 48	48	chom	choman chomas chome chomec'h chomed chomel chomemp chomen choment chomer chomes chomet chomez chomfe chomfec'h chomfed chomfemp chomfen chomfent chomfes chomi chomimp chomin chomint chomis chomit chomiñ chomje chomjec'h chomjed chomjemp chomjen chomjent chomjes chomjoc'h chomjod chomjomp chomjont chomjout chomo chomoc'h chomomp chomont chomor chomot
-49	49	re	reo
-50	50	envel	anvan anve anved anvemp anven anvent anver anves anvet anvez anvi anvimp anvin anvit anvo anvomp anvont anvor anvot
+49	49	re	reo reoù
+50	50	envel	anvan anvas anve anvec'h anved anvemp anven anvent anver anves anvet anvez anvfe anvfec'h anvfed anvfemp anvfen anvfent anvfes anvi anvimp anvin anvint anvis anvit anvje anvjec'h anvjed anvjemp anvjen anvjent anvjes anvjoc'h anvjod anvjomp anvjont anvjout anvo anvomp anvont anvor anvot
 51	51	reiñ	ro roan roas roe roec'h roed roemp roen roent roer roes roet roez rofe rofec'h rofed rofemp rofen rofent rofes rofont roi roimp roin roint roio rois roit roje rojec'h rojed rojemp rojen rojent rojes rojoc'h rojod rojomp rojont rojout rooc'h roomp roont roor root roy
 52	52	penn	benn bennoù fenn fennoù pennoù venn
 53	53	gwelet	gwel gwelan gwelas gwelec'h gweled gweledoù gwelemp gwelen gwelent gweler gweles gwelez gwelfe gwelfec'h gwelfed gwelfemp gwelfen gwelfent gwelfes gweli gwelimp gwelin gwelint gwelioù gwelis gwelit gwelje gweljec'h gweljed gweljemp gweljen gweljent gweljes gweljoc'h gweljod gweljomp gweljont gweljout gwelo gweloc'h gwelomp gwelont gwelor gwelot gwelout kwelet kwelout wel welan welas wele weled welent weler welet welez welfe welfed welfet welimp welis welit welje weljont welo weloc'h welomp welont welor welout
-54	54	mat	gwell gwellat gwellañ gwelloc'h mad madoù vad vadoù vat well wellat wellañ welloc'h
+54	54	mat	gwell gwellat gwellañ gwelloc'h mad madoù matoc'h vad vadoù vat well wellat wellañ welloc'h
 55	55	pep	bep
 56	56	doare	doareoù toare zoare zoareoù
 57	57	nemet	nemetañ nemete nemeti nemeto
@@ -71,23 +71,23 @@
 71	71	diwar	diwarnañ diwarni diwarno ziwar
 72	72	diouzh	dioutañ dioute diouti diouto diouzhimp diouzhin diouzhomp
 73	73	brezhoneg	vrezhoneg vrezhonegoù
-74	74	bloavezh	bloavezhioù vloavezh vloavezhioù
+74	74	bloavezh	bloavezhioù bloavezhoù vloavezh vloavezhioù
 75	75	tra	dra draoù traoù zra zraoù
-76	76	bout	bet boud boudoù boutañ boutoc'h fout pout voud voudoù vout voutañ voutoc'h
+76	76	bout	bet boud boudoc'h boudoù boutan boutas boutañ boute boutec'h boutemp bouten boutent boutes boutet boutez boutfe boutfec'h boutfed boutfemp boutfen boutfent boutfes bouti boutimp boutint boutis boutit boutje boutjec'h boutjed boutjemp boutjen boutjent boutjes boutjoc'h boutjod boutjomp boutjont boutjout bouto boutoc'h boutomp boutont boutor boutot fout pout voud voudoù vout voutañ voutoc'h
 77	77	lec'h	lec'hioù
 78	78	mervel	marvan marvas marve marvec'h marved marvemp marven marvent marver marves marvet marvez marvfe marvfec'h marvfed marvfemp marvfen marvfent marvfes marvi marvimp marvin marvint marvis marvit marvje marvjec'h marvjed marvjemp marvjen marvjent marvjes marvjoc'h marvjod marvjomp marvjont marvjout marvo marvomp marvont marvor marvot merwel varvas varve varvent varvet varvfe varvfec'h varvfent varvin varvje varvjent varvjont varvo varvont vervel
 79	79	pezh	bezh bezhioù fezh fezhioù pezhioù vezh
 80	80	klask	c'hlask c'hlasker glask glaskan glaskas glaske glasked glaskemp glasken glaskent glasker glaskerez glaskerien glaskfe glaskit glaskje glaskjont glasko glaskont klaskan klaskas klaske klaskec'h klasked klaskemp klasken klaskent klasker klaskerez klaskerien klaskes klasket klaskez klaskfe klaskfec'h klaskfed klaskfemp klaskfen klaskfent klaskfes klaski klaskimp klaskin klaskint klaskis klaskit klaskiñ klaskje klaskjec'h klaskjed klaskjemp klaskjen klaskjent klaskjes klaskjoc'h klaskjod klaskjomp klaskjont klaskjout klasko klaskoc'h klaskomp klaskont klaskor klaskot klaskoù
 81	81	kalz	c'halz galz
 82	82	lavaret	lavar lavaran lavaras lavarat lavare lavared lavarent lavarer lavarezh lavarfe lavarfemp lavarin lavarioù lavarit lavarjont lavaro lavaromp lavaront lavarout lavaroù
-83	83	yezh	yezhoù
+83	83	yezh	yezhioù yezhoù
 84	84	perzh	berzh berzhioù ferzh ferzhioù perzhioù verzh
-85	85	brezel	brezelioù vrezel vrezelioù
-86	86	kemer	c'hemer c'hemeret gemer kemeras kemere kemerent kemerer kemeret kemerfe kemerimp kemerint kemerit kemerjont kemero kemeroc'h kemeromp kemeront kemerout
+85	85	brezel	brezelioù brezeloù vrezel vrezelioù
+86	86	kemer	c'hemer c'hemeret gemer kemeras kemere kemerent kemerer kemeret kemerfe kemerfec'h kemerfed kemerfemp kemerfent kemerimp kemerint kemerit kemerje kemerjec'h kemerjed kemerjemp kemerjen kemerjent kemerjes kemerjoc'h kemerjod kemerjomp kemerjont kemerjout kemero kemeroc'h kemeromp kemeront kemerout
 87	87	bed	bedoù ved vedoù
 88	88	ken	c'hen
 89	89	eil	
-90	90	nevez	nevesañ nevesoc'h
+90	90	nevez	nevesañ nevesoc'h nevezoc'h
 91	91	brudet	brudetañ brudetoc'h vrudet vrudetañ vrudetoc'h
 92	92	bevañ	bev bevan bevas beve bevec'h beved bevemp beven bevent bever beves bevet bevez bevfe bevfec'h bevfed bevfemp bevfen bevfent bevfes bevi bevimp bevin bevint bevis bevit beviñ bevje bevjec'h bevjed bevjemp bevjen bevjent bevjes bevjoc'h bevjod bevjomp bevjont bevjout bevo bevomp bevont bevor bevot bew pevañ vev vevan vevas vevañ veve vevent vever vevez vevfe vevit veviñ vevjont vevo vevomp vevont
 93	93	mab	mibien mibion vab vibien vibion
@@ -95,6 +95,6 @@
 95	95	a-raok	araozañ araozi araozomp
 96	96	tri	deir dri teir trioù zeir zri
 97	97	nebeut	nebeud nebeutañ nebeutoc'h
-98	98	tu	duioù tuioù zu zuioù
+98	98	tu	duioù tuioù tuoù zu zuioù
 99	99	gwech	c'hwech gwechoù kwech wech wechoù
 100	100	bugel	bugale vugale vugalez vugel

@@ -1,100 +1,100 @@
-1	1401	teñzor	deñzor deñzorioù teñzorioù
-2	1402	obidoù	
-3	1403	nann	
-4	1404	techet	
-5	1405	rod	rodoù
-6	1406	skritell	skritelloù
-7	1407	bodadenn	bodadennoù vodadenn
-8	1408	priñselezh	briñselezh briñselezhioù friñselezh priñselezhioù
-9	1409	skin	skinoù
-10	1410	teod	deod teodoù zeod
-11	1411	beajour	beajer beajourien beajourion veajer veajerez veajour veajourez veajourien veajourion
-12	1412	liammañ	liamman liamme liammer liammfe liammfec'h liammfed liammfemp liammfen liammfent liammfes liammimp liammis liammiñ liammje liammjec'h liammjed liammjemp liammjen liammjent liammjes liammjoc'h liammjod liammjomp liammjont liammjout liammoc'h liammont liammor liammot
-13	1413	dastumer	dastumerez dastumerien dastumerion tastumer zastumerien
-14	1414	dale	daleañ daleet daleiñ daleout daleoù tale taleas zale zaleas zaleañ zaleont
-15	1415	morlaer	morlaeron vorlaerez vorlaeron
-16	1416	asant	
-17	1417	strad	
-18	1418	riskl	
-19	1419	rediañ	
-20	1420	hogos	
-21	1421	lemel	lamfe lemen
-22	1422	gwele	gweleoù
-23	1423	diroll	dirollañ tiroll ziroll zirollañ
-24	1424	bac'h	pac'h vac'h
-25	1425	yac'h	yac'hañ yac'hoc'h
-26	1426	fuzuilh	fuzuilhoù
-27	1427	naer	naered naeron
-28	1428	preti	breti freti pretioù
-29	1429	levier	levierez levierien levierion
-30	1430	bronn	bronnoù divronn vronn
-31	1431	kamm	c'hamm c'hammed c'hammedoù gamm gammed kammañ kamme kammed kammedoù
-32	1432	abostol	ebestel
-33	1433	martezeadenn	martezeadennoù vartezeadenn vartezeadennoù
-34	1434	komandant	c'homandant c'homandanted gomandant komandanted
-35	1435	karbed	c'harbed c'harbedoù garbed karbedoù
-36	1436	portugaleg	
-37	1437	emrenerezh	
-38	1438	rannvroel	rannvroelañ
-39	1439	unaniñ	unane
-40	1440	arc'heskob	arc'heskibien
-41	1441	krec'h	grec'h
-42	1442	sevenadurezh	sevenadurezhioù
-43	1443	kablus	gablus
-44	1444	banell	banelloù panell panelloù
-45	1445	roudenn	roudennoù
-46	1446	gwrez	wrez
-47	1447	atom	atomenn atomennoù atomoù
-48	1448	kontell	c'hontelloù c'hontilli gontell kontilli
-49	1449	krouadur	c'hrouadur c'hrouadurioù grouadur grouadurez grouadurioù krouadurien krouadurioù
-50	1450	bravig	bravigoù vravig
-51	1451	geriaoueg	c'heriaoueg c'heriaouegoù geriaouegi geriaouegoù
-52	1452	bier	bieroù
-53	1453	chase	chaseoù
-54	1454	pleg-mor	plegoù-mor
-55	1455	go	c'ho
-56	1456	rouez	rouesoc'h
-57	1457	servijer	servijerez servijerien
-58	1458	kib	c'hib kiboù
-59	1459	skolaer	skolaerez
-60	1460	distagadur	distagadurioù zistagadur
-61	1461	paotrig	baotrig faotrig paotredigoù
-62	1462	pizh	bizh pishoc'h
-63	1463	dañvad	dañvadez dañvadezed deñved zañvad zeñved
-64	1464	pistolenn	bistolenn fistolenn fistolennoù pistolennoù
-65	1465	servijañ	servijas servije servijiñ
-66	1466	tog	dog togoù zog
-67	1467	kilometrad	gilometrad gilometradoù kilometradoù
-68	1468	dihuniñ	dihun dihunañ dihuner dihunerioù dihuni dihuno tihun tihuniñ zihun zihunas zihuniñ
-69	1469	levenez	
-70	1470	spi	
-71	1471	sin	
-72	1472	eilenn	eilennoù
-73	1473	ahel	ahelioù
-74	1474	kazi	gazi
-75	1475	mirva	mirvaoù virvaoù
-76	1476	ael	aeled aelez
-77	1477	personelezh	bersonelezh fersonelezh fersonelezhioù personelezhioù
-78	1478	dispign	dispignoù zispign zispignoù
-79	1479	kleuz	c'hleuz c'hleuzioù gleuz kleuzioù
-80	1480	real	realed
-81	1481	trevadennel	drevadennel
-82	1482	ponner	bonner ponnerañ ponneroc'h
-83	1483	yezhoniezh	
-84	1484	diskar-amzer	
-85	1485	seizhvet	
-86	1486	oadet	
-87	1487	ni	
-88	1488	louarn	lern
-89	1489	leti	letioù
-90	1490	c'hoarzh	
-91	1491	kerc'hat	c'herc'hat gerc'hat kerc'het
-92	1492	a-grenn	
-93	1493	kennebeut	
-94	1494	henvroiz	henvroad henvroidi
-95	1495	aval	avaloù
-96	1496	had	hadenn hadoù
-97	1497	pluenn	bluenn bluennoù fluenn fluennoù pluennoù
-98	1498	milved	milvedoù vilved
-99	1499	burzhud	burzhudoù vurzhud vurzhudoù
-100	1500	klouar	glouar glouarañ klouaroc'h
+1	1401	argad	argadoù
+2	1402	mamm-gozh	vamm-gozh
+3	1403	arnodenn	arnodennoù
+4	1404	alc'hwez	alc'hwezioù
+5	1405	tarzhadenn	darzhadenn darzhadennoù tarzhadennoù
+6	1406	teuziñ	deuz deuze deuziñ teuz teuzan teuzas teuze teuzec'h teuzemp teuzen teuzent teuzes teuzet teuzez teuzfe teuzfec'h teuzfed teuzfemp teuzfen teuzfent teuzfes teuzi teuzimp teuzin teuzint teuzis teuzit teuzje teuzjec'h teuzjed teuzjemp teuzjen teuzjent teuzjes teuzjoc'h teuzjod teuzjomp teuzjont teuzjout teuzo teuzomp teuzont teuzor teuzot
+7	1407	divroañ	divro divroan divroas divroe divroec'h divroemp divroen divroent divroes divroet divroez divrofe divrofec'h divrofed divrofemp divrofen divrofent divrofes divroi divroimp divroin divroint divrois divroit divroiñ divroje divrojec'h divrojed divrojemp divrojen divrojent divrojes divrojoc'h divrojod divrojomp divrojont divrojout divroo divroomp divroont divroor divroot tivro tivroañ tivroe zivroas zivroañ zivroiñ zivroont
+8	1408	kalonek	galonek kalonekoc'h
+9	1409	sae	saeoù
+10	1410	neñv	neñvoù
+11	1411	fest-noz	festoù-noz
+12	1412	pig	big pi piged
+13	1413	nijerez	nijerezed nijerezioù
+14	1414	donezon	donezonoù zonezon zonezonoù
+15	1415	marc'hadourezh	marc'hadourezhioù varc'hadourezh varc'hadourezhioù
+16	1416	karreg	c'harregoù c'herreg garreg gerreg karregoù kerreg
+17	1417	ront	
+18	1418	c'hwec'hvet	
+19	1419	mintin	vintin
+20	1420	temperadur	demperadur demperadurioù temperadurioù zemperadurioù
+21	1421	dilestrañ	dilestr dilestran dilestras dilestre dilestrec'h dilestremp dilestren dilestrent dilestres dilestret dilestrez dilestrfe dilestrfec'h dilestrfed dilestrfemp dilestrfen dilestrfent dilestrfes dilestri dilestrimp dilestrin dilestrint dilestris dilestrit dilestriñ dilestrje dilestrjec'h dilestrjed dilestrjemp dilestrjen dilestrjent dilestrjes dilestrjoc'h dilestrjod dilestrjomp dilestrjont dilestrjout dilestro dilestromp dilestront dilestror dilestrot tilestr tilestras tilestrañ tilestre tilestrjont zilestr zilestras zilestrañ
+22	1422	eoul-maen	
+23	1423	pegoulz	
+24	1424	divugel	
+25	1425	va	
+26	1426	daou-ugent	zaou-ugent
+27	1427	amiral	amiraled
+28	1428	miliard	miliardoù viliard viliardoù
+29	1429	glad	c'hlad c'hladoù gladoù
+30	1430	souezhus	souezhusat souezhusañ souezhusoc'h
+31	1431	lemm	lemmañ lemme lemmet lemmoc'h
+32	1432	restr	restroù
+33	1433	mab-bihan	vab-bihan vibien-vihan
+34	1434	mel	vel
+35	1435	prof	brof frof profoù
+36	1436	marc'h-houarn	marc'hoù-houarn varc'h-houarn
+37	1437	skoaz	divskoaz zivskoaz
+38	1438	minorelezh	minorelezhioù vinorelezh vinorelezhioù
+39	1439	difenner	difennerien difennerion zifenner zifennerien
+40	1440	poull	foull poulloù
+41	1441	euro	euroioù
+42	1442	null	nullañ nulle nullet nulli
+43	1443	luc'hskeudenn	luc'hskeudennoù
+44	1444	toenn	doenn doennoù toennoù zoenn zoennoù
+45	1445	tal	dal zal zalioù
+46	1446	bourk	bourc'h bourc'hioù vourc'h
+47	1447	empenn	empennoù
+48	1448	benniget	venniget
+49	1449	gevrediñ	c'hevrediñ gevredan gevredas gevrede gevredec'h gevredemp gevreden gevredent gevredes gevredet gevredez gevredfe gevredfec'h gevredfed gevredfemp gevredfen gevredfent gevredfes gevredi gevredimp gevredin gevredint gevredis gevredit gevredje gevredjec'h gevredjed gevredjemp gevredjen gevredjent gevredjes gevredjoc'h gevredjod gevredjomp gevredjont gevredjout gevredo gevredomp gevredont gevredor gevredot kevredet kevrediñ
+50	1450	bosenn	vosenn
+51	1451	pevarzek	bevarzek fevarzek
+52	1452	savenn	savennoù
+53	1453	degad	degadoù zegad
+54	1454	releg	relegenn relegoù
+55	1455	from	fromoù
+56	1456	diñs	diñsoù ziñs
+57	1457	trevadenniñ	drevadennas drevadenniñ trevadennan trevadennas trevadenne trevadennec'h trevadennemp trevadennen trevadennent trevadennes trevadennet trevadennez trevadennfe trevadennfec'h trevadennfed trevadennfemp trevadennfen trevadennfent trevadennfes trevadenni trevadennimp trevadennin trevadennint trevadennis trevadennit trevadennje trevadennjec'h trevadennjed trevadennjemp trevadennjen trevadennjent trevadennjes trevadennjoc'h trevadennjod trevadennjomp trevadennjont trevadennjout trevadenno trevadennomp trevadennont trevadennor trevadennot zrevadenniñ
+58	1458	prenestr	brenestr brenestroù frenestr prenester prenestri prenestroù
+59	1459	rentañ	rent rentan rentas rente rentec'h rentemp renten rentent rentes rentet rentez rentfe rentfec'h rentfed rentfemp rentfen rentfent rentfes renti rentimp rentin rentint rentis rentit rentiñ rentje rentjec'h rentjed rentjemp rentjen rentjent rentjes rentjoc'h rentjod rentjomp rentjont rentjout rento rentomp rentont rentor rentot rentout
+60	1460	kempouez	c'hempouez gempouez
+61	1461	galian	c'halian c'halianed galianed galianez
+62	1462	teñzor	deñzor deñzorioù teñzorioù
+63	1463	stekiñ	stokan stokas stoke stokec'h stokemp stoken stokent stokes stoket stokez stokfe stokfec'h stokfed stokfemp stokfen stokfent stokfes stoki stokimp stokin stokint stokis stokit stokje stokjec'h stokjed stokjemp stokjen stokjent stokjes stokjoc'h stokjod stokjomp stokjont stokjout stoko stokomp stokont stokor stokot
+64	1464	obidoù	
+65	1465	nann	
+66	1466	techet	
+67	1467	servijer	servijerez servijerien servijerioù
+68	1468	rod	rodoù
+69	1469	skritell	skritelloù
+70	1470	bodadenn	bodadennoù vodadenn
+71	1471	boulc'hañ	boulc'han boulc'has boulc'he boulc'hec'h boulc'hemp boulc'hen boulc'hent boulc'hes boulc'het boulc'hez boulc'hfe boulc'hfec'h boulc'hfed boulc'hfemp boulc'hfen boulc'hfent boulc'hfes boulc'hi boulc'himp boulc'hin boulc'hint boulc'his boulc'hit boulc'hiñ boulc'hje boulc'hjec'h boulc'hjed boulc'hjemp boulc'hjen boulc'hjent boulc'hjes boulc'hjoc'h boulc'hjod boulc'hjomp boulc'hjont boulc'hjout boulc'ho boulc'homp boulc'hont boulc'hor boulc'hot voulc'has voulc'hañ
+72	1472	priñselezh	briñselezh briñselezhioù friñselezh priñselezhioù
+73	1473	skoulmañ	skoulman skoulmas skoulme skoulmec'h skoulmemp skoulmen skoulment skoulmes skoulmet skoulmez skoulmfe skoulmfec'h skoulmfed skoulmfemp skoulmfen skoulmfent skoulmfes skoulmi skoulmimp skoulmin skoulmint skoulmis skoulmit skoulmje skoulmjec'h skoulmjed skoulmjemp skoulmjen skoulmjent skoulmjes skoulmjoc'h skoulmjod skoulmjomp skoulmjont skoulmjout skoulmo skoulmomp skoulmont skoulmor skoulmot
+74	1474	skin	skinoù
+75	1475	teod	deod teodoù zeod
+76	1476	beajour	beajer beajourien beajourion veajer veajerez veajour veajourez veajourien veajourion
+77	1477	kamm	c'hamm c'hammed c'hammedoù gamm gammed kammañ kamme kammed kammedoù kammet
+78	1478	liammañ	liamman liamme liammer liammfe liammfec'h liammfed liammfemp liammfen liammfent liammfes liammimp liammis liammiñ liammje liammjec'h liammjed liammjemp liammjen liammjent liammjes liammjoc'h liammjod liammjomp liammjont liammjout liammoc'h liammont liammor liammot
+79	1479	dastumer	dastumerez dastumerien dastumerion tastumer zastumerien
+80	1480	uhelaat	uhela uhelaan uhelaas uhelae uhelaec'h uhelaemp uhelaen uhelaent uhelaes uhelaet uhelaez uhelafe uhelafec'h uhelafed uhelafemp uhelafen uhelafent uhelafes uhelai uhelaimp uhelain uhelaint uhelais uhelait uhelaje uhelajec'h uhelajed uhelajemp uhelajen uhelajent uhelajes uhelajoc'h uhelajod uhelajomp uhelajont uhelajout uhelao uhelaomp uhelaont uhelaor uhelaot
+81	1481	dale	dalean daleas daleañ dalee daleec'h daleemp daleen daleent dalees daleet daleez dalefe dalefec'h dalefed dalefemp dalefen dalefent dalefes dalei daleimp dalein daleint daleis daleit daleiñ daleje dalejec'h dalejed dalejemp dalejen dalejent dalejes dalejoc'h dalejod dalejomp dalejont dalejout daleo daleomp daleont daleor daleot daleout daleoù tale taleas zale zaleas zaleañ zaleont
+82	1482	morlaer	morlaeron vorlaerez vorlaeron
+83	1483	asant	
+84	1484	strad	
+85	1485	hogos	
+86	1486	emrenerezh	emrenerezhioù
+87	1487	gwele	gweleoù
+88	1488	diroll	dirollañ tiroll ziroll zirollañ
+89	1489	bac'h	pac'h vac'h
+90	1490	yac'h	yac'hañ yac'hoc'h
+91	1491	fuzuilh	fuzuilhoù
+92	1492	naer	naered naeron
+93	1493	gwrez	gwrezioù wrez
+94	1494	preti	breti freti pretioù
+95	1495	levier	levierez levierien levierion
+96	1496	dilec'hiañ	dilec'hañ dilec'hi dilec'hian dilec'hias dilec'hie dilec'hiec'h dilec'hiemp dilec'hien dilec'hient dilec'hies dilec'hiet dilec'hiez dilec'hife dilec'hifec'h dilec'hifed dilec'hifemp dilec'hifen dilec'hifent dilec'hifes dilec'hii dilec'hiimp dilec'hiin dilec'hiint dilec'hiis dilec'hiit dilec'hiiñ dilec'hije dilec'hijec'h dilec'hijed dilec'hijemp dilec'hijen dilec'hijent dilec'hijes dilec'hijoc'h dilec'hijod dilec'hijomp dilec'hijont dilec'hijout dilec'hio dilec'hiomp dilec'hiont dilec'hior dilec'hiot dilec'hiñ tilec'hiañ tilec'hient tilec'hio tilec'hiont zilec'hiañ zilec'hiont
+97	1497	bronn	bronnoù divronn vronn
+98	1498	krouadur	c'hrouadur c'hrouadurioù grouadur grouadurez grouadurioù krouadurien krouadurioù krouaduroù
+99	1499	repuiñ	repuan repuas repue repuec'h repuemp repuen repuent repues repuet repuez repufe repufec'h repufed repufemp repufen repufent repufes repui repuimp repuin repuint repuis repuit repuje repujec'h repujed repujemp repujen repujent repujes repujoc'h repujod repujomp repujont repujout repuo repuomp repuont repuor repuot
+100	1500	adenvel	adanvan adanvas adanve adanvec'h adanvemp adanven adanvent adanves adanvet adanvez adanvfe adanvfec'h adanvfed adanvfemp adanvfen adanvfent adanvfes adanvi adanvimp adanvin adanvint adanvis adanvit adanvje adanvjec'h adanvjed adanvjemp adanvjen adanvjent adanvjes adanvjoc'h adanvjod adanvjomp adanvjont adanvjout adanvo adanvomp adanvont adanvor adanvot

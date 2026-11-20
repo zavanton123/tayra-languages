@@ -1,100 +1,100 @@
-1	4001	filip	
-2	4002	golvan	
-3	4003	komer	c'homer gomer komeras komerent komeret komerin komerit komerjont komero komeromp komeront
-4	4004	kastor	
-5	4005	noblet	
-6	4006	ploue	
-7	4007	tabernakl	
-8	4008	beuzid	veuzid
-9	4009	a-darzh	
-10	4010	abdomen	
-11	4011	adren	
-12	4012	advugelañ	
-13	4013	alpaer	
-14	4014	amzer-da-zont	
-15	4015	anv-stroll	
-16	4016	archerdi	
-17	4017	arruz	
-18	4018	arstalenn	
-19	4019	arwer	
-20	4020	asperjez	
-21	4021	aval-gouzoug	
-22	4022	aveliñ	avelat avelañ avelfe avelin avelo
-23	4023	azezenn	
-24	4024	babourzh	
-25	4025	balc'h	
-26	4026	balzamegenn	
-27	4027	barad	
-28	4028	bariom	
-29	4029	baz	
-30	4030	pec'hiñ	bec'hiñ
-31	4031	berkeliom	
-32	4032	bezv	
-33	4033	bili-bann	
-34	4034	binioù-bras	
-35	4035	bizaj	
-36	4036	bizerez	
-37	4037	boks	
-38	4038	boued-laezh	
-39	4039	broenn	broen
-40	4040	brugeg	brugeier
-41	4041	buz	
-42	4042	kalir	c'halir
-43	4043	kanod	c'hanod
-44	4044	karr-nezañ	c'harr-nezañ
-45	4045	klañvgarr	c'hlañvgirri
-46	4046	c'hoantek	
-47	4047	c'hoantus	
-48	4048	c'hoarius	
-49	4049	kretaat	c'hretaat
-50	4050	taboulinañ	daboulinañ taboulinal taboulinat tabourinañ
-51	4051	daoulamm	
-52	4052	daskirier	
-53	4053	dentouriezh	
-54	4054	deog	deogoù
-55	4055	dereiñ	tereiñ zereiñ
-56	4056	derez-uhelañ	
-57	4057	deuñv	
-58	4058	diabeg	
-59	4059	diannez	
-60	4060	diantav	
-61	4061	diastuzer	diastuzerioù
-62	4062	dibourvez	
-63	4063	dibreder	
-64	4064	dic'halloud	
-65	4065	difuiñ	
-66	4066	digalonekaat	digalonekae tigalonekaat zigalonekaat
-67	4067	diglod	
-68	4068	digor-kalon	
-69	4069	tildenn	dildenn
-70	4070	diles	
-71	4071	dilun	
-72	4072	dirapar	
-73	4073	disammañ	disammiñ tisammañ zisammañ
-74	4074	disliv	
-75	4075	divarv	
-76	4076	dizarmañ	dizarmiñ tizarmañ zizarmañ
-77	4077	dizoare	
-78	4078	dizonest	
-79	4079	torek	dorek
-80	4080	dornañ	tornañ zornañ
-81	4081	douez	
-82	4082	doñjer	
-83	4083	drant	
-84	4084	drouiziezh	
-85	4085	drouklaouen	
-86	4086	troveni	droveni
-87	4087	e-metoù	
-88	4088	eilc'hoarier	
-89	4089	enbroañ	enbroiñ
-90	4090	eoriañ	eoriñ
-91	4091	eostiñ	eostañ eosto
-92	4092	eoul-douar	
-93	4093	eoulek	
-94	4094	erbiom	
-95	4095	askell-groc'hen	eskell-kroc'hen
-96	4096	euskaregerez	euskaregerien
-97	4097	evneta	
-98	4098	fennañ	
-99	4099	fiez	
-100	4100	filhor	
+1	4001	kizell	gizell kizelloù
+2	4002	goz	gozed
+3	4003	kriadenn	griadenn kriadennoù
+4	4004	grouan	grouanennoù
+5	4005	kuchenn	guchenn
+6	4006	gwerc'hted	werc'hted
+7	4007	gwerennad	werennad
+8	4008	helosk	heloskoù
+9	4009	heureuchin-reunek	heureuchined-reunek
+10	4010	jederez	jederezioù
+11	4011	kabac'h	
+12	4012	kalediñ	kaledan kaledas kalede kaledec'h kaledemp kaleden kaledent kaledes kaledet kaledez kaledfe kaledfec'h kaledfed kaledfemp kaledfen kaledfent kaledfes kaledi kaledimp kaledin kaledint kaledis kaledit kaledje kaledjec'h kaledjed kaledjemp kaledjen kaledjent kaledjes kaledjoc'h kaledjod kaledjomp kaledjont kaledjout kaledo kaledomp kaledont kaledor kaledot
+13	4013	kan-ha-diskan	c'han-ha-diskan
+14	4014	kargas	gargas
+15	4015	kerez	c'herez
+16	4016	kernez	gernez
+17	4017	kigennek	kigennekoc'h
+18	4018	kivijer	givijerien kivijerien
+19	4019	klun	c'hlunioù
+20	4020	koc'hu	c'hoc'hu
+21	4021	koef	goef koefoù
+22	4022	komis	gomis
+23	4023	korz	c'horz
+24	4024	legestr	ligistri
+25	4025	lintrañ	lintr lintran lintras lintre lintrec'h lintremp lintren lintrent lintres lintret lintrez lintrfe lintrfec'h lintrfed lintrfemp lintrfen lintrfent lintrfes lintri lintrimp lintrin lintrint lintris lintrit lintriñ lintrje lintrjec'h lintrjed lintrjemp lintrjen lintrjent lintrjes lintrjoc'h lintrjod lintrjomp lintrjont lintrjout lintro lintromp lintront lintror lintrot
+26	4026	lovr	lovrien
+27	4027	magus	magusoc'h
+28	4028	merien	merion
+29	4029	mesper	vesper
+30	4030	mikroskop	mikroskopoù
+31	4031	nec'hus	
+32	4032	oeñs	oeñsoù
+33	4033	pennti	penntioù
+34	4034	peuznoz	beuznoz
+35	4035	peñsead	peñseidi
+36	4036	pikez	bikez
+37	4037	pod-te	podoù-te
+38	4038	preizhadeg	preizhadegoù
+39	4039	rederig	rederigoù
+40	4040	rouzañ	rouzan rouzas rouze rouzec'h rouzed rouzemp rouzen rouzent rouzer rouzes rouzet rouzez rouzfe rouzfec'h rouzfed rouzfemp rouzfen rouzfent rouzfes rouzi rouzimp rouzin rouzint rouzis rouzit rouziñ rouzje rouzjec'h rouzjed rouzjemp rouzjen rouzjent rouzjes rouzjoc'h rouzjod rouzjomp rouzjont rouzjout rouzo rouzomp rouzont rouzor rouzot
+41	4041	sebezus	sebezusoc'h
+42	4042	senklenn	senklennoù
+43	4043	skerb	skerboù
+44	4044	skinforn	skinfornioù
+45	4045	skingomzer	skingomzerioù
+46	4046	staotat	staotan staotas staotañ staote staotec'h staotemp staoten staotent staotes staotet staotez staotfe staotfec'h staotfed staotfemp staotfen staotfent staotfes staoti staotimp staotin staotint staotis staotit staotiñ staotje staotjec'h staotjed staotjemp staotjen staotjent staotjes staotjoc'h staotjod staotjomp staotjont staotjout staoto staotomp staotont staotor staotot
+47	4047	takson	taksonoù
+48	4048	talabarder	talabarderien
+49	4049	tan-arvest	tanioù-arvest
+50	4050	tan-taran	dan-taran
+51	4051	taouarc'heg	daouarc'heg taouarc'hegi
+52	4052	daoulinañ	daoulinan daoulinas daouline daoulinec'h daoulinemp daoulinen daoulinent daoulines daoulinet daoulinez daoulinfe daoulinfec'h daoulinfed daoulinfemp daoulinfen daoulinfent daoulinfes daoulini daoulinimp daoulinin daoulinint daoulinis daoulinit daouliniñ daoulinje daoulinjec'h daoulinjed daoulinjemp daoulinjen daoulinjent daoulinjes daoulinjoc'h daoulinjod daoulinjomp daoulinjont daoulinjout daoulino daoulinomp daoulinont daoulinor daoulinot taoulinas taoulinañ zaoulinañ
+53	4053	tiad	tiadoù
+54	4054	toriom	doriom
+55	4055	trotal	drotal trotan trotas trotañ trote trotec'h trotemp troten trotent trotes trotet trotez trotfe trotfec'h trotfed trotfemp trotfen trotfent trotfes troti trotimp trotin trotint trotis trotit trotiñ trotje trotjec'h trotjed trotjemp trotjen trotjent trotjes trotjoc'h trotjod trotjomp trotjont trotjout troto trotomp trotont trotor trotot
+56	4056	barrikenn	barrikennoù varrikenn
+57	4057	milligañ	millig milligan milligas millige milligec'h milligemp milligen milligent milliges milligez milligfe milligfec'h milligfed milligfemp milligfen milligfent milligfes milligi milligimp milligin milligint milligis milligit milligje milligjec'h milligjed milligjemp milligjen milligjent milligjes milligjoc'h milligjod milligjomp milligjont milligjout milligo milligomp milligont milligor milligot villigas
+58	4058	biz-kreiz	viz-kreiz
+59	4059	bole	vole
+60	4060	gwennel	gwennili wennili
+61	4061	gwerenn-dal	werenn-dal
+62	4062	gwiskerez	gwiskerezed wisker
+63	4063	yaouankaat	yaouanka yaouankaad yaouankaan yaouankaas yaouankae yaouankaec'h yaouankaemp yaouankaen yaouankaent yaouankaes yaouankaet yaouankaez yaouankafe yaouankafec'h yaouankafed yaouankafemp yaouankafen yaouankafent yaouankafes yaouankai yaouankaimp yaouankain yaouankaint yaouankais yaouankait yaouankaje yaouankajec'h yaouankajed yaouankajemp yaouankajen yaouankajent yaouankajes yaouankajoc'h yaouankajod yaouankajomp yaouankajont yaouankajout yaouankao yaouankaomp yaouankaont yaouankaor yaouankaot
+64	4064	tredaner	zredanerez
+65	4065	aotreed	aotreidi
+66	4066	berrentez	verrentez
+67	4067	bleuñviñ	bleuñvan bleuñvas bleuñve bleuñvec'h bleuñvemp bleuñven bleuñvent bleuñves bleuñvet bleuñvez bleuñvfe bleuñvfec'h bleuñvfed bleuñvfemp bleuñvfen bleuñvfent bleuñvfes bleuñvi bleuñviañ bleuñvimp bleuñvin bleuñvint bleuñvis bleuñvit bleuñvje bleuñvjec'h bleuñvjed bleuñvjemp bleuñvjen bleuñvjent bleuñvjes bleuñvjoc'h bleuñvjod bleuñvjomp bleuñvjont bleuñvjout bleuñvo bleuñvomp bleuñvont bleuñvor bleuñvot vleuñviñ
+68	4068	bor	borioù
+69	4069	daoudroadeg	daoudroadeged
+70	4070	daskrenañ	daskren daskrenan daskrenas daskrene daskrenec'h daskrenemp daskrenen daskrenent daskrenes daskrenet daskrenez daskrenfe daskrenfec'h daskrenfed daskrenfemp daskrenfen daskrenfent daskrenfes daskreni daskrenimp daskrenin daskrenint daskrenis daskrenit daskreniñ daskrenje daskrenjec'h daskrenjed daskrenjemp daskrenjen daskrenjent daskrenjes daskrenjoc'h daskrenjod daskrenjomp daskrenjont daskrenjout daskreno daskrenomp daskrenont daskrenor daskrenot taskrenañ zaskrenañ
+71	4071	galvedigezh	c'halvedigezh
+72	4072	gouzizañ	c'houziz gouziz gouzizan gouzizas gouzize gouzizec'h gouzizemp gouzizen gouzizent gouzizes gouzizet gouzizez gouzizfe gouzizfec'h gouzizfed gouzizfemp gouzizfen gouzizfent gouzizfes gouzizi gouzizimp gouzizin gouzizint gouzizis gouzizit gouziziñ gouzizje gouzizjec'h gouzizjed gouzizjemp gouzizjen gouzizjent gouzizjes gouzizjoc'h gouzizjod gouzizjomp gouzizjont gouzizjout gouzizo gouzizomp gouzizont gouzizor gouzizot
+73	4073	gwri	gwrioù
+74	4074	haleg	halegenn
+75	4075	kafein	c'hafein
+76	4076	kestal	gestal kestan kestas kestañ keste kestec'h kestemp kesten kestent kestes kestet kestez kestfe kestfec'h kestfed kestfemp kestfen kestfent kestfes kesti kestimp kestin kestint kestis kestit kestje kestjec'h kestjed kestjemp kestjen kestjent kestjes kestjoc'h kestjod kestjomp kestjont kestjout kesto kestomp kestont kestor kestot
+77	4077	lennadur	lennadurioù
+78	4078	pentañ	bentañ fentañ pentan pentas pente pentec'h pentemp penten pentent pentes pentet pentez pentfe pentfec'h pentfed pentfemp pentfen pentfent pentfes penti pentimp pentin pentint pentis pentit pentiñ pentje pentjec'h pentjed pentjemp pentjen pentjent pentjes pentjoc'h pentjod pentjomp pentjont pentjout pento pentomp pentont pentor pentot
+79	4079	picher	picherioù picheroù
+80	4080	raktommañ	raktomm raktomman raktommas raktomme raktommec'h raktommemp raktommen raktomment raktommes raktommet raktommez raktommfe raktommfec'h raktommfed raktommfemp raktommfen raktommfent raktommfes raktommi raktommimp raktommin raktommint raktommis raktommit raktommje raktommjec'h raktommjed raktommjemp raktommjen raktommjent raktommjes raktommjoc'h raktommjod raktommjomp raktommjont raktommjout raktommo raktommomp raktommont raktommor raktommot
+81	4081	sili	silienn
+82	4082	mored	vored
+83	4083	warc'hoazh	
+84	4084	bokser	bokserien vokserien
+85	4085	doganiñ	doganan doganas doganañ dogane doganec'h doganemp doganen doganent doganes doganet doganfe doganfec'h doganfed doganfemp doganfen doganfent doganfes dogani doganimp doganin doganint doganis doganit doganje doganjec'h doganjed doganjemp doganjen doganjent doganjes doganjoc'h doganjod doganjomp doganjont doganjout dogano doganomp doganont doganor doganot toganiñ zoganiñ
+86	4086	fregañ	freg fregan fregas frege fregec'h fregemp fregen fregent freges freget fregez fregfe fregfec'h fregfed fregfemp fregfen fregfent fregfes fregfont fregi fregimp fregin fregint fregis fregit fregiñ fregje fregjec'h fregjed fregjemp fregjen fregjent fregjes fregjoc'h fregjod fregjomp fregjont fregjout frego fregomp fregont fregor fregot
+87	4087	kal	c'hal gal
+88	4088	kac'hat	gac'has kac'h kac'han kac'has kac'he kac'hec'h kac'hemp kac'hen kac'hent kac'hes kac'het kac'hez kac'hfe kac'hfec'h kac'hfed kac'hfemp kac'hfen kac'hfent kac'hfes kac'hi kac'himp kac'hin kac'hint kac'his kac'hit kac'hje kac'hjec'h kac'hjed kac'hjemp kac'hjen kac'hjent kac'hjes kac'hjoc'h kac'hjod kac'hjomp kac'hjont kac'hjout kac'ho kac'homp kac'hont kac'hor kac'hot kac'hout
+89	4089	kalonekaat	c'halonekaat galonekaas galonekaat kaloneka kalonekaan kalonekaas kalonekae kalonekaec'h kalonekaemp kalonekaen kalonekaent kalonekaes kalonekaet kalonekaez kalonekafe kalonekafec'h kalonekafed kalonekafemp kalonekafen kalonekafent kalonekafes kalonekai kalonekaimp kalonekain kalonekaint kalonekais kalonekait kalonekaje kalonekajec'h kalonekajed kalonekajemp kalonekajen kalonekajent kalonekajes kalonekajoc'h kalonekajod kalonekajomp kalonekajont kalonekajout kalonekao kalonekaomp kalonekaont kalonekaor kalonekaot
+90	4090	milin-dour	vilin-dour vilin-zour
+91	4091	pareañs	bareañs pareañsoù
+92	4092	pennwisk	bennwisk pennwiskoù
+93	4093	korc'hwezh	c'horc'hwezh gorc'hwezh korc'hwezhioù
+94	4094	koukoug	c'houkoug goukoug
+95	4095	gourbiolin	c'hourbiolin gourbiolinoù
+96	4096	greantour	c'hreantourien greantourien
+97	4097	gevel	c'hevel gevelioù
+98	4098	ti-skol	diez-skol tiez-skol
+99	4099	dileizhañ	dileizh dileizhan dileizhas dileizhe dileizhec'h dileizhemp dileizhen dileizhent dileizhes dileizhet dileizhez dileizhfe dileizhfec'h dileizhfed dileizhfemp dileizhfen dileizhfent dileizhfes dileizhi dileizhimp dileizhin dileizhint dileizhis dileizhit dileizhje dileizhjec'h dileizhjed dileizhjemp dileizhjen dileizhjent dileizhjes dileizhjoc'h dileizhjod dileizhjomp dileizhjont dileizhjout dileizho dileizhomp dileizhont dileizhor dileizhot tileizhañ tileizhont zileizhañ
+100	4100	dispegañ	dispeg dispegan dispegas dispege dispegec'h dispegemp dispegen dispegent dispeges dispeget dispegez dispegfe dispegfec'h dispegfed dispegfemp dispegfen dispegfent dispegfes dispegi dispegimp dispegin dispegint dispegis dispegit dispegiñ dispegje dispegjec'h dispegjed dispegjemp dispegjen dispegjent dispegjes dispegjoc'h dispegjod dispegjomp dispegjont dispegjout dispego dispegomp dispegont dispegor dispegot tispegañ zispegañ

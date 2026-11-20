@@ -1,17 +1,17 @@
-1	1001	divizout	divize divizis tivizout zivizout
+1	1001	divizout	diviz divizan divizas divize divizec'h divizemp divizen divizent divizes divizet divizez divizfe divizfec'h divizfed divizfemp divizfen divizfent divizfes divizi divizimp divizin divizint divizis divizit divizje divizjec'h divizjed divizjemp divizjen divizjent divizjes divizjoc'h divizjod divizjomp divizjont divizjout divizo divizomp divizont divizor divizot tiviz tivizas tivizjont tivizo tivizont tivizout ziviz zivizas zivizjont zivizout
 2	1002	bir	biroù pir vir
-3	1003	loc'hañ	loc'h loc'has loc'hat loc'het loc'hioù loc'hiñ loc'hoù
+3	1003	loc'hañ	loc'h loc'han loc'has loc'hat loc'he loc'hec'h loc'hemp loc'hen loc'hent loc'hes loc'het loc'hez loc'hfe loc'hfec'h loc'hfed loc'hfemp loc'hfen loc'hfent loc'hfes loc'hi loc'himp loc'hin loc'hint loc'hioù loc'his loc'hit loc'hiñ loc'hje loc'hjec'h loc'hjed loc'hjemp loc'hjen loc'hjent loc'hjes loc'hjoc'h loc'hjod loc'hjomp loc'hjont loc'hjout loc'ho loc'homp loc'hont loc'hor loc'hot loc'hoù
 4	1004	pinvidigezh	binvidigezh binvidigezhioù finvidigezh finvidigezhioù pinvidigezhioù
-5	1005	saveteiñ	
+5	1005	saveteiñ	savete savetean saveteas savetee saveteec'h saveteemp saveteen saveteent savetees saveteet saveteez savetefe savetefec'h savetefed savetefemp savetefen savetefent savetefes savetei saveteimp savetein saveteint saveteis saveteit saveteje savetejec'h savetejed savetejemp savetejen savetejent savetejes savetejoc'h savetejod savetejomp savetejont savetejout saveteo saveteomp saveteont saveteor saveteot
 6	1006	armet	
-7	1007	menegiñ	venegiñ
+7	1007	menegiñ	meneg menegan menegas menege menegec'h menegemp menegen menegent meneges meneget menegez menegfe menegfec'h menegfed menegfemp menegfen menegfent menegfes menegi menegimp menegin menegint menegis menegit menegje menegjec'h menegjed menegjemp menegjen menegjent menegjes menegjoc'h menegjod menegjomp menegjont menegjout menego menegomp menegont menegor menegot veneg venegas venege veneget venegiñ venegont
 8	1008	gorre	c'horre gorreoù
 9	1009	askorn	eskern
 10	1010	kelt	c'helt gelt gelted kelted
 11	1011	kustum	c'hustum gustum
-12	1012	pignat	bignat pign pignal pignas pigne pignent pigner pigniñ pigno
+12	1012	pignat	bignat pign pignal pignan pignas pigne pignec'h pignemp pignen pignent pigner pignes pignet pignez pignfe pignfec'h pignfed pignfemp pignfen pignfent pignfes pigni pignimp pignin pignint pignis pignit pigniñ pignje pignjec'h pignjed pignjemp pignjen pignjent pignjes pignjoc'h pignjod pignjomp pignjont pignjout pigno pignomp pignont pignor pignot
 13	1013	bod	bodoù
-14	1014	barr	barroù parr varr varroù
+14	1014	barr	barrioù barroù parr varr varroù
 15	1015	keodedour	c'heodedour c'heodedourien geodedour geodedourez geodedourien geodedourion keodedourien keodedourion
 16	1016	digarez	digarezioù zigarez zigarezioù
 17	1017	elektronek	
@@ -19,10 +19,10 @@
 19	1019	skañv	skañvat skañvañ skañvoc'h
 20	1020	dañs	dañsoù tañs zañs
 21	1021	leat	lead leas lee leec'h leed leemp leen leent leer lees leet leez lefe lefec'h lefed lefemp lefen lefent lefes lei leimp leint leis leit leje lejec'h lejed lejemp lejen lejent lejes lejoc'h lejod lejomp lejont lejout leo leomp leont leor leot
-22	1022	muzuliañ	vuzuliañ
+22	1022	muzuliañ	muzuli muzulian muzulias muzulie muzuliec'h muzuliemp muzulien muzulient muzulies muzuliet muzuliez muzulife muzulifec'h muzulifed muzulifemp muzulifen muzulifent muzulifes muzulii muzuliimp muzuliin muzuliint muzuliis muzuliit muzulije muzulijec'h muzulijed muzulijemp muzulijen muzulijent muzulijes muzulijoc'h muzulijod muzulijomp muzulijont muzulijout muzulio muzuliomp muzuliont muzulior muzuliot vuzuliañ vuzulie vuzuliont
 23	1023	glan	c'hlan glanoc'h klan
 24	1024	bann	bannoù pann vann vannoù
-25	1025	leuskel	leuskal leusker
+25	1025	leuskel	leusk leuskal leuskan leuskas leuske leuskec'h leuskemp leusken leuskent leusker leuskes leusket leuskez leuskfe leuskfec'h leuskfed leuskfemp leuskfen leuskfent leuskfes leuski leuskimp leuskin leuskint leuskis leuskit leuskje leuskjec'h leuskjed leuskjemp leuskjen leuskjent leuskjes leuskjoc'h leuskjod leuskjomp leuskjont leuskjout leusko leuskomp leuskont leuskor leuskot
 26	1026	bugaleaj	vugaleaj
 27	1027	barner	barnerien varner varnerien varnerion
 28	1028	gar	c'haroù c'herent divhar garioù garoù gerent zivhar
@@ -32,9 +32,9 @@
 32	1032	argadenn	argadennoù
 33	1033	diskibl	diskibien diskibion diskibled ziskibien ziskibion ziskibl ziskibled
 34	1034	traezh	draezh draezhenn draezhennoù traezhenn traezhennoù zraezh zraezhenn
-35	1035	santout	santan santas santañ sante santed santen santer santes santet santi santis santit santo
-36	1036	skingomz	
-37	1037	skorn	skornañ
+35	1035	santout	santan santas santañ sante santec'h santed santemp santen santent santer santes santet santfe santfec'h santfed santfemp santfen santfent santfes santi santimp santin santint santis santit santje santjec'h santjed santjemp santjen santjent santjes santjoc'h santjod santjomp santjont santjout santo santomp santont santor santot
+36	1036	skingomz	skingomzoù
+37	1037	skorn	skornas skornañ skornfe skornje
 38	1038	louzoù	louzeier
 39	1039	garv	c'harv garvoc'h
 40	1040	leanez	lean leaned leanezed
@@ -42,34 +42,34 @@
 42	1042	italianeg	
 43	1043	keit	
 44	1044	donder	donderioù zonder
-45	1045	peadra	beadra feadra
+45	1045	peadra	beadra feadra peadraoù
 46	1046	renkad	renkadoù
 47	1047	kened	c'hened gened
 48	1048	krennard	c'hrennard grennard grennarded grennardenn grennardez krennarded krennardenn krennardez
 49	1049	baron	baroned baronez faron varon varoned varonez
 50	1050	diskennad	diskennadez diskennidi ziskennadezed ziskennidi
-51	1051	parañ	baran baras barañ bared baret barez barezed bari barin baris barit baro farez farezed fari faris faro paran paras pared paren parent parer pares paret parez parezed pari parin parint paris parit paro parot varan varin varo
+51	1051	parañ	baran baras barañ bared baret barez barezed bari barin baris barit baro baront farez farezed fari faris faro paran paras parec'h pared paremp paren parent parer pares paret parez parezed parfe parfec'h parfed parfemp parfen parfent parfes pari parimp parin parint paris parit parje parjec'h parjed parjemp parjen parjent parjes parjoc'h parjod parjomp parjont parjout paro paromp paront paror parot varan varin varo
 52	1052	metoù	meteier vetoù
 53	1053	nac'hañ	
 54	1054	greantel	c'hreantel
 55	1055	gaz	c'haz c'hazoù gazoù
-56	1056	prientiñ	brientiñ frientiñ priental prientañ prientin
+56	1056	prientiñ	brientas briente brientiñ frientiñ priental prientan prientas prientañ priente prientec'h prientemp prienten prientent prientes prientet prientez prientfe prientfec'h prientfed prientfemp prientfen prientfent prientfes prienti prientimp prientin prientint prientis prientit prientje prientjec'h prientjed prientjemp prientjen prientjent prientjes prientjoc'h prientjod prientjomp prientjont prientjout priento prientomp prientont prientor prientot
 57	1057	amezeg	amezegez amezegezed amezeien amezeion
 58	1058	plasenn	blasenn flasenn flasennoù plasennoù
 59	1059	kementad	c'hementad c'hementadoù gementad gementadoù kementadoù
 60	1060	kevrenn	gevrenn kevrennoù
-61	1061	skoazellañ	skoazellis skoazelliñ
+61	1061	skoazellañ	skoazellan skoazellas skoazelle skoazellec'h skoazellemp skoazellen skoazellent skoazelles skoazellet skoazellez skoazellfe skoazellfec'h skoazellfed skoazellfemp skoazellfen skoazellfent skoazellfes skoazelli skoazellimp skoazellin skoazellint skoazellis skoazellit skoazelliñ skoazellje skoazelljec'h skoazelljed skoazelljemp skoazelljen skoazelljent skoazelljes skoazelljoc'h skoazelljod skoazelljomp skoazelljont skoazelljout skoazello skoazellomp skoazellont skoazellor skoazellot
 62	1062	deiziad	deiziadoù zeiziad zeiziadoù
-63	1063	gwan	gwanañ gwanoc'h wan wanoc'h
+63	1063	gwan	gwanañ gwano gwanoc'h wan wanoc'h
 64	1064	maner	manerioù
-65	1065	pouezañ	bouezañ pouesañ poueze poueziñ
+65	1065	pouezañ	bouezas bouezañ pouesañ pouezan pouezas poueze pouezec'h pouezemp pouezen pouezent pouezes pouezet pouezez pouezfe pouezfec'h pouezfed pouezfemp pouezfen pouezfent pouezfes pouezi pouezimp pouezin pouezint pouezis pouezit poueziñ pouezje pouezjec'h pouezjed pouezjemp pouezjen pouezjent pouezjes pouezjoc'h pouezjod pouezjomp pouezjont pouezjout pouezo pouezomp pouezont pouezor pouezot
 66	1066	telenn	delenn telennoù zelenn
 67	1067	medalenn	medalennoù medalinier vedalenn vedalennoù
 68	1068	ker	c'herañ gerañ kerañ kerioù keroc'h
 69	1069	a-sav	
 70	1070	ribl	ribloù
 71	1071	tour-tan	dour-tan dourioù-tan tourioù-tan zour-tan
-72	1072	treuzkas	dreuzkas zreuzkas
+72	1072	treuzkas	dreuzkas dreuzkasont treuzkasan treuzkasas treuzkase treuzkasec'h treuzkasemp treuzkasen treuzkasent treuzkases treuzkaset treuzkasez treuzkasfe treuzkasfec'h treuzkasfed treuzkasfemp treuzkasfen treuzkasfent treuzkasfes treuzkasi treuzkasimp treuzkasin treuzkasint treuzkasis treuzkasit treuzkasje treuzkasjec'h treuzkasjed treuzkasjemp treuzkasjen treuzkasjent treuzkasjes treuzkasjoc'h treuzkasjod treuzkasjomp treuzkasjont treuzkasjout treuzkaso treuzkasomp treuzkasont treuzkasor treuzkasot zreuzkas zreuzkasas
 73	1073	mezeg	mezegez mezeien vezeg vezegez vezeien vezeion
 74	1074	japanat	
 75	1075	aozer	
@@ -94,7 +94,7 @@
 94	1094	betek-henn	
 95	1095	test	dest destoù testoù zest
 96	1096	kab	c'hab gab
-97	1097	deskrivañ	teskrivañ zeskrivañ
+97	1097	deskrivañ	deskriv deskrivan deskrivas deskrive deskrivec'h deskrivemp deskriven deskrivent deskrives deskrivet deskrivez deskrivfe deskrivfec'h deskrivfed deskrivfemp deskrivfen deskrivfent deskrivfes deskrivi deskrivimp deskrivin deskrivint deskrivis deskrivit deskrivje deskrivjec'h deskrivjed deskrivjemp deskrivjen deskrivjent deskrivjes deskrivjoc'h deskrivjod deskrivjomp deskrivjont deskrivjout deskrivo deskrivomp deskrivont deskrivor deskrivot teskriv teskrivas teskrivañ zeskriv zeskrivañ zeskrive zeskrivet
 98	1098	diskouezadeg	diskouezadegoù ziskouezadeg ziskouezadegoù
 99	1099	gounid	c'hounid c'hounidoù gounidoù
 100	1100	enkadenn	enkadennoù

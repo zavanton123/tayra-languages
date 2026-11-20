@@ -1,100 +1,100 @@
-1	4901	lizherenn-dal	lizherennoù-tal
-2	4902	logod-dall	
-3	4903	losk	
-4	4904	loskadur	
-5	4905	loskus	
-6	4906	lostenn	
-7	4907	louzoù-kegin	
-8	4908	lugern	
-9	4909	lunvezh	
-10	4910	luskellat	luskellañ
-11	4911	lutesiom	
-12	4912	lutun	
-13	4913	maen-tan	
-14	4914	maligorn	
-15	4915	mandore	
-16	4916	mav	
-17	4917	maen-bonn	mein-bonn
-18	4918	meitneriom	
-19	4919	melen-ruz	melenruz
-20	4920	melion	
-21	4921	mendeleviom	
-22	4922	mergl	
-23	4923	merglañ	mergliñ verglañ
-24	4924	metanaat	vetanaat
-25	4925	mezeg-loened	
-26	4926	mezhur	vezhur
-27	4927	miliarderez	miliarderien
-28	4928	minvig	
-29	4929	mizus	
-30	4930	mol	moloù
-31	4931	morgad	
-32	4932	morgazh	
-33	4933	morhoc'h	morhoc'hed
-34	4934	morlaerezh	vorlaerezh
-35	4935	morueta	vorueta
-36	4936	moskovat	
-37	4937	muziker	
-38	4938	naderezh	
-39	4939	nadoz-vor	
-40	4940	naer-vro	naered-bro
-41	4941	naeted	
-42	4942	naetoni	
-43	4943	natriom	
-44	4944	naved	
-45	4945	nec'hiñ	nec'han
-46	4946	nein	
-47	4947	neizhiad	
-48	4948	neketa	
-49	4949	nepaleg	
-50	4950	nepalek	
-51	4951	nitrogen	
-52	4952	norvegat	
-53	4953	nouenn	
-54	4954	noz-deiz	
-55	4955	o-fevar	
-56	4956	odivi	
-57	4957	oferenner	
-58	4958	oksigenañ	oksigeno
-59	4959	ornitorink	
-60	4960	pae	
-61	4961	parfet	
-62	4962	paseal	baseal faseal pasiñ
-63	4963	pazenn-ha-pazenn	
-64	4964	pebezh	
-65	4965	pederyezhek	
-66	4966	pekari	
-67	4967	peoc'haat	beoc'haat feoc'haat
-68	4968	peroked	
-69	4969	peroked-mor	
-70	4970	pervezhded	
-71	4971	pifer	
-72	4972	pifon	
-73	4973	pinochez	
-74	4974	pirogenn	
-75	4975	pistig	
-76	4976	plegus	
-77	4977	plomer	
-78	4978	pober	
-79	4979	pod-kafe	podoù-kafe
-80	4980	pod-tredan	podoù-tredan
-81	4981	pole	
-82	4982	poloneger	polonegerien
-83	4983	poloniom	
-84	4984	bornañ	bornan bornas borne bornent borner bornes bornet bornez borni bornial borniañ bornin borno pornañ porno vornañ
-85	4985	porzh-bered	
-86	4986	porzh-kenwerzh	
-87	4987	potasiom	
-88	4988	pouezerez	
-89	4989	protaktiniom	
-90	4990	rabot	rabotoù
-91	4991	ragachat	ragachiñ
-92	4992	rahouenn	
-93	4993	rakkambr	
-94	4994	rakkemenn	rakkemennoù
-95	4995	raktommañ	
-96	4996	rampañ	ramp rampas rampe ramped rampent ramper rampes rampez rampi rampin rampis rampot
-97	4997	rannyezhouriezh	
-98	4998	ratozh	
-99	4999	razh-iliz	
-100	5000	renn	
+1	4901	hoc'h-dreinek	hoc'hed-dreinek
+2	4902	hollegour	
+3	4903	holmiom	
+4	4904	honhont	
+5	4905	horolaj-dorn	
+6	4906	horolaj-heol	horolajoù-heol
+7	4907	houarn-marc'h	
+8	4908	houl	
+9	4909	huanad	
+10	4910	hunva	
+11	4911	hunvaleer	hunvaleerez
+12	4912	ifernus	
+13	4913	igor	
+14	4914	iliav	
+15	4915	interesant	
+16	4916	irin	
+17	4917	irvin-ruz	irvinenn-ruz
+18	4918	isframmadur	
+19	4919	islandat	
+20	4920	istribilhañ	istribilh istribilhan istribilhas istribilhe istribilhec'h istribilhemp istribilhen istribilhent istribilhes istribilhet istribilhez istribilhfe istribilhfec'h istribilhfed istribilhfemp istribilhfen istribilhfent istribilhfes istribilhi istribilhimp istribilhin istribilhint istribilhis istribilhit istribilhje istribilhjec'h istribilhjed istribilhjemp istribilhjen istribilhjent istribilhjes istribilhjoc'h istribilhjod istribilhjomp istribilhjont istribilhjout istribilho istribilhomp istribilhont istribilhor istribilhot
+21	4921	iterbiom	
+22	4922	ividig	
+23	4923	ivineg	
+24	4924	izelvarr	
+25	4925	izil	
+26	4926	jol	jolioù
+27	4927	kaherek	
+28	4928	kailhastr	
+29	4929	kalkiom	
+30	4930	kammigellañ	gammigellañ kammigell kammigellan kammigellas kammigellat kammigelle kammigellec'h kammigellemp kammigellen kammigellent kammigelles kammigellet kammigellez kammigellfe kammigellfec'h kammigellfed kammigellfemp kammigellfen kammigellfent kammigellfes kammigelli kammigellimp kammigellin kammigellint kammigellis kammigellit kammigellje kammigelljec'h kammigelljed kammigelljemp kammigelljen kammigelljent kammigelljes kammigelljoc'h kammigelljod kammigelljomp kammigelljont kammigelljout kammigello kammigellomp kammigellont kammigellor kammigellot
+31	4931	karibou	
+32	4932	karr-stlej	
+33	4933	katalaneger	katalanegerien
+34	4934	kazh-koad	
+35	4935	kañvaouus	
+36	4936	kehederel	
+37	4937	kendruez	
+38	4938	kenganez	
+39	4939	kernezh	
+40	4940	kigner	
+41	4941	kignez	
+42	4942	kik	
+43	4943	kleron	
+44	4944	klonel	
+45	4945	klorit	
+46	4946	kluchañ	kluch kluchan kluchas kluche kluchec'h kluchemp kluchen kluchent kluches kluchet kluchez kluchfe kluchfec'h kluchfed kluchfemp kluchfen kluchfent kluchfes kluchi kluchimp kluchin kluchint kluchis kluchit kluchiñ kluchje kluchjec'h kluchjed kluchjemp kluchjen kluchjent kluchjes kluchjoc'h kluchjod kluchjomp kluchjont kluchjout klucho kluchomp kluchont kluchor kluchot
+47	4947	koarañ	koaran koaras koarat koare koarec'h koaremp koaren koarent koares koaret koarez koarfe koarfec'h koarfed koarfemp koarfen koarfent koarfes koari koarimp koarin koarint koaris koarit koariñ koarje koarjec'h koarjed koarjemp koarjen koarjent koarjes koarjoc'h koarjod koarjomp koarjont koarjout koaro koaromp koaront koaror koarot
+48	4948	kollidik	
+49	4949	kolon	
+50	4950	korfek	
+51	4951	kouskva	
+52	4952	koñsuldi	koñsuldioù
+53	4953	grakal	c'hrakal grak grakan grakas grakat grake grakec'h grakemp graken grakent grakes graket grakez grakfe grakfec'h grakfed grakfemp grakfen grakfent grakfes graki grakimp grakin grakint grakis grakit grakje grakjec'h grakjed grakjemp grakjen grakjent grakjes grakjoc'h grakjod grakjomp grakjont grakjout grako grakomp grakont grakor grakot krak
+54	4954	kramenn	
+55	4955	krap	
+56	4956	kredoni	
+57	4957	kregina	kreginaan kreginaas kreginae kreginaec'h kreginaemp kreginaen kreginaent kreginaes kreginaet kreginaez kreginafe kreginafec'h kreginafed kreginafemp kreginafen kreginafent kreginafes kreginai kreginaimp kreginain kreginaint kreginais kreginait kreginaje kreginajec'h kreginajed kreginajemp kreginajen kreginajent kreginajes kreginajoc'h kreginajod kreginajomp kreginajont kreginajout kreginao kreginaomp kreginaont kreginaor kreginaot kreginna
+58	4958	krenn-ha-krak	
+59	4959	krennvrezhonek	
+60	4960	kroazigellet	
+61	4961	kromet	
+62	4962	ksenon	
+63	4963	kuriom	
+64	4964	kuzher	
+65	4965	kuzulikat	c'huzulikat guzulikat kuzulik kuzulikan kuzulikas kuzulike kuzulikec'h kuzulikemp kuzuliken kuzulikent kuzulikes kuzuliket kuzulikez kuzulikfe kuzulikfec'h kuzulikfed kuzulikfemp kuzulikfen kuzulikfent kuzulikfes kuzuliki kuzulikimp kuzulikin kuzulikint kuzulikis kuzulikit kuzulikje kuzulikjec'h kuzulikjed kuzulikjemp kuzulikjen kuzulikjent kuzulikjes kuzulikjoc'h kuzulikjod kuzulikjomp kuzulikjont kuzulikjout kuzuliko kuzulikomp kuzulikont kuzulikor kuzulikot
+66	4966	kêr-gloz	
+67	4967	labous-ki	
+68	4968	lagadour	
+69	4969	lambrig	
+70	4970	laoskoni	
+71	4971	laou-dar	
+72	4972	lawrensiom	
+73	4973	lazherezh	
+74	4974	lazhdi	lazhti
+75	4975	lec'hideg	lec'hidegoù
+76	4976	lemmded	
+77	4977	lennus	
+78	4978	letrin	
+79	4979	lieslugell	
+80	4980	litiom	
+81	4981	lizherenn-dal	lizherennoù-tal
+82	4982	liñvañ	liñvan liñvas liñve liñvec'h liñvemp liñven liñvent liñves liñvet liñvez liñvfe liñvfec'h liñvfed liñvfemp liñvfen liñvfent liñvfes liñvi liñvimp liñvin liñvint liñvis liñvit liñviñ liñvje liñvjec'h liñvjed liñvjemp liñvjen liñvjent liñvjes liñvjoc'h liñvjod liñvjomp liñvjont liñvjout liñvo liñvomp liñvont liñvor liñvot
+83	4983	logod-dall	
+84	4984	losk	
+85	4985	loskadur	
+86	4986	loskus	
+87	4987	lostenn	
+88	4988	lousaat	lousa lousaan lousaas lousae lousaec'h lousaemp lousaen lousaent lousaes lousaet lousaez lousafe lousafec'h lousafed lousafemp lousafen lousafent lousafes lousai lousaimp lousain lousaint lousais lousait lousaje lousajec'h lousajed lousajemp lousajen lousajent lousajes lousajoc'h lousajod lousajomp lousajont lousajout lousao lousaomp lousaont lousaor lousaot
+89	4989	louzoù-kegin	
+90	4990	lugern	
+91	4991	lunvezh	
+92	4992	lutesiom	
+93	4993	lutun	
+94	4994	maen-tan	
+95	4995	maligorn	
+96	4996	mandore	
+97	4997	mav	
+98	4998	maen-bonn	mein-bonn
+99	4999	meitneriom	
+100	5000	melen-ruz	melenruz

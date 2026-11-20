@@ -1,39 +1,39 @@
-1	601	gwer	gwerenn gwerennoù wer werenn
+1	601	gwer	gwerenn gwerennoù gwerioù wer werenn
 2	602	eur	eurioù
 3	603	dispac'h	dispac'hioù dispac'hoù zispac'h zispac'hioù
 4	604	gwirion	wirion
 5	605	dija	
-6	606	reizh	reishoc'h reizhoù
+6	606	reizh	reishoc'h reizhoc'h reizhoù
 7	607	eskob	eskibien
 8	608	kentel	c'hentel c'hentelioù gentel gentelioù kentelioù
 9	609	karr-nij	c'harr-nij c'hirri-nij garr-nij girri-nij kirri-nij
-10	610	skeiñ	sko skoan skoas skoen skoet skois skoot
+10	610	skeiñ	sko skoan skoas skoe skoec'h skoemp skoen skoent skoes skoet skoez skofe skofec'h skofed skofemp skofen skofent skofes skoi skoimp skoin skoint skois skoit skoje skojec'h skojed skojemp skojen skojent skojes skojoc'h skojod skojomp skojont skojout skoo skoomp skoont skoor skoot
 11	611	gitar	c'hitar gitarioù gitaroù
 12	612	skiantel	skianteloc'h
 13	613	parlamant	barlamant farlamantoù parlamantoù
 14	614	paour	baour baourañ baourez beorien paourañ paouroc'h peorien vaour
 15	615	tre	
-16	616	sinema	sinemaoù
+16	616	sinema	sinemaioù sinemaoù
 17	617	degouezh	degouezhioù tegouezh zegouezh zegouezhioù
 18	618	eizh	
-19	619	dilezel	dilezas dilezi dilezint dileziñ tilezas tilezel zilezas zilezel
+19	619	dilezel	dilezan dilezas dileze dilezec'h dilezemp dilezen dilezent dilezes dilezet dilezez dilezfe dilezfec'h dilezfed dilezfemp dilezfen dilezfent dilezfes dilezi dilezimp dilezin dilezint dilezis dilezit dileziñ dilezje dilezjec'h dilezjed dilezjemp dilezjen dilezjent dilezjes dilezjoc'h dilezjod dilezjomp dilezjont dilezjout dilezo dilezomp dilezont dilezor dilezot tilezas tileze tilezel tilezfe tilezfent tilezje tilezjont tilezo zilezas zilezel
 20	620	a-dreñv	a-drek
 21	621	spagnol	spagnoled
 22	622	departamant	departamantoù zepartamant
 23	623	fiñval	fiñv fiñvan fiñvas fiñve fiñvec'h fiñved fiñvemp fiñven fiñvent fiñver fiñves fiñvet fiñvez fiñvfe fiñvfec'h fiñvfed fiñvfemp fiñvfen fiñvfent fiñvfes fiñvi fiñvimp fiñvin fiñvint fiñvis fiñvit fiñvje fiñvjec'h fiñvjed fiñvjemp fiñvjen fiñvjent fiñvjes fiñvjoc'h fiñvjod fiñvjomp fiñvjont fiñvjout fiñvo fiñvomp fiñvont fiñvor fiñvot fiñvoù
 24	624	sevenadurel	
 25	625	stagañ	stagas stage stager stagfe stagfec'h stagfed stagfemp stagfen stagfent stagfes stagimp stagis stagiñ stagje stagjec'h stagjed stagjemp stagjen stagjent stagjes stagjoc'h stagjod stagjomp stagjont stagjout stago stagoc'h stagont stagor stagot
-26	626	asantiñ	asantas asantañ asante asantent asantet asantfe asantimp asantin asantje asantjont asanto asantont asantout
+26	626	asantiñ	asantan asantas asantañ asante asantec'h asantemp asanten asantent asantes asantet asantez asantfe asantfec'h asantfed asantfemp asantfen asantfent asantfes asanti asantimp asantin asantint asantis asantit asantje asantjec'h asantjed asantjemp asantjen asantjent asantjes asantjoc'h asantjod asantjomp asantjont asantjout asanto asantomp asantont asantor asantot asantout
 27	627	nag	
 28	628	poan	boan boanioù foan poanioù voan
-29	629	troidigezh	droidigezh droidigezhioù troidigezhioù zroidigezh zroidigezhioù
+29	629	troidigezh	droidigezh droidigezhioù troidigezhioù troidigezhoù zroidigezh zroidigezhioù
 30	630	kurunenn	c'hurunenn c'hurunennoù gurunenn gurunennoù kurunennoù
 31	631	serriñ	serr serran serras serrañ serre serrec'h serred serremp serren serrent serrer serres serret serrez serrezh serrfe serrfec'h serrfed serrfemp serrfen serrfent serrfes serri serrimp serrin serrint serris serrit serrje serrjec'h serrjed serrjemp serrjen serrjent serrjes serrjoc'h serrjod serrjomp serrjon serrjont serrjout serro serroc'h serromp serront serror serrot
 32	632	piv	
 33	633	lesanv	lesanvioù
-34	634	paouez	baouez paouezañ paouezel paoueziñ
+34	634	paouez	baouez baouezas baoueze baouezent baouezfe baouezo baouezont paouezan paouezas paouezañ paoueze paouezec'h paouezel paouezemp paouezen paouezent paouezes paouezet paouezez paouezfe paouezfec'h paouezfed paouezfemp paouezfen paouezfent paouezfes paouezi paouezimp paouezin paouezint paouezis paouezit paoueziñ paouezje paouezjec'h paouezjed paouezjemp paouezjen paouezjent paouezjes paouezjoc'h paouezjod paouezjomp paouezjont paouezjout paouezo paouezomp paouezont paouezor paouezot
 35	635	bemdez	pemdez
-36	636	trec'hiñ	drec'het drec'hiñ trec'he trec'hen trec'het trec'hi zrec'hiñ
+36	636	trec'hiñ	drec'has drec'het drec'hiñ trec'han trec'has trec'he trec'hec'h trec'hemp trec'hen trec'hent trec'hes trec'het trec'hez trec'hfe trec'hfec'h trec'hfed trec'hfemp trec'hfen trec'hfent trec'hfes trec'hi trec'himp trec'hin trec'hint trec'his trec'hit trec'hje trec'hjec'h trec'hjed trec'hjemp trec'hjen trec'hjent trec'hjes trec'hjoc'h trec'hjod trec'hjomp trec'hjont trec'hjout trec'ho trec'homp trec'hont trec'hor trec'hot zrec'hiñ
 37	637	uhelder	uhelderioù
 38	638	estren	estrenien
 39	639	pajenn	bajenn bajennoù fajenn pajennoù
@@ -44,24 +44,24 @@
 44	644	ral	raloc'h
 45	645	sport	sportoù
 46	646	tabut	dabut dabutoù tabutoù
-47	647	diskar	diskariñ diskaroù tiskar tiskaras tiskare ziskar ziskaras ziskare
+47	647	diskar	diskaran diskarec'h diskaremp diskaren diskarent diskares diskaret diskarez diskarfe diskarfec'h diskarfed diskarfemp diskarfen diskarfent diskarfes diskari diskarimp diskarin diskarint diskaris diskarit diskariñ diskarje diskarjec'h diskarjed diskarjemp diskarjen diskarjent diskarjes diskarjoc'h diskarjod diskarjomp diskarjont diskarjout diskaro diskaromp diskaront diskaror diskarot diskaroù tiskar tiskaras tiskare tiskaro ziskar ziskaras ziskare
 48	648	pont	font fontoù pontoù
-49	649	hirder	
+49	649	hirder	hirderioù hirderoù
 50	650	karet	c'haris garas gare garen garent garer garet garez garfe garfed garfent gari garin garje garo garont garout karas kare karen karent karer karin kariñ karje karo karomp karout
-51	651	morlu	vorlu
-52	652	lidañ	lidas lide lider lidet lidiñ lidje lidjes
-53	653	strizh	strishat strishañ strishoc'h
-54	654	skourr	skourroù
+51	651	morlu	morluioù morluoù vorlu
+52	652	lidañ	lidan lidas lide lidec'h lidemp liden lident lider lides lidet lidez lidfe lidfec'h lidfed lidfemp lidfen lidfent lidfes lidi lidimp lidin lidint lidis lidit lidiñ lidje lidjec'h lidjed lidjemp lidjen lidjent lidjes lidjoc'h lidjod lidjomp lidjont lidjout lido lidomp lidont lidor lidot
+53	653	strizh	strishat strishañ strishoc'h strizhoc'h
+54	654	skourr	skourrioù skourroù
 55	655	planedenn	blanedenn blanedennoù flanedenn flanedennoù planedennoù
 56	656	kargañ	c'hargañ c'harger gargañ garged garget karged karger karget kargfe kargfec'h kargfed kargfemp kargfen kargfent kargfes kargimp kargis kargiñ kargje kargjec'h kargjed kargjemp kargjen kargjent kargjes kargjoc'h kargjod kargjomp kargjont kargjout kargoc'h kargot
 57	657	kanton	c'hanton c'hantonioù ganton gantonioù kantonioù
 58	658	levrenn	levrennoù
 59	659	keloù	c'heleier c'heloù geleier geloù keleier
 60	660	heol	
-61	661	gwareziñ	gwarezañ gwarezer gwarezerien gwarezour kwareziñ warezer warezerien wareziñ
+61	661	gwareziñ	gwarezan gwarezas gwarezañ gwareze gwarezec'h gwarezemp gwarezen gwarezent gwarezer gwarezerien gwarezes gwarezet gwarezez gwarezfe gwarezfec'h gwarezfed gwarezfemp gwarezfen gwarezfent gwarezfes gwarezi gwarezimp gwarezin gwarezint gwarezis gwarezit gwarezje gwarezjec'h gwarezjed gwarezjemp gwarezjen gwarezjent gwarezjes gwarezjoc'h gwarezjod gwarezjomp gwarezjont gwarezjout gwarezo gwarezomp gwarezont gwarezor gwarezot gwarezour kwareziñ warezas wareze warezer warezerien warezet warezfe wareziñ
 62	662	blev	blevenn vlev vlevenn
 63	663	dizalc'h	zizalc'h
-64	664	dieub	tieub zieub
+64	664	dieub	dieuboc'h tieub zieub
 65	665	chapel	chapelioù
 66	666	mezheven	vezheven
 67	667	beg	begoù veg vegoù
@@ -72,12 +72,12 @@
 72	672	evañ	ev evan evas eve evec'h eved evemp even event ever everien eves evet evez evfe evfec'h evfed evfemp evfen evfent evfes evi evimp evin evint evis evje evjec'h evjed evjemp evjen evjent evjes evjoc'h evjod evjomp evjont evjout evo evomp evont evor evot
 73	673	biskoazh	viskoazh
 74	674	troc'hañ	droc'hañ troc'han troc'has troc'he troc'her troc'het troc'hfe troc'hfec'h troc'hfed troc'hfemp troc'hfen troc'hfent troc'hfes troc'himp troc'his troc'hiñ troc'hje troc'hjec'h troc'hjed troc'hjemp troc'hjen troc'hjent troc'hjes troc'hoc'h troc'hor troc'hot zroc'hañ
-75	675	san	
+75	675	san	sanioù
 76	676	nepell	
-77	677	sez	sezioù
+77	677	sez	sezioù sezoù
 78	678	arvar	arvarioù arvaroù
 79	679	modern	modernañ modernoc'h vodern vodernañ vodernoc'h
-80	680	yaouankiz	
+80	680	yaouankiz	yaouankizoù
 81	681	gwisket	wisket
 82	682	ho	
 83	683	post	bost bostoù fost postoù
@@ -87,12 +87,12 @@
 87	687	avel	avelioù aveloù
 88	688	kanol	c'hanol c'hanolioù ganol ganolioù kanolioù
 89	689	marc'had	marc'hadoù varc'had
-90	690	metal	metaloù vetal
-91	691	respont	respontan respontas responte respontin respontis responto respontomp respontoù
+90	690	metal	metalioù metaloù vetal
+91	691	respont	respontan respontas responte respontec'h respontemp responten respontent respontes respontet respontez respontfe respontfec'h respontfed respontfemp respontfen respontfent respontfes responti respontimp respontin respontint respontis respontit respontje respontjec'h respontjed respontjemp respontjen respontjent respontjes respontjoc'h respontjod respontjomp respontjont respontjout responto respontomp respontont respontor respontot respontoù
 92	692	abred	abretañ abretoc'h
 93	693	hollek	hollekañ hollekoc'h
 94	694	muzulman	muzulmaned muzulmat vuzulman vuzulmaned vuzulmanez vuzulmat
-95	695	anaoudegezh	
+95	695	anaoudegezh	anaoudegezhioù
 96	696	kant	c'hant
 97	697	harp	harpoù
 98	698	krogenn	c'hregin c'hrogenn c'hrogennoù gregin grogenn kregen kregin

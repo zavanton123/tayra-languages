@@ -1,5 +1,5 @@
 # source: Leipzig Corpora Collection bre_wikipedia_2021_100K (terms at https://wortschatz.uni-leipzig.de/en/download)
-# words: 5170
+# words: 5249
 ar	ar an al
 e	e
 bezañ	oa zo voe bet vez vezañ bezañ veze emañ vefe vo oant bez vezont oc'h edo voent vezent bec'h oar emaint fent on vezo ben vezer bezioù oan vint omp boent emeur be bezen vehe emaomp out vezan vin emaon
@@ -10,7 +10,7 @@ ur	ur un unan ul
 er	en er el
 gant	gant gantañ ganto ganti gante ganeoc'h ganeomp ganin ganit ganimp kante kanto ganeor
 eus	eus anezho anezhañ anezhi anezhe ac'hanomp ac'hanon ac'hanoc'h anezhoñ ac'hanout
-ober	reas ra graet ober reer rae reont rejont raio raent rafe eure oberoù ray raed gris reomp ran gran raje rez rin rit c'hris raint refont gray c'hraet rafent gra graer rejod grit ris greomp kris c'hraer greer grin grisañ
+ober	reas ra graet ober reer rae reont rejont raio raent rafe eure oberoù ray raed gris reomp ran gran raje rez rin rit c'hris oberioù raint refont gray c'hraet rafent gra graer rejod grit ris greomp kris c'hraer greer grin
 eo	eo
 o	o
 evit	evit evitañ evito eviti evite evidomp evidoc'h evidon
@@ -23,7 +23,7 @@ he	he hec'h
 ket	ket c'het
 den	dud den tud zen zud ten
 dont	deuet dont teuas teu zeuas zeu zont tont deuas teue deu teufe zeue zeuio teuio zeus teuont teujont teuje zeufe deue deufe deuio zeuont donet deuje teuer zeujont teufent zeuje zeuy deuer deujont teuent teujent teuy tonet deuont dond teued
-sevel	savet sevel savas sav save saver saverien savjont savo savent savfe savont saverez savan savi saverion savit saven savin savje
+sevel	savet sevel savas sav save saver saverien savjont savo savent savfe savont saverez savan savi saverion savit saven savin savioù savje
 anv	anv anvioù
 mont	mont vont aet eas in i yeas yae ae is it ad ejont eont afe aje aio monet as kerzh yafe aent yelo eer ay mond eor vonet afent kit eorioù yaje aed gerzh deomp vond afont ahe aimp aint
 ivez	ivez
@@ -48,12 +48,12 @@ bro	vro broioù bro vroioù pro
 bloaz	vloaz bloaz bloazioù
 hini	hini
 chom	chom chomet chomas chome chomo chomfe chomont chomjont chomje choment chomel chomer chomez chomfent chomimp chomint chomis chomjec'h chomjen chomomp
-re	re reo
-envel	anvet envel anver anve anvent anved anvont anvez anvimp anvomp anvor
+re	re reoù reo
+envel	anvet envel anver anvas anve anvent anved anvjont anvont anvez anvimp anvomp anvor
 reiñ	roet reiñ roas ro roe roer roio rofe roy roi roont roje roit roent rois rojod rojont roed roin rojent roan rofent rofont roint
 penn	penn benn pennoù fenn bennoù fennoù venn
 gwelet	gwelet weler gwelout wel welet welout gwel welas wele gweled weled welont gwelit welomp weljont gweler welo gweloc'h welent welfed welan welez welis welit welje gwelfed gwelas gweledoù gwelioù gwelis kwelet kwelout welfe welfet welimp weloc'h welor
-mat	mat vat gwellañ gwelloc'h madoù wellañ mad gwell vad vadoù well welloc'h gwellat wellat
+mat	mat vat gwellañ gwelloc'h madoù wellañ mad gwell vad vadoù well welloc'h gwellat wellat matoc'h
 pep	pep bep
 doare	doare doareoù zoare zoareoù toare
 nemet	nemet nemetañ nemeti nemeto nemete
@@ -73,23 +73,23 @@ c'hoari	c'hoari c'hoariet c'hoarier c'hoarioù c'hoarierien c'hoarias c'hoarie c
 diwar	diwar diwarnañ diwarni diwarno ziwar
 diouzh	diouzh dioutañ diouti diouto dioute diouzhin diouzhimp diouzhomp
 brezhoneg	brezhoneg vrezhoneg vrezhonegoù
-bloavezh	bloavezhioù bloavezh vloavezhioù vloavezh
+bloavezh	bloavezhioù bloavezh vloavezhioù vloavezh bloavezhoù
 tra	traoù tra dra draoù zra zraoù
-bout	bet vout bout boud boudoù boutañ voutañ voudoù boutoc'h pout voud fout voutoc'h
+bout	bet vout bout boud boudoù boutañ voutañ voudoù boutoc'h pout voud boudoc'h fout voutoc'h
 lec'h	lec'h lec'hioù
 mervel	mervel varvas marvet vervel varvo varve marvin varvje varvfe varvjont marvor varvent varvet varvin marve varvfec'h varvfent varvjent varvont
 pezh	pezh pezhioù bezh fezh vezh bezhioù fezhioù
 klask	klask glask klasket klaskas glaskas glaske klaske c'hlask klasker klaskont glasko klaskerien glasker glaskerien glaskont klaskent klaskjont glaskent klasked klasko c'hlasker glaskfe glaskjont klaskit glaskan glaskerez klaskerez glasked glaskemp glasken glaskit glaskje klaskan klaskfe klaskin klaskjod klaskoù
 kalz	kalz galz c'halz
 lavaret	lavaret lavarout lavar lavaras lavarer lavare lavared lavaran lavaront lavaroù lavarent lavaro lavarioù lavarfe lavarin lavarjont lavarit lavarfemp lavaromp
-yezh	yezh yezhoù
+yezh	yezh yezhoù yezhioù
 perzh	perzh berzh perzhioù verzh berzhioù ferzh ferzhioù
-brezel	brezel brezelioù vrezel vrezelioù
+brezel	brezel brezelioù vrezel vrezelioù brezeloù
 kemer	kemer kemeret gemer kemeras kemere c'hemer kemerfe kemerjont kemero kemeromp kemerer kemerit kemerent kemeront c'hemeret kemerimp kemerint kemeroc'h kemerout
 bed	bed bedoù ved vedoù
 ken	ken c'hen
 eil	eil
-nevez	nevez nevesoc'h nevesañ
+nevez	nevez nevesoc'h nevesañ nevezoc'h
 brudet	brudet brudetañ vrudetañ vrudet brudetoc'h vrudetoc'h
 bevañ	bevañ bev vevañ vev veve vevas bevet vevont vevent vevjont vevo beviñ vevez vevfe veviñ vevomp bevan bevez bevin vevan vever beved bew vevit
 mab	mab vab mibien vibien mibion vibion
@@ -97,12 +97,12 @@ stad	stad stadoù
 a-raok	a-raok araozañ araozi araozomp
 tri	tri teir dri deir zri zeir trioù
 nebeut	nebeud nebeut nebeutoc'h nebeutañ
-tu	tu zu tuioù duioù zuioù
+tu	tu zu tuioù tuoù duioù zuioù
 gwech	wech gwech gwechoù wechoù c'hwech kwech
 bugel	bugel vugale bugale vugel vugalez
 tad	dad tad zad tadoù zadoù dadoù
 eno	eno
-krouiñ	krouet krouiñ grouiñ krouer krouas grouas krouerien grou c'hrouer krou c'hrouiñ grouerien c'hrouerien grouet c'hrouet grouer
+krouiñ	krouet krouiñ grouiñ krouer krouas grouas krouerien grou c'hrouer krou c'hrouiñ grouerien kroujont groue c'hrouerien grouet grouont krouont c'hrouet grouer kroue krouent krouo
 dindan	dindan dindanañ dindani zindan dindane dindano
 kozh	kozh gozh koshañ koshoc'h goshañ c'hoshañ goshoc'h c'hozh koz c'hoz
 buhez	vuhez buhez buhezioù vuhezioù puhez
@@ -111,7 +111,7 @@ istor	istor istorioù istoar
 c'hoazh	c'hoazh
 levr	levr levrioù
 merc'h	merc'h merc'hed verc'h verc'hed
-anavezout	anavezet anavezout anavezer anaout anavez anavezomp anaveze anavezas anavout anavezent anavezont anavezan anavezo anavezed anavezfent
+anavezout	anavezet anavezout anavezer anaout anavez anavezomp anaveze anavezas anavout anavezent anavezont anavezan anavezo anavezed anao anavezfent
 war-dro	war-dro
 avat	avat
 marv	marv varv marvioù varvioù
@@ -121,12 +121,12 @@ abaoe	abaoe
 lazhañ	lazhet lazhañ lazhas lazhe lazhfe lazhjont lazhont lazhi lazhint lazho
 spesad	spesad spesadoù
 hep	hep heptañ hepti hepto hepte hepdon
-boutin	boutin voutin poutin
+boutin	boutin voutin boutinoc'h poutin
 amzer	amzer amzerioù
 bihan	bihan vihan bihanoc'h vihanañ bihanañ vihanoc'h bihanat
 tro	dro tro zro troioù droioù zroioù
-kanañ	kanet kanañ c'han kan ganañ c'haner kaner ganerez gan kanerien c'hanas kanerez ganerien kane kanas ganer kanerezed c'hanañ c'hanfe kanont kano c'hanerezed kaniñ kanomp c'hanioù ganent ganiñ kanent kani kanal kanit c'hane c'hanent c'hanerez c'hanfent c'hanjent c'hano ganed ganerezed ganfe
-komz	komzet komz gomz komzoù komzer c'homzoù gomze gomzer gomzoù komze gomzerien c'homz gomzas gomzont komzent c'homzer gomzent gomzerez komzas komzed komzont komzerien c'homzerien komzit komzomp gomzed gomzerion gomzjod gomzjont gomzo gomzor komzerez komzerion komzfe komzo
+kanañ	kanet kanañ c'han kan ganañ c'haner kaner ganerez gan kanerien c'hanas kanerez ganerien kane kanas ganer kanoù kanerezed c'hanañ c'hanfe kanont kano c'hanerezed kaniñ kanomp c'hanioù ganent ganiñ kanent kani kanal kanit c'hane c'hanent c'hanerez c'hanfent c'hanjent c'hano ganed ganerezed
+komz	komzet komz gomz komzoù komzer c'homzoù gomze gomzer gomzoù komze gomzerien c'homz gomzas gomzont komzent c'homzer gomzent gomzerez komzas komzed komzioù komzont komzerien c'homzerien komzit komzomp gomzed gomzerion gomzjod gomzjont gomzo gomzor komzerez komzerion komzfe komzo
 int	int
 du	du duañ tuañ duoc'h
 stumm	stumm stummoù
@@ -141,19 +141,19 @@ alies	alies aliesañ aliesoc'h
 tremen	tremen dremen tremenet tremenas dremenas dremenet tremene dremene tremened tremenont tremeno zremen dremenfe tremenfe tremenje dremenent dremener dremenerien dremenont tremenent tremener tremenerien tremenfed tremenfent tremenjod tremenjont tremenor
 dreist-holl	dreist-holl
 se	se
-ren	ren renet rene reno reni renan renis
+ren	ren renet renas rene reno renent renje renont reni renan renis renjont
 kement	kement gement
 darn	darn darnoù tarn zarn
 ret	ret
 treiñ	troet treiñ dreiñ troas droas troer troour droet trofe troe droerien droed trois droe zreiñ troont droit drofe troerien droer troed troit trojont
 na	na
-diskouez	ziskouez diskouezet diskouez tiskouez tiskouezas ziskouezas ziskoueze tiskoueze tiskouezer diskouezer ziskouezet diskouel diskouezerez ziskouel ziskouezer
+diskouez	ziskouez diskouezet diskouez tiskouez tiskouezas ziskouezas ziskoueze tiskoueze tiskouezer diskouezer tiskouezo ziskouezet ziskouezfe ziskouezo ziskouezont diskouel diskouezerez tiskouezent tiskouezont ziskouel ziskouezer
 uhel	uhel uhelañ uheloc'h
 labourat	labourat labouras labouret laboure labourent labouro labouront labouran labourit labourjont
-ti	ti zi tiez tier diez zier ziez dier ty
+ti	ti zi tiez tier diez zier ziez dier tioù ty
 daoust	daoust
 lodañ	lod loden
-pell	pell pelloc'h pellañ bell vell belloc'h bellañ fellenn pellat
+pell	pell pelloc'h pellañ bell vell belloc'h pelloù bellañ fellenn pellat
 tamm	tamm tammoù damm dammoù zamm
 e-barzh	e-barzh
 deiz	deiz deizioù zeiz
@@ -165,18 +165,18 @@ a-enep	a-enep
 eget	eget egetañ egeti egeto egedomp egedon
 skol	skol skolioù
 galloud	galloud c'halloud galloudoù c'halloudoù kalloud
-derc'hel	dalc'het derc'hel dalc'h zerc'hel zalc'h terc'hel zalc'has zalc'he talc'h talc'has talc'he dalc'hoù dalc'he dalc'hioù dalc'has zalc'het zalc'hioù
+derc'hel	dalc'het derc'hel dalc'h zerc'hel zalc'h terc'hel zalc'has zalc'he talc'h talc'has zalc'ho talc'he dalc'hoù dalc'he dalc'hioù talc'ho zalc'hont dalc'has talc'hjont dalc'ho talc'hent talc'hont talc'hfe zalc'het zalc'hioù zalc'hfe
 rankout	rank rankas ranker ranke rankout ranket rankje rankont ranko rankfe ranked rankent rankjont rankfed rankfent rankjed rankint rankit rankjent
 skouer	skouer skouerioù
 tapout	tapet tapout tapas dapas dapout dap tap zapout dape tape daper tapjont tapo dapet dapjont dapo dapont tapis tapomp dapfe dapje dapomp taped taper tapont zapas
-iliz	iliz ilizoù ilis
+iliz	iliz ilizoù ilizioù ilis
 hiziv	hiziv
 mamm	vamm mamm mammoù
 sonerezh	sonerezh sonerezhioù
 yaouank	yaouank yaouankañ yaouankoc'h
 rak	rak razañ razer raze razed
 pobl	bobl pobl pobloù bobloù fobl fobloù
-emgann	emgann emgannoù
+emgann	emgann emgannoù emgannioù
 gall	gall c'hallaoued gallaoued c'hallez gallez gallezed
 fin	fin finoc'h
 disheñvel	disheñvel zisheñvel dishañval disheñvelañ disheñveloc'h zisheñvelañ
@@ -186,38 +186,38 @@ bremañ	bremañ vremañ
 skrid	skridoù skrid
 breur	breur vreur vreudeur breudeur
 livañ	live livet livañ livas lives livo
-seurt	seurt
-goulenn	goulenn c'houlenn c'houlennas c'houlenne goulennoù c'houlennoù
+seurt	seurt seurtoù
+goulenn	goulenn c'houlenn goulennet c'houlennas c'houlenne goulennoù c'houlennoù c'houlennont c'houlennfe c'houlennjont c'houlenno c'houlennet goulenno
 a-walc'h	a-walc'h
 war-lerc'h	war-lerc'h
 tachenn	dachenn tachenn tachennoù zachenn dachennoù zachennoù
 tennañ	tennet tennañ dennañ dennas tenne tennis dennis tennas dennet zennañ tennont tenno dennfe tennent tennfe tennoc'h dennjont tennan
-lenn	lenn lenner lennet lennerien lennoù lennas lenne lenned lennañ lennerezed lennit lennomp lenneier lennerion lennis lennont lennor
+lenn	lenn lenner lennet lennerien lennoù lennas lenne lenned lennañ lennerezed lennit lennomp lenneier lennerion lennerioù lennis lennont lennor
 kont	kont gont c'hont gontez konted kontez gonted kontoù c'hontoù gontoù c'honted
 pevar	pevar peder bevar beder fevar feder
 kanaouenn	ganaouenn kanaouennoù c'hanaouennoù kanaouenn ganaouennoù c'hanaouenn
 mor	mor vor morioù vorioù
-niver	niver niveroù
+niver	niver niveroù niverioù
 gouarnamant	gouarnamant gouarnamantoù c'houarnamant c'houarnamantoù
 a-wechoù	a-wechoù a-wezhioù
-dimeziñ	dimeziñ timezas zimezas zimeziñ dimezioù timezo timeze timeziñ zimezo dimezfe timezin zimeze zimezfe
-stourm	stourm stourmoù stourme stourmo stourmañ
+dimeziñ	dimeziñ dimezet timezas zimezas zimeziñ dimezioù timezo timeze timeziñ timezje zimezje zimezo timezent dimezfe dimezje timezin zimeze zimezent zimezet zimezfe zimezjont
+stourm	stourm stourmet stourmoù stourmas stourme stourmo stourmañ stourmfe stourmont stourment stourmjont
 enez	enez inizi
 maouez	vaouez maouezed maouez vaouezed maouezi vaouezi
 bennak	bennak bennaket bennag
 diwezhañ	diwezhañ ziwezhañ
-kreskiñ	kreskiñ kresket kresk gresk greskiñ kreskas c'hresk greskas kresko c'hreskiñ gresko kreski
+kreskiñ	kreskiñ kresket kresk gresk greskiñ kreskas c'hresk kreske greskas greske greskont greskfe kresko kreskont kreskfent c'hreskiñ gresko kreskfe kreski
 setu	setu
-koll	kollet koll goll kolloù kollas gollas c'holloù c'holl gollet gollo goller koller kollont golljont gollont kollfe kolljont kollo
+koll	kollet koll goll kolloù kollas gollas c'holloù c'holl gollet gollo goller koller kollont golljont gollont kollfe kollioù kolljont kollo
 kuit	kuit
-difenn	difenn difennet zifenn difennoù zifennoù
+difenn	difenn difennet zifenn difennoù tifennas zifenne zifennas tifenne difennioù tifennont zifennoù
 get	get gete getoñ geti genin genoc'h
 e-touez	e-touez
 muioc'h	muioc'h vuioc'h
 rouantelezh	rouantelezh rouantelezhioù
 korf	c'horf korf gorf korfoù c'horfoù gorfoù
-dour	dour zour dourioù doureier
-sant	sant santez sent santes santezed
+dour	dour zour dourioù doureier douroù
+sant	sant santez sent santes santezed santoù
 hepken	hepken
 politikel	politikel bolitikel politikeloc'h
 pried	fried bried pried priedoù friedoù briedoù
@@ -227,31 +227,31 @@ nerzh	nerzh nerzhioù nerzhoù
 krediñ	krediñ gred grediñ greder grede krede kredet kreder kred kredas kreded gredont gredas kredo c'hred greded kredont c'hredo gredent kredent kredin c'hreded gredo c'hrede gredan gredfent gredin gredjont kredfe kredit kredjod kredomp
 pal	pal bal palioù fal val falioù fili
 urzh	urzh urzhioù
-gwerzhañ	gwerzhet gwerzhañ gwerzh werzhañ gwerzher werzh gwerzhioù werzhas werzhe gwerzherien werzherien gwerzherez werzhet werzhont gwerzhas gwerzhour werzhent werzherez werzhfe werzhioù
+gwerzhañ	gwerzhet gwerzhañ gwerzh werzhañ gwerzher werzh gwerzhioù werzhas werzhe gwerzherien werzherien gwerzherez gwerzhoù werzhet werzhont gwerzhas gwerzhour werzhent werzherez werzhfe werzhioù
 milion	milion vilion milionoù vilionoù
 pennad	pennad pennadoù bennadoù bennad fennad vennad fennadoù vennadoù
-familh	familh familhoù
+familh	familh familhoù familhioù
 gwreg	wreg gwreg wragez gwragez
-distreiñ	distreiñ tistroas zistroas zistreiñ tistreiñ tistroe zistroio zistroe tistroio tistroont tistrofe tistroje zistroont distroiñ distroas tistrofent zistroje zistroot
+distreiñ	distreiñ tistroas distroet zistroas zistreiñ tistreiñ tistroe tistrojont zistroio zistroe tistroio tistroont zistrojont tistrofe tistroje zistroont distroiñ distroas tistrofent zistroje zistroo zistroot
 studiañ	studiañ studiet studio studier studias studial studies studie studiis
 digant	digant digantañ diganti diganto digante diganit diganin
 gounit	gounezet gounit c'hounit c'hounez gounez c'houneze c'hounezer gounezer c'hounezont c'hounezet c'hounezo gounezo gouneze
-embann	embann embannoù embannañ
+embann	embannet embann embannas embanne embannoù embannont embannent embannjont embannañ embannfe embanno
 miret	miret mirout virout viras vire mir viret virfe viro miro virjont virer virje viront mires mirit miras viran virent virin
-seniñ	seniñ soner sonerien sonerion sonerez
-kastell	c'hastell kastell gastell kestell kastilli c'hastilli gastilli kastelloù c'hastelloù c'hestell kistilli
+seniñ	seniñ soner sonerien sonerion sonerez senet sonerioù
+kastell	c'hastell kastell gastell kestell kastilli c'hastilli gastilli kastelloù c'hastelloù c'hestell kastellioù kistilli
 koulskoude	koulskoude goulskoude
 hent	hent hentoù
 hir	hir hiroc'h hirañ
 annezad	annezidi annezad
 lezenn	lezenn lezennoù
 paotr	paotr baotred paotred baotr faotr
-tiegezh	tiegezh tiegezhioù diegezh ziegezh diegezhioù
+tiegezh	tiegezh tiegezhioù diegezh ziegezh diegezhioù tiegezhoù
 skrivagner	skrivagner skrivagnerien skrivagnerez skrivagnerion skrivagnerezed skrivagnour
 kent	kent gent
 kornôg	c'hornôg kornôg gornaoueg c'hornaoueg kornaoueg gornôg
 buan	buan buanoc'h buanañ vuan vuanoc'h
-trec'h	trec'h drec'h zrec'h
+trec'h	trec'h drec'h trec'hioù zrec'h trec'hoù
 arc'hant	arc'hant
 le	le leoù
 ya	ya
@@ -262,7 +262,7 @@ skeudenn	skeudenn skeudennoù
 dug	dug dugez duged zug zuged zugez
 peogwir	peogwir
 kreiz	kreiz c'hreiz greiz kreis greis
-c'hoarvezout	c'hoarvez c'hoarvezas c'hoarvezout c'hoarvezet c'hoarveze c'hoarvezo c'hoarvezfe c'hoarvezje
+c'hoarvezout	c'hoarvez c'hoarvezas c'hoarvezout c'hoarvezet c'hoarveze c'hoarvezo c'hoarvezfe c'hoarvezje c'hoarvezjont
 par	par barez parezed pared bar far barezed parez bared farez farezed
 alaman	alaman alamaned
 abeg	abeg abegoù
@@ -270,10 +270,10 @@ loen	loened loen
 pemp	pemp bemp femp
 reter	reter
 doue	doue zoue doueoù zoueoù
-padout	pad badas padout bad padas padet bado badout bade pado fado badfe pade padfe fade vader badet badiñ badje fadet padez vado
+padout	pad badas padout bad padas padet bado badout bade pado fado badfe pade padfe fade vader badent badet badiñ badje badont fadet padent padez vado
 devezh	devezh devezhioù zevezh zevezhioù
-kinnig	kinnig ginnig ginnigas kinnigas c'hinnig kinnigoù ginnige kinnige c'hinnigoù ginnigoù c'hinnige
-liv	liv livioù
+kinnig	kinniget kinnig ginnig ginnigas kinnigas c'hinnig kinnigoù ginnige kinnige c'hinnigoù ginnigoù ginniget ginnigont kinnigent kinnigont c'hinnige c'hinniget ginnigfe kinnigo
+liv	liv livioù livoù
 danvez	danvez danvezioù zanvez zanvezioù
 galleg	galleg c'halleg
 sellet	sellet sellout seller selle sellit sellas sellomp sellont selled sellent sellen sellfe
@@ -293,7 +293,7 @@ er-maez	er-maez
 arz	arz arzoù
 dirak	dirak dirazañ dirazi dirazo dirazon dirakañ diraki dirake dirazomp
 fall	fall gwashañ gwashoc'h fallañ falloc'h washañ
-gwenn	gwenn wenn gwennoù c'hwennat gwennoc'h wennañ
+gwenn	gwenn wenn gwennoù gwennet c'hwennet c'hwennat gwennoc'h wennañ
 kelaouenn	gelaouenn kelaouennoù c'helaouennoù kelaouenn c'helaouenn gelaouennoù
 e-unan	e-unan
 koulz	koulz c'houlz goulz
@@ -307,7 +307,7 @@ dibab	dibabet dibab zibab tibabas dibaboù tibab zibabas zibabe zibabo zibaboù 
 dorn	dorn daouarn zorn zaouarn dornioù taouarn torn
 brud	brud vrud brudoù
 klevet	klevet glevas glever klevout klever glevout glevet klevas klev gleve gleved kleve c'hleved glevont glevent glevjont klevjont klevit c'hlevont c'hlevout glevan glevo kleved klevomp klevont klevot
-lu	lu
+lu	lu luioù
 pouez	bouez pouez fouez pouezioù vouez
 karg	garg karg kargoù c'harg c'hargoù gargoù
 savadur	savadur savadurioù
@@ -317,7 +317,7 @@ enezenn	enezenn enezennoù
 studi	studioù studi
 kreñv	kreñv kreñvoc'h greñv kreñvañ greñvañ greñvoc'h c'hreñv c'hreñvañ kreñvat
 kaoz	kaoz gaoz kaozioù kaoze gaos gaozioù gaoze
-roll	roll rolloù
+roll	roll rolloù rollioù
 eñ	eñ eñv
 mestr	mestr mistri vestr mestrez vistri vestrez mistr mestres mestrezed vistr
 enebour	enebourien enebour eneber enebourez enebourion
@@ -326,7 +326,7 @@ norzh	norzh
 taolenn	daolenn taolennoù taolenn daolennoù zaolenn zaolennoù
 sell	sell selloù
 diaes	diaes diaesoc'h ziaes diaesañ ziaesoc'h ziaesañ diaesat
-kregiñ	kregiñ gregiñ
+kregiñ	kroget kregiñ krogas grogas gregiñ groge grogo kroge krogont krogfe krogjont grogfe krogo krogje grogjont grogont krogent
 zoken	zoken
 rannvro	rannvro rannvroioù
 rener	rener renerien renerez renerion
@@ -342,9 +342,9 @@ peurliesañ	peurliesañ
 anv-lec'h	anv-lec'h anvioù-lec'h
 aes	aes aesoc'h aesañ
 war-du	war-du war-zu
-nac'h	nac'het nac'h nac'has nac'he nac'hont nac'hent nac'ho nac'han nac'her nac'hit
+nac'h	nac'het nac'h nac'has nac'he nac'hont nac'hent nac'hjont nac'ho nac'han nac'her nac'hfe nac'hit
 trede	trede drede zrede
-erruout	erruas erruet erru erruout errue errujont
+erruout	erruas erruet erru erruout errue errufe erruont errujont erruje
 meurzh	meurzh veurzh
 micher	vicher micher micherioù vicherioù
 hogen	hogen
@@ -355,7 +355,7 @@ titl	titl ditl titloù zitl ditloù zitloù
 touez	zouez touez touesk zouesk douesk
 mignon	mignon mignoned vignoned vignon mignonez vignonez mignonezed
 gwirionez	gwirionez wirionez
-diazez	diazez ziazez
+diazez	diazez diazezoù ziazez
 servij	servij servijoù
 deskiñ	deskiñ zeskiñ teskas zeskas teskiñ zesk tesker tesk zeske desk desked deski teske teskjont teskont zesker zeskont deskomp deskas desker desko deskont teskint tesko zeskfe
 arouez	arouez arouezioù
@@ -363,11 +363,11 @@ amerikan	amerikan amerikaned amerikanez
 aod	aod aodoù
 koad	koad c'hoad c'hoadoù goad koadeier koadoù c'hoadeier goadeier goadoù
 marteze	marteze varteze marse
-sikour	sikour
-tizhout	tizhout tizh dizhout dizh dizhas zizh tizhas tizhjont dizhoù tizhañ tizhfent tizhoù zizhout
+sikour	sikour sikouret sikouras sikoure sikourfe sikourioù sikouront sikourfent sikouro
+tizhout	tizhout tizhet tizh dizhout dizh dizhas zizh tizhas dizhe dizhont dizhet tizhioù tizhjont tizho dizhoù tizhañ tizhe tizhfe tizhfent tizhont tizhoù zizhout
 eta	eta
 di	di
-lesenvel	lesanvet
+lesenvel	lesanvet lesanvas lesanve lesanvont
 arzour	arzourien arzour arzourez arzourion
 aotrou	aotrou aotrouien aotroù aotrounez
 here	here
@@ -377,9 +377,9 @@ e-kichen	e-kichen
 kelenner	kelenner c'helenner gelenner kelennerien gelennerien kelennerez gelennerez c'helennerien gelennerion kelennerezed kelennerion
 ruz	ruz rusat
 dastum	dastumet dastum zastum tastum tastumas zastumas zastume dastume tastumed zastumont
-kristen	kristen gristenien gristen kristenien kristenion gristenion c'hristen gristenez kristenez kristian
+kristen	kristen gristenien gristen kristenien kristenion gristenion c'hristen gristenez kristenez kristian kristenoc'h
 poblañs	boblañs poblañs poblañsoù foblañs boblañsoù
-kompren	kompren gompren komprenet komprenas c'hompren gomprene kompreno gomprenan komprene komprenit
+kompren	kompren gompren komprenet komprenas c'hompren gomprene kompreno gomprenont komprenont gomprenan gomprenent gomprenfe gomprenfent komprene komprenit komprenjont
 taol	taol daol taolioù daolioù zaol
 lestr	lestr listri lestroù
 spagn	spagn
@@ -392,14 +392,14 @@ gwengolo	gwengolo
 lennegezh	lennegezh lennegezhioù
 troad	droad troad droiad treid troiad dreid zreid zroad troadoù daoudroad zaoudroad zroiad
 eost	eost eostoù
-barzh	barzh barzhed varzhed varzhez varzh barzhez parzh barzhezed
+barzh	barzh barzhed varzhed varzhez varzh barzhez parzh barzhezed barzhioù
 darvoud	darvoudoù darvoud zarvoudoù zarvoud
 berr	berr verr berroc'h berrañ verrat verroc'h ferrat verrañ
 seblant	seblant
 mae	mae vae
 ebrel	ebrel
 genver	genver
-kendelc'her	kenderc'hel kendalc'has genderc'hel kendelc'her kendalc'he kendalc'ho c'hendelc'her gendelc'her
+kendelc'her	kenderc'hel kendalc'het kendalc'has genderc'hel kendelc'her kendalc'he kendalc'ho kendalc'hfe c'hendelc'her gendalc'hont gendelc'her kendalc'hfent
 etrebroadel	etrebroadel
 gwechall	gwechall gwezhall wechall gwezharall
 tro-dro	tro-dro tro-zro
@@ -407,12 +407,12 @@ oad	oad oadoù
 heuliad	heuliad heuliadoù
 debriñ	debret debriñ zebriñ zebr tebriñ zebront tebr debrerien debrer tebrer tebre zebre debr debrin debro debront tebrent tebrfent tebro tebront zebras zebred zebrent zebrer zebro zebromp
 penaos	penaos benaos
-skinwel	skinwel
+skinwel	skinwel skinwelioù skinweloù
 heñvel	heñvel heñveloc'h
 relijion	relijion relijionoù
 ezhomm	ezhomm ezhommoù
-benveg	benveg binvioù binviji benvegoù venveg vinvioù
-distrujañ	distrujet distrujañ zistrujañ tistrujañ zistrujet
+benveg	benveg binvioù binviji benvegoù venveg vinvioù benvegioù
+distrujañ	distrujet distrujañ zistrujañ zistrujas tistrujañ zistrujet tistrujont zistruje zistrujje zistrujjont
 heul	heul
 seizh	seizh
 renk	renk renkoù
@@ -424,13 +424,13 @@ kerzu	kerzu
 pelec'h	pelec'h belec'h pele fele
 jeneral	jeneral jeneraled
 kontañ	kontañ gontañ gonter konter gontas kontas c'honter konte c'hontañ gonterien gonto kontiñ kontan konterien konto kontont kontor
-degas	degas zegas tegas
+degas	degaset degas zegas zegasas tegas zegase zegaso tegasas zegasont zegasjont tegase tegasfe tegasfent tegasjont tegaso zegasfe zegasje
 danevell	danevelloù danevell zanevell zanevelloù tanevell
-echuiñ	echuiñ echuet echuas echuo echuit
+echuiñ	echuiñ echuet echuas echue echuo echufe echuit echuont
 maen	mein maen vein vaen
 gouere	gouere gouhere
-ton	ton tonioù donioù zonioù
-levezon	levezon
+ton	ton tonioù donioù zonioù tonoù
+levezon	levezon levezonoù levezonioù
 gellout	gellout c'heller c'hellfe c'helle c'hellont gellet c'hellas gell c'hello c'hellout c'hellent c'hellje c'hellomp c'hellfent c'hellfed c'helled c'helloc'h geller c'hellez gelli c'hellfemp c'hellimp c'hellint c'hellit c'hellor c'helljont c'hellet c'helljed c'helljen c'helljent c'helljomp c'hellan c'hellin
 redek	redek redet redi rederien reder rede redas redo rederez redont redeg
 bern	bern vern bernioù vernioù
@@ -445,7 +445,7 @@ enep	enep
 mouezh	mouezhioù mouezh vouezh vouezhioù
 resis	resis resisoc'h resisañ
 poltred	poltred poltredoù boltred foltred boltredoù
-gortoz	c'hortoz gortoz gortozet c'hortoze c'hortozas gortoze
+gortoz	c'hortoz gortoz gortozet c'hortoze c'hortozas gortoze c'hortozjont c'hortozont kortozo
 tagañ	taget tagañ dagañ dagas tagas tage dago zagañ dagor tagan tagont zaget
 arall	arall
 poblet	poblet pobletañ bobletañ boblet pobletoc'h
@@ -453,48 +453,48 @@ rann	rann rannoù
 egile	egile
 yuzev	yuzevien yuzev yuzevion yuzevez
 porzh	porzh porzhioù borzh perzhier forzhioù berzhier ferzhier porzhoù
-gwezh	wezh gwezh gwezhioù wezhioù
+gwezh	wezh gwezh gwezhioù gwezhoù wezhioù
 kreizenn	greizenn kreizenn kreizennoù c'hreizennoù c'hreizenn greizennoù
 war-raok	war-raok
 petra	petra betra
 man	van man
-giz	c'hiz giz gizioù c'hizioù kizioù
+giz	c'hiz giz gizioù c'hizioù gizoù kizioù
 liammet	liammet
 enklask	enklask enklaskoù enklaskerien enklasker enklaskerion
 tenn	denn tenn tennoù dennoù zenn tennoc'h
 gouest	gouest ouest
 lerc'h	lerc'h
-maez	maez maezioù maes
+maez	maez maezioù maes maezoù
 adarre	adarre
 ment	ment mentoù vent ventoù
 teurel	taolet teurel deurel teul daolas daole taolas taoler teuler daoler deuler taolont daolfe daolont daolent daolfent daolint daolo deul taolit zaolet zeul zeuler
 digeriñ	digoret digeriñ zigeriñ tigoras zigoras tigeriñ zigore tigorer digoroc'h tigorjont tigoro zigoriñ zigoro
 terriñ	torret terriñ derriñ torr torres dorrfe zorro torre dorras dorr torrfe dorre dorret dorrfent dorrint dorront torran torrent torrfent torrjont torroù zerriñ
 reolenn	reolennoù reolenn
-talvezout	talvezout dalvezout
+talvezout	dalvez talvezout talvez dalvezout dalveze talveze dalvezfe talvezet talvezfe dalvezas talvezas talvezont dalvezont talvezje dalvezent zalvez dalvezje dalvezo talvezent zalveze
 boued	boued voued vouedenn bouedoù bouedenn
 hi	hi
-adsevel	adsavet adsevel
+adsevel	adsavet adsevel adsav adsavas
 kannad	kannad kannaded gannad gannaded c'hannad c'hannaded kannadoù c'hannadoù
 hemañ	hemañ
-herzel	harzet herzel harze harzo
+herzel	harzet herzel harzas harze harzo
 hevelep	hevelep
 adal	adal
 stag	stag
-astenn	astenn astennet astennoù
+astenn	astenn astennet astennas astenne astennont astennent astennfe astennoù
 c'hwec'h	c'hwec'h
-sinañ	sinet sinañ sinas sinan sines sinis sinit sino
+sinañ	sinet sinañ sinas sinan sines sinis sinit sinfe sinjont sino
 ofiser	ofiser ofiserien ofisour ofiserez
 lezel	lezet lezel lezas leze lezer lezen lezo lezit lezent lezjont lezont
 livour	livour livourien livourez livourezed livourion
-daremprediñ	darempred daremprediñ zarempred zaremprediñ taremprediñ tarempred
+daremprediñ	darempred daremprediñ darempredet zarempred tarempredas zaremprediñ zaremprede taremprediñ zarempredont taremprede zarempredas darempredfe tarempred tarempredjont zarempredent
 noz	noz nos nozioù
 redadeg	redadeg redadegoù
 pinvidik	pinvidik binvidik pinvidikañ binvidikañ pinvidikoc'h pinvidikat
 raktres	raktres raktresoù
 aour	aour
-harz	harzoù harz harzoù-labour
-ster	ster sterioù sterenn
+harz	harzoù harz harzioù harzoù-labour
+ster	ster sterioù sterenn sterennoù
 gouel	gouel gouelioù ouel c'houel c'houelioù
 istorel	istorel
 atav	atav
@@ -506,12 +506,12 @@ niverus	niverus niverusoc'h niverusañ
 glas	glas c'hlas glasañ
 lid	lidoù lid
 kreisteiz	c'hreisteiz kreisteiz greisteiz
-gloazañ	gloazet c'hloazet gloazañ gloaz c'hloaz c'hloazañ gloazioù c'hloazioù
+gloazañ	gloazet c'hloazet gloazañ gloaz c'hloaz c'hloazañ gloazioù c'hloazioù gloazoù c'hloazas gloazas gloaze
 kuzh	kuzh guzh c'huzh kuzhioù
 kuzul	kuzul c'huzul kuzulioù guzul c'huzulioù guzulioù
 niverenn	niverenn niverennoù
 prenañ	prenet prenañ brenañ prenas brenas frenañ brenerien prener bren brenin brene pren frenin prenez brenet brenont prene prenerien
-aozañ	aozañ aoziñ
+aozañ	aozet aozañ aozas aoz aoze aozjont aozont aoziñ aozo
 mui	mui
 sklaer	sklaer sklaeroc'h sklaerat sklaerañ
 merkañ	merket merkañ verkañ verkas verker merkit verkiñ merke merkas merker merkiñ verke verko verkont
@@ -520,7 +520,7 @@ istorour	istorourien istorour istorourez istorourion
 perak	perak
 netra	netra
 mirdi	mirdi mirdioù virdi virdioù
-adkavout	adkavet adkavout
+adkavout	adkavet adkavout adkavas adkav adkavont adkave adkavent adkavo
 toull	toull toullet toullañ toulloù doull doullañ doulloù zoull toullas
 boaz	boaz boas boazioù voas voaz voazioù
 embannadur	embannadur embannadurioù
@@ -529,21 +529,21 @@ kenwerzh	c'henwerzh kenwerzh genwerzh c'henwerzhioù
 don	don donoc'h donañ zon zonoc'h zonañ
 e-kreiz	e-kreiz
 stal	stal stalioù
-lâret	lâret lâre lâras
+lâret	lâret lâr lâre lâras lâront
 mod	mod vod modoù
-degemer	degemer zegemer tegemer
+degemer	degemeret degemer zegemer tegemer tegemeras zegemeras zegemere zegemeront degemeras tegemere zegemero degemere degemeront tegemerjont tegemeront
 desket	desket desketoc'h zesket
 hengounel	hengounel hengouneloc'h
-tomm	tomm dommañ domm tommañ tommoc'h dommoc'h zomm
+tomm	tomm dommañ domm tommañ tommet tommoc'h dommas tommas tommo dommoc'h zomm
 hennezh	hennezh
-dilhad	dilhad zilhad
+dilhad	dilhad dilhadoù zilhad
 skiant	skiantoù skiant
 polis	polis bolis polisoù
 kontrol	c'hontrol kontrol gontrol
 roud	roud roudoù
 forzh	forzh forzhioù
 kar	kar kerent c'har gerent c'herent garoù c'haroù
-fellout	fell fellout
+fellout	felle fell fellout fellas fellfe fellet fello fellje
 beleg	beleg veleien beleien veleg velegez beleion belegezed belegez velegezed veleion
 penn-kentañ	penn-kentañ benn-kentañ
 bagad	bagad bagadoù vagad vagadoù
@@ -555,19 +555,19 @@ distro	distro zistro tistro distroioù
 frankiz	frankiz frankizoù frankizioù
 beaj	veaj beaj beajoù veajoù
 banniel	banniel bannieloù vanniel
-stank	stank stankoc'h stankañ stanker stankoù
+stank	stank stanket stankoc'h stankañ stanker stankoù stanke
 geriadur	geriadur geriadurioù c'heriadur
 renkañ	renket renkañ renker renkas renke renked
 korn	c'horn korn kornioù gern gorn kerniel kern c'hornioù c'herniel c'hern kernioù gornioù
 dreist	dreist zreist dreistañ
-red	red redoù
+red	red redoù redioù
 harpañ	harpet harpañ harper harpe harpas harped
 genad	genad genadoù c'henad
 tour	tour tourioù dourioù
-del	del delioù deil delienn deliennoù zelioù
+del	del delioù deil delienn deilioù deliennoù zelioù
 metr	metr metroù vetr
 delwenn	delwenn delwennoù zelwenn zelwennoù
-displegañ	displegañ zispleg zisplegañ tispleg tisplegañ tispleger displeg displegoù displeger zispleger zisplegiñ
+displegañ	displegañ displeget zispleg zisplegañ tispleg tisplegañ tisplegas tisplege tispleger zisplege zisplegfe displeg zisplegas displegoù displeger tisplegont zispleger tisplegent zisplegiñ
 a-zivout	a-zivout
 palez	palez balez palezioù balezioù falez falezioù
 brav	brav bravañ vrav vravañ bravoc'h vravoc'h
@@ -576,49 +576,49 @@ kaer	kaer gaer kaerañ gaerañ kaeroc'h c'haerañ c'haer gaeroc'h
 dehou	dehoù dehou zehoù zehou
 kalon	kalon galon c'halon kalonoù c'halonoù
 tamm-ha-tamm	tamm-ha-tamm
-plant	plant blantenn blant plantennoù plantenn blantennoù
+plant	plant blantenn blant plantennoù plantenn plantoù blantennoù
 staget	staget
 keltiek	keltiek geltiek keltek c'heltieg geltieg
 parrez	barrez parrez parrezioù barrezioù farrez barrouz varrez
-hengoun	hengoun hengounioù
+hengoun	hengoun hengounioù hengounoù
 marc'h	marc'h varc'h kezeg c'hezeg gezeg
-kuitaat	kuitaat guitaat guita kuita kuitae kuitaont
+kuitaat	kuitaat kuitaet kuitaas guitaas guitaat guita kuita kuitao kuitae kuitafe kuitajont kuitaont
 lies	lies liesañ liesoc'h
 talvoudegezh	talvoudegezh dalvoudegezh zalvoudegezh talvoudegezhioù dalvoudegezhioù
-digor	digor zigor digoroc'h tigor
+digor	digor zigor digoroù digoroc'h tigor
 park	park parkeier parkoù bark barkeier varkoù vark
 karr	c'harr kirri c'hirri garr karr girri
-hañv	hañv hañvoù
+hañv	hañv hañvoù hañvioù
 enor	enor enorioù
 eured	eured euredoù
 lagad	lagad daoulagad zaoulagad lagadoù
 perc'henn	perc'henn perc'henned berc'henn berc'henned perc'hennez berc'hennez ferc'henned ferc'henn perc'hennezed
-kelenn	kelenn gelenn c'helenn c'helennoù gelennoù kelennoù
+kelenn	kelenn kelennet gelenn c'helenn kelennas gelennas kelenne c'helennas c'helennoù gelenne gelennont gelennoù kelennoù
 pediñ	pedet pediñ bediñ bede ped fede veded bedas pedas pedit beded bedi fedor bedo fediñ pede pedin pedomp pedont
-cheñch	cheñch
+cheñch	cheñch cheñchet cheñchas cheñche cheñcho cheñchont cheñchfe
 kleñved	c'hleñved kleñvedoù kleñved gleñved c'hleñvedoù gleñvedoù
 echu	echu
-kuzhat	kuzhet kuzhat guzhat kuzhañ c'huzhat guzhañ guzhet
+kuzhat	kuzhet kuzhat guzhat guzhas kuzhañ guzhe guzhont kuzhe kuzhas c'huzhas c'huzhat guzhañ guzhet kuzhit kuzhont
 kontelezh	kontelezh gontelezh kontelezhioù c'hontelezhioù c'hontelezh
-gwer	gwer wer werenn gwerennoù gwerenn
+gwer	gwer wer werenn gwerennoù gwerenn gwerioù
 eur	eur eurioù
 dispac'h	dispac'h dispac'hoù zispac'h dispac'hioù zispac'hioù
 gwirion	gwirion wirion
 dija	dija
-reizh	reizh reishoc'h reizhoù
+reizh	reizh reishoc'h reizhoù reizhoc'h
 eskob	eskob eskibien
 kentel	kentelioù c'hentelioù gentel gentelioù kentel c'hentel
 karr-nij	kirri-nij c'harr-nij c'hirri-nij karr-nij garr-nij girri-nij
-skeiñ	skoet skeiñ sko skoas
+skeiñ	skoet skeiñ sko skoas skoe skofe
 gitar	gitar gitaroù c'hitar gitarioù
 skiantel	skiantel skianteloc'h
 parlamant	parlamant parlamantoù barlamant farlamantoù
 paour	paour baour beorien baourañ paourañ peorien paouroc'h baourez vaour
 tre	tre
-sinema	sinema sinemaoù
+sinema	sinema sinemaioù sinemaoù
 degouezh	degouezh zegouezh degouezhioù tegouezh zegouezhioù
 eizh	eizh
-dilezel	dilezel tilezas zilezel zilezas tilezel dilezas
+dilezel	dilezet dilezel tilezas zilezel zilezas tileze tilezel tilezo tilezfe tilezje tilezjont dilezas tilezfent
 a-dreñv	a-dreñv a-drek
 spagnol	spagnol spagnoled
 departamant	departamant departamantoù zepartamant
@@ -628,14 +628,14 @@ stagañ	stagañ stagas stage stager stagjont stago stagont
 asantiñ	asantiñ asantet asantas asante asantont asantent asantjont asanto asantfe asantimp asantin asantje
 nag	nag
 poan	poan boan poanioù voan boanioù foan
-troidigezh	droidigezh troidigezhioù troidigezh zroidigezh droidigezhioù zroidigezhioù
+troidigezh	droidigezh troidigezhioù troidigezh zroidigezh droidigezhioù troidigezhoù zroidigezhioù
 kurunenn	gurunenn kurunenn c'hurunenn c'hurunennoù kurunennoù gurunennoù
 serriñ	serret serriñ serr serras serrer serre serres serroc'h
 piv	piv
 lesanv	lesanv lesanvioù
-paouez	paouez baouez
+paouez	paouez paouezet baouez paouezas baouezas baoueze paouezfe paoueze baouezfe paouezje baouezent baouezo baouezont paouezfent paouezo paouezont
 bemdez	bemdez pemdez
-trec'hiñ	trec'het trec'hiñ drec'hiñ drec'het trec'he
+trec'hiñ	trec'het trec'hiñ drec'hiñ drec'het trec'has drec'has trec'he
 uhelder	uhelder uhelderioù
 estren	estren estrenien
 pajenn	pajenn bajenn pajennoù fajenn bajennoù
@@ -646,24 +646,24 @@ frank	frank franked frankoc'h
 ral	ral raloc'h
 sport	sport sportoù
 tabut	tabut tabutoù dabut dabutoù
-diskar	diskar ziskar ziskaras tiskar diskaroù diskariñ tiskaras tiskare ziskare
+diskar	diskaret diskar ziskar ziskaras tiskar diskaroù diskariñ tiskaras tiskare tiskaro ziskare
 pont	pont pontoù font fontoù
-hirder	hirder
+hirder	hirder hirderioù hirderoù
 karet	karet gare karout kare garfe karin garout garer garet garje karje karo garin karas karen garas garez karer c'haris garen garent garfed garfent gari garo garont karent karomp
-morlu	morlu vorlu
-lidañ	lidet lidañ lidas lide lider
-strizh	strizh strishoc'h strishañ strishat
-skourr	skourr skourroù
+morlu	morlu morluioù vorlu morluoù
+lidañ	lidet lidañ lidas lide lider lidont
+strizh	strizh strishoc'h strishañ strizhoc'h strishat
+skourr	skourr skourroù skourrioù
 planedenn	blanedenn planedenn planedennoù flanedenn flanedennoù blanedennoù
 kargañ	karget kargañ gargañ karger garged karged c'harger garget
 kanton	kanton c'hanton kantonioù ganton c'hantonioù gantonioù
 levrenn	levrenn levrennoù
 keloù	keleier keloù c'heloù c'heleier geleier geloù
 heol	heol
-gwareziñ	gwareziñ wareziñ gwarezer gwarezour warezer gwarezerien kwareziñ warezerien
+gwareziñ	gwareziñ gwarezet wareziñ gwarezer gwarezour warezas warezer gwarezerien kwareziñ wareze warezerien warezet warezfe
 blev	blev vlevenn vlev blevenn
 dizalc'h	dizalc'h zizalc'h
-dieub	dieub zieub tieub
+dieub	dieub zieub tieub dieuboc'h
 chapel	chapel chapelioù
 mezheven	mezheven vezheven
 beg	beg begoù veg vegoù
@@ -674,12 +674,12 @@ biz	biz bizied vizied bis pizied
 evañ	evañ eve evan evet evez evi ev ever everien evont evas eved event evin evomp evor evo
 biskoazh	biskoazh viskoazh
 troc'hañ	troc'het troc'hañ droc'hañ troc'her troc'has troc'han troc'he troc'hje
-san	san
+san	san sanioù
 nepell	nepell
-sez	sez sezioù
+sez	sez sezoù sezioù
 arvar	arvar arvarioù arvaroù
 modern	modern vodern modernoc'h vodernañ modernañ vodernoc'h
-yaouankiz	yaouankiz
+yaouankiz	yaouankiz yaouankizoù
 gwisket	gwisket wisket
 ho	ho
 post	post postoù bost fost bostoù
@@ -689,12 +689,12 @@ tarzhañ	tarzhañ tarzh darzhañ tarzhas darzhas darzh tarzhet tarzher darzhfe d
 avel	avel avelioù aveloù
 kanol	kanol kanolioù ganol c'hanol c'hanolioù ganolioù
 marc'had	marc'had marc'hadoù varc'had
-metal	metal metaloù vetal
-respont	respont respontas respontoù responte
+metal	metal metaloù vetal metalioù
+respont	respont respontet respontas respontoù responte respontit respontjont respontont
 abred	abred abretoc'h abretañ
 hollek	hollek hollekoc'h hollekañ
 muzulman	muzulman vuzulmaned muzulmaned vuzulman muzulmat vuzulmat vuzulmanez
-anaoudegezh	anaoudegezh
+anaoudegezh	anaoudegezh anaoudegezhioù
 kant	kant c'hant
 harp	harp harpoù
 krogenn	kregin c'hregin grogenn gregin krogenn c'hrogenn c'hrogennoù kregen
@@ -705,14 +705,14 @@ derez	derez derezioù diri zerezioù ziri
 bered	bered vered beredoù
 alamaneg	alamaneg
 kroaz	groaz kroaz kroazioù c'hroaz groazioù groez
-mil	mil vil miled vilañ
+mil	mil vil miled miloù vilañ
 kazetenner	kazetenner c'hazetenner kazetennerien gazetennerien gazetennerez gazetenner kazetennerez gazetennerion kazetennerion c'hazetennerez c'hazetennerezed
 sizhun	sizhun sizhunioù
 aon	aon
 santel	santel santelañ
-aloubiñ	aloubiñ alouberien alouber alouberion
+aloubiñ	aloubet aloubiñ alouberien aloubas alouber aloub aloube aloubent alouberion
 kendalc'h	kendalc'h gendalc'h c'hendalc'h kendalc'hioù c'hendalc'hioù
-choaz	choazet choaz choazas choazoù choaze choazent choazont
+choaz	choazet choaz choazas choazoù choaze choazent choazioù choazont
 seul	seul seulioù
 c'hoariva	c'hoariva c'hoarivaoù
 gwad	gwad wad kwad
@@ -723,14 +723,14 @@ lec'hel	lec'hel
 ali	ali alioù
 oberour	oberour oberourien oberourez oberourion
 kroc'hen	c'hroc'hen kroc'hen groc'hen krec'hin c'hrec'hin krec'hen grec'hin
-kenlabourat	kenlabourat kenlabour c'henlabour genlabourat genlabour kenlabourerien genlabourerien kenlabourer c'henlabourer genlabourer c'henlabourat genlabourerion kenlabourerez
-heuliañ	heuliañ
+kenlabourat	kenlabourat kenlabour kenlabouras c'henlabour genlabourat genlabour kenlabourerien genlabouras genlabourerien kenlabourer genlaboure c'henlabourer genlabourer kenlaboure c'henlabourat genlabourerion genlabouront kenlabourerez kenlabourjont
+heuliañ	heuliañ heuliet heulias heulie heulio heuliont
 anv-tiegezh	anv-tiegezh anvioù-tiegezh
 labous	labous laboused
 roc'h	roc'h reier roc'hoù
 kefridi	gefridi kefridi kefridioù c'hefridi c'hefridioù gefridioù
 traoñ	traoñ traou draoñ draou
-ingal	ingal ingalañ ingaliñ ingaloc'h
+ingal	ingal ingalet ingalañ ingaliñ ingaloc'h ingale
 melen	melen velen melenoù
 vi	vi vioù
 skouerenn	skouerenn skouerennoù
@@ -740,15 +740,15 @@ o-unan	o-unan
 dianav	dianav zianav
 tresadenn	tresadennoù tresadenn dresadenn dresadennoù zresadennoù
 marc'heg	marc'heg varc'heien marc'heien varc'heg varc'heion
-resev	resevet resev resevas reseviñ
+resev	resevet resev resevas reseve reseviñ resevont resevjont
 lost	lost lostoù
 beajiñ	beajiñ veajiñ veajas beajet veaje veajfe veaji veajjont veajo veajont beajer veajer
 meuriad	meuriad meuriadoù veuriad veuriadoù
-goañv	goañv goañvoù c'hoañv
+goañv	goañv goañvoù goañvioù c'hoañv
 hed	hed hedoù
 prest	prest
 eben	eben
-lizher	lizher
+lizher	lizher lizheroù
 peseurt	peseurt beseurt
 abati	abati abatioù
 dugelezh	dugelezh zugelezh dugelezhioù zugelezhioù
@@ -756,7 +756,7 @@ eurvezh	eurvezh eurvezhioù
 ki	c'hi chas ki gi kon c'hon gon
 anat	anat anatañ anatoc'h
 fazi	fazi fazioù
-frouezh	frouezh frouezhenn
+frouezh	frouezh frouezhenn frouezhioù
 diouzhtu	diouzhtu
 padal	padal
 gresian	gresian c'hresianed c'hresian gresianed c'hresianez
@@ -766,11 +766,11 @@ kabiten	c'habiten kabiten gabiten kabitened c'habitened gabitened
 a-berzh	a-berzh
 eeun	eeun eeunoc'h eeunañ
 notenn	notennoù notenn
-talañ	talañ dalañ tales talet taliñ daliñ
+talañ	talañ dalañ tales talet taliñ dalas daliñ
 kontadenn	kontadennoù gontadenn c'hontadennoù kontadenn gontadennoù c'hontadenn
 kostez	kostez gostez c'hostez c'hostezioù kostezioù gostezioù
 feiz	feiz
-liorzh	liorzh liorzhoù
+liorzh	liorzh liorzhoù liorzhioù
 splann	splann splannoc'h splannañ
 diskenn	diskenn ziskenn tiskenn diskennet tiskennas tiskenne ziskenne tiskennent tiskennje tiskennont ziskennas ziskennfe
 manac'h	venec'h manac'h menec'h vanac'h
@@ -778,17 +778,17 @@ gouarnour	gouarnour c'houarnour gouarner gouarnourien gouarnerez c'houarnerez c'
 aer	aer
 doujañ	doujet doujañ zoujañ zouj zoujont douj doujiñ touj toujañ toujent toujfe toujint toujo toujont zoujfent
 dave	dave daveoù zave
-hinienn	hiniennoù hinienn
+hinienn	hiniennoù hinienn hiniennioù
 broad	broadoù vroad broad vroadoù broiz vroidi
-yec'hed	yec'hed
-krouidigezh	krouidigezh grouidigezh c'hrouidigezh
+yec'hed	yec'hed yec'hedoù
+krouidigezh	krouidigezh grouidigezh krouidigezhioù c'hrouidigezh
 chadenn	chadenn chadennoù
 rusian	rusian rusianed
 barregezh	barregezhioù varregezh barregezh varregezhioù
 maer	maer vaer vaered maered vaerez
 teñval	teñval teñvaloc'h deñval teñvalañ deñvaloc'h
 kordenn	gordenn kerdin c'herdin kordenn c'hordenn gerdin c'hordennoù gordennoù kordennoù
-bodañ	bodañ vodañ vodas vode voder bodo voden bodas boded
+bodañ	bodet bodañ vodañ vodas vode vodet vodont voder vodje bodo voden bodas boded vodent
 etrezek	etrezek
 biken	biken viken
 diwezh	diwezh ziwezh diwez
@@ -800,10 +800,10 @@ dornskrid	dornskrid dornskridoù zornskrid zornskridoù
 kenderv	genderv c'henderv kenderv keniterv genitervez geniterv kendirvi c'hendirvi gendirvi kenitervez c'heniterv
 sklav	sklaved sklav sklavez sklavezed
 pakañ	paket pakañ bakañ paker pakas pak pako bako
-distruj	distruj zistruj tistruj
+distruj	distruj zistruj distrujoù tistruj
 droug	droug zroug drougoù
 barzhoniezh	varzhoniezh barzhoniezh
-gour	gour gourion goured c'hour c'hourion
+gour	gour gourion goured gourioù c'hour c'hourion
 efedus	efedus efedusoc'h efedusañ
 arab	arab arabed
 selaou	selaou selaouet selaouer selaoue selaouas selaouit selaouont
@@ -813,23 +813,23 @@ kig	kig c'hig gig
 paper	paper baper paperioù baperioù paperoù baperoù faperoù
 labourer	labourerien labourer labourerezed labourerez
 berzañ	berzet verz berz verzañ berzañ verzet berziñ perz
-paeañ	paeañ baeañ paean paeer
+paeañ	paeet paeañ baeañ baeas baeont baee paee paean baeent paeas paeer
 e-giz	e-giz
 daouzek	daouzek zaouzek
 kriz	kriz griz krisoc'h c'hriz krisañ
 templ	templ temploù dempl demploù zemploù
 breizhat	breizhat vreizhat
 pegen	pegen peger begen vegen
-kemmañ	kemmañ gemmañ c'hemmañ
-beli	beli veli peli
+kemmañ	kemmet kemmañ kemmas gemmañ gemmas gemmont kemmont c'hemmañ gemme gemmet gemmo kemme kemmjont kemmo
+beli	beli veli belioù peli
 kredenn	gredenn kredennoù kredenn c'hredennoù gredennoù c'hredenn
 keflusker	c'heflusker kefluskerioù c'hefluskerioù keflusker geflusker gefluskerioù
 nav	nav
-gervel	galvet gervel c'hervel c'halvas galvas
+gervel	galvet gervel c'hervel c'halvas c'halve c'halvont galvas
 prevez	prevez
 dilez	zilez dilez tilez
 torfed	torfedoù torfed dorfedoù dorfed zorfedoù zorfed
-moneiz	moneiz voneiz voneizioù
+moneiz	moneiz moneizoù voneiz voneizioù
 manati	manati manatioù vanati vanatioù
 itron	itron itronezed itroun
 ganedigezh	ganedigezh c'hanedigezh ganedigezhioù
@@ -847,9 +847,9 @@ lazhadeg	lazhadeg lazhadegoù
 pesk	pesked pesk besked
 brec'h	vrec'h brec'h divrec'h brec'hioù zivrec'h vrec'hioù
 evezh	evezh
-hin	hin hinoù
+hin	hin hinoù hinioù
 metrad	metrad vetrad vetradoù metradoù
-mennozh	mennozh vennozh
+mennozh	mennozhioù mennozh vennozh
 barrek	barrek barrekoc'h varrek barrekañ varrekañ
 muioc'h-mui	muioc'h-mui
 verb	verb verboù
@@ -859,16 +859,16 @@ sec'h	sec'h sec'hañ sec'het sec'hiñ sec'hoc'h
 plijadur	plijadur blijadur plijadurioù flijadur blijadurioù
 argant	argant
 feur	feur feurioù
-degouezhout	tegouezhas degouezhout zegouezhas tegouezhe tegouezhout zegouezhe zegouezho zegouezhout
+degouezhout	tegouezhas degouezhout degouezhet zegouezhas tegouezhe tegouezhout zegouezhe tegouezhjont tegouezhent zegouezhent zegouezhet zegouezho zegouezhont zegouezhout
 spagnoleg	spagnoleg
 surentez	surentez
 reuz	reuz reuzioù
 iliz-veur	iliz-veur ilizoù-meur
-kompagnunezh	gompagnunezh kompagnunezh c'hompagnunezh
+kompagnunezh	gompagnunezh kompagnunezh kompagnunezhioù c'hompagnunezh
 eontr	eontr eontred
 dremm	dremm zremm dremmoù
 alese	alese
-skolaj	skolaj skolajoù
+skolaj	skolaj skolajoù skolajioù
 ospital	ospital ospitalioù
 tourist	douristed touristed tourist douristez dourist
 bank	bank vank bankoù vankoù
@@ -879,23 +879,23 @@ kastiz	kastiz c'hastiz gastiz c'hastizoù kastizoù
 krenn	krenn krennet grenn krennañ krennoc'h grennas grennañ c'hrennañ grenno krennas
 koulzad	koulzad c'houlzad goulzad koulzadoù c'houlzadoù
 evn	evned evn
-traoñienn	traoñienn traonienn draoñienn traoñiennoù draonienn zraoñienn
-straed	straed
+traoñienn	traoñienn traonienn draoñienn traoñiennoù draonienn zraoñienn traoniennoù
+straed	straed straedoù
 gouenn	ouenn gouenn gouennoù ouennoù c'houenn c'houennoù
 glav	glav glaveier c'hlav c'hlaveier glavioù klaw
 gwrizienn	gwrizioù wrizienn gwriziennoù gwrizienn wrizioù c'hwrizienn wriziennoù
-houarn	houarn
+houarn	houarn houarnioù
 aze	aze
-plijout	plijout blijout
+plijout	plijout blij blije plijet plij blijas plije plijas blijfe blijo plijfe blijet blijout plijo plijont
 dle	dle tle zle dleoù zleoù
-urzhiataer	urzhiataer urzhiataerioù urzhiataerezioù urzhiataerez
+urzhiataer	urzhiataer urzhiataerioù urzhiataerezioù urzhiataeroù urzhiataerez
 kalet	kalet galet kaletoc'h kaled galetañ kaletañ
 skiantour	skiantourien skiantour skiantourez skiantourion
-tostaat	tostaat dostaat tosta dostaas dosta tostaas dostae dostai
+tostaat	tostaat dostaat tostaet tosta dostaas dosta tostaas dostae dostai dostajont dostaont tostaent tostaont
 kemenn	kemenn kemennet gemenn c'hemenn kemennoù c'hemennoù gemennas gemennoù kemenne gemenne c'hemenne kemennas kemenner
 oabl	oabl oablenn
 genoù	genoù c'henoù genaouioù
-kouezhañ	kouezhañ gouezhañ kouezañ
+kouezhañ	kouezhañ kouezhet gouezhañ kouezhas kouezh gouezhas gouezh kouezañ kouezhjont gouezhe gouezho kouezhe kouezhfe gouezhfe gouezhjont gouezhont kouezhje kouezhont
 kembraeg	kembraeg c'hembraeg gembraeg
 gwiskañ	wiskañ gwiskañ wiskas wiske wiskont wiskent wisko
 ti-embann	ti-embann zi-embann di-embann tiez-embann diez-embann tier-embann
@@ -908,24 +908,24 @@ podad	bodad bodadoù podad vodad
 a-dreuz	a-dreuz
 piano	piano pianoioù biano fiano
 ramz	ramz ramzed
-kousket	kousket gousket kouske c'housked
+kousket	kousket gousket gouskont kouske c'housked gousko kouskent kouskont
 gwallzarvoud	gwallzarvoud gwallzarvoudoù wallzarvoud wallzarvoudoù
-treuziñ	treuziñ treuzet dreuziñ dreuzas treuzas
+treuziñ	treuziñ treuzet dreuziñ dreuzas dreuze treuzas treuzjont treuze
 lusk	lusk luskoù
 ti-kêr	ti-kêr tiez-kêr di-kêr
-kannañ	gannañ kannet gannet kannañ ganno ganniñ
+kannañ	gannañ kannet gannet kannañ ganno gannont ganniñ
 nijal	nijal nijet nije nijont nijas nijjont
 estreget	estreget estregetañ estregeti estregeto
 me	me
 lizherenneg	lizherenneg lizherennegoù
 tevel	dav davis tevel devel davi tav tavas
-magañ	vagañ magañ vage vagas magi mago vagiñ mag magan mage mager magerien vagerien
+magañ	maget vagañ magañ vage vagas vagont magi mago vagiñ mag magan mage mager magerien vagerien
 isspesad	isspesad isspesadoù
-gwellaat	gwellaat wellaat wellae
+gwellaat	gwellaat gwellaet wellaat wellaas gwella wella wellae wellaet wellajont wellao
 prederour	prederour prederourien brederourien brederour brederourion frederourien
-diwan	diwan ziwan tiwan divan diwanañ ziwanañ tiwanañ
+diwan	diwan diwanet tiwanas ziwanas ziwan tiwan divan diwanañ ziwanañ tiwanañ ziwane ziwanfe ziwano
 start	start startoc'h startañ
-pareañ	pareañ bareañ pare bare fareañ
+pareañ	pareañ bareañ pareet pare paree bare barefe fareañ bareas bareje pareas pareont
 to	to
 brezhoneger	brezhonegerien vrezhonegerien brezhoneger brezhonegerez vrezhonegerion vrezhoneger brezhonegerezed
 klok	klok glok klokoc'h glokañ klokañ
@@ -934,28 +934,28 @@ siwazh	siwazh
 tregont	tregont dregont zregont
 o-daou	o-daou o-div
 prim	prim primañ brim primoc'h brimoc'h frim
-plegañ	plegañ blegañ pleget plegas flegañ plege pleger
+plegañ	plegañ blegañ pleget plegas blegent flegañ plege pleger plegjont
 trouz	trouz trouzioù drouz trous trouzoù
-kleze	c'hleze kleze gleze gleve klezeier klezeoù kleve c'hlezeoù c'hlezeier klezeñv
+kleze	c'hleze kleze gleze gleve klezeier klezeoù kleve klezeioù c'hlezeoù c'hlezeier klezeñv
 koublad	c'houblad koubladoù goublad koublad c'houbladoù goubladoù
 arabat	arabat
 mell-droad	mell-droad vell-droad
 emren	emren emrenoc'h
 gwalarn	gwalarn walarn
-yen	yen yenañ yenoc'h yeni
+yen	yen yenañ yenoc'h yeni yeno
 kerkent	kerkent
 skoed	skoed skoedoù
 melestradurel	melestradurel velestradurel
 kelc'h	kelc'h c'helc'h kelc'hioù gelc'h c'helc'hioù gelc'hioù
 àr	àr àrnezhe àrnezhi
-skignañ	skignañ skign skignent
+skignañ	skignet skignañ skign skignas skigne skignent skignfent
 preder	preder breder prederioù freder brederez brederien brederioù
 eme	emezañ eme emezi emezo emeze emezon
 prouiñ	prouet prouiñ brouiñ brou brouas prouas prouen brouen brouet brouez brouo frouez prou
 prouenn	prouenn prouennoù brouenn brouennoù frouenn
 maout	maout meot
-diwall	diwall ziwall tiwall
-gouzañv	gouzañv c'houzañv gouzañviñ
+diwall	diwall ziwall diwallet tiwall tiwalle tiwallje tiwallo tiwallont ziwallas ziwallo
+gouzañv	gouzañv c'houzañv gouzañvet c'houzañvont c'houzañvent c'houzañvo gouzañviñ
 sioul	sioul siouloc'h sioulañ
 tad-kozh	dad-kozh tad-kozh zad-kozh dadoù-kozh zadoù-kozh
 medisin	medisin medisined vedisined vedisin vedisinez
@@ -969,16 +969,16 @@ mengleuz	mengleuzioù vengleuz mengleuz vengleuzioù
 suis	suis suised suisez
 lise	lise liseoù
 vogalenn	vogalenn vogalennoù
-ledañ	ledet ledañ lede ledo
+ledañ	ledet ledañ lede ledas ledfe ledo
 brezel-bed	brezel-bed vrezel-bed
 koadek	goadeg c'hoadegoù c'hoadegi koadek koadegoù koadeg koadegi c'hoadek
 turk	turk durked turked durk durkez
 steredenn	steredenn
 feal	feal fealañ
 lamm	lamm lammoù
-tren	tren trenioù drenioù dren zren
+tren	tren trenioù drenioù dren trenoù zren
 laerezh	laeret laerezh laere laeront
-diskoulmañ	diskoulm diskoulmañ ziskoulmañ ziskoulm
+diskoulmañ	diskoulm diskoulmañ diskoulmet ziskoulmañ ziskoulm ziskoulme
 micherour	vicherourien micherourien micherour micherourez vicherourez vicherourion micherourion
 markiz	markiz markizez varkizez varkiz markizien
 pred	fred pred predoù fredoù
@@ -986,7 +986,7 @@ e-doug	e-doug
 bara	bara vara para
 marc'hadour	marc'hadour marc'hadourien varc'hadourien marc'hadourez marc'hadourion
 ardivink	ardivinkoù ardivink
-enrollañ	enrollañ
+enrollañ	enrollet enrollañ enrollas enroll enrolljont enrollont enrollo
 brudañ	brudañ vrudañ vrudas vrude bruder
 gwagenn	gwagennoù gwagenn wagenn wagennoù
 enezeg	enezeg enezegi enezegoù
@@ -1000,20 +1000,20 @@ karrez	karrez c'harrez garrez karrezioù c'harrezioù garrezioù
 alan	alan
 europat	europat
 lur	lur lurioù
-divizout	divizout zivizout tivizout
+divizout	divizet tivizas diviz divizout zivizas ziviz tiviz zivizout tivizjont tivizont tivizout tivizo divizas zivizjont
 bir	vir bir biroù pir
-loc'hañ	loc'hañ loc'h loc'het loc'has loc'hoù loc'hioù
+loc'hañ	loc'hañ loc'h loc'het loc'has loc'hoù loc'he loc'hfent loc'hioù loc'ho
 pinvidigezh	pinvidigezh binvidigezh pinvidigezhioù finvidigezh binvidigezhioù finvidigezhioù
-saveteiñ	saveteiñ
+saveteiñ	saveteiñ saveteet savete saveteas
 armet	armet
-menegiñ	menegiñ venegiñ
+menegiñ	meneget meneg menegiñ veneg venegiñ venegas venege venegont menego menegont veneget
 gorre	gorre c'horre gorreoù
 askorn	eskern askorn
 kelt	gelted kelt kelted gelt c'helt
 kustum	kustum gustum c'hustum
-pignat	pignat bignat pignas pign pigne pignent pigner pigno
+pignat	pignat bignat pignet pignas pign pigne pignent pigner pigno pignont
 bod	bod bodoù
-barr	barr barroù varr parr varroù
+barr	barr barroù varr parr barrioù varroù
 keodedour	geodedourien keodedourien keodedour c'heodedour geodedour c'heodedourien geodedourez geodedourion keodedourion
 digarez	zigarez digarez digarezioù zigarezioù
 elektronek	elektronek
@@ -1021,10 +1021,10 @@ leur	leur
 skañv	skañv skañvoc'h skañvañ skañvat
 dañs	dañs dañsoù zañs tañs
 leat	lee leo lead lei leor leas leit
-muzuliañ	muzuliañ vuzuliañ
+muzuliañ	muzuliañ muzuliet vuzuliañ vuzuliont muzuliont vuzulie
 glan	glan c'hlan klan glanoc'h
 bann	bann bannoù vann vannoù pann
-leuskel	leuskel leusker
+leuskel	leuskel leusket leusker
 bugaleaj	vugaleaj bugaleaj
 barner	barner varnerien barnerien varner varnerion
 gar	gar divhar zivhar gerent c'herent garioù garoù c'haroù
@@ -1034,9 +1034,9 @@ kantad	kantadoù gantad c'hantad gantadoù c'hantadoù
 argadenn	argadenn argadennoù
 diskibl	diskibl diskibled ziskibien diskibien ziskibl ziskibled diskibion ziskibion
 traezh	traezh draezhenn traezhennoù draezh traezhenn draezhennoù zraezh zraezhenn
-santout	santet santout santo santer santi santas santed santis santit santes
-skingomz	skingomz
-skorn	skorn skornañ
+santout	santet santout santo santer santi santas santed santfe santis santit santont santes
+skingomz	skingomz skingomzoù
+skorn	skorn skornañ skornas skornfe skornje
 louzoù	louzoù louzeier
 garv	garv c'harv garvoc'h
 leanez	leanez leanezed leaned lean
@@ -1044,34 +1044,34 @@ pennlec'h	pennlec'h fennlec'h pennlec'hioù bennlec'h
 italianeg	italianeg
 keit	keit
 donder	donder donderioù zonder
-peadra	peadra beadra feadra
+peadra	peadra beadra feadra peadraoù
 renkad	renkadoù renkad
 kened	kened gened c'hened
 krennard	grennarded krennarded c'hrennard grennardez krennard krennardez grennard grennardenn krennardenn
 baron	baron baroned baronez varon varonez faron varoned
 diskennad	diskennidi diskennad ziskennidi diskennadez ziskennadezed
-parañ	barañ parañ faro barez parezed baris varin paret pared bari baran barin baro faris paro baras baret barit fari parer varan varo barezed parez bared farez farezed
+parañ	barañ parañ faro barez parezed baris varin paret pared bari baront baran barin baro faris paro baras baret barit fari parer varan varo barezed parez bared farez farezed
 metoù	metoù meteier vetoù
 nac'hañ	nac'hañ
 greantel	greantel c'hreantel
 gaz	gaz gazoù c'hazoù c'haz
-prientiñ	prientiñ brientiñ frientiñ
+prientiñ	prientiñ prientet brientiñ brientas prientas briente frientiñ prientont
 amezeg	amezeien amezeg amezegez amezeion amezegezed
 plasenn	blasenn plasenn plasennoù flasenn flasennoù
 kementad	c'hementad kementadoù kementad c'hementadoù gementadoù gementad
 kevrenn	kevrenn gevrenn kevrennoù
-skoazellañ	skoazellañ
+skoazellañ	skoazellañ skoazellet skoazellas skoazelle skoazello
 deiziad	deiziad deiziadoù zeiziad zeiziadoù
-gwan	gwan wan gwanoc'h gwanañ wanoc'h
+gwan	gwan wan gwanoc'h gwanañ wanoc'h gwano
 maner	maner manerioù
-pouezañ	pouezañ bouezañ poueze
+pouezañ	pouezañ pouezet bouezañ bouezas pouezas poueze pouezfe
 telenn	delenn telenn telennoù zelenn
 medalenn	medalenn vedalenn medalennoù vedalennoù medalinier
 ker	ker keroc'h kerañ c'herañ gerañ kerioù
 a-sav	a-sav
 ribl	ribl ribloù
 tour-tan	tour-tan dour-tan dourioù-tan tourioù-tan zour-tan
-treuzkas	treuzkas dreuzkas zreuzkas
+treuzkas	treuzkas treuzkaset dreuzkas zreuzkas dreuzkasont treuzkasas zreuzkasas
 mezeg	mezeg vezeien mezeien vezeg mezegez vezegez vezeion
 japanat	japanat
 aozer	aozer
@@ -1096,11 +1096,11 @@ gopr	gopr goproù c'hopr c'hoproù
 betek-henn	betek-henn
 test	test testoù dest destoù zest
 kab	gab c'hab kab
-deskrivañ	deskrivañ zeskrivañ teskrivañ
+deskrivañ	deskrivet deskrivañ zeskriv zeskrivañ teskriv zeskrive teskrivas teskrivañ zeskrivet
 diskouezadeg	diskouezadeg diskouezadegoù ziskouezadeg ziskouezadegoù
 gounid	gounid gounidoù c'hounid c'hounidoù
 enkadenn	enkadenn enkadennoù
-kilañ	gilañ kilañ gil kilo kil c'hil kilas
+kilañ	gilañ kilañ gil kilet kilo kil c'hil kilas
 hud	hud
 unvan	unvan
 noazh	noazh
@@ -1112,7 +1112,7 @@ lammat	lammat lammet lammas lamme lammont lammer
 klas	klas c'hlasoù klasoù glasoù
 menel	manet vanas menel mani vane manor vaned mane manen manez mano vano
 end-eeun	end-eeun
-sachañ	sachañ
+sachañ	sachañ sachet sach sachas sache sachfe sacho sachont
 dres	dres zres
 levraoueg	levraoueg levraouegoù
 taer	taer daer taeroc'h taerañ daerañ
@@ -1120,27 +1120,27 @@ heverk	heverk heverkañ
 hendad	hendadoù hendad
 sul	sul
 eñvorenn	eñvorennoù eñvorenn
-gweladenniñ	gweladenniñ weladenniñ
+gweladenniñ	gweladenniñ weladenniñ gweladennet gweladenn weladenn weladennas weladenne
 polotenn	bolotenn volotenn bolotennoù polotennoù polotenn
 kof	c'hof gof kof
 liester	liester liesterioù
 gouzoug	gouzoug c'houzoug goûg
 displegadenn	displegadenn displegadennoù zisplegadenn zisplegadennoù
 gwalenn	walenn gwalennoù gwalenn gwalinier walennoù
-preizh	preizhoù preizh freizhoù breizhoù freizh
+preizh	preizhoù preizh freizhoù breizhoù freizh preizhioù
 bordañ	ford vord bord borde border vordo
 gevred	gevred c'hevred
 ed	ed edoù
 maread	maread vareadoù mareadoù varead
-seblantout	seblantout seblante
+seblantout	seblantout seblante seblantont seblantas seblantfe seblanto
 kerentiad	c'herentiad kerentiad gerentiad c'herentiadoù kerentiadoù gerentiadoù
 bale	vale bale baleet valee paleis
 nemeur	nemeur
-riez	riez riezoù
+riez	riez riezoù riezioù
 doare-skrivañ	doare-skrivañ zoare-skrivañ doareoù-skrivañ
 sizhunvezh	sizhunvezh sizhunvezhioù
-striv	strivoù striv
-goprañ	gopret goprañ c'hoprañ c'hopret
+striv	strivoù striv strivioù
+goprañ	gopret goprañ c'hoprañ c'hopret c'hopre
 testeni	testeni testenioù desteni destenioù zesteni zestenioù
 poliser	boliserien poliser poliserien boliser
 dañsal	zañsal dañsal tañsal dañset tañse dañsont tañsas zañsent
@@ -1150,14 +1150,14 @@ yezhadur	yezhadur yezhadurioù
 trawalc'h	trawalc'h
 votadeg	votadeg votadegoù
 matematik	matematik matematikoù
-klemm	klemm glemm c'hlemm
+klemm	klemm glemm klemmoù klemmas klemmet c'hlemm glemmas klemme glemme klemment klemmioù
 archer	archerien archer archerion
 martolod	martolod vartoloded martoloded vartolod
 poazhañ	poazhet poazhañ boazhañ boazhat foazhañ poazhe
 kenetre	kenetrezo kenetreze kenetre c'henetre
 kevre	kevre c'hevre c'hevreoù gevre kevreoù
 hollved	hollved
-adkemer	adkemer
+adkemer	adkemeret adkemer adkemeras adkemere
 honnezh	honnezh
 pemzek	pemzek bemzek
 hêr	hêr hêrez hêred hêrezed
@@ -1165,12 +1165,12 @@ botez	botoù votoù votez botez boteier
 stabil	stabil stabilañ stabiloc'h stabilat
 hunvre	hunvre huñvre hunvreoù huñvreoù
 ampart	ampart ampartañ ampartoc'h
-laz	laz lazoù
-skarzhañ	skarzhañ
+laz	laz lazoù lazioù
+skarzhañ	skarzhet skarzhañ skarzhas skarzh skarzhe skarzho
 denel	denel deneloc'h zenel
-anzav	anzav anzavas anzave anzavout anzaver
+anzav	anzav anzavet anzavas anzave anzavout anzaver anzavo
 meuz	meuz meuzioù veuz veuzioù
-skouarn	skouarn divskouarn zivskouarn skouarnoù
+skouarn	skouarn divskouarn zivskouarn skouarnioù skouarnoù
 kador	gador kador c'hadorioù c'hador kadorioù keder
 paz	pas paz fazioù faz pazioù pazoù
 kombod	c'hombod kombod gombod kombodoù c'hombodoù gombodoù
@@ -1181,7 +1181,7 @@ letanant	letanant letananted
 kilometr	kilometr c'hilometr gilometr kilometroù gilometroù
 stered	stered steredennoù
 fest	fest festoù
-kreñvaat	kreñvaat greñvaat c'hreñvaat
+kreñvaat	kreñvaat kreñvaet greñvaat kreñvaas greñvaas greñva c'hreñvaat greñvafe kreñvae
 koronal	c'horonal koronal goronal koronaled
 plankenn	plankenn plankennoù plenk blankenn blankennoù
 manifestadeg	manifestadegoù vanifestadeg manifestadeg vanifestadegoù
@@ -1198,12 +1198,65 @@ naplez	naplez
 douar-bras	douar-bras zouar-bras
 aner	aner anerioù
 laouen	laouen laouenañ laouenoc'h
-dan	dan daned
-beuziñ	beuzet beuziñ veuziñ veuzet
+dan	dan daned danoù
+beuziñ	beuzet beuziñ veuzas veuziñ veuzet veuzont
+diwezhat	diwezhatoc'h diwezhat ziwezhat
+ijinañ	ijinet ijinañ ijinas ijine ijinjont ijino
+rediañ	rediet rediañ redias redie
+dizoleiñ	dizoloet dizoleiñ tizoloas zizoloas zizoleiñ tizoleiñ tizoloont dizoloas tizoloe tizolojont zizoloent zizoloet
+tamall	tamallet tamall tamalloù damall damallas tamalle damalle tamallas zamall damallo damalloù tamallent zamalle zamalloù
+moullañ	moullet moulet moullañ voul voullañ moulañ moull voulañ voulet voullas voulas
+gouestlañ	gouestlet gouestlañ gouestl c'houestle
+awenañ	awenet awenas aweniñ awenañ
+lec'hiañ	lec'hiet lec'hiañ lec'hiont lec'hiñ
+distagañ	distaget distagañ zistagañ tistagas tistagañ zistagas zistagfe zistago
+enoriñ	enoret enoriñ enoras enore
+goleiñ	goloet goleiñ c'holoe goloiñ c'holoiñ c'holeiñ c'holoas
+votiñ	votiñ votet vot votas votañ vote votont
+bac'hañ	bac'het bac'hañ vac'hañ bac'has vac'has vac'he
+annezañ	annezet annezañ annezas annezont
+meskañ	mesket meskañ veskañ veskas veske veskjont vesket
+mennout	mennet venner venne menn mennout vennas mennas menno vennent vennet vennit
+muntrañ	muntr muntret muntrañ vuntr vuntras vuntrañ vuntrjont vuntront
+gwaskañ	gwask gwasket wask gwaskañ waskañ waskas waske waskfe waskjont
+kempenn	kempennet kempenn gempenn c'hempenn gempennas gempennet kempennoù
+douarañ	douaret douarañ zouarañ touarañ touaras zouaras zouare
+addimeziñ	addimeziñ addimezas addimezet addimezje
+fiziout	fiziet fiziout fizias fizie fizient
+arverañ	arveret arverañ arveras arvero
+kadarnaat	kadarnaet kadarnaat gadarnaat gadarna gadarnaas kadarnaas c'hadarnaat gadarnae kadarnae
+desevel	desavet desevel zesevel zesav zesaverien
+adembann	adembannet adembann adembannas
+servijañ	servijet servije servijas servijo servijañ servijont servijent servijje
+taolenniñ	taolennet taolenniñ daolenne daolenniñ taolenne daolenner taolennas
+merzout	merzet merzout verzas verzout verze verzjont
+lemel	lemel lamet lam lamas lamfe
+diskleriañ	diskleriet diskleriañ tisklerias zisklerias ziskleriañ tiskleriañ disklerias tisklerie zisklerie zisklerio
+prometiñ	prometet prometiñ prometas bromet brometas brometiñ promet bromete prometje prometont
+faezhañ	faezhet faezhañ faezhas
+pellaat	pellaat pellaet bellaat bella pellaas fella bellaas bellae
+brasaat	brasaet vrasaat brasaat vrasa vrasaas prasai brasae vrasae
+spontañ	spontet spontañ sponter sponterien sponte spontent spontas
+gourc'hemenn	gourc'hemenn gourc'hemennet gourc'hemennoù c'hourc'hemenn c'hourc'hemennas c'hourc'hemenne c'hourc'hemennoù gourc'hemennas
+plantañ	plantet plantañ blantañ blantas plantas blante blantet blanto flantañ plantjont
+dibennañ	dibennet dibennañ zibennañ tibennañ zibennas
+chaseal	chaseal chaseet chasee chaseent chaseont
+kastizañ	kastizet gastizañ kastizañ c'hastizañ
+riskl	riskl riskloù
+krougañ	krouget groug grougas grougañ krougañ grouget kroug krougas
+prederiañ	prederiet prederiañ brederiañ prederias brederiet prederi prederie
+drouklazh	drouklazhet drouklazh zrouklazh
+rebech	rebechet rebechoù rebech rebeche rebechiñ rebechas rebechont
+bountañ	bountet vountas vountañ bountañ vount vounte vounto
+postañ	postañ postet bostañ poster poste postes bostas
+urzhiañ	urzhiet urzhiañ urzhias urzhiont
+badeziñ	badezet badeziñ vadeziñ padezo vadezet vadezont
+askell	divaskell eskell askell zivaskell askellioù
+arnodiñ	arnod arnodiñ arnodet arnodas
+azeuliñ	azeulet azeuliñ azeul azeule azeulin
+argas	argaset argas argasas argase argasiñ
 dañjer	dañjer dañjerioù dañjeroù
 ene	ene eneoù eneñv
-pellaat	pellaat bellaat bella fella
-askell	divaskell eskell askell zivaskell
 person	person berson bersoned ferson
 bennozh	vennozhioù bennozh bennozhioù
 aergelc'h	aergelc'h aergelc'hioù
@@ -1216,15 +1269,17 @@ kristeniezh	gristeniezh
 erc'h	erc'h
 gleb	gleb c'hleb glepañ glepoc'h
 gaou	gaou gevier c'haou
-kempenn	kempenn gempenn c'hempenn kempennoù
 peuriñ	beure peuriñ beuriñ veure feurer
-votiñ	votiñ votañ
-addimeziñ	addimeziñ addimezet
+hêrezh	hêrezh hêrezhioù
+dudi	dudi dudioù zudi tudi
+gwarez	gwarez warez gwarezioù
+profañ	profet profañ brofañ brofas brofit profas brofjont profan profit
 matezh	vatezh matezh mitizhien vitizhien
+aliañ	aliet aliañ alias alier alien alie alii alijont aliont
 touiñ	touet touiñ zouje touas dou douiñ touer tou touit douent touje zoues
 arabeg	arabeg
-hêrezh	hêrezh
 eñvor	eñvor eñvorioù
+padus	padus badus padusoc'h
 rumm	rumm rummoù
 plaen	plaen plaenoc'h
 bedel	bedel vedel pedel
@@ -1233,7 +1288,7 @@ silabenn	silabenn silabennoù
 katalaneg	katalaneg c'hatalaneg
 aneval	anevaled aneval
 hent-houarn	hent-houarn hentoù-houarn
-gourc'hemenn	gourc'hemenn gourc'hemennoù c'hourc'hemenn c'hourc'hemennas c'hourc'hemennoù gourc'hemennas
+mougañ	mouget mougañ vougañ voug vougas moug
 sentiñ	sentiñ sentas sentet sentent sente sentin
 bourc'hiz	vourc'hizien bourc'hizien bourc'hiz vourc'hiz vourc'hizez vourc'hizion
 a-gleiz	a-gleiz
@@ -1241,56 +1296,61 @@ loar	loar
 paol	paol baol
 lein	lein leinoù
 diaoul	diaoul diaouled diaoulien diaouloù ziaoul diaoulez
-moullañ	moullañ voullañ moulañ voulañ
 arvest	arvest arvestoù
+torgenn	dorgenn torgennoù torgenn zorgenn
 pedenn	bedenn pedennoù pedenn fedennoù fedenn bedennoù
+dihuniñ	dihunet zihun dihuniñ dihun dihuner tihun zihuniñ tihuniñ zihunas dihunerioù tihune zihune zihunet
 'z	az
 oferenn	oferenn oferennoù
+sin	sin sinoù
 krign-bev	c'hrign-bev krign-bev c'hrignoù-bev grign-bev grignoù-bev krignoù-bev
-distagañ	distagañ zistagañ tistagas tistagañ zistagas zistago
 iwerzhoneg	iwerzhoneg
 sinaat	sinaat
 hanter-kant	hanter-kant
-chaseal	chaseal
 homañ	homañ
-padus	padus badus
+skuizh	skuizh skuizhet skuizhas skuizhañ skuizhont
+berraat	berraet berraat verra verraat verrai
+azasaat	azasaet azasaat azasa
 pour	pour four bour vour
 bazh	vazh bizhier bazh pazh
 koant	koant goant koantoc'h goantañ c'hoantañ koantañ
-gwarez	gwarez warez
 gwiskad	gwiskad gwiskadoù wiskad
 karr-tan	c'harr-tan kirri-tan karr-tan c'hirri-tan garr-tan girri-tan
 dous	dous dousoc'h dousoù tous zous
 arem	arem
-dudi	dudi zudi tudi
+poblek	poblek boblek poblekoc'h
 speredek	speredek speredekoc'h speredekañ
 bleunienn	bleunioù vleunienn vleunioù bleunienn
 pounner	pounner pounneroc'h bounner pounnerañ bounnerañ
 drouiz	drouized drouiz drouizez zrouiz
 roz	roz rozenn ros
-diwezhat	diwezhat ziwezhat
+run	runoù run runioù
 pesketaer	pesketaer pesketaerien besketaerien besketaer besketaerion
+nij	nij nijoù
 davet	davet daveti davetañ davedout daveto
+poz	pozioù poz pozoù
 arnevez	arnevez
+awen	awen awenoù
 frañsez	frañsez frañsizien
 galv	galv c'halv galvoù
 bezañs	bezañs vezañs
 tev	tev tevoc'h zev tevañ
+ambroug	ambrouget ambroug ambrouger ambrougas ambrouge ambrougerez
 gwiad	gwiad gwiadoù
 sorser	sorserien sorser sorserez
-poz	pozioù poz
 teal	dei zeas dean deal teen teal deer teo zee zeit tei zeal zean
 tezenn	dezenn tezennoù tezenn zezenn dezennoù zezennoù
+dibunañ	dibunañ dibunet dibun zibunañ tibunañ tibuniñ zibun zibunas tibun zibuniñ
 a-ratozh	a-ratozh
 skiant-faltazi	skiant-faltazi
-awen	awen
 fentus	fentus fentusoc'h
-poblek	poblek boblek
 skeul	skeul skeulioù
 trizek	trizek drizek zrizek
-profañ	profet profañ brofañ brofit profan profit
-tamall	tamall tamalloù damall zamall damalloù zamalloù
+lun	lun lunioù
+adlakaat	adlakaat adlakaet adlakaas
 goap	goap c'hoap
+greun	greun greunenn c'hreun c'hreunenn greunioù
+pesketa	pesketa besketa pesketaet
 fiziañs	fiziañs
 led	led
 chañs	chañs chañsoù
@@ -1300,35 +1360,36 @@ troc'h	troc'h droc'h troc'hoù
 diaester	diaesterioù ziaesterioù diaester ziaester
 laer	laer laeron laerez
 gwareg	wareg gwaregoù gwareg waregoù
+gourdrouz	gourdrouz gourdrouzet c'hourdrouz c'hourdrouzas c'hourdrouze c'hourdrouzjont
 dall	dall tall
-greun	greun greunenn c'hreun c'hreunenn
-postañ	postañ bostañ poster poste postes bostas
 breizhveuriat	breizhveuriat vreizhveuriat breizhveurat vreizhveurat
 koust	goust koust c'houst c'houstoù koustoù
 fonnus	fonnus fonnusoc'h fonnusañ
+silañ	silañ silet silo silas silent silont
+renabliñ	renablet renabliñ renabl renablas
 trederenn	drederenn
-ijinañ	ijinañ
-enoriñ	enoriñ
 drouk	drouk zrouk
 laz-seniñ	laz-seniñ lazoù-seniñ
 c'hwezh	c'hwezh c'hwezhioù
 goustadik	goustadik goustadikoc'h goustadikañ
 las	las lasoù
+gronnañ	gronnet gronnañ c'hronnañ c'hronn gronn
 loarenn	loarennoù loarenn
+emdreiñ	emdroet emdreiñ emdro emdroas emdroje emdroo
 dougerez	dougerez dougerezed douger dougerien touger zouger
 fri	fri frioù
 si	si sioù
-silañ	silañ silet silo silas silent
 kolen	c'holen c'helin kolen golen gelin
 piramidenn	biramidenn piramidenn piramidennoù biramidennoù
+gwanaat	gwanaet wanaat gwanaat wanaas gwanaas wanajont
 glann	glann glannoù c'hlann klann klannoù c'hlannoù
-nij	nij
 speredel	speredel
 bramm	frammoù brammoù
-skuizh	skuizh skuizhañ
+yaou	yaou yaouioù
 'm	am
-dizoleiñ	dizoleiñ zizoleiñ tizoleiñ
+unaniñ	unaniñ unanas unane
 dizober	zizober dizober
+reizhañ	reizhañ reizhet reizhe
 gwerz	gwerzioù gwerz werz werzioù
 bandenn	bandennoù vandenn bandenn vandennoù
 habask	habask habaskoc'h
@@ -1336,19 +1397,17 @@ nevezamzer	nevezamzer nevezamzerioù
 bastard	bastard besterd vesterd vastard bastarded bastardez bastardezed vastarded
 tro-lavar	dro-lavar troioù-lavar tro-lavar droioù-lavar
 abad	abad abadez ebed
-spontañ	spontañ sponter sponterien sponte
-yaou	yaou
 denelezh	denelezh zenelezh
 gwener	gwener wener
 amprevan	amprevaned amprevan
 argad	argad argadoù
 mamm-gozh	vamm-gozh mamm-gozh
 arnodenn	arnodennoù arnodenn
-meskañ	meskañ veskañ
 alc'hwez	alc'hwez alc'hwezioù
 tarzhadenn	darzhadenn tarzhadenn tarzhadennoù darzhadennoù
+teuziñ	teuzet teuz deuz deuziñ teuziñ teuzas deuze teuzfe
+divroañ	divroet divroañ zivroañ tivro zivroas tivroe tivroañ zivroiñ zivroont
 kalonek	kalonek kalonekoc'h galonek
-pesketa	pesketa besketa
 sae	sae saeoù
 neñv	neñv neñvoù
 fest-noz	festoù-noz fest-noz
@@ -1357,12 +1416,11 @@ nijerez	nijerez nijerezioù nijerezed
 donezon	donezonoù donezon zonezon zonezonoù
 marc'hadourezh	marc'hadourezh marc'hadourezhioù varc'hadourezh varc'hadourezhioù
 karreg	garreg c'herreg kerreg karreg gerreg c'harregoù karregoù
-mennout	venner venne menn mennout vennas mennas menno vennit
 ront	ront
 c'hwec'hvet	c'hwec'hvet
-gronnañ	gronnet gronnañ c'hronnañ
 mintin	mintin vintin
 temperadur	temperadur temperadurioù demperadurioù demperadur zemperadurioù
+dilestrañ	dilestrañ dilestret tilestrañ zilestrañ tilestras tilestr tilestrjont dilestr dilestras tilestre zilestr zilestras
 eoul-maen	eoul-maen
 pegoulz	pegoulz
 divugel	divugel
@@ -1390,6 +1448,7 @@ tal	tal dal zal zalioù
 bourk	vourc'h bourk bourc'h bourc'hioù
 empenn	empenn empennoù
 benniget	benniget venniget
+gevrediñ	kevredet gevrediñ kevrediñ
 bosenn	vosenn bosenn
 pevarzek	pevarzek bevarzek fevarzek
 savenn	savenn savennoù
@@ -1397,58 +1456,67 @@ degad	degadoù degad zegad
 releg	relegoù relegenn releg
 from	from fromoù
 diñs	diñs diñsoù ziñs
+trevadenniñ	trevadenniñ trevadennet drevadenniñ drevadennas trevadennas
 prenestr	prenestr prenestroù prenester prenestri brenestr frenestr brenestroù
+rentañ	rentañ rentet rent rentas rento
 kempouez	kempouez c'hempouez gempouez
 galian	c'halianed galian galianed c'halian galianez
 teñzor	teñzor teñzorioù deñzor deñzorioù
+stekiñ	stekiñ stoket stokas stokfe
 obidoù	obidoù
 nann	nann
 techet	techet
+servijer	servijer servijerien servijerioù servijerez
 rod	rod rodoù
 skritell	skritell skritelloù
 bodadenn	vodadenn bodadenn bodadennoù
+boulc'hañ	boulc'het voulc'has boulc'hañ voulc'hañ
 priñselezh	priñselezh briñselezh priñselezhioù friñselezh briñselezhioù
+skoulmañ	skoulmañ skoulmet skoulmas
 skin	skinoù skin
 teod	teod zeod teodoù deod
 beajour	veajourien beajourien beajour beajourion veajerez veajour veajourez veajourion beajer veajer
+kamm	kamm c'hammed kammedoù c'hammedoù gammed kammed c'hamm gamm kammañ kamme kammet
 liammañ	liammañ liamme liammiñ liamman liammer liammont
 dastumer	dastumer dastumerien dastumerion zastumerien dastumerez tastumer
+uhelaat	uhelaet uhelaat uhela uhelae
 dale	dale daleet tale daleañ daleoù zaleas taleas zaleañ zaleont
 morlaer	morlaeron vorlaeron morlaer vorlaerez
 asant	asant
 strad	strad
-riskl	riskl
-rediañ	rediañ
 hogos	hogos
-lemel	lemel lamfe
+emrenerezh	emrenerezh emrenerezhioù
 gwele	gwele gweleoù
 diroll	diroll dirollañ ziroll tiroll zirollañ
 bac'h	vac'h bac'h pac'h
 yac'h	yac'h yac'hañ yac'hoc'h
 fuzuilh	fuzuilh fuzuilhoù
 naer	naer naered naeron
+gwrez	gwrez wrez gwrezioù
 preti	preti pretioù freti breti
 levier	levier levierez levierien levierion
+dilec'hiañ	dilec'hiet dilec'hiañ zilec'hiañ tilec'hient tilec'hio tilec'hiont tilec'hiañ zilec'hiont
 bronn	bronn vronn divronn bronnoù
-kamm	kamm c'hammed kammedoù c'hammedoù gammed kammed c'hamm gamm kammañ kamme
+krouadur	c'hrouadur c'hrouadurioù krouadur krouadurioù grouadur grouadurioù krouadurien grouadurez krouaduroù
+repuiñ	repuiñ repuet repuas
+adenvel	adanvet adenvel adanvas
+ledanaat	ledanaat ledanaet ledana ledanaas
+leuniañ	leuniet leuniañ leunias leunie
 abostol	ebestel abostol
 martezeadenn	vartezeadenn martezeadennoù martezeadenn vartezeadennoù
 komandant	komandant c'homandant gomandant c'homandanted komandanted
 karbed	karbedoù c'harbed c'harbedoù karbed garbed
 portugaleg	portugaleg
-emrenerezh	emrenerezh
 rannvroel	rannvroel rannvroelañ
-unaniñ	unaniñ unane
 arc'heskob	arc'heskob arc'heskibien
 krec'h	krec'h grec'h
 sevenadurezh	sevenadurezh sevenadurezhioù
 kablus	kablus gablus
 banell	panelloù banell panell banelloù
 roudenn	roudennoù roudenn
-gwrez	gwrez wrez
+treuz	dreuz treuzoù treuz zreuz
 atom	atom atomoù atomennoù atomenn
 kontell	gontell kontell kontilli c'hontilli c'hontelloù
-krouadur	c'hrouadur c'hrouadurioù krouadur krouadurioù grouadur grouadurioù krouadurien grouadurez
 bravig	bravigoù bravig vravig
 geriaoueg	geriaoueg c'heriaoueg geriaouegi geriaouegoù c'heriaouegoù
 bier	bier bieroù
@@ -1456,21 +1524,20 @@ chase	chase chaseoù
 pleg-mor	pleg-mor plegoù-mor
 go	go c'ho
 rouez	rouez rouesoc'h
-servijer	servijer servijerien servijerez
 kib	kib c'hib kiboù
 skolaer	skolaer skolaerez
+kodianañ	kodianañ godianañ kodianet godianas godiano kodianas godian godiane kodian kodiane
 distagadur	distagadur zistagadur distagadurioù
 paotrig	paotrig paotredigoù baotrig faotrig
 pizh	pizh pishoc'h bizh
 dañvad	deñved dañvad zeñved dañvadezed dañvadez zañvad
 pistolenn	bistolenn pistolennoù pistolenn fistolenn fistolennoù
-servijañ	servije servijas servijañ
+flastrañ	flastret flastrañ flastras flastre flastr
 tog	tog togoù dog zog
 kilometrad	gilometradoù kilometrad kilometradoù gilometrad
-dihuniñ	zihun dihuniñ dihun dihuner tihun zihuniñ tihuniñ zihunas dihunerioù
+dozviñ	dozvet dozviñ zozv zozviñ dozv tozv tozviñ zozvont
 levenez	levenez
 spi	spi
-sin	sin
 eilenn	eilenn eilennoù
 ahel	ahel ahelioù
 kazi	kazi gazi
@@ -1481,26 +1548,41 @@ dispign	dispign dispignoù zispign zispignoù
 kleuz	kleuz c'hleuz c'hleuzioù kleuzioù gleuz
 real	real realed
 trevadennel	trevadennel drevadennel
+neizh	neizh neizhoù neizhioù
 ponner	ponner bonner ponneroc'h ponnerañ
+gwallañ	gwallet gwallañ wallañ wallas gwallas
+eilañ	eilet eiler eilañ eilas eiljont
+preizhañ	preizhet preizhañ breizhañ breizhe freizhañ
+pinvidikaat	pinvidikaat binvidikaat pinvidikaet binvikaat pinvidikaont pinvikaat
 yezhoniezh	yezhoniezh
 diskar-amzer	diskar-amzer
 seizhvet	seizhvet
 oadet	oadet
 ni	ni
 louarn	louarn lern
+fuzuilhañ	fuzuilhet fuzuilhañ fuzuilhas fuzuilher fuzuilherien
 leti	leti letioù
 c'hoarzh	c'hoarzh
+adaozañ	adaozañ adaozet adaoz adaozas
 kerc'hat	gerc'hat c'herc'hat kerc'hat kerc'het
 a-grenn	a-grenn
 kennebeut	kennebeut
+souezhañ	souezhet souezhiñ souezhas souezhañ
+major	major vajor majorioù
 henvroiz	henvroidi henvroiz henvroad
 aval	aval avaloù
+pellgomz	pellgomz bellgomz pellgomzioù bellgomzas pellgomzet pellgomzoù
 had	had hadoù hadenn
+resisaat	resisaat resisaet resisa resisaas
 pluenn	bluenn pluenn pluennoù bluennoù fluenn fluennoù
+pegañ	peget begañ pegañ pegas pegi beget pegent
+pluñv	pluñv bluñv pluñvennoù fluñv
 milved	milved milvedoù vilved
+tuta	tuta tutaet duta dutae
 burzhud	burzhudoù burzhud vurzhud vurzhudoù
 klouar	klouar klouaroc'h glouar glouarañ
 ti-gar	ti-gar di-gar zi-gar tiez-gar
+mizvezh	mizvezh mizvezhioù vizvezh mizvezhoù vizvezhioù
 basañ	bas vas base paso basit faso baset paset
 dreistordinal	dreistordinal
 skevent	skevent
@@ -1510,21 +1592,21 @@ holen	holen holenoù
 aerlu	aerlu aerluioù
 difetis	difetis difetisoc'h zifetis
 direizh	direizh tireizh zireizh
+nec'hiñ	nec'het nec'hiñ
 doujañs	doujañs zoujañs
-major	major vajor
 pardon	pardon pardonioù bardon fardon
 bazenn	bazenn bazennoù vazenn
 kevrat	gevrat kevratoù c'hevrat kevrat c'hevratoù gevratoù
 parkañ	parker barker parket barkañ parkas
 profed	profed brofeded profeded brofed
 menez-tan	menez-tan menezioù-tan venez-tan
-pegañ	peget begañ pegañ pegas pegi beget
-brasaat	vrasaat brasaat vrasa prasai
+jahinañ	jahinet jahinañ jahin jahine
 kloerdi	c'hloerdi kloerdi gloerdi c'hloerdioù gloerdioù kloerdioù
 muzul	muzulioù vuzul muzul
 dimezell	dimezell dimezelled
 ranndi	ranndi ranndioù
 komz-plaen	komz-plaen gomz-plaen c'homz-plaen
+bleuñv	bleuñv bleuñvioù vleuñv bleuñvenn
 adstêr	adstêr adstêrioù
 morañ	more mori morin moro moret voran
 peul	peul peulioù beul beulioù feulioù veul
@@ -1539,25 +1621,28 @@ gouren	gouren gourenoù
 mut	mut vut
 per	per perioù berenn perenn
 stivell	stivell stivelloù stiogenn stivelled
-torgenn	dorgenn torgenn zorgenn
+savboent	savboent savboentoù
+heskinañ	heskinet heskinañ heskin
 bruched	bruched vruched bruchedoù
 teskad	teskad teskadoù deskad
 sac'h	sac'h seier
 ostaleri	ostaleri ostalerioù
 pleg	pleg plegoù bleg blegoù flegoù
 klopenn	c'hlopenn glopenn klopenn c'hlopennoù klopennoù
-rentañ	rentañ rent rentas rento
+bihanaat	bihanaet bihanaat vihanaat vihana
+digoll	digoll zigoll digollet digollioù digolloù
 kreiz-kêr	kreiz-kêr c'hreiz-kêr greiz-kêr
 glaz	glaz c'hlaz klaz glizi
-mizvezh	mizvezh mizvezhioù vizvezh vizvezhioù
+molekul	molekulennoù volekulenn molekulenn volekulennoù molekuloù
+furchal	furchal furchet furch furchas
 korr	korr gorred c'horr gorr c'horrez korred gorrez korrez
 kef	c'hef kef kefioù c'hefioù gef gefioù
 orañjez	orañjez
-lun	lun
 paourentez	baourentez paourentez
 aoter	aoter aoterioù
-neizh	neizh neizhioù
+lec'hanvadurezh	lec'hanvadurezh lec'hanvadurezhioù
 plac'hig	plac'hig plac'hedigoù
+sklêrijenn	sklêrijenn sklêrijennoù
 dir	dir zir
 goullo	goullo c'houllo c'houlle
 anv-gwan	anv-gwan anvioù-gwan
@@ -1566,17 +1651,20 @@ denjentil	denjentil dudjentil tudjentil zenjentil
 pourmen	pourmen bourmen
 ifern	ifern ifernioù
 batailhon	batailhon vatailhon vatailhonoù
+bakteri	bakteri vakterienn bakteriennoù bakterioù
 nes	nes nesañ nesoc'h
-dilestrañ	dilestrañ tilestrañ zilestrañ tilestras dilestras zilestras
-boulc'hañ	boulc'het boulc'hañ voulc'hañ
+aberzhañ	aberzhet aberzhiñ aberzhas
 boest	voest boest boestoù voestoù
 gast	gisti c'hast gast c'histi gasted
+argadiñ	argadiñ argadet argadas argader argaderien argade
 kantik	kantikoù c'hantik kantik gantik c'hantikoù
-repuiñ	repuiñ repuas
+gwalc'hiñ	walc'hiñ gwalc'het gwalc'hiñ walc'he walc'ho
 foz	foz fozioù
+arsailhañ	arsailh arsailhet arsailhañ arsailhas
 dic'hortoz	dic'hortoz dic'hortosoc'h zic'hortoz
 plijus	plijus blijus plijusoc'h plijusañ
 kizeller	c'hizeller kizeller gizellerien kizellerien kizellour gizellerez
+ergerzhout	ergerzhet ergerzh ergerzhout ergerzhas ergerzhe ergerzhiñ
 karta	karta garta kartaoù gartaoù c'harta
 lien	lien
 nobl	nobl
@@ -1585,22 +1673,23 @@ war-c'horre	war-c'horre
 fizik	fizik
 digemm	digemm
 hollvedel	hollvedel
-lec'hanvadurezh	lec'hanvadurezh
 douaroniezh	douaroniezh zouaroniezh
 deiz-ha-bloaz	deiz-ha-bloaz zeiz-ha-bloaz deizioù-ha-bloaz
 ehan	ehan ehanoù
 glaou	glaou c'hlaou c'hlaouenn
+viruz	viruz viruzoù
 forn	forn fornioù
 mesk	mesk vesk
 trugarez	drugarez trugarez zrugarez
-bakteri	bakteri vakterienn bakteriennoù
+meuliñ	meulet veuliñ meuliñ meule
+andon	andon andonioù andonoù
+disoñjal	disoñjet disoñjal zisoñjal tisoñjal zisoñjas zisoñjje zisoñjo
 godell	godell c'hodell godelloù c'hodelloù kodell
-teuziñ	teuz deuz deuziñ teuziñ teuzas deuze
-pellgomz	pellgomz bellgomz bellgomzas pellgomzoù
-molekul	molekulennoù volekulenn molekulenn volekulennoù
-pluñv	pluñv bluñv fluñv
-kastizañ	gastizañ kastizañ c'hastizañ
+marc'hata	marc'hata varc'hata marc'hataet
+gouriz	gouriz gourizoù c'houriz gourizioù
+perc'henniezh	berc'henniezh perc'henniezh perc'henniezhioù
 dañser	dañser dañserien dañserez dañsour tañser zañserien
+diskuizhañ	diskuizhañ tiskuizhañ diskuizh ziskuizhañ ziskuizh tiskuizh ziskuizho
 gouezeleg	gouezeleg
 respet	respet respetoù
 raktresañ	raktreset raktresañ
@@ -1609,19 +1698,21 @@ peñse	peñse peñseoù beñse
 foar	foar foarioù
 bresk	bresk vresk breskoc'h breskañ
 kizidik	kizidik kizidikañ kizidikoc'h c'hizidikañ kizidikat
+luc'hskeudenniñ	luc'hskeudennet luc'hskeudenniñ
+strinkañ	strink strinkañ strinket strinkas
 bran	vran bran brini fran
+prezeg	prezeg brezeg prezegas prezeget prezege prezego
 marc'had-mat	marc'had-mat marc'hadmatoc'h marc'hadmat
 prizius	prizius brizius priziusañ priziusoc'h
-gouriz	gouriz gourizoù c'houriz
-kadarnaat	kadarnaat gadarnaat c'hadarnaat
+eoul	eoul eoulioù eouloù
+kreizennañ	kreizennet kreizennañ kreizenniñ greizennañ greizennet greizenniñ
+elektron	elektronoù elektron elektronenn
 kevala	c'hevala kevala kevalaoù c'hevalaoù gevala
-douarañ	douarañ zouarañ touarañ touaras zouaras
-diskuizhañ	diskuizhañ tiskuizhañ diskuizh ziskuizhañ ziskuizh tiskuizh
+mankout	vanke mankout vankas vankfe manket vankont
 a-bell	a-bell
 efedusted	efedusted
 ledander	ledander
 rusianeg	rusianeg
-sklêrijenn	sklêrijenn
 furnez	furnez
 pri	pri
 e-touesk	e-touesk
@@ -1630,28 +1721,28 @@ dispar	dispar zispar
 arvarus	arvarus arvarusañ
 daonet	daonet zaonet
 neuñvial	neuial neuñvial neuñviñ
+kurunennañ	kurunennet guruniñ kurunenniñ
 lavarenn	lavarenn lavarennoù
 repuad	repuidi repuad
 tommder	tommder dommder
-bleuñv	bleuñv vleuñv bleuñvenn
 kevrinus	kevrinus gevrinus c'hevrinusañ kevrinusoc'h
-diskleriañ	diskleriañ ziskleriañ tiskleriañ
-treuz	dreuz treuz zreuz
-prederiañ	prederiañ brederiañ
+gouiziegezh	gouiziegezh gouiziegezhioù c'houiziegezh gouiziegezhoù
 trubuilh	trubuilhoù trubuilh drubuilhoù drubuilh
-aliañ	aliañ alias alier alien alie alii
+adkas	adkas adkaset adkasas adkasont
+bleinañ	bleniañ vleniañ bleinet vleinañ bleinañ vleinas vleinje
 loch	loch lochoù
 marvel	marvel varvel
 dereat	dereat dereatoc'h zereat
-eoul	eoul eoulioù
 gwirheñvel	gwirheñvel gwirheñveloc'h gwirheñvelañ wirheñvel
 gwiskamant	gwiskamant gwiskamantoù wiskamant
+atizañ	atiz atizañ atizet atizas atizer
 kard	c'hard gard kard
 kastilhaneg	kastilhaneg c'hastilhaneg gastilhaneg
 unwisk	unwiskoù unwisk
 klañvourez	c'hlañvour glañvourien glañvourez klañvourion c'hlañvourion klañvourien
-perc'henniezh	berc'henniezh perc'henniezh
 kann	kann gann c'hann c'hannoù kannoù
+sankañ	sanket sankañ sank sankas sankiñ sanko sankont
+notañ	not note notet notes noto notañ notiñ
 hezoug	hezoug
 japaneg	japaneg
 divent	divent
@@ -1661,14 +1752,19 @@ hemolc'h	hemolc'h
 prefed	prefed brefed brefeded prefeded
 evaj	evaj evajoù
 pec'hed	pec'hed pec'hedoù bec'hedoù fec'hedoù
+neud	neudenn neud neudoù
 trenkenn	drenkenn trenkennoù trenkenn drenkennoù
+mindrailherez	vindrailherez mindrailherezioù mindrailherez vindrailherezioù mindrailherezoù
+peurechuiñ	peurechuet peurechu peurechuiñ beurechuiñ beurechu peurachuet peurachuiñ peurechuas
 goriñ	gore c'horiñ gored gor gorioù goriñ c'hori goret c'horo korioù
 boz	pozioù boz voz bozioù
 gloan	gloan c'hloan gloaneier
 keuz	keuz c'heuz keuzioù
 tas	das tasoù zas tas
 flour	flour flourañ flouroc'h flouret
+naetaat	naetaat naetaet naetaas
 padelezh	padelezh badelezh fadelezh
+huchal	huchal huchet huche huch huchas hucher huchont
 kadour	gadourien c'hadour kadourien kadour gader gadour
 diwar-goust	diwar-goust
 izelvroat	izelvroat
@@ -1678,55 +1774,56 @@ revel	revel
 fae	fae
 echedoù	echedoù
 mevel	mevel vevel
-digoll	digoll zigoll digolloù
-trevadenniñ	trevadenniñ drevadenniñ
-andon	andon andonioù
-neud	neudenn neud
+stadañ	stade stadet stadañ staden
 euskareg	euskareg
 adwelet	adwelet
 e-mesk	e-mesk
-viruz	viruz
 a-viskoazh	a-viskoazh
-gourdrouz	gourdrouz c'hourdrouz
+arvestiñ	arvestiñ arvestet arveste
+vertuz	vertuz vertuzioù
 trist	trist tristoc'h drist tristañ
 kasoni	kasoni gasoni
 koumoul	c'houmoul koumoul goumoulenn koumoulennoù
-mankout	vanke mankout vankas manket
+merdeiñ	verdeiñ merdeiñ verdeas merdeet verdee
 chaseour	chaseour chaseourien chaseer
+erbediñ	erbedet erbediñ erbed erbedas
 displegadur	displegadur displegadurioù zisplegadur
 banne	banne banneoù bannac'h bannac'hoù
 portugalat	portugalat bortugalat
 ti-bank	ti-bank tiez-bank di-bank
-marc'hata	marc'hata varc'hata
+kigenn	kigennoù kigenn gigenn c'higenn
+goulennata	goulennataet c'houlennata goulennata
 bali	bali balioù vali
+dislavarout	dislavar dislavaret dislavarout zislavaras zislavar zislavaro zislavarout
 malañ	malo malet mal malot malañ male malen maled valañ valent valet
 atomek	atomek
 diembann	diembann
 prenn	prenn
-savboent	savboent
 flemmus	flemmus
 dekvet	dekvet
 ludu	ludu
-stekiñ	stekiñ
 evelkent	evelkent
 pemoc'h	pemoc'h
 gourel	gourel c'hourel
 rakskrid	rakskrid rakskridoù
-atizañ	atiz atizañ atizas atizer
+poellgor	poellgor poellgorioù foellgor
 kras	gras c'hras kras
 dourenn	dourenn dourennoù
 ergerzhadenn	ergerzhadenn ergerzhadennoù
 yar	yar yer
+advabañ	advabet advabañ advabas
 ged	ged ked
-pinvidikaat	pinvidikaat binvidikaat binvikaat pinvikaat
 koan	koan goan koanioù
 keneil	geneiled c'heneil geneil keneil keneiled geneilez c'heneiled keneilez
+koustañ	kousto koustañ kouste goustas koustet koustont goustont koustas koustent koustfe
 armead	armead armeadoù
 moan	moan moanoc'h
 kazeg	kazeg gazeg
 lec'hanv	lec'hanvioù lec'hanv
+modernaat	modernaet modernaat vodernaat
 emzivad	emzivad emzivaded emzivadez emzivadezed
 kev	c'hev kev kew kevioù c'hevioù gev
+analañ	analañ analat analet analer analis
 atlantel	atlantel
 arrebeuri	arrebeuri
 naon	naon
@@ -1735,7 +1832,6 @@ sinaeg	sinaeg
 seiz	seiz
 daouad	daouad zaouad
 benel	benel penel venel
-arnodiñ	arnodiñ
 dilestradeg	dilestradeg dilestradegoù
 deol	deol deoloc'h
 lous	lous lousañ lousoc'h
@@ -1750,9 +1846,9 @@ jestr	jestroù jestr
 milendall	milendall milendalloù vilendall
 gevell	gevell gevelled c'hevell c'hevellez c'hevelled
 roched	roched rochedoù
-dibunañ	dibunañ zibunañ tibunañ tibuniñ zibunas zibuniñ
 c'hoarzhin	c'hoarzhin c'hoarzhet c'hoarzhe c'hoarzhan c'hoarzher c'hoarzhomp c'hoarzhont
 gwrezverk	gwrezverk gwrezverkoù wrezverkoù
+dizimeziñ	dizimeziñ dizimezet tizimezas zizimeziñ zizimezas
 gwazh	gwazhioù gwazh wazh
 gwern	gwern gwernioù wern gwernenn
 kavadenn	gavadenn kavadennoù kavadenn c'havadennoù gavadennoù
@@ -1761,19 +1857,19 @@ c'hwezek	c'hwezek
 tenner	tenner denner tennerien
 yezhoniour	yezhoniourien yezhoniour yezhoniourion
 lann	lanneier lann
-mindrailherez	vindrailherez mindrailherezioù mindrailherez vindrailherezioù
+berniañ	berniet verniañ berniañ vernias
 gouelañ	ouelañ gouelañ goueler ouelas ouele ouelent
+koazhañ	koazhañ koazhet goazhañ koazhas c'hoazhet goazh koazh koazho
+spiañ	spiañ spies spias spie
+trenk	trenk trenkas drenk drenkañ drenkoc'h trenkoc'h
 a-dost	a-dost
 lêr	lêr
 unander	unander
-adlakaat	adlakaat
-ledanaat	ledanaat
 rust	rust
 gros	gros
 kembreat	kembreat gembreat
-poellgor	poellgor foellgor
 fresk	fresk freskoc'h
-argas	argas argasiñ
+toaz	toaz doaz toazioù
 tanav	tanav tanavoc'h
 goueled	goueled goueledoù
 minor	minor vinored vinorez
@@ -1787,55 +1883,57 @@ skedus	skedus skedusoc'h skedusañ
 krubuilh	krubuilh c'hrubuilh grubuilh c'hrubuilhoù
 teñvalijenn	deñvalijenn teñvalijenn
 melezour	melezour melezourioù velezour velezourioù
+lojañ	lojañ lojet lojo loj lojiñ
+splujañ	splujañ spluj spluje splujet splujont
 kegin	gegin kegin c'heginoù keginoù c'hegin
 tasmant	tasmant tasmantoù dasmant dasmantoù zasmant
 tigr	tigr tigred digred
 badeziant	vadeziant badeziant badeziantoù
-notañ	not note notes noto notañ notiñ
 chomlec'h	chomlec'h chomlec'hioù
+keginañ	keginañ keginet geginañ c'heginañ
+c'hoantaat	c'hoantae c'hoantaet c'hoantaat c'hoantaas c'hoantaje c'hoantajont
 mantell	vantell mantilli mantell
-spiañ	spiañ spies spie
+saezh	saezh saezhoù saezhioù
 manifester	vanifesterien manifesterien manifester
+didroc'hañ	didroc'het didroc'hañ zidroc'hañ didroc'h didroc'has tidroc'hañ zidroc'h
 peurvat	peurvat
 rous	rous
 svedat	svedat
-arverañ	arverañ
 eizhvet	eizhvet
 skornet	skornet
 arsav	arsav arsavioù
+dresañ	dresañ tresfe
 engroez	engroez engroezioù
-gouiziegezh	gouiziegezh c'houiziegezh
-toaz	toaz doaz
 follentez	follentez follentezioù
 burzhudus	burzhudus vurzhudus
+lanv	lanv lanvioù
+oaled	oaled oaledoù
 euzhus	euzhus euzhusoc'h euzhusañ
-prometiñ	prometiñ brometiñ
 stok	stok stokoù
-merzout	merzout verzout
 skeud	skeud skeudoù
 tarv	tarv tirvi darv zarv
 barrenn	varrenn barrennoù barrenn
+geun	geunioù c'heun geun c'heunioù geunoù
 meneziek	meneziek veneziek venezieg menezieg
 triwec'h	triwec'h driwec'h zriwec'h
-merdeiñ	verdeiñ merdeiñ
-gwanaat	wanaat gwanaat
+c'hwezhañ	c'hwezhañ c'hwezhet c'hwezhas c'hwezhe
 gwarizi	gwarizi warizi
 pik	pikoù pik bik
 gwenneg	gwenneg gwenneien wenneien
 eien	eienenn eien eienennoù
 moereb	moereb voereb moerebed voerebed
-huchal	huchal huchet huche huchas hucher
+aberzh	aberzh aberzhioù aberzhoù
 harz-labour	harz-labour harzoù-labour
+direnkañ	direnket direnkañ tirenkas tirenk zirenk zirenkañ zirenke zirenket zirenkit zirenko
 tri-ugent	tri-ugent zri-ugent
-lec'hiañ	lec'hiañ lec'hiñ
 broadelezh	vroadelezh broadelezh broadelezhioù
 pakad	pakad pakadoù bakadoù fakadoù
+ehanañ	ehanañ ehanet ehanas
+klozañ	klozet glozañ klozañ c'hlozañ glozfe klozas
 milin	milin vilin milinoù
-dresañ	dresañ
 hobregonet	hobregonet
 skiant-prenet	skiant-prenet
 leal	leal
-reizhañ	reizhañ
 saout	saout
 a-zehou	a-zehou
 pegement	pegement fegement begement
@@ -1843,82 +1941,84 @@ lorc'h	lorc'h
 lazher	lazher lazherien
 laz-kanañ	laz-kanañ lazoù-kanañ
 pazenn	pazenn pazennoù
+mallozh	mallozh mallozhioù vallozh
 tan-gwall	tan-gwall tanioù-gwall tangwall dan-gwall
 truez	truez druez
 follenn	follennoù follenn
 logod	logodenn logod logodennoù
 kemplezh	kemplezh kempleshoc'h kempleshañ c'hemplezh gemplezh
+ankouaat	ankouaet ankouaat
 kouevr	kouevr c'houevr gouevr
-geun	geunioù c'heun geun c'heunioù
-mougañ	mougañ vougañ
-prezeg	prezeg brezeg
 karbon	karbon c'harbon garbon
-gwalc'hiñ	walc'hiñ gwalc'hiñ walc'he
 kroaziadeg	kroaziadeg groaziadeg kroaziadegoù groaziadegoù
-goleiñ	goleiñ goloiñ c'holoiñ c'holeiñ
+boueta	boueta voueta bouetaet vouetaont
+krennlavar	c'hrennlavar krennlavaroù krennlavar krennlavarioù c'hrennlavarioù
+adreizhañ	adreizhañ adreizh adreizhet
+brein	brein breinet vrein vreinañ breinat vreine vreinet
 paot	paotañ paot paotoc'h baotañ faot faotañ
 promesa	bromesa fromesaoù promesa promesaoù
 sall	sall salle sallet
+saotrañ	saotret saotrañ saotras saotront
 koñsul	koñsul c'hoñsul goñsuled koñsuled goñsul
 kañseller	kañseller c'hañseller gañseller gañsellerez kañsellerez
+stardañ	stardet stardañ stard starde stardiñ stardo
 sponterezh	sponterezh
 trevadennerezh	trevadennerezh
-lanv	lanv
-oaled	oaled
 laosk	laosk laoskoc'h
 stur	stur sturioù
 prefeti	prefeti brefeti
 rok	rok rokañ
 bezhin	bezhin vezhin vezhinenn
+puñs	puñs buñs puñsioù
 pevar-ugent	pevar-ugent bevar-ugent fevar-ugent
 lik	lik liked
 poell	poell boell foell
-ambroug	ambroug ambrouger ambrougerez
-taolenniñ	taolenniñ daolenniñ daolenner
 leue	leue leueoù leueioù
-desevel	desevel zesevel zesaverien
 matematikour	matematikour matematikourien vatematikourien vatematikourez
+izelaat	izelaet izelaat izelaas
 treitour	treitour treitourien dreitourien dreitour dreitourez
 tad-kaer	dad-kaer zad-kaer tad-kaer
 dial	dial zial dialoù
-stadañ	stade stadañ staden
+soudañ	soudan soudet soud soudañ
 kember	kember c'hember gember
-plantañ	plantañ blantañ flantañ
 gorrek	gorrek gorrekoc'h c'horrek gorrekat
 sekred	sekred sekredoù
-dilec'hiañ	dilec'hiañ zilec'hiañ tilec'hiañ
+arzh	arzh arzhez arzhed arzhoù
+faziañ	faziet faziañ
 madelezh	madelezh vadelezh
 raganv	raganv raganvioù
 breur-kaer	breur-kaer vreur-kaer
 dibunadeg	dibunadegoù dibunadeg zibunadegoù
 kure	kure c'hure gure
-bleinañ	bleniañ vleniañ vleinañ bleinañ
+skuilhañ	skuilhañ skuilhet skuilhas skuilh skuilhont
+ruilhañ	ruilhañ ruilhet ruilh ruilhas
+adstummañ	adstumm adstummet adstummañ adstumme adstummont
 kevrin	kevrinoù kevrin c'hevrin c'hevrinoù gevrinoù
 kemener	kemener c'hemener gemenerez kemenerien gemenerien kemenerez
 hoc'h	hoc'h
 grevus	grevus grevusañ grevusoc'h c'hrevusañ c'hrevusoc'h
 sakson	saksoned sakson saksonez
+kenurzhiañ	kenurzhiañ kenurzhiet genurzhiañ genurzhiet
+touellañ	touellet touellañ douellañ zouellañ
+pardoniñ	pardonet bardoniñ bardonas pardonas bardono pardoniñ
 tir	tir tirioù dirioù zirioù
-analañ	analañ analat analer analis
 brank	brank brankoù vrank vrankoù
 pinijenn	pinijenn binijenn binijennoù pinijennoù
-koazhañ	koazhañ koazhet goazhañ c'hoazhet koazho
+dispenn	dispennet zispenn dispenn tispenn zispennas
+divinout	divine divinout divinour divinit divinañ divines divinet divinis zivinout
 okitaneg	okitaneg
 onest	onest
 a-is	a-is
-arvestiñ	arvestiñ
 farsus	farsus
 nederlandeg	nederlandeg
 didrouz	didrouz
 dizimez	dizimez
-naetaat	naetaat
 nep	nep
 sukr	sukr
 nevez-amzer	nevez-amzer
 antronoz	antronoz
 erotek	erotek erotekoc'h
 gwregel	gwregel wregel
-puñs	puñs buñs
 ski	ski skioù
 glev	glev c'hlev
 tramor	tramor dramor
@@ -1928,38 +2028,40 @@ drama	drama dramaoù
 triad	triad triadoù
 boull	boull voull boullañ
 plouz	plouz blouzenn blouz
-tuta	tuta duta
 besprezidant	besprezidant besprezidantez vesprezidantez
 terzhienn	derzhienn terzhienn terzhiennoù
+tornaod	tornaod tornaodoù
 gouli	goulioù gouli c'houlioù
 mab-kaer	vab-kaer mab-kaer
 gwazhi	gwazhied wazhienn wazhied
+yenaat	yenaat yenaet yena
 kousk	kousk gousk c'housk
 gourener	gourener gourenerien c'hourenerien gourenerez
 karr-boutin	c'harr-boutin kirri-boutin c'hirri-boutin karr-boutin
 tuchenn	duchenn tuchenn tuchennoù
 bombard	vombard bombard bombardoù
 gwarnizon	gwarnizon gwarnizonoù warnizon
-argadiñ	argadiñ argader argaderien
-kodianañ	kodianañ godianañ
 lamm-dour	lamm-dour lammoù-dour
 rakger	rakger rakgerioù
 diamant	diamant diamantoù
-arzh	arzh arzhez arzhed
 gavr	givri c'havr gavr c'hivri
+trugarekaat	trugarekaat drugarekaat trugarekaet zrugarekaat trugarekae
 prad	prad pradoù pradeier brad
 tor	tor dorioù norioù torioù
 stern	stern sternioù
+erer	erer erered ereroù
 marvus	marvus marvusañ varvus
-trenk	trenk drenk drenkañ drenkoc'h trenkoc'h
 gwenan	gwenan gwenanenn wenan wenanenn
 roued	roued rouedoù
 tag	dag tag zag
 moc'h	moc'h voc'h
-preizhañ	preizhañ breizhañ freizhañ
+gwastañ	gwastet gwastañ wastañ wast wastas
 mamm-gaer	vamm-gaer mamm-gaer mammoù-kaer
 tachenn-emgann	dachenn-emgann tachennoù-emgann tachenn-emgann
+stouiñ	stouet stouiñ stouas
 dallañ	dallet dallas dallañ tallit dalliñ tallas
+dantañ	dante dantet dantañ tante zantañ tantont
+feurmiñ	feurmet feurmiñ feurmerion feurmer feurmerien feurmont
 pigos	pigos bigos figos pigosoù figosoù
 pratik	pratikoù bratikoù pratik fratikoù
 fank	fank
@@ -1967,35 +2069,33 @@ hebiou	hebiou
 vak	vak
 chokolad	chokolad
 noter	noter
-vertuz	vertuz
-resisaat	resisaat
 erfin	erfin
-azeuliñ	azeuliñ azeulin
-mallozh	mallozh vallozh
+belegiñ	beleget belegiñ
 abardaez	abardaez abardahez
 skoulm	skoulm skoulmoù
 paeron	paeron baeron paeroned faeron
 rimadell	rimadell rimadelloù
-bihanaat	bihanaat vihanaat
+diverkañ	diverkañ diverket ziverkañ diverk ziverk
 sammañ	sammañ sammet sammas sammi samme sammer
 gwadek	gwadek gwadekañ wadek
-arsailhañ	arsailh arsailhañ
+enaouiñ	enaouet enaouiñ enaou
 paner	baner paneroù paner faner
 kemmadur	kemmadur c'hemmadur gemmadurioù c'hemmadurioù kemmadurioù gemmadur
 riz	riz ris
 isañ	iso ise isin isañ is
 palat	palo pale baled balin balor pali faled palat paled pales valed
 butun	butun vutun
+saviad	saviad saviadoù
 naonegezh	naonegezh naonegezhioù
 milier	milieroù vilieroù
 blot	blot plot
 distabil	distabil zistabil zistabilañ
-erer	erer erered
-soudañ	soudan soud soudañ
 katalan	katalan gatalaned gatalan
 amerindian	amerindianed amerindian
 muzell	muzelloù vuzell muzell
+taos	taosoù taos daos taosioù
 derv	derv dervenn
+denañ	denis denañ tenañ denes dene tenet
 mestr-skol	mestr-skol mistri-skol vestrez-skol vistri-skol mestrez-skol vestr-skol
 danzen	danzeet danzen zanzen tanzen
 dever	dever deverioù zever tever zeverioù
@@ -2004,29 +2104,25 @@ ampartiz	ampartiz
 hudouriezh	hudouriezh
 turkeg	turkeg
 rev	rev
-urzhiañ	urzhiañ
 ragistor	ragistor
-furchal	furchal furch
 darev	darev dare tare
 siell	siell sielloù
 flamm	flamm flammoù flamme
 gwevn	gwevn gwevnoc'h wevn
+yalc'h	yalc'h yalc'hoù yilc'hier
 bete	pete bete vete
-eilañ	eiler eilañ
-boueta	boueta voueta
+lugan	lugan luganioù luganoù
+feurm	feurm feurmoù feurmioù
+tañva	tañva dañva tañvaet
 pod	pod podoù
+bolz	bolz volz bolzioù bolzoù
 eren	ereet ere eren
+tabutal	tabutal tabutet dabutal
 pirc'hirin	birc'hirined pirc'hirined pirc'hirin
-koustañ	kousto koustañ kouste koustet koustfe
-krennlavar	c'hrennlavar krennlavar krennlavarioù c'hrennlavarioù
 heg	heg
-saviad	saviad
 tchekeg	tchekeg
 ahont	ahont
 dec'h	dec'h
-uhelaat	uhelaat
-skoulmañ	skoulmañ
-run	run
 sav-heol	sav-heol
 rom	rom
 gitar-boud	gitar-boud c'hitar-boud
@@ -2036,43 +2132,47 @@ biz-meud	biz-meud viz-meud
 doktorelezh	doktorelezh zoktorelezh
 renadenn	renadenn renadennoù
 sturier	sturier sturierien
-lojañ	lojañ lojo loj lojiñ
+ostiz	ostiz ostizoù
 mediñ	med medan mede mediñ
+intent	intent intenter intentet
 anv-kadarn	anv-kadarn anvioù-kadarn
 asteroidenn	asteroidenn asteroidennoù
-taos	taosoù taos daos
-divroañ	divroañ zivroañ tivroañ zivroiñ
 harzlammer	harzlammerien harzlammer harzlammerez
-denañ	denis denañ tenañ denes dene
+trubardiñ	trubardet trubardiñ drubardas drubardiñ trubardas
 kroashent	c'hroashent kroashent c'hroazhent kroazhent
 keidenn	geidenn keidenn
 mank	mank mankoù manked vankañ
+stabilaat	stabilaat stabilaet stabila
 tell	tell telloù zell
 breud	breud breudoù vreudoù
 nervenn	nervenn nervennoù
+flemmañ	flemmet flemmañ flemme
 plad	plad vlad pladoù blad
+lugañ	luget lugañ lug luger
 beskont	beskont beskontez beskonted veskont veskontez
 bilhed	bilhedoù bilhed bilhidi vilhedoù
+gouer	c'houer kouer gouer gouerioù
+sturiañ	sturiañ sturiet
+skalier	skalier skalieroù skalierioù
 dispac'her	dispac'herien dispac'her zispac'her
-divinout	divine divinout divinour divinañ divines divinis zivinout
 begenn	begenn vegenn begennoù vegennoù
 hadañ	hadet hadi hadañ hader hador hadont
 kazarn	kazarnioù kazarn c'hazarn c'hazarnioù gazarn
 perzhiad	perzhidi berzhidi berzhiad ferzhiad perzhiad perzhiaded
+tolpañ	tolpet dolp tolpañ dolpañ tolpiñ dolpe zolp
+biñsaskell	biñsaskell viñsaskell biñsaskelloù biñsaskellioù
 kannati	c'hannati kannati c'hannatioù gannati kannatioù
 klip	c'hlipoù c'hlip klipoù klip glip glipoù
 keginer	c'heginer geginerez keginer keginerez keginerien geginer
 treuzwelus	treuzwelus dreuzwelus
+sked	sked skedoù
 tener	tener tenerañ
 kromm	kromm gromm
 moullerez	moullerezioù voullerez moullerez
 merzher	merzher verzherien verzher
 kavell	kavell gavell c'havell
 boudig	voudig boudiged boudig voudiged
-bolz	bolz volz bolzioù
 kreñvder	kreñvder c'hreñvder greñvder kreñvderioù
-keginañ	keginañ geginañ c'heginañ
-diverkañ	diverkañ diverket ziverkañ
 korseg	c'horseg korseg
 douarenn	douarenn douarennoù zouarenn
 kae	kae gae c'hae kaeoù c'haeoù
@@ -2089,82 +2189,84 @@ tchek	tchek dchek
 kemmus	kemmus kemmusoc'h gemmus
 krennamzerel	krennamzerel grennamzerel
 pellder	pellder pellderioù bellder fellder
+gouennlazh	gouennlazh ouennlazh gouennlazhioù
+hiraat	hiraat hiraet hira
 lezvamm	lezvamm leztad leztadoù
 gweañ	wei wee gweañ weañ
 mestroni	mestroni vestroni
 pask	pask fask vask
 kalc'h	c'halc'h kalc'h galc'hioù
 panevet	panevet paneve paneveti
+adprenañ	adprenet adprenañ adpreniñ
 pilat	pilet pilo pilot filit pilat
 arload	arloadoù arload
 kren-douar	c'hren-douar krenoù-douar kren-douar c'hrenoù-douar
 dornlevr	dornlevr dornlevrioù zornlevr zornlevrioù
+foetañ	foetañ foetet foet foetas
 rusk	rusk ruskenn ruskennoù
 buoc'h	vuoc'h buoc'h buoc'henned
 tager	tager dagerien tagerien zager
 merc'h-vihan	merc'h-vihan verc'h-vihan
-gouer	c'houer kouer gouer
+bouzellenn	bouzelloù vouzellenn vouzelloù bouzellenn bouzellennoù
 kloz	kloz gloz c'hloz glos
-skalier	skalier skalieroù
 brientin	brientinien vrientinien brientin prientinion
 galaksienn	galaksienn c'halaksienn galaksiennoù
+gwiriekaat	gwiriekaet gwiriekaat wiriekaat wirieka
 marilh	marilh marilhoù varilh
+anadiñ	anadiñ anad anadas anadet anadfe
 draen	draen drein trein zrein
 marz	marz marzoù marzioù
+neutron	neutron neutronenn neutronoù neutronennoù
 klañvdiourez	glañvdiourez klañvdiourezed klañvdiourez klañvdiourien klañvdiour c'hlañvdiourezed glañvdiourien
 goudor	goudor goudorioù
 merenn	merenn verenn
 ti-feurm	ti-feurm di-feurm
 sol	sol solioù
-trugarekaat	trugarekaat drugarekaat zrugarekaat
+korzenn	gorzenn korzennoù korzenn
 dizolo	tizolo dizolo zizolo
 benañ	veno benañ benet bene bener fenis penañ penes venañ
 fulor	fulor
 bachelouriezh	vachelouriezh
 he-unan	he-unan
 yezh-vamm	yezh-vamm
-ostiz	ostiz
 saoudat	saoudat
-adaozañ	adaozañ
 adembannadur	adembannadur
 breviñ	brevez breviñ
 pikol	pikol fikol
 blevek	blevek vlevek
+sonn	sonn sonnoc'h
 serjant	serjant serjanted
 reut	reut reutoc'h
-intent	intent intenter
 muzik	muzik muzikoù
 nerzhus	nerzhus nerzhusoc'h
 prioldi	prioldi brioldi
 sirk	sirk sirkoù
 ger-stur	ger-stur c'her-stur gerioù-stur
 kempred	kempred gempred
-yalc'h	yalc'h yilc'hier
+morzhol	morzhol morzholioù
 poanius	poanius boanius poaniusañ
 navvet	navet navvet
 glin	daoulin glin c'hlin glinoù taoulin
 teltenn	deltenn teltennoù
-feurm	feurm feurmoù
-dozviñ	dozviñ zozviñ tozviñ
-aberzh	aberzh aberzhoù
-bouzellenn	bouzelloù vouzellenn vouzelloù bouzellenn
 danvez-pried	danvez-pried zanvez-pried danvez-priedoù
 balum	balumed balum
 koskor	c'hoskor koskor goskor
 flemmskrid	flemmskrid flemmskridoù
-bountañ	vountañ bountañ
-c'hoantaat	c'hoantae c'hoantaat c'hoantaas
 kurun	gurun kurun kurunoù c'hurun c'hurunioù
+skañvaat	skañvaat skañvaet skañva
 skorneg	skornegoù skorneg skornegi
 gwrac'h	wrac'h gwrac'hed gwrac'h
 gwenodenn	gwenodenn wenodenn gwenodennoù wenodennoù
-biñsaskell	biñsaskell viñsaskell biñsaskelloù
 galleger	gallegerien c'hallegerien galleger c'halleger c'hallegerion gallegerez
 kantren	kantren gantreal gantren kantreal gantre
 kalvar	c'halvar kalvar kalvarioù galvar
 tagus	tagus dagus tagusoc'h
+ec'hon	ec'hon ec'honoc'h
+manifestiñ	vanifestiñ vanifestas manifestiñ vanifeste
+prestañ	prestet prestas prestiñ presto prestfent
 diwaller	diwaller diwallerez diwallerezed diwallerien ziwaller
-azasaat	azasaat
+hopal	hope hop hopal hopas
+pellgargañ	bellgargañ pellgargañ bellgarg fellgargañ pellgarget
 deo	deo
 drouziwezh	drouziwezh
 gallaoueg	gallaoueg
@@ -2176,8 +2278,6 @@ a-unvouezh	a-unvouezh
 fealded	fealded
 peurunvan	peurunvan
 ruseg	ruseg
-sked	sked
-sonn	sonn
 difiñv	difiñv
 e-kerz	e-kerz
 liesliv	liesliv
@@ -2187,7 +2287,6 @@ tintin	tintin dintin
 anken	anken ankenioù
 louet	louet loued
 olivez	olivez olivezenn
-adkas	adkas
 didalvez	didalvez zidalvez
 litrad	litrad litradoù
 wiski	wiski wiskioù
@@ -2195,24 +2294,21 @@ muiañ-karet	muiañ-karet vuiañ-karet
 arkeologour	arkeologourien arkeologour
 divarrek	divarrek zivarrek
 chaloni	chaloni chalonied
-kenurzhiañ	kenurzhiañ genurzhiañ
-dizimeziñ	dizimeziñ zizimeziñ
 bri	bri brioù
-gouennlazh	gouennlazh ouennlazh
-lugan	lugan luganoù
+marilhañ	marilhet marilhañ
+lezenniñ	lezenniñ lezennet
+kounnariñ	kounnaret kounnariñ gounnariñ
+leviañ	leviañ levias leviet
 pianoour	pianoour pianoourez bianoourez pianoourien
 riezad	riezad riezadoù
 gwalc'h	walc'h gwalc'h
 floc'h	floc'h floc'hed
 serb	serbed serb
-tañva	tañva dañva
 treut	treut dreut treutoc'h
-bac'hañ	bac'hañ vac'hañ
 boutailh	boutailhoù voutailh boutailh
 krank	kranked c'hranked c'hrank
-sankañ	sankañ sank sankiñ sanko
-dantañ	dante dantañ tante zantañ
 azeuldi	azeuldioù azeuldi
+goapaat	goapaet c'hoapaat goapaat c'hoapaas
 boutailhad	boutailhadoù voutailhad voutailhadoù
 boned	boned bonedoù foned
 lestr-brezel	lestr-brezel listri-brezel
@@ -2220,22 +2316,29 @@ lonker	lonkerien lonker lonkerez
 birviñ	virviñ bervet birviñ
 bouc'hal	vouc'hal bouc'hal bouc'hili bouc'halioù
 mengleuzier	mengleuzier vengleuzierien mengleuzierien
+kuzuliañ	kuzuliañ guzuliañ kuzuliet guzulie
 diskargañ	diskarget diskarg diskargañ ziskargañ
 gweledigezh	weledigezh gweledigezh gweledigezhioù weledigezhioù
 gloazadenn	c'hloazadennoù gloazadennoù c'hloazadenn gloazadenn
 kantreer	kantreer kantreerien gantreerien gantreer
+gwilioudiñ	wilioudiñ gwilioudiñ gwilioudet wilioudas
 gwastell	gwastell gwastilli wastell gwestell
-c'hwezhañ	c'hwezhañ c'hwezhe
+gwriat	gwriat gwriet wriat gwriad
+dar	dar tar darioù daroù diri ziri
 soubenn	soubenn soubennoù
-ec'hon	ec'hon
-prestañ	prestet prestas prestiñ presto
+lore	lore loreenn loreoù
+drastañ	drastet drast zrastas zrastañ
 kanadian	kanadian ganadian c'hanadian ganadianez
 koroll	koroll c'horoll gorolloù korolloù
 kaouenn	gaouenn kaouenn kaouenned c'haouenned
 kounnar	kounnar gounnar c'hounnar
 rodal	rodin rodez rode rodent rodes rodi rodal
-hopal	hope hop hopal
+azon	azon azonoù azonioù
 tibetat	tibetat tibetiz dibetaned tibetan tibetaned
+leskiñ	leskiñ losket loskas
+dourañ	douret dourañ zourañ douro touro
+pokat	pokat bokat boko poket boke pokas
+kloc'h	kleier c'hloc'h glec'h c'hleier kloc'h kloc'hoù
 a-zevri	a-zevri
 da-gaout	da-gaout
 digablus	digablus
@@ -2243,19 +2346,17 @@ finneg	finneg
 oksigen	oksigen
 pemzektez	pemzektez
 sac'hañ	sac'het
-splujañ	splujañ
 dol	dol
 dregantad	dregantad
 e-ser	e-ser
 hidrogen	hidrogen
 roc'hellek	roc'hellek
-aberzhañ	aberzhiñ
 feuket	feuket
 skinoberiek	skinoberiek
 aluzen	aluzen aluzon
 druzoni	druzoni zruzoni
 ger-mell	ger-mell gerioù-mell
-hiraat	hiraat hira
+moged	moged mogedoù voged
 sabrenn	sabrenn sabrennoù
 besroue	besroue vesroue vesrouanez
 kroaziad	groazidi kroazidi c'hroaziad
@@ -2264,38 +2365,31 @@ loupard	loupard louparded
 oadour	oadourien oadour oadourion
 trubarderezh	trubarderezh drubarderezh
 frouezhus	frouezhus frouezhusañ frouezhusoc'h
-modernaat	modernaat vodernaat
 trepas	trepas trepasoù drepas
 asied	asied asiedoù
-gwaskañ	gwaskañ waskañ
+doñvaat	doñvaet doñvaat zoñvaat doñvaer
 arc'hdug	arc'hdug arc'hdugez arc'hduged
+uzin	uzin uzinoù uzinioù
 kalvez	c'halvez kalvez kilvizien gilvizien
 tevenn	tevennoù tevenn tevinier
 tiern	tiern tierned dierned
 kiger	c'higer kiger gigerien giger
 krapañ	krapat krapañ grapat kraper krapet
 krez	krez c'hrez c'hres c'hrezioù rez
-dar	dar tar daroù diri ziri
-flastrañ	flastrañ
 israelat	israelat
 lealded	lealded
 ozhac'h	ozhac'h
 peg	peg
-renabliñ	renabliñ
 danat	danat
-fiziout	fiziout
-morzhol	morzhol
 mouk	mouk
 pehini	pehini
 peotramant	peotramant
-tornaod	tornaod
 ezvezañs	ezvezañs
-gouestlañ	gouestlañ
 dizale	dizale
 pere	pere
 arched	arched archedoù
+dienn	dienn diennoù
 druz	druz drusoc'h
-lore	lore loreenn
 mezv	mezv vezv
 rannbennad	rannbennad rannbennadoù
 displijus	displijus displijusoc'h
@@ -2303,6 +2397,7 @@ maneg	manegoù vaneg
 trema	trema drema
 het	het hetoù
 c'hwi	c'hwi
+kaz	kaz c'hizier kazioù
 merc'hetaer	merc'hetaer verc'hetaerien
 amprest	amprest amprestoù
 bleud	bleud vleud bleudoù
@@ -2310,17 +2405,21 @@ frammadur	frammadur frammadurioù
 mantrus	mantrus vantrus
 avielañ	avielañ avieliñ
 froud	froud froudoù
+dilaoskiñ	dilaosket dilaosk zilaoske zilaoskfe
 komunouriezh	gomunouriezh komunouriezh
 koustus	koustus goustus koustusoc'h
+ebeul	ebeul ebeulien ebeulez ebeulioù
+spazhañ	spazhet spazhañ spazhas spazhjont
+goveliañ	goveliet goveliañ c'hoveliañ
+diverrañ	diverrañ diverret ziverrañ ziverr
 kempredad	gempredidi c'hempredidi c'hempredad kempredidi
 pourmenadenn	pourmenadennoù bourmenadenn pourmenadenn bourmenadennoù fourmenadennoù
-azon	azon azonoù
-pellgargañ	bellgargañ pellgargañ fellgargañ
+spisaat	spisaet spisaat spisa spisae
 loa	loa loaioù
 kengred	kengred c'hengred gengred
+breutaat	breutaet breutaat vreutaas vreutaat
 kaier	c'haier kaieroù kaier gaier gaieroù
 pur	pur purañ bure bur buri furet pure
-kloc'h	kleier c'hloc'h glec'h c'hleier kloc'h
 torzh	dorzh torzhioù
 yev	yev yew
 sec'hor	sec'hor
@@ -2329,34 +2428,23 @@ neizhiañ	neizhiañ neizhañ
 belgiat	belgiat velgiat
 mezhus	mezhus vezhus
 gourenez	gourenez c'hourenez
-brein	brein vrein vreinañ breinat
 melldroader	melldroader melldroaderien velldroaderien velldroader
-berniañ	verniañ berniañ
 moskeenn	voskeenn moskeennoù moskeenn
-tolpañ	tolpet tolpañ dolpañ tolpiñ
-uzin	uzin uzinoù
-erbediñ	erbediñ erbed
-goulennata	c'houlennata goulennata
 lezc'hoar	lezc'hoar lezvreudeur lezvreur lezc'hoarezed
 goprad	goprad gopridi c'hopridi
 klotenn	klotennoù glotenn c'hlotennoù glotennoù
+louzañ	louz louzet louzañ
 bont	bont bontoù pontoù fontoù
+tenor	tenor denor denored tenored tenorioù
 diwiskañ	diwiskañ diwisk diwisket tiwiskas ziwisk ziwiskañ ziwisked
-dienn	dienn
-leuniañ	leuniañ
+mogeriañ	mogeriet
 rampo	rampo
-saezh	saezh
 svedeg	svedeg
 esperanteg	esperanteg
 goell	goell
-lezenniñ	lezenniñ
-jahinañ	jahinañ
-emdreiñ	emdreiñ
 dizereat	dizereat zizereat
-moged	moged voged
 palv	palv palvoù
 ti-post	ti-post di-post
-kaz	kaz c'hizier
 klod	klod glod
 diresis	diresis diresisoc'h
 pennabeg	pennabeg pennabegoù
@@ -2364,22 +2452,23 @@ delfin	delfin delfined
 gallus	gallus c'hallus
 tourc'h	tourc'h dourc'h
 keheder	c'heheder
+trubuilhañ	trubuilhet drubuilhas
 deoliezh	deoliezh zeoliezh
 dron	dron dronoù
 marzhus	marzhus varzhus
 plom	plom blom
 kuzh-heol	c'huzh-heol kuzh-heol
 moal	moal voal
-ebeul	ebeul ebeulien ebeulez
-elektron	elektron elektronenn
+ion	ionoù ion
 laeroñsi	laeroñsi laeroñsioù
 peoc'hus	peoc'hus beoc'hus
-strinkañ	strinkañ strinkas
+glac'hariñ	glac'haret c'hlac'haret glac'hariñ
+dizarmañ	dizarmet dizarm dizarmañ
 goustad	goustad c'houstad goustatoc'h
 hesk	hesk heskennoù heskenn
 kelc'hiek	kelc'hiek gelc'hiek
-tabutal	tabutal dabutal
 arc'h	arc'h irc'hier
+dilemel	dilamet dilemel zilemel
 stagell	stagelloù stagell
 ber	ver ber
 enorus	enorus enorusañ enorusoc'h
@@ -2387,23 +2476,22 @@ lisead	liseidi lisead liseadez
 armañ	armor armañ armer
 koulm	goulm koulm
 bulgar	vulgared bulgar vulgar bulgared
-meuliñ	veuliñ meuliñ meule
+brezhonekaat	brezhonekaet brezhonekaat vrezhonekaat vrezhonekaet
 arat	arad arat
-kigenn	kigenn gigenn c'higenn
 poan-benn	poan-benn boan-benn
 falc'hun	falc'hun falc'huned
 karc'har	c'harc'har karc'har karc'harioù
+diogel	diogel ziogel tiogel diogeloc'h
 ejen	ejen ejened oc'hen
 dimez	zimez dimez timez
+bazhata	bazhataet vazhata bazhata vazhataent
 kraoñ	kraoñ c'hraou krevier c'hraoñ c'hrevier graou
 kunujenn	kunujenn gunujenn kunujennoù gunujennoù
 kannadour	c'hannadour kannadourien gannadour kannadour gannadourien
-dibennañ	dibennañ zibennañ tibennañ
+deredek	zeredas tered terede zeredek deredek deredet zerede
 gwiader	gwiader gwiaderien wiaderien
-neutron	neutron neutronenn neutronennoù
 bili	bili vili bilienn fili
-tenor	tenor denor denored tenored
-peurechuiñ	peurechuiñ beurechuiñ peurachuet peurachuiñ
+pistriañ	pistri pistriet bistriañ bistriet
 brient	brient brientoù vrient prient
 aketus	aketus
 arver	arver
@@ -2412,9 +2500,7 @@ bailh	bailh
 breinadur	breinadur
 diniver	diniver
 doñv	doñv
-leviañ	leviañ
 manaveg	manaveg
-stabilaat	stabilaat
 brug	brug
 didruez	didruez
 heug	heug
@@ -2422,7 +2508,6 @@ karantezus	karantezus
 limestra	limestra
 noazus	noazus
 serr-noz	serr-noz
-yenaat	yenaat
 amann	amann
 yun	yun
 lorc'hus	lorc'hus
@@ -2430,14 +2515,13 @@ eilvet	eilvet
 ampoezon	ampoezon ampoezonoù
 brokus	brokus vrokusañ
 droch	droch zroch
-foetañ	foetañ foet
 privezioù	privezioù brivezioù
 troazh	troazh zroazh
-manifestiñ	vanifestiñ manifestiñ
 dic'hallus	dic'hallus
 eneb	eneb eneboù
 kafe	kafe kafeoù
 risklus	risklus risklusoc'h
+heugiñ	heuget heugiñ
 jarl	jarl jarloù
 dornell	dornell dornelloù zornell
 kenedus	kenedus genedus kenedusañ
@@ -2450,50 +2534,59 @@ braventez	braventez vraventez
 c'hoariell	c'hoarielloù c'hoariell
 dant	dant zant
 dibenn-sizhun	dibenn-sizhun dibennoù-sizhun
-muntrañ	muntrañ vuntrañ
+fourmaj	fourmaj fourmajoù
 postel	postel posteloù
 pradenn	pradennoù pradenn bradenn
 presbital	presbital presbitalioù bresbital
 stroñs	stroñs stroñsoù
-korzenn	gorzenn korzenn
 hanterour	hanterour hanterourien hanterourez
 bouzar	bouzar vouzar
-gwallañ	gwallañ wallañ
-rebech	rebech rebechiñ
+digreizennañ	digreizennet digreizennañ
+poultrenn	boultrenn poultrenn poultrennoù
 tristidigezh	tristidigezh dristidigezh
 horolaj	horolaj horolajoù
+nezañ	nezañ nez nezet neze
 digas	digas zigas tigas
 o-zri	o-zri o-zeir
 kouronkañ	kouronkañ gouronkañ
 neuiñ	neue neui neuiñ neu neues
 karrdi	c'harrdi karrdi karrdioù
-diogel	diogel ziogel tiogel
 direizhder	direizhderioù direizhder zireizhder
 galloudek	galloudek c'halloudek galloudekañ galloudekoc'h
 kevnid	gevnidenn kevnid kevnidenn
 kredour	gredourien kredour kredourez kredourien
 ivin	ivinoù ivin
 mandarin	mandarined vandarined mandarin
+skubañ	skubet skubañ skubas
 biñs	viñs viñsoù piñs biñsoù
 piler	piler pileroù pilerioù
-klozañ	glozañ klozañ c'hlozañ klozas
+harzhal	harzhet harzhal harzhañ
 korfadurezh	gorfadurezh korfadurezh c'horfadurezh
+kiriegezh	kiriegezhioù giriegezh kiriegezh
+liñs	liñs liñsoù liñsed lins
 hejañ	hejañ hejet hejas heje
+bukañ	buket bukañ vukañ buken vuk buke
 dreser	dreser treserien dreserien dreserion treserez
 kaozeadenn	gaozeadenn kaozeadennoù c'haozeadennoù kaozeadenn gaozeadennoù
 krib	grib krib c'hriboù kriboù c'hrib
 kouviad	c'houviad gouviidi kouviad gouviad kouviadez
 kell	divgell gelloù kell kelloù gilli c'helloù killioù
 magerez	vagerez magerez magerezed mager magerien vagerien
+lopañ	lope lopes lopet
 samm	samm sammoù semmen
 barv	barv barvenn barvioù
+boazañ	boazet voazañ voazo
 kanab	kanab c'hanab ganab
 lasañ	laser lasañ laset
 gwak	gwak gwakañ gwakoc'h wak
-feurmiñ	feurmiñ feurmerion feurmer feurmerien
+neveziñ	neveziñ nevezet nevezas neveze
+pulluc'hañ	pulluc'het bulluc'has pulluc'has
 gwazh-dour	wazh-dour gwazhioù-dour gwazh-dour wazhioù-dour
 kaoter	gaoter kaoter kaoterioù
+aspediñ	aspediñ aspedet asped
 brodañ	brod prodi brodañ broder vrodañ
+treizhañ	treizhañ dreizhañ dreizh dreizhiñ treizhas
+farsal	fars farsal farserien farset farsi
 aluminiom	aluminiom
 atmosferenn	atmosferenn
 daneg	daneg
@@ -2512,35 +2605,35 @@ galianeg	galianeg
 leandi	leandi
 poloneg	poloneg
 ugentvet	ugentvet
-dilaoskiñ	dilaosket
-ehanañ	ehanañ
 penn-kil-ha-troad	penn-kil-ha-troad
-annezañ	annezañ
-diverrañ	diverrañ ziverrañ
 fav	fav favenn
 foz-difenn	fozioù-difenn foz-difenn
 poloniat	poloniat boloniat
 rod-avel	rod-avel rodoù-avel
 daeroù	daeroù zaeroù
-luc'hskeudenniñ	luc'hskeudenniñ
+digalonekaat	digalonekaet digalonekaat
 kerneveureg	kerneveureg c'herneveureg
 lamp	lamp lampoù
 baou	paou baou
 kala	gala kala
+savlec'h	savlec'h savlec'hioù
 eurier	eurieroù eurier
 kasketenn	gasketenn kasketenn kasketennoù
 kaezh	kaezh gaezh
 marchosi	marchosi marchosioù
 saoznegerez	saoznegerien saozneger saoznegerez
-dispenn	zispenn dispenn tispenn
+soavon	soavon soavonoù
 bonn	bonn bonnoù
+ankounac'haat	ankounac'haet ankounac'haat
 flemmgan	flemmgan flemmganoù
-kuzuliañ	kuzuliañ guzuliañ
 roudouz	roudour roudouz
 gourhent	gourhent gourhentoù
+kunujenniñ	kunujennet gunujenniñ kunujenniñ
 kurd	kurd gurd
 kalonegezh	galonegezh kalonegezh c'halonegezh
+disammañ	disammet disamm disammañ
 kerc'henn	kerc'henn c'herc'henn gerc'henn
+sarmon	sarmon sarmonioù sarmonoù
 gwinieg	gwiniegi gwinieg winieg
 tata	data dataoù tata
 flatrañ	flatrañ flatrer flatret flatrerien
@@ -2549,46 +2642,50 @@ dornad	dornad dornadoù
 luc'hskeudenner	luc'hskeudenner
 poazh	poazh boazh
 pont-gwint	pont-gwint pontoù-gwint
+torzhell	torzhelloù dorzhell
 aostralian	aostralian aostralianed
 gerdarzh	gerdarzh gerdarzhioù
 ac'hano	ac'hano
 karitez	garitez karitez
-disoñjal	disoñjal zisoñjal tisoñjal
 faout	faoutoù faout
 grad	grad c'hrad
+levn	levn levnet levnañ
 petore	petore betore
 tach	tach tachoù zach
 troadikell	troadikell troadikelloù zroadikelloù
 died	died diedoù
+labezañ	labezet labezañ labezas
 dour-beuz	dour-beuz dourioù-beuz
 ru	ru ruioù
 dlead	dlead dleadoù zlead
 feskenn	feskenn feskennoù
+gwiadiñ	gwiadiñ gwiadet wiadiñ
 meurdezus	meurdezus meurdezusañ veurdezus veurdezusañ
-gwilioudiñ	wilioudiñ gwilioudiñ
+enk	enk enkas enket enkañ
 roeñv	roeñvoù roeñv
+mentoniezh	ventoniezh mentoniezh mentoniezhoù
 rabin	rabin rabined
-gwriat	gwriat wriat gwriad
+glebiañ	glebiet glebiañ c'hlebiañ c'hlebias
 meleganez	veleganez meleganez meleganezed
-bukañ	buket bukañ vukañ buken vuk
+peulvan	peulvan peulvanoù peulvanioù beulvanoù
 kolo	c'holoenn goloenn kolo goloennoù koloennoù
 krignat	grignat krignet krignat
 kevatalenn	kevatalennoù gevatalenn kevatalenn c'hevatalennoù gevatalennoù
+bleuniañ	vleunias vleuniañ bleuniet bleuniañ
 kest	kest c'hest gest kestoù
-lopañ	lope lopes
 metalek	metalek vetalek
 oberatadenn	oberatadenn oberatadennoù
 skouadrenn	skouadrenn skouadrennoù
 steredeg	steredeg steredegoù
 stomog	stomog stomogoù
 azas	azas azasoc'h
+chadennañ	chadennet chadennañ
 klodus	klodus c'hlodusañ
 peur	peur beur
-stardañ	stardañ stardiñ
-stouiñ	stouiñ stouas
 zero	zero zeroioù
 kimiadiñ	kimiadiñ gimiadiñ
 arnev	arnev arnevioù arneñv
+flac'h	flac'h flac'hioù
 choual	chouaned chouan choual
 beleg-meur	beleg-meur veleg-meur veleien-veur
 pin	pin binenn pinenn
@@ -2599,23 +2696,27 @@ displijadur	displijadur zisplijadur
 kaoued	gaoued c'haouedoù kaoued kaouedoù
 karnel	garnel c'harnel karnel karnelioù
 kloued	gloued klouedoù c'hlouedoù
+hetañ	hetiñ hetas hetet
 kaoc'h	kaoc'h gaoc'h c'haoc'h
 chekenn	chekennoù chekenn
 trovan	trovanoù trovan
-dislavarout	dislavaret dislavarout zislavarout
 pok	pok pokoù bok
 gwalleur	gwalleurioù gwalleur walleur walleurioù
 gwazour	gwazour gwazourien gwazourion wazour wazourion
 kevalaour	kevalaour gevalaourien gevalaourion
 porpant	porpant borpant porpantoù
+atahinañ	atahinet atahin atahinañ atahinjont
 korrigan	c'horrigan gorriganez korrigan gorriganed korriganez
 karv	karv kirvi c'hirvi
 schtroumpf	schtroumpf schtroumpfed schtroumpfañ
 bos	bos bosoù vos
+sklaeraat	sklaeraat sklaeraet sklaera sklaerao
+talm	talm zalm dalm talmioù talmoù
 trompilh	trompilh drompilh trompilhoù
-didroc'hañ	didroc'hañ zidroc'hañ tidroc'hañ
 madoberour	vadoberourien madoberour madoberer madoberourien vadoberour
+adwelout	adwelas adwelout adweljont adwel adwelje
 kabined	c'habined kabined gabined kabinedoù
+difraostañ	difraostañ difraostet difraost tifraostas zifraostañ
 forest	forest
 glein	klein
 aked	aked
@@ -2624,16 +2725,11 @@ fazius	fazius
 henc'hresianeg	henc'hresianeg
 parlamantel	parlamantel
 skuizhder	skuizhder
-sturiañ	sturiañ
 taol-mouezh	taol-mouezh
 merc'heta	verc'heta
 yenijenn	yenijenn
 a-daol-trumm	a-daol-trumm
-adreizhañ	adreizhañ
 fallakr	fallakr
-faziañ	faziañ
-heskinañ	heskinañ
-skuilhañ	skuilhañ
 yod	yod
 rouz	rouz
 trouzus	trouzus
@@ -2644,17 +2740,20 @@ alez	alez alezioù
 levezonus	levezonus levezonusañ
 brumenn	vrumenn brumenn
 fleüt	fleüt fleütoù
-poultrenn	boultrenn poultrenn
+ampoezoniñ	ampoezonet ampoezoniñ
+glanaat	c'hlanaat glanaat glanaet
 islonk	islonk islonkoù
 sailh	sailh sailhoù
 boujedenn	voujedenn boujedenn boujedennoù
-mentoniezh	ventoniezh mentoniezh
+saotr	saotroù saotr
+soubañ	soubet soubañ
 adverb	adverb adverboù
 ki-dour	c'hi-dour ki-dour
 koantiz	c'hoantiz koantiz
 talar	dalaroù zalaroù
 nadoz	nadoz nadozioù
 balafenn	balafenned valafenn balafenn
+karvan	garvan karvan karvanoù c'harvan
 karn	karnioù c'harn c'harnoù karn garn
 cheuc'h	cheuc'h
 didan	didan
@@ -2663,9 +2762,7 @@ dourek	dourek
 droug-skevent	droug-skevent
 ellig	ellig
 flaer	flaer
-fourmaj	fourmaj
 fromus	fromus
-izelaat	izelaat
 naet	naet
 patatez	patatez
 sistr	sistr
@@ -2682,25 +2779,22 @@ liorzhañ	liorzhañ
 milour	milour
 moger-greñv	mogerioù-kreñv
 nouspet	nouspet
-ruilhañ	ruilhañ
 salud	salud
 spouronus	spouronus
-advabañ	advabañ
 enezourez	enezourien
+izeldir	izeldirioù
 reunig	reuniged
 ri	ri
 porzh-houarn	porzh-houarn
 salver	salver
+adkanañ	adkanet
 aval-douar	avaloù-douar aval-douar
 dargreiz	dargreiz zargreiz
 diskiant	diskiant ziskiant
-drouklazh	drouklazh zrouklazh
-flac'h	flac'h
 gramm	gramm grammoù
 gwiraer	gwiraour gwiraerion
 harluad	harluidi harluad
 janglenn	janglenn janglennoù
-levn	levn levnañ
 loer	loeroù loer
 marmor	marmor varmor
 neved	neved nevedoù
@@ -2710,7 +2804,6 @@ skier	skier skierez
 ti-annez	ti-annez di-annez
 ti-gwer	ti-gwer tiez-gwer
 truezus	truezus druezus
-savlec'h	savlec'h
 born	born porn
 mall	mall vall
 soul	soul soulenn
@@ -2722,53 +2815,60 @@ kolladenn	golladenn kolladennoù
 gourfenn	gourfenn c'hourfenn gourfennoù
 lec'hid	lec'hid
 meuriadel	meuriadel veuriadel
+dornañ	dornet dornañ
+kleuzañ	kleuzet gleuzont kleuzañ
 chug	chug chugoù
+paouraat	baouraat paouraet paouraat
 binioù	binioù biniawoù
 pomper	bomperien pomper pomperien
 kamion	c'hamion gamion kamion kamionoù
 egorlestr	egorlestr egorlistri
 miliner	miliner milinerien vilinerez vilinerien
-pokat	pokat bokat
 prennañ	prennet prennañ brennañ brennet
 gwisk	wisk gwisk
 divout	zivout divout
-enk	enk enkas enkañ
 tantad	tantad tantadoù
 goañviñ	goañviñ c'hoañviñ
 goustilh	goustilh goustilhoù c'houstilh
 houad	houad houidi houadez
+semplañ	semplañ semplas semplet
 apotiker	apotiker apotikerien apotikerez
 arm-tan	armoù-tan arm-tan
 batimant	batimantoù vatimant batimant
 benveg-seniñ	benveg-seniñ binvioù-seniñ
-berraat	berraat verra verraat verrai
 pinvidig	binvidien pinvidien pinvidig
 bourev	bourev bourevien bourevion vourevion
 kleweled	c'hleweled kleweled gleweled
 gad	gedon gad
 kartenn-bost	kartennoù-post gartenn-bost kartenn-bost
 mouchouer	mouchouer mouchouerioù vouchouer
-sarmon	sarmon sarmonioù
-talm	talm zalm dalm talmoù
 butuniñ	vutuniñ butuniñ butunat vutunat
+arliv	arlivioù arliv
 fichenn	fichenn fichennoù
-peulvan	peulvan peulvanoù beulvanoù
+moustrañ	moustret voustrañ voustras
 siminal	siminal siminalioù
-treizhañ	treizhañ dreizhañ dreizhiñ
+yunañ	yunañ yuniñ yunet
 diuz	diuzet diuzer diuzit ziuzet
+lestrañ	lestrañ lestras lestret
 mous	vous mous
 kad	c'had kad c'hadoù
 klañvdi	c'hlañvdi klañvdi glañvdi
+dic'houzougañ	dic'houzougañ dic'houzouget zic'houzougañ
 kazel	gazel kazel kazelioù
 sunañ	sunet sunañ suno suni
 trubard	trubard trubarded drubard drubarded zrubarded
 tonal	zone tone toni zonen
+c'hwitellat	c'hwitellat c'hwitellet c'hwitell c'hwitelle
+lipat	lipat lip lipas liper lipont
 kelan	c'helan kelan c'helanoù gelan
+gorrekaat	gorrekaat c'horrekaat gorrekaet c'horrekafe
 baleadenn	baleadenn baleadennoù valeadennoù valeadenn
+kenwerzhañ	kenwerzhañ genwerzhañ genwerzhe c'henwerzhe genwerzhas
 goiñ	c'hoiñ goiñ
+c'hwek	c'hwek c'hwekoc'h
 tro-c'houzoug	dro-c'houzoug tro-c'houzoug troioù-gouzoug
-liñs	liñs liñsed lins
 baot	baoted baot vaot
+tevaat	deva devaat tevaat
 bizañ	vize bizañ bizet
 ruzañ	ruzañ ruze
 fallout	fallout
@@ -2790,7 +2890,6 @@ ragistorel	ragistorel
 rannyezhel	rannyezhel
 respetad	respetad
 sevended	sevended
-skañvaat	skañvaat
 sutal	sutal
 ti-moullañ	ti-moullañ
 barrennig	varrennig
@@ -2802,57 +2901,52 @@ helavarded	helavarded
 hiraezh	hiraezh
 latar	latar
 sentus	sentus
-anadiñ	anadiñ
 aluzenour	aluzener
 damez	damez
 gwe	we
-faezhañ	faezhañ
 lev	lev
 pebr	pebr
 raz	raz
 armel	armel
 klañvidik	klañvidik
 brabant	brabant vrabant
+nant	nant nantoù
 dioksigen	dioksigen zioksigen
-flemmañ	flemmañ flemme
 gov	gov c'hov
-nezañ	nezañ neze
 saludiñ	saludiñ saludas
 fulenn	fulenn fulenned
 gouelec'h	gouelec'h gouelec'hioù
 gwinegr	gwinêgr gwinegr
 seizañ	seizet seizañ
-aspediñ	aspediñ asped
 marc'hegezh	marc'hegezh
 rektor	rektor rektored
+sil	sil silioù
 irvin	irvin irvinenn
 brezelgar	brezelgar vrezelgar
-glanaat	c'hlanaat glanaat
 deliaouek	deliaouek deliaoueg
 tell-gastiz	dell-gastiz telloù-kastiz
 eilmaer	eilmaer eilmaerez
 flourdilizenn	flourdilizenn flourdiliz
-fuzuilhañ	fuzuilhañ fuzuilher fuzuilherien
 krizded	grizded c'hrizded krizded
 krigner	krignerien c'hrignerien
 milliget	milliget villiget
 prezegenner	prezegenner brezegenner prezegennerien
 sec'hed	sec'hed
 skol-vamm	skol-vamm skolioù-mamm
-touellañ	touellañ douellañ zouellañ
 binim	binim vinim
 bouc'h	bouc'h vouc'hed
+bravaat	bravaat bravaet vravaat
+dishualañ	dishual dishualet zishual
 fer	ferenn fer
 gouiziek	gouiziek gouiziekañ gouiziekoc'h
 meurvorel	meurvorel veurvorel
 rastell	rastell rastelloù restell
+adkargañ	adkargañ adkarget adkarg
 avielour	avielour avielourien
 badez	badez vadez
 gweuz	diweuz weuz
 douaroniour	douaroniour douaroniourien
 garzh	girzhier c'harzh garzh
-krougañ	grougañ krougañ
-lugañ	lugañ lug luger
 preñv	preñved preñv breñved
 moullerezh	voullerezh moullerezh
 dialañ	zialañ dialañ
@@ -2860,49 +2954,58 @@ beni	beni veni benioù
 kap	c'hap kap
 breutaer	breutaer breutaerien vreutaer vreutaerien
 korporal	c'horporal gorporal korporal
+garan	garan garanoù
 kemberiñ	kemberiñ gemberiñ kemberañ
 morlenn	morlenn vorlenn
-yunañ	yunañ yuniñ
+bouton	bouton boutonioù boutonoù vouton
+itrikañ	itrikañ itrik
+chaokat	chaok chaoket chaokat
 kornek	kornek gornek korniek
 maeronez	maeronez vaeronez
+poaniañ	poaniañ boanias boanie poanias
+adlenn	adlenn adlennet
 araogenn	araogenn araogennoù
 bevoniezh	bevoniezh vevoniezh
 bugel-bihan	bugale-vihan bugel-bihan vugale-vihan
+geometriezh	c'heometriezh geometriezh geometriezhioù
 krennvrezhoneg	c'hrennvrezhoneg krennvrezhoneg
 diazezourez	diazezour ziazezour diazezerez diazezourez
-dourañ	dourañ zourañ douro touro
+diduiñ	diduiñ ziduiñ didu diduañ
 treujenn-gaol	dreujenn-gaol treujenn-gaol
-karvan	garvan karvan c'harvan
 gwetur	gweturioù gwetur wetur
-gwiriekaat	gwiriekaat wiriekaat
+ibil	ibil ibiloù ibilioù ibilien
+intrañ	intret intrañ intrent
 madig	madigoù madig vadigoù
+platin	platin blatin platinoù
 segal	segalennoù segal segalenn
 sotoni	sotoni sotonioù
 bagon	vagon fagon bagonioù
 bonnañ	bonnet bonne bonnañ
 roñfl	roñfl roñfled roñflez
 bevoniour	bevoniour vevoniourien vevoniour
-lipat	lipat lip lipas liper
+gwarediñ	gwaredet gwarediñ warediñ
 megin	meginoù megin vegin
 spurmantiñ	spurmantiñ spurmantet spurmantas
 glavek	glavek glaviek c'hlavekañ
 arruout	arrue arruas arruout arru
+kleñvel	kleñvel klañvas glañvas klañvet
 karedig	c'haredig garedig karedig
+kromozom	c'hromozom kromozom kromozomoù
 dourvarc'h	dourvarc'h zourvarc'h dourvarc'hed
 tremeniad	dremenidi tremeniad tremenidi
+kaletaat	galetaat kaletaat galeta kaletaont
 kouign	gouign kouignoù c'houign c'houignoù
 kannerez	kannerez c'hanner kanner kannerezed ganner
 proton	proton protonenn broton brotonenn
+balirañ	valir valirañ balirañ valire
 krenañ	krenañ grenañ grenet krenas krene
+paotaat	baota paotao baotaat baotao paota paotaat
 konifl	c'honikled c'honikl c'honifled gonifled konifl
 kourser	gourser kourser kourserien gourserien c'hourser
-deredek	tered terede zeredek deredek zerede
 madek	madeg
-nant	nant
 newton	newton
 aberiñ	aberiñ
 ac'hann	ac'hann
-ankouaat	ankouaat
 anv-verb	anv-verb
 chal	chal
 chupenn	chupenn
@@ -2912,18 +3015,16 @@ ferv	ferv
 fiñvusted	fiñvusted
 frouezhusted	frouezhusted
 gwenedeg	gwenedeg
-hetañ	hetiñ
 hudour	hudour
 milis	milis
 mod-all	mod-all
-neveziñ	neveziñ
+mogediñ	mogedet
 orgedus	orgedus
 perseg	perseg
 pevarzroadek	pevarzroadek
 rogoni	rogoni
 silabennek	silabennek
 silzig	silzig
-soavon	soavon
 spier	spier
 abaf	abaf
 amiegez	amiegez
@@ -2932,18 +3033,19 @@ edan	edan
 frondus	frondus
 kapitalouriezh	gapitalouriezh
 ingalded	ingalded
-leskiñ	leskiñ
+kroazstagañ	kroazstaget
 aonik	aonik
 pennek	pennek
-sil	sil
 chouant	chouanted
 antre	antre antreoù
+arc'hiñ	arc'het arc'hont
 arzorn	arzorn arzornioù
-paouraat	baouraat paouraat
 begel	begel begelioù
 binimus	binimus vinimus
 biz-yod	biz-yod viz-yod
 derc'hent	derc'hent zerc'hent
+dianadiñ	dianadet zianadiñ
+distabilaat	distabilaet distabilaat
 divarvelezh	divarvelezh zivarvelezh
 dizenor	dizenor zizenor
 touribell	douribell touribelloù
@@ -2951,9 +3053,9 @@ dudius	dudius tudius
 glebor	glebor c'hlebor
 gouron	gouron gouroned
 greanti	greanti c'hreanti
-gwiadiñ	gwiadiñ wiadiñ
 hiviz	hiviz hivizoù
 hoalus	hoalus hoalusañ
+leinañ	leinet leinañ
 levrdi	levrdi levrdioù
 padusted	padusted badusted
 pellgomzer	pellgomzerioù pellgomzer
@@ -2963,10 +3065,8 @@ raoskl	raoskl raosklenn
 skluz	skluzioù skluz
 tired	tired tiredoù
 toazenn	toazennoù doazenn
+touell	touell touelloù
 tour-meur	tour-meur dour-meur
-bravaat	bravaat vravaat
-c'hwek	c'hwek
-dishualañ	dishual zishual
 hendra	hendraoù hendra
 trizekvet	trizekvet drizekvet
 azasadur	azasadur azasadurioù
@@ -2978,14 +3078,16 @@ dispriz	dispriz zispriz
 dramaour	dramaourien dramaour
 kran	kran granañ kranañ
 kren	kren gren
+niveriñ	niveriñ niveret
 sivi	sivi sivienn
+trevad	trevadoù trevad
 tropell	tropelloù tropell zropell
 uvel	uvel uveloc'h
 malizenn	valizenn malizennoù
 boue	foue boue
+frealziñ	frealziñ frealzet
 hendraour	hendraourien hendraour
 porzh-mor	porzh-mor forzh-mor porzhioù-mor
-bouton	bouton boutonoù vouton
 boulouard	boulouard boulouardoù voulouard
 hediñ	hedet hedañ
 inosant	inosant inosanted inosantez
@@ -2994,49 +3096,52 @@ suiñ	sue suo suas
 bag-dre-lien	bigi-dre-lien vag-dre-lien bagoù-dre-lien
 poblañ	boblañ poblañ foblañ
 kastell-kreñv	c'hastell-kreñv kastell-kreñv
-geometriezh	c'heometriezh geometriezh
 kilhog	c'hilhog c'hilheien gilhog kilhegi
 govel	c'hovel govel
 teirvet	deirvet teirvet
-diduiñ	diduiñ ziduiñ diduañ
-direnkañ	direnkañ tirenk zirenk zirenkañ
 emrener	emrener emrenerien emrenerez
-kiriegezh	giriegezh kiriegezh
+goulaouiñ	goulaouiñ goulaouet
 gwander	gwanderioù gwander wander
 luc'hed	luc'hed luc'hedenn
 meud	meud veud veudoù
-platin	platin blatin
 ramparzh	ramparzh ramparzhioù
+skejañ	skej skejet skejañ
 tort	tort dort dorted
 unpenn	unpenn unpennoù
 drouklazhañ	zrouklazhañ drouklazhañ
 roc'hell	roc'hell roc'helloù
 alarc'h	alarc'h elerc'h
-badeziñ	badeziñ vadeziñ
-c'hwitellat	c'hwitellat c'hwitell c'hwitelle
+doareañ	doareet doareañ zoareañ
 glazard	glazarded glazard
 kevan	kevan c'hevan
 marvailh	marvailhoù marvailh
+marzh	marzhoù marzh
 mud	mud vud
 mur	mur vur murioù
 seizenn	seizenn seizennoù
 bre	bre breoù
+touzañ	touzet touzañ touz
 meneziad	venezidi meneziad menezidi veneziad
 broc'h	broc'h broc'hed
-farsal	farsal farserien farsi
-kaletaat	galetaat kaletaat galeta
+koumanant	c'houmanant koumanantoù goumanant
 krizder	grizder krizder c'hrizder krizderioù
 krogen	grogen krogen c'hrogen
+gwriziañ	gwriziennañ gwriziet wriziennañ
 kabell	kabell c'habell kabelloù
+kilogramm	kilogramm c'hilogramm gilogramm kilogrammoù
 kimiour	kimiourien c'himiour kimiour
 klon	klonoù c'hlon c'hlonoù klon
+goeñviñ	koeñvet c'hoeñviñ goeñviñ koeñv koeñviñ
 morbig	morbiged morbig vorbig
+paseal	paseet paseo paseal paseas
 meilh	veilh meilhoù meilh
 moualc'h	voualc'h moualc'h mouilc'hi
+yudal	yud yudal yudet
+tonn	donn tonnoù tonn tonnioù
 malv	malvennoù valvennoù valv valvenn
+touflez	douflez touflez touflezioù touflezoù
 korollerez	korollerez korollerien gorollerez gorollerien
 krin	krin krinañ rin
-adstummañ	adstummañ
 anal	anal
 argoad	argoad
 atenat	atenat
@@ -3053,14 +3158,13 @@ hollc'halloudek	hollc'halloudek
 koar	koar
 laezh-ribod	laezh-ribod
 onestiz	onestiz
+ragaozañ	ragaozet
 resisted	resisted
 roumaneg	roumaneg
 saksofon	saksofon
-saotrañ	saotrañ
 saourus	saourus
 steredoniezh	steredoniezh
 tantalom	tantalom
-touell	touell
 uraniom	uraniom
 yezhadurour	yezhadurour
 watt	watt
@@ -3070,6 +3174,7 @@ dibistig	dibistig
 dioksidenn	dioksidenn
 diret	diret
 eeunded	eeunded
+goudoriñ	goudoret
 hael	hael
 harellerezh	harellerezh
 heiz	heiz
@@ -3080,18 +3185,16 @@ neon	neon
 porzh-pesketa	porzh-pesketa
 teil	teil
 otus	otus
-adembann	adembann
 gousperoù	gousperoù
 louzawouriezh	louzawouriezh
-semplañ	semplañ
 spern	spern
 barvek	barvek
 bemnoz	bemnoz
 gwechall-gozh	gwechall-gozh
 purgator	purgator
 tali	dali zali
-adprenañ	adprenañ adpreniñ
 bananez	bananez vananezenn
+beuz	beuz beuzioù
 biz-gwalenn	biz-gwalenn viz-gwalenn
 proleteriezh	broleteriezh proleteriezh
 disprizus	disprizus zisprizus
@@ -3101,6 +3204,7 @@ geriadurour	geriadurour geriadurourien
 kiez	giez c'hiez
 koustiañs	goustiañs koustiañs
 gwini	gwini gwinienn
+houarnañ	houarnet houarnañ
 interamant	interamant interamantoù
 korsek	korsek gorsek
 koton	koton c'hoton
@@ -3120,10 +3224,12 @@ friko	friko frikoioù
 miltamm	miltamm miltammoù
 pif	pif pifoù
 richer	richer richerioù
+antreal	antreal antree
 arnodva	arnodva arnodvaoù
+togañ	toget doge
 erin	erin erinoù
-harzhal	harzhal harzhañ
 merc'her	merc'her verc'her
+adwerzhañ	adwerzhañ adwerzh adwerzhe
 pater	bater pater
 c'hoar-gaer	c'hoar-gaer c'hoarezed-kaer
 c'hwezigell	c'hwezigell c'hwezigelloù c'hwezigenn
@@ -3134,13 +3240,14 @@ forc'h	forc'h ferc'hier
 frond	frondoù frond
 kevalaouriezh	gevalaouriezh kevalaouriezh
 gwellaenn	gwellaennoù gwellaenn wellaennoù
-ibil	ibil ibilioù ibilien
+gwerzaouiñ	gwerzaouiñ werzaouet werzaouiñ
 kablusted	kablusted gablusted
 karv-erc'h	kirvi-erc'h c'harv-erc'h
 marc'h-tan	marc'hoù-tan marc'h-tan
 moroniezh	moroniezh voroniezh
 moue	moue voue
 obuz	obuz obuzioù obuzoù
+orged	orged orgedoù
 pomp	pomp fomp
 priol	priol brioled briol
 rentañ-kont	rentañ-kont rentaoù-kont
@@ -3148,7 +3255,7 @@ sardin	sardin sardined
 skrapadeg	skrapadeg skrapadegoù
 touller	touller douller doullerien
 touseg	touseg tousegi
-bazhata	vazhata bazhata
+mezviñ	vezviñ mezvet vezvas
 morvran	morvran morvrini vorvran
 kadarn	gadarn kadarn kadarnañ
 soutil	soutil soutiloc'h
@@ -3157,53 +3264,58 @@ atalier	atalieroù atalier
 biniaouer	biniaouer viniaouerien viniaouerez
 ble	ble vle
 galoupat	c'haloupat galoupat
-goapaat	c'hoapaat goapaat
-kromozom	c'hromozom kromozom
 talmañ	dalmañ talmont dalmiñ talmiñ
-doñvaat	doñvaat zoñvaat doñvaer
 treizhadenn	dreizhadenn treizhadennoù treizhadenn
 trivet	drivet trivet
 eog	eoged eog
 fichennaoueg	fichennaouegoù fichennaoueg
 kanevedenn	ganevedenn kanevedenn
 kastelodenn	gastelodenn kastelodennoù kastelodenn
+kazout	gazet gazan gaze
+kizidigezh	gizidigezh c'hizidigezh kizidigezh kizidigezhioù
 koaniañ	goaniañ koaniañ
-gorrekaat	gorrekaat c'horrekaat
 gouloù-deiz	gouloù-deiz c'houloù-deiz
+harzlammat	harzlamm harzlammet harzlammas
 karned	karnedoù garnedoù c'harned
 karr-samm	karr-samm c'harr-samm kirri-samm
 kañval	kañval kañvaled gañvaled
-kilogramm	kilogramm c'hilogramm gilogramm
 kleizhenn	kleizhennoù gleizhenn gleizhennoù
 korf-marv	korfoù-marv c'horfoù-marv gorf-marv korf-marv
+martezeañ	martezeañ martezeet vartezeañ
 mentel	mentel ventel
 morzhed	morzhed vorzhed
+risklañ	risklañ risklet
 sac'had	sac'had sac'hadoù
+tommaat	tommaet domma dommaas tommaat
 melkoni	velkoni melkoni
 mez	vezenn mezenn mez
-yudal	yud yudal
+fil	fil filoù
+kor	kor c'hor koroù
 degemerus	degemerus degemerusoc'h zegemerus
 den-marc'h	den-marc'h zen-marc'h
+mallozhiñ	mallozhet mallozhiñ vallozhas
 reder-mor	reder-mor reder-bro rederien-vro
 traezheg	traezhegi draezheg traezhegoù
 kere	gere kere c'here
+blazañ	blazet plasañ blazañ plazas
 kelien	c'helien kelien gelien
 tavañjer	davañjer zavañjer tavañjer tavañjerioù
+dereiñ	dereiñ zeree teree zereont
 dilec'h	dilec'h tilec'h zilec'h
-touflez	douflez touflez touflezioù
 bolenn	folenn volenn bolenn bolennoù
-kreizennañ	kreizennañ kreizenniñ greizennañ greizenniñ
+digevanañ	tigevanont digevanañ tigevane tigevanfe zigevan
 belo	velo beloioù pelo
 brozh	vrozh brezhier brozh brozhioù vrozhioù
+youc'hal	youc'hal youc'he youc'het
+tridal	dridal tridal trident trid tridi
 laon	laon
 abostolerezh	abostolerezh
-adkargañ	adkargañ
+adverc'hañ	adverc'het
 alberz	alberz
 arar	arar
 arwenn	arwenn
 avu	avu
 bedeladur	bedeladur
-beuz	beuz
 chaous	chaous
 chemet	chemet
 chimik	chimik
@@ -3218,6 +3330,7 @@ enkrez	enkrez
 ezvezant	ezvezant
 feltr	feltr
 fonologiezh	fonologiezh
+fritañ	fritet
 fritez	fritez
 fured	fured
 hañvourez	hañvourien
@@ -3232,16 +3345,14 @@ loustoni	loustoni
 lufrus	lufrus
 matematikel	matematikel
 nijva	nijva
-niveriñ	niveriñ
 paler	paler
 radiom	radiom
+remerkout	remerket
 rezin	rezin
 roc'hek	roc'hek
 skaf	skaf
-sklaeraat	sklaeraat
 sod	sod
 sodiom	sodiom
-spisaat	spisaat
 strinkenn	strinkennoù
 unyezhek	unyezhek
 wolfram	wolfram
@@ -3255,8 +3366,6 @@ digor-frank	digor-frank
 drev	drev
 esperantek	esperantek
 frealz	frealz
-frealziñ	frealziñ
-garan	garan
 gleborek	gleborek
 herr	herr
 jod	jod
@@ -3271,17 +3380,13 @@ skoutez	skouted
 timat	timat
 ac'haleno	ac'haleno
 hast	hast
-itrikañ	itrikañ
 kreizer	kreizer
 tatouet	tatouet
 trev	trev
-antreal	antreal
 pillig	billig
 brenn	brenn
 gramadeg	gramadeg
-lestrañ	lestrañ
 ode	ode
-poaniañ	poaniañ
 ter	ter
 triliv	triliv
 unnekvet	unnekvet
@@ -3296,13 +3401,15 @@ arc'hantinat	arc'hantinat
 bazhad	bazhadoù vazhad
 bestl	bestl vestl
 pouloud	bouloudenn pouloud
+bruzunañ	bruzunet vruzuniñ
 bual	bualed bual
 kleñved-red	c'hleñved-red gleñved-red
 gloaziad	c'hloazidi gloaziad
+c'hweziñ	c'hwezet c'hweziñ
 c'hwil	c'hwil c'hwiled
 devezh-arat	devezh-arat zevezh-arat
-dic'houzougañ	dic'houzougañ zic'houzougañ
 digasted	digasted zigasted
+digoadañ	digoadañ digoadet
 dinoaz	dinoaz dinoasoc'h
 divesker	divesker zivesker
 divontañ	divontet tivontañ
@@ -3314,30 +3421,32 @@ ec'honder	ec'honder ec'honderioù
 erc'hek	erc'hek erc'hegoù
 kibell	gibell kibelloù
 grevusted	grevusted c'hrevusted
-gwerzaouiñ	gwerzaouiñ werzaouiñ
+gwaskediñ	gwasked gwaskedet
 harz-lamm	harz-lamm harzoù-lamm
 horzh	horzh horzhioù
 koumoulek	koumoulek goumoulek
 krazañ	krazet kraz
 kuñv	kuñv guñv
 kêriad	kêriz gêriz
+lardañ	lard lardet
 liver	liver liverez
 louzaoueg	louzaoueg louzaouegoù
 lugernus	lugernus lugernusañ
 maen-bez	maen-bez vaen-bez
 metan	metan vetan
 neblec'h	neblec'h
+piaouañ	piaouet biaouañ
 rannvloaz	rannvloaz rannvloazioù
 sac'h-dorn	sac'h-dorn seier-dorn
 sapr	sapr saprenn
 skiañ	skiañ skien
 torr-dimeziñ	torr-dimeziñ dorr-dimeziñ
 treitouriñ	treitouriñ dreitouriñ
+vaksinañ	vaksinañ vaksinet
 merdead	verdeidi merdead
 komm	c'homm komm
 bezant	bezant vezant
-breutaat	breutaat vreutaat
-ergerzhout	ergerzhout ergerzhiñ
+feukañ	feukiñ feuke
 flemm	flemm flemmoù
 gourvab	gourvab gourvibien
 gwispid	gwispid wispidenn
@@ -3350,80 +3459,87 @@ kroat	kroat groat
 meurvaen	meurvein meurvaen
 plavañ	plavañ flavor
 tadig	tadig zadig
+teñvalaat	teñvalaet deñvalaat
 tintal	tinto tint zint
 achuiñ	achuiñ achuet
+advugelañ	advugelet advugelañ
 aourgi	aourgi aourgon
 beskontelezh	beskontelezh veskontelezh
 boked	bokedoù boked
-brezhonekaat	brezhonekaat vrezhonekaat
 brizh	brizh vrizh
 buzhug	buzhug buzhugenn vuzhugenn
 karma	c'harma karma
 katekiz	c'hatekiz katekiz
 kentanv	c'hentanv gentanv kentanv
 kenwerzher	c'henwerzher kenwerzher
-koumanant	c'houmanant goumanant
-tevaat	devaat tevaat
-difraostañ	difraostañ tifraostas zifraostañ
 dourlivadur	dourlivadurioù zourlivadur zourlivadurioù
 draenek	draenek draeneg
 edeg	edeier edegi
+empennañ	empennet empennas empennañ
 fichañ	fichañ fichet
+fouge	fouge fougeoù
+frikañ	friket frikas frikañ
+fromañ	fromet fromañ froment
+frotañ	frotet frotañ
 froudenn	froudennoù froudenn
-kazout	gazet gazan
 geuniek	geuniek c'heuniek
-gevrediñ	gevrediñ kevrediñ
-kizidigezh	gizidigezh c'hizidigezh kizidigezh
-glebiañ	glebiañ c'hlebiañ
 gloazus	gloazus c'hloazus
 goaperezh	goapaerezh c'hoaperezh goaperezh
 kouc'h	gouc'h c'houc'h kouc'h
 gouelan	gouelaned gouelan gouelini
 gourdad	gourdad c'hourdadoù gourdadoù
-gwastañ	gwastañ wastañ
 gwevnded	gwevnded wevnded
-gwriziañ	gwriziennañ wriziennañ
+hizivaat	hizivaat hizivaet
 kig-moc'h	kig-moc'h c'hig-moc'h
+kozhañ	kozhañ gozhañ gozhont
+regiñ	regiñ regont
 rodell	rodelloù rodell
+ruoc'hal	ruoc'hal ruoc'h
 sigaretenn	sigaretennoù sigaretenn
 sizailh	sizailhoù sizailh
 skediñ	skediñ skede
 sodiñ	sodiñ sodez
 stammenn	stammennoù stammenn
-bleuniañ	vleuniañ bleuniañ
+troazhañ	troazhañ troazhet
 bolz-enor	volz-enor bolz-enor bolzioù-enor
 breserezh	vreserezh breserezh
 bulgarek	vulgarek bulgarek
 distan	zistanañ distanañ distan
-kor	kor c'hor
 darañ	tarot daret darin
-awenañ	aweniñ awenañ
 bam	bam pam
 disglavier	disglavier disglavieroù zisglavier
 doareenn	doareennoù doareenn zoareennoù
-kenwerzhañ	kenwerzhañ genwerzhañ
+goulakaat	goulakaat c'houlaka c'houlakaat
+goullonderiñ	goullonder c'houllonderas goullonderiñ
 korvent	korventoù c'horventoù
 kulator	kulator kulatorez c'hulator
 laou	laou laouenn
 liñvadenn	liñvadenn liñvadennoù
+luskellat	luskellet luskell luskellat
 merc'h-kaer	merc'h-kaer verc'h-kaer
 pasianted	pasianted basianted
 garmal	karmal garmal c'harmal
+poulzañ	boulz poulzañ poulzet
+broc'hañ	broc'het vroc'has broc'hañ
+disentiñ	disentiñ tisentas zisentas zisentiñ
+eoriañ	eoriañ eoriet eorias
+foton	foton fotonioù fotonoù
 gedour	gedourien gedour gedourion geder
+halañ	halañ hale halet
+harzh	harzhioù harzhoù harzh
+kenfinañ	kenfinet c'henfinañ genfinañ kenfinañ
+salviñ	salv salvet salviñ
 spilhenn	spilhenn spilhoù spilhennoù
 tachañ	tachañ tachet tache
 ti-debriñ	ti-debriñ tier-debriñ tiez-debriñ
+difoupañ	zifoupañ difoupet tifoup tifoupfe
 dirañ	dire tire tirer ziren
-tridal	dridal tridal trident tridi
 karour	karour karourien garour garourien garer karer
 adaskell	adeskell
-adlenn	adlenn
-adwerzhañ	adwerzhañ
 albaneg	albaneg
 amerikiom	amerikiom
-ampoezoniñ	ampoezoniñ
+anion	anionoù
 anoued	anoued
-arliv	arliv
 arsenik	arsenik
 arvelen	arvelen
 bamus	bamus
@@ -3439,14 +3555,11 @@ danek	danek
 deuet-mat	deuet-mat
 diaoulek	diaoulek
 digalon	digalon
-digoadañ	digoadañ
-digreizennañ	digreizennañ
 disent	disent
 diseven	diseven
 divlaz	divlaz
 dizampart	dizampart
 dizifenn	dizifenn
-enaouiñ	enaouiñ
 endervezh	endervezh
 entanus	entanus
 estonus	estonus
@@ -3458,9 +3571,7 @@ foenn	foenn
 frikorneg	frikorneg
 kazel-yev	gazel-ge
 germaniom	germaniom
-goulaouiñ	goulaouiñ
 gwarizius	gwarizius
-gwaskediñ	gwasked
 hebleg	hebleg
 hirbadus	hirbadus
 hirgarrezenn	hirgarrezenn
@@ -3477,7 +3588,6 @@ kofek	kofek
 kourtes	kourtes
 lantanom	lantanom
 laouek	laouek
-lardañ	lard
 lart	lart
 lazhus	lazhus
 leizh	leizh
@@ -3485,7 +3595,6 @@ lestr-karg	lestr-karg
 lidek	lidek
 litr	litr
 lounezh	lounezh
-louzañ	louzañ
 magadurezh	magadurezh
 makron	makron
 meinek	meinek
@@ -3497,7 +3606,6 @@ naontekvet	naontekvet
 nikun	nikun
 niobiom	niobiom
 onn	onn
-orged	orged
 pegeit	pegeit
 pintet	pintet
 poultrennek	poultrennek
@@ -3509,13 +3617,10 @@ roudennek	roudennek
 sach-blev	sach-blev
 saksell	saksell
 santimetr	santimetr
-saotr	saotr
 sioulder	sioulder
 skav-gwrac'h	skav-gwrac'h
 skiant-prenañ	skiant-prenañ
-skubañ	skubañ
 soliusted	soliusted
-soubañ	soubañ
 souezhadenn	souezhadenn
 staen	staen
 stagus	stagus
@@ -3530,8 +3635,6 @@ teiryezhek	teiryezhek
 ti-hent-houarn	ti-hent-houarn
 tibetek	tibetek
 tsundere	tsundere
-vaksinañ	vaksinañ
-mezviñ	vezviñ
 hun	hun
 a-greiz-holl	a-greiz-holl
 parrezian	barrezianiz
@@ -3541,7 +3644,6 @@ diner	diner
 dizingalded	dizingalded
 faezh	faezh
 faou	faou
-feukañ	feukiñ
 gasterezh	gasterezh
 kozhni	gozhni
 gweet	gweet
@@ -3549,6 +3651,8 @@ hec'h-unan-penn	hec'h-unan-penn
 lent	lent
 loenoniezh	loenoniezh
 lugerniñ	lugerniñ
+noplaat	noplaet
+oberata	oberataet
 ozon	ozon
 piz	piz
 blin	plin
@@ -3557,51 +3661,52 @@ aba	aba
 parlamanter	barlamanterien
 follez	follez
 laouenan	laouenan
+paeroniañ	paeroniet
 esa	esa
 kiañ	gies giañ
 lili	lili lilienn
-ankounac'haat	ankounac'haat
 apotikerezh	apotikerezh apotikerezhioù
 baleer	baleerien valeerien
-pardoniñ	bardoniñ pardoniñ
 blotvil	blotviled blotvil
 karotez	c'harotez karotez
 koadourez	c'hoadour koadourien
 tennadeg	dennadeg tennadeg
 dic'haou	dic'haou zic'haou
 diferad	diferadoù diferad
-dilemel	dilemel zilemel
 evn-mor	evned-mor evn-mor
 gavotenn	gavotenn gavotennoù
 genn	gennoù genn
 gouestoni	gouestoni c'houestoni
-goveliañ	goveliañ c'hoveliañ
-gwarediñ	gwarediñ warediñ
 heureuchin	heureuchin heureuchinez
 isgenad	isgenad isgenadoù
 islavarenn	islavarennoù islavarenn
 kampiñ	kampiñ gampiñ
+kation	kationoù kation
 kleñvedus	kleñvedus c'hleñvedus
-kozhañ	kozhañ gozhañ
 langaj	langaj langajoù
+leñvañ	leñvañ leñvit
 liorzhour	liorzhour liorzhourien
 liñsel	liñselioù liñsel
 luc'heilerez	luc'heilerezioù luc'heilerez
 mallus	mallus mallusoc'h
-martezeañ	martezeañ vartezeañ
+mereng	mereng merengoù
 mouest	mouest vouest
 panez	panez panes
 paseporzh	paseporzh paseporzhioù
 penn-bazh	penn-bazh fenn-bazh
+periant	periant periantoù
+plaouiañ	plaouiañ plaouiet
 rakvarn	rakvarnioù rakvarn
+riklañ	riklañ rikl
 skourrad	skourradoù skourrad
+skrabañ	skrabañ skrab
+sortial	sortiet sortie
 stalaf	stalafioù stalaf
 termometr	termometroù termometr
 toullgofet	toullgofet doullgofet
 tour-ged	tour-ged tourioù-ged
 tour-iliz	tour-iliz dour-iliz
 uhelgomzer	uhelgomzerioù uhelgomzer
-balirañ	valirañ balirañ
 barrennig-stagañ	varrennig-stagañ barrennig-stagañ
 buanded	vuanded buanded
 gwarellvaez	warellvaez gwarellvaez
@@ -3610,18 +3715,17 @@ garm	garm garmoù
 bridañ	pride brides
 birviken	virviken birviken
 bennigañ	bennigañ vennigañ
+bizskrivañ	bizskrivet bizskrivañ
 broñs	broñsoù vroñs
 dibr	dibr dibroù
-tonn	donn tonn
-goulakaat	goulakaat c'houlakaat
-goullonderiñ	goullonder goullonderiñ
+frankaat	frankaet frankaat
 kafedi	kafedi c'hafedi
 morad	morad moriad
 moru	moru morued
+pil	pil piloù
 sorc'henn	sorc'henn sorc'hennoù
 toer	toer doer
 toger	toger doger
-trubardiñ	trubardiñ drubardiñ
 chilean	chileaned chilean
 deraouiñ	deraouiñ teraou zeraouiñ
 torchañ	torch torche
@@ -3630,34 +3734,45 @@ bu	bioù bu
 biz-troad	bizied-troad biz-troad bizied-treid
 planter	blanterien planter
 blein	blein plein vlein
+bourdal	bourd bourdin vourd
 pourmenerez	bourmenerien pourmenerien
 kaol	c'haol kaol
 gedal	c'hedal gedo gedal
 kegel	c'hegel gegel
+kravat	c'hrav grav kravet
 kroateg	c'hroateg kroateg
 krokodil	c'hrokodil krokodiled
 groñj	c'hroñj groñj
 kwark	c'hwark gwark kwarkoù
 dared	daredoù tared daredenn
 dibenn-pred	dibenn-pred dibennoù-pred
+difuiñ	difuet difuiñ
+distardañ	distardañ distardet distardiñ
 torchenn	dorchenn torchenn torchennoù
 drez	dresenn drez
 tud-varc'h	dud-varc'h tud-varc'h
+enbroañ	enbroañ enbroet
+faoutañ	faoutet faoutas faoutañ
 flemmskeudenn	flemmskeudenn flemmskeudennoù
+fouzhañ	fouzhet fouzhe fouzhont
 kabestr	gabestr c'habestr kabestr
 gourmarc'had	gourmarc'had gourmarc'hadoù
 kravatenn	gravatenn kravatenn kravatennoù
-kunujenniñ	gunujenniñ kunujenniñ
 heuz	heuzoù heuz
 isofiser	isofiser isofiserien
 kaerded	kaerded c'haerded gaerded
 kempenner	kempenner c'hempenner gempenner
 kribenn	kribenn c'hribennoù gribenn
 louc'h	louc'h louc'hoù
+meskl	meskloù meskl mesklenn
+nesaat	nesaat nesa nesaet
 pennad-stur	pennad-stur fennad-stur pennadoù-stur
+pigosat	pigoset pigosat
 plankenn-dre-lien	plankenn-dre-lien plankennoù-dre-lien
 reked	reked rekedoù
+stouvañ	stouvañ stouvet
 taouarc'h	taouarc'h daouarc'h
+diflukañ	tiflukas tiflukañ ziflukañ
 dispac'hañ	tispac'hañ dispac'hañ
 toksin	toksin toksinoù
 toull-noz	toull-noz toulloù-noz
@@ -3669,13 +3784,14 @@ gwadañ	wadañ gwadañ gwadiñ
 gwenvidig	wenvidien gwenvidig wenvidig
 gwerzhid	werzhid gwerzhid gwerzhidoù
 gwrac'hell	wrac'hell gwrac'helloù
+aveiñ	aveet aveit aveiñ
+diwadañ	diwadañ diwadet ziwadañ
 gourniz	gourniz gournizez c'hourniz
-souezhañ	souezhiñ souezhas souezhañ
 tanañ	danet tanañ zanjed tanet
 kelennerezh	c'helennerezh gelennerezh kelennerezh
+diberc'hennañ	diberc'henn diberc'hennañ
 ave	ave
 faoued	faoued
-kleñvel	kleñvel
 marr	marr
 paskal	paskal
 pichon	pichon
@@ -3683,7 +3799,6 @@ a-c'haol	a-c'haol
 a-c'haoliad	a-c'haoliad
 a-dre	a-dre
 abegiñ	abegiñ
-adenvel	adenvel
 adjudant	adjudant
 advab	advab
 advevañ	advevañ
@@ -3700,6 +3815,7 @@ azot	azot
 azv	azv
 baraer	baraer
 barr-amzer	barr-amzer
+bec'hiañ	bec'hiet
 beked	beked
 berjinez	berjinez
 braster	braster
@@ -3715,6 +3831,7 @@ kengourener	c'hengourener
 kerneveg	c'herneveg
 daoubleget	daoubleget
 daouder	daouder
+deiziañ	deiziet
 diboan	diboan
 dichañs	dichañs
 digomz	digomz
@@ -3725,7 +3842,6 @@ tro-vrec'h	dro-vrec'h
 evnoniezh	evnoniezh
 eürusted	eürusted
 fonnusaat	fonnusaat
-fouge	fouge
 fraoñv	fraoñv
 galv-diwall	galv-diwall
 genaoueg	genaoueg
@@ -3740,7 +3856,6 @@ heniwerzhoneg	heniwerzhoneg
 heugus	heugus
 heñvelded	heñvelded
 heñvelson	heñvelson
-hizivaat	hizivaat
 hordenn	hordenn
 horolajer	horolajer
 houarnek	houarnek
@@ -3752,7 +3867,6 @@ kig-bevin	kig-bevin
 karr-arsailh	kirri-arsailh
 lagenn	lagenn
 leziregezh	leziregezh
-leñvañ	leñvañ
 libanat	libanat
 lipous	lipous
 lirzhin	lirzhin
@@ -3760,9 +3874,6 @@ lizheradur	lizheradur
 luc'h	luc'h
 mailhoni	mailhoni
 marbr	marbr
-marilhañ	marilhañ
-marzh	marzh
-mereng	mereng
 mezher	mezher
 mikrometr	mikrometr
 milimetr	milimetr
@@ -3780,27 +3891,21 @@ nevezadus	nevezadus
 niveroniezh	niveroniezh
 noazhded	noazhded
 ouz	ouz
-periant	periant
 pimant	pimant
-plaouiañ	plaouiañ
 porzh-brezel	porzh-brezel
 rakkristen	rakkristen
 rakverb	rakverb
 ranngalon	ranngalon
-regiñ	regiñ
 reizhveliezh	reizhveli
 reuzus	reuzus
-riklañ	riklañ
-risklañ	risklañ
 riv	riv
 rouanez-vamm	rouanez-vamm
-ruoc'hal	ruoc'hal
 ruteniom	ruteniom
+saludañ	saludet
 satanazet	satanazet
 serbeg	serbeg
 silisiom	silisiom
 skobitell	skobitell
-skrabañ	skrabañ
 skrij	skrij
 sonour	sonour
 souzañ	souzañ
@@ -3816,25 +3921,21 @@ ti-gward	ti-gward
 ti-pediñ	ti-pediñ
 difluk	tifluk
 traet	traet
-troazhañ	troazhañ
 uhelvarr	uhelvarr
 uvelded	uvelded
 vanadiom	vanadiom
 vandalerezh	vandalerezh
 morouriezh	vorouriezh
-moustrañ	voustrañ
 yezher	yezher
 alc'hweder	alc'hweder
 amjestr	amjestr
 anvadurezh	anvadurezh
 balan	balan
 put	but
-fil	fil
 mammig	mammig
 troazhus	troazhus
 ac'hane	ac'hane
 adtremen	adtremen
-adwelout	adwelout
 alkimiezh	alkimiezh
 amresis	amresis
 astommañ	astommañ
@@ -3845,15 +3946,12 @@ dizaon	dizaon
 evezhierez	evezhier
 gwenvidik	gwenvidik
 hollandat	hollandat
-intrañ	intrañ
-ion	ion
 kenavo	kenavo
 largañ	large
 leur-c'hoari	leur-c'hoari
 liesyezhek	liesyezhek
 maltouter	maltouter
 paprika	paprika
-pil	pil
 pobladur	pobladur
 rog	rog
 skuizhus	skuizhus
@@ -3873,9 +3971,11 @@ a-uc'h	a-uc'h
 afroamerikan	afroamerikan afroamerikaned
 aksiom	aksiom aksiomoù
 annev	annev annevioù
+aveliñ	aveliñ avelet
 barr-avel	barr-avel barroù-avel
 barr-livañ	barr-livañ barroù-livañ
 barver	barver varver
+pec'hiñ	bec'hiñ pec'het
 pignerez	bignerez fignerez
 bismut	bismut vismut
 brom	brom vrom
@@ -3889,15 +3989,14 @@ chevr	chevr chevrenn
 dañjerusted	dañjerusted zañjerusted
 tec'had	dec'hidi tec'had
 digoadenn	digoadennoù digoadenn
-disentiñ	disentiñ zisentiñ
-distardañ	distardañ distardiñ
+disliv	disliv dislivet
 divarregezh	divarregezh zivarregezh
 divinadell	divinadelloù divinadell
 dizanaoudek	dizanaoudek zizanaoudek
-doareañ	doareañ zoareañ
 drougiezh	drougiezh zrougiezh
 turzhunell	durzhunell turzhunell
 enklotenn	enklotennoù enklotenn
+fennañ	fennañ fennet
 fentigell	fentigell fentigelloù
 fust	fustoù fust
 kenwadelezh	genwadelezh kenwadelezh
@@ -3908,22 +4007,24 @@ grouan	grouan grouanennoù
 kuchenn	guchenn kuchenn
 gwerc'hted	gwerc'hted werc'hted
 gwerennad	gwerennad werennad
-harzh	harzhoù harzh
+helosk	helosk heloskoù
 heureuchin-reunek	heureuchined-reunek heureuchin-reunek
 jederez	jederezioù jederez
 kabac'h	kabac'h
+kalediñ	kaledet kaledas
 kan-ha-diskan	kan-ha-diskan c'han-ha-diskan
 kargas	kargas gargas
 kerez	kerez c'herez
 kernez	kernez gernez
+kigennek	kigennek kigennekoc'h
 kivijer	kivijerien givijerien
 klun	klun c'hlunioù
 koc'hu	koc'hu c'hoc'hu
 koef	koefoù goef
 komis	komis gomis
 korz	korz c'horz
-kounnariñ	kounnariñ gounnariñ
 legestr	legestr ligistri
+lintrañ	lintr lintrañ
 lovr	lovr lovrien
 magus	magusoc'h magus
 merien	merion merien
@@ -3931,10 +4032,10 @@ mesper	mesper vesper
 mikroskop	mikroskop mikroskopoù
 nec'hus	nec'hus
 oeñs	oeñsoù oeñs
+pennti	pennti penntioù
 peuznoz	peuznoz beuznoz
 peñsead	peñsead peñseidi
 pikez	pikez bikez
-blazañ	plasañ blazañ
 pod-te	pod-te podoù-te
 preizhadeg	preizhadeg preizhadegoù
 rederig	rederig rederigoù
@@ -3943,34 +4044,42 @@ sebezus	sebezus sebezusoc'h
 senklenn	senklennoù senklenn
 skerb	skerb skerboù
 skinforn	skinforn skinfornioù
+skingomzer	skingomzer skingomzerioù
+staotat	staotat staote
 takson	takson taksonoù
 talabarder	talabarder talabarderien
 tan-arvest	tan-arvest tanioù-arvest
 tan-taran	tan-taran dan-taran
 taouarc'heg	taouarc'hegi daouarc'heg
+daoulinañ	taoulinas daoulinet
 tiad	tiad tiadoù
 toriom	toriom doriom
-touzañ	touzañ touz
 trotal	trotal drotal
 barrikenn	varrikenn barrikennoù
+milligañ	villigas milligañ
 biz-kreiz	viz-kreiz biz-kreiz
 bole	vole bole
 gwennel	wennili gwennili
 gwerenn-dal	werenn-dal gwerenn-dal
 gwiskerez	wisker gwiskerezed
+yaouankaat	yaouankaet yaouanka
 tredaner	zredanerez tredaner
 aotreed	aotreed aotreidi
 berrentez	berrentez verrentez
 bleuñviñ	bleuñviñ vleuñviñ
+bor	bor borioù
 daoudroadeg	daoudroadeg daoudroadeged
-diwadañ	diwadañ ziwadañ
+daskrenañ	daskren daskrenañ
 galvedigezh	galvedigezh c'halvedigezh
+gouzizañ	gouzizet c'houziz
 gwri	gwri gwrioù
 haleg	halegenn haleg
 kafein	kafein c'hafein
 kestal	kestal gestal
 lennadur	lennadurioù lennadur
 pentañ	pente pentañ
+picher	picheroù picherioù
+raktommañ	raktommet raktommañ
 sili	sili silienn
 mored	vored mored
 warc'hoazh	warc'hoazh
@@ -3978,19 +4087,24 @@ bokser	bokserien vokserien bokser
 doganiñ	doganiñ doganañ zoganiñ
 fregañ	frege freg freget
 kal	c'hal gal
+kac'hat	kac'het gac'has kac'hat
+kalonekaat	kalonekaat galonekaas galonekaat
 milin-dour	milin-dour vilin-dour vilin-zour
 pareañs	bareañs pareañs pareañsoù
-kenfinañ	c'henfinañ genfinañ kenfinañ
-goeñviñ	c'hoeñviñ goeñviñ koeñviñ
+pennwisk	bennwisk pennwisk pennwiskoù
 korc'hwezh	c'horc'hwezh gorc'hwezh korc'hwezhioù
 koukoug	c'houkoug goukoug koukoug
 gourbiolin	c'hourbiolin gourbiolin gourbiolinoù
 greantour	c'hreantourien greantour greantourien
 gevel	c'hevel gevel gevelioù
 ti-skol	diez-skol ti-skol tiez-skol
+dileizhañ	dileizhañ dileizhet tileizhont
+dispegañ	dispeg dispeget zispegañ
 toullgofañ	doullgofañ toullgofañ zoullgofañ
 tro-gamm	dro-gamm tro-gamm troioù-kamm
 enderv	enderv
+kanoliañ	ganolias kanoliañ kanoliet
+krozal	grozal grozet kroz
 merc'hodenn	verc'hodenn merc'hodenn
 milin-avel	milinoù-avel vilin-avel vilinoù-avel
 rostañ	rost rostañ rostet
@@ -4011,7 +4125,7 @@ beuzid	veuzid
 a-darzh	a-darzh
 abdomen	abdomen
 adren	adren
-advugelañ	advugelañ
+alc'hwezañ	alc'hwezet
 alpaer	alpaer
 amzer-da-zont	amzer-da-zont
 anv-stroll	anv-stroll
@@ -4021,15 +4135,14 @@ arstalenn	arstalenn
 arwer	arwer
 asperjez	asperjez
 aval-gouzoug	aval-gouzoug
-aveliñ	aveliñ
 azezenn	azezenn
 babourzh	babourzh
 balc'h	balc'h
 balzamegenn	balzamegenn
 barad	barad
 bariom	bariom
+paskañ	basket
 baz	baz
-pec'hiñ	bec'hiñ
 berkeliom	berkeliom
 bezv	bezv
 bili-bann	bili-bann
@@ -4051,10 +4164,10 @@ c'hoarius	c'hoarius
 kretaat	c'hretaat
 taboulinañ	daboulinañ
 daoulamm	daoulamm
+darbenn	darbennet
 daskirier	daskirier
 dentouriezh	dentouriezh
 deog	deogoù
-dereiñ	dereiñ
 derez-uhelañ	derez-uhelañ
 deuñv	deuñv
 diabeg	diabeg
@@ -4064,22 +4177,16 @@ diastuzer	diastuzerioù
 dibourvez	dibourvez
 dibreder	dibreder
 dic'halloud	dic'halloud
-difuiñ	difuiñ
-digalonekaat	digalonekaat
 diglod	diglod
 digor-kalon	digor-kalon
 tildenn	dildenn
 diles	diles
 dilun	dilun
 dirapar	dirapar
-disammañ	disammañ
-disliv	disliv
 divarv	divarv
-dizarmañ	dizarmañ
 dizoare	dizoare
 dizonest	dizonest
 torek	dorek
-dornañ	dornañ
 douez	douez
 doñjer	doñjer
 drant	drant
@@ -4088,8 +4195,6 @@ drouklaouen	drouklaouen
 troveni	droveni
 e-metoù	e-metoù
 eilc'hoarier	eilc'hoarier
-enbroañ	enbroañ
-eoriañ	eoriañ
 eostiñ	eostiñ
 eoul-douar	eoul-douar
 eoulek	eoulek
@@ -4097,7 +4202,6 @@ erbiom	erbiom
 askell-groc'hen	eskell-kroc'hen
 euskaregerez	euskaregerien
 evneta	evneta
-fennañ	fennañ
 fiez	fiez
 filhor	filhor
 fiñvskeudenn	fiñvskeudennoù
@@ -4108,9 +4212,7 @@ fok	fok
 follenn-nij	follennoù-nij
 fonn	fonn
 fosfor	fosfor
-foton	foton
 friadur	friadur
-frotañ	frotañ
 kantol	gantol
 karakenn	garakenn
 kevrennad	gevrennad
@@ -4125,10 +4227,8 @@ greunek	greunek
 greunwin	greunwin
 gwered	gwered
 gwezboell	gwezboell
-halañ	halañ
 hantereur	hantereur
 hej	hej
-helosk	helosk
 heoliek	heoliek
 hepdale	hepdale
 hiraezhus	hiraezhus
@@ -4146,13 +4246,12 @@ izelegezh	izelegezh
 jahinerez	jahinerez
 jestraouiñ	jestraouiñ
 jirafenn	jirafenn
+karavanenn	karavanennoù
 kabell-touseg	kebell-touseg
-kigennek	kigennek
 kignat	kignet
 korrgi	korrgi
 korz-sukr	korz-sukr
 kribañ	kribañ
-labezañ	labezañ
 laouenidigezh	laouenidigezh
 laouer	laouer
 ledanded	ledanded
@@ -4167,8 +4266,8 @@ louedañ	louediñ
 lufrañ	lufrañ
 maen-hir	maen-hir
 maeziadez	maeziadoù
-mallozhiñ	mallozhiñ
 marokan	marokan
+mañsonat	mañsonet
 merenn-vihan	merenn-vihan
 meutad	meutad
 mezv-dall	mezv-dall
@@ -4178,7 +4277,6 @@ nac'hidigezh	nac'hidigezh
 naonek	naonek
 neodimiom	neodimiom
 neptuegezh	neptuegezh
-nesaat	nesaat
 neñvel	neñvel
 nikel	nikel
 nitrek	nitrek
@@ -4189,13 +4287,12 @@ otiz	otiz
 paper-moger	paper-moger
 pechez	pechez
 pedergwern	pedergwern
-pennti	pennti
 pevarzueg	pevarzueg
 bilh	pilhoù
 plañchod	plañchod
 plutoniom	plutoniom
+pobiñ	pobet
 pouezusted	pouezusted
-poulzañ	poulzañ
 predeneg	predeneg
 preizherezh	preizherezh
 prometiom	prometiom
@@ -4224,31 +4321,27 @@ seizi	seizi
 siek	siek
 sitroñs	sitroñs
 skav	skav
-skingomzer	skingomzer
+skolp	skolpoù
 skubellenn	skubellenn
 soutilded	soutilded
-spazhañ	spazhañ
 splannder	splannder
 spluseg	splusegoù
 spontailh	spontailh
 spoue	spoue
-staotat	staotat
 stered-lostek	steredenn-lostek
-stouvañ	stouvañ
 sulfurek	sulfurek
 suraval	suraval
 sut	sut
 svastika	svastika
 taol-gwad	taol-gwad
-daoulinañ	taoulinas
 tatouiñ	tatouiñ
 ti-meur	ti-meur
 titaniom	titaniom
 touellus	touellus
 tramgarr	tramgarr
-trevad	trevad
 troatad	troatad
 trubuilhus	trubuilhus
+trueziñ	truezet
 tu-gouzañv	tu-gouzañv
 tu-gra	tu-gra
 ugentad	ugentad
@@ -4265,16 +4358,13 @@ brogarantez	vrogarantez
 gwenaner	wenanerien
 gwez-derv	wezenn-derv
 gwigour	wigour
-youc'hal	youc'hal
 yourc'h	yourc'h
 dareviñ	zareviñ
-difoupañ	zifoupañ
 amgredoni	amgredoni
 argon	argon
 askol	askol
 aven	aven
 azoniad	azoniad
-bor	bor
 breser	breser
 brevet	brevet
 dimeurzh	dimeurzh
@@ -4295,8 +4385,6 @@ melegan	melegan
 oferenn-bred	oferenn-bred
 ohm	ohm
 pevarzekvet	pevarzekvet
-picher	picheroù
-pigosat	pigosat
 pluñvek	pluñvek
 poder	poder
 pres	pres
@@ -4308,21 +4396,20 @@ skoaziañ	skoaziañ
 skoul	skoul
 skriverezañ	skriverezañ
 spoum	spoum
+sulfat	sulfatoù
 tann	tann
 tatouadur	tatouadur
 tavedek	tavedek
 trok	trok
+avon	avon avonoù
 pabel	babel pabel
 troniñ	drone tronet
 fatañ	fate fatet
-fromañ	fromañ froment
 gaouiad	gaouiaded gaouiad
 kog	gog c'hog
 goubenner	goubennerioù goubenner
 gwinier	gwinier gwinierien
-kac'hat	kac'het kac'hat
 kador-doull	kador-doull gador-doull
-kalonekaat	kalonekaat galonekaat
 kanolier	kanolier kanolierien
 kaoteriad	kaoteriad gaoteriad
 kaouad	kaouad kaouadoù
@@ -4331,6 +4418,7 @@ kefeleg	kefeleg c'hefeleg
 kelorn	kelornioù c'helorn
 kelvez	kelvezenn kelvez
 korzailhenn	korzailhenn c'horzailhenn
+lepton	lepton leptonoù
 mekanikerez	mekanikour vekanikour
 melchon	melchon velchonenn
 mezhek	mezhek vezhek
@@ -4343,17 +4431,18 @@ skouarnek	skouarneg skouarnek
 taol-skrivañ	taolioù-skrivañ daol-skrivañ
 duder	tuder duder
 gwez-avaloù	wezenn-avaloù gwezenn-avaloù
+adc'hoari	adc'hoariet adc'hoarife
+adlivañ	adlivas adlivañ
 alamandez	alamandez alamandezenned
 alkaloid	alkaloid alkaloidoù
 arabegerez	arabegerien arabegerion
 avank	avank avanked
 avosetenn	avoseted avosetenn
 bag-kanoliañ	bagoù-kanoliañ vag-kanoliañ
-paotaat	baotaat paotaat
 parodienn	barodienn parodienn
 batis	batis batisoù
 beler	beler veler
-pennwisk	bennwisk pennwisk
+peoc'haat	beoc'haas peoc'haat
 bezhinaer	bezhinaerien vezhinaerien
 pigell	bigell vigell
 biz-bihan	biz-bihan viz-bihan
@@ -4366,6 +4455,7 @@ brennidenn	brennidenn brennidennoù
 broustañ	broustañ vroustañ
 puilhded	builhded puilhded
 kaktuz	c'haktuz kaktuz
+garmat	c'harmas c'harmat
 garventez	c'harventez garventez
 kelorniad	c'helorniad gelorniad
 kentr	c'hentr kentr
@@ -4373,6 +4463,7 @@ geotek	c'heoteg c'heotek
 klav	c'hlavioù klavioù
 kleze-fuzuilh	c'hleze-fuzuilh kleze-fuzuilh
 kolera	c'holera kolera
+gougleze	c'hougleze gouglezeoù
 grañj	c'hrañj grañj
 c'hwitelladenn	c'hwitelladenn c'hwitelladennoù
 c'hwitellerez	c'hwitellerez c'hwitellerezioù
@@ -4383,8 +4474,8 @@ telennañ	delennañ delenniñ
 dellid	dellid dellidoù
 ti-labour	di-labour tier-labour
 diarc'hen	diarc'hen
-diberc'hennañ	diberc'hennañ
 dibrañ	dibrañ dibriñ
+dic'haouiñ	dic'haouet dic'haouiñ
 tiretenn	diretenn tiretenn
 disurentez	disurentez zisurentez
 diyalc'hañ	diyalc'hañ ziyalc'hañ
@@ -4397,11 +4488,15 @@ eston	eston estonet
 beskennad	feskennad veskennad
 poñsin	foñsined poñsined
 gaol	gaol kaolioù
+kartenniñ	gartenniñ kartennet
+kasaat	gasaas gasaet
+goustilhañ	goustilhañ goustilhet
 kreviñ	greviñ krev
 krial	grial krial
+krikal	grikal griko
 gup	gup guped
-kurunennañ	guruniñ kurunenniñ
 gwalleürus	gwalleürus walleürus
+gwentañ	gwentañ gwentet
 gwrier	gwrier wrierez
 hent-dall	hent-dall hentoù-dall
 jiletenn	jiletenn jiletennoù
@@ -4409,50 +4504,55 @@ kester	kester kesterien
 koagal	koag koagal
 laer-mor	laer-mor laeron-vor
 lampon	lampon lamponed
+laouenaat	laouenaat laouenaet
 livus	livus livusañ
 lugell	lugell lugelloù
 ma-unan	ma-unan va-unan
 maenek	maeneg maenek
 mandolinenn	mandolinenn vandolinenn
-meskl	meskl mesklenn
+mazaouañ	mazaouet vazaouet
 moereb-kozh	moereb-kozh voereb-kozh
 molibden	molibden volibden
 morskoul	morskoul morskouled
+morzholiañ	morzholiet vorzholiañ
 nadoz-aer	nadoz-aer nadozioù-aer
 nemedenn	nemedenn nemedennoù
+oksigenañ	oksigenañ oksigenet
 panerad	panerad paneradoù
 beuc'h	peuc'h
 poc'han	poc'han
+rampañ	rampañ rampet
 rizeg	rizegi rizegoù
+saouriñ	saouret saouriñ
 skiber	skiber skiberioù
+skopañ	skopañ skopet
 skudell	skudell skudilli
 stal-vutun	stal-vutun stalioù-butun
 stalon	stalon stalonoù
+stlakañ	stlaket stlako
 stouv	stouv stouvoù
+stroñsañ	stroñsas stroñset
 targazh	targazh targizhier
-diflukañ	tiflukañ ziflukañ
 tommerez	tommerez tommerezioù
+tufañ	tufañ tufet
+uhelvor	uhelvor uhelvorioù
 vaksin	vaksin vaksinoù
 bilieg	vilieg viliegoù
+mousc'hoarzhin	vousc'hoarzhin vousc'hoarzhont
 yac'hus	yac'hus yac'husoc'h
-drastañ	zrastas zrastañ
 korolliñ	korolliñ korollerien gorollerien
 ruziañ	ruziañ ruze
+klouariñ	klouaras glouarañ
 advamm	advamm
 ahez	ahez
 ankounac'h	ankounac'h
 arc'hdugelezh	arc'hdugelezh
 aviañ	avian
-avon	avon
 boc'hek	boc'heg
-bourdal	bourdin
 brec'hagn	brec'hagn
 brig	brig
-broc'hañ	broc'hañ
 damc'hlas	damc'hlas
 damc'houde	damc'houde
-digevanañ	digevanañ
-togañ	doge
 doñviñ	doñvañ
 dreog	dreog
 drezeg	drezeg
@@ -4468,7 +4568,6 @@ krener	grenerien
 gwilou	gwillou
 gwrimenn	gwrimenn
 hertz	hertz
-heugiñ	heugiñ
 hewerzh	hewerzh
 hunegan	hunegan
 jarneal	jarneal
@@ -4484,13 +4583,11 @@ klegerek	klegerek
 kof-gar	kof-gar
 kravazhataer	kravazhataer
 kreizenn nukleel	kreizenn nukleel
-lepton	lepton
 lok	lok
 louzaouenn-an-hañv	louzaouenn-an-hañv
 maeron	maeroned
 masikod	masikod
 miaoual	miaoual
-milligañ	milligañ
 mindrailher	mindrailher
 mot	mot
 mouster	mousterioù
@@ -4531,7 +4628,7 @@ adanv	adanv
 adarme	adarme
 addant	addent
 addeskiñ	addeskiñ
-adlivañ	adlivañ
+adplegañ	adpleget
 adti	adtiez
 adwiskañ	adwiskañ
 aester	aester
@@ -4552,37 +4649,34 @@ arouezek	arouezek
 arouezier	arouezier
 arvariñ	arvariñ
 ask	ask
+askañ	askont
 astat	astat
-atahinañ	atahinañ
 avalenneg	avalenneg
-aveiñ	aveiñ
 avel-vor	avel-vor
 avi	avi
 avieler	avieler
 azgell	azgell
 azgoulenn	azgoulenn
+azviñ	azvet
 añchenn	añchenn
 pabell	babell
 babu	babu
 pakistanat	bakistanat
 balaenn	balaenn
+bambouzeg	bambouzegoù
 parfeted	barfeted
 barr-pluñv	barroù-pluñv
 barzhel	barzhel
 beg-e-dog	beg-e-dog
-belegiñ	belegiñ
 pennlavarenn	bennlavarenn
 berad	berad
 berrder	berrder
 berrweled	berrweled
-piaouañ	biaouañ
 bidenn	bidennoù
 bidoc'hig	bidoc'hig
 binioù-kozh	binioù-kozh
-pistriañ	bistriañ
 biz-bras	biz-bras
 pizhoni	bizhoni
-bizskrivañ	bizskrivañ
 blazus	blazus
 bleiz-broc'h	bleiz-broc'h
 bleiz-garv	bleiz-garv
@@ -4611,7 +4705,6 @@ kador-sarmon	c'hadorioù-sarmon
 kaher	c'haher
 kaliforniom	c'haliforniom
 garloc'henn	c'harloc'henn
-garmat	c'harmat
 karrdiour	c'harrdiour
 kartenn-vank	c'hartennoù-bank
 garzhaoueg	c'harzhaoueg
@@ -4624,13 +4717,13 @@ keziom	c'heziom
 ki-deñved	c'hi-deñved
 kig-ha-farz	c'hig-ha-farz
 glac'harus	c'hlac'harus
+klefiñ	c'hlefe
 kleger	c'hleger
 kloc'h-galv	c'hloc'h-galv
 kloniñ	c'hlonañ
 c'hoant-staotat	c'hoant-staotat
 kofad	c'hofad
 korfadur	c'horfadur
-gougleze	c'hougleze
 kouign-amann	c'houign-amann
 kouvi	c'houvi
 gouyen	c'houyen
@@ -4638,25 +4731,23 @@ gramadegel	c'hramadegel
 kravazh	c'hravazh
 krign	c'hrign
 kroazour	c'hroazour
+kropañ	c'hrop
 krouilh	c'hrouilh
 kub	c'hub
 c'hwegont	c'hwegont
-c'hweziñ	c'hweziñ
 c'hwial	c'hwial
 c'hwibañ	c'hwibañ
 c'hwil-derv	c'hwiled-derv
-chadennañ	chadennañ
 chaloniezh	chaloniezh
-chaokat	chaokat
 chervad	chervad
 chevra	chevra
 chilpat	chilpat
 chug-frouezh	chug-frouezh
+gellaat	c'hellae
 kondor	c'hondor
 damrous	damrous
 damzu	damzu
 daou-c'hant	daou-c'hant
-daskrenañ	daskrenañ
 debradus	debradus
 debrer-tud	debrerien-dud
 delez	delezioù
@@ -4664,11 +4755,10 @@ demat	demat
 demografek	demografek
 denek	denek
 dervenneg	dervenneg
-teñvalaat	deñvalaat
 diank	diank
 dibur	dibur
 dic'hallek	dic'hallek
-dic'haouiñ	dic'haouiñ
+dichadennañ	dichadennet
 dichal	dichal
 didou	didou
 diemouez	diemouez
@@ -4677,7 +4767,7 @@ difraezh	difraezh
 digened	digened
 digoad	digoad
 dihidrogen	dihidrogen
-dileizhañ	dileizhañ
+dilugañ	diluget
 dimerc'her	dimerc'her
 dindandouar	dindandouar
 dipadapa	dipadapa
@@ -4686,7 +4776,6 @@ disheñvelded	disheñvelded
 dislealded	dislealded
 dispered	dispered
 disproziom	disproziom
-distabilaat	distabilaat
 distenn	distennoc'h
 distouver	distouver
 disul	disul
@@ -4696,10 +4785,11 @@ diwel	diwel
 diyac'h	diyac'h
 dizanav	dizanav
 dizant	dizant
+dizenoriñ	dizenoret
 dizenorus	dizenorus
+diziennañ	diziennet
 diziwezh	diziwezh
 teiñ	dois
-torzhell	dorzhell
 dourlivourez	dourlivourien
 drask	drask
 dremedal	dremedal
@@ -4714,8 +4804,8 @@ ehan-labour	ehan-labour
 einsteiniom	einsteiniom
 elipsenn	elipsenn
 emouez	emouez
-empennañ	empennañ
 emroüs	emroüs
+ensac'hañ	ensac'het
 eontr-kozh	eontr-kozh
 eoulgimiezh	eoulgimiezh
 esperantegerez	esperantegerien
@@ -4733,13 +4823,13 @@ falloni	falloni
 falsle	falsleoù
 fankigell	fankigell
 faosoni	faosoni
-faoutañ	faoutañ
 felc'h	felc'h
 fermiom	fermiom
 fermion	fermion
 pezh-kanol	fezh-kanol
 peñs	feñsoù
 plac'h-a-gambr	flac'h-a-gambr
+flaeriañ	flaerie
 flatal	flat
 flemmer	flemmer
 fonnusted	fonnusted
@@ -4747,17 +4837,16 @@ forc'had	forc'had
 forniañ	forniañ
 fosfat	fosfat
 fougasus	fougasusoc'h
-frankaat	frankaat
+foulañ	foulet
 frañsezat	frañsezat
 freskter	freskter
-frikañ	frikañ
 fuzuilher-mor	fuzuilherien-vor
 gadoliniom	gadoliniom
 kador-vrec'h	gador-vrec'h
+gallusted	gallustedoù
 gaouierez	gaouierien
 garmiñ	garmiñ
 kartenn-gred	gartenn-gred
-kartenniñ	gartenniñ
 garvder	garvder
 garz	garz
 kemplezhded	gemplezhded
@@ -4765,7 +4854,6 @@ geotus	geotus
 kevredadouriezh	gevredadouriezh
 gioc'h	gioc'h
 gitar-tredan	gitar-tredan
-glac'hariñ	glac'hariñ
 glesker	glesker
 kleñvedouriezh	gleñvedouriezh
 koadañ	goadañ
@@ -4779,11 +4867,8 @@ goulennaoueg	goulennaouegoù
 goumon	goumon
 kourtezi	gourtezi
 gourvenn	gourvenn
-goustilhañ	goustilhañ
 krenerez	grenerez
-krikal	grikal
 krouusted	grouusted
-krozal	grozal
 kuriusted	guriusted
 gwagennek	gwagennek
 gwanded	gwanded
@@ -4791,7 +4876,6 @@ gwared	gwared
 gwarell	gwarell
 gwaskin	gwaskon
 gwellentez	gwellentez
-gwentañ	gwentañ
 gwez-kistin	gwez-kistin
 gwinizh-du	gwinizh-du
 gwiñver	gwiñver
@@ -4823,7 +4907,6 @@ honhont	honhont
 horolaj-dorn	horolaj-dorn
 horolaj-heol	horolajoù-heol
 houarn-marc'h	houarn-marc'h
-houarnañ	houarnañ
 houl	houl
 huanad	huanad
 hunva	hunva
@@ -4836,20 +4919,20 @@ irin	irin
 irvin-ruz	irvinenn-ruz
 isframmadur	isframmadur
 islandat	islandat
+istribilhañ	istribilhet
 iterbiom	iterbiom
 ividig	ividig
 ivineg	ivineg
 izelvarr	izelvarr
 izil	izil
+jol	jolioù
 kaherek	kaherek
 kailhastr	kailhastr
 kalkiom	kalkiom
 kammigellañ	kammigellat
-kanoliañ	kanoliañ
 karibou	karibou
 karr-stlej	karr-stlej
 katalaneger	katalanegerien
-kation	kation
 kazh-koad	kazh-koad
 kañvaouus	kañvaouus
 kehederel	kehederel
@@ -4860,9 +4943,9 @@ kigner	kigner
 kignez	kignez
 kik	kik
 kleron	kleron
-kleuzañ	kleuzañ
 klonel	klonel
 klorit	klorit
+kluchañ	kluchet
 koarañ	koarañ
 kollidik	kollidik
 kolon	kolon
@@ -4888,28 +4971,26 @@ lagadour	lagadour
 lambrig	lambrig
 laoskoni	laoskoni
 laou-dar	laou-dar
-laouenaat	laouenaat
 lawrensiom	lawrensiom
 lazherezh	lazherezh
 lazhdi	lazhti
 lec'hideg	lec'hidegoù
-leinañ	leinañ
 lemmded	lemmded
 lennus	lennus
 letrin	letrin
 lieslugell	lieslugell
-lintrañ	lintrañ
 litiom	litiom
 lizherenn-dal	lizherennoù-tal
+liñvañ	liñvet
 logod-dall	logod-dall
 losk	losk
 loskadur	loskadur
 loskus	loskus
 lostenn	lostenn
+lousaat	lousae
 louzoù-kegin	louzoù-kegin
 lugern	lugern
 lunvezh	lunvezh
-luskellat	luskellat
 lutesiom	lutesiom
 lutun	lutun
 maen-tan	maen-tan
@@ -4944,7 +5025,6 @@ naeted	naeted
 naetoni	naetoni
 natriom	natriom
 naved	naved
-nec'hiñ	nec'hiñ
 nein	nein
 neizhiad	neizhiad
 neketa	neketa
@@ -4954,19 +5034,17 @@ nitrogen	nitrogen
 norvegat	norvegat
 nouenn	nouenn
 noz-deiz	noz-deiz
+nukleon	nukleonoù
 o-fevar	o-fevar
 odivi	odivi
 oferenner	oferenner
-oksigenañ	oksigenañ
 ornitorink	ornitorink
 pae	pae
 parfet	parfet
-paseal	paseal
 pazenn-ha-pazenn	pazenn-ha-pazenn
 pebezh	pebezh
 pederyezhek	pederyezhek
 pekari	pekari
-peoc'haat	peoc'haat
 peroked	peroked
 peroked-mor	peroked-mor
 pervezhded	pervezhded
@@ -4983,6 +5061,7 @@ pod-tredan	podoù-tredan
 pole	pole
 poloneger	polonegerien
 poloniom	poloniom
+bontañ	pontet
 bornañ	porno
 porzh-bered	porzh-bered
 porzh-kenwerzh	porzh-kenwerzh
@@ -4994,8 +5073,7 @@ ragachat	ragachat
 rahouenn	rahouenn
 rakkambr	rakkambr
 rakkemenn	rakkemenn
-raktommañ	raktommañ
-rampañ	rampañ
+rakprenañ	rakprenont
 rannyezhouriezh	rannyezhouriezh
 ratozh	ratozh
 razh-iliz	razh-iliz
@@ -5003,6 +5081,7 @@ renn	renn
 rennad	rennad
 resisadur	resisadur
 retredadez	retredidi
+reuziñ	reuze
 reviñ	reve
 rez-an-douar	rez-an-douar
 richanañ	richan
@@ -5011,6 +5090,7 @@ rod-stur	rod-stur
 roentgeniom	roentgeniom
 romb	romboù
 roster	roster
+roudennañ	roudennet
 roueig	roueedigoù
 rouezded	rouezded
 roufennet	roufennet
@@ -5020,11 +5100,9 @@ ruzder	ruzder
 sac'h-kein	sac'h-kein
 sakrañ	sakrañ
 saksoneg	saksoneg
-salviñ	salviñ
 sammgarr	sammgirri
 saour	saour
 saourek	saourek
-saouriñ	saouriñ
 sardon	sardonenn
 sarmoner	sarmoner
 seaborgiom	seaborgiom
@@ -5032,25 +5110,24 @@ sedr	sedr
 seizus	seizus
 selaouva	selaouva
 seulabred	seulabred
+siklud	sikludoù
 sivolez	sivolez
 skandiom	skandiom
 skaotañ	skaotet
 skas	skasoù
 skabell	skebell
-skejañ	skejañ
 skiant-vat	skiant-vat
 skinweler	skinweler
 sklaerded	sklaerded
 skleuriñ	skleuriñ
 skol-vistri	skol-vistri
-skopañ	skopañ
 skoseg	skoseg
 skouarnad	skouarnadoù
 skraber-oabl	skraber-oabl
 skrijañ	skrijal
 skub	skub
 solwez	solwez
-sortial	sortie
+sonterez	sonterezoù
 souder	souder
 spegus	spegus
 spisverk	spisverkoù
@@ -5059,10 +5136,12 @@ starderez	starderez
 steredennus	steredennus
 stern-gwiader	sternioù-gwiader
 stiv	stivoù
+stoliañ	stoliet
 stouk	stouk
 stourmus	stourmusañ
 strak	strak
 streviañ	streviañ
+strinkennañ	strinkennet
 strouilh	strouilh
 struskañval	struskañval
 sulfur	sulfur
@@ -5070,9 +5149,11 @@ suner	suner
 taboulinadeg	taboulinadeg
 takon	takonoù
 tangarr	tangirri
+tangwallañ	tangwallet
 taol-chañs	taol-chañs
 taol-lagad	taol-lagad
 taol-troad	taolioù-troad
+taosañ	taoset
 tartan	tartan
 tarzhell	tarzhelloù
 tatouerez	tatouerez
@@ -5081,7 +5162,10 @@ teknetiom	teknetiom
 telt	telt
 temptus	temptus
 teodek	teodek
+teodyezh	teodyezhoù
+teol	teolioù
 ter-du	ter-du
+teurvezout	teurvezo
 teuzus	teuzus
 tezh	tezh
 dezrann	tezrann
@@ -5093,22 +5177,22 @@ ti-prenn	ti-prenn
 ti-retred	ti-retred
 ti-yec'hed	ti-yec'hed
 tibia	tibia
+dichañsañ	tichañsas
 tieg	tieg
 ti-plouz	tiez-plouz
 diñsal	tiñsal
 toaz-dent	toaz-dent
-tommaat	tommaat
 touller-bezioù	touller-bezioù
 tourz	tourz
+tredanañ	tredanet
+tregasiñ	tregaset
 tregontvet	tregontvet
 trepan	trepan
 triwec'hvet	triwec'hvet
 tro-heol	tro-heol
 trugarezus	trugarezus
-tufañ	tufañ
 tuliom	tuliom
 ufern	ufern
-uhelvor	uhelvor
 unsilabennek	unsilabennek
 unveliezh	unveliezh
 unvouezh	unvouezh
@@ -5120,11 +5204,13 @@ manal	vanal
 banal	vanalenn
 barailhat	varailhat
 marc'hatadenn	varc'hatadenn
+marc'hekaat	varc'hekae
 marradeg	varradeg
 marvelezh	varvelezh
 baskodenn	vaskodenn
 mañch	vañcheier
 meañs	veañs
+meleniñ	veleno
 viheñvel	viheñvel
 milin-vor	vilin-vor
 milionerez	vilionerion
@@ -5134,16 +5220,12 @@ mindrailherezig	vindrailherezig
 mizer	vizer
 biñs-tro	viñs-tro
 bleuniaoua	vleuniaoua
-boazañ	voazañ
 bolc'h	volc'henn
 morek	vorek
-morzholiañ	vorzholiañ
 bouli	voulienn
-mousc'hoarzhin	vousc'hoarzhin
 mouskanañ	vouskanañ
 bouzarded	vouzarded
 vrugeg	vrugeg
-bruzunañ	vruzuniñ
 war-gaout	war-gaout
 gwenaneg	wenaneg
 gwern-veg	wern-veg
@@ -5154,13 +5236,11 @@ yec'hedus	yec'hedus
 yenerez	yenerezioù
 youc'hadenn	youadenn
 daoublegañ	zaoublegañ
-dianadiñ	zianadiñ
 dievezhded	zievezhded
 dilojadenn	zilojadenn
 zink	zink
 dismeg	zismegoù
 disoñj	zisoñj
-dispegañ	zispegañ
 dizaliañ	zizaliañ
 tud-kaer	zud-kaer
 addont	addont
@@ -5168,5 +5248,4 @@ kendalc'hiad	gendalc'hidi
 kendalc'hadez	gendalc'hidi
 biziñ	bizet
 tred	tridi
-klouariñ	glouarañ
 kri	c'hri

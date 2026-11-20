@@ -1,4 +1,4 @@
-1	1101	kilañ	c'hil c'hilañ gil gilañ kil kilas kilis kiliñ kilo
+1	1101	kilañ	c'hil c'hilañ gil gilañ kil kilan kilas kilec'h kilemp kilen kilent kiles kilet kilez kilfe kilfec'h kilfed kilfemp kilfen kilfent kilfes kili kilimp kilin kilint kilis kilit kiliñ kilje kiljec'h kiljed kiljemp kiljen kiljent kiljes kiljoc'h kiljod kiljomp kiljont kiljout kilo kilomp kilont kilor kilot
 2	1102	hud	
 3	1103	unvan	
 4	1104	noazh	
@@ -10,7 +10,7 @@
 10	1110	klas	c'hlasoù glasoù klasoù
 11	1111	menel	manan manas mane maned manemp manen manent manes manet manez mani manimp manin manint manis manit manje manjen manjes mano manoc'h manomp manont manor manot vanas vane vaned vano
 12	1112	end-eeun	
-13	1113	sachañ	sachek
+13	1113	sachañ	sach sachan sachas sache sachec'h sachek sachemp sachen sachent saches sachet sachez sachfe sachfec'h sachfed sachfemp sachfen sachfent sachfes sachi sachimp sachin sachint sachis sachit sachje sachjec'h sachjed sachjemp sachjen sachjent sachjes sachjoc'h sachjod sachjomp sachjont sachjout sacho sachomp sachont sachor sachot
 14	1114	dres	zres
 15	1115	levraoueg	levraouegoù
 16	1116	taer	daer daerañ taerañ taeroc'h
@@ -18,44 +18,44 @@
 18	1118	hendad	hendadoù
 19	1119	sul	
 20	1120	eñvorenn	eñvorennoù
-21	1121	gweladenniñ	gweladennañ kweladenniñ weladenniñ
+21	1121	gweladenniñ	gweladenn gweladennan gweladennas gweladennañ gweladenne gweladennec'h gweladennemp gweladennen gweladennent gweladennes gweladennet gweladennez gweladennfe gweladennfec'h gweladennfed gweladennfemp gweladennfen gweladennfent gweladennfes gweladenni gweladennimp gweladennin gweladennint gweladennis gweladennit gweladennje gweladennjec'h gweladennjed gweladennjemp gweladennjen gweladennjent gweladennjes gweladennjoc'h gweladennjod gweladennjomp gweladennjont gweladennjout gweladenno gweladennomp gweladennont gweladennor gweladennot kweladenniñ weladenn weladennas weladenne weladenniñ
 22	1122	polotenn	bolotenn bolotennoù polotennoù volotenn
 23	1123	kof	c'hof gof
 24	1124	liester	liesterioù
 25	1125	gouzoug	c'houzoug goûg
 26	1126	displegadenn	displegadennoù zisplegadenn zisplegadennoù
 27	1127	gwalenn	gwalennoù gwalinier walenn walennoù
-28	1128	preizh	breizhoù freizh freizhoù preizhoù
-29	1129	bordañ	bord borde border bordiñ bordje bordjes ford pordañ vord vordañ vordo
+28	1128	preizh	breizhoù freizh freizhoù preizhioù preizhoù
+29	1129	bordañ	bord bordan bordas borde bordec'h bordemp borden bordent border bordes bordet bordez bordfe bordfec'h bordfed bordfemp bordfen bordfent bordfes bordi bordimp bordin bordint bordis bordit bordiñ bordje bordjec'h bordjed bordjemp bordjen bordjent bordjes bordjoc'h bordjod bordjomp bordjont bordjout bordo bordomp bordont bordor bordot ford pordañ vord vordañ vordo
 30	1130	gevred	c'hevred
 31	1131	ed	edoù
 32	1132	maread	mareadoù varead vareadoù
-33	1133	seblantout	seblante seblantiñ seblantjont
+33	1133	seblantout	seblantan seblantas seblante seblantec'h seblantemp seblanten seblantent seblantes seblantet seblantez seblantfe seblantfec'h seblantfed seblantfemp seblantfen seblantfent seblantfes seblanti seblantimp seblantin seblantint seblantis seblantit seblantiñ seblantje seblantjec'h seblantjed seblantjemp seblantjen seblantjent seblantjes seblantjoc'h seblantjod seblantjomp seblantjont seblantjout seblanto seblantomp seblantont seblantor seblantot
 34	1134	kerentiad	c'herentiad c'herentiadoù gerentiad gerentiadoù kerentiadoù
-35	1135	bale	baleañ baleet baleioù baleoù paleis vale valee
+35	1135	bale	balean baleas baleañ balee baleec'h baleemp baleen baleent balees baleet baleez balefe balefec'h balefed balefemp balefen balefent balefes balei baleimp balein baleint baleioù baleis baleit baleje balejec'h balejed balejemp balejen balejent balejes balejoc'h balejod balejomp balejont balejout baleo baleomp baleont baleor baleot baleoù paleis vale valee
 36	1136	nemeur	
-37	1137	riez	riezoù
+37	1137	riez	riezioù riezoù
 38	1138	doare-skrivañ	doareoù-skrivañ zoare-skrivañ
 39	1139	sizhunvezh	sizhunvezhioù
-40	1140	striv	strivoù
-41	1141	goprañ	c'hoprañ c'hopret gopret gopriñ
+40	1140	striv	strivioù strivoù
+41	1141	goprañ	c'hoprañ c'hopre c'hopret gopran gopras gopre goprec'h gopremp gopren goprent gopres gopret goprez goprfe goprfec'h goprfed goprfemp goprfen goprfent goprfes gopri goprimp goprin goprint gopris goprit gopriñ goprje goprjec'h goprjed goprjemp goprjen goprjent goprjes goprjoc'h goprjod goprjomp goprjont goprjout gopro gopromp gopront gopror goprot
 42	1142	testeni	desteni destenioù testenioù zesteni zestenioù
 43	1143	poliser	boliser boliserien poliserien
-44	1144	dañsal	dañsañ dañset dañsiñ dañsont tañsal tañsas tañse zañsal zañsent
+44	1144	dañsal	dañsan dañsas dañsañ dañse dañsec'h dañsemp dañsen dañsent dañses dañset dañsez dañsfe dañsfec'h dañsfed dañsfemp dañsfen dañsfent dañsfes dañsi dañsimp dañsin dañsint dañsis dañsit dañsiñ dañsje dañsjec'h dañsjed dañsjemp dañsjen dañsjent dañsjes dañsjoc'h dañsjod dañsjomp dañsjont dañsjout dañso dañsomp dañsont dañsor dañsot tañsal tañsas tañse zañsal zañsent
 45	1145	kensonenn	c'hensonenn c'hensonennoù gensonenn kensonennoù
 46	1146	iwerzhonat	
 47	1147	yezhadur	yezhadurioù
 48	1148	trawalc'h	
 49	1149	votadeg	votadegoù
 50	1150	matematik	matematikoù
-51	1151	klemm	c'hlemm glemm
+51	1151	klemm	c'hlemm glemm glemmas glemme klemman klemmas klemme klemmec'h klemmemp klemmen klemment klemmes klemmet klemmez klemmfe klemmfec'h klemmfed klemmfemp klemmfen klemmfent klemmfes klemmi klemmimp klemmin klemmint klemmioù klemmis klemmit klemmje klemmjec'h klemmjed klemmjemp klemmjen klemmjent klemmjes klemmjoc'h klemmjod klemmjomp klemmjont klemmjout klemmo klemmomp klemmont klemmor klemmot klemmoù
 52	1152	archer	archerien archerion
 53	1153	martolod	martoloded vartolod vartoloded
-54	1154	poazhañ	boazhat boazhañ foazhañ poazhat poazhe poazhet poazhiñ
+54	1154	poazhañ	boazhat boazhañ foazhañ poazhan poazhas poazhat poazhe poazhec'h poazhemp poazhen poazhent poazhes poazhet poazhez poazhfec'h poazhfed poazhfemp poazhfen poazhfent poazhfes poazhi poazhimp poazhin poazhint poazhis poazhit poazhiñ poazhjec'h poazhjed poazhjemp poazhjen poazhjent poazhjes poazhjoc'h poazhjod poazhjomp poazhjont poazhjout poazho poazhomp poazhont poazhor poazhot
 55	1155	kenetre	c'henetre kenetreze kenetrezo
 56	1156	kevre	c'hevre c'hevreoù gevre kevreoù
 57	1157	hollved	
-58	1158	adkemer	
+58	1158	adkemer	adkemeran adkemeras adkemere adkemerec'h adkemeremp adkemeren adkemerent adkemeres adkemeret adkemerez adkemerfe adkemerfec'h adkemerfed adkemerfemp adkemerfen adkemerfent adkemerfes adkemeri adkemerimp adkemerin adkemerint adkemeris adkemerit adkemerje adkemerjec'h adkemerjed adkemerjemp adkemerjen adkemerjent adkemerjes adkemerjoc'h adkemerjod adkemerjomp adkemerjont adkemerjout adkemero adkemeromp adkemeront adkemeror adkemerot
 59	1159	honnezh	
 60	1160	pemzek	bemzek
 61	1161	hêr	hêred hêrez hêrezed
@@ -63,12 +63,12 @@
 63	1163	stabil	stabilat stabilañ stabiloc'h
 64	1164	hunvre	hunvreoù huñvre huñvreoù
 65	1165	ampart	ampartañ ampartoc'h
-66	1166	laz	lazoù
-67	1167	skarzhañ	
+66	1166	laz	lazioù lazoù
+67	1167	skarzhañ	skarzh skarzhan skarzhas skarzhe skarzhec'h skarzhemp skarzhen skarzhent skarzhes skarzhet skarzhez skarzhfe skarzhfec'h skarzhfed skarzhfemp skarzhfen skarzhfent skarzhfes skarzhi skarzhimp skarzhin skarzhint skarzhis skarzhit skarzhje skarzhjec'h skarzhjed skarzhjemp skarzhjen skarzhjent skarzhjes skarzhjoc'h skarzhjod skarzhjomp skarzhjont skarzhjout skarzho skarzhomp skarzhont skarzhor skarzhot
 68	1168	denel	deneloc'h zenel
-69	1169	anzav	anzavan anzavas anzave anzaver anzavez anzavi anzavioù anzavit anzavjont anzavomp anzavont anzavot anzavout
+69	1169	anzav	anzavan anzavas anzave anzavec'h anzavemp anzaven anzavent anzaver anzaves anzavet anzavez anzavfe anzavfec'h anzavfed anzavfemp anzavfen anzavfent anzavfes anzavi anzavimp anzavin anzavint anzavioù anzavis anzavit anzavje anzavjec'h anzavjed anzavjemp anzavjen anzavjent anzavjes anzavjoc'h anzavjod anzavjomp anzavjont anzavjout anzavo anzavomp anzavont anzavor anzavot anzavout
 70	1170	meuz	meuzioù veuz veuzioù
-71	1171	skouarn	divskouarn skouarnoù zivskouarn
+71	1171	skouarn	divskouarn skouarnioù skouarnoù zivskouarn
 72	1172	kador	c'hador c'hadorioù gador kadorioù keder
 73	1173	paz	faz fazioù pas pazioù pazoù
 74	1174	kombod	c'hombod c'hombodoù gombod gombodoù kombodoù
@@ -79,7 +79,7 @@
 79	1179	kilometr	c'hilometr gilometr gilometroù kilometroù
 80	1180	stered	steredennoù
 81	1181	fest	festoù
-82	1182	kreñvaat	c'hreñvaat greñvaat kreñvaad
+82	1182	kreñvaat	c'hreñvaat greñva greñvaas greñvaat greñvafe kreñva kreñvaad kreñvaan kreñvaas kreñvae kreñvaec'h kreñvaemp kreñvaen kreñvaent kreñvaes kreñvaet kreñvaez kreñvafe kreñvafec'h kreñvafed kreñvafemp kreñvafen kreñvafent kreñvafes kreñvai kreñvaimp kreñvain kreñvaint kreñvais kreñvait kreñvaje kreñvajec'h kreñvajed kreñvajemp kreñvajen kreñvajent kreñvajes kreñvajoc'h kreñvajod kreñvajomp kreñvajont kreñvajout kreñvao kreñvaomp kreñvaont kreñvaor kreñvaot
 83	1183	koronal	c'horonal goronal koronaled
 84	1184	plankenn	blankenn blankennoù plankennoù plenk
 85	1185	manifestadeg	manifestadegoù vanifestadeg vanifestadegoù
@@ -96,5 +96,5 @@
 96	1196	douar-bras	zouar-bras
 97	1197	aner	anerioù
 98	1198	laouen	laouenañ laouenoc'h
-99	1199	dan	daned
-100	1200	beuziñ	beuze beuzes beuzet beuzo peuziñ veuzet veuziñ
+99	1199	dan	daned danoù
+100	1200	beuziñ	beuzan beuzas beuze beuzec'h beuzemp beuzen beuzent beuzes beuzet beuzez beuzfe beuzfec'h beuzfed beuzfemp beuzfen beuzfent beuzfes beuzi beuzimp beuzin beuzint beuzis beuzit beuzje beuzjec'h beuzjed beuzjemp beuzjen beuzjent beuzjes beuzjoc'h beuzjod beuzjomp beuzjont beuzjout beuzo beuzomp beuzont beuzor beuzot peuziñ veuzas veuzet veuziñ veuzont

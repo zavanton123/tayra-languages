@@ -1,100 +1,100 @@
-1	2101	buoc'h	buoc'henned vuoc'h
-2	2102	tager	dagerien tagerien zager
-3	2103	merc'h-vihan	verc'h-vihan
-4	2104	gouer	c'houer kouer
-5	2105	kloz	c'hloz glos gloz
-6	2106	skalier	skalieroù
-7	2107	brientin	brientinien prientinion vrientinien
-8	2108	galaksienn	c'halaksienn galaksiennoù
-9	2109	marilh	marilhoù varilh
-10	2110	draen	drein trein zrein
-11	2111	marz	marzioù marzoù
-12	2112	klañvdiourez	c'hlañvdiourezed glañvdiourez glañvdiourien klañvdiour klañvdiourezed klañvdiourien
-13	2113	goudor	goudorioù
-14	2114	merenn	verenn
-15	2115	ti-feurm	di-feurm
-16	2116	sol	solioù
-17	2117	trugarekaat	drugarekaat zrugarekaat
-18	2118	dizolo	tizolo zizolo
-19	2119	benañ	bene bener benet beniñ fenis penañ penes venañ veno
-20	2120	fulor	
-21	2121	bachelouriezh	vachelouriezh
-22	2122	he-unan	
-23	2123	yezh-vamm	
-24	2124	ostiz	
-25	2125	saoudat	
-26	2126	adaozañ	
-27	2127	adembannadur	
-28	2128	breviñ	brevañ breve breven brever breves brevez brevi breviañ brevint brevis brevo brevot brewiñ
-29	2129	pikol	fikol
-30	2130	blevek	vlevek
-31	2131	serjant	serjanted
-32	2132	reut	reutoc'h
-33	2133	intent	intentañ intenter intentiñ
-34	2134	muzik	muzikoù
-35	2135	nerzhus	nerzhusoc'h
-36	2136	prioldi	brioldi
-37	2137	sirk	sirkoù
-38	2138	ger-stur	c'her-stur gerioù-stur
-39	2139	kempred	gempred
-40	2140	yalc'h	yilc'hier
-41	2141	poanius	boanius poaniusañ
-42	2142	navvet	navet
-43	2143	glin	c'hlin daoulin glinoù taoulin
-44	2144	teltenn	deltenn teltennoù
-45	2145	feurm	feurmoù
-46	2146	dozviñ	tozviñ zozviñ
-47	2147	aberzh	aberzhoù
-48	2148	bouzellenn	bouzelloù vouzellenn vouzelloù
-49	2149	danvez-pried	danvez-priedoù zanvez-pried
-50	2150	balum	balumed
-51	2151	koskor	c'hoskor goskor
-52	2152	flemmskrid	flemmskridoù
-53	2153	bountañ	bountek bountiñ vountañ
-54	2154	c'hoantaat	c'hoantaas c'hoantae c'hoantaent
-55	2155	kurun	c'hurun c'hurunioù gurun kurunoù
-56	2156	skorneg	skornegi skornegoù
-57	2157	gwrac'h	gwrac'hed wrac'h
-58	2158	gwenodenn	gwenodennoù wenodenn wenodennoù
-59	2159	biñsaskell	biñsaskelloù viñsaskell
-60	2160	galleger	c'halleger c'hallegerien c'hallegerion gallegerez gallegerien
-61	2161	kantren	gantre gantreal gantren kantre kantreal kantreiñ
-62	2162	kalvar	c'halvar galvar kalvarioù
-63	2163	tagus	dagus tagusoc'h
-64	2164	diwaller	diwallerez diwallerezed diwallerien ziwaller
-65	2165	azasaat	
-66	2166	deo	
-67	2167	drouziwezh	
-68	2168	gallaoueg	
-69	2169	ilin	
-70	2170	kichen-ha-kichen	
-71	2171	moraer	
-72	2172	war-sav	
-73	2173	a-unvouezh	
-74	2174	fealded	
-75	2175	peurunvan	
-76	2176	ruseg	
-77	2177	sked	
-78	2178	sonn	
-79	2179	difiñv	
-80	2180	e-kerz	
-81	2181	liesliv	
-82	2182	mui-ouzh-mui	
-83	2183	naontek	
-84	2184	tintin	dintin
-85	2185	anken	ankenioù
-86	2186	louet	loued
-87	2187	olivez	olivezenn
-88	2188	adkas	
-89	2189	didalvez	zidalvez
-90	2190	litrad	litradoù
-91	2191	wiski	wiskioù
-92	2192	muiañ-karet	vuiañ-karet
-93	2193	arkeologour	arkeologourien
-94	2194	divarrek	zivarrek
-95	2195	chaloni	chalonied
-96	2196	kenurzhiañ	c'henurzhiañ genurzhiañ
-97	2197	dizimeziñ	zizimeziñ
-98	2198	bri	brioù
-99	2199	gouennlazh	ouennlazh
-100	2200	lugan	luganoù
+1	2101	ampartiz	
+2	2102	hudouriezh	
+3	2103	turkeg	
+4	2104	rev	
+5	2105	ragistor	ragistoran ragistoras ragistore ragistorec'h ragistoremp ragistoren ragistorent ragistores ragistoret ragistorez ragistorfe ragistorfec'h ragistorfed ragistorfemp ragistorfen ragistorfent ragistorfes ragistori ragistorimp ragistorin ragistorint ragistoris ragistorit ragistorje ragistorjec'h ragistorjed ragistorjemp ragistorjen ragistorjent ragistorjes ragistorjoc'h ragistorjod ragistorjomp ragistorjont ragistorjout ragistoro ragistoromp ragistoront ragistoror ragistorot
+6	2106	darev	dare tare
+7	2107	siell	sielloù
+8	2108	flamm	flamme flammoù
+9	2109	gwevn	gwevnoc'h wevn
+10	2110	yalc'h	yalc'hoù yilc'hier
+11	2111	bete	pete vete
+12	2112	lugan	luganioù luganoù
+13	2113	feurm	feurmioù feurmoù
+14	2114	tañva	dañva tañvaan tañvaas tañvae tañvaec'h tañvaemp tañvaen tañvaent tañvaes tañvaet tañvaez tañvafe tañvafec'h tañvafed tañvafemp tañvafen tañvafent tañvafes tañvai tañvaimp tañvain tañvaint tañvais tañvait tañvaje tañvajec'h tañvajed tañvajemp tañvajen tañvajent tañvajes tañvajoc'h tañvajod tañvajomp tañvajont tañvajout tañvao tañvaomp tañvaont tañvaor tañvaot
+15	2115	pod	podoù
+16	2116	bolz	bolzioù bolzoù volz
+17	2117	eren	ere ereet ereiñ erenan erenas erene erenec'h erenemp erenen erenent erenes erenet erenez erenfe erenfec'h erenfed erenfemp erenfen erenfent erenfes ereni erenimp erenin erenint erenis erenit erenje erenjec'h erenjed erenjemp erenjen erenjent erenjes erenjoc'h erenjod erenjomp erenjont erenjout ereno erenomp erenont erenor erenot
+18	2118	tabutal	dabutal tabutan tabutas tabute tabutec'h tabutemp tabuten tabutent tabutes tabutet tabutez tabutfe tabutfec'h tabutfed tabutfemp tabutfen tabutfent tabutfes tabuti tabutimp tabutin tabutint tabutis tabutit tabutiñ tabutje tabutjec'h tabutjed tabutjemp tabutjen tabutjent tabutjes tabutjoc'h tabutjod tabutjomp tabutjont tabutjout tabuto tabutomp tabutont tabutor tabutot
+19	2119	pirc'hirin	birc'hirined pirc'hirined
+20	2120	heg	
+21	2121	tchekeg	
+22	2122	ahont	
+23	2123	dec'h	
+24	2124	sav-heol	
+25	2125	rom	
+26	2126	gitar-boud	c'hitar-boud
+27	2127	divalav	zivalav
+28	2128	her	
+29	2129	biz-meud	viz-meud
+30	2130	doktorelezh	zoktorelezh
+31	2131	renadenn	renadennoù
+32	2132	sturier	sturierien
+33	2133	ostiz	ostizoù
+34	2134	mediñ	med medan medas mede medec'h medemp meden medent meder medes medet medez medfe medfec'h medfed medfemp medfen medfent medfes medi medimp medin medint medis medit medje medjec'h medjed medjemp medjen medjent medjes medjoc'h medjod medjomp medjont medjout medo medomp medont medor medot vediñ
+35	2135	intent	intentan intentas intentañ intente intentec'h intentemp intenten intentent intenter intentes intentet intentez intentfe intentfec'h intentfed intentfemp intentfen intentfent intentfes intenti intentimp intentin intentint intentis intentit intentiñ intentje intentjec'h intentjed intentjemp intentjen intentjent intentjes intentjoc'h intentjod intentjomp intentjont intentjout intento intentomp intentont intentor intentot
+36	2136	anv-kadarn	anvioù-kadarn
+37	2137	asteroidenn	asteroidennoù
+38	2138	harzlammer	harzlammerez harzlammerien
+39	2139	trubardiñ	drubardas drubardiñ trubardan trubardas trubarde trubardec'h trubardemp trubarden trubardent trubardes trubardet trubardez trubardfe trubardfec'h trubardfed trubardfemp trubardfen trubardfent trubardfes trubardi trubardimp trubardin trubardint trubardis trubardit trubardje trubardjec'h trubardjed trubardjemp trubardjen trubardjent trubardjes trubardjoc'h trubardjod trubardjomp trubardjont trubardjout trubardo trubardomp trubardont trubardor trubardot zrubardiñ
+40	2140	kroashent	c'hroashent c'hroazhent kroazhent
+41	2141	keidenn	geidenn
+42	2142	mank	manked mankoù vankañ
+43	2143	stabilaat	stabila stabilaan stabilaas stabilae stabilaec'h stabilaemp stabilaen stabilaent stabilaes stabilaet stabilaez stabilafe stabilafec'h stabilafed stabilafemp stabilafen stabilafent stabilafes stabilai stabilaimp stabilain stabilaint stabilais stabilait stabilaje stabilajec'h stabilajed stabilajemp stabilajen stabilajent stabilajes stabilajoc'h stabilajod stabilajomp stabilajont stabilajout stabilao stabilaomp stabilaont stabilaor stabilaot
+44	2144	tell	telloù zell
+45	2145	breud	breudoù vreudoù
+46	2146	nervenn	nervennoù
+47	2147	flemmañ	flemman flemmas flemme flemmec'h flemmemp flemment flemmes flemmet flemmez flemmfe flemmfec'h flemmfed flemmfemp flemmfen flemmfent flemmfes flemmi flemmimp flemmin flemmint flemmis flemmit flemmiñ flemmje flemmjec'h flemmjed flemmjemp flemmjen flemmjent flemmjes flemmjoc'h flemmjod flemmjomp flemmjont flemmjout flemmo flemmomp flemmont flemmor flemmot
+48	2148	plad	blad pladoù vlad
+49	2149	lugañ	lug lugas luge lugec'h luged lugemp lugen lugent luger luges luget lugez lugfe lugfec'h lugfed lugfemp lugfen lugfent lugfes lugi lugimp lugin lugint lugis lugit lugje lugjec'h lugjed lugjemp lugjen lugjent lugjes lugjoc'h lugjod lugjomp lugjont lugjout lugo lugomp lugont lugor lugot
+50	2150	beskont	beskonted beskontez veskont veskontez
+51	2151	bilhed	bilhedoù bilhidi vilhedoù
+52	2152	gouer	c'houer gouerioù kouer
+53	2153	sturiañ	sturi sturian sturias sturie sturiec'h sturiemp sturien sturient sturies sturiet sturiez sturife sturifec'h sturifed sturifemp sturifen sturifent sturifes sturii sturiimp sturiin sturiint sturiis sturiit sturije sturijec'h sturijed sturijemp sturijen sturijent sturijes sturijoc'h sturijod sturijomp sturijont sturijout sturio sturiomp sturiont sturior sturiot
+54	2154	skalier	skalierioù skalieroù
+55	2155	dispac'her	dispac'herien zispac'her
+56	2156	begenn	begennoù vegenn vegennoù
+57	2157	hadañ	hadan hadas hade hadec'h haded hademp haden hadent hader hades hadet hadez hadfe hadfec'h hadfed hadfemp hadfen hadfent hadfes hadi hadimp hadin hadint hadis hadit hadiñ hadje hadjec'h hadjed hadjemp hadjen hadjent hadjes hadjoc'h hadjod hadjomp hadjont hadjout hado hadoc'h hadomp hadont hador hadot
+58	2158	kazarn	c'hazarn c'hazarnioù gazarn kazarnioù
+59	2159	perzhiad	berzhiad berzhidi ferzhiad perzhiaded perzhidi
+60	2160	tolpañ	dolp dolpañ dolpe tolp tolpan tolpas tolpe tolpec'h tolpemp tolpen tolpent tolpes tolpet tolpez tolpfe tolpfec'h tolpfed tolpfemp tolpfen tolpfent tolpfes tolpi tolpimp tolpin tolpint tolpis tolpit tolpiñ tolpje tolpjec'h tolpjed tolpjemp tolpjen tolpjent tolpjes tolpjoc'h tolpjod tolpjomp tolpjont tolpjout tolpo tolpomp tolpont tolpor tolpot zolp zolpañ
+61	2161	biñsaskell	biñsaskellioù biñsaskelloù viñsaskell
+62	2162	kannati	c'hannati c'hannatioù gannati kannatioù
+63	2163	klip	c'hlip c'hlipoù glip glipoù klipoù
+64	2164	keginer	c'heginer geginer geginerez keginerez keginerien
+65	2165	treuzwelus	dreuzwelus
+66	2166	sked	skedoù
+67	2167	tener	tenerañ
+68	2168	kromm	gromm
+69	2169	moullerez	moullerezioù voullerez
+70	2170	merzher	verzher verzherien
+71	2171	kavell	c'havell gavell
+72	2172	boudig	boudiged voudig voudiged
+73	2173	kreñvder	c'hreñvder greñvder kreñvderioù
+74	2174	korseg	c'horseg
+75	2175	douarenn	douarennoù zouarenn
+76	2176	kae	c'hae c'haeoù gae kaeoù
+77	2177	fraezh	
+78	2178	kantvet	
+79	2179	diskan	
+80	2180	labourerez-douar	labourer-douar
+81	2181	stabilded	
+82	2182	buhezek	
+83	2183	madelezhus	vadelezhus
+84	2184	aotren	aotrenan aotrenas aotrene aotrenec'h aotrenemp aotrenen aotrenent aotrenes aotrenet aotrenez aotrenfe aotrenfec'h aotrenfed aotrenfemp aotrenfen aotrenfent aotrenfes aotreni aotrenimp aotrenin aotrenint aotrenis aotrenit aotrenje aotrenjec'h aotrenjed aotrenjemp aotrenjen aotrenjent aotrenjes aotrenjoc'h aotrenjod aotrenjomp aotrenjont aotrenjout aotreno aotrenomp aotrenont aotrenor aotrenot
+85	2185	falz	filzier
+86	2186	tchek	dchek
+87	2187	kemmus	gemmus kemmusoc'h
+88	2188	krennamzerel	grennamzerel
+89	2189	pellder	bellder fellder pellderioù
+90	2190	gouennlazh	gouennlazhioù ouennlazh
+91	2191	hiraat	hira hiraan hiraas hirae hiraec'h hiraemp hiraen hiraent hiraes hiraet hiraez hirafe hirafec'h hirafed hirafemp hirafen hirafent hirafes hirai hiraimp hirain hiraint hirais hirait hiraje hirajec'h hirajed hirajemp hirajen hirajent hirajes hirajoc'h hirajod hirajomp hirajont hirajout hirao hiraomp hiraont hiraor hiraot
+92	2192	lezvamm	leztad leztadoù
+93	2193	gweañ	gwean gweas gwee gweec'h gweemp gween gweent gwees gweez gwefe gwefec'h gwefed gwefemp gwefen gwefent gwefes gwei gweimp gwein gweint gweis gweit gweiñ gweje gwejec'h gwejed gwejemp gwejen gwejent gwejes gwejoc'h gwejod gwejomp gwejont gwejout gweo gweomp gweont gweor gweot kweañ weañ wee wei
+94	2194	mestroni	vestroni
+95	2195	pask	fask vask
+96	2196	kalc'h	c'halc'h galc'hioù
+97	2197	panevet	paneve paneveti
+98	2198	adprenañ	adpren adprenan adprenas adprene adprenec'h adprenemp adprenen adprenent adprenes adprenet adprenez adprenfe adprenfec'h adprenfed adprenfemp adprenfen adprenfent adprenfes adpreni adprenimp adprenin adprenint adprenis adprenit adpreniñ adprenje adprenjec'h adprenjed adprenjemp adprenjen adprenjent adprenjes adprenjoc'h adprenjod adprenjomp adprenjont adprenjout adpreno adprenomp adprenont adprenor adprenot
+99	2199	pilat	bilat filat filit pilan pilas pile pilec'h pilemp pilen pilent piles pilet pilez pilfe pilfec'h pilfed pilfemp pilfen pilfent pilfes pilimp pilin pilint pilis pilit piliñ pilje piljec'h piljed piljemp piljen piljent piljes piljoc'h piljod piljomp piljont piljout pilo pilomp pilont pilor pilot
+100	2200	arload	arloadoù

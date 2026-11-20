@@ -1,100 +1,100 @@
-1	2001	ampartiz	
-2	2002	hudouriezh	
-3	2003	turkeg	
-4	2004	rev	
-5	2005	urzhiañ	
-6	2006	ragistor	
-7	2007	furchal	furch furchat furchañ furchiñ
-8	2008	darev	dare tare
-9	2009	siell	sielloù
-10	2010	flamm	flamme flammoù
-11	2011	gwevn	gwevnoc'h wevn
-12	2012	bete	pete vete
-13	2013	eilañ	eiler eiliñ
-14	2014	boueta	voueta
-15	2015	pod	podoù
-16	2016	eren	ere ereet ereiñ
-17	2017	pirc'hirin	birc'hirined pirc'hirined
-18	2018	koustañ	goustañ kouste koustet koustfe koustiñ kousto koustout
-19	2019	krennlavar	c'hrennlavar c'hrennlavarioù krennlavarioù
-20	2020	heg	
-21	2021	saviad	
-22	2022	tchekeg	
-23	2023	ahont	
-24	2024	dec'h	
-25	2025	uhelaat	
-26	2026	skoulmañ	
-27	2027	run	
-28	2028	sav-heol	
-29	2029	rom	
-30	2030	gitar-boud	c'hitar-boud
-31	2031	divalav	zivalav
-32	2032	her	
-33	2033	biz-meud	viz-meud
-34	2034	doktorelezh	zoktorelezh
-35	2035	renadenn	renadennoù
-36	2036	sturier	sturierien
-37	2037	lojañ	loj lojis lojiñ lojo lojor
-38	2038	mediñ	med medan medas mede meden meder medes medet medez medi medin medis medit medo medomp medont vediñ
-39	2039	anv-kadarn	anvioù-kadarn
-40	2040	asteroidenn	asteroidennoù
-41	2041	taos	daos taosoù
-42	2042	divroañ	divroiñ tivroañ zivroañ zivroiñ
-43	2043	harzlammer	harzlammerez harzlammerien
-44	2044	denañ	dene denes denis deniñ denot tenañ zenañ
-45	2045	kroashent	c'hroashent c'hroazhent kroazhent
-46	2046	keidenn	geidenn
-47	2047	mank	manked mankoù vankañ
-48	2048	tell	telloù zell
-49	2049	breud	breudoù vreudoù
-50	2050	nervenn	nervennoù
-51	2051	plad	blad pladoù vlad
-52	2052	beskont	beskonted beskontez veskont veskontez
-53	2053	bilhed	bilhedoù bilhidi vilhedoù
-54	2054	dispac'her	dispac'herien zispac'her
-55	2055	divinout	divin divinas divinañ divine divined diviner divines divini divinis diviniñ divino divinour zivinout
-56	2056	begenn	begennoù vegenn vegennoù
-57	2057	hadañ	hadan hadas hade hadec'h haded hademp haden hadent hader hades hadet hadez hadfe hadfec'h hadfed hadfemp hadfen hadfent hadfes hadi hadimp hadin hadint hadis hadit hadiñ hadje hadjec'h hadjed hadjemp hadjen hadjent hadjes hadjoc'h hadjod hadjomp hadjont hadjout hado hadoc'h hadomp hadont hador hadot
-58	2058	kazarn	c'hazarn c'hazarnioù gazarn kazarnioù
-59	2059	perzhiad	berzhiad berzhidi ferzhiad perzhiaded perzhidi
-60	2060	kannati	c'hannati c'hannatioù gannati kannatioù
-61	2061	klip	c'hlip c'hlipoù glip glipoù klipoù
-62	2062	keginer	c'heginer geginer geginerez keginerez keginerien
-63	2063	treuzwelus	dreuzwelus
-64	2064	tener	tenerañ
-65	2065	kromm	gromm
-66	2066	moullerez	moullerezioù voullerez
-67	2067	merzher	verzher verzherien
-68	2068	kavell	c'havell gavell
-69	2069	boudig	boudiged voudig voudiged
-70	2070	bolz	bolzioù volz
-71	2071	kreñvder	c'hreñvder greñvder kreñvderioù
-72	2072	keginañ	c'heginañ geginañ keginat keginiñ
-73	2073	diverkañ	diverket diverkiñ tiverkañ ziverkañ
-74	2074	korseg	c'horseg
-75	2075	douarenn	douarennoù zouarenn
-76	2076	kae	c'hae c'haeoù gae kaeoù
-77	2077	fraezh	
-78	2078	kantvet	
-79	2079	diskan	
-80	2080	labourerez-douar	labourer-douar
-81	2081	stabilded	
-82	2082	buhezek	
-83	2083	madelezhus	vadelezhus
-84	2084	aotren	
-85	2085	falz	filzier
-86	2086	tchek	dchek
-87	2087	kemmus	gemmus kemmusoc'h
-88	2088	krennamzerel	grennamzerel
-89	2089	pellder	bellder fellder pellderioù
-90	2090	lezvamm	leztad leztadoù
-91	2091	gweañ	gweiñ gweje gweo kweañ weañ wee wei
-92	2092	mestroni	vestroni
-93	2093	pask	fask vask
-94	2094	kalc'h	c'halc'h galc'hioù
-95	2095	panevet	paneve paneveti
-96	2096	pilat	bilat filat filit pilet pilis piliñ pilo pilor pilot
-97	2097	arload	arloadoù
-98	2098	kren-douar	c'hren-douar c'hrenoù-douar krenoù-douar
-99	2099	dornlevr	dornlevrioù zornlevr zornlevrioù
-100	2100	rusk	ruskenn ruskennoù
+1	2001	pardoniñ	bardonas bardoniñ bardono pardonan pardonas pardone pardonec'h pardonemp pardonen pardonent pardones pardonet pardonez pardonfe pardonfec'h pardonfed pardonfemp pardonfen pardonfent pardonfes pardoni pardonimp pardonin pardonint pardonis pardonit pardonje pardonjec'h pardonjed pardonjemp pardonjen pardonjent pardonjes pardonjoc'h pardonjod pardonjomp pardonjont pardonjout pardono pardonomp pardonont pardonor pardonot
+2	2002	tir	dirioù tirioù zirioù
+3	2003	brank	brankoù vrank vrankoù
+4	2004	pinijenn	binijenn binijennoù pinijennoù
+5	2005	dispenn	dispennan dispennas dispenne dispennec'h dispennemp dispennen dispennent dispennes dispennet dispennez dispennfe dispennfec'h dispennfed dispennfemp dispennfen dispennfent dispennfes dispenni dispennimp dispennin dispennint dispennis dispennit dispennje dispennjec'h dispennjed dispennjemp dispennjen dispennjent dispennjes dispennjoc'h dispennjod dispennjomp dispennjont dispennjout dispenno dispennomp dispennont dispennor dispennot tispenn zispenn zispennas
+6	2006	divinout	divin divinan divinas divinañ divine divinec'h divined divinemp divinen divinent diviner divines divinet divinez divinfe divinfec'h divinfed divinfemp divinfen divinfent divinfes divini divinimp divinin divinint divinis divinit diviniñ divinje divinjec'h divinjed divinjemp divinjen divinjent divinjes divinjoc'h divinjod divinjomp divinjont divinjout divino divinomp divinont divinor divinot divinour zivinout
+7	2007	okitaneg	
+8	2008	onest	
+9	2009	a-is	
+10	2010	farsus	
+11	2011	nederlandeg	
+12	2012	didrouz	
+13	2013	dizimez	
+14	2014	nep	
+15	2015	sukr	
+16	2016	nevez-amzer	
+17	2017	antronoz	
+18	2018	erotek	erotekoc'h
+19	2019	gwregel	wregel
+20	2020	ski	skioù
+21	2021	glev	c'hlev
+22	2022	tramor	dramor
+23	2023	marichal	varichal varichaled
+24	2024	divarvel	zivarvel
+25	2025	drama	dramaoù
+26	2026	triad	triadoù
+27	2027	boull	boullañ voull
+28	2028	plouz	blouz blouzenn
+29	2029	besprezidant	besprezidantez vesprezidantez
+30	2030	terzhienn	derzhienn terzhiennoù
+31	2031	tornaod	tornaodoù
+32	2032	gouli	c'houlioù goulioù
+33	2033	mab-kaer	vab-kaer
+34	2034	gwazhi	gwazhied wazhied wazhienn
+35	2035	yenaat	yena yenaan yenaas yenae yenaec'h yenaemp yenaen yenaent yenaes yenaet yenaez yenafe yenafec'h yenafed yenafemp yenafen yenafent yenafes yenai yenaimp yenain yenaint yenais yenait yenaje yenajec'h yenajed yenajemp yenajen yenajent yenajes yenajoc'h yenajod yenajomp yenajont yenajout yenao yenaomp yenaont yenaor yenaot yennaad
+36	2036	kousk	c'housk gousk
+37	2037	gourener	c'hourenerien gourenerez gourenerien
+38	2038	karr-boutin	c'harr-boutin c'hirri-boutin kirri-boutin
+39	2039	tuchenn	duchenn tuchennoù
+40	2040	bombard	bombardoù vombard
+41	2041	gwarnizon	gwarnizonoù warnizon
+42	2042	lamm-dour	lammoù-dour
+43	2043	rakger	rakgerioù
+44	2044	diamant	diamantoù
+45	2045	gavr	c'havr c'hivri givri
+46	2046	trugarekaat	drugarekaat trugareka trugarekaan trugarekaas trugarekae trugarekaec'h trugarekaemp trugarekaen trugarekaent trugarekaes trugarekaet trugarekaez trugarekafe trugarekafec'h trugarekafed trugarekafemp trugarekafen trugarekafent trugarekafes trugarekai trugarekaimp trugarekain trugarekaint trugarekais trugarekait trugarekaje trugarekajec'h trugarekajed trugarekajemp trugarekajen trugarekajent trugarekajes trugarekajoc'h trugarekajod trugarekajomp trugarekajont trugarekajout trugarekao trugarekaomp trugarekaont trugarekaor trugarekaot zrugarekaat
+47	2047	prad	brad pradeier pradoù
+48	2048	tor	dorioù norioù torioù
+49	2049	stern	sternioù
+50	2050	erer	erered ereroù
+51	2051	marvus	marvusañ varvus
+52	2052	gwenan	gwenanenn wenan wenanenn
+53	2053	roued	rouedoù
+54	2054	tag	dag zag
+55	2055	moc'h	voc'h
+56	2056	gwastañ	gwast gwastan gwastas gwaste gwastec'h gwastemp gwasten gwastent gwastes gwastet gwastez gwastfe gwastfec'h gwastfed gwastfemp gwastfen gwastfent gwastfes gwasti gwastimp gwastin gwastint gwastis gwastit gwastje gwastjec'h gwastjed gwastjemp gwastjen gwastjent gwastjes gwastjoc'h gwastjod gwastjomp gwastjont gwastjout gwasto gwastomp gwastont gwastor gwastot wast wastas wastañ
+57	2057	mamm-gaer	mammoù-kaer vamm-gaer
+58	2058	tachenn-emgann	dachenn-emgann tachennoù-emgann
+59	2059	stouiñ	stou stouan stouas stoue stouec'h stouemp stouen stouent stoues stouet stouez stoufe stoufec'h stoufed stoufemp stoufen stoufent stoufes stoui stouimp stouin stouint stouis stouit stouje stoujec'h stoujed stoujemp stoujen stoujent stoujes stoujoc'h stoujod stoujomp stoujont stoujout stouo stouomp stouont stouor stouot
+60	2060	dallañ	dallas dallet dallfe dallfec'h dallfed dallfemp dallfen dallfent dallfes dallimp dallis dalliñ dallje dalljec'h dalljed dalljemp dalljen dalljent dalljes dalljoc'h dalljod dalljomp dalljont dalljout dalloc'h dallor dallot tallas tallañ tallit zallañ
+61	2061	dantañ	dantan dantas dante dantec'h dantemp danten dantent dantes dantet dantez dantfe dantfec'h dantfed dantfemp dantfen dantfent dantfes danti dantimp dantin dantint dantis dantit dantje dantjec'h dantjed dantjemp dantjen dantjent dantjes dantjoc'h dantjod dantjomp dantjont dantjout danto dantomp dantont dantor dantot tante tantont zantañ
+62	2062	feurmiñ	feurman feurmas feurme feurmec'h feurmemp feurmen feurment feurmer feurmerien feurmerion feurmes feurmet feurmez feurmfe feurmfec'h feurmfed feurmfemp feurmfen feurmfent feurmfes feurmi feurmimp feurmin feurmint feurmis feurmit feurmje feurmjec'h feurmjed feurmjemp feurmjen feurmjent feurmjes feurmjoc'h feurmjod feurmjomp feurmjont feurmjout feurmo feurmomp feurmont feurmor feurmot
+63	2063	pigos	bigos figos figosoù pigosoù
+64	2064	pratik	bratikoù fratikoù pratikoù
+65	2065	fank	
+66	2066	hebiou	
+67	2067	vak	
+68	2068	chokolad	
+69	2069	noter	
+70	2070	erfin	
+71	2071	belegiñ	belegan belegas belege belegec'h belegemp belegen belegent beleger beleges beleget belegfe belegfec'h belegfed belegfemp belegfen belegfent belegfes belegi belegimp belegin belegint belegis belegit belegje belegjec'h belegjed belegjemp belegjen belegjent belegjes belegjoc'h belegjod belegjomp belegjont belegjout belego belegomp belegont belegor belegot pelegiñ velegiñ
+72	2072	abardaez	abardahez
+73	2073	skoulm	skoulmoù
+74	2074	paeron	baeron faeron paeroned
+75	2075	rimadell	rimadelloù
+76	2076	diverkañ	diverk diverkan diverkas diverke diverkec'h diverkemp diverken diverkent diverkes diverket diverkez diverkfe diverkfec'h diverkfed diverkfemp diverkfen diverkfent diverkfes diverki diverkimp diverkin diverkint diverkis diverkit diverkiñ diverkje diverkjec'h diverkjed diverkjemp diverkjen diverkjent diverkjes diverkjoc'h diverkjod diverkjomp diverkjont diverkjout diverko diverkomp diverkont diverkor diverkot tiverkañ ziverk ziverkañ
+77	2077	sammañ	sammas samme sammer sammet sammfe sammfec'h sammfed sammfemp sammfen sammfent sammfes sammi sammimp sammis sammiñ sammje sammjec'h sammjed sammjemp sammjen sammjent sammjes sammjoc'h sammjod sammjomp sammjont sammjout sammoc'h sammor sammot
+78	2078	gwadek	gwadekañ wadek
+79	2079	enaouiñ	enaou enaouan enaouas enaoue enaouec'h enaouemp enaouen enaouent enaoues enaouet enaouez enaoufe enaoufec'h enaoufed enaoufemp enaoufen enaoufent enaoufes enaoui enaouimp enaouin enaouint enaouis enaouit enaouje enaoujec'h enaoujed enaoujemp enaoujen enaoujent enaoujes enaoujoc'h enaoujod enaoujomp enaoujont enaoujout enaouo enaouomp enaouont enaouor enaouot
+80	2080	paner	baner faner paneroù
+81	2081	kemmadur	c'hemmadur c'hemmadurioù gemmadur gemmadurioù kemmadurioù
+82	2082	riz	ris
+83	2083	isañ	is isal ise isen isi isin isit iso isot
+84	2084	palat	baled balin balor faled palan palas pale palec'h paled palemp palen palent pales palet palfe palfec'h palfed palfemp palfen palfent palfes pali palimp palin palint palis palit palje paljec'h paljed paljemp paljen paljent paljes paljoc'h paljod paljomp paljont paljout palo palomp palont palor palot valed
+85	2085	butun	vutun
+86	2086	saviad	saviadoù
+87	2087	naonegezh	naonegezhioù
+88	2088	milier	milieroù vilieroù
+89	2089	blot	plot
+90	2090	distabil	zistabil zistabilañ
+91	2091	katalan	gatalan gatalaned
+92	2092	amerindian	amerindianed
+93	2093	muzell	muzelloù vuzell
+94	2094	taos	daos taosioù taosoù
+95	2095	derv	dervenn
+96	2096	denañ	denan denas dene denec'h denemp denen denent denes denet denfe denfec'h denfed denfemp denfen denfent denfes deni denimp denin denint denis denit deniñ denje denjec'h denjed denjemp denjen denjent denjes denjoc'h denjod denjomp denjont denjout deno denomp denont denot tenañ tenet zenañ
+97	2097	mestr-skol	mestrez-skol mistri-skol vestr-skol vestrez-skol vistri-skol
+98	2098	danzen	danzeet danzenan danzenas danzene danzenec'h danzenemp danzenen danzenent danzenes danzenet danzenez danzenfe danzenfec'h danzenfed danzenfemp danzenfen danzenfent danzenfes danzeni danzenimp danzenin danzenint danzenis danzenit danzenje danzenjec'h danzenjed danzenjemp danzenjen danzenjent danzenjes danzenjoc'h danzenjod danzenjomp danzenjont danzenjout danzeno danzenomp danzenont danzenor danzenot tanzen zanzen
+99	2099	dever	deverioù tever zever zeverioù
+100	2100	taol-kaer	daol-kaer taolioù-kaer zaol-kaer zaolioù-kaer

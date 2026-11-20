@@ -1,70 +1,100 @@
-1	5101	tregontvet	
-2	5102	trepan	
-3	5103	triwec'hvet	
-4	5104	tro-heol	
-5	5105	trugarezus	
-6	5106	tufañ	tuf tufan tufe tufec'h tufed tufemp tufen tufent tufer tufes tuffe tuffed tufi tufin tufiñ tufo
-7	5107	tuliom	
-8	5108	ufern	
-9	5109	uhelvor	
-10	5110	unsilabennek	
-11	5111	unveliezh	
-12	5112	unvouezh	
-13	5113	urcher	
-14	5114	uskerentiad	
-15	5115	uzañ	uzor
-16	5116	madober	vadoberoù
-17	5117	manal	vanal
-18	5118	banal	vanalenn
-19	5119	barailhat	varailhat
-20	5120	marc'hatadenn	varc'hatadenn
-21	5121	marradeg	varradeg
-22	5122	marvelezh	varvelezh
-23	5123	baskodenn	vaskodenn
-24	5124	mañch	vañcheier
-25	5125	meañs	veañs
-26	5126	viheñvel	
-27	5127	milin-vor	vilin-vor
-28	5128	milionerez	vilionerion
-29	5129	milionvedenn	vilionvedenn
-30	5130	viloni	
-31	5131	mindrailherezig	vindrailherezig
-32	5132	mizer	vizer
-33	5133	biñs-tro	viñs-tro
-34	5134	bleuniaoua	vleuniaoua
-35	5135	boazañ	boaziñ voazañ
-36	5136	bolc'h	volc'henn
-37	5137	morek	vorek
-38	5138	morzholiañ	vorzholiañ
-39	5139	bouli	voulienn
-40	5140	mousc'hoarzhin	mousc'hoarzhet vousc'hoarzhin
-41	5141	mouskanañ	mouskaniñ vouskanañ
-42	5142	bouzarded	vouzarded
-43	5143	vrugeg	
-44	5144	bruzunañ	bruzuniñ pruzunañ vruzunañ vruzuniñ
-45	5145	war-gaout	
-46	5146	gwenaneg	wenaneg
-47	5147	gwern-veg	wern-veg
-48	5148	gwiblenn	wiblenn
-49	5149	gwinoniezh	winoniezh
-50	5150	gwinterell	winterell
-51	5151	yec'hedus	
-52	5152	yenerez	yenerezioù
-53	5153	youc'hadenn	youadenn
-54	5154	daoublegañ	daoublegiñ zaoublegañ
-55	5155	dianadiñ	zianadiñ
-56	5156	dievezhded	zievezhded
-57	5157	dilojadenn	zilojadenn
-58	5158	zink	
-59	5159	dismeg	zismegoù
-60	5160	disoñj	zisoñj
-61	5161	dispegañ	dispegiñ tispegañ zispegañ
-62	5162	dizaliañ	dizaliiñ tizaliañ zizaliañ
-63	5163	tud-kaer	zud-kaer
-64	5164	addont	
-65	5165	kendalc'hiad	gendalc'hidi
-66	5166	kendalc'hadez	gendalc'hidi
-67	5167	biziñ	bizet viziñ
-68	5168	tred	tridi
-69	5169	klouariñ	glouarañ klouarañ
-70	5170	kri	c'hri
+1	5101	sammgarr	sammgirri
+2	5102	saour	
+3	5103	saourek	
+4	5104	sardon	sardonenn
+5	5105	sarmoner	
+6	5106	seaborgiom	
+7	5107	sedr	
+8	5108	seizus	
+9	5109	selaouva	
+10	5110	seulabred	
+11	5111	siklud	sikludoù
+12	5112	sivolez	
+13	5113	skandiom	
+14	5114	skaotañ	skaot skaotan skaotas skaote skaotec'h skaotemp skaoten skaotent skaoter skaotes skaotet skaotez skaotfe skaotfec'h skaotfed skaotfemp skaotfen skaotfent skaotfes skaoti skaotimp skaotin skaotint skaotis skaotit skaotiñ skaotje skaotjec'h skaotjed skaotjemp skaotjen skaotjent skaotjes skaotjoc'h skaotjod skaotjomp skaotjont skaotjout skaoto skaotomp skaotont skaotor skaotot
+15	5115	skas	skasoù
+16	5116	skabell	skebell
+17	5117	skiant-vat	
+18	5118	skinweler	
+19	5119	sklaerded	
+20	5120	skleuriñ	skleur skleuran skleuras skleure skleurec'h skleuremp skleuren skleurent skleures skleuret skleurez skleurfe skleurfec'h skleurfed skleurfemp skleurfen skleurfent skleurfes skleuri skleurimp skleurin skleurint skleuris skleurit skleurje skleurjec'h skleurjed skleurjemp skleurjen skleurjent skleurjes skleurjoc'h skleurjod skleurjomp skleurjont skleurjout skleuro skleuromp skleuront skleuror skleurot
+21	5121	skol-vistri	
+22	5122	skoseg	
+23	5123	skouarnad	skouarnadoù
+24	5124	skraber-oabl	
+25	5125	skrijañ	skrijal skrijan skrijas skrije skrijec'h skrijemp skrijen skrijent skrijes skrijet skrijez skrijfe skrijfec'h skrijfed skrijfemp skrijfen skrijfent skrijfes skriji skrijimp skrijin skrijint skrijis skrijit skrijje skrijjec'h skrijjed skrijjemp skrijjen skrijjent skrijjes skrijjoc'h skrijjod skrijjomp skrijjont skrijjout skrijo skrijomp skrijont skrijor skrijot
+26	5126	skub	
+27	5127	solwez	
+28	5128	sonterez	sonterezoù
+29	5129	souder	
+30	5130	spegus	
+31	5131	spisverk	spisverkoù
+32	5132	stalonañ	stalonan stalonas stalone stalonec'h stalonemp stalonen stalonent stalones stalonet stalonez stalonfe stalonfec'h stalonfed stalonfemp stalonfen stalonfent stalonfes staloni stalonimp stalonin stalonint stalonis stalonit staloniñ stalonje stalonjec'h stalonjed stalonjemp stalonjen stalonjent stalonjes stalonjoc'h stalonjod stalonjomp stalonjont stalonjout stalono stalonomp stalonont stalonor stalonot
+33	5133	starderez	
+34	5134	steredennus	
+35	5135	stern-gwiader	sternioù-gwiader
+36	5136	stiv	stivoù
+37	5137	stoliañ	stoli stolian stolias stolie stoliec'h stoliemp stolien stolient stolies stoliet stoliez stolife stolifec'h stolifed stolifemp stolifen stolifent stolifes stolii stoliimp stoliin stoliint stoliis stoliit stolije stolijec'h stolijed stolijemp stolijen stolijent stolijes stolijoc'h stolijod stolijomp stolijont stolijout stolio stoliomp stoliont stolior stoliot stoliñ
+38	5138	stouk	
+39	5139	stourmus	stourmusañ
+40	5140	strak	
+41	5141	streviañ	strevi strevian strevias strevie streviec'h streviemp strevien strevient strevies streviet streviez strevife strevifec'h strevifed strevifemp strevifen strevifent strevifes strevii streviimp streviin streviint streviis streviit strevije strevijec'h strevijed strevijemp strevijen strevijent strevijes strevijoc'h strevijod strevijomp strevijont strevijout strevio streviomp streviont strevior streviot
+42	5142	strinkennañ	strinkennan strinkennas strinkenne strinkennec'h strinkennemp strinkennen strinkennent strinkennes strinkennet strinkennez strinkennfe strinkennfec'h strinkennfed strinkennfemp strinkennfen strinkennfent strinkennfes strinkenni strinkennimp strinkennin strinkennint strinkennis strinkennit strinkenniñ strinkennje strinkennjec'h strinkennjed strinkennjemp strinkennjen strinkennjent strinkennjes strinkennjoc'h strinkennjod strinkennjomp strinkennjont strinkennjout strinkenno strinkennomp strinkennont strinkennor strinkennot
+43	5143	strouilh	
+44	5144	struskañval	
+45	5145	sulfur	
+46	5146	suner	
+47	5147	taboulinadeg	
+48	5148	takon	takonoù
+49	5149	tangarr	tangirri
+50	5150	tangwallañ	dangwallañ tangwallan tangwallas tangwalle tangwallec'h tangwallemp tangwallen tangwallent tangwalles tangwallet tangwallez tangwallfe tangwallfec'h tangwallfed tangwallfemp tangwallfen tangwallfent tangwallfes tangwalli tangwallimp tangwallin tangwallint tangwallis tangwallit tangwalliñ tangwallje tangwalljec'h tangwalljed tangwalljemp tangwalljen tangwalljent tangwalljes tangwalljoc'h tangwalljod tangwalljomp tangwalljont tangwalljout tangwallo tangwallomp tangwallont tangwallor tangwallot zangwallañ
+51	5151	taol-chañs	
+52	5152	taol-lagad	
+53	5153	taol-troad	taolioù-troad
+54	5154	taosañ	daosañ taosan taosas taose taosec'h taosemp taosen taosent taoses taoset taosez taosfe taosfec'h taosfed taosfemp taosfen taosfent taosfes taosi taosimp taosin taosint taosis taosit taosje taosjec'h taosjed taosjemp taosjen taosjent taosjes taosjoc'h taosjod taosjomp taosjont taosjout taoso taosomp taosont taosor taosot zaosañ
+55	5155	tartan	
+56	5156	tarzhell	tarzhelloù
+57	5157	tatouerez	
+58	5158	teirzaolenn	teirzaolennoù
+59	5159	teknetiom	
+60	5160	telt	
+61	5161	temptus	
+62	5162	teodek	
+63	5163	teodyezh	teodyezhoù
+64	5164	teol	teolioù
+65	5165	ter-du	
+66	5166	teurvezout	teurvez teurvezan teurvezas teurveze teurvezec'h teurvezemp teurvezen teurvezent teurvezes teurvezet teurvezez teurvezfe teurvezfec'h teurvezfed teurvezfemp teurvezfen teurvezfent teurvezfes teurvezi teurvezimp teurvezin teurvezint teurvezis teurvezit teurvezje teurvezjec'h teurvezjed teurvezjemp teurvezjen teurvezjent teurvezjes teurvezjoc'h teurvezjod teurvezjomp teurvezjont teurvezjout teurvezo teurvezomp teurvezont teurvezor teurvezot teurvout
+67	5167	teuzus	
+68	5168	tezh	
+69	5169	dezrann	tezrann
+70	5170	ti-butun	
+71	5171	ti-kañv	
+72	5172	ti-laezh	
+73	5173	ti-moulerezh	
+74	5174	ti-prenn	
+75	5175	ti-retred	
+76	5176	ti-yec'hed	
+77	5177	tibia	
+78	5178	dichañsañ	dichañsan dichañsas dichañse dichañsec'h dichañsemp dichañsen dichañsent dichañses dichañset dichañsez dichañsfe dichañsfec'h dichañsfed dichañsfemp dichañsfen dichañsfent dichañsfes dichañsi dichañsimp dichañsin dichañsint dichañsis dichañsit dichañsiñ dichañsje dichañsjec'h dichañsjed dichañsjemp dichañsjen dichañsjent dichañsjes dichañsjoc'h dichañsjod dichañsjomp dichañsjont dichañsjout dichañso dichañsomp dichañsont dichañsor dichañsot tichañs tichañsas
+79	5179	tieg	
+80	5180	ti-plouz	tiez-plouz
+81	5181	diñsal	diñsan diñsas diñse diñsec'h diñsemp diñsen diñsent diñses diñset diñsez diñsfe diñsfec'h diñsfed diñsfemp diñsfen diñsfent diñsfes diñsi diñsimp diñsin diñsint diñsis diñsit diñsiñ diñsje diñsjec'h diñsjed diñsjemp diñsjen diñsjent diñsjes diñsjoc'h diñsjod diñsjomp diñsjont diñsjout diñso diñsomp diñsont diñsor diñsot tiñsal
+82	5182	toaz-dent	
+83	5183	touller-bezioù	
+84	5184	tourz	
+85	5185	tredanañ	dredanañ tredanan tredanas tredane tredanec'h tredanemp tredanen tredanent tredanes tredanet tredanez tredanfe tredanfec'h tredanfed tredanfemp tredanfen tredanfent tredanfes tredani tredanimp tredanin tredanint tredanis tredanit tredaniñ tredanje tredanjec'h tredanjed tredanjemp tredanjen tredanjent tredanjes tredanjoc'h tredanjod tredanjomp tredanjont tredanjout tredano tredanomp tredanont tredanor tredanot zredanañ
+86	5186	tregasiñ	tregasan tregasas tregase tregasec'h tregasemp tregasen tregasent tregases tregaset tregasez tregasfe tregasfec'h tregasfed tregasfemp tregasfen tregasfent tregasfes tregasi tregasimp tregasin tregasint tregasis tregasit tregasje tregasjec'h tregasjed tregasjemp tregasjen tregasjent tregasjes tregasjoc'h tregasjod tregasjomp tregasjont tregasjout tregaso tregasomp tregasont tregasor tregasot
+87	5187	tregontvet	
+88	5188	trepan	
+89	5189	triwec'hvet	
+90	5190	tro-heol	
+91	5191	trugarezus	
+92	5192	tuliom	
+93	5193	ufern	
+94	5194	unsilabennek	
+95	5195	unveliezh	
+96	5196	unvouezh	
+97	5197	urcher	
+98	5198	uskerentiad	
+99	5199	uzañ	uzor
+100	5200	madober	vadoberoù

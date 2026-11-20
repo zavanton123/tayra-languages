@@ -1,100 +1,100 @@
-1	3001	emrener	emrenerez emrenerien
-2	3002	kiriegezh	giriegezh
-3	3003	gwander	gwanderioù wander
-4	3004	luc'hed	luc'hedenn
-5	3005	meud	veud veudoù
-6	3006	platin	blatin
-7	3007	ramparzh	ramparzhioù
-8	3008	tort	dort dorted
-9	3009	unpenn	unpennoù
-10	3010	drouklazhañ	drouklazhiñ trouklazhañ zrouklazhañ
-11	3011	roc'hell	roc'helloù
-12	3012	alarc'h	elerc'h
-13	3013	badeziñ	vadeziñ
-14	3014	c'hwitellat	c'hwistellat c'hwitell c'hwitelle
-15	3015	glazard	glazarded
-16	3016	kevan	c'hevan
-17	3017	marvailh	marvailhoù
-18	3018	mud	vud
-19	3019	mur	murioù vur
-20	3020	seizenn	seizennoù
-21	3021	bre	breoù
-22	3022	meneziad	menezidi veneziad venezidi
-23	3023	broc'h	broc'hed
-24	3024	farsal	farsan farse farsen farser farserien farses farsi farsis farso farsor farsot
-25	3025	kaletaat	c'haletaat galeta galetaat kaleta
-26	3026	krizder	c'hrizder grizder krizderioù
-27	3027	krogen	c'hrogen grogen
-28	3028	kabell	c'habell kabelloù
-29	3029	kimiour	c'himiour kimiourien
-30	3030	klon	c'hlon c'hlonoù klonoù
-31	3031	morbig	morbiged vorbig
-32	3032	meilh	meilhoù veilh
-33	3033	moualc'h	mouilc'hi voualc'h
-34	3034	malv	malvennoù valv valvenn valvennoù
-35	3035	korollerez	gorollerez gorollerien korollerien
-36	3036	krin	krinañ rin
-37	3037	adstummañ	adstummiñ
-38	3038	anal	
-39	3039	argoad	
-40	3040	atenat	
-41	3041	bred	
-42	3042	c'hwerv	
-43	3043	diwir	
-44	3044	doujus	
-45	3045	drouizel	
-46	3046	evnoniour	evnoniourien
-47	3047	greunvaen	
-48	3048	grik	
-49	3049	hewel	
-50	3050	hollc'halloudek	
-51	3051	koar	
-52	3052	laezh-ribod	
-53	3053	onestiz	
-54	3054	resisted	
-55	3055	roumaneg	
-56	3056	saksofon	
-57	3057	saotrañ	saotriñ
-58	3058	saourus	
-59	3059	steredoniezh	
-60	3060	tantalom	
-61	3061	touell	
-62	3062	uraniom	
-63	3063	yezhadurour	
-64	3064	watt	
-65	3065	c'hwez	
-66	3066	daoudroadek	
-67	3067	dibistig	
-68	3068	dioksidenn	
-69	3069	diret	
-70	3070	eeunded	
-71	3071	hael	
-72	3072	harellerezh	
-73	3073	heiz	
-74	3074	linad	
-75	3075	loargann	
-76	3076	naetadurezh	
-77	3077	neon	
-78	3078	porzh-pesketa	
-79	3079	teil	
-80	3080	otus	
-81	3081	adembann	
-82	3082	gousperoù	
-83	3083	louzawouriezh	
-84	3084	semplañ	sempliñ
-85	3085	spern	
-86	3086	barvek	
-87	3087	bemnoz	
-88	3088	gwechall-gozh	
-89	3089	purgator	
-90	3090	tali	dali zali
-91	3091	adprenañ	adpreniñ
-92	3092	bananez	vananezenn
-93	3093	biz-gwalenn	viz-gwalenn
-94	3094	proleteriezh	broleteriezh
-95	3095	disprizus	zisprizus
-96	3096	torzhellegezh	dorzhellegezh
-97	3097	enezad	enezidi
-98	3098	geriadurour	geriadurourien
-99	3099	kiez	c'hiez giez
-100	3100	koustiañs	goustiañs
+1	3001	konifl	c'honifled c'honikl c'honikled gonifled
+2	3002	kourser	c'hourser gourser gourserien kourserien
+3	3003	madek	madeg
+4	3004	newton	
+5	3005	aberiñ	aberan aberas abere aberec'h aberemp aberen aberent aberes aberet aberez aberfe aberfec'h aberfed aberfemp aberfen aberfent aberfes aberi aberimp aberin aberint aberis aberit aberje aberjec'h aberjed aberjemp aberjen aberjent aberjes aberjoc'h aberjod aberjomp aberjont aberjout abero aberomp aberont aberor aberot
+6	3006	ac'hann	
+7	3007	anv-verb	
+8	3008	chal	
+9	3009	chupenn	
+10	3010	davit	
+11	3011	fazenn	
+12	3012	ferv	
+13	3013	fiñvusted	
+14	3014	frouezhusted	
+15	3015	gwenedeg	
+16	3016	hudour	
+17	3017	milis	
+18	3018	mod-all	
+19	3019	mogediñ	mogedan mogedas mogede mogedec'h mogedemp mogeden mogedent mogedes mogedet mogedez mogedfe mogedfec'h mogedfed mogedfemp mogedfen mogedfent mogedfes mogedi mogedimp mogedin mogedint mogedis mogedit mogedje mogedjec'h mogedjed mogedjemp mogedjen mogedjent mogedjes mogedjoc'h mogedjod mogedjomp mogedjont mogedjout mogedo mogedomp mogedont mogedor mogedot vogediñ
+20	3020	orgedus	
+21	3021	perseg	
+22	3022	pevarzroadek	
+23	3023	rogoni	
+24	3024	silabennek	
+25	3025	silzig	
+26	3026	spier	
+27	3027	abaf	
+28	3028	amiegez	
+29	3029	dismegañsus	
+30	3030	edan	
+31	3031	frondus	
+32	3032	kapitalouriezh	gapitalouriezh
+33	3033	ingalded	
+34	3034	kroazstagañ	c'hroazstagañ groazstagañ kroazstag kroazstagan kroazstagas kroazstage kroazstagec'h kroazstagemp kroazstagen kroazstagent kroazstages kroazstaget kroazstagez kroazstagfe kroazstagfec'h kroazstagfed kroazstagfemp kroazstagfen kroazstagfent kroazstagfes kroazstagi kroazstagimp kroazstagin kroazstagint kroazstagis kroazstagit kroazstagje kroazstagjec'h kroazstagjed kroazstagjemp kroazstagjen kroazstagjent kroazstagjes kroazstagjoc'h kroazstagjod kroazstagjomp kroazstagjont kroazstagjout kroazstago kroazstagomp kroazstagont kroazstagor kroazstagot
+35	3035	aonik	
+36	3036	pennek	
+37	3037	chouant	chouanted
+38	3038	antre	antreoù
+39	3039	arc'hiñ	arc'han arc'has arc'he arc'hec'h arc'hemp arc'hent arc'hes arc'het arc'hez arc'hfe arc'hfec'h arc'hfed arc'hfemp arc'hfen arc'hfent arc'hfes arc'hi arc'himp arc'hin arc'hint arc'his arc'hit arc'hje arc'hjec'h arc'hjed arc'hjemp arc'hjen arc'hjent arc'hjes arc'hjoc'h arc'hjod arc'hjomp arc'hjont arc'hjout arc'ho arc'homp arc'hont arc'hor arc'hot
+40	3040	arzorn	arzornioù
+41	3041	begel	begelioù
+42	3042	binimus	vinimus
+43	3043	biz-yod	viz-yod
+44	3044	derc'hent	zerc'hent
+45	3045	dianadiñ	dianad dianadan dianadas dianade dianadec'h dianademp dianaden dianadent dianades dianadet dianadez dianadfe dianadfec'h dianadfed dianadfemp dianadfen dianadfent dianadfes dianadi dianadimp dianadin dianadint dianadis dianadit dianadje dianadjec'h dianadjed dianadjemp dianadjen dianadjent dianadjes dianadjoc'h dianadjod dianadjomp dianadjont dianadjout dianado dianadomp dianadont dianador dianadot zianadiñ
+46	3046	distabilaat	distabila distabilaan distabilaas distabilae distabilaec'h distabilaemp distabilaen distabilaent distabilaes distabilaet distabilaez distabilafe distabilafec'h distabilafed distabilafemp distabilafen distabilafent distabilafes distabilai distabilaimp distabilain distabilaint distabilais distabilait distabilaje distabilajec'h distabilajed distabilajemp distabilajen distabilajent distabilajes distabilajoc'h distabilajod distabilajomp distabilajont distabilajout distabilao distabilaomp distabilaont distabilaor distabilaot tistabilaat zistabilaat
+47	3047	divarvelezh	zivarvelezh
+48	3048	dizenor	zizenor
+49	3049	touribell	douribell touribelloù
+50	3050	dudius	tudius
+51	3051	glebor	c'hlebor
+52	3052	gouron	gouroned
+53	3053	greanti	c'hreanti
+54	3054	hiviz	hivizoù
+55	3055	hoalus	hoalusañ
+56	3056	leinañ	leinan leinas leine leinec'h leinemp leinen leinent leines leinet leinez leinfe leinfec'h leinfed leinfemp leinfen leinfent leinfes leini leinimp leinin leinint leinis leinit leiniñ leinje leinjec'h leinjed leinjemp leinjen leinjent leinjes leinjoc'h leinjod leinjomp leinjont leinjout leino leinomp leinont leinor leinot
+57	3057	levrdi	levrdioù
+58	3058	padusted	badusted
+59	3059	pellgomzer	pellgomzerioù
+60	3060	peurbadus	beurbadus
+61	3061	plusk	flusk
+62	3062	raoskl	raosklenn
+63	3063	skluz	skluzioù
+64	3064	tired	tiredoù
+65	3065	toazenn	doazenn toazennoù
+66	3066	touell	touelloù
+67	3067	tour-meur	dour-meur
+68	3068	hendra	hendraoù
+69	3069	trizekvet	drizekvet
+70	3070	azasadur	azasadurioù
+71	3071	paotreta	baotreta paotretaan paotretaas paotretae paotretaec'h paotretaemp paotretaen paotretaent paotretaes paotretaet paotretaez paotretafe paotretafec'h paotretafed paotretafemp paotretafen paotretafent paotretafes paotretai paotretaimp paotretain paotretaint paotretais paotretait paotretaje paotretajec'h paotretajed paotretajemp paotretajen paotretajent paotretajes paotretajoc'h paotretajod paotretajomp paotretajont paotretajout paotretao paotretaomp paotretaont paotretaor paotretaot
+72	3072	broust	broustoù proust
+73	3073	glanded	c'hlanded
+74	3074	koreaneg	c'horeaneg
+75	3075	dispriz	zispriz
+76	3076	dramaour	dramaourien
+77	3077	kran	granañ kranañ
+78	3078	kren	gren
+79	3079	niveriñ	niveran niveras niverañ nivere niverec'h niveremp niveren niverent niveres niveret niverez niverfe niverfec'h niverfed niverfemp niverfen niverfent niverfes niveri niverimp niverin niverint niveris niverit niverje niverjec'h niverjed niverjemp niverjen niverjent niverjes niverjoc'h niverjod niverjomp niverjont niverjout nivero niveromp niveront niveror niverot
+80	3080	sivi	sivienn
+81	3081	trevad	trevadoù
+82	3082	tropell	tropelloù zropell
+83	3083	uvel	uveloc'h
+84	3084	malizenn	malizennoù valizenn
+85	3085	boue	foue
+86	3086	frealziñ	frealzan frealzas frealzañ frealze frealzec'h frealzemp frealzen frealzent frealzes frealzet frealzez frealzfe frealzfec'h frealzfed frealzfemp frealzfen frealzfent frealzfes frealzi frealzimp frealzin frealzint frealzis frealzit frealzje frealzjec'h frealzjed frealzjemp frealzjen frealzjent frealzjes frealzjoc'h frealzjod frealzjomp frealzjont frealzjout frealzo frealzomp frealzont frealzor frealzot
+87	3087	hendraour	hendraourien
+88	3088	porzh-mor	forzh-mor porzhioù-mor
+89	3089	boulouard	boulouardoù voulouard
+90	3090	hediñ	hedan hedas hedañ hede hedec'h heded hedemp heden hedent heder hedes hedet hedez hedfe hedfec'h hedfed hedfemp hedfen hedfent hedfes hedi hedimp hedin hedint hedis hedit hedje hedjec'h hedjed hedjemp hedjen hedjent hedjes hedjoc'h hedjod hedjomp hedjont hedjout hedo hedoc'h hedomp hedont hedot
+91	3091	inosant	inosanted inosantez
+92	3092	frañsezad	frañsezidi frañseziz
+93	3093	suiñ	suas sue suet sufe suje suo
+94	3094	bag-dre-lien	bagoù-dre-lien bigi-dre-lien vag-dre-lien
+95	3095	poblañ	boblañ foblañ poblan poblas poble poblec'h poblemp poblen poblent pobles poblez poblfe poblfec'h poblfed poblfemp poblfen poblfent poblfes pobli poblimp poblin poblint poblis poblit pobliñ poblje pobljec'h pobljed pobljemp pobljen pobljent pobljes pobljoc'h pobljod pobljomp pobljont pobljout poblo poblomp poblont poblor poblot
+96	3096	kastell-kreñv	c'hastell-kreñv
+97	3097	kilhog	c'hilheien c'hilhog gilhog kilhegi
+98	3098	govel	c'hovel
+99	3099	teirvet	deirvet
+100	3100	emrener	emrenerez emrenerien

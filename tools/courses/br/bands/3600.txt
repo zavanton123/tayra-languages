@@ -1,100 +1,100 @@
-1	3501	poultrennek	
-2	3502	rakdant	rakdent
-3	3503	ranell	
-4	3504	rimiañ	
-5	3505	romaneg	
-6	3506	roudennek	
-7	3507	sach-blev	
-8	3508	saksell	
-9	3509	santimetr	
-10	3510	saotr	
-11	3511	sioulder	
-12	3512	skav-gwrac'h	
-13	3513	skiant-prenañ	
-14	3514	skubañ	skubal skubat skubiñ
-15	3515	soliusted	
-16	3516	soubañ	soubiñ soubor
-17	3517	souezhadenn	
-18	3518	staen	
-19	3519	stagus	
-20	3520	staon	
-21	3521	staot	
-22	3522	steredennig	
-23	3523	strakal	strakat strakiñ
-24	3524	strontiom	
-25	3525	tavarnour	
-26	3526	teirgwern	
-27	3527	teiryezhek	
-28	3528	ti-hent-houarn	
-29	3529	tibetek	
-30	3530	tsundere	
-31	3531	vaksinañ	vaksiniñ
-32	3532	mezviñ	mezwiñ vezviñ
-33	3533	hun	
-34	3534	a-greiz-holl	
-35	3535	parrezian	barrezianiz
-36	3536	besamiral	
-37	3537	damruz	
-38	3538	diner	
-39	3539	dizingalded	
-40	3540	faezh	
-41	3541	faou	
-42	3542	feukañ	feukiñ
-43	3543	gasterezh	
-44	3544	kozhni	gozhni
-45	3545	gweet	
-46	3546	hec'h-unan-penn	
-47	3547	lent	
-48	3548	loenoniezh	
-49	3549	lugerniñ	lugernal
-50	3550	ozon	
-51	3551	piz	
-52	3552	blin	plin
-53	3553	trebez	
-54	3554	aba	
-55	3555	parlamanter	barlamanterien
-56	3556	follez	
-57	3557	laouenan	
-58	3558	esa	
-59	3559	kiañ	giañ gies kies kife kifen kifes
-60	3560	lili	lilienn
-61	3561	ankounac'haat	ankounac'haan
-62	3562	apotikerezh	apotikerezhioù
-63	3563	baleer	baleerien valeerien
-64	3564	pardoniñ	bardoniñ pardonot
-65	3565	blotvil	blotviled
-66	3566	karotez	c'harotez
-67	3567	koadourez	c'hoadour koadourien
-68	3568	tennadeg	dennadeg
-69	3569	dic'haou	zic'haou
-70	3570	diferad	diferadoù
-71	3571	dilemel	dilami dilamo tilemel zilemel
-72	3572	evn-mor	evned-mor
-73	3573	gavotenn	gavotennoù
-74	3574	genn	gennoù
-75	3575	gouestoni	c'houestoni
-76	3576	goveliañ	c'hoveliañ
-77	3577	gwarediñ	warediñ
-78	3578	heureuchin	heureuchinez
-79	3579	isgenad	isgenadoù
-80	3580	islavarenn	islavarennoù
-81	3581	kampiñ	c'hampiñ gampiñ kampañ
-82	3582	kleñvedus	c'hleñvedus
-83	3583	kozhañ	gozhañ
-84	3584	langaj	langajoù
-85	3585	liorzhour	liorzhourien
-86	3586	liñsel	liñselioù
-87	3587	luc'heilerez	luc'heilerezioù
-88	3588	mallus	mallusoc'h
-89	3589	martezeañ	martezeiñ vartezeañ
-90	3590	mouest	vouest
-91	3591	panez	panes
-92	3592	paseporzh	paseporzhioù
-93	3593	penn-bazh	fenn-bazh
-94	3594	rakvarn	rakvarnioù
-95	3595	skourrad	skourradoù
-96	3596	stalaf	stalafioù
-97	3597	termometr	termometroù
-98	3598	toullgofet	doullgofet
-99	3599	tour-ged	tourioù-ged
-100	3600	tour-iliz	dour-iliz
+1	3501	troazhañ	droazhañ troazhan troazhas troazhe troazhec'h troazhemp troazhen troazhent troazhes troazhet troazhez troazhfe troazhfec'h troazhfed troazhfemp troazhfen troazhfent troazhfes troazhi troazhimp troazhin troazhint troazhis troazhit troazhiñ troazhje troazhjec'h troazhjed troazhjemp troazhjen troazhjent troazhjes troazhjoc'h troazhjod troazhjomp troazhjont troazhjout troazho troazhomp troazhont troazhor troazhot
+2	3502	bolz-enor	bolzioù-enor volz-enor
+3	3503	breserezh	vreserezh
+4	3504	bulgarek	vulgarek
+5	3505	distan	distanañ zistanañ
+6	3506	darañ	daras darec'h daremp daren darent dares daret darez darfe darfec'h darfed darfemp darfen darfent darfes dari darimp darin darint daris darit dariñ darje darjec'h darjed darjemp darjen darjent darjes darjoc'h darjod darjomp darjont darjout daro daromp daront daror darot tarañ tarot zarañ
+7	3507	bam	pam
+8	3508	disglavier	disglavieroù zisglavier
+9	3509	doareenn	doareennoù zoareennoù
+10	3510	goulakaat	c'houlaka c'houlakaat goulaka goulakaan goulakaas goulakae goulakaec'h goulakaemp goulakaen goulakaent goulakaes goulakaet goulakaez goulakafe goulakafec'h goulakafed goulakafemp goulakafen goulakafent goulakafes goulakai goulakaimp goulakain goulakaint goulakais goulakait goulakaje goulakajec'h goulakajed goulakajemp goulakajen goulakajent goulakajes goulakajoc'h goulakajod goulakajomp goulakajont goulakajout goulakao goulakaomp goulakaont goulakaor goulakaot
+11	3511	goullonderiñ	c'houllonderas c'houllonderiñ goullonder goullonderan goullonderas goullondere goullonderec'h goullonderemp goullonderen goullonderent goullonderes goullonderet goullonderez goullonderfe goullonderfec'h goullonderfed goullonderfemp goullonderfen goullonderfent goullonderfes goullonderi goullonderimp goullonderin goullonderint goullonderis goullonderit goullonderje goullonderjec'h goullonderjed goullonderjemp goullonderjen goullonderjent goullonderjes goullonderjoc'h goullonderjod goullonderjomp goullonderjont goullonderjout goullondero goullonderomp goullonderont goullonderor goullonderot koullonderiñ
+12	3512	korvent	c'horventoù korventoù
+13	3513	kulator	c'hulator kulatorez
+14	3514	laou	laouenn
+15	3515	liñvadenn	liñvadennoù
+16	3516	luskellat	luskell luskellan luskellas luskellañ luskelle luskellec'h luskellemp luskellen luskellent luskelles luskellet luskellez luskellfe luskellfec'h luskellfed luskellfemp luskellfen luskellfent luskellfes luskelli luskellimp luskellin luskellint luskellis luskellit luskellje luskelljec'h luskelljed luskelljemp luskelljen luskelljent luskelljes luskelljoc'h luskelljod luskelljomp luskelljont luskelljout luskello luskellomp luskellont luskellor luskellot
+17	3517	merc'h-kaer	verc'h-kaer
+18	3518	pasianted	basianted
+19	3519	garmal	c'harmal karmal
+20	3520	poulzañ	boulz poulz poulzan poulzas poulze poulzec'h poulzemp poulzen poulzent poulzes poulzet poulzez poulzfe poulzfec'h poulzfed poulzfemp poulzfen poulzfent poulzfes poulzi poulzimp poulzin poulzint poulzis poulzit poulzje poulzjec'h poulzjed poulzjemp poulzjen poulzjent poulzjes poulzjoc'h poulzjod poulzjomp poulzjont poulzjout poulzo poulzomp poulzont poulzor poulzot
+21	3521	broc'hañ	broc'han broc'has broc'he broc'hec'h broc'hemp broc'hen broc'hent broc'hes broc'het broc'hfe broc'hfec'h broc'hfed broc'hfemp broc'hfen broc'hfent broc'hfes broc'hi broc'himp broc'hin broc'hint broc'his broc'hit broc'hje broc'hjec'h broc'hjed broc'hjemp broc'hjen broc'hjent broc'hjes broc'hjoc'h broc'hjod broc'hjomp broc'hjont broc'hjout broc'ho broc'homp broc'hont broc'hor broc'hot vroc'has
+22	3522	disentiñ	disentan disentas disente disentec'h disentemp disenten disentent disentes disentet disentez disentfe disentfec'h disentfed disentfemp disentfen disentfent disentfes disenti disentimp disentin disentint disentis disentit disentje disentjec'h disentjed disentjemp disentjen disentjent disentjes disentjoc'h disentjod disentjomp disentjont disentjout disento disentomp disentont disentor disentot disentout tisentas zisentas zisentiñ
+23	3523	eoriañ	eori eorian eorias eorie eoriec'h eoriemp eorien eorient eories eoriet eoriez eorife eorifec'h eorifed eorifemp eorifen eorifent eorifes eorii eoriimp eoriin eoriint eoriis eoriit eorije eorijec'h eorijed eorijemp eorijen eorijent eorijes eorijoc'h eorijod eorijomp eorijont eorijout eorio eoriomp eoriont eorior eoriot eoriñ
+24	3524	foton	fotonioù fotonoù
+25	3525	gedour	geder gedourien gedourion
+26	3526	halañ	hal halan halas hale halec'h halemp halen halent hales halet halez halfe halfec'h halfed halfemp halfen halfent halfes hali halimp halin halint halis halit halje haljec'h haljed haljemp haljen haljent haljes haljoc'h haljod haljomp haljont haljout halo halomp halont halor halot
+27	3527	harzh	harzhioù harzhoù
+28	3528	kenfinañ	c'henfinañ genfinañ kenfin kenfinan kenfinas kenfine kenfinec'h kenfinemp kenfinen kenfinent kenfines kenfinet kenfinez kenfinfe kenfinfec'h kenfinfed kenfinfemp kenfinfen kenfinfent kenfinfes kenfini kenfinimp kenfinin kenfinint kenfinis kenfinit kenfinje kenfinjec'h kenfinjed kenfinjemp kenfinjen kenfinjent kenfinjes kenfinjoc'h kenfinjod kenfinjomp kenfinjont kenfinjout kenfino kenfinomp kenfinont kenfinor kenfinot
+29	3529	salviñ	salv salvan salvas salvañ salve salvec'h salvemp salven salvent salves salvet salvez salvfe salvfec'h salvfed salvfemp salvfen salvfent salvfes salvi salvimp salvin salvint salvis salvit salvje salvjec'h salvjed salvjemp salvjen salvjent salvjes salvjoc'h salvjod salvjomp salvjont salvjout salvo salvomp salvont salvor salvot
+30	3530	spilhenn	spilhennoù spilhoù
+31	3531	tachañ	tachan tachas tache tachec'h tachemp tachen tachent taches tachet tachez tachfe tachfec'h tachfed tachfemp tachfen tachfent tachfes tachi tachimp tachin tachint tachis tachit tachiñ tachje tachjec'h tachjed tachjemp tachjen tachjent tachjes tachjoc'h tachjod tachjomp tachjont tachjout tacho tachomp tachont tachor tachot
+32	3532	ti-debriñ	tier-debriñ tiez-debriñ
+33	3533	difoupañ	difoup difoupan difoupas difoupe difoupec'h difoupemp difoupen difoupent difoupes difoupet difoupez difoupfe difoupfec'h difoupfed difoupfemp difoupfen difoupfent difoupfes difoupi difoupimp difoupin difoupint difoupis difoupit difoupje difoupjec'h difoupjed difoupjemp difoupjen difoupjent difoupjes difoupjoc'h difoupjod difoupjomp difoupjont difoupjout difoupo difoupomp difoupont difoupor difoupot tifoup tifoupañ tifoupfe zifoupañ
+34	3534	dirañ	diran diras dire direc'h diremp diren dirent dires direz dirfe dirfec'h dirfed dirfemp dirfen dirfent dirfes dirimp dirin dirint diris dirit diriñ dirje dirjec'h dirjed dirjemp dirjen dirjent dirjes dirjoc'h dirjod dirjomp dirjont dirjout diro diromp diront diror dirot tire tirer ziren
+35	3535	karour	garer garour garourien karer karourien
+36	3536	adaskell	adeskell
+37	3537	albaneg	
+38	3538	amerikiom	
+39	3539	anion	anionoù
+40	3540	anoued	
+41	3541	arsenik	
+42	3542	arvelen	
+43	3543	bamus	
+44	3544	begeg	
+45	3545	besk	
+46	3546	bizoù	bizeier
+47	3547	boued-mor	
+48	3548	braziliat	
+49	3549	chañsus	
+50	3550	chouchenn	
+51	3551	damant	
+52	3552	danek	
+53	3553	deuet-mat	
+54	3554	diaoulek	
+55	3555	digalon	
+56	3556	disent	
+57	3557	diseven	
+58	3558	divlaz	
+59	3559	dizampart	
+60	3560	dizifenn	
+61	3561	endervezh	
+62	3562	entanus	
+63	3563	estonus	
+64	3564	etrerannyezhel	
+65	3565	etresteredel	
+66	3566	feukus	
+67	3567	figus	
+68	3568	foenn	
+69	3569	frikorneg	
+70	3570	kazel-yev	gazel-ge
+71	3571	germaniom	
+72	3572	gwarizius	
+73	3573	hebleg	
+74	3574	hirbadus	
+75	3575	hirgarrezenn	
+76	3576	hon-unan	
+77	3577	hudourez	
+78	3578	iridiom	
+79	3579	italianegerez	italianegerien
+80	3580	izelvor	
+81	3581	javed	
+82	3582	keuneud	
+83	3583	kistin	
+84	3584	kloridenn	
+85	3585	kofek	
+86	3586	kourtes	
+87	3587	lantanom	
+88	3588	laouek	
+89	3589	lart	
+90	3590	lazhus	
+91	3591	leizh	
+92	3592	lestr-karg	
+93	3593	lidek	
+94	3594	litr	
+95	3595	lounezh	
+96	3596	magadurezh	
+97	3597	makron	
+98	3598	meinek	
+99	3599	menezek	
+100	3600	merglet	

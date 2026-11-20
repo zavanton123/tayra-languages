@@ -5,30 +5,30 @@
 5	405	heuliad	heuliadoù
 6	406	debriñ	debr debran debras debre debrec'h debred debremp debren debrent debrer debrerien debres debret debrez debrfe debrfec'h debrfed debrfemp debrfen debrfent debrfes debri debrimp debrin debrint debris debrit debrje debrjec'h debrjed debrjemp debrjen debrjent debrjes debrjoc'h debrjod debrjomp debrjont debrjout debro debroc'h debromp debront debror debrot tebr tebre tebrent tebrer tebrfent tebriñ tebro tebront zebr zebras zebre zebred zebrent zebrer zebriñ zebro zebromp zebront
 7	407	penaos	benaos
-8	408	skinwel	
+8	408	skinwel	skinwelioù skinweloù
 9	409	heñvel	heñveloc'h
 10	410	relijion	relijionoù
 11	411	ezhomm	ezhommoù
-12	412	benveg	benvegoù binviji binvioù venveg vinvioù
-13	413	distrujañ	distrujet distrujiñ tistrujañ zistrujañ zistrujet
+12	412	benveg	benvegioù benvegoù binviji binvioù venveg vinvioù
+13	413	distrujañ	distrujan distrujas distruje distrujec'h distrujemp distrujen distrujent distrujes distrujet distrujez distrujfe distrujfec'h distrujfed distrujfemp distrujfen distrujfent distrujfes distruji distrujimp distrujin distrujint distrujis distrujit distrujiñ distrujje distrujjec'h distrujjed distrujjemp distrujjen distrujjent distrujjes distrujjoc'h distrujjod distrujjomp distrujjont distrujjout distrujo distrujomp distrujont distrujor distrujot tistrujañ tistrujont zistrujas zistrujañ zistruje zistrujet zistrujje zistrujjont
 14	414	heul	
 15	415	seizh	
 16	416	renk	renkoù
 17	417	izel	izelañ izeloc'h
 18	418	lizherenn	lizherennoù
 19	419	hon	hol hor
-20	420	tec'hel	dec'han dec'has dec'he dec'hel dec'ho dec'hout tec'h tec'has tec'hat tec'het tec'hout
+20	420	tec'hel	dec'han dec'has dec'he dec'hel dec'ho dec'hout tec'h tec'has tec'hat tec'hec'h tec'hemp tec'hen tec'hent tec'het tec'hez tec'hfe tec'hfec'h tec'hfed tec'hfemp tec'hfen tec'hfent tec'hfes tec'hi tec'himp tec'hin tec'hint tec'his tec'hje tec'hjec'h tec'hjed tec'hjemp tec'hjen tec'hjent tec'hjes tec'hjoc'h tec'hjod tec'hjomp tec'hjont tec'hjout tec'homp tec'hont tec'hot tec'hout
 21	421	kerzu	
 22	422	pelec'h	belec'h fele pele
 23	423	jeneral	jeneraled
 24	424	kontañ	c'hontañ c'honter gontas gontañ gonter gonterien gonto kontan kontas konte konter konterien kontfe kontfec'h kontfed kontfemp kontfen kontfent kontfes kontimp kontiñ kontje kontjec'h kontjed kontjemp kontjen kontjent kontjes konto kontoc'h kontont kontor kontot
-25	425	degas	tegas zegas
+25	425	degas	degasan degasas degase degasec'h degasemp degasen degasent degases degaset degasez degasfe degasfec'h degasfed degasfemp degasfen degasfent degasfes degasi degasimp degasin degasint degasis degasit degasje degasjec'h degasjed degasjemp degasjen degasjent degasjes degasjoc'h degasjod degasjomp degasjont degasjout degaso degasomp degasont degasor degasot tegas tegasas tegase tegasfe tegasfent tegasjont tegaso zegas zegasas zegase zegasfe zegasje zegasjont zegaso zegasont
 26	426	danevell	danevelloù tanevell zanevell zanevelloù
-27	427	echuiñ	echuas echuañ echuet echuit echuje echuo
+27	427	echuiñ	echuan echuas echuañ echue echuec'h echuemp echuen echuent echues echuet echuez echufe echufec'h echufed echufemp echufen echufent echufes echui echuimp echuin echuint echuis echuit echuje echujec'h echujed echujemp echujen echujent echujes echujoc'h echujod echujomp echujont echujout echuo echuomp echuont echuor echuot
 28	428	maen	mein vaen vein
 29	429	gouere	gouhere
-30	430	ton	donioù tonioù zonioù
-31	431	levezon	
+30	430	ton	donioù tonioù tonoù zonioù
+31	431	levezon	levezonioù levezonoù
 32	432	gellout	c'hellan c'hellas c'helle c'helled c'hellent c'heller c'hellet c'hellez c'hellfe c'hellfed c'hellfemp c'hellfent c'hellimp c'hellin c'hellint c'hellit c'hellje c'helljed c'helljen c'helljent c'helljomp c'helljont c'hello c'helloc'h c'hellomp c'hellont c'hellor c'hellout gell gellan gellas gelle gellec'h gelled gellemp gellen gellent geller gelles gellet gellez gellfe gellfec'h gellfed gellfemp gellfen gellfent gellfes gelli gellimp gellin gellint gellis gellit gellje gelljec'h gelljed gelljemp gelljen gelljent gelljes gelljoc'h gelljod gelljomp gelljont gelljout gello gelloc'h gellomp gellont gellor gellot
 33	433	redek	redan redas rede redec'h reded redeg redemp reden redent reder rederez rederien redes redet redez redfe redfen redfes redi redin redis redit redo redoc'h redomp redont redor redot
 34	434	bern	bernioù vern vernioù
@@ -43,7 +43,7 @@
 43	443	mouezh	mouezhioù vouezh vouezhioù
 44	444	resis	resisañ resisoc'h
 45	445	poltred	boltred boltredoù foltred poltredoù
-46	446	gortoz	c'hortoz c'hortozas c'hortoze gorteiñ gortos gortozan gortozas gortoze gortozet gortozimp gortozin gortozit gortozomp kortoz
+46	446	gortoz	c'hortoz c'hortozas c'hortoze c'hortozjont c'hortozont gorteiñ gortos gortozan gortozas gortoze gortozec'h gortozemp gortozen gortozent gortozes gortozet gortozez gortozfe gortozfec'h gortozfed gortozfemp gortozfen gortozfent gortozfes gortozi gortozimp gortozin gortozint gortozis gortozit gortozje gortozjec'h gortozjed gortozjemp gortozjen gortozjent gortozjes gortozjoc'h gortozjod gortozjomp gortozjont gortozjout gortozo gortozomp gortozont gortozor gortozot kortoz kortozo
 47	447	tagañ	dagas dagañ dago dagor tagan tagas tage taget tagfe tagfec'h tagfed tagfemp tagfen tagfent tagfes tagis tagiñ tagje tagjec'h tagjed tagjemp tagjen tagjent tagjes tago tagoc'h tagont tagor tagot zagañ zaget
 48	448	arall	
 49	449	poblet	boblet bobletañ pobletañ pobletoc'h
@@ -51,48 +51,48 @@
 51	451	egile	
 52	452	yuzev	yuzevez yuzevien yuzevion
 53	453	porzh	berzhier borzh ferzhier forzhioù perzhier porzhioù porzhoù
-54	454	gwezh	gwezhioù wezh wezhioù
+54	454	gwezh	gwezhioù gwezhoù wezh wezhioù
 55	455	kreizenn	c'hreizenn c'hreizennoù greizenn greizennoù kreizennoù
 56	456	war-raok	
 57	457	petra	betra
 58	458	man	van
-59	459	giz	c'hiz c'hizioù gizioù kizioù
+59	459	giz	c'hiz c'hizioù gizioù gizoù kizioù
 60	460	liammet	
-61	461	enklask	enklasker enklaskerien enklaskerion enklaskoù
+61	461	enklask	enklaskan enklaskas enklaske enklaskec'h enklaskemp enklasken enklaskent enklasker enklaskerien enklaskerion enklaskes enklasket enklaskez enklaskfe enklaskfec'h enklaskfed enklaskfemp enklaskfen enklaskfent enklaskfes enklaski enklaskimp enklaskin enklaskint enklaskis enklaskit enklaskje enklaskjec'h enklaskjed enklaskjemp enklaskjen enklaskjent enklaskjes enklaskjoc'h enklaskjod enklaskjomp enklaskjont enklaskjout enklasko enklaskomp enklaskont enklaskor enklaskot enklaskoù
 62	462	tenn	denn dennoù tennoc'h tennoù zenn
 63	463	gouest	ouest
 64	464	lerc'h	
-65	465	maez	maes maezioù
+65	465	maez	maes maezioù maezoù
 66	466	adarre	
 67	467	ment	mentoù vent ventoù
 68	468	teurel	daolas daole daolent daoler daolfe daolfent daolint daolo daolont deul deuler deurel taolan taolas taole taolec'h taoled taolemp taolen taolent taoler taoles taolet taolez taolfe taolfec'h taolfed taolfemp taolfen taolfent taolfes taoli taolimp taolin taolint taolis taolit taolje taoljec'h taoljed taoljemp taoljen taoljent taoljes taoljoc'h taoljod taoljomp taoljont taoljout taolo taolomp taolont taolor taolot teul teulel teuler zaolet zeul zeuler zeurel
 69	469	digeriñ	digoran digoras digore digorec'h digored digoremp digoren digorent digorer digores digoret digorez digorfe digorfec'h digorfed digorfemp digorfen digorfent digorfes digori digorimp digorin digorint digoris digorit digoriñ digorje digorjec'h digorjed digorjemp digorjen digorjent digorjes digorjoc'h digorjod digorjomp digorjont digorjout digoro digoroc'h digoromp digoront digoror digorot tigeriñ tigoras tigorer tigorjont tigoro zigeriñ zigoras zigore zigoriñ zigoro
 70	470	terriñ	derriñ dorr dorras dorre dorret dorrfe dorrfent dorrint dorront torr torran torras torre torrec'h torred torremp torren torrent torrer torres torret torrez torrfe torrfec'h torrfed torrfemp torrfen torrfent torrfes torri torrimp torrin torrint torris torrit torrje torrjec'h torrjed torrjemp torrjen torrjent torrjes torrjoc'h torrjod torrjomp torrjont torrjout torro torroc'h torromp torront torror torrot torroù zerriñ zorro
 71	471	reolenn	reolennoù
-72	472	talvezout	dalvezout
+72	472	talvezout	dalvez dalvezas dalveze dalvezent dalvezfe dalvezje dalvezo dalvezont dalvezout talvez talvezan talvezas talveze talvezec'h talvezemp talvezen talvezent talvezes talvezet talvezez talvezfe talvezfec'h talvezfed talvezfemp talvezfen talvezfent talvezfes talvezi talvezimp talvezin talvezint talvezis talvezit talvezje talvezjec'h talvezjed talvezjemp talvezjen talvezjent talvezjes talvezjoc'h talvezjod talvezjomp talvezjont talvezjout talvezo talvezomp talvezont talvezor talvezot zalvez zalveze
 73	473	boued	bouedenn bouedoù voued vouedenn
 74	474	hi	
-75	475	adsevel	adsavet
+75	475	adsevel	adsav adsavan adsavas adsave adsavec'h adsavemp adsaven adsavent adsaves adsavet adsavez adsavfe adsavfec'h adsavfed adsavfemp adsavfen adsavfent adsavfes adsavi adsavimp adsavin adsavint adsavis adsavit adsavje adsavjec'h adsavjed adsavjemp adsavjen adsavjent adsavjes adsavjoc'h adsavjod adsavjomp adsavjont adsavjout adsavo adsavomp adsavont adsavor adsavot
 76	476	kannad	c'hannad c'hannaded c'hannadoù gannad gannaded kannaded kannadoù
 77	477	hemañ	
-78	478	herzel	harze harzed harzer harzet harzez harzo
+78	478	herzel	harzan harzas harze harzec'h harzed harzemp harzen harzent harzer harzes harzet harzez harzfe harzfec'h harzfed harzfemp harzfen harzfent harzfes harzi harzimp harzin harzint harzis harzit harzje harzjec'h harzjed harzjemp harzjen harzjent harzjes harzjoc'h harzjod harzjomp harzjont harzjout harzo harzomp harzont harzor harzot
 79	479	hevelep	
 80	480	adal	
 81	481	stag	
-82	482	astenn	astennet astenniñ astennoù
+82	482	astenn	astennan astennas astenne astennec'h astennemp astennen astennent astennes astennet astennez astennfe astennfec'h astennfed astennfemp astennfen astennfent astennfes astenni astennimp astennin astennint astennis astennit astenniñ astennje astennjec'h astennjed astennjemp astennjen astennjent astennjes astennjoc'h astennjod astennjomp astennjont astennjout astenno astennomp astennont astennor astennot astennoù
 83	483	c'hwec'h	
-84	484	sinañ	sinan sinas sines sinet sinis sinit siniñ sino sinot
+84	484	sinañ	sinan sinas sinec'h sinemp sinen sinent sines sinet sinez sinfe sinfec'h sinfed sinfemp sinfen sinfent sinfes sini sinimp sinin sinint sinis sinit siniñ sinje sinjec'h sinjed sinjemp sinjen sinjent sinjes sinjoc'h sinjod sinjomp sinjont sinjout sino sinomp sinont sinor sinot
 85	485	ofiser	ofiserez ofiserien ofisour
 86	486	lezel	lezan lezas leze lezec'h lezed lezemp lezen lezent lezer lezes lezet lezez lezfe lezfec'h lezfed lezfemp lezfen lezfent lezfes lezi lezimp lezin lezint lezis lezit lezje lezjec'h lezjed lezjemp lezjen lezjent lezjes lezjoc'h lezjod lezjomp lezjont lezjout lezo lezoc'h lezomp lezont lezor lezot
 87	487	livour	livourez livourezed livourien livourion
-88	488	daremprediñ	darempred tarempred taremprediñ zarempred zaremprediñ
+88	488	daremprediñ	darempred darempredan darempredas daremprede darempredec'h darempredemp darempreden darempredent darempredes darempredet darempredez darempredfe darempredfec'h darempredfed darempredfemp darempredfen darempredfent darempredfes darempredi daremprediet darempredimp darempredin darempredint darempredis darempredit darempredje darempredjec'h darempredjed darempredjemp darempredjen darempredjent darempredjes darempredjoc'h darempredjod darempredjomp darempredjont darempredjout darempredo darempredomp darempredont darempredor darempredot tarempred tarempredas taremprede taremprediñ tarempredjont zarempred zarempredas zaremprede zarempredent zaremprediñ zarempredont
 89	489	noz	nos nozioù
 90	490	redadeg	redadegoù
 91	491	pinvidik	binvidik binvidikañ pinvidikat pinvidikañ pinvidikoc'h
 92	492	raktres	raktresoù
 93	493	aour	
-94	494	harz	harzoù harzoù-labour
-95	495	ster	sterenn sterioù
+94	494	harz	harzioù harzoù harzoù-labour
+95	495	ster	sterenn sterennoù sterioù
 96	496	gouel	c'houel c'houelioù gouelioù ouel
 97	497	istorel	
 98	498	atav	

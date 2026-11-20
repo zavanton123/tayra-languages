@@ -1,100 +1,100 @@
-1	2401	neutron	neutronenn neutronennoù
-2	2402	bili	bilienn fili vili
-3	2403	tenor	denor denored tenored
-4	2404	peurechuiñ	beurechuiñ peurachuet peurachuiñ
-5	2405	brient	brientoù prient vrient
-6	2406	aketus	
-7	2407	arver	
-8	2408	askornek	
-9	2409	bailh	
-10	2410	breinadur	
-11	2411	diniver	
-12	2412	doñv	
-13	2413	leviañ	
-14	2414	manaveg	
-15	2415	stabilaat	
-16	2416	brug	
-17	2417	didruez	
-18	2418	heug	
-19	2419	karantezus	
-20	2420	limestra	
-21	2421	noazus	
-22	2422	serr-noz	
-23	2423	yenaat	yennaad
-24	2424	amann	
-25	2425	yun	
-26	2426	lorc'hus	
-27	2427	eilvet	
-28	2428	ampoezon	ampoezonoù
-29	2429	brokus	vrokusañ
-30	2430	droch	zroch
-31	2431	foetañ	foet foetal foeter foeti foetor
-32	2432	privezioù	brivezioù
-33	2433	troazh	zroazh
-34	2434	manifestiñ	manifestañ vanifestiñ
-35	2435	dic'hallus	
-36	2436	eneb	eneboù
-37	2437	kafe	kafeoù
-38	2438	risklus	risklusoc'h
-39	2439	jarl	jarloù
-40	2440	dornell	dornelloù zornell
-41	2441	kenedus	genedus kenedusañ
-42	2442	revr	revrioù
-43	2443	eürus	eürusañ eürusoc'h
-44	2444	erv	irvi
-45	2445	gell-du	c'hell-du
-46	2446	alamaneger	alamanegerien
-47	2447	braventez	vraventez
-48	2448	c'hoariell	c'hoarielloù
-49	2449	dant	zant
-50	2450	dibenn-sizhun	dibennoù-sizhun
-51	2451	muntrañ	muntriñ vuntrañ
-52	2452	postel	posteloù
-53	2453	pradenn	bradenn pradennoù
-54	2454	presbital	bresbital presbitalioù
-55	2455	stroñs	stroñsoù
-56	2456	korzenn	gorzenn
-57	2457	hanterour	hanterourez hanterourien
-58	2458	bouzar	vouzar
-59	2459	gwallañ	gwalliñ wallañ
-60	2460	rebech	rebechat rebechiñ
-61	2461	tristidigezh	dristidigezh
-62	2462	horolaj	horolajoù
-63	2463	digas	tigas zigas
-64	2464	o-zri	o-zeir
-65	2465	kouronkañ	gouronkañ kouronkat kouronkiñ
-66	2466	neuiñ	neu neuan neuas neue neuec'h neued neuemp neuen neuent neuer neues neuet neuez neufe neufec'h neufed neufemp neufen neufent neufes neui neuimp neuin neuint neuis neuit neuje neujen neujes neujout neuo neuoc'h neuomp neuont neuor neuot
-67	2467	karrdi	c'harrdi karrdioù
-68	2468	diogel	tiogel ziogel
-69	2469	direizhder	direizhderioù zireizhder
-70	2470	galloudek	c'halloudek galloudekañ galloudekoc'h
-71	2471	kevnid	gevnidenn kevnidenn
-72	2472	kredour	gredourien kredourez kredourien
-73	2473	ivin	ivinoù
-74	2474	mandarin	mandarined vandarined
-75	2475	biñs	biñsoù piñs viñs viñsoù
-76	2476	piler	pilerioù pileroù
-77	2477	klozañ	c'hlozañ glozañ klozas klozis kloziñ klozor
-78	2478	korfadurezh	c'horfadurezh gorfadurezh
-79	2479	hejañ	hejal hejas heje hejet hejfe hejfec'h hejfed hejfemp hejfen hejfent hejfes hejimp hejis hejiñ hejje hejjec'h hejjed hejjemp hejjen hejjent hejjes hejjoc'h hejjod hejjomp hejjont hejjout hejoc'h hejor hejot
-80	2480	dreser	dreserien dreserion treserez treserien
-81	2481	kaozeadenn	c'haozeadennoù gaozeadenn gaozeadennoù kaozeadennoù
-82	2482	krib	c'hrib c'hriboù grib kriboù
-83	2483	kouviad	c'houviad gouviad gouviidi kouviadez
-84	2484	kell	c'helloù divgell gelloù gilli kelloù killioù
-85	2485	magerez	mager magerezed magerien vagerez vagerien
-86	2486	samm	sammoù semmen
-87	2487	barv	barvenn barvioù
-88	2488	kanab	c'hanab ganab
-89	2489	lasañ	laser laset lasis lasiñ lasje lasoc'h
-90	2490	gwak	gwakañ gwakoc'h wak
-91	2491	feurmiñ	feurmer feurmerien feurmerion
-92	2492	gwazh-dour	gwazhioù-dour wazh-dour wazhioù-dour
-93	2493	kaoter	gaoter kaoterioù
-94	2494	brodañ	brod broder brodis brodiñ brodor prodañ prodi vrodañ
-95	2495	aluminiom	
-96	2496	atmosferenn	
-97	2497	daneg	
-98	2498	didermen	
-99	2499	gorilh	gorilhed
-100	2500	hegarat	
+1	2401	bleud	bleudoù vleud
+2	2402	frammadur	frammadurioù
+3	2403	mantrus	vantrus
+4	2404	avielañ	aviel avielan avielas aviele avielec'h avielemp avielen avielent avieles avielet avielez avielfe avielfec'h avielfed avielfemp avielfen avielfent avielfes avieli avielimp avielin avielint avielis avielit avieliñ avielje avieljec'h avieljed avieljemp avieljen avieljent avieljes avieljoc'h avieljod avieljomp avieljont avieljout avielo avielomp avielont avielor avielot
+5	2405	froud	froudoù
+6	2406	dilaoskiñ	dilaosk dilaoskan dilaoskas dilaoske dilaoskec'h dilaoskemp dilaosken dilaoskent dilaoskes dilaosket dilaoskez dilaoskfe dilaoskfec'h dilaoskfed dilaoskfemp dilaoskfen dilaoskfent dilaoskfes dilaoski dilaoskimp dilaoskin dilaoskint dilaoskis dilaoskit dilaoskje dilaoskjec'h dilaoskjed dilaoskjemp dilaoskjen dilaoskjent dilaoskjes dilaoskjoc'h dilaoskjod dilaoskjomp dilaoskjont dilaoskjout dilaosko dilaoskomp dilaoskont dilaoskor dilaoskot tilaoskiñ zilaoske zilaoskfe zilaoskiñ
+7	2407	komunouriezh	gomunouriezh
+8	2408	koustus	goustus koustusoc'h
+9	2409	ebeul	ebeulez ebeulien ebeulioù
+10	2410	spazhañ	spazhan spazhas spazhe spazhec'h spazhemp spazhen spazhent spazhes spazhet spazhez spazhfe spazhfec'h spazhfed spazhfemp spazhfen spazhfent spazhfes spazhi spazhimp spazhin spazhint spazhis spazhit spazhje spazhjec'h spazhjed spazhjemp spazhjen spazhjent spazhjes spazhjoc'h spazhjod spazhjomp spazhjont spazhjout spazho spazhomp spazhont spazhor spazhot
+11	2411	goveliañ	c'hoveliañ goveli govelian govelias govelie goveliec'h goveliemp govelien govelient govelies goveliet goveliez govelife govelifec'h govelifed govelifemp govelifen govelifent govelifes govelii goveliimp goveliin goveliint goveliis goveliit govelije govelijec'h govelijed govelijemp govelijen govelijent govelijes govelijoc'h govelijod govelijomp govelijont govelijout govelio goveliomp goveliont govelior goveliot
+12	2412	diverrañ	diverr diverral diverran diverras diverre diverrec'h diverremp diverren diverrent diverres diverret diverrez diverrfe diverrfec'h diverrfed diverrfemp diverrfen diverrfent diverrfes diverri diverrimp diverrin diverrint diverris diverrit diverriñ diverrje diverrjec'h diverrjed diverrjemp diverrjen diverrjent diverrjes diverrjoc'h diverrjod diverrjomp diverrjont diverrjout diverro diverromp diverront diverror diverrot tiverrañ ziverr ziverrañ
+13	2413	kempredad	c'hempredad c'hempredidi gempredidi kempredidi
+14	2414	pourmenadenn	bourmenadenn bourmenadennoù fourmenadennoù pourmenadennoù
+15	2415	spisaat	spisa spisaan spisaas spisae spisaec'h spisaemp spisaen spisaent spisaes spisaet spisaez spisafe spisafec'h spisafed spisafemp spisafen spisafent spisafes spisai spisaimp spisain spisaint spisais spisait spisaje spisajec'h spisajed spisajemp spisajen spisajent spisajes spisajoc'h spisajod spisajomp spisajont spisajout spisao spisaomp spisaont spisaor spisaot
+16	2416	loa	loaioù
+17	2417	kengred	c'hengred gengred
+18	2418	breutaat	breuta breutaan breutaas breutae breutaec'h breutaemp breutaen breutaent breutaes breutaet breutaez breutafe breutafec'h breutafed breutafemp breutafen breutafent breutafes breutai breutaimp breutain breutaint breutais breutait breutaje breutajec'h breutajed breutajemp breutajen breutajent breutajes breutajoc'h breutajod breutajomp breutajont breutajout breutao breutaomp breutaont breutaor breutaot vreutaas vreutaat
+19	2419	kaier	c'haier gaier gaieroù kaieroù
+20	2420	pur	bur bure buri furet purañ pure
+21	2421	torzh	dorzh torzhioù
+22	2422	yev	yew
+23	2423	sec'hor	
+24	2424	gwerin	werin
+25	2425	neizhiañ	neizhañ neizhi neizhian neizhias neizhie neizhiec'h neizhiemp neizhien neizhient neizhies neizhiet neizhiez neizhife neizhifec'h neizhifed neizhifemp neizhifen neizhifent neizhifes neizhii neizhiimp neizhiin neizhiint neizhiis neizhiit neizhije neizhijec'h neizhijed neizhijemp neizhijen neizhijent neizhijes neizhijoc'h neizhijod neizhijomp neizhijont neizhijout neizhio neizhiomp neizhiont neizhior neizhiot
+26	2426	belgiat	velgiat
+27	2427	mezhus	vezhus
+28	2428	gourenez	c'hourenez
+29	2429	melldroader	melldroaderien velldroader velldroaderien
+30	2430	moskeenn	moskeennoù voskeenn
+31	2431	lezc'hoar	lezc'hoarezed lezvreudeur lezvreur
+32	2432	goprad	c'hopridi gopridi
+33	2433	klotenn	c'hlotennoù glotenn glotennoù klotennoù
+34	2434	louzañ	louz louzan louzas louze louzec'h louzemp louzen louzent louzes louzet louzez louzfe louzfec'h louzfed louzfemp louzfen louzfent louzfes louzi louzimp louzin louzint louzis louzit louzje louzjec'h louzjed louzjemp louzjen louzjent louzjes louzjoc'h louzjod louzjomp louzjont louzjout louzo louzomp louzont louzor louzot
+35	2435	bont	bontoù fontoù pontoù
+36	2436	tenor	denor denored tenored tenorioù
+37	2437	diwiskañ	diwisk diwiskan diwiskas diwiske diwiskec'h diwisked diwiskemp diwisken diwiskent diwisker diwiskes diwisket diwiskez diwiskfe diwiskfec'h diwiskfed diwiskfemp diwiskfen diwiskfent diwiskfes diwiski diwiskimp diwiskin diwiskint diwiskis diwiskit diwiskiñ diwiskje diwiskjec'h diwiskjed diwiskjemp diwiskjen diwiskjent diwiskjes diwiskjoc'h diwiskjod diwiskjomp diwiskjont diwiskjout diwisko diwiskomp diwiskont diwiskor diwiskot tiwiskas tiwiskañ ziwisk ziwiskañ ziwisked
+38	2438	mogeriañ	mogeri mogerian mogerias mogerie mogeriec'h mogeriemp mogerien mogerient mogeries mogeriet mogeriez mogerife mogerifec'h mogerifed mogerifemp mogerifen mogerifent mogerifes mogerii mogeriimp mogeriin mogeriint mogeriis mogeriit mogeriiñ mogerije mogerijec'h mogerijed mogerijemp mogerijen mogerijent mogerijes mogerijoc'h mogerijod mogerijomp mogerijont mogerijout mogerio mogeriomp mogeriont mogerior mogeriot
+39	2439	rampo	
+40	2440	svedeg	
+41	2441	esperanteg	
+42	2442	goell	
+43	2443	dizereat	zizereat
+44	2444	palv	palvoù
+45	2445	ti-post	di-post
+46	2446	klod	glod
+47	2447	diresis	diresisoc'h
+48	2448	pennabeg	pennabegoù
+49	2449	delfin	delfined
+50	2450	gallus	c'hallus
+51	2451	tourc'h	dourc'h
+52	2452	keheder	c'heheder
+53	2453	trubuilhañ	drubuilhas drubuilhañ trubuilhan trubuilhas trubuilhe trubuilhec'h trubuilhemp trubuilhen trubuilhent trubuilhes trubuilhet trubuilhez trubuilhfe trubuilhfec'h trubuilhfed trubuilhfemp trubuilhfen trubuilhfent trubuilhfes trubuilhi trubuilhimp trubuilhin trubuilhint trubuilhis trubuilhit trubuilhje trubuilhjec'h trubuilhjed trubuilhjemp trubuilhjen trubuilhjent trubuilhjes trubuilhjoc'h trubuilhjod trubuilhjomp trubuilhjont trubuilhjout trubuilho trubuilhomp trubuilhont trubuilhor trubuilhot zrubuilhañ
+54	2454	deoliezh	zeoliezh
+55	2455	dron	dronoù
+56	2456	marzhus	varzhus
+57	2457	plom	blom
+58	2458	kuzh-heol	c'huzh-heol
+59	2459	moal	voal
+60	2460	ion	ionoù
+61	2461	laeroñsi	laeroñsioù
+62	2462	peoc'hus	beoc'hus
+63	2463	glac'hariñ	c'hlac'haret glac'haran glac'haras glac'hare glac'harec'h glac'haremp glac'haren glac'harent glac'hares glac'haret glac'harez glac'harfe glac'harfec'h glac'harfed glac'harfemp glac'harfen glac'harfent glac'harfes glac'hari glac'harimp glac'harin glac'harint glac'haris glac'harit glac'harje glac'harjec'h glac'harjed glac'harjemp glac'harjen glac'harjent glac'harjes glac'harjoc'h glac'harjod glac'harjomp glac'harjont glac'harjout glac'haro glac'haromp glac'haront glac'haror glac'harot
+64	2464	dizarmañ	dizarm dizarman dizarmas dizarme dizarmec'h dizarmemp dizarmen dizarment dizarmes dizarmet dizarmez dizarmfe dizarmfec'h dizarmfed dizarmfemp dizarmfen dizarmfent dizarmfes dizarmi dizarmimp dizarmin dizarmint dizarmis dizarmit dizarmiñ dizarmje dizarmjec'h dizarmjed dizarmjemp dizarmjen dizarmjent dizarmjes dizarmjoc'h dizarmjod dizarmjomp dizarmjont dizarmjout dizarmo dizarmomp dizarmont dizarmor dizarmot tizarmañ zizarmañ
+65	2465	goustad	c'houstad goustatoc'h
+66	2466	hesk	heskenn heskennoù
+67	2467	kelc'hiek	gelc'hiek
+68	2468	arc'h	irc'hier
+69	2469	dilemel	dilam dilaman dilamas dilame dilamec'h dilamemp dilamen dilament dilames dilamet dilamez dilamfe dilamfec'h dilamfed dilamfemp dilamfen dilamfent dilamfes dilami dilamimp dilamin dilamint dilamis dilamit dilamje dilamjec'h dilamjed dilamjemp dilamjen dilamjent dilamjes dilamjoc'h dilamjod dilamjomp dilamjont dilamjout dilamo dilamomp dilamont dilamor dilamot tilemel zilemel
+70	2470	stagell	stagelloù
+71	2471	ber	ver
+72	2472	enorus	enorusañ enorusoc'h
+73	2473	lisead	liseadez liseidi
+74	2474	armañ	arman armas armec'h armemp armen arment armer armes armez armfe armfec'h armfed armfemp armfen armfent armfes armi armimp armin armint armis armit armiñ armje armjec'h armjed armjemp armjen armjent armjes armjoc'h armjod armjomp armjont armjout armo armomp armont armor armot
+75	2475	koulm	goulm
+76	2476	bulgar	bulgared vulgar vulgared
+77	2477	brezhonekaat	brezhoneka brezhonekaan brezhonekaas brezhonekae brezhonekaec'h brezhonekaemp brezhonekaen brezhonekaent brezhonekaes brezhonekaet brezhonekaez brezhonekafe brezhonekafec'h brezhonekafed brezhonekafemp brezhonekafen brezhonekafent brezhonekafes brezhonekai brezhonekaimp brezhonekain brezhonekaint brezhonekais brezhonekait brezhonekaje brezhonekajec'h brezhonekajed brezhonekajemp brezhonekajen brezhonekajent brezhonekajes brezhonekajoc'h brezhonekajod brezhonekajomp brezhonekajont brezhonekajout brezhonekao brezhonekaomp brezhonekaont brezhonekaor brezhonekaot prezhonekaat vrezhonekaat vrezhonekaet
+78	2478	arat	arad aret
+79	2479	poan-benn	boan-benn
+80	2480	falc'hun	falc'huned
+81	2481	karc'har	c'harc'har karc'harioù
+82	2482	diogel	diogeloc'h tiogel ziogel
+83	2483	ejen	ejened oc'hen
+84	2484	dimez	timez zimez
+85	2485	bazhata	bazhataan bazhataas bazhatae bazhataec'h bazhataemp bazhataen bazhataent bazhataes bazhataet bazhataez bazhatafe bazhatafec'h bazhatafed bazhatafemp bazhatafen bazhatafent bazhatafes bazhatai bazhataimp bazhatain bazhataint bazhatais bazhatait bazhataje bazhatajec'h bazhatajed bazhatajemp bazhatajen bazhatajent bazhatajes bazhatajoc'h bazhatajod bazhatajomp bazhatajont bazhatajout bazhatao bazhataomp bazhataont bazhataor bazhataot pazhata vazhata vazhataent
+86	2486	kraoñ	c'hraou c'hraoñ c'hrevier graou krevier
+87	2487	kunujenn	gunujenn gunujennoù kunujennoù
+88	2488	kannadour	c'hannadour gannadour gannadourien kannadourien
+89	2489	deredek	dered deredan deredas derede deredec'h deredemp dereden deredent deredes deredet deredez deredfe deredfec'h deredfed deredfemp deredfen deredfent deredfes deredi deredimp deredin deredint deredis deredit derediñ deredje deredjec'h deredjed deredjemp deredjen deredjent deredjes deredjoc'h deredjod deredjomp deredjont deredjout deredo deredomp deredont deredor deredot deredout tered terede teredek zeredas zerede zeredek
+90	2490	gwiader	gwiaderien wiaderien
+91	2491	bili	bilienn fili vili
+92	2492	pistriañ	bistriañ bistriet fistriañ pistri pistrian pistrias pistrie pistriec'h pistriemp pistrien pistrient pistries pistriet pistriez pistrife pistrifec'h pistrifed pistrifemp pistrifen pistrifent pistrifes pistrii pistriimp pistriin pistriint pistriis pistriit pistriiñ pistrije pistrijec'h pistrijed pistrijemp pistrijen pistrijent pistrijes pistrijoc'h pistrijod pistrijomp pistrijont pistrijout pistrio pistriomp pistriont pistrior pistriot
+93	2493	brient	brientoù prient vrient
+94	2494	aketus	
+95	2495	arver	
+96	2496	askornek	
+97	2497	bailh	
+98	2498	breinadur	
+99	2499	diniver	
+100	2500	doñv	
