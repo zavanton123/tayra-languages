@@ -211,9 +211,9 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
     val nav = rememberJourneyNav()
     Row(modifier.fillMaxSize()) {
         ScrollColumn(
-            // The end padding keeps the cards clear of the sidebar's own scrollbar.
-            Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l).fillMaxHeight().testTag("sidebar"),
-            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
+            // The same gap on either side of the cards, measured to the scrollbar on the right.
+            Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l + BAR_ROOM).fillMaxHeight().testTag("sidebar"),
+            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + BAR_ROOM, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             LevelCard(state.journey)
@@ -223,7 +223,7 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
         ScrollColumn(
             Modifier.weight(1f).fillMaxHeight(),
             state = nav.scroll,
-            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.xxxl, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
+            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + BAR_ROOM, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
             verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
         ) {
             ScreenHeader(tr("Courses"), coursesSubtitle(state))
@@ -336,6 +336,9 @@ private fun Results(state: CoursesUiState, actions: CoursesActions, items: @Comp
 }
 
 private val SIDEBAR = 300.dp
+
+/** What a column's scrollbar takes at its right edge on the desktop: the bar and its inset. */
+private val BAR_ROOM = 12.dp
 private val FOUR_COLUMNS = 1000.dp
 private val THREE_COLUMNS = 720.dp
 
