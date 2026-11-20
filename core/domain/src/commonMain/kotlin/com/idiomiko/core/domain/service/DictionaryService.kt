@@ -21,6 +21,7 @@ import com.idiomiko.core.domain.morphology.ChineseScripts
 import com.idiomiko.core.domain.morphology.Japanese
 import com.idiomiko.core.domain.morphology.LanguageMorphology
 import com.idiomiko.core.domain.morphology.Morphology
+import com.idiomiko.core.domain.parse.HausaParser
 import com.idiomiko.core.domain.parse.KhmerParser
 import com.idiomiko.core.domain.parse.PersianParser
 import com.idiomiko.core.domain.repository.DictionaryRepository
@@ -337,10 +338,11 @@ class DictionaryService(
         _packs.update { list -> list.map { if (it.pack.id == id) it.copy(state = state) else it } }
     }
 
-    /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart, Persian writes ک and ی. */
+    /** Packs store keys lowercased the way tools/build_dictionary.py does: Turkish keeps its dotted and dotless i apart, Persian writes ک and ی, Hausa its hooked letters. */
     private fun lowercase(word: String, dictionary: DictionaryId): String = when (dictionary.sourceLanguage) {
         "tr" -> word.replace('I', 'ı').replace('İ', 'i').lowercase()
         "fa" -> PersianParser.fold(word).lowercase()
+        "ha" -> HausaParser.fold(word).lowercase()
         else -> word.lowercase()
     }
 
