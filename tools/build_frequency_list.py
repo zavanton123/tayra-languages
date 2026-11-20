@@ -81,7 +81,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha", "mr", "am", "uz",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha", "mr", "am", "uz", "my",
     "si",
     "zu",
     "so",
@@ -137,7 +137,7 @@ FALLBACKS = {
 # parser cuts them, the longest the dictionary knows first; wordfreq's own lists are cut already.
 SEGMENTED = {"zh", "yue", "ja", "th", "lo", "km"}
 # Of these, the ones whose letters no word covers make one word together, as in the app.
-JOIN_UNKNOWN = {"th", "lo", "km"}
+JOIN_UNKNOWN = {"th", "lo", "km", "my"}
 
 # Korean is counted from whole space-separated words, cut into a word and its particles as the reader
 # cuts them (korean_pieces); wordfreq's Korean is counted in morpheme pieces, which no reader shows.
@@ -208,6 +208,8 @@ BLEND.add("ka")
 SOURCE_WEIGHTS["ka"] = {"leipzig": 0.375, "wikipedia": 0.375, "everyday": 0.25}
 # Khmer: its Wikipedia and its subtitles (build_khmer), the everyday words of the one weighed as the other's.
 SOURCE_WEIGHTS["km"] = {"wikipedia": 0.5, "opensubtitles": 0.5}
+# Burmese too (build_burmese): its Wikipedia and its subtitles, their Unicode lines only.
+SOURCE_WEIGHTS["my"] = {"wikipedia": 0.5, "opensubtitles": 0.5}
 # Hindi is counted from web text and subtitles: its Wikipedia adds the words of its pages (politics, districts, census
 # terms) to the first thousand, where wordfreq's short list alone has fewer than 9,000 words.
 SOURCE_ORDER["hi"] = ["wordfreq", "frequencywords"]
@@ -346,6 +348,7 @@ DISPLAY["ps"] = frequency_pashto.DISPLAY
 import frequency_mongolian  # noqa: E402
 import frequency_lao  # noqa: E402
 import frequency_km  # noqa: E402
+import frequency_burmese  # noqa: E402
 import frequency_kazakh  # noqa: E402
 import frequency_uzbek  # noqa: E402
 
@@ -361,6 +364,7 @@ EXCLUDE["kw"] = frequency_cornish.CORNISH_EXCLUDE
 OVERRIDES["mn"] = frequency_mongolian.MONGOLIAN_OVERRIDES
 EXCLUDE["mn"] = frequency_mongolian.MONGOLIAN_EXCLUDE
 EXCLUDE["km"] = frequency_km.KHMER_EXCLUDE
+EXCLUDE["my"] = frequency_burmese.EXCLUDE
 OVERRIDES["kk"] = frequency_kazakh.KAZAKH_OVERRIDES
 from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
@@ -4758,6 +4762,9 @@ def load_dictionary(language):
         # reader reads as one word, the pack having them (មិនអីទេ, លាហើយ), are its words.
         if language == "km" and p in ("unknown", "phrase"):
             p = "noun" if p == "unknown" else "intj"
+        # Burmese's postpositions (ကို, မှာ, နဲ့) and classifiers (ယောက်, ခု, ကောင်) are its words.
+        if language == "my" and p in ("postp", "classifier"):
+            p = "prep" if p == "postp" else "noun"
         pos[word_lc].add(p)
         if p not in WORD_POS and not (language == "ko" and p == "counter") and not (language == "hy" and p in ARMENIAN_POS):
             continue
@@ -5241,7 +5248,8 @@ def segmenter(language, words=None, ranks=None):
         words = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
     longest = min(16, max((len(w) for w in words), default=1))
     join = language in JOIN_UNKNOWN
-    can_break = thai_break if language == "th" else lao_break if language == "lo" else khmer_break if language == "km" else lambda run, at: True
+    can_break = (thai_break if language == "th" else lao_break if language == "lo" else khmer_break if language == "km"
+                 else frequency_burmese.my_break if language == "my" else lambda run, at: True)
     is_word = (lambda word: thai_word(word, words)) if language == "th" else (lambda word: lao_word(word, words)) if language == "lo" else words.__contains__
     if language == "km":
         # Khmer is cut folded (khmer_fold), the runs as the lexicon, and a spelling takes its commonest word's rank.
@@ -5338,6 +5346,8 @@ def build(language, source, size):
         return build_lao(size)
     if language == "km":
         return build_khmer(size)
+    if language == "my":
+        return build_burmese(size)
     if language == "sw":
         return frequency_swahili.build(size, download)
     if language == "ne":
@@ -5633,7 +5643,6 @@ def build_khmer(size):
 
 KHMER_ROUNDS = 6
 
-
 def khmer_list(sources, spelled, together, pack, spellings, size):
     """The Khmer list from the words each source was cut into ([spelled]), each in the spelling the pack has."""
     # Each word in the spelling the pack has, the commoner in the texts where it has both.
@@ -5664,6 +5673,110 @@ def khmer_list(sources, spelled, together, pack, spellings, size):
         forms += [s for f in list(forms) for s in khmer_spellings(f) if s not in forms]
         lines.append(f"{word}\t{' '.join(dict.fromkeys(forms))}\n")
     return "".join(lines), label
+
+
+# Burmese's everyday words come from its film and television subtitles (OPUS OpenSubtitles v2024), the written language's from
+# its Wikipedia; most of the subtitles are in Zawgyi, which is left out (frequency_burmese.zawgyi_lines).
+MY_SUBTITLES = "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/mono/my.txt.gz"
+MY_ROUNDS = 6
+# Burmese Wikipedia's articles of fewer letters than this are left out: 122,000 of its 147,000 are stubs, 52,000 of them a
+# bot's village tracts ("X ကျေးရွာအုပ်စု ... မြို့နယ် ... ခရိုင်၌ တည်ရှိသည်"), which put their words in the first hundred.
+MY_WIKI_MIN_LETTERS = 500
+
+
+def burmese_runs(lines):
+    """The runs of Burmese letters of the Unicode lines of [lines], read as the reader reads them (my_normalise), how often each."""
+    runs = defaultdict(int)
+    for line in frequency_burmese.zawgyi_lines(lines):
+        for match in frequency_burmese.MY_RUN.finditer(frequency_burmese.my_normalise(line)):
+            runs[match.group(0)] += 1
+    return runs
+
+
+def burmese_wikipedia_lines():
+    """
+    The lines of running text of Burmese Wikipedia's articles of MY_WIKI_MIN_LETTERS letters or more: no templates, tables,
+    references, links' targets or headings.
+    """
+    import bz2
+    path = download("https://dumps.wikimedia.org/mywiki/latest/mywiki-latest-pages-articles.xml.bz2", "wikipedia-my.xml.bz2")
+    if path is None:
+        sys.exit("No frequency source has my")
+    page, in_text = [], False
+    with bz2.open(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if "<text" in line:
+                in_text = True
+                line = line[line.index(">", line.index("<text")) + 1:]
+            if not in_text:
+                continue
+            end = line.find("</text>")
+            page.append(line if end < 0 else line[:end])
+            if end < 0:
+                continue
+            in_text = False
+            text = "".join(page)
+            page = []
+            if text.lstrip().lower().startswith("#redirect") or text.lstrip().startswith("#ပြန်ညွှန်း"):
+                continue
+            text = html.unescape(strip_templates(WIKI_HEADING.sub(" ", text)))
+            for noise in WIKI_NOISE:
+                text = noise.sub(" ", text)
+            text = WIKI_LINK.sub(r"\1", text)
+            if sum(len(run) for run in frequency_burmese.MY_RUN.findall(text)) >= MY_WIKI_MIN_LETTERS:
+                yield from text.split("\n")
+
+
+def build_burmese(size):
+    """
+    The Burmese list, from its Wikipedia and its subtitles (MY_SUBTITLES), blended by SOURCE_WEIGHTS, their Unicode lines only:
+    each run of letters cut as BurmeseParser cuts it with the my-en pack installed (never inside a syllable, by the pack's
+    words and the app's own list's, files/lexicon/my.txt), into its likeliest words by the last round's ranks. Words do not
+    inflect: each is its own, but for the induced creaky tone of a noun or pronoun (frequency_burmese.creaky), its form. A
+    word is counted only between words, as Lao's: not next to letters no word covers, nor next to a syllable of a foreign
+    word or name (frequency_burmese.FRAGMENTS), nor such a syllable itself.
+    """
+    pack = frequency_burmese.pack_words()
+    lexicon = pack | frequency_burmese.lexicon_words()
+    # A noun's or pronoun's induced creaky tone (ဘုရင့်, ကမ္ဘာ့) is its form, unless the pack has it as a word of its own.
+    db = sqlite3.connect(os.path.join(DICTIONARIES, "my-en.sqlite"))
+    creaky = {}
+    for (word,) in db.execute("SELECT DISTINCT word_lc FROM entries WHERE pos IN ('noun', 'pron')"):
+        form = frequency_burmese.creaky(frequency_burmese.my_normalise(word))
+        if form and form not in pack:
+            creaky.setdefault(form, [frequency_burmese.my_normalise(word)])
+    OVERRIDES["my"] = creaky
+    lexicon |= set(creaky)
+    fragments = frequency_burmese.FRAGMENTS
+    sources = [("wikipedia", burmese_runs(burmese_wikipedia_lines()), "my.wikipedia.org articles")]
+    import gzip
+    path = download(MY_SUBTITLES, "opus-opensubtitles-v2024-my.txt.gz")
+    if path is not None:
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            sources.append(("opensubtitles", burmese_runs(f), "OPUS OpenSubtitles v2024 my"))
+    ranks, text, label = None, None, None
+    for round_ in range(MY_ROUNDS + 1):
+        segment = segmenter("my", lexicon, ranks)
+        counted = {}
+        found = []
+        for name, runs, source_label in sources:
+            counts = defaultdict(int)
+            for run, n in runs.items():
+                if run not in counted:
+                    pieces = segment(run)
+                    known = [p in lexicon and p not in fragments for p in pieces]
+                    counted[run] = [piece for i, piece in enumerate(pieces)
+                                    if known[i] and (i == 0 or known[i - 1]) and (i + 1 == len(pieces) or known[i + 1])]
+                for piece in counted[run]:
+                    counts[piece] += n
+            found.append((name, dict(counts), source_label))
+        built, label = build_list("my", found, size)
+        print(f"my round {round_}: {'unchanged' if built == text else 'changed'}", file=sys.stderr)
+        if built == text:
+            break
+        text = built
+        _, ranks = list_ranks(text)
+    return text, label
 
 
 # The reader cuts a Korean word by how common its pieces are, as the list it ships with ranks them, so
@@ -6441,6 +6554,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # independent vowel can be any word (ឮ "to hear", ឪ "father"), as the reader reads it, but not a Khmer consonant alone.
         if language == "km" and len(w) == 1:
             return not "\u1780" <= w <= "\u17a2"
+        # A Burmese letter alone is a syllable, and so a word of any kind: မ "not", ရ "to get", လ "moon, month".
+        if language == "my":
+            return True
         return len(w) > 1 or language in ("ja", "ko") or bool(kinds & {"prep", "conj", "article", "pron", "det"}) or (
             language == "mn" and "particle" in kinds)
 
