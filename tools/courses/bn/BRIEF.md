@@ -4,14 +4,16 @@ Each course teaches one band of 100 words from the Bengali word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `bn-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 6,480 words: the last course is `bn-mini-6500`
-(80 words).
+`themes.tsv` gives each course its theme. The list has 10,000 words: the last course is
+`bn-mini-10000`.
 
 ## The list
 
 The list is counted from wordfreq's Bengali (news, web text, Wikipedia, subtitles) by
 `tools/frequency_bengali.py`: every corpus word is read back to its dictionary form in the
-`bn-en` pack (a noun's plain form, a verb's verbal noun), and its forms are listed after it. So:
+`bn-en` pack (a noun's plain form, a verb's verbal noun), and its forms are listed after it. Words
+the pack lacks are found in the corpus itself, with their case and classifier forms (চারপাশ,
+ভিড়, ছোটবেলা, শেয়ার, বিশ্বকাপ); names of people, places and parties are left out. So:
 
 - **The ranks lean to the news.** Words of reports rank high (সরকার 70, পুলিশ 95, নির্বাচন 96,
   জেলা 133, উপজেলা 176), some everyday words lower than in speech (বাড়ি 157, বই 277, খুশি 698).
@@ -23,8 +25,14 @@ The list is counted from wordfreq's Bengali (news, web text, Wikipedia, subtitle
   হিসেব. A noun's case, classifier and plural forms (দেশের, দেশে, দেশটি, দেশগুলো, ছেলেরা, মেয়েদের)
   and the pronouns' cases (আমার, তাকে, তাঁর, আপনাকে) are its forms.
 - **Spelling variants are folded**: বেশি is listed under বেশী, সরকারি under সরকারী, চাকরি under চাকরী,
-  ভাল under ভালো, ঘন্টা under ঘণ্টা. Write the standard (reformed) spelling: বেশি, সরকারি, চাকরি,
-  ভালো, ঘণ্টা, তৈরি, দাবি, কোনো, এখনও, আরও; teach the headword the band gives.
+  ভাল under ভালো, ঘন্টা under ঘণ্টা, and every other ি / ী spelling under the one the pack has
+  (শ্রেণি, শ্রেণির under শ্রেণী; দাদি under দাদী; নানি under নানী), as are common slips (আক্রমন
+  under আক্রমণ, খুজে under খোঁজা). Write the standard (reformed) spelling: বেশি, সরকারি, চাকরি,
+  ভালো, ঘণ্টা, তৈরি, দাবি, শ্রেণি, দাদি, কোনো, এখনও, আরও; teach the headword the band gives.
+- **Ranks 1–1000 keep the order they were written with**; the words the rebuilt list added come
+  after them (শেয়ার 1002, বিশ্বকাপ 1003, ঈদ 1020, পূজা 1221, চারপাশ 1489, ভিড় 1779, ছোটবেলা
+  2329, বৈশাখ 2654, দাদী 3968, বেলুন 4250, বড়দিন 4614, নানী 5958). Months and festivals are words
+  (বৈশাখ, ঈদ, বড়দিন).
 - **কি and কী are two words**: কি (rank 29) asks a yes/no question (*তুমি কি আসবে?*); কী (228) is
   "what" (*এটা কী?*). Never write কি for "what". কোন "which" (32) and কোনো "any" (142) are also two.
 - **List noise**: a few names and their spellings rank as words (ঢাকা also "to cover", শেখ, রহমান,
@@ -79,8 +87,10 @@ lesson never needs another lesson to make sense.
   - ranks 3001–5000: a richer written register: the Sanskrit-derived (তৎসম) words of newspapers
     and books beside their everyday ones, made plain by context; a column, a letter, an interview,
     a short essay that weighs two sides; long sentences that stay easy to parse;
-  - ranks 5001–6500 (C1): the same, with the specialised words of the sciences, the arts and public
-    life, each made clear by its context.
+  - ranks 5001–8000 (C1): the same, with the specialised words of the sciences, the arts and public
+    life, each made clear by its context;
+  - ranks 8001–10000 (C2): essays, reviews and reports on any subject, the rarer words of the
+    professions and of literature, each made clear by its context.
   After rank 1000 sentences get longer and dialogue can carry more of the story; a story may be told
   by a first-person narrator or as a letter, a message or a diary entry. From rank 2000 a lesson may
   also be a short informative or opinion text, as long as it is calm and easy to follow.
