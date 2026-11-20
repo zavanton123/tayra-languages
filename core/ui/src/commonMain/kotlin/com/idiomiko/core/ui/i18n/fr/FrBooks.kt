@@ -249,6 +249,7 @@ internal val frBooks: Map<String, String> = mapOf(
     "Tales, poems, novels" to "Contes, poèmes, romans",
     "Literature" to "Littérature",
     "Classics" to "Classiques",
+    "None of the libraries has books in {0} yet." to "Aucune des bibliothèques n'a encore de livres en {0}.",
     "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg est en maintenance. Réessaie plus tard ou choisis une autre bibliothèque.",
     "None of these books is at this level yet." to "Aucun de ces livres n’est encore de ce niveau.",
     "No books match your search." to "Aucun livre ne correspond à votre recherche.",

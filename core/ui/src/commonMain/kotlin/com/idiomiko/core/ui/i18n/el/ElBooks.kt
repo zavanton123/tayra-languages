@@ -249,6 +249,7 @@ internal val elBooks: Map<String, String> = mapOf(
     "Tales, poems, novels" to "Παραμύθια, ποιήματα, μυθιστορήματα",
     "Literature" to "Λογοτεχνία",
     "Classics" to "Κλασικά",
+    "None of the libraries has books in {0} yet." to "Καμία από τις βιβλιοθήκες δεν έχει ακόμη βιβλία στα {0}.",
     "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Το Project Gutenberg είναι εκτός λειτουργίας για συντήρηση. Δοκίμασε ξανά αργότερα ή διάλεξε άλλη βιβλιοθήκη.",
     "None of these books is at this level yet." to "Κανένα από αυτά τα βιβλία δεν είναι ακόμη σε αυτό το επίπεδο.",
     "No books match your search." to "Κανένα βιβλίο δεν ταιριάζει με την αναζήτησή σας.",

@@ -124,6 +124,7 @@ internal fun DiscoverPage(state: FindBooksUiState, actions: FindBooksActions, op
         item { HowHard(state.minKnown, actions.onMinKnown, compact) }
         when {
             state.languageName.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("Choose a language to learn to see its books.")) }
+            state.sources.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("None of the libraries has books in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))) }
             state.allDown -> item { OfflineCard(state, actions, compact) }
             state.narrowed -> item { Results(state, actions, open, compact) }
             state.loading -> item { Column(verticalArrangement = Arrangement.spacedBy(SECTION_GAP)) { ShelfSkeleton(compact); ShelfSkeleton(compact) } }
@@ -618,9 +619,9 @@ private fun LibraryCard(source: BookSource, status: LibraryStatus, onClick: () -
             LibraryStatus.DOWN_FOR_MAINTENANCE -> tr("Down for maintenance") to AppAccents.red
             LibraryStatus.UNREACHABLE -> tr("Can't reach right now") to AppAccents.orange
         }
-        Row(Modifier.padding(top = AppSpacing.m).testTag("library-status-${source.name}"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Box(Modifier.size(AppSizes.dotSmall + 1.dp).clip(AppShapes.circle).background(tint))
-            Text(text, style = AppText.badge.copy(fontWeight = FontWeight.Bold), color = AppAccents.onWash(tint), maxLines = 1, overflow = TextOverflow.Ellipsis)
+        Row(Modifier.padding(top = AppSpacing.m).testTag("library-status-${source.name}"), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+            Box(Modifier.padding(top = AppSpacing.xs + 1.dp).size(AppSizes.dotSmall + 1.dp).clip(AppShapes.circle).background(tint))
+            Text(text, style = AppText.badge.copy(fontWeight = FontWeight.Bold), color = AppAccents.onWash(tint), maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
     }
 }

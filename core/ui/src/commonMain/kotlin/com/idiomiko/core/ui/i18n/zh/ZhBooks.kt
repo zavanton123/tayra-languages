@@ -249,6 +249,7 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Tales, poems, novels" to "童话、诗歌、小说",
     "Literature" to "文学",
     "Classics" to "经典作品",
+    "None of the libraries has books in {0} yet." to "目前还没有图书馆提供{0}书籍。",
     "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg 正在维护。请稍后再试，或选择其他书库。",
     "None of these books is at this level yet." to "这些书中暂时没有这个级别的。",
     "No books match your search." to "没有符合搜索条件的书籍。",

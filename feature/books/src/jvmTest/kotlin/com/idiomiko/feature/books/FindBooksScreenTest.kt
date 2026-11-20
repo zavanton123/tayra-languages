@@ -279,6 +279,18 @@ class FindBooksScreenTest {
         shot("discover-phone-light")
         assertEquals(0, count("hero-mascot"))
         onNodeWithText("Search every library").assertExists()
+        // The libraries two to a row.
+        onAllNodes(hasScrollToNodeAction())[0].performScrollToNode(hasTestTag("library-ADAMASTOR"))
+        shot("discover-phone-light-libraries")
+        val top = { tag: String -> onNodeWithTag(tag).fetchSemanticsNode().boundsInRoot.top }
+        assertEquals(top("library-WIKISOURCE"), top("library-GDL"))
+        assert(top("library-STORYBOOKS") > top("library-GDL"))
+    }
+
+    @Test
+    fun aLanguageNoLibraryServesSaysSo() = runDesktopComposeUiTest(width = 1200, height = 800) {
+        show(FindBooksUiState(languageName = "Klingon")) { FindBooksActions() }
+        onNodeWithText("None of the libraries has books in Klingon yet.").assertExists()
     }
 
     @Test

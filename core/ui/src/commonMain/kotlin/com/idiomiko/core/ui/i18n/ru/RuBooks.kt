@@ -249,6 +249,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Tales, poems, novels" to "Сказки, стихи, романы",
     "Literature" to "Литература",
     "Classics" to "Классика",
+    "None of the libraries has books in {0} yet." to "Ни в одной из библиотек пока нет книг на {0} языке.",
     "Project Gutenberg is down for maintenance. Try again later, or pick another library." to "Project Gutenberg на техническом обслуживании. Попробуйте позже или выберите другую библиотеку.",
     "None of these books is at this level yet." to "Среди этих книг пока нет книг такого уровня.",
     "No books match your search." to "Ни одна книга не подходит под поиск.",
