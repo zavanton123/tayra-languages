@@ -67,6 +67,7 @@ import frequency_hausa  # noqa: E402
 import frequency_zulu  # noqa: E402
 import frequency_amharic  # noqa: E402
 import frequency_somali  # noqa: E402
+import frequency_yoruba  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -84,6 +85,7 @@ LANGUAGES = [
     "si",
     "zu",
     "so",
+    "yo",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -5354,6 +5356,8 @@ def build(language, source, size):
         return frequency_amharic.build(size, download)
     if language == "so":
         return frequency_somali.build(size, download)
+    if language == "yo":
+        return frequency_yoruba.build(size, download)
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
