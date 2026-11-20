@@ -1,0 +1,100 @@
+1	1	tí	tí
+2	2	ó	ó
+3	3	ní	ní
+4	4	ni	ni
+5	5	àwọn	àwọn
+6	6	ti	ti
+7	7	ń	ń
+8	8	a	a
+9	9	sí	sí
+10	10	mo	mo n n̄
+11	11	ṣe	ṣe
+12	12	náà	náà
+13	13	fún	fún
+14	14	wọ́n	wọ́n hán
+15	15	àti	àti
+16	16	bí	bí
+17	17	tó	tó
+18	18	sì	sì
+19	19	pé	pé
+20	20	rẹ̀	rẹ̀ ẹ̀
+21	21	kí	kí
+22	22	kò	kò kè
+23	23	bá	bá
+24	24	fi	fi
+25	25	jẹ́	jẹ́
+26	26	wọn	wọn
+27	27	o	o
+28	28	láti	láti
+29	29	kan	kan
+30	30	mi	mi
+31	31	máa	máa
+32	32	lọ	lọ
+33	33	yìí	yìí
+34	34	ọmọ	ọmọ
+35	35	nínú	nínú
+36	36	ọdún	ọdún
+37	37	ilé	ilé
+38	38	ò	ò
+39	39	wà	wà
+40	40	rí	rí
+41	41	wá	wá
+42	42	gbogbo	gbogbo
+43	43	sọ	sọ
+44	44	ló	ló
+45	45	lè	lè
+46	46	í	í
+47	47	wa	wa
+48	48	èdè	èdè
+49	49	ẹni	ẹni
+50	50	ẹ	ẹ
+51	51	gbà	gba gbà
+52	52	yóò	yóò yóo yóó yíò
+53	53	nígbà	nígbà
+54	54	òun	òun
+55	55	ènìyàn	ènìyàn ènìà èyàn
+56	56	gbé	gbé
+57	57	ọjọ́	ọjọ́ ijọ́
+58	58	ohun	ohun
+59	59	tún	tún
+60	60	iṣẹ́	iṣẹ́
+61	61	ìlú	ìlú èlú
+62	62	mú	mú
+63	63	mọ̀	mọ mọ̀
+64	64	di	di
+65	65	ara	ara
+66	66	kì	kì
+67	67	á	á
+68	68	èyí	èyí
+69	69	pẹ̀lú	pẹ̀lú
+70	70	ìwé	ìwé
+71	71	dé	dé
+72	72	nítorí	nítorí ńtorí
+73	73	ọ̀rọ̀	ọ̀rọ̀
+74	74	kó	kó
+75	75	lórí	lórí
+76	76	ilẹ̀	ilẹ̀
+77	77	rẹ	rẹ
+78	78	fẹ́	fẹ́
+79	79	jẹ	jẹ
+80	80	bẹ́ẹ̀	bẹ́ẹ̀
+81	81	lò	lo lò
+82	82	ayé	ayé aiyé
+83	83	dá	dá
+84	84	wí	wí
+85	85	ìgbà	ìgbà
+86	86	mọ́	mọ́
+87	87	nípa	nípa
+88	88	tàbí	tàbí tàbi
+89	89	ojú	ojú
+90	90	pa	pa
+91	91	jù	ju jù
+92	92	inú	inú
+93	93	i	i
+94	94	e	e
+95	95	gẹ́gẹ́	gẹ́gẹ́
+96	96	ṣùgbọ́n	ṣùgbọ́n
+97	97	orí	orí
+98	98	wo	wo
+99	99	orílẹ̀	orílẹ̀
+100	100	má	má

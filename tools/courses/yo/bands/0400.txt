@@ -1,0 +1,100 @@
+1	301	ẹ̀tọ́	ẹ̀tọ́
+2	302	já	já
+3	303	ẹyẹ	ẹyẹ ẹiyẹ
+4	304	fẹ́ràn	fẹ́ràn
+5	305	ìgbìmọ̀	ìgbìmọ̀
+6	306	tì	tì
+7	307	ẹsẹ̀	ẹsẹ̀
+8	308	jó	jó
+9	309	ṣẹlẹ̀	ṣẹlẹ̀
+10	310	kọ̀ọ̀kan	kọ̀ọ̀kan
+11	311	yà	yà
+12	312	fíìmù	fíìmù
+13	313	ìlànà	ìlànà
+14	314	rìn	rìn
+15	315	ipa	ipa
+16	316	gé	gé
+17	317	lábẹ́	lábẹ́
+18	318	iye	iye oye
+19	319	àwùjọ	àwùjọ
+20	320	béèrè	béèrè bèèrè
+21	321	sùn	sùn
+22	322	oyè	oyè
+23	323	ẹ̀yẹ	ẹ̀yẹ
+24	324	ẹ̀yìn	ẹ̀yìn ẹ̀hìn
+25	325	lọ́jọ́	lọ́jọ́
+26	326	wọlé	wọlé
+27	327	kiri	kiri
+28	328	akẹ́kọ̀ọ́	akẹ́kọ̀ọ́
+29	329	ọjà	ọjà
+30	330	kópa	kópa
+31	331	ín	ín
+32	332	ààrẹ	ààrẹ
+33	333	àsìkò	àsìkò
+34	334	ọ̀ràn	ọ̀ràn
+35	335	ẹnikẹ́ni	ẹnikẹ́ni
+36	336	ẹran	ẹran
+37	337	tú	tú
+38	338	tàn	tan tàn
+39	339	òkú	òkú
+40	340	ẹranko	ẹranko
+41	341	ayẹyẹ	ayẹyẹ
+42	342	lẹ́hìn	lẹ́hìn
+43	343	yìn	yìn yin
+44	344	ìwádìí	ìwádìí
+45	345	pò	pò po
+46	346	ìbílẹ̀	ìbílẹ̀
+47	347	ọ̀hún	ọ̀hún
+48	348	yàtọ̀	yàtọ̀
+49	349	u	u
+50	350	mẹ́fà	mẹ́fà
+51	351	kankan	kankan
+52	352	jókòó	jókòó jokò
+53	353	nílé	nílé
+54	354	ìdíje	ìdíje
+55	355	ọgbọ́n	ọgbọ́n
+56	356	ajá	ajá
+57	357	ràn	ràn ran
+58	358	òkúta	òkúta
+59	359	dàbí	dàbí
+60	360	pàdé	pàdé
+61	361	dáhùn	dáhùn
+62	362	gbólóhùn	gbólóhùn
+63	363	kákiri	káàkiri kákiri
+64	364	yan	yan
+65	365	ohùn	ohùn
+66	366	mẹ́rin	mẹ́rin
+67	367	kọ́kọ́	kọ́kọ́
+68	368	lọ́nà	lọ́nà
+69	369	ẹnìkan	ẹnìkan
+70	370	láyé	láyé
+71	371	àìsàn	àìsàn
+72	372	lónìí	lónìí
+73	373	ọlọ́pàá	ọlọ́pàá
+74	374	torí	torí
+75	375	òṣèlú	òṣèlú
+76	376	yé	yé
+77	377	Ifá	ifá
+78	378	ú	ú
+79	379	dìde	dìde
+80	380	ná	ná
+81	381	bákan	bákan
+82	382	síbẹ̀	síbẹ̀
+83	383	iwájú	iwájú
+84	384	ẹ̀rí	ẹ̀rí
+85	385	márùn	márùn
+86	386	olùkọ́	olùkọ́
+87	387	tẹ̀lé	tẹ̀lé
+88	388	níwájú	níwájú
+89	389	sókè	sókè
+90	390	ṣíṣe	ṣíṣe
+91	391	tọ́	tọ́
+92	392	pín	pín
+93	393	tíì	tíì
+94	394	òṣìṣẹ́	òṣìṣẹ́
+95	395	ìyẹn	ìyẹn
+96	396	oríṣiríṣi	oríṣiríṣi oríṣìíríṣìí orísìírísìí
+97	397	sẹ́yìn	sẹ́yìn sẹ́hìn
+98	398	gbó	gbó
+99	399	àbúrò	àbúrò
+100	400	ìbéèrè	ìbéèrè ìbèèrè
