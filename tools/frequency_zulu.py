@@ -124,6 +124,7 @@ ZULU_FORMS = {
     "esinye": "nye",
     "izinye": "nye",
     # "Who is present", "it is there": khona's copulas, not ikhona "corner" (left out).
+    **{"a" + p + "kho": "khona" for p in ("zi", "si", "li", "lu", "bu", "ngi", "wu", "ni", "ba")},
     **{p + "khona": "khona" for p in ("e", "i", "be", "li", "se", "yi", "si", "lu", "bu", "zi", "ba", "ngi", "u", "ni")},
     # "Your" (wakho, yakho, ezakho), wena's, not khona's "of it".
     **{c + "akho": "wena" for c in ("w", "b", "y", "l", "s", "z", "lw", "bw", "kw", "", "ow", "ab", "ey", "el", "es", "ez", "olw",
@@ -131,6 +132,15 @@ ZULU_FORMS = {
     # "With it" (class 5 and 11), not ingalo "arm".
     "ngalo": "lona",
     "muntu": "umuntu",
+    # "Each" (ngamunye, ngalinye, ngasinye): nye's.
+    **{"nga" + c + "nye": "nye" for c in ("mu", "li", "si", "yi", "lu", "bu", "ku", "zi", "wu", "ba")},
+    "luthi": "thi",
+    # "Let me, just" (ake ngibone), ke's.
+    "ake": "ke",
+    # "This" (class 9) written in full.
+    "lena": "le",
+    # "Every day" (nsuku zonke), izinsuku without its prefix.
+    "nsuku": "usuku",
     # The class 6 "these" written in full.
     "lawa": "la",
     # "You say", "it says", "who says", far more than uthi "stick".
@@ -158,11 +168,19 @@ ENCLITICS = ["ni", "phi", "ke", "nje"]
 # Prefixes ending in a that join a noun's first vowel (a + i is e, a + u is o): na "and, with", nga "by, at", njenga "like",
 # kuna "than", nanga "and by".
 JOINING = ["na", "nga", "njenga", "kuna", "nanga", "nanjenga", "njengoba"]
+# The possessive concords, which join a noun's first vowel as na does (wesikhathi, sokuhlala, lwezingane); the pack's tables
+# have most of them, not those of an infinitive.
+POSSESSIVE_STEMS = ["w", "b", "y", "l", "s", "z", "lw", "bw", "kw", "ow", "ab", "ey", "el", "es", "ez", "olw", "obw", "okw"]
 # Prefixes that take a noun in u- or i- without its vowel (kubaba, kaThemba, ngumuntu, yinto) and the possessive concords
 # with ka (likaNkulunkulu).
 DROPPING = {p: "u" for p in ("ku", "ka", "ngu", "wu", "kuka", "lika", "sika", "zika", "yaka", "waka", "baka", "kwaka",
                               "lwaka", "buka", "aka", "eka", "naka", "ngaka")}
 DROPPING.update({"yi": "i", "ngi": "i"})
+# The subject concords, with the relative and the negative ones, that a noun's or pronoun's form with na "with, have" or
+# the copula takes (unemali "he has money", abanemali "who have money", akanawo "he does not have it").
+SUBJECT_CONCORDS = ["ngi", "u", "si", "ni", "ba", "i", "li", "zi", "ku", "lu", "bu", "a", "be", "se", "e", "o", "aba", "esi",
+                    "eli", "ezi", "olu", "obu", "oku", "eni", "engi", "angi", "awu", "aka", "asi", "ani", "aba", "awa", "ayi",
+                    "ali", "azi", "alu", "abu", "aku"]
 # The concords of the quantitative -nke "all" (wonke, bonke, zonke) and of -dwa "alone" (yedwa, bodwa, ngedwa).
 NKE = {c + "nke" for c in ("o", "wo", "bo", "zo", "yo", "lo", "so", "ko", "lwo", "bwo", "mo")}
 DWA = {c + "dwa" for c in ("nge", "we", "ye", "so", "bo", "lo", "zo", "yo", "wo", "lwo", "bwo", "ni", "si", "eyo", "owo", "elilo",
@@ -258,6 +276,8 @@ class Lexicon:
                 self.stems[root].add(verb)
             else:
                 root = verb
+                if len(verb) < 3 and verb not in SHORT_VERBS:
+                    continue
                 self.whole[verb].add(verb)
             for ext in (["iw"] if len(root) < 3 else EXTENSIONS):
                 if root + ext + "a" not in self.kinds:
@@ -318,6 +338,29 @@ class Lexicon:
         found = {w for w in self.forms.get(base, ()) if kinds is None or self.kinds[w] & kinds}
         return found
 
+    def _joined(self, token, prefixes):
+        """The noun, pronoun or adjective [token] is with one of [prefixes] joined to its first vowel (a + i is e, a + u is
+        o): nomuntu, ngesikhathi, nabanye, wesikhathi, ngowethu; an infinitive too (nokuhlala, sokufunda)."""
+        for prefix in prefixes:
+            stem = prefix[:-1] if prefix.endswith("a") else prefix
+            if not token.startswith(stem) or len(token) < len(stem) + 3:
+                continue
+            vowel, rest = token[len(stem)], token[len(stem) + 1:]
+            found = set()
+            for v in {"a": ["a"], "e": ["i", "e"], "o": ["u", "o"]}.get(vowel, []):
+                found |= self._word_or_form(v + rest, None if (v + rest).startswith(("uku", "ukw")) else {"noun", "pron", "adj"})
+            if found:
+                return frozenset(found)
+        return frozenset()
+
+    def _locative(self, token):
+        """The noun [token] is the locative of when the pack's table lacks it: emsebenzini, esikoleni, endleleni (umsebenzi,
+        isikole, indlela)."""
+        if not (token.startswith("e") and token.endswith(("ini", "eni")) and len(token) > 6):
+            return frozenset()
+        middle = token[1:-3]
+        return frozenset(v + middle + end for v in ("u", "i", "a") for end in VOWELS if "noun" in self.kinds.get(v + middle + end, ()))
+
     @functools.lru_cache(maxsize=None)
     def nominal_lemmas(self, token):
         """The words [token] is a noun's, pronoun's or adverb's form of with a prefix: nomuntu, ngesikhathi, nabantu (umuntu,
@@ -327,17 +370,9 @@ class Lexicon:
         if token in DWA:
             return frozenset({"dwa"} & set(self.kinds))
         nouns = {"noun", "pron"}
-        for prefix in JOINING:
-            stem = prefix[:-1]
-            if not token.startswith(stem) or len(token) < len(stem) + 3:
-                continue
-            vowel, rest = token[len(stem)], token[len(stem) + 1:]
-            bases = {"a": ["a"], "e": ["i", "e"], "o": ["u", "o"]}.get(vowel, [])
-            found = set()
-            for v in bases:
-                found |= self._word_or_form(v + rest, nouns)
-            if found:
-                return frozenset(found)
+        found = self._joined(token, JOINING + POSSESSIVE_STEMS)
+        if found:
+            return found
         for prefix in sorted(DROPPING, key=len, reverse=True):
             rest = token[len(prefix):]
             if token.startswith(prefix) and len(rest) > 2 and rest[0] not in VOWELS:
@@ -352,6 +387,35 @@ class Lexicon:
             rest = token[len(prefix):]
             if token.startswith(prefix) and rest in self.pronouns:
                 return frozenset({rest})
+        # A subject concord on na "with", "have" or the copula nga: unemali "he has money", banezingane, ungowethu "it is
+        # ours".
+        for prefix in SUBJECT_CONCORDS:
+            rest = token[len(prefix):]
+            if token.startswith(prefix) and rest[:1] == "n" and len(rest) > 3:
+                found = self._joined(rest, ["na", "nga"])
+                if found:
+                    return found
+                # A pronoun's: unayo "he has it", akanawo "he does not have it".
+                if rest.startswith("na") and rest[2:] in self.combining:
+                    return frozenset({self.combining[rest[2:]]} & set(self.kinds))
+        found = self._locative(token)
+        if found:
+            return found
+        # A locative with -se- "at" and a prefix: nasemsebenzini "and at work", kwasekhaya, basemakhaya.
+        for prefix in ("nase", "ngase", "kwase", "sase", "wase", "base", "yase", "lase", "zase", "lwase", "bwase", "ase", "ese",
+                       "se", "nakwa"):
+            rest = token[len(prefix) - 1:]
+            if token.startswith(prefix) and len(rest) > 4:
+                found = self._word_or_form(rest, nouns) or self._locative(rest)
+                if found:
+                    return frozenset(found)
+        # A subject concord on a noun's copula: ngingumuntu "I am a person", uyingane "you are a child", singabantu.
+        for prefix in ("ngi", "u", "si", "ni", "ba", "i", "li", "zi", "ku", "lu", "bu", "wu", "a"):
+            rest = token[len(prefix):]
+            if token.startswith(prefix) and rest[:2] in ("ng", "yi", "wu") and rest in self.forms:
+                found = {w for w in self.forms[rest] if "noun" in self.kinds[w]}
+                if found:
+                    return frozenset(found)
         for prefix in ADVERB_PREFIXES:
             rest = token[len(prefix):]
             if token.startswith(prefix) and len(rest) > 3 and "adv" in self.kinds.get(rest, ()):
@@ -389,7 +453,8 @@ class Lexicon:
             others = {w for w in found if "verb" not in self.kinds[w]}
             # A noun's form without its first vowel (sithole, zithole of isithole "heifer") is a verb's first when it reads
             # as one (sithole "we found", thola's).
-            vowelless = all(any(v + token == w or v + token in self.table[w] for v in VOWELS) for w in others)
+            vowelless = all("noun" in self.kinds[w] and any(v + token == w or v + token in self.table[w] for v in VOWELS)
+                            for w in others)
             if others and vowelless and self.verb_lemmas(token):
                 return self.verb_lemmas(token)
             if others:
