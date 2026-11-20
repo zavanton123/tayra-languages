@@ -1,0 +1,215 @@
+{
+  "id": "so-mini-0500",
+  "rankUpTo": 500,
+  "level": "A2",
+  "title": "Dugsiga iyo shaqada",
+  "description": "Ten short, simple stories about school and work in Somali towns and villages: a first day at school, a blacksmith's son, a girl who milks the animals before the rain, a journalist's deadline, a shoe seller, a police officer on a night case, two friends and a book, a sports lesson, a job with an airline and an end-of-year play.",
+  "topic": "School and work",
+  "names": [
+    "Ifraax",
+    "Boorama",
+    "Mustafe",
+    "Mursal",
+    "Hanad",
+    "Burco",
+    "Ladan",
+    "Xaawo",
+    "Ceerigaabo",
+    "Cabdiraxmaan",
+    "Xamdi",
+    "Muqdisho",
+    "Zamzam",
+    "Gaalkacyo",
+    "Habiib",
+    "Ilyaas",
+    "Cabdullaahi",
+    "Garoowe",
+    "Yaxye",
+    "Anwar",
+    "Naciimo",
+    "Laascaanood",
+    "Faysal",
+    "Kaafi",
+    "Jabuuti",
+    "Amiina",
+    "Muxyadiin",
+    "Hargeysa",
+    "Bile",
+    "Suleekha",
+    "Yoonis",
+    "Raxma",
+    "Wajir"
+  ],
+  "lessons": [
+    {
+      "title": "Maalinta kowaad ee Ifraax",
+      "summary": "Eight-year-old Ifraax starts at a new school in Boorama; she sits on the third chair, answers a sum in her first maths lesson and tells her mother she likes the school.",
+      "newWords": [
+        "iskuul",
+        "arday",
+        "baro",
+        "xisaab",
+        "kursi",
+        "albaab",
+        "saaka",
+        "sideed",
+        "saddexaad",
+        "faraxsan"
+      ],
+      "text": "Ifraax waa gabadh yar oo ku nool Boorama. Waxay jirtaa sideed sano. Saaka waa maalinteeda kowaad ee iskuul cusub. Ifraax goor hore ayay kacday. Hooyadeed ayaa cunto u diyaarisay.\n\n\"Ifraax, saaka waxaad tagaysaa iskuulka cusub. Ma diyaar tahay?\" ayay tidhi hooyadeed.\n\n\"Waan diyaar ahay, hooyo. Waan faraxsanahay,\" ayay tidhi Ifraax.\n\nIfraax iyo hooyadeed waxay u wada socdeen iskuulka. Iskuulku guriga wuu u dhow yahay. Markii ay gaadheen, Ifraax waxay aragtay albaab weyn oo cad. Albaabka hortiisa waxaa joogay arday badan. Ifraax arday cusub ayay ahayd.\n\nIfraax albaabka ayay ka gashay. Qolka waxaa yaalay sideed kursi. Macallin Mustafe ayaa qolka joogay. \"Ifraax, kaalay. Kursiga saddexaad ku fadhiiso,\" ayuu yidhi. Ifraax waxay ku fadhiday kursiga saddexaad.\n\n\"Saaka waxaynu baranaynaa xisaab,\" ayuu yidhi Mustafe. Wuxuu qoray 5 iyo 3. \"Shan iyo saddex maxay noqdaan?\" ayuu weydiiyay. Ardayga kowaad waxba ma odhan. Ardayga labaad waxba ma odhan. Kadib Ifraax ayaa tidhi: \"Waa sideed.\"\n\n\"Waa sax!\" ayuu yidhi Mustafe. Ifraax way faraxsanayd.\n\nKadib Mustafe wuxuu qoray 4 iyo 4. \"Afar iyo afar maxay noqdaan?\" ayuu weydiiyay. Ardayga saddexaad ayaa yidhi: \"Waa sideed.\" \"Waa sax,\" ayuu yidhi Mustafe. \"Xisaabtu way fudud tahay haddii aad si fiican u barataan.\"\n\nMarkii Ifraax ka baxday iskuulka, hooyadeed ayaa albaabka hortiisa ku sugaysay. \"Maxaad saaka baratay?\" ayay weydiisay hooyadeed.\n\n\"Waxaan bartay xisaab. Shan iyo saddex waa sideed. Waxaan ku fadhiyay kursiga saddexaad. Iskuulka cusub waan jeclahay,\" ayay tidhi Ifraax.\n\nHooyadeed way faraxsanayd. Ifraax iyaduna way faraxsanayd.\n\nSu'aalo:\nIfraax ma jirtaa sideed sano?\nIfraax waxay jirtaa sideed sano.\nSaaka Ifraax meeshee ayay tagtay?\nSaaka Ifraax waxay tagtay iskuul cusub.\nQolka maxaa yaalay?\nQolka waxaa yaalay sideed kursi.\nIfraax kursigee ayay ku fadhiday?\nIfraax waxay ku fadhiday kursiga saddexaad.\nShan iyo saddex maxay noqdaan?\nShan iyo saddex waa sideed.\nIfraax ma jeceshahay iskuulka cusub?\nIfraax way jeceshahay iskuulka cusub."
+    },
+    {
+      "title": "Birta kulul",
+      "summary": "Mursal works iron in the market of Burco; his son Hanad cuts and hammers the hot iron for the first time, burns his hand, and a nurse at the hospital treats it.",
+      "newWords": [
+        "bir",
+        "jar",
+        "kulul",
+        "dhuf",
+        "adkee",
+        "gub",
+        "xanuun",
+        "isbitaal",
+        "daawee",
+        "daqiiqad"
+      ],
+      "text": "Mursal waa nin ka shaqeeya bir. Wuxuu leeyahay goob yar oo ku taal suuqa Burco. Wiilkiisa Hanad ayaa la shaqeeya.\n\nMaalin kasta Mursal wuxuu sameeyaa qalab cusub. Marka hore wuxuu jaraa birta. Kadib birta dab ayuu ku dhigaa ilaa ay kulul noqoto. Markii birtu kulul tahay, wuu dhufaa. Wuu dhufaa, wuu dhufaa. Sidaas ayuu birta ku adkeeyaa.\n\nMaanta Mursal wuxuu u sheegay Hanad: \"Maanta adiga ayaa birta jaraya. Kadib birta kulul dhuf si aad u adkeyso.\"\n\nHanad birta wuu jaray. Kadib birta dab ayuu ku dhigay. Birtu way kulushay. Hanad birta ayuu dhufay. Mar kale ayuu dhufay. Laakiin gacantiisa ayaa ku dhacday birta kulul. Birtii kulul ayaa gacanta Hanad gubtay.\n\n\"Birta ayaa i gubtay!\" ayuu yidhi Hanad. Xanuun badan ayuu dareemay.\n\nMursal wuxuu Hanad u qaaday isbitaalka. Isbitaalku suuqa wuu u dhow yahay. Daqiiqado yar kadib waxay gaadheen isbitaalka. Ladan oo ka shaqaysa isbitaalka ayaa gacanta eegtay. \"Birtu gacanta way gubtay, laakiin waan daaweyn karaa,\" ayay tidhi Ladan.\n\nLadan gacanta way daaweysay. Daawo ayay gacanta ku dhigtay. Daqiiqad kadib xanuunku wuu yaraaday. Daqiiqado kale kadib xanuunkii wuu tagay.\n\nKadib Mursal iyo Hanad waxay ku noqdeen goobtooda. \"Hanad, bir kulul gacanta ha ku qaadin,\" ayuu yidhi Mursal. \"Waan ogahay,\" ayuu yidhi Hanad.\n\nMaalintaas kadib Hanad si fiican ayuu birta u jaraa. Si fiican ayuu u dhufaa. Sidaas ayuu birta ku adkeeyaa.\n\nSu'aalo:\nMursal muxuu ka shaqeeyaa?\nMursal wuxuu ka shaqeeyaa bir.\nMursal sidee ayuu birta u adkeeyaa?\nBirta wuu jaraa, dab ayuu ku dhigaa, kadibna wuu dhufaa.\nMaxaa gacanta Hanad gubay?\nBirtii kulul ayaa gacanta Hanad gubtay.\nMursal meeshee ayuu Hanad u qaaday?\nMursal wuxuu Hanad u qaaday isbitaalka.\nYaa gacanta daaweeyay?\nLadan ayaa gacanta daaweysay.\nDaqiiqad kadib maxaa dhacay?\nDaqiiqad kadib xanuunku wuu yaraaday."
+    },
+    {
+      "title": "Xaawo iyo tan madow",
+      "summary": "Before the rain, Xaawo milks the animals in her village near Ceerigaabo; the black one with big horns has run up the mountain, and her dog finds it between two stones.",
+      "newWords": [
+        "tuulo",
+        "maal",
+        "gees",
+        "eey",
+        "buur",
+        "roob",
+        "dhagax",
+        "madow",
+        "ilmo",
+        "cir"
+      ],
+      "text": "Xaawo waxay ku nooshahay tuulo yar oo u dhow Ceerigaabo. Tuulada waxaa u dhow buur dheer. Tuulada waxaa ku nool dad yar iyo xoolo badan.\n\nXaawo maalin kasta goor hore ayay shaqo qabataa: xoolaha ayay maashaa. Kadib caanaha ayay siisaa ilmaha tuulada. Xaawo waxay leedahay eey weyn. Eeygu meel kasta oo ay tagto wuu la socdaa.\n\nXoolaha waxaa ku jirta mid madow oo geeso waaweyn leh. Xaawo aad ayay u jeceshahay tan madow.\n\nMaanta Xaawo cirka ayay eegtay. Cirku wuu madow yahay. \"Roob ayaa iman doona,\" ayay tidhi.\n\nXaawo xoolaha way maashay, laakiin tan madow ma joogin. Tan madow ee geesaha waaweyn leh waxay u carartay buurta.\n\n\"Kaalay!\" ayay u tidhi eeyga. Xaawo iyo eeygu waxay u socdeen buurta. Buurta waxaa yaal dhagxaan badan. Eeygu wuxuu raadiyay tan madow. Kadib eeygu wuu cararay. Xaawo way raacday. Tan madow waxay joogtay laba dhagax oo waaweyn dhexdooda.\n\nXaawo geesaheeda ayay qabatay. Kadib waxay ka soo saartay dhagaxyada dhexdooda, waxayna keentay tuulada. Eeyguna wuu la socday.\n\nMarkii ay gaadheen tuulada, roobku wuu da'ay. Cirku wuu madow yahay, roobkuna waa badan yahay. Xaawo tan madow way maashay. Kadib caanaha ayay siisay ilmaha. Ilmaha tuuladu way faraxsan yihiin.\n\nSu'aalo:\nXaawo meeshee ayay ku nooshahay?\nXaawo waxay ku nooshahay tuulo yar oo u dhow Ceerigaabo.\nXaawo maxay samaysaa maalin kasta?\nMaalin kasta Xaawo xoolaha ayay maashaa.\nTan madow meeshee ayay u carartay?\nTan madow waxay u carartay buurta.\nYaa raadiyay tan madow?\nEeyga ayaa raadiyay tan madow.\nTan madow meeshee ayay joogtay?\nWaxay joogtay laba dhagax oo waaweyn dhexdooda.\nMarkii ay gaadheen tuulada, maxaa dhacay?\nMarkii ay gaadheen tuulada, roobku wuu da'ay."
+    },
+    {
+      "title": "Maqaalka Cabdiraxmaan",
+      "summary": "Journalist Cabdiraxmaan in Muqdisho must finish a three-page article about a new school in one day; he hurries, carries the pages to his editor Xamdi, adds the school's name on her advice, and she signs it off.",
+      "newWords": [
+        "maqaal",
+        "bog",
+        "warqad",
+        "telefoon",
+        "dhammee",
+        "degdeg",
+        "sido",
+        "ogol",
+        "saxiix",
+        "talin"
+      ],
+      "text": "Cabdiraxmaan waa nin maqaallo qora. Wuxuu ka shaqeeyaa xafiis ku yaal Muqdisho. Madaxa xafiiska waa Xamdi. Xamdi waxay u talin jirtay dadka maqaallada qora.\n\nSaaka Xamdi ayaa telefoon u dirtay Cabdiraxmaan. \"Cabdiraxmaan, waxaan rabaa maqaal ku saabsan iskuulka cusub ee xaafadda. Maqaalku waa inuu noqdo saddex bog. Maanta waa inaad dhammayso,\" ayay Xamdi telefoonka ku tidhi.\n\nCabdiraxmaan wuxuu tagay iskuulka. Arday iyo macallin ayuu la hadlay. Kadib wuu degdegay, wuxuuna ku noqday gurigiisa. Maqaalka wuxuu ku qoray warqad. Bogga kowaad wuu qoray. Bogga labaad wuu qoray. Saacad kadib bogga saddexaad ayuu qoray. Sidaas ayuu maqaalka ku dhammeeyay.\n\nCabdiraxmaan saddexda warqadood ayuu sitay, wuxuuna u degdegay xafiiska. Xamdi maqaalka way akhrisay. \"Maqaalku waa fiican yahay,\" ayay tidhi. \"Laakiin waxaan kuu talinayaa inaad bogga kowaad ku darto magaca iskuulka.\"\n\nCabdiraxmaan magaca iskuulka wuu ku daray. Xamdi mar kale way akhrisay. \"Hadda waan ogolahay,\" ayay tidhi. Kadib warqadda saddexaad ayay saxiixday.\n\n\"Saxiixaygu wuxuu sheegayaa in aan maqaalka ogolahay. Maqaalkaagu wuu soo bixi doonaa,\" ayay tidhi Xamdi.\n\nCabdiraxmaan aad buu u faraxsanaa. Warqadaha ayuu mar kale sitay, wuxuuna u qaaday qolka kale ee xafiiska. Hadda Cabdiraxmaan wuxuu sugayaa telefoon kale oo Xamdi ka yimaada.\n\nSu'aalo:\nCabdiraxmaan muxuu qoraa?\nCabdiraxmaan wuxuu qoraa maqaallo.\nMaqaalku ma ahaa laba bog?\nMaqaalku laba bog ma ahayn. Wuxuu ahaa saddex bog.\nCabdiraxmaan maqaalka muxuu ku qoray?\nCabdiraxmaan maqaalka wuxuu ku qoray warqad.\nXamdi maxay Cabdiraxmaan ku tidhi?\nXamdi waxay ku tidhi: \"Waxaan kuu talinayaa inaad bogga kowaad ku darto magaca iskuulka.\"\nYaa saxiixay warqadda saddexaad?\nXamdi ayaa saxiixday warqadda saddexaad."
+    },
+    {
+      "title": "Kabaha Zamzam",
+      "summary": "Zamzam sells shoes in the market of Gaalkacyo and washes and oils them every morning; Habiib wants modern shoes for work, picks a black pair and learns how to keep them looking good.",
+      "newWords": [
+        "kab",
+        "iibi",
+        "midab",
+        "casri",
+        "qurux",
+        "dhaq",
+        "saliid",
+        "mari",
+        "marin",
+        "fiiri"
+      ],
+      "text": "Zamzam waxay kabo ku iibisaa suuqa Gaalkacyo. Goobteeda yar waxaa yaal kabo badan oo midabyo kala duwan leh: kabo madow, kabo cad iyo kabo cas. Qaar waa kabo hore, qaarna waa kabo casri ah.\n\nMaalin kasta goor hore Zamzam kabaha way dhaqdaa. Kadib saliid ayay ku marisaa. Saliiddu waxay kabaha siisaa qurux. Dadku waxay jecel yihiin kabaha Zamzam, waayo quruxdoodu way badan tahay.\n\nMaanta nin la yidhaahdo Habiib ayaa yimid. \"Waxaan rabaa kabo cusub oo aan shaqada ku xidho,\" ayuu yidhi.\n\n\"Kabahan fiiri,\" ayay tidhi Zamzam. Habiib wuu fiiriyay. Kabahaasi waa kabo hore oo midab cad leh. \"Kabahan waa hore. Waxaan rabaa kabo casri ah,\" ayuu yidhi.\n\nZamzam waxay u keentay kabo casri ah oo midab madow leh. Habiib si fiican ayuu u fiiriyay. \"Kabahani qurux badan ayay leeyihiin,\" ayuu yidhi. \"Qiimahoodu waa maxay?\"\n\n\"Waa 20,\" ayay tidhi Zamzam. Habiib kabaha wuu iibsaday. Zamzam kabaha way u iibisay.\n\nKadib Zamzam waxay tidhi: \"Haddii aad rabto in kabahu quruxdooda sii hayaan, bil kasta waad dhaqi kartaa, kadibna saliid yar ayaad ku marin kartaa. Anigu sidaas ayaan kabahayga saliid ugu marin jiray.\"\n\nHabiib guriga ayuu ku noqday. Kabaha cusub ayuu fiiriyay. Midabkoodu waa madow, quruxduna way badan tahay. Zamzam iyaduna way faraxsanayd, waayo maanta kabo badan ayay iibisay.\n\nSu'aalo:\nZamzam maxay iibisaa?\nZamzam waxay iibisaa kabo.\nZamzam maxay kabaha ku marisaa?\nZamzam waxay kabaha ku marisaa saliid.\nHabiib ma rabay kabo hore?\nHabiib ma rabin kabo hore. Wuxuu rabay kabo casri ah.\nKabaha Habiib iibsaday waa midabkee?\nKabaha Habiib iibsaday waa madow.\nMaxaa kabaha siiya qurux?\nSaliidda ayaa kabaha siisa qurux."
+    },
+    {
+      "title": "Calaamadaha cagta",
+      "summary": "At night a shop owner knocks at the police station in Garoowe because his money was taken; officer Ilyaas follows the footprints to a house and finds where the money was hidden.",
+      "newWords": [
+        "boolis",
+        "garaac",
+        "qari",
+        "ogaan",
+        "calaamad",
+        "cag",
+        "muuq",
+        "il",
+        "mood",
+        "xor"
+      ],
+      "text": "Ilyaas wuxuu ka shaqeeyaa booliska Garoowe. Ilyaas il fiican ayuu leeyahay. Wax kasta oo uu arko wuu ogaan karaa.\n\nHabeen ayuu Ilyaas joogay xafiiska booliska. Qof ayaa albaabka garaacay. Mar kale ayuu garaacay. Ilyaas albaabka wuu furay. Nin la yidhaahdo Cabdullaahi ayaa joogay.\n\n\"Waxaan wax ku iibiyaa goob yar oo suuqa ku taal. Habeenkan qof ayaa goobtayda galay, lacagtaydiina wuu qaaday,\" ayuu yidhi Cabdullaahi.\n\n\"Ma aragtay muuqiisa?\" ayuu weydiiyay Ilyaas.\n\n\"Waan arkay. Ninku waa dheer yahay, indho waaweyn ayuu leeyahay, kabo cadna wuu xidhnaa. Muuqa ninka waa sidaas.\"\n\nIlyaas iyo Cabdullaahi waxay tageen goobta. Ilyaas dhulka ayuu fiiriyay. Dhulka waxaa ku yaal calaamado. Waa calaamadaha cagta nin. \"Ninkani cag weyn ayuu leeyahay,\" ayuu yidhi Ilyaas.\n\nIlyaas calaamadaha ayuu raacay. Calaamadaha cagta waxay gaadheen guri yar. Ilyaas albaabka ayuu garaacay. Nin dheer oo indho waaweyn leh ayaa albaabka furay. Muuqiisu wuxuu la mid yahay muuqa uu Cabdullaahi sheegay.\n\n\"Waxaan mooday inaad tahay saaxiibkay,\" ayuu yidhi ninku. Ninku wuxuu mooday in aan qofna arkin.\n\nIlyaas cagta ninka ayuu fiiriyay. Cagtiisu way weyn tahay, sida calaamadaha. Kabahuna way cad yihiin. \"Lacagta meeshee ayaad ku qarisay?\" ayuu weydiiyay Ilyaas. Ninku waxba ma odhan.\n\nIlyaas guriga ayuu raadiyay. Kadib wuxuu ogaanay in lacagta lagu qariyay sariirta hoosteeda. Ilyaas lacagtii wuu helay, wuxuuna u celiyay Cabdullaahi.\n\n\"Xor ma ahay?\" ayuu weydiiyay ninku.\n\n\"Xor ma tihid,\" ayuu yidhi Ilyaas. Booliska ayaa ninka qaaday.\n\nSu'aalo:\nYaa albaabka garaacay?\nCabdullaahi ayaa albaabka garaacay.\nMuuqa ninka sidee buu ahaa?\nNinku wuxuu ahaa nin dheer oo indho waaweyn leh.\nIlyaas muxuu dhulka ku arkay?\nIlyaas wuxuu dhulka ku arkay calaamadaha cagta nin.\nIlyaas muxuu ogaanay?\nIlyaas wuxuu ogaanay in lacagta lagu qariyay sariirta hoosteeda.\nNinku ma xor yahay hadda?\nNinku xor ma aha. Booliska ayaa qaaday."
+    },
+    {
+      "title": "Buugga Yaxye",
+      "summary": "Schoolfriends Yaxye and Anwar in Laascaanood fall out over a book; their teacher Naciimo talks about kindness to everyone, and the two make up and read the book together.",
+      "newWords": [
+        "gaal",
+        "wanaag",
+        "jacayl",
+        "feker",
+        "had",
+        "mise",
+        "haa",
+        "maaha",
+        "filan",
+        "heshii"
+      ],
+      "text": "Yaxye iyo Anwar waa laba arday oo saaxiib ah. Waxay dhigtaan iskuul ku yaal Laascaanood. Had iyo jeer way wada socdaan, way wada cunaan, wayna wada ciyaaraan. Jacayl weyn ayaa dhexdooda ah.\n\nMaalin ayaa Anwar qaatay buug yar oo uu Yaxye leeyahay. Yaxye wuu xanaaqay. \"Buuggaygii adiga ayaa qaatay!\" ayuu yidhi Yaxye.\n\n\"Buuggan aniga ayaa leh,\" ayuu yidhi Anwar.\n\nNaciimo, oo iskuulka wax ka dhigta, ayaa timid. \"Buuggu ma buugga Yaxye baa, mise waa buugga Anwar?\" ayay weydiisay. Anwar waxba ma odhan. Wuu fekeray. Kadib wuxuu yidhi: \"Buuggu maaha buuggayga. Waa buugga Yaxye.\"\n\n\"Anwar, ma run baa?\" ayay tidhi Naciimo. \"Haa, waa run,\" ayuu yidhi Anwar.\n\nNaciimo waxay tidhi: \"Saaxiibku wuxuu u baahan yahay wanaag iyo jacayl. Had iyo jeer wanaag u samee qof kasta: walaalkaa, saaxiibkaa, qof Muslim ah iyo qof gaal ah.\"\n\n\"Xitaa qofka gaalka ah?\" ayuu weydiiyay Yaxye.\n\n\"Haa,\" ayay tidhi Naciimo. \"Gaalku waa qof aan Muslim ahayn, laakiin isna wanaag ayuu mudan yahay. Qof kasta ayaa mudan wanaag.\"\n\nAnwar mar kale ayuu fekeray. Kadib buugga wuxuu siiyay Yaxye. \"Yaxye, buuggaaga waa kan,\" ayuu yidhi. Yaxye wuu fekeray. \"Hal buug ma laba arday u filan yahay?\" ayuu weydiiyay Naciimo.\n\n\"Haa, wuu filan yahay haddii ay wada akhriyaan,\" ayay tidhi Naciimo.\n\nNaciimo waxay rabtay in labada wiil ay heshiiyaan. Labada saaxiib way heshiiyeen. Kadib buugga way wada akhriyeen. Hal buug ayaa labadooda u filan.\n\nSu'aalo:\nYaxye iyo Anwar ma saaxiib baa?\nHaa, Yaxye iyo Anwar waa saaxiib.\nBuuggu ma buugga Anwar baa, mise waa buugga Yaxye?\nBuuggu maaha buugga Anwar. Waa buugga Yaxye.\nNaciimo maxay tidhi?\nNaciimo waxay tidhi: \"Had iyo jeer wanaag u samee qof kasta.\"\nQofka gaalka ah ma mudan yahay wanaag?\nHaa, qofka gaalka ah wuxuu mudan yahay wanaag.\nLabada saaxiib ma heshiiyeen?\nHaa, labada saaxiib way heshiiyeen."
+    },
+    {
+      "title": "Ciyaarta iskuulka",
+      "summary": "In a sports lesson at a school in Jabuuti, Faysal has his young pupils stand, run and do push-ups; Kaafi falls on his nose, it bleeds, and Faysal checks that no bone is broken.",
+      "newWords": [
+        "jidh",
+        "dhaqdhaqaaq",
+        "istaag",
+        "riix",
+        "xabad",
+        "laf",
+        "jab",
+        "dhiig",
+        "san",
+        "dhallinyar"
+      ],
+      "text": "Faysal waa macallin ciyaaraha ka dhiga iskuul ku yaal Jabuuti. Wuxuu baraa dhallinyarada iskuulka. Faysal wuxuu had iyo jeer yidhaahdaa: \"Jidh adag wuxuu u baahan yahay dhaqdhaqaaq. Dhaqdhaqaaqu jidh kasta wuu u fiican yahay.\"\n\nMaanta dhallinyaradu waxay yimaadeen goobta ciyaarta. \"Istaaga!\" ayuu yidhi Faysal. Dhallinyaradu way istaageen.\n\n\"Hadda gacmaha dhulka saara, kadibna dhulka riixa,\" ayuu yidhi Faysal. Dhallinyaradu dhulka way riixeen. Mar kale ayay riixeen. Kaafi oo ah wiil yar ayaa dhulka riixay 20 jeer.\n\n\"Hadda xabadka kor u qaada,\" ayuu yidhi Faysal. Dhallinyaradu xabadka way kor u qaadeen.\n\nKadib dhallinyaradu way carareen. Kaafi aad buu u cararay. Laakiin Kaafi wuu dhacay. Sankiisa ayaa dhulka ku dhacay. Dhiig ayaa sanka ka yimid.\n\nFaysal wuu u cararay Kaafi. \"Istaag,\" ayuu yidhi Faysal. Kaafi wuu istaagay. \"Madaxa kor u qaad. Sankaaga xanuun ma ku jiraa?\" ayuu weydiiyay Faysal.\n\n\"Xoogaa,\" ayuu yidhi Kaafi.\n\nFaysal sanka ayuu eegay. Lafta sanka ma jabin. \"Laftu ma jabin,\" ayuu yidhi Faysal. \"Xabadkaaga xanuun ma ku jiraa?\" Kaafi wuxuu yidhi: \"Xabadku waa fiican yahay.\"\n\nDaqiiqado kadib dhiiggu wuu istaagay. Kaafi wuu faraxsanaa. \"Laf ma jabin, dhiigguna wuu istaagay,\" ayuu yidhi.\n\n\"Waa sax,\" ayuu yidhi Faysal. \"Laakiin maanta dhaqdhaqaaq badan ha samayn. Berri ciyaarta waad iman kartaa.\"\n\nSu'aalo:\nFaysal yuu baraa?\nFaysal wuxuu baraa dhallinyarada iskuulka.\nJidh adag muxuu u baahan yahay?\nJidh adag wuxuu u baahan yahay dhaqdhaqaaq.\nKaafi immisa jeer ayuu dhulka riixay?\nKaafi wuxuu dhulka riixay 20 jeer.\nMaxaa sanka Kaafi ka yimid?\nDhiig ayaa sanka Kaafi ka yimid.\nLafta sanka ma jabtay?\nLafta sanka ma jabin."
+    },
+    {
+      "title": "Amiina iyo diyaaradaha",
+      "summary": "Young Amiina in Hargeysa loves planes; she hears an airline wants a young woman to work on its flights, gets to the airport ten minutes early, answers ten questions and gets the job.",
+      "newWords": [
+        "duul",
+        "hawo",
+        "rajee",
+        "nasiib",
+        "doonta",
+        "kol",
+        "dabadeed",
+        "toban",
+        "waddo",
+        "agagaar"
+      ],
+      "text": "Amiina waa gabadh dhallinyar ah oo ku nool Hargeysa. Waxay jeceshahay diyaaradaha. Kol kasta oo ay aragto diyaarad hawada ku duulaysa, way eegtaa ilaa ay ka baxdo.\n\nMaalin ayay Amiina maqashay in shirkad diyaaradeed ay raadinayso gabadh doonta inay ka shaqayso diyaaradaha. Shaqadu waxay ahayd in ay dadka caawiso marka diyaaraddu duusho.\n\n\"Anigu waan doonayaa shaqadan,\" ayay tidhi Amiina. \"Waxaan rajaynayaa inaan shaqada helo.\" Shirkaddu waxay sheegtay in gabadh kasta oo shaqada doonta ay timaado xafiiska saacadda 9.\n\nAmiina waxay ka baxday guriga saacadda 8. Waddadu way dheer tahay. Waddada waxaa ku jiray baabuur badan. Laakiin Amiina toban daqiiqadood ka hor ayay gaadhay. Agagaarka xafiiska waxaa joogay dad badan. Agagaarka waxaa sidoo kale yaalay diyaarado. Diyaarad ayaa hawada u duushay.\n\nNin la yidhaahdo Muxyadiin ayaa Amiina weydiiyay toban su'aalood. Amiina tobanka su'aalood way ka jawaabtay. Dabadeed Muxyadiin wuxuu yidhi: \"Goor dambe ayaan kuu sheegi doonaa.\"\n\nDabadeed Amiina guriga ayay ku noqotay. Way rajaynaysay. Kol kale ayay diyaarad hawada ku aragtay. \"Waxaan rajaynayaa in nasiib wanaag ii yimaado,\" ayay tidhi.\n\nHabeenkii Muxyadiin ayaa telefoon u diray Amiina. \"Amiina, shaqada waad heshay,\" ayuu yidhi.\n\n\"Waa nasiib wanaag!\" ayay tidhi Amiina. Way faraxsanayd. Hadda Amiina kol kasta oo ay shaqada tagto waxay la duushaa diyaaradda.\n\nSu'aalo:\nAmiina maxay jeceshahay?\nAmiina waxay jeceshahay diyaaradaha.\nShirkaddu yay raadinaysay?\nShirkaddu waxay raadinaysay gabadh doonta inay ka shaqayso diyaaradaha.\nAmiina goorma ayay gaadhay?\nAmiina toban daqiiqadood ka hor ayay gaadhay.\nMuxyadiin immisa su'aalood ayuu weydiiyay?\nMuxyadiin wuxuu weydiiyay toban su'aalood.\nAmiina shaqada ma heshay?\nHaa, Amiina nasiib ayay lahayd, shaqadana way heshay."
+    },
+    {
+      "title": "Boqorka iyo duqa",
+      "summary": "At the end of the school year in Wajir, the children rehearse for a week and then show a play about a king who listens to an old man's advice about his people.",
+      "newWords": [
+        "dhammaad",
+        "toddobaad",
+        "tus",
+        "taabo",
+        "duub",
+        "sidan",
+        "gaaban",
+        "boqor",
+        "shacbi",
+        "duq"
+      ],
+      "text": "Toddobaadkan waa toddobaadka dhammaadka sannadka dugsiga. Dhammaadka sannadka, iskuulka Wajir waxaa ka dhacaya kulan weyn. Carruurta iskuulka waxay dadka tusi doonaan sheeko ku saabsan boqor iyo shacbigiisa.\n\nBile waa wiilka boqorka noqonaya. Yoonis waa wiilka duqa noqonaya. Suleekha waa gabadha sheekada akhrinaysa.\n\nToddobaadka oo dhan carruurtu way diyaarinayeen sheekada. Raxma, oo iskuulka wax ka dhigta, ayaa carruurta wax tustay. \"Bile, sidan u istaag. Boqorku sidan buu u istaagaa,\" ayay tidhi. Bile sidaas ayuu u istaagay.\n\nDharka boqorku wuxuu ahaa mid gaaban. \"Dharkani waa gaaban yahay,\" ayay tidhi Raxma. Kadib waxay keentay dhar dheer.\n\nMaalinta kulanka dad badan ayaa yimid. Suleekha ayaa sheekada bilowday: \"Waxaa jiray boqor weyn. Shacbigiisu ma haysan biyo iyo cunto.\"\n\nBile oo boqorka ah ayaa yidhi: \"Anigu waxaan rabaa lacag badan.\" Kadib Yoonis oo duqa ah ayaa yimid. Duqu wuxuu taabtay gacanta boqorka. \"Shacbigu waa awoodda boqorka. Shacbiga caawi,\" ayuu yidhi duqu.\n\nBoqorku wuu fekeray. Kadib wuxuu yidhi: \"Duqu waa sax.\" Boqorku shacbigiisa wuxuu siiyay biyo iyo cunto. Shacbigu wuu faraxsanaa.\n\nDhammaadka sheekada, dadku way faraxsanaayeen. Carruurtu waxay jeclaayeen inay taabtaan kursiga boqorka.\n\nKulanka kadib Suleekha waxay Raxma siisay hadiyad yar oo ay duubtay. Raxma hadiyadda la duubay way furtay. Gudaha waxaa ku jiray buug. Raxma way faraxsanayd.\n\nSu'aalo:\nToddobaadkan waa toddobaadkee?\nToddobaadkan waa toddobaadka dhammaadka sannadka dugsiga.\nYaa noqday boqorka?\nBile ayaa noqday boqorka.\nDharka boqorku ma dheeraa?\nDharka boqorku ma dheerayn. Wuxuu ahaa mid gaaban.\nDuqu muxuu taabtay?\nDuqu wuxuu taabtay gacanta boqorka.\nBoqorku muxuu shacbigiisa siiyay?\nBoqorku shacbigiisa wuxuu siiyay biyo iyo cunto.\nSuleekha maxay duubtay?\nSuleekha waxay duubtay hadiyad yar."
+    }
+  ]
+}
