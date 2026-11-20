@@ -10,7 +10,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
-import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertIsNotSelected
+import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.hasScrollToNodeAction
@@ -47,8 +48,9 @@ import kotlin.time.Clock
 import kotlin.time.Duration.Companion.minutes
 
 /**
- * Free books from every library at once: shelves picked by the words the reader knows, a search across them all, the
- * libraries with whether each can be reached, and one library's own books. FIND_SHOTS names a folder for the pictures.
+ * Free books from every library at once: shelves picked by the words the reader knows, a search across them all, and
+ * the libraries with whether each can be reached, a card picked narrowing the books to its own. FIND_SHOTS names a
+ * folder for the pictures.
  */
 @OptIn(ExperimentalTestApi::class)
 class FindBooksScreenTest {
@@ -127,7 +129,7 @@ class FindBooksScreenTest {
             FindBooksActions(
                 onMinKnown = { v -> update { it.copy(minKnown = v) } },
                 onShowAll = { shown += it },
-                onOpenLibrary = { opened += it },
+                onLibrary = { opened += it },
                 onAdd = { added += it.book.id },
             )
         }
@@ -255,24 +257,6 @@ class FindBooksScreenTest {
     }
 
     @Test
-    fun aLibraryDownForMaintenanceTakesABreakKindly() = runDesktopComposeUiTest(width = 1600, height = 1100) {
-        var retried = 0
-        val opened = mutableListOf<BookSource>()
-        val state = discover.copy(view = FindView.Library(BookSource.GUTENBERG), library = LibraryUiState(BookSource.GUTENBERG, loading = false, error = maintenance))
-        show(state) { FindBooksActions(onRetryLibrary = { retried++ }, onOpenLibrary = { opened += it }) }
-        waitForIdle()
-        shot("library-gutenberg-down")
-        onNodeWithText("Gutenberg is taking a break").assertExists()
-        onNodeWithText(maintenance).assertExists()
-        onNodeWithText("Books you already added from it still open in your library.").assertExists()
-        onNodeWithText("Checked 4 minutes ago").assertExists()
-        onNodeWithTag("library-retry").performClick()
-        onNodeWithTag("try-ADAMASTOR").performClick()
-        assertEquals(1, retried)
-        assertEquals(listOf(BookSource.ADAMASTOR), opened)
-    }
-
-    @Test
     fun aPhoneCondensesTheHeroAndScrollsTheShelves() = runDesktopComposeUiTest(width = 400, height = 860) {
         show(discover) { FindBooksActions() }
         // The libraries come right under the How hard? scale, two to a row.
@@ -301,72 +285,199 @@ class FindBooksScreenTest {
         shot("discover-phone-dark")
     }
 
-    // One library's own books, as the page was before every library was searched at once.
+    // A library's card picked: the books narrowed to its own.
 
-    private val classics = listOf(
-        FoundBookItem(book("55752", "Dom Casmurro", "Machado de Assis"), CoverageCheck.Checked(TextCoverage(1000, 962))),
-        FoundBookItem(book("3333", "Os Lusíadas", "Luís de Camões"), CoverageCheck.Checked(TextCoverage(1000, 781)), libraryId = 9),
-        FoundBookItem(book("54829", "Memorias Posthumas de Braz Cubas", "Machado de Assis"), CoverageCheck.Checked(TextCoverage(1000, 893)), adding = true),
-        FoundBookItem(book("24919", "Amor Crioulo", "Abel Botelho"), CoverageCheck.Checking),
-        FoundBookItem(book("62383", "A Biblia Sagrada", "João Ferreira de Almeida"), error = "Could not download the book"),
+    /** The page's actions with a library's card toggling as the view model does. */
+    private fun picking(update: ((FindBooksUiState) -> FindBooksUiState) -> Unit, picked: MutableList<BookSource> = mutableListOf()) = FindBooksActions(
+        onLibrary = { source -> picked += source; update { it.copy(selected = source.takeIf { s -> s != it.selected }, more = MorePages()) } },
+        onClearLibrary = { update { it.copy(selected = null, more = MorePages()) } },
+        onTopic = { t -> update { it.copy(topic = if (it.topic == t) null else t) } },
+        onMinKnown = { v -> update { it.copy(minKnown = v) } },
     )
 
-    private fun inLibrary(source: BookSource, books: List<FoundBookItem>, languageName: String = "Portuguese", libs: List<BookSource> = sources) =
-        FindBooksUiState(languageName = languageName, sources = libs, view = FindView.Library(source), library = LibraryUiState(source, books = books, loading = false), libraries = libraries)
+    private fun ComposeUiTest.scrollTo(tag: String) = onAllNodes(hasScrollToNodeAction())[0].performScrollToNode(hasTestTag(tag))
 
     @Test
-    fun aLibraryShowsHowMuchOfEachBookTheReaderKnows() = runDesktopComposeUiTest(width = 1586, height = 1100) {
-        val added = mutableListOf<String>()
-        val read = mutableListOf<Long>()
+    fun aLibraryCardPickedShowsOnlyItsBooksUntilLetGo() = runDesktopComposeUiTest(width = 1600, height = 1500) {
+        show(discover) { picking(it) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("A menina e a lua")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, count("library-filter"))
+        onNodeWithTag("library-WIKISOURCE").performClick()
+        waitForIdle()
+        shot("desktop-light-wikisource")
+        onNodeWithTag("library-WIKISOURCE").assertIsSelected()
+        onNodeWithTag("library-ADAMASTOR").assertIsNotSelected()
+        onNodeWithTag("library-check-WIKISOURCE", useUnmergedTree = true).assertExists()
+        onNodeWithTag("library-filter").assertExists()
+        // Wikisource's classics, and nothing of the other libraries; no book of it is short, so no easy wins.
+        onNodeWithTag("shelf-CLASSICS_WITHIN_REACH").assertExists()
+        assertEquals(0, count("shelf-EASY_WINS"))
+        for (id in listOf("fluminenses", "moreninha", "cortico", "casmurro")) onNodeWithTag("cover-$id").assertExists()
+        for (id in listOf("menina", "gato", "feira", "alienista", "iracema")) assertEquals(0, count("cover-$id"), id)
+        scrollTo("library-footer")
+        onNodeWithText("Texts transcribed by Wikisource's volunteers", substring = true).assertExists()
+
+        // The How hard? scale and the topics narrow the library's books further.
+        scrollTo("known-stop-80")
+        onNodeWithTag("known-stop-80").performClick()
+        waitForIdle()
+        onNodeWithText("Famous Portuguese books at 65–79% known").assertExists()
+        onNodeWithTag("topic-CLASSIC_NOVELS").performClick()
+        waitForIdle()
+        onNodeWithTag("results").assertExists()
+        onNodeWithTag("cover-fluminenses").assertExists()
+        assertEquals(0, count("cover-alienista"))
+        onNodeWithTag("topic-CLASSIC_NOVELS").performClick()
+
+        // The chip lets it go; so does a second tap on its card.
+        scrollTo("library-filter")
+        onNodeWithTag("library-filter").performClick()
+        waitForIdle()
+        assertEquals(0, count("library-filter"))
+        onNodeWithTag("library-WIKISOURCE").assertIsNotSelected()
+        onNodeWithTag("cover-menina").assertExists()
+        scrollTo("library-WIKISOURCE")
+        onNodeWithTag("library-WIKISOURCE").performClick()
+        onNodeWithTag("library-WIKISOURCE").performClick()
+        waitForIdle()
+        assertEquals(0, onAllNodesWithTag("library-check-WIKISOURCE", useUnmergedTree = true).fetchSemanticsNodes().size)
+        scrollTo("cover-menina")
+    }
+
+    @Test
+    fun aChildrensLibraryPickedIsOneGridBestKnownFirst() = runDesktopComposeUiTest(width = 1600, height = 1400) {
+        show(discover) { picking(it) }
+        onNodeWithTag("library-GDL").performClick()
+        waitForIdle()
+        shot("desktop-light-easy-readers")
+        onNodeWithTag("library-books").assertExists()
+        onNodeWithText("Global Digital Library").assertExists()
+        onNodeWithText("2 books · best known first").assertExists()
+        assertEquals(0, count("shelf-EASY_WINS"))
+        val left = { tag: String -> onNodeWithTag(tag).fetchSemanticsNode().boundsInRoot.left }
+        assert(left("cover-feira") < left("cover-festa"))
+        assertEquals(0, count("cover-menina"))
+    }
+
+    @Test
+    fun aLibraryDownAndPickedTakesABreakUnderTheCards() = runDesktopComposeUiTest(width = 1600, height = 1400) {
+        var retried = 0
+        val picked = mutableListOf<BookSource>()
+        show(discover) { update -> picking(update, picked).let { FindBooksActions(onLibrary = it.onLibrary, onClearLibrary = it.onClearLibrary, onRetryLibrary = { retried++ }) } }
+        onNodeWithTag("library-GUTENBERG").performClick()
+        waitForIdle()
+        shot("desktop-light-gutenberg-down")
+        onNodeWithTag("library-break").assertExists()
+        onNodeWithText("Gutenberg is taking a break").assertExists()
+        onNodeWithText(maintenance).assertExists()
+        onNodeWithText("Checked 4 minutes ago").assertExists()
+        assertEquals(0, count("shelf-CLASSICS_WITHIN_REACH"))
+        assert(onNodeWithTag("library-break").fetchSemanticsNode().boundsInRoot.top > onNodeWithTag("library-GUTENBERG").fetchSemanticsNode().boundsInRoot.bottom)
+        onNodeWithTag("library-retry").performClick()
+        assertEquals(1, retried)
+        // Another library from the break, or from its card.
+        onNodeWithTag("try-ADAMASTOR").performClick()
+        waitForIdle()
+        onNodeWithTag("library-ADAMASTOR").assertIsSelected()
+        assertEquals(0, count("library-break"))
+        onNodeWithTag("library-GUTENBERG").performClick()
+        onNodeWithTag("library-WIKISOURCE").performClick()
+        waitForIdle()
+        onNodeWithTag("library-WIKISOURCE").assertIsSelected()
+        assertEquals(listOf(BookSource.GUTENBERG, BookSource.ADAMASTOR, BookSource.GUTENBERG, BookSource.WIKISOURCE), picked)
+    }
+
+    @Test
+    fun theDarkThemeHighlightsTheLibraryPicked() = runDesktopComposeUiTest(width = 1600, height = 1400) {
+        show(discover.copy(selected = BookSource.STORYBOOKS), theme = AppThemes.night) { FindBooksActions() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("A menina e a lua")).fetchSemanticsNodes().isNotEmpty() }
+        shot("desktop-dark-storybooks")
+        onNodeWithTag("library-STORYBOOKS").assertIsSelected()
+        assertEquals(0, count("cover-feira"))
+    }
+
+    @Test
+    fun seeAllOfALibraryLoadsItsNextPagesAtTheEnd() = runDesktopComposeUiTest(width = 1600, height = 1100) {
+        val wikisource = found.getValue(BookSource.WIKISOURCE).filter { it.check is CoverageCheck.Checked }
+        val nextPage = listOf(
+            judged("iaia", "Iaiá Garcia", "Machado de Assis", BookSource.WIKISOURCE, 81),
+            judged("guarani", "O Guarani", "José de Alencar", BookSource.WIKISOURCE, 79),
+        )
+        var loads = 0
         var back = 0
-        show(inLibrary(BookSource.GUTENBERG, classics).copy(library = LibraryUiState(BookSource.GUTENBERG, books = classics, loading = false, hasMore = true))) { update ->
+        val state = discover.copy(
+            found = found + (BookSource.WIKISOURCE to wikisource), selected = BookSource.WIKISOURCE, view = FindView.AllOf(Shelf.CLASSICS_WITHIN_REACH),
+            libraries = libraries + (BookSource.WIKISOURCE to LibraryInfo(LibraryStatus.AVAILABLE, checked, hasMore = true)),
+        )
+        show(state) { update ->
             FindBooksActions(
-                onDifficulty = { d -> update { it.copy(library = it.library.copy(difficulty = d)) } },
-                onAdd = { added += it.book.id },
-                onRead = { item -> item.libraryId?.let { read += it } },
+                onLoadMore = { loads++; update { it.copy(more = MorePages(books = nextPage.take(loads), page = it.more.page + 1, hasMore = loads < 2)) } },
                 onBack = { back++ },
             )
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dom Casmurro")).fetchSemanticsNodes().isNotEmpty() }
-        shot("library-gutenberg")
-        onNodeWithTag("coverage-55752", useUnmergedTree = true).assertExists()
-        onNodeWithText("You know 96% of the words").assertExists()
-        onNodeWithText("Checking the words…").assertExists()
-        onNodeWithText("Could not download the book").assertExists()
-        onNodeWithTag("add-54829").assertIsNotEnabled()
-
-        onNodeWithTag("add-55752").performClick()
-        onNodeWithTag("read-3333").performClick()
-        assertEquals(listOf("55752"), added)
-        assertEquals(listOf(9L), read)
-
-        // Hard keeps the book the reader knows least of; the unchecked ones wait for a level.
-        onNodeWithTag("difficulty-HARD").performClick()
-        waitForIdle()
-        onNodeWithTag("found-3333").assertExists()
-        for (id in listOf("55752", "54829", "24919", "62383")) assertEquals(0, count("found-$id"))
-        onNodeWithTag("difficulty-MEDIUM").performClick()
-        onNodeWithText("Memorias Posthumas de Braz Cubas").assertExists()
-
+        // The grid is short, so its end is in view at once: the next page comes by itself.
+        waitUntil(timeoutMillis = 5_000) { loads == 1 }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("cover-iaia")).fetchSemanticsNodes().isNotEmpty() }
+        shot("desktop-light-wikisource-see-all")
+        onNodeWithTag("library-filter").assertExists()
+        assertEquals(0, count("cover-menina"))
+        // While the end stays in view, the page after waits for the button.
+        onNodeWithTag("load-more").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("cover-guarani")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(2, loads)
+        assertEquals(0, count("load-more"))
         onAllNodes(hasText("Find books") and hasClickAction()).onFirst().performClick()
         assertEquals(1, back)
     }
 
     @Test
+    fun aPageThatFailsToLoadOffersToTryAgain() = runDesktopComposeUiTest(width = 1600, height = 1400) {
+        var loads = 0
+        val state = discover.copy(selected = BookSource.ADAMASTOR, more = MorePages(page = 1, error = "Could not reach the library"), libraries = libraries + (BookSource.ADAMASTOR to LibraryInfo(LibraryStatus.AVAILABLE, checked, hasMore = true)))
+        show(state) { FindBooksActions(onLoadMore = { loads++ }) }
+        scrollTo("library-footer")
+        onNodeWithText("Could not reach the library").assertExists()
+        onNodeWithTag("load-more-retry").performClick()
+        assertEquals(1, loads)
+    }
+
+    @Test
+    fun aPhoneKeepsTwoCardsToARowAndTheBooksFollowThePick() = runDesktopComposeUiTest(width = 400, height = 860) {
+        show(discover) { picking(it) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("library-STORYBOOKS")).fetchSemanticsNodes().isNotEmpty() }
+        scrollTo("library-STORYBOOKS")
+        onNodeWithTag("library-STORYBOOKS").performClick()
+        waitForIdle()
+        onNodeWithTag("library-STORYBOOKS").assertIsSelected()
+        val top = { tag: String -> onNodeWithTag(tag).fetchSemanticsNode().boundsInRoot.top }
+        assertEquals(top("library-WIKISOURCE"), top("library-GDL"))
+        assertEquals(top("library-STORYBOOKS"), top("library-STORYWEAVER"))
+        shot("phone-light-storybooks")
+        scrollTo("library-books")
+        shot("phone-light-storybooks-books")
+        onNodeWithTag("cover-menina").assertExists()
+        onNodeWithTag("cover-sapo").assertExists()
+        assertEquals(0, count("cover-alienista"))
+        assertEquals(0, count("cover-feira"))
+    }
+
+    @Test
     fun easyReadersShowTheirLevelUntilTheirWordsAreChecked() = runDesktopComposeUiTest(width = 400, height = 1000) {
-        val checked = mutableListOf<String>()
+        val checks = mutableListOf<String>()
         val readers = listOf(
             FoundBookItem(book("15316", "Volte aqui, gata!", "BookDash", BookSource.GDL, "Level 2", Difficulty.EASY)),
             FoundBookItem(book("15400", "Uma casa para o Senhor Rato", "StoryWeaver", BookSource.GDL, "Level 4", Difficulty.HARD), CoverageCheck.Checked(TextCoverage(200, 196))),
         )
-        show(inLibrary(BookSource.GDL, readers)) { FindBooksActions(onCheck = { checked += it.book.id }) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Volte aqui, gata!")).fetchSemanticsNodes().isNotEmpty() }
-        shot("library-easy-readers-phone")
+        show(discover.copy(selected = BookSource.GDL, found = mapOf(BookSource.GDL to readers))) { FindBooksActions(onCheck = { checks += it.book.id }) }
+        scrollTo("cover-15316")
+        // The one judged comes first; the other waits for the reader to ask.
+        val left = { tag: String -> onNodeWithTag(tag).fetchSemanticsNode().boundsInRoot.left }
+        assert(left("cover-15400") < left("cover-15316"))
+        onNodeWithTag("cover-15316").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("found-book-dialog")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("BookDash · Level 2").assertExists()
-        // The level the library gives until the words are checked; then what the reader knows.
         onNodeWithTag("check-15316").performClick()
-        assertEquals(listOf("15316"), checked)
-        onNodeWithText("You know 98% of the words").assertExists()
+        assertEquals(listOf("15316"), checks)
     }
 
     @Test
@@ -375,10 +486,13 @@ class FindBooksScreenTest {
             source = BookSource.WIKISOURCE, id = "Dom Casmurro", title = "Dom Casmurro", authors = listOf("Machado de Assis"), description = "", subjects = emptyList(),
             license = "CC BY-SA", pageUrl = "https://pt.wikisource.org/wiki/Dom_Casmurro", downloadUrl = "https://ws-export.wmcloud.org/?format=epub-3&lang=pt&page=Dom_Casmurro",
         )
-        show(inLibrary(BookSource.WIKISOURCE, listOf(FoundBookItem(work)))) { FindBooksActions() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dom Casmurro")).fetchSemanticsNodes().isNotEmpty() }
+        show(discover.copy(found = mapOf(BookSource.WIKISOURCE to listOf(FoundBookItem(work, CoverageCheck.Checked(TextCoverage(1000, 810))))))) { FindBooksActions() }
+        scrollTo("cover-Dom Casmurro")
+        onNodeWithTag("cover-Dom Casmurro").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("found-book-dialog")).fetchSemanticsNodes().isNotEmpty() }
         // Its words are checked as it is listed, so there is nothing to ask for.
         assertEquals(0, count("check-Dom Casmurro"))
+        onNodeWithText("From Wikisource, CC BY-SA.").assertExists()
         assertEquals("Source: Wikisource, «Dom Casmurro», CC BY-SA.", attribution(work))
         assertEquals("Source: Project Gutenberg, «Dom Casmurro», public domain.", attribution(book("55752", "Dom Casmurro", "Machado de Assis")))
         assertEquals("Source: Global Digital Library, «Gata», CC BY-SA 4.0.", attribution(work.copy(source = BookSource.GDL, title = "Gata", license = "CC-BY-SA-4.0")))
@@ -399,40 +513,10 @@ class FindBooksScreenTest {
     }
 
     @Test
-    fun aLibraryWithoutTheLanguageOffersAnother() = runDesktopComposeUiTest(width = 1200, height = 800) {
-        val opened = mutableListOf<BookSource>()
-        show(inLibrary(BookSource.GDL, emptyList(), languageName = "Greek", libs = listOf(BookSource.GUTENBERG, BookSource.GDL))) { FindBooksActions(onOpenLibrary = { opened += it }) }
+    fun aLibraryWithoutBooksInTheLanguageSaysSo() = runDesktopComposeUiTest(width = 1200, height = 1200) {
+        val greek = listOf(BookSource.GUTENBERG, BookSource.GDL)
+        show(FindBooksUiState(languageName = "Greek", sources = greek, selected = BookSource.GDL, found = mapOf(BookSource.GDL to emptyList()), libraries = greek.associateWith { LibraryInfo(LibraryStatus.AVAILABLE, checked) })) { FindBooksActions() }
+        scrollTo("library-filter")
         onNodeWithText("Global Digital Library has no books in Greek.").assertExists()
-        onNodeWithText("Look in Project Gutenberg").performClick()
-        assertEquals(listOf(BookSource.GUTENBERG), opened)
-    }
-
-    /** A phone keeps the level behind one Filters button, names it once chosen, and a card's tap does what its button says. */
-    @Test
-    fun aPhoneFiltersFromASheetAndTheCardAddsTheBook() = runDesktopComposeUiTest(width = 400, height = 1000) {
-        val added = mutableListOf<String>()
-        val read = mutableListOf<String>()
-        show(inLibrary(BookSource.GUTENBERG, classics.take(2))) { update ->
-            FindBooksActions(
-                onDifficulty = { d -> update { it.copy(library = it.library.copy(difficulty = d)) } },
-                onAdd = { added += it.book.id },
-                onRead = { read += it.book.id },
-            )
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Dom Casmurro")).fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, count("difficulty-EASY"), "the levels wait in the sheet")
-        onNodeWithTag("find-books-filters").performClick()
-        onNodeWithTag("difficulty-EASY").performClick()
-        onNodeWithTag("find-books-filters-done").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("active-filter-summary")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Easy · 1 book").assertExists()
-
-        onNodeWithTag("found-55752").performClick()
-        // Clearing the filter brings back the book already in the library, whose card reads it.
-        onNodeWithTag("clear-filters").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("found-3333")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("found-3333").performClick()
-        assertEquals(listOf("55752"), added)
-        assertEquals(listOf("3333"), read)
     }
 }

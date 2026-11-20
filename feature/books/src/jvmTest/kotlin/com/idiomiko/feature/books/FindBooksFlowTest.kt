@@ -39,7 +39,10 @@ import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-/** The page with its libraries behind it, as fakes: each library's books show as they come, and a library down holds up none. */
+/**
+ * The page with its libraries behind it, as fakes: each library's books show as they come, a library down holds up
+ * none, and a library picked loads its further pages.
+ */
 @OptIn(ExperimentalTestApi::class)
 class FindBooksFlowTest {
     private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-find", ".db").also { it.delete() }))
@@ -49,8 +52,8 @@ class FindBooksFlowTest {
     private val settings = SettingsRepositoryImpl(MapSettings())
     private val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
 
-    /** A library that answers once [gate] opens, or fails with [error]; it counts the searches it is asked. */
-    private class FakeLibrary(override val source: BookSource, private val title: String, private val gate: CompletableDeferred<Unit>? = null, private val error: Exception? = null) : BookCatalog {
+    /** A library of [pages] pages of a book each that answers once [gate] opens, or fails with [error]; it counts the searches it is asked. */
+    private class FakeLibrary(override val source: BookSource, private val title: String, private val gate: CompletableDeferred<Unit>? = null, private val error: Exception? = null, private val pages: Int = 1) : BookCatalog {
         var searches = 0
         override val sampleIsWholeText = true
         override suspend fun search(languageCode: String, query: String, page: Int): CatalogPage {
@@ -58,17 +61,17 @@ class FindBooksFlowTest {
             gate?.await()
             error?.let { throw it }
             val book = FoundBook(
-                source = source, id = "${source.tag}-1", title = title, authors = listOf("Ana Lima"), description = "", subjects = emptyList(),
-                license = "CC-BY-4.0", pageUrl = "https://${source.host}/1", downloadUrl = "https://${source.host}/1.txt",
+                source = source, id = "${source.tag}-$page", title = if (page == 1) title else "$title $page", authors = listOf("Ana Lima"), description = "", subjects = emptyList(),
+                license = "CC-BY-4.0", pageUrl = "https://${source.host}/$page", downloadUrl = "https://${source.host}/$page.txt",
             )
-            return CatalogPage(listOf(book), hasMore = false)
+            return CatalogPage(listOf(book), hasMore = page < pages)
         }
         override suspend fun sample(book: FoundBook) = "O gato dorme na casa."
         override suspend fun text(book: FoundBook) = sample(book)
     }
 
     private val slow = CompletableDeferred<Unit>()
-    private val storybooks = FakeLibrary(BookSource.STORYBOOKS, "O gato e o rato")
+    private val storybooks = FakeLibrary(BookSource.STORYBOOKS, "O gato e o rato", pages = 3)
     private val wikisource = FakeLibrary(BookSource.WIKISOURCE, "Canção do exílio", gate = slow)
     private val gutenberg = FakeLibrary(BookSource.GUTENBERG, "Dom Casmurro", error = LibraryDownException("Project Gutenberg is down for maintenance. Try again later, or pick another library."))
     private val discovery = BookDiscoveryService(listOf(gutenberg, wikisource, storybooks), reading, BookService(books, languages), books)
@@ -110,16 +113,43 @@ class FindBooksFlowTest {
         slow.complete(Unit)
         waitUntil(timeoutMillis = 10_000) { viewModel.state.value.found.containsKey(BookSource.WIKISOURCE) }
 
-        // The library down opens on its break; going back finds every answer kept, without asking the libraries again.
-        viewModel.openLibrary(BookSource.GUTENBERG)
+        // The library down, picked, takes its break under the cards; asked again, it is asked alone.
+        viewModel.toggleLibrary(BookSource.GUTENBERG)
         waitFor("library-break")
         onNodeWithText("Gutenberg is taking a break").assertExists()
-        assertEquals(true, viewModel.back())
+        onNodeWithTag("library-retry").performClick()
+        waitUntil(timeoutMillis = 10_000) { viewModel.state.value.libraries[BookSource.GUTENBERG]?.status?.isDown == true && gutenberg.searches == 2 }
+        // Let go, every answer is kept, without asking the libraries again.
+        viewModel.toggleLibrary(BookSource.GUTENBERG)
         waitFor("cover-storybooks-1")
+        assertEquals(false, viewModel.back())
         viewModel.retry()
         waitUntil(timeoutMillis = 10_000) { !viewModel.state.value.waiting && viewModel.state.value.found.size == 3 }
         assertEquals(1, storybooks.searches)
         assertEquals(1, wikisource.searches)
         assertEquals(3, gutenberg.searches)
+    }
+
+    @Test
+    fun aLibraryPickedLoadsItsNextPagesAtTheEnd() = runDesktopComposeUiTest(width = 1600, height = 1100) {
+        val viewModel = page()
+        viewModel.setMinKnown(0)
+        waitFor("cover-storybooks-1")
+        viewModel.toggleLibrary(BookSource.STORYBOOKS)
+        // Its one grid ends in view, so the second page comes once the first is judged; the third waits for the button.
+        waitFor("library-books")
+        waitFor("cover-storybooks-2")
+        onNode(hasScrollToNodeAction()).performScrollToNode(hasTestTag("load-more"))
+        onNodeWithTag("load-more").performClick()
+        waitFor("cover-storybooks-3")
+        waitUntil(timeoutMillis = 10_000) { viewModel.state.value.books.all { it.coverage != null } }
+        assertEquals(3, storybooks.searches)
+        assertEquals(false, viewModel.state.value.hasMore)
+        assertEquals(0, onAllNodes(hasTestTag("load-more")).fetchSemanticsNodes().size)
+        assertEquals(0, onAllNodes(hasTestTag("cover-wikisource-1")).fetchSemanticsNodes().size)
+        // Let go, the shelves are every library's first page again.
+        viewModel.clearLibrary()
+        waitFor("cover-storybooks-1")
+        assertEquals(0, onAllNodes(hasTestTag("cover-storybooks-2")).fetchSemanticsNodes().size)
     }
 }

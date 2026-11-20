@@ -1,204 +1,97 @@
 package com.idiomiko.feature.books
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.books.discover.BookSource
 import com.idiomiko.core.domain.books.discover.LibraryStatus
-import com.idiomiko.core.ui.components.ActiveFilterSummary
-import com.idiomiko.core.ui.components.AppBottomSheet
-import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.ButtonSize
-import com.idiomiko.core.ui.components.CoverageLine
-import com.idiomiko.core.ui.components.Crumb
-import com.idiomiko.core.ui.components.DifficultyFilter
-import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.JourneyIllustration
-import com.idiomiko.core.ui.components.LocalWindowWidth
-import com.idiomiko.core.ui.components.PlaceholderCards
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
-import com.idiomiko.core.ui.components.ScreenHeader
-import com.idiomiko.core.ui.components.ScrollList
-import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.SpinnerSize
-import com.idiomiko.core.ui.components.ToggleButton
 import com.idiomiko.core.ui.components.cardSurface
-import com.idiomiko.core.ui.components.inLearnedScript
-import com.idiomiko.core.ui.components.itemMotion
-import com.idiomiko.core.ui.components.label
 import com.idiomiko.core.ui.components.relativeTo
-import com.idiomiko.core.ui.i18n.LanguageCase
-import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
-import com.idiomiko.core.ui.i18n.trPlural
+import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import kotlinx.coroutines.flow.first
+
+/** The library the books are narrowed to, as a chip whose tap lets it go and shows every library's books again. */
+@Composable
+internal fun LibraryChip(source: BookSource, onClear: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.soft)).clickable(role = Role.Button, onClick = onClear)
+            .padding(start = AppSpacing.m, end = AppSpacing.s, top = AppSpacing.xs, bottom = AppSpacing.xs).testTag("library-filter"),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(source.icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconTiny))
+        Text(source.label, Modifier.padding(start = AppSpacing.s, end = AppSpacing.xs), style = AppText.labelStrong.copy(fontWeight = FontWeight.Bold), color = colors.primary, maxLines = 1)
+        Icon(Icons.Default.Close, contentDescription = tr("Show every library"), tint = colors.primary, modifier = Modifier.size(AppSizes.iconTiny))
+    }
+}
 
 /**
- * One library's own books: its search, the level shown, and its pages as the list nears its end, each book a card
- * whose tap adds it or reads it. A library that cannot be reached says so kindly and offers the others.
+ * The end of a library's books: with [paging], its next page, asked for each time this comes into view and the books
+ * above are judged, a button for it while it stays in view, and why it failed if it did; then what the library is.
  */
 @Composable
-internal fun LibraryPage(state: FindBooksUiState, actions: FindBooksActions, open: (FoundBookItem) -> Unit) {
-    val compact = LocalWindowWidth.current.isCompact
-    val library = state.library
-    val list = rememberLazyListState()
-    // The next page comes when the end of the list is near.
-    LaunchedEffect(list, library.hasMore) {
-        snapshotFlow { list.layoutInfo.visibleItemsInfo.lastOrNull()?.index to list.layoutInfo.totalItemsCount }
-            .collect { (last, total) -> if (last != null && total > 0 && last >= total - 3) actions.onLoadMore() }
+internal fun LibraryFooter(state: FindBooksUiState, actions: FindBooksActions, paging: Boolean) {
+    val source = state.selected ?: return
+    val more = state.more
+    if (paging) {
+        val ready by rememberUpdatedState(state.canLoadMore)
+        val load by rememberUpdatedState(actions.onLoadMore)
+        LaunchedEffect(Unit) {
+            snapshotFlow { ready }.first { it }
+            load()
+        }
     }
-    ScrollList(
-        Modifier.widthIn(max = AppSizes.contentWidth).fillMaxSize(),
-        state = list,
-        contentPadding = PaddingValues(
-            start = if (compact) AppSpacing.l else AppSpacing.xxxl,
-            end = if (compact) AppSpacing.l else AppSpacing.xxxl + AppSizes.scrollbarRoom,
-            top = if (compact) AppSpacing.l else AppSpacing.xxl,
-            bottom = AppSpacing.xxl,
-        ),
-    ) {
-        item {
-            Column(Modifier.padding(bottom = AppSpacing.xl)) {
-                ScreenHeader(
-                    library.source.libraryName,
-                    library.source.blurb,
-                    crumbs = listOf(Crumb(tr("Find books"), actions.onBack), Crumb(library.source.label)),
-                    titleOnCompact = true,
-                )
-            }
-        }
-        // A library that cannot be reached has nothing to search or filter.
-        if (library.error != null) {
-            item { LibraryBreak(state, library.source, actions, compact) }
-            return@ScrollList
-        }
-        item { LibraryControls(library, actions, compact) }
-        when {
-            library.loading -> item { PlaceholderCards(4, thumbnail = true) }
-            library.shown.isEmpty() -> item { EmptyBox(state, actions) }
-            else -> items(library.shown.size, key = { "${library.shown[it].book.source}-${library.shown[it].book.id}" }) { i ->
-                Column(itemMotion()) { FoundBookCard(library.shown[i], actions, compact, Modifier.padding(bottom = AppSpacing.m)) }
-            }
-        }
-        if (library.loadingMore) item { Box(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xxl), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Medium) } }
-        if (!library.loading) item { SourceNote(library.source) }
-    }
-}
-
-@Composable
-private fun LibraryControls(library: LibraryUiState, actions: FindBooksActions, compact: Boolean) {
-    Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        SearchField(library.query, actions.onLibraryQuery, tr("Search titles and authors"), Modifier.fillMaxWidth().testTag("library-search"))
-        // On a phone the level waits in a sheet behind one button, so the books show at once.
-        var sheet by remember { mutableStateOf(false) }
-        if (compact) {
-            ToggleButton(
-                tr("Filters"),
-                active = library.difficulty != null,
-                onClick = { sheet = true },
-                modifier = Modifier.testTag("find-books-filters"),
-                icon = AppIcons.Tune,
-                badge = if (library.difficulty != null) 1 else 0,
-                contentDescription = if (library.difficulty != null) trPlural(1, "{0} filter on", "{0} filters on") else null,
-            )
-        } else {
-            DifficultyFilter(library.difficulty, actions.onDifficulty)
-        }
-        library.difficulty?.takeIf { !library.loading }?.let { difficulty ->
-            ActiveFilterSummary(
-                "${difficulty.label} · ${trPlural(library.shown.size, "{0} book", "{0} books")}",
-                tr("Clear filters"),
-                onClear = { actions.onDifficulty(null) },
-                onEdit = if (compact) ({ sheet = true }) else null,
-            )
-        }
-        if (sheet) {
-            AppBottomSheet(onDismissRequest = { sheet = false }) {
-                Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                    Text(tr("Filters"), style = AppText.itemTitle)
-                    DifficultyFilter(library.difficulty, actions.onDifficulty)
-                    PrimaryButton(trPlural(library.shown.size, "Show {0} book", "Show {0} books"), onClick = { sheet = false }, modifier = Modifier.fillMaxWidth().testTag("find-books-filters-done"))
+    Column(Modifier.fillMaxWidth().testTag("library-footer"), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        if (paging) {
+            when {
+                more.error != null -> {
+                    Text(more.error, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error, textAlign = TextAlign.Center)
+                    QuietButton(tr("Try again"), onClick = actions.onLoadMore, modifier = Modifier.testTag("load-more-retry"))
                 }
+                more.loading || (state.hasMore && state.judgingPage) -> Box(Modifier.padding(vertical = AppSpacing.l).testTag("loading-more")) { AppSpinner(size = SpinnerSize.Medium) }
+                state.hasMore -> QuietButton(tr("Load more"), onClick = actions.onLoadMore, modifier = Modifier.testTag("load-more"))
             }
         }
-    }
-}
-
-@Composable
-private fun FoundBookCard(item: FoundBookItem, actions: FindBooksActions, compact: Boolean, modifier: Modifier) {
-    val colors = MaterialTheme.colorScheme
-    val book = item.book
-    // The whole card does what its button says: reads a book already in the library, or adds it.
-    Row(
-        modifier.fillMaxWidth().cardSurface().clickable(enabled = !item.adding) { if (item.libraryId != null) actions.onRead(item) else actions.onAdd(item) }
-            .padding(AppSpacing.l).testTag("found-${book.id}"),
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-    ) {
-        if (!compact) BookCover(book.title, CARD_COVER, code = null)
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Text(book.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            val byline = listOfNotNull(book.authors.joinToString(", ").inLearnedScript().takeIf { it.isNotEmpty() }, book.level).joinToString(" · ")
-            if (byline.isNotEmpty()) Text(byline, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            if (book.description.isNotEmpty()) Text(book.description.inLearnedScript(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            // On a phone the quiet action ends the metadata line rather than taking a line of its own.
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.weight(1f)) { CoverageLine(item.difficulty, item.check, tag = book.id, onCheck = if (book.source.judgedOnSight) null else ({ actions.onCheck(item) })) }
-                if (compact) BookAction(item, actions, Modifier)
-            }
-            item.error?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = colors.error) }
-        }
-        if (!compact) BookAction(item, actions, Modifier.align(Alignment.CenterVertically).widthIn(min = ACTION_WIDTH))
-    }
-}
-
-/** The card's one action, quiet as on every card: read a book already added, or add it, trying again after a failed download. */
-@Composable
-private fun BookAction(item: FoundBookItem, actions: FindBooksActions, modifier: Modifier) {
-    if (item.libraryId != null) {
-        QuietButton(tr("Read"), onClick = { actions.onRead(item) }, modifier = modifier.testTag("read-${item.book.id}"), trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
-    } else {
-        QuietButton(
-            when { item.adding -> tr("Adding…"); item.error != null -> tr("Try again"); else -> tr("Add to library") },
-            onClick = { actions.onAdd(item) },
-            modifier = modifier.testTag("add-${item.book.id}"),
-            loading = item.adding,
-            icon = Icons.Default.Add,
-        )
+        SourceNote(source)
     }
 }
 
@@ -227,7 +120,7 @@ internal fun LibraryBreak(state: FindBooksUiState, source: BookSource, actions: 
                 Text(tr("Meanwhile, try another library:"), style = AppText.labelStrong, textAlign = align)
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, if (compact) Alignment.CenterHorizontally else Alignment.Start), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     others.forEach { other ->
-                        SecondaryButton(other.label, onClick = { actions.onOpenLibrary(other) }, modifier = Modifier.testTag("try-${other.name}"), size = ButtonSize.Compact, icon = other.icon)
+                        SecondaryButton(other.label, onClick = { actions.onLibrary(other) }, modifier = Modifier.testTag("try-${other.name}"), size = ButtonSize.Compact, icon = other.icon)
                     }
                 }
             }
@@ -248,22 +141,6 @@ internal fun LibraryBreak(state: FindBooksUiState, source: BookSource, actions: 
             Box(Modifier.weight(1f)) { text() }
         }
     }
-}
-
-@Composable
-private fun EmptyBox(state: FindBooksUiState, actions: FindBooksActions) {
-    val library = state.library
-    val other = state.sources.ifEmpty { BookSource.entries.toList() }.firstOrNull { it != library.source }
-    EmptyState(
-        AppIcons.MenuBook,
-        when {
-            state.languageName.isEmpty() -> tr("Choose a language to learn to see its books.")
-            library.books.isNotEmpty() -> tr("None of these books is at this level yet.")
-            library.query.isNotBlank() -> tr("No books match your search.")
-            else -> tr("{0} has no books in {1}.", library.source.libraryName, languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))
-        },
-        action = if (library.books.isEmpty() && state.languageName.isNotEmpty() && other != null) ({ SecondaryButton(tr("Look in {0}", other.libraryName), onClick = { actions.onOpenLibrary(other) }) }) else null,
-    )
 }
 
 @Composable
@@ -294,7 +171,5 @@ private fun SourceNote(source: BookSource) {
     )
 }
 
-private val CARD_COVER = 56.dp
-private val ACTION_WIDTH = 160.dp
 private val BREAK_MASCOT = 220.dp
 private val BREAK_MASCOT_COMPACT = 160.dp

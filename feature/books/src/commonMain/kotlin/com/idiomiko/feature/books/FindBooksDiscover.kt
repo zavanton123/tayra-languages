@@ -2,6 +2,7 @@ package com.idiomiko.feature.books
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -28,6 +29,7 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardActions
@@ -57,6 +59,7 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.drawscope.clipPath
 import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.compositeOver
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.input.pointer.pointerInput
@@ -73,6 +76,7 @@ import androidx.compose.ui.unit.sp
 import com.idiomiko.core.domain.books.discover.BookSource
 import com.idiomiko.core.domain.books.discover.Discovery
 import com.idiomiko.core.domain.books.discover.LibraryStatus
+import com.idiomiko.core.domain.books.discover.Ranked
 import com.idiomiko.core.domain.books.discover.Shelf
 import com.idiomiko.core.domain.books.discover.ShelfBooks
 import com.idiomiko.core.domain.books.discover.Topic
@@ -107,6 +111,7 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
+import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -114,8 +119,9 @@ import com.idiomiko.core.ui.theme.AppText
 import kotlin.math.roundToInt
 
 /**
- * The page of every library: the search across them all with its topics, the How hard? scale, the libraries to
- * browse one by one, then the shelves picked for the reader, or the books a search or topic found.
+ * The page of every library: the search across them all with its topics, the How hard? scale, the libraries' cards,
+ * then the shelves picked for the reader, or the books a search or topic found. A card picked narrows the books to
+ * its library's, the further pages of its grid loading at the end.
  */
 @Composable
 internal fun DiscoverPage(state: FindBooksUiState, actions: FindBooksActions, open: (FoundBookItem) -> Unit, knownWords: Int?) {
@@ -128,16 +134,34 @@ internal fun DiscoverPage(state: FindBooksUiState, actions: FindBooksActions, op
             state.languageName.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("Choose a language to learn to see its books.")) }
             state.sources.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("None of the libraries has books in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))) }
             state.allDown -> item { OfflineCard(state, actions, compact) }
-            state.narrowed -> item { Results(state, actions, open, compact) }
-            state.loading -> item { Column(verticalArrangement = Arrangement.spacedBy(SECTION_GAP)) { ShelfSkeleton(compact); ShelfSkeleton(compact) } }
-            else -> item { Shelves(state, actions, open, compact) }
+            else -> {
+                item { Books(state, actions, open, compact) }
+                if (state.selected != null && !state.selectedDown && !state.loading) item { LibraryFooter(state, actions, paging = state.narrowed || state.oneGrid) }
+            }
         }
         // With every library down, their cards follow the card that says so.
         if (state.sources.isNotEmpty() && state.allDown) item { BrowseLibraries(state, actions, compact) }
     }
 }
 
-/** One shelf in full, under the How hard? scale that sets it. */
+/** The books under the libraries' cards: the shelves, or a search's or topic's, or one library's; that library's chip first. */
+@Composable
+private fun Books(state: FindBooksUiState, actions: FindBooksActions, open: (FoundBookItem) -> Unit, compact: Boolean) {
+    val selected = state.selected
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        if (selected != null) Box(Modifier.padding(top = AppSpacing.s)) { LibraryChip(selected, actions.onClearLibrary) }
+        when {
+            selected != null && state.selectedDown -> LibraryBreak(state, selected, actions, compact)
+            state.narrowed -> Results(state, actions, open, compact)
+            state.loading -> Column(verticalArrangement = Arrangement.spacedBy(SECTION_GAP)) { ShelfSkeleton(compact); if (!state.oneGrid) ShelfSkeleton(compact) }
+            selected != null && state.books.isEmpty() -> EmptyState(AppIcons.MenuBook, tr("{0} has no books in {1}.", selected.libraryName, languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
+            selected != null && state.oneGrid -> LibraryBooks(state, selected, actions, open, compact)
+            else -> Shelves(state, actions, open, compact)
+        }
+    }
+}
+
+/** One shelf in full, under the How hard? scale that sets it; a library's further pages load at its end. */
 @Composable
 internal fun ShelfPage(state: FindBooksUiState, shelf: Shelf, actions: FindBooksActions, open: (FoundBookItem) -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
@@ -145,10 +169,15 @@ internal fun ShelfPage(state: FindBooksUiState, shelf: Shelf, actions: FindBooks
     PageList(compact) {
         item { ScreenHeader(shelf.title, shelf.subtitle(state), crumbs = listOf(Crumb(tr("Find books"), actions.onBack), Crumb(shelf.title)), titleOnCompact = true) }
         item { HowHard(state.minKnown, actions.onMinKnown, compact) }
+        state.selected?.let { item { LibraryChip(it, actions.onClearLibrary) } }
         item {
-            if (books.books.isEmpty()) NoMatch(state, actions, harder = 0, levelOnly = true)
-            else BookGrid(books.books, compact, actions, open) { item -> meta(item, byAuthor = shelf == Shelf.CLASSICS_WITHIN_REACH, hard = books.books.indexOf(item) >= books.hardFrom) }
+            when {
+                books.books.isNotEmpty() -> BookGrid(books.books, compact, actions, open) { item -> meta(item, byAuthor = shelf == Shelf.CLASSICS_WITHIN_REACH, hard = books.books.indexOf(item) >= books.hardFrom) }
+                state.judgingPage || state.waiting -> ShelfSkeleton(compact, title = false)
+                else -> NoMatch(state, actions, harder = 0, levelOnly = true)
+            }
         }
+        if (state.selected != null) item { LibraryFooter(state, actions, paging = true) }
     }
 }
 
@@ -492,11 +521,7 @@ private fun Results(state: FindBooksUiState, actions: FindBooksActions, open: (F
     val pending = state.waiting || state.judging
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m), modifier = Modifier.testTag("results")) {
         val title = if (state.searched.isNotBlank()) tr("Results for “{0}”", state.searched) else state.topic?.label.orEmpty()
-        val count = listOfNotNull(
-            trPlural(results.books.size, "{0} book", "{0} books"),
-            results.harder.takeIf { it > 0 }?.let { trPlural(it, "{0} harder book left out", "{0} harder books left out") },
-        ).joinToString(" · ")
-        SectionTitle(title, count, compact) {
+        SectionTitle(title, count(results), compact) {
             LinkText(if (state.searched.isNotBlank()) tr("Clear search") else tr("Clear filters"), onClick = actions.onClearSearch, modifier = Modifier.testTag("clear-search"), style = AppText.labelStrong.copy(fontWeight = FontWeight.Bold))
         }
         when {
@@ -506,6 +531,32 @@ private fun Results(state: FindBooksUiState, actions: FindBooksActions, open: (F
         }
     }
 }
+
+/**
+ * The books of a library the shelves would mostly leave out, children's books or books judged on request, as one
+ * grid: those the reader knows enough of, the best known first, then those not judged yet.
+ */
+@Composable
+private fun LibraryBooks(state: FindBooksUiState, source: BookSource, actions: FindBooksActions, open: (FoundBookItem) -> Unit, compact: Boolean) {
+    val results = remember(state) { state.results }
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m), modifier = Modifier.testTag("library-books")) {
+        SectionTitle(source.libraryName, count(results, tr("best known first")), compact)
+        when {
+            results.books.isNotEmpty() -> BookGrid(results.books, compact, actions, open) { meta(it, byAuthor = false) }
+            state.waiting || state.judging -> ShelfSkeleton(compact, title = false)
+            else -> NoMatch(state, actions, results.harder, levelOnly = true)
+        }
+    }
+}
+
+/** How many books a grid holds, and how many harder ones it leaves out. */
+@Composable
+private fun count(results: Ranked<FoundBookItem>, vararg more: String): String = (
+    listOfNotNull(
+        trPlural(results.books.size, "{0} book", "{0} books"),
+        results.harder.takeIf { it > 0 }?.let { trPlural(it, "{0} harder book left out", "{0} harder books left out") },
+    ) + more
+).joinToString(" · ")
 
 /**
  * Nothing to show: no book matches the search or topic, or none is as easy as asked. The mascot, and the ways out:
@@ -584,7 +635,10 @@ private fun ShelfSkeleton(compact: Boolean, title: Boolean = true) {
     }
 }
 
-/** Every library of the language as a card: what it holds and whether it can be reached now; a tap opens its own books. */
+/**
+ * Every library of the language as a card: what it holds and whether it can be reached now. A tap narrows the books
+ * below to the library's, and a second tap lets it go.
+ */
 @Composable
 private fun BrowseLibraries(state: FindBooksUiState, actions: FindBooksActions, compact: Boolean) {
     Column(Modifier.fillMaxWidth().padding(top = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -596,7 +650,7 @@ private fun BrowseLibraries(state: FindBooksUiState, actions: FindBooksActions, 
                 // The libraries that can be reached come first; one that is down waits at the end.
                 state.sources.sortedBy { state.libraries[it]?.status?.isDown == true }.chunked(columns).forEach { row ->
                     Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(gap)) {
-                        row.forEach { LibraryCard(it, state.libraries[it]?.status ?: LibraryStatus.CHECKING, { actions.onOpenLibrary(it) }, Modifier.weight(1f).fillMaxHeight()) }
+                        row.forEach { LibraryCard(it, state.libraries[it]?.status ?: LibraryStatus.CHECKING, selected = it == state.selected, { actions.onLibrary(it) }, Modifier.weight(1f).fillMaxHeight()) }
                         repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
                     }
                 }
@@ -605,15 +659,29 @@ private fun BrowseLibraries(state: FindBooksUiState, actions: FindBooksActions, 
     }
 }
 
+/** A library's card; the one picked has a ring in the primary colour, a tint of it, and a check. */
 @Composable
-private fun LibraryCard(source: BookSource, status: LibraryStatus, onClick: () -> Unit, modifier: Modifier) {
+private fun LibraryCard(source: BookSource, status: LibraryStatus, selected: Boolean, onClick: () -> Unit, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
-    val down = status.isDown
+    val shape = AppShapes.large
+    val background = when {
+        selected -> colors.primary.copy(alpha = AppAlpha.wash).compositeOver(colors.surface)
+        status.isDown -> lerp(colors.surface, AppAccents.red, DOWN_WASH)
+        else -> colors.surface
+    }
     Column(
-        modifier.cardSurface(AppShapes.large, if (down) lerp(colors.surface, AppAccents.red, DOWN_WASH) else colors.surface).clickable(onClick = onClick)
-            .padding(AppSpacing.l).testTag("library-${source.name}"),
+        modifier.clip(shape).background(background).border(if (selected) AppBorders.selected() else AppBorders.hairline(), shape)
+            .selectable(selected = selected, onClick = onClick).padding(AppSpacing.l).testTag("library-${source.name}"),
     ) {
-        IconTile(source.icon, size = LIBRARY_ICON, tint = source.tint)
+        Row(verticalAlignment = Alignment.Top) {
+            IconTile(source.icon, size = LIBRARY_ICON, tint = source.tint)
+            Spacer(Modifier.weight(1f))
+            if (selected) {
+                Box(Modifier.size(LIBRARY_CHECK).clip(AppShapes.circle).background(colors.primary).testTag("library-check-${source.name}"), contentAlignment = Alignment.Center) {
+                    Icon(Icons.Default.Check, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconTiny))
+                }
+            }
+        }
         Text(source.label, Modifier.padding(top = AppSpacing.m), style = AppText.itemTitle.copy(fontWeight = FontWeight.Bold), maxLines = 1, overflow = TextOverflow.Ellipsis)
         Text(source.blurb, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         Spacer(Modifier.weight(1f).height(AppSpacing.m))
@@ -727,6 +795,7 @@ private const val SHELF_MAX = 12
 private val LIBRARY_CARD_MIN = 150.dp
 private const val LIBRARY_COLUMNS = 6
 private const val LIBRARY_ICON = 40
+private val LIBRARY_CHECK = 22.dp
 private const val DOWN_WASH = 0.05f
 
 private val NO_MATCH_MASCOT = 150.dp

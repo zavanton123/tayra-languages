@@ -27,7 +27,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.books.discover.BookSource
-import com.idiomiko.core.domain.books.discover.Difficulty
 import com.idiomiko.core.domain.books.discover.Shelf
 import com.idiomiko.core.domain.books.discover.Topic
 import com.idiomiko.core.ui.components.AppDialog
@@ -47,7 +46,7 @@ import org.koin.compose.viewmodel.koinViewModel
 
 /**
  * Free books to add to the library, from every online library at once: shelves picked by the words the reader
- * knows, a search across them all, and each library's own books a tap away.
+ * knows, a search across them all, and a library's card to narrow them to its own books.
  */
 @OptIn(ExperimentalComposeUiApi::class)
 @Composable
@@ -58,7 +57,7 @@ fun FindBooksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             is FindBooksEvent.Read -> onNavigate(Route.Read(event.bookId))
         }
     }
-    // A shelf or a library goes back to the page of every library before the screen is left.
+    // A shelf in full goes back to the shelves before the screen is left.
     BackHandler(enabled = state.view != FindView.Discover) { viewModel.back() }
     Scaffold(
         topBar = { AppTopBar(title = tr("Find books"), onNavigate = onNavigate, onBack = { if (!viewModel.back()) onBack() }, section = NavSection.BOOKS) },
@@ -73,11 +72,10 @@ fun FindBooksScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                 onMinKnown = viewModel::setMinKnown,
                 onClearSearch = viewModel::clearSearch,
                 onShowAll = viewModel::showAll,
-                onOpenLibrary = viewModel::openLibrary,
+                onLibrary = viewModel::toggleLibrary,
+                onClearLibrary = viewModel::clearLibrary,
                 onBack = { viewModel.back() },
                 onRetry = viewModel::retry,
-                onLibraryQuery = viewModel::setLibraryQuery,
-                onDifficulty = viewModel::setDifficulty,
                 onLoadMore = viewModel::loadMore,
                 onRetryLibrary = viewModel::retryLibrary,
                 onCheck = { viewModel.check(it.book) },
@@ -97,11 +95,11 @@ internal class FindBooksActions(
     val onMinKnown: (Int) -> Unit = {},
     val onClearSearch: () -> Unit = {},
     val onShowAll: (Shelf) -> Unit = {},
-    val onOpenLibrary: (BookSource) -> Unit = {},
+    /** Picks a library's card, or lets it go when it is picked already. */
+    val onLibrary: (BookSource) -> Unit = {},
+    val onClearLibrary: () -> Unit = {},
     val onBack: () -> Unit = {},
     val onRetry: () -> Unit = {},
-    val onLibraryQuery: (String) -> Unit = {},
-    val onDifficulty: (Difficulty?) -> Unit = {},
     val onLoadMore: () -> Unit = {},
     val onRetryLibrary: () -> Unit = {},
     val onCheck: (FoundBookItem) -> Unit = {},
@@ -109,7 +107,7 @@ internal class FindBooksActions(
     val onRead: (FoundBookItem) -> Unit = {},
 )
 
-/** The page below the top bar: every library's shelves, a shelf in full, or one library; a book tapped opens its card. */
+/** The page below the top bar: the shelves, or a shelf in full; a book tapped opens its card. */
 @Composable
 internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions, modifier: Modifier = Modifier, knownWords: Int? = null) {
     // The book whose card is open, found again in the state so it shows its adding and judging as they go.
@@ -119,11 +117,10 @@ internal fun FindBooksContent(state: FindBooksUiState, actions: FindBooksActions
         when (val view = state.view) {
             FindView.Discover -> DiscoverPage(state, actions, open, knownWords)
             is FindView.AllOf -> ShelfPage(state, view.shelf, actions, open)
-            is FindView.Library -> LibraryPage(state, actions, open)
         }
     }
     opened?.let { (source, id) ->
-        val item = (state.found[source].orEmpty() + state.library.books).firstOrNull { it.book.source == source && it.book.id == id }
+        val item = (state.found[source].orEmpty() + state.more.books).firstOrNull { it.book.source == source && it.book.id == id }
         if (item == null) opened = null else FoundBookDialog(item, actions, onDismiss = { opened = null })
     }
 }

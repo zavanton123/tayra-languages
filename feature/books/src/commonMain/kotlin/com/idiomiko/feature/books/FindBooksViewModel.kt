@@ -24,7 +24,6 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.state.UiEvents
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -49,31 +48,28 @@ data class FoundBookItem(
     val difficulty: Difficulty? get() = coverage?.difficulty ?: book.levelDifficulty
 }
 
-/** Where the page is: the shelves picked from every library, one shelf in full, or one library's own books. */
+/** Where the page is: the shelves, or one shelf in full. */
 sealed interface FindView {
     data object Discover : FindView
     data class AllOf(val shelf: Shelf) : FindView
-    data class Library(val source: BookSource) : FindView
 }
 
-/** How a library answered when it was last asked, when that was, and in its words why it failed if it did. */
-data class LibraryInfo(val status: LibraryStatus = LibraryStatus.CHECKING, val checkedAt: Instant? = null, val message: String? = null)
+/**
+ * How a library answered when it was last asked, when that was, in its words why it failed if it did, and whether it
+ * has more books than its first page.
+ */
+data class LibraryInfo(val status: LibraryStatus = LibraryStatus.CHECKING, val checkedAt: Instant? = null, val message: String? = null, val hasMore: Boolean = false)
 
-/** One library's own books: its search, the level shown, and its pages as they are loaded. */
-data class LibraryUiState(
-    val source: BookSource = BookSource.GUTENBERG,
-    val query: String = "",
-    /** Null shows the books whatever their difficulty. */
-    val difficulty: Difficulty? = null,
+/** The pages after the first of the library the page is narrowed to, loaded as the reader comes to the end of its books. */
+data class MorePages(
     val books: List<FoundBookItem> = emptyList(),
-    val loading: Boolean = true,
-    val loadingMore: Boolean = false,
+    /** The last page loaded; the first comes with every other library's. */
+    val page: Int = 1,
     val hasMore: Boolean = false,
-    /** Why the library could not be searched, if it could not. */
+    val loading: Boolean = false,
+    /** Why the next page could not be loaded, if it could not. */
     val error: String? = null,
-) {
-    val shown: List<FoundBookItem> get() = if (difficulty == null) books else books.filter { it.difficulty == difficulty }
-}
+)
 
 data class FindBooksUiState(
     val languageName: String = "",
@@ -92,27 +88,50 @@ data class FindBooksUiState(
     /** Whether books found are still being judged. */
     val judging: Boolean = false,
     val view: FindView = FindView.Discover,
-    val library: LibraryUiState = LibraryUiState(),
+    /** The library the page is narrowed to, its card picked; null for every library. */
+    val selected: BookSource? = null,
+    val more: MorePages = MorePages(),
 ) {
     /** The topics the language's libraries can tell apart. */
     val topics: List<Topic> get() = Discovery.topics(sources)
 
-    /** The books of every library as one list, each once. */
-    val merged: List<FoundBookItem> get() = Discovery.merge(sources.mapNotNull { found[it] })
+    /** The books on the page: the pages of the library picked, or the first page of every library as one list, each book once. */
+    val books: List<FoundBookItem> get() = selected?.let { found[it].orEmpty() + more.books } ?: Discovery.merge(sources.mapNotNull { found[it] })
 
     /** The books of [topic], those the reader knows enough of first. */
-    val results: Ranked<FoundBookItem> get() = Discovery.rank(merged.filter { item -> topic.let { it == null || Discovery.matches(it, item.book, item.coverage) } }, minKnown)
+    val results: Ranked<FoundBookItem> get() = Discovery.rank(books.filter { item -> topic.let { it == null || Discovery.matches(it, item.book, item.coverage) } }, minKnown)
 
-    fun shelf(shelf: Shelf): ShelfBooks<FoundBookItem> = Discovery.shelf(shelf, merged, minKnown)
+    fun shelf(shelf: Shelf): ShelfBooks<FoundBookItem> = Discovery.shelf(shelf, books, minKnown)
 
     /** A search or a topic narrows the page to the books matching it, in place of the shelves. */
     val narrowed: Boolean get() = searched.isNotBlank() || topic != null
 
-    /** No library has answered yet. */
-    val loading: Boolean get() = sources.isNotEmpty() && sources.none { libraries[it]?.status?.let { s -> s != LibraryStatus.CHECKING } == true }
+    /**
+     * The library picked holds books the shelves would mostly leave out: short children's books, which are never
+     * classics, or books judged only on request, which no shelf takes until then. Its books show as one grid instead.
+     */
+    val oneGrid: Boolean get() = selected?.let { it in Discovery.CHILDREN_SOURCES || !it.judgedOnSight } == true
 
-    /** Some library has still to answer. */
-    val waiting: Boolean get() = sources.any { (libraries[it]?.status ?: LibraryStatus.CHECKING) == LibraryStatus.CHECKING }
+    /** The libraries whose books are on the page. */
+    private val shown: List<BookSource> get() = selected?.let(::listOf) ?: sources
+
+    /** None of the libraries on the page has answered yet. */
+    val loading: Boolean get() = shown.isNotEmpty() && shown.none { libraries[it]?.status?.let { s -> s != LibraryStatus.CHECKING } == true }
+
+    /** Some library on the page has still to answer. */
+    val waiting: Boolean get() = shown.any { (libraries[it]?.status ?: LibraryStatus.CHECKING) == LibraryStatus.CHECKING }
+
+    /** The library picked failed when last asked. */
+    val selectedDown: Boolean get() = selected?.let { libraries[it]?.status?.isDown } == true
+
+    /** The library picked has a page of books not loaded yet. */
+    val hasMore: Boolean get() = selected != null && if (more.page > 1) more.hasMore else libraries[selected]?.hasMore == true
+
+    /** Books of the library picked are still being judged, which comes before asking it for its next page. */
+    val judgingPage: Boolean get() = selected != null && books.any { it.check == CoverageCheck.Checking || (it.book.source.judgedOnSight && it.check == CoverageCheck.NotChecked) }
+
+    /** The next page of the library picked can be asked for now. */
+    val canLoadMore: Boolean get() = hasMore && !more.loading && more.error == null && !judgingPage
 
     /** Every library failed: the reader is offline, or all of them are down. */
     val allDown: Boolean get() = sources.isNotEmpty() && sources.all { libraries[it]?.status?.isDown == true }
@@ -128,8 +147,8 @@ sealed interface FindBooksEvent {
 /**
  * Free books for the language being learned, from every online library at once. Each library's first page shows
  * as it arrives, so a slow or broken one holds up none of the others, and its books are judged by the words the
- * reader knows: all of them for a library with a cheap sample of each, the first few for the others. A library
- * opens on its own too, with its search, level filter and pages.
+ * reader knows: all of them for a library with a cheap sample of each, the first few for the others. A library's card
+ * narrows the page to its books, whose further pages load as the reader comes to their end.
  */
 class FindBooksViewModel(
     private val discovery: BookDiscoveryService,
@@ -146,9 +165,9 @@ class FindBooksViewModel(
     private var discoverJob: Job? = null
     private val checkJobs = mutableListOf<Job>()
     private var checking = 0
-    private var page = 1
-    private var libraryJob: Job? = null
-    private var libraryCheckJob: Job? = null
+    private var retryJob: Job? = null
+    private var pagesJob: Job? = null
+    private var pagesCheckJob: Job? = null
 
     init {
         viewModelScope.launch {
@@ -156,12 +175,10 @@ class FindBooksViewModel(
                 language = languages.getById(id)
                 val sources = language?.let(discovery::sources).orEmpty()
                 _state.update { s ->
-                    // A library of another language gives way to the shelves of this one.
-                    val view = s.view.takeIf { it !is FindView.Library || it.source in sources } ?: FindView.Discover
-                    s.copy(languageName = language?.name.orEmpty(), sources = sources, view = view, topic = s.topic?.takeIf { it in Discovery.topics(sources) })
+                    // A library of another language gives way to every library of this one.
+                    s.copy(languageName = language?.name.orEmpty(), sources = sources, selected = s.selected?.takeIf { it in sources }, topic = s.topic?.takeIf { it in Discovery.topics(sources) })
                 }
                 discover()
-                if (_state.value.view is FindView.Library) reloadLibrary()
             }
         }
     }
@@ -192,38 +209,74 @@ class FindBooksViewModel(
 
     fun showAll(shelf: Shelf) = _state.update { it.copy(view = FindView.AllOf(shelf)) }
 
-    /** Back from a shelf or a library to the page of every library; false when already there. */
+    /** Back from a shelf in full to the shelves; false when already there. */
     fun back(): Boolean {
         if (_state.value.view == FindView.Discover) return false
-        libraryJob?.cancel()
-        libraryCheckJob?.cancel()
         _state.update { it.copy(view = FindView.Discover) }
         return true
     }
 
-    fun openLibrary(source: BookSource) {
-        _state.update { it.copy(view = FindView.Library(source), library = LibraryUiState(source = source)) }
-        reloadLibrary()
+    /** Narrows the page to [source]'s books, or back to every library's when it is the one picked already. */
+    fun toggleLibrary(source: BookSource) = pick(source.takeIf { it != _state.value.selected })
+
+    /** Back to the books of every library. */
+    fun clearLibrary() = pick(null)
+
+    private fun pick(source: BookSource?) {
+        pagesJob?.cancel()
+        pagesCheckJob?.cancel()
+        _state.update { it.copy(selected = source, more = MorePages()) }
     }
 
     /** Asks every library again; those that answered before answer at once from the session's pages. */
     fun retry() = discover()
 
-    fun setLibraryQuery(query: String) {
-        _state.update { it.copy(library = it.library.copy(query = query)) }
-        // Typing waits for a pause before asking the library.
-        reloadLibrary(delayMillis = SEARCH_DELAY)
+    /** Asks the library picked again, on its own. */
+    fun retryLibrary() {
+        val source = _state.value.selected ?: return
+        val lang = language ?: return
+        val query = _state.value.searched
+        retryJob?.cancel()
+        _state.update { s -> s.copy(found = s.found - source, libraries = s.libraries + (source to LibraryInfo(checkedAt = s.libraries[source]?.checkedAt))) }
+        retryJob = viewModelScope.launch {
+            val result = try {
+                LibraryResult(source, discovery.search(source, lang, query, 1), null)
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                LibraryResult(source, null, e)
+            }
+            arrived(result, lang)
+        }
     }
 
-    fun setDifficulty(difficulty: Difficulty?) = _state.update { it.copy(library = it.library.copy(difficulty = difficulty)) }
-
+    /** Asks the library picked for its next page of books, once those already on the page are judged. */
     fun loadMore() {
-        val current = _state.value.library
-        if (!current.hasMore || current.loadingMore || current.loading) return
-        libraryJob = viewModelScope.launch { loadLibrary(page + 1) }
+        val current = _state.value
+        val source = current.selected ?: return
+        val lang = language ?: return
+        // A page that failed is asked for again.
+        if (current.more.error == null && !current.canLoadMore) return
+        if (current.more.loading) return
+        val number = current.more.page + 1
+        _state.update { it.copy(more = it.more.copy(loading = true, error = null)) }
+        pagesJob = viewModelScope.launch {
+            try {
+                val result = discovery.search(source, lang, current.searched, number)
+                val items = result.books.map { book -> FoundBookItem(book, discovery.cachedCoverage(book, lang)?.let { CoverageCheck.Checked(it) } ?: CoverageCheck.NotChecked, libraryId = library[book.pageUrl]) }
+                _state.update { s ->
+                    val known = s.books.mapTo(HashSet()) { it.book.id }
+                    s.copy(more = s.more.copy(books = s.more.books + items.filter { it.book.id !in known }, page = number, hasMore = result.hasMore, loading = false))
+                }
+                if (source.judgedOnSight) checkInTurn(items.filter { it.check == CoverageCheck.NotChecked }.map { it.book })
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                Logger.w(e) { "Loading page $number of $source failed" }
+                _state.update { it.copy(more = it.more.copy(loading = false, error = message(e))) }
+            }
+        }
     }
-
-    fun retryLibrary() = reloadLibrary()
 
     /** Judges a book by the words the reader knows. */
     fun check(book: FoundBook) {
@@ -254,11 +307,14 @@ class FindBooksViewModel(
 
     private fun discover() {
         discoverJob?.cancel()
+        retryJob?.cancel()
+        pagesJob?.cancel()
+        pagesCheckJob?.cancel()
         checkJobs.forEach { it.cancel() }
         checkJobs.clear()
         checking = 0
         val lang = language
-        _state.update { s -> s.copy(found = emptyMap(), judging = false, libraries = s.sources.associateWith { LibraryInfo(checkedAt = s.libraries[it]?.checkedAt) }) }
+        _state.update { s -> s.copy(found = emptyMap(), judging = false, more = MorePages(), libraries = s.sources.associateWith { LibraryInfo(checkedAt = s.libraries[it]?.checkedAt) }) }
         if (lang == null) return
         val query = _state.value.searched
         discoverJob = viewModelScope.launch {
@@ -273,7 +329,7 @@ class FindBooksViewModel(
         val items = result.page?.books.orEmpty().map { book ->
             FoundBookItem(book, check = discovery.cachedCoverage(book, lang)?.let { CoverageCheck.Checked(it) } ?: CoverageCheck.NotChecked, libraryId = library[book.pageUrl])
         }
-        val info = LibraryInfo(result.status, clock.now(), result.error?.let(::message))
+        val info = LibraryInfo(result.status, clock.now(), result.error?.let(::message), hasMore = result.page?.hasMore == true)
         _state.update { s -> s.copy(found = s.found + (result.source to items), libraries = s.libraries + (result.source to info)) }
         val waiting = items.filter { it.check == CoverageCheck.NotChecked }.let { if (result.source.judgedOnSight) it else it.take(AUTO_CHECKS) }
         if (waiting.isEmpty()) return
@@ -289,54 +345,10 @@ class FindBooksViewModel(
         }
     }
 
-    private fun reloadLibrary(delayMillis: Long = 0) {
-        libraryJob?.cancel()
-        libraryCheckJob?.cancel()
-        _state.update { it.copy(library = it.library.copy(books = emptyList(), loading = true, error = null, hasMore = false)) }
-        libraryJob = viewModelScope.launch {
-            if (delayMillis > 0) delay(delayMillis)
-            library = runCatching { discovery.libraryBooks() }.getOrDefault(emptyMap())
-            loadLibrary(1)
-        }
-    }
-
-    private suspend fun loadLibrary(number: Int) {
-        val lang = language ?: run { _state.update { it.copy(library = it.library.copy(loading = false)) }; return }
-        val current = _state.value.library
-        if (number > 1) _state.update { it.copy(library = it.library.copy(loadingMore = true)) }
-        try {
-            val result = discovery.search(current.source, lang, current.query, number)
-            page = number
-            // A book already on the shelves keeps how it was judged there.
-            val shelved = _state.value.found[current.source].orEmpty().associateBy { it.book.id }
-            val items = result.books.map { book ->
-                shelved[book.id] ?: FoundBookItem(book, discovery.cachedCoverage(book, lang)?.let { CoverageCheck.Checked(it) } ?: CoverageCheck.NotChecked, libraryId = library[book.pageUrl])
-            }
-            _state.update { s ->
-                val books = s.library.books + items.filter { new -> s.library.books.none { it.book.id == new.book.id } }
-                s.copy(
-                    library = s.library.copy(books = books, loading = false, loadingMore = false, hasMore = result.hasMore, error = null),
-                    libraries = s.libraries + (current.source to LibraryInfo(LibraryStatus.AVAILABLE, clock.now())),
-                )
-            }
-            if (current.source.judgedOnSight) checkInTurn(items.filter { it.check == CoverageCheck.NotChecked }.map { it.book })
-        } catch (e: CancellationException) {
-            throw e
-        } catch (e: Exception) {
-            Logger.w(e) { "Searching ${current.source} failed" }
-            _state.update { s ->
-                s.copy(
-                    library = s.library.copy(loading = false, loadingMore = false, error = message(e)),
-                    libraries = s.libraries + (current.source to LibraryInfo(LibraryStatus.of(e), clock.now(), message(e))),
-                )
-            }
-        }
-    }
-
     /** Judges a library's books one at a time, after the ones already waiting. */
     private fun checkInTurn(books: List<FoundBook>) {
-        val previous = libraryCheckJob
-        libraryCheckJob = viewModelScope.launch {
+        val previous = pagesCheckJob
+        pagesCheckJob = viewModelScope.launch {
             previous?.join()
             for (book in books) checkOne(book)
         }
@@ -360,21 +372,19 @@ class FindBooksViewModel(
     }
 
     private fun item(book: FoundBook): FoundBookItem? = _state.value.let { s ->
-        (s.found[book.source].orEmpty() + s.library.books).firstOrNull { it.book.id == book.id && it.book.source == book.source }
+        (s.found[book.source].orEmpty() + s.more.books).firstOrNull { it.book.id == book.id && it.book.source == book.source }
     }
 
-    /** Changes the book wherever it shows: on the shelves and in its library's list. */
+    /** Changes the book wherever it shows: in its library's first page and in the pages after it. */
     private fun updateItem(book: FoundBook, change: (FoundBookItem) -> FoundBookItem) = _state.update { s ->
         fun List<FoundBookItem>.changed() = map { if (it.book.id == book.id && it.book.source == book.source) change(it) else it }
         s.copy(
             found = s.found[book.source]?.let { s.found + (book.source to it.changed()) } ?: s.found,
-            library = if (s.library.source == book.source) s.library.copy(books = s.library.books.changed()) else s.library,
+            more = s.more.copy(books = s.more.books.changed()),
         )
     }
 
     private companion object {
-        const val SEARCH_DELAY = 500L
-
         /** How many books of a library without a cheap sample are judged on the shelves, each downloaded whole. */
         const val AUTO_CHECKS = 3
 
