@@ -1,0 +1,193 @@
+{
+  "id": "zu-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Ekhaya nomndeni",
+  "description": "Ten short, simple stories about home, family and everyday moments in KwaZulu-Natal.",
+  "topic": "Home and family",
+  "names": [
+    "Themba",
+    "Thandi",
+    "Nomsa",
+    "Lindiwe",
+    "Sibusiso",
+    "Nandi",
+    "Thabo",
+    "Lungelo",
+    "Mpho",
+    "Khanyisile",
+    "Thekwini"
+  ],
+  "lessons": [
+    {
+      "title": "Igama lami",
+      "summary": "Themba is a child who lives in a big house; Thandi, a smaller child, lives in a small one, and both are happy there.",
+      "newWords": [
+        "igama",
+        "mina",
+        "ingane",
+        "hlala",
+        "indlu",
+        "khulu",
+        "ncane",
+        "kakhulu",
+        "yena",
+        "thi",
+        "sho",
+        "na"
+      ],
+      "text": "Igama lami nguThemba. Mina ngiyingane. Ngihlala endlini enkulu kakhulu.\n\nUThandi naye uyingane. Yena mncane kakhulu kunami. Igama lakhe nguThandi. UThandi uhlala endlini encane.\n\nUThandi uthi: \"Themba, indlu yakho inkulu na?\"\n\nNgithi: \"Kunjalo, indlu yami inkulu kakhulu. Ngihlala lapho njalo. Indlu yakho yona incane na?\"\n\n\"Kunjalo, indlu yami incane,\" kusho uThandi. \"Kodwa mina ngimncane futhi. Ingane encane ihlala kahle endlini encane.\"\n\nNgithi: \"Nami ngiyingane, futhi ngihlala kahle endlini enkulu.\"\n\nImibuzo:\nIgama lengane enkulu lithini?\nIgama layo nguThemba.\nUThandi uhlala endlini enkulu na?\nCha, uThandi uhlala endlini encane.\nUThemba usho ukuthi indlu yakhe inkulu na?\nKunjalo, usho ukuthi inkulu kakhulu."
+    },
+    {
+      "title": "Umsebenzi kaNomsa",
+      "summary": "Nomsa works long days in Durban and earns a lot of money, but she needs time; she takes a smaller job and gets her time back.",
+      "newWords": [
+        "umsebenzi",
+        "sebenza",
+        "imali",
+        "thola",
+        "usuku",
+        "isikhathi",
+        "manje",
+        "funa",
+        "dinga",
+        "kumele",
+        "ngoba",
+        "kodwa"
+      ],
+      "text": "UNomsa usebenza eThekwini. Umsebenzi wakhe mkhulu kakhulu. Usebenza usuku lonke, nsuku zonke.\n\nUNomsa uthola imali eningi ngoba usebenza kakhulu. Kodwa manje uNomsa uthi: \"Ngifuna isikhathi.\"\n\n\"Ngiyayidinga imali,\" kusho uNomsa. \"Kumele ngisebenze ngoba ngidinga imali. Kodwa ngidinga isikhathi futhi. Manje isikhathi sami sincane kakhulu.\"\n\nNgolunye usuku uNomsa uthola omunye umsebenzi. Lo msebenzi mncane. Imali yawo incane, kodwa uNomsa uthola isikhathi esiningi. Akudingeki asebenze usuku lonke.\n\nManje uNomsa uthi: \"Ngithola imali encane, kodwa ngithola isikhathi. Yilokhu engikufunayo. Akumele umuntu asebenze njalo.\"\n\nImibuzo:\nUNomsa usebenza eThekwini na?\nKunjalo, usebenza eThekwini.\nUNomsa uthola imali eningi ngoba usebenza kakhulu na?\nKunjalo, uthola imali eningi ngoba usebenza kakhulu.\nUNomsa udingani manje?\nUdinga isikhathi."
+    },
+    {
+      "title": "Indlela eya eThekwini",
+      "summary": "Thabo leaves his small village for Durban, follows the big road, looks at the places on the way and arrives in the city.",
+      "newWords": [
+        "hamba",
+        "ya",
+        "za",
+        "fika",
+        "suka",
+        "indlela",
+        "indawo",
+        "landela",
+        "bheka",
+        "phakathi",
+        "ngaphandle"
+      ],
+      "text": "UThabo uhlala endaweni encane. Manje uya eThekwini. Usuka endaweni yakhe, uhamba ngendlela enkulu.\n\nUThabo ulandela indlela. Akahambi ngaphandle kwendlela, ngoba ngaphandle kwendlela kunezindawo angazazi. Ubheka izindawo eziningi. Ubheka abantu abahamba endleleni futhi.\n\nAbantu abaningi beza eThekwini. Abanye basuka ezindaweni ezinkulu, abanye basuka ezindaweni ezincane.\n\nUThabo ufika eThekwini. Uhamba phakathi kwezindlu ezinkulu. Ubheka phakathi kwendawo, ubona abantu abaningi kakhulu. Abanye bafika njengaye, abanye beza kamuva.\n\n\"Ngizohamba futhi ngiye endaweni yami,\" uthi, \"kodwa manje ngifuna ukubheka le ndawo.\"\n\nImibuzo:\nUThabo usuka endaweni enkulu na?\nCha, usuka endaweni encane.\nUThabo uhamba ngaphandle kwendlela na?\nCha, ulandela indlela.\nUThabo ufika eThekwini na?\nKunjalo, ufika eThekwini."
+    },
+    {
+      "title": "Abantu bomhlaba",
+      "summary": "A teacher, Lungelo, tells the children that people live in many countries of the world, and that the world is everyone's.",
+      "newWords": [
+        "umuntu",
+        "izwe",
+        "umhlaba",
+        "unkulunkulu",
+        "ningi",
+        "nke",
+        "bona",
+        "thina",
+        "wena"
+      ],
+      "text": "ULungelo uthi ezinganeni: \"Emhlabeni kunabantu abaningi kakhulu. Abantu bahlala emazweni amaningi.\"\n\n\"Thina sihlala ezweni lethu. Abanye bahlala emazweni amanye. Bona bahlala ezweni labo, kodwa nabo bangabantu njengathi.\"\n\nIngane encane ithi: \"Bonke abantu bahlala emhlabeni munye na?\"\n\nULungelo uthi: \"Kunjalo. Thina, nabo, nawe. Wena uhlala emhlabeni lo, futhi nami ngihlala kuwo.\"\n\nIngane ithi: \"Abantu abaningi bathi uNkulunkulu wenza umhlaba.\"\n\n\"Kunjalo,\" kusho uLungelo. \"Abantu abaningi bathi uNkulunkulu wenza umhlaba wonke. Umhlaba ungowethu sonke. Thina sonke singabantu bomhlaba.\"\n\nImibuzo:\nAbantu bahlala ezweni elinye nje na?\nCha, bahlala emazweni amaningi.\nAbantu abaningi bathini ngoNkulunkulu?\nBathi uNkulunkulu wenza umhlaba.\nUmhlaba ungowethu sonke na?\nKunjalo, umhlaba ungowethu sonke."
+    },
+    {
+      "title": "Iqembu lomphakathi",
+      "summary": "A community group talks about a rule for the children's road and makes a plan so that everyone knows it.",
+      "newWords": [
+        "iqembu",
+        "umphakathi",
+        "khuluma",
+        "ukuthi",
+        "uhlelo",
+        "umthetho",
+        "sebenzisa",
+        "futhi",
+        "njalo"
+      ],
+      "text": "Emphakathini wethu kuneqembu labantu abaningi. Iqembu likhuluma njalo ngezinto zomphakathi.\n\nManje iqembu likhuluma ngomthetho. Umthetho uthi izingane kumele zisebenzise indlela encane. Akumele zisebenzise indlela enkulu.\n\nUNandi uthi: \"Ngiyazi ukuthi umthetho muhle. Kodwa umphakathi udinga uhlelo futhi.\"\n\n\"Uhlelo luthini?\" kusho uThabo.\n\nUNandi uthi: \"Uhlelo luthi iqembu lizokhuluma nabantu bomphakathi njalo, ukuze bonke bazi umthetho. Ngifuna ukuthi zonke izingane zisebenzise indlela encane.\"\n\nAbantu bomphakathi bayakhuluma futhi. Bathi uhlelo luhle. Iqembu lisebenzisa uhlelo. Manje umphakathi wazi umthetho, futhi izingane zisebenzisa indlela encane njalo.\n\nImibuzo:\nIqembu likhuluma ngomthetho na?\nKunjalo, likhuluma ngomthetho.\nUNandi uthi umphakathi udingani?\nUthi umphakathi udinga uhlelo.\nIzingane zisebenzisa indlela enkulu na?\nCha, zisebenzisa indlela encane."
+    },
+    {
+      "title": "Izinto ezindala",
+      "summary": "Lindiwe looks through her old things, keeps the beautiful ones and gives two of them to Themba.",
+      "newWords": [
+        "into",
+        "dala",
+        "hle",
+        "beka",
+        "faka",
+        "thatha",
+        "gcina",
+        "nika",
+        "bili",
+        "lokhu"
+      ],
+      "text": "ULindiwe unezinto eziningi ezindala. Uzigcina endlini yakhe.\n\nNgolunye usuku uLindiwe uthatha izinto zakhe ezindala. Uzibeka phansi, uzibheka zonke. Into yokuqala inhle kakhulu.\n\nULindiwe uthi: \"Lokhu kuhle kakhulu. Ngizokugcina.\"\n\nUthatha ezinye izinto ezimbili ezinhle. Uzifaka phakathi kwezandla zakhe. Uthi: \"Lezi zinto ezimbili ngizozinika uThemba.\"\n\n\"Themba, ngikunika lokhu,\" kusho uLindiwe. \"Izinto zami zindala, kodwa zinhle.\"\n\nUThemba uthatha izinto ezimbili. Uzifaka endlini yakhe. Uthi: \"Zinhle kakhulu! Ngizozigcina kahle.\"\n\nULindiwe ubeka ezinye izinto endlini futhi. Uyazi ukuthi into endala nayo ingaba yinhle kakhulu.\n\nImibuzo:\nULindiwe unezinto ezindala na?\nKunjalo, unezinto eziningi ezindala.\nULindiwe unika uThemba izinto ezimbili na?\nKunjalo, umnika izinto ezimbili.\nUThemba uzokwenzani ngezinto?\nUzozigcina kahle."
+    },
+    {
+      "title": "Unyaka wonke",
+      "summary": "Sibusiso works hard all year to save money; at the end he can get a small house of his own.",
+      "newWords": [
+        "unyaka",
+        "ba",
+        "enzeka",
+        "enza",
+        "azi",
+        "uma",
+        "noma",
+        "ukuze",
+        "kanye",
+        "fanela"
+      ],
+      "text": "USibusiso ufuna ukwenza izinto eziningi kulo nyaka. Uyazi ukuthi kufanele asebenze kakhulu.\n\n\"Uma ngisebenza kakhulu, ngingaba nemali,\" usho. \"Ngifuna imali ukuze ngithole indlu yami.\"\n\nUSibusiso akazi ukuthi kuzokwenzekani kulo nyaka. Kodwa uthi: \"Noma kungenzeka izinto ezimbi, kufanele ngenze umsebenzi wami kahle.\"\n\nUnyaka wonke uSibusiso uyasebenza. Uthola imali kanye ngenyanga, futhi uyigcina. Noma efuna izinto eziningi, uthi: \"Imali le ngeyendlu.\"\n\nNgemuva konyaka uSibusiso unemali eningi. Uthola indlu encane. \"Kwenzeke into enhle kakhulu,\" usho. \"Uma umuntu esebenza kanye nabanye, kungenzeka izinto ezinhle. Lo nyaka ube muhle.\"\n\nImibuzo:\nUSibusiso ufuna ukwenzani kulo nyaka?\nUfuna ukwenza izinto eziningi.\nUSibusiso ufuna imali ukuze athole indlu na?\nKunjalo, ufuna imali ukuze athole indlu.\nNgemuva konyaka uSibusiso uthola indlu na?\nKunjalo, uthola indlu encane."
+    },
+    {
+      "title": "Amandla kaMpho",
+      "summary": "An old man appears on the road with a heavy thing; young Mpho helps him carry it into the house and the man is grateful.",
+      "newWords": [
+        "amandla",
+        "vela",
+        "ngena",
+        "phansi",
+        "kahle",
+        "umuva",
+        "ke",
+        "kanti",
+        "kepha",
+        "siza"
+      ],
+      "text": "UMpho uyingane encane, kepha unamandla amaningi.\n\nNgolunye usuku kuvela umuntu omdala endleleni. Ufuna ukungena endlini yakhe. Uthatha into enkulu, kepha akanawo amandla. Uyibeka phansi.\n\nUMpho uthi: \"Ake ngikusize. Ake ngithathe lokhu.\"\n\nUmuntu omdala uthi: \"Wena uyingane encane. Unawo amandla?\"\n\nUMpho uthatha into, uhamba kahle. Bangena endlini yomuntu omdala. UMpho uyibeka phansi kahle.\n\n\"Kanti unamandla amaningi! Kanti wena mkhulu!\" kusho umuntu omdala. \"Ungisizile kakhulu. Ngemuva kwalokhu, ngizokusiza nami.\"\n\nKamuva uMpho uthi kuThandi: \"Ngisize umuntu omdala. Ke, ngiyazi manje ukuthi ingane encane ingaba namandla.\"\n\nImibuzo:\nKuvela umuntu omdala endleleni na?\nKunjalo, kuvela umuntu omdala.\nUMpho usiza umuntu omdala na?\nKunjalo, uyamsiza.\nUMpho nomuntu omdala bangena endlini na?\nKunjalo, bangena endlini yomuntu omdala."
+    },
+    {
+      "title": "Imali kaKhanyisile",
+      "summary": "Khanyisile cannot find her money anywhere in the house; it turns out Themba found it on the road and kept it for her.",
+      "newWords": [
+        "yona",
+        "wona",
+        "zona",
+        "lona",
+        "lokho",
+        "khona",
+        "lapho",
+        "nye",
+        "nje"
+      ],
+      "text": "UKhanyisile ufuna imali yakhe. Uthi: \"Imali yami ayikho! Ngiyayidinga yona.\"\n\nUbheka endlini. Imali ayikho lapho. Ubheka ngaphandle. Nalapho ayikho. Ubheka phakathi kwezinto zakhe. Izinto zakhe zikhona, kodwa zona azinayo imali. Ubheka nasemsebenzini wakhe, kodwa nawo awunayo.\n\nKanti uThemba unayo. UThemba uthi: \"Khanyisile, imali yakho ikhona. Nginayo yona. Ngiyithole endleleni, ngayigcina.\"\n\nUKhanyisile uthi: \"Lokho kuhle kakhulu! Umsebenzi wakho muhle. Wona ungisize kakhulu. Ngifuna ukuthi wazi lokho nje.\"\n\nUThemba uthi: \"Ngithole enye into futhi: igama lakho. Lona likhona phakathi kwezinto. Ngikunika lona.\" UThemba unika uKhanyisile enye into encane.\n\nUKhanyisile uthatha zonke izinto zakhe. Uthi: \"Zona zonke zikhona manje. Kuhle nje.\"\n\nImibuzo:\nImali kaKhanyisile ikhona endlini na?\nCha, ayikho lapho.\nUThemba unayo imali na?\nKunjalo, unayo yona.\nUThemba uthola enye into futhi na?\nKunjalo, uthola enye into encane."
+    },
+    {
+      "title": "Lezi zingane ziyafana",
+      "summary": "On their first day at work, the twins Nandi and Lindiwe confuse everyone because they look exactly alike.",
+      "newWords": [
+        "le",
+        "lo",
+        "lesi",
+        "nina",
+        "fana",
+        "njengoba",
+        "qala",
+        "ukuqala"
+      ],
+      "text": "UNandi noLindiwe bayafana kakhulu. Njengoba befana, abantu abaningi abazi ukuthi lo nguNandi noma uLindiwe.\n\nLesi yisikhathi sabo sokuqala emsebenzini. Le ndawo yomsebenzi inkulu. Baqala umsebenzi kanye ngosuku lokuqala.\n\nUmuntu othile uthi: \"Nina nifana kakhulu! Lo nguNandi na? Lo omunye nguLindiwe na?\"\n\nUNandi uthi: \"Cha, mina nginguNandi. Lo nguLindiwe.\"\n\nEkuqaleni abantu abazi. Kodwa njengoba isikhathi sihamba, bayabona ukuthi abafani nje. UNandi ukhuluma kakhulu, uLindiwe ukhuluma kancane. Kule ndawo bonke bayabazi manje.\n\nNgemuva kwesikhathi umuntu othile uthi: \"Manje ngiyazi! Nina anifani. Lesi sikhathi sokuqala besingesihle, kodwa manje ngiyanazi.\"\n\nImibuzo:\nUNandi noLindiwe bayafana na?\nKunjalo, bayafana kakhulu.\nBaqala umsebenzi ngosuku lokuqala na?\nKunjalo, baqala ngosuku lokuqala.\nUNandi ukhuluma kakhulu na?\nKunjalo, uNandi ukhuluma kakhulu."
+    }
+  ]
+}
