@@ -48,7 +48,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "af-en" to 634_348L, "aii-en" to 575_695L, "am-en" to 1_188_085L, "az-en" to 16_870_128L, "ar-en" to 7_903_435L, "ar-fr" to 1_157_530L, "ar-pl" to 2_562_403L, "ar-pt" to 316_687L,
         "ar-ru" to 3_080_252L, "ar-zh" to 851_214L, "arz-en" to 159_960L, "be-pl" to 2_074_197L, "be-zh" to 282_582L,
         "bg-en" to 5_828_413L, "bg-pl" to 3_794_653L, "bg-zh" to 598_009L, "bn-en" to 1_520_788L, "br-en" to 412_199L, "br-fr" to 2_047_497L, "br-ru" to 115_958L,
-        "bs-en" to 6_288_411L, "bs-zh" to 1_114_855L, "ca-en" to 5_519_548L, "ca-pl" to 834_445L, "ca-zh" to 1_704_978L, "cs-el" to 243_078L,
+        "bs-en" to 6_305_620L, "bs-zh" to 1_114_855L, "ca-en" to 5_519_548L, "ca-pl" to 834_445L, "ca-zh" to 1_704_978L, "cs-el" to 243_078L,
         "cs-en" to 11_064_468L, "cs-pl" to 4_290_625L, "cs-pt" to 262_468L, "cs-zh" to 2_812_601L, "cy-en" to 2_661_250L, "cy-fr" to 376_642L,
         "cy-pl" to 169_919L, "cy-ru" to 300_644L, "da-en" to 3_651_855L, "da-pl" to 1_084_584L, "da-zh" to 360_462L, "de-el" to 1_221_342L,
         "de-en" to 15_508_489L, "de-pl" to 5_670_368L, "de-zh" to 9_117_995L, "el-pl" to 2_113_501L, "el-zh" to 803_710L, "en-el" to 5_271_950L,
