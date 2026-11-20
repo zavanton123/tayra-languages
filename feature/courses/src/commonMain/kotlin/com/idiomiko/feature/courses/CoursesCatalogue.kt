@@ -211,8 +211,9 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
     val nav = rememberJourneyNav()
     Row(modifier.fillMaxSize()) {
         ScrollColumn(
-            Modifier.width(SIDEBAR + AppSpacing.xxxl).fillMaxHeight().testTag("sidebar"),
-            contentModifier = Modifier.padding(start = AppSpacing.xxxl, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
+            // The end padding keeps the cards clear of the sidebar's own scrollbar.
+            Modifier.width(SIDEBAR + AppSpacing.xxxl + AppSpacing.l).fillMaxHeight().testTag("sidebar"),
+            contentModifier = Modifier.padding(start = AppSpacing.xxxl, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             LevelCard(state.journey)
@@ -222,7 +223,7 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
         ScrollColumn(
             Modifier.weight(1f).fillMaxHeight(),
             state = nav.scroll,
-            contentModifier = Modifier.padding(start = AppSpacing.xxl, end = AppSpacing.xxxl, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
+            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.xxxl, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
             verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
         ) {
             ScreenHeader(tr("Courses"), coursesSubtitle(state))
