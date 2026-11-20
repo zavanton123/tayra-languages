@@ -35,6 +35,7 @@ import frequency_tamil  # noqa: E402
 import frequency_hausa  # noqa: E402
 import frequency_zulu  # noqa: E402
 import frequency_amharic  # noqa: E402
+import frequency_somali  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
@@ -326,6 +327,9 @@ def fold(code, word):
     # reader matches them (HausaParser).
     if code == "ha":
         return frequency_hausa.hausa_fold(word)
+    # So does the Somali one (su'aal, lo').
+    if code == "so":
+        return word.translate(frequency_somali.APOSTROPHES)
     # So does the Afrikaans one (’n, ma’s).
     if code == "af":
         return word.translate(AFRIKAANS_APOSTROPHES)
@@ -697,6 +701,9 @@ def basque_name(word, names):
     return False
 
 
+SOMALI_WORD = re.compile(r"[A-Za-z']+")
+
+
 def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=None):
     if code == "ka":
         return GEORGIAN_WORD.findall(text)
@@ -800,6 +807,10 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
     # A Pashto word: a run of the reader's word characters for Pashto (AddedLanguages), folded after it is cut.
     if code == "ps":
         return [f for f in map(frequency_pashto.pashto_fold, frequency_pashto.READER_WORD.findall(text)) if f]
+    # Somali words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Latin letters and the apostrophe of the
+    # glottal stop, inside a word or at its end (su'aal, lo'), with ’ ‘ ´ ` read as it; a hyphen or a digit ends a word (2024-ka).
+    if code == "so":
+        return SOMALI_WORD.findall(text.translate(frequency_somali.APOSTROPHES))
     if code == "hy":
         text = text.translate(ARMENIAN_WORD_MARKS)
     # The reader cuts Albanian at an apostrophe, which is no letter of its words: s'kam is s + kam, t'i is t + i.
@@ -2764,7 +2775,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:", "Su'aalo:",
         "ጥያቄዎች፦", "ጥያቄዎች:",
     )
 }
@@ -3358,6 +3369,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Imibuzo:", "", text)
         if code == "am":
             text = re.sub(r"(?m)^ጥያቄዎች[፦:]", "", text)
+        if code == "so":
+            text = re.sub(r"(?m)^Su'aalo:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3498,6 +3511,10 @@ def check(path, brief=False):
         if code == "am":
             lowered = [w if w in ranks or w in names else "\u0000name" if frequency_amharic.checker_name(w, names)
                        else frequency_amharic.checker_word(w, ranks) or w for w in lowered]
+        # Somali puts its determiners and a verb's person and tense on the end of a word (gurigayaga, qoraysaa) and runs its
+        # particles together (waan, loogu): a word the list lacks is read by the rules the list was built with (frequency_somali).
+        if code == "so":
+            lowered = [w if w in ranks or w in names else frequency_somali.checker_word(w, ranks) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
