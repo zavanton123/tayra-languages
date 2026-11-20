@@ -361,6 +361,7 @@ EXCLUDE["uz"] = frequency_uzbek.EXCLUDE
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
 import frequency_cornish  # noqa: E402
+import frequency_breton  # noqa: E402
 
 OVERRIDES["kw"] = frequency_cornish.CORNISH_OVERRIDES
 EXCLUDE["kw"] = frequency_cornish.CORNISH_EXCLUDE
@@ -7366,6 +7367,74 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 if found:
                     lemmas[form] = words_of(max(found, key=lambda r: (count(r), r)))
 
+    def breton_paradigms(tables):
+        """
+        Files the regular forms the pack lacks (frequency_breton.made_forms: divizet, meneg, krogas, mennozhioù) under their
+        word, after breton_relink, so only the forms it left with no word: a spelling the pack has as no word and that is no
+        word's by its links, which the corpus writes mostly in lower case. A verb's stem alone (meneg) is its form only if
+        the corpus has the verb's other spellings BARE_SHARE as often (not kamp of kampiñ). A form two words may be is the
+        one's the other is no spelling of, else the one's whose own spelling is commoner. Then a mutated spelling the pack
+        lacks of a verb's form (zivizet, a gemmas) goes as its radical does. [tables] are the pack's forms of each word, as
+        it files them before breton_relink.
+        """
+        table = defaultdict(set)
+        named = defaultdict(set)
+        for form, of in lemmas.items():
+            for lemma in of:
+                table[lemma].add(form)
+                named[lemma].add(form)
+        made, bare, verbal = frequency_breton.made_forms({w: k for w, k in pos.items() if is_word(w)}, tables,
+                                                         frequency_breton.LIST_VERB_ENDINGS)
+        corpus = FALLBACKS["br"]["leipzig"][0]
+        lowercase = frequency_breton.lower_shares(
+            download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz"))
+
+        def placed(form, depth=0):
+            """Whether a spelling's count goes to a word: it is one, or the pack files it under one, as far as targets_of goes."""
+            return is_word(form) or depth < 3 and any(placed(l, depth + 1) for l in lemmas.get(form, ()) if l != form)
+
+        def free(form):
+            # A spelling the pack files only under spellings that are no words (krogas of krogout, lamet of lemiñ) is free
+            # too, unless a spelling it names has its count go elsewhere already.
+            return (form not in pos and not placed(form) and not any(placed(n) for n in named.get(form, ()))
+                    and form not in overrides and form not in excluded and "'" not in form.replace("c'h", ""))
+
+        def word_of(form):
+            words = made[form]
+            words = {w for w in words if not set(lemmas.get(w, ())) & words}
+            word = max(words, key=lambda w: (count(w), w)) if words else None
+            # Of two spellings the pack files under each other (doganañ, doganiñ), which one the list keeps is a near thing
+            # unless the one is SPELLING_SHARE times as common as the other.
+            if word is None or any(word in lemmas.get(l, ()) and count(word) < frequency_breton.SPELLING_SHARE * count(l)
+                                   for l in lemmas.get(word, ())):
+                return None
+            return word
+
+        def fits(form):
+            return form in freq and free(form) and lowercase.get(form, 0) >= frequency_breton.LOWER_SHARE
+
+        filed = {form: [word_of(form)] for form in made if form not in bare and fits(form) and word_of(form)}
+        seen = defaultdict(float)
+        for form, (word,) in filed.items():
+            seen[word] += count(form)
+
+        def spelled(word):
+            """How often the corpus has a word's spelling and its forms, the ones filed here too."""
+            return count(word) + sum(count(f) for f in table.get(word, ())) + seen[word]
+
+        bare_ok = {form for form in bare if word_of(form) and spelled(word_of(form)) >= frequency_breton.BARE_SHARE * count(form)}
+        for form in bare_ok:
+            if fits(form):
+                filed[form] = [word_of(form)]
+        for form in list(freq):
+            if form in filed or len(form) <= 3 or not fits(form):
+                continue
+            found = [r for r in breton_unmutated(form)
+                     if r in verbal and free(r) and word_of(r) and (r not in bare or r in bare_ok)]
+            if found:
+                filed[form] = [word_of(max(found, key=lambda r: (count(r), r)))]
+        lemmas.update(filed)
+
     def hindi_relink():
         """
         A Hindi form the pack lacks is its verb's if it is an imperative in -ो; else the word simplemma gives (जाती of जाना) where the pack has that word or form; else, as
@@ -7454,7 +7523,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "cy":
         welsh_relink()
     if language == "br":
+        breton_tables = defaultdict(set)
+        for form, of in lemmas.items():
+            for lemma in of:
+                breton_tables[lemma].add(form)
         breton_relink()
+        breton_paradigms(breton_tables)
     if language == "hi":
         hindi_relink()
     if language == "pa":
