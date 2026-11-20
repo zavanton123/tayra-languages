@@ -8,6 +8,13 @@ import com.idiomiko.core.domain.parse.isSupported
 import com.idiomiko.core.domain.repository.BookRepository
 import com.idiomiko.core.domain.service.BookService
 import com.idiomiko.core.domain.service.ReadingService
+import com.idiomiko.core.domain.stats.StudyTime
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.channelFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 
 /**
  * A free library online to find books in. [judgedOnSight] libraries have a cheap sample of each
@@ -116,14 +123,23 @@ interface BookCatalog {
 
     /** The book's whole text and its licence, which some libraries give only in the text itself. */
     suspend fun licensedText(book: FoundBook): LicensedText = LicensedText(text(book), book.license)
+
+    /** Whether [sample] gives the whole text, so that judging a book also tells its length. */
+    val sampleIsWholeText: Boolean get() = false
 }
 
 /** A book's text, and the licence it is under. */
 data class LicensedText(val text: String, val license: String)
 
-/** How much of a text the reader knows: its running words, each counted where it stands. */
-data class TextCoverage(val words: Int, val known: Int) {
+/**
+ * How much of a text the reader knows: its running words, each counted where it stands. [wholeWords]
+ * is the running words of the whole text, where the sample judged was the whole of it.
+ */
+data class TextCoverage(val words: Int, val known: Int, val wholeWords: Int? = null) {
     val percent: Int get() = if (words == 0) 0 else 100 * known / words
+
+    /** The minutes the whole text takes at the app's reading pace, where its length is known. */
+    val minutes: Int? get() = wholeWords?.let(StudyTime::readingMinutes)
 
     /** At 95% of the words known a text reads comfortably; below 85% it is hard going. */
     val difficulty: Difficulty
@@ -137,6 +153,8 @@ data class TextCoverage(val words: Int, val known: Int) {
 /**
  * Free books to read, found in online libraries and judged by the words the reader knows; one of
  * them added to the library becomes a book like any other, with its source as its source URI.
+ * What the libraries answered and how each book was judged are kept for the session, so a page
+ * already seen comes back at once.
  */
 class BookDiscoveryService(
     private val catalogs: List<BookCatalog>,
@@ -144,6 +162,13 @@ class BookDiscoveryService(
     private val bookService: BookService,
     private val books: BookRepository,
 ) {
+    private val lock = Mutex()
+    private val pages = HashMap<PageKey, CatalogPage>()
+    private val coverages = HashMap<CoverageKey, TextCoverage>()
+
+    private data class PageKey(val source: BookSource, val languageCode: String, val query: String, val page: Int)
+    private data class CoverageKey(val languageId: Long, val source: BookSource, val bookId: String)
+
     val sources: List<BookSource> get() = catalogs.map { it.source }
 
     /** The libraries with books in [language]: those of every language, then those of it alone. */
@@ -155,16 +180,47 @@ class BookDiscoveryService(
     /** The books of [source] in [language]; nothing for a language the app has no code for. */
     suspend fun search(source: BookSource, language: Language, query: String, page: Int): CatalogPage {
         val code = LanguageCodes.codeFor(language.name) ?: return CatalogPage(emptyList(), hasMore = false, total = 0)
-        return catalog(source).search(code, query.trim(), page)
+        val key = PageKey(source, code, query.trim(), page)
+        lock.withLock { pages[key] }?.let { return it }
+        val found = catalog(source).search(code, key.query, page)
+        lock.withLock { pages[key] = found }
+        return found
     }
+
+    /**
+     * The first page of [query] in every library of [language] at once, each as it answers, so a slow
+     * or broken library holds up none of the others; one that fails says why in its result.
+     */
+    fun searchAll(language: Language, query: String): Flow<LibraryResult> = channelFlow {
+        for (source in sources(language)) launch { send(searchOne(source, language, query)) }
+    }
+
+    private suspend fun searchOne(source: BookSource, language: Language, query: String): LibraryResult =
+        try {
+            LibraryResult(source, search(source, language, query, 1), null)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            LibraryResult(source, null, e)
+        }
 
     /** How much of the book's opening the reader knows; null for a language the app cannot split into words. */
     suspend fun coverage(book: FoundBook, language: Language): TextCoverage? {
         if (!language.isSupported) return null
-        val sample = catalog(book.source).sample(book)
-        val words = readingService.renderItems(opening(sample), language).filter { it.isWord && it.tokenCount == 1 }
-        return TextCoverage(words.size, words.count { it.status != TermStatus.UNKNOWN })
+        cachedCoverage(book, language)?.let { return it }
+        val catalog = catalog(book.source)
+        val sample = catalog.sample(book)
+        val opening = opening(sample)
+        val words = readingService.renderItems(opening, language).filter { it.isWord && it.tokenCount == 1 }
+        // A whole text longer than the opening is reckoned at the opening's words to a character.
+        val whole = if (!catalog.sampleIsWholeText) null else if (opening.length == sample.length) words.size else (words.size.toLong() * sample.length / opening.length.coerceAtLeast(1)).toInt()
+        val coverage = TextCoverage(words.size, words.count { it.status != TermStatus.UNKNOWN }, whole)
+        lock.withLock { coverages[CoverageKey(language.id, book.source, book.id)] = coverage }
+        return coverage
     }
+
+    /** How much of the book the reader was found to know earlier in the session, if it was judged. */
+    suspend fun cachedCoverage(book: FoundBook, language: Language): TextCoverage? = lock.withLock { coverages[CoverageKey(language.id, book.source, book.id)] }
 
     /** Adds the book to [language]'s library, its [attribution] the last line, and returns its id. */
     suspend fun addToLibrary(book: FoundBook, language: Language, attribution: (FoundBook) -> String): Long {

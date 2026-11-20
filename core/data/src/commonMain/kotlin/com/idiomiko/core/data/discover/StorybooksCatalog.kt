@@ -56,6 +56,8 @@ class StorybooksCatalog(
 
     override suspend fun sample(book: FoundBook): String = text(book)
 
+    override val sampleIsWholeText = true
+
     override suspend fun text(book: FoundBook): String = StoryMarkdown.text(markdown(book))
 
     /** The story with the title and author its file gives; as listed when the file cannot be read. */

@@ -15,6 +15,8 @@ import com.idiomiko.core.domain.books.discover.BookSource
 import com.idiomiko.core.domain.books.discover.CatalogPage
 import com.idiomiko.core.domain.books.discover.Difficulty
 import com.idiomiko.core.domain.books.discover.FoundBook
+import com.idiomiko.core.domain.books.discover.LibraryDownException
+import com.idiomiko.core.domain.books.discover.LibraryStatus
 import com.idiomiko.core.domain.books.discover.LicensedText
 import com.idiomiko.core.domain.books.discover.TextCoverage
 import com.idiomiko.core.domain.model.Language
@@ -33,6 +35,8 @@ import io.ktor.client.request.HttpResponseData
 import io.ktor.http.HttpHeaders
 import io.ktor.http.HttpStatusCode
 import io.ktor.http.headersOf
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.toList
 import kotlinx.coroutines.test.runTest
 import java.io.File
 import kotlin.test.Test
@@ -116,7 +120,7 @@ class BookDiscoveryTest {
     @Test
     fun aLibraryDownForMaintenanceSaysSo() = runTest {
         val catalog = GutenbergCatalog(client { respond("<title>Temporarily Down for Maintenance</title>", HttpStatusCode.ServiceUnavailable) })
-        val e = assertFailsWith<IllegalStateException> { catalog.search("pt", "", 1) }
+        val e = assertFailsWith<LibraryDownException> { catalog.search("pt", "", 1) }
         assertEquals("Project Gutenberg is down for maintenance. Try again later, or pick another library.", e.message)
     }
 
@@ -184,6 +188,51 @@ class BookDiscoveryTest {
         // A blank line sets the source apart, as in the book packs.
         assertEquals("O gato dorme na casa.\nA casa é grande.\n\nFonte: Projeto Gutenberg, CC-BY-SA-3.0.", books.getPages(bookId).joinToString("\n") { it.text })
         assertEquals(mapOf("https://www.gutenberg.org/ebooks/1" to bookId), service.libraryBooks())
+    }
+
+    /** A library that answers after [wait], or fails with [error]; it counts the searches it is asked. */
+    private inner class FakeLibrary(override val source: BookSource, private val wait: Long = 0, private val error: Exception? = null, private val text: String = "O gato dorme.") : BookCatalog {
+        var searches = 0
+        override val sampleIsWholeText = true
+        override suspend fun search(languageCode: String, query: String, page: Int): CatalogPage {
+            searches++
+            delay(wait)
+            error?.let { throw it }
+            return CatalogPage(listOf(found.copy(source = source, id = "${source.tag}-1")), hasMore = false)
+        }
+        override suspend fun sample(book: FoundBook) = text
+        override suspend fun text(book: FoundBook) = text
+    }
+
+    @Test
+    fun everyLibraryIsSearchedAtOnceAndAnswersAsItCan() = runTest {
+        val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
+        val slow = FakeLibrary(BookSource.WIKISOURCE, wait = 5_000)
+        val down = FakeLibrary(BookSource.GUTENBERG, wait = 1_000, error = LibraryDownException("Project Gutenberg is down for maintenance. Try again later, or pick another library."))
+        val fast = FakeLibrary(BookSource.STORYBOOKS)
+        val discovery = BookDiscoveryService(listOf(down, slow, fast), reading, BookService(books, languages), books)
+        val results = discovery.searchAll(portuguese, "").toList()
+        // The quick library comes first, the slow one last, and the one down for maintenance says so between them.
+        assertEquals(listOf(BookSource.STORYBOOKS, BookSource.GUTENBERG, BookSource.WIKISOURCE), results.map { it.source })
+        assertEquals(listOf(LibraryStatus.AVAILABLE, LibraryStatus.DOWN_FOR_MAINTENANCE, LibraryStatus.AVAILABLE), results.map { it.status })
+        // A second visit is answered from the session's pages; the library that failed is asked again.
+        discovery.searchAll(portuguese, " ").toList()
+        assertEquals(listOf(2, 1, 1), listOf(down, slow, fast).map { it.searches })
+    }
+
+    @Test
+    fun aWholeTextJudgedTellsItsLengthAndIsJudgedOncePerSession() = runTest {
+        val portuguese = languages.getById(languages.save(Language(name = "Portuguese")))!!
+        val story = FakeLibrary(BookSource.STORYBOOKS, text = "O gato dorme na casa.\n" + "A casa é grande.\n".repeat(2_000))
+        val discovery = BookDiscoveryService(listOf(story), reading, BookService(books, languages), books)
+        val book = found.copy(source = BookSource.STORYBOOKS)
+        val coverage = discovery.coverage(book, portuguese)!!
+        // Only the opening is parsed; the rest of a whole text is reckoned at the same words to a character.
+        assertEquals(true, coverage.words < 8_005)
+        assertEquals(8_005.0, coverage.wholeWords!!.toDouble(), 80.0)
+        assertEquals(coverage, discovery.cachedCoverage(book, portuguese))
+        assertNull(discovery.cachedCoverage(book.copy(id = "2"), portuguese))
+        assertNull(service.coverage(found, portuguese)!!.wholeWords)
     }
 
     private companion object {

@@ -74,6 +74,8 @@ class AdlCatalog(
 
     override suspend fun sample(book: FoundBook): String = text(book)
 
+    override val sampleIsWholeText = true
+
     override suspend fun text(book: FoundBook): String {
         lock.withLock { texts[book.id] }?.let { return it }
         val response = client.get(book.downloadUrl) {

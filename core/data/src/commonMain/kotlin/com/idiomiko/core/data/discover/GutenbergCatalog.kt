@@ -5,6 +5,7 @@ import com.idiomiko.core.domain.books.discover.BookCatalog
 import com.idiomiko.core.domain.books.discover.BookSource
 import com.idiomiko.core.domain.books.discover.CatalogPage
 import com.idiomiko.core.domain.books.discover.FoundBook
+import com.idiomiko.core.domain.books.discover.LibraryDownException
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.timeout
 import io.ktor.client.request.HttpRequestBuilder
@@ -104,7 +105,7 @@ class GutenbergCatalog(
 
     private suspend fun checked(response: HttpResponse): HttpResponse {
         // The site's own maintenance page, as opposed to a gateway that timed out once.
-        if (response.status.value == 503 && response.bodyAsText().contains("maintenance", ignoreCase = true)) throw IllegalStateException(DOWN_FOR_MAINTENANCE)
+        if (response.status.value == 503 && response.bodyAsText().contains("maintenance", ignoreCase = true)) throw LibraryDownException(DOWN_FOR_MAINTENANCE)
         if (!response.status.isSuccess()) throw IllegalStateException("Project Gutenberg answered ${response.status.value}")
         return response
     }

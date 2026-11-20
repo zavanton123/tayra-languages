@@ -49,6 +49,8 @@ class GanjoorCatalog(
 
     override suspend fun sample(book: FoundBook): String = text(book)
 
+    override val sampleIsWholeText = true
+
     override suspend fun text(book: FoundBook): String {
         val response = client.get(book.downloadUrl) {
             // The poem alone, without its recitations, comments and neighbours.
