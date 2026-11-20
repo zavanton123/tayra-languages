@@ -4827,6 +4827,8 @@ def load_dictionary(language):
     if language == "mt":
         for form_lc, of in maltese_generated_forms(db).items():
             lemmas[form_lc].extend(sorted(l for l in of if is_wordlike(l)))
+    if language == "ur":
+        frequency_urdu.mend(db, pos, lemmas, common)
     # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
     for form_lc, of in KOREAN_GLOSSED.items() if language == "ko" else ():
         if of and set(lemmas.get(form_lc, [of])) - {of} and pos.get(of, set()) & {"verb", "adj"}:

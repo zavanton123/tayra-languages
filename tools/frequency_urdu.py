@@ -6,6 +6,7 @@ The reader (UrduParser) matches a word in Urdu letters without marks: ك as ک, 
 ں, ٹ, ڈ and ڑ are letters of their own and stay. So do these: the pack is written so, and the list counts words so.
 Keep urdu_fold and UrduParser.fold the same.
 """
+import json
 import re
 
 ZWNJ = "‌"
@@ -138,7 +139,68 @@ OVERRIDES["انہی"] = ["یہی", "وہی"]
 OVERRIDES["اٹھا"] = ["اٹھنا", "اٹھانا"]
 OVERRIDES["چھپا"] = ["چھپنا", "چھپانا"]
 OVERRIDES["روپے"] = ["روپیہ"]
+# The spellings the pack has of two words of WORDS: پولس (of पुलिस) and اسپتال, which Urdu text writes پولیس and ہسپتال.
+OVERRIDES["پولس"] = ["پولیس"]
+OVERRIDES["اسپتال"] = ["ہسپتال"]
+# And the stems and forms of گزرنا and کٹنا that the pack has as rare words: گزر "carrot", کٹی "waist".
+OVERRIDES["گزر"] = ["گزرنا"]
+OVERRIDES["کٹی"] = ["کٹنا"]
 # Names (the news's people and places), the Latin letters' names, the Taliban, and ان کا, ان کی, ان کے written as one word
 # and ان کو (which the pack takes for the rare verb انکنا's forms).
 EXCLUDE = {"خان", "علی", "نواز", "سندھ", "پنجاب", "سعودی", "طالبان", "روس", "مودی", "نثار", "جاوید", "سنگھ",
            "ڈی", "ایس", "بی", "ٹی", "ایم", "این", "ایف", "ایل", "آر", "وی", "یو", "ای", "کیو", "ایچ", "انکا", "انکی", "انکے", "انکو"}
+
+# Everyday words the pack has no entry for, as their kind and forms (a verb's are verb_forms'): the English Wiktionary has no
+# Urdu entry for them, and its Hindi entries name no Urdu spelling (नीचे, वहीं, कटना) or another (पुलिस's پولس, गुज़ारना's
+# گذارنا, सदस्य's سدسیہ). والا, written apart (کرنے والا), is the pack's suffix; بارے (کے بارے میں), بارہ's oblique, is a word
+# of its own, as Hindi's बारे is.
+WORDS = {
+    "بارے": ("noun", ""), "والا": ("noun", "والی والے والوں والیاں"), "نیچے": ("adv", ""), "وہیں": ("adv", ""),
+    "جبکہ": ("conj", ""), "رکن": ("noun", "رکنوں ارکان اراکین"), "پولیس": ("noun", ""), "ہسپتال": ("noun", "ہسپتالوں"),
+    "معلومات": ("noun", ""), "تبدیلی": ("noun", "تبدیلیاں تبدیلیوں"), "تقریب": ("noun", "تقریبات تقریبوں"), "تعاون": ("noun", ""),
+    "سرکاری": ("adj", ""), "عالمی": ("adj", ""), "حقیقی": ("adj", ""), "طویل": ("adj", ""),
+    "گزارنا": ("verb", ""), "گزرنا": ("verb", ""), "کٹنا": ("verb", ""),
+}
+# Spellings the rules below would make another word's form that are no form of it: گوئی (پیشن گوئی), فنی "technical", مینے
+# and مینوں (میں نے, Punjabi "to me"), اتے, کرانے (of the verb کرانا), بقائے (بقا with the izafat), رندوں "drunkards", ہیے,
+# افسوں "spell", مایوں, بریں, آئندے; the suffixes' سیٹھی, پرستوں, کاریوں; names (شروتی, شیدی, بقائی); and the forms of
+# adjectives in -ا that do not inflect (پیدا, جدا, سوا, گویا, ماتا, مہا, ناروا, صفرا, ددا, خدرا, خیلا).
+NOT_FORMS = {"گوئی", "فنی", "مینے", "مینوں", "اتے", "کرانے", "بقائے", "رندوں", "ہیے", "افسوں", "مایوں", "بریں", "آئندے",
+             "سیٹھی", "پرستوں", "کاریوں", "شروتی", "شیدی", "بقائی", "پیدی", "جدی", "سوی", "سوے", "گوئے", "ماتے", "مہے", "مہی",
+             "ناروی", "صفری", "صفرے", "ددی", "خدری", "خیلی"}
+
+
+def mend(db, pos, lemmas, common):
+    """
+    Adds WORDS, and the forms the pack misses of its nouns and adjectives without a table of their own, to the list
+    builder's [pos], [lemmas] and [common]. The pack makes those forms by the rules only for a gender its entry's head names
+    (g=), which the Hindi entries name otherwise, and only for an adjective its Hindi entry shows inflected: دورے, عرصے of
+    دورہ, عرصہ (masculine on their senses), پابندیاں of پابندی, تھوڑی and تھوڑے of تھوڑا. Such a form goes to its word when
+    the pack has it neither as a word nor as a form.
+    """
+    for word, (kind, forms) in WORDS.items():
+        pos[word].add(kind)
+        common[word] = word
+        for form in forms.split() or (verb_forms(word) if kind == "verb" else []):
+            if form not in WORDS and word not in lemmas.get(form, ()):
+                lemmas[form].append(word)
+    tabled = {lemma for (lemma,) in db.execute("SELECT DISTINCT lemma FROM forms WHERE generated = 0")}
+    genders = {}
+    for word, kind, senses in db.execute("SELECT word_lc, pos, senses FROM entries WHERE pos IN ('noun', 'adj')"):
+        # Not a rare word spelled as another's form, whose forms would go with it (پوری "puri" of پورا, کہنی "elbow" of کہنا).
+        if word in tabled or word in EXCLUDE or word in OVERRIDES or lemmas.get(word) or " " in word:
+            continue
+        tags = {t for s in json.loads(senses) for t in s.get("tags", [])} & {"masculine", "feminine"}
+        genders.setdefault((word, kind), set()).update(tags)
+    made = {}
+    for (word, kind), tags in genders.items():
+        gender = next(iter(tags)) if len(tags) == 1 else None
+        forms = adjective_forms(word) if kind == "adj" else noun_forms(word, gender)
+        # A masculine noun in -اہ ends in the consonant (ماہ, گواہ): گواہوں, not گواوں.
+        if kind == "noun" and gender == "masculine" and word.endswith("اہ"):
+            forms = [word + "وں"]
+        for form in forms:
+            if form not in pos and not lemmas.get(form) and form not in NOT_FORMS and form not in OVERRIDES and form not in EXCLUDE:
+                made.setdefault(form, []).append(word)
+    for form, words in made.items():
+        lemmas[form] = list(dict.fromkeys(words))
