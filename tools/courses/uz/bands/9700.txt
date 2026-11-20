@@ -1,0 +1,100 @@
+1	9601	tahqir	tahqirdan tahqirday tahqirga tahqiri tahqiridan tahqiriga tahqirlar tahqirlardan tahqirlarga tahqirlari tahqirlarini tahqirlarning tahqirlikka tahqirni tahqirning tahqiru
+2	9602	navoiyshunoslik	navoiyshunosligi navoiyshunosligida navoiyshunosligining navoiyshunoslikda navoiyshunoslikdagi navoiyshunoslikka navoiyshunoslikning
+3	9603	diffuziya	diffuziyaga diffuziyali diffuziyasi diffuziyasida diffuziyasidan diffuziyasiga
+4	9604	sansalorlik	sansalorligi sansalorlikdan sansalorlikka sansalorliklar sansalorliklardan sansalorliklarga sansalorliklarni sansalorlikni
+5	9605	dimlamoq	dimlab dimlagan dimlaganda dimlaganingizda dimlang dimlar dimlasangiz dimlash dimlashadi dimlashdan dimlashga dimlaydi dimlaydigan dimlayman dimlaymiz dimlayotgan dimlaysiz
+6	9606	nujum	nujumda nujumdan nujumga nujumni nujumning
+7	9607	shveysariyalik	shveysariyaliklar shveysariyaliklarni shveysariyaliklarning
+8	9608	sharm	sharmi sharmingiz sharmu
+9	9609	joʻmrak	joʻmragi joʻmragidan joʻmragiga joʻmragini joʻmrakda joʻmrakdagi joʻmrakdan joʻmrakka joʻmraklar joʻmraklardan joʻmraklarga joʻmraklari joʻmraklaridan joʻmraklarini joʻmraklarining joʻmraklarni joʻmrakli joʻmrakni joʻmrakning
+10	9610	yuzlik	yuzligi yuzligida yuzligidan yuzligiga yuzligim yuzlikda yuzlikdan yuzlikka yuzliklar yuzliklarga yuzliklarini yuzliklarni yuzlikning
+11	9611	matlab	matlabda matlabdagi matlabdan matlabga matlabi matlabida matlabidan matlabiga matlabim matlabimga matlabimiz matlabimizni matlablar matlablari matlablariga matlabni matlabu
+12	9612	fuzalo	fuzaloga fuzalolar fuzalolardan fuzalolarga fuzalolari fuzalolaridan fuzalolarimiz fuzalolarimizning fuzalolarining fuzalolarni fuzalolarning fuzaloni fuzalosi fuzalosidan fuzaloyu
+13	9613	raport	raportda raportga raporti raportida raportini raportlar raportlari raportlarida raportlarini raportni raportning
+14	9614	ishtiyoqmand	ishtiyoqmandday ishtiyoqmanddir ishtiyoqmandlar ishtiyoqmandlari ishtiyoqmandlarining ishtiyoqmandligi ishtiyoqmandlik ishtiyoqmandman ishtiyoqmandning
+15	9615	sizlamoq	sizla sizlab sizladi sizlanadi sizlangan sizlangandek sizlansa sizlarchi sizlardi sizlargina sizlarmi sizlarsiz sizlash sizlashga sizlaydi sizlaydigan sizlaymiz
+16	9616	kanakunjut	kanakunjutdan kanakunjuti kanakunjutning
+17	9617	maʼnodosh	maʼnodoshdir maʼnodoshi maʼnodoshini maʼnodoshlar maʼnodoshlari maʼnodoshlarida maʼnodoshlaridan maʼnodoshlarini maʼnodoshligi maʼnodoshlik
+18	9618	kazarma	kazarmada kazarmadan kazarmaga kazarmalar kazarmalarda kazarmalardan kazarmalarga kazarmalari kazarmalarida kazarmalariga kazarmalarini kazarmalarni kazarmani kazarmaning kazarmasi kazarmasidan kazarmasiga
+19	9619	badboʻy	badboʻydan badboʻyi badboʻyni badboʻyroq
+20	9620	shoyad	
+21	9621	qashimoq	qashi qashib qashidi qashigan qashigancha qashigani qashilar qashinadi qashinar qashinardi qashindi qashingach qashinganda qashinib qashinish qashinmasligi qashinmaydigan qashish qashishar qashishga qashishi qashishlar qashishni qashiy qashiyapti qashiydi qashiymiz qashiyotgan
+22	9622	qirgʻovul	qirgʻovuli qirgʻovulini qirgʻovullar qirgʻovullarni
+23	9623	kavsharlamoq	kavsharlab kavsharlanadi kavsharlangan kavsharlanib kavsharlanish kavsharlanishidan kavsharlanishini kavsharlar kavsharlash kavsharlashda kavsharlashni
+24	9624	hayitlik	hayitligi hayitlikka hayitliklar hayitliklari hayitliklarini hayitliklarni
+25	9625	qamchilamoq	qamchilab qamchiladi qamchilagan qamchilagancha qamchilaganday qamchilaganlari qamchilagin qamchilagisi qamchilamaganman qamchilamasak qamchilang qamchilangan qamchilanmoqda qamchilar qamchilasa qamchilash qamchilashadi qamchilashardi qamchilashayotganini qamchilashdan qamchilashga qamchilashimiz qamchilashing qamchilashingiz qamchilashlari qamchilatayotgan qamchilatishni qamchilay qamchilayapti qamchilaydi qamchilaydilar qamchilayotgan qamchilayotganlar qamchilaysiz
+26	9626	joyli	joyliku joyliman joylisiz
+27	9627	peyzaj	peyzajda peyzajdan peyzajga peyzaji peyzajini peyzajining peyzajlar peyzajlarda peyzajlari peyzajlarida peyzajlarni peyzajli peyzajni peyzajning peyzaju
+28	9628	ziynatlanmoq	ziynatlanadi ziynatlandi ziynatlangach ziynatlangan ziynatlanib ziynatlaningiz ziynatlanish ziynatlanishi ziynatlanishlariga
+29	9629	boʻgʻizlamoq	boʻgʻizla boʻgʻizlab boʻgʻizladi boʻgʻizladilar boʻgʻizladim boʻgʻizlagan boʻgʻizlagancha boʻgʻizlagani boʻgʻizlaganlar boʻgʻizlamaydi boʻgʻizlamoqchi boʻgʻizlanadi boʻgʻizlandi boʻgʻizlangan boʻgʻizlanganlarning boʻgʻizlanib boʻgʻizlanishga boʻgʻizlar boʻgʻizlasa boʻgʻizlash boʻgʻizlashadi boʻgʻizlashga boʻgʻizlashgan boʻgʻizlashiga boʻgʻizlashlaringizni boʻgʻizlasin boʻgʻizlatish boʻgʻizlaydi boʻgʻizlaydilar boʻgʻizlayotgan boʻgʻizlayotganday boʻgʻizlayotgandek boʻgʻizlayotganini
+30	9630	kuchsizlantirmoq	kuchsizlantira kuchsizlantiradi kuchsizlantirar kuchsizlantirasiz kuchsizlantirdi kuchsizlantirgan kuchsizlantirgani kuchsizlantirganlarga kuchsizlantirib kuchsizlantiriladi kuchsizlantirilgan kuchsizlantiring kuchsizlantirish kuchsizlantirishda kuchsizlantirishga kuchsizlantirishi kuchsizlantirishidan kuchsizlantirishini kuchsizlantirishligini kuchsizlantirishni kuchsizlantirmaydi kuchsizlantiruvchi
+31	9631	pes	pesga peslarni pesligi peslik pesman pesni pesning
+32	9632	zolimlik	zolimligi zolimligidan zolimligiga zolimligini zolimligiyu zolimlikda zolimlikdan zolimlikdir zolimlikka zolimliklari zolimliklarni zolimliklarning zolimlikni
+33	9633	shovullamoq	shovulla shovullab shovullagan shovullagancha shovullagani shovullar shovullardi shovullash shovullashi shovullashini shovullashlari shovullashni shovullay shovullaydi shovullaydigan shovullayotgan
+34	9634	qoʻnoq	qoʻnogʻi qoʻnogʻiga qoʻnogʻim qoʻnogʻini qoʻnoqda qoʻnoqdan qoʻnoqlar qoʻnoqlarda qoʻnoqlaridan qoʻnoqlariga qoʻnoqlarni qoʻnoqlikka qoʻnoqni qoʻnoqning qoʻnoqqa qoʻnoqsiz
+35	9635	tikanli	
+36	9636	imonli	imonlilar imonlilardan imonlilarga imonlilari imonlilarida imonlilarni imonlilik imonlini imonlining imonlisidan
+37	9637	toychoq	toychogʻi toychogʻim toychogʻimni toychogʻingni toychogʻini toychoqdan toychoqdek toychoqlar toychoqlardek toychoqlarga toychoqlarni toychoqligidan toychoqni toychoqning toychoqqa
+38	9638	urolog	urologga urologgami urologi urologlar urologlarda urologlarga urologlaridan urologlarini urologlarining urologlarning
+39	9639	adl	adldir adlga adli adlidir adliga adlni adlu
+40	9640	umumrespublika	
+41	9641	lip	
+42	9642	naqshlamoq	naqshlab naqshlagan naqshlaganligi naqshlanadi naqshlandi naqshlangan naqshlangani naqshlanganligi naqshlanganligini naqshlanib naqshlar naqshlardir naqshlarsiz naqshlaru naqshlash naqshlashi naqshlovchining
+43	9643	xalfa	xalfachilik xalfadan xalfaga xalfalar xalfalardan xalfalari xalfalarning xalfani xalfaning
+44	9644	attorlik	attorlikdan
+45	9645	bilʼaks	
+46	9646	kichkinalik	kichkinaligi kichkinaligida kichkinaligidan kichkinaligimda kichkinaligimdan kichkinaligimizda kichkinaligimizdan kichkinaligingda kichkinaligingizda kichkinaligini kichkinaliklari
+47	9647	badiha	badihachi badihachilik badihada badihadan badihalar badihalari badihalarida badihalaridan badiham badihami badihani badihasi badihasida badihasini
+48	9648	sitam	sitamda sitamdan sitamga sitami sitamidan sitamiga sitamingni sitamini sitamining sitamlar sitamlardan sitamlarga sitamlari sitamlaridan sitamlariga sitamlarim sitamlarini sitamlarni sitamlarning sitamni sitamning sitamu
+49	9649	prujina	prujinadan prujinadek prujinaga prujinalar prujinalardan prujinalarga prujinalari prujinalarni prujinani prujinaning prujinasi prujinasini prujinasiz
+50	9650	tama	tamada tamadan tamadir tamaga tamalar tamalarning tamani tamasiz
+51	9651	lub	lubda lubdagi lubi lubida lubiga lubini lublar lubni
+52	9652	ortiqchalik	ortiqchaligi ortiqchaligidan ortiqchaligini ortiqchaliklar ortiqchaliklardan ortiqchaliklarga ortiqchaliklarni ortiqchalikni ortiqchalikning
+53	9653	tiqilinch	tiqilinchda tiqilinchdan tiqilinchiga tiqilinchlar tiqilinchlarga tiqilinchligi tiqilinchlik tiqilinchliklar tiqilinchni tiqilinchning
+54	9654	nuqtali	
+55	9655	suvsar	suvsardek suvsarga suvsari suvsarlar suvsarlardan
+56	9656	realist	realistga realistlar realistlarga realistlari realistlarining realistlarmiz realistlarning realistman
+57	9657	asov	asovchi asovligini asovning
+58	9658	kandidat	kandidatga kandidati kandidatini kandidatisiz kandidatlar kandidatlardan kandidatlarga kandidatlari kandidatlarni kandidatlarning kandidatni kandidatning
+59	9659	marshal	marshali marshallar marshallari marshallaridan marshallarni marshalning
+60	9660	meteor	meteordan meteorlar meteorlardan meteorlarining meteorlarni meteorlarning meteorni meteorning
+61	9661	toʻrttadan	toʻrttadani
+62	9662	kokain	kokainda kokaindan kokaindek kokainga kokainni kokainning
+63	9663	moʻgʻulcha	moʻgʻulchada
+64	9664	elliginchi	
+65	9665	quritgich	quritgichda quritgichdan quritgichga quritgichi quritgichidan quritgichiga quritgichini quritgichlar quritgichlarda quritgichlardan quritgichlarga quritgichlari quritgichlariga quritgichlarini quritgichlarining quritgichlarni quritgichli quritgichni quritgichning
+66	9666	sartaroshlik	sartaroshligi sartaroshlikka
+67	9667	dekada	dekadada dekadaga dekadalar dekadalarda dekadalari dekadalarining dekadasi dekadasida dekadasidan dekadasiga dekadasigacha dekadasini
+68	9668	qalamoq	qalab qalabdi qaladi qaladim qalagan qalaguvchi qalalar qalama qalami qalan qalana qalandi qalangan qalanib qalaning qalanish qalanmagan qalar qalardi qalash qalashga qalat qalayapmiz qalaydi qalaydilar qalayman qalaymiz qalayotgan qalaysan qalaysiz
+69	9669	lojuvard	lojuvarddan lojuvardga lojuvardlar lojuvardlarning
+70	9670	chaplamoq	chapla chaplab chapladi chapladik chapladilar chapladim chaplagan chaplaganda chaplaganlar chaplagim chaplama chaplamasa chaplamasdan chaplamaslik chaplamoqchi chaplana chaplanadi chaplandi chaplang chaplangan chaplangandek chaplangani chaplanganlik chaplanib chaplanishi chaplanishiga chaplansa chaplasa chaplash chaplashdan chaplashga chaplashi chaplashni chaplashning chaplaydi chaplaydigan chaplaydilar chaplaymiz chaplayotir chaplovchilarga
+71	9671	qovushoqlik	qovushoqligi qovushoqligini qovushoqligining qovushoqlikka qovushoqlikni qovushoqlikning
+72	9672	burmali	
+73	9673	isitmalamoq	isitmalab isitmaladi isitmalagan isitmalaganda isitmalar isitmalash isitmalaydi isitmalayotgan
+74	9674	quvlamoq	quvlab quvlabdi quvlabsan quvladi quvladim quvlagan quvlaganda quvlagandek quvlaganga quvlagani quvlaganing quvlaganligi quvlagudek quvlaguncha quvlanadi quvlanganidan quvlanishi quvlar quvlardi quvlasa quvlash quvlashga quvlashi quvlashiga quvlashlar quvlashni quvlashning quvlay quvlayapti quvlaydi quvlaydigan quvlovchilar
+75	9675	qoʻlansa	qoʻlansaroq
+76	9676	kuchsizlik	kuchsizligi kuchsizligidan kuchsizligidir kuchsizligiga kuchsizligimdan kuchsizligimi kuchsizligimizni kuchsizligimni kuchsizligimning kuchsizligingni kuchsizligini kuchsizligining kuchsizlikda kuchsizlikdan kuchsizliklaridan kuchsizliklarini kuchsizliklarni kuchsizlikni
+77	9677	broshyura	broshyurada broshyuraga broshyuralar broshyuralarga broshyuralari broshyuralarida broshyuralarini broshyuralarni broshyuralarning broshyurali broshyurani broshyurasi broshyurasidan broshyurasini
+78	9678	zoʻraki	zoʻrakilik zoʻrakilikdan zoʻrakilikka zoʻrakilikni
+79	9679	aksirmoq	aksiradi aksiramiz aksirdi aksirgan aksirganda aksirganida aksirib aksirish aksirishdan aksirishi aksirishni aksirsa aksirsangiz
+80	9680	millionli	
+81	9681	koyka	koykalar koykalardan koykalari koykasida koykasidan
+82	9682	ganjina	ganjinaga ganjinalar ganjinalardan ganjinalari ganjinalarimiz ganjinalarini ganjinalarining ganjinalarning ganjinani ganjinasi ganjinasida ganjinasidir ganjinasini
+83	9683	zarbxona	zarbxonada zarbxonaga zarbxonalar zarbxonalarda zarbxonalarning zarbxonani zarbxonasi zarbxonasida zarbxonasiga
+84	9684	lovullamoq	lovulla lovullab lovullagan lovullamoqda lovullar lovullardi lovullash lovullashi lovullashini lovullay lovullaydi lovullayotgan
+85	9685	yuzboshi	yuzboshiga yuzboshilar yuzboshilardan yuzboshilarga yuzboshilarni yuzboshini yuzboshining yuzboshisan yuzboshisi
+86	9686	meningit	meningitda meningitdan meningitga meningiti meningitining meningitlar meningitni meningitning
+87	9687	bogʻich	bogʻichda bogʻichdir bogʻichga bogʻichi bogʻichida bogʻichiga bogʻichini bogʻichisiz bogʻichlar bogʻichlari bogʻichlaridan bogʻichlarimiz bogʻichlarini bogʻichlarni bogʻichli bogʻichmi bogʻichni bogʻichsiz
+88	9688	matbaachilik	matbaachiligi matbaachiligidagi matbaachiligiga matbaachiligimiz matbaachiligining matbaachilikda matbaachilikdan matbaachilikni matbaachilikning
+89	9689	ogʻ	ogʻda ogʻi ogʻim ogʻini ogʻining ogʻlar ogʻlarni ogʻli ogʻligida ogʻu
+90	9690	daxma	daxmadan daxmaga daxmalar daxmalarga daxmalari daxmalarining daxmali daxmani daxmaning daxmasi daxmasida daxmasiga daxmasini
+91	9691	ilgak	ilgagi ilgagida ilgagini ilgagiyu ilgakda ilgakdan ilgakday ilgaki ilgakka ilgaklar ilgaklari ilgaklarida ilgaklarini ilgaklarning ilgakni ilgakning
+92	9692	suyakli	suyaklisi
+93	9693	qurama	quramada quramalarning quramaligi quramalik quramaliklar
+94	9694	burro	burrogina burroligi burroligini burrolik burrosiman
+95	9695	egik	egikdir egikka egiklar egiklari egikligi egiklikdagi egikroq
+96	9696	elamoq	ela elab eladi eladilar elagi elama elamaydigan elan elanadi elandi elang elangan elanib elanish elanmagan elansam elar elash elashdan elashib elatib elaydi elaydigan elaymiz elayotgan elayotib
+97	9697	kolba	kolbacha kolbada kolbadagi kolbadan kolbaga kolbalar kolbalarda kolbalari kolbalarini kolbani kolbaning kolbasi kolbasiga
+98	9698	eskalator	eskalatorga eskalatorida eskalatorlar eskalatorlarda eskalatorlardan eskalatorlarga eskalatorlari eskalatorlarni eskalatorlarning eskalatorli eskalatorning
+99	9699	barak	baragida baragiga baragimiz baragimizda baragimizga baragimizning barakda barakdagi barakdan barakka baraklar baraklarda baraklardan baraklariga baraklarni barakni barakning
+100	9700	izlashmoq	izlash izlashadi izlashar izlashardi izlashayotgani izlashayotganini izlashayotganligini izlashdi izlashdilar izlashdir izlashgan izlashib izlashibdi izlashing izlashingiz izlashmadi izlashmoqda izlashmoqdalar izlashsalar izlashtirganimda izlashtirilib izlashyapti

@@ -1,0 +1,100 @@
+1	8901	uzunasiga	
+2	8902	qonunlashtirmoq	qonunlashtirar qonunlashtiraylik qonunlashtirayotgan qonunlashtirdi qonunlashtirgan qonunlashtirgani qonunlashtirib qonunlashtiriladi qonunlashtirildi qonunlashtirilgan qonunlashtirilgandan qonunlashtirilgani qonunlashtirilishi qonunlashtirilmagan qonunlashtirilmoqda qonunlashtirilsa qonunlashtirilyapti qonunlashtirish qonunlashtirishda qonunlashtirishga qonunlashtirishni qonunlashtirishning qonunlashtirishsa qonunlashtiruvchi
+3	8903	uklad	ukladda ukladdagi ukladi ukladida ukladining ukladlar ukladlarda ukladlardagi ukladlarini ukladlarining ukladlarning ukladli ukladlikni ukladning
+4	8904	karnaval	karnavalda karnavaldan karnavalga karnavali karnavalidan karnavaliga karnavalining karnavallar karnavallarda karnavallarga karnavallari karnavallaridan karnavalni karnavalning
+5	8905	kupaymoq	kupaya kupayadi kupaydi kupaygan kupaygani kupayganligini kupayib kupayishi kupayishiga kupaymoqda kupaytiradi kupaytirib kupaytiriladi kupaytiringlar kupaytirish kupaytirishni kupayuvchi
+6	8906	jingalak	jingalakka jingalaklar jingalaklari jingalaklarning jingalakni
+7	8907	axiyri	
+8	8908	gultoj	gultoji gultojida gultojidir gultojiga gultojlari gultojlaridir
+9	8909	axloqsiz	axloqsizlar axloqsizlardan
+10	8910	tabdil	tabdilchi tabdilda tabdilga tabdili tabdilida tabdilidir tabdiliga tabdilini tabdilining tabdillar tabdillari tabdillarida tabdilni
+11	8911	oʻlpon	oʻlpondan oʻlponga oʻlponidan oʻlponini oʻlponlar oʻlponlarini oʻlponlarni oʻlponlarning oʻlponni oʻlponning
+12	8912	farmakologik	
+13	8913	shantaj	shantajchi shantajda shantajdan shantajga shantaji shantajining shantajlar shantajlari shantajlarni shantajli shantajlik shantajlikka shantajlikni shantajni
+14	8914	nikohsiz	nikohsizlik
+15	8915	qaltiroq	qaltirogʻi qaltiroqlar qaltiroqli qaltiroqligini qaltiroqni
+16	8916	shabnam	shabnamda shabnamdagi shabnamdan shabnamdek shabnamlar shabnamni shabnamning shabnamu
+17	8917	munitsipalitet	munitsipalitetdagi munitsipalitetdan munitsipalitetdir munitsipalitetga munitsipaliteti munitsipalitetida munitsipalitetidan munitsipalitetiga munitsipalitetining munitsipalitetlar munitsipalitetlarda munitsipalitetlardan munitsipalitetlarga munitsipalitetlari munitsipalitetlarida munitsipalitetlarni munitsipalitetning
+18	8918	bochka	bochkada bochkadagi bochkadan bochkadek bochkaga bochkalar bochkalarda bochkalardan bochkalarga bochkalari bochkalariga bochkalarini bochkalarni bochkani bochkaning bochkasi bochkasiga bochkasiz
+19	8919	hatlamoq	hatlab hatlabgina hatladi hatladik hatladim hatladiyu hatlagan hatlamagan hatlamaganlarini hatlamasdan hatlamasligi hatlamayman hatlanib hatlanishi hatlansa hatlar hatlasa hatlash hatlashar hatlashda hatlashdi hatlashga hatlashi hatlashim hatlashingiz hatlashishlari hatlay hatlaydi hatlayman hatlayotgan hatlovchilar
+20	8920	alvon	alvonda alvondek alvoni alvonlar alvonlarga alvonlarni alvonligi alvonning
+21	8921	paqir	paqircha paqirda paqirdagi paqirga paqirida paqiridagi paqiriga paqirim paqirining paqirlar paqirlarda paqirlarga paqirlari paqirlarini paqirlarni paqirlarning paqirli paqirni paqirning paqirsiz
+22	8922	tromb	tromblar tromblarga tromblari tromblarni tromblarning trombni trombning
+23	8923	arbitr	arbitrdan arbitrga arbitri arbitrini arbitrlar arbitrlari arbitrlaridan arbitrlarining arbitrlarni arbitrlik arbitrni arbitrning
+24	8924	betimsol	betimsolligiga betimsolligini
+25	8925	raisa	raisaga raisalari raisasi raisasiga
+26	8926	niobiy	niobiydan niobiyning
+27	8927	mikrobiologik	
+28	8928	sanchiq	sanchigʻi sanchigʻida sanchigʻiga sanchigʻim sanchigʻini sanchiqda sanchiqdan sanchiqini sanchiqlar sanchiqlarda sanchiqlarga sanchiqlari sanchiqlarida sanchiqlaridan sanchiqlarining sanchiqli sanchiqni sanchiqning
+29	8929	xartiya	xartiyaga xartiyalar xartiyalari xartiyalariga xartiyaning xartiyasi xartiyasida xartiyasidagi xartiyasidan xartiyasiga xartiyasini
+30	8930	astar	astarda astardan astarga astari astaridan astariga astarigacha astarimdan astaringizni astarini astarining astarlar astarlari astarlariga astarli astarlik astarning astarsiz
+31	8931	ixtiyorsiz	ixtiyorsizdan ixtiyorsizmi
+32	8932	shuʼba	shuʼbada shuʼbaga shuʼbalar shuʼbalarda shuʼbalarga shuʼbalari shuʼbalarida shuʼbalariga shuʼbalarining shuʼbasi shuʼbasida shuʼbasini shuʼbasining
+33	8933	garmonik	
+34	8934	erur	erurlar erurman erursan
+35	8935	benuqson	benuqsondir benuqsonmi benuqsonmiz benuqsonu
+36	8936	mesh	meshcha meshda meshdagi meshdan meshday meshdek meshga meshi meshida meshiga meshini meshining meshlar meshlarda meshlardan meshlarga meshlari meshlarimiz meshlaringiz meshlarini meshlarni meshlarning meshni meshning
+37	8937	afisha	afishada afishadagi afishadan afishaga afishalar afishalarda afishalarga afishalari afishalarida afishalariga afishalarini afishalarni afishalarning afishalik afishani afishasi afishasida afishasidagi afishasiga afishasini
+38	8938	nimcha	nimchada nimchaga nimchalar nimchalarda nimchalardan nimchalarga nimchalari nimchalarimiz nimchalarni nimcham nimchang nimchangning nimchani nimchaning nimchasi nimchasiday nimchasini nimchasining
+39	8939	betinim	
+40	8940	parma	parmaday parmadek parmaga parmalar parmalari parmaning parmasi parmasining
+41	8941	koʻknor	koʻknorda koʻknordan koʻknori koʻknoridan koʻknoriga koʻknorini koʻknorining koʻknorlar koʻknorni koʻknorning koʻknorsiz
+42	8942	qumursqa	qumursqadan qumursqaga qumursqagacha qumursqalar qumursqalardir qumursqalarga qumursqalari qumursqalarni qumursqalarning qumursqani qumursqaning qumursqasining qumursqayu
+43	8943	oshamoq	osha oshab oshadi oshadilar oshadim oshadimi oshagan oshamagan oshar oshardi osharkan oshay oshayapsan oshayapti oshayaptimi oshaydi oshaylik oshaymiz oshayotgan oshayotgandek oshayotgandir oshayotgani oshayotganidan oshayotganiga oshayotganingizda oshayotganini oshayotganining oshayotganligi oshayotganligidan oshayotganligini oshayotganlikda oshayotib oshayotir oshaysan
+44	8944	zamindor	zamindordek zamindorga zamindori zamindorlar zamindorlardan zamindorlarga zamindorlari zamindorlarini zamindorlarni zamindorlarning zamindorlik zamindorning
+45	8945	hechqisi	
+46	8946	lazzatli	lazzatliligi lazzatliroq lazzatlisi
+47	8947	proba	probadagi probaga probalar probalarda probalari probalarining probalarning probali probani probasi probasiga probasini probasining
+48	8948	qubba	qubbada qubbalar qubbalarda qubbalari qubbalaridagi qubbalarini qubbalarni qubbani qubbaning qubbasi qubbasida qubbasidagi qubbasiga qubbasini qubbayu
+49	8949	qayerdalik	qayerdaligi qayerdaligida qayerdaligidan qayerdaligiga qayerdaligim qayerdaligimizni qayerdaligimni qayerdaligingizni qayerdaligingni qayerdaligini qayerdaligining qayerdaliklari
+50	8950	majnuntol	majnuntolga majnuntoli majnuntollar majnuntollari majnuntollarni majnuntollaru majnuntolni majnuntolning
+51	8951	mubolagʻasiz	
+52	8952	inoqlik	inoqligi inoqligidan inoqligiga inoqligimiz inoqligimizga inoqligimizning inoqligini inoqlikda inoqlikka inoqliklariga inoqlikning
+53	8953	rizolik	rizoligi rizoligida rizoligidan rizoligidir rizoligiga rizoligigina rizoligini rizoliginigina rizolikka rizoliklari rizoliklarida rizoliklarini
+54	8954	ekonomika	ekonomikaga ekonomikali ekonomikamiz ekonomikamizni ekonomikani ekonomikaning ekonomikasi ekonomikasida ekonomikasiga ekonomikasini ekonomikasining
+55	8955	konsilium	konsiliumda konsiliumi konsiliumida konsiliumining konsiliumlar konsiliumlarda
+56	8956	taka	takada takadan takaga takalar takaliklar takam takani takaning takasi takasini takasining
+57	8957	oromiy	oromiycha oromiylar oromiylari
+58	8958	naushnik	naushnigi naushnigida naushnigini naushnigining naushnikda naushniki naushnikimiz naushnikingizni naushnikka naushniklar naushniklarda naushniklardan naushniklari naushniklarini naushniklarni naushniklarning naushnikli naushnikni
+59	8959	konspekt	konspektda konspektdan konspektga konspekti konspektidan konspektiga konspektining konspektlar konspektlari konspektlariga konspektlaringiz konspektlarini konspektlarni konspektni konspektning konspektsiz
+60	8960	alanglamoq	alanglab alanglabdi alangladi alangladim alanglagancha alanglaganimizda alanglaganini alanglama alanglamang alanglamasdan alanglamasin alanglamaslik alanglar alanglardi alanglarkan alanglasa alanglash alanglashga alanglashlari alanglay alanglaydi alanglayman alanglayotgan
+61	8961	ballada	balladada balladalar balladalarda balladalarga balladalari balladalarida balladalaridan balladalarini balladami balladamni balladangiz balladani balladasi balladasida balladasiga balladasini
+62	8962	takt	taktda taktdagi taktga takti taktida taktidagi taktiga taktini taktlar taktlarida taktlariga taktlarni taktlarning taktni
+63	8963	nasldor	nasldorlari nasldorlik nasldorlikni nasldorlikning
+64	8964	burungi	burungicha burungidan burungiga burungilarga burungilaridan burungilarning burungining burungisiga
+65	8965	anorzor	anorzorda anorzorga anorzori anorzorlar anorzorlarda anorzorlari anorzorlarni anorzorni
+66	8966	gʻajimoq	gʻajib gʻajidi gʻajidim gʻajigan gʻajiganda gʻajigani gʻajilar gʻajildi gʻajilgan gʻajimay gʻajimaymiz gʻajirdi gʻajirlar gʻajisa gʻajish gʻajishga gʻajishi gʻajishini gʻajishlariga gʻajisin gʻajiy gʻajiyapti gʻajiydi gʻajiyotgan gʻajiyotganday gʻajiyotganida gʻajiyotib gʻajuvchi
+67	8967	juftlamoq	juftla juftlab juftladi juftladim juftladiyu juftlagan juftlaganida juftlaganini juftlaguncha juftlama juftlamaydi juftlamoqchi juftlanadi juftlang juftlangan juftlanib juftlanishi juftlar juftlasam juftlasangiz juftlash juftlashadi juftlashdilar juftlashga juftlashgan juftlashib juftlashiga juftlashish juftlashishdan juftlashishga juftlashishi juftlashishlari juftlashishni juftlashmagan juftlashuvchi juftlay juftlaydi juftlayman juftlayotgan
+68	8968	yogʻlamoq	yogʻla yogʻlab yogʻladi yogʻlagan yogʻlagandan yogʻlanadi yogʻlang yogʻlangach yogʻlangan yogʻlangandek yogʻlanib yogʻlanish yogʻlanishdan yogʻlanishi yogʻlanishida yogʻlanishiga yogʻlanmagan yogʻlanmasa yogʻlar yogʻlardir yogʻlash yogʻlashib yogʻlashishi yogʻlashishiga yogʻlayapti yogʻlayman yogʻlaymiz yogʻlayotgan yogʻlovchi
+69	8969	iroq	irogʻi irogʻim iroqi iroqining iroqlar
+70	8970	taqriban	
+71	8971	soʻzli	soʻzlining
+72	8972	gumroh	gumrohdan gumrohlar gumrohlardan gumrohlardir gumrohlari gumrohlarni gumrohlarnigina gumrohlarning gumrohman gumrohning gumrohroq gumrohsiz
+73	8973	yashiq	yashigʻi yashigʻidan yashiqdan yashiqlar yashiqlardan yashiqlardanmi yashiqlarni yashiqni yashiqning yashiqqa
+74	8974	renta	rentadan rentalar rentani rentaning rentasi rentasiga rentasini
+75	8975	aysh	ayshga ayshi ayshim ayshimni ayshingni ayshini ayshni ayshu
+76	8976	tutzor	tutzorda tutzordan tutzori tutzorlar tutzorlardan tutzorlari tutzorlarni tutzorlarning tutzorni
+77	8977	mutelik	muteligi muteligidan muteligini mutelikda mutelikdan mutelikka muteliklar muteliklarini mutelikni mutelikning
+78	8978	gumanizm	gumanizmga gumanizmi gumanizmidir gumanizmining gumanizmni gumanizmning
+79	8979	laziz	lazizligini lazizroq
+80	8980	shahr	shahrcha shahrda shahrdan shahri shahrida shahridagi shahridagina shahridan shahriday shahridek shahridir shahriga shahrigacha shahrigina shahrim shahrimda shahrimdagi shahrimga shahrimiz shahrimizda shahrimizdagi shahrimizdan shahrimizga shahrimizni shahrimizning shahrimni shahrimning shahring shahringda shahringga shahringiz shahringizda shahringizdagi shahringizdan shahringizga shahringizni shahringni shahringning shahrini shahrinigina shahriniki shahrining shahrlar shahrlarda shahrlari shahrlarida shahrlaridan shahrlariga shahrlarimizda shahrlarini shahrlarning shahrni shahrning shahru
+81	8981	torttirmoq	torttira torttiradi torttiradigan torttiraman torttirardi torttirdi torttirdim torttirgan torttirgani torttirganligidan torttirguvchi torttirib torttirilishi torttirish torttirishi torttirmadi torttirmay torttirmaydi torttirmaydimi torttirmoqchi torttiruvchi
+82	8982	chekli	
+83	8983	soʻqmoq	soʻq soʻqadi soʻqdi soʻqib soʻqilib soʻqish soʻqishda soʻqishdan soʻqishga soʻqishida soʻqishlar soʻqishlarda soʻqishni soʻqmoqda soʻqqan soʻqsin
+84	8984	dangal	dangalchi dangalroq
+85	8985	nashida	nashidalar nashidalari nashidalarini nashidali nashidasi nashidasidan nashidasiga nashidasini
+86	8986	guldor	guldorligi
+87	8987	inonmoq	inon inonadi inonadilar inonaman inonar inonardi inonasan inonay inonchi inondi inondim inongan inonganim inonganlar inonganlardir inonganman inongisi inonib inonilgan inoning inonishdir inonishi inonishsa inonma inonmadi inonmadim inonmagan inonmaganlarni inonmang inonmasak inonmasangiz inonmaslik inonmaydi inonmayman inonsang inonsin inontiriladi
+88	8988	kishmish	kishmishda kishmishdan kishmishday kishmishi kishmishini kishmishlar kishmishni
+89	8989	irim	irimchi irimdan irimga irimi irimidan irimiga irimimiz irimini irimlar irimlarga irimlari irimlaridan irimlariga irimlarni irimlarning irimni
+90	8990	sistematika	sistematikada sistematikaning sistematikasi sistematikasida sistematikasidagi sistematikasidan sistematikasiga sistematikasini sistematikasining
+91	8991	jisman	jismani
+92	8992	belarus	belarusdagi belaruslar belaruslarga belaruslik belarusliklar belaruslikni
+93	8993	sanoatlashtirmoq	sanoatlashtirilgan sanoatlashtirish sanoatlashtirishdagi sanoatlashtirishga sanoatlashtirishni sanoatlashtirishning sanoatlashtiruvchi
+94	8994	nemischa	nemischada nemischadan nemischaga nemischani nemischasiga nemischasini
+95	8995	rahmli	rahmlidir rahmlilar rahmlilarning rahmlilik rahmliroq rahmlisi rahmlisidir
+96	8996	hadiksiramoq	hadiksirab hadiksirabmi hadiksiradi hadiksiradim hadiksiragan hadiksiraganday hadiksiragandek hadiksiraganimdan hadiksiraganini hadiksiramang hadiksiramasdan hadiksiramay hadiksiramoqdalar hadiksirar hadiksirardi hadiksirasa hadiksirash hadiksirashga hadiksirashi hadiksirashim hadiksirashimiz hadiksirashingizni hadiksirashlar hadiksirashlarga hadiksirashlari hadiksirashlik hadiksiray hadiksiraydi hadiksiraydigan hadiksiraydilar hadiksiraymiz hadiksirayotgan hadiksirayotganini hadiksirayotganlikni hadiksirovchi
+97	8997	alkogolizm	alkogolizmda alkogolizmdan alkogolizmga alkogolizmi alkogolizmli alkogolizmni alkogolizmning
+98	8998	zehniyat	zehniyatda zehniyatdagi zehniyatga zehniyati zehniyatida zehniyatidagi zehniyatidan zehniyatiga zehniyatim zehniyatimga zehniyatimiz zehniyatimizda zehniyatimizga zehniyatimizni zehniyatingiz zehniyatini zehniyatining zehniyatlar zehniyatlarini zehniyatni zehniyatning
+99	8999	tegra	tegrada tegradagi tegraga tegralari tegralariga tegralarini tegram tegramda tegramdagi tegramizda tegramizdagi tegramizni tegrangda tegrangizda tegrangizni tegraning tegrasi tegrasida tegrasidagi tegrasidan tegrasiga tegrasini tegrayu
+100	9000	andarmon	andarmondek andarmoni andarmonlarni andarmonligi andarmonlik

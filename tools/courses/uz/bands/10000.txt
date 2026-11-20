@@ -1,0 +1,100 @@
+1	9901	oʻchirgich	oʻchirgichdan oʻchirgichdir oʻchirgichga oʻchirgichi oʻchirgichida oʻchirgichini oʻchirgichining oʻchirgichlar oʻchirgichlardan oʻchirgichlarga oʻchirgichlarini oʻchirgichlarni oʻchirgichlarning oʻchirgichni oʻchirgichning
+2	9902	madaniyatsizlik	madaniyatsizligi madaniyatsizligidan madaniyatsizligimiz madaniyatsizligingizni madaniyatsizligini madaniyatsizlikda madaniyatsizlikdan madaniyatsizlikdir madaniyatsizlikka madaniyatsizliklarini madaniyatsizlikni madaniyatsizlikning
+3	9903	yemiruvchi	yemiruvchilar yemiruvchilardir yemiruvchilaridir
+4	9904	aldamchi	aldamchidir aldamchilar aldamchilarni aldamchisi
+5	9905	ehtiyotkorona	
+6	9906	savt	savtcha savti savtmi
+7	9907	ssenarist	ssenaristi ssenaristlar ssenaristlarini ssenaristlarni ssenaristlik ssenaristu
+8	9908	tabriklashmoq	tabriklash tabriklashadi tabriklashar tabriklashardi tabriklashayotibdi tabriklashdi tabriklashgan tabriklashgani tabriklashib tabriklashing tabriklashingiz tabriklashmadi tabriklashmoqda tabriklashsin tabriklashyapti
+9	9909	soʻngsiz	soʻngsizdir soʻngsizlik soʻngsizlikka
+10	9910	obbo	
+11	9911	qabariq	qabarigʻi qabariqi qabariqlar qabariqlarini qabariqli qabariqligi qabariqni qabariqning qabariqqa
+12	9912	aeroplan	aeroplanda aeroplandan aeroplanga aeroplani aeroplanlar aeroplanlardan aeroplanlarga aeroplanlari aeroplanni aeroplanning
+13	9913	sezilmas	sezilmasdan sezilmasligi sezilmasligiga sezilmasligini sezilmaslik
+14	9914	kiygizmoq	kiygiz kiygizadi kiygizadigan kiygizadilar kiygizardi kiygizdi kiygizdilar kiygizdim kiygizdingiz kiygizgan kiygizgani kiygizib kiygiziladi kiygiziladigan kiygizilgan kiygizilganiga kiygizilib kiygizing kiygizish kiygizishdi kiygizishga kiygizishgan kiygizishi kiygizmasdan kiygizmay kiygizsalar kiygizsam kiygizu
+15	9915	shpindel	shpindelga shpindeliga shpindellar shpindellardan shpindellari shpindellariga shpindellarni shpindelli shpindelni
+16	9916	roja	rojalar rojalari rojalarining rojalarni rojalarning rojaligi rojaligining rojalik rojaliklar rojaliklari rojalikni rojani rojaning rojasi rojasining
+17	9917	mayya	mayyalar mayyalarda mayyalarning mayyaliklar
+18	9918	abonement	abonementdan abonementga abonementi abonementlar abonementlarda abonementlarga abonementlari abonementlarida abonementlarini abonementni
+19	9919	mixlamoq	mixlab mixlabdi mixladi mixladim mixlagan mixlagandek mixlar mixlasa mixlasalar mixlash mixlashgan mixlashmoqda mixlashni mixlaydi mixlayotgan
+20	9920	belgilashmoq	belgilash belgilashadi belgilashadimi belgilasharkan belgilashayotgani belgilashdi belgilashdir belgilashgan belgilashganini belgilashibdi belgilashingiz belgilashiz belgilashmagan belgilashmaydi belgilashsa
+21	9921	goʻzallashmoq	goʻzallash goʻzallasha goʻzallashadi goʻzallashar goʻzallashayotganining goʻzallashdi goʻzallashdik goʻzallashgan goʻzallashganday goʻzallashgani goʻzallashib goʻzallashibdi goʻzallashish goʻzallashishga goʻzallashishiga goʻzallashishini goʻzallashmoqda goʻzallashtirildi
+22	9922	handasiy	
+23	9923	yulgʻich	yulgʻichga yulgʻichi yulgʻichlar yulgʻichlarga yulgʻichligi yulgʻichlik yulgʻichlikda yulgʻichlikka yulgʻichlikning
+24	9924	natyurmort	natyurmortchi natyurmortdagi natyurmortga natyurmorti natyurmortini natyurmortlar natyurmortlarda natyurmortlarga natyurmortlari natyurmortlarni natyurmortni
+25	9925	dafʼa	dafʼada dafʼasi
+26	9926	magʻzava	magʻzavada magʻzavadan magʻzavaday magʻzavaga magʻzavalar magʻzavani magʻzavasi
+27	9927	bafurja	bafurjaroq
+28	9928	qaytarma	qaytarmadan qaytarmalar qaytarmali qaytarmang qaytarmasi qaytarmasida qaytarmasidan qaytarmasiga qaytarmasini
+29	9929	xlorofill	xlorofilldan xlorofillga xlorofillni xlorofillning xlorofillsiz
+30	9930	soddadil	soddadillar soddadilman
+31	9931	yoinki	
+32	9932	churq	
+33	9933	yonar	yonari
+34	9934	indamas	indamasdan indamaslar indamasligi indamaslik indamaslikka indamasliklari indamaslikni indamaslikning indamasni
+35	9935	supra	suprada supradan supraday supradek supraga supralari supralarni supram suprani supraning suprasi suprasida suprasidan suprasiga suprasini suprasining suprasisiz suprasiyu
+36	9936	daraksiz	
+37	9937	mazluma	mazlumalar mazlumalarga mazlumalarni mazlumalarning
+38	9938	yongʻoqzor	yongʻoqzordan yongʻoqzorga yongʻoqzori yongʻoqzorlar yongʻoqzorlardan yongʻoqzorlari yongʻoqzorlarimiz yongʻoqzorlarni yongʻoqzorlaru yongʻoqzorli yongʻoqzorni
+39	9939	emission	
+40	9940	balka	balkada balkalar balkalari balkalariga balkalarni balkalarning balkali balkaning
+41	9941	ongsiz	ongsizdir ongsizmi
+42	9942	soglik	sogligi sogligiga sogligini soglikni
+43	9943	nechuk	nechukdir nechukim nechuksiz
+44	9944	viqor	viqordir viqorga viqori viqorida viqoridan viqoriga viqorini viqorlik viqorni
+45	9945	qavimoq	qavib qavigani qaviganlar qaviladi qaviladigan qavilgan qavilsa qavimoqda qavir qavish qavishardi qavishda qavishga qavishlar qavishmi qaviy qaviydi qaviydigan
+46	9946	ildizpoya	ildizpoyadan ildizpoyaga ildizpoyalar ildizpoyalarda ildizpoyalari ildizpoyalaridan ildizpoyalarini ildizpoyalarining ildizpoyalarni ildizpoyasi ildizpoyasida ildizpoyasidagi ildizpoyasidan ildizpoyasini ildizpoyasining
+47	9947	tiniqlashmoq	tiniqlash tiniqlasha tiniqlashadi tiniqlashadigan tiniqlashar tiniqlashdi tiniqlashgan tiniqlashganday tiniqlashgani tiniqlashganiga tiniqlashganini tiniqlashib tiniqlashishga tiniqlashishi tiniqlashishiga tiniqlashmay tiniqlashsa tiniqlashsin tiniqlashtiradi tiniqlashtirasiz tiniqlashtirib tiniqlashtirilgan tiniqlashtirish tiniqlashtirishda tiniqlashtiruvchi
+48	9948	novcha	novchadan novchaga novchagina novchalarning novchaning novchasi
+49	9949	asqatmoq	asqata asqatadi asqatadigan asqatar asqatardi asqatdi asqatgan asqatib asqatish asqatishi asqatmadi asqatmoqda asqatuvchi
+50	9950	toriy	toriyga toriyli toriyni toriyning
+51	9951	hashamdor	hashamdorgina hashamdorligi hashamdorligidan hashamdorlikdan hashamdorlikka hashamdorlikni hashamdorroq
+52	9952	reduktor	reduktorda reduktordan reduktorga reduktorgacha reduktori reduktorigacha reduktorining reduktorlar reduktorlarga reduktorlari reduktorlarining reduktorli reduktorni reduktorning
+53	9953	radial	radiallar
+54	9954	aktivlashtirmoq	aktivlashtiradi aktivlashtiradigan aktivlashtirdik aktivlashtirgan aktivlashtirgandan aktivlashtirganingizdan aktivlashtirib aktivlashtiriladi aktivlashtirilayotgan aktivlashtirilgach aktivlashtirilgan aktivlashtirilgandan aktivlashtirilishi aktivlashtirilmaydigan aktivlashtiring aktivlashtirish aktivlashtirishdan aktivlashtirishga aktivlashtirishi aktivlashtirishingiz aktivlashtirishlari aktivlashtirishni
+55	9955	ekliptika	ekliptikaga ekliptikani ekliptikaning ekliptikasi
+56	9956	hidsiz	
+57	9957	oxirlamoq	oxirla oxirlab oxirladi oxirlagach oxirlagan oxirlaganda oxirlagandek oxirlamoqda oxirlanib oxirlar oxirlashganda oxirlashi oxirlashib oxirlashiga oxirlatib oxirlay oxirlaydi oxirlayotganini
+58	9958	tivit	tivitdan tiviti tivitidan tivitlaridan tivitlaridir tivitlarini tivitli tivitni tivitsiz
+59	9959	hov	
+60	9960	pastkash	pastkashlar pastkashlardan pastkashlarga pastkashlarni pastkashni
+61	9961	cherepitsa	cherepitsadan cherepitsaga cherepitsalar cherepitsalarda cherepitsali
+62	9962	qoʻpmoq	qoʻp qoʻpadi qoʻpadigan qoʻpadilar qoʻpar qoʻpardi qoʻpay qoʻpayotgan qoʻpdi qoʻpdir qoʻpgan qoʻpgandek qoʻpgani qoʻpganiga qoʻpganini qoʻpganlardan qoʻpgim qoʻpgina qoʻpib qoʻpishi qoʻpishidan qoʻpmaydi qoʻpmi qoʻpsang qoʻpsin qoʻptirganlarning
+63	9963	toydirmoq	toydiradi toydiradigan toydirar toydirayotgan toydirdi toydirgan toydirganda toydirganini toydirib toydirilayotgan toydirish toydirishga toydirishi toydirishlari toydirishni toydirishsa toydirmasin toydirmaslikni toydirmoqda toydiruvchi
+64	9964	pergament	pergamentdagi pergamentdan pergamentga pergamentli pergamentni
+65	9965	zirk	zirkdan zirkni zirkning
+66	9966	mudroq	mudroqdan mudroqligi mudroqligiga mudroqlik mudroqlikda mudroqlikdagi mudroqlikdan mudroqlikka mudroqlikni mudroqqa mudroqu
+67	9967	qahqaha	qahqahaga qahqahalar qahqahasi qahqahasidan qahqahayu
+68	9968	vijdonsiz	vijdonsizdan vijdonsizlar vijdonsizman
+69	9969	ogʻil	ogʻilda ogʻildagi ogʻildan ogʻilga ogʻili ogʻilidan ogʻiliga ogʻiling ogʻilini ogʻillar ogʻillarga ogʻillari ogʻillaridek ogʻillarini ogʻillarni ogʻilning
+70	9970	tembr	tembrda tembrdan tembrga tembri tembrida tembridan tembriga tembrim tembrini tembrining tembrlardir tembrlariga tembrlarimiz tembrlarini tembrlarining tembrli tembrni
+71	9971	geofizik	geofizigi geofiziklar geofiziklari geofiziklarining geofiziklarning
+72	9972	uchirma	uchirmaga uchirmang uchirmani
+73	9973	xurrak	xurragi xurragidan xurragimdan xurragingizdan xurrakdan xurrakka xurraklar xurraklaridan xurraklarini xurrakni xurrakning
+74	9974	sovuqchilik	sovuqchilikda sovuqchilikdan sovuqchilikka sovuqchiliklar sovuqchilikni sovuqchilikning
+75	9975	tigʻli	
+76	9976	shaksiz	
+77	9977	ohorli	ohorligina ohorliligi
+78	9978	tugʻishgan	tugʻishgandan tugʻishganday tugʻishgandek tugʻishgandir tugʻishgani tugʻishganiday tugʻishganidek tugʻishganiga tugʻishganim tugʻishganing tugʻishganingdan tugʻishganingizdan tugʻishganingni tugʻishganini tugʻishganlar tugʻishganlardek tugʻishganlarga tugʻishganlari tugʻishganlarida tugʻishganlaridan tugʻishganlariga tugʻishganlarim tugʻishganlarimdan tugʻishganlarimdek tugʻishganlarimiz tugʻishganlarimizni tugʻishganlarimni tugʻishganlaring tugʻishganlaringiz tugʻishganlarini tugʻishganlarining tugʻishganlarmiz tugʻishganlarning tugʻishganligini tugʻishganlik tugʻishganlikda tugʻishganlikka tugʻishgansan
+79	9979	archmoq	arch archadi archadigan archamiz archasiz archayu archdim archgach archgan archganda archib archiladi archildi archilgan archilib archilmagan archilmagani archilmasdan archin arching archir archish archishadi archishga archishi archishni archmasdan archmay archuvchi
+80	9980	filtratsiya	filtratsiyaga filtratsiyasi filtratsiyasini filtratsiyasining
+81	9981	tavoze	tavozeda tavozega tavozelar tavozelarga tavozeni tavozesi
+82	9982	xokisor	xokisorgina xokisorning
+83	9983	kartel	kartelga karteli kartelidagi kartelidan karteliga kartellar kartellari kartellaridan kartellarni kartellarning kartelli
+84	9984	gʻishtin	gʻishtini
+85	9985	qofiyalanmoq	qofiyalanadi qofiyalangan qofiyalanganlari qofiyalanib qofiyalanish qofiyalanishda qofiyalanishdagi qofiyalanishga qofiyalanishi qofiyalanishiga qofiyalanmagan qofiyalanmaslik qofiyalanmaydi qofiyalansa qofiyalanuvchi qofiyalanyapti
+86	9986	chana	chanada chanaga chanalar chanalarda chanalarga chanalari chanalaridan chanalarini chanalarni chananing chanasi
+87	9987	odamsimon	odamsimonlar
+88	9988	diffuz	diffuzli
+89	9989	akatsiya	akatsiyadan akatsiyaga akatsiyalar akatsiyalari akatsiyani akatsiyasi
+90	9990	ofarin	ofarinchilik ofaringa ofarinlar ofarinlariga
+91	9991	ellips	ellipsda ellipsga ellipslar ellipslarning ellipsni ellipsning
+92	9992	quvnatmoq	quvnatadi quvnatadigan quvnatardi quvnataylik quvnatdi quvnatdilar quvnatgan quvnatgansiz quvnatib quvnatishi quvnatmoqda quvnatsa quvnatuvchi
+93	9993	zulhijja	zulhijjada zulhijjaning
+94	9994	shnur	shnurdan shnurga shnuri shnuridan shnuriga shnuringizni shnurini shnurining shnurlar shnurlari shnurlarida shnurlarini shnurli shnurni shnurning
+95	9995	dodxoh	dodxohni dodxohning
+96	9996	jugʻrofiya	jugʻrofiyachi jugʻrofiyada jugʻrofiyadan jugʻrofiyaga jugʻrofiyani jugʻrofiyasi jugʻrofiyasida jugʻrofiyasiga jugʻrofiyasini jugʻrofiyasining
+97	9997	uyur	uyurda uyurdan uyurga uyuri uyuridagi uyurini uyurlari uyurlarini uyurlariyu uyurli uyurni
+98	9998	germaniy	germaniydan germaniyli germaniyni germaniyning
+99	9999	abssess	abssessga abssessi abssessida abssessiga abssesslar abssesslarda abssesslari abssesslarida abssesslaridir abssesslarining abssesslarni abssessning
+100	10000	kissa	kissada kissadagi kissadan kissaga kissalar kissalari kissalariga kissalarim kissalarini kissali kissam kissamda kissamga kissangdagi kissangiz kissangizda kissangizdan kissangizga kissangizni kissani kissaning kissasi kissasida kissasidagi kissasidan kissasiga kissasigagina kissasini

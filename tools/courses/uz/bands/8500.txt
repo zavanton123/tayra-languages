@@ -1,0 +1,100 @@
+1	8401	ilik	iligi iligida iligidagi iligidan iligiga iligim iligimda iligimdan iligimga iligimizdagi iligimizni iligimni iligini iligining ilikda ilikdagi ilikdan ilikdek ilikka iliklar iliklardan iliklari iliklaring ilikli ilikligi ilikni ilikning iliksiz
+2	8402	qurgʻur	qurgʻurdan qurgʻurga qurgʻurlar qurgʻurlarda qurgʻurlarning qurgʻurni qurgʻurning
+3	8403	termodinamik	
+4	8404	urologiya	urologiyada urologiyadan urologiyani urologiyaning urologiyasi
+5	8405	sarbon	sarbonga sarboni sarbonidir sarbonimiz sarbonlar sarbonlari sarbonlarning sarbonlik sarbonsiz
+6	8406	muzaffar	muzaffardir muzaffari muzaffarlik muzaffarlikni
+7	8407	kletchatka	kletchatkada kletchatkaga kletchatkalar kletchatkalarga kletchatkalari kletchatkalarning kletchatkali kletchatkani kletchatkaning kletchatkasi kletchatkasida kletchatkasiga kletchatkasini kletchatkasining
+8	8408	shuaro	shuarodan shuaroga shuarolar shuarolari shuarolarni shuarolik shuaroning shuarosi shuarosidek shuarosiga
+9	8409	divizion	divizionda diviziondagi diviziondan divizionga divizioni divizionida divizionidagi divizioniga divizionini divizionlardagi divizionlarga divizionlarida divizionlaridagi divizionning
+10	8410	jodugar	jodugarga jodugari jodugariman jodugarlar jodugarlardan jodugarlarga jodugarlari jodugarlarini jodugarlarning jodugarmi jodugarni jodugarning
+11	8411	yashnatmoq	yashnatadi yashnatadigan yashnatadiganlari yashnatar yashnatayotgan yashnatdi yashnatgan yashnatgani yashnatganniki yashnatguvchi yashnatib yashnatish yashnatishadi yashnatishda yashnatishga yashnatishi yashnatishingizni yashnatishning yashnatmoqda yashnatuvchi
+12	8412	gʻamxoʻr	gʻamxoʻri gʻamxoʻrim gʻamxoʻrlar gʻamxoʻrlari gʻamxoʻrlarim gʻamxoʻrlaring gʻamxoʻrmi gʻamxoʻrmiz gʻamxoʻrni
+13	8413	lof	lofchi lofdan lofga lofi lofingiz lofini loflar loflardan loflarga loflari loflaridan loflarni lofni lofsiz lofu
+14	8414	bankir	bankirdan bankirga bankiri bankirlar bankirlardan bankirlarga bankirlari bankirlarni bankirlarning bankirni bankirning
+15	8415	tasdiqlashmoq	tasdiqlash tasdiqlashadi tasdiqlashar tasdiqlashdi tasdiqlashdir tasdiqlashgan tasdiqlashganda tasdiqlashgani tasdiqlashganidan tasdiqlashganini tasdiqlashingiz tasdiqlashishi tasdiqlashmadi tasdiqlashmagan tasdiqlashmayapti tasdiqlashmoqda tasdiqlashsa tasdiqlashu tasdiqlashyapti
+16	8416	bariy	bariydan bariyli
+17	8417	akvarium	akvariumda akvariumdagi akvariumdan akvariumga akvariumi akvariumida akvariumiga akvariumlar akvariumlarda akvariumlarini akvariumlarni akvariumni akvariumning
+18	8418	gʻusl	gʻuslda gʻusldan gʻuslga gʻusllar gʻusllari gʻuslni
+19	8419	far	fardan farga farlar farlarning farli farmi
+20	8420	fisq	fisqda fisqi fisqqa fisqu
+21	8421	qalqimoq	qalqib qalqibdi qalqidi qalqigan qalqigandan qalqigandek qalqigandir qalqiganimni qalqiganini qalqiganmiz qalqima qalqimasdan qalqimoqda qalqin qalqinib qalqisa qalqish qalqishga qalqishi qalqishida qalqishidan qalqishiga qalqishlar qalqiy qalqiydi qalqiydigan
+22	8422	yuvosh	yuvoshdan yuvoshgina yuvoshi yuvoshlar yuvoshroq
+23	8423	oqin	oqinga oqini oqinimi oqinimiz oqining oqinlar oqinlardan oqinlari oqinlaridan oqinlarining oqinlarni oqinlarning oqinlik oqinni oqinning oqinu
+24	8424	sterjen	sterjenda sterjendan sterjenga sterjeni sterjenida sterjenining sterjenlar sterjenlarda sterjenlardagi sterjenlardan sterjenlarida sterjenlariga sterjenlarini sterjenlarni sterjenlarning sterjenli sterjenni sterjenning
+25	8425	figʻon	figʻondir figʻonga figʻoni figʻonidan figʻoniga figʻonim figʻonini figʻonlar figʻonlardan figʻonlari figʻonlariga figʻonlarim figʻonlaring figʻonlarini figʻonli figʻonu
+26	8426	depo	depoda depoga depolardan depolari depolarida depolaridan deposi deposida deposidagi deposidir deposiga deposining
+27	8427	xokkey	xokkeychi xokkeyda xokkeyga xokkeyi xokkeyining xokkeyni xokkeyning
+28	8428	qichqiriq	qichqirigʻi qichqirigʻidan qichqirigʻiga qichqirigʻini qichqiriqdan qichqiriqdir qichqiriqlar qichqiriqlardan qichqiriqlari qichqiriqlarida qichqiriqlaridan qichqiriqlariga qichqiriqlarim qichqiriqlarini qichqiriqlarni qichqiriqman qichqiriqni qichqiriqqa
+29	8429	xarsang	xarsangdan xarsangday xarsangdek xarsangdir xarsangga xarsangini xarsanglar xarsanglardan xarsanglarday xarsanglarga xarsanglarini xarsanglarni xarsanglarning xarsangni xarsangning xarsangu
+30	8430	dudlanmoq	dudlanadi dudlangan dudlangani dudlanmaydi
+31	8431	kamerali	kameralilari
+32	8432	qaytarishmoq	qaytarish qaytarishadi qaytarishar qaytarishardi qaytarisharkan qaytarishayotgan qaytarishdi qaytarishdir qaytarishgan qaytarishganda qaytarishib qaytarishibdi qaytarishin qaytarishingiz qaytarishmadi qaytarishmagan qaytarishmaganida qaytarishmasa qaytarishmaydi qaytarishmaydigan qaytarishmoqchi qaytarishmoqda qaytarishsa qaytarishsagina qaytarishsin qaytarishyapti
+33	8433	parashyut	parashyutchi parashyutda parashyutdan parashyutga parashyuti parashyutida parashyutidan parashyutini parashyutlar parashyutlarda parashyutlardan parashyutlari parashyutlarni parashyutli parashyutni parashyutning
+34	8434	qizishmoq	qizish qizishadi qizishadilar qizishamiz qizishar qizishardi qizishasan qizishasiz qizishdi qizishdim qizishgan qizishganday qizishgani qizishganidek qizishganlari qizishib qizishishar qizishma qizishmang qizishmanglar qizishmaslik qizishmaslikka qizishmay
+35	8435	ionlovchi	
+36	8436	royal	royalda royalga royali royalning
+37	8437	singimoq	singi singib singidi singigan singiganda singigandir singigani singiganidan singimay singimaydi singing singish singishdan singishga singishi singishida singishiga singishini singishining singishni singiy singiydi singiydigan singiyotgan singuvchi
+38	8438	nil	nilcha nildek nili nillari nilli
+39	8439	xonaki	xonakilarining
+40	8440	kaklik	kakligi kakligiga kakligim kaklikka kakliklar kakliklarda kakliklarimni kakliklarning kaklikni kaklikning kakliksiz
+41	8441	kushanda	kushandaga kushandalar kushandalari kushandalaridan kushandalaridir kushandalariga kushandalarini kushandalarni kushandalarning kushandalik kushandaning kushandasi kushandasidir kushandasiga kushandasigina kushandasini kushandasining
+42	8442	eronshunoslik	eronshunoslikning
+43	8443	kush	kushdan kushga kushi kushing kushlar kushlardan kushlarga kushlari kushlarining kushlarni kushlarning kushlik kushni
+44	8444	kilovatt	kilovattdan kilovattga kilovatti kilovattigacha kilovattli kilovattlik kilovattni kilovattning
+45	8445	kosmodrom	kosmodromda kosmodromdan kosmodromga kosmodromi kosmodromida kosmodromidagi kosmodromidan kosmodromiga kosmodromini kosmodromlaridan kosmodromni kosmodromning
+46	8446	vazminlik	vazminligi vazminligidan vazminligimiz vazminligingiz vazminligingizni vazminligini vazminlikka vazminliklari vazminlikni vazminlikning
+47	8447	parfyumeriya	parfyumeriyada parfyumeriyali
+48	8448	qistamoq	qistab qistadi qistagan qistaganda qistagandir qistagani qistaganidan qistaganiga qistaganini qistama qistamang qistamasin qistamay qistamayapmiz qistamaydi qistar qistardi qistasa qistasalar qistasam qistash qistashga qistashi qistashidan qistashimizga qistashini qistashlari qistay qistayapman qistayapti qistaydi qistaydilar qistayman qistayotgan qistayotgani qistaysan
+49	8449	xudbin	xudbindir xudbinlar xudbinlardir xudbinlarga xudbinlarni xudbinlarning xudbinman xudbinroq xudbinsiz xudbinu
+50	8450	affiks	affiksi affiksidan affiksini affiksining affikslar affikslardan affikslarga affikslari affikslarida affikslaridir affikslarining affikslarni affikslarning affiksli affiksning affikssiz
+51	8451	oralik	oraligi oraligida oraligidagi oraligidagina oraligidan oraligiga oraligining oralikda oralikdagi oraliklar oraliklarda oraliklari oraliklarida oraliklaridagi
+52	8452	toʻyona	toʻyonaga toʻyonalar toʻyonalarni toʻyonalarning toʻyonamiz toʻyonangizni toʻyonasi toʻyonasiga
+53	8453	izsiz	
+54	8454	subʼektiv	subʼektivlik subʼektivlikka
+55	8455	nurlantirmoq	nurlantira nurlantiradi nurlantiradigan nurlantirar nurlantirdi nurlantirganda nurlantirganimizda nurlantirib nurlantiriladi nurlantirilgan nurlantirilganda nurlantirilgandan nurlantirilib nurlantirilishning nurlantirilsa nurlantirish nurlantirishda nurlantirishga nurlantirishganda nurlantirishi nurlantirishiga nurlantirishni nurlantirmaydi nurlantiruvchi
+56	8456	plevra	plevrada plevraga plevrani plevraning
+57	8457	vasiyatnoma	vasiyatnomada vasiyatnomaga vasiyatnomalar vasiyatnomalardan vasiyatnomalarga vasiyatnomalari vasiyatnomalariga vasiyatnomalarni vasiyatnomalarning vasiyatnomamni vasiyatnomani vasiyatnomaning vasiyatnomasi vasiyatnomasida vasiyatnomasiga vasiyatnomasini vasiyatnomasining
+58	8458	sargardonlik	sargardonligi sargardonligidan sargardonligini sargardonlikda sargardonlikdagi sargardonlikdan sargardonlikka sargardonliklar sargardonliklardan sargardonliklari sargardonliklariga sargardonliklarini sargardonliklarni sargardonlikni sargardonlikning sargardonliksiz
+59	8459	birla	
+60	8460	yubka	yubkada yubkaga yubkalar yubkalarda yubkalardan yubkalarga yubkalari yubkalariga yubkalaringizni yubkalarni yubkalarning yubkamni yubkangiz yubkani yubkaning yubkasi yubkasiga yubkasini yubkasining
+61	8461	tomlik	tomligi tomligida tomligining tomlikda tomlikka tomliklar tomliklarda tomliklardan tomliklari tomliklarimni tomliklarni tomlikni tomlikning
+62	8462	changalzor	changalzorda changalzordagi changalzordan changalzorga changalzorida changalzoridan changalzorining changalzorlar changalzorlarda changalzorlardagi changalzorlardan changalzorlarga changalzorlari changalzorlarida changalzorlariga changalzorlarini changalzorlarni changalzorlarning changalzorlaru changalzorni
+63	8463	raso	rasolarni rasolarning rasoli rasom rasomi rasomning rasosida
+64	8464	musofirchilik	musofirchiligimizga musofirchilikda musofirchilikdagi musofirchilikdan musofirchilikka musofirchilikni musofirchilikning
+65	8465	yiroqlashmoq	yiroqlasha yiroqlashadi yiroqlashamiz yiroqlashasiz yiroqlashayotganida yiroqlashayotir yiroqlashdi yiroqlashdik yiroqlashdilar yiroqlashdim yiroqlashgan yiroqlashganda yiroqlashgani yiroqlashganiga yiroqlashganmiz yiroqlashib yiroqlashing yiroqlashish yiroqlashishda yiroqlashishdir yiroqlashishga yiroqlashishi yiroqlashishimiz yiroqlashishini yiroqlashishni yiroqlashmagan yiroqlashmaganmiz yiroqlashmang yiroqlashmanglar yiroqlashmasangiz yiroqlashmaslik yiroqlashmaslikka yiroqlashmaylik yiroqlashmaymiz yiroqlashmoqda yiroqlashmoqdalar yiroqlashtirildi yiroqlashtirilgan
+66	8466	intiho	intihoda intihodan intihoga intihogacha intihoni intihoning intihosi intihosida intihosidagi intihosidek intihosidir intihosiga intihosigacha intihosini intihosining
+67	8467	parodiya	parodiyachi parodiyada parodiyadir parodiyaga parodiyalar parodiyalardan parodiyalaridan parodiyalarni parodiyalik parodiyam parodiyami parodiyani parodiyaning parodiyasi parodiyasiga parodiyasini
+68	8468	bezmoq	beza bezadi bezadilar bezaku bezar bezardi bezay bezayotgan bezayotganda bezdi bezdik bezdim bezgan bezganda bezgandan bezgani bezganim bezganlari bezganligini bezganmiz bezgansan bezgisi bezib bezil bezilib bezing bezingiz bezining bezish bezishadi bezishgani bezishganlar bezishi bezishiga bezishim bezishlik bezmagan bezmasang bezmay bezmaydi bezmaydigan bezmaysiz bezuvchilar
+69	8469	mashmasha	mashmashadan mashmashaga mashmashalar mashmashalarda mashmashalardan mashmashalarga mashmashalari mashmashalarini mashmashalarni mashmashali mashmashaligini mashmashangni mashmashani mashmashaning mashmashasi mashmashasidan mashmashasiga mashmashasini
+70	8470	anbar	anbarda anbardan anbari anbarlar anbarlari anbarlarni anbarlarning anbarlik anbarni anbarning
+71	8471	nomard	nomarddan nomardga nomardlar nomardlardan nomardlarga nomardlarni nomardligi nomardligini nomardlik nomardlikni nomardman nomardni nomardning
+72	8472	emaklamoq	emaklab emaklagan emaklagancha emaklaganliklari emaklaganmiz emaklama emaklamadi emaklamay emaklamoqchi emaklar emaklash emaklashar emaklashga emaklashi emaklashni emaklatib emaklay emaklaydi emaklayman emaklayotgan
+73	8473	faqirlik	faqirligi faqirligiga faqirligimiz faqirligimni faqirligingni faqirligini faqirligiyu faqirlikda faqirlikdan faqirlikdir faqirlikka faqirliklaridan faqirliklarini faqirlikni faqirlikning
+74	8474	fazogir	fazogirga fazogiri fazogirini fazogirlar fazogirlardan fazogirlarday fazogirlarga fazogirlari fazogirlarini fazogirlarni fazogirlarning fazogirlik fazogirlikka fazogirni fazogirning fazogiru
+75	8475	maʼnosiz	maʼnosizdek maʼnosizdir maʼnosizgina maʼnosizi
+76	8476	muloyimlik	muloyimligi muloyimligiga muloyimligingizni muloyimligini muloyimlikdan muloyimlikka muloyimlikmi muloyimlikni
+77	8477	chilangar	chilangarchilik chilangarga chilangari chilangarlar chilangarlarga chilangarlari chilangarlarni chilangarlarning chilangarman chilangarni chilangarning
+78	8478	kamzul	kamzulda kamzuldagi kamzuldan kamzulga kamzuli kamzulida kamzuliga kamzulim kamzulimga kamzulimni kamzulimning kamzulini kamzulining kamzullar kamzullarda kamzullari kamzullarini kamzullarni kamzulli kamzulmi kamzulni kamzulning kamzulsiz
+79	8479	patogenez	patogenezga patogenezi patogenezida patogenezidan patogeneziga patogenezini patogenezining patogenezli patogenezni patogenezning
+80	8480	xayolot	xayolotdagi xayolotdan xayolotga xayoloti xayolotida xayolotidagi xayolotidan xayolotiga xayolotimda xayolotimdagi xayolotini xayolotining xayolotlar xayolotlarda xayolotlarimizni xayolotlarini xayolotmi xayolotni xayolotning
+81	8481	xufton	xuftonda xuftondan xuftonga xuftongacha xuftonni xuftonning xuftonu
+82	8482	sudxoʻr	sudxoʻrdan sudxoʻrlar sudxoʻrlardan sudxoʻrlarga sudxoʻrlargina sudxoʻrlari sudxoʻrlarni sudxoʻrlarning sudxoʻrligi sudxoʻrligini sudxoʻrlik sudxoʻrlikda sudxoʻrlikdan sudxoʻrlikka sudxoʻrlikni sudxoʻrlikning sudxoʻrni sudxoʻrning
+83	8483	gʻayriinsoniy	gʻayriinsoniyligi gʻayriinsoniylik gʻayriinsoniylikka
+84	8484	tek	tekini teklari tekli tekligi
+85	8485	kohin	kohinga kohini kohinlar kohinlardan kohinlarga kohinlari kohinlarining kohinlarning kohinlarsiz kohinlik kohinning
+86	8486	parovoz	parovozcha parovozda parovozdan parovozdir parovozga parovozi parovozida parovozidan parovozini parovozlar parovozlarda parovozlarga parovozlarni parovozlarning parovozni parovozning
+87	8487	avangard	avangarddagi avangardga avangardi avangardiga avangardini avangardining
+88	8488	asbobsozlik	asbobsozlikda asbobsozlikdagi asbobsozlikka asbobsozlikni asbobsozlikning
+89	8489	shtamplamoq	shtamplab shtamplama shtamplanadigan shtamplangan shtamplanishlarning shtamplar shtamplash shtamplashda shtamplashlar shtamplashlardan shtamplashlari shtamplashlarni shtamplashning shtamplaydigan
+90	8490	polka	polkadan polkaga polkalar polkalarda polkalarga polkalari polkalarida polkalarni polkani polkaning polkasi polkasiga polkasigacha polkasining
+91	8491	zanjirband	zanjirbandlik zanjirbandlikdan zanjirbandliklari
+92	8492	oʻrkachli	oʻrkachlilarda oʻrkachlilardan oʻrkachlilaridan oʻrkachlisi
+93	8493	takbir	takbirda takbirdagi takbirdan takbirdir takbirga takbiri takbirini takbirining takbirlar takbirlarda takbirlardan takbirlari takbirlarida takbirni takbiru
+94	8494	sotsialist	sotsialistdir sotsialistga sotsialisti sotsialistlar sotsialistlardan sotsialistlarga sotsialistlari sotsialistlariga sotsialistlarining sotsialistlarni sotsialistlarning sotsialistlik
+95	8495	atletik	
+96	8496	hargiz	
+97	8497	tentak	tentagim tentagingizga tentakcha tentakdan tentakday tentakdir tentakka tentaklar tentaklarga tentaklargina tentaklari tentaklarning tentakman tentakni tentakning
+98	8498	haqlik	haqligi haqligiga haqligimizni haqligimni haqligingizga haqligingizni haqligingni haqligini haqligining haqlikka haqliklariga haqlikni haqliku
+99	8499	toʻplanishmoq	toʻplanish toʻplanisha toʻplanishadi toʻplanishamiz toʻplanishar toʻplanishardi toʻplanisharkan toʻplanishayotgani toʻplanishdi toʻplanishdilar toʻplanishgach toʻplanishgan toʻplanishgani toʻplanishganida toʻplanishganini toʻplanishib toʻplanishibdi toʻplanishining toʻplanishmoqda toʻplanishsin
+100	8500	nazmiy	

@@ -1,0 +1,100 @@
+1	9801	mang	mangi mangim manglar mangli
+2	9802	lagʻmon	lagʻmondan lagʻmonga lagʻmoni lagʻmoniga lagʻmonini lagʻmonlar lagʻmonni lagʻmonning
+3	9803	ximiyaviy	
+4	9804	toʻqsoninchi	
+5	9805	yoʻqsil	yoʻqsildir yoʻqsilga yoʻqsili yoʻqsillar yoʻqsillarga yoʻqsillari yoʻqsillarining yoʻqsillarni yoʻqsillarning yoʻqsilmiz yoʻqsilning
+6	9806	qoʻltiqtayoq	qoʻltiqtayogʻi qoʻltiqtayogʻini qoʻltiqtayoqda qoʻltiqtayoqlar qoʻltiqtayoqlari qoʻltiqtayoqlariga qoʻltiqtayoqlarimga qoʻltiqtayoqlarimni qoʻltiqtayoqlarini qoʻltiqtayoqlarni qoʻltiqtayoqni qoʻltiqtayoqqa
+7	9807	ratsionalizatorlik	ratsionalizatorlikni
+8	9808	gʻaliz	gʻalizroq
+9	9809	tepkilamoq	tepkilab tepkiladi tepkilagach tepkilagan tepkilagisi tepkilamaslik tepkilamoqda tepkilangani tepkilanib tepkilar tepkilash tepkilashadi tepkilashgan tepkilashganini tepkilashib tepkilashni tepkilay tepkilaydi tepkilaydigan tepkilaydigani tepkilayman tepkilayotgan tepkilayotgani
+10	9810	jargon	jargonda jargondir jargonga jargoni jargonida jargoniga jargonlar jargonlardan jargonlarga jargonlarida jargonlarimiz jargonlarini jargonli
+11	9811	radioaktivlik	radioaktivligi radioaktivligini radioaktivlikka radioaktivlikni
+12	9812	dilrabo	dilraboga dilrabolar dilrabolarni dilraboroq
+13	9813	egiluvchanlik	egiluvchanligi egiluvchanligidir egiluvchanligiga egiluvchanligini egiluvchanliklarga egiluvchanlikni egiluvchanlikning
+14	9814	mongol	mongolcha mongolga mongollar mongollardir mongollarning
+15	9815	ravonlik	ravonligi ravonligidan ravonligiga ravonligini ravonlikda ravonlikdan ravonlikka ravonlikni
+16	9816	ordinator	ordinatori ordinatorlar ordinatorlarga ordinatorlari ordinatorlarni ordinatorlarning ordinatorlikka
+17	9817	pulmonologiya	pulmonologiyada
+18	9818	paymon	paymondan paymonga paymoni paymonida paymonidan paymonimizdan paymonimni paymoningiz paymoningizni paymonlar paymonlari paymonlariga paymonlarini paymonli paymonni paymonsiz
+19	9819	xandon	xandoniga xandonu
+20	9820	butparast	butparastlar butparastlardan butparastlarga butparastlari butparastlarni butparastlarning butparastning
+21	9821	ideallashtirmoq	ideallashtiradi ideallashtirdim ideallashtirgan ideallashtirib ideallashtiriladi ideallashtirilgan ideallashtirilib ideallashtirilmagan ideallashtirish ideallashtirishda ideallashtirishdan ideallashtirishga ideallashtirmang ideallashtirmaydi
+22	9822	kirakash	kirakashdan kirakashlar kirakashlardan kirakashlarga kirakashlarni kirakashlarning kirakashni kirakashning
+23	9823	olibsotar	olibsotarga olibsotarlar olibsotarlarga olibsotarlari olibsotarlarni olibsotarlarning olibsotarman olibsotarni
+24	9824	oʻlkashunos	oʻlkashunosi oʻlkashunoslar oʻlkashunoslari oʻlkashunoslarining
+25	9825	quroldosh	quroldoshi quroldoshining quroldoshlar quroldoshlarga quroldoshlari quroldoshlaridan quroldoshlarim quroldoshlarimiz quroldoshlarini quroldoshlarining quroldoshmiz
+26	9826	konyak	konyagi konyagiga konyagim konyagini konyakdan konyakku konyaklar konyakmi konyakni konyakning
+27	9827	sostav	sostavdan sostavga sostavi sostavida sostavidagi sostaviga sostavini sostavlari sostavlarini sostavlarni sostavlarning sostavni sostavning
+28	9828	maxraj	maxrajda maxrajdagi maxrajdan maxrajga maxraji maxrajida maxrajidagi maxrajiga maxrajini maxrajining maxrajlar maxrajlarga maxrajlarini maxrajlarning maxrajli maxrajni
+29	9829	vals	valsga valsi valsini valslar valsni
+30	9830	bachkanalik	bachkanaligi bachkanaligini bachkanalikda bachkanalikdan bachkanalikday bachkanalikdek bachkanalikdir bachkanalikka bachkanaliklardan bachkanaliklarga bachkanaliklarning bachkanalikni bachkanalikning
+31	9831	yemakxona	yemakxonada yemakxonadan yemakxonaga yemakxonalar yemakxonalarda yemakxonalardan yemakxonalarga yemakxonalari yemakxonalarini yemakxonalarni yemakxonamda yemakxonaning yemakxonasi yemakxonasida yemakxonasidagi yemakxonasiga
+32	9832	dahriy	dahriycha dahriylar dahriylarda dahriylardan dahriylari dahriylarining dahriylarni dahriylarning dahriyman dahriyni dahriyroq
+33	9833	moddiyat	moddiyatchilik moddiyatda moddiyatdan moddiyatga moddiyatimiz moddiyatini moddiyatlar moddiyatni moddiyatning
+34	9834	kart	kartda kartdan karti karting kartingda kartini kartlar kartlardan kartlari kartlaridan kartlariga kartlarini kartlarni kartlarning kartli kartni kartu
+35	9835	novator	novatordir novatori novatorlar novatorlardan novatorlardir novatorlari novatorlaridan novatorlarni novatormi
+36	9836	esankiratmoq	esankiratadigan esankiratdi esankiratgan esankiratib esankiratish esankiratmadi esankiratuvchi
+37	9837	tabiiyot	tabiiyotga tabiiyotni
+38	9838	xloroform	xloroformda xloroformdagi xloroformdan xloroformlarda xloroformni
+39	9839	qutbiy	qutbiylikda
+40	9840	erkalik	erkaligi erkaligim erkaligimizni erkaligimni erkaliging erkaligingizni erkaligini erkalikdan erkaliklari erkaliklaridan erkaliklariga erkaliklarimni erkaliklaringizni erkaliklarini erkalikni
+41	9841	ochiqcha	
+42	9842	radiosignal	radiosignalga radiosignallar radiosignallardan radiosignallarga radiosignallari radiosignallarni radiosignallarning radiosignalli radiosignalni
+43	9843	vismut	vismutdan vismutgacha vismutli vismutning
+44	9844	nagʻma	nagʻmadagi nagʻmadan nagʻmalar nagʻmalarga nagʻmalari nagʻmalaridan nagʻmalaring nagʻmalarini nagʻmalarni nagʻmalarning nagʻmang nagʻmangni nagʻmani nagʻmaning nagʻmasi nagʻmasida nagʻmasiga nagʻmasini nagʻmayu
+45	9845	gematologiya	gematologiyada gematologiyasi
+46	9846	mung	mungdek mungga mungi munglar munglardan munglarini munglik munglikni mungni mungning mungsiz mungu
+47	9847	harir	hariri
+48	9848	zichlamoq	zichlab zichlanadi zichlanadigan zichlangan zichlanganligiga zichlanib zichlanishga zichlanishi zichlanishini zichlanishlar zichlanishni zichlanma zichlanmagan zichlash zichlashda zichlashga zichlashi zichlashli zichlaydi zichlaydigan zichlovchi
+49	9849	girih	girihi girihlar girihli girihning
+50	9850	vatangado	vatangadoday vatangadolar vatangadolarga vatangadolik vatangadolikni vatangadolikning vatangadosan
+51	9851	gagauz	gagauzlar gagauzlarga gagauzlari gagauzlarni gagauzlarning
+52	9852	chanqamoq	chanqab chanqadi chanqadim chanqadingiz chanqagan chanqaganda chanqaganday chanqaganga chanqagani chanqaganidan chanqaganini chanqamadingizmi chanqamaslik chanqamaydi chanqar chanqasa chanqash chanqashdi chanqashga chanqashiga chanqashimizga chanqashingizdan chanqay chanqaydi chanqaydigan chanqaydilar chanqaymiz chanqayotgan chanqayotganini
+53	9853	xonish	xonishda xonishga xonishi xonishidan xonishidir xonishini xonishlar xonishlari xonishlaridan xonishlariga xonishlarim xonishlarini xonishlarining xonishlarni xonishlarning xonishli xonishni xonishning
+54	9854	oltmishinchi	oltmishinchilar
+55	9855	opajon	opajonim opajonimning opajonlar opajonlarimizni opajonlarni
+56	9856	tul	tulga tuli tulku tullar tulning tulu
+57	9857	panelli	
+58	9858	sugʻdiy	sugʻdiycha sugʻdiylar sugʻdiylarning
+59	9859	yozgʻirmoq	yozgʻira yozgʻiradi yozgʻiradigan yozgʻiradilar yozgʻiraman yozgʻiramiz yozgʻirar yozgʻirasan yozgʻirayotgani yozgʻirayotir yozgʻirdi yozgʻirdilar yozgʻirdim yozgʻirgan yozgʻirganday yozgʻirganiga yozgʻirganlar yozgʻirganlarini yozgʻirib yozgʻirilmaydi yozgʻirish yozgʻirishadi yozgʻirishayotganiga yozgʻirishi yozgʻirishiga yozgʻirishlar yozgʻirishlardan yozgʻirishlarga yozgʻirishlari yozgʻirishlarida yozgʻirishlarning yozgʻirishni yozgʻirishning yozgʻirma yozgʻirmadi yozgʻirmasin yozgʻirmaydigan yozgʻirmoqchi yozgʻiryapsiz
+60	9860	tablo	tabloda tablodagi tablodan tabloga tablolar tablolarda tablolari tablolarini tabloni tablosi tablosida
+61	9861	aybnoma	aybnomada aybnomadan aybnomaga aybnomalar aybnomalardir aybnomalarni aybnomalarning aybnomangizni aybnomani aybnomaning aybnomasi aybnomasida aybnomasidan aybnomasiga aybnomasini
+62	9862	botmon	botmoncha botmondan botmondek botmonga botmongacha botmoni botmonidan botmonlik botmonni
+63	9863	ohor	ohori ohoriga ohorini ohoru
+64	9864	millioninchi	
+65	9865	gung	gungga gungi gunglar gunglarda gungmiz gungu
+66	9866	parmalamoq	parmalab parmalanadi parmalansa parmalar parmalash parmalashda parmalashni parmalay parmalaydi parmalaydigan parmalayotganday
+67	9867	quloqchin	quloqchindan quloqchinga quloqchini quloqchinida quloqchinidan quloqchinini quloqchinlar quloqchinlarda quloqchinlardagi quloqchinlardan quloqchinlari quloqchinlarida quloqchinlaridagi quloqchinlaridan quloqchinlariga quloqchinlaringiz quloqchinlaringizni quloqchinlarini quloqchinlarining quloqchinlarni quloqchinlarning quloqchinli quloqchinni quloqchinning
+68	9868	pechene	pechenelar pechenelardan pechenelarni pecheneli pecheneni pechenesini
+69	9869	aqidaparast	aqidaparastlar aqidaparastlarga aqidaparastlari aqidaparastlarining aqidaparastlarning
+70	9870	duragaylamoq	duragaylab duragaylar duragaylash duragaylashda duragaylashib duragaylashish duragaylashmagan duragaylashning
+71	9871	uygʻonishmoq	uygʻonish uygʻonishadi uygʻonishar uygʻonishardi uygʻonishdi uygʻonishdir uygʻonishganda uygʻonishib uygʻonishingiz uygʻonishining uygʻonishmi uygʻonishmoqda uygʻonishsa uygʻonishyapti
+72	9872	ijroqoʻm	ijroqoʻmga ijroqoʻmi ijroqoʻmida ijroqoʻmiga ijroqoʻmining ijroqoʻmlari ijroqoʻmni
+73	9873	moh	mohcha mohi mohlar
+74	9874	maqtanchoq	maqtanchoqdir maqtanchoqlar maqtanchoqlarga maqtanchoqlarni maqtanchoqni maqtanchoqning maqtanchoqqa
+75	9875	hunarli	hunarlilik
+76	9876	fizioterapevtik	
+77	9877	tadqiqotchilik	tadqiqotchiligi tadqiqotchiligining tadqiqotchilikdan tadqiqotchilikka tadqiqotchilikni tadqiqotchilikning
+78	9878	internatsional	internatsionalcha internatsionalning internatsionalroq
+79	9879	gazlashtirmoq	gazlashtiradigan gazlashtirib gazlashtiriladi gazlashtirildi gazlashtirilgan gazlashtirilgani gazlashtirilishi gazlashtirilmagan gazlashtirish gazlashtirishni gazlashtirishning gazlashtiruvchi gazlashtiruvchining gazlashtiruvchisi
+80	9880	sobitqadamlik	sobitqadamligi sobitqadamlikdan sobitqadamlikdir sobitqadamlikka sobitqadamlikni
+81	9881	tromboz	trombozda trombozga trombozi trombozida trombozidan trombozini trombozining trombozlar trombozlarda trombozlarga trombozlari trombozlarni trombozlarning trombozni trombozning trombozu
+82	9882	afyun	afyundan afyundir afyunga afyuni afyunidan afyunining afyunli afyunni afyunning
+83	9883	gerbitsid	gerbitsidini gerbitsidlar gerbitsidlardan gerbitsidlari gerbitsidlarini gerbitsidlarni gerbitsidlarning gerbitsidli gerbitsidlik gerbitsidni
+84	9884	shil	shildir shili shilim shiling shilingdagi shilingdan shilingni shillari shillik
+85	9885	yonuvchan	yonuvchanligi yonuvchanligini yonuvchanlik
+86	9886	chizgʻich	chizgʻichda chizgʻichdan chizgʻichga chizgʻichi chizgʻichini chizgʻichlar chizgʻichlardan chizgʻichlari chizgʻichlarni chizgʻichlarning chizgʻichni chizgʻichning chizgʻichsiz
+87	9887	pingvin	pingvincha pingvini pingvinlar pingvinlarga pingvinlari pingvinlariga pingvinlarimizga pingvinlarini pingvinlarining pingvinlarni pingvinlarning pingvinni pingvinning
+88	9888	steril	sterilli
+89	9889	latish	latishga latishi latishiga latishlar latishlarga latishlarni latishlarning
+90	9890	jilla	
+91	9891	insofsiz	insofsizlar insofsizlarga insofsizning
+92	9892	xabarlashmoq	xabarlash xabarlasha xabarlashadi xabarlashaman xabarlashamiz xabarlasharmiz xabarlashaylik xabarlashayotgan xabarlashdi xabarlashgan xabarlashib xabarlashish xabarlashishga xabarlashishi xabarlashishim xabarlashishingiz xabarlashishlarimiz xabarlashma xabarlashmadim xabarlashmoqchi
+93	9893	xolodilnik	xolodilnikda xolodilnikka xolodilniklar xolodilniklarini xolodilnikni
+94	9894	qazi	qazidan qazidek qaziga qazilar qazilarning qazilik qazing qazini qazining qazisan qazisi qazisidan qazisini
+95	9895	obru	obruga obrulari obruni obrusi obrusiga obrusini obrusining
+96	9896	kurt	kurti kurtlardan kurtlarga kurtlari kurtlarning kurtlik
+97	9897	zuluk	zulugi zulukdan zulukday zulukdek zulukka zuluklar zuluklardan zuluklarni zuluklik zulukni zulukning
+98	9898	harchand	
+99	9899	shaddod	shaddodgina shaddodlar shaddodni shaddodning shaddodsiz
+100	9900	taqdirlashmoq	taqdirlash taqdirlashadi taqdirlashdi taqdirlashdilar taqdirlashdir taqdirlashgan taqdirlashganda taqdirlashgani taqdirlashmoqda

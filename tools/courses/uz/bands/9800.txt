@@ -1,0 +1,100 @@
+1	9701	xonzoda	xonzodadan xonzodalar xonzodalardan xonzodalarga xonzodalaridan xonzodalarni xonzodalarning xonzodamiz xonzodani xonzodaning
+2	9702	shizofreniya	shizofreniyada shizofreniyadan shizofreniyaga shizofreniyani shizofreniyaning
+3	9703	faner	fanerdan fanerlar fanerlari fanerlarni fanerli fanerning
+4	9704	muazzin	muazzinga muazzini muazzinlar muazzinlarga muazzinlarni muazzinlik muazzinni muazzinning
+5	9705	qallob	qallobchilik qallobdir qallobga qallobi qallobini qalloblar qalloblardan qalloblarga qalloblarining qalloblarning qallobni qallobning
+6	9706	nazoratsizlik	nazoratsizligi nazoratsizligining nazoratsizlikdir nazoratsizlikka nazoratsizlikni nazoratsizlikning
+7	9707	koalitsion	
+8	9708	ilgaridan	
+9	9709	qoracha	qorachadan qorachagina qorachalar qoracharoq
+10	9710	oqlik	oqligi oqligida oqligidan oqligiga oqliging oqligini oqlikda oqlikka oqliklar oqliklariga oqlikni
+11	9711	muzeyshunoslik	muzeyshunoslikda muzeyshunoslikka muzeyshunoslikning
+12	9712	gʻudranmoq	gʻudrana gʻudranadi gʻudranar gʻudranardi gʻudrandi gʻudrandim gʻudrangancha gʻudrangani gʻudranib gʻudranishdi gʻudranishgan gʻudranishingiz
+13	9713	salmok	salmogi salmogini salmokli
+14	9714	doʻmboq	doʻmbogʻi doʻmbogʻidir doʻmbogʻiga doʻmbogʻim doʻmbogʻini doʻmbogʻining doʻmboqcha doʻmboqda doʻmboqdan doʻmboqlar doʻmboqlarga doʻmboqlari doʻmboqlaridan doʻmboqlariga doʻmboqlarimga doʻmboqlarining doʻmboqlarni doʻmboqli doʻmboqligi doʻmboqlik doʻmboqni
+15	9715	kishnamoq	kishnab kishnadi kishnadilar kishnagan kishnagancha kishnaganday kishnagandek kishnagani kishnaganini kishnamay kishnamaydi kishnar kishnasa kishnashdan kishnashi kishnashiga kishnashini kishnashlari kishnay kishnayapsan kishnaydi kishnayotgan
+16	9716	oʻkinch	oʻkinchda oʻkinchdan oʻkinchga oʻkinchi oʻkinchim oʻkinchlar oʻkinchlarga oʻkinchlari oʻkinchlarini oʻkinchlarni oʻkinchmi oʻkinchni oʻkinchu
+17	9717	saryogʻ	saryogʻda saryogʻdan saryogʻday saryogʻga saryogʻi saryogʻlarga saryogʻlarni saryogʻli saryogʻni saryogʻning
+18	9718	narkoz	narkozda narkozga narkozi narkozida narkozli narkozni narkozning narkozsiz
+19	9719	chirmamoq	chirmab chirmadi chirmalayotgan chirmaldi chirmalgan chirmanib chirmansang chirmar chirmash chirmay chirmaydi chirmayotganidan
+20	9720	eston	estonlar estonlarda estonlardir estonlarga estonlarni estonlarning
+21	9721	baxillik	baxilligi baxilligidan baxilligingiz baxillikdan baxillikdir baxillikka baxilliklari baxilliklaridan baxillikning
+22	9722	aristokrat	aristokratga aristokratlar aristokratlari aristokratlaridan aristokratlarining aristokratlarning aristokratning
+23	9723	toʻygʻazmoq	toʻygʻaz toʻygʻaza toʻygʻazadi toʻygʻazadigan toʻygʻazaman toʻygʻazasan toʻygʻazaylik toʻygʻazdi toʻygʻazganlar toʻygʻazib toʻygʻazibdi toʻygʻazinglar toʻygʻazish toʻygʻazishadi toʻygʻazishda toʻygʻazishdan toʻygʻazishga toʻygʻazishi toʻygʻazishib toʻygʻazishibdi toʻygʻazishingning toʻygʻazishlarini toʻygʻazishning toʻygʻazmaydi toʻygʻazmoqchi toʻygʻazsin
+24	9724	tavfiq	tavfiqdan tavfiqi tavfiqiga tavfiqim tavfiqingizni tavfiqini tavfiqni
+25	9725	gʻazablantirmoq	gʻazablantiradi gʻazablantiradigan gʻazablantirar gʻazablantirardi gʻazablantirdi gʻazablantirdilar gʻazablantirgan gʻazablantirgani gʻazablantirganini gʻazablantirganligini gʻazablantirib gʻazablantirish gʻazablantirishi gʻazablantirmaydi gʻazablantirmoqda gʻazablantirsa gʻazablantiruvchi gʻazablantiryapti
+26	9726	makkor	makkordir makkorga makkorgina makkorlar makkorlari makkorman makkorning makkorroq makkorroqdir
+27	9727	xayolparast	xayolparastga xayolparastlar xayolparastlardir xayolparastlarga xayolparastlari xayolparastlarning xayolparastmi xayolparastni xayolparastning xayolparastsiz
+28	9728	kibor	kibori kiborlar kiborlardan kiborlarga kiborlari kiborlaridan kiborlarini kiborlarining kiborlarni kiborlarning kiborli kiborlik kiborning kiborsiz
+29	9729	tajribaviy	
+30	9730	maʼsuma	maʼsumalar maʼsumaligi maʼsumaligiga maʼsumaligini maʼsumalik
+31	9731	ajdarho	ajdarhoda ajdarhoday ajdarhodek ajdarhodir ajdarhoga ajdarholar ajdarholarining ajdarholarni ajdarhoni ajdarhoning
+32	9732	qayirmoq	qayira qayiraman qayirdi qayirdilar qayirgan qayirgandan qayirib qayiriladi qayirildi qayirildim qayirilganda qayirilib qayirining qayirish qayirishar qayirishdi qayirishga qayirmang qayirmoqchi qayirmoqda qayirsang qayirtiradi
+33	9733	norvegiyalik	norvegiyaliklar norvegiyaliklarga norvegiyalikni
+34	9734	yepiskop	yepiskopi yepiskopiga yepiskopini yepiskopining yepiskoplar yepiskoplari yepiskoplarni yepiskoplarning yepiskopligi yepiskoplik yepiskoplikdan yepiskopliklari yepiskopning
+35	9735	choʻzinchoq	choʻzinchoqligi choʻzinchoqroq
+36	9736	quramoq	qura quradi quradik quradilar quradimi quralar quralay quralaymi quralgan quralib qurar qurardi qurarkan qurarmiz qurash qurashayotgan qurashda qurashida qurashiga qurashlar qurashlik qurashni quray qurayapman qurayapmiz qurayapsan qurayapti quraylik qurayotgan qurayotganda qurayotgandek qurayotgani qurayotganida qurayotganidan qurayotganiga qurayotganimda qurayotganimiz qurayotganimizda qurayotganimizga qurayotganimni qurayotganingizda qurayotganini qurayotganlar qurayotganlarida qurayotganlariga qurayotganlarini qurayotganlarni qurayotganlarning qurayotganligi qurayotganliklari qurayotibdi qurayotir
+37	9737	qov	qovda qovdan qovga qovgacha qovining qovli qovmi qovu
+38	9738	toʻrgʻay	toʻrgʻaydir toʻrgʻayi toʻrgʻayiday toʻrgʻaylar toʻrgʻaylarga toʻrgʻaylari toʻrgʻaylarni toʻrgʻaymiz toʻrgʻayni toʻrgʻayning toʻrgʻaysiz
+39	9739	sinxronlamoq	sinxronla sinxronlanadi sinxronlanadigan sinxronlangan sinxronlanishi sinxronlanishini sinxronlash sinxronlashadi sinxronlashda sinxronlashdan sinxronlashga sinxronlashgan sinxronlashganligiga sinxronlashi sinxronlashingiz sinxronlashmagan sinxronlashni sinxronlashning sinxronlovchi
+40	9740	chambarak	chambaragi chambaragida chambaragidan chambaragidir chambaragiga chambaragini chambaragining chambarakda chambarakday chambarakka chambaraklar chambaraklari chambarakli chambarakni chambarakning chambaraksiz
+41	9741	defoliatsiya	defoliatsiyasida defoliatsiyasiga defoliatsiyasini defoliatsiyasining
+42	9742	boʻkmoq	boʻk boʻkadi boʻkamiz boʻkarkan boʻkdi boʻkib boʻkish boʻkishdi boʻkishi boʻkkach boʻkkan boʻkkaniga boʻkkudek boʻkkuncha boʻksa boʻksalar boʻktiriladi boʻktirilgan boʻktirilganga boʻktirilganidan boʻktirilishi
+43	9743	vafodorlik	vafodorligi vafodorligida vafodorligiga vafodorligini vafodorligining vafodorlikda vafodorlikka vafodorliklari vafodorlikni
+44	9744	dramatizm	dramatizmga dramatizmi dramatizmini dramatizmining dramatizmni dramatizmsiz
+45	9745	sarkor	sarkori sarkoringizning sarkorlari sarkorning
+46	9746	simpatik	
+47	9747	joʻva	joʻvadagi joʻvadan joʻvaga joʻvali
+48	9748	havol	havoli
+49	9749	qizartirmoq	qizartira qizartiradi qizartiramiz qizartirar qizartirardi qizartirasiz qizartiray qizartirdi qizartirgan qizartirib qizartiriladi qizartirilgan qizartirilib qizartirilishini qizartiring qizartirish qizartirishdi qizartirishi qizartirishiga qizartirmasang qizartirmasdan qizartirmoqchi qizartiruvchi
+50	9750	shivit	shivitdan shivitdek shivitli shivitni
+51	9751	gʻulgʻula	gʻulgʻulaga gʻulgʻulasi
+52	9752	gumonsiramoq	gumonsirab gumonsiradi gumonsiragan gumonsiraganim gumonsiramagan gumonsirar gumonsirasa gumonsirasang gumonsirash gumonsirashadi gumonsirashga gumonsirashi gumonsirashlariga gumonsiratmasdan gumonsiray gumonsirayapman gumonsiraydi gumonsiraydigan gumonsirayotganlar
+53	9753	qandala	qandaladan qandalaga qandalalar qandalalarda qandalalari qandalalarning qandalaning qandalasi qandalasini
+54	9754	siyo	siyoda siyodagi siyom siyosan siyosi
+55	9755	sarchashma	sarchashmadir sarchashmalar sarchashmalarga sarchashmalari sarchashmalarida sarchashmalaridan sarchashmalariga sarchashmalarimiz sarchashmalarini sarchashmasi sarchashmasida sarchashmasidan sarchashmasidek sarchashmasidir sarchashmasiga sarchashmasini sarchashmasining
+56	9756	kayvoni	kayvonichilik kayvonilar kayvonilari kayvonilariga kayvonilarni kayvonilik kayvonining kayvonisi
+57	9757	taqishmoq	taqish taqishadi taqishadigan taqishar taqishardi taqishayotganlari taqishdi taqishdir taqishgan taqishganida taqishib taqishing taqishingiz taqishiz taqishmaydi taqishsa taqishsin taqishtirilgan taqishu
+58	9758	serhasham	serhashamdir
+59	9759	xarxasha	xarxashadan xarxashalar xarxashalardan xarxashalari xarxashalaridan xarxashalariga xarxashalarimga xarxashalarimni xarxashalarini xarxashalariyu xarxashalarsiz xarxashani xarxashasi xarxashasidan xarxashasiga xarxashasini
+60	9760	koʻtargich	koʻtargichdan koʻtargichga koʻtargichi koʻtargichida koʻtargichidan koʻtargichini koʻtargichining koʻtargichlar koʻtargichlarga koʻtargichlari koʻtargichli koʻtargichni koʻtargichning
+61	9761	richag	richagda richagdir richagi richagiga richagini richaglar richaglardan richaglarga richaglari richaglaridan richaglarini richaglarni richagni richagning
+62	9762	yolgʻonchilik	yolgʻonchiligi yolgʻonchiligini yolgʻonchiligining yolgʻonchilikda yolgʻonchilikdan yolgʻonchilikdir yolgʻonchilikka yolgʻonchiliklardan yolgʻonchiliklari yolgʻonchiliklarini yolgʻonchilikni yolgʻonchilikning
+63	9763	mucha	muchaga muchalar muchalarda muchalardan muchalardir muchalarga muchalari muchalaridagi muchalariga muchalarining muchalarni muchalarning muchali mucham muchamiz muchang muchangiz muchani muchaning muchasi muchasidan muchasigacha muchasining
+64	9764	gerdaymoq	gerdayadi gerdayadigan gerdayar gerdayayotgan gerdaydi gerdayding gerdaygan gerdaygancha gerdaygani gerdayganlar gerdayib gerdayish gerdayishiga gerdaysa
+65	9765	yemak	yemagi yemagidan yemagimiz yemaging yemagingizni yemagini yemagining yemakchi yemakdan yemaki yemakka yemaklar yemaklardan yemaklari yemaklarim yemaklarimiz yemaklarni yemakni yemakning yemaksiz
+66	9766	mandarin	mandarindir mandaringa mandarini mandarinlar mandarinlardan mandarinlarning mandarinni mandarinning mandarinsiz
+67	9767	avtobaza	avtobazada avtobazadagi avtobazadan avtobazaga avtobazalar avtobazamga avtobazamiz avtobazani avtobazaning avtobazasiga
+68	9768	shilinmoq	shilinadi shilindi shilingan shilinganda shilingani shilinganiga shilinganini shilinguncha shilinib shilinish shilinishda shilinishi shilinishlarda shilinishlardan shilinishni shilinmagan shilinmay shilinsa
+69	9769	salavot	salavotdan salavoti salavotiga salavotlar salavotlardan salavotlaring salavotlarni salavotni salavotu
+70	9770	qabohat	qabohatdan qabohatdir qabohatga qabohati qabohatini qabohatlar qabohatlardan qabohatlarga qabohatlari qabohatlaridan qabohatlarining qabohatlarni qabohatlarning qabohatni qabohatning
+71	9771	tarbiyali	tarbiyaliga tarbiyaliligi tarbiyalilik tarbiyaliroq
+72	9772	pafos	pafosda pafosdan pafosdir pafosga pafosi pafosida pafosiga pafosini pafosining pafosning
+73	9773	zuhur	zuhurga zuhuri zuhuridan zuhuridir zuhurini zuhurlar zuhurlari zuhurlarini
+74	9774	gujum	gujumcha gujumdan gujumga gujumidir gujumlar gujumlardan gujumning
+75	9775	yotishmoq	yotish yotisha yotishadi yotishadiku yotishar yotishardi yotishdi yotishdilar yotishdir yotishgach yotishgan yotishganda yotishgandek yotishgandir yotishgina yotishib yotishibdi yotishing yotishingiz yotishining yotishmadi yotishmasa yotishmoqchi yotishsa yotishu
+76	9776	tipratikan	tipratikancha tipratikanga tipratikani tipratikanlar tipratikanlardan tipratikanlari tipratikanlarning tipratikanman tipratikanni tipratikanning
+77	9777	ikra	ikrada ikradan ikraga ikralar ikralari ikralarni ikrali ikrani ikraning ikrasi ikrasida ikrasini
+78	9778	piston	pistoncha pistonchi pistondan pistoni pistonini pistonining pistonlar pistonlarga pistonlaringni pistonli pistonni pistonsan
+79	9779	regulyator	regulyatori regulyatoridan regulyatoridir regulyatoriga regulyatorini regulyatorlar regulyatorlardan regulyatorlari regulyatorlarini regulyatorlarning regulyatorlik regulyatorning
+80	9780	karkas	karkasdan karkasga karkasi karkasida karkasidagi karkasidan karkasini karkaslar karkaslardan karkaslari karkaslarini karkaslarni karkasli karkasni karkasning
+81	9781	zirh	zirhdagi zirhga zirhi zirhidagi zirhim zirhingni zirhini zirhining zirhlarni zirhlarning zirhni zirhsiz
+82	9782	qiroatxona	qiroatxonada qiroatxonadan qiroatxonaga qiroatxonalar qiroatxonalarda qiroatxonalari qiroatxonalarni qiroatxonaning qiroatxonasi qiroatxonasida qiroatxonasining
+83	9783	qiziqchilik	qiziqchiligi qiziqchiligiga qiziqchilikka qiziqchiliklar qiziqchilikmi qiziqchilikni
+84	9784	aha	ahami
+85	9785	tarozu	tarozuga tarozular tarozulariga tarozularini tarozuning tarozusi tarozusida tarozusiga tarozusini tarozusining
+86	9786	oftoba	oftobachi oftobada oftobadan oftobaga oftobalarni oftobalarning oftobani oftobasini
+87	9787	sanʼatkorlik	sanʼatkorligi sanʼatkorligidan sanʼatkorligini sanʼatkorlikda sanʼatkorlikdan sanʼatkorlikdir sanʼatkorlikka sanʼatkorlikni sanʼatkorlikning
+88	9788	xantal	xantaldan xantalga xantalli xantalni xantalning
+89	9789	istiora	istioradan istioradir istioraga istioralar istioralardan istioralarga istioralari istioralarini istioralarni istioralarning istiorali istiorami istiorani istioraning istiorasi istiorasiga
+90	9790	jips	jipsroq
+91	9791	karkidon	karkidonda karkidondan karkidonga karkidoni karkidonining karkidonlar karkidonlari karkidonlarni karkidonlarning karkidonlik karkidonning
+92	9792	donorlik	donorligi donorligida donorligiga donorligini donorlikdan donorlikni donorlikning
+93	9793	attang	
+94	9794	gʻar	gʻardek gʻardir gʻarga gʻarlik gʻarlikdan gʻarni gʻarning
+95	9795	bozorlik	bozorligi bozorligini bozorlikda bozorlikka bozorliklar bozorliklarini bozorlikni
+96	9796	gullatmoq	gullata gullatadi gullatadigan gullatayotgan gullatdi gullatgan gullatib gullatish gullatishadi gullatishni gullatmoqchiman gullatmoqda gullatsin
+97	9797	esli	esligina esliligi esliligiga esliman eslimiz esliroq
+98	9798	oʻtroqlashmoq	oʻtroqlasha oʻtroqlashadi oʻtroqlashayotgan oʻtroqlashdi oʻtroqlashdilar oʻtroqlashgan oʻtroqlashganlar oʻtroqlashib oʻtroqlashish oʻtroqlashishi oʻtroqlashmoqda
+99	9799	gidrologiya	gidrologiyasi gidrologiyasida gidrologiyasining
+100	9800	grajdan	grajdancha grajdani grajdaniman grajdanining grajdanlar grajdanlardan grajdanlarga grajdanlari grajdanlaridek grajdanlariga grajdanlarimiz grajdanlarini grajdanlarni grajdanlarning grajdanni

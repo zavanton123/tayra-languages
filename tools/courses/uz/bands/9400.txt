@@ -1,0 +1,100 @@
+1	9301	fakultativ	fakultativga fakultativlar fakultativligiga
+2	9302	bostirma	bostirmada bostirmadagi bostirmadan bostirmaga bostirmalar bostirmalarda bostirmalardan bostirmalarini bostirmali bostirmaning bostirmasi bostirmasiga
+3	9303	blank	blankda blankdagi blanki blankida blankiga blankini blankining blankka blanklar blanklarda blanklardan blanklarga blanklari blanklariga blanklarini blanklarni blankli blankni blankning
+4	9304	yakkalik	yakkaligi yakkaligida yakkaligini yakkalikda yakkalikdan yakkalikka yakkaliklar yakkalikni yakkalikning
+5	9305	tinchliksevarlik	tinchliksevarligi tinchliksevarligidan tinchliksevarligini tinchliksevarlikka tinchliksevarlikni tinchliksevarlikning
+6	9306	xay	xayga xayku xayli
+7	9307	sayohatnoma	sayohatnomada sayohatnomadan sayohatnomaga sayohatnomalar sayohatnomalarda sayohatnomalardagi sayohatnomalari sayohatnomalarida sayohatnomalarini sayohatnomalarni sayohatnomalarning sayohatnomam sayohatnomangiz sayohatnomasi sayohatnomasida sayohatnomasidan sayohatnomasini sayohatnomayu
+8	9308	gʻuj	
+9	9309	yarqiramoq	yarqirab yarqiradi yarqiragan yarqirar yarqirardi yarqirash yarqirashi yarqirashida yarqirashidan yarqirashini yarqirashiyu yarqiraydi yarqiraydigan yarqirayotgan yarqirayotganini yarqirovchi
+10	9310	paragraf	paragrafda paragrafdagi paragrafdan paragrafga paragrafi paragrafida paragrafiga paragrafini paragraflar paragraflarda paragraflardan paragraflarga paragraflari paragraflaridan paragraflariga paragraflarini paragraflarni paragraflarning paragrafni paragrafning
+11	9311	tarsaki	tarsakidan tarsakiday tarsakidek tarsakiga tarsakilar tarsakini tarsakining tarsakisini
+12	9312	voltli	
+13	9313	desert	desertdan desertga deserti desertimiz desertlar desertlarga desertlargacha desertlari desertlarni desertni desertning
+14	9314	klassifikator	klassifikatorda klassifikatorga klassifikatori klassifikatorida klassifikatoriga klassifikatorini klassifikatorining klassifikatorlar klassifikatorlardan klassifikatorlari klassifikatorlariga klassifikatorning
+15	9315	boʻyra	boʻyrachilik boʻyrada boʻyradan boʻyraday boʻyradek boʻyraga boʻyralar boʻyralarga boʻyrani boʻyraning boʻyrasi
+16	9316	xoda	xodada xodadagi xodadan xodaga xodalar xodalardan xodalarga xodalari xodalaridan xodalariga xodalarini xodalarni xodalarning xodam xodani xodaning xodasi xodasini
+17	9317	hayvoniy	hayvoniyligiga hayvoniylik
+18	9318	sabo	saboda saboga sabolar sabolardan sabolari sabolarni saboni sabosi sabosini
+19	9319	tilanchilik	tilanchiligi tilanchilikda tilanchilikdan tilanchilikka tilanchilikni tilanchilikning
+20	9320	sovunlamoq	sovunlab sovunladi sovunlamaslikni sovunlangan sovunlanish sovunlar sovunlasa sovunlash
+21	9321	uzuq	
+22	9322	flamand	flamandcha flamandlar flamandlarning flamandlik
+23	9323	shovinizm	shovinizmdan shovinizmdir shovinizmga shovinizmi shovinizmiga shovinizmini shovinizmining shovinizmni shovinizmning
+24	9324	zarvaraq	zarvaragʻi zarvaragʻida zarvaragʻiga zarvaraqlar zarvaraqlarda zarvaraqlari zarvaraqlarida zarvaraqlaridan zarvaraqlaridek zarvaraqlariga zarvaraqlarini zarvaraqlarining zarvaraqlarni zarvaraqning
+25	9325	noqobil	noqobillari noqobilligi noqobilligida noqobilligini noqobillik noqobillikda noqobillikni noqobilning
+26	9326	sipoh	sipohga sipohi sipohidan sipohiday sipohiga sipohining sipohlar sipohlarga sipohlari sipohlaridan sipohlariga sipohlarimizning sipohlaringiz sipohlarini sipohlarining sipohlarni sipohlarning sipohni sipohning sipohu
+27	9327	dafna	dafnaga
+28	9328	shamshir	shamshirdan shamshirday shamshirga shamshiri shamshiridan shamshiriga shamshirim shamshirimga shamshirimni shamshirini shamshirining shamshirlar shamshirlari shamshirlarida shamshirlarini shamshirlarining shamshirlarning shamshirligi shamshirni shamshirning shamshiru
+29	9329	quroq	quroqchilik quroqlardan quroqning quroqqa
+30	9330	choʻgʻlanmoq	choʻgʻlanar choʻgʻlanayotgandek choʻgʻlandi choʻgʻlangan choʻgʻlanganni choʻgʻlanib choʻgʻlanish choʻgʻlanma choʻgʻlanmaydigan
+31	9331	hovur	hovurdan hovurdek hovuri hovuridan hovurim hovurimdan hovurimizdan hovuring hovuringizdan hovuringizni hovuringning hovurini hovurlar hovurlari hovurli hovurni hovurning
+32	9332	iloyim	
+33	9333	sar	sarda sardagi sarida saridir sariga sarim saring saringiz sarlarda sarlari sarligi
+34	9334	yoʻqchilik	yoʻqchiligi yoʻqchilikda yoʻqchilikdagi yoʻqchilikdan yoʻqchilikka yoʻqchiliklarga yoʻqchilikni
+35	9335	qavariq	qavariqlar qavariqlarning qavariqligi
+36	9336	manifest	manifestda manifestdan manifestga manifesti manifestida manifestidan manifestidek manifestiga manifestimda manifestimizni manifestini manifestining manifestlar manifestlarda manifestlari manifestni manifestning
+37	9337	xumdon	xumdonchi xumdonda xumdonga xumdongacha xumdonida xumdonidan xumdoniga xumdonini xumdonlar xumdonlarda xumdonlardan xumdonlari xumdonlarining xumdonlarning xumdonni
+38	9338	sibir	sibirlik
+39	9339	suzma	suzmadan suzmaga suzmalarni suzmali suzmang suzmani suzmaning suzmasining
+40	9340	barxan	barxani barxaniga barxanlar barxanlarda barxanlardir barxanlari barxanlaridan barxanlariga barxanlarigina barxanlarini barxanlarning barxanli barxanni
+41	9341	picha	
+42	9342	brigadir	brigadirdan brigadiri brigadiriga brigadirimga brigadiringdan brigadirlar brigadirlarga brigadirlari brigadirlarni brigadirlarning brigadirlaru brigadirni brigadirnimi brigadirning
+43	9343	binokor	binokori binokorlar binokorlari binokorlarimiz binokorlarning
+44	9344	islomchi	islomchilar islomchilarda islomchilarga islomchilariga islomchilarini islomchilarni islomchilarning islomchilaru
+45	9345	qiyiq	qiyigʻi qiyigʻini qiyiqday qiyiqlar qiyiqli qiyiqlik qiyiqning qiyiqqa qiyiqroq
+46	9346	mikron	mikrondan mikronga mikrongacha mikronlar mikronlarda mikronli mikronni mikronning
+47	9347	gazmol	gazmolchi gazmoldir gazmolga gazmoli gazmollar gazmollarga gazmollari gazmollarini gazmollarni gazmollarning gazmolni gazmolning
+48	9348	islomiya	islomiyada islomiyaga islomiyani islomiyaning
+49	9349	mashriq	mashrigʻi mashrigʻidan mashriqda mashriqdagi mashriqdan mashriqidan mashriqing mashriqlariga mashriqlarning mashriqliklar mashriqni mashriqqa mashriqqacha mashriqu
+50	9350	neki	nekim
+51	9351	aerodinamik	
+52	9352	astalik	
+53	9353	abad	abadda abadga abadgacha abadi abadu
+54	9354	toʻzgʻimoq	toʻzgʻib toʻzgʻidi toʻzgʻigan toʻzgʻigancha toʻzgʻigani toʻzgʻimay toʻzgʻir toʻzgʻisa toʻzgʻishida toʻzgʻisin toʻzgʻiydi toʻzgʻiydigan
+55	9355	molxona	molxonada molxonadan molxonaga molxonalar molxonalarda molxonalari molxonalariga molxonalarining molxonalarni molxonali molxonamiz molxonani molxonaning molxonasi molxonasida molxonasiga molxonasini molxonasining molxonayu
+56	9356	zirak	ziragi ziragiga ziragigacha ziragimni ziragingizni ziragini zirakdan zirakka ziraklar ziraklari ziraklaridan ziraklarini ziraklarni zirakni zirakning
+57	9357	sog	
+58	9358	oʻziyurar	oʻziyurarlar
+59	9359	soʻzlik	soʻzligi soʻzligida soʻzligidan soʻzligim soʻzligimizga soʻzligini soʻzligining soʻzlikda soʻzlikdan soʻzlikka soʻzliklar soʻzliklaridan soʻzliklarini soʻzliklarni soʻzlikni soʻzlikning
+60	9360	seminariya	seminariyada seminariyadan seminariyaga seminariyalar seminariyalarda seminariyalari seminariyalarida seminariyani seminariyasi seminariyasida seminariyasini
+61	9361	pillapoya	pillapoyada pillapoyadan pillapoyaga pillapoyalar pillapoyalardan pillapoyalari pillapoyalarida pillapoyalaridan pillapoyalariga pillapoyalarini pillapoyalarining pillapoyalarni pillapoyalarning pillapoyali pillapoyani pillapoyaning pillapoyasi pillapoyasida pillapoyasidagi pillapoyasidan pillapoyasidir pillapoyasiga pillapoyasini pillapoyasining
+62	9362	falajlanmoq	falajlana falajlanadi falajlandi falajlangan falajlanganda falajlanganidan falajlanib falajlanish falajlanishga falajlanishi falajlanishidan falajlanishini falajlantiradigan falajlantirdi falajlantirib falajlantirish falajlantirishi falajlantiruvchi
+63	9363	rozetka	rozetkada rozetkadan rozetkaga rozetkalar rozetkalarda rozetkalardan rozetkalarga rozetkalari rozetkalariga rozetkalarini rozetkalarni rozetkalarning rozetkani rozetkaning rozetkasi rozetkasida rozetkasidan rozetkasiga rozetkasini
+64	9364	haqsiz	haqsizlar
+65	9365	begʻuborlik	begʻuborligi begʻuborligidan begʻuborligiga begʻuborligimi begʻuborligimizni begʻuborligini begʻuborlikdagi begʻuborlikdir begʻuborlikka begʻuborliklarini begʻuborlikni begʻuborlikning
+66	9366	alif	alifday alifdek alifga alifini alifni alifning alifsiz
+67	9367	veterinar	veterinari veterinarlar veterinarlarga veterinarlari veterinarlariga veterinarlarning
+68	9368	chiyaboʻri	chiyaboʻriga chiyaboʻrilar chiyaboʻrilarda chiyaboʻrilarga chiyaboʻrilarni chiyaboʻrilarning chiyaboʻrini
+69	9369	kengashmoq	kengasha kengashaman kengashchi kengashdi kengashdilar kengashgan kengashgani kengashgin kengashib kengashing kengashingiz kengashinglar kengashining kengashish kengashishayotganida kengashishga kengashishi kengashishni kengashmay kengashmi kengashmoqchi kengashmoqda kengashsa kengashsin kengashtirish kengashu
+70	9370	xoʻrlamoq	xoʻrlab xoʻrlabdi xoʻrladi xoʻrladik xoʻrlagan xoʻrlagani xoʻrlaganlar xoʻrlaganlikda xoʻrlamasligi xoʻrlamaydi xoʻrlamaysiz xoʻrlamoqda xoʻrlar xoʻrlasa xoʻrlasalar xoʻrlash xoʻrlashdan xoʻrlashga xoʻrlashi xoʻrlashiga xoʻrlashlar xoʻrlashlarga xoʻrlashlari xoʻrlashlariga xoʻrlashni xoʻrlashning xoʻrlashu xoʻrlayapsan xoʻrlayaptilar xoʻrlaydi xoʻrlaydigan xoʻrlaydilar xoʻrlayotgan xoʻrlayotganida xoʻrlovchi xoʻrlovchilar
+71	9371	indoneziyalik	indoneziyaliklar indoneziyaliklarga indoneziyaliklarning
+72	9372	tipirchilamoq	tipirchilab tipirchiladi tipirchilagancha tipirchilaganda tipirchilamoqda tipirchilar tipirchilardi tipirchilarkan tipirchilashi tipirchilashidan tipirchilashini tipirchilashlariga tipirchilashlarini tipirchilay tipirchilayapti tipirchilaydi tipirchilayotgan tipirchilaysiz
+73	9373	vanadiy	vanadiyli vanadiyni vanadiyning
+74	9374	kitobiy	kitobiylarga kitobiylik kitobiylikdan kitobiylikka
+75	9375	akustika	akustikada akustikaga akustikani akustikaning akustikasi akustikasida
+76	9376	uqalashmoq	uqalash
+77	9377	razil	razilga razillar razillarga razillargina razilning razilroq
+78	9378	intiqom	intiqomga intiqomi intiqomimizni intiqomingni intiqomini intiqomlari intiqomsiz
+79	9379	isiriq	isiriqdan isiriqlarning isiriqli isiriqni isiriqning isiriqqa
+80	9380	oshiqlik	oshiqligi oshiqligidan oshiqligidir oshiqligimni oshiqliging oshiqligingiz oshiqligini oshiqlikda oshiqlikdan oshiqlikka oshiqliklari oshiqlikni oshiqlikning
+81	9381	gidroliz	gidrolizdan gidrolizga gidrolizi gidrolizida gidrolizidan gidrolizini gidrolizining gidrolizlar gidrolizlari gidrolizni gidrolizning gidrolizsiz
+82	9382	annotatsiya	annotatsiyada annotatsiyalar annotatsiyalari annotatsiyalarini annotatsiyalarining annotatsiyali annotatsiyani annotatsiyaning annotatsiyasi annotatsiyasida
+83	9383	duduqlanmoq	duduqlana duduqlanadigan duduqlanayotgan duduqlandim duduqlangan duduqlanganday duduqlanganini duduqlanganlar duduqlanib duduqlanish duduqlanishda duduqlanishdan duduqlanishdir duduqlanishga duduqlanishi duduqlanishiga duduqlanishni duduqlanishning duduqlanmagan duduqlanmasligiga duduqlansa duduqlantiradi duduqlanuvchilarning
+84	9384	toʻldirilmoq	toʻldirilmogʻi toʻldirilmoqda
+85	9385	mergel	mergeldan mergellar mergellardan mergellari mergellaridan mergellarning
+86	9386	qultum	qultumdan qultumgina qultumi qultumini qultumlar qultumlardan
+87	9387	haydashmoq	haydash haydashadi haydashar haydashardi haydashayotganini haydashdi haydashdimi haydashdir haydashgach haydashgan haydashganda haydashgani haydashganidan haydashganini haydashib haydashibdi haydashingiz haydashmaydi haydashmi haydashmoqchi haydashmoqda haydashsa haydashyapti
+88	9388	paykal	paykalda paykaldagi paykaldan paykalga paykali paykalida paykaliga paykalini paykalining paykallar paykallarda paykallardagi paykallardan paykallarga paykallari paykallarida paykallariga paykallarni paykalni paykalning
+89	9389	tirmashmoq	tirmasha tirmashadi tirmashar tirmashardi tirmashayotgan tirmashdi tirmashgan tirmashib tirmashish tirmashishga tirmashishi tirmashishni tirmashmagan tirmashmasin tirmashmoqda tirmashsa tirmashyapti
+90	9390	embriologiya	embriologiyada embriologiyadan embriologiyadir embriologiyaga embriologiyani embriologiyaning embriologiyasi embriologiyasida embriologiyasidir embriologiyasiga embriologiyasining
+91	9391	akslanmoq	akslanadi akslanar akslanardi akslanayotgan akslanayotganini akslandi akslangan akslangani akslanib akslanishdan akslanishi akslanishidir akslanishini akslanmagan akslanmasligi akslanmaydi akslantiradi akslantiradigan akslantirar akslantirgan akslantirgani akslantirib akslantiriladi akslantirilgan akslantirilishi akslantirilishidir akslantirish akslantirishda akslantirishdan akslantirishga akslantirishi akslantirishlar akslantirishlari akslantirishni akslantirmaydi akslantirmaydigan akslantirsa akslantiruvchi
+92	9392	paranji	paranjida paranjidan paranjiga paranjilar paranjilarida paranjilaridan paranjilarimizni paranjilarni paranjingga paranjini paranjining paranjisi paranjisiga paranjisini
+93	9393	bexabarlik	bexabarligi bexabarligidan bexabarligiga bexabarligim bexabarligimda bexabarligimizdan bexabarligini bexabarlikda bexabarlikdan bexabarlikka bexabarliklari bexabarliklaridir bexabarliklarini bexabarlikni bexabarlikning
+94	9394	doklad	dokladda dokladdan dokladga dokladi dokladida dokladidan dokladiga dokladimga dokladimizda dokladini dokladining dokladlar dokladlari dokladlarida dokladlarim dokladlaringiz dokladlarini dokladlarni dokladni dokladning
+95	9395	part	parti partidan partiga partimiz partisan partiyu partlarda
+96	9396	monopolist	monopolistga monopolisti monopolistlar monopolistlardan monopolistlarga monopolistlari monopolistlarining monopolistlarning monopolistlik
+97	9397	fotografik	
+98	9398	yirtiq	yirtigʻi yirtigʻidan yirtigʻiday yirtigʻiga yirtigʻimi yirtigʻingga yirtigʻini yirtiqlari yirtiqlarni yirtiqli yirtiqlikni yirtiqqa yirtiqsiz
+99	9399	marten	
+100	9400	yumronqoziq	yumronqozigʻi yumronqoziqlar yumronqoziqlarda yumronqoziqni yumronqoziqning yumronqoziqqa

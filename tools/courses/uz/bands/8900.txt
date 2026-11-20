@@ -1,0 +1,100 @@
+1	8801	karbid	karbiddan karbidga karbidi karbidining karbidlar karbidlari karbidlarini karbidlarni karbidlarning karbidli karbidni karbidning
+2	8802	xontaxta	xontaxtachi xontaxtada xontaxtadagi xontaxtadan xontaxtaga xontaxtalar xontaxtalardagi xontaxtalarga xontaxtalarini xontaxtamning xontaxtani xontaxtaning xontaxtasi xontaxtasida
+3	8803	navoiy	navoiylik navoiyliklar
+4	8804	litrli	litrlisini
+5	8805	yelpimoq	yelpi yelpib yelpidi yelpigina yelpiladi yelpina yelpindi yelpindilar yelpingan yelpinib yelpinsa yelpish yelpishyapti yelpiydilar yelpiyotib
+6	8806	omoch	omochda omochdan omochga omochgacha omochiga omoching omochini omochlar omochlarning omochni omochning
+7	8807	pirotexnika	pirotexnikada pirotexnikadan pirotexnikaning
+8	8808	majoz	majozdan majozga majozi majozidir majozini majozining majozlar majozlarda majozlardan majozlarga majozlari majozlarni majozlarning majozli majozni majozu
+9	8809	oborot	oborotdagi oborotdan oborotga oboroti oborotida oborotidagi oborotidan oborotiga oborotini oborotining oborotlar oborotlarga oborotlari oborotlarini oborotlarining oborotlarni oborotlarning oborotni oborotning
+10	8810	qalinlashmoq	qalinlash qalinlasha qalinlashadi qalinlashayotgan qalinlashdi qalinlashdilar qalinlashgan qalinlashgandek qalinlashgani qalinlashganini qalinlashganligi qalinlashib qalinlashish qalinlashishi qalinlashishida qalinlashishiga qalinlashmaydi qalinlashtiriladi qalinlashtirilib
+11	8811	toldirmoq	toldir toldira toldiradi toldiradigan toldiraman toldirar toldirardi toldirdi toldirgan toldirib toldiriladigan toldirilgan toldiring toldirish toldirishi toldirishimiz toldirma toldirmaysan toldirsa toldirsin toldiruvchi toldiryaptimi
+12	8812	him	himdan himdir himlaridan
+13	8813	qirmizi	qirmiziga
+14	8814	kanizak	kanizagi kanizagiga kanizagini kanizaklar kanizaklardan kanizaklarga kanizaklari kanizaklaridan kanizaklarimni kanizaklarini kanizaklarni kanizaklarning kanizaklik kanizaklikdan kanizaklikka kanizakni kanizakning
+15	8815	ayyorlik	ayyorligi ayyorligini ayyorlikda ayyorlikdan ayyorlikdir ayyorlikka ayyorliklari ayyorlikni
+16	8816	boʻgʻiq	boʻgʻiqmi boʻgʻiqroq
+17	8817	porox	poroxga poroxlarning poroxli poroxni poroxning
+18	8818	ters	tersi tersiga tersimga tersimiz tersini terslar tersroq tersu
+19	8819	ishonuvchan	ishonuvchanlar ishonuvchanlarning ishonuvchanman ishonuvchanmiz ishonuvchansan ishonuvchansiz
+20	8820	nomaʼqul	nomaʼquldir nomaʼqulligi nomaʼqulni
+21	8821	shartsiz	
+22	8822	kulimsiramoq	kulimsirab kulimsiradi kulimsiradilar kulimsiradim kulimsiragan kulimsiragancha kulimsiragani kulimsiraganlari kulimsirar kulimsirarkan kulimsirash kulimsirashga kulimsirashi kulimsirashib kulimsirashlar kulimsirashlarida kulimsiratgan kulimsiraydi
+23	8823	sharcha	sharchadan sharchaga sharchalar sharchalardagi sharchalardan sharchalarga sharchalari sharchalarni sharchalarning sharchali sharchani sharchaning sharchasi sharchasidan sharchasiga
+24	8824	hazar	hazarlar
+25	8825	raʼy	raʼyga raʼyi raʼyidan raʼyiga raʼyim raʼyimga raʼyimiz raʼyimizdan raʼyimizga raʼyimizni raʼyimni raʼyingga raʼyingizga raʼyingizni raʼyini raʼyisiz raʼylari raʼylariga raʼylarimizga raʼylarini raʼyni raʼyning
+26	8826	tuyuq	tuyugʻi tuyuqda tuyuqdan tuyuqlar tuyuqlarda tuyuqlardan tuyuqlari tuyuqlarida tuyuqlaridan tuyuqlarini tuyuqlarni tuyuqning
+27	8827	naridan	
+28	8828	mayatnik	mayatnigi mayatnigini mayatnigining mayatnikda mayatnikka mayatniklar mayatnikli mayatnikni mayatnikning
+29	8829	xalat	xalatda xalatdagi xalatdan xalatga xalati xalatida xalatidagi xalatiga xalatimiz xalatimizga xalatimni xalatimning xalatingning xalatini xalatining xalatlar xalatlarda xalatlardagi xalatlari xalatlarini xalatlarni xalatni xalatning
+30	8830	repetitsiya	repetitsiyada repetitsiyadan repetitsiyaga repetitsiyalar repetitsiyalarda repetitsiyalarga repetitsiyalari repetitsiyalariga repetitsiyalarni repetitsiyani repetitsiyasi repetitsiyasiga
+31	8831	sekta	sektaga sektalar sektalardan sektalarga sektalari sektalaridan sektalarining sektalarni sektalarning sektaning sektasi sektasiga sektasini sektasining
+32	8832	tebranma	tebranmalarga
+33	8833	kupe	kupeda kupedagi kupega kupelar kupelarda kupelarida kupelariga kupelarini kupelarni kupelarning kupemga kupeni kupening kupesi kupesida kupesidan kupesiga kupesigacha kupesini kupesining
+34	8834	magar	
+35	8835	gipnoz	gipnozchi gipnozda gipnozdan gipnozga gipnozgina gipnozi gipnozimi
+36	8836	raf	rafga rafi rafida rafidagi rafidan rafiga rafining raflar raflardagi raflari rafli raflik rafni rafning
+37	8837	qonmoq	qona qonadi qonaman qonar qonarman qonayotgan qonayotgani qonayotganini qonayotganining qonayotganligi qondi qondim qondimi qondingizmi qondirila qondiriladi qondiriladigan qondirilar qondirilardi qondirilayotgani qondirilayotganini qondirilayotganligiga qondirilayotir qondirildi qondirilgach qondirilgan qondirilganda qondirilgandan qondirilgani qondirilganida qondirilganidan qondirilganligi qondirilganlik qondirilib qondirilishga qondirilishi qondirilishida qondirilishidan qondirilishiga qondirilishini qondirilishining qondirilmadi qondirilmagach qondirilmagan qondirilmagani qondirilmaganiga qondirilmaganini qondirilmaganlar qondirilmaganligi qondirilmaguncha qondirilmasa qondirilmasligi qondirilmasligini qondirilmay qondirilmayapti qondirilmaydi qondirilmayotgani qondirilmayotganini qondirilmoqda qondirilsa qondirilsin qondirilyapti qongach qongan qongani qonganini qonganlaridan qonguncha qonib qonibdi qonilar qonin qoning qoningiz qonining qoninish qonish qonishi qonishib qonishiga qonishlar qonmabdi qonmadi qonmagan qonmaganimga qonmaguncha qonmasa qonmasligini qonmay qonmaydi qonsa qonsang qonsin qonsinlar qonu
+38	8838	joʻyali	joʻyalidir joʻyaliku joʻyaliligi joʻyaliroq
+39	8839	yiringlamoq	yiringla yiringlab yiringlagan yiringlaganda yiringlamabdi yiringlamagan yiringlamaydi yiringlanib yiringlanish yiringlanishi yiringlar yiringlasa yiringlash yiringlashda yiringlashdan yiringlashgan yiringlashi yiringlashib yiringlashiga yiringlashni yiringlashning yiringlatuvchi yiringlay yiringlaydi yiringlovchi
+40	8840	toʻshama	toʻshamada toʻshamadagi toʻshamadan toʻshamaga toʻshamalar toʻshamalarda toʻshamalarga toʻshamalari toʻshamalarni toʻshamali toʻshamani toʻshamaning toʻshamasi toʻshamasida toʻshamasidan toʻshamasini toʻshamasining toʻshamasiz
+41	8841	araq	aragʻi aragʻiga aragʻini aragʻining araqdan araqi araqlar araqlarga araqlarni araqmi araqni araqning araqqa araqqacha
+42	8842	kultivatsiya	kultivatsiyaga kultivatsiyasi kultivatsiyasidan
+43	8843	ixchamlashtirmoq	ixchamlashtiradigan ixchamlashtirgan ixchamlashtirib ixchamlashtirildi ixchamlashtirilgan ixchamlashtirilib ixchamlashtirish ixchamlashtirishga ixchamlashtirishimiz ixchamlashtirishni ixchamlashtirishning ixchamlashtirmoqchi
+44	8844	lutfan	
+45	8845	zulf	zulfdan zulfga zulfi zulfidan zulfiga zulfing zulfingdan zulfingizni zulfingni zulfini zulfining zulflari zulflarini zulflariyu zulfni zulfning
+46	8846	pauza	pauzada pauzadagi pauzadan pauzaga pauzalar pauzalardan pauzalarga pauzalari pauzalarida pauzalarni pauzalarning pauzani pauzaning pauzasi pauzasidagi pauzasiz
+47	8847	puxtalik	puxtaligi puxtaligida puxtaligiga puxtaligini puxtalikka puxtalikni
+48	8848	dublikat	dublikatga dublikati dublikatida dublikatini dublikatlar dublikatlari dublikatlarini dublikatlarni dublikatlarning dublikatni dublikatning
+49	8849	muxlislik	muxlisligi muxlisligim muxlisliklari muxlislikni muxlislikning
+50	8850	koʻphad	koʻphaddan koʻphadga koʻphadi koʻphadida koʻphadining koʻphadlar koʻphadlarda koʻphadlardan koʻphadlarga koʻphadlari koʻphadlarining koʻphadlarni koʻphadlarning koʻphadli koʻphadni koʻphadning
+51	8851	gimn	gimnda gimndan gimnga gimni gimnida gimnidagi gimniga gimnini gimnining gimnlar gimnlari gimnlarida gimnlarni gimnni
+52	8852	problema	problemalar problemalari problemalariga problemalarni problemali problemam problemani problemasi problemasidan problemasiyu
+53	8853	irmok	irmogi irmoklar irmoklari irmoklarida irmoklaridan irmoklarining
+54	8854	shingil	shingilda shingildan shingilga shingili shingiliday shingiliga shingilini shingillardan shingillari
+55	8855	sadaf	sadafda sadafdan sadafday sadafdek sadafga sadafi sadafining sadaflari sadafli sadafliklar sadafni
+56	8856	oʻrindoshlik	oʻrindoshlikda oʻrindoshlikni
+57	8857	farosatli	farosatlidir farosatligina farosatlilarning farosatliligi farosatlilik farosatliman farosatliroq farosatlisiz
+58	8858	ottirmoq	ottira ottiradi ottiraman ottiramiz ottirardi ottirayotgan ottirdi ottirdik ottirdim ottirgach ottirgan ottirganlarini ottirganman ottirib ottirilgan ottirish ottirishadi ottirishar ottirishardi ottirishdi ottirishga ottirishgan ottirishni ottirishning ottirma ottirmaydi ottirmoqchi ottirsa ottirsam ottiruvchidir
+59	8859	ajoyibot	ajoyibotdir ajoyibotga ajoyiboti ajoyibotidan ajoyibotlar ajoyibotlardan ajoyibotlarga ajoyibotlari ajoyibotlaridan ajoyibotlariga ajoyibotlarini ajoyibotlarining ajoyibotlariyu ajoyibotlarni ajoyibotlarning ajoyibotni
+60	8860	rama	ramadan ramaga ramalar ramalarga ramalari ramalarni ramalarning ramang ramani ramasi ramasiga ramasini ramasining
+61	8861	yamoq	yamogʻi yamogʻida yamogʻingni yamogʻini yamoqchi yamoqday yamoqdek yamoqlar yamoqlariga yamoqlarni yamoqlarsiz yamoqli yamoqni yamoqning yamoqsiz
+62	8862	mardlarcha	
+63	8863	kosacha	kosachada kosachadan kosachaga kosachalar kosachalardan kosachalarga kosachalari kosachalariga kosachalarini kosachalarining kosachalarni kosachalarning kosachali kosachani kosachaning kosachasi kosachasidan kosachasiga kosachasining
+64	8864	podagra	podagrada podagradan podagraga podagrali podagrani podagraning podagrasi podagrasida podagrasidagi
+65	8865	dog	dogda dogdan dogga dogim doglar doglari doglarni doglarning dogni dogning
+66	8866	kultivator	kultivatordan kultivatori kultivatorlar kultivatorlardan kultivatorlarga kultivatorlarini kultivatorlarni kultivatorlarning kultivatorning
+67	8867	birvarakayiga	
+68	8868	oriq	origʻidan oriqcha oriqdan oriqlar oriqlari oriqligi oriqlik oriqlikda oriqlikdan oriqlikka oriqmi oriqni oriqning oriqroq oriqsiz
+69	8869	atribut	atributga atributi atributida atributidan atributidir atributiga atributini atributlar atributlardan atributlarga atributlari atributlarida atributlaridan atributlariga atributlarini atributlarining atributlarni atributlarning atributli atributning
+70	8870	juzʼiy	juzʼiygina juzʼiylikdan juzʼiyning
+71	8871	qorishtirmoq	qorishtira qorishtiradi qorishtiradigan qorishtiraman qorishtiramiz qorishtirasiz qorishtirayotgan qorishtirayotganini qorishtirdi qorishtirgan qorishtirganda qorishtirgandek qorishtirib qorishtiriladi qorishtiriladigan qorishtirilgan qorishtirilgani qorishtirilib qorishtirilishi qorishtirilsa qorishtiring qorishtirish qorishtirishda qorishtirishga qorishtirishi qorishtirishlik qorishtirishning qorishtirma qorishtirmang qorishtirmasligi qorishtirmaslik qorishtirsangiz qorishtirsinlar qorishtiruvchi
+72	8872	chimli	
+73	8873	yopinchiq	yopinchigʻi yopinchigʻiga yopinchigʻim yopinchigʻimning yopinchigʻing yopinchigʻingizdan yopinchigʻingni yopinchigʻini yopinchiqda yopinchiqdan yopinchiqday yopinchiqdir yopinchiqlar yopinchiqlarda yopinchiqlari yopinchiqlarida yopinchiqlaridan yopinchiqlariga yopinchiqlarini yopinchiqlarni yopinchiqlarning yopinchiqni yopinchiqqa
+74	8874	bop	bopda
+75	8875	qumloq	qumlogʻi qumloqda qumloqdagi qumloqdan qumloqlar qumloqlarda qumloqlarga qumloqlari qumloqli qumloqni qumloqqa
+76	8876	adaptatsiya	adaptatsiyadir adaptatsiyaga adaptatsiyalar adaptatsiyalarning adaptatsiyaning adaptatsiyasi adaptatsiyasiga adaptatsiyasini
+77	8877	algʻov	algʻovli
+78	8878	tentiramoq	tentirab tentiradi tentiradim tentiragan tentiragancha tentiragani tentiramay tentiramoqdalar tentiranib tentirar tentirardi tentirash tentirashdan tentirashga tentirashlar tentiray tentiraydi tentiraydigan tentiraydilar tentiraydimi tentirayman tentirayotgan
+79	8879	desant	desantchi desanti desantini desantlar desantlari desantlarini desantlarni desantni
+80	8880	yigiruv	yigiruvning
+81	8881	glitserin	glitserinda glitserindan glitseringa glitserinlar glitserinlarga glitserinli glitserinni glitserinning
+82	8882	toʻlqinsimon	toʻlqinsimonligi
+83	8883	alifbe	alifbedan alifbegacha alifbelarni alifbeli alifbemiz alifbeni alifbening alifbesi alifbesida alifbesidan alifbesidir alifbesiga alifbesining alifbesiz
+84	8884	bexosdan	
+85	8885	toz	tozda tozdagi tozi tozidan toziday toziga tozim tozini tozining tozlar tozlarga tozlarim tozli tozning tozu
+86	8886	tajovuzkorlik	tajovuzkorligi tajovuzkorligiga tajovuzkorligimiz tajovuzkorligini tajovuzkorlikda tajovuzkorlikdan tajovuzkorlikdir tajovuzkorlikka tajovuzkorliklar tajovuzkorliklarini tajovuzkorliklarining tajovuzkorlikni tajovuzkorlikning tajovuzkorliksiz
+87	8887	tutatmoq	tutata tutatadi tutatadigan tutataman tutatar tutatarkan tutatayotgan tutatayotib tutatdi tutatdik tutatdilar tutatdim tutatgan tutatgancha tutatganda tutatgani tutatib tutatibdi tutatiladi tutatiladigan tutatildi tutatilgan tutatilganda tutatilgandan tutatilib tutatilishini tutatilmoqda tutatish tutatishadi tutatishda tutatishdi tutatishga tutatishiga tutatishlar tutatishlari tutatishni tutatmoqchi tutatsa tutatsang tutatsangiz tutattirib
+88	8888	silkimoq	silkib silkidi silkidim silkigach silkigan silkigancha silkiganday silkiganini silkiganlar silkiladi silkilay silkilayotib silkimay silkish silkishi silkishmi silkishni silkitiladi silkitildi silkitilishi silkitilmaydi silkitilsa silkitilsin silkiy silkiyapti silkiydi silkiydigan silkiyman silkiyotgan silkiysiz
+89	8889	tuzuvchi	tuzuvchidan tuzuvchiga tuzuvchilar tuzuvchilarda tuzuvchilardan tuzuvchilarga tuzuvchilari tuzuvchilaridan tuzuvchilaridir tuzuvchilarni tuzuvchilarning tuzuvchilik tuzuvchining tuzuvchisi tuzuvchisiga tuzuvchisini tuzuvchisiz
+90	8890	qaytmas	qaytmasdan qaytmasidir qaytmasim qaytmaslar qaytmasligi qaytmasligidan qaytmasligiga qaytmasligini qaytmasligining qaytmaslik qaytmaslikda qaytmaslikka qaytmasliklari qaytmaslikni qaytmasman
+91	8891	mixlanmoq	mixlanadi mixlandi mixlandim mixlangan mixlanganday mixlangandek mixlanganimizda mixlanganman mixlanib mixlanish mixlanishi mixlanishiga mixlanmasin mixlansa
+92	8892	xayriyatki	
+93	8893	superfosfat	superfosfatda superfosfatdan superfosfatga superfosfatli superfosfatni superfosfatning
+94	8894	kasofat	kasofatdan kasofatdir kasofatga kasofati kasofatida kasofatidan kasofatiga kasofatimga kasofating kasofatingga kasofatining kasofatlar kasofatlarni kasofatni
+95	8895	boʻgʻiz	boʻgʻizda boʻgʻizdagi boʻgʻizdan boʻgʻizga boʻgʻizi boʻgʻizida boʻgʻizidan boʻgʻiziga boʻgʻizim boʻgʻizingni boʻgʻizini boʻgʻizlar boʻgʻizlarda boʻgʻizlarga boʻgʻizlari boʻgʻizlarida boʻgʻizlaridan boʻgʻizlariga boʻgʻizlarini boʻgʻizlarining boʻgʻizli boʻgʻizni
+96	8896	muljallanmoq	muljallanadi muljallanayotgan muljallandi muljallangan muljallaniladi
+97	8897	ushshoq	ushshogʻi ushshoqi ushshoqlari ushshoqlarimiz
+98	8898	pansionat	pansionatda pansionatdagi pansionatga pansionati pansionatida pansionatidan pansionatiga pansionatimizning pansionatining pansionatlar pansionatlarda pansionatlardan pansionatlarga pansionatlari pansionatlarida pansionatlariga pansionatlarini pansionatlarining pansionatlarni pansionatlarning pansionatni pansionatning
+99	8899	neylon	neylondan neylonli
+100	8900	qutqu	qutquga qutqular qutqularga qutqulari qutqularidan qutqulariga qutquli qutqumi qutquni qutqusi qutqusida qutqusidan qutqusiga qutqusini qutquyu
