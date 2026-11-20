@@ -17,6 +17,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     // Language names, shown through tr(name).
     "Afrikaans" to "南非荷兰语",
     "Albanian" to "阿尔巴尼亚语",
+    "Amharic" to "阿姆哈拉语",
     "Ancient Greek" to "古希腊语",
     "Arabic" to "阿拉伯语",
     "Armenian" to "亚美尼亚语",

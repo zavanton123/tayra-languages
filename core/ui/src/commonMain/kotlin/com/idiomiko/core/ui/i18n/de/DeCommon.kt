@@ -17,6 +17,7 @@ internal val deCommon: Map<String, String> = mapOf(
     // Language names, shown through tr(name).
     "Afrikaans" to "Afrikaans",
     "Albanian" to "Albanisch",
+    "Amharic" to "Amharisch",
     "Ancient Greek" to "Altgriechisch",
     "Arabic" to "Arabisch",
     "Armenian" to "Armenisch",

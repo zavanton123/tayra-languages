@@ -17,6 +17,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     // Language names, shown through tr(name).
     "Afrikaans" to "Africâner",
     "Albanian" to "Albanês",
+    "Amharic" to "Amárico",
     "Ancient Greek" to "Grego antigo",
     "Arabic" to "Árabe",
     "Armenian" to "Armênio",

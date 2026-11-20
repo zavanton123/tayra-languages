@@ -17,6 +17,7 @@ internal val esCommon: Map<String, String> = mapOf(
     // Language names, shown through tr(name).
     "Afrikaans" to "Afrikáans",
     "Albanian" to "Albanés",
+    "Amharic" to "Amárico",
     "Ancient Greek" to "Griego antiguo",
     "Arabic" to "Árabe",
     "Armenian" to "Armenio",

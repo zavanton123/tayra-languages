@@ -17,6 +17,7 @@ internal val elCommon: Map<String, String> = mapOf(
     // Language names, shown through tr(name).
     "Afrikaans" to "Αφρικάανς",
     "Albanian" to "Αλβανικά",
+    "Amharic" to "Αμχαρικά",
     "Ancient Greek" to "Αρχαία ελληνικά",
     "Arabic" to "Αραβικά",
     "Armenian" to "Αρμενικά",

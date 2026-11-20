@@ -17,6 +17,7 @@ internal val plCommon: Map<String, String> = mapOf(
     // Language names, shown through tr(name).
     "Afrikaans" to "Afrikaans",
     "Albanian" to "Albański",
+    "Amharic" to "Amharski",
     "Ancient Greek" to "Starogrecki",
     "Arabic" to "Arabski",
     "Armenian" to "Ormiański",
