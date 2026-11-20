@@ -80,7 +80,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha", "mr", "am",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha", "mr", "am", "uz",
     "si",
     "zu",
     "so",
@@ -279,6 +279,13 @@ SOURCE_WEIGHTS["ps"] = {"leipzig": 0.8, "wikipedia_sentences": 0.2}
 # news and its Wikipedia's sentences (frequency_marathi, which weighs them).
 SOURCE_ORDER["mr"] = ["leipzig", "wikipedia_sentences"]
 BLEND.add("mr")
+# Uzbek has neither wordfreq nor FrequencyWords, and OPUS's subtitles are a few hundred lines: it is counted from CC-100's web
+# text (46 million words), Leipzig's news (800,000 words in the Latin alphabet) and, at a tenth, Leipzig's Wikipedia sentences,
+# each read as the reader reads them (frequency_uzbek).
+SOURCE_ORDER["uz"] = ["uzbek_web", "uzbek_news", "uzbek_wikipedia"]
+BLEND.add("uz")
+SOURCE_WEIGHTS["uz"] = {"uzbek_web": 0.6, "uzbek_news": 0.3, "uzbek_wikipedia": 0.1}
+SOURCE_FORMS["uz"] = 2_000_000
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -307,6 +314,9 @@ SOURCE_LICENCES = {
     "everyday_mixed": "CC0 1.0",
     "opensubtitles": "terms at https://opus.nlpl.eu/OpenSubtitles/corpus/version/OpenSubtitles",
     "subtitles": "OpenSubtitles via OPUS",
+    "uzbek_news": "terms at https://wortschatz.uni-leipzig.de/en/download",
+    "uzbek_wikipedia": "terms at https://wortschatz.uni-leipzig.de/en/download",
+    "uzbek_web": "CC-100, Common Crawl terms of use",
 }
 # A source's licence where a language takes only some of it: Armenian's everyday sentences are Tatoeba's alone.
 SOURCE_LICENCES[("hy", "everyday")] = "Tatoeba CC BY 2.0 FR"
@@ -335,6 +345,10 @@ import frequency_mongolian  # noqa: E402
 import frequency_lao  # noqa: E402
 import frequency_km  # noqa: E402
 import frequency_kazakh  # noqa: E402
+import frequency_uzbek  # noqa: E402
+
+OVERRIDES["uz"] = frequency_uzbek.OVERRIDES
+EXCLUDE["uz"] = frequency_uzbek.EXCLUDE
 
 OVERRIDES["fa"] = frequency_persian.PERSIAN_OVERRIDES
 EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
@@ -381,6 +395,8 @@ FORMS_PER_WORD = 40
 FORMS_PER_WORD_OF = {"cy": 120, "fa": 150, "mn": 150, "eu": 1000}
 # A Kazakh word's endings stack as a Mongolian one's do (кітаптарымызда, айтылмаған).
 FORMS_PER_WORD_OF["kk"] = 150
+# And an Uzbek one's (kitoblarimizda, borganimizni).
+FORMS_PER_WORD_OF["uz"] = 150
 
 
 # Languages whose words are written in Chinese characters or kana.
@@ -3154,6 +3170,8 @@ def normalise(language, form):
         return frequency_kazakh.normalise(form)
     if language == "af":
         return frequency_afrikaans.normalised(form)
+    if language == "uz":
+        return frequency_uzbek.normalise(form)
     return form
 
 
@@ -3894,12 +3912,38 @@ def azerbaijani_subtitle_counts(language, limit):
     return dict(top), "OPUS OpenSubtitles v2024 az"
 
 
+def uzbek_counts(language, limit, source):
+    """The word counts of Uzbek news, Wikipedia or web text, read as the reader reads them (frequency_uzbek.count_lines)."""
+    if language != "uz":
+        return None
+    if source == "uzbek_web":
+        path = download(frequency_uzbek.CC100, "cc100-uz.txt.xz")
+        if path is None:
+            return None
+        counts, label = frequency_uzbek.count_lines(frequency_uzbek.cc100_lines(path)), "CC-100 uz"
+    else:
+        used, lines = [], []
+        for corpus in frequency_uzbek.LEIPZIG_NEWS if source == "uzbek_news" else frequency_uzbek.LEIPZIG_WIKIPEDIA:
+            path = download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+            if path is not None:
+                used.append(corpus)
+                lines.append(frequency_uzbek.leipzig_sentences(path))
+        if not used:
+            return None
+        counts, label = frequency_uzbek.count_lines(line for corpus in lines for line in corpus), f"Leipzig Corpora Collection {', '.join(used)}"
+    top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
+    return dict(top), label
+
+
 SOURCES = {"wordfreq": wordfreq_counts, "frequencywords": frequencywords_counts, "leipzig": leipzig_counts, "wikipedia": wikipedia_counts,
            "everyday": everyday_counts, "everyday_mixed": lambda language, limit: everyday_counts(language, limit, EVERYDAY_MIXED.get(language)),
            "wikipedia_sentences": lambda language, limit: leipzig_counts(language, limit, "wikipedia_sentences"),
            "maltese": maltese_counts, "maltese_web": lambda language, limit: maltese_counts(language, limit, "maltese_web"),
            "maltese_wikipedia": lambda language, limit: maltese_counts(language, limit, "maltese_wikipedia"),
-           "subtitles": azerbaijani_subtitle_counts}
+           "subtitles": azerbaijani_subtitle_counts,
+           "uzbek_news": lambda language, limit: uzbek_counts(language, limit, "uzbek_news"),
+           "uzbek_web": lambda language, limit: uzbek_counts(language, limit, "uzbek_web"),
+           "uzbek_wikipedia": lambda language, limit: uzbek_counts(language, limit, "uzbek_wikipedia")}
 
 
 class Lemmatizer:
@@ -4686,7 +4730,7 @@ def load_dictionary(language):
                 else:
                     AZERBAIJANI_OWN.add(word_lc)
         # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
-        if language in ("hi", "mn", "kk", "ur", "pa", "ps") and p == "postp":
+        if language in ("hi", "mn", "kk", "ur", "pa", "ps", "uz") and p == "postp":
             p = "prep"
         # And Basque's (ondoren, aurka, gabe).
         if language == "eu" and p == "postp":
@@ -4987,6 +5031,8 @@ def load_dictionary(language):
         frequency_mongolian.load(db, pos, lemmas, common, DICTIONARIES)
     if language == "kk":
         frequency_kazakh.load(db, pos, lemmas, common, DICTIONARIES)
+    if language == "uz":
+        frequency_uzbek.load(db, pos, lemmas, common, download(frequency_uzbek.APERTIUM, "apertium-uzb.uzb.lexc"))
     if language == "af":
         frequency_afrikaans.load(pos, lemmas, common, DICTIONARIES)
     if language in FINNIC_OWN_SENSES:
@@ -5842,6 +5888,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "kk":
         # The Kazakh paradigms are made for the forms the counts have (frequency_kazakh).
         frequency_kazakh.SEEN = set(freq)
+    if language == "uz":
+        # And the Uzbek ones, whose counts also settle which verbs are folded into others (frequency_uzbek).
+        frequency_uzbek.SEEN = freq
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
@@ -5879,7 +5928,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     mass = {}
 
     def weight(word):
-        if language not in ("ko", "az"):
+        if language not in ("ko", "az", "uz"):
             return count(word)
         if not mass:
             for form, share in freq.items():
