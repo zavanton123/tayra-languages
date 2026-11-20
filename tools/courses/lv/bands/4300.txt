@@ -1,100 +1,100 @@
-1	4201	pareizība	pareizībai pareizības pareizību pareizībā
-2	4202	kustīgs	kustīga kustīgai kustīgais kustīgajam kustīgajiem kustīgajā kustīgajām kustīgajās kustīgam kustīgas kustīgie kustīgiem kustīgo kustīgos kustīgu kustīgus kustīgā kustīgāks kustīgām kustīgās viskustīgākais
-3	4203	vingrojums	vingrojuma vingrojumi vingrojumiem vingrojumos vingrojumu vingrojumus vingrojumā
-4	4204	kadiķis	kadios kadiķa kadiķi kadiķiem kadiķos kadiķu kadiķus kadiķī
-5	4205	sēklinieks	sēklinieka sēklinieki sēkliniekiem sēkliniekos sēklinieku sēkliniekus sēkliniekā
-6	4206	amulets	amulet amuleta amuletam amuleti amuletiem amuletu amuletus
-7	4207	kļūdains	kļūdaina kļūdainais kļūdainajai kļūdainajiem kļūdainajām kļūdainam kļūdainas kļūdainie kļūdainiem kļūdaino kļūdainos kļūdainu kļūdainus kļūdainā kļūdaināks kļūdainām kļūdainās
-8	4208	austere	austeres austeri austeru austerē austerēm
-9	4209	slēpe	slēpes slēpi slēpju slēpus slēpē slēpēm slēpēs
-10	4210	anulēt	anulē
-11	4211	kāsis	kāsi kāsim kāsī kāša kāši kāšiem kāšos kāšu kāšus
-12	4212	piekūns	piekūn piekūna piekūni piekūniem piekūnos piekūnu piekūnus
-13	4213	žigli	
-14	4214	sistemātiski	
-15	4215	laims	laim laima laimam laimi laimu laimus laimā
-16	4216	estētika	estētikai estētikas estētiku estētikā
-17	4217	apetīte	
-18	4218	vingrot	jāvingro vingro vingroja vingrojam vingrojat vingrojiet vingrojis vingrojot vingrojošs vingroju vingrojām vingros vingrosi vingrosiet vingrosim vingrots vingrotu vingrošu
-19	4219	lopbarība	lopbarībai lopbarības lopbarību lopbarībā
-20	4220	binoklis	binokli binoklī binokļa binokļi binokļiem binokļu binokļus
-21	4221	sarma	sarmai sarmas sarmu sarmā sarmām
-22	4222	miests	miesta miestam miesti miestiem miestos miestu miestā
-23	4223	halāts	halāta halātam halāti halātiem halātos halātu halātus halātā
-24	4224	kariete	karietei karietes karieti karietē karietēm karietēs kariešu
-25	4225	īgt	īga īgi īgs īgu
-26	4226	atveidot	atveido
-27	4227	raupjš	raupja raupjais raupjajai raupjas raupji raupjie raupjiem raupjo raupjos raupju raupjā raupjāks raupjām raupjās
-28	4228	ubadze	ubadzei ubadzes ubadzi ubag ubaga ubagam ubagi ubagiem ubagos ubags ubagu ubagus
-29	4229	ekonomija	ekonomijai ekonomijas ekonomiju ekonomijā
-30	4230	sēklis	sēkli sēklim sēklī sēkļa sēkļi sēkļiem sēkļos sēkļu sēkļus
-31	4231	mīkstums	mīkstuma mīkstumam mīkstumi mīkstumiem mīkstumos mīkstumu mīkstumus mīkstumā
-32	4232	uts	uti utis utu utīm utīs
-33	4233	asteroīds	asteroīda asteroīdam asteroīdi asteroīdiem asteroīdos asteroīdu asteroīdus
-34	4234	kontrasts	kontrasta kontrastam kontrasti kontrastiem kontrastos kontrastu kontrastus kontrastā
-35	4235	brunete	brunetas brunetei brunetes bruneti brunetiem brunets brunetēm brunešu
-36	4236	estētisks	estētiska estētiskais estētiskajai estētiskajam estētiskajiem estētiskajos estētiskajā estētiskajām estētiskajās estētiskam estētiskas estētiskie estētiskiem estētisko estētiskos estētisku estētiskus estētiskā estētiskām estētiskās
-37	4237	menca	mencai mencam mencas menci mencu mencām
-38	4238	dakšiņa	dakšiņas dakšiņu dakšiņām
-39	4239	taukskābe	taukskābes taukskābju taukskābēm
-40	4240	astronomija	astronomijai astronomijas astronomiju astronomijā
-41	4241	rozīne	rozīnes rozīni rozīnēm rozīnēs rozīņu
-42	4242	dioksīds	dioksīda dioksīdam dioksīdu
-43	4243	protestēt	protestēja
-44	4244	lauvene	lauvenei lauvenes lauveni lauvenēm lauveņu
-45	4245	uzgalis	uzgali uzgaļa uzgaļi uzgaļiem uzgaļu uzgaļus
-46	4246	bulgārs	bulgāra bulgāram bulgāri bulgāriem bulgāriete bulgārieti bulgāru bulgārus
-47	4247	pienene	pienenei pienenes pieneni pienenēm pienenēs pieneņu
-48	4248	fizikāls	fizikāla fizikālai fizikālais fizikālajiem fizikālajā fizikālajām fizikālajās fizikālam fizikālas fizikālie fizikāliem fizikālo fizikālos fizikālu fizikālus fizikālā fizikālām fizikālās
-49	4249	smaidīgs	smaidīga smaidīgai smaidīgais smaidīgajiem smaidīgajā smaidīgajām smaidīgam smaidīgas smaidīgie smaidīgiem smaidīgo smaidīgos smaidīgu smaidīgus smaidīgā smaidīgām smaidīgās vissmaidīgākais
-50	4250	termometrs	termometra termometram termometri termometriem termometros termometru termometrus termometrā
-51	4251	pamācīt	jāpamāca nepamācīt pamāca pamāci pamāciet pamācot pamācošs pamācu pamācām pamācāt pamācīdams pamācīja pamācījis pamācīju pamācīs pamācīsim pamācīts pamācītu pamācīšana pamācīšu
-52	4252	minerālūdens	minerālūdeni minerālūdenim minerālūdenī minerālūdeņi minerālūdeņiem minerālūdeņu minerālūdeņus
-53	4253	rokasspiediens	rokasspiediena rokasspiedienam rokasspiedieni rokasspiedieniem rokasspiedienu rokasspiedienus
-54	4254	molekulārs	molekulārajam molekulārajiem molekulārajā molekulāri molekulārie molekulāro molekulāru molekulārā molekulārās
-55	4255	bulvāris	bulvāri
-56	4256	slāvs	slāv slāvi slāviem slāvu slāvus
-57	4257	sivēns	sivēna sivēnam sivēni sivēniem sivēnos sivēnu sivēnus
-58	4258	saldūdens	saldūdeni saldūdenī saldūdeņu
-59	4259	ūdenskrātuve	ūdenskrātuvei ūdenskrātuves ūdenskrātuvi ūdenskrātuvju ūdenskrātuvē ūdenskrātuvēm ūdenskrātuvēs
-60	4260	mags	mag maga magam magi magiem magu
-61	4261	modri	
-62	4262	grēksūdze	grēksūdzei grēksūdzes grēksūdzi grēksūdzē grēksūdzēm grēksūdzēs
-63	4263	komēta	komētai komētas komētu komētām
-64	4264	klons	klona klonam kloni kloniem klonis klonu klonus klonā
-65	4265	divnieks	divnieka divniekam divnieki divniekiem divniekos divnieku divniekus divniekā
-66	4266	stulbība	stulbības stulbību stulbībām stulbībās
-67	4267	meija	meijam meijas meiju meijām meijās
-68	4268	ķīmiski	
-69	4269	nākošgad	
-70	4270	žāvēt	jāžāvē nežāvēt žāvē žāvēja žāvējam žāvējat žāvējiet žāvējot žāvēju žāvējām žāvējāt žāvēs žāvēsiet žāvēts žāvētu žāvēšana žāvēšu
-71	4271	švaki	
-72	4272	pēckarš	pēckara
-73	4273	šopavasar	
-74	4274	esība	esībai esības esību esībā
-75	4275	tīrītava	tīrītavai tīrītavas tīrītavu tīrītavā
-76	4276	pornogrāfija	pornogrāfijai pornogrāfijas pornogrāfiju pornogrāfijā
-77	4277	biznesmenis	
-78	4278	jēdzīgs	jēdzīga jēdzīgais jēdzīgajā jēdzīgam jēdzīgas jēdzīgie jēdzīgiem jēdzīgo jēdzīgos jēdzīgu jēdzīgus jēdzīgā jēdzīgāks jēdzīgām jēdzīgās visjēdzīgākais
-79	4279	sauļoties	jāsauļojas nesauļoties sauļodamies sauļojamies sauļojas sauļojaties sauļojies sauļojos sauļojoties sauļojās sauļosimies sauļotos
-80	4280	paciņa	
-81	4281	tajs	taj taja tajam tajiem taju
-82	4282	dzinums	dzinuma dzinumam dzinumi dzinumiem dzinumu dzinumus dzinumā
-83	4283	gļotāda	gļotādai gļotādas gļotādu gļotādā gļotādām
-84	4284	vientulība	
-85	4285	olšūna	olšūnai olšūnas olšūnu olšūnām
-86	4286	daugavpiliete	daugavpilietei daugavpilietes daugavpilieti daugavpilietim daugavpilietis daugavpilietēm daugavpilieša daugavpilieši daugavpiliešiem daugavpiliešos daugavpiliešu daugavpiliešus
-87	4287	uzticamība	uzticamībai uzticamības uzticamību uzticamībā
-88	4288	provocēt	jāprovocē neprovocēt provocē provocēja provocējam provocējat provocējis provocējot provocējošs provocēju provocēs provocēsim provocēts provocētu provocēšana
-89	4289	valodnieks	valodniece valodnieces valodniek valodnieka valodniekam valodnieki valodniekiem valodnieku valodniekus valodnieču
-90	4290	aklums	akluma aklumam aklumu aklumā
-91	4291	grauzējs	grauzēja grauzējam grauzēji grauzējiem grauzēju grauzējus
-92	4292	vējains	vējaina vējainais vējainajai vējainajam vējainajos vējainajā vējainam vējainas vējaini vējainie vējaino vējainu vējainā vējaināks vējainām vējainās
-93	4293	sociālists	sociālista sociāliste sociālisti sociālistiem sociālistu sociālistus
-94	4294	apmierinājums	apmierinājuma apmierinājumam apmierinājumu apmierinājumā
-95	4295	raudzīt	jārauga raudzīja raudzījām raudzīs raudzīsi raudzīsim raudzīšu rauga raugi raugiet raugu raugām raugāms raugāt
-96	4296	modernizēt	jāmodernizē modernizē modernizēja modernizējam modernizējams modernizējiet modernizējis modernizējot modernizējām modernizēs modernizēsim modernizētais modernizēts modernizētu modernizēšana
-97	4297	truls	trula trulai trulais trulajai trulajam trulajiem trulam trulas trulie truliem trulo trulos trulu trulus trulā trulāks trulām trulās
-98	4298	kamene	kamenei kamenes kameni kamenēm
-99	4299	hamburgers	hamburgera hamburgeram hamburgeri hamburgeriem hamburgeros hamburgeru hamburgerus hamburgerā
-100	4300	nelietīgs	nelietīga nelietīgais nelietīgajam nelietīgajiem nelietīgajām nelietīgam nelietīgas nelietīgi nelietīgie nelietīgiem nelietīgo nelietīgos nelietīgu nelietīgus nelietīgā nelietīgāks nelietīgās
+1	4201	lēciens	lēciena lēcienam lēcieni lēcieniem lēcienos lēcienu lēcienus lēcienā
+2	4202	nolāpīt	nolāpīts nolāpītu
+3	4203	solo	
+4	4204	neitrāls	neitrāla neitrālai neitrālais neitrālajai neitrālajam neitrālajiem neitrālajos neitrālajā neitrālajām neitrālajās neitrālam neitrālas neitrāli neitrālie neitrāliem neitrālo neitrālos neitrālu neitrālus neitrālā neitrālāka neitrālākais neitrālākas neitrālāki neitrālākiem neitrālākos neitrālāks neitrālāku neitrālākus neitrālākā neitrālākām neitrālām neitrālās visneitrālākais visneitrālākajai visneitrālākie visneitrālākā
+5	4205	pagāns	pagāna pagānam pagāni pagāniem pagānu pagānus
+6	4206	apdrošināt	apdrošina apdrošini apdrošiniet apdrošinot apdrošināja apdrošinājis apdrošināju apdrošinājusi apdrošinājušas apdrošinājuši apdrošinām apdrošināmi apdrošināmo apdrošināms apdrošinās apdrošināta apdrošinātai apdrošinātais apdrošinātajai apdrošinātajam apdrošinātajiem apdrošinātajā apdrošinātajām apdrošinātam apdrošinātas apdrošināti apdrošinātie apdrošinātiem apdrošināto apdrošināts apdrošinātu apdrošinātā apdrošinātām apdrošinātās jāapdrošina neapdrošina neapdrošināt neapdrošināto neapdrošinātu
+7	4207	mājup	
+8	4208	dzērājs	dzērāj dzērāja dzērājam dzērāji dzērājiem dzērāju dzērājus
+9	4209	kosmisks	kosmiska kosmiskai kosmiskais kosmiskajai kosmiskajam kosmiskajiem kosmiskajos kosmiskajā kosmiskajām kosmiskajās kosmiskas kosmiski kosmiskie kosmiskiem kosmisko kosmiskos kosmisku kosmiskus kosmiskā kosmiskākās kosmiskām kosmiskās
+10	4210	pravietis	pravieti pravietim pravieša pravieši praviešiem praviešos praviešu praviešus
+11	4211	azartspēle	azartspēli azartspēlēm azartspēlēs azartspēļu
+12	4212	aromāts	aromāt aromāta aromātam aromāti aromātiem aromātu aromātus aromātā
+13	4213	gravitācija	gravitācijai gravitācijas gravitāciju
+14	4214	lete	letei letes leti letē letēm letēs lešu
+15	4215	teika	teikai teikas teiku teikā teikām teikās
+16	4216	navigācija	navigācijai navigācijas navigāciju navigācijā
+17	4217	slēpot	jāslēpo neslēpos slēpo slēpoja slēpojam slēpojat slēpojis slēpojot slēpoju slēpojusi slēpojušas slēpojuši slēpojām slēposiet slēposim slēpotu slēpošanas slēpošanu slēpošanā
+18	4218	kontinents	kontinenta kontinentam kontinenti kontinentiem kontinentos kontinentu kontinentus kontinentā
+19	4219	noguldījums	noguldījuma noguldījumam noguldījumi noguldījumiem noguldījumos noguldījumu noguldījumus noguldījumā
+20	4220	panorāma	panorāmai panorāmas panorāmu panorāmā panorāmām
+21	4221	viduslaiku	
+22	4222	eksportēt	eksportē eksportēja eksportējam eksportējis eksportējot eksportējošs eksportēju eksportējusi eksportējušas eksportējuši eksportējām eksportēs eksportēsim eksportēta eksportētais eksportētas eksportēti eksportētie eksportēto eksportēts eksportētu eksportētā eksportēšana eksportēšanas eksportēšanu eksportēšanā jāeksportē neeksportē neeksportējam neeksportējot
+23	4223	kaka	kakas kaku kakā kakām kakās
+24	4224	tagadne	tagada tagadienei tagadnei tagadnes tagadni tagadnē tagadnēs
+25	4225	krātuve	krātuvei krātuves krātuvi krātuvju krātuvē krātuvēm krātuvēs
+26	4226	pārstrādāt	jāpārstrādā nepārstrādā nepārstrādāto pārstrādā pārstrādāja pārstrādājam pārstrādājama pārstrādājamas pārstrādājami pārstrādājamiem pārstrādājamo pārstrādājams pārstrādājamu pārstrādājis pārstrādājot pārstrādāju pārstrādājusi pārstrādājušas pārstrādājuši pārstrādājām pārstrādās pārstrādāta pārstrādātais pārstrādātajiem pārstrādātajām pārstrādātas pārstrādāti pārstrādātiem pārstrādāto pārstrādāts pārstrādātu pārstrādātus pārstrādātā pārstrādātām pārstrādātās pārstrādāšana pārstrādāšanas pārstrādāšanu pārstrādāšanā
+27	4227	iegaumēt	iegaumē iegaumēja iegaumējam iegaumējams iegaumēji iegaumējiet iegaumējis iegaumējot iegaumēju iegaumējusi iegaumējušas iegaumējuši iegaumēs iegaumēsiet iegaumēsim iegaumēta iegaumēti iegaumēts iegaumētu iegaumēšana iegaumēšanas iegaumēšanu iegaumēšu jāiegaumē neiegaumēju
+28	4228	evakuēt	evakuē evakuēja evakuējam evakuējams evakuējat evakuējiet evakuējis evakuējot evakuējusi evakuējušas evakuējuši evakuējāt evakuēs evakuēsim evakuēta evakuētas evakuēti evakuētie evakuēto evakuēts evakuētu evakuētā evakuēšana evakuēšanas evakuēšanu jāevakuē neevakuēja
+29	4229	slēpošana	slēpošanai slēpošanas slēpošanu slēpošanā
+30	4230	tauriņš	tauriņa tauriņam tauriņi tauriņiem tauriņos tauriņu tauriņus tauriņā
+31	4231	ļaunprātīgs	ļaunprātīga ļaunprātīgai ļaunprātīgais ļaunprātīgajai ļaunprātīgajam ļaunprātīgajiem ļaunprātīgajām ļaunprātīgam ļaunprātīgas ļaunprātīgi ļaunprātīgie ļaunprātīgiem ļaunprātīgo ļaunprātīgos ļaunprātīgu ļaunprātīgus ļaunprātīgā ļaunprātīgākajiem ļaunprātīgām ļaunprātīgās
+32	4232	uzkost	jāuzkož uzkod uzkoda uzkodi uzkodiet uzkodis uzkodu uzkoduši uzkodām uzkodīs uzkodīsim uzkodīšu uzkostu uzkozdami uzkož uzkožam uzkožamais uzkožamo uzkožamos uzkožamu uzkožot uzkožu
+33	4233	neapmierinātība	neapmierinātībai neapmierinātības neapmierinātību neapmierinātībā
+34	4234	funkcionāls	funkcionāla funkcionālai funkcionālais funkcionālajai funkcionālajam funkcionālajiem funkcionālajā funkcionālajām funkcionālajās funkcionālam funkcionālas funkcionāli funkcionālie funkcionāliem funkcionālo funkcionālos funkcionālu funkcionālus funkcionālā funkcionālāk funkcionālāka funkcionālākai funkcionālākas funkcionālākiem funkcionālāko funkcionālāks funkcionālāku funkcionālākus funkcionālākām funkcionālām funkcionālās
+35	4235	spīle	spīlei spīles spīli spīlēm spīlēs spīļu
+36	4236	vājums	vājuma vājumam vājumi vājumiem vājumu vājumus vājumā
+37	4237	slēdziens	slēdziena slēdzienam slēdzieni slēdzieniem slēdzienos slēdzienu slēdzienus slēdzienā
+38	4238	apguve	apguvei apguves apguvi apguvē
+39	4239	pļāpāt	loha loham lohi lohiem lohu lohus nepļāpā nepļāpāja nepļāpājiet nepļāpājot nepļāpāju nepļāpāt nepļāpāšu pļāpā pļāpādami pļāpāja pļāpājam pļāpājamās pļāpājiet pļāpājot pļāpājošiem pļāpāju pļāpājuši pļāpājām pļāpās pļāpāsi pļāpāsim pļāpāts pļāpātu pļāpāšana pļāpāšanai pļāpāšanas pļāpāšanu pļāpāšanā
+40	4240	harmonija	harmonijai harmonijas harmoniju harmonijā harmonijām
+41	4241	pagaršot	jāpagaršo nepagaršojis nepagaršojot nepagaršoju nepagaršotam pagaršo pagaršoja pagaršojam pagaršoji pagaršojiet pagaršojis pagaršojot pagaršoju pagaršojusi pagaršojuši pagaršojām pagaršos pagaršosiet pagaršosim pagaršota pagaršots pagaršotu pagaršošu
+42	4242	rūpniecisks	rūpnieciska rūpnieciskai rūpnieciskais rūpnieciskajai rūpnieciskajiem rūpnieciskajos rūpnieciskajā rūpnieciskajām rūpnieciskajās rūpnieciskas rūpnieciski rūpnieciskie rūpnieciskiem rūpniecisko rūpnieciskos rūpniecisku rūpnieciskā rūpnieciskākos rūpnieciskām rūpnieciskās
+43	4243	apdrošinātājs	apdrošinātāja apdrošinātājam apdrošinātāji apdrošinātājiem apdrošinātāju apdrošinātājus
+44	4244	grāfiene	grāf grāfa grāfam grāfi grāfiem grāfienei grāfienes grāfieni grāfs grāfu grāfā
+45	4245	šķidrs	visšķidrāk šķidra šķidrai šķidrais šķidrajai šķidrajam šķidrajiem šķidrajos šķidrajā šķidrajām šķidrajās šķidram šķidras šķidri šķidrie šķidriem šķidro šķidros šķidru šķidrus šķidrā šķidrāka šķidrākai šķidrākas šķidrāki šķidrāko šķidrāks šķidrāku šķidrākā šķidrās
+46	4246	nāvessods	nāvessoda nāvessodam nāvessodi nāvessodiem nāvessodu nāvessodus
+47	4247	pamatne	pamatnei pamatnes pamatni pamatnē pamatnēm pamatnēs pamatņu
+48	4248	puisītis	puisīt puisīti puisītim puisīša puisīši puisīšiem puisīšu puisīšus
+49	4249	uzsvars	uzsvar uzsvara uzsvaram uzsvari uzsvariem uzsvaru uzsvarus
+50	4250	pārmērīgs	pārmērīga pārmērīgai pārmērīgais pārmērīgajām pārmērīgam pārmērīgas pārmērīgi pārmērīgiem pārmērīgo pārmērīgos pārmērīgu pārmērīgus pārmērīgā pārmērīgām pārmērīgās
+51	4251	skābe	skābes skābi skābju skābē skābēm
+52	4252	žurnālistika	žurnālistikai žurnālistikas žurnālistiku žurnālistikā
+53	4253	ogleklis	oglekla oglekli ogleklim oglekļa
+54	4254	kritiens	kritiena kritienam kritieni kritieniem kritienos kritienu kritienus kritienā
+55	4255	centralizēt	centralizējot centralizējoša centralizēs centralizēta centralizētai centralizētais centralizētajai centralizētajam centralizētajiem centralizētajos centralizētajā centralizētajām centralizētajās centralizētam centralizētas centralizēti centralizētie centralizētiem centralizēto centralizētos centralizēts centralizētu centralizētus centralizētā centralizētām centralizētās centralizēšana centralizēšanu
+56	4256	liellops	liellopa liellopam liellopi liellopiem liellopu liellopus
+57	4257	mets	metiem metos metus metā
+58	4258	noprast	noprasts noprata noprati nopratis nopratu nopratusi nopratuši nopratām nopratāt noprazdams noprot noprotam noprotams noprotamā noprotat noprotot noprotu
+59	4259	vēna	vēnas vēnu vēnā vēnām vēnās
+60	4260	piesiet	jāpiesien nepiesien nepiesiesi nepiesiet nepiesietu nepiesēji nepiesējāt piesien piesienam piesieniet piesienot piesienu piesies piesiesi piesiesim piesiets piesietu piesiešana piesiešu piesēja piesēji piesējis piesēju piesējām
+61	4261	bezjēdzīgi	
+62	4262	pārvietošana	pārvietošanai pārvietošanas pārvietošanu pārvietošanā pārvietošanās
+63	4263	aizslēgt	aizslēdz aizslēdza aizslēdzam aizslēdzams aizslēdzat aizslēdzi aizslēdziet aizslēdzis aizslēdzot aizslēdzu aizslēdzām aizslēdzāt aizslēgs aizslēgsi aizslēgsim aizslēgts aizslēgtu aizslēgšana aizslēgšot aizslēgšu jāaizslēdz neaizslēdz neaizslēdzi neaizslēdzu neaizslēgs neaizslēgsim neaizslēgt neaizslēgts neaizslēgtu
+64	4264	nokāpt	jānokāpj nenokāpa nenokāpj nenokāpjot nenokāpt nenokāptu nokāp nokāpa nokāpdams nokāpiet nokāpis nokāpj nokāpjam nokāpjot nokāpju nokāps nokāpsiet nokāpsim nokāptu nokāpu nokāpām nokāpšana nokāpšu
+65	4265	repertuārs	repertuāra repertuāram repertuāriem repertuāros repertuāru repertuārā
+66	4266	nosargāt	jānosargā nenosargā nenosargāja nenosargāju nenosargājām nenosargās nenosargāsi nenosargāsim nenosargāt nenosargāto nenosargātu nosargā nosargāja nosargājam nosargājamas nosargāji nosargājiet nosargājis nosargājot nosargāju nosargājusi nosargājuši nosargājām nosargās nosargāsim nosargāta nosargātas nosargāti nosargāto nosargāts nosargātu nosargātā nosargātās nosargāšana
+67	4267	atiet	atej atejam atejiet atejot atgāja atgājis atgāju atgājusi atgājuši atgājām aties atiesi atietu atiešana atiešot jāatiet neatejat neatejot neatgāja neatgājām neaties neatiet
+68	4268	daļējs	daļēja daļējai daļējais daļējam daļējas daļējie daļējiem daļējo daļēju daļējus daļējā daļējām daļējās
+69	4269	pagulēt	jāpaguļ nepagulēju nepagulēsi nepagulēt paguli paguliet pagulēja pagulējis pagulēju pagulējām pagulēs pagulēsi pagulēsiet pagulēsim pagulētu pagulēšana pagulēšu paguļ paguļam paguļot paguļu
+70	4270	agresija	agresijai agresijas agresiju agresijā agresijām
+71	4271	vīza	vīzai vīzas vīzu vīzā vīzām
+72	4272	lepni	
+73	4273	nocirst	jānocērt nenocirsts nenocirstu nenocirta nenocirtu nenocirtīs nenocērt nenocērtiet nenocērtot nocirsts nocirstu nocirta nocirti nocirtis nocirtu nocirtām nocirtīs nocirtīsi nocirtīsim nocirtīšot nocirtīšu nocirzdams nociršana nocērt nocērtam nocērtams nocērtiet nocērtot
+74	4274	ziedonis	ziedoni ziedonim ziedonī ziedoņa ziedoņi ziedoņiem ziedoņos ziedoņu
+75	4275	pārdzīvojums	pārdzīvojuma pārdzīvojumam pārdzīvojumi pārdzīvojumiem pārdzīvojumos pārdzīvojumu pārdzīvojumus pārdzīvojumā
+76	4276	brītiņš	brītiņa brītiņam brītiņi brītiņos brītiņu brītiņā
+77	4277	renovācija	renovācijai renovācijas renovāciju renovācijā renovācijām renovācijās
+78	4278	aborts	abort aborta abortam aborti abortiem abortos abortu abortus abortā
+79	4279	virsus	virsi virsu virsum
+80	4280	komponents	komponenta komponentam komponenti komponentiem komponentos komponentu komponentus komponentā
+81	4281	gleznotāja	gleznotājai gleznotājam gleznotājas gleznotāji gleznotājiem gleznotājos gleznotājs gleznotāju gleznotājus gleznotājām
+82	4282	inficēt	inficē inficēja inficējam inficēji inficējis inficējot inficējāt inficēs inficēta inficētai inficētam inficētas inficēti inficētiem inficētos inficēts inficētu inficētus inficētā inficētām inficētās inficēšana neinficēt
+83	4283	madara	madarai madaram madaras madaru madarās
+84	4284	definīcija	definīcijai definīcijas definīciju definīcijā definīcijām definīcijās
+85	4285	zvaigznājs	zvaigznāja zvaigznājam zvaigznāji zvaigznājiem zvaigznājos zvaigznāju zvaigznājus zvaigznājā
+86	4286	bezjēdzīgs	bezjēdzīga bezjēdzīgai bezjēdzīgais bezjēdzīgajai bezjēdzīgajam bezjēdzīgajiem bezjēdzīgajā bezjēdzīgajām bezjēdzīgajās bezjēdzīgas bezjēdzīgie bezjēdzīgiem bezjēdzīgo bezjēdzīgos bezjēdzīgu bezjēdzīgus bezjēdzīgā bezjēdzīgāk bezjēdzīgākajiem bezjēdzīgākajām bezjēdzīgāks bezjēdzīgākus bezjēdzīgām bezjēdzīgās visbezjēdzīgāk visbezjēdzīgākā
+87	4287	ideoloģija	ideoloģijai ideoloģijas ideoloģiju ideoloģijā ideoloģijām ideoloģijās
+88	4288	rekomendācija	rekomendācijai rekomendācijas rekomendāciju rekomendācijā rekomendācijām rekomendācijās
+89	4289	iegriezties	iegriezas iegriezies iegriezieties iegriezos iegrieztos iegriezusies iegriezušies iegriezušās iegriezāmies iegriezās iegriezāties iegriezīsies iegriezīsieties iegriezīsimies iegriezīšos iegriezīšoties iegriešanās iegriežamies iegriežas iegriežaties iegriežos iegriežoties jāiegriežas neiegriezos neiegriezties neiegrieztos neiegriezās neiegriezīsies neiegriezīšos neiegriežas neiegriežos neiegriežoties
+90	4290	tilpums	tilpuma tilpumam tilpumi tilpumiem tilpumos tilpumu tilpumā
+91	4291	apmetne	apmetnei apmetnes apmetni apmetnē apmetnēm apmetnēs apmetņu
+92	4292	papēdis	papēdi papēdim papēdī papēža papēži papēžiem papēžos papēžu papēžus
+93	4293	celtne	celtnei celtnes celtni celtnē celtnēm celtnēs celtņu
+94	4294	audzinātāja	audzinātājai audzinātājas audzinātāju audzinātājām audzinātājās
+95	4295	džentlmenis	džentlmeni džentlmenim džentlmeņa džentlmeņi džentlmeņiem džentlmeņu džentlmeņus
+96	4296	apjēgt	apjēdz apjēdza apjēdzam apjēdzat apjēdzi apjēdziet apjēdzis apjēdzot apjēdzu apjēdzām apjēdzāt apjēgs apjēgsi apjēgsiet apjēgta apjēgts apjēgtu apjēgusi apjēgušas apjēguši apjēgšana apjēgšu jāapjēdz neapjēdz neapjēdza neapjēdzat neapjēdzot neapjēdzu neapjēgti
+97	4297	draudzīgi	
+98	4298	defekts	defekta defekti defektiem defektos defektu defektus defektā
+99	4299	žagars	žagar žagara žagaram žagari žagariem žagaros žagaru žagarus
+100	4300	iesācējs	iesācēja iesācējam iesācēji iesācējiem iesācēju iesācējus iesācējā

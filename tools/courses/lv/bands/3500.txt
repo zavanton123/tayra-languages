@@ -1,100 +1,100 @@
-1	3401	kategoriski	
-2	3402	laizīt	jālaiza laiza laizi laiziet laizot laizu laizāt laizīja laizīju laizījām laizīs laizīsiet laizīts laizītu laizīšana nelaizīt
-3	3403	ķirurģija	ķirurģijai ķirurģijas ķirurģiju ķirurģijā
-4	3404	aukla	auklai auklas auklu auklā auklām
-5	3405	tievs	tieva tievais tievajai tievajam tievajiem tievajos tievajā tievajām tievajās tievam tievas tievi tievie tieviem tievo tievos tievu tievus tievā tievāks tievām tievās
-6	3406	turība	turībai turības turību turībā
-7	3407	sāns	sāniem
-8	3408	vadīties	vadoties
-9	3409	puisēns	puisēn puisēna puisēnam puisēni puisēniem puisēnu puisēnus puisēnā
-10	3410	bura	burai buras buru burā burām burās
-11	3411	metafora	metaforas metaforu metaforā metaforām metaforās
-12	3412	rubīns	rubīna rubīnam rubīni rubīniem rubīnu rubīnus
-13	3413	mazmeita	mazmeitai mazmeitas mazmeitu
-14	3414	redzamība	redzamībai redzamības redzamību redzamībā
-15	3415	elastīgs	elastīga elastīgai elastīgais elastīgajai elastīgajam elastīgajiem elastīgajām elastīgam elastīgas elastīgi elastīgie elastīgiem elastīgo elastīgos elastīgu elastīgus elastīgā elastīgāks elastīgām elastīgās viselastīgākais
-16	3416	preparāts	preparāta preparātam preparāti preparātiem preparātos preparātu preparātus preparātā
-17	3417	āre	āa ārei āres āri āru ārēm ārēs āā
-18	3418	tenisists	tenisista tenisistam tenisiste tenisisti tenisistiem tenisistu tenisistus
-19	3419	apsūdzēt	apsūdzētais
-20	3420	klēpis	klēpī
-21	3421	makaroni	makarona makaroniem makaronos makarons makaronu makaronus
-22	3422	mugursoma	mugursomai mugursomas mugursomu mugursomā mugursomām mugursomās
-23	3423	mandarīns	mandarīna mandarīnam mandarīni mandarīniem mandarīnu mandarīnus mandarīnā
-24	3424	gardi	
-25	3425	iekšēji	
-26	3426	izpausme	izpausmi
-27	3427	darbarīks	darbarīka darbarīkam darbarīki darbarīkiem darbarīkos darbarīku darbarīkus
-28	3428	medikaments	medikamenti
-29	3429	izrunāt	
-30	3430	sīvs	sīva sīvai sīvais sīvajai sīvajam sīvajā sīvajās sīvam sīvas sīvi sīvie sīviem sīvo sīvu sīvus sīvā sīvāks sīvām sīvās
-31	3431	pedālis	pedāli pedālim pedālī pedāļa pedāļi pedāļiem pedāļos pedāļu pedāļus
-32	3432	slinkums	slinkuma slinkumam slinkumu slinkumā
-33	3433	epidēmija	epidēmijai epidēmijas epidēmiju epidēmijā epidēmijām epidēmijās
-34	3434	mērķtiecīgi	
-35	3435	lesbiete	lesbietei lesbietes lesbieti lesbietēm lesbiešu
-36	3436	iespaidot	iespaido
-37	3437	spilgti	
-38	3438	imigrācija	imigrācijai imigrācijas imigrāciju imigrācijā
-39	3439	neprātīgs	neprātīga neprātīgais neprātīgajam neprātīgajiem neprātīgajā neprātīgajām neprātīgam neprātīgas neprātīgie neprātīgiem neprātīgo neprātīgos neprātīgu neprātīgus neprātīgā neprātīgām neprātīgās visneprātīgākais
-40	3440	kurināt	jākurina kurina kurini kurinot kurinošs kurinu kurināja kurinājis kurināju kurinājām kurinām kurināmais kurinās kurināsim kurināsit kurināts kurinātu kurināšana kurināšanai kurināšanas kurināšanu kurināšanā kurināšu nekurināt
-41	3441	elks	elk elka elkam elki elkiem elkos elku elkus
-42	3442	ziņkārīgs	ziņkārīga ziņkārīgai ziņkārīgais ziņkārīgajam ziņkārīgajiem ziņkārīgam ziņkārīgas ziņkārīgi ziņkārīgie ziņkārīgiem ziņkārīgo ziņkārīgos ziņkārīgu ziņkārīgus ziņkārīgā ziņkārīgām ziņkārīgās
-43	3443	biežs	bieža biežai biežais biežajai biežajiem biežajos biežajām biežam biežas biežie biežiem biežo biežos biežu biežus biežā biežāks biežām biežās visbiežākais
-44	3444	maiznīca	maiznīcai maiznīcas maiznīcu maiznīcā maiznīcām maiznīcās
-45	3445	bebrs	bebr bebra bebram bebri bebriem bebros bebru bebrus
-46	3446	žoklis	žokli žoklim žoklī žokļa žokļi žokļiem žokļos žokļu žokļus
-47	3447	raksturojums	raksturojuma raksturojumam raksturojumi raksturojumiem raksturojumos raksturojumu raksturojumus raksturojumā
-48	3448	raugs	raug rauga raugam raugi raugiem raugos raugu raugus raugā
-49	3449	krauklis	kraukli krauklim kraukļa kraukļi kraukļiem kraukļos kraukļu kraukļus
-50	3450	diet	dej dejam deji deju dejām dies diesi diets dietu
-51	3451	ģeogrāfisks	ģeogrāfiska ģeogrāfiskais ģeogrāfiskajai ģeogrāfiskajam ģeogrāfiskajiem ģeogrāfiskajos ģeogrāfiskajā ģeogrāfiskajām ģeogrāfiskajās ģeogrāfiskas ģeogrāfiskie ģeogrāfiskiem ģeogrāfisko ģeogrāfiskos ģeogrāfisku ģeogrāfiskus ģeogrāfiskā ģeogrāfiskām ģeogrāfiskās
-52	3452	raksturīgi	
-53	3453	lipīgs	lipīga lipīgai lipīgais lipīgajai lipīgajos lipīgajā lipīgajām lipīgam lipīgas lipīgi lipīgie lipīgiem lipīgo lipīgu lipīgus lipīgā lipīgāks lipīgām lipīgās
-54	3454	botānisks	botāniska botāniskais botāniskajam botāniskajos botāniskajā botāniskam botāniskie botānisko botāniskā
-55	3455	šomēnes	
-56	3456	tuvinieks	tuviniekiem
-57	3457	strops	strop stropa stropam stropi stropiem stropos stropu stropus stropā
-58	3458	skorpions	skorpion skorpiona skorpionam skorpioni skorpioniem skorpionu skorpionus skorpionā
-59	3459	frizieris	friziera friziere frizieri frizieriem frizierim frizieros frizieru frizierus
-60	3460	malt	jāmaļ mal mali maliet mals malts maltu malu malām malšana maļ maļam maļams maļat maļot maļu
-61	3461	direktīva	direktīvas direktīvu direktīvā
-62	3462	aukle	auklei aukles aukli auklē auklēm auklēs aukļu
-63	3463	itālietis	itāliete itālietei itālietes itālieti itālieša itālieši itāliešiem itāliešu itāliešus
-64	3464	nebēda	nebēdu nebēdā
-65	3465	tulks	tulk tulka tulkam tulki tulkiem tulkos tulku tulkus
-66	3466	akūts	akūta akūtai akūtais akūtajiem akūtajā akūtajām akūtam akūtas akūti akūtie akūtiem akūto akūtos akūtu akūtus akūtā akūtāks akūtām akūtās
-67	3467	kārdinājums	kārdinājum kārdinājuma kārdinājumam kārdinājumi kārdinājumiem kārdinājumos kārdinājumu kārdinājumus kārdinājumā
-68	3468	titāns	titāna titānam titāni titāniem titānu titānus
-69	3469	jērs	jēra jēram jēri jēriem jēru jērus
-70	3470	dāsni	
-71	3471	skrūve	skrūvei skrūves skrūvi skrūvju skrūvē skrūvēm skrūvēs
-72	3472	krāsot	jākrāso krāso krāsoja krāsojam krāsojams krāsojat krāsoji krāsojiet krāsojis krāsojot krāsoju krāsojām krāsos krāsosi krāsosiet krāsosim krāsots krāsotu krāsošana krāsošu nekrāsot
-73	3473	saulgrieži	saulgriežiem saulgriežos saulgriežu saulgriežus
-74	3474	slāpeklis	slāpekli slāpeklī slāpekļa
-75	3475	stirna	stirnai stirnas stirnu stirnām
-76	3476	tautasdziesma	tautasdziesmai tautasdziesmas tautasdziesmu tautasdziesmā tautasdziesmām tautasdziesmās
-77	3477	asinsspiediens	asinsspiediena asinsspiedienam asinsspiedienu asinsspiedienā
-78	3478	izruna	izrunai izrunas izrunu izrunā izrunās
-79	3479	māsīca	māsīcai māsīcas māsīcu māsīcām
-80	3480	aptuvens	aptuvena aptuvenais aptuvenajam aptuvenajiem aptuvenajām aptuvenam aptuvenas aptuvenie aptuveniem aptuveno aptuvenos aptuvenu aptuvenus aptuvenā aptuvenām aptuvenās
-81	3481	tipiski	
-82	3482	aktualizēt	aktualizē aktualizēja aktualizējam aktualizējams aktualizējat aktualizējis aktualizējot aktualizēju aktualizējām aktualizēs aktualizēsim aktualizēts aktualizētu aktualizēšana aktualizēšu jāaktualizē neaktualizēt
-83	3483	tirgonis	tirgone tirgonei tirgones tirgoni tirgonim tirgoņa tirgoņi tirgoņiem tirgoņu tirgoņus
-84	3484	viesistaba	viesistabai viesistabas viesistabu viesistabā viesistabām viesistabās
-85	3485	cilindrs	cilindra cilindram cilindri cilindriem cilindros cilindru cilindrus cilindrā
-86	3486	uzdoties	jāuzdodas uzdevies uzdevos uzdevās uzdodamies uzdodas uzdodaties uzdodies uzdodoties uzdosies uzdotos uzdošanos uzdošanās uzdošos
-87	3487	pārsla	pārslas
-88	3488	vājība	vājībai vājībam vājības vājību vājībā vājībām vājībās
-89	3489	sapulcēties	jāsapulcējas sapulcējamies sapulcējas sapulcējies sapulcējieties sapulcējoties sapulcējāmies sapulcējās sapulcēsies sapulcēsimies sapulcētos sapulcēšanās
-90	3490	greizsirdība	greizsirdībai greizsirdības greizsirdību greizsirdībā
-91	3491	ložmetējs	ložmetēja ložmetēji ložmetējiem ložmetēju ložmetējus
-92	3492	ungārs	ungāri ungāriem ungāriete ungārietes ungāru ungārus
-93	3493	izcilība	izcilībai izcilības izcilību izcilībā
-94	3494	līdzšinējs	līdzšinējā
-95	3495	celms	celm celma celmam celmi celmiem celmos celmu celmus celmā
-96	3496	eksperimentēt	eksperimentē eksperimentēja eksperimentējam eksperimentējat eksperimentējiet eksperimentējis eksperimentējot eksperimentējošs eksperimentēju eksperimentējām eksperimentēs eksperimentēsiet eksperimentēsim eksperimentēts eksperimentētu eksperimentēšana eksperimentēšu jāeksperimentē neeksperimentēt
-97	3497	cūkgaļa	cūkgaļai cūkgaļas cūkgaļu cūkgaļā
-98	3498	burka	burkai burkas burku burkā burkām burkās
-99	3499	vulkāns	vulkāna vulkānam vulkāni vulkāniem vulkānos vulkānu vulkānus vulkānā
-100	3500	slaids	slaida slaidai slaidais slaidajai slaidajam slaidajiem slaidajos slaidajām slaidam slaidas slaidi slaidie slaidiem slaido slaidos slaidu slaidus slaidā slaidāks slaidām slaidās
+1	3401	zīmēt	jāzīmē nezīmēt zīmē zīmēja zīmējam zīmējat zīmēji zīmējiet zīmējis zīmējot zīmēju zīmējām zīmējāt zīmēs zīmēsi zīmēsiet zīmēsim zīmēts zīmētu zīmēšana zīmēšot zīmēšu
+2	3402	norunāt	jānorunā nenorunā nenorunājām nenorunātas nenorunātās norunā norunāja norunājam norunāji norunājiet norunājis norunājot norunāju norunājusi norunājušas norunājuši norunājām norunājāt norunās norunāsi norunāsim norunāta norunātais norunātajam norunātajiem norunātajā norunātajām norunātas norunātie norunāto norunāts norunātu norunātus norunātā norunātās
+3	3403	lidaparāts	lidaparāta lidaparātam lidaparāti lidaparātiem lidaparātos lidaparātu lidaparātus lidaparātā
+4	3404	zarna	zarnai zarnas zarnu zarnā zarnām zarnās
+5	3405	krieviski	
+6	3406	āķis	āķa āķi āķiem āķim āķu āķus
+7	3407	vagons	vagona vagonam vagoni vagoniem vagonos vagonu vagonus vagonā
+8	3408	leņķis	leņķa leņķi leņķiem leņķim leņķos leņķu leņķus leņķī
+9	3409	konstitūcija	konstitūcijai konstitūcijas konstitūciju konstitūcijā konstitūcijām konstitūcijās
+10	3410	klīnisks	klīniska klīniskai klīniskais klīniskajai klīniskajam klīniskajiem klīniskajos klīniskajā klīniskajām klīniskas klīniskie klīniskiem klīnisko klīniskos klīnisku klīniskus klīniskā klīniskām klīniskās
+11	3411	zirneklis	zirnekli zirneklim zirneklī zirnekļa zirnekļi zirnekļiem zirnekļu zirnekļus
+12	3412	jautrība	jautrībai jautrības jautrību jautrībā jautrībām jautrībās
+13	3413	diriģents	diriģenta diriģentam diriģenti diriģentiem diriģentos diriģentu diriģentus
+14	3414	anketa	anketai anketas anketu anketā anketām anketās
+15	3415	bezgalīgs	bezgalīga bezgalīgai bezgalīgais bezgalīgajai bezgalīgajiem bezgalīgajos bezgalīgajā bezgalīgajām bezgalīgajās bezgalīgam bezgalīgas bezgalīgi bezgalīgie bezgalīgiem bezgalīgo bezgalīgos bezgalīgu bezgalīgus bezgalīgā bezgalīgām bezgalīgās
+16	3416	tabaka	tabakai tabakas tabaku tabakā
+17	3417	pieveikt	jāpieveic nepieveic nepieveica nepieveicams nepieveicu nepieveiks nepieveiksim pieveic pieveica pieveicam pieveicams pieveici pieveiciet pieveicis pieveicot pieveicu pieveicām pieveikdams pieveiks pieveiksi pieveiksim pieveikts pieveiktu pieveikšana pieveikšu
+18	3418	aploksne	aploksnei aploksnes aploksni aploksnē aploksnēm aploksnēs aplokšņu
+19	3419	līdzjūtība	līdzjūtībai līdzjūtības līdzjūtību līdzjūtībā līdzjūtībām
+20	3420	akcents	akcenta akcentam akcenti akcentiem akcentos akcentu akcentus akcentā
+21	3421	rasa	rasai rasas rasu rasā
+22	3422	pērns	pērna pērnais pērnajai pērnajam pērnajiem pērnajos pērnajā pērnajām pērnie pērniem pērno pērnos pērnā pērnās
+23	3423	devītais	devītai devītajai devītajam devītajiem devītajā devītajām devītajās devīti devītie devīto devītos devītu devītā devītās
+24	3424	citadele	citadelei citadeles citadeli citadelē citadelēm citadelēs citadeļu
+25	3425	teorētiski	
+26	3426	apdomāt	apdomā apdomāja apdomājam apdomājamu apdomājat apdomājiet apdomājis apdomājot apdomāju apdomājusi apdomājuši apdomājām apdomājāt apdomās apdomāsi apdomāsim apdomāta apdomātas apdomāti apdomātos apdomāts apdomātu apdomāšana apdomāšu jāapdomā neapdomā neapdomājot neapdomāju neapdomāsim neapdomāta neapdomātas neapdomāti neapdomātiem neapdomāts neapdomātu neapdomātus neapdomātā neapdomātām neapdomātās
+27	3427	iestudējums	iestudējuma iestudējumam iestudējumi iestudējumiem iestudējumos iestudējumu iestudējumus iestudējumā
+28	3428	uznākt	neuznāca neuznāk neuznāks uznāc uznāca uznāciet uznācis uznācu uznācām uznāk uznākam uznākot uznākošās uznāks uznāksiet uznāktu uznāku uznākusi uznākusī uznākuša uznākušais uznākušajam uznākušajā uznākušas uznākuši uznākušo uznākušā uznākušās uznākšana uznākšot
+29	3429	debija	debijai debijas debiju debijā debijām
+30	3430	karot	jākaro karo karodams karoja karojam karojat karojiet karojis karojot karojošs karoju karojām karos karosi karosiet karosim karosit karotu karošana karošot karošu nekarot
+31	3431	nonāvēt	jānonāvē nenonāvē nenonāvēja nenonāvējam nenonāvējamu nenonāvējiet nenonāvējošu nenonāvēs nenonāvēsi nenonāvēsiet nonāvē nonāvēja nonāvēji nonāvējiet nonāvējis nonāvējot nonāvēju nonāvējusi nonāvējušas nonāvējuši nonāvējāt nonāvēs nonāvēsi nonāvēsim nonāvēta nonāvēti nonāvētie nonāvētiem nonāvēto nonāvētos nonāvēts nonāvētu nonāvētā nonāvēšana nonāvēšu
+32	3432	iztīrīt	iztīra iztīri iztīriet iztīrot iztīru iztīrām iztīrāmas iztīrāmus iztīrāt iztīrīja iztīrīji iztīrījis iztīrīju iztīrījusi iztīrījuši iztīrījām iztīrījāt iztīrīs iztīrīsi iztīrīsim iztīrīta iztīrītas iztīrīti iztīrīto iztīrīts iztīrītu iztīrītās iztīrīšana iztīrīšanas iztīrīšanu iztīrīšu jāiztīra neiztīra neiztīrīji neiztīrījāt neiztīrīs neiztīrīsi neiztīrīta neiztīrītiem
+33	3433	santīms	santīma santīmam santīmi santīmiem santīmos santīmu santīmus
+34	3434	jocīgi	
+35	3435	pielietojums	pielietojuma pielietojumam pielietojumi pielietojumiem pielietojumos pielietojumu pielietojumus pielietojumā
+36	3436	mītne	mītnei mītnes mītni mītnē mītnēm mītnēs mītņu
+37	3437	neglīts	neglīta neglītai neglītais neglītajiem neglītajā neglītajām neglītas neglīti neglītie neglītiem neglīto neglītos neglītu neglītus neglītā neglītāka neglītākais neglītākajiem neglītākajām neglītākas neglītāki neglītāko neglītāks neglītākā neglītākām neglītākās neglītām neglītās
+38	3438	klavieres	klaviere klavieri klavieru klavierēm klavierēs
+39	3439	šķiedra	šķiedrai šķiedras šķiedru šķiedrā šķiedrām šķiedrās
+40	3440	ievads	ievad ievada ievadam ievadi ievadiem ievados ievadu ievadus ievadā
+41	3441	izrakstīt	izraksta izraksti izrakstot izrakstošajām izrakstu izrakstām izrakstīja izrakstīji izrakstījis izrakstīju izrakstījusi izrakstījuši izrakstījušo izrakstījām izrakstījāt izrakstīs izrakstīsiet izrakstīsim izrakstīta izrakstītais izrakstītajiem izrakstītajām izrakstītas izrakstīti izrakstītie izrakstītiem izrakstīto izrakstītos izrakstīts izrakstītu izrakstītus izrakstītā izrakstītās izrakstīšana izrakstīšu jāizraksta neizraksta neizrakstīt neizrakstītu
+42	3442	lejup	
+43	3443	enerģētika	enerģētikai enerģētikas enerģētiku enerģētikā
+44	3444	izrunāt	izrunāja izrunājam izrunājams izrunājat izrunājiet izrunājis izrunājot izrunāju izrunājusi izrunājuši izrunājām izrunāsiet izrunāsim izrunāta izrunātais izrunātajiem izrunātas izrunāti izrunāto izrunātos izrunāts izrunātu izrunāšana izrunāšanu izrunāšot jāizrunā neizrunā neizrunājams neizrunāji neizrunājot neizrunājām neizrunāt neizrunātas neizrunāti neizrunāto neizrunātos neizrunāts neizrunātu neizrunātā
+45	3445	citplanētietis	citplanētieti citplanētietim citplanētieša citplanētieši citplanētiešiem citplanētiešu citplanētiešus
+46	3446	gaiši	
+47	3447	ilgt	ilgst ilgstošs
+48	3448	krēms	krēma krēmam krēmi krēmiem krēmos krēmu krēmus krēmā
+49	3449	simt	
+50	3450	apskaut	apskauj apskaujat apskaujiet apskaujot apskauju apskaus apskausi apskausim apskauts apskautu apskaušana apskaušu apskāva apskāvis apskāvu jāapskauj neapskauj neapskaujam neapskausi neapskaušu neapskāva
+51	3451	mērīt	jāmēra mēra mēri mēriet mērot mēru mērām mērāms mērīdams mērīja mērīji mērījis mērīju mērījām mērīs mērīsim mērīts mērītu mērīšana mērīšanai mērīšanas mērīšanos mērīšanu mērīšanā mērīšanās
+52	3452	pieķerties	jāpieķeras nepieķeramies nepieķeras nepieķeries nepieķeros nepieķeroties nepieķersies nepieķersieties nepieķerties nepieķeršanās nepieķēros pieķeramies pieķeras pieķerdamies pieķeries pieķerieties pieķeros pieķeroties pieķersies pieķersimies pieķersities pieķertos pieķeršanās pieķeršos pieķēries pieķēros pieķērāmies pieķērās pieķērāties
+53	3453	ziemelis	ziemeli ziemeliem ziemelim ziemelos ziemelu ziemeļa ziemeļiem ziemeļos ziemeļu ziemeļus
+54	3454	migrācija	migrācijai migrācijas migrāciju migrācijā migrācijām
+55	3455	teiciens	teicien teiciena teicienam teicieni teicieniem teicienos teicienu teicienus teicienā
+56	3456	acumirklis	acumirkli acumirklī acumirkļa acumirkļiem acumirkļos acumirkļus
+57	3457	cienītājs	cienītāja cienītājam cienītāji cienītājiem cienītājos cienītāju cienītājus
+58	3458	sarakstīt	jāsaraksta nesarakstīja nesarakstīsi nesarakstīt sarakstiet sarakstot sarakstām sarakstāms sarakstāt sarakstīdami sarakstīja sarakstīji sarakstījis sarakstīju sarakstījusi sarakstījuši sarakstījām sarakstījāt sarakstīs sarakstīsi sarakstīsim sarakstīta sarakstītais sarakstītajiem sarakstītajā sarakstītajām sarakstītajās sarakstītas sarakstīti sarakstītie sarakstīto sarakstītos sarakstīts sarakstītu sarakstītus sarakstītā sarakstītās sarakstīšana sarakstīšu
+59	3459	mitrums	mitruma mitrumam mitrumos mitrumu mitrumā
+60	3460	sasaukt	jāsasauc nesasauc nesasaucat nesasaucot nesasauks nesasauktu nesasaukšot sasauc sasauca sasaucam sasauci sasauciet sasaucis sasaucot sasaucu sasaucām sasauks sasauksim sasaukts sasauktu sasaukšana sasaukšanai sasaukšanas sasaukšanu sasaukšanā sasaukšanās sasaukšot sasaukšu
+61	3461	apgriezt	apgriez apgrieza apgriezi apgrieziet apgriezis apgriezta apgrieztai apgrieztais apgrieztajiem apgrieztajām apgrieztam apgrieztas apgriezti apgrieztie apgrieztiem apgriezto apgrieztos apgriezts apgrieztu apgrieztus apgrieztā apgrieztām apgrieztās apgriezu apgriezusi apgriezuši apgriezīs apgriezīsi apgriezīsim apgriezīšu apgriešana apgriež apgriežam apgriežot apgriežu jāapgriež neapgriezt neapgriež neapgriežot
+62	3462	kārt	jākar kar karam karams kariet karu kāra kārais kārajai kārajam kārajiem kārajām kārajās kāram kāras kāri kārie kāriem kāris kāro kāros kārs kārsim kārtu kāru kārus kārā kārām kārās kāršana kāršu nekārt viskārāk
+63	3463	nospēlēt	jānospēlē nenospēlē nenospēlēja nenospēlēji nenospēlēju nenospēlējām nenospēlēsi nenospēlēsim nenospēlēt nenospēlētu nenospēlēšu nospēlē nospēlēja nospēlējam nospēlēji nospēlējiet nospēlējis nospēlējot nospēlēju nospēlējām nospēlējāt nospēlēs nospēlēsi nospēlēsiet nospēlēsim nospēlēts nospēlētu nospēlēšu
+64	3464	tirdziņš	tirdziņa tirdziņam tirdziņi tirdziņiem tirdziņos tirdziņu tirdziņus tirdziņā
+65	3465	krāšņs	krāšņa krāšņai krāšņais krāšņajai krāšņajam krāšņajiem krāšņajos krāšņajā krāšņajām krāšņam krāšņas krāšņie krāšņiem krāšņo krāšņos krāšņu krāšņus krāšņā krāšņāk krāšņāka krāšņākais krāšņākajiem krāšņākajām krāšņākas krāšņāki krāšņākie krāšņāko krāšņākos krāšņāks krāšņāku krāšņākus krāšņākā krāšņākās krāšņām krāšņās viskrāšņāk viskrāšņākie viskrāšņāko viskrāšņākās
+66	3466	maziņš	maziņa maziņai maziņais maziņajiem maziņajās maziņam maziņas maziņi maziņie maziņiem maziņo maziņs maziņu maziņus maziņā maziņākie maziņām maziņās
+67	3467	nodevējs	nodevēja nodevējam nodevēji nodevējiem nodevēju nodevējus
+68	3468	mikrofons	mikrofona mikrofonam mikrofoni mikrofoniem mikrofonu mikrofonus mikrofonā
+69	3469	apvidus	apvidi apvidiem apvidos apvidu apvidum apvidā apvidū
+70	3470	bērzs	bērza bērzam bērze bērzes bērzi bērziem bērzos bērzu bērzus bērzā bērzē bērzēs bēržu
+71	3471	pārskaitīt	jāpārskaita nepārskaita nepārskaitot nepārskaitīja nepārskaitīju nepārskaitījusi nepārskaitītu pārskaita pārskaiti pārskaitiet pārskaitot pārskaitu pārskaitām pārskaitāma pārskaitāmo pārskaitāt pārskaitīja pārskaitījis pārskaitīju pārskaitījusi pārskaitījuši pārskaitījām pārskaitīs pārskaitīsiet pārskaitīsim pārskaitīta pārskaitītajām pārskaitītas pārskaitīti pārskaitītie pārskaitīto pārskaitītos pārskaitīts pārskaitītu pārskaitītā pārskaitītās pārskaitīšana pārskaitīšot pārskaitīšu
+72	3472	secība	secībai secības secību secībā secībām secībās
+73	3473	pieslēgt	jāpieslēdz nepieslēdz nepieslēdza nepieslēdzot nepieslēgs nepieslēgt nepieslēgts nepieslēgtu nepieslēgšana pieslēdz pieslēdza pieslēdzam pieslēdzams pieslēdzat pieslēdziet pieslēdzis pieslēdzot pieslēdzu pieslēdzām pieslēdzāt pieslēgs pieslēgsi pieslēgsiet pieslēgsim pieslēgti pieslēgts pieslēgtu pieslēgšana pieslēgšu
+74	3474	bokss	boks boksa boksam boksi boksiem boksos boksu boksus boksā
+75	3475	rēta	rētai rētas rētu rētā rētām rētās
+76	3476	drūms	drūma drūmai drūmais drūmajai drūmajam drūmajiem drūmajos drūmajā drūmajām drūmajās drūmam drūmas drūmi drūmie drūmiem drūmo drūmos drūmu drūmus drūmā drūmāk drūmāka drūmākais drūmākajos drūmākajā drūmākas drūmāki drūmāko drūmāks drūmāku drūmākā drūmākās drūmām drūmās visdrūmākajā visdrūmākajās visdrūmāko visdrūmākā visdrūmākās
+77	3477	uzraudzīt	jāuzrauga neuzraudzīja neuzraudzīs neuzraudzīsim neuzraudzītu neuzrauga uzraudzīja uzraudzīji uzraudzījis uzraudzīs uzraudzīsi uzraudzīsim uzraudzīts uzraudzītu uzraudzīšana uzraudzīšu uzrauga uzraugi uzraugiet uzraugot uzraugu uzraugām uzraugāms
+78	3478	pankūka	pankūkai pankūkas pankūku pankūkā pankūkām pankūkās
+79	3479	zilonis	ziloni zilonim zilonī ziloņa ziloņi ziloņiem ziloņu ziloņus
+80	3480	apstiprinājums	apstiprinājuma apstiprinājumam apstiprinājumi apstiprinājumiem apstiprinājumu apstiprinājumus apstiprinājumā
+81	3481	vingrošana	vingrošanai vingrošanas vingrošanu vingrošanā vingrošanām
+82	3482	dzirnavas	dzirnava dzirnavu dzirnavām dzirnavās
+83	3483	latvisks	latviska latviskai latviskais latviskajai latviskajam latviskajiem latviskajos latviskajā latviskajām latviskajās latviskam latviskas latviskie latviskiem latvisko latviskos latvisku latviskus latviskā latviskāk latviskāka latviskākajiem latviskākajos latviskākajām latviskākas latviskāki latviskākie latviskākiem latviskāko latviskāks latviskāku latviskākus latviskākā latviskām latviskās vislatviskākais vislatviskākie vislatviskāko vislatviskākā
+84	3484	vākšana	vākšanai vākšanas vākšanu vākšanā vākšanās
+85	3485	šāvējs	šāvēja šāvējam šāvēji šāvējiem šāvēju šāvējus
+86	3486	ķieģelis	ķieģeli ķieģelim ķieģelus ķieģelī ķieģeļa ķieģeļi ķieģeļiem ķieģeļos ķieģeļu ķieģeļus
+87	3487	kastīte	kastītei kastītes kastīti kastītē kastītēm kastītēs kastīšu
+88	3488	negaiss	negais negaisa negaisam negaisi negaisiem negaisos negaisu negaisus negaisā
+89	3489	ienest	ienes ienesa ienesam ienesat ienesdams ienesi ienesiet ienesis ienesot ienests ienestu ienesu ienesām ienesīs ienesīsi ienesīsim ienesīšot ienesīšu ienešana jāienes neienes neienesa neienesam neienesot neienest neienestu neienesīs
+90	3490	vokāls	vokāla vokālai vokālais vokālajai vokālajam vokālajiem vokālajos vokālajā vokālajām vokālajās vokālam vokālie vokāliem vokālo vokālos vokālu vokālus vokālā vokālām vokālās
+91	3491	iepatikties	iepaticies iepatikas iepatikos iepatiksies iepatiksieties iepatiktos iepatikās iepatikšos iepatīcies iepatīkamies iepatīkas iepatīkos iepatīkoties jāiepatīkas neiepatikas neiepatiksies neiepatikties neiepatiktos neiepatikās neiepatīkas
+92	3492	tūkstoš	
+93	3493	pretestība	pretestībai pretestības pretestību pretestībā pretestībām
+94	3494	rehabilitācija	rehabilitācijai rehabilitācijas rehabilitāciju rehabilitācijā rehabilitācijām rehabilitācijās
+95	3495	skulptūra	skulptūrai skulptūras skulptūru skulptūrā skulptūrām skulptūrās
+96	3496	kompozīcija	kompozīcijai kompozīcijas kompozīciju kompozīcijā kompozīcijām kompozīcijās
+97	3497	paradums	paraduma paradumam paradumi paradumiem paradumos paradumu paradumus
+98	3498	emocionāli	
+99	3499	sadzīvot	jāsadzīvo nesadzīvo nesadzīvoju sadzīvo sadzīvoja sadzīvojam sadzīvojat sadzīvoji sadzīvojiet sadzīvojis sadzīvojot sadzīvoju sadzīvojusi sadzīvojušas sadzīvojuši sadzīvojām sadzīvos sadzīvosim sadzīvotu sadzīvošana sadzīvošu
+100	3500	riet	jārej neriet rej rejam rejat rejiet rejot rejošs reju riedams ries rietu riešana rēja rēji

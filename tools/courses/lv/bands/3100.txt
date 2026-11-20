@@ -1,100 +1,100 @@
-1	3001	leģendārs	leģendāra leģendārai leģendārais leģendārajai leģendārajam leģendārajiem leģendārajos leģendārajā leģendārajām leģendārajās leģendāras leģendāri leģendārie leģendāriem leģendāro leģendāros leģendāru leģendārus leģendārā leģendārām leģendārās
-2	3002	izcīņa	izcīņā
-3	3003	asmens	asmeni asmenim asmeņi asmeņiem asmeņu asmeņus
-4	3004	sēt	jāsēj nesēt sēdams sēj sēja sējai sējam sējams sējas sējat sējiem sējiet sējis sējot sēju sējā sējām sējāt sēs sēsi sēsiet sēsim sēsit sēts sētu sēšana sēšot sēšu
-5	3005	gids	gid gida gidam gide gidi gidiem gidu gidus gidā
-6	3006	ķirurgs	ķirurg ķirurga ķirurgam ķirurgi ķirurgiem ķirurgu ķirurgus ķirurģe
-7	3007	kvalificēts	kvalificēta kvalificētai kvalificētais kvalificētajai kvalificētajam kvalificētajiem kvalificētajām kvalificētam kvalificētas kvalificēti kvalificētie kvalificētiem kvalificēto kvalificētos kvalificētu kvalificētus kvalificētā kvalificētāks kvalificētām kvalificētās
-8	3008	spriedze	spriedzi
-9	3009	zārks	zārka zārkam zārki zārkiem zārkos zārku zārkus zārkā
-10	3010	vampīrs	vampīr vampīra vampīram vampīri vampīriem vampīru vampīrus
-11	3011	dabasgāze	dabasgāzei dabasgāzes dabasgāzi
-12	3012	litrs	litru
-13	3013	balkons	balkona balkonam balkoni balkoniem balkonos balkonu balkonus balkonā
-14	3014	bruņas	bruņa bruņu bruņām bruņās
-15	3015	svešvaloda	svešvalodai svešvalodas svešvalodu svešvalodā svešvalodām svešvalodās
-16	3016	locītava	locītavai locītavas locītavu locītavā locītavām locītavās
-17	3017	vērsis	vērsi vērsim vērsī vērša vērši vēršiem vēršos vēršu vēršus
-18	3018	ēģiptietis	ēģiptieti ēģiptietim ēģiptieša ēģiptieši ēģiptiešiem ēģiptiešu ēģiptiešus
-19	3019	kalifornijs	kalifornija kaliforniju kalifornijā
-20	3020	alkoholisks	alkoholiska alkoholiskais alkoholiskajiem alkoholiskajos alkoholiskajā alkoholiskas alkoholiski alkoholiskie alkoholiskiem alkoholisko alkoholiskos alkoholisku alkoholiskus alkoholiskā alkoholiskās
-21	3021	mazdēls	mazdēla mazdēlam mazdēli mazdēliem mazdēlu mazdēlā
-22	3022	bērniņš	
-23	3023	nabadzīgs	nabadzīga nabadzīgai nabadzīgais nabadzīgajai nabadzīgajiem nabadzīgajos nabadzīgajā nabadzīgajām nabadzīgajās nabadzīgam nabadzīgas nabadzīgi nabadzīgie nabadzīgiem nabadzīgo nabadzīgos nabadzīgu nabadzīgus nabadzīgā nabadzīgāks nabadzīgām nabadzīgās visnabadzīgākais
-24	3024	indiānis	indiāni indiānietes indiānieti indiānim indiāņa indiāņi indiāņiem indiāņos indiāņu indiāņus
-25	3025	plūst	plūda
-26	3026	banāns	banāna banānam banāni banāniem banānos banānu banānus banānā
-27	3027	kritiķis	kritiķi kritiķu
-28	3028	vienpadsmit	vienpadsmitiem vienpadsmitos
-29	3029	īstenība	īstenībai īstenības īstenību
-30	3030	trakums	trakum trakuma trakumam trakumi trakumiem trakumu trakumus trakumā
-31	3031	krogs	kroga krogam krogi krogiem krogos krogu krogus krogā
-32	3032	plate	platei plates platē platēm platēs plašu
-33	3033	nedzīvs	nedzīva nedzīvai nedzīvais nedzīvajai nedzīvajā nedzīvas nedzīvi nedzīviem nedzīvo nedzīvos nedzīvu nedzīvā nedzīvāks nedzīvām nedzīvās
-34	3034	cālis	cāli cālim cālī cāļa cāļi cāļiem cāļu cāļus
-35	3035	seksīgi	
-36	3036	plašsaziņas	
-37	3037	juridisks	juridisko
-38	3038	filmēt	filmē
-39	3039	vāvere	vāverei vāveres vāveri vāveru vāverē vāverēm vāverēs
-40	3040	ķerties	
-41	3041	konstrukcija	konstrukciju
-42	3042	ķivere	ķiverei ķiveres ķiveri ķiveru ķiverē ķiverēm ķiverēs
-43	3043	krimināllikums	krimināllikuma
-44	3044	klausule	klausulei klausules klausuli klausulē klausulēm
-45	3045	kola	kolai kolas kolu kolā kolām
-46	3046	miza	mizai mizam mizas mizi mizu mizā mizām mizās
-47	3047	morāle	morālei morāles morālē morālēm
-48	3048	izmaksāt	
-49	3049	spars	spar spara sparam sparu sparā
-50	3050	līkums	līkuma līkumam līkumi līkumiem līkumos līkumu līkumus līkumā
-51	3051	nasta	nastai nastas nastu nastā nastām
-52	3052	kostīms	kostīmu
-53	3053	sportot	jāsporto sporto sportoja sportojam sportojat sportoji sportojiet sportojis sportojot sportoju sportojām sportojāt sportos sportosi sportosiet sportosim sportots sportotu sportošana sportošot sportošu
-54	3054	kaklasaite	kaklasaitei kaklasaites kaklasaiti kaklasaitē kaklasaitēm kaklasaitēs kaklasaišu
-55	3055	grezns	grezna greznai greznais greznajai greznajam greznajiem greznajos greznajā greznajām greznajās greznam greznas grezni greznie grezniem grezno greznos greznu greznus greznā greznāks greznām greznās
-56	3056	likumīgi	
-57	3057	aprakt	apracis apraka apraki apraks apraksi apraksiet apraksim aprakts apraktu apraku aprakāt aprakšana aprakšu aproc aprociet aprok aprokam aprokat aprokot aproku jāaprok
-58	3058	acīmredzami	
-59	3059	celis	celi celim celī ceļa ceļi ceļiem ceļos ceļu ceļus
-60	3060	dzemdēt	dzemdē dzemdēja dzemdējat dzemdēji dzemdējiet dzemdējis dzemdējot dzemdēju dzemdējām dzemdēs dzemdēsi dzemdēts dzemdētu dzemdēšana dzemdēšanai dzemdēšanas dzemdēšanu dzemdēšu jādzemdē
-61	3061	mirstīgs	mirstīga mirstīgais mirstīgajai mirstīgajam mirstīgajiem mirstīgajā mirstīgajām mirstīgam mirstīgas mirstīgi mirstīgie mirstīgiem mirstīgo mirstīgos mirstīgu mirstīgā mirstīgās
-62	3062	tautība	tautībai tautībam tautības tautību tautībā tautībām tautībās
-63	3063	ābele	ābelei ābeles ābeli ābelē ābelēm ābelēs ābeļu
-64	3064	vardarbība	
-65	3065	deficīts	deficītu
-66	3066	koeficients	koeficientu
-67	3067	galvassāpes	galvassāpju galvassāpēm galvassāpēs
-68	3068	kukurūza	kukurūzai kukurūzas kukurūzu
-69	3069	apsēsties	apsēdās apsēžas
-70	3070	akcentēt	akcentē akcentēja akcentējam akcentējis akcentējot akcentēju akcentējām akcentēs akcentēsim akcentēts akcentētu akcentēšana akcentēšanai akcentēšanas akcentēšanu akcentēšu jāakcentē neakcentēt
-71	3071	nostāties	nostājās
-72	3072	pērt	jāper per perams perot peru pēra pēri pēris pērsi pērsim pērts pērtu pēru pērāt pēršana pēršu
-73	3073	zinība	zinības zinību zinībām zinībās
-74	3074	sviestmaize	sviestmaizei sviestmaizes sviestmaizi sviestmaizē sviestmaizēm sviestmaizēs sviestmaižu
-75	3075	salt	jāsalst nesalt saldams sali salis salsi salst salstam salsti salstot salstu salta saltai saltais saltajai saltajam saltajos saltajā saltam saltas saltiem salto saltos salts saltu saltus saltā saltāks saltām saltās salu salām salšana
-76	3076	slepus	
-77	3077	evolūcija	evolūcijai evolūcijas evolūciju evolūcijā
-78	3078	jel	
-79	3079	šķīvis	šķīvi šķīvim šķīvja šķīvji šķīvjiem šķīvjos šķīvju šķīvjus šķīvī
-80	3080	sūkāt	jāsūkā sūkā sūkāja sūkāji sūkājiet sūkājis sūkājot sūkāju sūkās sūkāsi sūkātu sūkāšana sūkāšanas sūkāšanu sūkāšu
-81	3081	nejēga	nejēgai nejēgam nejēgas nejēgu nejēgā nejēgām nejēgās
-82	3082	samazināšanās	samazināšanos
-83	3083	todien	
-84	3084	seniors	senioru
-85	3085	mākslīgi	
-86	3086	dānis	dāni dāniete dānietes dānim dāņa dāņi dāņiem dāņu dāņus
-87	3087	frizūra	frizūrai frizūras frizūru frizūrā frizūrām frizūrās
-88	3088	dārgakmens	dārgakmeni dārgakmenim dārgakmenī dārgakmeņi dārgakmeņiem dārgakmeņos dārgakmeņu dārgakmeņus
-89	3089	teicami	
-90	3090	daina	dainai dainas dainu dainām dainās
-91	3091	cilvēcisks	cilvēciska cilvēciskai cilvēciskais cilvēciskajai cilvēciskajam cilvēciskajiem cilvēciskajos cilvēciskajā cilvēciskajām cilvēciskajās cilvēciskam cilvēciskas cilvēciskie cilvēciskiem cilvēcisko cilvēciskos cilvēcisku cilvēciskus cilvēciskā cilvēciskāks cilvēciskām cilvēciskās viscilvēciskākais
-92	3092	skudra	skudrai skudras skudre skudri skudru skudrām
-93	3093	ārprāts	ārprāta ārprātam ārprātu ārprātā
-94	3094	svārstība	svārstībai svārstības svārstību svārstībām svārstībās
-95	3095	aši	
-96	3096	imigrants	imigrantiem imigrantu
-97	3097	kvieši	kviesis kviešiem kviešos kviešu kviešus
-98	3098	saskaņots	saskaņota saskaņotai saskaņotais saskaņotajai saskaņotajam saskaņotajiem saskaņotajos saskaņotajā saskaņotajām saskaņotam saskaņotas saskaņoti saskaņotie saskaņotiem saskaņoto saskaņotos saskaņotu saskaņotus saskaņotā saskaņotāks saskaņotām saskaņotās
-99	3099	delfīns	delfīna delfīnam delfīni delfīniem delfīnu delfīnus
-100	3100	krējums	krējuma krējumam krējumu krējumā
+1	3001	japānis	japāni japāniete japānietes japānieti japānietēm japāniešu japānim japāņa japāņi japāņiem japāņu japāņus
+2	3002	bremze	bremzei bremzes bremzi bremzē bremzēm bremzēs bremžu
+3	3003	kritika	kritikai kritikas kritiku kritikā kritikām kritikās
+4	3004	dvīnis	dvīne dvīnes dvīni dvīnim dvīnēm dvīņa dvīņi dvīņiem dvīņos dvīņu dvīņus
+5	3005	doks	dok doka dokam doki dokiem dokos doku dokus dokā
+6	3006	arests	aresta arestam aresti arestiem arestos arestu arestus arestā
+7	3007	tuksnesis	tuksnesi tuksnesim tuksnesī tuksneša tuksneši tuksnešiem tuksnešos tuksnešu tuksnešus
+8	3008	cimds	cimd cimda cimdam cimdi cimdiem cimdos cimdu cimdus cimdā
+9	3009	svētīt	jāsvētī svēta svēti svētiet svētot svētu svētām svētī svētīdams svētīja svētījam svētīji svētījiet svētījis svētījot svētīju svētīs svētīsi svētīsim svētīts svētītu svētīšana svētīšu
+10	3010	frāze	frāzei frāzes frāzi frāzē frāzēm frāzēs frāžu
+11	3011	konkrēti	
+12	3012	koncertzāle	koncertzālei koncertzāles koncertzāli koncertzālē koncertzālēm koncertzālēs koncertzāļu
+13	3013	precēt	jāprec prec precam preci precot precu precēja precējis precēs precēsi precēts precētu precēšu
+14	3014	muļķīgi	
+15	3015	piesacīties	jāpiesakās nepiesakas nepiesakies nepiesakieties nepiesakos nepiesakoties nepiesakāmies nepiesakās piesakas piesakies piesakieties piesakos piesakoties piesakāmas piesakāmies piesakās piesakāties
+16	3016	piesegt	jāpiesedz nepiesedz nepiesedzam nepiesedzu nepiesegs nepiesegsim nepiesegt nepiesegts nepiesegtu nepiesegšu piesedz piesedza piesedzam piesedzi piesedziet piesedzis piesedzot piesedzu piesedzāt piesegs piesegsi piesegsiet piesegsim piesegts piesegtu piesegšana piesegšu
+17	3017	pabūt	nepabija nepabijis nepabijusi nepabijuši nepabūsim nepabūt pabija pabiji pabijis pabiju pabijusi pabijušais pabijušajai pabijušajam pabijušajiem pabijušas pabijuši pabijušie pabijušiem pabijušo pabijušu pabijušus pabijušā pabijām pabijāt pabūdams pabūs pabūsiet pabūsim pabūts pabūtu pabūšana pabūšu
+18	3018	jebkāds	jebkāda jebkādas
+19	3019	frakcija	frakcijai frakcijas frakciju frakcijā frakcijām frakcijās
+20	3020	darbavieta	darbavietai darbavietas darbavietu darbavietā darbavietām darbavietās
+21	3021	pārvaldīt	jāpārvalda nepārvalda nepārvaldi nepārvaldot nepārvaldu nepārvaldām nepārvaldāt nepārvaldīja nepārvaldīs nepārvaldītu nepārvaldīšana pārvalda pārvaldiet pārvaldot pārvaldu pārvaldām pārvaldāms pārvaldāt pārvaldīja pārvaldījis pārvaldīju pārvaldījām pārvaldīs pārvaldīsiet pārvaldīsim pārvaldīts pārvaldītu pārvaldīšana
+22	3022	inde	indei indes indi indē indēm indēs ini inu inžu
+23	3023	atkārtoties	atkārtojamies atkārtojas atkārtojaties atkārtojies atkārtojos atkārtojoties atkārtojusies atkārtojušies atkārtojušās atkārtojās atkārtosies atkārtosimies atkārtotos atkārtošanās atkārtošoties neatkārtojas neatkārtojos neatkārtojoties neatkārtojās neatkārtosies neatkārtosimies neatkārtoties neatkārtotos neatkārtošanās neatkārtošoties
+24	3024	steidzami	
+25	3025	atskaite	atskaitei atskaites atskaiti atskaitē atskaitēm atskaitēs atskaišu
+26	3026	parādnieks	parādnieka parādniekam parādnieki parādniekiem parādniekos parādnieku parādniekus
+27	3027	buss	bus busa busam busi busiem busos busu busus busā
+28	3028	strēlnieks	strēlniece strēlnieces strēlnieci strēlniek strēlnieka strēlniekam strēlnieki strēlniekiem strēlniekos strēlnieku strēlniekus strēlniekā
+29	3029	estrāde	estrādei estrādes estrādi estrādē estrādēm estrādēs estrāžu
+30	3030	radītājs	radītāj radītāja radītājam radītāji radītājiem radītājos radītāju radītājus radītājā
+31	3031	aizdomāties	aizdomājamies aizdomājas aizdomājaties aizdomājies aizdomājieties aizdomājos aizdomājoties aizdomājusies aizdomājušies aizdomājušās aizdomājāmies aizdomājās aizdomāsies aizdomāsieties aizdomāsimies aizdomātos aizdomāšanās jāaizdomājas neaizdomājamies neaizdomājas neaizdomājaties neaizdomājies neaizdomājos neaizdomājoties neaizdomājās neaizdomāsies neaizdomāties neaizdomātos
+32	3032	arābs	arāba arābam arābi arābiem arābos arābu arābus
+33	3033	ligzda	ligzdai ligzdas ligzdu ligzdā ligzdām ligzdās
+34	3034	katastrofa	katastrofai katastrofas katastrofu katastrofā katastrofām katastrofās
+35	3035	attālināt	attālina attālini attālinot attālināja attālinājusi attālinājuši attālinām attālinās attālināsi attālināta attālinātais attālinātas attālināti attālinātie attālināto attālināts attālinātu attālinātā attālināšanas attālināšanu jāattālina neattālinās
+36	3036	seniors	seniora senioram seniori senioriem senioros senioru seniorus
+37	3037	dzimtene	dzimtenei dzimtenes dzimteni dzimtenē dzimtenēs
+38	3038	revolūcija	revolūcijai revolūcijas revolūciju revolūcijā revolūcijām revolūcijās
+39	3039	brūce	brūcei brūces brūci brūcē brūcēm brūcēs brūču
+40	3040	tomāts	tomāt tomāta tomātam tomāti tomātiem tomātos tomātu tomātus tomātā
+41	3041	indekss	indeksa indeksam indeksi indeksiem indeksos indeksu indeksus indeksā
+42	3042	sirdsapziņa	sirdsapziņai sirdsapziņas sirdsapziņu sirdsapziņā sirdsapziņām sirdsapziņās
+43	3043	sals	sal salam saliem salos salu salus salā
+44	3044	izcili	
+45	3045	lampa	lampai lampam lampas lampu lampā lampām lampās
+46	3046	laipns	laipna laipnai laipnais laipnajai laipnajam laipnajiem laipnajām laipnam laipnas laipnie laipniem laipno laipnos laipnu laipnus laipnā laipnāk laipnāka laipnākai laipnākais laipnākajiem laipnākam laipnākas laipnāki laipnākie laipnākiem laipnāks laipnāku laipnākā laipnākās laipnām laipnās lipno
+47	3047	sfēra	sfērai sfēras sfēru sfērā sfērām sfērās
+48	3048	fronte	frontei frontes fronti frontē frontēm frontēs
+49	3049	kabelis	kabeli kabelim kabelu kabelī kabeļa kabeļi kabeļiem kabeļos kabeļu kabeļus
+50	3050	slapjš	slapja slapjai slapjais slapjajai slapjajam slapjajiem slapjajos slapjajā slapjajām slapjajās slapjam slapjas slapji slapjie slapjiem slapjo slapjos slapju slapjus slapjā slapjāka slapjākajam slapjākajiem slapjākajos slapjākajā slapjākajām slapjākam slapjāki slapjākiem slapjāks slapjāku slapjām slapjās
+51	3051	noskūpstīt	jānoskūpsta nenoskūpsti nenoskūpstīja nenoskūpstīji nenoskūpstījis nenoskūpstīju nenoskūpstīsi nenoskūpstīšu noskūpsta noskūpsti noskūpstiet noskūpstot noskūpstu noskūpstīja noskūpstīji noskūpstījis noskūpstīju noskūpstījusi noskūpstījām noskūpstīs noskūpstīsi noskūpstīsiet noskūpstītu noskūpstīšana noskūpstīšu
+52	3052	dibinātājs	dibinātāja dibinātājai dibinātājam dibinātājas dibinātāji dibinātājiem dibinātājos dibinātāju dibinātājus dibinātājā dibinātājām
+53	3053	augša	augšai augšas augšu augšām augšās
+54	3054	neilgs	neilga neilgais neilgajai neilgajam neilgajā neilgajās neilgam neilgas neilgi neilgie neilgiem neilgo neilgu neilgā neilgāk neilgāka neilgām neilgās
+55	3055	pārruna	pārrunai pārrunas pārrunu pārrunā pārrunām pārrunās
+56	3056	džungļi	džungļiem džungļos džungļu džungļus
+57	3057	mūžība	mūžībai mūžības mūžību mūžībā
+58	3058	piestāvēt	nepiestāv nepiestāvot nepiestāvēja nepiestāvēs nepiestāvēsi nepiestāvēt nepiestāvētu piestāv piestāvam piestāvot piestāvošajam piestāvoši piestāvošie piestāvošs piestāvošu piestāvošā piestāvu piestāvēja piestāvēs piestāvētu piestāvēšot
+59	3059	gailis	gaiam gaiiem gaila gaili gailiem gailim gaiu gaiā gaiļa gaiļi gaiļiem gaiļos gaiļu gaiļus
+60	3060	norāde	norādei norādes norādi norādē norādēm norādēs norāžu
+61	3061	īrs	īr īra īram īri īriem īriete īrietes īrieti īriešu īros īru īrus
+62	3062	skaidrojums	skaidrojuma skaidrojumam skaidrojumi skaidrojumiem skaidrojumos skaidrojumu skaidrojumus skaidrojumā
+63	3063	īpatsvars	īpatsvara īpatsvaram īpatsvariem īpatsvaru īpatsvarus īpatsvarā
+64	3064	pusotrs	pusotra pusotru
+65	3065	milti	milta miltiem miltos milts miltu miltus
+66	3066	lāsts	lāsta lāstam lāsti lāstiem lāstos lāstu lāstus lāstā
+67	3067	ietaupīt	ietaupa ietaupi ietaupiet ietaupot ietaupu ietaupām ietaupāt ietaupīja ietaupījis ietaupīju ietaupījusi ietaupījušas ietaupījuši ietaupījām ietaupījāt ietaupīs ietaupīsi ietaupīsiet ietaupīsim ietaupīta ietaupītais ietaupītas ietaupīti ietaupītie ietaupīto ietaupīts ietaupītu ietaupītā ietaupīšana ietaupīšanas ietaupīšanu ietaupīšanā ietaupīšu jāietaupa neietaupi neietaupāt neietaupīs neietaupīsiet neietaupīt
+68	3068	apņemties	apņemamies apņemas apņematies apņemdamies apņemies apņemieties apņemos apņemoties apņemsies apņemsimies apņemtos apņemšanās apņemšos apņēmies apņēmos apņēmusies apņēmušies apņēmušās apņēmāmies apņēmās apņēmāties jāapņemas neapņemas neapņemos neapņemoties neapņēmās
+69	3069	bloķēt	bloķē bloķēja bloķējam bloķējami bloķējiet bloķējis bloķējot bloķējošajām bloķējošie bloķējošo bloķējošā bloķējusi bloķējušas bloķējuši bloķēs bloķēsiet bloķēsim bloķēta bloķētais bloķētajam bloķētajā bloķētas bloķēti bloķētiem bloķēto bloķēts bloķētu bloķētā bloķētās bloķēšana bloķēšanai bloķēšanas bloķēšanu bloķēšanās jābloķē nebloķē nebloķējam nebloķēs nebloķētu
+70	3070	izpausme	izpausmei izpausmes izpausmi izpausmju izpausmē izpausmēm izpausmēs
+71	3071	pastiprināt	jāpastiprina nepastiprina nepastiprināja nepastiprinām nepastiprinās pastiprina pastiprini pastipriniet pastiprinot pastiprinošs pastiprināja pastiprinājis pastiprināju pastiprinājām pastiprinām pastiprināms pastiprinās pastiprināsi pastiprināsim pastiprināts pastiprinātu pastiprināšana pastiprināšot pastiprināšu
+72	3072	pārbaudījums	pārbaudījuma pārbaudījumam pārbaudījumi pārbaudījumiem pārbaudījumos pārbaudījumu pārbaudījumus pārbaudījumā
+73	3073	trešdaļa	trešdaļai trešdaļas trešdaļu trešdaļā trešdaļām trešdaļās
+74	3074	augsne	augsnei augsnes augsni augsnē augsnēm augsnēs augšņu
+75	3075	nogriezt	jānogriež nenogrieztu nenogriezīs nenogriež nogriez nogrieza nogriezi nogrieziet nogriezis nogriezta nogrieztais nogrieztajām nogrieztas nogriezti nogrieztie nogrieztiem nogriezto nogrieztos nogriezts nogrieztu nogrieztus nogrieztā nogrieztām nogrieztās nogriezu nogriezusi nogriezuši nogriezām nogriezīs nogriezīsi nogriezīsiet nogriezīsim nogriezīšu nogriešana nogriež nogriežam nogriežat nogriežot nogriežu
+76	3076	osis	oi osi osim osī oša oši ošiem ošu ošus
+77	3077	kvadrātmetrs	kvadrātmetra kvadrātmetram kvadrātmetri kvadrātmetriem kvadrātmetros kvadrātmetru kvadrātmetrus kvadrātmetrā
+78	3078	apbrīnot	apbrīno apbrīnoja apbrīnojam apbrīnojams apbrīnojat apbrīnoji apbrīnojis apbrīnojot apbrīnoju apbrīnojām apbrīnos apbrīnosi apbrīnosim apbrīnots apbrīnotu apbrīnošana jāapbrīno neapbrīnot
+79	3079	sols	sol sola solam soliem solos solu solus solā
+80	3080	apaļš	apaļa apaļai apaļais apaļajai apaļajam apaļajiem apaļajos apaļajā apaļajām apaļajās apaļam apaļas apaļi apaļie apaļiem apaļo apaļos apaļs apaļu apaļus apaļā apaļāka apaļākas apaļāki apaļākiem apaļāks apaļāku apaļākus apaļākām apaļām apaļās
+81	3081	noziedzīgs	noziedzīga noziedzīgai noziedzīgais noziedzīgajai noziedzīgajam noziedzīgajiem noziedzīgajos noziedzīgajā noziedzīgajām noziedzīgajās noziedzīgam noziedzīgas noziedzīgi noziedzīgie noziedzīgiem noziedzīgo noziedzīgos noziedzīgu noziedzīgus noziedzīgā noziedzīgāk noziedzīgākas noziedzīgām noziedzīgās
+82	3082	izskanēt	izskan izskanam izskanot izskanēja izskanējis izskanēs izskanētu izskanēšana izskanēšot jāizskan neizskan neizskanot neizskanēja neizskanēs neizskanētu
+83	3083	karalisks	karaliska karaliskai karaliskais karaliskajai karaliskajam karaliskajiem karaliskajos karaliskajā karaliskajām karaliskas karaliskie karaliskiem karalisko karalisku karaliskā karaliskām karaliskās
+84	3084	dievkalpojums	dievkalpojuma dievkalpojumam dievkalpojumi dievkalpojumiem dievkalpojumos dievkalpojumu dievkalpojumus dievkalpojumā
+85	3085	popularitāte	popularitātei popularitātes popularitāti popularitātē
+86	3086	pastaigāties	jāpastaigājas nepastaigājās nepastaigātos pastaigādamies pastaigājamies pastaigājas pastaigājaties pastaigājies pastaigājieties pastaigājos pastaigājoties pastaigājāmies pastaigājās pastaigāsies pastaigāsimies pastaigātos pastaigāšanās pastaigāšos
+87	3087	griesti	griestiem griestos griestu griestus
+88	3088	centiens	centienam centieni centieniem centienos centienu centienus
+89	3089	elite	elitei elites eliti elitē elitēm elišu
+90	3090	nodarbinātība	nodarbinātībai nodarbinātības nodarbinātību nodarbinātībā
+91	3091	debates	debai debatēm debatēs debašu
+92	3092	plats	plata platai platais platajai platajam platajiem platajā platajām platajās platas platie platiem plato platu platus platā platāk platāka platākais platākajai platākajiem platākajām platākas platāki platākie platākiem platāko platākos platāks platāku platākus platākā platākām platākās platām platās visplatāk
+93	3093	stulbenis	stulbene stulbenes stulbeni stulbenim stulbeņa stulbeņi stulbeņiem stulbeņu stulbeņus
+94	3094	baigs	baiga baigai baigais baigajam baigajiem baigajos baigajā baigam baigas baigie baigiem baigo baigos baigu baigā baigākais baigākas baigāko baigākās baigām baigās
+95	3095	mīļākais	
+96	3096	rieksts	rieksta riekstam rieksti riekstiem riekstos riekstu riekstus riekstā
+97	3097	ieradums	ieradum ieraduma ieradumam ieradumi ieradumiem ieradumos ieradumu ieradumus ieradumā
+98	3098	mērce	mērcei mērces mērci mērcē mērcēm mērcēs mērču
+99	3099	zvērēt	jāzvēr zvēr zvēram zvērat zvēri zvēriet zvērot zvēru zvērēdams zvērēja zvērēji zvērējis zvērēju zvērējām zvērējāt zvērēs zvērēsi zvērēsim zvērēšana zvērēšu
+100	3100	nelietis	neliete nelieti nelietim nelietos nelietu nelietī nelieša nelieši neliešiem neliešu neliešus

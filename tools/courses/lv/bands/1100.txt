@@ -1,83 +1,83 @@
 1	1001	norma	normai normam normas normu normā normām normās
-2	1002	pelnīt	jāpelna nepelnīt pelna pelni pelniem pelniet pelnos pelnot pelnošais pelnošs pelns pelnu pelnus pelnām pelnāt pelnīdams pelnīja pelnīji pelnījis pelnīju pelnījām pelnīs pelnīsi pelnīsiet pelnīsim pelnīta pelnītais pelnītas pelnītos pelnīts pelnītu pelnītā pelnītās pelnīšana pelnīšanai pelnīšanas pelnīšanu pelnīšanā pelnīšu
-3	1003	pienākums	pienākumiem pienākumus
-4	1004	atgādināt	atgādina atgādināja
+2	1002	pelnīt	jāpelna nepelna nepelnāt nepelnīts pelna pelni pelniem pelnos pelnot pelnoša pelnošo pelnošs pelnošu pelnu pelnus pelnām pelnāt pelnīja pelnīji pelnījis pelnīju pelnījusi pelnījušas pelnījuši pelnīs pelnīsiet pelnīsim pelnīta pelnītas pelnīto pelnīts pelnītu pelnītā pelnītās pelnīšana pelnīšanai pelnīšanas pelnīšanu pelnīšu
+3	1003	pienākums	pienākuma pienākumam pienākumi pienākumiem pienākumos pienākumu pienākumus pienākumā
+4	1004	atgādināt	atgādina atgādini atgādiniet atgādinot atgādinu atgādinādams atgādināja atgādināji atgādinājis atgādināju atgādinājusi atgādinājušas atgādinājuši atgādinājām atgādinājāt atgādinām atgādināms atgādinās atgādināsi atgādināsim atgādināta atgādināti atgādināts atgādinātu atgādinātā atgādināšana atgādināšanas atgādināšanu atgādināšu jāatgādina neatgādina neatgādini neatgādiniet neatgādināja neatgādināju neatgādinām neatgādinās neatgādināt neatgādināšu
 5	1005	advokāts	advokāt advokāta advokātam advokāti advokātiem advokātu advokātus advokātā
-6	1006	zils	zila zilai zilais zilajai zilajam zilajiem zilajos zilajā zilajām zilajās zilam zilas zili zilie ziliem zilo zilos zilu zilus zilā zilām zilās
+6	1006	zils	viszilākos viszilākām viszilākās zila zilai zilais zilajai zilajam zilajiem zilajos zilajā zilajām zilajās zilam zilas zili zilie ziliem zilo zilos zilu zilus zilā zilāka zilākai zilākajām zilākas zilāki zilāko zilākām zilām zilās
 7	1007	ražotājs	ražotāja ražotājai ražotājam ražotājas ražotāji ražotājiem ražotājos ražotāju ražotājus ražotājā ražotājām
 8	1008	brīnums	brīnum brīnuma brīnumam brīnumi brīnumiem brīnumos brīnumu brīnumus brīnumā
 9	1009	variants	variant varianta variantam varianti variantiem variantos variantu variantus variantā
-10	1010	pilnīgs	pilnīga pilnīgai pilnīgais pilnīgajai pilnīgajos pilnīgajā pilnīgam pilnīgas pilnīgie pilnīgiem pilnīgo pilnīgos pilnīgu pilnīgus pilnīgā pilnīgāks pilnīgām pilnīgās vispilnīgākais
+10	1010	pilnīgs	pilnīga pilnīgai pilnīgais pilnīgajai pilnīgajos pilnīgajā pilnīgam pilnīgas pilnīgie pilnīgiem pilnīgo pilnīgos pilnīgu pilnīgus pilnīgā pilnīgāk pilnīgāka pilnīgākai pilnīgākais pilnīgākajai pilnīgākajā pilnīgākam pilnīgākas pilnīgāki pilnīgākie pilnīgāko pilnīgākos pilnīgāks pilnīgāku pilnīgākus pilnīgākā pilnīgākās pilnīgām pilnīgās vispilnīgāk vispilnīgākais vispilnīgākajā vispilnīgāko vispilnīgākā
 11	1011	pārsteigums	pārsteiguma pārsteigumam pārsteigumi pārsteigumiem pārsteigumos pārsteigumu pārsteigumus pārsteigumā
 12	1012	krasts	krasta krastam krasti krastiem krastos krastu krastus krastā
-13	1013	sarežģīts	sarežģīta sarežģītai sarežģītais sarežģītajai sarežģītajam sarežģītajiem sarežģītajos sarežģītajā sarežģītajām sarežģītajās sarežģītam sarežģītas sarežģīti sarežģītie sarežģītiem sarežģīto sarežģītos sarežģītu sarežģītus sarežģītā sarežģītāks sarežģītām sarežģītās vissarežģītākais
-14	1014	priekšsēdētājs	priekšsēdētāju
-15	1015	izlase	izlases
+13	1013	sarežģīts	sarežģīta sarežģītais sarežģītajiem sarežģītajos sarežģītajā sarežģītajām sarežģītam sarežģītas sarežģīti sarežģītie sarežģītiem sarežģīto sarežģītos sarežģītu sarežģītus sarežģītā sarežģītāk sarežģītāka sarežģītākais sarežģītākajiem sarežģītākajām sarežģītākas sarežģītāki sarežģītākiem sarežģītāko sarežģītākos sarežģītāks sarežģītāku sarežģītākus sarežģītākā sarežģītākām sarežģītākās sarežģītām sarežģītās vissarežģītāk vissarežģītākais vissarežģītāko vissarežģītākā vissarežģītākās
+14	1014	priekšsēdētājs	priekšsēdētāja priekšsēdētājam priekšsēdētāji priekšsēdētājiem priekšsēdētāju priekšsēdētājus priekšsēdētājā
+15	1015	izlase	izlasei izlases izlasi izlasē izlasēm izlasēs izlašu
 16	1016	pasts	past pasta pastam pasti pastiem pastos pastu pastus pastā
-17	1017	tukšs	tukša tukšai tukšais tukšajai tukšajam tukšajiem tukšajos tukšajā tukšajām tukšajās tukšam tukšas tukši tukšie tukšiem tukšo tukšos tukšu tukšus tukšā tukšāks tukšām tukšās
-18	1018	atbilst	atbilstoša atbilstošas atbilstošu neatbilst
+17	1017	tukšs	tukša tukšai tukšais tukšajai tukšajam tukšajiem tukšajos tukšajā tukšajām tukšajās tukšam tukšas tukši tukšie tukšiem tukšo tukšos tukšu tukšus tukšā tukšāk tukšāka tukšākais tukšākas tukšāki tukšākiem tukšāks tukšāku tukšākus tukšākā tukšākām tukšākās tukšām tukšās
+18	1018	atbilst	atbilda atbildis atbildīs atbildīšot atbildīšu atbilstam atbilstat atbilsti atbilstot atbilstoša atbilstošas atbilstošs atbilstošu atbilsts atbilstu jāatbilst neatbilda neatbildīs neatbildīšot neatbildīšu neatbilst neatbilstam neatbilstat neatbilsti neatbilstot neatbilstošs neatbilsts neatbilstu
 19	1019	attieksme	attieksmei attieksmes attieksmi attieksmju attieksmē attieksmēm attieksmēs
 20	1020	labrīts	labrīt labrīta labrītu labrītā
-21	1021	centrāls	centrāla centrālai centrālais centrālajai centrālajam centrālajiem centrālajos centrālajā centrālajām centrālajās centrālam centrālas centrālie centrāliem centrālo centrālos centrālu centrālā centrālās
-22	1022	interesēt	interesē neinteresē
+21	1021	centrāls	centrāla centrālai centrālais centrālajai centrālajam centrālajiem centrālajos centrālajā centrālajām centrālajās centrālam centrālas centrālie centrāliem centrālo centrālos centrālu centrālā centrālāku centrālās
+22	1022	interesēt	interesē interesēja interesējis interesējot interesējošs interesēju interesējusi interesējušas interesējuši interesējušo interesēs interesēti interesēts interesētu jāinteresē neinteresē neinteresēja neinteresējam neinteresējat neinteresējot neinteresēju neinteresēs neinteresētu
 23	1023	bēgt	bēdz bēdziet bēdzis bēg bēga bēgam bēgat bēgdams bēgi bēgot bēgošs bēgs bēgsi bēgsim bēgts bēgtu bēgu bēgām bēgāt bēgšana bēgšu jābēg nebēgt
 24	1024	laiva	laivai laivam laivas laivi laivos laivu laivā laivām laivās
-25	1025	pirksts	pirkst pirksta pirkstam pirksti pirkstiem pirkstiņš pirkstos pirkstu pirkstus pirkstā
+25	1025	pirksts	pirkst pirksta pirkstam pirksti pirkstiem pirkstiņa pirkstiņam pirkstiņi pirkstiņiem pirkstiņos pirkstiņu pirkstiņus pirkstiņā pirkstiņš pirkstos pirkstu pirkstus pirkstā
 26	1026	atbildība	atbildībai atbildības atbildību atbildībā atbildībām atbildībās
-27	1027	melot	jāmelo melo meloja melojam melojat meloji melojiet melojis melojot meloju melojāt melos melosi melosim melosit melotu melošana melošanai melošanas melošanu melošanā melošu nemelot
+27	1027	melot	jāmelo melo melodami meloja melojam melojat meloji melojiet melojis melojot melojošo meloju melojusi melojuši melojāt melos melosi melotu melošana melošanai melošanas melošanu melošanā melošu nemelo nemeloja nemelojam nemelojat nemeloji nemelojiet nemelojot nemeloju nemelojām nemelos nemelosi nemelosim nemelot nemelotu nemelošu
 28	1028	mierīgi	
-29	1029	izteikt	izteic izteica izteicam izteicams izteici izteicis izteicot izteicošais izteicošs izteicu izteicām izteicāt izteikdams izteiks izteiksi izteiksiet izteiksim izteiktais izteikts izteiktu izteikšana izteikšanai izteikšanas izteikšanos izteikšanu izteikšanā izteikšu jāizteic neizteikt
-30	1030	bagāts	bagāta bagātai bagātais bagātajai bagātajam bagātajiem bagātajos bagātajā bagātajām bagātajās bagātam bagātas bagāti bagātie bagātiem bagāto bagātos bagātu bagātus bagātā bagātāks bagātām bagātās visbagātākais
+29	1029	izteikt	izteic izteica izteici izteicis izteicu izteicām izteicāt izteiks izteiksi izteiksiet izteikta izteiktais izteiktajiem izteiktajām izteiktas izteikti izteiktie izteiktiem izteikto izteiktos izteikts izteiktu izteiktā izteiktām izteiktās izteikusi izteikušas izteikuši izteikušās izteikšana izteikšanai izteikšanas izteikšanu izteikšanā izteikšu neizteica neizteicu neizteiks neizteikšu
+30	1030	bagāts	bagāta bagātais bagātajai bagātajam bagātajiem bagātajā bagātajām bagātajās bagātam bagātas bagāti bagātie bagātiem bagāto bagātos bagātu bagātus bagātā bagātāk bagātāka bagātākais bagātākajiem bagātākajām bagātākas bagātāki bagātākie bagātākiem bagātāko bagātākos bagātāks bagātāku bagātākus bagātākā bagātākās bagātām bagātās visbagātākais visbagātākajiem visbagātāko
 31	1031	soma	somai somas somu somā somām somās
 32	1032	dzēriens	dzēriena dzērienam dzērieni dzērieniem dzērienos dzērienu dzērienus dzērienā
 33	1033	atkritums	atkritum atkrituma atkritumam atkritumi atkritumiem atkritumos atkritumu atkritumus
-34	1034	iekšējs	iekšēja iekšējai iekšējais iekšējajā iekšējam iekšējas iekšējie iekšējiem iekšējo iekšējos iekšēju iekšējus iekšējā iekšējām iekšējās
+34	1034	iekšējs	iekšēja iekšējai iekšējais iekšējajā iekšējam iekšējas iekšējie iekšējiem iekšējo iekšējos iekšēju iekšējus iekšējā iekšējām iekšējās visiekšējāko
 35	1035	metode	metodei metodes metodi metodē metodēm metodēs metožu
 36	1036	pērn	
-37	1037	sēde	sēdes sēdē
+37	1037	sēde	sēdei sēdes sēdē sēdēm
 38	1038	rēķins	rēķina rēķinam rēķini rēķiniem rēķinos rēķinu rēķinus rēķinā
-39	1039	kustēties	jākustas kustamies kustas kustaties kusties kustieties kustos kustoties kustējies kustējos kustējāmies kustējās kustējāties kustēsies kustēsieties kustēsimies kustētos kustēšanos kustēšanās kustēšos nekustas nekustēties
-40	1040	silts	silta siltai siltais siltajai siltajam siltajiem siltajos siltajā siltajām siltajās siltam siltas silti siltie siltiem silto siltos siltu siltus siltā siltāks siltām siltās vissiltākais
+39	1039	kustēties	jākustas kustamies kustas kustaties kusties kustieties kustos kustoties kustējies kustējos kustējusies kustējušies kustējāmies kustējās kustējāties kustēsies kustēsieties kustēsimies kustētos kustēšanos kustēšanās kustēšos nekustas nekustaties nekusties nekustieties nekustos nekustoties nekustēdamies nekustējos nekustējās nekustēsies nekustēties nekustētos nekustēšanās nekustēšos
+40	1040	silts	silta siltai siltais siltajai siltajam siltajiem siltajos siltajā siltajām siltajās siltam siltas silti siltie siltiem silto siltos siltu siltus siltā siltāk siltāka siltākais siltākajām siltākam siltākas siltāki siltākiem siltāko siltākos siltāks siltāku siltākā siltākām siltākās siltām siltās vissiltākais vissiltākā
 41	1041	papīrs	papīr papīra papīram papīri papīriem papīros papīru papīrus papīrā
 42	1042	karjera	karjerai karjeras karjeru karjerā karjerām karjerās
 43	1043	vēlu	
 44	1044	klau	
 45	1045	tradīcija	tradīcijai tradīcijas tradīciju tradīcijā tradīcijām tradīcijās
-46	1046	krist	jākrīt krists kristu krita kriti kritis kritu kritām kritāt kritīs kritīsi kritīsiet kritīsim kritīšu krizdams krišana krīt krītam krītat krīti krītot krītošs krītu nekrist
-47	1047	modelis	modeli modelī modeļa modeļu
+46	1046	krist	jākrīt krista kristam kristi kristiem kristos krists kristu krita kriti kritis kritu kritām kritāt kritīs kritīsi kritīsiet kritīsim kritīšu krizdams krišana krīt krītam krītat krīti krītot krītošs krītu nekrist
+47	1047	modelis	modela modeli modeliem modelim modelu modelus modelī modeļa modeļi modeļiem modeļos modeļu modeļus
 48	1048	prakse	praksei prakses praksi praksē praksēm praksēs prakšu
 49	1049	diez	
 50	1050	elle	ellei elles elli ellē ellēm ellēs eļļu
 51	1051	ienaidnieks	ienaidniece ienaidniecei ienaidnieces ienaidnieci ienaidniek ienaidnieka ienaidniekam ienaidnieki ienaidniekiem ienaidniekos ienaidnieku ienaidniekus
 52	1052	nesen	
-53	1053	stulbs	stulba stulbai stulbais stulbajai stulbajam stulbajiem stulbajos stulbajā stulbajām stulbajās stulbam stulbas stulbie stulbiem stulbo stulbos stulbu stulbus stulbā stulbāks stulbām stulbās visstulbākais
+53	1053	stulbs	stulba stulbai stulbais stulbajai stulbajam stulbajiem stulbajos stulbajā stulbajām stulbajās stulbam stulbas stulbie stulbiem stulbo stulbos stulbu stulbus stulbā stulbāk stulbāka stulbākais stulbākajām stulbākas stulbāki stulbākie stulbākiem stulbāko stulbāks stulbāku stulbākus stulbākā stulbām stulbās visstulbākais visstulbāko visstulbākā
 54	1054	kods	kod koda kodam kodi kodiem kodos kodu kodus kodā
-55	1055	uzdot	jāuzdod neuzdot uzdeva uzdevi uzdevis uzdevu uzdevām uzdevāt uzdod uzdodam uzdodams uzdodat uzdodiet uzdodot uzdodu uzdos uzdosi uzdosiet uzdosim uzdosit uzdotais uzdots uzdotu uzdošana uzdošanai uzdošanas uzdošanu uzdošanā uzdošu
-56	1056	precīzs	precīza precīzai precīzais precīzajai precīzajam precīzajiem precīzajā precīzajām precīzam precīzas precīzi precīzie precīziem precīzo precīzos precīzu precīzus precīzā precīzāks precīzām precīzās visprecīzākais
+55	1055	uzdot	jāuzdod neuzdeva neuzdevu neuzdod neuzdodam neuzdodiet neuzdodot neuzdodu neuzdot uzdeva uzdevi uzdevis uzdevu uzdevusi uzdevuši uzdevām uzdevāt uzdod uzdodam uzdodiet uzdodot uzdodu uzdos uzdosi uzdosiet uzdosim uzdota uzdotais uzdotajiem uzdoti uzdotie uzdotiem uzdoto uzdotos uzdots uzdotu uzdošana uzdošanu uzdošu
+56	1056	precīzs	precīza precīzai precīzais precīzajam precīzajiem precīzajā precīzajām precīzam precīzas precīzi precīzie precīziem precīzo precīzos precīzu precīzus precīzā precīzāk precīzāka precīzākai precīzākais precīzākajiem precīzākam precīzākas precīzāki precīzākie precīzākiem precīzāko precīzākos precīzāks precīzāku precīzākus precīzākā precīzākām precīzākās precīzām precīzās visprecīzāk visprecīzākais
 57	1057	tilts	tilt tilta tiltam tilti tiltiem tiltos tiltu tiltus tiltā
 58	1058	pēkšņi	
 59	1059	tūrisms	tūrisma tūrismam tūrismu tūrismā
 60	1060	austrumi	austruma austrumiem austrumos austrums austrumu austrumus
-61	1061	pilsonis	pilsone pilsonei pilsones pilsoni pilsonim pilsonēm pilsonī pilsoņa pilsoņi pilsoņiem pilsoņos pilsoņu pilsoņus
+61	1061	pilsonis	pilsona pilsone pilsonei pilsones pilsoni pilsoniem pilsonim pilsonu pilsonus pilsonēm pilsonī pilsoņa pilsoņi pilsoņiem pilsoņos pilsoņu pilsoņus
 62	1062	daudzums	daudzum daudzuma daudzumam daudzumi daudzumiem daudzumos daudzumu daudzumus daudzumā
 63	1063	piemērs	piemēr piemēra piemēri piemēriem piemēros piemēru piemērus piemērā
 64	1064	virtuve	virtuvei virtuves virtuvi virtuvju virtuvē virtuvēm virtuvēs
 65	1065	vienlaikus	
 66	1066	ola	olai olas olu olā olām olās
 67	1067	apkārtne	apkārtnei apkārtnes apkārtni apkārtnē apkārtnēm apkārtnēs apkārtņu
-68	1068	zona	zonas zonā
+68	1068	zona	zonai zonas zonu zonā zonām zonās
 69	1069	vēlēšanās	vēlēšanos
 70	1070	jumts	jumt jumta jumtam jumti jumtiem jumtos jumtu jumtus jumtā
 71	1071	organizēt	jāorganizē neorganizēt organizē organizēja organizējam organizējams organizējat organizējiet organizējis organizējot organizēju organizējām organizējāt organizēs organizēsiet organizēsim organizēsit organizēts organizētu organizēšana organizēšot organizēšu
 72	1072	gana	ganai ganas ganu ganā
-73	1073	ieiet	ieej ieejam ieejams ieejat ieejiet ieejot ieeju iegāja iegāji iegājis iegāju iegājām ieiedams ieies ieiesi ieiesiet ieiesim ieiesit ieiets ieietu ieiešana ieiešot ieiešu jāieiet neieiet
+73	1073	ieiet	ieej ieejam ieejama ieejami ieejat ieejiet ieejot ieejošais ieejošo ieeju iegāja iegāji iegājis iegāju iegājusi iegājušas iegājuši iegājušās iegājām ieiedami ieies ieiesi ieiesiet ieiesim ieiets ieietu ieiešana ieiešot ieiešu jāieiet neieej neieejiet neieejot neiegāja neiegāju neieies neieiesi neieiet neieietu
 74	1074	līderis	līdera līderi līderiem līderim līderos līderu līderus līderī
-75	1075	objekts	objekti objektiem objektu
+75	1075	objekts	objekta objektam objekti objektiem objektos objektu objektus objektā
 76	1076	svars	svar svara svaram svari svariem svaros svaru svarus svarā
-77	1077	auksts	auksta aukstai aukstais aukstajai aukstajam aukstajiem aukstajos aukstajā aukstajām aukstajās aukstam aukstas auksti aukstie aukstiem auksto aukstos aukstu aukstus aukstā aukstāks aukstām aukstās
-78	1078	ievērojams	ievērojama ievērojamai ievērojamais ievērojamajai ievērojamajam ievērojamajiem ievērojamajā ievērojamajām ievērojamam ievērojamas ievērojami ievērojamie ievērojamiem ievērojamo ievērojamos ievērojamu ievērojamus ievērojamā ievērojamākais ievērojamāko ievērojamāks ievērojamām ievērojamās visievērojamākais
-79	1079	prese	preses presē
-80	1080	pusdienas	pusdienos pusdienu pusdienām pusdienās
+77	1077	auksts	auksta aukstai aukstais aukstajai aukstajam aukstajiem aukstajos aukstajā aukstajām aukstajās aukstam aukstas auksti aukstie aukstiem auksto aukstos aukstu aukstus aukstā aukstāk aukstāka aukstākais aukstākajiem aukstākajos aukstākajā aukstākajām aukstākam aukstākas aukstākiem aukstāks aukstāku aukstākā aukstākās aukstām aukstās visaukstākajā visaukstākā visaukstākās
+78	1078	ievērojams	ievērojama ievērojamai ievērojamais ievērojamajai ievērojamajam ievērojamajiem ievērojamajā ievērojamajām ievērojamam ievērojamas ievērojami ievērojamie ievērojamiem ievērojamo ievērojamos ievērojamu ievērojamus ievērojamā ievērojamāk ievērojamāka ievērojamākais ievērojamākajiem ievērojamākajām ievērojamākajās ievērojamāki ievērojamākie ievērojamākiem ievērojamāko ievērojamākos ievērojamāks ievērojamāku ievērojamākus ievērojamākā ievērojamākās ievērojamām ievērojamās visievērojamāk visievērojamākais visievērojamākā
+79	1079	prese	presei preses presi presē prešu
+80	1080	pusdienas	pusdienu pusdienām pusdienās
 81	1081	iekārta	iekārtai iekārtas iekārtu iekārtā iekārtām iekārtās
 82	1082	vilkt	jāvelk jāvelkot nevilkt velc velciet velk velkam velkams velkat velkot velku vilcis vilka vilkdams vilki vilksi vilksiet vilksim vilksit vilkts vilktu vilku vilkām vilkāt vilkšana vilkšu
 83	1083	turpmāk	
@@ -87,7 +87,7 @@
 87	1087	pozīcija	pozīcijai pozīcijas pozīciju pozīcijā pozīcijām pozīcijās
 88	1088	rīkot	jārīko jārīkojot nerīkot rīko rīkoja rīkojam rīkojams rīkojat rīkoji rīkojiet rīkojis rīkojot rīkoju rīkojām rīkojāt rīkos rīkosi rīkosiet rīkosim rīkoto rīkots rīkotu rīkošana rīkošot rīkošu
 89	1089	pakaļa	pakaļai pakaļas pakaļu pakaļā pakaļām pakaļās
-90	1090	sist	jāsit nesist sistais sists sistu sit sita sitam sitamais sitami sitamiem sitamos sitams sitamā sitat siti sitiet sitis sitot situ sitām sitāt sitīs sitīsi sitīsim sitīšot sitīšu sizdams sišana sišanai sišanas sišanos sišanu sišanā
+90	1090	sist	jāsit nesist nesit nesitiet nesitu nesitīs nesitīsim nesitīšu sista sistas sisti sistiem sisto sistos sists sistu sit sita sitam sitamie sitamo sitat siti sitiet sitis sitot sitošās situ situsi situši sitām sitīs sitīsi sitīsim sitīšu sišana sišanai sišanas sišanu
 91	1091	viela	vielai vielam vielas vielu vielā vielām vielās
 92	1092	profesors	profesor profesora profesoram profesore profesorei profesores profesori profesoriem profesoru profesorus profesorā profesorēm
 93	1093	vīns	vīn vīna vīnam vīni vīniem vīnos vīnu vīnus vīnā

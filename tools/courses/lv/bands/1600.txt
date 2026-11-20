@@ -1,100 +1,100 @@
-1	1501	kluss	klusa klusai klusais klusajai klusajam klusajiem klusajos klusajā klusajām klusajās klusam klusas klusie klusiem kluso klusos klusus klusā klusāks klusām klusās
-2	1502	saite	saitei saites saiti saitē saitēm saitēs saišu
-3	1503	pretinieks	pretiniece pretinieka pretiniekam pretinieki pretiniekiem pretiniekos pretinieku pretiniekus pretiniekā
-4	1504	veltīt	veltīta veltīts
-5	1505	kreisi	
-6	1506	nazis	nais nau nazi nazim naža naži nažiem nažu nažus
-7	1507	piemineklis	pieminekli piemineklim piemineklī pieminekļa pieminekļi pieminekļiem pieminekļos pieminekļu pieminekļus
-8	1508	faktors	faktori faktoriem faktoru faktorus
-9	1509	traki	
-10	1510	brīvprātīgs	brīvprātīga brīvprātīgai brīvprātīgajai brīvprātīgajam brīvprātīgajiem brīvprātīgajos brīvprātīgajā brīvprātīgajām brīvprātīgajās brīvprātīgam brīvprātīgas brīvprātīgi brīvprātīgie brīvprātīgiem brīvprātīgo brīvprātīgos brīvprātīgu brīvprātīgus brīvprātīgā brīvprātīgām brīvprātīgās
-11	1511	iespaids	iespaidu
-12	1512	kvalifikācija	kvalifikācijai kvalifikācijas kvalifikāciju kvalifikācijā kvalifikācijām kvalifikācijās
-13	1513	piektdiena	piektdienai piektdienas piektdieni piektdienu piektdienā piektdienām piektdienās
-14	1514	kurpe	kurpei kurpes kurpi kurpju kurpē kurpēm kurpēs
-15	1515	tak	
-16	1516	profesija	profesijai profesijas profesiju profesijā profesijām profesijās
-17	1517	ieteikums	ieteikum ieteikuma ieteikumam ieteikumi ieteikumiem ieteikumos ieteikumu ieteikumus ieteikumā
-18	1518	pagalms	pagalma pagalmam pagalmi pagalmiem pagalmos pagalmu pagalmus pagalmā
-19	1519	apkārtējs	apkārtēja apkārtējai apkārtējais apkārtējajiem apkārtējam apkārtējas apkārtēji apkārtējie apkārtējiem apkārtējo apkārtējos apkārtēju apkārtējā apkārtējām apkārtējās
-20	1520	tiklīdz	
-21	1521	sapņot	jāsapņo nesapņot sapņo sapņodams sapņoja sapņojam sapņojat sapņoji sapņojiet sapņojis sapņojot sapņoju sapņojām sapņojāt sapņos sapņosi sapņosiet sapņots sapņotu sapņošana sapņošu
-22	1522	organisms	organism organisma organismam organismi organismiem organismos organismu organismus organismā
-23	1523	nereti	
-24	1524	pakāpe	pakāpei pakāpes pakāpi pakāpju pakāpē pakāpēm pakāpēs
-25	1525	poga	pogai pogam pogas pogu pogā pogām pogās
-26	1526	aizvērt	aizver aizveram aizverams aizverat aizveriet aizverot aizveru aizvēra aizvēri aizvēris aizvērs aizvērsi aizvērsiet aizvērsim aizvērts aizvērtu aizvēru aizvērām aizvēršana aizvēršot aizvēršu jāaizver neaizvērt
-27	1527	simbols	simbola simbolam simboli simboliem simbolos simbolu simbolus simbolā
-28	1528	matemātika	matemātikai matemātikas matemātiku matemātikā
-29	1529	briesmas	briesma briesmam briesmu briesmām briesmās
-30	1530	nabags	nabadze nabadzei nabadzes nabadzi nabag nabaga nabagai nabagais nabagajiem nabagajos nabagam nabagas nabagi nabagie nabagiem nabago nabagos nabagu nabagus nabagā nabagāks nabagās nabai
-31	1531	realitāte	realitātei realitātes realitāti realitātē
-32	1532	stāvs	stāvā
-33	1533	stadions	stadion stadiona stadionam stadioni stadioniem stadionos stadionu stadionus stadionā
-34	1534	samazināt	samazinātu
-35	1535	suga	sugai sugas sugu sugā sugām sugās
-36	1536	kleita	kleitai kleitam kleitas kleitu kleitā kleitām kleitās
-37	1537	rietumu	
-38	1538	atteikties	atteicās
-39	1539	jokot	joko jokodams jokoja jokojam jokojat jokoji jokojiet jokojis jokojot jokoju jokojām jokojāt jokos jokotu jokošana jokošanai jokošanas jokošanos jokošanu jokošu jājoko nejokot
-40	1540	ieskaitīt	ieskaitot
-41	1541	sargs	sarg sarga sargam sargi sargiem sargos sargu sargus sargā
-42	1542	moderns	moderna modernai modernais modernajai modernajam modernajiem modernajos modernajā modernajām modernajās modernam modernas modernie moderniem moderno modernos modernu modernus modernā modernāks modernām modernās vismodernākais
-43	1543	veicināt	veicina
-44	1544	burvīgs	burvīga burvīgai burvīgais burvīgajai burvīgajam burvīgajiem burvīgajos burvīgajā burvīgajām burvīgajās burvīgas burvīgi burvīgie burvīgiem burvīgo burvīgos burvīgu burvīgus burvīgā burvīgāks burvīgām burvīgās
-45	1545	apliecināt	apliecina apliecinot apliecināja
-46	1546	sestdiena	sestdienai sestdienas sestdienu sestdienā sestdienām sestdienās
-47	1547	kareivis	kareivi kareivim kareivja kareivji kareivjiem kareivju kareivjus
-48	1548	veselīgs	veselīga veselīgai veselīgais veselīgajai veselīgajam veselīgajiem veselīgajos veselīgajā veselīgajām veselīgam veselīgas veselīgi veselīgie veselīgiem veselīgo veselīgos veselīgu veselīgus veselīgā veselīgāks veselīgām veselīgās visveselīgākais
-49	1549	darbnīca	darbnīcai darbnīcas darbnīcu darbnīcā darbnīcām darbnīcās
-50	1550	acīmredzot	
-51	1551	maiņa	maiņu
-52	1552	līķis	līķa līķi līķiem līķim līķu līķus
-53	1553	padoms	padomu
-54	1554	tirgotājs	tirgotāj tirgotāja tirgotājai tirgotājam tirgotājas tirgotāji tirgotājiem tirgotājos tirgotāju tirgotājus tirgotājām
-55	1555	elpa	elpai elpas elpu elpā
-56	1556	deguns	degun deguna degunam deguni deguniem degunos degunu degunus degunā
-57	1557	produkcija	produkcijai produkcijas produkciju produkcijā
-58	1558	ķīnietis	ķīniete ķīnietei ķīnietes ķīnieti ķīnietim ķīnietēm ķīnieša ķīnieši ķīniešiem ķīniešu ķīniešus
-59	1559	grūts	grūta grūtai grūtais grūtajai grūtajam grūtajiem grūtajos grūtajā grūtajām grūtajās grūtam grūtas grūtie grūtiem grūto grūtos grūtu grūtus grūtā grūtāks grūtām grūtās visgrūtākais
-60	1560	šaubas	šaubu šaubām šaubās
-61	1561	augstums	augstuma augstumam augstumi augstumiem augstumos augstumu augstumus augstumā
-62	1562	siers	sier siera sieram sieri sieriem sieros sieru sierus sierā
-63	1563	aizbraukt	aizbrauca
-64	1564	draudēt	draud draudēja
-65	1565	spiediens	spiedien spiediena spiedienam spiedieni spiedieniem spiedienu spiedienus spiedienā
-66	1566	garša	garšai garšas garšu garšā garšām garšās
-67	1567	ciets	cieta cietai cietais cietajai cietajam cietajiem cietajos cietajā cietajām cietajās cietam cietas cietie cietiem cieto cietos cietu cietus cietā cietāks cietām cietās viscietākais
-68	1568	atnākt	atnāca
-69	1569	būve	būvei būves būvi būvju būvē būvēm būvēs
-70	1570	reģistrēt	jāreģistrē nereģistrēt reģistrē reģistrēdams reģistrēja reģistrējam reģistrējams reģistrējat reģistrējiet reģistrējis reģistrējot reģistrēju reģistrējām reģistrēs reģistrēsiet reģistrēsim reģistrēts reģistrētu reģistrēšana reģistrēšanai reģistrēšanas reģistrēšanos reģistrēšanu reģistrēšanā reģistrēšanās reģistrēšu
-71	1571	stūris	stūra stūrī
-72	1572	profesionāls	profesionālu profesionālās
-73	1573	klātbūtne	klātbūtnei klātbūtnes klātbūtni klātbūtnē
-74	1574	miegs	mieg miega miegam miegi miegu miegā
-75	1575	rezerve	rezerves
-76	1576	nosacījums	nosacījumi nosacījumiem nosacījumus
-77	1577	neparasts	neparasta neparastai neparastais neparastajai neparastajam neparastajiem neparastajos neparastajā neparastajām neparastajās neparastam neparastas neparastie neparastiem neparasto neparastos neparastu neparastus neparastā neparastāks neparastām neparastās visneparastākais
-78	1578	pārņemt	pārņem pārņēma
-79	1579	laikmets	laikmeta laikmetam laikmeti laikmetiem laikmetos laikmetu laikmetus laikmetā
-80	1580	zagt	jāzog nezagt zadzis zaga zagi zags zagsi zagsiet zagsim zagtais zagts zagtu zagu zagām zagāt zagšana zagšanai zagšanas zagšanu zagšanā zagšu zodz zog zogam zogamais zogat zogot zogu
-81	1581	īstenībā	
-82	1582	okeāns	okeān okeāna okeānam okeāni okeāniem okeānos okeānu okeānus okeānā
-83	1583	vanna	vannai vannas vannu vannā vannām vannās
-84	1584	izplatīt	izplata izplati izplatiet izplatot izplatu izplatām izplatāt izplatīja izplatījis izplatījāt izplatīs izplatīsi izplatīsim izplatīta izplatītais izplatītajai izplatītajam izplatītajiem izplatītajos izplatītajā izplatītajām izplatītam izplatītas izplatīti izplatītie izplatītiem izplatīto izplatītos izplatīts izplatītu izplatītā izplatītāks izplatītām izplatītās izplatīšana izplatīšu jāizplata neizplatīt visizplatītākais
-85	1585	realizēt	jārealizē nerealizēt realizē realizēja realizējam realizējamais realizējams realizējat realizēji realizējiet realizējis realizējot realizēju realizējušais realizējām realizēs realizēsi realizēsiet realizēsim realizēsit realizētais realizēts realizētu realizēšana realizēšanai realizēšanas realizēšanos realizēšanu realizēšanā realizēšu
-86	1586	devējs	devēja devējam devēji devēju
-87	1587	uzvārds	uzvārda uzvārdam uzvārdi uzvārdiem uzvārdos uzvārdu uzvārdus uzvārdā
-88	1588	smalks	smalka smalkai smalkais smalkajai smalkajam smalkajiem smalkajos smalkajā smalkajām smalkajās smalkam smalkas smalki smalkie smalkiem smalko smalkos smalku smalkus smalkā smalkāks smalkām smalkās vissmalkākais
-89	1589	ieva	ievai ievas ievi ievu ievā ievām ievās
-90	1590	paaudze	paaudzes
-91	1591	turp	
-92	1592	izjūta	izjūtai izjūtas izjūtu izjūtā izjūtām izjūtās
-93	1593	foršs	forša foršai foršais foršajam foršajiem foršajā foršajām foršas foršie foršiem foršo foršos foršu foršus foršā foršāks foršām foršās visforšākais
-94	1594	velosipēds	velosipēda velosipēdam velosipēdi velosipēdiem velosipēdos velosipēdu velosipēdus velosipēdā
-95	1595	izvairīties	izvairītos
-96	1596	faktiski	
-97	1597	krūtis	krūtīm krūtīs krūšu
-98	1598	neatkarība	neatkarībai neatkarības neatkarību neatkarībā
-99	1599	kāpnes	kâpnes kāpnēm kāpnēs kāpņu
-100	1600	sapulce	sapulcei sapulces sapulci sapulcē sapulcēm sapulcēs sapulču
+1	1501	noslēgt	jānoslēdz nenoslēdz nenoslēdza nenoslēdzam nenoslēdzi nenoslēdzot nenoslēdzām nenoslēgs nenoslēgsi nenoslēgsim nenoslēgt nenoslēgts nenoslēgtu nenoslēgšana nenoslēgšu noslēdz noslēdza noslēdzam noslēdzams noslēdzat noslēdzi noslēdziet noslēdzis noslēdzot noslēdzošs noslēdzu noslēdzām noslēdzāt noslēgs noslēgsi noslēgsiet noslēgsim noslēgts noslēgtu noslēgšana noslēgšot noslēgšu
+2	1502	grūts	grūta grūtais grūtajiem grūtajos grūtajā grūtam grūtas grūtie grūtiem grūto grūtos grūtu grūtus grūtā grūtāk grūtāka grūtākais grūtākajiem grūtākajos grūtākajā grūtākajām grūtākas grūtāki grūtākie grūtākiem grūtāko grūtākos grūtāks grūtāku grūtākus grūtākā grūtākās grūtām grūtās visgrūtāk visgrūtākais visgrūtākajos visgrūtākie visgrūtākā
+3	1503	atcelt	atcel atceliet atcels atcelsi atcelsim atcelta atceltajiem atceltas atcelti atcelto atcelts atceltu atceltā atcelšana atcelšanai atcelšanas atcelšanu atcelšu atceļ atceļam atceļams atceļoja atceļojis atceļoju atceļot atceļu atcēla atcēli atcēlis atcēlu atcēlusi atcēluši jāatceļ neatcels neatcelt neatceltu neatcelšu neatceļ neatcēla
+4	1504	izdot	izdeva izdevis izdevusi izdevuši izdevušos izdevušās izdod izdodam izdodiet izdodot izdodu izdomu izdos izdota izdotais izdotajiem izdotajā izdotajām izdotas izdoti izdotie izdoto izdotos izdots izdotu izdotā izdotās izdošana izdošanas izdošanu izdošanā izdošu jāizdod neizdevušos neizdod neizdos neizdot neizdoties neizdotos
+5	1505	attālums	attāluma attālumam attālumi attālumiem attālumos attālumu attālumus attālumā
+6	1506	atvest	atved atveda atvedam atvedat atvedi atvediet atvedis atvedot atvedu atvedām atvedāt atvedīs atvedīsi atvedīsiet atvedīsim atvedīšot atvedīšu atvesta atvestas atvesti atvestiem atvestos atvests atvestu atvestus atvestā atvestām atvestās atvešana jāatved neatved neatveda neatvedu neatvedām neatvedīs neatvedīsi neatvedīšu neatvest neatvestu
+7	1507	veltīt	jāvelta nevelta nevelti neveltot neveltīja neveltīju neveltīs neveltītu veltiet veltot veltām veltāt veltīdams veltīja veltīji veltījis veltīju veltījusi veltījušas veltījuši veltījām veltījāt veltīs veltīsi veltīsiet veltīsim veltīta veltītais veltītas veltīti veltītie veltīto veltīts veltītu veltītā veltīšana veltīšanas veltīšanu veltīšu
+8	1508	izlasīt	izlasa izlasi izlasiet izlasot izlasu izlasām izlasāms izlasīja izlasīji izlasījis izlasīju izlasījusi izlasījuši izlasījām izlasījāt izlasīs izlasīsi izlasīsiet izlasīsim izlasīta izlasītais izlasītajām izlasītas izlasīti izlasīto izlasīts izlasītu izlasītā izlasītās izlasīšanas izlasīšanu izlasīšu jāizlasa neizlasa neizlasot neizlasīji neizlasīju neizlasīta neizlasītu
+9	1509	konstatēt	jākonstatē konstatē konstatēja konstatējam konstatējamas konstatējami konstatējams konstatējat konstatējis konstatējot konstatēju konstatējusi konstatējušas konstatējuši konstatējām konstatēs konstatēsim konstatēta konstatētais konstatētajiem konstatētajām konstatētas konstatēti konstatētie konstatētiem konstatēto konstatētos konstatēts konstatētu konstatētā konstatētām konstatētās konstatēšana konstatēšanai konstatēšanas konstatēšanu nekonstatē nekonstatēja nekonstatējot
+10	1510	iemācīties	iemācas iemācies iemācieties iemācos iemācoties iemācāmies iemācās iemācāties iemācījies iemācījos iemācījāmies iemācījās iemācījāties iemācīsies iemācīsieties iemācīsimies iemācīsities iemācītos iemācīšanās iemācīšos iemācīšoties jāiemācas jāiemācās neiemācies neiemācoties neiemācāmies neiemācās neiemācījies neiemācījos neiemācījāmies neiemācījās neiemācīsies neiemācīsieties neiemācīsimies neiemācīsities neiemācīties neiemācītos neiemācīšos
+11	1511	atļaut	atļauj atļaujam atļaujams atļaujat atļaujiet atļaujot atļaujošs atļaus atļausi atļausiet atļausim atļauts atļautu atļaušana atļaušot atļaušu atļāva atļāvi atļāvis atļāvu atļāvām atļāvāt jāatļauj neatļauj neatļaujam neatļaujiet neatļaujot neatļauju neatļaus neatļausim neatļaut neatļauts neatļautu neatļaušana neatļaušot neatļāva neatļāvu neatļāvām neatļāvāt
+12	1512	nekur	
+13	1513	uzvarētājs	uzvarētāja uzvarētājai uzvarētājam uzvarētājas uzvarētāji uzvarētājiem uzvarētājos uzvarētāju uzvarētājus uzvarētājām
+14	1514	termiņš	termiņa termiņam termiņi termiņiem termiņos termiņu termiņus termiņā
+15	1515	celties	celas celdamies celies celieties celsies celsieties celsimies celšanās celšos celšoties ceļamies ceļas ceļoties cēlies cēlusies cēlušies cēlāmies jāceļas necelas necelies necelieties necelsies necelsimies necelties necelšos neceļamies neceļas neceļos neceļoties necēlos necēlās
+16	1516	atteikties	atteicamies atteicas atteicies atteicos atteicāmies atteicās atteicāties atteikdamies atteiksies atteiksieties atteiksimies atteiksities atteiktos atteikusies atteikušies atteikušās atteikšanās atteikšos atteikšoties jāatteicas neatteicies neatteicos neatteicāmies neatteicās neatteikdamies neatteiksies neatteiksieties neatteiksimies neatteiksities neatteikties neatteiktos neatteikšanās neatteikšos neatteikšoties
+17	1517	padoties	jāpadodas nepadevos nepadevāmies nepadevās nepadodamies nepadodas nepadodaties nepadodies nepadodieties nepadodos nepadodoties nepadosies nepadosimies nepadoties nepadotos nepadošanās nepadošos padevas padevies padevos padevusies padevušies padevušās padevās padodamies padodas padodaties padodies padodieties padodos padodoties padomos padosies padosieties padosimies padosities padotos padošanās padošos
+18	1518	augstskola	augstskolai augstskolas augstskolu augstskolā augstskolām augstskolās
+19	1519	pārņemt	jāpārņem nepārņem nepārņems nepārņemtu nepārņēma pārņem pārņemam pārņemat pārņemot pārņems pārņemsim pārņemta pārņemtais pārņemtajai pārņemtajam pārņemtajiem pārņemtajā pārņemtajām pārņemtajās pārņemtam pārņemtas pārņemti pārņemtie pārņemto pārņemtos pārņemts pārņemtu pārņemtā pārņemtās pārņemu pārņemšana pārņemšu pārņēma pārņēmis pārņēmu pārņēmusi pārņēmušas pārņēmuši pārņēmām
+20	1520	piedzīvot	jāpiedzīvo nepiedzīvo nepiedzīvoja nepiedzīvojām nepiedzīvos nepiedzīvosim nepiedzīvot nepiedzīvots nepiedzīvotu piedzīvo piedzīvoja piedzīvojam piedzīvojat piedzīvoji piedzīvojis piedzīvojot piedzīvoju piedzīvojusi piedzīvojušas piedzīvojuši piedzīvojušo piedzīvojām piedzīvojāt piedzīvos piedzīvosi piedzīvosiet piedzīvosim piedzīvota piedzīvotais piedzīvotas piedzīvoti piedzīvotie piedzīvoto piedzīvotos piedzīvots piedzīvotu piedzīvotā piedzīvotās piedzīvošu
+21	1521	iesaistīt	iesaista iesaisti iesaistiet iesaistot iesaistu iesaistām iesaistāt iesaistīja iesaistīji iesaistījis iesaistīju iesaistījusi iesaistījušas iesaistījuši iesaistījām iesaistīs iesaistīsim iesaistīta iesaistītais iesaistītas iesaistīti iesaistītie iesaistīto iesaistīts iesaistītu iesaistītā iesaistīšana iesaistīšanas iesaistīšanu iesaistīšanā iesaistīšu jāiesaista neiesaista neiesaisti neiesaistot neiesaistījāt neiesaistīsiet neiesaistīt neiesaistītu
+22	1522	aizņemt	aizņem aizņemam aizņemot aizņems aizņemsim aizņemta aizņemtais aizņemtajai aizņemtajiem aizņemtajā aizņemtajām aizņemtajās aizņemtam aizņemtas aizņemti aizņemtie aizņemtiem aizņemto aizņemtos aizņemts aizņemtu aizņemtus aizņemtā aizņemtās aizņemšot aizņemšu aizņēma aizņēmis aizņēmu aizņēmusi aizņēmušas aizņēmuši jāaizņem neaizņem neaizņemot neaizņems neaizņemtu neaizņemtā neaizņēma
+23	1523	norisināties	jānorisinās nenorisinājās nenorisinās nenorisināsies nenorisinātos norisinoties norisinājas norisinājies norisinājusies norisinājušies norisinājušās norisinājās norisinās norisināsies norisinātos norisināšanās
+24	1524	aizturēt	aiztur aizturat aizturi aizturiet aizturot aizturēja aizturējis aizturēju aizturējusi aizturējušas aizturējuši aizturējām aizturēs aizturēsim aizturēta aizturētais aizturētajam aizturētajiem aizturētajām aizturētas aizturēti aizturētie aizturēto aizturētos aizturēts aizturētu aizturētā aizturētās aizturēšana aizturēšanas aizturēšanu aizturēšu jāaiztur neaiztur neaizturam neaizturēja neaizturēs neaizturēsiet neaizturēsim
+25	1525	iesākt	iebrauc iebrauca iebraucam iebraucamajā iebraucamā iebraucis iebraucot iebraucu iebraucām iebrauks iebrauksim iebraukt iebrauktu iebraukušo iebraukšana iebraukšanai iebraukšanas iebraukšanu iebraukšu iesācis iesāk iesāka iesākam iesāki iesākot iesāks iesāksi iesāksiet iesāksim iesāktos iesākts iesāktu iesāktā iesāktās iesāku iesākuši iesākām iesākāt iesākšu
+26	1526	nogādāt	jānogādā nenogādā nenogādāja nenogādāju nenogādās nenogādāsiet nenogādātu nenogādāšu nogādā nogādādami nogādāja nogādājam nogādājat nogādājiet nogādājis nogādājot nogādāju nogādājusi nogādājuši nogādājām nogādās nogādāsi nogādāsim nogādāta nogādātajiem nogādātas nogādāti nogādātie nogādātiem nogādāto nogādāts nogādātu nogādātā nogādātās nogādāšana nogādāšanas nogādāšanu nogādāšot nogādāšu
+27	1527	visur	
+28	1528	taisīties	jātaisās netaisas netaisies netaisos netaisoties netaisāmies netaisās netaisāties netaisījas netaisījies netaisījos netaisījāmies netaisījās netaisījāties netaisīsies netaisītos taisas taisies taisieties taisos taisoties taisāmies taisās taisāties taisījies taisījos taisījāmies taisījās taisījāties taisīsies taisīsimies taisītos taisīšos
+29	1529	pretī	
+30	1530	vienot	vieno vienoja vienojis vienojoša vienojošais vienojošas vienojošo vienojošs vienojošu vienojošā vienoju vienojušās vienosim vienota vienotai vienotais vienotajai vienotajam vienotajiem vienotajā vienotajām vienotam vienotas vienoti vienotie vienotiem vienoto vienotos vienots vienotu vienotus vienotā vienotāka vienotāki vienotām vienotās vienošanai vienošanas vienošanām
+31	1531	aizsargāt	aizsargāja aizsargājam aizsargājama aizsargājamas aizsargājamo aizsargājamā aizsargājamām aizsargājamās aizsargājat aizsargāji aizsargājiet aizsargājis aizsargājot aizsargājošo aizsargājošu aizsargāju aizsargās aizsargāsi aizsargāsim aizsargāta aizsargātajiem aizsargātas aizsargāti aizsargāto aizsargātos aizsargāts aizsargātu aizsargātā aizsargāšanas aizsargāšanu aizsargāšu jāaizsargā neaizsargā neaizsargās neaizsargāta neaizsargāti neaizsargāto neaizsargāts neaizsargātu
+32	1532	nopelnīt	jānopelna nenopelni nenopelnāt nenopelnīja nenopelnījām nenopelnīs nenopelnīsim nenopelnītu nenopelnīšu nopelna nopelni nopelniet nopelnot nopelnu nopelnām nopelnāt nopelnīja nopelnīji nopelnījis nopelnīju nopelnījusi nopelnījušas nopelnījuši nopelnījām nopelnījāt nopelnīs nopelnīsi nopelnīsiet nopelnīsim nopelnītais nopelnītajiem nopelnītie nopelnīto nopelnītos nopelnīts nopelnītu nopelnītā nopelnītās nopelnīšu
+33	1533	nodarīt	nenodara nenodari nenodariet nenodarot nenodarīja nenodarīji nenodarīju nenodarīs nenodarīsi nenodarīsim nenodarītu nodara nodari nodarot nodarāt nodarīja nodarīji nodarījis nodarīju nodarījusi nodarījušas nodarījuši nodarījāt nodarīs nodarīsi nodarīsiet nodarītais nodarītajiem nodarītas nodarīti nodarītie nodarītiem nodarīto nodarītos nodarīts nodarītu nodarītā nodarīšanu nodarīšu
+34	1534	kandidāts	kandidāta kandidātam kandidāti kandidātiem kandidātos kandidātu kandidātus
+35	1535	ieņemt	ieņem ieņemam ieņemamais ieņemamajam ieņemamajiem ieņemamo ieņemamā ieņemiet ieņemot ieņems ieņemsi ieņemsiet ieņemsim ieņemta ieņemtas ieņemti ieņemto ieņemts ieņemtu ieņemtā ieņemtās ieņemu ieņemšana ieņemšu ieņēma ieņēmi ieņēmis ieņēmu ieņēmusi ieņēmušas ieņēmuši jāieņem neieņem neieņemams neieņemamu neieņemiet neieņems neieņemsim neieņemšu
+36	1536	brīvdiena	brīvdienai brīvdienas brīvdienu brīvdienā brīvdienām brīvdienās
+37	1537	oficiāls	oficiāla oficiālai oficiālais oficiālajai oficiālajam oficiālajiem oficiālajos oficiālajā oficiālajām oficiālajās oficiālam oficiālas oficiālie oficiāliem oficiālo oficiālos oficiālu oficiālus oficiālā oficiālāk oficiālāka oficiālāku oficiālākās oficiālām oficiālās
+38	1538	maiņa	maiņai maiņas maiņu maiņā maiņām maiņās
+39	1539	izvairīties	izvairas izvairies izvairieties izvairos izvairoties izvairāmies izvairās izvairāties izvairīdamies izvairījies izvairījos izvairījusies izvairījušies izvairījušās izvairījāmies izvairījās izvairīsies izvairīsieties izvairīsimies izvairīsities izvairītos izvairīšanās izvairīšos jāizvairas jāizvairās neizvairies neizvairieties neizvairos neizvairoties neizvairāmies neizvairās neizvairījies neizvairījos neizvairījās neizvairīsies neizvairīsimies neizvairīties neizvairītos neizvairīšanās
+40	1540	sagādāt	jāsagādā nesadomā nesagādā nesagādāja nesagādāji nesagādās nesagādāsim nesagādāt nesagādātu nesagādāšu sadomājis sadomājuši sadomās sadomāsi sadomāsiet sagādā sagādāja sagādāji sagādājiet sagādājis sagādājot sagādāju sagādājusi sagādājušas sagādājuši sagādājām sagādājāt sagādās sagādāsi sagādāsim sagādāta sagādātajiem sagādātajām sagādātas sagādāti sagādāto sagādāts sagādātu sagādāšu
+41	1541	paskaidrot	jāpaskaidro nepaskaidro nepaskaidroja nepaskaidrojot nepaskaidros nepaskaidrosi nepaskaidrotu paskaidro paskaidroja paskaidrojam paskaidrojat paskaidroji paskaidrojiet paskaidrojis paskaidrojot paskaidrojošas paskaidrojoši paskaidrojošo paskaidrojošs paskaidrojošu paskaidrojošā paskaidroju paskaidrojusi paskaidrojušas paskaidrojuši paskaidrojām paskaidrojāt paskaidros paskaidrosi paskaidrosiet paskaidrosim paskaidrota paskaidrotas paskaidroti paskaidrots paskaidrotu paskaidrošanas paskaidrošot paskaidrošu
+42	1542	paturēt	jāpatur nepatur nepaturiet nepaturēja nepaturēju nepaturēs nepaturēsi nepaturēt nepaturētu nepaturēšu patur paturam paturama paturami paturamo paturams paturat paturi paturiet paturot paturu paturēja paturēji paturējis paturēju paturējusi paturējuši paturējām paturēs paturēsi paturēsiet paturēsim paturēta paturētas paturēti paturēts paturētu paturēšana paturēšu
+43	1543	pirmdiena	pirmdien pirmdienai pirmdienas pirmdienu pirmdienā pirmdienām pirmdienās
+44	1544	attīstīt	attīsta attīsti attīstot attīstu attīstām attīstāms attīstīja attīstījis attīstīju attīstījusi attīstījušas attīstījuši attīstījām attīstīs attīstīsi attīstīsim attīstīta attīstītais attīstītas attīstīti attīstītie attīstīto attīstīts attīstītu attīstītā attīstīšana attīstīšanas attīstīšanu attīstīšanā attīstīšu jāattīsta neattīsta neattīstām neattīstīta neattīstīti neattīstīto neattīstīts neattīstītu neattīstītā
+45	1545	kino	
+46	1546	stāvs	stāva stāviem stāvos stāvus stāvā
+47	1547	aizvien	
+48	1548	rūpēties	jārūpējas nerūpējamies nerūpējas nerūpējies nerūpējieties nerūpējos nerūpējoties nerūpējāmies nerūpējās nerūpējāties nerūpēsies nerūpēsieties nerūpēsimies nerūpēties nerūpētos nerūpēšanās nerūpēšos rūpēdamies rūpējamies rūpējas rūpējaties rūpējies rūpējieties rūpējos rūpējoties rūpējusies rūpējušies rūpējušās rūpējāmies rūpējās rūpējāties rūpēsies rūpēsieties rūpēsimies rūpēsities rūpētos rūpēšanās rūpēšos rūpēšoties
+49	1549	signāls	signāla signālam signāli signāliem signālos signālu signālus signālā
+50	1550	doktors	doktor doktora doktoram doktori doktoriem doktoru doktorus
+51	1551	slēpt	jāslēpj neslēp neslēpa neslēpj neslēpjot neslēpju neslēpsi neslēptu neslēpšu slēp slēpa slēpi slēpis slēpj slēpjam slēpjama slēpjams slēpjat slēpjot slēpju slēpta slēptais slēptajiem slēptas slēpti slēptie slēpto slēptos slēpts slēptu slēptā slēptām slēptās slēpu slēpusi slēpuši slēpšana slēpšanas slēpšanu
+52	1552	iznākt	iznāc iznāca iznāci iznāciet iznācis iznācu iznācām iznācāt iznāk iznākam iznākot iznākošo iznāks iznāksi iznāktu iznāku iznākusi iznākusī iznākušais iznākušajiem iznākušajā iznākušajām iznākušas iznākuši iznākušie iznākušo iznākušu iznākušā iznākušās iznākšana jāiznāk neiznāca neiznāk neiznākot neiznāks neiznāksi neiznāksiet neiznākt neiznāktu
+53	1553	lēts	lēta lētai lētais lētajam lētajiem lētajā lētajām lētas lētie lētiem lēto lētos lētu lētus lētā lētāk lētāka lētākai lētākais lētākajiem lētākajām lētākas lētāki lētākie lētākiem lētāko lētākos lētāks lētāku lētākus lētākā lētākām lētākās lētām lētās vislētāk vislētākais vislētāko vislētākās
+54	1554	iestāties	iestādamies iestājamies iestājas iestājaties iestājies iestājieties iestājos iestājoties iestājusies iestājušies iestājušās iestājāmies iestājās iestājāties iestāsies iestāsieties iestāsimies iestāsities iestātos iestāšanās iestāšos neiestājamies neiestājas neiestājaties neiestājies neiestājos neiestājoties neiestājās neiestāsies neiestāties neiestātos neiestāšanās
+55	1555	aprunāties	aprunājamies aprunājas aprunājaties aprunājies aprunājieties aprunājos aprunājoties aprunājusies aprunājušies aprunājāmies aprunājās aprunājāties aprunāsies aprunāsimies aprunātos aprunāšanās aprunāšos aprunāšoties jāaprunājas neaprunājies neaprunājos neaprunājoties neaprunājās neaprunāsies neaprunāsimies neaprunāties
+56	1556	pensija	pensijai pensijas pensiju pensijā pensijām pensijās
+57	1557	pazaudēt	nepazaudē nepazaudējam nepazaudēji nepazaudējiet nepazaudējot nepazaudēju nepazaudējām nepazaudēsi nepazaudēt nepazaudētu nepazaudēšu pazaudē pazaudēja pazaudējam pazaudējat pazaudēji pazaudējiet pazaudējis pazaudējot pazaudēju pazaudējusi pazaudējuši pazaudējām pazaudējāt pazaudēs pazaudēsi pazaudēsiet pazaudēsim pazaudēta pazaudētas pazaudēti pazaudētie pazaudēto pazaudēts pazaudētu pazaudētās pazaudēšanas pazaudēšanu pazaudēšu
+58	1558	paaudze	paaudzei paaudzes paaudzi paaudzē paaudzēm paaudzēs paaudžu
+59	1559	administratīvs	administratīva administratīvai administratīvais administratīvajai administratīvajam administratīvajiem administratīvajos administratīvajā administratīvajām administratīvajās administratīvam administratīvas administratīvi administratīvie administratīviem administratīvo administratīvos administratīvu administratīvus administratīvā administratīvām administratīvās
+60	1560	apvienība	apvienībai apvienības apvienību apvienībā apvienībām apvienībās
+61	1561	iesaistīties	iesaistieties iesaistos iesaistoties iesaistās iesaistāties iesaistījies iesaistījos iesaistījusies iesaistījušies iesaistījušās iesaistījāmies iesaistījās iesaistījāties iesaistīsies iesaistīsieties iesaistīsimies iesaistītos iesaistīšanās iesaistīšos neiesaistieties neiesaistos neiesaistoties neiesaistās neiesaistījies neiesaistījos neiesaistījušās neiesaistījās neiesaistījāties neiesaistīsies neiesaistīsimies neiesaistīties neiesaistītos neiesaistīšanās neiesaistīšos
+62	1562	papildu	
+63	1563	ceturtdiena	ceturtdien ceturtdienai ceturtdienas ceturtdienu ceturtdienā ceturtdienām ceturtdienās
+64	1564	tepat	
+65	1565	atļauties	atļaudamies atļaujamies atļaujas atļaujaties atļaujies atļaujieties atļaujos atļaujoties atļausies atļausieties atļausimies atļausities atļautos atļaušanās atļāvies atļāvos atļāvāmies atļāvās atļāvāties jāatļaujas neatļaujamies neatļaujas neatļaujies neatļaujos neatļausies neatļauties neatļautos neatļāvos neatļāvāmies neatļāvās
+66	1566	atkāpties	atkāpies atkāpieties atkāpjamies atkāpjas atkāpjaties atkāpjos atkāpjoties atkāpos atkāpsies atkāpsieties atkāpsimies atkāptos atkāpāmies atkāpās atkāpšanās atkāpšos atkāpšoties jāatkāpjas neatkāpdamies neatkāpies neatkāpieties neatkāpjamies neatkāpjas neatkāpjos neatkāpjoties neatkāpos neatkāpsies neatkāpsimies neatkāpties neatkāptos neatkāpāmies neatkāpās neatkāpšos neatkāpšoties
+67	1567	noķert	jānoķer nenoķer nenoķeram nenoķerams nenoķers nenoķersi nenoķersiet nenoķersim nenoķert nenoķertu nenoķeršu nenoķēra nenoķēri nenoķēru nenoķērām noķer noķeram noķerams noķerat noķerdams noķeriet noķerot noķers noķersi noķersiet noķersim noķerts noķertu noķeru noķeršana noķeršot noķeršu noķēra noķēri noķēris noķēru noķērām noķērāt
+68	1568	krietns	krietna krietnai krietnais krietnajam krietnajiem krietnajos krietnam krietnas krietni krietnie krietniem krietno krietnos krietnu krietnus krietnā krietnāk krietnākajiem krietnākajām krietnākie krietnāko krietnākos krietnāks krietnāku krietnākā krietnākās krietnām krietnās viskrietnāk
+69	1569	mēģinājums	mēģinājuma mēģinājumam mēģinājumi mēģinājumiem mēģinājumos mēģinājumu mēģinājumus mēģinājumā
+70	1570	pietrūkt	nepietrūka nepietrūks nepietrūkst nepietrūkstot nepietrūktu pietrūcis pietrūka pietrūks pietrūkst pietrūkstot pietrūkstošo pietrūkstošā pietrūktu pietrūkusi pietrūkušas pietrūkuši pietrūkušo pietrūkšot
+71	1571	apsveikt	apsveic apsveica apsveicam apsveicams apsveici apsveiciet apsveicis apsveicot apsveicu apsveicām apsveiks apsveiksiet apsveiksim apsveikts apsveiktu apsveikšana apsveikšu jāapsveic neapsveic neapsveica neapsveici neapsveikts neapsveikšu
+72	1572	izdzīvot	izdzīvo izdzīvoja izdzīvojam izdzīvoji izdzīvojiet izdzīvojis izdzīvojot izdzīvoju izdzīvojusi izdzīvojušas izdzīvojuši izdzīvojušos izdzīvojušā izdzīvojušās izdzīvojām izdzīvojāt izdzīvos izdzīvosi izdzīvosiet izdzīvosim izdzīvosit izdzīvota izdzīvotas izdzīvoti izdzīvots izdzīvotu izdzīvošana izdzīvošot izdzīvošu jāizdzīvo neizdzīvo neizdzīvoja neizdzīvos neizdzīvosi neizdzīvosim neizdzīvot neizdzīvotos neizdzīvotu neizdzīvošu
+73	1573	otrdiena	otrdien otrdienai otrdienas otrdienu otrdienā otrdienām otrdienās
+74	1574	uzturēt	jāuztur neuztur neuzturat neuzturu neuzturēja neuzturēt neuzturēšanu uzturama uzturams uzturat uzturi uzturiet uzturot uzturēja uzturēji uzturējis uzturēju uzturējusi uzturējuši uzturējām uzturēs uzturēsim uzturēta uzturētais uzturētajiem uzturētajā uzturētas uzturēti uzturēto uzturētos uzturēts uzturētu uzturētā uzturētās uzturēšana uzturēšanas uzturēšanu uzturēšanā uzturēšu
+75	1575	dziļš	dziļa dziļai dziļais dziļajai dziļajā dziļam dziļas dziļiem dziļo dziļos dziļu dziļus dziļā dziļāk dziļāka dziļākai dziļākais dziļākajiem dziļākajos dziļākajā dziļākajām dziļākas dziļāki dziļākie dziļākiem dziļāko dziļākos dziļāks dziļāku dziļākus dziļākā dziļākās dziļām dziļās visdziļākais visdziļākajā visdziļāko visdziļākā visdziļākās
+76	1576	tuvums	tuvuma tuvumam tuvumi tuvumiem tuvumos tuvumu tuvumā
+77	1577	piesaistīt	jāpiesaista nepiesaista nepiesaisti nepiesaistot nepiesaistīja nepiesaistīju nepiesaistījām nepiesaistīs nepiesaistīsi nepiesaistīsiet nepiesaistīt nepiesaistīts nepiesaistītu piesaista piesaisti piesaistiet piesaistot piesaistošs piesaistu piesaistām piesaistāms piesaistāt piesaistīja piesaistīji piesaistījis piesaistīju piesaistījām piesaistījāt piesaistīs piesaistīsi piesaistīsiet piesaistīsim piesaistīts piesaistītu piesaistīšana piesaistīšot piesaistīšu
+78	1578	juridisks	juridiska juridiskai juridiskais juridiskajai juridiskajam juridiskajiem juridiskajos juridiskajā juridiskajām juridiskajās juridiskam juridiskas juridiski juridiskie juridiskiem juridisko juridiskos juridisku juridiskus juridiskā juridiskām juridiskās
+79	1579	izturēties	izturamies izturas izturaties izturies izturieties izturos izturoties izturējies izturējos izturējusies izturējušies izturējušās izturējāmies izturējās izturējāties izturēsies izturēsieties izturēsimies izturētos izturēšanās izturēšos jāizturas neizturamies neizturas neizturies neizturieties neizturos neizturējos neizturējušās neizturējās neizturēsies neizturēties neizturētos
+80	1580	ierobežojums	ierobežojuma ierobežojumam ierobežojumi ierobežojumiem ierobežojumos ierobežojumu ierobežojumus ierobežojumā
+81	1581	degviela	degvielai degvielas degvielu degvielā degvielām degvielās
+82	1582	atgūt	atguva atguvi atguvis atguvu atguvām atguvāt atgūs atgūsi atgūsiet atgūsim atgūsit atgūst atgūstam atgūstams atgūstat atgūsti atgūstiet atgūstot atgūstu atgūts atgūtu atgūšana atgūšu jāatgūst neatguva neatguvis neatguvu neatgūs neatgūsi neatgūsiet neatgūsim neatgūst neatgūsti neatgūstot neatgūt neatgūtu neatgūšu
+83	1583	ietekmēt	ietekmēja ietekmējam ietekmējams ietekmējat ietekmējis ietekmējot ietekmējošs ietekmēju ietekmējusi ietekmējušas ietekmējuši ietekmējām ietekmēsim ietekmēsit ietekmēta ietekmētais ietekmētas ietekmēti ietekmētie ietekmēto ietekmēts ietekmētu ietekmētā ietekmēšana ietekmēšanas ietekmēšanu ietekmēšanā jāietekmē neietekmē neietekmēja neietekmējam neietekmējams neietekmējot neietekmēs neietekmēta neietekmēti neietekmētu neietekmēšanu neietekmēšu
+84	1584	kontrolēt	jākontrolē kontrolēja kontrolējam kontrolējams kontrolējat kontrolējiet kontrolējis kontrolējot kontrolēju kontrolēsim kontrolēta kontrolētais kontrolētas kontrolēti kontrolētie kontrolēto kontrolēts kontrolētu kontrolētā kontrolēšana kontrolēšanu kontrolēšu nekontrolē nekontrolēja nekontrolējam nekontrolējams nekontrolēji nekontrolējiet nekontrolējot nekontrolēju nekontrolējām nekontrolēsi nekontrolēta nekontrolētas nekontrolēti nekontrolēto nekontrolēts nekontrolētu nekontrolēšu
+85	1585	raudāt	jāraud neraud neraudi neraudiet neraudu neraudāja neraudāju neraudās neraudāt neraudātu neraudāšu raud raudam raudat raudi raudiet raudot raudoši raudošie raudošo raudošs raudošu raudošā raudu raudādama raudādams raudāja raudāji raudājis raudāju raudājusi raudājām raudās raudāsi raudātu raudāšana raudāšanas raudāšanu raudāšu
+86	1586	reģionāls	reģionāla reģionālai reģionālais reģionālajai reģionālajam reģionālajiem reģionālajos reģionālajā reģionālajām reģionālajās reģionālam reģionālas reģionāli reģionālie reģionāliem reģionālo reģionālos reģionālu reģionālus reģionālā reģionālām reģionālās
+87	1587	brīdināt	brīdina brīdini brīdiniet brīdinot brīdinu brīdināja brīdināji brīdinājis brīdināju brīdinājusi brīdinājušas brīdinājuši brīdinājām brīdinājāt brīdinām brīdinās brīdināsiet brīdināsim brīdināta brīdinātas brīdināti brīdinātie brīdināts brīdinātu brīdināšana brīdināšanas brīdināšanu brīdināšu jābrīdina nebrīdina nebrīdinot nebrīdināja nebrīdināji nebrīdināju nebrīdinājusi nebrīdinājām nebrīdinājāt nebrīdināt nebrīdinātas
+88	1588	uzskats	uzskatam uzskati uzskatiem uzskatos uzskatu uzskatus uzskatā
+89	1589	tumsa	tumsai tumsas tumsu tumsā tumsās
+90	1590	labprāt	
+91	1591	izturēt	iztur izturams izturat izturi izturiet izturot izturēja izturēji izturējis izturēju izturējusi izturējušas izturējuši izturējām izturēs izturēsi izturēsiet izturēsim izturētos izturēts izturētu izturēšu jāiztur neiztur neizturama neizturami neizturams neizturat neizturēja neizturēju neizturējām neizturēs neizturēsi neizturēsiet neizturēsim neizturēt neizturētos neizturētu neizturēšu
+92	1592	noticēt	jānotic nenotic nenoticam nenoticat nenotici nenoticot nenoticu nenoticēja nenoticēju nenoticējām nenoticēs nenoticēsi nenoticēsiet nenoticēt nenoticētu nenoticēšu notic noticam notici noticiet noticot noticu noticēja noticēji noticējis noticēju noticējusi noticējušas noticējuši noticējušie noticējām noticējāt noticēs noticēsi noticēsiet noticēsim noticēts noticētu noticēšu
+93	1593	pajautāt	jāpajautā nepajautā nepajautāja nepajautājat nepajautāji nepajautājis nepajautājot nepajautāju nepajautājusi nepajautājuši nepajautājām nepajautājāt nepajautās nepajautāsi nepajautāsiet nepajautāt pajautā pajautāja pajautājam pajautājat pajautāji pajautājiet pajautājis pajautājot pajautāju pajautājusi pajautājuši pajautājām pajautājāt pajautās pajautāsi pajautāsiet pajautāsim pajautāti pajautāts pajautātu pajautāšu
+94	1594	iespaids	iespaida iespaidam iespaidi iespaidiem iespaidos iespaidu iespaidus iespaidā
+95	1595	investīcija	investīcijai investīcijas investīciju investīcijā investīcijām investīcijās
+96	1596	intervija	intervijai intervijas interviju intervijā intervijām intervijās
+97	1597	departaments	departamenta departamentam departamenti departamentiem departamentos departamentu departamentus departamentā
+98	1598	draudze	draudzei draudzes draudzi draudzu draudzē draudzēm draudzēs draudžu
+99	1599	pieminēt	jāpiemin nepiemin nepieminam nepiemini nepieminiet nepieminot nepieminu nepieminēja nepieminēju nepieminējāt nepieminēs nepieminēsim nepieminēt nepieminēts nepieminētu nepieminēšu piemin pieminam pieminams pieminat piemini pieminiet pieminot pieminu pieminēdams pieminēja pieminēji pieminējis pieminēju pieminējām pieminējāt pieminēs pieminēsi pieminēsiet pieminēsim pieminēts pieminētu pieminēšana pieminēšu
+100	1600	kolektīvs	kolektīva kolektīvam kolektīvi kolektīviem kolektīvos kolektīvu kolektīvus kolektīvā

@@ -1,0 +1,100 @@
+1	7001	žults	žulti žultij žultī
+2	7002	mice	mices mici micēs mii miu miču
+3	7003	klade	kladei klades kladi kladē kladēm kladēs klai klažu
+4	7004	sirdspuksts	sirdspuksta sirdspukstam sirdspuksti sirdspukstiem sirdspukstos sirdspukstu sirdspukstus
+5	7005	ciklons	ciklona ciklonam cikloni cikloniem ciklonu ciklonā
+6	7006	autorizēties	autorizējaties autorizējies autorizējieties autorizējos autorizējoties autorizējās autorizētos autorizēšanās jāautorizējas neautorizētos
+7	7007	tvarstīt	jātvarsta netvarstīsim tvarsta tvarsti tvarstot tvarstīja tvarstījis tvarstījām tvarstīs tvarstīsi tvarstīta tvarstīti tvarstītu tvarstīšana tvarstīšanas tvarstīšanu tvarstīšanā
+8	7008	iesēt	iesēj iesēja iesējams iesēji iesējiet iesējis iesējot iesēju iesējām iesēs iesēsi iesēsiet iesēsim iesēts iesētu iesēšana jāiesēj neiesēju neiesējām
+9	7009	pī	
+10	7010	sasisties	nesasisties nesasistos nesasities nesasitos nesasitāties nesasitīsies sasistos sasities sasitos sasitoties sasitusies sasitušies sasitušās sasitīsies sasitīsimies
+11	7011	lakatiņš	lakatiņa lakatiņam lakatiņi lakatiņiem lakatiņos lakatiņu lakatiņus lakatiņā
+12	7012	skrieties	jāskrienas skrienas skrienaties skrienos skrienoties skriesimies skrietos skriešanās skrējies skrējāmies skrējās
+13	7013	sazvanīties	jāsazvanās sazvanies sazvanos sazvanoties sazvanāmies sazvanās sazvanījies sazvanījos sazvanījušies sazvanījušās sazvanījāmies sazvanījās sazvanīsies sazvanīsimies sazvanītos sazvanīšanās sazvanīšos
+14	7014	pali	paliem palos palu palus palā
+15	7015	labdaris	labdara labdare labdari labdariem labdarim labdaru labdarus labdarī
+16	7016	šauri	
+17	7017	lāpīt	jālāpa lāpi lāpot lāpu lāpām lāpīja lāpījāt lāpīs lāpīts lāpītu lāpīšana lāpīšu
+18	7018	maskēt	maskē maskēja maskējot maskēju maskējuši maskēta maskētas maskēti maskēto maskēts maskētu maskētā maskēšana maskēšanas maskēšanu nemaskēts
+19	7019	izlauzt	izlauz izlauza izlauzi izlauziet izlauzis izlauzta izlauztas izlauzti izlauztiem izlauztos izlauzts izlauztu izlauztām izlauzu izlauzīs izlauzīsi izlauzīšu izlauž izlaužam izlaužot jāizlauž neizlauza neizlauzīs
+20	7020	nelga	nelgas nelgu nelgām
+21	7021	krāce	krāces krāci krācē krācēm krācēs krāču
+22	7022	heroīns	heroīna heroīnam heroīnu
+23	7023	atlaisties	atlaidas atlaidies atlaidieties atlaidos atlaidās atlaidīsies atlaidīsimies atlaidīšos atlaistos atlaižamies atlaižas atlaižaties atlaižos atlaižoties jāatlaižas neatlaidies neatlaidos neatlaidās neatlaidīsimies neatlaisties neatlaižas neatlaižos
+24	7024	mocības	
+25	7025	šķautne	šķautnei šķautnes šķautni šķautnēm šķautnēs šķautņu
+26	7026	hroms	hrom hroma hromi hromu
+27	7027	virzulis	virzuli virzulī virzuļa virzuļi virzuļiem virzuļos virzuļu virzuļus
+28	7028	okultisms	okultisma okultismu okultismā
+29	7029	pievest	jāpieved nepieved nepievedot nepievest pieved pieveda pievedam pievediet pievedis pievedot pievedu pievedām pievedīs pievedīsim pievedīšu pievesta pievestas pievesti pievestos pievests pievestu pievestās pievešana
+30	7030	kasieris	kasiera kasieri kasieriem kasierim kasieru kasierus
+31	7031	provokācija	provokācijai provokācijas provokāciju provokācijām provokācijās
+32	7032	fizioterapeits	fizioterapeita fizioterapeitam fizioterapeiti fizioterapeitiem fizioterapeitu
+33	7033	biomasa	biomasai biomasas biomasu biomasā
+34	7034	ceplis	cepli ceplim ceplī cepļa cepļi cepļos cepļu cepļus
+35	7035	sociālisms	sociālisma sociālismam sociālismi sociālismu sociālismā
+36	7036	totalitārs	totalitāra totalitārai totalitārais totalitārajai totalitārajam totalitārajiem totalitārajā totalitārajām totalitāras totalitāri totalitārie totalitāriem totalitāro totalitāros totalitāru totalitārus totalitārā totalitārām totalitārās
+37	7037	zeltains	zeltaina zeltainais zeltainajam zeltainajiem zeltainajā zeltainajām zeltainajās zeltainam zeltainas zeltainie zeltainiem zeltaino zeltainos zeltainu zeltainus zeltainā zeltaināku zeltainām zeltainās
+38	7038	zaldāts	zaldāta zaldātam zaldāti zaldātiem zaldātu zaldātus
+39	7039	iesildīšanās	
+40	7040	labvēlis	labvēli labvēlim labvēļa labvēļi labvēļiem labvēļu labvēļus
+41	7041	izejmateriāls	izejmateriāla izejmateriālam izejmateriāli izejmateriāliem izejmateriālos izejmateriālu izejmateriālus izejmateriālā
+42	7042	centīgs	centīga centīgai centīgais centīgajam centīgajiem centīgam centīgas centīgie centīgiem centīgo centīgu centīgus centīgā centīgāk centīgākais centīgākajiem centīgāki centīgākie centīgākiem centīgāko centīgākos centīgāks centīgām centīgās viscentīgāk viscentīgākie
+43	7043	ieinteresēties	ieinteresējas ieinteresējies ieinteresējos ieinteresējusies ieinteresējušies ieinteresējušās ieinteresējās ieinteresēsies ieinteresētos neieinteresējās neieinteresēsies
+44	7044	dzīvsudrabs	dzīvsudraba dzīvsudrabu
+45	7045	mīklains	mīklaina mīklainais mīklainajiem mīklainajos mīklainajām mīklainas mīklaini mīklainie mīklainiem mīklaino mīklainos mīklainu mīklainus mīklainā mīklaināka mīklainākajiem mīklaināks mīklainās vismīklainākajiem vismīklainākā
+46	7046	tūska	tūskai tūskas tūsku tūskām
+47	7047	dinamīts	dinamīta dinamītu
+48	7048	blokāde	blokādes blokādi blokādēm blokādēs blokāžu
+49	7049	saasināties	nesaasinās nesaasināsies saasinoties saasinājies saasinājusies saasinājušies saasinājušās saasinājās saasinās saasināsies saasinātos
+50	7050	dramaturģija	dramaturģijai dramaturģijas dramaturģiju dramaturģijā
+51	7051	sistemātisks	sistemātiska sistemātiskai sistemātiskais sistemātiskajiem sistemātiskam sistemātiskas sistemātiskiem sistemātisko sistemātisku sistemātiskus sistemātiskā sistemātiskāk sistemātiskāka sistemātiskākas sistemātiskāku sistemātiskām sistemātiskās
+52	7052	vaga	vagai vagas vagu vagā vagām vagās
+53	7053	īstenoties	jāīstenojas neīstenojas neīstenojies neīstenojās neīstenosies neīstenoties īstenojamies īstenojas īstenojies īstenojoties īstenojusies īstenojušies īstenojās īstenosies īstenošanās
+54	7054	podnieks	podnieka podniekam podnieki podniekiem podniekos podnieku
+55	7055	aprast	aprada apradis apradu apradusi apraduši apradušiem apradušo apradām apradīs apradīsi apradīsim aprasta aprastajiem aprasti aprasts aprastu aprastus aprod aprodam aprodi aprodot jāaprod
+56	7056	nūjošana	nūjošanai nūjošanas nūjošanu nūjošanā
+57	7057	aile	ailei ailes aili ailē ailēm ailēs aiļu
+58	7058	iepīt	iepin iepina iepinam iepini iepinis iepinot iepinu iepīs iepīts iepītu iepīšana jāiepin neiepin neiepiniet neiepinu neiepīt
+59	7059	izsisties	izsistos izsities izsitoties izsitusies izsitušies izsitīsies izsišanās
+60	7060	psihiatrija	psihiatrijai psihiatrijas psihiatriju psihiatrijā
+61	7061	slāpes	
+62	7062	deaktivizēt	deaktivizējis deaktivizējot deaktivizējām deaktivizēs deaktivizēts deaktivizēšana
+63	7063	apse	apsei apses apsi apsēm apsēs apšu
+64	7064	audēja	audējai audējas audēju audējām audējās
+65	7065	šantāža	šantāžai šantāžas šantāžu šantāžā šantāžām
+66	7066	sarunvaloda	sarunvalodai sarunvalodas sarunvalodu sarunvalodā
+67	7067	batons	batona batonam batoni batoniem batoniņam batoniņi batoniņiem batoniņu batoniņus batoniņš batonu batonus batonā
+68	7068	džudo	
+69	7069	mūrnieks	mūrnieka mūrniekam mūrnieki mūrniekiem mūrniekos mūrnieku mūrniekus
+70	7070	vecumdienas	vecumdienaam
+71	7071	pasīvi	
+72	7072	atstāties	atstādamies atstājas atstājies atstājos atstājās atstāsies atstātos neatstājas neatstājoties neatstājās neatstāsies neatstāšos
+73	7073	kalve	kalvei kalves kalvi kalvju kalvē kalvēm
+74	7074	putekšņi	putekšņiem putekšņu putekšņus
+75	7075	restaurēt	jārestaurē restaurē restaurēja restaurējam restaurējams restaurējis restaurējot restaurēju restaurējām restaurēs restaurēts restaurētu restaurēšana
+76	7076	paduse	padusei paduses padusi padusē padusēm padusēs padušu
+77	7077	paart	nepaariet paar paara paari paariet paaris paarsi paarsit
+78	7078	pumpa	pumpai pumpas pumpu pumpām pumpās
+79	7079	biškopība	biškopībai biškopības biškopību biškopībā
+80	7080	noraudzīties	jānoraugās nenoraudzīšos noraudzījies noraudzījos noraudzījāmies noraudzījās noraudzīsieties noraudzītos noraudzīšos noraugies noraugieties noraugos noraugoties noraugās noraugāties
+81	7081	velkonis	velkoni velkonim velkoņa velkoņi velkoņiem velkoņu velkoņus
+82	7082	ledains	ledaina ledainais ledainajai ledainajos ledainajā ledainajām ledainas ledaini ledainie ledainiem ledaino ledainos ledainu ledainā ledaināks ledainām ledainās
+83	7083	meistarīgi	
+84	7084	pavadīties	pavadas pavadās pavadīsies pavadītos pavadīšanās
+85	7085	ķīmiķis	ķīmiķa ķīmiķe ķīmiķes ķīmiķi ķīmiķiem ķīmiķim ķīmiķos ķīmiķu ķīmiķus
+86	7086	piegriezties	piegriezies piegriezusies piegriezušies piegriezušās piegriezās piegriezīsies piegriežas
+87	7087	ceļabiedrs	ceļabiedra ceļabiedram ceļabiedri ceļabiedriem ceļabiedros ceļabiedru ceļabiedrus
+88	7088	mēlīte	mēlītei mēlītes mēlīti mēlītēm mēlīšu
+89	7089	irānis	irāni irānim irāņi irāņiem irāņu irāņus
+90	7090	patīt	nepatīsi nepatīt patin patina patinam patiniet patinot patinu patinām patīsim patītu
+91	7091	pašķirties	pašķiramies pašķiras pašķirdamies pašķirieties pašķiroties pašķirsies pašķirsieties pašķiršanās pašķīries pašķīros pašķīrāmies pašķīrās pašķīrāties
+92	7092	konservēt	jākonservē konservē konservēja konservējam konservējams konservējis konservējot konservēju konservējuši konservēs konservēsim konservēta konservētas konservēti konservētie konservēto konservēts konservētu konservētā konservēšana konservēšanas konservēšanu konservēšanā
+93	7093	intonācija	intonācijas intonāciju intonācijā intonācijām intonācijās
+94	7094	apvaldīt	apvalda apvaldi apvaldiet apvaldot apvaldu apvaldām apvaldāms apvaldīju apvaldītu jāapvalda neapvalda neapvaldāms neapvaldīta neapvaldītai neapvaldītais neapvaldītas neapvaldīti neapvaldīts neapvaldītu neapvaldītā
+95	7095	pakavs	pakava pakavas pakavi pakaviem pakavos pakavu pakavus pakavā
+96	7096	tampons	tamponi tamponiem tamponu tamponus
+97	7097	mozaīka	mozaīkai mozaīkas mozaīku mozaīkā mozaīkām mozaīkās
+98	7098	varmācība	varmācībai varmācības varmācību varmācībā
+99	7099	caurspīdīgi	
+100	7100	čūla	čūlas čūlu čūlā čūlām čūlās

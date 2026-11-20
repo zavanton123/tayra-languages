@@ -1,37 +1,37 @@
 1	801	ceļojums	ceļojum ceļojuma ceļojumam ceļojumi ceļojumiem ceļojumos ceļojumu ceļojumus ceļojumā
-2	802	ātrs	visātrākais ātra ātrai ātrais ātrajai ātrajam ātrajiem ātrajos ātrajā ātrajām ātrajās ātram ātras ātrie ātriem ātro ātros ātru ātrus ātrā ātrāks ātrām ātrās
+2	802	ātrs	visātrāk visātrākais visātrāko visātrākos ātra ātrai ātrais ātrajai ātrajam ātrajiem ātrajos ātrajā ātrajām ātram ātras ātrie ātriem ātro ātros ātru ātrus ātrā ātrāka ātrākai ātrākais ātrākajam ātrākajiem ātrākas ātrāki ātrākie ātrāko ātrākos ātrāks ātrāku ātrākus ātrākā ātrākās ātrām ātrās
 3	803	armija	armijai armijas armiju armijā armijām armijās
 4	804	autobuss	autobus autobusa autobusam autobusi autobusiem autobusos autobusu autobusus autobusā
 5	805	lidmašīna	lidmašīnai lidmašīnas lidmašīnu lidmašīnā lidmašīnām lidmašīnās
-6	806	pārliecināt	jāpārliecina pārliecina pārliecini pārlieciniet pārliecinot pārliecinošs pārliecinu pārliecināja pārliecināji pārliecinājis pārliecināju pārliecinājām pārliecinājāt pārliecinām pārliecināms pārliecinās pārliecināsi pārliecināsiet pārliecināsim pārliecināsit pārliecināts pārliecinātu pārliecināšana pārliecināšu
+6	806	pārliecināt	jāpārliecina nepārliecina nepārliecini nepārliecinot nepārliecinošs nepārliecināja nepārliecināju nepārliecinās nepārliecināsi nepārliecināsiet nepārliecināsim nepārliecināts nepārliecinātu pārliecina pārliecini pārlieciniet pārliecinot pārliecinošs pārliecinu pārliecināja pārliecināji pārliecinājis pārliecināju pārliecinājām pārliecinājāt pārliecinām pārliecināms pārliecinās pārliecināsi pārliecināsiet pārliecināsim pārliecināsit pārliecināts pārliecinātu pārliecināšana pārliecināšu
 7	807	siena	sienai sienas sienu sienā sienām sienās
 8	808	bumba	bumbai bumbam bumbas bumbos bumbu bumbā bumbām bumbās
 9	809	janvāris	janvāra janvāri janvārim janvāros janvārus janvārī
-10	810	dzimšana	dzimšanai dzimšanas dzimšanu dzimšanā
-11	811	interesants	interesanta interesantai interesantais interesantajai interesantajam interesantajiem interesantajos interesantajā interesantajām interesantajās interesantam interesantas interesantie interesantiem interesanto interesantos interesantu interesantus interesantā interesantāks interesantām interesantās visinteresantākais
+10	810	dzimšana	dzimšanai dzimšanas dzimšanu dzimšanā dzimšanām dzimšanās
+11	811	interesants	interesanta interesantai interesantais interesantajam interesantajiem interesantajā interesantajām interesantam interesantas interesantie interesantiem interesanto interesantos interesantu interesantus interesantā interesantāk interesantāka interesantākais interesantākajiem interesantākajām interesantākas interesantāki interesantākie interesantākiem interesantāko interesantākos interesantāks interesantāku interesantākus interesantākā interesantākās interesantām interesantās visinteresantāk visinteresantākais visinteresantāko visinteresantākā visinteresantākās
 12	812	noslēpums	noslēpuma noslēpumam noslēpumi noslēpumiem noslēpumos noslēpumu noslēpumus noslēpumā
 13	813	dvēsele	dvēselei dvēseles dvēseli dvēselē dvēselēm dvēselēs dvēseļu
-14	814	milzīgs	milzīga milzīgai milzīgais milzīgajai milzīgajam milzīgajiem milzīgajos milzīgajā milzīgajām milzīgajās milzīgam milzīgas milzīgi milzīgie milzīgiem milzīgo milzīgos milzīgu milzīgus milzīgā milzīgāks milzīgām milzīgās vismilzīgākais
+14	814	milzīgs	milzīga milzīgai milzīgais milzīgajai milzīgajam milzīgajiem milzīgajos milzīgajā milzīgajām milzīgajās milzīgam milzīgas milzīgi milzīgie milzīgiem milzīgo milzīgos milzīgu milzīgus milzīgā milzīgākais milzīgāki milzīgāks milzīgākā milzīgām milzīgās vismilzīgākais
 15	815	zirgs	zirg zirga zirgam zirgi zirgiem zirgos zirgu zirgus zirgā
 16	816	biļete	biļetei biļetes biļeti biļetē biļetēm biļetēs biļešu
 17	817	kamera	kamerai kameram kameras kameru kamerā kamerām kamerās
-18	818	mainīties	mainās mainījies mainījās
-19	819	sens	sena senai senais senajai senajam senajiem senajos senajā senajām senajās senam senas seni senie seniem seno senos senu senus senā senāks senām senās vissenākais
+18	818	mainīties	jāmainās mainas mainies mainieties mainos mainoties maināmies mainās maināties mainījas mainījies mainījos mainījusies mainījušies mainījāmies mainījās mainīsies mainīsieties mainīsimies mainīšanās mainīšos mainīšoties nemainas nemainies nemainieties nemainos nemainoties nemaināmies nemainās nemainījos nemainījās nemainīsies nemainīsieties nemainīsimies nemainīties nemainīšanās nemainīšos nemainīšoties
+19	819	sens	sena senai senais senajai senajiem senajos senajā senajām senajās senam senas seni senie seniem seno senos senu senus senā senāk senāka senākais senākajai senākajiem senākajām senākas senāki senākie senākiem senāko senākos senāks senāku senākā senākās senām senās vissenākais vissenākajām
 20	820	saistība	saistībai saistības saistību saistībā saistībām saistībās
-21	821	celt	cel celdams celiet cels celsi celsiet celsim celtais celts celtu celšana celšanai celšanas celšanos celšanu celšanā celšot celšu ceļ ceļam ceļamais ceļams ceļat ceļošais ceļošs ceļu cēla cēli cēlis cēlu cēlām cēlāt jāceļ necelt
+21	821	celt	cel celiet cels celsim celta celtas celti celto celtos celts celtu celtā celtās celšana celšanai celšanas celšanos celšanu celšanā celšanās celšu ceļ ceļam ceļu cēla cēli cēlis cēlu cēlusi cēluši cēlušās cēlām jāceļ necel neceliet necelsim necelt neceļ necēla
 22	822	kafija	kafijai kafijam kafijas kafiju kafijā kafijām kafijās
 23	823	apkārt	
-24	824	anglis	angam angli angliete anglietēm anglim angu angļa angļi angļiem angļu angļus
+24	824	anglis	angam angli angliem angliete anglietēm anglim anglu angu angļa angļi angļiem angļu angļus
 25	825	pavasaris	pavasara pavasari pavasariem pavasarim pavasaros pavasaru pavasarus pavasarī
 26	826	gars	gara garam gari gariem garos garu garus garā
-27	827	īstenot	jāīsteno neīstenot īsteno īstenoja īstenojam īstenojams īstenojat īstenoji īstenojiet īstenojis īstenojot īstenoju īstenojām īstenos īstenosiet īstenosim īstenotais īstenots īstenotu īstenošana īstenošanai īstenošanas īstenošanos īstenošanu īstenošanā īstenošot īstenošu
-28	828	turēties	jāturas neturēties turamies turas turaties turies turieties turos turoties turēdamies turējies turējos turējāmies turējās turējāties turēsies turēsieties turēsimies turēsities turētos turēšanās turēšos turēšoties
+27	827	īstenot	jāīsteno īsteno īstenoja īstenojam īstenojama īstenojamas īstenojams īstenojis īstenojot īstenoju īstenojusi īstenojušas īstenojuši īstenojām īstenos īstenosim īstenota īstenotais īstenotajai īstenotajiem īstenotajos īstenotajā īstenotajām īstenotas īstenoti īstenotie īstenotiem īstenoto īstenotos īstenots īstenotu īstenotā īstenotās īstenošana īstenošanai īstenošanas īstenošanos īstenošanu īstenošanā
+28	828	turēties	jāturas neturamies neturas neturies neturieties neturos neturoties neturējies neturējos neturējās neturēsies neturēsimies neturēties neturēšos turamies turas turaties turies turieties turos turoties turēdamies turējies turējos turējusies turējušies turējāmies turējās turējāties turēsies turēsieties turēsimies turēsities turētos turēšanās turēšos turēšoties
 29	829	vienība	vienībai vienības vienībi vienību vienībā vienībām vienībās
-30	830	solis	soli soļus
-31	831	apstiprināt	apstiprina apstiprini apstipriniet apstiprinot apstiprinošs apstiprinu apstiprināja apstiprināji apstiprinājis apstiprināju apstiprinājām apstiprinājāt apstiprinām apstiprināms apstiprinās apstiprināsi apstiprināsiet apstiprināsim apstiprināts apstiprinātu apstiprināšana apstiprināšot apstiprināšu jāapstiprina neapstiprināt
+30	830	solis	soli solim solī soļa soļi soļiem soļu soļus
+31	831	apstiprināt	apstiprina apstiprini apstipriniet apstiprinot apstiprinošs apstiprinu apstiprināja apstiprināji apstiprinājis apstiprināju apstiprinājām apstiprinājāt apstiprinām apstiprināms apstiprinās apstiprināsi apstiprināsiet apstiprināsim apstiprināts apstiprinātu apstiprināšana apstiprināšot apstiprināšu jāapstiprina neapstiprina neapstiprini neapstiprinot neapstiprinu neapstiprināja neapstiprinām neapstiprinās neapstiprināsi neapstiprināsiet neapstiprināt neapstiprināts neapstiprinātu neapstiprināšana
 32	832	brauciens	braucien brauciena braucienam braucieni braucieniem braucienos braucienu braucienus braucienā
-33	833	pieaugt	pieaudzis pieaug pieauga pieaugot pieaugs
-34	834	izmaiņa	izmaiņas izmaiņām
+33	833	pieaugt	jāpieaug nepieaug nepieaugs pieaudzis pieaug pieauga pieaugam pieaugot pieaugoša pieaugošais pieaugošajām pieaugošas pieaugošo pieaugošs pieaugošu pieaugošā pieaugošās pieaugs pieaugsi pieaugtu pieaugu pieaugusi pieauguša pieaugušais pieaugušajam pieaugušajiem pieaugušam pieaugušas pieauguši pieaugušie pieaugušiem pieaugušo pieaugušos pieaugušu pieaugušus pieaugušā pieaugušās pieaugšana pieaugšot
+34	834	izmaiņa	izmaiņai izmaiņas izmaiņu izmaiņām izmaiņās
 35	835	skats	skat skata skatam skati skatiem skatos skatu skatus skatā
 36	836	vakarā	
 37	837	ārpus	
@@ -40,61 +40,61 @@
 40	840	interesanti	
 41	841	kustība	kustībai kustībam kustības kustību kustībā kustībām kustībās
 42	842	reizēm	
-43	843	lieks	lieka liekai liekais liekajam liekajiem liekajos liekajā liekajām liekam liekas lieki liekie liekiem lieko liekos lieku liekus liekā liekāks liekām liekās
+43	843	lieks	lieka liekai liekais liekajam liekajiem liekajos liekajā liekajām liekam liekas lieki liekie liekiem lieko liekos lieku liekus liekā liekāka liekākajai liekākajiem liekākas liekākiem liekāko liekāks liekāku liekākā liekām liekās visliekāko visliekākos
 44	844	manta	mantai mantam mantas mantu mantus mantā mantām mantās
-45	845	pierādīt	jāpierāda nepierādīt pierāda pierādi pierādiet pierādot pierādu pierādām pierādāms pierādāt pierādīdams pierādīja pierādīji pierādījis pierādīju pierādījām pierādījāt pierādīs pierādīsi pierādīsiet pierādīsim pierādīts pierādītu pierādīšana pierādīšot pierādīšu
-46	846	portāls	portāla portālam portālu portālā
-47	847	plašs	plaša plašai plašais plašajai plašajam plašajiem plašajos plašajā plašajām plašajās plašam plašas plašie plašiem plašo plašos plašu plašus plašā plašāks plašām plašās visplašākais
-48	848	izrādīties	izrādās izrādījās
+45	845	pierādīt	jāpierāda nepierāda nepierādi nepierādot nepierādāms nepierādīja nepierādīju nepierādīs nepierādīsi nepierādīsiet nepierādīsim nepierādīt nepierādīts nepierādītu pierāda pierādi pierādiet pierādot pierādu pierādām pierādāms pierādāt pierādīdams pierādīja pierādīji pierādījis pierādīju pierādījām pierādījāt pierādīs pierādīsi pierādīsiet pierādīsim pierādīts pierādītu pierādīšana pierādīšot pierādīšu
+46	846	portāls	portāla portālam portāli portāliem portālos portālu portālus portālā
+47	847	plašs	plaša plašai plašais plašajai plašajam plašajiem plašajā plašajām plašajās plašam plašas plašiem plašo plašos plašu plašus plašā plašāk plašāka plašākai plašākais plašākam plašākas plašāki plašākiem plašāko plašāks plašāku plašākus plašākā plašākām plašākās plašām plašās visplašāk visplašākajā visplašāko visplašākā visplašākās
+48	848	izrādīties	izrādas izrādies izrādieties izrādoties izrādāmies izrādās izrādāties izrādījas izrādījies izrādījos izrādījusies izrādījušies izrādījušās izrādījāmies izrādījās izrādījāties izrādīsies izrādīsimies izrādītos izrādīšanās izrādīšos izrādīšoties jāizrādās neizrādas neizrādās neizrādījās neizrādīsies neizrādīties neizrādītos
 49	849	vajadzība	vajadzībai vajadzībam vajadzības vajadzību vajadzībā vajadzībām vajadzībās
 50	850	avots	avota avotam avoti avotiem avotos avotu avotus avotā
 51	851	eksperts	ekspert eksperta ekspertam eksperte eksperti ekspertiem ekspertos ekspertu ekspertus ekspertā
-52	852	bāze	bāzei bāzes bāzi bāzu bāzē bāzēm bāzēs
-53	853	priecīgs	priecīga priecīgai priecīgais priecīgajai priecīgajam priecīgajiem priecīgajos priecīgajā priecīgajās priecīgam priecīgas priecīgi priecīgie priecīgiem priecīgo priecīgos priecīgu priecīgus priecīgā priecīgāks priecīgām priecīgās vispriecīgākais
-54	854	kārtība	kārtībai kārtības kārtību
-55	855	kapteinis	kapteine kapteini kapteinim kapteinī kapteiņa kapteiņi kapteiņiem kapteiņu kapteiņus
-56	856	pastāstīt	pastāsta pastāstīja
+52	852	bāze	bāzei bāzes bāzi bāzu bāzē bāzēm bāzēs bāžu
+53	853	priecīgs	priecīga priecīgai priecīgais priecīgajai priecīgajam priecīgajiem priecīgajos priecīgajā priecīgajās priecīgam priecīgas priecīgi priecīgie priecīgiem priecīgo priecīgos priecīgu priecīgus priecīgā priecīgāk priecīgāka priecīgākais priecīgākajiem priecīgākajām priecīgākam priecīgākas priecīgāki priecīgākie priecīgākiem priecīgāks priecīgāku priecīgākus priecīgākā priecīgākām priecīgākās priecīgām priecīgās vispriecīgāk vispriecīgākais
+54	854	kārtība	kārtībai kārtības kārtību kārtībām kārtībās
+55	855	kapteinis	kapteina kapteine kapteini kapteinim kapteinī kapteiņa kapteiņi kapteiņiem kapteiņu kapteiņus
+56	856	pastāstīt	jāpastāsta nepastāsta nepastāsti nepastāstāt nepastāstīja nepastāstīji nepastāstīju nepastāstījāt nepastāstīs nepastāstīsi nepastāstīt nepastāstītu nepastāstīšu pastāsta pastāsti pastāstiet pastāstot pastāstu pastāstām pastāstāms pastāstāt pastāstīja pastāstīji pastāstījis pastāstīju pastāstījusi pastāstījušas pastāstījuši pastāstījām pastāstījāt pastāstīs pastāstīsi pastāstīsiet pastāstīsim pastāstīta pastāstīts pastāstītu pastāstīšot pastāstīšu
 57	857	vienošanās	vienošanos
 58	858	kaķis	kais kaķa kaķi kaķiem kaķim kaķu kaķus kaķī
 59	859	futbols	futbol futbola futbolam futboli futbolu futbolā
-60	860	ideāls	ideāl ideāla ideālai ideālais ideālajai ideālajam ideālajiem ideālajā ideālajām ideālajās ideālam ideālas ideāli ideālie ideāliem ideālo ideālos ideālu ideālus ideālā ideālām ideālās visideālākais
+60	860	ideāls	ideāl ideāla ideālai ideālais ideālajai ideālajam ideālajiem ideālajā ideālajām ideālajās ideālam ideālas ideāli ideālie ideāliem ideālo ideālos ideālu ideālus ideālā ideālāk ideālāka ideālākais ideālākajā ideālākajām ideālākie ideālāko ideālākos ideālāku ideālākā ideālākās ideālām ideālās visideālāk visideālākais visideālākajās visideālākie visideālākā visideālākās
 61	861	risks	risk riska riskam riski riskiem riskos risku riskus riskā
 62	862	hei	
-63	863	aktīvs	aktīva aktīvai aktīvais aktīvajai aktīvajam aktīvajiem aktīvajos aktīvajā aktīvajām aktīvajās aktīvam aktīvas aktīvie aktīviem aktīvo aktīvos aktīvu aktīvus aktīvā aktīvāks aktīvām aktīvās visaktīvākais
+63	863	aktīvs	aktīva aktīvai aktīvais aktīvajai aktīvajam aktīvajiem aktīvajos aktīvajā aktīvajām aktīvam aktīvas aktīvie aktīviem aktīvo aktīvos aktīvu aktīvus aktīvā aktīvāk aktīvāka aktīvākai aktīvākais aktīvākajiem aktīvākajām aktīvākas aktīvāki aktīvākie aktīvākiem aktīvāko aktīvākos aktīvāks aktīvāku aktīvākā aktīvākās aktīvām aktīvās visaktīvāk visaktīvākie visaktīvākās
 64	864	krīze	krīzei krīzes krīzi krīzē krīzēm krīzēs krīžu
 65	865	pacients	pacient pacienta pacientam paciente pacienti pacientiem pacientos pacientu pacientus pacientā
-66	866	iegādāties	iegādājamies iegādājas iegādājaties iegādājies iegādājieties iegādājos iegādājoties iegādājāmies iegādājās iegādājāties iegādāsies iegādāsieties iegādāsimies iegādāsities iegādātos iegādāšanās iegādāšos iegādāšoties jāiegādājas neiegādāties
+66	866	iegādāties	iegādājamies iegādājas iegādājaties iegādājies iegādājieties iegādājos iegādājoties iegādājusies iegādājušies iegādājušās iegādājāmies iegādājās iegādājāties iegādāsies iegādāsieties iegādāsimies iegādāsities iegādātos iegādāšanās iegādāšos iegādāšoties jāiegādājas neiedomāties neiegādājamies neiegādājas neiegādājies neiegādājieties neiegādājos neiegādājoties neiegādājās neiegādājāties neiegādāsies neiegādāsimies neiegādāties neiegādātos neiegādāšos
 67	867	bibliotēka	bibliotēkai bibliotēkas bibliotēku bibliotēkā bibliotēkām bibliotēkās
 68	868	stacija	stacijai stacijam stacijas staciju stacijā stacijām stacijās
 69	869	augs	aug auga augam augas augi augie augiem augo augos augu augus augā augām
 70	870	šejiene	šejienei šejienes šejieni šejienu
-71	871	uzticēties	jāuzticas neuzticēties uzticamies uzticas uzticaties uzticies uzticieties uzticos uzticoties uzticēdamies uzticējies uzticējos uzticējāmies uzticējās uzticējāties uzticēsies uzticēsieties uzticēsimies uzticētos uzticēšanās uzticēšos
-72	872	pastāvēt	jāpastāv nepastāvēt pastāv pastāvam pastāvat pastāvi pastāviet pastāvot pastāvošs pastāvu pastāvēja pastāvējis pastāvēju pastāvējām pastāvēs pastāvēsim pastāvētu pastāvēšana pastāvēšot pastāvēšu
+71	871	uzticēties	jāuzticas neuzticamies neuzticas neuzticaties neuzticies neuzticieties neuzticos neuzticoties neuzticējies neuzticējos neuzticējās neuzticēsies neuzticēsimies neuzticēties neuzticētos neuzticēšanās neuzticēšos uzticamies uzticas uzticaties uzticies uzticieties uzticos uzticoties uzticēdamies uzticējies uzticējos uzticējusies uzticējušies uzticējušās uzticējāmies uzticējās uzticējāties uzticēsies uzticēsieties uzticēsimies uzticētos uzticēšanās uzticēšos
+72	872	pastāvēt	jāpastāv nepastāv nepastāvot nepastāvēja nepastāvēs nepastāvētu pastāv pastāvam pastāvi pastāviet pastāvot pastāvoša pastāvošai pastāvošais pastāvošajai pastāvošajiem pastāvošajā pastāvošajām pastāvošas pastāvošie pastāvošo pastāvošos pastāvošu pastāvošā pastāvošās pastāvu pastāvēja pastāvējis pastāvēju pastāvējusi pastāvējušas pastāvējuši pastāvējušo pastāvējām pastāvēs pastāvēsim pastāvētu pastāvēšana pastāvēšu
 73	873	rinda	rindai rindam rindas rindu rindā rindām rindās
 74	874	ziņojums	ziņojuma ziņojumam ziņojumi ziņojumiem ziņojumos ziņojumu ziņojumus ziņojumā
 75	875	tādējādi	
-76	876	pienākt	pienāca pienācis pienāk pienāks
+76	876	pienākt	jāpienāk nepienāca nepienāk nepienāks nepienākt nepienāktos nepienāktu pienāc pienāca pienāciet pienācis pienācu pienācām pienācāt pienāk pienākam pienākot pienākošais pienākošie pienākošo pienākošos pienākošās pienāks pienāksi pienāksim pienāktos pienāktu pienākusi pienākušais pienākušas pienākuši pienākušu pienākušās pienākšana pienākšanai pienākšanas pienākšanu pienākšot pienākšu
 77	877	mute	mutei mutes muti mutu mutē mutēm mutēs muus muā
 78	878	līnija	līnijai līnijas līniju līnijā līnijām līnijās
 79	879	vērot	jāvēro nevērot vēro vērodams vēroja vērojam vērojams vērojat vēroji vērojiet vērojis vērojot vēroju vērojām vērojāt vēros vērosi vērosiet vērosim vērots vērotu vērošana vērošot vērošu
 80	880	nest	jānes nenest nes nesa nesam nesams nesat nesdams nesi nesiet nesis nesot nesošs nests nestu nesu nesām nesāt nesīs nesīsi nesīsiet nesīsim nesīsit nesīšot nesīšu nešana
 81	881	gabals	gabal gabala gabalam gabali gabaliem gabalos gabalu gabalus gabalā
 82	882	kāzas	kāzu kāzām kāzās
-83	883	vidējs	vidējais vidējo vidējā vidējās
+83	883	vidējs	vidēja vidējai vidējais vidējam vidējas vidēji vidējie vidējiem vidējo vidējos vidēju vidējus vidējā vidējākā vidējām vidējās
 84	884	atslēga	atslēgai atslēgas atslēgu atslēgā atslēgām atslēgās
-85	885	parasts	parasta parastai parastais parastajai parastajam parastajiem parastajos parastajā parastajām parastajās parastam parastas parastie parastiem parasto parastos parastu parastus parastā parastām parastās visparastākais
+85	885	parasts	parasta parastai parastais parastajai parastajam parastajiem parastajos parastajā parastajām parastajās parastam parastas parastie parastiem parasto parastos parastu parastus parastā parastāka parastākajā parastākajām parastākas parastākie parastāko parastākā parastām parastās visparastākais visparastākajai visparastākajiem visparastākajos visparastākajā visparastākajām visparastākie visparastāko visparastākos visparastākā visparastākās
 86	886	gaita	gaitai gaitas gaitu gaitā gaitām gaitās
 87	887	zobs	zoba zobam zobi zobiem zobos zobu zobus zobā
 88	888	rudens	rudei rudeni rudenim rudenī rudes rudeņi rudeņiem rudeņos rudeņu rudeņus
-89	889	tīrs	tīra tīrai tīrais tīrajai tīrajam tīrajiem tīrajos tīrajā tīrajām tīrajās tīram tīras tīrie tīriem tīro tīros tīru tīrus tīrā tīrāks tīrām tīrās vistīrākais
+89	889	tīrs	tīra tīrai tīrais tīrajiem tīrajā tīrajām tīrajās tīram tīras tīrie tīriem tīro tīros tīru tīrus tīrā tīrāk tīrāka tīrākai tīrākais tīrākajā tīrākajām tīrākas tīrāki tīrākie tīrāko tīrāks tīrāku tīrākus tīrākā tīrākās tīrām tīrās vistīrākais vistīrākajā vistīrākie vistīrāko vistīrākā vistīrākās
 90	890	attēls	attēl attēla attēlam attēli attēliem attēlos attēlu attēlus attēlā
 91	891	piens	pien piena pienam pieni pieniem pienu pienus pienā
 92	892	kauss	kaus kausa kausam kausi kausiem kausos kausu kausus kausā
 93	893	sekunde	sekundei sekundes sekundi sekundē sekundēm sekundēs sekunžu
-94	894	ievērot	ievēro ievēroja ievērojam ievērojat ievēroji ievērojiet ievērojis ievērojot ievērojošs ievēroju ievērojām ievērojāt ievēros ievērosi ievērosiet ievērosim ievērots ievērotu ievērošana ievērošu jāievēro neievērot
-95	895	nomirt	nomira
-96	896	uzmanīgs	uzmanīga uzmanīgai uzmanīgais uzmanīgajai uzmanīgajam uzmanīgajiem uzmanīgam uzmanīgas uzmanīgi uzmanīgie uzmanīgiem uzmanīgo uzmanīgos uzmanīgu uzmanīgus uzmanīgā uzmanīgāks uzmanīgām
-97	897	pareizs	pareiza pareizai pareizais pareizajai pareizajam pareizajiem pareizajos pareizajā pareizajām pareizajās pareizam pareizas pareizie pareiziem pareizo pareizos pareizu pareizus pareizā pareizāks pareizām pareizās vispareizākais
+94	894	ievērot	ievēro ievēroja ievērojam ievērojat ievēroji ievērojiet ievērojis ievērojot ievērojošs ievēroju ievērojām ievērojāt ievēros ievērosi ievērosiet ievērosim ievērots ievērotu ievērošana ievērošu jāievēro neievēro neievērodams neievēroja neievērojam neievērojams neievēroji neievērojis neievērojot neievēroju neievērojāt neievēros neievērosi neievērosiet neievērosim neievērot neievērots neievērotu neievērošana
+95	895	nomirt	jānomirst nenomira nenomiri nenomirs nenomirsi nenomirsiet nenomirsim nenomirst nenomirsti nenomirstot nenomirsu nenomirt nenomirts nenomirtu nenomiru nenomirām nenomiršu nomira nomirdami nomiri nomiris nomirs nomirsi nomirsiet nomirsim nomirsit nomirst nomirstam nomirsti nomirstiet nomirstot nomirstu nomirtu nomiru nomirām nomirāt nomiršana nomiršot nomiršu
+96	896	uzmanīgs	uzmanīga uzmanīgai uzmanīgais uzmanīgajai uzmanīgajam uzmanīgajiem uzmanīgam uzmanīgas uzmanīgi uzmanīgie uzmanīgiem uzmanīgo uzmanīgos uzmanīgu uzmanīgus uzmanīgā uzmanīgāk uzmanīgāka uzmanīgākai uzmanīgākajiem uzmanīgākam uzmanīgākas uzmanīgāki uzmanīgākie uzmanīgākiem uzmanīgāks uzmanīgāku uzmanīgākus uzmanīgām
+97	897	pareizs	pareiza pareizai pareizais pareizajai pareizajam pareizajiem pareizajos pareizajā pareizajām pareizajās pareizam pareizas pareizie pareiziem pareizo pareizos pareizu pareizus pareizā pareizāk pareizāka pareizākais pareizākas pareizāki pareizākie pareizāko pareizākos pareizāks pareizāku pareizākus pareizākā pareizākās pareizām pareizās vispareizāk vispareizākais vispareizākajā vispareizāko vispareizākā
 98	898	konts	konta kontam konti kontiem kontos kontu kontus kontā
 99	899	lietotājs	lietotāja lietotājam lietotāji lietotājiem lietotājos lietotāju lietotājus lietotājā
-100	900	pateikties	pateicoties
+100	900	pateikties	jāpateicas jāpateicoties nepateicas nepateicies nepateicieties nepateicos nepateikties nepateikšos pateicamies pateicas pateicies pateicieties pateicos pateicoties pateicāmies pateicās pateikdamies pateiksies pateiksieties pateiksimies pateiktos pateikusies pateikušies pateikšanās pateikšos

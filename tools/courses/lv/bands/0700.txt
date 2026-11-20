@@ -1,6 +1,6 @@
 1	601	prece	prea precei preces preci precē precēm precēs prei preču
 2	602	novembris	novembra novembri novembrim novembros novembrī
-3	603	karalis	karaa karali karaliene karalienei karalienes karalieni karalienēm karalienēs karalieņu karalim karalī karaļa karaļi karaļiem karaļos karaļu karaļus
+3	603	karalis	karaa karali karaliene karalienei karalienes karalieni karalienēm karalienēs karalieņu karalim karalu karalī karaļa karaļi karaļiem karaļos karaļu karaļus
 4	604	deja	dejai dejas deju dejus dejā dejām dejās
 5	605	autors	autor autora autoram autore autori autoriem autoru autorus autorā
 6	606	liecināt	jāliecina liecina liecini lieciniet liecinot liecinu liecinādams liecināja liecināji liecinājis liecināju liecinājāt liecinām liecinās liecināsi liecināsiet liecināsim liecināts liecinātu liecināšana liecināšot liecināšu neliecināt
@@ -8,21 +8,21 @@
 8	608	garām	
 9	609	zēns	zēn zēna zēnam zēni zēniem zēnos zēnu zēnus zēnā
 10	610	vienalga	
-11	611	tirdzniecība	tirdzniecībai tirdzniecības tirdzniecību tirdzniecībā
+11	611	tirdzniecība	tirdzniecībai tirdzniecības tirdzniecību tirdzniecībā tirdzniecībās
 12	612	patiesība	patiesībai patiesības patiesībi patiesību patiesībām patiesībās
 13	613	dzīvnieks	dzīvniek dzīvnieka dzīvniekam dzīvnieki dzīvniekiem dzīvniekos dzīvnieku dzīvniekus dzīvniekā
-14	614	piederēt	jāpieder nepiederēt pieder piederam piederat piederi piederiet piederot piederošais piederošs piederu piederēja piederēji piederējis piederēju piederējušais piederējām piederēs piederēsi piederēsiet piederētu piederēšana piederēšu
+14	614	piederēt	jāpieder nepieder nepiederu nepiederēja nepiederēs nepiederētu pieder piederam piederat piederi piederiet piederot piederoša piederošais piederošajam piederošajiem piederošajos piederošajā piederošajām piederošajās piederošas piederoši piederošie piederošiem piederošo piederošos piederošs piederošu piederošā piederošām piederošās piederu piederēja piederējis piederējusi piederējušas piederējuši piederēs piederētu
 15	615	tīkls	tīkla tīklam tīkli tīkliem tīklos tīklu tīklus tīklā
 16	616	minēt	jāmin min minam minams minat mini miniet minot minu minēdams minēja minēji minējis minēju minējām minējāt minēs minēsi minēsiet minēsim minētajiem minētajā minēto minēts minētu minētā minēšana minēšu neminēt
-17	617	uzzināt	uzzināja uzzināju uzzinātu
-18	618	rajons	rajona rajonos rajonu rajonā
+17	617	uzzināt	jāuzzina neuzzina neuzzinot neuzzināja neuzzināju neuzzinājusi neuzzinājuši neuzzinājām neuzzinām neuzzinās neuzzināsi neuzzināsiet neuzzināsim neuzzināt neuzzinātu neuzzināšu uzzina uzzini uzziniet uzzinot uzzinu uzzināja uzzināji uzzinājis uzzināju uzzinājusi uzzinājuši uzzinājām uzzinājāt uzzinām uzzinās uzzināsi uzzināsiet uzzināsim uzzināsit uzzināto uzzināts uzzinātu uzzināšu
+18	618	rajons	rajona rajonam rajoni rajoniem rajonos rajonu rajonus rajonā
 19	619	parks	park parka parkam parki parkiem parkos parku parkus parkā
 20	620	vidusskola	vidusskolai vidusskolas vidusskolu vidusskolā vidusskolām vidusskolās
 21	621	šoreiz	
 22	622	balss	bals balsi balsij balsis balsu balsī balsīm balsīs balu
 23	623	nopietni	
-24	624	piekrist	jāpiekrīt nepiekrist piekrists piekristu piekrita piekriti piekritis piekritu piekritām piekritāt piekritīs piekritīsi piekritīsiet piekritīsim piekritīsit piekritīšot piekritīšu piekrizdams piekrišana piekrīt piekrītam piekrītat piekrīti piekrītiet piekrītot piekrītu
-25	625	bizness	biznesa
+24	624	piekrist	jāpiekrīt nepiekrist nepiekristu nepiekrita nepiekriti nepiekritu nepiekritām nepiekritīs nepiekritīsi nepiekritīšu nepiekrīt nepiekrītam nepiekrītat nepiekrīti nepiekrītiet nepiekrītot nepiekrītu piekrists piekristu piekrita piekriti piekritis piekritu piekritām piekritāt piekritīs piekritīsi piekritīsiet piekritīsim piekritīsit piekritīšu piekrišana piekrīt piekrītam piekrītat piekrīti piekrītiet piekrītot piekrītu
+25	625	bizness	biznesa biznesam biznesi biznesiem biznesos biznesu biznesus biznesā
 26	626	politika	politikai politikas politiki politikiem politikos politiku politikus politikā politikām politikās
 27	627	speciālists	speciālist speciālista speciālistam speciāliste speciālisti speciālistiem speciālistos speciālistu speciālistus
 28	628	priekša	priekšai priekšam priekšas priekšu priekšām priekšās
@@ -31,70 +31,70 @@
 31	631	vaļā	
 32	632	reiz	
 33	633	zīme	zīmei zīmes zīmi zīmju zīmē zīmēm zīmēs
-34	634	stiprs	stipra stiprai stiprais stiprajai stiprajam stiprajiem stiprajos stiprajā stiprajām stiprajās stipram stipras stipri stiprie stipriem stipro stipros stipru stiprus stiprā stiprāks stiprām stiprās visstiprākais
+34	634	stiprs	stipra stiprai stiprais stiprajam stiprajiem stiprajā stiprajām stipram stipras stipri stiprie stipriem stipro stipros stipru stiprus stiprā stiprāk stiprāka stiprākai stiprākais stiprākajiem stiprākajām stiprākam stiprākas stiprāki stiprākie stiprākiem stiprāko stiprākos stiprāks stiprāku stiprākus stiprākā stiprākās stiprām stiprās visstiprākais visstiprākās
 35	635	tikšanās	tikšanos
-36	636	neliels	neliela nelielas nelielu nelielā
+36	636	neliels	neliela nelielai nelielais nelielajai nelielajam nelielajiem nelielajos nelielajā nelielajām nelielajās nelielam nelielas nelieli nelielie nelieliem nelielo nelielos nelielu nelielus nelielā nelielāka nelielākajā nelielākas nelielāki nelielākos nelielāku nelielākā nelielākās nelielām nelielās
 37	637	mats	mata matam mati matiem matos matu matus matā
 38	638	mākslinieks	māksliniece mākslinieces māksliniek mākslinieka māksliniekam mākslinieki māksliniekiem māksliniekos mākslinieku māksliniekus māksliniekā
 39	639	īpašnieks	īpašniek īpašnieka īpašniekam īpašnieki īpašniekiem īpašniekos īpašnieku īpašniekus
 40	640	esošais	esošajai esošajam esošajiem esošajos esošajā esošajām esošajās esošie esošo esošos esošā esošās
 41	641	sen	
-42	642	nodaļa	nodaļas nodaļā
-43	643	vest	jāved nevest ved veda vedam vedams vedat vedi vediet vedis vedot vedošs vedu vedām vedāt vedīs vedīsi vedīsiet vedīsim vedīsit vedīšot vedīšu vests vestu vezdams vešana
-44	644	forma	formas formu formā formām
+42	642	nodaļa	nodaļai nodaļas nodaļu nodaļā nodaļām nodaļās
+43	643	vest	jāved nevest ved veda vedam vedams vedat vedi vediet vedis vedot vedošs vedu vedām vedāt vedīs vedīsi vedīsiet vedīsim vedīsit vedīšot vedīšu vesta vestam vestas vesti vestiem vestos vests vestu vestus vestā vestās vezdams vešana
+44	644	forma	formai formas formu formā formām formās
 45	645	priekš	
 46	646	oktobris	oktobra oktobri oktobrim oktobros oktobru oktobrī
-47	647	students	studeni studeniem student studenta studentam studente studenti studentiem studentos studentu studentus studenu
-48	648	čempionāts	čempionāta čempionātā
+47	647	students	studeni studeniem student studenta studentam studente studentei studentes studenti studentiem studentos studentu studentus studentē studentēm studenu studenšu
+48	648	čempionāts	čempionāta čempionātam čempionāti čempionātiem čempionātos čempionātu čempionātus čempionātā
 49	649	finanses	finanšu
 50	650	biedrība	biedrībai biedrības biedrību biedrībā biedrībām biedrībās
 51	651	slikti	
 52	652	manuprāt	
 53	653	gods	god goda godam godi godiem godos godu godus godā
-54	654	biedrs	biedr biedra biedram biedre biedrei biedrene biedres biedri biedriem biedros biedru biedrus biedrā biedrēm
-55	655	dzert	dzer dzeram dzeramais dzerams dzerat dzerdams dzeriet dzerot dzerošais dzers dzersi dzersiet dzersim dzersit dzertais dzerts dzertu dzeru dzeršana dzeršanai dzeršanas dzeršanu dzeršanā dzeršot dzeršu dzēra dzēri dzēris dzēru dzērām dzērāt jādzer nedzert
-56	656	interese	intereses interesi interešu
-57	657	zaļš	zaļa zaļai zaļais zaļajai zaļajam zaļajiem zaļajos zaļajā zaļajām zaļajās zaļam zaļas zaļi zaļie zaļiem zaļo zaļos zaļu zaļus zaļā zaļāks zaļām zaļās
-58	658	glābt	glāb glāba glābdams glābi glābiet glābis glābj glābjam glābjamais glābjams glābjat glābjot glābjošs glābju glābs glābsi glābsiet glābsim glābsit glābts glābtu glābu glābām glābāt glābšana glābšanai glābšanas glābšanos glābšanu glābšanā glābšu jāglābj neglābt
+54	654	biedrs	biedr biedra biedram biedre biedrei biedrene biedrenei biedrenes biedreni biedrenēm biedres biedreņu biedri biedriem biedros biedru biedrus biedrā biedrēm
+55	655	dzert	dzer dzeram dzeramais dzeramo dzeramos dzerams dzeramu dzeramā dzerat dzeriet dzerot dzers dzersi dzersiet dzersim dzertu dzeru dzeršana dzeršanai dzeršanas dzeršanu dzeršanā dzeršu dzēra dzēri dzēris dzēru dzērusi dzēruši dzērušu dzērām jādzer nedzer nedzeriet nedzers nedzersim nedzert nedzeru nedzeršu
+56	656	interese	interesei intereses interesi interesēm interesēs interešu
+57	657	zaļš	viszaļāko zaļa zaļai zaļais zaļajai zaļajam zaļajiem zaļajos zaļajā zaļajām zaļajās zaļam zaļas zaļi zaļie zaļiem zaļo zaļos zaļs zaļu zaļus zaļā zaļāk zaļāka zaļākai zaļākais zaļākajām zaļākam zaļākas zaļāki zaļākie zaļāko zaļāks zaļāku zaļākā zaļākām zaļākās zaļām zaļās
+58	658	glābt	glāb glāba glābdams glābi glābiet glābis glābj glābjam glābjama glābjams glābjot glābjošos glābju glābs glābsi glābsiet glābsim glābta glābti glābtos glābts glābtu glābu glābusi glābām glābāt glābšana glābšanai glābšanas glābšanu glābšanā glābšanās glābšu jāglābj neglāba neglābju neglābs neglābsim neglābtu
 59	659	kādreiz	
 60	660	skriet	jāskrien neskriet skriedams skrien skrienam skrienams skrienat skrieniet skrienot skrienošs skrienu skries skriesi skriesiet skriesim skriets skrietu skriešana skriešot skriešu skrēja skrēji skrējis skrēju skrējām
 61	661	vēlreiz	
 62	662	dārzs	dārza dārzam dārzi dārziem dārziņa dārziņam dārziņi dārziņiem dārziņos dārziņu dārziņus dārziņā dārziņš dārzos dārzu dārzus dārzā
 63	663	slimība	slimībai slimības slimību slimībā slimībām slimībās
-64	664	vaina	vainai vainas vaine vainu vainā vainām vainās
+64	664	vaina	vainai vainas vaine vaines vaini vainu vainā vainām vainās
 65	665	diemžēl	
-66	666	paņemt	paņem paņēmu
+66	666	paņemt	jāpaņem nepaņem nepaņems nepaņemsi nepaņemt nepaņemtu nepaņemšu nepaņēma nepaņēmi nepaņēmu paņem paņemam paņemat paņemiet paņemot paņems paņemsi paņemsiet paņemsim paņemta paņemtajiem paņemtas paņemti paņemtie paņemto paņemts paņemtu paņemu paņemšana paņemšot paņemšu paņēma paņēmi paņēmis paņēmu paņēmusi paņēmuši paņēmām paņēmāt
 67	667	maz	
 68	668	kundze	kunde kundzei kundzes kundzi kundzē kundzēm kundžu
 69	669	aptuveni	
 70	670	alga	algai algam algas algos algu algus algā algām algās
 71	671	kurss	kurs kursa kursam kursi kursiem kursos kursu kursus kursā
-72	672	vesels	vesela veselai veselais veselajai veselajam veselajiem veselajā veselajām veselam veselas veseli veselie veseliem veselo veselos veselu veselus veselā veselāks veselām veselās
+72	672	vesels	vesela veselai veselais veselajai veselajam veselajiem veselajā veselajām veselam veselas veseli veselie veseliem veselo veselos veselu veselus veselā veselāka veselākai veselākajai veselākajiem veselākam veselākas veselāki veselākie veselākiem veselāko veselāks veselāku veselākus veselākā veselām veselās visveselākajam visveselākie visveselāko
 73	673	video	
 74	674	šovakar	
-75	675	nozīmēt	jānozīmē nenozīmē nenozīmēt nozīmē nozīmēja nozīmējam nozīmēji nozīmējiet nozīmējis nozīmējot nozīmēju nozīmējāt nozīmēs nozīmēsi nozīmēsim nozīmēts nozīmētu nozīmēšana nozīmēšot nozīmēšu
-76	676	justies	jutās jūtos
-77	677	rīkoties	jārīkojas nerīkoties rīkodamies rīkojamies rīkojas rīkojaties rīkojies rīkojieties rīkojos rīkojoties rīkojāmies rīkojās rīkojāties rīkosies rīkosieties rīkosimies rīkosities rīkotos rīkošanās rīkošos rīkošoties
+75	675	nozīmēt	jānozīmē nenozīmē nenozīmēja nenozīmējot nenozīmēju nenozīmēs nenozīmēsi nenozīmēt nenozīmētu nenozīmēšot nenozīmēšu nozīmē nozīmēja nozīmējam nozīmēji nozīmējiet nozīmējis nozīmējot nozīmēju nozīmējāt nozīmēs nozīmēsi nozīmēsim nozīmēts nozīmētu nozīmēšana nozīmēšot nozīmēšu
+76	676	justies	justos juties jutos jutās jutāties jutīsies jutīsieties jutīsimies jutīsities jutīšos jutīšoties juzdamies jušanās jūtaties jūties jūtieties jūtos jūtoties nejusties nejustos nejuties nejutos nejutāties nejutīsies nejutīsieties nejutīsimies nejutīšos nejutīšoties nejuzdamies nejūtaties nejūties nejūtieties nejūtos nejūtoties
+77	677	rīkoties	jārīkojas nerīkojamies nerīkojas nerīkojaties nerīkojies nerīkojos nerīkojoties nerīkojāmies nerīkojās nerīkojāties nerīkosies nerīkosieties nerīkosimies nerīkoties nerīkotos nerīkošanās rīkodamies rīkojamies rīkojas rīkojaties rīkojies rīkojieties rīkojos rīkojoties rīkojāmies rīkojās rīkojāties rīkosies rīkosieties rīkosimies rīkosities rīkotos rīkošanās rīkošos rīkošoties
 78	678	ēdiens	ēdien ēdiena ēdienam ēdieni ēdieniem ēdienos ēdienu ēdienus ēdienā
-79	679	gudrs	gudra gudrai gudrais gudrajai gudrajam gudrajiem gudrajos gudrajā gudrajām gudrajās gudram gudras gudri gudrie gudriem gudro gudros gudru gudrus gudrā gudrāks gudrām gudrās visgudrākais
+79	679	gudrs	gudra gudrai gudrais gudrajai gudrajam gudrajiem gudrajām gudram gudras gudri gudrie gudriem gudro gudros gudru gudrus gudrā gudrāk gudrāka gudrākai gudrākais gudrākajiem gudrākam gudrākas gudrāki gudrākie gudrākiem gudrākos gudrāks gudrāku gudrākus gudrākā gudrām gudrās visgudrāk visgudrākais visgudrākie visgudrāko visgudrākā
 80	680	vēlēšanas	vēlēšana vēlēšanai vēlēšanam vēlēšanu vēlēšanā vēlēšanām
 81	681	cauri	
-82	682	dārgs	dārga dārgai dārgais dārgajai dārgajam dārgajiem dārgajos dārgajā dārgajām dārgajās dārgam dārgas dārgie dārgiem dārgo dārgos dārgu dārgus dārgā dārgāks dārgām dārgās visdārgākais
-83	683	loceklis	loceki locekli loceklim loceklī locekļa locekļi locekļiem locekļos locekļu locekļus
-84	684	jautāt	jautā jautādams jautāja jautājam jautājams jautājat jautāji jautājiet jautājis jautājot jautājošs jautāju jautājām jautājāt jautās jautāsi jautāsiet jautāsim jautāsit jautāts jautātu jautāšanas jautāšanu jautāšot jautāšu jājautā nejautāt
+82	682	dārgs	dārga dārgais dārgajai dārgajam dārgajiem dārgajā dārgajām dārgam dārgas dārgie dārgiem dārgo dārgos dārgu dārgus dārgā dārgāk dārgāka dārgākais dārgākajiem dārgākajām dārgākas dārgāki dārgākie dārgāko dārgāks dārgāku dārgākus dārgākā dārgākās dārgām dārgās visdārgāk visdārgākais visdārgākajam visdārgākie visdārgāko visdārgākā visdārgākās
+83	683	loceklis	loceki locekli locekliem loceklim loceklī locekļa locekļi locekļiem locekļos locekļu locekļus
+84	684	jautāt	jautā jautāja jautājam jautājams jautājat jautāji jautājiet jautājis jautājot jautāju jautājusi jautājuši jautājām jautājāt jautās jautāsi jautāsiet jautāsim jautāta jautāti jautāts jautātu jautāšanu jautāšu jājautā nejautā nejautāja nejautājam nejautāji nejautājiet nejautāju nejautājām nejautājāt nejautās nejautāsi nejautāsiet nejautāt nejautātu nejautāšu
 85	685	studija	studijai studijam studijas studiju studijā studijām studijās
 86	686	apstāklis	apstākli apstāklim apstāklī apstākļa apstākļiem apstākļos apstākļu apstākļus
 87	687	virziens	virzien virziena virzienam virzieni virzieniem virzienos virzienu virzienus virzienā
 88	688	automašīna	automašīnai automašīnam automašīnas automašīnu automašīnā automašīnām automašīnās
 89	689	kļūda	kļūdai kļūdas kļūdu kļūdā kļūdām kļūdās
 90	690	materiāls	materiāla materiālam materiāli materiāliem materiālos materiālu materiālus materiālā
-91	691	atsevišķs	atsevišķa atsevišķai atsevišķais atsevišķajai atsevišķajam atsevišķajiem atsevišķajos atsevišķajā atsevišķajām atsevišķajās atsevišķam atsevišķas atsevišķi atsevišķie atsevišķiem atsevišķo atsevišķos atsevišķu atsevišķus atsevišķā atsevišķām atsevišķās
-92	692	augt	audz audziet audzis aug auga augam augat augdams augot augošais augošs augsi augsim augtais augts augtu augu augušais augām augšana augšanai augšanas augšanu augšanā augšot augšu jāaug jāaugot neaugt
+91	691	atsevišķs	atsevišķa atsevišķai atsevišķais atsevišķajai atsevišķajam atsevišķajiem atsevišķajos atsevišķajā atsevišķajām atsevišķajās atsevišķam atsevišķas atsevišķi atsevišķie atsevišķiem atsevišķo atsevišķos atsevišķu atsevišķus atsevišķā atsevišķākas atsevišķākās atsevišķām atsevišķās
+92	692	augt	audz audzis aug auga augam augot augoša augošais augošajam augošajiem augošajām augošam augošas augoši augošie augošiem augošo augošos augošs augošu augošā augošās augsi augtu augu augusi augušas auguši augušu augām augšana augšanai augšanas augšanu augšot augšu jāaug neaug neaugs
 93	693	uzreiz	
 94	694	jūtas	jūtu jūtām jūtās
-95	695	mirt	jāmirst mira mirdams miri mirs mirsi mirsiet mirsim mirsit mirstam mirstamā mirstat mirsti mirstiet mirstot mirstošs mirstu mirtu miru mirusī mirušais mirušajai mirušajam mirušajiem mirušajos mirušajā mirušajām mirušie mirušo mirušos mirušā mirušās mirām miršana miršanas miršanu miršot miršu nemirt
+95	695	mirt	jāmirst mira mirdams miri mirs mirsi mirsiet mirsim mirsit mirstam mirsti mirstiet mirstot mirstoša mirstošo mirstu mirtu miru mirusī mirušais mirušajam mirušajiem mirušajos mirušajā mirušie mirušo mirām miršana miršanas miršot miršu nemira nemirs nemirsi nemirsim nemirsit nemirstam nemirsti nemiršu
 96	696	direktors	direktor direktora direktoram direktore direktorei direktores direktori direktoriem direktoru direktorus direktorā direktorēm
 97	697	māsa	māsai māsam māsas māsu māsā māsām māsās
-98	698	drīkstēt	drīkst drīkstam drīkstat drīksti drīkstiet drīkstot drīkstu drīkstēja drīkstēji drīkstējis drīkstēju drīkstējām drīkstējāt drīkstēs drīkstēsi drīkstēsiet drīkstēsim drīkstēts drīkstētu drīkstēšana drīkstēšanu drīkstēšot drīkstēšu jādrīkst nedrīkstēt
+98	698	drīkstēt	drīkst drīkstam drīkstat drīksti drīkstot drīkstu drīkstēja drīkstēji drīkstējis drīkstēju drīkstējusi drīkstējuši drīkstēs drīkstēsi drīkstēsiet drīkstēsim drīkstēts drīkstētu drīkstēšot drīkstēšu nedrīkst nedrīkstam nedrīkstat nedrīksti nedrīkstiet nedrīkstot nedrīkstu nedrīkstēja nedrīkstēji nedrīkstējis nedrīkstēju nedrīkstējām nedrīkstēs nedrīkstēsi nedrīkstēsiet nedrīkstēsim nedrīkstēt nedrīkstētu nedrīkstēšu
 99	699	augšā	
 100	700	dators	dator datora datoram datori datoriem datoros datoru datorus datorā

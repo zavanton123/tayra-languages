@@ -1,0 +1,100 @@
+1	8301	uzpurnis	uzpurni uzpurnim uzpurnus uzpurnī uzpurņa uzpurņiem uzpurņos uzpurņu uzpurņus
+2	8302	miokards	miokarda miokardam miokardu
+3	8303	grūstīties	grūstoties grūstīdamies grūstījušies grūstījāmies grūstījās grūstītos grūstīšanās negrūstieties negrūstos
+4	8304	upurēties	jāupurējas neupurēties upurējamies upurējas upurējies upurējos upurējoties upurējās upurēsies upurētos upurēšanās
+5	8305	pļāpīgs	pļāpīga pļāpīgais pļāpīgas pļāpīgi pļāpīgiem pļāpīgo pļāpīgu pļāpīgā pļāpīgāka pļāpīgās
+6	8306	izdurt	izdur izduram izduriet izdurot izdurs izdursim izdurts izdurtu izdūra izdūru
+7	8307	sakta	saktai saktas saktu saktā saktām saktās
+8	8308	vikonts	vikont vikontam vikontu
+9	8309	akvedukts	akvedukta akvedukti akveduktu
+10	8310	delikatese	delikateses delikatesi delikatesēm delikatesēs delikatešu
+11	8311	lētticīgs	lētticīga lētticīgais lētticīgajam lētticīgajiem lētticīgam lētticīgas lētticīgi lētticīgie lētticīgiem lētticīgo lētticīgos lētticīgu lētticīgus lētticīgā lētticīgākajiem lētticīgāki lētticīgākie lētticīgākiem lētticīgāks lētticīgāku lētticīgām lētticīgās
+12	8312	ornitoloģija	ornitoloģijai ornitoloģijas ornitoloģijā
+13	8313	spīdeklis	spīdekli spīdeklim spīdekļa spīdekļi spīdekļiem spīdekļu spīdekļus
+14	8314	iesildīt	iesilda iesildot iesildāt iesildīja iesildījis iesildījusi iesildījuši iesildījām iesildīs iesildīsim iesildīta iesildītas iesildīti iesildīto iesildītu iesildītā iesildīšana iesildīšanas iesildīšanu iesildīšu jāiesilda neiesildīja
+15	8315	apbruņoties	apbruņojas apbruņojaties apbruņojies apbruņojos apbruņojoties apbruņojās apbruņotos jāapbruņojas neapbruņojies neapbruņotos
+16	8316	skriemelis	skriemeli skriemelim skriemelī skriemeļa skriemeļi skriemeļiem skriemeļos skriemeļu skriemeļus
+17	8317	iekosties	iekodies iekodieties iekodusies iekodušās iekodās iekodāties iekodīsies iekodīšos iekožas iekožoties neiekosties neiekožas
+18	8318	pāksts	pāksti pākstis pākstī pākstīm pākstīs pākšu
+19	8319	aizsiet	aizsien aizsienot aizsienu aizsiesiet aizsietu aizsiešu aizsēja aizsējis aizsēju aizsējāt jāaizsien neaizsien neaizsēja
+20	8320	piekārtot	jāpiekārto piekārto piekārtojams piekārtojis piekārtojot piekārtoju piekārtojām piekārtos piekārtots piekārtošu
+21	8321	novelties	nenoveltos novelies novelšos noveļas noveļos novēlies novēlos novēlusies novēlās
+22	8322	brāļameita	brāļameitas brāļameitu
+23	8323	atgulēties	atgulies atgulieties atguļas atguļaties atguļoties jāatguļas
+24	8324	vilciņš	vilciņa vilciņam vilciņi vilciņiem vilciņu vilciņus
+25	8325	pesimisms	pesimisma pesimismam pesimismu pesimismā
+26	8326	piedegt	nepiedeg nepiedegošo nepiedegt nepiedegtu piededzis piedeg piedega piedegot piedegs piedegtu piedegusi piedeguša piedegušas piedegušiem piedegušu piedegušā
+27	8327	pitons	pitona pitonam pitoni pitoniem pitonu
+28	8328	anesteziologs	anesteziologa anesteziologam anesteziologi anesteziologiem anesteziologu anesteziologus
+29	8329	dzīvžogs	dzīvžoga dzīvžogam dzīvžogi dzīvžogiem dzīvžogos dzīvžogu dzīvžogus dzīvžogā
+30	8330	nerūsējošs	nerūsējoša nerūsējošais nerūsējošo nerūsējošu nerūsējošā nerūsējošās
+31	8331	sultāns	sultāna sultānam sultānu
+32	8332	dalītājs	dalītāja dalītājam dalītāji dalītājiem dalītāju dalītājus
+33	8333	sodība	sodības sodību sodībā sodībām
+34	8334	prievārds	prievārda prievārdiem prievārdu
+35	8335	aptaisīties	aptaisos aptaisījies aptaisījos aptaisīsies aptaisīsieties aptaisītos neaptaisies
+36	8336	možs	moža možai možais možam možas moži možiem možo možu možus možā možāk možāka možākam možāki možāks možās
+37	8337	gavēt	gavē gavēja gavējam gavējat gavēji gavējis gavējot gavēju gavējām gavēs gavēsim gavēts gavētu gavēšana gavēšanai gavēšanas gavēšanu gavēšanā gavēšanās gavēšu jāgavē
+38	8338	izsargāties	izsargājaties izsargājies izsargājos izsargājusies izsargājušies izsargās izsargāsimies izsargātos izsargāšanās neizsargāsies neizsargāties neizsargātos neizsargāšanās
+39	8339	katolisks	katoliska katoliskajai katoliskajā katoliskajām katoliskajās katoliskas katoliski katoliskie katolisko katolisku katoliskā katoliskās
+40	8340	šakālis	šakalis šakāli šakālim šakāļa šakāļi šakāļiem šakāļu šakāļus
+41	8341	mētra	mētrai mētras mētru mētrām mētrās
+42	8342	ietekmēties	ietekmējas ietekmējaties ietekmējies ietekmējos ietekmējoties ietekmējusies ietekmējušies ietekmējās ietekmēsies ietekmētos ietekmēšanās ietekmēšos neietekmējas neietekmējoties neietekmējās neietekmēties neietekmētos neietekmēšos
+43	8343	sakustēties	nesakustējās nesakustētos sakustas sakusties sakustos sakustoties sakustējies sakustējusies sakustējušies sakustējušās sakustējās sakustēsies sakustētos sakustēšanās
+44	8344	sanest	jāsanes sanes sanesa sanesam sanesi sanesiet sanesis sanests sanesu sanesām sanesīs sanesīsim
+45	8345	šimpanze	šimpanzei šimpanzes šimpanzi šimpanzēm šimpanžu
+46	8346	kardioloģija	kardioloģijai kardioloģijas kardioloģiju kardioloģijā
+47	8347	ielene	
+48	8348	drava	dravai dravas dravu dravā dravām dravās
+49	8349	konsistence	konsistencei konsistences konsistenci konsistencē konsistencēs
+50	8350	stingrība	stingrībai stingrības stingrību stingrībā
+51	8351	attīrīties	attīros attīroties attīrās attīrījies attīrījušies attīrījāmies attīrījās attīrīsies attīrīsieties attīrītos attīrīšanās attīrīšoties jāattīrās neattīrās neattīrīsies neattīrītos
+52	8352	pārkārtoties	pārkārtojamies pārkārtojas pārkārtojies pārkārtojos pārkārtojoties pārkārtojāmies pārkārtosies pārkārtotos pārkārtošanās
+53	8353	apmētāt	apmētā apmētāja apmētājam apmētājat apmētājis apmētājot apmētāju apmētājām apmētās apmētāšana jāapmētā
+54	8354	lineārs	lineāra lineārais lineārajai lineārajiem lineārajā lineāras lineāri lineārie lineāriem lineāro lineāros lineāru lineārā lineārām lineārās
+55	8355	jēdzīgi	
+56	8356	videokasete	videokasetes videokaseti videokasetē videokasetēm videokasešu
+57	8357	cukurbiete	cukurbietei cukurbietēm cukurbiešu
+58	8358	locīt	jāloka locīdams locīja locījis locīju locījām locīs locīsim locīts locītu locīšana loka lokot loku lokām lokāms nelocīt
+59	8359	sapelnīt	jāsapelna nesapelnīšu sapelna sapelni sapelnu sapelnām sapelnīja sapelnīji sapelnījis sapelnīju sapelnījusi sapelnījuši sapelnīs sapelnīsi sapelnīsim sapelnītie sapelnīto sapelnītu sapelnītā sapelnītās sapelnīšu
+60	8360	atlauzt	atlauza atlauzis atlauzta atlauztas atlauzti atlauzts atlauztu atlauzu atlauž atlaužot neatlauž
+61	8361	nolietoties	nenolietojas nenolietojās nenolietotos nolietojamies nolietojas nolietojies nolietojoties nolietojās nolietosies nolietotos nolietošanās nolietošoties
+62	8362	sievasmāte	sievasmātei sievasmātes sievasmāti sievasmātēm
+63	8363	saliet	jāsalej salej salejam salejiet salejot saleju salieta salieti saliets salietu saliešu salēja salējis salēju
+64	8364	bezkaunīgi	
+65	8365	sajēgt	jāsajēdz nesajēdz nesajēdzat nesajēdzot nesajēdzu nesajēgdams nesajēgs nesajēgsi sajēdz sajēdza sajēdzat sajēdzis sajēdzu sajēgtu
+66	8366	pagānisms	pagānisma pagānismam pagānismu pagānismā
+67	8367	sapurināties	jāsapurinās sapurinies sapurinieties sapurinos sapurināmies sapurinās sapurinātos
+68	8368	īgņa	īgņam īgņas īgņu īgņām
+69	8369	mēnesnīca	mēnesnīcai mēnesnīcas mēnesnīcu mēnesnīcā
+70	8370	amnēzija	amnēzijai amnēzijas amnēziju amnēzijā
+71	8371	priekšpusdiena	priekšpusdienai priekšpusdienas priekšpusdienu priekšpusdienā priekšpusdienām priekšpusdienās
+72	8372	formēt	formē formēja formējam formējams formējiet formējis formējot formēju formējusi formējuši formēta formētas formēti formēts formētu formēšana formēšanas formēšanu formēšanā jāformē
+73	8373	ritmisks	ritmiska ritmiskai ritmiskais ritmiskajai ritmiskajam ritmiskajiem ritmiskajā ritmiskajām ritmiskas ritmiski ritmiskie ritmiskiem ritmisko ritmiskos ritmisku ritmiskā ritmiskāk ritmiskākai ritmiskāko ritmiskāks ritmiskākus ritmiskākās ritmiskām ritmiskās
+74	8374	feldšeris	feldšera feldšeri feldšeriem feldšerim feldšeru feldšerus
+75	8375	piederēties	nepiederas piederas piederējās
+76	8376	īstums	īstuma īstumam īstumu īstumā
+77	8377	izstiepties	izstiepas izstiepdamies izstiepies izstiepjamies izstiepjas izstiepjos izstiepjoties izstiepos izstiepsies izstiepās izstiepšanās neizstiepsies neizstiepās
+78	8378	agonija	agonijai agonijas agoniju agonijā agonijām
+79	8379	padevīgs	padevīga padevīgais padevīgajam padevīgajiem padevīgajā padevīgi padevīgie padevīgiem padevīgo padevīgos padevīgu padevīgus padevīgāk padevīgāka padevīgākajiem
+80	8380	gramatisks	gramatiska gramatiskais gramatiskajos gramatiskajā gramatiskajām gramatiskas gramatiski gramatisko gramatisku gramatiskā gramatiskām gramatiskās
+81	8381	uzspēt	jāuzspēj neuzspēj neuzspēja neuzspēju neuzspēs neuzspēsim neuzspēt neuzspētu uzspēja uzspējam uzspēju uzspējām uzspēs uzspēsi uzspēsiet uzspēsim uzspēts uzspētu
+82	8382	atraudzīt	atrauga atraugu atraugām
+83	8383	izkauties	izkaujamies izkaujas izkaujoties izkausimies izkaušanās izkāvos izkāvās jāizkaujas
+84	8384	izraisīties	izraisas izraisoties izraisās izraisījies izraisījusies izraisījušies izraisījušās izraisījās izraisīsies izraisītos izraisīšanās neizraisījās neizraisītos
+85	8385	kaļķis	kaļķa kaļķim
+86	8386	piebarot	jāpiebaro nepiebarot piebaro piebaroja piebarojam piebarojams piebarojiet piebarojot piebaroju piebaros piebarots piebarotu piebarošana
+87	8387	deportēt	deportē deportēja deportējam deportējot deportēju deportējusi deportējuši deportēs deportēsim deportēta deportētas deportēti deportētie deportēto deportēts deportētu deportētā deportēšana deportēšanas deportēšanu deportēšanā jādeportē
+88	8388	mežmala	mežmalai mežmalas mežmalu mežmalā mežmalām mežmalās mežmaļu
+89	8389	pieaudzēt	jāpieaudzē nepieaudzē pieaudzē pieaudzēja pieaudzēji pieaudzējis pieaudzējot pieaudzējusi pieaudzējuši pieaudzēs pieaudzēta pieaudzētajiem pieaudzētas pieaudzēti pieaudzētie pieaudzētiem pieaudzēto pieaudzētos pieaudzētu pieaudzētā pieaudzētās pieaudzēšana pieaudzēšot
+90	8390	piesta	piestas piestu piestā piestām piestās
+91	8391	rakstāmmašīna	rakstāmmašīnai rakstāmmašīnas rakstāmmašīnu rakstāmmašīnām
+92	8392	piedāvāties	piedāvājas piedāvājies piedāvājās
+93	8393	jēgt	jēdz jēdza jēdzat jēdzis jēdzu jēguši
+94	8394	grebt	greba grebi grebis grebj grebjam grebju grebsi grebtu grebšana jāgrebj
+95	8395	smacēt	smacē smacēja smacējam smacējuši smacēs smacēta smacēti smacētie smacētu smacēšana smacēšanu
+96	8396	rusifikācija	rusifikācijai rusifikācijas rusifikāciju
+97	8397	importētājs	importētāja importētājam importētāji importētājiem importētājos importētāju importētājus
+98	8398	ciklisks	cikliska cikliskajos cikliskajā cikliskajām cikliskas cikliski cikliskie ciklisko cikliskos ciklisku cikliskā cikliskāku cikliskām cikliskās
+99	8399	biezoknis	biezokni biezoknim biezoknī biezokņa biezokņiem biezokņos
+100	8400	fanātisks	fanātiska fanātiskais fanātiskajai fanātiskajos fanātiskajā fanātiskam fanātiskas fanātiski fanātiskie fanātiskiem fanātisko fanātisku fanātiskus fanātiskā fanātiskāk fanātiskākie fanātiskākos fanātiskās visfanātiskākajiem

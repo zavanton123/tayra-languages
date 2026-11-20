@@ -1,0 +1,100 @@
+1	9801	bole	bolei boles boli
+2	9802	deviņnieks	deviņniekam deviņnieki deviņniekiem deviņnieku devītnieka devītniekam devītnieki devītnieks devītnieku devītniekus devītniekā
+3	9803	analfabētisms	analfabētisma analfabētismam analfabētismu analfabētismā
+4	9804	izgrebt	izgreb izgreba izgrebis izgrebj izgrebts izgrebtu izgrebšana neizgreb
+5	9805	izģērbt	
+6	9806	sarkanbrūns	sarkanbrūnajā sarkanbrūnas sarkanbrūni sarkanbrūnie sarkanbrūno sarkanbrūnos sarkanbrūnus
+7	9807	pavingrināties	jāpavingrinās pavingrinas pavingrinies pavingrinieties pavingrinos pavingrinoties
+8	9808	sprāgonis	sprāgoni sprāgonim sprāgonītis sprāgoņos sprāgoņu
+9	9809	nozvanīt	nozvana nozvanīja nozvanījuši nozvanīs nozvanītas
+10	9810	austrāliete	austrālietei austrālietes austrālieti austrāliešu
+11	9811	anglikāne	anglikāņu
+12	9812	izlīt	izlija izlijis izliju izlijām izlīs izlīsti izlīstu izlītu izlīšana neizlīst neizlīstu
+13	9813	upmala	upmalai upmalas upmalu upmalā upmalām upmalās
+14	9814	distonija	distonijai distonijas distoniju
+15	9815	ūdenstornis	ūdenstorni ūdenstornim ūdenstornī ūdenstorņa ūdenstorņi ūdenstorņiem ūdenstorņu ūdenstorņus
+16	9816	dežurante	dežurantei dežurantes dežuranti dežurantē dežurantēm
+17	9817	atturība	atturībai atturības atturību atturībā
+18	9818	nolīt	jānolīst nenolija nolija nolijis nolīs nolīstot nolīstu
+19	9819	palīst	jāpalien nepalien palien palienam palienot palienu palīda palīdis palīdu palīdīsiet
+20	9820	kinozvaigzne	kinozvaigznei kinozvaigznes kinozvaigzni kinozvaigznēm kinozvaigžņu
+21	9821	mukt	
+22	9822	knislis	knauša knaušu knisli knišļa knišļi knišļiem knišļu
+23	9823	izzīst	izzīd izzīda izzīdi izzīdu izzīsta izzīstais izzīstas izzīsti izzīstie izzīsts izzīstu izzīstās izzīž neizzīdu
+24	9824	mikls	mikla miklais miklajam miklajā miklas miklo miklu miklā miklām
+25	9825	ģībonis	ģībonim ģībonī ģīboņa ģīboņi ģīboņiem
+26	9826	aizstiept	aizstiepa aizstiepis aizstiepj aizstiepjot aizstiepju aizstieps aizstiepts aizstieptu aizstiepu neaizstieps
+27	9827	pārpeldēt	jāpārpeld pārpeld pārpeldu pārpeldēdamas pārpeldēja pārpeldējusi pārpeldēs pārpeldēšu
+28	9828	savadīt	savada savadi savadu savadīts savadītu
+29	9829	aukslējas	aukslēju aukslējām
+30	9830	safrizēt	nesafrizēta safrizējis safrizējot safrizētas safrizēti safrizēto safrizētā
+31	9831	atplēst	atplēs atplēsa atplēstu atplēsīsi atplēš atplēšot neatplēs neatplēstu
+32	9832	ieritināties	ieritinies ieritinos ieritinoties ieritinājies ieritinājušies ieritinājās ieritinās ieritināsies ieritinātos ieritināšanās jāieritinās
+33	9833	aplauzties	aplauzies aplauzos aplauztos aplauzāmies aplauzās aplauzīsies aplauzīšos aplaušanās aplaužamies aplaužas aplaužos aplaužoties neaplaužas
+34	9834	bāzēties	bāzējas bāzējos bāzējoties bāzējusies bāzējāmies bāzējās bāzēsies bāzētos bāzēšanās nebāzējas
+35	9835	redīss	redīsa redīsi redīsiem redīsu redīsus
+36	9836	traģikomisks	traģikomiska traģikomiskai traģikomiskais traģikomiskas traģikomiski traģikomiskie traģikomiskiem traģikomisko traģikomisku traģikomiskā traģikomiskākais traģikomiskāks traģikomiskām traģikomiskās
+37	9837	skubināt	jāskubina neskubinu neskubināja neskubināts skubina skubini skubinot skubinu skubināja skubinājis skubinām skubināms skubinās skubināta skubināti skubināts
+38	9838	sniegbalts	sniegbalta sniegbaltais sniegbaltajiem sniegbaltajā sniegbaltajām sniegbaltas sniegbalti sniegbalto sniegbaltos sniegbaltu sniegbaltus sniegbaltā sniegbaltām sniegbaltās
+39	9839	iesmieties	iesmejas iesmejies iesmejos iesmejoties iesmējos iesmējāmies iesmējās neiesmejoties
+40	9840	metafizisks	metafiziskais metafiziskam metafiziskas metafiziskiem metafizisko metafiziskos metafizisku metafiziskus metafiziskā metafiziskām metafiziskās
+41	9841	paspīdēt	paspīd paspīdēja paspīdējis paspīdējāt paspīdēs paspīdētu
+42	9842	iespiešana	iespiešanai iespiešanas iespiešanos iespiešanu iespiešanā iespiešanās
+43	9843	mundrums	mundruma mundrumam mundrumu
+44	9844	datorvīruss	datorvīrusa datorvīrusi datorvīrusiem datorvīrusu datorvīrusus
+45	9845	dublēties	dublējas dublējies dublējās dublēsies dublēšanās nedublējas nedublēsies nedublētos
+46	9846	supermārkets	supermārketa supermārketam supermārketi supermārketiem supermārketos supermārketu supermārketus supermārketā
+47	9847	bezdarbniece	bezdarbniecei bezdarbnieces bezdarbnieci bezdarbniecēm bezdarbnieču
+48	9848	sirmi	
+49	9849	izstaigāties	izstaigājamies izstaigājies izstaigājoties izstaigājāmies izstaigātos izstaigāšanās izstaigāšoties
+50	9850	ūdeņains	ūdeņaina ūdeņainas ūdeņaini ūdeņainiem ūdeņaino ūdeņainu ūdeņainā ūdeņaināka ūdeņaināks
+51	9851	iepeldēt	iepeld iepeldēja iepeldējis iepeldējusi iepeldējuši iepeldējām iepeldēs iepeldētu neiepeldētu
+52	9852	nanotehnoloģija	nanotehnoloģijas nanotehnoloģiju nanotehnoloģijā nanotehnoloģijām nanotehnoloģijās
+53	9853	šķiest	
+54	9854	abējādi	
+55	9855	dizentērija	dizentērijas dizentēriju
+56	9856	stingums	stinguma stingumu
+57	9857	žūpot	žūpo žūpošana žūpošanas žūpošanu
+58	9858	nīlzirgs	nīlzirga nīlzirgu nīlzirgus
+59	9859	zoboties	zobodamies zobojas zobojies zobojos zobojās zobošanās
+60	9860	iesvaidīt	iesvaida iesvaidiet iesvaidītie iesvaidīto iesvaidīts iesvaidītā iesvaidīšanu
+61	9861	galināt	galini galināja galinās galināti
+62	9862	iesalt	iesala iesali iesalis iesalst iesalu iesalusi iesalušas iesaluši iesalušiem iesalušu iesalušās iesalšana
+63	9863	piešķirties	piešķiras piešķirsies piešķirtos
+64	9864	valgums	valguma valgumos valgumu valgumā
+65	9865	zalktis	zalkti zalktim zalkša zalkši zalkšu
+66	9866	sasolīt	sasola sasoli sasolot sasolīja sasolījis sasolīs sasolīts sasolīšu
+67	9867	izsaukties	izsaucamies izsaucas izsaucies izsaucos izsaucoties izsaucās izsauksies izsauktos jāizsaucas neizsauksies neizsaukties
+68	9868	laborants	laboranta laborantam laborante laboranti laborantiem laborantu laborantus
+69	9869	megavats	megavata megavatam megavati megavatiem megavatu megavatus
+70	9870	lingvistisks	lingvistiska lingvistiskais lingvistiskajiem lingvistiskajā lingvistiskajām lingvistiskas lingvistiskie lingvistisko lingvistisku lingvistiskā lingvistiskās
+71	9871	aritmētika	aritmētikas aritmētiku aritmētikā
+72	9872	šķīstība	šķīstībai šķīstības šķīstību šķīstībā
+73	9873	normalitāte	normalitātei normalitātes normalitāti normalitātē
+74	9874	seksisms	seksisma seksismam seksismu seksismā
+75	9875	izkost	izkoda izkodis izkodu izkodusi izkoduši izkodīšu izkosta izkosts izkostu izkož jāizkož neizkodu
+76	9876	netikumīgs	netikumīga netikumīgas netikumīgi netikumīgiem netikumīgu netikumīgā netikumīgās
+77	9877	sēžamvieta	sēžamvietai sēžamvietas sēžamvietu sēžamvietā sēžamvietās
+78	9878	jāņtārpiņš	jāņtārpiņa jāņtārpiņam jāņtārpiņi jāņtārpiņiem jāņtārpiņu jāņtārpiņus
+79	9879	kaskadieris	kaskadiera kaskadieri kaskadieriem kaskadieru
+80	9880	kalpība	kalpībai kalpības kalpību kalpībā
+81	9881	marksists	marksistam marksisti marksistiem marksistu
+82	9882	saēsties	saēdamies saēdas saēdies saēdos saēdoties saēdušies saēdušās saēdās saēdīsies saēšanās
+83	9883	kija	kijai kijas kiju kijā kijām
+84	9884	sačukstēties	sačukstējies sačukstējās sačukstētos sačukstēšanās
+85	9885	vienšūnis	vienšūnu vienšūņa vienšūņiem vienšūņu
+86	9886	kamertonis	kamertoni kamertonim kamertoņa
+87	9887	pabučoties	pabučojieties pabučosies pabučosimies
+88	9888	jaunavība	jaunavības jaunavību jaunavībā
+89	9889	ekstrēmistu	
+90	9890	butāns	butānam butāni
+91	9891	pārfinansēt	jāpārfinansē pārfinansē pārfinansējot pārfinansēs pārfinansēsim pārfinansēta pārfinansētais pārfinansētas pārfinansēti pārfinansēts pārfinansētu pārfinansēšana pārfinansēšanas pārfinansēšanu
+92	9892	viengadīgs	viengadīga viengadīgai viengadīgajiem viengadīgajām viengadīgajās viengadīgas viengadīgi viengadīgie viengadīgiem viengadīgo viengadīgos viengadīgu viengadīgus viengadīgā viengadīgās
+93	9893	piedūmot	nepiedūmotā piedūmo piedūmojušas piedūmota piedūmotas piedūmots piedūmotu piedūmotā
+94	9894	miegainība	miegainībai miegainības miegainību
+95	9895	bikli	
+96	9896	magnolija	magnolijas magnoliju magnolijā magnolijām
+97	9897	intimitāte	intimitātes intimitāti intimitātē
+98	9898	rīve	rīves rīvi rīvē rīvēs
+99	9899	pārdzimt	nepārdzimšana pārdzima pārdzimis pārdzims pārdzimst pārdzimstot pārdzimtu pārdzimušie pārdzimšana
+100	9900	diversija	diversijas diversiju diversijām

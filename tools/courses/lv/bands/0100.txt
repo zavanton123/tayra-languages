@@ -1,4 +1,4 @@
-1	1	būt	bij bija biji bijis biju bijušais bijām bijāt bût būdams būs būsi būsiet būsim būsit būtu būšana būšanu būšot būšu esam esat esi esiet esmu esot esoša esošas esošu esošā esošās ir jābūt nav nebija nebūs nebūt neesi neesmu
+1	1	būt	bij bija biji bijis biju bijusi bijušais bijušas bijuši bijušo bijām bijāt būs būsi būsiet būsim būtu būšot būšu esam esat esi esiet esmu esot ir jābūt nav nebija nebiju nebūs nebūt nebūtu nebūšu neesam neesat neesi neesmu neesot
 2	2	tas	tai tais tajos tajā tajās tam tanī tanīs tie tiem to tos tā tām tās
 3	3	un	
 4	4	es	man mani manis manī
@@ -12,12 +12,12 @@
 12	12	mēs	mums mūs mūsos mūsu
 13	13	vai	
 14	14	uz	
-15	15	viss	visa visai visam visas visi visiem visos visu visus visā visām visās
+15	15	viss	visa visai visais visam visas visi visie visiem viso visos visu visus visā visām visās
 16	16	šis	šai šais šajos šajā šajās šie šiem šim šinī šinīs šo šos šā šām šās šī šīm šīs
 17	17	arī	
 18	18	viņš	viņam viņu viņā
 19	19	bet	
-20	20	varēt	jāvar nevarēt var varam varams varat vari variet varot varošais varošs varu varēdams varēja varēji varējis varēju varējām varējāt varēs varēsi varēsiet varēsim varēsit varēts varētu varēšana varēšanai varēšanas varēšanu varēšanā varēšot varēšu
+20	20	varēt	nevar nevaram nevarat nevari nevarot nevaru nevarēja nevarēji nevarēju nevarējām nevarēs nevarēsi nevarēsiet nevarēsim nevarētu nevarēšu var varam varat vari variet varot varu varēja varēji varējis varēju varējusi varējuši varējām varējāt varēs varēsi varēsiet varēsim varēsit varētu varēšot varēšu
 21	21	jūs	jums jūsos jūsu
 22	22	lai	
 23	23	ja	
@@ -42,44 +42,44 @@
 42	42	tāds	tâds tāda tādai tādam tādas tādi tādiem tādos tādu tādus tādā tādām tādās šâds šāda šādai šādam šādas šādi šādiem šādos šāds šādu šādus šādā šādām šādās
 43	43	cilvēks	cilvēk cilvēka cilvēkam cilvēki cilvēkiem cilvēkos cilvēku cilvēkus cilvēkā
 44	44	pie	
-45	45	zināt	jāzina nezināt zina zini ziniet zinot zinošs zinu zinādams zināja zināji zinājis zināju zinājām zinājāt zinām zināmais zināms zinās zināsi zināsiet zināsim zināsit zināts zinātu zināšana zināšanai zināšanam zināšanas zināšanu zināšanā zināšot zināšu
+45	45	zināt	jāzina nezina nezini nezinot nezinu nezināja nezināji nezināju nezinājām nezinām nezināms nezināt nezinātu zina zini ziniet zinot zinu zināja zināji zinājis zināju zinājām zinājāt zinām zināma zināmas zināmi zināms zināmu zināmā zinās zināsi zinātu zināšanai zināšanas zināšanu zināšanām zināšu
 46	46	ne	
 47	47	nē	
 48	48	gan	
 49	49	vēl	vêl
 50	50	līdz	
 51	51	pats	pati paša pašai pašam pašas paši pašiem pašos pašu pašus pašā pašām pašās
-52	52	cits	cita citai citam citas citi citiem citos citu citus citā citām citās
+52	52	cits	cita citai citam citas citi citie citiem cito citos citu citus citā citāks citām citās
 53	53	jo	
 54	54	darbs	darb darba darbam darbi darbiem darbos darbu darbus darbā
-55	55	gribēt	grib gribam gribat gribi gribiet gribot gribošais gribošs gribu gribēdams gribēja gribēji gribējis gribēju gribējām gribējāt gribēs gribēsi gribēsiet gribēsim gribēsit gribētais gribēts gribētu gribēšana gribēšanai gribēšanas gribēšanu gribēšanā gribēšot gribēšu jāgrib negribēt
+55	55	gribēt	grib gribam gribat gribi gribiet gribot gribošs gribu gribēja gribēji gribējis gribēju gribējusi gribējuši gribējām gribējāt gribēs gribēsi gribēsiet gribēsim gribētos gribētu gribēšana gribēšu jāgrib negrib negribam negribat negribi negribu negribēja negribēji negribēju negribējām negribēs negribēsi negribēsiet negribētu negribēšu
 56	56	kur	
-57	57	iet	ej ejam ejamais ejams ejat ejiet ejot ejošais ejošs eju gāja gāji gājis gāju gājušais gājām gājāt iedams ies iesi iesiet iesim iesit ietais iets ietu iešana iešanai iešanas iešanu iešanā iešot iešu jāejot jāiet neiet
+57	57	iet	ej ejam ejams ejat ejiet ejot eju gāja gāji gājis gāju gājusi gājušas gājuši gājušo gājām ies iesi iesiet iesim iesit ietu iešana iešanas iešanu iešu jāiet neej neejam neejiet neeju negāja negāju neies neiesi neiesim neiet neietu neiešu
 58	58	tik	
-59	59	valsts	valsti valstij valstis valstu valstī valstīm valstīs
+59	59	valsts	valsti valstij valstis valstu valstī valstīm valstīs valšu
 60	60	ļoti	
-61	61	darīt	dara dari dariet darot darošais daru darām darāmais darāms darāt darīdams darīja darīji darījis darīju darījām darījāt darīs darīsi darīsiet darīsim darīsit darītais darīts darītu darīšana darīšanai darīšanas darīšanu darīšanā darīšot darīšu jādara nedarīt
+61	61	darīt	dara dari dariet darot daru darām darāms darāmā darāt darīja darīji darījis darīju darījusi darījuši darījām darījāt darīs darīsi darīsiet darīsim darīts darītu darīšana darīšanas darīšanās darīšu jādara nedara nedari nedariet nedaru nedarīja nedarīju nedarīs nedarīsi nedarīt nedarītu nedarīšu
 62	62	nu	
-63	63	jauns	jauna jaunai jaunais jaunajai jaunajam jaunajiem jaunajos jaunajā jaunajām jaunajās jaunam jaunas jauni jaunie jauniem jauno jaunos jaunu jaunus jaunā jaunāks jaunām jaunās visjaunākais
+63	63	jauns	jauna jaunai jaunais jaunajai jaunajam jaunajiem jaunajos jaunajā jaunajām jaunajās jaunam jaunas jauni jaunie jauniem jauno jaunos jaunu jaunus jaunā jaunāka jaunākajai jaunākajam jaunākajiem jaunākajā jaunākajām jaunākajās jaunākas jaunāki jaunākie jaunākiem jaunāko jaunākos jaunāks jaunāku jaunākā jaunākās jaunām jaunās
 64	64	diena	dien dienai dienas dienu dienus dienā dienām dienās
 65	65	kaut	jākauj kauj kaujam kaujat kaujiet kaujot kauju kaus kausi kausim kauts kautu kaušana kāva kāvis kāvu kāvām kāvāt nekaut
 66	66	vieta	vietai vietam vietas vietiem vietos vietu vietus vietā vietām vietās
-67	67	notikt	jānotiek nenotiek nenotiks nenotikt noticis notiek notiekam notiekot notiekošo notiekošs notika notikdams notiks notikts notiktu notiku notikšana notikšot
-68	68	domāt	domā domādams domāja domājam domājamais domājams domājat domāji domājiet domājis domājot domājošais domājošs domāju domājām domājāt domās domāsi domāsiet domāsim domāsit domātais domāts domātu domāšana domāšanai domāšanas domāšanu domāšanā domāšot domāšu jādomā jādomājot nedomāt
+67	67	notikt	jānotiek nenoticis nenotiek nenotiekot nenotika nenotiks nenotikt nenotiktu nenotiku nenotikšana nenotikšot noticis notiek notiekam notiekot notiekošo notiekošs notika notikdams notiks notikts notiktu notiku notikšana notikšot
+68	68	domāt	domā domādams domāja domājam domājams domājat domāji domājiet domājis domājot domāju domājusi domājuši domājām domājāt domās domāsim domāta domātas domāti domāts domātu domāšana domāšanai domāšanas domāšanu domāšu jādomā nedomā nedomāja nedomājam nedomājat nedomāji nedomājiet nedomājot nedomāju nedomās nedomāt nedomātu
 69	69	tavs	tava tavai tavam tavas tavi taviem tavos tavu tavus tavā tavām tavās
 70	70	tagad	
-71	71	labs	laba labai labais labajai labajam labajiem labajos labajā labajām labajās labam labas labie labiem labo labos labu labus labā labāks labām labās vislabākais
-72	72	liels	liel liela lielai lielais lielajai lielajam lielajiem lielajos lielajā lielajām lielajās lielam lielas lieli lielie lieliem lielo lielos lielu lielus lielā lielāks lielām lielās vislielākais
-73	73	redzēt	jāredz neredzēt redz redzam redzama redzamai redzamais redzamas redzami redzamiem redzamos redzams redzamu redzamā redzamām redzamās redzat redzi redziet redzot redzu redzēdams redzēja redzēji redzējis redzēju redzējām redzējāt redzēs redzēsi redzēsiet redzēsim redzēsit redzētais redzēts redzētu redzēšana redzēšanu redzēšu
+71	71	labs	laba labai labais labajiem labajā labam labas labie labiem labo labos labu labus labā labāk labāka labākais labākajam labākajiem labākajā labākajām labākas labāki labākie labāko labākos labāks labāku labākus labākā labākās labām labās vislabāk vislabākais vislabākie vislabāko vislabākā vislabākās
+72	72	liels	liela lielai lielais lielajai lielajam lielajiem lielajā lielajām lielam lielas lieli lielie lieliem lielo lielos lielu lielus lielā lielāka lielākais lielākajai lielākajiem lielākajā lielākajām lielākas lielāki lielākie lielāko lielākos lielāks lielāku lielākus lielākā lielākās lielām lielās vislielākais vislielāko vislielākā
+73	73	redzēt	jāredz neredz neredzam neredzi neredzu neredzēja neredzēji neredzēju neredzēsi neredzētu neredzēšu redz redzam redzama redzamas redzami redzams redzamā redzat redzi redziet redzot redzu redzēja redzēji redzējis redzēju redzējusi redzējuši redzējām redzējāt redzēs redzēsi redzēsiet redzēsim redzēto redzēts redzētu redzēšu
 74	74	tur	
-75	75	teikt	jāteic neteikt teic teica teicam teicama teicamais teicamam teicamas teicamiem teicams teicamu teicamus teicamā teicamām teicamās teicat teici teiciet teicis teicot teicu teicām teicāt teikdams teiks teiksi teiksiet teiksim teiksit teiktais teikts teiktu teikšana teikšanai teikšanas teikšanu teikšanā teikšu
+75	75	teikt	jāteic neteica neteici neteicu neteicāt neteiks neteiksi neteiksiet neteiksim neteikt neteiktu neteikšu teic teica teicama teicams teicamu teici teicis teicu teicām teicāt teikdams teiks teiksi teiksiet teiksim teiktais teiktajam teiktajā teikto teikts teiktu teiktā teikusi teikuši teikšana teikšanas teikšu
 76	76	taču	
 77	77	māja	mājai mājam mājas mājiem mājos māju mājus mājā mājām mājās
 78	78	pirmais	pirma pirmai pirmajai pirmajam pirmajiem pirmajos pirmajā pirmajām pirmajās pirmam pirmas pirmie pirmiem pirmo pirmos pirmu pirmus pirmā pirmām pirmās
 79	79	bērns	bērn bērna bērnam bērni bērniem bērnos bērnu bērnus bērnā
 80	80	pa	
 81	81	pat	
-82	82	vajadzēt	nevajadzēt vajadzēja vajadzējis vajadzēs vajadzētu vajadzēšot vajag vajagot
+82	82	vajadzēt	nevajadzēja nevajadzējis nevajadzēs nevajadzēt nevajadzētu nevajadzēšot nevajag nevajagot vajadzēja vajadzējis vajadzējušiem vajadzēs vajadzēta vajadzēto vajadzētu vajadzēšot vajag vajagot
 83	83	nekas	nekam neko
 84	84	cik	
 85	85	divi	divas diviem divos divu divus divām divās
@@ -91,10 +91,10 @@
 91	91	lieta	lietai lietas lietu lietā lietām lietās
 92	92	tāpēc	
 93	93	sevi	sev sevis sevī
-94	94	sacīt	jāsaka jāsakot nesacīt sacît sacīdams sacīja sacīji sacījis sacīju sacījām sacījāt sacīs sacīsi sacīsiet sacīsim sacīts sacītu sacīšana sacīšot sacīšu saka saki sakiet sakot saku sakām sakāms sakāt
+94	94	sacīt	jāsaka nesacīja nesaka nesaki nesakiet nesakot nesaku nesakām nesakāt sacît sacīdama sacīdami sacīdams sacīja sacīji sacījis sacīju sacījusi sacījuši sacījāt sacīs sacīsi sacīsiet sacīsim sacīts sacītu sacītā sacīšu saka saki sakiet sakot saku sakām sakāma sakāmi sakāms sakāmā sakāt
 95	95	šeit	
 96	96	vārds	vārd vārda vārdam vārdi vārdiem vārdos vārdu vārdus vārdā
-97	97	nākt	jānāk nenākt nāc nāca nāci nāciet nācis nācu nācām nācāt nāk nākam nākama nākamai nākamam nākamas nākamiem nākamos nākamām nākamās nākat nākdams nākot nākošais nāks nāksi nāksiet nāksim nāksit nākts nāktu nāku nākušais nākšana nākšanai nākšanas nākšanu nākšot nākšu
+97	97	nākt	jānāk nenāc nenāca nenāk nenāks nenāktu nāc nāca nāci nāciet nācis nācu nāk nākam nākamajai nākamajam nākamajiem nākamajos nākamajām nākamajās nākamie nākamos nākamās nākat nākot nākošais nākošajā nākošo nākošā nākošās nāks nāksi nāksiet nāktos nāktu nāku nākusi nākuši nākšu
 98	98	dzīve	dzīvei dzīves dzīvi dzīvju dzīvē dzīvēm dzīvēs
 99	99	otrs	otra otrai otrais otrajai otrajam otrajiem otrajos otrajā otrajām otrajās otram otras otri otrie otriem otro otros otru otrus otrā otrām otrās
 100	100	pirms	

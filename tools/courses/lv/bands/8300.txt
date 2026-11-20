@@ -1,0 +1,100 @@
+1	8201	viendabīgs	viendabīga viendabīgai viendabīgajiem viendabīgas viendabīgi viendabīgu viendabīgā viendabīgāka viendabīgākas viendabīgāks viendabīgāku
+2	8202	jezuīts	jezuīta jezuīti jezuītiem jezuītu jezuītus
+3	8203	pārtīt	jāpārtin pārtin pārtina pārtinot pārtinu pārtīs pārtīts pārtīšana
+4	8204	ekvinokcija	ekvinokcijai ekvinokcijas ekvinokciju
+5	8205	pelikāns	pelikāna pelikāni pelikānu pelikānus
+6	8206	sīrietis	sīriete sīrietei sīrietes sīrieti sīrietim sīrieša sīrieši sīriešiem sīriešu sīriešus
+7	8207	diafragma	diafragmai diafragmas diafragmu diafragmā
+8	8208	gludeklis	gludeki gludekli gludeklim gludeklī gludekļa gludekļi gludekļiem gludekļu gludekļus
+9	8209	atsegt	atsedz atsedza atsedzam atsedziet atsedzis atsedzot atsedzu atsegs atsegts atsegtu atsegšana neatsedz neatsedzot neatsegsim
+10	8210	flāms	flāma flāmi flāmiem flāmu
+11	8211	rudi	
+12	8212	pika	pikai pikam pikas piki pikiem piku pikā pikām pikās
+13	8213	kaukt	jākauc kauc kauca kaucam kaucat kauciet kaucot kaukdams kauks kauksim kauktu kaukšana
+14	8214	protons	proton protona protoni protoniem protonu
+15	8215	magnētiskais	
+16	8216	izspriest	izspried izsprieda izspriedu izspriedām izspriedīs izspriedīsim izspriesta izspriestajām izspriests izspriestu izspriež izspriežam izspriežot jāizspriež
+17	8217	sataustīt	nesataustāmajām nesataustīja nesataustīju satausta sataustu sataustāma sataustāmai sataustāmais sataustāmas sataustāmi sataustāmiem sataustāms sataustāmu sataustāmā sataustīja sataustījis sataustīju sataustījusi sataustījušas sataustījām sataustītais sataustīti sataustīto sataustīts sataustītu
+18	8218	māņticība	māņticībai māņticības māņticību māņticībā
+19	8219	vindsērfings	vindsērfinga vindsērfingam vindsērfingu vindsērfingā
+20	8220	ostīt	jāosta ostot ostīja ostīji ostījusi ostījuši ostījām ostīs ostīts ostīšana ostīšanas ostīšanu
+21	8221	godkāre	godkārei godkāres godkāri
+22	8222	izmežģīt	izmežģīja izmežģījis izmežģījot izmežģīju izmežģīs izmežģīta izmežģīto izmežģīts izmežģītu izmežģītā izmežģīšu neizmežģīja neizmežģīt
+23	8223	atstiept	atstiepa atstiepi atstiepis atstiepj atstieps atstiepsi atstiepsiet atstiepsim atstieptu atstiepšu neatstiepjot neatstieptu
+24	8224	paglāstīt	jāpaglāsta paglāsta paglāsti paglāstiet paglāstīs paglāstīsim
+25	8225	kurpīte	kurpītes kurpīti kurpītēm kurpītēs kurpīšu
+26	8226	zināties	nezinas zinas zinies zinājās zināšanās
+27	8227	trīspusējs	trīspusēja trīspusējais trīspusējas trīspusēji trīspusējiem trīspusējo trīspusēju trīspusējus trīspusējā trīspusējām trīspusējās
+28	8228	zibspuldze	zibspuldzei zibspuldzes zibspuldzi zibspuldzē zibspuldzēm zibspuldžu
+29	8229	uzkarsēt	jāuzkarsē neuzkarsē neuzkarsēto uzkarsē uzkarsēja uzkarsējiet uzkarsējot uzkarsēju uzkarsēs uzkarsēta uzkarsētas uzkarsēti uzkarsēto uzkarsēts uzkarsētu uzkarsētā uzkarsēšanu uzkarsēšu
+30	8230	striķis	striķa striķi striķiem striķim striķos striķu striķus striķī
+31	8231	ielāps	ielāpa ielāpi ielāpiem ielāpos ielāpu ielāpus
+32	8232	pneimatisks	pneimatiska pneimatiskais pneimatiskajai pneimatiskajiem pneimatiskajā pneimatiskajām pneimatiskas pneimatiskie pneimatisko pneimatiskos pneimatiskā pneimatiskās
+33	8233	erozija	erozijai erozijas eroziju
+34	8234	dīks	dīka dīkas dīki dīko dīkos dīku dīkā dīkām
+35	8235	greipfrūts	greipfrūta greipfrūtam greipfrūti greipfrūtiem greipfrūtos greipfrūtu greipfrūtus
+36	8236	spļāviens	spļāviena spļāvienam spļāvieni spļāvienu spļāvienus
+37	8237	pārgrupēties	jāpārgrupējas pārgrupējamies pārgrupējas pārgrupējaties pārgrupējoties pārgrupējušies pārgrupējušās pārgrupējās pārgrupēsies pārgrupēsimies pārgrupēšanās
+38	8238	šlipse	šlipsei šlipses šlipsi šlipsē šlipsēm šlipsēs šlipšu
+39	8239	pagādāt	nepadomāt pagādā pagādāja pagādājis pagādājot pagādājusi pagādās pagādāšu
+40	8240	problemātika	problemātikai problemātikas problemātiku problemātikā
+41	8241	nostabilizēties	jānostabilizējas nostabilizējas nostabilizējies nostabilizējos nostabilizējoties nostabilizējusies nostabilizējušies nostabilizējušās nostabilizējās nostabilizēsies nostabilizētos nostabilizēšanās
+42	8242	izdiskutēt	izdiskutē izdiskutēja izdiskutējami izdiskutējamām izdiskutējiet izdiskutējot izdiskutējuši izdiskutējām izdiskutēs izdiskutēsim izdiskutēta izdiskutētais izdiskutētajām izdiskutētam izdiskutētas izdiskutēti izdiskutētiem izdiskutēts izdiskutētu izdiskutētus izdiskutētām jāizdiskutē neizdiskutējot neizdiskutēta neizdiskutētas neizdiskutēti neizdiskutēts neizdiskutētu
+43	8243	zīties	nezinas zinas zinies
+44	8244	nopriecāties	nenopriecāties nopriecādamies nopriecājamies nopriecājas nopriecājies nopriecājos nopriecājusies nopriecājušies nopriecājāmies nopriecājās nopriecāšanās
+45	8245	sekli	
+46	8246	minors	minora minoriem minoru minorā
+47	8247	verbāls	verbāla verbālai verbālais verbālajai verbālajā verbālas verbāli verbālie verbāliem verbālo verbālos verbālu verbālus verbālā verbālās
+48	8248	saēst	nesaēd nesaēstu saēd saēda saēdis saēdusi saēdušas saēduši saēdušos saēdušās saēdīs saēsta saēstais saēstas saēsti saēsto saēsts saēstu saēstus saēstā saēstām saēstās
+49	8249	radzene	radzenei radzenes radzeni
+50	8250	liķieris	liķiera liķieri liķierim liķieru liķierus
+51	8251	nesāpīgs	nesāpīga nesāpīgas nesāpīgi nesāpīgo nesāpīgu nesāpīgus nesāpīgāk nesāpīgākais nesāpīgāko nesāpīgāks nesāpīgāku nesāpīgās visnesāpīgāk
+52	8252	veterinārmedicīna	veterinārmedicīnas veterinārmedicīnu veterinārmedicīnā
+53	8253	sapazīties	sapazinies sapazinos sapazināmies sapazinās sapazīsies sapazīsimies sapazīstoties sapazītos sapazīšanās
+54	8254	sarūsēt	nesarūsē nesarūsējis sarūs sarūsē sarūsējis sarūsēs sarūsēsim
+55	8255	nolidot	jānolido nenolido nolido nolidoja nolidoju nolidojusi nolidosim nolidotais nolidoti nolidotos nolidots nolidotu
+56	8256	samīlēties	samīlas samīlos samīloties samīlējies samīlējos samīlējusies samīlējušies samīlējušās samīlējāmies samīlējās
+57	8257	māsasdēls	māsasdēl māsasdēla māsasdēlam māsasdēli māsasdēlu
+58	8258	vakcinēt	jāvakcinē nevakcinēt vakcinē vakcinēja vakcinējot vakcinēju vakcinējām vakcinēs vakcinēts vakcinētu vakcinēšana
+59	8259	aneksija	aneksijai aneksijas aneksiju aneksijā aneksijām
+60	8260	vitrāža	vitrāžai vitrāžas vitrāžu vitrāžā vitrāžām vitrāžās
+61	8261	nirt	
+62	8262	drēgns	drēgna drēgnai drēgnais drēgnajam drēgnajiem drēgnajos drēgnajā drēgnajās drēgnam drēgnas drēgni drēgnie drēgniem drēgno drēgnos drēgnu drēgnus drēgnā drēgnākajos drēgnākajās drēgnākiem drēgnāks drēgnām drēgnās
+63	8263	saliekt	jāsaliec nesaliekts saliec salieca saliecam salieciet saliecis saliecot saliekts saliektu
+64	8264	finansists	finansista finansistam finansisti finansistiem finansistu finansistus
+65	8265	liga	ligai ligas ligu ligām ligās
+66	8266	inkubācijas	inkubācijai
+67	8267	ķeizargrieziens	ķeizargrieziena ķeizargriezienam ķeizargriezieniem ķeizargriezienu ķeizargriezienus ķeizargriezienā
+68	8268	pārradīties	nepārradies nepārradās nepārradīsies pārradies pārrados pārradās pārradīsies pārradīsieties
+69	8269	palabot	jāpalabo nepalabo palabo palaboja palabojam palabojiet palabojis palabojot palaboju palabos palabosim palabota palaboto palabotu palabošu
+70	8270	izsmieties	izsmejamies izsmejas izsmejies izsmejos izsmejoties izsmiesimies izsmietos izsmiešanās izsmējies izsmējos izsmējāmies izsmējās izsmējāties
+71	8271	mincis	minca minci mincim minča minči minčiem minču minčus
+72	8272	aizcietējums	aizcietējuma aizcietējumam aizcietējumi aizcietējumiem aizcietējumu aizcietējumus
+73	8273	elektrifikācija	elektrifikācijai elektrifikācijas elektrifikāciju elektrifikācijā
+74	8274	ticēties	neticas neticējās ticas ticies
+75	8275	atrakt	atracis atraka atraks atraksim atrakts atraktu atraku atrakām atrakāt atrakšana atroc atrok atrokam atrokot jāatrok neatrok neatrokam
+76	8276	kodolreaktors	kodolreaktora kodolreaktoram kodolreaktori kodolreaktoriem kodolreaktoru kodolreaktorus kodolreaktorā
+77	8277	vojevodiste	vojevodistes vojevodistē
+78	8278	šekelis	šekeli šekelī šekeļi šekeļos šekeļu šekeļus
+79	8279	nozvērēties	nozvēries nozvērējies nozvērējos nozvērējāmies nozvērējās nozvērēsies nozvērētos
+80	8280	gladiola	gladiolai gladiolas gladiolu gladiolām
+81	8281	nīderlandietis	nīderlandiete nīderlandieti nīderlandieša nīderlandieši nīderlandiešiem nīderlandiešu nīderlandiešus
+82	8282	inaugurācija	inaugurācijai inaugurācijas inaugurāciju
+83	8283	diktāts	diktāta diktātam diktāti diktātos diktātu diktātus diktātā
+84	8284	ūsainis	ūsaini ūsaiņa ūsaiņi ūsaiņiem ūsaiņu ūsaiņus
+85	8285	grimt	
+86	8286	iestigt	iestidzis iestiedz iestieg iestiegam iestiegot iestiga iestigs iestigsi iestigsim iestigtu iestigu iestigusi iestigušai iestigušam iestigušas iestiguši iestigušos iestigušu iestigušā iestigām iestigšana neiestiga neiestigt
+87	8287	pēdiņas	pēdiņai
+88	8288	iekrāsot	iekrāso iekrāsoja iekrāsojam iekrāsojiet iekrāsojis iekrāsojot iekrāsos iekrāsots iekrāsotu iekrāsošana jāiekrāso neiekrāso neiekrāsot neiekrāsotu
+89	8289	āpsis	âpsis āpsi āpsim āpša āpši āpšiem āpšu āpšus
+90	8290	liegties	liedzas liedzies liedzos liedzās liegsies liegusies liegšanās liegšos neliedzas neliedzaties neliedzies neliedzās neliegsimies neliegšos
+91	8291	saklāt	nesaklātu saklāj saklāja saklājam saklāji saklājiet saklās saklāsi saklāsim saklāts saklātu saklāšana
+92	8292	mēnessgaisma	mēnessgaismas mēnessgaismu mēnessgaismā
+93	8293	gā	
+94	8294	plikpaurains	plikpaurainais plikpaurainajam plikpaurainie plikpaurainiem plikpauraino plikpaurainos plikpaurainu plikpaurainā plikpauraināks
+95	8295	izsaimniekot	izsaimnieko izsaimniekoja izsaimniekojis izsaimniekojot izsaimniekoju izsaimniekojuši izsaimniekos izsaimniekota izsaimniekotas izsaimniekoti izsaimniekotie izsaimniekoto izsaimniekots izsaimniekotā izsaimniekošana izsaimniekošanas izsaimniekošanu izsaimniekošanā jāizsaimnieko neizsaimnieko neizsaimniekot
+96	8296	svešums	svešuma svešumu svešumā
+97	8297	taupīgs	taupīga taupīgai taupīgais taupīgajai taupīgajiem taupīgam taupīgas taupīgie taupīgiem taupīgo taupīgu taupīgus taupīgā taupīgāk taupīgāka taupīgākai taupīgākam taupīgāki taupīgākie taupīgākiem taupīgāks taupīgāku taupīgām vistaupīgākajā
+98	8298	gulags	gulaga gulagi gulagiem gulagos gulagu gulagā
+99	8299	izkonkurēt	izkonkurē izkonkurēja izkonkurējis izkonkurējot izkonkurējusi izkonkurējušas izkonkurējuši izkonkurējām izkonkurēs izkonkurēsiet izkonkurēts izkonkurētu neizkonkurēs
+100	8300	demolēt	demolē demolēja demolējam demolējot demolējošs demolēju demolējusi demolējuši demolēs demolēti demolēts demolētu demolēšana demolēšanas demolēšanu demolēšanā jādemolē nedemolē nedemolēs

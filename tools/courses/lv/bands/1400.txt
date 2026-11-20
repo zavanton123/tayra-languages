@@ -1,100 +1,100 @@
 1	1301	negadījums	negadījuma negadījumam negadījumi negadījumiem negadījumos negadījumu negadījumus negadījumā
-2	1302	vienāds	vienāda vienādai vienādais vienādajiem vienādajām vienādam vienādas vienādi vienādie vienādiem vienādo vienādos vienādu vienādus vienādā vienādām vienādās
+2	1302	vienāds	vienāda vienādai vienādais vienādajiem vienādajām vienādam vienādas vienādi vienādie vienādiem vienādo vienādos vienādu vienādus vienādā vienādāki vienādākus vienādākā vienādām vienādās
 3	1303	režisors	režisor režisora režisoram režisore režisori režisoriem režisoros režisoru režisorus režisorā
 4	1304	ugunsgrēks	ugunsgrēka ugunsgrēkam ugunsgrēki ugunsgrēkiem ugunsgrēkos ugunsgrēku ugunsgrēkus ugunsgrēkā
 5	1305	turiene	turienei turienes turieni
 6	1306	metāls	metāla metālam metāli metāliem metālu metālus metālā
-7	1307	aizstāvēt	aizstāv aizstāvam aizstāvamais aizstāvams aizstāvat aizstāvi aizstāviet aizstāvot aizstāvošais aizstāvošs aizstāvu aizstāvēdams aizstāvēja aizstāvēji aizstāvējis aizstāvēju aizstāvējām aizstāvējāt aizstāvēs aizstāvēsi aizstāvēsiet aizstāvēsim aizstāvēsit aizstāvēts aizstāvētu aizstāvēšana aizstāvēšanai aizstāvēšanas aizstāvēšanos aizstāvēšanu aizstāvēšanā aizstāvēšot aizstāvēšu jāaizstāv neaizstāvēt
+7	1307	aizstāvēt	aizstāv aizstāvam aizstāvat aizstāvi aizstāviet aizstāvot aizstāvu aizstāvēja aizstāvēji aizstāvējis aizstāvēju aizstāvējusi aizstāvējušas aizstāvējuši aizstāvējām aizstāvējāt aizstāvēs aizstāvēsi aizstāvēsiet aizstāvēsim aizstāvēta aizstāvētas aizstāvēti aizstāvētos aizstāvēts aizstāvētu aizstāvēšana aizstāvēšanai aizstāvēšanas aizstāvēšanos aizstāvēšanu aizstāvēšanā aizstāvēšu jāaizstāv neaizstāv neaizstāvi neaizstāvu neaizstāvēji neaizstāvēs
 8	1308	sekas	seku sekām sekās
-9	1309	atkarība	atkarībai atkarības atkarību atkarībā
+9	1309	atkarība	atkarībai atkarības atkarību atkarībā atkarībām atkarībās
 10	1310	uztvert	jāuztver neuztvert uztver uztveram uztverams uztverat uztverdams uztveriet uztverot uztverošs uztvers uztversi uztversiet uztversim uztversit uztverts uztvertu uztveru uztveršana uztveršu uztvēra uztvēri uztvēris uztvēru uztvērām uztvērāt
 11	1311	pircējs	pircēj pircēja pircējai pircējam pircējas pircēji pircējiem pircējos pircēju pircējus pircējā pircējām
 12	1312	audzēknis	audzēkne audzēknei audzēknes audzēkni audzēknim audzēknēm audzēknī audzēkņa audzēkņi audzēkņiem audzēkņos audzēkņu audzēkņus
-13	1313	resurss	resursi resursu resursus
-14	1314	nogale	nogalē
+13	1313	resurss	resursa resursam resursi resursiem resursos resursu resursus resursā
+14	1314	nogale	nogalei nogales nogali nogalē nogalēm nogalēs nogaļu
 15	1315	talants	talant talanta talantam talanti talantiem talantos talantu talantus talantā
-16	1316	ieraksts	ierakstu
-17	1317	kuriene	kurienes
-18	1318	pārstāvēt	jāpārstāv nepārstāvēt pārstāv pārstāvam pārstāvat pārstāvi pārstāvot pārstāvošs pārstāvu pārstāvēdams pārstāvēja pārstāvēji pārstāvējis pārstāvēju pārstāvējām pārstāvējāt pārstāvēs pārstāvēsi pārstāvēsim pārstāvēts pārstāvētu pārstāvēšana pārstāvēšu
+16	1316	ieraksts	ieraksta ierakstam ieraksti ierakstiem ierakstos ierakstu ierakstus ierakstā
+17	1317	kuriene	kurienei kurienes kurieni
+18	1318	pārstāvēt	jāpārstāv nepārstāv nepārstāvu pārstāv pārstāvam pārstāvat pārstāvi pārstāvot pārstāvošais pārstāvošajām pārstāvošie pārstāvošo pārstāvošā pārstāvošās pārstāvu pārstāvēja pārstāvēji pārstāvējis pārstāvēju pārstāvējusi pārstāvējuši pārstāvēs pārstāvēsim pārstāvēta pārstāvētais pārstāvētajai pārstāvētajiem pārstāvētajā pārstāvētajām pārstāvētas pārstāvēti pārstāvētie pārstāvēto pārstāvēts pārstāvētu pārstāvētā pārstāvētās pārstāvēšana pārstāvēšu
 19	1319	vēsturisks	vēsturiska vēsturiskai vēsturiskais vēsturiskajai vēsturiskajam vēsturiskajiem vēsturiskajos vēsturiskajā vēsturiskajām vēsturiskajās vēsturiskam vēsturiskas vēsturiskie vēsturiskiem vēsturisko vēsturiskos vēsturisku vēsturiskus vēsturiskā vēsturiskām vēsturiskās
-20	1320	nepareizs	nepareiza nepareizai nepareizais nepareizajai nepareizajam nepareizajiem nepareizajos nepareizajā nepareizajām nepareizajās nepareizam nepareizas nepareizie nepareiziem nepareizo nepareizos nepareizu nepareizus nepareizā nepareizāks nepareizām nepareizās visnepareizākais
-21	1321	slavens	slavena slavenai slavenais slavenajai slavenajam slavenajiem slavenajos slavenajā slavenajām slavenajās slavenam slavenas slaveni slavenie slaveniem slaveno slavenos slavenu slavenus slavenā slavenāks slavenām slavenās
+20	1320	nepareizs	nepareiza nepareizai nepareizais nepareizajai nepareizajam nepareizajiem nepareizajos nepareizajā nepareizajām nepareizajās nepareizam nepareizas nepareizie nepareiziem nepareizo nepareizos nepareizu nepareizus nepareizā nepareizāk nepareizākais nepareizāki nepareizāko nepareizāks nepareizāku nepareizām nepareizās visnepareizākais visnepareizākajā visnepareizākā
+21	1321	slavens	slavena slavenai slavenais slavenajai slavenajam slavenajiem slavenajos slavenajā slavenajām slavenajās slavenam slavenas slaveni slavenie slaveniem slaveno slavenos slavenu slavenus slavenā slavenāka slavenākais slavenākajam slavenākajiem slavenākajos slavenākajām slavenākajās slavenākie slavenāko slavenākos slavenāks slavenāku slavenākā slavenākās slavenām slavenās visslavenākajiem visslavenāko visslavenākā
 22	1322	remonts	remont remonta remontam remonti remontiem remontos remontu remontus remontā
 23	1323	balsot	balso balsodams balsoja balsojam balsojams balsojat balsoji balsojiet balsojis balsojot balsoju balsojām balsojāt balsos balsosi balsosiet balsosim balsots balsotu balsošana balsošot balsošu jābalso nebalsot
 24	1324	analīze	analīzei analīzes analīzi analīzē analīzēm analīzēs analīžu
 25	1325	medaļa	medaļai medaļas medaļu medaļā medaļām medaļās
-26	1326	vājš	visvājākais vāja vājai vājais vājajai vājajam vājajiem vājajos vājajā vājajām vājajās vājam vājas vāji vājie vājiem vājo vājos vāju vājus vājā vājāks vājām vājās
+26	1326	vājš	visvājākais vāja vājai vājais vājajai vājajam vājajiem vājajos vājajā vājajām vājam vājas vāji vājie vājiem vājo vājos vāju vājus vājā vājāk vājāka vājākais vājākajiem vājākajām vājākas vājāki vājākie vājākiem vājāko vājākos vājāks vājāku vājākus vājākā vājākām vājākās vājām vājās
 27	1327	noslēgums	noslēguma noslēgumam noslēgumi noslēgumiem noslēgumos noslēgumu noslēgumā
-28	1328	apspriest	apspried apsprieda apspriedi apspriediet apspriedis apspriedu apspriedām apspriedāt apspriedīs apspriedīsiet apspriedīsim apspriedīšu apspriestais apspriests apspriestu apspriešana apspriešanai apspriešanas apspriešanos apspriešanu apspriešanā apspriešanām apspriešanās apspriež apspriežam apspriežamais apspriežams apspriežat apspriežot apspriežu jāapspriež neapspriest
+28	1328	apspriest	apsprieda apspriedi apspriediet apspriedis apspriedusi apsprieduši apspriedām apspriedīs apspriedīsim apspriedīšu apspriesta apspriestajā apspriestas apspriesti apspriesto apspriestos apspriests apspriestu apspriešana apspriešanai apspriešanas apspriešanu apspriešanā apspriešanās apspriež apspriežam apspriežama apspriežamais apspriežami apspriežamo apspriežams apspriežot apspriežu jāapspriež neapspriedīsim neapspriest neapspriestu neapspriežam neapspriežu
 29	1329	maize	maiu maizei maizes maizi maizē maizēm maizēs maiā maižu
 30	1330	zieds	zieda ziedam ziedi ziediem ziedos ziedu ziedus ziedā
 31	1331	karogs	karog karoga karogam karogi karogiem karogos karogu karogus karogā
 32	1332	ceļot	ceļo ceļodams ceļoja ceļojam ceļojat ceļoji ceļojiet ceļojis ceļojot ceļojošs ceļoju ceļojusi ceļojuši ceļojām ceļojāt ceļos ceļosiet ceļosim ceļotu ceļošana ceļošanai ceļošanas ceļošanu ceļošanā ceļošu jāceļo neceļot
 33	1333	tualete	tualetei tualetes tualeti tualetē tualetēm tualetēs tualešu
-34	1334	spriest	jāspriež nespriest spried sprieda spriedi spriediet spriedis spriedu spriedām spriedāt spriedīs spriedīsim spriedīšot spriedīšu spriests spriestu spriešana spriešanai spriešanas spriešanu spriešanā spriež spriežam spriežat spriežot spriežu
-35	1335	stils	stila stilu
+34	1334	spriest	jāspriež nespried nesprieda nespriediet nespriedīsim nespriedīšu nespriest nespriež nespriežu spried sprieda spriedi spriediet spriedis spriedu spriedusi spriedušas sprieduši spriedām spriedīs spriedīsim spriedīšot spriedīšu spriesta spriesto spriests spriestu spriestā spriezdami spriešana spriešanai spriešanas spriešanu spriešanā spriež spriežam spriežat spriežot spriežu
+35	1335	stils	stila stilam stili stiliem stilos stilu stilus stilā
 36	1336	slepkavība	slepkavībai slepkavības slepkavību slepkavībā slepkavībām slepkavībās
 37	1337	elpot	elpo elpodams elpoja elpojam elpojat elpoji elpojiet elpojis elpojot elpojošs elpoju elpojām elpos elposi elposiet elposim elpotu elpošana elpošanai elpošanas elpošanu elpošanā elpošu jāelpo neelpot
-38	1338	saglabāt	saglabā
+38	1338	saglabāt	jāsaglabā nesaglabā nesaglabājot nesaglabās nesaglabāsim saglabā saglabādams saglabāja saglabājam saglabājams saglabājat saglabāji saglabājiet saglabājis saglabājot saglabāju saglabājusi saglabājušas saglabājuši saglabājām saglabājāt saglabās saglabāsi saglabāsiet saglabāsim saglabāta saglabātais saglabātas saglabāti saglabātie saglabāto saglabāts saglabātu saglabātā saglabāšana saglabāšanas saglabāšanu saglabāšanā saglabāšu
 39	1339	vētra	vētrai vētram vētras vētru vētrā vētrām vētrās
 40	1340	turpmāks	turpmāka turpmākai turpmākais turpmākajai turpmākajam turpmākajiem turpmākajos turpmākajā turpmākajām turpmākajās turpmākam turpmākas turpmāki turpmākie turpmākiem turpmāko turpmākos turpmāku turpmākus turpmākā turpmākām turpmākās
 41	1341	nafta	naftai naftas naftu naftā naftām
 42	1342	pārsvars	pārsvara pārsvaram pārsvaru pārsvarā
 43	1343	ciet	
-44	1344	pārmaiņa	pārmaiņas pārmaiņām
+44	1344	pārmaiņa	pārmaiņai pārmaiņas pārmaiņu pārmaiņā pārmaiņām pārmaiņās
 45	1345	kauls	kaula kaulam kauli kauliem kaulos kaulu kaulus kaulā
 46	1346	elements	element elementa elementam elementi elementiem elementos elementu elementus elementā
 47	1347	pašreizējs	pašreizēja pašreizējai pašreizējais pašreizējajiem pašreizējajā pašreizējam pašreizējas pašreizēji pašreizējie pašreizējiem pašreizējo pašreizējos pašreizējā pašreizējām pašreizējās
 48	1348	nepieciešamība	nepieciešamībai nepieciešamības nepieciešamību nepieciešamībā nepieciešamībām nepieciešamībās
 49	1349	raksturs	rakstur rakstura raksturam raksturi raksturiem raksturos raksturu raksturus raksturā
-50	1350	skaitlis	skaitis skaitli skaitlim skaitlī skaitļa skaitļi skaitļiem skaitļos skaitļu skaitļus
+50	1350	skaitlis	skaitis skaitli skaitliem skaitlim skaitlus skaitlī skaitļa skaitļi skaitļiem skaitļos skaitļu skaitļus
 51	1351	dzeja	dzejai dzejas dzejos dzeju dzejā dzejām dzejās
 52	1352	reti	
-53	1353	risinājums	risinājumi
-54	1354	piebilst	piebilda
+53	1353	risinājums	risinājuma risinājumam risinājumi risinājumiem risinājumos risinājumu risinājumus risinājumā
+54	1354	piebilst	jāpiebilst nepiebildu nepiebildīšu nepiebilst nepiebilstot piebilda piebildi piebildis piebildu piebildām piebildīs piebildīsiet piebildīsim piebildīšu piebilstam piebilstams piebilsti piebilstot piebilsts piebilstu piebilzdams
 55	1355	starts	start starta startam starti startiem startos startu startus startā
 56	1356	bikses	bika bikam biki biksēm biksēs biku bikšu
-57	1357	tuvs	tuva tuvai tuvais tuvajai tuvajam tuvajiem tuvajos tuvajā tuvajām tuvajās tuvam tuvas tuvi tuvie tuviem tuvo tuvos tuvus tuvā tuvāks tuvām tuvās vistuvākais
+57	1357	tuvs	tuva tuvajiem tuvajos tuvajā tuvam tuvas tuvi tuvie tuviem tuvo tuvos tuvus tuvā tuvāka tuvākajai tuvākajam tuvākajiem tuvākajos tuvākajā tuvākajām tuvākajās tuvākas tuvāki tuvākie tuvākiem tuvāko tuvākos tuvāks tuvāku tuvākā tuvākās tuvām tuvās vistuvāk vistuvākais vistuvākajiem vistuvākajā vistuvāko vistuvākā
 58	1358	akts	akt akta aktam akti aktiem aktis aktos aktu aktus aktā aktīs
-59	1359	ass	asa asai asais asajai asajam asajiem asajos asajā asajām asam asas asi asie asiem asij asis aso asos asu asus asā asāks asām asās asī asīm visasākais
+59	1359	ass	asa asai asais asajam asajiem asajā asajām asam asas asi asie asiem asij asis aso asos asu asus asā asāk asāka asākajiem asākam asākas asāki asākiem asāko asākos asāks asāku asākus asākā asākās asām asās asīm visasāk visasākie visasākās
 60	1360	izskats	izskat izskata izskatam izskati izskatiem izskatos izskatu izskatus izskatā
 61	1361	karavīrs	karavīr karavīra karavīram karavīri karavīriem karavīros karavīru karavīrus
-62	1362	art	ara aram arams ari ariet aris arot ars arts artu aru arām aršana aršanai aršanas aršanu aršanā jāar neart
-63	1363	novērtēt	novērtē novērtēja
+62	1362	art	ara aram arama aramai aramajam aramas aramo arams aramu ari ariet aris arot ars arta artai artas arti artiem arto arts artu artus artā artām aru arušas arušā arām aršana aršanai aršanas aršanu aršanā jāar near neart nearts nearu
+63	1363	novērtēt	jānovērtē nenovērtē nenovērtēja nenovērtējam nenovērtējams nenovērtējiet nenovērtēju nenovērtēt nenovērtēts nenovērtētu novērtē novērtēja novērtējam novērtējams novērtējat novērtējiet novērtējis novērtējot novērtēju novērtējusi novērtējušas novērtējuši novērtējām novērtēs novērtēsi novērtēsiet novērtēsim novērtēta novērtētas novērtēti novērtēts novērtētu novērtētā novērtēšana novērtēšanai novērtēšanas novērtēšanu novērtēšanā novērtēšu
 64	1364	staigāt	jāstaigā jāstaigājot nestaigāt staigā staigādams staigāja staigājam staigājat staigāji staigājiet staigājis staigājot staigājošs staigāju staigājām staigājāt staigās staigāsi staigāsiet staigāsim staigāsit staigāts staigātu staigāšana staigāšot staigāšu
 65	1365	jaunatne	jaunate jaunatnei jaunatnes jaunatni jaunatnē
 66	1366	ziemeļi	ziemeļiem ziemeļos ziemeļu ziemeļus
-67	1367	treneris	trenera
+67	1367	treneris	trenera treneri treneriem trenerim treneros treneru trenerus trenerī
 68	1368	ēna	ēnai ēnas ēniem ēnos ēnu ēnā ēnām ēnās
-69	1369	grāds	grādiem grādu
-70	1370	tālrunis	tālruni tālrunim tālrunī tālruņa tālruņi tālruņiem tālruņos tālruņu tālruņus
+69	1369	grāds	grāda grādam grādi grādiem grādos grādu grādus grādā
+70	1370	tālrunis	tālruni tālruniem tālrunim tālrunī tālruņa tālruņi tālruņiem tālruņos tālruņu tālruņus
 71	1371	lode	lodei lodes lodi lodē lodēm lodēs lodīte lodītei lodītes lodītēm lodīšu ložu
-72	1372	aizliegt	aizliedz aizliedza aizliedzam aizliedzams aizliedzat aizliedzi aizliedziet aizliedzis aizliedzot aizliedzošais aizliedzošs aizliedzu aizliedzām aizliegs aizliegsi aizliegsim aizliegtais aizliegts aizliegtu aizliegšana aizliegšanai aizliegšanas aizliegšanu aizliegšanā aizliegšu jāaizliedz neaizliegt
-73	1373	taisns	taisna taisnai taisnais taisnajai taisnajam taisnajiem taisnajos taisnajā taisnajām taisnajās taisnam taisnas taisni taisnie taisniem taisno taisnos taisnu taisnus taisnā taisnāks taisnām taisnās vistaisnākais
+72	1372	aizliegt	aizliedz aizliedza aizliedzam aizliedzi aizliedzis aizliedzot aizliedzu aizliegs aizliegsim aizliegta aizliegtais aizliegtajai aizliegtajā aizliegtajām aizliegtam aizliegtas aizliegti aizliegtie aizliegtiem aizliegto aizliegtos aizliegts aizliegtu aizliegtus aizliegtā aizliegtām aizliegtās aizliegusi aizliegušas aizlieguši aizliegšana aizliegšanai aizliegšanas aizliegšanu aizliegšu jāaizliedz neaizliedz neaizliegs neaizliegsim
+73	1373	taisns	taisna taisnai taisnais taisnajai taisnajam taisnajiem taisnajos taisnajā taisnajām taisnajās taisnam taisnas taisni taisnie taisniem taisno taisnos taisnu taisnus taisnā taisnāk taisnāka taisnākais taisnākas taisnāki taisnākiem taisnāko taisnākos taisnāks taisnāku taisnākā taisnākās taisnām taisnās vistaisnākais vistaisnākajā vistaisnāko
 74	1374	normāli	
 75	1375	bars	bar bara baram bari bariem baros baru barus barā
 76	1376	patlaban	
-77	1377	garšot	garšo garšoja garšojam garšojiet garšojis garšojot garšoju garšojām garšos garšots garšotu garšošana garšošanas garšošanu jāgaršo negaršot
-78	1378	sevišķs	sevišķa sevišķai sevišķais sevišķajai sevišķajos sevišķajā sevišķam sevišķas sevišķi sevišķie sevišķiem sevišķo sevišķos sevišķu sevišķus sevišķā sevišķām sevišķās
-79	1379	pāriet	jāpāriet nepāriet pārej pārejam pārejat pārejiet pārejot pārejošs pāreju pārgāja pārgāji pārgājis pārgāju pārgājām pārgājāt pāriedams pāries pāriesi pāriesiet pāriesim pāriets pārietu pāriešana pāriešot pāriešu
-80	1380	procents	procentiem procentu
-81	1381	traucēt	jātraucē netraucēt traucē traucēdams traucēja traucējam traucējat traucēji traucējiet traucējis traucējot traucējošais traucējošs traucēju traucējām traucēs traucēsi traucēsim traucēts traucētu traucēšana traucēšanai traucēšanas traucēšanu traucēšanā traucēšot traucēšu
-82	1382	sagatavot	sagatavo sagatavoja sagatavots
+77	1377	garšot	garšo garšoja garšojam garšojiet garšojis garšojot garšojošo garšojošu garšoju garšojusi garšojušas garšojuši garšojām garšos garšotas garšots garšotu garšošana garšošanas garšošanu jāgaršo negaršo negaršoja negaršojot negaršos negaršot negaršotu
+78	1378	sevišķs	sevišķa sevišķai sevišķais sevišķajai sevišķajos sevišķajā sevišķam sevišķas sevišķi sevišķie sevišķiem sevišķo sevišķos sevišķu sevišķus sevišķā sevišķāku sevišķām sevišķās
+79	1379	pāriet	jāpāriet nepārejošas nepārejošo nepārejošs nepārejošu nepārejošā nepārgāja nepāries nepāriet nepārietu pārej pārejam pārejat pārejiet pārejot pārejoša pārejošajām pārejošas pārejoši pārejošo pārejošs pārejošu pāreju pārgāja pārgāji pārgājis pārgāju pārgājusi pārgājušas pārgājuši pārgājām pārgājāt pāries pāriesi pāriesim pārietu pāriešana pāriešot pāriešu
+80	1380	procents	procenta procentam procenti procentiem procentos procentu procentus procentā
+81	1381	traucēt	netraucē netraucēja netraucējam netraucējat netraucējiet netraucējot netraucēju netraucēs netraucēsi netraucēsim netraucēt netraucētu netraucēšu traucē traucēja traucējam traucējat traucējiet traucējis traucējot traucējoša traucējošas traucējoši traucējošs traucējošā traucēju traucējusi traucējuši traucēs traucēsi traucēta traucētas traucēti traucēts traucētu traucēšana traucēšanas traucēšanu traucēšu
+82	1382	sagatavot	jāsagatavo nesagatavotu nesagatavotus sagatavo sagatavoja sagatavojam sagatavoji sagatavojiet sagatavojis sagatavojot sagatavoju sagatavojusi sagatavojušas sagatavojuši sagatavojām sagatavos sagatavosim sagatavota sagatavotais sagatavotajiem sagatavotajā sagatavotam sagatavotas sagatavoti sagatavotie sagatavotiem sagatavoto sagatavotos sagatavots sagatavotu sagatavotus sagatavotā sagatavotās sagatavošana sagatavošanai sagatavošanas sagatavošanu sagatavošanā sagatavošu
 83	1383	stikls	stikl stikla stiklam stikli stikliem stiklos stiklu stiklus stiklā
 84	1384	piektais	piekta piektai piektajai piektajam piektajiem piektajā piektajām piektajās piektam piektas piektie piekto piektos piekts piektu piektā piektās
-85	1385	burvis	burve burvei burves burvi burvim burvja burvji burvjiem burvju burvjus
-86	1386	ieteikt	ieteic ieteica ieteicam ieteici ieteiciet ieteicis ieteicot ieteicu ieteicām ieteicāt ieteikdams ieteiks ieteiksi ieteiksiet ieteiksim ieteikts ieteiktu ieteikšana ieteikšot ieteikšu neieteikt
+85	1385	burvis	burva burve burvei burves burvi burvim burvja burvji burvjiem burvju burvjus
+86	1386	ieteikt	ieteic ieteica ieteicam ieteicamie ieteicamo ieteici ieteicis ieteicu ieteicām ieteicāt ieteiks ieteiksi ieteiksiet ieteiksim ieteikta ieteiktais ieteiktajam ieteiktajiem ieteiktajā ieteiktajām ieteiktas ieteikti ieteiktie ieteiktiem ieteikto ieteiktos ieteikts ieteiktu ieteiktā ieteiktās ieteikusi ieteikušas ieteikuši ieteikšot ieteikšu neieteica neieteicām neieteiktu neieteikšu
 87	1387	lēkt	jālec lec lecam lecams lecat leciet lecot lecošs lecu lēca lēcai lēcas lēci lēcis lēcu lēcā lēcām lēcās lēks lēksi lēksim lēkts lēktu lēkšana lēkšanai lēkšanas lēkšanu lēkšanā lēkšot lēkšu nelēkt
 88	1388	toties	
-89	1389	ražot	jāražo neražot ražo ražoja ražojam ražojat ražojiet ražojis ražojot ražojoša ražojošai ražojošais ražojošam ražojošas ražojoši ražojošiem ražojošos ražojošs ražojošu ražojošus ražojošā ražojošām ražojošās ražoju ražojām ražos ražosi ražosiet ražosim ražotais ražots ražotu ražošot
-90	1390	auss	ausi ausij ausis ausu ausī ausīm ausīs
+89	1389	ražot	jāražo neražo neražojam neražotu ražo ražoja ražojam ražojat ražojis ražojot ražojošajiem ražojošie ražojošo ražojošu ražojošās ražoju ražojām ražos ražosiet ražosim ražota ražotais ražotajai ražotajam ražotajiem ražotajos ražotajām ražotas ražoti ražotie ražotiem ražoto ražotos ražots ražotu ražotus ražotā ražotām ražotās
+90	1390	auss	ausi ausij ausis ausu aususi ausī ausīm ausīs
 91	1391	šokolāde	šokolādei šokolādes šokolādi šokolādē šokolādēm šokolādēs šokolāžu
 92	1392	siltums	siltum siltuma siltumam siltumi siltumiem siltumu siltumā
 93	1393	balle	bai ballei balles balli ballu ballē ballēm ballēs baļļu
-94	1394	grīda	grīdai grīdas grīds grīdu grīdā grīdām grīdās
+94	1394	grīda	grīdai grīdas grīdiem grīds grīdu grīdā grīdām grīdās
 95	1395	rūpnīca	rūpnīcai rūpnīcas rūpnīcu rūpnīcā rūpnīcām rūpnīcās
 96	1396	krekls	krekla kreklam krekli krekliem kreklos kreklu kreklus kreklā
 97	1397	apmaiņa	apmaiņai apmaiņas apmaiņu apmaiņā apmaiņām apmaiņās
-98	1398	uzticēt	jāuztic neuzticēt uztic uzticam uzticama uzticamai uzticamais uzticamam uzticamas uzticami uzticamiem uzticamos uzticams uzticamu uzticamus uzticamā uzticamāks uzticamām uzticamās uzticat uztici uzticiet uzticot uzticu uzticēja uzticēji uzticējis uzticēju uzticējām uzticēs uzticēsi uzticēsiet uzticēsim uzticēts uzticētu uzticēšana uzticēšot uzticēšu visuzticamākais
+98	1398	uzticēt	jāuztic neuztic neuzticams neuztici neuzticētu uztic uzticam uzticama uzticamai uzticamais uzticamajiem uzticamas uzticami uzticamie uzticamiem uzticamo uzticams uzticamu uzticamus uzticamā uzticamākais uzticamākajiem uztici uzticiet uzticot uzticu uzticēja uzticēji uzticējis uzticēju uzticējusi uzticējuši uzticēs uzticēsi uzticēta uzticēti uzticēto uzticēts uzticētu
 99	1399	maršruts	maršruta maršrutam maršruti maršrutiem maršrutos maršrutu maršrutus maršrutā
 100	1400	strauji	

@@ -1,0 +1,100 @@
+1	9701	šizofrēniķis	šizofrēniķi šizofrēniķiem šizofrēniķu
+2	9702	saaudzēt	saaudzē saaudzēji saaudzējiet saaudzējot saaudzēti saaudzēto saaudzētu saaudzēšana
+3	9703	uzdancot	uzdanco uzdancoja uzdancoju uzdancojām uzdancosim uzdancotu
+4	9704	evolucionārs	evolucionāra evolucionārajā evolucionāras evolucionāriem evolucionāro evolucionāros evolucionāru
+5	9705	sasieties	nesasienas sasienamies sasienas sasiesies sasējies sasējos sasējās
+6	9706	anglikānis	anglikāņi anglikāņu
+7	9707	akcionāre	akcionārei akcionāres akcionāri akcionāru
+8	9708	norēķināt	nenorēķinās norēķina norēķini norēķinot norēķinu norēķinām norēķinās norēķināts norēķināšanas
+9	9709	paturpināt	nepasargāta pasargāta paturpina paturpini paturpinot paturpinu paturpināja paturpināji paturpinājis paturpināju paturpinās paturpināsim paturpināšu
+10	9710	samērīgi	
+11	9711	aizpaiet	aizpagājušajā aizpagājušo aizpagājušā aizpagājušās
+12	9712	teoloģisks	teoloģiska teoloģiskais teoloģiskajai teoloģiskajiem teoloģiskajos teoloģiskajā teoloģiskas teoloģiskie teoloģiskiem teoloģisko teoloģiskos teoloģisku teoloģiskus teoloģiskā teoloģiskām teoloģiskās
+13	9713	izdejoties	izdejojamies izdejojies izdejojoties izdejojušies izdejojāmies izdejojās izdejosies izdejosimies izdejošanās jāizdejojas
+14	9714	lakot	jālako lako lakoja lakojam lakojot lakos lakota lakotas lakoti lakoto lakots lakotu lakošana lakošanas lakošanu nelakoju nelakošu
+15	9715	vaniļa	vaniļai vaniļu
+16	9716	nepatiesība	nepatiesības nepatiesību nepatiesībām
+17	9717	aptiekārs	aptiekāra aptiekāram aptiekāri aptiekāriem aptiekāru aptiekārus
+18	9718	strēle	strēlei strēles strēli strēlē strēļu
+19	9719	konfigurēt	jākonfigurē konfigurē konfigurēja konfigurējams konfigurēsim konfigurēta konfigurēti konfigurēts konfigurētu konfigurēšana konfigurēšanas konfigurēšanu konfigurēšanā
+20	9720	antisemītisms	antisemītisma antisemītismu antisemītismā
+21	9721	sakarsēt	jāsakarsē nesakarsēs sakarsē sakarsēja sakarsējiet sakarsējot sakarsējusi sakarsējām sakarsēta sakarsētas sakarsēto sakarsētu sakarsētā sakarsēšana
+22	9722	izdarīties	izdarāmas izdarāmās izdarās izdarījies izdarījos izdarījusies izdarījušies izdarījās izdarītos izdarīšanās neizdarāmas neizdarīsies neizdarīties
+23	9723	miglaini	
+24	9724	neilons	neilona
+25	9725	žāvēties	nežāvējas žāvējas žāvējos žāvējās žāvētos žāvēšanās
+26	9726	acuraugs	acuraugam acuraugi acuraugu
+27	9727	kupris	kupra kupri kupriem kupru kuprus kuprī
+28	9728	sapņains	sapņaina sapņainais sapņainas sapņainie sapņainiem sapņaino sapņainos sapņainu sapņainus sapņainā sapņaināku
+29	9729	kubikcentimetrs	kubikcentimetri kubikcentimetriem kubikcentimetru kubikcentimetrus
+30	9730	klitors	klitora klitoram klitori klitoru
+31	9731	fotogrāfisks	fotogrāfiska fotogrāfiskais fotogrāfiskajai fotogrāfiskajos fotogrāfiskas fotogrāfisko fotogrāfiskus fotogrāfiskā fotogrāfiskās visfotogrāfiskākais
+32	9732	pārsalt	pārsalis pārsalst pārsalstot pārsaltu pārsalusi pārsalušas pārsaluši pārsalušiem pārsalušus pārsalušām pārsalšana
+33	9733	pazaudēties	nepazaudēsies nepazaudēsimies nepazaudēties pazaudējies pazaudējos pazaudējoties pazaudējusies pazaudējušies pazaudējās pazaudēsies pazaudētos
+34	9734	šķēlums	šķēluma šķēlumi šķēlumiem šķēlumu šķēlumā
+35	9735	piectūkstoš	
+36	9736	fokstrots	fokstrotu fokstrotus
+37	9737	atkauties	atkaujamies atkautos
+38	9738	aizsaukt	aizsauc aizsauca aizsauci aizsaucis aizsaucot aizsaukts
+39	9739	molusks	moluski moluskiem molusku moluskus
+40	9740	apseglot	apseglo apsegloja apseglojam apseglojis apseglojuši apseglos apseglotu
+41	9741	pārcirst	pārcirsts pārcirstu pārcērt pārcērtot pārcērtu
+42	9742	nosmērēts	nosmērētas nosmērēti nosmērēto nosmērētu nosmērētā nosmērētām
+43	9743	uzslaucīt	jāuzslauka uzslaucījis uzslaucīju uzslaucīsi uzslaucīsim uzslaucīts uzslauka uzslaukot uzslaukāmie uzslaukāmo uzslaukāmā
+44	9744	izvemt	izvemj izvemjot izvemju izvemts izvemtu izvemšana izvemšu izvēma izvēmis izvēmu
+45	9745	alžīrietis	alžīrieti alžīrieši alžīriešiem alžīriešu alžīriešus
+46	9746	jaunzēlandietis	jaunzēlandietim jaunzēlandieši jaunzēlandiešiem jaunzēlandiešu
+47	9747	izstrādāties	izstrādājas izstrādājies izstrādājusies izstrādājušies izstrādājušās izstrādājās izstrādāsies izstrādātos izstrādāšanās neizstrādājas
+48	9748	kronēšana	kronēšanai kronēšanas kronēšanu
+49	9749	papele	papeles papeli papelēm papelēs papeļu
+50	9750	teteris	tetera teteri teterim teteru
+51	9751	dempings	dempinga dempingam dempingos dempingu
+52	9752	iekrāties	iekrājas iekrājies iekrājusies iekrājušies iekrājušās iekrājās iekrāsies iekrātos neiekrāsies
+53	9753	sazāģēt	jāsazāģē sazāģē sazāģēja sazāģējot sazāģēju sazāģējusi sazāģējuši sazāģējām sazāģēsim sazāģētajiem sazāģētas sazāģēti sazāģētie sazāģēto sazāģētos sazāģēts sazāģētu sazāģēšana sazāģēšu
+54	9754	izveseļošanās	
+55	9755	parieties	parejas parejos parējas parējos parējās
+56	9756	pagānisks	pagāniska pagāniskais pagāniskajai pagāniskajiem pagāniskajās pagāniskas pagāniski pagāniskie pagānisko pagāniskos pagānisku pagāniskā pagāniskām pagāniskās
+57	9757	urbt	
+58	9758	zintnieks	zintniece zintnieka zintniekam zintnieki zintniekiem zintnieku zintniekus
+59	9759	spoguļattēls	spoguļattēla spoguļattēlam spoguļattēlu spoguļattēlā
+60	9760	būties	bijas bijušies navas nebijas nebijās nebūšanās
+61	9761	nodalīties	jānodalās nenodalītos nodalas nodalāmas nodalāmās nodalās nodalījušies nodalījās nodalīšanās
+62	9762	šinelis	šineli šinelī šineļa šineļos šineļu
+63	9763	implantācija	implantācijai implantācijas implantāciju implantācijā
+64	9764	pārdrošība	pārdrošības pārdrošību
+65	9765	elementārdaļiņa	elementārdaļiņas elementārdaļiņu elementārdaļiņām elementārdaļiņās
+66	9766	piešmaukt	piešmauca piešmaucis piešmaukta piešmauktas piešmaukti piešmaukts
+67	9767	atvemt	atvem atvemj atvems atvēma atvēmis
+68	9768	noriskēt	nenoriskēt noriskē noriskēja noriskējiet noriskēju noriskējām noriskēs noriskēšu
+69	9769	raudulīgs	raudulīga raudulīgais raudulīgajai raudulīgajos raudulīgas raudulīgi raudulīgu raudulīgus
+70	9770	alegorisks	alegoriska alegoriskai alegoriskas alegoriski alegorisku alegoriskus alegoriskā alegoriskāk alegoriskāks alegoriskās
+71	9771	nodienēt	nodienē nodienēja nodienējis nodienēju nodienējām nodienējāt
+72	9772	aizlīst	aizlien aizlīdis aizlīdām aizlīdāt neaizlīdīs neaizlīst
+73	9773	šprotes	
+74	9774	sukāde	sukādes sukādēm sukādēs sukāžu
+75	9775	velgs	velgai velgas velgu
+76	9776	drošināšana	drošināšanai drošināšanas drošināšanu
+77	9777	spilgtums	spilgtuma spilgtumu spilgtumā
+78	9778	cielava	cielavai cielavas cielavu cielavām cielavās
+79	9779	retrospektīvs	retrospektīva retrospektīvais retrospektīvajai retrospektīvajā retrospektīvas retrospektīvi retrospektīvo retrospektīvu retrospektīvā retrospektīvās
+80	9780	stāstītājs	stāstītāja stāstītājai stāstītājam stāstītājas stāstītāji stāstītājiem stāstītāju stāstītājus stāstītājā
+81	9781	saorganizēt	jāsaorganizē nesaorganizēja saorganizē saorganizēja saorganizējis saorganizējot saorganizēs saorganizēts saorganizētu
+82	9782	ogļūdeņradis	ogļūdeņraža ogļūdeņraži ogļūdeņražiem ogļūdeņražu ogļūdeņražus
+83	9783	puspliks	pusplika pusplikai pusplikam pusplikas puspliki pusplikie pusplikiem puspliko puspliku pusplikā pusplikām
+84	9784	iepotēt	iepotē iepotēja iepotējis iepotējot iepotēju iepotēsim iepotēta iepotētas iepotēti iepotētie iepotēto iepotēts iepotētu iepotētā iepotēšana iepotēšanas iepotēšanu
+85	9785	numurēt	nenumurē numurē numurēju numurējām numurēta numurētas numurēti numurēto numurēts numurētu numurētā numurēšanas
+86	9786	četrsimt	
+87	9787	piedienēties	nepiedienas piedienas piedienētos
+88	9788	sudrabains	sidrabainajā sidrabaini sidrabainos sidrabains sidrabainā sudrabaina sudrabainais sudrabainajiem sudrabainajā sudrabainas sudrabainie sudrabainiem sudrabaino sudrabainos sudrabainā sudrabainās
+89	9789	simbioze	simbiozei simbiozes simbiozi simbiozē
+90	9790	kafetērija	kafetērijai kafetērijas kafetēriju kafetērijā kafetērijām
+91	9791	aizsoļot	aizsoļo aizsoļoja aizsoļojiet aizsoļojis aizsoļotu neaizsoļos
+92	9792	salodēt	salodē salodēju salodētas salodēšana
+93	9793	serotonīns	serotonīna serotonīnu
+94	9794	oksidēties	neoksidējas oksidējas oksidēšanās
+95	9795	atskatīt	atskata atskati atskatu atskatītos
+96	9796	linolejs	linoleja linolejam linoleji linoleju
+97	9797	homeopātisks	homeopātiskai homeopātiskajiem homeopātiskajām homeopātiskajās homeopātiskas homeopātiski homeopātiskie homeopātiskiem homeopātisko homeopātiskos homeopātisku homeopātiskus homeopātiskā homeopātiskām homeopātiskās
+98	9798	krājējs	krājēja krājējam krājēji krājējiem krājēju krājējus
+99	9799	šmaukt	jāšmauc nešmauc nešmauktu šmauc šmauca šmaucis šmaukdami šmauks šmauksi šmauktais šmaukti šmaukts šmauktu šmaukšana šmaukšanas šmaukšanos šmaukšanu šmaukšanās
+100	9800	apķert	apķer apķerot apķertu apķeru apķēra apķēris apķēru

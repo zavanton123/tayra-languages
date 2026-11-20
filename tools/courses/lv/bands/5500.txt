@@ -1,100 +1,100 @@
-1	5401	metafizisks	metafiziskais metafiziskam metafiziskas metafiziskiem metafizisko metafiziskos metafizisku metafiziskus metafiziskā metafiziskām metafiziskās
-2	5402	iespiešana	iespiešanai iespiešanas iespiešanos iespiešanu iespiešanā iespiešanās
-3	5403	mundrums	mundruma mundrumam mundrumu
-4	5404	datorvīruss	datorvīrusa datorvīrusi datorvīrusiem datorvīrusu datorvīrusus
-5	5405	sirmi	
-6	5406	septiņnieks	septiņnieka septiņniekam septiņnieki septiņniekiem septiņnieku septiņniekus septiņniekā septītnieks
-7	5407	stingums	stinguma stingumu
-8	5408	nīlzirgs	nīlzirga nīlzirgu nīlzirgus
-9	5409	valgums	valguma valgumos valgumu valgumā
-10	5410	laborants	laboranta laborantam laborante laboranti laborantiem laborantu laborantus
-11	5411	lingvistisks	lingvistiska lingvistiskais lingvistiskajiem lingvistiskajā lingvistiskajām lingvistiskas lingvistiskie lingvistisko lingvistisku lingvistiskā lingvistiskās
-12	5412	kinozvaigzne	kinozvaigznei kinozvaigznes kinozvaigzni kinozvaigznēm
-13	5413	aritmētika	aritmētikas aritmētiku aritmētikā
-14	5414	šķīstība	šķīstībai šķīstības šķīstību šķīstībā
-15	5415	knislis	knisli knišļa knišļi knišļiem knišļu
-16	5416	normalitāte	normalitātei normalitātes normalitāti normalitātē
-17	5417	ūdeņains	ūdeņaina ūdeņainas ūdeņaini ūdeņainiem ūdeņaino ūdeņainu ūdeņainā ūdeņaināks
-18	5418	šantāža	
-19	5419	jāņtārpiņš	jāņtārpiņa jāņtārpiņam jāņtārpiņi jāņtārpiņiem jāņtārpiņu jāņtārpiņus
-20	5420	kalpība	kalpībai kalpības kalpību kalpībā
-21	5421	kija	kijai kijas kiju kijā kijām
-22	5422	jaunavība	jaunavības jaunavību jaunavībā
-23	5423	miegainība	miegainībai miegainības miegainību
-24	5424	bikli	
-25	5425	intimitāte	intimitātes intimitāti intimitātē
-26	5426	sudrabains	sidrabains sudrabaina sudrabainais sudrabainajiem sudrabainajā sudrabainas sudrabainie sudrabainiem sudrabaino sudrabainos sudrabainā sudrabainās
-27	5427	nerātnība	nerātnības nerātnību nerātnībām nerātnībās
-28	5428	salnis	saus
-29	5429	šķīstums	šķīstum šķīstuma šķīstumam šķīstumu
-30	5430	ņieburs	ņiebura ņieburi ņieburus ņieburā
-31	5431	mērcēt	jāmērcē mērcē mērcēdams mērcēja mērcējis mērcējot mērcēju mērcēs mērcēts mērcētu mērcēšana nemērcēt
-32	5432	draudzīgums	draudzīguma draudzīgumam draudzīgumu draudzīgumā
-33	5433	oboja	obojai obojas oboju
-34	5434	astrofizika	astrofizikas astrofiziku
-35	5435	sliktums	sliktuma sliktumam sliktumi sliktumiem sliktumu sliktumus
-36	5436	grūtums	grūtuma grūtumam grūtumi grūtumiem grūtumos grūtumu grūtumus grūtumā
-37	5437	āliņģis	āliņģa āliņģi āliņģiem āliņģim āliņģos āliņģu āliņģus āliņģī
-38	5438	augļkopis	augļkope augļkopes augļkopi augļkopim augļkopja augļkopji augļkopjiem augļkopju augļkopjus
-39	5439	sūkalas	sūkalu sūkalām sūkalās
-40	5440	sievišķīgi	
-41	5441	aba	abam abas abu abā abām abās
-42	5442	šunelis	šuneli šunelim šuneļa šuneļi šuneļiem šuneļu šuneļus
-43	5443	žestikulēt	žestikulē žestikulēdams žestikulēja žestikulējam žestikulējot žestikulēsim žestikulēšana žestikulēšanu
-44	5444	botānika	botānikas botāniku botānikā
-45	5445	neprātība	neprātības neprātību neprātībām
-46	5446	mašīnpistole	mašīnpistoles mašīnpistoli mašīnpistolēm
-47	5447	irīdijs	irīdija irīdiju
-48	5448	brasls	brads brasla braslam braslu braslā
-49	5449	radons	radona radonu radonā
-50	5450	humānisms	humānisma humānismam humānismiem humānismu humānismā
-51	5451	skanis	skais skani skaņi skaņu
-52	5452	topogrāfija	topogrāfijai topogrāfijas topogrāfiju topogrāfijā
-53	5453	grūst	
-54	5454	pārcilvēks	pārcilvēka pārcilvēkam pārcilvēki pārcilvēkiem pārcilvēku pārcilvēkus
-55	5455	metafizika	metafizikai metafizikas metafiziku metafizikā
-56	5456	gļēvulība	gļēvulībai gļēvulības gļēvulību
-57	5457	ekologs	ekologa ekologi ekologiem ekologu ekoloģe
-58	5458	saspraude	saspraudes saspraudi saspraudēm
-59	5459	zemesrags	zemesraga zemesragam zemesragus zemesragā
-60	5460	šmaukt	jāšmauc šmauc šmauca šmaucis šmauks šmauksi šmauktais šmaukts šmauktu šmaukšana šmaukšanas šmaukšanos šmaukšanu
-61	5461	automaģistrāle	automaģistrāles automaģistrāli automaģistrālēm automaģistrālēs automaģistrāļu
-62	5462	kapracis	kapraci kapracim kaprača kaprači kapračiem kapraču kapračus
-63	5463	konuss	konus konusa konusam konusi konusiem konusos konusu konusus konusā
-64	5464	anatomisks	anatomiska anatomiskajā anatomiskajām anatomiskas anatomiski anatomiskie anatomiskiem anatomisko anatomiskos anatomisku anatomiskā anatomiskām anatomiskās
-65	5465	lineāls	lineāla lineāli lineālu lineālus lineālā
-66	5466	kaņepe	kaņepa kaņepei kaņepi kaņepju kaņepēm kaņepēs
-67	5467	manim	
-68	5468	alķīmija	alķīmijai alķīmijas alķīmiju
-69	5469	cilvēcīgums	cilvēcīguma cilvēcīgumam cilvēcīgumu
-70	5470	astotdaļa	astotdaļas astotdaļu astotdaļām
-71	5471	garumzīme	garumzīmes garumzīmi garumzīmju garumzīmēm
-72	5472	žirgts	žirgta žirgti žirgtā žirgtāks
-73	5473	uzbeks	uzbekam uzbeki uzbekiem uzbekiete uzbeku uzbekus
-74	5474	aforisms	aforisma aforismi aforismiem aforismos aforismu aforismus aforismā
-75	5475	ziemīgs	ziemīga ziemīgajai ziemīgajiem ziemīgajām ziemīgas ziemīgie ziemīgiem ziemīgo ziemīgos ziemīgu ziemīgus ziemīgā ziemīgāks ziemīgām ziemīgās
-76	5476	kazahiete	kazaham kazahi kazahiem kazahu kazahus
-77	5477	pakistānietis	pakistānieti pakistānietim pakistānieša pakistānieši pakistāniešiem pakistāniešu
-78	5478	erotiski	
-79	5479	raja	rajai rajas raju rajā
-80	5480	erchercogs	
-81	5481	velnēns	velnēn
-82	5482	saldināt	jāsaldina saldina saldiniet saldinās saldināts saldinātu saldināšanai
-83	5483	nihilisms	nihilisma nihilismam nihilismu nihilismā
-84	5484	dēle	dēles dēli dēlēm dēļu
-85	5485	ājurvēda	ajurvēda ajūrvēda ājurvēdas ājurvēdu ājurvēdā ājurvēdām
-86	5486	telefonisks	telefoniska telefoniskai telefoniskais telefoniskajām telefoniskas telefoniskie telefonisko telefoniskos telefonisku telefoniskus telefoniskā telefoniskām telefoniskās
-87	5487	brist	brida
-88	5488	sākumlapa	sākumlapas sākumlapu sākumlapā
-89	5489	ūsains	ūsainais ūsainajam ūsainajiem ūsaini ūsainie ūsaino ūsainu ūsainā ūsainās
-90	5490	nasks	naska naskais naskas naskie nasko nasku naskā naskāks naskās
-91	5491	kaplis	kapis kapli kaplim kapļa kapļi kapļiem
-92	5492	naudasmaks	naudasmaka naudasmakam naudasmaki naudasmakiem naudasmakos naudasmaku naudasmakus naudasmakā
-93	5493	uzcītīgs	uzcītīga uzcītīgai uzcītīgais uzcītīgajiem uzcītīgam uzcītīgas uzcītīgiem uzcītīgo uzcītīgu uzcītīgus uzcītīgā uzcītīgās
-94	5494	lanka	lankai lankam lankas lanku lankā
-95	5495	greznums	greznum greznuma greznumam greznumiem greznumu greznumā
-96	5496	jaks	jak jaki jakiem jaku jakus jakā
-97	5497	tempt	jātempj temp tempa tempi tempu
-98	5498	pucēt	jāpucē pucē pucēja pucējam pucējis pucējot pucēju pucēs pucēts pucētu pucēšana
-99	5499	kabatzaglis	kabatzagle kabatzagli kabatzagļi kabatzagļiem kabatzagļu kabatzagļus
-100	5500	laivinieks	laiviniece laivinieces laivinieka laiviniekam laivinieki laivinieku laiviniekus
+1	5401	aizstāvēties	aizstāvamies aizstāvas aizstāvies aizstāvieties aizstāvos aizstāvoties aizstāvējies aizstāvējos aizstāvējās aizstāvēsies aizstāvēsimies aizstāvēšanās jāaizstāvas neaizstāvas
+2	5402	vaļasprieks	vaļasprieka vaļaspriekam vaļasprieki vaļaspriekiem vaļaspriekos vaļasprieku vaļaspriekus vaļaspriekā
+3	5403	tulpe	tulpes tulpi tulpju tulpēm
+4	5404	saslēgt	jāsaslēdz nesaslēgsim nesaslēgts nesaslēgtu saslēdz saslēdza saslēdzam saslēdziet saslēdzis saslēdzot saslēdzu saslēgs saslēgts saslēgtu saslēgšana saslēgšu
+5	5405	mellene	mellei mellenes melleni mellenēm mellenēs melleus melleņu
+6	5406	astma	astmai astmas astmu astmā
+7	5407	aizmest	aizmests aizmestu aizmet aizmeta aizmetam aizmeti aizmetiet aizmetis aizmetot aizmetu aizmetām aizmetīs aizmetīsim aizmetīšu jāaizmet neaizmestu neaizmeta
+8	5408	aizrautīgs	aizrautīga aizrautīgai aizrautīgais aizrautīgajiem aizrautīgajā aizrautīgajām aizrautīgam aizrautīgas aizrautīgi aizrautīgie aizrautīgiem aizrautīgo aizrautīgos aizrautīgu aizrautīgus aizrautīgā aizrautīgāk aizrautīgākais aizrautīgākajiem aizrautīgākie aizrautīgākos aizrautīgāku aizrautīgākā aizrautīgām aizrautīgās visaizrautīgākie
+9	5409	iesaukt	iesauc iesauca iesaucam iesaucis iesaucu iesaucām iesauks iesaukts iesauktu iesaukšana jāiesauc neiesauc
+10	5410	arlabvakaru	
+11	5411	tuvākais	
+12	5412	bļoda	bļodai bļodas bļodu bļodā bļodām bļodās
+13	5413	eksplozija	eksplozijai eksplozijas eksploziju eksplozijā eksplozijām
+14	5414	sajusties	nesajusties nesajustos nesajutos nesajutās sajustos sajuties sajutos sajutās sajutāties sajutīsies sajutīsieties sajutīsimies sajutīšos sajūtaties sajūties sajūtieties sajūtos sajūtoties
+15	5415	pārvērties	nepārvēršoties pārveros pārvērsies pārvērtos pārvēršanās pārvēršos pārvēršoties
+16	5416	fašists	fašista fašisti fašistiem fašistu fašistus
+17	5417	ripot	ripo ripoju
+18	5418	zemapziņa	zemapziņai zemapziņas zemapziņu zemapziņā zemapziņās
+19	5419	noskaidroties	jānoskaidrojas nenoskaidrosies nenoskaidroties nenoskaidrotos noskaidrojas noskaidrojies noskaidrojoties noskaidrojusies noskaidrojās noskaidrosies noskaidrotos noskaidrošoties
+20	5420	nātrijs	nātrija nātriju
+21	5421	uzkrist	neuzkristu neuzkrita neuzkritīs neuzkrīt neuzkrītošs uzkristu uzkrita uzkriti uzkritis uzkritu uzkritīs uzkrišana uzkrīt uzkrītot uzkrītošs
+22	5422	alksnis	alka alki alksni alksnim alksnu alku alkšņa alkšņi alkšņiem alkšņos alkšņu alkšņus elksi elksni elksnim elksnis
+23	5423	stumbrs	stumbra stumbram stumbri stumbriem stumbros stumbru stumbrus stumbrā
+24	5424	modrība	modrībai modrības modrību modrībā
+25	5425	meteoroloģija	meteoroloģijas meteoroloģiju meteoroloģijā
+26	5426	aizkustināt	aizkustina aizkustinot aizkustināja aizkustināji aizkustinājis aizkustinājusi aizkustinājušas aizkustinājuši aizkustināms aizkustinās aizkustināta aizkustināti aizkustināts aizkustinātu aizkustinātā neaizkustina neaizkustināja neaizkustinājis neaizkustināt neaizkustinātu
+27	5427	nemirstīgs	nemirstīga nemirstīgais nemirstīgajam nemirstīgajiem nemirstīgajā nemirstīgajām nemirstīgam nemirstīgas nemirstīgi nemirstīgie nemirstīgiem nemirstīgo nemirstīgu nemirstīgus nemirstīgā nemirstīgās
+28	5428	sacelšanās	sacelšanos
+29	5429	intervāls	intervāla intervālam intervāli intervāliem intervālos intervālu intervālus intervālā
+30	5430	bojāgājušais	bojāgājušai bojāgājušo
+31	5431	analītisks	analītiska analītiskai analītiskais analītiskajai analītiskajam analītiskajiem analītiskajos analītiskajā analītiskajām analītiskam analītiskas analītiski analītiskie analītiskiem analītisko analītiskos analītisku analītiskus analītiskā analītiskāk analītiskāku analītiskām analītiskās
+32	5432	bruģis	bruģa bruģi bruģim bruģu bruģī
+33	5433	grīnis	grīna grīni grīnim grīnu grīņu
+34	5434	gāzt	
+35	5435	izkustēties	izkustamies izkustas izkusties izkustos izkustoties izkustējas izkustējies izkustējos izkustējusies izkustējušies izkustējušās izkustējās izkustēsies izkustēsimies izkustētos izkustēšanās jāizkustas neizkustamies neizkustas neizkusties neizkustoties neizkustējās neizkustētos
+36	5436	veselums	veseluma veselumam veselumi veselumiem veselumos veselumu veselumus veselumā
+37	5437	skaudība	skaudībai skaudības skaudību skaudībā
+38	5438	aizvainojums	aizvainojuma aizvainojumam aizvainojumi aizvainojumiem aizvainojumos aizvainojumu aizvainojumus aizvainojumā
+39	5439	senatne	senatnei senatnes senatni senatnē
+40	5440	misionārs	misionāra misionāram misionāri misionāriem misionāru misionārus
+41	5441	izziņot	izziņo izziņoja izziņojam izziņojat izziņojiet izziņojis izziņojot izziņoju izziņos izziņosim izziņots izziņotu izziņošana izziņošu jāizziņo neizziņo neizziņojot neizziņosim neizziņot neizziņots
+42	5442	uzprasīties	jāuzprasās neuzprasies neuzprasos neuzprasās neuzprasījies neuzprasīties neuzprasītos neuzprasīšos uzprasies uzprasos uzprasoties uzprasās uzprasījies uzprasījos uzprasījusies uzprasījušies uzprasījāmies uzprasījās uzprasīsies uzprasītos uzprasīšanās
+43	5443	atraut	atraudami atrauj atraujam atraujams atraujat atraujot atrauju atraus atrausi atrausim atrauts atrautu atraušana atrāva atrāvis atrāvu jāatrauj neatrauj neatraujams neatraujiet neatraujot neatrausim neatraut neatrautu neatrāva neatrāvis
+44	5444	skūpstīties	skūpstieties skūpstoties skūpstāmies skūpstāties skūpstījies skūpstījos skūpstījusies skūpstījušies skūpstījāmies skūpstījās skūpstījāties skūpstīsieties skūpstīsimies skūpstīšanās
+45	5445	pašnāvnieks	pašnāvnieka pašnāvniekam pašnāvnieki pašnāvniekiem pašnāvnieku pašnāvniekus
+46	5446	rapsis	rapsi rapsim rapsī rapša rapši rapšiem rapšos rapšu rapšus
+47	5447	dzemdības	
+48	5448	tango	
+49	5449	civils	civil civila civili civiliem civilos civilu civilā
+50	5450	ieprogrammēt	ieprogrammē ieprogrammēja ieprogrammējam ieprogrammēji ieprogrammējiet ieprogrammējis ieprogrammējot ieprogrammēju ieprogrammējusi ieprogrammējuši ieprogrammējāt ieprogrammēs ieprogrammēsi ieprogrammēta ieprogrammētais ieprogrammētas ieprogrammēti ieprogrammētie ieprogrammēto ieprogrammēts ieprogrammētu ieprogrammētā ieprogrammēšanu jāieprogrammē neieprogrammē neieprogrammēja
+51	5451	kamielis	kamieli kamielim kamieļa kamieļi kamieļiem kamieļu kamieļus
+52	5452	pārslēgties	jāpārslēdzas nepārslēdzoties nepārslēdzās nepārslēgsies pārslēdzamies pārslēdzas pārslēdzies pārslēdzieties pārslēdzos pārslēdzoties pārslēdzās pārslēgsies pārslēgsimies pārslēgtos pārslēgšanās
+53	5453	zemeslode	zemeslodei zemeslodes zemeslodi zemeslodē zemeslodēm
+54	5454	pastnieks	pastniece pastniecei pastnieces pastnieci pastniecēm pastnieka pastniekam pastnieki pastniekiem pastnieku pastniekus pastniekā pastnieču
+55	5455	paraudzīties	jāparaugās neparaugies paraudzījies paraudzījos paraudzījāmies paraudzīsimies paraudzītos paraudzīšanās paraudzīšos paraugies paraugieties paraugos paraugoties paraugāmies paraugās
+56	5456	pārvērtēt	jāpārvērtē nepārvērtē nepārvērtējams nepārvērtējiet nepārvērtējot nepārvērtēju nepārvērtēt pārvērtē pārvērtēja pārvērtējam pārvērtējams pārvērtējiet pārvērtējis pārvērtējot pārvērtēju pārvērtējām pārvērtēs pārvērtēsim pārvērtēts pārvērtētu pārvērtēšana
+57	5457	sprints	sprinta sprintam sprinti sprintos sprintu sprintus sprintā
+58	5458	hibrīds	hibrīd hibrīda hibrīdais hibrīdajiem hibrīdam hibrīdas hibrīdi hibrīdie hibrīdiem hibrīdo hibrīdos hibrīdu hibrīdus hibrīdā hibrīdām hibrīdās
+59	5459	rūts	rūti rūtiņa rūtu rūšu
+60	5460	bioloģiski	
+61	5461	simboliski	
+62	5462	lībietis	lībieti lībietim lībieša lībieši lībiešiem lībiešos lībiešu lībiešus
+63	5463	pakāpties	jāpakāpjas nepakāpsies nepakāptos pakāpies pakāpieties pakāpjamies pakāpjas pakāpjos pakāpjoties pakāpos pakāpsies pakāpsimies pakāptos pakāpās pakāpšanās pakāpšos
+64	5464	tonakt	
+65	5465	iebrucējs	iebrucēja iebrucējam iebrucēji iebrucējiem iebrucēju iebrucējus
+66	5466	vecmāte	vecmātei vecmātes vecmāti vecmātē vecmātēm vecmāšu
+67	5467	čakls	visčaklāk visčaklākie visčaklāko visčaklākās čakla čaklai čaklais čaklajai čaklajam čaklajiem čaklajām čaklam čaklas čaklie čakliem čaklo čaklos čaklu čaklus čaklā čaklāk čaklāka čaklākais čaklākajam čaklākajiem čaklākajām čaklākam čaklākas čaklāki čaklākie čaklākiem čaklāko čaklākos čaklāks čaklākā čaklākām čaklākās čaklām čaklās
+68	5468	holokausts	holokausta holokaustam holokaustu holokaustā
+69	5469	aprūpēt	aprūpēja aprūpējam aprūpējams aprūpējat aprūpējis aprūpējot aprūpēju aprūpējusi aprūpējuši aprūpēta aprūpētais aprūpētas aprūpēti aprūpētie aprūpēto aprūpēts aprūpētu aprūpēšana aprūpēšanas aprūpēšanu aprūpēšanā aprūpēšu jāaprūpē neaprūpēs neaprūpētas neaprūpēti
+70	5470	uzdzīt	neuzdzen uzdzen uzdzeniet uzdzenošajiem uzdzenošas uzdzenošiem uzdzenošs uzdzenošus uzdzenošām uzdzina uzdzinis uzdzinusi uzdzīs uzdzītas uzdzīti uzdzītu uzdzītās
+71	5471	apspriesties	apspriedas apspriedies apspriedieties apspriedos apspriedusies apspriedušies apspriedāmies apspriedās apspriedāties apspriedīsies apspriedīsimies apspriedīšos apspriestos apspriešanos apspriešanās apspriežamies apspriežas apspriežos apspriežoties jāapspriežas neapspriežoties
+72	5472	padzerties	jāpadzeras nepadzeroties padzeras padzeries padzerieties padzeros padzeroties padzersies padzersimies padzertos padzeršanās padzeršos padzēries padzēros padzērusies padzērušās padzērās
+73	5473	dārzkopība	dārzkopībai dārzkopības dārzkopību dārzkopībā
+74	5474	cenzūra	cenzūrai cenzūras cenzūru cenzūrā
+75	5475	programmēt	jāprogrammē programmē programmēja programmējam programmējams programmējis programmējot programmēs programmēta programmētas programmēti programmēto programmēts programmētu programmētā programmēšanas programmēšanu programmēšanā
+76	5476	kapitālisms	kapitālisma kapitālismam kapitālismu kapitālismā
+77	5477	nodegt	jānodedz jānodeg nenodeg nenodega nenodegsim nenodegtu nenodegusī nodedzis nodeg nodega nodegot nodegs nodegtu nodegu nodegusi nodegusī nodeguša nodegušais nodegušajai nodegušajiem nodegušajā nodegušajām nodegušas nodeguši nodegušiem nodegušo nodegušos nodegušu nodegušā nodegušās
+78	5478	stiept	jāstiepj nestiept stiepa stiepdams stiepis stiepj stiepjam stiepjams stiepjat stiepjot stiepju stieps stiepsi stiepts stieptu stiepu stiepām stiepšana
+79	5479	norauties	jānoraujas nenoraujas nenoraujoties nenorauties nenorautos noraujas noraujies noraujos noraujoties norausies norausieties norausimies norautos noraušanās norāvies norāvos norāvāmies norāvās
+80	5480	audekls	audekla audeklam audekli audekliem audeklos audeklu audeklus audeklā
+81	5481	neprātīgi	
+82	5482	uzplaukums	uzplaukuma uzplaukumam uzplaukumi uzplaukumu uzplaukumā
+83	5483	kaķītis	kaķīti kaķītim kaķītī kaķīša kaķīši kaķīšiem kaķīšu kaķīšus
+84	5484	trīspadsmit	
+85	5485	dīzeļdegviela	dīzeļdegvielai dīzeļdegvielas dīzeļdegvielu dīzeļdegvielā dīzeļdegvielām
+86	5486	leģions	leģiona leģionam leģioni leģioniem leģionos leģionu leģionus leģionā
+87	5487	piesargāties	jāpiesargājas jāpiesargās nepiesargājies nepiesargās nepiesargāsies piesargas piesargies piesargieties piesargājas piesargājoties piesargājāmies piesargās piesargāsies piesargātos piesargāšanās
+88	5488	dzidrs	dzidra dzidrai dzidrais dzidrajiem dzidrajos dzidrajā dzidrajām dzidras dzidri dzidrie dzidriem dzidro dzidros dzidru dzidrus dzidrā dzidrāk dzidrāki dzidrāks dzidrāku dzidrām dzidrās visdzidrāko visdzidrākās
+89	5489	kaņepes	kaņepju kaņepēm kaņepēs
+90	5490	trops	tropa tropiem tropos tropu tropus
+91	5491	haotisks	haotiska haotiskai haotiskais haotiskajiem haotiskajā haotiskajās haotiskas haotiski haotiskie haotiskiem haotisko haotiskos haotisku haotiskā haotiskāka haotiskākajā haotiskākam haotiskāks haotiskāku haotiskākā haotiskām haotiskās
+92	5492	avs	avi avij avis avju avī avīm
+93	5493	putas	putaam putai
+94	5494	priekšnoteikums	priekšnoteikuma priekšnoteikumam priekšnoteikumi priekšnoteikumiem priekšnoteikumu priekšnoteikumus
+95	5495	paralizēt	neparalizētu paralizē paralizēja paralizējis paralizējot paralizējošs paralizējusi paralizējušas paralizējuši paralizēs paralizēta paralizētas paralizēti paralizētie paralizēto paralizēts paralizētu paralizētā paralizēšanu
+96	5496	lielpilsēta	lielpilsētai lielpilsētas lielpilsētu lielpilsētā lielpilsētām lielpilsētās
+97	5497	sārts	sārta sārtais sārtajam sārtajiem sārtajos sārtajā sārtajās sārtas sārtie sārtiem sārto sārtos sārtu sārtus sārtā sārtākas sārtāki sārtāks sārtāku sārtām sārtās vissārtāk
+98	5498	krāteris	krātera krāteri krāteriem krāterim krāteros krāteru krāterus krāterī
+99	5499	tuberkuloze	tuberkulozes tuberkulozi tuberkulozē
+100	5500	zilums	zilum ziluma zilumam zilumi zilumiem zilumos zilumu zilumus zilumā

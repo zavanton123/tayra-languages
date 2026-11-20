@@ -1,0 +1,100 @@
+1	8801	strādīgs	strādīga strādīgai strādīgais strādīgajai strādīgajiem strādīgajām strādīgam strādīgas strādīgie strādīgiem strādīgo strādīgos strādīgu strādīgus strādīgā strādīgākam strādīgāki strādīgākie strādīgām
+2	8802	ienākties	ienācies ienācās ienākas ienākos ienāksies ienāktos ienākusies ienākušies ienākušās ienākšanās neienāksies neienāktos
+3	8803	slēpotāja	slēpotājai slēpotājas slēpotāju slēpotājām
+4	8804	gastronomija	gastronomijai gastronomijas gastronomiju gastronomijā
+5	8805	izbērt	izber izberiet izberot izberu izbēra izbēri izbēris izbērts izbērtu izbēršana izbēršu jāizber
+6	8806	nokaitēt	nenokaitē nokaitējis nokaitējusi nokaitēta nokaitētas nokaitēto nokaitēts nokaitētu nokaitētā
+7	8807	drakons	drakon drakona drakoni drakoniem drakonu drakonus
+8	8808	sprogains	sprogainais sprogainajiem sprogainajā sprogainajām sprogainas sprogaini sprogainiem sprogaino sprogainu sprogainā
+9	8809	uzkārt	uzkar uzkariet uzkāra uzkāris uzkārs uzkārts uzkārtu uzkāru uzkārām uzkāršu
+10	8810	uztetovēt	uztetovē uztetovēja uztetovējis uztetovēju uztetovējusi uztetovējuši uztetovēta uztetovēts
+11	8811	svētulis	svētuli svētuļi svētuļiem svētuļu
+12	8812	elektrolīts	elektrolīta elektrolītam elektrolīti elektrolītiem elektrolītu elektrolītus elektrolītā
+13	8813	dālija	dālijas dāliju dālijām
+14	8814	florists	florista floristam floristi floristiem floristu floristus
+15	8815	šujmašīna	šujmašīnai šujmašīnas šujmašīnu šujmašīnām
+16	8816	atloks	atloka atloki atlokiem atloku
+17	8817	sprausla	sprauslas sprauslu sprauslā sprauslām
+18	8818	slapjums	slapjuma slapjumam slapjumiem slapjumu slapjumā
+19	8819	sazīmēt	nesazīmē nesazīmēju sazīmē sazīmēdams sazīmēja sazīmējis sazīmējot sazīmēju sazīmējām sazīmēs sazīmēsim sazīmēts sazīmētu
+20	8820	izmirkt	izmircis izmirka izmirks izmirksi izmirksim izmirkst izmirkstam izmirksti izmirkstot izmirkts izmirktu izmirkšana neizmirkst neizmirkt neizmirktu
+21	8821	paradīties	neparadas neparadās neparadīsies paradas parados paradās paradījās paradīsies paradītos paradīšanās
+22	8822	asiņaini	
+23	8823	cukurvate	cukurvates cukurvati cukurvatē
+24	8824	nokopt	jānokopj nokopa nokopiet nokopj nokopjam nokops nokopsim nokopts nokoptu nokopu nokopām nokopšot nokopšu
+25	8825	akadēmiski	
+26	8826	vienādība	vienādības vienādību vienādībās
+27	8827	transatlantisks	transatlantiskais transatlantiskajai transatlantiskajiem transatlantiskajā transatlantiskajām transatlantisko transatlantiskos transatlantisku transatlantiskā transatlantiskās
+28	8828	filosofs	filosofa filosofam filosofi filosofiem filosofos filosofu filosofus
+29	8829	pelēcīgs	pelēcīga pelēcīgais pelēcīgajai pelēcīgajiem pelēcīgajā pelēcīgajām pelēcīgajās pelēcīgas pelēcīgiem pelēcīgo pelēcīgos pelēcīgu pelēcīgus pelēcīgā pelēcīgākas pelēcīgāki pelēcīgāks pelēcīgākā pelēcīgām pelēcīgās
+30	8830	pļaujmašīna	pļaujmašīnai pļaujmašīnas pļaujmašīnu pļaujmašīnām
+31	8831	saksofonists	saksofonista saksofonistam saksofonisti saksofonistiem saksofonistu saksofonistus
+32	8832	padarboties	jāpadarbojas padarbojamies padarbojas padarbojies padarbojieties padarbojos padarbojoties padarbojušies padarbojāmies padarbojās padarbosimies padarbotos padarbošanās
+33	8833	kumode	kumodei kumodes kumodi kumodē kumodēm kumožu
+34	8834	barters	bartera barteram barteri barteru barterā
+35	8835	sakauties	nesakaujas nesakaujieties sakaujas sakaujies sakausies sakausimies sakautos sakaušanās sakāvies sakāvos sakāvās
+36	8836	nogludināt	jānogludina nogludina nogludiniet nogludinot nogludināja nogludinās nogludināta nogludinātais nogludinātas nogludināti nogludināto nogludināts nogludinātu nogludināšanas
+37	8837	izbīties	izbijies izbijos izbijās izbīsies izbīstas izbīšanās neizbijās neizbīties neizbīšos
+38	8838	ziloņkauls	ziloņkaula
+39	8839	ejakulācija	ejakulācijas ejakulāciju
+40	8840	leikēmija	leikēmijas leikēmiju
+41	8841	piedirst	jāpiedirš piedirs piedirsa piedirsi piedirsis piedirsts piedirsu piedirš piediršana
+42	8842	anagramma	anagrammas anagrammu anagrammā
+43	8843	kātiņš	kātiņa kātiņi kātiņiem kātiņu kātiņus
+44	8844	šahists	šahista šahistam šahisti šahistiem šahistu šahistus
+45	8845	kvass	kvasa kvasam kvasu kvasā
+46	8846	pienotava	pienotavai pienotavas pienotavu pienotavā pienotavās
+47	8847	vebinārs	vebināra vebināram vebināri vebināriem vebināros vebināru vebinārus vebinārā
+48	8848	socioloģisks	socioloģiska socioloģiskais socioloģiskajai socioloģiskajiem socioloģiskajā socioloģiskajās socioloģiskas socioloģiski socioloģiskie socioloģiskiem socioloģisko socioloģisku socioloģiskā socioloģiskām socioloģiskās
+49	8849	summēt	jāsummē summē summēja summējam summējiet summējot summēs summēsim summētais summētas summēti summēto summēts summētu summētā summēšana summēšanas summēšanu
+50	8850	rādijs	rādij rādija
+51	8851	kalvis	kalva kalvi kalvim kalvja kalvju kalvu
+52	8852	utopija	utopijas utopiju utopijā utopijām
+53	8853	nokristīt	nenokristu nokrista nokristīja nokristījis nokristīju nokristījuši nokristījām nokristīs nokristīsim nokristīta nokristīti nokristīts nokristītu
+54	8854	caurvējš	caurvēja caurvēji caurvējos caurvēju caurvējus caurvējā
+55	8855	teikties	teicas teicies teicās teiksies teikusies teikušies
+56	8856	pārbaudīties	jāpārbaudas jāpārbaudās nepārbaudītos pārbaudies pārbaudoties pārbaudās pārbaudījies pārbaudījušies pārbaudījušās pārbaudījās pārbaudītos
+57	8857	bešā	
+58	8858	lāsteka	lāstekai lāstekas lāsteku lāstekām lāstekās
+59	8859	zvērīgs	viszvērīgākās zvērīga zvērīgai zvērīgajiem zvērīgas zvērīgi zvērīgiem zvērīgo zvērīgu zvērīgā zvērīgāk zvērīgāka zvērīgākiem zvērīgām zvērīgās
+60	8860	dūkt	dūc dūca dūci dūcis dūcot dūktu dūkšana jādūc
+61	8861	aizdarīt	aizdara aizdari aizdaru aizdarīja aizdarījis aizdarījuši aizdarītas aizdarīti aizdarīts aizdarītu aizdarītām aizdarīšu jāaizdara neaizdara neaizdarītas
+62	8862	krimināltiesības	krimināltiesību
+63	8863	sabiedēt	nesabiedēja nesabiedējot nesabiedētu sabiedē sabiedēja sabiedēji sabiedējis sabiedējot sabiedēju sabiedēts
+64	8864	arties	aras
+65	8865	samirt	samira samiru
+66	8866	pārpirkt	jāpārpērk pārpircis pārpirka pārpirks pārpirkta pārpirktas pārpirkti pārpirktiem pārpirkts pārpirktu pārpirkusi pārpirkušas pārpirkuši pārpirkām pārpirkšana pārpērk pārpērkat pārpērkot
+67	8867	ekstremitāte	ekstremitātes ekstremitāti ekstremitātēm ekstremitātēs ekstremitāšu
+68	8868	truli	
+69	8869	apdziedāt	apdzied apdziedams apdziedat apdziedot apdziedāja apdziedājis apdziedājuši apdziedājām apdziedājāt apdziedās apdziedāta apdziedātais apdziedātajiem apdziedātajā apdziedātas apdziedāti apdziedātie apdziedāto apdziedātos apdziedāts apdziedātā apdziedātās apdziedāšana
+70	8870	izsīkt	izsīcis izsīks izsīktu izsīkšana neizsīks neizsīktu
+71	8871	pucēties	jāpucējas nepucējas nepucējies nepucējos nepucēties pucējamies pucējas pucējies pucējos pucējās pucēsies pucēšanās
+72	8872	kolagēns	kolagēna kolagēnam kolagēnu
+73	8873	nepareizība	nepareizībai nepareizības nepareizību nepareizībā nepareizībām
+74	8874	imperiāliste	imperiālie imperiālist imperiālista imperiālisti imperiālistiem imperiālistu
+75	8875	vesterns	vesterna vesternam vesterni vesternu vesternus vesternā
+76	8876	sacept	sacep sacepam sacepiet sacepis sacepot saceps sacepta saceptas sacepti saceptiem sacepto saceptos sacepts saceptu saceptām saceptās sacepu sacepusi sacepušas sacepuši sacepām
+77	8877	liecināties	neliecinās
+78	8878	pietempties	nepietempjas pietempies pietempos pietempšos
+79	8879	apkakāties	apkakājas apkakājies apkakājusies apkakājās neapkakājos
+80	8880	tolerants	toleranta tolerantais tolerantam tolerantas tolerantie tolerantiem toleranto tolerantu tolerantā tolerantāk tolerantāka tolerantāki tolerantākiem tolerantāks tolerantāku tolerantās vistolerantāk vistolerantākie vistolerantākā
+81	8881	krāsniņa	krāsniņai krāsniņas krāsniņu krāsniņā krāsniņām
+82	8882	pārnēsāt	jāpārnēsā nepārnēsā pārnēsā pārnēsāja pārnēsājam pārnēsājams pārnēsājot pārnēsās pārnēsāts pārnēsāšana
+83	8883	zīst	zīda zīdi zīdis zīdošām zīdu zīduši zīstas zīšana zīšanas zīšanu zīž zīžot zīžu
+84	8884	pārmainīt	nepārmainīji nepārmainīs nepārmainīt pārmaina pārmainiet pārmainot pārmainošā pārmainu pārmainām pārmainās pārmainīja pārmainījis pārmainīju pārmainīs pārmainīsi pārmainīta pārmainītais pārmainītas pārmainītiem pārmainīts pārmainītu pārmainīšana
+85	8885	juaņa	juaņai juaņas juaņu juaņām juaņās
+86	8886	cepināt	cepina cepinošā cepinu cepināja cepinājusi cepinājušies cepināmie cepinās cepinātam cepināties cepinātu cepināšanai cepināšanas cepināšanās cepināšot necepina necepināja
+87	8887	malārija	malārijai malārijas malāriju
+88	8888	salāpīt	jāsalāpa nesalāpīsi nesalāpīšu salāpa salāpi salāpot salāpīja salāpīju salāpījām salāpīs salāpīsim salāpīts
+89	8889	lipīds	lipīdu
+90	8890	enzīms	enzīma enzīmi enzīmiem enzīmu enzīmus
+91	8891	kabatlakatiņš	kabatlakatiņa kabatlakatiņi kabatlakatiņiem kabatlakatiņu kabatlakatiņus kabatlakatiņā
+92	8892	sagaršot	nesagaršo sagaršojam sagaršojama sagaršojami sagaršojams sagaršojis sagaršos sagaršotu
+93	8893	akrs	akra akri akriem akru akrus akrā
+94	8894	iztaisnoties	iztaisnojamies iztaisnojas iztaisnojies iztaisnojušies iztaisnojušās iztaisnojās iztaisnosies iztaisnotos
+95	8895	sarasties	nesacenstos nesaradīsies sacenstos saradies saradusies saradušies saradušās saradās saradīsies sarodamies sarodas sarodoties
+96	8896	pārcilāt	jāpārcilā nepārcilājot pārcilā pārcilāja pārcilājam pārcilājiet pārcilājot pārcilāju pārcilājusi pārcilājām pārcilāsi pārcilāta pārcilātas pārcilāti pārcilāts pārcilātu pārcilāšana pārcilāšanas pārcilāšanu
+97	8897	pakaļējs	pakaļējai pakaļējam pakaļējie pakaļējiem pakaļējo pakaļējos pakaļējā pakaļējām pakaļējās
+98	8898	valdīties	jāvaldās valdas valdies valdos valdījos
+99	8899	ierauties	ieraujamies ieraujas ieraujos ieraujoties ierausies ierausimies ierautos ieraušanās ierāvies ierāvos ierāvās neierautos
+100	8900	iztērēties	iztērējas iztērējies iztērējos iztērējusies iztērējušies iztērējās iztērēsies iztērētos neiztērējas neiztērējies neiztērētos

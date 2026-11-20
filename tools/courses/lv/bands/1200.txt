@@ -3,98 +3,98 @@
 3	1103	lidojums	lidojuma lidojumam lidojumi lidojumiem lidojumos lidojumu lidojumus lidojumā
 4	1104	čempions	čempion čempiona čempionam čempione čempioni čempioniem čempionos čempionu čempionus
 5	1105	pakaļ	
-6	1106	apgūt	apguva apguvi apguvis apguvu apguvām apguvāt apgūs apgūsi apgūsiet apgūsim apgūsit apgūst apgūstam apgūstams apgūstat apgūsti apgūstiet apgūstot apgūstu apgūts apgūtu apgūšana apgūšot apgūšu jāapgūst neapgūt
-7	1107	vēzis	vēi vēis vēzi vēzim vēzī vēža vēži vēžiem vēžos vēžu vēžus
+6	1106	apgūt	apguva apguvi apguvis apguvu apguvām apguvāt apgūs apgūsi apgūsiet apgūsim apgūsit apgūst apgūstam apgūstams apgūstat apgūsti apgūstiet apgūstot apgūstu apgūts apgūtu apgūšana apgūšot apgūšu jāapgūst neapguva neapguvu neapguvām neapgūs neapgūsi neapgūsim neapgūst neapgūstam neapgūstams neapgūstot neapgūt neapgūts neapgūtu neapgūšana
+7	1107	vēzis	vēi vēis vēza vēzi vēzim vēzī vēža vēži vēžiem vēžos vēžu vēžus
 8	1108	hokejs	hokej hokeja hokejam hokeju hokejā
 9	1109	muļķis	muļķa muļķe muļķei muļķes muļķi muļķiem muļķim muļķos muļķu muļķus muļķēm muļķī
-10	1110	izslēgt	izslēdz izslēdza izslēdzam izslēdzams izslēdzat izslēdzi izslēdziet izslēdzis izslēdzot izslēdzošs izslēdzu izslēdzām izslēdzāt izslēgs izslēgsi izslēgsiet izslēgsim izslēgts izslēgtu izslēgšana izslēgšu jāizslēdz neizslēgt
-11	1111	izklausīties	izklausās
+10	1110	izslēgt	izslēdz izslēdza izslēdzam izslēdzams izslēdzat izslēdzi izslēdziet izslēdzis izslēdzot izslēdzošs izslēdzu izslēdzām izslēdzāt izslēgs izslēgsi izslēgsiet izslēgsim izslēgts izslēgtu izslēgšana izslēgšu jāizslēdz neizslēdz neizslēdza neizslēdzam neizslēdzams neizslēdzat neizslēdziet neizslēdzot neizslēdzu neizslēgs neizslēgsim neizslēgt neizslēgts neizslēgtu neizslēgšana neizslēgšu
+11	1111	izklausīties	izklausas izklausies izklausos izklausoties izklausās izklausāties izklausījas izklausījies izklausījusies izklausījušās izklausījās izklausīsies izklausītos izklausīšos jāizklausās neizklausas neizklausies neizklausos neizklausoties neizklausās neizklausāties neizklausījies neizklausījās neizklausīsies neizklausīties neizklausītos
 12	1112	valdīt	jāvalda nevaldīt valda valdi valdiet valdot valdu valdām valdāms valdāt valdīdams valdīja valdījis valdīju valdījāt valdīs valdīsi valdīsim valdīts valdītu valdīšana valdīšot valdīšu
 13	1113	priekšnieks	priekšniek priekšnieka priekšniekam priekšnieki priekšniekiem priekšniekos priekšnieku priekšniekus priekšniekā
-14	1114	medicīna	medicīnai medicīnas medicīnu medicīnā
-15	1115	skatīt	jāskata neskatīt skata skati skatiet skatot skatu skatām skatāmais skatāms skatāt skatīdams skatīja skatījis skatīju skatījām skatījāt skatīs skatīsiet skatīsim skatītais skatīts skatītu skatīšana skatīšanai skatīšanas skatīšanos skatīšanu skatīšanā skatīšot skatīšu
-16	1116	trūkt	netrūkt trūcis trūka trūks trūkst trūkstot trūkstošais trūkstošs trūktu trūkšana trūkšot
+14	1114	medicīna	medicīnai medicīnas medicīnu medicīnā medicīnās
+15	1115	skatīt	jāskata neskati neskatīt skata skati skatiet skatot skatu skatām skatāma skatāmas skatāmi skatāmo skatāms skatāmu skatāmā skatāmās skatīja skatījis skatīju skatījusi skatījuši skatījām skatīs skatīsim skatīta skatītajiem skatītas skatīti skatīto skatītos skatīts skatītu skatīšana skatīšanai skatīšanas skatīšanos skatīšanu skatīšu
+16	1116	trūkt	netrūcis netrūka netrūks netrūkst netrūkstot netrūkt netrūktu netrūkšot trūcis trūka trūks trūkst trūkstot trūkstoša trūkstošais trūkstošajiem trūkstošajos trūkstošajā trūkstošajām trūkstošas trūkstoši trūkstošie trūkstošiem trūkstošo trūkstošos trūkstošs trūkstošu trūkstošus trūkstošā trūkstošām trūkstošās trūktu trūkusi trūkušas trūkuši trūkušu trūkušās trūkšana trūkšot
 17	1117	dažreiz	
-18	1118	iedomāties	iedomājas iedomājieties iedomājās
-19	1119	kompānija	kompāniju
+18	1118	iedomāties	iedomājamies iedomājas iedomājaties iedomājies iedomājieties iedomājos iedomājoties iedomājusies iedomājušies iedomājušās iedomājāmies iedomājās iedomājāties iedomāsies iedomāsimies iedomātos iedomāšanās iedomāšos jāiedomājas neiedomājamies neiedomājas neiedomājies neiedomājieties neiedomājos neiedomājoties neiedomājāmies neiedomājās neiedomāsies neiedomāsieties neiedomāsimies neiedomāties neiedomātos
+19	1119	kompānija	kompānijai kompānijas kompāniju kompānijā kompānijām kompānijās
 20	1120	koris	kora kori koriem korim koros koru korus korī
 21	1121	fināls	fināla finālam fināli fināliem finālos finālu finālus finālā
 22	1122	ceturtais	ceturta ceturtai ceturtajai ceturtajam ceturtajiem ceturtajos ceturtajā ceturtajām ceturtajās ceturtam ceturtas ceturtie ceturto ceturtos ceturtu ceturtā ceturtās
-23	1123	pagātne	pagāti pagātnei pagātnes pagātni pagātnē
-24	1124	pasaka	pasakai pasakam pasakas pasakos pasaku pasakus pasakā pasakām pasakās
+23	1123	pagātne	pagāti pagātnei pagātnes pagātni pagātnē pagātnēm
+24	1124	pasaka	pasakai pasakam pasakas pasaku pasakus pasakā pasakām pasakās
 25	1125	versija	versijai versijam versijas versiju versijā versijām versijās
-26	1126	dīvains	dīvaina dīvainai dīvainais dīvainajai dīvainajam dīvainajiem dīvainajos dīvainajā dīvainajām dīvainajās dīvainam dīvainas dīvainie dīvainiem dīvaino dīvainos dīvainu dīvainus dīvainā dīvaināks dīvainām dīvainās visdīvainākais
-27	1127	slims	slima slimai slimais slimajai slimajam slimajiem slimajos slimajā slimajām slimajās slimam slimas slimi slimie slimiem slimo slimos slimu slimus slimā slimāks slimām slimās visslimākais
+26	1126	dīvains	dīvaina dīvainai dīvainais dīvainajai dīvainajiem dīvainajā dīvainajām dīvainajās dīvainam dīvainas dīvainie dīvainiem dīvaino dīvainos dīvainu dīvainus dīvainā dīvaināk dīvaināka dīvainākais dīvainākajiem dīvainākajām dīvainākas dīvaināki dīvainākie dīvaināko dīvaināks dīvaināku dīvainākā dīvainākās dīvainām dīvainās visdīvaināk visdīvainākais visdīvainākajiem visdīvainākajās visdīvainākie visdīvainākā visdīvainākās
+27	1127	slims	slima slimai slimais slimajai slimajam slimajiem slimajos slimajā slimajām slimajās slimam slimas slimi slimie slimiem slimo slimos slimu slimus slimā slimāk slimāka slimākais slimāki slimāko slimākos slimāks slimāku slimām slimās visslimākais
 28	1128	zemnieks	zemniece zemniecei zemnieces zemnieci zemniecēm zemniek zemnieka zemniekam zemnieki zemniekiem zemniekos zemnieku zemniekus zemniekā zemnieču
 29	1129	žurnāls	žurnāla žurnālam žurnāli žurnāliem žurnālos žurnālu žurnālus žurnālā
-30	1130	soda	sodai sodas sodu sodā
+30	1130	soda	sodai sodas sodu sodā sodām sodās
 31	1131	sāpēt	jāsāp nesāpēt sāp sāpam sāpot sāpošs sāpēja sāpējis sāpēs sāpētu sāpēšana sāpēšot
-32	1132	izdevums	izdevumi izdevumiem izdevumus
+32	1132	izdevums	izdevuma izdevumam izdevumi izdevumiem izdevumos izdevumu izdevumus izdevumā
 33	1133	lācis	lāci lācim lācī lāi lāča lāči lāčiem lāčos lāču lāčus
 34	1134	tēja	tējai tējas tēju tējā tējām tējās
-35	1135	gatavot	gatavo gatavodams gatavoja gatavojam gatavojams gatavojat gatavoji gatavojiet gatavojis gatavojot gatavoju gatavojām gatavojāt gatavos gatavosi gatavosiet gatavosim gatavotais gatavots gatavotu gatavošana gatavošanai gatavošanas gatavošanos gatavošanu gatavošanā gatavošot gatavošu jāgatavo negatavot
+35	1135	gatavot	gatavo gatavoja gatavojam gatavojat gatavoji gatavojiet gatavojis gatavojot gatavoju gatavojusi gatavojuši gatavojām gatavos gatavosi gatavosim gatavota gatavotais gatavotas gatavoti gatavotie gatavotiem gatavoto gatavotos gatavots gatavotu gatavotus gatavotā gatavotās gatavošana gatavošanai gatavošanas gatavošanos gatavošanu gatavošanā gatavošanās gatavošu jāgatavo negatavo negatavoju
 36	1136	dizains	dizaina dizainam dizaini dizainiem dizainos dizainu dizainus dizainā
 37	1137	mācīt	jāmāca mâcît māca māci māciet mācot mācu mācām mācāms mācāt mācīdams mācīja mācīji mācījis mācīju mācījām mācījāt mācīs mācīsi mācīsiet mācīsim mācīts mācītu mācīšana mācīšot mācīšu nemācīt
 38	1138	žurnālists	žurnālist žurnālista žurnālistam žurnāliste žurnālistei žurnālistes žurnālisti žurnālistiem žurnālistos žurnālistu žurnālistus žurnālistēm
-39	1139	galīgs	galīga galīgai galīgais galīgajai galīgajam galīgajiem galīgajos galīgajā galīgajām galīgam galīgas galīgi galīgie galīgiem galīgo galīgos galīgu galīgus galīgā galīgām galīgās
+39	1139	galīgs	galīga galīgai galīgais galīgajai galīgajam galīgajiem galīgajos galīgajā galīgajām galīgam galīgas galīgi galīgie galīgiem galīgo galīgos galīgu galīgus galīgā galīgākais galīgākajā galīgākie galīgākā galīgākās galīgām galīgās
 40	1140	pasažieris	pasažiera pasažiere pasažierei pasažieres pasažieri pasažieriem pasažierim pasažieros pasažieru pasažierus pasažierēm pasažierī
-41	1141	saturs	satura saturu
+41	1141	saturs	satura saturam saturi saturiem saturu saturus saturā
 42	1142	vāci	vāciem vācos vācu vācus vāu
 43	1143	jautri	
 44	1144	saimniecība	saimniecībai saimniecības saimniecību saimniecībā saimniecībām saimniecībās
 45	1145	dzinējs	dzinēj dzinēja dzinējam dzinēji dzinējiem dzinējos dzinēju dzinējus dzinējā
 46	1146	funkcija	funkcijai funkcijam funkcijas funkciju funkcijā funkcijām funkcijās
-47	1147	iedzert	iedzer iedzeram iedzeriet iedzerot iedzers iedzersi iedzersiet iedzersim iedzertais iedzerts iedzertu iedzeru iedzeršana iedzeršanai iedzeršanas iedzeršanu iedzeršanā iedzeršot iedzeršu iedzēra iedzēri iedzēris iedzēru iedzērušais iedzērām iedzērāt jāiedzer neiedzert
-48	1148	mirst	jāmirst mirsi mirstam mirstama mirstamam mirstamā mirstat mirsti mirstiet mirstot mirstošais mirstošs mirstu miršana miršanai miršanas miršanu nemirsi nemirst nemirstam nemirstat nemirsti nemirstiet nemirstot nemirstošais nemirstu
+47	1147	iedzert	iedzer iedzeram iedzeriet iedzerot iedzers iedzersi iedzersiet iedzersim iedzerta iedzertais iedzerts iedzertu iedzertā iedzeru iedzeršana iedzeršanai iedzeršanas iedzeršanu iedzeršanām iedzeršu iedzēra iedzēri iedzēris iedzēru iedzērusi iedzēruša iedzērušais iedzērušam iedzēruši iedzērušiem iedzērušu iedzērušā iedzērām iedzērāt jāiedzer neiedzer neiedzert neiedzertu neiedzēris
+48	1148	mirst	jāmirst mirsi mirstam mirstamam mirstamā mirstat mirsti mirstiet mirsto mirstot mirstoša mirstošais mirstošajai mirstošajam mirstošajiem mirstoši mirstošie mirstošiem mirstošo mirstošos mirstošs mirstošu mirstošus mirstošā mirstošās mirstu miršana miršanai miršanas miršanu nemirsi nemirst nemirstam nemirsti nemirstiet nemirstot nemirstošais nemirstošiem nemirstu
 49	1149	nolemt	nolēma nolēmis nolēmusi nolēmām
 50	1150	restorāns	restorāna restorānam restorāni restorāniem restorānos restorānu restorānus restorānā
-51	1151	viegls	viegla vieglai vieglais vieglajai vieglajam vieglajiem vieglajos vieglajā vieglajām vieglajās vieglam vieglas vieglie viegliem vieglo vieglos vieglu vieglus vieglā vieglāks vieglām vieglās visvieglākais
-52	1152	pretējs	pretēja pretējai pretējais pretējam pretējas pretēji pretējie pretējiem pretējo pretējos pretēju pretējus pretējā pretējām pretējās
+51	1151	viegls	viegla vieglai vieglais vieglajai vieglajam vieglajiem vieglajā vieglajām vieglam vieglas vieglie viegliem vieglo vieglos vieglu vieglus vieglā vieglāk vieglāka vieglākai vieglākais vieglākajiem vieglākajām vieglākam vieglākas vieglāki vieglākiem vieglāko vieglākos vieglāks vieglāku vieglākus vieglākā vieglākās vieglām vieglās visvieglāk visvieglākais visvieglākā
+52	1152	pretējs	pretēja pretējai pretējais pretējam pretējas pretēji pretējie pretējiem pretējo pretējos pretēju pretējus pretējā pretējāku pretējām pretējās
 53	1153	baudīt	bauda baudai baudas baudi baudiet baudot baudu baudā baudām baudāms baudās baudāt baudīdams baudīja baudīji baudījis baudīju baudījām baudījāt baudīs baudīsi baudīsiet baudīsim baudīts baudītu baudīšana baudīšot baudīšu jābauda nebaudīt
 54	1154	lauksaimniecība	lauksaimniecībai lauksaimniecības lauksaimniecību lauksaimniecībā lauksaimniecībām lauksaimniecībās
 55	1155	ciems	ciem ciema ciemam ciemi ciemiem ciemos ciemu ciemus ciemā
 56	1156	deviņi	deviņas deviņiem deviņos deviņu deviņus deviņām deviņās
 57	1157	smieklīgi	
-58	1158	tiešs	tieša tiešai tiešais tiešajai tiešajam tiešajiem tiešajos tiešajā tiešajām tiešajās tiešam tiešas tiešie tiešiem tiešo tiešos tiešu tiešus tiešā tiešāks tiešās vistiešākais
-59	1159	likme	likmes likmi likmju
-60	1160	kaste	kastei kastes kasti kastu kastē kastēm kastēs
-61	1161	zaudējums	zaudējumi zaudējumiem zaudējumus
-62	1162	sagaidīt	sagaida
-63	1163	skatītājs	skatītājam skatītāji skatītājiem skatītāju
+58	1158	tiešs	tieša tiešai tiešais tiešajai tiešajam tiešajiem tiešajos tiešajā tiešajām tiešajās tiešam tiešas tiešie tiešiem tiešo tiešos tiešu tiešus tiešā tiešāk tiešāka tiešākais tiešākajā tiešākajām tiešākas tiešāki tiešākos tiešāks tiešāku tiešākā tiešākām tiešās vistiešāk vistiešākais vistiešākajā vistiešākajās vistiešākie vistiešāko vistiešākā
+59	1159	likme	likmei likmes likmi likmju likmē likmēm likmēs
+60	1160	kaste	kastei kastes kasti kastu kastē kastēm kastēs kašu
+61	1161	zaudējums	zaudējuma zaudējumam zaudējumi zaudējumiem zaudējumos zaudējumu zaudējumus zaudējumā
+62	1162	sagaidīt	jāsagaida nesagaida nesagaidot nesagaidīja nesagaidījis nesagaidīju nesagaidīs nesagaidīsi nesagaidīsiet nesagaidīsim nesagaidīt nesagaidīšu sagaida sagaidi sagaidiet sagaidot sagaidu sagaidām sagaidāms sagaidāt sagaidīja sagaidīji sagaidījis sagaidīju sagaidījusi sagaidījuši sagaidījām sagaidījāt sagaidīs sagaidīsi sagaidīsim sagaidīta sagaidīti sagaidīts sagaidītu sagaidīšana sagaidīšanas sagaidīšanu sagaidīšu
+63	1163	skatītājs	skatītāja skatītājam skatītāji skatītājiem skatītājos skatītāju skatītājus skatītājā
 64	1164	sākotnējs	sākotnēja sākotnējai sākotnējais sākotnējajiem sākotnējam sākotnējas sākotnēji sākotnējie sākotnējiem sākotnējo sākotnējos sākotnēju sākotnējus sākotnējā sākotnējām sākotnējās
-65	1165	mazulis	mazuli mazulim mazulī mazuļa mazuļi mazuļiem mazuļos mazuļu mazuļus
+65	1165	mazulis	mazula mazuli mazuliem mazulim mazulī mazuļa mazuļi mazuļiem mazuļos mazuļu mazuļus
 66	1166	čau	
 67	1167	ārzemes	ārzemju ārzemēm ārzemēs
-68	1168	liktenis	likteni liktenim liktenī likteņa likteņi likteņiem likteņos likteņu likteņus
-69	1169	reklāma	reklāmas
-70	1170	cieņa	cieņai cieņas cieņu cieņā
+68	1168	liktenis	liktena likteni liktenim liktenī likteņa likteņi likteņiem likteņos likteņu likteņus
+69	1169	reklāma	reklāmai reklāmas reklāmu reklāmā reklāmām reklāmās
+70	1170	cieņa	cieņai cieņas cieņu cieņā cieņās
 71	1171	statuss	status statusa statusam statusi statusiem statusos statusu statusus statusā
-72	1172	šovs	šova šovu šovā
-73	1173	medijs	mediji mediju
-74	1174	festivāls	festivāla
+72	1172	šovs	šova šovam šovi šoviem šovos šovu šovus šovā
+73	1173	medijs	medija medijam mediji medijiem medijos mediju medijus medijā
+74	1174	festivāls	festivāla festivālam festivāli festivāliem festivālos festivālu festivālus festivālā
 75	1175	datums	datum datuma datumam datumi datumiem datumos datumu datumus datumā
-76	1176	apvienot	apvieno apvienoja apvienojam apvienojams apvienojiet apvienojis apvienojot apvienojošais apvienoju apvienojām apvienojāt apvienos apvienosim apvienotais apvienots apvienotu apvienošana apvienošanai apvienošanas apvienošanos apvienošanu apvienošanā apvienošanās apvienošu jāapvieno neapvienot
-77	1177	konference	konferenci konferencē
+76	1176	apvienot	apvieno apvienoja apvienojam apvienojiet apvienojis apvienojot apvienoju apvienojusi apvienojušas apvienojuši apvienojušās apvienos apvienosim apvienota apvienotais apvienotajai apvienotajam apvienotajiem apvienotajos apvienotajā apvienotas apvienoti apvienotie apvienoto apvienotos apvienots apvienotu apvienotā apvienotās apvienošana apvienošanai apvienošanas apvienošanos apvienošanu apvienošanā apvienošanās jāapvieno neapvieno neapvienos
+77	1177	konference	konferencei konferences konferenci konferencē konferencēm konferencēs konferenču
 78	1178	osta	ostai ostas ostu ostā ostām ostās
 79	1179	laulība	laulībai laulības laulību laulībā laulībām laulībās
 80	1180	aprūpe	aprūpei aprūpes aprūpi aprūpē aprūpēs
-81	1181	reāls	reāla reālai reālais reālajai reālajam reālajiem reālajos reālajā reālajām reālajās reālam reālas reālie reāliem reālo reālos reālu reālus reālā reālāks reālām reālās visreālākais
+81	1181	reāls	reāla reālai reālais reālajai reālajam reālajiem reālajos reālajā reālajām reālajās reālam reālas reālie reāliem reālo reālos reālu reālus reālā reālāk reālāka reālākais reālākajiem reālāki reālākie reālāko reālākos reālāks reālāku reālākā reālākām reālākās reālām reālās visreālāk visreālākais visreālākajiem visreālākā visreālākās
 82	1182	būtiski	
-83	1183	pudele	butele pudelei pudeles pudeli pudelē pudelēm pudelēs pudelīte pudeļu
-84	1184	tikties	tiksies tikās
+83	1183	pudele	budeles budeli budelē butele buteles buteli pudelei pudeles pudeli pudelē pudelēm pudelēs pudelīte pudeļu
+84	1184	tikties	jātiekas netiecas netiecies netiekamies netiekas netiekos netiekoties netikos netiksies netiksieties netiksimies netikties netiktos netikāmies netikās netikāties netikšos ticies tiecas tiecies tiecieties tiekamies tiekas tiekaties tiekos tiekoties tikies tikos tiksies tiksieties tiksimies tiksities tiktos tikāmies tikās tikāties tikšos tikšoties tīkos
 85	1185	tests	test testa testam testi testiem testos testu testus testā
-86	1186	būtība	būtībai būtības būtību būtībā
+86	1186	būtība	būtībai būtības būtību būtībā būtībām
 87	1187	laikraksts	laikraksta laikrakstam laikraksti laikrakstiem laikrakstos laikrakstu laikrakstus laikrakstā
 88	1188	basketbols	basketbol basketbola basketbolam basketbolu basketbolā
-89	1189	ieraudzīt	ieraudzīja ieraudzīju ieraugot
-90	1190	vilnis	viis vilni vilnim vilnī vius viļņa viļņi viļņiem viļņos viļņu viļņus
-91	1191	nosacīt	nosaka
-92	1192	firma	firmas
-93	1193	pazust	pazuda pazūd
+89	1189	ieraudzīt	ieraudzīja ieraudzīji ieraudzījis ieraudzīju ieraudzījusi ieraudzījuši ieraudzījām ieraudzījāt ieraudzīs ieraudzīsi ieraudzīsiet ieraudzīsim ieraudzīsit ieraudzītais ieraudzīto ieraudzīts ieraudzītu ieraudzīšanu ieraudzīšot ieraudzīšu ierauga ieraugi ieraugot ieraugu ieraugām ieraugāms ieraugāt jāierauga neieraudzīja neieraudzīju neieraudzīs neieraudzīsi neieraudzīsiet neieraudzīt neieraudzīts neieraudzītu neierauga neieraugi neieraugu
+90	1190	vilnis	viis vilni vilnim vilnu vilnus vilnā vilnī vius viļņa viļņai viļņas viļņi viļņiem viļņos viļņu viļņus viļņā
+91	1191	nosacīt	jānosaka nenosaka nenosaki nenosakot nenosaku nenosakām nenosakāma nenosakāmas nenosakāmi nenosakāms nenosakāmu nenosakāmā nosacīja nosacīta nosacītais nosacītas nosacīti nosacītie nosacītiem nosacīto nosacītos nosacīts nosacītu nosacītus nosacītā nosacītās nosaka nosaki nosakiet nosakot nosakoša nosaku nosakām nosakāma nosakāmas nosakāmi nosakāms nosakāmā nosakāt
+92	1192	firma	firmai firmas firmu firmā firmām firmās
+93	1193	pazust	jāpazūd nepazuda nepazudis nepazudu nepazudām nepazudīs nepazudīsi nepazudīsim nepazudīšot nepazudīšu nepazust nepazustu nepazūd nepazūdam nepazūdi nepazūdiet nepazūdot nepazūdu pazuda pazudi pazudis pazudu pazudām pazudāt pazudīs pazudīsi pazudīsim pazudīšot pazudīšu pazustu pazušana pazūd pazūdam pazūdat pazūdi pazūdiet pazūdot pazūdu
 94	1194	paust	pauda pauž
-95	1195	pulkstenis	pulksteni pulkstenim pulkstens pulkstenī pulksteņa pulksteņi pulksteņiem pulksteņos pulksteņu pulksteņus
+95	1195	pulkstenis	pulksteni pulksteniem pulkstenim pulkstens pulkstenus pulkstenī pulksteņa pulksteņi pulksteņiem pulksteņos pulksteņu pulksteņus
 96	1196	panākums	panākuma panākumam panākumi panākumiem panākumos panākumu panākumus panākumā
-97	1197	apmeklētājs	apmeklētāji apmeklētājiem apmeklētāju apmeklētājus
+97	1197	apmeklētājs	apmeklētāja apmeklētājam apmeklētāji apmeklētājiem apmeklētājos apmeklētāju apmeklētājus apmeklētājā
 98	1198	upuris	upura upuri upuriem upurim upuros upuru upurus upurī
 99	1199	dīvaini	
-100	1200	skatuve	skatuves
+100	1200	skatuve	skatuvei skatuves skatuvi skatuvju skatuvē skatuvēm skatuvēs

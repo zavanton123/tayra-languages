@@ -1,0 +1,100 @@
+1	8101	paukošana	paukošanai paukošanas paukošanu paukošanā paukošanās
+2	8102	dārgmetāls	dārgmetāla dārgmetālam dārgmetāli dārgmetāliem dārgmetālos dārgmetālu dārgmetālus dārgmetālā
+3	8103	uzlējums	uzlējuma uzlējumam uzlējumi uzlējumiem uzlējumos uzlējumu uzlējumus uzlējumā
+4	8104	mūza	mūzai mūzas mūzu mūzām
+5	8105	iesaukties	iesaucamies iesaucas iesaucaties iesaucies iesaucos iesaucās iesauksies iesauktos iesaukšos jāiesaucas
+6	8106	slieka	sliekai sliekas slieku sliekām
+7	8107	neaizvietojams	neaizvietojama neaizvietojamai neaizvietojamais neaizvietojamajam neaizvietojamajiem neaizvietojamas neaizvietojami neaizvietojamie neaizvietojamiem neaizvietojamo neaizvietojamu neaizvietojamā neaizvietojamāks neaizvietojamās
+8	8108	sinonīms	sinonīma sinonīmiem sinonīmu sinonīmus
+9	8109	akords	akorda akordam akordi akordiem akordos akordu akordus
+10	8110	tēlotājs	tēlotāja tēlotājam tēlotāji tēlotājiem tēlotāju tēlotājus tēlotājā
+11	8111	ercens	ercena erceni ercenu
+12	8112	uzķert	jāuzķer neuzķer neuzķers neuzķēra uzķer uzķerot uzķers uzķerts uzķertu uzķeru uzķeršu uzķēra uzķēri uzķēris uzķēru
+13	8113	aizšķērsot	aizšķērso aizšķērsoja aizšķērsojis aizšķērsojot aizšķērsojusi aizšķērsojuši aizšķērsojām aizšķērsos aizšķērsotas aizšķērsots aizšķērsotu jāaizšķērso neaizšķērso neaizšķērsot
+14	8114	ģenialitāte	ģenialitātei ģenialitātes ģenialitāti ģenialitātē
+15	8115	izplēst	izplēs izplēsa izplēsiet izplēsis izplēsts izplēstu izplēsām izplēš jāizplēš neizplēš
+16	8116	atriebe	atriebei atriebes atriebēm
+17	8117	pietaisīt	nepietaisa nepietaisi pietaisa pietaisi pietaisot pietaisīja pietaisīji pietaisījis pietaisīju pietaisīs pietaisīts pietaisītu
+18	8118	upene	upee upenes upeni upenēm upenēs upeņu
+19	8119	tropisks	tropiska tropiskai tropiskais tropiskajiem tropiskajā tropiskajās tropiskas tropiski tropiskie tropisko tropiskos tropiskus tropiskā tropiskāks tropiskākus tropiskām tropiskās vistropiskākais
+20	8120	nopūst	jānopūš nenopūstu nopūsti nopūsts nopūstu nopūtis nopūtīs nopūtīsim nopūtīšu nopūš nopūšam nopūšot nopūšu
+21	8121	arlabvakar	
+22	8122	mjau	
+23	8123	dārzkopis	dārzkope dārzkopes dārzkopi dārzkopim dārzkopja dārzkopji dārzkopjiem dārzkopju dārzkopjus
+24	8124	veikalnieks	veikalniece veikalniecei veikalnieces veikalniecē veikalnieka veikalniekam veikalnieki veikalniekiem veikalnieku veikalniekus veikalniekā
+25	8125	neaizstājams	neaizstājama neaizstājamais neaizstājamajiem neaizstājamajām neaizstājamas neaizstājami neaizstājamie neaizstājamiem neaizstājamo neaizstājamos neaizstājamu neaizstājamā neaizstājamās visneaizstājamākā
+26	8126	pārmērīt	jāpārmēra pārmēra pārmērot pārmēru pārmērīsi pārmērītu pārmērīšana
+27	8127	ķauķis	ķauķi ķauķu
+28	8128	iznēsāt	iznēsā iznēsāja iznēsājis iznēsājot iznēsāju iznēsās iznēsāsiet iznēsāts iznēsātu iznēsāšana jāiznēsā neiznēsās neiznēsāts
+29	8129	priekšnams	priekšnama priekšnamam priekšnami priekšnamos priekšnamu priekšnamā
+30	8130	reinkarnācija	reinkarnācijai reinkarnācijas reinkarnāciju reinkarnācijā reinkarnācijām reinkarnācijās
+31	8131	ventilis	ventili ventiļa ventiļi ventiļiem ventiļu ventiļus
+32	8132	pasviest	pasvied pasvieda pasviedi pasviediet pasviedis pasviedīs pasviedīsi pasviests pasviež pasviežot
+33	8133	piektdaļa	piektdaļai piektdaļas piektdaļu piektdaļā piektdaļām
+34	8134	nokristies	nenokristos nenokritīsies nokristos nokrities nokritos nokritīsies nokrišanās nokrītoties
+35	8135	kolāža	kolāžas kolāžu kolāžā kolāžām kolāžās
+36	8136	fašisms	fašisma fašismam fašismiem fašismu fašismā
+37	8137	zemkopis	zemkopi zemkopim zemkopja zemkopji zemkopjiem zemkopjos zemkopju zemkopjus
+38	8138	dūdas	dūdai
+39	8139	piebērt	jāpieber pieber pieberam pieberiet pieberot pieberu piebēra piebēri piebēris piebērs piebērts piebērtu piebēru piebērām piebēršana piebēršanu
+40	8140	iekša	iekšam iekšu
+41	8141	acīgs	acīga acīgais acīgajiem acīgajām acīgam acīgi acīgie acīgiem acīgā acīgākais acīgākajiem acīgāki acīgākie acīgāks acīgās
+42	8142	cūciņa	cūciņai cūciņas cūciņu cūciņā cūciņām
+43	8143	nevienmērīgs	nevienmērīga nevienmērīgais nevienmērīgas nevienmērīgi nevienmērīgiem nevienmērīgo nevienmērīgu nevienmērīgā nevienmērīgās
+44	8144	kuilis	kuili kuilim kuiļa kuiļi kuiļiem kuiļu kuiļus
+45	8145	bārdains	bārdaina bārdainais bārdainajiem bārdainajos bārdainajā bārdainas bārdaini bārdainie bārdainiem bārdaino bārdainos bārdainu bārdainā bārdaināks
+46	8146	apskaidrot	apskaidro apskaidroja apskaidrojiet apskaidrojošo apskaidrojošu apskaidros apskaidrota apskaidrotai apskaidrotajai apskaidrotam apskaidroti apskaidrotie apskaidroto apskaidrots apskaidrotu apskaidrotā apskaidrošana apskaidrošu jāapskaidro
+47	8147	aizkaitināt	aizkaitina aizkaitinot aizkaitināja aizkaitinājis aizkaitināms aizkaitinās aizkaitināts aizkaitinātu neaizkaitinātu
+48	8148	piezagties	piezadzies piezagies piezagsies piezagusies piezagušās piezagās piezogas piezogos piezogoties
+49	8149	sniegavīrs	sniegavīra sniegavīram sniegavīri sniegavīriem sniegavīros sniegavīru sniegavīrus
+50	8150	kupena	kupenai kupenas kupenu kupenā kupenām kupenās
+51	8151	apaugt	apaudz apaudzis apaug apauga apaugam apaugot apaugs apaugusi apaugušajiem apaugušajā apaugušas apauguši apaugušie apaugušo apaugušos apaugušu apaugušā apaugušās apaugām apaugšana neapaugt neapaugtu
+52	8152	kibernoziegums	kibernozieguma kibernoziegumi kibernoziegumiem kibernoziegumos kibernoziegumu kibernoziegumus
+53	8153	iemirdzēties	iemirdzamies iemirdzas iemirdzējās iemirdzēsies iemirdzētos iemirdzēšanās jāiemirdzas neiemirdzas
+54	8154	kodums	koduma kodumam kodumi kodumiem kodumu kodumus
+55	8155	aizbērt	aizber aizberat aizberot aizbēra aizbēris aizbērs aizbērsim aizbērts aizbērtu aizbērām aizbēršana aizbēršanu jāaizber neaizberiet
+56	8156	kaļķakmens	kaļķakmeni kaļķakmenim
+57	8157	pakļūt	nepakļuva nepakļūst nepakļūt nepakļūtu pakļuva pakļuvis pakļuvu pakļuvusi pakļūst pakļūstot pakļūtu pakļūšu
+58	8158	nosūkt	nosūc nosūca nosūci nosūciet nosūcot nosūcu nosūks nosūkšana nosūkšu
+59	8159	rudenīgs	rudenīga rudenīgai rudenīgais rudenīgajam rudenīgajiem rudenīgajos rudenīgajā rudenīgajām rudenīgajās rudenīgam rudenīgas rudenīgie rudenīgiem rudenīgo rudenīgos rudenīgu rudenīgus rudenīgā rudenīgākas rudenīgāku rudenīgām rudenīgās
+60	8160	centīgi	
+61	8161	fizioterapija	fizioterapijai fizioterapijas fizioterapiju fizioterapijā fizioterapijām
+62	8162	karsēt	jākarsē karsē karsēdams karsēja karsējam karsēji karsējiet karsējot karsēju karsējusi karsējām karsēs karsēsim karsēta karsētas karsēti karsēts karsēšana karsēšanas karsēšanu nekarsē nekarsēs nekarsēts nekarsētu
+63	8163	baltiņš	baltiņ baltiņa baltiņam baltiņi baltiņiem baltiņu
+64	8164	azote	azotei azotes azoti azotē
+65	8165	pārplānot	jāpārplāno nepārplānosiet pārplāno pārplānojot pārplānoju pārplānojām pārplānos pārplānota pārplānotas pārplānots pārplānotu pārplānošana pārplānošu
+66	8166	pārkrāsot	jāpārkrāso pārkrāso pārkrāsoja pārkrāsojam pārkrāsojams pārkrāsoji pārkrāsojis pārkrāsojot pārkrāsoju pārkrāsos pārkrāsots pārkrāsotu pārkrāsošana pārkrāsošu
+67	8167	portvīns	portvīna portvīnam portvīni portvīniem portvīnu
+68	8168	leopards	leopard leoparda leopardam leopardi leopardiem leopardu leopardus leopardā
+69	8169	jaguārs	jaguāra jaguāram jaguāru jaguārā
+70	8170	jaunievedums	jaunieveduma jaunievedumam jaunievedumi jaunievedumiem jaunievedumos jaunievedumu jaunievedumus jaunievedumā
+71	8171	laisks	laiska laiskai laiskais laiskajā laiskajās laiskam laiskas laiski laiskie laiskiem laisko laiskos laisku laiskus laiskā laiskāka laiskākajiem laiskāki laiskākie laiskākā laiskām laiskās vislaiskākais
+72	8172	abatija	abatijas abatiju abatijā
+73	8173	autorizācija	autorizācijai autorizācijas autorizāciju autorizācijām
+74	8174	spārnots	spārnota spārnotai spārnotais spārnotajam spārnotajiem spārnotajā spārnotajām spārnotam spārnotas spārnoti spārnotie spārnoto spārnotos spārnotu spārnotā spārnotāk spārnotāko spārnotākā spārnotākās spārnotām spārnotās
+75	8175	telegrāfs	telegrāfa telegrāfu
+76	8176	astoņkājis	astoņkāja astoņkāji astoņkājiem astoņkājim astoņkāju astoņkājus astoņkājī
+77	8177	senlaicīgs	senlaicīga senlaicīgai senlaicīgajā senlaicīgajām senlaicīgas senlaicīgi senlaicīgiem senlaicīgo senlaicīgos senlaicīgu senlaicīgus senlaicīgā senlaicīgām senlaicīgās
+78	8178	topogrāfisks	topogrāfiskais topogrāfiskajai topogrāfiskajiem topogrāfiskajos topogrāfiskajā topogrāfiskajām topogrāfiskajās topogrāfiskie topogrāfisko topogrāfiskos topogrāfiskā topogrāfiskām topogrāfiskās
+79	8179	momentāni	
+80	8180	zosāda	zosādai zosādas zosādu
+81	8181	nosarkt	jānosarkst nenosarkst nenosarku nosarka nosarki nosarksi nosarkst nosarksti nosarktu nosarku nosarkusi nosarkuši nosarkšana
+82	8182	iekārdināt	iekārdina iekārdiniet iekārdināja iekārdināji iekārdinās iekārdināts iekārdinātu neiekārdina neiekārdināja
+83	8183	nātre	nātres nātru nātrēm nātrēs
+84	8184	papaija	papaijas papaiju papaijā papaijām papaijās
+85	8185	akmeņogle	akmeņogles akmeņoglēm akmeņoglēs akmeņogļu
+86	8186	eiropeisks	eiropeiska eiropeiskai eiropeiskais eiropeiskajā eiropeiskajām eiropeiskas eiropeiskiem eiropeisko eiropeiskos eiropeisku eiropeiskā eiropeiskāka eiropeiskāki eiropeiskākie eiropeiskākiem eiropeiskāks eiropeiskāku eiropeiskākus eiropeiskākā eiropeiskām eiropeiskās eiropejiskas eiropejisku eiropejiskām eiropejiskās viseiropeiskāko
+87	8187	izzāģēt	izzāģē izzāģēja izzāģējam izzāģējis izzāģējot izzāģēju izzāģējusi izzāģējuši izzāģējām izzāģēs izzāģēsiet izzāģēta izzāģētajiem izzāģētas izzāģēti izzāģētie izzāģēto izzāģēts izzāģētā izzāģētām izzāģētās izzāģēšana jāizzāģē neizzāģējot
+88	8188	iekavēt	iekavē iekavēja iekavējis iekavēju iekavējusi iekavējuši iekavējām iekavēs iekavēta iekavētais iekavētas iekavēti iekavētie iekavēto iekavēts iekavētu iekavētā neiekavē neiekavētu
+89	8189	svečturis	svečtura svečturi svečturiem svečturos svečturu svečturus svečturī
+90	8190	ataicināt	ataicina ataicini ataiciniet ataicinot ataicināja ataicinājis ataicināju ataicinājusi ataicinājušas ataicinājuši ataicināta ataicināti ataicinātie ataicināts ataicinātu neataicināji neataicināju
+91	8191	pārsmieties	nepārsmieties pārsmejos pārsmiesieties pārsmietos pārsmējies pārsmējos pārsmējās
+92	8192	uzšķērst	jāuzšķērž neuzšķērdiet uzšķērda uzšķērdiet uzšķērdu uzšķērdām uzšķērdīšu uzšķēržam uzšķēržot uzšķēržu
+93	8193	sociologs	sociologa sociologam sociologi sociologiem sociologu sociologus socioloģe socioloģi
+94	8194	amizants	amizanta amizantai amizantais amizantajiem amizantajā amizantajām amizantam amizantas amizantie amizantiem amizanto amizantos amizantu amizantus amizantā amizantāka amizantākais amizantākam amizantākie amizantākus amizantām amizantās visamizantākajā visamizantākā
+95	8195	lavanda	lavandai lavandas lavandu lavandām
+96	8196	caurspīdīgums	caurspīdīguma caurspīdīgumam caurspīdīgumu caurspīdīgumus caurspīdīgumā
+97	8197	izkapts	izkapa izkapti izkaptij izkaptis izkaptīm izkapšu
+98	8198	stepe	stepa stepam stepes stepi stepju stepu stepus stepā stepē stepēm stepēs
+99	8199	rezultatīvi	
+100	8200	izcilnieks	izcilniece izcilniecei izcilnieces izcilniecēm izcilnieka izcilniekam izcilnieki izcilniekiem izcilnieku izcilniekus

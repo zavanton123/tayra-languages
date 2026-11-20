@@ -1,0 +1,100 @@
+1	7801	izcepties	izcepamies izcepas izcepi izcepies izcepoties izcepsies izcepsieties izceptos izcepusies izcepušies izcepās neizcepsies
+2	7802	ietīties	ietinamies ietinas ietinies ietinos ietinoties ietināmies ietinās ietīsies
+3	7803	emigrēt	emigrē emigrēja emigrējiet emigrējis emigrējot emigrēju emigrējusi emigrējuši emigrējušo emigrējāt emigrēs emigrētu emigrēšana emigrēšanas emigrēšanu jāemigrē neemigrē neemigrētu
+4	7804	paralīze	paralīzei paralīzes paralīzi paralīzē
+5	7805	atraitnis	atraitni atraitnim atraitņa atraitņi atraitņiem atraitņos atraitņu
+6	7806	pretizlūkošana	pretizlūkošanas pretizlūkošanu pretizlūkošanā
+7	7807	aktualizēties	aktualizējas aktualizējies aktualizējoties aktualizējās aktualizēsies aktualizētos aktualizēšanās
+8	7808	mobilizācija	mobilizācijai mobilizācijas mobilizāciju mobilizācijā
+9	7809	gultnis	gultni gultniem gultnim gultnu gultnus gultnī gultņa gultņi gultņiem gultņos gultņu gultņus
+10	7810	pārlabot	jāpārlabo nepārlaboju pārlabo pārlabojis pārlabojot pārlabojuši pārlabotais pārlabotas pārlabots pārlabotu pārlabotā
+11	7811	nosvērt	jānosver nenoiet nenosvērot nenosvērts nosver nosverams nosveriet nosverot nosvēra nosvēri nosvērs nosvērts nosvērtu nosvēru nosvēršu
+12	7812	fantazēt	fantazē fantazēja fantazējam fantazējat fantazējiet fantazējis fantazējot fantazēju fantazējušas fantazējuši fantazēts fantazētu fantazēšana fantazēšanas fantazēšanu jāfantazē nefantazē nefantazēdams nefantazējot
+13	7813	spageti	
+14	7814	sapurināt	jāsapurina sapurina sapurini sapurinot sapurinu sapurināja sapurinājis sapurināju sapurinās sapurināts sapurinātu sapurināšana
+15	7815	ātrvilciens	ātrvilciena ātrvilcieni ātrvilcieniem ātrvilcienos ātrvilcienu ātrvilcienus ātrvilcienā
+16	7816	kvantitatīvs	kvantitatīva kvantitatīvais kvantitatīvajai kvantitatīvajiem kvantitatīvajā kvantitatīvam kvantitatīvas kvantitatīvi kvantitatīvie kvantitatīviem kvantitatīvo kvantitatīvos kvantitatīvu kvantitatīvus kvantitatīvā kvantitatīvām kvantitatīvās
+17	7817	sarakstīties	nesarakstījāmies sarakstoties sarakstāties sarakstījies sarakstījos sarakstījusies sarakstījušies sarakstījušās sarakstījāmies sarakstījās sarakstīsimies sarakstītos sarakstīšanās
+18	7818	traumatoloģija	traumatoloģijas traumatoloģiju traumatoloģijā
+19	7819	vokāli	
+20	7820	avangards	avangarda avangardam avangardu avangardā
+21	7821	publicists	publicista publicistam publicisti publicistiem publicistu
+22	7822	bumbiere	bumbierei bumbieres bumbieri bumbieru bumbierēm bumbierēs
+23	7823	agresors	agresora agresoram agresori agresoriem agresoros agresoru agresorus
+24	7824	slidot	jāslido neslido neslidoju slidoja slidojam slidojis slidojot slidoju slidojuši slidojām slidots slidotu slidošu
+25	7825	pantera	panteras panteru panterām
+26	7826	izžūt	izžuva izžuvis izžūs izžūsi izžūst izžūstot izžūtu izžūšana jāizžūst neizžūs neizžūst neizžūstam neizžūstat neizžūtu
+27	7827	ābece	ābecei ābeces ābeci ābecē ābecēm ābecēs ābeču
+28	7828	celulozes	
+29	7829	vedekla	vedeklai vedeklas vedeklu vedeklām
+30	7830	izsecināt	izsecina izsecini izseciniet izsecinot izsecinu izsecināja izsecināji izsecinājis izsecināju izsecinājusi izsecinājuši izsecinājām izsecinām izsecināms izsecināta izsecinātas izsecināts izsecinātu
+31	7831	mopsis	mopsa mopsi mopsiem mopsim mopsu mopša mopši mopšiem mopšu mopšus
+32	7832	pārvilināt	nepārvilina nepārvilināt pārvilina pārvilinot pārvilināja pārvilinājis pārvilinājusi pārvilinājāt pārvilinās pārvilināta pārvilināti pārvilinātu pārvilināšana pārvilināšanas pārvilināšanu pārvilināšanā
+33	7833	sakošļāt	jāsakošļā nesakošļā sakošļā sakošļājiet sakošļājot sakošļāju sakošļās sakošļāta sakošļāts sakošļātu sakošļāšanu
+34	7834	pārlauzt	pārlauz pārlauza pārlauzis pārlauzta pārlauztu pārlauztām pārlauztās pārlauzu pārlauzīs pārlauzīsi pārlauzīšu pārlaušana pārlauž pārlaužot
+35	7835	apsveicināties	apsveicinas apsveicinoties apsveicinājās apsveicinās apsveicināsimies apsveicinātos apsveicināšanās apsveicināšos jāapsveicinās neapsveicināties
+36	7836	korozija	korozijai korozijas koroziju
+37	7837	sievišķība	sievišķībai sievišķības sievišķību sievišķībā
+38	7838	vāverēns	vāverēn vāverēna vāverēni vāverēnu
+39	7839	alts	alta altam alti altu altus altā
+40	7840	tūja	tūjai tūjas tūju tūjā tūjām
+41	7841	uzzvanīt	jāuzzvana uzzvana uzzvani uzzvaniet uzzvanot uzzvanu uzzvanīja uzzvanījis uzzvanīju uzzvanījusi uzzvanījuši uzzvanītu uzzvanīšu
+42	7842	apelēt	apelē apelēdams apelēja apelējam apelējot apelējošs apelēju apelēs apelēsi apelēts apelētu apelēšana apelēšu jāapelē neapelējot
+43	7843	cietsirdība	cietsirdībai cietsirdības cietsirdību cietsirdībā
+44	7844	reālisms	reālisma reālismam reālismu reālismā
+45	7845	muļķītis	muļķīti muļķīša muļķīši muļķīšiem muļķīšu muļķīšus
+46	7846	balansēt	balansē balansēja balansējam balansējot balansējusi balansējušas balansējām balansēs balansētais balansētas balansēti balansēts balansētu balansēšana balansēšanas balansēšanu jābalansē nebalansē
+47	7847	tirānija	tirānijai tirānijas tirāniju tirānijām
+48	7848	krustdēls	krustdēla krustdēlam krustdēliem krustdēlu
+49	7849	solārijs	solārija solārijam solāriji solārijiem solārijos solāriju solārijus solārijā
+50	7850	vētrasputns	vētrasputn vētrasputni vētrasputniem
+51	7851	speķis	speķa speķi speķim speķu
+52	7852	iedibināt	iedibina iedibinot iedibināja iedibinājis iedibinājām iedibinām iedibinās iedibināsim iedibināts iedibinātu iedibināšana iedibināšu jāiedibina neiedibinātu
+53	7853	pavēlniecība	pavēlniecībai pavēlniecības pavēlniecību pavēlniecībām
+54	7854	nopūta	nopūtas nopūtu nopūtām nopūtās
+55	7855	iemānīt	iemāna iemānot iemānu iemānīja iemānīji iemānījis iemānīsim iemānītu jāiemāna neiemānīs neiemānīt
+56	7856	receptors	receptori receptoriem receptoru receptorus
+57	7857	kodolkarš	kodolkara kodolkaram kodolkari kodolkaru kodolkarus kodolkarā
+58	7858	vēdināt	jāvēdina nevēdinātas nevēdināti vēdina vēdini vēdiniet vēdinot vēdinu vēdināja vēdinām vēdinās vēdināta vēdinātas vēdināti vēdinātā vēdināšana vēdināšanai vēdināšanas vēdināšanu vēdināšanā vēdināšanās
+59	7859	atentāts	atentāta atentātam atentātu atentātus atentātā
+60	7860	az	
+61	7861	aptīt	aptin aptina aptinam aptinis aptinot aptinu aptīdams aptīts aptītu aptīšana aptīšu jāaptin neaptin
+62	7862	kalpotāja	kalpotājas kalpotāju kalpotājā kalpotājām
+63	7863	dūmaka	dūmakai dūmakas dūmaku dūmakā dūmakās
+64	7864	iemesties	iemestos iemetas iemeties iemetās iemetīsies neiemestos neiemetas
+65	7865	motosports	motosporta motosportam motosportu motosportā
+66	7866	podkāsts	podkāsta podkāstam podkāsti podkāstiem podkāstu podkāstus podkāstā
+67	7867	ierunāt	ierunā ierunāja ierunājiet ierunājis ierunājot ierunāju ierunājusi ierunājuši ierunājām ierunās ierunāta ierunātais ierunātajām ierunātas ierunātie ierunātiem ierunāto ierunātos ierunāts ierunātu ierunātus ierunātās ierunāšana ierunāšu jāierunā
+68	7868	apkakāt	apkakā apkakāja apkakās apkakāsiet apkakāsim apkakāta apkakātā neapkakāja neapkakās
+69	7869	nopūsties	jānopūšas nopūstos nopūties nopūtos nopūtīsies nopūtīšos nopūšamies nopūšanās nopūšas nopūšaties nopūšos nopūšoties
+70	7870	izvārīt	izvāra izvāri izvāriet izvāru izvārām izvārīja izvārījis izvārīju izvārījusi izvārījuši izvārījām izvārīs izvārīsi izvārīsim izvārīta izvārītajos izvārītas izvārīti izvārītiem izvārīto izvārītos izvārīts izvārītu izvārīšu jāizvāra neizvārot neizvārīsi neizvārīta neizvārītu
+71	7871	drebuļi	
+72	7872	pārmīt	jāpārmij nepārmija nepārmijot nepārmijām pārmij pārmija pārmijam pārmijat pārmijis pārmijot pārmiju pārmijām pārminot pārminu pārmīs pārmītu
+73	7873	organizēties	jāorganizējas neorganizētos organizējamies organizējas organizējaties organizējies organizējieties organizējoties organizējās organizēsies organizētos organizēšanās
+74	7874	atspīdums	atspīduma atspīdumi atspīdumiem atspīdumos atspīdumu atspīdumus atspīdumā
+75	7875	encefalīts	encefalīta encefalītu
+76	7876	aorta	aortai aortas aortu aortā
+77	7877	kapakmens	kapakmeni kapakmenim kapakmeņi kapakmeņiem kapakmeņu kapakmeņus
+78	7878	piedurt	jāpiedur nepiedurs piedur piedurs piedursi piedursiet pieduru pieduršu piedūra piedūris
+79	7879	atsisties	atsistos atsities atsitos atsitoties atsitusies atsitušies atsitīsimies atsizdamies atsišanās neatsistos neatsitos neatsitīsies
+80	7880	vārpa	vārpai vārpas vārpu vārpā vārpām vārpās
+81	7881	palaimēties	nepalaimējas palaimējas palaimējies palaimējās palaimēsies
+82	7882	demokrātiski	
+83	7883	papūlēties	nepapūlējās papūlējas papūlējies papūlējusies papūlējušies papūlējāmies papūlējās papūlējāties papūlēsies papūlēsieties papūlētos papūlēšos
+84	7884	nodejot	nodejo nodejoja nodejojis nodejojot nodejoju nodejojusi nodejojuši nodejojām nodejojāt nodejos nodejosim nodejota nodejotajiem nodejotas nodejoti nodejoto nodejotu
+85	7885	atlēkt	atlec atlecu atlēca atlēks atlēktu jāatlec neatlec neatlēks
+86	7886	sakapāt	sakapā sakapāja sakapājam sakapāji sakapājis sakapājot sakapāju sakapās sakapāsim sakapāta sakapātas sakapāti sakapātiem sakapātos sakapāts sakapātu sakapātus
+87	7887	biotehnoloģija	biotehnoloģijai biotehnoloģijas biotehnoloģiju biotehnoloģijā biotehnoloģijām biotehnoloģijās
+88	7888	ierunāties	ierunājamies ierunājas ierunājies ierunājos ierunājoties ierunājusies ierunājušies ierunājāmies ierunājās ierunāsies ierunātos neierunājas neierunājās
+89	7889	ubagot	jāubago neubago neubagos neubagotu ubago ubagodami ubagoja ubagojam ubagojis ubagojot ubagojošiem ubagojošo ubagojošos ubagoju ubagojām ubagos ubagotu ubagošana ubagošanai ubagošanas ubagošanu ubagošanā
+90	7890	rokassprādze	rokassprādzei rokassprādzes rokassprādzi rokassprādzēm rokassprādzēs rokassprādžu
+91	7891	pārēsties	jāpārēdas nepārēdies nepārēdoties nepārēsties nepārēstos nepārēšanās pārēdamies pārēdas pārēdies pārēdos pārēdusies pārēdušies pārēdušās pārēdīsies pārēdīšos pārēstos
+92	7892	kanibāls	kanibāla kanibālam kanibāli kanibāliem kanibālu
+93	7893	bizons	bizoni bizoniem bizonu
+94	7894	nepiespiests	nepiespiesta nepiespiestai nepiespiestais nepiespiestajām nepiespiestas nepiespiesti nepiespiesto nepiespiestu nepiespiestā nepiespiestāk nepiespiestās
+95	7895	histērisks	histēriska histēriskai histēriskais histēriskajai histēriskajiem histēriskajā histēriskajām histēriskam histēriskas histēriski histēriskie histērisko histēriskos histērisku histēriskus histēriskā histēriskām histēriskās
+96	7896	paskatīt	jāpaskata nepaskatīju nepaskatītos paskata paskati paskatiet paskatu paskatījušās paskatījām paskatīsim paskatīšu
+97	7897	taisnstūris	taisnstūra taisnstūri taisnstūrim taisnstūru taisnstūrus taisnstūrī
+98	7898	dievbijīgs	dievbijīga dievbijīgai dievbijīgais dievbijīgajiem dievbijīgas dievbijīgi dievbijīgie dievbijīgiem dievbijīgo dievbijīgos dievbijīgu dievbijīgus dievbijīgā dievbijīgākie dievbijīgāks dievbijīgākā dievbijīgās visdievbijīgākais
+99	7899	fotons	fotona fotonam fotoni fotonu fotonus
+100	7900	sarkanvīns	sarkanvīna sarkanvīnam sarkanvīni sarkanvīniem sarkanvīnos sarkanvīnu sarkanvīnus sarkanvīnā

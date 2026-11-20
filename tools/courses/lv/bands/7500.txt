@@ -1,0 +1,100 @@
+1	7401	izpārdot	izpārdeva izpārdevis izpārdod izpārdodam izpārdodot izpārdos izpārdosim izpārdots izpārdotu izpārdošot jāizpārdod neizpārdeva neizpārdod neizpārdodot neizpārdosim neizpārdot neizpārdotu
+2	7402	cukurfabrika	cukurfabrikai cukurfabrikas cukurfabriku cukurfabrikā cukurfabrikām
+3	7403	sīkdatne	sīkdatnei sīkdatnes sīkdatni sīkdatnē sīkdatnēm sīkdatnēs sīkdatņu
+4	7404	apsiet	apsien apsieniet apsienot apsiesi apsiets apsietu apsiešana apsiešu apsēja apsēji apsējis apsēju apsējām jāapsien
+5	7405	egoists	egoista egoistam egoisti egoistiem egoistu egoistus
+6	7406	lagūna	lagūnai lagūnas lagūnu lagūnā lagūnām lagūnās
+7	7407	maiznieks	maizniece maiznieka maizniekam maiznieki maizniekiem maiznieku maizniekus maizniekā
+8	7408	galiņš	galiņa galiņam galiņi galiņiem galiņos galiņu galiņus galiņā
+9	7409	vīksna	vīksnai vīksnas vīksni vīksnu vīksnā vīksnām
+10	7410	pāršķirt	jāpāršķir pāršķir pāršķiram pāršķirdams pāršķirot pāršķirsiet pāršķirtu pāršķiru pāršķiršana pāršķiršu pāršķīra pāršķīru
+11	7411	nopērt	jānoper noper noperiet noperot nopēra nopērts nopēršana nopēršu
+12	7412	uzpūtīgs	uzpūtīga uzpūtīgais uzpūtīgam uzpūtīgi uzpūtīgie uzpūtīgiem uzpūtīgo uzpūtīgos uzpūtīgu uzpūtīgus uzpūtīgā uzpūtīgāko uzpūtīgāku uzpūtīgām uzpūtīgās
+13	7413	pareizrakstība	pareizrakstībai pareizrakstības pareizrakstību pareizrakstībā pareizrakstībās
+14	7414	izsolīt	izsola izsolot izsolām izsolīja izsolīji izsolījis izsolīs izsolīts izsolītu izsolīšana izsolīšot neizsolīt
+15	7415	pārliet	jāpārlej nepārlej nepārlejiet nepārliet nepārlēju pārlej pārlejam pārlejiet pārlejot pārleju pārliesi pārlieta pārlietas pārlieti pārlietos pārliets pārlietu pārlietā pārlietās pārlēja pārlēju
+16	7416	pastiprināties	nepastiprinās nepastiprināsies pastiprinoties pastiprinājies pastiprinājās pastiprinās pastiprināsies pastiprinātos pastiprināšanās pastiprināšoties
+17	7417	cietība	cietībai cietības cietību cietībā
+18	7418	kumelīte	kumelītes kumelīti kumelītēm kumelīšu
+19	7419	nejūtīgs	nejūtīga nejūtīgai nejūtīgais nejūtīgas nejūtīgi nejūtīgie nejūtīgo nejūtīgu nejūtīgus nejūtīgā nejūtīgāka nejūtīgāki nejūtīgākus nejūtīgās visnejūtīgākajai
+20	7420	nedzirdīgs	nedzirdīga nedzirdīgajiem nedzirdīgam nedzirdīgas nedzirdīgi nedzirdīgie nedzirdīgiem nedzirdīgo nedzirdīgos nedzirdīgu nedzirdīgā nedzirdīgāki nedzirdīgās
+21	7421	pārkraut	nepārkrauj nepārkraus pārkrauj pārkraujot pārkraus pārkrauts pārkrautu pārkraušana pārkrāva pārkrāvis
+22	7422	ieskaidrot	ieskaidro ieskaidroja ieskaidroju ieskaidrojuši ieskaidros ieskaidrota ieskaidrotu jāieskaidro neieskaidrosi
+23	7423	manifests	manifesta manifestam manifesti manifestos manifestu manifestus manifestā
+24	7424	bumerangs	bumeranga bumerangam bumerangi bumerangiem bumerangu bumerangus
+25	7425	asināt	asina asini asiniet asinot asinu asināja asinājām asinās asināts asinātu asināšana jāasina
+26	7426	transformators	transformatora transformatori transformatoriem transformatoros transformatoru transformatorus transformatorā
+27	7427	kefīrs	kefīra kefīram kefīri kefīru kefīrā
+28	7428	emblēma	emblēmai emblēmas emblēmu emblēmā emblēmām
+29	7429	operete	operetei operetes opereti operetē operetēm operetēs operešu
+30	7430	rudmate	rudmatei rudmates rudmati rudmatiem rudmatis rudmatēm
+31	7431	dzilna	dzilnas dzilnu
+32	7432	sportiski	
+33	7433	astronoms	astronoma astronomam astronomi astronomiem astronomu astronomus
+34	7434	dogma	dogmai dogmas dogmu dogmā dogmām dogmās
+35	7435	aizbaidīt	aizbaida aizbaidot aizbaidu aizbaidīja aizbaidījis aizbaidījāt aizbaidīs aizbaidīsiet aizbaidīsim aizbaidīts aizbaidītu aizbaidīšu neaizbaida neaizbaidīja neaizbaidīs neaizbaidīt neaizbaidītu
+36	7436	dienvidnieks	dienvidnieka dienvidnieki dienvidniekiem dienvidnieku dienvidniekus
+37	7437	gongs	gonga gongam gongiem gongu
+38	7438	dzelonis	dzelona dzeloni dzelonim dzeloņa dzeloņi dzeloņiem dzeloņus
+39	7439	ozons	ozona ozonam ozonu ozonā
+40	7440	nodzert	jānodzer nenodzers nenodzertos nenodzertu nenodzēra nenodzēru nodzer nodzeram nodzerams nodzerot nodzerošiem nodzers nodzersiet nodzersim nodzerta nodzertajam nodzertajām nodzertas nodzerti nodzertie nodzertiem nodzerto nodzerts nodzertu nodzertā nodzertām nodzertās nodzeru nodzeršu nodzēra nodzēris nodzēru nodzērusi nodzēruši nodzērušiem nodzērušos nodzērušām nodzērušās nodzērām
+41	7441	sapakot	jāsapako sapako sapakoja sapakojam sapakojiet sapakojis sapakoju sapakojusi sapakojuši sapakojām sapakos sapakosim sapakota sapakotas sapakoti sapakotie sapakoto sapakots sapakotu
+42	7442	aromātisks	aromātiska aromātiskai aromātiskais aromātiskajiem aromātiskajā aromātiskajām aromātiskam aromātiskas aromātiski aromātiskie aromātiskiem aromātisko aromātiskos aromātisku aromātiskus aromātiskā aromātiskāka aromātiskākas aromātiskākie aromātiskāks aromātiskākus aromātiskākā aromātiskām aromātiskās visaromātiskākais visaromātiskākie
+43	7443	pietecēt	pieteci pietecēs pietek pieteku
+44	7444	atsēdēt	atsēdi atsēdiet atsēdēja atsēdējis atsēdēju atsēdēs atsēdēsit atsēdēts atsēdētu atsēdēšu atsēž atsēžu jāatsēž neatsēdiet neatsēž neatsēžat
+45	7445	piekāpt	nepiekāpj piekāp piekāpis piekāpj piekāpjam piekāpju piekāps piekāptu piekāpu piekāpšu
+46	7446	sasmīdināt	sasmīdina sasmīdini sasmīdinot sasmīdinu sasmīdināja sasmīdināji sasmīdināju sasmīdinājuši sasmīdinājāt sasmīdinām sasmīdinās sasmīdināsi sasmīdināšanas sasmīdināšu
+47	7447	insulīns	insulīna insulīnam insulīniem insulīnu
+48	7448	uzrādīties	neuzrādas neuzrādās neuzrādījās neuzrādīsies neuzrādīties uzrādos uzrādās uzrādījas uzrādījies uzrādījās uzrādīsies uzrādītos
+49	7449	asfaltēt	asfaltē asfaltēja asfaltējuši asfaltēs asfaltēta asfaltētais asfaltētas asfaltēti asfaltētie asfaltēto asfaltēts asfaltētu asfaltētā asfaltēšana asfaltēšanas asfaltēšanu asfaltēšanā jāasfaltē neasfaltēs neasfaltēta neasfaltēto neasfaltēts
+50	7450	sastingt	sastindzis
+51	7451	blīkšķis	blīkšķa blīkšķi blīkšķiem blīkšķim blīkšķu
+52	7452	savilkties	jāsavelkas nesavelkas savelkas savelkoties savilcies savilkos savilksies savilktos savilkās savilkšanās
+53	7453	izlādēties	izlādējas izlādējies izlādējos izlādējoties izlādējusies izlādējušās izlādējās izlādēsies izlādētos izlādēšanās jāizlādējas neizlādējas neizlādēsies
+54	7454	ciska	ciskas cisku ciskām ciskās
+55	7455	monarhija	monarhijai monarhijas monarhiju monarhijā monarhijām
+56	7456	piegriezt	jāpiegriež nepiegriez nepiegrieza nepiegrieztas nepiegriezu nepiegriezīšu nepiegriež nepiegriežu piegriez piegrieza piegriezdams piegriezis piegriezta piegrieztam piegrieztas piegriezti piegriezts piegrieztu piegrieztus piegriezu piegriezusi piegriezušais piegriezuši piegriezušās piegriezām piegriezīs piegriezīsi piegriezīsim piegriezīšu piegriešana piegriež piegriežama piegriežat piegriežot piegriežu
+57	7457	eņģes	
+58	7458	izbarot	izbaro izbaroja izbarojam izbarojis izbarojot izbaroju izbaros izbarosim izbarots izbarotu izbarošu jāizbaro neizbaro
+59	7459	mist	mita mitis mitu mitīs mītam mītat mītot mītu
+60	7460	pasmaržot	pasmaržo pasmaržojiet pasmaržojot pasmaržoju pasmaržojuši pasmaržotu pasmaržošu
+61	7461	sūkties	jāsūcas nesūcas nesūksies sūcamies sūcas sūcaties sūcās sūksies
+62	7462	izšūt	izšuj izšujamais izšujamas izšujamie izšujot izšuva izšuvis izšuvu izšuvusi izšūs izšūta izšūtais izšūtajiem izšūtas izšūti izšūtie izšūtiem izšūto izšūtos izšūts izšūtu izšūtus izšūtā izšūtām izšūtās izšūšana jāizšuj neizšūtu
+63	7463	izkraut	izkrauj izkraujam izkraujot izkrauts izkraušana izkrāva izkrāvis jāizkrauj
+64	7464	nedzīvs	nedzīva nedzīvai nedzīvais nedzīvajai nedzīvajā nedzīvas nedzīvi nedzīviem nedzīvo nedzīvos nedzīvu nedzīvā nedzīvāka nedzīvāks nedzīvām nedzīvās
+65	7465	plīsums	plīsuma plīsumam plīsumi plīsumiem plīsumu plīsumus
+66	7466	izēst	izēd izēda izēdi izēdiet izēdis izēdošais izēdu izēdusi izēduši izēdām izēdīs izēdīsi izēdīšu izēsta izēstas izēsti izēsts izēstu izēstus izēstās jāizēd neizēd neizēda neizēdīs neizēdīšu neizēst
+67	7467	vē	
+68	7468	pīlādzis	pīlādzi pīlādzim pīlādzī pīlādža pīlādži pīlādžiem pīlādžos pīlādžu pīlādžus
+69	7469	džakuzi	
+70	7470	aizpeldēt	aizpeld aizpeldi aizpeldot aizpeldu aizpeldēja aizpeldējis aizpeldēju aizpeldējusi aizpeldējuši aizpeldējām aizpeldējāt aizpeldēs aizpeldēsim aizpeldētu aizpeldēšana neaizpeldēja neaizpeldēsi neaizpeldētu
+71	7471	bors	bora boram bori boros boru borā
+72	7472	beisbolists	beisbolista beisbolisti beisbolistiem beisbolistu
+73	7473	filtrēt	filtrē filtrējam filtrējiet filtrējot filtrēju filtrējusi filtrējuši filtrēta filtrētais filtrētas filtrēts filtrētu filtrētā filtrēšana filtrēšanas filtrēšanu jāfiltrē nefiltrē nefiltrēta nefiltrētais nefiltrētie nefiltrēto nefiltrēts nefiltrētu nefiltrētā nefiltrēšanas
+74	7474	tīrītājs	tīrītāja tīrītājai tīrītājam tīrītājas tīrītāji tīrītājiem tīrītāju tīrītājus tīrītājā
+75	7475	mansards	mansarda mansardam mansardu mansardā
+76	7476	mundrs	mundra mundrai mundrais mundrajam mundram mundras mundri mundrie mundriem mundro mundru mundrā mundrāk mundrāka mundrākam mundrāki mundrākiem mundrāks mundrāku mundrākām mundrām
+77	7477	izlīdzēt	izlīdz izlīdzam izlīdzi izlīdzot izlīdzēja izlīdzējis izlīdzējusi izlīdzējušas izlīdzējuši izlīdzējām izlīdzējāt izlīdzēs izlīdzēsi izlīdzēsiet izlīdzēsim izlīdzēts izlīdzēšana izlīdzēšot izlīdzēšu
+78	7478	populisms	populisma populismam populismu populismus populismā
+79	7479	pavelt	nepavel pavel pavels pavēla
+80	7480	baltvīns	baltvīna baltvīnam baltvīni baltvīniem baltvīnos baltvīnu baltvīnus baltvīnā
+81	7481	patēvs	patēva patēvam patēvi patēvu
+82	7482	vairogdziedzeris	vairogdziedzera vairogdziedzeri vairogdziedzerim vairogdziedzeru vairogdziedzerī
+83	7483	svārstīgs	svārstīga svārstīgais svārstīgajiem svārstīgajos svārstīgajā svārstīgajām svārstīgajās svārstīgas svārstīgi svārstīgie svārstīgiem svārstīgo svārstīgos svārstīgu svārstīgus svārstīgā svārstīgāka svārstīgāki svārstīgās
+84	7484	ūdrs	ūdi ūdra ūdram ūdri ūdriem ūdrim ūdris ūdros ūdru ūdrus ūdu
+85	7485	irsis	irsi irsim irša irši iršiem iršos iršu
+86	7486	kurds	kurdi kurdiem kurdu kurdus
+87	7487	izkrāsot	izkrāso izkrāsoja izkrāsojam izkrāsojis izkrāsojot izkrāsojusi izkrāsojām izkrāsos izkrāsosiet izkrāsosim izkrāsota izkrāsotais izkrāsotas izkrāsoti izkrāsotie izkrāsoto izkrāsots izkrāsotu izkrāsotā izkrāsošana izkrāsošanas neizkrāso
+88	7488	pārspriest	jāpārspriež nepārspriedīsim nepārspriež nepārspriežot pārsprieda pārspriedis pārspriedusi pārspriedušas pārsprieduši pārspriedām pārspriedīs pārspriedīsim pārspriedīšu pārspriesta pārspriestajiem pārspriesti pārspriesto pārspriests pārspriestu pārspriešana pārspriež pārspriežam pārspriežat pārspriežot
+89	7489	arhitektonisks	arhitektoniska arhitektoniskai arhitektoniskais arhitektoniskajam arhitektoniskajiem arhitektoniskajos arhitektoniskajām arhitektoniskas arhitektoniski arhitektoniskie arhitektoniskiem arhitektonisko arhitektoniskos arhitektonisku arhitektoniskus arhitektoniskā arhitektoniskās
+90	7490	dievlūdzējs	dievlūdzēj dievlūdzēja dievlūdzējam dievlūdzēji dievlūdzējiem dievlūdzēju dievlūdzējus
+91	7491	velsietis	velsiete velsieša velsieši velsiešiem velsiešu
+92	7492	pārredzēt	jāpārredz nepārredzamo nepārredzams nepārredzamā nepārredzamās nepārredzēšana pārredz pārredzam pārredzamajai pārredzamajā pārredzamos pārredzams pārredzamā pārredzamās pārredzot pārredzošu pārredzu pārredzējis pārredzētu
+93	7493	apcerēt	apcer apceram apcerat apceri apcerot apcerošu apcerošās apceru apcerēdama apcerēdams apcerēja apcerējis apcerēju apcerējusi apcerējām apcerēs apcerēsim apcerēta apcerēti apcerētie apcerēts apcerētu apcerētā apcerēšana jāapcer
+94	7494	ekstrakcija	ekstrakcijai ekstrakcijas ekstrakciju
+95	7495	filharmonija	filharmonijai filharmonijas filharmoniju filharmonijā
+96	7496	aizlaist	aizlaid aizlaida aizlaidis aizlaidu aizlaidām aizlaidāt aizlaidīs aizlaidīsi aizlaidīsim aizlaidīšu aizlaists aizlaistu aizlaiž aizlaižam aizlaižot aizlaižu jāaizlaiž neaizlaidīs neaizlaižot
+97	7497	sāļš	sāļa sāļais sāļajai sāļajam sāļajiem sāļajos sāļajā sāļajām sāļajās sāļam sāļas sāļie sāļiem sāļo sāļos sāļu sāļus sāļā sāļākajā sāļāks sāļām sāļās
+98	7498	čaumala	čaumalai čaumalas čaumalu čaumalā čaumalām čaumalās
+99	7499	veļi	vea vei velis veļiem veļos veļu veļus
+100	7500	streikot	jāstreiko nestreiko nestreikoju nestreikos streiko streikoja streikojat streikojiet streikojis streikojot streikoju streikos streikotu streikošana

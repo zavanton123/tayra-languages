@@ -1,0 +1,100 @@
+1	7201	dzimumloceklis	dzimumlocekli dzimumloceklim dzimumloceklī dzimumlocekļa dzimumlocekļi
+2	7202	atbruņot	atbruņo atbruņoja atbruņojis atbruņojošs atbruņoju atbruņosi atbruņota atbruņoti atbruņots atbruņotu atbruņošana atbruņošanas atbruņošanu neatbruņo
+3	7203	pretinde	pretindes pretindi pretindēm
+4	7204	aizkuņģa	
+5	7205	pavakariņot	pavakariņo pavakariņoja pavakariņojam pavakariņojiet pavakariņojuši pavakariņojām pavakariņos pavakariņosi pavakariņosiet pavakariņosim pavakariņotu pavakariņošana pavakariņošanas
+6	7206	fizkultūra	fizkultūrai fizkultūras fizkultūru fizkultūrā
+7	7207	aizgājējs	aizgājēja aizgājējai aizgājējam aizgājējas aizgājēji aizgājējiem aizgājēju aizgājējus
+8	7208	pārosties	pārodās pārošanās
+9	7209	poēma	poēmai poēmas poēmu poēmā poēmās
+10	7210	uzšūt	jāuzšuj neuzšūt uzšuj uzšujot uzšuva uzšuvi uzšuvis uzšuvu uzšuvusi uzšuvuši uzšuvām uzšūs uzšūsiet uzšūsim uzšūta uzšūtas uzšūti uzšūts uzšūtu uzšūšu
+11	7211	vaskot	jāvasko nevaskots nevaskošu vasko vaskojot vaskotas vaskots vaskotu vaskošana vaskošanas vaskošanu
+12	7212	svārstīties	nesvārstoties nesvārstīsimies nesvārstīties svārstos svārstoties svārstāties svārstījies svārstījos svārstījusies svārstījušies svārstījušās svārstījās svārstīsies svārstītos svārstīšanās
+13	7213	sadarīt	jāsadara nesadara nesadarīja sadara sadari sadaru sadarīja sadarīji sadarījis sadarīju sadarījusi sadarījuši sadarījām sadarīs sadarīsi sadarīto sadarītos sadarīts sadarītu sadarītās
+14	7214	kasācija	kasācijas kasāciju
+15	7215	liedags	liedaga liedagam liedagi liedagiem liedagos liedagu liedagā
+16	7216	apcept	apcep apcepa apcepam apcepiet apcepot apcepta apceptai apceptas apcepti apceptie apceptiem apcepto apceptos apcepts apceptu apceptus apceptā apceptām apceptās apcepu apcepšana apcepšanai jāapcep
+17	7217	māsasmeita	māsasmeitai māsasmeitu
+18	7218	galdauts	galdaut galdauta galdautam galdauti galdautiem galdautos galdautu galdautus galdautā
+19	7219	produktīvi	
+20	7220	patstāvība	patstāvībai patstāvības patstāvību patstāvībā
+21	7221	rezumē	
+22	7222	debils	debila debilai debilais debilajai debilajam debilajiem debilam debilas debili debilie debiliem debilo debilos debilu debilus debilā debilās visdebilākajiem
+23	7223	pasūkāt	pasūkā pasūkājiet pasūkās pasūkāsi
+24	7224	aptaustīt	aptausta aptausti aptaustiet aptaustot aptaustām aptaustāma aptaustāmas aptaustāmi aptaustāmiem aptaustāms aptaustāmu aptaustījis aptaustīju aptaustījusi aptaustīs jāaptausta neaptaustot neaptaustāmais neaptaustāmām neaptaustījis
+25	7225	ciete	cietei cietes cietē cietēs
+26	7226	slinkot	neslinko neslinkoja neslinkoji neslinkojiet neslinkojot neslinkoju neslinkotu neslinkošu slinkodams slinkoja slinkojat slinkoji slinkojis slinkojot slinkoju slinkojuši slinkosi slinkots slinkotu slinkošana slinkošanas slinkošanu slinkošanā
+27	7227	noslēpumainība	noslēpumainībai noslēpumainības noslēpumainību
+28	7228	krūškurvis	krūškurvi krūškurvim krūškurvja krūškurvī
+29	7229	aizvilināt	aizvilina aizvilini aizvilinot aizvilināja aizvilinājis aizvilinājusi aizvilinās aizvilināsim aizvilināsit aizvilināti aizvilinātu aizvilināšu
+30	7230	izlocīties	izlocījies izlocījusies izlocījās izlocīšanās izlokās jāizlokās neizlocīties neizlocīšos neizlokieties
+31	7231	trompete	trompetei trompetes trompeti trompetēm trompešu
+32	7232	producēt	jāproducē producē producēja producējam producējis producējot producējošā producēju producējusi producējuši producēs producēta producētais producētajām producētajās producētas producētie producētiem producēto producēts producētu producētā producētās producēšana producēšanai producēšanas producēšanu producēšanā
+33	7233	piemērīt	jāpiemēra nepiemērot piemērām piemērāt piemērīja piemērīji piemērīs piemērīsim piemērīts piemērīšu
+34	7234	videoieraksts	videoieraksta videoierakstam videoieraksti videoierakstiem videoierakstos videoierakstu videoierakstus videoierakstā
+35	7235	noklāt	jānoklāj nenoklāj noklāj noklāja noklājiet noklājis noklājot noklāju noklās noklāsim noklāts noklātu noklāšana noklāšu
+36	7236	kāroties	kārojas kārojies kārojās kārosies kārotos nekārojas nekārosies nekārotos
+37	7237	uzmetums	uzmetuma uzmetumam uzmetumi uzmetumiem uzmetumos uzmetumu uzmetumus uzmetumā
+38	7238	metamfetamīns	metamfetamīna metamfetamīnu
+39	7239	lavīna	lavīnai lavīnas lavīnu lavīnā
+40	7240	emigrants	emigranta emigranti emigrantiem emigrantos emigrantu emigrantus
+41	7241	tūkstošgade	tūkstošgadei tūkstošgades tūkstošgadi tūkstošgadē tūkstošgadēm tūkstošgadēs tūkstošgažu
+42	7242	zaimot	jāzaimo nezaimojam nezaimotu nezaimošu zaimo zaimoja zaimojat zaimoji zaimojis zaimojot zaimojošs zaimoju zaimojusi zaimojuši zaimos zaimots zaimotu zaimošana zaimošanas zaimošanu zaimošanā
+43	7243	horizontāli	
+44	7244	burātājs	burātāja burātājam burātāji burātājiem burātāju burātājus
+45	7245	nobeigties	jānobeidzas nenobeigsies nenobeigtos nobeidzamies nobeidzas nobeidzies nobeidzos nobeidzās nobeigsies nobeigtos nobeigšanās nobeigšos
+46	7246	spilve	spila spilva spilvai spilvas spilves spilvi spilvu spilvā spilvās spilvē
+47	7247	sarkt	jāsarkst nesarkst nesarkstot nesarkt sarka sarkdams sarkst sarkstam sarkstat sarksti sarkstošo sarkstu sarktu sarku sarkšana sarkšanas sarkšanu
+48	7248	apbērt	apber apberam apberat apberiet apberot apberu apbēra apbēris apbērs apbērts apbērtu apbēru apbēršu jāapber neapberot
+49	7249	tulzna	tulznas tulznu tulznā tulznām tulznās
+50	7250	datne	datnei datnes datni datnē datnēm datņu
+51	7251	piešūt	jāpiešuj nepiešuj nepiešūs nepiešūsi piešuj piešujiet piešujot piešuju piešuva piešuvi piešuvu piešuvusi piešuvuši piešūs piešūta piešūtai piešūts piešūtu piešūtā piešūšu
+52	7252	lācēns	lācēn lācēna lācēnam lācēni lācēniem lācēnu lācēnus
+53	7253	tērzēt	netērzēsiet tērzē tērzēdams tērzēja tērzējam tērzējot tērzēju tērzējām tērzēsiet tērzēšana tērzēšanas tērzēšanu tērzēšu
+54	7254	steidzīgs	steidzīga steidzīgai steidzīgais steidzīgajai steidzīgajam steidzīgajiem steidzīgajos steidzīgajā steidzīgam steidzīgas steidzīgie steidzīgiem steidzīgo steidzīgos steidzīgu steidzīgus steidzīgā steidzīgāk steidzīgāka steidzīgākajiem steidzīgākam steidzīgākas steidzīgāki steidzīgākie steidzīgākiem steidzīgāko steidzīgākus steidzīgākā steidzīgām steidzīgās
+55	7255	fotografēties	fotografēdamies fotografējamies fotografējas fotografējies fotografējos fotografējoties fotografējusies fotografējāmies fotografējās fotografēsies fotografēšanās jāfotografējas nefotografēsimies
+56	7256	pārkārtot	jāpārkārto nepārkārtoja nepārkārtojot pārkārto pārkārtoja pārkārtojam pārkārtoji pārkārtojiet pārkārtojis pārkārtojot pārkārtoju pārkārtojām pārkārtosiet pārkārtosim pārkārtots pārkārtotu pārkārtošana
+57	7257	ventilators	ventilatora ventilatoram ventilatori ventilatoriem ventilatoru ventilatorus
+58	7258	pilēt	pil pilam pili pilot pilu pilēja pilējis pilēs pilēšana
+59	7259	parodija	parodijai parodijas parodiju parodijā parodijām
+60	7260	zilbe	zilbei zilbes zilbi zilbju zilbēm zilbēs
+61	7261	deflācija	deflācijai deflācijas deflāciju deflācijā
+62	7262	kņaziene	kņazienei kņazienes kņazieni
+63	7263	izlutināt	izlutina izlutināja izlutinājis izlutinājusi izlutinājušas izlutinājuši izlutināsi izlutināsit izlutināta izlutinātas izlutināti izlutinātie izlutināto izlutināts izlutinātu izlutinātā izlutināšanu neizlutinās
+64	7264	nākošnedēļ	
+65	7265	nacionāli	
+66	7266	pataupīt	jāpataupa nepataupīja pataupa pataupi pataupiet pataupot pataupu pataupīji pataupījis pataupīju pataupījuši pataupījām pataupīsi pataupīsim pataupīto pataupīts pataupītu pataupīšu
+67	7267	radikālis	radikāla radikāliem radikālim radikālos radikālu radikālus radikāļi radikāļiem radikāļos radikāļu radikāļus
+68	7268	adekvāti	
+69	7269	īsteni	
+70	7270	nopeldēties	jānopeldas nenopeldējos nopeldamies nopeldas nopeldos nopeldoties nopeldējies nopeldējos nopeldējušies nopeldējāmies nopeldētos
+71	7271	hipotētisks	hipotētiska hipotētiskai hipotētiskais hipotētiskajai hipotētiskajām hipotētiskas hipotētiskie hipotētiskiem hipotētisko hipotētisku hipotētiskus hipotētiskā hipotētiskām hipotētiskās
+72	7272	parēķināt	jāparēķina neparēķinot parēķina parēķini parēķiniet parēķinot parēķinu parēķināja parēķinājis parēķināju parēķinājusi parēķinājuši parēķinājām parēķinām parēķinās parēķināsim parēķinātu parēķināšu
+73	7273	žigls	visžiglākais žigla žiglais žiglajiem žiglas žiglie žigliem žiglo žiglu žiglāk žiglākie
+74	7274	cītīgs	cītīga cītīgai cītīgais cītīgajiem cītīgam cītīgas cītīgie cītīgiem cītīgo cītīgos cītīgu cītīgus cītīgā cītīgāk cītīgākajiem cītīgāki cītīgākie cītīgākā cītīgākās cītīgām cītīgās viscītīgāk viscītīgākajiem
+75	7275	aristokrāts	aristokrāta aristokrāti aristokrātiem aristokrātu aristokrātus
+76	7276	blaka	blakam blakos blaku blakām
+77	7277	apdedzināt	apdedzina apdedzinot apdedzināja apdedzinājis apdedzināju apdedzinājusi apdedzinājuši apdedzinās apdedzināta apdedzinātas apdedzināti apdedzinātie apdedzinātu apdedzinātā apdedzināšana apdedzināšanas apdedzināšu jāapdedzina neapdedzini neapdedzinot neapdedzinās neapdedzināt neapdedzinātie
+78	7278	rātsnams	rātsnama rātsnamam rātsnamu rātsnamā
+79	7279	kvēpi	kvēpiem kvēpos kvēpu kvēpus
+80	7280	minerālmēsli	minerālmēsliem minerālmēslu minerālmēslus
+81	7281	observatorija	observatorijai observatorijas observatoriju observatorijā observatorijām
+82	7282	piedzert	nepiedzertos piedzer piedzeram piedzerot piedzertos piedzertu piedzeršu piedzēra piedzēris piedzēruša piedzērušais piedzērušajiem piedzēruši piedzērušie piedzērušiem piedzērušo piedzērušos piedzērušu piedzērušus piedzērušā piedzērušām piedzērušās
+83	7283	svilpt	jāsvilpj svilp svilpa svilpi svilpis svilpj svilpjot svilps svilpts svilpšana
+84	7284	sadzerties	nesadzersies sadzeramies sadzeras sadzeries sadzeroties sadzertos sadzeršanās sadzēries sadzēros sadzērusies sadzērušies sadzērušās sadzērāmies sadzērās
+85	7285	mošeja	mošejai mošejas mošeju mošejā mošejām mošejās
+86	7286	dzīvesziņa	dzīvesziņai dzīvesziņas dzīvesziņu dzīvesziņā
+87	7287	argumentācija	argumentācijai argumentācijas argumentāciju argumentācijā
+88	7288	agrums	agruma agrumam agrumi agrumu agrumā
+89	7289	uznest	jāuznes neuznes uznes uznesa uznesam uznesot uznests uznestu uznesu uznesām uznesīs uznesīsiet uznesīsim uznesīšu uznešana
+90	7290	cietzeme	cietzemes cietzemi
+91	7291	uzost	neuzož uzod uzoda uzodis uzoduši uzodāt uzodīs uzodīšu uzož
+92	7292	kaviārs	kaviāra kaviāru
+93	7293	jaukums	jaukum jaukuma jaukumam jaukumi jaukumiem jaukumos jaukumu jaukumus jaukumā
+94	7294	uzbērt	jāuzber neuzbērt uzber uzberam uzberiet uzberot uzberu uzbēra uzbērs uzbērts uzbērtu uzbēru uzbērām uzbēršana
+95	7295	rasistisks	rasistiska rasistiskai rasistiskais rasistiskajiem rasistiskajos rasistiskajā rasistiskas rasistiski rasistiskie rasistiskiem rasistisko rasistiskos rasistisku rasistiskus rasistiskā rasistiskākā rasistiskām rasistiskās
+96	7296	muskulatūra	muskulatūrai muskulatūras muskulatūru muskulatūrā
+97	7297	reālistisks	reālistiska reālistiskai reālistiskais reālistiskajiem reālistiskajā reālistiskajām reālistiskajās reālistiskam reālistiskas reālistiski reālistiskie reālistiskiem reālistisko reālistiskos reālistisku reālistiskus reālistiskā reālistiskāk reālistiskāka reālistiskākajai reālistiskākam reālistiskākas reālistiskāki reālistiskāks reālistiskāku reālistiskām reālistiskās
+98	7298	skaitliski	
+99	7299	atpelnīt	atpelna atpelni atpelniet atpelnot atpelnošs atpelnāmi atpelnī atpelnīja atpelnījis atpelnījušas atpelnījuši atpelnījām atpelnīs atpelnīsi atpelnīsiet atpelnīsim atpelnītos atpelnīts atpelnītu atpelnīšana jāatpelna neatpelna neatpelnot neatpelnīs
+100	7300	pakalt	pakal pakala pakali pakalu pakaļu

@@ -1,100 +1,100 @@
-1	2801	krēms	krēma krēmu
-2	2802	izpildījums	izpildījuma izpildījumam izpildījumi izpildījumiem izpildījumos izpildījumu izpildījumus izpildījumā
-3	2803	vingrinājums	vingrinājuma vingrinājumam vingrinājumi vingrinājumiem vingrinājumos vingrinājumu vingrinājumus vingrinājumā
-4	2804	atriebība	atriebībai atriebības atriebību atriebībā atriebībām
-5	2805	gadalaiks	gadalaika gadalaikam gadalaiki gadalaikiem gadalaikos gadalaiku gadalaikus gadalaikā
-6	2806	novākt	novāca
-7	2807	viņaprāt	
-8	2808	viskijs	viskija viskijam viskiji viskijiem viskiju viskijus
-9	2809	alerģija	alerģijai alerģijas alerģiju alerģijām
-10	2810	zveja	zvejai zvejam zvejas zveji zveju zvejā
-11	2811	pievilt	jāpieviļ nepievilt pievil pievils pievilsi pievilsiet pievilsim pievilts pieviltu pieviļ pieviļat pievīla pievīli pievīlis pievīlu pievīlām
-12	2812	islāms	islams islām islāma islāmam islāmu islāmā
-13	2813	mūks	mūk mūka mūkam mūki mūkiem mūku mūkus mūkā mūķene mūķenei mūķenes mūķeni mūķenē mūķenēm mūķeņu
-14	2814	kaitināt	kaitina kaitini kaitinot kaitinošs kaitinu kaitināja kaitinājis kaitināju kaitinājāt kaitinām kaitinās kaitināsi kaitinātu kaitināšana nekaitināt
-15	2815	raut	jārauj neraut rauj raujam raujat raujiet raujot rauju raus rausi rausiet rausim rauts rautu raušana raušu rāva rāvi rāvis rāvu rāvām rāvāt
-16	2816	ekonomiski	
-17	2817	skumt	jāskumst neskumt skuma skumdams skumi skumis skums skumsi skumsim skumsit skumst skumstam skumstat skumsti skumstot skumstu skumtu skumu skumām skumšu
-18	2818	oficiāls	oficiālajā
-19	2819	daikts	daikta daiktam daikti daiktiem daiktu daiktus daiktā
-20	2820	citreiz	
-21	2821	literārs	literāra literārai literārais literārajai literārajam literārajiem literārajos literārajā literārajām literārajās literāram literāras literāri literārie literāriem literāro literāros literāru literārus literārā literārām literārās
-22	2822	burbulis	burbuli burbulim burbulī burbuļa burbuļi burbuļiem burbuļos burbuļu burbuļus
-23	2823	slieksnis	slieksni slieksnim slieksnī sliekšņa sliekšņi sliekšņiem sliekšņos sliekšņu sliekšņus
-24	2824	definēt	definē definēja definējam definējams definēji definējiet definējis definējot definēju definējām definēs definēsiet definēsim definēts definētu definēšana jādefinē nedefinēt
-25	2825	grāmatvedis	grāmatvede grāmatvedi grāmatvedim grāmatvedī grāmatveža grāmatveži grāmatvežiem grāmatvežu grāmatvežus
-26	2826	ēdienkarte	ēdienkartei ēdienkartes ēdienkarti ēdienkartē ēdienkartēm ēdienkartēs ēdienkaršu
-27	2827	pievērsties	pievērsās
-28	2828	slepeni	
-29	2829	banknote	banknotei banknotes banknoti banknotēm banknotēs banknošu
-30	2830	zīle	zīlei zīles zīli zīlē zīlēm zīlīte zīlītei zīlītes zīlīti zīlītē zīlītēm zīlītēs zīlīšu zīļu
-31	2831	tipisks	tipiska tipiskai tipiskais tipiskajiem tipiskajā tipiskajām tipiskam tipiskas tipiskie tipiskiem tipisko tipiskos tipisku tipiskus tipiskā tipiskāks tipiskām tipiskās vistipiskākais
-32	2832	niere	nierei nieres nieri nieru nierē nierēm nierēs
-33	2833	bērt	ber beram berot beru bēra bērais bērdams bēri bēriem bēris bēro bērs bērts bērtu bēru bērus bēruši bērām bēršana jāber nebērt
-34	2834	stulbums	stulbuma stulbumam stulbumi stulbumiem stulbumu stulbumus stulbumā
-35	2835	ekrāns	ekrānā
-36	2836	pusgads	pusgadu
-37	2837	hans	han hana hanam hani haniem hanu hanus
-38	2838	augstība	augstībai augstības augstību augstībā augstībām
-39	2839	ārs	ār āra āri āros āru
-40	2840	ārzemnieks	ārzemniece ārzemnieces ārzemnieci ārzemniecē ārzemniecēm ārzemnieka ārzemniekam ārzemnieki ārzemniekiem ārzemniekos ārzemnieku ārzemniekus
-41	2841	bioloģija	bioloģijai bioloģijas bioloģiju bioloģijā
-42	2842	mētelis	mēteli mētelim mētelī mēteļa mēteļi mēteļiem mēteļos mēteļu mēteļus
-43	2843	jāšana	jāšanai jāšanas jāšanos jāšanu jāšanā jāšanās
-44	2844	colla	collai collam collas collu collām collās
-45	2845	vēsturnieks	vēsturniece vēsturniecei vēsturnieces vēsturnieci vēsturniek vēsturnieka vēsturniekam vēsturnieki vēsturniekiem vēsturniekos vēsturnieku vēsturniekus
-46	2846	kodols	kodol kodola kodolam kodoli kodoliem kodolu kodolus kodolā
-47	2847	ost	od oda odi odiet odis odu odām odīs ostu ož ožu
-48	2848	atklātība	atklātībai atklātības atklātību atklātībā
-49	2849	cītīgi	
-50	2850	cūkas	
-51	2851	ieliet	ielej ielejam ielejat ielejiet ielejot ieleju ieliedams ielies ieliesi ieliesiet ieliesim ieliets ielietu ieliešana ieliešu ielēja ielēji ielējis ielēju ielējām jāielej neieliet
-52	2852	krāšņs	krāšņa krāšņai krāšņais krāšņajai krāšņajam krāšņajiem krāšņajos krāšņajā krāšņajām krāšņajās krāšņam krāšņas krāšņie krāšņiem krāšņo krāšņos krāšņu krāšņus krāšņā krāšņāks krāšņām krāšņās viskrāšņākais
-53	2853	koksne	koksnei koksnes koksni koksnē koksnēm
-54	2854	dienēt	dien dienam dienat dieni dienot dienu dienē dienēdams dienēja dienēji dienējis dienējot dienēju dienējām dienējāt dienēs dienēts dienētu dienēšu jādien jādienē
-55	2855	divpadsmit	divpadsmitiem divpadsmitos
-56	2856	imperators	imperator imperatora imperatoram imperatore imperatores imperatori imperatoriem imperatoru imperatorus
-57	2857	garastāvoklis	garastāvokli garastāvoklim garastāvoklī garastāvokļa garastāvokļi garastāvokļiem garastāvokļu
-58	2858	baltkrievs	baltkrieva baltkrievam baltkrievi baltkrieviem baltkrieviete baltkrievietei baltkrievietes baltkrievieti baltkrievu baltkrievus
-59	2859	akcīze	akcīzes
-60	2860	vērties	jāveras veramies veras veraties veries verieties veros veroties vēries vēros vērsies vērsieties vērsimies vērtos vērāmies vērās vēršanās vēršos vēršoties
-61	2861	orientēšanās	orientēšana orientēšanos orientēšanu
-62	2862	drudzis	drudzi drudzim drudzī drudža drudži drudžiem drudžu
-63	2863	pups	pup pupam pupi pupiem pupos pupu pupus pupā
-64	2864	iedvesmot	iedvesmo
-65	2865	amatnieks	amatniece amatnieces amatnieci amatniecēm amatniek amatnieka amatniekam amatnieki amatniekiem amatniekos amatnieku amatniekus amatnieču
-66	2866	klauns	klaun klauna klaunam klauni klauniem klaunos klaunu klaunus klaunā
-67	2867	valdnieks	
-68	2868	izcelties	izcēlās
-69	2869	pusaudzis	pusaudžu
-70	2870	aukstums	aukstuma aukstumam aukstumi aukstumos aukstumu aukstumā
-71	2871	ķirsis	ķirsi ķirsim ķirsī ķirša ķirši ķiršiem ķiršos ķiršu ķiršus
-72	2872	redzēšanās	redzēšanos
-73	2873	sastapt	sastopamas
-74	2874	paveikties	paveicies
-75	2875	zoss	zosi zosij zosis zosu zosī zosīm zosīs
-76	2876	oranžs	oranža oranžai oranžais oranžajai oranžajam oranžajiem oranžajos oranžajā oranžas oranži oranžie oranžiem oranžo oranžos oranžu oranžus oranžā oranžāks oranžām oranžās
-77	2877	arhīvs	
-78	2878	oma	omai omas omu omā
-79	2879	raize	raizes raizi raizēm raizēs raižu
-80	2880	rosināt	rosina
-81	2881	nebijis	nebijusi nebijuša nebijušai nebijušam nebijušas nebijuši nebijušiem nebijušos nebijušu nebijušus nebijušā nebijušām nebijušās
-82	2882	aktivizēt	aktivizē aktivizēja aktivizējam aktivizējams aktivizējat aktivizēji aktivizējiet aktivizējis aktivizējot aktivizēju aktivizējām aktivizēs aktivizēsi aktivizēsiet aktivizēsim aktivizēts aktivizētu aktivizēšana jāaktivizē neaktivizēt
-83	2883	dēmons	dēmon dēmona dēmonam dēmoni dēmoniem dēmonos dēmonu dēmonus
-84	2884	mazbērns	mazbērna mazbērnam mazbērni mazbērniem mazbērnos mazbērnu mazbērnus
-85	2885	kristāls	kristāl kristāla kristālam kristāli kristāliem kristālos kristālu kristālus kristālā
-86	2886	vājprāts	vājprāta vājprātam vājprātiem vājprātu vājprātā
-87	2887	haizivs	haizivi haizivij haizivis haizivju haizivī haizivīm
-88	2888	straume	straumes
-89	2889	krūze	krūzei krūzes krūzi krūzē krūzēm krūzēs krūžu
-90	2890	augstākais	
-91	2891	iepirkties	
-92	2892	tehnoloģisks	tehnoloģiska tehnoloģiskai tehnoloģiskais tehnoloģiskajai tehnoloģiskajam tehnoloģiskajiem tehnoloģiskajos tehnoloģiskajā tehnoloģiskajām tehnoloģiskajās tehnoloģiskam tehnoloģiskas tehnoloģiski tehnoloģiskie tehnoloģiskiem tehnoloģisko tehnoloģiskos tehnoloģisku tehnoloģiskus tehnoloģiskā tehnoloģiskām tehnoloģiskās
-93	2893	revīzija	revīzijai revīzijas revīziju revīzijā revīzijām revīzijās
-94	2894	piegādāt	piegādā
-95	2895	raktuve	raktuves raktuvi raktuvju raktuvē raktuvēm raktuvēs
-96	2896	tinte	tiniem tinos tintei tintes tinti tintē tintēm
-97	2897	mironis	mironi mironim mironī miroņa miroņi miroņiem miroņu miroņus
-98	2898	putināt	putina putini putinu putināja putinājis putinājām putinās putināts putināšana
-99	2899	starptautiski	
-100	2900	latvis	latis latve latvi latvim latvja latvji latvjiem latvju latvjus latvēm
+1	2801	benzīns	benzīna benzīnam benzīni benzīnu benzīnus benzīnā
+2	2802	kompensācija	kompensācijai kompensācijas kompensāciju kompensācijā kompensācijām kompensācijās
+3	2803	novēlēt	jānovēl nenovēl nenovēlot nenovēlu nenovēlēja nenovēlēt nenovēlētu novēl novēlam novēlat novēli novēliet novēlot novēlu novēlē novēlēdams novēlēja novēlējis novēlējot novēlēju novēlējām novēlēs novēlēsi novēlēsiet novēlēsim novēlēts novēlētu novēlēšu
+4	2804	svece	svecei sveces sveci svecē svecēm svecēs sveču
+5	2805	teniss	tenis tenisa tenisam tenisu tenisā
+6	2806	cilvēktiesības	cilvēktiesību
+7	2807	septītais	septītajai septītajam septītajā septītajām septītajās septītam septītie septīto septītos septīts septītā septītās
+8	2808	zobārsts	zobārst zobārsta zobārstam zobārste zobārstei zobārstes zobārsti zobārstiem zobārstos zobārstu zobārstus
+9	2809	lappuse	lappusei lappuses lappusi lappusē lappusēm lappusēs lappušu
+10	2810	garāža	garāžai garāžas garāžu garāžā garāžām garāžās
+11	2811	attēlot	attēlo attēloja attēlojam attēlojams attēlojat attēlojiet attēlojis attēlojot attēloju attēlojusi attēlojušas attēlojuši attēlojām attēlosim attēlota attēlotais attēlotas attēloti attēlotie attēloto attēlots attēlotu attēlotā attēlošana attēlošanas attēlošanu attēlošanā attēlošu jāattēlo neattēlo neattēlosim neattēlot
+12	2812	rotaļa	rotaļai rotaļas rotaļu rotaļā rotaļām rotaļās
+13	2813	dēlis	dēi dēis dēli dēlim dēlī dēļa dēļi dēļiem dēļos dēļu dēļus
+14	2814	vēstnieks	vēstniece vēstniecei vēstnieces vēstnieci vēstniecēm vēstniek vēstnieka vēstniekam vēstnieki vēstniekiem vēstnieku vēstniekus
+15	2815	traģēdija	traģēdijai traģēdijas traģēdiju traģēdijā traģēdijām traģēdijās
+16	2816	konstrukcija	konstrukcijai konstrukcijas konstrukciju konstrukcijā konstrukcijām konstrukcijās
+17	2817	pulkvedis	pulkvedi pulkvedim pulkveža pulkveži pulkvežiem pulkvežu
+18	2818	litrs	litra litram litri litriem litros litru litrus litrā
+19	2819	izcīņa	izcīņai izcīņas izcīņu izcīņā izcīņām izcīņās
+20	2820	priekšstats	priekšstat priekšstata priekšstatam priekšstati priekšstatiem priekšstatos priekšstatu priekšstatus priekšstatā
+21	2821	atvēlēt	atvēl atvēlam atvēli atvēliet atvēlot atvēlu atvēlē atvēlēja atvēlējis atvēlējusi atvēlējušas atvēlējuši atvēlējām atvēlējāt atvēlēs atvēlēsi atvēlēsiet atvēlēsim atvēlēta atvēlētais atvēlētas atvēlēti atvēlētie atvēlēto atvēlēts atvēlētu atvēlētā atvēlēšana atvēlēšanu atvēlēšanā atvēlēšot atvēlēšu jāatvēl neatvēl neatvēlam neatvēlot neatvēlēja neatvēlēs neatvēlētu
+22	2822	balodis	balodi balodim balodī baloža baloži baložiem baložos baložu baložus
+23	2823	programmatūra	programmatūrai programmatūras programmatūru programmatūrā programmatūrām programmatūrās
+24	2824	beisbols	beisbola beisbolam beisbolu beisbolā
+25	2825	redaktors	redaktor redaktora redaktoram redaktore redaktori redaktoriem redaktoru redaktorus redaktorā
+26	2826	parādība	parādībai parādības parādību parādībā parādībām parādībās
+27	2827	priesteris	priestera priesteri priesteriem priesteriene priesterienes priesterieni priesterienēm priesterieņu priesterim priesteru priesterus
+28	2828	uzveikt	jāuzveic neuzveic neuzveicam neuzveicams neuzveicu neuzveicāt neuzveiks neuzveiksi neuzveiksim neuzveiksit neuzveikt neuzveikts neuzveiktu uzveic uzveica uzveicams uzveici uzveiciet uzveicis uzveicot uzveicu uzveicām uzveiks uzveiksi uzveiksim uzveikts uzveiktu uzveikšana uzveikšu
+29	2829	ievadīt	ievadiet ievadot ievadām ievadāms ievadāt ievadīja ievadīji ievadījis ievadīju ievadījusi ievadījušas ievadījuši ievadījām ievadījāt ievadīs ievadīsi ievadīsiet ievadīsim ievadīta ievadītais ievadītas ievadīti ievadītie ievadīto ievadīts ievadītu ievadītā ievadīšana ievadīšanas ievadīšanu ievadīšanā ievadīšot ievadīšu jāievada neievadiet neievadot neievadāt neievadīsi neievadīt
+30	2830	mākslīgs	mākslīga mākslīgai mākslīgais mākslīgajai mākslīgajam mākslīgajiem mākslīgajā mākslīgajām mākslīgajās mākslīgam mākslīgas mākslīgie mākslīgiem mākslīgo mākslīgos mākslīgu mākslīgus mākslīgā mākslīgām mākslīgās
+31	2831	plaušas	plaušu plaušām plaušās
+32	2832	krūts	krūti krūtij krūtī krūtīm krūtīs krūšu
+33	2833	izgudrot	izgudro izgudrodams izgudroja izgudrojam izgudrojat izgudroji izgudrojis izgudrojot izgudroju izgudrojusi izgudrojušas izgudrojuši izgudrojām izgudrojāt izgudros izgudrosi izgudrota izgudrotais izgudrotas izgudroti izgudrotie izgudroto izgudrots izgudrotu izgudrotā izgudrošana izgudrošanai izgudrošanas izgudrošanu izgudrošanā izgudrošu jāizgudro neizgudro neizgudroja neizgudrojam neizgudrojiet neizgudroju neizgudros neizgudrosi
+34	2834	luga	lugai lugas lugu lugā lugām lugās
+35	2835	izklaidēties	izklaidējamies izklaidējas izklaidējaties izklaidējies izklaidējieties izklaidējos izklaidējoties izklaidējusies izklaidējušies izklaidējušās izklaidējāmies izklaidējās izklaidēsies izklaidēsieties izklaidēsimies izklaidētos izklaidēšanās jāizklaidējas neizklaidējamies neizklaidējas neizklaidējies neizklaidēšos
+36	2836	dīvāns	dīvāna dīvānam dīvāni dīvāniem dīvānos dīvānu dīvānus dīvānā
+37	2837	sadursme	sadursmei sadursmes sadursmi sadursmju sadursmē sadursmēm sadursmēs
+38	2838	skaidrība	skaidrībai skaidrības skaidrību skaidrībā
+39	2839	apkalpe	apkalpei apkalpes apkalpi apkalpju apkalpē apkalpēm
+40	2840	impērija	impērijai impērijas impēriju impērijā impērijām impērijās
+41	2841	klausīt	jāklausa klausa klausi klausiet klausot klausu klausām klausāms klausāt klausīja klausīji klausījis klausīju klausīs klausīsi klausīsiet klausīsim klausīts klausītu klausīšana klausīšu neklausīt
+42	2842	medus	medi medu medum medū
+43	2843	izplatīties	izplatoties izplatās izplatījies izplatījusies izplatījušies izplatījušās izplatījās izplatīsies izplatīšanās neizplatoties neizplatījās neizplatīsies neizplatītos
+44	2844	izpilde	izpildei izpildes izpildē izpildēs
+45	2845	aptieka	aptiekai aptiekas aptieku aptiekā aptiekām aptiekās
+46	2846	izlaidums	izlaiduma izlaidumam izlaidumi izlaidumiem izlaidumos izlaidumu izlaidumus izlaidumā
+47	2847	apprecēties	apprecamies apprecas apprecies apprecieties apprecoties apprecējamies apprecējies apprecējos apprecējusies apprecējušies apprecējušās apprecējāmies apprecējās apprecējāties apprecēsies apprecēsieties apprecēsimies apprecētos apprecēšanās apprecēšos apprecēšoties jāapprecas neapprecamies neapprecas neapprecaties neapprecējies neapprecējāmies neapprecējās neapprecēsies neapprecēties neapprecētos
+48	2848	bezdarbnieks	bezdarbnieka bezdarbniekam bezdarbnieki bezdarbniekiem bezdarbniekos bezdarbnieku bezdarbniekus bezdarbniekā bezdarbniekām
+49	2849	rādīties	jārādās nerādas nerādies nerādieties nerādos nerādoties nerādās nerādījies nerādījos nerādījās nerādīsies nerādīsieties nerādīsimies nerādīties nerādītos nerādīšos nerādīšoties rādas rādies rādieties rādos rādoties rādās rādījas rādījies rādījos rādījās rādīsies rādītos rādīšos
+50	2850	lūgties	jālūdzas lūdzamies lūdzas lūdzaties lūdzies lūdzieties lūdzos lūdzoties lūdzāmies lūdzās lūdzāties lūgdamies lūgsies lūgsieties lūgsimies lūgtos lūgšanās lūgšos lūgšoties nelūdzamies nelūdzas nelūdzos nelūdzoties nelūgdamies nelūgsies nelūgsieties nelūgtos nelūgšos
+51	2851	ierēdnis	ierēdne ierēdni ierēdnim ierēdnu ierēdņa ierēdņi ierēdņiem ierēdņos ierēdņu ierēdņus
+52	2852	mudināt	jāmudina mudina mudini mudiniet mudinot mudinu mudinādams mudināja mudināji mudinājis mudināju mudinājusi mudinājušas mudinājuši mudinājām mudinām mudināms mudinās mudināsi mudināsim mudināta mudinātas mudināti mudināts mudinātu mudināšana mudināšanas mudināšanu mudināšu nemudina nemudini nemudinu nemudināja nemudināju nemudinām nemudinās nemudināt nemudināts nemudinātu
+53	2853	smaržot	jāsmaržo nesmaržo nesmaržoja nesmaržojam nesmaržos smaržo smaržoja smaržojam smaržojat smaržojiet smaržojot smaržojošs smaržoju smaržojuši smaržos smaržosi smaržotu smaržošu
+54	2854	tanks	tank tanka tankam tanki tankiem tankos tanku tankus tankā
+55	2855	spiegs	spiega spiegam spiegi spiegiem spiegu spiegus
+56	2856	komponists	komponista komponistam komponisti komponistiem komponistos komponistu komponistus komponistā
+57	2857	smuks	smuka smukai smukais smukajai smukajam smukajiem smukajos smukajā smukajām smukajās smukam smukas smukie smukiem smuko smukos smuku smukus smukā smukāk smukāka smukākais smukākajām smukākas smukāki smukāko smukāks smukāku smukākā smukākās smukām smukās vissmukākais vissmukākajā vissmukākie vissmukāko
+58	2858	noskaņojums	noskaņojuma noskaņojumam noskaņojumi noskaņojumiem noskaņojumu noskaņojumus noskaņojumā
+59	2859	tīrīšana	tīrīšanai tīrīšanas tīrīšanu tīrīšanā tīrīšanām tīrīšanās
+60	2860	gandarījums	gandarījum gandarījuma gandarījumam gandarījumiem gandarījumu gandarījumus gandarījumā
+61	2861	strāva	strāvai strāvas strāvu strāvā strāvām
+62	2862	reibums	reibuma reibumam reibumu reibumus reibumā
+63	2863	stāvvieta	stāvvietai stāvvietas stāvvietu stāvvietā stāvvietām stāvvietās
+64	2864	golfs	golf golfa golfam golfi golfiem golfu golfus golfā
+65	2865	guļamistaba	guļamistabai guļamistabas guļamistabu guļamistabā guļamistabām guļamistabās
+66	2866	pašnāvība	pašnāvībai pašnāvības pašnāvību pašnāvībā pašnāvībām pašnāvībās
+67	2867	atklāties	atklājas atklājies atklājoties atklājās atklāsies atklāšanās atklāšos neatklājas neatklājās neatklāsies neatklāties neatklātos
+68	2868	sencis	sences senci senciem sencim sencus senis senča senči senčiem senčos senču senčus
+69	2869	galdiņš	galdiņa galdiņam galdiņi galdiņiem galdiņos galdiņu galdiņus
+70	2870	pieejamība	pieejamībai pieejamības pieejamību pieejamībā
+71	2871	brūns	brūna brūnai brūnais brūnajai brūnajam brūnajiem brūnajos brūnajā brūnajām brūnajās brūnam brūnas brūnie brūniem brūno brūnos brūnu brūnus brūnā brūnāka brūnākai brūnāks brūnākus brūnākām brūnām brūnās
+72	2872	stops	stop stopa stopam stopi stopiem stopu stopus
+73	2873	filozofija	filosofija filosofijai filosofijas filosofiju filosofijā filozofijai filozofijas filozofiju filozofijā filozofijām filozofijās
+74	2874	ikgadējs	ikgadēja ikgadējai ikgadējais ikgadējajās ikgadējam ikgadējas ikgadēji ikgadējie ikgadējiem ikgadējo ikgadējos ikgadēju ikgadējus ikgadējā ikgadējām ikgadējās
+75	2875	birža	biržai biržas biržu biržā biržām biržās
+76	2876	izkāpt	izkāp izkāpa izkāpdams izkāpi izkāpiet izkāpis izkāpj izkāpjam izkāpjat izkāpjot izkāpju izkāps izkāpsi izkāpsiet izkāpsim izkāpsit izkāpts izkāptu izkāpu izkāpām izkāpšana izkāpšu jāizkāpj neizkāp neizkāpa neizkāpis neizkāpj neizkāpjam neizkāpjot neizkāps neizkāpsi
+77	2877	orgāns	orgāna orgānam orgāni orgāniem orgānos orgānu orgānus orgānā
+78	2878	futbolists	futbolista futbolistam futboliste futbolisti futbolistiem futbolistu futbolistus
+79	2879	tērauds	tērauda tēraudam tēraudu tēraudā
+80	2880	absolvents	absolventa absolventam absolventi absolventiem absolventos absolventu absolventus
+81	2881	kvartāls	kvartāla kvartālam kvartāli kvartāliem kvartālos kvartālu kvartālus kvartālā
+82	2882	brālēns	brālēn brālēna brālēnam brālēni brālēniem brālēnu brālēnus
+83	2883	ģēnijs	ģēnij ģēnija ģēnijam ģēniji ģēnijiem ģēniju ģēnijus
+84	2884	iekrist	iekristu iekrita iekriti iekritis iekritu iekritām iekritāt iekritīs iekritīsi iekritīsim iekritīšu iekrišana iekrīt iekrītam iekrītat iekrīti iekrītiet iekrītot iekrītu jāiekrīt neiekrist neiekristu neiekrita neiekritis neiekritīs neiekritīsim neiekrīt neiekrītam neiekrītat neiekrīti neiekrītiet neiekrītot
+85	2885	sakaut	jāsakauj nesakaujam nesakausi nesakaut nesakautu nesakāva nesakāvi nesakāvām sakauj sakaujam sakaujat sakaujot sakauju sakaus sakausi sakausim sakauts sakautu sakaušana sakaušu sakāva sakāvis sakāvu sakāvām sakāvāt
+86	2886	izteiksme	izteiksmei izteiksmes izteiksmi izteiksmju izteiksmē izteiksmēm
+87	2887	tūliņ	
+88	2888	garlaicīgi	
+89	2889	stipendija	stipendijai stipendijas stipendiju stipendijā stipendijām stipendijās
+90	2890	greizs	greiza greizais greizajai greizajam greizajiem greizajos greizajā greizajām greizam greizas greizi greizie greiziem greizo greizos greizu greizus greizā greizāk greizāka greizākie greizāko greizām greizās visgreizākajiem visgreizākie
+91	2891	briedis	brieda briedi briedim briedu briedī brieža brieži briežiem briežos briežu briežus
+92	2892	taisnīgs	taisnīga taisnīgai taisnīgais taisnīgajai taisnīgajam taisnīgajiem taisnīgajā taisnīgajām taisnīgam taisnīgas taisnīgi taisnīgie taisnīgiem taisnīgo taisnīgos taisnīgu taisnīgus taisnīgā taisnīgāk taisnīgāka taisnīgākai taisnīgākais taisnīgākajiem taisnīgākajā taisnīgākas taisnīgāki taisnīgāko taisnīgāks taisnīgāku taisnīgākus taisnīgākā taisnīgām taisnīgās vistaisnīgāk vistaisnīgākais vistaisnīgāko vistaisnīgākā
+93	2893	lielveikals	lielveikala lielveikalam lielveikali lielveikaliem lielveikalos lielveikalu lielveikalus lielveikalā
+94	2894	aizmigt	aizmidzis aizmiedz aizmiedziet aizmieg aizmiegam aizmiegat aizmiegot aizmiegu aizmiga aizmigdams aizmigi aizmigs aizmigsi aizmigsiet aizmigts aizmigtu aizmigu aizmigām aizmigšana aizmigšu neaizmigt
+95	2895	straume	straumei straumes straumi straumju straumē straumēm straumēs
+96	2896	čoms	čom čoma čomam čomi čomiem čomu čomus
+97	2897	pusnakts	pusnakti pusnaktij pusnaktī
+98	2898	līdzsvars	līdzsvara līdzsvaram līdzsvari līdzsvariem līdzsvaros līdzsvaru līdzsvarā
+99	2899	simptoms	simptoma simptomam simptomi simptomiem simptomos simptomu simptomus
+100	2900	opozīcija	opozīcijai opozīcijas opozīciju opozīcijā opozīcijām

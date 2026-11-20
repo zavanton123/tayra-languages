@@ -1,0 +1,100 @@
+1	7901	nomesties	nenometās nomestos nometas nometies nometos nometoties nometās nometīsimies
+2	7902	uzcienāt	uzcienā uzcienāja uzcienājam uzcienājiet uzcienājis uzcienājot uzcienājusi uzcienājuši uzcienājām uzcienās uzcienāsi uzcienāsiet uzcienāti uzcienātu uzcienāšanu uzcienāšu
+3	7903	pabrokastot	jāpabrokasto nepabrokastoju pabrokasto pabrokastojam pabrokastoju pabrokastojām pabrokastosi pabrokastosim
+4	7904	muitnieks	muitnieka muitniekam muitnieki muitniekiem muitnieku muitniekus
+5	7905	anarhija	anarhijai anarhijas anarhiju anarhijā
+6	7906	ugunsmūris	ugunsmūra ugunsmūri ugunsmūriem ugunsmūrim ugunsmūru ugunsmūrus ugunsmūrī
+7	7907	stomatoloģija	stomatoloģijai stomatoloģijas stomatoloģiju stomatoloģijā
+8	7908	neons	neon neona neonu neonā
+9	7909	saposties	jāsapošas saposas saposies saposieties saposos sapostos saposāmies saposīsies saposīsimies sapošanās sapošas
+10	7910	uzsūkties	neuzsūcas neuzsūksies uzsūcas uzsūcies uzsūcoties uzsūcās uzsūksies uzsūktos uzsūkšanās
+11	7911	masturbācija	masturbācijai masturbācijas masturbāciju masturbācijā
+12	7912	atspīdēt	atspīd atspīdam atspīdot atspīdēja atspīdējis atspīdēs atspīdētu neatspīd neatspīdēs
+13	7913	kropļot	jākropļo kropļo kropļoja kropļojis kropļojot kropļojošs kropļojuši kropļojām kropļos kropļota kropļotas kropļoti kropļots kropļotu kropļotā kropļošana kropļošanas kropļošanu nekropļo nekropļojot nekropļos nekropļotu
+14	7914	žūpa	žūpas žūpu
+15	7915	iespļaut	iespļauj iespļaujiet iespļaus iespļautu iespļaušu iespļāva iespļāvis iespļāvuši iespļāvāt
+16	7916	kivi	
+17	7917	klibot	jāklibo klibo klibodams kliboja klibojam klibojot klibojošs kliboju klibojusi klibos klibosit klibotu klibošanas klibošanu klibošu neklibo neklibos neklibotu
+18	7918	standartizācija	standartizācijai standartizācijas standartizāciju standartizācijā
+19	7919	žāvētājs	žāvētāja žāvētājam žāvētāji žāvētājiem žāvētājos žāvētāju žāvētājus žāvētājā
+20	7920	asns	asna asnam asni asniem asnos asnu asnus asnā
+21	7921	atbalsoties	atbalsojamies atbalsojas atbalsojies atbalsojoties atbalsojās atbalsosies atbalsotos jāatbalsojas neatbalsojas neatbalsotos
+22	7922	oāze	oāzes oāzi oāzē oāzēm oāzēs oāžu
+23	7923	mazgātājs	mazgātāja mazgātājai mazgātājam mazgātājas mazgātāji mazgātājiem mazgātāju mazgātājus mazgātājā mazgātājām
+24	7924	mānīties	jāmānās mānies mānos mānoties mānāmies mānās mānījies mānījās mānīsimies mānītos mānīšanās nemānies nemānoties nemānās nemānījās nemānīties
+25	7925	pārlidot	nepārlidos pārlido pārlidodama pārlidodams pārlidoja pārlidojam pārlidoji pārlidojot pārlidoju pārlidojušas pārlidojuši pārlidos pārlidotu
+26	7926	izdejot	izdejo izdejoja izdejojam izdejojamus izdejojamā izdejojis izdejojot izdejojusi izdejojuši izdejojām izdejos izdejosim izdejota izdejotas izdejoti izdejotie izdejoto izdejots izdejotu izdejotās jāizdejo neizdejot
+27	7927	agronoms	agronoma agronomam agronomi agronomiem agronomu agronomus
+28	7928	saturēties	jāsaturas saturamies saturas saturaties saturies saturieties
+29	7929	saindēties	nesaindējāmies nesaindēties saindējas saindējies saindējos saindējoties saindējusies saindējušies saindējušās saindējāmies saindējās saindēsies saindētos
+30	7930	violeti	
+31	7931	izārstēties	izārstējas izārstējies izārstējusies izārstējušies izārstējušās izārstējās izārstēsies izārstētos izārstēšanās izārstēšos jāizārstējas neizārstēsies neizārstēšos
+32	7932	strēmele	strēmelei strēmeles strēmeli strēmelē strēmelēm strēmelēs strēmeļu
+33	7933	kubietis	kubieti kubieša kubieši kubiešiem kubiešu kubiešus
+34	7934	apvest	apved apveda apvedi apvedis apvedot apvedu apvesta apvestu
+35	7935	saraudināt	nesaraudiniet saraudina saraudināja saraudināji saraudinājis saraudināju saraudinājāt saraudināms saraudinās saraudināsi saraudinātu
+36	7936	sildīties	jāsildās nesildījas nesildīties sildies sildieties sildos sildoties sildāmies sildās sildāties sildīdamies sildījies sildījos sildījāmies sildījās sildīsies sildīsimies sildītos sildīšanās sildīšos
+37	7937	spora	sporas sporu sporām sporās
+38	7938	malks	malkam malki malkiem malkos malkus
+39	7939	kompromitēt	kompromitē kompromitējat kompromitējiet kompromitējot kompromitējošs kompromitēti kompromitētie kompromitēts kompromitētu kompromitēšanas kompromitēšanu nekompromitējot nekompromitēs
+40	7940	nodīrāt	nodīrāja nodīrājiet nodīrājām nodīrās nodīrāsim nodīrātas nodīrāti nodīrātie nodīrāts nodīrātu nodīrātā nodīrāšanas nodīrāšu
+41	7941	emirāts	emirāta emirātam emirāti emirātiem emirātos emirātu emirātus emirātā
+42	7942	rotaļlaukums	rotaļlaukuma rotaļlaukumam rotaļlaukumi rotaļlaukumiem rotaļlaukumos rotaļlaukumu rotaļlaukumus rotaļlaukumā
+43	7943	placebo	
+44	7944	izkalt	izkala izkalis izkals izkalts izkaltu izkalu izkalām izkalšana izkalšu izkaļ izkaļams izkaļot jāizkaļ
+45	7945	sarežģīties	sarežģās sarežģījas sarežģījies sarežģījusies sarežģījušies sarežģījušās sarežģījās sarežģīsies sarežģīšanās
+46	7946	totalitārisms	totalitārisma totalitārismam totalitārismi totalitārismu totalitārismā
+47	7947	šizofrēnija	šizofrēnijai šizofrēnijas šizofrēniju
+48	7948	pretgaisa	
+49	7949	biedēklis	biedēkli biedēklim biedēkļi biedēkļiem
+50	7950	sakopties	nesakopties nesakoptos sakopies sakopjoties sakoptos sakopšanās sakopšos
+51	7951	baudītājs	baudītāja baudītājam baudītāji baudītājiem baudītāju baudītājus
+52	7952	paradoksāli	
+53	7953	zutis	zuti zutī zuša zuši zušiem zušu zušus
+54	7954	izrakstīties	izrakstos izrakstoties izrakstījies izrakstījos izrakstījusies izrakstījušies izrakstījās izrakstītos izrakstīšanās neizrakstījos
+55	7955	kājnieki	
+56	7956	izķert	izķer izķeriet izķerot izķers izķersim izķerts izķertu izķeršana izķeršot izķēra izķēri izķēris izķēru jāizķer neizķer neizķers neizķersi
+57	7957	virpuļviesulis	virpuļviesuļa virpuļviesuļi virpuļviesuļos
+58	7958	ragavas	
+59	7959	uzrīdīt	uzrīda uzrīdi uzrīdīja uzrīdīji uzrīdījis uzrīdīs uzrīdīti uzrīdīts uzrīdīšanu uzrīdīšu
+60	7960	klija	klijas kliju klijām klijās
+61	7961	feminisms	feminisma feminismam feminismu
+62	7962	metenis	metei meteni metenim meteņa meteņi meteņiem meteņos meteņu meteņus
+63	7963	vīrišķība	vīrišķībai vīrišķības vīrišķību vīrišķībā
+64	7964	pavecs	paveca pavecais pavecajam pavecam pavecas paveci paveciem paveco pavecu pavecā pavecāka pavecākam pavecākas pavecāki pavecākiem pavecāko pavecākos pavecāks pavecāku pavecākā pavecām pavecās
+65	7965	astoņnieks	astotniek astotnieka astotniekam astotniekiem astotnieks astotnieku astotniekus astotniekā astoņnieka astoņniekiem astoņnieku astoņniekus astoņniekā
+66	7966	namdaris	namdara namdari namdariem namdaru namdarus
+67	7967	izgludināt	izgludina izgludini izgludiniet izgludinās izgludināta izgludinātas izgludināti izgludināts izgludinātu izgludināšu jāizgludina neizgludina neizgludināta neizgludināti neizgludināts
+68	7968	degradācija	degradācijai degradācijas degradāciju degradācijā
+69	7969	paviršs	pavirša paviršai paviršais paviršajai paviršajam paviršajiem paviršam paviršas paviršiem paviršo paviršos paviršu paviršus paviršā paviršāk paviršākajiem paviršākam paviršāki paviršāks paviršāku paviršākā paviršām paviršās vispaviršāk
+70	7970	bruģēt	bruģē bruģēja bruģējam bruģējot bruģēju bruģējuši bruģēs bruģēsim bruģēta bruģētais bruģētas bruģēti bruģētie bruģēto bruģēts bruģētu bruģētā bruģēšana bruģēšanas bruģēšanu bruģēšanā jābruģē
+71	7971	svilpot	nesvilpo svilpo svilpodams svilpoja svilpojam svilpojams svilpojis svilpojot svilpoju svilpos svilposi svilposim svilpotu svilpošana svilpošanas svilpošanu svilpošanā
+72	7972	bāba	bābai bābas bābu bābām
+73	7973	laims	laim laima laimai laimam laimas laimi laimu laimus laimā
+74	7974	odekolons	odekolona odekoloni odekolonu
+75	7975	naivums	naivuma naivumu naivumā
+76	7976	nīdējs	nīdēja nīdējam nīdēji nīdējiem nīdēju nīdējus
+77	7977	iekurināt	iekurina iekurinot iekurinu iekurināja iekurinājis iekurinājuši iekurinājām iekurinās iekurināsim iekurināta iekurinātas iekurināts iekurinātu iekurināšana iekurināšu jāiekurina neiekurināja
+78	7978	nosapņot	nenosapņoju nosapņo nosapņoja nosapņojis nosapņoju nosapņos nosapņots
+79	7979	uzdzīvot	neuzdzīvo uzdzīvo uzdzīvoja uzdzīvojam uzdzīvojis uzdzīvojot uzdzīvojušas uzdzīvojuši uzdzīvojām uzdzīvos uzdzīvosim uzdzīvošana uzdzīvošanas uzdzīvošu
+80	7980	slidošana	slidošanai slidošanas slidošanu slidošanā
+81	7981	žilete	žiletei žiletes žileti žiletēm
+82	7982	pusdiena	pusdienai pusdienam pusdienu pusdienā pusdienām pusdienās
+83	7983	atsieties	atsienies atsējās neatsiesies
+84	7984	mežsargs	mežsarga mežsargam mežsargi mežsargiem mežsargu mežsargus
+85	7985	plakstiņš	plakstiņa plakstiņi plakstiņiem plakstiņu plakstiņus
+86	7986	nektārs	nektāra nektāram nektāri nektāriem nektāru nektārus
+87	7987	dardedze	dardedzei dardedzes dardedzi dardedzē
+88	7988	netīrība	netīrības netīrību netīrībā
+89	7989	kustonis	kustoni kustonim kustoņa kustoņi kustoņiem kustoņos kustoņu kustoņus
+90	7990	izlocīt	izloci izlocīja izlocījām izlocīs izlocīta izlocītas izlocīti izlocītu izlocītā izlocīšanu izloki izlokot izlokāms jāizloka neizlocītas
+91	7991	nomaskēt	jānomaskē nenomaskē nomaskē nomaskēja nomaskēji nomaskējis nomaskējot nomaskējām nomaskēs nomaskēta nomaskētas nomaskēti nomaskēts nomaskētu nomaskēšanas nomaskēšanu
+92	7992	atkusnis	atkusni atkusnim atkusnī atkušņa atkušņi atkušņiem atkušņos atkušņu atkušņus
+93	7993	dzirnavnieks	dzirnavnieka dzirnavniekam dzirnavnieki dzirnavniekiem dzirnavniekos dzirnavnieku dzirnavniekā
+94	7994	ieklāt	ieklāj ieklāja ieklājam ieklājams ieklājat ieklājis ieklājot ieklāju ieklājām ieklās ieklāsiet ieklāsim ieklāts ieklātu ieklāšana ieklāšu jāieklāj
+95	7995	ritums	rituma ritumam ritumi ritumu ritumā
+96	7996	starppilsētu	
+97	7997	pievadīt	pievada pievadi pievadot pievadu pievadījis pievadīs pievadīts pievadītu pievadīšana
+98	7998	galējais	
+99	7999	dienēties	nedienas
+100	8000	adaptēties	adaptējamies adaptējas adaptējies adaptējoties adaptējusies adaptējušies adaptējušās adaptējāmies adaptējās adaptēsies adaptēsimies adaptētos adaptēšanās jāadaptējas

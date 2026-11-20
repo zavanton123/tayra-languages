@@ -1,10 +1,10 @@
 1	301	ministrs	ministr ministra ministram ministre ministrei ministres ministri ministriem ministros ministru ministrus ministrēm
-2	302	plāns	plâns plān plāna plānai plānais plānajai plānajam plānajiem plānajos plānajā plānajām plānajās plānam plānas plāni plānie plāniem plānos plānu plānus plānā plānāks plānām plānās visplānākais
+2	302	plāns	plâns plān plāna plānai plānais plānajai plānajiem plānajos plānajā plānajām plānajās plānam plānas plāni plānie plāniem plānos plānu plānus plānā plānāk plānāka plānākai plānākais plānākam plānākas plānāki plānākiem plānāko plānāks plānāku plānākus plānākā plānākās plānām plānās visplānākais visplānāko visplānākā
 3	303	lieliski	
 4	304	pieci	piecas pieciem piecos piecu piecus piecām piecās
 5	305	māksla	mâksla mākslai mākslas mākslu mākslā mākslām mākslās
 6	306	līmenis	līmeni līmenim līmenī līmeņa līmeņi līmeņiem līmeņos līmeņu līmeņus
-7	307	izvēlēties	izvēlamies izvēlas izvēlaties izvēlies izvēlieties izvēlos izvēloties izvēlēdamies izvēlējamies izvēlējas izvēlējies izvēlējieties izvēlējos izvēlējoties izvēlējāmies izvēlējās izvēlējāties izvēlēsies izvēlēsieties izvēlēsimies izvēlēsities izvēlētos izvēlēšanās izvēlēšos izvēlēšoties jāizvēlas neizvēlēties
+7	307	izvēlēties	izvēlamies izvēlas izvēlaties izvēlies izvēlieties izvēlos izvēloties izvēlējamies izvēlējas izvēlējies izvēlējos izvēlējusies izvēlējušies izvēlējušās izvēlējāmies izvēlējās izvēlējāties izvēlēsies izvēlēsieties izvēlēsimies izvēlēsities izvēlētos izvēlēšanās izvēlēšos jāizvēlas neizvēlamies neizvēlas neizvēlies neizvēlieties neizvēloties neizvēlējies neizvēlējos neizvēlējāmies neizvēlējās neizvēlējāties neizvēlēsies neizvēlēties neizvēlētos neizvēlēšos
 8	308	padome	padomei padomes padomi padomju padomē padomēm padomēs
 9	309	spēlēt	jāspēlē nespēlēt spēlē spēlēdams spēlēja spēlējam spēlējams spēlējat spēlēji spēlējiet spēlējis spēlējot spēlējošs spēlēju spēlējām spēlējāt spēlēs spēlēsi spēlēsiet spēlēsim spēlēsit spēlēts spēlētu spēlēšana spēlēšot spēlēšu
 10	310	tauta	tautai tautam tautas tautu tautā tautām tautās
@@ -20,32 +20,32 @@
 20	320	ātri	
 21	321	klients	klient klienta klientam klienti klientiem klientos klientu klientus klientā
 22	322	konkurss	konkurs konkursa konkursam konkursi konkursiem konkursos konkursu konkursus konkursā
-23	323	skaists	skaista skaistai skaistais skaistajai skaistajam skaistajiem skaistajos skaistajā skaistajām skaistajās skaistam skaistas skaistie skaistiem skaisto skaistos skaistu skaistus skaistā skaistāks skaistām skaistās visskaistākais šauram
-24	324	lielisks	lieliska lieliskai lieliskais lieliskajai lieliskajam lieliskajiem lieliskajos lieliskajā lieliskajām lieliskajās lieliskam lieliskas lieliskie lieliskiem lielisko lieliskos lielisku lieliskus lieliskā lieliskāks lieliskām lieliskās vislieliskākais
-25	325	paskatīties	jāpaskatās nepaskatīties paskaties paskatieties paskatos paskatoties paskatāmies paskatās paskatāties paskatījies paskatījos paskatījāmies paskatījās paskatījāties paskatīsies paskatīsieties paskatīsimies paskatīsities paskatītos paskatīšanās paskatīšos
+23	323	skaists	skaista skaistai skaistais skaistajai skaistajam skaistajiem skaistajos skaistajā skaistajām skaistam skaistas skaistie skaistiem skaisto skaistos skaistu skaistus skaistā skaistāk skaistāka skaistākais skaistākajiem skaistākajā skaistākajām skaistākas skaistākie skaistāko skaistākos skaistāks skaistāku skaistākā skaistākās skaistām skaistās visskaistākais visskaistākie visskaistāko visskaistākā visskaistākās
+24	324	lielisks	lieliska lieliskai lieliskais lieliskajai lieliskajam lieliskajiem lieliskajos lieliskajā lieliskajām lieliskam lieliskas lieliskie lieliskiem lielisko lieliskos lielisku lieliskus lieliskā lieliskāk lieliskāka lieliskākais lieliskākajai lieliskākajiem lieliskākajām lieliskākie lieliskākiem lieliskāko lieliskākos lieliskāks lieliskāku lieliskākā lieliskākās lieliskām lieliskās vislieliskākais vislieliskākajam vislieliskākie vislieliskāko vislieliskākā
+25	325	paskatīties	jāpaskatās nepaskaties nepaskatos nepaskatoties nepaskatāmies nepaskatās nepaskatījies nepaskatījos nepaskatījāmies nepaskatījās nepaskatījāties nepaskatīsies nepaskatīsimies nepaskatīties nepaskatītos paskaties paskatieties paskatos paskatoties paskatāmies paskatās paskatāties paskatījies paskatījos paskatījusies paskatījušies paskatījušās paskatījāmies paskatījās paskatījāties paskatīsies paskatīsieties paskatīsimies paskatīsities paskatītos paskatīšanās paskatīšos
 26	326	ideja	idejai idejam idejas ideju idejā idejām idejās
-27	327	karš	kara karam kari kariem karos karu karus karā kaŗš
+27	327	karš	kara karam kari kariem karos karu karus karā kaŗa kaŗu kaŗā kaŗš
 28	328	ilgi	
-29	329	lietot	jālieto lieto lietodams lietoja lietojam lietojams lietojat lietoji lietojiet lietojis lietojot lietoju lietojām lietojāt lietos lietosi lietosiet lietosim lietosit lietots lietotu lietošana lietošanai lietošanas lietošanu lietošanā lietošanās lietošu nelietot
+29	329	lietot	jālieto lieto lietodams lietoja lietojam lietojams lietojat lietoji lietojiet lietojis lietojot lietoju lietojām lietojāt lietos lietosi lietosiet lietosim lietota lietotai lietotam lietotas lietoti lietotiem lietotos lietots lietotu lietotus lietotā lietotām lietotās lietošana lietošanai lietošanas lietošanu lietošanā lietošanās lietošu nelietot
 30	330	persona	personai personam personas personi personu personā personām personās
 31	331	lēmums	lēmum lēmuma lēmumam lēmumi lēmumiem lēmumos lēmumu lēmumus lēmumā
-32	332	sākties	sācies sākas sāksies sākās
+32	332	sākties	jāsākas nesācies nesākas nesākoties nesāksies nesākties nesākusies nesākās sācies sākas sākies sākoties sāksies sākusies sākušies sākās sākšanās sākšoties
 33	333	atstāt	atstādams atstāj atstāja atstājam atstājams atstājat atstāji atstājiet atstājis atstājot atstājošs atstāju atstājām atstājāt atstās atstāsi atstāsiet atstāsim atstāsit atstāts atstātu atstāšana atstāšot atstāšu jāatstāj neatstāt
-34	334	jaunietis	jauniete jaunietei jaunietes jaunieti jaunietim jaunietē jaunietēm jaunieša jaunieši jauniešiem jauniešos jauniešu jauniešus
-35	335	iegūt	ieguva ieguvis ieguvuši iegūst iegūta iegūtu
+34	334	jaunietis	jauniete jaunietei jaunietes jaunieti jaunietiem jaunietim jaunietē jaunietēm jaunieša jaunieši jauniešiem jauniešos jauniešu jauniešus
+35	335	iegūt	ieguva ieguvi ieguvis ieguvu ieguvuši ieguvām ieguvāt iegūs iegūsi iegūsiet iegūsim iegūsit iegūst iegūstam iegūstams iegūstat iegūsti iegūstiet iegūstot iegūstu iegūta iegūts iegūtu iegūšana iegūšu jāiegūst neieguva neieguvu neieguvām neieguvāt neiegūdams neiegūs neiegūsi neiegūsim neiegūst neiegūstam neiegūsti neiegūt neiegūtu
 36	336	valdība	valdībai valdības valdību valdībā valdībām valdībās
 37	337	iemesls	iemesl iemesla iemeslam iemesli iemesliem iemeslos iemeslu iemeslus iemeslā
 38	338	sieva	sievai sievam sievas sievi sievu sievā sievām sievās
 39	339	četri	četras četriem četros četru četrus četrām četrās
 40	340	līdzi	
-41	341	brīvs	brīva brīvai brīvais brīvajai brīvajam brīvajiem brīvajos brīvajā brīvajām brīvajās brīvam brīvas brīvi brīvie brīviem brīvo brīvos brīvu brīvus brīvā brīvāks brīvām brīvās
+41	341	brīvs	brīva brīvai brīvais brīvajai brīvajam brīvajiem brīvajos brīvajā brīvajām brīvajās brīvam brīvas brīvi brīvie brīviem brīvo brīvos brīvu brīvus brīvā brīvāk brīvāka brīvākai brīvākam brīvākas brīvāki brīvākiem brīvāko brīvākos brīvāks brīvāku brīvākus brīvākā brīvākām brīvām brīvās visbrīvāk visbrīvākie visbrīvāko
 42	342	veselība	veselībai veselības veselību veselībā veselībām
 43	343	suns	suni sunim sunī suņa suņi suņiem suņos suņu suņus
-44	344	nodoklis	nodokli nodoklim nodoklī nodoku nodokļa nodokļi nodokļiem nodokļos nodokļu nodokļus
+44	344	nodoklis	nodokla nodokli nodokliem nodoklim nodoklos nodoklu nodoklus nodoklī nodoku nodokļa nodokļi nodokļiem nodokļos nodokļu nodokļus
 45	345	ap	
 46	346	nākamais	nākamajā nākamo nākamā
 47	347	mācība	mācībai mācības mācību mācībā mācībām mācībās
-48	348	pilns	pills pilna pilnai pilnais pilnajai pilnajam pilnajiem pilnajos pilnajā pilnajām pilnajās pilnam pilnas pilni pilnie pilniem pilno pilnos pilnu pilnus pilnā pilnāks pilnām pilnās vispilnākais
+48	348	pilns	pilla pillas pills pillu pillā pillās pilna pilnai pilnais pilnajai pilnajam pilnajiem pilnajos pilnajā pilnajām pilnajās pilnam pilnas pilni pilnie pilniem pilno pilnos pilnu pilnus pilnā pilnāka pilnākajiem pilnākajā pilnākas pilnāki pilnāko pilnāks pilnāku pilnākā pilnākās pilnām pilnās vispilnāko
 49	349	sezona	sezonai sezonam sezonas sezonu sezonā sezonām sezonās
 50	350	bieži	
 51	351	iekšā	
@@ -55,46 +55,46 @@
 55	355	ēka	ēkai ēkas ēku ēkā ēkām ēkās
 56	356	aiz	
 57	357	vasara	vasarai vasaras vasaros vasaru vasarā vasarām vasarās
-58	358	aicināt	aicina aicini aiciniet aicinot aicinošais aicinošs aicinu aicinādams aicināja aicināji aicinājis aicināju aicinājām aicinājāt aicinām aicinās aicināsi aicināsiet aicināsim aicināsit aicinātais aicināts aicinātu aicināšana aicināšanai aicināšanas aicināšanu aicināšot aicināšu jāaicina neaicināt
+58	358	aicināt	aicina aicini aiciniet aicinot aicinošas aicinoši aicinu aicināja aicināji aicinājis aicināju aicinājusi aicinājušas aicinājuši aicinājām aicinājāt aicinām aicinās aicināsi aicināsim aicināta aicinātas aicināti aicinātie aicināts aicinātu aicināšu jāaicina neaicina neaicini neaicinu neaicināja neaicināji neaicināju neaicinājāt neaicinās neaicināsi neaicināt neaicināts
 59	359	prāts	prāt prāta prātam prāti prātiem prātos prātu prātus prātā
-60	360	internets	interneta internetu internetā
+60	360	internets	interneta internetam interneti internetiem internetos internetu internetus internetā
 61	361	nāve	nāvei nāves nāvi nāvju nāvē nāvēm nāvēs
 62	362	dome	domei domes domi domju domē domēm domēs
-63	363	durvis	durvi durvju durvu durvīm durvīs
-64	364	slikts	slikta sliktai sliktais sliktajai sliktajam sliktajiem sliktajos sliktajā sliktajām sliktajās sliktam sliktas sliktie sliktiem slikto sliktos sliktu sliktus sliktā sliktāks sliktām sliktās vissliktākais
-65	365	norādīt	norāda norādot norādīja norādījis norādīts
+63	363	durvis	durvi durviis durvju durvu durvīm durvīs
+64	364	slikts	slikta sliktai sliktais sliktajam sliktajiem sliktajos sliktajā sliktajām sliktam sliktas sliktie sliktiem slikto sliktos sliktu sliktus sliktā sliktāk sliktāka sliktākais sliktākajiem sliktākajā sliktākajām sliktākas sliktāki sliktākie sliktākiem sliktāko sliktākos sliktāks sliktāku sliktākā sliktākās sliktām sliktās vissliktāk vissliktākais vissliktāko vissliktākā
+65	365	norādīt	jānorāda nenorāda nenorādi nenorādiet nenorādot nenorādu nenorādīja nenorādījis nenorādīs nenorādīsi nenorādīsim nenorādīt nenorādīšana nenorādīšu norāda norādi norādiet norādot norādošs norādu norādām norādāms norādāt norādīdams norādīja norādīji norādījis norādīju norādījām norādījāt norādīs norādīsi norādīsiet norādīsim norādīts norādītu norādīšana norādīšot norādīšu
 66	366	miris	mirusi miruša mirušai mirušam mirušas miruši mirušiem mirušos mirušu mirušus mirušā mirušām mirušās
-67	367	brālis	brāi brāli brālim brālī brāļa brāļi brāļiem brāļos brāļu brāļus
-68	368	pārstāvis	pārstāve pārstāvi pārstāvim pārstāvja pārstāvji pārstāvjiem pārstāvjos pārstāvju pārstāvjus
+67	367	brālis	brāi brāli brāliem brālim brālī brāļa brāļi brāļiem brāļos brāļu brāļus
+68	368	pārstāvis	pārstāve pārstāvi pārstāviem pārstāvim pārstāvja pārstāvji pārstāvjiem pārstāvjos pārstāvju pārstāvjus
 69	369	grūti	
-70	370	īpašs	visīpašākais īpaša īpašai īpašais īpašajai īpašajam īpašajiem īpašajos īpašajā īpašajām īpašajās īpašam īpašas īpašie īpašiem īpašo īpašos īpašu īpašus īpašā īpašāks īpašām īpašās
-71	371	zaudēt	jāzaudē nezaudēt zaudē zaudēdams zaudēja zaudējam zaudējams zaudējat zaudēji zaudējiet zaudējis zaudējot zaudēju zaudējušais zaudējām zaudējāt zaudēs zaudēsi zaudēsiet zaudēsim zaudēsit zaudētais zaudēts zaudētu zaudēšana zaudēšanai zaudēšanas zaudēšanu zaudēšanā zaudēšot zaudēšu
+70	370	īpašs	visīpašākais visīpašākajam visīpašāko visīpašākā visīpašākās īpaša īpašai īpašais īpašajai īpašajam īpašajiem īpašajos īpašajā īpašajām īpašajās īpašam īpašas īpašie īpašiem īpašo īpašos īpašu īpašus īpašā īpašāk īpašāka īpašākais īpašākajiem īpašākam īpašākas īpašāki īpašākiem īpašāks īpašāku īpašākus īpašākā īpašākās īpašām īpašās
+71	371	zaudēt	jāzaudē nezaudē nezaudēja nezaudējiet nezaudējot nezaudēs nezaudēsi nezaudēsim nezaudēt nezaudētu nezaudēšu zaudē zaudēja zaudējam zaudējat zaudēji zaudējis zaudējot zaudēju zaudējusi zaudējušas zaudējuši zaudējām zaudējāt zaudēs zaudēsi zaudēsiet zaudēsim zaudēta zaudētas zaudēti zaudēto zaudēts zaudētu zaudētās zaudēšana zaudēšanas zaudēšanu zaudēšu
 72	372	daba	dabai dabas dabiem dabos dabu dabus dabā dabām dabās
 73	373	šogad	
 74	374	dalībnieks	dalībniece dalībniecei dalībnieces dalībnieci dalībniecē dalībniecēm dalībniek dalībnieka dalībniekam dalībnieki dalībniekiem dalībniekos dalībnieku dalībniekus dalībniekā dalībnieču
-75	375	telpa	telpas telpu telpā telpās
+75	375	telpa	telpai telpas telpu telpā telpām telpās
 76	376	noteikums	noteikum noteikuma noteikumam noteikumi noteikumiem noteikumos noteikumu noteikumus noteikumā
 77	377	māte	māt mātei mātes māti mātē mātēm māu māšu
-78	378	mīļš	mīļa mīļai mīļais mīļajai mīļajam mīļajiem mīļajos mīļajā mīļajām mīļam mīļas mīļie mīļiem mīļo mīļos mīļu mīļus mīļā mīļāks mīļām mīļās vismīļākais
+78	378	mīļš	mīlai mīlais mīlam mīlas mīli mīlā mīļa mīļais mīļajai mīļajam mīļajiem mīļajā mīļajām mīļas mīļie mīļiem mīļo mīļos mīļs mīļu mīļus mīļā mīļāka mīļākajai mīļākajam mīļākajiem mīļākajā mīļākajām mīļāki mīļākie mīļāko mīļākos mīļāks mīļākā mīļākās mīļām mīļās vismīļākajam vismīļākā
 79	379	tikko	
 80	380	miers	mier miera mieram mieri mieru mierā
 81	381	līgums	līgum līguma līgumam līgumi līgumiem līgumos līgumu līgumus līgumā
-82	382	starptautisks	starptautiska starptautiskai starptautiskais starptautiskajai starptautiskajam starptautiskajiem starptautiskajos starptautiskajā starptautiskajām starptautiskajās starptautiskam starptautiskas starptautiskie starptautiskiem starptautisko starptautiskos starptautisku starptautiskus starptautiskā starptautiskām starptautiskās
+82	382	starptautisks	starptautiska starptautiskai starptautiskais starptautiskajai starptautiskajam starptautiskajiem starptautiskajos starptautiskajā starptautiskajām starptautiskajās starptautiskam starptautiskas starptautiskie starptautiskiem starptautisko starptautiskos starptautisku starptautiskus starptautiskā starptautiskākajiem starptautiskākā starptautiskām starptautiskās
 83	383	vecums	vecum vecuma vecumam vecumi vecumiem vecumos vecumu vecumus vecumā
-84	384	atvainot	atvaino atvainojam atvainojiet atvainosi atvainosiet atvainosit atvainotu atvainošana atvainošanas atvainošanos atvainošanu jāatvaino
-85	385	ticēt	jātic neticēt tic ticam ticama ticamais ticamas ticami ticamiem ticamos ticams ticamu ticamus ticamā ticamāks ticamām ticat tici ticiet ticot ticu ticēdams ticēja ticēji ticējis ticēju ticējām ticējāt ticēs ticēsi ticēsiet ticēsim ticēts ticētu ticēšana ticēšanas ticēšanu ticēšu visticamākais
-86	386	pieņemt	jāpieņem pieņem pieņemti pieņemts pieņēma
-87	387	tētis	tēta tēti tētiem tētim tētu tētus
+84	384	atvainot	atvaino atvainojam atvainojama atvainojamai atvainojamu atvainojiet atvainosi atvainosiet atvainosit atvainotos atvainotu atvainošana atvainošanas atvainošanos atvainošanu jāatvaino
+85	385	ticēt	jātic netic neticam neticams neticat netici neticiet neticu neticēja neticēju neticēs neticēsi neticēsiet neticēt neticētu tic ticam ticama ticami ticams ticamu ticamāk ticat tici ticiet ticot ticu ticēja ticēji ticējis ticēju ticējāt ticēs ticēsi ticēsim ticētu ticēšu visticamāk visticamākais
+86	386	pieņemt	jāpieņem nepieņem nepieņemama nepieņemami nepieņems nepieņemt nepieņēma pieņem pieņemam pieņemama pieņemami pieņemams pieņemamu pieņemat pieņemiet pieņemot pieņems pieņemsim pieņemta pieņemtais pieņemtajiem pieņemtas pieņemti pieņemtie pieņemto pieņemtos pieņemts pieņemtu pieņemtā pieņemu pieņemšana pieņemšu pieņēma pieņēmi pieņēmis pieņēmu pieņēmusi pieņēmuši pieņēmām
+87	387	tētis	tēt tēta tēti tētiem tētim tētu tētus
 88	388	nemaz	
 89	389	kuģis	kuģa kuģi kuģiem kuģim kuģos kuģu kuģus kuģī
-90	390	uzvarēt	jāuzvar neuzvarēt uzvar uzvaram uzvarams uzvarat uzvari uzvariet uzvarot uzvarošs uzvaru uzvarēdams uzvarēja uzvarēji uzvarējis uzvarēju uzvarējām uzvarējāt uzvarēs uzvarēsi uzvarēsiet uzvarēsim uzvarēsit uzvarēts uzvarētu uzvarēšana uzvarēšot uzvarēšu
+90	390	uzvarēt	jāuzvar neuzvar neuzvaramais neuzvarami neuzvarams neuzvarēji neuzvarēju neuzvarējām neuzvarēs neuzvarēsi neuzvarēsim neuzvarēt neuzvarētais neuzvarēto neuzvarēts neuzvarēšu uzvar uzvaram uzvarat uzvari uzvarot uzvaru uzvarēja uzvarēji uzvarējis uzvarēju uzvarējusi uzvarējuši uzvarējām uzvarējāt uzvarēs uzvarēsi uzvarēsiet uzvarēsim uzvarēta uzvarēts uzvarētu uzvarēšana uzvarēšu
 91	391	dažs	daža dažai dažam dažas dažiem dažos dažu dažus dažā dažām dažās
 92	392	parasti	
 93	393	gaiss	gais gaisa gaisam gaisi gaisiem gaisos gaisu gaisā
-94	394	atzīt	atzina atzini atzinis atzinu atzinām atzīdams atzīs atzīsi atzīsiet atzīsim atzīsit atzīst atzīstam atzīstams atzīstat atzīsti atzīstiet atzīstot atzīstu atzīti atzīts atzītu atzīšana atzīšot atzīšu jāatzīst neatzīt
+94	394	atzīt	atzina atzini atzinis atzinu atzinām atzīdams atzīs atzīsi atzīsiet atzīsim atzīsit atzīst atzīstam atzīstams atzīstat atzīsti atzīstiet atzīstot atzīstu atzīti atzīts atzītu atzīšana atzīšot atzīšu jāatzīst neatzina neatzīs neatzīsi neatzīst neatzīstam neatzīstat neatzīsti neatzīstot neatzīstu neatzīt neatzīts neatzītu neatzīšana
 95	395	tādēļ	
 96	396	droši	
-97	397	klausīties	jāklausās klausies klausieties klausos klausoties klausāmies klausās klausāties klausīdamies klausījies klausījos klausījāmies klausījās klausījāties klausīsies klausīsieties klausīsimies klausīsities klausītos klausīšanās klausīšos klausīšoties neklausīties
+97	397	klausīties	jāklausās klausas klausies klausieties klausos klausoties klausāmies klausās klausāties klausīdamies klausījies klausījos klausījāmies klausījās klausījāties klausīsies klausīsieties klausīsimies klausīsities klausītos klausīšanās klausīšos neklausies neklausieties neklausos neklausoties neklausāmies neklausās neklausāties neklausījies neklausījos neklausījāmies neklausījās neklausījāties neklausīsies neklausīsieties neklausīties neklausītos neklausīšos
 98	398	pilnīgi	
-99	399	lasīt	jālasa lasa lasi lasiet lasot lasošs lasu lasām lasāma lasāmais lasāmas lasāmi lasāmos lasāms lasāmu lasāmā lasāmās lasāt lasīdams lasīja lasīji lasījis lasīju lasījām lasījāt lasīs lasīsi lasīsiet lasīsim lasītais lasīts lasītu lasīšana lasīšanai lasīšanas lasīšanu lasīšanā lasīšu nelasīt
+99	399	lasīt	jālasa lasa lasi lasiet lasot lasu lasām lasāma lasāmi lasāms lasāt lasīja lasīji lasījis lasīju lasījusi lasījuši lasījām lasījāt lasīs lasīsi lasīsiet lasīta lasītas lasītos lasīts lasītu lasītā lasīšana lasīšanai lasīšanas lasīšanu lasīšanā lasīšu nelasa nelasi nelasu nelasīt nelasīšu
 100	400	vēlāk	

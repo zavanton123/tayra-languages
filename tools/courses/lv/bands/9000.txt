@@ -1,0 +1,100 @@
+1	8901	mēģene	mēģenes mēģenē mēģenēm mēģenēs
+2	8902	agatas	agatai
+3	8903	ampērs	ampēra ampēram ampēri ampēriem ampēru ampērus
+4	8904	bezjūtīgs	bezjūtīga bezjūtīgais bezjūtīgajā bezjūtīgam bezjūtīgi bezjūtīgiem bezjūtīgu bezjūtīgā visbezjūtīgākajai
+5	8905	metinātājs	metinātāja metinātājam metinātāji metinātājiem metinātāju metinātājus
+6	8906	atvasara	atvasarai atvasaras atvasaru atvasarā
+7	8907	smilšains	smilšaina smilšainai smilšainais smilšainajai smilšainajos smilšainajā smilšainajām smilšainajās smilšainas smilšaini smilšainie smilšainiem smilšaino smilšainos smilšainu smilšainus smilšainā smilšaināka smilšaināks smilšaināku smilšainākā smilšainām smilšainās
+8	8908	rutks	rutka rutkam rutki rutkiem rutku rutkus
+9	8909	grumba	grumbas grumbu grumbām grumbās
+10	8910	jūklis	jūkli jūklim jūklī jūkļa
+11	8911	uzmērīt	jāuzmēra uzmēra uzmēri uzmērot uzmēru uzmērīja uzmērījis uzmērīs uzmērīts uzmērītu uzmērīšana uzmērīšu
+12	8912	izpūt	izpuvis izpūst izpūsti izpūsts izpūstu izpūta izpūtis izpūtu izpūtīs izpūš izpūšam izpūšot jāizpūš neizpūs neizpūst neizpūtīs
+13	8913	sālīts	sālīta sālītai sālītas sālīti sālītiem sālītu sālītus sālītā sālītās
+14	8914	izceļošana	izceļošanai izceļošanas izceļošanu
+15	8915	ciniķis	ciniķa ciniķi ciniķiem ciniķim ciniķu
+16	8916	talu	
+17	8917	akrobāts	akrobātam akrobāti akrobātiem akrobātu akrobātus
+18	8918	cēlsirdība	cēlsirdībai cēlsirdības cēlsirdību
+19	8919	plekste	plekstes pleksti plekstēm plekšu
+20	8920	kalmārs	kalmāra kalmāram kalmāri kalmāriem kalmāru kalmārus kalmārā
+21	8921	barometrs	barometra barometram barometru barometrā
+22	8922	svešvārds	svešvārda svešvārdam svešvārdi svešvārdiem svešvārdos svešvārdu svešvārdus svešvārdā
+23	8923	vudū	
+24	8924	ierakt	ieracis ieraka ieraks ieraksim ierakts ieraktu ieraku ierakšana ieroc ierociet ierok ierokam ierokot ieroku jāierok neierakt
+25	8925	kursors	kursora kursoru kursorā
+26	8926	piespiešana	piespiešanai piespiešanas piespiešanu piespiešanās
+27	8927	orkāns	orkāna orkāni orkānu orkānā
+28	8928	blāķis	blāķa blāķi blāķiem blāķos blāķu blāķus blāķī
+29	8929	cēlums	cēluma cēlumam cēlumi cēlumiem cēlumu cēlumā
+30	8930	nosvērties	nenosveras nogājies noieties nosveras nosveries nosverieties nosvēries nosvēros nosvērsies nosvērtos nosvērās
+31	8931	blieziens	bliezieni bliezienu bliezienus
+32	8932	piekakāt	piekakāja piekakājis piekakāju piekakājusi piekakāsim piekakāta piekakāts piekakātā piekakāšanu
+33	8933	apvelties	apvelies apvelsies apvelšanās apveļas apvēlies apvēlušies neapvēlāmies
+34	8934	emulsija	emulsijas emulsiju emulsijā emulsijām
+35	8935	pastala	pastalai pastalam pastalas pastalu pastalām pastalās
+36	8936	pārvēlēt	jāpārvēl jāpārvēlē nepārvēl nepārvēlot nepārvēlē nepārvēlēja nepārvēlēs nepārvēlēts pārvēl pārvēlam pārvēlē pārvēlēja pārvēlējis pārvēlēs pārvēlēts pārvēlētu pārvēlēšana
+37	8937	airēties	airējamies airējas airējos airējoties airējās airēsies airēsimies airētos airēšanās
+38	8938	nogruvums	nogruvuma nogruvumam nogruvumi nogruvumiem nogruvumos nogruvumu nogruvumus nogruvumā
+39	8939	termoss	termosa termosam termosi termosiem termosos termosu termosus termosā
+40	8940	reizināt	jāreizina reizina reiziniet reizinot reizināja reizinām reizināts reizinātu reizināšana reizināšanas reizināšanu reizināšanā
+41	8941	zīmēties	jāzīmējas nezīmējas nezīmējoties nezīmēsies nezīmēties zīmējas zīmējies zīmējoties zīmējās zīmēsies zīmētos zīmēšanās
+42	8942	taizemiete	taizemietes taizemieti taizemietēm taizemieši taizemiešiem taizemiešu taizemiešus
+43	8943	apātija	apātijas apātiju apātijā
+44	8944	ieslīdēt	ieslīdēja ieslīdējis ieslīdēju ieslīdējusi ieslīdējušas ieslīdējuši ieslīdēs ieslīdētu ieslīdēšanas ieslīdēšanu neieslīdēs neieslīdēt neieslīdētu
+45	8945	izstudēt	izstudē izstudēja izstudēji izstudējis izstudējot izstudēju izstudējusi izstudējušais izstudējušajiem izstudējuši izstudēs izstudēta izstudētas izstudēti izstudēto izstudēts izstudētu jāizstudē
+46	8946	noziedot	nenoziedoju noziedo noziedoja noziedojam noziedojiet noziedojis noziedojot noziedoju noziedos noziedots noziedotu noziedošu
+47	8947	piepūlēties	jāpiepūlējas nepiepūlējos nepiepūlējās nepiepūlēties piepūlējās piepūlēsies piepūlētos
+48	8948	vilcene	vilcenes vilceni
+49	8949	higiēniski	
+50	8950	karaliski	
+51	8951	sešsimt	
+52	8952	tūplis	tūpli tūplī tūpļa tūpļus
+53	8953	iečukstēt	iečukstēja iečukstēju iečukstējusi iečukstēsiet iečukstētu iečukstēšu
+54	8954	gārnis	gārna gārni gārnim gārņa gārņi gārņiem gārņu gārņus
+55	8955	iesūkties	iesūcas iesūcies iesūcoties iesūcās iesūksies iesūktos iesūkusies iesūkušies neiesūcas
+56	8956	tonāls	tonāla tonālais tonālajai tonālajam tonālajiem tonālajām tonāli tonālie tonālo tonālos tonālā tonālās
+57	8957	arhipelāgs	arhipelāga arhipelāgi arhipelāgu arhipelāgā
+58	8958	pļauties	pļaujas pļaušanās pļāvās
+59	8959	ekskavators	ekskavatora ekskavatoram ekskavatori ekskavatoriem ekskavatoros ekskavatoru ekskavatorus ekskavatorā
+60	8960	higiēnisks	higiēniska higiēniskais higiēniskajām higiēniskie higiēniskiem higiēnisko higiēnisku higiēniskus higiēniskā higiēniskām higiēniskās vishigiēniskākā
+61	8961	neiecietīgs	neiecietīga neiecietīgais neiecietīgajiem neiecietīgam neiecietīgas neiecietīgi neiecietīgiem neiecietīgo neiecietīgu neiecietīgā neiecietīgāka neiecietīgākai neiecietīgākajiem neiecietīgākas neiecietīgāki neiecietīgākiem neiecietīgāks
+62	8962	izgreznot	izgrezno izgreznoja izgreznojam izgreznoji izgreznojiet izgreznojušas izgreznojuši izgreznosim izgreznota izgreznotas izgreznoti izgreznoto izgreznots izgreznotu izgreznotā izgreznošana izgreznošanas izgreznošanā izgreznošu jāizgrezno
+63	8963	vannot	jāvanno vannojot vannojusi vannos vannosiet vannosim vannots vannošana vannošanai vannošanas vannošanos vannošanu vannošanās
+64	8964	karsonis	karsoni karsonu karsonī karsoņa karsoņi karsoņiem karsoņu
+65	8965	patogēns	patogēnais patogēnajām patogēni patogēniem patogēno patogēnu patogēnus patogēnā patogēnām patogēnās
+66	8966	traktorists	traktorista traktoristam traktoristi traktoristiem traktoristu traktoristus
+67	8967	putekļains	putekļaina putekļainais putekļainajiem putekļainajām putekļainas putekļaini putekļainiem putekļaino putekļainos putekļainu putekļainā putekļainām putekļainās
+68	8968	stiebrs	stiebra stiebram stiebri stiebriem stiebru stiebrus stiebrā
+69	8969	runīgs	runīga runīgai runīgais runīgajiem runīgam runīgas runīgi runīgie runīgā runīgākais runīgākajai runīgākajam runīgākas runīgāki runīgākie runīgāks
+70	8970	hašišs	hašiša hašišu
+71	8971	kāss	kās kāsa kāsam
+72	8972	magnetofons	magnetofona magnetofoni magnetofoniem magnetofonu magnetofonus magnetofonā
+73	8973	pamāte	pamātei pamātes pamāti pamāšu
+74	8974	noziņot	jānoziņo nenoziņo nenoziņosi nenoziņot noziņo noziņoja noziņoji noziņojis noziņoju noziņojām noziņos noziņots noziņošu
+75	8975	spekulants	spekulanta spekulantam spekulanti spekulantiem spekulantu spekulantus
+76	8976	sacirst	jāsacērt sacirsts sacirstu sacirta sacērt sacērtu
+77	8977	peža	pežas pežu pežā pežās
+78	8978	uzdurt	neuzdurtu uzdur uzdurs uzdurts uzdurtu uzduršana uzdūra
+79	8979	aizsteigties	aizsteidzamies aizsteidzas aizsteidzies aizsteidzos aizsteidzoties aizsteidzās aizsteigsies aizsteigtos neaizsteidzas neaizsteigsimies
+80	8980	bārijs	bārija
+81	8981	deģenerāts	deģenerātam deģenerāti deģenerātiem deģenerātu deģenerātus
+82	8982	pasist	jāpasit pasista pasistajam pasistam pasistas pasisti pasistie pasists pasistu pasit pasita pasitis pasitot pasitu pasitusi pasituši pasitīs
+83	8983	smaragds	smaragda smaragdi smaragdiem smaragdu smaragdus
+84	8984	pārsteigties	jāpārsteidzas nepārsteidzas nepārsteidzies nepārsteidzieties nepārsteidzos nepārsteigties nepārsteigtos pārsteidzies pārsteidzos pārsteidzāmies pārsteidzās pārsteigtos pārsteigšanās
+85	8985	slaistīties	slaistos slaistoties slaistījies slaistījos slaistījušies slaistījušās slaistījās slaistīšanās
+86	8986	hidraulika	hidraulikas hidrauliku hidraulikā
+87	8987	patskanis	patskani patskaņi patskaņiem patskaņu patskaņus
+88	8988	aizsviest	aizsvied aizsvieda aizsviedi aizsviedis aizsviedu aizsviedīšu aizsviests aizsviež aizsviežam
+89	8989	izķemmēt	izķemmē izķemmēja izķemmējiet izķemmējot izķemmēsi izķemmētiem izķemmēts izķemmēšu jāizķemmē
+90	8990	salikties	nesaliekas nesaliksies salicies saliecas saliecies saliecieties saliekas saliekoties saliksies saliktos salikāmies salikās
+91	8991	nabassaite	nabassaites nabassaiti nabassaitē
+92	8992	ietaise	ietaisei ietaises ietaisi ietaisēm ietaisēs ietaišu
+93	8993	apskatnieks	apskatnieka apskatniekam apskatnieki apskatniekiem apskatnieku
+94	8994	elektromotors	elektromotora elektromotoram elektromotori elektromotoriem elektromotoru elektromotorus
+95	8995	ūdele	ūdelei ūdeles ūdelēm ūdeļu
+96	8996	lēzens	lēzena lēzenai lēzenais lēzenajam lēzenajā lēzenam lēzeni lēzenie lēzeniem lēzeno lēzenos lēzenu lēzenā lēzenāk lēzenāka lēzenākas lēzenāki lēzenākiem lēzenāks lēzenāku lēzenākā lēzenās vislēzenākais
+97	8997	afgānis	afgānim afgāņi afgāņiem afgāņu afgāņus
+98	8998	sakāpt	nesakāpj nesakāps sakāpa sakāpis sakāpj sakāpjot sakāps sakāpām
+99	8999	kosmonauts	kosmonauta kosmonautam kosmonauti kosmonautiem kosmonautu kosmonautus kosmonautā
+100	9000	velēna	velēnai velēnas velēnu velēnā velēnām

@@ -1,0 +1,100 @@
+1	7701	rupjmaize	rupjmaizei rupjmaizes rupjmaizi rupjmaizēm rupmaize
+2	7702	sanitāre	sanitārei sanitāres sanitāri sanitāru sanitārēm
+3	7703	kinologs	kinologa kinologam kinologi kinologiem kinologu kinologus
+4	7704	hipotētiski	
+5	7705	lodziņš	lodziņa lodziņam lodziņi lodziņiem lodziņos lodziņu lodziņus lodziņā
+6	7706	kodoltermisks	kodoltermiskajām kodoltermisko kodoltermiskā kodoltermiskās
+7	7707	monologs	monologa monologam monologi monologiem monologos monologu monologus monologā
+8	7708	urīnpūslis	urīnpūsli urīnpūslim urīnpūslī urīnpūšļa urīnpūšļiem
+9	7709	saulespuķe	saulespuķei saulespuķes saulespuķi saulespuķu saulespuķē saulespuķēm
+10	7710	iekopt	iekopa iekopis iekopj iekopjam iekopjot iekopsim iekopts iekoptu iekopu iekopām iekopšana iekopšu jāiekopj neiekopts
+11	7711	ražens	ražena raženai raženais raženajam raženajā raženam raženas raženi raženie raženiem raženo raženos raženu raženus raženā raženāk raženākais raženākajos raženākam raženākie raženāko raženāks raženāku raženākā raženām
+12	7712	pievarēt	jāpievar nepievarams nepievarēs pievarams pievarot pievarēja pievarējis pievarēju pievarējusi pievarējuši pievarējām pievarēs pievarēsim pievarēta pievarētajā pievarētajām pievarētas pievarēti pievarēto pievarēts pievarētu pievarētās pievarēšana pievarēšu
+13	7713	apmest	apmests apmestu apmet apmeta apmetam apmetis apmetot apmetu apmetām apmetīs apmetīsim apmetīšu apmezdams jāapmet
+14	7714	ultraskaņa	ultraskaņai ultraskaņas ultraskaņu ultraskaņām
+15	7715	puma	pumai pumu pumā pumām
+16	7716	deklarēties	deklarējas deklarējaties deklarējies deklarējoties deklarējusies deklarējušies deklarējušās deklarējās deklarēsies deklarētos deklarēšanās jādeklarējas nedeklarējas nedeklarējoties nedeklarēsies nedeklarēsities nedeklarēties nedeklarētos
+17	7717	gambīts	gambītu
+18	7718	bumbieris	bumbiera bumbieri bumbieriem bumbierim bumbieru bumbierus
+19	7719	pierādīties	nepierādās nepierādītos pierādoties pierādās pierādījas pierādījies pierādījās pierādīsies pierādītos
+20	7720	kronēt	kronē kronēja kronēju kronējuši kronēs kronēsim kronēta kronētais kronētas kronēti kronēts kronētu kronētā kronēšanas kronēšanu nekronēsim nekronētais
+21	7721	federāli	
+22	7722	zīdītājs	zīdītāja zīdītāji zīdītājiem zīdītāju zīdītājus
+23	7723	pakārties	nepakaras nepakārties nepakārtos nepakārās pakaras pakaries pakaroties pakāries pakārsies pakārtos pakārās pakāršos
+24	7724	gludināt	gludina gludini gludinot gludinu gludināja gludinājis gludināju gludinājusi gludinājušas gludinājām gludinās gludināts gludinātu gludināšana gludināšanas gludināšanu gludināšanā jāgludina negludina negludināto negludinātu negludināšu
+25	7725	izklāt	izklāj izklāja izklājam izklājiet izklājis izklājot izklājām izklās izklāts izklātu izklāšana jāizklāj neizklās
+26	7726	ataugt	ataudzis ataug atauga ataugot ataugošām ataugs ataugtu ataugu ataugusi ataugusī ataugušas atauguši ataugušiem ataugušo ataugušās ataugšana neataug neataugs neataugt neataugtu
+27	7727	aizgriezties	aizgriezies aizgriezieties aizgriezos aizgrieztos aizgriezusies aizgriezušies aizgriezās aizgriezīšos aizgriežas
+28	7728	iedomība	iedomībai iedomības iedomību iedomībā
+29	7729	e-paraksts	e-paraksta e-parakstu
+30	7730	zaļumballe	zaļumballes zaļumballi zaļumballē zaļumballēm zaļumballēs zaļumbaļļu
+31	7731	izvelties	izvelas izvelies izvelieties izveltos izvelšos izveļamies izveļas izveļos izveļoties izvēlušies izvēlāmies izvēlās neizvēlas neizvēlies neizvēlos neizvēlās
+32	7732	vats	vat vata vati vatiem vatu vatus vatā
+33	7733	uzgrieznis	uzgriezni uzgrieznim uzgriežņa uzgriežņi uzgriežņiem uzgriežņu uzgriežņus
+34	7734	atstāstīt	atstāsta atstāsti atstāstot atstāstu atstāstām atstāstāmajai atstāstīdami atstāstīja atstāstījis atstāstīju atstāstījusi atstāstījuši atstāstīs atstāstīsi atstāstīsim atstāstīta atstāstīti atstāstīts atstāstītu atstāstītā atstāstītās atstāstīšana atstāstīšanu atstāstīšu jāatstāsta neatstāstu neatstāstāms neatstāstīs
+35	7735	atdabūt	atdabū atdabūja atdabūji atdabūjis atdabūju atdabūsi atdabūsim atdabūtu atdabūšu jāatdabū neatdabū neatdabūs neatdabūsi
+36	7736	viesmīlīgs	viesmīlīga viesmīlīgai viesmīlīgais viesmīlīgajai viesmīlīgajam viesmīlīgajiem viesmīlīgajā viesmīlīgajām viesmīlīgajās viesmīlīgas viesmīlīgie viesmīlīgiem viesmīlīgo viesmīlīgu viesmīlīgus viesmīlīgā viesmīlīgāka viesmīlīgākais viesmīlīgākajām viesmīlīgāko viesmīlīgākos viesmīlīgāks viesmīlīgāku viesmīlīgākās viesmīlīgām viesmīlīgās visviesmīlīgāko
+37	7737	aizklāt	aizklāj aizklāja aizklājat aizklājis aizklājot aizklāju aizklās aizklāts aizklātu aizklāšana jāaizklāj neaizklāj neaizklājot neaizklāju neaizklāt neaizklātu
+38	7738	izkustināt	izkustina izkustini izkustinot izkustinu izkustināja izkustinājis izkustinājusi izkustinājušas izkustinājuši izkustināms izkustinās izkustināta izkustinātas izkustināti izkustināts izkustinātu izkustināšana izkustināšanas izkustināšanu izkustināšanā jāizkustina neizkustināms neizkustinātu
+39	7739	svelme	svelmei svelmes svelmi svelmē
+40	7740	paeglis	paegle paegli paeglu paegļa paegļi paegļu
+41	7741	pārveidoties	jāpārveidojas nepārveidojas nepārveidosies pārveidojas pārveidojies pārveidojoties pārveidojusies pārveidojušās pārveidojās pārveidosies pārveidotos pārveidošanās
+42	7742	gaišreģis	gaišreģa gaišreģi gaišreģiem gaišreģim gaišreģu gaišreģus
+43	7743	izslaukt	izslauc izslaucis izslaucot izslaucu izslauks izslaukta izslauktais izslaukti izslaukto izslaukts izslauktu izslauktā izslaukusi izslaukuši jāizslauc neizslauktā
+44	7744	komercija	komercijai komercijas komerciju komercijā
+45	7745	švaks	visšvakākā švaka švakais švakajiem švakas švakie švakiem švako švakos švaku švakā švakāk švakāka švakākais švakākajiem švakākas švakāki švakāks švakāku švakākus švakākās švakām švakās
+46	7746	eitanāzija	eitanāzijai eitanāzijas eitanāziju eitanāzijā eitanāzijām
+47	7747	tīklene	tīklenei tīklenes tīkleni tīklenē
+48	7748	glaukoma	glaukomai glaukomas glaukomu
+49	7749	komiķis	komiķa komiķe komiķes komiķi komiķiem komiķim komiķu komiķus
+50	7750	nikotīns	nikotīna nikotīnam nikotīnu nikotīnā
+51	7751	mītisks	mītiska mītiskais mītiskajai mītiskajam mītiskajiem mītiskajos mītiskajā mītiskajām mītiskas mītiski mītiskie mītiskiem mītisko mītiskos mītisku mītiskus mītiskā mītiskāks mītiskām mītiskās
+52	7752	sagribēt	sagrib sagribu sagribēja sagribēji sagribējis sagribēju sagribējuši sagribējāt sagribēs sagribēsi sagribēsim sagribētos sagribētu sagribēšu
+53	7753	notecēt	jānotek nenotek noteci noteciet notecēja notecējis notecēs notecētu notecēšana notek notekot noteku
+54	7754	kārpa	kārpas kārpos kārpu kārpām kārpās
+55	7755	mantība	mantībai mantības mantību
+56	7756	izputināt	izputina izputini izputinot izputināja izputinājis izputinās izputināts izputinātu izputināšana izputināšu neizputina neizputinās neizputināt neizputinātu
+57	7757	astronomisks	astronomiska astronomiskai astronomiskais astronomiskajai astronomiskajam astronomiskajiem astronomiskajās astronomiskas astronomiskie astronomiskiem astronomisko astronomiskos astronomisku astronomiskus astronomiskā astronomiskām astronomiskās
+58	7758	ēdājs	ēdāja ēdājam ēdāji ēdājiem ēdāju ēdājus
+59	7759	petroleja	petrolejai petrolejas petroleju petrolejā
+60	7760	šamanis	šamani šamanim šamaņa šamaņi šamaņiem šamaņu
+61	7761	atsvērt	atsver atsvērts atsvērtu neatiet neatsver
+62	7762	peonija	peonijas peoniju peonijām
+63	7763	toksikoloģija	toksikoloģijas toksikoloģiju
+64	7764	mīkstmiesis	mīkstmiesi mīkstmieša mīkstmieši mīkstmiešiem mīkstmiešu
+65	7765	gaišums	gaišuma gaišumam gaišumu gaišumā
+66	7766	dakstiņš	dakstiņa dakstiņi dakstiņiem dakstiņu dakstiņus
+67	7767	žīgurs	žīgura žīguram žīguri žīguros žīguru
+68	7768	pacilāt	jāpacilā pacilā pacilāja pacilājam pacilājiet pacilājis pacilājot pacilājošs pacilās pacilāta pacilātas pacilāti pacilāto pacilāts pacilātu pacilātā pacilāšanu pacilāšu
+69	7769	pakavēties	jāpakavējas pakavējamies pakavējas pakavējies pakavējieties pakavējos pakavējoties pakavējušies pakavējāmies pakavējās pakavēsies pakavēsimies pakavētos pakavēšanās pakavēšos
+70	7770	antropoloģija	antropoloģijai antropoloģijas antropoloģiju antropoloģijā
+71	7771	dzimumzīme	dzimumzīmei dzimumzīmes dzimumzīmi dzimumzīmju dzimumzīmēm dzimumzīmēs
+72	7772	litijs	litija litiju
+73	7773	ziemeļbriedis	ziemeļbriedi ziemeļbriedim ziemeļbrieža ziemeļbrieži ziemeļbriežiem ziemeļbriežu ziemeļbriežus
+74	7774	skarties	jāskaras neskaras neskaries neskaros neskaroties neskarsies neskarties neskartos skaras skartos skaršos skāries
+75	7775	nokārt	jānokar nenokar nenokaram nenokariet nenokāra nenokārt nenokāru nokar nokaram nokāris nokārtu
+76	7776	sinhrons	sinhrona sinhronai sinhronajam sinhronajā sinhronas sinhroni sinhronie sinhroniem sinhrono sinhronu sinhronā sinhronās
+77	7777	šķīdinātājs	šķīdinātāja šķīdinātājam šķīdinātāji šķīdinātājiem šķīdinātāju šķīdinātājus šķīdinātājā
+78	7778	spekis	speka speki spekiem spekos speku spekus
+79	7779	piekraut	jāpiekrauj piekrauj piekraujat piekraus piekrauts piekrautu piekrāva piekrāvis piekrāvām
+80	7780	apgulēties	apgulies apgulieties apguļas apguļos apguļoties jāapguļas
+81	7781	nozaudēt	nenozaudē nenozaudēja nozaudē nozaudējam nozaudējis nozaudējot nozaudēju nozaudējusi nozaudējuši nozaudēta nozaudētais nozaudētam nozaudētas nozaudēti nozaudētiem nozaudēto nozaudētos nozaudēts nozaudētu nozaudētus nozaudētā nozaudētām nozaudētās nozaudēšana
+82	7782	iecietīgs	iecietīga iecietīgais iecietīgajiem iecietīgam iecietīgas iecietīgiem iecietīgo iecietīgu iecietīgus iecietīgāk iecietīgāka iecietīgākai iecietīgākam iecietīgākas iecietīgāki iecietīgākiem iecietīgāks iecietīgāku iecietīgākā iecietīgās
+83	7783	rūgti	
+84	7784	medūza	medūzas medūzu medūzām
+85	7785	mazturīgs	mazturīga mazturīgai mazturīgais mazturīgajai mazturīgajiem mazturīgajos mazturīgajām mazturīgajās mazturīgam mazturīgas mazturīgie mazturīgiem mazturīgo mazturīgos mazturīgu mazturīgus mazturīgā mazturīgākais mazturīgākajai mazturīgākajiem mazturīgākas mazturīgāki mazturīgāko mazturīgāks mazturīgām mazturīgās
+86	7786	aspirīns	aspirīna aspirīnam aspirīnu aspirīnus
+87	7787	aukstasinīgs	aukstasinīga aukstasinīgajiem aukstasinīgam aukstasinīgas aukstasinīgi aukstasinīgiem aukstasinīgu aukstasinīgāk aukstasinīgāki aukstasinīgāks aukstasinīgās visaukstasinīgākais
+88	7788	pedofils	pedofila pedofilam pedofili pedofiliem pedofilu pedofilus
+89	7789	ieskanēties	ieskanas ieskanies ieskanoties ieskanējies ieskanējās ieskanēsies ieskanētos ieskanēšanās jāieskanas neieskanējās
+90	7790	triatlons	triatlona triatlonam triatlonu triatlonā
+91	7791	skaidroties	jāskaidrojas skaidrojas skaidrojaties skaidrojies skaidrojieties skaidrojos skaidrojoties skaidrojāmies skaidrojās skaidrosies skaidrosimies skaidrošanās
+92	7792	kreicis	kreica kreici kreics kreicu kreiča kreiči
+93	7793	kulinārs	kulināra kulinārais kulinārajai kulinārajiem kulinārajos kulinārajā kulinārajām kulinārajās kulināram kulināri kulinārie kulināriem kulināro kulināros kulināru kulinārus kulinārā kulinārās
+94	7794	grābstīties	grābsties grābstoties grābstās grābstāties grābstījies grābstījās grābstīsies grābstīšanās
+95	7795	nūdists	nūdistam nūdisti nūdistiem nūdistu
+96	7796	viktorīna	viktorīnai viktorīnas viktorīnu viktorīnā viktorīnām viktorīnās
+97	7797	aplaizīt	aplaiza aplaizīs aplaizīsi aplaizītu aplaizīšu
+98	7798	romantisms	romantisma romantismam romantismu romantismā
+99	7799	cigoriņš	cigoriņi cigoriņiem cigoriņu cigoriņus cigoriņā
+100	7800	nevarīgs	nevarīga nevarīgai nevarīgais nevarīgajiem nevarīgam nevarīgas nevarīgi nevarīgie nevarīgiem nevarīgo nevarīgu nevarīgus nevarīgā nevarīgākajiem nevarīgākus nevarīgās

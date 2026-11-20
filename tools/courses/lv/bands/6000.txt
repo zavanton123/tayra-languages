@@ -1,100 +1,100 @@
-1	5901	ārstnieciski	
-2	5902	mataini	
-3	5903	starpzvaigžņu	
-4	5904	aizbāznis	
-5	5905	puķaini	
-6	5906	portugāliski	
-7	5907	dusa	dusas dusiem dusu dusā
-8	5908	imperiālisms	imperiālisma imperiālismam imperiālismu imperiālismā
-9	5909	caurredzamība	caurredzamībai caurredzamības caurredzamību
-10	5910	aizdusa	aizdusai aizdusas aizdusu
-11	5911	iedarbīgums	iedarbīguma iedarbīgumam iedarbīgumu
-12	5912	abažūrs	abažūra abažūri abažūriem abažūru abažūrus abažūrā
-13	5913	augštece	augšteces augšteci augštecē
-14	5914	kaligrāfija	kaligrāfijas kaligrāfiju kaligrāfijā
-15	5915	racionālisms	racionālisma racionālismam racionālismu racionālismā
-16	5916	irāniete	irānietes irānieti irāniešu
-17	5917	nepareizums	nepareizumu nepareizumā
-18	5918	hindi	
-19	5919	suteners	
-20	5920	valgi	
-21	5921	zobenvalis	zobenvali zobenvaļi
-22	5922	jonosfēra	jonosfēras jonosfēru jonosfērā
-23	5923	mežastrazds	mežastrazdi mežastrazdiem
-24	5924	ungāriski	
-25	5925	paukot	paukojam paukošu
-26	5926	skuba	
-27	5927	uzpirkstīte	uzpirkstītes
-28	5928	kurlums	kurluma kurlumam kurlumu
-29	5929	sarkanīgs	sarkanīga sarkanīgas sarkanīgiem sarkanīgo sarkanīgu sarkanīgā
-30	5930	sibīrietis	sibīrietes sibīrieši sibīriešiem sibīriešu sibīriešus
-31	5931	ņipri	
-32	5932	fašists	
-33	5933	cālēns	cālēni cālēniem cālēnu cālēnus
-34	5934	interpunkcija	interpunkcijas interpunkciju
-35	5935	sērsna	sērsnas sērsnu
-36	5936	ērkšķains	ērkšķaina ērkšķainais ērkšķainie ērkšķaino ērkšķainu ērkšķainā ērkšķainām
-37	5937	inspirēt	inspirē inspirēja inspirējis inspirējošs inspirētais inspirēts inspirētu
-38	5938	kardioloģisks	kardioloģiska kardioloģiskais kardioloģiskajiem kardioloģiskajā kardioloģiskas kardioloģiskiem kardioloģisko kardioloģiskā kardioloģiskās
-39	5939	dzestrums	dzestrum dzestruma dzestrumu dzestrumā
-40	5940	dievišķīgi	
-41	5941	lakta	
-42	5942	mikli	
-43	5943	vaislīgs	vaislīgu
-44	5944	pentagramma	pentagrammu
-45	5945	erickiņš	erickiņi
-46	5946	nabadzināt	nabadzini nabadzinu
-47	5947	teoloģiski	
-48	5948	tajiete	tajieši tajiešiem tajiešu
-49	5949	darbalauks	darbalauka darbalaukiem darbalauku
-50	5950	zemessūcējs	zemessūcēja
-51	5951	kipriete	kiprietis kiprieši kipriešiem kipriešu kipriešus
-52	5952	rokassoma	rokassomas rokassomu rokassomām
-53	5953	vērtīgums	vērtīguma vērtīgumu vērtīgumā
-54	5954	ametists	ametista ametisti ametistu
-55	5955	fluors	fluora fluoru
-56	5956	rokasbumba	rokasbumbai rokasbumbas rokasbumbu rokasbumbā
-57	5957	sentence	sentencei sentences sentenci sentencē sentencēs sentenu sentenču
-58	5958	dārzeņkopība	dārzeņkopībai dārzeņkopības dārzeņkopību dārzeņkopībā
-59	5959	blāvot	blāvo blāvojam
-60	5960	jaunavīgi	
-61	5961	zvīņaini	
-62	5962	antimons	antimonu
-63	5963	kinoja	
-64	5964	grūsnējs	grūsnēja
-65	5965	bakteriofāgs	bakteriofāgi
-66	5966	kinetoze	kinetozi
-67	5967	adenīns	
-68	5968	vaisloties	vaislojieties
-69	5969	lokatīvs	lokatīvu
-70	5970	vokatīvs	
-71	5971	tajisks	tajiski
-72	5972	ērkšķaini	
-73	5973	slepšus	
-74	5974	solončaks	solončaku
-75	5975	bulgāriski	
-76	5976	zooloģija	zooloģijas zooloģiju zooloģijā
-77	5977	aizvakardiena	aizvakardienas aizvakardienu aizvakardienā
-78	5978	latīnisks	latīniska latīniskais latīniskajiem latīniskajā latīniskajām latīniskie latīnisko latīniskos latīniskā latīniskās
-79	5979	rusofobija	
-80	5980	kazaks	
-81	5981	raudiens	raudienu
-82	5982	pareizums	pareizumam pareizumu
-83	5983	ksenons	ksenona ksenonu
-84	5984	pilnīgums	pilnīguma pilnīgumam pilnīgumu pilnīgumā
-85	5985	līdzvērtība	līdzvērtībai līdzvērtības līdzvērtību
-86	5986	strādīgums	strādīguma strādīgumam strādīgumu
-87	5987	azaids	azaida azaidam azaidu
-88	5988	apendicīts	apendicīta apendicītu
-89	5989	brīve	brīvei brīves brīvē
-90	5990	kalla	kallas kallu kallām
-91	5991	humānists	humānista humānistam humānisti humānistu humānistus
-92	5992	atstāstījums	atstāstījumi atstāstījumiem atstāstījumu atstāstījumus atstāstījumā
-93	5993	plaksts	plaksta plaksti plakstiem plakstos plakstu plakstus
-94	5994	topiņš	topiņam topiņi topiņiem topiņu topiņus topiņā
-95	5995	sālīt	sāla sāli sālot sālu sālām sālīja sālījāt sālīs sālītu
-96	5996	ateisms	ateismu
-97	5997	ultimāts	
-98	5998	bezgalība	
-99	5999	selva	selvas
-100	6000	verbs	verba verbiem verbu
+1	5901	izslēgties	izslēdzas izslēdzies izslēdzos izslēdzoties izslēdzās izslēgsies izslēgtos izslēgšanās jāizslēdzas neizslēdzas neizslēdzās neizslēgsies
+2	5902	čakli	
+3	5903	pakalpot	pakalpo pakalpoja pakalpoji pakalpojiet pakalpoju pakalposi pakalpots pakalpotu pakalpošu
+4	5904	biatlons	biatlona biatlonam biatlonu biatlonā
+5	5905	glāstīt	glāsta glāsti glāstiet glāstot glāstu glāstāt glāstīja glāstīju glāstījusi glāstīs glāstītas glāstīts glāstītu glāstīšana glāstīšanas glāstīšu jāglāsta neglāstu neglāstīja
+6	5906	abstrakts	abstrakta abstraktai abstraktais abstraktajai abstraktajam abstraktajiem abstraktajā abstraktajām abstraktam abstraktas abstrakti abstraktie abstraktiem abstrakto abstraktos abstraktu abstraktus abstraktā abstraktāk abstraktākas abstraktāki abstraktāku abstraktākus abstraktām abstraktās
+7	5907	milimetrs	milimetra milimetram milimetri milimetriem milimetros milimetru milimetrus
+8	5908	valsis	valsa valsi valsim valsu valsī valša valši valšu valšus
+9	5909	paaugstināties	jāpaaugstinās nepaaugstinājās nepaaugstinās nepaaugstināsies nepaaugstinātos nepaaugstināšanās paaugstinoties paaugstinājies paaugstinājusies paaugstinājušies paaugstinājušās paaugstinājās paaugstināmies paaugstinās paaugstināsies paaugstinātos paaugstināšanās
+10	5910	čakste	čakstes čaksti čakšu
+11	5911	agrārs	agrāra agrārais agrārajai agrārajā agrārajām agrāram agrāras agrāro agrārā agrārās
+12	5912	trajektorija	trajektorijai trajektorijas trajektoriju trajektorijā trajektorijām trajektorijās
+13	5913	ievārījums	ievārījuma ievārījumam ievārījumi ievārījumiem ievārījumos ievārījumu ievārījumus ievārījumā
+14	5914	hierarhija	hierarhijai hierarhijas hierarhiju hierarhijā hierarhijām hierarhijās
+15	5915	horeogrāfs	horeogrāfa horeogrāfam horeogrāfi horeogrāfiem horeogrāfos horeogrāfu horeogrāfus
+16	5916	ekoloģija	ekoloģijai ekoloģijas ekoloģiju ekoloģijā
+17	5917	urāns	urāna urānam urānu urānā
+18	5918	saaukstēšanās	
+19	5919	dinastija	dinastijai dinastijas dinastiju dinastijā dinastijām
+20	5920	adresāts	adresāta adresātam adresāti adresātiem adresātu adresātus
+21	5921	tētiņš	tētiņa tētiņam tētiņiem tētiņu
+22	5922	dramaturgs	dramaturga dramaturgam dramaturgi dramaturgiem dramaturgu dramaturgus
+23	5923	cigārs	cigāra cigāram cigāri cigāriem cigāru cigārus cigārā
+24	5924	izdegt	izdedz izdedzis izdeg izdega izdegot izdegs izdegusi izdegusī izdegušai izdegušais izdegušajam izdegušajā izdegušajām izdegušam izdegušas izdeguši izdegušie izdegušo izdegušos izdegušu izdegušā izdegušām izdegušās izdegšana izdegšot neizdedzis neizdeg neizdegs neizdegt neizdegtu neizdegu neizdegušas neizdegušu
+25	5925	lietusgāze	lietusgāzei lietusgāzes lietusgāzi lietusgāzē lietusgāzēm lietusgāzēs lietusgāžu
+26	5926	palete	paletei paletes paleti paletē paletēm palešu
+27	5927	sagriezties	nesagriezos nesagriežas sagriezas sagriezies sagriezos sagrieztos sagriezusies sagriezušies sagriezušās sagriezās sagriezīsies sagriešanās sagriežas sagriežos sagriežoties
+28	5928	brūni	
+29	5929	knābis	knāba knābi knābim knābja knābji knābjos knābju knābī
+30	5930	problemātisks	problemātiska problemātiskai problemātiskais problemātiskajai problemātiskajiem problemātiskajos problemātiskajā problemātiskajām problemātiskajās problemātiskas problemātiski problemātiskie problemātiskiem problemātisko problemātiskos problemātisku problemātiskus problemātiskā problemātiskāk problemātiskāka problemātiskākais problemātiskākajiem problemātiskākajām problemātiskākas problemātiskāku problemātiskākā problemātiskākām problemātiskām problemātiskās visproblemātiskākais visproblemātiskākajām visproblemātiskākā
+31	5931	masturbēt	masturbē masturbēja masturbējat masturbējis masturbējot masturbēju masturbētu masturbēšana
+32	5932	saīsinājums	saīsinājuma saīsinājumi saīsinājumiem saīsinājumos saīsinājumu saīsinājumus saīsinājumā
+33	5933	kļūdaini	
+34	5934	garants	garanta garantam garantiem garantu
+35	5935	mieži	miežiem miežos miežu miežus
+36	5936	horeogrāfija	horeogrāfijai horeogrāfijas horeogrāfiju horeogrāfijā horeogrāfijām
+37	5937	ceļgals	ceļgala ceļgalam ceļgali ceļgaliem ceļgalos ceļgalu ceļgalus ceļgalā
+38	5938	astrologs	astrologa astrologam astrologi astrologiem astrologos astrologu astrologus astrologā
+39	5939	šaušalīgs	visšaušalīgākā šaušalīga šaušalīgais šaušalīgajai šaušalīgajiem šaušalīgajā šaušalīgas šaušalīgi šaušalīgie šaušalīgiem šaušalīgo šaušalīgos šaušalīgu šaušalīgus šaušalīgā šaušalīgākais šaušalīgākajai šaušalīgākajiem šaušalīgākajos šaušalīgākos šaušalīgām šaušalīgās
+40	5940	grīva	grīvai grīvas grīvos grīvu grīvā grīvām grīvās
+41	5941	ievilināt	ievilina ievilini ievilinot ievilināja ievilināji ievilinājis ievilinājuši ievilinās ievilināsiet ievilināsim ievilināta ievilināti ievilināts ievilinātu ievilināšana ievilināšanas ievilināšanu jāievilina neievilināsiet
+42	5942	šķemba	šķembas šķembu šķembām šķembās
+43	5943	egoisms	egoisma egoismam egoismu egoismā
+44	5944	jonu	
+45	5945	vīķe	vīķei vīķes vīķi vīķu vīķē
+46	5946	skaitīties	neskaitos neskaitoties neskaitāmies neskaitījās neskaitīsies neskaitīties skaitoties skaitāmies skaitīdamies skaitījies skaitījos skaitījusies skaitījušies skaitījāmies skaitījās skaitījāties skaitīsies skaitīsimies skaitīšanās skaitīšos
+47	5947	izlūks	izlūka izlūkam izlūki izlūkiem izlūkos izlūku izlūkus
+48	5948	cilvēciņš	cilvēciņa cilvēciņam cilvēciņi cilvēciņiem cilvēciņos cilvēciņu cilvēciņus cilvēciņā
+49	5949	sīkt	sīc sīcam sīci sīcis sīcot sīkšana
+50	5950	auskars	auskara auskaram auskari auskariem auskaros auskaru auskarus
+51	5951	vēsma	vēsmai vēsmas vēsmu vēsmām
+52	5952	transformācija	transformācijai transformācijas transformāciju transformācijā transformācijām transformācijās
+53	5953	melone	melonei melones meloni melonēm melonēs meloņu
+54	5954	šedevrs	šedevra šedevram šedevri šedevriem šedevros šedevru šedevrus šedevrā
+55	5955	matrozis	matrozi matrozim matroža matroži matrožiem matrožu matrožus
+56	5956	sīrups	sīrupa sīrupam sīrupi sīrupiem sīrupos sīrupu sīrupus sīrupā
+57	5957	ziemeļpols	ziemeļpola ziemeļpolam ziemeļpolu ziemeļpolā
+58	5958	psiholoģiski	
+59	5959	argumentēt	argumentē argumentēja argumentējiet argumentējis argumentējot argumentēju argumentējusi argumentējuši argumentējām argumentēsiet argumentēta argumentētais argumentētas argumentēti argumentētie argumentēto argumentēts argumentētu argumentētā argumentēšana argumentēšanas argumentēšanu argumentēšanā jāargumentē neargumentē neargumentēja neargumentējot neargumentēta neargumentētas neargumentēti neargumentēto neargumentēts neargumentētu
+60	5960	dekāns	dekāna dekānam dekāni dekāniem dekānu dekānus
+61	5961	nekustīgs	nekustīga nekustīgai nekustīgajiem nekustīgajām nekustīgam nekustīgas nekustīgi nekustīgie nekustīgo nekustīgu nekustīgus nekustīgā nekustīgām nekustīgās
+62	5962	bagātnieks	bagātniece bagātniecei bagātnieces bagātnieka bagātniekam bagātnieki bagātniekiem bagātnieku bagātniekus bagātniekā
+63	5963	krustmāte	krustmātei krustmātes krustmāti krustmātē krustmātēm
+64	5964	steidzīgi	
+65	5965	iefiltrēties	iefiltrējamies iefiltrējas iefiltrējies iefiltrējoties iefiltrējusies iefiltrējušies iefiltrējušās iefiltrējās iefiltrētos iefiltrēšanās iefiltrēšos jāiefiltrējas
+66	5966	remdēt	jāremdē neremdē neremdēja neremdēšu remdē remdēja remdējam remdējiet remdējis remdējot remdējošs remdējuši remdēs remdēta remdētas remdēts remdētu remdēšana remdēšanas remdēšanu remdēšu
+67	5967	uzvest	jāuzved neuzvestiem neuzvestos uzved uzveda uzvedam uzvedi uzvedis uzvedot uzvedu uzvedām uzvedīs uzvedīsi uzvedīsiet uzvedīšu uzvesta uzvestas uzvesti uzvestos uzvests uzvestu uzvestā uzvestām uzvestās uzvešana
+68	5968	kiosks	kioska kioskam kioski kioskiem kioskos kiosku kioskus kioskā
+69	5969	lauzties	jālaužas lauzas lauzdamies lauzies lauzos lauzāmies lauzās lauzīsies lauzīsimies laušanās laužamies laužas laužos laužoties nelauzies nelauztos nelauzās nelauzīsies nelaužamies nelaužas nelaužos nelaužoties
+70	5970	pelde	peldei peldes peldi peldē peldēm peldēs pelu pelus pelžu
+71	5971	izdalīties	izdalas izdaloties izdalāmas izdalās izdalījies izdalījās izdalīsies izdalītos izdalīšanās jāizdalās neizdalās neizdalīsies
+72	5972	piemēroties	jāpiemērojas nepiemērotos piemērodamies piemērojas piemērojaties piemērojies piemērojoties piemērojušies piemērojušās piemērojās piemērosies piemērotos piemērošanās
+73	5973	garāmgājējs	garāmgājēj garāmgājēja garāmgājējam garāmgājēji garāmgājējiem garāmgājējos garāmgājēju garāmgājējus
+74	5974	čība	čības čību čībā čībām čībās
+75	5975	aizdzīt	aizdzen aizdzenam aizdzenamo aizdzenat aizdzeniet aizdzenot aizdzenoši aizdzenu aizdzijusi aizdzijuši aizdzina aizdzini aizdzinis aizdzinu aizdzinusi aizdzinuši aizdzināt aizdzīs aizdzīsim aizdzīst aizdzīta aizdzītas aizdzīti aizdzīto aizdzīts aizdzītu aizdzītā aizdzīšana jāaizdzen neaizdzen neaizdzijis neaizdzīs neaizdzīsi neaizdzītu
+76	5976	fundamentāls	fundamentāla fundamentālai fundamentālais fundamentālajai fundamentālajam fundamentālajiem fundamentālajos fundamentālajā fundamentālajām fundamentālajās fundamentālam fundamentālas fundamentāli fundamentālie fundamentāliem fundamentālo fundamentālos fundamentālu fundamentālus fundamentālā fundamentālākais fundamentālākajiem fundamentālākajām fundamentālāki fundamentālāku fundamentālākā fundamentālām fundamentālās visfundamentālākie
+77	5977	siens	sien sienam sienu sienā
+78	5978	rakstība	rakstībai rakstības rakstību rakstībā
+79	5979	tiesāties	jātiesājas netiesājas netiesāsies netiesāties netiesātos tiesājamies tiesājas tiesājies tiesājos tiesājoties tiesājusies tiesājās tiesāsies tiesāsimies tiesātos tiesāšanās tiesāšos
+80	5980	sagribēties	sagribas sagribējas sagribējies sagribējusies sagribējās sagribēsies sagribētos
+81	5981	mīlīgs	mīlīga mīlīgai mīlīgais mīlīgajai mīlīgajam mīlīgajiem mīlīgajos mīlīgajām mīlīgam mīlīgas mīlīgie mīlīgiem mīlīgo mīlīgos mīlīgu mīlīgus mīlīgā mīlīgāk mīlīgāka mīlīgākais mīlīgākajai mīlīgākas mīlīgāki mīlīgāko mīlīgāku mīlīgām mīlīgās vismīlīgākais
+82	5982	dīzelis	dīzela dīzeli dīzelim dīzeļa dīzeļi dīzeļiem dīzeļu dīzeļus
+83	5983	elektrostacija	elektrostacijai elektrostacijas elektrostaciju elektrostacijā elektrostacijām elektrostacijās
+84	5984	negribot	
+85	5985	mango	
+86	5986	oža	ožai ožas ožiem ožu ožus
+87	5987	stigt	stiedz stieg stiga stigs stigu stigām
+88	5988	vate	vaa vatei vates vati vatē vatēm
+89	5989	rakstniecība	rakstniecībai rakstniecības rakstniecību rakstniecībā
+90	5990	disertācija	disertācijai disertācijas disertāciju disertācijā disertācijām disertācijās
+91	5991	globalizācija	globalizācijai globalizācijas globalizāciju globalizācijā
+92	5992	hronika	hronikai hronikas hroniku hronikā hronikām hronikās
+93	5993	kriptons	kriptona kriptonam kriptonu
+94	5994	lietavas	lietavu lietavām lietavās
+95	5995	arheoloģija	arheoloģijai arheoloģijas arheoloģiju arheoloģijā
+96	5996	fauna	faunai faunas faunu faunā
+97	5997	aminoskābe	aminoskābes aminoskābi aminoskābju aminoskābēm
+98	5998	artērija	artērijai artērijas artēriju artērijā artērijām artērijās
+99	5999	matrica	matricai matricas matricu matricā matricām matricās
+100	6000	darītājs	darītāja darītājam darītāji darītājiem darītājos darītāju darītājus

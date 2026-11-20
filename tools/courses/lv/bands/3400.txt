@@ -1,100 +1,100 @@
-1	3301	žīds	žīd žīda žīdam žīdi žīdiem žīdu žīdus
-2	3302	apmainīt	apmaina apmaini apmainiet apmainot apmainu apmainām apmaināt apmainīja apmainīji apmainījis apmainīju apmainījām apmainījāt apmainīs apmainīsi apmainīsim apmainīts apmainītu apmainīšana apmainīšanai apmainīšanas apmainīšanos apmainīšanu jāapmaina
-3	3303	čakarēt	nečakarēt čakarē čakarēja čakarējam čakarējat čakarējis čakarējot čakarēju čakarēs čakarēsi čakarēsim čakarētu čakarēšana
-4	3304	ārēji	
-5	3305	viesmīlis	viesmīle viesmīlei viesmīles viesmīli viesmīlim viesmīlēm viesmīļa viesmīļi viesmīļiem viesmīļu viesmīļus
-6	3306	slota	slotai slotas sloti slotiem slotu slotus slotām
-7	3307	kāts	kāt kāta kātam kāti kātiem kātos kātu kātus kātā
-8	3308	marihuāna	marihuānai marihuānas marihuānu marihuānā
-9	3309	vemt	jāvemj nevemt vem vemdams vemj vemjam vemjat vems vemsi vemtu vemšana vemšu vēma vēmi vēmis vēmu vēmāt
-10	3310	sērs	sēr sēra sēram sēri sēru sērā
-11	3311	etnisks	etniska etniskai etniskais etniskajai etniskajam etniskajiem etniskajos etniskajā etniskajām etniskajās etniskam etniskas etniskie etniskiem etnisko etniskos etnisku etniskā etniskām etniskās
-12	3312	gabaliņš	gabaliņos
-13	3313	mape	maiem mapei mapes mapi mapju mapē mapēm mapēs
-14	3314	izteiciens	izteiciena izteicienam izteicieni izteicieniem izteicienos izteicienu izteicienus izteicienā
-15	3315	mehāniķis	mehāniķa mehāniķe mehāniķi mehāniķiem mehāniķim mehāniķu mehāniķus
-16	3316	retums	retum retuma retumam retumi retumiem retumu retumus
-17	3317	bruņurupucis	bruņurupuci bruņurupucim bruņurupuča bruņurupuči bruņurupučiem bruņurupuču bruņurupučus
-18	3318	cienīt	cienījamie
-19	3319	sirms	sirma sirmai sirmais sirmajai sirmajam sirmajiem sirmajos sirmajā sirmajām sirmam sirmas sirmie sirmiem sirmo sirmos sirmu sirmus sirmā sirmāks sirmām sirmās
-20	3320	zīds	zīda zīdam zīdi zīdu zīdā
-21	3321	mātīte	mātītei mātītes mātīti mātītēm mātīšu
-22	3322	kontrabanda	kontrabandai kontrabandas kontrabandu kontrabandā
-23	3323	spainis	spaini spainim spainī spaiņa spaiņi spaiņiem spaiņos spaiņu spaiņus
-24	3324	nomods	nomodā
-25	3325	sperma	spermai spermas spermu spermā
-26	3326	riteņbraukšana	riteņbraukšanai riteņbraukšanas riteņbraukšanu riteņbraukšanā
-27	3327	žests	žesta žestam žesti žestiem žestos žestu žestus žestā
-28	3328	slepenība	slepenībai slepenības slepenību slepenībā
-29	3329	bagātīgs	bagātīga bagātīgai bagātīgais bagātīgajai bagātīgajam bagātīgajiem bagātīgajos bagātīgajā bagātīgajām bagātīgam bagātīgas bagātīgie bagātīgiem bagātīgo bagātīgos bagātīgu bagātīgus bagātīgā bagātīgāks bagātīgām bagātīgās visbagātīgākais
-30	3330	bučot	bučo bučoja bučoji bučojiet bučojis bučojot bučoju bučos bučosi bučošana bučošanai bučošanos bučošanu bučošu jābučo
-31	3331	mīļums	mīļum mīļuma mīļumam mīļumi mīļumu mīļumā
-32	3332	feja	fejai fejas feju fejā fejām fejās
-33	3333	tīt	jātin tii tin tina tinam tinams tinat tini tiniet tinis tinot tinu tinām tiā tiņa tiņiem tiņu tīs tīts tītu tīšana tīšu
-34	3334	piemirst	nepiemirst piemirsa piemirsi piemirsis piemirstais piemirstam piemirstat piemirsti piemirstot piemirsts piemirstu piemirsu piemirsām piemirsāt piemirsīs piemirsīsi piemiršana
-35	3335	dusēt	dus dusam dusat dusi dusiet dusošais dusu dusēja dusējis dusēs dusētu dusēšanas dusēšanu dusēšu jādus nedusēt
-36	3336	arhibīskaps	arhibīskap arhibīskapa arhibīskapam arhibīskapi arhibīskapu
-37	3337	panna	pannai pannam pannas pannu pannā pannām pannās
-38	3338	bēbis	bēbi bēbim bēbja bēbji bēbjiem bēbju bēbjus
-39	3339	patriotisms	patriotism patriotisma patriotismam patriotismu patriotismā
-40	3340	iekaisums	iekaisuma iekaisumam iekaisumi iekaisumiem iekaisumu iekaisumus iekaisumā
-41	3341	deputāte	
-42	3342	sausums	sausum sausuma sausumam sausumi sausumiem sausumos sausumu sausumā
-43	3343	velties	velies velsies veltos velšanās velšoties veļas veļos veļoties vēlies vēlāmies vēlās vēlāties
-44	3344	palma	palmai palmas palmu palmā palmām palmās
-45	3345	paraksts	
-46	3346	kaklarota	kaklarotai kaklarotas kaklarotu kaklarotām
-47	3347	fenomens	fenomena fenomenam fenomeni fenomeniem fenomenu fenomenus fenomenā
-48	3348	fon	
-49	3349	skulptūra	skulptūru
-50	3350	nodevējs	
-51	3351	altāris	altāra altāri altāriem altārim altāru altārus altārī
-52	3352	pingvīns	pingvīna pingvīnam pingvīni pingvīniem pingvīnu pingvīnus
-53	3353	āboliņš	āboliņa āboliņam āboliņi āboliņu āboliņus
-54	3354	gigants	gigant giganta gigantam giganti gigantiem gigantos gigantu gigantus gigantā
-55	3355	vieglatlētika	vieglatlētikai vieglatlētikas vieglatlētiku vieglatlētikā
-56	3356	rudzi	rudziem rudzis rudzos rudzs rudzu rudzus
-57	3357	pēcpuse	pēcpusei pēcpuses pēcpusi pēcpusē pēcpusēm pēcpušu
-58	3358	slānis	slāņa
-59	3359	enkurs	enkura enkuram enkuri enkuriem enkuru enkurus
-60	3360	latīniete	latīņiem latīņu
-61	3361	labvēlība	labvēlībai labvēlības labvēlību labvēlībā
-62	3362	svītra	svītras svītru svītrām svītrās
-63	3363	strupceļš	strupceļa strupceļam strupceļi strupceļiem strupceļos strupceļu strupceļus strupceļā
-64	3364	aleja	alejai alejas aleju alejā alejām alejās
-65	3365	stārķis	starks stāra stāram stāri stāriem stārks stāru stārķa stārķi stārķiem stārķim stārķu stārķus
-66	3366	apgādāt	apgādā apgādāja apgādājam apgādājiet apgādājis apgādājot apgādāju apgādājām apgādājāt apgādās apgādāsim apgādāts apgādātu apgādāšana jāapgādā
-67	3367	gardums	gardum garduma gardumam gardumi gardumiem gardumos gardumu gardumus gardumā
-68	3368	revolūcija	
-69	3369	kodolierocis	kodolieroci kodolieroči kodolieročiem kodolieročos kodolieroču kodolieročus
-70	3370	mazums	mazum mazuma mazumam mazumu mazumā
-71	3371	caurs	caura caurais caurajā caurajām caurajās cauram cauras cauriem cauro cauros cauru caurus caurā caurāks caurām caurās
-72	3372	kategorija	
-73	3373	pīpēt	jāpīpē nepīpēt pīpē pīpēdams pīpēja pīpējam pīpējat pīpēji pīpējis pīpējot pīpēju pīpējām pīpējāt pīpēs pīpēsi pīpēts pīpētu pīpēšana pīpēšu
-74	3374	svārki	svārka svārkam svārkiem svārkos svārku svārkus
-75	3375	paruna	parunai parunas parunu parunā parunām parunās
-76	3376	autoritāte	autoritāti
-77	3377	auns	aun auna aunam auni auniem aunu aunus aunā
-78	3378	sviedri	sviedriem sviedros sviedru sviedrus
-79	3379	amatniecība	amatniecībai amatniecības amatniecību amatniecībā
-80	3380	vienmērīgs	vienmērīga vienmērīgai vienmērīgais vienmērīgajam vienmērīgajā vienmērīgam vienmērīgas vienmērīgi vienmērīgie vienmērīgiem vienmērīgo vienmērīgu vienmērīgā vienmērīgāks vienmērīgām
-81	3381	pēkšņs	pēkšņa pēkšņai pēkšņais pēkšņajai pēkšņajiem pēkšņajā pēkšņajām pēkšņas pēkšņie pēkšņiem pēkšņo pēkšņos pēkšņu pēkšņus pēkšņā pēkšņām pēkšņās
-82	3382	ceturtdaļa	ceturtdaļai ceturtdaļas ceturtdaļu ceturtdaļā ceturtdaļām ceturtdaļās
-83	3383	kūdra	kūdrai kūdras kūdru kūdrā
-84	3384	vairot	vairo
-85	3385	tonis	toņos
-86	3386	kanādietis	kanādiete kanādieti kanādietim kanādieša kanādieši kanādiešiem kanādiešu kanādiešus
-87	3387	teleskops	teleskopa teleskopam teleskopi teleskopiem teleskopos teleskopu teleskopus teleskopā
-88	3388	seksualitāte	seksualitātei seksualitātes seksualitāti seksualitātē
-89	3389	nabadzīte	nabadziņ nabadziņa nabadziņam nabadziņi nabadziņiem nabadziņu nabadziņus nabadziņš nabadzītei nabadzīti nabadzītēm
-90	3390	poza	pozā
-91	3391	bagāžnieks	bagāžnieka bagāžniekam bagāžniekiem bagāžniekos bagāžnieku bagāžniekus bagāžniekā
-92	3392	mērķtiecīgs	mērķtiecīga mērķtiecīgai mērķtiecīgais mērķtiecīgajai mērķtiecīgajiem mērķtiecīgam mērķtiecīgas mērķtiecīgie mērķtiecīgiem mērķtiecīgo mērķtiecīgos mērķtiecīgu mērķtiecīgus mērķtiecīgā mērķtiecīgāks mērķtiecīgām mērķtiecīgās
-93	3393	dinamika	dinamikai dinamikas dinamiku dinamikā
-94	3394	aprēķins	aprēķinu
-95	3395	ego	
-96	3396	auzas	auza auzu auzām auzās
-97	3397	lūsis	lūis lūsi lūsim lūša lūši lūšiem lūšos lūšu lūšus
-98	3398	pieklājīgs	ais āks
-99	3399	ikona	ikonai ikonam ikonas ikonu ikonā ikonām ikonās
-100	3400	mols	mol mola molam moli moliem molu molus molā
+1	3301	kukainis	kukaini kukainim kukainus kukaiņa kukaiņi kukaiņiem kukaiņos kukaiņu kukaiņus
+2	3302	nabadzība	nabadzībai nabadzības nabadzību nabadzībā
+3	3303	rezervēt	jārezervē nerezervē nerezervēta rezervē rezervēja rezervējam rezervējams rezervējat rezervēji rezervējiet rezervējis rezervējot rezervēju rezervējusi rezervējušas rezervējuši rezervējām rezervējāt rezervēs rezervēsi rezervēsiet rezervēsim rezervēta rezervētais rezervētas rezervēti rezervētie rezervēto rezervēts rezervētu rezervētā rezervēšana rezervēšanas rezervēšanu rezervēšu
+4	3304	daile	dailei dailes daili dailē
+5	3305	pagriezties	jāpagriežas nepagriezties nepagriežas pagriezas pagriezies pagriezieties pagriezos pagrieztos pagriezusies pagriezušies pagriezušās pagriezāmies pagriezās pagriezīsies pagriezīšos pagriešanās pagriežamies pagriežas pagriežaties pagriežos pagriežoties
+6	3306	noformēt	jānoformē nenoformēja nenoformējot nenoformēs nenoformēt nenoformēti nenoformētu nenoformēšanu nenoformēšanā noformē noformēja noformējam noformējams noformējiet noformējis noformējot noformēju noformējusi noformējušas noformējuši noformējām noformēs noformēsi noformēsiet noformēsim noformēta noformētais noformētas noformēti noformētie noformēto noformēts noformētu noformētā noformēšana noformēšanas noformēšanu noformēšanā noformēšu
+7	3307	sakrist	jāsakrīt nesakrist nesakristu nesakrita nesakritīs nesakritīšot nesakrīt nesakrītot sakristu sakrita sakritis sakritīs sakrišana sakrīt sakrītot
+8	3308	vārtsargs	vārtsarga vārtsargam vārtsargi vārtsargiem vārtsargos vārtsargu vārtsargus
+9	3309	iecienīt	ieciena iecienīja iecienījis iecienījusi iecienījušas iecienījuši iecienīs iecienīta iecienītais iecienītas iecienīti iecienītie iecienīto iecienīts iecienītu iecienītā
+10	3310	diploms	diploma diplomam diplomi diplomiem diplomos diplomu diplomus diplomā
+11	3311	skaņdarbs	skaņdarba skaņdarbam skaņdarbi skaņdarbiem skaņdarbos skaņdarbu skaņdarbus skaņdarbā
+12	3312	līt	jālīst lija lijai lijas lijis liju lijā lît līs līsti līstot līstu lītu līšana līšot nelīt
+13	3313	platums	platuma platumam platumiem platumu platumus platumā
+14	3314	laisties	jālaižas laidies laidieties laidos laidāmies laidās laidīsies laidīsieties laidīsimies laidīšos laistos laizdamies laižamies laižas laižaties laižos laižoties nelaidās nelaidīsies nelaistos nelaižas nelaižoties
+15	3315	izšķirties	izšķiramies izšķiras izšķiries izšķirieties izšķiros izšķiroties izšķirsies izšķirsieties izšķirsimies izšķirsities izšķirtos izšķiršanās izšķiršos izšķiršoties izšķīras izšķīries izšķīros izšķīrāmies izšķīrās izšķīrāties jāizšķiras neizšķiras neizšķirsies neizšķirtos neizšķīrāmies neizšķīrās neizšķīrāties
+16	3316	ceļotājs	ceļotāja ceļotājam ceļotāji ceļotājiem ceļotāju ceļotājus
+17	3317	džezs	džeza džezam džezu džezā
+18	3318	haoss	haosa haosam haosu haosā
+19	3319	saražot	jāsaražo nesaražo nesaražos nesaražosi nesaražot nesaražoto nesaražotā saražo saražoja saražojam saražojamais saražojiet saražojis saražojot saražojusi saražojušas saražojuši saražojām saražos saražota saražotais saražotajai saražotajam saražotajiem saražotajā saražotajām saražotas saražoti saražotie saražotiem saražoto saražotos saražots saražotu saražotus saražotā saražotām saražotās saražošana
+20	3320	šaut	
+21	3321	caurule	caurulei caurules cauruli caurulē caurulēm caurulēs cauruļu
+22	3322	pavārs	pavār pavāra pavāram pavāre pavāri pavāriem pavāros pavāru pavārus
+23	3323	apmācīt	apmāca apmāci apmāciet apmācot apmācu apmācām apmācāms apmācāt apmācīja apmācīji apmācījis apmācīju apmācījām apmācījāt apmācīs apmācīsi apmācīsiet apmācīsim apmācīts apmācītu apmācīšana apmācīšot apmācīšu jāapmāca neapmācāms neapmācīts neapmācītu
+24	3324	indivīds	indivīda indivīdam indivīdi indivīdiem indivīdos indivīdu indivīdus indivīdā
+25	3325	uzlabojums	uzlabojuma uzlabojumam uzlabojumi uzlabojumiem uzlabojumos uzlabojumu uzlabojumus uzlabojumā
+26	3326	sadale	sadalei sadales sadali sadalē sadalēm sadaļu
+27	3327	iekārtot	iekārto iekārtoja iekārtojam iekārtojiet iekārtojis iekārtojot iekārtoju iekārtojām iekārtos iekārtosim iekārtots iekārtotu iekārtošana iekārtošu jāiekārto neiekārto neiekārtosim
+28	3328	aptaujāt	aptaujā aptaujāja aptaujājam aptaujājiet aptaujājis aptaujājot aptaujāju aptaujājusi aptaujājušas aptaujājuši aptaujājām aptaujās aptaujāsim aptaujātais aptaujāti aptaujātie aptaujāto aptaujāts aptaujātu aptaujātā aptaujāšana aptaujāšanas aptaujāšanu jāaptaujā neaptaujā neaptaujāja neaptaujājot
+29	3329	sakritība	sakritībai sakritības sakritību sakritībā sakritībām
+30	3330	kronis	kroni kronim kronos kronus kroņa kroņi kroņiem kroņu kroņus
+31	3331	aizstāvība	aizstāvībai aizstāvības aizstāvību aizstāvībā aizstāvībās
+32	3332	fotografēt	fotografē fotografēja fotografējam fotografējamie fotografējamo fotografējamā fotografējat fotografēji fotografējiet fotografējis fotografējot fotografēju fotografējusi fotografējuši fotografējām fotografējāt fotografēs fotografēsim fotografēta fotografētas fotografēti fotografētie fotografēto fotografētos fotografēts fotografētu fotografētās fotografēšana fotografēšanai fotografēšanas fotografēšanos fotografēšanu fotografēšanā fotografēšanās fotografēšu jāfotografē nefotografē nefotografēju nefotografēt
+33	3333	iemītnieks	iemītnieka iemītniekam iemītnieki iemītniekiem iemītniekos iemītnieku iemītniekus
+34	3334	maģisks	maģiska maģiskai maģiskais maģiskajai maģiskajam maģiskajiem maģiskajā maģiskajām maģiskajās maģiskam maģiskas maģiski maģiskie maģiskiem maģisko maģiskos maģisku maģiskus maģiskā maģiskāka maģiskākai maģiskākajai maģiskākie maģiskāko maģiskāks maģiskākā maģiskām maģiskās vismaģiskākais vismaģiskākie
+35	3335	masāža	masāžai masāžas masāžu masāžā masāžām masāžās
+36	3336	garlaicīgs	garlaicīga garlaicīgai garlaicīgais garlaicīgajai garlaicīgajam garlaicīgajiem garlaicīgajā garlaicīgajām garlaicīgam garlaicīgas garlaicīgie garlaicīgiem garlaicīgo garlaicīgos garlaicīgu garlaicīgus garlaicīgā garlaicīgāk garlaicīgāka garlaicīgākais garlaicīgākajiem garlaicīgākajām garlaicīgākas garlaicīgāki garlaicīgāko garlaicīgākos garlaicīgāks garlaicīgāku garlaicīgākā garlaicīgākās garlaicīgām garlaicīgās visgarlaicīgākais visgarlaicīgāko
+37	3337	še	
+38	3338	izspēlēt	izspēlē izspēlēja izspēlējam izspēlēji izspēlējiet izspēlējis izspēlējot izspēlēju izspēlējām izspēlējāt izspēlēs izspēlēsi izspēlēsiet izspēlēsim izspēlēts izspēlētu izspēlēšana izspēlēšu jāizspēlē neizspēlē neizspēlēja neizspēlēs neizspēlēsim neizspēlētu
+39	3339	investēt	investē investēja investējam investējat investējiet investējis investējot investēju investējusi investējušas investējuši investējušo investējām investēs investēsiet investēsim investēta investētais investētas investēti investētie investēto investēts investētu investētā investēšana investēšanas investēšanu investēšanā jāinvestē neinvestē neinvestēja neinvestējam neinvestējot neinvestēs neinvestēsiet neinvestēsim neinvestētais neinvestēšu
+40	3340	violets	violeta violetai violetais violetajam violetajiem violetajos violetajā violetas violetie violetiem violeto violetos violetu violetus violetā violetām violetās
+41	3341	ģenētisks	ģenētiska ģenētiskai ģenētiskais ģenētiskajai ģenētiskajiem ģenētiskajā ģenētiskajām ģenētiskas ģenētiski ģenētiskie ģenētiskiem ģenētisko ģenētiskos ģenētisku ģenētiskus ģenētiskā ģenētiskām ģenētiskās
+42	3342	koncepcija	koncepcijai koncepcijas koncepciju koncepcijā koncepcijām koncepcijās
+43	3343	mājsaimniecība	mājsaimniecībai mājsaimniecības mājsaimniecību mājsaimniecībā mājsaimniecībām mājsaimniecībās
+44	3344	iekāpt	iekāp iekāpa iekāpiet iekāpis iekāpj iekāpjam iekāpjot iekāpju iekāps iekāpsi iekāpsiet iekāpsim iekāpts iekāptu iekāpu iekāpām iekāpāt iekāpšana iekāpšu jāiekāpj neiekāpjot neiekāpt neiekāptu neiekāpu
+45	3345	lielgabals	lielgabala lielgabalam lielgabali lielgabaliem lielgabalos lielgabalu lielgabalus
+46	3346	vītols	vītol vītola vītolam vītoli vītoliem vītolos vītolu vītolus vītolā
+47	3347	piere	pierei pieres pieri pieru pierē pierēm pierēs
+48	3348	apsargāt	apsarga apsargi apsargu apsargā apsargāja apsargājam apsargājama apsargājamajiem apsargājamas apsargājamiem apsargājamo apsargājamos apsargājams apsargājamu apsargājamā apsargājiet apsargājot apsargāju apsargājuši apsargās apsargāsi apsargāsiet apsargāta apsargātajiem apsargātajā apsargātajām apsargātas apsargāti apsargāto apsargāts apsargātu apsargātus apsargātā apsargātām apsargātās apsargāšana apsargāšanu apsargāšanā jāapsargā
+49	3349	neparasti	
+50	3350	pasaukt	jāpasauc nepasauc nepasauca nepasaucu nepasauks nepasaukt pasauc pasauca pasaucam pasauci pasauciet pasaucis pasaucot pasaucu pasaucām pasaucāt pasauks pasauksi pasauksiet pasauksim pasaukts pasauktu pasaukšot pasaukšu
+51	3351	apprecēt	apprec apprecam apprecat appreci appreciet apprecot apprecu apprecēja apprecēji apprecējis apprecēju apprecējāt apprecēs apprecēsi apprecētu apprecēšu jāapprec neapprecot neapprecēja neapprecēju neapprecēsi neapprecētu
+52	3352	majors	majora majoram majore majori majoriem majoros majoru majorus
+53	3353	sīpols	sīpola sīpolam sīpoli sīpoliem sīpolos sīpolu sīpolus
+54	3354	izmēģinājums	izmēģinājuma izmēģinājumam izmēģinājumi izmēģinājumiem izmēģinājumos izmēģinājumu izmēģinājumus izmēģinājumā
+55	3355	sasist	jāsasit nesasit nesasitot nesasitu sasista sasistais sasistajām sasistas sasisti sasistiem sasisto sasistos sasists sasistu sasistus sasistā sasistām sasistās sasit sasita sasitam sasiti sasitiet sasitis sasitot sasitošajiem sasitošajos sasitošiem sasitu sasitusi sasitušas sasituši sasitām sasitāt sasitīs sasitīsi sasitīsim sasitīšu sasišana
+56	3356	skumjas	skumju skumjām skumjās
+57	3357	pulveris	pulvera pulveri pulveriem pulverim pulveros pulveru pulverus pulverī
+58	3358	nobīties	jānobīstas nenobijies nenobijāmies nenobijās nenobīdamies nenobīsies nenobīsieties nenobīsimies nenobīstamies nenobīstas nenobīstoties nenobīties nenobītos nenobīšos nobijies nobijos nobijāmies nobijās nobijāties nobīsies nobīsimies nobīstamies nobīstas nobīstos nobītos nobīšanās nobīšos
+59	3359	ukrainis	ukraini ukrainiete ukrainietes ukrainieti ukrainim ukraiņa ukraiņi ukraiņiem ukraiņu ukraiņus
+60	3360	cilpa	cilpai cilpas cilpu cilpā cilpām cilpās
+61	3361	aviācija	aviācijai aviācijas aviāciju aviācijā
+62	3362	noorganizēt	jānoorganizē nenoorganizēsi noorganizē noorganizēja noorganizējam noorganizēji noorganizējiet noorganizējis noorganizējot noorganizēju noorganizējām noorganizējāt noorganizēs noorganizēsim noorganizēts noorganizētu noorganizēšana noorganizēšu
+63	3363	uzglabāt	jāuzglabā neuzglabā neuzglabājam neuzglabājiet neuzglabājot uzglabā uzglabāja uzglabājam uzglabājams uzglabājiet uzglabājis uzglabājot uzglabāju uzglabājām uzglabās uzglabāsi uzglabāsiet uzglabāta uzglabātais uzglabātas uzglabāti uzglabātie uzglabāto uzglabāts uzglabātu uzglabātā uzglabāšana uzglabāšanas uzglabāšanu uzglabāšanā uzglabāšu
+64	3364	diēta	diētai diētas diētu diētā diētām diētās
+65	3365	aizkavēt	aizkavē aizkavēja aizkavējiet aizkavējis aizkavējot aizkavēju aizkavējusi aizkavējušas aizkavējuši aizkavēs aizkavēsi aizkavēsim aizkavēta aizkavētais aizkavētas aizkavēti aizkavēto aizkavēts aizkavētu aizkavētā aizkavēšana aizkavēšanas aizkavēšanu aizkavēšanā aizkavēšu jāaizkavē neaizkavē neaizkavēja neaizkavējot neaizkavēs neaizkavēsi neaizkavēsiet neaizkavēt neaizkavētu neaizkavēšu
+66	3366	kokaīns	kokaīna kokaīnam kokaīnu
+67	3367	dzēst	dzēs dzēsa dzēsi dzēsiet dzēsis dzēsts dzēstu dzēsu dzēsīs dzēsīsiet dzēsīsim dzēsīšu dzēš dzēšam dzēšams dzēšana dzēšat dzēšot dzēšu jādzēš nedzēst
+68	3368	dzirde	dzira dzirdei dzirdes dzirdi dzirdē dziru
+69	3369	rīss	rīs rīsa rīsam rīsi rīsiem rīsos rīsu rīsus
+70	3370	ieplānot	ieplāno ieplānoja ieplānojam ieplānojiet ieplānojis ieplānojot ieplānoju ieplānojām ieplānojāt ieplānos ieplānosi ieplānosiet ieplānosim ieplānota ieplānotai ieplānotam ieplānotas ieplānoti ieplānotiem ieplānotos ieplānots ieplānotu ieplānotus ieplānotā ieplānotām ieplānotās ieplānošana ieplānošu jāieplāno neieplāno neieplānojot neieplānosim neieplānot neieplānotas neieplānoti
+71	3371	šaušana	šaušanai šaušanas šaušanu šaušanā šaušanām šaušanās
+72	3372	administrators	administrator administratora administratoram administratore administratorei administratores administratori administratoriem administratoru administratorus administratorē administratorēm
+73	3373	ciemiņš	ciemiņa ciemiņam ciemiņi ciemiņiem ciemiņos ciemiņu ciemiņus
+74	3374	mēbeles	
+75	3375	krimināls	krimināla kriminālai kriminālais kriminālajai kriminālajiem kriminālajos kriminālajā kriminālajām kriminālajās kriminālas krimināli kriminālie krimināliem kriminālo kriminālos kriminālu kriminālus kriminālā kriminālākā kriminālām kriminālās
+76	3376	izraut	izrauj izraujam izraujams izraujat izraujiet izraujot izrauju izraus izrausi izrausim izrauts izrautu izraušana izraušu izrāva izrāvi izrāvis izrāvu izrāvām jāizrauj neizrauj neizraujot neizraus neizrausi neizraut neizrautu neizrāva
+77	3377	kritizēt	jākritizē kritizē kritizēja kritizējam kritizējams kritizējat kritizējis kritizējot kritizējošs kritizēju kritizējusi kritizējušas kritizējuši kritizējāt kritizēs kritizēsim kritizēta kritizētais kritizētas kritizēti kritizētie kritizēto kritizēts kritizētu kritizētā kritizēšana kritizēšanas kritizēšanu kritizēšanā kritizēšu nekritizē nekritizēja nekritizējam nekritizējiet nekritizējot nekritizēju nekritizēsiet nekritizēsim nekritizētu
+78	3378	īpatnība	īpatnībai īpatnības īpatnību īpatnībām īpatnībās
+79	3379	pārvērsties	nepārvērsties pārvēršas
+80	3380	paka	pakai pakas paku pakus pakā pakām pakās
+81	3381	dabīgs	dabīga dabīgai dabīgais dabīgajai dabīgajam dabīgajiem dabīgajos dabīgajā dabīgajām dabīgajās dabīgam dabīgas dabīgie dabīgiem dabīgo dabīgos dabīgu dabīgus dabīgā dabīgāk dabīgāka dabīgākai dabīgākajām dabīgākas dabīgāki dabīgāks dabīgāku dabīgām dabīgās visdabīgākajā visdabīgākās
+82	3382	zemene	zemee zemenes zemeni zemenē zemenēm zemenēs zemeņu
+83	3383	rēgs	rēga rēgam rēgi rēgiem rēgu rēgus rēgā
+84	3384	templis	templi templim templī tempļa tempļi tempļiem tempļos tempļu tempļus
+85	3385	atklājums	atklājuma atklājumam atklājumi atklājumiem atklājumos atklājumu atklājumus atklājumā
+86	3386	risināšana	risināšanai risināšanas risināšanu risināšanā risināšanām
+87	3387	tecēt	jātek teci teciet tecēja tecējis tecēs tecētu tecēšana tek tekam tekams tekat tekot tekošs teku
+88	3388	akcionārs	akcionāra akcionāram akcionāri akcionāriem akcionāros akcionāru akcionārus
+89	3389	pavadonis	pavadona pavadoni pavadonim pavadonī pavadoņa pavadoņi pavadoņiem pavadoņu pavadoņus
+90	3390	cīnītājs	cīnītāja cīnītājam cīnītājas cīnītāji cīnītājiem cīnītāju cīnītājus
+91	3391	vakcīna	vakcīnai vakcīnas vakcīnu vakcīnā vakcīnām vakcīnās
+92	3392	spriedze	spriedzei spriedzes spriedzi spriedzē
+93	3393	traģisks	traģiska traģiskai traģiskais traģiskajai traģiskajiem traģiskajos traģiskajā traģiskajām traģiskajās traģiskam traģiskas traģiski traģiskie traģiskiem traģisko traģiskos traģisku traģiskus traģiskā traģiskāk traģiskāka traģiskākais traģiskākajiem traģiskākajos traģiskākajām traģiskākajās traģiskākas traģiskākie traģiskāko traģiskāks traģiskāku traģiskākā traģiskākās traģiskām traģiskās vistraģiskāk vistraģiskākais vistraģiskākajā vistraģiskākā
+94	3394	uzskaitīt	jāuzskaita neuzskaita neuzskaitīja neuzskaitīt neuzskaitīšu uzskaita uzskaiti uzskaitiet uzskaitot uzskaitu uzskaitām uzskaitāmi uzskaitīja uzskaitīji uzskaitījis uzskaitīju uzskaitījusi uzskaitījuši uzskaitīs uzskaitīsim uzskaitīta uzskaitītais uzskaitītajiem uzskaitītajos uzskaitītajām uzskaitītajās uzskaitītas uzskaitīti uzskaitītie uzskaitītiem uzskaitīto uzskaitītos uzskaitīts uzskaitītu uzskaitītā uzskaitītām uzskaitītās uzskaitīšana uzskaitīšu
+95	3395	kopt	jākopj kop kopi kopiet kopis kopj kopjam kopjams kopjat kopjot kopjošs kopju kops kopsi kopsiet kopsim kopts koptu kopu kopām kopšana kopšu nekopt
+96	3396	detalizēts	detalizēta detalizētai detalizētais detalizētajam detalizētajos detalizētajā detalizētajās detalizētam detalizētas detalizēti detalizētie detalizētiem detalizēto detalizētos detalizētu detalizētus detalizētā detalizētāk detalizētāka detalizētākai detalizētākais detalizētākam detalizētākas detalizētāki detalizētākiem detalizētāko detalizētākos detalizētāks detalizētāku detalizētākus detalizētākā detalizētākās detalizētām detalizētās visdetalizētāk visdetalizētākie visdetalizētākā visdetalizētākās
+97	3397	meitenīte	meitenītei meitenītes meitenīti meitenītē meitenītēm meitenīšu
+98	3398	aka	akai akas aki aku akā akām akās
+99	3399	pārmest	jāpārmet nepārmest nepārmestu nepārmet nepārmeta nepārmetam nepārmetiet nepārmetu nepārmetīs nepārmetīsi nepārmetīsim nepārmetīšu nepārmezdams pārmests pārmestu pārmet pārmeta pārmetam pārmetams pārmetat pārmeti pārmetis pārmetot pārmetošs pārmetu pārmetāt pārmetīs pārmetīsi pārmetīsiet pārmetīsim pārmetīšu pārmešana
+100	3400	gēns	gēna gēnam gēni gēniem gēnos gēnu gēnus gēnā

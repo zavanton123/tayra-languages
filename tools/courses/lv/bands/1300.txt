@@ -1,100 +1,100 @@
 1	1201	aktīvi	
-2	1202	dejot	dejo dejodams dejoja dejojam dejojams dejojat dejoji dejojiet dejojis dejojot dejojošais dejojošs dejoju dejojām dejojāt dejos dejosi dejosiet dejosim dejotais dejots dejotu dejošana dejošanai dejošanas dejošanu dejošanā dejošu jādejo nedejot
+2	1202	dejot	dejo dejodams dejoja dejojam dejojat dejoji dejojiet dejojis dejojot dejojošais dejojoši dejojošo dejojošs dejoju dejojusi dejojuši dejojām dejojāt dejos dejosi dejosiet dejosim dejots dejotu dejošana dejošanai dejošanas dejošanu dejošanā dejošu jādejo nedejo nedejoja nedejoju nedejojām nedejos nedejosim nedejot nedejošu
 3	1203	adrese	adresei adreses adresi adresē adresēm adresēs adrešu
-4	1204	izraisīt	izraisa izraisīja
-5	1205	garīgs	garīga garīgai garīgais garīgajai garīgajam garīgajiem garīgajos garīgajā garīgajām garīgajās garīgam garīgas garīgi garīgie garīgiem garīgo garīgos garīgu garīgus garīgā garīgāks garīgām garīgās
-6	1206	svaigs	svaiga svaigai svaigais svaigajai svaigajam svaigajiem svaigajos svaigajā svaigajām svaigam svaigas svaigi svaigie svaigiem svaigo svaigos svaigu svaigus svaigā svaigāks svaigām svaigās
+4	1204	izraisīt	izraisa izraisi izraisot izraisu izraisām izraisāt izraisīja izraisīji izraisījis izraisīju izraisījusi izraisījušas izraisījuši izraisījušo izraisīs izraisīsi izraisīsiet izraisīsim izraisīta izraisītais izraisītas izraisīti izraisītie izraisīto izraisīts izraisītu izraisītā izraisīšana izraisīšanas izraisīšanu izraisīšanā izraisīšu jāizraisa neizraisa neizraisot neizraisīja neizraisīs neizraisīt neizraisītu
+5	1205	garīgs	garīga garīgai garīgais garīgajai garīgajam garīgajiem garīgajos garīgajā garīgajām garīgajās garīgam garīgas garīgi garīgie garīgiem garīgo garīgos garīgu garīgus garīgā garīgāka garīgākajām garīgāko garīgāks garīgākām garīgām garīgās visgarīgāk
+6	1206	svaigs	svaiga svaigai svaigais svaigajai svaigajam svaigajiem svaigajos svaigajā svaigajām svaigam svaigas svaigi svaigie svaigiem svaigo svaigos svaigu svaigus svaigā svaigāk svaigāka svaigākais svaigākajiem svaigākajā svaigākajām svaigākas svaigāki svaigākie svaigākiem svaigāko svaigākos svaigāks svaigāku svaigākus svaigākā svaigākās svaigām svaigās vissvaigākā
 7	1207	dienvidi	dienvida dienvidiem dienvidos dienvidu dienvidum dienvidus dienvidū
-8	1208	kreiss	kreisa kreisai kreisais kreisajai kreisajam kreisajiem kreisajos kreisajā kreisajām kreisajās kreisam kreisas kreisie kreisiem kreiso kreisos kreisu kreisus kreisā kreisāks kreisām kreisās
+8	1208	kreiss	kreisa kreisai kreisais kreisajai kreisajam kreisajiem kreisajos kreisajā kreisajām kreisajās kreisam kreisas kreisie kreisiem kreiso kreisos kreisu kreisus kreisā kreisāk kreisāka kreisākai kreisākais kreisākas kreisāks kreisāku kreisākus kreisām kreisās
 9	1209	ticība	ticībai ticības ticību ticībā ticībām ticībās
-10	1210	salds	salda saldai saldais saldajai saldajam saldajiem saldajos saldajā saldajām saldajās saldam saldas saldie saldiem saldo saldos saldu saldus saldā saldāks saldām saldās vissaldākais
+10	1210	salds	salda saldai saldais saldajai saldajam saldajiem saldajos saldajā saldajām saldajās saldam saldas saldie saldiem saldo saldos saldu saldum saldus saldā saldāk saldāka saldākai saldākam saldākas saldāki saldākiem saldāko saldākos saldāks saldāku saldākā saldām saldās saldū vissaldākais vissaldāko vissaldākā vissaldākās
 11	1211	zinātnieks	zinātniece zinātniecei zinātnieces zinātnieci zinātniecēm zinātnieka zinātniekam zinātnieki zinātniekiem zinātniekos zinātnieku zinātniekus zinātnieču
 12	1212	īpašība	īpašībai īpašībam īpašības īpašību īpašībā īpašībām īpašībās
 13	1213	tuvāk	
-14	1214	tornis	tora toram toriem torni tornim tornī toru torā torņa torņi torņiem torņos torņu torņus
-15	1215	normāls	normāla normālai normālais normālajai normālajam normālajiem normālajos normālajā normālajām normālajās normālam normālas normālie normāliem normālo normālos normālu normālus normālā normālāks normālām normālās visnenormālākais visnormālākais
+14	1214	tornis	torna torni tornim tornu tornī torņa torņi torņiem torņos torņu torņus
+15	1215	normāls	nenormālais nenormālākais nenormālāko nenormālākā normāla normālai normālais normālajai normālajam normālajiem normālajos normālajā normālajām normālajās normālam normālas normālie normāliem normālo normālos normālu normālus normālā normālāk normālāka normālākajiem normālākam normālākas normālāki normālāks normālāku normālākā normālākām normālākās normālām normālās visnenormālākais visnormālākais visnormālākie
 16	1216	priekšmets	priekšmeta priekšmetam priekšmeti priekšmetiem priekšmetos priekšmetu priekšmetus priekšmetā
 17	1217	režīms	režīma režīmam režīmi režīmiem režīmos režīmu režīmus režīmā
-18	1218	iekļūt	iekļuva iekļuvi iekļuvis iekļuvu iekļuvušais iekļuvām iekļuvāt iekļūdams iekļūs iekļūsi iekļūsiet iekļūsim iekļūst iekļūstam iekļūsti iekļūstot iekļūstu iekļūts iekļūtu iekļūšana iekļūšanai iekļūšanas iekļūšanu iekļūšot iekļūšu jāiekļūst neiekļūt
-19	1219	būtisks	būtiska būtiskai būtiskais būtiskajam būtiskajiem būtiskajos būtiskajā būtiskajām būtiskam būtiskas būtiskie būtiskiem būtisko būtiskos būtisku būtiskus būtiskā būtiskāks būtiskām būtiskās visbūtiskākais
-20	1220	glezna	gleznai gleznas glezni gleznos gleznu gleznus gleznā gleznām gleznās
-21	1221	atšķirīgs	atšķirīga atšķirīgai atšķirīgais atšķirīgajai atšķirīgajam atšķirīgajiem atšķirīgajos atšķirīgajā atšķirīgajām atšķirīgajās atšķirīgam atšķirīgas atšķirīgi atšķirīgie atšķirīgiem atšķirīgo atšķirīgos atšķirīgu atšķirīgus atšķirīgā atšķirīgāks atšķirīgām atšķirīgās
-22	1222	dalīties	dalies dalieties dalos daloties dalāmies dalās dalāties dalīdamies dalījies dalījos dalījāmies dalījās dalījāties dalīsies dalīsieties dalīsimies dalītos dalīšanās dalīšos dalīšoties jādalās nedalīties
-23	1223	piemērot	piemērota piemērotas piemērots
-24	1224	bērnība	bērnībai bērnības bērnību bērnībā
-25	1225	sīks	sīka sīkai sīkais sīkajai sīkajam sīkajiem sīkajos sīkajā sīkajām sīkajās sīkam sīkas sīkie sīkiem sīko sīkos sīku sīkus sīkā sīkāks sīkām sīkās vissīkākais
+18	1218	iekļūt	iekļuva iekļuvi iekļuvis iekļuvu iekļuvusi iekļuvušajiem iekļuvušajām iekļuvušas iekļuvuši iekļuvušo iekļuvām iekļuvāt iekļūs iekļūsi iekļūsiet iekļūsim iekļūst iekļūstam iekļūsti iekļūstot iekļūstu iekļūts iekļūtu iekļūšana iekļūšanai iekļūšanas iekļūšanu iekļūšu jāiekļūst neiekļuva neiekļuvu neiekļuvāt neiekļūs neiekļūsiet neiekļūst neiekļūstu neiekļūt neiekļūtu neiekļūšu
+19	1219	būtisks	būtiska būtiskai būtiskais būtiskajam būtiskajiem būtiskajos būtiskajā būtiskajām būtiskam būtiskas būtiskie būtiskiem būtisko būtiskos būtisku būtiskus būtiskā būtiskāk būtiskāka būtiskākais būtiskākajiem būtiskākajām būtiskākajās būtiskākas būtiskāki būtiskākie būtiskāko būtiskākos būtiskāks būtiskāku būtiskākā būtiskākās būtiskām būtiskās visbūtiskāk visbūtiskākais visbūtiskāko visbūtiskākā visbūtiskākās
+20	1220	glezna	gleznai gleznas glezni gleznu gleznus gleznā gleznām gleznās
+21	1221	atšķirīgs	atšķirīga atšķirīgai atšķirīgais atšķirīgajai atšķirīgajam atšķirīgajiem atšķirīgajos atšķirīgajā atšķirīgajām atšķirīgajās atšķirīgam atšķirīgas atšķirīgi atšķirīgie atšķirīgiem atšķirīgo atšķirīgos atšķirīgu atšķirīgus atšķirīgā atšķirīgāk atšķirīgāka atšķirīgākais atšķirīgākas atšķirīgāki atšķirīgākie atšķirīgākiem atšķirīgākos atšķirīgāks atšķirīgāku atšķirīgākus atšķirīgām atšķirīgās visatšķirīgākajiem visatšķirīgākajās visatšķirīgākie visatšķirīgāko visatšķirīgākos visatšķirīgākās
+22	1222	dalīties	dalas dalies dalieties dalos daloties dalāmies dalās dalāties dalīdamies dalījas dalījies dalījos dalījusies dalījušies dalījāmies dalījās dalījāties dalīsies dalīsieties dalīsimies dalītos dalīšanās dalīšos dalīšoties jādalās nedalies nedalos nedaloties nedalāmies nedalās nedalījās nedalīsies nedalīsimies nedalīties nedalīšanās nedalīšos
+23	1223	piemērot	jāpiemēro nepiemēro nepiemēroja nepiemērojam nepiemērojot nepiemēros nepiemērota nepiemērotas nepiemēroti nepiemērotie nepiemēroto nepiemērots nepiemērotu nepiemērotā nepiemērošanu piemēro piemēroja piemērojam piemērojams piemērojis piemērojot piemērojusi piemērojušas piemērojuši piemērojām piemērosim piemērota piemērotais piemērotas piemēroti piemērotie piemēroto piemērots piemērotu piemērotā piemērošana piemērošanas piemērošanu piemērošanā
+24	1224	bērnība	bērnībai bērnības bērnību bērnībā bērnībās
+25	1225	sīks	sīka sīkai sīkais sīkajai sīkajam sīkajiem sīkajām sīkam sīkas sīkie sīkiem sīko sīkos sīku sīkus sīkā sīkāk sīkāka sīkākai sīkākais sīkākajai sīkākajam sīkākajām sīkākas sīkāki sīkākiem sīkāko sīkākos sīkāks sīkāku sīkākus sīkākā sīkākās sīkām sīkās vissīkākajām vissīkāko vissīkākā vissīkākās
 26	1226	vēstīt	jāvēsta jāvēstī nevēstīt vēsta vēsti vēstot vēstošs vēstu vēstām vēstāt vēstī vēstīja vēstījis vēstījot vēstīju vēstījām vēstīs vēstīsim vēstīts vēstītu vēstīšana
 27	1227	bail	
 28	1228	gājiens	gājiena gājienam gājieni gājieniem gājienos gājienu gājienus gājienā
-29	1229	slepens	slepena slepenai slepenais slepenajai slepenajam slepenajiem slepenajos slepenajā slepenajām slepenajās slepenas slepenie slepeniem slepeno slepenos slepenu slepenus slepenā slepenāks slepenām slepenās slēpu
-30	1230	izcils	izcila izcilai izcilais izcilajai izcilajam izcilajiem izcilajā izcilajām izcilam izcilas izcilie izciliem izcilo izcilos izcilu izcilus izcilā izcilāks izcilām izcilās visizcilākais
-31	1231	auglis	augli auglim auglī augļa augļi augļiem augļos augļu augļus
+29	1229	slepens	slepena slepenai slepenais slepenajai slepenajam slepenajiem slepenajos slepenajā slepenajām slepenajās slepenas slepenie slepeniem slepeno slepenos slepenu slepenus slepenā slepenāka slepenākajiem slepenāks slepenākā slepenākām slepenām slepenās slēpu visslepenākajiem visslepenākos visslepenākā
+30	1230	izcils	izcila izcilai izcilais izcilajai izcilajam izcilajiem izcilajā izcilajām izcilam izcilas izcilie izciliem izcilo izcilos izcilu izcilus izcilā izcilāka izcilākais izcilākajam izcilākajiem izcilākajām izcilākie izcilākiem izcilāko izcilākos izcilāks izcilāku izcilākus izcilākā izcilākās izcilām izcilās visizcilākais visizcilākajam visizcilākajiem visizcilākie visizcilāko visizcilākā
+31	1231	auglis	augli auglim auglu auglus auglī augļa augļi augļiem augļos augļu augļus
 32	1232	dzimis	dzimusi dzimuša dzimušai dzimušam dzimušas dzimuši dzimušiem dzimušos dzimušu dzimušus dzimušā dzimušām dzimušās
-33	1233	sāpe	sāpes
+33	1233	sāpe	sāpei sāpes sāpi sāpju sāpē sāpēm
 34	1234	loks	lok loka lokam lokas loki lokiem loko lokos loku lokus lokā lokām lokās
 35	1235	tehnika	tehnikai tehnikas tehniku tehnikā tehnikām tehnikās
 36	1236	miljards	miljard miljarda miljardam miljardi miljardiem miljardos miljardu miljardus miljardā
-37	1237	aizvērties	aizveramies aizveras aizveraties aizveries aizverieties aizveros aizveroties aizvēries aizvērsies aizvērsieties aizvērtos aizvērās aizvēršanās aizvēršos jāaizveras neaizvērties
+37	1237	aizvērties	aizveramies aizveras aizveraties aizveries aizverieties aizveros aizveroties aizvēries aizvērsies aizvērsieties aizvērtos aizvērās aizvēršanās aizvēršos jāaizveras neaizveras neaizvērsies neaizvērties neaizvērtos neaizvēršanās neaizvēršos
 38	1238	solīt	jāsola nesolīt sola soliet solot sološs solu solām solāt solīdams solīja solīji solījis solīju solījām solījāt solīs solīsi solīsim solīts solītu solīšana solīšu
-39	1239	izstrādāt	izstrādā izstrādāja izstrādājam izstrādājams izstrādājat izstrādāji izstrādājiet izstrādājis izstrādājot izstrādāju izstrādājām izstrādājāt izstrādās izstrādāsi izstrādāsim izstrādāts izstrādātu izstrādāšana izstrādāšot izstrādāšu jāizstrādā neizstrādāt
+39	1239	izstrādāt	izstrādā izstrādāja izstrādājam izstrādāji izstrādājiet izstrādājis izstrādājot izstrādāju izstrādājusi izstrādājušas izstrādājuši izstrādājām izstrādās izstrādāsi izstrādāsim izstrādāta izstrādātais izstrādātajai izstrādātajam izstrādātajiem izstrādātajā izstrādātajām izstrādātam izstrādātas izstrādāti izstrādātie izstrādātiem izstrādāto izstrādātos izstrādāts izstrādātu izstrādātus izstrādātā izstrādātām izstrādātās izstrādāšana izstrādāšu jāizstrādā neizstrādātu
 40	1240	instruments	instrument instrumenta instrumentam instrumenti instrumentiem instrumentos instrumentu instrumentus instrumentā
-41	1241	iesacīt	iesaka iesaku
-42	1242	meli	mela meliem melos mels melu melus melā
+41	1241	iesacīt	iesacīja iesaka iesaki iesakiet iesakot iesaku iesakām iesakāma iesakāmas iesakāmi iesakāms iesakāt jāiesaka neiesaka neiesakiet neiesakot neiesaku neiesakām neiesakāt
+42	1242	meli	meliem melos melu melus melā
 43	1243	masa	masai masas masu masā masām masās
-44	1244	ienākt	ienāca ienāk
-45	1245	ballīte	ballīti
+44	1244	ienākt	ienāc ienāca ienāci ienāciet ienācis ienācu ienācām ienācāt ienāk ienākam ienākat ienākot ienākošais ienākošajiem ienākošie ienākošo ienākošos ienākošs ienākošu ienākošā ienākošās ienāks ienāksi ienāksiet ienāksit ienāktu ienāku ienākusi ienākušas ienākuši ienākšana ienākšu jāienāk neienāca neienāk neienāks neienākt neienāktos neienāktu
+45	1245	ballīte	ballītei ballītes ballīti ballītē ballītēm ballītēs ballīšu
 46	1246	maksājums	maksājuma maksājumam maksājumi maksājumiem maksājumos maksājumu maksājumus maksājumā
 47	1247	lata	latas latu latā
-48	1248	komisija	komisijā
+48	1248	komisija	komisijai komisijas komisiju komisijā komisijām komisijās
 49	1249	aizdevums	aizdevum aizdevuma aizdevumam aizdevumi aizdevumiem aizdevumos aizdevumu aizdevumus aizdevumā
-50	1250	atpūsties	atpūstos atpūties atpūtieties atpūtos atpūtāmies atpūtās atpūtāties atpūtīsies atpūtīsieties atpūtīsimies atpūtīšos atpūtīšoties atpūšamies atpūšanās atpūšas atpūšaties atpūšos atpūšoties jāatpūšas neatpūsties
+50	1250	atpūsties	atpūstos atpūties atpūtieties atpūtos atpūtāmies atpūtās atpūtāties atpūtīsies atpūtīsieties atpūtīsimies atpūtīšos atpūtīšoties atpūšamies atpūšanās atpūšas atpūšaties atpūšos atpūšoties jāatpūšas neatpūsties neatpūstos neatpūties neatpūtīsies neatpūzdamies neatpūšamies neatpūšas neatpūšaties neatpūšos
 51	1251	sods	sod sodam sodi sodiem sodos sodu sodus sodā
 52	1252	mīt	jāmin mij mija mijam miji mijot miju mijām min mina minam minams minat mini miniet minis minot minu minām mīs mīsi mīsim mīta mītam mīti mītiem mītos mīts mītu mītus mītā nemīt
 53	1253	apģērbs	apģērb apģērba apģērbam apģērbi apģērbiem apģērbos apģērbu apģērbus apģērbā
 54	1254	emocija	emocijai emocijam emocijas emocijiem emociju emocijā emocijām emocijās
 55	1255	dalība	dalībai dalības dalību dalībā dalībām
-56	1256	bīstams	bīstama bīstamai bīstamais bīstamajai bīstamajam bīstamajiem bīstamajos bīstamajā bīstamajām bīstamajās bīstamam bīstamas bīstamie bīstamiem bīstamo bīstamos bīstamu bīstamus bīstamā bīstamāks bīstamām bīstamās visbīstamākais
+56	1256	bīstams	bīstama bīstamais bīstamajam bīstamajiem bīstamajā bīstamajām bīstamam bīstamas bīstamie bīstamiem bīstamo bīstamos bīstamu bīstamus bīstamā bīstamāk bīstamāka bīstamākais bīstamākajiem bīstamākajā bīstamākajām bīstamākas bīstamāki bīstamākie bīstamāko bīstamākos bīstamāks bīstamāku bīstamākā bīstamākās bīstamām bīstamās visbīstamākais visbīstamākajos visbīstamākajā visbīstamākie visbīstamāko visbīstamākā visbīstamākās
 57	1257	gredzens	gredzena gredzenam gredzeni gredzeniem gredzenos gredzenu gredzenus gredzenā
 58	1258	maks	mak maka makam maki makiem makos maku makus makā
-59	1259	noderēt	nenoderēt noder noderot noderēja noderējis noderēs noderēsi noderētu noderēšot
+59	1259	noderēt	nenoderēja nenoderēs nenoderēt nenoderētu noder noderot noderē noderēja noderējis noderējusi noderējušas noderējuši noderēs noderēsi noderētu noderēšanas noderēšot
 60	1260	labums	labum labuma labumam labumi labumiem labumos labumu labumus labumā
-61	1261	kavēties	nekavējoties
+61	1261	kavēties	jākavējas kavēdamies kavējamies kavējas kavējaties kavējies kavējos kavējoties kavējusies kavējušies kavējušās kavējāmies kavējās kavējāties kavēsies kavēsimies kavētos kavēšanās kavēšos nekavēdamies nekavējamies nekavējas nekavējies nekavējieties nekavējos nekavējoties nekavējušies nekavējāmies nekavējās nekavēsies nekavēsimies nekavēties nekavētos nekavēšos
 62	1262	taisīt	jātaisa jātaisot netaisīt taisa taisi taisiet taisot taisu taisām taisāms taisāt taisīdams taisīja taisīji taisījis taisīju taisījām taisījāt taisīs taisīsi taisīsiet taisīsim taisīts taisītu taisīšana taisīšot taisīšu
 63	1263	paziņojums	paziņojum paziņojuma paziņojumam paziņojumi paziņojumiem paziņojumos paziņojumu paziņojumus paziņojumā
-64	1264	piešķirt	piešķir piešķirta
+64	1264	piešķirt	jāpiešķir nepiešķir nepiešķiram nepiešķirat nepiešķirot nepiešķirs nepiešķirsim nepiešķirt nepiešķirtu nepiešķiru nepiešķiršu nepiešķīra nepiešķīru nepiešķīrām piešķir piešķiram piešķirams piešķirat piešķirdams piešķiriet piešķirot piešķirošs piešķirs piešķirsi piešķirsiet piešķirsim piešķirta piešķirts piešķirtu piešķiru piešķiršana piešķiršot piešķiršu piešķīra piešķīri piešķīris piešķīru piešķīrām piešķīrāt
 65	1265	brokastis	brokai brokas brokastu brokastīm brokastīs
 66	1266	dzelzceļš	dzelzceļa dzelzceļam dzelzceļi dzelzceļiem dzelzceļos dzelzceļu dzelzceļus dzelzceļā
-67	1267	atļauja	atļauju
-68	1268	gadīties	gadās gadījies
+67	1267	atļauja	atļaujai atļaujas atļauju atļaujā atļaujām atļaujās
+68	1268	gadīties	gadas gadies gadoties gadās gadījas gadījies gadījos gadījusies gadījušies gadījušās gadījāmies gadījās gadījāties gadīsies gadīsieties gadītos gadīšos negadas negadoties negadās negadījās negadīsies negadīties negadītos
 69	1269	planēta	planētai planētam planētas planētu planētā planētām planētās
 70	1270	skanēt	jāskan neskanēt skan skanam skanat skani skanot skanošs skanu skanēja skanējis skanēju skanējām skanēs skanēsim skanēts skanētu skanēšana skanēšot skanēšu
-71	1271	slēpties	jāslēpjas neslēpties slēpdamies slēpies slēpieties slēpjamies slēpjas slēpjaties slēpjos slēpjoties slēpos slēpsies slēpsimies slēptos slēpāmies slēpās slēpšanās slēpšos
-72	1272	vērtīgs	visvērtīgākais vērtīga vērtīgai vērtīgais vērtīgajai vērtīgajam vērtīgajiem vērtīgajos vērtīgajā vērtīgajām vērtīgajās vērtīgam vērtīgas vērtīgi vērtīgie vērtīgiem vērtīgo vērtīgos vērtīgu vērtīgus vērtīgā vērtīgāks vērtīgām vērtīgās
+71	1271	slēpties	jāslēpjas neslēpdamies neslēpies neslēpieties neslēpjamies neslēpjas neslēpjos neslēpjoties neslēpos neslēpsies neslēpsimies neslēpties neslēpāmies neslēpās neslēpšos slēpdamies slēpies slēpieties slēpjamies slēpjas slēpjaties slēpjos slēpjoties slēpos slēpsies slēpsimies slēptos slēpusies slēpušies slēpāmies slēpās slēpšanās slēpšos
+72	1272	vērtīgs	visvērtīgāk visvērtīgākais visvērtīgākie visvērtīgāko visvērtīgākā visvērtīgākās vērtīga vērtīgai vērtīgais vērtīgajiem vērtīgajām vērtīgam vērtīgas vērtīgi vērtīgie vērtīgiem vērtīgo vērtīgos vērtīgu vērtīgus vērtīgā vērtīgāk vērtīgāka vērtīgākais vērtīgākajiem vērtīgākajām vērtīgākas vērtīgāki vērtīgākie vērtīgāko vērtīgākos vērtīgāks vērtīgāku vērtīgākus vērtīgākā vērtīgākām vērtīgākās vērtīgām vērtīgās
 73	1273	avīze	avīzei avīzes avīzi avīzē avīzēm avīzēs avīžu
 74	1274	asociācija	asociācijai asociācijas asociāciju asociācijā asociācijām asociācijās
-75	1275	pārbaudīt	pārbauda
+75	1275	pārbaudīt	jāpārbauda nepārbauda nepārbaudi nepārbaudot nepārbaudīja nepārbaudīju nepārbaudīs nepārbaudīsi nepārbaudīt nepārbaudītu pārbauda pārbaudiet pārbaudot pārbaudu pārbaudām pārbaudāms pārbaudāt pārbaudīja pārbaudīji pārbaudījis pārbaudīju pārbaudījusi pārbaudījuši pārbaudījām pārbaudījāt pārbaudīs pārbaudīsi pārbaudīsiet pārbaudīsim pārbaudīta pārbaudītas pārbaudīti pārbaudīto pārbaudīts pārbaudītu pārbaudītā pārbaudīšana pārbaudīšanu pārbaudīšu
 76	1276	trase	trasei trases trasi trasē trasēm trasēs trašu
 77	1277	kalpot	jākalpo kalpo kalpodams kalpoja kalpojam kalpojat kalpoji kalpojiet kalpojis kalpojot kalpojošs kalpoju kalpojām kalpojāt kalpos kalposi kalposiet kalposim kalposit kalpots kalpotu kalpošana kalpošot kalpošu nekalpot
 78	1278	pludmale	pludmalei pludmales pludmali pludmalē pludmalēm pludmalēs pludmaļu
 79	1279	nelaime	nelaimei nelaimes nelaimi nelaimju nelaimē nelaimēm nelaimēs
 80	1280	piedzīvojums	piedzīvojuma piedzīvojumam piedzīvojumi piedzīvojumiem piedzīvojumos piedzīvojumu piedzīvojumus piedzīvojumā
-81	1281	reforma	reformas reformu reformām
-82	1282	kolēģis	kolēģi kolēģiem
+81	1281	reforma	reformai reformas reformu reformā reformām reformās
+82	1282	kolēģis	kolēģa kolēģi kolēģiem kolēģim kolēģos kolēģu kolēģus kolēģī
 83	1283	literatūra	literatūrai literatūras literatūri literatūru literatūrā literatūrām literatūrās
 84	1284	cepure	cepurei cepures cepuri cepuru cepurē cepurēm cepurēs cepurīte cepurītes cepurīti cepurītē cepurītēm cepurītēs cepurīšu
 85	1285	virsū	
 86	1286	akadēmija	akadēmijai akadēmijas akadēmiju akadēmijā akadēmijām akadēmijās
 87	1287	mēsli	mēsla mēslam mēsliem mēslos mēsls mēslu mēslus mēslā
 88	1288	kampaņa	kampaņai kampaņas kampaņu kampaņā kampaņām kampaņās
-89	1289	zems	viszemākais zema zemai zemais zemajai zemajam zemajiem zemajos zemajā zemajām zemajās zemam zemas zemie zemiem zemo zemos zemus zemā zemāks zemām zemās
-90	1290	nodarboties	nodarbojas
+89	1289	zems	viszemākais viszemāko viszemākā viszemākās zema zemais zemajiem zemajā zemajām zemam zemas zemie zemiem zemo zemā zemāk zemāka zemākai zemākais zemākajam zemākajiem zemākajos zemākajā zemākajām zemākajās zemākas zemāki zemākie zemākiem zemāko zemākos zemāks zemāku zemākus zemākā zemākām zemākās zemām zemās
+90	1290	nodarboties	jānodarbojas nenodarbojamies nenodarbojas nenodarbojaties nenodarbojies nenodarbojieties nenodarbojos nenodarbojoties nenodarbojās nenodarbosies nenodarbosimies nenodarboties nenodarbotos nodarbodamies nodarbojamies nodarbojas nodarbojaties nodarbojies nodarbojieties nodarbojos nodarbojoties nodarbojusies nodarbojušies nodarbojušās nodarbojāmies nodarbojās nodarbojāties nodarbosies nodarbosieties nodarbosimies nodarbosities nodarbotos nodarbošanās
 91	1291	diennakts	diennakti diennaktij diennaktis diennaktī diennaktīm diennaktīs diennakšu
 92	1292	rādītājs	rādītāja rādītājam rādītāji rādītājiem rādītājos rādītāju rādītājus rādītājā
-93	1293	pildīt	jāpilda nepildīt pilda pildi pildiet pildot pildu pildām pildāms pildāt pildīdams pildīja pildījis pildīju pildījām pildījāt pildīs pildīsi pildīsiet pildīsim pildīsit pildīts pildītu pildīšana pildīšot pildīšu
-94	1294	skaidrot	jāskaidro neskaidrot skaidro skaidrodams skaidroja skaidrojam skaidrojams skaidrojat skaidroji skaidrojiet skaidrojis skaidrojot skaidrojošais skaidrojošs skaidroju skaidrojām skaidrojāt skaidros skaidrosi skaidrosiet skaidrosim skaidrotais skaidrots skaidrotu skaidrošana skaidrošanai skaidrošanas skaidrošanos skaidrošanu skaidrošanā
+93	1293	pildīt	jāpilda nepildīt pilda pildi pildiet pildot pildu pildām pildāms pildāt pildīdams pildīja pildījis pildīju pildījām pildījāt pildīs pildīsi pildīsiet pildīsim pildīsit pildīta pildītam pildītas pildīti pildītiem pildītos pildīts pildītu pildītus pildītā pildītām pildītās pildīšana pildīšot pildīšu
+94	1294	skaidrot	jāskaidro neskaidro neskaidroja neskaidrojot neskaidros skaidro skaidroja skaidrojam skaidrojama skaidrojamas skaidrojami skaidrojams skaidrojat skaidrojis skaidrojot skaidrojošais skaidrojošas skaidrojošo skaidrojošs skaidrojošu skaidrojošā skaidrojošās skaidroju skaidrojusi skaidrojuši skaidrojām skaidrosim skaidrota skaidrotas skaidroti skaidrots skaidrotu skaidrotā skaidrošana skaidrošanai skaidrošanas skaidrošanu skaidrošanā skaidrošanās
 95	1295	parlaments	parlamenta parlamentam parlamenti parlamentiem parlamentos parlamentu parlamentus parlamentā
-96	1296	atbalstīt	atbalstīja
+96	1296	atbalstīt	atbalstiet atbalstot atbalstām atbalstāms atbalstāt atbalstīja atbalstīji atbalstījis atbalstīju atbalstījusi atbalstījuši atbalstījām atbalstīs atbalstīsim atbalstīta atbalstītais atbalstītas atbalstīti atbalstītie atbalstīto atbalstīts atbalstītu atbalstītā atbalstīšana atbalstīšanas atbalstīšanu atbalstīšanā atbalstīšu jāatbalsta neatbalsta neatbalsti neatbalstot neatbalstu neatbalstām neatbalstāt neatbalstīja neatbalstīju neatbalstīs neatbalstītu
 97	1297	jaunums	jaunuma jaunumam jaunumi jaunumiem jaunumos jaunumu jaunumus jaunumā
 98	1298	drēbes	drēbju drēbēm drēbēs
-99	1299	apgalvot	apgalvo apgalvoja
-100	1300	rast	jārod nerast rada radi radis radu radušais radām radāt radīs radīsi radīsiet radīsim radīsit radīšot radīšu rastais rasts rastu razdams rašana rašanai rašanas rašanos rašanu rašanā rod rodam rodamais rodams rodat rodi rodiet rodot rodu
+99	1299	apgalvot	apgalvo apgalvodams apgalvoja apgalvojam apgalvojat apgalvojiet apgalvojis apgalvojot apgalvoju apgalvojusi apgalvojušas apgalvojuši apgalvojāt apgalvos apgalvosiet apgalvosim apgalvotais apgalvotas apgalvoto apgalvots apgalvotu apgalvotā apgalvošana apgalvošanu apgalvošu jāapgalvo neapgalvo neapgalvoja neapgalvojam neapgalvoji neapgalvojiet neapgalvoju neapgalvos neapgalvotu neapgalvošu
+100	1300	rast	jārod nerada neradi neradām neradīs neradīsi neradīsim neradīšu nerod rada radi radis radu radusi radušas raduši radušos radušās radām radīs radīsi radīsim radīšu rasta rasti rastos rasts rastu rašanos rod rodam rodama rodamas rodami rodams rodat rodi rodot rodu

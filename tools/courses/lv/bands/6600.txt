@@ -1,100 +1,100 @@
-1	6501	mākoņainība	
-2	6502	priekšāda	priekšādas
-3	6503	rozīgi	
-4	6504	rudmataini	
-5	6505	rumāniski	
-6	6506	sermulis	sermuli
-7	6507	stiklveida	
-8	6508	stundenis	stundeņa
-9	6509	topogrāfiski	
-10	6510	turciski	
-11	6511	jemeniete	
-12	6512	ūdeņainība	
-13	6513	ornitoloģisks	ornitoloģisko ornitoloģiskā
-14	6514	staigns	staigna staigs
-15	6515	batāte	batātes batātēm
-16	6516	hasīdisms	hasīdisma hasīdismam
-17	6517	kambodžiete	kambodžieši kambodžiešu
-18	6518	knašs	knašie knašo
-19	6519	piala	pialu
-20	6520	valodīgs	valodīgie
-21	6521	vājredzība	vājredzības vājredzību
-22	6522	runīgums	runīguma runīgumu
-23	6523	trūcība	trūcībā
-24	6524	adjektīvs	adjektīva adjektīviem
-25	6525	akadēmisms	akadēmisma akadēmismu
-26	6526	britisks	britiskas britisku
-27	6527	enciklopēdists	enciklopēdista
-28	6528	homonīms	homonīmi homonīmu
-29	6529	ideogramma	ideogrammas ideogrammu
-30	6530	iezaļgans	iezaļganie
-31	6531	katariete	katarietim katariešu
-32	6532	milzīgums	milzīgumu milzīgumā
-33	6533	mīlīgums	mīlīguma mīlīgumu
-34	6534	nebēdīgs	nebēdīga nebēdīgus
-35	6535	nenoteiksme	nenoteiksmes nenoteiksmi
-36	6536	norvēģisks	norvēģisko norvēģiskā
-37	6537	prostituēties	prostituējas
-38	6538	pīļknābis	pīļknābju
-39	6539	redzoklis	redzoklī redzokļi
-40	6540	simbolists	simbolista simbolistu
-41	6541	trusēns	trusēni trusēnus
-42	6542	uzcepties	uzcepās
-43	6543	zintēt	zintēja zintētu
-44	6544	ņaudiens	ņaudieni ņaudienus
-45	6545	abaks	abaka abaku
-46	6546	atvasarīgs	atvasarīga atvasarīgās
-47	6547	pārart	pāraršana
-48	6548	retorte	retori retoru
-49	6549	aklība	aklību
-50	6550	arābisks	arābisko arābiskā
-51	6551	etimoloģisks	etimoloģiskais etimoloģiskie
-52	6552	garšīgums	garšīgumu
-53	6553	iesarkans	iesarkanas iesarkanā
-54	6554	indoeiropeisks	indoeiropeiskajā indoeiropeiskās
-55	6555	modernums	modernuma modernumu
-56	6556	molibdēns	molibdēnu
-57	6557	pustuksnesis	pustuksnešu
-58	6558	realizējums	realizējumu
-59	6559	sedulka	sedulkas sedulku
-60	6560	spīdīgums	spīdīguma
-61	6561	starptautiskums	starptautiskumu
-62	6562	svainība	svainības svainībā
-63	6563	vakarīgs	vakarīgas vakarīgo
-64	6564	zvīņains	zvīņaino
-65	6565	ādamābols	ādamābola ādamābolu
-66	6566	āzenis	āzena āzenu
-67	6567	pelēkais ronis	pelēkais ronis
-68	6568	saldais kartupelis	kartupelis saldais
-69	6569	saules vējš	saules vējš
-70	6570	vārda diena	diena vārda
-71	6571	zobu suka	suka zobu
-72	6572	algebrisks	algebriskām
-73	6573	amerikānisms	amerikānismu
-74	6574	bangladešiete	bangladešieši
-75	6575	kvadrātkods	kvadrātkoda
-76	6576	litera	literu
-77	6577	modalitāte	modalitātes
-78	6578	multipaka	multipakām
-79	6579	raudule	rauduļi
-80	6580	robotprogrammatūra	
-81	6581	septītdaļa	septītdaļas
-82	6582	slaiki	
-83	6583	ēģiptisks	ēģiptiska
-84	6584	anatoms	
-85	6585	arābu valoda	arābu valoda
-86	6586	domna	
-87	6587	etimoloģiski	
-88	6588	franču valoda	franču valoda
-89	6589	humānistiski	
-90	6590	kad pūcei aste ziedēs	aste kad pūcei ziedēs
-91	6591	melnais caurums	caurums melnais
-92	6592	melnais mežastrazds	melnais mežastrazds
-93	6593	noart	noar
-94	6594	orientēšanās sports	orientēšanās sports
-95	6595	stirnēns	
-96	6596	tūce	tūci
-97	6597	vācu valoda	valoda vācu
-98	6598	ablatīvs	ablatīvos
-99	6599	acīgāk	
-100	6600	afrikands	afrikandu
+1	6501	sprediķis	sprediķa sprediķi sprediķiem sprediķim sprediķos sprediķu sprediķus sprediķī
+2	6502	žāvēt	jāžāvē nežāvēt žāvē žāvēja žāvējam žāvējat žāvējiet žāvējot žāvēju žāvējām žāvējāt žāvēs žāvēsiet žāvēts žāvētu žāvēšana žāvēšu
+3	6503	iebūvēt	iebūvē iebūvēja iebūvējis iebūvējot iebūvēju iebūvējām iebūvēs iebūvēsit iebūvēts iebūvētu iebūvēšana
+4	6504	harta	hartai hartas hartu hartā hartās
+5	6505	erotisks	erotiska erotiskai erotiskais erotiskajai erotiskajam erotiskajiem erotiskajā erotiskajām erotiskajās erotiskas erotiskie erotiskiem erotisko erotiskos erotisku erotiskus erotiskā erotiskāk erotiskākais erotiskākajā erotiskāko erotiskākā erotiskākās erotiskām erotiskās
+6	6506	saklausīt	jāsaklausa nesaklausa nesaklausot nesaklausu nesaklausīja nesaklausīju nesaklausīsi saklausa saklausi saklausiet saklausot saklausu saklausām saklausāms saklausāt saklausīja saklausījis saklausīju saklausījām saklausījāt saklausīs saklausīsi saklausīsiet saklausīsim saklausīsit saklausīts saklausītu
+7	6507	klupt	klupa klupdama klupdami klupdams klupi klupis klups klupsim kluptu klupusi klupuši klupām klupāt klupšanas klupšanu klupšu klūp klūpam klūpat klūpi klūpot klūpu neklupa neklupsit nekluptu neklūp neklūpam
+8	6508	apgleznot	apglezno apgleznoja apgleznojam apgleznojis apgleznojot apgleznoju apgleznojusi apgleznojuši apgleznojām apgleznos apgleznosim apgleznota apgleznotais apgleznotas apgleznoti apgleznotie apgleznoto apgleznots apgleznotu apgleznotā apgleznošana apgleznošanas apgleznošanu apgleznošanā jāapglezno
+9	6509	švaki	
+10	6510	iepīties	iepinas iepinies iepinos iepināmies iepinās iepītos neiepinas neiepīties
+11	6511	sauļoties	jāsauļojas nesauļojas nesauļojies nesauļojos nesauļoties sauļodamies sauļojamies sauļojas sauļojaties sauļojies sauļojos sauļojoties sauļojušies sauļojās sauļosimies sauļotos
+12	6512	pēckarš	pēckara
+13	6513	iegūties	ieguvies iegūtos iegūšanās neiegūtos
+14	6514	norakt	jānorok nenoraks nenoraksi nenorakt noracis noraka noraks noraksi noraksim norakts noraktu norakāt norakšana norakšu noroc norok norokam norokat norokot noroku
+15	6515	šopavasar	
+16	6516	polimērs	polimēra polimēriem polimēru polimērus polimērā
+17	6517	esība	esībai esības esību esībā
+18	6518	tīrītava	tīrītavai tīrītavas tīrītavu tīrītavā
+19	6519	bluķis	bluķa bluķi bluķiem bluķim bluķos bluķu bluķus bluķī
+20	6520	pornogrāfija	pornogrāfijai pornogrāfijas pornogrāfiju pornogrāfijā
+21	6521	vējains	vējaina vējainais vējainajai vējainajam vējainajos vējainajā vējainam vējainas vējaini vējainie vējaino vējainu vējainā vējaināka vējainākajos vējaināki vējainākos vējaināks vējainākā vējainākās vējainām vējainās
+22	6522	steidzināt	jāsteidzina nesteidzina nesteidzini nesteidziniet nesteidzinām nesteidzinās nesteidzināsim nesteidzināt nesteidzinātie nesteidzināšu steidzina steidzinu steidzināja steidzināji steidzinājis steidzināju steidzinām steidzinās steidzināta steidzināti steidzināts steidzinātu
+23	6523	nemiernieks	nemiernieka nemiernieki nemierniekiem nemiernieku nemierniekus
+24	6524	dokumentēt	dokumentē dokumentēja dokumentējam dokumentējiet dokumentējis dokumentējot dokumentējusi dokumentējuši dokumentēs dokumentēta dokumentētas dokumentēti dokumentētie dokumentēto dokumentēts dokumentētu dokumentētā dokumentēšana dokumentēšanas dokumentēšanu dokumentēšanā jādokumentē nedokumentēta
+25	6525	darīties	daras daries daros darās darāties darījies darījos darījāmies darījās darīsies darīsimies darīšanās nedarās nedarīsies
+26	6526	siļķe	siļķei siļķes siļķi siļķu siļķē siļķēm
+27	6527	atbalss	atbalsa atbalsi atbalsu
+28	6528	steroīds	steroīdi steroīdiem steroīdos steroīdu steroīdus
+29	6529	iepildīt	iepilda iepildi iepildiet iepildot iepildām iepildīja iepildījis iepildīju iepildījusi iepildījuši iepildīsi iepildīsim iepildīta iepildītais iepildītas iepildīti iepildītie iepildīto iepildīts iepildītu iepildītus iepildītās iepildīšana iepildīšanas jāiepilda neiepildīto
+30	6530	berze	berzes berzi berzē berzēm berzēs beržu
+31	6531	piesist	jāpiesit nepiesistos nepiesistu nepiesitīs piesista piesistais piesistajam piesisti piesisto piesists piesistu piesistā piesistās piesit piesita piesitam piesiti piesitiet piesitis piesitot piesitu piesitāt piesitīs piesitīsi piesitīšu piesizdama piesizdams piesišana
+32	6532	izkropļot	izkropļo izkropļoja izkropļojam izkropļojis izkropļojot izkropļojusi izkropļojušas izkropļojuši izkropļota izkropļotais izkropļotas izkropļoti izkropļoto izkropļots izkropļotu izkropļotā izkropļošana izkropļošanas izkropļošanu izkropļošanā jāizkropļo neizkropļo neizkropļojiet neizkropļot neizkropļoti neizkropļotu
+33	6533	slāvs	slāv slāvi slāviem slāvu slāvus
+34	6534	sastāvēt	jāsastāv nesastāv nesastāvi nesastāvētu sastāvot sastāvošas sastāvoši sastāvošie sastāvošos sastāvošs sastāvošu sastāvošā sastāvošās sastāvēja sastāvējis sastāvēju sastāvējusi sastāvējušas sastāvējuši sastāvējušos sastāvējušās sastāvēs sastāvētu sastāvēšana sastāvēšanu
+35	6535	sapūst	jāsapūst nesapuva nesapūs nesapūst nesapūtu nesapūš sapuva sapuvis sapūs sapūsi sapūsim sapūstam sapūsti sapūstiet sapūstot sapūsts sapūt sapūta sapūtīs sapūš sapūšam sapūšana
+36	6536	kakāt	jākakā kakāja kakājam kakājat kakājiet kakājot kakājošs kakāju kakāsi kakāšana kakāšanas kakāšanu kakāšu nekakā nekakāju nekakāsi nekakāšu
+37	6537	tajs	taj taja tajam tajiem taju
+38	6538	sasalt	jāsasalst nesasala nesasals nesasalst nesasaltu nesasalušas sasala sasalis sasals sasalst sasalstot sasalstošs sasaltu sasalu sasalusi sasalušas sasaluši sasalušiem sasalušos sasalušu sasalušus sasalušā sasalušās sasalšana
+39	6539	premjerministre	premjerministrei premjerministres premjerministri premjerministru
+40	6540	sataisīties	jāsataisās nesataisītos sataisies sataisos sataisījies sataisījāmies sataisījās sataisījāties sataisīsies sataisītos
+41	6541	ledene	ledenei ledenes ledeni ledenēm ledeņu
+42	6542	dzinums	dzinuma dzinumam dzinumi dzinumiem dzinumu dzinumus dzinumā
+43	6543	gļotāda	gļotādai gļotādas gļotādu gļotādā gļotādām
+44	6544	autonomija	autonomijai autonomijas autonomiju autonomijā autonomijām
+45	6545	ietiepīgs	ietiepīga ietiepīgais ietiepīgi ietiepīgu ietiepīgā ietiepīgāk ietiepīgākie visietiepīgākais
+46	6546	protēze	protēzei protēzes protēzi protēzēm protēžu
+47	6547	civilizēt	civilizēta civilizētais civilizētas civilizēti civilizētie civilizēto civilizēts civilizētu civilizētā civilizēšanas civilizēšanu necivilizēta necivilizētas necivilizēti necivilizēto
+48	6548	galēji	
+49	6549	olšūna	olšūnai olšūnas olšūnu olšūnām
+50	6550	daugavpiliete	daugavpilietei daugavpilietes daugavpilieti daugavpilietim daugavpilietis daugavpilietēm daugavpilieša daugavpilieši daugavpiliešiem daugavpiliešos daugavpiliešu daugavpiliešus
+51	6551	uzticamība	uzticamībai uzticamības uzticamību uzticamībā
+52	6552	uzaudzēt	jāuzaudzē neuzaudzē neuzaudzējot neuzaudzēsiet uzaudzē uzaudzēja uzaudzējam uzaudzējiet uzaudzējis uzaudzējot uzaudzēju uzaudzējusi uzaudzējušas uzaudzējuši uzaudzējušā uzaudzējām uzaudzējāt uzaudzēs uzaudzēsiet uzaudzēsim uzaudzēts uzaudzētu uzaudzētās
+53	6553	šaubīgs	visšaubīgākā šaubīga šaubīgai šaubīgais šaubīgajiem šaubīgajos šaubīgajā šaubīgajām šaubīgajās šaubīgam šaubīgas šaubīgi šaubīgie šaubīgiem šaubīgo šaubīgos šaubīgu šaubīgus šaubīgā šaubīgāka šaubīgākās šaubīgām šaubīgās
+54	6554	provocēt	jāprovocē neprovocēt provocē provocēja provocējam provocējat provocējis provocējot provocējošs provocēju provocēs provocēsim provocēts provocētu provocēšana
+55	6555	dīzeļdzinējs	dīzeļdzinēja dīzeļdzinējam dīzeļdzinēji dīzeļdzinējiem dīzeļdzinējos dīzeļdzinēju dīzeļdzinējus
+56	6556	norūpēties	norūpējies norūpējusies norūpējušies norūpējušās norūpēšanās
+57	6557	noplēst	jānoplēš nenoplēst nenoplēstu nenoplēšot noplēs noplēsa noplēsiet noplēsis noplēsts noplēstu noplēsu noplēsīs noplēsīsim noplēsīšu noplēš noplēšam noplēšana noplēšot noplēšu
+58	6558	valodnieks	valodniece valodnieces valodniek valodnieka valodniekam valodnieki valodniekiem valodnieku valodniekus valodnieču
+59	6559	atskaitīties	atskaitieties atskaitos atskaitoties atskaitāmies atskaitījies atskaitījusies atskaitījušies atskaitījās atskaitīsies atskaitīsimies atskaitītos atskaitīšanās atskaitīšos neatskaitos neatskaitāties neatskaitījās neatskaitīties neatskaitītos
+60	6560	aklums	akluma aklumam aklumu aklumā
+61	6561	zāģēt	jāzāģē nezāģē nezāģējam nezāģējot nezāģēs nezāģēsim zāģē zāģēja zāģējam zāģējis zāģējot zāģējošu zāģējošās zāģēju zāģējusi zāģējām zāģēs zāģēsi zāģēsim zāģēta zāģētajiem zāģētajām zāģētas zāģēti zāģētiem zāģēts zāģētu zāģētās zāģēšana zāģēšanai zāģēšanas zāģēšanu zāģēšanā
+62	6562	grauzējs	grauzēja grauzējam grauzēji grauzējiem grauzēju grauzējus
+63	6563	konservatorija	konservatorijas konservatoriju konservatorijā
+64	6564	kutināt	kutina kutināja kutinājis kutinājuši kutinās kutināsi kutināsim kutināti kutināts kutināšana kutināšanas kutināšanu kutināšanā nekutini nekutiniet nekutinās
+65	6565	svītrot	jāsvītro nesvītrojot svītro svītroja svītrojam svītrojams svītrojiet svītrojis svītrojot svītroju svītrojusi svītrojuši svītrojām svītros svītrosim svītrota svītrotais svītrotas svītroti svītrotie svītrots svītrotu svītrošana svītrošanas svītrošanu svītrošu
+66	6566	vaļīgs	vaļīga vaļīgas vaļīgi vaļīgiem vaļīgo vaļīgu vaļīgā vaļīgāk vaļīgāki vaļīgāks vaļīgāku vaļīgākus vaļīgākā
+67	6567	pārzvanīt	pārzvana pārzvani pārzvaniet pārzvanu pārzvanīja pārzvanīs pārzvanīsim pārzvanīšu
+68	6568	saasināt	jāsaasina nesaasiniet nesaasināju nesaasinās nesaasināt nesaasināti nesaasinātu saasina saasinot saasināja saasinājis saasinājusi saasinājušas saasinājuši saasinās saasināsim saasināta saasinātais saasinātas saasināti saasināto saasināts saasinātu saasinātā saasināšanas saasināšanu saasināšanā
+69	6569	truls	trula trulai trulais trulajai trulajam trulajiem trulam trulas trulie truliem trulo trulos trulu trulus trulā trulāk trulākajai trulāko trulāks trulām trulās
+70	6570	sociālists	sociālista sociāliste sociālisti sociālistiem sociālistu sociālistus
+71	6571	atbaidošs	atbaidoša atbaidošais atbaidošajiem atbaidošajā atbaidošas atbaidoši atbaidošiem atbaidošo atbaidošu atbaidošus atbaidošā atbaidošāk atbaidošākos atbaidošāks atbaidošām atbaidošās
+72	6572	skops	skopa skopai skopais skopajiem skopajos skopajām skopam skopas skopi skopie skopiem skopo skopos skopu skopus skopā skopāka skopākajā skopāki skopāks skopākā skopās
+73	6573	sūrs	sūra sūrai sūrais sūrajam sūram sūras sūri sūrie sūriem sūro sūros sūru sūrus sūrā sūrāk sūrāka sūrāki sūrāko sūrāku sūrām sūrās
+74	6574	metropolitēns	metropolitēna metropolitēniem metropolitēnu metropolitēnā
+75	6575	vienkāršība	vienkāršībai vienkāršības vienkāršību vienkāršībā
+76	6576	apmierinājums	apmierinājuma apmierinājumam apmierinājumu apmierinājumā
+77	6577	atstumt	atstumj atstumjat atstumjot atstumju atstums atstumsim atstumta atstumtais atstumtajam atstumtajiem atstumtajos atstumtajām atstumtam atstumtas atstumti atstumtie atstumtiem atstumto atstumtos atstumts atstumtu atstumtā atstumtām atstumtās atstumšana atstūma atstūmi atstūmis atstūmusi atstūmuši jāatstumj neatstum neatstumj neatstumjat neatstumjot neatstums neatstumt neatstumtu neatstumšu
+78	6578	drēbnieks	drēbnieka drēbniekam drēbnieki drēbniekiem drēbnieku drēbniekus
+79	6579	psihoterapija	psihoterapijai psihoterapijas psihoterapiju psihoterapijā
+80	6580	raudzīt	jārauga raudzīja raudzījām raudzīs raudzīsi raudzīsim raudzīšu rauga raugi raugiet raugu raugām raugāms raugāt
+81	6581	aizlūgt	aizlūdz aizlūdza aizlūdzam aizlūdziet aizlūdzis aizlūdzot aizlūdzu aizlūdzām aizlūgdams aizlūgs aizlūgsim aizlūgts aizlūgtu aizlūgšana aizlūgšu jāaizlūdz neaizlūgs
+82	6582	nedrošība	nedrošībai nedrošības nedrošību nedrošībā nedrošībām nedrošībās
+83	6583	mazotne	mazotnes mazotnē
+84	6584	civillikums	civillikuma civillikumam civillikumi civillikumos civillikumu civillikumā
+85	6585	nelietīgs	nelietīga nelietīgais nelietīgajam nelietīgajiem nelietīgajām nelietīgam nelietīgas nelietīgi nelietīgie nelietīgiem nelietīgo nelietīgos nelietīgu nelietīgus nelietīgā nelietīgākajiem nelietīgāks nelietīgās visnelietīgākajiem visnelietīgākā
+86	6586	epicentrs	epicentra epicentram epicentri epicentriem epicentros epicentru epicentrā
+87	6587	sprādze	sprādzei sprādzes sprādzi sprādzēm sprādžu
+88	6588	bumbvedējs	bumbvedēja bumbvedēji bumbvedējiem bumbvedēju bumbvedējus
+89	6589	kaisīt	jākaisa kaisa kaisi kaisot kaisu kaisām kaisāt kaisīja kaisījis kaisīju kaisījuši kaisījām kaisīs kaisīta kaisītas kaisīti kaisīts kaisītu kaisīšana kaisīšanas kaisīšanu kaisīšanā nekaisa nekaisi nekaisu nekaisām nekaisīja nekaisīsim nekaisītais nekaisītas nekaisīti nekaisīšanu
+90	6590	tīrums	tīruma tīrumam tīrumi tīrumiem tīrumos tīrumu tīrumus tīrumā
+91	6591	almanahs	almanaha almanaham almanahi almanahos almanahu almanahā
+92	6592	dirsties	dirsas dirsies diršanās nedirsies
+93	6593	afroamerikānis	afroamerikāni afroamerikānim afroamerikāņa afroamerikāņi afroamerikāņiem afroamerikāņu afroamerikāņus
+94	6594	piekukuļot	jāpiekukuļo piekukuļo piekukuļoji piekukuļojis piekukuļojot piekukuļoju piekukuļojusi piekukuļojuši piekukuļosi piekukuļota piekukuļoti piekukuļotu piekukuļošana piekukuļošanas piekukuļošanu
+95	6595	hamburgers	hamburgera hamburgeram hamburgeri hamburgeriem hamburgeros hamburgeru hamburgerus hamburgerā
+96	6596	urbis	urba urbi urbim urbja urbji urbjiem urbjos urbju urbjus urbos urbu urbī
+97	6597	meitēns	meitēna meitēnam meitēni meitēniem meitēnu meitēnus
+98	6598	iekustināt	iekustina iekustini iekustiniet iekustinot iekustinu iekustināja iekustināju iekustinājusi iekustinājuši iekustinājām iekustinām iekustināms iekustinās iekustināsim iekustināta iekustinātais iekustinātas iekustināti iekustināts iekustinātu iekustinātā iekustināšanu jāiekustina
+99	6599	pidžama	pidžamai pidžamas pidžamu pidžamā pidžamām pidžamās
+100	6600	vieglums	viegluma vieglumam vieglumu vieglumā

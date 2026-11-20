@@ -1,0 +1,100 @@
+1	9101	korespondente	korespondentei korespondentes korespondenti
+2	9102	flotile	flotilei flotiles flotili flotilē
+3	9103	vidusskolnieks	vidusskolnieka vidusskolniekam vidusskolnieki vidusskolniekiem vidusskolnieku vidusskolniekus
+4	9104	atrādīties	atrādies atrādos atrādās atrādījies atrādījos atrādījās atrādīsimies atrādītos atrādīšanās jāatrādās neatrādoties
+5	9105	uzcītīgi	
+6	9106	gāzmaska	gāzmaskas gāzmasku gāzmaskā gāzmaskām gāzmaskās
+7	9107	aizkļūt	aizkļuva aizkļuvis aizkļuvu aizkļūstot aizkļūtu aizkļūšana jāaizkļūst
+8	9108	aizrakstīt	aizraksta aizraksti aizrakstot aizrakstīja aizrakstīji aizrakstījis aizrakstīju aizrakstījušas aizrakstījuši aizrakstītas aizrakstīšu neaizrakstīja
+9	9109	svilpiens	svilpiena svilpienam svilpieni svilpieniem svilpienos svilpienu svilpienus
+10	9110	atbalsot	atbalso atbalsoja atbalsojat atbalsojis atbalsojot atbalsosim atbalsots jāatbalso
+11	9111	žē	
+12	9112	tē	
+13	9113	biosfēra	biosfēras biosfēru
+14	9114	fotoalbums	fotoalbuma fotoalbumam fotoalbumi fotoalbumiem fotoalbumu fotoalbumus fotoalbumā
+15	9115	vasarīgi	
+16	9116	ozolzīle	ozolzīlei ozolzīles ozolzīli ozolzīlēm ozolzīļu
+17	9117	nostaigāt	jānostaigā nostaigā nostaigāja nostaigājam nostaigājiet nostaigājis nostaigājot nostaigāju nostaigājām nostaigās nostaigāsim nostaigāts nostaigātu
+18	9118	sadomāties	nesadomājas nesadomājaties nesadomājies nesadomāties sadomājas sadomājies sadomājos sadomājusies sadomājušies sadomājušās sadomājās
+19	9119	deniņi	deniņiem deniņos deniņu deniņus
+20	9120	kuģinieks	kuģiniek kuģinieki kuģiniekiem kuģinieku kuģiniekus
+21	9121	nomocīties	nomocos nomocījies nomocījos nomocījusies nomocījušies nomocījāmies nomocījās nomocītos
+22	9122	sakurt	sakur sakuriet sakurs sakursim sakurtais sakurto sakurts sakuru sakūra sakūris sakūru sakūruši sakūrām
+23	9123	hēlijs	hēlija hēliju
+24	9124	neonacists	neonacisti neonacistiem neonacistu
+25	9125	parfīms	parfīma parfīmam parfīmi parfīmiem parfīmos parfīmu
+26	9126	ataudzēt	ataudzē ataudzējamo ataudzējiet ataudzējis ataudzētas ataudzētu ataudzēšana jāataudzē
+27	9127	iznicināt	iznicina izniciniet iznicinot iznicināja iznicinās iznicināsim iznicināta iznicināti iznicinātu iznicināšana jāiznicina
+28	9128	dzeroklis	dzerokli dzerokļa dzerokļi dzerokļos dzerokļus
+29	9129	izkontrolēt	izkontrolē izkontrolējot izkontrolēs izkontrolēto izkontrolētu izkontrolēšanu
+30	9130	spēties	nespējas nespējās spēsies
+31	9131	kērlings	kērlinga kērlingam kērlingu kērlingā
+32	9132	summēties	nesummējas nesummējās summējas summējies summējoties summējušies summējās summēsies summēšanās
+33	9133	biogrāfisks	biogrāfiska biogrāfiskais biogrāfiskajam biogrāfiskajos biogrāfiskajā biogrāfiskajās biogrāfiskas biogrāfiski biogrāfiskie biogrāfiskiem biogrāfisko biogrāfiskos biogrāfisku biogrāfiskus biogrāfiskā biogrāfiskās
+34	9134	piepirkt	jāpiepērk nepiepirksi piepircis piepirka piepirks piepirkta piepirkti piepirktos piepirkts piepirktām piepirktās piepirku piepirkuši piepirkšu piepērk piepērkam piepērkot piepērku
+35	9135	balstiņa	balstiņas balstiņu balstiņā balstiņām balstiņās
+36	9136	izcirtums	izcirtuma izcirtumam izcirtumi izcirtumiem izcirtumos izcirtumu izcirtumus izcirtumā
+37	9137	pikts	pikta piktais piktas pikti piktie piktiem pikto piktos piktu piktā piktāks vispiktākais
+38	9138	pastiept	jāpastiepj nepastiepj pastiepa pastiepis pastiepj pastiepjot pastiepju pastiepsim pastieptu pastiepām pastiepšana
+39	9139	atplaukt	atplauka atplaukdams atplauks atplaukst atplaukstot atplauktu atplaukāt atplaukšu neatplauks neatplaukst neatplaukšu
+40	9140	aiztecēt	aizteci aiztecēja aiztecējis aiztecēs aiztek aiztekot jāaiztek neaiztek
+41	9141	pārkopēt	jāpārkopē pārkopē pārkopēja pārkopējis pārkopējot pārkopēju pārkopējām pārkopēs pārkopēta pārkopēti pārkopēts pārkopētu pārkopēšana pārkopēšanas pārkopēšu
+42	9142	pedantisks	pedantiska pedantiskais pedantiskajai pedantiskajiem pedantiskajā pedantiskas pedantiskie pedantisko pedantisku pedantiskā pedantiskākais pedantiskās
+43	9143	noglāstīt	nenoglāstām noglāsta noglāsti noglāstot noglāstīja noglāstīju noglāstīs noglāstītu noglāstīšu
+44	9144	auklēties	auklējamies auklējas auklējaties auklējies auklējos auklējoties auklējās auklēsies auklētos auklēšanās jāauklējas neauklējamies neauklējas neauklējos neauklējoties neauklēsies neauklētos
+45	9145	bezzobains	bezzobaina bezzobainais bezzobainajiem bezzobainajā bezzobainam bezzobainas bezzobaini bezzobainiem bezzobaino bezzobainos bezzobainu bezzobainus bezzobainā
+46	9146	apsalt	apsala apsalis apsalst apsaltu apsalusi apsalušas apsaluši apsalušos apsalušus apsalušās neapsals neapsaltu
+47	9147	inventarizācijas	inventarizācijai
+48	9148	durklis	durkli durkļa durkļi durkļiem durkļu durkļus
+49	9149	slāpētājs	slāpētāja slāpētāji slāpētājiem slāpētājos slāpētāju slāpētājus
+50	9150	noziedēt	nenoziedēs nozied noziedi noziedu noziedēja noziedējis noziedēs
+51	9151	pārķert	jāpārķer nepārķēru pārķer pārķerot pārķerts pārķertu pārķēra pārķēri pārķēru pārķērām
+52	9152	absints	absinta absintu
+53	9153	muļķadesa	muļķadesas muļķadesu
+54	9154	ef	
+55	9155	kapitālieguldījums	kapitālieguldījumi kapitālieguldījumiem kapitālieguldījumu kapitālieguldījumus
+56	9156	nespēties	nespējas nespējās
+57	9157	onkologs	onkologa onkologam onkologi onkologiem onkologu onkologus
+58	9158	brasls	brad brada brads bradā brasla braslam braslu braslā
+59	9159	sabērt	jāsaber saber saberam saberiet saberot saberu sabēra sabēri sabēris sabērs sabērsi sabērts sabēru sabērām
+60	9160	arhetips	arhetipa arhetipi arhetipiem arhetipos arhetipu arhetipus
+61	9161	kēkss	kekss kēksa kēksam kēksi kēksiem kēksu kēksus
+62	9162	nopētīt	nenopēta nopēta nopētiet nopētot nopētām nopētīdams nopētīja nopētījis nopētīju nopētīs nopētīti nopētīšu
+63	9163	satīt	jāsatin satin satina satinis satinu satinām satīts satītu
+64	9164	pasapņot	nepasapņot pasapņo pasapņojam pasapņojot pasapņoju pasapņosim pasapņotu
+65	9165	stīpa	stīpai stīpas stīpu stīpā stīpām
+66	9166	vilcēns	vilcēna vilcēni vilcēniem vilcēnu vilcēnus
+67	9167	arbalets	arbaleta arbaletiem arbaletu arbaletus
+68	9168	izplaukt	izplauka izplauks izplaukst izplauktu jāizplaukst neizplauks
+69	9169	pasacīties	jāpasakās nepasakies nepasakās pasakies pasakieties pasakos pasakoties pasakāmies
+70	9170	sabučot	sabučo sabučoja sabučojis sabučojuši sabučos sabučosi sabučosim sabučošu
+71	9171	vulkānisks	vulkāniska vulkāniskais vulkāniskajiem vulkāniskajā vulkāniskas vulkāniski vulkāniskie vulkānisko vulkāniskā vulkāniskās
+72	9172	trinitrotoluols	trinitrotoluola trinitrotoluolu
+73	9173	laidnis	laidni laidnim laidņa laidņi laidņu
+74	9174	kubiete	kubieti kubiešu
+75	9175	ieieties	iegājies iegājusies iegājušies iegājušās iegājās ieiesies ieietos neiegājās neieiesies
+76	9176	pārreģistrēt	jāpārreģistrē nepārreģistrēt nepārreģistrētiem nepārreģistrētu pārreģistrē pārreģistrēja pārreģistrējis pārreģistrējot pārreģistrējušas pārreģistrējuši pārreģistrējušos pārreģistrējušās pārreģistrēs pārreģistrēta pārreģistrētas pārreģistrēti pārreģistrētos pārreģistrēts pārreģistrēšana
+77	9177	dēlēns	dēlēna dēlēnam dēlēni dēlēniem dēlēnu dēlēnus
+78	9178	vieglprātība	vieglprātībai vieglprātības vieglprātību vieglprātībā vieglprātībām
+79	9179	uzrēķināt	neuzrēķināt uzrēķina uzrēķini uzrēķinot uzrēķinu uzrēķināja uzrēķinājis uzrēķinājusi uzrēķināsim uzrēķinātie uzrēķināto uzrēķināts uzrēķinātā
+80	9180	pārstāstīt	jāpārstāsta nepārstāstīšu pārstāsta pārstāsti pārstāstot pārstāstu pārstāstām pārstāstīja pārstāstījis pārstāstīju pārstāstījuši pārstāstīta pārstāstītais pārstāstīti pārstāstītie pārstāstīto pārstāstītos pārstāstīts pārstāstītu pārstāstītā pārstāstītām
+81	9181	saliekties	jāsaliecas nesalieksies saliecamies saliecas saliecies saliecieties saliecos saliecās saliekšanās
+82	9182	iebrauktuve	iebrauktuvei iebrauktuves iebrauktuvi iebrauktuvju iebrauktuvē
+83	9183	svītrains	svītrainais svītrainajā svītrainas svītraini svītrainie svītrainiem svītraino svītrainos svītrainu svītrainā svītrainām svītrainās
+84	9184	pārdurt	nepārdurt pārdur pārdurot pārdursi pārdurts pārdurtu pārduru pārdūra pārdūru
+85	9185	paslinkot	nepaslinko nepaslinkoja nepaslinkojiet nepaslinkoju nepaslinkojām nepaslinkos nepaslinkosiet nepaslinkot paslinkoji paslinkojis paslinkojot paslinkoju paslinkojuši paslinkotu
+86	9186	samīt	nesamin nesamina nesamītu samij samin samina saminat samini saminis saminot samīs samīsi
+87	9187	izstrēbt	izstrebj izstrēbs izstrēbtu jāizstrebj
+88	9188	kalnracis	kalnraci kalnrača kalnrači kalnračiem kalnraču kalnračus
+89	9189	tumšmate	tumšmatei tumšmates tumšmati tumšmatis tumšmatēm
+90	9190	moskīts	moskīta moskīti moskītiem moskītu
+91	9191	aizrakties	aizracies aizraksies aizrakāmies aizrakšanās aizrakšos
+92	9192	atdusēties	atdusamies atdusies atdusos atdusējies atdusējās atdusēsies
+93	9193	absorbcija	absorbcijai absorbcijas absorbciju absorbcijām
+94	9194	eņ	
+95	9195	oktāns	oktāna oktānā
+96	9196	dispečere	dispečerei dispečeres dispečeri dispečeru dispečerēm
+97	9197	komjaunatne	komjaunatnes komjaunatni komjaunatnē
+98	9198	ēvele	ēvelei ēveles ēveli ēvelē ēvelēm ēveļu
+99	9199	nacionalitāte	nacionalitātei nacionalitātes nacionalitāti nacionalitātē nacionalitātēm nacionalitāšu
+100	9200	atspēlēt	atspēlē atspēlēja atspēlējam atspēlējot atspēlējām atspēlētu

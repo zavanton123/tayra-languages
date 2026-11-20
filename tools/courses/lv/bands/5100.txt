@@ -1,100 +1,100 @@
-1	5001	baklažāns	baklažāna baklažāni baklažāniem baklažānu baklažānus
-2	5002	paralēls	paralēlo
-3	5003	korāns	korāna korānam korānu korānā
-4	5004	mežmala	mežmalai mežmalas mežmalu mežmalā mežmalām mežmalās
-5	5005	kāravs	kārava
-6	5006	zaglīgs	zaglīga zaglīgais zaglīgajai zaglīgajiem zaglīgajām zaglīgie zaglīgo zaglīgu zaglīgus zaglīgā
-7	5007	kurpnieks	kurpniece kurpniecei kurpnieci kurpnieka kurpniekam kurpnieki kurpniekiem kurpniekos kurpnieku
-8	5008	valodniecība	valodniecības valodniecību valodniecībā
-9	5009	internacionāls	internacionāla internacionālai internacionālais internacionālajai internacionālajam internacionālajiem internacionālajos internacionālajā internacionālajām internacionālajās internacionālie internacionālo internacionālu internacionālus internacionālā internacionālāks internacionālās
-10	5010	melnums	melnuma melnumam melnumi melnumiem melnumu melnumus melnumā
-11	5011	insekts	insekta insekti insektiem insektu insektus
-12	5012	plikums	plikuma plikumi plikumiem plikumu plikumus plikumā
-13	5013	pirdiens	pirdiena pirdienam pirdieni pirdieniem pirdienu
-14	5014	horvātiete	horvāta horvātam horvāti horvātiem horvātietes horvātieti horvātietēm horvāts horvātu horvātus
-15	5015	kustīgi	
-16	5016	īgns	īgna īgnais īgnajam īgnajiem īgnas īgni īgnie īgniem īgno īgnos īgnu īgnus īgnā
-17	5017	trokšņains	trokšņaina trokšņainai trokšņainajam trokšņainajiem trokšņainajā trokšņainajās trokšņainas trokšņaini trokšņainie trokšņainiem trokšņaino trokšņainos trokšņainu trokšņainā trokšņainām trokšņainās
-18	5018	svainis	svaine svaines svaini svaiņa svaiņu svaiņus
-19	5019	pelnīti	
-20	5020	daiļava	daiļavai daiļavas daiļavu daiļavām daiļavās
-21	5021	wiki	
-22	5022	kredits	kredit kredita kreditam krediti kreditiem kreditos kreditu kreditus kreditā
-23	5023	skūt	skuj skuju
-24	5024	desmitdaļa	desmitdaļai desmitdaļas desmitdaļu desmitdaļā desmitdaļām
-25	5025	vīraks	vīraka vīraki vīrakiem vīraku vīrakus vīrakā
-26	5026	rūpība	rūpībai rūpības rūpību rūpībā
-27	5027	astrofiziķis	astrofiziķei astrofiziķi astrofiziķiem
-28	5028	murrāt	murrā murrādams murrājot murrājošs murrās murrātu murrāšana
-29	5029	reāliste	reālisti reālistu reālistēm
-30	5030	pļāpīgs	pļāpīga pļāpīgais pļāpīgas pļāpīgi pļāpīgiem pļāpīgo pļāpīgu pļāpīgā pļāpīgās
-31	5031	radze	radzes radzēm radžu
-32	5032	federatīvs	federatīva federatīvajai federatīvajā federatīvas federatīvo federatīvu federatīvā federatīvām federatīvās
-33	5033	volframs	volfram volframa
-34	5034	cēzijs	cēzija cēzijam cēziju
-35	5035	akustika	akustikai akustikas akustiku akustikā
-36	5036	rožains	rožaina rožainajiem rožainajos rožainajā rožainajām rožainajās rožainas rožainie rožainiem rožaino rožainos rožainu rožainus rožainā rožaināks rožainām rožainās
-37	5037	kurvis	kurvi kurvja kurvjus kurvī
-38	5038	celle	cellei celles celli cellē cellēm ceļļu
-39	5039	svastika	svastikas svastiku
-40	5040	kairinājums	kairinājuma kairinājumam kairinājumiem kairinājumu kairinājumus
-41	5041	papērt	paper
-42	5042	rūpnieks	rūpniekam rūpnieki rūpniekiem rūpnieku rūpniekus
-43	5043	cilvēciski	
-44	5044	latviskums	latviskuma latviskumam latviskumi latviskumu latviskumā
-45	5045	olnīca	olnīcas olnīcu olnīcā olnīcām olnīcās
-46	5046	krievisks	krieviska krieviskai krieviskais krieviskajai krieviskajā krieviskas krieviskie krieviskiem krievisko krieviskos krievisku krieviskus krieviskā krieviskāks krieviskās
-47	5047	smaidīgi	
-48	5048	šķaudīt	jāšķauda nešķaudīt šķauda šķaudi šķaudot šķaudu šķaudāt šķaudījis šķaudīju šķaudīs šķaudītu šķaudīšana šķaudīšu
-49	5049	indoeiropiete	indoeiropiešiem indoeiropiešu
-50	5050	nepaklausība	nepaklausībai nepaklausības nepaklausību nepaklausībā
-51	5051	lietusmētelis	lietusmēteli lietusmētelī lietusmēteļa lietusmēteļi lietusmēteļiem lietusmēteļos lietusmēteļus
-52	5052	indēt	indē indēja indējam indējis indējot indēju indēs indēts indēšana indēšanai indēšanas indēšanu indēšanā jāindē neindēt
-53	5053	ģeogrāfs	ģeogrāfa ģeogrāfe ģeogrāfes ģeogrāfi ģeogrāfiem ģeogrāfos ģeogrāfu ģeogrāfus
-54	5054	kabacis	kabaci kabacim kabača kabači kabačiem kabaču kabačus
-55	5055	dialekts	dialekta dialekti dialektiem dialektos dialektu dialektus dialektā
-56	5056	dūmaka	
-57	5057	pļāpa	pļāpai pļāpu pļāpā pļāpām pļāpās
-58	5058	sonets	sonet soneti sonetiem sonetu sonetus sonetā
-59	5059	ķēve	ķēvei ķēves ķēvi ķēvju ķēvēm
-60	5060	neitralitāte	neitralitātei neitralitātes neitralitāti neitralitātē
-61	5061	slovēnis	slovēni slovēnietei slovēnietes slovēnim slovēņi slovēņiem slovēņu
-62	5062	pelējums	pelējuma pelējumam pelējumu
-63	5063	lācene	lācei lācenei lācenes lāceni lāceņu
-64	5064	ģeoloģisks	ģeoloģiska ģeoloģiskai ģeoloģiskais ģeoloģiskajai ģeoloģiskajiem ģeoloģiskajām ģeoloģiskie ģeoloģisko ģeoloģiskos ģeoloģisku ģeoloģiskā ģeoloģiskām ģeoloģiskās
-65	5065	zviedriski	
-66	5066	izvarošana	
-67	5067	dubļains	dubļaina dubļainajiem dubļainajā dubļainajām dubļainajās dubļainas dubļaini dubļainie dubļainiem dubļaino dubļainos dubļainu dubļainus dubļainā dubļaināks dubļainām dubļainās
-68	5068	miesīgs	miesīga miesīgais miesīgajai miesīgajam miesīgajiem miesīgajā miesīgajām miesīgam miesīgas miesīgie miesīgiem miesīgo miesīgos miesīgu miesīgā miesīgām miesīgās
-69	5069	histērija	
-70	5070	sārti	
-71	5071	popkorns	
-72	5072	žagas	žaga žagām žagās
-73	5073	metāns	metāna metānu
-74	5074	botāniķe	botāniķa botāniķi botāniķim botāniķis botāniķu
-75	5075	komiski	
-76	5076	sakāmvārds	sakāmvārda sakāmvārdam sakāmvārdi sakāmvārdiem sakāmvārdos sakāmvārdu sakāmvārdus sakāmvārdā
-77	5077	klijāns	klijāni klijānu
-78	5078	smukums	smukum smukuma smukumam smukumi smukumiem smukumos smukumu
-79	5079	dzestrs	dzestra dzestrais dzestrajam dzestrajos dzestrajā dzestrajās dzestras dzestri dzestrie dzestriem dzestro dzestros dzestru dzestrā dzestrāks
-80	5080	slimīgs	slimīga slimīgai slimīgajā slimīgajām slimīgas slimīgiem slimīgo slimīgu slimīgus slimīgā slimīgās
-81	5081	rādītājpirksts	rādītājpirksta rādītājpirkstiem rādītājpirkstu rādītājpirkstus
-82	5082	mangāns	mangāna mangānu
-83	5083	draiskule	draiskules draiskuli draiskulis draiskulēm draiskuļi draiskuļiem draiskuļu draiskuļus
-84	5084	blāvi	
-85	5085	dārzniecība	dārzniecībai dārzniecības dārzniecību dārzniecībā dārzniecībām dārzniecībās
-86	5086	paradoksāls	paradoksāla paradoksālais paradoksālajiem paradoksālajā paradoksālajām paradoksālas paradoksālie paradoksālo paradoksālos paradoksālu paradoksālus paradoksālā paradoksālām paradoksālās
-87	5087	stabulnieks	stabulniece stabulnieka stabulniekam stabulniekiem stabulnieku
-88	5088	paliene	palienei palienes palieni palienē palienēm palieņu
-89	5089	noindēt	
-90	5090	metalurģija	metalurģijai metalurģijas metalurģiju metalurģijā
-91	5091	arkls	arkla arklam arkli arkliem arklos arklu arklus arklā
-92	5092	potīte	
-93	5093	vēsums	vēsuma vēsumam vēsumu vēsumā
-94	5094	izvarot	
-95	5095	dzelzceļnieks	dzelzceļnieka dzelzceļniekam dzelzceļnieki dzelzceļniekiem dzelzceļnieku dzelzceļniekus
-96	5096	spodrība	spodrībai spodrības spodrību spodrībā
-97	5097	homoseksuālists	homoseksuālista homoseksuālistam homoseksuālisti homoseksuālistiem homoseksuālistu homoseksuālistus
-98	5098	slimīgi	
-99	5099	drakons	drakon drakona drakoni drakoniem drakonu drakonus
-100	5100	dālija	dālijas dāliju dālijām
+1	5001	paglābt	jāpaglābj nepaglāba nepaglābs paglāb paglāba paglābi paglābis paglābj paglābjot paglābs paglābsiet paglābta paglābtais paglābti paglābtie paglābtos paglābts paglābtu paglābu paglābusi paglābušas paglābuši paglābušās paglābām paglābāt paglābšana paglābšu
+2	5002	atšūties	atšujas atšujies atšujieties atšujos atšuvušies atšuvās atšūsies atšūtos neatšujies neatšūsieties
+3	5003	atjēgties	atjēdzamies atjēdzas atjēdzies atjēdzieties atjēdzos atjēdzoties atjēdzāmies atjēdzās atjēgsies atjēgsimies atjēgsities atjēgtos atjēgusies atjēgušies atjēgšanās jāatjēdzas
+4	5004	virsis	vira viram viri viriem viros virsi viru virša virši viršiem viršos viršu viršus
+5	5005	gulēties	gulies gulieties gulējās guļamies guļas guļos guļoties jāguļas negulies negulējās neguļas
+6	5006	komandējums	komandējuma komandējumam komandējumi komandējumiem komandējumos komandējumu komandējumus komandējumā
+7	5007	džins	džina džinam džini džiniem džinu džinus džinā
+8	5008	sakost	jāsakož nesakoda nesakodīs nesakostai nesakostu nesakož nesakožamas sakod sakoda sakodi sakodis sakodu sakodusi sakodušas sakoduši sakodīs sakosta sakostais sakostajai sakostajam sakostajā sakostam sakosti sakostiem sakosto sakostos sakosts sakostu sakostā sakostās sakošana sakož sakožami sakožams sakožot sakožu
+9	5009	kaimiņvalsts	kaimiņvalsti kaimiņvalstu
+10	5010	pietaupīt	jāpietaupa nepietaupīt pietaupa pietaupi pietaupiet pietaupot pietaupu pietaupīja pietaupīji pietaupījis pietaupīju pietaupījusi pietaupījušas pietaupījuši pietaupījām pietaupīsim pietaupīta pietaupītais pietaupīts pietaupītu pietaupīšanu pietaupīšu
+11	5011	čaula	čaulai čaulas čaulu čaulā čaulām čaulās
+12	5012	luterisks	luteriska luteriskai luteriskais luteriskajai luteriskajam luteriskajā luteriskajām luteriskajās luteriskas luteriski luteriskie luterisko luterisku luteriskā luteriskās
+13	5013	īstens	īstena īstenai īstenais īstenajai īstenajam īstenajiem īstenajā īstenajām īstenam īstenas īstenie īsteniem īsteno īstenos īstenu īstenus īstenā īstenāki īstenākie īstenāko īstenākā īstenām īstenās
+14	5014	cirst	cirsts cirstu cirta cirti cirtis cirtu cirtām cirtīs cirtīsim cirtīšu ciršana cērt cērtam cērtiet cērtot cērtu jācērt necirst
+15	5015	papa	papam papas papu papus papā
+16	5016	ceļazīme	ceļazīmei ceļazīmes ceļazīmi ceļazīmju ceļazīmē ceļazīmēm ceļazīmēs
+17	5017	atrunāt	atrunā atrunāja atrunājam atrunājama atrunāji atrunājiet atrunājis atrunājot atrunāju atrunājusi atrunājuši atrunājām atrunās atrunāsim atrunāta atrunātai atrunātajam atrunātajiem atrunātajos atrunātajā atrunātajām atrunātam atrunātas atrunāti atrunātie atrunāto atrunātos atrunāts atrunātu atrunātā atrunātās atrunāšana atrunāšu jāatrunā neatrunājam neatrunājot neatrunāsi neatrunātas neatrunātu
+18	5018	nenoliedzami	
+19	5019	poliklīnika	poliklīnikai poliklīnikas poliklīniku poliklīnikā poliklīnikām poliklīnikās
+20	5020	pārpildīt	nepārpilda nepārpildīsim nepārpildītā pārpilda pārpildi pārpildīja pārpildījis pārpildīju pārpildīta pārpildītai pārpildītas pārpildīti pārpildītiem pārpildītos pārpildīts pārpildītu pārpildītus pārpildītā pārpildītām pārpildītās
+21	5021	kņazs	kņaz kņaza kņazam kņazi kņaziem kņazu
+22	5022	ciemoties	ciemodamies ciemojamies ciemojas ciemojaties ciemojies ciemojos ciemojoties ciemojāmies ciemojās ciemosies ciemosieties ciemosimies ciemotos ciemošanās ciemošos neciemoties
+23	5023	pieņemties	nepieņemas nepieņemos nepieņemoties nepieņemties nepieņemtos nepieņemšos pieņemamies pieņemas pieņemies pieņemieties pieņemos pieņemoties pieņemsies pieņemsieties pieņemtos pieņemšanās pieņemšos pieņēmies pieņēmos pieņēmusies pieņēmušies pieņēmušās pieņēmās
+24	5024	autotransports	autotransporta autotransportam autotransportu autotransportā
+25	5025	vagīna	vagīnai vagīnas vagīnu vagīnā
+26	5026	blīvums	blīvuma blīvumam blīvumu blīvumā
+27	5027	izbeigties	izbeidzas izbeidzies izbeidzoties izbeidzās izbeigsies izbeigtos izbeigšanās izbeigšoties neizbeidzas neizbeigsies neizbeigtos
+28	5028	ģeoloģija	ģeoloģijai ģeoloģijas ģeoloģiju ģeoloģijā
+29	5029	izpilddirektore	izpilddirektorei izpilddirektores izpilddirektori izpilddirektoru
+30	5030	diegs	diega diegam diegi diegiem diegos diegu diegus diegā
+31	5031	kust	kusa kusi kusis kustu kusu kusīs kušana kūst kūstot kūstošs kūstu nekust
+32	5032	uzkavēties	jāuzkavējas neuzkavējamies neuzkavējas neuzkavējies neuzkavējos neuzkavējoties neuzkavējāmies neuzkavējās neuzkavēsies neuzkavēsimies neuzkavēties neuzkavēšos uzkavējamies uzkavējas uzkavējies uzkavējos uzkavējušies uzkavējāmies uzkavējās uzkavēsies uzkavēsimies uzkavētos uzkavēšanās uzkavēšos
+33	5033	kolhozs	kolhoz kolhoza kolhozam kolhozi kolhoziem kolhozos kolhozu kolhozus kolhozā
+34	5034	vilināt	jāvilina nevilina nevilinot nevilināja nevilinās nevilinātu vilina vilinot vilinu vilināja vilinājis vilinājusi vilinājušas vilinājuši vilinām vilinās vilinātais vilinātas vilināti vilināts vilinātu vilināšanas vilināšanu
+35	5035	mīna	mīnai mīnas mīnu mīnā mīnām mīnās
+36	5036	opcija	opcijai opcijas opciju opcijā opcijām opcijās
+37	5037	kvants	kvanta kvantam kvanti kvantiem kvantu
+38	5038	atsūkāt	atsūkā atsūkājat atsūkāji atsūkājis atsūkājot atsūkāju atsūkājuši atsūkās atsūkāsi atsūkāšu
+39	5039	nokārtoties	nenokārtojas nenokārtojās nenokārtotos nokārtojamies nokārtojas nokārtojies nokārtojos nokārtojoties nokārtojās nokārtosies nokārtotos nokārtošanās
+40	5040	palags	palaga palagam palagi palagiem palagos palagu palagus palagā
+41	5041	aizdegties	aizdedzies aizdegamies aizdegas aizdegoties aizdegsies aizdegtos aizdegusies aizdegušies aizdegušās aizdegās aizdegšanās neaizdegas neaizdegsies neaizdegties neaizdegās
+42	5042	admirālis	admirāla admirāli admirālim admirālī admirāļa admirāļi admirāļiem admirāļu
+43	5043	improvizēt	improvizē improvizēja improvizējam improvizēji improvizējiet improvizējis improvizējot improvizēju improvizējām improvizēs improvizēsim improvizēta improvizētais improvizētas improvizēti improvizētie improvizēto improvizēts improvizētu improvizētā improvizēšana improvizēšanu improvizēšu jāimprovizē neimprovizē neimprovizējam
+44	5044	trīsstūris	trijstūra trijstūris trīsstūra trīsstūri trīsstūriem trīsstūrim trīsstūru trīsstūrus trīsstūrī
+45	5045	izcept	izcep izcepa izcepam izcepama izcepi izcepiet izcepis izcepot izceps izcepsi izcepsim izcepta izceptai izceptais izceptajiem izceptajos izceptas izcepti izceptie izceptiem izcepto izceptos izcepts izceptu izceptus izceptā izceptās izcepu izcepusi izcepušas izcepuši izcepām izcepāt izcepšanas jāizcep neizcepi neizcept neizcepts neizceptu
+46	5046	minoritāte	minoritātei minoritātes minoritāti minoritātēm minoritāšu
+47	5047	zebiekste	zebiekstei zebiekstes zebieksti zebiekšu
+48	5048	vakariņot	jāvakariņo nevakariņo nevakariņojam nevakariņos vakariņo vakariņoja vakariņojam vakariņojat vakariņojis vakariņojot vakariņoju vakariņojusi vakariņojuši vakariņojām vakariņos vakariņosi vakariņosiet vakariņosim vakariņosit vakariņotu vakariņošana vakariņošanas vakariņošanu vakariņošu
+49	5049	abpusēji	
+50	5050	apskāviens	apskāviena apskāvienam apskāvieni apskāvieniem apskāvienos apskāvienu apskāvienus apskāvienā
+51	5051	sačakarēt	jāsačakarē nesačakarē nesačakarējiet nesačakarēs nesačakarēsi nesačakarēsim nesačakarētu sačakarē sačakarēja sačakarējam sačakarēji sačakarējis sačakarējot sačakarēju sačakarēs sačakarēsi sačakarēsiet sačakarēts sačakarētu sačakarēšana sačakarēšu
+52	5052	radikāli	
+53	5053	stiprums	stipruma stiprumam stiprumiem stiprumos stiprumu stiprumus stiprumā
+54	5054	gremošana	gremošanai gremošanas gremošanu
+55	5055	improvizācija	improvizācijai improvizācijas improvizāciju improvizācijā improvizācijām improvizācijās
+56	5056	naivs	naiva naivai naivais naivajai naivajiem naivajā naivajām naivam naivas naivie naiviem naivo naivos naivu naivus naivā naivākajās naivākas naivāki naivākie naivāko naivāks naivāku naivākā naivām naivās visnaivākais visnaivākajiem visnaivākajā visnaivākajām
+57	5057	spuldze	spuldzei spuldzes spuldzi spuldzē spuldzēm spuldzēs spuldžu spule spuli
+58	5058	vāciski	
+59	5059	čehs	čeha čeham čehi čehiem čehiete čehietei čehietes čehieti čehiešu čehu čehus
+60	5060	sūna	sûna sūnas sūni sūnu sūnā sūnām sūnās
+61	5061	rūsa	rūsai rūsas rūsu rūsā
+62	5062	konceptuāls	konceptuāla konceptuālai konceptuālais konceptuālajai konceptuālajam konceptuālajiem konceptuālajos konceptuālajā konceptuālajām konceptuālam konceptuālas konceptuāli konceptuālie konceptuāliem konceptuālo konceptuālos konceptuālu konceptuālus konceptuālā konceptuālāk konceptuālākos konceptuālām konceptuālās viskonceptuālāko
+63	5063	narkotisks	narkotiska narkotiskajā narkotiskajām narkotiskas narkotiskie narkotisko narkotiskos narkotisku narkotiskus narkotiskā narkotiskām narkotiskās
+64	5064	noslēpties	jānoslēpjas nenoslēpsies nenoslēpties noslēpies noslēpieties noslēpjamies noslēpjas noslēpjos noslēpsies noslēptos noslēpusies noslēpušies noslēpušās noslēpās noslēpšos
+65	5065	skuja	skujai skujam skujas skujos skuju skujām skujās
+66	5066	plēsonis	plēsoņa plēsoņu
+67	5067	komunistisks	komunistiska komunistiskai komunistiskais komunistiskajai komunistiskajam komunistiskajiem komunistiskajā komunistiskajām komunistiskajās komunistiskas komunistiski komunistiskie komunistiskiem komunistisko komunistisku komunistiskā komunistiskās
+68	5068	gludi	
+69	5069	seksuāli	
+70	5070	gramatika	gramatikai gramatikas gramatiku gramatikā
+71	5071	izrauties	izraujamies izraujas izraujies izraujieties izraujos izraujoties izrausies izrausimies izrautos izraušanās izrāvies izrāvos izrāvāmies izrāvās jāizraujas neizraujas neizrausimies neizrautos
+72	5072	masts	masta mastam masti mastiem mastos mastu mastus mastā
+73	5073	aizspriedums	aizsprieduma aizspriedumam aizspriedumi aizspriedumiem aizspriedumos aizspriedumu aizspriedumus
+74	5074	samainīt	jāsamaina nesamaina nesamaini nesamainītos samaina samaini samainiet samainot samainu samainām samaināt samainīja samainīji samainījis samainīju samainījusi samainījušas samainījuši samainījušās samainījām samainīs samainīsiet samainīsim samainīta samainītas samainīti samainīto samainītos samainīts samainītu samainītās samainīšana samainīšanas samainīšanu samainīšu
+75	5075	apieties	apejaties apejieties apejos apejoties apgājusies apgājās apiesies apiesieties apietos apiešanās
+76	5076	varen	
+77	5077	subsīdija	subsīdijai subsīdijas subsīdiju subsīdijām subsīdijās
+78	5078	dzīvesbiedre	dzīvesbiedra dzīvesbiedram dzīvesbiedrei dzīvesbiedrene dzīvesbiedrenes dzīvesbiedreni dzīvesbiedres dzīvesbiedreņu dzīvesbiedri dzīvesbiedriem dzīvesbiedros dzīvesbiedrs dzīvesbiedru dzīvesbiedrus dzīvesbiedrā dzīvesbiedrēm
+79	5079	uzkopšana	uzkopšanai uzkopšanas uzkopšanu uzkopšanā
+80	5080	atpakalt	atpakal atpakaļu
+81	5081	genocīds	genocīda genocīdam genocīdiem genocīdu genocīdā
+82	5082	sabraukt	nesabrauc nesabrauca nesabraucis nesabraucot nesabrauktu sabrauc sabrauca sabraucam sabrauci sabrauciet sabraucis sabraucot sabraucu sabraucām sabraucāt sabrauks sabrauksi sabrauksim sabraukta sabrauktais sabrauktajam sabrauktam sabrauktas sabraukti sabrauktie sabraukto sabrauktos sabraukts sabrauktu sabrauktās sabraukušajiem sabraukušie sabraukušo sabraukušos sabraukšana sabraukšot
+83	5083	sargāties	jāsargājas jāsargās nesargājas sargas sargies sargieties sargādamies sargājas sargājoties sargājās
+84	5084	pamudināt	jāpamudina nepamudina nepamudinās nepamudinātu pamudina pamudini pamudiniet pamudinot pamudinādams pamudināja pamudināji pamudinājis pamudināju pamudinājusi pamudinājušas pamudinājuši pamudinājām pamudinām pamudināms pamudinās pamudināsiet pamudināsim pamudināta pamudinātas pamudināti pamudināts pamudinātu pamudināšanas pamudināšanu
+85	5085	manuskripts	manuskripta manuskripti manuskriptiem manuskriptos manuskriptu manuskriptus manuskriptā
+86	5086	torijs	torij torija toriji torijiem toriju
+87	5087	pārtikt	jāpārtiek nepārtiek nepārtiekam nepārtika nepārtiksi nepārtikšu pārticis pārtiec pārtiek pārtiekam pārtiekat pārtiekot pārtieku pārtiks pārtiksi pārtiksim pārtiktu pārtikšana pārtikšot pārtīku
+88	5088	atrisinājums	atrisinājuma atrisinājumam atrisinājumi atrisinājumiem atrisinājumu atrisinājumus
+89	5089	printeris	printera printeri printeriem printerim printeros printeru printerus printerī
+90	5090	mitināties	mitinas mitinies mitinos mitinoties mitinājies mitinājos mitinājusies mitinājušies mitinājušās mitinājāmies mitinājās mitināmies mitinās mitināsies mitinātos mitināšanās nemitinās
+91	5091	bēniņi	bēniņiem bēniņos bēniņu bēniņus
+92	5092	atvere	atverei atveres atveri atveru atverē atverēm atverēs
+93	5093	armēnis	armēnim armēņa armēņi armēņiem armēņu
+94	5094	kopēt	jākopē kopē kopējiet kopējis kopējot kopējuši kopēs kopēsi kopēsiet kopēta kopētas kopēti kopēto kopēts kopētu kopētā kopēšana kopēšanas kopēšanu kopēšanā kopēšu nekopē nekopēja nekopējam nekopējiet nekopējot nekopēju nekopēsiet nekopētu nekopēšu
+95	5095	simfonija	simfonijai simfonijas simfoniju simfonijā simfonijām simfonijās
+96	5096	spirts	spirt spirta spirtam spirti spirtu spirtus spirtā
+97	5097	apspriede	apspriedei apspriedes apspriedi apspriedē apspriedēm apspriedēs apspriežu
+98	5098	čemodāns	čemodāna čemodānam čemodāni čemodāniem čemodānos čemodānu čemodānus čemodānā
+99	5099	piesieties	jāpiesienas nepiesienas nepiesienies nepiesienos nepiesiesies nepiesieties nepiesietos nepiesiešos nepiesējās piesienas piesienaties piesienies piesienieties piesienos piesienoties piesiesies piesietos piesiešanās piesiešos piesējas piesējies piesējos piesējās piesējāties
+100	5100	saķert	jāsaķer nesaķer nesaķerat nesaķers nesaķersi nesaķertu nesaķēru saķer saķeram saķeriet saķerot saķers saķersi saķerts saķertu saķeru saķeršu saķēra saķēri saķēris saķēru

@@ -1,100 +1,100 @@
-1	4801	kapakmens	kapakmeni kapakmenim kapakmeņi kapakmeņiem kapakmeņu kapakmeņus
-2	4802	demokrātiski	
-3	4803	miegains	miegaina miegainai miegainais miegainajā miegainam miegainas miegaini miegainie miegainiem miegainos miegainu miegainā miegaināks miegainām miegainās vismiegainākais
-4	4804	mazturīgs	mazturīga mazturīgai mazturīgais mazturīgajai mazturīgajiem mazturīgajos mazturīgajām mazturīgajās mazturīgam mazturīgas mazturīgie mazturīgiem mazturīgo mazturīgos mazturīgu mazturīgus mazturīgā mazturīgāks mazturīgām mazturīgās
-5	4805	sarkanvīns	sarkanvīna sarkanvīnam sarkanvīni sarkanvīniem sarkanvīnos sarkanvīnu sarkanvīnus sarkanvīnā
-6	4806	anarhija	anarhijai anarhijas anarhiju anarhijā
-7	4807	ugunsmūris	ugunsmūra ugunsmūri ugunsmūriem ugunsmūrim ugunsmūru ugunsmūrus ugunsmūrī
-8	4808	stomatoloģija	stomatoloģijai stomatoloģijas stomatoloģiju stomatoloģijā
-9	4809	rāpot	
-10	4810	neons	neon neona neonu neonā
-11	4811	masturbācija	masturbācijai masturbācijas masturbāciju masturbācijā
-12	4812	kivi	
-13	4813	žāvētājs	žāvētāja žāvētājam žāvētāji žāvētājiem žāvētājos žāvētāju žāvētājus žāvētājā
-14	4814	asns	asna asnam asni asniem asnos asnu asnus asnā
-15	4815	oāze	oāzes oāzi oāzē oāzēm oāzēs oāžu
-16	4816	mazgātājs	mazgātāja mazgātājai mazgātājam mazgātājas mazgātāji mazgātājiem mazgātāju mazgātājus mazgātājā mazgātājām
-17	4817	violeti	
-18	4818	strēmele	strēmelei strēmeles strēmeli strēmelē strēmelēm strēmelēs strēmeļu
-19	4819	spora	sporas sporu sporām sporās
-20	4820	atstāstīt	atstāsta atstāsti atstāstot atstāstu atstāstām atstāstīja atstāstījis atstāstīju atstāstīs atstāstīsi atstāstīsim atstāstīts atstāstītu atstāstīšana atstāstīšanu atstāstīšu jāatstāsta
-21	4821	emirāts	emirāta emirātam emirāti emirātiem emirātos emirātu emirātus emirātā
-22	4822	šizofrēnija	šizofrēnijai šizofrēnijas šizofrēniju
-23	4823	pretgaisa	
-24	4824	biedēklis	biedēkli biedēklim biedēkļi biedēkļiem
-25	4825	baudītājs	baudītāja baudītājam baudītāji baudītājiem baudītāju baudītājus
-26	4826	paradoksāli	
-27	4827	zutis	zuti zutī zuša zuši zušiem zušu zušus
-28	4828	kājnieki	
-29	4829	metenis	metei meteni metenim meteņa meteņi meteņiem meteņos meteņu meteņus
-30	4830	vīrišķība	vīrišķībai vīrišķības vīrišķību vīrišķībā
-31	4831	ubagot	jāubago ubago ubagoja ubagojam ubagojis ubagojot ubagoju ubagojām ubagos ubagotu ubagošana ubagošanai ubagošanas ubagošanu ubagošanā
-32	4832	slidošana	slidošanai slidošanas slidošanu slidošanā
-33	4833	pusdiena	pusdienai pusdienam pusdienu pusdienā pusdienām pusdienās
-34	4834	plakstiņš	plakstiņa plakstiņi plakstiņiem plakstiņu plakstiņus
-35	4835	netīrība	netīrības netīrību netīrībā
-36	4836	kustonis	kustoni kustonim kustoņa kustoņi kustoņiem kustoņos kustoņu kustoņus
-37	4837	starppilsētu	
-38	4838	er	
-39	4839	kārot	kāro kāroja kārojams kārojat kārojiet kārojis kārojot kāroju kāros kārots kārotu
-40	4840	piecnieks	piecnieka piecniekam piecnieki piecniekiem piecnieku piecniekus piecniekā
-41	4841	velnišķīgs	velnišķīga velnišķīgas velnišķīgos velnišķīgu velnišķīgā velnišķīgāks velnišķīgām velnišķīgās
-42	4842	demonstrācija	
-43	4843	cietviela	cietvielas cietvielu cietvielās
-44	4844	bērnistaba	bērnistabai bērnistabas bērnistabu bērnistabā bērnistabām bērnistabās
-45	4845	naksnīgs	naksnīga naksnīgais naksnīgajai naksnīgajam naksnīgajiem naksnīgajā naksnīgajām naksnīgajās naksnīgas naksnīgiem naksnīgo naksnīgos naksnīgu naksnīgā naksnīgām naksnīgās
-46	4846	velnišķīgi	
-47	4847	ģeologs	ģeologa ģeologam ģeologi ģeologiem ģeologu ģeologus ģeoloģe
-48	4848	dzelt	dzel dzels dzelsi dzeļ dzēla
-49	4849	homoseksuāls	anālas homoseksuāla homoseksuālais homoseksuālajam homoseksuālajiem homoseksuālajām homoseksuālajās homoseksuālam homoseksuālas homoseksuālie homoseksuāliem homoseksuālo homoseksuālu homoseksuālus homoseksuālā homoseksuālām homoseksuālās
-50	4850	sinonīmi	
-51	4851	bise	
-52	4852	rūda	rūdai rūdas rūdi rūdu rūdām rūdās
-53	4853	algebra	algebras algebru algebrā
-54	4854	cilvēcīgi	
-55	4855	gaumīgi	
-56	4856	baronese	baronesei baroneses baronesi baronešu
-57	4857	cīpsla	cīpslai cīpslas cīpslu cīpslā cīpslām
-58	4858	vīģe	vīģes vīģu vīģēm
-59	4859	baltums	baltum baltuma baltumam baltumi baltumiem baltumos baltumu baltumus baltumā
-60	4860	amizanti	
-61	4861	tirāns	tirān tirāna tirānam tirāni tirāniem tirānu tirānus tirānā
-62	4862	lokans	lokana lokanajai lokanajiem lokanajām lokanas lokani lokano lokanu lokanā lokanās
-63	4863	fizioloģisks	fizioloģiska fizioloģiskais fizioloģiskajam fizioloģiskajiem fizioloģiskajos fizioloģiskajā fizioloģiskajām fizioloģiskam fizioloģiskas fizioloģiskie fizioloģisko fizioloģiskos fizioloģisku fizioloģiskus fizioloģiskā fizioloģiskām fizioloģiskās
-64	4864	smilšakmens	smilšakmeni smilšakmenī smilšakmeņi smilšakmeņos smilšakmeņu
-65	4865	kentaurs	kentaur kentaura kentauri kentauriem kentauru kentaurus
-66	4866	mērķtiecība	mērķtiecībai mērķtiecības mērķtiecību mērķtiecībā
-67	4867	jena	jenas jenu jenām
-68	4868	itāliski	
-69	4869	leģions	
-70	4870	paukošana	paukošanai paukošanas paukošanu paukošanā paukošanās
-71	4871	dārgmetāls	dārgmetāla dārgmetālam dārgmetāli dārgmetāliem dārgmetālos dārgmetālu dārgmetālus dārgmetālā
-72	4872	slovāks	slovāka slovākam slovāki slovākiem slovākiete slovākietēm slovākos slovāku
-73	4873	sinonīms	sinonīma sinonīmiem sinonīmu sinonīmus
-74	4874	ercens	ercena erceni ercenu
-75	4875	upene	upee upenes upeni upenēm upenēs upeņu
-76	4876	arlabvakar	
-77	4877	mjau	
-78	4878	dārzkopis	dārzkope dārzkopes dārzkopi dārzkopim dārzkopja dārzkopji dārzkopjiem dārzkopju dārzkopjus
-79	4879	veikalnieks	veikalniece veikalniecei veikalnieces veikalniecē veikalnieka veikalniekam veikalnieki veikalniekiem veikalnieku veikalniekus veikalniekā
-80	4880	ķauķis	ķauķi ķauķu
-81	4881	ventilis	ventili ventiļa ventiļi ventiļiem ventiļu ventiļus
-82	4882	piektdaļa	piektdaļai piektdaļas piektdaļu piektdaļā piektdaļām
-83	4883	fašisms	fašisma fašismam fašismiem fašismu fašismā
-84	4884	iekša	iekšam iekšu
-85	4885	cūciņa	cūciņai cūciņas cūciņu cūciņā cūciņām
-86	4886	albāniete	albāni albāņi albāņiem albāņu albāņus
-87	4887	kuilis	kuili kuilim kuiļa kuiļi kuiļiem kuiļu kuiļus
-88	4888	bārdains	bārdaina bārdainais bārdainajiem bārdainajos bārdainajā bārdainas bārdaini bārdainie bārdainiem bārdaino bārdainos bārdainu bārdainā bārdaināks
-89	4889	sniegavīrs	sniegavīra sniegavīram sniegavīri sniegavīriem sniegavīros sniegavīru sniegavīrus
-90	4890	kaļķakmens	kaļķakmeni kaļķakmenim
-91	4891	centīgi	
-92	4892	baltiņš	baltiņ baltiņa baltiņam baltiņi baltiņiem baltiņu
-93	4893	azote	azotei azotes azoti azotē
-94	4894	pārkrāsot	jāpārkrāso pārkrāso pārkrāsoja pārkrāsojam pārkrāsojams pārkrāsoji pārkrāsojis pārkrāsojot pārkrāsoju pārkrāsos pārkrāsots pārkrāsotu pārkrāsošana pārkrāsošu
-95	4895	leopards	leopard leoparda leopardam leopardi leopardiem leopardu leopardus leopardā
-96	4896	jaguārs	jaguāra jaguāram jaguāru jaguārā
-97	4897	abatija	abatijas abatiju abatijā
-98	4898	topogrāfisks	topogrāfiskais topogrāfiskajai topogrāfiskajiem topogrāfiskajos topogrāfiskajā topogrāfiskajām topogrāfiskajās topogrāfiskie topogrāfisko topogrāfiskos topogrāfiskā topogrāfiskām topogrāfiskās
-99	4899	zosāda	zosādai zosādas zosādu
-100	4900	nātre	nātres nātru nātrēm nātrēs
+1	4801	tulks	tulk tulka tulkam tulki tulkiem tulkos tulku tulkus
+2	4802	kārdinājums	kārdinājum kārdinājuma kārdinājumam kārdinājumi kārdinājumiem kārdinājumos kārdinājumu kārdinājumus kārdinājumā
+3	4803	pasveicināt	jāpasveicina nepasveicina nepasveicināji nepasveicināju nepasveicinās pasveicina pasveicini pasveiciniet pasveicinot pasveicinu pasveicināja pasveicinājis pasveicināju pasveicināsim pasveicinātu pasveicināšu
+4	4804	pieturēt	jāpietur nepietur nepieturam nepieturot nepieturēji nepieturējāt nepieturēs nepieturēt nepieturētos nepieturēts pietur pieturam pieturi pieturiet pieturot pieturēja pieturējis pieturēju pieturējusi pieturējuši pieturējušās pieturējām pieturējāt pieturēs pieturēsi pieturēsiet pieturēsim pieturēta pieturētas pieturētos pieturēts pieturētu pieturēšu
+5	4805	titāns	titāna titānam titāni titāniem titānu titānus
+6	4806	jērs	jēra jēram jēri jēriem jēru jērus
+7	4807	dāsni	
+8	4808	paklausīt	jāpaklausa nepaklausa nepaklausi nepaklausiet nepaklausot nepaklausu nepaklausīja nepaklausīji nepaklausījis nepaklausīju nepaklausījāt nepaklausīs nepaklausīt nepaklausīšu paklausa paklausi paklausiet paklausot paklausu paklausām paklausīja paklausījis paklausīju paklausījām paklausīs paklausīsi paklausīsim paklausīts paklausītu paklausīšu
+9	4809	kļava	kļavai kļavas kļavu kļavā kļavām kļavās
+10	4810	skrūve	skrūvei skrūves skrūvi skrūvju skrūvē skrūvēm skrūvēs
+11	4811	interpretēt	interpretē interpretēja interpretējam interpretējams interpretējat interpretējis interpretējot interpretēju interpretējusi interpretējušas interpretējuši interpretēs interpretēta interpretētais interpretētas interpretēti interpretēto interpretēts interpretētu interpretētā interpretēšana interpretēšanas interpretēšanu interpretēšanā jāinterpretē neinterpretē neinterpretējām
+12	4812	migrants	migranta migrantam migranti migrantiem migrantu migrantus
+13	4813	krāsot	jākrāso krāso krāsoja krāsojam krāsojams krāsojat krāsoji krāsojiet krāsojis krāsojot krāsoju krāsojām krāsos krāsosi krāsosiet krāsosim krāsots krāsotu krāsošana krāsošu nekrāsot
+14	4814	saulgrieži	saulgriežiem saulgriežos saulgriežu saulgriežus
+15	4815	rotācija	rotācijai rotācijas rotāciju rotācijā rotācijām rotācijās
+16	4816	kristies	krities kritos kritīsies kritīsieties kritīšoties krišanās krītoties nekristies nekristos nekritīsies nekrīties
+17	4817	slāpeklis	slāpekli slāpeklī slāpekļa
+18	4818	bailīgs	bailīga bailīgai bailīgais bailīgajai bailīgajam bailīgajiem bailīgajām bailīgam bailīgas bailīgi bailīgie bailīgiem bailīgo bailīgos bailīgu bailīgus bailīgā bailīgāk bailīgāka bailīgākais bailīgākas bailīgāki bailīgākie bailīgāko bailīgākos bailīgāks bailīgāku bailīgām visbailīgāk visbailīgākais visbailīgākajām
+19	4819	stirna	stirnai stirnas stirnu stirnām
+20	4820	tautasdziesma	tautasdziesmai tautasdziesmas tautasdziesmu tautasdziesmā tautasdziesmām tautasdziesmās
+21	4821	aptuvens	aptuvena aptuvenais aptuvenajam aptuvenajiem aptuvenajām aptuvenam aptuvenas aptuvenie aptuveniem aptuveno aptuvenos aptuvenu aptuvenus aptuvenā aptuvenākas aptuvenām aptuvenās
+22	4822	asinsspiediens	asinsspiediena asinsspiedienam asinsspiedienu asinsspiedienā
+23	4823	izruna	izrunai izrunas izrunu izrunā izrunās
+24	4824	māsīca	māsīcai māsīcas māsīcu māsīcām
+25	4825	tirgonis	tirgona tirgone tirgonei tirgones tirgoni tirgoniem tirgonim tirgoņa tirgoņi tirgoņiem tirgoņu tirgoņus
+26	4826	tipiski	
+27	4827	aktualizēt	aktualizē aktualizēja aktualizējam aktualizējams aktualizējat aktualizējis aktualizējot aktualizēju aktualizējām aktualizēs aktualizēsim aktualizēts aktualizētu aktualizēšana aktualizēšu jāaktualizē neaktualizēt
+28	4828	bankrotēt	bankrotē bankrotēja bankrotējiet bankrotējis bankrotējot bankrotējusi bankrotējušas bankrotējuši bankrotējušo bankrotēs bankrotēsi bankrotēsim bankrotētu bankrotēšana bankrotēšanas jābankrotē nebankrotē nebankrotējot nebankrotēs nebankrotētu
+29	4829	izcilība	izcilībai izcilības izcilību izcilībā izcilībām
+30	4830	satīrīt	jāsatīra nesatīra nesatīrīs nesatīrīta satīra satīrai satīras satīri satīriet satīrot satīru satīrām satīrāms satīrīja satīrīji satīrīju satīrījām satīrīs satīrīsi satīrīsim satīrīta satīrītas satīrīto satīrīts satīrītu satīrīšu
+31	4831	ekoloģisks	ekoloģiska ekoloģiskai ekoloģiskais ekoloģiskajai ekoloģiskajam ekoloģiskajiem ekoloģiskajos ekoloģiskajā ekoloģiskajām ekoloģiskajās ekoloģiskam ekoloģiskas ekoloģiskie ekoloģiskiem ekoloģisko ekoloģiskos ekoloģisku ekoloģiskus ekoloģiskā ekoloģiskāk ekoloģiskāka ekoloģiskākais ekoloģiskākas ekoloģiskāki ekoloģiskāks ekoloģiskāku ekoloģiskām ekoloģiskās visekoloģiskāk visekoloģiskākais visekoloģiskākos visekoloģiskākā
+32	4832	adīt	ada adi adiet adot adošais adu adît adām adīja adīju adījusi adījušas adījuši adījām adīs adīsim adīta adītai adītajiem adītas adīti adītie adītiem adīto adītos adīts adītu adītus adītā adītām adītās adīšana adīšanai adīšanas adīšanu adīšanā jāada neada neadīja
+33	4833	piedzīt	jāpiedzen nepiedzen nepiedzenamais nepiedzenamajiem nepiedzenamie nepiedzenamiem nepiedzenamo nepiedzina nepiedzīsi piedzen piedzenam piedzenama piedzenamais piedzenami piedzenamie piedzenamiem piedzenamo piedzenams piedzenamās piedzenat piedzeniet piedzenot piedzina piedzinis piedzinusi piedzīs piedzīsim piedzīta piedzītas piedzīti piedzīto piedzītos piedzīts piedzītu piedzītā piedzītām piedzītās piedzīšana piedzīšu
+34	4834	izlēkt	izlec izlecat izlecot izlecošs izlecu izlēca izlēci izlēcis izlēcu izlēcām izlēcāt izlēks izlēksi izlēksiet izlēksim izlēktu izlēkšana jāizlec neizlec neizlēkt
+35	4835	organizētājs	organizētāja organizētājam organizētāji organizētājiem organizētāju organizētājus organizētājā
+36	4836	viesistaba	viesistabai viesistabas viesistabu viesistabā viesistabām viesistabās
+37	4837	pestīšana	pestīšanai pestīšanas pestīšanu pestīšanā
+38	4838	draudziņš	draudziņa draudziņam draudziņi draudziņiem draudziņu draudziņus
+39	4839	cilindrs	cilindra cilindram cilindri cilindriem cilindros cilindru cilindrus cilindrā
+40	4840	vājība	vājībai vājībam vājības vājību vājībā vājībām vājībās
+41	4841	aviobiļete	aviobiļetei aviobiļetes aviobiļeti aviobiļetē aviobiļetēm aviobiļetēs aviobiļešu
+42	4842	līdaka	līdakai līdakas līdaku līdakām līdakās
+43	4843	greizsirdība	greizsirdībai greizsirdības greizsirdību greizsirdībā
+44	4844	ložmetējs	ložmetēja ložmetēji ložmetējiem ložmetēju ložmetējus
+45	4845	ungārs	ungāri ungāriem ungāriete ungārietes ungāru ungārus
+46	4846	bankomāts	bankomāta bankomātam bankomāti bankomātiem bankomātos bankomātu bankomātus bankomātā
+47	4847	noskriet	jānoskrien nenoskrien nenoskriesiet nenoskriet nenoskrietu nenoskriešu noskrien noskrienam noskrienot noskrienu noskries noskriesi noskriesiet noskriesim noskriets noskrietu noskriešana noskriešu noskrēja noskrēji noskrējis noskrēju noskrējām
+48	4848	apburt	apbur apburam apburiet apburot apburs apbursi apbursiet apburts apburtu apburšu apbūra apbūris apbūru apbūrām apbūrāt jāapbur neapbur neapburt neapburtu
+49	4849	mājīgs	mājīga mājīgai mājīgais mājīgajiem mājīgajos mājīgajā mājīgajām mājīgajās mājīgas mājīgi mājīgiem mājīgo mājīgos mājīgu mājīgus mājīgā mājīgāk mājīgāka mājīgākajiem mājīgākajām mājīgākas mājīgāki mājīgākiem mājīgākos mājīgāks mājīgāku mājīgākus mājīgākās mājīgām mājīgās vismājīgāk vismājīgākajām vismājīgāko
+50	4850	pieturēties	jāpieturas nepieturas nepieturaties nepieturos nepieturoties nepieturējos nepieturējās nepieturēsies nepieturēties nepieturētos pieturamies pieturaties pieturies pieturieties pieturos pieturoties pieturēdamies pieturējies pieturējos pieturējusies pieturējušies pieturējušās pieturējāmies pieturējās pieturēsies pieturēsimies pieturētos pieturēšanās pieturēšos
+51	4851	celms	celm celma celmam celmi celmiem celmos celmu celmus celmā
+52	4852	uzpildīt	jāuzpilda neuzpildiet neuzpildīju uzpilda uzpildi uzpildiet uzpildot uzpildām uzpildāms uzpildīja uzpildīji uzpildījis uzpildīju uzpildījuši uzpildījām uzpildīs uzpildīsim uzpildīta uzpildītais uzpildītas uzpildīti uzpildītiem uzpildīto uzpildītos uzpildīts uzpildītu uzpildītā uzpildītās uzpildīšana uzpildīšanas uzpildīšanu uzpildīšu
+53	4853	attapties	attapas attapies attapos attapsies attapsieties attapsimies attaptos attapusies attapušies attapāmies attapās attapšos attopamies attopas attopaties attopies attopieties attopos attopoties jāattopas neattapsies neattaptos neattapāmies neattopamies
+54	4854	airēt	airē airēja airējam airējat airēji airējis airējot airēju airējuši airējām airēs airēsim airētu airēšana airēšanai airēšanas airēšanu airēšanā airēšanās airēšu jāairē neairēsiet
+55	4855	taktisks	ais taktiska taktiskais taktiskajai taktiskajiem taktiskajā taktiskajām taktiskajās taktiskas taktiski taktiskie taktiskiem taktisko taktiskos taktisku taktiskus taktiskā taktiskākie taktiskām taktiskās āks
+56	4856	eksperimentēt	eksperimentē eksperimentēja eksperimentējam eksperimentējat eksperimentējiet eksperimentējis eksperimentējot eksperimentējošs eksperimentēju eksperimentējām eksperimentēs eksperimentēsiet eksperimentēsim eksperimentēts eksperimentētu eksperimentēšana eksperimentēšu jāeksperimentē neeksperimentēt
+57	4857	godalga	godalgai godalgas godalgu godalgām
+58	4858	delna	delnai delnas delnu delnā delnām delnās
+59	4859	cūkgaļa	cūkgaļai cūkgaļas cūkgaļu cūkgaļā
+60	4860	iestāstīt	iestāsta iestāsti iestāstiet iestāstot iestāstām iestāstāt iestāstīja iestāstīji iestāstījis iestāstīju iestāstījusi iestāstījuši iestāstīs iestāstīsi iestāstītam iestāstītas iestāstītie iestāstīts iestāstītu iestāstīšana iestāstīšu jāiestāsta neiestāstīs neiestāstīsi neiestāstīsim neiestāstītu
+61	4861	burka	burkai burkas burku burkā burkām burkās
+62	4862	eksperimentāls	eksperimentāla eksperimentālai eksperimentālais eksperimentālajai eksperimentālajam eksperimentālajiem eksperimentālajā eksperimentālajām eksperimentālajās eksperimentālam eksperimentālas eksperimentālie eksperimentāliem eksperimentālo eksperimentālos eksperimentālu eksperimentālus eksperimentālā eksperimentālāki eksperimentālāks eksperimentālām eksperimentālās
+63	4863	vulkāns	vulkāna vulkānam vulkāni vulkāniem vulkānos vulkānu vulkānus vulkānā
+64	4864	dobums	dobuma dobumam dobumi dobumiem dobumos dobumu dobumus dobumā
+65	4865	biznesmenis	biznesmeni biznesmenim biznesmeņa biznesmeņi biznesmeņiem biznesmeņos biznesmeņu biznesmeņus
+66	4866	šķīdums	šķīduma šķīdumam šķīdumi šķīdumiem šķīdumos šķīdumu šķīdumus šķīdumā
+67	4867	lāpa	lāpai lāpam lāpas lāpu lāpā lāpām lāpās
+68	4868	vienlīdz	
+69	4869	uzsist	jāuzsit neuzsit neuzsita uzsista uzsistajām uzsisti uzsistiem uzsists uzsistu uzsistās uzsit uzsita uzsitam uzsitat uzsiti uzsitiet uzsitis uzsitot uzsitu uzsitusi uzsitušas uzsituši uzsitām uzsitīs uzsitīsim uzsitīšu uzsizdams uzsišana
+70	4870	procesors	procesora procesoram procesori procesoriem procesoru procesorus procesorā
+71	4871	līksms	līksma līksmai līksmajai līksmajam līksmajām līksmam līksmas līksmi līksmie līksmiem līksmo līksmos līksmu līksmus līksmā līksmāk līksmākam līksmākas līksmāko līksmāks līksmākās līksmām līksmās
+72	4872	indietis	indiete indietei indietes indieti indietim indieša indieši indiešiem indiešu indiešus
+73	4873	neitralizēt	jāneitralizē neitralizē neitralizēja neitralizējiet neitralizējis neitralizējot neitralizējošas neitralizējoši neitralizējošiem neitralizējošos neitralizējošs neitralizējuši neitralizēs neitralizēsiet neitralizēsim neitralizēta neitralizētas neitralizēti neitralizēts neitralizētu neitralizētā neitralizētās neitralizēšana neitralizēšanai neitralizēšanas neitralizēšanu neitralizēšanā neneitralizētu
+74	4874	eksotisks	eksotiska eksotiskais eksotiskajiem eksotiskajā eksotiskajām eksotiskajās eksotiskam eksotiskas eksotiski eksotiskie eksotiskiem eksotisko eksotiskos eksotisku eksotiskus eksotiskā eksotiskāk eksotiskāka eksotiskākais eksotiskākajām eksotiskākas eksotiskāki eksotiskākie eksotiskākiem eksotiskāko eksotiskāks eksotiskāku eksotiskākus eksotiskākā eksotiskākām eksotiskākās eksotiskām eksotiskās viseksotiskākajām viseksotiskākie viseksotiskāko viseksotiskākā
+75	4875	ratiņkrēsls	ratiņkrēsla ratiņkrēslam ratiņkrēsli ratiņkrēsliem ratiņkrēslos ratiņkrēslu ratiņkrēslus ratiņkrēslā
+76	4876	plēve	plēvei plēves plēvi plēvju plēvē plēvēm plēvēs
+77	4877	apdzīt	apdzen apdzenam apdzenamais apdzenamajai apdzenamajam apdzenamajiem apdzenamajām apdzenamo apdzenamā apdzenamās apdzenat apdzenot apdzenošais apdzenošam apdzenošos apdzenu apdzina apdzinis apdzinu apdzinusi apdzinušas apdzinuši apdzinām apdzīs apdzīsi apdzīsim apdzīta apdzītais apdzīti apdzīts apdzītu apdzīšana apdzīšu jāapdzen neapdzen neapdzeniet neapdzina neapdzinu neapdzīs
+78	4878	likumdevējs	likumdevēja likumdevējam likumdevēji likumdevējiem likumdevēju likumdevējus likumdevējā
+79	4879	kūts	kūs kūti kūtij kūtis kūtī kūtīm kūtīs kūšu
+80	4880	vīnoga	vīnogai vīnogas vīnogu vīnogā vīnogām vīnogās
+81	4881	mantot	jāmanto manto mantoja mantojam mantojams mantoji mantojis mantojot mantoju mantojām mantos mantosi mantosim mantots mantotu mantošana
+82	4882	šņabis	šņabi šņabim šņabja šņabji šņabjiem šņabī
+83	4883	sloka	slokai slokam slokas sloku slokā slokām
+84	4884	farmaceits	farmaceita farmaceitam farmaceiti farmaceitiem farmaceitos farmaceitu farmaceitus
+85	4885	šāviņš	šāviņa šāviņam šāviņi šāviņiem šāviņos šāviņu šāviņus
+86	4886	spriegums	sprieguma spriegumam spriegumi spriegumiem spriegumu spriegumā
+87	4887	pārsūdzēt	nepārsūdzēja nepārsūdzēs nepārsūdzētu nepārsūdzēšanu pārsūdzēja pārsūdzējis pārsūdzēju pārsūdzējusi pārsūdzējušas pārsūdzējuši pārsūdzējām pārsūdzēs pārsūdzēsim pārsūdzēta pārsūdzētais pārsūdzētas pārsūdzēti pārsūdzēto pārsūdzēts pārsūdzētu pārsūdzētā pārsūdzēšana pārsūdzēšanas pārsūdzēšanu pārsūdzēšu
+88	4888	pretstats	pretstata pretstatam pretstati pretstatiem pretstatu pretstatus pretstatā
+89	4889	cietsirdīgs	cietsirdīga cietsirdīgais cietsirdīgajiem cietsirdīgajā cietsirdīgam cietsirdīgas cietsirdīgi cietsirdīgie cietsirdīgiem cietsirdīgo cietsirdīgos cietsirdīgu cietsirdīgus cietsirdīgā cietsirdīgāki cietsirdīgāko cietsirdīgām cietsirdīgās
+90	4890	padejot	jāpadejo nepadejoju nepadejosi padejo padejojam padejojot padejoju padejojām padejos padejosi padejosiet padejosim padejots padejotu padejošu
+91	4891	grāmatnīca	grāmatnīcai grāmatnīcas grāmatnīcu grāmatnīcā grāmatnīcām grāmatnīcās
+92	4892	prombūtne	prombūtnei prombūtnes prombūtni prombūtnē prombūtņu
+93	4893	kurls	kurla kurlais kurlajam kurlam kurlas kurli kurlie kurliem kurlo kurlos kurlu kurlus kurlā kurlāka kurlām viskurlākie
+94	4894	dzemde	dzemdei dzemdes dzemdi dzemdē dzemdēm dzemdēs
+95	4895	pilskalns	pilskaln pilskalna pilskalnam pilskalni pilskalniem pilskalnos pilskalnu pilskalnus pilskalnā
+96	4896	tēvzeme	tēvzemei tēvzemes tēvzemi tēvzemē
+97	4897	meklējumi	
+98	4898	gurns	gurna gurnam gurni gurniem gurnos gurnu gurnus gurnā
+99	4899	pagrīde	pagrīdes pagrīdē
+100	4900	līdzko	

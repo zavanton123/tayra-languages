@@ -1,100 +1,100 @@
-1	2701	mērīt	jāmēra mēra mēri mēriet mērot mēru mērām mērāms mērīdams mērīja mērīji mērījis mērīju mērījām mērīs mērīsim mērīts mērītu mērīšana mērīšanai mērīšanas mērīšanos mērīšanu mērīšanā
-2	2702	strīds	strīdu
-3	2703	negaiss	negais negaisa negaisam negaisi negaisiem negaisos negaisu negaisus negaisā
-4	2704	mitrums	mitruma mitrumam mitrumos mitrumu mitrumā
-5	2705	saistīties	saistās
-6	2706	izdot	izdeva
-7	2707	kārt	jākar kar karam karams kariet karu kāra kārais kārajai kārajam kārajiem kārajām kārajās kāram kāras kāri kārie kāriem kāris kāro kāros kārs kārsim kārtu kāru kārus kārā kārām kārās kāršana kāršu nekārt
-8	2708	tirdziņš	tirdziņa tirdziņam tirdziņi tirdziņiem tirdziņos tirdziņu tirdziņus tirdziņā
-9	2709	mikrofons	mikrofona mikrofonam mikrofoni mikrofoniem mikrofonu mikrofonus mikrofonā
-10	2710	apvidus	apvidi apvidiem apvidos apvidu apvidum apvidā apvidū
-11	2711	kubs	kub kuba kubam kubi kubiem kubos kubu kubus kubā
-12	2712	secība	secībai secības secību secībā secībām secībās
-13	2713	bokss	boks boksa boksam boksi boksiem boksos boksu boksus boksā
-14	2714	salons	salonā
-15	2715	zilonis	ziloni zilonim zilonī ziloņa ziloņi ziloņiem ziloņu ziloņus
-16	2716	apstiprinājums	apstiprinājuma apstiprinājumam apstiprinājumi apstiprinājumiem apstiprinājumu apstiprinājumus apstiprinājumā
-17	2717	vingrošana	vingrošanai vingrošanas vingrošanu vingrošanā
-18	2718	dzirnavas	dzirnava dzirnavu dzirnavām dzirnavās
-19	2719	spilgts	spilgta spilgtai spilgtais spilgtajai spilgtajiem spilgtajos spilgtajā spilgtajām spilgtajās spilgtam spilgtas spilgtie spilgtiem spilgto spilgtos spilgtu spilgtus spilgtā spilgtāks spilgtām spilgtās visspilgtākais
-20	2720	šāvējs	šāvēja šāvējam šāvēji šāvējiem šāvēju šāvējus
-21	2721	ķieģelis	ķieģeli ķieģelim ķieģelī ķieģeļa ķieģeļi ķieģeļiem ķieģeļos ķieģeļu ķieģeļus
-22	2722	fotografēt	fotografē fotografēdams fotografēja fotografējam fotografējat fotografēji fotografējiet fotografējis fotografējot fotografēju fotografējām fotografējāt fotografēs fotografēsiet fotografēsim fotografēts fotografētu fotografēšana fotografēšanai fotografēšanas fotografēšanos fotografēšanu fotografēšanā fotografēšu jāfotografē nefotografēt
-23	2723	interesents	interesenti
-24	2724	vokāls	vokāla vokālai vokālais vokālajai vokālajam vokālajiem vokālajos vokālajā vokālajām vokālajās vokālam vokālie vokāliem vokālo vokālos vokālu vokālus vokālā vokālām vokālās
-25	2725	neglīts	neglīta neglītai neglītais neglītajiem neglītajā neglītajām neglītas neglīti neglītie neglītiem neglīto neglītos neglītu neglītus neglītā neglītāks neglītām neglītās
-26	2726	ziemelis	ziemeli ziemelim ziemeļa ziemeļiem ziemeļos ziemeļu ziemeļus
-27	2727	paradums	paraduma paradumam paradumi paradumiem paradumos paradumu paradumus
-28	2728	emocionāli	
-29	2729	riet	jārej neriet rej rejam rejat rejiet rejot rejošs reju riedams ries rietu riešana rēja rēji
-30	2730	dalībvalsts	dalībvalstis
-31	2731	varde	vardei vardes vardi vardēm vardēs vare variem varžu
-32	2732	apsvērt	apsver
-33	2733	ūsa	ūsas ūsi ūsu ūsā ūsām ūsās
-34	2734	līdzēt	jālīdz līdzam līdzams līdzot līdzu līdzēja līdzēji līdzējis līdzēju līdzējām līdzēs līdzēsim līdzēts līdzētu līdzēšot līdzēšu
-35	2735	latvisks	latviska latviskai latviskais latviskajai latviskajam latviskajiem latviskajos latviskajā latviskajām latviskajās latviskam latviskas latviskie latviskiem latvisko latviskos latvisku latviskus latviskā latviskāks latviskām latviskās vislatviskākais
-36	2736	psiholoģija	psiholoģijai psiholoģijas psiholoģiju psiholoģijā
-37	2737	atzinums	atzinuma atzinumam atzinumi atzinumiem atzinumos atzinumu atzinumus atzinumā
-38	2738	balsts	balsta balstam balsti balstiem balstos balstu balstus balstā
-39	2739	lamatas	lamatu lamatā lamatām lamatās
-40	2740	gubernators	gubernator gubernatora gubernatoram gubernatori gubernatoriem gubernatoru gubernatorus gubernatorā
-41	2741	trīsdesmit	
-42	2742	loģika	loģikai loģikas loģiku loģikā loģikām
-43	2743	sātans	sātan sātana sātanam sātani sātanu sātanus sātanā
-44	2744	bulta	bultai bultas bultu bultā bultām
-45	2745	pildspalva	pildspalvai pildspalvas pildspalvu pildspalvā pildspalvām pildspalvās
-46	2746	mitrs	mitra mitrai mitrais mitrajai mitrajam mitrajiem mitrajos mitrajā mitrajām mitrajās mitram mitras mitri mitrie mitriem mitro mitros mitru mitrus mitrā mitrāks mitrām mitrās
-47	2747	ēzelis	ēzei ēzeli ēzelim ēzeļa ēzeļi ēzeļiem ēzeļu ēzeļus
-48	2748	iztēle	iztēlei iztēles iztēli iztēlē iztēlēm iztēlēs
-49	2749	garšīgi	
-50	2750	jura	jurai juram juras juri juriem juru jurā
-51	2751	delegācija	delegācijai delegācijas delegāciju delegācijā delegācijām delegācijās
-52	2752	izņēmums	
-53	2753	apzināties	jāapzinās
-54	2754	putra	putrai putram putras putru putrā putrām putrās
-55	2755	em	
-56	2756	psiholoģisks	psiholoģiska psiholoģiskai psiholoģiskais psiholoģiskajai psiholoģiskajam psiholoģiskajiem psiholoģiskajos psiholoģiskajā psiholoģiskajām psiholoģiskajās psiholoģiskam psiholoģiskas psiholoģiskie psiholoģiskiem psiholoģisko psiholoģiskos psiholoģisku psiholoģiskus psiholoģiskā psiholoģiskām psiholoģiskās
-57	2757	norāde	norādes
-58	2758	klosteris	klostera klosteri klosteriem klosterim klosteros klosteru klosterus klosterī
-59	2759	piecelties	pieceļas piecēlās
-60	2760	apzīmējums	apzīmējuma apzīmējumam apzīmējumi apzīmējumiem apzīmējumos apzīmējumu apzīmējumus apzīmējumā
-61	2761	bērzs	bērza bērzam bērze bērzi bērziem bērzos bērzu bērzus bērzā
-62	2762	āmurs	āmur āmura āmuram āmuri āmuriem āmuru āmurus
-63	2763	būris	būra būri būriem būrim būros būru būrus būrī
-64	2764	dizainere	dizainera dizaineram dizainerei dizaineres dizaineri dizaineriem dizaineros dizainers dizaineru dizainerus dizainerēm
-65	2765	ērce	ēra ērcei ērces ērci ērcēm ērcēs ēriem ēru ērā ērču
-66	2766	kauliņš	kauliņ kauliņa kauliņam kauliņi kauliņiem kauliņos kauliņu kauliņus kauliņā
-67	2767	imports	import importa importam importu importā
-68	2768	vēsturiski	
-69	2769	mīlēties	jāmīlējas mīlas mīlējamies mīlējas mīlējaties mīlējies mīlējieties mīlējos mīlējoties mīlējāmies mīlējās mīlējāties mīlēsies mīlēsimies mīlētos mīlēšanās nemīlēties
-70	2770	pulcēties	pulcējās
-71	2771	zemestrīce	zemestrīcei zemestrīces zemestrīci zemestrīcē zemestrīcēm zemestrīču
-72	2772	uztvere	uztverei uztveres uztveri uztveru uztverē uztverēs
-73	2773	el	
-74	2774	hobijs	hobija hobijam hobiji hobijiem hobijos hobiju hobijus hobijā
-75	2775	klusi	
-76	2776	drūms	drūma drūmai drūmais drūmajai drūmajam drūmajiem drūmajos drūmajā drūmajām drūmajās drūmam drūmas drūmi drūmie drūmiem drūmo drūmos drūmu drūmus drūmā drūmāks drūmām drūmās visdrūmākais
-77	2777	rupjš	rupja rupjai rupjais rupjajai rupjajam rupjajiem rupjajā rupjajām rupjam rupjas rupjie rupjiem rupjo rupjos rupju rupjus rupjā rupjāks rupjām rupjās visrupjākais
-78	2778	šķirt	jāšķir nešķirt šķir šķirams šķiriet šķirot šķirs šķirts šķirtu šķiru šķiršana šķīra šķīris
-79	2779	ķirbis	ķirbi ķirbim ķirbja ķirbji ķirbjiem ķirbjos ķirbju ķirbjus ķirbī
-80	2780	vanags	vanag vanaga vanagam vanagi vanagiem vanagos vanagu vanagus
-81	2781	aizvietot	aizvieto aizvietoja aizvietojam aizvietojams aizvietoji aizvietojiet aizvietojis aizvietojot aizvietoju aizvietojām aizvietos aizvietosi aizvietosiet aizvietosim aizvietots aizvietotu aizvietošana aizvietošu jāaizvieto
-82	2782	šausmīgs	visšausmīgākais šausmīga šausmīgais šausmīgajai šausmīgajam šausmīgajiem šausmīgajos šausmīgajā šausmīgajām šausmīgam šausmīgas šausmīgie šausmīgiem šausmīgo šausmīgos šausmīgu šausmīgus šausmīgā šausmīgāks šausmīgām šausmīgās
-83	2783	karaliste	karalistei karalistes karalisti karalistu karalistē karalistēm karalistēs
-84	2784	puļķis	puis puļķa puļķi puļķiem puļķim puļķu puļķus
-85	2785	žogs	žoga žogam žogi žogiem žogu žogus žogā
-86	2786	izvirzīt	izvirza
-87	2787	komēdija	komēdijai komēdijas komēdiju komēdijā komēdijām komēdijās
-88	2788	ogle	oglei ogles ogli oglē oglēm oglēs ogļu
-89	2789	kost	jākož kod koda kodi kodiet kodis kodu kodīs kodīsi kodīšu kosts kostu košana košanas košanos košanu kož kožam kožamais kožot kožu
-90	2790	militārs	militāro
-91	2791	villa	villai villas villu villā villām villās
-92	2792	slavenība	slavenībai slavenības slavenību slavenībām slavenībās
-93	2793	interesēties	interesējas
-94	2794	konsultācija	konsultāciju
-95	2795	esamība	esamībai esamības esamību esamībā
-96	2796	muļķīgs	muļķīga muļķīgai muļķīgais muļķīgajai muļķīgajam muļķīgajiem muļķīgajos muļķīgajā muļķīgajām muļķīgajās muļķīgas muļķīgie muļķīgiem muļķīgo muļķīgos muļķīgu muļķīgus muļķīgā muļķīgām muļķīgās vismuļķīgākais
-97	2797	adata	adatai adatam adatas adatiem adatu adatā adatām
-98	2798	frekvence	frekvencei frekvences frekvenci frekvencē frekvencēm frekvencēs frekvenču
-99	2799	tronis	troni tronim tronī troņa troņi troņiem troņos troņu troņus
-100	2800	mājdzīvnieks	mājdzīvnieka mājdzīvniekam mājdzīvnieki mājdzīvniekiem mājdzīvniekos mājdzīvnieku mājdzīvniekus
+1	2701	pietiekams	pietiekama pietiekamai pietiekamajam pietiekamajiem pietiekamam pietiekamas pietiekamie pietiekamiem pietiekamo pietiekamos pietiekamu pietiekamus pietiekamā pietiekamām pietiekamās
+2	2702	zars	zara zaram zari zariem zaros zaru zarus zarā
+3	2703	sekretārs	sekretāra sekretāram sekretāri sekretāriem sekretāros sekretāru sekretārus
+4	2704	šķidrums	šķidruma šķidrumam šķidrumi šķidrumiem šķidrumos šķidrumu šķidrumus šķidrumā
+5	2705	noritēt	nenoritēja nenoritēs nenoritētu norit noritēja noritēji noritējis noritējusi noritējušas noritējuši noritējušo noritēs noritētu
+6	2706	reliģisks	reliģiska reliģiskai reliģiskais reliģiskajai reliģiskajam reliģiskajiem reliģiskajos reliģiskajā reliģiskajām reliģiskajās reliģiskam reliģiskas reliģiski reliģiskie reliģiskiem reliģisko reliģiskos reliģisku reliģiskus reliģiskā reliģiskām reliģiskās
+7	2707	briesmonis	briesmoni briesmonim briesmonu briesmonī briesmoņa briesmoņi briesmoņiem briesmoņu briesmoņus
+8	2708	sankcija	sankcijai sankcijas sankciju sankcijā sankcijām sankcijās
+9	2709	skatiens	skatiena skatienam skatieni skatieniem skatienos skatienu skatienus skatienā
+10	2710	pandēmija	pandēmijai pandēmijas pandēmiju pandēmijā pandēmijām
+11	2711	stīvs	stīv stīva stīvais stīvajai stīvajiem stīvajām stīvam stīvas stīvi stīvie stīviem stīvo stīvos stīvu stīvus stīvā stīvāka stīvāks stīvāku stīvām stīvās
+12	2712	inficēties	inficējamies inficējas inficējies inficējos inficējoties inficējusies inficējušies inficējušās inficējās inficēsies inficēšanās inficēšos neinficējas neinficējaties neinficējoties neinficējās neinficēsies neinficētos neinficēšos
+13	2713	normatīvs	normatīva normatīvai normatīvais normatīvajai normatīvajam normatīvajiem normatīvajos normatīvajā normatīvajām normatīvajās normatīvam normatīvas normatīvi normatīvie normatīviem normatīvo normatīvos normatīvu normatīvus normatīvā normatīvām normatīvās
+14	2714	klausītājs	klausītāj klausītāja klausītājai klausītājam klausītājas klausītāji klausītājiem klausītājos klausītāju klausītājus klausītājā klausītājām
+15	2715	dienasgrāmata	dienasgrāmatai dienasgrāmatas dienasgrāmatu dienasgrāmatā dienasgrāmatām dienasgrāmatās
+16	2716	nelikumīgs	nelikumīga nelikumīgai nelikumīgais nelikumīgajam nelikumīgajiem nelikumīgajos nelikumīgajām nelikumīgajās nelikumīgam nelikumīgas nelikumīgi nelikumīgie nelikumīgiem nelikumīgo nelikumīgos nelikumīgu nelikumīgus nelikumīgā nelikumīgām nelikumīgās
+17	2717	sēkla	sēklai sēklas sēklu sēklā sēklām sēklās
+18	2718	industrija	industrijai industrijas industriju industrijā industrijām industrijās
+19	2719	ikviena	ikvienai ikvienas
+20	2720	pamatoties	nepamatojas nepamatotos pamatojamies pamatojas pamatojies pamatojoties pamatojusies pamatojās pamatosies pamatosimies pamatotos
+21	2721	ferma	fermai fermas fermu fermā fermām fermās
+22	2722	pusfināls	pusfināla pusfinālam pusfināli pusfināliem pusfinālos pusfinālu pusfinālus pusfinālā
+23	2723	pacietība	pacietībai pacietības pacietību pacietībā
+24	2724	atmest	atmests atmestu atmet atmeta atmetam atmetams atmetat atmeti atmetiet atmetis atmetot atmetu atmetām atmetāt atmetīs atmetīsi atmetīsiet atmetīsim atmetīšot atmetīšu atmezdams atmešana jāatmet neatmest neatmestu neatmet neatmeta neatmetam neatmeti neatmetiet neatmetis neatmetot neatmetu neatmetām neatmetīs neatmetīsi neatmetīsim neatmetīšu
+25	2725	pele	pei pelei peles peli pelē pelēm pelēs peļu
+26	2726	prēmija	prēmijai prēmijas prēmiju prēmijā prēmijām prēmijās
+27	2727	nācija	nācijai nācijas nāciju nācijā nācijām nācijās
+28	2728	zibens	zibeni zibenim zibeņi zibeņiem zibeņos zibeņu zibeņus
+29	2729	sprādziens	sprādziena sprādzienam sprādzieni sprādzieniem sprādzienos sprādzienu sprādzienus sprādzienā
+30	2730	terapija	terapijai terapijas terapiju terapijā terapijām terapijās
+31	2731	absolūti	
+32	2732	baterija	baterijai baterijas bateriju baterijā baterijām baterijās
+33	2733	apkalpot	apkalpo apkalpoja apkalpojam apkalpojat apkalpojiet apkalpojis apkalpojot apkalpojošs apkalpoju apkalpojām apkalpojāt apkalpos apkalposi apkalposiet apkalposim apkalpots apkalpotu apkalpošana apkalpošu jāapkalpo neapkalpo neapkalpojam neapkalpojat neapkalpoju neapkalpos neapkalposim neapkalpot neapkalpotu
+34	2734	fantastisks	fantastiska fantastiskai fantastiskais fantastiskajai fantastiskajam fantastiskajiem fantastiskajos fantastiskajā fantastiskajām fantastiskajās fantastiskam fantastiskas fantastiskie fantastiskiem fantastisko fantastiskos fantastisku fantastiskus fantastiskā fantastiskāk fantastiskākais fantastiskākajiem fantastiskākajā fantastiskākas fantastiskāko fantastiskākos fantastiskāks fantastiskāku fantastiskākā fantastiskām fantastiskās visfantastiskākajos visfantastiskākajām visfantastiskākie visfantastiskākā visfantastiskākās
+35	2735	katls	katla katlam katli katliem katlos katlu katlus katlā
+36	2736	koronavīruss	koronavīrusa koronavīrusam koronavīrusi koronavīrusiem koronavīrusu
+37	2737	baigi	
+38	2738	skūpsts	skūpst skūpsta skūpstam skūpsti skūpstiem skūpstos skūpstu skūpstus skūpstā
+39	2739	panika	panikai panikas paniki paniku panikā
+40	2740	bioloģisks	bioloģiska bioloģiskai bioloģiskais bioloģiskajai bioloģiskajam bioloģiskajiem bioloģiskajos bioloģiskajā bioloģiskajām bioloģiskajās bioloģiskas bioloģiskie bioloģiskiem bioloģisko bioloģiskos bioloģisku bioloģiskus bioloģiskā bioloģiskāka bioloģiskām bioloģiskās
+41	2741	skrējiens	skrējiena skrējienam skrējieni skrējieniem skrējienos skrējienu skrējienus skrējienā
+42	2742	rosināt	jārosina nerosina nerosinot nerosinu nerosināja nerosinās nerosināt rosina rosini rosiniet rosinot rosinu rosināja rosinājis rosināju rosinājusi rosinājušas rosinājuši rosinājām rosinām rosināms rosinās rosināsi rosināsiet rosināsim rosināta rosinātais rosinātas rosināti rosinātie rosināto rosināts rosinātu rosinātā rosināšana rosināšanas rosināšanu rosināšanā rosināšu
+43	2743	mūžīgi	
+44	2744	bedre	bedrei bedres bedri bedru bedrē bedrēm bedrēs
+45	2745	sveiciens	sveiciena sveicienam sveicieni sveicieniem sveicienos sveicienu sveicienus sveicienā
+46	2746	kristīgs	kristīga kristīgai kristīgais kristīgajai kristīgajam kristīgajiem kristīgajos kristīgajā kristīgajām kristīgajās kristīgam kristīgas kristīgi kristīgie kristīgiem kristīgo kristīgos kristīgu kristīgus kristīgā kristīgākiem kristīgām kristīgās
+47	2747	analizēt	analizē analizēja analizējam analizējams analizējat analizējiet analizējis analizējot analizēju analizējām analizēs analizēsi analizēsiet analizēsim analizēts analizētu analizēšana analizēšot analizēšu jāanalizē neanalizēt
+48	2748	izdzert	izdzer izdzeram izdzerat izdzeriet izdzerot izdzers izdzersi izdzersiet izdzersim izdzerta izdzertais izdzertas izdzerti izdzerto izdzerts izdzertu izdzertā izdzertām izdzertās izdzeru izdzeršu izdzēra izdzēri izdzēris izdzēru izdzērusi izdzērušas izdzēruši izdzērām izdzērāt jāizdzer neizdzer neizdzers neizdzersi neizdzerts neizdzertu neizdzēra neizdzēris neizdzērāt
+49	2749	fantastiski	
+50	2750	nots	noa noti notij notis notī notīm notīs noā nošu
+51	2751	šaurs	visšaurākajās visšaurākā šaura šaurai šaurais šaurajai šaurajam šaurajiem šaurajos šaurajā šaurajām šaurajās šauram šauras šaurie šauriem šauro šauros šauru šaurus šaurā šaurāk šaurāka šaurākai šaurākajā šaurākajām šaurākam šaurākas šaurāki šaurāko šaurākos šaurāks šaurāku šaurākus šaurākā šaurākām šaurākās šaurām šaurās
+52	2752	humors	humor humora humoram humori humoru humorā
+53	2753	krūms	krūm krūma krūmam krūmi krūmiem krūmos krūmu krūmus krūmā
+54	2754	ordenis	ordena ordeni ordenim ordenus ordenī ordeņa ordeņi ordeņiem ordeņos ordeņu ordeņus
+55	2755	korporācija	korporācijai korporācijas korporāciju korporācijā korporācijām korporācijās
+56	2756	kucēns	kucēn kucēna kucēnam kucēni kucēniem kucēnos kucēnu kucēnus kucēnā
+57	2757	barot	baro baroja barojam barojams barojat baroji barojiet barojis barojot barojošs baroju barojām baros barosi barosiet barosim barots barotu barošana barošu jābaro nebarot
+58	2758	spānis	spāni spāniem spāniete spānietei spānietes spānieti spānietis spānietēm spāniešiem spāniešu spānim spānu spāņa spāņi spāņiem spāņu spāņus
+59	2759	tīrīt	jātīra netīra netīru netīrām netīrījāt netīrīs netīrīsim netīrīt netīrīts netīrītu tīra tīriet tīrot tīru tīrām tīrāmais tīrāmajam tīrāmajām tīrāmas tīrāmo tīrāmā tīrāmās tīrāt tīrīja tīrīji tīrījis tīrīju tīrījusi tīrījuši tīrījām tīrījāt tīrīs tīrīsim tīrīta tīrītas tīrīti tīrītiem tīrīts tīrītu
+60	2760	stiprināt	jāstiprina stiprina stiprini stipriniet stiprinot stiprinošs stiprinu stiprinādams stiprināja stiprinājis stiprinām stiprināms stiprinās stiprināsi stiprināsiet stiprināsim stiprināts stiprinātu stiprināšana stiprināšot stiprināšu
+61	2761	ieklausīties	ieklausas ieklausies ieklausieties ieklausos ieklausoties ieklausāmies ieklausās ieklausāties ieklausīdamies ieklausījies ieklausījos ieklausījāmies ieklausījās ieklausīsies ieklausīsieties ieklausīsimies ieklausītos ieklausīšanās ieklausīšos jāieklausās neieklausies neieklausieties neieklausos neieklausoties neieklausāmies neieklausās neieklausāties neieklausīdamies neieklausījos neieklausījās neieklausījāties neieklausīsies neieklausīties neieklausītos neieklausīšanās
+62	2762	izlemt	izlēma
+63	2763	nepatika	nepatikai nepatikas nepatiku nepatikā nepatikās
+64	2764	angliski	
+65	2765	zemūdene	zemūdenei zemūdenes zemūdeni zemūdenē zemūdenēm zemūdenēs zemūdeņu
+66	2766	ritms	ritma ritmam ritmi ritmiem ritmos ritmu ritmus ritmā
+67	2767	klans	klan klana klanam klani klaniem klanos klanu klanus klanā
+68	2768	piedzerties	jāpiedzeras nepiedzeras nepiedzersies nepiedzerties nepiedzertos nepiedzērusies piedzeramies piedzeras piedzeries piedzerieties piedzeroties piedzersies piedzertos piedzeršanās piedzēries piedzēros piedzērusies piedzērušies piedzērušās piedzērāmies piedzērās
+69	2769	smēķēt	jāsmēķē nesmēķēt smēķē smēķēdams smēķēja smēķējam smēķējat smēķēji smēķējiet smēķējis smēķējot smēķējošs smēķēju smēķējām smēķējāt smēķēs smēķēsi smēķēts smēķētu smēķēšana smēķēšot smēķēšu
+70	2770	pica	picai picas picu picā picām picās
+71	2771	dīķis	dīķa dīķi dīķiem dīķim dīķos dīķu dīķus dīķī
+72	2772	pistole	pistolei pistoles pistoli pistolē pistolēm pistoļu
+73	2773	nezin	
+74	2774	iztēloties	iztēlodamies iztēlojamies iztēlojas iztēlojaties iztēlojies iztēlojieties iztēlojos iztēlojoties iztēlojusies iztēlojušies iztēlojušās iztēlojāmies iztēlojās iztēlojāties iztēlosies iztēlosimies iztēlotos iztēlošanās jāiztēlojas neiztēlojamies neiztēlojas neiztēlojaties neiztēlojies neiztēlojos
+75	2775	turpinājums	turpinājum turpinājuma turpinājumam turpinājumi turpinājumiem turpinājumos turpinājumu turpinājumus turpinājumā
+76	2776	rūķis	rūķa rūķi rūķiem rūķim rūķos rūķu rūķus rūķī
+77	2777	pūce	pūcei pūces pūci pūcē pūcēm pūcēs pūču
+78	2778	dezoksiribonukleīnskābe	dns
+79	2779	itālis	itāli itāliete itālietei itālietes itālieti itāliešu itālim itāļa itāļi itāļiem itāļos itāļu itāļus
+80	2780	labvēlīgs	labvēlīga labvēlīgai labvēlīgais labvēlīgajiem labvēlīgajām labvēlīgam labvēlīgas labvēlīgi labvēlīgie labvēlīgiem labvēlīgo labvēlīgos labvēlīgu labvēlīgus labvēlīgā labvēlīgāk labvēlīgāka labvēlīgākais labvēlīgākajā labvēlīgākajām labvēlīgākam labvēlīgākas labvēlīgāki labvēlīgākie labvēlīgākiem labvēlīgāko labvēlīgāks labvēlīgāku labvēlīgākus labvēlīgākā labvēlīgākās labvēlīgām labvēlīgās vislabvēlīgākais vislabvēlīgākajā vislabvēlīgākie vislabvēlīgāko vislabvēlīgākā vislabvēlīgākās
+81	2781	cēlonis	cēloni cēlonim cēlonus cēloņa cēloņi cēloņiem cēloņos cēloņu cēloņus
+82	2782	līdzšinējs	līdzšinēja līdzšinējai līdzšinējais līdzšinējam līdzšinējas līdzšinēji līdzšinējie līdzšinējiem līdzšinējo līdzšinējos līdzšinēju līdzšinējā līdzšinējām līdzšinējās
+83	2783	pārsteidzošs	pārsteidzoša pārsteidzošai pārsteidzošais pārsteidzošajai pārsteidzošajam pārsteidzošajiem pārsteidzošajā pārsteidzošajām pārsteidzošajās pārsteidzošam pārsteidzošas pārsteidzoši pārsteidzošie pārsteidzošiem pārsteidzošo pārsteidzošos pārsteidzošu pārsteidzošus pārsteidzošā pārsteidzošāk pārsteidzošākais pārsteidzošākajiem pārsteidzošākajām pārsteidzošākas pārsteidzošāki pārsteidzošākie pārsteidzošāko pārsteidzošāks pārsteidzošāku pārsteidzošākus pārsteidzošākā pārsteidzošākās pārsteidzošām pārsteidzošās vispārsteidzošākais vispārsteidzošākie vispārsteidzošāko vispārsteidzošākā vispārsteidzošākās
+84	2784	dzīvesveids	dzīvesveida dzīvesveidam dzīvesveidi dzīvesveidiem dzīvesveidu dzīvesveidā
+85	2785	grafika	grafikai grafikas grafiku grafikā grafikām grafikās
+86	2786	bruņinieks	bruņiniek bruņinieka bruņiniekam bruņinieki bruņiniekiem bruņiniekos bruņinieku bruņiniekus
+87	2787	pagriezt	jāpagriež nepagriez nepagrieza nepagriezi nepagriezis nepagriezt nepagrieztu nepagriezu nepagriezīsi nepagriež nepagriežot pagriez pagrieza pagriezi pagrieziet pagriezis pagriezta pagrieztas pagriezti pagrieztos pagriezts pagrieztu pagriezu pagriezusi pagriezušas pagriezuši pagriezām pagriezāt pagriezīs pagriezīsim pagriezīšu pagriešana pagriež pagriežam pagriežama pagriežams pagriežat pagriežot pagriežu
+88	2788	apgalvojums	apgalvojuma apgalvojumam apgalvojumi apgalvojumiem apgalvojumos apgalvojumu apgalvojumus apgalvojumā
+89	2789	ārstniecība	ārstniecībai ārstniecības ārstniecību ārstniecībā
+90	2790	uzgaidīt	jāuzgaida uzgaida uzgaidi uzgaidiet uzgaidot uzgaidījām uzgaidījāt uzgaidīs uzgaidīsi uzgaidīsiet uzgaidīsit uzgaidīšu
+91	2791	plāksne	plāksnei plāksnes plāksni plāksnē plāksnēm plāksnēs plākšņu
+92	2792	tramvajs	tramvaja tramvajam tramvaji tramvajiem tramvajos tramvaju tramvajus tramvajā
+93	2793	pavēlnieks	pavēlniece pavēlniecei pavēlnieces pavēlnieci pavēlniecēs pavēlniek pavēlnieka pavēlniekam pavēlnieki pavēlniekiem pavēlniekos pavēlnieku pavēlniekus pavēlnieču
+94	2794	uzminēt	jāuzmin neuzmin neuzminēja neuzminēji neuzminēju neuzminējāt neuzminēs neuzminēsi neuzminēsiet neuzminēt uzmin uzminama uzminamas uzminams uzminamu uzminamās uzminat uzmini uzminiet uzminot uzminu uzminēja uzminēji uzminējis uzminēju uzminējāt uzminēs uzminēsi uzminēsiet uzminēts uzminēšot uzminēšu
+95	2795	atvērties	atveramies atveras atveraties atveries atverieties atveros atveroties atvēries atvēros atvērsies atvērsieties atvērusies atvērušies atvērāmies atvērās atvēršanās atvēršos atvēršoties jāatveras neatveramies neatveras neatveries neatvērsies neatvērties neatvērās
+96	2796	pols	pol pola polam poli poliem polos polu polus polā
+97	2797	motivācija	motivācijai motivācijas motivāciju motivācijā motivācijām motivācijās
+98	2798	ievilkt	ievelc ievelciet ievelk ievelkam ievelkot ievelkošs ievelku ievilcis ievilka ievilkdams ievilki ievilks ievilksi ievilksim ievilkts ievilktu ievilku ievilkām ievilkāt ievilkšana ievilkšu jāievelk neievelc neievelciet neievelk neievelkam neievelku neievilka neievilki neievilkt neievilktu
+99	2799	gejs	gej geja gejam geji gejiem geju gejus
+100	2800	virve	virvei virves virvi virvju virvē virvēm virvēs

@@ -1,100 +1,100 @@
-1	1801	sveikt	jāsveic nesveikt sveic sveica sveicam sveicat sveici sveiciet sveicis sveicot sveicu sveicām sveikdams sveiksim sveikts sveiktu sveikšana sveikšu
-2	1802	privāts	privāto privātā
-3	1803	attīstīties	attīstās attīstījās
-4	1804	mīksts	miksts mīksta mīkstai mīkstais mīkstajai mīkstajam mīkstajiem mīkstajos mīkstajā mīkstajām mīkstajās mīkstam mīkstas mīksti mīkstie mīkstiem mīksto mīkstos mīkstu mīkstus mīkstā mīkstāks mīkstām mīkstās vismīkstākais
-5	1805	atzīmēt	atzīmēja jāatzīmē
-6	1806	ģenerālis	ģenerāli ģenerālim ģenerāļa ģenerāļi ģenerāļiem ģenerāļu ģenerāļus
-7	1807	samazināties	samazinājies samazinājās
-8	1808	reāli	
-9	1809	vairākums	vairākum vairākuma vairākumam vairākumiem vairākumu vairākumus vairākumā
-10	1810	akls	akla aklai aklais aklajai aklajam aklajiem aklajos aklajā aklajās aklam aklas akli aklie akliem aklo aklos aklu aklus aklā aklāks aklām aklās
-11	1811	pensija	pensiju
-12	1812	apkure	apkurei apkures apkuri apkurē apkurēm
-13	1813	cilvēce	cilvēcei cilvēces cilvēci cilvēcē cilvēi
-14	1814	rits	rit rita ritam riti ritiem ritos ritu ritus ritā
-15	1815	kaķe	kaa kau kaā kaķes kaķi kaķu
-16	1816	klusēt	jāklusē klusē klusēdams klusēja klusējam klusējat klusēji klusējiet klusējis klusējot klusējošs klusēju klusējām klusējāt klusēs klusēsi klusēsim klusēts klusētu klusēšana klusēšot klusēšu neklusēt
-17	1817	raķete	raķetei raķetes raķeti raķetē raķetēm raķetēs raķešu
-18	1818	savienojums	savienojuma savienojumam savienojumi savienojumiem savienojumos savienojumu savienojumus savienojumā
-19	1819	maiss	mais maisa maisam maisi maisiem maisos maisu maisus maisā
-20	1820	automobilis	automobili automobilim automobilī automobiļa automobiļi automobiļiem automobiļos automobiļu automobiļus
-21	1821	bagātība	bagātībai bagātības bagātību bagātībā bagātībām bagātībās
-22	1822	valūta	valūtai valūtas valūtu valūtā valūtām valūtās
-23	1823	sēne	sēnei sēnes sēni sēnē sēnēm sēnēs sēņu
-24	1824	skaistums	skaistuma skaistumam skaistumi skaistumiem skaistumu skaistumus skaistumā
-25	1825	uzskats	uzskati
-26	1826	lielākoties	
-27	1827	projām	
-28	1828	kase	kasei kases kasi kasu kasē kasēm kasēs
-29	1829	vēls	visvēlākais vēla vēlai vēlais vēlajai vēlajam vēlajiem vēlajos vēlajā vēlajām vēlajās vēlam vēli vēlie vēliem vēlo vēlus vēlā vēlāks vēlām vēlās
-30	1830	gājējs	gājēj gājēja gājējam gājēji gājējiem gājējos gājēju gājējus
-31	1831	drosmīgs	drosmīga drosmīgai drosmīgais drosmīgajai drosmīgajam drosmīgajiem drosmīgajām drosmīgam drosmīgas drosmīgi drosmīgie drosmīgiem drosmīgo drosmīgos drosmīgu drosmīgus drosmīgā drosmīgāks drosmīgām drosmīgās visdrosmīgākais
-32	1832	princis	princi princim princī prinča prinči prinčiem prinčos prinču prinčus
-33	1833	fakultāte	fakultātei fakultātes fakultāti fakultātē fakultātēm fakultātēs fakultāšu
-34	1834	izeja	izejai izejas izeju izejā izejām izejās
-35	1835	ieviest	ieviesa
-36	1836	draudzība	draudzībai draudzības draudzību draudzībā draudzībām
-37	1837	arhitekts	arhitekt arhitekta arhitektam arhitekte arhitekti arhitektiem arhitektos arhitektu arhitektus arhitektā
-38	1838	virkne	virknei virknes virkni virknē virknēm virknēs virkņu
-39	1839	dzirkstele	dzirkstelei dzirksteles dzirksteli dzirkstelē dzirkstelēm dzirkstelēs dzirksteļu
-40	1840	dziedātāja	dziedātāj dziedātājai dziedātājam dziedātājas dziedātāji dziedātājiem dziedātājos dziedātājs dziedātāju dziedātājus dziedātājā dziedātājām
-41	1841	meistars	meistara meistaram
-42	1842	piegāde	piegādes
-43	1843	grauds	grauda graudam graudi graudiem graudos graudu graudus graudā
-44	1844	rūpe	rūpei rūpes rūpi rūpju rūpē rūpēm rūpēs
-45	1845	kails	kaila kailai kailais kailajai kailajiem kailajā kailajām kailam kailas kaili kailie kailiem kailo kailos kailu kailus kailā kailāks kailām kailās
-46	1846	plaši	
-47	1847	savējs	savējie savējo savējos
-48	1848	mācēt	jāmāk mācēdams mācēja mācēji mācējis mācēju mācējām mācējāt mācēs mācēsi mācēsiet mācēsim mācētu mācēšana mācēšu māk mākam mākat māki mākiet mākot māku nemācēt
-49	1849	institūcija	institūciju institūcijām
-50	1850	radinieks	radiniece radiniecei radinieces radinieci radiniecēm radinieka radiniekam radinieki radiniekiem radinieku radiniekus radiniekā radinieču
-51	1851	rūpniecība	rūpniecībai rūpniecības rūpniecību rūpniecībā
-52	1852	griezt	griez grieza griezdams griezi grieziet griezis grieztais griezts grieztu griezu griezām griezīs griezīsi griezīsiet griezīsim griezīšot griezīšu griešana griešanai griešanas griešanos griešanu griešanā griež griežam griežamais griežams griežat griežot griežu jāgriež negriezt
-53	1853	cūka	cūkai cūkam cūku cūkām cūkās
-54	1854	solījums	solījum solījuma solījumam solījumi solījumiem solījumos solījumu solījumus solījumā
-55	1855	apkaime	apkaimei apkaimes apkaimi apkaimju apkaimē apkaimēm apkaimēs
-56	1856	salīdzinoši	
-57	1857	federāls	federāla federālai federālais federālajai federālajam federālajiem federālajos federālajā federālajām federālajās federālas federālie federālo federālos federālu federālā federālām federālās
-58	1858	barība	barībai barības barību barībā barībām barībās
-59	1859	skābeklis	skābekli skābeklim skābeklī skābekļa
-60	1860	stūre	stūres
-61	1861	nākamgad	
-62	1862	šķirne	šķirnei šķirnes šķirni šķirnē šķirnēm šķirnēs šķirņu
-63	1863	apziņa	apziņai apziņas apziņos apziņu apziņā apziņām apziņās
-64	1864	apavs	apava apavam apavi apaviem apavos apavu apavus apavā
-65	1865	izaugsme	izaugsmes
-66	1866	identitāte	identitātei identitātes identitāti identitātē identitātēm identitāšu
-67	1867	strādnieks	strādniece strādniecei strādnieces strādnieci strādniecēm strādniek strādnieka strādniekam strādnieki strādniekiem strādniekos strādnieku strādniekus strādnieču
-68	1868	pievienot	pievieno
-69	1869	skumjš	skumja skumjai skumjais skumjajiem skumjajā skumjajām skumjajās skumjam skumji skumjie skumjiem skumjo skumjos skumju skumjus skumjā skumjāks skumjām skumjās visskumjākais
-70	1870	mehānisms	mehānisma mehānismam mehānismi mehānismiem mehānismos mehānismu mehānismus mehānismā
-71	1871	kārts	kārti kārtij kārtis kārtī kārtīm kārtīs kāršu
-72	1872	seriāls	seriāla seriālā
-73	1873	procedūra	procedūras procedūru
-74	1874	ceremonija	ceremonijai ceremonijas ceremoniju ceremonijā ceremonijām ceremonijās
-75	1875	bads	bad bada badam badu badā
-76	1876	ietekmēt	neietekmē
-77	1877	kontrolēt	
-78	1878	nokrist	jānokrīt nenokrist nokristu nokrita nokriti nokritis nokritu nokritām nokritīs nokritīsi nokritīsim nokritīšu nokrizdams nokrišana nokrīt nokrītam nokrītat nokrīti nokrītot nokrītu
-79	1879	izsole	izsolei izsoles izsoli izsolē izsolēm izsolēs izsoļu
-80	1880	eņģelis	eņģeli eņģelim eņģelī eņģeļa eņģeļi eņģeļiem eņģeļu eņģeļus
-81	1881	kafejnīca	kafejnīcai kafejnīcas kafejnīcu kafejnīcā kafejnīcām kafejnīcās
-82	1882	izklaide	izklaides
-83	1883	sviests	jāsviež nesviest svied svieda sviedi sviedis sviedu sviedām sviedīs sviest sviesta sviestam sviesti sviestiem sviestu sviestus sviestā sviezdams sviešana sviež sviežam sviežot
-84	1884	mīla	mīlai mīlas mīlā
-85	1885	čūska	čūskai čūskas čūsku čūskā čūskām
-86	1886	pārdevējs	pārdevēj pārdevēja pārdevējam pārdevēji pārdevējiem pārdevējos pārdevēju pārdevējus
-87	1887	uzlikt	uzliek
-88	1888	skart	jāskar neskart skar skaram skardams skariet skarot skars skarsim skarts skartu skaru skaršot skāra skāris skārām
-89	1889	seksuāls	seksuāla seksuālai seksuālais seksuālajai seksuālajiem seksuālajos seksuālajā seksuālajām seksuālajās seksuālam seksuālas seksuālie seksuāliem seksuālo seksuālos seksuālu seksuālus seksuālā seksuālāks seksuālām seksuālās
-90	1890	bite	bie bii bitei bites biti bitē bitēm bišu
-91	1891	spiest	spiesti spiests
-92	1892	aizvadīt	aizvada aizvadi aizvadiet aizvadot aizvadu aizvadām aizvadīja aizvadīji aizvadījis aizvadīju aizvadījām aizvadījāt aizvadīs aizvadīsi aizvadīsiet aizvadīsim aizvadīts aizvadītu aizvadīšana aizvadīšu jāaizvada neaizvadīt
-93	1893	liepājnieks	liepājniece liepājniecei liepājnieces liepājnieci liepājniecēm liepājniek liepājnieka liepājniekam liepājnieki liepājniekiem liepājniekos liepājnieku liepājniekus liepājnieču
-94	1894	savienot	jāsavieno savieno savienodams savienoja savienojam savienojams savienojat savienoji savienojiet savienojis savienojot savienojošs savienoju savienojām savienos savienosi savienosim savienots savienotu savienošana savienošu
-95	1895	sagādāt	sagādā
-96	1896	veidoties	veidojas
-97	1897	izstrāde	izstrādes izstrādi
-98	1898	televizors	televizora televizoram televizori televizoriem televizoros televizoru televizorus televizorā
-99	1899	ābols	ābola ābolam āboli āboliem ābolos ābolu ābolus ābolā
-100	1900	reģistrācija	reģistrācijai reģistrācijas reģistrāciju reģistrācijā reģistrācijām reģistrācijās
+1	1801	patēriņš	patēriņa patēriņam patēriņi patēriņiem patēriņu patēriņus patēriņā
+2	1802	sodīt	jāsoda nesoda nesodi nesodiet nesodot nesodu nesodām nesodāt nesodīs nesodīta nesodīti nesodīts nesodītu nesodīšu sodiet sodot sodu sodāms sodīja sodījis sodījusi sodījuši sodīs sodīsi sodīsim sodīsit sodīta sodītais sodītas sodīti sodītie sodīto sodīts sodītu sodīšana sodīšanai sodīšanas sodīšanu sodīšu
+3	1803	pārkāpt	jāpārkāpj nepārkāp nepārkāpa nepārkāpdams nepārkāpiet nepārkāpj nepārkāpjam nepārkāpjams nepārkāpjat nepārkāpjot nepārkāpju nepārkāps nepārkāpsi nepārkāpsim nepārkāpt nepārkāptu nepārkāpu pārkāp pārkāpa pārkāpdams pārkāpi pārkāpiet pārkāpis pārkāpj pārkāpjam pārkāpjat pārkāpjot pārkāpju pārkāps pārkāpsi pārkāpsiet pārkāpsim pārkāpts pārkāptu pārkāpu pārkāpām pārkāpāt pārkāpšana pārkāpšu
+4	1804	statistika	statistikai statistikas statistiki statistikiem statistiku statistikā statistikām
+5	1805	vērst	jāver never neveram neveriet neverot neveru nevēra nevērs nevērsi nevērsim nevērt nevērtu nevēršot nevēršu ver veram verams verat veriet verot veru vēra vēri vēris vēros vērs vērsi vērsiet vērsim vērsts vērt vērtu vēru vērām vēršana vēršot vēršu
+6	1806	pārsteigt	pārsteidz pārsteidza pārsteigta
+7	1807	finansiāls	finansiāla finansiālai finansiālais finansiālajai finansiālajam finansiālajiem finansiālajos finansiālajā finansiālajām finansiālajās finansiālam finansiālas finansiāli finansiālie finansiāliem finansiālo finansiālos finansiālu finansiālus finansiālā finansiālām finansiālās
+8	1808	dziļi	
+9	1809	bēglis	bēgli bēgliem bēglim bēgļa bēgļi bēgļiem bēgļos bēgļu bēgļus
+10	1810	noliktava	noliktavai noliktavas noliktavu noliktavā noliktavām noliktavās
+11	1811	norise	norisei norises norisi norisē norisēm norisēs norišu
+12	1812	saite	saitei saites saiti saitē saitēm saitēs saišu
+13	1813	pasūtījums	pasūtījuma pasūtījumam pasūtījumi pasūtījumiem pasūtījumos pasūtījumu pasūtījumus pasūtījumā
+14	1814	apzināt	apzina apzini apziniet apzinot apzinu apzināja apzinājis apzinājusi apzinājuši apzinājām apzinām apzinās apzināsim apzināta apzinātai apzinātas apzināti apzinātiem apzinātos apzināts apzinātu apzinātus apzinātā apzinātām apzinātās apzināšana jāapzina neapzinās neapzināt neapzināta neapzinātajām neapzinātas neapzināti neapzināto neapzinātos neapzināts neapzinātu neapzinātā neapzinātās
+15	1815	izplatīt	izplata izplatiet izplatot izplatu izplatām izplatāt izplatīja izplatījis izplatījāt izplatīs izplatīsi izplatīsim izplatīta izplatītais izplatītajiem izplatītajā izplatītas izplatīti izplatītie izplatīto izplatītos izplatīts izplatītu izplatītā izplatītāka izplatītākais izplatītākajiem izplatītākajām izplatītākie izplatītākos izplatītākā izplatītākās izplatītās izplatīšana izplatīšu jāizplata neizplatīt visizplatītākais visizplatītākā
+16	1816	dēvēt	dēvē dēvēdams dēvēja dēvējam dēvējams dēvējat dēvējis dēvējot dēvējošs dēvēju dēvējusi dēvējuši dēvējām dēvējāt dēvēs dēvēsim dēvēta dēvētais dēvētas dēvēti dēvētie dēvēto dēvēts dēvētu dēvētā dēvēšana dēvēšanu dēvēšu jādēvē nedēvē nedēvēja nedēvējam nedēvētu
+17	1817	izveide	izveidei izveides izveidi izveidē izveidēm
+18	1818	uzaicināt	jāuzaicina neuzaicini neuzaicināja neuzaicināji neuzaicināju neuzaicinājāt neuzaicināt neuzaicinātu neuzaicināšu uzaicina uzaicini uzaiciniet uzaicinot uzaicinu uzaicināja uzaicināji uzaicinājis uzaicināju uzaicinājusi uzaicinājuši uzaicinājām uzaicinājāt uzaicinām uzaicinās uzaicināsi uzaicināsiet uzaicināta uzaicinātais uzaicinātajiem uzaicinātas uzaicināti uzaicinātie uzaicināto uzaicināts uzaicinātu uzaicinātā uzaicinātās uzaicināšana uzaicināšu
+19	1819	paraugs	paraug parauga paraugam paraugi paraugiem paraugos paraugu paraugus paraugā
+20	1820	līdzās	
+21	1821	sadalīt	jāsadala nesadala nesadalot nesadalīja nesadalīt nesadalīto nesadalītu nesadalītā sadala sadali sadaliet sadalot sadalošās sadalu sadalām sadalāma sadalāmo sadalāms sadalīja sadalījis sadalīju sadalījusi sadalījušas sadalījuši sadalījušās sadalījām sadalīs sadalīsi sadalīsim sadalīta sadalītais sadalītas sadalīti sadalīts sadalītu sadalītā sadalītām sadalītās sadalīšana
+22	1822	aizvērt	aizver aizveram aizverams aizverat aizveriet aizverot aizveru aizvēra aizvēri aizvēris aizvērs aizvērsi aizvērsiet aizvērsim aizvērts aizvērtu aizvēru aizvērām aizvēršana aizvēršot aizvēršu jāaizver neaizver neaizveriet neaizverot neaizvēra neaizvērdams neaizvēri neaizvērs neaizvērsi neaizvērsiet neaizvērsim neaizvērt neaizvērtu neaizvēru
+23	1823	tradicionāls	tradicionāla tradicionālai tradicionālais tradicionālajai tradicionālajam tradicionālajiem tradicionālajos tradicionālajā tradicionālajām tradicionālajās tradicionālam tradicionālas tradicionālie tradicionāliem tradicionālo tradicionālos tradicionālu tradicionālus tradicionālā tradicionālāka tradicionālākais tradicionālākajiem tradicionālākajā tradicionālākajām tradicionālākam tradicionālākas tradicionālāki tradicionālākie tradicionālākiem tradicionālāko tradicionālāks tradicionālāku tradicionālākus tradicionālākā tradicionālākās tradicionālām tradicionālās vistradicionālākais vistradicionālākie
+24	1824	kreisi	
+25	1825	nazis	nais nau naza nazi nazim naža naži nažiem nažu nažus
+26	1826	audzināt	audzina audzini audziniet audzinot audzinoša audzinošais audzinošas audzinoši audzinošs audzinu audzināja audzinājis audzināju audzinājusi audzinājuši audzinājām audzinām audzināmajiem audzināmie audzināmo audzināmā audzināmās audzinās audzināsim audzināta audzinātai audzinātas audzināti audzināts audzinātu audzināšana audzināšanai audzināšanas audzināšanu audzināšanā jāaudzina neaudzina neaudzinu neaudzināju
+27	1827	apdraudēt	apdraud apdraudēdams apdraudēja apdraudēji apdraudējis apdraudējusi apdraudējuši apdraudējāt apdraudēs apdraudēta apdraudētais apdraudētas apdraudēti apdraudēto apdraudēts apdraudētu apdraudētā apdraudēšanu apdraudēšanā neapdraud neapdraudēja neapdraudējām neapdraudēs neapdraudēsim neapdraudēt neapdraudēta neapdraudēti neapdraudēts neapdraudētu neapdraudētā
+28	1828	lekcija	lekcijai lekcijas lekciju lekcijā lekcijām lekcijās
+29	1829	piemineklis	pieminekli pieminekliem piemineklim piemineklu piemineklī pieminekļa pieminekļi pieminekļiem pieminekļos pieminekļu pieminekļus
+30	1830	samaksa	samaksai samaksas samaksu samaksā samaksām samaksās
+31	1831	traki	
+32	1832	smalks	smalka smalkai smalkais smalkajai smalkajam smalkajiem smalkajos smalkajā smalkajām smalkajās smalkam smalkas smalki smalkie smalkiem smalko smalkos smalku smalkus smalkā smalkāk smalkāka smalkākajām smalkākas smalkāki smalkākiem smalkāko smalkāks smalkāku smalkākus smalkākā smalkākām smalkākās smalkām smalkās vissmalkākais vissmalkākajā vissmalkākajām vissmalkākās
+33	1833	brīvprātīgs	brīvprātīga brīvprātīgai brīvprātīgajai brīvprātīgajam brīvprātīgajiem brīvprātīgajos brīvprātīgajā brīvprātīgajām brīvprātīgajās brīvprātīgam brīvprātīgas brīvprātīgi brīvprātīgie brīvprātīgiem brīvprātīgo brīvprātīgos brīvprātīgu brīvprātīgus brīvprātīgā brīvprātīgām brīvprātīgās
+34	1834	uzklausīt	jāuzklausa neuzklausa neuzklausi neuzklausot neuzklausu neuzklausīja neuzklausīju neuzklausīs neuzklausīsi neuzklausīsiet neuzklausīsim neuzklausīt neuzklausīts neuzklausīšana neuzklausīšu uzklausa uzklausi uzklausiet uzklausot uzklausu uzklausām uzklausāms uzklausāt uzklausīdams uzklausīja uzklausīji uzklausījis uzklausīju uzklausījām uzklausījāt uzklausīs uzklausīsi uzklausīsiet uzklausīsim uzklausīts uzklausītu uzklausīšana uzklausīšu
+35	1835	pārspēt	jāpārspēj nepārspēj nepārspēja nepārspējama nepārspējamai nepārspējamais nepārspējamajā nepārspējamam nepārspējamas nepārspējami nepārspējamie nepārspējamo nepārspējamos nepārspējams nepārspējamu nepārspējamā nepārspējamām nepārspējamās nepārspējot nepārspēs nepārspēsi nepārspēt nepārspēts nepārspētu pārspēdams pārspēj pārspēja pārspējam pārspējams pārspēji pārspējis pārspējot pārspēju pārspējāt pārspēs pārspēsi pārspēts pārspētu pārspēšu
+36	1836	kvalifikācija	kvalifikācijai kvalifikācijas kvalifikāciju kvalifikācijā kvalifikācijām kvalifikācijās
+37	1837	pamatot	jāpamato nepamato nepamatoja nepamatojot nepamatota nepamatotais nepamatotas nepamatoti nepamatotie nepamatoto nepamatots nepamatotu nepamatotā pamato pamatoja pamatojam pamatojams pamatojat pamatojiet pamatojis pamatojot pamatojošs pamatoju pamatojusi pamatojuši pamatosi pamatosim pamatota pamatotais pamatotas pamatoti pamatotie pamatoto pamatots pamatotu pamatotā pamatošana pamatošanas pamatošanu
+38	1838	kurpe	kurpei kurpes kurpi kurpju kurpē kurpēm kurpēs
+39	1839	teju	
+40	1840	audzēt	audzē audzēja audzējam audzējami audzējat audzēji audzējiet audzējis audzējot audzēju audzējusi audzējuši audzējām audzēs audzēsi audzēsim audzēta audzētais audzētajiem audzētajām audzētas audzēti audzētie audzētiem audzēto audzētos audzēts audzētu audzētus audzētā audzētām audzētās audzēšana audzēšanai audzēšanas audzēšanu audzēšanā jāaudzē neaudzē
+41	1841	tak	
+42	1842	profesija	profesijai profesijas profesiju profesijā profesijām profesijās
+43	1843	ieteikums	ieteikum ieteikuma ieteikumam ieteikumi ieteikumiem ieteikumos ieteikumu ieteikumus ieteikumā
+44	1844	foršs	forša foršai foršais foršajam foršajiem foršajā foršajām foršas foršie foršiem foršo foršos foršu foršus foršā foršāk foršāka foršākai foršākais foršākajiem foršākajos foršākajā foršāki foršākie foršāko foršākos foršāks foršāku foršākā foršākām foršākās foršām foršās visforšāk visforšākais visforšākie visforšākos visforšākā visforšākās
+45	1845	pagalms	pagalma pagalmam pagalmi pagalmiem pagalmos pagalmu pagalmus pagalmā
+46	1846	apkārtējs	apkārtēja apkārtējai apkārtējais apkārtējajiem apkārtējam apkārtējas apkārtēji apkārtējie apkārtējiem apkārtējo apkārtējos apkārtēju apkārtējā apkārtējām apkārtējās
+47	1847	tiklīdz	
+48	1848	sapņot	jāsapņo nesapņot sapņo sapņodams sapņoja sapņojam sapņojat sapņoji sapņojiet sapņojis sapņojot sapņoju sapņojām sapņojāt sapņos sapņosi sapņosiet sapņots sapņotu sapņošana sapņošu
+49	1849	organisms	organism organisma organismam organismi organismiem organismos organismu organismus organismā
+50	1850	izsludināt	izsludina izsludini izsludiniet izsludinot izsludinu izsludināja izsludināji izsludinājis izsludināju izsludinājusi izsludinājušas izsludinājuši izsludinājām izsludinām izsludināms izsludinās izsludināsim izsludināta izsludinātais izsludinātas izsludināti izsludinātie izsludināto izsludināts izsludinātu izsludinātā izsludināšana izsludināšanas izsludināšanu izsludināšu jāizsludina neizsludina neizsludinot neizsludināja neizsludinās neizsludināt neizsludināts
+51	1851	iecirknis	iecirkna iecirkni iecirknim iecirknus iecirknī iecirkņa iecirkņi iecirkņiem iecirkņos iecirkņu iecirkņus
+52	1852	nereti	
+53	1853	pakāpe	pakāpei pakāpes pakāpi pakāpju pakāpē pakāpēm pakāpēs
+54	1854	pielikt	jāpieliek nepieliec nepieliek nepieliekot nepielieku nepielika nepieliks nepieliksi nepieliksim nepielikt nepieliktu nepieliku pielicis pieliec pielieciet pieliek pieliekam pieliekat pieliekot pielieku pielika pieliki pieliks pieliksi pieliksiet pieliksim pielikts pieliktu pieliku pielikām pielikāt pielikšana pielikšot pielikšu
+55	1855	poga	pogai pogam pogas pogu pogā pogām pogās
+56	1856	apzināties	apzinas apzinies apzinieties apzinos apzinoties apzinādamies apzinājies apzinājos apzinājusies apzinājušies apzinājušās apzinājāmies apzinājās apzinājāties apzināmas apzināmies apzināmās apzināsies apzināsieties apzināsimies apzināsities apzināšanās jāapzinās neapzinies neapzinieties neapzinos neapzinoties neapzinādamies neapzinājos neapzinājāmies neapzinājās neapzināmies neapzinās neapzināsies neapzināties neapzinātos neapzināšanās
+57	1857	izpētīt	izpēta izpēti izpētiet izpētot izpētu izpētām izpētāt izpētīja izpētīji izpētījis izpētīju izpētījām izpētījāt izpētīs izpētīsiet izpētīsim izpētīta izpētītas izpētīti izpētīts izpētītu izpētītā izpētīšana izpētīšu jāizpēta jāizpētī neizpēta neizpētot neizpētīju neizpētījāt neizpētīt neizpētīta neizpētītas neizpētīti neizpētītiem neizpētīts neizpētītu neizpētītā neizpētītām
+58	1858	pieskarties	jāpieskaras nepieskaramies nepieskaras nepieskaraties nepieskaries nepieskarieties nepieskaros nepieskaroties nepieskarsies nepieskarsimies nepieskarties nepieskartos nepieskaršos nepieskāries nepieskāros nepieskārāmies nepieskārās pieskaramies pieskaras pieskaraties pieskardamies pieskaries pieskarieties pieskaros pieskaroties pieskarsies pieskarsieties pieskarsimies pieskartos pieskaršanās pieskaršos pieskāries pieskāros pieskārāmies pieskārās pieskārāties
+59	1859	realitāte	realitātei realitātes realitāti realitātē realitātēm realitātēs realitāšu
+60	1860	nabags	nabadze nabadzei nabadzes nabadzi nabag nabaga nabagai nabagais nabagajiem nabagajos nabagam nabagas nabagi nabagie nabagiem nabago nabagos nabagu nabagus nabagā nabagāka nabagākais nabagākajiem nabagākas nabagāki nabagākie nabagāko nabagāks nabagāku nabagākus nabagākā nabagākās nabagās
+61	1861	burvīgs	burvīga burvīgai burvīgais burvīgajai burvīgajam burvīgajiem burvīgajos burvīgajā burvīgajām burvīgajās burvīgas burvīgi burvīgie burvīgiem burvīgo burvīgos burvīgu burvīgus burvīgā burvīgāk burvīgākais burvīgākajiem burvīgākajām burvīgākas burvīgāki burvīgākie burvīgāko burvīgāks burvīgāku burvīgām burvīgās visburvīgākajai visburvīgākās
+62	1862	simbols	simbola simbolam simboli simboliem simbolos simbolu simbolus simbolā
+63	1863	matemātika	matemātikai matemātikas matemātiku matemātikā matemātikām
+64	1864	aizbēgt	aizbēdz aizbēdzis aizbēg aizbēga aizbēgat aizbēgi aizbēgot aizbēgs aizbēgsi aizbēgsim aizbēgts aizbēgtu aizbēgu aizbēgām aizbēgāt aizbēgšana aizbēgšu jāaizbēg neaizbēg neaizbēga neaizbēgi neaizbēgs neaizbēgsi neaizbēgsim neaizbēgt neaizbēgtu neaizbēgšu
+65	1865	degt	dedz dedzi dedzis deg dega degam degat degot degoša degošais degošajā degošas degoši degošie degošiem degošo degošs degošu degošus degošā degošām degošās degs degsi degtu degu degusi degusī degušajā degušas deguši degušo degušu degšana degšanas degšanu jādeg nedeg nedega
+66	1866	briesmas	briesma briesmam briesmu briesmām briesmās
+67	1867	vainot	jāvaino nevaino nevainoja nevainojam nevainojams nevainoji nevainojiet nevainoju nevainos nevainosi nevainosiet nevainot nevainotu nevainošu vaino vainoja vainojam vainojama vainojamas vainojami vainojams vainojat vainojiet vainojot vainoju vainojuši vainos vainosim vainota vainotais vainotajam vainotas vainoti vainoto vainots vainotu vainošana vainošanu vainošu
+68	1868	stadions	stadion stadiona stadionam stadioni stadioniem stadionos stadionu stadionus stadionā
+69	1869	konflikts	konflikta konfliktam konflikti konfliktiem konfliktos konfliktu konfliktus konfliktā
+70	1870	protokols	protokola protokolam protokoli protokoliem protokolos protokolu protokolus protokolā
+71	1871	suga	sugai sugas sugu sugā sugām sugās
+72	1872	kleita	kleitai kleitam kleitas kleitu kleitā kleitām kleitās
+73	1873	rietumu	
+74	1874	jautrs	jautra jautrai jautrais jautrajam jautrajiem jautrajos jautrajā jautrajām jautrajās jautram jautras jautrie jautriem jautro jautros jautru jautrus jautrā jautrāk jautrāka jautrākais jautrākajiem jautrākas jautrāki jautrākie jautrākiem jautrāko jautrākos jautrāks jautrāku jautrākā jautrākās jautrām jautrās visjautrāk visjautrākais visjautrāko visjautrākā visjautrākās
+75	1875	izklaide	izklaidei izklaides izklaidi izklaidē izklaidēm izklaidēs izklaižu
+76	1876	sagatavoties	jāsagatavojas nesagatavojas nesagatavojies nesagatavojoties nesagatavojusies nesagatavojušies nesagatavotos sagatavojamies sagatavojas sagatavojaties sagatavojies sagatavojieties sagatavojos sagatavojoties sagatavojusies sagatavojušies sagatavojušās sagatavojāmies sagatavojās sagatavosies sagatavosieties sagatavosimies sagatavotos sagatavošanās
+77	1877	sargs	sarg sarga sargam sargi sargiem sargos sargu sargus sargā
+78	1878	ciets	cieta cietai cietais cietajai cietajam cietajiem cietajos cietajā cietajām cietajās cietam cietas cietie cietiem cieto cietos cietu cietus cietā cietāk cietāka cietākais cietākam cietākas cietāki cietākie cietākiem cietāko cietākos cietāks cietāku cietākus cietākā cietākām cietām cietās viscietākais viscietākajā viscietāko
+79	1879	piemiņa	piemiņai piemiņas piemiņu piemiņā piemiņām
+80	1880	saskatīt	jāsaskata nesaskata nesaskati nesaskatot nesaskatu nesaskatām nesaskatāt nesaskatīja nesaskatīji nesaskatīju nesaskatīs saskata saskati saskatiet saskatot saskatu saskatām saskatāma saskatāmais saskatāmam saskatāmas saskatāmi saskatāms saskatāmu saskatāmā saskatāt saskatīja saskatīji saskatījis saskatīju saskatījusi saskatījuši saskatījām saskatījāt saskatīs saskatīta saskatītas saskatīts saskatītu
+81	1881	kareivis	kareivi kareivim kareivja kareivji kareivjiem kareivju kareivjus
+82	1882	neparasts	neparasta neparastai neparastais neparastajai neparastajam neparastajiem neparastajos neparastajā neparastajām neparastam neparastas neparastie neparastiem neparasto neparastos neparastu neparastus neparastā neparastāk neparastāka neparastākais neparastākajiem neparastākajām neparastākas neparastāki neparastākie neparastāko neparastākos neparastāks neparastāku neparastākus neparastākā neparastākās neparastām neparastās visneparastākais visneparastākajam visneparastākā visneparastākās
+83	1883	vēls	visvēlāk vēla vēlai vēlais vēlajai vēlajiem vēlajos vēlajā vēlajām vēlajās vēlam vēli vēlie vēliem vēlo vēlus vēlā vēlāka vēlākai vēlākais vēlākajam vēlākajiem vēlākajos vēlākajā vēlākajās vēlākam vēlākas vēlāki vēlākie vēlākiem vēlāko vēlākos vēlāks vēlāku vēlākā vēlākām vēlākās vēlām vēlās
+84	1884	mazināt	jāmazina mazina mazini maziniet mazinot mazinošas mazinošiem mazinošos mazinošu mazinošām mazinu mazināja mazinājis mazinājusi mazinājušas mazinājuši mazinājušās mazinājām mazinām mazināms mazinās mazināsim mazināts mazinātu mazināšana mazināšanai mazināšanas mazināšanos mazināšanu mazināšanā mazināšanās mazināšu nemazina nemazini nemazinot nemazināja nemazinās nemazināt nemazinātu
+85	1885	darbnīca	darbnīcai darbnīcas darbnīcu darbnīcā darbnīcām darbnīcās
+86	1886	acīmredzot	
+87	1887	līķis	līķa līķi līķiem līķim līķu līķus
+88	1888	izstrāde	izstrādei izstrādes izstrādi izstrādē izstrādēm izstrādēs izstrāžu
+89	1889	lēns	lēna lēnai lēnais lēnajai lēnajam lēnajiem lēnajā lēnajām lēnam lēnas lēnie lēniem lēno lēnos lēnu lēnus lēnā lēnāk lēnāka lēnākai lēnākais lēnākajos lēnākajā lēnākajās lēnākas lēnāki lēnākie lēnākiem lēnāko lēnākos lēnāks lēnāku lēnākus lēnākā lēnākām lēnākās lēnās vislēnāk vislēnākais
+90	1890	tirgotājs	tirgotāj tirgotāja tirgotājai tirgotājam tirgotājas tirgotāji tirgotājiem tirgotājos tirgotāju tirgotājus tirgotājām
+91	1891	elpa	elpai elpas elpu elpā
+92	1892	briesmīgs	briesmīga briesmīgai briesmīgais briesmīgajam briesmīgajiem briesmīgajos briesmīgajā briesmīgajām briesmīgam briesmīgas briesmīgie briesmīgiem briesmīgo briesmīgos briesmīgu briesmīgus briesmīgā briesmīgāk briesmīgāka briesmīgākais briesmīgākajiem briesmīgākajā briesmīgākas briesmīgāki briesmīgāko briesmīgākos briesmīgāks briesmīgāku briesmīgākus briesmīgākā briesmīgākās briesmīgām briesmīgās visbriesmīgāk visbriesmīgākais visbriesmīgākajiem visbriesmīgākie visbriesmīgāko visbriesmīgākās
+93	1893	deguns	degun deguna degunam deguni deguniem degunos degunu degunus degunā
+94	1894	produkcija	produkcijai produkcijas produkciju produkcijā
+95	1895	griezties	griezas griezdamies griezies griezieties griezos griezusies griezušies griezāmies griezās griezāties griezīsies griezīsieties griezīsimies griezīšos griezīšoties griešanās griežamies griežas griežaties griežos griežoties jāgriežas negriezas negriezies negriezieties negriezties negriezās negriezīsies negriezīsimies negriezīšos negriežas negriežaties negriežos
+96	1896	ķīnietis	ķīniete ķīnietei ķīnietes ķīnieti ķīnietim ķīnietēm ķīnieša ķīnieši ķīniešiem ķīniešu ķīniešus
+97	1897	izvietot	izvieto izvietoja izvietojam izvietojams izvietojat izvietojiet izvietojis izvietojot izvietoju izvietojusi izvietojušas izvietojuši izvietojām izvietos izvietosiet izvietosim izvietota izvietotais izvietotas izvietoti izvietotie izvietoto izvietots izvietotu izvietotā izvietošana izvietošanas izvietošanu izvietošanā izvietošu jāizvieto neizvieto neizvietojam neizvietojams neizvietojot neizvietos neizvietosim neizvietošana neizvietošanu
+98	1898	šaubas	šaubu šaubām šaubās
+99	1899	augstums	augstuma augstumam augstumi augstumiem augstumos augstumu augstumus augstumā
+100	1900	siers	sier siera sieram sieri sieriem sieros sieru sierus sierā

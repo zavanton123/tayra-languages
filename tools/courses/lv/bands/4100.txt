@@ -1,100 +1,100 @@
-1	4001	attēlojums	attēlojum attēlojuma attēlojumam attēlojumi attēlojumiem attēlojumu attēlojumus attēlojumā
-2	4002	vau	
-3	4003	krāšņi	
-4	4004	terorisms	
-5	4005	čakli	
-6	4006	biatlons	biatlona biatlonam biatlonu biatlonā
-7	4007	miermīlīgs	miermīlīga miermīlīgais miermīlīgajai miermīlīgajam miermīlīgajiem miermīlīgajā miermīlīgam miermīlīgas miermīlīgi miermīlīgie miermīlīgiem miermīlīgo miermīlīgos miermīlīgu miermīlīgus miermīlīgā miermīlīgākais miermīlīgāks miermīlīgām miermīlīgās
-8	4008	brīvdiena	
-9	4009	ekoloģija	ekoloģijai ekoloģijas ekoloģiju ekoloģijā
-10	4010	urāns	urāna urānam urānu urānā
-11	4011	saaukstēšanās	
-12	4012	dinastija	dinastijai dinastijas dinastiju dinastijā dinastijām
-13	4013	čakls	čakla čaklai čaklais čaklajai čaklajam čaklajiem čaklajām čaklam čaklas čaklie čakliem čaklo čaklos čaklu čaklus čaklā čaklāks čaklām čaklās
-14	4014	brūni	
-15	4015	vīrišķīgs	vīrišķīga vīrišķīgai vīrišķīgajā vīrišķīgajām vīrišķīgam vīrišķīgas vīrišķīgi vīrišķīgie vīrišķīgiem vīrišķīgo vīrišķīgos vīrišķīgu vīrišķīgus vīrišķīgā vīrišķīgāks vīrišķīgām vīrišķīgās
-16	4016	masturbēt	masturbē masturbēja masturbējat masturbējis masturbējot masturbēju masturbētu masturbēšana
-17	4017	atraisīt	atrais atraisi atraisiet atraisot atraisu atraisīja atraisījis atraisīs atraisīsi atraisīsim atraisīsit atraisīts atraisītu atraisīšot
-18	4018	saīsinājums	saīsinājuma saīsinājumi saīsinājumiem saīsinājumos saīsinājumu saīsinājumus saīsinājumā
-19	4019	kļūdaini	
-20	4020	rūgts	rūgta rūgtai rūgtais rūgtajai rūgtajiem rūgtajos rūgtajā rūgtajām rūgtas rūgtie rūgtiem rūgto rūgtos rūgtu rūgtus rūgtā rūgtāks rūgtām rūgtās visrūgtākais
-21	4021	knābis	knābi knābim knābja knābji knābjos knābju knābī
-22	4022	mieži	miežiem miežos miežu miežus
-23	4023	apinis	apii apini apinim apiņa apiņi apiņiem apiņu apiņus apīnis
-24	4024	abstrakts	abstrakta abstraktai abstraktais abstraktajai abstraktajam abstraktajiem abstraktajā abstraktajām abstraktam abstraktas abstrakti abstraktie abstraktiem abstrakto abstraktos abstraktu abstraktus abstraktā abstraktām abstraktās
-25	4025	grīva	grīvai grīvas grīvos grīvu grīvā grīvām grīvās
-26	4026	vīķe	vīķei vīķes vīķi vīķu vīķē
-27	4027	šķīsts	šķīsta šķīstais šķīstajam šķīstajiem šķīstajās šķīstam šķīstas šķīsti šķīsto šķīstos šķīstu šķīstus šķīstā šķīstāks šķīstām šķīstās
-28	4028	sīkt	sīc sīcam sīci sīcis sīcot sīkšana
-29	4029	vēsma	vēsmai vēsmas vēsmu vēsmām
-30	4030	melone	melonei melones meloni melonēm melonēs meloņu
-31	4031	sīrups	sīrupa sīrupam sīrupi sīrupiem sīrupos sīrupu sīrupus sīrupā
-32	4032	psiholoģiski	
-33	4033	nekustīgs	nekustīga nekustīgai nekustīgajiem nekustīgajām nekustīgam nekustīgas nekustīgi nekustīgie nekustīgo nekustīgu nekustīgus nekustīgā nekustīgām nekustīgās
-34	4034	bagātnieks	bagātniece bagātniecei bagātnieces bagātnieka bagātniekam bagātnieki bagātniekiem bagātnieku bagātniekus bagātniekā
-35	4035	bagātināt	bagātina bagātini bagātiniet bagātinot bagātinošais bagātinošs bagātināja bagātinājis bagātināju bagātinājām bagātinām bagātināms bagātinās bagātināsi bagātināsiet bagātināsim bagātinātais bagātināts bagātinātu bagātināšana bagātināšanai bagātināšanas bagātināšanos bagātināšanu bagātināšanā jābagātina
-36	4036	krustmāte	krustmātei krustmātes krustmāti krustmātē krustmātēm
-37	4037	steidzīgi	
-38	4038	dzenis	dzeni dzenim dzeņa dzeņi dzeņu dzeņus
-39	4039	māsiņa	
-40	4040	slaktiņš	
-41	4041	pelde	peldei peldes peldi peldē peldēm peldēs pelu pelus pelžu
-42	4042	garāmgājējs	garāmgājēj garāmgājēja garāmgājējam garāmgājēji garāmgājējiem garāmgājējos garāmgājēju garāmgājējus
-43	4043	čība	čības čību čībā čībām čībās
-44	4044	siens	sien sienam sienu sienā
-45	4045	rakstība	rakstībai rakstības rakstību rakstībā
-46	4046	oža	ožai ožas ožiem ožos ožu ožus
-47	4047	negribot	
-48	4048	mango	
-49	4049	stigt	stiedz stieg stiga stigs stigu stigām
-50	4050	rakstniecība	rakstniecībai rakstniecības rakstniecību rakstniecībā
-51	4051	disertācija	disertācijai disertācijas disertāciju disertācijā disertācijām disertācijās
-52	4052	kriptons	kriptona kriptonam kriptonu
-53	4053	lietavas	lietavu lietavām lietavās
-54	4054	arheoloģija	arheoloģijai arheoloģijas arheoloģiju arheoloģijā
-55	4055	čakste	čakstes čaksti
-56	4056	artērija	artērijai artērijas artēriju artērijā artērijām artērijās
-57	4057	matrica	matricai matricas matricu matricā matricām matricās
-58	4058	darītājs	darītāja darītājam darītāji darītājiem darītājos darītāju darītājus
-59	4059	degunradzis	degunradzi degunradzim degunradža degunradži degunradžiem degunradžu degunradžus
-60	4060	kriminālpolicija	kriminālpolicijai kriminālpolicijas kriminālpoliciju kriminālpolicijā
-61	4061	vate	vaa vatei vates vati vatē
-62	4062	plūme	plūmes plūmi plūmju plūmēm
-63	4063	ceļinieks	ceļinieka ceļiniekam ceļinieki ceļiniekiem ceļinieku ceļiniekus ceļiniekā
-64	4064	sils	sil sila silam sili siliem silu silā
-65	4065	nepiedienīgs	nepiedienīga nepiedienīgais nepiedienīgas nepiedienīgi nepiedienīgie nepiedienīgiem nepiedienīgo nepiedienīgu nepiedienīgus nepiedienīgā nepiedienīgām nepiedienīgās
-66	4066	pasakains	pasakaina pasakainais pasakainajai pasakainajiem pasakainajā pasakainajām pasakainam pasakainas pasakainie pasakainiem pasakaino pasakainos pasakainu pasakainus pasakainā pasakainām pasakainās
-67	4067	teļš	teļa teļam teļi teļiem teļos teļu teļus
-68	4068	strauts	strauta strautam strauti strautiem strautu strautus strautā
-69	4069	parūka	parūkas parūku parūkā parūkām parūkās
-70	4070	prostitūcija	prostitūcijai prostitūcijas prostitūciju prostitūcijā
-71	4071	humāns	humāna humānai humānais humānajai humānajiem humānajā humānajām humānam humānas humānie humāniem humāno humānos humānu humānus humānā humānāk humānāka humānākai humānākais humānākajiem humānāki humānāko humānāks humānāku humānākā humānākās humānās vishumānākais
-72	4072	aa	
-73	4073	spāniski	
-74	4074	ziņnesis	ziņnese ziņnesi ziņneša ziņneši ziņnešiem ziņnešu ziņnešus
-75	4075	skuķe	skuķei skuķes skuķi skuķu skuķēm
-76	4076	saindēšanās	saindēšana saindēšanos saindēšanu saindēšanā
-77	4077	lakstīgala	lakstīgalai lakstīgalas lakstīgalu lakstīgalām
-78	4078	magnijs	magnija magnijam magniju
-79	4079	centrāle	centrālei centrāles centrāli centrālē centrālēm centrālēs centrāļu
-80	4080	atriebējs	atriebēja atriebējas atriebēji atriebējiem atriebējos atriebēju atriebējus atriebējā atriebējām
-81	4081	problemātisks	problemātiska problemātiskai problemātiskais problemātiskajai problemātiskajiem problemātiskajos problemātiskajā problemātiskajām problemātiskajās problemātiskas problemātiski problemātiskie problemātiskiem problemātisko problemātiskos problemātisku problemātiskus problemātiskā problemātiskām problemātiskās visproblemātiskākais
-82	4082	vijolnieks	vijolniece vijolniecei vijolnieces vijolnieci vijolniecēm vijolniek vijolnieka vijolniekam vijolnieki vijolniekiem vijolnieku vijolniekus
-83	4083	šaušalīgs	šaušalīga šaušalīgais šaušalīgajai šaušalīgajiem šaušalīgajā šaušalīgas šaušalīgi šaušalīgie šaušalīgiem šaušalīgo šaušalīgos šaušalīgu šaušalīgus šaušalīgā šaušalīgām šaušalīgās
-84	4084	ezis	ezi ezim ezī eža ežas eži ežiem ežos ežu ežus
-85	4085	izpilddirektore	
-86	4086	krona	kronai kronas kronu kronus kronām kronās
-87	4087	septiņdesmit	
-88	4088	aizvakar	
-89	4089	krusttēvs	krusttēv krusttēva krusttēvam krusttēvi krusttēviem krusttēvu krusttēvus krusttēvā
-90	4090	peļķe	peļam peļķei peļķes peļķi peļķu peļķē peļķēm peļķēs
-91	4091	pļāpas	pļāpu pļāpām pļāpās
-92	4092	šveicietis	šveiciete šveicietei šveicietes šveicieti šveicietim šveicietēm šveicieša šveicieši šveiciešiem šveiciešu
-93	4093	molekula	molekulai molekulas molekulu molekulā molekulām molekulās
-94	4094	omārs	omāra omāram omāriem omāru omārus
-95	4095	cinks	cink cinka cinku cinkus
-96	4096	krabis	krabi krabim krabja krabji krabjiem krabjos krabju krabjus krabī
-97	4097	krupis	krua krupi krupim krupja krupji krupjiem krupju krupjus
-98	4098	kodiens	kodien kodiena kodienam kodieni kodieniem kodienos kodienu kodienus kodienā
-99	4099	dzīvesprieks	dzīvesprieka dzīvespriekam dzīvesprieku dzīvespriekā
-100	4100	akadēmiķis	akadēmiķa akadēmiķe akadēmiķei akadēmiķes akadēmiķi akadēmiķiem akadēmiķim akadēmiķu akadēmiķus akadēmiķēm akadēmiķī
+1	4001	izlūkot	izlūko izlūkojam izlūkoji izlūkojot izlūkoju izlūkojusi izlūkojām izlūkos izlūkota izlūkoto izlūkotu izlūkošana izlūkošanai izlūkošanas izlūkošanu izlūkošanā jāizlūko
+2	4002	ķivere	ķiverei ķiveres ķiveri ķiveru ķiverē ķiverēm ķiverēs
+3	4003	asiņot	asiņo asiņodams asiņoja asiņojat asiņojis asiņojot asiņojošs asiņoju asiņojām asiņos asiņošanas asiņošanu jāasiņo neasiņo neasiņojot neasiņoju neasiņos neasiņotu
+4	4004	radars	radara radaram radari radariem radaros radaru radarus radarā
+5	4005	klausule	klausulei klausules klausuli klausulē klausulēm
+6	4006	labirints	labirinta labirintam labirinti labirintiem labirintos labirintu labirintus labirintā
+7	4007	kola	kolai kolas kolu kolā kolām
+8	4008	sagriezt	jāsagriež nesagriezta nesagrieztas nesagriezti nesagriezto nesagrieztu sagriez sagrieza sagriezi sagrieziet sagriezis sagriezta sagrieztais sagrieztajai sagrieztajām sagrieztas sagriezti sagrieztiem sagriezto sagrieztos sagriezts sagrieztu sagrieztus sagrieztā sagrieztām sagrieztās sagriezu sagriezusi sagriezuši sagriezušās sagriezām sagriezīs sagriezīsiet sagriezīšu sagriešana sagriež sagriežam sagriežot sagriežu
+9	4009	iestudēt	iestudē iestudēja iestudējam iestudējamas iestudējams iestudējat iestudējis iestudējot iestudēju iestudējusi iestudējušas iestudējuši iestudējām iestudēs iestudēsim iestudēta iestudētai iestudētais iestudētajai iestudētajā iestudētajām iestudētajās iestudētas iestudēti iestudētie iestudēto iestudētos iestudēts iestudētu iestudētā iestudētām iestudētās iestudēšana iestudēšu jāiestudē neiestudē neiestudēja neiestudēt neiestudēts
+10	4010	konkurēt	jākonkurē konkurē konkurēja konkurējam konkurējat konkurējot konkurējošs konkurējām konkurēs konkurēsim konkurēto konkurēts konkurētu konkurētā konkurēšana konkurēšanas konkurēšanu nekonkurē nekonkurēja nekonkurējam nekonkurējiet nekonkurējot nekonkurēs nekonkurēsim nekonkurētu nekonkurēšanas
+11	4011	centimetrs	centimetra centimetram centimetri centimetriem centimetros centimetru centimetrus centimetrā
+12	4012	gadatirgus	gadatirgi gadatirgiem gadatirgos gadatirgu gadatirgum gadatirgū
+13	4013	lādiņš	lādiņa lādiņam lādiņi lādiņiem lādiņu lādiņus
+14	4014	izgudrojums	izgudrojuma izgudrojumam izgudrojumi izgudrojumiem izgudrojumu izgudrojumus izgudrojumā
+15	4015	miza	mizai mizam mizas mizi mizu mizā mizām mizās
+16	4016	iekārtoties	iekārtojamies iekārtojas iekārtojaties iekārtojies iekārtojieties iekārtojos iekārtojoties iekārtojāmies iekārtojās iekārtojāties iekārtosies iekārtosimies iekārtotos iekārtošanās iekārtošoties neiekārtojas neiekārtojaties neiekārtojies neiekārtojieties neiekārtoties neiekārtotos
+17	4017	aprakt	apracis apraka apraki apraks apraksi apraksiet apraksim aprakts apraktu apraku aprakāt aprakšana aprakšu aproc aprociet aprok aprokam aprokat aprokot aproku jāaprok neapraka neapraksi neapraksim neaprakts neapraktu
+18	4018	morāle	morālei morāles morālē morālēm
+19	4019	uzķerties	neuzķeras neuzķeraties neuzķeries neuzķerieties neuzķersies neuzķerties neuzķertos neuzķeršos neuzķēros neuzķērās uzķeramies uzķeras uzķeraties uzķeries uzķeroties uzķersies uzķersieties uzķersimies uzķertos uzķeršos uzķēries uzķēros uzķērāmies uzķērās uzķērāties
+20	4020	spars	spar spara sparam sparu sparā
+21	4021	atmoda	atmodai atmodas atmodu atmodā atmodām atmodās
+22	4022	tīnis	tīna tīni tīnim tīnu tīņa tīņi tīņiem tīņu tīņus
+23	4023	pārvest	jāpārved nepārvedīs pārved pārveda pārvediet pārvedis pārvedot pārvedu pārvedām pārvedīs pārvedīsim pārvedīšu pārvesta pārvestas pārvesti pārvests pārvestu pārvestās pārvezdams pārvešana
+24	4024	komerciāls	komerciāla komerciālai komerciālais komerciālajai komerciālajam komerciālajiem komerciālajos komerciālajā komerciālajām komerciālajās komerciālam komerciālas komerciāli komerciālie komerciāliem komerciālo komerciālos komerciālu komerciālus komerciālā komerciālām komerciālās
+25	4025	lupata	lupatai lupatas lupatu lupatā lupatām lupatās
+26	4026	līkums	līkuma līkumam līkumi līkumiem līkumos līkumu līkumus līkumā
+27	4027	piestrādāt	jāpiestrādā nepiestrādā nepiestrādājat nepiestrādāt piestrādā piestrādāja piestrādājam piestrādājis piestrādājot piestrādāju piestrādājusi piestrādājušas piestrādājuši piestrādājām piestrādās piestrādāsi piestrādāsiet piestrādāsim piestrādāts piestrādātu piestrādāšu
+28	4028	nasta	nastai nastas nastu nastā nastām
+29	4029	nāvēt	nāvē nāvējoša nāvējošai nāvējošais nāvējošajai nāvējošajiem nāvējošajām nāvējošas nāvējoši nāvējošie nāvējošiem nāvējošo nāvējošs nāvējošu nāvējošus nāvējošā nāvējošām nāvējošās nāvēs
+30	4030	legāls	legāla legālai legālais legālajai legālajam legālajiem legālajos legālajā legālajām legālajās legālam legālas legāli legālie legāliem legālo legālos legālu legālus legālā legālāk legālām legālās
+31	4031	padzīt	jāpadzen nepadzeniet nepadzenot nepadzina nepadzīs nepadzītu padzen padzenami padzeniet padzenot padzenu padzina padzini padzinis padzinu padzinusi padzinušas padzinuši padzinām padzināt padzīs padzīsi padzīsim padzīta padzītas padzīti padzītie padzītiem padzīto padzīts padzītu padzītās padzīšana padzīšot padzīšu
+32	4032	sportot	jāsporto sporto sportoja sportojam sportojat sportoji sportojiet sportojis sportojot sportoju sportojām sportojāt sportos sportosi sportosiet sportosim sportots sportotu sportošana sportošot sportošu
+33	4033	iemīlēt	iemīl iemīlam iemīlami iemīlamo iemīlams iemīli iemīliet iemīlot iemīlu iemīlēdams iemīlēja iemīlēji iemīlējis iemīlēju iemīlējusi iemīlējuši iemīlējušiem iemīlējušos iemīlējušās iemīlējām iemīlējāt iemīlēs iemīlēsi iemīlēsiet iemīlēsim iemīlēta iemīlētais iemīlēti iemīlēto iemīlētos iemīlēts iemīlētu iemīlētās iemīlēšu jāiemīl neiemīlēsi neiemīlēsit neiemīlēt neiemīlēšu
+34	4034	kaklasaite	kaklasaitei kaklasaites kaklasaiti kaklasaitē kaklasaitēm kaklasaitēs kaklasaišu
+35	4035	sauklis	saukli saukliem sauklim sauklī saukļa saukļi saukļiem saukļos saukļu saukļus
+36	4036	likumīgi	
+37	4037	tranzīts	tranzīta tranzītam tranzīti tranzītu tranzītā
+38	4038	vizītkarte	vizītkartei vizītkartes vizītkarti vizītkartēm vizītkartēs vizītkaršu
+39	4039	acīmredzami	
+40	4040	klucis	kluci kluciem klucim klucos klucī kluča kluči klučiem klučos kluču klučus
+41	4041	vienlīdzīgs	vienlīdzīga vienlīdzīgai vienlīdzīgajiem vienlīdzīgajām vienlīdzīgam vienlīdzīgas vienlīdzīgi vienlīdzīgie vienlīdzīgiem vienlīdzīgo vienlīdzīgos vienlīdzīgu vienlīdzīgus vienlīdzīgā vienlīdzīgāka vienlīdzīgākai vienlīdzīgākais vienlīdzīgākajiem vienlīdzīgākajām vienlīdzīgākas vienlīdzīgāki vienlīdzīgākie vienlīdzīgāko vienlīdzīgāks vienlīdzīgāku vienlīdzīgākus vienlīdzīgākām vienlīdzīgākās vienlīdzīgām vienlīdzīgās
+42	4042	pagūt	jāpagūst nepaguva nepaguvi nepaguvis nepaguvu nepaguvām nepaguvāt nepagūs nepagūsi nepagūsiet nepagūsim nepagūst nepagūstam nepagūstat nepagūsti nepagūstot nepagūt nepagūtu nepagūšu paguva paguvi paguvis paguvu paguvām pagūdams pagūs pagūsi pagūsiet pagūsim pagūst pagūstam pagūsti pagūstot pagūstu pagūts pagūtu pagūšu
+43	4043	mirstīgs	mirstīga mirstīgais mirstīgajai mirstīgajam mirstīgajiem mirstīgajā mirstīgajām mirstīgam mirstīgas mirstīgi mirstīgie mirstīgiem mirstīgo mirstīgos mirstīgu mirstīgā mirstīgās
+44	4044	tautība	tautībai tautībam tautības tautību tautībā tautībām tautībās
+45	4045	ābele	ābelei ābeles ābeli ābelē ābelēm ābelēs ābeļu
+46	4046	absolvēt	absolvē absolvēja absolvēji absolvējis absolvējot absolvēju absolvējusi absolvējušas absolvējuši absolvējušo absolvēs absolvēsim absolvēta absolvēto absolvētu absolvēšana absolvēšanas absolvēšanu jāabsolvē neabsolvēja neabsolvēji
+47	4047	velties	nevelas nevelies neveltos neveļas neveļos nevēlas nevēlies nevēlās nevēlāties velas velies velsies veltos velšanās velšoties veļas veļos veļoties vēlies vēlusies vēlušies vēlāmies vēlās vēlāties
+48	4048	izredzēt	izredziet izredzu izredzēja izredzēji izredzējis izredzēju izredzējuši izredzēs izredzēta izredzētai izredzētais izredzētajai izredzētajam izredzētajiem izredzētajos izredzētajām izredzētam izredzētas izredzēti izredzētie izredzētiem izredzēto izredzētos izredzēts izredzētu izredzētā izredzētām izredzētās izredzēšana neizredzētajiem
+49	4049	notīrīt	jānotīra nenotīrīt nenotīrīta nenotīrīti nenotīrītiem nenotīrīto nenotīrīts nenotīrītu nenotīrītām nenotīrītās nenotīrīšanu notīra notīri notīriet notīrot notīru notīrām notīrīja notīrīji notīrījis notīrīju notīrījuši notīrīs notīrīsim notīrīta notīrītajām notīrītas notīrīti notīrītiem notīrīto notīrīts notīrītu notīrītā notīrītām notīrīšana notīrīšanas notīrīšanu notīrīšanā notīrīšu
+50	4050	kādreizējs	kādreizēja kādreizējai kādreizējais kādreizējam kādreizējie kādreizējiem kādreizējo kādreizējos kādreizējā kādreizējām kādreizējās
+51	4051	galvassāpes	galvassāpju galvassāpēm galvassāpēs
+52	4052	traktors	traktora traktoram traktori traktoriem traktoros traktoru traktorus traktorā
+53	4053	kukurūza	kukurūzai kukurūzas kukurūzu kukurūzām
+54	4054	salt	jāsalst nesalt saldams sali salis salsi salst salstam salsti salstot salstu salta saltai saltais saltajai saltajam saltajos saltajā saltam saltas saltiem salto saltos salts saltu saltus saltā saltākas saltāks saltākā saltām saltās salu salusi saluši salām salšana
+55	4055	kaite	kaitei kaites kaiti kaitē kaitēm kaitēs kaišu
+56	4056	rūpīgs	rūpīga rūpīgai rūpīgais rūpīgajai rūpīgajiem rūpīgam rūpīgas rūpīgie rūpīgiem rūpīgo rūpīgos rūpīgu rūpīgus rūpīgā rūpīgāk rūpīgāka rūpīgākai rūpīgākajiem rūpīgākas rūpīgākie rūpīgāks rūpīgāku rūpīgākus rūpīgākā rūpīgām rūpīgās visrūpīgāk visrūpīgākajiem visrūpīgākajā visrūpīgāko visrūpīgākā visrūpīgākās
+57	4057	cilvēcisks	cilvēciska cilvēciskai cilvēciskais cilvēciskajai cilvēciskajam cilvēciskajiem cilvēciskajos cilvēciskajā cilvēciskajām cilvēciskajās cilvēciskam cilvēciskas cilvēciskie cilvēciskiem cilvēcisko cilvēciskos cilvēcisku cilvēciskus cilvēciskā cilvēciskāka cilvēciskākais cilvēciskākas cilvēciskāko cilvēciskāks cilvēciskāku cilvēciskākām cilvēciskām cilvēciskās viscilvēciskākais viscilvēciskākās
+58	4058	piemirst	nepiemirsa nepiemirst nepiemirstam nepiemirsti nepiemirstiet nepiemirstot nepiemirstu piemirsa piemirsi piemirsis piemirsta piemirstais piemirstajos piemirstajā piemirstajām piemirstam piemirstas piemirstat piemirsti piemirstie piemirstiem piemirsto piemirstos piemirstot piemirsts piemirstu piemirstus piemirstā piemirstām piemirstās piemirsu piemirsusi piemirsušas piemirsuši piemirsušās piemirsām piemirsāt piemirsīs piemirsīsi
+59	4059	pērt	jāper per perams perot peru pēra pēri pēris pērsi pērsim pērts pērtu pēru pērāt pēršana pēršu
+60	4060	sensors	sensor sensora sensoram sensori sensoriem sensoru sensorus sensorā
+61	4061	zinība	zinības zinību zinībām zinībās
+62	4062	sviestmaize	sviestmaizei sviestmaizes sviestmaizi sviestmaizē sviestmaizēm sviestmaizēs sviestmaižu
+63	4063	grejs	greja grejam greji greju
+64	4064	patikties	nepatikas nepatiksies nepatiktos nepatikās nepatikšanās nepatīkamies paticies patiksies patiktos patīkas
+65	4065	slepus	
+66	4066	evolūcija	evolūcijai evolūcijas evolūciju evolūcijā
+67	4067	jel	
+68	4068	šķīvis	šķīvi šķīvim šķīvja šķīvji šķīvjiem šķīvjos šķīvju šķīvjus šķīvī
+69	4069	rezultatīvs	rezultatīva rezultatīvai rezultatīvais rezultatīvajiem rezultatīvajā rezultatīvajām rezultatīvas rezultatīvie rezultatīviem rezultatīvo rezultatīvos rezultatīvu rezultatīvā rezultatīvāk rezultatīvāka rezultatīvākais rezultatīvākajam rezultatīvākajiem rezultatīvākajā rezultatīvākajām rezultatīvākas rezultatīvāki rezultatīvākie rezultatīvākiem rezultatīvāko rezultatīvāks rezultatīvākā rezultatīvākās rezultatīvām rezultatīvās visrezultatīvāko visrezultatīvākās
+70	4070	bezcerīgs	bezcerīga bezcerīgai bezcerīgais bezcerīgajai bezcerīgajam bezcerīgajiem bezcerīgajos bezcerīgajā bezcerīgam bezcerīgas bezcerīgi bezcerīgie bezcerīgiem bezcerīgo bezcerīgos bezcerīgu bezcerīgus bezcerīgā bezcerīgāk bezcerīgāka bezcerīgākajiem bezcerīgākajām bezcerīgāks bezcerīgāku bezcerīgākā bezcerīgām bezcerīgās visbezcerīgākais visbezcerīgākajiem visbezcerīgākajās visbezcerīgāko visbezcerīgākā visbezcerīgākās
+71	4071	skudra	skudrai skudram skudras skudre skudres skudri skudru skudrām
+72	4072	nejēga	nejēgai nejēgam nejēgas nejēgu nejēgā nejēgām nejēgās
+73	4073	sauszeme	sauszemei sauszemes sauszemi sauszemē
+74	4074	ekspertīze	ekspertīzei ekspertīzes ekspertīzi ekspertīzē ekspertīzēm ekspertīzēs ekspertīžu
+75	4075	samazināšanās	samazināšanos
+76	4076	saskanēt	jāsaskan nesaskan nesaskanot nesaskanēja nesaskanējis nesaskanēs nesaskanēt nesaskanētu saskan saskani saskanot saskanu saskanēja saskanējis saskanēs saskanētu saskanēšana
+77	4077	stienis	stiena stieni stienim stieņa stieņi stieņiem stieņos stieņu stieņus
+78	4078	todien	
+79	4079	intelektuāls	intelektuāla intelektuālai intelektuālais intelektuālajai intelektuālajam intelektuālajiem intelektuālajos intelektuālajā intelektuālajām intelektuālajās intelektuālam intelektuālas intelektuāli intelektuālie intelektuāliem intelektuālo intelektuālos intelektuālu intelektuālus intelektuālā intelektuālāka intelektuālākai intelektuālākajiem intelektuālākajām intelektuālākam intelektuālākas intelektuālāki intelektuālākiem intelektuālāks intelektuālāku intelektuālākā intelektuālām intelektuālās visintelektuālāko
+80	4080	salaist	jāsalaiž nesalaid nesalaidu nesalaidīs nesalaidīšu nesalaist nesalaistu nesalaižam salaid salaida salaidi salaidis salaidu salaidām salaidāt salaidīs salaidīsi salaidīsiet salaidīsim salaidīšu salaists salaistu salaiž salaižat salaižot salaižu
+81	4081	pārsla	pārslai pārslas pārslu pārslām pārslās
+82	4082	nogaidīt	jānogaida nenogaida nenogaidiet nenogaidot nenogaidīja nogaida nogaidi nogaidiet nogaidot nogaidošs nogaidu nogaidām nogaidīja nogaidījis nogaidīju nogaidījām nogaidīs nogaidīsi nogaidīsim nogaidīts nogaidītu nogaidīšana nogaidīšot nogaidīšu
+83	4083	mākslīgi	
+84	4084	dānis	dāna dāni dāniete dānietes dānim dāņa dāņi dāņiem dāņu dāņus
+85	4085	frizūra	frizūrai frizūras frizūru frizūrā frizūrām frizūrās
+86	4086	dārgakmens	dārgakmeni dārgakmenim dārgakmenī dārgakmeņi dārgakmeņiem dārgakmeņos dārgakmeņu dārgakmeņus
+87	4087	teicami	
+88	4088	krāns	krāna krānam krāni krāniem krānos krānu krānus krānā
+89	4089	daina	dainai dainas dainu dainām dainās
+90	4090	atskatīties	atskaties atskatieties atskatos atskatoties atskatāmies atskatās atskatāties atskatīdamies atskatījies atskatījos atskatījušies atskatījāmies atskatījās atskatīsies atskatīsimies atskatītos atskatīšanās atskatīšos jāatskatās neatskaties neatskatos neatskatoties neatskatās neatskatīdamies neatskatīšos
+91	4091	partnerība	partnerībai partnerības partnerību partnerībā partnerībām partnerībās
+92	4092	izziņa	izziņai izziņas izziņu izziņā izziņām izziņās
+93	4093	attīrīt	attīra attīri attīrot attīroša attīrošas attīrošie attīrošo attīrošs attīrošu attīrošā attīrošās attīru attīrām attīrīja attīrījuši attīrījāt attīrīs attīrīta attīrītais attīrītam attīrītas attīrīti attīrītie attīrīto attīrītos attīrīts attīrītu attīrītus attīrītā attīrītās attīrīšana jāattīra neattīra neattīrīti neattīrītiem neattīrīto neattīrītu neattīrītus neattīrītās
+94	4094	izgriezt	izgriez izgrieza izgriezi izgrieziet izgriezis izgriezta izgrieztas izgriezti izgrieztie izgrieztiem izgriezto izgrieztos izgriezts izgrieztu izgrieztus izgrieztā izgrieztām izgriezu izgriezusi izgriezuši izgriezām izgriezīs izgriezīsi izgriezīsim izgriezīšu izgriešana izgriež izgriežam izgriežamais izgriežamajiem izgriežami izgriežamo izgriežams izgriežamā izgriežot izgriežu jāizgriež neizgrieza neizgriezīsi
+95	4095	saskaņots	saskaņota saskaņotai saskaņotais saskaņotajai saskaņotajam saskaņotajiem saskaņotajos saskaņotajā saskaņotajām saskaņotam saskaņotas saskaņoti saskaņotie saskaņotiem saskaņoto saskaņotos saskaņotu saskaņotus saskaņotā saskaņotāk saskaņotākas saskaņotāki saskaņotāks saskaņotāku saskaņotām saskaņotās
+96	4096	ārprāts	ārprāta ārprātam ārprātu ārprātā
+97	4097	svārstība	svārstībai svārstības svārstību svārstībām svārstībās
+98	4098	aši	
+99	4099	keramika	keramikai keramikas keramiku keramikā keramikām
+100	4100	kvieši	kviesis kviešiem kviešos kviešu kviešus

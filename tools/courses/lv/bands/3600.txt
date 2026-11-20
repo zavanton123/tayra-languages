@@ -1,100 +1,100 @@
-1	3501	dobums	dobuma dobumam dobumi dobumiem dobumos dobumu dobumus dobumā
-2	3502	lāpa	lāpai lāpam lāpas lāpos lāpu lāpā lāpām lāpās
-3	3503	ekoloģisks	ekoloģiska ekoloģiskai ekoloģiskais ekoloģiskajai ekoloģiskajam ekoloģiskajiem ekoloģiskajos ekoloģiskajā ekoloģiskajām ekoloģiskajās ekoloģiskam ekoloģiskas ekoloģiskie ekoloģiskiem ekoloģisko ekoloģiskos ekoloģisku ekoloģiskus ekoloģiskā ekoloģiskāks ekoloģiskām ekoloģiskās visekoloģiskākais
-4	3504	indietis	indiete indietei indietes indieti indietim indieša indieši indiešiem indiešu indiešus
-5	3505	ratiņkrēsls	ratiņkrēsla ratiņkrēslam ratiņkrēsli ratiņkrēsliem ratiņkrēslos ratiņkrēslu ratiņkrēslus ratiņkrēslā
-6	3506	apdare	apdares
-7	3507	kūts	kūs kūti kūtij kūtis kūtī kūtīm kūtīs kūšu
-8	3508	vīnoga	vīnogai vīnogas vīnogu vīnogā vīnogām vīnogās
-9	3509	mantot	jāmanto manto mantoja mantojam mantojams mantoji mantojis mantojot mantoju mantojām mantos mantosi mantosim mantots mantotu mantošana
-10	3510	šņabis	šņabi šņabim šņabja šņabji šņabjiem šņabī
-11	3511	sloka	slokai slokam slokas sloku slokā slokām
-12	3512	spriegums	sprieguma spriegumam spriegumi spriegumiem spriegumu spriegumā
-13	3513	pretstats	pretstata pretstatam pretstati pretstatiem pretstatu pretstatus pretstatā
-14	3514	grāmatnīca	grāmatnīcai grāmatnīcas grāmatnīcu grāmatnīcā grāmatnīcām grāmatnīcās
-15	3515	prombūtne	prombūtnei prombūtnes prombūtni prombūtnē prombūtņu
-16	3516	dzemde	dzemdei dzemdes dzemdi dzemdē dzemdēm dzemdēs
-17	3517	pilskalns	pilskaln pilskalna pilskalnam pilskalni pilskalniem pilskalnos pilskalnu pilskalnus pilskalnā
-18	3518	bailīgs	bailīga bailīgai bailīgais bailīgajai bailīgajam bailīgajiem bailīgajām bailīgam bailīgas bailīgi bailīgie bailīgiem bailīgo bailīgos bailīgu bailīgus bailīgā bailīgāks bailīgām visbailīgākais
-19	3519	tēvzeme	tēvzemei tēvzemes tēvzemi tēvzemē
-20	3520	kurls	kurla kurlais kurlajam kurlam kurlas kurli kurlie kurliem kurlo kurlos kurlu kurlus kurlā kurlām
-21	3521	līdzko	
-22	3522	bilst	bilda bildi bildis bildu bildīs bildīšu bilstam bilstams bilstot bilsts bilstu jābilst nebilst
-23	3523	svira	svirai sviras sviru svirām
-24	3524	klepus	klepi klepiem klepu klepum
-25	3525	īsums	īsuma īsumu īsumā
-26	3526	akvārijs	akvārija akvārijam akvāriji akvārijiem akvārijos akvāriju akvārijus akvārijā
-27	3527	trijnieks	trijnieka trijniekam trijnieki trijniekiem trijniekos trijnieku trijniekus trijniekā
-28	3528	kapela	kapelai kapelas kapelu kapelā kapelām
-29	3529	veikls	veikla veiklai veiklais veiklajiem veiklajā veiklajām veiklam veiklas veiklie veikliem veiklo veiklos veiklu veiklus veiklā veiklāks veiklām veiklās visveiklākais
-30	3530	soļot	jāsoļo soļo soļodams soļoja soļojam soļojiet soļojot soļoju soļojām soļos soļosim soļots soļotu soļošana
-31	3531	mūzikls	mūzikl mūzikla mūziklam mūzikli mūzikliem mūziklos mūziklu mūziklus mūziklā
-32	3532	artilērija	artilērijas artilēriju artilērijā
-33	3533	rūpīgs	rūpīga rūpīgai rūpīgais rūpīgajai rūpīgajiem rūpīgam rūpīgas rūpīgie rūpīgiem rūpīgo rūpīgos rūpīgu rūpīgus rūpīgā rūpīgāks rūpīgām rūpīgās
-34	3534	airis	aira airi airiem airim airos airu airus airī aiu aius
-35	3535	pieslēgt	pieslēgti
-36	3536	guns	guni gunis gunīm
-37	3537	ķiploks	ķiploka ķiplokam ķiploki ķiplokiem ķiplokos ķiploku ķiplokus ķiplokā
-38	3538	tapete	tapetei tapetes tapeti tapetēm tapetēs tapešu
-39	3539	vannasistaba	vannasistabai vannasistabas vannasistabu vannasistabā vannasistabām vannasistabās
-40	3540	soms	som somam somi somiem somiete somietes somieti somietēm somos somu somus somā
-41	3541	svīst	jāsvīst nesvīst svīda svīdis svīdu svīdīs svīdīsi svīstam svīstat svīsti svīstot svīstu svīšana
-42	3542	šoruden	
-43	3543	more	moram morei mores mori moriem moris moru morē
-44	3544	slepkavot	neslepkavot slepkavo slepkavoja slepkavojam slepkavojat slepkavojis slepkavojot slepkavoju slepkavojām slepkavos slepkavots slepkavotu slepkavošana slepkavošanai slepkavošanas slepkavošanu slepkavošanā
-45	3545	algotnis	algotni algotnim algotņa algotņi algotņiem algotņu algotņus
-46	3546	nenormāli	
-47	3547	iecerēt	iecerējis
-48	3548	tehniķis	tehniķa tehniķe tehniķei tehniķi tehniķiem tehniķim tehniķu tehniķus tehniķī
-49	3549	spīdums	spīdum spīduma spīdumam spīdumi spīdumiem spīdumu spīdumus spīdumā
-50	3550	bibliotekārs	bibliotekāra bibliotekāram bibliotekāre bibliotekāri bibliotekāriem bibliotekāros bibliotekāru bibliotekārus bibliotekārā
-51	3551	laipnība	laipnības laipnību laipnībā laipnībām
-52	3552	mikstūra	mikstūras mikstūru mikstūrā mikstūrām
-53	3553	indivīds	indivīdu
-54	3554	sikspārnis	sikspārni sikspārnim sikspārnī sikspārņa sikspārņi sikspārņiem sikspārņu sikspārņus
-55	3555	tīšs	tīša tīšai tīšam tīšas tīšiem tīšo tīšos tīšu tīšus tīšā tīšām tīšās
-56	3556	pamatne	pamatnes
-57	3557	avene	avenes aveni avenēm avenēs aveņu
-58	3558	mobilitāte	mobilitātei mobilitātes mobilitāti mobilitātē
-59	3559	abonents	abonent abonenta abonentam abonenti abonentiem abonentos abonentu abonentus
-60	3560	gudrinieks	gudriniece gudriniecei gudrinieces gudrinieci gudriniek gudrinieka gudriniekam gudrinieki gudriniekiem gudrinieku gudriniekus
-61	3561	demokrāts	demokrāta demokrātam demokrāte demokrātei demokrātes demokrāti demokrātiem demokrātos demokrātu demokrātus
-62	3562	otrpus	
-63	3563	kaķēns	kaķēn kaķēna kaķēnam kaķēni kaķēniem kaķēnu kaķēnus
-64	3564	kalcijs	kalcija kalcijam kalciju
-65	3565	straujums	straujuma straujumam straujumu straujumā
-66	3566	īve	īva īvam īves īvi īvju īvu īvē īvēm īvēs
-67	3567	kust	kusa kusi kusis kustu kusu kusīs kušana kūst kūstot kūstošs kūstu nekust
-68	3568	nomale	nomalei nomales nomali nomalē nomalēm nomalēs nomaļu
-69	3569	respondents	respondentu
-70	3570	virsis	vira viram viri viriem viros virsi viru virša virši viršiem viršos viršu viršus
-71	3571	caurspīdīgs	caurspīdīga caurspīdīgai caurspīdīgais caurspīdīgajam caurspīdīgajiem caurspīdīgajos caurspīdīgajām caurspīdīgam caurspīdīgas caurspīdīgie caurspīdīgiem caurspīdīgo caurspīdīgos caurspīdīgu caurspīdīgus caurspīdīgā caurspīdīgāks caurspīdīgām caurspīdīgās
-72	3572	cirst	cirsts cirstu cirta cirti cirtis cirtu cirtām cirtīs cirtīsim cirtīšu ciršana cērt cērtam cērtiet cērtot cērtu jācērt necirst
-73	3573	eksotisks	eksotiska eksotiskais eksotiskajiem eksotiskajā eksotiskajām eksotiskajās eksotiskam eksotiskas eksotiski eksotiskie eksotiskiem eksotisko eksotiskos eksotisku eksotiskus eksotiskā eksotiskāks eksotiskām eksotiskās
-74	3574	papa	papam papas papu papus papā
-75	3575	nenoliedzami	
-76	3576	īstens	īstena īstenai īstenais īstenajai īstenajam īstenajiem īstenajā īstenajām īstenam īstenas īstenie īsteniem īsteno īstenos īstenu īstenus īstenā īstenām īstenās
-77	3577	skatījums	
-78	3578	kņazs	kņaz kņaza kņazam kņazi kņaziem kņazu
-79	3579	ciemoties	ciemodamies ciemojamies ciemojas ciemojaties ciemojies ciemojos ciemojoties ciemojāmies ciemojās ciemosies ciemosieties ciemosimies ciemotos ciemošanās ciemošos neciemoties
-80	3580	pamatojums	
-81	3581	vagīna	vagīnai vagīnas vagīnu vagīnā
-82	3582	zudums	zudumus
-83	3583	blīvums	blīvuma blīvumam blīvumu blīvumā
-84	3584	ģeoloģija	ģeoloģijai ģeoloģijas ģeoloģiju ģeoloģijā
-85	3585	diegs	diega diegam diegi diegiem diegos diegu diegus diegā
-86	3586	kolhozs	kolhoz kolhoza kolhozam kolhozi kolhoziem kolhozos kolhozu kolhozus kolhozā
-87	3587	bāls	bāla bālai bālais bālajiem bālajā bālajās bālas bāli bālie bālo bālos bālu bālā bālāks bālās
-88	3588	palags	palaga palagam palagi palagiem palagos palagu palagus palagā
-89	3589	trīsstūris	trijstūra trijstūris trīsstūra trīsstūri trīsstūriem trīsstūrim trīsstūru trīsstūrus trīsstūrī
-90	3590	admirālis	admirāli admirālim admirālī admirāļa admirāļi admirāļiem admirāļu
-91	3591	zebiekste	zebiekstei zebiekstes zebieksti zebiekšu
-92	3592	atriebt	atrieb atrieba atriebi atriebjot atriebs atriebsi atriebsim atriebsit atriebts atriebtu atriebšana atriebšanai atriebšot atriebšu jāatriebj
-93	3593	stiprums	stipruma stiprumam stiprumiem stiprumos stiprumu stiprumus stiprumā
-94	3594	spuldze	spuldzei spuldzes spuldzi spuldzē spuldzēm spuldzēs spuldžu spule spuli
-95	3595	vāciski	
-96	3596	čehs	čeha čeham čehi čehiem čehiete čehietei čehietes čehieti čehiešu čehu čehus
-97	3597	sūna	sûna sūnas sūni sūnu sūnā sūnām sūnās
-98	3598	rūsa	rūsai rūsas rūsu rūsā
-99	3599	skuja	skujai skujam skujas skujos skuju skujām skujās
-100	3600	gludi	
+1	3501	metro	
+2	3502	šausmīgs	visšausmīgāk visšausmīgākais visšausmīgākajiem visšausmīgākie visšausmīgāko visšausmīgākās šausmīga šausmīgais šausmīgajai šausmīgajam šausmīgajiem šausmīgajos šausmīgajā šausmīgajām šausmīgam šausmīgas šausmīgie šausmīgiem šausmīgo šausmīgos šausmīgu šausmīgus šausmīgā šausmīgāk šausmīgāka šausmīgākais šausmīgākas šausmīgākie šausmīgāko šausmīgākos šausmīgāks šausmīgākā šausmīgākās šausmīgām šausmīgās
+3	3503	rupjš	rupais rupi rupja rupjai rupjais rupjajai rupjajiem rupjajām rupjam rupjas rupjie rupjiem rupjo rupjos rupjs rupju rupjus rupjā rupjāk rupjāka rupjākais rupjākajiem rupjākajos rupjākas rupjāki rupjāko rupjākos rupjāks rupjāku rupjākus rupjākā rupjākās rupjām rupjās rupo rupu visrupjākajiem visrupjākie visrupjākā
+4	3504	izsist	izsista izsistais izsistajiem izsistajām izsistas izsisti izsistie izsistiem izsisto izsistos izsists izsistu izsistā izsistās izsit izsita izsitam izsiti izsitiet izsitis izsitot izsitu izsitusi izsitušas izsituši izsitām izsitīs izsitīsim izsitīšot izsitīšu izsišana jāizsit neizsistas neizsistu neizsit neizsita neizsitu neizsitīs
+5	3505	ūsa	ūsas ūsi ūsu ūsā ūsām ūsās
+6	3506	varde	vardei vardes vardi vardēm vardēs vare varžu
+7	3507	komunāls	komunāla komunālai komunālais komunālajai komunālajam komunālajiem komunālajos komunālajā komunālajām komunālajās komunālas komunālie komunāliem komunālo komunālos komunālā komunālās
+8	3508	psiholoģija	psiholoģijai psiholoģijas psiholoģiju psiholoģijā
+9	3509	atzinums	atzinuma atzinumam atzinumi atzinumiem atzinumos atzinumu atzinumus atzinumā
+10	3510	izkļūt	izkļuva izkļuvi izkļuvis izkļuvu izkļuvusi izkļuvuši izkļuvām izkļūs izkļūsi izkļūsim izkļūst izkļūstam izkļūsti izkļūstot izkļūtu izkļūšana izkļūšu jāizkļūst neizkļuvām neizkļūs neizkļūsiet neizkļūsim neizkļūst neizkļūt neizkļūtu neizkļūšot neizkļūšu
+11	3511	balsts	balsta balstam balsti balstiem balstos balstu balstus balstā
+12	3512	izkrist	izkristu izkrita izkriti izkritis izkritu izkritām izkritīs izkritīsi izkritīšu izkrišana izkrīt izkrīti izkrītot izkrītu jāizkrīt neizkrist neizkristu neizkrita neizkriti neizkritīs neizkrīt
+13	3513	izbraukums	izbraukuma izbraukumam izbraukumi izbraukumiem izbraukumos izbraukumu izbraukumus izbraukumā
+14	3514	aizskart	aizskar aizskaram aizskarat aizskariet aizskarot aizskarošs aizskars aizskarsi aizskarsiet aizskarsim aizskarts aizskartu aizskaru aizskaršana aizskaršu aizskāra aizskāri aizskāris aizskāru aizskārām aizskārāt jāaizskar neaizskar neaizskaram neaizskarams neaizskariet neaizskarot neaizskars neaizskarsi neaizskarsim neaizskart neaizskarts neaizskartu neaizskaru neaizskaršot neaizskaršu neaizskāra neaizskāru
+15	3515	lamatas	lamatu lamatā lamatām lamatās
+16	3516	mitrs	mitra mitrai mitrais mitrajai mitrajam mitrajiem mitrajos mitrajā mitrajām mitrajās mitram mitras mitri mitrie mitriem mitro mitros mitru mitrus mitrā mitrāka mitrākajās mitrākas mitrāki mitrākie mitrāko mitrāks mitrākus mitrākā mitrākās mitrām mitrās
+17	3517	gubernators	gubernator gubernatora gubernatoram gubernatori gubernatoriem gubernatoru gubernatorus gubernatorā
+18	3518	trīsdesmit	
+19	3519	loģika	loģikai loģikas loģiku loģikā loģikām
+20	3520	absolūts	absolūta absolūtai absolūtais absolūtajai absolūtajam absolūtajiem absolūtajos absolūtajā absolūtajām absolūtajās absolūtam absolūtas absolūtie absolūtiem absolūto absolūtos absolūtu absolūtā absolūtāk absolūtākais absolūtāko absolūtākā absolūtākās absolūtām absolūtās
+21	3521	apdzīvot	apdzīvo apdzīvoja apdzīvojam apdzīvojams apdzīvojat apdzīvojis apdzīvojot apdzīvojošai apdzīvoju apdzīvojušas apdzīvojuši apdzīvos apdzīvota apdzīvotai apdzīvotam apdzīvotas apdzīvoti apdzīvotiem apdzīvotos apdzīvots apdzīvotu apdzīvotā apdzīvotām apdzīvotās apdzīvošana apdzīvošot jāapdzīvo neapdzīvoja neapdzīvojam neapdzīvojams neapdzīvota neapdzīvotai neapdzīvotas neapdzīvoti neapdzīvots neapdzīvotu neapdzīvotus neapdzīvotā neapdzīvotās
+22	3522	sadzirdēt	jāsadzird nesadzird nesadzirdēja nesadzirdēju nesadzirdējām nesadzirdēs nesadzirdēt nesadzirdētas nesadzirdēti nesadzirdēts nesadzirdētu sadzird sadzirdam sadzirdama sadzirdamas sadzirdami sadzirdams sadzirdi sadzirdiet sadzirdot sadzirdu sadzirdēja sadzirdējis sadzirdēju sadzirdējusi sadzirdējuši sadzirdējām sadzirdēs sadzirdēsiet sadzirdēsim sadzirdēta sadzirdētam sadzirdētas sadzirdēti sadzirdētiem sadzirdēto sadzirdēts sadzirdētu sadzirdēšu
+23	3523	pieklājīgs	ais pieklājīga pieklājīgai pieklājīgais pieklājīgajam pieklājīgajiem pieklājīgajām pieklājīgam pieklājīgas pieklājīgie pieklājīgiem pieklājīgo pieklājīgos pieklājīgu pieklājīgus pieklājīgā pieklājīgāk pieklājīgāka pieklājīgākai pieklājīgākajiem pieklājīgākam pieklājīgāki pieklājīgākie pieklājīgāko pieklājīgākos pieklājīgāks pieklājīgāku pieklājīgākām pieklājīgām pieklājīgās āks
+24	3524	gleznot	glezno gleznoja gleznojam gleznojat gleznojis gleznojot gleznoju gleznojusi gleznojuši gleznojušo gleznojām gleznos gleznosim gleznota gleznotais gleznotas gleznoti gleznotie gleznoto gleznots gleznotu gleznotā gleznošana gleznošanai gleznošanas gleznošanu gleznošanā gleznošu jāglezno neglezno negleznoja negleznoju negleznosi negleznotu
+25	3525	sātans	sātan sātana sātanam sātani sātanu sātanus sātanā
+26	3526	muļķīgs	muļķīga muļķīgai muļķīgais muļķīgajai muļķīgajam muļķīgajiem muļķīgajos muļķīgajā muļķīgajām muļķīgajās muļķīgas muļķīgie muļķīgiem muļķīgo muļķīgos muļķīgu muļķīgus muļķīgā muļķīgāk muļķīgākai muļķīgākais muļķīgākajām muļķīgākie muļķīgāko muļķīgākos muļķīgāku muļķīgākā muļķīgām muļķīgās vismuļķīgāk vismuļķīgākais vismuļķīgākajām vismuļķīgāko
+27	3527	bulta	bultai bultas bultu bultā bultām
+28	3528	pildspalva	pildspalvai pildspalvas pildspalvu pildspalvā pildspalvām pildspalvās
+29	3529	ēzelis	ēzei ēzeli ēzelim ēzeļa ēzeļi ēzeļiem ēzeļu ēzeļus
+30	3530	tīties	jātinas netīties netīšos tinamies tinas tinies tinieties tinos tinoties tinās tīsies tīsieties tīsimies tītos
+31	3531	iztēle	iztēlei iztēles iztēli iztēlē iztēlēm iztēlēs
+32	3532	garšīgi	
+33	3533	jura	jurai juram juras juri juriem juru jurā
+34	3534	delegācija	delegācijai delegācijas delegāciju delegācijā delegācijām delegācijās
+35	3535	uzmest	jāuzmet neuzmest neuzmestu neuzmet neuzmeta neuzmetis neuzmetot neuzmetīs uzmests uzmestu uzmet uzmeta uzmetam uzmetat uzmeti uzmetiet uzmetis uzmetot uzmetu uzmetām uzmetāt uzmetīs uzmetīsi uzmetīsiet uzmetīšu uzmezdams uzmešana
+36	3536	putra	putrai putram putras putru putrā putrām putrās
+37	3537	poza	pozai pozas pozu pozā pozām pozās
+38	3538	pabarot	jāpabaro nepabaro nepabarojiet nepabaros nepabarosi nepabarosim nepabarots pabaro pabaroja pabarojam pabaroji pabarojiet pabarojis pabarojot pabaroju pabaros pabarosi pabarosim pabarots pabarotu pabarošana pabarošu
+39	3539	paraksts	parakstam parakstiem parakstos parakstus parakstā
+40	3540	psiholoģisks	psiholoģiska psiholoģiskai psiholoģiskais psiholoģiskajai psiholoģiskajam psiholoģiskajiem psiholoģiskajos psiholoģiskajā psiholoģiskajām psiholoģiskajās psiholoģiskam psiholoģiskas psiholoģiskie psiholoģiskiem psiholoģisko psiholoģiskos psiholoģisku psiholoģiskus psiholoģiskā psiholoģiskākas psiholoģiskām psiholoģiskās
+41	3541	em	
+42	3542	atturēties	atturamies atturas atturaties atturies atturieties atturos atturoties atturēdamies atturējas atturējies atturējos atturējusies atturējušies atturējušās atturējāmies atturējās atturēsies atturēsimies atturētos atturēšanās atturēšos jāatturas neatturamies neatturas neatturoties neatturējos neatturējāmies neatturējās neatturēties neatturētos
+43	3543	klosteris	klostera klosteri klosteriem klosterim klosteros klosteru klosterus klosterī
+44	3544	apzīmējums	apzīmējuma apzīmējumam apzīmējumi apzīmējumiem apzīmējumos apzīmējumu apzīmējumus apzīmējumā
+45	3545	saulriets	saulrieta saulrietam saulrieti saulrietiem saulrietos saulrietu saulrietus saulrietā
+46	3546	āmurs	āmariem āmeru āmur āmura āmuram āmuri āmuriem āmuru āmurus
+47	3547	iemīļots	iemīļota iemīļotai iemīļotais iemīļotajai iemīļotajam iemīļotajiem iemīļotajos iemīļotajā iemīļotajām iemīļotajās iemīļotam iemīļotas iemīļoti iemīļotie iemīļotiem iemīļoto iemīļotos iemīļotu iemīļotus iemīļotā iemīļotākais iemīļotākajai iemīļotākajiem iemīļotākajos iemīļotākajā iemīļotākajām iemīļotākas iemīļotākie iemīļotāko iemīļotākos iemīļotāku iemīļotākā iemīļotākās iemīļotām iemīļotās visiemīļotākais visiemīļotākajiem visiemīļotāko visiemīļotākās
+48	3548	būris	būra būri būriem būrim būros būru būrus būrī
+49	3549	dizainere	dizainera dizaineram dizainerei dizaineres dizaineri dizaineriem dizaineros dizainers dizaineru dizainerus dizainerēm
+50	3550	vērties	jāveras neveras nevēros nevērsies nevērtos nevērās nevēršos nevēršoties veramies veras veraties veries verieties veros veroties vēras vēries vēros vērsies vērsieties vērsimies vērtos vērāmies vērās vēršanās vēršos vēršoties
+51	3551	ērce	ēra ērcei ērces ērci ērcēm ērcēs ēriem ēru ērā ērču
+52	3552	kauliņš	kauliņ kauliņa kauliņam kauliņi kauliņiem kauliņos kauliņu kauliņus kauliņā
+53	3553	imports	import importa importam importu importā
+54	3554	vēsturiski	
+55	3555	noturēties	jānoturas nenoturas nenoturies nenoturos nenoturējies nenoturējos nenoturējāmies nenoturējās nenoturēsies nenoturēsimies nenoturēties nenoturētos noturas noturies noturos noturoties noturējies noturējos noturējusies noturējušies noturējāmies noturējās noturēsies noturēsimies noturētos noturēšanās noturēšos
+56	3556	zemestrīce	zemestrīcei zemestrīces zemestrīci zemestrīcē zemestrīcēm zemestrīču
+57	3557	uzraksts	uzraksta uzrakstam uzraksti uzrakstiem uzrakstos uzrakstu uzrakstus uzrakstā
+58	3558	vēstnesis	vēstnesi vēstnesim vēstnesī vēstneša vēstneši vēstnešiem vēstnešu vēstnešus
+59	3559	veterāns	veterāna veterānam veterāni veterāniem veterānos veterānu veterānus
+60	3560	atdalīt	atdala atdali atdaliet atdalot atdalošiem atdalošo atdalu atdalām atdalāma atdalāmais atdalāmi atdalāms atdalīja atdalījis atdalīju atdalījušos atdalījušās atdalījām atdalīs atdalīta atdalītajam atdalītas atdalīti atdalītie atdalīto atdalītos atdalīts atdalītu atdalītā atdalītām atdalītās atdalīšana jāatdala neatdalot neatdalāma neatdalāmas neatdalāmi neatdalāmo neatdalīt
+61	3561	apsveikums	apsveikuma apsveikumam apsveikumi apsveikumiem apsveikumos apsveikumu apsveikumus apsveikumā
+62	3562	uztvere	uztverei uztveres uztveri uztveru uztverē uztverēs
+63	3563	izzināt	izzina izzini izziniet izzinot izzinoša izzinošai izzinošas izzinoši izzinošiem izzinošos izzinošs izzinošu izzinošus izzinošā izzinošām izzinošās izzināja izzinājis izzinājusi izzinājuši izzinājām izzinām izzinās izzināsiet izzināsim izzināta izzinātas izzināts izzinātu izzināšana izzināšanas izzināšanu izzināšanā jāizzina neizzināmas neizzināta neizzināts neizzinātu neizzinātus
+64	3564	viedtālrunis	viedtālruni viedtālrunim viedtālrunī viedtālruņa viedtālruņi viedtālruņiem viedtālruņos viedtālruņu viedtālruņus
+65	3565	el	
+66	3566	parāde	parādei parādes parādē parādēm parādēs parāžu
+67	3567	izlabot	izlabo izlaboja izlabojam izlaboji izlabojiet izlabojis izlabojot izlaboju izlabojusi izlabojuši izlabojām izlabos izlabosi izlabosiet izlabosim izlabota izlabotas izlaboti izlaboto izlabots izlabotu izlabotā izlabošana izlabošanas izlabošanu izlabošu jāizlabo neizlabo neizlaboja neizlabojot neizlaboju neizlabosi neizlabot neizlabošu
+68	3568	hobijs	hobija hobijam hobiji hobijiem hobijos hobiju hobijus hobijā
+69	3569	klusi	
+70	3570	izpalīdzēt	izpalīdz izpalīdzam izpalīdzi izpalīdziet izpalīdzot izpalīdzu izpalīdzēja izpalīdzēji izpalīdzējis izpalīdzēju izpalīdzējusi izpalīdzējušas izpalīdzējuši izpalīdzējāt izpalīdzēs izpalīdzēsi izpalīdzēsiet izpalīdzēsim izpalīdzētu izpalīdzēšana izpalīdzēšu jāizpalīdz neizpalīdz neizpalīdzēšu
+71	3571	taisnīgums	taisnīguma taisnīgumam taisnīgumu taisnīgumā
+72	3572	šķirt	jāšķir nešķirt šķir šķirams šķiriet šķirot šķirs šķirts šķirtu šķiru šķiršana šķīra šķīris
+73	3573	ķirbis	ķirbi ķirbim ķirbja ķirbji ķirbjiem ķirbjos ķirbju ķirbjus ķirbī
+74	3574	vanags	vanag vanaga vanagam vanagi vanagiem vanagos vanagu vanagus
+75	3575	aizvietot	aizvieto aizvietoja aizvietojam aizvietojams aizvietoji aizvietojiet aizvietojis aizvietojot aizvietoju aizvietojām aizvietos aizvietosi aizvietosiet aizvietosim aizvietots aizvietotu aizvietošana aizvietošu jāaizvieto
+76	3576	karaliste	karalistei karalistes karalisti karalistu karalistē karalistēm karalistēs
+77	3577	puļķis	puis puļķa puļķi puļķiem puļķim puļķu puļķus
+78	3578	tēmēt	jātēmē netēmē netēmējam netēmējot netēmēju tēmē tēmēja tēmējam tēmējat tēmēji tēmējiet tēmējis tēmējot tēmēju tēmējusi tēmējuši tēmējām tēmēs tēmēsi tēmēta tēmētas tēmēti tēmēts tēmētu tēmētā tēmēšana tēmēšanas tēmēšanu tēmēšu
+79	3579	izlidot	izlido izlidoja izlidojam izlidoji izlidojis izlidojot izlidojošajos izlidojošie izlidojošo izlidojošos izlidoju izlidojusi izlidojušas izlidojuši izlidojušus izlidojām izlidos izlidosi izlidosiet izlidosim izlidotu izlidošana izlidošanas izlidošanu izlidošu jāizlido neizlido neizlidos neizlidotu
+80	3580	aizlidot	aizlido aizlidoja aizlidojam aizlidojat aizlidojiet aizlidojis aizlidojot aizlidojošajiem aizlidojošu aizlidojošus aizlidoju aizlidojusi aizlidojušas aizlidojuši aizlidojušie aizlidojām aizlidojāt aizlidos aizlidosiet aizlidosim aizlidots aizlidotu aizlidošana aizlidošot aizlidošu neaizlido neaizlidoja neaizlidojis neaizlidoju neaizlidojušo neaizlidos neaizlidosiet neaizlidot neaizlidotu neaizlidošu
+81	3581	kaitīgs	kaitīga kaitīgais kaitīgajai kaitīgajam kaitīgajiem kaitīgajā kaitīgajām kaitīgam kaitīgas kaitīgi kaitīgie kaitīgiem kaitīgo kaitīgos kaitīgu kaitīgus kaitīgā kaitīgāk kaitīgāka kaitīgākais kaitīgākajiem kaitīgākas kaitīgāki kaitīgākie kaitīgāko kaitīgāks kaitīgāku kaitīgākā kaitīgākās kaitīgām kaitīgās viskaitīgākais viskaitīgākajiem viskaitīgākie viskaitīgāko viskaitīgākā viskaitīgākās
+82	3582	žogs	žoga žogam žogi žogiem žogu žogus žogā
+83	3583	komēdija	komēdijai komēdijas komēdiju komēdijā komēdijām komēdijās
+84	3584	ogle	oglei ogles ogli oglē oglēm oglēs ogļu
+85	3585	daiļš	daila dailai dailas daili dailo dailu daiļa daiļai daiļais daiļajai daiļajam daiļajiem daiļajā daiļajām daiļajās daiļam daiļas daiļi daiļie daiļo daiļos daiļu daiļā daiļāk daiļāka daiļākai daiļākas daiļāko daiļāks daiļāku daiļākā daiļākās daiļām daiļās visdaiļākajām visdaiļākā visdaiļākās
+86	3586	paslēpties	jāpaslēpjas nepaslēpsies paslēpies paslēpieties paslēpjas paslēpjoties paslēpos paslēpsies paslēpsimies paslēpusies paslēpušies paslēpāmies paslēpās paslēpšanās paslēpšos
+87	3587	prezidentūra	prezidentūrai prezidentūras prezidentūru prezidentūrā prezidentūrām prezidentūrās
+88	3588	villa	villai villas villu villā villām villās
+89	3589	hektārs	hektāra hektāram hektāri hektāriem hektāros hektāru hektārus hektārā
+90	3590	slavenība	slavenībai slavenības slavenību slavenībām slavenībās
+91	3591	premjerministrs	premjerministra premjerministram premjerministri premjerministriem premjerministru premjerministrus
+92	3592	tipisks	tipiska tipiskai tipiskais tipiskajiem tipiskajā tipiskajām tipiskam tipiskas tipiskie tipiskiem tipisko tipiskos tipisku tipiskus tipiskā tipiskāk tipiskākais tipiskākajiem tipiskākajām tipiskākas tipiskākie tipiskākiem tipiskāko tipiskākos tipiskāks tipiskāku tipiskākā tipiskākās tipiskām tipiskās vistipiskākais vistipiskāko vistipiskākā
+93	3593	putniņš	putniņa putniņam putniņi putniņiem putniņu putniņus putniņā
+94	3594	apzagt	apzadzis apzaga apzagi apzags apzagsi apzagsim apzagta apzagtais apzagtajai apzagtajiem apzagtam apzagtas apzagti apzagtie apzagtiem apzagto apzagts apzagtu apzagtā apzagu apzagusi apzagušas apzaguši apzagušie apzagām apzagāt apzagšana apzodz apzog apzogam apzogat apzogot apzogu neapzaga neapzagtu neapzagu neapzodz neapzog neapzogamu
+95	3595	propaganda	propagandai propagandas propagandu propagandā propagandās
+96	3596	darināt	darina darini darinot darinu darināja darināji darinājis darināju darinājusi darinājušas darinājuši darinājām darinām darinās darināsim darināta darinātais darinātas darināti darinātie darināto darināts darinātu darinātā darināšana darināšanas darināšanu darināšanā jādarina nedarina
+97	3597	esamība	esamībai esamības esamību esamībā
+98	3598	tiesāt	jātiesā netiesā netiesājam netiesājiet netiesājot netiesāju netiesās netiesāsim netiesātais netiesāšana netiesāšu tiesādams tiesāja tiesājam tiesājams tiesājat tiesājiet tiesājis tiesājot tiesājošs tiesāju tiesājusi tiesājuši tiesājām tiesāsi tiesāta tiesātais tiesātas tiesāti tiesātie tiesāto tiesāts tiesātu tiesātā tiesāšana tiesāšanas tiesāšanu tiesāšanā tiesāšu
+99	3599	tronis	trona troni tronim tronī troņa troņi troņiem troņos troņu troņus
+100	3600	aizmugurējs	aizmugurēja aizmugurējai aizmugurējais aizmugurējajiem aizmugurējam aizmugurējas aizmugurēji aizmugurējie aizmugurējiem aizmugurējo aizmugurējos aizmugurēju aizmugurējā aizmugurējām aizmugurējās

@@ -1,100 +1,100 @@
-1	2301	ievest	ieved ieveda ievedam ievedat ievedi ievediet ievedis ievedot ievedu ievedām ievedāt ievedīs ievedīsi ievedīsiet ievedīsim ievedīšot ievedīšu ievests ievestu ievešana jāieved neievest
-2	2302	aizmigt	aizmidzis aizmiedz aizmiedziet aizmieg aizmiegam aizmiegat aizmiegot aizmiegu aizmiga aizmigdams aizmigi aizmigs aizmigsi aizmigsiet aizmigts aizmigtu aizmigu aizmigām aizmigšana aizmigšu neaizmigt
-3	2303	čoms	čom čoma čomam čomi čomiem čomu čomus
-4	2304	pusnakts	pusnakti pusnaktij pusnaktī
-5	2305	bauma	baumas
-6	2306	smuks	smuka smukai smukais smukajai smukajam smukajiem smukajos smukajā smukajām smukajās smukam smukas smukie smukiem smuko smukos smuku smukus smukā smukāks smukām smukās vissmukākais
-7	2307	labvēlīgs	labvēlīga labvēlīgai labvēlīgais labvēlīgajai labvēlīgajam labvēlīgajiem labvēlīgajos labvēlīgajā labvēlīgajām labvēlīgam labvēlīgas labvēlīgi labvēlīgie labvēlīgiem labvēlīgo labvēlīgos labvēlīgu labvēlīgus labvēlīgā labvēlīgākais labvēlīgāks labvēlīgām labvēlīgās vislabvēlīgākais
-8	2308	greizs	greiza greizais greizajai greizajam greizajiem greizajos greizajā greizajām greizam greizas greizi greizie greiziem greizo greizos greizu greizus greizā greizām greizās
-9	2309	līdzsvars	līdzsvara līdzsvaram līdzsvari līdzsvariem līdzsvaros līdzsvaru līdzsvarā
-10	2310	simptoms	simptoma simptomam simptomi simptomiem simptomos simptomu simptomus
-11	2311	izsacīt	izsaka
-12	2312	opozīcija	opozīcijai opozīcijas opozīciju opozīcijā opozīcijām
-13	2313	tīģeris	tīģera tīģeri tīģeriem tīģerim tīģeru tīģerus tīģerī
-14	2314	administratīvs	administratīvā
-15	2315	jaunava	jaunavai jaunavas jaunavu jaunavā jaunavām jaunavās
-16	2316	vaigs	vaig vaiga vaigam vaigi vaigiem vaigos vaigu vaigus vaigā
-17	2317	trieciens	triecien trieciena triecienam triecieni triecieniem triecienos triecienu triecienus triecienā
-18	2318	salāts	salāta salāti salātiem salātos salātu salātus
-19	2319	sega	segai segas segu segā segām segās
-20	2320	talka	talkai talkas talkos talku talkā talkām talkās
-21	2321	aplikācija	aplikācijai aplikācijas aplikāciju aplikācijā aplikācijām aplikācijās
-22	2322	disciplīna	disciplīnai disciplīnas disciplīnu disciplīnā disciplīnām disciplīnās
-23	2323	novērtējums	novērtējuma novērtējumam novērtējumi novērtējumiem novērtējumos novērtējumu novērtējumus novērtējumā
-24	2324	briedis	briedi briedim briedī brieža brieži briežiem briežos briežu briežus
-25	2325	riņķis	riņķa riņķi riņķiem riņķim riņķos riņķu riņķus riņķī
-26	2326	maksimāli	
-27	2327	dārgi	
-28	2328	gudrība	gudrībai gudrības gudrību gudrībā gudrībām gudrībās
-29	2329	aita	aitai aitam aitas aitu aitām aitās
-30	2330	ķēniņš	konings ķēniņ ķēniņa ķēniņam ķēniņi ķēniņiem ķēniņiene ķēniņienei ķēniņienes ķēniņieni ķēniņu ķēniņus
-31	2331	derīgs	derīga derīgai derīgais derīgajiem derīgajos derīgajā derīgajām derīgam derīgas derīgi derīgie derīgiem derīgo derīgos derīgu derīgus derīgā derīgāks derīgām derīgās
-32	2332	sanāksme	sanāksmē
-33	2333	nervs	nervu
-34	2334	karstums	karstuma karstumam karstumi karstumiem karstumos karstumu karstumā
-35	2335	uzturēt	
-36	2336	malka	malkai malkas malku malkā
-37	2337	motocikls	motocikl motocikla motociklam motocikli motocikliem motociklos motociklu motociklus motociklā
-38	2338	volejbols	volejbola volejbolam volejbolu volejbolā
-39	2339	eu	
-40	2340	ceturksnis	ceturksni ceturksnī
-41	2341	griezties	griežas
-42	2342	svētība	svētībai svētības svētību svētībā svētībām
-43	2343	klimats	klimata
-44	2344	grozs	groza grozam grozi groziem grozos grozu grozus grozā
-45	2345	pretruna	pretrunai pretrunas pretrunu pretrunā pretrunām pretrunās
-46	2346	augsti	
-47	2347	īre	īres
-48	2348	varš	varu varā
-49	2349	svešinieks	svešiniece svešiniecei svešinieces svešinieci svešiniecēm svešiniek svešinieka svešiniekam svešinieki svešiniekiem svešinieku svešiniekus svešiniekā
-50	2350	saldums	saldum salduma saldumam saldumi saldumiem saldumos saldumu saldumus saldumā
-51	2351	ierobežot	ierobežotas
-52	2352	izpausties	izpaudās izpaužas
-53	2353	smiekls	smiekl smiekla smieklam smiekli smiekliem smieklos smieklu smieklus
-54	2354	rīdzinieks	rīdziniece rīdziniecei rīdzinieces rīdzinieci rīdziniecēm rīdzinieiem rīdziniek rīdzinieka rīdziniekam rīdzinieki rīdziniekiem rīdziniekos rīdzinieku rīdziniekus rīdzinieču
-55	2355	stingri	
-56	2356	folklora	folklorai folkloras folkloru folklorā
-57	2357	izpilde	izpildei izpildes
-58	2358	psihologs	psiholog psihologa psihologam psihologi psihologiem psihologos psihologu psihologus psiholoģe psiholoģei psiholoģes psiholoģi psiholoģu psiholoģēm
-59	2359	iesist	iesists iesistu iesit iesita iesiti iesitiet iesitis iesitot iesitu iesitām iesitāt iesitīs iesitīsi iesitīsiet iesitīšu iesizdams iesišana iesišanai iesišanas jāiesit neiesist
-60	2360	robs	rob roba robam robi robiem robos robu robus robā
-61	2361	valks	valk valka valku valkus valkā
-62	2362	nogurt	jānogurst nenogurt nogura noguri noguris nogurs nogursi nogursiet nogurst nogurstam nogursti nogurstot nogurstu nogurtu noguru nogurām
-63	2363	kapsēta	kapsētai kapsētas kapsētu kapsētā kapsētām kapsētās
-64	2364	bronza	bronzai bronzas bronzu bronzā
-65	2365	slimnieks	slimniece slimniecei slimnieces slimnieci slimniecēm slimniek slimnieka slimniekam slimnieki slimniekiem slimnieku slimniekus slimniekā slimnieču
-66	2366	lēni	
-67	2367	ziedēt	jāzied neziedēt zied ziedam ziedi ziedošs ziedu ziedēja ziedējis ziedēs ziedētu ziedēšana ziedēšot ziedēšu
-68	2368	tulkojums	tulkojuma tulkojumam tulkojumi tulkojumiem tulkojumos tulkojumu tulkojumus tulkojumā
-69	2369	maisiņš	maisiņa maisiņam maisiņi maisiņiem maisiņos maisiņu maisiņus maisiņā
-70	2370	mēbele	mēbelei mēbeli mēbelē mēbelēm mēbelēs mēbeļu
-71	2371	seržants	seržant seržanta seržantam seržante seržanti seržantiem seržantu seržantā
-72	2372	sekretārs	sekretāra
-73	2373	šāviens	šāviena šāvienam šāvieni šāvieniem šāvienos šāvienu šāvienus šāvienā
-74	2374	progress	progres progresa progresam progresu progresā
-75	2375	ētika	ētikai ētikas ētiku ētikā
-76	2376	priede	priedei priedes priedi priedē priedēm priedēs prieu priežu
-77	2377	pūt	jāpūš nepūst nepūt puva puvi pūs pūst pūstam pūsti pūstot pūsts pūstu pūta pūti pūtiet pūtis pūtu pūtām pūtīs pūtīsi pūtīsim pūtīšu pūzdams pūš pūšam pūšana pūšanai pūšanas pūšanu pūšanā pūšanās pūšat pūšot pūšu
-78	2378	jauda	jaudas
-79	2379	vāks	vâks vāk vāka vākam vāki vākiem vākos vāku vākus vākā
-80	2380	riepa	riepas
-81	2381	japānis	japāni japāniete japānietes japānieti japānietēm japāniešu japānim japāņa japāņi japāņiem japāņu japāņus
-82	2382	bremze	bremzei bremzes bremzi bremzē bremzēm bremzēs bremžu
-83	2383	kritika	kritikai kritikas kritiku kritikā kritikām kritikās
-84	2384	dvīnis	dvīne dvīnes dvīni dvīnim dvīnēm dvīņa dvīņi dvīņiem dvīņos dvīņu dvīņus
-85	2385	doks	dok doka dokam doki dokiem dokos doku dokus dokā
-86	2386	tuksnesis	tuksnesi tuksnesim tuksnesī tuksneša tuksneši tuksnešiem tuksnešos tuksnešu tuksnešus
-87	2387	cimds	cimd cimda cimdam cimdi cimdiem cimdos cimdu cimdus cimdā
-88	2388	diskutēt	diskutē diskutēja diskutējam diskutējamais diskutējams diskutējat diskutējiet diskutējis diskutējot diskutēju diskutējām diskutējāt diskutēs diskutēsiet diskutēsim diskutētais diskutēts diskutētu diskutēšana diskutēšanai diskutēšanu diskutēšot diskutēšu jādiskutē nediskutēt
-89	2389	svētīt	jāsvētī svēta svēti svētiet svētot svētu svētām svētī svētīdams svētīja svētījam svētīji svētījiet svētījis svētījot svētīju svētīs svētīsi svētīsim svētīts svētītu svētīšana svētīšu
-90	2390	secinājums	secinājumi secinājumus
-91	2391	konkrēti	
-92	2392	koncertzāle	koncertzālei koncertzāles koncertzāli koncertzālē koncertzālēm koncertzālēs koncertzāļu
-93	2393	precēt	jāprec prec precam preci precot precu precēja precējis precēs precēsi precēts precētu precēšu
-94	2394	muļķīgi	
-95	2395	jebkāds	jebkāda jebkādas
-96	2396	komplekss	kompleksu
-97	2397	izteikties	izteicās izteikusies
-98	2398	iecirknis	iecirkņa
-99	2399	apdraudēt	apdraud
-100	2400	rēķināties	jārēķinās
+1	2301	vizīte	vizītei vizītes vizīti vizītē vizītēm vizītēs vizīšu
+2	2302	identitāte	identitātei identitātes identitāti identitātē identitātēm identitāšu
+3	2303	strādnieks	strādniece strādniecei strādnieces strādnieci strādniecēm strādniek strādnieka strādniekam strādnieki strādniekiem strādniekos strādnieku strādniekus strādnieču
+4	2304	filmēt	filmē filmēja filmējam filmējams filmējat filmēji filmējiet filmējis filmējot filmēju filmējusi filmējuši filmējām filmējāt filmēs filmēsi filmēsim filmēta filmētais filmētas filmēti filmētie filmēto filmēts filmētu filmētā filmēšana filmēšanai filmēšanas filmēšanu filmēšanā filmēšanām filmēšanās filmēšu jāfilmē nefilmē nefilmēju nefilmēs nefilmēsiet
+5	2305	mehānisms	mehānisma mehānismam mehānismi mehānismiem mehānismos mehānismu mehānismus mehānismā
+6	2306	kārts	kārti kārtij kārtis kārtī kārtīm kārtīs kāršu
+7	2307	ceremonija	ceremonijai ceremonijas ceremoniju ceremonijā ceremonijām ceremonijās
+8	2308	nomest	jānomet nenomest nenomestu nenomet nenometiet nenometot nenometu nenometāt nenometīs nenometīsi nenometīšu nomests nomestu nomet nometa nometam nometat nometi nometiet nometis nometot nometu nometām nometāt nometīs nometīsi nometīsiet nometīsim nometīšu nomešana
+9	2309	bads	bad bada badam badi badu badā
+10	2310	jurists	jurista juristam juristi juristiem juristos juristu juristus
+11	2311	salabot	jāsalabo nesalabo nesalaboja nesalabojams nesalabojot nesalabos nesalabosi nesalabot nesalabota nesalaboti nesalaboto nesalabots nesalabotu nesalabošanu salabo salaboja salabojam salaboji salabojiet salabojis salabojot salaboju salabojuši salabojām salabos salabosi salabosim salabota salabotais salabotas salaboti salaboto salabots salabotu salabošana salabošanas salabošanu salabošanā salabošu
+12	2312	piekļūt	jāpiekļūst nepiekļūs nepiekļūst nepiekļūstami nepiekļūt nepiekļūtu piekļuva piekļuvi piekļuvis piekļuvu piekļuvusi piekļuvušas piekļuvuši piekļuvām piekļuvāt piekļūs piekļūsi piekļūsim piekļūst piekļūstam piekļūstama piekļūstamas piekļūstamām piekļūsti piekļūstiet piekļūstot piekļūstu piekļūts piekļūtu piekļūšana
+13	2313	sadot	jāsadod jāsadodas nesadod nesadodam nesadodat nesadosim sadeva sadevi sadevies sadevis sadevu sadevusi sadevusies sadevuši sadevušies sadevušās sadevām sadevāmies sadevās sadevāt sadod sadodam sadodas sadodat sadodiet sadodieties sadodoties sadodu sados sadosi sadosies sadosim sadosimies sadoties sadotos sadots sadotu sadotām sadošu
+14	2314	izsole	izsolei izsoles izsoli izsolē izsolēm izsolēs izsoļu
+15	2315	pārcelt	jāpārceļ nepārcelsi pārcel pārceliet pārcels pārcelsi pārcelsim pārcelta pārceltais pārceltajiem pārceltajā pārceltajām pārceltajās pārceltas pārcelti pārcelto pārceltos pārcelts pārceltu pārceltā pārceltās pārcelšana pārcelšu pārceļ pārceļam pārceļat pārceļo pārceļoja pārceļot pārceļošana pārceļu pārcēla pārcēlis pārcēlu pārcēlusi pārcēlušas pārcēluši pārcēlušās pārcēlām
+16	2316	eņģelis	eņģela eņģeli eņģelim eņģelī eņģeļa eņģeļi eņģeļiem eņģeļu eņģeļus
+17	2317	biezs	bieza biezai biezais biezajai biezajam biezajiem biezajos biezajā biezajām biezam biezas biezi biezie bieziem biezo biezos biezu biezus biezā biezāk biezāka biezākai biezākais biezākajām biezākajās biezākas biezāki biezākiem biezāko biezākos biezāks biezāku biezākus biezākā biezākām biezām biezās visbiezāk visbiezākā
+18	2318	noraidīt	jānoraida nenoraida nenoraidi nenoraidīja nenoraidīju nenoraidīs noraida noraidi noraidiet noraidot noraidu noraidām noraidāms noraidāt noraidīja noraidīji noraidījis noraidīju noraidījusi noraidījušas noraidījuši noraidījām noraidījāt noraidīs noraidīsi noraidīsiet noraidīta noraidītais noraidītas noraidīti noraidītie noraidīto noraidīts noraidītu noraidīšana noraidīšanas noraidīšanu noraidīšanā noraidīšu
+19	2319	kafejnīca	kafejnīcai kafejnīcas kafejnīcu kafejnīcā kafejnīcām kafejnīcās
+20	2320	sviests	jāsviež nesviest svied svieda sviedi sviedis sviedu sviedām sviedīs sviest sviesta sviestam sviesti sviestiem sviestu sviestus sviestā sviezdams sviešana sviež sviežam sviežot
+21	2321	pusgads	pusgada pusgadam pusgadu pusgadus pusgadā
+22	2322	čūska	čūskai čūskas čūsku čūskā čūskām
+23	2323	pārdevējs	pārdevēj pārdevēja pārdevējam pārdevēji pārdevējiem pārdevējos pārdevēju pārdevējus
+24	2324	tēlot	jātēlo netēlo netēloja netēlojiet netēloju netēlojāt netēlos netēlosim netēlotu tēlo tēlodams tēloja tēlojam tēlojat tēloji tēlojis tēlojot tēloju tēlojusi tēlojuši tēlojām tēlojāt tēlos tēlosi tēlosiet tēlosim tēlosit tēlota tēlotais tēlotas tēloti tēloto tēlots tēlotu tēlotā tēlošana tēlošanas tēlošanu tēlošu
+25	2325	seksuāls	seksuāla seksuālai seksuālais seksuālajai seksuālajiem seksuālajos seksuālajā seksuālajām seksuālajās seksuālam seksuālas seksuālie seksuāliem seksuālo seksuālos seksuālu seksuālus seksuālā seksuālāka seksuālākiem seksuālāko seksuālāks seksuālāku seksuālākā seksuālām seksuālās visseksuālākā
+26	2326	aizvadīt	aizvada aizvadi aizvadiet aizvadot aizvadu aizvadām aizvadīja aizvadīji aizvadījis aizvadīju aizvadījām aizvadījāt aizvadīs aizvadīsi aizvadīsiet aizvadīsim aizvadīts aizvadītu aizvadīšana aizvadīšu jāaizvada neaizvada neaizvadot neaizvadīja neaizvadīs neaizvadīsim neaizvadīt
+27	2327	skart	jāskar neskart skar skaram skardams skariet skarot skars skarsim skarts skartu skaru skaršot skāra skāris skārām
+28	2328	izmēģināt	izmēģina izmēģinot izmēģināja izmēģinājis izmēģināju izmēģināts neizmēģina neizmēģinot neizmēģināja neizmēģināju neizmēģināt
+29	2329	bite	bie bii bitei bites biti bitē bitēm bišu
+30	2330	spiest	spiesti spiests
+31	2331	liepājnieks	liepājniece liepājniecei liepājnieces liepājnieci liepājniecēm liepājniek liepājnieka liepājniekam liepājnieki liepājniekiem liepājniekos liepājnieku liepājniekus liepājnieču
+32	2332	pirāts	pirāta pirātam pirāti pirātiem pirātos pirātu pirātus
+33	2333	izcelties	izcelas izcelies izcelsies izcelsimies izceltos izcelšanās izcelšos izceļamies izceļas izceļojies izceļojos izceļojusies izceļojušies izceļojušās izceļos izceļosies izceļosimies izceļoties izcēlies izcēlusies izcēlušies izcēlušās izcēlāmies izcēlās jāizceļas neizcelas neizcelies neizcelsies neizcelties neizceltos neizcelšos neizcelšoties neizceļamies neizceļas neizceļaties neizceļoties neizcēlies neizcēlos neizcēlās
+34	2334	autovadītājs	autovadītāja autovadītājam autovadītāji autovadītājiem autovadītājos autovadītāju autovadītājus autovadītājā
+35	2335	televizors	televizora televizoram televizori televizoriem televizoros televizoru televizorus televizorā
+36	2336	māmiņa	māmiņai māmiņas māmiņu māmiņā māmiņām
+37	2337	maita	maitai maitas maitu maitā maitām maitās
+38	2338	pierakstīt	jāpieraksta nepieraksta nepieraksti nepierakstīja nepierakstīju nepierakstīsiet nepierakstīto pieraksta pieraksti pierakstiet pierakstot pierakstu pierakstām pierakstīja pierakstīji pierakstījis pierakstīju pierakstījusi pierakstījuši pierakstījām pierakstīs pierakstīsi pierakstīsim pierakstīta pierakstītajiem pierakstītajām pierakstītas pierakstīti pierakstītie pierakstītiem pierakstīto pierakstītos pierakstīts pierakstītu pierakstītā pierakstītām pierakstītās pierakstīšana pierakstīšu
+39	2339	ābols	ābola ābolam āboli āboliem ābolos ābolu ābolus ābolā
+40	2340	vērtējums	vērtējuma vērtējumam vērtējumi vērtējumiem vērtējumos vērtējumu vērtējumus vērtējumā
+41	2341	atvadīties	atvadas atvadies atvadieties atvados atvadoties atvadāmies atvadās atvadāties atvadījies atvadījos atvadījusies atvadījušies atvadījušās atvadījāmies atvadījās atvadījāties atvadīsies atvadīsimies atvadītos atvadīšanās atvadīšos jāatvadās neatvadies neatvados neatvadoties neatvadās neatvadījies neatvadījusies neatvadījāmies neatvadījās neatvadījāties neatvadīsies neatvadīsimies neatvadīšos
+42	2342	lauzt	jālauž lauz lauza lauzdams lauzi lauziet lauzis lauzošs lauzta lauztai lauztais lauztas lauzti lauztiem lauztos lauzts lauztu lauztus lauztā lauztām lauztās lauzu lauzām lauzāt lauzīs lauzīsi lauzīsim lauzīšu laušana lauž laužam laužat laužot laužu nelauzt
+43	2343	komandieris	komandiera komandieri komandieriem komandierim komandieru komandierus
+44	2344	reģistrācija	reģistrācijai reģistrācijas reģistrāciju reģistrācijā reģistrācijām reģistrācijās
+45	2345	nolaist	jānolaiž nenolaid nenolaida nenolaidiet nenolaidis nenolaidu nenolaidīs nenolaidīsim nenolaidīšu nenolaist nenolaistu nenolaiž nenolaižam nenolaižot nenolaižu nolaid nolaida nolaidi nolaidiet nolaidis nolaidu nolaidām nolaidīs nolaidīsim nolaidīšu nolaists nolaistu nolaišana nolaiž nolaižam nolaižams nolaižat nolaižot nolaižu
+46	2346	pietura	pieturai pieturas pieturu pieturā pieturām pieturās
+47	2347	augums	auguma augumam augumi augumiem augumos augumu augumus augumā
+48	2348	kalps	kalp kalpa kalpam kalpi kalpiem kalpone kalponei kalpones kalponi kalponēm kalpos kalpoņu kalpu kalpus
+49	2349	pirmoreiz	
+50	2350	leģenda	leģendai leģendas leģendu leģendā leģendām leģendās
+51	2351	pateicīgs	pateicīga pateicīgai pateicīgais pateicīgam pateicīgas pateicīgi pateicīgie pateicīgiem pateicīgo pateicīgos pateicīgu pateicīgus pateicīgā pateicīgāka pateicīgākais pateicīgākajiem pateicīgākajām pateicīgākam pateicīgākas pateicīgāki pateicīgākie pateicīgāko pateicīgāks pateicīgākā pateicīgām pateicīgās vispateicīgākais vispateicīgākie vispateicīgākā
+52	2352	sakne	saknei saknes sakni saknē saknēm saknēs sakņu
+53	2353	cieši	
+54	2354	apciemot	apciemo apciemodams apciemoja apciemojam apciemojat apciemoji apciemojiet apciemojis apciemojot apciemoju apciemojusi apciemojušas apciemojuši apciemojām apciemojāt apciemos apciemosi apciemosiet apciemosim apciemota apciemotas apciemoti apciemotie apciemotu apciemotā apciemošana apciemošanas apciemošanu apciemošu jāapciemo neapciemo neapciemoja neapciemojam neapciemoji neapciemoju neapciemos neapciemotu
+55	2355	gatavība	gatavībai gatavības gatavību gatavībā
+56	2356	lēnām	
+57	2357	sastādīt	jāsastāda nesastāda nesastādīja nesastādītu sastāda sastādi sastādiet sastādot sastādu sastādām sastādāt sastādīja sastādīji sastādījis sastādīju sastādījusi sastādījuši sastādījām sastādīs sastādīsi sastādīsiet sastādīsim sastādīta sastādītais sastādītajam sastādītajiem sastādītajā sastādītajām sastādītas sastādīti sastādītie sastādīto sastādītos sastādīts sastādītu sastādītā sastādītās sastādīšana sastādīšu
+58	2358	ienīsts	ienīsta ienīstam ienīstas ienīsti ienīsto ienīstu ienīstā ienīstās visienīstākajam
+59	2359	izšķirt	izšķir izšķirams izšķiriet izšķirot izšķiroša izšķirošai izšķirošais izšķirošajai izšķirošajam izšķirošajiem izšķirošajos izšķirošajā izšķirošajām izšķirošas izšķiroši izšķirošie izšķirošo izšķirošos izšķirošs izšķirošu izšķirošus izšķirošā izšķirošākais izšķirošās izšķirs izšķirsim izšķirts izšķirtu izšķiru izšķiršana izšķīra izšķīru izšķīrām jāizšķir neizšķir neizšķirs neizšķirtu neizšķiru neizšķīra
+60	2360	tulkot	jātulko netulko netulkojat netulkot netulkotu tulko tulkoja tulkojam tulkojamais tulkojamo tulkojams tulkojat tulkojis tulkojot tulkoju tulkojusi tulkojuši tulkos tulkosi tulkota tulkotais tulkotajiem tulkotajā tulkotajām tulkotas tulkoti tulkotie tulkotiem tulkoto tulkotos tulkots tulkotu tulkotā tulkotās tulkošana tulkošanai tulkošanas tulkošanu tulkošanā
+61	2361	atmosfēra	atmosfērai atmosfēras atmosfēru atmosfērā atmosfērām
+62	2362	obligāti	
+63	2363	atmaksāt	atmaksā atmaksāja atmaksājamo atmaksājams atmaksājamā atmaksājamās atmaksāji atmaksājiet atmaksājis atmaksājot atmaksāju atmaksājusi atmaksājuši atmaksājušās atmaksās atmaksāsi atmaksāsiet atmaksāsim atmaksāta atmaksātas atmaksāti atmaksāto atmaksātos atmaksāts atmaksātu atmaksātās atmaksāšana atmaksāšu jāatmaksā neatmaksā neatmaksājamu neatmaksājot neatmaksās neatmaksāsi neatmaksāt neatmaksāto neatmaksātos neatmaksātā neatmaksātās
+64	2364	dusmīgs	dusmīga dusmīgai dusmīgais dusmīgajam dusmīgajām dusmīgam dusmīgas dusmīgi dusmīgie dusmīgiem dusmīgo dusmīgos dusmīgu dusmīgus dusmīgā dusmīgāk dusmīgāka dusmīgākam dusmīgāki dusmīgākie dusmīgāks dusmīgāku dusmīgām
+65	2365	lūpa	lūpai lūpam lūpas lūpu lūpā lūpām lūpās
+66	2366	svins	svin svina svinam svini svinu svinā
+67	2367	pensionārs	pensionāra pensionāram pensionāri pensionāriem pensionāros pensionāru pensionārus
+68	2368	cepums	cepum cepuma cepumam cepumi cepumiem cepumos cepumu cepumus cepumā
+69	2369	dibināt	dibina dibini dibiniet dibinot dibinu dibināja dibinājis dibināju dibinājām dibinājāt dibinām dibinās dibināsi dibināsiet dibināsim dibināts dibinātu dibināšana dibināšanai dibināšanas dibināšanu dibināšanā dibināšanās dibināšu jādibina nedibināt
+70	2370	ieskatīties	ieskaties ieskatieties ieskatos ieskatoties ieskatāmies ieskatās ieskatāties ieskatīdamies ieskatījies ieskatījos ieskatījusies ieskatījušies ieskatījušās ieskatījāmies ieskatījās ieskatījāties ieskatīsies ieskatīsimies ieskatīsities ieskatītos ieskatīšanās ieskatīšos jāieskatās neieskaties neieskatos neieskatoties neieskatāmies neieskatās neieskatījies neieskatījos neieskatījušies neieskatījās neieskatīšos
+71	2371	reliģija	reliģijai reliģijas reliģiju reliģijā reliģijām reliģijās
+72	2372	baža	bažas bažu bažām bažās
+73	2373	govs	govi govij govis govju govī govīm
+74	2374	izņēmums	izņēmuma izņēmumam izņēmumi izņēmumiem izņēmumos izņēmumu izņēmumus
+75	2375	bloks	blok bloka blokam bloki blokiem blokos bloku blokus blokā
+76	2376	pētnieks	pētnieka pētniekam pētnieki pētniekiem pētniekos pētnieku pētniekus
+77	2377	muskulis	muskuli muskulim muskulu muskulī muskuļa muskuļi muskuļiem muskuļos muskuļu muskuļus
+78	2378	izjust	izjusts izjustu izjuta izjuti izjutis izjutu izjutām izjutāt izjutīs izjutīsi izjutīsiet izjutīsim izjutīšot izjutīšu izjuzdams izjušana izjūt izjūtam izjūtams izjūtat izjūti izjūtiet izjūtot jāizjūt neizjust neizjusts neizjustu neizjuta neizjutu neizjutām neizjutīs neizjutīsiet neizjutīsim neizjutīšot neizjūt neizjūtam neizjūti neizjūtot neizjūtu
+79	2379	uzcelt	jāuzceļ neuzcels neuzcelsi neuzcelta neuzcelto neuzceltā neuzceltās neuzceļ neuzcēla uzcel uzceliet uzcels uzcelsi uzcelsim uzcelta uzceltais uzceltajiem uzceltajā uzceltajām uzceltam uzceltas uzcelti uzcelto uzceltos uzcelts uzceltu uzceltā uzceltās uzcelšana uzcelšu uzceļ uzceļam uzceļot uzcēla uzcēlis uzcēlu uzcēlusi uzcēluši uzcēlām
+80	2380	igaunis	igauni igauniem igauniete igaunietei igaunietes igaunieti igaunietēm igaunim igaunu igauņa igauņi igauņiem igauņos igauņu igauņus
+81	2381	lielums	lielum lieluma lielumam lielumi lielumiem lielumos lielumu lielumus lielumā
+82	2382	noiet	jānoiet nenoejam nenoejot nenoejošais nenoeju nenogāja nenogāju nenoies nenoiesi nenoiet nenoietu noej noejam noejamo noejiet noejot noeju nogāja nogāji nogājis nogāju nogājusi nogājušas nogājuši nogājušo nogājām noiedama noies noiesi noieta noietais noietam noieti noieto noiets noietu noietā noiešana noiešu
+83	2383	maksimāls	maksimāla maksimālai maksimālais maksimālajai maksimālajam maksimālajiem maksimālajos maksimālajā maksimālajām maksimālajās maksimālam maksimālas maksimālie maksimāliem maksimālo maksimālos maksimālu maksimālus maksimālā maksimālāk maksimālākais maksimālākos maksimālām maksimālās
+84	2384	likumprojekts	likumprojekta likumprojektam likumprojekti likumprojektiem likumprojektos likumprojektu likumprojektus likumprojektā
+85	2385	izsniegt	izsniedz izsniedza izsniedzam izsniedzams izsniedziet izsniedzis izsniedzot izsniedzu izsniedzām izsniegs izsniegsiet izsniegsim izsniegts izsniegtu izsniegšana izsniegšanai izsniegšanas izsniegšanu izsniegšanā izsniegšot izsniegšu jāizsniedz neizsniedz neizsniedza neizsniedzam neizsniedzis neizsniedzot neizsniegs neizsniegsim neizsniegt neizsniegtu neizsniegšana
+86	2386	negaidīts	negaidīta negaidītai negaidītais negaidītajai negaidītajam negaidītajiem negaidītajos negaidītajā negaidītajām negaidītam negaidītas negaidīti negaidītie negaidītiem negaidīto negaidītos negaidītu negaidītus negaidītā negaidītākais negaidītākajos negaidītākajā negaidītākos negaidītāks negaidītākās negaidītām negaidītās visnegaidītākais visnegaidītākajiem visnegaidītākajos visnegaidītākajā visnegaidītākajās visnegaidītāko visnegaidītākos visnegaidītākās
+87	2387	smieklīgs	smieklīga smieklīgai smieklīgais smieklīgajai smieklīgajam smieklīgajiem smieklīgajos smieklīgajām smieklīgajās smieklīgam smieklīgas smieklīgie smieklīgiem smieklīgo smieklīgos smieklīgu smieklīgus smieklīgā smieklīgāk smieklīgāka smieklīgākais smieklīgākajām smieklīgākas smieklīgāki smieklīgākie smieklīgākiem smieklīgāko smieklīgākos smieklīgāks smieklīgāku smieklīgākā smieklīgākās smieklīgām smieklīgās vissmieklīgāk vissmieklīgākais vissmieklīgākajām vissmieklīgākie vissmieklīgākās
+88	2388	troksnis	troksna troksni troksnim troksnu troksnī trokšņa trokšņi trokšņiem trokšņos trokšņu trokšņus
+89	2389	iecere	iecerei ieceres ieceri ieceru iecerē iecerēm iecerēs
+90	2390	krēsls	krēsl krēslam krēsli krēsliem krēslos krēslu krēslus krēslā
+91	2391	pelēks	pelēka pelēkai pelēkais pelēkajai pelēkajam pelēkajiem pelēkajos pelēkajā pelēkajām pelēkajās pelēkam pelēkas pelēki pelēkie pelēkiem pelēko pelēkos pelēku pelēkā pelēkāka pelēkākajam pelēkākajiem pelēkākam pelēkākas pelēkāki pelēkāku pelēkākām pelēkākās pelēkām pelēkās
+92	2392	noma	nomai nomas nomu nomā nomām nomās
+93	2393	dzimums	dzimum dzimuma dzimumam dzimumi dzimumiem dzimumos dzimumu dzimumus dzimumā
+94	2394	pastaiga	pastaigai pastaigas pastaigu pastaigā pastaigām pastaigās
+95	2395	telts	telti teltij teltis teltī teltīm teltīs telu telšu
+96	2396	raksturīgs	raksturīga raksturīgai raksturīgais raksturīgajai raksturīgajam raksturīgajiem raksturīgajos raksturīgajā raksturīgajām raksturīgajās raksturīgam raksturīgas raksturīgie raksturīgiem raksturīgo raksturīgos raksturīgu raksturīgus raksturīgā raksturīgāk raksturīgāka raksturīgākais raksturīgākajiem raksturīgākajām raksturīgākajās raksturīgākas raksturīgāki raksturīgākie raksturīgākiem raksturīgāko raksturīgākos raksturīgākā raksturīgākām raksturīgākās raksturīgām raksturīgās visraksturīgāk visraksturīgākais visraksturīgākā
+97	2397	loģisks	loģiska loģiskai loģiskais loģiskajai loģiskajam loģiskajiem loģiskajos loģiskajā loģiskajām loģiskam loģiskas loģiski loģiskie loģiskiem loģisko loģiskos loģisku loģiskus loģiskā loģiskāk loģiskāka loģiskākais loģiskākajiem loģiskāki loģiskākie loģiskāko loģiskākos loģiskāks loģiskākus loģiskākā loģiskām loģiskās visloģiskāk visloģiskākais visloģiskākie visloģiskāko visloģiskākā
+98	2398	infekcija	infekcijai infekcijas infekciju infekcijām
+99	2399	scenārijs	scenārija scenārijam scenāriji scenārijiem scenārijos scenāriju scenārijus scenārijā
+100	2400	izbraukt	izbrauc izbrauca izbraucam izbraucama izbraucamas izbraucami izbraucamiem izbraucams izbraucamā izbraucat izbrauciet izbraucis izbraucot izbraucu izbraucām izbraucāt izbrauks izbrauksi izbrauksim izbraukti izbraukts izbrauktu izbraukušajiem izbraukušie izbraukušo izbraukšana izbraukšu jāizbrauc neizbrauc neizbraucama neizbraucamas neizbraucami neizbraucams neizbraucamu neizbrauciet neizbraucot neizbraucāt neizbrauks neizbrauksi

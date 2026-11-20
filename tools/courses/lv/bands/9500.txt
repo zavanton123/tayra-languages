@@ -1,0 +1,100 @@
+1	9401	karikatūrists	karikatūrista karikatūristam karikatūristi karikatūristiem karikatūristu karikatūristus
+2	9402	pavedins	pavedina pavedini
+3	9403	nebēdnis	nebēdne nebēdni nebēdņi nebēdņiem
+4	9404	dziedātājputns	dziedātājputna dziedātājputni dziedātājputniem dziedātājputnu dziedātājputnus
+5	9405	pielidot	pielido pielidoja pielidoji pielidojot pielidos pielidošana
+6	9406	pamīlēties	pamīlējamies pamīlēsimies pamīlētos pamīlēšanās
+7	9407	taustīties	netaustīties taustos taustoties taustāmies taustījos taustījusies taustījās taustīšanās
+8	9408	inženiere	inženieres inženieri inženieru
+9	9409	taupīgi	
+10	9410	tāss	tāsi tāsij tāsis tāsīm tāā tāšiem tāšos tāšu
+11	9411	liberālisms	liberālisma liberālismam liberālismu
+12	9412	plaudis	plaudi plaudim plauža plauži plaužiem plaužu plaužus
+13	9413	etīde	etīdes etīdi etīdē etīdēm etīdēs etīžu
+14	9414	tīrelis	tīrei tīreli tīreliem tīrelim tīrelī tīreļa tīreļi tīreļiem tīreļos tīreļu
+15	9415	ņiprs	ņipra ņiprais ņiprajai ņiprajam ņiprajiem ņipram ņipras ņiprie ņipriem ņipro ņipros ņipru ņiprus ņiprā ņiprāk ņiprāka ņiprākais ņiprākie ņiprāko ņiprāks ņiprāku ņiprākā ņiprām ņiprās
+16	9416	izravēt	izravē izravēja izravējam izravējot izravēju izravējusi izravējuši izravēs izravēsim izravēta izravētais izravētas izravēti izravēto izravēts izravētu izravēšanas izravēšanu jāizravē neizravēt neizravēšanu
+17	9417	virsjaka	virsjakas virsjaku virsjakā virsjakām virsjakās
+18	9418	kroplība	kroplības kroplību kroplībām
+19	9419	mocarella	mocarellas mocarellu
+20	9420	uzsēdēties	jāuzsēžas neuzsēžas uzsēdies uzsēžamies uzsēžas uzsēžos uzsēžoties
+21	9421	sadistisks	sadistiska sadistiskai sadistiskais sadistiskajiem sadistiskajām sadistiskas sadistiski sadistisku sadistiskā sadistiskām sadistiskās
+22	9422	flanelis	flaneli flaneļa
+23	9423	saritināties	saritinies saritinos saritinājies saritinājusies saritināsimies saritināšos
+24	9424	izošņāt	izošņā izošņāja izošņājiet izošņājusi izošņājuši izošņāsim izošņāšu jāizošņā
+25	9425	pērs	pēr pēra pēram pēri pēriem pēru pērā
+26	9426	centralizācija	centralizācijai centralizācijas centralizāciju centralizācijā
+27	9427	izvērties	izvērsies izvēršanās izvēršoties jāizveras neizvēršoties
+28	9428	taiga	taigai taigas taigu taigā
+29	9429	ietaupīties	ietaupoties ietaupās ietaupījies ietaupījusies ietaupījās ietaupīsies ietaupītos
+30	9430	ķimene	ķimenēm ķimenēs ķimeņu
+31	9431	diplomāte	diplomātei diplomātes diplomāti
+32	9432	bezjēdzība	bezjēdzībai bezjēdzības bezjēdzību bezjēdzībā bezjēdzībām
+33	9433	circenis	circena circeni circenim circeņa circeņi circeņu circeņus
+34	9434	sakult	jāsakuļ sakul sakuliet sakuls sakults sakultu sakuļ sakuļot sakuļu sakūlis
+35	9435	čellists	čellista čellistam čellisti čellistiem čellistu
+36	9436	žagata	žagatas žagatu žagatām
+37	9437	smaganas	smaganaam
+38	9438	melodrāma	melodrāmas melodrāmu melodrāmā
+39	9439	žāvāties	jāžāvājas žāvādamies žāvājamies žāvājas žāvājos žāvājoties žāvājās žāvāsies žāvāšanās
+40	9440	bacilis	bacili bacilim baciļa baciļi baciļiem baciļu baciļus
+41	9441	ieveidot	ieveido ieveidoja ieveidojams ieveidojiet ieveidojusi ieveidota ieveidotais ieveidoti ieveidotu ieveidošana ieveidošanas ieveidošanu
+42	9442	izmētāt	izmētā izmētādams izmētāja izmētājat izmētājis izmētājām izmētās izmētāsim izmētāts izmētātu izmētāšana neizmētāsim neizmētātu
+43	9443	pusvadītājs	pusvadītāji pusvadītājiem pusvadītāju
+44	9444	teicamniece	teicamnieces teicamniecēm teicamnieču
+45	9445	pliķis	pliķi pliķim pliķu pliķus
+46	9446	šovinisms	šovinisma šovinismu šovinismā
+47	9447	tīģeriene	tīģerienei
+48	9448	dzeloņcūka	dzeloņcūkas dzeloņcūku
+49	9449	sešpaka	sešpakas sešpaku
+50	9450	uzslēgt	uzslēdz uzslēdzis uzslēdzu uzslēgšu
+51	9451	bezprātīgs	bezprātīga bezprātīgais bezprātīgi bezprātīgie bezprātīgu bezprātīgās
+52	9452	palocīties	jāpalokās palocījās palokies palokās
+53	9453	lejtece	lejtecei lejteces lejteci lejtecē
+54	9454	vārpsta	vārpstai vārpstas vārpstu vārpstām
+55	9455	ģeodēzija	ģeodēzijas ģeodēziju ģeodēzijā
+56	9456	patriarhs	patriarha patriarham patriarhi patriarhiem patriarhu
+57	9457	astere	astee asteres asteru asterēm asterēs
+58	9458	dzeltenums	dzeltenuma dzeltenumam dzeltenumi dzeltenumiem dzeltenumos dzeltenumu dzeltenumus dzeltenumā
+59	9459	vājredzīgs	vājredzīga vājredzīgais vājredzīgajiem vājredzīgas vājredzīgi vājredzīgie vājredzīgiem vājredzīgo vājredzīgu vājredzīgus vājredzīgām vājredzīgās
+60	9460	nomāktība	nomāktībai nomāktības nomāktību nomāktībā
+61	9461	dundurs	dundura dunduri dunduriem dunduros dunduru dundurus
+62	9462	kulaks	kulaka kulaki kulakiem kulakos kulaku kulakus kulakā
+63	9463	izžāvēt	izžāvē izžāvēja izžāvējam izžāvējis izžāvējot izžāvējām izžāvēs izžāvēts izžāvētu jāizžāvē neizžāvē neizžāvēju
+64	9464	padiskutēt	jāpadiskutē padiskutē padiskutēja padiskutējam padiskutējot padiskutēju padiskutēs padiskutēsim padiskutēts padiskutētu padiskutēšu
+65	9465	kondensāts	kondensāta kondensātam kondensātu
+66	9466	mongolis	mongoļa mongoļi mongoļiem mongoļu mongoļus
+67	9467	noradīt	nenoradi norada noradi noradot noradīja noradījāt noradīts noradītu
+68	9468	skuba	skubu
+69	9469	plebejs	plebeji plebejiem plebeju
+70	9470	izčakarēt	izčakarē izčakarēja izčakarēju izčakarēs izčakarēts izčakarētu jāizčakarē neizčakarē
+71	9471	pārdegt	nepārdedz nepārdega nepārdegt nepārdegtu pārdedzis pārdeg pārdega pārdegot pārdegusi pārdegušais pārdeguši pārdegšana pārdegšu
+72	9472	pietecēties	pietekas
+73	9473	sasodīties	sasodas sasodītos
+74	9474	žiroskops	žiroskopa žiroskopi žiroskopu žiroskopā
+75	9475	zeņķis	zeņķa zeņķi zeņķu
+76	9476	sagūt	sagūst sagūsti sagūstiet sagūstot
+77	9477	kunilings	kunilingu kunilingā
+78	9478	skuķēns	skuķēnam skuķēni skuķēnu
+79	9479	tumšmatains	tumšmatainais tumšmatainas tumšmatainiem tumšmatainā tumšmatainām
+80	9480	šķirtenis	šķirteni šķirteņa šķirteņi šķirteņiem šķirteņu
+81	9481	homoseksualitāte	homoseksualitātei homoseksualitātes homoseksualitāti homoseksualitātē
+82	9482	sisenis	siseni sisenim siseņa siseņi siseņiem siseņu siseņus
+83	9483	dziedonis	dziedone dziedones dziedoni dziedonim dziedoņa dziedoņi dziedoņiem dziedoņos dziedoņu dziedoņus
+84	9484	teorētiķis	teorētiķa teorētiķi teorētiķiem teorētiķim teorētiķos teorētiķu teorētiķus
+85	9485	beņķis	beņķa beņķi beņķiem beņķos beņķu beņķus beņķī
+86	9486	apgraizīšana	apgraizīšanai apgraizīšanas apgraizīšanu
+87	9487	antropologs	antropologa antropologi antropologiem antropologu antropoloģe antropoloģes antropoloģēm
+88	9488	krūmājs	krūmāja krūmāji krūmājiem krūmājos krūmāju krūmājus krūmājā
+89	9489	refleksija	refleksijai refleksijas refleksiju refleksijā refleksijām refleksijās
+90	9490	iracionāls	iracionāla iracionālai iracionālais iracionālajai iracionālajam iracionālajā iracionālas iracionāliem iracionālo iracionālos iracionālu iracionālā iracionālāka iracionālām iracionālās
+91	9491	daiļums	daiļuma daiļumu daiļumus daiļumā
+92	9492	mikseris	miksera mikseri mikseriem mikserim mikserī
+93	9493	kailums	kailuma kailumam kailumu kailumā
+94	9494	iebalsot	iebalso iebalsoja iebalsojam iebalsojis iebalsojot iebalsojām iebalsos iebalsots iebalsotu jāiebalso neiebalsoja
+95	9495	amerikānisks	amerikāniska amerikāniskais amerikāniskajam amerikāniskajos amerikāniskas amerikāniski amerikāniskie amerikānisko amerikāniskus amerikāniskā amerikāniskāka amerikāniskām amerikāniskās
+96	9496	ņau	
+97	9497	dekorators	dekoratora dekoratori dekoratoriem dekoratoru dekoratorus
+98	9498	sifiliss	sifilisa sifilisiem sifilisu
+99	9499	dzeloņstieple	dzeloņstieples dzeloņstiepli dzeloņstieplēm dzeloņstiepļu
+100	9500	noveikties	nenoveicās nenoveikties noveicas noveicies noveicās noveiksies

@@ -1,0 +1,100 @@
+1	7301	izspļaut	izspļauj izspļaujiet izspļaus izspļausi izspļautajām izspļauts izspļautu izspļaušu izspļāva izspļāvis izspļāvuši neizspļausi
+2	7302	bērnunams	bērnunama bērnunamam bērnunami bērnunamiem bērnunamos bērnunamus
+3	7303	disidents	disidenta disidentam disidenti disidentiem disidentu disidentus disidentā
+4	7304	izkārtoties	izkārtojamies izkārtojas izkārtojieties izkārtojās izkārtosies izkārtosimies
+5	7305	atspoguļojums	atspoguļojuma atspoguļojumam atspoguļojumi atspoguļojumiem atspoguļojumu atspoguļojumus atspoguļojumā
+6	7306	elektrods	elektroda elektrodam elektrodi elektrodiem elektrodu elektrodus
+7	7307	noriet	jānorej nenorej nenorejiet nenoriet norej norejam norejat norejot nories noriesiet norietu norēja norēju
+8	7308	žubīte	žubītes žubītēm
+9	7309	paviesoties	jāpaviesojas paviesodamies paviesojamies paviesojas paviesojies paviesojieties paviesojos paviesojoties paviesojusies paviesojušies paviesojušās paviesojāmies paviesojās paviesosies paviesosieties paviesotos paviesošanās
+10	7310	iesēdēties	iesēdies iesēdējies iesēdēsies iesēžamies iesēžas iesēžos iesēžoties neiesēžas
+11	7311	kebabs	kebaba kebabam kebabi kebabiem kebabos kebabu kebabus
+12	7312	zeltaini	
+13	7313	medicīniski	
+14	7314	kvarcs	kvarca kvarcu kvarcā
+15	7315	iebarot	iebaro iebaroja iebarojams iebaroji iebarojiet iebarojot iebaros iebarosiet iebarosim iebarots iebarotu jāiebaro neiebaros neiebarosi
+16	7316	apkārtmērs	apkārtmēra apkārtmēram apkārtmēri apkārtmēriem apkārtmēru apkārtmērus apkārtmērā
+17	7317	apcelt	apcel apcels apcelta apceltais apcelti apcelto apcelts apceltu apcelšana apceļ apceļamie apceļamo apceļošu apcēla apcēlis apcēlu apcēlusi apcēluši neapceliet neapcelt neapceļ neapceļot
+18	7318	nogatavoties	jānogatavojas nenogatavojas nenogatavojies nenogatavojoties nenogatavojušies nenogatavosies nogatavojamies nogatavojas nogatavojies nogatavojoties nogatavojusies nogatavojušies nogatavojušās nogatavojās nogatavosies nogatavotos nogatavošanās
+19	7319	dzimte	dzimtei dzimtes dzimti dzimtē dzimtēs dzimšu
+20	7320	amonjaks	amonjaka amonjaku amonjakus amonjakā
+21	7321	solidārs	solidāra solidārai solidārais solidārajai solidāram solidāras solidāri solidārie solidāriem solidāro solidāros solidāru solidārus solidārā solidārāka solidārākai solidārāki solidārākiem solidārāku solidārās
+22	7322	tramplīns	tramplīna tramplīnam tramplīni tramplīniem tramplīnos tramplīnu tramplīnus tramplīnā
+23	7323	ģeogrāfiski	
+24	7324	galdnieks	galdnieci galdniek galdnieka galdniekam galdnieki galdniekiem galdniekos galdnieku galdniekus galdniekā
+25	7325	cildināt	cildina cildinot cildinošs cildinu cildināja cildinājis cildināju cildinājuši cildinām cildināms cildinās cildināsiet cildināsim cildināta cildinātais cildinātas cildināti cildinātie cildināts cildinātu cildinātā cildināšana cildināšanas cildināšanu cildināšanā jācildina necildina necildinām
+26	7326	rabīns	rabīna rabīnam rabīni rabīniem rabīnu rabīnus
+27	7327	trīstūkstoš	
+28	7328	santehniķis	santehniķa santehniķi santehniķiem santehniķim santehniķu santehniķus
+29	7329	relaksācija	relaksācijai relaksācijas relaksāciju relaksācijā
+30	7330	pasteidzināt	jāpasteidzina nepasteidzina pasteidzina pasteidzināja pasteidzināju pasteidzinājusi pasteidzinājuši pasteidzinājām pasteidzinās pasteidzināta pasteidzināts pasteidzinātu
+31	7331	saglābt	jāsaglābj nesaglābjamais nesaglābtu saglāb saglāba saglābis saglābj saglābjams saglābs saglābta saglābtajiem saglābtas saglābto saglābts saglābtu saglābu saglābusi saglābāt saglābšana
+32	7332	pārvilkt	jāpārvelk nepārvelk nepārvelkot nepārvelku pārvelc pārvelciet pārvelk pārvelkam pārvelkot pārvelku pārvilcis pārvilka pārvilks pārvilksi pārvilksim pārvilkts pārvilktu pārvilku pārvilkšana pārvilkšot
+33	7333	izkārt	izkar izkaram izkarams izkarat izkariet izkaro izkaroja izkarojiet izkarojis izkarot izkarotu izkarošana izkaru izkāra izkāris izkārs izkārsim izkārts izkārtu izkāru izkārām izkāršana izkāršu jāizkar neizkāra neizkārs neizkārt
+34	7334	filoloģija	filoloģijai filoloģijas filoloģiju filoloģijā
+35	7335	iespēt	iespēj iespējam iespēji iespējis iespējot iespējošs iespēju iespējām iespēs iespēsi iespēsiet iespēsim iespēts iespētu jāiespēj neiespēj neiespēja neiespējam neiespēji neiespēju neiespējām neiespēsim neiespēt neiespētu neiespēšu
+36	7336	kristiete	kristietes kristieti kristiešu
+37	7337	pīlēns	pīlēna pīlēnam pīlēni pīlēniem pīlēnu pīlēnus
+38	7338	sisties	nesisties nesitīsies sities sitos sitoties situšies sitīsies sišanās
+39	7339	vecāmāte	vecāmātes vecāmātē vecāmātēm
+40	7340	sakārtoties	nesakārtosies nesakārtoties nesakārtotos sakārtojamies sakārtojas sakārtojies sakārtojos sakārtojoties sakārtojāmies sakārtojās sakārtosies sakārtotos sakārtošanās
+41	7341	drošums	drošuma drošumam drošumu drošumā
+42	7342	konfrontācija	konfrontācijai konfrontācijas konfrontāciju konfrontācijā konfrontācijām konfrontācijās
+43	7343	kamermūzika	kamermūzikai kamermūzikas kamermūziku kamermūzikā
+44	7344	zemisks	viszemiskākais viszemiskākajai viszemiskākajiem viszemiskākajā viszemiskākie viszemiskākā viszemiskākās zemiska zemiskai zemiskais zemiskajam zemiskajā zemiskajām zemiskajās zemiskas zemiskiem zemisko zemiskos zemisku zemiskā zemiskāki zemiskāko zemiskāks zemiskākās zemiskām zemiskās
+45	7345	diētisks	diētiska diētiskai diētiskais diētiskajai diētiskajiem diētiskas diētiski diētiskiem diētisko diētiskos diētisku diētiskā diētiskāk diētiskāki diētiskākā diētiskām diētiskās
+46	7346	gaumīgs	gaumīga gaumīgai gaumīgais gaumīgajam gaumīgajiem gaumīgam gaumīgas gaumīgie gaumīgiem gaumīgo gaumīgu gaumīgus gaumīgā gaumīgāk gaumīgākais gaumīgākajiem gaumīgāki gaumīgāko gaumīgāks gaumīgāku gaumīgākā gaumīgām gaumīgās visgaumīgākajā visgaumīgāko
+47	7347	kārkls	kārkl kārkla kārkli kārkliem kārklu kārklus
+48	7348	patoloģija	patoloģijas patoloģiju patoloģijām
+49	7349	stieple	stieplei stieples stiepli stieplēm stieplēs stiepļu
+50	7350	vaisla	vaislai vaislas vaisli vaislā
+51	7351	mazgātava	mazgātavai mazgātavas mazgātavu mazgātavā mazgātavām mazgātavās
+52	7352	veģetārs	veģetāra veģetārai veģetārais veģetārajai veģetārajam veģetārajiem veģetārajā veģetārajām veģetāram veģetāras veģetāri veģetārie veģetāriem veģetāro veģetāros veģetāru veģetārus veģetārā veģetārās
+53	7353	uzlīmēt	jāuzlīmē uzlīmē uzlīmēja uzlīmējiet uzlīmējis uzlīmējot uzlīmēju uzlīmējuši uzlīmēs uzlīmēsim uzlīmēta uzlīmētas uzlīmēti uzlīmēto uzlīmēts uzlīmētu uzlīmēšana uzlīmēšanas uzlīmēšu
+54	7354	lepnība	lepnībai lepnības lepnību lepnībā
+55	7355	piepalīdzēt	jāpiepalīdz nepiepalīdz nepiepalīdzēju piepalīdz piepalīdzi piepalīdziet piepalīdzot piepalīdzu piepalīdzēja piepalīdzējis piepalīdzēju piepalīdzējusi piepalīdzējuši piepalīdzēs piepalīdzētu
+56	7356	izmērīties	izmēros
+57	7357	sniegputenis	sniegputeni sniegputenim sniegputenī sniegputeņa sniegputeņi sniegputeņiem sniegputeņos sniegputeņu sniegputeņus
+58	7358	uzsmēķēt	uzsmēķē uzsmēķējot uzsmēķēju uzsmēķējām uzsmēķēsim uzsmēķētu uzsmēķēšu
+59	7359	attīt	attin attina attinams attiniet attinot attinu attīsi attīts attīšana attīšu neattiniet
+60	7360	skalbe	skalbes skalbi skalbju skalbēm skalbēs
+61	7361	šifrēšana	šifrēšanai šifrēšanas šifrēšanu šifrēšanā
+62	7362	apdzēst	apdzēs apdzēsa apdzēsiet apdzēsis apdzēsts apdzēstu apdzēsīsim apdzēš apdzēšana apdzēšot neapdzēst neapdzēstu
+63	7363	nelikumība	nelikumības nelikumību nelikumībām nelikumībās
+64	7364	komisks	komiska komiskai komiskais komiskajiem komiskajā komiskas komiskie komiskiem komisko komiskos komisku komiskus komiskā komiskāk komiskākais komiskām komiskās viskomiskākais
+65	7365	ieguldītājs	ieguldītāja ieguldītājam ieguldītāji ieguldītājiem ieguldītājos ieguldītāju ieguldītājus
+66	7366	rumpis	rumpa rumpi rumpim rumpja rumpjiem rumpjus rumpu rumpī
+67	7367	hidraulisks	hidrauliska hidrauliskais hidrauliskajiem hidrauliskajā hidrauliskajām hidrauliski hidrauliskie hidrauliskiem hidraulisko hidrauliskos hidrauliskus hidrauliskā hidrauliskām hidrauliskās
+68	7368	uzskaitījums	uzskaitījuma uzskaitījumam uzskaitījumi uzskaitījumiem uzskaitījumos uzskaitījumu uzskaitījumus uzskaitījumā
+69	7369	vītne	vītnei vītnes vītni vītnē vītnēm vītņu
+70	7370	respekts	respekta respektam respektu
+71	7371	necilvēcīgs	necilvēcīga necilvēcīgajai necilvēcīgajiem necilvēcīgajā necilvēcīgas necilvēcīgi necilvēcīgie necilvēcīgiem necilvēcīgo necilvēcīgos necilvēcīgu necilvēcīgus necilvēcīgā necilvēcīgāka necilvēcīgākā necilvēcīgām necilvēcīgās
+72	7372	nīkt	jānīkst nīcis nīka nīks nīkst nīkstam nīksti nīkstot nīkstu nīktu nīku nīkšana
+73	7373	padziedāt	jāpadzied nepadziedāsi padzied padziedam padziedat padziedi padziediet padziedu padziedāja padziedāju padziedājuši padziedājām padziedās padziedāsi padziedāsim padziedātas padziedāts padziedātu padziedāšana
+74	7374	sīknauda	sīknaudai sīknaudas sīknaudu sīknaudā
+75	7375	kūtrs	kūtra kūtrai kūtrais kūtrajiem kūtras kūtri kūtrie kūtriem kūtro kūtru kūtrā kūtrāk kūtrāka kūtrākajiem kūtrāki kūtrākie kūtrākos kūtrāks kūtrākus kūtrām viskūtrāk viskūtrākie viskūtrāko viskūtrākos
+76	7376	pakārtot	jāpakārto nepakārtojot nepakārtos nepakārtosim nepakārtot pakārto pakārtoja pakārtojam pakārtojams pakārtojis pakārtojot pakārtoju pakārtos pakārtots pakārtotu pakārtošana
+77	7377	stabilizēties	jāstabilizējas nestabilizējas stabilizējas stabilizējies stabilizējoties stabilizējās stabilizēsies stabilizēšanās
+78	7378	amonijs	amonija amoniju amonijus
+79	7379	cēsnieks	cēsiniece cēsinieces cēsinieci cēsiniecēm cēsinieks cēsinieču cēsniece cēsniecei cēsnieces cēsnieci cēsniecēm cēsniek cēsnieka cēsniekam cēsnieki cēsniekiem cēsnieku cēsniekus cēsnieču
+80	7380	daiļslidošana	daiļslidošanai daiļslidošanas daiļslidošanu daiļslidošanā
+81	7381	neloģisks	neloģiska neloģiskais neloģiskajā neloģiskajām neloģiskas neloģiski neloģiskie neloģiskiem neloģisko neloģiskos neloģisku neloģiskus neloģiskā neloģiskāk neloģiskākas neloģiskām neloģiskās visneloģiskākais
+82	7382	deitons	deitona deitonu deitonā
+83	7383	pārspīlējums	pārspīlējuma pārspīlējumam pārspīlējumi pārspīlējumiem pārspīlējumos pārspīlējumu pārspīlējumus pārspīlējumā
+84	7384	izsēdināt	izsēdina izsēdinot izsēdināja izsēdināji izsēdinājis izsēdinājām izsēdinās izsēdināsiet izsēdināta izsēdinātas izsēdināti izsēdināts izsēdinātu
+85	7385	dziedājums	dziedājuma dziedājumam dziedājumi dziedājumiem dziedājumos dziedājumu dziedājumus dziedājumā
+86	7386	agregāts	agregāta agregātam agregāti agregātiem agregātu agregātus
+87	7387	kardiologs	kardiologa kardiologi kardiologiem kardiologu kardiologus kardioloģe kardioloģei kardioloģes kardioloģi
+88	7388	periodisks	periodiska periodiskai periodiskais periodiskajai periodiskajiem periodiskajos periodiskajā periodiskajām periodiskam periodiskas periodiskie periodiskiem periodisko periodiskos periodisku periodiskus periodiskā periodiskām periodiskās
+89	7389	kandža	kandžas kandžu kandžā
+90	7390	relikts	relikta reliktam relikti reliktiem reliktu reliktus
+91	7391	iecirst	iecirsts iecirstu iecirta iecirtis iecirtu iecirtīs iecirtīsi iecirtīšu iecērt iecērtot neiecirstu neiecirta neiecērt neiecērtot
+92	7392	tele	telei teles teli telēm teļu
+93	7393	biogāze	biogāzei biogāzes biogāzi biogāzē
+94	7394	cittautietis	cittautieti cittautieša cittautieši cittautiešiem cittautiešos cittautiešu cittautiešus
+95	7395	slēgties	jāslēdzas neslēdzamies neslēdzas neslēdzaties neslēdzies neslēdzās neslēgšanās slēdzamies slēdzas slēdzies slēdzos slēdzoties slēdzās slēgsies slēgsieties slēgtos slēgšanās
+96	7396	gļotas	gļotu gļotām gļotās
+97	7397	ēterisks	ēteriska ēteriskais ēteriskajam ēteriskajā ēteriskajām ēteriskajās ēteriskas ēteriski ēterisko ēteriskos ēterisku ēteriskā ēteriskām ēteriskās
+98	7398	grābeklis	grābekli grābeklim grābekļa grābekļi grābekļiem grābekļos grābekļu grābekļus
+99	7399	aizsalt	aizsala aizsalis aizsals aizsalst aizsalstot aizsaltu aizsalusi aizsaluša aizsalušam aizsalušas aizsaluši aizsalušiem aizsalušos aizsalušu aizsalušus aizsalušā aizsalušām aizsalušās aizsalšana neaizsals neaizsalst neaizsalstošs neaizsaltu neaizsaluša neaizsalušas neaizsalušu neaizsalšana
+100	7400	sanitārs	sanitāra sanitāram sanitāri sanitāriem sanitāros sanitāru sanitārus sanitārā

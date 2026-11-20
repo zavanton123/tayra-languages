@@ -1,19 +1,19 @@
 1	501	vērtība	vērtībai vērtībam vērtības vērtību vērtībā vērtībām vērtībās
-2	502	rasties	censtos jārodas nerasties radies rados radusies radās radīsies radīšoties rašanās rodamies rodas rodaties rodies rodoties
-3	503	pazīt	jāpazīst nepazīt pazina pazini pazinis pazinu pazinām pazināt pazīdams pazīs pazīsi pazīsiet pazīsim pazīsit pazīst pazīstam pazīstams pazīstat pazīsti pazīstiet pazīstot pazīstošs pazīstu pazītu pazīšana pazīšu
-4	504	izveidot	izveido izveidodams izveidoja izveidojam izveidojams izveidojat izveidoji izveidojiet izveidojis izveidojot izveidoju izveidojām izveidojāt izveidos izveidosi izveidosiet izveidosim izveidosit izveidots izveidotu izveidošana izveidošot izveidošu jāizveido neizveidot
-5	505	stāvēt	jāstāv nestāvēt stāv stāvam stāvat stāvi stāviet stāvot stāvošais stāvošs stāvu stāvēdams stāvēja stāvēji stāvējis stāvēju stāvējušais stāvējām stāvējāt stāvēs stāvēsi stāvēsiet stāvēsim stāvēsit stāvēts stāvētu stāvēšana stāvēšanai stāvēšanas stāvēšanu stāvēšanā stāvēšot stāvēšu
-6	506	prasīt	jāprasa neprasīt prasa prasi prasiet prasot prasošs prasu prasām prasāms prasāt prasīdams prasīja prasīji prasījis prasīju prasījām prasījāt prasīs prasīsi prasīsiet prasīsim prasītais prasīts prasītu prasīšana prasīšanai prasīšanas prasīšanu prasīšot prasīšu
-7	507	pieejams	pieejama pieejamai pieejamais pieejamajai pieejamajam pieejamajiem pieejamajos pieejamajā pieejamajām pieejamajās pieejamam pieejamas pieejami pieejamie pieejamiem pieejamo pieejamos pieejamu pieejamus pieejamā pieejamāks pieejamām pieejamās vispieejamākais
+2	502	rasties	censtos jārodas neradas neradies neradusies neradās neradīsies neradīšoties nerasties nerodas nerodoties radas radies rados radusies radušies radās radīsies radīšoties rašanās rodamies rodas rodaties rodies rodoties
+3	503	pazīt	jāpazīst nepazina nepazini nepazinu nepazināt nepazīs nepazīsi nepazīsiet nepazīsim nepazīst nepazīstam nepazīstams nepazīstat nepazīsti nepazīstiet nepazīstot nepazīstu nepazīt nepazītu pazina pazini pazinis pazinu pazinām pazināt pazīs pazīsi pazīsiet pazīsim pazīst pazīstam pazīstams pazīstat pazīsti pazīstot pazīstu pazītu pazīšana pazīšu
+4	504	izveidot	izveido izveidoja izveidojam izveidojat izveidoji izveidojiet izveidojis izveidojot izveidoju izveidojusi izveidojušas izveidojuši izveidojām izveidojāt izveidos izveidosi izveidosiet izveidosim izveidota izveidotais izveidotas izveidoti izveidotie izveidoto izveidots izveidotu izveidotā izveidošana izveidošanas izveidošanu izveidošanā izveidošot izveidošu jāizveido neizveido neizveidoja neizveidos neizveidot neizveidošanu
+5	505	stāvēt	jāstāv nestāv nestāvi nestāviet nestāvēja nestāvētu stāv stāvam stāvat stāvi stāviet stāvot stāvoša stāvošai stāvošais stāvoši stāvošie stāvošiem stāvošo stāvošs stāvošu stāvošā stāvu stāvēja stāvēji stāvējis stāvēju stāvējusi stāvējuši stāvējām stāvēs stāvēsi stāvēsim stāvētu stāvēšana stāvēšanai stāvēšanas stāvēšanu stāvēšu
+6	506	prasīt	jāprasa neprasa neprasi neprasiet neprasot neprasu neprasīja neprasīji neprasīju neprasīs neprasītu neprasīšu prasa prasi prasiet prasot prasu prasām prasāt prasīja prasīji prasījis prasīju prasījusi prasījuši prasījāt prasīs prasīsi prasīsiet prasīsim prasīta prasītas prasīti prasīto prasītos prasīts prasītu prasītā prasīšu
+7	507	pieejams	pieejama pieejamai pieejamais pieejamajai pieejamajam pieejamajiem pieejamajos pieejamajā pieejamajām pieejamajās pieejamam pieejamas pieejami pieejamie pieejamiem pieejamo pieejamos pieejamu pieejamus pieejamā pieejamāk pieejamāka pieejamākai pieejamākais pieejamākajiem pieejamākas pieejamāki pieejamākie pieejamākiem pieejamāko pieejamāks pieejamāku pieejamākus pieejamākā pieejamākām pieejamākās pieejamām pieejamās vispieejamākā
 8	508	notikums	notikum notikuma notikumam notikumi notikumiem notikumos notikumu notikumus notikumā
-9	509	melns	melna melnai melnais melnajai melnajam melnajiem melnajos melnajā melnajām melnajās melnam melnas melni melnie melniem melno melnos melnu melnus melnā melnāks melnām melnās
+9	509	melns	melna melnai melnais melnajai melnajam melnajiem melnajos melnajā melnajām melnajās melnam melnas melni melnie melniem melno melnos melnu melnus melnā melnāk melnāka melnākais melnākajiem melnākas melnāki melnākie melnākos melnāks melnāku melnākā melnākās melnām melnās vismelnākajā vismelnākos vismelnākā
 10	510	tūlīt	
 11	511	savienība	savienībai savienības savienību savienībā savienībām savienībās
 12	512	uzdevums	uzdevum uzdevuma uzdevumam uzdevumi uzdevumiem uzdevumos uzdevumu uzdevumus uzdevumā
-13	513	stāstīt	jāstāsta nestāstīt stāsta stāsti stāstiet stāstot stāstošs stāstu stāstām stāstāmais stāstāms stāstāt stāstīdams stāstīja stāstīji stāstījis stāstīju stāstījām stāstījāt stāstīs stāstīsi stāstīsiet stāstīsim stāstītais stāstīts stāstītu stāstīšana stāstīšanai stāstīšanas stāstīšanu stāstīšanā stāstīšot stāstīšu
+13	513	stāstīt	jāstāsta nestāsta nestāsti nestāstiet nestāstu nestāstīja nestāstīji nestāstīju nestāstīs nestāstīsi nestāstīsim nestāstīt nestāstīšu stāsta stāsti stāstiet stāstot stāstu stāstām stāstāt stāstīja stāstīji stāstījis stāstīju stāstījusi stāstījuši stāstījām stāstījāt stāstīs stāstīsi stāstīsim stāstītais stāstīto stāstīts stāstītu stāstītā stāstīšana stāstīšanas stāstīšu
 14	514	istaba	istabai istabas istabu istabā istabām istabās
-15	515	sajūta	sajūtai sajūtam sajūtas sajūti sajūtos sajūtu sajūtā sajūtām sajūtās
-16	516	garš	gara garai garais garajai garajam garajiem garajos garajā garajām garajās garam garas gari garie gariem garo garos garu garus garā garāks garās visgarākais
+15	515	sajūta	sajūtai sajūtas sajūtu sajūtā sajūtām sajūtās
+16	516	garš	gara garai garais garajai garajam garajiem garajos garajā garajām garajās garam garas gari garie gariem garo garos garu garus garā garāk garāka garākai garākais garākajā garākam garākas garāki garākiem garāko garākos garāks garāku garākus garākā garākām garākās garās visgarākā
 17	517	jauki	
 18	518	amats	amata amatam amati amatiem amatos amatu amatus amatā
 19	519	raksts	rakst raksta rakstam raksti rakstiem rakstos rakstu rakstus rakstā
@@ -21,7 +21,7 @@
 21	521	numurs	numur numura numuram numuri numuriem numuros numuru numurus numurā
 22	522	viegli	
 23	523	slimnīca	slimnīcai slimnīcas slimnīcu slimnīcā slimnīcām slimnīcās
-24	524	dzīvoklis	dzīvokli dzīvoklim dzīvoklī dzīvokļa dzīvokļi dzīvokļiem dzīvokļos dzīvokļu dzīvokļus
+24	524	dzīvoklis	dzīvokla dzīvokli dzīvokliem dzīvoklim dzīvoklu dzīvoklus dzīvoklī dzīvokļa dzīvokļi dzīvokļiem dzīvokļos dzīvokļu dzīvokļus
 25	525	balva	balvai balvas balvu balvā balvām balvās
 26	526	vakars	vakara vakaram vakari vakariem vakaros vakaru vakarus
 27	527	runa	runai runam runas runu runām runās
@@ -33,16 +33,16 @@
 33	533	deputāts	deputāt deputāta deputātam deputāti deputātiem deputātos deputātu deputātus deputātā
 34	534	vietējs	vietēja vietējai vietējais vietējajiem vietējajā vietējam vietējas vietēji vietējie vietējiem vietējo vietējos vietēju vietējus vietējā vietējām vietējās
 35	535	koncerts	koncert koncerta koncertam koncerti koncertiem koncertos koncertu koncertus koncertā
-36	536	prast	jāprot neprast prastais prasts prastu prata prati pratis pratu pratām pratāt pratīs pratīsi pratīsiet pratīsim pratīšot pratīšu prazdams prašana prašanas prašanu prot protam protat proti protiet protot protošs protu
+36	536	prast	jāprot neprast neprastu neprata neprati nepratu nepratām nepratīs nepratīsi neprot neprotam neprotat neproti neprotot neprotu prasta prastam prastas prasti prastie prasts prastu prata prati pratis pratu pratusi pratuši pratām pratīs pratīsi pratīsim pratīšu prot protam protat proti protot protu
 37	537	cīnīties	cīnies cīnieties cīnos cīnoties cīnāmies cīnās cīnāties cīnīdamies cīnījies cīnījos cīnījāmies cīnījās cīnījāties cīnīsies cīnīsieties cīnīsimies cīnīsities cīnītos cīnīšanās cīnīšos cīnīšoties jācīnoties jācīnās necīnīties
 38	538	saule	saui saulei saules sauli saulē saulēm saulēs saulīte saulītei saulītes saulīti saulītē saulītēm saulītēs saulīšu sauļu
-39	539	iepazīties	iepazinies iepazinos iepazināmies iepazinās iepazināties iepazīsies iepazīsieties iepazīsimies iepazīstamies iepazīstas iepazīstaties iepazīsties iepazīstieties iepazīstos iepazīstoties iepazītos iepazīšanās iepazīšos iepazīšoties jāiepazīstas neiepazīties
-40	540	turēt	jātur jāturot neturēt turam turamais turams turat turi turiet turot turu turēdams turēja turēji turējis turēju turējām turējāt turēs turēsi turēsiet turēsim turēsit turētais turēts turētu turēšana turēšanai turēšanas turēšanos turēšanu turēšanā turēšot turēšu
-41	541	izvēle	izvēlei izvēles izvēli izvēlē izvēlēm izvēlēs
+39	539	iepazīties	iepazinas iepazinies iepazinos iepazināmies iepazinās iepazināties iepazīsies iepazīsieties iepazīsimies iepazīstamies iepazīstas iepazīstaties iepazīsties iepazīstieties iepazīstos iepazīstoties iepazītos iepazīšanās iepazīšos iepazīšoties jāiepazīstas neiepazinies neiepazinos neiepazināmies neiepazīstoties neiepazīties neiepazītos
+40	540	turēt	jātur netur neturi neturu neturēs neturēt turam turamais turamajiem turamie turamo turamā turat turi turiet turot turu turēja turēji turējis turēju turējusi turējuši turēs turēsi turēsim turēta turētais turētas turēti turēto turētos turēts turētu turētā turēšana turēšanas turēšanu turēšu
+41	541	izvēle	izvēlei izvēles izvēli izvēlē izvēlēm izvēlēs izvēļu
 42	542	krāsa	krāsai krāsam krāsas krāsi krāsu krāsus krāsā krāsām krāsās
-43	543	ekonomika	ekonomikai ekonomikas ekonomiku ekonomikā
+43	543	ekonomika	ekonomikai ekonomikas ekonomiku ekonomikā ekonomikām ekonomikās
 44	544	ei	
-45	545	mainīt	jāmaina maina maini mainiet mainot mainošais mainošs mainu mainām maināmais maināms maināt mainīdams mainīja mainīji mainījis mainīju mainījām mainījāt mainīs mainīsi mainīsiet mainīsim mainītais mainīts mainītu mainīšana mainīšanai mainīšanas mainīšanos mainīšanu mainīšanā mainīšot mainīšu nemainīt
+45	545	mainīt	jāmaina maina maini mainiet mainot mainu mainām maināms mainīja mainīji mainījis mainīju mainījusi mainījušas mainījuši mainījušās mainījām mainīs mainīsi mainīsim mainīta mainītas mainīti mainītos mainīts mainītu mainīšana mainīšanu mainīšu nemaina nemaini nemainot nemainīja nemainīs nemainīsiet nemainīsim nemainīt nemainītu nemainīšu
 46	546	aprīlis	aprīli aprīlim aprīlī aprīļa aprīļi aprīļiem aprīļos
 47	547	turklāt	
 48	548	meita	meit meitai meitas meitu meitā meitām meitās
@@ -54,8 +54,8 @@
 54	554	organizācija	organizācijai organizācijas organizāciju organizācijā organizācijām organizācijās
 55	555	kāja	kājai kājam kājas kāju kājā kājās
 56	556	augusts	august augusta augustam augusti augustiem augustu augustus augustā
-57	557	ietekme	ieteka ietekmei ietekmes ietekmi ietekmju ietekmē ietekmēm ietekmēs ieteku ietekā
-58	558	sapnis	sapni sapnim sapnī sapos sapņa sapņi sapņiem sapņos sapņu sapņus
+57	557	ietekme	ietekmei ietekmes ietekmi ietekmju ietekmē ietekmēm ietekmēs
+58	558	sapnis	sapna sapni sapniem sapnim sapnos sapnu sapnus sapnī sapņa sapņi sapņiem sapņos sapņu sapņus
 59	559	laukums	laukuma laukumam laukumi laukumiem laukumos laukumu laukumus laukumā
 60	560	pārējais	pārējie pārējiem pārējos
 61	561	ikviens	ikvienam ikvienu
@@ -63,38 +63,38 @@
 63	563	caur	
 64	564	karte	kartei kartes karti kartē kartēm kartēs karšu
 65	565	baznīca	baznedce baznīcai baznīcam baznīcas baznīcu baznīcā baznīcām baznīcās
-66	566	izstāde	izstādei izstādes izstādi izstādu izstādē izstādēm izstādēs
+66	566	izstāde	izstādei izstādes izstādi izstādu izstādē izstādēm izstādēs izstāžu
 67	567	īsti	
 68	568	dzīvība	dzīvībai dzīvības dzīvību dzīvībā dzīvībām dzīvībās
 69	569	pārvalde	pārvaldei pārvaldes pārvaldi pārvaldē pārvaldēm pārvaldēs pārvalžu
-70	570	nākties	nācies nācās nākas nāksies
-71	571	nodot	jānodod nenodot nodeva nodevi nodevis nodevu nodevām nodevāt nodod nododam nododams nododat nododiet nododot nododošs nododu nodos nodosi nodosiet nodosim nodosit nodots nodotu nodošana nodošot nodošu
+70	570	nākties	nenācies nenācās nenākas nenākoties nenāksies nenākšoties nācas nācies nācās nākas nākies nākoties nāksies nākušies nākšanās nākšoties
+71	571	nodot	jānodod nenodeva nenodevi nenodod nenodos nenodošu nodeva nodevas nodevi nodevies nodevis nodevu nodevusi nodevusies nodevuši nodevām nodod nododam nododas nododiet nododot nododu nodomu nodos nodosi nodosiet nodosim nodota nodotas nodoti nodoties nodoto nodotos nodots nodotu nodotās nodošana nodošanās nodošu
 72	572	klubs	klub kluba klubam klubi klubiem klubos klubu klubus klubā
-73	573	ilgs	ilga ilgai ilgais ilgajai ilgajam ilgajiem ilgajos ilgajā ilgajām ilgajās ilgam ilgas ilgie ilgiem ilgo ilgos ilgu ilgus ilgā ilgāks ilgām ilgās visilgākais
+73	573	ilgs	ilga ilgai ilgais ilgajai ilgajam ilgajiem ilgajos ilgajā ilgajām ilgajās ilgam ilgas ilgie ilgiem ilgo ilgos ilgu ilgus ilgā ilgāk ilgāka ilgākai ilgākais ilgākam ilgākas ilgāki ilgākiem ilgāko ilgāks ilgāku ilgākus ilgākā ilgākām ilgākās ilgām ilgās visilgāk visilgākais visilgāko
 74	574	brīvība	brīvībai brīvības brīvību brīvībā brīvībām brīvībās
-75	575	viedoklis	viedokli viedoklim viedoklī viedokļa viedokļi viedokļiem viedokļos viedokļu viedokļus
-76	576	iedot	iedeva iedevi iedevis iedevu iedevām iedevāt iedod iedodam iedodams iedodat iedodiet iedodot iedodu iedos iedosi iedosiet iedosim iedosit iedotais iedots iedotu iedošanas iedošot iedošu jāiedod neiedot
-77	577	pārdot	jāpārdod nepārdot pārdeva pārdevi pārdevis pārdevu pārdevām pārdevāt pārdod pārdodam pārdodams pārdodat pārdodiet pārdodot pārdodošs pārdodu pārdos pārdosi pārdosiet pārdosim pārdots pārdotu pārdošana pārdošot pārdošu
+75	575	viedoklis	viedokla viedokli viedoklim viedoklu viedoklus viedoklī viedokļa viedokļi viedokļiem viedokļos viedokļu viedokļus
+76	576	iedot	iedeva iedevi iedevis iedevu iedevusi iedevuši iedevām iedevās iedevāt iedod iedodam iedodat iedodiet iedodot iedodu iedomu iedos iedosi iedosiet iedosim iedosit iedota iedotajām iedotas iedoti iedoto iedots iedotu iedotā iedotās iedošu jāiedod neiedeva neiedevi neiedevu neiedevāt neiedod neiedos neiedot
+77	577	pārdot	jāpārdod nepārdevu nepārdod nepārdodam nepārdodu nepārdos nepārdosim nepārdot nepārdošu pārdeva pārdevi pārdevies pārdevis pārdevu pārdevusi pārdevuši pārdevām pārdod pārdodam pārdodams pārdodat pārdodiet pārdodot pārdodu pārdos pārdosi pārdosiet pārdosim pārdota pārdotais pārdotas pārdoti pārdoto pārdots pārdotu pārdotā pārdotās pārdošana pārdošu
 78	578	šurp	
-79	579	stāvoklis	stāvoki stāvokli stāvoklim stāvoklī stāvokļa stāvokļi stāvokļiem stāvokļos stāvokļu stāvokļus
+79	579	stāvoklis	stāvoki stāvokli stāvokliem stāvoklim stāvoklī stāvokļa stāvokļi stāvokļiem stāvokļos stāvokļu stāvokļus
 80	580	seši	sešas sešiem sešos sešu sešus sešām sešās
 81	581	kalns	kaln kalna kalnam kalni kalniem kalnos kalnu kalnus kalnā
 82	582	mūžs	mūž mūža mūžam mūži mūžiem mūžos mūžu mūžus mūžā
 83	583	vērā	
 84	584	nozare	nozarei nozares nozari nozaru nozarē nozarēm nozarēs
 85	585	robeža	robež robežai robežas robežu robežā robežām robežās
-86	586	sekot	jāseko seko sekoja
+86	586	sekot	jāseko neseko nesekoja nesekojam nesekoji nesekojiet nesekojot nesekoju nesekojāt nesekos nesekosim nesekotu nesekošu seko sekoja sekojam sekojat sekoji sekojiet sekojis sekojot sekojošs sekoju sekojusi sekojušas sekojuši sekojām sekojāt sekos sekosi sekosiet sekosim sekoto sekots sekotu sekošana sekošanas sekošanu sekošu
 87	587	patiešām	
 88	588	piedāvājums	piedāvājum piedāvājuma piedāvājumam piedāvājumi piedāvājumiem piedāvājumos piedāvājumu piedāvājumus piedāvājumā
 89	589	mēģināt	mēģina mēģinot mēģināja mēģinājis mēģināju mēģināts
 90	590	citādi	citādāk
 91	591	desmit	desmitiem desmitos
-92	592	drošs	dross droša drošai drošais drošajam drošajiem drošajos drošajā drošajām drošajās drošam drošas drošie drošiem drošo drošos drošu drošus drošā drošāks drošām drošās visdrošākais
+92	592	drošs	drosa drosi droša drošai drošais drošajā drošajās drošam drošas drošiem drošo drošos drošu drošus drošā drošāk drošāka drošākai drošākais drošākajiem drošākajā drošākajām drošākam drošākas drošāki drošākiem drošāko drošāks drošāku drošākus drošākā drošākām drošām drošās visdrošāk visdrošāka visdrošākais visdrošākajām visdrošākā
 93	593	iepriekšējs	iepriekšēja iepriekšējai iepriekšējais iepriekšējajam iepriekšējajiem iepriekšējajā iepriekšējajām iepriekšējajās iepriekšējam iepriekšējas iepriekšēji iepriekšējie iepriekšējiem iepriekšējo iepriekšējos iepriekšēju iepriekšējus iepriekšējā iepriekšējām iepriekšējās
 94	594	dāvana	dāvanai dāvanas dāvanu dāvanā dāvanām dāvanās
-95	595	augsts	augsta augstai augstais augstajai augstajam augstajiem augstajos augstajā augstajām augstajās augstam augstas augstie augstiem augsto augstos augstus augstā augstāks augstām augstās visaugstākais
-96	596	vērts	vērta vērtai vērtais vērtajai vērtajam vērtajiem vērtajos vērtajā vērtajām vērtam vērtas vērti vērtie vērtiem vērto vērtos vērtu vērtus vērtā vērtām vērtās
+95	595	augsts	augsta augstais augstajiem augstajā augstas augstie augstiem augsto augstos augstus augstā augstāk augstāka augstākai augstākajai augstākajiem augstākajā augstākajām augstākajās augstākas augstāki augstākie augstākiem augstāko augstākos augstāks augstāku augstākus augstākā augstākām augstākās augstām augstās visaugstāk visaugstākais visaugstākajā visaugstāko visaugstākā visaugstākās
+96	596	vērts	vērta vērtai vērtais vērtajai vērtajam vērtajiem vērtajos vērtajā vērtajām vērtam vērtas vērti vērtie vērtiem vērto vērtos vērtu vērtus vērtā vērtāka vērtākajām vērtākam vērtāki vērtākus vērtām vērtās
 97	597	zvans	zvan zvana zvanam zvani zvaniem zvanos zvanu zvanus zvanā
 98	598	dolārs	dolāra dolāram dolāri dolāriem dolāros dolāru dolārus dolārā
 99	599	ziņot	jāziņo neziņot ziņo ziņoja ziņojam ziņojams ziņojat ziņojiet ziņojis ziņojot ziņoju ziņojām ziņojāt ziņos ziņosi ziņosiet ziņosim ziņots ziņotu ziņošana ziņošot ziņošu
-100	600	ķermenis	ķermeni ķermenim ķermenī ķermeņa ķermeņi ķermeņiem ķermeņos ķermeņu ķermeņus
+100	600	ķermenis	ķermena ķermeni ķermenim ķermenī ķermeņa ķermeņi ķermeņiem ķermeņos ķermeņu ķermeņus
