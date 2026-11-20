@@ -322,6 +322,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun nepali() = LanguageDefinition(
+        language = Language(
+            name = "Nepali",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Nepali", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/ne/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.shabdkosh.com/search-dictionary?lc=ne&sl=ne&tl=en&e=[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ne&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".?!|।॥",
+            wordCharacters = "a-zA-Z\\u0900-\\u0963\\u0971-\\u097F\\u200C\\u200D",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun oldIrish() = LanguageDefinition(
         language = Language(
             name = "Old Irish",
@@ -483,6 +501,7 @@ object AddedLanguages {
             maltese(),
             manx(),
             mongolian(),
+            nepali(),
             oldIrish(),
             scottishGaelic(),
             tagalog(),

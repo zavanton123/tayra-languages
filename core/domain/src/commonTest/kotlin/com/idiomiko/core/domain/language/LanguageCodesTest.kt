@@ -54,4 +54,13 @@ class LanguageCodesTest {
         assertEquals(Script.TELUGU, Scripts.dominant("నేను తెలుగు నేర్చుకుంటున్నాను."))
         assertEquals(Script.KANNADA, Scripts.dominant("ನಾನು ಕನ್ನಡ ಕಲಿಯುತ್ತಿದ್ದೇನೆ."))
     }
+
+    @Test
+    fun nepaliIsALanguageWithItsTutorial() {
+        assertEquals("ne", LanguageCodes.codeFor("Nepali"))
+        assertEquals("nep", LanguageCodes.tatoebaCode("ne"))
+        assertNotNull(Tutorials.forLanguage("Nepali"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Nepali" }.language.parserType)
+        assertEquals(setOf(Script.DEVANAGARI), Scripts.of("ne"))
+    }
 }

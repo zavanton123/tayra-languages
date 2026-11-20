@@ -72,6 +72,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Chinese (Traditional)" to "Chiński (tradycyjny)",
     "Manx" to "Manx",
     "Mongolian" to "Mongolski",
+    "Nepali" to "Nepalski",
     "Norwegian" to "Norweski",
     "Old Irish" to "Staroirlandzki",
     "Polish" to "Polski",

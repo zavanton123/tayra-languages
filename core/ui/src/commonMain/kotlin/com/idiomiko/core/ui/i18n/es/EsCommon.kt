@@ -72,6 +72,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Chinese (Traditional)" to "Chino (tradicional)",
     "Manx" to "Manés",
     "Mongolian" to "Mongol",
+    "Nepali" to "Nepalí",
     "Norwegian" to "Noruego",
     "Old Irish" to "Irlandés antiguo",
     "Polish" to "Polaco",

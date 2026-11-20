@@ -96,6 +96,15 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun nepaliKeepsPostpositionsJoinedEyelashRaAndNoDigits() {
+        val nepali = LanguageDefinitions.all.single { it.name == "Nepali" }.language
+        assertEquals(
+            "[रामको] [घरमा] २०८० [सालमा] [गर्\u200Dयो]। [तपाईंलाई] [कस्तो] [छ]?",
+            tokensAsString("रामको घरमा २०८० सालमा गर्\u200Dयो। तपाईंलाई कस्तो छ?", nepali),
+        )
+    }
+
+    @Test
     fun legacyHexEscapesAreConverted() {
         val arabic = TestLanguages.generic.copy(wordCharacters = "\\x{0600}-\\x{06FF}")
         assertEquals("[مرحبا] [بكم]", tokensAsString("مرحبا بكم", arabic))
