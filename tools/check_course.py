@@ -36,6 +36,7 @@ import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
 import frequency_nepali  # noqa: E402
 import frequency_pashto  # noqa: E402
+import frequency_gujarati  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -64,6 +65,9 @@ TELUGU_WORD = re.compile(r"[\u0c00-\u0c7f\u200c\u200d]+")
 # Nepali words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Latin and Devanagari letters, vowel signs,
 # virama and the joiners, without the danda and the digits (२०८० is a number, as 2080 is).
 NEPALI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0971-\u097f\u200c\u200d]+")
+# Gujarati words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Gujarati block with its vowel signs,
+# virama and digits. The joiners are no part of a word: the reader cuts a word at one.
+GUJARATI_WORD = re.compile(r"[\u0a80-\u0aff]+")
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 # An Urdu word: a run of the reader's word characters for Urdu (AddedLanguages), as the text is folded (frequency_urdu).
 URDU_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06ef\u06fa-\u06ff\ufb50-\ufdff\ufe70-\ufefc]+")
@@ -736,6 +740,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return TELUGU_WORD.findall(text)
     if code == "ne":
         return NEPALI_WORD.findall(text)
+    if code == "gu":
+        return GUJARATI_WORD.findall(text)
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -2686,7 +2692,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:",
     )
 }
 
@@ -2960,6 +2966,11 @@ def check(path, brief=False):
     # A Nepali name takes the postpositions joined (रामको, सीतालाई, काठमाडौंमा, रामहरूसँगै).
     if code == "ne":
         names = names | {n + tail for n in names for tail in frequency_nepali.NOMINAL_TAILS if tail}
+    # A Gujarati name takes the postpositions written on (મીનાનો, રાજને, અમદાવાદમાં); one of several words (નવી દિલ્હી) counts
+    # as one known word wherever it is written whole.
+    if code == "gu":
+        names = names | {f for n in names for f in frequency_gujarati.name_forms(n)}
+        long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
     # Kazakh names take the case endings joined (Асқардың, Алматыда, Айгүлге).
     if code == "kk":
         names = names | kazakh_name_forms(course.get("names", []))
@@ -3098,6 +3109,12 @@ def check(path, brief=False):
                 whole_names += len(pattern.findall(text))
                 text = pattern.sub(" ", text)
                 continue
+            if code == "gu":
+                endings = sorted({f[len(name):] for f in frequency_gujarati.name_forms(name)}, key=len, reverse=True)
+                pattern = re.compile(r"(?<![\u0a80-\u0aff])" + re.escape(name) + "(?:" + "|".join(endings) + r")?(?![\u0a80-\u0aff])")
+                whole_names += len(pattern.findall(text))
+                text = pattern.sub(" ", text)
+                continue
             if code == "br":
                 pattern = breton_name_pattern(name)
                 whole_names += len(pattern.findall(text))
@@ -3217,6 +3234,10 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^ప్రశ్నలు:", "", text)
         if code == "ne":
             text = re.sub(r"(?m)^प्रश्नहरू:", "", text)
+        if code == "gu":
+            text = re.sub(r"(?m)^પ્રશ્નો:", "", text)
+            # A number in Gujarati or Western digits, with a postposition written on (૧૦માં, 2020ની, ૫-૬), is a number.
+            text = re.sub(r"[૦-૯0-9]+(?:-?[\u0a80-\u0aff]+)?", " ", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3328,6 +3349,10 @@ def check(path, brief=False):
         # was built with (frequency_telugu).
         if code == "te":
             lowered = [w if w in ranks or w in names else frequency_telugu.checker_word(w, words, ranks, names) or w for w in lowered]
+        # Gujarati writes the postpositions on (ઘરમાં, રામનો, છોકરાને) and a verb's endings on its stem (કર્યું, કરશે): a word
+        # the list lacks is read by the rules the list was built with (frequency_gujarati).
+        if code == "gu":
+            lowered = [w if w in ranks or w in names else frequency_gujarati.checker_word(w, words, ranks, names) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
@@ -3391,6 +3416,11 @@ def check(path, brief=False):
         # precomposed ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ ਲ਼ is another word to them.
         if code == "pa" and re.search(r"[\u0a00-\u0a7f]\.(?!\.)", lesson["text"]):
             problems.append("a sentence ends with '.': write the danda '।'")
+        # The list and the pack have Gujarati in NFC and without joiners, which the reader cuts a word at.
+        if code == "gu" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
+            problems.append("the text is not in NFC: retype the letters with their signs in Unicode order")
+        if code == "gu" and re.search("[\u200c\u200d]", lesson["text"]):
+            problems.append("a zero-width joiner in the text: the reader cuts the word there, leave it out")
         if code == "pa" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
             problems.append("ਸ਼ ਖ਼ ਗ਼ ਜ਼ ਫ਼ or ਲ਼ typed as one character: write the text in NFC (letter + nukta)")
         for t in sorted({t for t in lowered if code in ("hr", "bs") and croatian_joined_future(t, words)}):
