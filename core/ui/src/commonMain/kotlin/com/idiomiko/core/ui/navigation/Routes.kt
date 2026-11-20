@@ -14,8 +14,9 @@ sealed interface Route {
     @Serializable
     data object ArchivedBooks : Route
 
+    /** A new book from pasted text, a file or a web page; [fromWeb] opens on reading a page's address. */
     @Serializable
-    data object NewBook : Route
+    data class NewBook(val fromWeb: Boolean = false) : Route
 
     /** The latest news in the language being learned, from news sites' feeds. */
     @Serializable

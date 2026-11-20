@@ -25,12 +25,13 @@ fun NavGraphBuilder.booksGraph(navController: NavController) {
         BooksScreen(archived = true, onNavigate = navigate, onBack = { navController.popBackStack() })
     }
     composable<Route.FindBooks> { FindBooksScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
-    composable<Route.NewBook> {
+    composable<Route.NewBook> { entry ->
         BookFormScreen(
             bookId = null,
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
             onSaved = { id, _ -> navController.navigate(Route.Read(id, 1)) { popUpTo<Route.NewBook> { inclusive = true } } },
+            fromWeb = entry.toRoute<Route.NewBook>().fromWeb,
         )
     }
     composable<Route.EditBook> { entry ->

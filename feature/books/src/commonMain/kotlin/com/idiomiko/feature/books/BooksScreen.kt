@@ -143,7 +143,7 @@ fun BooksScreen(
                 onBack = onBack,
                 section = NavSection.BOOKS,
                 actions = {
-                    if (compact) PhoneBooksMenu(archived, selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAll(false) }, onNewBook = { onNavigate(Route.NewBook) }, onArchive = { onNavigate(Route.ArchivedBooks) }, onFindBooks = { onNavigate(Route.FindBooks) })
+                    if (compact) PhoneBooksMenu(archived, selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAll(false) }, onNewBook = { onNavigate(Route.NewBook()) }, onArchive = { onNavigate(Route.ArchivedBooks) }, onFindBooks = { onNavigate(Route.FindBooks) })
                 },
             )
         },
@@ -158,7 +158,7 @@ fun BooksScreen(
                 onArchive = { if (it.isArchived) viewModel.unarchive(it.id) else viewModel.archive(it.id) },
                 onDelete = { pendingDelete = it },
                 onBookmarks = { onNavigate(Route.Bookmarks(it.id)) },
-                onNewBook = { onNavigate(Route.NewBook) },
+                onNewBook = { onNavigate(Route.NewBook()) },
                 onSearch = viewModel::setSearch,
                 onSort = viewModel::setSort,
                 onTags = viewModel::setTags,

@@ -129,6 +129,24 @@ class BookFormScreenTest {
         }
     }
 
+    /** Asked for from Home's quick add, the form opens on the web page's address. */
+    @Test
+    fun aNewBookFromTheWebOpensOnTheAddress() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        runBlocking { languages.save(Language(name = "Portuguese")) }
+        val pages = FakeWebPages(com.idiomiko.core.domain.web.WebArticle("https://example.com/lobo", text, title = "O lobo", siteName = "Contos"))
+        val viewModel = BookFormViewModel(null, books, languages, settings, service, webPages = pages)
+        setContent {
+            IdiomikoTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Portuguese"), 1L) {}) {
+                        BookFormScreen(bookId = null, onNavigate = {}, onBack = {}, onSaved = { _, _ -> }, viewModel = viewModel, fromWeb = true)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("web-address").fetchSemanticsNodes().isNotEmpty() }
+    }
+
     /** A web page's article becomes the text to check, its title the book's, its address the book's source; a page with none says so. */
     @Test
     fun aWebPagesArticleBecomesTheText() = runDesktopComposeUiTest(width = 1586, height = 1000) {

@@ -104,10 +104,12 @@ fun BookFormScreen(
     onBack: () -> Unit,
     onSaved: (bookId: Long, isNew: Boolean) -> Unit,
     viewModel: BookFormViewModel = koinViewModel(key = "book-form-$bookId") { parametersOf(bookId) },
+    /** Opens on reading a web page's address, where the app can; on pasting text otherwise. */
+    fromWeb: Boolean = false,
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     CollectEvents(viewModel.events) { if (it is BookFormEvent.Saved) onSaved(it.bookId, it.isNew) }
-    var source by remember { mutableStateOf(ContentSource.PASTE) }
+    var source by remember { mutableStateOf(if (fromWeb && state.readsWebPages) ContentSource.WEB else ContentSource.PASTE) }
     val scope = rememberCoroutineScope()
     // Picked or dropped, files are read the same way.
     val importFiles: (List<PlatformFile>) -> Unit = { files ->
