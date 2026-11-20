@@ -69,6 +69,7 @@ import frequency_amharic  # noqa: E402
 import frequency_somali  # noqa: E402
 import frequency_yoruba  # noqa: E402
 import frequency_yiddish  # noqa: E402
+import frequency_latvian  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -5038,6 +5039,9 @@ def load_dictionary(language):
             if word not in LATVIAN_OWN and made_of <= forms:
                 common.pop(word, None)
                 lemmas[word] += sorted(t for t in LATVIAN_FORMS_OF.get(word, set()) | made_of if t not in lemmas[word])
+        # And the reflexive and prefixed verbs, the other packs' words and the regular forms the English pack lacks
+        # (justies's jūtos, noņemt, kilometrs, pakalpojumu of pakalpojums: frequency_latvian).
+        frequency_latvian.load(db, pos, lemmas, common, DICTIONARIES, WORD_POS)
     if language == "ro":
         ROMANIAN_KINDS.update(romanian_kinds(db, lemmas))
     if language == "sq":
@@ -6016,6 +6020,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "uz":
         # And the Uzbek ones, whose counts also settle which verbs are folded into others (frequency_uzbek).
         frequency_uzbek.SEEN = freq
+    if language == "lv":
+        # And the Latvian forms made for the words (frequency_latvian).
+        frequency_latvian.SEEN = set(freq)
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
@@ -6790,6 +6797,12 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             if language == "lt":
                 # A Lithuanian form filed under a participle that is no word (esančių of esąs, turinčių of turintis) is the
                 # participle's verb's (būti, turėti).
+                candidates = [m for l in candidates for m in ([l] if is_word(l) or not lemmas.get(l) else
+                                                              [x for x in lemmas[l] if x != l] or [l])]
+            if language == "lv" and not is_word(form):
+                # So is a Latvian form filed under an entry that is another word's form (nevar of nevarēt, labākais of labāks,
+                # bijusi of bijis): varēt's, labs's, būt's. Counted for no word, nevar, nezinu and nebūtu were left out. A word
+                # stays itself (braukt, which the pack files under nesākt too).
                 candidates = [m for l in candidates for m in ([l] if is_word(l) or not lemmas.get(l) else
                                                               [x for x in lemmas[l] if x != l] or [l])]
             # A Chinese or Japanese name ("日本", "美国") is filed with its poetic synonyms (神国, 金山) as their form.

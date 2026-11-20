@@ -1239,6 +1239,9 @@ _OVERRIDES_D = {
         "ceļošanu": ["ceļot"], "ceļošanas": ["ceļot"], "ceļošanai": ["ceļot"], "ceļošanā": ["ceļot"],
         # kuru "which", whose spelling the pack also gives to kurt "to kindle", which it put in the first 2,500.
         "kuru": ["kurš"],
+        # The days' adverbs (on Monday), and drīzāk "rather", which the pack lacks.
+        "pirmdien": ["pirmdiena"], "otrdien": ["otrdiena"], "trešdien": ["trešdiena"], "ceturtdien": ["ceturtdiena"],
+        "piektdien": ["piektdiena"], "sestdien": ["sestdiena"], "svētdien": ["svētdiena"], "drīzāk": ["drīz"],
     },
     # Estonian: pronoun case forms (mu, mind, mul, sind, teda, neid...) are tied to more than 6 words in
     # the dictionary and were dropped; ma/sa/ta/me/te/nad were separate from mina/sina/tema/meie/teie/nemad;
