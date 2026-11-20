@@ -1,6 +1,5 @@
 package com.idiomiko.feature.courses
 
-import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -26,11 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
-import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.Brush
-import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
@@ -40,6 +35,7 @@ import com.idiomiko.core.domain.courses.LessonProgress
 import com.idiomiko.core.domain.courses.LessonStatus
 import com.idiomiko.core.domain.home.NextUp
 import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.JourneyIllustration
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.SecondaryButton
@@ -54,7 +50,6 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import com.idiomiko.core.ui.theme.IdiomikoTheme
 
 /**
  * The lesson to read next, first on the page: the course it is in, its title, how long it takes and what it brings,
@@ -116,7 +111,7 @@ internal fun NextLessonHero(next: NextUp.Lesson, onStart: () -> Unit, onOpenLess
             path()
             buttons()
         }
-        if (picture) JourneyScene(Modifier.width(SCENE_WIDTH).fillMaxHeight())
+        if (picture) JourneyIllustration(Modifier.width(SCENE_WIDTH).fillMaxHeight().testTag("hero-scene"))
     }
 }
 
@@ -175,60 +170,6 @@ private fun LessonStop(number: Int, kind: StopKind, size: Dp, onClick: () -> Uni
             StopKind.CURRENT -> Icon(AppIcons.PlayArrow, contentDescription = tr("Lesson {0}", number), tint = content, modifier = Modifier.size(AppSizes.iconXLarge))
             StopKind.AHEAD -> Text("$number", style = AppText.smallTitle, color = content)
         }
-    }
-}
-
-/**
- * The hero's picture, drawn rather than an image so it needs no download: a warm sky with the sun, green hills,
- * and a little building with two towers on the way, the journey's next stop. A dark theme dims it.
- */
-@Composable
-private fun JourneyScene(modifier: Modifier) {
-    val dark = IdiomikoTheme.current.isDark
-    val light = AppAccents.onAccent
-    val skyTop = lerp(AppAccents.amber, light, 0.72f)
-    val skyMiddle = lerp(AppAccents.orange, light, 0.45f)
-    val skyBottom = lerp(AppAccents.orange, AppAccents.red, 0.25f)
-    val sun = lerp(AppAccents.amber, light, 0.85f)
-    val farHill = lerp(AppAccents.green, light, 0.35f)
-    val hill = lerp(AppAccents.green, AppAccents.ink, 0.15f)
-    val wall = lerp(AppAccents.amber, light, 0.92f)
-    val tower = lerp(AppAccents.amber, light, 0.8f)
-    val roof = lerp(AppAccents.amber, AppAccents.brown, 0.45f)
-    Canvas(modifier.clip(AppShapes.large).alpha(if (dark) AppAlpha.strong else 1f).testTag("hero-scene")) {
-        val w = size.width
-        val h = size.height
-        drawRect(Brush.verticalGradient(0f to skyTop, 0.6f to skyMiddle, 1f to skyBottom))
-        drawCircle(sun, h * 0.13f, Offset(w * 0.78f, h * 0.24f))
-        drawPath(Path().apply {
-            moveTo(0f, h * 0.68f)
-            quadraticTo(w * 0.3f, h * 0.52f, w * 0.62f, h * 0.66f)
-            quadraticTo(w * 0.82f, h * 0.74f, w, h * 0.6f)
-            lineTo(w, h); lineTo(0f, h); close()
-        }, farHill)
-        // The building stands on the near hill, its towers either side of the door.
-        val base = h * 0.8f
-        val body = Size(w * 0.26f, h * 0.38f)
-        val left = w * 0.5f - body.width / 2
-        drawRect(wall, Offset(left, base - body.height), body)
-        val towerSize = Size(w * 0.08f, h * 0.47f)
-        for (x in listOf(left - towerSize.width * 0.5f, left + body.width - towerSize.width * 0.5f)) {
-            drawRect(tower, Offset(x, base - towerSize.height), towerSize)
-            drawPath(Path().apply {
-                moveTo(x, base - towerSize.height)
-                lineTo(x + towerSize.width / 2, base - towerSize.height - h * 0.1f)
-                lineTo(x + towerSize.width, base - towerSize.height)
-                close()
-            }, roof)
-        }
-        val door = Size(w * 0.08f, h * 0.17f)
-        drawRoundRect(roof, Offset(w * 0.5f - door.width / 2, base - door.height), door, CornerRadius(door.width / 2))
-        drawPath(Path().apply {
-            moveTo(0f, h * 0.86f)
-            quadraticTo(w * 0.35f, h * 0.74f, w * 0.55f, h * 0.82f)
-            quadraticTo(w * 0.8f, h * 0.9f, w, h * 0.8f)
-            lineTo(w, h); lineTo(0f, h); close()
-        }, hill)
     }
 }
 

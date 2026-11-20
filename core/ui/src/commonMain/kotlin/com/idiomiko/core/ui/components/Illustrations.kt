@@ -10,6 +10,7 @@ import org.jetbrains.compose.resources.painterResource
 import idiomiko.core.ui.generated.resources.Res
 import idiomiko.core.ui.generated.resources.illustration_courses
 import idiomiko.core.ui.generated.resources.illustration_flashcards
+import idiomiko.core.ui.generated.resources.illustration_journey
 
 /** An open book in front of two text cards, on a soft disc: the courses page before there are courses. */
 @Composable
@@ -22,4 +23,10 @@ fun CoursesIllustration(modifier: Modifier = Modifier) {
 @Composable
 fun FlashcardsIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.illustration_flashcards), contentDescription = null, modifier = modifier)
+}
+
+/** The mascot with a map and a backpack, the next stops dotted along its path: the next lesson of a course. */
+@Composable
+fun JourneyIllustration(modifier: Modifier = Modifier) {
+    Image(painterResource(Res.drawable.illustration_journey), contentDescription = null, modifier = modifier)
 }
