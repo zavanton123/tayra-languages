@@ -100,6 +100,7 @@ SOURCES = {
     "si": ("Sinhala", None, "dictionaries/kaikki.org-dictionary-Sinhalese.jsonl.gz"),
     "ha": ("Hausa", None, "dictionaries/kaikki.org-dictionary-Hausa.jsonl.gz"),
     "mr": ("Marathi", None, "dictionaries/kaikki.org-dictionary-Marathi.jsonl.gz"),
+    "zu": ("Zulu", None, "dictionaries/kaikki.org-dictionary-Zulu.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -477,9 +478,14 @@ def clean_marathi(word):
     return word
 
 
+def strip_zulu_tones(word):
+    """The English Wiktionary marks Zulu tone and length on its heads and tables (umúntu, ngihambē); texts never do."""
+    return unicodedata.normalize("NFC", "".join(c for c in unicodedata.normalize("NFD", word) if not unicodedata.combining(c)))
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"mr": clean_marathi, "te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones}
 
 
 def pashto_translation_entries(kept):
@@ -1239,6 +1245,16 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
         entry_count += added
         form_count = db.execute("SELECT COUNT(*) FROM forms").fetchone()[0]
         label += "; common words it lacks, glossed by hand (tools/frequency_pashto.py)"
+    if source == "zu":
+        from frequency_zulu import ZULU_WORDS
+        kept = {w for (w,) in db.execute("SELECT word_lc FROM entries")}
+        for word, (pos, gloss) in sorted(ZULU_WORDS.items()):
+            if word not in kept:
+                entry_rows.append((next_id, word, word, pos, None, json.dumps([{"glosses": [gloss]}], ensure_ascii=False, separators=(",", ":"))))
+                next_id += 1
+                entry_count += 1
+        flush()
+        label += "; everyday words it lacks, by hand (tools/frequency_zulu.py)"
     if source == "ur":
         added, next_id = urdu_from_hindi(urdu_kept, next_id)
         entry_rows = [row for row, _ in added]
