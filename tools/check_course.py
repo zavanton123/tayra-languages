@@ -34,6 +34,7 @@ import frequency_tamil  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
+import frequency_nepali  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -59,6 +60,9 @@ BENGALI_NAME_ENDINGS = sorted({e + c for e in frequency_bengali.CONSONANT_TAILS 
                                for c in ("", "ই", "ও")} | {"ই", "ও"}, key=len, reverse=True)
 # Telugu words as the reader cuts them (its wordCharacters in AddedLanguages.kt): the Telugu block and the joiners.
 TELUGU_WORD = re.compile(r"[\u0c00-\u0c7f\u200c\u200d]+")
+# Nepali words as the reader cuts them (its wordCharacters in AddedLanguages.kt): Latin and Devanagari letters, vowel signs,
+# virama and the joiners, without the danda and the digits (२०८० is a number, as 2080 is).
+NEPALI_WORD = re.compile(r"[a-zA-Z\u0900-\u0963\u0971-\u097f\u200c\u200d]+")
 PERSIAN_WORD = re.compile(r"[^\W\d_]+(?:\u200c[^\W\d_]+)*", re.UNICODE)
 # An Urdu word: a run of the reader's word characters for Urdu (AddedLanguages), as the text is folded (frequency_urdu).
 URDU_WORD = re.compile("[\u200c\u0600-\u0608\u0610-\u061a\u0620-\u065f\u066e-\u06d3\u06d5-\u06ef\u06fa-\u06ff\ufb50-\ufdff\ufe70-\ufefc]+")
@@ -726,6 +730,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return BENGALI_WORD.findall(text)
     if code == "te":
         return TELUGU_WORD.findall(text)
+    if code == "ne":
+        return NEPALI_WORD.findall(text)
     # The non-joiner stays inside a Persian word (می‌روم, کتاب‌ها), as it does in the reader; a mark is no break in one.
     if code == "fa":
         return PERSIAN_WORD.findall(frequency_persian.persian_fold(text))
@@ -2673,7 +2679,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:",
     )
 }
 
@@ -2944,6 +2950,9 @@ def check(path, brief=False):
     if code == "bn":
         names = names | {n + ending for n in names for ending in BENGALI_NAME_ENDINGS}
         long_names = sorted((n for n in course.get("names", []) if " " in n), key=len, reverse=True)
+    # A Nepali name takes the postpositions joined (रामको, सीतालाई, काठमाडौंमा, रामहरूसँगै).
+    if code == "ne":
+        names = names | {n + tail for n in names for tail in frequency_nepali.NOMINAL_TAILS if tail}
     # Kazakh names take the case endings joined (Асқардың, Алматыда, Айгүлге).
     if code == "kk":
         names = names | kazakh_name_forms(course.get("names", []))
@@ -3199,6 +3208,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^Maswali:", "", text)
         if code == "te":
             text = re.sub(r"(?m)^ప్రశ్నలు:", "", text)
+        if code == "ne":
+            text = re.sub(r"(?m)^प्रश्नहरू:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3352,6 +3363,9 @@ def check(path, brief=False):
         # The list and the dictionary have Bengali in NFC (য় as য + ়): a precomposed ড় ঢ় য় is another word to them.
         if code == "bn" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
             problems.append("ড় ঢ় or য় typed as one character: write the text in NFC (letter + nukta)")
+        # The list has Nepali in NFC: a letter with nukta typed as one character is another word to it.
+        if code == "ne" and unicodedata.normalize("NFC", lesson["text"]) != lesson["text"]:
+            problems.append("a letter with nukta typed as one character: write the text in NFC (letter + nukta)")
         if coverage < need:
             problems.append(f"coverage {coverage:.1%} < {need:.0%}")
         if not shortest <= len(lowered) <= longest:
