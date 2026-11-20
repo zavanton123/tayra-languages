@@ -1279,15 +1279,15 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 linked = targets
                 if source == "my":
                     # A pronoun's induced creaky tone (သူ့ "his" of သူ, ကျွန်တော့် of ကျွန်တော်) is its form. The other senses
-                    # that point to a word are abbreviations and other spellings that are words too (ထိ "to touch" of အထိ,
-                    # ဒီ "this" of ဒီဇင်ဘာ): no forms, which would file a word under another.
+                    # that point to a word are spellings, abbreviations and colloquial forms that are words of the texts
+                    # themselves (အရင် "before" of literary အလျင်, ဒီ "this" of ဒီဇင်ဘာ): they stay senses, never forms, which
+                    # would file a word under another.
                     linked = [m.group(1) for g in s.get("glosses", []) if (m := BURMESE_CREAKY_GLOSS.match(g))]
-                    targets = targets + linked
                 for lemma in linked:
                     if is_clean_form(word, lemma, source) and not (latin_only and foreign(lemma)):
                         form_rows.append((lowercase(word, source), lemma))
                         pointer_count += 1
-                if targets or "form-of" in tags or "alt-of" in tags:
+                if linked or source != "my" and ("form-of" in tags or "alt-of" in tags):
                     continue
                 glosses = [g.strip() for g in s.get("glosses", []) if g.strip()]
                 if not glosses:

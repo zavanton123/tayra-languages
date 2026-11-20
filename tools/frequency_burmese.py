@@ -71,12 +71,15 @@ def my_normalise(text):
     return "".join(out)
 
 
-# The words a sentence or a phrase ends in, which the ICU list writes onto the word before them (ရပါတယ်, ဒီမှာ, လူများ): an
-# entry of the list that is words of the lexicon and one of these, cut between syllables, is left out of the app's list.
-PARTICLES = ("တယ်", "ပါ", "ဘူး", "လား", "လဲ", "မယ်", "ပြီ", "သည်", "မည်", "ခဲ့", "ရဲ့", "ကို", "နဲ့", "တွေ", "များ", "က",
-             "မှာ", "လည်း", "ပဲ", "တော့", "တာ", "၏", "ပြီး", "နှင့်", "မှ", "သို့", "၌", "၍")
-# Words of the pack the texts write mostly as other words: ကတော့ "funnel" is nearly always the particles က + တော့.
-EXCLUDE = {"ကတော့"}
+# The particles a verb or a sentence ends in and the helper verbs a verb takes after it, which ICU's list writes onto the
+# words before them (ရပါတယ်, လူများ, ပြန်လာ, လုပ်ပေး, သွားချင်): an entry the pack lacks that is words and one of these, cut
+# between syllables, is read as those words.
+ENDINGS = ("တယ်", "ပါ", "ဘူး", "လား", "လဲ", "မယ်", "ပြီ", "သည်", "မည်", "ခဲ့", "ရဲ့", "ကို", "နဲ့", "တွေ", "များ", "က", "မှာ",
+           "လည်း", "ပဲ", "တော့", "တာ", "၏", "ပြီး", "နှင့်", "မှ", "သို့", "၌", "၍", "လာ", "သွား", "ပေး", "ထား", "လိုက်", "နေ",
+           "ကြည့်", "ချင်", "နိုင်", "ကြ")
+# Words of the pack the texts write mostly as other words: ကတော့ "funnel" is nearly always the particles က + တော့; အ
+# "dumb" is the prefix အ- the cut leaves (အ + ကြာ) and the subtitles' "uh".
+EXCLUDE = {"ကတော့", "အ"}
 
 # Syllables of foreign words and names that are no word alone in ordinary Burmese, or whose own word (ယာ "upland field", ကေ
 # "hair") is rare beside them: the Latin letters (ဘီ, ဂျီ, ပီ, အေ), the vowels' names, and the syllables the texts spell
@@ -85,7 +88,7 @@ EXCLUDE = {"ကတော့"}
 # word covers.
 FRAGMENTS = frozenset("""
 ကေ တီ ဘီ ဂျီ ပီ အေ ဂျေ ဗွီ အာရ် အီ အာ ယာ ရီ ရိ လီ ယို မို ယား ဂျင် အင် မက် အက် အိုင် အန် မော် တိ ချာ ဘု ဘတ် ဖာ
-ဂျက် ကွန် လန် မင် ကတ် ဇာ
+ဂျက် ကွန် လန် မင် ကတ် ဇာ ပ န ဘ ဖ ဇ နို
 """.split())
 
 # Loanwords neither the pack nor ICU's list has, which the reader would cut into syllables that are words (အို "old" + ကေ
@@ -145,13 +148,13 @@ def cuts_into(word, start, end, words):
 def make_lexicon(icu_path):
     """
     The app's Burmese word list from ICU's (LeRoy Benjamin Sharon's word list): its Burmese entries normalised, a verb or
-    adjective without its citation ending (CITATION_ENDINGS), and no entry that is words and a particle (PARTICLES) unless the
-    pack has it as a word of its own (ဟိုတယ် "hotel", ဒီမှာ "here").
+    adjective without its citation ending (CITATION_ENDINGS), none the pack lacks that is words and one of ENDINGS (ပြန်လာ
+    is ပြန် + လာ, ရပါတယ် ရ + ပါ + တယ်), and EXTRA_WORDS.
     """
     pack = pack_words()
     words = set()
     for line in open(icu_path, encoding="utf-8-sig"):
-        word = line.strip().lstrip("﻿")
+        word = line.strip().lstrip("\ufeff")
         if not word or word.startswith("#") or not all("\u1000" <= c <= "\u109f" for c in word) or MY_RUN.fullmatch(word) is None:
             continue
         word = my_normalise(word)
@@ -160,15 +163,10 @@ def make_lexicon(icu_path):
                 word = word[:-len(ending)]
                 break
         words.add(word)
-    words.update(EXTRA_WORDS)
     known = words | pack
-    kept = set()
-    for word in words:
-        if word not in pack and any(len(word) > len(p) and word.endswith(p) and my_break(word, len(word) - len(p))
-                                    and cuts_into(word, 0, len(word) - len(p), known) for p in PARTICLES):
-            continue
-        kept.add(word)
-    return sorted(kept)
+    kept = {w for w in words if w in pack or not any(len(w) > len(e) and w.endswith(e) and my_break(w, len(w) - len(e))
+                                                     and cuts_into(w, 0, len(w) - len(e), known) for e in ENDINGS)}
+    return sorted(kept | set(EXTRA_WORDS))
 
 
 def zawgyi_lines(lines):
