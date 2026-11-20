@@ -374,6 +374,7 @@ from frequency_fixes import HEBREW_CUT, HEBREW_WHOLE  # noqa: E402
 import frequency_albanian  # noqa: E402
 import frequency_punjabi  # noqa: E402
 import frequency_maltese  # noqa: E402
+import frequency_malay  # noqa: E402
 
 OVERRIDES["pa"] = frequency_punjabi.OVERRIDES
 EXCLUDE["pa"] = frequency_punjabi.EXCLUDE
@@ -7533,6 +7534,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         hindi_relink()
     if language == "pa":
         overrides = {**overrides, **frequency_punjabi.relink(freq, pos, lemmas, is_word, count, overrides, excluded, DICTIONARIES, common)}
+    if language == "ms":
+        # The Indonesian packs' Malay words, and a root's verb forms under it (menggunakan of guna: frequency_malay).
+        overrides = {**overrides, **frequency_malay.relink(freq, pos, lemmas, is_word, overrides, excluded, DICTIONARIES, common, found, WORD_POS)}
 
     def armenian_relink():
         """
