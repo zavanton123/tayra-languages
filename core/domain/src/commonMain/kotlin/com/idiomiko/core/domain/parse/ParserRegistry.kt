@@ -23,6 +23,7 @@ object ParserRegistry {
         "arabic" to ArabicParser(),
         "persian" to PersianParser(),
         "urdu" to UrduParser(),
+        "pashto" to PashtoParser(),
         "hebrew" to HebrewParser(),
         "armenian" to ArmenianParser(),
         "ancientgreek" to AncientGreekParser(),
