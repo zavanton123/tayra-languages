@@ -1,100 +1,100 @@
-1	4901	lukut	
-2	4902	wasap	
-3	4903	hampas	
-4	4904	barium	
-5	4905	segara	
-6	4906	insang	isang
-7	4907	antah	
-8	4908	marhaen	
-9	4909	kulinari	
-10	4910	rumbia	
-11	4911	maung	
-12	4912	ayatollah	
-13	4913	buak	
-14	4914	galon	
-15	4915	harmonika	
-16	4916	juruhebah	
-17	4917	bersekedudukan	
-18	4918	bodo	
-19	4919	proksi	
-20	4920	mentadak	
-21	4921	rege	reggae
-22	4922	dirgahayu	
-23	4923	ciku	
-24	4924	kakanda	
-25	4925	dwibahasa	
-26	4926	obstetrik	
-27	4927	sembahan	
-28	4928	kaba	
-29	4929	kornea	
-30	4930	panau	
-31	4931	cakra	
-32	4932	bendung	
-33	4933	penampan	
-34	4934	jahe	jahi
-35	4935	kanker	
-36	4936	jakun	
-37	4937	diamati	
-38	4938	inga	
-39	4939	bahlul	
-40	4940	pending	
-41	4941	pedati	
-42	4942	usap	
-43	4943	memikir	difikir
-44	4944	juz	
-45	4945	cabai	cabainya
-46	4946	laung	
-47	4947	cenuram	
-48	4948	agas	
-49	4949	pengangkatan	
-50	4950	herbivor	
-51	4951	balah	
-52	4952	dubuk	
-53	4953	kocak	
-54	4954	dura	
-55	4955	kendong	mengendong
-56	4956	kaldu	kaldunya
-57	4957	andak	
-58	4958	turus	
-59	4959	gering	
-60	4960	kehutanan	
-61	4961	kasmaran	
-62	4962	relativiti	
-63	4963	insolvensi	
-64	4964	pulasan	
-65	4965	litium	
-66	4966	kekwa	
-67	4967	uterus	
-68	4968	engsel	
-69	4969	tesaurus	
-70	4970	konsonan	
-71	4971	tenggiri	
-72	4972	tanih	
-73	4973	manikam	
-74	4974	federasi	
-75	4975	betung	
-76	4976	penggawa	
-77	4977	komunisme	
-78	4978	halilintar	
-79	4979	awat	
-80	4980	tukun	
-81	4981	pegoh	
-82	4982	kepal	
-83	4983	acak	
-84	4984	lamunan	
-85	4985	nirwana	
-86	4986	napa	
-87	4987	pembandaran	
-88	4988	hanyir	
-89	4989	bengap	
-90	4990	ketuban	
-91	4991	bundar	
-92	4992	jargon	
-93	4993	utus	
-94	4994	songlap	
-95	4995	payang	
-96	4996	ijmak	
-97	4997	kundur	
-98	4998	baterai	
-99	4999	gigil	
-100	5000	terduduk	
+1	4901	gempar	digemparkan gemparkan menggemparkan
+2	4902	start	
+3	4903	prosiding	prosidingnya
+4	4904	habuk	berhabuk berhabuklah habuknya
+5	4905	reformasi	direformasi mereformasi mereformasikan reformasimu
+6	4906	karib	karibku karibmu karibnya
+7	4907	suluh	bersuluh disuluh menyuluh menyuluhkan suluhkan suluhmu
+8	4908	santun	disantuni menyantuni santunku santunmu
+9	4909	dian	diani
+10	4910	propaganda	berpropaganda dipropagandakan mempropagandakan
+11	4911	soda	
+12	4912	fleksibel	
+13	4913	mapan	
+14	4914	adakalanya	
+15	4915	asuhan	
+16	4916	tamparan	tamparannya
+17	4917	pasta	
+18	4918	rasis	
+19	4919	fitri	
+20	4920	larat	berlarat melarat
+21	4921	logistik	logistiknya
+22	4922	gigil	menggigil
+23	4923	tonggak	tonggaknya
+24	4924	naungan	naunganku naungannya
+25	4925	tercatat	tercatatlah
+26	4926	perbarisan	
+27	4927	kritis	
+28	4928	fabrik	fabriknya
+29	4929	buletin	
+30	4930	ketentuan	berketentuan ketentuannya
+31	4931	tenteram	ditenteramkan menenteramkan mententeramkan tenteramkan tenteramlah
+32	4932	bertepatan	
+33	4933	perigi	diperigi perigiku perigimu
+34	4934	lumut	berlumut melumuti
+35	4935	anggun	anggunnya
+36	4936	penangguhan	penangguhannya
+37	4937	kelapan	kelapannya
+38	4938	karate	berkarate karateku
+39	4939	kayuh	berkayuh dikayuhnya kayuhkan kayuhlah mengayuh
+40	4940	pena	penaku penamu penanya
+41	4941	sahur	bersahur bersahurlah sahurnya
+42	4942	divisyen	divisyennya
+43	4943	ralat	ralatkan
+44	4944	kelembapan	berkelembapan kelembapannya
+45	4945	peroleh	
+46	4946	nangka	nangkanya
+47	4947	tauhid	bertauhid mentauhidkan
+48	4948	meletus	meletuskan meletusnya
+49	4949	personal	personalnya
+50	4950	ragam	meragam meragamlah ragamnya
+51	4951	spot	
+52	4952	santan	bersantan santannya
+53	4953	formulasi	diformulasi diformulasikan formulasikan formulasinya memformulasikan
+54	4954	susup	menyusup menyusupi menyusupkan susupi susupkan
+55	4955	genggam	digenggam digenggamnya genggami genggamkan genggamlah genggamnya menggenggam menggenggamkan menggenggamku menggenggamnya
+56	4956	relatif	relatifi relatifnya
+57	4957	tukul	menukul tukulkan tukulnya
+58	4958	adunan	adunannya
+59	4959	lantang	lantangkan lantangnya
+60	4960	skru	diskru diskrukan skrukan skrunya
+61	4961	imbuhan	berimbuhan imbuhannya
+62	4962	perikatan	
+63	4963	tadah	ditadah menadah tadahkan
+64	4964	bomoh	bomohnya
+65	4965	ace	
+66	4966	auditorium	
+67	4967	jajah	dijajah dijajahi dijajahnya jajahlah menjajah menjajahi menjajahkan menjajahku
+68	4968	oral	mengoral
+69	4969	langsir	berlangsir langsirnya
+70	4970	variasi	bervariasi divariasikan variasikan variasinya
+71	4971	hirup	dihirup hiruplah menghirup menghirupnya
+72	4972	koloni	berkoloni koloninya
+73	4973	terpuji	terpujilah
+74	4974	jem	jemi jemilah
+75	4975	pemisah	
+76	4976	apalagi	apalagilah
+77	4977	terlarang	
+78	4978	respons	merespons responsku responsnya
+79	4979	anime	
+80	4980	kuantum	
+81	4981	selawat	berselawat berselawatlah selawatnya
+82	4982	kutukan	kutukanku kutukanmu kutukannya
+83	4983	penggodam	penggodamnya
+84	4984	ekosistem	ekosistemnya
+85	4985	kekunci	kekuncinya
+86	4986	imperial	
+87	4987	ilmuwan	
+88	4988	teduh	berteduh berteduhlah diteduhi meneduhi teduhkan
+89	4989	puding	
+90	4990	kerepek	
+91	4991	ikhtiar	berikhtiar berikhtiarlah diikhtiarkan ikhtiarkan ikhtiarkanlah ikhtiarkannya ikhtiarlah ikhtiarnya mengikhtiarkan
+92	4992	pecahan	pecahannya
+93	4993	toko	ditoko ditokoku tokokan tokoku tokomu tokonya
+94	4994	emis	emisi mengemis
+95	4995	administrator	
+96	4996	modern	
+97	4997	geologi	geologinya
+98	4998	resah	meresahkan meresahkannya resahkan
+99	4999	jenguk	dijenguk jengukkan jenguklah menjenguk menjengukku menjengukmu menjenguknya
+100	5000	terdampar	

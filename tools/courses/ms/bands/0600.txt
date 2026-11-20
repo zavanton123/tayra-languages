@@ -1,100 +1,100 @@
-1	501	jumlah	jumlahmu jumlahnya
-2	502	marah	
-3	503	video	
-4	504	perasaan	perasaanku perasaanmu perasaannya
-5	505	hai	
-6	506	langkah	langkahku langkahmu langkahnya
-7	507	bangun	
-8	508	surat	suratku suratmu suratnya
+1	501	jumlah	berjumlah dijumlahkan jumlahkan jumlahkannya jumlahmu jumlahnya menjumlahkan
+2	502	marah	dimarah dimarahi dimarahinya dimarahkan marahi marahkah marahkan marahkanku marahkannya marahlah marahmu marahnya memarahi memarahiku memarahimu memarahinya
+3	503	video	bervideo videokan videoku videonya
+4	504	perasaan	beperasaan berperasaan perasaankah perasaanku perasaanmu perasaannya
+5	505	hai	haiku
+6	506	langkah	dilangkah dilangkahi langkahi langkahkan langkahku langkahlah langkahmu langkahnya melangkah melangkahi melangkahimu melangkahkan melangkahlah
+7	507	bangun	bangunkan bangunkanlah bangunkanmu bangunkannya bangunlah bangunnya dibangun dibangunkan dibangunkannya dibangunlah dibangunnya membangun membangunkan membangunkanku membangunkanmu membangunkannya membangunnya
+8	508	surat	bersurat disurat menyurat suratku suratmu suratnya tersurat
 9	509	kesihatan	kesihatanku kesihatanmu kesihatannya
-10	510	rendah	
-11	511	suara	suaraku suaramu suaranya
-12	512	saudara	saudaraku saudaramu saudaranya
-13	513	lupa	
-14	514	pemimpin	pemimpinmu pemimpinnya
-15	515	ekonomi	ekonominya
-16	516	zaman	zamannya
+10	510	rendah	berendah direndahkan merendah merendahkan merendahkanku merendahkanmu merendahkannya rendahkah rendahkan rendahkanlah rendahkannya rendahnya
+11	511	suara	bersuara bersuaralah disuara disuarakan disuarakannya menyuara menyuarakan menyuarakannya suarakan suaraku suaralah suaramu suaranya
+12	512	saudara	bersaudara bersaudaralah mempersaudarakan saudaraku saudaralah saudaramu saudaranya
+13	513	lupa	dilupa dilupai dilupainya dilupakan dilupakannya lupakah lupakan lupakanlah lupakanmu lupakannya lupalah lupanya melupa melupai melupainya melupakan melupakanku melupakanmu melupakannya
+14	514	pemimpin	pemimpinlah pemimpinmu pemimpinnya
+15	515	ekonomi	berekonomi ekonomilah ekonominya
+16	516	zaman	berzaman dizaman dizamannya zamani zamanlah zamannya
 17	517	berharap	
-18	518	unit	
-19	519	sebahagian	
-20	520	universiti	universitas universitinya
-21	521	sukan	sukanku sukannya
-22	522	tanda	tandaku tandamu tandanya
-23	523	kota	kotaku kotamu kotanya
-24	524	hospital	hospitalnya
-25	525	mangsa	mangsaku mangsamu mangsanya
+18	518	unit	uniti unitku unitlah unitmu unitnya
+19	519	sebahagian	sebahagiannya
+20	520	universiti	diuniversiti universitas universitikah universitilah universitinya
+21	521	sukan	bersukan sukanku sukannya
+22	522	tanda	bertanda bertandakan bertandamu ditanda ditandai ditandakan menanda menandai menandaiku menandainya menandakan menandakanku menandakannya tandai tandakan tandakannya tandaku tandamu tandanya
+23	523	kota	berkota dikota dikotakan kotakan kotaku kotamu kotanya mengota mengotakan mengotakannya
+24	524	hospital	dihospital hospitali hospitallah hospitalnya
+25	525	mangsa	dimangsa dimangsakan mangsaku mangsamu mangsanya memangsa memangsakan
 26	526	ah	
 27	527	emas	emasku emasmu emasnya
-28	528	berat	beratku beratmu beratnya
-29	529	sedia	
-30	530	perhatian	
-31	531	tepat	
-32	532	sumber	sumberku sumbermu sumbernya
-33	533	tujuan	tujuanku tujuanmu tujuannya
-34	534	sebelah	
-35	535	siap	
+28	528	berat	berati beratkah beratkan beratku beratmu beratnya berberat diberatkan memberat memberati memberatkan memberatkanmu
+29	529	sedia	bersedia bersediakah bersediakan bersedialah disedia disediakan disediakannya mempersediakan menyedia menyediakan menyediakanmu menyediakannya persediakan sediakan sediakanlah sediakannya sedialah
+30	530	perhatian	perhatianku perhatianmu perhatiannya
+31	531	tepat	ditepati menepati menepatinya tepati tepatinya tepatlah tepatnya
+32	532	sumber	bersumber bersumberkan menyumber sumberku sumbermu sumbernya
+33	533	tujuan	bertujuan tujuanku tujuanmu tujuannya
+34	534	sebelah	bersebelah disebelah disebelahku disebelahmu disebelahnya menyebelah menyebelahi menyebelahiku menyebelahinya menyebelahinyakah sebelahi sebelahku sebelahmu sebelahnya
+35	535	siap	bersiap bersiapkan bersiaplah dipersiapkan disiap disiapkan mempersiap mempersiapkan mempersiapkanmu mempersiapkannya menyiap menyiapkan menyiapkanmu menyiapkannya persiapkan persiapkanlah persiapkannya siapkah siapkan siapkannya siaplah siapnya siappun
 36	536	bola	bolaku bolamu bolanya
-37	537	tukar	bertukar menukar
-38	538	masjid	masjidku masjidnya
+37	537	tukar	bertukar bertukarlah bertukarnya ditukar ditukarkan ditukarkannya ditukarnya menukar menukarkan menukarkannya menukarku menukarnya tukarkan tukarkannya tukarlah tukarnya
+38	538	masjid	dimasjid masjidku masjidnya
 39	539	serangan	seranganku seranganmu serangannya
-40	540	enam	anam nam
-41	541	produk	
-42	542	merah	merahku merahmu merahnya
-43	543	suruh	
-44	544	sejarah	sejarahmu sejarahnya
-45	545	gagal	
-46	546	perak	perakmu peraknya
+40	540	enam	anam berenam bernam enamnya nam nami namkan
+41	541	produk	produkku produklah produkmu produknya
+42	542	merah	diperah memerah merahkan merahku merahlah merahmu merahnya
+43	543	suruh	disuruh disuruhkan disuruhnya menyuruh menyuruhku menyuruhmu menyuruhnya suruhkan suruhku suruhlah suruhmu suruhnya
+44	544	sejarah	bersejarah bersejarahnya sejarahmu sejarahnya
+45	545	gagal	bergagal digagalkan gagalkan gagalkannya gagalnya menggagalkan menggagalkannya
+46	546	perak	peraklah perakmu peraknya
 47	547	meminta	
-48	548	puan	
-49	549	tenaga	tenagaku tenagamu tenaganya
-50	550	laut	lautku lautmu lautnya
-51	551	dahulu	
-52	552	kelihatan	
-53	553	ruang	ruangnya
-54	554	ikan	ikannya
-55	555	terletak	
-56	556	berdua	
-57	557	tugas	
-58	558	main	
-59	559	perkataan	perkataanku perkataanmu perkataannya
-60	560	pengguna	
+48	548	puan	puankah
+49	549	tenaga	bertenaga bertenagakan dipertenagakan tenagaku tenagamu tenaganya
+50	550	laut	dilaut lautku lautlah lautmu lautnya melaut
+51	551	dahulu	dahului dahulukan dahulukanlah dahulunya didahului didahulukan mendahulu mendahului mendahuluimu mendahuluinya mendahulukan
+52	552	kelihatan	kelihatanlah kelihatannya
+53	553	ruang	diruang ruangkah ruangnya
+54	554	ikan	diikan ikannya
+55	555	terletak	terletaknya
+56	556	berdua	berdualah
+57	557	tugas	bertugas bertugasku bertugaslah ditugas ditugasi ditugaskan menugaskan menugaskanku menugaskanmu menugaskannya tugaskan tugasku tugasmu tugasnya
+58	558	main	bermainku bermainlah bermainnya dimain dimainkan dimainkannya dipermain dipermainkan mainkan mainkanku mainkanlah mainkannya mainlah mainnya memain memainkan memainkanmu memainkannya mempermain mempermainkan mempermainkanku mempermainkanmu mempermainkannya permainkan permainkanlah permainkanmu permainkannya
+59	559	perkataan	berperkataan perkataanku perkataanmu perkataannya
+60	560	pengguna	penggunakan penggunalah penggunamu penggunanya
 61	561	manakala	
-62	562	laman	
-63	563	sering	
-64	564	penyakit	penyakitku penyakitmu penyakitnya
-65	565	kedai	kedaiku kedaimu kedainya
+62	562	laman	dilaman lamanmu lamannya
+63	563	sering	seringlah seringnya
+64	564	penyakit	berpenyakit penyakitku penyakitlah penyakitmu penyakitnya
+65	565	kedai	dikedai dikedainya kedaikah kedaiku kedaimu kedainya
 66	566	fikirkan	difikirkan memikirkan
-67	567	panas	
-68	568	bentuk	bentukmu bentuknya
-69	569	pengurusan	
-70	570	lah	
-71	571	teman	menemani temanku temanmu temannya
-72	572	hadapan	
-73	573	hitam	itam
-74	574	bayar	dibayar
-75	575	bank	
-76	576	segera	
-77	577	senang	
-78	578	taman	tamannya
-79	579	pokok	pokokku pokoknya
-80	580	semoga	
-81	581	ilmu	ilmuku ilmumu ilmunya
-82	582	udara	udaranya
-83	583	kat	
-84	584	golongan	
-85	585	bin	
-86	586	cik	cikku cikmu ciknya
-87	587	hadiah	hadiahku hadiahmu hadiahnya
-88	588	berani	
-89	589	kanan	
-90	590	panjang	
-91	591	kulit	kulitku kulitmu kulitnya
-92	592	lokasi	lokasiku lokasimu lokasinya
+67	567	panas	berpanas dipanas dipanaskan memanas memanasi memanaskan memanaskannya panaskah panaskan panaskannya panaslah panasmu panasnya
+68	568	bentuk	bentukkan bentukkannya bentuklah bentukmu bentuknya berbentuk dibentuk dibentukkan dibentuklah membentuk membentukku membentuknya
+69	569	pengurusan	pengurusannya
+70	570	lah	lahi lahipun melah
+71	571	teman	berteman bertemankan ditemani ditemankan meneman menemani menemaniku menemanimu menemaninya menemankan menemanmu temani temanilah temankan temankanmu temanku temanlah temanmu temannya
+72	572	hadapan	hadapanku hadapanmu hadapannya
+73	573	hitam	dihitamkan hitamkan hitamku hitamlah hitammu hitamnya itam itami menghitam menghitamkan
+74	574	bayar	bayarkan bayarkankah bayarkanlah bayarkannya bayarku bayarlah bayarnya berbayar dibayar dibayarkan membayar membayarkan membayarkannya membayarku membayarmu membayarnya
+75	575	bank	bankku bankmu banknya dibank dibankkan perbankkan
+76	576	segera	bersegera bersegeralah disegerakan menyegerakan segerai segerakah segerakan segeralah segeranya
+77	577	senang	bersenang disenangi disenanginya menyenang menyenangi menyenanginya menyenangkan menyenangkanmu menyenangkannya senangi senangkah senangkan senanglah senangmu senangnya
+78	578	taman	ditaman tamankan tamannya
+79	579	pokok	berpokok dipokok pokokkah pokokku pokoknya
+80	580	semoga	semoganya
+81	581	ilmu	ilmuku ilmumu ilmunya mengilmukan
+82	582	udara	berudara diudara diudarakan mengudara udaranya
+83	583	kat	katnya
+84	584	golongan	golonganku golonganmu golongannya
+85	585	bin	berbinkan binkan dibin dibinkan
+86	586	cik	cikku cikmu ciknya dipercikkan percikkan
+87	587	hadiah	berhadiah dihadiahi dihadiahkan hadiahi hadiahkan hadiahkannya hadiahku hadiahmu hadiahnya menghadiah menghadiahi menghadiahimu menghadiahinya menghadiahkan menghadiahkanmu menghadiahkannya
+88	588	berani	beranikah beranikan beranikanlah beranilah beraninya brani memberan memberanikan
+89	589	kanan	dikanan dikanannya kananku kananmu kanannya menganan
+90	590	panjang	berpanjang dipanjangkan diperpanjang diperpanjangkan memanjang memanjangkan memanjangkannya memperpanjang panjangkan panjangku panjanglah panjangmu panjangnya
+91	591	kulit	berkulit dikulit dikuliti kulitku kulitmu kulitnya mengulit menguliti mengulitimu mengulitnya
+92	592	lokasi	berlokasi berlokasikan dilokasi lokasiku lokasimu lokasinya melokasikan
 93	593	bayi	bayiku bayimu bayinya
-94	594	sukar	
-95	595	tutup	
-96	596	sungguh	
-97	597	kedudukan	
-98	598	bekas	bekasmu bekasnya
-99	599	pelakon	
-100	600	serius	
+94	594	sukar	menyukar menyukarkan menyukarkanku menyukarkannya sukarkah sukarkan sukarkannya sukarku sukarlah sukarnya
+95	595	tutup	ditutup ditutupi ditutupkan menutup menutupi menutupimu menutupinya menutupkan menutupnya tutupi tutupkan tutupkannya tutuplah tutupnya
+96	596	sungguh	sungguhkan sungguhlah sungguhnya sungguhpun
+97	597	kedudukan	berkedudukan dikedudukan kedudukanku kedudukanmu kedudukannya
+98	598	bekas	bekasi bekasmu bekasnya berbekas membekas
+99	599	pelakon	pelakonnya
+100	600	serius	seriuskah seriuskan seriuslah seriusmu seriusnya

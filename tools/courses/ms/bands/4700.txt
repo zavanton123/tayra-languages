@@ -1,100 +1,100 @@
-1	4601	ketumbar	
-2	4602	melebar	
-3	4603	naratif	
-4	4604	pragmatik	pragmatis
-5	4605	serviks	
-6	4606	sendawa	
-7	4607	pinta	dipinta
-8	4608	akikah	
-9	4609	pelanduk	
-10	4610	sanggul	
-11	4611	perempat	
-12	4612	memuktamadkan	
-13	4613	otai	
-14	4614	kejelasan	
-15	4615	singgahsana	singgahsanaku singgahsanamu singgahsananya singgasana
-16	4616	kapitalisme	
-17	4617	camni	
-18	4618	amuk	diamuk
-19	4619	berhalusinasi	
-20	4620	durasi	
-21	4621	elastik	
-22	4622	simfoni	
-23	4623	kahak	
-24	4624	meraba	
-25	4625	durjana	
-26	4626	bancuh	
-27	4627	zum	
-28	4628	guli	
-29	4629	senget	
-30	4630	cuping	
-31	4631	tuba	
-32	4632	pawang	pawangmu pawangnya
-33	4633	remis	
-34	4634	kapel	
-35	4635	patogen	
-36	4636	khatulistiwa	
-37	4637	berkhalwat	
-38	4638	kurap	
-39	4639	neon	
-40	4640	dadih	
-41	4641	contohi	dicontohi
-42	4642	persilangan	
-43	4643	cakerawala	
-44	4644	apam	
-45	4645	begawan	
-46	4646	bazir	
-47	4647	jemur	dijemur
-48	4648	nila	
-49	4649	karnivor	
-50	4650	leluhur	leluhurku leluhurmu leluhurnya
-51	4651	berkeringat	
-52	4652	angguk	
-53	4653	lum	
-54	4654	tamar	
-55	4655	manga	
-56	4656	bemban	
-57	4657	selasih	selasihnya
-58	4658	implementasi	
-59	4659	penyembah	
-60	4660	hasta	
-61	4661	lekuk	
-62	4662	menginsafi	diinsafi
-63	4663	poyo	
-64	4664	jubin	
-65	4665	satah	
-66	4666	seli	
-67	4667	kepolisan	
-68	4668	qasidah	kasidah
-69	4669	terjemah	
-70	4670	ramping	
-71	4671	teko	
-72	4672	pengelolaan	
-73	4673	sabitan	
-74	4674	mambang	
-75	4675	kaul	
-76	4676	kencana	
-77	4677	pelat	
-78	4678	berperisai	
-79	4679	ijuk	ijok
-80	4680	francaisi	
-81	4681	jurubahasa	
-82	4682	menghela	dihela
-83	4683	kapitan	
-84	4684	cemara	
-85	4685	perpuluhan	
-86	4686	tabuh	
-87	4687	bidaah	
-88	4688	hinggap	
-89	4689	sepit	
-90	4690	fuh	
-91	4691	bubuh	
-92	4692	garu	
-93	4693	lakar	
-94	4694	madah	
-95	4695	bayangi	dibayangi
-96	4696	kanggaru	
-97	4697	basa	
-98	4698	astrofizik	
-99	4699	pemasukan	
-100	4700	asah	
+1	4601	sesawang	sesawangnya
+2	4602	murung	bermurung
+3	4603	lebam	lebamkan lebamnya
+4	4604	lolos	dilolos loloskan meloloskan
+5	4605	bintik	berbintik
+6	4606	ngomong	ngomongnya
+7	4607	jasmani	jasmaninya
+8	4608	gelut	bergelut bergelutlah
+9	4609	huraikan	dihuraikan dihuraikannya menghuraikan menghuraikannya
+10	4610	kalung	berkalung berkalungkan dikalung dikalungkan dikalungnya kalungkan kalungku kalungmu kalungnya mengalungkan
+11	4611	titis	dititiskan menitis menitiskan menitiskannya titiskan
+12	4612	laris	dilariskan lariskan melariskan
+13	4613	konvokesyen	konvokesyennya
+14	4614	perkakasan	perkakasannya
+15	4615	terkesan	terkesannya
+16	4616	wap	berwap diwapkan mengewap mengewapkan wapkan wapnya
+17	4617	kemeja	berkemeja kemejaku kemejamu kemejanya
+18	4618	pengemis	
+19	4619	tersentuh	tersentuhnya
+20	4620	sivil	
+21	4621	sukses	
+22	4622	pinggiran	
+23	4623	persada	dipersada mempersada
+24	4624	keikhlasan	keikhlasannya
+25	4625	toh	
+26	4626	tangisan	tangisanku tangisanmu tangisannya
+27	4627	gema	bergema bergemalah gemakan gemanya menggema menggemakan
+28	4628	rahang	berahang rahangku rahangmu rahangnya
+29	4629	semalaman	
+30	4630	beliung	beliungku
+31	4631	murtad	dimurtadkan memurtadkan
+32	4632	kilo	berkilo kilonya sekilo
+33	4633	kesengsaraan	kesengsaraannya
+34	4634	ring	bering diringi mering
+35	4635	kuali	
+36	4636	transmisi	mentransmisi transmisinya
+37	4637	menerus	
+38	4638	pelari	pelarikan
+39	4639	bisi	bisikan bisikanmu membisikan
+40	4640	derhaka	derhakanya menderhaka menderhakai
+41	4641	aniaya	aniayalah dianiaya dianiayai dianiayakan menganiaya menganiayai menganiayamu menganiayanya
+42	4642	sanjung	disanjung disanjungi menyanjung menyanjungi menyanjunginya sanjungi
+43	4643	cakar	cakarku cakarmu cakarnya dicakar mencakar mencakarku mencakarmu
+44	4644	ulangan	berulangan ulangannya
+45	4645	lalai	dilalaikan lalaikan lalainya melalai melalaikan melalaikannya
+46	4646	darjat	berdarjat darjatmu darjatnya
+47	4647	azab	azabnya diazab diazabkan mengazab mengazabkan
+48	4648	sengal	seng sengalnya
+49	4649	kepanasan	kepanasannya
+50	4650	pembiakan	pembiakannya
+51	4651	keropok	keropoknya
+52	4652	meteor	
+53	4653	sinonim	bersinonim disinonimkan sinonimnya
+54	4654	rendang	merendang
+55	4655	penyewa	berpenyewa penyewanya
+56	4656	keris	kerisi kerisnya
+57	4657	esa	esai esakan mengesa mengesakan
+58	4658	peladang	
+59	4659	celik	celikkan dicelikkan mencelikkan
+60	4660	cincang	cincangkan cincangnya dicincang mencincang mencincangnya
+61	4661	sensor	sensorku sensornya
+62	4662	milo	
+63	4663	petroleum	
+64	4664	jaguh	
+65	4665	mengetepikan	mengetepikannya
+66	4666	semburan	bersemburan semburannya
+67	4667	fakir	
+68	4668	selipar	berselipar seliparku seliparnya
+69	4669	tanggungan	bertanggungan tanggunganku tanggunganmu tanggungannya
+70	4670	toksin	bertoksin toksinnya
+71	4671	sepah	bersepah bersepahnya menyepahkan sepahkan sepahkannya sepahnya
+72	4672	kanta	kantanya
+73	4673	yoga	yoganya
+74	4674	pembuka	pembukanya
+75	4675	tatacara	tatacaranya
+76	4676	manisan	manisanmu
+77	4677	tropika	tropikanya
+78	4678	kunyit	
+79	4679	batuan	batuanmu batuannya
+80	4680	mengetengahkan	mengetengahkannya
+81	4681	bandung	
+82	4682	tolol	tololmu
+83	4683	baldi	baldimu baldinya berbaldi
+84	4684	berjauhan	
+85	4685	provokasi	diprovokasi memprovokasi provokasinya
+86	4686	komplikasi	komplikasinya
+87	4687	kelangsungan	kelangsungannya
+88	4688	pemeriksa	pemeriksanya
+89	4689	mode	
+90	4690	zero	
+91	4691	leksikal	leksikalnya
+92	4692	jelita	jelitaku jelitamu jelitanya
+93	4693	alim	alimi
+94	4694	berlawanan	berlawanannya
+95	4695	manuskrip	manuskripnya
+96	4696	balkoni	
+97	4697	geledah	digeledah geledahlah menggeledah menggeledahku menggeledahmu menggeledahnya
+98	4698	cungkil	cungkillah cungkilnya dicungkil mencungkil mencungkilnya
+99	4699	sambal	
+100	4700	royalti	

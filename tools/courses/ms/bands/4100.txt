@@ -1,100 +1,100 @@
-1	4001	labuh	
-2	4002	koran	
-3	4003	bahagiakan	dibahagiakan membahagiakan
-4	4004	tawan	
-5	4005	mengotakan	dikotakan kotakan
-6	4006	mengutarakan	
-7	4007	kismis	kismisnya
-8	4008	keinsafan	
-9	4009	tengkuk	tengkukku tengkuknya
-10	4010	bibit	
-11	4011	pukau	
-12	4012	lebai	
-13	4013	penyepit	
-14	4014	penswastaan	
-15	4015	pencurian	
-16	4016	gajet	
-17	4017	syifa	
-18	4018	cereka	
-19	4019	kebolehpercayaan	kebolehpercayaannya
-20	4020	banding	bandingnya
-21	4021	tangkai	tangkainya
-22	4022	pajakan	pajakanmu pajakannya
-23	4023	rawa	
-24	4024	perlanggaran	
-25	4025	sambar	disambar
-26	4026	raut	
-27	4027	perkaitan	
-28	4028	lereng	
-29	4029	metodologi	
-30	4030	menaiktaraf	
-31	4031	hidraulik	
-32	4032	eja	
-33	4033	sinopsis	sinopsisnya
-34	4034	bambu	
-35	4035	galak	
-36	4036	tera	
-37	4037	usik	
-38	4038	belukar	
-39	4039	bersosial	
-40	4040	palu	
-41	4041	titanium	
-42	4042	nuri	
-43	4043	gelen	
-44	4044	membusuk	
-45	4045	lala	
-46	4046	mancis	mancisnya
-47	4047	pudina	
-48	4048	tempayan	
-49	4049	murka	
-50	4050	fisiologi	
-51	4051	beranda	
-52	4052	sumbu	sumbunya
-53	4053	mengorat	
-54	4054	lendir	
-55	4055	dukun	
-56	4056	ditumbuk	
-57	4057	lakon	
-58	4058	ketuanan	
-59	4059	marmar	
-60	4060	jaguar	
-61	4061	nyalaan	nyalaannya
-62	4062	mengiring	
-63	4063	terbentang	
-64	4064	pungut	dipungut
-65	4065	preskripsi	
-66	4066	terokai	
-67	4067	pepijat	
-68	4068	taun	
-69	4069	hitungan	
-70	4070	riuh	
-71	4071	sok	
-72	4072	landak	
-73	4073	jag	
-74	4074	ekologi	
-75	4075	garing	
-76	4076	pikat	pikatku
-77	4077	ranjang	ranjangku ranjangmu ranjangnya
-78	4078	adu	
-79	4079	lelong	lelongnya
-80	4080	seingat	
-81	4081	kepompong	kepompongnya
-82	4082	uban	
-83	4083	bahaskan	dibahaskan
-84	4084	brutal	
-85	4085	mengabdikan	
-86	4086	bendahara	
-87	4087	praktis	
-88	4088	jenguk	
-89	4089	tek	
-90	4090	serban	serbannya
-91	4091	syah	
-92	4092	mengecas	
-93	4093	mutakhir	
-94	4094	godam	
-95	4095	arca	
-96	4096	kontrol	
-97	4097	sosiologi	
-98	4098	ulas	seulas ulasnya
-99	4099	seterika	diseterika menyeterika seterikanya
-100	4100	paksi	
+1	4001	kencang	dikencangkan kencangkan kencangnya mengencangkan
+2	4002	rekrut	direkrut direkrutnya merekrut merekrutku merekrutmu merekrutnya rekrutnya
+3	4003	badut	badutnya
+4	4004	hindi	hindikan hindiku hindilah
+5	4005	jernih	dijernihkan jernihkan jernihmu menjernih menjernihkah menjernihkan menjernihkannya
+6	4006	kenan	berkenan diperkenan diperkenankan kenani kenankan memperkenan memperkenankan perkenankan
+7	4007	pantang	berpantang berpantanglah
+8	4008	demo	berdemo demonya
+9	4009	siswazah	
+10	4010	penyalahgunaan	penyalahgunaannya
+11	4011	resit	resitnya
+12	4012	bengkok	bengkokkan dibengkokkan membengkok membengkokkan membengkokkannya
+13	4013	tuala	bertuala tualamu tualanya
+14	4014	simulasi	bersimulasi disimulasikan simulasikan simulasinya
+15	4015	penentang	penentangnya
+16	4016	enzim	ek enzimnya
+17	4017	sotong	
+18	4018	operator	operatornya
+19	4019	cendawan	
+20	4020	aktinium	ac
+21	4021	taburan	bertaburan taburannya
+22	4022	penjajah	
+23	4023	telanjang	bertelanjang ditelanjangi ditelanjangkan menelanjangi menelanjangiku menelanjangimu menelanjangkan telanjangi telanjangkan telanjangnya
+24	4024	episode	
+25	4025	tsunami	
+26	4026	romantis	romantislah romantisnya
+27	4027	kesatria	kesatrianya
+28	4028	tersangkut	tersangkutkan
+29	4029	jerung	jerungnya
+30	4030	peradaban	berperadaban peradabannya
+31	4031	fotografi	fotografiku fotografinya
+32	4032	saga	sagai
+33	4033	tetangga	bertetangga tetanggaku tetanggamu tetangganya
+34	4034	maktab	
+35	4035	melepak	
+36	4036	terpencil	
+37	4037	mertua	mertuaku mertuamu mertuanya
+38	4038	penanda	penandanya
+39	4039	senja	bersenja
+40	4040	terjamin	terjaminnya
+41	4041	tipis	tipisnya
+42	4042	pengembangan	pengembangannya
+43	4043	tersusun	
+44	4044	akbar	akbarnya
+45	4045	sistematik	bersistematik
+46	4046	kupas	dikupas dikupaskan kupaskan mengupas mengupaskan mengupasnya
+47	4047	silang	bersilang disilangkan menyilang menyilangkan menyilangkannya silangkan silangmu
+48	4048	komandan	komandannya
+49	4049	pencari	pencarinya
+50	4050	saudari	saudariku saudarimu saudarinya
+51	4051	lembing	lembingnya
+52	4052	ledakan	ledakanlah ledakannya meledakan meledakannya
+53	4053	spekulasi	berspekulasi dispekulasikan spekulasimu
+54	4054	sukacita	bersukacita bersukacitalah sukacitalah sukacitanya
+55	4055	karim	karimi
+56	4056	mandat	dimandatkan mandatnya
+57	4057	warta	diwarta diwartakan mewartakan mewartakannya wartakan
+58	4058	kecenderungan	berkecenderungan kecenderungannya
+59	4059	lengah	berlengah dilengah dilengahkan lengahkah lengahkan lengahkannya melengah melengahkan melengahkannya
+60	4060	rizab	dirizabkan merizab merizabkan rizabkan
+61	4061	dorongan	dorongannya
+62	4062	pekebun	
+63	4063	pengadil	pengadilnya
+64	4064	buruan	buruanku buruannya
+65	4065	ngah	mengah
+66	4066	gerhana	menggerhanakan
+67	4067	kapas	
+68	4068	karat	berkarat
+69	4069	beratur	beraturlah beraturnya
+70	4070	fantasi	berfantasi difantasikan fantasiku fantasinya
+71	4071	penyandang	penyandangnya
+72	4072	ukir	berukir diukir mengukir mengukirkan mengukirnya ukirkan ukirkannya
+73	4073	perseorangan	
+74	4074	maksiat	bermaksiat
+75	4075	diplomatik	berdiplomatik diplomatikmu
+76	4076	singkatan	singkatannya
+77	4077	armada	armadamu armadanya
+78	4078	ejek	diejek diejeknya ejekkan mengejek mengejekku mengejekmu mengejeknya
+79	4079	dinamik	dinamiknya
+80	4080	pai	painya
+81	4081	medium	mediumnya
+82	4082	lakar	dilakar dilakarkan lakarkan lakarlah melakar melakarkan melakarnya
+83	4083	pantun	berpantun pantunnya
+84	4084	sambar	disambar menyambar menyambarnya
+85	4085	input	
+86	4086	pudar	dipudarkan memudar memudarkan memudarnya pudarkan pudarlah
+87	4087	penyiaran	penyiarannya
+88	4088	selat	
+89	4089	kekerapan	kekerapannya
+90	4090	buangan	buangankah buangannya
+91	4091	kurma	kurmanya
+92	4092	misai	bermisai misaimu misainya
+93	4093	flat	flatku flatnya
+94	4094	matrikulasi	
+95	4095	bebola	bebolanya
+96	4096	spesifik	spesifiklah spesifiknya
+97	4097	lok	berlok loki
+98	4098	sampul	bersampul menyampul sampulnya
+99	4099	tek	mentek teki
+100	4100	pencinta	

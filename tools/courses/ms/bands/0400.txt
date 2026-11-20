@@ -1,100 +1,100 @@
-1	301	hal	
-2	302	sedikit	
-3	303	awal	awalku awalmu awalnya
-4	304	punya	punyaku punyamu punyanya
-5	305	mengapa	
-6	306	hantar	dihantar menghantar
-7	307	para	paramu
-8	308	kaki	kakiku kakimu kakinya
+1	301	hal	hali halilah halnya
+2	302	sedikit	sedikitlah sedikitnya sedikitpun
+3	303	awal	awalkah awalkan awalku awallah awalmu awalnya berawal diawal diawali diawalkan
+4	304	punya	berpunya dipunyai mempunya mempunyainya memunyai punyai punyainya punyakah punyakan punyaku punyalah punyamu punyanya
+5	305	mengapa	mengapai mengapakah mengapakan mengapalah
+6	306	hantar	berhantar dihantar dihantarkan dihantarnya hantarkan hantarkannya hantarlah hantarmu hantarnya menghantar menghantarkan menghantarkanmu menghantarkannya menghantarku menghantarmu menghantarnya
+7	307	para	parai paramu
+8	308	kaki	berkaki dikaki dikakiku dikakimu dikakinya kakiku kakilah kakimu kakinya
 9	309	menyebabkan	disebabkan
-10	310	benar	
-11	311	terlalu	
-12	312	isteri	isteriku isterimu isterinya
-13	313	hilang	
-14	314	pelbagai	
+10	310	benar	benari benarkah benarkan benarkanlah benarkannya benarlah benarmu benarnya dibenar dibenarkan dibenarkankah dibenarkankan membenar membenarkan membenarkankan membenarkanmu membenarkannya membenarnya
+11	311	terlalu	terlalulah
+12	312	isteri	beristeri beristerikan diperisterikan isteriku isterimu isterinya isterinyalah memperisterikan
+13	313	hilang	dihilangkan hilangkah hilangkan hilangkanlah hilangkannya hilanglah hilangnya menghilang menghilangkan menghilangkanku menghilangkanmu menghilangkannya menghilanglah menghilangnya
+14	314	pelbagai	dipelbagai dipelbagaikan mempelbagai mempelbagaikan pelbagaikan pelbagaikanlah
 15	315	bercakap	
 16	316	menarik	ditarik
-17	317	kuat	
-18	318	panggil	dipanggil memanggil
-19	319	kuasa	kuasaku kuasamu kuasanya
-20	320	pusat	pusatmu pusatnya
-21	321	kapal	kapalku kapalmu kapalnya
-22	322	namun	
-23	323	lumpur	lumpurnya
-24	324	okey	
+17	317	kuat	berkuat dikuat dikuatkan diperkuat diperkuatkan kuatkah kuatkan kuatkanlah kuatkannya kuatlah kuatnya kuatpun memperkuat memperkuatkan memperkuatnya menguat menguatkan menguatkanmu menguatkannya perkuatkan
+18	318	panggil	didipanggil dipanggil dipanggilnya memanggil memanggilkan memanggilku memanggilmu memanggilnya panggilkah panggilkan panggilkanlah panggilkannya panggilku panggillah panggilmu panggilnya
+19	319	kuasa	berkuasa berkuasakan berkuasalah berkuasanya dikuasai dikuasainya dikuasakan kuasai kuasailah kuasainya kuasakan kuasaku kuasalah kuasamu kuasanya memperkuasakan menguasai menguasaiku menguasaimu menguasainya menguasakan
+20	320	pusat	berpusat berpusatkan dipusat dipusatkan memusat memusatkan pusatkan pusatmu pusatnya
+21	321	kapal	dikapal dikapalku kapalku kapalmu kapalnya
+22	322	namun	namunku namunpun
+23	323	lumpur	berlumpur lumpurlah lumpurnya
+24	324	okey	okeykah okeylah
 25	325	memberikan	
-26	326	sistem	
-27	327	cantik	cantek chantek secantik tercantik
-28	328	badan	badanku badanmu badannya
+26	326	sistem	bersistem sistemi sistemku sistemmu sistemnya
+27	327	cantik	cantek cantikkah cantikkan cantikkannya cantikku cantiklah cantikmu cantiknya chantek dicantikkan mempercantikkan mencantik mencantikkan mencantikkannya secantik tercantik
+28	328	badan	badani badanku badanlah badanmu badannya berbadan dibadan dibadanmu dibadannya diperbadankan memperbadankan
 29	329	berhenti	
 30	330	bekerja	
-31	331	patut	
-32	332	kepala	kepalaku kepalamu kepalanya
-33	333	jauh	
+31	331	patut	patutkah patutkan patutku patutlah patutnya patutpun
+32	332	kepala	berkepala dikepala dikepalai dikepalaku dikepalamu dikepalanya kepalai kepalakah kepalaku kepalalah kepalamu kepalanya mengepalai
+33	333	jauh	berjauh dijauhi dijauhkan jauhi jauhilah jauhinya jauhkah jauhkan jauhkanku jauhkanlah jauhkannya jauhlah jauhnya menjauh menjauhi menjauhiku menjauhimu menjauhinya menjauhkan menjauhkanku menjauhkanmu menjauhkannya menjauhlah
 34	334	semuanya	
 35	335	apakah	
-36	336	utama	
-37	337	wang	wangku wangmu wangnya
-38	338	maka	
-39	339	kes	kesku kesmu kesnya
-40	340	raja	rajaku rajamu rajanya
-41	341	tentera	tenteraku tenteramu tenteranya
-42	342	kurang	kureng
-43	343	pegawai	pegawainya
-44	344	sentiasa	
-45	345	masyarakat	masyarakatnya
+36	336	utama	diutamakan mengutama mengutamakan mengutamakannya utamakan utamakanlah utamaku utamamu utamanya
+37	337	wang	berwang mewangi wangkah wangku wangmu wangnya
+38	338	maka	makanya
+39	339	kes	kesi kesku kesmu kesnya
+40	340	raja	beraja meraja merajai rajaku rajalah rajamu rajanya
+41	341	tentera	ditenterakan tenteraku tenteralah tenteramu tenteranya
+42	342	kurang	berkurang berkuranglah berkurangnya dikurang dikurangi dikurangkan kurangi kurangkan kurangkanlah kurangkannya kuranglah kurangnya kurangpun kureng mengurang mengurangi menguranginya mengurangkan mengurangkannya
+43	343	pegawai	pegawainya pegawaipun
+44	344	sentiasa	sentiasalah sentiasanya
+45	345	masyarakat	bermasyarakat dimasyarakatkan masyarakatlah masyarakatnya memasyarakatkan
 46	346	itulah	
-47	347	kehidupan	kehidupanku kehidupanmu kehidupannya
-48	348	tengah	tengahku tengahnya
-49	349	gambar	gambarku gambarmu gambarnya
-50	350	parti	partai partimu partinya
-51	351	keputusan	keputusanku keputusanmu keputusannya
-52	352	guru	guruku gurumu gurunya
-53	353	jenis	
-54	354	esok	besok esuk
-55	355	biar	
-56	356	duit	duitku duitmu duitnya
-57	357	hingga	
-58	358	hampir	
-59	359	hebat	
-60	360	amat	
-61	361	lepas	
-62	362	juta	
-63	363	penduduk	
-64	364	jabatan	jabatanku jabatanmu jabatannya
-65	365	muda	
-66	366	agama	agamaku agamamu agamanya ugama
-67	367	pas	
-68	368	perkhidmatan	
-69	369	pakai	dipakai memakai
-70	370	setelah	
-71	371	lima	
-72	372	kesan	dikesan kesanmu kesannya mengesan
-73	373	tentu	
+47	347	kehidupan	dikehidupan dikehidupanku dikehidupanmu kehidupanku kehidupanlah kehidupanmu kehidupannya
+48	348	tengah	ditengah ditengahkan ditengahnya mempertengahkan menengah menengahi menengahkah menengahkan menengahnya tengahku tengahnya
+49	349	gambar	bergambar bergambarkan bergambarlah digambar digambarkan gambarkah gambarkan gambarkannya gambarku gambarmu gambarnya menggambar menggambarkan menggambarkannya menggambarnya
+50	350	parti	berparti partai partimu partinya partipun
+51	351	keputusan	berkeputusan keputusanku keputusanmu keputusannya keputusanpun
+52	352	guru	berguru guruku gurumu gurunya menggurui mengguruiku
+53	353	jenis	berjenis jenisku jenismu jenisnya sejenis sejenisnya
+54	354	esok	besok esoklah esoknya esuk
+55	355	biar	biarkan biarkanku biarkanlah biarkanmu biarkannya biarku biarlah biarnya biarpun dibiar dibiarkan membiar membiarkan membiarkanku membiarkanmu membiarkannya
+56	356	duit	berduit duitkah duitkan duitku duitlah duitmu duitnya
+57	357	hingga	hinggalah
+58	358	hampir	dihampir dihampiri hampiri hampirilah hampirinya hampirkan hampirlah hampirnya menghampiri menghampiriku menghampirimu menghampirinya menghampirkan
+59	359	hebat	dihebatkan diperhebat diperhebatkan hebatkah hebatkan hebatku hebatlah hebatmu hebatnya hebatpun memperhebat memperhebatkan perhebatkan
+60	360	amat	amati amatinya amatlah diamat diamati mengamati mengamatimu mengamatinya
+61	361	lepas	berlepas dilepas dilepasi dilepaskan dilepaskannya lepasi lepasinya lepaskanlah lepaskannya lepasku lepaslah lepasnya melepas melepasi melepasiku melepasinya melepaskan melepaskanku melepaskanmu melepaskannya melepasmu melepasnya
+62	362	juta	berjuta jutanya
+63	363	penduduk	berpenduduk penduduknya
+64	364	jabatan	dijabatan jabatanku jabatanmu jabatannya
+65	365	muda	bermuda memudakan mudaku mudalah mudamu mudanya
+66	366	agama	agamaku agamalah agamamu agamanya beragama berugama ugama
+67	367	pas	pasi paskah pasmu
+68	368	perkhidmatan	perkhidmatannya
+69	369	pakai	berpakai dipakai dipakaikan dipakainya memakai memakaikan memakaikanmu memakaikannya memakaiku memakainya pakaikan pakaikanlah pakaikannya pakailah pakainya
+70	370	setelah	setelahnya
+71	371	lima	berlima limalah limanya
+72	372	kesan	berkesan berkesankah berkesannya dikesan dikesani dikesannya kesankan kesanlah kesanmu kesannya mengesan mengesani mengesaninya mengesankan mengesankanku mengesanmu mengesannya
+73	373	tentu	ditentu ditentukan ditentukannya menentu menentukan menentukannya mententukan tentukan tentukanlah tentukannya tentulah tentunya
 74	374	si	
-75	375	cerita	ceritaku ceritamu ceritanya
-76	376	kumpulan	kumpulanku kumpulanmu kumpulannya
+75	375	cerita	bercerita berceritalah ceritakan ceritakanlah ceritakannya ceritaku ceritalah ceritamu ceritanya dicerita diceritakan diceritakannya mencerita menceritakan menceritakanku menceritakanmu menceritakannya
+76	376	kumpulan	berkumpulan kumpulanku kumpulanmu kumpulannya mengumpulan sekumpulan sekumpulannya
 77	377	membunuh	
-78	378	saat	saatnya
-79	379	tetap	
-80	380	pintu	pintuku pintumu pintunya
+78	378	saat	bersaat disaat saatkan saatlah saatnya sesaat sesaatpun
+79	379	tetap	ditetap ditetapkan ditetapkanlah ditetapkannya menetap menetapi menetapkah menetapkan menetapkannya tetapkan tetapkanlah tetapkannya tetaplah tetapnya
+80	380	pintu	berpintu dipintu pintuku pintumu pintunya
 81	381	sepanjang	
 82	382	siapa-siapa	sesiapa
-83	383	minggu	mingguku minggumu minggunya
-84	384	sakit	
-85	385	terbang	
-86	386	batu	batuku batumu batunya
-87	387	diam	
-88	388	empat	ampat pat
-89	389	daerah	daerahku daerahmu daerahnya
-90	390	termasuk	
-91	391	sebanyak	
-92	392	minit	minitmu minitnya
-93	393	usaha	usahaku usahamu usahanya
-94	394	pejabat	pejabatku pejabatmu pejabatnya
-95	395	keselamatan	keselamatanku keselamatanmu keselamatannya
-96	396	dekat	
-97	397	abang	abangku abangmu abangnya
-98	398	api	apiku apimu apinya
-99	399	bunuh	
-100	400	pulang	
+83	383	minggu	berminggu mingguku minggumu minggunya seminggu seminggunya
+84	384	sakit	bersakit disakit disakiti disakitinya menyakiti menyakitiku menyakitimu menyakitinya menyakitkan menyakitkanmu menyakitkannya sakiti sakitinya sakitkah sakitkan sakitkannya sakitku sakitlah sakitmu sakitnya
+85	385	terbang	berterbang diterbang diterbangkan menerbangkan menerbangkanku menerbangkannya terbangkan terbangkannya terbangku terbanglah terbangmu terbangnya
+86	386	batu	batuku batulah batumu batunya batupun batutah berbatu dibatu membatu membatukan
+87	387	diam	berdiam berdiamlah diami diamkah diamkan diamkanlah diamku diamlah diamnya didiami didiaminya didiamkan didiamkannya mendiam mendiami mendiaminya mendiamkan mendiamkannya
+88	388	empat	ampat berempat diempat dipati empatku empatlah empatnya pat
+89	389	daerah	daerahku daerahlah daerahmu daerahnya didaerah
+90	390	termasuk	termasukkan termasuklah termasuknya
+91	391	sebanyak	sebanyaknya
+92	392	minit	diminit diminitkan minitmu minitnya seminit seminitpun
+93	393	usaha	berusaha berusahalah diusaha diusahakan diusahakannya mengusaha mengusahakan mengusahakannya usahakan usahakanlah usahakannya usahaku usahalah usahamu usahanya
+94	394	pejabat	berpejabat dipejabat dipejabatnya pejabatku pejabatmu pejabatnya
+95	395	keselamatan	berkeselamatan keselamatanku keselamatanmu keselamatannya
+96	396	dekat	berdekat dekati dekatilah dekatinya dekatkan dekatkanlah dekatku dekatlah dekatmu dekatnya didekat didekati didekatkan didekatku didekatmu didekatnya mendekat mendekati mendekatiku mendekatimu mendekatinya mendekatkan mendekatkanmu mendekatlah mendekatmu mendekatpun
+97	397	abang	abangkah abangku abanglah abangmu abangnya mengabang
+98	398	api	apikah apikan apiku apilah apimu apinya berapi berapiku berapilah berapinya mengapi mengapikan perapikan
+99	399	bunuh	berbunuh bunuhi bunuhkan bunuhku bunuhlah bunuhmu bunuhnya dibunuh dibunuhi dibunuhnya membunuhi membunuhkah membunuhku membunuhmu membunuhnya
+100	400	pulang	berpulang dipulangkan memulangkan memulangkanku memulangkannya pulangi pulangkan pulangkanlah pulangkannya pulangku pulanglah pulangnya

@@ -1,100 +1,100 @@
 1	901	makhluk	makhluknya
-2	902	meter	metermu meternya
-3	903	pendapat	
-4	904	gelap	
-5	905	manis	
+2	902	meter	bermeter meteri metermu meternya semeter
+3	903	pendapat	berpendapat pendapatkan pendapatku pendapatmu pendapatnya
+4	904	gelap	bergelap digelapkan gelapkan gelapku gelaplah gelapmu gelapnya menggelap menggelapkan
+5	905	manis	bermanis dimaniskan maniskan manisku manislah manismu manisnya memaniskan
 6	906	sambil	
-7	907	budaya	budayanya
-8	908	askar	askarku askarmu askarnya
-9	909	tipu	ditipu
-10	910	pemandu	pemanduku pemandumu pemandunya
-11	911	hijau	hijaunya
-12	912	perintah	
-13	913	kemungkinan	
-14	914	jaya	jayanya
-15	915	tamat	
-16	916	terkini	
-17	917	akaun	akaunku akaunmu akaunnya
+7	907	budaya	berbudaya budayakan budayakanlah budayanya dibudayai dibudayakan membudaya membudayakan membudayakannya
+8	908	askar	askari askarkah askarku askarmu askarnya
+9	909	tipu	ditipu ditipunya menipui menipukah menipuku menipulah menipumu menipunya nipu tipulah tipunya
+10	910	pemandu	berpemandu pemanduku pemandumu pemandunya
+11	911	hijau	dihijaukan hijaukan hijaunya ijoi menghijau menghijaukan
+12	912	perintah	diperintah diperintahkan diperintahkannya diperintahnya memerintah memerintahkan memerintahkanku memerintahkanmu memerintahkannya memerintahku memerintahlah memerintahmu memerintahnya perintahkan perintahkanlah perintahkannya perintahku perintahlah perintahmu perintahnya
+13	913	kemungkinan	berkemungkinan kemungkinankah kemungkinannya
+14	914	jaya	berjayakah berjayakan berjayalah berjayanya dijaya dijayakan dijayakannya jayakan jayakannya jayalah jayanya menjaya menjayakan menjayakannya
+15	915	tamat	ditamatkan menamat menamatkan menamatkannya tamatkan tamatkannya tamatlah tamatnya
+16	916	terkini	terkininya
+17	917	akaun	akaunkan akaunku akaunmu akaunnya diakaunkan diperakaunkan mengakaun mengakaunkan
 18	918	pertanian	pertanianku pertanianmu pertaniannya
-19	919	bimbang	
+19	919	bimbang	bimbangi bimbangkah bimbangkan bimbangkannya bimbanglah bimbangnya dibimbangi dibimbangkan membimbang membimbangi membimbangkan membimbangkannya
 20	920	bersalah	
 21	921	berikut	
-22	922	makna	maknanya
-23	923	perpustakaan	perpustakaannya
-24	924	dewa	dewaku dewamu dewanya
-25	925	kasut	kasutku kasutmu kasutnya
+22	922	makna	bermakna bermaknakah bermaknanya dimaknai maknalah maknanya memaknai memaknainya memaknakan
+23	923	perpustakaan	diperpustakaan perpustakaankah perpustakaannya
+24	924	dewa	dewakan dewaku dewamu dewanya didewakan mendewa mendewakan
+25	925	kasut	berkasut dikasut kasutku kasutmu kasutnya
 26	926	minuman	minumanku minumanmu minumannya
-27	927	lapan	
-28	928	mulia	
-29	929	elektrik	
-30	930	bahagia	
-31	931	rosak	
-32	932	isi	isinya
-33	933	juara	juaraku juaranya
-34	934	besi	besiku besimu besinya
+27	927	lapan	berlapan
+28	928	mulia	dimuliakan dimuliakanlah dipermuliakan memulia memuliakan memuliakannya muliakan muliakanlah mulianya
+29	929	elektrik	berelektrik elektrikkah elektrikku elektriknya
+30	930	bahagia	bahagiakah bahagiakan bahagiakanlah bahagiaku bahagialah bahagiamu bahagianya berbahagia berbahagialah dibahagiakan membahagiakan membahagiakanmu membahagiakannya
+31	931	rosak	dirosak dirosakkan merosak merosakkan merosakkanmu merosakkannya merosaknya rosakkah rosakkan rosakkannya rosaklah rosaknya
+32	932	isi	berisi berisikan diisi diisikan diisinya isikan isikanlah isikannya isilah isinya mengisi mengisikan mengisikannya mengisiku mengisinya perisikan perisikannya
+33	933	juara	dijuarai juarai juaraku juaranya menjuarai menjuarainya
+34	934	besi	besiku besilah besimu besinya
 35	935	penyelidikan	penyelidikanku penyelidikannya
-36	936	malu	maluku malumu malunya
-37	937	mandi	
-38	938	lanjut	
+36	936	malu	dimalukan dipermalukan dipermalukannya malukah malukan maluku malulah malumu malunya memalu memalui memaluinya memalukan memalukanku memalukanlah memalukannya mempermalukan mempermalukanku mempermalukanmu mempermalukannya permalukan
+37	937	mandi	bermandi bermandikan dimandi dimandikan mandikah mandikan mandilah mandimu mandinya memandi memandikan memandikanmu memandikannya
+38	938	lanjut	berlanjut dilanjut dilanjutkan lanjuti lanjutkan lanjutkanlah lanjutkannya lanjutnya melanjut melanjutkan melanjutkannya
 39	939	setakat	
-40	940	bos	
+40	940	bos	bosi bosku bosmu bosnya
 41	941	ataupun	
-42	942	pendapatan	pendapatanku pendapatannya
-43	943	meja	mejaku mejamu mejanya
-44	944	sedap	
-45	945	pemilik	
-46	946	saling	
-47	947	bilion	
+42	942	pendapatan	berpendapatan pendapatanku pendapatannya
+43	943	meja	bermeja dimeja dimejanya mejaku mejalah mejamu mejanya
+44	944	sedap	menyedapkan sedapkah sedapkan sedaplah sedapnya
+45	945	pemilik	pemilikkan pemilikku pemilikmu pemiliknya
+46	946	saling	bersaling
+47	947	bilion	berbilion bilionku
 48	948	berjuang	
-49	949	sisi	sisiku sisimu sisinya
-50	950	bom	bomnya
-51	951	alamat	alamatku alamatmu alamatnya
-52	952	risiko	
+49	949	sisi	bersisikan disisi disisiku disisimu disisinya menyisikan sisiku sisimu sisinya
+50	950	bom	bomkan bomnya dibom membom mengebom mengebomnya
+51	951	alamat	alamatkan alamatku alamatmu alamatnya beralamat dialamat dialamatkan
+52	952	risiko	berisiko berrisiko merisiko merisikokan risikokan risikokannya risikonya
 53	953	mengesahkan	disahkan
 54	954	setiausaha	setiausahaku setiausahanya
-55	955	biru	biruku birunya
+55	955	biru	biruku birulah birunya membiru
 56	956	akhbar	akhbarnya
-57	957	pendek	
-58	958	terlepas	
-59	959	pembinaan	
+57	957	pendek	dipendekkan memendek memendekkan memendekkannya pendekkan pendekkannya pendekmu pendeknya
+58	958	terlepas	menerlepas terlepaskan terlepaskannya terlepaslah terlepasnya
+59	959	pembinaan	pembinaanlah pembinaannya
 60	960	mengajar	
-61	961	lapar	
-62	962	paksa	memaksa paksanya
-63	963	kayu	kayuku kayumu kayunya sekayu
-64	964	tangga	tanggamu tangganya
-65	965	adil	
-66	966	perjuangan	perjuanganku perjuanganmu perjuangannya
-67	967	nenek	nenekku nenekmu neneknya
-68	968	model	
+61	961	lapar	berlapar berlaparlah laparkah laparkan laparku laparlah laparnya
+62	962	paksa	dipaksa dipaksakan memaksa memaksakan memaksakannya memaksaku memaksamu memaksanya paksakan paksanya
+63	963	kayu	berkayu kayuku kayumu kayunya sekayu
+64	964	tangga	bertangga ditangga tanggai tanggalah tanggamu tangganya
+65	965	adil	adili adilkah adilkan adillah adilnya diadili mengadili mengadiliku mengadilimu mengadilinya
+66	966	perjuangan	memperjuangan memperjuangankan perjuanganku perjuanganmu perjuangannya
+67	967	nenek	nenekkah nenekku nenekmu neneknya
+68	968	model	bermodelkan dimodel dimodelkan memodel memodelkan modelnya
 69	969	faktor	faktornya
-70	970	jarak	jarakku jarakmu jaraknya
-71	971	jujur	
-72	972	samping	sampin
-73	973	talian	taliannya
+70	970	jarak	berjarak dijarakkan jarakkan jarakkanlah jarakku jaraklah jarakmu jaraknya menjarakkan
+71	971	jujur	berjujur jujurkah jujurku jujurlah jujurnya
+72	972	samping	bersampin bersamping disamping disampingku disampingmu disampingnya menyamping sampin sampingkan sampingku sampingmu sampingnya
+73	973	talian	bertalian ditalian taliannya
 74	974	pemenang	pemenangnya
-75	975	kebaikan	
-76	976	sahabat	sahabatku sahabatmu sahabatnya
+75	975	kebaikan	kebaikanku kebaikanlah kebaikanmu kebaikannya
+76	976	sahabat	bersahabat sahabatku sahabatmu sahabatnya
 77	977	memasuki	dimasuki
-78	978	gula	gulanya
-79	979	desa	desaku desamu desanya
+78	978	gula	bergula digula gulakan gulanya menggula
+79	979	desa	desai desaku desamu desanya didesa
 80	980	menyelesaikan	
 81	981	menjelaskan	
-82	982	komunikasi	
-83	983	haram	
+82	982	komunikasi	berkomunikasi berkomunikasilah dikomunikasikan komunikasiku komunikasimu komunikasinya
+83	983	haram	diharam diharamkan harami haramkah haramkan haramku haramlah haramnya mengharam mengharamkan mengharamkannya
 84	984	tawaran	tawaranku tawaranmu tawarannya
-85	985	fail	memfailkan
-86	986	ulang	
-87	987	pengawal	
-88	988	situasi	situasiku situasimu situasinya
-89	989	berbahaya	
-90	990	silap	
-91	991	engkau	
-92	992	restoran	restoranku restoranmu restorannya
-93	993	radio	
-94	994	cukai	cukaimu cukainya
-95	995	seronok	
-96	996	liga	
+85	985	fail	difail difailkan difailkannya failkan failkannya failnya memfail memfailkan memfailkannya
+86	986	ulang	berulang berulangnya diulang diulangi diulanginya mengulang mengulangi mengulanginya mengulangnya ulangi ulanginya ulangkan ulangkannya ulanglah ulangnya
+87	987	pengawal	berpengawal pengawalku pengawalmu pengawalnya
+88	988	situasi	disituasi situasiku situasimu situasinya
+89	989	berbahaya	berbahayakah berbahayanya memberbahaya
+90	990	silap	silaplah silapmu silapnya
+91	991	engkau	engkaukah engkaulah
+92	992	restoran	direstoran restoranku restoranmu restorannya
+93	993	radio	beradio diradio radiomu radionya
+94	994	cukai	bercukai cukaimu cukainya dicukai mencukai
+95	995	seronok	berseronok berseronoklah beseronok beseronoklah menyeronokkan seronokkah seronokkan seronoklah seronokmu seronoknya
+96	996	liga	liganya
 97	997	pertahanan	pertahananku pertahananmu pertahanannya
 98	998	teh	tehku tehmu tehnya
-99	999	baginda	
+99	999	baginda	bagindalah bagindapun
 100	1000	kemajuan	kemajuanmu kemajuannya

@@ -1,100 +1,100 @@
-1	5801	stetoskop	
-2	5802	tarbus	
-3	5803	isy	
-4	5804	antelop	
-5	5805	remang	
-6	5806	canda	
-7	5807	capa	
-8	5808	sinisisme	sinisme
-9	5809	kelumpang	
-10	5810	merinyu	
-11	5811	pergam	
-12	5812	teberau	
-13	5813	adverba	
-14	5814	busung	
-15	5815	cauvinisme	
-16	5816	kesalingan	
-17	5817	membandarkan	
-18	5818	parasetamol	
-19	5819	rintih	
-20	5820	beladau	
-21	5821	kelola	
-22	5822	puput	
-23	5823	memelayukan	
-24	5824	adenovirus	
-25	5825	santap	
-26	5826	amoi	
-27	5827	antan	
-28	5828	cakoi	
-29	5829	takar	
-30	5830	bacang	
-31	5831	kelarutan	
-32	5832	hela	dihela
-33	5833	mengelokkan	
-34	5834	kukur	
-35	5835	baharui	dibaharui
-36	5836	kelek	
-37	5837	ifrit	
-38	5838	pelam	
-39	5839	sengkenit	
-40	5840	genosid	
-41	5841	olimpiad	
-42	5842	jidar	
-43	5843	aju	
-44	5844	kitak	
-45	5845	pengancam	
-46	5846	gerek	
-47	5847	belanak	
-48	5848	beranggap	
-49	5849	regang	
-50	5850	sempoa	
-51	5851	apotek	
-52	5852	pengecat	
-53	5853	keagresifan	
-54	5854	imaginasikan	diimaginasikan
-55	5855	kenaifan	
-56	5856	niskala	
-57	5857	kelicap	
-58	5858	taruk	
-59	5859	ekstensi	
-60	5860	selerak	
-61	5861	kedelai	
-62	5862	catuk	
-63	5863	kendala	
-64	5864	bahal	
-65	5865	syahmat	
-66	5866	ortografi	
-67	5867	penyaliban	
-68	5868	pengoksigenan	
-69	5869	posyen	
-70	5870	parau	
-71	5871	misalkan	
-72	5872	brekmok	
-73	5873	tempuling	
-74	5874	meluputkan	
-75	5875	jelma	
-76	5876	serebelum	
-77	5877	liput	
-78	5878	gonggong	
-79	5879	penidur	
-80	5880	terkatakan	
-81	5881	jangkit	
-82	5882	bungkam	
-83	5883	kijing	
-84	5884	manira	
-85	5885	repek	
-86	5886	autokrasi	
-87	5887	bengik	
-88	5888	bohjan	
-89	5889	cantum	
-90	5890	enau	
-91	5891	gonorea	
-92	5892	lukah	
-93	5893	melorongkan	
-94	5894	mendakan	
-95	5895	mengaduh	
-96	5896	mengufuk	
-97	5897	menujah	
-98	5898	penghutanan	
-99	5899	pengimpalan	
-100	5900	pesimistik	
+1	5801	tertunggak	
+2	5802	perenang	
+3	5803	pendahulu	pendahuluku pendahulumu pendahulunya
+4	5804	telunjuk	telunjukku telunjukmu telunjuknya
+5	5805	teri	berteri beteri meneri terikan
+6	5806	argus	arkus
+7	5807	telapak	telapakku
+8	5808	meleset	
+9	5809	kemasan	kemasannya
+10	5810	diagnostik	berdiagnostik
+11	5811	tangkas	tangkasnya
+12	5812	cuka	mencuka
+13	5813	pelosok	dipelosok
+14	5814	horizon	horizonnya
+15	5815	varian	variannya
+16	5816	bidik	bidikkan bidiklah dibidik membidik membidikkan membidikmu membidiknya
+17	5817	stim	distim
+18	5818	psiko	psikomu
+19	5819	perantara	perantaranya
+20	5820	mami	
+21	5821	biarawan	biarawati
+22	5822	dajal	dajalkan dajjal mendajalkan
+23	5823	karisma	berkarisma karismaku karismanya
+24	5824	tetak	ditetak menetak menetakkan
+25	5825	komplot	berkomplot dikomplot
+26	5826	pundi	
+27	5827	isyak	isyaknya
+28	5828	nitrogen	nitrogennya
+29	5829	aki	akilah akinya
+30	5830	dot	
+31	5831	kecintaan	kecintaanku kecintaannya
+32	5832	pemarah	
+33	5833	mamak	mamakku
+34	5834	wanda	
+35	5835	lincah	lincahnya
+36	5836	susuk	menyusuk susukmu
+37	5837	register	
+38	5838	penyembelihan	penyembelihannya
+39	5839	kembung	mengembung
+40	5840	pemikir	
+41	5841	fosil	berfosil
+42	5842	opsyen	beropsyen
+43	5843	jannah	
+44	5844	condong	condongkan condongnya dicondongkan
+45	5845	minang	minangnya
+46	5846	metafora	
+47	5847	pencerahan	pencerahannya
+48	5848	antioksidan	antioksidannya
+49	5849	lesu	lesunya melesukan
+50	5850	gentian	bergentian
+51	5851	industrial	
+52	5852	maupun	
+53	5853	korup	korupnya
+54	5854	lengkung	lengkungkan melengkung melengkungkan
+55	5855	gamat	digamatkan gamatkan gamatnya menggamatkan
+56	5856	uranium	uraniumnya
+57	5857	piawai	dipiawaikan piawainya
+58	5858	candi	
+59	5859	basi	berbasi
+60	5860	sirap	menyirap sirapnya
+61	5861	platun	platunnya
+62	5862	biografi	biografimu biografinya
+63	5863	lindungan	melindungan
+64	5864	sepeda	bersepeda sepedaku sepedamu sepedanya
+65	5865	kompeni	
+66	5866	kerisauan	kerisauannya
+67	5867	wai	
+68	5868	pemisahan	
+69	5869	marak	marakkan maraklah memarakkan memarakkannya
+70	5870	nisan	nisanmu nisannya nisanpun
+71	5871	komposer	
+72	5872	tuk	tuki tukku
+73	5873	kecaman	
+74	5874	umi	
+75	5875	oasis	
+76	5876	bergilir	
+77	5877	makalah	makalahnya
+78	5878	spirit	
+79	5879	raba	diraba meraba merabanya rabai rabanya
+80	5880	imbau	berimbau diimbau mengimbau
+81	5881	terbayang	terbayangkan terbayangkannya
+82	5882	tandingan	bertandingan tandinganmu tandingannya
+83	5883	loteng	lotengku
+84	5884	mungkir	dimungkiri memungkiri memungkirinya memungkirkan mungkiri mungkirinya
+85	5885	finalis	
+86	5886	kluster	
+87	5887	kadi	
+88	5888	tunggangan	tunggangannya
+89	5889	gratis	
+90	5890	rintihan	rintihannya
+91	5891	gamelan	
+92	5892	pengelola	pengelolamu pengelolanya
+93	5893	joget	berjoget
+94	5894	perangsang	memerangsangkan perangsangnya
+95	5895	kawat	berkawat berkawatnya kawatnya
+96	5896	coli	colinya
+97	5897	kuar	kuarkan menguar
+98	5898	resume	resumeku
+99	5899	ramen	ramennya
+100	5900	bikini	berbikini bikininya

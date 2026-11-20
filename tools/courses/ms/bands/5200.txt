@@ -1,100 +1,100 @@
-1	5101	konsensus	
-2	5102	kuprum	
-3	5103	lengkung	
-4	5104	bulus	
-5	5105	membayangi	
-6	5106	menyulam	
-7	5107	terangkum	
-8	5108	penaksiran	
-9	5109	murabahah	
-10	5110	cauvinis	
-11	5111	graha	
-12	5112	poskod	
-13	5113	kelui	
-14	5114	hadang	
-15	5115	atletik	
-16	5116	konek	
-17	5117	kemandulan	kemandulanmu kemandulannya
-18	5118	kardiologi	
-19	5119	tanak	
-20	5120	langgan	
-21	5121	sahut	
-22	5122	cef	
-23	5123	warkah	
-24	5124	baung	
-25	5125	martabak	
-26	5126	lengkuas	
-27	5127	psikologis	
-28	5128	kudapan	
-29	5129	ligat	
-30	5130	dogol	
-31	5131	genta	
-32	5132	bentang	
-33	5133	berau	
-34	5134	kenan	
-35	5135	garasi	
-36	5136	rampok	dirampok
-37	5137	tengkolok	
-38	5138	mengkategorikan	
-39	5139	berudu	
-40	5140	sakat	menyakat
-41	5141	sawat	
-42	5142	pemasar	
-43	5143	jembalang	
-44	5144	kulup	
-45	5145	pawai	
-46	5146	iodin	
-47	5147	hulubalang	
-48	5148	kejituan	
-49	5149	ngok	
-50	5150	berkewajipan	berkewajiban
-51	5151	kapuk	
-52	5152	asu	
-53	5153	tenggiling	
-54	5154	peluit	
-55	5155	gembur	digembur
-56	5156	morfem	
-57	5157	plasenta	
-58	5158	sendat	
-59	5159	awning	
-60	5160	kekabu	
-61	5161	kubus	kubusnya
-62	5162	perasuah	
-63	5163	kependekan	
-64	5164	keamatan	
-65	5165	timpa	
-66	5166	slanga	
-67	5167	sahaya	sahayanya
-68	5168	selenium	
-69	5169	kadaran	
-70	5170	pupil	
-71	5171	empang	
-72	5172	koku	
-73	5173	semberono	
-74	5174	prestij	
-75	5175	perencah	
-76	5176	setiba	
-77	5177	didih	dididih
-78	5178	ef	
-79	5179	ubin	
-80	5180	manipulatif	
-81	5181	rengit	
-82	5182	sitrus	
-83	5183	syot	
-84	5184	sepoi	
-85	5185	antigen	
-86	5186	balad	
-87	5187	rian	
-88	5188	montok	
-89	5189	cedok	
-90	5190	ganggang	
-91	5191	fros	
-92	5192	dikit	
-93	5193	memekakkan	dipekakkan
-94	5194	berjawab	
-95	5195	hiatus	
-96	5196	lempung	
-97	5197	cenderawasih	
-98	5198	menora	
-99	5199	penganalisisan	
-100	5200	mobilisasi	
+1	5101	luput	diluputkan luputnya meluputkan terluput
+2	5102	mamalia	
+3	5103	kronologi	kronologinya
+4	5104	sindir	disindir menyindir menyindirku menyindirnya sindirnya
+5	5105	mahaguru	mahagurunya
+6	5106	vegetarian	
+7	5107	pelaksana	pelaksanakan pelaksananya
+8	5108	asuh	asuhkan asuhku asuhnya diasuh mengasuh mengasuhku mengasuhnya
+9	5109	persalinan	persalinannya
+10	5110	penerapan	penerapannya
+11	5111	pancaran	pancarannya
+12	5112	gawang	gawangnya
+13	5113	defisit	defisitnya
+14	5114	pergaulan	pergaulanmu pergaulannya
+15	5115	cantum	bercantum cantumkan cantumkannya dicantum dicantumkan mencantum mencantumkan mencantumkannya mencantumnya
+16	5116	perawan	perawannya
+17	5117	nazak	nazaki
+18	5118	tular	ditularkan menular menularkan menularnya tularkan
+19	5119	ani	
+20	5120	tiram	
+21	5121	sate	satelah
+22	5122	salut	bersalut disalut disaluti disalutkan menyalut menyaluti saluti salutkan
+23	5123	sundal	sundalnya
+24	5124	denyut	berdenyut denyutnya
+25	5125	konco	konconya
+26	5126	pasif	dipasifkan
+27	5127	pulai	
+28	5128	kalender	kalenderku
+29	5129	riang	beriang meriang meriangkan riangnya
+30	5130	datar	datarkan mendatar mendatarkan
+31	5131	bajak	bajaknya dibajak membajak membajaknya
+32	5132	draf	mendraf mendrafkan
+33	5133	optimis	optimiskan optimislah
+34	5134	fiksyen	fiksyennya
+35	5135	purnama	
+36	5136	liwat	diliwat liwatnya meliwat
+37	5137	fatihah	fatihahnya
+38	5138	gempur	digempur menggempur
+39	5139	cis	
+40	5140	pencetus	pencetusnya
+41	5141	idam	diidam diidamkan diidamkannya idamkan idamkannya mengidam mengidamkan mengidamkannya
+42	5142	tembikai	
+43	5143	gel	gelnya menggeli
+44	5144	ragbi	
+45	5145	beca	
+46	5146	komisioner	
+47	5147	tabir	ditabir
+48	5148	sampan	bersampan sampannya
+49	5149	paksi	berpaksi berpaksikan paksinya
+50	5150	sorak	disorak menyorak sorakkan soraklah
+51	5151	rani	
+52	5152	progresif	
+53	5153	kulai	
+54	5154	angkara	angkaranya
+55	5155	liberal	liberalnya meliberalkan
+56	5156	percetakan	
+57	5157	demokratik	demokratikkah demokratiknya mendemokratikkan
+58	5158	pemeliharaan	pemeliharaanmu pemeliharaannya
+59	5159	bermusuhan	
+60	5160	jempol	jempolmu jempolnya
+61	5161	tunas	bertunas menunaskan
+62	5162	keabadian	keabadiannya
+63	5163	curam	
+64	5164	penyedia	penyediakan penyedianya
+65	5165	produser	produsernya
+66	5166	lipas	
+67	5167	bermoral	
+68	5168	pol	poli poliku
+69	5169	duli	diperdulikan memperdulikan memperdulikanku memperdulikanmu memperdulikannya perdulikan
+70	5170	tersohor	
+71	5171	pendorong	pendorongku pendorongmu pendorongnya
+72	5172	injap	injapnya
+73	5173	kepak	berkepak kepakkan kepaknya mengepak mengepakkan
+74	5174	fasilitator	fasi
+75	5175	taksiran	taksirannya
+76	5176	masyhur	dimasyhurkan masyhurnya memasyhurkan
+77	5177	rektor	direktor rektornya
+78	5178	penapisan	dipenapisan
+79	5179	pengumpul	
+80	5180	diagnosis	diagnosismu diagnosisnya didiagnosis mendiagnosis
+81	5181	jambul	
+82	5182	penindasan	
+83	5183	pes	berpes
+84	5184	presint	
+85	5185	penculik	penculiknya
+86	5186	sangkut	bersangkut disangkut disangkutkan menyangkut menyangkutkan sangkutkan sangkutkannya sangkutnya
+87	5187	serong	menyerong
+88	5188	hidrogen	hidrogennya
+89	5189	pejam	dipejam dipejamkan memejam memejamkan pejamkan pejamkanlah
+90	5190	berak	
+91	5191	kabung	berkabung berkabungmu kabungku mengabungkan
+92	5192	permaidani	
+93	5193	dokumentasi	didokumentasi didokumentasikan mendokumentasi mendokumentasikan
+94	5194	liur	berliur liurnya meliurkan
+95	5195	arteri	arterinya
+96	5196	dwi	
+97	5197	parade	
+98	5198	rungutan	rungutanmu
+99	5199	penolakan	penolakannya
+100	5200	hensem	hensemnya

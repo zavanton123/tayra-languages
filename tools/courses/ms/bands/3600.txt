@@ -1,100 +1,100 @@
-1	3501	komanwel	
-2	3502	pondan	
-3	3503	galah	
-4	3504	balang	
-5	3505	bijih	bijihnya
-6	3506	merehatkan	direhatkan rehatkan
-7	3507	wat	
-8	3508	linguistik	
-9	3509	habuan	habuannya
-10	3510	taubat	
-11	3511	pemalas	
-12	3512	zadah	jadah
-13	3513	jitu	
-14	3514	pala	palamu
-15	3515	konduktor	konduktornya
-16	3516	minoriti	
-17	3517	tembus	
-18	3518	megat	
-19	3519	pembela	
-20	3520	cangkuk	cangkuknya
-21	3521	sumbat	
-22	3522	tangkis	ditangkis menangkis
-23	3523	bankrap	bangkrap
-24	3524	kaisar	
-25	3525	syirik	
-26	3526	panji	
-27	3527	menyemai	
-28	3528	kawah	
-29	3529	serbaguna	
-30	3530	tuna	
-31	3531	adiwira	
-32	3532	bantah	
-33	3533	papar	
-34	3534	insaf	
-35	3535	ela	
-36	3536	godaan	godaannya
-37	3537	skru	
-38	3538	hafal	
-39	3539	chalet	
-40	3540	dayung	
-41	3541	wisel	
-42	3542	algoritma	
-43	3543	kemarau	
-44	3544	belitung	
-45	3545	taburan	
-46	3546	aksara	
-47	3547	prasekolah	
-48	3548	bera	
-49	3549	nilam	
-50	3550	kerongkong	kerongkongmu kerongkongnya
-51	3551	penggantungan	
-52	3552	pemotong	
-53	3553	dengki	
-54	3554	persiaran	
-55	3555	bara	
-56	3556	memecut	
-57	3557	indera	inderaku
-58	3558	ketupat	
-59	3559	biara	biaranya
-60	3560	rubah	rubahnya
-61	3561	bayan	
-62	3562	derhaka	derhakanya
-63	3563	berek	
-64	3564	domba	
-65	3565	penderaan	
-66	3566	sirih	
-67	3567	kecepatan	kecepatanku kecepatanmu kecepatannya
-68	3568	faraj	farajnya
-69	3569	zuhur	zohor
-70	3570	ikhtiar	ikhtiarnya
-71	3571	aya	
-72	3572	daku	
-73	3573	julat	julatnya
-74	3574	sinis	
-75	3575	suluh	suluhmu
-76	3576	kancil	kancilnya
-77	3577	statik	
-78	3578	lek	
-79	3579	diskriminasi	
-80	3580	saran	
-81	3581	heret	
-82	3582	sembah	disembah
-83	3583	kepak	kepaknya
-84	3584	mengemis	
-85	3585	sorak	
-86	3586	lampin	
-87	3587	muara	
-88	3588	dulang	dulangnya
-89	3589	hidu	
-90	3590	salju	
-91	3591	tauhu	tauhunya
-92	3592	susut	
-93	3593	saujana	
-94	3594	tian	
-95	3595	marsyal	
-96	3596	graduasi	
-97	3597	pimpin	
-98	3598	dubur	duburnya
-99	3599	memungut	
-100	3600	aluminium	
+1	3501	iklim	beriklim beriklimkan iklimnya
+2	3502	sebat	disebat menyebat menyebatkan sebati
+3	3503	gosok	bergosok digosok gosokkan gosokkannya gosoklah gosoknya menggosok menggosokkan menggosoknya
+4	3504	lada	berlada ladanya
+5	3505	perompak	perompaknya
+6	3506	repek	merepek merepekkan merepeklah
+7	3507	paun	
+8	3508	gelisah	gelisahkan menggelisah menggelisahkan
+9	3509	pertuan	dipertuan dipertuannya
+10	3510	fardu	difardhukan fardhu fardhukan fardunya
+11	3511	jalang	
+12	3512	tumpah	ditumpahkan menumpah menumpahkan menumpahkannya tumpahkan tumpahkannya tumpahnya
+13	3513	kisar	berkisar berkisarkan dikisar dikisarkan kisarkan kisarnya mengisar mengisarkan
+14	3514	kilogram	
+15	3515	terkemuka	
+16	3516	boneka	bonekaku bonekanya
+17	3517	pikat	dipikat memikat memikatku memikatnya pikatku pikatlah
+18	3518	sembelih	disembelih disembelihnya menyembelih menyembelihkan menyembelihmu menyembelihnya sembelihkan sembelihlah
+19	3519	kandang	dikandang dikandangkan kandangi kandangkan kandangku kandangnya mengandangkan
+20	3520	saji	disaji disajikan menyajikan menyajikannya sajikan
+21	3521	ayahanda	ayahandalah ayahandanya
+22	3522	haluan	berhaluan haluanmu haluannya
+23	3523	gaun	bergaun gaunku gaunmu gaunnya
+24	3524	penyebaran	penyebarannya
+25	3525	gegas	bergegas bergegaslah digegas digegaskan
+26	3526	zoo	dizoo
+27	3527	naluri	naluriku nalurimu nalurinya
+28	3528	roboh	diroboh dirobohkan meroboh merobohkan merobohkannya robohkan robohkannya robohnya
+29	3529	rak	dirak mengerakkan raknya
+30	3530	pandan	
+31	3531	nadi	bernadi nadiku nadimu nadinya
+32	3532	mai	memaikan mempermaikan mengemai
+33	3533	kesudahan	berkesudahan kesudahannya
+34	3534	olahraga	berolahraga olahragaku olahragalah olahragamu
+35	3535	gurauan	gurauankah gurauanku gurauanlah gurauannya
+36	3536	kehakiman	kehakimannya
+37	3537	pemusnah	pemusnahnya
+38	3538	usus	ususmu ususnya
+39	3539	wali	berwalikan diwali diwalikan mewalikan walimu walinya
+40	3540	rusuhan	merusuhan
+41	3541	sindiket	bersindiket sindiketku
+42	3542	alatan	alatannya
+43	3543	pati	patikan patinya
+44	3544	khasiat	khasiatnya
+45	3545	penuntut	penuntutnya
+46	3546	domestik	domestiknya
+47	3547	rohani	rohaninya
+48	3548	delegasi	delegasinya mendelegasikan
+49	3549	bungkusan	bungkusannya
+50	3550	premium	premiumnya
+51	3551	lafaz	dilafaz dilafazkan lafazkan lafazkannya lafaznya melafaz melafazkan melafazkannya
+52	3552	teratas	teratasi
+53	3553	rasional	dirasionalkan merasionalkan rasionallah rasionalnya
+54	3554	pemerhati	pemerhatinya
+55	3555	persimpangan	dipersimpangan persimpangannya
+56	3556	lonjak	dilonjakkan lonjakkan melonjak melonjakkan
+57	3557	kuah	berkuah kuahnya
+58	3558	barah	barahnya membarah membarahkan
+59	3559	jodoh	berjodoh dijodohkan jodohkan jodohku jodohmu jodohnya menjodohkan menjodohkanku menjodohkanmu menjodohkannya
+60	3560	curiga	curigai curigakah curigakan curiganya dicurigai dicurigakan mencuriga mencurigai mencurigainya
+61	3561	terlatih	terlatihnya
+62	3562	tekak	bertekak tekaknya
+63	3563	kantin	kantinnya
+64	3564	lazat	lazatnya melazatkan
+65	3565	ros	roslah rosnya
+66	3566	jamu	berjamu dijamu dijamukan jamukan jamulah menjamu
+67	3567	belon	belonku
+68	3568	keenam	keenamnya
+69	3569	teriak	berteriak berteriakkan berteriaklah beteriak meneriakkan teriakkan teriaklah
+70	3570	pendengaran	pendengaranku pendengaranmu pendengarannya
+71	3571	semarak	bersemarak disemarakkan menyemarak menyemarakkan menyemarakkannya semarakkan
+72	3572	kebanggaan	kebanggaanku kebanggaanmu kebanggaannya
+73	3573	dekan	dekannya
+74	3574	mantra	dimantrai mantera mantramu mantranya memantrai
+75	3575	tertumpu	tertumpunya
+76	3576	tegar	ditegarkan menegarkan tegarlah tegarmu tegarnya
+77	3577	tegang	bertegang ditegangkan menegang menegangkan menegangkannya tegangkan tegangnya
+78	3578	pantat	memantat pantatku pantatmu pantatnya
+79	3579	nipis	dinipiskan menipis menipiskan nipisnya
+80	3580	resipi	resipinya
+81	3581	kesunyian	kesunyianku
+82	3582	fajar	fajarku fajarlah fajarnya
+83	3583	batasan	batasannya
+84	3584	taubat	bertaubat bertaubatlah taubatlah taubatmu taubatnya
+85	3585	penangkapan	penangkapanmu penangkapannya
+86	3586	petak	berpetak dipetak sepetak
+87	3587	kekejaman	kekejamanku kekejamannya
+88	3588	prasarana	prasaranamu prasarananya
+89	3589	gadai	bergadai digadai digadaikan gadaikan gadaikannya gadainya mempergadaikan menggadai menggadaikan menggadaikannya pergadaikan
+90	3590	rintangan	rintangannya
+91	3591	pengarang	pengarangnya
+92	3592	rasuk	dirasuk dirasuki dirasukinya dirasuknya merasuk merasuki merasukiku merasukimu merasuklah merasukmu merasuknya
+93	3593	elit	
+94	3594	ungu	ungunya
+95	3595	sepang	disepang
+96	3596	pasu	berpasu dipasu pasunya
+97	3597	kotoran	kotoranku kotoranmu kotorannya
+98	3598	mekanik	mekaniknya
+99	3599	pewaris	pewarisku pewarisnya
+100	3600	setan	dipersetankan persetankan persetankanlah setanlah setannya

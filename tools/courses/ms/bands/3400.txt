@@ -1,100 +1,100 @@
-1	3301	skirt	skirtnya
-2	3302	ara	aranya
-3	3303	kening	keningku keningmu keningnya
-4	3304	berlabuh	
-5	3305	sembang	
-6	3306	divisyen	divisyennya
-7	3307	perigi	perigiku perigimu
-8	3308	nangka	nangkanya
-9	3309	ralat	
-10	3310	tonggak	
-11	3311	reformasi	direformasi mereformasi
-12	3312	kelapan	
-13	3313	kelembapan	kelembapannya
-14	3314	perikatan	
-15	3315	bomoh	bomohnya
-16	3316	binasa	
-17	3317	auditorium	
-18	3318	terlarang	
-19	3319	batal	
-20	3320	anime	
-21	3321	rai	
-22	3322	berfaedah	
-23	3323	langsir	langsirnya
-24	3324	kekunci	kekuncinya
-25	3325	ilmuwan	
-26	3326	sat	
-27	3327	lumut	
-28	3328	kerepek	
-29	3329	pecahan	pecahannya
-30	3330	sekat	
-31	3331	konon	
-32	3332	lanjutkan	
-33	3333	hana	
-34	3334	ponteng	memonteng pon
-35	3335	santan	santannya
-36	3336	ceroboh	
-37	3337	biaya	biayanya
-38	3338	jem	
-39	3339	cerai	
-40	3340	warung	warungnya
-41	3341	tukul	
-42	3342	mengacau	
-43	3343	persis	
-44	3344	sumbang	
-45	3345	tumpah	
-46	3346	reti	
-47	3347	munafik	
-48	3348	pengiklanan	
-49	3349	naungan	
-50	3350	rambutan	
-51	3351	genap	
-52	3352	jerawat	
-53	3353	kesembilan	
-54	3354	inflasi	
-55	3355	strawberi	
-56	3356	tugu	tugunya
-57	3357	dialek	
-58	3358	kerat	sekerat
-59	3359	bahtera	bahteranya
-60	3360	alu	
-61	3361	tontonan	tontonannya
-62	3362	misa	
-63	3363	selia	
-64	3364	bini	biniku bininya
-65	3365	soya	
-66	3366	hon	
-67	3367	sandiwara	
-68	3368	hampa	
-69	3369	toko	tokoku tokomu tokonya
-70	3370	organisma	
-71	3371	habuk	habuknya
-72	3372	pemantau	
-73	3373	selang	
-74	3374	sedut	
-75	3375	lang	
-76	3376	lalai	
-77	3377	bahagi	
-78	3378	citra	citranya
-79	3379	kulat	
-80	3380	sebelas	
-81	3381	mamalia	
-82	3382	mahaguru	mahagurunya
-83	3383	lauk	
-84	3384	cakar	cakarku cakarmu cakarnya
-85	3385	vegetarian	
-86	3386	mengata	dikata
-87	3387	rumpun	serumpun
-88	3388	kronologi	
-89	3389	pecut	dipecut
-90	3390	tiram	
-91	3391	imbuhan	
-92	3392	berakhlak	
-93	3393	defisit	
-94	3394	fanatik	
-95	3395	nazak	
-96	3396	balu	balunya
-97	3397	konco	konconya
-98	3398	harum	
-99	3399	fiksyen	fiksyennya
-100	3400	purnama	
+1	3301	besaran	membesaran
+2	3302	tersedia	tersedianya
+3	3303	terdesak	terdesaknya
+4	3304	pijak	berpijak berpijaklah dipijak memijak memijakkan memijaknya pijakkan pijaklah pijaknya
+5	3305	peratusan	peratusannya
+6	3306	atap	atapku atapnya beratap beratapkan diatap diatapnya
+7	3307	veteran	
+8	3308	tekad	bertekad tekadkan tekadmu tekadnya
+9	3309	eksklusif	eksklusifnya
+10	3310	terkandung	
+11	3311	botak	botakkan botaknya dibotakkan membotak membotakkan
+12	3312	kura	kuranya mengura mengurai mengurainya
+13	3313	penekanan	penekanannya
+14	3314	keren	kerenkan kerenku kerenlah kerennya
+15	3315	nanas	lanas nanasnya nenas nenasi
+16	3316	muatan	bermuatan muatanku muatannya
+17	3317	liter	liternya seliter
+18	3318	gitar	bergitar gitarku gitarmu gitarnya
+19	3319	nan	dinan nani
+20	3320	diorang	
+21	3321	ketibaan	ketibaanku ketibaanmu ketibaannya
+22	3322	jarum	jarumi jarumku jarumnya
+23	3323	barangkali	barangkalinya
+24	3324	penceramah	penceramahnya
+25	3325	wasiat	berwasiat diwasiat diwasiatkan mewasiatkan mewasiatkannya wasiatkan wasiatku wasiatnya
+26	3326	umbi	umbikan umbinya
+27	3327	gen	bergen geni gennya
+28	3328	pola	berpola polanya
+29	3329	buruh	buruhmu memburuh
+30	3330	trek	treknya
+31	3331	tadika	bertadika
+32	3332	perhiasan	perhiasanku perhiasanmu perhiasannya
+33	3333	waran	berwaran warankah
+34	3334	himpun	berhimpun berhimpunnya dihimpun dihimpunkan himpunkan himpunkanlah menghimpun menghimpunkan menghimpunkannya
+35	3335	undian	undiannya
+36	3336	epal	mengepalkan mengepalkannya
+37	3337	lontar	dilontar dilontarkan lontarlah lontarmu lontarnya melontar melontarkan melontarkannya melontarnya
+38	3338	pendeta	pendetamu pendetanya
+39	3339	gelak	bergelak digelakkan gelakkan gelaklah gelaknya menggelak menggelakkan
+40	3340	trauma	traumanya
+41	3341	makmur	dimakmurkan makmurkan makmurkanlah makmurnya memakmur memakmurkan memakmurkannya
+42	3342	tang	bertang ditang mentang mentanglah
+43	3343	ketiadaan	ketiadaanku ketiadaanmu ketiadaannya
+44	3344	sekuriti	bersekuriti sekuritinya
+45	3345	selang	berselang diselang diselangi selangkah selangnya
+46	3346	riba	meriba ribanya
+47	3347	lemas	dilemaskan lemaskan lemaskannya lemaslah melemaskan
+48	3348	biadab	biadabnya biadap
+49	3349	perunding	perundingnya
+50	3350	larut	berlarut dilarut dilarutkan larutkan larutlah melarut melarutkan
+51	3351	goda	digoda godanya menggoda menggodai menggodaku menggodamu menggodanya
+52	3352	kipas	berkipas dikipas kipasku kipasnya mengipas
+53	3353	goyang	bergoyang bergoyanglah digoyangkan goyangkan goyangkannya goyanglah goyangnya menggoyang menggoyangkan menggoyangkannya
+54	3354	plot	diplot diplotkan memplot plotkan plotnya
+55	3355	laser	laserku lasernya
+56	3356	kian	
+57	3357	terpenting	terpentingku terpentingnya
+58	3358	bon	boni bonnya
+59	3359	duka	berduka dukanya menduka
+60	3360	dagang	berdagang dagangkan dagangnya didagang didagangkan diperdagangkan memperdagang memperdagangkan memperdagangkannya mendagangkan perdagangkan
+61	3361	kestabilan	kestabilannya
+62	3362	petir	petirmu
+63	3363	daratan	daratanku daratanmu
+64	3364	trend	trendi trendnya
+65	3365	kepelbagaian	kepelbagaiannya
+66	3366	skandal	berskandal skandalnya
+67	3367	karangan	diperkarangan karangannya
+68	3368	cacing	cacingnya
+69	3369	jambu	jambui
+70	3370	petanda	petandanya
+71	3371	ilah	berilah ilahnya
+72	3372	sami	
+73	3373	bubar	bubarkan dibubar dibubarkan membubar membubarkan
+74	3374	paman	pamanku pamanmu pamannya pamanpun
+75	3375	alang	alangkah alangkan mengalangi
+76	3376	pengiraan	pengiraannya
+77	3377	kombinasi	berkombinasi kombinasikan kombinasinya mengkombinasi mengkombinasikan mengkombinasikannya
+78	3378	subur	disuburkan menyubur menyuburi menyuburkan menyuburkannya suburi suburkan suburkanlah suburlah suburnya
+79	3379	pemerhatian	pemerhatianku pemerhatiannya
+80	3380	ayu	ayui ayulah ayumu
+81	3381	dahaga	dahagai dahagakan dahagaku dahaganya mendahagakan
+82	3382	sabun	bersabun sabunkan sabunnya
+83	3383	diskaun	didiskaunkan mendiskaunkan
+84	3384	inti	berinti berintikan intinya
+85	3385	dapatan	mendapatan
+86	3386	trofi	trofinya
+87	3387	loceng	locengnya
+88	3388	serbu	diserbu menyerbu menyerbunya
+89	3389	target	menargetkan menargetkannya targetkan targetmu targetnya
+90	3390	kabin	kabinku kabinmu kabinnya
+91	3391	kayangan	
+92	3392	perspektif	perspektifnya
+93	3393	perpisahan	perpisahanku perpisahannya
+94	3394	helang	helangmu helangnya
+95	3395	sil	
+96	3396	kuantiti	kuantitinya
+97	3397	honda	
+98	3398	rangkak	merangkak merangkaklah
+99	3399	belanjawan	belanjawannya dibelanjawankan
+100	3400	kapan	dikapan dikapankan kapankah kapanpun

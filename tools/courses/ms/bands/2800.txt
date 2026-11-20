@@ -1,100 +1,100 @@
-1	2701	menyala	
-2	2702	kehormat	
-3	2703	silat	silatnya
-4	2704	pipi	pipiku pipimu pipinya
-5	2705	ambang	mengambang
-6	2706	bangkai	bangkaimu bangkainya
-7	2707	bubur	buburmu buburnya
-8	2708	khalifah	
-9	2709	wajibkan	diwajibkan
-10	2710	kari	
-11	2711	pemilih	pemilihku
-12	2712	nyamuk	
-13	2713	susun	
-14	2714	sarkas	sarkasnya
-15	2715	dakwa	dakwamu dakwanya
-16	2716	inovatif	
-17	2717	merpati	merpatiku
-18	2718	siling	silingnya
-19	2719	loghat	loghatnya
-20	2720	bagan	
-21	2721	pusaka	pusakaku pusakanya
-22	2722	kesesuaian	kesesuaiannya
-23	2723	pepatah	
-24	2724	sangkar	
-25	2725	kekecewaan	kekecewaanmu kekecewaannya
-26	2726	benua	
-27	2727	istirahat	
-28	2728	badak	
-29	2729	umrah	umrahnya
-30	2730	keramat	keramatnya
-31	2731	berkuatkuasa	
-32	2732	sejuta	
-33	2733	ambulans	
-34	2734	dimasak	
-35	2735	kesenangan	
-36	2736	cucuk	cocok
-37	2737	champagne	
-38	2738	gelak	
-39	2739	berdikari	
-40	2740	nan	
-41	2741	tegak	
-42	2742	menggoda	
-43	2743	dahi	dahiku dahimu dahinya
-44	2744	interaksi	interaksimu interaksinya
-45	2745	pertunangan	
-46	2746	debat	
-47	2747	natural	
-48	2748	keranjang	
-49	2749	sebabkan	disebabkan
-50	2750	laptop	
-51	2751	moga	
-52	2752	den	
-53	2753	dahaga	
-54	2754	atmosfera	atmosferanya
-55	2755	jampi	
-56	2756	elak	
-57	2757	soleh	salih
-58	2758	malapetaka	
-59	2759	parkir	diparkir
-60	2760	ilham	
-61	2761	karbon	
-62	2762	pemakaian	pemakaiannya
-63	2763	mikro	
-64	2764	peluh	peluhnya
-65	2765	klien	
-66	2766	lau	
-67	2767	berbulu	
-68	2768	keunikan	
-69	2769	tempah	
-70	2770	jajahan	jajahannya
-71	2771	keliling	kelilingku kelilingnya
-72	2772	au	
-73	2773	penculikan	penculikannya
-74	2774	benang	bebenang
-75	2775	terancam	
-76	2776	stor	
-77	2777	kronik	
-78	2778	mencurigakan	
-79	2779	gi	
-80	2780	opera	
-81	2781	nyonya	nonya
-82	2782	rotan	
-83	2783	francais	
-84	2784	asin	masin
-85	2785	murai	
-86	2786	nona	
-87	2787	tahfiz	
-88	2788	resolusi	resolusinya
-89	2789	cabar	
-90	2790	jikalau	
-91	2791	sape	sapa
-92	2792	menyuarakan	
-93	2793	gen	
-94	2794	paha	pahaku pahanya peha
-95	2795	ulat	
-96	2796	bala	balanya
-97	2797	pek	
-98	2798	suria	
-99	2799	jeti	
-100	2800	prototaip	prototaipnya
+1	2701	pop	
+2	2702	cubaan	cubaannya
+3	2703	tuah	tuahku tuahmu tuahnya
+4	2704	ana	anaku
+5	2705	tingkah	bertingkah bertingkahlah tingkahku tingkahmu tingkahnya
+6	2706	kebersihan	kebersihannya
+7	2707	ibarat	diibarat diibaratkan ibaratkan ibaratnya mengibaratkan mengibaratkannya
+8	2708	teratur	teraturkan teraturnya
+9	2709	permatang	
+10	2710	juri	jurinya
+11	2711	biro	bironya
+12	2712	bu	
+13	2713	mirip	bermirip miripnya
+14	2714	berbagai	diberbagai
+15	2715	peluh	berpeluh berpeluhnya peluhnya
+16	2716	falsafah	berfalsafah falsafahlah falsafahnya
+17	2717	penganjur	penganjurnya
+18	2718	adu	adui adukan beradu diadu diadukan mengadu mengadukah mengadukan mengadukannya mengadulah
+19	2719	jijik	jijiklah jijiknya menjijikkan menjijikkanlah
+20	2720	kanun	berkanun berkanunnya dikanunkan mengkanunkan
+21	2721	almari	almariku almarimu almarinya
+22	2722	larangan	larangannya
+23	2723	gemilang	gemilangnya menggemilangkan
+24	2724	protokol	protokolnya
+25	2725	mampus	dimamkan mam mampuslah mampusnya
+26	2726	caj	cajkan cajnya dicaj dicajkan mencaj mengecaj
+27	2727	terbalik	diterbalikkan menterbalikkan menterbalikkannya terbalikkan terbalikkannya terbaliknya
+28	2728	makam	dimakamkan makamnya memakamkan
+29	2729	firman	berfirman berfirmanlah difirmankan firmanmu firmannya
+30	2730	kalimah	berkalimah kalimahnya kalimat kalimati kalimatku kalimatnya
+31	2731	moyang	moyangku moyangmu moyangnya
+32	2732	seratus	
+33	2733	duta	dutanya
+34	2734	formula	diformulakan formulakan formulaku formulanya
+35	2735	gay	gayi gaylah gaynya
+36	2736	hiasan	berhiasan hiasanku hiasannya
+37	2737	manual	manualnya
+38	2738	tampar	bertampar ditampar menampar menamparku menamparmu menamparnya tamparku tamparlah tamparnya
+39	2739	rebak	merebak merebakkan merebakkannya merebaknya
+40	2740	gaul	bergaul bergaullah digaul digaulkan gaulkan gaulkannya menggaul menggauli menggaulkan
+41	2741	sebegitu	sebegitulah
+42	2742	pembersihan	pembersihanku
+43	2743	pemohon	
+44	2744	akhirat	akhiratlah akhiratmu akhiratnya diakhirat
+45	2745	dompet	dompetku dompetmu dompetnya
+46	2746	penggal	berpenggal dipenggal memenggal memenggalku memenggalmu memenggalnya penggali penggalnya
+47	2747	duga	diduga menduga menduganya
+48	2748	kesimpulan	berkesimpulan kesimpulanmu kesimpulannya
+49	2749	kemuncak	dikemuncak kemuncaknya
+50	2750	tin	ditinkan mengetin setin tini tinku tinnya
+51	2751	perangai	berperangai berperangailah perangaiku perangaimu perangainya
+52	2752	kesetiaan	kesetiaanku kesetiaanlah kesetiaanmu kesetiaannya
+53	2753	lebah	lebahnya
+54	2754	lingkungan	berlingkungan dilingkungan dilingkunganku lingkunganku lingkunganmu lingkungannya
+55	2755	baloi	berbaloi berbaloikah berbaloilah berbaloinya
+56	2756	poket	berpoket dipoket poketku poketmu poketnya
+57	2757	gelang	bergelang gelangnya menggelang
+58	2758	kritikal	kritikalnya
+59	2759	kebimbangan	kebimbanganku kebimbanganmu kebimbangannya
+60	2760	ramalan	diramalan ramalanku ramalanmu ramalannya
+61	2761	motif	bermotif bermotifkan motifnya
+62	2762	wawasan	berwawasan wawasannya
+63	2763	terbitan	diterbitan terbitannya
+64	2764	persegi	
+65	2765	tertekan	tertekanmu tertekannya
+66	2766	gara	garai mempergarakan
+67	2767	mantan	mantanku mantanmu mantannya
+68	2768	penjual	penjualnya
+69	2769	konteks	berkonteks konteksnya
+70	2770	tragedi	tragedimu tragedinya
+71	2771	kepunyaan	berkepunyaan kepunyaanku kepunyaanmu kepunyaannya
+72	2772	pembuat	pembuatnya
+73	2773	ugut	diugut diugutkah diugutkan mengugut mengugutku mengugutmu mengugutnya ugutkah ugutlah ugutnya
+74	2774	panglima	panglimanya
+75	2775	jurang	jurangnya
+76	2776	giat	bergiat digiatkan dipergiat dipergiatkan giatkan giatnya mempergiat mempergiatkan menggiat menggiatkan pergiatkan
+77	2777	eksperimen	bereksperimen dieksperimenkan eksperimenku eksperimennya mengeksperimen
+78	2778	jururawat	jururawatku jururawatnya
+79	2779	panggung	dipanggung panggungnya
+80	2780	studio	studiokah studioku studionya
+81	2781	kenang	dikenang dikenangi dikenangkan kenangi kenangilah kenangkan kenanglah kenangnya mengenang mengenangkan mengenangkannya mengenangmu mengenangnya
+82	2782	kesusahan	kesusahannya
+83	2783	purba	purbanya
+84	2784	kuku	berkuku dikuku kukuku kukumu kukunya
+85	2785	kentang	kentangnya
+86	2786	penerimaan	penerimaanmu penerimaannya
+87	2787	sepa	sepakan sepakannya sepatah
+88	2788	komersial	dikomersialkan komersialkan komersialnya mengkomersialkan mengkomersialkannya
+89	2789	ketenangan	ketenanganmu ketenangannya
+90	2790	mutu	mutunya
+91	2791	isytihar	diisytihar diisytiharkan isytiharkan isytiharkanlah mengisytihar mengisytiharkan mengisytiharkannya
+92	2792	rapi	dirapikan merapi merapikan rapikan rapikannya rapinya
+93	2793	ceroboh	cerobohi cerobohnya diceroboh dicerobohi menceroboh mencerobohi mencerobohnya
+94	2794	keistimewaan	keistimewaannya
+95	2795	umpan	berumpan berumpankan diumpan mengumpan mengumpanku mengumpannya umpankan umpanku umpanmu umpannya
+96	2796	akhlak	akhlakku akhlaklah akhlaknya
+97	2797	ban	bani banku banmu bannya diperban perbani
+98	2798	pemakanan	pemakanannya
+99	2799	sunat	bersunat disunat disunatkan menyunatkan sunatkan sunatnya
+100	2800	tersembunyi	tersembunyiku

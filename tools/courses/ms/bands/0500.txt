@@ -1,100 +1,100 @@
-1	401	segala	
-2	402	lari	berlari
-3	403	suatu	
-4	404	tindakan	tindakanku tindakanmu tindakannya
-5	405	masing	
-6	406	harga	hargaku hargamu harganya
-7	407	senjata	senjataku senjatamu senjatanya
-8	408	tanya	
-9	409	tiba	
-10	410	demi	
-11	411	rakan	rakanku rakanmu rakannya
-12	412	bapa	bapak bapakku bapakmu bapaknya
-13	413	kenal	
-14	414	naik	
-15	415	alam	alamku alamnya
-16	416	hasil	hasilku hasilmu hasilnya
+1	401	segala	segalanya
+2	402	lari	berlari berlarilah dilarikan larikan larilah larimu larinya melarikan melarikannya
+3	403	suatu	suatupun
+4	404	tindakan	tindakani tindakanku tindakanmu tindakannya
+5	405	masing	masingnya
+6	406	harga	berharga berhargakah berhargaku berhargamu berharganya dihargai dihargainya dihargakan hargai hargailah hargainya hargaku hargamu harganya menghargai menghargaiku menghargaimu menghargainya
+7	407	senjata	bersenjata bersenjatakan mempersenjatai persenjatai senjataku senjatamu senjatanya
+8	408	tanya	bertanyakan bertanyakannya bertanyalah dipertanyakan ditanya ditanyai ditanyakan mempertanyakan mempertanyakannya menanya menanyai menanyaiku menanyaimu menanyainya menanyakan menanyakanku menanyakanmu menanyakannya pertanyakan tanyai tanyakan tanyakannya tanyaku tanyalah tanyamu tanyanya
+9	409	tiba	tibai tibalah tibanya
+10	410	demi	demiku demimu deminya
+11	411	rakan	merakan rakankan rakanku rakanmu rakannya
+12	412	bapa	bapak bapakku bapakmu bapaknya bapaku bapalah bapamu bapanya bapanyalah
+13	413	kenal	berkenal dikenal dikenali dikenalinya dikenalkan dikenalnya diperkenal diperkenalkan diperkenalkannya kenali kenalilah kenalinya kenalkah kenalkan kenalkannya kenallah kenalmu kenalnya memperkenal memperkenalkan memperkenalkanku memperkenalkanmu memperkenalkannya mengenal mengenali mengenaliku mengenalimu mengenalinya mengenalkan mengenalkanku mengenalkanmu mengenalku mengenalmu mengenalnya perkenalkan perkenalkanku perkenalkanlah perkenalkanmu perkenalkannya
+14	414	naik	dinaik dinaiki dinaikinya dinaikkan menaik menaiki menaikimu menaikinya menaikkan menaikkanku menaikkannya naiki naikinya naikkan naikkannya naiklah naikmu naiknya
+15	415	alam	alami alamikah alamilah alamimu alaminya alamku alamlah alamnya dialam dialami dialaminya dialammu dialamnya mengalaminya
+16	416	hasil	berhasil berhasilkah berhasilkan berhasilnya dihasil dihasilkan dihasilkannya hasilkan hasilkanlah hasilkannya hasilku hasilmu hasilnya menghasil menghasilkan menghasilkannya
 17	417	semakin	
-18	418	menang	
+18	418	menang	dimenang dimenangi dimenanginya dimenangkan memenang memenangi memenanginya memenangkan memenangkannya menangi menangilah menanginya menangkah menangkan menanglah menangnya menangpun
 19	419	bermain	
-20	420	presiden	
-21	421	isu	
-22	422	belajar	
-23	423	akhir	
-24	424	penuh	
-25	425	agar	agarku
-26	426	aktiviti	aktivitinya
-27	427	harap	
+20	420	presiden	berpresiden presidenku presidenmu presidennya
+21	421	isu	diisukan isunya mengisu mengisukan
+22	422	belajar	belajari belajarkah belajarku belajarlah belajarnya
+23	423	akhir	akhiri akhirilah akhirinya akhirkan akhirkannya akhirku akhirmu akhirnya akhirpun berakhir berakhirkah berakhirkan berakhirlah berakhirnya diakhir diakhiri diakhirnya mengakhiri mengakhirimu mengakhirinya mengakhirkan mengakhirkannya
+24	424	penuh	dipenuh dipenuhi dipenuhinya dipenuhkan memenuh memenuhi memenuhiku memenuhimu memenuhinya memenuhkan memenuhkannya penuhi penuhilah penuhkan penuhkanlah penuhkannya penuhku penuhmu penuhnya
+25	425	agar	agari agarku
+26	426	aktiviti	aktivitinya beraktiviti
+27	427	harap	berharapkan berharaplah berharapnya diberharap diharap diharapkan diharapkannya harapkan harapkanmu harapkannya haraplah harapnya harapnyalah mengharap mengharapkan mengharapkanku mengharapkanmu mengharapkannya mengharapnya
 28	428	la	
-29	429	tangkap	ditangkap menangkap
-30	430	janji	janjiku janjimu janjinya
-31	431	kelas	
-32	432	agak	
-33	433	berita	beritaku beritamu beritanya
+29	429	tangkap	ditangkap ditangkapnya menangkap menangkapku menangkapmu menangkapnya tangkapkah tangkapkan tangkaplah tangkapnya
+30	430	janji	berjanji berjanjikan berjanjilah dijanji dijanjikan dijanjikannya janjikan janjikanku janjikannya janjiku janjilah janjimu janjinya menjanjikan menjanjikanku menjanjikanmu menjanjikannya
+31	431	kelas	berkelas dikelas dikelaskan kelaskan kelasku kelasmu kelasnya mengelas mengelaskan mengelasnya mengkelaskan
+32	432	agak	agakkan agaklah agaknya agaknyalah diagak mengagak mengagaknya
+33	433	berita	beritakan beritakanlah beritaku beritamu beritanya diberita diberitakan memberita memberitakan
 34	434	malah	
-35	435	adik	adikku adikmu adiknya adinda dik dinda
+35	435	adik	adikku adiklah adikmu adiknya adiknyalah adinda berari dik dinda mengari mengarinya
 36	436	kematian	kematianku kematianmu kematiannya
-37	437	jatuh	
-38	438	sementara	
-39	439	arah	arahku arahmu arahnya
+37	437	jatuh	dijatuh dijatuhi dijatuhkan dijatuhkannya jatuhkan jatuhkanlah jatuhkannya jatuhku jatuhlah jatuhnya menjatuh menjatuhi menjatuhimu menjatuhkan menjatuhkanku menjatuhkanmu menjatuhkannya
+38	438	sementara	sementaranya
+39	439	arah	arahkah arahkan arahkanku arahkannya arahku arahmu arahnya berarah diarah diarahkan diarahkannya diarahnya mengarahkan mengarahkanku mengarahkannya
 40	440	lepaskan	dilepaskan melepaskan
-41	441	gadis	gadisku gadismu gadisnya
-42	442	asal	asalku asalmu asalnya
-43	443	kaum	kaumku kaummu kaumnya
-44	444	pukul	pukulnya
-45	445	dewan	dewannya
+41	441	gadis	gadisku gadismu gadisnya gadispun
+42	442	asal	asalku asalmu asalnya berasal
+43	443	kaum	kaumku kaummu kaumnya mengaum mengaumkah
+44	444	pukul	dipukul dipukuli dipukulnya memukul memukuli memukuliku memukulimu memukulinya memukulkan memukulku memukulmu memukulnya pukuli pukulkan pukulkannya pukullah pukulnya
+45	445	dewan	dewani dewannya didewan
 46	446	ku	
 47	447	projek	projekmu projeknya
-48	448	jelas	
-49	449	pulau	pulauku pulaumu pulaunya
-50	450	kalian	kelian
+48	448	jelas	dijelaskan dijelaskannya diperjelaskan jelaskah jelaskan jelaskanlah jelaskannya jelaslah jelasnya memperjelas memperjelaskan memperjelasnya menjelas menjelaskannya perjelaskan perjelaskannya
+49	449	pulau	dipulau dipulaukan memulau memulaukan memulaukannya pulaukan pulauku pulaumu pulaunya
+50	450	kalian	kalianlah kelian
 51	451	berubah	
-52	452	buruk	terburuk
-53	453	semalam	
+52	452	buruk	berburuk burukkah burukkan burukku buruklah burukmu buruknya diburukkan diperburukkan memburuk memburukkan memburukkannya memburuknya memperburuk terburuk
+53	453	semalam	semalamkan semalamnya
 54	454	berbeza	
-55	455	darah	darahku darahmu darahnya
+55	455	darah	berdarah berdarahlah darahkah darahku darahlah darahmu darahnya mendarah
 56	456	dibuat	
-57	457	haji	aji hajiku hajinya
-58	458	anggota	
-59	459	perang	perangku perangmu perangnya prang
-60	460	awam	
+57	457	haji	aji ajilah berhaji hajiku hajinya
+58	458	anggota	anggotai anggotaku anggotamu anggotanya beranggota beranggotakan dianggotai dianggotainya menganggotai menganggotainya
+59	459	perang	beperang berperang berperangku berperanglah diperangi memerangi memerangimu memeranginya perangi perangilah perangkan perangku perangmu perangnya prang
+60	460	awam	awami awamlah awamnya diawamkan
 61	461	pembangunan	pembangunannya
-62	462	hubungan	
-63	463	politik	politikku politiknya
-64	464	bangunan	bangunanku bangunanmu bangunannya
-65	465	seri	
+62	462	hubungan	berhubungan berhubungannya hubunganku hubunganmu hubungannya
+63	463	politik	berpolitik berpolitiklah dipolitik dipolitikkan mempolitikkan mempolitikkannya politikkan politikku politiklah politiknya
+64	464	bangunan	bangunankan bangunanku bangunanmu bangunannya berbangunan dibangunan membangunan membangunankan
+65	465	seri	berseri beseri diserikan menyeri menyerikan serikan serinya
 66	466	sebarang	
 67	467	soalan	soalanku soalanmu soalannya soklan
-68	468	minum	diminum meminum
-69	469	muka	mukaku mukamu mukanya muke
+68	468	minum	berminum diminum diminumnya meminum meminumnya minumkah minumku minumlah minumnya
+69	469	muka	bermuka dimuka dimukanya mukai mukaku mukamu mukanya muke
 70	470	menurut	
-71	471	lawan	dilawan lawanku lawanmu lawannya melawan
-72	472	kisah	
-73	473	permainan	permainanku permainanmu permainannya
-74	474	fasal	pasal
-75	475	kejadian	kejadianku kejadianmu kejadiannya
-76	476	tempoh	tempohnya
-77	477	anjing	anjingku anjingmu anjingnya
+71	471	lawan	berlawan berlawanlah berlawannya dilawan dilawannya diperlawankan lawanku lawanlah lawanmu lawannya melawan melawankah melawanku melawanlah melawanmu melawannya
+72	472	kisah	berkisah berkisahkan dikisah dikisahkan kisahkah kisahkan kisahkannya kisahku kisahlah kisahmu kisahnya mengisah mengisahkan mengkisahkan
+73	473	permainan	mempermainan permainankah permainanku permainanmu permainannya
+74	474	fasal	fasalnya pasal
+75	475	kejadian	kejadianku kejadianlah kejadianmu kejadiannya
+76	476	tempoh	bertempoh ditempohi tempohnya
+77	477	anjing	anjingku anjinglah anjingmu anjingnya menganjing
 78	478	sungai	sungainya sungei
-79	479	gembira	gembiranya
-80	480	milik	milikku milikmu miliknya
-81	481	putih	puteh putihku putihmu putihnya
-82	482	yakin	
-83	483	bumi	bumiku bumimu buminya
-84	484	turun	
-85	485	kehilangan	
-86	486	barang	barangku barangmu barangnya
-87	487	kebangsaan	
-88	488	langsung	
-89	489	tua	tuha
-90	490	perjalanan	
+79	479	gembira	bergembira bergembiralah digembirakan gembirakah gembirakan gembirakanlah gembirakannya gembiralah gembiranya menggembirakan menggembirakanku menggembirakanmu menggembirakannya
+80	480	milik	bermilik dimilik dimiliki dimilikimu dimilikinya dimiliknya memilik memiliki memilikiku memilikilah memilikimu memilikinya memilikku memiliknya miliki milikilah milikinya milikku milikmu miliknya
+81	481	putih	berputih diputihkan memutih memutihkan memutihkannya puteh putihkan putihku putihlah putihmu putihnya
+82	482	yakin	diyakini diyakininya diyakinkan meyakin meyakini meyakiniku meyakininya meyakinkan meyakinkankan meyakinkanku meyakinkanmu meyakinkannya yakini yakinilah yakinkah yakinkan yakinkannya yakinlah yakinnya
+83	483	bumi	bumiku bumimu buminya dibumi dibumikan membumikan
+84	484	turun	diperturunkan diturun dituruni diturunkan memperturunkan menurun menuruni menuruninya menurunkan menurunkanku menurunkanmu menurunkannya menurunnya perturunkan turuni turunkan turunkanku turunkanlah turunkanmu turunkannya turunlah turunnya
+85	485	kehilangan	kehilanganku kehilanganmu kehilangannya
+86	486	barang	barangkah barangku barangmu barangnya
+87	487	kebangsaan	berkebangsaan kebangsaannya
+88	488	langsung	berlangsung berlangsungnya dilangsung dilangsungkan langsungkan langsunglah langsungnya melangsung melangsungkan melangsungkannya
+89	489	tua	bertua dipertua dipertuanya dituai dituakan menua menuai tuakah tuaku tualah tuamu tuanya tuanyalah tuha
+90	490	perjalanan	diperjalanan perjalanankah perjalananku perjalananmu perjalanannya
 91	491	pengarah	pengarahku pengarahnya
-92	492	perdana	
-93	493	bidang	bidangku bidangmu bidangnya sebidang
-94	494	jawab	dijawab menjawab
-95	495	pendidikan	pendidikanku pendidikanmu pendidikannya
-96	496	calon	calonku calonnya
-97	497	bisa	bisanya
-98	498	suami	suamiku suamimu suaminya
-99	499	nombor	
-100	500	hak	hakku hakmu haknya
+92	492	perdana	perdanakan perdananya
+93	493	bidang	bidangku bidangmu bidangnya dibidang dibidangnya sebidang
+94	494	jawab	berjawab dijawab dijawabnya jawabkah jawabkan jawabku jawablah jawabmu jawabnya jawabpun menjawab menjawabku menjawabmu menjawabnya
+95	495	pendidikan	berpendidikan berpendidikannya pendidikanku pendidikanlah pendidikanmu pendidikannya
+96	496	calon	calonkan calonku calonnya dicalon dicalonkan mencalonkan mencalonkanmu
+97	497	bisa	berbisa berbisanya bisakah bisakan bisanya
+98	498	suami	bersuami bersuamikan suamiku suamilah suamimu suaminya
+99	499	nombor	bernombor dinomborkan nomborku nombormu nombornya
+100	500	hak	haki hakikah hakku hakmu haknya

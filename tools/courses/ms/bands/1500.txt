@@ -1,100 +1,100 @@
-1	1401	kek	keknya
-2	1402	kejap	
-3	1403	pentas	pentasnya
-4	1404	aliran	alirannya
-5	1405	lemak	
-6	1406	sejati	
-7	1407	elok	
-8	1408	daun	daunnya
-9	1409	tunjuk	
-10	1410	kejar	
-11	1411	bendera	
-12	1412	iklan	iklanku iklannya
-13	1413	kegiatan	kegiatanku kegiatanmu kegiatannya
-14	1414	getah	getahnya
-15	1415	wira	wiraku wiranya
-16	1416	berhak	
-17	1417	yatim	yatimmu
-18	1418	ceramah	ceramahmu ceramahnya
-19	1419	identiti	identitiku identitimu identitinya
-20	1420	keturunan	keturunanku keturunanmu keturunannya
-21	1421	manfaat	
-22	1422	emosi	
-23	1423	pengganas	
-24	1424	puasa	puasanya
-25	1425	keyakinan	keyakinanku keyakinanmu keyakinannya
-26	1426	wahai	
-27	1427	ipuh	ipoh
-28	1428	menghargai	
-29	1429	ketakutan	
-30	1430	darjah	darjahnya derajat
-31	1431	olah	diolah mengolah
-32	1432	gus	
-33	1433	ribut	ributnya
-34	1434	bosan	
-35	1435	lucu	
-36	1436	perhubungan	perhubunganku perhubungannya
-37	1437	kering	
-38	1438	bumiputera	
-39	1439	rahim	rahimku rahimnya
-40	1440	payah	
-41	1441	ringan	
-42	1442	moden	
-43	1443	surau	suraunya
-44	1444	skim	
-45	1445	hidung	hidungku hidungmu hidungnya
-46	1446	terjun	
-47	1447	nuklear	
-48	1448	kerjaya	
-49	1449	kaca	kacamu kacanya
-50	1450	abaikan	diabaikan mengabaikan
-51	1451	kompleks	
-52	1452	kawal	kawalnya
-53	1453	berikutnya	
-54	1454	hasrat	hasratku hasratnya
-55	1455	cikgu	cikgunya
-56	1456	dapur	dapurku dapurmu dapurnya
-57	1457	geng	gengku gengmu gengnya
-58	1458	paul	
-59	1459	kukuh	
-60	1460	asyik	
-61	1461	rindu	
-62	1462	sambung	disambung menyambung
-63	1463	kencing	
-64	1464	angkatan	seangkatan
-65	1465	kambing	kambingku kambingnya
-66	1466	lori	
-67	1467	satelit	satelitku satelitmu satelitnya
-68	1468	ejen	
-69	1469	gemuk	
-70	1470	lantai	lantaiku lantaimu lantainya
-71	1471	berdarah	
-72	1472	tasik	tasiknya
-73	1473	tanjung	tanjong
-74	1474	niat	niatku niatmu niatnya
-75	1475	doa	
-76	1476	utusan	utusanku utusanmu utusannya
-77	1477	kehendak	
-78	1478	kelahiran	kelahiranku kelahiranmu kelahirannya
-79	1479	unik	
-80	1480	kejutan	kejutanku kejutannya
-81	1481	kongsi	kongsiku kongsinya
-82	1482	matematik	
-83	1483	surah	
-84	1484	ikat	diikat ikatnya seikat
-85	1485	pejuang	pejuangnya
-86	1486	memimpin	
-87	1487	sinar	sinarku sinarmu sinarnya
-88	1488	pakej	pakejnya
-89	1489	beraksi	
-90	1490	ikatan	ikatanku ikatanmu ikatannya
-91	1491	penjelasan	
-92	1492	benarkan	
-93	1493	istilah	istilahnya
-94	1494	bencana	
-95	1495	lengan	lenganku lenganmu lengannya
-96	1496	detektif	detektifmu
-97	1497	memasak	
-98	1498	botol	botolmu botolnya
-99	1499	madu	maduku madumu madunya
-100	1500	gajah	gajahnya
+1	1401	bosan	bosankah bosankan bosanlah bosannya membosan membosankan membosankanlah membosankanmu
+2	1402	lompat	lompati lompatlah lompatnya melompat melompati melompatinya melompatkah melompatlah melompatnya
+3	1403	puasa	berpuasa berpuasalah berpuasanya dipuasa dipuasakan puasanya
+4	1404	perlahan	diperlahan diperlahankan memerlahankan memperlahan memperlahankan memperlahankannya perlahankan perlahankannya perlahanlah perlahannya
+5	1405	murah	bermur bermurah dimurahkan memurahkan memurahkannya mur murahkah murahkan murahlah murahnya muri
+6	1406	alah	alahi beralah dialah dialahkan mengalah mengalahlah mengalahnya
+7	1407	virus	bervirus virusnya
+8	1408	jeneral	jeneralkah
+9	1409	siti	
+10	1410	do	doh dowh
+11	1411	tampil	ditampil ditampilkan menampil menampilkan menampilkannya tampilkan tampilkanlah tampillah
+12	1412	kerosakan	kerosakannya
+13	1413	peta	dipeta dipetakan memeta memetakan memetakannya petakan petaku petanya
+14	1414	raih	diraih diraihnya meraih meraihkan meraihku meraihnya raihlah
+15	1415	kelakar	berkelakar kelakarlah kelakarnya
+16	1416	motosikal	bermotokan bermotosikal moto motoku motonya motosikalnya
+17	1417	had	dihad dihadkan hadi hadkan hadnya mengehadkan mengehadkannya menghad menghadkan
+18	1418	kemukakan	dikemukakan dikemukakannya kemukakannya mengemukakan mengemukakannya
+19	1419	titik	bertitik dititik menitik menitikkan titiknya
+20	1420	lembaga	dilembagakan lembaganya
+21	1421	angkasa	angkasamu angkasanya diangkasa diangkasakan mengangkasa mengangkasakan
+22	1422	jarang	jarangkan jaranglah jarangnya menjarangkan
+23	1423	ikat	berikat diikat diikatkan diikatnya ikatkan ikatkannya ikatlah ikatnya mengikat mengikatkan mengikatkanku mengikatkannya mengikatku mengikatmu mengikatnya mengikatnyakah seikat
+24	1424	tari	menari menarikan menariku menarilah menarinya tarikah tarimu tarinya
+25	1425	mengerti	dimengerti dimengertikan mengertikan mengertilah mengertimu
+26	1426	tembakan	ditembakan menembakan tembakanku tembakanmu tembakannya
+27	1427	mahupun	
+28	1428	sengaja	bersengaja disengaja disengajakan sengajakan sengajalah sengajanya
+29	1429	saiz	bersaiz saiznya
+30	1430	sembuh	disembuh disembuhkan menyembuh menyembuhkan menyembuhkanku menyembuhkanmu menyembuhkannya sembuhkan sembuhkanlah sembuhkannya sembuhlah
+31	1431	dana	danai danaku dananya didana didanai mendana mendanai mendanaiku
+32	1432	sesetengah	sesetengahnya
+33	1433	jejak	berjejak dijejak dijejaki dijejakinya jejaki jejakinya jejakkan jejakku jejakmu jejaknya jejakpun menjejak menjejaki menjejakinya menjejakkan menjejakku menjejaknya
+34	1434	ribu	
+35	1435	comel	comelkan comelku comellah comelnya
+36	1436	perumahan	perumahannya
+37	1437	merdeka	dimerdekakan memerdekakan memerdekakannya merdekakan merdekakanlah merdekalah
+38	1438	pisah	berpisah berpisahkah berpisahlah berpisahnya dipisah dipisahkan memisah memisahkan memisahkanmu memisahkannya pisahkan pisahkanlah pisahkannya
+39	1439	pemeriksaan	pemeriksaannya
+40	1440	komuniti	berkomuniti komunitinya
+41	1441	dendam	berdendam dendamkah dendamku dendammu dendamnya mendendam mendendami
+42	1442	penjaga	penjagaku penjagamu penjaganya
+43	1443	organisasi	berorganisasi diorganisasikan mengorganisasi mengorganisasikan organisasiku organisasimu organisasinya
+44	1444	awas	awasi awasilah awasimu awasinya awaslah berawas diawasi mengawas mengawasi mengawasiku mengawasimu mengawasinya
+45	1445	lembu	diperlembu lembuku lembunya
+46	1446	kotor	dikotori dikotorkan kotori kotorkan kotorkannya kotorlah kotormu kotornya mengotor mengotori mengotorinya mengotorkan mengotorkannya
+47	1447	cawangan	cawangannya
+48	1448	prestasi	berprestasi prestasiku prestasimu prestasinya
+49	1449	lembut	berlembut berlembutkah berlembutlah dilembutkan lembutkan lembutkannya lembutku lembutlah lembutmu lembutnya melembut melembutkan melembutkannya
+50	1450	suasana	bersuasana suasanalah suasananya
+51	1451	atur	aturkan aturkanlah aturkannya aturlah aturnya diatur diaturkan diaturnya mengatur mengaturkan mengaturkannya mengaturku mengaturmu mengaturnya
+52	1452	suspek	disuspek suspekku suspeknya
+53	1453	pekan	dipekan pekankah pekanku pekanmu pekannya
+54	1454	bot	botnya dibot
+55	1455	akses	aksesi akseskan aksesnya diakses mengakses mengakseskan mengakseskannya mengaksesnya
+56	1456	terbunuh	terbunuhnya
+57	1457	terbit	diterbit diterbitkan diterbitkannya menerbit menerbitkan menerbitkannya terbitkan terbitkannya terbitlah terbitnya
+58	1458	kacau	dikacau dikacaukan kacaukan kacaulah kacaunya mengacau mengacaukan mengacaukanmu mengacaukannya mengacaunya
+59	1459	ujar	berujar diujarkan mengujarkan ujarnya
+60	1460	niat	berniat berniatlah diniat diniatkan diniatkannya meniatkan meniatkannya niatkan niatku niatmu niatnya
+61	1461	nasi	dinasi nasiku nasimu nasinya
+62	1462	peningkatan	peningkatannya
+63	1463	profesor	profesornya
+64	1464	tumpuan	tumpuanku tumpuanmu tumpuannya
+65	1465	lautan	dilautan lautanlah lautannya
+66	1466	patuh	dipatuh dipatuhi mematuhi mematuhiku mematuhimu mematuhinya patuhi patuhilah patuhlah
+67	1467	tandatangan	bertandatangan ditandatangan ditandatangani ditandatanganinya menandatangan menandatangani menandatanganinya tandatangani tandatanganinya tandatanganlah tandatanganmu tandatangannya
+68	1468	pengajaran	pengajarannya
+69	1469	lesen	berlesen dilesen dilesenkan lesenkan lesenku lesenmu lesennya melesenkan
+70	1470	pertanyaan	pertanyaanku pertanyaanmu pertanyaannya
+71	1471	jerit	dijerit jeritkah jeritkan jeritlah jeritnya menjerit menjeritlah menjeritnya
+72	1472	amanah	amanahkan amanahnya beramanah diamanah diamanahkan mengamanahkan
+73	1473	rakaman	rakamanku rakamannya
+74	1474	penyokong	penyokongmu penyokongnya
+75	1475	puak	berpuak memuakkan puaknya
+76	1476	garis	bergaris digaris digariskan gariskan garisnya menggaris menggariskan
+77	1477	catat	catatkan catatkannya catatlah catatnya dicatat dicatatkan dicatatkannya dicatatnya mencatat mencatatkan mencatatkannya mencatatnya
+78	1478	gua	guai guaku guanya
+79	1479	letupan	diletupan letupannya
+80	1480	ajak	ajaklah ajaknya diajak diajaknya mengajak mengajakku mengajakmu mengajaknya
+81	1481	sinar	bersinar bersinarlah bersinarnya disinari disinarkan menyinar menyinari menyinariku menyinarinya menyinarkan sinari sinarilah sinarkan sinarku sinarmu sinarnya
+82	1482	kilang	dikilang dikilangkan kilangku kilangnya mengilang mengilangnya
+83	1483	gol	goli golnya
+84	1484	ulama	ulamanya
+85	1485	panduan	panduanku panduanmu panduannya
+86	1486	modal	bermodal bermodalkan dimodali dimodalkan dipermodalkan modalnya modalpun
+87	1487	pertemuan	pertemuanku pertemuanmu pertemuannya
+88	1488	rawat	dirawat dirawati dirawatnya merawat merawati merawatku merawatmu merawatnya rawati rawatinya rawatkan rawatlah rawatnya
+89	1489	pemikiran	berpemikiran pemikiranku pemikiranmu pemikirannya
+90	1490	artikel	artikelku artikelmu artikelnya
+91	1491	batal	batalkah batalkan batalkannya batallah batalnya dibatal dibatalkan membatal membatalkan membatalkannya
+92	1492	jamin	berjamin dijamin dijaminkan jaminkan jaminnya menjamin menjaminkan menjaminku menjaminmu menjaminnya
+93	1493	pahlawan	pahlawanku pahlawanmu pahlawannya
+94	1494	amaran	amarankan amarannya
+95	1495	promosi	dipromosi dipromosikan mempromosi mempromosikan mempromosikanmu mempromosikannya mempromosinya promosikan promosiku promosimu promosinya
+96	1496	meskipun	
+97	1497	ancaman	ancamannya diancaman
+98	1498	gereja	gerejaku gerejamu gerejanya
+99	1499	kagum	dikagumi dikaguminya dikagumkan kagumi kagumilah kaguminya kagumkan kagumlah kagumnya mengagum mengagumi mengagumimu mengaguminya mengagumkan mengkagumi mengkagumkan
+100	1500	kebebasan	kebebasanku kebebasanlah kebebasanmu kebebasannya

@@ -1,100 +1,100 @@
-1	1601	helo	
-2	1602	serigala	serigalanya
-3	1603	hangat	
-4	1604	korban	
-5	1605	laku	
-6	1606	agaknya	
-7	1607	keberanian	keberanianku keberanianmu keberaniannya
-8	1608	sarapan	sarapanku sarapanmu sarapannya
-9	1609	lembah	lembahnya
-10	1610	pengaruh	pengaruhmu pengaruhnya
-11	1611	pangkat	pangkatmu pangkatnya
-12	1612	bahu	bahuku bahumu bahunya
-13	1613	ketinggalan	
-14	1614	atur	mengatur
-15	1615	ijazah	ijazahnya
-16	1616	inovasi	inovasinya
-17	1617	pengetua	pengetuanya
-18	1618	penolong	
-19	1619	faedah	faedahnya
-20	1620	majoriti	majoritinya
-21	1621	yayasan	
-22	1622	kubur	kuburku kuburmu kuburnya
-23	1623	pensyarah	pensyarahnya
-24	1624	sarah	
-25	1625	gigit	digigit menggigit
-26	1626	siasat	
-27	1627	kasihan	kesian sian
-28	1628	senyum	
-29	1629	pencuri	pencurimu pencurinya
-30	1630	kelak	
-31	1631	cipta	
-32	1632	sarjan	sarjanku
-33	1633	pelatih	pelatihku pelatihmu pelatihnya
-34	1634	long	longku longnya
-35	1635	jaringan	jaringanku jaringannya
-36	1636	ganggu	
-37	1637	rela	relaku relanya
-38	1638	fasa	
-39	1639	syabas	
-40	1640	menderita	
-41	1641	reka	
-42	1642	memalukan	
-43	1643	asap	asapmu asapnya
-44	1644	bercinta	
-45	1645	mahasiswa	mahasiswanya mahasiswi
-46	1646	tempahan	
-47	1647	musnah	
-48	1648	gred	grednya
-49	1649	bagaikan	
-50	1650	busuk	
-51	1651	menolong	
-52	1652	rokok	rokokku rokokmu rokoknya
-53	1653	penutup	penutupnya
-54	1654	puntianak	pontianak
-55	1655	fahami	difahami
-56	1656	televisyen	televisyenku televisyennya
-57	1657	lorong	lorongmu lorongnya
-58	1658	teksi	teksiku teksimu teksinya
-59	1659	berenang	
-60	1660	bising	
-61	1661	membersihkan	
-62	1662	maklum	
-63	1663	sesat	
-64	1664	terfikir	
-65	1665	kekayaan	kekayaanku kekayaanmu kekayaannya
-66	1666	laki	
-67	1667	mengancam	diancam
-68	1668	memantau	
-69	1669	kejuruteraan	kejuruteraannya
-70	1670	angka	angkamu angkanya
-71	1671	seberang	
-72	1672	staf	
-73	1673	budi	budimu budinya
-74	1674	bincang	
-75	1675	goreng	
-76	1676	adat	adatnya
-77	1677	semenanjung	
-78	1678	johan	
-79	1679	catatan	
-80	1680	awang	awangku
-81	1681	tiang	tiangnya
-82	1682	bagitahu	bagitau
-83	1683	niaga	berniaga niaganya
-84	1684	dingin	
-85	1685	leftenan	leftenannya
-86	1686	badminton	
-87	1687	gelombang	gelombangnya
-88	1688	gelanggang	
-89	1689	perayaan	perayaanmu perayaannya
-90	1690	kuih	kuihnya
-91	1691	nelayan	nelayannya
-92	1692	otot	ototku ototmu ototnya
-93	1693	hulu	hulunya
-94	1694	jahanam	jahanamnya
-95	1695	gergasi	
-96	1696	bomba	
-97	1697	mengandung	
-98	1698	transformasi	
-99	1699	karang	dikarang karangnya mengarang
-100	1700	kerugian	kerugiannya
+1	1601	rai	dirai diraikan diraikannya merai meraikan meraikannya raikan raikanlah raikannya
+2	1602	timbang	bertimbang dipertimbang dipertimbangkan ditimbang ditimbangkan mempertimbang mempertimbangkan mempertimbangkanku mempertimbangkannya menimbang menimbangkan menimbangkannya menimbangnya pertimbangkan pertimbangkanlah pertimbangkannya timbangkan timbanglah timbangnya
+3	1603	keamanan	keamananku keamananmu keamanannya
+4	1604	kesedaran	berkesedaran kesedarannya
+5	1605	dolar	dolarku dolarmu dolarnya
+6	1606	imej	berimej berimejkan imejku imejnya
+7	1607	rasuah	berasuah dirasuah merasuah rasuahnya
+8	1608	hadis	hadisnya hadith
+9	1609	zon	dizonkan menzonkan
+10	1610	cuaca	bercuaca cuacanya
+11	1611	gangguan	gangguannya
+12	1612	cabar	cabarku cabarlah dicabar mencabar mencabarkan mencabarku mencabarnya
+13	1613	elok	diperelokkan elokkah eloklah eloknya memperelok memperelokkan memperelokkannya mengelokkan
+14	1614	tukang	bertukang menukang
+15	1615	contohnya	
+16	1616	zakat	berzakat berzakatlah dizakat dizakati dizakatkan menzakatkan zakatnya
+17	1617	kem	dikem kemi kemnya
+18	1618	kain	berkain kaini kainkah kainku kainnya
+19	1619	kerap	kerapkah kerapkan kerapnya mengerap
+20	1620	bengkel	bengkelnya berbengkel dibengkel dibengkelkan
+21	1621	mahal	dimahalkan mahali mahallah mahalnya mahalpun
+22	1622	tikus	menikus tikuslah tikusnya
+23	1623	pengangkutan	pengangkutanku pengangkutannya
+24	1624	helikopter	helikoptermu helikopternya
+25	1625	kebakaran	kebakaranku kebakarannya
+26	1626	fizikal	berfizikal fizikalku fizikalnya
+27	1627	balai	balainya dibalai
+28	1628	serupa	menyerupai menyerupaimu menyerupainya menyerupakan serupalah serupanya
+29	1629	ketat	diketatkan diperketat diperketatkan ketatkah ketatkan ketatlah ketatnya memperketat memperketatkan mengetat mengetatkan perketatkan
+30	1630	kacang	kacangkah kacangku kacanglah kacangnya
+31	1631	pingat	pingatku pingatlah pingatnya
+32	1632	kamus	kamusku kamusnya
+33	1633	lampau	dilampaui lampaunya melampau melampaui melampauimu melampauinya melampaulah melampaunya
+34	1634	beban	bebankan bebanku bebanmu bebannya dibeban dibebani dibebankan membeban membebani membebaniku membebanimu membebankan membebankannya
+35	1635	kering	dikering dikeringkan keringkan keringkannya keringku keringnya mengering mengeringkan mengeringkannya
+36	1636	kait	berkait dikait dikaitkan kaitkan kaitkannya kaitmu kaitnya mengait mengaitkan mengaitkannya mengaitnya mengkaitkan
+37	1637	papan	berpapan papanmu papannya
+38	1638	kegagalan	kegagalanmu kegagalannya
+39	1639	kelemahan	kelemahanku kelemahanmu kelemahannya
+40	1640	dada	berdada dadakan dadaku dadamu dadanya didada didadamu didadanya
+41	1641	berdekatan	berdekatannya
+42	1642	persekitaran	berpersekitaran dipersekitaran persekitarannya
+43	1643	babit	babitkan dibabitkan membabit membabitkan membabitkannya
+44	1644	institut	instituti
+45	1645	penyertaan	penyertaannya
+46	1646	kenangan	kenanganku kenanganmu kenangannya
+47	1647	potensi	berpotensi berpotensinya potensiku potensinya
+48	1648	penyelesaian	penyelesaiannya
+49	1649	pinggang	berpinggang dipinggang dipinggangmu pinggangku pinggangmu pinggangnya
+50	1650	pendekatan	pendekatanku pendekatanmu pendekatannya
+51	1651	takjub	menakjubkan menakjubkannya
+52	1652	aneh	anehkah anehmu anehnya anehpun menganehkan
+53	1653	kampus	dikampus kampusku kampusnya
+54	1654	lucu	lucukah lucukan luculah lucumu lucunya lucupun melucu melucukan meluculah
+55	1655	coklat	bercoklat cokelat coklatku coklatnya mencoklatkan
+56	1656	usahawan	usahawannya
+57	1657	kelmarin	kemarin
+58	1658	semata	
+59	1659	kerjaya	bekerjaya berkerjaya kerjayaku kerjayamu kerjayanya
+60	1660	penyanyi	penyanyinya
+61	1661	stadium	
+62	1662	leher	berleher dileher dilehermu dilehernya leherku lehermu lehernya
+63	1663	kejohanan	dikejohanan
+64	1664	belas	belasnya berbelas
+65	1665	sayap	bersayap disayap sayapku sayapmu sayapnya
+66	1666	posisi	diposisi diposisikan diposisiku diposisimu memposisikan posisikan posisiku posisimu posisinya
+67	1667	iklan	beriklan diiklan diiklankan iklankan iklankannya iklanku iklannya mengiklan mengiklankan mengiklankannya
+68	1668	pintar	pintarkah pintarnya
+69	1669	puluh	puloh
+70	1670	kolam	berkolam dikolam kolamku kolamnya
+71	1671	patung	mematung patungku patungmu patungnya
+72	1672	liar	liarku liarlah liarnya meliar meliarkan
+73	1673	darul	
+74	1674	sisa	bersisa menyisakan sisakan sisamu sisanya
+75	1675	ternyata	ternyatalah ternyatanya
+76	1676	nikah	bernikah bernikahlah dinikahi dinikahinya dinikahkan menikah menikahi menikahiku menikahimu menikahinya menikahkan menikahkanku menikahkanmu menikahkannya menikahku menikahlah menikahpun nikahi nikahilah nikahkan nikahnya
+77	1677	kimia	berkimia kimianya
+78	1678	aset	asetkan asetku asetnya
+79	1679	pentas	dipentas dipentaskan mementaskan mementaskannya pentaskan pentasnya
+80	1680	lukisan	dilukisan lukisanku lukisanmu lukisannya
+81	1681	kong	kongi
+82	1682	raksasa	raksasanya
+83	1683	negatif	negatiflah negatifmu negatifnya
+84	1684	keliling	berkeliling berkelilinglah dikeliling dikelilingi dikelilingnya kelilingi kelilinginya kelilingku kelilingnya mengeliling mengelilingi mengelilingimu mengelilinginya
+85	1685	bulu	buluku bulumu bulunya
+86	1686	insan	insani insannya menginsankan
+87	1687	lawak	berlawak lawakkah lawakkan lawakku lawaklah lawaknya melawak melawakkah melawakkan melawaklah
+88	1688	makin	
+89	1689	kediaman	berkediaman dikediaman kediamanku kediamanmu kediamannya
+90	1690	padam	dipadam dipadamkah dipadamkan memadam memadamkan memadamkannya memadamnya padamkan padamkannya padamlah padamnya
+91	1691	roh	rohku rohmu rohnya
+92	1692	keturunan	berketurunan keturunanku keturunanmu keturunannya
+93	1693	pertumbuhan	pertumbuhannya
+94	1694	wartawan	wartawanlah wartawannya
+95	1695	pesanan	pesananku pesananmu pesanannya
+96	1696	teliti	diteliti meneliti menelitinya menteliti telitikan telitilah telitinya
+97	1697	skuad	skuadnya
+98	1698	emosi	beremosi emosiku emosimu emosinya
+99	1699	gaduh	bergaduh bergaduhlah bergaduhnya gaduhkah gaduhkan
+100	1700	jiran	berjiran berjirankan jiranku jiranmu jirannya

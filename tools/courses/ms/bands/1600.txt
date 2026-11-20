@@ -1,100 +1,100 @@
-1	1501	cincin	cincinku cincinmu cincinnya
-2	1502	muzium	muziumnya
-3	1503	nakal	
-4	1504	keganasan	keganasannya
-5	1505	keupayaan	keupayaanku keupayaannya
-6	1506	bajet	bajetnya
-7	1507	pelancong	pelancongmu
-8	1508	beban	bebanku bebanmu bebannya
-9	1509	puncak	
-10	1510	harimau	harimauku harimaunya rimau
-11	1511	memperoleh	
-12	1512	agenda	agendamu agendanya
-13	1513	jurulatih	jurulatihku jurulatihnya
-14	1514	mengisi	
-15	1515	upacara	upacaranya
-16	1516	fakulti	
-17	1517	bumbung	bumbungnya
-18	1518	lawak	
-19	1519	pusing	
-20	1520	pemburu	
-21	1521	perisian	perisiannya
-22	1522	kejahatan	kejahatanku kejahatanmu kejahatannya
-23	1523	kanser	kansernya
-24	1524	rujukan	
-25	1525	tiap	
-26	1526	semenjak	
-27	1527	simpang	simpangnya
-28	1528	monyet	monyetku
-29	1529	tahunan	
-30	1530	layar	belayar layarku layarmu layarnya
-31	1531	atlet	atlit
-32	1532	lompat	
-33	1533	tegas	
-34	1534	penjenayah	
-35	1535	paras	parasnya
-36	1536	peria	pria
-37	1537	kitab	kitabmu kitabnya
-38	1538	bernafas	
-39	1539	berkualiti	
-40	1540	membesar	
-41	1541	tumbuh	
-42	1542	biji	bijik bijiku bijimu bijinya sebiji
-43	1543	jalur	jalurmu jalurnya
-44	1544	ingatan	
-45	1545	tunggal	
-46	1546	diikuti	
-47	1547	abad	
-48	1548	penat	
-49	1549	kuil	kuilmu kuilnya
-50	1550	bayang	bayangan bayangku bayangmu bayangnya
-51	1551	merokok	
-52	1552	trak	trakmu traknya
-53	1553	pemberian	
-54	1554	tingkap	tingkapnya
-55	1555	sepertinya	
-56	1556	mi	mee miku
-57	1557	senyap	
-58	1558	keterangan	
-59	1559	halal	
-60	1560	pagar	pagarnya
-61	1561	kebal	
-62	1562	unsur	unsurnya
-63	1563	penjagaan	penjagaanku penjagaanmu penjagaannya
-64	1564	asa	asanya
-65	1565	tahi	taik
-66	1566	kegemaran	kegemaranku kegemaranmu kegemarannya
-67	1567	asrama	
-68	1568	suhu	suhunya
-69	1569	suruhanjaya	
-70	1570	struktur	
-71	1571	beradik	
-72	1572	diraja	
-73	1573	racun	racunmu racunnya
-74	1574	sarjana	sarjananya
-75	1575	perasan	
-76	1576	puas	
-77	1577	hancur	
-78	1578	topi	topiku topimu topinya
-79	1579	rayuan	rayuanku rayuannya
-80	1580	tengku	
-81	1581	realiti	realitinya
-82	1582	tim	
-83	1583	bererti	
-84	1584	seketika	
-85	1585	pemerintah	pemerintahnya
-86	1586	sen	sennya
-87	1587	inisiatif	
-88	1588	bab	
-89	1589	serupa	
-90	1590	kedatangan	kedatanganku kedatanganmu kedatangannya
-91	1591	kelapa	kelapanya
-92	1592	tabung	tabungmu tabungnya
-93	1593	warisan	
-94	1594	mewah	
-95	1595	beza	bezanya
-96	1596	tekan	
-97	1597	perisai	perisaiku perisaimu perisainya
-98	1598	muat	
-99	1599	halus	
-100	1600	pelabuhan	
+1	1501	melainkan	melainkanlah
+2	1502	letup	diletupkan letupkan letupkannya letupnya meletup meletupkan meletupkannya meletuplah meletupnya
+3	1503	klinik	diklinik kliniknya
+4	1504	hasrat	berhasrat dihasrat dihasratkan hasratkan hasratku hasratnya
+5	1505	upaya	berupaya berupayalah diupayakan mengupaya mengupayakan mengupayakannya upayakan upayaku upayanya
+6	1506	kasar	berkasar dikasari dikasarkan kasarku kasarlah kasarnya mengasari mengasarinya mengkasari
+7	1507	ais	aisi aisnya berais mengais
+8	1508	binatang	binatangkah binatangku binatangmu binatangnya
+9	1509	jambatan	berjambatan jambatannya
+10	1510	ringan	diringankan meringan meringankan meringankanku ringankan ringankanlah ringankannya ringanmu ringannya
+11	1511	siang	disiang menyiang menyiangnya siangkah siangku sianglah siangmu siangnya
+12	1512	papa	papaku papamu papanya
+13	1513	profesional	berprofesional memprofesionalkan profesionalku profesionalmu profesionalnya profesionalpun
+14	1514	fakta	berfakta faktamu faktanya
+15	1515	sumbang	disumbang disumbangkan menyumbang menyumbangkan menyumbangkannya sumbangkan sumbanglah sumbangnya
+16	1516	kelajuan	berkelajuan kelajuanku kelajuanmu kelajuannya
+17	1517	ratu	beratu ratuku ratumu ratunya
+18	1518	nafi	dinafi dinafikan dinafikannya menafi menafikan menafikannya nafikan nafikannya nafilah
+19	1519	larang	dilarang dilarangnya larangnya melarang melarangku melarangmu melarangnya
+20	1520	pengundi	pengundinya
+21	1521	alamak	
+22	1522	terlambat	terlambatkan terlambatmu terlambatnya
+23	1523	reka	bereka direka direkakan direkanya rekakan rekanya
+24	1524	rakam	dirakam dirakamkan dirakamnya merakam merakamkan merakamkannya merakamnya rakamkan rakamkannya rakamlah rakamnya
+25	1525	taraf	bertaraf ditaraf ditarafkan tarafkan tarafnya
+26	1526	penumpang	berpenumpang penumpangnya
+27	1527	kirim	berkirim dikirim dikirimi dikirimkan dikirimkannya kirimi kirimkan kirimkanlah kirimkannya kirimlah kirimnya mengirim mengirimi mengirimiku mengirimimu mengirimkan mengirimkanku mengirimkanmu mengirimkannya mengirimku mengirimmu mengirimnya
+28	1528	pencapaian	berpencapaian pencapaianmu pencapaiannya
+29	1529	racun	beracun beracunku beracunnya diracun diracuni diracunkan meracun meracuni meracunimu meracuninya meracunkan meracunku racuni racuninya racunkan racunmu racunnya
+30	1530	katil	dikatil katilku katilmu katilnya
+31	1531	ladang	berladang diladang diladangku ladangku ladangmu ladangnya
+32	1532	rencana	berencana direncana direncanakan merencana merencanakan merencanakannya rencanakan rencanaku rencanamu rencananya
+33	1533	halaman	dihalaman halamanku halamanmu halamannya
+34	1534	tarian	bertarian tarianku tarianmu tariannya
+35	1535	pengunjung	pengunjungnya
+36	1536	suku	bersuku sukuku sukunya
+37	1537	polisi	polisiku polisimu polisinya
+38	1538	tema	bertema bertemakan temai temanya
+39	1539	pesta	berpesta berpestalah berpestanya dipesta dipestaku pestaku pestamu pestanya
+40	1540	simpanan	simpananku simpananmu simpanannya
+41	1541	puisi	berpuisi puisiku puisimu puisinya
+42	1542	kelebihan	berkelebihan kelebihanku kelebihanmu kelebihannya
+43	1543	cita	bercita citakan citaku citalah citamu citanya dicita dicitakan
+44	1544	renang	berenang berenanglah merenangi renangku renangmu renangnya
+45	1545	minda	berminda diminda meminda memindai memindakan memindanya mindaku mindamu mindanya
+46	1546	pura	berpura
+47	1547	pertempuran	pertempuranku pertempuranmu pertempurannya
+48	1548	ikutan	berikutan berikutannya
+49	1549	belanja	belanjakan belanjakanlah belanjakannya belanjaku belanjamu belanjanya berbelanja berbelanjalah dibelanja dibelanjakan dibelanjakannya membelanja membelanjakan membelanjakannya membelanjamu
+50	1550	kepimpinan	berkepimpinan kepimpinanku kepimpinannya
+51	1551	keuntungan	keuntunganku keuntunganmu keuntungannya
+52	1552	pos	dipos diposkan mengepos mengeposkan poskan poskannya posku posmu posnya
+53	1553	van	vani vanku vannya
+54	1554	aplikasi	aplikasikan aplikasikannya aplikasiku aplikasinya diaplikasi diaplikasikan mengaplikasi mengaplikasikan mengaplikasikannya
+55	1555	syaitan	syaitanmu syaitannya
+56	1556	sesungguhnya	
+57	1557	semak	bersemak disemak menyemak menyemakkan menyemaknya semakkan semaklah semaknya
+58	1558	terjemah	diterjemah diterjemahkan menerjemah menerjemahkan menerjemahkannya menterjemah menterjemahkan menterjemahkannya menterjemahnya terjemahkan terjemahkannya
+59	1559	naib	naibnya
+60	1560	siar	bersiar disiar disiarkan menyiar menyiarkan menyiarkannya siarkan siarkannya
+61	1561	roti	beroti rotikah rotiku rotimu rotinya
+62	1562	telinga	bertelinga ditelinga ditelingaku telingaku telingamu telinganya
+63	1563	mesra	bermesra bermesralah memesrakan mesrakah mesrakan mesranya
+64	1564	ahad	ahadi ahadlah ahadnya wahid wahidi
+65	1565	hiburan	berhiburan hiburannya
+66	1566	penilaian	penilaianku penilaianmu penilaiannya
+67	1567	se	sa
+68	1568	kala	berkala dikala kalai kalaku kalanya mengala mengalakan
+69	1569	pimpin	berpimpin dipimpin dipimpini dipimpinnya memimpin memimpinku memimpinmu memimpinnya pimpini pimpinlah pimpinnya
+70	1570	sulit	dipersulit dipersulitkan disulitkan mempersulit mempersulitkan menyulitkan menyulitkanku menyulitkanmu menyulitkannya sulitkan sulitku sulitlah sulitnya
+71	1571	sang	
+72	1572	tandas	ditandas tandasnya
+73	1573	pendaftaran	berpendaftaran pendaftarannya
+74	1574	selaras	diselaras diselaraskan menyelaras menyelaraskan menyelaraskannya selaraskan selaraslah
+75	1575	seberang	diseberang diseberangi diseberangnya menyeberang menyeberangi menyeberanginya menyeberangkan menyeberanglah seberangi seberanginya seberangkan seberangnya
+76	1576	pinjam	dipinjam dipinjamkan meminjam meminjami meminjamkan meminjamkanmu meminjamkannya meminjamnya pinjami pinjamkan pinjamkanlah pinjamkannya pinjamnya
+77	1577	terasa	terasakah
+78	1578	kejam	kejamkah kejamlah kejamnya
+79	1579	teori	berteori teorikan teoriku teorilah teorimu teorinya
+80	1580	sempat	menyempatkan sempatkan sempatkanlah sempatlah
+81	1581	ustaz	asatizah
+82	1582	kejut	dikejutkan kejutkan kejutkannya kejutlah mengejut mengejutkan mengejutkanku mengejutkanmu mengejutkannya mengejutmu mengejutnya
+83	1583	blok	berblok bloknya diblok memblok
+84	1584	batang	batangnya berbatang sebatang
+85	1585	kuning	kuningmu kuningnya menguning
+86	1586	rangkaian	berangkaian rangkaiannya
+87	1587	strategi	berstrategi strategimu strateginya
+88	1588	jemaah	berjemaah jemaahnya
+89	1589	pameran	dipameran pamerannya
+90	1590	segar	disegarkan menyegar menyegarkan menyegarkannya segari segarkan segarnya
+91	1591	kecemasan	kecemasannya
+92	1592	pusing	berpusing berpusinglah dipusing dipusingkan memusing memusingkan memusingkanmu memusingkannya memusingnya pusingkan pusingkannya pusingku pusinglah pusingnya
+93	1593	buta	butakah butakan butakanku butakannya butamu butanya dibutakan membuta membutakan membutakannya
+94	1594	hakikat	hakikatnya
+95	1595	lakon	berlakon berlakonlah dilakonkan dilakonkannya lakonkan lakonkannya melakonkan melakonkannya
+96	1596	bertuah	bertuahku bertuahlah bertuahmu bertuahnya
+97	1597	akademik	akademiknya
+98	1598	pangkalan	berpangkalan dipangkalan pangkalannya
+99	1599	mabuk	dimabukkan mabukkah mabukkan mabuklah mabuknya memabukkan
+100	1600	babi	babiku babinya membabi

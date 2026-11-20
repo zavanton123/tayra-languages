@@ -1,100 +1,100 @@
-1	1701	arus	arusnya
-2	1702	ajaran	
-3	1703	perlembagaan	perlembagaannya
-4	1704	jauhkan	
-5	1705	mel	
-6	1706	majalah	majalahku majalahmu majalahnya
-7	1707	garam	garamku garamnya
-8	1708	singkat	
-9	1709	e-mel	emel
-10	1710	bercuti	
-11	1711	saraf	sarafmu sarafnya sarap
-12	1712	pemulihan	
-13	1713	seribu	
-14	1714	insurans	insuransnya
-15	1715	sabda	bersabda sabdanya
-16	1716	sekalipun	
-17	1717	paip	
-18	1718	selaras	
-19	1719	turunkan	
-20	1720	pengorbanan	
-21	1721	pisang	pisangnya
-22	1722	halang	
-23	1723	dilarang	
-24	1724	lapisan	
-25	1725	kebahagiaan	kebahagiaanku kebahagiaanmu kebahagiaannya
-26	1726	seram	seramnya
-27	1727	padi	padinya
-28	1728	jenama	
-29	1729	jejak	
-30	1730	mental	
-31	1731	pembeli	pembelinya
-32	1732	kemarahan	kemarahanku kemarahanmu kemarahannya
-33	1733	kemasukan	
-34	1734	had	
-35	1735	mematuhi	
-36	1736	roda	
-37	1737	najis	
-38	1738	perangkap	perangkapku perangkapnya
-39	1739	dorong	didorong mendorong
-40	1740	persediaan	
-41	1741	gejala	gejalanya
-42	1742	lirik	liriknya
-43	1743	beruang	beruangku beruangnya
-44	1744	teluk	teluknya
-45	1745	kecantikan	kecantikanku kecantikanmu kecantikannya
-46	1746	penjahat	penjahatnya
-47	1747	pandu	
-48	1748	panah	memanah panahku panahmu panahnya
-49	1749	bawang	bawangnya
-50	1750	bohong	
-51	1751	binti	
-52	1752	simbol	simbolnya
-53	1753	putar	berputar
-54	1754	fesyen	fesyennya
-55	1755	kembar	kembarku kembarmu kembarnya
-56	1756	sepupu	sepupuku sepupumu sepupunya
-57	1757	basikal	basikalku basikalnya
-58	1758	proton	
-59	1759	induk	induknya
-60	1760	jurutera	juruteranya
-61	1761	jentera	jenteranya
-62	1762	kebetulan	
-63	1763	cucu	cucuku cucumu cucunya
-64	1764	batas	
-65	1765	tong	
-66	1766	urus	
-67	1767	tarikan	
-68	1768	peranti	perantinya
-69	1769	gong	
-70	1770	cenderung	
-71	1771	semak	semaknya
-72	1772	izin	izinku izinmu izinnya
-73	1773	terowong	terowongku terowongmu terowongnya
-74	1774	menduduki	diduduki
-75	1775	letih	
-76	1776	ain	ainnya
-77	1777	singa	singaku singanya
-78	1778	mainan	
-79	1779	lekas	
-80	1780	berhad	
-81	1781	ringgit	
-82	1782	teruja	
-83	1783	menanti	
-84	1784	hang	
-85	1785	lagipun	
-86	1786	hisap	dihisap menghisap
-87	1787	krisis	
-88	1788	awan	awanku awanmu awannya
-89	1789	pelumba	
-90	1790	permaisuri	permaisuriku permaisurimu permaisurinya
-91	1791	pengsan	
-92	1792	terhad	
-93	1793	kebolehan	kebolehanku kebolehanmu kebolehannya
-94	1794	pelayan	pelayanku pelayanmu pelayannya
-95	1795	rumit	
-96	1796	jantan	
-97	1797	beta	betanya
-98	1798	juruterbang	
-99	1799	mengembalikan	
-100	1800	berbual	
+1	1701	ular	ularnya
+2	1702	tuntutan	bertuntutan dituntutan tuntutanku tuntutanmu tuntutannya
+3	1703	peluk	berpeluk berpelukkan dipeluk dipelukku memeluk memelukku memelukmu memeluknya pelukkan peluklah pelukmu peluknya
+4	1704	bela	belai belailah belakan belaku belanya berbela dibela dibelai dibelanya membela membelai membelaimu membelaku membelamu membelanya
+5	1705	sekeliling	disekeliling disekelilingku disekelilingmu disekelilingnya sekelilingku sekelilingmu sekelilingnya
+6	1706	payah	memayahkan payahlah payahnya
+7	1707	papar	dipapar dipaparkan dipaparkannya memapar memaparkan memaparkannya memaparnya mempaparkan paparkan paparkannya
+8	1708	tahanan	ditahanan tahananku tahananmu tahanannya
+9	1709	keyakinan	berkeyakinan keyakinanku keyakinanmu keyakinannya
+10	1710	tanaman	tanamanku tanamanmu tanamannya
+11	1711	agen	agenku agenmu agennya
+12	1712	jelang	menjelang menjelangnya
+13	1713	naga	nagai nagakan nagaku nagamu naganya
+14	1714	aduan	aduannya
+15	1715	berhadapan	berhadapanku berhadapannya
+16	1716	bacaan	bacaanmu bacaannya
+17	1717	keinginan	berkeinginan keinginanku keinginanlah keinginanmu keinginannya
+18	1718	hayat	dihayati hayatku hayatmu hayatnya menghayati menghayatinya
+19	1719	ceramah	berceramah berceramahlah ceramahkan ceramahmu ceramahnya menceramah menceramahi menceramahiku
+20	1720	pembedahan	pembedahankah pembedahanku pembedahannya
+21	1721	sememangnya	
+22	1722	kenaikan	dikenaikan kenaikannya
+23	1723	nur	menuri
+24	1724	kecederaan	kecederaannya
+25	1725	pengeluaran	pengeluaranku pengeluarannya
+26	1726	tulisan	bertulisan tulisanku tulisanmu tulisannya
+27	1727	perpaduan	
+28	1728	perbincangan	diperbincangan perbincangannya
+29	1729	enggan	diperenggan diperenggankan
+30	1730	pisau	berpisau pisaukah pisauku pisaumu pisaunya
+31	1731	terbakar	terbakarlah
+32	1732	bisnes	berbisnes bisnesku bisnesmu bisnesnya dibisnes
+33	1733	tunduk	ditundukkan menunduk menundukkan menundukkannya tundukkan tunduklah
+34	1734	keempat	keempatnya
+35	1735	halo	
+36	1736	perdagangan	perdagangannya
+37	1737	edisi	edisinya
+38	1738	daun	berdaun daunnya
+39	1739	lintas	berlintas dilintasi lintasi lintasnya melintas melintasi melintasinya melintasnya
+40	1740	keretapi	
+41	1741	tuduhan	tuduhannya
+42	1742	anti	menganti mengantikan mengantikannya
+43	1743	ganda	diganda digandakan gandai gandakan gandakanlah gandakannya mengganda menggandakan menggandakannya
+44	1744	botol	botolkan botollah botolmu botolnya dibotol dibotolkan membotol membotolkan sebotol
+45	1745	pertolongan	pertolonganku pertolonganmu pertolongannya
+46	1746	kunjung	berkunjung berkunjunglah dikunjung dikunjungi dikunjunginya kunjungi kunjungilah mengunjung mengunjungi mengunjungiku mengunjungimu mengunjunginya
+47	1747	cium	bercium ciumlah ciummu ciumnya dicium diciumnya mencium menciumku menciummu menciumnya
+48	1748	peristiwa	peristiwanya
+49	1749	bar	bari barku barmu barnya dibar dibarmu membari
+50	1750	terkena	terkenanya
+51	1751	sejati	sejatiku sejatilah sejatimu sejatinya
+52	1752	global	globalnya
+53	1753	pelancongan	pelancongankah pelanconganmu pelancongannya
+54	1754	aliran	alirannya beraliran
+55	1755	kek	keknya mengekek
+56	1756	abad	berabad diabad seabad
+57	1757	bendera	benderalah benderamu benderanya dibenderakan
+58	1758	abai	abaikan abaikanlah abaikanmu abaikannya diabaikan mengabaikan mengabaikanku mengabaikanmu mengabaikannya
+59	1759	dalaman	dalamannya
+60	1760	kejap	kejaplah
+61	1761	malaikat	malaikatku malaikatnya
+62	1762	lemak	lemakmu lemaknya
+63	1763	pantau	dipantau memantau memantaumu memantaunya
+64	1764	getah	bergetah getahnya
+65	1765	pengantin	pengantinku pengantinmu pengantinnya
+66	1766	petunjuk	dipetunjuk petunjukkah petunjukkan petunjukmu petunjuknya petunjukpun
+67	1767	puncak	dipuncak dipuncaknya memuncak memuncakkan memuncaknya puncaknya
+68	1768	kegiatan	kegiatanku kegiatanmu kegiatannya
+69	1769	bual	berbual berbuallah bualkan bualkannya bualnya dibual dibualkan diperbualkan membual
+70	1770	wira	wiraku wiranya
+71	1771	jin	dijinkan jini jinnya
+72	1772	berhak	berhaklah
+73	1773	identiti	beridentiti beridentitikan identitiku identitimu identitinya
+74	1774	yatim	yatimmu
+75	1775	culik	culiknya diculik menculik menculikku menculikmu menculiknya
+76	1776	medan	medannya
+77	1777	keliru	dikelirukan kelirukan kelirulah mengeliru mengelirukan mengelirukannya
+78	1778	taruh	bertaruh bertaruhlah dipertaruhkan ditaruh mempertaruhkan mempertaruhkannya menaruh menaruhkan menaruhku menaruhmu menaruhnya pertaruhkan pertaruhkanlah pertaruhkannya tarok taruhkan taruhlah
+79	1779	tradisi	tradisinya
+80	1780	persidangan	dipersidangan persidanganku persidangannya
+81	1781	simpang	bersimpang disimpang menyimpang menyimpangkan simpangnya
+82	1782	pengganas	pengganasnya
+83	1783	bang	bangi
+84	1784	ketakutan	ketakutanku ketakutanmu ketakutannya
+85	1785	misteri	bermisteri misterinya
+86	1786	olah	diolah memperolah mengolah mengolahkan mengolahnya olahnya
+87	1787	sebagaimana	sebagaimananya
+88	1788	moden	dimodenkan dipermodenkan memoden memodenkan memodenkannya modenkan modennya
+89	1789	pengambilan	pengambilannya
+90	1790	wahai	
+91	1791	ipuh	ipoh
+92	1792	kaca	berkaca dikaca kacamu kacanya
+93	1793	penerangan	penerangannya
+94	1794	undangan	undanganku undanganmu undangannya
+95	1795	semestinya	semestinyalah
+96	1796	hina	dihina dihinakan diperhinakan hinai hinakah hinalah hinanya menghina menghinakan menghinaku menghinamu menghinanya
+97	1797	darjah	darjahnya derajat
+98	1798	eksekutif	eksekutifmu eksekutifnya
+99	1799	ngeri	mengeri mengerikan mengerikanmu mengerikannya ngerikah ngerikan ngerinya
+100	1800	rahim	rahimi rahimku rahimnya

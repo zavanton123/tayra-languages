@@ -1,0 +1,100 @@
+1	8301	sentak	menyentak
+2	8302	tebas	ditebas menebas
+3	8303	petala	
+4	8304	perunggu	
+5	8305	cawat	
+6	8306	penapaian	
+7	8307	fonologi	
+8	8308	filsafat	
+9	8309	lid	
+10	8310	gonggong	digonggong menggonggong
+11	8311	rencong	
+12	8312	kripton	
+13	8313	kulur	mengulur mengulurkan mengulurmu
+14	8314	cicip	cicipi dicicipi mencicipi mencicipinya
+15	8315	biduan	
+16	8316	pukang	
+17	8317	pewarisan	
+18	8318	ulun	
+19	8319	kudu	
+20	8320	ketar	ketari
+21	8321	pongsu	
+22	8322	mobilisasi	dimobilisasikan memobilisasi
+23	8323	kerengsaan	
+24	8324	konsensus	
+25	8325	tekap	ditekap menekap tekapkan
+26	8326	kuprum	
+27	8327	bulus	
+28	8328	ayak	ayakkan diayak mengayak
+29	8329	montok	memontokkan montoknya
+30	8330	pangku	berpangku dipangku dipangkunya
+31	8331	terangkum	
+32	8332	penaksiran	
+33	8333	murabahah	
+34	8334	cauvinis	
+35	8335	graha	
+36	8336	poskod	
+37	8337	kelui	
+38	8338	garasi	garasinya
+39	8339	atletik	
+40	8340	konek	
+41	8341	sakat	menyakat menyakatnya
+42	8342	sawat	sawatnya
+43	8343	kemandulan	kemandulanmu kemandulannya
+44	8344	kardiologi	
+45	8345	cef	
+46	8346	pawai	berpawai
+47	8347	kemban	berkemban
+48	8348	warkah	
+49	8349	baung	
+50	8350	martabak	
+51	8351	lengkuas	
+52	8352	psikologis	
+53	8353	kudapan	
+54	8354	seka	menyeka sekai sekalah sekamu
+55	8355	desis	mendesis
+56	8356	ligat	
+57	8357	dogol	
+58	8358	awning	awningnya
+59	8359	lempung	berlempung
+60	8360	genta	
+61	8361	berau	
+62	8362	tengkolok	
+63	8363	berudu	
+64	8364	pemasar	
+65	8365	jembalang	
+66	8366	kulup	
+67	8367	kuping	berkuping kupingnya menguping
+68	8368	iodin	
+69	8369	hulubalang	
+70	8370	tanjak	bertanjak menanjak tanjakkan
+71	8371	busa	berbusa busai busanya
+72	8372	kejituan	
+73	8373	palit	dipalit dipalitkan memalitkan memalitkannya mempalitkan
+74	8374	ngok	
+75	8375	pijar	berpijar memijarkan
+76	8376	tujah	menujah
+77	8377	kapuk	
+78	8378	asu	
+79	8379	tenggiling	
+80	8380	morfem	
+81	8381	plasenta	
+82	8382	sendat	
+83	8383	kekabu	
+84	8384	kubus	kubusnya
+85	8385	perasuah	
+86	8386	kependekan	
+87	8387	keamatan	
+88	8388	rimbun	merimbun
+89	8389	slanga	
+90	8390	sahaya	sahayanya
+91	8391	selenium	
+92	8392	kelemumur	berkelemumur
+93	8393	pupil	
+94	8394	empang	
+95	8395	koku	
+96	8396	semberono	
+97	8397	perencah	
+98	8398	ef	
+99	8399	ubin	
+100	8400	manipulatif	

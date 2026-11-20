@@ -1,100 +1,100 @@
-1	6101	bongak	
-2	6102	buni	
-3	6103	cenerai	
-4	6104	debab	
-5	6105	dilah	
-6	6106	fidah	
-7	6107	hurung	
-8	6108	kebaharuan	
-9	6109	lepu	
-10	6110	loka	
-11	6111	nawa	
-12	6112	pampang	
-13	6113	panggau	
-14	6114	sadin	
-15	6115	tulai	
-16	6116	ambin	
-17	6117	artropod	
-18	6118	autokrat	
-19	6119	banar	
-20	6120	bendalu	
-21	6121	berderma	
-22	6122	ceongsam	
-23	6123	contohkan	
-24	6124	dekolonisasi	
-25	6125	masamkan	dimasamkan
-26	6126	menyuratkan	disuratkan
-27	6127	ekabahasa	
-28	6128	farsakh	
-29	6129	gamer	
-30	6130	hakis	
-31	6131	juring	
-32	6132	kantuk	
-33	6133	karapas	karapasnya
-34	6134	kasau	
-35	6135	kearaban	
-36	6136	kekotaan	
-37	6137	kelengkeng	
-38	6138	kenusantaraan	
-39	6139	kodek	
-40	6140	leraian	
-41	6141	litigan	
-42	6142	mamah	
-43	6143	cerakin	mencerakinkan
-44	6144	mengelek	
-45	6145	nasionalisasi	
-46	6146	pakal	
-47	6147	palit	
-48	6148	pendukungan	
-49	6149	pengarkiban	
-50	6150	pentarikhan	
-51	6151	relativisme	
-52	6152	rerama	
-53	6153	royat	
-54	6154	sakau	
-55	6155	sejarawi	
-56	6156	sangat-sangat	sesangat
-57	6157	substandard	
-58	6158	swastakan	
-59	6159	tatah	
-60	6160	tempeleng	
-61	6161	terabadi	
-62	6162	terpa	
-63	6163	tersaji	
-64	6164	uja	
-65	6165	wizurai	
-66	6166	zigot	
-67	6167	arboris	
-68	6168	bura	
-69	6169	cekam	
-70	6170	deuterium	
-71	6171	endak	
-72	6172	geruh	
-73	6173	hec	
-74	6174	harung	
-75	6175	kamfor	
-76	6176	katib	
-77	6177	macang	
-78	6178	pembincang	
-79	6179	pemfrancaisan	
-80	6180	radon	
-81	6181	randuk	
-82	6182	sentara	
-83	6183	subbudaya	
-84	6184	tiung	
-85	6185	tribahasa	
-86	6186	tungkus	
-87	6187	vanadium	
-88	6188	wolfram	
-89	6189	syamsi	
-90	6190	kecai	
-91	6191	teknetium	
-92	6192	igau	
-93	6193	jangak	
-94	6194	bencong	
-95	6195	kerongkongan	
-96	6196	gebar	
-97	6197	menyabarkan	
-98	6198	misan	
-99	6199	misoa	
-100	6200	memvideokan	divideokan
+1	6101	kariah	kariahnya
+2	6102	konsulat	
+3	6103	tempe	tempeh
+4	6104	khat	khatnya
+5	6105	kebingungan	
+6	6106	nasionalisme	nasionalismenya
+7	6107	cogan	
+8	6108	seruling	serulingnya
+9	6109	kubis	
+10	6110	debit	debitkan didebit didebitkan mendebitkan
+11	6111	rojak	
+12	6112	transkrip	ditranskrip transkripnya
+13	6113	raung	meraung meraunglah raunglah
+14	6114	net	neti
+15	6115	konstabel	
+16	6116	mint	
+17	6117	ejekan	ejekanmu ejekannya
+18	6118	korelasi	berkorelasi
+19	6119	hambar	hambari
+20	6120	gincu	bergincu gincunya
+21	6121	kesegaran	kesegarannya
+22	6122	terurus	
+23	6123	saba	sabai
+24	6124	pengaman	pengamanku pengamanmu pengamannya
+25	6125	dandan	andam berandam berdandan dandani dandanlah didandan didandani mendandan mendandani mendandannya mengandam
+26	6126	turap	berturap diturap menurap
+27	6127	huraian	huraiannya
+28	6128	gulungan	gulungannya
+29	6129	gerombolan	
+30	6130	pemulangan	pemulangannya
+31	6131	sehala	sehalanya
+32	6132	adib	
+33	6133	raut	diraut meraut
+34	6134	tebuk	bertebuk ditebuk menebuk
+35	6135	tenun	bertenun ditenun menenun menenunnya
+36	6136	repot	direpot direpotkan merepotkan merepotkanmu merepotkannya repotnya
+37	6137	terbelah	terbelahnya
+38	6138	dukungan	dukunganku dukunganmu
+39	6139	pekerti	berpekerti pekertinya
+40	6140	perbuat	perbuatlah
+41	6141	menaiktaraf	menaiktarafkan
+42	6142	kap	kapi kapnya mengkap
+43	6143	delapan	
+44	6144	ras	berras raskan rasku rasnya
+45	6145	uban	beruban
+46	6146	rengek	merengek rengekkan
+47	6147	pendukung	pendukungnya
+48	6148	sentosa	
+49	6149	rawa	berawa merawai rawai
+50	6150	stamina	berstamina staminamu staminanya
+51	6151	terjerumus	
+52	6152	akak	
+53	6153	dioksida	
+54	6154	arya	
+55	6155	duda	dudanya menduda
+56	6156	ansar	ansari
+57	6157	gilir	digilirkan gilirkan menggilirkan
+58	6158	mada	madai
+59	6159	bukaan	bukaannya
+60	6160	pertanda	
+61	6161	kepandaian	kepandaianku kepandaianmu kepandaiannya
+62	6162	hipokrit	hipokritlah
+63	6163	ina	inalah menginai
+64	6164	pindahan	berpindahan
+65	6165	rok	berok mengerok roki rokku rokmu roknya
+66	6166	mesingan	
+67	6167	peletakan	peletakannya
+68	6168	terpasang	terpasangkan
+69	6169	piza	
+70	6170	garpu	garpunya
+71	6171	apartemen	apartemenku apartemenmu apartemennya
+72	6172	kerinduan	kerinduanku kerinduanmu kerinduannya
+73	6173	praktis	dipraktis dipraktiskan mempraktiskan praktiskan praktisnya
+74	6174	petinju	petinjunya
+75	6175	lev	dilevi levi
+76	6176	residen	residennya
+77	6177	gerila	gerilanya
+78	6178	langsing	langsingkan melangsing melangsingkan
+79	6179	liberalisme	
+80	6180	kenya	
+81	6181	koran	koranmu korannya
+82	6182	apit	berapit diapit mengapit mengapitnya
+83	6183	jap	japi
+84	6184	bibit	membibit membibitkan
+85	6185	jamak	dijamak dijamakkan jamakkan menjamak menjamakkan
+86	6186	pulas	dipulas memulas
+87	6187	bidan	membidankan
+88	6188	tangkai	bertangkai tangkainya
+89	6189	ketebalan	berketebalan ketebalannya
+90	6190	leng	mengeleng
+91	6191	fauna	faunanya
+92	6192	kedut	berkedut
+93	6193	kesaksian	kesaksianku kesaksianmu kesaksiannya
+94	6194	seiras	seirasnya
+95	6195	tulip	
+96	6196	akreditasi	diakreditasi diakreditasikan mengakreditasi
+97	6197	dendang	dendangkan didendangkan mendendangkan
+98	6198	pengaturan	pengaturannya
+99	6199	aspirin	
+100	6200	hikmat	hikmatnya

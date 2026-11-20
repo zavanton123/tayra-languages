@@ -1,100 +1,100 @@
-1	801	sihat	
-2	802	nyawa	nyawaku nyawamu nyawanya
-3	803	kosong	
-4	804	barat	baratnya
+1	801	sihat	menyihatkan sihatkah sihatkan sihatlah sihatnya
+2	802	nyawa	bernyawa nyawakah nyawaku nyawamu nyawanya
+3	803	kosong	dikosongkan kosongi kosongkan kosongkannya kosonglah kosongmu kosongnya kosongpun mengosongkan mengosongkannya
+4	804	barat	baratnya dibarat
 5	805	sebentar	
 6	806	selamatkan	
-7	807	persembahan	
-8	808	pasaran	pasarannya
-9	809	undi	diundi mengundi
-10	810	sosial	
-11	811	gunung	gunungku gunungnya
-12	812	benci	benciku bencinya
-13	813	ayat	ayatmu ayatnya
-14	814	neraka	nerakaku nerakamu nerakanya
+7	807	persembahan	dipersembahan mempersembahan persembahannya
+8	808	pasaran	dipasaran pasarannya
+9	809	undi	diundi mengundi mengundinya undilah undinya
+10	810	sosial	bersosial sosialku sosialmu sosialnya
+11	811	gunung	bergunung digunung gunungku gununglah gunungnya menggunung
+12	812	benci	bencikan bencikanmu bencikannya benciku bencilah bencinya dibenci dibencinya membenci membencikan membenciku membencimu membencinya
+13	813	ayat	ayatkan ayatmu ayatnya berayat mengayat mengayatmu
+14	814	neraka	dineraka nerakaku nerakalah nerakamu nerakanya
 15	815	individu	individunya
-16	816	rawatan	
-17	817	haiwan	haiwanku haiwannya
+16	816	rawatan	rawatannya
+17	817	haiwan	haiwani haiwanku haiwannya
 18	818	kaedah	kaedahnya
-19	819	gaya	
-20	820	nasional	
-21	821	umur	umurku umurmu umurnya
-22	822	angin	anginmu anginnya
+19	819	gaya	bergaya bergayakan bergayalah bergayanya digaya digayakan digayakannya gayakan gayakannya gayaku gayalah gayamu gayanya menggayakan menggayakannya
+20	820	nasional	nasionalnya
+21	821	umur	berumur diumur umurkah umurku umurmu umurnya
+22	822	angin	anginmu anginnya berangin
 23	823	puteri	puteriku puterimu puterinya
-24	824	akal	akalku akalmu akalnya
+24	824	akal	akali akalkah akalku akallah akalmu akalnya berakal diakal mengakali
 25	825	menyerang	
-26	826	setuju	
-27	827	istimewa	
-28	828	kadar	
+26	826	setuju	bersetuju bersetujukah dipersetujui dipersetujukan disetuju disetujui disetujuinya mempersetujui menyetujui menyetujuinya persetujui setujui setujukah setujulah setujunya
+27	827	istimewa	diistimewakan istimewakah istimewaku istimewamu istimewanya
+28	828	kadar	berkadar kadari kadarnya mengadar
 29	829	jawatankuasa	jawatankuasanya
-30	830	pinang	
-31	831	sasaran	
-32	832	pandai	pandainya
-33	833	mesin	
-34	834	aman	
-35	835	baca	
-36	836	buang	
-37	837	tanggungjawab	tanggungjawabku tanggungjawabmu tanggungjawabnya
+30	830	pinang	dipinang meminang meminangnya
+31	831	sasaran	bersasaran sasaranku sasaranmu sasarannya
+32	832	pandai	memandai memandaikan pandailah pandainya
+33	833	mesin	bermesin dimesin memesin mesinku mesinlah mesinmu mesinnya
+34	834	aman	amani amankah amankan amanlah amannya diaman diamankan mengamankan mengamankanmu mengamankannya
+35	835	baca	bacakah bacakan bacakanlah bacakanmu bacakannya bacaku bacalah bacanya bacapun dibaca dibacakan dibacanya membacakan membacakanku membacakannya membacalah membacanya
+36	836	buang	buangkan buangkannya buangku buanglah buangnya dibuang dibuangkan dibuangnya membuang membuangkan membuangkannya membuangku membuangmu membuangnya
+37	837	tanggungjawab	bertanggungjawab bertanggungjawablah dipertanggungjawab dipertanggungjawabkan mempertanggungjawabkan menanggungjawab pertanggungjawabkan tanggungjawabi tanggungjawabku tanggungjawabmu tanggungjawabnya
 38	838	mengeluarkan	
 39	839	tertentu	
-40	840	kertas	kertasnya
-41	841	kemalangan	kemalanganmu kemalangannya
-42	842	beg	
-43	843	jari	jariku jarimu jarinya
+40	840	kertas	dikertas kertasnya
+41	841	kemalangan	berkemalangan kemalangani kemalangankah kemalanganmu kemalangannya
+42	842	beg	begi begku begmu begnya berbeg
+43	843	jari	berjari dijari dijariku dijarimu jariku jarimu jarinya menjari
 44	844	berdiri	
-45	845	solat	solatku solatmu solatnya
-46	846	pandang	
-47	847	sultan	sultannya
+45	845	solat	bersolat bersolatlah disolatkan solatku solatlah solatmu solatnya
+46	846	pandang	berpandang dipandang dipandangnya memandang memandangi memandangiku memandangimu memandanginya memandangkan memandangku memandangmu memandangnya pandangkan pandangku pandanglah pandangmu pandangnya
+47	847	sultan	bersultan bersultankan sultanlah sultannya
 48	848	bergantung	
 49	849	biasanya	
-50	850	bersih	
-51	851	wakil	
-52	852	dadah	dadahku dadahnya
-53	853	sekejap	
-54	854	hujan	hujanku hujannya ujan
-55	855	stesen	stesyen
+50	850	bersih	bersihkan bersihkanlah bersihkannya bersihku bersihlah bersihmu bersihnya dibersih dibersihkan membersih membersihkan membersihkanmu membersihkannya
+51	851	wakil	berwakil diperwakilkan diwakili diwakilinya diwakilkan mewakil mewakili mewakilinya mewakilkan mewakilkannya wakili wakilkan wakilnya
+52	852	dadah	dadahkah dadahkan dadahku dadahnya mendadah
+53	853	sekejap	sekejaplah
+54	854	hujan	berhujan dihujani hujani hujankan hujanku hujanlah hujannya menghujani menghujaniku menghujankan ujan
+55	855	stesen	berstesyen distesen stesenmu stesennya stesyen
 56	856	menawarkan	
-57	857	kaya	
+57	857	kaya	berkaya dikayakan diperkaya diperkayakan kayakah kayakan kayakanlah kayaku kayalah kayanya memperkaya memperkayakan mengaya mengayakan mengkayakan
 58	858	kesilapan	kesilapannya
 59	859	kelab	kelabnya
-60	860	fikiran	
-61	861	abu	abuku abunya
-62	862	lampu	
+60	860	fikiran	berfikiran difikiran difikiranku difikiranmu difikirannya fikirankah fikiranku fikiranmu fikirannya
+61	861	abu	abui abuku abunya abupun diperabukan mengabui
+62	862	lampu	berlampu lampuku lampumu lampunya melampui
 63	863	mencipta	dicipta
 64	864	bayangkan	dibayangkan membayangkan
-65	865	cadangan	cadanganku cadanganmu cadangannya
-66	866	peduli	
-67	867	bakar	
-68	868	percuma	
-69	869	kekasih	kekasihku kekasihmu kekasihnya
-70	870	ajar	
-71	871	sektor	
+65	865	cadangan	bercadangan cadangankan cadanganku cadanganmu cadangannya dicadangan mencadangan
+66	866	peduli	dipeduli dipedulikan memedulikan mempeduli mempedulikan mempedulikanku mempedulikanmu mempedulikannya pedulikah pedulikan pedulikanlah pedulikannya peduliku pedulilah pedulimu pedulinya pedulipun
+67	867	bakar	bakari bakarkan bakarkannya bakarlah bakarmu bakarnya dibakar dibakarkan dibakarnya membakar membakarkan membakarku membakarmu membakarnya
+68	868	percuma	percumanya
+69	869	kekasih	kekasihkah kekasihku kekasihmu kekasihnya
+70	870	ajar	ajari ajariku ajarilah ajarkah ajarkan ajarkanmu ajarkannya ajarku ajarlah ajarnya diajar diajari diajarkan diajarnya mengajari mengajariku mengajarimu mengajarinya mengajarkan mengajarkanku mengajarkanmu mengajarkannya mengajarku mengajarmu mengajarnya
+71	871	sektor	disektor sektormu
 72	872	menjual	
-73	873	bau	bauku baumu baunya
-74	874	tahniah	
-75	875	hujung	hujong ujung
-76	876	barisan	barisannya
-77	877	lemah	
+73	873	bau	baukah baukan bauku baulah baumu baunya berbau berbauku berbaulah berbaunya dibau membau membaunya
+74	874	tahniah	tahniahlah
+75	875	hujung	berhujung berujung dihujung dihujungnya diujung hujong hujunglah hujungnya mengujungi mengujungimu ujung
+76	876	barisan	barisannya dibarisan
+77	877	lemah	berlemah dilemahkan lemahkan lemahlah lemahnya melemah melemahkan melemahkanku melemahkanmu melemahkannya
 78	878	menipu	ditipu nipu
-79	879	ucapan	
+79	879	ucapan	ucapankah ucapanku ucapanmu ucapannya
 80	880	kakitangan	kakitangannya
-81	881	sepak	
+81	881	sepak	disepak menyepak menyepaknya sepaknya
 82	882	menemui	
-83	883	persatuan	
-84	884	sumbangan	sumbanganmu sumbangannya
-85	885	sembilan	
-86	886	jantung	jantungku jantungmu jantungnya
-87	887	jiwa	jiwaku jiwamu jiwanya
-88	888	seksyen	
-89	889	peminat	
-90	890	mayat	mayatku mayatmu mayatnya
+83	883	persatuan	berpersatuan dipersatuan persatuannya
+84	884	sumbangan	disumbangankan sumbanganmu sumbangannya
+85	885	sembilan	bersembilan
+86	886	jantung	jantungi jantungku jantungmu jantungnya
+87	887	jiwa	berjiwa dijiwa dijiwai jiwai jiwaku jiwamu jiwanya jiwapun menjiwai menjiwainya
+88	888	seksyen	diseksyen
+89	889	peminat	peminatku peminatmu peminatnya
+90	890	mayat	mayatkah mayatku mayatmu mayatnya
 91	891	peguam	peguamku peguamnya
-92	892	kuda	kudaku kudamu kudanya
+92	892	kuda	berkuda berkudalah berkudanya dikudakan diperkuda diperkudakan kudaku kudamu kudanya memperkudakan
 93	893	berehat	rehat
-94	894	celaka	
-95	895	lapangan	lapangannya
-96	896	sampah	sampahku sampahmu sampahnya
+94	894	celaka	celakaku celakalah celakamu celakanya mencelakai mencelakainya mencelakakan mencelakakannya
+95	895	lapangan	dilapangan lapangannya
+96	896	sampah	menyampah menyampahnya sampahkan sampahku sampahmu sampahnya
 97	897	pengetahuan	pengetahuanku pengetahuanmu pengetahuannya
-98	898	bijak	
-99	899	gigi	gigiku gigimu giginya
-100	900	bekalan	
+98	898	bijak	bijaki bijakkah bijakku bijaklah bijakmu bijaknya
+99	899	gigi	gigiku gigilah gigimu giginya
+100	900	bekalan	bekalannya

@@ -1,100 +1,100 @@
-1	5301	gelam	
-2	5302	punai	
-3	5303	transliterasi	
-4	5304	balar	
-5	5305	baloi	
-6	5306	punat	
-7	5307	kuping	kupingnya
-8	5308	capati	
-9	5309	brigedier	
-10	5310	autistik	
-11	5311	kadmium	
-12	5312	beriklan	
-13	5313	jiwang	
-14	5314	redaksi	
-15	5315	ayak	
-16	5316	lentera	
-17	5317	terjajah	
-18	5318	zan	
-19	5319	dacing	
-20	5320	informatif	
-21	5321	abaka	
-22	5322	samur	
-23	5323	inersia	
-24	5324	pemandulan	
-25	5325	pemodal	
-26	5326	tonsil	
-27	5327	pelestarian	
-28	5328	cerutu	cerutunya
-29	5329	rungut	
-30	5330	pengelap	
-31	5331	balam	
-32	5332	bengawan	
-33	5333	lebu	
-34	5334	bengkarung	mengkarung
-35	5335	perancah	
-36	5336	gaban	
-37	5337	tanjak	
-38	5338	tokek	
-39	5339	perkamusan	
-40	5340	alkimia	
-41	5341	busut	
-42	5342	informal	
-43	5343	pakat	
-44	5344	kepah	
-45	5345	sentakan	
-46	5346	mawas	mawasnya
-47	5347	tekap	
-48	5348	kelalang	
-49	5349	nirmala	
-50	5350	jenuh	
-51	5351	berinspirasi	
-52	5352	memagari	dipagari
-53	5353	menyahaktifkan	
-54	5354	tir	
-55	5355	abrar	
-56	5356	gubra	
-57	5357	kolonialisme	
-58	5358	penyajian	
-59	5359	morbiditi	
-60	5360	hipotermia	
-61	5361	inang	
-62	5362	hidroksida	
-63	5363	ultrabunyi	
-64	5364	geleng	
-65	5365	conteng	
-66	5366	pusar	
-67	5367	abalone	abalon
-68	5368	raksa	
-69	5369	rasisme	
-70	5370	kelimpahan	
-71	5371	prisma	
-72	5372	sesium	
-73	5373	pertontonkan	dipertontonkan
-74	5374	berekreasi	
-75	5375	bakawali	
-76	5376	ruyung	
-77	5377	diversiti	
-78	5378	farmakologi	
-79	5379	jeling	
-80	5380	susila	
-81	5381	kastard	
-82	5382	pelipat	
-83	5383	halkum	
-84	5384	kanyon	
-85	5385	tungsten	
-86	5386	merenungi	
-87	5387	rombak	
-88	5388	tahil	
-89	5389	kedok	kedoknya
-90	5390	pencair	
-91	5391	kendi	
-92	5392	implementasikan	diimplementasikan
-93	5393	mencedok	
-94	5394	mangan	
-95	5395	auta	
-96	5396	pungguk	
-97	5397	karburetor	karburetornya
-98	5398	penganggaran	
-99	5399	restorasi	
-100	5400	membulat	
+1	5301	bocah	
+2	5302	peran	berperan memerankan perani peranku peranmu perannya
+3	5303	kitorang	
+4	5304	komanwel	
+5	5305	habuan	berhabuan habuannya
+6	5306	balang	
+7	5307	goncang	bergoncang digoncang digoncangkan goncangkan goncangkannya menggoncang menggoncangkan menggoncangkannya menggoncangku menggoncangnya
+8	5308	dengki	berdengki dengkikan didengki mendengki
+9	5309	trans	
+10	5310	bijih	bijihnya
+11	5311	algoritma	algoritmaku algoritmanya
+12	5312	tetapan	bertetapan menetapan
+13	5313	keramaian	
+14	5314	pengukuran	
+15	5315	timbunan	
+16	5316	pematuhan	
+17	5317	linguistik	
+18	5318	kiblat	berkiblat berkiblatkan kiblatnya
+19	5319	pengangkut	pengangkutkah pengangkutmu
+20	5320	tungkus	bertungkus
+21	5321	pembersih	pembersihnya
+22	5322	pemborong	
+23	5323	pemalas	
+24	5324	rit	merit meritnya
+25	5325	tangkis	ditangkis menangkis menangkisnya
+26	5326	kesat	dikesat kesatnya
+27	5327	melulu	melulunya
+28	5328	tumis	ditumis menumis tumiskan
+29	5329	sikat	bersikat disikat menyikat sikatkan sikatlah sikatnya
+30	5330	elite	
+31	5331	pembesaran	pembesarannya
+32	5332	zadah	jadah
+33	5333	penyerapan	penyerapannya
+34	5334	perah	diperah perahkan perahkannya perahlah perahnya
+35	5335	amber	
+36	5336	mengidap	mengidapi
+37	5337	jitu	
+38	5338	janin	janinnya
+39	5339	bius	biuskan biusnya dibius membius membiusku membiusmu membiusnya
+40	5340	trailer	trailermu trailernya
+41	5341	pala	palamu
+42	5342	peras	diperas memeras memerasku
+43	5343	konduktor	konduktornya
+44	5344	minoriti	
+45	5345	transfer	ditransfer mentransfer mentransferku mentransfermu mentransfernya
+46	5346	laun	melaun
+47	5347	megat	
+48	5348	injak	diinjak injakkan injaklah menginjak menginjakkan menginjakkannya menginjakku menginjaknya
+49	5349	dinar	dinari
+50	5350	keruh	dikeruhkan keruhkan mengeruh mengeruhkan
+51	5351	adiwira	adiwiranya
+52	5352	kaisar	
+53	5353	bongkok	berbongkok bongkokkan bongkoklah membongkok membongkokkan
+54	5354	kelancaran	kelancarannya
+55	5355	nyah	dinyah dinyahkan mengenyah mengenyahkan mengenyahkanmu nyahkan nyahlah
+56	5356	panji	
+57	5357	penterjemah	penterjemahmu
+58	5358	pencetak	
+59	5359	wisel	wiselnya
+60	5360	penggantungan	penggantungannya
+61	5361	imun	
+62	5362	kawah	
+63	5363	tragis	tragisnya
+64	5364	haru	mengharu mengharukan mengharukannya
+65	5365	serbaguna	
+66	5366	tuna	
+67	5367	kepintaran	kepintaranku kepintaranmu kepintarannya
+68	5368	plasma	
+69	5369	talak	ditalak mentalak
+70	5370	generator	generatornya
+71	5371	penyesuaian	penyesuaiannya
+72	5372	goyah	digoyahkan goyahkan menggoyahkan
+73	5373	dulang	dulangnya mendulang
+74	5374	chalet	chaletnya
+75	5375	godaan	godaannya
+76	5376	getir	getirnya
+77	5377	keagungan	keagunganku keagungannya
+78	5378	spiritual	spiritualnya
+79	5379	bera	bebera
+80	5380	pengujian	pengujiannya
+81	5381	kukus	dikukus kukuskan mengukus mengukusnya
+82	5382	kolagen	berkolagen
+83	5383	biara	biarakan biaranya biarapun
+84	5384	kemarau	
+85	5385	pemotong	pemotongnya
+86	5386	celup	bercelup celupkan celuplah celupnya dicelup dicelupkan mencelup mencelupkan mencelupkannya
+87	5387	belitung	
+88	5388	palang	berpalang dipalang memalang memalangkan palangkan
+89	5389	aksara	
+90	5390	prasekolah	
+91	5391	tatapan	bertatapan tatapanku tatapanmu tatapannya
+92	5392	kesombongan	kesombongannya
+93	5393	nilam	
+94	5394	kerongkong	kerongkongmu kerongkongnya
+95	5395	tafsiran	tafsirannya
+96	5396	kesuburan	kesuburanmu kesuburannya
+97	5397	komposisi	dikomposisikan komposisinya
+98	5398	persiaran	
+99	5399	rajuk	merajuk merajukkan merajuklah
+100	5400	keratan	

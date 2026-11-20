@@ -1,100 +1,100 @@
-1	4401	komet	kometnya
-2	4402	transformasikan	ditransformasikan mentransformasikan
-3	4403	paut	dipaut memaut
-4	4404	merampok	
-5	4405	lawa	
-6	4406	dehidrasi	
-7	4407	teguk	
-8	4408	sekam	sekamnya
-9	4409	kardiovaskular	
-10	4410	bebek	
-11	4411	junjung	
-12	4412	plutonium	
-13	4413	komrad	komradnya
-14	4414	gegelung	
-15	4415	kodok	kodoknya
-16	4416	beradu	
-17	4417	sajikan	disajikan
-18	4418	endah	
-19	4419	survei	
-20	4420	suratan	
-21	4421	kaktus	
-22	4422	suaka	
-23	4423	uskup	
-24	4424	sulam	
-25	4425	lipan	
-26	4426	kalbu	
-27	4427	kusyen	
-28	4428	nol	
-29	4429	zuhud	
-30	4430	cicit	
-31	4431	hirup	
-32	4432	keramahan	keramahanku keramahanmu keramahannya
-33	4433	koki	
-34	4434	pabrik	
-35	4435	prabayar	
-36	4436	guling	
-37	4437	songkok	
-38	4438	lumat	
-39	4439	salasilah	silsilah
-40	4440	renggang	
-41	4441	bohsia	
-42	4442	iklankan	diiklankan
-43	4443	lonceng	
-44	4444	hamparan	
-45	4445	seroja	
-46	4446	patuk	dipatuk mematuk
-47	4447	camna	camne
-48	4448	ngarai	
-49	4449	tum	
-50	4450	ketekunan	
-51	4451	duduki	diduduki
-52	4452	penyabar	
-53	4453	pikap	
-54	4454	tedung	
-55	4455	lamun	dilamun melamun
-56	4456	klorin	klorinnya
-57	4457	kedegilan	
-58	4458	purut	
-59	4459	terabai	
-60	4460	hentak	
-61	4461	halwa	
-62	4462	dansa	
-63	4463	bisul	bisulnya
-64	4464	lahanat	
-65	4465	amah	
-66	4466	politikus	
-67	4467	antropologi	
-68	4468	pratonton	
-69	4469	mempelam	
-70	4470	tempias	
-71	4471	komisi	komisimu
-72	4472	bidak	
-73	4473	tadarus	
-74	4474	kunjung	
-75	4475	gertak	
-76	4476	mukasurat	mukasuratnya
-77	4477	memeningkan	
-78	4478	guar	
-79	4479	masuki	dimasuki
-80	4480	berpencen	
-81	4481	membentang	
-82	4482	temenggung	
-83	4483	canggung	
-84	4484	karet	karetmu
-85	4485	serampang	
-86	4486	keluh	
-87	4487	belanga	
-88	4488	gambir	
-89	4489	justifikasi	
-90	4490	katarak	
-91	4491	cubit	mencubit
-92	4492	prasejarah	
-93	4493	bihun	
-94	4494	gawai	
-95	4495	perap	diperap memerap
-96	4496	korona	
-97	4497	khalwat	
-98	4498	santau	
-99	4499	satuan	
-100	4500	cendana	
+1	4401	duyung	dugong
+2	4402	basmi	dibasmi dibasmikan membasmi membasmikan membasminya
+3	4403	tembaga	tembagaku
+4	4404	penjajahan	
+5	4405	rumus	dirumus dirumuskan merumus merumuskan merumuskannya merumusnya rumuskan rumusku
+6	4406	lalang	
+7	4407	gendang	bergendang gendangnya
+8	4408	mogok	
+9	4409	federal	
+10	4410	metal	
+11	4411	ketahanan	berketahanan ketahanannya
+12	4412	pajak	dipajak dipajakkan memajak memajakkan pajakkan pajakku pajakmu pajaknya
+13	4413	perjudian	perjudiannya
+14	4414	getaran	bergetaran getarannya
+15	4415	segenap	disegenap
+16	4416	mani	dipermanikan maninya
+17	4417	kumbang	
+18	4418	klinikal	klinikalnya
+19	4419	muflis	memufliskan mufliskan
+20	4420	pelayaran	pelayaranmu pelayarannya
+21	4421	labah	
+22	4422	perakuan	perakuannya
+23	4423	megah	bermegah dimegahkan megahkan megahnya memegahkan
+24	4424	lampiran	dilampiran
+25	4425	plak	
+26	4426	komoditi	
+27	4427	habib	habibi
+28	4428	timah	
+29	4429	gigitan	gigitannya
+30	4430	sop	sopi
+31	4431	sengat	disengat menyengat menyengatku menyengatnya sengatnya
+32	4432	kecurian	kecuriannya
+33	4433	militan	militannya
+34	4434	pesona	mempesona mempesonakan mempesonaku pesonanya
+35	4435	musibah	musibahku musibahnya
+36	4436	angkuh	angkuhkan angkuhmu angkuhnya
+37	4437	kognitif	
+38	4438	pembalasan	pembalasanku pembalasannya
+39	4439	takraw	
+40	4440	globalisasi	diglobalisasikan
+41	4441	bersorak	bersoraklah
+42	4442	perpindahan	perpindahannya
+43	4443	ketenteraman	
+44	4444	perselisihan	
+45	4445	hasutan	hasutannya
+46	4446	takzim	takzimnya
+47	4447	sukma	
+48	4448	penyamaran	penyamaranku penyamaranmu penyamarannya
+49	4449	borak	berborak berboraklah
+50	4450	simptom	bersimptom simptomnya
+51	4451	kelip	berkelip berkeliplah kelipkan mengelip mengelipkan mengeliplah
+52	4452	kelopak	berkelopak kelopaknya
+53	4453	sajian	
+54	4454	lompatan	berlompatan lompatannya
+55	4455	intelektual	intelektualnya
+56	4456	kemewahan	kemewahannya
+57	4457	lembab	lembabkan melembab melembabkan
+58	4458	dinasti	
+59	4459	frasa	
+60	4460	kemelut	kemelutnya
+61	4461	mubarak	
+62	4462	sabu	
+63	4463	wayarles	
+64	4464	ting	diting tingi
+65	4465	demokrat	demokrati
+66	4466	termaktub	termaktublah termaktubnya
+67	4467	handal	handalnya
+68	4468	meski	
+69	4469	jerebu	berjerebu
+70	4470	sandaran	bersandaran sandaranku sandarannya
+71	4471	julang	dijulang menjulang menjulangnya
+72	4472	angan	angankan anganku angannya mengangankan
+73	4473	madrasah	madrasahnya
+74	4474	seret	diseret diseretkan menyeret menyeretku menyeretmu menyeretnya seretlah
+75	4475	sek	seki
+76	4476	member	memberkan memberku
+77	4477	berontak	berontaklah berontaknya memberontak memberontakkah
+78	4478	rebah	merebahkan merebahkannya rebahkan rebahlah
+79	4479	kursi	dikursi kursimu kursinya
+80	4480	kor	berkor kori
+81	4481	lepak	berlepak lepaklah
+82	4482	komprehensif	
+83	4483	danau	danaunya
+84	4484	bestari	membestarikan
+85	4485	bawak	bawakkan bawaklah dibawak
+86	4486	kontena	
+87	4487	sakura	sakurai
+88	4488	angsa	
+89	4489	kol	
+90	4490	toleransi	bertoleransi ditoleransi menoleransi mentoleransi toleransinya
+91	4491	balak	dibalak membalak
+92	4492	yap	
+93	4493	dayung	berdayung dayunglah dayungnya mendayung
+94	4494	akrab	akrabnya mengakrabkan
+95	4495	gagak	gagaknya
+96	4496	calar	bercalar calarkan calarkannya dicalar dicalarkan mencalar mencalarkan mencalarnya
+97	4497	tunggakan	tunggakannya
+98	4498	cetek	ceteknya
+99	4499	mizan	
+100	4500	yuk	

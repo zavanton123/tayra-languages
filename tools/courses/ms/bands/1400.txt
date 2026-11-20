@@ -1,100 +1,100 @@
-1	1301	balai	balainya
-2	1302	kamus	kamusku kamusnya
-3	1303	pingat	pingatku pingatnya
-4	1304	fakta	
-5	1305	babi	babiku babinya
-6	1306	kegagalan	kegagalanmu kegagalannya
-7	1307	papan	papanmu papannya
-8	1308	mahal	
-9	1309	ganti	
-10	1310	kacang	
-11	1311	pesan	
-12	1312	persekitaran	persekitarannya
-13	1313	dada	dadaku dadamu dadanya didada
-14	1314	institut	
-15	1315	bertuah	
-16	1316	kenangan	kenanganku kenanganmu kenangannya
-17	1317	imej	
-18	1318	rasuah	rasuahnya
-19	1319	curi	
-20	1320	pesta	pestaku pestamu pestanya
-21	1321	pinggang	pinggangku pinggangmu pinggangnya
-22	1322	kacau	
-23	1323	wajib	
-24	1324	garis	garisnya
-25	1325	memandang	
-26	1326	mabuk	mabuknya
-27	1327	kelmarin	kemarin
-28	1328	semata	
-29	1329	coklat	cokelat coklatku coklatnya
-30	1330	stadium	
-31	1331	pendekatan	
-32	1332	zakat	
-33	1333	fizikal	
-34	1334	kejohanan	
-35	1335	puluh	puloh
-36	1336	patung	patungku patungmu patungnya
-37	1337	darul	
-38	1338	pintar	
-39	1339	pecah	
-40	1340	kampus	
-41	1341	penyanyi	
-42	1342	kolam	
-43	1343	ternyata	
-44	1344	kong	
-45	1345	leher	leherku lehermu lehernya
-46	1346	raksasa	raksasanya
-47	1347	kimia	
-48	1348	menyentuh	
-49	1349	bulu	buluku bulumu bulunya
-50	1350	sisa	sisamu sisanya
-51	1351	makin	
-52	1352	pesanan	pesananku pesananmu pesanannya
-53	1353	wartawan	wartawannya
-54	1354	ular	ularnya
-55	1355	insan	
-56	1356	belas	
-57	1357	timbul	
-58	1358	liar	
-59	1359	tanaman	tanamanku tanamanmu tanamannya
-60	1360	teliti	diteliti meneliti
-61	1361	kelemahan	
-62	1362	bacaan	bacaanmu bacaannya
-63	1363	aset	
-64	1364	naga	nagaku nagamu naganya
-65	1365	kemas	
-66	1366	aneh	
-67	1367	pembedahan	pembedahanku pembedahannya
-68	1368	capai	dicapai
-69	1369	nur	
-70	1370	tolak	
-71	1371	segar	
-72	1372	rencana	rencanaku rencanamu rencananya
-73	1373	saksi	saksiku saksimu saksinya
-74	1374	buta	
-75	1375	perpaduan	
-76	1376	tulisan	tulisanku tulisanmu tulisannya
-77	1377	enggan	
-78	1378	pisau	pisauku pisaumu pisaunya
-79	1379	halo	
-80	1380	sayap	sayapku sayapmu sayapnya
-81	1381	perbincangan	
-82	1382	edisi	edisinya
-83	1383	saiz	
-84	1384	menyebut	
-85	1385	keretapi	
-86	1386	pengeluaran	
-87	1387	keempat	
-88	1388	jiran	jiranku jiranmu jirannya
-89	1389	berbincang	
-90	1390	ketat	
-91	1391	kahwin	kawin
-92	1392	peristiwa	
-93	1393	penyelesaian	
-94	1394	bisnes	bisnesku bisnesmu bisnesnya
-95	1395	pelancongan	pelanconganmu pelancongannya
-96	1396	serang	
-97	1397	aplikasi	
-98	1398	jemaah	jemaahnya
-99	1399	kala	kalaku kalanya
-100	1400	malaikat	malaikatku malaikatnya
+1	1301	sia	bersia dipersia dipersiakan disia mempersia mempersiakan mempersiakannya menyia menyiakan persiakan siai siakan siakannya sialah sianya
+2	1302	sidang	bersidang disidang disidangkan sidangmu sidangnya
+3	1303	terbaru	terbaruku terbarumu terbarunya
+4	1304	belah	belahkan belahlah belahnya berbelah dibelah dibelahnya membelah membelahkan membelahmu membelahnya
+5	1305	penulis	penulisku penulisnya
+6	1306	langit	dilangit langitku langitmu langitnya melangit
+7	1307	selagi	selagilah selaginya
+8	1308	kemas	berkemas berkemaslah dikemas dikemasi dikemaskan diperkemas diperkemaskan kemasi kemaskan kemaskannya kemaslah kemasnya memperkemas memperkemaskan mengemas mengemasi mengemaskan mengemasnya perkemaskan
+9	1309	laju	dilajukan lajukan lajukannya lajulah lajunya melaju melajukan
+10	1310	kualiti	kualitinya
+11	1311	rokok	berokok merokok rokokku rokoklah rokokmu rokoknya
+12	1312	perut	berperut diperut diperutmu diperutnya perutkah perutku perutlah perutmu perutnya
+13	1313	permulaan	dipermulaan permulaanku permulaannya
+14	1314	institusi	berinstitusi diinstitusi diinstitusikan institusinya menginstitusikan
+15	1315	layan	dilayan dilayani dilayaninya dilayannya layani layanilah layankan layanlah layanmu layannya melayan melayani melayaniku melayanimu melayaninya melayanku melayanmu melayannya
+16	1316	isyarat	berisyarat diisyarat diisyaratkan isyaratkan isyaratku isyaratmu isyaratnya mengisyarat mengisyaratkan
+17	1317	pantas	pantaskah pantasnya
+18	1318	pelaburan	pelaburanku pelaburanmu pelaburannya
+19	1319	min	bermin minnya
+20	1320	perbezaan	perbezaankah perbezaannya
+21	1321	pergerakan	pergerakanku pergerakanmu pergerakannya
+22	1322	pelan	berpelan memelankan pelankan pelanku pelanlah pelannya
+23	1323	lantik	dilantik dilantikkan dilantiknya lantiklah melantik melantikmu melantiknya perlantikkan
+24	1324	hakim	dihakimi dihakimkan hakimi hakimilah hakimku hakimmu hakimnya menghakimi menghakimiku menghakiminya
+25	1325	pulih	dipulih dipulihkan memulih memulihkan memulihkanmu memulihkannya pulihkan pulihkannya pulihnya
+26	1326	darat	daratkan daratku daratnya didaratkan mendarat mendaratkan mendaratkannya mendaratlah mendaratnya
+27	1327	pembantu	berpembantu pembantuku pembantumu pembantunya
+28	1328	tetamu	tetamuku tetamunya
+29	1329	dedah	dedahkah dedahkan dedahkannya dedahnya didedah didedahkan didedahkannya mendedah mendedahkan mendedahkannya
+30	1330	pembelajaran	pembelajaranmu pembelajarannya
+31	1331	kesemua	
+32	1332	kesempatan	berkesempatan dikesempatan kesempatanku kesempatanmu kesempatannya kesempatanpun
+33	1333	analisis	analisa analisisku analisisnya beranalisis dianalisa dianalisakan dianalisis dianalisiskan menganalisa menganalisakan menganalisanya menganalisis menganalisiskan menganalisisnya
+34	1334	seluar	berseluar diseluar seluarkan seluarku seluarlah seluarmu seluarnya
+35	1335	kehadiran	kehadiranku kehadiranmu kehadirannya
+36	1336	dokumen	berdokumen didokumenkan dokumenkan dokumenmu dokumennya mendokumen mendokumenkan
+37	1337	keadilan	keadilanlah keadilanmu keadilannya
+38	1338	banjir	banjiri banjirkan banjirnya dibanjiri membanjir membanjiri membanjirinya membanjirkan
+39	1339	kekurangan	kekuranganku kekurangannya
+40	1340	kemerdekaan	kemerdekaannya
+41	1341	saluran	salurannya
+42	1342	cermin	bercermin cerminkan cerminlah cerminnya dicermin dicerminkan mencermin mencerminkan mencerminkanku mencerminkannya
+43	1343	maut	mautkah mautku mautmu mautnya memaut memautkan
+44	1344	anjur	anjurkan dianjur dianjurkan dianjurkannya menganjur menganjurkan menganjurkannya
+45	1345	uji	diuji diujikan menguji mengujiku mengujimu mengujinya ujilah ujinya
+46	1346	rujuk	dirujuk dirujuki dirujukkan dirujuknya merujuk merujukkan merujuknya rujukkan rujuklah
+47	1347	mustahil	memustahilkan mustahillah
+48	1348	kebajikan	berkebajikan berkebajikannya kebajikannya
+49	1349	prinsip	berprinsip berprinsipkan prinsipku prinsipmu prinsipnya
+50	1350	pasar	dipasar dipasarkan memasar memasarkan memasarkannya pasarkah pasarkan pasarkanlah pasarkannya pasarnya
+51	1351	tau	taukah taulah
+52	1352	wajib	berwajib diwajib diwajibkan mewajibkan mewajibkannya wajibkan wajiblah wajibnya
+53	1353	gelar	bergelar digelar digelari digelarkan digelarnya gelari gelarkan gelarkannya gelarku gelarmu gelarnya menggelar menggelarkan menggelarkannya menggelarnya
+54	1354	pinjaman	pinjamankan pinjamanmu pinjamannya
+55	1355	pistol	berpistol pistolku pistollah pistolmu pistolnya
+56	1356	sambung	bersambung bersambungkan bersambungnya disambung disambungkan menyambung menyambungkan menyambungkannya menyambungnya sambungkan sambungkannya sambunglah sambungnya
+57	1357	kemampuan	berkemampuan kemampuanku kemampuanmu kemampuannya
+58	1358	karya	berkarya karyaku karyamu karyanya
+59	1359	normal	menormal menormalkan normallah normalmu normalnya
+60	1360	sijil	dipersijilkan disijilkan sijilnya
+61	1361	cemerlang	cemerlangnya mencemerlangkan
+62	1362	agung	agungkan agungkanlah agungnya diagung diagungkan mengagung mengagungkan mengagungkannya
+63	1363	pesan	berpesan berpesanlah dipesan memesan memesannya pesankan pesankannya pesanku pesanlah pesanmu pesannya
+64	1364	kandungan	berkandungan kandunganku kandunganmu kandungannya
+65	1365	online	onlinenya
+66	1366	gas	digas gaskan gasnya
+67	1367	tertinggi	tertingginya
+68	1368	sempadan	bersempadan bersempadankan disempadan disempadani disempadankan menyempadani sempadannya
+69	1369	siri	bersiri bersirinya disirikan sirinya
+70	1370	hamba	dihambakan diperhamba diperhambakan hambakan hambaku hambamu hambanya memperhambakan menghamba menghambakan perhambakan
+71	1371	kotak	berkotak dikotak diperkotak kotakku kotakmu kotaknya memperkotak
+72	1372	pasir	pasirmu pasirnya
+73	1373	pengurus	pengurusi pengurusku penguruslah pengurusnya
+74	1374	borang	borangnya
+75	1375	pemilihan	pemilihanku pemilihannya
+76	1376	peti	dipeti memetikan petinya
+77	1377	tanam	bertanam ditanam ditanami ditanamkan ditanamnya menanam menanamkan menanamkannya menanamnya tanamkan tanamkanlah tanamkannya tanamlah tanamnya
+78	1378	sepuluh	sepuluhpun
+79	1379	tanggung	bertanggung dipertanggung dipertanggungkan ditanggung ditanggungi ditanggungkan ditanggungnya mempertanggung menanggung menanggungku menanggungnya tanggungkan tanggunglah tanggungnya
+80	1380	sesal	disesali disesalinya disesalkan menyesal menyesali menyesalinya menyesalkan menyesallah menyesalnya sesali sesalkan
+81	1381	yah	yahi yahkan yahku
+82	1382	enjin	berenjin enjinmu enjinnya
+83	1383	menara	dimenara menaraku menaramu menaranya
+84	1384	matlamat	bermatlamat bermatlamatkan matlamatnya
+85	1385	mas	dimas masi masikah masitah maskan maslah
+86	1386	gabung	bergabung bergabunglah digabung digabungkan gabungkan gabungkannya menggabung menggabungkan menggabungkannya
+87	1387	setengah	disetengah setengahku setengahmu setengahnya
+88	1388	swasta	diswasta swastakan
+89	1389	peruntukan	diperuntukan memperuntukan peruntukannya
+90	1390	miskin	dimiskinkan memiskinkan miskinkah miskinlah miskinmu miskinnya
+91	1391	lubang	berlubang dilubang dilubangi dilubangkan lubangi lubangkah lubangnya melubangi melubangimu melubanginya melubangkan melubangkannya
+92	1392	bilangan	berbilangan bilangannya
+93	1393	persoalan	persoalannya
+94	1394	teknik	teknikku teknikmu tekniknya
+95	1395	syurga	disyurga syurgakah syurgaku syurgalah syurgamu syurganya
+96	1396	seks	diseksi seksku seksmu seksnya
+97	1397	kontrak	berkontrak dikontrak dikontrakkan kontrakku kontrakmu kontraknya mengkontrakkan
+98	1398	mesej	bermesej mesejkah mesejku mesejlah mesejmu mesejnya
+99	1399	makmal	dimakmal makmalku makmalnya
+100	1400	gerakan	bergerakan digerakan gerakanku gerakanmu gerakannya menggerakan menggerakannya

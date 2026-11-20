@@ -1,100 +1,100 @@
-1	3601	pemanas	
-2	3602	dagu	
-3	3603	senonoh	
-4	3604	menghiraukan	
-5	3605	silinder	
-6	3606	guni	
-7	3607	jahil	
-8	3608	stik	
-9	3609	naif	
-10	3610	merajuk	
-11	3611	kelinci	kelincimu kelincinya
-12	3612	orkid	orkidnya
-13	3613	gaung	gaungnya
-14	3614	cincang	
-15	3615	gantang	
-16	3616	bah	
-17	3617	kolar	
-18	3618	taufik	
-19	3619	fon	
-20	3620	derita	
-21	3621	kurun	kurunnya
-22	3622	kuari	
-23	3623	kawad	
-24	3624	lali	laliku lalinya
-25	3625	kebaya	
-26	3626	sentimeter	
-27	3627	belacan	
-28	3628	siuman	
-29	3629	alergi	alergimu alerginya
-30	3630	peramal	
-31	3631	timbang	
-32	3632	cempaka	
-33	3633	kasturi	
-34	3634	radang	
-35	3635	menyurat	disurat tersurat
-36	3636	berkas	berkasku berkasmu berkasnya seberkas
-37	3637	bilah	bilahnya
-38	3638	tetingkap	tetingkapnya
-39	3639	poligami	
-40	3640	anjung	anjungnya
-41	3641	sembur	menyembur
-42	3642	rebut	
-43	3643	gusi	gusinya
-44	3644	bersin	
-45	3645	tadah	
-46	3646	palang	
-47	3647	pramugari	
-48	3648	sagu	sagunya
-49	3649	belut	belutmu belutnya
-50	3650	kuang	
-51	3651	jelata	
-52	3652	skuter	skuternya
-53	3653	membahaskan	
-54	3654	lensa	
-55	3655	kewarganegaraan	kewarganegaraannya
-56	3656	kesebelasan	
-57	3657	susyi	sushi
-58	3658	helium	
-59	3659	tikar	
-60	3660	sobat	sobatku
-61	3661	komisen	komisenku komisennya
-62	3662	laden	
-63	3663	songsang	
-64	3664	pacuan	
-65	3665	sangkut	disangkut menyangkut sangkutnya
-66	3666	juang	
-67	3667	tebu	
-68	3668	guruh	
-69	3669	momen	
-70	3670	diplomat	diplomatnya
-71	3671	mampan	
-72	3672	celana	
-73	3673	kelip	
-74	3674	pecutan	pecutannya
-75	3675	tawa	
-76	3676	kewartawanan	
-77	3677	daulat	
-78	3678	mewajibkan	
-79	3679	duli	
-80	3680	zuriat	zuriatnya
-81	3681	sepatu	
-82	3682	orak	mengorak
-83	3683	rejimen	
-84	3684	optik	
-85	3685	kunyah	
-86	3686	orkestra	
-87	3687	toyu	head
-88	3688	tauyu	head
-89	3689	candu	canduku candumu candunya
-90	3690	kasi	
-91	3691	suratkhabar	suratkhabarku
-92	3692	aaa	
-93	3693	geram	
-94	3694	payu	
-95	3695	taruh	tarok
-96	3696	terumbu	
-97	3697	renungan	
-98	3698	pedoman	
-99	3699	puri	
-100	3700	setapak	
+1	3601	sawah	bersawah sawahnya
+2	3602	sendi	bersendi bersendikan sendinya
+3	3603	khalayak	dikhalayak khalayaknya
+4	3604	sekeluarga	sekeluargalah
+5	3605	terhenti	terhentikan terhentinya
+6	3606	zalim	dizalimi dizaliminya menzalimi menzaliminya zalimi zalimnya
+7	3607	pengawas	pengawasku pengawasmu pengawasnya
+8	3608	mitos	mitosnya
+9	3609	sedut	disedut menyedut menyedutnya sedutkan sedutlah sedutnya
+10	3610	kecelakaan	kecelakaanku kecelakaanlah kecelakaanmu kecelakaannya
+11	3611	nyaris	
+12	3612	angkut	angkutnya diangkut mengangkut mengangkutnya
+13	3613	tabah	menabahkan tabahkan tabahlah tabahnya
+14	3614	kitar	berkitar dikitar mengitar mengitari
+15	3615	protes	memprotes protesnya
+16	3616	sepadan	disepadankan sepadankan
+17	3617	perosak	perosaknya
+18	3618	pelangi	
+19	3619	keesokan	keesokannya
+20	3620	pengertian	pengertianmu pengertiannya
+21	3621	tirai	menirai tirainya
+22	3622	level	levelmu levelnya
+23	3623	cerpen	cerpennya
+24	3624	ketegangan	berketegangan keteganganmu ketegangannya
+25	3625	bak	baklah
+26	3626	restu	direstui merestui merestuinya restui restuilah restukan restuku restumu restunya
+27	3627	cape	
+28	3628	tuang	dituang dituangkan menuang menuangkan menuangkannya menuangnya tuangkan tuangkanlah tuangkannya tuanglah
+29	3629	jinak	berjinak dijinak dijinakkan jinakkan menjinak menjinakkan menjinakkanmu menjinakkannya
+30	3630	berganda	
+31	3631	suai	bersuai disuai disuaikan menyuai suaikan suainya
+32	3632	kontinjen	kontinjennya
+33	3633	rentak	berentak rentakmu rentaknya
+34	3634	godam	digodam digodamkah godamnya menggodam menggodamnya
+35	3635	nahas	nahaslah
+36	3636	dam	dami damkan mendam
+37	3637	johar	johari
+38	3638	telus	setelus telusnya
+39	3639	arang	berarang diarang
+40	3640	bijaksana	bijaksananya membijaksanakan
+41	3641	terlampau	
+42	3642	ragut	diragut meragut meragutnya
+43	3643	pendakwaan	
+44	3644	rebus	berebus direbus merebus merebusnya rebuskan rebuskannya
+45	3645	hun	dihuni dihuninya huni menghuni menghuninya
+46	3646	bara	barakah berbara dibarakan membara
+47	3647	unta	untai untaku untamu untanya
+48	3648	lantas	
+49	3649	original	ori originalnya
+50	3650	pemberontakan	
+51	3651	cetakan	cetakannya
+52	3652	putaran	putaranku putarannya
+53	3653	sifar	disifarkan
+54	3654	perguruan	perguruannya
+55	3655	bengkak	bengkaknya membengkak membengkakkan
+56	3656	azam	azami azammu azamnya
+57	3657	konkrit	konkritnya
+58	3658	pengurangan	
+59	3659	ikrar	berikrar diikrar diikrarkan diikrarkannya ikrarkan mengikrar mengikrarkan
+60	3660	suri	
+61	3661	idola	idolakan idolaku idolamu idolanya mengidolakan
+62	3662	landas	berlandas berlandaskan berlandaskannya dilandasi dilandaskan melandas melandasi melandaskan
+63	3663	rotan	dirotan merotan
+64	3664	dungu	dungukah dungunya
+65	3665	konsisten	konsistennya
+66	3666	terpengaruh	
+67	3667	kejatuhan	kejatuhannya
+68	3668	sajak	bersajak sajaknya
+69	3669	rejim	rejimnya
+70	3670	lobi	lobinya melobi
+71	3671	roma	romaku romanya
+72	3672	sudu	bersudu disudu sudunya
+73	3673	silat	bersilat silatnya
+74	3674	mujur	mujurlah mujurnya
+75	3675	kara	berkara karai karamu
+76	3676	material	materialnya
+77	3677	skop	skopnya
+78	3678	berus	berusi beruskan beruslah diberus memberus
+79	3679	guling	berguling bergulinglah bergulingnya digulingkan gulingkan gulingku mengguling menggulingkan menggulingkannya
+80	3680	segan	disegani segankah
+81	3681	assalamualaikum	
+82	3682	dongeng	dongengnya
+83	3683	keagamaan	keagamaannya
+84	3684	sepi	menyepi menyepikan sepinya sepipun
+85	3685	khinzir	
+86	3686	kapak	berkapak dikapak kapakku kapaknya
+87	3687	sedekah	bersedekah bersedekahlah disedekah disedekahkan menyedekahkan sedekahkan sedekahkanlah sedekahlah sedekahnya
+88	3688	hampa	dihampakan hampakan hampalah menghampakan menghampakanmu menghampakannya
+89	3689	tamak	tamakkan tamaknya
+90	3690	ham	berham hami hamlah
+91	3691	penghulu	
+92	3692	arkib	arkibnya diarkib diarkibkan
+93	3693	dedikasi	berdedikasi dedikasikan dedikasinya didedikasi didedikasikan mendedikasi mendedikasikan
+94	3694	kelawar	kelawarnya
+95	3695	telekomunikasi	
+96	3696	perlakuan	perlakuanmu perlakuannya
+97	3697	pembuangan	pembuangannya
+98	3698	premier	
+99	3699	kuman	berkuman
+100	3700	integrasi	berintegrasi diintegrasi diintegrasikan integrasikan integrasinya mengintegrasi mengintegrasikan mengintegrasikannya

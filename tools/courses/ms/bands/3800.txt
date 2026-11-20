@@ -1,100 +1,100 @@
-1	3701	farmaseutikal	
-2	3702	penyaman	
-3	3703	petai	
-4	3704	larat	
-5	3705	bangau	
-6	3706	baligh	
-7	3707	mempedulikan	
-8	3708	kontemporari	
-9	3709	songket	
-10	3710	rakus	
-11	3711	baku	
-12	3712	nyah	
-13	3713	jerami	
-14	3714	plumbum	
-15	3715	laras	
-16	3716	nusa	
-17	3717	ginjal	ginjalku ginjalnya
-18	3718	buaian	buaiannya
-19	3719	layu	
-20	3720	yogurt	
-21	3721	kalu	
-22	3722	keladi	
-23	3723	stail	stailnya
-24	3724	pancuran	
-25	3725	gulai	
-26	3726	perhitungan	
-27	3727	gelandangan	
-28	3728	kasta	
-29	3729	talam	
-30	3730	resam	resamnya
-31	3731	tarawih	
-32	3732	sandwic	
-33	3733	baucar	
-34	3734	kupang	
-35	3735	tuli	
-36	3736	katering	
-37	3737	nek	
-38	3738	hapus	
-39	3739	rasuk	
-40	3740	ulam	
-41	3741	liabiliti	liabilitinya
-42	3742	kupon	kuponnya
-43	3743	tulus	
-44	3744	teraju	
-45	3745	kukus	
-46	3746	manggis	
-47	3747	mempelai	
-48	3748	laba	labanya
-49	3749	kepolisian	
-50	3750	kapitalis	
-51	3751	pengudaraan	
-52	3752	jingga	jinggamu jingganya
-53	3753	kanji	
-54	3754	meluru	
-55	3755	antologi	
-56	3756	terkurung	
-57	3757	menindas	
-58	3758	gimnasium	
-59	3759	pembicaraan	
-60	3760	tokong	
-61	3761	rabun	
-62	3762	belit	dibelit membelit
-63	3763	keringat	keringatku keringatnya
-64	3764	gergaji	gergajinya
-65	3765	argus	arkus
-66	3766	mencurigai	curigai dicurigai
-67	3767	amaun	
-68	3768	sirip	siripku siripmu siripnya
-69	3769	biarawan	biarawati
-70	3770	lintang	
-71	3771	pundi	
-72	3772	horizon	
-73	3773	kerak	keraknya
-74	3774	dot	
-75	3775	petik	
-76	3776	liwat	liwatnya
-77	3777	kurnia	kurnianya
-78	3778	pelihara	
-79	3779	abdi	
-80	3780	tinjau	ditinjau
-81	3781	kedekut	
-82	3782	isyak	
-83	3783	psiko	
-84	3784	mamak	mamakku
-85	3785	aki	akinya
-86	3786	menyelubungi	
-87	3787	iringan	
-88	3788	stim	
-89	3789	lontar	
-90	3790	cuka	
-91	3791	jala	jalanya
-92	3792	jannah	
-93	3793	warta	
-94	3794	nitrogen	
-95	3795	telapak	
-96	3796	fosil	
-97	3797	dajal	dajjal
-98	3798	opsyen	
-99	3799	platun	platunnya
-100	3800	kenang	
+1	3701	rungut	dirungut merungut merungutkah rungutkan
+2	3702	tombak	ditombak tombakku tombaknya
+3	3703	kegilaan	kegilaanku kegilaanmu kegilaannya
+4	3704	badai	badainya dibadai membadai
+5	3705	laksa	dilaksakan melaksakan
+6	3706	jersi	berjersi jersinya
+7	3707	hidu	dihidu hiduku hidulah hidunya menghidu menghidunya
+8	3708	duet	berduet duetlah duetnya
+9	3709	sembang	bersembang bersembanglah disembangkan sembangkan
+10	3710	plan	plannya
+11	3711	gram	
+12	3712	cerdas	cerdaskan cerdaslah cerdasmu cerdasnya mencerdaskan
+13	3713	pedalaman	
+14	3714	perancang	perancangnya
+15	3715	percintaan	percintaannya
+16	3716	tercinta	tercintaku tercintamu tercintanya
+17	3717	amar	
+18	3718	rusuk	merusuk rusuknya
+19	3719	pemangsa	
+20	3720	kemakmuran	kemakmurannya
+21	3721	terbatas	terbatasnya
+22	3722	sofa	sofaku sofalah sofamu sofanya
+23	3723	pernyataan	pernyataanmu pernyataannya
+24	3724	seruan	seruanku seruannya
+25	3725	aspirasi	aspirasinya beraspirasi diaspirasikan mengaspirasikan
+26	3726	bisu	berbisu bisukah bisukan dibisukan membisu
+27	3727	penagih	
+28	3728	manifesto	manifestonya
+29	3729	janggut	berjanggut janggutku janggutlah janggutmu janggutnya
+30	3730	larian	berlarian lariannya
+31	3731	kedaulatan	kedaulatannya
+32	3732	labu	labumu labunya
+33	3733	cerdik	mencerdikkan
+34	3734	ambang	diambang mengambang mengambangnya
+35	3735	formal	formalku formalnya memformalkan
+36	3736	mazhab	bermazhab mazhabnya
+37	3737	perikanan	
+38	3738	wisma	
+39	3739	mutlak	mutlaknya
+40	3740	hajar	dihajar menghajar menghajarku menghajarmu menghajarnya
+41	3741	forensik	forensiknya
+42	3742	lapis	berlapis berlapiskan berlapisku dilapis dilapisi lapisi lapiskan lapisnya melapisi melapisinya
+43	3743	populasi	berpopulasi dipopulasikan mempopulasikan populasinya
+44	3744	curah	curahkan dicurah dicurahkan mencurah mencurahkan
+45	3745	kekeliruan	kekeliruannya
+46	3746	senam	bersenam bersenamlah
+47	3747	keji	dikeji kejinya mengeji mengejikan
+48	3748	hamzah	
+49	3749	mukmin	
+50	3750	istiadat	istiadatnya
+51	3751	lobak	lobaknya
+52	3752	pedagang	
+53	3753	amuk	diamuk mengamuk
+54	3754	debar	berdebar berdebarnya mendebarkan mendebarkannya
+55	3755	nana	
+56	3756	pelayar	pelayarnya
+57	3757	terbentuk	terbentuklah terbentuknya
+58	3758	labuh	berlabuh berlabuhmu berlabuhnya dilabuhkan labuhkan labuhnya melabuh melabuhkan
+59	3759	jampi	dijampi jampinya menjampi menjampiku menjampinya
+60	3760	memadai	memadailah
+61	3761	kostum	berkostum kostumku kostummu kostumnya
+62	3762	ternak	berternak beternak diternak diternaknya menternak menternaknya ternakku ternaknya
+63	3763	liat	
+64	3764	audio	audionya
+65	3765	inovatif	berinovatif
+66	3766	server	servernya
+67	3767	dikau	dikaulah
+68	3768	ritual	ritualmu ritualnya
+69	3769	produktiviti	produktivitinya
+70	3770	perbendaharaan	perbendaharaannya
+71	3771	visa	visaku visanya
+72	3772	berkeliaran	
+73	3773	mentor	mentori mentorku mentormu mentornya
+74	3774	bawahan	bawahanku bawahanmu bawahannya dibawahan
+75	3775	penunjuk	
+76	3776	angkasawan	angkasawannya
+77	3777	binasa	binasakan binasalah dibinasakan membinasa membinasakan membinasakanku membinasakanmu membinasakannya
+78	3778	ski	berski
+79	3779	pertunangan	pertunanganku pertunanganmu pertunangannya
+80	3780	keunikan	keunikanku keunikannya
+81	3781	tertipu	tertipulah
+82	3782	berkas	berkasku berkaslah berkasmu berkasnya diberkas memberkas memberkaskan memberkasnya seberkas
+83	3783	longkang	longkangnya
+84	3784	duri	berduri berdurinya durinya
+85	3785	hentam	dihentam hentamnya menghentam menghentamku menghentamnya
+86	3786	ubi	berubi ubinya
+87	3787	pembebasan	pembebasanmu pembebasannya
+88	3788	hirau	dihirau dihiraukan dihiraukannya hiraukan hiraukanku hiraukannya hiraulah menghirau menghiraukan menghiraukanmu menghiraukannya
+89	3789	kesenangan	kesenanganku kesenanganmu kesenangannya
+90	3790	pendaftar	pendaftarnya
+91	3791	wahyu	diwahyukan mewahyukan wahyunya
+92	3792	koma	komaku
+93	3793	kejujuran	kejujuranku kejujuranmu kejujurannya
+94	3794	berilmu	
+95	3795	kehormat	kehormatnya
+96	3796	klip	klipnya
+97	3797	heroin	heroinnya
+98	3798	jamal	jamali
+99	3799	mandarin	
+100	3800	retak	meretak meretakkan retakkan

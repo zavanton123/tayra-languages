@@ -1,310 +1,71 @@
 # Forms the Malay list lacks, by headword (a tab, then the forms). The checker itself takes off the clitics
 # (-nya -ku -mu -lah -kah -pun, ku- kau-) and reads reduplication, so only affixed forms are here.
 # Generated from the ms-en pack and wordfreq: the meN-, di- and bare forms of the list's verbs that the list lacks.
-bagi	membagi
-rasa	merasa
-cuba	mencuba
-tunggu	menunggu
-kira	mengira
-gila	menggila
-ambil	mengambil
-hilang	menghilang
-lepas	melepas
-naik	menaik
-harap	mengharap
-agak	mengagak
-pukul	memukul
-turun	menurun
-langkah	melangkah
-bangun	membangun
-suruh	menyuruh
-bentuk	membentuk
-bayar	membayar
-ubat	mengubat
-beli	membeli
-kunci	mengunci
 contoh	dicontoh
-tembak	menembak
-pilih	memilih
-alih	mengalih
-simpan	menyimpan
-benci	membenci
-pinang	meminang
-buang	membuang
-bakar	membakar
-ulang	mengulang
-susu	menyusu
-sangka	menyangka
-jangka	menjangka
-pasang	memasang
-tulis	menulis
 mengaku	diaku
-ubah	mengubah
-titik	menitik
-bina	membina
-ganti	mengganti
-tolak	menolak
-tunjuk	menunjuk
-kawal	mengawal
-rindu	merindu
-benarkan	membenarkan
-tekan	menekan
-muat	memuat
-kubur	mengubur
-siasat	menyiasat
-goreng	menggoreng
-jauhkan	menjauhkan
-halang	menghalang
-jejak	menjejak
-putar	memutar
-urus	mengurus
-teka	meneka
-temu	menemu
-tawar	menawar
-ucap	mengucap
-ajak	mengajak
-langgar	melanggar
-pinjam	meminjam
-baling	membaling
-cium	mencium
-uji	menguji
-hala	menghala
-jemput	menjemput
-tumpang	menumpang
-undur	mengundur
-lintas	melintas
-naikkan	menaikkan
-tanggung	menanggung
-buru	memburu
-layan	melayan
-jamin	menjamin
-padam	memadam
-upah	mengupah
-kirim	mengirim
-cabut	mencabut
-gantung	menggantung
-tumbuk	menumbuk
-rujuk	merujuk
-beku	membeku
-tentukan	menentukan
-layang	melayang
-tampar	menampar
-sokong	menyokong
-nyanyi	menyanyi
-jahit	menjahit
-basuh	membasuh
-rakam	merakam
-jelajah	menjelajah
-tendang	menendang
-sambut	menyambut
-nikah	menikah
-tepuk	menepuk
-urut	mengurut
-tikam	menikam
-panggang	memanggang
 arkib	mengarkib
-jerit	menjerit
-culik	menculik
-susun	menyusun
-cucuk	mencucuk
 elak	mengelak
-tempah	menempah
-rotan	merotan
-cabar	mencabar
-ugut	mengugut
-reda	mereda
-jilat	menjilat
-koyak	mengoyak
-kutip	mengutip
-rebus	merebus
 lepak	melepak
 melancong	lancong
-tunda	menunda
-rawat	merawat
-tuduh	menuduh
-pijak	memijak
-salin	menyalin
-taip	menaip
-luncur	meluncur
-memungkinkan	mungkinkan
-tiup	meniup
-imbas	mengimbas
-bikin	membikin
-rentas	merentas
+mungkin	mungkinkan
 lokap	melokap
-lanjutkan	melanjutkan
 ponteng	diponteng
-sumbang	menyumbang
-bahagi	membahagi
-gulung	menggulung
-hentam	menghentam
 kayuh	dikayuh
-ramal	meramal
-lamar	melamar
-tembus	menembus
-bantah	membantah
-hafal	menghafal
-heret	mengheret
-mengemis	kemis
-hidu	menghidu
-susut	menyusut
-timbang	menimbang
-rebut	merebut
+emis	kemis
 orak	diorak
-kunyah	mengunyah
-taruh	menaruh
-hapus	menghapus
-rasuk	merasuk
-meluru	luru
-lontar	melontar
-tebus	menebus
 lancap	dilancap
-bajak	membajak
-bekal	membekal
-cegah	mencegah
-ludah	meludah
-desak	mendesak
-genggam	menggenggam
-melengkung	dilengkung
-tawan	menawan
-pukau	memukau
-eja	mengeja
-usik	mengusik
-pikat	memikat
-adu	mengadu
-jenguk	menjenguk
-godam	menggodam
-ulas	mengulas
-tabur	menabur
-ungkit	mengungkit
-lindung	melindung
-edar	mengedar
-inap	menginap
+lengkung	dilengkung
 tuai	menuai
-usir	mengusir
-bidik	membidik
-hias	menghias
-intip	mengintip
-rendam	merendam
-pancung	memancung
-merakyatkan	rakyatkan dirakyatkan
-tebang	menebang
+rakyat	rakyatkan dirakyatkan
 oder	mengoder dioder
-titis	menitis
 cekup	mencekup
-ejek	mengejek
-junjung	menjunjung
-hirup	menghirup
-memeningkan	dipeningkan
-kupas	mengupas
-hembus	menghembus
-lekat	melekat
-curah	mencurah
+pening	dipeningkan
 dampak	mendampak didampak
-biak	membiak
-bazir	membazir
-angguk	mengangguk
-lakar	melakar
-asah	mengasah
 cemeti	mencemeti dicemeti
-apung	mengapung
 colok	dicolok
-pacu	memacu
-buak	membuak
-bendung	membendung
-usap	mengusap
-utus	mengutus
-gigil	menggigil
 runut	merunut dirunut
-risik	merisik
-menginsafkan	insafkan diinsafkan
-hadang	menghadang
-langgan	melanggan
-sahut	menyahut
+insaf	insafkan diinsafkan
 sakat	disakat
 gembur	menggembur
-asuh	mengasuh
 fardukan	memfardukan
-toreh	menoreh
-singkir	menyingkir
-usung	mengusung
-hunus	menghunus
-menyentak	disentak
-singgung	menyinggung
-mencelakakan	celakakan dicelakakan
-mengabui	diabui
-baguskan	dibaguskan
-kikis	mengikis
-hibur	menghibur
-leleh	meleleh
-meringkik	ringkik
-bundarkan	membundarkan dibundarkan
+sentak	disentak
+celaka	celakakan dicelakakan
+abu	diabui
+bagus	dibaguskan
+bundar	membundarkan dibundarkan
 plagiat	diplagiat
 mengeong	ngeong
-melurut	lurut
-hidap	menghidap
-memekak	mekak
-lenting	melenting
-zumkan	dizumkan
-jangkau	menjangkau
-francaiskan	memfrancaiskan
-membandarkan	bandarkan dibandarkan
-rintih	merintih
-memelayukan	melayukan
-mengelokkan	elokkan dielokkan
+pekak	mekak
+zum	dizumkan
+francais	memfrancaiskan
+bandar	bandarkan dibandarkan
+elok	elokkan dielokkan
 gerek	menggerek
-imaginasikan	mengimaginasikan
-misalkan	memisalkan dimisalkan
-jelma	menjelma
-repek	merepek
-melorongkan	lorongkan dilorongkan
+imaginasi	mengimaginasikan
+misal	memisalkan dimisalkan
+lorong	lorongkan dilorongkan
 tenggek	menenggek ditenggek
 sangai	menyangai
-mengabsahkan	absahkan
-anyam	menganyam
+absah	absahkan
 jerkah	dijerkah
-mengancamkan	ancamkan diancamkan
-mengatai	dikatai
-memperelok	perelok diperelok
+ancam	ancamkan diancamkan
+kata	dikatai
+elok	perelok diperelok
 masamkan	memasamkan
 menyuratkan	suratkan
-hakis	menghakis
 kodek	mengodek dikodek
 randuk	meranduk
-igau	mengigau
-menyabarkan	sabarkan disabarkan
+sabar	sabarkan disabarkan
 menakali	nakali
-tetas	menetas
 animasikan	menganimasikan
-punyakan	mempunyakan dipunyakan
-mengacak	diacak
-memformalkan	formalkan diformalkan
+punya	mempunyakan dipunyakan
+acak	diacak
+formal	formalkan diformalkan
 # Added by hand.
-beritahu	memberitahu diberitahu
-tutup	ditutup
-tukar	ditukar
-pegang	memegang
-pilih	dipilih
-tembak	ditembak
-simpan	disimpan
-jumpa	berjumpa
-nama	bernama
-hari	sehari
 selamatkan	menyelamatkan diselamatkan
-bakar	dibakar
-buang	dibuang
 menyerang	diserang
 mengeluarkan	dikeluarkan keluarkan
 menawarkan	ditawarkan tawarkan
 menemui	ditemui temui
 mengesahkan	sahkan
 menyelesaikan	selesaikan diselesaikan
-paksa	dipaksa
-ulang	diulang ulangi mengulangi diulangi
-isi	diisi
-beli	dibeli
-ambil	diambil
-guna	menggunakan
-periksa	memeriksa
-ucap	mengucapkan
-sepak	menyepak

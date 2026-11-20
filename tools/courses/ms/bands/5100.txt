@@ -1,100 +1,100 @@
-1	5001	perantis	
-2	5002	moluska	
-3	5003	karikatur	
-4	5004	kula	
-5	5005	lahu	
-6	5006	boi	
-7	5007	autoriti	
-8	5008	penyaringan	
-9	5009	menaungi	
-10	5010	depoh	
-11	5011	udi	
-12	5012	ritma	
-13	5013	semangka	
-14	5014	gambus	
-15	5015	memutihkan	
-16	5016	ilah	ilahnya
-17	5017	ladam	
-18	5018	surai	
-19	5019	karbonat	
-20	5020	biang	
-21	5021	tindih	
-22	5022	kelupas	mengelupas
-23	5023	runut	
-24	5024	seelok	
-25	5025	kumbar	
-26	5026	bingkas	
-27	5027	pempetisyen	
-28	5028	risik	
-29	5029	kependudukan	
-30	5030	tubir	
-31	5031	hingar	
-32	5032	himpun	
-33	5033	lebak	
-34	5034	ketimbang	
-35	5035	persenyawaan	
-36	5036	natang	
-37	5037	mempermudah	dipermudah permudah
-38	5038	kobalt	
-39	5039	garau	
-40	5040	seantero	
-41	5041	kekili	
-42	5042	kemampanan	
-43	5043	kemelayuan	
-44	5044	tomyam	
-45	5045	tumpeng	
-46	5046	buncis	
-47	5047	transfusi	transfusinya
-48	5048	beluncas	
-49	5049	abon	
-50	5050	vertikal	
-51	5051	iritasi	
-52	5052	batok	
-53	5053	abal	
-54	5054	bergas	
-55	5055	lawang	
-56	5056	gegendang	
-57	5057	alun	
-58	5058	ketuat	
-59	5059	misal	
-60	5060	labur	dilabur
-61	5061	landai	
-62	5062	tawas	
-63	5063	laknatullah	
-64	5064	sumpit	sumpitan sumpitmu
-65	5065	ateis	
-66	5066	dedap	
-67	5067	hampar	
-68	5068	uma	
-69	5069	aprikot	
-70	5070	tenuk	
-71	5071	pokai	
-72	5072	keting	
-73	5073	insafi	diinsafi
-74	5074	mahakarya	
-75	5075	pengiklan	
-76	5076	oftalmologi	
-77	5077	gajus	
-78	5078	menginsafkan	
-79	5079	rimbunan	
-80	5080	saderi	
-81	5081	petala	
-82	5082	perunggu	
-83	5083	cawat	
-84	5084	penapaian	
-85	5085	fonologi	
-86	5086	bersurat	
-87	5087	filsafat	
-88	5088	benam	
-89	5089	memalingkan	dipalingkan
-90	5090	rencong	
-91	5091	kripton	
-92	5092	biduan	
-93	5093	pukang	
-94	5094	pewarisan	
-95	5095	ulun	
-96	5096	canang	
-97	5097	pongsu	
-98	5098	senduk	senduknya
-99	5099	pemunya	
-100	5100	kerengsaan	
+1	5001	lelong	dilelong lelongkan lelongnya melelong
+2	5002	jerat	dijerat jeratnya menjerat menjeratku menjeratmu menjeratnya
+3	5003	siram	bersiram bersiramkan disiram disirami menyiram menyirami menyiramiku menyiraminya menyiramkan menyirammu menyiramnya sirami siramilah siramkan
+4	5004	kayak	berkayak kayaknya
+5	5005	skema	skemamu skemanya
+6	5006	penetapan	penetapannya
+7	5007	hana	
+8	5008	nutrien	bernutrien nutriennya
+9	5009	ponteng	memonteng pon
+10	5010	persis	persisnya
+11	5011	rel	
+12	5012	pengangguran	
+13	5013	junjung	dijunjung menjunjung
+14	5014	sal	sali saliku sallah
+15	5015	kesibukan	kesibukannya
+16	5016	liku	berliku
+17	5017	ela	dielakan elai elakan mengelakan
+18	5018	hon	dihon honi honnya
+19	5019	pengiklanan	pengiklanannya
+20	5020	warung	warungnya
+21	5021	terbuang	
+22	5022	karam	
+23	5023	step	
+24	5024	kulat	berkulat
+25	5025	internasional	
+26	5026	jangkauan	jangkauanku jangkauanmu jangkauannya
+27	5027	belit	belitkan belitkannya berbelit dibelit dibelitkan membelit membelitkan membelitku
+28	5028	reti	
+29	5029	bini	berbini biniku bininya
+30	5030	masukan	dimasukan masukanmu masukannya
+31	5031	munafik	
+32	5032	pembatalan	pembatalannya
+33	5033	flora	
+34	5034	bangsal	bangsalnya
+35	5035	rambutan	
+36	5036	rim	berim rimnya
+37	5037	ronda	meronda
+38	5038	pembakar	pembakarmu
+39	5039	kesembilan	
+40	5040	inflasi	
+41	5041	tugu	tugukah tugunya
+42	5042	dialek	berdialek
+43	5043	lang	dilang langkan langlah melang
+44	5044	entri	entrinya
+45	5045	strawberi	
+46	5046	asri	
+47	5047	taring	bertaring taringku taringmu taringnya
+48	5048	anjal	anjali anjaliku menganjal menganjalkan
+49	5049	bahtera	bahteranya
+50	5050	pertikaian	
+51	5051	kesederhanaan	kesederhanaannya
+52	5052	singgung	disinggung menyinggung menyinggungkan menyinggungku menyinggungmu menyinggungnya singgungkan
+53	5053	pelengkap	berpelengkap pelengkapnya
+54	5054	wadah	wadahnya
+55	5055	paut	berpaut berpautlah dipaut dipautkan pautkan pautnya
+56	5056	tontonan	tontonannya
+57	5057	diskriminasi	didiskriminasi didiskriminasikan mendiskriminasi mendiskriminasikan
+58	5058	misa	
+59	5059	taska	taskanya
+60	5060	raga	diragakan meraga meragakan ragaku raganya
+61	5061	pengairan	
+62	5062	soya	
+63	5063	wafat	diwafatkan wafatnya
+64	5064	keluhan	keluhanku keluhanmu keluhannya
+65	5065	prasangka	berprasangka
+66	5066	citra	bercitra citranya
+67	5067	kecai	berkecai kecaikan
+68	5068	syair	bersyair syairi syairnya
+69	5069	pemantau	pemantaunya
+70	5070	balu	balui balunya
+71	5071	vagina	vaginaku vaginamu
+72	5072	organisma	
+73	5073	paksaan	paksaannya
+74	5074	kental	kentalkah kentalnya mengental mengentalkan
+75	5075	tumit	bertumit tumitku tumitmu tumitnya
+76	5076	kesahihan	kesahihannya
+77	5077	anis	
+78	5078	asah	asahi diasah mengasah
+79	5079	tasbih	bertasbih bertasbihlah
+80	5080	alfa	alfanya
+81	5081	terjalin	terjalinnya
+82	5082	genggaman	genggamanku genggamanmu genggamannya
+83	5083	replika	mereplika mereplikanya replikanya
+84	5084	prospek	
+85	5085	kesultanan	kesultanannya
+86	5086	timun	mentimun
+87	5087	pengukuhan	
+88	5088	kolar	berkolar kolarnya
+89	5089	pertengkaran	pertengkarannya
+90	5090	berakhlak	berakhlaklah
+91	5091	rumpun	berumpun serumpun
+92	5092	keunggulan	keunggulannya
+93	5093	peri	berperi diperikan memeri memerikan perinya
+94	5094	apek	
+95	5095	tumor	tumornya
+96	5096	fanatik	fanatiknya
+97	5097	sebelas	
+98	5098	memancar	memancarkan memancarkannya
+99	5099	perdebatan	perdebatannya
+100	5100	urai	diurai diuraikan menguraikan menguraikannya uraikan

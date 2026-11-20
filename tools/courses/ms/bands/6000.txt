@@ -1,100 +1,100 @@
-1	5901	renik	
-2	5902	taasub	
-3	5903	teritip	
-4	5904	pawana	
-5	5905	barung	
-6	5906	empu	
-7	5907	fulus	
-8	5908	jengah	
-9	5909	kanin	
-10	5910	leksikografi	
-11	5911	misalan	
-12	5912	pulun	
-13	5913	tayamum	
-14	5914	akik	
-15	5915	birah	
-16	5916	cintan	
-17	5917	langgam	
-18	5918	suji	
-19	5919	tenggek	
-20	5920	konifer	
-21	5921	sangai	
-22	5922	takah	
-23	5923	riam	
-24	5924	mengabsahkan	diabsahkan
-25	5925	poros	
-26	5926	radium	
-27	5927	tulat	
-28	5928	penebuk	
-29	5929	berkicap	
-30	5930	memendek	
-31	5931	pirana	
-32	5932	keelokan	
-33	5933	iau	
-34	5934	tengar	
-35	5935	siring	
-36	5936	gelut	
-37	5937	kematu	
-38	5938	konduksi	
-39	5939	pangku	
-40	5940	ciput	
-41	5941	perkotaan	
-42	5942	berma	biram
-43	5943	apan	
-44	5944	gelenggang	
-45	5945	pekerma	
-46	5946	bengkong	
-47	5947	berian	
-48	5948	digraf	
-49	5949	justifikasikan	dijustifikasikan
-50	5950	gemulah	
-51	5951	germa	
-52	5952	karsinogenik	
-53	5953	kemban	
-54	5954	lerai	
-55	5955	oktagon	
-56	5956	pengaratan	
-57	5957	penyederhanaan	
-58	5958	plagiarisme	
-59	5959	pragmatisme	
-60	5960	seka	
-61	5961	telerang	
-62	5962	tempik	
-63	5963	penara	
-64	5964	perghhh	
-65	5965	pucung	
-66	5966	anod	
-67	5967	dekoratif	
-68	5968	kebagusan	
-69	5969	keterlarutan	
-70	5970	musahaqah	
-71	5971	tangguk	
-72	5972	anyam	
-73	5973	bermentaliti	
-74	5974	brakilogi	
-75	5975	dekor	
-76	5976	geroda	
-77	5977	peniskalaan	
-78	5978	piut	
-79	5979	penderas	
-80	5980	gegak	
-81	5981	fiil	
-82	5982	jerkah	menjerkah
-83	5983	bentangan	
-84	5984	nganga	
-85	5985	tingkal	
-86	5986	joli	
-87	5987	sesiku	
-88	5988	antimoni	
-89	5989	ketot	
-90	5990	beroksigen	
-91	5991	asfalt	
-92	5992	skandium	
-93	5993	antikristus	
-94	5994	aurum	
-95	5995	tapau	
-96	5996	obituari	
-97	5997	logamaya	
-98	5998	berbayang	
-99	5999	mengancamkan	
-100	6000	sosialit	
+1	5901	problem	
+2	5902	pedal	mempedal pedalnya
+3	5903	termuda	
+4	5904	terung	
+5	5905	biawak	
+6	5906	lancap	melancap melancaplah
+7	5907	mual	memualkan muali mualnya
+8	5908	spin	
+9	5909	teratai	teratailah
+10	5910	sekunder	
+11	5911	ekstrem	
+12	5912	santapan	santapanku santapannya
+13	5913	peranakan	peranakannya
+14	5914	tri	menri mentri
+15	5915	tindih	bertindih ditindih menindih menindihkan menindihku
+16	5916	tauke	taukenya
+17	5917	mohor	
+18	5918	terperanjat	terperanjatkan terperanjatnya
+19	5919	yak	yaki
+20	5920	kroni	kroninya
+21	5921	penantian	penantianku penantianmu penantiannya
+22	5922	sentul	
+23	5923	tempurung	
+24	5924	keling	kelingkan kelingnya mengelingi
+25	5925	empuk	empukmu empuknya mengempukkan
+26	5926	birokrasi	
+27	5927	ambo	
+28	5928	hipotesis	dihipotesis hipotesisnya
+29	5929	leh	memperlehkan
+30	5930	kecik	
+31	5931	merak	
+32	5932	stoking	stokingnya
+33	5933	penentangan	penentangannya
+34	5934	tekstur	bertekstur teksturnya
+35	5935	mala	
+36	5936	kepincangan	kepincangannya
+37	5937	berkecimpung	
+38	5938	ratna	
+39	5939	tiara	tiaramu
+40	5940	palam	palamkan palamkannya palamnya
+41	5941	berhala	berhalanya
+42	5942	sangsi	disangsikan menyangsikan sangsikan
+43	5943	berantakan	
+44	5944	pustakawan	
+45	5945	mujahid	
+46	5946	perda	
+47	5947	leleh	lelehkan meleleh melelehkan
+48	5948	perajurit	perajuritku perajuritmu
+49	5949	teriakan	meneriakan teriakanku teriakanmu teriakannya
+50	5950	menitikberatkan	
+51	5951	hemat	berhemat dihemat hematnya menghemat
+52	5952	sore	soremu
+53	5953	migrasi	bermigrasi dimigrasikan migrasinya
+54	5954	sauh	bersauh sauhkan sauhnya
+55	5955	pengarahan	pengarahannya
+56	5956	influenza	
+57	5957	tekstil	
+58	5958	tandu	ditandu tandukan tandukannya tanduku tandunya
+59	5959	radius	beradius radiusnya
+60	5960	bolos	dibolos dibolosi membolos membolosi memboloskan
+61	5961	gusar	digusari digusarkan menggusar menggusarkan
+62	5962	kemurkaan	kemurkaanku kemurkaannya
+63	5963	gilap	bergilap digilap menggilap menggilapkan menggilapnya
+64	5964	kehijauan	
+65	5965	bufet	
+66	5966	lonjakan	
+67	5967	pemantapan	
+68	5968	rahib	
+69	5969	kikis	dikikis kikiskan kikisnya mengikis
+70	5970	laos	
+71	5971	tangkal	menangkal
+72	5972	keanggotaan	keanggotaannya
+73	5973	tambun	ditambun menambun
+74	5974	betik	betikku betiknya
+75	5975	seramik	
+76	5976	gin	bergin pergini
+77	5977	tungku	bertungku
+78	5978	gendut	gendutnya
+79	5979	sisih	disisih disisihkan menyisih menyisihkan menyisihkannya sisihkan sisihkannya
+80	5980	manifestasi	dimanifestasikan manifestasinya memanifestasikan
+81	5981	pembalakan	
+82	5982	koordinasi	berkoordinasi dikoordinasi dikoordinasikan koordinasikan mengkoordinasi mengkoordinasikan
+83	5983	keterampilan	berketerampilan keterampilanmu keterampilannya
+84	5984	imunisasi	diimunisasi imunisasinya
+85	5985	rambang	rambangnya
+86	5986	cangkir	cangkirmu cangkirnya secangkir
+87	5987	botani	botaninya
+88	5988	kuningan	
+89	5989	dekorasi	mendekorasi mendekorasikan
+90	5990	cendekiawan	
+91	5991	halaju	berhalaju halajunya
+92	5992	selak	diselak menyelak selaklah selaknya
+93	5993	yaitu	
+94	5994	mujarab	
+95	5995	teruna	terunanya
+96	5996	sembelit	
+97	5997	pengulas	
+98	5998	briged	
+99	5999	tuding	dituding menuding
+100	6000	sekular	sekularnya

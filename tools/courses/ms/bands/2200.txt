@@ -1,100 +1,100 @@
-1	2101	menghadap	
-2	2102	wayar	wayarnya
-3	2103	panggung	panggungnya
-4	2104	kentang	kentangnya
-5	2105	purba	
-6	2106	kebimbangan	
-7	2107	tamadun	tamadunnya
-8	2108	caj	
-9	2109	kesusahan	
-10	2110	mutu	mutunya
-11	2111	layan	
-12	2112	pemakanan	pemakanannya
-13	2113	kuku	kukuku kukumu kukunya
-14	2114	ipar	iparku iparmu iparnya
-15	2115	ketenangan	
-16	2116	baring	berbaring
-17	2117	cuci	
-18	2118	rangka	rangkaku rangkanya
-19	2119	wabak	wabaknya
-20	2120	berbaloi	
-21	2121	poket	
-22	2122	serentak	
-23	2123	lif	
-24	2124	serangga	seranggaku serangganya
-25	2125	id	
-26	2126	kuno	
-27	2127	butuh	
-28	2128	asid	
-29	2129	jati	
-30	2130	ar	
-31	2131	arnab	arnabnya
-32	2132	gali	menggali
-33	2133	berniat	
-34	2134	jamin	
-35	2135	padam	
-36	2136	subuh	subuhku subuhnya
-37	2137	tin	setin
-38	2138	asmara	asmaranya berasmara
-39	2139	sekutu	
-40	2140	bantahan	
-41	2141	selebriti	selebritinya
-42	2142	biskut	biskutnya
-43	2143	rukun	
-44	2144	mempersembahkan	dipersembahkan
-45	2145	lencana	lencanaku lencanamu lencananya
-46	2146	betina	
-47	2147	tingkah	
-48	2148	fizik	fizikku fiziknya
-49	2149	akhlak	
-50	2150	santai	
-51	2151	label	dilabel melabel
-52	2152	prihatin	
-53	2153	visi	visiku visimu visinya
-54	2154	upah	upahku upahmu upahnya
-55	2155	nada	
-56	2156	ala	
-57	2157	tebing	tebingnya
-58	2158	mampus	mam
-59	2159	rompak	dirompak
-60	2160	kirim	
-61	2161	pohon	pohonnya
-62	2162	tampan	tertampan
-63	2163	terjemahan	terjemahannya
-64	2164	tuju	menujukan
-65	2165	menambahkan	
-66	2166	cili	cilinya
-67	2167	bersabar	
-68	2168	astaghfirullah	astaga
-69	2169	peribahasa	
-70	2170	gangsa	
-71	2171	keselesaan	
-72	2172	hodoh	
-73	2173	tanggal	ditanggalkan menanggalkan
-74	2174	panda	pandanya
-75	2175	haba	aba abaku habanya
-76	2176	kaji	kajiku
-77	2177	cabut	
-78	2178	ulu	
-79	2179	gagah	
-80	2180	tampak	
-81	2181	lanun	lanunku lanunnya
-82	2182	sukarela	
-83	2183	biologi	biologiku biologimu biologinya
-84	2184	bujang	bujangnya
-85	2185	pegangan	
-86	2186	sunat	sunatnya
-87	2187	gabenor	gabenornya
-88	2188	peluk	
-89	2189	simpati	
-90	2190	pan	
-91	2191	perolehan	
-92	2192	pemasaran	
-93	2193	empangan	empangannya
-94	2194	mengikat	
-95	2195	eksport	dieksport ekspot mengeksport
-96	2196	asasi	
-97	2197	pucuk	pucuknya sepucuk
-98	2198	sempit	
-99	2199	tertakluk	
-100	2200	pasport	pasportku pasportnya
+1	2101	sela	bersela menyela menyelamu selai selainya selaku
+2	2102	bagaikan	
+3	2103	singkat	dipersingkat disingkat disingkatkan mempersingkat mempersingkatkan menyingkat menyingkatkan menyingkatnya singkatkan singkatnya
+4	2104	lorong	dilorong lorongmu lorongnya melorongkan melorongkannya
+5	2105	catatan	catatanku catatanmu catatannya
+6	2106	sari	bersari sarikan sariku sarimu sarinya
+7	2107	penutup	berpenutup penutupnya
+8	2108	cetak	bercetak cetakkan cetaklah dicetak mencetak mencetakkan mencetaknya percetakkan
+9	2109	puntianak	pontianak puntianakkah puntianaknya
+10	2110	ain	aini ainnya
+11	2111	jua	dijuai juai jualah menjua
+12	2112	dingin	berdingin didinginkan dingini dinginkan dinginmu dinginnya mendinginkan mendinginkanmu mendinginkannya
+13	2113	penampilan	berpenampilan penampilanku penampilanmu penampilannya
+14	2114	televisyen	ditelevisyen televisyenku televisyennya
+15	2115	mantap	dimantapkan dipermantapkan mantapkan mantapnya memantap memantapkan memantapkannya
+16	2116	teksi	teksiku teksimu teksinya
+17	2117	parit	berparit pariti
+18	2118	kebudayaan	kebudayaanmu kebudayaannya
+19	2119	majikan	majikanku majikanmu majikannya
+20	2120	setempat	menyetempatkan setempatku
+21	2121	angka	angkamu angkanya berangka diangka
+22	2122	kekayaan	kekayaanku kekayaanmu kekayaannya
+23	2123	laki	berlaki
+24	2124	bahagi	bahagikan bahagikannya bahagilah berbahagi berbahagilah dibahagi dibahagikan dibahagikannya membahagi membahagikan membahagikannya membahaginya
+25	2125	staf	stafku stafmu stafnya
+26	2126	elemen	berelemen elemennya
+27	2127	lurus	diluruskan luruskah luruskan luruskanlah luruskannya luruslah lurusnya melurus meluruskan meluruskannya
+28	2128	adat	adatlah adatnya beradat
+29	2129	ajaran	ajaranku ajaranmu ajarannya
+30	2130	sekian	sekianlah
+31	2131	perlembagaan	berperlembagaan perlembagaannya
+32	2132	kejuruteraan	kejuruteraannya
+33	2133	ciptaan	ciptaanku ciptaanmu ciptaannya
+34	2134	gelombang	bergelombang bergelombangnya gelombangnya
+35	2135	terbukti	terbuktikah terbuktilah
+36	2136	syak	disyak disyaki mengesyak mengesyaki mengesyakinya mensyaki mensyakinya syaki
+37	2137	parah	memperparah memperparahnya parahkah parahnya
+38	2138	nyala	bernyala dinyalakan menyala menyalai menyalakan menyalakannya menyalalah nyalakan nyalakanlah nyalakannya nyalalah
+39	2139	kang	mengang mengekang mengekangku mengekangnya
+40	2140	kebiasaan	kebiasaanku kebiasaanmu kebiasaannya
+41	2141	dorong	didorong didorongi doronglah dorongnya mendorong mendorongkan mendorongku mendorongmu mendorongnya
+42	2142	tertutup	tertutupi tertutuplah tertutupnya
+43	2143	tiang	bertiang bertiangkan tiangnya
+44	2144	budi	budimu budinya
+45	2145	johan	johani
+46	2146	upah	diupah diupahnya mengupah mengupahku mengupahnya upahku upahlah upahmu upahnya
+47	2147	semenanjung	
+48	2148	latar	berlatar berlatarkan dilatari latarnya melatari
+49	2149	bagitahu	bagitahulah bagitahunya bagitau
+50	2150	roda	beroda diroda rodaku rodamu rodanya
+51	2151	awang	awangku awanglah
+52	2152	gelanggang	digelanggang gelanggangnya
+53	2153	didik	dididik didikku didiklah didiknya mendidik mendidikku mendidikmu mendidiknya
+54	2154	saran	bersaran disaran disarankan menyaran menyarankan menyarankanmu menyarankannya sarani sarankan sarankannya saranku saranmu sarannya
+55	2155	rangka	dirangka dirangkai merangka merangkai merangkakan rangkakan rangkaku rangkanya
+56	2156	e-mel	diemel diemelkan emel emeli emelkan
+57	2157	karang	dikarang dikarangkan karangkan karangnya mengarang mengarangnya
+58	2158	keutamaan	berkeutamaan keutamaanlah keutamaanmu keutamaannya
+59	2159	tumpang	ditumpang ditumpangi ditumpangkan menumpang menumpangkan menumpangku menumpangnya tumpangkan
+60	2160	leftenan	leftenannya
+61	2161	badminton	berbadminton
+62	2162	korporat	dikorporat dikorporatkan korporatnya
+63	2163	lebar	dilebar dilebarkan lebarkan lebarmu lebarnya melebar melebarkan melebarkannya
+64	2164	insurans	berinsurans diinsuranskan insuranskan insuransnya menginsuranskan
+65	2165	perayaan	perayaanmu perayaannya
+66	2166	basah	basahi basahinya basahkan basahkannya basahlah basahnya berbasah dibasah dibasahi dibasahkan membasah membasahi membasahinya membasahkan
+67	2167	hulu	berhulu hulunya menghulu
+68	2168	kuih	kuihnya
+69	2169	nelayan	nelayannya
+70	2170	amin	amini diaminkan mengaminkan mengaminkannya
+71	2171	arak	araklah araknya berarak diarak diarakkan mengarak perarakkan
+72	2172	arus	arusnya berarus diarus mengarus
+73	2173	tadbir	bertadbir ditadbir ditadbirkan ditadbirnya mentadbir mentadbirkan mentadbirkannya mentadbirnya tadbirnya
+74	2174	tanggal	ditanggal ditanggalkan menanggal menanggalkan menanggalkannya menanggalnya tanggalkan tanggalkanlah tanggalkannya tanggalnya
+75	2175	gergasi	gergasinya
+76	2176	panah	dipanah dipanahnya memanah memanahnya panahkan panahku panahmu panahnya
+77	2177	bomba	
+78	2178	ruangan	diruangan diruangannya ruanganku ruanganmu ruangannya
+79	2179	awan	awani awankah awanku awanmu awannya berawan diawan diperawani
+80	2180	sekutu	bersekutu bersekutunya disekutu disekutukan mempersekutukan menyekutukan menyekutukannya sekutuku sekutunya
+81	2181	mel	meli melkan melnya
+82	2182	rumit	dirumitkan merumitkan rumitkan rumitnya
+83	2183	pengorbanan	pengorbananku pengorbananlah pengorbananmu pengorbanannya
+84	2184	kerugian	kerugiannya
+85	2185	rayu	dirayu dirayukan merayu merayuku merayulah merayumu merayunya rayulah rayunya
+86	2186	pemulihan	pemulihanku pemulihanmu pemulihannya
+87	2187	garam	bergaram garami garamkah garamku garamnya
+88	2188	paip	paipkan paipmu paipnya
+89	2189	klik	diklik klikkan mengklik
+90	2190	komponen	komponennya
+91	2191	sabda	bersabda bersabdalah disabdakan menyabdakan sabdanya
+92	2192	pemerintahan	pemerintahannya
+93	2193	letih	letihkan letihlah letihnya meletihkan
+94	2194	panel	berpanel dipanelkan panelnya
+95	2195	majalah	dimajalah majalahku majalahmu majalahnya
+96	2196	ribuan	
+97	2197	gemar	digemari digemarinya gemari gemarinya gemarkan gemarkannya menggemari menggemarinya menggemarkan
+98	2198	seberapa	seberapapun
+99	2199	tegak	ditegakkan menegak menegakkan menegakkannya tegakkan tegaklah tegaknya
+100	2200	saraf	sarafkah sarafmu sarafnya sarap

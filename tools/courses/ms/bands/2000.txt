@@ -1,100 +1,100 @@
-1	1901	keju	kejumu kejunya
-2	1902	misalnya	
-3	1903	krim	
-4	1904	rasul	
-5	1905	lutut	lututku lututmu lututnya
-6	1906	permata	permataku permatanya
-7	1907	tajam	
-8	1908	episod	episodnya
-9	1909	graduan	
-10	1910	kesedihan	
-11	1911	kononnya	
-12	1912	tol	
-13	1913	ganas	
-14	1914	bertempat	
-15	1915	langgar	langgarnya
-16	1916	skrin	
-17	1917	bagai	
-18	1918	import	diimport impot mengimport
-19	1919	sastera	sasteranya
-20	1920	perbualan	
-21	1921	kaunter	
-22	1922	benih	benihku benihnya
-23	1923	pinjam	
-24	1924	kelompok	
-25	1925	butang	
-26	1926	mentah	
-27	1927	baling	
-28	1928	sekalian	
-29	1929	rumput	rumputku rumputmu rumputnya
-30	1930	meyakinkan	
-31	1931	bir	birku birmu birnya
-32	1932	pemaju	
-33	1933	intan	
-34	1934	psikologi	
-35	1935	diperbuat	
-36	1936	penglihatan	pelihatan
-37	1937	selera	seleraku seleramu seleranya
-38	1938	muntah	
-39	1939	berbahasa	
-40	1940	tepung	tepungnya
-41	1941	limau	
-42	1942	wei	
-43	1943	pemantauan	
-44	1944	kebun	kebunku kebunmu kebunnya
-45	1945	cecair	cairan
-46	1946	oksigen	
-47	1947	kilat	kilatnya
-48	1948	usul	
-49	1949	pelarian	
-50	1950	cap	
-51	1951	tamu	
-52	1952	henti	
-53	1953	cium	
-54	1954	uji	
-55	1955	jenazah	jenazahku jenazahnya
-56	1956	infrastruktur	
-57	1957	penari	
-58	1958	klasik	kelasik
-59	1959	padat	
-60	1960	persamaan	persamaannya
-61	1961	abadi	
-62	1962	inspirasi	diinspirasi menginspirasi
-63	1963	awas	
-64	1964	sudahlah	
-65	1965	konflik	
-66	1966	topeng	topengku topengmu topengnya
-67	1967	din	
-68	1968	hala	
-69	1969	menurunkan	
-70	1970	paderi	paderiku paderimu paderinya
-71	1971	informasi	
-72	1972	pinggir	pinggirnya
-73	1973	seragam	
-74	1974	pondok	
-75	1975	wayang	
-76	1976	yuran	yuranku yurannya
-77	1977	karnival	
-78	1978	strategik	
-79	1979	beras	berasnya
-80	1980	bateri	
-81	1981	akademi	
-82	1982	mingguan	
-83	1983	usah	
-84	1984	sarung	sarungku sarungnya
-85	1985	pulak	
-86	1986	sos	
-87	1987	kabinet	
-88	1988	rantau	
-89	1989	topik	
-90	1990	bangsat	
-91	1991	kak	
-92	1992	alkohol	alkoholku alkoholmu alkoholnya
-93	1993	roket	roketmu roketnya
-94	1994	berbau	
-95	1995	terapi	
-96	1996	udang	udangnya
-97	1997	jawi	jejawi
-98	1998	untung	untungnya
-99	1999	lebuh	
-100	2000	kadangkala	
+1	1901	bajet	bajetnya berbajet
+2	1902	basikal	basikalku basikalnya berbasikal
+3	1903	tuduh	dipertuduh dipertuduhkan dituduh dituduhkan dituduhnya menuduh menuduhku menuduhmu menuduhnya tuduhkan
+4	1904	seram	menyeramkan menyeramkanmu seramnya
+5	1905	kelulusan	berkelulusan kelulusanmu kelulusannya
+6	1906	pelancong	pelancongmu
+7	1907	seminar	berseminar diseminar diseminarkan seminari
+8	1908	hala	dihala dihalakan halakan halakannya halaku halanya menghala menghalakan menghalakannya menghalanya
+9	1909	penyelamat	penyelamatku penyelamatmu penyelamatnya
+10	1910	edar	beredar beredarlah beredarnya diedar diedarkan edarkan edarkannya edarnya mengedar mengedarkan mengedarkannya mengedarnya
+11	1911	giliran	bergiliran giliranku giliranmu gilirannya
+12	1912	derita	deritai deritakan deritaku deritamu deritanya diderita dideritai dideritainya dideritanya menderita menderitai menderitakan menderitanya
+13	1913	pangkat	berpangkat pangkatmu pangkatnya
+14	1914	upacara	diupacarakan mengupacarakan upacarakah upacaranya
+15	1915	agenda	agendakan agendamu agendanya diagendakan
+16	1916	harimau	harimaukah harimauku harimaunya rimau
+17	1917	asa	asakan asalah asanya mengasai perasakan perasakannya
+18	1918	jurulatih	jurulatihku jurulatihnya
+19	1919	ketinggian	berketinggian ketinggianku ketinggianmu ketinggiannya
+20	1920	landasan	dilandasan landasannya
+21	1921	tahunan	tahunannya
+22	1922	fakulti	
+23	1923	perisian	perisiankah perisiannya
+24	1924	sejumlah	
+25	1925	rujukan	rujukannya
+26	1926	kejahatan	kejahatanku kejahatanmu kejahatannya
+27	1927	busuk	busukkan busukmu busuknya membusuk membusuklah
+28	1928	sarapan	bersarapan disarapan sarapankah sarapanku sarapanmu sarapannya
+29	1929	kanser	kansernya
+30	1930	senyap	disenyapkan senyapkah senyapkan senyapkannya senyaplah senyapnya
+31	1931	prosedur	berprosedur proseduri prosedurmu prosedurnya
+32	1932	semenjak	semenjaknya
+33	1933	tiap	
+34	1934	atlet	atletku atletnya atlit
+35	1935	penjenayah	penjenayahnya
+36	1936	ampun	ampuni ampunilah ampunkan ampunkanlah diampun diampuni diampunkan mengampun mengampuni mengampuniku mengampunimu mengampuninya mengampunkan mengampunkannya
+37	1937	teras	berteras berteraskan beteraskan diteraskan terasnya
+38	1938	tabung	ditabung menabung tabungmu tabungnya
+39	1939	monyet	monyetku
+40	1940	lutut	berlutut berlututlah dilutut dilututmu lututku lututmu lututnya melutut melututlah
+41	1941	motor	bermotor dimotor motorku motormu motornya
+42	1942	persahabatan	persahabatanku persahabatanmu persahabatannya
+43	1943	tunggal	tunggalku tunggalmu tunggalnya
+44	1944	baki	bakinya berbaki
+45	1945	novel	novelku novelmu novelnya
+46	1946	jalur	berjalur dijalur jalurmu jalurnya menjalur
+47	1947	senyum	bersenyum senyumkan senyumlah senyummu senyumnya
+48	1948	paras	diparas parasnya
+49	1949	kitab	berkitab kitabmu kitabnya
+50	1950	peria	pria
+51	1951	sembah	dipersembah dipersembahkan dipersembahkannya disembah disembahkan mempersembah mempersembahkan mempersembahkannya menyembah menyembahkan menyembahku menyembahmu menyembahnya persembahkan persembahkankan persembahkannya sembahlah sembahmu sembahnya
+52	1952	tenggelam	ditenggelami ditenggelamkan menenggelami menenggelamkan menenggelamkanku menenggelamkanmu menenggelamkannya tenggelamkan tenggelamkanlah tenggelamkannya tenggelamlah tenggelamnya
+53	1953	keterangan	keteranganmu keterangannya
+54	1954	biji	berbiji bijik bijiku bijimu bijinya sebiji
+55	1955	rela	direlai direlakan merela merelakan merelakanmu merelakannya relai relakan relakanlah relakannya relaku relanya
+56	1956	berkualiti	
+57	1957	pemberian	pemberianku pemberianmu pemberiannya
+58	1958	perbelanjaan	perbelanjaanku perbelanjaannya
+59	1959	jenama	berjenama dijenamakan jenamakan jenamaku jenamanya menjenamakan
+60	1960	penghormatan	penghormatanku penghormatanmu penghormatannya
+61	1961	kesakitan	kesakitanlah kesakitanmu kesakitannya
+62	1962	pemindahan	mememindahan pemindahannya
+63	1963	nota	notakan notaku notanya
+64	1964	jasa	berjasa jasaku jasamu jasanya
+65	1965	beradik	beradiklah beradiknya
+66	1966	kuil	kuilmu kuilnya
+67	1967	trak	trakmu traknya
+68	1968	tingkap	bertingkap ditingkap tingkapnya
+69	1969	topi	bertopi topikah topiku topimu topinya
+70	1970	hijrah	berhijrah berhijrahkah berhijrahlah hijrahnya menghijrahkan
+71	1971	tertarik	
+72	1972	mi	mee miku
+73	1973	master	dimaster masteri masterku mastermu masternya
+74	1974	ibadah	beribadah beribadahlah ibadahku ibadahnya
+75	1975	pertarungan	pertarunganku pertarunganmu pertarungannya
+76	1976	kebal	kebali kebalnya
+77	1977	ragu	diragu diragui meragu meragui meraguimu meraguinya meragukan meragukanku meragukanmu meragukannya ragui raguinya ragukan ragukannya
+78	1978	rugi	dirugikan merugi merugikan merugikanku merugikanmu merugikannya rugikah rugikan rugikannya rugilah ruginya
+79	1979	stabil	distabilkan stabilkan stabilkannya stabilnya
+80	1980	suhu	bersuhu suhunya
+81	1981	selidik	diselidik diselidiki menyelidik menyelidiki menyelidikinya menyelidiknya selidiki selidikilah selidikinya selidiklah selidiknya
+82	1982	peringatan	peringatannya
+83	1983	tokoh	tokohnya
+84	1984	butuh	butuhkah butuhkan dibutuhkan membutuhkan membutuhkanku membutuhkanmu membutuhkannya
+85	1985	perisai	berperisai berperisaikan diperisai memperisaikan perisaiku perisaimu perisainya
+86	1986	salinan	salinanku salinanmu salinannya
+87	1987	perasan	berperasan perasankah perasankan perasankannya perasanku
+88	1988	pertukaran	pertukaranmu pertukarannya
+89	1989	sesat	disesatkan menyesat menyesatkan menyesatkannya sesatkan sesatlah sesatnya
+90	1990	pimpinan	pimpinanku pimpinanmu pimpinannya
+91	1991	tim	timi timku timmu timnya
+92	1992	penjagaan	penjagaanku penjagaanmu penjagaannya
+93	1993	warisan	warisanku warisanmu warisannya
+94	1994	tahi	bertahi taik taiki
+95	1995	terdekat	terdekatku terdekatmu terdekatnya
+96	1996	dakwah	berdakwah berdakwahlah dakwahnya didakwah didakwahnya mendakwahkan
+97	1997	teka	berteka diteka meneka menekanya tekalah
+98	1998	robot	robotmu robotnya
+99	1999	kegemaran	kegemaranku kegemaranmu kegemarannya
+100	2000	suruhanjaya	disuruhanjaya suruhanjayaku

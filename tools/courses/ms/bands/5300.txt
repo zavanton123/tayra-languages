@@ -1,100 +1,100 @@
-1	5201	kelucuan	
-2	5202	deodoran	
-3	5203	dudukkan	didudukkan mendudukkan
-4	5204	kelemumur	
-5	5205	panca	
-6	5206	normatif	
-7	5207	tandang	
-8	5208	asuh	
-9	5209	asimilasi	
-10	5210	pengeksportan	
-11	5211	angpau	
-12	5212	wazir	
-13	5213	keta	kete
-14	5214	pernama	
-15	5215	taksonomi	
-16	5216	sengkuang	
-17	5217	riki	
-18	5218	fotosintesis	
-19	5219	kalong	
-20	5220	porselin	
-21	5221	cincau	
-22	5222	manusiawi	
-23	5223	kelebaran	
-24	5224	sesalan	
-25	5225	lateral	
-26	5226	lentur	
-27	5227	feminis	
-28	5228	taji	
-29	5229	lurang	
-30	5230	busa	busanya
-31	5231	natif	
-32	5232	teknokrat	
-33	5233	ovum	
-34	5234	membaharui	
-35	5235	mengislamkan	
-36	5236	toman	
-37	5237	disulam	
-38	5238	tujah	
-39	5239	kapilari	
-40	5240	penjawab	
-41	5241	kekek	
-42	5242	selan	
-43	5243	kepalang	
-44	5244	gewang	
-45	5245	dengkur	
-46	5246	playar	
-47	5247	sulur	
-48	5248	fardukan	difardukan
-49	5249	cupak	
-50	5250	moreh	
-51	5251	berinformasi	
-52	5252	belangkas	
-53	5253	libat	melibat
-54	5254	berpenduduk	
-55	5255	otomobil	
-56	5256	regata	
-57	5257	kumur	
-58	5258	memutih	
-59	5259	malai	
-60	5260	kempunan	
-61	5261	perbaharu	diperbaharu
-62	5262	mendiskriminasikan	didiskriminasikan
-63	5263	kemalasan	
-64	5264	cuak	
-65	5265	hangit	
-66	5266	sangkakala	
-67	5267	toreh	
-68	5268	terjah	
-69	5269	belatuk	
-70	5270	kuarza	
-71	5271	biojisim	
-72	5272	ferum	
-73	5273	kelelawar	
-74	5274	prasasti	
-75	5275	flamingo	
-76	5276	pijar	
-77	5277	singkir	
-78	5278	usung	
-79	5279	khadam	
-80	5280	syubhah	
-81	5281	berbekas	
-82	5282	pesimis	
-83	5283	purdah	
-84	5284	tuak	
-85	5285	kecap	
-86	5286	reformis	
-87	5287	losen	
-88	5288	sedu	
-89	5289	hunus	
-90	5290	armadillo	
-91	5291	sesalkan	disesalkan menyesalkan
-92	5292	menyentak	
-93	5293	baruh	
-94	5294	sohor	
-95	5295	wantan	
-96	5296	gem	
-97	5297	tapir	
-98	5298	trigonometri	
-99	5299	kefasihan	
-100	5300	melukut	
+1	5201	penyusunan	penyusunannya
+2	5202	mercu	
+3	5203	tercipta	terciptalah terciptanya
+4	5204	pelopor	dipelopori dipeloporinya memelopori mempelopori mempeloporinya pelopornya
+5	5205	pendiam	pendiamku pendiamnya
+6	5206	slip	slipnya
+7	5207	karma	karmaku karmanya
+8	5208	kemerosotan	kemerosotannya
+9	5209	ion	berion mengion
+10	5210	eden	
+11	5211	julat	berjulat julatnya
+12	5212	lumrah	lumrahnya
+13	5213	hikayat	
+14	5214	saka	
+15	5215	perangkaan	perangkaannya
+16	5216	keampunan	keampunanmu keampunannya
+17	5217	kapur	berkapur mengapur
+18	5218	woi	
+19	5219	kelola	dikelola dikelolakan kelolakan mengelola mengelolakan mengelolanya
+20	5220	piatu	piatunya
+21	5221	obesiti	
+22	5222	navigasi	dinavigasi menavigasi menavigasikan
+23	5223	viva	
+24	5224	belaka	
+25	5225	lembik	lembiklah melembikkan
+26	5226	habitat	berhabitat habitatnya
+27	5227	gempak	menggempakkan
+28	5228	zed	
+29	5229	radang	meradang
+30	5230	luruh	meluruh
+31	5231	faks	difaks difakskan faksi fakskan fakskannya
+32	5232	dermawan	dermawani dermawannya
+33	5233	galah	bergalah
+34	5234	perokok	
+35	5235	duniawi	
+36	5236	cerewet	
+37	5237	indra	
+38	5238	keruntuhan	keruntuhannya
+39	5239	percikan	berpercikan percikannya
+40	5240	emosional	emosionalnya
+41	5241	besbol	besbolnya
+42	5242	cela	celaku celanya dicela mencela mencelakan mencelaku mencelamu
+43	5243	melati	
+44	5244	bakau	bakaunya
+45	5245	penyamun	
+46	5246	jisim	berjisim jisimnya
+47	5247	mikrofon	bermikrofon
+48	5248	lebur	dilebur dileburkan leburkan leburnya melebur meleburkan meleburku
+49	5249	terjawab	terjawabnya
+50	5250	abah	aba abahku abahnya abakan abaku diabai mengabai
+51	5251	zaitun	
+52	5252	donat	donatnya
+53	5253	setimpal	setimpalnya
+54	5254	terpesona	
+55	5255	lumus	
+56	5256	sauna	bersauna saunanya
+57	5257	pemabuk	
+58	5258	kadet	
+59	5259	zink	seng zinki
+60	5260	cangkuk	bercangkuk cangkukkan cangkuknya dicangkuk mencangkuk
+61	5261	potret	dipotretkan memotret memotretkan memotretku memotretnya potretkan potretnya
+62	5262	paranormal	
+63	5263	tetas	ditetas ditetaskan menetas menetaskan
+64	5264	pendam	dipendam dipendamkan dipendamkannya memendam memendamkan memendamnya pendamkan pendamkannya
+65	5265	keringat	berkeringat keringatku keringatnya
+66	5266	lotus	
+67	5267	lipatan	lipatannya
+68	5268	sedari	sedarilah sedarinya
+69	5269	syirik	bersyirik mensyirikkan
+70	5270	hop	
+71	5271	galian	kelian
+72	5272	penuaan	
+73	5273	deskriptif	
+74	5274	karung	berkarung karungnya mengarungi mengarungkan
+75	5275	dengkur	berdengkur mendengkur
+76	5276	pemakan	pemakannya
+77	5277	ketuhar	
+78	5278	bankrap	bangkrap bankrapkan membangkrapkan membankrapkan
+79	5279	bridge	
+80	5280	geram	geramnya menggeram
+81	5281	dagu	berdagu daguku dagumu dagunya didagu
+82	5282	pondan	pondani pondanlah
+83	5283	legasi	legasinya
+84	5284	perebutan	
+85	5285	pembungkusan	pembungkusannya
+86	5286	pengusiran	
+87	5287	pembela	pembelanya
+88	5288	lusa	
+89	5289	ungkit	diungkit diungkitkan mengungkit mengungkitkan mengungkitkannya mengungkitnya ungkitkan
+90	5290	mina	
+91	5291	aktres	
+92	5292	maskot	maskotnya
+93	5293	penilai	penilainya
+94	5294	banci	dibanci membanci
+95	5295	ternama	
+96	5296	ketiak	tiak
+97	5297	kelenjar	berkelenjar kelenjarnya
+98	5298	parameter	berparameter parameternya
+99	5299	celana	bercelana celanaku celanamu celananya
+100	5300	kondom	

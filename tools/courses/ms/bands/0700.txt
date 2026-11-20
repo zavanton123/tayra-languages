@@ -1,100 +1,100 @@
-1	601	alat	alatku alatmu alatnya
-2	602	hotel	
-3	603	teknologi	teknologiku teknologimu teknologinya
-4	604	selesai	
-5	605	bebas	
-6	606	sedar	
-7	607	akibat	akibatnya
+1	601	alat	alatku alatmu alatnya diperalat diperalatkan memperalat memperalatkan memperalatkannya memperalatmu memperalatnya peralatkan peralatkannya
+2	602	hotel	dihotel hotelku hotelmu hotelnya
+3	603	teknologi	berteknologi teknologiku teknologimu teknologinya
+4	604	selesai	diselesai diselesaikan diselesaikannya menyelesai menyelesaikanmu menyelesaikannya selesaikah selesaikan selesaikanlah selesaikanmu selesaikannya selesailah selesainya
+5	605	bebas	bebaskan bebaskanlah bebaskannya bebaslah bebasnya dibebas dibebaskan dibebaskannya membebas membebaskan membebaskanku membebaskanmu membebaskannya
+6	606	sedar	disedari disedarinya disedarkan menyedari menyedarinya menyedarkan menyedarkannya sedarkah sedarkan sedarkannya sedarku sedarlah sedarmu sedarnya
+7	607	akibat	akibatkan akibatnya berakibat diakibatkan mengakibat mengakibatkan mengakibatkannya
 8	608	warga	wargaku warganya
 9	609	meninggal	
 10	610	encik	enciknya
-11	611	doktor	
-12	612	tahan	tahannya
-13	613	balas	dibalas membalas
+11	611	doktor	doktorkah doktorku doktormu doktornya
+12	612	tahan	bertahan bertahankan bertahanlah bertahannya dipertahan dipertahankan dipertahankannya ditahan ditahankah ditahankan mempertahan mempertahankan mempertahankanmu mempertahankannya menahan menahankan menahanku menahanmu menahannya pertahankan pertahankanlah pertahankannya tahankan tahankannya tahanlah tahannya
+13	613	balas	balaskan balasku balaslah balasmu balasnya berbalas dibalas membalas membalaskan membalaskannya membalasku membalasmu membalasnya
 14	614	ujian	ujianku ujianmu ujiannya
-15	615	baju	bajuku bajumu bajunya
-16	616	minyak	minyakmu minyaknya
-17	617	hantu	antu hantunya
-18	618	hutan	hutanku hutanmu hutannya utan
-19	619	asing	
-20	620	indah	
-21	621	pemain	pemainku pemainmu pemainnya
+15	615	baju	bajukah bajuku bajulah bajumu bajunya berbaju dibaju dibajumu
+16	616	minyak	berminyak berminyakmu berminyaknya diminyak diminyaki diminyakkan meminyak meminyaki minyaki minyakmu minyaknya
+17	617	hantu	antu berhantu dihantui hantui hantukah hantukan hantulah hantunya menghantui menghantuiku menghantuimu menghantuinya
+18	618	hutan	berhutan dihutan hutanku hutanmu hutannya utan
+19	619	asing	asingkan asingkanlah asingkannya asingku asinglah asingnya berasing diasing diasingkan mengasing mengasingkan mengasingkanmu mengasingkannya
+20	620	indah	berindah diindahkan diperindah diperindahkan indahkan indahku indahlah indahmu indahnya memperindah memperindahkan mengindahkan perindahkan
+21	621	pemain	pemainku pemainlah pemainmu pemainnya
 22	622	idea	ideaku ideamu ideanya
-23	623	burung	burungku burungmu burungnya
-24	624	baharu	bahru bharu
-25	625	petang	petangku petangnya
-26	626	demikian	
+23	623	burung	burungi burungku burungmu burungnya
+24	624	baharu	baharui baharulah baharunya bahru bharu dibaharui diperbaharui membaharui memperbaharui memperbaharuinya memperbaharukan perbaharui perbaharuinya
+25	625	petang	dipetang petangku petangnya sepetang
+26	626	demikian	demikianlah
 27	627	masukkan	dimasukkan memasukkan
 28	628	berdasarkan	
-29	629	keras	mengeras
-30	630	laluan	
-31	631	pakaian	pakaianku pakaianmu pakaiannya
-32	632	hadir	
-33	633	mulai	
-34	634	jawatan	jawatanku jawatanmu jawatannya
-35	635	perlawanan	
-36	636	jahat	jahatku jahatnya
-37	637	kenyataan	
-38	638	angkat	diangkat mengangkat
-39	639	khas	
+29	629	keras	berdikeras berkeras berkeraslah dikeraskan keraskan kerasku keraslah kerasmu kerasnya mengeras mengeraskan
+30	630	laluan	dilaluan dilaluannya laluankah laluanku laluanmu laluannya
+31	631	pakaian	berpakaian berpakaianlah berpakaianmu berpakaiannya pakaianku pakaianmu pakaiannya
+32	632	hadir	dihadir dihadiri dihadirinya dihadirkan hadiri hadirilah hadirinya hadirkan hadirlah hadirmu hadirnya menghadir menghadiri menghadirinya menghadirkan
+33	633	mulai	mulailah mulainya
+34	634	jawatan	berjawatan jawatanku jawatanlah jawatanmu jawatannya
+35	635	perlawanan	diperlawanan perlawananku perlawananmu perlawanannya
+36	636	jahat	jahatkah jahatku jahatlah jahatnya menjahati
+37	637	kenyataan	kenyataannya
+38	638	angkat	angkatkan angkatku angkatlah angkatmu angkatnya berangkat berangkatkah berangkatlah diangkat diangkatlah diangkatnya diberangkatkan memberangkatkan mengangkat mengangkatkan mengangkatkannya mengangkatku mengangkatmu mengangkatnya
+39	639	khas	dikhaskan khaskan khasku khasmu khasnya mengkhaskan
 40	640	bakal	
-41	641	asli	
-42	642	jepun	
-43	643	operasi	
-44	644	bangsa	bangsaku bangsamu bangsanya
+41	641	asli	aslikah asliku aslimu aslinya berasli
+42	642	jepun	jepunnya
+43	643	operasi	beroperasi beroperasinya dioperasi dioperasikan mengoperasi mengoperasikan mengoperasikannya mengoperasinya operasiku operasimu operasinya
+44	644	bangsa	bangsaku bangsamu bangsanya berbangsa
 45	645	membaca	
-46	646	risau	
+46	646	risau	dirisaukan merisaukan merisaukanku merisaukannya risaukah risaukan risaukanku risaukanmu risaukannya risaulah risaunya
 47	647	mengalami	
-48	648	warna	warnaku warnamu warnanya
-49	649	bunyi	bunyinya
-50	650	komputer	komputerku komputermu komputernya
-51	651	musim	musimku musimnya
-52	652	pekerja	pekerjamu pekerjanya
+48	648	warna	berwarna diwarna diwarnai diwarnakan mewarna mewarnai mewarnainya mewarnakan mewarnakannya warnai warnakan warnakannya warnaku warnalah warnamu warnanya
+49	649	bunyi	berbunyi bunyikan bunyikanlah bunyikannya bunyinya dibunyikan membunyikan membunyikannya
+50	650	komputer	berkomputer komputerku komputerlah komputermu komputernya mengkomputerkan
+51	651	musim	bermusim dimusim musimku musimnya
+52	652	pekerja	dipekerjakan memekerjakan mempekerjakan mempekerjakanku mempekerjakanmu mempekerjakannya pekerjakan pekerjamu pekerjanya
 53	653	kesalahan	kesalahanku kesalahanmu kesalahannya
 54	654	mencapai	
-55	655	tenang	
-56	656	kemudahan	
+55	655	tenang	bertenang bertenanglah ditenangkan menenang menenangi menenanginya menenangkan menenangkanku menenangkannya tenangkan tenangkanlah tenanglah tenangmu tenangnya
+56	656	kemudahan	kemudahannya
 57	657	kewangan	kewanganku kewangannya
-58	658	kekuatan	kekuatanku kekuatanmu kekuatannya
-59	659	bahaya	bahayanya
-60	660	peraturan	peraturanku peraturanmu peraturannya
+58	658	kekuatan	berkekuatan kekuatanku kekuatankulah kekuatanmu kekuatannya kekuatanpun
+59	659	bahaya	bahayakah bahayakan bahayakanmu bahayakannya bahayalah bahayanya membahaya membahayakan membahayakanku membahayakanmu membahayakannya memberbahayakan
+60	660	peraturan	berperaturan peraturankah peraturanku peraturanmu peraturannya
 61	661	melahirkan	dilahirkan
-62	662	letak	diletak meletak
-63	663	kekal	
-64	664	sempurna	
-65	665	mimpi	mimpiku mimpimu mimpinya
-66	666	semangat	semangatku semangatmu semangatnya
-67	667	bunga	bungaku bungamu bunganya
+62	662	letak	diletak diletakkan diletakkannya diletaknya diperletakkan letakkankan letakkanlah letakkannya letaklah letakmu letaknya meletak meletakkanmu meletakkannya meletakku meletaknya memeletakkan memperletakkan perletakkan
+63	663	kekal	berkekal dikekal dikekalkan kekali kekalkan kekalkanku kekalkanlah kekalkannya kekallah kekalnya mengekal mengekalkan mengekalkannya mengkekalkan
+64	664	sempurna	disempurnakan disempurnakannya menyempurna menyempurnakan menyempurnakannya sempurnakah sempurnakan sempurnakanlah sempurnakannya sempurnaku sempurnalah sempurnanya
+65	665	mimpi	bermimpi bermimpikan bermimpikannya bermimpilah dimimpikan memimpikan memimpikanmu memimpikannya mimpikan mimpikanlah mimpikannya mimpiku mimpilah mimpimu mimpinya
+66	666	semangat	bersemangat bersemangatlah bersemangatnya menyemangati menyemangatiku menyemangatimu menyemangatinya semangatkan semangatku semangatlah semangatmu semangatnya
+67	667	bunga	berbunga bungai bungaku bungalah bungamu bunganya membunga
 68	668	misi	misiku misimu misinya
-69	669	mahkamah	mahkamahku mahkamahmu mahkamahnya
-70	670	ubat	ubatmu ubatnya
-71	671	kawalan	
-72	672	acara	acaramu acaranya
-73	673	padang	padangnya
-74	674	ketiga	
-75	675	penjara	penjaraku penjaramu penjaranya
-76	676	utara	
-77	677	alasan	
-78	678	beli	
-79	679	soal	menyoal
-80	680	sikit	
-81	681	tubuh	tubuhku tubuhmu tubuhnya
-82	682	rahsia	
-83	683	musuh	musuhku musuhmu musuhnya
+69	669	mahkamah	dimahkamah mahkamahku mahkamahmu mahkamahnya
+70	670	ubat	berubat berubatlah diubat diubati diubatkan mengubat mengubati mengubatinya mengubatnya ubati ubatinya ubatkan ubatmu ubatnya
+71	671	kawalan	berkawalan kawalanku kawalannya
+72	672	acara	acaramu acaranya diacara diacarakan diacaraku mengacara mengacarakan
+73	673	padang	berpadang dipadang padangnya
+74	674	ketiga	ketigaku ketigalah ketigamu ketiganya
+75	675	penjara	dipenjara dipenjarakah dipenjarakan memenjara memenjarakan memenjarakanmu memenjarakannya penjarakan penjarakannya penjaraku penjaramu penjaranya
+76	676	utara	diutara diutarakan diutarakannya mengutarakan mengutarakannya utarakan
+77	677	alasan	alasanku alasanmu alasannya beralasan
+78	678	beli	belikan belikanku belikanlah belikannya belilah belimu belinya dibeli dibelikan dibelinya membeli membelikan membelikanku membelikanmu membelikannya membeliku membelimu membelinya
+79	679	soal	bersoal dipersoal dipersoalkan disoal disoalkan mempersoal mempersoalkan mempersoalkannya menyoal menyoalkan menyoalnya persoalkan persoalkannya soalku soalnya
+80	680	sikit	sikitlah sikitnya sikitpun
+81	681	tubuh	bertubuh ditubuh ditubuhkan ditubuhkannya ditubuhnya menubuh menubuhkan menubuhkannya tubuhkan tubuhkanlah tubuhku tubuhmu tubuhnya
+82	682	rahsia	berahsia dirahsiakan dirahsiakannya merahsiakan merahsiakannya rahsiakan rahsiakannya rahsiaku rahsialah rahsiamu rahsianya
+83	683	musuh	bermusuh dimusuhi memusuhi memusuhinya musuhi musuhkah musuhku musuhmu musuhnya
 84	684	teruskan	
-85	685	jom	
-86	686	kunci	kunciku kuncimu kuncinya
-87	687	pelik	
-88	688	kakak	kakakku kakakmu kakaknya
-89	689	mulut	mulutku mulutmu mulutnya
-90	690	perjanjian	
-91	691	layak	
-92	692	kadang	
-93	693	antarabangsa	
-94	694	rambut	rambutku rambutmu rambutnya
-95	695	nabi	nabimu nabinya
+85	685	jom	jomlah
+86	686	kunci	berkunci dikunci dikuncikan kuncikan kuncikannya kunciku kuncilah kuncimu kuncinya mengunci menguncikan menguncikannya mengunciku menguncimu menguncinya
+87	687	pelik	memeliki memelikkan pelikkah pelikkan peliklah peliknya
+88	688	kakak	kakakku kakaklah kakakmu kakaknya
+89	689	mulut	bermulut dimulut dimulutku dimulutmu dimulutnya mulutku mulutlah mulutmu mulutnya
+90	690	perjanjian	perjanjiankan perjanjianlah perjanjianmu perjanjiannya
+91	691	layak	dilayaki dilayakinya dilayakkan layakkah layakkan layaklah layaknya melayak melayakkan melayakkannya
+92	692	kadang	kadangnya mengadang
+93	693	antarabangsa	antarabangsanya diantarabangsakan mengantarabangsakan
+94	694	rambut	berambut dirambut rambutkah rambutku rambutmu rambutnya rambutpun
+95	695	nabi	nabilah nabimu nabinya
 96	696	kejayaan	kejayaanku kejayaanmu kejayaannya
-97	697	jenayah	jenayahku jenayahnya
+97	697	jenayah	jenayahku jenayahnya menjenayahkan
 98	698	kad	kadku kadmu kadnya
-99	699	kerjasama	kerjasamaku kerjasamamu kerjasamanya
-100	700	nasib	nasibku nasibmu nasibnya
+99	699	kerjasama	bekerjasama bekerjasamalah berkerjasama kerjasamaku kerjasamamu kerjasamanya
+100	700	nasib	bernasib nasibku nasiblah nasibmu nasibnya

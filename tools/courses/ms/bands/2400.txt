@@ -1,100 +1,100 @@
-1	2301	kesukaan	kesukaanku kesukaanmu kesukaannya
-2	2302	ombak	ombaknya
-3	2303	penurunan	
-4	2304	butir	sebutir
-5	2305	merompak	
-6	2306	relevan	
-7	2307	tulen	
-8	2308	pangsapuri	
-9	2309	gusti	
-10	2310	dikurniakan	
-11	2311	tentukan	
-12	2312	sut	sutmu sutnya
-13	2313	kelabu	kelabunya
-14	2314	layang	
-15	2315	terganggu	
-16	2316	galaksi	
-17	2317	sekatan	sekatannya
-18	2318	komited	
-19	2319	lempar	dilempar melempar
-20	2320	baja	bajanya
-21	2321	magis	magik
-22	2322	bangsawan	bangsawanku
-23	2323	ukur	
-24	2324	pauh	
-25	2325	tertawa	
-26	2326	ejaan	ejaannya
-27	2327	lambang	lambangnya
-28	2328	jasad	jasadku jasadmu jasadnya
-29	2329	keseimbangan	keseimbanganmu keseimbangannya
-30	2330	biasiswa	
-31	2331	jugak	
-32	2332	penyu	penyunya
-33	2333	kalendar	
-34	2334	rekreasi	
-35	2335	atom	atomnya
-36	2336	pautan	pautannya
-37	2337	pening	
-38	2338	pelawak	
-39	2339	pedas	
-40	2340	hoki	
-41	2341	bersungguh	
-42	2342	gatal	
-43	2343	agresif	
-44	2344	tanggapan	
-45	2345	pencemaran	pencemarannya
-46	2346	lelah	
-47	2347	mamat	
-48	2348	tambang	tambangku tambangnya
-49	2349	berisi	
-50	2350	kanun	
-51	2351	tampar	
-52	2352	makam	
-53	2353	cawan	cawanku cawannya
-54	2354	melabur	dilabur
-55	2355	cemas	
-56	2356	samseng	samsengmu
-57	2357	wangsa	
-58	2358	etika	
-59	2359	lazimnya	
-60	2360	kreativiti	kreativitiku kreativitinya
-61	2361	musik	
-62	2362	bogel	
-63	2363	erat	
-64	2364	pendatang	
-65	2365	menimpa	
-66	2366	ganja	ganjaku ganjanya
-67	2367	berpaling	
-68	2368	carta	
-69	2369	bersalin	
-70	2370	lumayan	
-71	2371	pembaharuan	
-72	2372	kesabaran	
-73	2373	geran	
-74	2374	pengecualian	
-75	2375	sokong	
-76	2376	perkuburan	
-77	2377	menantu	
-78	2378	pengajar	
-79	2379	poster	
-80	2380	lilin	lilinku lilinnya
-81	2381	mufti	muftinya
-82	2382	mega	megaku
-83	2383	pembentangan	
-84	2384	adegan	
-85	2385	baris	
-86	2386	khemah	khemahnya
-87	2387	kelainan	
-88	2388	ketujuh	
-89	2389	tanduk	tanduknya
-90	2390	seniman	senimanmu seniwati
-91	2391	ramuan	ramuanku ramuanmu ramuannya
-92	2392	perabot	perabotnya
-93	2393	bung	
-94	2394	beredar	
-95	2395	pahat	
-96	2396	yakni	
-97	2397	waras	
-98	2398	perhentian	
-99	2399	asam	
-100	2400	lahad	lahadnya
+1	2301	sawit	sawitnya
+2	2302	beta	betakah betalah betanya
+3	2303	permaisuri	permaisurikah permaisuriku permaisurimu permaisurinya
+4	2304	destinasi	destinasiku destinasimu destinasinya
+5	2305	jantan	jantannya
+6	2306	kebolehan	kebolehanku kebolehanmu kebolehannya
+7	2307	pelayan	pelayanku pelayanmu pelayannya
+8	2308	kubu	berkubu kubukan kubuku kubunya mengubukan
+9	2309	inci	diperinci diperincikan incinya memperinci memperincikan memperincikannya perincikan
+10	2310	kehormatan	kehormatanku kehormatanmu kehormatannya
+11	2311	lega	dilegakan legakan legalah leganya melega melegakan melegakannya
+12	2312	babak	babaknya dibabak
+13	2313	insiden	insidennya
+14	2314	rantai	berantai berantaikan dirantai dirantaikan merantai merantaimu merantainya rantaikan rantaimu rantainya
+15	2315	kelompok	berkelompok dikelompokkan kelompokmu kelompoknya mengelompokkan mengelompokkannya
+16	2316	andai	andaikan andaikanlah andaiku andailah andainya diandaikan mengandaikan mengandaikannya
+17	2317	garisan	digarisan garisanmu garisannya
+18	2318	diploma	diplomanya
+19	2319	penemuan	penemuanku penemuanmu penemuannya
+20	2320	tampung	ditampung menampung menampungku menampungmu menampungnya
+21	2321	sudi	sudikah sudikan sudikanlah sudilah
+22	2322	dahsyat	dahsyatnya
+23	2323	erat	dieratkan dipererat dipereratkan eratkan eratkanlah eratnya mempererat mempereratkan mengerat mengeratkan mengeratnya
+24	2324	sup	supi supnya
+25	2325	jaring	berjaring dijaringkan jaringkan jaringmu jaringnya menjaring menjaringkan menjaringkannya
+26	2326	salji	bersalji saljinya
+27	2327	jangkitan	jangkitannya
+28	2328	perahu	berperahu perahuku perahumu perahunya
+29	2329	durian	
+30	2330	simpati	bersimpati simpatiku simpatilah simpatimu simpatinya
+31	2331	demokrasi	berdemokrasi demokrasinya didemokrasikan mendemokrasikan
+32	2332	koperasi	berkoperasi koperasinya
+33	2333	tunggang	ditunggang ditunggangi ditungganginya ditunggangnya menunggang menunggangi menunggangiku menungganginya menunggangnya tunggangi tunggangilah tunggangkan tungganglah
+34	2334	lambang	berlambang berlambangkan dilambangkan lambangnya melambang melambangkan
+35	2335	huruf	berhuruf hurufnya
+36	2336	serba	
+37	2337	sekat	disekat menyekat menyekatnya sekati sekatnya
+38	2338	cap	bercap capmu dicap dicapkan mencap mencapi mengecap mengecapi mengecapinya
+39	2339	ganjaran	ganjarannya
+40	2340	fitnah	difitnah difitnahkan fitnahkan memfitnah memfitnahnya
+41	2341	rantau	dirantau merantau
+42	2342	logam	berlogam
+43	2343	maya	bermaya
+44	2344	enak	enaklah enaknya
+45	2345	cabut	cabutkan cabutkannya cabutlah cabutnya dicabut dicabutnya mencabut mencabuti mencabutnya
+46	2346	cemburu	cemburui cemburukan cemburukannya cemburuku cemburulah cemburumu cemburunya dicemburui mencemburui mencemburuinya
+47	2347	objek	objeknya
+48	2348	pernikahan	dipernikahan pernikahanku pernikahanlah pernikahanmu pernikahannya
+49	2349	pengesahan	pengesahannya
+50	2350	kembara	mengembara mengembaralah
+51	2351	mini	miniku mininya
+52	2352	cerai	becerai bercerai ceraikan ceraikanlah cerainya dicerai diceraikan diceraikannya mencerai menceraikan menceraikanku menceraikanmu menceraikannya
+53	2353	persiapan	persiapanmu persiapannya
+54	2354	tebal	ditebalkan menebal menebalkan tebalkan tebalnya
+55	2355	reaksi	bereaksi reaksiku reaksimu reaksinya
+56	2356	tembok	bertembok ditembok menembok menemboknya tembokmu temboknya
+57	2357	sampel	disampel sampelnya
+58	2358	teks	teksnya
+59	2359	lidah	berlidah lidahku lidahmu lidahnya
+60	2360	ji	
+61	2361	rasul	rasullah rasulmu rasulnya
+62	2362	tingkatan	mempertingkatan meningkatan
+63	2363	tumbuhan	
+64	2364	apatah	
+65	2365	selera	berselera berselerakan menyelerakan menyelerakannya selerakan seleraku seleralah seleramu seleranya
+66	2366	pancing	dipancing memancing memancingku memancingmu memancingnya pancingnya
+67	2367	salin	bersalin bersalinnya disalin disalinkan menyalin menyalinnya salini salinkan salinkannya
+68	2368	can	mengecani
+69	2369	ego	diego egoku egomu egonya
+70	2370	terdahulu	terdahulunya
+71	2371	kutipan	kutipanku kutipannya
+72	2372	tembus	ditembus ditembusi menembus menembusi menembusimu menembusinya menembuskan menembusmu menembusnya tembusi tembusinya
+73	2373	balasan	balasannya
+74	2374	ikhlas	ikhlaskan ikhlasnya mengikhlaskan
+75	2375	dialog	berdialog dialognya
+76	2376	tendang	bertendang ditendang menendang menendangku menendangmu menendangnya tendangkan tendangnya
+77	2377	pelabur	pelaburnya
+78	2378	jae	
+79	2379	pengusaha	pengusahanya
+80	2380	penghuni	berpenghuni penghuninya
+81	2381	pemandangan	berpemandangan pemandangannya
+82	2382	dataran	didataran
+83	2383	kajang	
+84	2384	perkasa	diperkasa diperkasakan memperkasa memperkasakan memperkasakannya perkasakan
+85	2385	datin	
+86	2386	terikat	terikatlah
+87	2387	saingan	bersaingan sainganku sainganmu saingannya
+88	2388	pengawasan	pengawasanku pengawasanmu pengawasannya
+89	2389	yu	hiu yuku
+90	2390	saintis	saintisnya
+91	2391	gudang	digudang gudangku gudangmu gudangnya
+92	2392	ganas	diganasi ganasnya mengganas
+93	2393	hairan	dihairankan hairani hairankah hairankan hairanlah hairannya menghairan menghairankan menghairankannya
+94	2394	kepakaran	berkepakaran kepakaranku kepakaranmu kepakarannya
+95	2395	jimat	berjimat dijimatkan jimatkan jimatkanlah jimatku jimatlah jimatmu jimatnya menjimat menjimatkan menjimatkannya
+96	2396	sekaligus	
+97	2397	perusahaan	perusahaanku perusahaanmu perusahaannya
+98	2398	berlainan	
+99	2399	pembelian	pembeliannya
+100	2400	timpa	bertimpa ditimpa ditimpakan menimpa menimpakan menimpaku menimpamu menimpanya timpakan timpakanlah

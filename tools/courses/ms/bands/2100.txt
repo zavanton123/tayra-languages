@@ -1,100 +1,100 @@
-1	2001	jemput	
-2	2002	sukarelawan	sukarelawanmu
-3	2003	jus	
-4	2004	singgah	
-5	2005	paus	pausnya
-6	2006	kamar	
-7	2007	organ	
-8	2008	payung	payungku payungnya
-9	2009	tumpang	
-10	2010	dara	daraku daramu daranya
-11	2011	statistik	
-12	2012	buaya	
-13	2013	undur	
-14	2014	pembiayaan	pembiayaannya
-15	2015	memuaskan	
-16	2016	rantai	
-17	2017	potongan	
-18	2018	purata	
-19	2019	tongkat	tongkatku tongkatmu tongkatnya
-20	2020	tertuduh	
-21	2021	sapu	disapu menyapu sapumu sapunya
-22	2022	notis	
-23	2023	meriam	meriammu meriamnya
-24	2024	sulung	
-25	2025	kelima	
-26	2026	kemiskinan	
-27	2027	pen	
-28	2028	kuliah	duplication
-29	2029	syiling	
-30	2030	bibir	bibirku bibirmu bibirnya
-31	2031	lintas	
-32	2032	pustaka	
-33	2033	serbuk	serbuknya
-34	2034	renang	
-35	2035	derma	diderma menderma
-36	2036	bermimpi	
-37	2037	ratus	
-38	2038	sayuran	sayuranku sayurannya
-39	2039	menghidupkan	
-40	2040	maharaja	
-41	2041	naikkan	
-42	2042	atuk	atok atukku atuknya
-43	2043	tayar	
-44	2044	memancing	dipancing
-45	2045	herba	
-46	2046	lumba	lumbanya
-47	2047	penderitaan	
-48	2048	kagum	
-49	2049	sembahyang	sembahyangku sembahyangnya
-50	2050	cubaan	cubaannya
-51	2051	tuah	tuahku tuahmu tuahnya
-52	2052	syukur	cukur
-53	2053	permatang	
-54	2054	tonton	ditonton
-55	2055	bu	
-56	2056	ana	
-57	2057	rezeki	
-58	2058	penganjur	penganjurnya
-59	2059	almari	almariku almarimu almarinya
-60	2060	automatik	
-61	2061	lombong	lombongnya
-62	2062	sejahtera	sejahteraku
-63	2063	protokol	protokolnya
-64	2064	takutkan	ditakutkan
-65	2065	halau	menghalau
-66	2066	mirip	
-67	2067	falsafah	falsafahnya
-68	2068	gemilang	
-69	2069	waris	warisnya
-70	2070	moyang	moyangku moyangmu moyangnya
-71	2071	seratus	
-72	2072	larangan	
-73	2073	terbit	
-74	2074	ujar	
-75	2075	hiasan	hiasanku hiasannya
-76	2076	lega	
-77	2077	kalimah	kalimahnya kalimat
-78	2078	dompet	dompetku dompetmu dompetnya
-79	2079	lebah	lebahnya
-80	2080	kesimpulan	kesimpulanmu kesimpulannya
-81	2081	menelan	ditelan
-82	2082	kritikal	
-83	2083	tanggung	
-84	2084	persegi	
-85	2085	ramalan	ramalanku ramalanmu ramalannya
-86	2086	gelang	gelangnya
-87	2087	ajaib	
-88	2088	penjual	penjualnya
-89	2089	selam	
-90	2090	kepunyaan	kepunyaanku kepunyaanmu kepunyaannya
-91	2091	panglima	panglimanya
-92	2092	buru	
-93	2093	tragedi	
-94	2094	lingkungan	
-95	2095	jururawat	jururawatku jururawatnya
-96	2096	tindak	
-97	2097	duga	diduga menduga
-98	2098	mantan	
-99	2099	menunggang	
-100	2100	konteks	
+1	2001	permukaan	berpermukaan dipermukaan permukaannya
+2	2002	kenalan	berkenalan berkenalanlah berkenalannya kenalanku kenalanlah kenalanmu kenalannya
+3	2003	mewah	bermewah mewahku mewahnya
+4	2004	dakwaan	dakwaanmu dakwaannya
+5	2005	diraja	dirajanya
+6	2006	inisiatif	berinisiatif diinisiatifkan inisiatifnya
+7	2007	inovasi	berinovasi diinovasikan inovasinya menginovasi
+8	2008	corak	bercorak bercorakkan corakkan coraknya dicorak dicorakkan mencorak mencorakkan mencorakkannya
+9	2009	realiti	direalitikan merealitikan realitikah realitinya
+10	2010	terlupa	terlupakan terlupakannya
+11	2011	sarjana	sarjananya
+12	2012	komitmen	komitmenku komitmenmu komitmennya
+13	2013	berkat	berkati berkatiku berkatilah berkatinya berkatkan berkatmu berkatnya diberkati diberkatilah memberkati memberkatiku memberkatimu memberkatinya
+14	2014	asap	asapkan asapmu asapnya berasap diasap diasapkan mengasap mengasapi
+15	2015	gigit	digigit digigitnya gigitkan gigitlah gigitnya menggigit menggigitku menggigitmu menggigitnya
+16	2016	rayuan	rayuanku rayuannya
+17	2017	tengku	
+18	2018	terfikir	terfikirkah terfikirkan terfikirkannya terfikirlah terfikirnya
+19	2019	penghargaan	penghargaanku penghargaannya
+20	2020	perwakilan	perwakilannya
+21	2021	seketika	
+22	2022	pemerintah	pemerintahnya
+23	2023	sen	sennya
+24	2024	rahmat	dirahmati merahmati merahmatiku merahmatimu merahmatinya rahmati rahmatilah rahmatku rahmatmu rahmatnya
+25	2025	ancam	diancam mengancam mengancamkan mengancamku mengancammu mengancamnya
+26	2026	bab	
+27	2027	kedatangan	kedatanganku kedatanganmu kedatangannya
+28	2028	tentangan	bertentangan tentangannya
+29	2029	kelapa	kelapanya
+30	2030	pemberita	
+31	2031	ratus	beratus
+32	2032	cat	cati catkan catnya dicat dicatkan mengecat mengecatkan mengecatnya
+33	2033	tawan	ditawan menawan menawanku menawannya
+34	2034	iring	diiring diiringi diiringkan iringi mengiring mengiringi mengiringiku mengiringimu mengiringinya
+35	2035	pelabuhan	dipelabuhan pelabuhannya
+36	2036	kurung	berkurung dikurung kurungkan kurungnya mengurung mengurungkan mengurungku mengurungmu mengurungnya
+37	2037	sehubungan	
+38	2038	jahanam	dijahanam dijahanamkan jahanamkan jahanamlah jahanamnya menjahanamkan
+39	2039	jangkit	berjangkit dijangkit dijangkiti dijangkitinya jangkiti jangkitkan jangkitnya menjangkit menjangkiti menjangkitkan
+40	2040	bahu	bahuku bahumu bahunya dibahu dibahuku dibahumu dibahunya membahu
+41	2041	kelayakan	berkelayakan kelayakannya
+42	2042	iblis	iblisku iblismu iblisnya
+43	2043	kembar	berkembar berkembarnya dikembarkan kembarkan kembarku kembarlah kembarmu kembarnya mengembar
+44	2044	helo	
+45	2045	cuci	bercuci cucikan cucilah cucimu cucinya dicuci dicucikan mencuci mencucinya
+46	2046	serigala	serigalanya
+47	2047	batas	batasi bataskan batasku bataslah batasmu batasnya berbatas dibatasi dibataskan membatas membatasi membatasiku membataskan membataskannya
+48	2048	liput	diliput diliputi liputi meliput meliputi meliputinya meliputnya
+49	2049	singkir	disingkir disingkirkan menyingkir menyingkirkan menyingkirkanku menyingkirkanmu menyingkirkannya menyingkirlah singkirkan singkirkanlah singkirkannya
+50	2050	otot	berotot berototku ototku ototmu ototnya
+51	2051	cegah	cegahnya dicegah dicegahnya mencegah mencegahku mencegahmu mencegahnya
+52	2052	gabungan	gabungannya
+53	2053	ijazah	berijazah diijazahkan ijazahnya
+54	2054	selam	diselam diselami menyelam menyelami menyelamkah menyelamkan menyelamlah selami selamilah selamkan selammu selamnya
+55	2055	siaran	bersiaran siarannya
+56	2056	taklimat	ditaklimat ditaklimatkan taklimatnya
+57	2057	keberanian	keberanianku keberanianmu keberaniannya
+58	2058	meriah	dimeriahkan memeriah memeriahkan memeriahkannya meriahkan meriahnya
+59	2059	penolong	penolongku penolongnya
+60	2060	lumba	berlumba berlumbalah lumbalah lumbanya
+61	2061	lembah	dilembah lembahnya
+62	2062	ketinggalan	ketinggalannya
+63	2063	petugas	petugasnya
+64	2064	nyanyian	bernyanyian nyanyianku nyanyianmu nyanyiannya
+65	2065	pengetua	pengetuanya
+66	2066	yayasan	yayasannya
+67	2067	majoriti	majoritinya
+68	2068	gambaran	gambaranku gambaranmu gambarannya
+69	2069	susun	bersusun disusun menyusun menyusunkan menyusunnya susunkan
+70	2070	sarah	bersarah
+71	2071	rompak	dirompak merompak merompakku merompakmu merompaknya rompakkan
+72	2072	pensyarah	pensyarahnya
+73	2073	runtuh	diruntuhkan meruntuh meruntuhkan meruntuhkannya runtuhkan runtuhkannya runtuhlah runtuhnya
+74	2074	gred	bergred digred digredkan grednya menggredkan
+75	2075	khianat	berkhianat dikhianati dikhianatinya khianati khianatimu khianatinya menghianati menghianatiku menghianatimu mengkhianat mengkhianati mengkhianatiku mengkhianatimu mengkhianatinya
+76	2076	niaga	berniaga berniagalah diniaga diniagakan diperniagakan memperniagakan meniaga niagakan niagakannya niaganya
+77	2077	pencuri	pencurikah pencurilah pencurimu pencurinya
+78	2078	denda	berdenda dendaku dendanya didenda mendenda
+79	2079	transformasi	ditransformasi ditransformasikan mentransformasi mentransformasikan transformasikan transformasinya
+80	2080	puji	dipuji memuji memujiku memujimu memujinya pujikan pujilah pujinya
+81	2081	pemegang	berpemegang pemegangnya
+82	2082	rebut	berebut berebutkan direbut direbutkan memperrebutkan merebut merebutkan merebutkannya merebutku merebutnya rebutkan rebutlah
+83	2083	punggung	berpunggung dipunggung dipunggungku dipunggungmu dipunggungnya punggungku punggungmu punggungnya
+84	2084	lempar	dilempar dilempari dilemparkan dilemparnya lempari lemparkan lemparkanlah lemparkannya lemparlah lemparnya melempar melemparkan melemparkanku melemparkanmu melemparkannya melemparku melemparmu melemparnya
+85	2085	fasa	berfasa fasanya
+86	2086	kelak	
+87	2087	sarjan	sarjanku
+88	2088	pelatih	pelatihku pelatihmu pelatihnya
+89	2089	jalanan	berjalanan dijalanan jalanankan jalanannya
+90	2090	long	longku longnya
+91	2091	penerima	penerimaku penerimanya
+92	2092	jaringan	jaringanku jaringannya
+93	2093	bising	bisinglah bisingnya membisingkan
+94	2094	seru	berseru diseru diserukan menyeru menyerukan menyeruku menyerunya serukan serulah serunya
+95	2095	premis	dipremis premisnya
+96	2096	syabas	
+97	2097	cek	cekmu ceknya dicek mengecek mengeceknya
+98	2098	mahasiswa	mahasiswanya mahasiswi
+99	2099	tempahan	
+100	2100	ukur	berukur diukur diukurkan mengukur mengukurnya ukurkan ukurlah ukurnya

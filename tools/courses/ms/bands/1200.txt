@@ -1,100 +1,100 @@
-1	1101	pemilihan	pemilihanku pemilihannya
-2	1102	pengurus	pengurusku pengurusnya
-3	1103	jangka	
-4	1104	minat	minatku minatnya
-5	1105	sepuluh	
-6	1106	peti	petinya
-7	1107	gas	
-8	1108	perbezaan	
-9	1109	menara	menaraku menaramu menaranya
-10	1110	yah	
-11	1111	prinsip	
-12	1112	setengah	setengahku setengahmu setengahnya
-13	1113	swasta	
-14	1114	kotak	kotakku kotakmu kotaknya
-15	1115	kategori	
-16	1116	sidang	sidangmu sidangnya
-17	1117	kempen	
-18	1118	bakat	bakatku bakatmu bakatnya
-19	1119	mohon	
-20	1120	bersatu	
-21	1121	bilangan	bilangannya
-22	1122	miskin	
-23	1123	periksa	
-24	1124	lengkap	
-25	1125	fungsi	fungsiku fungsimu fungsinya
-26	1126	belah	dibelah membelah
-27	1127	menganggap	
-28	1128	syurga	syurgaku syurgamu syurganya
-29	1129	makmal	makmalku makmalnya
-30	1130	hamba	hambaku hambamu hambanya
-31	1131	mesej	mesejku mesejmu mesejnya
-32	1132	sempadan	sempadannya
-33	1133	virus	virusnya
-34	1134	analisis	analisa dianalisis menganalisis
-35	1135	teknik	
-36	1136	kehadiran	
-37	1137	gerakan	gerakanku gerakanmu gerakannya
-38	1138	melawat	
-39	1139	alah	dialah mengalah
-40	1140	jeneral	
-41	1141	agung	
-42	1142	siti	
-43	1143	do	doh dowh
-44	1144	kerosakan	kerosakannya
-45	1145	mas	
-46	1146	peruntukan	
-47	1147	matlamat	matlamatnya
-48	1148	bertambah	
-49	1149	mencuri	
-50	1150	angkasa	angkasamu angkasanya
-51	1151	jarang	
-52	1152	mahupun	
-53	1153	sentuh	
-54	1154	entah	
-55	1155	ribu	
-56	1156	karya	karyaku karyamu karyanya
-57	1157	dana	danaku dananya
-58	1158	hakim	
-59	1159	hormat	
-60	1160	aksi	aksiku aksimu aksinya
-61	1161	pasang	dipasang
-62	1162	komuniti	komunitinya
-63	1163	mengerti	dimengerti
-64	1164	penjaga	penjagaku penjagamu penjaganya
-65	1165	lembu	lembuku lembunya
-66	1166	peta	petaku petanya
-67	1167	menguasai	
-68	1168	cawangan	cawangannya
-69	1169	tulis	
-70	1170	pekan	pekanku pekanmu pekannya
-71	1171	profesor	profesornya
-72	1172	nasi	nasiku nasimu nasinya
-73	1173	suspek	
-74	1174	lubang	lubangnya
-75	1175	pertanyaan	pertanyaanku pertanyaanmu pertanyaannya
-76	1176	masak	
-77	1177	rakaman	rakamanku rakamannya
-78	1178	lautan	lautannya
-79	1179	cuti	cutiku cutinya
-80	1180	mengaku	
-81	1181	nafas	nafasku nafasmu nafasnya
-82	1182	bilang	
-83	1183	motosikal	moto
-84	1184	ubah	
-85	1185	daya	dayaku dayamu dayanya
-86	1186	merdeka	
-87	1187	gua	guaku guanya
-88	1188	membincangkan	bincangkan dibincangkan
-89	1189	letupan	
-90	1190	panduan	panduanku panduanmu panduannya
-91	1191	pindah	
-92	1192	puak	puaknya
-93	1193	tanam	ditanam menanam
-94	1194	menyesal	
-95	1195	kecewa	
-96	1196	luas	luasnya
-97	1197	kilang	kilangku kilangnya
-98	1198	pahlawan	pahlawanku pahlawanmu pahlawannya
-99	1199	sesetengah	
-100	1200	amaran	amarannya
+1	1101	daftar	berdaftar berdaftarlah berdaftarnya daftarkan daftarkannya daftarku daftarlah daftarmu daftarnya didaftar didaftarkan mendaftar mendaftarkan mendaftarkannya mendaftarlah
+2	1102	sikap	bersikap bersikaplah menyikap menyikapi menyikapiku menyikapinya sikapku sikapmu sikapnya
+3	1103	curi	curikan curilah curinya dicuri dicurinya dicuripun mencuri mencurikah mencuriku mencurilah mencurimu mencurinya
+4	1104	data	datai dataku datamu datanya didata
+5	1105	musnah	dimusnah dimusnahkan memusnah memusnahkan memusnahkannya musnahkah musnahkan musnahkanlah musnahkannya musnahlah musnahnya
+6	1106	nikmat	dinikmati dinikmatinya menikmat menikmati menikmatinya menikmatinyakah menikmatnya nikmati nikmatilah nikmatinya nikmatnya
+7	1107	lapor	dilapor dilaporkan laporkan laporkannya lapornya melapor melaporkan melaporkanku melaporkanmu melaporkannya melaporlah
+8	1108	halang	berhalang dihalang dihalangi halangi halangilah halanginya halangku halanglah halangnya menghalang menghalangi menghalangiku menghalangimu menghalanginya menghalangkan menghalangku menghalangmu menghalangnya
+9	1109	sentuh	bersentuh disentuh disentuhi disentuhnya menyentuh menyentuhkan menyentuhku menyentuhmu menyentuhnya sentuhkan sentuhku sentuhlah sentuhmu sentuhnya
+10	1110	khusus	berkhusus dikhususkan khususkan khususnya mengkhusus mengkhususkan
+11	1111	rancang	berancang dirancang dirancangkan dirancangkannya dirancangnya merancang merancangkan merancangkannya merancangnya rancangkan rancangkannya rancangku rancanglah rancangnya
+12	1112	tangis	ditangisi ditangiskan menangisi menangisinya menangiskah menangiskan menangislah nangis tangisi tangismu
+13	1113	timbalan	timbalannya
+14	1114	khidmat	berkhidmat berkhidmatlah dikhidmat khidmatku khidmatnya mengkhidmati
+15	1115	doa	berdoa berdoalah didoakan doakan doakanlah doakannya doaku doalah doamu doanya mendoa mendoakan mendoakanku mendoakanmu mendoakannya
+16	1116	peranan	beperanan berperanan perananku perananmu peranannya
+17	1117	alur	alir alirkan alor alurnya beralur bersalur dialir dialiri dialirkan disalur disalurkan mengalir mengaliri mengalirkan mengalirlah mengalirnya menyalur menyalurkan menyalurkannya salur salurkan salurkannya
+18	1118	periksa	diperiksa memeriksa memeriksaku memeriksamu memeriksanya periksakah periksakan periksakannya periksalah periksanya
+19	1119	syarat	bersyarat bersyaratkan bersyaratku bersyaratmu bersyaratnya disyaratkan mensyarat mensyaratkan syaratkan syaratku syaratmu syaratnya
+20	1120	pasangan	berpasangan berpasanganlah pasangankah pasanganku pasanganmu pasangannya
+21	1121	lengkap	berlengkap dilengkap dilengkapi dilengkapkan diperlengkap diperlengkapkan lengkapi lengkapkan lengkapkannya lengkapku lengkaplah lengkapmu lengkapnya melengkap melengkapi melengkapinya melengkapkan melengkapkannya memperlengkap memperlengkapi memperlengkapkan perlengkapi perlengkapkan
+22	1122	kandung	dikandung dikandungkan dikandungnya kandungkan kandungkannya kandungku kandungmu kandungnya mengandung mengandungi mengandungkah mengandungkan mengandungkannya mengandungku mengandunglah mengandungmu mengandungnya
+23	1123	kursus	berkursus dikursuskan kursusmu kursusnya
+24	1124	kejar	berkejar dikejar dikejarkan dikejarnya kejari kejarkan kejarlah kejarnya mengejar mengejarkan mengejarku mengejarmu mengejarnya
+25	1125	sedih	bersedih disedihkan menyedihkan menyedihkanku menyedihkanmu menyedihkannya sedihkah sedihkan sedihlah sedihmu sedihnya
+26	1126	juang	berjuanglah diperjuang diperjuangkan diperjuangkannya juangkan juangmu juangnya memperjuang memperjuangkan memperjuangkannya perjuangkan perjuangkannya
+27	1127	bahkan	
+28	1128	rekod	direkod direkodkan merekod merekodkan merekodkannya merekodnya rekodkan rekodkannya rekodmu rekodnya
+29	1129	keseluruhan	dikeseluruhan keseluruhannya
+30	1130	permohonan	permohonanku permohonanmu permohonannya
+31	1131	masak	bermasak dimasak dimasakkan dimasaknya masaki masakkan masaklah masakmu masaknya memasak memasakkan memasakkannya memasakku memasaknya
+32	1132	maklum	dimaklum dimaklumi dimaklumkan maklumi maklumkan maklumkannya maklumlah maklumnya memaklum memaklumi memakluminya memaklumkan memaklumkannya
+33	1133	timbul	bertimbul ditimbul ditimbulkan ditimbulkannya menimbul menimbulkan menimbulkannya timbulkah timbulkan timbulkannya timbullah timbulnya
+34	1134	sepenuhnya	
+35	1135	pasang	berpasang dipasang dipasangi dipasangkan dipasangkannya dipasangnya memasang memasangkan memasangkannya memasangku memasangnya pasangkah pasangkan pasangkannya pasangku pasanglah pasangnya sepasang
+36	1136	ganggu	diganggu ganggulah ganggunya mengganggu mengganggukah mengganggukan menggangguku mengganggumu mengganggunya
+37	1137	amal	amalkan amalkanlah amalkannya amalku amalmu amalnya beramal beramallah diamal diamalkan diamalkannya mengamal mengamalkan mengamalkannya mengamalnya
+38	1138	hancur	dihancurkan dihancurkannya hancurkan hancurkannya hancurlah hancurnya menghancur menghancurkan menghancurkanku menghancurkanmu menghancurkannya
+39	1139	nasihat	dinasihat dinasihati dinasihatkan menasihat menasihati menasihatiku menasihatinya menasihatkan menasihatkannya menasihatnya nasihati nasihatilah nasihatkan nasihatkanlah nasihatkannya nasihatku nasihatmu nasihatnya
+40	1140	sangka	bersangka disangka disangkakan disangkanya menyangka menyangkakan menyangkanya sangkakan sangkakannya sangkalah sangkanya
+41	1141	rindu	dirindui dirinduinya dirindukan merindu merindui merinduiku merinduimu merinduinya merindukan merindukanku merindukanmu merindukannya rindui rinduimu rinduinya rindukan rindukanmu rindukannya rinduku rindunya
+42	1142	bangga	banggai banggainya banggakan banggalah bangganya berbangga berbanggalah dibangga dibanggakan membangga membanggakan membanggakannya
+43	1143	kemenangan	kemenanganku kemenanganlah kemenanganmu kemenangannya
+44	1144	sokong	disokong disokongi menyokong menyokongku menyokongmu menyokongnya sokonglah sokongnya
+45	1145	terang	diterangi diterangkan menerang menerangi menerangiku menerangimu menerangkan menerangkannya terangi terangkan terangkanlah terangkannya teranglah terangnya
+46	1146	penerbangan	penerbanganku penerbanganmu penerbangannya
+47	1147	entah	entahkan entahlah
+48	1148	tunai	ditunai ditunaikan ditunaikannya menunai menunaikah menunaikan menunaikannya tunaikan tunaikanlah tunaikannya tunaimu tunainya
+49	1149	sembunyi	bersembunyi bersembunyilah disembunyi disembunyikan disembunyikannya menyembunyi menyembunyikan menyembunyikanmu menyembunyikannya sembunyikan sembunyikanlah sembunyikannya sembunyilah
+50	1150	luas	berluas diluaskan diperluas diperluaskan luaskan luaskanlah luasnya meluas meluaskah meluaskan meluaskannya meluasnya memperluas memperluaskan memperluaskannya perluaskan
+51	1151	artis	artisnya
+52	1152	patah	berpatah dipatah dipatahkan mematah mematahkan mematahkannya patahkah patahkan patahkannya patahlah patahnya
+53	1153	bayaran	bayaranku bayaranmu bayarannya
+54	1154	tambahan	ditambahan tambahanmu tambahannya
+55	1155	aksi	aksiku aksimu aksinya beraksi beraksilah
+56	1156	cedera	cederakah cederakan cederakanku cederakannya cederaku cederamu dicedera dicederakan mencedera mencederai mencederainya mencederakan mencederakanku mencederakanmu mencederakannya
+57	1157	sambutan	sambutannya
+58	1158	panggilan	panggilanku panggilanmu panggilannya
+59	1159	tekanan	bertekanan tekanannya
+60	1160	nafas	bernafas bernafaskah bernafaskan bernafaslah bernafasnya nafasku nafasmu nafasnya
+61	1161	lewat	dilewati dilewatkan lewati lewatkan lewatlah lewatnya melewati melewatiku melewatimu melewatinya melewatkan melewatkannya
+62	1162	tonton	dipertonton dipertontonkan ditonton ditontoni ditontonkan ditontonnya mempertontonkan menonton menontonku menontonmu menontonnya pertontonkan tontoni tontonilah tontonkan tontonlah tontonnya
+63	1163	rehat	berberehat berehatlah berrehat direhatkan merehatkan rehatkan rehatkannya rehatlah rehatmu rehatnya
+64	1164	nyanyi	bernyanyi bernyanyilah dinyanyi dinyanyikan dinyanyikannya menyanyi menyanyikan menyanyikanmu menyanyikannya menyanyilah nyanyikan nyanyikanlah nyanyikannya nyanyilah
+65	1165	dakwa	dakwakan dakwalah dakwamu dakwanya didakwa didakwakan didakwanya mendakwa mendakwanya
+66	1166	kemahiran	berkemahiran kemahiranku kemahiranmu kemahirannya
+67	1167	sabar	bersabar bersabarlah menyabarkan sabari sabarku sabarlah sabarmu sabarnya
+68	1168	jadual	berjadual dijadual dijadualkan jadualkan jadualkannya jadualmu jadualnya menjadual menjadualkan menjadualkannya
+69	1169	pembangkang	pembangkanglah pembangkangnya
+70	1170	amalan	amalankah amalanku amalanmu amalannya
+71	1171	remaja	diremajakan meremajakan remajaku remajalah remajamu remajanya
+72	1172	sumpah	bersumpah bersumpahlah bersumpahnya disumpah disumpahlah menyumpah menyumpahi menyumpahimu menyumpahkan menyumpahku menyumpahnya sesumpah sumpahlah sumpahmu sumpahnya
+73	1173	belia	beliai belialah belianya
+74	1174	ciri	berciri bercirikan ciriku cirinya dicirikan mencirikan
+75	1175	segi	bersegi disegi seginya
+76	1176	punca	berpunca berpuncakan dipunca puncalah puncanya
+77	1177	lulus	dilulus diluluskan luluskan luluskanlah luluskannya lulusnya melulus melulusi meluluskan meluluskanmu meluluskannya
+78	1178	korban	berkorban berkorbanlah dikorban dikorbankan dikorbankannya korbankan korbanmu korbannya mengorban mengorbankan mengorbankannya
+79	1179	manfaat	bermanfaat bermanfaatnya dimanfaat dimanfaatkan dimanfaatkannya manfaatkan manfaatkanlah manfaatkannya manfaatnya memanfaat memanfaati memanfaatkan memanfaatkanku memanfaatkanmu memanfaatkannya
+80	1180	permintaan	permintaanku permintaanmu permintaannya
+81	1181	iman	beriman berimanlah diimani imani imanku imanlah imanmu imannya mengimani
+82	1182	cuti	bercuti bercutikah bercutilah cutikan cutiku cutilah cutinya mencuti
+83	1183	kembang	berkembang berkembanglah berkembangnya dikembang dikembangkan diperkembang diperkembangkan kembangkan kembangkanlah kembangkannya memperkembang memperkembangkan mengembang mengembangkan mengembangkannya mengembanglah perkembangkan
+84	1184	pemuda	pemudanya
+85	1185	hukuman	hukumanku hukumanmu hukumannya
+86	1186	kehendak	berkehendak berkehendakkan berkehendaknya dikehendaki dikehendakinya kehendaki kehendakku kehendakmu kehendaknya mengehendaki mengkehendaki mengkehendakinya mengkehendakkan
+87	1187	muat	bermuat dimuat dimuatkan memuat memuatkan memuatkannya memuatmu memuatnya muatkah muatkan
+88	1188	kepentingan	berkepentingan kepentinganku kepentinganmu kepentingannya
+89	1189	rapat	berapat dirapatkan merapat merapati merapatkan rapatkan rapatkanlah rapatku rapatlah rapatnya
+90	1190	kecewa	dikecewakan kecewakan kecewakannya kecewalah kecewanya mengecewa mengecewakan mengecewakanku mengecewakanmu mengecewakannya
+91	1191	rata	dirata diratakan merata meratai meratakan ratakan ratakannya ratanya
+92	1192	drama	berdrama didramakan dramamu dramanya
+93	1193	pengaruh	berpengaruh dipengaruh dipengaruhi memengaruhi mempengaruh mempengaruhi mempengaruhiku mempengaruhimu mempengaruhinya pengaruhi pengaruhmu pengaruhnya
+94	1194	hapus	dihapus dihapuskan hapuskan hapuskanlah hapuskannya hapuslah menghapus menghapuskan menghapuskannya menghapusmu menghapusnya
+95	1195	daya	berdaya dayakan dayaku dayamu dayanya diperdaya diperdayakan memberdayakan memperdaya memperdayai memperdayaimu memperdayakan memperdayakannya memperdayaku memperdayamu mendaya mendayai perdayakan
+96	1196	puas	berpuas dipuaskan memuas memuaskan memuaskanmu memuaskannya puaskan puaskannya puaslah puasnya
+97	1197	latih	berlatih berlatihlah berlatihmu berlatihnya dilatih dilatihkan dilatihnya latihkan latihlah latihnya melatih melatihkan melatihku melatihmu melatihnya
+98	1198	luka	berluka diluka dilukai dilukakan lukai lukakan lukakannya lukaku lukamu lukanya lukapun melukai melukaiku melukaimu melukainya melukakan melukakannya
+99	1199	pembunuhan	pembunuhannya
+100	1200	undur	berundur berundurlah berundurnya diundur diundurkan mengundur mengundurkan mengundurkannya undurkan undurkanlah undurkannya undurlah

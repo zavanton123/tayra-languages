@@ -1,100 +1,100 @@
-1	5601	bergraduasi	
-2	5602	hadirat	
-3	5603	lolong	
-4	5604	lamina	
-5	5605	labuhkan	dilabuhkan
-6	5606	menda	mende
-7	5607	jelatang	
-8	5608	giang	
-9	5609	tuberkulosis	
-10	5610	andal	
-11	5611	cepu	
-12	5612	serebrum	
-13	5613	mua	
-14	5614	pakwe	
-15	5615	peleraian	
-16	5616	mengeong	
-17	5617	pankek	
-18	5618	parkiran	
-19	5619	sangap	
-20	5620	bersosialisasi	
-21	5621	kepul	
-22	5622	basahan	
-23	5623	capal	
-24	5624	kecetekan	
-25	5625	kemasaman	
-26	5626	melincirkan	
-27	5627	menampan	
-28	5628	umbut	
-29	5629	euforia	
-30	5630	gegantung	
-31	5631	jamung	
-32	5632	pelahiran	
-33	5633	tuma	
-34	5634	elektrolisis	
-35	5635	lotong	
-36	5636	pupur	
-37	5637	ruai	
-38	5638	segenting	
-39	5639	kulapuk	
-40	5640	wusyu	
-41	5641	semat	
-42	5642	isme	
-43	5643	lamin	
-44	5644	kafirkan	dikafirkan
-45	5645	hihi	
-46	5646	ungka	
-47	5647	ampu	
-48	5648	inovator	
-49	5649	muazin	
-50	5650	kebinatangan	
-51	5651	loyar	
-52	5652	rasi	
-53	5653	bercat	
-54	5654	ngam	
-55	5655	polonium	
-56	5656	colek	
-57	5657	besan	
-58	5658	akordion	
-59	5659	kiu	
-60	5660	omnivor	
-61	5661	guntur	
-62	5662	teta	
-63	5663	uvula	
-64	5664	bertelefon	
-65	5665	berilium	
-66	5666	sepana	
-67	5667	nihil	
-68	5668	tenar	
-69	5669	swalayan	
-70	5670	komplit	
-71	5671	pengumpil	
-72	5672	mengelip	
-73	5673	absen	
-74	5674	burit	buritmu
-75	5675	bustan	
-76	5676	melabuh	
-77	5677	pascabayar	
-78	5678	pengeditan	
-79	5679	kerling	
-80	5680	yamtuan	
-81	5681	amalgam	
-82	5682	pilin	
-83	5683	standardisasi	
-84	5684	kus	
-85	5685	cermai	
-86	5686	firus	
-87	5687	mikropemproses	
-88	5688	nauzubillah	
-89	5689	kasyaf	
-90	5690	siamang	
-91	5691	senggama	bersenggama
-92	5692	rangkak	
-93	5693	kedaerahan	
-94	5694	pegar	
-95	5695	konfeksi	
-96	5696	caya	
-97	5697	mamai	
-98	5698	tajak	
-99	5699	penjelas	
-100	5700	skoliosis	
+1	5601	dawai	
+2	5602	tutor	
+3	5603	kewibawaan	kewibawaanmu kewibawaannya
+4	5604	detail	detailkan detailnya mendetail
+5	5605	rana	merana merananya
+6	5606	terbilang	
+7	5607	tempo	bertempo temponya
+8	5608	kewarganegaraan	kewarganegaraannya
+9	5609	lipur	
+10	5610	kesebelasan	
+11	5611	angguk	anggukkan mengangguk menganggukkan
+12	5612	pembicaraan	pembicaraanku pembicaraanmu pembicaraannya
+13	5613	susyi	sushi
+14	5614	menyalahgunakan	menyalahgunakannya
+15	5615	paten	berpaten dipaten dipatenkan mempatenkan mempatenkannya patenkan
+16	5616	helium	
+17	5617	tikar	
+18	5618	patriotisme	patriotismenya
+19	5619	sobat	sobatku
+20	5620	komisen	komisenku komisennya
+21	5621	pemakai	pemakainya
+22	5622	gelagat	gelagatnya
+23	5623	vakum	divakum memvakum
+24	5624	pacuan	
+25	5625	boikot	diboikot memboikot
+26	5626	sanak	
+27	5627	diplomasi	berdiplomasi
+28	5628	runcing	meruncing meruncingkan
+29	5629	pecutan	dipecutan pecutannya
+30	5630	langgan	berlanggan dilanggan dilanggani langgani melanggan melanggani melanggannya
+31	5631	amarah	amarahku amarahmu amarahnya
+32	5632	konsentrasi	berkonsentrasi berkonsentrasilah konsentrasikan konsentrasiku konsentrasilah konsentrasinya mengkonsentrasikan
+33	5633	rakus	merakusi rakusnya
+34	5634	diplomat	diplomatnya
+35	5635	renungan	renunganku renungannya
+36	5636	perkosa	diperkosa memperkosa memperkosaku memperkosamu memperkosanya
+37	5637	tagih	ditagih menagih menagihmu menagihnya
+38	5638	zuriat	zuriati zuriatnya
+39	5639	mampan	
+40	5640	kepadatan	berkepadatan kepadatannya
+41	5641	dansa	berdansa berdansalah dansaku dansanya
+42	5642	humor	humormu humornya
+43	5643	kondominium	
+44	5644	plumbum	berplumbum
+45	5645	kewartawanan	
+46	5646	rejimen	rejimennya
+47	5647	optik	optiknya
+48	5648	kontak	kontakku kontakmu kontaknya
+49	5649	sakinah	
+50	5650	khatam	berkhatam khatami mengkhatam mengkhatamkan
+51	5651	koo	kooi
+52	5652	salon	salonnya
+53	5653	tambat	ditambat ditambatkan menambat tambatkan
+54	5654	surya	
+55	5655	candu	canduku candumu candunya mencandu
+56	5656	kanji	berkanji mengkanji
+57	5657	boling	
+58	5658	pedoman	berpedoman
+59	5659	persinggahan	
+60	5660	orak	mengorak
+61	5661	gelandangan	bergelandangan
+62	5662	pancung	dipancung memancung memancungkan pancunglah
+63	5663	orkestra	
+64	5664	kontemporari	dikontemporarikan kontemporarinya
+65	5665	toyu	head
+66	5666	tauyu	head
+67	5667	puri	memurikan
+68	5668	layu	layukan layunya melayui
+69	5669	suratkhabar	suratkhabarku
+70	5670	aaa	
+71	5671	resmi	beresmi meresmikan resmiku resminya
+72	5672	pertuturan	pertuturannya
+73	5673	payu	
+74	5674	konsul	
+75	5675	terumbu	
+76	5676	kemungkaran	
+77	5677	tarawih	bertarawih
+78	5678	pengadu	
+79	5679	asak	berasak diasak mengasak mengasaknya
+80	5680	jalar	menjalar menjalari
+81	5681	setapak	
+82	5682	songket	bersongket
+83	5683	kasta	berkasta kastanya
+84	5684	farmaseutikal	
+85	5685	penyaman	
+86	5686	disko	berdisko
+87	5687	petai	
+88	5688	bangau	
+89	5689	pantulan	pantulanmu pantulannya
+90	5690	baligh	
+91	5691	gergaji	bergergaji digergaji gergajinya menggergaji menggergajinya
+92	5692	insulin	
+93	5693	noda	bernoda dinoda dinodai menoda menodai menodainya nodai nodanya
+94	5694	muhasabah	bermuhasabah dimuhasabah dimuhasabahkan memuhasabah muhasabahlah
+95	5695	heboh	diheboh dihebohkan hebohkan hebohkannya hebohlah mengheboh menghebohkan menghebohkannya
+96	5696	mahram	mahramnya
+97	5697	buaian	berbuaian buaiannya
+98	5698	ulam	berulam berulamkan
+99	5699	loh	lohi
+100	5700	tegap	menegapkan

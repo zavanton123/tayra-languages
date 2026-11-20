@@ -1,100 +1,100 @@
-1	4301	bujur	
-2	4302	tenun	
-3	4303	pukat	pukatnya
-4	4304	huma	
-5	4305	bercukur	
-6	4306	benak	benakku benakmu benaknya
-7	4307	luang	
-8	4308	pisah	
-9	4309	melarat	
-10	4310	macan	macannya
-11	4311	bengis	
-12	4312	badam	
-13	4313	penggalian	
-14	4314	tuil	tuilnya
-15	4315	bawal	
-16	4316	belimbing	
-17	4317	kedutan	
-18	4318	pancung	
-19	4319	takrif	
-20	4320	nyanyuk	
-21	4321	bubu	
-22	4322	tuaian	
-23	4323	merakyatkan	
-24	4324	pesuruh	pesuruhmu pesuruhnya
-25	4325	paradoks	paradoksnya
-26	4326	pasak	pasaknya
-27	4327	mikroskop	
-28	4328	peras	
-29	4329	tebang	
-30	4330	beremosi	
-31	4331	noktah	noktahnya
-32	4332	bebal	
-33	4333	ekzos	
-34	4334	beriani	briyani
-35	4335	zodiak	
-36	4336	tabib	tabibku
-37	4337	pemecut	
-38	4338	mandul	
-39	4339	modem	
-40	4340	kelambu	
-41	4341	monorel	
-42	4342	kaler	
-43	4343	berpoligami	
-44	4344	rilek	
-45	4345	idam	mengidam mengidamkan
-46	4346	berdasar	
-47	4347	tegah	ditegah
-48	4348	mengait	dikait
-49	4349	akustik	
-50	4350	oder	
-51	4351	boring	
-52	4352	penyedut	penyedutnya
-53	4353	picit	
-54	4354	izzat	
-55	4355	sanubari	
-56	4356	raba	
-57	4357	gelora	
-58	4358	bias	
-59	4359	pencakar	
-60	4360	tapai	
-61	4361	tersentak	
-62	4362	invois	
-63	4363	siram	
-64	4364	tuas	tuasnya
-65	4365	selak	
-66	4366	titis	
-67	4367	cerut	
-68	4368	bota	
-69	4369	gambut	
-70	4370	biksu	
-71	4371	reban	
-72	4372	kurita	
-73	4373	perjelas	diperjelas memperjelas
-74	4374	autisme	
-75	4375	sadis	sadisnya
-76	4376	melabuhkan	dilabuhkan
-77	4377	melur	
-78	4378	merkuri	
-79	4379	bea	
-80	4380	nikel	
-81	4381	abadikan	diabadikan
-82	4382	zamrud	zamrudnya
-83	4383	ozon	
-84	4384	kecurigaan	
-85	4385	cekup	dicekup
-86	4386	goncang	
-87	4387	sado	
-88	4388	tetak	
-89	4389	magnesium	
-90	4390	biskop	
-91	4391	koroner	
-92	4392	penagihan	
-93	4393	sosialisme	
-94	4394	memerang	
-95	4395	cimpanzi	
-96	4396	nakhoda	
-97	4397	sempoi	
-98	4398	ejek	
-99	4399	sua	
-100	4400	mangkat	
+1	4301	maki	dimaki makilah memaki memakimu memakinya
+2	4302	bayu	bayunya berbayu membayu
+3	4303	sengsara	sengsarakan sengsaralah sengsaranya
+4	4304	ludah	berludah diludah diludahkan ludahi ludahkan ludahkannya ludahnya meludah meludahi meludahkan meludahmu
+5	4305	tersingkir	tersingkirkah tersingkirnya
+6	4306	pengeboman	pengebomannya
+7	4307	parang	berparang parangnya
+8	4308	tembung	bertembung
+9	4309	pidato	berpidato pidatoku pidatomu pidatonya
+10	4310	map	
+11	4311	tas	tasi tasku tasmu tasnya
+12	4312	kebesaran	kebesaranku kebesaranmu kebesarannya
+13	4313	kesusasteraan	kesusasteraanmu
+14	4314	bam	
+15	4315	peraduan	
+16	4316	kaku	berkaku kakukan kakunya
+17	4317	perintis	perintisku perintisnya
+18	4318	permusuhan	permusuhanmu permusuhannya
+19	4319	kapsul	dikapsul kapsulnya
+20	4320	perkim	
+21	4321	karyawan	karyawanku karyawanmu karyawannya
+22	4322	cuai	cuailah cuainya mencuaikan
+23	4323	akauntan	akauntanku akauntanmu akauntannya
+24	4324	keburukan	keburukanku keburukannya
+25	4325	kera	kerai keramu
+26	4326	firdaus	firdausi
+27	4327	lambung	dilambung dilambungkan lambungkan lambungkannya lambungku melambung melambungkan melambungku
+28	4328	butik	butiknya
+29	4329	mekar	bermekar mekarkan mekarnya memekar memekarkan
+30	4330	lunas	berlunaskan dilunasi dilunaskan dilunaskannya lunaskan lunaskannya melunas melunasi melunasinya melunaskan melunaskannya
+31	4331	bait	baiti baitnya
+32	4332	penderma	pendermaku pendermamu pendermanya
+33	4333	suap	bersuap disuap disuapkan menyuap menyuapkan menyuapku menyuapmu menyuapnya suapi suapkan suaplah suapnya
+34	4334	imaginasi	berimaginasi diimaginasikan imaginasikan imaginasiku imaginasimu imaginasinya
+35	4335	padanan	berpadanan padanannya
+36	4336	utus	berutus diutus diutuskan diutusnya mengutus mengutuskan mengutuskanku mengutuskanmu mengutusku mengutusmu mengutusnya utuskan
+37	4337	juru	menjuru
+38	4338	timba	ditimba ditimbanya menimba timbalah
+39	4339	kebuluran	
+40	4340	banglo	
+41	4341	tekun	bertekun ditekuni menekuni
+42	4342	dalil	berdalil berdalilkan dalilnya
+43	4343	tatkala	
+44	4344	suruhan	suruhanku suruhanmu suruhannya
+45	4345	berang	memberangkan
+46	4346	pemanah	pemanahnya
+47	4347	kompas	kompasku kompasmu kompasnya
+48	4348	peredaran	peredarannya
+49	4349	rangkul	dirangkul dirangkulnya merangkul merangkulku merangkulmu merangkulnya rangkullah
+50	4350	getar	bergetar digetarkan getarkan getarkannya menggetar menggetarkan
+51	4351	usang	usangnya
+52	4352	penggerak	penggeraknya
+53	4353	tilam	bertilam bertilamkan tilammu
+54	4354	usik	berusik diusik mengusik mengusikmu mengusiknya
+55	4355	ukiran	berukiran ukirannya
+56	4356	yen	yeni
+57	4357	tembakau	tembakaunya
+58	4358	muak	muaklah
+59	4359	garang	garangnya
+60	4360	jeruk	berjeruk dijeruk jeruknya menjeruk
+61	4361	teramat	teramatlah
+62	4362	dividen	dividennya
+63	4363	implikasi	berimplikasi implikasinya
+64	4364	tertua	tertuanya
+65	4365	terbongkar	terbongkarlah terbongkarnya
+66	4366	optimum	dioptimumkan mengoptimum mengoptimumkan optimumkan optimumnya
+67	4367	geli	gelikan gelilah gelinya menggelikan menggelikannya
+68	4368	hasut	dihasut menghasut menghasutnya
+69	4369	kuiz	
+70	4370	keletihan	
+71	4371	parasit	
+72	4372	orientasi	berorientasi berorientasikan diorientasikan mengorientasikan orientasinya
+73	4373	keluli	kelulinya
+74	4374	maghrib	
+75	4375	jangkau	dijangkau menjangkau menjangkaui
+76	4376	sahut	bersahut disahut menyahut menyahutnya sahutlah sahutnya
+77	4377	penghakiman	penghakimanku penghakimannya
+78	4378	pera	perai perakan peraku peramu
+79	4379	liang	berliang
+80	4380	lestari	melestari melestarikan
+81	4381	melodi	bermelodi melodinya
+82	4382	kebarangkalian	kebarangkaliannya
+83	4383	eja	dieja ejakan mengeja mengejakan mengejanya
+84	4384	cicak	
+85	4385	dermaga	dermaganya
+86	4386	ayun	ayuni ayunkan ayunkannya berayun berhayun diayun dihayun dihayunkan hayun hayunkan hayunkannya mengayun mengayunkan mengayunkannya mengayunnya menghayun menghayunkan menghayunkannya
+87	4387	setubuh	bersetubuh bersetubuhlah disetubuhi menyetubuhi menyetubuhiku menyetubuhimu setubuhi
+88	4388	kabut	berkabut kabutnya
+89	4389	sindrom	
+90	4390	koboi	koboiku
+91	4391	rimba	dirimba rimbaku
+92	4392	break	
+93	4393	takat	
+94	4394	pelantar	
+95	4395	budiman	budimanlah
+96	4396	sakti	saktiku saktinya
+97	4397	baka	bakai bakanya
+98	4398	jelma	dijelmakan jelmakan jelmakanlah jelmakannya jelmalah menjelma menjelmakan menjelmakannya menjelmalah menjelmanya
+99	4399	feri	
+100	4400	idaman	idamanku idamannya

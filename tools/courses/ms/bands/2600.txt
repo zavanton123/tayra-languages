@@ -1,100 +1,100 @@
-1	2501	organik	
-2	2502	katak	kataknya
-3	2503	magnet	magnetnya
-4	2504	tani	
-5	2505	semut	
-6	2506	berkemungkinan	
-7	2507	kartun	kartunnya
-8	2508	sutera	suteramu suteranya
-9	2509	ketam	
-10	2510	tupai	
-11	2511	siber	
-12	2512	puting	putingku putingmu putingnya
-13	2513	malas	
-14	2514	meninjau	
-15	2515	haid	haidnya
-16	2516	mawar	mawarku mawarmu mawarnya
-17	2517	catur	caturmu caturnya
-18	2518	kandung	kandungku kandungmu kandungnya
-19	2519	batik	batiknya
-20	2520	dalang	dalangnya
-21	2521	beruk	
-22	2522	siswa	siswanya siswi
-23	2523	degil	sedegil
-24	2524	memasarkan	dipasarkan pasarkan
-25	2525	padan	
-26	2526	lahan	
-27	2527	lai	
-28	2528	jutawan	
-29	2529	republik	
-30	2530	taknak	
-31	2531	dakwat	dakwatnya
-32	2532	lahirkan	dilahirkan
-33	2533	pahit	
-34	2534	membesarkan	
-35	2535	pahala	pahalamu pahalanya
-36	2536	paun	
-37	2537	licin	
-38	2538	ayu	
-39	2539	jalang	
-40	2540	pertuan	dipertuan
-41	2541	dos	dosnya
-42	2542	slogan	
-43	2543	kilogram	
-44	2544	perompak	
-45	2545	hairan	
-46	2546	tunang	
-47	2547	boneka	bonekaku bonekanya
-48	2548	animasi	
-49	2549	gelisah	
-50	2550	ayahanda	ayahandanya
-51	2551	rogol	
-52	2552	lada	ladanya
-53	2553	pandan	
-54	2554	gelar	gelarku gelarmu gelarnya
-55	2555	zoo	
-56	2556	usus	ususmu ususnya
-57	2557	tinju	ditinju meninju
-58	2558	fardu	fardhu fardunya
-59	2559	rusuhan	
-60	2560	mai	
-61	2561	komik	
-62	2562	tikam	
-63	2563	domestik	
-64	2564	kandang	kandangku kandangnya
-65	2565	lancarkan	dilancarkan
-66	2566	sindiket	sindiketku
-67	2567	makmur	
-68	2568	olahraga	olahragaku olahragamu
-69	2569	lemas	
-70	2570	alatan	
-71	2571	gugur	
-72	2572	gaun	gaunku gaunmu gaunnya
-73	2573	dekan	dekannya
-74	2574	judi	judinya
-75	2575	kapan	
-76	2576	penyebaran	
-77	2577	resipi	resipinya
-78	2578	belon	
-79	2579	tertumpu	
-80	2580	teroka	meneroka
-81	2581	fajar	fajarku fajarnya
-82	2582	keenam	
-83	2583	kesunyian	
-84	2584	prasarana	prasaranamu prasarananya
-85	2585	persimpangan	
-86	2586	pantat	pantatku pantatmu pantatnya
-87	2587	elit	
-88	2588	lenyap	
-89	2589	lazat	
-90	2590	mantra	mantera mantramu mantranya
-91	2591	kotoran	kotoranku kotoranmu kotorannya
-92	2592	sepang	
-93	2593	lumpuh	
-94	2594	mekanik	
-95	2595	bakti	
-96	2596	sekeluarga	
-97	2597	mitos	mitosnya
-98	2598	jaring	jaringmu jaringnya
-99	2599	pantau	dipantau
-100	2600	ungu	
+1	2501	perbualan	perbualanku perbualannya
+2	2502	tempah	ditempah menempah menempahkan menempahnya tempahkan tempahlah tempahnya
+3	2503	tunang	bertunang ditunangkan mempertunangkan tunangkan tunangku tunangmu tunangnya
+4	2504	episod	berepisod episodnya
+5	2505	tiup	bertiup ditiup ditiupkan meniup meniupkan meniupkannya meniupmu meniupnya tiupkan tiuplah
+6	2506	benih	benihku benihnya dibenihkan membenih membenihkan
+7	2507	campuran	bercampuran campurannya
+8	2508	santai	bersantai bersantailah santaikan santailah santainya
+9	2509	informasi	berinformasi informasikan informasimu informasinya menginformasikan menginformasikanmu
+10	2510	plastik	plastiknya
+11	2511	kaunter	dikaunter
+12	2512	rumput	berumput merumput rumputku rumputlah rumputmu rumputnya
+13	2513	bagai	memperbagaikan
+14	2514	jelajah	dijelajah dijelajahi jelajahi jelajahinya jelajahlah jelajahnya menjelajah menjelajahi menjelajahmu
+15	2515	sastera	bersastera sasteranya
+16	2516	mentah	mentahnya
+17	2517	psikologi	psikologiku psikologimu psikologinya
+18	2518	desak	desakkan didesak mendesak mendesakku mendesaknya
+19	2519	kurnia	dikurnia dikurniai dikurniakan dikurniakannya kurniakan kurniakanlah kurnianya mengurniakan mengurniakannya
+20	2520	sembahyang	bersembahyang bersembahyanglah disembahyang disembahyangkan menyembahyangi menyembahyangkan menyembahyangkannya sembahyangkan sembahyangku sembahyanglah sembahyangnya
+21	2521	sensitif	sensitifku sensitifnya
+22	2522	bedah	bedahnya dibedah membedah membedahnya
+23	2523	kritik	dikritik kritiklah mengkritik mengkritikku mengkritikmu mengkritiknya
+24	2524	penginapan	penginapanmu penginapannya
+25	2525	gelas	gelasku gelasmu gelasnya segelas
+26	2526	sekalian	sekaliannya
+27	2527	tamu	bertamu menamukan tamui tamuku tamumu tamunya
+28	2528	digital	didigitalkan digitalnya mendigitalkan
+29	2529	terjaga	terjagakan terjagalah
+30	2530	seharian	sehariannya
+31	2531	alkohol	alkoholku alkoholmu alkoholnya beralkohol
+32	2532	pemaju	pemajunya
+33	2533	label	berlabel dilabel dilabelkan dilabelnya labelkan labelkannya labelku labelmu labelnya melabel melabelkan melabelkannya melabelnya
+34	2534	lumpuh	dilumpuhkan lumpuhkan lumpuhkannya lumpuhnya melumpuh melumpuhkan melumpuhkannya
+35	2535	modul	bermodul modulnya
+36	2536	bir	birku birmu birnya membirkan
+37	2537	keluaran	dikeluaran keluarannya
+38	2538	oksigen	beroksigen oksigenku oksigenmu oksigennya
+39	2539	intan	
+40	2540	alternatif	alternatifnya
+41	2541	persepsi	berpersepsi dipersepsi mempersepsikan persepsinya
+42	2542	tepung	bertepung menepung tepungnya
+43	2543	bateri	bateriku baterimu baterinya
+44	2544	tumpu	bertumpu bertumpukan ditumpu ditumpukan menumpu menumpukan menumpukannya
+45	2545	padat	dipadatkan memadatkan memadatkannya padatkan padatkannya padatnya
+46	2546	rogol	dirogol merogol merogolku merogolnya
+47	2547	sewajarnya	sewajarnyalah
+48	2548	pelarian	pelarianmu pelariannya
+49	2549	runding	berrunding berunding berundinglah dirunding dirundingi dirundingkan merunding merundingi merundingkan merundingkannya rundingkan rundingkannya
+50	2550	pemantauan	pemantauannya
+51	2551	pengganti	penggantimu penggantinya
+52	2552	pujian	pujianku pujianmu pujiannya
+53	2553	kedutaan	dikedutaan kedutaannya
+54	2554	luah	diluah diluahkan diluahkannya luahkan luahkanlah luahkannya luahnya meluah meluahkan meluahkannya
+55	2555	cecair	cairan cecairnya
+56	2556	seluas	seluasnya
+57	2557	limau	melimau
+58	2558	wei	
+59	2559	infrastruktur	infrastrukturnya
+60	2560	nafsu	bernafsu nafsuku nafsumu nafsunya
+61	2561	sebesar	sebesarmu sebesarnya
+62	2562	penulisan	penulisannya
+63	2563	konflik	berkonflik
+64	2564	pohon	dipohon dipohonkan dipohonnya pohonkan pohonlah pohonnya
+65	2565	lombong	berlombong dilombong lombongkan lombongnya melombong
+66	2566	ceria	ceriakan cerialah ceriamu cerianya diceriakan menceria menceriakan menceriakannya
+67	2567	kru	kruku krunya
+68	2568	penari	penarinya
+69	2569	tersebar	tersebarlah tersebarnya
+70	2570	kunjungan	kunjunganmu kunjungannya
+71	2571	lazim	dilazimi lazimkan lazimnya melazimi melazimkan
+72	2572	jenazah	jenazahku jenazahnya
+73	2573	responden	
+74	2574	tamadun	bertamadun bertamadunlah tamadunnya
+75	2575	klasik	kelasik klasiknya
+76	2576	layang	dilayang dilayangkan layangkan melayang melayangkan melayangnya
+77	2577	himpunan	berhimpunan
+78	2578	kesayangan	kesayanganku kesayanganmu kesayangannya
+79	2579	rombongan	berombongan rombongannya
+80	2580	persamaan	persamaannya
+81	2581	ketuk	berketuk diketuk diketuknya ketuklah ketuknya mengetuk mengetukkan mengetuknya
+82	2582	sentuhan	bersentuhan sentuhanmu sentuhannya
+83	2583	ramal	diramal diramalkan meramal meramalkan meramalkannya meramalku meramalnya ramali ramalkan ramallah
+84	2584	strategik	berstrategik strategiknya
+85	2585	junior	juniornya
+86	2586	sudahlah	
+87	2587	hias	berhias berhiaskan berhiasnya dihias dihiasi dihiaskan hiasi hiasilah hiaskan hiaskannya menghias menghiasi menghiasinya menghiaskan menghiasnya
+88	2588	pondok	dipondok pondokmu pondoknya
+89	2589	purata	berpurata dipuratakan puratanya
+90	2590	hibur	berhibur berhiburlah dihibur dihiburkan hiburkan hiburkannya hiburlah menghibur menghiburkan menghiburkanku menghiburkannya menghiburku menghiburmu menghiburnya
+91	2591	basuh	basuhkan basuhlah basuhnya berbasuh dibasuh membasuh membasuhnya
+92	2592	kabinet	kabinetmu kabinetnya
+93	2593	paderi	paderiku paderimu paderinya
+94	2594	pil	mengepilkan pili pilnya
+95	2595	sos	bersos sosnya
+96	2596	luang	diluangkan luangkan luangkanlah luangnya meluang meluangkan
+97	2597	wayang	
+98	2598	tudung	bertudung menudung tudungkan tudungku tudungnya
+99	2599	dimensi	berdimensi dimensinya
+100	2600	yuran	yuranku yurannya

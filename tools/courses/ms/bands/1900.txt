@@ -1,100 +1,100 @@
-1	1801	kelayakan	
-2	1802	babak	babaknya
-3	1803	insiden	
-4	1804	umpama	umpamanya
-5	1805	membebaskan	
-6	1806	akar	akarmu akarnya
-7	1807	teras	
-8	1808	bulat	
-9	1809	kubu	kubuku kubunya
-10	1810	rahmat	rahmatku rahmatmu rahmatnya
-11	1811	dahsyat	dahsyatnya
-12	1812	kang	
-13	1813	mahkota	mahkotaku mahkotamu mahkotanya
-14	1814	jangkitan	jangkitannya
-15	1815	durian	
-16	1816	sarang	sarangmu sarangnya
-17	1817	serba	
-18	1818	perahu	perahuku perahumu perahunya
-19	1819	keliru	
-20	1820	huruf	hurufnya
-21	1821	logam	
-22	1822	demokrasi	demokrasinya
-23	1823	berupaya	
-24	1824	punggung	
-25	1825	detik	detikmu detiknya
-26	1826	teka	
-27	1827	belanja	
-28	1828	basah	
-29	1829	ji	
-30	1830	tumbuhan	
-31	1831	apatah	
-32	1832	runtuh	
-33	1833	denda	dendaku dendanya
-34	1834	teks	
-35	1835	tembok	tembokmu temboknya
-36	1836	enak	
-37	1837	lidah	lidahku lidahmu lidahnya
-38	1838	persiapan	
-39	1839	can	
-40	1840	kegunaan	
-41	1841	balasan	balasannya
-42	1842	pelabur	pelaburnya
-43	1843	jae	
-44	1844	kajang	
-45	1845	dataran	
-46	1846	yu	hiu yuku
-47	1847	saintis	saintisnya
-48	1848	ikhlas	
-49	1849	cat	catnya
-50	1850	gudang	gudangku gudangmu gudangnya
-51	1851	menerangkan	diterangkan
-52	1852	temu	
-53	1853	salji	saljinya
-54	1854	erti	dimengerti
-55	1855	cekap	
-56	1856	gempa	
-57	1857	pembelian	
-58	1858	hartanah	hartanahnya
-59	1859	teater	
-60	1860	sayur	sayurnya
-61	1861	tawar	
-62	1862	cemburu	
-63	1863	tenggelam	
-64	1864	tisu	
-65	1865	elektronik	
-66	1866	pembaca	pembacanya
-67	1867	kesatuan	kesatuannya
-68	1868	demam	
-69	1869	aduh	adoi waduh
-70	1870	gerai	geraiku gerainya
-71	1871	selebihnya	
-72	1872	lebar	
-73	1873	ucap	
-74	1874	ajak	ajaknya
-75	1875	tangki	tangkiku tangkinya
-76	1876	perusahaan	
-77	1877	arak	araknya
-78	1878	pelacur	pelacurmu pelacurnya
-79	1879	banduan	
-80	1880	bang	
-81	1881	halangan	halanganmu halangannya
-82	1882	penerbit	penerbitku penerbitnya
-83	1883	berlian	berlianku berlianmu berliannya
-84	1884	tebal	
-85	1885	kesemuanya	
-86	1886	kabel	
-87	1887	mahir	
-88	1888	maya	
-89	1889	pengecut	pengecutnya
-90	1890	berangkat	
-91	1891	fitnah	memfitnah
-92	1892	paru	
-93	1893	bercerita	
-94	1894	sebaiknya	
-95	1895	spesies	
-96	1896	rugi	ruginya
-97	1897	hamil	
-98	1898	senapang	senapangnya
-99	1899	pemberontak	pemberontaknya
-100	1900	vitamin	vitaminnya
+1	1801	unsur	berunsur berunsurkan unsurnya
+2	1802	ribut	beribut meributkan ributkan ributnya
+3	1803	pengenalan	pengenalanmu pengenalannya
+4	1804	subjek	subjekmu subjeknya
+5	1805	matang	matanglah matangnya mematangkan mematangkannya
+6	1806	gus	
+7	1807	nuklear	bernuklear nuklearku nuklearnya
+8	1808	ingatan	diingatan diingatanku ingatanku ingatanmu ingatannya
+9	1809	kubur	berkubur berkuburnya dikubur dikuburkan dikuburnya kuburkan kuburkanlah kuburku kuburmu kuburnya mengubur menguburkan menguburkanku menguburkanmu menguburkannya menguburmu menguburnya
+10	1810	terjun	diterjunkan menerjuni menerjunkan terjunlah terjunnya
+11	1811	asyik	berasyik mengasyikkan
+12	1812	lantai	berlantai berlantaikan dilantai lantaiku lantaimu lantainya melantai
+13	1813	koleksi	koleksiku koleksimu koleksinya mengkoleksi mengoleksi
+14	1814	perhubungan	perhubunganku perhubungannya
+15	1815	saing	bersaing bersainglah disaingi disaingkan menyaingi menyainginya saingi saingnya
+16	1816	kencing	berkencing dikencing kencingi kencingkan kencinglah kencingnya mengencingi mengencinginya
+17	1817	hidung	berhidung dihidung hidungku hidungmu hidungnya
+18	1818	bumiputera	bumiputeralah
+19	1819	putar	berputar berputarlah diputar diputarkan memutar memutari memutarkan memutarkannya memutarmu memutarnya putarkan putarkannya putarnya
+20	1820	dapur	dapurku dapurmu dapurnya dapurpun didapur
+21	1821	surau	disurau suraunya
+22	1822	kredit	berkredit dikredit dikreditkan kreditkan kreditku kreditmu kreditnya mengkreditkan
+23	1823	skim	
+24	1824	kilometer	berkilometer
+25	1825	disiplin	berdisiplin didisiplinkan disiplinkan disiplinnya mendisiplin mendisiplinkan
+26	1826	kompleks	kompleksnya
+27	1827	pengikut	pengikutku pengikutmu pengikutnya
+28	1828	cikgu	cikgukah cikgulah cikgunya
+29	1829	unik	unikku uniknya
+30	1830	geng	gengi gengku gengmu gengnya
+31	1831	paul	pauli
+32	1832	ejen	ejenku ejennya
+33	1833	objektif	berobjektif berobjektifkan objektiflah objektifmu objektifnya
+34	1834	gemuk	digemukkan gemukkan gemukku gemuklah gemukmu gemuknya menggemukkan menggemukkannya
+35	1835	halal	dihalalkan halalkah halalkan halalnya menghalal menghalalkan menghalalkannya
+36	1836	waris	berwaris diwarisi diwarisinya diwariskan diwariskannya mewarisi mewarisinya mewariskan mewariskannya warisi wariskan wariskannya warisnya
+37	1837	angkatan	angkatannya seangkatan
+38	1838	bekal	bekalkan bekalnya berbekal berbekalkan dibekal dibekali dibekalkan membekal membekali membekalkan membekalkannya membekalnya
+39	1839	lori	lorinya
+40	1840	versi	diversi versinya
+41	1841	kambing	kambingku kambingnya mengkambing
+42	1842	pembayaran	pembayaranku pembayarannya
+43	1843	seksi	seksikah seksiku seksimu seksinya
+44	1844	audit	auditi beraudit diaudit mengaudit
+45	1845	tumbuh	bertumbuh ditumbuh ditumbuhi ditumbuhkan menumbuh menumbuhkan menumbuhkannya tumbuhkan tumbuhkanlah tumbuhkannya tumbuhlah tumbuhnya
+46	1846	satelit	satelitku satelitmu satelitnya
+47	1847	keupayaan	berkeupayaan keupayaanku keupayaannya
+48	1848	kasihan	berkasihan dikasihani kasihani kasihanilah kasihankah kasihankan kasihankannya kasihanlah kasihanmu kasihannya kesian kesiankan kesiankanlah mengasihani mengasihaniku mengasihanimu mengasihaninya sian
+49	1849	penat	berpenat memenatkan memenatkannya penatkah penatkan penatlah penatmu penatnya
+50	1850	madu	bermadu dimadu dimadukan madui madukah maduku madumu madunya memadu memadukan
+51	1851	wajar	mewajarkan wajarkah wajarkan wajarlah wajarnya
+52	1852	tasik	ditasik tasiknya
+53	1853	hidangan	hidanganmu hidangannya
+54	1854	sebar	disebar disebarkan disebarkanlah menyebar menyebarkan menyebarkannya sebarkan sebarkannya
+55	1855	tanjung	tanjong
+56	1856	penjelasan	penjelasanmu penjelasannya
+57	1857	masakan	masakanku masakanmu masakannya
+58	1858	bumbung	berbumbung berbumbungkan bumbunglah bumbungnya membumbung
+59	1859	utusan	berutusan utusanku utusanmu utusannya
+60	1860	pelihara	dipelihara dipeliharakan dipeliharanya memelihara memeliharaku memeliharamu memeliharanya peliharakan peliharalah peliharamu peliharanya
+61	1861	matematik	bermatematik matematikkah matematiklah matematiknya
+62	1862	pakej	berpakej dipakej dipakejkan mempakej mempakejkan mempakejnya pakejnya
+63	1863	kelahiran	dikelahiran kelahiranku kelahiranmu kelahirannya
+64	1864	tradisional	tradisionalnya
+65	1865	damai	berdamai berdamailah damaikan damaikanlah damailah damainya didamaikan mendamai mendamaikan
+66	1866	istilah	diistilahkan istilahkan istilahnya mengistilahkan
+67	1867	album	albumku albumnya
+68	1868	kejutan	kejutanku kejutannya
+69	1869	elak	dielak dielakkan elakkan elakkanlah elakkannya
+70	1870	alu	alukan alukannya dialu dialukan mengalu mengalukan
+71	1871	ringkas	diringkaskan meringkas meringkaskan ringkaskan ringkaskanlah ringkaskannya ringkasnya
+72	1872	komen	dikomen komennya mengomen
+73	1873	landa	dilanda melanda melandai
+74	1874	surah	
+75	1875	lengan	berlengan dilengan dilenganku lenganku lenganmu lengannya
+76	1876	faedah	berfaedah berfaedahnya faedahnya
+77	1877	kreatif	berkreatif kreatifkan kreatifnya
+78	1878	pejuang	mempejuangkan pejuangnya
+79	1879	nakal	nakalkah nakallah nakalnya
+80	1880	asrama	asramanya berasrama diasrama
+81	1881	berhati	
+82	1882	pagar	berpagar dipagar dipagari memagar memagari memagarinya pagarlah pagarnya
+83	1883	pecat	dipecat memecat memecatkan memecatku memecatmu memecatnya pecatkan
+84	1884	perangkap	diperangkap diperangkapkan memerangkap memerangkapkan memerangkapku memerangkapmu memerangkapnya perangkapkan perangkapku perangkapnya
+85	1885	ikatan	ikatanku ikatanmu ikatannya
+86	1886	bencana	bencananya membencanakan
+87	1887	pemburu	pemburunya
+88	1888	goreng	bergoreng digoreng digorengkan gorengkan gorengkannya gorenglah gorengnya menggoreng menggorengnya
+89	1889	ulas	berulas diulas diulaskan mengulas mengulasnya seulas ulasnya
+90	1890	jaminan	jaminanmu jaminannya
+91	1891	foto	berfoto difoto fotoku fotomu fotonya memfoto
+92	1892	gajah	bergajah gajahlah gajahnya
+93	1893	detektif	detektifmu
+94	1894	hangat	dihangat dihangatkan diperhangatkan hangatkan hangatkannya hangatnya menghangat menghangatkan menghangatkanku menghangatkanmu
+95	1895	halus	dihalusi dihaluskan diperhalus diperhalusi halusi haluskan halusnya memperhalus memperhalusi memperhalusinya menghalus menghalusi menghaluskan perhalusi perhaluskan
+96	1896	cincin	bercincin cincinku cincinmu cincinnya
+97	1897	struktur	berstruktur distruktur distrukturkan strukturnya
+98	1898	muzium	muziumnya
+99	1899	petani	petaninya
+100	1900	keganasan	keganasanlah keganasannya

@@ -1,100 +1,100 @@
-1	3801	gentian	
-2	3802	kompeni	
-3	3803	tebus	
-4	3804	basi	
-5	3805	pedih	
-6	3806	wai	
-7	3807	korup	
-8	3808	uranium	
-9	3809	berwajib	
-10	3810	komposer	
-11	3811	susuk	
-12	3812	limpah	
-13	3813	menyunting	disunting
-14	3814	sirap	sirapnya
-15	3815	oasis	
-16	3816	syor	
-17	3817	makalah	makalahnya
-18	3818	loteng	lotengku
-19	3819	kluster	
-20	3820	tuk	tukku
-21	3821	gratis	
-22	3822	gamelan	
-23	3823	joget	berjoget
-24	3824	piawai	piawainya
-25	3825	telunjuk	
-26	3826	cadang	
-27	3827	liku	
-28	3828	terung	
-29	3829	laga	
-30	3830	biawak	
-31	3831	tepu	
-32	3832	kembung	
-33	3833	ramen	
-34	3834	peranakan	peranakannya
-35	3835	mohor	
-36	3836	lancap	melancap
-37	3837	coli	
-38	3838	sentul	
-39	3839	tempurung	
-40	3840	teratai	
-41	3841	kutuk	
-42	3842	polemik	
-43	3843	serbu	
-44	3844	birokrasi	
-45	3845	sikat	sikatnya
-46	3846	bius	
-47	3847	hun	
-48	3848	rona	
-49	3849	merak	
-50	3850	teri	
-51	3851	mala	
-52	3852	berhala	berhalanya
-53	3853	pustakawan	
-54	3854	mujahid	
-55	3855	berendam	
-56	3856	leh	
-57	3857	bajak	bajaknya
-58	3858	yak	
-59	3859	tauke	
-60	3860	sore	soremu
-61	3861	hulur	
-62	3862	melebarkan	
-63	3863	kehijauan	
-64	3864	bufet	
-65	3865	rahib	
-66	3866	nisan	
-67	3867	alpa	lepa
-68	3868	keling	
-69	3869	betik	betikku betiknya
-70	3870	seramik	
-71	3871	dibahagi	
-72	3872	bekal	
-73	3873	cegah	
-74	3874	renung	
-75	3875	cangkir	cangkirmu cangkirnya secangkir
-76	3876	perajurit	
-77	3877	kuningan	
-78	3878	cendekiawan	
-79	3879	gurau	
-80	3880	marak	
-81	3881	sepeda	sepedaku sepedamu sepedanya
-82	3882	sahur	sahurnya
-83	3883	gendut	
-84	3884	briged	
-85	3885	beristirahat	
-86	3886	sauh	sauhnya
-87	3887	tindas	ditindas
-88	3888	rahmatullah	
-89	3889	nahu	nahunya
-90	3890	tampuk	
-91	3891	kawat	
-92	3892	sekular	
-93	3893	guam	guamnya
-94	3894	perhati	
-95	3895	menyesali	disesali
-96	3896	puyuh	
-97	3897	belalang	
-98	3898	halaju	
-99	3899	berbuah	
-100	3900	kolektif	
+1	3801	pesaing	pesaingku pesaingnya
+2	3802	batin	batini batinku batinnya
+3	3803	pipi	pipiku pipimu pipinya
+4	3804	zikir	berzikir dizikirkan zikirnya
+5	3805	khalifah	berkhalifah
+6	3806	klien	klienku klienmu kliennya
+7	3807	sangkal	disangkal disangkalkan menyangkal menyangkali menyangkalku menyangkalnya
+8	3808	sangkar	disangkar sangkarnya
+9	3809	berkuatkuasa	berkuatkuasanya
+10	3810	bangkai	bangkaimu bangkainya
+11	3811	tergolong	
+12	3812	bubur	buburmu buburnya
+13	3813	kari	karimu
+14	3814	hanyut	dihanyut dihanyutkan hanyutkan hanyutlah menghanyut menghanyutkan menghanyutkanku menghanyutkannya
+15	3815	penanaman	penanamannya
+16	3816	jeli	
+17	3817	penambahan	
+18	3818	sarkas	bersarkas sarkasnya
+19	3819	pengampunan	pengampunanku pengampunannya
+20	3820	susunan	susunannya
+21	3821	pemilih	pemilihku
+22	3822	nyamuk	
+23	3823	taruhan	taruhanmu taruhannya
+24	3824	pengkhianatan	pengkhianatanmu pengkhianatannya
+25	3825	pusaka	dipusakai mempusakai pusakaku pusakanya
+26	3826	pembohongan	pembohongannya
+27	3827	bendung	dibendung membendung membendungnya
+28	3828	laptop	dilaptop laptopku laptopmu laptopnya
+29	3829	mekanisme	mekanismenya
+30	3830	ilmiah	berilmiah ilmiahnya
+31	3831	sujud	bersujud bersujudlah sujudlah sujudnya
+32	3832	gulung	bergulung digulung digulungkan gulungkan gulungkannya menggulung menggulungnya
+33	3833	wawancara	berwawancara diwawancara diwawancarai mewawancara mewawancarai mewawancaraiku mewawancaraimu mewawancarainya wawancarai wawancaramu wawancaranya
+34	3834	ambulans	ambulansnya
+35	3835	merpati	merpatiku merpatilah
+36	3836	siling	bersiling silingnya
+37	3837	loghat	berloghat loghatnya
+38	3838	pepatah	pepatahnya
+39	3839	bagan	
+40	3840	total	totalnya
+41	3841	kesesuaian	kesesuaiannya
+42	3842	keramat	berkeramat keramatnya
+43	3843	penamaan	penamaannya
+44	3844	privasi	privasilah privasimu privasinya
+45	3845	hafal	dihafal dihafalnya hafalkan hafallah hafalnya menghafal menghafalnya
+46	3846	kekecewaan	kekecewaanmu kekecewaannya
+47	3847	umrah	berumrah umrahnya
+48	3848	tiruan	
+49	3849	benua	
+50	3850	kepingan	berkepingan kepingannya
+51	3851	pelukis	pelukisnya
+52	3852	kunyah	dikunyah dikunyahnya kunyahlah mengunyah mengunyahkan mengunyahnya
+53	3853	badak	
+54	3854	aktivis	aktivisnya
+55	3855	ton	berton menon toni
+56	3856	ekspedisi	ekspedisimu
+57	3857	sejuta	
+58	3858	parkir	diparkir memarkir parkirkan
+59	3859	segmen	bersegmen segmennya
+60	3860	keracunan	
+61	3861	mencebur	menceburi menceburinya menceburkan menceburkannya
+62	3862	sahih	disahihkan sahihkan sahihnya
+63	3863	jejaka	
+64	3864	champagne	champagnenya
+65	3865	dahi	dahiku dahimu dahinya didahi
+66	3866	diabetes	diabetesku diabetesnya
+67	3867	leluasa	berleluasa berleluasalah berleluasanya
+68	3868	dugaan	dugaanku dugaanmu dugaannya
+69	3869	pembelaan	pembelaanku pembelaannya
+70	3870	kesinambungan	berkesinambungan kesinambungannya
+71	3871	urat	berurat mengurat uratku uratmu uratnya
+72	3872	kepemimpinan	kepemimpinanku kepemimpinanmu kepemimpinannya
+73	3873	pupus	pupuslah pupusnya
+74	3874	kesepakatan	kesepakatanmu kesepakatannya
+75	3875	berdikari	
+76	3876	keranjang	keranjangnya
+77	3877	larutan	berlarutan
+78	3878	abi	abinya
+79	3879	hatta	
+80	3880	adaptasi	adaptasikan beradaptasi diadaptasi diadaptasikan mengadaptasi mengadaptasikan mengadaptasikannya
+81	3881	tara	pertarakan tarakan taranya
+82	3882	ulat	berulat
+83	3883	natural	
+84	3884	resolusi	beresolusi resolusinya
+85	3885	sentral	
+86	3886	pemancar	pemancarnya
+87	3887	kerangka	kerangkanya
+88	3888	pengendalian	pengendaliannya
+89	3889	pampasan	pampasannya
+90	3890	soleh	salih solehnya
+91	3891	pek	dipek dipekkan memek peki peknya
+92	3892	karbon	berkarbon karbonnya
+93	3893	nyonya	nonya nyonyaku
+94	3894	moga	
+95	3895	den	
+96	3896	berbulu	berbuluku berbulumu
+97	3897	seludup	diseludup diseludupkan menyeludup menyeludupkan menyeludupnya seludupkan
+98	3898	mikro	mikromu mikronya
+99	3899	atmosfera	atmosferanya
+100	3900	perwira	perwiramu perwiranya

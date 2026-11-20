@@ -1,100 +1,100 @@
-1	6001	pemogokan	
-2	6002	cerna	
-3	6003	penanggalan	
-4	6004	hempedal	
-5	6005	tungau	
-6	6006	togel	
-7	6007	mengatai	
-8	6008	tul	
-9	6009	gera	
-10	6010	erang	
-11	6011	neptunium	
-12	6012	kespesifikan	
-13	6013	karcis	
-14	6014	maun	
-15	6015	perat	
-16	6016	wahah	
-17	6017	takyah	
-18	6018	membayang	
-19	6019	sebilion	
-20	6020	shar	
-21	6021	kamul	
-22	6022	marmut	
-23	6023	apitoksin	
-24	6024	talium	
-25	6025	siuh	syuh
-26	6026	videokan	
-27	6027	radiometer	
-28	6028	xenofobia	
-29	6029	geta	
-30	6030	tonggeng	
-31	6031	puki	
-32	6032	serdak	serdaknya
-33	6033	lawrensium	
-34	6034	kemujuran	
-35	6035	ketidakmungkinan	
-36	6036	pelarangan	
-37	6037	pepaya	
-38	6038	pengungkit	pengungkitnya
-39	6039	mengistirahatkan	diistirahatkan istirahatkan
-40	6040	bandong	
-41	6041	daiman	
-42	6042	jelutung	
-43	6043	kuau	
-44	6044	liman	
-45	6045	nyatuh	
-46	6046	perangkawan	
-47	6047	altruistik	
-48	6048	ambliopia	
-49	6049	babad	
-50	6050	bakung	
-51	6051	belacak	
-52	6052	berlaci	
-53	6053	forsep	
-54	6054	individualisme	
-55	6055	isim	
-56	6056	kemih	
-57	6057	kirai	
-58	6058	kumandang	
-59	6059	lungsin	
-60	6060	merakyat	
-61	6061	niobium	
-62	6062	percontohan	
-63	6063	sebai	
-64	6064	sekularisasi	
-65	6065	sengkek	
-66	6066	tatakelola	
-67	6067	tembung	
-68	6068	tembuni	
-69	6069	tengadah	
-70	6070	tenggala	
-71	6071	torium	
-72	6072	ablasi	
-73	6073	apertur	
-74	6074	betara	
-75	6075	buyut	
-76	6076	ibus	
-77	6077	lamai	
-78	6078	londeh	
-79	6079	malaun	
-80	6080	sima	
-81	6081	wanara	
-82	6082	amben	
-83	6083	cagu	
-84	6084	cembul	
-85	6085	depu	
-86	6086	keselanjaran	
-87	6087	memperelok	
-88	6088	menghulu	
-89	6089	pemalam	
-90	6090	penglima	
-91	6091	sedaerah	
-92	6092	uswah	
-93	6093	fluorin	
-94	6094	bajing	
-95	6095	fasisme	
-96	6096	kuki	
-97	6097	ambat	
-98	6098	bayur	
-99	6099	bismut	
-100	6100	bokor	
+1	6001	perogol	perogolnya
+2	6002	muram	bermuram bermuramlah
+3	6003	umpat	diumpat mengumpat
+4	6004	ceri	mencerikan
+5	6005	terbaca	terbacanya
+6	6006	murka	dimurkai dimurkakan memurkai murkai murkanya
+7	6007	gaga	gagai
+8	6008	kolektif	kolektifku kolektifnya
+9	6009	peluncur	peluncurnya
+10	6010	tampuk	menampuk
+11	6011	profesionalisme	profesionalismenya
+12	6012	spektrum	berspektrum
+13	6013	sayu	sayunya
+14	6014	lingkup	dilingkupkan lingkupkan lingkuplah lingkupnya melingkup melingkupi melingkupkan
+15	6015	tandang	bertandang
+16	6016	bergolak	
+17	6017	ketabahan	ketabahannya
+18	6018	pemusnahan	pemusnahannya
+19	6019	rahmatullah	
+20	6020	tergendala	tergendalanya
+21	6021	sangkaan	sangkaanmu sangkaannya
+22	6022	nahu	nahunya
+23	6023	abjad	berabjad
+24	6024	congkak	
+25	6025	preskripsi	berpreskripsi dipreskripsi dipreskripsikan mempreskripsi mempreskripsikan preskripsinya
+26	6026	embun	berembun
+27	6027	setiba	setibanya
+28	6028	guam	guamnya
+29	6029	pendekar	
+30	6030	cucur	cucuri cucurilah cucurkan dicucuri mencucuri mencucurkan
+31	6031	hakis	dihakis menghakis menghakiskan
+32	6032	sentimental	
+33	6033	puyuh	
+34	6034	belalang	
+35	6035	kecundang	
+36	6036	syampu	bersyampu
+37	6037	tumpul	menumpulkan
+38	6038	lendir	berlendir lendirnya
+39	6039	tribunal	
+40	6040	mentol	mentolnya
+41	6041	terik	menerikkan teriknya
+42	6042	lusuh	dilusuh
+43	6043	mungkar	
+44	6044	pukal	berpukal dipukalkan
+45	6045	pot	potnya
+46	6046	selar	diselar menyelar
+47	6047	musafir	bermusafir
+48	6048	belian	beliannya
+49	6049	fius	fiusnya
+50	6050	ruam	beruam
+51	6051	kias	berkias dikiaskan kiasnya
+52	6052	pengiriman	pengirimannya
+53	6053	penjamin	penjaminnya
+54	6054	lintasan	lintasannya
+55	6055	ranjau	beranjau ranjaunya
+56	6056	traktor	traktornya
+57	6057	kalam	kalamnya kalampun
+58	6058	famili	familiku familinya
+59	6059	proposal	proposalmu proposalnya
+60	6060	uap	beruap menguap menguapkan
+61	6061	aur	
+62	6062	kejahilan	kejahilannya
+63	6063	kufur	mengkufuri mengkufurkan
+64	6064	penggantian	penggantiannya
+65	6065	gapai	digapai gapailah menggapai menggapaimu menggapainya
+66	6066	betis	betismu betisnya
+67	6067	pemancing	
+68	6068	grup	grupmu
+69	6069	belerang	
+70	6070	wau	
+71	6071	pusaran	pusarannya
+72	6072	voltan	bervoltan
+73	6073	hakiki	hakikinya
+74	6074	kendara	berkendara dikendarai kendarai mengendarai mengendarainya
+75	6075	museum	museumnya
+76	6076	pencernaan	pencernaannya
+77	6077	kepenatan	
+78	6078	samudera	
+79	6079	trilion	
+80	6080	penganiayaan	penganiayaannya
+81	6081	toreh	bertoreh ditoreh menoreh
+82	6082	cadar	
+83	6083	senantiasa	
+84	6084	pendingin	dipendingin pendinginnya
+85	6085	modus	
+86	6086	induksi	
+87	6087	palu	dipalu palukan palulah
+88	6088	selaput	berselaput diselaputi menyelaputi selaputi
+89	6089	sirah	
+90	6090	jubli	
+91	6091	penyeludup	penyeludupmu
+92	6092	aduk	adukkan adukkannya diaduk
+93	6093	kehausan	kehausanku kehausanmu
+94	6094	pengamatan	pengamatanku pengamatannya
+95	6095	metabolisme	bermetabolisme memetabolismekan metabolismenya
+96	6096	lecur	melecur melecurkan
+97	6097	palau	
+98	6098	inai	berinai
+99	6099	pengambilalihan	
+100	6100	percaturan	percaturannya

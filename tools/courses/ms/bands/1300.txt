@@ -1,100 +1,100 @@
-1	1201	meskipun	
-2	1202	titik	titiknya
-3	1203	penyokong	
-4	1204	dendam	dendamku dendammu dendamnya
-5	1205	gereja	gerejaku gerejamu gerejanya
-6	1206	kebebasan	kebebasanku kebebasanmu kebebasannya
-7	1207	ancaman	
-8	1208	melainkan	
-9	1209	artikel	
-10	1210	terang	menerangi
-11	1211	klinik	kliniknya
-12	1212	prestasi	prestasiku prestasimu prestasinya
-13	1213	khusus	
-14	1214	binatang	binatangku binatangmu binatangnya
-15	1215	jambatan	jambatannya
-16	1216	memudahkan	dimudahkan mudahkan
-17	1217	siang	siangku siangmu siangnya
-18	1218	kotor	
-19	1219	ratu	ratuku ratumu ratunya
-20	1220	alamak	
-21	1221	terlambat	
-22	1222	penumpang	penumpangnya
-23	1223	putus	memutus
-24	1224	ais	aisnya
-25	1225	papa	
-26	1226	pengundi	
-27	1227	tarian	tarianku tarianmu tariannya
-28	1228	katil	katilku katilmu katilnya
-29	1229	halaman	halamanku halamanmu halamannya
-30	1230	comel	
-31	1231	jelaskan	dijelaskan
-32	1232	polisi	polisiku polisimu polisinya
-33	1233	suku	sukuku sukunya
-34	1234	pertempuran	pertempuranku pertempuranmu pertempurannya
-35	1235	kelebihan	kelebihanku kelebihanmu kelebihannya
-36	1236	keuntungan	keuntunganku keuntunganmu keuntungannya
-37	1237	kepimpinan	kepimpinanku kepimpinannya
-38	1238	lembut	
-39	1239	syaitan	
-40	1240	murah	mur
-41	1241	lesen	lesenku lesenmu lesennya
-42	1242	van	
-43	1243	dosa	dosaku dosamu dosanya
-44	1244	naib	
-45	1245	nyata	
-46	1246	pasar	pasarnya
-47	1247	kelajuan	kelajuanku kelajuanmu kelajuannya
-48	1248	roti	rotiku rotimu rotinya
-49	1249	penilaian	penilaianku penilaianmu penilaiannya
-50	1250	cermin	cerminnya
-51	1251	se	sa
-52	1252	hiburan	
-53	1253	ahad	wahid
-54	1254	telinga	telingaku telingamu telinganya
-55	1255	sang	
-56	1256	kelakar	
-57	1257	daftar	
-58	1258	hutang	hutangku hutangmu hutangnya
-59	1259	tandas	tandasnya
-60	1260	terasa	
-61	1261	sewa	sewaku sewamu sewanya
-62	1262	perlahan	
-63	1263	siri	sirinya
-64	1264	ustaz	asatizah
-65	1265	kuning	kuningmu kuningnya
-66	1266	batang	batangnya sebatang
-67	1267	sempat	
-68	1268	rangkaian	rangkaiannya
-69	1269	kecemasan	kecemasannya
-70	1270	sumpah	menyumpah sesumpah
-71	1271	tunai	tunaimu tunainya
-72	1272	campur	dicampur mencampur
-73	1273	puisi	
-74	1274	menari	
-75	1275	strategi	
-76	1276	keamanan	keamananku keamananmu keamanannya
-77	1277	pos	
-78	1278	bina	
-79	1279	kasar	
-80	1280	dolar	dolarku dolarmu dolarnya
-81	1281	alur	alir alor alurnya salur
-82	1282	hadis	hadisnya hadith
-83	1283	gangguan	
-84	1284	kejam	
-85	1285	mesra	
-86	1286	cuaca	cuacanya
-87	1287	kesedaran	
-88	1288	contohnya	
-89	1289	zon	
-90	1290	tukang	
-91	1291	kem	
-92	1292	helikopter	helikoptermu helikopternya
-93	1293	kebakaran	kebakaranku kebakarannya
-94	1294	menakutkan	ditakutkan
-95	1295	minda	mindaku mindamu mindanya
-96	1296	kerap	
-97	1297	tikus	tikusnya
-98	1298	bengkel	bengkelnya
-99	1299	beroperasi	
-100	1300	kain	kainku kainnya
+1	1201	status	berstatus berstatuskan statusmu statusnya
+2	1202	fokus	berfokus berfokuskan difokus difokuskan fokuskan fokuskannya fokuslah fokusnya memfokus memfokuskan memfokusnya
+3	1203	perlindungan	diperlindungan perlindunganku perlindunganmu perlindungannya
+4	1204	tegas	bertegas bertegaslah dipertegaskan ditegaskan ditegaskannya mempertegaskan menegas menegaskan menegaskannya pertegaskan tegaskan tegasnya
+5	1205	hutang	berhutang dihutang hutangkan hutangku hutangmu hutangnya menghutangkan
+6	1206	sewa	disewa disewakan disewanya menyewa menyewakan menyewakannya menyewaku menyewamu menyewanya sewakan sewaku sewalah sewamu sewanya
+7	1207	tajuk	bertajuk tajuknya
+8	1208	bakat	bakatku bakatmu bakatnya berbakat berbakatnya
+9	1209	perkembangan	perkembanganmu perkembangannya
+10	1210	susu	bersusu disusui disusuinya disusukan disusukannya menyusu menyusui menyusuinya menyusukan menyusukannya menyusunya susukan susunya
+11	1211	atasi	atasilah atasinya diatasi diatasinya mengatasi mengatasinya
+12	1212	sara	bersara bersarakan bersaralah bersaramu dibersarakan disara menyara menyarakan persarakan persarakanlah sarai sarakah saralah saranya
+13	1213	sewaktu	
+14	1214	syukur	bersyukur bersyukurlah bersyukurnya cukur cukurkan cukurku cukurlah cukurnya dicukur dicukurkan disyukuri disyukurinya mencukur mencukurnya mensyukuri mensyukurinya syukuri syukurlah syukurmu syukurnya
+15	1215	terdiri	terdirinya
+16	1216	langgar	berlanggar dilanggar dilanggarnya langgarkan langgarlah langgarnya melanggar melanggari melanggarkan melanggarku melanggarnya
+17	1217	perhimpunan	
+18	1218	peralatan	peralatanku peralatanmu peralatannya
+19	1219	kendali	dikendali dikendalikan dikendalikannya kendalikan kendalikanlah kendalikannya kendaliku kendalimu kendalinya mengendali mengendalikan mengendalikanku mengendalikanmu mengendalikannya mengendalinya
+20	1220	gurau	bergurau berguraukah berguraukan berguraulah guraulah guraunya mengguraukan
+21	1221	dewasa	dewasalah dewasanya didewasakan mendewasa mendewasakan
+22	1222	gaji	bergaji digaji digajikan gajikan gajiku gajilah gajimu gajinya menggaji menggajikan menggajimu menggajinya
+23	1223	cadang	bercadang cadangkan cadangkannya cadangnya dicadang dicadangkan dicadangkannya mencadang mencadangkan mencadangkannya
+24	1224	terbesar	terbesarku terbesarmu terbesarnya
+25	1225	tanding	bertanding bertandinglah dipertanding dipertandingkan ditanding ditandingi ditandinginya ditandingkan mempertandingkan menandingi menandinginya pertandingkan tandingi tandinginya tandingnya
+26	1226	jemput	dijemput dijemputnya jemputlah jemputnya jemputpun menjemput menjemputkan menjemputku menjemputmu menjemputnya
+27	1227	tiket	tiketku tiketmu tiketnya
+28	1228	lawatan	lawatankah lawatanku lawatannya
+29	1229	siasat	disiasat menyiasat menyiasati menyiasatinya menyiasatku menyiasatmu menyiasatnya siasatlah siasatnya
+30	1230	perbuatan	perbuatanku perbuatanmu perbuatannya
+31	1231	bohong	berbohong berbohonglah bohongi bohonglah bohongmu bohongnya dibohongi membohong membohongi membohongiku membohongimu membohonginya
+32	1232	sel	bersel disel selku selmu selnya
+33	1233	konsep	berkonsep berkonsepkan konsepmu konsepnya
+34	1234	campur	bercampur bercampurlah bercampurnya campuri campurkan campurkannya campurlah dicampur dicampuri dicampurkan mencampur mencampuri mencampurkan mencampurkannya mencampurnya
+35	1235	telur	bertelur menelurkan telurkah telurku telurlah telurmu telurnya
+36	1236	lambat	dilambat dilambatkan diperlambat lambatkah lambatkan lambatlah lambatmu lambatnya melambat melambatkan melambatkannya memperlambat memperlambatkan memperlambatkannya memperlambatmu memperlambatnya
+37	1237	tapak	bertapak bertapaknya ditapak menapak menapaki menapakkan tapaknya
+38	1238	positif	positifnya
+39	1239	sempena	bersempena
+40	1240	erti	bererti berertinya diertikan dimengerti ertikan ertinya
+41	1241	pelaksanaan	pelaksanaannya
+42	1242	kempen	berkempen berkempenlah kempenmu kempennya mengempen
+43	1243	sambut	bersambut disambut menyambut menyambutku menyambutmu menyambutnya sambutlah sambutnya
+44	1244	palsu	dipalsukan memalsukan mempalsukan palsukan palsumu palsunya
+45	1245	lawat	dilawat dilawati dilawatinya lawati lawatilah lawatnya melawat melawati melawatku melawatlah melawatmu melawatnya
+46	1246	kamera	berkamera dikamera kameraku kameramu kameranya
+47	1247	tewas	ditewaskan ditewaskannya menewaskan menewaskannya tewaskan tewaskannya tewasnya
+48	1248	tuntut	dituntut dituntutkan menuntut menuntutku menuntutmu menuntutnya tuntutlah tuntutnya
+49	1249	tekan	dipertekankan ditekan ditekankan menekan menekankan menekanku menekanmu menekannya tekankan tekankannya tekanlah tekannya
+50	1250	suci	bersuci disucikan disucikanlah menyuci menyucikan menyucikannya sucikan sucikanlah suciku sucimu sucinya
+51	1251	tali	bertali menali mentali taliku talinya
+52	1252	layar	belayar berlayar berlayarlah dilayar dilayari layari layarilah layarkan layarku layarmu layarnya melayar melayari melayarinya melayarkan
+53	1253	kukuh	dikukuhkan diperkukuh diperkukuhkan kukuhkah kukuhkan kukuhnya memperkukuh memperkukuhkan memperkukuhkannya mengukuh mengukuhkan mengukuhkannya perkukuhkan
+54	1254	galak	digalak digalakkan galakkan galakkannya menggalak menggalakkan menggalakkannya
+55	1255	dosa	berdosa berdosakah dosaku dosamu dosanya
+56	1256	harian	hariani harianku harianmu hariannya
+57	1257	tuanku	
+58	1258	pusingan	dipusingan pusinganmu pusingannya pusinganpun
+59	1259	korang	koranglah korg
+60	1260	salam	bersalam bersalamlah menyalam menyalami menyalamiku menyalamimu salami salamku salamnya
+61	1261	kopi	kopikah kopikan kopiku kopimu kopinya mengopi
+62	1262	tulang	ditulang tulangku tulangmu tulangnya
+63	1263	piala	pialaku pialanya
+64	1264	penonton	penontonnya
+65	1265	portal	portalnya
+66	1266	kategori	dikategori dikategorikan kategorikan kategorinya mengkategorikan
+67	1267	akta	aktanya diaktakan
+68	1268	kepercayaan	kepercayaanku kepercayaanlah kepercayaanmu kepercayaannya
+69	1269	sederhana	bersederhana bersederhanalah menyederhana sederhanakan sederhanamu sederhananya
+70	1270	pembunuh	pembunuhmu pembunuhnya
+71	1271	ketawa	diketawakan ketawakan ketawakanku ketawakannya ketawalah ketawanya mengetawakan
+72	1272	aspek	aspeknya
+73	1273	cabaran	cabaranmu cabarannya
+74	1274	sudut	bersudut disudut sudutkan sudutku sudutmu sudutnya
+75	1275	buru	berburu berburulah berburunya burunya diburu diburukah diburunya memburu memburukan memburuku memburumu memburunya
+76	1276	impian	berimpian impianku impianmu impiannya
+77	1277	setia	bersetia setiakah setiakan setiaku setialah setiamu setianya
+78	1278	sedangkan	
+79	1279	peperangan	peperanganlah peperangannya peperanganpun
+80	1280	istana	diistana istanakah istanaku istanamu istananya
+81	1281	watak	berwatak perwatakkan perwatakkannya watakku watakmu wataknya
+82	1282	saham	sahammu sahamnya
+83	1283	imam	berimam berimamkan diimamkan imami imamkan imamlah imamnya mengimami mengimaminya mengimamkan
+84	1284	sekadar	sekadarnya
+85	1285	malang	malangku malanglah malangnya
+86	1286	pentadbiran	pentadbiranku pentadbirannya
+87	1287	seharusnya	seharusnyalah seharusnyanya
+88	1288	bilang	berbilang bilangnya dibilang membilang
+89	1289	bangkit	bangkitkan bangkitkannya bangkitlah bangkitnya dibangkit dibangkitkan dibangkitkannya membangkit membangkitkan membangkitkanku membangkitkanmu membangkitkannya
+90	1290	terkejut	terkejutkah terkejutkan terkejutlah terkejutnya
+91	1291	terusan	berterusan berterusannya beterusan
+92	1292	rampas	dirampas dirampaskan dirampasnya merampas merampaskan merampasku merampasnya rampaslah rampasnya
+93	1293	betapa	betapalah betapapun
+94	1294	izin	diizin diizinkan izinkan izinkanlah izinkanmu izinkannya izinku izinmu izinnya mengizinkan mengizinkanku mengizinkanmu mengizinkannya
+95	1295	dinding	berdinding berdindingkan didinding dindingku dindingmu dindingnya mendinding
+96	1296	untung	beruntung beruntunglah beruntungnya diuntung diuntungkan menguntung menguntungkan menguntungkanku menguntungkanmu menguntungkannya untungkan untunglah untungnya
+97	1297	generasi	bergenerasi generasiku generasimu generasinya
+98	1298	pakatan	pakatannya
+99	1299	mat	
+100	1300	kaji	dikaji dikajikan kajiku kajilah mengaji mengajinya mengkaji mengkajinya

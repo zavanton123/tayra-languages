@@ -1,100 +1,100 @@
-1	3101	kor	
-2	3102	abstrak	
-3	3103	melancong	
-4	3104	dobi	dobinya
-5	3105	tuisyen	
-6	3106	ikrar	
-7	3107	awek	
-8	3108	berpuluh	
-9	3109	patik	
-10	3110	simptom	
-11	3111	terperdaya	terpedaya
-12	3112	mendidih	
-13	3113	pendahuluan	
-14	3114	uda	
-15	3115	balak	
-16	3116	sambilan	
-17	3117	kuarantin	
-18	3118	bakul	bakulmu bakulnya
-19	3119	setem	
-20	3120	petua	petuanya
-21	3121	tenis	tenisnya
-22	3122	tunda	
-23	3123	rawat	
-24	3124	kemudi	kemudiku kemudinya
-25	3125	tergelincir	
-26	3126	wangian	wangianku wangianmu wangiannya
-27	3127	busur	busurnya
-28	3128	pidato	pidatoku pidatomu pidatonya
-29	3129	penyesalan	
-30	3130	acuan	acuannya
-31	3131	kursi	
-32	3132	martabat	
-33	3133	keemasan	
-34	3134	sesawang	sesawangnya
-35	3135	tuduh	
-36	3136	siku	sikuku sikumu sikunya
-37	3137	pijak	
-38	3138	lebam	lebamnya
-39	3139	perkakasan	perkakasannya
-40	3140	titi	meniti
-41	3141	pengemis	
-42	3142	sivil	
-43	3143	balut	balutnya dibalut membalut
-44	3144	rancak	
-45	3145	ngomong	
-46	3146	jasmani	
-47	3147	keikhlasan	keikhlasannya
-48	3148	toh	
-49	3149	larang	
-50	3150	kredibiliti	kredibilitinya
-51	3151	tegur	ditegur
-52	3152	konvokesyen	
-53	3153	kuali	
-54	3154	beliung	
-55	3155	gadai	
-56	3156	rahang	rahangku rahangmu rahangnya
-57	3157	salin	
-58	3158	pembiakan	pembiakannya
-59	3159	keropok	keropoknya
-60	3160	peladang	
-61	3161	lestari	
-62	3162	milo	
-63	3163	orbit	
-64	3164	sengal	seng
-65	3165	gentar	
-66	3166	taip	
-67	3167	jaguh	
-68	3168	huraikan	dihuraikan menghuraikan
-69	3169	lapis	
-70	3170	kemeja	kemejaku kemejamu kemejanya
-71	3171	alang	
-72	3172	muslihat	
-73	3173	penyewa	
-74	3174	rendang	
-75	3175	luncur	
-76	3176	segan	
-77	3177	memungkinkan	dimungkinkan
-78	3178	keris	kerisnya
-79	3179	kunyit	
-80	3180	bandung	
-81	3181	selipar	seliparku seliparnya
-82	3182	tatacara	
-83	3183	gari	
-84	3184	baldi	baldimu baldinya
-85	3185	kanta	
-86	3186	bintik	
-87	3187	balkoni	
-88	3188	tiup	
-89	3189	tolol	
-90	3190	sambal	
-91	3191	batuan	
-92	3192	imbas	imbasnya
-93	3193	naskhah	naskhahnya senaskhah
-94	3194	ekspres	
-95	3195	manuskrip	
-96	3196	ustazah	asatizah
-97	3197	menegur	
-98	3198	kabus	kabusnya
-99	3199	er	
-100	3200	buas	
+1	3101	periuk	periuknya
+2	3102	liputan	liputannya
+3	3103	pangsapuri	pangsapuriku pangsapurimu pangsapurinya
+4	3104	kejuaraan	kejuaraannya
+5	3105	penurunan	penurunannya
+6	3106	kurikulum	kurikulummu kurikulumnya
+7	3107	komunis	kominis komunisnya
+8	3108	abid	abidin
+9	3109	halim	halimi
+10	3110	anggur	anggurku anggurmu anggurnya menganggur
+11	3111	kesesakan	kesesakannya
+12	3112	oren	orennya
+13	3113	pacar	memacari memacarinya pacarku pacarmu pacarnya
+14	3114	kepung	berkepung dikepung kepunglah mengepung mengepungku mengepungmu mengepungnya
+15	3115	cucuk	bercocok bercucuk cocok cocokkan cucukkan cucuknya dicucuk dicucukkan mencocokkan mencucuk
+16	3116	rubah	dirubah merubah merubahkan merubahku merubahmu merubahnya rubahnya
+17	3117	sut	bersut sutmu sutnya
+18	3118	kesabaran	kesabaranku kesabaranmu kesabarannya
+19	3119	integriti	berintegriti integritinya
+20	3120	kesukaan	kesukaanku kesukaanmu kesukaannya
+21	3121	tulen	ditulenkan menulenkan tulenkah tulennya
+22	3122	asalkan	
+23	3123	susul	disusul disusuli disusulkan menyusul menyusuli menyusulmu menyusulnya susuli susullah
+24	3124	unggul	diungguli diunggulkan mengungguli mengunggulinya ungguli unggulnya
+25	3125	terma	termai termakan termanya
+26	3126	romantik	meromantikkan romantikku romantiklah romantiknya
+27	3127	tergantung	
+28	3128	komited	berkomited komitednya
+29	3129	tegur	bertegur ditegur ditegurnya menegur menegurnya tegurlah
+30	3130	magis	bermagis magik magisnya
+31	3131	reda	bereda diredai diredakan mereda meredai meredakan meredakanku meredakannya redai redakan redalah
+32	3132	lipat	berlipat dilipat dilipatkan lipatkan lipatkanlah lipatkannya lipatku lipatlah melipat melipatkan melipatnya
+33	3133	insentif	insentifnya
+34	3134	jurusan	dijurusan jurusannya
+35	3135	terganggu	terganggunya
+36	3136	jurnal	jurnalnya
+37	3137	dadak	mendadak mendadaknya
+38	3138	rekreasi	berekreasi
+39	3139	galaksi	
+40	3140	sekatan	sekatannya
+41	3141	jihad	berjihad berjihadlah jihadi jihadnya
+42	3142	tinjauan	tinjauannya
+43	3143	tanggapan	bertanggapan tanggapanmu tanggapannya
+44	3144	tutur	bertutur dipertuturkan ditutur dituturkan menutur menuturkan menuturkannya tuturkan tuturkanlah tuturnya
+45	3145	tempuh	ditempuh ditempuhi ditempuhinya ditempuhnya menempuh menempuhi menempuhinya menempuhnya tempuhi tempuhinya tempuhmu tempuhnya
+46	3146	indeks	berindeks diindeks mengindeks mengindekskan
+47	3147	jasad	berjasad jasadi jasadku jasadmu jasadnya
+48	3148	bangsawan	bangsawanku
+49	3149	harung	diharungi diharunginya harungi harungilah harunginya mengharung mengharungi mengharunginya mengharungkan
+50	3150	jugak	jugaklah
+51	3151	panggang	dipanggang memanggang memanggangnya panggangkan pangganglah panggangnya
+52	3152	perarakan	
+53	3153	pauh	
+54	3154	pendakwa	
+55	3155	ejaan	ejaannya
+56	3156	tumpas	ditumpaskan menumpas menumpaskan menumpaskannya tumpaskan tumpaskannya tumpasnya
+57	3157	kok	
+58	3158	lingkaran	berlingkaran lingkarannya
+59	3159	pejalan	
+60	3160	tablet	tabletnya
+61	3161	pedas	pedasnya
+62	3162	keseimbangan	keseimbanganmu keseimbangannya
+63	3163	koyak	dikoyak dikoyakkan koyakkan koyakkanlah koyakkannya koyaklah koyaknya mengoyak mengoyakkan mengoyakkannya mengoyaknya
+64	3164	biasiswa	
+65	3165	hormon	hormonnya
+66	3166	penyu	penyunya
+67	3167	kerdil	dikerdilkan kerdilkan kerdilnya
+68	3168	kalendar	
+69	3169	cas	bercas caskan casnya dicas mengecas mengecasnya
+70	3170	pautan	dipautan pautannya
+71	3171	pahat	dipahat dipahatkan memahat memahatkan memahatnya
+72	3172	kekacauan	kekacauannya
+73	3173	imbas	berimbas diimbas imbasi imbaskan imbaskannya imbaslah imbasnya mengimbas mengimbasnya
+74	3174	pelawak	pelawaknya
+75	3175	hoki	hokinya
+76	3176	kritikan	kritikannya
+77	3177	atom	atomnya
+78	3178	agresif	agresifnya
+79	3179	pertimbangan	pertimbanganku pertimbangannya
+80	3180	bersungguh	bersungguhnya
+81	3181	bertiga	
+82	3182	inap	menginap menginaplah
+83	3183	genius	geniuslah geniusnya
+84	3184	celah	celahnya dicelah mencelah
+85	3185	manja	bermanja dimanja dimanjakan dimanjanya manjai manjakan manjakanlah manjakannya manjaku manjanya memanja memanjakan memanjakanku memanjakanmu memanjakannya
+86	3186	bertengkar	
+87	3187	pencemaran	pencemarannya
+88	3188	pemahaman	pemahamanku pemahamanmu pemahamannya
+89	3189	tambang	menambang tambangku tambangnya
+90	3190	mamat	
+91	3191	stok	stokku stoknya
+92	3192	tebus	ditebus menebus menebusi menebusinya menebuslah menebusnya tebusi tebuslah tebusnya
+93	3193	penghinaan	penghinaanku penghinaanlah penghinaanmu penghinaannya
+94	3194	bertulis	bertulisnya
+95	3195	penunggang	penunggangnya
+96	3196	anggaran	anggarannya
+97	3197	bersamaan	
+98	3198	kreativiti	berkreativiti kreativitiku kreativitinya
+99	3199	luaran	luarannya
+100	3200	akidah	akidahnya berakidah

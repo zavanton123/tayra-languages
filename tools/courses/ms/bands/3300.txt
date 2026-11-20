@@ -1,100 +1,100 @@
-1	3201	bangang	
-2	3202	pemadam	
-3	3203	saksama	
-4	3204	gerabak	gerabaknya
-5	3205	mintak	
-6	3206	rebah	
-7	3207	wap	wapnya
-8	3208	kacukan	
-9	3209	ihsan	
-10	3210	didik	
-11	3211	ghairah	ghairahnya
-12	3212	bikin	
-13	3213	dayang	dayangku dayangnya
-14	3214	rentas	
-15	3215	bonda	
-16	3216	bidadari	bidadariku bidadarinya
-17	3217	delima	
-18	3218	dahan	dahannya
-19	3219	berkenan	
-20	3220	titisan	
-21	3221	gelung	
-22	3222	pengimbas	pengimbasmu
-23	3223	bilal	
-24	3224	sosej	sosejnya
-25	3225	darjat	
-26	3226	laksana	
-27	3227	khayal	
-28	3228	pelita	
-29	3229	kepenggunaan	
-30	3230	penyapu	penyapumu penyapunya
-31	3231	halia	
-32	3232	perbatasan	
-33	3233	menyambar	disambar
-34	3234	tunggang	ditunggang tunggangi
-35	3235	gaduh	
-36	3236	fly	
-37	3237	lokap	dilokap
-38	3238	melimpah	
-39	3239	ajal	ajalku ajalmu ajalnya
-40	3240	nekad	
-41	3241	azimat	azimatnya
-42	3242	busana	
-43	3243	kudus	
-44	3244	berkhasiat	
-45	3245	deras	
-46	3246	mencontohi	dicontohi
-47	3247	sekata	
-48	3248	bedebah	
-49	3249	berazam	
-50	3250	kalsium	
-51	3251	fasih	
-52	3252	sep	
-53	3253	mercun	mercunnya
-54	3254	tesis	
-55	3255	memudaratkan	
-56	3256	pulut	
-57	3257	ranting	
-58	3258	gading	gadingnya
-59	3259	biola	biolanya
-60	3260	pancing	dipancing pancingnya
-61	3261	automotif	
-62	3262	kalung	
-63	3263	kumbahan	
-64	3264	koi	
-65	3265	snek	
-66	3266	nostalgia	nostalgianya
-67	3267	berparti	
-68	3268	gita	
-69	3269	pelapis	
-70	3270	bunian	
-71	3271	dukung	didukung dokong
-72	3272	pinggul	pinggulku pinggulmu pinggulnya
-73	3273	cermat	
-74	3274	terusan	
-75	3275	berkebolehan	
-76	3276	ibunda	ibundanya
-77	3277	menjulang	dijulang
-78	3278	tatabahasa	tatabahasanya
-79	3279	bagasi	
-80	3280	maharani	
-81	3281	perincian	perinciannya
-82	3282	pujaan	pujaanku pujaannya
-83	3283	menghitung	
-84	3284	perhutanan	
-85	3285	lintah	
-86	3286	lapuk	
-87	3287	petikan	
-88	3288	mendengus	
-89	3289	hadiahkan	dihadiahkan
-90	3290	bertiup	
-91	3291	aniaya	dianiaya menganiaya
-92	3292	dian	
-93	3293	pasta	
-94	3294	rasis	
-95	3295	esa	
-96	3296	simen	simennya
-97	3297	perbarisan	
-98	3298	kritis	
-99	3299	fabrik	fabriknya
-100	3300	buletin	
+1	3201	carta	cartanya dicartakan mencartakan
+2	3202	selimut	berselimut berselimutkan diselimuti diselimutkan menyelimuti menyelimutinya menyelimutkan menyelimutkannya selimuti selimutilah selimutkan selimutku selimutmu selimutnya
+3	3203	perabot	berperabot perabotnya
+4	3204	samseng	samsengkah samsengmu
+5	3205	penyimpanan	penyimpananmu penyimpanannya
+6	3206	sape	bersapa disapa menyapa menyapaku menyapamu menyapanya sapa sapalah sapanya
+7	3207	wangsa	
+8	3208	aturan	aturanku aturanmu aturannya beraturan
+9	3209	lamar	dilamar lamarkan lamarlah melamar melamarku melamarlah melamarmu melamarnya
+10	3210	degil	berdegil degilnya sedegil
+11	3211	cemar	bercemar cemari cemarkan cemarkannya dicemar dicemari dicemarkan mencemar mencemari mencemarinya mencemarkan
+12	3212	khuatir	dikhuatiri dikhuatirkan khuatiri khuatirkan khuatirkanmu mengkhuatirkan
+13	3213	padahal	
+14	3214	pendatang	
+15	3215	geran	bergeran
+16	3216	pengajar	pengajarnya
+17	3217	ganja	ganjai ganjaku ganjanya
+18	3218	pembaharuan	pembaharuannya
+19	3219	pengkhianat	pengkhianatnya
+20	3220	lumayan	
+21	3221	tani	bertani
+22	3222	tabur	bertabur ditabur ditaburi ditaburkan menabur menaburkan menaburkannya taburi taburkan taburkannya taburlah
+23	3223	takhta	bertakhta takhtaku takhtamu takhtanya
+24	3224	kemunculan	kemunculannya
+25	3225	istirahat	beristirahat beristirahatlah istirahatlah
+26	3226	silam	silamku silamnya
+27	3227	beda	bedai bedanya berbeda berbedanya membedai membedakan membedakannya
+28	3228	pembentangan	pembentangannya
+29	3229	poster	postermu posternya
+30	3230	lilin	berlilin lilinku lilinnya
+31	3231	ziarah	berziarah diziarahi diziarahinya menziarah menziarahi menziarahinya menziarahnya ziarahi ziarahilah
+32	3232	licin	dilicinkan licinkan licinnya melicin melicinkan
+33	3233	pengecualian	pengecualiannya
+34	3234	adegan	adeganmu adegannya beradegan
+35	3235	kebangkitan	kebangkitannya
+36	3236	kelainan	kelainannya
+37	3237	tip	mengetip tipi
+38	3238	perairan	diperairan perairannya
+39	3239	perkuburan	
+40	3240	tiri	tirikan tiriku tirimu tirinya
+41	3241	mufti	muftinya
+42	3242	ketujuh	ketujuhku ketujuhnya
+43	3243	mega	megaku
+44	3244	kriteria	kriterianya
+45	3245	frekuensi	berfrekuensi frekuensiku frekuensinya
+46	3246	bulatan	
+47	3247	taip	bertaip ditaip menaip menaipkan menaipkannya menaipnya taipkan taipkannya
+48	3248	zat	berzat zati zatnya
+49	3249	waras	waraskah waraskan waraslah warasnya
+50	3250	batuk	batukkan batukku batuknya membatukkan
+51	3251	sejajar	disejajarkan sejajarkan
+52	3252	pencen	berpencen pencenkan pencenku pencennya
+53	3253	bung	bungkah bungkan
+54	3254	selari	diselarikan menyelarikan selarikan
+55	3255	jantina	berjantina jantinanya
+56	3256	seniman	senimanmu seniwati
+57	3257	ramuan	ramuanku ramuanmu ramuannya
+58	3258	perhentian	diperhentian
+59	3259	kafir	dikafirkan kafirkan kafirlah mengkafir mengkafirkan mengkafirkannya
+60	3260	pengumpulan	pengumpulannya
+61	3261	yakni	
+62	3262	transaksi	bertransaksi transaksimu transaksinya
+63	3263	skor	diskor skornya
+64	3264	penyelarasan	
+65	3265	karakter	berkarakter karaktermu karakternya
+66	3266	lahad	lahadnya
+67	3267	kedamaian	kedamaianku kedamaianmu
+68	3268	ria	beria beriaku riakan rialah
+69	3269	pemberi	pemberinya
+70	3270	penyata	
+71	3271	piano	pianonya
+72	3272	etnik	etniknya
+73	3273	diesel	dieselnya
+74	3274	dalang	dalangnya didalangi mendalangi mendalanginya
+75	3275	nasyid	bernasyid
+76	3276	hara	harakah harakan
+77	3277	koko	kokokan
+78	3278	biri	bebiri berbiri
+79	3279	tercapai	tercapaikah tercapailah tercapainya
+80	3280	ummah	ummahnya
+81	3281	jilat	dijilat dijilati jilati jilatlah jilatnya menjilat menjilati menjilatkan menjilatkannya menjilatnya
+82	3282	firma	firmaku firmanya
+83	3283	perbandingan	perbandingannya
+84	3284	hikmah	berhikmah hikmahnya
+85	3285	seandainya	
+86	3286	gotong	bergotong
+87	3287	pendarahan	pendarahannya
+88	3288	sandar	bersandar bersandarkan bersandarlah disandar disandarkan menyandar menyandarkan sandarkan
+89	3289	muktamad	dimuktamad dimuktamadkan memuktamadkan memuktamadkannya muktamadkan muktamadnya
+90	3290	tersekat	
+91	3291	futsal	
+92	3292	takaful	ditakaful
+93	3293	bersebelahan	bersebelahannya
+94	3294	tender	ditender menender tenderku tendernya
+95	3295	signifikan	signifikannya
+96	3296	galeri	galerinya
+97	3297	titah	bertitah dititah dititahkan menitahkan titahkan titahnya
+98	3298	pencuci	
+99	3299	tinju	bertinju ditinju meninju tinjuku tinjumu tinjunya
+100	3300	hoi	oi

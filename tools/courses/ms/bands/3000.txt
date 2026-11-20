@@ -1,100 +1,100 @@
-1	2901	molekul	
-2	2902	berkurang	
-3	2903	bahas	dibahas membahas
-4	2904	kebodohan	kebodohanmu kebodohannya
-5	2905	tabik	
-6	2906	anu	
-7	2907	jernih	
-8	2908	menyajikan	disajikan
-9	2909	aksesori	
-10	2910	petisyen	
-11	2911	reda	
-12	2912	jilat	
-13	2913	gunting	guntingku guntingnya
-14	2914	haus	
-15	2915	spesifikasi	
-16	2916	mengaktifkan	
-17	2917	ideologi	
-18	2918	baba	
-19	2919	samun	disamun menyamun
-20	2920	khuatir	
-21	2921	perah	diperah memerah
-22	2922	arkitek	arkiteknya
-23	2923	kuota	
-24	2924	takziah	
-25	2925	penakut	
-26	2926	pendengar	pendengarnya
-27	2927	pemacu	pemacuku pemacunya
-28	2928	sistematik	
-29	2929	menoleh	toleh
-30	2930	azan	
-31	2931	taufan	
-32	2932	gandum	gandumnya
-33	2933	korek	dikorek mengorek
-34	2934	capaian	
-35	2935	diari	
-36	2936	aiskrim	
-37	2937	fasiliti	fasilitinya
-38	2938	kembang	
-39	2939	banting	banteng
-40	2940	koyak	
-41	2941	pepejal	
-42	2942	piring	piringku piringmu piringnya sepiring
-43	2943	tari	
-44	2944	curiga	
-45	2945	pensel	pensil
-46	2946	ngah	
-47	2947	rempah	rempahnya
-48	2948	sabak	
-49	2949	dokumentari	dokumentarinya
-50	2950	samar	
-51	2951	membintangi	dibintangi
-52	2952	garaj	garajku garajmu garajnya
-53	2953	membetulkan	
-54	2954	misai	misaimu misainya
-55	2955	sapi	
-56	2956	keranda	
-57	2957	psikiatri	
-58	2958	pangeran	pangeranku pangeranmu pangerannya
-59	2959	kebawah	
-60	2960	rapuh	
-61	2961	pengintip	pengintipnya
-62	2962	monitor	monitorku monitornya
-63	2963	telaga	
-64	2964	edit	diedit mengedit
-65	2965	urat	uratku uratmu uratnya
-66	2966	kerbau	kerbaunya
-67	2967	telan	
-68	2968	syahid	
-69	2969	laci	
-70	2970	tarif	
-71	2971	kentut	kentutmu kentutnya
-72	2972	kutub	
-73	2973	parang	parangnya
-74	2974	telanjang	
-75	2975	bendahari	
-76	2976	kutu	kutunya
-77	2977	perintis	perintisku perintisnya
-78	2978	restu	restuku restumu restunya
-79	2979	maki	dimaki memaki
-80	2980	karyawan	karyawanku karyawanmu karyawannya
-81	2981	kutip	
-82	2982	akauntan	akauntanku akauntanmu akauntannya
-83	2983	bayu	bayunya
-84	2984	kebuluran	
-85	2985	tatkala	
-86	2986	suruhan	suruhanku suruhanmu suruhannya
-87	2987	juru	
-88	2988	teladan	teladannya
-89	2989	firdaus	
-90	2990	lap	dilap mengelap
-91	2991	beranak	
-92	2992	bait	baitnya
-93	2993	geografi	
-94	2994	tembakau	tembakaunya
-95	2995	sengsara	
-96	2996	pemanah	
-97	2997	penderma	
-98	2998	kuiz	
-99	2999	parasit	
-100	3000	keluli	kelulinya
+1	2901	keselesaan	keselesaanku keselesaannya
+2	2902	paparan	paparannya
+3	2903	usir	diusir mengusir mengusirku mengusirmu mengusirnya usirlah
+4	2904	pita	pitanya
+5	2905	kewajipan	berkewajiban berkewajipan kewajiban kewajipanku kewajipanmu kewajipannya
+6	2906	astaghfirullah	astaga
+7	2907	jaket	berjaket jaketku jaketmu jaketnya
+8	2908	peribahasa	
+9	2909	gangsa	
+10	2910	padan	berpadan dipadan dipadankan memadan memadankan memadankannya padankan padanlah padannya
+11	2911	pintas	dipintas memintas memintasnya pintasnya
+12	2912	realisasi	direalisasi direalisasikan merealisasi merealisasikan merealisasikannya realisasikan realisasikannya
+13	2913	susulan	susulannya
+14	2914	pemasaran	pemasaranku pemasarannya
+15	2915	perbankan	
+16	2916	solo	solonya
+17	2917	dekad	berdekad sedekad
+18	2918	lanun	lanunku lanunnya melanun
+19	2919	fatwa	berfatwa difatwa difatwakan fatwakan fatwanya memfatwakan
+20	2920	kapasiti	berkapasiti kapasitiku kapasitinya
+21	2921	sukarela	bersukarela sukarelanya
+22	2922	ulu	
+23	2923	kabur	dikaburi dikaburkan kaburi kaburkan kaburnya mengaburi mengaburkan mengkabur mengkaburi mengkaburkan
+24	2924	penalti	
+25	2925	bimbing	bimbinglah bimbingnya dibimbing dibimbingnya membimbing membimbingku membimbingmu membimbingnya
+26	2926	bazir	bazirkan bazirkanlah bazirkannya dibazirkan membazir membazirkan membazirkannya membazirnya
+27	2927	penghasilan	berpenghasilan penghasilanku penghasilannya
+28	2928	parut	berparut diparut memarut parutkan parutnya
+29	2929	persekolahan	persekolahanmu persekolahannya
+30	2930	kutuk	dikutuk kutukkan kutuklah mengutuk mengutukku mengutukmu mengutuknya
+31	2931	hawa	berhawa hawai hawanya
+32	2932	canselor	canselori canselornya
+33	2933	biologi	biologiku biologimu biologinya
+34	2934	pembuatan	pembuatannya
+35	2935	perolehan	perolehannya
+36	2936	gabenor	bergabenor gabenornya
+37	2937	eksport	dieksport diekspot eksportnya ekspot mengeksport mengekspot
+38	2938	visual	divisualkan visualnya
+39	2939	asasi	asasinya
+40	2940	taat	ditaati ditaatinya menaati mentaati mentaatinya taati taatilah taatkan taatlah
+41	2941	jubah	berjubah jubahku jubahmu jubahnya
+42	2942	empangan	empangannya
+43	2943	jalin	berjalin dijalin dijalinkan jalinkan jalinkannya menjalin menjalinkan
+44	2944	pucuk	pucuknya sepucuk
+45	2945	atasan	atasanku atasanmu atasannya
+46	2946	layanan	layananmu layanannya
+47	2947	judi	berjudi diperjudikan judinya memperjudikan menjudikan perjudikan
+48	2948	tertakluk	
+49	2949	pasport	pasportku pasportnya
+50	2950	graviti	gravitiku gravitinya gravitipun
+51	2951	pin	dipin dipinkan pinkan pinkannya pinnya
+52	2952	skrip	skripnya
+53	2953	keldai	keldaikan keldainya
+54	2954	pelantikan	pelantikannya
+55	2955	tenggara	
+56	2956	wangi	mewangikan wangikan wangiku wangimu wanginya
+57	2957	kontroversi	berkontroversi kontroversinya
+58	2958	konvensyen	
+59	2959	kemaluan	berkemaluan kemaluanku kemaluanmu kemaluannya
+60	2960	lisan	lisanmu lisannya
+61	2961	kelaparan	berkelaparan kelaparanlah
+62	2962	lebat	lebatkan lebatnya melebatkan
+63	2963	remeh	diremehkan meremehkan meremehkanku meremehkanmu meremehkannya remehkan remehnya
+64	2964	kot	kotnya
+65	2965	taktik	taktiknya
+66	2966	tumbang	ditumbangkan menumbang menumbangkan menumbangkannya tumbangkan tumbangkannya tumbangnya
+67	2967	benteng	bentengku bentengmu bentengnya dibenteng dibentengi membenteng membentengi
+68	2968	mutiara	mutiaraku mutiaramu mutiaranya
+69	2969	sunyi	sunyinya
+70	2970	gatal	gatallah gatalnya menggatal menggatalkan
+71	2971	servis	diservis servisnya
+72	2972	syor	disyor disyorkan mengesyorkan mengesyorkannya mensyorkan syorkan syorkannya syornya
+73	2973	lanjutan	berlanjutan lanjutannya
+74	2974	empayar	empayarku empayarmu empayarnya
+75	2975	cemas	cemasi cemaskan cemasnya dicemaskan mencemasi mencemaskan mencemaskanku mencemaskanmu mencemaskannya
+76	2976	kesulitan	kesulitanmu kesulitannya
+77	2977	pencerobohan	pencerobohanmu
+78	2978	kristal	berkristal kristalku kristalnya
+79	2979	farmasi	
+80	2980	jamuan	jamuannya
+81	2981	penutupan	penutupannya
+82	2982	itik	itek itiknya
+83	2983	reputasi	bereputasi reputasiku reputasimu reputasinya
+84	2984	datu	
+85	2985	musang	
+86	2986	lelah	lelahku lelahmu lelahnya melelahkan
+87	2987	komedi	komedinya
+88	2988	lucah	
+89	2989	suntikan	disuntikan menyuntikan suntikanlah suntikannya
+90	2990	pengasas	pengasasnya
+91	2991	keraguan	keraguanku keraguanmu keraguannya
+92	2992	darurat	daruratmu daruratnya
+93	2993	pawagam	dipawagam
+94	2994	teguh	diperteguh diperteguhkan diteguhkan memperteguh memperteguhkan meneguhkan perteguhkan perteguhkanlah teguhkan teguhkanlah teguhlah teguhnya
+95	2995	terpisah	terpisahkan terpisahmu
+96	2996	bonus	bonusmu bonusnya
+97	2997	seringkali	
+98	2998	payudara	berpayudara payudaraku payudaramu payudaranya
+99	2999	demonstrasi	berdemonstrasi didemonstrasikan mendemonstrasikan mendemonstrasikannya
+100	3000	tafsir	ditafsir ditafsirkan menafsir menafsirkan menafsirkannya menafsirnya mentafsir mentafsirkan mentafsirkannya mentafsirnya tafsirkan tafsirkanlah tafsirkannya tafsirnya

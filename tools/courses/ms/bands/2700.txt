@@ -1,100 +1,100 @@
-1	2601	ria	
-2	2602	petak	sepetak
-3	2603	mencuci	
-4	2604	salib	salibmu salibnya
-5	2605	perosak	perosaknya
-6	2606	pelangi	
-7	2607	cerpen	cerpennya
-8	2608	adab	adabnya
-9	2609	pasu	pasunya
-10	2610	kekejaman	
-11	2611	iklim	iklimnya
-12	2612	terma	termanya
-13	2613	sawah	sawahnya
-14	2614	kecelakaan	
-15	2615	barah	barahnya
-16	2616	kontinjen	kontinjennya
-17	2617	angkut	diangkut mengangkut
-18	2618	tirai	tirainya
-19	2619	sendi	sendinya
-20	2620	ketegangan	
-21	2621	telus	setelus
-22	2622	lantas	
-23	2623	batasan	
-24	2624	pemberontakan	
-25	2625	unta	untaku untamu untanya
-26	2626	berpeluh	
-27	2627	rak	
-28	2628	konkrit	konkritnya
-29	2629	original	ori
-30	2630	sifar	
-31	2631	bijaksana	
-32	2632	gosok	digosok menggosok
-33	2633	suri	
-34	2634	setan	
-35	2635	celah	
-36	2636	syariat	
-37	2637	arang	
-38	2638	kejatuhan	kejatuhannya
-39	2639	dam	
-40	2640	pengertian	
-41	2641	tiri	
-42	2642	azam	azammu azamnya
-43	2643	rejim	
-44	2644	assalamualaikum	
-45	2645	lembap	lem
-46	2646	memanjat	
-47	2647	khinzir	
-48	2648	sudu	sudunya
-49	2649	dungu	
-50	2650	roma	
-51	2651	rasional	
-52	2652	penghulu	
-53	2653	panggang	
-54	2654	serah	
-55	2655	arkib	arkibnya diarkib
-56	2656	kelawar	
-57	2657	lipat	dilipat melipat
-58	2658	berus	diberus memberus
-59	2659	jerit	
-60	2660	nipis	
-61	2661	menenangkan	
-62	2662	tombak	tombakku tombaknya
-63	2663	kuman	
-64	2664	kapak	
-65	2665	laksa	
-66	2666	rusuk	merusuk rusuknya
-67	2667	pemangsa	
-68	2668	paman	
-69	2669	terbatas	
-70	2670	labu	labumu labunya
-71	2671	culik	
-72	2672	jersi	
-73	2673	tamak	
-74	2674	perikanan	
-75	2675	wisma	
-76	2676	cerdik	
-77	2677	kekeliruan	kekeliruannya
-78	2678	rentak	rentakmu rentaknya
-79	2679	liter	
-80	2680	formal	
-81	2681	istiadat	
-82	2682	nana	
-83	2683	berlayar	
-84	2684	liat	
-85	2685	mutlak	
-86	2686	pelayar	
-87	2687	pernyataan	
-88	2688	produktiviti	produktivitinya
-89	2689	lobak	
-90	2690	muktamad	
-91	2691	tekak	
-92	2692	dikau	
-93	2693	cas	
-94	2694	angkasawan	angkasawannya
-95	2695	merungut	
-96	2696	tumbang	
-97	2697	punyai	dipunyai
-98	2698	longkang	longkangnya
-99	2699	manja	
-100	2700	ubi	ubinya
+1	2601	karnival	
+2	2602	gala	digalakan galakan galakannya galanya menggalakan
+3	2603	sedunia	
+4	2604	platform	platformnya
+5	2605	teroka	diteroka diterokai diterokainya meneroka menerokai menerokainya menerokanya terokai terokailah terokainya
+6	2606	mingguan	mingguannya
+7	2607	beras	berasnya
+8	2608	payung	berpayung berpayungkan dipayungi memayungi mempayungkan payungkan payungku payungnya
+9	2609	pukulan	pukulanku pukulanmu pukulannya
+10	2610	singgah	disinggah disinggahi disinggahinya menyinggah singgahlah
+11	2611	seksa	diseksa diseksakan menyeksa menyeksakan menyeksakannya menyeksaku menyeksanya seksalah seksanya
+12	2612	jus	berjus jusi jusmu jusnya
+13	2613	akademi	akademinya
+14	2614	pulak	
+15	2615	topik	topiknya
+16	2616	penyerang	penyerangku penyeranglah penyerangnya
+17	2617	malahan	
+18	2618	roket	meroket roketmu roketnya
+19	2619	murni	dimurnikan memurni memurnikan murninya
+20	2620	potongan	berpotongan potonganmu potongannya
+21	2621	bangsat	bangsatmu
+22	2622	hidap	dihidap dihidapi dihidapinya hidapi menghidap menghidapi menghidapinya menghidapnya
+23	2623	organ	organnya
+24	2624	terapi	berterapi terapiku terapinya
+25	2625	kak	
+26	2626	penggambaran	penggambarannya
+27	2627	semacam	semacamlah semacamnya
+28	2628	pencegahan	pencegahannya
+29	2629	kadangkala	kadangkalanya
+30	2630	jawi	jawinya jejawi
+31	2631	udang	udangnya
+32	2632	pelindung	pelindungku pelindungmu pelindungnya
+33	2633	tongkat	bertongkat bertongkatkan menongkat tongkatku tongkatmu tongkatnya
+34	2634	sukarelawan	sukarelawankah sukarelawanmu
+35	2635	lebuh	
+36	2636	statistik	berstatistik statistikku statistiknya
+37	2637	paus	pauslah pausnya
+38	2638	moral	moralmu moralnya
+39	2639	tonjol	dipertonjolkan ditonjol ditonjolkan ditonjolkannya menonjol menonjolkan menonjolkannya tonjolkan tonjolkanlah
+40	2640	campak	campakkan campakkanlah campakkannya campaknya dicampak dicampakkan mencampak mencampakkan mencampakkanku mencampakkanmu mencampakkannya mencampakmu mencampaknya
+41	2641	hajat	berhajat berhajatkan dihajat dihajati dihajatinya dihajatkan hajati hajatkan hajatku hajatmu hajatnya menghajatkan
+42	2642	penyebab	penyebabnya
+43	2643	senyuman	senyumanmu senyumannya
+44	2644	dara	berdara darai daraku daramu daranya
+45	2645	kuliah	berkuliah dikuliahkan duplication kuliahku kuliahlah kuliahmu kuliahnya
+46	2646	pengedar	pengedarnya
+47	2647	buaya	
+48	2648	pembiayaan	pembiayaannya
+49	2649	pen	peni pennya
+50	2650	penderitaan	penderitaanku penderitaanmu penderitaannya
+51	2651	gali	digali digalinya galikan galilah galinya menggali menggalimu menggalinya
+52	2652	ibadat	beribadat beribadatlah ibadatku ibadatnya
+53	2653	mineral	mineralnya
+54	2654	petik	dipetik dipetiknya memetik memetiknya petikkan petiklah petiknya
+55	2655	kelima	kelimanya
+56	2656	keluh	berkeluh keluhkan keluhnya mengeluh mengeluhkan mengeluhkannya
+57	2657	panjat	dipanjat dipanjatkan memanjat memanjatkan memanjatlah memanjatnya panjatkan panjatlah
+58	2658	hindar	dihindar dihindari dihindarkan hindari hindarilah hindarinya hindarkan hindarkanlah hindarkannya menghindar menghindari menghindariku menghindarimu menghindarinya menghindarkan menghindarkanku menghindarkanmu menghindarkannya menghindarnya
+59	2659	perjumpaan	perjumpaannya
+60	2660	waspada	berwaspada berwaspadalah diwaspadai mewaspada waspadai waspadalah
+61	2661	penyediaan	penyediaannya
+62	2662	kemiskinan	kemiskinannya
+63	2663	bibir	berbibir bibirku bibirmu bibirnya dibibir
+64	2664	rezeki	rezekikan rezekinya
+65	2665	notis	notisnya
+66	2666	cair	cairkan cairkannya dicair dicairkan mencair mencairkan mencairkannya
+67	2667	tertuduh	
+68	2668	meriam	meriammu meriamnya
+69	2669	syiling	syilingnya
+70	2670	rangsang	dirangsang dirangsangkan memberangsangkan merangsang merangsangkan merangsangku merangsangmu merangsangnya rangsanglah
+71	2671	seimbang	diseimbangkan memperseimbangkan menyeimbangi menyeimbangkan menyeimbangkannya seimbangkan seimbangkannya
+72	2672	baring	baringkan baringkannya baringlah berbaring berbaringlah dibaringkan membaringkan membaringkannya
+73	2673	keajaiban	keajaibanku keajaibanlah keajaibanmu keajaibannya
+74	2674	pegangan	berpegangan berpeganganlah peganganku pegangannya
+75	2675	tayar	bertayar tayarku tayarmu tayarnya
+76	2676	diet	berdiet dietku dietmu dietnya
+77	2677	teraju	diteraju diterajui diterajuinya meneraju menerajui menerajuinya terajui terajunya
+78	2678	pustaka	
+79	2679	sambungan	bersambungan sambunganku sambungannya
+80	2680	markah	markahnya
+81	2681	serbuk	serbuknya
+82	2682	lekat	dilekat dilekatkan lekatkan lekatkannya melekat melekatkan melekatkannya melekatnya
+83	2683	sayuran	sayuranku sayuranlah sayurannya
+84	2684	maharaja	bermaharaja maharajaku
+85	2685	kesal	dikesal dikesali dikesalinya dikesalkan kesali kesalilah kesalkan kesalku kesalnya mengesali mengesalkan
+86	2686	wayar	berwayar diwayarkan wayarkan wayarnya
+87	2687	subsidi	bersubsidi disubsidi disubsidikan subsidimu
+88	2688	automatik	automatiknya
+89	2689	cha	chai chaku
+90	2690	asid	asidi asidnya berasid
+91	2691	ajaib	ajaibi ajaibku ajaibmu ajaibnya
+92	2692	herba	berherba herbanya
+93	2693	dek	deki deknya
+94	2694	bimbingan	bimbinganku bimbinganmu bimbingannya
+95	2695	pembentukan	pembentukannya
+96	2696	atuk	atok atukku atuknya beratok
+97	2697	anggar	anggarkan anggarkannya dianggar dianggarkan menganggar menganggarkan
+98	2698	debat	berdebat berdebatlah berdebatnya debatkan debatnya didebatkan diperdebat diperdebatkan memperdebatkan mendebat mendebatkan perdebatkan
+99	2699	cawan	cawanku cawannya secawan
+100	2700	sejahtera	menyejahterakan sejahterakan sejahterakanlah sejahteraku sejahteralah

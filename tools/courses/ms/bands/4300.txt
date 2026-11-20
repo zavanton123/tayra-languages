@@ -1,100 +1,100 @@
-1	4201	berzaman	
-2	4202	elektron	
-3	4203	kudeta	
-4	4204	tabika	
-5	4205	tandus	
-6	4206	bes	
-7	4207	dahlah	
-8	4208	mayones	mayonis
-9	4209	inap	
-10	4210	televisi	televisinya
-11	4211	murad	
-12	4212	kelestarian	
-13	4213	lesung	
-14	4214	canai	
-15	4215	memendekkan	
-16	4216	tersandung	
-17	4217	cokmar	
-18	4218	juzuk	
-19	4219	kalkulator	
-20	4220	kantoi	
-21	4221	tuai	
-22	4222	berdebu	
-23	4223	berkicau	
-24	4224	mengiklankan	
-25	4225	mengamati	
-26	4226	sosialis	
-27	4227	teriak	
-28	4228	jirim	
-29	4229	cekak	secekak
-30	4230	denai	
-31	4231	syif	
-32	4232	daeng	
-33	4233	gurita	guritanya
-34	4234	usir	
-35	4235	sakai	
-36	4236	cawang	
-37	4237	sekretaris	duplication
-38	4238	perkosa	diperkosa
-39	4239	celup	
-40	4240	pipit	
-41	4241	kelasi	
-42	4242	empunya	
-43	4243	pelampau	
-44	4244	puaskan	
-45	4245	rejam	direjam merejam
-46	4246	solusi	
-47	4247	depa	
-48	4248	aswad	
-49	4249	kudrat	
-50	4250	tengkujuh	
-51	4251	ayun	hayun
-52	4252	bidik	
-53	4253	eka	
-54	4254	hias	
-55	4255	acar	
-56	4256	zirafah	zirafahnya
-57	4257	angsana	
-58	4258	pensiun	
-59	4259	bertih	
-60	4260	pengabaian	
-61	4261	berkedut	
-62	4262	ensiklopedia	ensiklopedianya
-63	4263	rebung	rebungnya
-64	4264	saji	
-65	4265	kedoktoran	
-66	4266	kekanda	kekandanya
-67	4267	noda	
-68	4268	tragik	
-69	4269	ancam	diancam
-70	4270	raket	
-71	4271	minah	
-72	4272	terpaku	
-73	4273	silikon	
-74	4274	puaka	
-75	4275	intip	
-76	4276	cebis	secebis
-77	4277	mengabdi	
-78	4278	goda	
-79	4279	hempedu	
-80	4280	bupati	
-81	4281	rendam	
-82	4282	menyampah	
-83	4283	clash	
-84	4284	kenakalan	
-85	4285	muktamadkan	dimuktamadkan
-86	4286	ovari	
-87	4287	redang	
-88	4288	miang	miangnya
-89	4289	ufuk	
-90	4290	rami	
-91	4291	pancit	
-92	4292	mentua	
-93	4293	lengah	
-94	4294	pelincir	
-95	4295	tanglung	tanglungnya
-96	4296	suntingan	
-97	4297	divisi	
-98	4298	persuratan	
-99	4299	cacar	
-100	4300	menegah	
+1	4201	samun	disamun menyamun
+2	4202	monitor	dimonitor memonitor monitorku monitornya
+3	4203	keranda	kerandai kerandamu kerandanya
+4	4204	penahanan	penahananku penahanannya
+5	4205	didih	dididih dididihkan didihkan mendidih mendidihkan mendidihkannya
+6	4206	bibi	bibiku bibimu bibinya
+7	4207	kuota	kuotanya
+8	4208	arkitek	arkiteknya
+9	4209	peralihan	peralihannya
+10	4210	takziah	
+11	4211	kekeluargaan	kekeluargaannya
+12	4212	penakut	
+13	4213	fan	fannya
+14	4214	menoleh	menolehlah toleh
+15	4215	azan	azani diazankan
+16	4216	pendengar	pendengarnya
+17	4217	pemacu	pemacuku pemacunya
+18	4218	biak	biakkan biaklah dibiak dibiakkan membiak membiakkan membiakkannya membiaklah
+19	4219	asteroid	asteroidnya
+20	4220	pergelangan	dipergelangan pergelangannya
+21	4221	abdi	abdikan abdilah diabdikan mengabdi mengabdikan
+22	4222	pertambahan	
+23	4223	rantaian	berantaian rantaiannya
+24	4224	keimanan	keimananku keimanannya
+25	4225	hembus	berhembus dihembus dihembuskan hembuskan hembuskanlah hembuskannya hembusnya menghembus menghembuskan
+26	4226	pasaraya	
+27	4227	rapuh	rapuhkah rapuhkan rapuhnya
+28	4228	vokal	bervokal vokalku vokalnya
+29	4229	keprihatinan	keprihatinanmu keprihatinannya
+30	4230	taufan	
+31	4231	gandum	gandumnya
+32	4232	berangan	berangankah beranganlah
+33	4233	editor	editormu editornya
+34	4234	balut	balutkan balutkannya balutlah balutnya berbalut dibalut dibaluti membalut membaluti membalutinya membalutnya
+35	4235	ketagihan	ketagihanku ketagihannya
+36	4236	las	dilas lasi laskan melas
+37	4237	peninggalan	peninggalanmu peninggalannya
+38	4238	pembesar	pembesarnya
+39	4239	capaian	
+40	4240	kibar	berkibar berkibarlah berkibarnya dikibar dikibarkan kibarkan kibarkanlah kibarlah mengibar mengibarkan mengibarkannya
+41	4241	aura	auranya beraura
+42	4242	aiskrim	
+43	4243	fasiliti	difasiliti fasilitinya
+44	4244	tarif	tarifku tarifmu tarifnya
+45	4245	khayalan	khayalanku khayalanmu khayalannya
+46	4246	abbas	abbasi
+47	4247	garaj	digaraj garajku garajmu garajnya
+48	4248	edit	diedit mengedit mengeditnya
+49	4249	pepejal	dipepejalkan
+50	4250	wacana	berwacana diwacanakan mewacanakan wacananya
+51	4251	dokumentari	dokumentarinya mendokumentari mendokumentarikan
+52	4252	tertera	
+53	4253	meterai	dimeterai dimeteraikan dimeterainya memeterai memeteraikan memeteraikannya meterainya
+54	4254	piring	piringku piringmu piringnya sepiring
+55	4255	psikiatri	psikiatrinya
+56	4256	jabat	berjabat berjabatlah menjabat
+57	4257	nobat	dinobat dinobatkan menobatkan menobatkannya nobatkan
+58	4258	laci	berlaci lacimu lacinya
+59	4259	samurai	samuraiku samurainya
+60	4260	penyatuan	penyatuannya
+61	4261	dusta	berdusta didustakan dustakan dustaku mendustai mendustainya mendustakan mendustakannya
+62	4262	rosot	merosot merosotnya
+63	4263	pensel	pensil
+64	4264	rempah	rempahnya
+65	4265	sabak	
+66	4266	dominasi	didominasi didominasikan dominasinya mendominasi mendominasikan
+67	4267	kentut	berkentut kentutkan kentutmu kentutnya mengentut
+68	4268	sapi	
+69	4269	semai	disemai disemaikan menyemai menyemaikan menyemainya semaikan
+70	4270	pangeran	pangeranku pangeranmu pangerannya
+71	4271	sekretariat	sekretariatnya
+72	4272	telaga	telaganya
+73	4273	kebawah	
+74	4274	sentimen	sentimenmu sentimennya
+75	4275	selubung	berselubung diselubungi menyelubungi menyelubunginya selubungi selubungkan
+76	4276	sensasi	disensasi disensasikan sensasikan sensasikannya sensasimu sensasinya
+77	4277	cekik	cekiklah cekiknya dicekik dicekiknya mencekik mencekikku mencekikmu mencekiknya
+78	4278	pengintip	pengintipnya
+79	4279	aroma	aromaku aromamu aromanya beraroma
+80	4280	cergas	cergasi cergaskan cergasnya mencergaskan
+81	4281	karaoke	berkaraoke
+82	4282	interaktif	berinteraktif
+83	4283	geografi	geografiku geografinya
+84	4284	maritim	
+85	4285	tunjang	bertunjang bertunjangkan ditunjangi menunjang menunjangi tunjangnya
+86	4286	kutu	berkutu kutunya
+87	4287	poin	poinnya
+88	4288	penghubung	penghubungku penghubungnya
+89	4289	kerbau	kerbaunya
+90	4290	muktamar	bermuktamar muktamarnya
+91	4291	bendahari	bendaharinya
+92	4292	syahid	
+93	4293	serat	berserat serati seratnya
+94	4294	kutub	mengutub
+95	4295	penyeludupan	
+96	4296	zarah	zarahnya
+97	4297	orbit	mengorbit mengorbitkan mengorbitnya orbitnya
+98	4298	buih	berbuih buihkan buihlah buihnya dibuihkan membuih
+99	4299	asma	asmanya
+100	4300	kenyang	kenyangkan kenyangkanlah kenyanglah kenyangnya mengenyangkan

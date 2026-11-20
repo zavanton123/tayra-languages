@@ -1,100 +1,100 @@
-1	4801	diem	
-2	4802	sesali	disesali
-3	4803	juling	
-4	4804	juruukur	
-5	4805	sengkang	
-6	4806	mong	
-7	4807	bapuk	bapok
-8	4808	jagat	
-9	4809	pengelasan	
-10	4810	colok	mencolok
-11	4811	curian	
-12	4812	urin	
-13	4813	intensiti	intensitinya
-14	4814	jumhur	
-15	4815	dingo	
-16	4816	makaroni	
-17	4817	kerah	
-18	4818	kabupaten	
-19	4819	pacu	
-20	4820	terinspirasi	
-21	4821	koc	
-22	4822	cengal	
-23	4823	kumuh	
-24	4824	penyembahan	
-25	4825	cendera	
-26	4826	drebar	
-27	4827	kronisme	
-28	4828	gramatis	
-29	4829	astana	
-30	4830	mengkafirkan	
-31	4831	verifikasi	
-32	4832	jamban	
-33	4833	keuskupan	
-34	4834	bolong	
-35	4835	pamah	
-36	4836	stereotaip	
-37	4837	madani	
-38	4838	sosialisasi	
-39	4839	takleh	
-40	4840	tiba-tiba	tetiba
-41	4841	pembayang	
-42	4842	nuansa	
-43	4843	keasidan	
-44	4844	pengimportan	
-45	4845	haruan	
-46	4846	imsak	
-47	4847	hidrologi	
-48	4848	cengkerik	
-49	4849	asuransi	
-50	4850	melestarikan	
-51	4851	seteru	
-52	4852	berai	
-53	4853	automasi	
-54	4854	kedut	
-55	4855	probiotik	
-56	4856	jolok	
-57	4857	takoyaki	
-58	4858	terpercik	
-59	4859	kaleng	kalengnya
-60	4860	previu	
-61	4861	degup	
-62	4862	lentang	
-63	4863	bahana	
-64	4864	cham	
-65	4865	lelangit	
-66	4866	ramas	
-67	4867	deret	sederet
-68	4868	farisi	
-69	4869	pengislaman	
-70	4870	baghal	
-71	4871	tangis	
-72	4872	arsenik	
-73	4873	terhimpit	
-74	4874	prasiswazah	
-75	4875	lengang	
-76	4876	sesal	
-77	4877	pinga	
-78	4878	insinyur	
-79	4879	popia	
-80	4880	lebarkan	dilebarkan
-81	4881	isytihar	
-82	4882	dedak	
-83	4883	prakata	
-84	4884	abnormal	
-85	4885	kati	
-86	4886	baldu	
-87	4887	pankreas	
-88	4888	referendum	
-89	4889	aksen	
-90	4890	serak	
-91	4891	warak	
-92	4892	supir	supirku supirmu
-93	4893	teratak	
-94	4894	pantauan	
-95	4895	pembaris	
-96	4896	kerusuhan	
-97	4897	makwe	
-98	4898	keseriusan	
-99	4899	ekstremis	
-100	4900	haah	
+1	4801	ajal	ajalku ajalmu ajalnya
+2	4802	toksik	bertoksik toksiknya
+3	4803	lauk	berlauk berlaukkan lauknya
+4	4804	azimat	azimatnya
+5	4805	tebang	ditebang ditebangkan menebang menebangkan menebangnya tebangnya
+6	4806	prestij	berprestij
+7	4807	iktibar	beriktibar iktibarnya
+8	4808	les	lesi
+9	4809	gading	bergading gadingnya
+10	4810	nostalgia	bernostalgia nostalgianya
+11	4811	berkhasiat	
+12	4812	nurani	nuraniku nuranimu nuraninya
+13	4813	pemangku	pemangkunya
+14	4814	sekata	
+15	4815	dilema	dilemaku dilemanya
+16	4816	sena	
+17	4817	sep	persepi
+18	4818	yasmin	
+19	4819	jilid	berjilid dijilid dijilidkan menjilid
+20	4820	bermata	
+21	4821	berazam	berazamlah
+22	4822	sawan	sawannya
+23	4823	ranting	rantingnya
+24	4824	memudaratkan	memudaratkannya
+25	4825	bedebah	
+26	4826	dengus	berdengus mendengus
+27	4827	bahar	bahari
+28	4828	konsesi	
+29	4829	salim	salimi
+30	4830	kosmetik	kosmetikmu
+31	4831	fasih	
+32	4832	dangdut	
+33	4833	mercun	mercunnya
+34	4834	pangkuan	dipangkuan dipangkuanku dipangkuanmu pangkuanku pangkuanmu pangkuannya
+35	4835	kumbahan	kumbahanlah
+36	4836	pap	papi
+37	4837	saku	sakuku sakumu sakunya
+38	4838	pulut	
+39	4839	karpet	dikarpet karpetku karpetmu karpetnya
+40	4840	pemotongan	pemotongannya
+41	4841	kuna	kunai menguna mengunakan mengunakannya
+42	4842	bagasi	bagasiku bagasinya
+43	4843	pendakian	
+44	4844	cermat	bercermat cermatlah mencermati
+45	4845	pembayar	
+46	4846	biola	biolanya
+47	4847	automotif	
+48	4848	laras	berlaras dilaras dilaraskan laraskan larasnya melaras melaraskan melaraskannya
+49	4849	pelapis	pelapisnya
+50	4850	antibiotik	
+51	4851	alaf	
+52	4852	efisien	
+53	4853	solar	solarnya
+54	4854	prima	
+55	4855	koi	
+56	4856	tutorial	
+57	4857	snek	
+58	4858	jalinan	
+59	4859	kompetitif	
+60	4860	petikan	petikanku petikannya
+61	4861	jebat	jebatkah
+62	4862	letusan	letusannya
+63	4863	penyingkiran	penyingkirannya
+64	4864	tar	bertar ditar mengetarkan
+65	4865	pembacaan	pembacaannya
+66	4866	gita	
+67	4867	syarahan	bersyarahan syarahankah syarahannya
+68	4868	bunian	
+69	4869	serabut	berserabut menyerabut menyerabutkan serabutnya
+70	4870	poligami	berpoligami
+71	4871	pinggul	pinggulku pinggulmu pinggulnya
+72	4872	gim	gimnya
+73	4873	skirt	berskirt skirtnya
+74	4874	bit	
+75	4875	perincian	berperincian perinciannya
+76	4876	persona	mempersona mempersonakan mempersonakankah personai
+77	4877	rakit	berakit dirakit merakit merakitnya rakitku rakitnya
+78	4878	jemu	jemukan menjemukan
+79	4879	berkebolehan	
+80	4880	ibunda	ibundanya
+81	4881	akad	akadlah berakad diakad mengakad
+82	4882	tatabahasa	tatabahasanya
+83	4883	survey	
+84	4884	kaset	kasetmu kasetnya
+85	4885	maharani	
+86	4886	perawatan	perawatannya
+87	4887	lapuk	lapuknya
+88	4888	alas	alasi alaskan alasnya beralas beralaskan dialas dialaskan mengalas
+89	4889	tempa	ditempa ditempakan menempa
+90	4890	mah	mahi mahku mahpun
+91	4891	jerawat	berjerawat jerawatnya
+92	4892	laga	berlaga dilagakan lagakan lagakannya melaga melagakan
+93	4893	pujaan	pujaanku pujaannya
+94	4894	perhutanan	
+95	4895	lintah	
+96	4896	porno	pornomu pornonya
+97	4897	eksploitasi	dieksploitasi dieksploitasikan mengeksploitasi mengeksploitasikan mengeksploitasinya
+98	4898	mendatang	
+99	4899	riak	beriak riaknya
+100	4900	kening	berkening dikening keningku keningmu keningnya

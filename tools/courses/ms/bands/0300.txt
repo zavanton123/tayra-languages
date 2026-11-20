@@ -1,100 +1,100 @@
-1	201	jumpa	
-2	202	serta	
-3	203	sehingga	
-4	204	belum	blm
-5	205	paling	
-6	206	bagus	
+1	201	jumpa	berjumpa berjumpakah berjumpaku berjumpalah berjumpamu berjumpanya dijumpa dijumpai dijumpainya dijumpakan jumpai jumpainya jumpakah jumpakan jumpakanlah jumpaku jumpalah jumpamu jumpanya menjumpa menjumpai menjumpaiku menjumpaimu menjumpainya menjumpakan menjumpanya
+2	202	serta	berserta bersertakan bersertamu beserta besertakan besertaku diserta disertai disertainya disertakan menyertai menyertaimu menyertainya menyertakan menyertakannya sertai sertailah sertainya sertakah sertakan sertalah sertanya
+3	203	sehingga	sehinggalah sehingganya
+4	204	belum	belumlah belumnya belumpun blm
+5	205	paling	berpaling berpalinglah dipalingkan memaling memalingkan palingkan palingkanlah
+6	206	bagus	baguskah baguskan bagusku baguslah bagusmu bagusnya membaguskan memperbagus
 7	207	ahli	ahlinya
-8	208	minta	
-9	209	cepat	
+8	208	minta	berminta diminta dimintai dimintanya memintakan memintaku memintamu memintanya mintakan mintalah mintanya mintapun
+9	209	cepat	cepatkah cepatkan cepatkanlah cepatkannya cepatlah cepatnya dicepatkan dipercepat dipercepatkan mempercepat mempercepatkan mempercepatkannya mempercepatnya mencepatkan percepatkan percepatkannya
 10	210	berjaya	
-11	211	turut	
-12	212	ikut	diikut mengikut
-13	213	melalui	
-14	214	bandar	bandarku bandarnya
-15	215	tengok	ditengok menengok
-16	216	polis	polisku polismu polisnya
-17	217	nanti	
-18	218	semula	
-19	219	bulan	bln bulanku bulanmu bulannya
-20	220	faham	paham
-21	221	ingat	teringat
-22	222	kini	
-23	223	walaupun	
-24	224	pula	lak
-25	225	lagu	laguku lagumu lagunya
-26	226	selama	
-27	227	benda	mende
-28	228	ketua	ketuaku ketuamu ketuanya
+11	211	turut	berturut diturut dituruti diturutkan menuruti menurutiku menurutimu menurutinya menurutkan menurutku menurutmu menurutnya turuti turutilah turutkan turutlah
+12	212	ikut	berikutmu berikutnya diikut diikuti diikutinya diikutkan ikuti ikutiku ikutilah ikutinya ikutinyalah ikutkan ikutlah ikutnya mengikut mengikuti mengikutiku mengikutimu mengikutinya mengikutkan mengikutku mengikutnya
+13	213	melalui	melaluiku melaluinya
+14	214	bandar	bandari bandarku bandarnya dibandar membandarkan
+15	215	tengok	ditengok menengok tengokkah tengokkan tengokkannya tengokku tengoklah tengoknya
+16	216	polis	poliskah poliskan polisku polislah polismu polisnya
+17	217	nanti	dinanti dinantikan dinantinya menanti menantikan menantikanmu menantikannya menantiku menantimu menantinya nantikan nantikannya nantilah nantinya
+18	218	semula	semulakah semulanya
+19	219	bulan	berbulan bln bulanku bulanmu bulannya dibulan sebulan
+20	220	faham	difaham difahami difahaminya difahamkan dipahami dipahamkan fahami fahamilah fahaminya fahamkah fahamkan fahamkannya fahamlah fahamnya memahamiku memahamimu memahaminya memahamkan paham pahami pahamilah pahamkan
+21	221	ingat	beringat beringatlah diingat diingati diingatkan diingatnya diperingati diperingatkan ingati ingatilah ingatinya ingatkah ingatkan ingatkanlah ingatkannya ingatlah ingatnya memperingati memperingatimu memperingatkan memperingatkanku memperingatkanmu memperingatkannya mengingat mengingati mengingatiku mengingatimu mengingatinya mengingatkan mengingatkanku mengingatkanmu mengingatkannya mengingatku mengingatmu mengingatnya peringatkan teringat teringatkan teringatkannya
+22	222	kini	kinikan kininya
+23	223	walaupun	walaupunpun
+24	224	pula	lak lakkan memula memulai memulainya memulakan memulakannya memulanya mengelak mengelakkan mengelakkannya mengelaknya pulakah pulalah
+25	225	lagu	berlagu berlagulah dilagukan laguku lagumu lagunya lagupun melagukan melagukannya
+26	226	selama	selamanya
+27	227	benda	bendakah bendalah bendamu bendanya bendapun mende
+28	228	ketua	berketuakan diketua diketuai diketuainya ketuai ketuainya ketuaku ketualah ketuamu ketuanya mengetuai mengetuainya mengketuai
 29	229	sebenarnya	
-30	230	ramai	
-31	231	pasukan	
-32	232	majlis	
-33	233	balik	balek baliknya
-34	234	semasa	
+30	230	ramai	beramai meramaikan ramaikah ramaikan ramailah ramainya
+31	231	pasukan	berpasukan dipasukan memasukan memasukanmu memasukannya pasukanku pasukanlah pasukanmu pasukannya
+32	232	majlis	dimajlis majlisi majlismu majlisnya
+33	233	balik	balek baliki balikkah balikkan baliklah baliknya berbalik berbaliklah dibalik dibalikkan dibaliknya membalik membalikkan membalikkannya membaliknya
+34	234	semasa	semasanya
 35	235	baiklah	
-36	236	tinggi	
-37	237	fikir	difikir pikir
-38	238	waktu	waktuku waktumu waktunya
-39	239	tangan	tanganku tanganmu tangannya
-40	240	bahagian	bahagianku bahagianmu bahagiannya
-41	241	iaitu	
-42	242	mesti	
-43	243	kira	
+36	236	tinggi	ditinggikan meninggi meninggikan tinggikah tinggikan tinggiku tinggilah tinggimu tingginya
+37	237	fikir	berfikir berfikirkan berfikirlah berfikirnya berpikir berpikirlah berpikirmu berpikirnya difikir difikirkan difikirkannya dipikirkan dipikirkannya fikirkah fikirkanlah fikirkannya fikirku fikirlah fikirmu fikirnya memikir memikirkan memikirkankan memikirkanku memikirkanmu memikirkannya memikirnya pikir pikirkan pikirkanlah
+38	238	waktu	diwaktu waktuku waktumu waktunya
+39	239	tangan	bertangan ditangan ditangani ditanganinya ditanganku ditanganmu ditangannya menangan menangani menanganinya tangani tanganilah tanganinya tangankan tanganku tanganlah tanganmu tangannya
+40	240	bahagian	bahagianku bahagianmu bahagiannya berbahagian dibahagian
+41	241	iaitu	iaitulah
+42	242	mesti	dimestikan memestikan mestikah mestikan mestiku mestilah mestinya mestipun
+43	243	kira	berkira dikira dikirakan diperkirakan kirakan kiralah kiranya memperkirakan memperkirakannya mengira mengirakah mengirakan mengiranya perkirakan
 44	244	kanak	kanakku kanakmu kanaknya
-45	245	filem	filemnya
-46	246	kedua	
+45	245	filem	difilem difilemkan filemkah filemkan filemkannya filemnya memfilemkan
+46	246	kedua	dikedua keduaku keduamu keduanya
 47	247	membantu	dibantu
-48	248	seseorang	
-49	249	raya	
-50	250	perempuan	pompuan
-51	251	beri	diberi
+48	248	seseorang	seseorangkah
+49	249	raya	beraya diraya dirayakan merayakan merayakannya rayakan rayakanlah rayakannya rayalah rayanya
+50	250	perempuan	perempuani perempuanku perempuanlah perempuanmu perempuannya pompuan
+51	251	beri	berikankan berikankanlah berikanku berikanlah berikanmu berikannya beriku berimu berinya beritah diberi diberikan diberikannya diberinya memberikah memberikanku memberikanmu memberikannya memberiku memberilah memberimu memberinya memberitah mememberikan
 52	252	menerima	diterima
-53	253	program	
-54	254	mengenai	
-55	255	beritahu	
-56	256	jaga	berjaga dijaga menjaga
-57	257	selalu	
-58	258	terhadap	
-59	259	buka	dibuka membuka
-60	260	tanah	tanahku tanahmu tanahnya
-61	261	percaya	percayanya
-62	262	sampai	
+53	253	program	berprogram diprogram diprogramkan memprogram memprogramkan memprogramkannya memprogrammu memprogramnya programkan programkannya programku programmu programnya
+54	254	mengenai	mengenaiku mengenaimu mengenainya
+55	255	beritahu	beritahukah beritahukan beritahukanlah beritahuku beritahulah beritahumu beritahunya beritahupun diberitahu diberitahukan diberitahukannya diberitahunya memberitahu memberitahui memberitahukan memberitahukanku memberitahukanmu memberitahukannya memberitahuku memberitahumu memberitahunya
+56	256	jaga	berjaga berjagalah dijaga dijagai dijaganya jagakan jagakannya jagaku jagalah jaganya menjaga menjagakan menjagaku menjagamu menjaganya
+57	257	selalu	selalukah selalulah selalunya
+58	258	terhadap	terhadapku terhadapmu terhadapnya
+59	259	buka	berbuka berbukalah bukakah bukakan bukakankah bukakanlah bukakannya bukalah bukanya dibuka dibukakan dibukanya membuka membukakan membukakannya membukanya
+60	260	tanah	bertanah ditanah ditanahku tanahku tanahmu tanahnya
+61	261	percaya	dipercaya dipercayai dipercayainya dipercayakan memercayai memercayaiku memercayaimu memercayainya mempercayai mempercayaiku mempercayaimu mempercayainya mempercayakan mempercayakanmu mempercayakannya percayai percayailah percayainya percayakah percayakan percayakanku percayakanlah percayakanmu percayakannya percayalah percayanya
+62	262	sampai	disampai disampaikan disampaikannya menyampai menyampaikan menyampaikannya sampaikah sampaikan sampaikanlah sampaikannya sampailah sampainya sampaipun
 63	263	menteri	menterinya
-64	264	mampu	
-65	265	gila	
-66	266	takut	
-67	267	keadaan	keadaanku keadaanmu keadaannya
-68	268	bahasa	bahasaku bahasamu bahasanya
-69	269	jam	jamku jamnya
-70	270	budak	budakku budakmu budaknya
-71	271	pagi	pagiku paginya
-72	272	seluruh	
-73	273	terbaik	
-74	274	bilik	bilikku bilikmu biliknya
-75	275	guna	
-76	276	tinggal	
-77	277	pilihan	pilihanku pilihanmu pilihannya
-78	278	depan	dpn
-79	279	syarikat	syarikatku syarikatmu syarikatnya
-80	280	maksud	maksudku maksudmu maksudnya
-81	281	tidur	tidok tidurku tidurmu tidurnya
-82	282	mudah	
-83	283	sejak	
-84	284	datuk	datukku datukmu datuknya
-85	285	telefon	ditelefon menelefon telepon
+64	264	mampu	mampukah mampukan mampulah memampukan
+65	265	gila	digilai gilakah gilakan gilalah gilamu gilanya menggila menggilai menggilaimu menggilakan
+66	266	takut	ditakut ditakuti ditakutinya ditakutkan menakut menakuti menakutiku menakutimu menakutinya menakutkan menakutkanku menakutkanmu menakutkannya takuti takutilah takutkah takutkan takutkannya takutku takutlah takutmu takutnya
+67	267	keadaan	berkeadaan keadaankah keadaanku keadaanlah keadaanmu keadaannya
+68	268	bahasa	bahasakan bahasaku bahasalah bahasamu bahasanya berbahasa berbahasanya dibahasakan membahasa membahasakan
+69	269	jam	berjam jami jamilah jamku jammu jamnya sejam
+70	270	budak	budakkan budakku budaklah budakmu budaknya diperbudak diperbudakkan memperbudak memperbudakkan memperbudakmu
+71	271	pagi	berpagi dipagi pagiku pagilah paginya sepagi
+72	272	seluruh	seluruhnya
+73	273	terbaik	terbaikku terbaiklah terbaikmu terbaiknya terbaikpun
+74	274	bilik	bilikkah bilikku bilikmu biliknya dibilik dibilikmu dibiliknya
+75	275	guna	berguna bergunakah bergunalah bergunanya diguna digunakan digunakannya diperguna dipergunakan dipergunakannya gunakah gunakan gunakanlah gunakannya gunalah gunanya memperguna mempergunakan mempergunakannya mempergunaku mengguna menggunakan menggunakanku menggunakanmu menggunakannya menggunanya pergunakan pergunakanlah pergunakannya
+76	276	tinggal	ditinggal ditinggali ditinggalkan ditinggalkannya ditinggalnya meninggalkan meninggalkanku meninggalkanmu meninggalkannya meninggalnya tinggali tinggalkan tinggalkanku tinggalkanlah tinggalkanmu tinggalkannya tinggalku tinggallah tinggalmu tinggalnya
+77	277	pilihan	pilihanku pilihanmu pilihannya pilihanpun
+78	278	depan	berdepan depani depankan depanku depanmu depannya didepan didepani didepanku didepanmu didepannya dpn mendepani mendepankan
+79	279	syarikat	disyarikat syarikatkah syarikatku syarikatmu syarikatnya
+80	280	maksud	bermaksud bermaksudkan bermaksudkannya bermaksudnya dimaksud dimaksudkan dimaksudkannya maksudkah maksudkan maksudkannya maksudku maksudmu maksudnya memaksudkan memaksudkannya
+81	281	tidur	bertidur ditiduri ditidurkan meniduri menidurimu menidurinya menidurkan menidurkanku menidurkanmu menidurkannya tidok tiduri tidurkah tidurkan tidurkannya tidurku tidurlah tidurmu tidurnya
+82	282	mudah	dimudah dimudahkan dipermudah dipermudahkan mempermudah mempermudahkan mempermudahkannya memudah memudahkan memudahkannya mudahkah mudahkan mudahkanlah mudahkannya mudahlah mudahnya permudah permudahkan permudahkanlah permudahkannya
+83	283	sejak	sejakku sejaknya
+84	284	datuk	datuki datukku datuklah datukmu datuknya
+85	285	telefon	bertelefon ditelefon ditelepon menelefon menelefonku menelefonmu menelefonnya menelepon meneleponku meneleponmu meneleponnya telefoni telefonkah telefonku telefonlah telefonmu telefonnya telepon
 86	286	supaya	
-87	287	cukup	
-88	288	biasa	
-89	289	belakang	belakangku belakangmu belakangnya
-90	290	cinta	cintaku cintamu cintanya
+87	287	cukup	bercukup cukupkah cukupkan cukupkanlah cukuplah cukupnya dicukupkan mencukupi mencukupinya mencukupkan mencukupkannya
+88	288	biasa	biasakah biasakan biasakanlah biasakannya biasaku biasalah biasamu dibiasakan membiasakan membiasakannya
+89	289	belakang	belakangi belakangkan belakangku belakanglah belakangmu belakangnya dibelakang dibelakangi dibelakangkan dibelakangku dibelakanglah dibelakangmu dibelakangnya membelakang membelakangi membelakangiku membelakanginya membelakangkan membelakangkannya
+90	290	cinta	bercinta bercintakah bercintalah bercintamu cintai cintailah cintaimu cintainya cintakan cintakanku cintakanmu cintakannya cintaku cintalah cintamu cintanya dicinta dicintai dicintainya mencinta mencintai mencintaiku mencintaimu mencintainya mencintamu
 91	291	berikan	diberikan
-92	292	selain	
-93	293	maklumat	
-94	294	buku	bukuku bukumu bukunya sebuku
-95	295	tadi	
-96	296	duduk	
-97	297	bodoh	
+92	292	selain	selainnya
+93	293	maklumat	bermaklumat dimaklumatkan maklumatlah maklumatmu maklumatnya
+94	294	buku	berbuku bukukan bukukannya bukuku bukumu bukunya dibuku dibukukan membukukan sebuku
+95	295	tadi	tadilah tadinya
+96	296	duduk	diduduki didudukinya didudukkan duduki dudukkan dudukku duduklah dudukmu duduknya menduduki mendudukinya mendudukkan
+97	297	bodoh	bodohi bodohkah bodohkan bodohku bodohlah bodohmu bodohnya dibodohi dibodohkan diperbodoh diperbodohkan membodoh membodohi membodohiku membodohimu membodohinya membodohkan memperbodoh memperbodohi memperbodohkan perbodohkan perbodohkannya
 98	298	makanan	makananku makananmu makanannya
-99	299	ambil	
-100	300	berapa	
+99	299	ambil	ambilkah ambilkan ambilkannya ambilku ambillah ambilnya berambil diambil diambilkan diambilnya mengambil mengambilkan mengambilkanku mengambilkanmu mengambilkannya mengambilku mengambilmu mengambilnya
+100	300	berapa	berapakah berapalah berapapun

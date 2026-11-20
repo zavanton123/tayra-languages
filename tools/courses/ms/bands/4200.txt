@@ -1,100 +1,100 @@
-1	4101	korupsi	
-2	4102	mempertontonkan	dipertontonkan
-3	4103	menjajah	
-4	4104	meranti	
-5	4105	sebak	
-6	4106	dak	
-7	4107	pengucapan	
-8	4108	pengimport	
-9	4109	falak	
-10	4110	mualaf	
-11	4111	poskad	
-12	4112	gembala	gembalaku gembalanya
-13	4113	mendermakan	
-14	4114	syahwat	syahwatku syahwatnya
-15	4115	tenung	
-16	4116	vanila	
-17	4117	tumpu	
-18	4118	sengat	sengatnya
-19	4119	ketuhanan	
-20	4120	karipap	
-21	4121	tabur	
-22	4122	gasing	
-23	4123	seret	
-24	4124	kepayahan	kepayahannya
-25	4125	sorong	
-26	4126	sepanduk	
-27	4127	pengaturcaraan	
-28	4128	berlebih	
-29	4129	tampal	tampalnya
-30	4130	halusinasi	
-31	4131	idealisme	
-32	4132	limpa	limpaku limpanya
-33	4133	sulfur	
-34	4134	tebuan	
-35	4135	langsat	
-36	4136	wiki	
-37	4137	raptai	
-38	4138	mendung	
-39	4139	serikat	
-40	4140	samak	
-41	4141	ayan	
-42	4142	bayam	
-43	4143	bengang	
-44	4144	jelapang	
-45	4145	akauntabiliti	
-46	4146	abdomen	abdomennya
-47	4147	patin	
-48	4148	hibernasi	
-49	4149	pejal	
-50	4150	tambak	
-51	4151	eru	ru
-52	4152	nara	
-53	4153	terbayang	
-54	4154	rintis	
-55	4155	sekilas	
-56	4156	persen	
-57	4157	lunak	
-58	4158	mentaliti	
-59	4159	inframerah	
-60	4160	kerakyatan	
-61	4161	palma	
-62	4162	khusyuk	
-63	4163	nyala	
-64	4164	monsun	
-65	4165	juruwang	juruwangnya
-66	4166	arked	
-67	4167	gersang	
-68	4168	mikrobiologi	
-69	4169	platinum	
-70	4170	isotop	
-71	4171	taksi	
-72	4172	pelepah	
-73	4173	inai	
-74	4174	membengkak	
-75	4175	tebuk	
-76	4176	bersembahyang	
-77	4177	dermakan	didermakan
-78	4178	beda	
-79	4179	pengganggu	
-80	4180	camar	camarnya
-81	4181	pengabdian	
-82	4182	berdegil	
-83	4183	syok	
-84	4184	simbah	disimbah menyimbah
-85	4185	belati	
-86	4186	teropong	
-87	4187	simpulan	
-88	4188	tetikus	
-89	4189	lemang	lemangnya
-90	4190	ungkit	
-91	4191	lindung	
-92	4192	keislaman	
-93	4193	membisu	
-94	4194	fatah	
-95	4195	pengeksport	
-96	4196	merbau	
-97	4197	pendudukan	
-98	4198	kangkung	
-99	4199	bersarang	
-100	4200	edar	
+1	4101	tersasar	tersasarnya
+2	4102	gari	bergari digari garikan garinya menggari menggarimu menggarinya
+3	4103	entiti	
+4	4104	amanat	amanatnya diamanatkan mengamanatkan
+5	4105	pekat	dipekatkan memekatkan pekatkan pekatnya
+6	4106	pacu	berpacu berpacukan dipacu dipacukan memacu memacukan memacumu memacunya
+7	4107	ideal	idealku idealnya
+8	4108	kenduri	berkenduri
+9	4109	serantau	serantaunya
+10	4110	cop	dicop dicopkan mengecop mengecopnya
+11	4111	along	dialong
+12	4112	spontan	spontannya
+13	4113	pucat	memucat
+14	4114	daulat	berdaulat berdaulatnya daulatkan didaulatkan mendaulatkan mendaulatkannya
+15	4115	kuarantin	dikuarantin dikuarantinkan kuarantinkan mengkuarantin
+16	4116	simpul	bersimpul disimpul disimpulkan menyimpul menyimpulkan menyimpulkannya simpulkan simpulkannya simpulnya
+17	4117	lap	dilap dilapkan lapkan laplah lapmu melap melapi melapnya mengelap mengelapkan mengelapnya
+18	4118	rajin	rajinlah rajinnya
+19	4119	kantor	dikantor dikantorku dikantormu kantorku kantormu kantornya
+20	4120	teladan	diteladani meneladani meneladaninya teladani teladannya
+21	4121	norma	
+22	4122	paduka	
+23	4123	bermutu	
+24	4124	dol	doli dollah
+25	4125	bisik	berbisik berbisiklah bisikkan bisikkanlah bisiknya dibisikkan dibisikkannya membisik membisikkan
+26	4126	spesifikasi	berspesifikasi spesifikasinya
+27	4127	akur	akurlah
+28	4128	kehamilan	kehamilannya
+29	4129	anu	anuku anunya
+30	4130	kalori	berkalori kalorinya
+31	4131	radikal	radikalnya
+32	4132	tusuk	ditusuk menusuk menusukkan menusukkannya menusukku menusuknya tusukkan tusuknya
+33	4133	serasi	diserasikan menyerasikan serasikan
+34	4134	rendam	berendam berendamkan berendamlah direndam merendam merendamkan merendamkannya merendamnya rendamkan rendamkannya rendamnya
+35	4135	helm	helmi helmku helmnya
+36	4136	sandang	disandang disandangnya menyandang sandanglah sandangnya
+37	4137	massa	massai massaku massanya
+38	4138	mal	mali maliku memali
+39	4139	ekstrak	diekstrak ekstraknya mengekstrak
+40	4140	belang	belangmu belangnya berbelang
+41	4141	peminjam	peminjamnya
+42	4142	drum	drumnya
+43	4143	sumbat	disumbat disumbatkan disumbatkannya menyumbat menyumbatkan menyumbatmu menyumbatnya sumbatkan sumbatkannya
+44	4144	kesyukuran	kesyukurannya
+45	4145	haus	hauskan hausku hausmu hausnya menghauskan
+46	4146	mengantuk	mengantuklah ngantuk
+47	4147	paku	dipaku dipakukan memaku memakukan pakukan pakunya
+48	4148	rajah	dirajah
+49	4149	gugat	digugat menggugat menggugatkan menggugatmu menggugatnya
+50	4150	gosip	bergosip digosip digosipkan gosipnya
+51	4151	molekul	bermolekul molekulnya
+52	4152	lubuk	dilubuk lubuknya
+53	4153	kelamaan	
+54	4154	kangsar	
+55	4155	serendah	
+56	4156	reaktor	reaktormu reaktornya
+57	4157	susur	disusur disusuri menyusur menyusuri menyusurinya susuri
+58	4158	pilah	dipilah
+59	4159	sebaya	sebayamu sebayanya
+60	4160	wat	diwati mewati wati watikah
+61	4161	resep	resepi resepinya resepku resepnya
+62	4162	praktik	dipraktik dipraktikkan mempraktik mempraktikkan mempraktikkannya praktikkan praktiknya
+63	4163	ketepatan	berketepatan ketepatannya
+64	4164	peket	paket
+65	4165	mangga	mangganya
+66	4166	kalis	berkalis
+67	4167	denggi	
+68	4168	kompromi	berkompromi berkompromilah dikompromi dikompromikan mengkompromikan
+69	4169	es	
+70	4170	kehancuran	kehancuranmu kehancurannya
+71	4171	belenggu	dibelenggu dibelenggukan membelenggu membelenggui
+72	4172	nyenyak	nyenyaknya
+73	4173	ideologi	berideologi ideologinya
+74	4174	tabik	tabiklah
+75	4175	pendidik	pendidikkan
+76	4176	petisyen	dipetisyenkan petisyennya
+77	4177	sesudah	sesudahnya
+78	4178	kemasyarakatan	kemasyarakatannya
+79	4179	sound	soundnya
+80	4180	perisa	berperisa memperisa perisakan perisanya
+81	4181	aksesori	aksesorinya
+82	4182	diari	diariku diarimu diarinya
+83	4183	kebodohan	kebodohanmu kebodohannya
+84	4184	bongsu	bongsuku bongsunya bungsu
+85	4185	teguran	berteguran tegurannya
+86	4186	korek	dikorek korekku koreklah koreknya mengorek mengoreknya
+87	4187	madya	
+88	4188	pengasingan	pengasinganmu
+89	4189	sperma	spermanya
+90	4190	curang	curangi dicurangi mencurangi mencuranginya
+91	4191	grid	
+92	4192	surut	menyurut menyurutkan surutkan surutnya
+93	4193	bikin	berbikin dibikin membikin membikinkan
+94	4194	lucut	dilucut dilucuti dilucutkan lucuti lucutkan lucutkannya melucut melucuti melucutkan melucutkannya
+95	4195	penentu	penentukan penentunya
+96	4196	zina	berzina zinanya
+97	4197	endah	diendah diendahkan endahkan endahkannya endahlah mengendah mengendahkan mengendahkannya mengendahnya perendahkan
+98	4198	kepastian	kepastiannya
+99	4199	wibawa	berwibawa mewibawakan wibawanya
+100	4200	almarhum	

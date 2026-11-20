@@ -1,100 +1,100 @@
-1	3001	maghrib	
-2	3002	cuai	
-3	3003	tilam	tilammu
-4	3004	hanyut	
-5	3005	paku	pakunya
-6	3006	jimat	
-7	3007	bibi	
-8	3008	cicak	
-9	3009	poin	
-10	3010	sindrom	
-11	3011	koboi	koboiku
-12	3012	vokal	
-13	3013	takat	
-14	3014	pelantar	
-15	3015	liang	
-16	3016	rimba	rimbaku
-17	3017	feri	
-18	3018	duyung	dugong
-19	3019	garang	
-20	3020	tembaga	tembagaku
-21	3021	mertua	
-22	3022	penjajahan	
-23	3023	budiman	
-24	3024	jeruk	jeruknya
-25	3025	lalang	
-26	3026	mogok	
-27	3027	bengkok	
-28	3028	kumbang	
-29	3029	labah	
-30	3030	perakuan	perakuannya
-31	3031	mekar	
-32	3032	komoditi	
-33	3033	cekik	dicekik mencekik
-34	3034	timah	
-35	3035	ketahanan	ketahanannya
-36	3036	tekad	tekadmu tekadnya
-37	3037	klinikal	
-38	3038	kecurian	
-39	3039	duri	durinya
-40	3040	takraw	
-41	3041	perisa	
-42	3042	globalisasi	
-43	3043	gendang	
-44	3044	militan	
-45	3045	lampiran	
-46	3046	sukma	
-47	3047	sensasi	
-48	3048	penyamaran	penyamaranku penyamaranmu penyamarannya
-49	3049	sajian	
-50	3050	muflis	
-51	3051	dinasti	
-52	3052	kebarangkalian	
-53	3053	kabut	kabutnya
-54	3054	kemelut	kemelutnya
-55	3055	rebus	
-56	3056	pantang	
-57	3057	tekun	
-58	3058	wayarles	
-59	3059	belang	
-60	3060	meski	
-61	3061	madrasah	madrasahnya
-62	3062	kera	keramu
-63	3063	berkuda	
-64	3064	pacar	
-65	3065	handal	
-66	3066	komprehensif	
-67	3067	danau	danaunya
-68	3068	kontena	
-69	3069	angsa	
-70	3070	gagak	gagaknya
-71	3071	mizan	
-72	3072	member	
-73	3073	majistret	
-74	3074	pembaziran	
-75	3075	bestari	
-76	3076	jijik	
-77	3077	kaunselor	
-78	3078	produktif	
-79	3079	kenyang	
-80	3080	pesisir	
-81	3081	pangkal	pangkalnya
-82	3082	imaginasi	imaginasiku imaginasimu imaginasinya
-83	3083	tren	
-84	3084	lepak	
-85	3085	sedekah	
-86	3086	piagam	piagamnya
-87	3087	bawak	
-88	3088	penganalisis	
-89	3089	meterai	dimeterai memeterai
-90	3090	angan	
-91	3091	cetek	
-92	3092	cenderamata	
-93	3093	kicap	
-94	3094	obor	obornya
-95	3095	baka	bakanya
-96	3096	pelaut	pelautku
-97	3097	bongsu	bungsu
-98	3098	kepulauan	
-99	3099	jerebu	
-100	3100	kerani	
+1	3001	hidang	dihidang dihidangkan hidangkan hidangkanlah hidangkannya hidanglah menghidang menghidangi menghidangkan menghidangkannya
+2	3002	superman	
+3	3003	penyelenggaraan	penyelenggaraannya
+4	3004	pening	memeningkan peningkan peninglah peningnya
+5	3005	perkampungan	perkampungannya
+6	3006	pengacara	pengacarakah pengacaraku pengacaramu pengacaranya
+7	3007	kaunseling	
+8	3008	roman	
+9	3009	kiamat	kiamatku kiamatlah
+10	3010	wakaf	berwakaf diwakaf diwakafkan mewakafkan mewakafkannya
+11	3011	paya	berpaya
+12	3012	zakar	dizakar zakari zakarmu zakarnya
+13	3013	loji	
+14	3014	rompakan	rompakannya
+15	3015	khazanah	khazanahnya
+16	3016	rusa	berusa rusakan rusalah rusanya
+17	3017	siput	siputku siputmu
+18	3018	anggapan	anggapanmu anggapannya beranggapan
+19	3019	alhamdulillah	alhamdulillahlah
+20	3020	jenaka	berjenaka berjenakakah jenakakah jenakamu jenakanya
+21	3021	rama	berama
+22	3022	menantu	bermenantukan menantuku menantumu menantunya
+23	3023	gurun	digurun gurunku
+24	3024	bahas	bahasi bahaskan bahaskannya berbahas dibahas dibahaskan diperbahaskan membahas membahaskan membahaskannya membahasnya memperbahaskan
+25	3025	subang	bersubang menyubang
+26	3026	takluk	ditakluk ditakluki ditaklukinya ditaklukkan menakluk menakluki menaklukiku menaklukinya menaklukkan menaklukkanku menaklukkanmu menaklukkannya menakluknya takluki taklukilah taklukkan takluknya
+27	3027	urut	berurut diurut diurutkan mengurut mengurutkan mengurutnya urutkan urutnya
+28	3028	profil	berprofil profilnya
+29	3029	gusti	bergusti
+30	3030	hadirin	
+31	3031	serpihan	serpihanku serpihannya
+32	3032	arwah	arwahlah arwahnya
+33	3033	mundur	memundurkan mundurkan mundurlah mundurnya
+34	3034	saintifik	saintifiknya
+35	3035	jagung	jagungnya
+36	3036	kurus	kuruskan kurusku kurusmu kurusnya
+37	3037	serbuan	menyerbuan
+38	3038	tanduk	bertanduk ditanduk menanduk tandukkan tanduknya
+39	3039	ilham	berilhamkan diilham diilhamkan diilhamkannya ilhamkan ilhamku ilhamnya mengilhami mengilhamiku mengilhamimu mengilhamkan
+40	3040	daki	dakilah dakinya didaki mendaki mendakinya
+41	3041	mukim	bermukim mukimnya
+42	3042	martabat	bermartabat dimartabat dimartabatkan martabatkan martabatku martabatmu martabatnya memartabat memartabatkan memartabatkannya
+43	3043	kebijaksanaan	kebijaksanaanku kebijaksanaanmu kebijaksanaannya
+44	3044	sebutan	sebutanku sebutanmu sebutannya
+45	3045	bocor	bocorkan bocorkannya bocorlah bocornya dibocori dibocorkan membocor membocorkan membocorkannya
+46	3046	seksual	seksualnya
+47	3047	warganegara	berwarganegara warganegaranya
+48	3048	karier	berkarier karierku kariermu kariernya
+49	3049	format	berformat berformatkan diformat diformatkan formatnya memformat
+50	3050	arif	
+51	3051	arena	arenanya
+52	3052	pesat	berpesat dipesatkan memesatkan pesatnya
+53	3053	buluh	buloh buluhnya
+54	3054	cip	cipnya
+55	3055	kebencian	kebencianku kebencianlah kebencianmu kebenciannya
+56	3056	perbandaran	
+57	3057	pari	parinya
+58	3058	kemudi	berkemudi berkemudilah dikemudi dikemudikan dikemudinya kemudikan kemudikanlah kemudikannya kemudiku kemudinya mengemudi mengemudikan mengemudikannya mengemudilah mengemudinya
+59	3059	urutan	berurutan diurutan urutanlah urutannya
+60	3060	rutin	rutinnya
+61	3061	adnan	
+62	3062	vaksin	divaksin divaksinkan vaksinnya
+63	3063	luncur	diluncuri diluncurkan luncurkan luncurnya meluncur meluncurkan meluncurkannya
+64	3064	baja	bajanya dibaja dibajai membaja membajanya
+65	3065	terjebak	
+66	3066	dewi	
+67	3067	ombak	berombak ombaknya
+68	3068	cabang	bercabang cabangnya
+69	3069	produksi	diproduksi diproduksikan memproduksi produksinya
+70	3070	ungkap	diungkap diungkapkan mengungkap mengungkapkan mengungkapkannya mengungkapnya ungkapkan ungkapkanlah ungkapkannya ungkaplah ungkapnya
+71	3071	renung	direnung direnungi direnungkan direnungnya merenung merenungi merenungkan merenungku merenungnya renungi renungilah renungkan renungkanlah renungkannya renunglah renungnya
+72	3072	kekerasan	
+73	3073	konvoi	berkonvoi konvoinya
+74	3074	terminal	diterminal terminalnya
+75	3075	tertulis	tertulisnya
+76	3076	pelanggaran	pelanggarannya
+77	3077	kelabu	dikelabui kelabunya mengelabui mengelabuiku mengelabuimu
+78	3078	mengarah	mengarahku mengarahnya
+79	3079	petrol	petrolnya
+80	3080	tunda	ditunda ditundakan menunda menundakan menundamu menundanya tundakan tundakannya
+81	3081	tangkapan	tangkapanku tangkapannya
+82	3082	asam	asami
+83	3083	rais	merais
+84	3084	agih	agihkan diagih diagihkan diagihkannya mengagih mengagihkan mengagihkannya
+85	3085	peliharaan	peliharaanku peliharaanmu peliharaannya
+86	3086	sengit	sengitnya
+87	3087	tinjau	ditinjau meninjau
+88	3088	seiring	diseiringkan
+89	3089	ungkapan	ungkapanmu ungkapannya
+90	3090	suntik	disuntik disuntikkan menyuntik menyuntikkan menyuntikkannya menyuntiknya suntikkan suntiklah suntiknya
+91	3091	debu	debunya mendebukan
+92	3092	pelaku	pelakukan pelakunya
+93	3093	relevan	relevankah relevannya
+94	3094	dll	
+95	3095	kongres	
+96	3096	kerah	berkerah dikerah dikerahkan kerahkan kerahku mengerah mengerahkan mengerahkannya mengerahnya
+97	3097	musik	bermusik musikkah musikku musikmu musiknya
+98	3098	kesukaran	kesukarannya
+99	3099	butir	berbutir butirnya membutirkan sebutir
+100	3100	keahlian	berkeahlian keahlianku keahlianmu keahliannya

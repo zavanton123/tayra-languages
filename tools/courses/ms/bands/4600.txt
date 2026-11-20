@@ -1,100 +1,100 @@
-1	4501	hingus	hingusnya
-2	4502	kalium	
-3	4503	pendermaan	
-4	4504	suda	
-5	4505	tandu	
-6	4506	acap	
-7	4507	rembulan	
-8	4508	resdung	
-9	4509	autopsi	
-10	4510	subseksyen	
-11	4511	sida	
-12	4512	timba	
-13	4513	nanah	
-14	4514	kut	
-15	4515	optimistik	
-16	4516	fasis	
-17	4517	penyerap	penyerapnya
-18	4518	camtu	
-19	4519	menjengah	
-20	4520	iftar	
-21	4521	kesuma	
-22	4522	selaput	
-23	4523	apit	
-24	4524	magang	magangmu
-25	4525	pelana	
-26	4526	terajang	
-27	4527	pancaindera	
-28	4528	montel	
-29	4529	jintan	jintannya
-30	4530	kupas	
-31	4531	ketum	
-32	4532	kemuning	
-33	4533	ci	
-34	4534	buruj	
-35	4535	bubuk	bubuknya
-36	4536	babun	babunmu
-37	4537	hembus	
-38	4538	trisula	
-39	4539	salang	
-40	4540	banjar	
-41	4541	pelatuk	pelatuknya
-42	4542	dalih	dalihnya
-43	4543	cangkul	
-44	4544	selubung	
-45	4545	kanda	
-46	4546	selamba	
-47	4547	serap	
-48	4548	ridwan	
-49	4549	dedah	
-50	4550	lekat	
-51	4551	leman	
-52	4552	dandang	
-53	4553	kancing	
-54	4554	curah	
-55	4555	dampak	
-56	4556	amboi	
-57	4557	kepartian	
-58	4558	pemberat	pemberatnya
-59	4559	kugiran	
-60	4560	menadah	
-61	4561	sinematografi	
-62	4562	julang	
-63	4563	lelap	
-64	4564	strata	
-65	4565	lemari	lemarimu
-66	4566	sisik	sisiknya
-67	4567	biak	
-68	4568	penundaan	
-69	4569	pupuk	
-70	4570	bongok	
-71	4571	putu	
-72	4572	elang	
-73	4573	ranap	
-74	4574	teja	
-75	4575	musykil	
-76	4576	senam	
-77	4577	pijat	pijatnya
-78	4578	mimbar	
-79	4579	kultus	
-80	4580	mudi	
-81	4581	gelojoh	
-82	4582	glob	
-83	4583	mengkuang	
-84	4584	nasionalis	
-85	4585	hierarki	
-86	4586	semai	
-87	4587	jambangan	
-88	4588	tasawuf	
-89	4589	puma	
-90	4590	tante	tanteku
-91	4591	membongkok	
-92	4592	aren	
-93	4593	barua	
-94	4594	keran	
-95	4595	hadap	
-96	4596	golok	
-97	4597	menswastakan	diswastakan
-98	4598	bandaran	
-99	4599	peluntur	
-100	4600	fosforus	
+1	4501	siksa	disiksa menyiksa menyiksakan menyiksaku menyiksamu menyiksanya siksanya
+2	4502	selendang	berselendang selendangmu
+3	4503	piagam	berpiagam dipiagamkan piagamnya
+4	4504	kelamin	berkelamin kelaminmu kelaminnya
+5	4505	majistret	
+6	4506	tersumbat	tersumbatnya
+7	4507	pembaziran	
+8	4508	cabul	dicabul dicabuli mencabul mencabuli mencabulnya
+9	4509	buntu	buntunya membuntukan
+10	4510	pangkal	dipangkal pangkalnya
+11	4511	kesempurnaan	kesempurnaannya
+12	4512	setem	bersetem setemku
+13	4513	gemuruh	bergemuruh
+14	4514	insaf	diinsafi insafi insafilah insaflah menginsafi menginsafinya menginsafkan
+15	4515	sarat	saratkan
+16	4516	ghairah	berghairah ghairahnya mengghairahkan
+17	4517	batalion	berbatalion
+18	4518	kaunselor	
+19	4519	tren	bertren
+20	4520	gencatan	
+21	4521	produktif	
+22	4522	tampal	bertampal ditampal ditampalkan menampal menampalkan menampalkannya menampalnya tampalkan tampalkannya tampalnya
+23	4523	rangsangan	
+24	4524	asisten	asistenku asistenmu asistennya
+25	4525	dobi	dobinya mendobi
+26	4526	pesisir	
+27	4527	dusun	
+28	4528	klasifikasi	diklasifikasi diklasifikasikan diklasifikasikannya klasifikasikan mengklasifikasi mengklasifikasikan mengklasifikasikannya
+29	4529	penyair	penyairnya
+30	4530	penganalisis	penganalisisku
+31	4531	royal	
+32	4532	senat	
+33	4533	sekala	bersekala sekalai
+34	4534	acu	acukan acukannya diacu diacukan mengacu mengacukan
+35	4535	abstrak	diabstrak mengabstrak
+36	4536	kemurungan	
+37	4537	stres	stresnya
+38	4538	cenderamata	
+39	4539	awek	awekku aweknya
+40	4540	terkumpul	terkumpulnya
+41	4541	kicap	
+42	4542	obor	obornya
+43	4543	pelaut	pelautku
+44	4544	kecilan	
+45	4545	karun	karunkah karunku karunnya
+46	4546	kepulauan	
+47	4547	agihan	agihannya
+48	4548	melancong	melancongkah
+49	4549	patriotik	patriotiknya
+50	4550	kerani	
+51	4551	gugup	gugupnya
+52	4552	tuisyen	
+53	4553	pungut	dipungut dipungutnya memungut memungutnya pungutnya
+54	4554	berpuluh	
+55	4555	bingkai	berbingkai bingkainya dibingkai dibingkaikan membingkai membingkaikan
+56	4556	pelacuran	
+57	4557	konvensional	
+58	4558	perkiraan	perkiraanku perkiraanmu perkiraannya
+59	4559	tergelincir	tergelincirlah tergelincirnya
+60	4560	terkutuk	terkutuklah terkutuknya
+61	4561	kaliber	berkaliber
+62	4562	patik	
+63	4563	terperdaya	terpedaya
+64	4564	transit	
+65	4565	form	
+66	4566	bakul	bakulmu bakulnya dibakul
+67	4567	sambilan	sambilannya
+68	4568	lulusan	lulusannya
+69	4569	pendahuluan	
+70	4570	mutasi	bermutasi dimutasi dimutasikan memutasi memutasikan mutasinya
+71	4571	firaun	
+72	4572	pengkaji	
+73	4573	uda	
+74	4574	kabus	berkabus berkabuslah kabusnya
+75	4575	penyesalan	penyesalanku penyesalannya
+76	4576	muslihat	bermuslihat muslihatnya
+77	4577	utuh	mengutuhkan
+78	4578	penyembuhan	penyembuhannya
+79	4579	partikel	partikelnya
+80	4580	fuad	
+81	4581	degup	berdegup degupnya
+82	4582	siku	menyiku sikuku sikumu sikunya
+83	4583	tindas	ditindas menindas menindasku menindasnya
+84	4584	petua	dipetua petuanya
+85	4585	kelam	kelamnya kelampun mengelami
+86	4586	terkecuali	
+87	4587	semuka	bersemuka bersemukalah menyemukakan
+88	4588	tenis	tenisnya
+89	4589	manik	bermanik
+90	4590	wangian	berwangian wangianku wangianmu wangiannya
+91	4591	acuan	acuannya beracuan beracuankan
+92	4592	kredibiliti	berkredibiliti kredibilitinya
+93	4593	gentar	gentarlah menggentarkan
+94	4594	suram	suramnya
+95	4595	busur	busurnya
+96	4596	terendah	
+97	4597	keemasan	keemasannya
+98	4598	hangus	dihanguskan hanguskan hanguskannya hanguslah menghanguskan menghanguskannya
+99	4599	titi	meniti titikan
+100	4600	arkeologi	

@@ -1,100 +1,100 @@
-1	2201	gantung	
-2	2202	keldai	keldainya
-3	2203	tenggara	
-4	2204	layanan	
-5	2205	canselor	canselornya
-6	2206	konvensyen	
-7	2207	lisan	lisanmu lisannya
-8	2208	tumbuk	
-9	2209	kurung	kurungnya
-10	2210	kontroversi	
-11	2211	pinggan	pinggannya
-12	2212	fatwa	fatwanya
-13	2213	mutiara	mutiaraku mutiaramu mutiaranya
-14	2214	kewajipan	kewajiban
-15	2215	graviti	
-16	2216	belok	membelok
-17	2217	gelas	gelasku gelasmu gelasnya
-18	2218	taktik	
-19	2219	kot	
-20	2220	wangi	
-21	2221	cacat	cacatnya
-22	2222	rujuk	
-23	2223	farmasi	
-24	2224	jamuan	jamuannya
-25	2225	pencerobohan	
-26	2226	itik	itek itiknya
-27	2227	sunyi	
-28	2228	datu	
-29	2229	musang	
-30	2230	lucah	
-31	2231	ampun	
-32	2232	lebat	
-33	2233	darurat	
-34	2234	pawagam	
-35	2235	superman	
-36	2236	servis	
-37	2237	empayar	
-38	2238	kaunseling	
-39	2239	benteng	
-40	2240	pengacara	pengacaraku pengacaramu pengacaranya
-41	2241	payudara	payudaraku payudaramu payudaranya
-42	2242	roman	
-43	2243	membaiki	
-44	2244	komedi	
-45	2245	loji	
-46	2246	bungkus	dibungkus membungkus sebungkus
-47	2247	siput	siputku siputmu
-48	2248	melarang	
-49	2249	zakar	zakarmu zakarnya
-50	2250	alhamdulillah	
-51	2251	tudung	tudungku tudungnya
-52	2252	tadbir	
-53	2253	rompakan	
-54	2254	parut	parutnya
-55	2255	rama	
-56	2256	wawasan	
-57	2257	subang	
-58	2258	gurun	gurunku
-59	2259	serpihan	serpihanku serpihannya
-60	2260	rusa	rusanya
-61	2261	jagung	jagungnya
-62	2262	nikmat	nikmatnya
-63	2263	umpan	umpanku umpanmu umpannya
-64	2264	paya	
-65	2265	sebutan	sebutanku sebutanmu sebutannya
-66	2266	sembunyi	
-67	2267	buluh	buloh buluhnya
-68	2268	beku	
-69	2269	perbandaran	
-70	2270	tandatangan	tandatanganmu tandatangannya
-71	2271	kapasiti	kapasitiku kapasitinya
-72	2272	daki	dakinya didaki mendaki
-73	2273	pari	parinya
-74	2274	karier	karierku kariermu kariernya
-75	2275	perangai	
-76	2276	warganegara	warganegaranya
-77	2277	dewi	
-78	2278	mangkuk	mangkuknya
-79	2279	hajat	hajatku hajatmu hajatnya
-80	2280	mukim	mukimnya
-81	2281	revolusi	
-82	2282	vaksin	vaksinnya
-83	2283	mematikan	
-84	2284	lapang	
-85	2285	kurus	
-86	2286	petrol	
-87	2287	menumpukan	
-88	2288	debu	debunya
-89	2289	mengarah	
-90	2290	memperkatakan	diperkatakan perkatakan
-91	2291	terbalik	
-92	2292	kesukaran	kesukarannya
-93	2293	periuk	periuknya
-94	2294	cha	
-95	2295	abid	abidin
-96	2296	anggur	anggurku anggurmu anggurnya menganggur
-97	2297	hawa	hawanya
-98	2298	oren	orennya
-99	2299	komunis	kominis
-100	2300	kesesakan	
+1	2201	seribu	
+2	2202	sekalipun	
+3	2203	akar	akarmu akarnya berakar berakarkan diakari mengakar
+4	2204	pertunjukan	dipertunjukan pertunjukanku pertunjukanmu pertunjukannya
+5	2205	penipuan	penipuanmu penipuannya
+6	2206	mental	mentalnya
+7	2207	lapisan	lapisannya
+8	2208	jejas	dijejaskan jejaskan menjejas menjejaskan menjejaskanku
+9	2209	pisang	pisanglah pisangnya
+10	2210	kebahagiaan	kebahagiaanku kebahagiaanlah kebahagiaanmu kebahagiaannya
+11	2211	riwayat	diriwayat diriwayatkan meriwayat meriwayatkan meriwayatkannya riwayatkan riwayatku riwayatmu riwayatnya
+12	2212	pamer	dipamer dipamerkan dipamerkannya memamerkan memamerkannya mempamer mempamerkan mempamerkannya pamerkan pamerkannya
+13	2213	najis	bernajis dinajiskan menajiskan najisku najislah najisnya
+14	2214	padi	padilah padinya
+15	2215	kemasukan	kemasukannya
+16	2216	gelaran	gelaranku gelarannya
+17	2217	persediaan	persediaanku persediaannya
+18	2218	anjuran	anjurannya dianjuran dianjurankan
+19	2219	tersenyum	tersenyumlah
+20	2220	rentas	direntas direntasi merentas merentasi merentasinya rentasi
+21	2221	pembeli	pembelinya
+22	2222	kemarahan	kemarahanku kemarahanmu kemarahannya
+23	2223	sasar	bersasar disasar disasarkan menyasar menyasarkan menyasarkannya menyasarnya sasarkan sasarkannya sasarnya
+24	2224	tarikan	ditarikan tarikanmu tarikannya
+25	2225	lekas	lekaslah
+26	2226	berlebihan	berlebihanmu berlebihannya
+27	2227	festival	festivalnya
+28	2228	bentang	bentangkan bentangkannya berbentang dibentang dibentangkan dibentangkannya membentang membentangi membentangkan membentangkannya
+29	2229	lirik	berlirik dilirik liriknya melirik meliriknya
+30	2230	baling	balingkan balingkannya balinglah balingnya dibaling membaling membalingkan membalingnya
+31	2231	senator	
+32	2232	pinggir	dipinggir dipinggirkan meminggir meminggiri meminggirkan pinggirkan pinggirnya
+33	2233	mainan	mainanku mainanmu mainannya
+34	2234	konon	kononnya
+35	2235	persetujuan	persetujuanku persetujuanmu persetujuannya
+36	2236	sarang	bersarang bersarangkan sarangi sarangkah sarangmu sarangnya
+37	2237	teluk	berteluk diteluk teluki teluknya
+38	2238	terperinci	terperincinya
+39	2239	forum	berforum
+40	2240	gejala	gejalanya
+41	2241	beruang	beruangku beruangnya
+42	2242	fesyen	berfesyen fesyenkan fesyennya
+43	2243	detik	berdetik detikmu detiknya detikpun
+44	2244	lukis	dilukis dilukiskan lukiskan lukiskannya lukislah lukisnya melukis melukiskan melukismu melukisnya
+45	2245	kecantikan	kecantikanku kecantikanlah kecantikanmu kecantikannya
+46	2246	kegunaan	kegunaannya
+47	2247	kebetulan	berkebetulan kebetulankah kebetulanlah kebetulannya
+48	2248	cerah	cerahkan cerahlah cerahnya dicerahkan mencerah mencerahkan
+49	2249	penjahat	penjahatlah penjahatnya
+50	2250	binti	bintikan dibintikan
+51	2251	simbol	bersimbol disimbolkan simbolkan simbolnya
+52	2252	bawang	bawangnya
+53	2253	tayang	ditayang ditayangkan menayang menayangkan menayangkannya tayangkan tayangkannya
+54	2254	era	diera eranya mengerakan
+55	2255	penasihat	penasihatku penasihatnya
+56	2256	telan	ditelan ditelannya menelan menelanku menelannya telankan telankannya telannya
+57	2257	tumbuk	bertumbuk ditumbuk menumbuk menumbukmu menumbuknya tumbukkan tumbukkannya tumbuklah tumbuknya
+58	2258	umpama	diumpamakan mengumpamakan umpamakan umpamakannya umpamanya
+59	2259	sepupu	sepupuku sepupumu sepupunya
+60	2260	jurutera	juruteranya menjuruterakan
+61	2261	jentera	berjentera jenteranya
+62	2262	proton	
+63	2263	cucu	bercucu cucukan cucuku cucumu cucunya mencucu
+64	2264	induk	induknya
+65	2265	pengsan	dipengsankan memengsankan pengsankah pengsankan pengsankannya pengsannya
+66	2266	aras	arasi araskan arasnya diaras
+67	2267	hisap	dihisap dihisapnya hisapkan hisaplah hisapnya menghisap menghisapnya
+68	2268	gesa	digesa gesanya menggesa menggesaku menggesanya
+69	2269	teruja	menerujakan terujakan terujanya
+70	2270	kontraktor	kontraktornya
+71	2271	sopan	bersopan bersopanlah sopankah sopanlah sopannya
+72	2272	gong	menggong
+73	2273	tong	tongkah tonglah
+74	2274	juruterbang	juruterbangku juruterbangnya
+75	2275	kelakuan	berkelakuan berkelakuanlah kelakuanku kelakuanmu kelakuannya
+76	2276	beku	bekukah bekukan bekukannya bekuku bekunya dibeku dibekukan membeku membekukan membekukannya membekunya
+77	2277	lagak	berlagak berlagakkah berlagaklah berlagaknya lagakkah lagakmu lagaknya
+78	2278	singa	menyinga singai singaku singanya
+79	2279	kekalahan	kekalahanku kekalahanmu kekalahannya
+80	2280	gerbang	gerbangnya
+81	2281	bulat	bulatkan bulatnya dibulatkan membulat membulatkan
+82	2282	peranti	perantinya
+83	2283	cenderung	
+84	2284	terowong	diterowong terowongku terowongmu terowongnya
+85	2285	selanjutnya	
+86	2286	topeng	bertopeng bertopengkan bertopengnya topengku topenglah topengmu topengnya
+87	2287	kilat	berkilat kilatkan kilatnya mengilat mengilatkan mengkilat mengkilatkan
+88	2288	kesejahteraan	kesejahteraanmu kesejahteraannya
+89	2289	ukuran	berukuran ukuranku ukuranmu ukurannya
+90	2290	usul	diusul diusulkan mengusulkan mengusulkannya usulkan usulmu usulnya
+91	2291	berhad	
+92	2292	ringgit	
+93	2293	krisis	berkrisis krisisnya
+94	2294	hang	hangi hanglah
+95	2295	rekaan	rekaannya
+96	2296	pelumba	pelumbanya
+97	2297	terhad	diterhad diterhadkan terhadnya
+98	2298	mahkota	dimahkotai dimahkotakan mahkotakan mahkotaku mahkotamu mahkotanya memahkotakan
+99	2299	lagipun	
+100	2300	sesekali	sesekalipun

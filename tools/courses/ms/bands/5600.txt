@@ -1,100 +1,100 @@
-1	5501	berkubang	
-2	5502	gerigi	geriginya
-3	5503	periklanan	
-4	5504	autoritarian	
-5	5505	pancaroba	
-6	5506	polistirena	
-7	5507	simbahan	
-8	5508	longan	
-9	5509	ujrah	
-10	5510	biduanita	
-11	5511	feminisme	
-12	5512	kima	
-13	5513	kamiran	
-14	5514	islamkan	diislamkan
-15	5515	pinak	
-16	5516	kesatu	
-17	5517	sodok	
-18	5518	kabung	
-19	5519	kerelatifan	
-20	5520	gomen	
-21	5521	jelak	
-22	5522	sewajibnya	
-23	5523	serpih	
-24	5524	ngilu	
-25	5525	tomboi	
-26	5526	sukun	
-27	5527	tatal	
-28	5528	buset	
-29	5529	parap	parapnya
-30	5530	kromium	
-31	5531	fosfor	
-32	5532	ufti	
-33	5533	juvenil	
-34	5534	kelentit	kelentitnya
-35	5535	berselimut	
-36	5536	ukulele	
-37	5537	hadiahi	dihadiahi menghadiahi
-38	5538	randik	
-39	5539	pembukuan	
-40	5540	kepit	
-41	5541	absurd	
-42	5542	pemasaan	
-43	5543	obsesif	
-44	5544	amacam	
-45	5545	penunu	
-46	5546	pencil	
-47	5547	tuntun	
-48	5548	lenga	
-49	5549	menerung	menerong
-50	5550	makrifat	
-51	5551	farinks	
-52	5552	iktikaf	
-53	5553	jizyah	
-54	5554	penyinaran	
-55	5555	belau	
-56	5556	gadung	
-57	5557	limas	
-58	5558	acik	
-59	5559	andartu	
-60	5560	nyiur	
-61	5561	putat	
-62	5562	koyok	
-63	5563	matra	
-64	5564	kucai	
-65	5565	seerti	
-66	5566	sais	
-67	5567	laici	
-68	5568	hibur	
-69	5569	camca	
-70	5570	xenon	
-71	5571	leleh	
-72	5572	waalaikumussalam	
-73	5573	gerenti	
-74	5574	pasni	
-75	5575	patio	
-76	5576	triniti	
-77	5577	pion	
-78	5578	iridium	
-79	5579	abdikan	diabdikan
-80	5580	petroliam	
-81	5581	perdu	
-82	5582	tomahan	
-83	5583	siok	
-84	5584	mortaliti	
-85	5585	darihal	
-86	5586	dewata	
-87	5587	ekonometrik	
-88	5588	pahar	
-89	5589	rabuk	
-90	5590	tarah	
-91	5591	meringkik	
-92	5592	milyar	
-93	5593	banjo	
-94	5594	gerutu	
-95	5595	pelir	
-96	5596	bundarkan	
-97	5597	plagiat	memplagiat
-98	5598	jerang	
-99	5599	kendatipun	
-100	5600	kebaratan	
+1	5501	pit	mengepit
+2	5502	pet	
+3	5503	baur	berbaur berbaurlah dibauri membaur
+4	5504	taufik	
+5	5505	selerak	berselerak diselerakkan menyelerakkan menyelerakkannya selerakkan selerakkannya
+6	5506	fon	
+7	5507	penghapusan	
+8	5508	hayati	hayatilah hayatinya
+9	5509	kusut	kusutkan mengusutkan
+10	5510	diskusi	berdiskusi didiskusikan diskusikan mendiskusikan mendiskusikannya
+11	5511	baht	
+12	5512	kuari	
+13	5513	sintetik	sintetiknya
+14	5514	saki	
+15	5515	anut	anuti dianuti dianutinya menganut menganuti
+16	5516	aneka	beraneka dianekakan
+17	5517	perkakas	perkakasku perkakasmu perkakasnya
+18	5518	edaran	edarannya
+19	5519	bilah	berbilah bilahnya
+20	5520	tercekik	
+21	5521	sentimeter	
+22	5522	injil	injilnya
+23	5523	bersin	bersinku bersinlah bersinmu bersinnya
+24	5524	ironi	ironinya
+25	5525	keserasian	keserasiannya
+26	5526	jas	berjas jasi jasku jasmu jasnya
+27	5527	pewarna	pewarnanya
+28	5528	belacan	
+29	5529	atlas	
+30	5530	efek	efeknya
+31	5531	tergoda	
+32	5532	lift	liftnya
+33	5533	jala	berjala dijalakan jalai jalakan jalanya menjala menjalakan
+34	5534	som	
+35	5535	segitiga	
+36	5536	siuman	
+37	5537	kantung	kantungmu kantungnya mengantung mengantungkan mengantungkannya
+38	5538	kecam	dikecam
+39	5539	alergi	alergimu alerginya
+40	5540	peramal	
+41	5541	vila	
+42	5542	pemurah	pemurahnya
+43	5543	lensa	berlensa lensanya
+44	5544	iringan	beriringan
+45	5545	cempaka	
+46	5546	merdu	memerdukan merdunya
+47	5547	pengecaman	pengecamannya
+48	5548	menyakinkan	menyakinkanmu menyakinkannya
+49	5549	sekongkol	bersekongkol bersekongkollah
+50	5550	kasturi	
+51	5551	patriot	
+52	5552	penggabungan	
+53	5553	steroid	
+54	5554	momen	momenku momennya
+55	5555	dadu	dadunya
+56	5556	panitia	
+57	5557	pembangun	pembangunkan pembangunnya
+58	5558	tertib	tertibnya
+59	5559	robotik	
+60	5560	spesimen	
+61	5561	naskah	naskahmu naskahnya
+62	5562	tetingkap	tetingkapnya
+63	5563	pencegah	
+64	5564	sunting	bersunting disunting menyunting
+65	5565	anjung	anjungnya
+66	5566	pengantar	pengantarnya
+67	5567	gelora	bergelora menggelora
+68	5568	jemur	berjemur dijemur jemurkan menjemur
+69	5569	laden	meladeni meladenimu
+70	5570	tebu	tebukan
+71	5571	jelata	jelatanya
+72	5572	intim	berintim intimnya
+73	5573	gender	bergender
+74	5574	songsang	disongsangkan menyongsang
+75	5575	rentang	direntang direntangkan merentang merentangi merentangkan rentangkan
+76	5576	gusi	gusinya
+77	5577	kasi	dikasi kasilah kasitah
+78	5578	guruh	berguruh guruhnya
+79	5579	sunah	sunahnya
+80	5580	belut	belutmu belutnya berbelut
+81	5581	nutrisi	bernutrisi menutrisi nutrisimu nutrisinya
+82	5582	penyelam	
+83	5583	metropolitan	
+84	5584	skuter	skuterkah skuternya
+85	5585	perhitungan	perhitunganku perhitunganmu perhitungannya
+86	5586	lombok	
+87	5587	pembubaran	
+88	5588	keberhasilan	keberhasilanku keberhasilanmu keberhasilannya
+89	5589	setahu	setahuku setahunya
+90	5590	pramugari	
+91	5591	sebetulnya	
+92	5592	sagu	sagunya
+93	5593	penarik	penariknya
+94	5594	kia	kiai kiamu mengiakan mengiakannya
+95	5595	kuang	
+96	5596	pembekalan	
+97	5597	saf	bersaf safi
+98	5598	ringkasan	ringkasannya
+99	5599	damping	berdamping dampingi didamping didampingi mendampingi mendampingiku mendampingimu mendampinginya mendampingkan
+100	5600	sindiran	sindiranlah sindiranmu

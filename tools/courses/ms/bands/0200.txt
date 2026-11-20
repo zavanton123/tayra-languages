@@ -1,100 +1,100 @@
-1	101	macam	macamku macamnya mcm
-2	102	kenapa	
-3	103	pun	pon
-4	104	malam	malamku malammu malamnya
-5	105	siapa	
-6	106	atas	
-7	107	jalan	berjalan jalanku jalanmu jalannya
-8	108	hidup	
+1	101	macam	bermacam macami macamku macamlah macamnya mcm memacam
+2	102	kenapa	kenapakah kenapakan kenapaku kenapalah kenapanya mengenap mengenapnya
+3	103	pun	pon punkan
+4	104	malam	bermalam bermalamlah dimalam malamkah malamku malamlah malammu malamnya
+5	105	siapa	siapakah siapaku siapalah siapanya siapapun
+6	106	atas	atasku atasmu atasnya
+7	107	jalan	berjalan berjalanlah berjalanmu berjalannya dijalan dijalani dijalaninya dijalankan dijalankannya dijalanmu diperjalankan jalani jalanilah jalaninya jalankah jalankan jalankanlah jalankannya jalanku jalanlah jalanmu jalannya memperjalankan menjalan menjalani menjalaninya menjalankan menjalankannya
+8	108	hidup	dihidup dihidupkan dihidupku hidupkah hidupkan hidupkanlah hidupkannya hidupku hiduplah hidupmu hidupmulah hidupnya menghidup menghidupi menghidupkan menghidupkanku menghidupkanmu menghidupkannya menghidupnya
 9	109	bahawa	
-10	110	ayah	ayahku ayahmu ayahnya
-11	111	kawan	kawanku kawanmu kawannya
-12	112	beberapa	
-13	113	besar	
-14	114	masuk	masok
-15	115	sebelum	sblm
-16	116	bersama	
-17	117	cari	dicari mencari
-18	118	terima	
-19	119	ibu	ibuku ibumu ibunya
-20	120	nama	namaku namamu namanya
-21	121	bawa	dibawa membawa
-22	122	dunia	duniaku duniamu dunianya
-23	123	sendiri	
-24	124	kali	kalinya
-25	125	ketika	
-26	126	betul	betol
-27	127	kasih	kasihku kasihmu kasihnya
-28	128	dengar	didengar mendengar
-29	129	masalah	masalahku masalahmu masalahnya
-30	130	mula	bermula memulakan mulanya
-31	131	suka	sukanya
-32	132	setiap	
-33	133	kan	
-34	134	salah	
-35	135	hati	hatiku hatimu hatinya
-36	136	sebab	sbb sebabku sebabmu sebabnya
-37	137	lama	lamaku lamamu lamanya
+10	110	ayah	ayahkah ayahkan ayahku ayahlah ayahmu ayahmulah ayahnya berayah
+11	111	kawan	berkawan berkawanlah kawani kawankah kawankan kawanku kawanlah kawanmu kawannya mengawan mengawani
+12	112	beberapa	beberapanya dibeberapa
+13	113	besar	berbesar besarkah besarkan besarkannya besarku besarlah besarmu besarnya dibesar dibesarkan dibesarkannya diperbesar diperbesarkan membesar membesarkan membesarkanku membesarkanmu membesarkannya membesarlah membesarnya memperbesar memperbesarkan memperbesarkannya perbesarkan perbesarkannya
+14	114	masuk	dimasuk dimasuki dimasukinya dimasukkan dimasukkannya masok masokkan masuki masukinya masukkah masukkanlah masukkannya masuklah masuknya memasok memasuk memasukinya memasukkan memasukkanku memasukkanmu memasukkannya mememasuki
+15	115	sebelum	sblm sebelumku sebelumlah sebelumnya
+16	116	bersama	bersamaku bersamalah bersamamu bersamanya
+17	117	cari	carikan carikanku carikanlah carikannya cariku carilah carimu carinya dicari dicarikan dicarinya mencari mencarikan mencarikanku mencarikanmu mencarikannya mencariku mencarimu mencarinya
+18	118	terima	berterima beterima diterima diterimakah diterimanya menerimaku menerimamu menerimanya terimakah terimakan terimalah terimanya
+19	119	ibu	beribu ibuku ibukulah ibulah ibumu ibunya ibunyalah
+20	120	nama	bernama dinama dinamai dinamakan dinamakannya dinamanya menamai menamainya menamakan menamakanku menamakanmu menamakannya namai namakah namakan namakanlah namakannya namaku namamu namanya namapun
+21	121	bawa	bawakah bawakan bawakanku bawakanlah bawakanmu bawakannya bawaku bawalah bawamu bawanya dibawa dibawakan dibawakannya dibawanya membawa membawakan membawakanku membawakanmu membawakannya membawaku membawamu membawanya
+22	122	dunia	didunia diduniamu didunianya duniaku duniamu dunianya duniapun mendunia
+23	123	sendiri	bersendiri menyendiri sendirikah sendirikan sendiriku sendirilah sendirinya sendiripun
+24	124	kali	berkali dikali dikalikan kalikah kalilah kalinya kalipun mengali
+25	125	ketika	diketika ketikanya
+26	126	betul	betol betuli betulkah betulkan betulkanlah betulkannya betulku betullah betulnya dibetulkan diperbetul diperbetulkan membetul membetulkan membetulkannya memperbetul memperbetulkan memperbetulkannya perbetulkan perbetulkanlah perbetulkannya
+27	127	kasih	berkasih dikasih dikasihi dikasihinya kasihi kasihilah kasihkan kasihku kasihlah kasihmu kasihnya mengasih mengasihi mengasihiku mengasihimu mengasihinya
+28	128	dengar	dengari dengarkah dengarkan dengarkanku dengarkanlah dengarkannya dengarku dengarlah dengarmu dengarnya dengarpun didengar didengari didengarinya didengarkan didengarnya diperdengarkan memperdengarkan mendengar mendengari mendengarkan mendengarkanku mendengarkanmu mendengarkannya mendengarku mendengarmu mendengarnya perdengarkan
+29	129	masalah	bermasalah dipermasalahkan masalahkah masalahku masalahmu masalahnya masalahpun mempermasalahkan mempermasalahkannya permasalahkan
+30	130	mula	bermula bermulalah bermulanya dimula dimulai dimulailah dimulainya dimulakan memulakan mulakan mulakanlah mulakannya mulalah mulanya
+31	131	suka	bersuka disuka disukai disukainya disukakan menyuka menyukai menyukaiku menyukaimu menyukainya menyukakan sukai sukainya sukakah sukakan sukakanmu sukakannya sukalah sukanya
+32	132	setiap	setiapnya
+33	133	kan	berkan dikan kani kanku kanlah kanmu kannya mengani
+34	134	salah	bersalahkah bersalahku bersalahmu bersalahnya dipersalah dipersalahkan disalah disalahkan mempersalahkan menyalah menyalahi menyalahinya menyalahkan menyalahkanku menyalahkanmu menyalahkannya persalahkan salahkah salahkan salahkanmu salahkannya salahku salahlah salahmu salahnya salahpun
+35	135	hati	dihati dihatiku dihatimu dihatinya diperhati diperhatikan diperhatikannya hatikah hatiku hatikulah hatilah hatimu hatimulah hatinya memperhati memperhatikan memperhatikanku memperhatikanmu memperhatikannya perhatikan perhatikanlah perhatikanmu perhatikannya
+36	136	sebab	bersebab disebab disebabkan disebabkanku disebabkannya menyebab menyebabkanku menyebabkannya sbb sebabkan sebabkannya sebabku sebablah sebabmu sebabnya
+37	137	lama	lamakah lamakan lamaku lamalah lamamu lamanya lamapun memperlama
 38	138	berkata	
-39	139	selepas	
-40	140	kawasan	
-41	141	mati	
-42	142	air	aek aer airku airmu airnya ayer
-43	143	wanita	wanitaku wanitamu wanitanya
-44	144	tersebut	
-45	145	bagaimana	
-46	146	kerja	kerjaku kerjamu kerjanya
-47	147	memang	mmg
-48	148	tentang	
-49	149	makan	dimakan memakan
-50	150	kerajaan	k'jaan kerajaanku kerajaanmu kerajaannya krjaan
-51	151	sekali	
-52	152	sesuatu	
+39	139	selepas	selepasku selepasnya
+40	140	kawasan	berkawasan dikawasan kawasanku kawasanmu kawasannya
+41	141	mati	bermati dimatikan matikah matikan matikanlah matikannya matiku matilah matimu matinya matipun mematikan mematikanku mematikanmu mematikannya
+42	142	air	aek aer airkah airkan airku airlah airmu airnya ayer berair diair diairi mengairi
+43	143	wanita	wanitakah wanitakan wanitaku wanitalah wanitamu wanitanya
+44	144	tersebut	tersebutlah
+45	145	bagaimana	bagaimanakah bagaimanakan bagaimanalah bagaimananya bagaimanapun
+46	146	kerja	bekerjakah bekerjalah bekerjanya berkerja berkerjalah dikerjai dikerjakan dikerjakannya diperkerjakan kerjai kerjakah kerjakan kerjakanlah kerjakannya kerjaku kerjalah kerjamu kerjanya memperkerjakan memperkerjakanmu memperkerjakannya mengerjai mengerjaiku mengerjaimu mengerjainya mengerjakan mengerjakanku mengerjakannya
+47	147	memang	memangi memangkah memangkan memanglah memangnya memangpun mmg
+48	148	tentang	bertentang ditentang ditentangnya menentang menentangku menentangmu menentangnya tentangi tentangku tentanglah tentangmu tentangnya
+49	149	makan	bermakan dimakan dimakannya makani makankan makanku makanlah makanmu makannya memakan memakanku memakanmu memakannya
+50	150	kerajaan	berkerajaan dikerajaan k'jaan kerajaanku kerajaanlah kerajaanmu kerajaannya krjaan
+51	151	sekali	bersekali disekalikan sekalikah sekalinya
+52	152	sesuatu	sesuatukah sesuatulah sesuatunya sesuatupun
 53	153	secara	
-54	154	kampung	kampong kampungku kampungmu kampungnya
-55	155	pertama	
-56	156	kena	
-57	157	tuan	tuanmu tuannya
+54	154	kampung	berkampung dikampung kampong kampungku kampungmu kampungnya
+55	155	pertama	pertamaku pertamamu pertamanya
+56	156	kena	dikena dikenakan dikenakannya kenakah kenakan kenakanlah kenakannya kenalah kenanya mengena mengenakan mengenakannya mengenaku mengenanya
+57	157	tuan	bertuan bertuankan mempertuankan tuanlah tuanmu tuannya
 58	158	emak	emakmu emaknya mak
 59	159	berlaku	
-60	160	luar	
-61	161	tolong	
-62	162	begitu	
-63	163	negeri	negeriku negerimu negerinya
-64	164	pihak	pihakku pihakmu pihaknya
-65	165	sayang	disayangi sayangku sayangmu sayangnya
-66	166	tuhan	tuhanku tuhanmu tuhannya
-67	167	nampak	
-68	168	antara	
-69	169	pelajar	pelajarku pelajarmu pelajarnya
-70	170	sana	
-71	171	tanpa	
-72	172	kembali	
-73	173	rakyat	rakyatku rakyatmu rakyatnya
-74	174	bawah	
-75	175	manusia	manusiaku manusiamu manusianya
+60	160	luar	luarku luarnya
+61	161	tolong	bertolong ditolong ditolongnya menolong menolongku menolonglah menolongmu menolongnya tolongkah tolonglah tolongnya
+62	162	begitu	begitui begitukah begitukan begitulah begitupun
+63	163	negeri	bernegeri dinegeri negeriku negerimu negerinya
+64	164	pihak	berpihak berpihakkan dipihak dipihakku dipihakmu memihak memihaknya pihakku pihakmu pihaknya
+65	165	sayang	disayang disayangi disayanginya disayangkan menyayang menyayangi menyayangiku menyayangimu menyayanginya menyayangkan sayangi sayangilah sayanginya sayangkan sayangkanku sayangkanmu sayangkannya sayangku sayanglah sayangmu sayangnya
+66	166	tuhan	bertuhan bertuhankan dituhankan tuhankah tuhanku tuhanlah tuhanmu tuhanmulah tuhannya tuhanpun
+67	167	nampak	dinampak dinampakkan menampakkan nampakkah nampakkan nampakku nampaklah nampakmu nampaknya nampakpun
+68	168	antara	antaraku antaramu antaranya diantara
+69	169	pelajar	dipelajari dipelajarinya mempelajari mempelajarinya pelajari pelajarilah pelajarinya pelajarku pelajarmu pelajarnya
+70	170	sana	bersana disana disanalah sanai sanakah sanalah sananya
+71	171	tanpa	tanpaku tanpamu tanpanya
+72	172	kembali	dikembali dikembalikan kembalikah kembalikan kembalikanlah kembalikannya kembalilah kembalimu kembalinya mengembalikan mengembalikanmu mengembalikannya
+73	173	rakyat	berakyat merakyat merakyatkan rakyatku rakyatlah rakyatmu rakyatnya
+74	174	bawah	bawahku bawahmu bawahnya
+75	175	manusia	bermanusia manusiakah manusiaku manusialah manusiamu manusianya memanusiakan
 76	176	merupakan	
-77	177	terus	
-78	178	keluarga	keluargaku keluargamu keluarganya
-79	179	mata	mataku matamu matanya
+77	177	terus	berterus berteruskan beterus diterus diteruskan memeneruskan menerusi menerusinya meneruskan meneruskankan meneruskannya teruskah teruskanlah teruskannya teruslah terusnya
+78	178	keluarga	berkeluarga dikeluarga keluargakah keluargaku keluargalah keluargamu keluarganya
+79	179	mata	dimata dimataku dimatamu dimatanya matai matakah mataku matalah matamu matanya memata
 80	180	berada	
-81	181	cuba	
-82	182	kemudian	
-83	183	perkara	perkaranya
-84	184	tunggu	
-85	185	lalu	
-86	186	maaf	maafku maafmu maafnya
+81	181	cuba	cubakah cubakan cubaku cubalah cubanya dicuba dicubanya mencuba mencubaku mencubanya
+82	182	kemudian	dikemudian dikemudiankan kemudianlah kemudiannya
+83	183	perkara	diperkarakan perkaranya
+84	184	tunggu	ditunggu ditunggukan ditunggunya menunggu menunggukan menungguku menunggumu menunggunya tunggukan tunggulah tunggumu tunggunya
+85	185	lalu	berlalu berlalunya dilalui dilaluinya dilalukan lalui laluilah laluinya lalukah lalukan laluku lalumu lalunya melalukan melalukannya
+86	186	maaf	bermaaf dimaafi dimaafkan maafi maafkan maafkanku maafkanlah maafkannya maafku maaflah maafmu maafnya memaaf memaafi memaafkan memaafkanku memaafkanmu memaafkannya
 87	187	sedang	
-88	188	tiga	
-89	189	ingin	
-90	190	kereta	keretaku keretamu keretanya
-91	191	kecil	
-92	192	mari	
-93	193	harus	
+88	188	tiga	ditiga tigamu tiganya
+89	189	ingin	diingin diingini diingininya diinginkan diinginkannya ingini ingininya inginkah inginkan inginkanmu inginkannya inginku inginlah inginnya mengingin mengingini mengingininya menginginkan menginginkanku menginginkanmu menginginkannya
+90	190	kereta	berkereta dikereta keretaku keretamu keretanya
+91	191	kecil	berkecil dikecilkan diperkecil diperkecilkan kecilkan kecilkanlah kecilkannya kecilku kecillah kecilmu kecilnya kecilpun memperkecil memperkecilkan memperkecilkannya mengecil mengecilkan mengecilkannya perkecilkan perkecilkannya
+92	192	mari	marikan mariku marilah
+93	193	harus	diharus diharuskan haruskah haruskan harusku haruslah harusnya mengharuskan mengharuskanku mengharuskanmu mengharuskannya
 94	194	memberi	
-95	195	cuma	
-96	196	dulu	
+95	195	cuma	cumai cumalah cumamu cumanya percumakan
+96	196	dulu	dulukah dulukan duluku dululah dulunya dulupun mendului
 97	197	mengatakan	dikatakan katakan
-98	198	cara	caraku caramu caranya
-99	199	kuala	
-100	200	pasti	
+98	198	cara	carakah carakan caraku caramu caranya carapun mencarai
+99	199	kuala	berkuala dikuala
+100	200	pasti	dipastikan memasti memastikan memastikannya mempastikan pastikah pastikan pastikanlah pastikannya pastilah pastinya

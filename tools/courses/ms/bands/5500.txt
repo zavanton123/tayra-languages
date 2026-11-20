@@ -1,100 +1,100 @@
-1	5401	boron	
-2	5402	kaviti	
-3	5403	keabnormalan	
-4	5404	ultraungu	
-5	5405	ganu	
-6	5406	amang	
-7	5407	sukat	
-8	5408	acah	
-9	5409	ketar	
-10	5410	maharajalela	
-11	5411	nyiru	
-12	5412	keabsahan	
-13	5413	tamban	
-14	5414	abstraksi	
-15	5415	petola	
-16	5416	sisih	
-17	5417	aikido	
-18	5418	poliester	
-19	5419	hayang	
-20	5420	bermohon	
-21	5421	kepiting	
-22	5422	hirau	dihirau menghirau
-23	5423	singgung	
-24	5424	berhibernasi	
-25	5425	seba	
-26	5426	kompartmen	
-27	5427	maniak	
-28	5428	pukimak	
-29	5429	mencelakakan	
-30	5430	pemalar	pemalarnya
-31	5431	palingkan	dipalingkan
-32	5432	ardi	
-33	5433	tunjung	
-34	5434	katod	
-35	5435	lanca	
-36	5436	olak	
-37	5437	langau	
-38	5438	tepus	
-39	5439	jata	
-40	5440	mengabui	abui
-41	5441	belek	
-42	5442	tebas	
-43	5443	jengkal	
-44	5444	latah	latahnya
-45	5445	pandemik	
-46	5446	tray	
-47	5447	daing	
-48	5448	baguskan	membaguskan
-49	5449	sakar	sagar
-50	5450	kerehatan	
-51	5451	menjustifikasikan	
-52	5452	bakong	
-53	5453	filologi	
-54	5454	upih	
-55	5455	puspa	
-56	5456	riyal	
-57	5457	lokan	
-58	5458	jerayawara	
-59	5459	desis	
-60	5460	memperbaik	
-61	5461	kikis	
-62	5462	diarea	
-63	5463	rimbun	
-64	5464	percik	
-65	5465	interviu	
-66	5466	penghitung	
-67	5467	gedang	
-68	5468	karsinogen	
-69	5469	autokratik	
-70	5470	horizontal	
-71	5471	kerumun	
-72	5472	serombong	
-73	5473	sibernetik	
-74	5474	lembayung	
-75	5475	bantai	
-76	5476	pangan	
-77	5477	kerajang	
-78	5478	pemeluwapan	
-79	5479	sentak	
-80	5480	memarkir	
-81	5481	kemunafikan	
-82	5482	cincai	
-83	5483	kuetiau	
-84	5484	sepunya	
-85	5485	mengimplementasikan	
-86	5486	ceritera	
-87	5487	imarah	
-88	5488	imejan	
-89	5489	tiris	
-90	5490	woksyop	
-91	5491	videografi	
-92	5492	rial	
-93	5493	hering	
-94	5494	dengus	
-95	5495	empulur	
-96	5496	litigasi	
-97	5497	amenda	amende
-98	5498	kilas	
-99	5499	membekas	
-100	5500	jajan	
+1	5401	pembimbing	pembimbingku pembimbingnya
+2	5402	gelembung	bergelembung gelembungnya menggelembung
+3	5403	kawad	berkawad mengawadkan
+4	5404	intensif	berintensif berintensifkan
+5	5405	resap	diresapi meresap meresapi meresapkan meresapnya resapi resapkan
+6	5406	bedak	bedakkan berbedak membedak membedaki
+7	5407	bayan	bayani
+8	5408	tombol	tombolnya
+9	5409	lampin	lampinnya
+10	5410	graduasi	bergraduasi
+11	5411	semadi	bersemadi bersemadilah bersemadinya disemadikan
+12	5412	indera	inderaku
+13	5413	pemberitahuan	pemberitahuannya
+14	5414	domba	dombakan
+15	5415	nazar	bernazar dinazarkan nazari nazarku nazarmu nazarnya
+16	5416	ketupat	
+17	5417	bat	bati batkan
+18	5418	lawas	melawas melawaskan
+19	5419	universal	
+20	5420	berek	
+21	5421	muara	bermuara muaranya
+22	5422	kolaborasi	berkolaborasi kolaborasinya
+23	5423	sinis	sinisnya
+24	5424	aya	ayai
+25	5425	tika	dipertikai mempertikai mempertikainya pertikai tikai
+26	5426	monopoli	dimonopoli memonopoli memonopolinya
+27	5427	direktori	
+28	5428	naif	naiflah naifnya
+29	5429	teleskop	teleskopi teleskopku teleskopmu teleskopnya
+30	5430	station	
+31	5431	penderaan	
+32	5432	sirih	
+33	5433	kecepatan	kecepatanku kecepatanmu kecepatannya
+34	5434	faraj	farajnya
+35	5435	zuhur	zohor
+36	5436	tertanam	tertanamnya
+37	5437	sekelompok	
+38	5438	pengkritik	pengkritiknya
+39	5439	daku	
+40	5440	kenegaraan	kenegaraannya
+41	5441	aris	mengariskan
+42	5442	karbohidrat	berkarbohidrat karbohidratnya
+43	5443	dubur	didubur duburnya
+44	5444	kemeriahan	kemeriahannya
+45	5445	kancil	kancilnya
+46	5446	perkenalan	perkenalannya
+47	5447	ketaatan	ketaatannya
+48	5448	statik	
+49	5449	hijab	berhijab dihijab hijabi hijabnya menghijab
+50	5450	stik	stiknya
+51	5451	raka	meraka rakanya
+52	5452	pemanas	pemanasnya
+53	5453	tawa	mempertawakan mentawai tawai tawamu tawanya
+54	5454	salju	saljunya
+55	5455	lek	
+56	5456	molek	
+57	5457	awet	awetkan diawet diawetkan mengawet mengawetnya
+58	5458	ganjak	berganjak
+59	5459	suit	bersuit
+60	5460	kilau	berkilau mengkilau
+61	5461	pemetaan	
+62	5462	kebas	dikebas
+63	5463	setara	disetara disetarakan menyetarakan setaranya
+64	5464	ketidakadilan	
+65	5465	kondusif	
+66	5466	silinder	silindernya
+67	5467	lali	laliku lalinya melalikan
+68	5468	tauhu	tauhunya
+69	5469	bahang	bahangnya berbahang membahang
+70	5470	kemasyhuran	kemasyhurannya
+71	5471	keutuhan	keutuhannya
+72	5472	rentetan	
+73	5473	kejang	mengejang
+74	5474	saujana	
+75	5475	bah	bahi dibah
+76	5476	uja	menguja mengujakan ujakan
+77	5477	mustahak	mustahaknya
+78	5478	senonoh	senonohnya
+79	5479	tian	
+80	5480	hempas	berhempas dihempas dihempaskan hempaskan menghempas menghempaskan menghempasmu menghempasnya
+81	5481	marsyal	
+82	5482	laknat	dilaknat dilaknati laknatnya melaknat melaknati melaknatnya
+83	5483	cilik	
+84	5484	guni	berguni
+85	5485	human	humani
+86	5486	jahil	dijahilkan
+87	5487	gaung	bergaung gaungnya
+88	5488	aluminium	
+89	5489	hamper	
+90	5490	matriks	
+91	5491	meratap	meratapi meratapimu meratapinya merataplah
+92	5492	risik	berisik dirisik merisik
+93	5493	blues	
+94	5494	aud	audi
+95	5495	astronomi	
+96	5496	domain	domainnya
+97	5497	kelinci	kelincimu kelincinya
+98	5498	orkid	orkidnya
+99	5499	gantang	
+100	5500	kebaya	kebayakan
