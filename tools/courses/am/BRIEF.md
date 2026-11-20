@@ -33,9 +33,10 @@ story; a lesson never needs another lesson to make sense.
 - **The verb**: the perfective tells what happened (*መጣ*, *መጣች*, *መጡ*, *መጣሁ*), the imperfective with
   *-ኣል* what happens or will happen (*ይመጣል*, *ትመጣለች*, *እመጣለሁ*), the gerund links actions (*መጥቶ
   ተቀመጠ*), the infinitive follows *ፈለገ*, *ጀመረ*, *ቻለ* (*መብላት ይፈልጋል*). The list files every form under
-  its verb's perfective (*ሰበረ* holds *ይሰብራል*, *የሚሰብሩት*, *አልሰበረም*, *ሰብሮ*, *መስበር*); a few
-  verbs are listed by the infinitive the pack has (*ማሰብ*, *መጀመር*), and a few by both (*ማወቅ* and
-  *አወቀ*): teach only one of such a pair. *ነው* "is" holds *ናት*, *ነኝ*, *ናቸው*; *ነበረ* "was" holds *ነበር*,
+  its verb (*ሰበረ* holds *ይሰብራል*, *የሚሰብሩት*, *አልሰበረም*, *ሰብሮ*, *መስበር*). A verb is listed by its
+  perfective, or by its infinitive where the dictionary pack has only that: *መምጣት* "come" holds *መጣ*,
+  *ይመጣል*, *ና*; *መቻል* "can" holds *ቻለ*, *ይችላል*; *ማወቅ* "know" holds *አወቀ*, *ያውቃል*; *ማድረግ* "do"
+  holds *አደረገ*, *ያደርጋል*. *ነው* "is" holds *ናት*, *ነኝ*, *ናቸው*; *ነበረ* "was" holds *ነበር*,
   *ነበሩ*; *አለ* is "there is, have" and "say" both (*አለ*, *አሉ*, *አለኝ*, *አለበት*; *ብሎ*, *ይላል*,
   *ማለት*), *የለም* "there isn't" is a headword of its own.
 - **Grammar grows with the bands**, each band using what came before:
@@ -102,13 +103,13 @@ story; a lesson never needs another lesson to make sense.
 ## Things to know about the Amharic list
 
 - Headwords are written as the English Wiktionary writes them: verbs by the perfective's third
-  person masculine (*ሰበረ*, *መጣ*, *ሄደ*), or by the infinitive where the pack has only that (*ማወቅ*,
-  *ማሰብ*, *መጀመር*); nouns and adjectives by their bare form. Teach a verb through its forms: *ይሄዳል*,
-  *ሄደች*, *መሄድ* all teach *ሄደ*.
+  person masculine (*ሰበረ*, *ሄደ*), or by the infinitive where the pack has only that (*መምጣት*, *ማወቅ*,
+  *ማድረግ*, *መቻል*); nouns and adjectives by their bare form. Teach a verb through its forms: *ይሄዳል*,
+  *ሄደች*, *መሄድ* all teach *ሄደ*; *መጣ*, *ይመጣል* teach *መምጣት*.
 - Words of the list hold their prepositions and endings: *ቤት* holds *በቤት*, *ቤቱ*, *ቤቶች*, *የቤታችን*.
   The checker reads a form the list lacks by the rules the list was built with (*ለልጆቻችን* counts as
   *ልጅ*, *የሚሰብሩት* as *ሰበረ*); only words with no such reading are outside words.
-- About 450 list words are no entry of the dictionary pack (the English Wiktionary lacks *ወደ*, *ግን*,
+- About 500 list words are no entry of the dictionary pack (the English Wiktionary lacks *ወደ*, *ግን*,
   *ሌላ*, *ሄደ*, *መጣ*): the learner sees them unglossed, so teach them in a sentence that makes their
   sense clear.
 - The list is web text, much of it news and church writing: *እግዚአብሔር*, *ቅዱስ*, *ክርስቲያን*, *መንግሥት*,

@@ -532,6 +532,10 @@ class Lexicon:
             for stem in passive:
                 if stem not in self.stems:
                     self.stems[stem] = {key: FREE}
+        # A form of a word merged into another is the other's (ና: መጣ, whose word is መምጣት).
+        for form, heads in list(self.forms.items()):
+            self.forms[form] = {next(iter(self.forms[h])) if h not in self.kinds and len(self.forms.get(h, ())) == 1 else h
+                                for h in heads}
         for stem, kinds in AMHARIC_STEMS.items():
             for verb in kinds:
                 self.stems[stem][sounds(verb)] = self.stems[stem].get(sounds(verb), 0) | kinds[verb]
@@ -558,6 +562,9 @@ class Lexicon:
             for core, back in strip_layers(rest, _NOMINAL_LAYERS):
                 if front + back == 0 or len(core) < 2:
                     continue
+                if core in AMHARIC_EXCLUDED_KEYS:
+                    # A name with a preposition or ending (የቻይና, በጎጃም) is no word's form.
+                    return -1, frozenset()
                 words = self._known(core)
                 if not words and core[-1] not in "AuiaeoW" and rest[len(core):].startswith("oc"):
                     # ሠራተኛ, ከተማ: an a-final noun's plural is made on its consonant (ሠራተኞች, ከተሞች).
@@ -613,6 +620,8 @@ class Lexicon:
         if key in self.kinds:
             return frozenset({key})
         nominal_cost, nominal = self.nominal(key)
+        if nominal_cost == -1:
+            return frozenset()
         verbal_cost, verbal = self.verbal(key)
         if nominal and verbal and verbal_cost <= nominal_cost <= 2 and key.endswith("u"):
             return nominal | verbal
