@@ -1,100 +1,100 @@
-1	6901	lozungs	lozunga lozungam lozungi lozungiem lozungos lozungu lozungus lozungā
-2	6902	dezinficēt	dezinficē dezinficēja dezinficējam dezinficējiet dezinficējis dezinficējot dezinficējošs dezinficēju dezinficējusi dezinficējuši dezinficēs dezinficēsim dezinficēta dezinficētas dezinficēti dezinficēto dezinficēts dezinficētu dezinficēšana dezinficēšanas dezinficēšanu dezinficēšanā dezinficēšu jādezinficē nedezinficē
-3	6903	likumība	likumībai likumības likumību likumībām
-4	6904	darbadiena	darbadienai darbadienas darbadienu darbadienā darbadienām darbadienās
-5	6905	apmācies	
-6	6906	aprunāt	aprunā aprunāja aprunājam aprunājamajam aprunājamos aprunājams aprunājat aprunājis aprunājot aprunāju aprunājusi aprunās aprunāsim aprunāta aprunātais aprunātajai aprunātajiem aprunātajā aprunātajām aprunātas aprunāti aprunātie aprunāto aprunātos aprunāts aprunātu aprunātus aprunātā aprunātās aprunāšana aprunāšanas aprunāšanu aprunāšanā aprunāšu jāaprunā neaprunā neaprunājam neaprunāji neaprunāju
-7	6907	meteoroloģisks	meteoroloģiska meteoroloģiskais meteoroloģiskajiem meteoroloģiskajos meteoroloģiskajā meteoroloģiskajām meteoroloģiski meteoroloģiskie meteoroloģiskiem meteoroloģisko meteoroloģiskos meteoroloģiskā meteoroloģiskām meteoroloģiskās
-8	6908	uguntiņa	uguntiņas uguntiņu uguntiņām uguntiņās
-9	6909	sapirkt	jāsapērk nesapirku sadzelt sadzeltais sadzeltam sadzeltie sadzelts sadzeļ sadzēla sadzēlis sadzēlu sadzēlušas sadzēluši sapircis sapirka sapirks sapirksi sapirkta sapirktas sapirkti sapirktos sapirkts sapirktu sapirktām sapirktās sapirku sapirkusi sapirkušas sapirkuši sapirkām sapirkšu sapērc sapērciet sapērk sapērkam sapērkot sapērku
-10	6910	debešķīgs	debešķīga debešķīgais debešķīgas debešķīgi debešķīgie debešķīgo debešķīgu debešķīgus debešķīgā debešķīgām debešķīgās
-11	6911	strauss	strausa strausam strausi strausiem strausu strausus
-12	6912	ceriņš	ceriņa ceriņam ceriņi ceriņiem ceriņos ceriņu ceriņus
-13	6913	pē	
-14	6914	prizma	prizmai prizmas prizmu prizmā prizmām
-15	6915	lazda	lagzda lazdam lazdas lazdu lazdām lazdās
-16	6916	reformēt	jāreformē nereformējot nereformētā reformē reformēja reformējiet reformējis reformējot reformējusi reformēs reformēsim reformēta reformētas reformēti reformēto reformēts reformētu reformētā reformēšana reformēšanas reformēšanu reformēšanā
-17	6917	iztirgot	iztirgo iztirgoja iztirgojam iztirgojot iztirgoju iztirgojusi iztirgojušas iztirgojuši iztirgojām iztirgojāt iztirgos iztirgosiet iztirgota iztirgotas iztirgoti iztirgoto iztirgots iztirgotu iztirgotā iztirgotās iztirgošana jāiztirgo neiztirgo neiztirgotie neiztirgotos neiztirgots neiztirgotu neiztirgotā
-18	6918	radīties	neradas neradies neradās neradīsies neradītos neradīšoties radas radoties radījies radījās radītos radīšanās
-19	6919	optimists	optimisa optimist optimista optimistam optimiste optimisti optimistiem optimistos optimistu optimistus
-20	6920	uzmesties	neuzmestos neuzmetas neuzmetās neuzmetīsies uzmestos uzmetas uzmeties uzmetoties uzmetās uzmetīsies uzmetīšos
-21	6921	noliegums	nolieguma noliegumam noliegumi noliegumiem noliegumu noliegumā
-22	6922	apledojums	apledojuma apledojumiem apledojumu
-23	6923	iesals	iesala iesalam iesali iesalu iesalā
-24	6924	arājs	arāja arājam arāji arājiem arājos arāju arājus
-25	6925	karpa	karpai karpas karpu karpām
-26	6926	pārsegt	pārsedz pārsedza pārsedzam pārsedzi pārsedzot pārsedzu pārsegs pārsegsim pārsegts pārsegtu pārsegšana
-27	6927	sprāgt	sprāgst sprāgsti sprāgstot sprāgstu sprāgtu
-28	6928	spirāle	spirālei spirāles spirāli spirālē spirālēm spirālēs
-29	6929	smaržīgs	smaržīga smaržīgais smaržīgajam smaržīgajiem smaržīgajos smaržīgajā smaržīgajās smaržīgas smaržīgi smaržīgie smaržīgiem smaržīgo smaržīgos smaržīgu smaržīgus smaržīgā smaržīgākajos smaržīgāko smaržīgāks smaržīgāku smaržīgākā smaržīgām smaržīgās vissmaržīgākais vissmaržīgāko vissmaržīgākā
-30	6930	lakats	lakata lakatam lakati lakatiem lakatos lakatu lakatus lakatā
-31	6931	slaists	slaista slaistam slaisti slaistiem slaistos slaistu slaistus
-32	6932	karuselis	karuseli karuselim karuselī karuseļa karuseļi karuseļiem karuseļos karuseļu karuseļus
-33	6933	skaļums	skaļuma skaļumam skaļumiem skaļumu skaļumā
-34	6934	pamācīties	jāpamācās pamācies pamācieties pamācos pamācoties pamācās pamācījos pamācījāmies pamācīsieties pamācīsimies pamācītos pamācīšos
-35	6935	vilnītis	vilnīti vilnītim vilnītī vilnīša vilnīši vilnīšiem vilnīšos vilnīšu vilnīšus
-36	6936	kanēlis	kanēli kanēlim kanēļa
-37	6937	rakstāmgalds	rakstāmgalda rakstāmgaldam rakstāmgaldi rakstāmgaldiem rakstāmgaldos rakstāmgaldu rakstāmgaldā
-38	6938	nodurt	nodur nodurot nodurs nodurts nodurtu noduru noduršu nodūra nodūri nodūris
-39	6939	slēpotājs	slēpotājam slēpotāji slēpotājiem slēpotāju slēpotājus
-40	6940	biodegviela	biodegvielai biodegvielas biodegvielu biodegvielām biodegvielās
-41	6941	pastkaste	pastkastei pastkastes pastkasti pastkastē pastkastēm pastkastēs
-42	6942	pārcensties	jāpārcenšas nepārcensties nepārcenstos nepārcenties nepārcentieties nepārcenšamies nepārcenšaties nepārcenšoties pārcenties pārcentos pārcentās pārcentīsies pārcenšamies pārcenšanās pārcenšas pārcenšos pārcenšoties
-43	6943	bambuss	bambusa bambusam bambusi bambusiem bambusu bambusus bambusā
-44	6944	atgriezenisks	atgriezeniska atgriezeniskai atgriezeniskais atgriezeniskajai atgriezeniskajā atgriezeniskas atgriezeniski atgriezenisko atgriezenisku atgriezeniskā atgriezeniskās
-45	6945	gadagrāmata	gadagrāmatai gadagrāmatas gadagrāmatu gadagrāmatā gadagrāmatās
-46	6946	klaviatūra	klaviatūrai klaviatūras klaviatūru klaviatūrā klaviatūrām
-47	6947	augstiene	augstienei augstienes augstieni augstienē augstienēm augstienēs augstieņu
-48	6948	klēts	klēti klētij klētis klētī klētīm klētīs
-49	6949	atbaidīt	atbaida atbaidi atbaidot atbaidu atbaidīja atbaidījis atbaidīs atbaidītu atbaidīšana jāatbaida neatbaida neatbaidot neatbaidāms neatbaidīja neatbaidīs neatbaidīsim neatbaidītu
-50	6950	nomocīt	nenomocīs nenomocīt nenomocīts nenomocītu nomoca nomocot nomocīja nomocījis nomocīju nomocījusi nomocījušas nomocījuši nomocījām nomocīs nomocīsi nomocīsiet nomocīta nomocītais nomocītas nomocīti nomocītie nomocīto nomocīts nomocītu nomocītā nomocīšanu
-51	6951	sasildīties	sasildies sasildoties sasildās sasildījies sasildījušies sasildījāmies sasildījās sasildīsies sasildīsieties sasildītos sasildīšanās
-52	6952	bits	bit bitam biti bitu bitus
-53	6953	ekoloģiski	
-54	6954	pakot	jāpako nepakoju pako pakoja pakojam pakojis pakojot pakoju pakojušas pakojuši pakos pakoti pakoto pakots pakošanas pakošanu pakošanā
-55	6955	padzert	jāpadzer padzer padzeram padzeramu padzerat padzeriet padzerot padzers padzersim padzerta padzertos padzerts padzertu padzeru padzeršana padzeršu padzēra padzēris padzēru padzērusi padzērušais padzērušas padzēruši padzērušu padzērušās padzērām
-56	6956	vaids	vaida vaidam vaidi vaidiem vaidos vaidu vaidus vaidā
-57	6957	latīniski	
-58	6958	autorizēt	autorizē autorizēja autorizēji autorizējis autorizējot autorizēs autorizēta autorizētais autorizētajiem autorizētajos autorizētajā autorizētam autorizētas autorizēti autorizētie autorizētiem autorizēto autorizētos autorizēts autorizētu autorizētā autorizētām autorizētās autorizēšanas jāautorizē neautorizējot neautorizēta neautorizētas neautorizēto neautorizēts neautorizētu neautorizētā
-59	6959	togad	
-60	6960	skriešus	
-61	6961	nosēdēties	jānosēžas nenosēžas nosēdies nosēdējies nosēžamies nosēžas nosēžaties nosēžos nosēžoties
-62	6962	nelabums	nelabuma nelabumam nelabumi nelabumiem nelabumu nelabumus
-63	6963	tautisks	tautiska tautiskai tautiskais tautiskajam tautiskajos tautiskajā tautiskajām tautiskajās tautiskam tautiskas tautiski tautiskie tautiskiem tautisko tautiskos tautisku tautiskus tautiskā tautiskāk tautiskākas tautiskāku tautiskām tautiskās
-64	6964	retorika	retorikai retorikas retoriku retorikā retorikām
-65	6965	dispečers	dispečera dispečeram dispečeri dispečeriem dispečeru dispečerus
-66	6966	paklupt	jāpaklūp nepaklups nepaklupsiet nepaklupt nepakluptu nepaklūpiet paklupa paklupi paklupis paklups paklupsim pakluptu paklupu paklupusi paklupuši paklupšu paklūp paklūpam paklūpot paklūpu
-67	6967	raisīties	jāraisās neraisos neraisās neraisījās neraisītos raisas raisies raisos raisoties raisās raisījies raisījusies raisījušies raisījušās raisījās raisīsies raisītos
-68	6968	imitācija	imitācijai imitācijas imitāciju imitācijā imitācijām imitācijās
-69	6969	putēt	neputēs put putēja putēju putēs putētu putēšana putēšanu
-70	6970	artrīts	artrīta artrītu artrītā
-71	6971	izkārtot	izkārto izkārtoja izkārtojams izkārtoji izkārtojiet izkārtojis izkārtojot izkārtoju izkārtojām izkārtos izkārtosiet izkārtosim izkārtots izkārtotu izkārtošana jāizkārto neizkārtošot
-72	6972	gigantisks	gigantiska gigantiskai gigantiskais gigantiskajai gigantiskajam gigantiskajiem gigantiskajās gigantiskas gigantiskie gigantiskiem gigantisko gigantiskos gigantisku gigantiskus gigantiskā gigantiskākas gigantiskām gigantiskās
-73	6973	pikēt	jāpikē pikē pikējam pikējis pikējām pikēšana
-74	6974	ķelts	ķelti ķeltiem ķeltu
-75	6975	ilknis	ilkni ilkņa ilkņi ilkņiem ilkņu ilkņus
-76	6976	vokālists	vokālista vokālistam vokāliste vokālistei vokālistes vokālisti vokālistiem vokālistos vokālistu vokālistus vokālistēm
-77	6977	stērste	stērstei stērstes stērsti
-78	6978	uzlūgt	neuzlūdz neuzlūdzām neuzlūgsi uzlūdz uzlūdza uzlūdzi uzlūdzis uzlūdzu uzlūdzāt uzlūgts uzlūgtu uzlūgšu
-79	6979	pārtulkot	jāpārtulko nepārtulko pārtulko pārtulkoja pārtulkojam pārtulkojamas pārtulkojams pārtulkojamās pārtulkojiet pārtulkojis pārtulkojot pārtulkoju pārtulkojusi pārtulkojuši pārtulkos pārtulkota pārtulkotais pārtulkotas pārtulkoti pārtulkotiem pārtulkots pārtulkotu pārtulkotā pārtulkotās pārtulkošana pārtulkošanai pārtulkošanas pārtulkošanu pārtulkošu
-80	6980	apmelot	apmelo apmeloja apmelojam apmelojiet apmelojis apmelojot apmelojoša apmelojošas apmelojoši apmelojošiem apmelojošo apmelojošos apmelojošu apmelojošus apmelojošā apmeloju apmelojusi apmelojusī apmelota apmelotas apmelots apmelotu apmelošana apmelošanas apmelošanu apmelošanā jāapmelo neapmelojam neapmelota
-81	6981	karaoke	karaokes karaoki karaokē
-82	6982	mikroskops	mikroskopa mikroskopam mikroskopi mikroskopiem mikroskopu mikroskopus mikroskopā
-83	6983	misiņš	misiņa misiņu
-84	6984	dzelzsbetons	dzelzsbetona dzelzsbetonam dzelzsbetonu dzelzsbetonā
-85	6985	aizsist	aizsista aizsistajiem aizsistas aizsisti aizsistie aizsistiem aizsisto aizsists aizsistu aizsistās aizsit aizsita aizsitam aizsitiet aizsitis aizsitot aizsitu aizsitusi aizsituši
-86	6986	klimatisks	klimatiskais klimatiskajai klimatiskajiem klimatiskajos klimatiskajā klimatiskajām klimatiskajās klimatiskas klimatiski klimatiskie klimatiskiem klimatisko klimatiskos klimatisku klimatiskā klimatiskās
-87	6987	ielasmeita	ielasmeitas ielasmeitu ielasmeitām
-88	6988	kraut	jākrauj krauj kraujam kraujiet kraujot krauju kraus krausi krauts krautu kraušana krāva krāvi krāvis krāvu krāvām
-89	6989	sams	sam sama samam sami samiem samos samu samus
-90	6990	padzirdēt	padzird padzirdot padzirdu padzirdēja padzirdējis padzirdēju padzirdējusi padzirdējušas padzirdējuši padzirdējām padzirdēs padzirdētus
-91	6991	aizlikt	aizlicis aizliec aizlieciet aizliek aizliekot aizlika aizliks aizlikts aizliktu aizliku aizlikšot aizlikšu neaizliek neaizliks neaizlikt
-92	6992	uzkurināt	jāuzkurina neuzkurina neuzkurinot neuzkurinātu uzkurina uzkurini uzkuriniet uzkurinot uzkurinošo uzkurinošos uzkurinošus uzkurināja uzkurinājis uzkurināju uzkurinājusi uzkurinājuši uzkurinājām uzkurinās uzkurināta uzkurinātajā uzkurinātajām uzkurinātas uzkurinātos uzkurināts uzkurinātu uzkurinātā uzkurinātās uzkurināšana
-93	6993	sarēķināt	jāsarēķina sarēķina sarēķini sarēķiniet sarēķinot sarēķinu sarēķināja sarēķināji sarēķinājis sarēķināju sarēķinājusi sarēķinājuši sarēķinājām sarēķinājāt sarēķinām sarēķināms sarēķinās sarēķināsim sarēķināti sarēķināts sarēķinātu
-94	6994	piesēdēt	jāpiesēž piesēdi piesēdiet piesēž piesēžam piesēžot piesēžu
-95	6995	netikums	netikuma netikumam netikumi netikumiem netikumu netikumus
-96	6996	kabriolets	kabrioleta kabrioletam kabrioleti kabrioletiem kabrioletos kabrioletu kabrioletus kabrioletā
-97	6997	piesūkties	nepiesūcas nepiesūktos piesūcamies piesūcas piesūcies piesūcoties piesūcās piesūktos piesūkusies piesūkušies piesūkušās piesūkšanās
-98	6998	stihija	stihijai stihijas stihiju stihijā stihijām stihijās
-99	6999	zvejniecība	zvejniecībai zvejniecības zvejniecību zvejniecībā
-100	7000	elektrons	elektron elektrona elektronam elektroni elektroniem elektronu elektronus elektronā
+1	6901	etiķis	etiķa etiķi etiķī
+2	6902	ieslodzītais	ieslodzītai
+3	6903	diagonāle	diagonāles diagonāli diagonālēm diagonālēs
+4	6904	rumānis	rumāni rumāniete rumānietei rumānim rumāņi rumāņiem rumāņu rumāņus
+5	6905	izraēliete	izraēlieti izraēlietim izraēlietis izraēlieši izraēliešiem izraēliešu izraēliešus
+6	6906	stāstnieks	stāstniece stāstnieces stāstnieci stāstniecēm stāstnieka stāstniekam stāstnieki stāstniekiem stāstnieku stāstniekus
+7	6907	reliģiozs	reliģioza reliģiozais reliģiozajiem reliģiozajā reliģiozam reliģiozas reliģiozi reliģiozie reliģioziem reliģiozo reliģiozos reliģiozu reliģiozus reliģiozā reliģiozākajām reliģiozāku reliģiozās visreliģiozākajai
+8	6908	uzspļaut	jāuzspļauj uzspļauj uzspļaujam uzspļaujot uzspļaujošie uzspļauju uzspļaus uzspļauts uzspļautu uzspļāva uzspļāvi uzspļāvu
+9	6909	temperaments	temperamenta temperamentam temperamenti temperamentiem temperamentu temperamentus temperamentā
+10	6910	budisms	budisma budismam budismu budismā
+11	6911	pudiņš	pudiņ pudiņa pudiņam pudiņi pudiņu pudiņus pudiņā
+12	6912	apzvērēt	apzvēr apzvērat apzvēri apzvēriet apzvērēja apzvērēji apzvērējis apzvērēju apzvērēs apzvērēsiet
+13	6913	viņējs	viņējai viņējam viņējiem viņējos viņējā viņējām viņējās
+14	6914	ornitologs	ornitologa ornitologam ornitologi ornitologiem ornitologu ornitologus ornitoloģe
+15	6915	noformulēt	jānoformulē nenoformulē nenoformulēji nenoformulējot nenoformulēšu noformulē noformulēja noformulējam noformulējiet noformulējis noformulējot noformulēju noformulējusi noformulējuši noformulējām noformulējāt noformulēs noformulēta noformulētais noformulētas noformulēti noformulēts noformulētu noformulētā noformulēšana noformulēšanā noformulēšu
+16	6916	apdomāties	apdomājas apdomājaties apdomājies apdomājieties apdomājos apdomājoties apdomājusies apdomājušies apdomājās apdomāsies apdomāsieties apdomāšanās jāapdomājas neapdomādamies
+17	6917	nonest	jānones nenones nenonesa nenonest nenonesu nenonesīs nenonesīsi nones nonesa nonesi nonesiet nonesis nonesot nonests nonestu nonesu nonesām nonesīs nonesīsim nonesīšu
+18	6918	arheoloģisks	arheoloģiska arheoloģiskais arheoloģiskajai arheoloģiskajiem arheoloģiskajos arheoloģiskajā arheoloģiskajām arheoloģiskas arheoloģiskie arheoloģiskiem arheoloģisko arheoloģiskos arheoloģisku arheoloģiskus arheoloģiskā arheoloģiskās
+19	6919	uzdarboties	neuzdarbojas neuzdarbotos uzdarbojas uzdarbojies uzdarbojoties uzdarbojusies uzdarbojušies uzdarbojušās uzdarbojās uzdarbosies uzdarbotos
+20	6920	darbaļaudis	darbaļaudīm darbaļaužu darbļaužu
+21	6921	netaisns	netaisna netaisnais netaisnas netaisni netaisnie netaisniem netaisno netaisnos netaisnu netaisnus netaisnā netaisnākais netaisnām netaisnās
+22	6922	purpurs	purpura purpuriem purpurā
+23	6923	apstiprināties	apstiprinoties apstiprinājies apstiprinājās apstiprināsies apstiprinātos apstiprināšanās neapstiprinājās neapstiprināsies neapstiprinātos
+24	6924	hotelis	hotela hoteli hotelim hotelī hoteļa hoteļi hoteļiem hoteļos hoteļu hoteļus
+25	6925	naidnieks	naidnieka naidniekam naidnieki naidniekiem naidnieku naidniekus
+26	6926	uzfilmēt	jāuzfilmē neuzfilmēja neuzfilmēs neuzfilmēta neuzfilmēšu uzfilmē uzfilmēja uzfilmējiet uzfilmējis uzfilmēju uzfilmējusi uzfilmējuši uzfilmējām uzfilmēsi uzfilmēsim uzfilmēta uzfilmētais uzfilmētas uzfilmēti uzfilmētie uzfilmēto uzfilmēts uzfilmētu uzfilmētā uzfilmēšu
+27	6927	saaugt	jāsaaug nesaaugdami saaudzis saaug saauga saaugot saaugs saaugtu saaugusi saaugušai saaugušais saaugušajām saaugušas saauguši saaugušie saaugušo saaugušos saaugušu saaugušus saaugušām saaugušās saaugšana saaugšot
+28	6928	plosīt	plosa plosi plosiet plosošs plosīja plosīs plosīts plosītu plosīšana
+29	6929	lozungs	lozunga lozungam lozungi lozungiem lozungos lozungu lozungus lozungā
+30	6930	dezinficēt	dezinficē dezinficēja dezinficējam dezinficējiet dezinficējis dezinficējot dezinficējošs dezinficēju dezinficējusi dezinficējuši dezinficēs dezinficēsim dezinficēta dezinficētas dezinficēti dezinficēto dezinficēts dezinficētu dezinficēšana dezinficēšanas dezinficēšanu dezinficēšanā dezinficēšu jādezinficē nedezinficē
+31	6931	likumība	likumībai likumības likumību likumībām
+32	6932	darbadiena	darbadienai darbadienas darbadienu darbadienā darbadienām darbadienās
+33	6933	apmācies	
+34	6934	meteoroloģisks	meteoroloģiska meteoroloģiskais meteoroloģiskajiem meteoroloģiskajos meteoroloģiskajā meteoroloģiskajām meteoroloģiski meteoroloģiskie meteoroloģiskiem meteoroloģisko meteoroloģiskos meteoroloģiskā meteoroloģiskām meteoroloģiskās
+35	6935	uguntiņa	uguntiņas uguntiņu uguntiņām uguntiņās
+36	6936	debešķīgs	debešķīga debešķīgais debešķīgas debešķīgi debešķīgie debešķīgo debešķīgu debešķīgus debešķīgā debešķīgām debešķīgās
+37	6937	strauss	strausa strausam strausi strausiem strausu strausus
+38	6938	ceriņš	ceriņa ceriņam ceriņi ceriņiem ceriņos ceriņu ceriņus
+39	6939	pē	
+40	6940	prizma	prizmai prizmas prizmu prizmā prizmām
+41	6941	lazda	lagzda lazdam lazdas lazdu lazdām lazdās
+42	6942	reformēt	jāreformē nereformējot nereformētā reformē reformēja reformējiet reformējis reformējot reformējusi reformēs reformēsim reformēta reformētas reformēti reformēto reformēts reformētu reformētā reformēšana reformēšanas reformēšanu reformēšanā
+43	6943	iztirgot	iztirgo iztirgoja iztirgojam iztirgojot iztirgoju iztirgojusi iztirgojušas iztirgojuši iztirgojām iztirgojāt iztirgos iztirgosiet iztirgota iztirgotas iztirgoti iztirgoto iztirgots iztirgotu iztirgotā iztirgotās iztirgošana jāiztirgo neiztirgo neiztirgotie neiztirgotos neiztirgots neiztirgotu neiztirgotā
+44	6944	optimists	optimisa optimist optimista optimistam optimiste optimisti optimistiem optimistos optimistu optimistus
+45	6945	uzmesties	neuzmestos neuzmetas neuzmetās neuzmetīsies uzmestos uzmetas uzmeties uzmetoties uzmetās uzmetīsies uzmetīšos
+46	6946	noliegums	nolieguma noliegumam noliegumi noliegumiem noliegumu noliegumā
+47	6947	apledojums	apledojuma apledojumiem apledojumu
+48	6948	iesals	iesala iesalam iesali iesalu iesalā
+49	6949	arājs	arāja arājam arāji arājiem arājos arāju arājus
+50	6950	karpa	karpai karpas karpu karpām
+51	6951	pārsegt	pārsedz pārsedza pārsedzam pārsedzi pārsedzot pārsedzu pārsegs pārsegsim pārsegts pārsegtu pārsegšana
+52	6952	sprāgt	sprāgst sprāgsti sprāgstot sprāgstu sprāgtu
+53	6953	spirāle	spirālei spirāles spirāli spirālē spirālēm spirālēs
+54	6954	smaržīgs	smaržīga smaržīgais smaržīgajam smaržīgajiem smaržīgajos smaržīgajā smaržīgajās smaržīgas smaržīgi smaržīgie smaržīgiem smaržīgo smaržīgos smaržīgu smaržīgus smaržīgā smaržīgākajos smaržīgāko smaržīgāks smaržīgāku smaržīgākā smaržīgām smaržīgās vissmaržīgākais vissmaržīgāko vissmaržīgākā
+55	6955	lakats	lakata lakatam lakati lakatiem lakatos lakatu lakatus lakatā
+56	6956	slaists	slaista slaistam slaisti slaistiem slaistos slaistu slaistus
+57	6957	karuselis	karuseli karuselim karuselī karuseļa karuseļi karuseļiem karuseļos karuseļu karuseļus
+58	6958	skaļums	skaļuma skaļumam skaļumiem skaļumu skaļumā
+59	6959	pamācīties	jāpamācās pamācies pamācieties pamācos pamācoties pamācās pamācījos pamācījāmies pamācīsieties pamācīsimies pamācītos pamācīšos
+60	6960	vilnītis	vilnīti vilnītim vilnītī vilnīša vilnīši vilnīšiem vilnīšos vilnīšu vilnīšus
+61	6961	kanēlis	kanēli kanēlim kanēļa
+62	6962	rakstāmgalds	rakstāmgalda rakstāmgaldam rakstāmgaldi rakstāmgaldiem rakstāmgaldos rakstāmgaldu rakstāmgaldā
+63	6963	nodurt	nodur nodurot nodurs nodurts nodurtu noduru noduršu nodūra nodūri nodūris
+64	6964	aprunāt	aprunā aprunāja aprunājam aprunājamajam aprunājamos aprunājams aprunājat aprunājis aprunājot aprunāju aprunājusi aprunājām aprunās aprunāsim aprunāta aprunātais aprunātajai aprunātajiem aprunātajā aprunātajām aprunātas aprunāti aprunātie aprunāto aprunāts aprunātu aprunātus aprunātā aprunātās aprunāšana aprunāšanas aprunāšanu aprunāšanā aprunāšu jāaprunā neaprunā neaprunājam neaprunāji neaprunāju
+65	6965	slēpotājs	slēpotājam slēpotāji slēpotājiem slēpotāju slēpotājus
+66	6966	biodegviela	biodegvielai biodegvielas biodegvielu biodegvielām biodegvielās
+67	6967	pastkaste	pastkastei pastkastes pastkasti pastkastē pastkastēm pastkastēs
+68	6968	pārcensties	jāpārcenšas nepārcensties nepārcenstos nepārcenties nepārcentieties nepārcenšamies nepārcenšaties nepārcenšoties pārcenties pārcentos pārcentās pārcentīsies pārcenšamies pārcenšanās pārcenšas pārcenšos pārcenšoties
+69	6969	bambuss	bambusa bambusam bambusi bambusiem bambusu bambusus bambusā
+70	6970	atgriezenisks	atgriezeniska atgriezeniskai atgriezeniskais atgriezeniskajai atgriezeniskajā atgriezeniskas atgriezeniski atgriezenisko atgriezenisku atgriezeniskā atgriezeniskās
+71	6971	gadagrāmata	gadagrāmatai gadagrāmatas gadagrāmatu gadagrāmatā gadagrāmatās
+72	6972	klaviatūra	klaviatūrai klaviatūras klaviatūru klaviatūrā klaviatūrām
+73	6973	augstiene	augstienei augstienes augstieni augstienē augstienēm augstienēs augstieņu
+74	6974	klēts	klēti klētij klētis klētī klētīm klētīs
+75	6975	atbaidīt	atbaida atbaidi atbaidot atbaidu atbaidīja atbaidījis atbaidīs atbaidītu atbaidīšana jāatbaida neatbaida neatbaidot neatbaidāms neatbaidīja neatbaidīs neatbaidīsim neatbaidītu
+76	6976	nomocīt	nenomocīs nenomocīt nenomocīts nenomocītu nomoca nomocot nomocīja nomocījis nomocīju nomocījusi nomocījušas nomocījuši nomocījām nomocīs nomocīsi nomocīsiet nomocīta nomocītais nomocītas nomocīti nomocītie nomocīto nomocīts nomocītu nomocītā nomocīšanu
+77	6977	sasildīties	sasildies sasildoties sasildās sasildījies sasildījušies sasildījāmies sasildījās sasildīsies sasildīsieties sasildītos sasildīšanās
+78	6978	bits	bit bitam biti bitu bitus
+79	6979	ekoloģiski	
+80	6980	pakot	jāpako nepakoju pako pakoja pakojam pakojis pakojot pakoju pakojušas pakojuši pakos pakoti pakoto pakots pakošanas pakošanu pakošanā
+81	6981	vaids	vaida vaidam vaidi vaidiem vaidos vaidu vaidus vaidā
+82	6982	latīniski	
+83	6983	autorizēt	autorizē autorizēja autorizēji autorizējis autorizējot autorizēs autorizēta autorizētais autorizētajiem autorizētajos autorizētajā autorizētam autorizētas autorizēti autorizētie autorizētiem autorizēto autorizētos autorizēts autorizētu autorizētā autorizētām autorizētās autorizēšanas jāautorizē neautorizējot neautorizēta neautorizētas neautorizēto neautorizēts neautorizētu neautorizētā
+84	6984	togad	
+85	6985	skriešus	
+86	6986	nelabums	nelabuma nelabumam nelabumi nelabumiem nelabumu nelabumus
+87	6987	tautisks	tautiska tautiskai tautiskais tautiskajam tautiskajos tautiskajā tautiskajām tautiskajās tautiskam tautiskas tautiski tautiskie tautiskiem tautisko tautiskos tautisku tautiskus tautiskā tautiskāk tautiskākas tautiskāku tautiskām tautiskās
+88	6988	retorika	retorikai retorikas retoriku retorikā retorikām
+89	6989	dispečers	dispečera dispečeram dispečeri dispečeriem dispečeru dispečerus
+90	6990	uzkurināt	jāuzkurina neuzkurina neuzkurinot neuzkurinātu uzkurina uzkurini uzkuriniet uzkurinot uzkurinošo uzkurinošos uzkurinošus uzkurināja uzkurinājis uzkurināju uzkurinājusi uzkurinājuši uzkurinājām uzkurinās uzkurināta uzkurinātajā uzkurinātajām uzkurinātas uzkurinātos uzkurināts uzkurinātu uzkurinātā uzkurinātās uzkurināšana
+91	6991	paklupt	jāpaklūp nepaklups nepaklupsiet nepaklupt nepakluptu nepaklūpiet paklupa paklupi paklupis paklups paklupsim pakluptu paklupu paklupusi paklupuši paklupšu paklūp paklūpam paklūpot paklūpu
+92	6992	imitācija	imitācijai imitācijas imitāciju imitācijā imitācijām imitācijās
+93	6993	putēt	neputēs put putēja putēju putēs putētu putēšana putēšanu
+94	6994	artrīts	artrīta artrītu artrītā
+95	6995	izkārtot	izkārto izkārtoja izkārtojams izkārtoji izkārtojiet izkārtojis izkārtojot izkārtoju izkārtojām izkārtos izkārtosiet izkārtosim izkārtots izkārtotu izkārtošana jāizkārto neizkārtošot
+96	6996	gigantisks	gigantiska gigantiskai gigantiskais gigantiskajai gigantiskajam gigantiskajiem gigantiskajās gigantiskas gigantiskie gigantiskiem gigantisko gigantiskos gigantisku gigantiskus gigantiskā gigantiskākas gigantiskām gigantiskās
+97	6997	pikēt	jāpikē pikē pikējam pikējis pikējām pikēšana
+98	6998	ķelts	ķelti ķeltiem ķeltu
+99	6999	ilknis	ilkni ilkņa ilkņi ilkņiem ilkņu ilkņus
+100	7000	vokālists	vokālista vokālistam vokāliste vokālistei vokālistes vokālisti vokālistiem vokālistos vokālistu vokālistus vokālistēm

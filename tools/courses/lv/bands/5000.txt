@@ -1,100 +1,100 @@
-1	4901	bilst	bilda bildi bildis bildu bildīs bildīšu bilstam bilstams bilstot bilsts bilstu jābilst nebilst
-2	4902	svira	svirai sviras sviru svirām
-3	4903	ķepa	ķepai ķepas ķepu ķepā ķepām ķepās
-4	4904	klepus	klepi klepiem klepu klepum
-5	4905	ieskriet	ieskrien ieskrienam ieskrienat ieskrienot ieskrienu ieskries ieskriesi ieskriesim ieskrietu ieskriešana ieskriešu ieskrēja ieskrēji ieskrējis ieskrēju ieskrējām ieskrējāt jāieskrien neieskrien neieskries neieskriet neieskrietu
-6	4906	uzdoties	jāuzdodas neuzdevās neuzdodas neuzdošos uzdevies uzdevos uzdevusies uzdevušies uzdevušās uzdevās uzdodami uzdodamies uzdodamās uzdodas uzdodaties uzdodies uzdodoties uzdosies uzdotos uzdošanos uzdošanās uzdošos
-7	4907	sarūpēt	jāsarūpē nesarūpē nesarūpēja sarūpē sarūpēja sarūpējam sarūpējat sarūpēji sarūpējiet sarūpējis sarūpējot sarūpēju sarūpējām sarūpēs sarūpēsi sarūpēsim sarūpēts sarūpētu sarūpēšana sarūpēšot sarūpēšu
-8	4908	īsums	īsuma īsumu īsumā
-9	4909	runātājs	runātāja runātājam runātāji runātājiem runātājos runātāju runātājus
-10	4910	aplams	aplama aplamai aplamais aplamajiem aplamajā aplamajām aplamas aplami aplamie aplamiem aplamo aplamos aplamu aplamus aplamā aplamāk aplamāka aplamākais aplamāku aplamām aplamās
-11	4911	radikāls	radikāla radikālai radikālais radikālajai radikālajam radikālajiem radikālajā radikālajām radikālam radikālas radikālie radikāliem radikālo radikālos radikālu radikālus radikālā radikālāk radikālāka radikālākai radikālākais radikālākajiem radikālākajām radikālākas radikālāki radikālākie radikālākiem radikālāko radikālākos radikālāks radikālāku radikālākus radikālākā radikālākām radikālākās radikālām radikālās visradikālākais visradikālākās
-12	4912	izlīst	izlien izlienam izlieniet izlienot izlienu izlīda izlīdi izlīdis izlīdu izlīdām izlīdīs izlīdīsim izlīdīšot izlīdīšu izlīstu izlīšana jāizlien neizlien neizlīda neizlīdīsi neizlīst neizlīstu
-13	4913	bāls	bāla bālai bālais bālajiem bālajā bālajās bālas bāli bālie bālo bālos bālu bālā bālāka bālākajam bālākas bālāki bālāks bālāku bālākus bālākā bālās
-14	4914	akvārijs	akvārija akvārijam akvāriji akvārijiem akvārijos akvāriju akvārijus akvārijā
-15	4915	iederēties	iederējies iederējusies iederējušās iederējās iederēsies iederētos iederēšos neiederējos neiederējušies neiederējās neiederēsies neiederēties neiederētos neiederēšos
-16	4916	mistisks	mistiska mistiskai mistiskais mistiskajai mistiskajam mistiskajiem mistiskajos mistiskajā mistiskajām mistiskajās mistiskam mistiskas mistiski mistiskie mistiskiem mistisko mistiskos mistisku mistiskus mistiskā mistiskāk mistiskāka mistiskākais mistiskākajām mistiskāki mistiskāku mistiskākā mistiskākām mistiskākās mistiskām mistiskās
-17	4917	trijnieks	trijnieka trijniekam trijnieki trijniekiem trijniekos trijnieku trijniekus trijniekā
-18	4918	kapela	kapelai kapelas kapelu kapelā kapelām
-19	4919	iztraucēt	iztraucē iztraucēja iztraucējam iztraucēji iztraucējis iztraucēju iztraucējusi iztraucējuši iztraucējām iztraucējāt iztraucēs iztraucēsi iztraucēta iztraucētas iztraucēti iztraucēts iztraucētu iztraucētā iztraucēšu neiztraucē neiztraucēju neiztraucējām neiztraucējāt neiztraucēs neiztraucētu
-20	4920	plosts	plosta plostam plosti plostiem plostos plostu plostus plostā
-21	4921	avanss	avansa avansam avansi avansiem avansos avansu avansus avansā
-22	4922	optimāls	optimāla optimālai optimālais optimālajai optimālajam optimālajiem optimālajā optimālam optimālas optimāli optimālie optimāliem optimālo optimālos optimālu optimālus optimālā optimālāk optimālāka optimālākais optimālākajiem optimālākajā optimālākajām optimālākie optimālāko optimālākos optimālāku optimālākā optimālākās optimālām optimālās visoptimālāk visoptimālākais visoptimālāko visoptimālākos
-23	4923	cilvēkēdājs	cilvēkēdāja cilvēkēdājam cilvēkēdāji cilvēkēdājiem cilvēkēdāju
-24	4924	pianists	pianist pianista pianistam pianisti pianistiem pianistos pianistu pianistus pianistā
-25	4925	izdabūt	izdabū izdabūja izdabūjama izdabūjami izdabūjat izdabūji izdabūjis izdabūju izdabūjāt izdabūs izdabūsi izdabūsiet izdabūsim izdabūta izdabūts izdabūtu izdabūšana izdabūšu jāizdabū neizdabūs neizdabūsim neizdabūšu
-26	4926	caurspīdīgs	caurspīdīga caurspīdīgai caurspīdīgais caurspīdīgajam caurspīdīgajiem caurspīdīgajos caurspīdīgajām caurspīdīgam caurspīdīgas caurspīdīgie caurspīdīgiem caurspīdīgo caurspīdīgos caurspīdīgu caurspīdīgus caurspīdīgā caurspīdīgāk caurspīdīgāka caurspīdīgākai caurspīdīgākajiem caurspīdīgākam caurspīdīgāki caurspīdīgākiem caurspīdīgāks caurspīdīgāku caurspīdīgākus caurspīdīgākām caurspīdīgām caurspīdīgās viscaurspīdīgākā
-27	4927	soļot	jāsoļo soļo soļodams soļoja soļojam soļojiet soļojot soļoju soļojām soļos soļosim soļots soļotu soļošana
-28	4928	mūzikls	mūzikl mūzikla mūziklam mūzikli mūzikliem mūziklos mūziklu mūziklus mūziklā
-29	4929	saplēst	jāsaplēš nesaplēs nesaplēsiet nesaplēst nesaplēstu nesaplēsu nesaplēš nesaplēšot saplēs saplēsa saplēsi saplēsis saplēsts saplēstu saplēsu saplēsām saplēsāt saplēsīs saplēsīsi saplēsīsiet saplēsīsim saplēsīšu saplēš saplēšam saplēšams saplēšana saplēšot saplēšu
-30	4930	artilērija	artilērijas artilēriju artilērijā
-31	4931	airis	aira airi airiem airim airos airu airus airī aiu aius
-32	4932	videospēle	videospēles videospēli videospēlē videospēlēm videospēlēs videospēļu
-33	4933	tītars	tītara tītaram tītari tītariem tītaru tītarus
-34	4934	novērotājs	novērotāja novērotājam novērotāji novērotājiem novērotājos novērotāju novērotājus
-35	4935	guns	guni gunis gunīm
-36	4936	ķiploks	ķiploka ķiplokam ķiploki ķiplokiem ķiplokos ķiploku ķiplokus ķiplokā
-37	4937	dotācija	dotācijai dotācijas dotāciju dotācijā dotācijām dotācijās
-38	4938	izlauzties	izlauzdamies izlauzies izlauzos izlauztos izlauzās izlauzīsies izlauzīsimies izlaušanās izlaužamies izlaužas izlaužoties jāizlaužas neizlauzas neizlauzīsies neizlaužas
-39	4939	tapete	tapetei tapetes tapeti tapetēm tapetēs tapešu
-40	4940	pārpalikums	pārpalikuma pārpalikumam pārpalikumi pārpalikumiem pārpalikumos pārpalikumu pārpalikumus
-41	4941	iekraut	iekrauj iekraujam iekraujams iekraujiet iekraujot iekrauju iekraus iekrausim iekrauts iekrautu iekraušana iekraušanai iekraušanas iekraušanu iekraušanā iekraušu iekrāva iekrāvi iekrāvis iekrāvu iekrāvām jāiekrauj
-42	4942	vannasistaba	vannasistabai vannasistabas vannasistabu vannasistabā vannasistabām vannasistabās
-43	4943	soms	som somam somi somiem somiete somietes somieti somietēm somos somu somus somā
-44	4944	avarēt	avarē avarēja avarējam avarēji avarējis avarējot avarēju avarējusi avarējušas avarējuši avarējušo avarējām avarējāt avarēs avarēsim avarētu avarēšanas neavarē neavarēja neavarēs neavarētu
-45	4945	svīst	jāsvīst nesvīst svīda svīdis svīdu svīdīs svīdīsi svīstam svīstat svīsti svīstot svīstu svīšana
-46	4946	atradums	atraduma atradumam atradumi atradumiem atradumos atradumu atradumus
-47	4947	rācija	rācijai rācijas rāciju rācijā rācijām rācijās
-48	4948	porcelāns	porcelāna porcelānam porcelānu porcelānā
-49	4949	šasija	šasijai šasijas šasiju šasijā šasijām
-50	4950	iemantot	iemanto iemantodams iemantoja iemantojam iemantojams iemantoji iemantojiet iemantojis iemantojot iemantoju iemantojām iemantos iemantosi iemantosiet iemantots iemantotu iemantošana iemantošu jāiemanto neiemantoja neiemantos neiemantosi neiemantosiet
-51	4951	kanjons	kanjona kanjonam kanjoni kanjoniem kanjonos kanjonu kanjonus kanjonā
-52	4952	pieaicināt	jāpieaicina nepieaicini nepieaicinot nepieaicināja nepieaicināt pieaicina pieaicini pieaiciniet pieaicinot pieaicinu pieaicināja pieaicināji pieaicinājis pieaicināju pieaicinājusi pieaicinājušas pieaicinājuši pieaicinājām pieaicināmo pieaicinās pieaicināsim pieaicināta pieaicinātais pieaicinātajam pieaicinātajiem pieaicinātajām pieaicinātas pieaicināti pieaicinātie pieaicinātiem pieaicināto pieaicinātos pieaicināts pieaicinātu pieaicinātā pieaicinātām pieaicinātās pieaicināšana pieaicināšu
-53	4953	šoruden	
-54	4954	more	moram morei mores mori moriem moris moru morē
-55	4955	algotnis	algotni algotniem algotnim algotņa algotņi algotņiem algotņu algotņus
-56	4956	nenormāli	
-57	4957	tehniķis	tehniķa tehniķe tehniķei tehniķi tehniķiem tehniķim tehniķu tehniķus tehniķī
-58	4958	spļaut	jāspļauj nespļauj nespļaujiet nespļausi nespļausim nespļaut spļauj spļaujam spļaujat spļaujot spļaujoša spļaujošs spļaujošu spļaujošā spļauju spļaus spļausi spļautu spļaušana spļaušanas spļaušanu spļaušu spļāva spļāvis spļāvusi spļāvāt
-59	4959	plazma	plazmai plazmas plazmu plazmā
-60	4960	spīdums	spīdum spīduma spīdumam spīdumi spīdumiem spīdumu spīdumus spīdumā
-61	4961	autogrāfs	autogrāfa autogrāfi autogrāfiem autogrāfu autogrāfus
-62	4962	aiztaupīt	aiztaupa aiztaupi aiztaupiet aiztaupot aiztaupu aiztaupām aiztaupīja aiztaupījis aiztaupījusi aiztaupījuši aiztaupīs aiztaupīsi aiztaupīsiet aiztaupīta aiztaupītas aiztaupīts aiztaupītu aiztaupīšu neaiztaupi
-63	4963	bibliotekārs	bibliotekāra bibliotekāram bibliotekāre bibliotekāri bibliotekāriem bibliotekāros bibliotekāru bibliotekārus bibliotekārā
-64	4964	sagraut	
-65	4965	laipnība	laipnības laipnību laipnībā laipnībām
-66	4966	mikstūra	mikstūras mikstūru mikstūrā mikstūrām
-67	4967	mobilitāte	mobilitātei mobilitātes mobilitāti mobilitātē mobilitātēm mobilitātēs mobilitāšu
-68	4968	partizāns	partizāna partizānam partizāni partizāniem partizānos partizānu partizānus
-69	4969	sāncensis	sāncensi sāncensim sāncenša sāncenši sāncenšiem sāncenšu sāncenšus
-70	4970	vilšanās	
-71	4971	sikspārnis	sikspārni sikspārnim sikspārnī sikspārņa sikspārņi sikspārņiem sikspārņu sikspārņus
-72	4972	aprīt	aprij aprija aprijam aprijat apriji aprijis aprijot apriju aprīs aprīsi aprīts aprītu aprīšana aprīšu jāaprij neaprij
-73	4973	ielidot	ielido ielidoja ielidojam ielidojiet ielidojis ielidojot ielidojošajiem ielidojošajos ielidojošie ielidojošiem ielidojošo ielidojošos ielidojošās ielidoju ielidojusi ielidojušas ielidojuši ielidojušie ielidojušiem ielidojušo ielidojušu ielidojušā ielidojām ielidojāt ielidos ielidosiet ielidosim ielidošana neielido neielidoja neielidotu
-74	4974	pastkarte	pastkartes pastkarti pastkartē pastkartēm pastkartēs pastkaršu
-75	4975	tīšs	tīša tīšai tīšam tīšas tīšiem tīšo tīšos tīšu tīšus tīšā tīšām tīšās
-76	4976	izrakt	izracis izraka izraki izraks izraksi izraksim izrakts izraktu izraku izrakām izrakšana izrakšu izroc izrociet izrok izrokam izrokat izrokot izroku jāizrok neizraka neizraksi neizraktu neizrok
-77	4977	apdegums	apdeguma apdegumam apdegumi apdegumiem apdegumos apdegumu apdegumus
-78	4978	mīties	jāminas mijas mijies mijoties mijās minamies minas minies minos minoties mināmies minās mīsies mīsimies mīšanās neminas neminos neminās nemīties
-79	4979	izbrauciens	izbrauciena izbraucienam izbraucieni izbraucieniem izbraucienos izbraucienu izbraucienus izbraucienā
-80	4980	avene	avenes aveni avenēm avenēs aveņu
-81	4981	abonents	abonent abonenta abonentam abonenti abonentiem abonentos abonentu abonentus
-82	4982	dezinfekcija	dezinfekcijai dezinfekcijas dezinfekciju dezinfekcijā
-83	4983	ieķerties	ieķeras ieķeries ieķeros ieķeroties ieķersies ieķertos ieķeršanās ieķēries ieķēros ieķērās jāieķeras neieķeras neieķeries neieķerieties neieķeros neieķersies neieķērās
-84	4984	gudrinieks	gudriniece gudriniecei gudrinieces gudrinieci gudriniek gudrinieka gudriniekam gudrinieki gudriniekiem gudrinieku gudriniekus
-85	4985	demokrāts	demokrāta demokrātam demokrāte demokrātei demokrātes demokrāti demokrātiem demokrātos demokrātu demokrātus
-86	4986	apkarot	apkaro apkaroja apkarojam apkaroji apkarojot apkaroju apkaros apkarosim apkarotu apkarošana jāapkaro neapkaro neapkaroja neapkaroju neapkaros neapkarot neapkarotu
-87	4987	otrpus	
-88	4988	kaķēns	kaķēn kaķēna kaķēnam kaķēni kaķēniem kaķēnu kaķēnus
-89	4989	kalcijs	kalcija kalcijam kalciju
-90	4990	aiztaisīt	aiztaisa aiztaisi aiztaisiet aiztaisot aiztaisu aiztaisām aiztaisāms aiztaisīja aiztaisīji aiztaisījis aiztaisīju aiztaisījām aiztaisīs aiztaisīsi aiztaisīts aiztaisītu aiztaisīšana aiztaisīšu jāaiztaisa neaiztaisa neaiztaisīja neaiztaisīju neaiztaisītu
-91	4991	pumpurs	pumpura pumpuram pumpuri pumpuriem pumpuros pumpuru pumpurus pumpurā
-92	4992	stobrs	stobra stobram stobri stobriem stobros stobru stobrus stobrā
-93	4993	pavilkt	jāpavelk nepavelk nepavilka nepavilks nepavilksim nepavilkt nepavilktu nepavilkšu pavelc pavelciet pavelk pavelkam pavelkams pavelkat pavelkot pavelkošs pavelku pavilcis pavilka pavilks pavilksi pavilksim pavilksit pavilkts pavilktu pavilku pavilkām pavilkāt pavilkšana pavilkšot pavilkšu
-94	4994	straujums	straujuma straujumam straujumu straujumā
-95	4995	īve	īva īvam īves īvi īvju īvu īvē īvēm īvēs
-96	4996	atvadīt	atvadi atvadu atvadām atvadījis
-97	4997	jogurts	jogurta jogurtam jogurti jogurtiem jogurtos jogurtu jogurtus jogurtā
-98	4998	nomale	nomalei nomales nomali nomalē nomalēm nomalēs nomaļu
-99	4999	kopprodukts	kopprodukta kopproduktam kopproduktiem kopproduktu kopproduktā
-100	5000	mutācija	mutācijas mutāciju mutācijām
+1	4901	šņabis	šņabi šņabim šņabja šņabji šņabjiem šņabī
+2	4902	sloka	slokai slokam slokas sloku slokā slokām
+3	4903	farmaceits	farmaceita farmaceitam farmaceiti farmaceitiem farmaceitos farmaceitu farmaceitus
+4	4904	šāviņš	šāviņa šāviņam šāviņi šāviņiem šāviņos šāviņu šāviņus
+5	4905	spriegums	sprieguma spriegumam spriegumi spriegumiem spriegumu spriegumā
+6	4906	pārsūdzēt	nepārsūdzēja nepārsūdzēs nepārsūdzētu nepārsūdzēšanu pārsūdzēja pārsūdzējis pārsūdzēju pārsūdzējusi pārsūdzējušas pārsūdzējuši pārsūdzējām pārsūdzēs pārsūdzēsim pārsūdzēta pārsūdzētais pārsūdzētas pārsūdzēti pārsūdzēto pārsūdzēts pārsūdzētu pārsūdzētā pārsūdzēšana pārsūdzēšanas pārsūdzēšanu pārsūdzēšu
+7	4907	pretstats	pretstata pretstatam pretstati pretstatiem pretstatu pretstatus pretstatā
+8	4908	cietsirdīgs	cietsirdīga cietsirdīgais cietsirdīgajiem cietsirdīgajā cietsirdīgam cietsirdīgas cietsirdīgi cietsirdīgie cietsirdīgiem cietsirdīgo cietsirdīgos cietsirdīgu cietsirdīgus cietsirdīgā cietsirdīgāki cietsirdīgāko cietsirdīgām cietsirdīgās
+9	4909	padejot	jāpadejo nepadejoju nepadejosi padejo padejojam padejojot padejoju padejojām padejos padejosi padejosiet padejosim padejots padejotu padejošu
+10	4910	grāmatnīca	grāmatnīcai grāmatnīcas grāmatnīcu grāmatnīcā grāmatnīcām grāmatnīcās
+11	4911	prombūtne	prombūtnei prombūtnes prombūtni prombūtnē prombūtņu
+12	4912	kurls	kurla kurlais kurlajam kurlam kurlas kurli kurlie kurliem kurlo kurlos kurlu kurlus kurlā kurlāka kurlām viskurlākie
+13	4913	dzemde	dzemdei dzemdes dzemdi dzemdē dzemdēm dzemdēs
+14	4914	pilskalns	pilskaln pilskalna pilskalnam pilskalni pilskalniem pilskalnos pilskalnu pilskalnus pilskalnā
+15	4915	tēvzeme	tēvzemei tēvzemes tēvzemi tēvzemē
+16	4916	meklējumi	
+17	4917	gurns	gurna gurnam gurni gurniem gurnos gurnu gurnus gurnā
+18	4918	pagrīde	pagrīdes pagrīdē
+19	4919	līdzko	
+20	4920	bilst	bilda bildi bildis bildu bildīs bildīšu bilstam bilstams bilstot bilsts bilstu jābilst nebilst
+21	4921	svira	svirai sviras sviru svirām
+22	4922	ķepa	ķepai ķepas ķepu ķepā ķepām ķepās
+23	4923	klepus	klepi klepiem klepu klepum
+24	4924	ieskriet	ieskrien ieskrienam ieskrienat ieskrienot ieskrienu ieskries ieskriesi ieskriesim ieskrietu ieskriešana ieskriešu ieskrēja ieskrēji ieskrējis ieskrēju ieskrējām ieskrējāt jāieskrien neieskrien neieskries neieskriet neieskrietu
+25	4925	uzdoties	jāuzdodas neuzdevās neuzdodas neuzdošos uzdevies uzdevos uzdevusies uzdevušies uzdevušās uzdevās uzdodami uzdodamies uzdodamās uzdodas uzdodaties uzdodies uzdodoties uzdosies uzdotos uzdošanos uzdošanās uzdošos
+26	4926	sarūpēt	jāsarūpē nesarūpē nesarūpēja sarūpē sarūpēja sarūpējam sarūpējat sarūpēji sarūpējiet sarūpējis sarūpējot sarūpēju sarūpējām sarūpēs sarūpēsi sarūpēsim sarūpēts sarūpētu sarūpēšana sarūpēšot sarūpēšu
+27	4927	īsums	īsuma īsumu īsumā
+28	4928	runātājs	runātāja runātājam runātāji runātājiem runātājos runātāju runātājus
+29	4929	izlīst	izlien izlienam izlieniet izlienot izlienu izlīda izlīdi izlīdis izlīdu izlīdām izlīdīs izlīdīsim izlīdīšot izlīdīšu izlīstu izlīšana jāizlien neizlien neizlīda neizlīdīsi neizlīst neizlīstu
+30	4930	aplams	aplama aplamai aplamais aplamajiem aplamajā aplamajām aplamas aplami aplamie aplamiem aplamo aplamos aplamu aplamus aplamā aplamāk aplamāka aplamākais aplamāku aplamām aplamās
+31	4931	radikāls	radikāla radikālai radikālais radikālajai radikālajam radikālajiem radikālajā radikālajām radikālam radikālas radikālie radikāliem radikālo radikālos radikālu radikālus radikālā radikālāk radikālāka radikālākai radikālākais radikālākajiem radikālākajām radikālākas radikālāki radikālākie radikālākiem radikālāko radikālākos radikālāks radikālāku radikālākus radikālākā radikālākām radikālākās radikālām radikālās visradikālākais visradikālākās
+32	4932	bāls	bāla bālai bālais bālajiem bālajā bālajās bālas bāli bālie bālo bālos bālu bālā bālāka bālākajam bālākas bālāki bālāks bālāku bālākus bālākā bālās
+33	4933	akvārijs	akvārija akvārijam akvāriji akvārijiem akvārijos akvāriju akvārijus akvārijā
+34	4934	iederēties	iederējies iederējusies iederējušās iederējās iederēsies iederētos iederēšos neiederējos neiederējušies neiederējās neiederēsies neiederēties neiederētos neiederēšos
+35	4935	mistisks	mistiska mistiskai mistiskais mistiskajai mistiskajam mistiskajiem mistiskajos mistiskajā mistiskajām mistiskajās mistiskam mistiskas mistiski mistiskie mistiskiem mistisko mistiskos mistisku mistiskus mistiskā mistiskāk mistiskāka mistiskākais mistiskākajām mistiskāki mistiskāku mistiskākā mistiskākām mistiskākās mistiskām mistiskās
+36	4936	trijnieks	trijnieka trijniekam trijnieki trijniekiem trijniekos trijnieku trijniekus trijniekā
+37	4937	kapela	kapelai kapelas kapelu kapelā kapelām
+38	4938	iztraucēt	iztraucē iztraucēja iztraucējam iztraucēji iztraucējis iztraucēju iztraucējusi iztraucējuši iztraucējām iztraucējāt iztraucēs iztraucēsi iztraucēta iztraucētas iztraucēti iztraucēts iztraucētu iztraucētā iztraucēšu neiztraucē neiztraucēju neiztraucējām neiztraucējāt neiztraucēs neiztraucētu
+39	4939	plosts	plosta plostam plosti plostiem plostos plostu plostus plostā
+40	4940	avanss	avansa avansam avansi avansiem avansos avansu avansus avansā
+41	4941	optimāls	optimāla optimālai optimālais optimālajai optimālajam optimālajiem optimālajā optimālam optimālas optimāli optimālie optimāliem optimālo optimālos optimālu optimālus optimālā optimālāk optimālāka optimālākais optimālākajiem optimālākajā optimālākajām optimālākie optimālāko optimālākos optimālāku optimālākā optimālākās optimālām optimālās visoptimālāk visoptimālākais visoptimālāko visoptimālākos
+42	4942	cilvēkēdājs	cilvēkēdāja cilvēkēdājam cilvēkēdāji cilvēkēdājiem cilvēkēdāju
+43	4943	pianists	pianist pianista pianistam pianisti pianistiem pianistos pianistu pianistus pianistā
+44	4944	izdabūt	izdabū izdabūja izdabūjama izdabūjami izdabūjat izdabūji izdabūjis izdabūju izdabūjāt izdabūs izdabūsi izdabūsiet izdabūsim izdabūta izdabūts izdabūtu izdabūšana izdabūšu jāizdabū neizdabūs neizdabūsim neizdabūšu
+45	4945	caurspīdīgs	caurspīdīga caurspīdīgai caurspīdīgais caurspīdīgajam caurspīdīgajiem caurspīdīgajos caurspīdīgajām caurspīdīgam caurspīdīgas caurspīdīgie caurspīdīgiem caurspīdīgo caurspīdīgos caurspīdīgu caurspīdīgus caurspīdīgā caurspīdīgāk caurspīdīgāka caurspīdīgākai caurspīdīgākajiem caurspīdīgākam caurspīdīgāki caurspīdīgākiem caurspīdīgāks caurspīdīgāku caurspīdīgākus caurspīdīgākām caurspīdīgām caurspīdīgās viscaurspīdīgākā
+46	4946	soļot	jāsoļo soļo soļodams soļoja soļojam soļojiet soļojot soļoju soļojām soļos soļosim soļots soļotu soļošana
+47	4947	mūzikls	mūzikl mūzikla mūziklam mūzikli mūzikliem mūziklos mūziklu mūziklus mūziklā
+48	4948	saplēst	jāsaplēš nesaplēs nesaplēsiet nesaplēst nesaplēstu nesaplēsu nesaplēš nesaplēšot saplēs saplēsa saplēsi saplēsis saplēsts saplēstu saplēsu saplēsām saplēsāt saplēsīs saplēsīsi saplēsīsiet saplēsīsim saplēsīšu saplēš saplēšam saplēšams saplēšana saplēšot saplēšu
+49	4949	artilērija	artilērijas artilēriju artilērijā
+50	4950	airis	aira airi airiem airim airos airu airus airī aiu aius
+51	4951	videospēle	videospēles videospēli videospēlē videospēlēm videospēlēs videospēļu
+52	4952	tītars	tītara tītaram tītari tītariem tītaru tītarus
+53	4953	novērotājs	novērotāja novērotājam novērotāji novērotājiem novērotājos novērotāju novērotājus
+54	4954	guns	guni gunis gunīm
+55	4955	ķiploks	ķiploka ķiplokam ķiploki ķiplokiem ķiplokos ķiploku ķiplokus ķiplokā
+56	4956	izlauzties	izlauzdamies izlauzies izlauzos izlauztos izlauzās izlauzīsies izlauzīsimies izlaušanās izlaužamies izlaužas izlaužoties jāizlaužas neizlauzas neizlauzīsies neizlaužas
+57	4957	dotācija	dotācijai dotācijas dotāciju dotācijā dotācijām dotācijās
+58	4958	tapete	tapetei tapetes tapeti tapetēm tapetēs tapešu
+59	4959	pārpalikums	pārpalikuma pārpalikumam pārpalikumi pārpalikumiem pārpalikumos pārpalikumu pārpalikumus
+60	4960	iekraut	iekrauj iekraujam iekraujams iekraujiet iekraujot iekrauju iekraus iekrausim iekrauts iekrautu iekraušana iekraušanai iekraušanas iekraušanu iekraušanā iekraušu iekrāva iekrāvi iekrāvis iekrāvu iekrāvām jāiekrauj
+61	4961	vannasistaba	vannasistabai vannasistabas vannasistabu vannasistabā vannasistabām vannasistabās
+62	4962	soms	som somam somi somiem somiete somietes somieti somietēm somos somu somus somā
+63	4963	avarēt	avarē avarēja avarējam avarēji avarējis avarējot avarēju avarējusi avarējušas avarējuši avarējušo avarējām avarējāt avarēs avarēsim avarētu avarēšanas neavarē neavarēja neavarēs neavarētu
+64	4964	svīst	jāsvīst nesvīst svīda svīdis svīdu svīdīs svīdīsi svīstam svīstat svīsti svīstot svīstu svīšana
+65	4965	atradums	atraduma atradumam atradumi atradumiem atradumos atradumu atradumus
+66	4966	rācija	rācijai rācijas rāciju rācijā rācijām rācijās
+67	4967	porcelāns	porcelāna porcelānam porcelānu porcelānā
+68	4968	šasija	šasijai šasijas šasiju šasijā šasijām
+69	4969	iemantot	iemanto iemantodams iemantoja iemantojam iemantojams iemantoji iemantojiet iemantojis iemantojot iemantoju iemantojām iemantos iemantosi iemantosiet iemantots iemantotu iemantošana iemantošu jāiemanto neiemantoja neiemantos neiemantosi neiemantosiet
+70	4970	sasaistīt	jāsasaista nesasaista nesasaistot nesasaistāt nesasaistīja nesasaistīju nesasaistīs sasaista sasaisti sasaistiet sasaistot sasaistu sasaistām sasaistāt sasaistīja sasaistījis sasaistīju sasaistīs sasaistīsim sasaistīts sasaistītu sasaistīšana
+71	4971	kanjons	kanjona kanjonam kanjoni kanjoniem kanjonos kanjonu kanjonus kanjonā
+72	4972	pieaicināt	jāpieaicina nepieaicini nepieaicinot nepieaicināja nepieaicināt pieaicina pieaicini pieaiciniet pieaicinot pieaicinu pieaicināja pieaicināji pieaicinājis pieaicināju pieaicinājusi pieaicinājušas pieaicinājuši pieaicinājām pieaicināmo pieaicinās pieaicināsim pieaicināta pieaicinātais pieaicinātajam pieaicinātajiem pieaicinātajām pieaicinātas pieaicināti pieaicinātie pieaicinātiem pieaicināto pieaicinātos pieaicināts pieaicinātu pieaicinātā pieaicinātām pieaicinātās pieaicināšana pieaicināšu
+73	4973	šoruden	
+74	4974	more	moram morei mores mori moriem moris moru morē
+75	4975	algotnis	algotni algotniem algotnim algotņa algotņi algotņiem algotņu algotņus
+76	4976	nenormāli	
+77	4977	tehniķis	tehniķa tehniķe tehniķei tehniķi tehniķiem tehniķim tehniķu tehniķus tehniķī
+78	4978	spļaut	jāspļauj nespļauj nespļaujiet nespļausi nespļausim nespļaut spļauj spļaujam spļaujat spļaujot spļaujoša spļaujošs spļaujošu spļaujošā spļauju spļaus spļausi spļautu spļaušana spļaušanas spļaušanu spļaušu spļāva spļāvis spļāvusi spļāvāt
+79	4979	plazma	plazmai plazmas plazmu plazmā
+80	4980	spīdums	spīdum spīduma spīdumam spīdumi spīdumiem spīdumu spīdumus spīdumā
+81	4981	autogrāfs	autogrāfa autogrāfi autogrāfiem autogrāfu autogrāfus
+82	4982	aiztaupīt	aiztaupa aiztaupi aiztaupiet aiztaupot aiztaupu aiztaupām aiztaupīja aiztaupījis aiztaupījusi aiztaupījuši aiztaupīs aiztaupīsi aiztaupīsiet aiztaupīta aiztaupītas aiztaupīts aiztaupītu aiztaupīšu neaiztaupi
+83	4983	bibliotekārs	bibliotekāra bibliotekāram bibliotekāre bibliotekāri bibliotekāriem bibliotekāros bibliotekāru bibliotekārus bibliotekārā
+84	4984	sagraut	
+85	4985	laipnība	laipnības laipnību laipnībā laipnībām
+86	4986	mikstūra	mikstūras mikstūru mikstūrā mikstūrām
+87	4987	mobilitāte	mobilitātei mobilitātes mobilitāti mobilitātē mobilitātēm mobilitātēs mobilitāšu
+88	4988	partizāns	partizāna partizānam partizāni partizāniem partizānos partizānu partizānus
+89	4989	sāncensis	sāncensi sāncensim sāncenša sāncenši sāncenšiem sāncenšu sāncenšus
+90	4990	vilšanās	
+91	4991	sikspārnis	sikspārni sikspārnim sikspārnī sikspārņa sikspārņi sikspārņiem sikspārņu sikspārņus
+92	4992	aprīt	aprij aprija aprijam aprijat apriji aprijis aprijot apriju aprīs aprīsi aprīts aprītu aprīšana aprīšu jāaprij neaprij
+93	4993	ielidot	ielido ielidoja ielidojam ielidojiet ielidojis ielidojot ielidojošajiem ielidojošajos ielidojošie ielidojošiem ielidojošo ielidojošos ielidojošās ielidoju ielidojusi ielidojušas ielidojuši ielidojušie ielidojušiem ielidojušo ielidojušu ielidojušā ielidojām ielidojāt ielidos ielidosiet ielidosim ielidošana neielido neielidoja neielidotu
+94	4994	pastkarte	pastkartes pastkarti pastkartē pastkartēm pastkartēs pastkaršu
+95	4995	tīšs	tīša tīšai tīšam tīšas tīšiem tīšo tīšos tīšu tīšus tīšā tīšām tīšās
+96	4996	izrakt	izracis izraka izraki izraks izraksi izraksim izrakts izraktu izraku izrakām izrakšana izrakšu izroc izrociet izrok izrokam izrokat izrokot izroku jāizrok neizraka neizraksi neizraktu neizrok
+97	4997	apdegums	apdeguma apdegumam apdegumi apdegumiem apdegumos apdegumu apdegumus
+98	4998	mīties	jāminas mijas mijies mijoties mijās minamies minas minies minos minoties mināmies minās mīsies mīsimies mīšanās neminas neminos neminās nemīties
+99	4999	izbrauciens	izbrauciena izbraucienam izbraucieni izbraucieniem izbraucienos izbraucienu izbraucienus izbraucienā
+100	5000	avene	avenes aveni avenēm avenēs aveņu

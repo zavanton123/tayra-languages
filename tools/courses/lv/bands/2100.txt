@@ -1,100 +1,100 @@
-1	2001	trešā	
-2	2002	pārvietoties	nepārvietojas nepārvietojies nepārvietojos nepārvietojoties nepārvietojās nepārvietosies nepārvietoties pārvietodamies pārvietojamies pārvietojas pārvietojaties pārvietojies pārvietojieties pārvietojos pārvietojoties pārvietojusies pārvietojušies pārvietojušās pārvietojāmies pārvietojās pārvietosies pārvietosieties pārvietosimies pārvietotos pārvietošanās
-3	2003	pēcpusdiena	pēcpusdienai pēcpusdienas pēcpusdienu pēcpusdienā pēcpusdienām pēcpusdienās
-4	2004	spārns	spārna spārnam spārni spārniem spārnos spārnu spārnus spārnā
-5	2005	jebkas	jebko
-6	2006	oficiāli	
-7	2007	tūrists	tūrista tūristam tūriste tūristei tūristes tūristi tūristiem tūristos tūristu tūristus tūristā tūristēm
-8	2008	miesa	miesai miesas miesu miesā miesām miesās
-9	2009	svērt	is sver sveru svēram svērts svērtu svēru ām āt
-10	2010	allaž	
-11	2011	jausma	jausmas jausmu jausmās
-12	2012	likvidēt	jālikvidē likvidē likvidēja likvidējam likvidējams likvidējat likvidējiet likvidējis likvidējot likvidēju likvidējusi likvidējušas likvidējuši likvidējām likvidējāt likvidēs likvidēsiet likvidēsim likvidēta likvidētais likvidētas likvidēti likvidētie likvidēto likvidēts likvidētu likvidētā likvidēšana likvidēšanas likvidēšanu likvidēšanā nelikvidē nelikvidēja nelikvidējiet nelikvidējot nelikvidēs nelikvidēsim nelikvidēti nelikvidētu
-13	2013	pazīme	pazīmei pazīmes pazīmi pazīmju pazīmē pazīmēm pazīmēs
-14	2014	noziedznieks	noziedzniece noziedznieka noziedzniekam noziedznieki noziedzniekiem noziedzniekos noziedznieku noziedzniekus
-15	2015	sudrabs	sidraba sidrabu sudrab sudraba sudrabam sudrabi sudrabiem sudrabos sudrabu sudrabā
-16	2016	mēness	mēnes
-17	2017	muiža	muižai muižas muižu muižā muižām muižās
-18	2018	raksturot	jāraksturo neraksturo neraksturoja raksturo raksturoja raksturojam raksturojama raksturojami raksturojams raksturojat raksturojiet raksturojis raksturojot raksturojoša raksturojošais raksturojošajam raksturojošajiem raksturojošas raksturojoši raksturojošie raksturojošiem raksturojošo raksturojošos raksturojošs raksturojošu raksturojošus raksturojošā raksturojošām raksturojošās raksturoju raksturojusi raksturojuši raksturos raksturota raksturotais raksturotas raksturoti raksturots raksturotu
-19	2019	reakcija	reakcijai reakcijas reakciju reakcijā reakcijām reakcijās
-20	2020	noliegt	jānoliedz nenoliedz nenoliedza nenoliedzama nenoliedzams nenoliedzat nenoliedzi nenoliedzot nenoliedzu nenoliegs nenoliegtu nenoliegšu noliedz noliedza noliedzam noliedzams noliedzat noliedzi noliedziet noliedzis noliedzot noliedzoša noliedzoši noliedzu noliedzām noliegs noliegsi noliegsiet noliegsim noliegsit noliegta noliegtas noliegts noliegtu noliegtām noliegusi nolieguši noliegšana noliegšu
-21	2021	paveikties	jāpaveicas nepaveicas nepaveicies nepaveicās nepaveiksies nepaveikties nepaveiktos paveicas paveicies paveicos paveicās paveiksies paveiktos
-22	2022	disks	disk diska diskam diski diskiem diskos disku diskus diskā
-23	2023	atpazīt	atpazina atpazini atpazinis atpazinu atpazinām atpazināt atpazīs atpazīsi atpazīsiet atpazīsim atpazīst atpazīstam atpazīstams atpazīstat atpazīsti atpazīstot atpazīstošs atpazīstu atpazīts atpazītu atpazīšana atpazīšot atpazīšu jāatpazīst neatpazina neatpazinis neatpazinu neatpazīs neatpazīsiet neatpazīst neatpazīstam neatpazīstams neatpazīsti neatpazīstot neatpazīstu neatpazīt neatpazīts neatpazītu neatpazīšu
-24	2024	vientuļš	vientuļa vientuļai vientuļais vientuļajai vientuļajam vientuļajiem vientuļajā vientuļajām vientuļam vientuļas vientuļi vientuļie vientuļiem vientuļo vientuļos vientuļs vientuļu vientuļus vientuļā vientuļāk vientuļāka vientuļākais vientuļākajiem vientuļākajos vientuļāki vientuļākiem vientuļākos vientuļāks vientuļām vientuļās visvientuļākais visvientuļākajām visvientuļākā visvientuļākās
-25	2025	pagatavot	jāpagatavo nepagatavo nepagatavoji nepagatavot pagatavo pagatavoja pagatavojama pagatavojamas pagatavojami pagatavojamiem pagatavojamo pagatavojams pagatavojamu pagatavojamās pagatavoji pagatavojiet pagatavojis pagatavojot pagatavoju pagatavojusi pagatavojuši pagatavojām pagatavos pagatavosi pagatavosim pagatavota pagatavotai pagatavotais pagatavotas pagatavoti pagatavoto pagatavotos pagatavots pagatavotu pagatavotus pagatavotā pagatavotās pagatavošana pagatavošu
-26	2026	draudzīgs	draudzīga draudzīgai draudzīgais draudzīgajai draudzīgajam draudzīgajiem draudzīgajā draudzīgajām draudzīgam draudzīgas draudzīgie draudzīgiem draudzīgo draudzīgos draudzīgu draudzīgus draudzīgā draudzīgāk draudzīgāka draudzīgākai draudzīgākais draudzīgākajiem draudzīgākajām draudzīgākas draudzīgāki draudzīgākie draudzīgākiem draudzīgāko draudzīgākos draudzīgāks draudzīgāku draudzīgākus draudzīgākā draudzīgākām draudzīgākās draudzīgām draudzīgās visdraudzīgākais visdraudzīgākā
-27	2027	atklāti	
-28	2028	arhīvs	arhīva arhīvam arhīvi arhīviem arhīvos arhīvu arhīvus arhīvā
-29	2029	plūsma	plūsmai plūsmas plūsmu plūsmā plūsmām plūsmās
-30	2030	šonedēļ	
-31	2031	balstīties	balstieties balstoties balstās balstāties balstīdamies balstījies balstījos balstījusies balstījušies balstījušās balstījāmies balstījās balstīsies balstīsimies balstīsities balstītos balstīšanās balstīšos nebalstieties nebalstoties nebalstījās nebalstīties nebalstītos
-32	2032	tase	taa taam tasei tases tasi tasē tasēm tasēs taā tašu
-33	2033	liecinieks	liecinieka lieciniekam liecinieki lieciniekiem liecinieku lieciniekus
-34	2034	zādzība	zādzībai zādzībam zādzības zādzību zādzībā zādzībām zādzībās
-35	2035	personāls	personāla personālam personāli personālos personālu personālā
-36	2036	indijs	indij indija indijai indijas indiju indijā
-37	2037	noturēt	jānotur nenotur nenoturam nenoturot nenoturēja nenoturēju nenoturējām nenoturējāt nenoturēs nenoturēsi nenoturēsim nenoturēt nenoturētos notur noturam noturams noturi noturiet noturot noturu noturēja noturēji noturējis noturēju noturējusi noturējušas noturējuši noturējām noturēs noturēsim noturēta noturētais noturētas noturēti noturētos noturēts noturētu noturēšana noturēšu
-38	2038	daļēji	
-39	2039	dalīt	dala dali daliet dalot dalu dalît dalām dalīja dalīji dalīju dalījušās dalījām dalīs dalīsiet dalīsim dalīta dalītais dalītas dalīti dalīto dalītos dalīts dalītu dalītā dalītām dalītās dalīšana dalīšanai dalīšanas dalīšanos dalīšanu dalīšanā jādala nedala nedalot nedalāms nedalīsim nedalīt nedalītu
-40	2040	eksāmens	eksāmena eksāmenam eksāmeni eksāmeniem eksāmenos eksāmenu eksāmenus eksāmenā
-41	2041	riepa	riepai riepas riepu riepā riepām riepās
-42	2042	vidus	vidam vidi vidiem vidu vidum vidā
-43	2043	bībele	bībelei bībeles bībeli bībelē bībelēm bībelēs bībeļu
-44	2044	personisks	personiska personiskai personiskais personiskajai personiskajam personiskajiem personiskajos personiskajā personiskajām personiskajās personiskam personiskas personiski personiskie personiskiem personisko personiskos personisku personiskus personiskā personiskāk personiskāka personiskākais personiskākajiem personiskākas personiskāki personiskāks personiskāku personiskākus personiskākā personiskākās personiskām personiskās vispersoniskākais vispersoniskākajos vispersoniskākās
-45	2045	trauks	trauka traukam trauki traukiem traukos trauku traukus traukā
-46	2046	kalendārs	kalendār kalendāra kalendāram kalendāri kalendāriem kalendāros kalendāru kalendārus kalendārā
-47	2047	transportlīdzeklis	transportlīdzekli transportlīdzekliem transportlīdzeklim transportlīdzeklī transportlīdzekļa transportlīdzekļi transportlīdzekļiem transportlīdzekļos transportlīdzekļu transportlīdzekļus
-48	2048	tēvocis	tēvoci tēvocim tēvocī tēvoča tēvoči tēvočiem tēvočus
-49	2049	duša	dušai dušam dušas dušu dušā dušām dušās
-50	2050	uzvalks	uzvalk uzvalka uzvalkam uzvalki uzvalkiem uzvalkos uzvalku uzvalkus uzvalkā
-51	2051	šaubīties	jāšaubās nešaubies nešaubieties nešaubos nešauboties nešaubāmies nešaubās nešaubāties nešaubīdamies nešaubījies nešaubījos nešaubījāmies nešaubījās nešaubījāties nešaubīsies nešaubīties nešaubītos nešaubīšos šaubies šaubieties šaubos šauboties šaubāmies šaubāties šaubīdamies šaubījas šaubījies šaubījos šaubījusies šaubījušies šaubījušās šaubījāmies šaubījās šaubīsies šaubīsimies šaubītos šaubīšanās
-52	2052	pāreja	pārejai pārejas pāreju pārejā pārejām pārejās
-53	2053	caurums	cauruma caurumam caurumi caurumiem caurumos caurumu caurumus caurumā
-54	2054	riskēt	jāriskē neriskē neriskēja neriskējam neriskējat neriskēji neriskējiet neriskējot neriskēju neriskējām neriskēs neriskēsim neriskētu neriskēšu riskē riskēdams riskēja riskējam riskējat riskēji riskējiet riskējis riskējot riskēju riskējusi riskējuši riskējām riskējāt riskēs riskēsi riskēsiet riskēsim riskēts riskētu riskēšana riskēšanas riskēšanu riskēšu
-55	2055	jebkad	
-56	2056	piepildīt	jāpiepilda nepiepildīs nepiepildītas nepiepildīto nepiepildītos nepiepildīts piepilda piepildi piepildiet piepildot piepildu piepildām piepildāms piepildīja piepildīji piepildījis piepildīju piepildījusi piepildījuši piepildīs piepildīsiet piepildīsim piepildīta piepildītam piepildītas piepildīti piepildītie piepildītos piepildīts piepildītu piepildītā piepildītām piepildītās piepildīšana piepildīšanai piepildīšanas piepildīšanu piepildīšanā piepildīšu
-57	2057	ķert	jāķer neķert ķer ķeram ķerams ķerat ķerdams ķeriet ķerot ķers ķersi ķersim ķerts ķertu ķeru ķeršana ķeršu ķēra ķēri ķēris ķēru ķērām ķērāt
-58	2058	komentēt	jākomentē komentē komentēja komentējam komentējams komentējat komentējiet komentējis komentējot komentējošs komentēju komentējusi komentējušas komentējuši komentēs komentēsi komentēsiet komentēsim komentēta komentētas komentēti komentētie komentēto komentēts komentētu komentētā komentēšana komentēšanas komentēšanu komentēšanā komentēšu nekomentē nekomentēja nekomentējam nekomentēji nekomentējiet nekomentējot nekomentēs nekomentēšu
-59	2059	neiespējams	neiespējama neiespējamai neiespējamais neiespējamajai neiespējamajam neiespējamajiem neiespējamajām neiespējamam neiespējamas neiespējami neiespējamie neiespējamiem neiespējamo neiespējamos neiespējamu neiespējamus neiespējamā neiespējamāk neiespējamāku neiespējamām neiespējamās visneiespējamākās
-60	2060	robots	robo robos robot robota robotais robotam robotas roboti robotiem robotos robotu robotus robotā robotām
-61	2061	studēt	jāstudē nestudē nestudēsi studē studēja studējam studējat studējiet studējis studējot studējošai studējošais studējošajam studējošajiem studējošam studējoši studējošie studējošiem studējošo studējošos studējošā studējošās studēju studējusi studējušas studējuši studējušie studējām studējāt studēs studēsim studēta studētas studētu studēšana studēšanai studēšanas studēšanu studēšu
-62	2062	trauma	traumai traumas traumu traumā traumām traumās
-63	2063	pateicība	pateicībai pateicības pateicību pateicībā pateicībām pateicībās
-64	2064	pasteigties	jāpasteidzas nepasteigsies nepasteigsimies pasteidzamies pasteidzas pasteidzaties pasteidzies pasteidzieties pasteidzos pasteidzoties pasteidzāmies pasteidzās pasteidzāties pasteigsies pasteigsieties pasteigsimies pasteigsities pasteigtos pasteigšos
-65	2065	smaids	smaid smaida smaidam smaidi smaidiem smaidos smaidu smaidus smaidā
-66	2066	ritenis	ritena riteni riteniem ritenim ritenu ritenī riteņa riteņi riteņiem riteņos riteņu riteņus
-67	2067	šoferis	šofera šofere šoferi šoferiem šoferim šoferos šoferu šoferus
-68	2068	sitiens	sitiena sitienam sitieni sitieniem sitienos sitienu sitienus sitienā
-69	2069	eksistēt	eksistē eksistēja eksistējam eksistējat eksistējis eksistējot eksistējoša eksistējošajiem eksistējošajām eksistējošas eksistējošiem eksistējošo eksistējošs eksistējošu eksistējošā eksistējošām eksistējošās eksistēju eksistējusi eksistējušas eksistējuši eksistējušā eksistēs eksistētu eksistēšana eksistēšanai eksistēšanas eksistēšanu jāeksistē neeksistē neeksistēja neeksistējam neeksistējat neeksistējošais neeksistējošs neeksistēju neeksistēs neeksistēt neeksistētu
-70	2070	bērnudārzs	bērnudārza bērnudārzam bērnudārzi bērnudārziem bērnudārzos bērnudārzu bērnudārzus bērnudārzā
-71	2071	labdarība	labdarībai labdarības labdarību labdarībā
-72	2072	federācija	federācijai federācijas federāciju federācijā federācijām federācijās
-73	2073	turpināties	jāsargās jāturpinās neturpinājās neturpināsies neturpināšoties turpinas turpinoties turpinājas turpinājies turpinājusies turpinājušies turpinājās turpināsies turpināšanās turpināšos turpināšoties
-74	2074	sajūsma	sajūsmai sajūsmas sajūsmu sajūsmā
-75	2075	iecerēt	iecer ieceri iecerot ieceru iecerēja iecerēji iecerējis iecerēju iecerējusi iecerējušas iecerējuši iecerējām iecerēs iecerēta iecerētais iecerētajai iecerētajam iecerētajiem iecerētajos iecerētajā iecerētajām iecerētajās iecerētam iecerētas iecerēti iecerētie iecerētiem iecerēto iecerētos iecerēts iecerētu iecerētus iecerētā iecerētām iecerētās jāiecer neiecerēju
-76	2076	izmērīt	izmēra izmēri izmēriet izmērot izmēru izmērām izmērāms izmērīja izmērījis izmērīju izmērījām izmērīs izmērīsi izmērīsim izmērīts izmērītu izmērīšana jāizmēra neizmērāms neizmērīsi neizmērīt neizmērītu
-77	2077	savādāk	
-78	2078	dzintars	dzintar dzintara dzintaram dzintari dzintariem dzintaros dzintaru dzintarus dzintarā zītars
-79	2079	aiztikt	aizticis aiztiec aiztieciet aiztiek aiztiekat aiztiekot aiztieku aiztika aiztiki aiztiks aiztiksi aiztiksiet aiztikts aiztiktu aiztiku aiztikšana jāaiztiek neaiztiec neaiztieciet neaiztiek neaiztiekam neaiztiekat neaiztiekot neaiztieku neaiztika neaiztiks neaiztiksi neaiztiksiet neaiztiksim neaiztikt neaiztikts neaiztiktu neaiztiku neaiztikšu
-80	2080	brits	brit brita britam briti britiem britieti britos britu britus
-81	2081	izbēgt	izbēdzis izbēg izbēga izbēgam izbēgams izbēgi izbēgs izbēgsiet izbēgsit izbēgtu izbēgu izbēgām izbēgāt izbēgšana izbēgšu neizbēgama neizbēgamai neizbēgamais neizbēgamajai neizbēgamajam neizbēgamajā neizbēgamajām neizbēgamam neizbēgamas neizbēgami neizbēgamie neizbēgamo neizbēgamos neizbēgams neizbēgamu neizbēgamus neizbēgamā neizbēgamām neizbēgamās neizbēgs neizbēgsi neizbēgsim neizbēgt neizbēgu
-82	2082	labklājība	labklājībai labklājības labklājību labklājībā
-83	2083	stress	stresa stresam stresi stresiem stresos stresu stresus stresā
-84	2084	kartupelis	kartupeli kartupeliem kartupelim kartupelu kartupelus kartupelī kartupeļa kartupeļi kartupeļiem kartupeļos kartupeļu kartupeļus
-85	2085	atsacīties	atsacīdamies atsacījies atsacījusies atsacījušies atsacījās atsacīsies atsacīsieties atsacīsimies atsacītos atsacīšanās atsacīšos atsakas atsakies atsakieties atsakos atsakoties atsakāmies atsakās atsakāties jāatsakās neatsacīsies neatsacīsimies neatsacīšos neatsakies neatsakieties neatsakos neatsakoties neatsakāmies neatsakās neatsakāties
-86	2086	apstākļi	
-87	2087	uzturēties	jāuzturas neuzturamies neuzturas neuzturaties neuzturies neuzturieties neuzturos neuzturoties neuzturējos neuzturējās neuzturēsies neuzturēties neuzturētos neuzturēšos uzturamies uzturas uzturaties uzturies uzturieties uzturos uzturoties uzturēdamies uzturējies uzturējos uzturējusies uzturējušies uzturējušās uzturējāmies uzturējās uzturēsies uzturēsieties uzturēsimies uzturēsities uzturētos uzturēšanās uzturēšoties
-88	2088	jauda	jaudai jaudas jaudu jaudā jaudām jaudās
-89	2089	vēlēt	jāvēl jāvēlē nevēlēt vēlam vēlamo vēlams vēlat vēli vēliet vēlot vēlošs vēlē vēlēja vēlējam vēlējat vēlējis vēlēju vēlējām vēlējāt vēlēs vēlēsi vēlēsiet vēlēsim vēlēts vēlētu vēlēšana vēlēšu
-90	2090	stars	star stara staram staras stari stariem staros staru starus starā starām
-91	2091	ievēlēt	ievēl ievēlam ievēlams ievēliet ievēlot ievēlē ievēlēja ievēlējis ievēlējusi ievēlējuši ievēlējām ievēlējāt ievēlēs ievēlēsiet ievēlēsim ievēlēta ievēlētais ievēlētas ievēlēti ievēlētie ievēlēto ievēlēts ievēlētu ievēlētā ievēlēšana ievēlēšanas ievēlēšanu ievēlēšanā jāievēl jāievēlē neievēl neievēlam neievēlēja neievēlēs neievēlēt neievēlētie neievēlētu neievēlēšanas neievēlēšanu
-92	2092	kļūdīties	jākļūdās kļūdies kļūdos kļūdoties kļūdāmies kļūdās kļūdāties kļūdīdamies kļūdījies kļūdījos kļūdījāmies kļūdījās kļūdījāties kļūdīsies kļūdīsieties kļūdīsimies kļūdītos kļūdīšanās kļūdīšos nekļūdīties
-93	2093	cigarete	cigaretei cigaretes cigareti cigaretē cigaretēm cigaretēs cigarešu
-94	2094	rītā	rîtâ
-95	2095	ala	alai alas aliem alu alā alām alās
-96	2096	rietumi	rietuma rietumiem rietumos rietums rietumus
-97	2097	bīstami	
-98	2098	zobens	zoben zobena zobenam zobeni zobeniem zobenos zobenu zobenus zobenā
-99	2099	dusmas	dusmu dusmām dusmās
-100	2100	griezt	griez grieza griezdams griezi grieziet griezis griezta grieztais grieztas griezti griezto grieztos griezts grieztu grieztām grieztās griezu griezuši griezīs griezīsiet griezīsim griešana griešanai griešanas griešanos griešanu griešanā griež griežam griežamais griežat griežot griežu jāgriež negriez negrieza negriezt negriezīsim negriež
+1	2001	pants	pant panta pantam panti pantiem pantos pantu pantus pantā
+2	2002	šonakt	
+3	2003	garantēt	garantē garantēja garantējam garantējams garantējat garantējis garantējot garantēju garantējusi garantējušas garantējuši garantēs garantēsiet garantēsim garantēsit garantēta garantētais garantētas garantēti garantētie garantēto garantēts garantētu garantētā garantēšana garantēšanas garantēšanu garantēšanā garantēšu jāgarantē negarantē negarantēja negarantējam negarantējot negarantēju negarantēs negarantētu negarantētā
+4	2004	smarža	smaržai smaržas smaržu smaržā smaržām smaržās
+5	2005	trešā	
+6	2006	pēcpusdiena	pēcpusdienai pēcpusdienas pēcpusdienu pēcpusdienā pēcpusdienām pēcpusdienās
+7	2007	spārns	spārna spārnam spārni spārniem spārnos spārnu spārnus spārnā
+8	2008	jebkas	jebko
+9	2009	oficiāli	
+10	2010	tūrists	tūrista tūristam tūriste tūristei tūristes tūristi tūristiem tūristos tūristu tūristus tūristā tūristēm
+11	2011	miesa	miesai miesas miesu miesā miesām miesās
+12	2012	svērt	is sver sveru svēram svērts svērtu svēru ām āt
+13	2013	allaž	
+14	2014	jausma	jausmas jausmu jausmās
+15	2015	likvidēt	jālikvidē likvidē likvidēja likvidējam likvidējams likvidējat likvidējiet likvidējis likvidējot likvidēju likvidējusi likvidējušas likvidējuši likvidējām likvidējāt likvidēs likvidēsiet likvidēsim likvidēta likvidētais likvidētas likvidēti likvidētie likvidēto likvidēts likvidētu likvidētā likvidēšana likvidēšanas likvidēšanu likvidēšanā nelikvidē nelikvidēja nelikvidējiet nelikvidējot nelikvidēs nelikvidēsim nelikvidēti nelikvidētu
+16	2016	pazīme	pazīmei pazīmes pazīmi pazīmju pazīmē pazīmēm pazīmēs
+17	2017	pārvietoties	nepārvietojies nepārvietojos nepārvietojoties nepārvietojās nepārvietosies nepārvietoties pārvietodamies pārvietojamies pārvietojas pārvietojaties pārvietojies pārvietojieties pārvietojos pārvietojoties pārvietojusies pārvietojušies pārvietojušās pārvietojāmies pārvietojās pārvietosies pārvietosieties pārvietosimies pārvietotos pārvietošanās
+18	2018	noziedznieks	noziedzniece noziedznieka noziedzniekam noziedznieki noziedzniekiem noziedzniekos noziedznieku noziedzniekus
+19	2019	sudrabs	sidraba sidrabu sudrab sudraba sudrabam sudrabi sudrabiem sudrabos sudrabu sudrabā
+20	2020	mēness	mēnes
+21	2021	muiža	muižai muižas muižu muižā muižām muižās
+22	2022	izpētīt	izpēta izpēti izpētiet izpētot izpētu izpētām izpētāt izpētīja izpētīji izpētījis izpētīju izpētījām izpētījāt izpētīs izpētīsiet izpētīsim izpētīta izpētītas izpētīti izpētīts izpētītu izpētītā izpētīšana izpētīšu jāizpēta jāizpētī neizpēta neizpētot neizpētīju neizpētījāt neizpētīt neizpētīta neizpētītas neizpētīti neizpētītiem neizpētīts neizpētītu neizpētītā neizpētītām
+23	2023	raksturot	jāraksturo neraksturo neraksturoja raksturo raksturoja raksturojam raksturojama raksturojami raksturojams raksturojat raksturojiet raksturojis raksturojot raksturojoša raksturojošais raksturojošajam raksturojošajiem raksturojošas raksturojoši raksturojošie raksturojošiem raksturojošo raksturojošos raksturojošs raksturojošu raksturojošus raksturojošā raksturojošām raksturojošās raksturoju raksturojusi raksturojuši raksturos raksturota raksturotais raksturotas raksturoti raksturots raksturotu
+24	2024	reakcija	reakcijai reakcijas reakciju reakcijā reakcijām reakcijās
+25	2025	noliegt	jānoliedz nenoliedz nenoliedza nenoliedzama nenoliedzams nenoliedzat nenoliedzi nenoliedzot nenoliedzu nenoliegs nenoliegtu nenoliegšu noliedz noliedza noliedzam noliedzams noliedzat noliedzi noliedziet noliedzis noliedzot noliedzoša noliedzoši noliedzu noliedzām noliegs noliegsi noliegsiet noliegsim noliegsit noliegta noliegtas noliegts noliegtu noliegtām noliegusi nolieguši noliegšana noliegšu
+26	2026	paveikties	jāpaveicas nepaveicas nepaveicies nepaveicās nepaveiksies nepaveikties nepaveiktos paveicas paveicies paveicos paveicās paveiksies paveiktos
+27	2027	disks	disk diska diskam diski diskiem diskos disku diskus diskā
+28	2028	atpazīt	atpazina atpazini atpazinis atpazinu atpazinām atpazināt atpazīs atpazīsi atpazīsiet atpazīsim atpazīst atpazīstam atpazīstams atpazīstat atpazīsti atpazīstot atpazīstošs atpazīstu atpazīts atpazītu atpazīšana atpazīšot atpazīšu jāatpazīst neatpazina neatpazinis neatpazinu neatpazīs neatpazīsiet neatpazīst neatpazīstam neatpazīstams neatpazīsti neatpazīstot neatpazīstu neatpazīt neatpazīts neatpazītu neatpazīšu
+29	2029	vientuļš	vientuļa vientuļai vientuļais vientuļajai vientuļajam vientuļajiem vientuļajā vientuļajām vientuļam vientuļas vientuļi vientuļie vientuļiem vientuļo vientuļos vientuļs vientuļu vientuļus vientuļā vientuļāk vientuļāka vientuļākais vientuļākajiem vientuļākajos vientuļāki vientuļākiem vientuļākos vientuļāks vientuļām vientuļās visvientuļākais visvientuļākajām visvientuļākā visvientuļākās
+30	2030	pagatavot	jāpagatavo nepagatavo nepagatavoji nepagatavot pagatavo pagatavoja pagatavojama pagatavojamas pagatavojami pagatavojamiem pagatavojamo pagatavojams pagatavojamu pagatavojamās pagatavoji pagatavojiet pagatavojis pagatavojot pagatavoju pagatavojusi pagatavojuši pagatavojām pagatavos pagatavosi pagatavosim pagatavota pagatavotai pagatavotais pagatavotas pagatavoti pagatavoto pagatavotos pagatavots pagatavotu pagatavotus pagatavotā pagatavotās pagatavošana pagatavošu
+31	2031	draudzīgs	draudzīga draudzīgai draudzīgais draudzīgajai draudzīgajam draudzīgajiem draudzīgajā draudzīgajām draudzīgam draudzīgas draudzīgie draudzīgiem draudzīgo draudzīgos draudzīgu draudzīgus draudzīgā draudzīgāk draudzīgāka draudzīgākai draudzīgākais draudzīgākajiem draudzīgākajām draudzīgākas draudzīgāki draudzīgākie draudzīgākiem draudzīgāko draudzīgākos draudzīgāks draudzīgāku draudzīgākus draudzīgākā draudzīgākām draudzīgākās draudzīgām draudzīgās visdraudzīgākais visdraudzīgākā
+32	2032	atklāti	
+33	2033	arhīvs	arhīva arhīvam arhīvi arhīviem arhīvos arhīvu arhīvus arhīvā
+34	2034	plūsma	plūsmai plūsmas plūsmu plūsmā plūsmām plūsmās
+35	2035	noturēt	jānotur nenotur nenoturam nenoturot nenoturēja nenoturēju nenoturējām nenoturējāt nenoturēs nenoturēsi nenoturēsim nenoturēt nenoturētos notur noturam noturams noturi noturiet noturot noturu noturēja noturēji noturējis noturēju noturējusi noturējušas noturējuši noturējām noturēs noturēsim noturēta noturētais noturētas noturēti noturētos noturēts noturētu noturēšana noturēšu
+36	2036	šonedēļ	
+37	2037	balstīties	balstieties balstoties balstās balstāties balstīdamies balstījies balstījos balstījusies balstījušies balstījušās balstījāmies balstījās balstīsies balstīsimies balstīsities balstītos balstīšanās balstīšos nebalstieties nebalstoties nebalstījās nebalstīties nebalstītos
+38	2038	tase	taa taam tasei tases tasi tasē tasēm tasēs taā tašu
+39	2039	liecinieks	liecinieka lieciniekam liecinieki lieciniekiem liecinieku lieciniekus
+40	2040	zādzība	zādzībai zādzībam zādzības zādzību zādzībā zādzībām zādzībās
+41	2041	personāls	personāla personālam personāli personālos personālu personālā
+42	2042	indijs	indij indija indijai indijas indiju indijā
+43	2043	daļēji	
+44	2044	dalīt	dala dali daliet dalot dalu dalît dalām dalīja dalīji dalīju dalījušās dalījām dalīs dalīsiet dalīsim dalīta dalītais dalītas dalīti dalīto dalītos dalīts dalītu dalītā dalītām dalītās dalīšana dalīšanai dalīšanas dalīšanos dalīšanu dalīšanā jādala nedala nedalot nedalāms nedalīsim nedalīt nedalītu
+45	2045	eksāmens	eksāmena eksāmenam eksāmeni eksāmeniem eksāmenos eksāmenu eksāmenus eksāmenā
+46	2046	riepa	riepai riepas riepu riepā riepām riepās
+47	2047	vidus	vidam vidi vidiem vidu vidum vidā
+48	2048	bībele	bībelei bībeles bībeli bībelē bībelēm bībelēs bībeļu
+49	2049	personisks	personiska personiskai personiskais personiskajai personiskajam personiskajiem personiskajos personiskajā personiskajām personiskajās personiskam personiskas personiski personiskie personiskiem personisko personiskos personisku personiskus personiskā personiskāk personiskāka personiskākais personiskākajiem personiskākas personiskāki personiskāks personiskāku personiskākus personiskākā personiskākās personiskām personiskās vispersoniskākais vispersoniskākajos vispersoniskākās
+50	2050	trauks	trauka traukam trauki traukiem traukos trauku traukus traukā
+51	2051	kalendārs	kalendār kalendāra kalendāram kalendāri kalendāriem kalendāros kalendāru kalendārus kalendārā
+52	2052	transportlīdzeklis	transportlīdzekli transportlīdzekliem transportlīdzeklim transportlīdzeklī transportlīdzekļa transportlīdzekļi transportlīdzekļiem transportlīdzekļos transportlīdzekļu transportlīdzekļus
+53	2053	tēvocis	tēvoci tēvocim tēvocī tēvoča tēvoči tēvočiem tēvočus
+54	2054	duša	dušai dušam dušas dušu dušā dušām dušās
+55	2055	uzvalks	uzvalk uzvalka uzvalkam uzvalki uzvalkiem uzvalkos uzvalku uzvalkus uzvalkā
+56	2056	šaubīties	jāšaubās nešaubies nešaubieties nešaubos nešauboties nešaubāmies nešaubās nešaubāties nešaubīdamies nešaubījies nešaubījos nešaubījāmies nešaubījās nešaubījāties nešaubīsies nešaubīties nešaubītos nešaubīšos šaubies šaubieties šaubos šauboties šaubāmies šaubāties šaubīdamies šaubījies šaubījos šaubījusies šaubījušies šaubījušās šaubījāmies šaubījās šaubīsies šaubīsimies šaubītos šaubīšanās
+57	2057	izteikties	izsakies izsakieties izsakos izsakoties izsakāmies izsakās izsakāties izteicas izteicies izteicos izteicās izteicāties izteikdamies izteiksies izteiksieties izteiksimies izteikusies izteikušies izteikšanās izteikšos jāizsakoties jāizsakās neizsakies neizsakos neizsakāmās neizsakās neizteicies neizteicos neizteicāmies neizteicās neizteiksies neizteikties neizteikusies neizteikšos neizteikšoties
+58	2058	pāreja	pārejai pārejas pāreju pārejā pārejām pārejās
+59	2059	caurums	cauruma caurumam caurumi caurumiem caurumos caurumu caurumus caurumā
+60	2060	riskēt	jāriskē neriskē neriskēja neriskējam neriskējat neriskēji neriskējiet neriskējot neriskēju neriskējām neriskēs neriskēsim neriskētu neriskēšu riskē riskēdams riskēja riskējam riskējat riskēji riskējiet riskējis riskējot riskēju riskējusi riskējuši riskējām riskējāt riskēs riskēsi riskēsiet riskēsim riskēts riskētu riskēšana riskēšanas riskēšanu riskēšu
+61	2061	jebkad	
+62	2062	piepildīt	jāpiepilda nepiepildīs nepiepildītas nepiepildīto nepiepildītos nepiepildīts piepilda piepildi piepildiet piepildot piepildu piepildām piepildāms piepildīja piepildīji piepildījis piepildīju piepildījusi piepildījuši piepildīs piepildīsiet piepildīsim piepildīta piepildītam piepildītas piepildīti piepildītie piepildītos piepildīts piepildītu piepildītā piepildītām piepildītās piepildīšana piepildīšanai piepildīšanas piepildīšanu piepildīšanā piepildīšu
+63	2063	ķert	jāķer neķert ķer ķeram ķerams ķerat ķerdams ķeriet ķerot ķers ķersi ķersim ķerts ķertu ķeru ķeršana ķeršu ķēra ķēri ķēris ķēru ķērām ķērāt
+64	2064	komentēt	jākomentē komentē komentēja komentējam komentējams komentējat komentējiet komentējis komentējot komentējošs komentēju komentējusi komentējušas komentējuši komentēs komentēsi komentēsiet komentēsim komentēta komentētas komentēti komentētie komentēto komentēts komentētu komentētā komentēšana komentēšanas komentēšanu komentēšanā komentēšu nekomentē nekomentēja nekomentējam nekomentēji nekomentējiet nekomentējot nekomentēs nekomentēšu
+65	2065	neiespējams	neiespējama neiespējamai neiespējamais neiespējamajai neiespējamajam neiespējamajiem neiespējamajām neiespējamam neiespējamas neiespējami neiespējamie neiespējamiem neiespējamo neiespējamos neiespējamu neiespējamus neiespējamā neiespējamāk neiespējamāku neiespējamām neiespējamās visneiespējamākās
+66	2066	robots	robo robos robot robota robotais robotam robotas roboti robotiem robotos robotu robotus robotā robotām
+67	2067	studēt	jāstudē nestudē nestudēsi studē studēja studējam studējat studējiet studējis studējot studējošai studējošais studējošajam studējošajiem studējošam studējoši studējošie studējošiem studējošo studējošos studējošā studējošās studēju studējusi studējušas studējuši studējušie studējām studējāt studēs studēsim studēta studētas studētu studēšana studēšanai studēšanas studēšanu studēšu
+68	2068	trauma	traumai traumas traumu traumā traumām traumās
+69	2069	pateicība	pateicībai pateicības pateicību pateicībā pateicībām pateicībās
+70	2070	pasteigties	jāpasteidzas nepasteigsies nepasteigsimies pasteidzamies pasteidzas pasteidzaties pasteidzies pasteidzieties pasteidzos pasteidzoties pasteidzāmies pasteidzās pasteidzāties pasteigsies pasteigsieties pasteigsimies pasteigsities pasteigtos pasteigšos
+71	2071	smaids	smaid smaida smaidam smaidi smaidiem smaidos smaidu smaidus smaidā
+72	2072	ritenis	ritena riteni riteniem ritenim ritenu ritenī riteņa riteņi riteņiem riteņos riteņu riteņus
+73	2073	šoferis	šofera šofere šoferi šoferiem šoferim šoferos šoferu šoferus
+74	2074	sitiens	sitiena sitienam sitieni sitieniem sitienos sitienu sitienus sitienā
+75	2075	eksistēt	eksistē eksistēja eksistējam eksistējat eksistējis eksistējot eksistējoša eksistējošajiem eksistējošajām eksistējošas eksistējošiem eksistējošo eksistējošs eksistējošu eksistējošā eksistējošām eksistējošās eksistēju eksistējusi eksistējušas eksistējuši eksistējušā eksistēs eksistētu eksistēšana eksistēšanai eksistēšanas eksistēšanu jāeksistē neeksistē neeksistēja neeksistējam neeksistējat neeksistējošais neeksistējošs neeksistēju neeksistēs neeksistēt neeksistētu
+76	2076	bērnudārzs	bērnudārza bērnudārzam bērnudārzi bērnudārziem bērnudārzos bērnudārzu bērnudārzus bērnudārzā
+77	2077	labdarība	labdarībai labdarības labdarību labdarībā
+78	2078	federācija	federācijai federācijas federāciju federācijā federācijām federācijās
+79	2079	sajūsma	sajūsmai sajūsmas sajūsmu sajūsmā
+80	2080	iecerēt	iecer ieceri iecerot ieceru iecerēja iecerēji iecerējis iecerēju iecerējusi iecerējušas iecerējuši iecerējām iecerēs iecerēta iecerētais iecerētajai iecerētajam iecerētajiem iecerētajos iecerētajā iecerētajām iecerētajās iecerētam iecerētas iecerēti iecerētie iecerētiem iecerēto iecerētos iecerēts iecerētu iecerētus iecerētā iecerētām iecerētās jāiecer neiecerēju
+81	2081	savādāk	
+82	2082	dzintars	dzintar dzintara dzintaram dzintari dzintariem dzintaros dzintaru dzintarus dzintarā zītars
+83	2083	turpināties	jāsargās jāturpinās neturpinājās neturpināsies neturpināšoties turpinoties turpinājies turpinājusies turpinājušies turpinājās turpināsies turpināšanās turpināšos turpināšoties
+84	2084	aiztikt	aizticis aiztiec aiztieciet aiztiek aiztiekat aiztiekot aiztieku aiztika aiztiki aiztiks aiztiksi aiztiksiet aiztikts aiztiktu aiztiku aiztikšana jāaiztiek neaiztiec neaiztieciet neaiztiek neaiztiekam neaiztiekat neaiztiekot neaiztieku neaiztika neaiztiks neaiztiksi neaiztiksiet neaiztiksim neaiztikt neaiztikts neaiztiktu neaiztiku neaiztikšu
+85	2085	brits	brit brita britam briti britiem britieti britos britu britus
+86	2086	izbēgt	izbēdzis izbēg izbēga izbēgam izbēgams izbēgi izbēgs izbēgsiet izbēgsit izbēgtu izbēgu izbēgām izbēgāt izbēgšana izbēgšu neizbēgama neizbēgamai neizbēgamais neizbēgamajai neizbēgamajam neizbēgamajā neizbēgamajām neizbēgamam neizbēgamas neizbēgami neizbēgamie neizbēgamo neizbēgamos neizbēgams neizbēgamu neizbēgamus neizbēgamā neizbēgamām neizbēgamās neizbēgs neizbēgsi neizbēgsim neizbēgt neizbēgu
+87	2087	labklājība	labklājībai labklājības labklājību labklājībā
+88	2088	stress	stresa stresam stresi stresiem stresos stresu stresus stresā
+89	2089	kartupelis	kartupeli kartupeliem kartupelim kartupelu kartupelus kartupelī kartupeļa kartupeļi kartupeļiem kartupeļos kartupeļu kartupeļus
+90	2090	apstākļi	
+91	2091	uzturēties	jāuzturas neuzturamies neuzturas neuzturaties neuzturies neuzturieties neuzturos neuzturoties neuzturējos neuzturējās neuzturēsies neuzturēties neuzturētos neuzturēšos uzturamies uzturas uzturaties uzturies uzturieties uzturos uzturoties uzturēdamies uzturējies uzturējos uzturējusies uzturējušies uzturējušās uzturējāmies uzturējās uzturēsies uzturēsieties uzturēsimies uzturēsities uzturētos uzturēšanās uzturēšoties
+92	2092	jauda	jaudai jaudas jaudu jaudā jaudām jaudās
+93	2093	vēlēt	jāvēl jāvēlē nevēlēt vēlam vēlamo vēlams vēlat vēli vēliet vēlot vēlošs vēlē vēlēja vēlējam vēlējat vēlējis vēlēju vēlējām vēlējāt vēlēs vēlēsi vēlēsiet vēlēsim vēlēts vēlētu vēlēšana vēlēšu
+94	2094	stars	star stara staram staras stari stariem staros staru starus starā starām
+95	2095	ievēlēt	ievēl ievēlam ievēlams ievēliet ievēlot ievēlē ievēlēja ievēlējis ievēlējusi ievēlējuši ievēlējām ievēlējāt ievēlēs ievēlēsiet ievēlēsim ievēlēta ievēlētais ievēlētas ievēlēti ievēlētie ievēlēto ievēlēts ievēlētu ievēlētā ievēlēšana ievēlēšanas ievēlēšanu ievēlēšanā jāievēl jāievēlē neievēl neievēlam neievēlēja neievēlēs neievēlēt neievēlētie neievēlētu neievēlēšanas neievēlēšanu
+96	2096	kļūdīties	jākļūdās kļūdies kļūdos kļūdoties kļūdāmies kļūdās kļūdāties kļūdīdamies kļūdījies kļūdījos kļūdījāmies kļūdījās kļūdījāties kļūdīsies kļūdīsieties kļūdīsimies kļūdītos kļūdīšanās kļūdīšos nekļūdīties
+97	2097	cigarete	cigaretei cigaretes cigareti cigaretē cigaretēm cigaretēs cigarešu
+98	2098	rītā	rîtâ
+99	2099	ala	alai alas aliem alu alā alām alās
+100	2100	rietumi	rietuma rietumiem rietumos rietums rietumus

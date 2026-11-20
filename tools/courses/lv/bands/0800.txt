@@ -1,5 +1,5 @@
 1	701	blakus	
-2	702	pasacīt	jāpasaka nepasacīja nepasacīju nepasacīs nepasaka nepasaki nepasakot nepasakošiem nepasakošs nepasaku nepasakām nepasakāt pasacīja pasacījis pasacīju pasacījāt pasacīs pasacīts pasacītu pasacītā pasacīšu pasaki pasakiet pasakot pasaku pasakām pasakāma pasakāms pasakāt
+2	702	pasacīt	jāpasaka nepasacīja nepasacīju nepasacīs pasacīja pasacījis pasacīju pasacījāt pasacīs pasacīts pasacītu pasacītā pasacīšu pasaki pasakiet pasakot pasaku pasakām pasakāms pasakāt
 3	703	pietiekami	
 4	704	pils	pili pilij pilis pilī pilīm pilīs pis piļu
 5	705	pilnība	pilnībai pilnības pilnību pilnībā
@@ -24,7 +24,7 @@
 24	724	asinis	asiniis asins asinīm asinīs asiņu
 25	725	lidot	jālido lido lidoja lidojam lidojamie lidojat lidoji lidojiet lidojis lidojot lidojošais lidojoši lidojošie lidojošo lidojošos lidojošs lidojošu lidojošā lidoju lidojusi lidojuši lidojām lidos lidosi lidosiet lidosim lidotu lidošana lidošanai lidošanas lidošanu lidošu nelido nelidojam nelidoju nelidos nelidosi nelidotu nelidošu
 26	726	sūds	sūd sūda sūdam sūdi sūdiem sūdos sūdu sūdus sūdā
-27	727	iziet	izej izejam izejat izejiet izejot izejošais izejošie izejošo izeju izgāja izgāji izgājis izgāju izgājusi izgājušas izgājuši izgājām izgājāt izies iziesi iziesiet iziesim izieta iziets izietu iziešana iziešu jāiziet neizej neizejot neizeju neizgāja neizgāji neizgāju neizies neiziesim neiziet neizietu neiziešu
+27	727	iziet	izej izejam izejat izejiet izejot izejošais izejošajiem izejošie izejošo izejošā izeju izgāja izgāji izgājis izgāju izgājām izgājāt izies iziesi iziesiet iziesim izieta izietas izieti iziets izietu iziešana iziešu jāiziet neizej neizeju neizgāja neizgāji neizgāju neizies neiziesim neiziet neizietu neiziešu
 28	728	padarīt	jāpadara nepadara nepadari nepadariet nepadarīs nepadarīsi nepadarīt nepadarīto nepadarītu padara padari padariet padarot padaru padarām padarīja padarīji padarījis padarīju padarījusi padarījušas padarījuši padarījām padarīs padarīsi padarīsim padarīta padarītais padarītajiem padarīti padarīto padarīts padarītu padarītā padarīšana padarīšanas padarīšanu padarīšanā padarīšu
 29	729	informēt	informē informēja informējam informējiet informējis informējot informējošs informēju informējusi informējušas informējuši informējām informējāt informēs informēsiet informēsim informēta informētais informētas informēti informētie informēto informēts informētu informētā informēšana informēšanas informēšanu informēšanā informēšu jāinformē neinformē neinformēja neinformējam neinformēji neinformējot neinformēti neinformēšana neinformēšanu
 30	730	loma	lomai lomam lomas lomiem lomos lomu lomus lomā lomām lomās
@@ -59,8 +59,8 @@
 59	759	kontrole	kontrolei kontroles kontroli kontrolē kontrolēm kontrolēs kontroļu
 60	760	galds	gald galda galdam galdi galdiem galdos galdu galdus galdā
 61	761	izmaksa	izmaksai izmaksas izmaksu izmaksā izmaksām izmaksās
-62	762	uzsvērt	jāuzsver neuzejama neuzgāja neuzies neuziet neuzsver uzej uzejot uzeju uzgāja uzgāji uzgājis uzgāju uzgājusi uzgājuši uzgājām uzies uziesi uziesim uziet uzieta uzietas uzieti uziets uzietu uziešana uziešu uzsver uzsveram uzsverot uzsveru uzsvēra uzsvērdams uzsvēris uzsvērs uzsvērts uzsvērtu uzsvēru uzsvēršu
-63	763	baidīties	baidas baidies baidieties baidos baidoties baidāmies baidās baidāties baidīdamies baidījies baidījos baidījāmies baidījās baidījāties baidīsies baidīsimies baidītos baidīšanās baidīšoties jābaidas jābaidās nebaidas nebaidies nebaidieties nebaidos nebaidoties nebaidāmies nebaidās nebaidāties nebaidījies nebaidījos nebaidījāmies nebaidījās nebaidīsies nebaidīsimies nebaidīties nebaidītos nebaidīšanās nebaidīšos
+62	762	uzsvērt	jāuzsver neuzsver neuzsvērt neuzsvērtu neuzsvēru uzsver uzsveram uzsverams uzsverat uzsveriet uzsverot uzsveru uzsvēr uzsvēra uzsvērat uzsvērdams uzsvēri uzsvēris uzsvērs uzsvērsim uzsvērts uzsvērtu uzsvēru uzsvērām uzsvērāt uzsvēršana uzsvēršot uzsvēršu
+63	763	baidīties	baidies baidieties baidos baidoties baidāmies baidās baidāties baidīdamies baidījies baidījos baidījāmies baidījās baidījāties baidīsies baidīsimies baidītos baidīšanās baidīšoties jābaidās nebaidies nebaidieties nebaidos nebaidoties nebaidāmies nebaidās nebaidāties nebaidījies nebaidījos nebaidījāmies nebaidījās nebaidīsies nebaidīsimies nebaidīties nebaidītos nebaidīšanās nebaidīšos
 64	764	ļaudis	ļaudīm ļaudīs ļaui ļaužu
 65	765	pārtika	pārtikai pārtikas pārtiku pārtikā
 66	766	pār	
@@ -70,7 +70,7 @@
 70	770	jūnijs	jūnija jūnijam jūniju jūnijā
 71	771	fakts	fakt fakta faktam fakti faktiem faktos faktu faktus faktā
 72	772	konkrēts	konkrēta konkrētai konkrētais konkrētajai konkrētajam konkrētajiem konkrētajos konkrētajā konkrētajām konkrētajās konkrētam konkrētas konkrētie konkrētiem konkrēto konkrētos konkrētu konkrētus konkrētā konkrētāk konkrētāka konkrētākai konkrētākais konkrētākam konkrētākas konkrētāki konkrētākiem konkrētākos konkrētāks konkrētāku konkrētākus konkrētākām konkrētākās konkrētām konkrētās viskonkrētāk
-73	773	gulta	gultai gultam gultas gulti gultos gultu gultā gultām gultās
+73	773	gulta	gultai gultam gultas gulti gultu gultā gultām gultās
 74	774	akmens	akmeni akmenim akmenī akmeņi akmeņiem akmeņos akmeņu akmeņus
 75	775	dāma	dāmai dāmam dāmas dāmu dāmus dāmā dāmām dāmās
 76	776	satiksme	satiksmei satiksmes satiksmi satiksmju satiksmē satiksmēs

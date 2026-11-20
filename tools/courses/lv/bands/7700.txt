@@ -1,100 +1,100 @@
-1	7601	salocīt	jāsaloka nesalocīja nesalocīsi salocīja salocījis salocīju salocījām salocīs salocīta salocītai salocītas salocīti salocīto salocīts salocītu salocītus salocītā salocītām salocītās salocīšana salocīšu saloka saloki salokiet salokot saloku salokāms
-2	7602	blūze	blūzei blūzes blūzi blūzē blūzēm blūzēs blūžu
-3	7603	tējkanna	tējkannai tējkannas tējkannu tējkannā tējkannām
-4	7604	šuvēja	šuvējai šuvējas šuvēju šuvējām
-5	7605	veģetācija	veģetācijai veģetācijas veģetāciju
-6	7606	ievajadzēties	ievajadzējies ievajadzējās ievajadzēsies ievajadzētos ievajagas
-7	7607	matemātiski	
-8	7608	sadziedāties	sadziedamies sadziedas sadziedoties sadziedājusies sadziedājušies sadziedājušās sadziedājāmies sadziedājās sadziedāsies sadziedāsimies sadziedātos sadziedāšanās
-9	7609	ballistisks	ballistiskais ballistiskajām ballistiskas ballistisko ballistiskā ballistiskām ballistiskās
-10	7610	notikties	nenotiekas nenotiksies noticies notiekas notiksies notiktos notikās
-11	7611	sāts	sāt sāta sātam sātiem sātos sātu sātā
-12	7612	ģints	ģinti ģintis ģintī ģintīm ģinšu
-13	7613	nepaklausīgs	nepaklausīga nepaklausīgais nepaklausīgajam nepaklausīgajiem nepaklausīgajos nepaklausīgam nepaklausīgas nepaklausīgi nepaklausīgie nepaklausīgiem nepaklausīgo nepaklausīgos nepaklausīgu nepaklausīgus nepaklausīgā nepaklausīgākas nepaklausīgāki nepaklausīgākos nepaklausīgās visnepaklausīgākajam visnepaklausīgākie
-14	7614	brālīgs	brālīga brālīgajai brālīgajā brālīgajām brālīgajās brālīgas brālīgi brālīgo brālīgos brālīgu brālīgā brālīgāk brālīgām brālīgās
-15	7615	artefakts	artefakta artefaktam artefakti artefaktiem artefaktu artefaktus
-16	7616	izcirst	izcirsts izcirstu izcirta izcirtis izcirtām izcirtīs izcirtīsim izciršana izcērt izcērtam izcērtot izcērtu jāizcērt neizcirta neizcirtīs neizcērt
-17	7617	psalms	psalma psalmi psalmiem psalmos psalmu psalmus psalmā
-18	7618	izprovocēt	izprovocē izprovocēja izprovocēji izprovocējis izprovocējot izprovocēju izprovocēts izprovocētu neizprovocēja neizprovocēs neizprovocēts neizprovocētu
-19	7619	niķelis	niķeli niķelim niķelī niķeļa
-20	7620	iemanīties	iemanas iemanies iemanos iemanoties iemanās iemanījies iemanījos iemanījāmies iemanījās iemanīsies iemanīšanās jāiemanās neiemanīsies
-21	7621	iesūkt	iesūc iesūca iesūcat iesūcis iesūcot iesūks iesūkta iesūktas iesūkti iesūktos iesūkts iesūktu iesūkusi iesūkušas iesūkušos jāiesūc neiesūc
-22	7622	antidepresants	antidepresanti antidepresantiem antidepresantos antidepresantu antidepresantus
-23	7623	olīveļļa	olīveļļai olīveļļas olīveļļu olīveļļā
-24	7624	dzelt	dzel dzels dzelsi dzeltajām dzelti dzeļ dzēla dzēlusi nedzeltu nedzeļ
-25	7625	boļševiks	boļševika boļševiki boļševikiem boļševiku boļševikus
-26	7626	apspīdēt	apspīd apspīdot apspīdēja apspīdēs apspīdēts apspīdētu neapspīdēs
-27	7627	drāzt	
-28	7628	savairoties	nesavairojas nesavairotos savairojas savairojies savairojoties savairojusies savairojušies savairojušās savairojās savairosies savairotos savairošanās
-29	7629	atdurties	atduramies atduras atduraties atduries atduros atduroties atdursies atdursimies atdurtos atduršanās atdūries atdūros atdūrāmies atdūrās jāatduras neatdursieties neatdūrās
-30	7630	estētiski	
-31	7631	spridzināšanas	spridzināšanai
-32	7632	gorilla	gorillas gorillu
-33	7633	reorganizēt	jāreorganizē reorganizē reorganizēja reorganizējam reorganizējis reorganizējot reorganizēju reorganizējuši reorganizēs reorganizēta reorganizētas reorganizēti reorganizēto reorganizēts reorganizētu reorganizētā reorganizēšana reorganizēšanas reorganizēšanu
-34	7634	uzraut	jāuzrauj neuzraut uzrauj uzraujam uzraujot uzrauju uzraus uzrausi uzrausiet uzrauts uzrautu uzraušana uzraušu uzrāva uzrāvis uzrāvu uzrāvām
-35	7635	durties	duras duros duroties dursies durtos dūries dūros dūrās jāduras neduras neduries nedursies neduršos
-36	7636	līdzautors	līdzautora līdzautoram līdzautore līdzautori līdzautoriem līdzautoru līdzautorus
-37	7637	iztiesāt	iztiesā iztiesāja iztiesājam iztiesājot iztiesās iztiesāta iztiesātas iztiesātu iztiesātā iztiesāšana iztiesāšanai iztiesāšanas iztiesāšanu iztiesāšanā iztiesāšanās iztiesāšu jāiztiesā neiztiesājat
-38	7638	jūgs	jūga jūgam jūgiem jūgu jūgus jūgā
-39	7639	astroloģisks	astroloģiska astroloģiskai astroloģiskais astroloģiskajai astroloģiskajiem astroloģiskajā astroloģiskajām astroloģiskas astroloģiski astroloģiskie astroloģisko astroloģiskos astroloģisku astroloģiskā astroloģiskām astroloģiskās
-40	7640	sapriecāties	nesapriecājas nesapriecājies nesapriecājieties nesapriecājos nesapriecāties sapriecājamies sapriecājas sapriecājies sapriecājos sapriecājusies sapriecājušies sapriecājāmies sapriecājās
-41	7641	migrēna	migrēnai migrēnas migrēnu migrēnām
-42	7642	ētiski	
-43	7643	miegains	miegaina miegainai miegainais miegainajā miegainam miegainas miegaini miegainie miegainiem miegainos miegainu miegainā miegainākas miegaināki miegaināks miegaināku miegainām miegainās vismiegainākais
-44	7644	lokans	lokana lokanajai lokanajiem lokanajām lokanas lokani lokano lokanu lokanā lokanāka lokanākam lokanākas lokanāki lokanākie lokanās vislokanākās
-45	7645	laukakmens	laukakmeni laukakmenī laukakmeņi laukakmeņiem laukakmeņos laukakmeņu laukakmeņus
-46	7646	pārestība	pārestības pārestību pārestībām pārestībās
-47	7647	aplidot	aplido aplidoja aplidojis aplidojot aplidoju aplidojusi aplidojuši aplidojušo aplidos aplidota aplidotas aplidotu aplidošana jāaplido
-48	7648	baltmaize	baltmaizei baltmaizes baltmaizi baltmaizē
-49	7649	parkets	parketa parketam parketu parketus parketā
-50	7650	psihoze	psihozei psihozes psihozi psihozē psihozēm psihožu
-51	7651	pūka	pūkai pūkas pūku pūkā pūkām pūkās
-52	7652	turbāns	turbāna turbāni turbānu turbānus
-53	7653	pārdzīt	jāpārdzen pārdzen pārdzenat pārdzeniet pārdzenot pārdzina pārdzīsim pārdzīta pārdzīti pārdzīšana
-54	7654	reņģe	reņģei reņģes reņģi reņģu reņģēm
-55	7655	alva	alvas alvi alvu alvā
-56	7656	skaitlisks	skaitliska skaitliskai skaitliskais skaitliskajam skaitliskajiem skaitliskajā skaitliskas skaitliskie skaitliskiem skaitlisko skaitliskos skaitlisku skaitliskus skaitliskā skaitliskās
-57	7657	pirmatnējs	pirmatnēja pirmatnējai pirmatnējais pirmatnējam pirmatnējas pirmatnēji pirmatnējie pirmatnējiem pirmatnējo pirmatnēju pirmatnējus pirmatnējā pirmatnējāka pirmatnējās
-58	7658	palielīties	nepalielījies palielas palielos palielās palielījies palielījās palielīsies palielītos palielīšanās palielīšos
-59	7659	patentēt	nepatentējam nepatentētais nepatentēto nepatentētā patentē patentēja patentējiet patentējis patentējot patentējusi patentējuši patentēs patentēsim patentēta patentētais patentētas patentēti patentēto patentēts patentētu patentētā patentēšana patentēšanas patentēšanu patentēšu
-60	7660	auklēt	auklē auklēja auklējiet auklējis auklējot auklēju auklēs auklēsiet auklēts auklētu auklēšana auklēšu jāauklē
-61	7661	paaicināt	nepaaicināja paaicina paaicini paaiciniet paaicinot paaicinu paaicināja paaicinājis paaicināju paaicinājusi paaicinājuši paaicinājām paaicinām paaicinās paaicināta paaicināti paaicinātu paaicināšu
-62	7662	aptrūkties	aptrūcies aptrūksies aptrūktos aptrūkusies aptrūkušās aptrūkās neaptrūksies neaptrūktos
-63	7663	bezatbildība	bezatbildībai bezatbildības bezatbildību bezatbildībā
-64	7664	inerce	inercei inerces inerci inercē
-65	7665	grafīts	grafīta grafīti grafītu
-66	7666	krelles	
-67	7667	punšs	punša punšam punšu
-68	7668	slidotava	slidotavai slidotavas slidotavu slidotavā slidotavām slidotavās
-69	7669	pavasarīgs	pavasarīga pavasarīgais pavasarīgajai pavasarīgajiem pavasarīgajos pavasarīgajā pavasarīgajām pavasarīgajās pavasarīgam pavasarīgas pavasarīgie pavasarīgiem pavasarīgo pavasarīgos pavasarīgu pavasarīgus pavasarīgā pavasarīgākajam pavasarīgākiem pavasarīgāks pavasarīgāku pavasarīgākās pavasarīgām pavasarīgās
-70	7670	ports	porta portam porti portiem portos portu portus portā
-71	7671	spīdīgi	
-72	7672	jūdaisms	jūdaisma jūdaismam jūdaismu jūdaismā
-73	7673	uzpildīties	jāuzpildās neuzpildās uzpildies uzpildos uzpildoties uzpildās uzpildāties uzpildījies uzpildījos uzpildījušies uzpildījās uzpildīsies uzpildīsimies uzpildītos uzpildīšos
-74	7674	motorizēt	motorizēta motorizētais motorizētas motorizēti motorizētie motorizēto motorizēts motorizētu motorizētā nemotorizēto
-75	7675	elektriķis	elektriķa elektriķi elektriķiem elektriķim elektriķos elektriķu elektriķus
-76	7676	atstumtība	atstumtībai atstumtības atstumtību atstumtībā
-77	7677	izģērbties	
-78	7678	realizēties	jārealizējas nerealizējas nerealizējoties nerealizējusies nerealizējās nerealizēsies nerealizēties realizējamies realizējas realizējies realizējos realizējoties realizējusies realizējušies realizējās realizēsies realizēšanās
-79	7679	atstarpe	atstarpei atstarpes atstarpi atstarpju atstarpē atstarpēm
-80	7680	iekarotājs	iekarotāja iekarotāji iekarotājiem iekarotāju iekarotājus
-81	7681	sabrukt	
-82	7682	fenomenāls	fenomenāla fenomenālam fenomenālas fenomenāli fenomenālo fenomenālu fenomenālā fenomenālākais
-83	7683	naidīgi	
-84	7684	pazīšanās	
-85	7685	karamele	karameles karameli karamelē karamelēm karamelēs karameļu
-86	7686	ārprātīgs	ārprātīga ārprātīgais ārprātīgajiem ārprātīgam ārprātīgas ārprātīgie ārprātīgo ārprātīgos ārprātīgu ārprātīgus ārprātīgā ārprātīgāka ārprātīgām ārprātīgās
-87	7687	blāvs	blāva blāvais blāvajā blāvas blāviem blāvo blāvu blāvā blāvāka blāvākas blāvāks blāvāku blāvākus blāvās
-88	7688	epilepsija	epilepsijai epilepsijas epilepsiju
-89	7689	noskanēt	jānoskan nenoskan noskan noskanot noskanu noskanēja noskanējis noskanēs noskanēts noskanētu noskanēšu
-90	7690	notariāls	notariāla notariālais notariālajai notariālajam notariālajiem notariālas notariāli notariālie notariāliem notariālo notariālos notariālu notariālus notariālā notariālās
-91	7691	nočiept	nočiepa nočiepis nočiepj nočiepjot nočieptu nočiepu
-92	7692	dodžs	dodža dodžam dodžu
-93	7693	gaismeklis	gaismekli gaismeklim gaismeklī gaismekļa gaismekļi gaismekļiem gaismekļos gaismekļu gaismekļus
-94	7694	zvīņa	zvīne zvīnei zvīnis zvīņas zvīņi zvīņu zvīņām zvīņās
-95	7695	brūklene	brūklei brūklenei brūklenes brūkleni brūklenēm brūkleņu
-96	7696	šļirce	šļirces šļirci šļircē šļircēm šļirču
-97	7697	valdzinošs	valdzinoša valdzinošai valdzinošais valdzinošam valdzinošas valdzinoši valdzinošie valdzinošiem valdzinošo valdzinošos valdzinošu valdzinošā valdzinošāka valdzinošākai valdzinošākas valdzinošākā valdzinošām valdzinošās visvaldzinošākās
-98	7698	svarīgums	svarīguma svarīgumam svarīgumu
-99	7699	locīties	jālokas jālokās locas locās locījies locījos locījusies locījās locīsies locīsimies locītos locīšanās lokies lokoties lokāmies lokāties nelocīties nelocītos nelokas nelokās
-100	7700	iztaisīt	iztaisa iztaisi iztaisiet iztaisot iztaisu iztaisīja iztaisījis iztaisīju iztaisījām iztaisīs iztaisīsim iztaisīts iztaisītu iztaisīšu jāiztaisa neiztaisa neiztaisi neiztaisot neiztaisām neiztaisīja neiztaisīts
+1	7601	parast	neparastu parada paradi paradis paradu paradusi paradušas paraduši paradīs paradīsim parastu
+2	7602	korespondents	korespondenta korespondentam korespondenti korespondentiem korespondentu korespondentus
+3	7603	notirgot	jānotirgo nenotirgo nenotirgoja nenotirgos notirgo notirgoja notirgojam notirgojis notirgojot notirgoju notirgojusi notirgojuši notirgos notirgota notirgotajiem notirgotajām notirgotas notirgoti notirgoto notirgotos notirgots notirgotu notirgotā notirgotās notirgošu
+4	7604	alpīnisms	alpīnisma alpīnismam alpīnismu alpīnismā
+5	7605	skabarga	skabargai skabargas skabargu skabargā skabargām
+6	7606	daiļliteratūra	daiļliteratūrai daiļliteratūras daiļliteratūru daiļliteratūrā
+7	7607	menstruācija	menstruācijas menstruāciju menstruācijām
+8	7608	ietecēt	ieteci ietecēja ietecējis ietecēs ietek ieteku
+9	7609	buljons	buljona buljonam buljoni buljoniem buljonu buljonus buljonā
+10	7610	bieds	bieda biedam biedi biediem biedu biedus
+11	7611	pārdozēšana	pārdozēšanas pārdozēšanu
+12	7612	sinagoga	sinagogai sinagogas sinagogu sinagogā sinagogām sinagogās
+13	7613	astronauts	astronauta astronauti astronautiem astronautu astronautus
+14	7614	pasaudzēt	jāpasaudzē nepasaudzēja nepasaudzēs pasaudzē pasaudzēja pasaudzēji pasaudzējiet pasaudzējis pasaudzējot pasaudzējusi pasaudzējuši pasaudzēs pasaudzēsi pasaudzēsiet pasaudzēti pasaudzēts pasaudzētu pasaudzēšu
+15	7615	trūkties	trūksies trūkās
+16	7616	lauznis	lauzni lauznim laužņa laužņi laužņiem laužņus
+17	7617	hermētisks	hermētiska hermētiskais hermētiskajai hermētiskajā hermētiskas hermētiski hermētiskie hermētisko hermētiskos hermētisku hermētiskus hermētiskā hermētiskākie hermētiskās
+18	7618	atvienoties	atvienojas atvienojies atvienojieties atvienojos atvienojoties atvienojusies atvienojās jāatvienojas neatvienojas neatvienojies
+19	7619	simbolisms	simbolisma simbolismam simbolismu
+20	7620	lūdzējs	lūdzēja lūdzējam lūdzēji lūdzējiem lūdzēju lūdzējus
+21	7621	apstaigāt	apstaigā apstaigāja apstaigājam apstaigājiet apstaigājis apstaigājot apstaigāju apstaigājām apstaigās apstaigāsi apstaigāsim apstaigātu apstaigāšot apstaigāšu jāapstaigā
+22	7622	salocīt	jāsaloka nesalocīja nesalocīsi salocīja salocījis salocīju salocījām salocīs salocīta salocītai salocītas salocīti salocīto salocīts salocītu salocītus salocītā salocītām salocītās salocīšana salocīšu saloka saloki salokiet salokot saloku salokāms
+23	7623	blūze	blūzei blūzes blūzi blūzē blūzēm blūzēs blūžu
+24	7624	tējkanna	tējkannai tējkannas tējkannu tējkannā tējkannām
+25	7625	šuvēja	šuvējai šuvējas šuvēju šuvējām
+26	7626	veģetācija	veģetācijai veģetācijas veģetāciju
+27	7627	ievajadzēties	ievajadzējies ievajadzējās ievajadzēsies ievajadzētos ievajagas
+28	7628	izlīdzināties	izlīdzinieties izlīdzinoties izlīdzinājies izlīdzinājusies izlīdzinājušies izlīdzinājušās izlīdzinājās izlīdzinās izlīdzināsies izlīdzinātos izlīdzināšanās jāizlīdzinās neizlīdzinās neizlīdzināsies
+29	7629	matemātiski	
+30	7630	sadziedāties	sadziedamies sadziedas sadziedoties sadziedājusies sadziedājušies sadziedājušās sadziedājāmies sadziedājās sadziedāsies sadziedāsimies sadziedātos sadziedāšanās
+31	7631	ballistisks	ballistiskais ballistiskajām ballistiskas ballistisko ballistiskā ballistiskām ballistiskās
+32	7632	notikties	nenotiekas nenotiksies noticies notiekas notiksies notiktos notikās
+33	7633	sāts	sāt sāta sātam sātiem sātos sātu sātā
+34	7634	ģints	ģinti ģintis ģintī ģintīm ģinšu
+35	7635	nepaklausīgs	nepaklausīga nepaklausīgais nepaklausīgajam nepaklausīgajiem nepaklausīgajos nepaklausīgam nepaklausīgas nepaklausīgi nepaklausīgie nepaklausīgiem nepaklausīgo nepaklausīgos nepaklausīgu nepaklausīgus nepaklausīgā nepaklausīgākas nepaklausīgāki nepaklausīgākos nepaklausīgās visnepaklausīgākajam visnepaklausīgākie
+36	7636	brālīgs	brālīga brālīgajai brālīgajā brālīgajām brālīgajās brālīgas brālīgi brālīgo brālīgos brālīgu brālīgā brālīgāk brālīgām brālīgās
+37	7637	artefakts	artefakta artefaktam artefakti artefaktiem artefaktu artefaktus
+38	7638	izcirst	izcirsts izcirstu izcirta izcirtis izcirtām izcirtīs izcirtīsim izciršana izcērt izcērtam izcērtot izcērtu jāizcērt neizcirta neizcirtīs neizcērt
+39	7639	psalms	psalma psalmi psalmiem psalmos psalmu psalmus psalmā
+40	7640	izprovocēt	izprovocē izprovocēja izprovocēji izprovocējis izprovocējot izprovocēju izprovocēts izprovocētu neizprovocēja neizprovocēs neizprovocēts neizprovocētu
+41	7641	niķelis	niķeli niķelim niķelī niķeļa
+42	7642	iesūkt	iesūc iesūca iesūcat iesūcis iesūcot iesūks iesūkta iesūktas iesūkti iesūktos iesūkts iesūktu iesūkusi iesūkušas iesūkušos jāiesūc neiesūc
+43	7643	antidepresants	antidepresanti antidepresantiem antidepresantos antidepresantu antidepresantus
+44	7644	olīveļļa	olīveļļai olīveļļas olīveļļu olīveļļā
+45	7645	dzelt	dzel dzels dzelsi dzeltajām dzelti dzeļ dzēla dzēlusi nedzeltu nedzeļ
+46	7646	boļševiks	boļševika boļševiki boļševikiem boļševiku boļševikus
+47	7647	apspīdēt	apspīd apspīdot apspīdēja apspīdēs apspīdēts apspīdētu neapspīdēs
+48	7648	drāzt	
+49	7649	savairoties	nesavairojas nesavairotos savairojas savairojies savairojoties savairojusies savairojušies savairojušās savairojās savairosies savairotos savairošanās
+50	7650	atdurties	atduramies atduras atduraties atduries atduros atduroties atdursies atdursimies atdurtos atduršanās atdūries atdūros atdūrāmies atdūrās jāatduras neatdursieties neatdūrās
+51	7651	estētiski	
+52	7652	pārdoties	jāpārdodas nepārdodas nepārdodies nepārdodoties nepārdoties pārdevies pārdevos pārdevusies pārdevušies pārdevās pārdodamies pārdodas pārdodieties pārdosies pārdošanās
+53	7653	spridzināšanas	spridzināšanai
+54	7654	gorilla	gorillas gorillu
+55	7655	reorganizēt	jāreorganizē reorganizē reorganizēja reorganizējam reorganizējis reorganizējot reorganizēju reorganizējuši reorganizēs reorganizēta reorganizētas reorganizēti reorganizēto reorganizēts reorganizētu reorganizētā reorganizēšana reorganizēšanas reorganizēšanu
+56	7656	iemanīties	iemanies iemanos iemanoties iemanās iemanījies iemanījos iemanījāmies iemanījās iemanīsies iemanīšanās jāiemanās neiemanīsies
+57	7657	uzraut	jāuzrauj neuzraut uzrauj uzraujam uzraujot uzrauju uzraus uzrausi uzrausiet uzrauts uzrautu uzraušana uzraušu uzrāva uzrāvis uzrāvu uzrāvām
+58	7658	durties	duras duros duroties dursies durtos dūries dūros dūrās jāduras neduras neduries nedursies neduršos
+59	7659	līdzautors	līdzautora līdzautoram līdzautore līdzautori līdzautoriem līdzautoru līdzautorus
+60	7660	iztiesāt	iztiesā iztiesāja iztiesājam iztiesājot iztiesās iztiesāta iztiesātas iztiesātu iztiesātā iztiesāšana iztiesāšanai iztiesāšanas iztiesāšanu iztiesāšanā iztiesāšanās iztiesāšu jāiztiesā neiztiesājat
+61	7661	jūgs	jūga jūgam jūgiem jūgu jūgus jūgā
+62	7662	astroloģisks	astroloģiska astroloģiskai astroloģiskais astroloģiskajai astroloģiskajiem astroloģiskajā astroloģiskajām astroloģiskas astroloģiski astroloģiskie astroloģisko astroloģiskos astroloģisku astroloģiskā astroloģiskām astroloģiskās
+63	7663	sapriecāties	nesapriecājas nesapriecājies nesapriecājieties nesapriecājos nesapriecāties sapriecājamies sapriecājas sapriecājies sapriecājos sapriecājusies sapriecājušies sapriecājāmies sapriecājās
+64	7664	migrēna	migrēnai migrēnas migrēnu migrēnām
+65	7665	ētiski	
+66	7666	miegains	miegaina miegainai miegainais miegainajā miegainam miegainas miegaini miegainie miegainiem miegainos miegainu miegainā miegainākas miegaināki miegaināks miegaināku miegainām miegainās vismiegainākais
+67	7667	lokans	lokana lokanajai lokanajiem lokanajām lokanas lokani lokano lokanu lokanā lokanāka lokanākam lokanākas lokanāki lokanākie lokanās vislokanākās
+68	7668	laukakmens	laukakmeni laukakmenī laukakmeņi laukakmeņiem laukakmeņos laukakmeņu laukakmeņus
+69	7669	pārestība	pārestības pārestību pārestībām pārestībās
+70	7670	aplidot	aplido aplidoja aplidojis aplidojot aplidoju aplidojusi aplidojuši aplidojušo aplidos aplidota aplidotas aplidotu aplidošana jāaplido
+71	7671	baltmaize	baltmaizei baltmaizes baltmaizi baltmaizē
+72	7672	parkets	parketa parketam parketu parketus parketā
+73	7673	psihoze	psihozei psihozes psihozi psihozē psihozēm psihožu
+74	7674	pūka	pūkai pūkas pūku pūkā pūkām pūkās
+75	7675	turbāns	turbāna turbāni turbānu turbānus
+76	7676	pārdzīt	jāpārdzen pārdzen pārdzenat pārdzeniet pārdzenot pārdzina pārdzīsim pārdzīta pārdzīti pārdzīšana
+77	7677	reņģe	reņģei reņģes reņģi reņģu reņģēm
+78	7678	alva	alvas alvi alvu alvā
+79	7679	skaitlisks	skaitliska skaitliskai skaitliskais skaitliskajam skaitliskajiem skaitliskajā skaitliskas skaitliskie skaitliskiem skaitlisko skaitliskos skaitlisku skaitliskus skaitliskā skaitliskās
+80	7680	pirmatnējs	pirmatnēja pirmatnējai pirmatnējais pirmatnējam pirmatnējas pirmatnēji pirmatnējie pirmatnējiem pirmatnējo pirmatnēju pirmatnējus pirmatnējā pirmatnējāka pirmatnējās
+81	7681	patentēt	nepatentējam nepatentētais nepatentēto nepatentētā patentē patentēja patentējiet patentējis patentējot patentējusi patentējuši patentēs patentēsim patentēta patentētais patentētas patentēti patentēto patentēts patentētu patentētā patentēšana patentēšanas patentēšanu patentēšu
+82	7682	auklēt	auklē auklēja auklējiet auklējis auklējot auklēju auklēs auklēsiet auklēts auklētu auklēšana auklēšu jāauklē
+83	7683	aptrūkties	aptrūcies aptrūksies aptrūktos aptrūkusies aptrūkušās aptrūkās neaptrūksies neaptrūktos
+84	7684	paaicināt	nepaaicināja paaicina paaicini paaiciniet paaicinot paaicinu paaicināja paaicinājis paaicināju paaicinājusi paaicinājuši paaicinājām paaicinām paaicinās paaicināta paaicināti paaicinātu paaicināšu
+85	7685	bezatbildība	bezatbildībai bezatbildības bezatbildību bezatbildībā
+86	7686	inerce	inercei inerces inerci inercē
+87	7687	grafīts	grafīta grafīti grafītu
+88	7688	krelles	
+89	7689	punšs	punša punšam punšu
+90	7690	slidotava	slidotavai slidotavas slidotavu slidotavā slidotavām slidotavās
+91	7691	pavasarīgs	pavasarīga pavasarīgais pavasarīgajai pavasarīgajiem pavasarīgajos pavasarīgajā pavasarīgajām pavasarīgajās pavasarīgam pavasarīgas pavasarīgie pavasarīgiem pavasarīgo pavasarīgos pavasarīgu pavasarīgus pavasarīgā pavasarīgākajam pavasarīgākiem pavasarīgāks pavasarīgāku pavasarīgākās pavasarīgām pavasarīgās
+92	7692	ports	porta portam porti portiem portos portu portus portā
+93	7693	spīdīgi	
+94	7694	jūdaisms	jūdaisma jūdaismam jūdaismu jūdaismā
+95	7695	uzpildīties	jāuzpildās neuzpildās uzpildies uzpildos uzpildoties uzpildās uzpildāties uzpildījies uzpildījos uzpildījušies uzpildījās uzpildīsies uzpildīsimies uzpildītos uzpildīšos
+96	7696	motorizēt	motorizēta motorizētais motorizētas motorizēti motorizētie motorizēto motorizēts motorizētu motorizētā nemotorizēto
+97	7697	elektriķis	elektriķa elektriķi elektriķiem elektriķim elektriķos elektriķu elektriķus
+98	7698	atstumtība	atstumtībai atstumtības atstumtību atstumtībā
+99	7699	izģērbties	
+100	7700	realizēties	jārealizējas nerealizējas nerealizējoties nerealizējusies nerealizējās nerealizēsies nerealizēties realizējamies realizējas realizējies realizējos realizējoties realizējusies realizējušies realizējās realizēsies realizēšanās

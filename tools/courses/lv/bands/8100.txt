@@ -1,100 +1,100 @@
-1	8001	er	
-2	8002	flīģelis	flīģeli flīģelim flīģelī flīģeļa flīģeļi flīģeļu
-3	8003	bezdelīga	bezdelīgai bezdelīgas bezdelīgu
-4	8004	ieteka	ietekai ietekas ieteku ietekā ietekām
-5	8005	kārot	kāro kāroja kārojams kārojat kārojiet kārojis kārojot kāroju kāros kārots kārotu
-6	8006	šķirba	šķirbas šķirbu šķirbā šķirbām šķirbās
-7	8007	piecnieks	piecnieka piecniekam piecnieki piecniekiem piecnieku piecniekus piecniekā
-8	8008	indēt	indē indēja indējam indējis indējot indēju indēs indēta indēti indēto indēts indēšana indēšanai indēšanas indēšanu indēšanā indēšanām jāindē neindēs neindēsim neindēt
-9	8009	granātmetējs	granātmetēja granātmetēji granātmetējiem granātmetēju
-10	8010	velnišķīgs	velnišķīga velnišķīgas velnišķīgos velnišķīgu velnišķīgā velnišķīgāks velnišķīgām velnišķīgās
-11	8011	uzkraut	jāuzkrauj neuzkrauj neuzkraujot neuzkraut uzkrauj uzkraujam uzkraujot uzkrauju uzkraus uzkrausim uzkrauts uzkrautu uzkrāva uzkrāvis uzkrāvu
-12	8012	kūlenis	kūleni kūlenu kūlenī kūleņa kūleņi kūleņiem kūleņos kūleņu kūleņus
-13	8013	meteorologs	meteorologa meteorologam meteorologi meteorologiem meteorologu meteorologus
-14	8014	izmācīties	izmācies izmācās izmācījies izmācījos izmācījās izmācīsies izmācīsieties izmācītos izmācīšos jāizmācās neizmācīsies neizmācīties
-15	8015	cietviela	cietvielas cietvielu cietvielās
-16	8016	augstceltne	augstceltnei augstceltnes augstceltni augstceltnē augstceltnēm augstceltnēs augstceltņu
-17	8017	bērnistaba	bērnistabai bērnistabas bērnistabu bērnistabā bērnistabām bērnistabās
-18	8018	pazemošana	pazemošanas pazemošanu pazemošanā pazemošanās
-19	8019	plēsties	jāplēšas neplēsties plēsos plēstos plēsāmies plēsās plēsīsies plēsīsimies plēsīšos plēšamies plēšanās plēšas plēšoties
-20	8020	uzpīpēt	jāuzpīpē neuzpīpējis uzpīpē uzpīpēdams uzpīpējam uzpīpējis uzpīpējot uzpīpēju uzpīpētu uzpīpēšu
-21	8021	šaurums	šauruma šaurumam šaurumos šaurumu šaurumus šaurumā
-22	8022	apkalpotāja	apkalpotājai apkalpotājas apkalpotāju apkalpotājām
-23	8023	planetārijs	planetārija planetārijam planetārijiem planetāriju planetārijā
-24	8024	nokavēties	nenokavējamies nokavējas nokavējies nokavējos nokavējusies nokavējušies nokavējāmies nokavējās nokavētos nokavēšanās nokavēšos
-25	8025	pārplēst	nepārplēs nepārplēstu pārplēs pārplēsa pārplēsis pārplēstu pārplēsu pārplēsīs pārplēsīsi pārplēš pārplēšot
-26	8026	plīšs	plīša
-27	8027	debitants	debitanta debitantam debitanti debitantiem debitantu debitantus
-28	8028	scenāriste	scenāristei scenāristes scenāristi scenāristēm
-29	8029	sabūt	sabija sabiji sabijis sabiju sabijusi sabijušajiem sabijušās sabijām sabijāt
-30	8030	naksnīgs	naksnīga naksnīgais naksnīgajai naksnīgajam naksnīgajiem naksnīgajā naksnīgajām naksnīgajās naksnīgas naksnīgiem naksnīgo naksnīgos naksnīgu naksnīgā naksnīgām naksnīgās
-31	8031	testosterons	testosterona testosteronu testosteronus
-32	8032	novaldīt	jānovalda nenovalda nenovaldot nenovaldīja nenovaldīju nenovaldīs nenovaldītu novalda novaldījis
-33	8033	apraudāt	apraud apraudam apraudamo apraudat apraudi apraudot apraudādami apraudādams apraudāja apraudājuši apraudājušās apraudājām apraudās apraudāsiet apraudāti apraudātie jāapraud neapraudāt
-34	8034	trīssimt	
-35	8035	velnišķīgi	
-36	8036	ģeologs	ģeologa ģeologam ģeologi ģeologiem ģeologu ģeologus ģeoloģe
-37	8037	homoseksuāls	anālas homoseksuāla homoseksuālais homoseksuālajam homoseksuālajiem homoseksuālajām homoseksuālajās homoseksuālam homoseksuālas homoseksuālie homoseksuāliem homoseksuālo homoseksuālu homoseksuālus homoseksuālā homoseksuālām homoseksuālās vishomoseksuālākie
-38	8038	piestādīt	nepiestādīs piestāda piestādot piestādām piestādīja piestādījis piestādījusi piestādījuši piestādīs piestādīsim piestādīta piestādītajam piestādītajiem piestādītajos piestādīti piestādītie piestādīto piestādītos piestādīts piestādītu piestādītā piestādīšana piestādīšot
-39	8039	nepastāvīgs	nepastāvīga nepastāvīgais nepastāvīgajiem nepastāvīgajos nepastāvīgas nepastāvīgi nepastāvīgie nepastāvīgiem nepastāvīgo nepastāvīgos nepastāvīgu nepastāvīgus nepastāvīgā nepastāvīgāka nepastāvīgāks nepastāvīgāku nepastāvīgām nepastāvīgās
-40	8040	smēde	smēdes smēdi smēdē smēdēm smēdēs
-41	8041	noņemties	jānoņemas nenoņemas noņemas noņemies noņemos noņemoties noņemsies noņemtos noņemšanās noņēmies noņēmos noņēmusies noņēmušies noņēmušās noņēmāmies noņēmās
-42	8042	islandiete	islandieti islandieši islandiešiem islandiešu islandiešus īslandieši īslandiešiem īslandiešu
-43	8043	atšūt	atšuj atšujiet atšujot atšuva atšuvis atšūs atšūti atšūtos atšūts atšūšana
-44	8044	atvars	atvara atvaram atvari atvariem atvaros atvaru atvarā
-45	8045	slovāks	slovaki slovaku slovāka slovākam slovāki slovākiem slovākiete slovākietēm slovākos slovāku
-46	8046	kapitulācija	kapitulācijai kapitulācijas kapitulāciju
-47	8047	sinonīmi	
-48	8048	iespiest	
-49	8049	noliet	jānolej nolej nolejam nolejat nolejiet nolejot noleju nolies nolieta nolietas nolieti noliets nolietu nolēja nolēji nolējis
-50	8050	diedelēt	diedelē diedelēdams diedelēja diedelējot diedelējuši diedelēs diedelēsi diedelēšana diedelēšanas diedelēšanu jādiedelē nediedelē nediedelēja nediedelētu
-51	8051	uzdzert	jāuzdzer neuzdzerot uzdzer uzdzeram uzdzeramais uzdzeramo uzdzerdams uzdzeriet uzdzerot uzdzersim uzdzertas uzdzerts uzdzeru uzdzēra uzdzēri uzdzērusi uzdzērām
-52	8052	ekstāze	ekstāzei ekstāzes ekstāzi ekstāzē
-53	8053	iesviest	iesvied iesvieda iesviedi iesviedis iesviedu iesviedīs iesviedīšu iesviests iesviestu iesviešana iesviež iesviežam iesviežat iesviežot iesviežu jāiesviež
-54	8054	sarkastisks	sarkastiska sarkastiskai sarkastiskais sarkastiskajiem sarkastiskas sarkastiski sarkastiskie sarkastiskiem sarkastisko sarkastisku sarkastiskus
-55	8055	pildīties	nepildās nepildījās nepildīsies nepildīties pildas pildieties pildos pildoties pildās pildījies pildījos pildījās pildīsies pildīšanās pildīšos
-56	8056	nodzerties	jānodzeras nenodzeras nenodzeros nenodzersies nenodzertos nenodzērās nodzeras nodzeries nodzeros nodzeroties nodzersies nodzeršanās nodzeršos nodzeršoties nodzēries nodzēros nodzērusies nodzērušies nodzērušās nodzērās
-57	8057	izdemolēt	izdemolē izdemolēja izdemolējis izdemolējot izdemolēju izdemolējusi izdemolējuši izdemolēs izdemolēta izdemolētas izdemolēti izdemolēto izdemolēts izdemolētu izdemolētā izdemolēšana izdemolēšanas izdemolēšanu izdemolēšu neizdemolē neizdemolēta neizdemolētu
-58	8058	ieaugt	ieaudzis ieaug ieauga ieaugot ieaugs ieaugtos ieaugtu ieaugusi ieauguša ieaugušas ieauguši ieaugušiem ieaugušo ieaugušos ieaugušu ieaugušus ieaugušā ieaugušām ieaugām ieaugšana jāieaug neieauga neieaugdami neieaugs neieaugtu
-59	8059	rūda	rūdai rūdas rūdi rūdu rūdām rūdās
-60	8060	algebra	algebras algebru algebrā
-61	8061	čakarēties	jāčakarējas nečakarējaties nečakarējies nečakarēsies nečakarēties nečakarētos čakarējas čakarējies čakarējos čakarējoties čakarējās čakarēsimies čakarēšanās čakarēšos
-62	8062	fizioloģisks	fizioloģiska fizioloģiskais fizioloģiskajam fizioloģiskajiem fizioloģiskajos fizioloģiskajā fizioloģiskajām fizioloģiskam fizioloģiskas fizioloģiskie fizioloģisko fizioloģiskos fizioloģisku fizioloģiskus fizioloģiskā fizioloģiskāks fizioloģiskām fizioloģiskās
-63	8063	uzrakt	jāuzrok uzraka uzraks uzraksim uzrakts uzraku uzrakām uzroc uzrok uzrokot
-64	8064	nomainīties	jānomainās nenomainās nenomainījās nenomainīsies nomainas nomainies nomainoties nomaināmas nomaināmos nomaināmās nomainās nomainījas nomainījies nomainījusies nomainījušies nomainījušās nomainījās nomainīsies nomainītos
-65	8065	pielauzt	nepielauzīs pielauza pielauzi pielauzu pielauzām pielauzāt pielauzīšu pielauž pielaužam pielaužams
-66	8066	pārtikties	nepārtikas
-67	8067	aizturēties	aizturies aizturētos aizturēšanās neaizturas
-68	8068	cilvēcīgi	
-69	8069	gaumīgi	
-70	8070	vasarīgs	vasarīga vasarīgai vasarīgais vasarīgajai vasarīgajiem vasarīgajā vasarīgajām vasarīgajās vasarīgam vasarīgas vasarīgie vasarīgiem vasarīgo vasarīgos vasarīgu vasarīgus vasarīgā vasarīgāka vasarīgākais vasarīgākajiem vasarīgākajām vasarīgāko vasarīgāku vasarīgākus vasarīgākā vasarīgām vasarīgās visvasarīgākais
-71	8071	uzvērt	jāuzver uzver uzverot uzvēra uzvēris uzvērs uzvērts uzvēru
-72	8072	baronese	baronesei baroneses baronesi baronešu
-73	8073	cīpsla	cīpslai cīpslas cīpslu cīpslā cīpslām
-74	8074	instinktīvs	instinktīva instinktīvais instinktīvas instinktīvi instinktīvo instinktīvu instinktīvā instinktīvām instinktīvās
-75	8075	palielīt	jāpaliela paliela palieli palielot palielu palielām palielīja
-76	8076	vīģe	vīģes vīģu vīģēm
-77	8077	baltums	baltum baltuma baltumam baltumi baltumiem baltumos baltumu baltumus baltumā
-78	8078	izgaršot	izgaršo izgaršodams izgaršoja izgaršojam izgaršojams izgaršojiet izgaršojis izgaršojot izgaršojošu izgaršoju izgaršojuši izgaršojām izgaršosi izgaršosiet izgaršosim izgaršotas izgaršots izgaršotu izgaršošana jāizgaršo neizgaršo neizgaršojot
-79	8079	stāvēties	stāvas stāvos
-80	8080	pakaramais	pakaramajam pakaramajiem pakaramie pakaramiem pakaramo pakaramos pakaramā
-81	8081	amizanti	
-82	8082	tirāns	tirān tirāna tirānam tirāni tirāniem tirānu tirānus tirānā
-83	8083	ieplaka	ieplakai ieplakas ieplaku ieplakā ieplakām ieplakās
-84	8084	joņot	joņo joņoja joņojam joņojis joņojot joņoju joņosim joņotu joņošana joņošanu nejoņojiet
-85	8085	smilšakmens	smilšakmeni smilšakmenī smilšakmeņi smilšakmeņos smilšakmeņu
-86	8086	kentaurs	kentaur kentaura kentauri kentauriem kentauru kentaurus
-87	8087	piedziedāt	piedzied piedziedāja piedziedāju piedziedājusi piedziedās piedziedātā piedziedāšu
-88	8088	uzjautrināties	neuzjautrinātos uzjautrinos uzjautrinoties uzjautrinājos uzjautrinājusies uzjautrinājāmies uzjautrinājās uzjautrināmies uzjautrinās uzjautrināsies uzjautrinātos uzjautrināšanās
-89	8089	mērķtiecība	mērķtiecībai mērķtiecības mērķtiecību mērķtiecībā
-90	8090	jena	jenas jenu jenām
-91	8091	atraisīties	atraisos atraisoties atraisās atraisījies atraisījusies atraisījušies atraisījušās atraisījāmies atraisījās atraisīsies atraisīsimies atraisītos atraisīšanās jāatraisās neatraisīsies
-92	8092	itāliski	
-93	8093	izlūgties	izlūdzamies izlūdzas izlūdzies izlūdzos izlūdzoties izlūdzāmies izlūdzās izlūgdamies izlūgtos izlūgšanās jāizlūdzas neizlūgsies
-94	8094	albāniete	albāna albāni albāņi albāņiem albāņu albāņus
-95	8095	meldiņš	meldiņa meldiņi meldiņiem meldiņos meldiņu meldiņus meldiņā
-96	8096	piekārt	jāpiekar piekar piekaram piekariet piekarot piekaru piekāra piekāris piekārts piekārtu piekāršu
-97	8097	apklāt	apklāj apklāja apklājam apklājiet apklājis apklājot apklāju apklājām apklās apklāts apklātu apklāšana jāapklāj neapklāj neapklātu
-98	8098	dingo	
-99	8099	analoģija	analoģijai analoģijas analoģiju analoģijām analoģijās
-100	8100	feromons	feromoni feromoniem feromonu feromonus
+1	8001	iekurināt	iekurina iekurinot iekurinu iekurināja iekurinājis iekurinājuši iekurinājām iekurinās iekurināsim iekurināta iekurinātas iekurināts iekurinātu iekurināšana iekurināšu jāiekurina neiekurināja
+2	8002	nosapņot	nenosapņoju nosapņo nosapņoja nosapņojis nosapņoju nosapņos nosapņots
+3	8003	uzdzīvot	neuzdzīvo uzdzīvo uzdzīvoja uzdzīvojam uzdzīvojis uzdzīvojot uzdzīvojušas uzdzīvojuši uzdzīvojām uzdzīvos uzdzīvosim uzdzīvošana uzdzīvošanas uzdzīvošu
+4	8004	slidošana	slidošanai slidošanas slidošanu slidošanā
+5	8005	žilete	žiletei žiletes žileti žiletēm
+6	8006	pusdiena	pusdienai pusdienam pusdienu pusdienā pusdienām pusdienās
+7	8007	mežsargs	mežsarga mežsargam mežsargi mežsargiem mežsargu mežsargus
+8	8008	plakstiņš	plakstiņa plakstiņi plakstiņiem plakstiņu plakstiņus
+9	8009	nektārs	nektāra nektāram nektāri nektāriem nektāru nektārus
+10	8010	dardedze	dardedzei dardedzes dardedzi dardedzē
+11	8011	netīrība	netīrības netīrību netīrībā
+12	8012	kustonis	kustoni kustonim kustoņa kustoņi kustoņiem kustoņos kustoņu kustoņus
+13	8013	izlocīt	izloci izlocīja izlocījām izlocīs izlocīta izlocītas izlocīti izlocītu izlocītā izlocīšanu izloki izlokot izlokāms jāizloka neizlocītas
+14	8014	nomaskēt	jānomaskē nenomaskē nomaskē nomaskēja nomaskēji nomaskējis nomaskējot nomaskējām nomaskēs nomaskēta nomaskētas nomaskēti nomaskēts nomaskētu nomaskēšanas nomaskēšanu
+15	8015	atkusnis	atkusni atkusnim atkusnī atkušņa atkušņi atkušņiem atkušņos atkušņu atkušņus
+16	8016	dzirnavnieks	dzirnavnieka dzirnavniekam dzirnavnieki dzirnavniekiem dzirnavniekos dzirnavnieku dzirnavniekā
+17	8017	ieklāt	ieklāj ieklāja ieklājam ieklājams ieklājat ieklājis ieklājot ieklāju ieklājām ieklās ieklāsiet ieklāsim ieklāts ieklātu ieklāšana ieklāšu jāieklāj
+18	8018	ritums	rituma ritumam ritumi ritumu ritumā
+19	8019	starppilsētu	
+20	8020	pievadīt	pievada pievadi pievadot pievadu pievadījis pievadīs pievadīts pievadītu pievadīšana
+21	8021	galējais	
+22	8022	dienēties	nedienas
+23	8023	adaptēties	adaptējamies adaptējas adaptējies adaptējoties adaptējusies adaptējušies adaptējušās adaptējāmies adaptējās adaptēsies adaptēsimies adaptētos adaptēšanās jāadaptējas
+24	8024	er	
+25	8025	flīģelis	flīģeli flīģelim flīģelī flīģeļa flīģeļi flīģeļu
+26	8026	bezdelīga	bezdelīgai bezdelīgas bezdelīgu
+27	8027	ieteka	ietekai ietekas ieteku ietekā ietekām
+28	8028	kārot	kāro kāroja kārojams kārojat kārojiet kārojis kārojot kāroju kāros kārots kārotu
+29	8029	šķirba	šķirbas šķirbu šķirbā šķirbām šķirbās
+30	8030	piecnieks	piecnieka piecniekam piecnieki piecniekiem piecnieku piecniekus piecniekā
+31	8031	indēt	indē indēja indējam indējis indējot indēju indēs indēta indēti indēto indēts indēšana indēšanai indēšanas indēšanu indēšanā indēšanām jāindē neindēs neindēsim neindēt
+32	8032	granātmetējs	granātmetēja granātmetēji granātmetējiem granātmetēju
+33	8033	velnišķīgs	velnišķīga velnišķīgas velnišķīgos velnišķīgu velnišķīgā velnišķīgāks velnišķīgām velnišķīgās
+34	8034	uzkraut	jāuzkrauj neuzkrauj neuzkraujot neuzkraut uzkrauj uzkraujam uzkraujot uzkrauju uzkraus uzkrausim uzkrauts uzkrautu uzkrāva uzkrāvis uzkrāvu
+35	8035	kūlenis	kūleni kūlenu kūlenī kūleņa kūleņi kūleņiem kūleņos kūleņu kūleņus
+36	8036	meteorologs	meteorologa meteorologam meteorologi meteorologiem meteorologu meteorologus
+37	8037	izmācīties	izmācies izmācās izmācījies izmācījos izmācījās izmācīsies izmācīsieties izmācītos izmācīšos jāizmācās neizmācīsies neizmācīties
+38	8038	cietviela	cietvielas cietvielu cietvielās
+39	8039	augstceltne	augstceltnei augstceltnes augstceltni augstceltnē augstceltnēm augstceltnēs augstceltņu
+40	8040	bērnistaba	bērnistabai bērnistabas bērnistabu bērnistabā bērnistabām bērnistabās
+41	8041	pazemošana	pazemošanas pazemošanu pazemošanā pazemošanās
+42	8042	plēsties	jāplēšas neplēsties plēsos plēstos plēsāmies plēsās plēsīsies plēsīsimies plēsīšos plēšamies plēšanās plēšas plēšoties
+43	8043	uzpīpēt	jāuzpīpē neuzpīpējis uzpīpē uzpīpēdams uzpīpējam uzpīpējis uzpīpējot uzpīpēju uzpīpētu uzpīpēšu
+44	8044	šaurums	šauruma šaurumam šaurumos šaurumu šaurumus šaurumā
+45	8045	apkalpotāja	apkalpotājai apkalpotājas apkalpotāju apkalpotājām
+46	8046	planetārijs	planetārija planetārijam planetārijiem planetāriju planetārijā
+47	8047	nokavēties	nenokavējamies nokavējas nokavējies nokavējos nokavējusies nokavējušies nokavējāmies nokavējās nokavētos nokavēšanās nokavēšos
+48	8048	iedzelt	iedzels iedzelts iedzeļ iedzēla iedzēlis iedzēlusi iedzēlušas
+49	8049	pārplēst	nepārplēs nepārplēstu pārplēs pārplēsa pārplēsis pārplēstu pārplēsu pārplēsīs pārplēsīsi pārplēš pārplēšot
+50	8050	plīšs	plīša
+51	8051	debitants	debitanta debitantam debitanti debitantiem debitantu debitantus
+52	8052	scenāriste	scenāristei scenāristes scenāristi scenāristēm
+53	8053	naksnīgs	naksnīga naksnīgais naksnīgajai naksnīgajam naksnīgajiem naksnīgajā naksnīgajām naksnīgajās naksnīgas naksnīgiem naksnīgo naksnīgos naksnīgu naksnīgā naksnīgām naksnīgās
+54	8054	testosterons	testosterona testosteronu testosteronus
+55	8055	novaldīt	jānovalda nenovalda nenovaldot nenovaldīja nenovaldīju nenovaldīs nenovaldītu novalda novaldījis
+56	8056	nopūst	jānopūš nenopūstu nopūsti nopūsts nopūstu nopūtis nopūtīs nopūtīsim nopūtīšu nopūš nopūšam nopūšot nopūšu
+57	8057	apraudāt	apraud apraudam apraudamo apraudat apraudi apraudot apraudādami apraudādams apraudāja apraudājuši apraudājušās apraudājām apraudās apraudāsiet apraudāti apraudātie jāapraud neapraudāt
+58	8058	trīssimt	
+59	8059	velnišķīgi	
+60	8060	ģeologs	ģeologa ģeologam ģeologi ģeologiem ģeologu ģeologus ģeoloģe
+61	8061	homoseksuāls	anālas homoseksuāla homoseksuālais homoseksuālajam homoseksuālajiem homoseksuālajām homoseksuālajās homoseksuālam homoseksuālas homoseksuālie homoseksuāliem homoseksuālo homoseksuālu homoseksuālus homoseksuālā homoseksuālām homoseksuālās vishomoseksuālākie
+62	8062	piestādīt	nepiestādīs piestāda piestādot piestādām piestādīja piestādījis piestādījusi piestādījuši piestādīs piestādīsim piestādīta piestādītajam piestādītajiem piestādītajos piestādīti piestādītie piestādīto piestādītos piestādīts piestādītu piestādītā piestādīšana piestādīšot
+63	8063	nepastāvīgs	nepastāvīga nepastāvīgais nepastāvīgajiem nepastāvīgajos nepastāvīgas nepastāvīgi nepastāvīgie nepastāvīgiem nepastāvīgo nepastāvīgos nepastāvīgu nepastāvīgus nepastāvīgā nepastāvīgāka nepastāvīgāks nepastāvīgāku nepastāvīgām nepastāvīgās
+64	8064	smēde	smēdes smēdi smēdē smēdēm smēdēs
+65	8065	islandiete	islandieti islandieši islandiešiem islandiešu islandiešus īslandieši īslandiešiem īslandiešu
+66	8066	atvars	atvara atvaram atvari atvariem atvaros atvaru atvarā
+67	8067	slovāks	slovaki slovaku slovāka slovākam slovāki slovākiem slovākiete slovākietēm slovākos slovāku
+68	8068	kapitulācija	kapitulācijai kapitulācijas kapitulāciju
+69	8069	sinonīmi	
+70	8070	iespiest	
+71	8071	noņemties	jānoņemas nenoņemas noņemas noņemies noņemos noņemoties noņemsies noņemšanās noņēmies noņēmos noņēmusies noņēmušies noņēmāmies noņēmās
+72	8072	noliet	jānolej nolej nolejam nolejat nolejiet nolejot noleju nolies nolieta nolietas nolieti noliets nolietu nolēja nolēji nolējis
+73	8073	diedelēt	diedelē diedelēdams diedelēja diedelējot diedelējuši diedelēs diedelēsi diedelēšana diedelēšanas diedelēšanu jādiedelē nediedelē nediedelēja nediedelētu
+74	8074	uzdzert	jāuzdzer neuzdzerot uzdzer uzdzeram uzdzeramais uzdzeramo uzdzerdams uzdzeriet uzdzerot uzdzersim uzdzertas uzdzerts uzdzeru uzdzēra uzdzēri uzdzērusi uzdzērām
+75	8075	ekstāze	ekstāzei ekstāzes ekstāzi ekstāzē
+76	8076	iesviest	iesvied iesvieda iesviedi iesviedis iesviedu iesviedīs iesviedīšu iesviests iesviestu iesviešana iesviež iesviežam iesviežat iesviežot iesviežu jāiesviež
+77	8077	sarkastisks	sarkastiska sarkastiskai sarkastiskais sarkastiskajiem sarkastiskas sarkastiski sarkastiskie sarkastiskiem sarkastisko sarkastisku sarkastiskus
+78	8078	atšūt	atšuj atšujiet atšujot atšuva atšuvis atšūs atšūti atšūts atšūšana
+79	8079	ieaugt	ieaudzis ieaug ieauga ieaugot ieaugs ieaugtos ieaugtu ieaugusi ieauguša ieaugušas ieauguši ieaugušiem ieaugušo ieaugušos ieaugušu ieaugušus ieaugušā ieaugušām ieaugām ieaugšana jāieaug neieauga neieaugdami neieaugs neieaugtu
+80	8080	nodzerties	jānodzeras nenodzeras nenodzeros nenodzersies nenodzertos nenodzērās nodzeras nodzeries nodzeros nodzeroties nodzersies nodzeršanās nodzeršos nodzeršoties nodzēries nodzēros nodzērusies nodzērušies nodzērušās nodzērās
+81	8081	izdemolēt	izdemolē izdemolēja izdemolējis izdemolējot izdemolēju izdemolējusi izdemolējuši izdemolēs izdemolēta izdemolētas izdemolēti izdemolēto izdemolēts izdemolētu izdemolētā izdemolēšana izdemolēšanas izdemolēšanu izdemolēšu neizdemolē neizdemolēta neizdemolētu
+82	8082	rūda	rūdai rūdas rūdi rūdu rūdām rūdās
+83	8083	algebra	algebras algebru algebrā
+84	8084	čakarēties	jāčakarējas nečakarējaties nečakarējies nečakarēsies nečakarēties nečakarētos čakarējas čakarējies čakarējos čakarējoties čakarējās čakarēsimies čakarēšanās čakarēšos
+85	8085	fizioloģisks	fizioloģiska fizioloģiskais fizioloģiskajam fizioloģiskajiem fizioloģiskajos fizioloģiskajā fizioloģiskajām fizioloģiskam fizioloģiskas fizioloģiskie fizioloģisko fizioloģiskos fizioloģisku fizioloģiskus fizioloģiskā fizioloģiskāks fizioloģiskām fizioloģiskās
+86	8086	uzrakt	jāuzrok uzraka uzraks uzraksim uzrakts uzraku uzrakām uzroc uzrok uzrokot
+87	8087	pielauzt	nepielauzīs pielauza pielauzi pielauzu pielauzām pielauzāt pielauzīšu pielauž pielaužam pielaužams
+88	8088	cilvēcīgi	
+89	8089	gaumīgi	
+90	8090	vasarīgs	vasarīga vasarīgai vasarīgais vasarīgajai vasarīgajiem vasarīgajā vasarīgajām vasarīgajās vasarīgam vasarīgas vasarīgie vasarīgiem vasarīgo vasarīgos vasarīgu vasarīgus vasarīgā vasarīgāka vasarīgākais vasarīgākajiem vasarīgākajām vasarīgāko vasarīgāku vasarīgākus vasarīgākā vasarīgām vasarīgās visvasarīgākais
+91	8091	uzvērt	jāuzver uzver uzverot uzvēra uzvēris uzvērs uzvērts uzvēru
+92	8092	baronese	baronesei baroneses baronesi baronešu
+93	8093	cīpsla	cīpslai cīpslas cīpslu cīpslā cīpslām
+94	8094	instinktīvs	instinktīva instinktīvais instinktīvas instinktīvi instinktīvo instinktīvu instinktīvā instinktīvām instinktīvās
+95	8095	palielīt	jāpaliela paliela palieli palielot palielu palielām palielīja
+96	8096	vīģe	vīģes vīģu vīģēm
+97	8097	baltums	baltum baltuma baltumam baltumi baltumiem baltumos baltumu baltumus baltumā
+98	8098	izgaršot	izgaršo izgaršodams izgaršoja izgaršojam izgaršojams izgaršojiet izgaršojis izgaršojot izgaršojošu izgaršoju izgaršojuši izgaršojām izgaršosi izgaršosiet izgaršosim izgaršotas izgaršots izgaršotu izgaršošana jāizgaršo neizgaršo neizgaršojot
+99	8099	pakaramais	pakaramajam pakaramajiem pakaramie pakaramiem pakaramo pakaramos pakaramā
+100	8100	amizanti	

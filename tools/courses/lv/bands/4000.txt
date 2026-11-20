@@ -1,100 +1,100 @@
-1	3901	nodevība	nodevībai nodevības nodevību nodevībā nodevībām
-2	3902	saraut	jāsarauj nesarauj nesaraujams nesaraujot nesaraus nesaraut nesarautu sarauj saraujam saraujot sarauju saraus sarauts sarautu saraušana saraušu sarāva sarāvi sarāvis sarāvu sarāvāt
-3	3903	māls	māl māla mālam māli māliem mālu mālus mālā
-4	3904	kvalificēts	kvalificēta kvalificētai kvalificētais kvalificētajai kvalificētajam kvalificētajiem kvalificētajām kvalificētam kvalificētas kvalificēti kvalificētie kvalificētiem kvalificēto kvalificētos kvalificētu kvalificētus kvalificētā kvalificētāk kvalificētākajiem kvalificētākajās kvalificētākie kvalificētāko kvalificētākos kvalificētāks kvalificētāku kvalificētākus kvalificētām kvalificētās
-5	3905	solists	solista solistam solisti solistiem solistu solistus solistā
-6	3906	iejusties	iejustos iejuties iejutos iejutās iejutīsies iejutīsimies iejutīšos iejuzdamies iejušanās iejūties iejūtieties iejūtos iejūtoties neiejustos neiejūtaties neiejūtoties
-7	3907	intuīcija	intuīcijai intuīcijas intuīciju intuīcijā
-8	3908	kolonna	kolonnai kolonnas kolonnu kolonnā kolonnām kolonnās
-9	3909	salvete	salvetei salvetes salveti salvetē salvetēm salvetēs salvešu
-10	3910	šķēle	šķēlei šķēles šķēli šķēlē šķēlēm šķēlēs šķēlīte šķēļu
-11	3911	miljonārs	miljonār miljonāra miljonāram miljonāre miljonārei miljonāres miljonāri miljonāriem miljonāru miljonārus
-12	3912	rads	rad rada radam radi radiem rados radu radus radā
-13	3913	liepa	liepai liepam liepas liepi liepu liepā liepām liepās
-14	3914	žēlīgs	visžēlīgākais visžēlīgākā žēlīga žēlīgais žēlīgajām žēlīgas žēlīgi žēlīgie žēlīgiem žēlīgo žēlīgos žēlīgu žēlīgā žēlīgāk žēlīgāka žēlīgāki žēlīgākā
-15	3915	grams	grama gramam grami gramiem gramos gramu gramus gramā
-16	3916	tinte	tintei tintes tinti tintē tintēm
-17	3917	zīmulis	zīmuli zīmulim zīmulī zīmuļa zīmuļi zīmuļiem zīmuļu zīmuļus
-18	3918	aizdevējs	aizdevēja aizdevējam aizdevēji aizdevējiem aizdevēju aizdevējus
-19	3919	kāposti	kāposta kāpostam kāpostiem kāpostos kāposts kāpostu kāpostus kāpostā
-20	3920	aculiecinieks	aculieciniece aculieciniek aculiecinieka aculieciniekam aculiecinieki aculieciniekiem aculieciniekos aculiecinieku aculieciniekus aculieciniekā
-21	3921	parakstīties	neparakstījies neparakstījos neparakstījušies neparakstījāmies neparakstījās neparakstīsies neparakstīties neparakstītos neparakstīšos parakstieties parakstos parakstoties parakstāties parakstījas parakstījies parakstījos parakstījusies parakstījušies parakstījušās parakstījāmies parakstījās parakstījāties parakstīsies parakstīsieties parakstīsimies parakstītos parakstīšanās parakstīšos
-22	3922	fantoms	fantoma fantomam fantomi fantomiem fantomos fantomu fantomus
-23	3923	hormons	hormona hormonam hormoni hormoniem hormonos hormonu hormonus
-24	3924	sēt	jāsēj nesēt sēdams sēj sēja sējai sējam sējams sējas sējat sējiem sējiet sējis sējot sēju sējā sējām sējās sējāt sēs sēsi sēsiet sēsim sēsit sēts sētu sēšana sēšot sēšu
-25	3925	celtnieks	celtnieka celtniekam celtnieki celtniekiem celtnieku celtniekus celtniekā
-26	3926	rokraksts	rokraksta rokrakstam rokraksti rokrakstiem rokrakstos rokrakstu rokrakstus rokrakstā
-27	3927	pasēdēt	jāpasēž nepasēdēt nepasēdētu pasēdi pasēdiet pasēdēja pasēdējis pasēdēju pasēdējām pasēdēs pasēdēsi pasēdēsim pasēdētu pasēdēšana pasēdēšu pasēž pasēžam pasēžot pasēžu
-28	3928	sazvērestība	sazvērestībai sazvērestības sazvērestību sazvērestībā sazvērestībām sazvērestībās
-29	3929	melodija	melodijai melodijam melodijas melodiju melodijā melodijām melodijās
-30	3930	šķēps	šķēpa šķēpam šķēpi šķēpiem šķēpu šķēpus
-31	3931	holandietis	holandiete holandietes holandieti holandietim holandietī holandieša holandieši holandiešiem holandiešu holandiešus
-32	3932	sazvanīt	jāsazvana nesazvanīja nesazvanīju sazvana sazvani sazvanot sazvanu sazvanām sazvanāms sazvanīja sazvanījis sazvanīju sazvanījusi sazvanījuši sazvanījām sazvanīs sazvanīta sazvanītais sazvanīti sazvanītie sazvanīto sazvanīts sazvanītu sazvanītā sazvanīšanu sazvanīšu
-33	3933	skūpstīt	jāskūpsta neskūpsta neskūpsti neskūpstīja neskūpstīsi neskūpstīt neskūpstītu neskūpstīšana neskūpstīšu skūpsta skūpsti skūpstiet skūpstot skūpstošos skūpstu skūpstām skūpstāmu skūpstīja skūpstīji skūpstījis skūpstīju skūpstījusi skūpstījuši skūpstījām skūpstīs skūpstīsim skūpstīta skūpstītu skūpstīšana skūpstīšanos skūpstīšanu skūpstīšanās skūpstīšu
-34	3934	grezns	grezna greznai greznais greznajai greznajam greznajiem greznajos greznajā greznajām greznajās greznam greznas grezni greznie grezniem grezno greznos greznu greznus greznā greznāk greznāka greznākais greznākajiem greznākajā greznākajām greznākas greznākie greznākiem greznāko greznāks greznāku greznākus greznākā greznākās greznām greznās visgreznākajās visgreznāko
-35	3935	asmens	asmeni asmenim asmeņi asmeņiem asmeņu asmeņus
-36	3936	gids	gid gida gidam gide gidi gidiem gidu gidus gidā
-37	3937	izzust	izzuda izzudis izzudu izzudīs izzudīsi izzudīšot izzustu izzušana izzūd izzūdam izzūdot izzūdošs jāizzūd neizzuda neizzudīs neizzudīsim neizzudīšot neizzust neizzustu neizzūd
-38	3938	ķirurgs	ķirurg ķirurga ķirurgam ķirurgi ķirurgiem ķirurgu ķirurgus ķirurģe
-39	3939	teritoriāls	teritoriālai teritoriālais teritoriālajai teritoriālajam teritoriālajiem teritoriālajos teritoriālajā teritoriālajām teritoriālajās teritoriālas teritoriāli teritoriālie teritoriālo teritoriālos teritoriālu teritoriālā teritoriālām teritoriālās
-40	3940	aizsegt	aizsedz aizsedza aizsedzam aizsedziet aizsedzis aizsedzot aizsedzošs aizsedzu aizsegs aizsegts aizsegtu aizsegšana jāaizsedz neaizsedz neaizsedziet neaizsedzot neaizsegs neaizsegt neaizsegts neaizsegtu
-41	3941	precizitāte	precizitātei precizitātes precizitāti precizitātē precizitāšu
-42	3942	dambis	damba dambi dambim dambja dambji dambjiem dambjos dambju dambjus dambī
-43	3943	zārks	zārka zārkam zārki zārkiem zārkos zārku zārkus zārkā
-44	3944	vampīrs	vampīr vampīra vampīram vampīri vampīriem vampīru vampīrus
-45	3945	apslēpt	apslēp apslēpa apslēpi apslēpis apslēpj apslēpjams apslēpjot apslēpju apslēpta apslēptai apslēptais apslēptajai apslēptajiem apslēptajā apslēptajām apslēptajās apslēptam apslēptas apslēpti apslēptie apslēptiem apslēpto apslēptos apslēpts apslēptu apslēptus apslēptā apslēptām apslēptās apslēpu apslēpuši apslēpšana jāapslēpj neapslēpj neapslēpšu
-46	3946	dabasgāze	dabasgāzei dabasgāzes dabasgāzi
-47	3947	sadegt	jāsadeg nesadeg nesadega nesadegot nesadegs nesadegt nesadegtu nesadeguša nesadegušo nesadegšu sadedz sadedzis sadeg sadega sadegam sadegdami sadegot sadegs sadegsi sadegsiet sadegsim sadegtu sadegu sadegusi sadegusī sadegušais sadegušajiem sadegušajā sadegušajām sadegušas sadeguši sadegušie sadegušiem sadegušo sadegušu sadegušā sadegušās sadegšana sadegšu
-48	3948	indiānis	indiāna indiāni indiāniem indiānietes indiānieti indiānim indiānu indiāņa indiāņi indiāņiem indiāņos indiāņu indiāņus
-49	3949	nagla	naglai naglas naglu naglām naglās
-50	3950	akcentēt	akcentē akcentēja akcentējam akcentējama akcentējami akcentējamo akcentējis akcentējot akcentējošo akcentēju akcentējusi akcentējušas akcentējuši akcentējām akcentēs akcentēsim akcentēta akcentētas akcentēti akcentētiem akcentēto akcentēts akcentētu akcentētus akcentētā akcentēšana akcentēšanai akcentēšanas akcentēšanu akcentēšu jāakcentē neakcentē neakcentēja neakcentējot neakcentēju neakcentēt
-51	3951	balkons	balkona balkonam balkoni balkoniem balkonos balkonu balkonus balkonā
-52	3952	blēdis	blēdi blēdim blēdī blēža blēži blēžiem blēžos blēžu blēžus
-53	3953	bruņas	bruņa bruņu bruņām bruņās
-54	3954	deputāte	deputātei deputātes deputātēm deputāšu
-55	3955	arēnā	
-56	3956	svešvaloda	svešvalodai svešvalodas svešvalodu svešvalodā svešvalodām svešvalodās
-57	3957	nomaksāt	jānomaksā nenomaksā nenomaksājot nenomaksās nenomaksāta nenomaksātajiem nenomaksātas nenomaksāti nenomaksātiem nenomaksāto nenomaksātos nenomaksāts nenomaksātu nenomaksātā nenomaksātās nomaksā nomaksāja nomaksājam nomaksājamo nomaksājiet nomaksājis nomaksājot nomaksāju nomaksājusi nomaksājuši nomaksās nomaksāta nomaksātais nomaksātajiem nomaksātas nomaksāti nomaksātie nomaksātiem nomaksāto nomaksāts nomaksātu nomaksātus nomaksātā nomaksātās
-58	3958	izsacīties	izsacījies izsacījāties izsakas izsakies izsakieties izsakos izsakoties izsakāmas izsakāmies izsakās izsakāties jāizsakoties jāizsakās neizsakies neizsakos neizsakāmas neizsakāmās neizsakās
-59	3959	locītava	locītavai locītavas locītavu locītavā locītavām locītavās
-60	3960	izlikt	izlicis izliec izliek izliekam izliekams izliekat izliekot izlieku izlika izliki izliks izliksi izliksim izlikts izliktu izliku izlikām izlikāt izlikšana izlikšot izlikšu jāizliek neizliec neizliek neizliekam neizliekat neizliekot neizlieku neizlika neizliksiet neizlikt neizlikām neizlikšana
-61	3961	laupītājs	laupītāja laupītājam laupītāji laupītājiem laupītāju laupītājus
-62	3962	ēģiptietis	ēģiptieti ēģiptietim ēģiptieša ēģiptieši ēģiptiešiem ēģiptiešu ēģiptiešus
-63	3963	apsēsties	apsēdās apsēžas neapsēsties
-64	3964	kalifornijs	kalifornija kaliforniju kalifornijā
-65	3965	uzlauzt	jāuzlauž neuzlauzta neuzlauztu neuzlauž neuzlaužams uzlauz uzlauza uzlauzi uzlauziet uzlauzis uzlauzta uzlauztai uzlauztas uzlauzti uzlauztiem uzlauzts uzlauztu uzlauztā uzlauztās uzlauzu uzlauzīs uzlauzīsi uzlauzīsim uzlauzīšu uzlaušana uzlauž uzlaužam uzlaužams uzlaužot
-66	3966	sūkāt	jāsūkā nesūkā nesūkās nesūkāšu sūkā sūkāja sūkājamo sūkājamu sūkājamām sūkājamās sūkāji sūkājiet sūkājis sūkājot sūkāju sūkājusi sūkās sūkāsi sūkātu sūkāšana sūkāšanas sūkāšanu sūkāšu
-67	3967	alkoholisks	alkoholiska alkoholiskais alkoholiskajiem alkoholiskajos alkoholiskajā alkoholiskas alkoholiski alkoholiskie alkoholiskiem alkoholisko alkoholiskos alkoholisku alkoholiskus alkoholiskā alkoholiskās
-68	3968	bargs	barga bargai bargais bargajai bargajam bargajiem bargajos bargajā bargajām bargajās bargam bargas bargie bargiem bargo bargos bargu bargus bargā bargāk bargāka bargākais bargākam bargākas bargāki bargākiem bargāko bargākos bargāks bargāku bargākus bargākā bargākām bargām bargās visbargākais visbargākajiem visbargākie visbargākā
-69	3969	mazdēls	mazdēla mazdēlam mazdēli mazdēliem mazdēlu mazdēlā
-70	3970	plūst	plūda
-71	3971	kukulis	kukula kukuli kukulim kukulos kukulu kukulus kukulī kukuļa kukuļi kukuļiem kukuļos kukuļu kukuļus
-72	3972	banāns	banāna banānam banāni banāniem banānos banānu banānus banānā
-73	3973	trūcīgs	trūcīga trūcīgai trūcīgais trūcīgajai trūcīgajam trūcīgajiem trūcīgajos trūcīgajā trūcīgajām trūcīgajās trūcīgam trūcīgas trūcīgie trūcīgiem trūcīgo trūcīgos trūcīgu trūcīgus trūcīgā trūcīgāk trūcīgāka trūcīgākajiem trūcīgākajā trūcīgākajām trūcīgāki trūcīgākie trūcīgākiem trūcīgāko trūcīgākos trūcīgāks trūcīgāku trūcīgākām trūcīgākās trūcīgām trūcīgās vistrūcīgākajiem vistrūcīgākajām vistrūcīgākie vistrūcīgāko
-74	3974	cēls	cēla cēlai cēlais cēlajai cēlajam cēlajiem cēlajos cēlajā cēlajām cēlam cēlas cēlie cēliem cēlo cēlos cēlu cēlus cēlā cēlāk cēlāka cēlākais cēlākajai cēlākajām cēlākam cēlākas cēlāki cēlākie cēlākiem cēlāko cēlāks cēlāku cēlākām cēlākās cēlām cēlās viscēlākais viscēlākajiem viscēlāko viscēlākās
-75	3975	īstenība	īstenībai īstenības īstenību īstenībām
-76	3976	piliens	piliena pilienam pilieni pilieniem pilienos pilienu pilienus pilienā
-77	3977	vienpadsmit	vienpadsmitiem vienpadsmitos
-78	3978	lasīties	jālasās lasas lasies lasieties lasos lasoties lasāmies lasās lasījos lasījās lasīsies nelasās nelasījās nelasīties
-79	3979	iesākums	iesākuma iesākumam iesākumi iesākumiem iesākumos iesākumu iesākumus iesākumā
-80	3980	trakums	trakum trakuma trakumam trakumi trakumiem trakumu trakumus trakumā
-81	3981	krogs	kroga krogam krogi krogiem krogos krogu krogus krogā
-82	3982	kliegt	
-83	3983	evakuācija	evakuācijai evakuācijas evakuāciju evakuācijā evakuācijām
-84	3984	plate	platei plates platē platēm platēs plašu
-85	3985	cālis	cāli cālim cālī cāļa cāļi cāļiem cāļu cāļus
-86	3986	mocīt	moca moci mocīdams mocīja mocīji mocījis mocīju mocījusi mocījušas mocījām mocīs mocīsi mocīta mocītais mocītas mocīti mocītie mocīts mocītu mocītā mocīšana mocīšanas mocīšanu mocīšu nemoci nemociet nemocīja nemocījis nemocīju nemocīs nemocītu nemocīšu
-87	3987	seksīgi	
-88	3988	autoritāte	autoritātei autoritātes autoritāti autoritātē autoritātēm autoritātēs autoritāšu
-89	3989	vilna	vilnai vilnas vilnu vilnā
-90	3990	mutants	mutanta mutantam mutanti mutantiem mutantu mutantus
-91	3991	plašsaziņas	plašsaziņai
-92	3992	citāts	citāta citātam citāti citātiem citātos citātu citātus citātā
-93	3993	uzdrīkstēties	neuzdrīksties neuzdrīkstieties neuzdrīkstos neuzdrīkstoties neuzdrīkstēdamies neuzdrīkstējies neuzdrīkstējos neuzdrīkstējās neuzdrīkstēsies neuzdrīkstēsimies neuzdrīkstēsities neuzdrīkstētos neuzdrīkstēšos uzdrīkstaties uzdrīksties uzdrīkstieties uzdrīkstos uzdrīkstoties uzdrīkstējies uzdrīkstējos uzdrīkstējusies uzdrīkstējušies uzdrīkstējušās uzdrīkstējāmies uzdrīkstējās uzdrīkstēsies uzdrīkstētos uzdrīkstēšanās uzdrīkstēšos uzdrīkstēšoties
-94	3994	zombijs	zombij zombija zombijam zombiji zombijiem zombiju zombijus zombijā
-95	3995	vāvere	vāverei vāveres vāveri vāveru vāverē vāverēm vāverēs
-96	3996	bulvāris	bulvāra bulvāri bulvāriem bulvārim bulvāros bulvāru bulvārī
-97	3997	uzzīmēt	jāuzzīmē neuzzīmējāt neuzzīmēs neuzzīmēt uzzīmē uzzīmēja uzzīmējam uzzīmējams uzzīmēji uzzīmējiet uzzīmējis uzzīmējot uzzīmēju uzzīmējām uzzīmējāt uzzīmēs uzzīmēsi uzzīmēsiet uzzīmēsim uzzīmēts uzzīmētu uzzīmēšana uzzīmēšu
-98	3998	uzaicinājums	uzaicinājuma uzaicinājumam uzaicinājumi uzaicinājumiem uzaicinājumos uzaicinājumu uzaicinājumus uzaicinājumā
-99	3999	turētājs	turētāja turētājam turētāji turētājiem turētājos turētāju turētājus turētājā
-100	4000	diagnoze	diagnozei diagnozes diagnozi diagnozē diagnozēm diagnozēs diagnožu
+1	3901	burkāns	burkān burkāna burkānam burkāni burkāniem burkānos burkānu burkānus burkānā
+2	3902	īstermiņš	īstermiņa īstermiņam īstermiņu īstermiņā
+3	3903	piemeklēt	jāpiemeklē nepiemeklē nepiemeklēja nepiemeklēs nepiemeklētu piemeklē piemeklēja piemeklējam piemeklējama piemeklējiet piemeklējis piemeklējot piemeklēju piemeklējusi piemeklējušajās piemeklējušas piemeklējuši piemeklējušo piemeklējām piemeklēs piemeklēsiet piemeklēsim piemeklēta piemeklētais piemeklētajai piemeklētajiem piemeklētajā piemeklētas piemeklēti piemeklētie piemeklētiem piemeklēto piemeklēts piemeklētu piemeklētā piemeklētām piemeklētās piemeklēšana piemeklēšu
+4	3904	slēdzene	slēdzenei slēdzenes slēdzeni slēdzenē slēdzenēm slēdzenēs slēdzeņu
+5	3905	trusis	trusa trusi trusim truša truši trušiem trušu trušus
+6	3906	izdevējs	izdevēja izdevējam izdevēji izdevējiem izdevējos izdevēju izdevējus
+7	3907	bungas	bungu bungā bungām bungās
+8	3908	paciest	jāpacieš paciestu paciet pacieta pacieti pacietiet pacietis pacietu pacietām pacietāt pacietīs pacietīsi pacietīsim pacietīšu paciezdams pacieš paciešam paciešams paciešana paciešot paciešu
+9	3909	varavīksne	varavīksnei varavīksnes varavīksni varavīksnē varavīksnēm varavīkšņu
+10	3910	kuņģis	kuņģa kuņģi kuņģiem kuņģim kuņģos kuņģu kuņģus kuņģī
+11	3911	leģendārs	leģendāra leģendārai leģendārais leģendārajai leģendārajam leģendārajiem leģendārajos leģendārajā leģendārajām leģendārajās leģendāras leģendāri leģendārie leģendāriem leģendāro leģendāros leģendāru leģendārus leģendārā leģendārākajam leģendārākajiem leģendārākajām leģendārākie leģendārāko leģendārākos leģendārām leģendārās visleģendārākā
+12	3912	padalīties	jāpadalās nepadaloties nepadalās nepadalāties nepadalījās nepadalīties padalies padalieties padalos padaloties padalāmies padalās padalāties padalījies padalījos padalījusies padalījušies padalījušās padalījās padalījāties padalīsies padalīsieties padalīsimies padalītos padalīšos
+13	3913	zinātniski	
+14	3914	vasks	vaska vaskam vaski vaskiem vaskos vasku vaskus vaskā
+15	3915	lēkties	lecas lecies lēcies lēkšos nelecas nelecies nelecieties
+16	3916	viltīgs	viltīga viltīgais viltīgajam viltīgajiem viltīgajos viltīgajā viltīgajām viltīgajās viltīgam viltīgas viltīgi viltīgie viltīgiem viltīgo viltīgos viltīgu viltīgus viltīgā viltīgāk viltīgāka viltīgākam viltīgākas viltīgāki viltīgākie viltīgākiem viltīgāks viltīgāku viltīgākā viltīgām viltīgās visviltīgākie visviltīgāko visviltīgākā
+17	3917	nodevība	nodevībai nodevības nodevību nodevībā nodevībām
+18	3918	saraut	jāsarauj nesarauj nesaraujams nesaraujot nesaraus nesaraut nesarautu sarauj saraujam saraujot sarauju saraus sarauts sarautu saraušana saraušu sarāva sarāvi sarāvis sarāvu sarāvāt
+19	3919	māls	māl māla mālam māli māliem mālu mālus mālā
+20	3920	kvalificēts	kvalificēta kvalificētai kvalificētais kvalificētajai kvalificētajam kvalificētajiem kvalificētajām kvalificētam kvalificētas kvalificēti kvalificētie kvalificētiem kvalificēto kvalificētos kvalificētu kvalificētus kvalificētā kvalificētāk kvalificētākajiem kvalificētākajās kvalificētākie kvalificētāko kvalificētākos kvalificētāks kvalificētāku kvalificētākus kvalificētām kvalificētās
+21	3921	solists	solista solistam solisti solistiem solistu solistus solistā
+22	3922	iejusties	iejustos iejuties iejutos iejutās iejutīsies iejutīsimies iejutīšos iejuzdamies iejušanās iejūties iejūtieties iejūtos iejūtoties neiejustos neiejūtaties neiejūtoties
+23	3923	intuīcija	intuīcijai intuīcijas intuīciju intuīcijā
+24	3924	kolonna	kolonnai kolonnas kolonnu kolonnā kolonnām kolonnās
+25	3925	salvete	salvetei salvetes salveti salvetē salvetēm salvetēs salvešu
+26	3926	šķēle	šķēlei šķēles šķēli šķēlē šķēlēm šķēlēs šķēlīte šķēļu
+27	3927	miljonārs	miljonār miljonāra miljonāram miljonāre miljonārei miljonāres miljonāri miljonāriem miljonāru miljonārus
+28	3928	rads	rad rada radam radi radiem rados radu radus radā
+29	3929	liepa	liepai liepam liepas liepi liepu liepā liepām liepās
+30	3930	piesaiste	piesaistei piesaistes piesaisti piesaistē piesaistēm
+31	3931	žēlīgs	visžēlīgākais visžēlīgākā žēlīga žēlīgais žēlīgajām žēlīgas žēlīgi žēlīgie žēlīgiem žēlīgo žēlīgos žēlīgu žēlīgā žēlīgāk žēlīgāka žēlīgāki žēlīgākā
+32	3932	grams	grama gramam grami gramiem gramos gramu gramus gramā
+33	3933	tinte	tintei tintes tinti tintē tintēm
+34	3934	zīmulis	zīmuli zīmulim zīmulī zīmuļa zīmuļi zīmuļiem zīmuļu zīmuļus
+35	3935	aizdevējs	aizdevēja aizdevējam aizdevēji aizdevējiem aizdevēju aizdevējus
+36	3936	kāposti	kāposta kāpostam kāpostiem kāpostos kāposts kāpostu kāpostus kāpostā
+37	3937	aculiecinieks	aculieciniece aculieciniek aculiecinieka aculieciniekam aculiecinieki aculieciniekiem aculieciniekos aculiecinieku aculieciniekus aculieciniekā
+38	3938	fantoms	fantoma fantomam fantomi fantomiem fantomos fantomu fantomus
+39	3939	hormons	hormona hormonam hormoni hormoniem hormonos hormonu hormonus
+40	3940	sēt	jāsēj nesēt sēdams sēj sēja sējai sējam sējams sējas sējat sējiem sējiet sējis sējot sēju sējā sējām sējās sējāt sēs sēsi sēsiet sēsim sēsit sēts sētu sēšana sēšot sēšu
+41	3941	celtnieks	celtnieka celtniekam celtnieki celtniekiem celtnieku celtniekus celtniekā
+42	3942	rokraksts	rokraksta rokrakstam rokraksti rokrakstiem rokrakstos rokrakstu rokrakstus rokrakstā
+43	3943	pasēdēt	jāpasēž nepasēdēt nepasēdētu pasēdi pasēdiet pasēdēja pasēdējis pasēdēju pasēdējām pasēdēs pasēdēsi pasēdēsim pasēdētu pasēdēšana pasēdēšu pasēž pasēžam pasēžot pasēžu
+44	3944	sazvērestība	sazvērestībai sazvērestības sazvērestību sazvērestībā sazvērestībām sazvērestībās
+45	3945	melodija	melodijai melodijam melodijas melodiju melodijā melodijām melodijās
+46	3946	šķēps	šķēpa šķēpam šķēpi šķēpiem šķēpu šķēpus
+47	3947	padeve	padevei padeves padevi padevē padevēm
+48	3948	holandietis	holandiete holandietes holandieti holandietim holandietī holandieša holandieši holandiešiem holandiešu holandiešus
+49	3949	sazvanīt	jāsazvana nesazvanīja nesazvanīju sazvana sazvani sazvanot sazvanu sazvanām sazvanāms sazvanīja sazvanījis sazvanīju sazvanījusi sazvanījuši sazvanījām sazvanīs sazvanīta sazvanītais sazvanīti sazvanītie sazvanīto sazvanīts sazvanītu sazvanītā sazvanīšanu sazvanīšu
+50	3950	skūpstīt	jāskūpsta neskūpsta neskūpsti neskūpstīja neskūpstīsi neskūpstīt neskūpstītu neskūpstīšana neskūpstīšu skūpsta skūpsti skūpstiet skūpstot skūpstošos skūpstu skūpstām skūpstāmu skūpstīja skūpstīji skūpstījis skūpstīju skūpstījusi skūpstījuši skūpstījām skūpstīs skūpstīsim skūpstīta skūpstītu skūpstīšana skūpstīšanos skūpstīšanu skūpstīšanās skūpstīšu
+51	3951	grezns	grezna greznai greznais greznajai greznajam greznajiem greznajos greznajā greznajām greznajās greznam greznas grezni greznie grezniem grezno greznos greznu greznus greznā greznāk greznāka greznākais greznākajiem greznākajā greznākajām greznākas greznākie greznākiem greznāko greznāks greznāku greznākus greznākā greznākās greznām greznās visgreznākajās visgreznāko
+52	3952	uziet	jāuziet neuzgāja neuzgāju neuzies neuziet neuzietu uzej uzeju uzgāja uzgāji uzgāju uzgājām uziedama uzies uziesi uziesim uziesit uzieta uzietais uzietajam uzietajiem uzietas uzieti uzietiem uzieto uziets uzietu uzietā uzietās uziešana uziešot uziešu
+53	3953	asmens	asmeni asmenim asmeņi asmeņiem asmeņu asmeņus
+54	3954	gids	gid gida gidam gide gidi gidiem gidu gidus gidā
+55	3955	izzust	izzuda izzudis izzudu izzudīs izzudīsi izzudīšot izzustu izzušana izzūd izzūdam izzūdot izzūdošs jāizzūd neizzuda neizzudīs neizzudīsim neizzudīšot neizzust neizzustu neizzūd
+56	3956	ķirurgs	ķirurg ķirurga ķirurgam ķirurgi ķirurgiem ķirurgu ķirurgus ķirurģe
+57	3957	teritoriāls	teritoriālai teritoriālais teritoriālajai teritoriālajam teritoriālajiem teritoriālajos teritoriālajā teritoriālajām teritoriālajās teritoriālas teritoriāli teritoriālie teritoriālo teritoriālos teritoriālu teritoriālā teritoriālām teritoriālās
+58	3958	parakstīties	neparakstījies neparakstījos neparakstījušies neparakstījāmies neparakstījās neparakstīsies neparakstīties neparakstīšos parakstieties parakstos parakstoties parakstāties parakstījies parakstījos parakstījusies parakstījušies parakstījāmies parakstījās parakstījāties parakstīsies parakstīsieties parakstīsimies parakstīšanās parakstīšos
+59	3959	aizsegt	aizsedz aizsedza aizsedzam aizsedziet aizsedzis aizsedzot aizsedzošs aizsedzu aizsegs aizsegts aizsegtu aizsegšana jāaizsedz neaizsedz neaizsedziet neaizsedzot neaizsegs neaizsegt neaizsegts neaizsegtu
+60	3960	precizitāte	precizitātei precizitātes precizitāti precizitātē precizitāšu
+61	3961	dambis	damba dambi dambim dambja dambji dambjiem dambjos dambju dambjus dambī
+62	3962	vadīties	jāvadās nevadies nevados nevadoties nevadās nevadījos nevadījās nevadīties vadies vadieties vadoties vadāmies vadās vadāties vadīdamies vadījies vadījos vadījusies vadījušies vadījāmies vadījās vadījāties vadīsies vadīsimies vadītos vadīšos
+63	3963	zārks	zārka zārkam zārki zārkiem zārkos zārku zārkus zārkā
+64	3964	vampīrs	vampīr vampīra vampīram vampīri vampīriem vampīru vampīrus
+65	3965	apslēpt	apslēp apslēpa apslēpi apslēpis apslēpj apslēpjams apslēpjot apslēpju apslēpta apslēptai apslēptais apslēptajai apslēptajiem apslēptajā apslēptajām apslēptajās apslēptam apslēptas apslēpti apslēptie apslēptiem apslēpto apslēptos apslēpts apslēptu apslēptus apslēptā apslēptām apslēptās apslēpu apslēpuši apslēpšana jāapslēpj neapslēpj neapslēpšu
+66	3966	dabasgāze	dabasgāzei dabasgāzes dabasgāzi
+67	3967	sadegt	jāsadeg nesadeg nesadega nesadegot nesadegs nesadegt nesadegtu nesadeguša nesadegušo nesadegšu sadedz sadedzis sadeg sadega sadegam sadegdami sadegot sadegs sadegsi sadegsiet sadegsim sadegtu sadegu sadegusi sadegusī sadegušais sadegušajiem sadegušajā sadegušajām sadegušas sadeguši sadegušie sadegušiem sadegušo sadegušu sadegušā sadegušās sadegšana sadegšu
+68	3968	indiānis	indiāna indiāni indiāniem indiānietes indiānieti indiānim indiānu indiāņa indiāņi indiāņiem indiāņos indiāņu indiāņus
+69	3969	nagla	naglai naglas naglu naglām naglās
+70	3970	akcentēt	akcentē akcentēja akcentējam akcentējama akcentējami akcentējamo akcentējis akcentējot akcentējošo akcentēju akcentējusi akcentējušas akcentējuši akcentējām akcentēs akcentēsim akcentēta akcentētas akcentēti akcentētiem akcentēto akcentēts akcentētu akcentētus akcentētā akcentēšana akcentēšanai akcentēšanas akcentēšanu akcentēšu jāakcentē neakcentē neakcentēja neakcentējot neakcentēju neakcentēt
+71	3971	balkons	balkona balkonam balkoni balkoniem balkonos balkonu balkonus balkonā
+72	3972	blēdis	blēdi blēdim blēdī blēža blēži blēžiem blēžos blēžu blēžus
+73	3973	bruņas	bruņa bruņu bruņām bruņās
+74	3974	deputāte	deputātei deputātes deputātēm deputāšu
+75	3975	arēnā	
+76	3976	svešvaloda	svešvalodai svešvalodas svešvalodu svešvalodā svešvalodām svešvalodās
+77	3977	nomaksāt	jānomaksā nenomaksā nenomaksājot nenomaksās nenomaksāta nenomaksātajiem nenomaksātas nenomaksāti nenomaksātiem nenomaksāto nenomaksātos nenomaksāts nenomaksātu nenomaksātā nenomaksātās nomaksā nomaksāja nomaksājam nomaksājamo nomaksājiet nomaksājis nomaksājot nomaksāju nomaksājusi nomaksājuši nomaksās nomaksāta nomaksātais nomaksātajiem nomaksātas nomaksāti nomaksātie nomaksātiem nomaksāto nomaksāts nomaksātu nomaksātus nomaksātā nomaksātās
+78	3978	locītava	locītavai locītavas locītavu locītavā locītavām locītavās
+79	3979	izlikt	izlicis izliec izliek izliekam izliekams izliekat izliekot izlieku izlika izliki izliks izliksi izliksim izlikts izliktu izliku izlikām izlikāt izlikšana izlikšot izlikšu jāizliek neizliec neizliek neizliekam neizliekat neizliekot neizlieku neizlika neizliksiet neizlikt neizlikām neizlikšana
+80	3980	laupītājs	laupītāja laupītājam laupītāji laupītājiem laupītāju laupītājus
+81	3981	ēģiptietis	ēģiptieti ēģiptietim ēģiptieša ēģiptieši ēģiptiešiem ēģiptiešu ēģiptiešus
+82	3982	kalifornijs	kalifornija kaliforniju kalifornijā
+83	3983	uzlauzt	jāuzlauž neuzlauzta neuzlauztu neuzlauž neuzlaužams uzlauz uzlauza uzlauzi uzlauziet uzlauzis uzlauzta uzlauztai uzlauztas uzlauzti uzlauztiem uzlauzts uzlauztu uzlauztā uzlauztās uzlauzu uzlauzīs uzlauzīsi uzlauzīsim uzlauzīšu uzlaušana uzlauž uzlaužam uzlaužams uzlaužot
+84	3984	sūkāt	jāsūkā nesūkā nesūkās nesūkāšu sūkā sūkāja sūkājamo sūkājamu sūkājamām sūkājamās sūkāji sūkājiet sūkājis sūkājot sūkāju sūkājusi sūkās sūkāsi sūkātu sūkāšana sūkāšanas sūkāšanu sūkāšu
+85	3985	alkoholisks	alkoholiska alkoholiskais alkoholiskajiem alkoholiskajos alkoholiskajā alkoholiskas alkoholiski alkoholiskie alkoholiskiem alkoholisko alkoholiskos alkoholisku alkoholiskus alkoholiskā alkoholiskās
+86	3986	bargs	barga bargai bargais bargajai bargajam bargajiem bargajos bargajā bargajām bargajās bargam bargas bargie bargiem bargo bargos bargu bargus bargā bargāk bargāka bargākais bargākam bargākas bargāki bargākiem bargāko bargākos bargāks bargāku bargākus bargākā bargākām bargām bargās visbargākais visbargākajiem visbargākie visbargākā
+87	3987	mazdēls	mazdēla mazdēlam mazdēli mazdēliem mazdēlu mazdēlā
+88	3988	plūst	plūda
+89	3989	kukulis	kukula kukuli kukulim kukulos kukulu kukulus kukulī kukuļa kukuļi kukuļiem kukuļos kukuļu kukuļus
+90	3990	banāns	banāna banānam banāni banāniem banānos banānu banānus banānā
+91	3991	trūcīgs	trūcīga trūcīgai trūcīgais trūcīgajai trūcīgajam trūcīgajiem trūcīgajos trūcīgajā trūcīgajām trūcīgajās trūcīgam trūcīgas trūcīgie trūcīgiem trūcīgo trūcīgos trūcīgu trūcīgus trūcīgā trūcīgāk trūcīgāka trūcīgākajiem trūcīgākajā trūcīgākajām trūcīgāki trūcīgākie trūcīgākiem trūcīgāko trūcīgākos trūcīgāks trūcīgāku trūcīgākām trūcīgākās trūcīgām trūcīgās vistrūcīgākajiem vistrūcīgākajām vistrūcīgākie vistrūcīgāko
+92	3992	cēls	cēla cēlai cēlais cēlajai cēlajam cēlajiem cēlajos cēlajā cēlajām cēlam cēlas cēlie cēliem cēlo cēlos cēlu cēlus cēlā cēlāk cēlāka cēlākais cēlākajai cēlākajām cēlākam cēlākas cēlāki cēlākie cēlākiem cēlāko cēlāks cēlāku cēlākām cēlākās cēlām cēlās viscēlākais viscēlākajiem viscēlāko viscēlākās
+93	3993	īstenība	īstenībai īstenības īstenību īstenībām
+94	3994	piliens	piliena pilienam pilieni pilieniem pilienos pilienu pilienus pilienā
+95	3995	vienpadsmit	vienpadsmitiem vienpadsmitos
+96	3996	iesākums	iesākuma iesākumam iesākumi iesākumiem iesākumos iesākumu iesākumus iesākumā
+97	3997	lasīties	jālasās lasies lasieties lasos lasoties lasāmies lasās lasījos lasījās lasīsies nelasās nelasījās nelasīties
+98	3998	trakums	trakum trakuma trakumam trakumi trakumiem trakumu trakumus trakumā
+99	3999	krogs	kroga krogam krogi krogiem krogos krogu krogus krogā
+100	4000	kliegt	

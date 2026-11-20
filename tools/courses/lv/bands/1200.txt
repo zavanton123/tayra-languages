@@ -8,7 +8,7 @@
 8	1108	hokejs	hokej hokeja hokejam hokeju hokejā
 9	1109	muļķis	muļķa muļķe muļķei muļķes muļķi muļķiem muļķim muļķos muļķu muļķus muļķēm muļķī
 10	1110	izslēgt	izslēdz izslēdza izslēdzam izslēdzams izslēdzat izslēdzi izslēdziet izslēdzis izslēdzot izslēdzošs izslēdzu izslēdzām izslēdzāt izslēgs izslēgsi izslēgsiet izslēgsim izslēgts izslēgtu izslēgšana izslēgšu jāizslēdz neizslēdz neizslēdza neizslēdzam neizslēdzams neizslēdzat neizslēdziet neizslēdzot neizslēdzu neizslēgs neizslēgsim neizslēgt neizslēgts neizslēgtu neizslēgšana neizslēgšu
-11	1111	izklausīties	izklausas izklausies izklausos izklausoties izklausās izklausāties izklausījas izklausījies izklausījusies izklausījušās izklausījās izklausīsies izklausītos izklausīšos jāizklausās neizklausas neizklausies neizklausos neizklausoties neizklausās neizklausāties neizklausījies neizklausījās neizklausīsies neizklausīties neizklausītos
+11	1111	izklausīties	izklausies izklausos izklausoties izklausās izklausāties izklausījies izklausījusies izklausījušās izklausījās izklausīsies izklausītos izklausīšos jāizklausās neizklausies neizklausos neizklausoties neizklausās neizklausāties neizklausījies neizklausījās neizklausīsies neizklausīties neizklausītos
 12	1112	valdīt	jāvalda nevaldīt valda valdi valdiet valdot valdu valdām valdāms valdāt valdīdams valdīja valdījis valdīju valdījāt valdīs valdīsi valdīsim valdīts valdītu valdīšana valdīšot valdīšu
 13	1113	priekšnieks	priekšniek priekšnieka priekšniekam priekšnieki priekšniekiem priekšniekos priekšnieku priekšniekus priekšniekā
 14	1114	medicīna	medicīnai medicīnas medicīnu medicīnā medicīnās
@@ -81,14 +81,14 @@
 81	1181	reāls	reāla reālai reālais reālajai reālajam reālajiem reālajos reālajā reālajām reālajās reālam reālas reālie reāliem reālo reālos reālu reālus reālā reālāk reālāka reālākais reālākajiem reālāki reālākie reālāko reālākos reālāks reālāku reālākā reālākām reālākās reālām reālās visreālāk visreālākais visreālākajiem visreālākā visreālākās
 82	1182	būtiski	
 83	1183	pudele	budeles budeli budelē butele buteles buteli pudelei pudeles pudeli pudelē pudelēm pudelēs pudelīte pudeļu
-84	1184	tikties	jātiekas netiecas netiecies netiekamies netiekas netiekos netiekoties netikos netiksies netiksieties netiksimies netikties netiktos netikāmies netikās netikāties netikšos ticies tiecas tiecies tiecieties tiekamies tiekas tiekaties tiekos tiekoties tikies tikos tiksies tiksieties tiksimies tiksities tiktos tikāmies tikās tikāties tikšos tikšoties tīkos
+84	1184	tikties	jātiekas netiecies netiekamies netiekas netiekos netiekoties netikos netiksies netiksieties netiksimies netikties netiktos netikāmies netikās netikāties netikšos netīkas netīkos ticies tiecies tiecieties tiekamies tiekas tiekaties tiekos tiekoties tikies tikos tiksies tiksieties tiksimies tiksities tiktos tikāmies tikās tikāties tikšos tikšoties tīkos
 85	1185	tests	test testa testam testi testiem testos testu testus testā
 86	1186	būtība	būtībai būtības būtību būtībā būtībām
 87	1187	laikraksts	laikraksta laikrakstam laikraksti laikrakstiem laikrakstos laikrakstu laikrakstus laikrakstā
 88	1188	basketbols	basketbol basketbola basketbolam basketbolu basketbolā
 89	1189	ieraudzīt	ieraudzīja ieraudzīji ieraudzījis ieraudzīju ieraudzījusi ieraudzījuši ieraudzījām ieraudzījāt ieraudzīs ieraudzīsi ieraudzīsiet ieraudzīsim ieraudzīsit ieraudzītais ieraudzīto ieraudzīts ieraudzītu ieraudzīšanu ieraudzīšot ieraudzīšu ierauga ieraugi ieraugot ieraugu ieraugām ieraugāms ieraugāt jāierauga neieraudzīja neieraudzīju neieraudzīs neieraudzīsi neieraudzīsiet neieraudzīt neieraudzīts neieraudzītu neierauga neieraugi neieraugu
 90	1190	vilnis	viis vilni vilnim vilnu vilnus vilnā vilnī vius viļņa viļņai viļņas viļņi viļņiem viļņos viļņu viļņus viļņā
-91	1191	nosacīt	jānosaka nenosaka nenosaki nenosakot nenosaku nenosakām nenosakāma nenosakāmas nenosakāmi nenosakāms nenosakāmu nenosakāmā nosacīja nosacīta nosacītais nosacītas nosacīti nosacītie nosacītiem nosacīto nosacītos nosacīts nosacītu nosacītus nosacītā nosacītās nosaka nosaki nosakiet nosakot nosakoša nosaku nosakām nosakāma nosakāmas nosakāmi nosakāms nosakāmā nosakāt
+91	1191	nosacīt	nenosacītu nosacīja nosacījis nosacījusi nosacīs nosacīta nosacītai nosacītais nosacītam nosacītas nosacīti nosacītie nosacītiem nosacīto nosacītos nosacīts nosacītu nosacītus nosacītā nosacītās nosacīšana nosaka
 92	1192	firma	firmai firmas firmu firmā firmām firmās
 93	1193	pazust	jāpazūd nepazuda nepazudis nepazudu nepazudām nepazudīs nepazudīsi nepazudīsim nepazudīšot nepazudīšu nepazust nepazustu nepazūd nepazūdam nepazūdi nepazūdiet nepazūdot nepazūdu pazuda pazudi pazudis pazudu pazudām pazudāt pazudīs pazudīsi pazudīsim pazudīšot pazudīšu pazustu pazušana pazūd pazūdam pazūdat pazūdi pazūdiet pazūdot pazūdu
 94	1194	paust	pauda pauž

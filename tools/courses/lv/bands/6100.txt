@@ -1,100 +1,100 @@
-1	6001	degunradzis	degunradzi degunradzim degunradža degunradži degunradžiem degunradžu degunradžus
-2	6002	pasakains	pasakaina pasakainais pasakainajai pasakainajiem pasakainajā pasakainajām pasakainam pasakainas pasakainie pasakainiem pasakaino pasakainos pasakainu pasakainus pasakainā pasakaināka pasakainākus pasakainām pasakainās vispasakainākā
-3	6003	atsvaidzināt	atsvaidzina atsvaidzini atsvaidziniet atsvaidzinot atsvaidzinu atsvaidzināja atsvaidzinājis atsvaidzināju atsvaidzinājusi atsvaidzinājām atsvaidzinām atsvaidzinās atsvaidzināsi atsvaidzināsim atsvaidzināta atsvaidzinātais atsvaidzinātas atsvaidzināti atsvaidzināts atsvaidzinātu atsvaidzinātā atsvaidzināšana atsvaidzināšanas atsvaidzināšanu atsvaidzināšanā atsvaidzināšu jāatsvaidzina neatsvaidzina
-4	6004	kriminālpolicija	kriminālpolicijai kriminālpolicijas kriminālpoliciju kriminālpolicijā
-5	6005	pārbūvēt	jāpārbūvē nepārbūvējot nepārbūvēt pārbūvē pārbūvēja pārbūvējam pārbūvējams pārbūvējat pārbūvējiet pārbūvējis pārbūvējot pārbūvēju pārbūvējām pārbūvēs pārbūvēsim pārbūvēts pārbūvētu pārbūvēšana pārbūvēšu
-6	6006	nepiedienīgs	nepiedienīga nepiedienīgais nepiedienīgas nepiedienīgi nepiedienīgie nepiedienīgiem nepiedienīgo nepiedienīgu nepiedienīgus nepiedienīgā nepiedienīgāk nepiedienīgām nepiedienīgās visnepiedienīgākajos
-7	6007	plūme	plūmes plūmi plūmju plūmēm
-8	6008	uzvārīt	jāuzvāra neuzvārīsi uzvāra uzvāri uzvāriet uzvārot uzvāru uzvārām uzvārīja uzvārīji uzvārījis uzvārīju uzvārījusi uzvārījušas uzvārījuši uzvārījām uzvārīs uzvārīsi uzvārīsiet uzvārīsim uzvārīta uzvārītai uzvārītais uzvārītam uzvārīto uzvārītos uzvārīts uzvārītu uzvārītā uzvārīšu
-9	6009	astroloģija	astroloģijai astroloģijas astroloģiju astroloģijā
-10	6010	ceļinieks	ceļinieka ceļiniekam ceļinieki ceļiniekiem ceļinieku ceļiniekus ceļiniekā
-11	6011	sils	sil sila silam sili siliem silu silā
-12	6012	teļš	teļa teļam teļi teļiem teļos teļu teļus
-13	6013	emigrācija	emigrācijai emigrācijas emigrāciju emigrācijā emigrācijām
-14	6014	humāns	humāna humānai humānais humānajai humānajiem humānajā humānajām humānam humānas humānie humāniem humāno humānos humānu humānus humānā humānāk humānāka humānākai humānākais humānākajiem humānāki humānāko humānāks humānāku humānākā humānākās humānās vishumānākais vishumānāko
-15	6015	strauts	strauta strautam strauti strautiem strautu strautus strautā
-16	6016	flīze	flīzes flīzi flīzēm flīzēs flīžu
-17	6017	parūka	parūkas parūku parūkā parūkām parūkās
-18	6018	biljards	biljarda biljardam biljardu biljardā
-19	6019	prostitūcija	prostitūcijai prostitūcijas prostitūciju prostitūcijā
-20	6020	terminoloģija	terminoloģijai terminoloģijas terminoloģiju terminoloģijā
-21	6021	aa	
-22	6022	rakete	raketei raketes raketi raketēm rakešu
-23	6023	spāniski	
-24	6024	uzteikt	jāuzteic neuzteica neuzteiks neuzteiktu uzteic uzteica uzteicam uzteicams uzteicis uzteicot uzteicu uzteicām uzteiks uzteiksiet uzteikta uzteiktajiem uzteiktas uzteikti uzteikto uzteikts uzteiktu uzteiktā uzteikusi uzteikušas uzteikuši uzteikšana uzteikšu
-25	6025	izkaisīt	izkaisa izkaisi izkaisiet izkaisot izkaisu izkaisīja izkaisījis izkaisīju izkaisījuši izkaisīs izkaisīsi izkaisīsim izkaisīta izkaisītas izkaisīti izkaisītie izkaisīto izkaisīts izkaisītu izkaisītā izkaisīšana izkaisīšanā izkaisīšu jāizkaisa neizkaisītu
-26	6026	ziņnesis	ziņnese ziņnesi ziņneša ziņneši ziņnešiem ziņnešu ziņnešus
-27	6027	rociņa	rociņai rociņas rociņu rociņā rociņām rociņās
-28	6028	novirzīties	jānovirzās nenovirzas nenovirzies nenovirzieties nenovirzos nenovirzoties nenovirzās nenovirzījās nenovirzīsies nenovirzīsimies nenovirzīties nenovirzītos novirzies novirzos novirzoties novirzāmies novirzās novirzījies novirzījos novirzījusies novirzījušies novirzījušās novirzījāmies novirzījās novirzīsies novirzīsimies novirzītos novirzīšanās novirzīšos
-29	6029	pilnveidoties	jāpilnveidojas nepilnveidojas nepilnveidoties nepilnveidotos pilnveidojamies pilnveidojas pilnveidojies pilnveidojieties pilnveidojos pilnveidojoties pilnveidojusies pilnveidojušies pilnveidojušās pilnveidojāmies pilnveidojās pilnveidosies pilnveidosimies pilnveidotos pilnveidošanās
-30	6030	skuķe	skuķei skuķes skuķi skuķu skuķēm
-31	6031	baroks	baroka barokam baroku barokā
-32	6032	nofotografēties	jānofotografējas nofotografējamies nofotografējas nofotografējies nofotografējieties nofotografējos nofotografējoties nofotografējušies nofotografējāmies nofotografējās nofotografēsies nofotografēsimies nofotografēsities nofotografētos nofotografēšanās
-33	6033	lakstīgala	lakstīgalai lakstīgalas lakstīgalu lakstīgalām
-34	6034	vectētiņš	vectētiņa vectētiņam vectētiņi vectētiņiem vectētiņu vectētiņus
-35	6035	magnijs	magnija magnijam magniju
-36	6036	strīdīgs	strīdīga strīdīgais strīdīgajam strīdīgajiem strīdīgajos strīdīgajā strīdīgajām strīdīgajās strīdīgas strīdīgi strīdīgie strīdīgiem strīdīgo strīdīgos strīdīgu strīdīgus strīdīgā strīdīgākais strīdīgākajiem strīdīgākajām strīdīgākie strīdīgāks strīdīgām strīdīgās visstrīdīgākais visstrīdīgākajiem visstrīdīgāko visstrīdīgākā
-37	6037	ūdenstilpe	ūdenstilpei ūdenstilpes ūdenstilpi ūdenstilpju ūdenstilpē ūdenstilpēm ūdenstilpēs
-38	6038	centrāle	centrālei centrāles centrāli centrālē centrālēm centrālēs centrāļu
-39	6039	radioaktīvs	radioaktīva radioaktīvais radioaktīvajam radioaktīvajiem radioaktīvajos radioaktīvajā radioaktīvajām radioaktīvas radioaktīvi radioaktīvie radioaktīviem radioaktīvo radioaktīvos radioaktīvu radioaktīvā radioaktīvāka radioaktīvās
-40	6040	izsvītrot	izsvītro izsvītroja izsvītrojam izsvītroji izsvītrojiet izsvītrojis izsvītrojot izsvītroju izsvītrojusi izsvītrojuši izsvītrojām izsvītros izsvītrosi izsvītrosim izsvītrota izsvītrotas izsvītroti izsvītrots izsvītrotu izsvītrošana izsvītrošu jāizsvītro neizsvītro neizsvītroja neizsvītrojiet neizsvītrots neizsvītrošu
-41	6041	atriebējs	atriebēja atriebējas atriebēji atriebējiem atriebējos atriebēju atriebējus atriebējā atriebējām
-42	6042	noslīdēt	nenoslīdēs nenoslīdētu noslīdēdams noslīdēja noslīdējis noslīdējusi noslīdējušas noslīdējuši noslīdējām noslīdēs noslīdētu noslīdēšana noslīdēšanu
-43	6043	ietīt	ietin ietina ietinams ietini ietiniet ietinis ietinot ietinu ietinām ietīs ietīsim ietīts ietītu ietīšana ietīšu jāietin neietītu
-44	6044	ģeopolitisks	ģeopolitiska ģeopolitiskai ģeopolitiskais ģeopolitiskajai ģeopolitiskajam ģeopolitiskajiem ģeopolitiskajos ģeopolitiskajā ģeopolitiskajām ģeopolitiskajās ģeopolitiskam ģeopolitiskas ģeopolitiski ģeopolitiskie ģeopolitiskiem ģeopolitisko ģeopolitiskos ģeopolitisku ģeopolitiskus ģeopolitiskā ģeopolitiskām ģeopolitiskās
-45	6045	pasludināšana	pasludināšanai pasludināšanas pasludināšanu pasludināšanā
-46	6046	posties	jāpošas neposies posies posieties posos postos posāmies posās posīsies posīšos pošanās pošas pošaties pošoties
-47	6047	vijolnieks	vijolniece vijolniecei vijolnieces vijolnieci vijolniecēm vijolniek vijolnieka vijolniekam vijolnieki vijolniekiem vijolnieku vijolniekus
-48	6048	iemēģināt	iemēģina iemēģinot iemēģināja iemēģinājis iemēģināju iemēģināts neiemēģināju neiemēģināt
-49	6049	piemesties	nepiemestos nepiemetas nepiemetās nepiemetīsies piemestos piemetas piemeties piemetos piemetās piemetīsies piemetīsimies piemešanās
-50	6050	ezis	ezi ezim ezī eža ežas eži ežiem ežos ežu ežus
-51	6051	ķērājs	ķērāja ķērājam ķērāji ķērājiem ķērāju ķērājus ķērājā
-52	6052	netiešs	netieša netiešai netiešais netiešajai netiešajam netiešajiem netiešajos netiešajā netiešajām netiešas netiešie netiešiem netiešo netiešos netiešu netiešus netiešā netiešāk netiešāki netiešāku netiešām netiešās
-53	6053	gailītis	gailīti gailītim gailīša gailīši gailīšiem gailīšos gailīšu
-54	6054	septiņdesmit	
-55	6055	aizvakar	
-56	6056	pagaist	nepagaist nepagaistu nepagaisīs pagaisa pagaisis pagaistu pagaisusi pagaisušas pagaisuši pagaisīs
-57	6057	saindēšanās	saindēšanos saindēšanu saindēšanā
-58	6058	apspēlēt	apspēlē apspēlēja apspēlējis apspēlējot apspēlēju apspēlējām apspēlēs apspēlēsim apspēlēsit apspēlēts apspēlētu apspēlēšana jāapspēlē neapspēlējām neapspēlēt
-59	6059	šantažēt	šantažē šantažēja šantažējat šantažēji šantažējis šantažējot šantažēs šantažēta šantažēts šantažētu šantažēšanas šantažēšanu
-60	6060	slaucīt	jāslauka neslaucījām neslaucītu neslauka neslauki slaucīdams slaucīja slaucīji slaucīju slaucīs slaucīsi slaucīti slaucīts slaucītu slaucīšana slaucīšanai slaucīšanas slaucīšanos slaucīšanu slaucīšanā slaucīšu slauka slauki slaukot slauku slaukām
-61	6061	paveids	paveida paveidam paveidi paveidiem paveidos paveidu paveidus paveidā
-62	6062	balzams	balzama balzamam balzami balzamu balzamā
-63	6063	biotops	biotopa biotopam biotopi biotopiem biotopos biotopu biotopus biotopā
-64	6064	samalt	jāsamaļ nesamal nesamala nesamalt nesamaltu samal samala samaliet samalis samals samalsim samalta samaltai samaltas samalti samaltiem samalts samaltu samaltus samaltām samalu samalāt samalšu samaļ samaļam samaļot
-65	6065	noskatīt	nenoskatītas nenoskatīto nenoskatītos nenoskatītā noskata noskatiet noskatot noskatu noskatām noskatāmais noskatāmas noskatāmās noskatīja noskatījis noskatīju noskatījusi noskatījušas noskatījuši noskatījušos noskatījām noskatīta noskatītais noskatītajai noskatītajam noskatītajiem noskatītajā noskatītajām noskatītam noskatītas noskatīti noskatītie noskatītiem noskatīto noskatītos noskatīts noskatītu noskatītā noskatītām noskatītās
-66	6066	uzsildīt	jāuzsilda neuzsildītu uzsilda uzsildi uzsildiet uzsildot uzsildu uzsildām uzsildīja uzsildījis uzsildīju uzsildījusi uzsildīs uzsildīsiet uzsildīsim uzsildīta uzsildītas uzsildīto uzsildīts uzsildītu uzsildītā uzsildīšana uzsildīšanas uzsildīšanu uzsildīšanā uzsildīšu
-67	6067	krusttēvs	krusttēv krusttēva krusttēvam krusttēvi krusttēviem krusttēvu krusttēvus krusttēvā
-68	6068	diplomātija	diplomātijai diplomātijas diplomātiju diplomātijā
-69	6069	pārvērt	nepārvērt nepārvērtu nepārvēršot pārvērts pārvērtu pārvēršana pārvēršanai pārvēršanas pārvēršanu pārvēršanā pārvēršanās pārvēršot pārvēršu
-70	6070	peļķe	peļam peļķei peļķes peļķi peļķu peļķē peļķēm peļķēs
-71	6071	minēties	jāminas minamies minas minies minos minoties minētos neminas neminos
-72	6072	uzgleznot	jāuzglezno neuzgleznot neuzgleznotu uzglezno uzgleznoja uzgleznojat uzgleznojiet uzgleznojis uzgleznojot uzgleznoju uzgleznojusi uzgleznojuši uzgleznosi uzgleznota uzgleznotais uzgleznotas uzgleznoti uzgleznotie uzgleznoto uzgleznots uzgleznotu uzgleznošanas
-73	6073	pļāpas	pļāpu pļāpām pļāpās
-74	6074	saplānot	jāsaplāno nesaplānosi saplāno saplānoja saplānojam saplānojat saplānojiet saplānojis saplānojot saplānoju saplānojām saplānojāt saplānos saplānosiet saplānosim saplānota saplānotai saplānotas saplānoti saplānotiem saplānots saplānotu saplānotus saplānotā saplānošu
-75	6075	šveicietis	šveiciete šveicietei šveicietes šveicieti šveicietim šveicietēm šveicieša šveicieši šveiciešiem šveiciešu
-76	6076	taujāt	netaujā netaujājot taujā taujāja taujājam taujājis taujājot taujāju taujājusi taujājušas taujājuši taujājām taujāta taujātais taujātas taujāti taujāts taujātu
-77	6077	želeja	želejai želejas želeju želejā želejām
-78	6078	apkopēja	apkopējai apkopējas apkopēju apkopējām
-79	6079	molekula	molekulai molekulas molekulu molekulā molekulām molekulās
-80	6080	vārīties	jāvārās nevārās nevārīties vāras vāries vāros vāroties vārāmies vārās vārāties vārīdamies vārījies vārījusies vārījušies vārījāmies vārījās vārījāties vārīsies vārīsimies vārīšanās
-81	6081	kofeīns	kofeīna kofeīnam kofeīnu
-82	6082	elektromobilis	elektromobili elektromobilim elektromobilī elektromobiļa elektromobiļi elektromobiļiem elektromobiļu elektromobiļus
-83	6083	radniecība	radniecībai radniecības radniecību radniecībā
-84	6084	omārs	omāra omāram omāriem omāru omārus
-85	6085	sludinātājs	sludinātāja sludinātājam sludinātāji sludinātājiem sludinātāju sludinātājus
-86	6086	paplāte	paplātei paplātes paplāti paplātē paplātēm paplāšu
-87	6087	nobučot	jānobučo nobučo nobučoja nobučojiet nobučojot nobučoju nobučosi nobučots nobučotu nobučošu
-88	6088	proza	prozai prozas prozu prozā
-89	6089	harmonisks	harmoniska harmoniskai harmoniskais harmoniskajā harmoniskajām harmoniskam harmoniskas harmoniski harmoniskie harmoniskiem harmonisko harmoniskos harmonisku harmoniskus harmoniskā harmoniskāk harmoniskāka harmoniskākai harmoniskākais harmoniskākas harmoniskāki harmoniskāko harmoniskāks harmoniskāku harmoniskākām harmoniskām harmoniskās visharmoniskāk
-90	6090	krona	kronai kronas kronu kronām kronās
-91	6091	mērvienība	mērvienības mērvienību mērvienībām mērvienībās
-92	6092	koijots	koijota koijotam koijoti koijotiem koijotos koijotu
-93	6093	cinks	cink cinka cinku cinkus
-94	6094	jezga	jezgai jezgas jezgu jezgā
-95	6095	tēlniecība	tēlniecībai tēlniecības tēlniecību tēlniecībā
-96	6096	žaunas	žaunu žaunām
-97	6097	krupis	krua krupa krupi krupim krupja krupji krupjiem krupju krupjus
-98	6098	pārmaksāt	jāpārmaksā nepārmaksā nepārmaksājam nepārmaksājiet nepārmaksājot nepārmaksāsiet nepārmaksāt nepārmaksātu pārmaksā pārmaksāja pārmaksājam pārmaksājat pārmaksāji pārmaksājiet pārmaksājis pārmaksājot pārmaksāju pārmaksājusi pārmaksājušas pārmaksājuši pārmaksājušie pārmaksās pārmaksāsi pārmaksāsiet pārmaksāsim pārmaksāta pārmaksātais pārmaksātas pārmaksāti pārmaksātiem pārmaksāto pārmaksātos pārmaksāts pārmaksātu pārmaksātus pārmaksātā pārmaksātām pārmaksātās pārmaksāšu
-99	6099	jēdzīgs	jēdzīga jēdzīgais jēdzīgajā jēdzīgam jēdzīgas jēdzīgie jēdzīgiem jēdzīgo jēdzīgos jēdzīgu jēdzīgus jēdzīgā jēdzīgāk jēdzīgāka jēdzīgākais jēdzīgākajiem jēdzīgākajām jēdzīgākam jēdzīgākas jēdzīgāki jēdzīgākos jēdzīgāks jēdzīgāku jēdzīgākā jēdzīgākās jēdzīgām jēdzīgās visjēdzīgāk visjēdzīgākais visjēdzīgāko visjēdzīgākā
-100	6100	pārpilnība	pārpilnībai pārpilnības pārpilnību pārpilnībā
+1	6001	čība	čības čību čībā čībām čībās
+2	6002	sagribēties	sagribas sagribējas sagribējies sagribējusies sagribējās sagribēsies sagribētos
+3	6003	aizdzīt	aizdzen aizdzenam aizdzenamo aizdzenat aizdzeniet aizdzenot aizdzenoši aizdzenu aizdzijusi aizdzijuši aizdzina aizdzini aizdzinis aizdzinu aizdzinusi aizdzinuši aizdzināt aizdzīs aizdzīsim aizdzīst aizdzīta aizdzītas aizdzīti aizdzīto aizdzīts aizdzītu aizdzītā aizdzīšana jāaizdzen neaizdzen neaizdzijis neaizdzīs neaizdzīsi neaizdzītu
+4	6004	izdalīties	izdaloties izdalās izdalījies izdalījās izdalīsies izdalītos izdalīšanās jāizdalās neizdalās neizdalīsies
+5	6005	fundamentāls	fundamentāla fundamentālai fundamentālais fundamentālajai fundamentālajam fundamentālajiem fundamentālajos fundamentālajā fundamentālajām fundamentālajās fundamentālam fundamentālas fundamentāli fundamentālie fundamentāliem fundamentālo fundamentālos fundamentālu fundamentālus fundamentālā fundamentālākais fundamentālākajiem fundamentālākajām fundamentālāki fundamentālāku fundamentālākā fundamentālām fundamentālās visfundamentālākie
+6	6006	siens	sien sienam sienu sienā
+7	6007	atsvaidzināt	atsvaidzina atsvaidzini atsvaidziniet atsvaidzinot atsvaidzinu atsvaidzināja atsvaidzinājis atsvaidzināju atsvaidzinājusi atsvaidzinājām atsvaidzinām atsvaidzinās atsvaidzināsi atsvaidzināsim atsvaidzināta atsvaidzinātais atsvaidzinātas atsvaidzināti atsvaidzināts atsvaidzinātu atsvaidzinātā atsvaidzināšana atsvaidzināšanas atsvaidzināšanu atsvaidzināšanā atsvaidzināšu jāatsvaidzina neatsvaidzina
+8	6008	rakstība	rakstībai rakstības rakstību rakstībā
+9	6009	tiesāties	jātiesājas netiesājas netiesāsies netiesāties netiesātos tiesājamies tiesājas tiesājies tiesājos tiesājoties tiesājusies tiesājās tiesāsies tiesāsimies tiesātos tiesāšanās tiesāšos
+10	6010	mīlīgs	mīlīga mīlīgai mīlīgais mīlīgajai mīlīgajam mīlīgajiem mīlīgajos mīlīgajām mīlīgam mīlīgas mīlīgie mīlīgiem mīlīgo mīlīgos mīlīgu mīlīgus mīlīgā mīlīgāk mīlīgāka mīlīgākais mīlīgākajai mīlīgākas mīlīgāki mīlīgāko mīlīgāku mīlīgām mīlīgās vismīlīgākais
+11	6011	oža	ožai ožas ožiem ožos ožu ožus
+12	6012	sasaiste	sasaistei sasaistes sasaisti sasaistē sasaistēs sasaišu
+13	6013	dīzelis	dīzela dīzeli dīzelim dīzeļa dīzeļi dīzeļiem dīzeļu dīzeļus
+14	6014	elektrostacija	elektrostacijai elektrostacijas elektrostaciju elektrostacijā elektrostacijām elektrostacijās
+15	6015	negribot	
+16	6016	mango	
+17	6017	stigt	stiedz stieg stiga stigs stigu stigām
+18	6018	vate	vaa vatei vates vati vatē vatēm
+19	6019	rakstniecība	rakstniecībai rakstniecības rakstniecību rakstniecībā
+20	6020	disertācija	disertācijai disertācijas disertāciju disertācijā disertācijām disertācijās
+21	6021	globalizācija	globalizācijai globalizācijas globalizāciju globalizācijā
+22	6022	hronika	hronikai hronikas hroniku hronikā hronikām hronikās
+23	6023	kriptons	kriptona kriptonam kriptonu
+24	6024	lietavas	lietavu lietavām lietavās
+25	6025	arheoloģija	arheoloģijai arheoloģijas arheoloģiju arheoloģijā
+26	6026	fauna	faunai faunas faunu faunā
+27	6027	aminoskābe	aminoskābes aminoskābi aminoskābju aminoskābēm
+28	6028	artērija	artērijai artērijas artēriju artērijā artērijām artērijās
+29	6029	matrica	matricai matricas matricu matricā matricām matricās
+30	6030	darītājs	darītāja darītājam darītāji darītājiem darītājos darītāju darītājus
+31	6031	degunradzis	degunradzi degunradzim degunradža degunradži degunradžiem degunradžu degunradžus
+32	6032	pasakains	pasakaina pasakainais pasakainajai pasakainajiem pasakainajā pasakainajām pasakainam pasakainas pasakainie pasakainiem pasakaino pasakainos pasakainu pasakainus pasakainā pasakaināka pasakainākus pasakainām pasakainās vispasakainākā
+33	6033	kriminālpolicija	kriminālpolicijai kriminālpolicijas kriminālpoliciju kriminālpolicijā
+34	6034	pārbūvēt	jāpārbūvē nepārbūvējot nepārbūvēt pārbūvē pārbūvēja pārbūvējam pārbūvējams pārbūvējat pārbūvējiet pārbūvējis pārbūvējot pārbūvēju pārbūvējām pārbūvēs pārbūvēsim pārbūvēts pārbūvētu pārbūvēšana pārbūvēšu
+35	6035	nepiedienīgs	nepiedienīga nepiedienīgais nepiedienīgas nepiedienīgi nepiedienīgie nepiedienīgiem nepiedienīgo nepiedienīgu nepiedienīgus nepiedienīgā nepiedienīgāk nepiedienīgām nepiedienīgās visnepiedienīgākajos
+36	6036	plūme	plūmes plūmi plūmju plūmēm
+37	6037	uzvārīt	jāuzvāra neuzvārīsi uzvāra uzvāri uzvāriet uzvārot uzvāru uzvārām uzvārīja uzvārīji uzvārījis uzvārīju uzvārījusi uzvārījušas uzvārījuši uzvārījām uzvārīs uzvārīsi uzvārīsiet uzvārīsim uzvārīta uzvārītai uzvārītais uzvārītam uzvārīto uzvārītos uzvārīts uzvārītu uzvārītā uzvārīšu
+38	6038	astroloģija	astroloģijai astroloģijas astroloģiju astroloģijā
+39	6039	ceļinieks	ceļinieka ceļiniekam ceļinieki ceļiniekiem ceļinieku ceļiniekus ceļiniekā
+40	6040	sils	sil sila silam sili siliem silu silā
+41	6041	uzvest	jāuzved neuzvestiem uzved uzveda uzvedam uzvedi uzvedis uzvedot uzvedu uzvedām uzvedīs uzvedīsi uzvedīsiet uzvedīšu uzvesta uzvestas uzvesti uzvests uzvestu uzvestā uzvestām uzvestās uzvešana
+42	6042	teļš	teļa teļam teļi teļiem teļos teļu teļus
+43	6043	emigrācija	emigrācijai emigrācijas emigrāciju emigrācijā emigrācijām
+44	6044	humāns	humāna humānai humānais humānajai humānajiem humānajā humānajām humānam humānas humānie humāniem humāno humānos humānu humānus humānā humānāk humānāka humānākai humānākais humānākajiem humānāki humānāko humānāks humānāku humānākā humānākās humānās vishumānākais vishumānāko
+45	6045	strauts	strauta strautam strauti strautiem strautu strautus strautā
+46	6046	flīze	flīzes flīzi flīzēm flīzēs flīžu
+47	6047	parūka	parūkas parūku parūkā parūkām parūkās
+48	6048	biljards	biljarda biljardam biljardu biljardā
+49	6049	prostitūcija	prostitūcijai prostitūcijas prostitūciju prostitūcijā
+50	6050	terminoloģija	terminoloģijai terminoloģijas terminoloģiju terminoloģijā
+51	6051	aa	
+52	6052	rakete	raketei raketes raketi raketēm rakešu
+53	6053	spāniski	
+54	6054	izkaisīt	izkaisa izkaisi izkaisiet izkaisot izkaisu izkaisīja izkaisījis izkaisīju izkaisījuši izkaisīs izkaisīsi izkaisīsim izkaisīta izkaisītas izkaisīti izkaisītie izkaisīto izkaisīts izkaisītu izkaisītā izkaisīšana izkaisīšanā izkaisīšu jāizkaisa neizkaisītu
+55	6055	ziņnesis	ziņnese ziņnesi ziņneša ziņneši ziņnešiem ziņnešu ziņnešus
+56	6056	rociņa	rociņai rociņas rociņu rociņā rociņām rociņās
+57	6057	pilnveidoties	jāpilnveidojas nepilnveidojas nepilnveidoties nepilnveidotos pilnveidojamies pilnveidojas pilnveidojies pilnveidojieties pilnveidojos pilnveidojoties pilnveidojusies pilnveidojušies pilnveidojušās pilnveidojāmies pilnveidojās pilnveidosies pilnveidosimies pilnveidotos pilnveidošanās
+58	6058	skuķe	skuķei skuķes skuķi skuķu skuķēm
+59	6059	baroks	baroka barokam baroku barokā
+60	6060	novirzīties	jānovirzās nenovirzies nenovirzieties nenovirzos nenovirzoties nenovirzās nenovirzījās nenovirzīsies nenovirzīsimies nenovirzīties nenovirzītos novirzies novirzos novirzoties novirzāmies novirzās novirzījies novirzījos novirzījusies novirzījušies novirzījušās novirzījāmies novirzījās novirzīsies novirzīsimies novirzītos novirzīšanās novirzīšos
+61	6061	lakstīgala	lakstīgalai lakstīgalas lakstīgalu lakstīgalām
+62	6062	vectētiņš	vectētiņa vectētiņam vectētiņi vectētiņiem vectētiņu vectētiņus
+63	6063	magnijs	magnija magnijam magniju
+64	6064	strīdīgs	strīdīga strīdīgais strīdīgajam strīdīgajiem strīdīgajos strīdīgajā strīdīgajām strīdīgajās strīdīgas strīdīgi strīdīgie strīdīgiem strīdīgo strīdīgos strīdīgu strīdīgus strīdīgā strīdīgākais strīdīgākajiem strīdīgākajām strīdīgākie strīdīgāks strīdīgām strīdīgās visstrīdīgākais visstrīdīgākajiem visstrīdīgāko visstrīdīgākā
+65	6065	ūdenstilpe	ūdenstilpei ūdenstilpes ūdenstilpi ūdenstilpju ūdenstilpē ūdenstilpēm ūdenstilpēs
+66	6066	centrāle	centrālei centrāles centrāli centrālē centrālēm centrālēs centrāļu
+67	6067	radioaktīvs	radioaktīva radioaktīvais radioaktīvajam radioaktīvajiem radioaktīvajos radioaktīvajā radioaktīvajām radioaktīvas radioaktīvi radioaktīvie radioaktīviem radioaktīvo radioaktīvos radioaktīvu radioaktīvā radioaktīvāka radioaktīvās
+68	6068	izsvītrot	izsvītro izsvītroja izsvītrojam izsvītroji izsvītrojiet izsvītrojis izsvītrojot izsvītroju izsvītrojusi izsvītrojuši izsvītrojām izsvītros izsvītrosi izsvītrosim izsvītrota izsvītrotas izsvītroti izsvītrots izsvītrotu izsvītrošana izsvītrošu jāizsvītro neizsvītro neizsvītroja neizsvītrojiet neizsvītrots neizsvītrošu
+69	6069	atriebējs	atriebēja atriebējas atriebēji atriebējiem atriebējos atriebēju atriebējus atriebējā atriebējām
+70	6070	noslīdēt	nenoslīdēs nenoslīdētu noslīdēdams noslīdēja noslīdējis noslīdējusi noslīdējušas noslīdējuši noslīdējām noslīdēs noslīdētu noslīdēšana noslīdēšanu
+71	6071	ietīt	ietin ietina ietinams ietini ietiniet ietinis ietinot ietinu ietinām ietīs ietīsim ietīts ietītu ietīšana ietīšu jāietin neietītu
+72	6072	ģeopolitisks	ģeopolitiska ģeopolitiskai ģeopolitiskais ģeopolitiskajai ģeopolitiskajam ģeopolitiskajiem ģeopolitiskajos ģeopolitiskajā ģeopolitiskajām ģeopolitiskajās ģeopolitiskam ģeopolitiskas ģeopolitiski ģeopolitiskie ģeopolitiskiem ģeopolitisko ģeopolitiskos ģeopolitisku ģeopolitiskus ģeopolitiskā ģeopolitiskām ģeopolitiskās
+73	6073	pasludināšana	pasludināšanai pasludināšanas pasludināšanu pasludināšanā
+74	6074	posties	jāpošas neposies posies posieties posos postos posāmies posās posīsies posīšos pošanās pošas pošaties pošoties
+75	6075	vijolnieks	vijolniece vijolniecei vijolnieces vijolnieci vijolniecēm vijolniek vijolnieka vijolniekam vijolnieki vijolniekiem vijolnieku vijolniekus
+76	6076	iemēģināt	iemēģina iemēģinot iemēģināja iemēģinājis iemēģināju iemēģināts neiemēģināju neiemēģināt
+77	6077	piemesties	nepiemestos nepiemetas nepiemetās nepiemetīsies piemestos piemetas piemeties piemetos piemetās piemetīsies piemetīsimies piemešanās
+78	6078	nofotografēties	jānofotografējas nofotografējamies nofotografējas nofotografējies nofotografējieties nofotografējos nofotografējoties nofotografējušies nofotografējāmies nofotografējās nofotografēsies nofotografēsimies nofotografēsities nofotografēšanās
+79	6079	ezis	ezi ezim ezī eža ežas eži ežiem ežos ežu ežus
+80	6080	ķērājs	ķērāja ķērājam ķērāji ķērājiem ķērāju ķērājus ķērājā
+81	6081	netiešs	netieša netiešai netiešais netiešajai netiešajam netiešajiem netiešajos netiešajā netiešajām netiešas netiešie netiešiem netiešo netiešos netiešu netiešus netiešā netiešāk netiešāki netiešāku netiešām netiešās
+82	6082	gailītis	gailīti gailītim gailīša gailīši gailīšiem gailīšos gailīšu
+83	6083	septiņdesmit	
+84	6084	aizvakar	
+85	6085	pagaist	nepagaist nepagaistu nepagaisīs pagaisa pagaisis pagaistu pagaisusi pagaisušas pagaisuši pagaisīs
+86	6086	saindēšanās	saindēšanos saindēšanu saindēšanā
+87	6087	apspēlēt	apspēlē apspēlēja apspēlējis apspēlējot apspēlēju apspēlējām apspēlēs apspēlēsim apspēlēsit apspēlēts apspēlētu apspēlēšana jāapspēlē neapspēlējām neapspēlēt
+88	6088	šantažēt	šantažē šantažēja šantažējat šantažēji šantažējis šantažējot šantažēs šantažēta šantažēts šantažētu šantažēšanas šantažēšanu
+89	6089	slaucīt	jāslauka neslaucījām neslaucītu neslauka neslauki slaucīdams slaucīja slaucīji slaucīju slaucīs slaucīsi slaucīti slaucīts slaucītu slaucīšana slaucīšanai slaucīšanas slaucīšanos slaucīšanu slaucīšanā slaucīšu slauka slauki slaukot slauku slaukām
+90	6090	paveids	paveida paveidam paveidi paveidiem paveidos paveidu paveidus paveidā
+91	6091	balzams	balzama balzamam balzami balzamu balzamā
+92	6092	biotops	biotopa biotopam biotopi biotopiem biotopos biotopu biotopus biotopā
+93	6093	samalt	jāsamaļ nesamal nesamala nesamalt nesamaltu samal samala samaliet samalis samals samalsim samalta samaltai samaltas samalti samaltiem samalts samaltu samaltus samaltām samalu samalāt samalšu samaļ samaļam samaļot
+94	6094	uzsildīt	jāuzsilda neuzsildītu uzsilda uzsildi uzsildiet uzsildot uzsildu uzsildām uzsildīja uzsildījis uzsildīju uzsildījusi uzsildīs uzsildīsiet uzsildīsim uzsildīta uzsildītas uzsildīto uzsildīts uzsildītu uzsildītā uzsildīšana uzsildīšanas uzsildīšanu uzsildīšanā uzsildīšu
+95	6095	krusttēvs	krusttēv krusttēva krusttēvam krusttēvi krusttēviem krusttēvu krusttēvus krusttēvā
+96	6096	diplomātija	diplomātijai diplomātijas diplomātiju diplomātijā
+97	6097	peļķe	peļam peļķei peļķes peļķi peļķu peļķē peļķēm peļķēs
+98	6098	uzgleznot	jāuzglezno neuzgleznot neuzgleznotu uzglezno uzgleznoja uzgleznojat uzgleznojiet uzgleznojis uzgleznojot uzgleznoju uzgleznojusi uzgleznojuši uzgleznosi uzgleznota uzgleznotais uzgleznotas uzgleznoti uzgleznotie uzgleznoto uzgleznots uzgleznotu uzgleznošanas
+99	6099	pļāpas	pļāpu pļāpām pļāpās
+100	6100	noskatīt	nenoskatītas nenoskatīto nenoskatītā noskata noskatiet noskatot noskatu noskatām noskatāmais noskatāmas noskatīja noskatījis noskatīju noskatījusi noskatījušas noskatījuši noskatījušos noskatījām noskatīta noskatītais noskatītajai noskatītajam noskatītajiem noskatītajā noskatītajām noskatītam noskatītas noskatīti noskatītie noskatītiem noskatīto noskatīts noskatītu noskatītā noskatītām noskatītās

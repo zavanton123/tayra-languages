@@ -1,100 +1,100 @@
-1	9601	vasalis	vasali vasalus vasaļa vasaļi vasaļiem vasaļu vasaļus
-2	9602	atsalt	atsala atsalis atsalst atsalstam atsalusi atsaluši atsalšana
-3	9603	uzredzēt	uzredzi
-4	9604	livreja	livrejas livreju
-5	9605	pakāsēt	pakāsēji pakāsēju
-6	9606	triceratopss	triceratopsa triceratopsi triceratopsu
-7	9607	nosauļoties	nenosauļojies nosauļojies nosauļojusies nosauļojušies nosauļojušās nosauļotos
-8	9608	aizgriezt	aizgriez aizgrieza aizgriezis aizgriezti aizgrieztos aizgriezts aizgrieztu aizgrieztām aizgriezu aizgriezusi aizgriezuši aizgriezīsim aizgriešana aizgriež aizgriežams jāaizgriež neaizgrieztu neaizgriežot
-9	9609	kondensācija	kondensācijas kondensāciju
-10	9610	galvassega	galvassegai galvassegas galvassegu galvassegām galvassegās
-11	9611	nodefinēt	jānodefinē nenodefinē nodefinē nodefinēja nodefinējiet nodefinējis nodefinējot nodefinēju nodefinējām nodefinēs nodefinēts nodefinētu nodefinēšana
-12	9612	bārt	bar baram baru bāra bāre bāri bāriem bāris bāros bārts bārtu bāru bārus bāruši bāršana bāršot jābar
-13	9613	kontrabass	kontrabasa kontrabasam kontrabasi kontrabasiem kontrabasu kontrabasus
-14	9614	provokators	provokatora provokatoram provokatori provokatoriem provokatoru provokatorus
-15	9615	elastīgums	elastīguma elastīgumam elastīgumu elastīgumā
-16	9616	aprauties	apraujas apraujies apraujos aprausies aprautos aprāvies aprāvos aprāvās neaprausies
-17	9617	aizsniegties	aizsniedzas aizsniedzos aizsniedzoties aizsniedzās aizsniegtos aizsniegšos neaizsniedzas neaizsniedzās neaizsniegsies
-18	9618	samocīt	nesamocīta nesamocītie nesamocīto nesamocīšana samocīju samocīta samocītas samocīti samocītie samocīto samocīts samocītu samocītā
-19	9619	grauzdēt	grauzdē grauzdējam grauzdēju grauzdēsim grauzdēta grauzdētais grauzdētas grauzdēti grauzdēto grauzdētu grauzdētā grauzdēšanas grauzdēšanu negrauzdētas negrauzdēti
-20	9620	hameleons	hameleona hameleonam hameleoni hameleoniem hameleonu
-21	9621	putekļsūcējs	putekļsūcēja putekļsūcējam putekļsūcēji putekļsūcējiem putekļsūcēju putekļsūcējus
-22	9622	futūristisks	futūristiska futūristiskai futūristiskais futūristiskajai futūristiskajiem futūristiskajā futūristiskas futūristiski futūristiskie futūristisko futūristisku futūristiskā futūristiskāko futūristiskām futūristiskās
-23	9623	doza	dozas dozu dozām dozās
-24	9624	strēbt	jāstrebj nestrēbt streb strebj strebjot strēba strēbis strēbs strēbtu strēbšana
-25	9625	salīt	nesalīs nesalīst nesalīstu salija salijis saliju salīstu salītu salīšana
-26	9626	fizikāli	
-27	9627	bioķīmija	bioķīmijas bioķīmiju
-28	9628	pauna	paunas paunu paunām
-29	9629	sezams	sezam sezama sezamu
-30	9630	somālietis	somālieti somālieši somāliešiem somāliešu
-31	9631	atkust	atkusa atkusis atkustu atkusīs atkūst atkūstot neatkust neatkūst
-32	9632	burbuļot	burbuļo burbuļodams burbuļoja burbuļojam burbuļojošs burbuļos burbuļotu burbuļošana jāburbuļo
-33	9633	pareizticība	pareizticībai pareizticības pareizticību pareizticībā
-34	9634	filologs	filologa filologam filologi filologiem filologos filologu filologus filoloģe filoloģei filoloģes filoloģi
-35	9635	azerbaidžānis	azerbaidžāni azerbaidžānietes azerbaidžāņi azerbaidžāņiem azerbaidžāņu azerbaidžāņus
-36	9636	flamenko	
-37	9637	brass	brasa brasu brasā
-38	9638	timiāns	timiāna timiāniem timiānu
-39	9639	bardzība	bardzībai bardzības bardzību bardzībā
-40	9640	pirmkods	pirmkoda pirmkodam pirmkodu
-41	9641	spirgts	spirgta spirgtai spirgtais spirgtajiem spirgtajā spirgtas spirgti spirgto spirgtu spirgtā spirgtāks spirgtās
-42	9642	cilvēciskums	cilvēciskuma cilvēciskumu
-43	9643	tikvien	
-44	9644	sienāzis	sienāzi sienāža sienāži sienāžiem sienāžu sienāžus
-45	9645	aktivizācija	aktivizācijai aktivizācijas aktivizāciju aktivizācijā
-46	9646	dēmonisks	dēmoniska dēmoniskais dēmoniskajiem dēmoniskas dēmoniski dēmoniskie dēmonisko dēmonisku dēmoniskā dēmoniskās
-47	9647	eskalators	eskalatora eskalatoram eskalatori eskalatoriem eskalatoru
-48	9648	mirkt	jāmirkst mircis mirka mirkdams mirki mirks mirkst mirkstot mirktu mirku mirkšu
-49	9649	samanīt	nesamana nesamanu nesamanīju samana samani samanu samanāms samanīja samanīji samanījis samanīju samanīsim
-50	9650	piesaistīties	nepiesaistītos nepiesaistīšanās piesaistos piesaistoties piesaistās piesaistījies piesaistījusies piesaistījušies piesaistījušās piesaistījās piesaistītos piesaistīšanās
-51	9651	gnīda	gnīdai gnīdas gnīdu gnīdām
-52	9652	katetrs	katetra katetri katetriem katetru
-53	9653	nošķirties	nošķiras nošķiroties nošķiršanās nošķīries nošķīrās
-54	9654	pamērīt	pamēra pamēri pamērot pamērīja pamērīju pamērīšu
-55	9655	uzvārīties	neuzvārās uzvārās uzvārījies uzvārījusies uzvārījās uzvārījāties uzvārīsies uzvārītos
-56	9656	eritrocīts	eritrocīti eritrocītiem eritrocītos eritrocītu
-57	9657	fikcija	fikcijas fikciju fikcijām
-58	9658	krematorija	krematorijas krematoriju krematorijā krematorijām
-59	9659	socializācija	socializācijai socializācijas socializāciju socializācijā
-60	9660	emitents	emitenta emitentam emitenti emitentiem emitentu
-61	9661	lopkopis	lopkopi lopkopim lopkopja lopkopji lopkopjiem lopkopjos lopkopju lopkopjus
-62	9662	ieliekties	ieliecas ieliecies ieliekšanās
-63	9663	bārmene	bārmenei bārmenes bārmeni bārmenēm bārmeņu
-64	9664	kultura	kulturai kulturas kulturu
-65	9665	hantele	hanteles hanteli hantelē hantelēm hanteļu
-66	9666	stomatologs	stomatologa stomatologam stomatologi stomatologiem stomatologu stomatoloģe stomatoloģei
-67	9667	bikls	bikla biklais biklajai biklam biklas biklie biklo biklu biklus biklā biklāki biklākās biklās
-68	9668	pārtērēt	nepārtērējot pārtērē pārtērēja pārtērējam pārtērējat pārtērējis pārtērējot pārtērēju pārtērējusi pārtērējuši pārtērēta pārtērētais pārtērēti pārtērēto pārtērēts pārtērētu pārtērētā pārtērēšana pārtērēšanas pārtērēšanu
-69	9669	kapitālistisks	kapitālistiska kapitālistiskajai kapitālistiskajos kapitālistiskajā kapitālistiskajām kapitālistiskajās kapitālistiskas kapitālistiski kapitālistisko kapitālistisku kapitālistiskā kapitālistiskām kapitālistiskās
-70	9670	rīcībspējīgs	rīcībspējīga rīcībspējīgai rīcībspējīgajai rīcībspējīgas rīcībspējīgi rīcībspējīgiem rīcībspējīgu rīcībspējīgākus rīcībspējīgākā rīcībspējīgākām
-71	9671	ķeksis	ķeksi ķeksī ķekša ķekši ķekšiem ķekšus
-72	9672	neļķe	neļķes neļķi neļķu neļķēm
-73	9673	mesa	mesai mesas mesu mesā mesām
-74	9674	rieties	nerejieties neriesimies rejas rejaties rejos rietos riešanās
-75	9675	papildināties	nepapildinājās nepapildinās papildinoties papildinājies papildinājusies papildinājušies papildinājušās papildinājās papildinās papildināsies papildinātos papildināšanās
-76	9676	zeltnesis	zeltnesi zeltnesī zeltneša zeltnešiem
-77	9677	izkopēt	izkopē izkopēju izkopējusi izkopējām izkopēta izkopēts izkopētu izkopētā jāizkopē
-78	9678	vingrs	vingra vingrajiem vingras vingri vingriem vingro vingros vingru vingrāki vingrākie vingrāks vingrās
-79	9679	kristīties	kristoties kristījos kristījušies kristījās kristītos kristīšanās kristīšos nekristos
-80	9680	skābēt	jāskābē neskābē skābē skābējam skābējot skābētajiem skābētajos skābētas skābēti skābētie skābētiem skābētos skābēts skābētu skābētus skābēšana skābēšanai skābēšanas
-81	9681	augļkopība	augļkopībai augļkopības augļkopību augļkopībā
-82	9682	mirdzēties	mirdzas
-83	9683	pasivitāte	pasivitātes pasivitāti pasivitātē
-84	9684	izpeļņa	izpeļņas izpeļņu izpeļņā
-85	9685	aizlāpīt	aizlāpa aizlāpi aizlāpu aizlāpīja aizlāpīs aizlāpīts aizlāpītu jāaizlāpa neaizlāpīja neaizlāpīs neaizlāpīt neaizlāpītu
-86	9686	smiltiņa	smiltiņai smiltiņas smiltiņu smiltiņā smiltiņām smiltiņās
-87	9687	ieraža	ieražas ieražu ieražā ieražām ieražās
-88	9688	plānoties	neplānojas neplānotos plānojas plānojies plānojoties plānojās plānošanās
-89	9689	pienskābe	pienskābes pienskābi pienskābē
-90	9690	nomācīties	nomācies nomācoties nomācās nomācījies nomācījos nomācījāmies nomācījās nomācīsies
-91	9691	vālodze	vālodzes vālodzi vālodzēs vālodžu
-92	9692	pavingrot	nepavingros pavingro pavingroja pavingrojot pavingroju pavingrotu
-93	9693	tēvreize	tēvreizes tēvreizi tēvreizē
-94	9694	gaļēdājs	gaļēdāja gaļēdājam gaļēdāji gaļēdājiem gaļēdāju
-95	9695	noputēt	nenoputēs noput noputēja noputējis noputējusi noputējušas noputējuši noputējušo noputēs noputēšanu
-96	9696	stings	stinga stingai stingais stingajiem stingam stingi stingo stingu stingāka stingākiem stingāko stingās
-97	9697	atmosfērisks	atmosfēriska atmosfēriskais atmosfēriskajam atmosfēriskajā atmosfēriskas atmosfēriski atmosfēriskie atmosfērisko atmosfērisku atmosfēriskus atmosfēriskā atmosfēriskāka atmosfēriskāks atmosfēriskākus atmosfēriskās
-98	9698	palaisties	nepalaisties nepalaižas nepalaižoties palaidies palaidāmies palaidās palaidīsies palaistos palaižas palaižos palaižoties
-99	9699	sarīties	sarijas sarijies sarijos sarijās
-100	9700	bezbailība	bezbailībai bezbailības bezbailību
+1	9601	provokators	provokatora provokatoram provokatori provokatoriem provokatoru provokatorus
+2	9602	elastīgums	elastīguma elastīgumam elastīgumu elastīgumā
+3	9603	aprauties	apraujas apraujies apraujos aprausies aprautos aprāvies aprāvos aprāvās neaprausies
+4	9604	aizsniegties	aizsniedzas aizsniedzos aizsniedzoties aizsniedzās aizsniegtos aizsniegšos neaizsniedzas neaizsniedzās neaizsniegsies
+5	9605	samocīt	nesamocīta nesamocītie nesamocīto nesamocīšana samocīju samocīta samocītas samocīti samocītie samocīto samocīts samocītu samocītā
+6	9606	grauzdēt	grauzdē grauzdējam grauzdēju grauzdēsim grauzdēta grauzdētais grauzdētas grauzdēti grauzdēto grauzdētu grauzdētā grauzdēšanas grauzdēšanu negrauzdētas negrauzdēti
+7	9607	pavilkties	nepavelcies nepavelkas nepavilkos nepavilksieties nepavilkties nepavilktos nepavilkās nepavilkšos pavelkas pavelkaties pavilcies pavilkos pavilksies pavilksimies pavilkāmies pavilkās
+8	9608	hameleons	hameleona hameleonam hameleoni hameleoniem hameleonu
+9	9609	putekļsūcējs	putekļsūcēja putekļsūcējam putekļsūcēji putekļsūcējiem putekļsūcēju putekļsūcējus
+10	9610	futūristisks	futūristiska futūristiskai futūristiskais futūristiskajai futūristiskajiem futūristiskajā futūristiskas futūristiski futūristiskie futūristisko futūristisku futūristiskā futūristiskāko futūristiskām futūristiskās
+11	9611	doza	dozas dozu dozām dozās
+12	9612	strēbt	jāstrebj nestrēbt streb strebj strebjot strēba strēbis strēbs strēbtu strēbšana
+13	9613	fizikāli	
+14	9614	bioķīmija	bioķīmijas bioķīmiju
+15	9615	pauna	paunas paunu paunām
+16	9616	sezams	sezam sezama sezamu
+17	9617	atkust	atkusa atkusis atkustu atkusīs atkūst atkūstot neatkust neatkūst
+18	9618	somālietis	somālieti somālieši somāliešiem somāliešu
+19	9619	burbuļot	burbuļo burbuļodams burbuļoja burbuļojam burbuļojošs burbuļos burbuļotu burbuļošana jāburbuļo
+20	9620	pareizticība	pareizticībai pareizticības pareizticību pareizticībā
+21	9621	filologs	filologa filologam filologi filologiem filologos filologu filologus filoloģe filoloģei filoloģes filoloģi
+22	9622	azerbaidžānis	azerbaidžāni azerbaidžānietes azerbaidžāņi azerbaidžāņiem azerbaidžāņu azerbaidžāņus
+23	9623	flamenko	
+24	9624	brass	brasa brasu brasā
+25	9625	timiāns	timiāna timiāniem timiānu
+26	9626	bardzība	bardzībai bardzības bardzību bardzībā
+27	9627	pirmkods	pirmkoda pirmkodam pirmkodu
+28	9628	spirgts	spirgta spirgtai spirgtais spirgtajiem spirgtajā spirgtas spirgti spirgto spirgtu spirgtā spirgtāks spirgtās
+29	9629	cilvēciskums	cilvēciskuma cilvēciskumu
+30	9630	tikvien	
+31	9631	sienāzis	sienāzi sienāža sienāži sienāžiem sienāžu sienāžus
+32	9632	pietiekties	pietiecies pietiecos pietieksies pietiektos pietiekusies pietiekušies pietiekšanās
+33	9633	aktivizācija	aktivizācijai aktivizācijas aktivizāciju aktivizācijā
+34	9634	dēmonisks	dēmoniska dēmoniskais dēmoniskajiem dēmoniskas dēmoniski dēmoniskie dēmonisko dēmonisku dēmoniskā dēmoniskās
+35	9635	eskalators	eskalatora eskalatoram eskalatori eskalatoriem eskalatoru
+36	9636	mirkt	jāmirkst mircis mirka mirkdams mirki mirks mirkst mirkstot mirktu mirku mirkšu
+37	9637	samanīt	nesamana nesamanu nesamanīju samana samani samanu samanāms samanīja samanīji samanījis samanīju samanīsim
+38	9638	piesaistīties	nepiesaistītos nepiesaistīšanās piesaistos piesaistoties piesaistās piesaistījies piesaistījusies piesaistījušies piesaistījušās piesaistījās piesaistītos piesaistīšanās
+39	9639	gnīda	gnīdai gnīdas gnīdu gnīdām
+40	9640	katetrs	katetra katetri katetriem katetru
+41	9641	nošķirties	nošķiras nošķiroties nošķiršanās nošķīries nošķīrās
+42	9642	izliekties	izliecas izliecos izliecoties izliecās izlieksies izliektos
+43	9643	pamērīt	pamēra pamēri pamērot pamērīja pamērīju pamērīšu
+44	9644	uzvārīties	neuzvārās uzvārās uzvārījies uzvārījusies uzvārījās uzvārījāties uzvārīsies uzvārītos
+45	9645	ieliekties	ieliecas ieliecies ieliekšanās
+46	9646	eritrocīts	eritrocīti eritrocītiem eritrocītos eritrocītu
+47	9647	fikcija	fikcijas fikciju fikcijām
+48	9648	krematorija	krematorijas krematoriju krematorijā krematorijām
+49	9649	socializācija	socializācijai socializācijas socializāciju socializācijā
+50	9650	emitents	emitenta emitentam emitenti emitentiem emitentu
+51	9651	lopkopis	lopkopi lopkopim lopkopja lopkopji lopkopjiem lopkopjos lopkopju lopkopjus
+52	9652	bārmene	bārmenei bārmenes bārmeni bārmenēm bārmeņu
+53	9653	kultura	kulturai kulturas kulturu
+54	9654	hantele	hanteles hanteli hantelē hantelēm hanteļu
+55	9655	stomatologs	stomatologa stomatologam stomatologi stomatologiem stomatologu stomatoloģe stomatoloģei
+56	9656	bikls	bikla biklais biklajai biklam biklas biklie biklo biklu biklus biklā biklāki biklākās biklās
+57	9657	pārtērēt	nepārtērējot pārtērē pārtērēja pārtērējam pārtērējat pārtērējis pārtērējot pārtērēju pārtērējusi pārtērējuši pārtērēta pārtērētais pārtērēti pārtērēto pārtērēts pārtērētu pārtērētā pārtērēšana pārtērēšanas pārtērēšanu
+58	9658	kapitālistisks	kapitālistiska kapitālistiskajai kapitālistiskajos kapitālistiskajā kapitālistiskajām kapitālistiskajās kapitālistiskas kapitālistiski kapitālistisko kapitālistisku kapitālistiskā kapitālistiskām kapitālistiskās
+59	9659	rīcībspējīgs	rīcībspējīga rīcībspējīgai rīcībspējīgajai rīcībspējīgas rīcībspējīgi rīcībspējīgiem rīcībspējīgu rīcībspējīgākus rīcībspējīgākā rīcībspējīgākām
+60	9660	ķeksis	ķeksi ķeksī ķekša ķekši ķekšiem ķekšus
+61	9661	neļķe	neļķes neļķi neļķu neļķēm
+62	9662	mesa	mesai mesas mesu mesā mesām
+63	9663	rieties	nerejieties neriesimies rejas rejaties rejos rietos riešanās
+64	9664	zeltnesis	zeltnesi zeltnesī zeltneša zeltnešiem
+65	9665	izkopēt	izkopē izkopēju izkopējusi izkopējām izkopēta izkopēts izkopētu izkopētā jāizkopē
+66	9666	vingrs	vingra vingrajiem vingras vingri vingriem vingro vingros vingru vingrāki vingrākie vingrāks vingrās
+67	9667	skābēt	jāskābē neskābē skābē skābējam skābējot skābētajiem skābētajos skābētas skābēti skābētie skābētiem skābētos skābēts skābētu skābētus skābēšana skābēšanai skābēšanas
+68	9668	augļkopība	augļkopībai augļkopības augļkopību augļkopībā
+69	9669	mirdzēties	mirdzas
+70	9670	pasivitāte	pasivitātes pasivitāti pasivitātē
+71	9671	izpeļņa	izpeļņas izpeļņu izpeļņā
+72	9672	aizlāpīt	aizlāpa aizlāpi aizlāpu aizlāpīja aizlāpīs aizlāpīts aizlāpītu jāaizlāpa neaizlāpīja neaizlāpīs neaizlāpīt neaizlāpītu
+73	9673	smiltiņa	smiltiņai smiltiņas smiltiņu smiltiņā smiltiņām smiltiņās
+74	9674	ieraža	ieražas ieražu ieražā ieražām ieražās
+75	9675	plānoties	neplānojas neplānotos plānojas plānojies plānojoties plānojās plānošanās
+76	9676	pienskābe	pienskābes pienskābi pienskābē
+77	9677	kristīties	kristoties kristījos kristījušies kristījās kristītos kristīšanās kristīšos
+78	9678	nomācīties	nomācies nomācoties nomācās nomācījies nomācījos nomācījāmies nomācījās nomācīsies
+79	9679	vālodze	vālodzes vālodzi vālodzēs vālodžu
+80	9680	pavingrot	nepavingros pavingro pavingroja pavingrojot pavingroju pavingrotu
+81	9681	tēvreize	tēvreizes tēvreizi tēvreizē
+82	9682	gaļēdājs	gaļēdāja gaļēdājam gaļēdāji gaļēdājiem gaļēdāju
+83	9683	noputēt	nenoputēs noput noputēja noputējis noputējusi noputējušas noputējuši noputējušo noputēs noputēšanu
+84	9684	stings	stinga stingai stingais stingajiem stingam stingi stingo stingu stingāka stingākiem stingāko stingās
+85	9685	atmosfērisks	atmosfēriska atmosfēriskais atmosfēriskajam atmosfēriskajā atmosfēriskas atmosfēriski atmosfēriskie atmosfērisko atmosfērisku atmosfēriskus atmosfēriskā atmosfēriskāka atmosfēriskāks atmosfēriskākus atmosfēriskās
+86	9686	palaisties	nepalaisties nepalaižas nepalaižoties palaidies palaidāmies palaidās palaidīsies palaistos palaižas palaižos palaižoties
+87	9687	sarīties	sarijas sarijies sarijos sarijās
+88	9688	bezbailība	bezbailībai bezbailības bezbailību
+89	9689	šizofrēniķis	šizofrēniķi šizofrēniķiem šizofrēniķu
+90	9690	saaudzēt	saaudzē saaudzēji saaudzējiet saaudzējot saaudzēti saaudzēto saaudzētu saaudzēšana
+91	9691	uzdancot	uzdanco uzdancoja uzdancoju uzdancojām uzdancosim uzdancotu
+92	9692	sasieties	nesasienas sasienamies sasienas sasiesies sasējies sasējos sasējās
+93	9693	evolucionārs	evolucionāra evolucionārajā evolucionāras evolucionāriem evolucionāro evolucionāros evolucionāru
+94	9694	anglikānis	anglikāņi anglikāņu
+95	9695	akcionāre	akcionārei akcionāres akcionāri akcionāru
+96	9696	samērīgi	
+97	9697	aizpaiet	aizpagājušajā aizpagājušo aizpagājušā aizpagājušās
+98	9698	teoloģisks	teoloģiska teoloģiskais teoloģiskajai teoloģiskajiem teoloģiskajos teoloģiskajā teoloģiskas teoloģiskie teoloģiskiem teoloģisko teoloģiskos teoloģisku teoloģiskus teoloģiskā teoloģiskām teoloģiskās
+99	9699	papildināties	nepapildinājās papildinoties papildinājies papildinājusies papildinājušies papildinājušās papildinājās papildināsies papildinātos papildināšanās
+100	9700	izdejoties	izdejojamies izdejojies izdejojoties izdejojušies izdejojāmies izdejojās izdejosies izdejosimies izdejošanās jāizdejojas

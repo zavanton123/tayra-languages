@@ -1,100 +1,100 @@
-1	4601	puslode	puslodei puslodes puslodi puslodē puslodēm pusložu
-2	4602	pārtraukšana	pārtraukšanai pārtraukšanas pārtraukšanu pārtraukšanā pārtraukšanās
-3	4603	saudzēt	jāsaudzē nesaudzē nesaudzēja nesaudzējam nesaudzējiet nesaudzējot nesaudzēju nesaudzēs nesaudzētas nesaudzēšanu saudzē saudzēdams saudzēja saudzējam saudzējams saudzēji saudzējiet saudzējis saudzējot saudzējošs saudzēju saudzējusi saudzējušas saudzējuši saudzēs saudzēsi saudzēsiet saudzēsim saudzēta saudzētais saudzētas saudzēti saudzēts saudzētu saudzēšana saudzēšanas saudzēšanu saudzēšanā saudzēšu
-4	4604	luksofors	luksofora luksoforam luksofori luksoforiem luksoforos luksoforu luksoforus luksoforā
-5	4605	aizsākties	aizsācies aizsākas aizsākoties aizsāksies aizsāktos aizsākusies aizsākušies aizsākušās aizsākās aizsākšanās neaizsākas
-6	4606	pedagoģisks	pedagoģiska pedagoģiskais pedagoģiskajai pedagoģiskajam pedagoģiskajiem pedagoģiskajos pedagoģiskajā pedagoģiskajām pedagoģiskajās pedagoģiskas pedagoģiskie pedagoģiskiem pedagoģisko pedagoģiskos pedagoģisku pedagoģiskā pedagoģiskām pedagoģiskās
-7	4607	latīniete	latīņiem latīņu
-8	4608	diplomātisks	diplomātiska diplomātiskai diplomātiskais diplomātiskajam diplomātiskajiem diplomātiskajos diplomātiskajā diplomātiskajām diplomātiskajās diplomātiskam diplomātiskas diplomātiskie diplomātiskiem diplomātisko diplomātiskos diplomātisku diplomātiskus diplomātiskā diplomātiskāk diplomātiskākajiem diplomātiskākam diplomātiskāki diplomātiskāks diplomātiskām diplomātiskās
-9	4609	labvēlība	labvēlībai labvēlības labvēlību labvēlībā
-10	4610	svītra	svītras svītru svītrām svītrās
-11	4611	strupceļš	strupceļa strupceļam strupceļi strupceļiem strupceļos strupceļu strupceļus strupceļā
-12	4612	bokseris	boksera bokseri bokseriem bokserim bokseros bokseru bokserus
-13	4613	aleja	alejai alejas aleju alejā alejām alejās
-14	4614	padomdevējs	padomdevēja padomdevējam padomdevēji padomdevējiem padomdevēju padomdevējus
-15	4615	nodziedāt	jānodzied nenodziedās nenodziedāsiet nenodziedātas nodzied nodziedam nodziedama nodziedamas nodziedams nodziedi nodziediet nodziedot nodziedu nodziedāja nodziedāji nodziedājis nodziedāju nodziedājusi nodziedājušas nodziedājuši nodziedājām nodziedās nodziedāsi nodziedāsim nodziedāta nodziedātajai nodziedātajā nodziedātajām nodziedātajās nodziedātam nodziedātas nodziedāti nodziedāto nodziedāts nodziedātu nodziedātā nodziedātām nodziedāšu
-16	4616	gardums	gardum garduma gardumam gardumi gardumiem gardumos gardumu gardumus gardumā
-17	4617	pazvanīt	jāpazvana pazvana pazvani pazvaniet pazvanot pazvanu pazvanām pazvanīja pazvanīji pazvanījis pazvanīju pazvanījām pazvanīs pazvanīsi pazvanīsim pazvanīts pazvanītu pazvanīšu
-18	4618	kodolierocis	kodolieroci kodolierocus kodolieroči kodolieročiem kodolieročos kodolieroču kodolieročus
-19	4619	izglābties	izglābies izglābieties izglābjas izglābos izglābsies izglābsieties izglābsimies izglābtos izglābusies izglābušies izglābāmies izglābās izglābšanās izglābšos neizglābsies neizglābtos neizglābāmies neizglābās
-20	4620	skelets	skelet skeleta skeletam skeleti skeletiem skeletos skeletu skeletus skeletā
-21	4621	riba	ribai ribas ribu ribā ribām ribās
-22	4622	diplomāts	diplomāta diplomātam diplomāti diplomātiem diplomātos diplomātu diplomātus diplomātā
-23	4623	mazums	mazum mazuma mazumam mazumu mazumā
-24	4624	plakans	plakana plakanais plakanajam plakanajiem plakanajos plakanajā plakanajām plakanajās plakanam plakanas plakani plakanie plakaniem plakano plakanos plakanu plakanus plakanā plakanāka plakanāki plakanāko plakanāku plakanākā plakanām plakanās
-25	4625	algoritms	algoritma algoritmam algoritmi algoritmiem algoritmos algoritmu algoritmus algoritmā
-26	4626	caurs	caura caurais caurajā caurajām caurajās cauram cauras cauriem cauro cauros cauru caurus caurā caurāks caurām caurās
-27	4627	uzkosties	uzkodas uzkodās
-28	4628	atjaunoties	atjaunodamies atjaunojamies atjaunojas atjaunojies atjaunojieties atjaunojos atjaunojoties atjaunojusies atjaunojušies atjaunojušās atjaunojās atjaunosies atjaunotos atjaunošanās neatjaunojas neatjaunojās neatjaunosies neatjaunoties
-29	4629	tievs	tieva tievais tievajai tievajam tievajiem tievajos tievajā tievajām tievajās tievam tievas tievi tievie tieviem tievo tievos tievu tievus tievā tievāka tievākais tievākas tievāki tievāks tievāku tievākus tievākā tievākām tievām tievās
-30	4630	virtulis	virtuli virtulim virtulī virtuļa virtuļi virtuļiem virtuļos virtuļu virtuļus
-31	4631	iedomīgs	iedomīga iedomīgais iedomīgajiem iedomīgajām iedomīgam iedomīgas iedomīgi iedomīgiem iedomīgo iedomīgos iedomīgu iedomīgus iedomīgā iedomīgāki iedomīgāks iedomīgām iedomīgās
-32	4632	pīpēt	jāpīpē nepīpēt pīpē pīpēdams pīpēja pīpējam pīpējat pīpēji pīpējis pīpējot pīpēju pīpējām pīpējāt pīpēs pīpēsi pīpēts pīpētu pīpēšana pīpēšu
-33	4633	konstitucionāls	konstitucionāla konstitucionālais konstitucionālajai konstitucionālajam konstitucionālajiem konstitucionālajos konstitucionālajā konstitucionālajām konstitucionālajās konstitucionālam konstitucionālas konstitucionāli konstitucionālie konstitucionāliem konstitucionālo konstitucionālos konstitucionālu konstitucionālā konstitucionālās
-34	4634	svārki	svārka svārkam svārkiem svārkos svārku svārkus
-35	4635	paruna	parunai parunas parunu parunā parunām parunās
-36	4636	potīte	potītei potītes potīti potītē potītēm potītēs potīšu
-37	4637	koordinēt	jākoordinē koordinē koordinēdams koordinēja koordinējam koordinējot koordinēju koordinējusi koordinējuši koordinējām koordinēs koordinēsim koordinēta koordinētas koordinēti koordinēto koordinēts koordinētu koordinētā koordinēšana koordinēšanas koordinēšanu koordinēšanā nekoordinē nekoordinēta nekoordinēti nekoordinēto nekoordinētā
-38	4638	brīvlaiks	brīvlaika brīvlaikam brīvlaiki brīvlaikiem brīvlaikos brīvlaiku brīvlaikus brīvlaikā
-39	4639	anulēt	anulē anulēja anulējams anulējis anulējot anulēju anulējusi anulējušas anulēs anulēsiet anulēsim anulēta anulētais anulētas anulēti anulēto anulēts anulētu anulēšana anulēšanas anulēšanu jāanulē neanulē
-40	4640	komentētājs	komentētāja komentētājam komentētāji komentētājiem komentētājos komentētāju komentētājus
-41	4641	nobaudīt	jānobauda nenobaudīju nenobaudīt nobauda nobaudi nobaudiet nobaudot nobaudu nobaudām nobaudīja nobaudījis nobaudīju nobaudījām nobaudīs nobaudīsi nobaudīsim nobaudīts nobaudītu nobaudīšana nobaudīšu
-42	4642	pašsaprotams	pašsaprotama pašsaprotamai pašsaprotamais pašsaprotamajai pašsaprotamajā pašsaprotamam pašsaprotamas pašsaprotami pašsaprotamie pašsaprotamiem pašsaprotamo pašsaprotamu pašsaprotamus pašsaprotamā pašsaprotamāk pašsaprotamāka pašsaprotamāku pašsaprotamām pašsaprotamās vispašsaprotamākais
-43	4643	direktīva	direktīvai direktīvas direktīvu direktīvā direktīvām direktīvās
-44	4644	auns	aun auna aunam auni auniem aunu aunus aunā
-45	4645	zivtiņa	zivtiņai zivtiņas zivtiņu zivtiņā zivtiņām
-46	4646	ikdienišķs	ikdienišķa ikdienišķai ikdienišķais ikdienišķajai ikdienišķajam ikdienišķajiem ikdienišķajā ikdienišķajām ikdienišķajās ikdienišķam ikdienišķas ikdienišķi ikdienišķie ikdienišķiem ikdienišķo ikdienišķos ikdienišķu ikdienišķus ikdienišķā ikdienišķāk ikdienišķāka ikdienišķākajiem ikdienišķāki ikdienišķākos ikdienišķāku ikdienišķākā ikdienišķākām ikdienišķākās ikdienišķām ikdienišķās visikdienišķākajās visikdienišķāko visikdienišķākās
-47	4647	sviedri	sviedriem sviedros sviedru sviedrus
-48	4648	demonstrācija	demonstrācijai demonstrācijas demonstrāciju demonstrācijā demonstrācijām demonstrācijās
-49	4649	biezpiens	biezpiena biezpienam biezpieni biezpieniem biezpienu biezpienā
-50	4650	amatniecība	amatniecībai amatniecības amatniecību amatniecībā
-51	4651	rēķināt	jārēķina nerēķina nerēķini nerēķinot nerēķināja nerēķināju nerēķinām nerēķinās nerēķināsim rēķiniet rēķinot rēķināja rēķināji rēķinājis rēķināju rēķinājusi rēķinājušas rēķinājuši rēķinājām rēķinām rēķināms rēķinās rēķināsim rēķināta rēķinātas rēķināti rēķināto rēķināts rēķinātu rēķinātā rēķināšana rēķināšanas rēķināšanu rēķināšu
-52	4652	mīnus	
-53	4653	pataisīt	jāpataisa nepataisa nepataisi nepataisiet nepataisīs nepataisīsi nepataisīsiet pataisa pataisi pataisot pataisu pataisām pataisīdams pataisīja pataisīji pataisījis pataisīju pataisījāt pataisīs pataisīsi pataisīsiet pataisīsim pataisīts pataisītu pataisīšu
-54	4654	franks	franka frankam franki frankiem frankos franku frankus frankā
-55	4655	padzīvot	jāpadzīvo nepadzīvosi nepadzīvotu padzīvo padzīvoja padzīvojiet padzīvojis padzīvojot padzīvojošu padzīvoju padzīvojusi padzīvojuša padzīvojušai padzīvojušam padzīvojušas padzīvojuši padzīvojušiem padzīvojušu padzīvojušus padzīvojušā padzīvojušās padzīvojām padzīvos padzīvosi padzīvosim padzīvota padzīvotos padzīvots padzīvotu padzīvošot padzīvošu
-56	4656	iesākties	iebraucāmies iebraukties iesācies iesākas iesākoties iesāksies iesāktos iesākusies iesākušies iesākušās iesākās iesākšoties neiesākas neiesāksies neiesākās
-57	4657	notārs	notāra notāram notāri notāriem notāru notārus notārā
-58	4658	pēkšņs	pēkšņa pēkšņai pēkšņais pēkšņajai pēkšņajiem pēkšņajā pēkšņajām pēkšņas pēkšņie pēkšņiem pēkšņo pēkšņos pēkšņu pēkšņus pēkšņā pēkšņām pēkšņās
-59	4659	ceturtdaļa	ceturtdaļai ceturtdaļas ceturtdaļu ceturtdaļā ceturtdaļām ceturtdaļās
-60	4660	tosts	tosta tostam tosti tostiem tostu tostus tostā
-61	4661	noraut	jānorauj nenorauj nenoraujot nenoraus nenorausi nenorautu nenorāva noraudams norauj noraujam noraujat noraujiet noraujot norauju noraus norausi norausim norauts norautu noraušana noraušu norāva norāvi norāvis norāvu norāvām
-62	4662	radošums	radošuma radošumam radošumu radošumā
-63	4663	saderēt	nesaderēja nesaderējām nesaderēs nesaderēt saderēja saderēji saderējis saderēju saderējusi saderējušas saderējuši saderējām saderēs saderēsim saderētu
-64	4664	izgaist	izgaisa izgaisis izgaisti izgaistiet izgaistot izgaistoša izgaistošas izgaistošiem izgaistošo izgaistošu izgaistu izgaisusi izgaisušas izgaisuši izgaisušām izgaisīs izgaisīsi izgaisīsim jāizgaist neizgaisa neizgaist neizgaistu neizgaisīs
-65	4665	kūdra	kūdrai kūdras kūdru kūdrā
-66	4666	kanādietis	kanādiete kanādieti kanādietim kanādieša kanādieši kanādiešiem kanādiešu kanādiešus
-67	4667	pieliekties	jāpieliecas nepieliecoties nepieliecāties pieliecamies pieliecas pieliecaties pieliecies pieliecieties pieliecos pieliecoties pieliecās pieliekdamies pielieksies pieliekšos
-68	4668	teleskops	teleskopa teleskopam teleskopi teleskopiem teleskopos teleskopu teleskopus teleskopā
-69	4669	perimetrs	perimetra perimetram perimetru perimetrus perimetrā
-70	4670	atriebt	atrieb atrieba atriebi atriebjot atriebjoši atriebjošā atriebs atriebsi atriebsim atriebsit atriebta atriebti atriebtos atriebts atriebtu atriebuši atriebušās atriebšana atriebšanai atriebšot atriebšu jāatriebj neatriebts
-71	4671	seksualitāte	seksualitātei seksualitātes seksualitāti seksualitātē
-72	4672	apceļot	apceļo apceļoja apceļojam apceļoji apceļojis apceļojot apceļoju apceļojām apceļojāt apceļos apceļosi apceļosiet apceļosim apceļosit apceļotu apceļošana apceļošu jāapceļo neapceļot
-73	4673	nabadzīte	nabadziņ nabadziņa nabadziņam nabadziņi nabadziņiem nabadziņu nabadziņus nabadziņš nabadzītei nabadzīti nabadzītēm
-74	4674	bagāžnieks	bagāžnieka bagāžniekam bagāžniekiem bagāžniekos bagāžnieku bagāžniekus bagāžniekā
-75	4675	paklusēt	jāpaklusē paklusē paklusēja paklusējam paklusējiet paklusējis paklusējot paklusēju paklusēs paklusēsim paklusētu paklusēšu
-76	4676	lūsis	lūis lūsa lūsi lūsim lūša lūši lūšiem lūšos lūšu lūšus
-77	4677	magnētisks	magnētiska magnētiskajai magnētiskajam magnētiskajos magnētiskajā magnētiskajām magnētiskam magnētiskas magnētiski magnētiskie magnētiskiem magnētisko magnētiskos magnētisku magnētiskā magnētiskāki magnētiskās
-78	4678	dinamika	dinamikai dinamikas dinamiku dinamikā
-79	4679	mazmeita	mazmeitai mazmeitas mazmeitu mazmeitām
-80	4680	ego	
-81	4681	auzas	auza auzu auzām auzās
-82	4682	nobūties	nenobijies nenobijāmies nenobijās nobijas nobijies nobijos nobijusies nobijušies nobijušās nobijāmies nobijās nobijāties
-83	4683	limuzīns	limuzīna limuzīnam limuzīni limuzīniem limuzīnos limuzīnu limuzīnus limuzīnā
-84	4684	pamiers	pamiera pamieram pamieriem pamieru pamierā
-85	4685	ikona	ikonai ikonam ikonas ikonu ikonā ikonām ikonās
-86	4686	sacelties	jāsaceļas nesacelas nesacelieties nesacelsies nesaceltos nesaceļamies nesaceļas nesacēlos nesacēlās sacelies sacelsies sacelsieties sacelsimies saceltos saceļas saceļoties sacēlies sacēlusies sacēlušies sacēlušās sacēlās
-87	4687	mols	mol mola molam moli moliem molu molus molā
-88	4688	vasarnīca	vasarnīcai vasarnīcas vasarnīcu vasarnīcā vasarnīcām vasarnīcās
-89	4689	kategoriski	
-90	4690	mikrorajons	mikrorajona mikrorajonam mikrorajoni mikrorajoniem mikrorajonos mikrorajonu mikrorajonus mikrorajonā
-91	4691	laizīt	jālaiza laiza laizi laiziet laizot laizu laizāt laizīja laizīju laizījām laizīs laizīsiet laizīts laizītu laizīšana nelaizīt
-92	4692	robežsargs	robežsarga robežsargam robežsargi robežsargiem robežsargos robežsargu robežsargus
-93	4693	ķirurģija	ķirurģijai ķirurģijas ķirurģiju ķirurģijā
-94	4694	kurjers	kurjera kurjeram kurjeri kurjeriem kurjeru kurjerus
-95	4695	aukla	auklai auklas auklu auklā auklām
-96	4696	audits	audita auditam auditi auditiem auditos auditu auditus auditā
-97	4697	izskatīgs	izskatīga izskatīgai izskatīgais izskatīgajiem izskatīgajā izskatīgam izskatīgas izskatīgi izskatīgie izskatīgiem izskatīgo izskatīgos izskatīgu izskatīgus izskatīgā izskatīgāka izskatīgākais izskatīgākajiem izskatīgākam izskatīgāki izskatīgākie izskatīgāko izskatīgāks izskatīgāku izskatīgām visizskatīgākais
-98	4698	ziņkārīgs	visziņkārīgākos visziņkārīgākā ziņkārīga ziņkārīgai ziņkārīgais ziņkārīgajam ziņkārīgajiem ziņkārīgam ziņkārīgas ziņkārīgi ziņkārīgie ziņkārīgiem ziņkārīgo ziņkārīgos ziņkārīgu ziņkārīgus ziņkārīgā ziņkārīgākais ziņkārīgākie ziņkārīgākos ziņkārīgām ziņkārīgās
-99	4699	norakstīt	jānoraksta nenoraksta nenorakstu nenorakstāt nenorakstīt noraksta noraksti norakstiet norakstot norakstu norakstām norakstāmie norakstāmo norakstāms norakstāmā norakstāmās norakstīja norakstījis norakstīju norakstījusi norakstījušas norakstījuši norakstīs norakstīsi norakstīsim norakstīta norakstītais norakstītajiem norakstītas norakstīti norakstītie norakstītiem norakstīto norakstīts norakstītu norakstītā norakstītām norakstītās norakstīšana
-100	4700	turība	turībai turības turību turībā
+1	4601	fenomens	fenomena fenomenam fenomeni fenomeniem fenomenu fenomenus fenomenā
+2	4602	tematisks	tematiska tematiskai tematiskais tematiskajai tematiskajam tematiskajiem tematiskajos tematiskajā tematiskajām tematiskajās tematiskam tematiskas tematiski tematiskie tematiskiem tematisko tematiskos tematisku tematiskus tematiskā tematiskāku tematiskām tematiskās
+3	4603	fon	
+4	4604	reaktors	reaktora reaktoram reaktori reaktoriem reaktoros reaktoru reaktorus reaktorā
+5	4605	glezniecība	glezniecībai glezniecības glezniecību glezniecībā
+6	4606	proporcionāls	proporcionāla proporcionālai proporcionālais proporcionālajam proporcionālajā proporcionālam proporcionālas proporcionāli proporcionāliem proporcionālo proporcionālos proporcionālu proporcionālus proporcionālā proporcionālāk proporcionālākai proporcionālām proporcionālās
+7	4607	savaldīt	jāsavalda nesavalda nesavaldi nesavaldot nesavaldāms nesavaldīja nesavaldījām nesavaldītu savalda savaldi savaldiet savaldot savaldu savaldām savaldāms savaldīja savaldījis savaldīju savaldīs savaldīsiet savaldīsit savaldīts savaldītu savaldīšana
+8	4608	ieslēgties	ieslēdzas ieslēdzies ieslēdzieties ieslēdzos ieslēdzoties ieslēdzāmies ieslēdzās ieslēgsies ieslēgsimies ieslēgtos ieslēgšanās ieslēgšos jāieslēdzas neieslēdzamies neieslēdzas neieslēdzies neieslēdzos neieslēdzās neieslēgtos
+9	4609	altāris	altāra altāri altāriem altārim altāru altārus altārī
+10	4610	pingvīns	pingvīna pingvīnam pingvīni pingvīniem pingvīnu pingvīnus
+11	4611	āboliņš	āboliņa āboliņam āboliņi āboliņu āboliņus
+12	4612	gigants	gigant giganta gigantam giganti gigantiem gigantos gigantu gigantus gigantā
+13	4613	vieglatlētika	vieglatlētikai vieglatlētikas vieglatlētiku vieglatlētikā
+14	4614	rudzi	rudziem rudzis rudzos rudzs rudzu rudzus
+15	4615	farmācija	farmācijai farmācijas farmāciju farmācijā
+16	4616	izvietojums	izvietojuma izvietojumam izvietojumi izvietojumiem izvietojumu izvietojumus izvietojumā
+17	4617	iedegt	iededz iededza iededzam iededziet iededzis iededzot iededzu iededzām iededzāt iedeg iedega iedegs iedegsim iedegta iedegtais iedegtajām iedegtas iedegti iedegtiem iedegto iedegtos iedegts iedegtu iedegtām iedegtās iedegu iedegusi iedeguši iedegušos iedegušās iedegām iedegšana iedegšot iedegšu jāiededz neiededza neiededzu neiededzām neiedeg
+18	4618	savilkt	jāsavelk nesavilkt nesavilku savelc savelciet savelk savelkam savelkat savelkot savelkošs savelku savilcis savilka savilki savilks savilksim savilkts savilktu savilku savilkām savilkšana
+19	4619	nebeidzams	nebeidzama nebeidzamai nebeidzamais nebeidzamajam nebeidzamajiem nebeidzamajos nebeidzamajā nebeidzamajām nebeidzamajās nebeidzamam nebeidzamas nebeidzami nebeidzamie nebeidzamiem nebeidzamo nebeidzamos nebeidzamu nebeidzamus nebeidzamā nebeidzamām nebeidzamās
+20	4620	pēcpuse	pēcpusei pēcpuses pēcpusi pēcpusē pēcpusēm pēcpušu
+21	4621	enkurs	enkura enkuram enkuri enkuriem enkuru enkurus
+22	4622	paelpot	paelpo paelpojiet paelpoju paelpotu
+23	4623	pastaigāt	jāpastaigā nepastaigāsi pastaigā pastaigāja pastaigājam pastaigājat pastaigājiet pastaigājis pastaigājot pastaigāju pastaigājām pastaigās pastaigāsi pastaigāsiet pastaigāsim pastaigāts pastaigātu pastaigāšu
+24	4624	puslode	puslodei puslodes puslodi puslodē puslodēm pusložu
+25	4625	pārtraukšana	pārtraukšanai pārtraukšanas pārtraukšanu pārtraukšanā pārtraukšanās
+26	4626	saudzēt	jāsaudzē nesaudzē nesaudzēja nesaudzējam nesaudzējiet nesaudzējot nesaudzēju nesaudzēs nesaudzētas nesaudzēšanu saudzē saudzēdams saudzēja saudzējam saudzējams saudzēji saudzējiet saudzējis saudzējot saudzējošs saudzēju saudzējusi saudzējušas saudzējuši saudzēs saudzēsi saudzēsiet saudzēsim saudzēta saudzētais saudzētas saudzēti saudzēts saudzētu saudzēšana saudzēšanas saudzēšanu saudzēšanā saudzēšu
+27	4627	luksofors	luksofora luksoforam luksofori luksoforiem luksoforos luksoforu luksoforus luksoforā
+28	4628	aizsākties	aizsācies aizsākas aizsākoties aizsāksies aizsāktos aizsākusies aizsākušies aizsākušās aizsākās aizsākšanās neaizsākas
+29	4629	pedagoģisks	pedagoģiska pedagoģiskais pedagoģiskajai pedagoģiskajam pedagoģiskajiem pedagoģiskajos pedagoģiskajā pedagoģiskajām pedagoģiskajās pedagoģiskas pedagoģiskie pedagoģiskiem pedagoģisko pedagoģiskos pedagoģisku pedagoģiskā pedagoģiskām pedagoģiskās
+30	4630	latīniete	latīņiem latīņu
+31	4631	diplomātisks	diplomātiska diplomātiskai diplomātiskais diplomātiskajam diplomātiskajiem diplomātiskajos diplomātiskajā diplomātiskajām diplomātiskajās diplomātiskam diplomātiskas diplomātiskie diplomātiskiem diplomātisko diplomātiskos diplomātisku diplomātiskus diplomātiskā diplomātiskāk diplomātiskākajiem diplomātiskākam diplomātiskāki diplomātiskāks diplomātiskām diplomātiskās
+32	4632	labvēlība	labvēlībai labvēlības labvēlību labvēlībā
+33	4633	svītra	svītras svītru svītrām svītrās
+34	4634	strupceļš	strupceļa strupceļam strupceļi strupceļiem strupceļos strupceļu strupceļus strupceļā
+35	4635	bokseris	boksera bokseri bokseriem bokserim bokseros bokseru bokserus
+36	4636	aleja	alejai alejas aleju alejā alejām alejās
+37	4637	padomdevējs	padomdevēja padomdevējam padomdevēji padomdevējiem padomdevēju padomdevējus
+38	4638	nodziedāt	jānodzied nenodziedās nenodziedāsiet nenodziedātas nodzied nodziedam nodziedama nodziedamas nodziedams nodziedi nodziediet nodziedot nodziedu nodziedāja nodziedāji nodziedājis nodziedāju nodziedājusi nodziedājušas nodziedājuši nodziedājām nodziedās nodziedāsi nodziedāsim nodziedāta nodziedātajai nodziedātajā nodziedātajām nodziedātajās nodziedātam nodziedātas nodziedāti nodziedāto nodziedāts nodziedātu nodziedātā nodziedātām nodziedāšu
+39	4639	gardums	gardum garduma gardumam gardumi gardumiem gardumos gardumu gardumus gardumā
+40	4640	pazvanīt	jāpazvana pazvana pazvani pazvaniet pazvanot pazvanu pazvanām pazvanīja pazvanīji pazvanījis pazvanīju pazvanījām pazvanīs pazvanīsi pazvanīsim pazvanīts pazvanītu pazvanīšu
+41	4641	kodolierocis	kodolieroci kodolierocus kodolieroči kodolieročiem kodolieročos kodolieroču kodolieročus
+42	4642	skelets	skelet skeleta skeletam skeleti skeletiem skeletos skeletu skeletus skeletā
+43	4643	riba	ribai ribas ribu ribā ribām ribās
+44	4644	diplomāts	diplomāta diplomātam diplomāti diplomātiem diplomātos diplomātu diplomātus diplomātā
+45	4645	mazums	mazum mazuma mazumam mazumu mazumā
+46	4646	plakans	plakana plakanais plakanajam plakanajiem plakanajos plakanajā plakanajām plakanajās plakanam plakanas plakani plakanie plakaniem plakano plakanos plakanu plakanus plakanā plakanāka plakanāki plakanāko plakanāku plakanākā plakanām plakanās
+47	4647	algoritms	algoritma algoritmam algoritmi algoritmiem algoritmos algoritmu algoritmus algoritmā
+48	4648	izglābties	izglābies izglābieties izglābjas izglābos izglābsies izglābsieties izglābsimies izglābusies izglābušies izglābāmies izglābās izglābšanās izglābšos neizglābsies neizglābāmies neizglābās
+49	4649	caurs	caura caurais caurajā caurajām caurajās cauram cauras cauriem cauro cauros cauru caurus caurā caurāks caurām caurās
+50	4650	atjaunoties	atjaunodamies atjaunojamies atjaunojas atjaunojies atjaunojieties atjaunojos atjaunojoties atjaunojusies atjaunojušies atjaunojušās atjaunojās atjaunosies atjaunotos atjaunošanās neatjaunojas neatjaunojās neatjaunosies neatjaunoties
+51	4651	tievs	tieva tievais tievajai tievajam tievajiem tievajos tievajā tievajām tievajās tievam tievas tievi tievie tieviem tievo tievos tievu tievus tievā tievāka tievākais tievākas tievāki tievāks tievāku tievākus tievākā tievākām tievām tievās
+52	4652	virtulis	virtuli virtulim virtulī virtuļa virtuļi virtuļiem virtuļos virtuļu virtuļus
+53	4653	iedomīgs	iedomīga iedomīgais iedomīgajiem iedomīgajām iedomīgam iedomīgas iedomīgi iedomīgiem iedomīgo iedomīgos iedomīgu iedomīgus iedomīgā iedomīgāki iedomīgāks iedomīgām iedomīgās
+54	4654	pīpēt	jāpīpē nepīpēt pīpē pīpēdams pīpēja pīpējam pīpējat pīpēji pīpējis pīpējot pīpēju pīpējām pīpējāt pīpēs pīpēsi pīpēts pīpētu pīpēšana pīpēšu
+55	4655	konstitucionāls	konstitucionāla konstitucionālais konstitucionālajai konstitucionālajam konstitucionālajiem konstitucionālajos konstitucionālajā konstitucionālajām konstitucionālajās konstitucionālam konstitucionālas konstitucionāli konstitucionālie konstitucionāliem konstitucionālo konstitucionālos konstitucionālu konstitucionālā konstitucionālās
+56	4656	svārki	svārka svārkam svārkiem svārkos svārku svārkus
+57	4657	paruna	parunai parunas parunu parunā parunām parunās
+58	4658	potīte	potītei potītes potīti potītē potītēm potītēs potīšu
+59	4659	koordinēt	jākoordinē koordinē koordinēdams koordinēja koordinējam koordinējot koordinēju koordinējusi koordinējuši koordinējām koordinēs koordinēsim koordinēta koordinētas koordinēti koordinēto koordinēts koordinētu koordinētā koordinēšana koordinēšanas koordinēšanu koordinēšanā nekoordinē nekoordinēta nekoordinēti nekoordinēto nekoordinētā
+60	4660	brīvlaiks	brīvlaika brīvlaikam brīvlaiki brīvlaikiem brīvlaikos brīvlaiku brīvlaikus brīvlaikā
+61	4661	anulēt	anulē anulēja anulējams anulējis anulējot anulēju anulējusi anulējušas anulēs anulēsiet anulēsim anulēta anulētais anulētas anulēti anulēto anulēts anulētu anulēšana anulēšanas anulēšanu jāanulē neanulē
+62	4662	komentētājs	komentētāja komentētājam komentētāji komentētājiem komentētājos komentētāju komentētājus
+63	4663	nobaudīt	jānobauda nenobaudīju nenobaudīt nobauda nobaudi nobaudiet nobaudot nobaudu nobaudām nobaudīja nobaudījis nobaudīju nobaudījām nobaudīs nobaudīsi nobaudīsim nobaudīts nobaudītu nobaudīšana nobaudīšu
+64	4664	pašsaprotams	pašsaprotama pašsaprotamai pašsaprotamais pašsaprotamajai pašsaprotamajā pašsaprotamam pašsaprotamas pašsaprotami pašsaprotamie pašsaprotamiem pašsaprotamo pašsaprotamu pašsaprotamus pašsaprotamā pašsaprotamāk pašsaprotamāka pašsaprotamāku pašsaprotamām pašsaprotamās vispašsaprotamākais
+65	4665	direktīva	direktīvai direktīvas direktīvu direktīvā direktīvām direktīvās
+66	4666	auns	aun auna aunam auni auniem aunu aunus aunā
+67	4667	zivtiņa	zivtiņai zivtiņas zivtiņu zivtiņā zivtiņām
+68	4668	ikdienišķs	ikdienišķa ikdienišķai ikdienišķais ikdienišķajai ikdienišķajam ikdienišķajiem ikdienišķajā ikdienišķajām ikdienišķajās ikdienišķam ikdienišķas ikdienišķi ikdienišķie ikdienišķiem ikdienišķo ikdienišķos ikdienišķu ikdienišķus ikdienišķā ikdienišķāk ikdienišķāka ikdienišķākajiem ikdienišķāki ikdienišķākos ikdienišķāku ikdienišķākā ikdienišķākām ikdienišķākās ikdienišķām ikdienišķās visikdienišķākajās visikdienišķāko visikdienišķākās
+69	4669	sviedri	sviedriem sviedros sviedru sviedrus
+70	4670	demonstrācija	demonstrācijai demonstrācijas demonstrāciju demonstrācijā demonstrācijām demonstrācijās
+71	4671	biezpiens	biezpiena biezpienam biezpieni biezpieniem biezpienu biezpienā
+72	4672	amatniecība	amatniecībai amatniecības amatniecību amatniecībā
+73	4673	rēķināt	jārēķina nerēķina nerēķini nerēķinot nerēķināja nerēķināju nerēķinām nerēķinās nerēķināsim rēķiniet rēķinot rēķināja rēķināji rēķinājis rēķināju rēķinājusi rēķinājušas rēķinājuši rēķinājām rēķinām rēķināms rēķinās rēķināsim rēķināta rēķinātas rēķināti rēķināto rēķināts rēķinātu rēķinātā rēķināšana rēķināšanas rēķināšanu rēķināšu
+74	4674	mīnus	
+75	4675	pataisīt	jāpataisa nepataisa nepataisi nepataisiet nepataisīs nepataisīsi nepataisīsiet pataisa pataisi pataisot pataisu pataisām pataisīdams pataisīja pataisīji pataisījis pataisīju pataisījāt pataisīs pataisīsi pataisīsiet pataisīsim pataisīts pataisītu pataisīšu
+76	4676	padzīvot	jāpadzīvo nepadzīvosi nepadzīvotu padzīvo padzīvoja padzīvojiet padzīvojis padzīvojot padzīvojošu padzīvoju padzīvojusi padzīvojuša padzīvojušai padzīvojušam padzīvojušas padzīvojuši padzīvojušiem padzīvojušu padzīvojušus padzīvojušā padzīvojušās padzīvojām padzīvos padzīvosi padzīvosim padzīvota padzīvotos padzīvots padzīvotu padzīvošot padzīvošu
+77	4677	franks	franka frankam franki frankiem frankos franku frankus frankā
+78	4678	notārs	notāra notāram notāri notāriem notāru notārus notārā
+79	4679	pēkšņs	pēkšņa pēkšņai pēkšņais pēkšņajai pēkšņajiem pēkšņajā pēkšņajām pēkšņas pēkšņie pēkšņiem pēkšņo pēkšņos pēkšņu pēkšņus pēkšņā pēkšņām pēkšņās
+80	4680	ceturtdaļa	ceturtdaļai ceturtdaļas ceturtdaļu ceturtdaļā ceturtdaļām ceturtdaļās
+81	4681	tosts	tosta tostam tosti tostiem tostu tostus tostā
+82	4682	noraut	jānorauj nenorauj nenoraujot nenoraus nenorausi nenorautu nenorāva noraudams norauj noraujam noraujat noraujiet noraujot norauju noraus norausi norausim norauts norautu noraušana noraušu norāva norāvi norāvis norāvu norāvām
+83	4683	radošums	radošuma radošumam radošumu radošumā
+84	4684	saderēt	nesaderēja nesaderējām nesaderēs nesaderēt saderēja saderēji saderējis saderēju saderējusi saderējušas saderējuši saderējām saderēs saderēsim saderētu
+85	4685	izgaist	izgaisa izgaisis izgaisti izgaistiet izgaistot izgaistoša izgaistošas izgaistošiem izgaistošo izgaistošu izgaistu izgaisusi izgaisušas izgaisuši izgaisušām izgaisīs izgaisīsi izgaisīsim jāizgaist neizgaisa neizgaist neizgaistu neizgaisīs
+86	4686	kūdra	kūdrai kūdras kūdru kūdrā
+87	4687	kanādietis	kanādiete kanādieti kanādietim kanādieša kanādieši kanādiešiem kanādiešu kanādiešus
+88	4688	pieliekties	jāpieliecas nepieliecoties nepieliecāties pieliecamies pieliecas pieliecaties pieliecies pieliecieties pieliecos pieliecoties pieliecās pieliekdamies pielieksies pieliekšos
+89	4689	teleskops	teleskopa teleskopam teleskopi teleskopiem teleskopos teleskopu teleskopus teleskopā
+90	4690	perimetrs	perimetra perimetram perimetru perimetrus perimetrā
+91	4691	atriebt	atrieb atrieba atriebi atriebjot atriebjoši atriebjošā atriebs atriebsi atriebsim atriebsit atriebta atriebti atriebtos atriebts atriebtu atriebuši atriebušās atriebšana atriebšanai atriebšot atriebšu jāatriebj neatriebts
+92	4692	iesākties	iesācies iesākas iesākoties iesāksies iesākusies iesākušies iesākās iesākšoties neiesākas neiesāksies neiesākās
+93	4693	seksualitāte	seksualitātei seksualitātes seksualitāti seksualitātē
+94	4694	apceļot	apceļo apceļoja apceļojam apceļoji apceļojis apceļojot apceļoju apceļojām apceļojāt apceļos apceļosi apceļosiet apceļosim apceļosit apceļotu apceļošana apceļošu jāapceļo neapceļot
+95	4695	nabadzīte	nabadziņ nabadziņa nabadziņam nabadziņi nabadziņiem nabadziņu nabadziņus nabadziņš nabadzītei nabadzīti nabadzītēm
+96	4696	bagāžnieks	bagāžnieka bagāžniekam bagāžniekiem bagāžniekos bagāžnieku bagāžniekus bagāžniekā
+97	4697	paklusēt	jāpaklusē paklusē paklusēja paklusējam paklusējiet paklusējis paklusējot paklusēju paklusēs paklusēsim paklusētu paklusēšu
+98	4698	lūsis	lūis lūsa lūsi lūsim lūša lūši lūšiem lūšos lūšu lūšus
+99	4699	apkope	apkopei apkopes apkopi apkopju apkopē apkopēm apkopēs
+100	4700	magnētisks	magnētiska magnētiskajai magnētiskajam magnētiskajos magnētiskajā magnētiskajām magnētiskam magnētiskas magnētiski magnētiskie magnētiskiem magnētisko magnētiskos magnētisku magnētiskā magnētiskāki magnētiskās

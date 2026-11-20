@@ -1,100 +1,100 @@
-1	9301	brīvprātība	brīvprātības brīvprātību
-2	9302	paradigma	paradigmai paradigmas paradigmu paradigmā paradigmām
-3	9303	dzirdīgs	dzirdīgajām dzirdīgas dzirdīgi dzirdīgie dzirdīgiem dzirdīgo dzirdīgos dzirdīgu dzirdīgus dzirdīgāki dzirdīgām dzirdīgās visdzirdīgāk
-4	9304	balāde	balādes balādi balādē balādēm balādēs balāžu
-5	9305	granātābols	granātābola granātāboli granātāboliem granātābolu granātābolus
-6	9306	bastions	bastiona bastioni bastioniem bastionos bastionu bastionā
-7	9307	skleroze	sklerozei sklerozes sklerozi
-8	9308	racējs	racēj racēja racējam racēji racējiem racēju racējus
-9	9309	ierakstīties	ierakstos ierakstījies ierakstījušies ierakstījās ierakstījāties ierakstīsies ierakstīsimies ierakstītos ierakstīšanās ierakstīšos neierakstos neierakstījās neierakstīties
-10	9310	taksofons	taksofona taksofoni taksofonu
-11	9311	erceņģelis	erceņģeli erceņģelim erceņģeļa erceņģeļi erceņģeļiem erceņģeļu
-12	9312	aizbāznis	aizbāzni aizbāžņi aizbāžņiem aizbāžņu aizbāžņus
-13	9313	debespuse	debespuses debespusi debespusē debespusēm debespusēs debespušu
-14	9314	pamētāt	pamētā pamētāsim
-15	9315	pingpongs	pingponga pingpongu pingpongā
-16	9316	pakavēt	pakavē pakavētu pakavēšanas
-17	9317	gums	guma gumi gumiem gumu gumus
-18	9318	perpendikulārs	perpendikulāram perpendikulāras perpendikulāri perpendikulāro perpendikulāru perpendikulārās
-19	9319	dzeltenīgi	
-20	9320	ūbele	ūbeles ūbeli ūbelēm ūbeļu
-21	9321	kinorežisors	kinorežisora kinorežisoram kinorežisori kinorežisoriem kinorežisoru
-22	9322	konduktors	konduktora konduktoram konduktori konduktoriem konduktoru konduktorus
-23	9323	lietuve	lietuves lietuvis lietuvos lietuvē
-24	9324	viesmīlīgi	
-25	9325	akmeņains	akmeņaina akmeņainais akmeņainajiem akmeņainajā akmeņainajām akmeņainajās akmeņainas akmeņaini akmeņainie akmeņainiem akmeņaino akmeņainu akmeņainā akmeņaināka akmeņainākam akmeņainās
-26	9326	purvains	purvaina purvainai purvainais purvainajai purvainajā purvainas purvaini purvaino purvainos purvainu purvainus purvainā purvaināki purvainām purvainās
-27	9327	ķerra	ķerrai ķerras ķerru ķerrā ķerrām ķerrās
-28	9328	homofobija	homofobijai homofobijas homofobiju homofobijā
-29	9329	iespīdēt	iespīd iespīdot iespīdēja iespīdējis iespīdēs iespīdēšana neiespīd neiespīdot
-30	9330	izsapņot	izsapņo izsapņoja izsapņoji izsapņojis izsapņoju izsapņos izsapņots izsapņotu jāizsapņo neizsapņos neizsapņots
-31	9331	moralizēt	jāmoralizē moralizē moralizējot moralizējošs moralizēts moralizētu moralizēšana moralizēšanas moralizēšanu nemoralizē nemoralizējot nemoralizēju nemoralizēšu
-32	9332	kastrēt	jākastrē kastrēja kastrējam kastrējiet kastrēta kastrētais kastrēti kastrēts kastrētu kastrēšana kastrēšanas kastrēšanu nekastrēts
-33	9333	atbloķēt	atbloķē atbloķēja atbloķējot atbloķēju atbloķēs atbloķēta atbloķēti atbloķēto atbloķētos atbloķēts atbloķētu atbloķēšana jāatbloķē neatbloķējot
-34	9334	rātni	
-35	9335	iebaidīt	iebaida iebaidi iebaidāt iebaidīja iebaidīs iebaidīts iebaidītu iebaidīšana neiebaida neiebaidīsiet
-36	9336	leikocīts	leikocīti leikocītiem leikocītu
-37	9337	ortopēds	ortopēda ortopēdi ortopēdu
-38	9338	nogalināties	nenogalinās nogalinas nogalinātos nogalināšos
-39	9339	plutonijs	plutonija plutoniju
-40	9340	dievišķīgs	dievišķīga dievišķīgais dievišķīgajiem dievišķīgajā dievišķīgas dievišķīgo dievišķīgā dievišķīgākam dievišķīgākā dievišķīgās
-41	9341	pārkrist	nepārkrista pārkrita pārkritis pārkritīsi pārkrīt
-42	9342	ovulācija	ovulācijai ovulācijas ovulāciju
-43	9343	epopeja	epopejai epopejas epopeju epopejā epopejām epopejās
-44	9344	autisms	autisma autismu
-45	9345	biatlonists	biatlonista biatlonistam biatlonisti biatlonistiem biatlonistu biatlonistus
-46	9346	noasfaltēt	jānoasfaltē nenoasfaltēja noasfaltēja noasfaltējiet noasfaltējusi noasfaltējuši noasfaltējām noasfaltēs noasfaltēta noasfaltētas noasfaltēti noasfaltēto noasfaltēts noasfaltētu noasfaltētā noasfaltēšana noasfaltēšanas
-47	9347	palietot	jāpalieto palieto palietoja palietojis palietojot palietoju palietosim palietota palietotas palietoti palietotiem palietots palietotu palietotus
-48	9348	brikete	briketes briketi briketēm briketēs brikešu
-49	9349	konkrētība	konkrētībai konkrētības konkrētību konkrētībā konkrētībām konkrētībās
-50	9350	piebūvēt	jāpiebūvē piebūvē piebūvēja piebūvējam piebūvējis piebūvējot piebūvēju piebūvēs piebūvēts piebūvētu
-51	9351	bezrūpīgi	
-52	9352	bezrūpība	bezrūpībai bezrūpības bezrūpību bezrūpībā
-53	9353	piesteigties	piesteidzas piesteidzies piesteidzāmies piesteidzās piesteigsies
-54	9354	kūtiņa	kūtiņai kūtiņas kūtiņu kūtiņā kūtiņām kūtiņās
-55	9355	septiņnieks	septiņnieka septiņniekam septiņnieki septiņniekiem septiņnieku septiņniekus septiņniekā septītnieka septītniekam septītnieki septītnieks septītnieku septītniekā
-56	9356	trīsas	
-57	9357	izspēlēties	izspēlējamies izspēlējas izspēlējies izspēlējāmies izspēlējās izspēlēsies izspēlēsimies izspēlētos
-58	9358	iezvanīties	iezvanas iezvanoties iezvanās iezvanījies iezvanījās iezvanīsies iezvanītos iezvanīšanās
-59	9359	sapucēties	jāsapucējas nesapucētos sapucējas sapucējies sapucējās sapucētos sapucēšos sapucēšoties
-60	9360	ieaicināt	ieaicina ieaiciniet ieaicinot ieaicināja ieaicināji ieaicināju ieaicinājuši ieaicinām ieaicināmajiem ieaicināsim ieaicinātajiem ieaicināti ieaicināts
-61	9361	svaidīties	nesvaidies nesvaidoties nesvaidās nesvaidīsies svaidos svaidāmies svaidās svaidījos svaidījāties svaidīsies svaidītos svaidīšanās
-62	9362	kalkulēt	jākalkulē kalkulē kalkulēja kalkulējot kalkulēju kalkulējusi kalkulējām kalkulētas kalkulēti kalkulēts kalkulētu kalkulētā kalkulēšana nekalkulējot
-63	9363	saplēsties	saplēstos saplēsāmies saplēsās saplēsāties saplēsīsies saplēšas
-64	9364	nomaskēties	nomaskējies nomaskējušies nomaskējušās
-65	9365	magnētisms	magnētisma magnētismu
-66	9366	izmuldēties	izmuldas izmuldējos izmuldējās izmuldēsies izmuldēšanās neizmuldēsies neizmuldēties
-67	9367	ginekoloģija	ginekoloģijai ginekoloģijas ginekoloģiju ginekoloģijā
-68	9368	narkomānija	narkomānijai narkomānijas narkomāniju narkomānijā
-69	9369	apzinātība	apzinātības apzinātību apzinātībā
-70	9370	neitrons	neitrona neitroni neitroniem neitronu
-71	9371	scenārists	scenārista scenāristam scenāristi scenāristiem scenāristos scenāristu scenāristus
-72	9372	stenogramma	stenogrammas stenogrammu stenogrammā stenogrammām stenogrammās
-73	9373	paskaitīt	jāpaskaita paskaita paskaiti paskaitiet paskaitot paskaitām paskaitījis paskaitīju paskaitījusi paskaitīsim paskaitīti paskaitītu paskaitīšana
-74	9374	ortopēdisks	ortopēdiskais ortopēdiskajiem ortopēdiskajos ortopēdiskajām ortopēdiskas ortopēdiski ortopēdiskie ortopēdiskiem ortopēdisko ortopēdiskos ortopēdisku ortopēdiskā ortopēdiskās
-75	9375	paēna	paēnu paēnā
-76	9376	ienaids	ienaida ienaidam ienaidu ienaidā
-77	9377	ietirgot	ietirgo ietirgoja ietirgojis ietirgojot ietirgoju ietirgojām ietirgos ietirgoti ietirgoto ietirgotā ietirgotās neietirgoja
-78	9378	nosviest	jānosviež nosvied nosvieda nosviedis nosviedīs nosviedīšu nosviests nosviestu nosviezdams nosviešana nosviež nosviežot nosviežu
-79	9379	salti	
-80	9380	āmulis	āmuli āmulim āmuļa āmuļi āmuļu āmuļus
-81	9381	aizšūt	aizšuj aizšuva aizšūta aizšūtas aizšūtu aizšūšu jāaizšuj
-82	9382	sapostīt	nesapostām saposta saposti sapostot sapostu sapostām sapostīja sapostījis sapostījusi sapostījušas sapostījuši sapostīta sapostītais sapostīti sapostīto sapostīts sapostītu sapostītā
-83	9383	pelēcīgi	
-84	9384	iestiprināties	iestiprinies iestiprinoties iestiprinājies iestiprinājāmies iestiprinājās iestiprināmies iestiprinās iestiprināsies iestiprinātos iestiprināšanās neiestiprinās
-85	9385	atgriezums	atgriezuma atgriezumi atgriezumiem atgriezumu atgriezumus
-86	9386	sterilizācija	sterilizācijai sterilizācijas sterilizāciju sterilizācijā
-87	9387	celuloze	celulozi celulozē
-88	9388	perlamutrs	perlamutra perlamutram perlamutru
-89	9389	korespondence	korespondencei korespondences korespondenci korespondencē
-90	9390	aizmāršība	aizmāršības aizmāršību
-91	9391	ceļasoma	ceļasomai ceļasomas ceļasomu ceļasomā ceļasomām ceļasomās
-92	9392	reģistrators	reģistratora reģistratoram reģistratore reģistratorei reģistratores reģistratori reģistratoriem reģistratoru reģistratorus reģistratorā
-93	9393	sātanisks	sātaniska sātaniskais sātaniskajiem sātaniskajā sātaniskajām sātaniskas sātaniski sātanisko sātaniskos sātanisku sātaniskus sātaniskā sātaniskām sātaniskās
-94	9394	sacietēt	nesacietē nesacietējuši sacietē sacietēja sacietējis sacietējot sacietējusi sacietējušas sacietējušo sacietēs sacietēšanas sacietēšanu
-95	9395	bioķīmisks	bioķīmiska bioķīmiskais bioķīmiskajiem bioķīmiskajā bioķīmiskas bioķīmiski bioķīmiskie bioķīmiskiem bioķīmisko bioķīmiskos bioķīmiskās
-96	9396	izgrozīties	izgrozos izgrozās izgrozījās izgrozīsies izgrozīsimies izgrozīšanās izgrozīšos
-97	9397	fuksis	fuksi fuksu fuksīti fuksītis fuksīša fukša fukši fukšiem fukšu fukšus
-98	9398	nolakot	jānolako nolako nolakoju nolakojuši nolakojām nolakosim nolakota nolakoti nolakots nolakotu nolakotā nolakošanas nolakošanu nolakošu
-99	9399	uzadīt	jāuzada uzada uzadot uzadu uzadīja uzadīju uzadījusi uzadīti uzadīto uzadītu uzadītās uzadīšana uzadīšu
-100	9400	puķains	puķaina puķainais puķainajos puķainajām puķainas puķainie puķainiem puķaino puķainos puķainu puķainus puķainā puķaināk puķainās
+1	9301	taksofons	taksofona taksofoni taksofonu
+2	9302	erceņģelis	erceņģeli erceņģelim erceņģeļa erceņģeļi erceņģeļiem erceņģeļu
+3	9303	aizbāznis	aizbāzni aizbāžņi aizbāžņiem aizbāžņu aizbāžņus
+4	9304	debespuse	debespuses debespusi debespusē debespusēm debespusēs debespušu
+5	9305	pamētāt	pamētā pamētāsim
+6	9306	pingpongs	pingponga pingpongu pingpongā
+7	9307	pakavēt	pakavē pakavētu pakavēšanas
+8	9308	gums	guma gumi gumiem gumu gumus
+9	9309	ierakstīties	ierakstos ierakstījies ierakstījušies ierakstījās ierakstījāties ierakstīsies ierakstīsimies ierakstīšanās ierakstīšos neierakstos neierakstījās neierakstīties
+10	9310	perpendikulārs	perpendikulāram perpendikulāras perpendikulāri perpendikulāro perpendikulāru perpendikulārās
+11	9311	dzeltenīgi	
+12	9312	ūbele	ūbeles ūbeli ūbelēm ūbeļu
+13	9313	kinorežisors	kinorežisora kinorežisoram kinorežisori kinorežisoriem kinorežisoru
+14	9314	konduktors	konduktora konduktoram konduktori konduktoriem konduktoru konduktorus
+15	9315	lietuve	lietuves lietuvis lietuvos lietuvē
+16	9316	viesmīlīgi	
+17	9317	akmeņains	akmeņaina akmeņainais akmeņainajiem akmeņainajā akmeņainajām akmeņainajās akmeņainas akmeņaini akmeņainie akmeņainiem akmeņaino akmeņainu akmeņainā akmeņaināka akmeņainākam akmeņainās
+18	9318	purvains	purvaina purvainai purvainais purvainajai purvainajā purvainas purvaini purvaino purvainos purvainu purvainus purvainā purvaināki purvainām purvainās
+19	9319	ķerra	ķerrai ķerras ķerru ķerrā ķerrām ķerrās
+20	9320	homofobija	homofobijai homofobijas homofobiju homofobijā
+21	9321	iespīdēt	iespīd iespīdot iespīdēja iespīdējis iespīdēs iespīdēšana neiespīd neiespīdot
+22	9322	izsapņot	izsapņo izsapņoja izsapņoji izsapņojis izsapņoju izsapņos izsapņots izsapņotu jāizsapņo neizsapņos neizsapņots
+23	9323	moralizēt	jāmoralizē moralizē moralizējot moralizējošs moralizēts moralizētu moralizēšana moralizēšanas moralizēšanu nemoralizē nemoralizējot nemoralizēju nemoralizēšu
+24	9324	atbloķēt	atbloķē atbloķēja atbloķējot atbloķēju atbloķēs atbloķēta atbloķēti atbloķēto atbloķētos atbloķēts atbloķētu atbloķēšana jāatbloķē neatbloķējot
+25	9325	kastrēt	jākastrē kastrēja kastrējam kastrējiet kastrēta kastrētais kastrēti kastrēts kastrētu kastrēšana kastrēšanas kastrēšanu nekastrēts
+26	9326	rātni	
+27	9327	iebaidīt	iebaida iebaidi iebaidāt iebaidīja iebaidīs iebaidīts iebaidītu iebaidīšana neiebaida neiebaidīsiet
+28	9328	leikocīts	leikocīti leikocītiem leikocītu
+29	9329	ortopēds	ortopēda ortopēdi ortopēdu
+30	9330	plutonijs	plutonija plutoniju
+31	9331	pārkrist	nepārkrista pārkrita pārkritis pārkritīsi pārkrīt
+32	9332	dievišķīgs	dievišķīga dievišķīgais dievišķīgajiem dievišķīgajā dievišķīgas dievišķīgo dievišķīgā dievišķīgākam dievišķīgākā dievišķīgās
+33	9333	ovulācija	ovulācijai ovulācijas ovulāciju
+34	9334	epopeja	epopejai epopejas epopeju epopejā epopejām epopejās
+35	9335	autisms	autisma autismu
+36	9336	biatlonists	biatlonista biatlonistam biatlonisti biatlonistiem biatlonistu biatlonistus
+37	9337	noasfaltēt	jānoasfaltē nenoasfaltēja noasfaltēja noasfaltējiet noasfaltējusi noasfaltējuši noasfaltējām noasfaltēs noasfaltēta noasfaltētas noasfaltēti noasfaltēto noasfaltēts noasfaltētu noasfaltētā noasfaltēšana noasfaltēšanas
+38	9338	palietot	jāpalieto palieto palietoja palietojis palietojot palietoju palietosim palietota palietotas palietoti palietotiem palietots palietotu palietotus
+39	9339	brikete	briketes briketi briketēm briketēs brikešu
+40	9340	konkrētība	konkrētībai konkrētības konkrētību konkrētībā konkrētībām konkrētībās
+41	9341	piebūvēt	jāpiebūvē piebūvē piebūvēja piebūvējam piebūvējis piebūvējot piebūvēju piebūvēs piebūvēts piebūvētu
+42	9342	bezrūpīgi	
+43	9343	bezrūpība	bezrūpībai bezrūpības bezrūpību bezrūpībā
+44	9344	piesteigties	piesteidzas piesteidzies piesteidzāmies piesteidzās piesteigsies
+45	9345	piesēsties	nepiesēdos nepiesēžas piesēdies piesēdos piesēdusies piesēdās piesēstos piesēžas piesēžos piesēžoties
+46	9346	kūtiņa	kūtiņai kūtiņas kūtiņu kūtiņā kūtiņām kūtiņās
+47	9347	septiņnieks	septiņnieka septiņniekam septiņnieki septiņniekiem septiņnieku septiņniekus septiņniekā septītnieka septītniekam septītnieki septītnieks septītnieku septītniekā
+48	9348	trīsas	
+49	9349	izspēlēties	izspēlējamies izspēlējas izspēlējies izspēlējāmies izspēlējās izspēlēsies izspēlēsimies izspēlētos
+50	9350	sapucēties	jāsapucējas nesapucētos sapucējas sapucējies sapucējās sapucētos sapucēšos sapucēšoties
+51	9351	ieaicināt	ieaicina ieaiciniet ieaicinot ieaicināja ieaicināji ieaicināju ieaicinājuši ieaicinām ieaicināmajiem ieaicināsim ieaicinātajiem ieaicināti ieaicināts
+52	9352	svaidīties	nesvaidies nesvaidoties nesvaidās nesvaidīsies svaidos svaidāmies svaidās svaidījos svaidījāties svaidīsies svaidītos svaidīšanās
+53	9353	kalkulēt	jākalkulē kalkulē kalkulēja kalkulējot kalkulēju kalkulējusi kalkulējām kalkulētas kalkulēti kalkulēts kalkulētu kalkulētā kalkulēšana nekalkulējot
+54	9354	nomaskēties	nomaskējies nomaskējušies nomaskējušās
+55	9355	magnētisms	magnētisma magnētismu
+56	9356	izmuldēties	izmuldas izmuldējos izmuldējās izmuldēsies izmuldēšanās neizmuldēsies neizmuldēties
+57	9357	ginekoloģija	ginekoloģijai ginekoloģijas ginekoloģiju ginekoloģijā
+58	9358	narkomānija	narkomānijai narkomānijas narkomāniju narkomānijā
+59	9359	apzinātība	apzinātības apzinātību apzinātībā
+60	9360	neitrons	neitrona neitroni neitroniem neitronu
+61	9361	scenārists	scenārista scenāristam scenāristi scenāristiem scenāristos scenāristu scenāristus
+62	9362	stenogramma	stenogrammas stenogrammu stenogrammā stenogrammām stenogrammās
+63	9363	iestiprināties	iestiprinies iestiprinoties iestiprinājies iestiprinājāmies iestiprinājās iestiprināmies iestiprinās iestiprināsies iestiprinātos iestiprināšanās neiestiprinās
+64	9364	paskaitīt	jāpaskaita paskaita paskaiti paskaitiet paskaitot paskaitām paskaitījis paskaitīju paskaitījusi paskaitīsim paskaitīti paskaitītu paskaitīšana
+65	9365	ortopēdisks	ortopēdiskais ortopēdiskajiem ortopēdiskajos ortopēdiskajām ortopēdiskas ortopēdiski ortopēdiskie ortopēdiskiem ortopēdisko ortopēdiskos ortopēdisku ortopēdiskā ortopēdiskās
+66	9366	izpūst	izpūsti izpūsts izpūstu izpūta izpūtis izpūtu izpūtīs izpūš izpūšam izpūšot jāizpūš neizpūst neizpūtīs
+67	9367	paēna	paēnu paēnā
+68	9368	ienaids	ienaida ienaidam ienaidu ienaidā
+69	9369	iezvanīties	iezvanoties iezvanās iezvanījies iezvanījās iezvanīsies iezvanītos iezvanīšanās
+70	9370	ietirgot	ietirgo ietirgoja ietirgojis ietirgojot ietirgoju ietirgojām ietirgos ietirgoti ietirgoto ietirgotā ietirgotās neietirgoja
+71	9371	nosviest	jānosviež nosvied nosvieda nosviedis nosviedīs nosviedīšu nosviests nosviestu nosviezdams nosviešana nosviež nosviežot nosviežu
+72	9372	salti	
+73	9373	āmulis	āmuli āmulim āmuļa āmuļi āmuļu āmuļus
+74	9374	aizšūt	aizšuj aizšuva aizšūta aizšūtas aizšūtu aizšūšu jāaizšuj
+75	9375	sapostīt	nesapostām saposta saposti sapostot sapostu sapostām sapostīja sapostījis sapostījusi sapostījušas sapostījuši sapostīta sapostītais sapostīti sapostīto sapostīts sapostītu sapostītā
+76	9376	pelēcīgi	
+77	9377	atgriezums	atgriezuma atgriezumi atgriezumiem atgriezumu atgriezumus
+78	9378	sterilizācija	sterilizācijai sterilizācijas sterilizāciju sterilizācijā
+79	9379	celuloze	celulozi celulozē
+80	9380	perlamutrs	perlamutra perlamutram perlamutru
+81	9381	korespondence	korespondencei korespondences korespondenci korespondencē
+82	9382	aizmāršība	aizmāršības aizmāršību
+83	9383	ceļasoma	ceļasomai ceļasomas ceļasomu ceļasomā ceļasomām ceļasomās
+84	9384	reģistrators	reģistratora reģistratoram reģistratore reģistratorei reģistratores reģistratori reģistratoriem reģistratoru reģistratorus reģistratorā
+85	9385	sātanisks	sātaniska sātaniskais sātaniskajiem sātaniskajā sātaniskajām sātaniskas sātaniski sātanisko sātaniskos sātanisku sātaniskus sātaniskā sātaniskām sātaniskās
+86	9386	sacietēt	nesacietē nesacietējuši sacietē sacietēja sacietējis sacietējot sacietējusi sacietējušas sacietējušo sacietēs sacietēšanas sacietēšanu
+87	9387	bioķīmisks	bioķīmiska bioķīmiskais bioķīmiskajiem bioķīmiskajā bioķīmiskas bioķīmiski bioķīmiskie bioķīmiskiem bioķīmisko bioķīmiskos bioķīmiskās
+88	9388	izgrozīties	izgrozos izgrozās izgrozījās izgrozīsies izgrozīsimies izgrozīšanās izgrozīšos
+89	9389	fuksis	fuksi fuksu fuksīti fuksītis fuksīša fukša fukši fukšiem fukšu fukšus
+90	9390	nolakot	jānolako nolako nolakoju nolakojuši nolakojām nolakosim nolakota nolakoti nolakots nolakotu nolakotā nolakošanas nolakošanu nolakošu
+91	9391	uzadīt	jāuzada uzada uzadot uzadu uzadīja uzadīju uzadījusi uzadīti uzadīto uzadītu uzadītās uzadīšana uzadīšu
+92	9392	puķains	puķaina puķainais puķainajos puķainajām puķainas puķainie puķainiem puķaino puķainos puķainu puķainus puķainā puķaināk puķainās
+93	9393	karikatūrists	karikatūrista karikatūristam karikatūristi karikatūristiem karikatūristu karikatūristus
+94	9394	pavedins	pavedina pavedini
+95	9395	nebēdnis	nebēdne nebēdni nebēdņi nebēdņiem
+96	9396	pamīlēties	pamīlējamies pamīlēsimies pamīlētos pamīlēšanās
+97	9397	dziedātājputns	dziedātājputna dziedātājputni dziedātājputniem dziedātājputnu dziedātājputnus
+98	9398	pielidot	pielido pielidoja pielidoji pielidojot pielidos pielidošana
+99	9399	taustīties	netaustīties taustos taustoties taustāmies taustījos taustījusies taustījās taustīšanās
+100	9400	inženiere	inženieres inženieri inženieru

@@ -1,100 +1,100 @@
-1	9001	tece	teces teci tecēs tei teu teču
-2	9002	bezkaunība	bezkaunībai bezkaunības bezkaunību bezkaunībā
-3	9003	beķereja	beķerejai beķerejas beķereju beķerejā beķerejās
-4	9004	čigāniete	čigānietei čigānietes čigānieti čigānietēm
-5	9005	ķidāt	ķidā ķidājam ķidāji ķidājot ķidāju ķidās ķidāta ķidātas ķidāti ķidāts ķidāšana ķidāšanas ķidāšanu ķidāšanā
-6	9006	izpakot	izpako izpakojat izpakojiet izpakojot izpakoju izpakojusi izpakojuši izpakota izpakotas izpakoti izpakots izpakotu izpakošana izpakošanas izpakošanu neizpakota neizpakotu
-7	9007	paglābties	jāpaglābjas nepaglābos nepaglābsies paglābdamies paglābies paglābjas paglābjos paglābtos paglābusies paglābušies paglābušās paglābās paglābšanās
-8	9008	klaustrofobija	klaustrofobijas klaustrofobiju
-9	9009	izlaizīt	izlaiza izlaizi izlaizot izlaizu izlaizīja izlaizījis izlaizītu neizlaizot neizlaizīs
-10	9010	apsist	apsista apsistas apsisti apsistā apsit apsita apsituši apsitīs apsitīšu jāapsit
-11	9011	motivēšana	motivēšanai motivēšanas motivēšanu motivēšanā
-12	9012	dravnieks	dravnieka dravniekam dravnieki dravniekiem dravniekos dravnieku dravniekus
-13	9013	smiltsērkšķis	smiltsērkšķa smiltsērkšķi smiltsērkšķiem smiltsērkšķos smiltsērkšķu smiltsērkšķus
-14	9014	sadrumstalot	sadrumstalo sadrumstaloja sadrumstalojam sadrumstalojiet sadrumstalojot sadrumstalos sadrumstalota sadrumstalotas sadrumstaloti sadrumstaloto sadrumstalots sadrumstalotu sadrumstalotā sadrumstalošana sadrumstalošanu
-15	9015	vīramāte	vīramātei vīramātes vīramāti vīramātēm
-16	9016	namamāte	namamātei namamātes namamāti namamātēm namamāšu
-17	9017	izšķīst	
-18	9018	ideālists	ideālista ideālistam ideālisti ideālistiem ideālistu ideālistā
-19	9019	pelēns	pelēna pelēnam pelēni pelēniem pelēnu pelēnus
-20	9020	novājēt	nenovājēt novājē novājēja novājējis novājēju novājējusi novājējuši novājēsiet novājēšana novājēšanas novājēšanu novājēšu
-21	9021	iezvanīt	iezvana iezvani iezvanīja iezvanījis iezvanīs iezvanīta iezvanīti iezvanīts iezvanītu iezvanīšana iezvanīšanas iezvanīšanu
-22	9022	dzīvniecisks	dzīvnieciska dzīvnieciskai dzīvnieciskais dzīvnieciskajiem dzīvnieciskajā dzīvnieciskajām dzīvnieciskam dzīvnieciskas dzīvnieciskie dzīvnieciskiem dzīvniecisko dzīvnieciskos dzīvniecisku dzīvnieciskā dzīvnieciskāk dzīvnieciskām dzīvnieciskās
-23	9023	aizslaucīt	aizslaucīja aizslaucījām aizslaucīs aizslaucītam aizslaucītas aizslaucīti aizslaucīts aizslaucītu aizslaucīšana aizslaucīšu aizslauka aizslaukot aizslaukāms jāaizslauka
-24	9024	mikrobioloģija	mikrobioloģijas mikrobioloģijā
-25	9025	sāniela	sānielas sānielu sānielā sānielām sānielās
-26	9026	lempīgs	lempīga lempīgais lempīgas lempīgi lempīgo lempīgus lempīgā
-27	9027	eksperimentāli	
-28	9028	meldrs	meldra meldri meldriem meldros meldru meldrus
-29	9029	ziedlapiņa	ziedlapiņai ziedlapiņas ziedlapiņu ziedlapiņām ziedlapiņās
-30	9030	kalsns	kalsna kalsnajiem kalsnas kalsni kalsnie kalsno kalsnu kalsnus kalsnākai kalsnākas kalsnām kalsnās
-31	9031	sakraut	jāsakrauj sakrauj sakraujam sakraujiet sakraujot sakrauts sakrautu sakraušu sakrāva sakrāvu sakrāvām
-32	9032	dūmot	dūmo dūmoja dūmojot dūmojošs dūmojusi dūmojušas dūmota dūmotā dūmošana dūmošanu nedūmo
-33	9033	smakot	smako smakoja smakojot smakojošs smakošana smakošanas smakošanu
-34	9034	reālists	reālist reālistam reālisti reālistiem reālistu
-35	9035	pacienāties	pacienājies pacienājos pacienāšanās
-36	9036	grīļoties	grīļodamies grīļojas grīļojies grīļojās grīļošanās negrīļojies negrīļosies
-37	9037	starpbanku	
-38	9038	traukties	traucās
-39	9039	uzskate	uzskatei uzskates uzskatē
-40	9040	ekstrēmists	ekstrēmistam ekstrēmisti ekstrēmistiem ekstrēmistus
-41	9041	airētājs	airētāja airētājam airētāji airētājiem airētāju airētājus
-42	9042	ģeometrisks	ģeometriska ģeometriskai ģeometriskais ģeometriskajai ģeometriskajā ģeometriskam ģeometriskas ģeometriskie ģeometrisko ģeometriskos ģeometrisku ģeometriskā ģeometriskām ģeometriskās
-43	9043	apčakarēt	apčakarē apčakarēja apčakarējam apčakarējis apčakarējām apčakarēs apčakarēts apčakarētu apčakarēšana jāapčakarē neapčakarē neapčakarējam neapčakarētu
-44	9044	autostrāde	autostrādei autostrādes autostrādi autostrādēm autostrāžu
-45	9045	atsviest	atsvieda atsviedis atsviedīs atsviedīšu atsviests atsviež atsviežot jāatsviež neatsviestu
-46	9046	lakrica	lakricas lakricu
-47	9047	zagties	zadzies zagušies zodzies zogas zogos
-48	9048	pīzda	pizda pīzdu pīzdā pīzdām
-49	9049	gaišmate	gaišmates gaišmati gaišmatis gaišmatēm
-50	9050	aristokrāte	aristokrātes aristokrāti aristokrātēm
-51	9051	stelles	stellēm stellēs steļļu
-52	9052	piepulcēties	jāpiepulcējas piepulcējas piepulcējies piepulcējusies piepulcējušies piepulcējušās piepulcējās piepulcēsies piepulcētos piepulcēšanās piepulcēšos
-53	9053	nūjot	jānūjo nenūjojiet nūjo nūjoja nūjojam nūjojiet nūjojis nūjojot nūjoju nūjojuši nūjosim nūjots nūjotu nūjošu
-54	9054	datortīkls	datortīkla datortīklam datortīkli datortīkliem datortīklos datortīklu datortīklus datortīklā
-55	9055	nasks	naska naskais naskas naskie nasko nasku naskā naskāk naskākais naskākajam naskākas naskāki naskākie naskāks naskākās naskās visnaskāk visnaskākie
-56	9056	iedrošināties	iedrošinies iedrošinos iedrošinājies iedrošinājos iedrošinājusies iedrošinājušies iedrošinājās iedrošināmies iedrošinās iedrošināsies iedrošinātos iedrošināšanās neiedrošinies neiedrošinos neiedrošinājās neiedrošinās neiedrošinātos neiedrošināšos
-57	9057	asaka	asakas asaku asakām
-58	9058	svešzemnieks	svešzemnieka svešzemniekam svešzemnieki svešzemniekiem svešzemnieku svešzemniekus
-59	9059	nogrēkoties	nogrēkojas nogrēkojies nogrēkojos nogrēkojusies nogrēkojušies nogrēkojāties nogrēkosies
-60	9060	gaišmatains	gaišmataina gaišmatainais gaišmatainajai gaišmataini gaišmatainiem gaišmataino gaišmatainu gaišmatainā gaišmatainām
-61	9061	apgraizīt	apgraizot apgraizāt apgraizīja apgraizījis apgraizīs apgraizīta apgraizīti apgraizītie apgraizīto apgraizīts apgraizītu apgraizīšanas apgraizīšanu neapgraizīta neapgraizītais neapgraizīti neapgraizīto neapgraizīts neapgraizītu neapgraizīšana neapgraizīšanas neapgraizīšanu
-62	9062	pasniegties	pasniedzas pasniedzaties pasniedzies pasniedzieties pasniedzās pasniegtos pasniegšanās
-63	9063	rīcībspēja	rīcībspējai rīcībspējas rīcībspēju rīcībspējām
-64	9064	apkopties	apkopjas apkopos
-65	9065	monumentāls	monumentāla monumentālais monumentālajam monumentālajā monumentālajām monumentālas monumentāli monumentālo monumentālos monumentālu monumentālus monumentālā monumentālām monumentālās
-66	9066	iemitināties	iemitinoties iemitinājies iemitinājusies iemitinājušies iemitinājušās iemitinājās iemitinās iemitināsies neiemitinātos
-67	9067	tetovēt	tetovēju tetovēta tetovētais tetovētas tetovēti tetovētie tetovēto tetovēts tetovētā tetovēšana tetovēšanas tetovēšanu
-68	9068	pasuga	pasugai pasugas pasugu
-69	9069	hercs	herca hercam herci herciem hercu
-70	9070	laktoze	laktozei laktozes laktozi
-71	9071	nomētāt	jānomētā nenomētā nenomētāja nomētā nomētāja nomētājot nomētāju nomētās nomētāsim nomētāts nomētātu nomētāšana
-72	9072	infrasarkanais	
-73	9073	daiļrunība	daiļrunībai daiļrunības daiļrunību daiļrunībā
-74	9074	pārsēdēties	jāpārsēžas nepārsēžoties pārsēdies pārsēdieties pārsēžamies pārsēžas pārsēžos pārsēžoties
-75	9075	uzrāpot	uzrāpos uzrāpošu
-76	9076	vēbers	vēbera vēberam vēberu
-77	9077	kaitīgums	kaitīguma kaitīgumam kaitīgumu
-78	9078	stilistika	stilistikai stilistikas stilistiku stilistikā stilistikās
-79	9079	autosalons	autosalona autosalonam autosaloni autosaloniem autosalonos autosalonu autosalonus autosalonā
-80	9080	cinisms	cinisma cinismam cinismu cinismā
-81	9081	cepiens	cepiena cepienam cepienu cepienus cepienā
-82	9082	piemirsties	piemirsies piemirsusies piemirsušies piemirsās piemirsīsies
-83	9083	nozvejot	jānozvejo nenozvejo nenozvejosi nozvejo nozvejoja nozvejojuši nozvejos nozvejota nozvejotais nozvejotajiem nozvejotajām nozvejotas nozvejoti nozvejoto nozvejots nozvejotu nozvejotā nozvejotām nozvejotās
-84	9084	plēsīgs	plēsīga plēsīgais plēsīgajiem plēsīgajām plēsīgam plēsīgi plēsīgie plēsīgiem plēsīgo plēsīgos plēsīgu plēsīgākais plēsīgākajiem plēsīgāko plēsīgām plēsīgās
-85	9085	nevainīgums	nevainīguma nevainīgumam nevainīgumu
-86	9086	sveicināties	jāsveicinās nesveicinies nesveicinājās nesveicināmies nesveicinās sveicinies sveicinos sveicinoties sveicinājies sveicinājās sveicināmies sveicināsies sveicināsimies sveicinātos sveicināšanās
-87	9087	belziens	belzieni belzieniem belzienu belzienus
-88	9088	endorfīns	endorfīna endorfīni endorfīniem endorfīnu endorfīnus
-89	9089	sārtums	sārtuma sārtumam sārtumu
-90	9090	nosūkāt	nosūkā nosūkāsi nosūkāts
-91	9091	japāniski	
-92	9092	magnetizēt	magnetizē magnetizēji magnetizēti magnetizētu
-93	9093	vēcināt	nevēcini vēcina vēcini vēcinot vēcinu vēcināja
-94	9094	etnogrāfija	etnogrāfijai etnogrāfijas etnogrāfiju etnogrāfijā
-95	9095	hromosoma	hromosomas hromosomu hromosomā hromosomām
-96	9096	piebalsot	piebalso piebalsoja piebalsojot piebalsoju piebalsojām piebalsos piebalsotu
-97	9097	erotika	erotikai erotikas erotiku erotikā
-98	9098	kinozāle	kinozālei kinozāles kinozāli kinozālē kinozālēm kinozālēs kinozāļu
-99	9099	purināt	jāpurina nepurināt purina purinat purini purinot purinu purināja purinās purinātu purināšana
-100	9100	īsināt	jāīsina neīsinās īsina īsiniet īsinot īsinādams īsināja īsināji īsinājis īsināju īsinājusi īsinām īsināmi īsināms īsināta īsinātos īsināts īsinātu īsinātā īsinātām īsināšana īsināšanai īsināšanas īsināšani īsināšanu
+1	9001	klaustrofobija	klaustrofobijas klaustrofobiju
+2	9002	izlaizīt	izlaiza izlaizi izlaizot izlaizu izlaizīja izlaizījis izlaizītu neizlaizot neizlaizīs
+3	9003	apsist	apsista apsistas apsisti apsistā apsit apsita apsituši apsitīs apsitīšu jāapsit
+4	9004	motivēšana	motivēšanai motivēšanas motivēšanu motivēšanā
+5	9005	dravnieks	dravnieka dravniekam dravnieki dravniekiem dravniekos dravnieku dravniekus
+6	9006	smiltsērkšķis	smiltsērkšķa smiltsērkšķi smiltsērkšķiem smiltsērkšķos smiltsērkšķu smiltsērkšķus
+7	9007	sadrumstalot	sadrumstalo sadrumstaloja sadrumstalojam sadrumstalojiet sadrumstalojot sadrumstalos sadrumstalota sadrumstalotas sadrumstaloti sadrumstaloto sadrumstalots sadrumstalotu sadrumstalotā sadrumstalošana sadrumstalošanu
+8	9008	vīramāte	vīramātei vīramātes vīramāti vīramātēm
+9	9009	namamāte	namamātei namamātes namamāti namamātēm namamāšu
+10	9010	izšķīst	
+11	9011	ideālists	ideālista ideālistam ideālisti ideālistiem ideālistu ideālistā
+12	9012	pelēns	pelēna pelēnam pelēni pelēniem pelēnu pelēnus
+13	9013	novājēt	nenovājēt novājē novājēja novājējis novājēju novājējusi novājējuši novājēsiet novājēšana novājēšanas novājēšanu novājēšu
+14	9014	iezvanīt	iezvana iezvani iezvanīja iezvanījis iezvanīs iezvanīta iezvanīti iezvanīts iezvanītu iezvanīšana iezvanīšanas iezvanīšanu
+15	9015	dzīvniecisks	dzīvnieciska dzīvnieciskai dzīvnieciskais dzīvnieciskajiem dzīvnieciskajā dzīvnieciskajām dzīvnieciskam dzīvnieciskas dzīvnieciskie dzīvnieciskiem dzīvniecisko dzīvnieciskos dzīvniecisku dzīvnieciskā dzīvnieciskāk dzīvnieciskām dzīvnieciskās
+16	9016	aizslaucīt	aizslaucīja aizslaucījām aizslaucīs aizslaucītam aizslaucītas aizslaucīti aizslaucīts aizslaucītu aizslaucīšana aizslaucīšu aizslauka aizslaukot aizslaukāms jāaizslauka
+17	9017	salikties	nesaliekas nesaliksies salicies saliecies saliecieties saliekas saliekoties saliksies saliktos salikāmies salikās
+18	9018	mikrobioloģija	mikrobioloģijas mikrobioloģijā
+19	9019	sāniela	sānielas sānielu sānielā sānielām sānielās
+20	9020	lempīgs	lempīga lempīgais lempīgas lempīgi lempīgo lempīgus lempīgā
+21	9021	eksperimentāli	
+22	9022	meldrs	meldra meldri meldriem meldros meldru meldrus
+23	9023	pārkārtoties	pārkārtojamies pārkārtojies pārkārtojos pārkārtojoties pārkārtojāmies pārkārtosies pārkārtotos pārkārtošanās
+24	9024	ziedlapiņa	ziedlapiņai ziedlapiņas ziedlapiņu ziedlapiņām ziedlapiņās
+25	9025	kalsns	kalsna kalsnajiem kalsnas kalsni kalsnie kalsno kalsnu kalsnus kalsnākai kalsnākas kalsnām kalsnās
+26	9026	sakraut	jāsakrauj sakrauj sakraujam sakraujiet sakraujot sakrauts sakrautu sakraušu sakrāva sakrāvu sakrāvām
+27	9027	dūmot	dūmo dūmoja dūmojot dūmojošs dūmojusi dūmojušas dūmota dūmotā dūmošana dūmošanu nedūmo
+28	9028	smakot	smako smakoja smakojot smakojošs smakošana smakošanas smakošanu
+29	9029	reālists	reālist reālistam reālisti reālistiem reālistu
+30	9030	pacienāties	pacienājies pacienājos pacienāšanās
+31	9031	grīļoties	grīļodamies grīļojas grīļojies grīļojās grīļošanās negrīļojies negrīļosies
+32	9032	starpbanku	
+33	9033	traukties	traucās
+34	9034	uzskate	uzskatei uzskates uzskatē
+35	9035	ekstrēmists	ekstrēmistam ekstrēmisti ekstrēmistiem ekstrēmistus
+36	9036	airētājs	airētāja airētājam airētāji airētājiem airētāju airētājus
+37	9037	ģeometrisks	ģeometriska ģeometriskai ģeometriskais ģeometriskajai ģeometriskajā ģeometriskam ģeometriskas ģeometriskie ģeometrisko ģeometriskos ģeometrisku ģeometriskā ģeometriskām ģeometriskās
+38	9038	apčakarēt	apčakarē apčakarēja apčakarējam apčakarējis apčakarējām apčakarēs apčakarēts apčakarētu apčakarēšana jāapčakarē neapčakarē neapčakarējam neapčakarētu
+39	9039	pārvērt	nepārvērt nepārvērtu pārvērts pārvērtu
+40	9040	autostrāde	autostrādei autostrādes autostrādi autostrādēm autostrāžu
+41	9041	atsviest	atsvieda atsviedis atsviedīs atsviedīšu atsviests atsviež atsviežot jāatsviež neatsviestu
+42	9042	lakrica	lakricas lakricu
+43	9043	zagties	zadzies zagušies zodzies zogas zogos
+44	9044	pīzda	pizda pīzdu pīzdā pīzdām
+45	9045	gaišmate	gaišmates gaišmati gaišmatis gaišmatēm
+46	9046	aristokrāte	aristokrātes aristokrāti aristokrātēm
+47	9047	stelles	stellēm stellēs steļļu
+48	9048	piepulcēties	jāpiepulcējas piepulcējas piepulcējies piepulcējusies piepulcējušies piepulcējušās piepulcējās piepulcēsies piepulcētos piepulcēšanās piepulcēšos
+49	9049	nūjot	jānūjo nenūjojiet nūjo nūjoja nūjojam nūjojiet nūjojis nūjojot nūjoju nūjojuši nūjosim nūjots nūjotu nūjošu
+50	9050	datortīkls	datortīkla datortīklam datortīkli datortīkliem datortīklos datortīklu datortīklus datortīklā
+51	9051	nasks	naska naskais naskas naskie nasko nasku naskā naskāk naskākais naskākajam naskākas naskāki naskākie naskāks naskākās naskās visnaskāk visnaskākie
+52	9052	asaka	asakas asaku asakām
+53	9053	svešzemnieks	svešzemnieka svešzemniekam svešzemnieki svešzemniekiem svešzemnieku svešzemniekus
+54	9054	nogrēkoties	nogrēkojas nogrēkojies nogrēkojos nogrēkojusies nogrēkojušies nogrēkojāties nogrēkosies
+55	9055	gaišmatains	gaišmataina gaišmatainais gaišmatainajai gaišmataini gaišmatainiem gaišmataino gaišmatainu gaišmatainā gaišmatainām
+56	9056	apgraizīt	apgraizot apgraizāt apgraizīja apgraizījis apgraizīs apgraizīta apgraizīti apgraizītie apgraizīto apgraizīts apgraizītu apgraizīšanas apgraizīšanu neapgraizīta neapgraizītais neapgraizīti neapgraizīto neapgraizīts neapgraizītu neapgraizīšana neapgraizīšanas neapgraizīšanu
+57	9057	pasniegties	pasniedzas pasniedzaties pasniedzies pasniedzieties pasniedzās pasniegtos pasniegšanās
+58	9058	rīcībspēja	rīcībspējai rīcībspējas rīcībspēju rīcībspējām
+59	9059	apkopties	apkopjas apkopos
+60	9060	purināt	jāpurina nepurinās nepurināt purina purinat purini purinot purinu purināja purinās purinātu purināšana
+61	9061	monumentāls	monumentāla monumentālais monumentālajam monumentālajā monumentālajām monumentālas monumentāli monumentālo monumentālos monumentālu monumentālus monumentālā monumentālām monumentālās
+62	9062	iemitināties	iemitinoties iemitinājies iemitinājusies iemitinājušies iemitinājušās iemitinājās iemitinās iemitināsies neiemitinātos
+63	9063	tetovēt	tetovēju tetovēta tetovētais tetovētas tetovēti tetovētie tetovēto tetovēts tetovētā tetovēšana tetovēšanas tetovēšanu
+64	9064	pasuga	pasugai pasugas pasugu
+65	9065	hercs	herca hercam herci herciem hercu
+66	9066	laktoze	laktozei laktozes laktozi
+67	9067	iedrošināties	iedrošinies iedrošinos iedrošinājies iedrošinājos iedrošinājusies iedrošinājušies iedrošinājās iedrošināmies iedrošināsies iedrošināšanās neiedrošinies neiedrošinos neiedrošinājās neiedrošināšos
+68	9068	paglābties	jāpaglābjas nepaglābos nepaglābsies paglābdamies paglābies paglābjas paglābjos paglābusies paglābušies paglābās paglābšanās
+69	9069	nomētāt	jānomētā nenomētā nenomētāja nomētā nomētāja nomētājot nomētāju nomētās nomētāsim nomētāts nomētātu nomētāšana
+70	9070	infrasarkanais	
+71	9071	daiļrunība	daiļrunībai daiļrunības daiļrunību daiļrunībā
+72	9072	uzrāpot	uzrāpos uzrāpošu
+73	9073	vēbers	vēbera vēberam vēberu
+74	9074	kaitīgums	kaitīguma kaitīgumam kaitīgumu
+75	9075	stilistika	stilistikai stilistikas stilistiku stilistikā stilistikās
+76	9076	autosalons	autosalona autosalonam autosaloni autosaloniem autosalonos autosalonu autosalonus autosalonā
+77	9077	cinisms	cinisma cinismam cinismu cinismā
+78	9078	piemirsties	piemirsies piemirsusies piemirsušies piemirsās piemirsīsies
+79	9079	cepiens	cepiena cepienam cepienu cepienus cepienā
+80	9080	nozvejot	jānozvejo nenozvejo nenozvejosi nozvejo nozvejoja nozvejojuši nozvejos nozvejota nozvejotais nozvejotajiem nozvejotajām nozvejotas nozvejoti nozvejoto nozvejots nozvejotu nozvejotā nozvejotām nozvejotās
+81	9081	plēsīgs	plēsīga plēsīgais plēsīgajiem plēsīgajām plēsīgam plēsīgi plēsīgie plēsīgiem plēsīgo plēsīgos plēsīgu plēsīgākais plēsīgākajiem plēsīgāko plēsīgām plēsīgās
+82	9082	nevainīgums	nevainīguma nevainīgumam nevainīgumu
+83	9083	belziens	belzieni belzieniem belzienu belzienus
+84	9084	endorfīns	endorfīna endorfīni endorfīniem endorfīnu endorfīnus
+85	9085	sārtums	sārtuma sārtumam sārtumu
+86	9086	nosūkāt	nosūkā nosūkāsi nosūkāts
+87	9087	japāniski	
+88	9088	magnetizēt	magnetizē magnetizēji magnetizēti magnetizētu
+89	9089	vēcināt	nevēcini vēcina vēcini vēcinot vēcinu vēcināja
+90	9090	etnogrāfija	etnogrāfijai etnogrāfijas etnogrāfiju etnogrāfijā
+91	9091	hromosoma	hromosomas hromosomu hromosomā hromosomām
+92	9092	piebalsot	piebalso piebalsoja piebalsojot piebalsoju piebalsojām piebalsos piebalsotu
+93	9093	erotika	erotikai erotikas erotiku erotikā
+94	9094	kinozāle	kinozālei kinozāles kinozāli kinozālē kinozālēm kinozālēs kinozāļu
+95	9095	īsināt	jāīsina neīsinās īsina īsiniet īsinot īsinādams īsināja īsināji īsinājis īsināju īsinājusi īsinām īsināmi īsināms īsināta īsinātos īsināts īsinātu īsinātā īsinātām īsināšana īsināšanai īsināšanas īsināšani īsināšanu
+96	9096	korespondente	korespondentei korespondentes korespondenti
+97	9097	flotile	flotilei flotiles flotili flotilē
+98	9098	vidusskolnieks	vidusskolnieka vidusskolniekam vidusskolnieki vidusskolniekiem vidusskolnieku vidusskolniekus
+99	9099	atrādīties	atrādies atrādos atrādās atrādījies atrādījos atrādījās atrādīsimies atrādītos atrādīšanās jāatrādās neatrādoties
+100	9100	uzcītīgi	

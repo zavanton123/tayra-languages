@@ -1,100 +1,100 @@
-1	3801	delta	deltai deltam deltas deltu deltā
-2	3802	viceprezidents	viceprezidenta viceprezidentam viceprezidente viceprezidenti viceprezidentiem viceprezidentu viceprezidentus
-3	3803	deklarēt	deklarē deklarēja deklarējam deklarējis deklarējot deklarēju deklarējusi deklarējušas deklarējuši deklarējušo deklarējām deklarējāt deklarēs deklarēsi deklarēta deklarētais deklarētas deklarēti deklarētie deklarēto deklarēts deklarētu deklarētā deklarēšana deklarēšanas deklarēšanu jādeklarē nedeklarē nedeklarēja nedeklarējot nedeklarēta nedeklarētas nedeklarēti nedeklarētie nedeklarēto nedeklarētu nedeklarētā nedeklarēšanas nedeklarēšanu
-4	3804	pārgriezt	jāpārgriež nepārgriezīsiet nepārgriežot pārgriez pārgrieza pārgriezdami pārgriezi pārgrieziet pārgriezis pārgriezta pārgrieztai pārgrieztas pārgriezti pārgriezto pārgriezts pārgrieztu pārgrieztām pārgriezu pārgriezusi pārgriezušas pārgriezuši pārgriezīs pārgriezīsiet pārgriezīsim pārgriezīšu pārgriešana pārgriež pārgriežam pārgriežamas pārgriežot pārgriežu
-5	3805	lūzums	lūzuma lūzumam lūzumi lūzumiem lūzumos lūzumu lūzumus lūzumā
-6	3806	riteņbraucējs	riteņbraucēja riteņbraucējam riteņbraucēji riteņbraucējiem riteņbraucēju riteņbraucējus
-7	3807	norēķins	norēķina norēķinam norēķini norēķiniem norēķinos norēķinu norēķinus norēķinā
-8	3808	neveikls	neveikla neveiklais neveiklajai neveiklajam neveiklajiem neveiklajā neveiklajām neveiklajās neveiklam neveiklas neveikli neveiklie neveikliem neveiklo neveiklos neveiklu neveiklus neveiklā neveiklāk neveiklāka neveiklāki neveiklāko neveiklāks neveiklāku neveiklām neveiklās visneveiklākajās
-9	3809	smagums	smaguma smagumam smagumi smagumiem smagumu smagumus smagumā
-10	3810	palasīt	jāpalasa nepalasīdams palasa palasi palasiet palasot palasu palasām palasāt palasīja palasījis palasīju palasījusi palasījuši palasīs palasīsi palasīsiet palasīsim palasītos palasītu palasīšu
-11	3811	zīdainis	zīdaina zīdaines zīdaini zīdainim zīdainu zīdainus zīdaiņa zīdaiņi zīdaiņiem zīdaiņu zīdaiņus
-12	3812	himna	himnai himnas himnu himnā himnām himnās
-13	3813	apetīte	apetītei apetītes apetīti apetītēm
-14	3814	autostāvvieta	autostāvvietai autostāvvietas autostāvvietu autostāvvietā autostāvvietām autostāvvietās
-15	3815	vārīt	jāvāra nevāra nevārītu vāra vāri vāriet vārot vāru vārām vārāmo vārāmā vārāmās vārāt vārīja vārījusi vārījām vārījāt vārīs vārīsim vārīta vārītai vārītas vārīti vārītiem vārīto vārītos vārīts vārītu vārītus vārītā vārītām vārītās vārīšana vārīšanai vārīšanas vārīšanos vārīšanu vārīšanā vārīšu
-16	3816	kinoteātris	kinoteātra kinoteātri kinoteātriem kinoteātrim kinoteātros kinoteātru kinoteātrus kinoteātrī
-17	3817	atlasīt	atlasa atlasi atlasiet atlasot atlasu atlasām atlasāmās atlasīja atlasījis atlasīju atlasījusi atlasījuši atlasījām atlasījāt atlasīs atlasīsim atlasīta atlasītajiem atlasītajos atlasītajām atlasītas atlasīti atlasītie atlasītiem atlasīto atlasītos atlasīts atlasītu atlasītus atlasītām atlasītās atlasīšana atlasīšanas atlasīšanu atlasīšot jāatlasa neatlasa neatlasi neatlasot
-18	3818	nostādīt	jānostāda nenostāda nenostādi nenostādām nenostādīsi nenostādīt nenostādītu nostāda nostādi nostādiet nostādot nostādu nostādām nostādāt nostādīja nostādīji nostādījis nostādīju nostādījusi nostādījušas nostādījuši nostādījām nostādījāt nostādīs nostādīsim nostādīta nostādītajam nostādītajiem nostādītajā nostādītas nostādīti nostādītos nostādīts nostādītu nostādītā nostādītās nostādīšana nostādīšot
-19	3819	kurināt	jākurina kurina kurini kurinot kurinošiem kurinu kurināja kurinājis kurināju kurinājusi kurinājuši kurinājām kurinām kurināma kurināmais kurināmajam kurināmajiem kurināmajā kurināmam kurināmas kurināmie kurināmiem kurināmo kurināmu kurināmā kurināmās kurinās kurināsim kurināta kurināts kurinātu kurināšana kurināšanai kurināšanas kurināšanu kurināšanā kurināšu nekurina nekurināt
-20	3820	aut	auj aujam aujiet aujot auju aun aunam aunot aunu aus ausi ausiet ausim auta autas auti autiem autos auts autu autus autā aušana aušanai aušanas aušanu aušanā aušu jāauj neauj āva āvu āvusi āvuši
-21	3821	sapulcēties	jāsapulcējas nesapulcēsies sapulcējamies sapulcējas sapulcējies sapulcējieties sapulcējoties sapulcējusies sapulcējušies sapulcējušās sapulcējāmies sapulcējās sapulcēsies sapulcēsimies sapulcētos sapulcēšanās
-22	3822	aktīvists	aktīvista aktīvistam aktīviste aktīvisti aktīvistiem aktīvistu aktīvistus
-23	3823	ģeogrāfija	ģeogrāfijai ģeogrāfijas ģeogrāfiju ģeogrāfijā ģeogrāfijās
-24	3824	kvota	kvotai kvotas kvotu kvotā kvotām kvotās
-25	3825	gaitenis	gaitena gaiteni gaitenim gaitenī gaiteņa gaiteņi gaiteņiem gaiteņos gaiteņu gaiteņus
-26	3826	industriāls	industriāla industriālai industriālais industriālajai industriālajam industriālajiem industriālajos industriālajā industriālajām industriālajās industriālam industriālas industriāli industriālie industriāliem industriālo industriālos industriālu industriālus industriālā industriālāka industriālām industriālās
-27	3827	radiācija	radiācijai radiācijas radiāciju
-28	3828	dzemdēt	dzemdē dzemdēdama dzemdēja dzemdējat dzemdēji dzemdējiet dzemdējis dzemdējot dzemdējošajai dzemdējošas dzemdēju dzemdējusi dzemdējusī dzemdējušai dzemdējušas dzemdējuši dzemdējušo dzemdējušās dzemdējām dzemdēs dzemdēsi dzemdēta dzemdētie dzemdētiem dzemdēts dzemdētu dzemdēšana dzemdēšanai dzemdēšanas dzemdēšanu dzemdēšu jādzemdē nedzemdē nedzemdējat nedzemdējot nedzemdēs nedzemdēsi nedzemdēsim nedzemdēšu
-29	3829	sastrēgums	sastrēguma sastrēgumam sastrēgumi sastrēgumiem sastrēgumos sastrēgumu sastrēgumus sastrēgumā
-30	3830	grozīt	groza grozi groziet grozot grozu grozām grozāma grozāmai grozāmas grozāmi grozāms grozāmu grozāmām grozāmās grozīja grozījis grozīju grozījām grozīs grozīsi grozīsim grozīts grozītu grozīšana jāgroza negrozīt
-31	3831	īkšķis	īkšķa īkšķi īkšķiem īkšķim īkšķu īkšķus īkšķī
-32	3832	jebkur	
-33	3833	nobeigums	nobeiguma nobeigumam nobeigumiem nobeigumu nobeigumus nobeigumā
-34	3834	modulis	moduli moduliem modulim modulī moduļa moduļi moduļiem moduļos moduļu moduļus
-35	3835	stārķis	starka starkam starki starkiem starks starku starkus stāra stāram stāri stāriem stārka stārks stārku stāru stārķa stārķi stārķiem stārķim stārķu stārķus
-36	3836	pipars	pipar pipara piparam pipari pipariem piparos piparu piparus
-37	3837	ievainojums	ievainojuma ievainojumam ievainojumi ievainojumiem ievainojumu ievainojumus
-38	3838	mājiens	mājiena mājienam mājieni mājieniem mājienu mājienus
-39	3839	konkurētspēja	konkurētspējai konkurētspējas konkurētspēju konkurētspējā
-40	3840	plaisa	plaisai plaisas plaisu plaisā plaisām plaisās
-41	3841	patriots	patriot patriota patriotam patriote patrioti patriotiem patriotos patriotu patriotus patriotā
-42	3842	prototips	prototipa prototipam prototipi prototipiem prototipos prototipu prototipus prototipā
-43	3843	līdzvērtīgs	līdzvērtīga līdzvērtīgai līdzvērtīgais līdzvērtīgajam līdzvērtīgam līdzvērtīgas līdzvērtīgi līdzvērtīgie līdzvērtīgiem līdzvērtīgo līdzvērtīgos līdzvērtīgu līdzvērtīgus līdzvērtīgā līdzvērtīgāk līdzvērtīgākas līdzvērtīgākus līdzvērtīgākā līdzvērtīgākās līdzvērtīgām līdzvērtīgās
-44	3844	bīskaps	bīskap bīskapa bīskapam bīskapi bīskapiem bīskapu bīskapus bīskapā
-45	3845	mehānisks	mehāniska mehāniskai mehāniskais mehāniskajai mehāniskajam mehāniskajiem mehāniskajos mehāniskajā mehāniskajām mehāniskajās mehāniskam mehāniskas mehāniskie mehāniskiem mehānisko mehāniskos mehānisku mehāniskus mehāniskā mehāniskām mehāniskās
-46	3846	pacietīgs	pacietīga pacietīgai pacietīgais pacietīgajai pacietīgajam pacietīgajiem pacietīgam pacietīgas pacietīgi pacietīgiem pacietīgo pacietīgos pacietīgu pacietīgus pacietīgā pacietīgāk pacietīgāka pacietīgākai pacietīgākajām pacietīgākam pacietīgākas pacietīgāki pacietīgākie pacietīgākiem pacietīgākos pacietīgāks pacietīgām pacietīgās vispacietīgākais vispacietīgākie
-47	3847	nogurums	noguruma nogurumam nogurumu nogurumus nogurumā
-48	3848	pieskaitīt	jāpieskaita nepieskaita nepieskaiti nepieskaitu nepieskaitāmi nepieskaitāmo nepieskaitāms nepieskaitāmu nepieskaitāmām nepieskaitīja nepieskaitīto pieskaita pieskaiti pieskaitiet pieskaitot pieskaitu pieskaitām pieskaitāma pieskaitāmas pieskaitāmi pieskaitāmie pieskaitāmo pieskaitāms pieskaitāmu pieskaitāmās pieskaitāt pieskaitīja pieskaitījis pieskaitījuši pieskaitīs pieskaitīsi pieskaitīsim pieskaitīta pieskaitītas pieskaitīti pieskaitīts pieskaitītu pieskaitīšana pieskaitīšu
-49	3849	būda	būdai būdas būdiņa būdu būdā būdām būdās
-50	3850	lēti	
-51	3851	organisks	organiska organiskais organiskajai organiskajam organiskajiem organiskajos organiskajā organiskajām organiskajās organiskas organiski organiskie organiskiem organisko organiskos organisku organiskus organiskā organiskāk organiskāka organiskāks organiskām organiskās visorganiskāk
-52	3852	saskaņot	jāsaskaņo nesaskaņot saskaņo saskaņoja saskaņojam saskaņojams saskaņoji saskaņojiet saskaņojis saskaņojot saskaņoju saskaņojām saskaņojāt saskaņos saskaņosiet saskaņosim saskaņotu saskaņošana
-53	3853	morāls	morāla morālai morālais morālajai morālajam morālajiem morālajā morālajām morālajās morālam morālas morālie morāliem morālo morālos morālu morālus morālā morālākus morālākās morālām morālās
-54	3854	četrdesmit	
-55	3855	bankrots	bankrota bankrotam bankroti bankrotiem bankrotu bankrotus bankrotā
-56	3856	privatizācija	privatizācijai privatizācijas privatizāciju privatizācijā privatizācijām
-57	3857	piestātne	piestātnei piestātnes piestātni piestātnē piestātnēm piestātnēs piestātņu
-58	3858	pupa	pupai pupas pupu pupā pupām pupās
-59	3859	slogs	sloga slogam slogi slogiem slogu slogus slogā
-60	3860	atraitne	atraitnei atraitnes atraitni atraitnēm atraitnēs atraitņu
-61	3861	apvainoties	apvainojamies apvainojas apvainojaties apvainojies apvainojos apvainojoties apvainojusies apvainojušies apvainojušās apvainojās apvainosies apvainotos apvainošanās jāapvainojas neapvainojas neapvainojaties neapvainojies neapvainojieties neapvainojos neapvainojoties neapvainojās neapvainosies neapvainosimies neapvainoties neapvainotos
-62	3862	sabrukums	sabrukuma sabrukumam sabrukumi sabrukumiem sabrukumu sabrukumā
-63	3863	politiski	
-64	3864	katalogs	kataloga katalogam katalogi katalogiem katalogos katalogu katalogus katalogā
-65	3865	pārtapt	jāpārtop nepārtapa nepārtapi nepārtaps nepārtaptu nepārtop pārtapa pārtapis pārtaps pārtapsi pārtapsim pārtaptu pārtapu pārtapusi pārtapusī pārtapušais pārtapušajā pārtapušajām pārtapušas pārtapuši pārtapušo pārtapušā pārtapām pārtapšana pārtapšot pārtop pārtopam pārtopi pārtopot pārtopu
-66	3866	apbūve	apbūvei apbūves apbūvi apbūvju apbūvē apbūvēs
-67	3867	penis	pena peni penim penu peņa peņi peņiem peņu peņus
-68	3868	vertikāls	vertikāla vertikālai vertikālais vertikālajam vertikālajiem vertikālajā vertikālajām vertikālajās vertikālas vertikāli vertikālie vertikāliem vertikālo vertikālos vertikālu vertikālus vertikālā vertikālām vertikālās
-69	3869	betons	beton betona betonam betoniem betonu betonā
-70	3870	muca	mucai mucas mucu mucā mucām mucās
-71	3871	pacensties	jāpacenšas nepacenstos nepacentos nepacentās nepacentīsies nepacenšas nepacenšoties pacenstos pacenties pacentieties pacentos pacentāmies pacentās pacentīsies pacentīsieties pacentīsimies pacentīšos pacentīšoties pacenšas pacenšaties pacenšoties
-72	3872	izpostīt	izposta izposti izpostot izpostu izpostām izpostīja izpostīji izpostījis izpostīju izpostījusi izpostījušas izpostījuši izpostījām izpostījāt izpostīs izpostīsi izpostīta izpostītais izpostītas izpostīti izpostītie izpostīto izpostīts izpostītu izpostītā izpostīšana izpostīšanas izpostīšanu izpostīšanā izpostīšu neizposta neizpostiet neizpostot neizpostīja neizpostīs neizpostīt neizpostīto neizpostītu neizpostīšu
-73	3873	veidlapa	veidlapai veidlapas veidlapu veidlapā veidlapām veidlapās
-74	3874	apvainot	apvaino apvainodams apvainoja apvainojat apvainoji apvainojis apvainojot apvainojošas apvainojoši apvainojošie apvainojošo apvainojošs apvainojošu apvainoju apvainojusi apvainojušas apvainojuši apvainos apvainosi apvainota apvainotais apvainotas apvainoti apvainotie apvainotos apvainots apvainotu apvainotā apvainošana jāapvaino neapvaino neapvainoja neapvainojiet neapvainojot neapvainoju neapvainot neapvainotos neapvainotu neapvainošu
-75	3875	loģistika	loģistikai loģistikas loģistiku loģistikā
-76	3876	barikāde	barikādei barikādes barikādi barikādēm barikādēs barikāžu
-77	3877	odze	odzei odzes odzi odzēm odžu ou
-78	3878	saost	nesaodām nesaodīs nesaož nesaožu saod saoda saodi saodis saodu saodusi saoduši saodām saodīs saodīsi saostas saostu saostās saož saožam saožama saožamas saožams saožat saožot saožu
-79	3879	testaments	testamenta testamentam testamenti testamentiem testamentos testamentu testamentus testamentā
-80	3880	ārstēties	jāārstējas neārstējas neārstējoties neārstēsies neārstēties neārstēšanās neārstēšos ārstējamies ārstējas ārstējaties ārstējies ārstējos ārstējoties ārstējusies ārstējušies ārstējušās ārstējāmies ārstējās ārstēsies ārstētos ārstēšanās ārstēšos
-81	3881	nosodīt	jānosoda nenosoda nenosodi nenosodiet nenosodot nenosodu nenosodām nenosodīja nenosodīju nenosodīs nenosodīsim nenosodīt nenosodīšu nosoda nosodi nosodiet nosodot nosodu nosodām nosodāms nosodāt nosodīja nosodījis nosodīju nosodījusi nosodījušas nosodījuši nosodījām nosodīs nosodīsi nosodīta nosodītas nosodīti nosodīts nosodītu nosodīšana nosodīšanas nosodīšanu nosodīšanā
-82	3882	dievišķs	dievišķa dievišķai dievišķais dievišķajai dievišķajam dievišķajiem dievišķajā dievišķajām dievišķajās dievišķam dievišķas dievišķi dievišķie dievišķiem dievišķo dievišķos dievišķu dievišķus dievišķā dievišķām dievišķās
-83	3883	lente	lenam lentei lentes lenti lentē lentēm lentēs lenu lenā lenšu
-84	3884	burkāns	burkān burkāna burkānam burkāni burkāniem burkānos burkānu burkānus burkānā
-85	3885	īstermiņš	īstermiņa īstermiņam īstermiņu īstermiņā
-86	3886	piemeklēt	jāpiemeklē nepiemeklē nepiemeklēja nepiemeklēs nepiemeklētu piemeklē piemeklēja piemeklējam piemeklējama piemeklējiet piemeklējis piemeklējot piemeklēju piemeklējusi piemeklējušajās piemeklējušas piemeklējuši piemeklējušo piemeklējām piemeklēs piemeklēsiet piemeklēsim piemeklēta piemeklētais piemeklētajai piemeklētajiem piemeklētajā piemeklētas piemeklēti piemeklētie piemeklētiem piemeklēto piemeklēts piemeklētu piemeklētā piemeklētām piemeklētās piemeklēšana piemeklēšu
-87	3887	slēdzene	slēdzenei slēdzenes slēdzeni slēdzenē slēdzenēm slēdzenēs slēdzeņu
-88	3888	trusis	trusa trusi trusim truša truši trušiem trušu trušus
-89	3889	izdevējs	izdevēja izdevējam izdevēji izdevējiem izdevējos izdevēju izdevējus
-90	3890	bungas	bungu bungā bungām bungās
-91	3891	paciest	jāpacieš paciestu paciet pacieta pacieti pacietiet pacietis pacietu pacietām pacietāt pacietīs pacietīsi pacietīsim pacietīšu paciezdams pacieš paciešam paciešams paciešana paciešot paciešu
-92	3892	varavīksne	varavīksnei varavīksnes varavīksni varavīksnē varavīksnēm varavīkšņu
-93	3893	kuņģis	kuņģa kuņģi kuņģiem kuņģim kuņģos kuņģu kuņģus kuņģī
-94	3894	padalīties	jāpadalās nepadaloties nepadalās nepadalāties nepadalījās nepadalīties padalas padalies padalieties padalos padaloties padalāmies padalās padalāties padalījies padalījos padalījusies padalījušies padalījušās padalījās padalījāties padalīsies padalīsieties padalīsimies padalītos padalīšos
-95	3895	iepirkt	iedzels iedzelt iedzeļ iedzēla iedzēlis iedzēlusi iepircis iepirka iepirks iepirksim iepirkta iepirktas iepirkti iepirktiem iepirktos iepirkts iepirktu iepirktā iepirktām iepirktās iepirku iepirkusi iepirkušas iepirkuši iepirkām iepirkšana iepirkšot iepērc iepērciet iepērk iepērkam iepērkami iepērkamās iepērkot iepērku jāiepērk neiepirks neiepirkt neiepērk
-96	3896	leģendārs	leģendāra leģendārai leģendārais leģendārajai leģendārajam leģendārajiem leģendārajos leģendārajā leģendārajām leģendārajās leģendāras leģendāri leģendārie leģendāriem leģendāro leģendāros leģendāru leģendārus leģendārā leģendārākajam leģendārākajiem leģendārākajām leģendārākie leģendārāko leģendārākos leģendārām leģendārās visleģendārākā
-97	3897	zinātniski	
-98	3898	vasks	vaska vaskam vaski vaskiem vaskos vasku vaskus vaskā
-99	3899	lēkties	lecas lecies lēcies lēkšos nelecas nelecies nelecieties
-100	3900	viltīgs	viltīga viltīgais viltīgajam viltīgajiem viltīgajos viltīgajā viltīgajām viltīgajās viltīgam viltīgas viltīgi viltīgie viltīgiem viltīgo viltīgos viltīgu viltīgus viltīgā viltīgāk viltīgāka viltīgākam viltīgākas viltīgāki viltīgākie viltīgākiem viltīgāks viltīgāku viltīgākā viltīgām viltīgās visviltīgākie visviltīgāko visviltīgākā
+1	3801	atzinīgs	atzinīga atzinīgais atzinīgajam atzinīgajiem atzinīgas atzinīgi atzinīgie atzinīgiem atzinīgo atzinīgos atzinīgu atzinīgus atzinīgā atzinīgāk atzinīgāko atzinīgāks visatzinīgāk visatzinīgākie
+2	3802	bārenis	bārene bāreni bārenim bāreņa bāreņi bāreņiem bāreņos bāreņu bāreņus
+3	3803	sociāli	
+4	3804	saskaitīt	jāsaskaita nesaskaitāmajiem nesaskaitāmas nesaskaitīsi nesaskaitīsim nesaskaitītās saskaita saskaiti saskaitiet saskaitot saskaitām saskaitāma saskaitāmais saskaitāmajiem saskaitāmas saskaitāmi saskaitāmie saskaitāmo saskaitāmos saskaitāms saskaitāmām saskaitīja saskaitīji saskaitījis saskaitīju saskaitījusi saskaitījušas saskaitījuši saskaitījām saskaitīs saskaitīsim saskaitīta saskaitītas saskaitīti saskaitīto saskaitīts saskaitītu saskaitīšana saskaitīšu
+5	3805	ūdenskritums	ūdenskrituma ūdenskritumam ūdenskritumi ūdenskritumiem ūdenskritumos ūdenskritumu ūdenskritumus ūdenskritumā
+6	3806	statuja	statujai statujas statuju statujām
+7	3807	piecpadsmit	
+8	3808	krimināllikums	krimināllikuma krimināllikumam krimināllikumu krimināllikumus krimināllikumā
+9	3809	prāmis	prāma prāmi prāmim prāmja prāmji prāmjiem prāmjos prāmju prāmjus prāmī
+10	3810	saime	saimei saimes saimi saimju saimu saimā saimē saimēm saimēs
+11	3811	piekāpties	jāpiekāpjas nepiekāpies nepiekāpjas nepiekāpjoties nepiekāpsies nepiekāpsimies nepiekāpties nepiekāptos nepiekāpās nepiekāpšanās nepiekāpšoties piekāpas piekāpies piekāpieties piekāpjamies piekāpjas piekāpjos piekāpjoties piekāpos piekāpsies piekāpsieties piekāpsimies piekāpsities piekāptos piekāpāmies piekāpās piekāpāties piekāpšanās piekāpšos
+12	3812	papētīt	jāpapēta nepapētīja papēta papēti papētiet papētot papētu papētām papētāt papētīja papētījis papētīju papētījām papētīs papētīsi papētīsim papētīta papētīts papētītu papētīšu
+13	3813	izteikums	izteikuma izteikumam izteikumi izteikumiem izteikumos izteikumu izteikumus izteikumā
+14	3814	karantīna	karantīnai karantīnas karantīnu karantīnā karantīnām
+15	3815	delta	deltai deltam deltas deltu deltā
+16	3816	izmērīt	izmēra izmēri izmēriet izmērot izmēru izmērām izmērāms izmērīja izmērījis izmērīju izmērījām izmērīs izmērīsi izmērīsim izmērīts izmērītu izmērīšana jāizmēra neizmērāms neizmērīsi neizmērīt neizmērītu
+17	3817	atsauce	atsaucei atsauces atsauci atsaucē atsaucēm atsaucēs atsauču
+18	3818	viceprezidents	viceprezidenta viceprezidentam viceprezidente viceprezidenti viceprezidentiem viceprezidentu viceprezidentus
+19	3819	apmaksa	apmaksai apmaksas apmaksu apmaksā apmaksām apmaksās
+20	3820	deklarēt	deklarē deklarēja deklarējam deklarējis deklarējot deklarēju deklarējusi deklarējušas deklarējuši deklarējušo deklarējām deklarējāt deklarēs deklarēsi deklarēta deklarētais deklarētas deklarēti deklarētie deklarēto deklarēts deklarētu deklarētā deklarēšana deklarēšanas deklarēšanu jādeklarē nedeklarē nedeklarēja nedeklarējot nedeklarēta nedeklarētas nedeklarēti nedeklarētie nedeklarēto nedeklarētu nedeklarētā nedeklarēšanas nedeklarēšanu
+21	3821	pārgriezt	jāpārgriež nepārgriezīsiet nepārgriežot pārgriez pārgrieza pārgriezdami pārgriezi pārgrieziet pārgriezis pārgriezta pārgrieztai pārgrieztas pārgriezti pārgriezto pārgriezts pārgrieztu pārgrieztām pārgriezu pārgriezusi pārgriezušas pārgriezuši pārgriezīs pārgriezīsiet pārgriezīsim pārgriezīšu pārgriešana pārgriež pārgriežam pārgriežamas pārgriežot pārgriežu
+22	3822	lūzums	lūzuma lūzumam lūzumi lūzumiem lūzumos lūzumu lūzumus lūzumā
+23	3823	riteņbraucējs	riteņbraucēja riteņbraucējam riteņbraucēji riteņbraucējiem riteņbraucēju riteņbraucējus
+24	3824	neveikls	neveikla neveiklais neveiklajai neveiklajam neveiklajiem neveiklajā neveiklajām neveiklajās neveiklam neveiklas neveikli neveiklie neveikliem neveiklo neveiklos neveiklu neveiklus neveiklā neveiklāk neveiklāka neveiklāki neveiklāko neveiklāks neveiklāku neveiklām neveiklās visneveiklākajās
+25	3825	smagums	smaguma smagumam smagumi smagumiem smagumu smagumus smagumā
+26	3826	palasīt	jāpalasa nepalasīdams palasa palasi palasiet palasot palasu palasām palasāt palasīja palasījis palasīju palasījusi palasījuši palasīs palasīsi palasīsiet palasīsim palasītos palasītu palasīšu
+27	3827	zīdainis	zīdaina zīdaines zīdaini zīdainim zīdainu zīdainus zīdaiņa zīdaiņi zīdaiņiem zīdaiņu zīdaiņus
+28	3828	himna	himnai himnas himnu himnā himnām himnās
+29	3829	apetīte	apetītei apetītes apetīti apetītēm
+30	3830	autostāvvieta	autostāvvietai autostāvvietas autostāvvietu autostāvvietā autostāvvietām autostāvvietās
+31	3831	vārīt	jāvāra nevāra nevārītu vāra vāri vāriet vārot vāru vārām vārāmo vārāmā vārāmās vārāt vārīja vārījusi vārījām vārījāt vārīs vārīsim vārīta vārītai vārītas vārīti vārītiem vārīto vārītos vārīts vārītu vārītus vārītā vārītām vārītās vārīšana vārīšanai vārīšanas vārīšanos vārīšanu vārīšanā vārīšu
+32	3832	kinoteātris	kinoteātra kinoteātri kinoteātriem kinoteātrim kinoteātros kinoteātru kinoteātrus kinoteātrī
+33	3833	nostādīt	jānostāda nenostāda nenostādi nenostādām nenostādīsi nenostādīt nenostādītu nostāda nostādi nostādiet nostādot nostādu nostādām nostādāt nostādīja nostādīji nostādījis nostādīju nostādījusi nostādījušas nostādījuši nostādījām nostādījāt nostādīs nostādīsim nostādīta nostādītajam nostādītajiem nostādītajā nostādītas nostādīti nostādītos nostādīts nostādītu nostādītā nostādītās nostādīšana nostādīšot
+34	3834	kurināt	jākurina kurina kurini kurinot kurinošiem kurinu kurināja kurinājis kurināju kurinājusi kurinājuši kurinājām kurinām kurināma kurināmais kurināmajam kurināmajiem kurināmajā kurināmam kurināmas kurināmie kurināmiem kurināmo kurināmu kurināmā kurināmās kurinās kurināsim kurināta kurināts kurinātu kurināšana kurināšanai kurināšanas kurināšanu kurināšanā kurināšu nekurina nekurināt
+35	3835	aut	auj aujam aujiet aujot auju aun aunam aunot aunu aus ausi ausiet ausim auta autas auti autiem autos auts autu autus autā aušana aušanai aušanas aušanu aušanā aušu jāauj neauj āva āvu āvusi āvuši
+36	3836	sapulcēties	jāsapulcējas nesapulcēsies sapulcējamies sapulcējas sapulcējies sapulcējieties sapulcējoties sapulcējusies sapulcējušies sapulcējušās sapulcējāmies sapulcējās sapulcēsies sapulcēsimies sapulcētos sapulcēšanās
+37	3837	aktīvists	aktīvista aktīvistam aktīviste aktīvisti aktīvistiem aktīvistu aktīvistus
+38	3838	ģeogrāfija	ģeogrāfijai ģeogrāfijas ģeogrāfiju ģeogrāfijā ģeogrāfijās
+39	3839	kvota	kvotai kvotas kvotu kvotā kvotām kvotās
+40	3840	gaitenis	gaitena gaiteni gaitenim gaitenī gaiteņa gaiteņi gaiteņiem gaiteņos gaiteņu gaiteņus
+41	3841	industriāls	industriāla industriālai industriālais industriālajai industriālajam industriālajiem industriālajos industriālajā industriālajām industriālajās industriālam industriālas industriāli industriālie industriāliem industriālo industriālos industriālu industriālus industriālā industriālāka industriālām industriālās
+42	3842	radiācija	radiācijai radiācijas radiāciju
+43	3843	dzemdēt	dzemdē dzemdēdama dzemdēja dzemdējat dzemdēji dzemdējiet dzemdējis dzemdējot dzemdējošajai dzemdējošas dzemdēju dzemdējusi dzemdējusī dzemdējušai dzemdējušas dzemdējuši dzemdējušo dzemdējušās dzemdējām dzemdēs dzemdēsi dzemdēta dzemdētie dzemdētiem dzemdēts dzemdētu dzemdēšana dzemdēšanai dzemdēšanas dzemdēšanu dzemdēšu jādzemdē nedzemdē nedzemdējat nedzemdējot nedzemdēs nedzemdēsi nedzemdēsim nedzemdēšu
+44	3844	sastrēgums	sastrēguma sastrēgumam sastrēgumi sastrēgumiem sastrēgumos sastrēgumu sastrēgumus sastrēgumā
+45	3845	grozīt	groza grozi groziet grozot grozu grozām grozāma grozāmai grozāmas grozāmi grozāms grozāmu grozāmām grozāmās grozīja grozījis grozīju grozījām grozīs grozīsi grozīsim grozīts grozītu grozīšana jāgroza negrozīt
+46	3846	īkšķis	īkšķa īkšķi īkšķiem īkšķim īkšķu īkšķus īkšķī
+47	3847	jebkur	
+48	3848	nobeigums	nobeiguma nobeigumam nobeigumiem nobeigumu nobeigumus nobeigumā
+49	3849	modulis	moduli moduliem modulim modulī moduļa moduļi moduļiem moduļos moduļu moduļus
+50	3850	stārķis	starka starkam starki starkiem starks starku starkus stāra stāram stāri stāriem stārka stārks stārku stāru stārķa stārķi stārķiem stārķim stārķu stārķus
+51	3851	pipars	pipar pipara piparam pipari pipariem piparos piparu piparus
+52	3852	ievainojums	ievainojuma ievainojumam ievainojumi ievainojumiem ievainojumu ievainojumus
+53	3853	mājiens	mājiena mājienam mājieni mājieniem mājienu mājienus
+54	3854	konkurētspēja	konkurētspējai konkurētspējas konkurētspēju konkurētspējā
+55	3855	plaisa	plaisai plaisas plaisu plaisā plaisām plaisās
+56	3856	patriots	patriot patriota patriotam patriote patrioti patriotiem patriotos patriotu patriotus patriotā
+57	3857	prototips	prototipa prototipam prototipi prototipiem prototipos prototipu prototipus prototipā
+58	3858	līdzvērtīgs	līdzvērtīga līdzvērtīgai līdzvērtīgais līdzvērtīgajam līdzvērtīgam līdzvērtīgas līdzvērtīgi līdzvērtīgie līdzvērtīgiem līdzvērtīgo līdzvērtīgos līdzvērtīgu līdzvērtīgus līdzvērtīgā līdzvērtīgāk līdzvērtīgākas līdzvērtīgākus līdzvērtīgākā līdzvērtīgākās līdzvērtīgām līdzvērtīgās
+59	3859	bīskaps	bīskap bīskapa bīskapam bīskapi bīskapiem bīskapu bīskapus bīskapā
+60	3860	uzkoda	uzkodai uzkodas uzkodu uzkodā uzkodām uzkodās
+61	3861	mehānisks	mehāniska mehāniskai mehāniskais mehāniskajai mehāniskajam mehāniskajiem mehāniskajos mehāniskajā mehāniskajām mehāniskajās mehāniskam mehāniskas mehāniskie mehāniskiem mehānisko mehāniskos mehānisku mehāniskus mehāniskā mehāniskām mehāniskās
+62	3862	pacietīgs	pacietīga pacietīgai pacietīgais pacietīgajai pacietīgajam pacietīgajiem pacietīgam pacietīgas pacietīgi pacietīgiem pacietīgo pacietīgos pacietīgu pacietīgus pacietīgā pacietīgāk pacietīgāka pacietīgākai pacietīgākajām pacietīgākam pacietīgākas pacietīgāki pacietīgākie pacietīgākiem pacietīgākos pacietīgāks pacietīgām pacietīgās vispacietīgākais vispacietīgākie
+63	3863	nogurums	noguruma nogurumam nogurumu nogurumus nogurumā
+64	3864	pieskaitīt	jāpieskaita nepieskaita nepieskaiti nepieskaitu nepieskaitāmi nepieskaitāmo nepieskaitāms nepieskaitāmu nepieskaitāmām nepieskaitīja nepieskaitīto pieskaita pieskaiti pieskaitiet pieskaitot pieskaitu pieskaitām pieskaitāma pieskaitāmas pieskaitāmi pieskaitāmie pieskaitāmo pieskaitāms pieskaitāmu pieskaitāmās pieskaitāt pieskaitīja pieskaitījis pieskaitījuši pieskaitīs pieskaitīsi pieskaitīsim pieskaitīta pieskaitītas pieskaitīti pieskaitīts pieskaitītu pieskaitīšana pieskaitīšu
+65	3865	būda	būdai būdas būdiņa būdu būdā būdām būdās
+66	3866	lēti	
+67	3867	organisks	organiska organiskais organiskajai organiskajam organiskajiem organiskajos organiskajā organiskajām organiskajās organiskas organiski organiskie organiskiem organisko organiskos organisku organiskus organiskā organiskāk organiskāka organiskāks organiskām organiskās visorganiskāk
+68	3868	saskaņot	jāsaskaņo nesaskaņot saskaņo saskaņoja saskaņojam saskaņojams saskaņoji saskaņojiet saskaņojis saskaņojot saskaņoju saskaņojām saskaņojāt saskaņos saskaņosiet saskaņosim saskaņotu saskaņošana
+69	3869	morāls	morāla morālai morālais morālajai morālajam morālajiem morālajā morālajām morālajās morālam morālas morālie morāliem morālo morālos morālu morālus morālā morālākus morālākās morālām morālās
+70	3870	četrdesmit	
+71	3871	bankrots	bankrota bankrotam bankroti bankrotiem bankrotu bankrotus bankrotā
+72	3872	privatizācija	privatizācijai privatizācijas privatizāciju privatizācijā privatizācijām
+73	3873	piestātne	piestātnei piestātnes piestātni piestātnē piestātnēm piestātnēs piestātņu
+74	3874	pupa	pupai pupas pupu pupā pupām pupās
+75	3875	slogs	sloga slogam slogi slogiem slogu slogus slogā
+76	3876	atraitne	atraitnei atraitnes atraitni atraitnēm atraitnēs atraitņu
+77	3877	apvainoties	apvainojamies apvainojas apvainojaties apvainojies apvainojos apvainojoties apvainojusies apvainojušies apvainojušās apvainojās apvainosies apvainotos apvainošanās jāapvainojas neapvainojas neapvainojaties neapvainojies neapvainojieties neapvainojos neapvainojoties neapvainojās neapvainosies neapvainosimies neapvainoties neapvainotos
+78	3878	sabrukums	sabrukuma sabrukumam sabrukumi sabrukumiem sabrukumu sabrukumā
+79	3879	politiski	
+80	3880	katalogs	kataloga katalogam katalogi katalogiem katalogos katalogu katalogus katalogā
+81	3881	apsargs	apsarga apsargam apsargi apsargiem apsargu apsargus apsargā
+82	3882	pārtapt	jāpārtop nepārtapa nepārtapi nepārtaps nepārtaptu nepārtop pārtapa pārtapis pārtaps pārtapsi pārtapsim pārtaptu pārtapu pārtapusi pārtapusī pārtapušais pārtapušajā pārtapušajām pārtapušas pārtapuši pārtapušo pārtapušā pārtapām pārtapšana pārtapšot pārtop pārtopam pārtopi pārtopot pārtopu
+83	3883	apbūve	apbūvei apbūves apbūvi apbūvju apbūvē apbūvēs
+84	3884	penis	pena peni penim penu peņa peņi peņiem peņu peņus
+85	3885	vertikāls	vertikāla vertikālai vertikālais vertikālajam vertikālajiem vertikālajā vertikālajām vertikālajās vertikālas vertikāli vertikālie vertikāliem vertikālo vertikālos vertikālu vertikālus vertikālā vertikālām vertikālās
+86	3886	betons	beton betona betonam betoniem betonu betonā
+87	3887	muca	mucai mucas mucu mucā mucām mucās
+88	3888	pacensties	jāpacenšas nepacenstos nepacentos nepacentās nepacentīsies nepacenšas nepacenšoties pacenstos pacenties pacentieties pacentos pacentāmies pacentās pacentīsies pacentīsieties pacentīsimies pacentīšos pacentīšoties pacenšas pacenšaties pacenšoties
+89	3889	izpostīt	izposta izposti izpostot izpostu izpostām izpostīja izpostīji izpostījis izpostīju izpostījusi izpostījušas izpostījuši izpostījām izpostījāt izpostīs izpostīsi izpostīta izpostītais izpostītas izpostīti izpostītie izpostīto izpostīts izpostītu izpostītā izpostīšana izpostīšanas izpostīšanu izpostīšanā izpostīšu neizposta neizpostiet neizpostot neizpostīja neizpostīs neizpostīt neizpostīto neizpostītu neizpostīšu
+90	3890	veidlapa	veidlapai veidlapas veidlapu veidlapā veidlapām veidlapās
+91	3891	apvainot	apvaino apvainodams apvainoja apvainojat apvainoji apvainojis apvainojot apvainojošas apvainojoši apvainojošie apvainojošo apvainojošs apvainojošu apvainoju apvainojusi apvainojušas apvainojuši apvainos apvainosi apvainota apvainotais apvainotas apvainoti apvainotie apvainotos apvainots apvainotu apvainotā apvainošana jāapvaino neapvaino neapvainoja neapvainojiet neapvainojot neapvainoju neapvainot neapvainotos neapvainotu neapvainošu
+92	3892	loģistika	loģistikai loģistikas loģistiku loģistikā
+93	3893	barikāde	barikādei barikādes barikādi barikādēm barikādēs barikāžu
+94	3894	odze	odzei odzes odzi odzēm odžu ou
+95	3895	saost	nesaodām nesaodīs nesaož nesaožu saod saoda saodi saodis saodu saodusi saoduši saodām saodīs saodīsi saostas saostu saostās saož saožam saožama saožamas saožams saožat saožot saožu
+96	3896	testaments	testamenta testamentam testamenti testamentiem testamentos testamentu testamentus testamentā
+97	3897	ārstēties	jāārstējas neārstējas neārstējoties neārstēsies neārstēties neārstēšanās neārstēšos ārstējamies ārstējas ārstējaties ārstējies ārstējos ārstējoties ārstējusies ārstējušies ārstējušās ārstējāmies ārstējās ārstēsies ārstētos ārstēšanās ārstēšos
+98	3898	nosodīt	jānosoda nenosoda nenosodi nenosodiet nenosodot nenosodu nenosodām nenosodīja nenosodīju nenosodīs nenosodīsim nenosodīt nenosodīšu nosoda nosodi nosodiet nosodot nosodu nosodām nosodāms nosodāt nosodīja nosodījis nosodīju nosodījusi nosodījušas nosodījuši nosodījām nosodīs nosodīsi nosodīta nosodītas nosodīti nosodīts nosodītu nosodīšana nosodīšanas nosodīšanu nosodīšanā
+99	3899	dievišķs	dievišķa dievišķai dievišķais dievišķajai dievišķajam dievišķajiem dievišķajā dievišķajām dievišķajās dievišķam dievišķas dievišķi dievišķie dievišķiem dievišķo dievišķos dievišķu dievišķus dievišķā dievišķām dievišķās
+100	3900	lente	lenam lentei lentes lenti lentē lentēm lentēs lenu lenā lenšu

@@ -1,100 +1,100 @@
-1	3701	intelekts	intelekta intelektam intelektu intelektā
-2	3702	amatnieks	amatniece amatnieces amatnieci amatniecēm amatniek amatnieka amatniekam amatnieki amatniekiem amatniekos amatnieku amatniekus amatnieču
-3	3703	klauns	klaun klauna klaunam klauni klauniem klaunos klaunu klaunus klaunā
-4	3704	rādiuss	rādiusa rādiusam rādiusiem rādiusu rādiusus rādiusā
-5	3705	aukstums	aukstuma aukstumam aukstumi aukstumos aukstumu aukstumā
-6	3706	ķirsis	ķirsi ķirsim ķirsī ķirša ķirši ķiršiem ķiršos ķiršu ķiršus
-7	3707	bakalaurs	bakalaura bakalauram bakalauri bakalauriem bakalauru bakalaurus
-8	3708	objektīvs	objektīva objektīvai objektīvais objektīvajai objektīvajam objektīvajiem objektīvajā objektīvajām objektīvam objektīvas objektīvie objektīviem objektīvo objektīvos objektīvu objektīvus objektīvā objektīvāk objektīvāka objektīvākai objektīvākais objektīvākajiem objektīvāki objektīvākie objektīvāko objektīvāks objektīvāku objektīvākus objektīvākām objektīvām objektīvās visobjektīvāk visobjektīvākais visobjektīvākā
-9	3709	munīcija	munīcijai munīcijas munīciju munīcijā
-10	3710	redzēšanās	redzēšanos
-11	3711	izgulēties	izgulies izgulieties izgulējies izgulējos izgulējusies izgulējušies izgulējāmies izgulējās izgulēsies izgulēsieties izgulēsimies izgulētos izgulēšanās izgulēšos izgulēšoties izguļamies izguļas izguļaties izguļos izguļoties jāizguļas neizgulies neizgulējies neizgulējos neizgulējusies neizgulējušies neizgulējušās neizgulējās neizgulēties neizgulēšanās neizguļas neizguļaties neizguļos
-12	3712	sastapt	sastopamas
-13	3713	mīlēties	jāmīlējas mīlas mīlējamies mīlējas mīlējaties mīlējies mīlējieties mīlējos mīlējoties mīlējusies mīlējušies mīlējāmies mīlējās mīlējāties mīlēsies mīlēsimies mīlētos mīlēšanās nemīlas nemīlējies nemīlējos nemīlēsimies nemīlēties nemīlēšos
-14	3714	menedžeris	menedžera menedžeri menedžeriem menedžerim menedžeros menedžeru menedžerus menedžerī
-15	3715	vienaldzīgs	vienaldzīga vienaldzīgai vienaldzīgais vienaldzīgajiem vienaldzīgajos vienaldzīgajā vienaldzīgam vienaldzīgas vienaldzīgi vienaldzīgie vienaldzīgiem vienaldzīgo vienaldzīgos vienaldzīgu vienaldzīgus vienaldzīgā vienaldzīgāk vienaldzīgāka vienaldzīgākajiem vienaldzīgāki vienaldzīgāks vienaldzīgām visvienaldzīgākais
-16	3716	senāts	senāta senātam senāti senātiem senātos senātu senātā
-17	3717	medmāsa	medmāsai medmāsas medmāsu medmāsām
-18	3718	kreditors	kreditora kreditoram kreditori kreditoriem kreditoru kreditorus
-19	3719	zoss	zosi zosij zosis zosu zosī zosīm zosīs
-20	3720	oranžs	oranža oranžai oranžais oranžajai oranžajam oranžajiem oranžajos oranžajā oranžas oranži oranžie oranžiem oranžo oranžos oranžu oranžus oranžā oranžāki oranžākie oranžāks oranžām oranžās
-21	3721	kritiķis	kritiķa kritiķi kritiķiem kritiķim kritiķos kritiķu kritiķus kritiķī
-22	3722	kompensēt	jākompensē kompensē kompensēja kompensējam kompensējat kompensēji kompensējiet kompensējis kompensējot kompensējošs kompensēju kompensējusi kompensējušas kompensējuši kompensējām kompensēs kompensēsi kompensēsim kompensēta kompensētas kompensēti kompensēto kompensēts kompensētu kompensētā kompensēšana kompensēšanas kompensēšanu kompensēšanā kompensēšu nekompensē nekompensēja nekompensējams nekompensējiet nekompensējot nekompensēs nekompensētie nekompensēto
-23	3723	pedagoģija	pedagoģijai pedagoģijas pedagoģiju pedagoģijā
-24	3724	oma	omai omas omu omā
-25	3725	pieslēgties	jāpieslēdzas nepieslēdzas nepieslēdzos nepieslēdzoties nepieslēgsies nepieslēgties pieslēdzamies pieslēdzas pieslēdzaties pieslēdzies pieslēdzieties pieslēdzos pieslēdzoties pieslēdzāmies pieslēdzās pieslēgsies pieslēgsimies pieslēgtos pieslēgšanās
-26	3726	mājiņa	mājiņai mājiņas mājiņu mājiņā mājiņām mājiņās
-27	3727	koeficients	koeficienta koeficientam koeficienti koeficientiem koeficientu koeficientus
-28	3728	izlietot	izlieto izlietodams izlietoja izlietojam izlietojams izlietojat izlietoji izlietojiet izlietojis izlietojot izlietoju izlietojām izlietos izlietosiet izlietosim izlietota izlietotam izlietotas izlietoti izlietotiem izlietotos izlietots izlietotu izlietotus izlietotā izlietotām izlietotās izlietošana izlietošu jāizlieto neizlieto neizlietojot neizlietotas neizlietoti neizlietotiem neizlietotu neizlietotā neizlietotām neizlietošu
-29	3729	aust	aud auda audis audu audusi audāt audīs ausa ausis austa austai austajiem austajā austam austas austi austie austiem austo austot austošo austošā austs austu austus austā austām austās ausīs aušana aušanai aušanas aušanu aušanā auž aužam aužamo aužot neaust
-30	3730	elegants	eleganta elegantai elegantais elegantajai elegantajam elegantajiem elegantajos elegantajā elegantajām elegantam elegantas eleganti elegantie elegantiem eleganto elegantos elegantu elegantus elegantā elegantāk elegantāka elegantākais elegantākajiem elegantākajā elegantākajām elegantākas elegantāko elegantākos elegantāks elegantāku elegantākā elegantākās elegantām elegantās viselegantākais
-31	3731	bēdīgs	bēdīga bēdīgai bēdīgais bēdīgajai bēdīgajam bēdīgajiem bēdīgajā bēdīgajām bēdīgajās bēdīgam bēdīgas bēdīgie bēdīgiem bēdīgo bēdīgos bēdīgu bēdīgus bēdīgā bēdīgāk bēdīgāka bēdīgākai bēdīgākais bēdīgākajām bēdīgākas bēdīgāki bēdīgākie bēdīgāks bēdīgāku bēdīgākā bēdīgām bēdīgās visbēdīgāk visbēdīgākais visbēdīgākajā visbēdīgākā visbēdīgākās
-32	3732	piekaut	jāpiekauj nepiekauj nepiekaus nepiekautu nepiekāva nepiekāvāt piekauj piekaujat piekaujot piekaus piekausi piekausim piekauts piekautu piekaušana piekaušanai piekaušanas piekaušanu piekaušanā piekaušanām piekaušot piekaušu piekāva piekāvi piekāvis piekāvu piekāvām piekāvāt
-33	3733	parametrs	parametra parametram parametri parametriem parametros parametru parametrus parametrā
-34	3734	norēķināties	jānorēķinās nenorēķinoties nenorēķinājušies nenorēķinājās nenorēķinās nenorēķināsies nenorēķināties nenorēķināšos norēķinies norēķinieties norēķinos norēķinoties norēķinājies norēķinājos norēķinājusies norēķinājušies norēķinājušās norēķinājāmies norēķinājās norēķināmies norēķinās norēķināsies norēķināsieties norēķināsimies norēķināsities norēķinātos norēķināšanās norēķināšos
-35	3735	pievērties	nepievērsies nepievērās nepievēršos nepievēršoties pieveries pieverieties pieveros pievēros pievērsies pievērsieties pievēršanās pievēršos pievēršoties
-36	3736	atlīdzināt	atlīdzina atlīdzini atlīdziniet atlīdzinot atlīdzinādams atlīdzināja atlīdzināji atlīdzinājis atlīdzinājuši atlīdzinām atlīdzinās atlīdzināsi atlīdzināsim atlīdzināta atlīdzinātas atlīdzināti atlīdzināts atlīdzinātu atlīdzinātā atlīdzināšana atlīdzināšanas atlīdzināšanu atlīdzināšu jāatlīdzina neatlīdzina neatlīdzinot neatlīdzināja neatlīdzinās neatlīdzināt
-37	3737	kristietība	kristietībai kristietības kristietību kristietībā
-38	3738	raize	raizes raizi raizēm raizēs raižu
-39	3739	animācija	animācijai animācijas animāciju animācijā animācijām animācijās
-40	3740	nebijis	nebijusi nebijuša nebijušai nebijušam nebijušas nebijuši nebijušiem nebijušos nebijušu nebijušus nebijušā nebijušām nebijušās
-41	3741	aktivizēt	aktivizē aktivizēja aktivizējam aktivizējams aktivizējat aktivizēji aktivizējiet aktivizējis aktivizējot aktivizēju aktivizējām aktivizēs aktivizēsi aktivizēsiet aktivizēsim aktivizēts aktivizētu aktivizēšana jāaktivizē neaktivizēt
-42	3742	nobraukt	jānobrauc nenobrauc nenobrauca nenobraucams nenobraucot nenobraucu nenobraukts nenobrauktu nobrauc nobrauca nobraucam nobraucamais nobraucamo nobraucams nobraucamā nobrauci nobrauciet nobraucis nobraucot nobraucu nobraucām nobrauks nobrauksi nobrauksim nobraukta nobrauktais nobrauktajam nobrauktajiem nobrauktas nobraukti nobrauktie nobrauktiem nobraukto nobrauktos nobraukts nobrauktu nobrauktā nobraukušo nobraukšana
-43	3743	dēmons	dēmon dēmona dēmonam dēmoni dēmoniem dēmonos dēmonu dēmonus
-44	3744	mēģināties	mēģinājies mēģinās nemēģinās
-45	3745	sportisks	sportiska sportiskai sportiskais sportiskajai sportiskajam sportiskajiem sportiskajos sportiskajā sportiskajām sportiskajās sportiskam sportiskas sportiskie sportiskiem sportisko sportiskos sportisku sportiskus sportiskā sportiskāk sportiskāka sportiskākais sportiskākajiem sportiskākajām sportiskāki sportiskākie sportiskākiem sportiskāko sportiskākos sportiskāks sportiskāku sportiskākus sportiskākā sportiskākās sportiskām sportiskās vissportiskākie vissportiskākā
-46	3746	atzvanīt	atzvana atzvani atzvaniet atzvanot atzvanu atzvanāt atzvanīja atzvanījis atzvanīju atzvanījusi atzvanījām atzvanījāt atzvanīs atzvanīsi atzvanīsim atzvanīts atzvanītu atzvanīšana atzvanīšanas atzvanīšanu atzvanīšu jāatzvana neatzvana neatzvanu neatzvanīja neatzvanīji neatzvanīju neatzvanījāt neatzvanīt neatzvanīšanu
-47	3747	mazbērns	mazbērna mazbērnam mazbērni mazbērniem mazbērnos mazbērnu mazbērnus
-48	3748	kristāls	kristāl kristāla kristālam kristāli kristāliem kristālos kristālu kristālus kristālā
-49	3749	vājprāts	vājprāta vājprātam vājprātiem vājprātu vājprātā
-50	3750	košs	koša košais košajam košajiem košajos košajā košajām košajās košam košas koši košie košiem košo košos košu košus košā košāk košāka košākai košākais košākajiem košākajos košākajām košākas košāki košākie košāko košāks košāku košākus košākā košākām košākās košām košās viskošākais viskošākajos
-51	3751	haizivs	haizivi haizivij haizivis haizivju haizivī haizivīm
-52	3752	laikmetīgs	laikmetīga laikmetīgai laikmetīgais laikmetīgajai laikmetīgajam laikmetīgajiem laikmetīgajā laikmetīgajām laikmetīgajās laikmetīgam laikmetīgas laikmetīgi laikmetīgie laikmetīgiem laikmetīgo laikmetīgos laikmetīgu laikmetīgus laikmetīgā laikmetīgākais laikmetīgāks laikmetīgām laikmetīgās
-53	3753	vērtspapīrs	vērtspapīra vērtspapīri vērtspapīriem vērtspapīros vērtspapīru vērtspapīrus vērtspapīrā
-54	3754	krūze	krūzei krūzes krūzi krūzē krūzēm krūzēs krūžu
-55	3755	tehnoloģisks	tehnoloģiska tehnoloģiskai tehnoloģiskais tehnoloģiskajai tehnoloģiskajam tehnoloģiskajiem tehnoloģiskajos tehnoloģiskajā tehnoloģiskajām tehnoloģiskajās tehnoloģiskam tehnoloģiskas tehnoloģiski tehnoloģiskie tehnoloģiskiem tehnoloģisko tehnoloģiskos tehnoloģisku tehnoloģiskus tehnoloģiskā tehnoloģiskāki tehnoloģiskām tehnoloģiskās
-56	3756	augstākais	
-57	3757	mironis	mirona mironi mironim mironu mironus mironī miroņa miroņi miroņiem miroņu miroņus
-58	3758	ietve	ietvei ietves ietvi ietvju ietvē ietvēm ietvēs
-59	3759	revīzija	revīzijai revīzijas revīziju revīzijā revīzijām revīzijās
-60	3760	raktuve	raktuves raktuvi raktuvju raktuvē raktuvēm raktuvēs
-61	3761	pokers	pokera pokeram pokeri pokeru pokerā
-62	3762	glabāšana	glabāšanai glabāšanas glabāšanu glabāšanā
-63	3763	putināt	putina putini putinu putināja putinājis putinājām putinās putināts putināšana
-64	3764	peldēties	jāpeldas nepeldas nepeldies nepeldieties nepeldos nepeldējos nepeldējāmies nepeldēties peldamies peldas peldaties peldies peldieties peldos peldoties peldējies peldējos peldējusies peldējušies peldējāmies peldējās peldējāties peldēsies peldēsimies peldēšanās
-65	3765	nabadzīgs	nabadzīga nabadzīgai nabadzīgais nabadzīgajai nabadzīgajiem nabadzīgajos nabadzīgajā nabadzīgajām nabadzīgajās nabadzīgam nabadzīgas nabadzīgi nabadzīgie nabadzīgiem nabadzīgo nabadzīgos nabadzīgu nabadzīgus nabadzīgā nabadzīgāk nabadzīgāka nabadzīgākajai nabadzīgākajiem nabadzīgākajos nabadzīgākajā nabadzīgākajām nabadzīgākajās nabadzīgākas nabadzīgāki nabadzīgākie nabadzīgākiem nabadzīgāko nabadzīgākos nabadzīgāku nabadzīgākā nabadzīgākās nabadzīgām nabadzīgās visnabadzīgākā
-66	3766	latvis	latis latva latve latvi latvim latvja latvji latvjiem latvju latvjus latvu latvēm
-67	3767	komisārs	komisāra komisāram komisāri komisāriem komisāru komisārus
-68	3768	atturēt	attur atturam atturami atturams atturat atturi atturiet atturot atturošs atturošu atturošā atturēja atturējis atturēju atturējusi atturējušas atturējuši atturējāt atturēs atturēsim atturēta atturētas atturēti atturētos atturēts atturētu atturēšana atturēšot jāattur neattur neatturami neatturiet neatturēja neatturējis neatturēju neatturēs neatturētu neatturēšot neatturēšu
-69	3769	starptautiski	
-70	3770	ieturēt	ietur ieturam ieturamo ieturamā ieturat ieturi ieturiet ieturot ieturu ieturēja ieturējis ieturēju ieturējusi ieturējuši ieturējām ieturēs ieturēsiet ieturēsim ieturēta ieturētai ieturētais ieturētajai ieturētajiem ieturētajā ieturētas ieturēti ieturētie ieturēto ieturētos ieturēts ieturētu ieturētā ieturētās ieturēšana ieturēšu jāietur neietur neieturot neieturēs
-71	3771	sēdeklis	sēdekli sēdeklim sēdeklī sēdekļa sēdekļi sēdekļiem sēdekļos sēdekļu sēdekļus
-72	3772	mugurkauls	mugurkaula mugurkaulam mugurkauli mugurkauliem mugurkaulu mugurkaulus mugurkaulā
-73	3773	maigi	
-74	3774	āmen	
-75	3775	šķiršanās	
-76	3776	lietotne	lietotnei lietotnes lietotni lietotnē lietotnēm lietotnēs lietotņu
-77	3777	ekonomists	ekonomista ekonomistam ekonomiste ekonomistes ekonomisti ekonomistiem ekonomistos ekonomistu ekonomistus ekonomistā
-78	3778	sadalījums	sadalījuma sadalījumam sadalījumi sadalījumiem sadalījumu sadalījumus sadalījumā
-79	3779	savainot	nesavaino nesavainoja nesavainojot nesavainos nesavainosit nesavainot nesavainotos nesavainotu savaino savainoja savainoji savainojis savainojot savainoju savainojusi savainojušas savainojuši savainojāt savainos savainosi savainosiet savainota savainotais savainotajai savainotajam savainotajiem savainotajām savainotam savainotas savainoti savainotie savainotiem savainoto savainotos savainots savainotu savainotā savainotās savainošu
-80	3780	ietekmīgs	ietekmīga ietekmīgai ietekmīgais ietekmīgajiem ietekmīgajā ietekmīgajām ietekmīgam ietekmīgas ietekmīgi ietekmīgie ietekmīgiem ietekmīgo ietekmīgos ietekmīgu ietekmīgus ietekmīgā ietekmīgāk ietekmīgāka ietekmīgākais ietekmīgākajai ietekmīgākajam ietekmīgākajiem ietekmīgākajā ietekmīgākajām ietekmīgākas ietekmīgāki ietekmīgākie ietekmīgāko ietekmīgākos ietekmīgāks ietekmīgāku ietekmīgākā ietekmīgākās ietekmīgām ietekmīgās visietekmīgākais visietekmīgākie visietekmīgāko visietekmīgākā
-81	3781	baktērija	baktērijai baktērijas baktēriju baktērijām baktērijās
-82	3782	tagadējs	tagadēja tagadējai tagadējais tagadējam tagadēji tagadējie tagadējiem tagadējo tagadējos tagadējā tagadējām tagadējās
-83	3783	si	
-84	3784	barjera	barjerai barjeras barjeru barjerā barjerām barjerās
-85	3785	vairot	jāvairo nevairo nevairoja nevairojiet nevairojot nevairoju nevairos nevairosiet nevairotu vairo vairodams vairoja vairojam vairojat vairojiet vairojis vairojot vairojošs vairoju vairojusi vairojušas vairojuši vairos vairosi vairosiet vairosim vairosit vairota vairotas vairoti vairots vairotu vairotā vairošana vairošanas vairošanu vairošanā vairošu
-86	3786	johaidī	
-87	3787	atzinīgs	atzinīga atzinīgais atzinīgajam atzinīgajiem atzinīgas atzinīgi atzinīgie atzinīgiem atzinīgo atzinīgos atzinīgu atzinīgus atzinīgā atzinīgāk atzinīgāko atzinīgāks visatzinīgāk visatzinīgākie
-88	3788	bārenis	bārene bāreni bārenim bāreņa bāreņi bāreņiem bāreņos bāreņu bāreņus
-89	3789	sociāli	
-90	3790	saskaitīt	jāsaskaita nesaskaitāmajiem nesaskaitīsi nesaskaitīsim nesaskaitītās saskaita saskaiti saskaitiet saskaitot saskaitām saskaitāma saskaitāmais saskaitāmajiem saskaitāmajām saskaitāmas saskaitāmi saskaitāmie saskaitāmo saskaitāmos saskaitāms saskaitāmām saskaitīja saskaitīji saskaitījis saskaitīju saskaitījusi saskaitījušas saskaitījuši saskaitījām saskaitīs saskaitīsim saskaitīta saskaitītas saskaitīti saskaitīto saskaitīts saskaitītu saskaitīšana saskaitīšu
-91	3791	ūdenskritums	ūdenskrituma ūdenskritumam ūdenskritumi ūdenskritumiem ūdenskritumos ūdenskritumu ūdenskritumus ūdenskritumā
-92	3792	statuja	statujai statujas statuju statujām
-93	3793	piecpadsmit	
-94	3794	krimināllikums	krimināllikuma krimināllikumam krimināllikumu krimināllikumus krimināllikumā
-95	3795	prāmis	prāma prāmi prāmim prāmja prāmji prāmjiem prāmjos prāmju prāmjus prāmī
-96	3796	saime	saimei saimes saimi saimju saimu saimā saimē saimēm saimēs
-97	3797	piekāpties	jāpiekāpjas nepiekāpies nepiekāpjas nepiekāpjoties nepiekāpsies nepiekāpsimies nepiekāpties nepiekāptos nepiekāpās nepiekāpšanās nepiekāpšoties piekāpas piekāpies piekāpieties piekāpjamies piekāpjas piekāpjos piekāpjoties piekāpos piekāpsies piekāpsieties piekāpsimies piekāpsities piekāptos piekāpāmies piekāpās piekāpāties piekāpšanās piekāpšos
-98	3798	papētīt	jāpapēta nepapētīja papēta papēti papētiet papētot papētu papētām papētāt papētīja papētījis papētīju papētījām papētīs papētīsi papētīsim papētīta papētīts papētītu papētīšu
-99	3799	izteikums	izteikuma izteikumam izteikumi izteikumiem izteikumos izteikumu izteikumus izteikumā
-100	3800	karantīna	karantīnai karantīnas karantīnu karantīnā karantīnām
+1	3701	koksne	koksnei koksnes koksni koksnē koksnēm
+2	3702	jātnieks	jātnieka jātniekam jātnieki jātniekiem jātniekos jātnieku jātniekus
+3	3703	nomazgāt	jānomazgā nenomazgājamas nenomazgājams nenomazgājamu nenomazgāt nenomazgātos nenomazgāts nenomazgātām nomazgā nomazgāja nomazgājam nomazgājamas nomazgājams nomazgājamu nomazgājamus nomazgāji nomazgājiet nomazgājis nomazgājot nomazgāju nomazgājušas nomazgājuši nomazgājāt nomazgās nomazgāsi nomazgāsiet nomazgāsim nomazgāta nomazgātas nomazgāti nomazgātie nomazgātiem nomazgāto nomazgātos nomazgāts nomazgātu nomazgātus nomazgāšana nomazgāšu
+4	3704	dienēt	dien dienam dienat dieni dienot dienu dienē dienēdams dienēja dienēji dienējis dienējot dienēju dienējām dienējāt dienēs dienēts dienētu dienēšu jādien jādienē
+5	3705	divpadsmit	divpadsmitiem divpadsmitos
+6	3706	pārgulēt	jāpārguļ nepārgulēju nepārgulēs nepārgulēt nepārguļ pārguli pārgulēja pārgulēji pārgulējis pārgulēju pārgulējusi pārgulējuši pārgulējām pārgulēs pārgulēsi pārgulēsiet pārgulētu pārgulēšana pārgulēšu pārguļ pārguļam pārguļot pārguļu
+7	3707	imperators	imperator imperatora imperatoram imperatore imperatores imperatori imperatoriem imperatoru imperatorus
+8	3708	garastāvoklis	garastāvokli garastāvoklim garastāvoklī garastāvokļa garastāvokļi garastāvokļiem garastāvokļu
+9	3709	baltkrievs	baltkrieva baltkrievam baltkrievi baltkrieviem baltkrieviete baltkrievietei baltkrievietes baltkrievieti baltkrievu baltkrievus
+10	3710	orientēšanās	orientēšana orientēšanos orientēšanu
+11	3711	dominēt	dominē dominēja dominējam dominēji dominējis dominējot dominējošs dominēju dominējusi dominējušas dominējuši dominējušo dominējām dominēs dominēsiet dominētu dominētā dominēšana dominēšanai dominēšanas dominēšanu jādominē nedominē nedominēja nedominēs nedominētu
+12	3712	drudzis	drudzi drudzim drudzī drudža drudži drudžiem drudžu
+13	3713	piebeigt	jāpiebeidz nepiebeidza nepiebeidzi nepiebeigs nepiebeigsi nepiebeigtu piebeidz piebeidza piebeidzam piebeidzi piebeidziet piebeidzis piebeidzot piebeidzu piebeidzām piebeidzāt piebeigs piebeigsi piebeigsim piebeigts piebeigtu piebeigšana piebeigšu
+14	3714	atgadīties	atgadoties atgadās atgadījies atgadījusies atgadījušies atgadījušās atgadījās atgadīsies atgadītos neatgadoties neatgadās neatgadījās neatgadīsies neatgadītos
+15	3715	pups	pup pupam pupi pupiem pupos pupu pupus pupā
+16	3716	intelekts	intelekta intelektam intelektu intelektā
+17	3717	amatnieks	amatniece amatnieces amatnieci amatniecēm amatniek amatnieka amatniekam amatnieki amatniekiem amatniekos amatnieku amatniekus amatnieču
+18	3718	klauns	klaun klauna klaunam klauni klauniem klaunos klaunu klaunus klaunā
+19	3719	rādiuss	rādiusa rādiusam rādiusiem rādiusu rādiusus rādiusā
+20	3720	aukstums	aukstuma aukstumam aukstumi aukstumos aukstumu aukstumā
+21	3721	ķirsis	ķirsi ķirsim ķirsī ķirša ķirši ķiršiem ķiršos ķiršu ķiršus
+22	3722	bakalaurs	bakalaura bakalauram bakalauri bakalauriem bakalauru bakalaurus
+23	3723	objektīvs	objektīva objektīvai objektīvais objektīvajai objektīvajam objektīvajiem objektīvajā objektīvajām objektīvam objektīvas objektīvie objektīviem objektīvo objektīvos objektīvu objektīvus objektīvā objektīvāk objektīvāka objektīvākai objektīvākais objektīvākajiem objektīvāki objektīvākie objektīvāko objektīvāks objektīvāku objektīvākus objektīvākām objektīvām objektīvās visobjektīvāk visobjektīvākais visobjektīvākā
+24	3724	munīcija	munīcijai munīcijas munīciju munīcijā
+25	3725	izgulēties	izgulies izgulieties izgulējies izgulējos izgulējusies izgulējušies izgulējāmies izgulējās izgulēsies izgulēsieties izgulēsimies izgulētos izgulēšanās izgulēšos izgulēšoties izguļamies izguļas izguļaties izguļos izguļoties jāizguļas neizgulies neizgulējies neizgulējos neizgulējusies neizgulējušies neizgulējušās neizgulējās neizgulēties neizgulēšanās neizguļas neizguļaties neizguļos
+26	3726	redzēšanās	redzēšanos
+27	3727	sastapt	sastopamas
+28	3728	mīlēties	jāmīlējas mīlas mīlējamies mīlējas mīlējaties mīlējies mīlējieties mīlējos mīlējoties mīlējusies mīlējušies mīlējāmies mīlējās mīlējāties mīlēsies mīlēsimies mīlētos mīlēšanās nemīlas nemīlējies nemīlējos nemīlēsimies nemīlēties nemīlēšos
+29	3729	menedžeris	menedžera menedžeri menedžeriem menedžerim menedžeros menedžeru menedžerus menedžerī
+30	3730	vienaldzīgs	vienaldzīga vienaldzīgai vienaldzīgais vienaldzīgajiem vienaldzīgajos vienaldzīgajā vienaldzīgam vienaldzīgas vienaldzīgi vienaldzīgie vienaldzīgiem vienaldzīgo vienaldzīgos vienaldzīgu vienaldzīgus vienaldzīgā vienaldzīgāk vienaldzīgāka vienaldzīgākajiem vienaldzīgāki vienaldzīgāks vienaldzīgām visvienaldzīgākais
+31	3731	senāts	senāta senātam senāti senātiem senātos senātu senātā
+32	3732	medmāsa	medmāsai medmāsas medmāsu medmāsām
+33	3733	kreditors	kreditora kreditoram kreditori kreditoriem kreditoru kreditorus
+34	3734	zoss	zosi zosij zosis zosu zosī zosīm zosīs
+35	3735	oranžs	oranža oranžai oranžais oranžajai oranžajam oranžajiem oranžajos oranžajā oranžas oranži oranžie oranžiem oranžo oranžos oranžu oranžus oranžā oranžāki oranžākie oranžāks oranžām oranžās
+36	3736	kritiķis	kritiķa kritiķi kritiķiem kritiķim kritiķos kritiķu kritiķus kritiķī
+37	3737	kompensēt	jākompensē kompensē kompensēja kompensējam kompensējat kompensēji kompensējiet kompensējis kompensējot kompensējošs kompensēju kompensējusi kompensējušas kompensējuši kompensējām kompensēs kompensēsi kompensēsim kompensēta kompensētas kompensēti kompensēto kompensēts kompensētu kompensētā kompensēšana kompensēšanas kompensēšanu kompensēšanā kompensēšu nekompensē nekompensēja nekompensējams nekompensējiet nekompensējot nekompensēs nekompensētie nekompensēto
+38	3738	pedagoģija	pedagoģijai pedagoģijas pedagoģiju pedagoģijā
+39	3739	oma	omai omas omu omā
+40	3740	pieslēgties	jāpieslēdzas nepieslēdzas nepieslēdzos nepieslēdzoties nepieslēgsies nepieslēgties pieslēdzamies pieslēdzas pieslēdzaties pieslēdzies pieslēdzieties pieslēdzos pieslēdzoties pieslēdzāmies pieslēdzās pieslēgsies pieslēgsimies pieslēgtos pieslēgšanās
+41	3741	mājiņa	mājiņai mājiņas mājiņu mājiņā mājiņām mājiņās
+42	3742	koeficients	koeficienta koeficientam koeficienti koeficientiem koeficientu koeficientus
+43	3743	izlietot	izlieto izlietodams izlietoja izlietojam izlietojams izlietojat izlietoji izlietojiet izlietojis izlietojot izlietoju izlietojām izlietos izlietosiet izlietosim izlietota izlietotam izlietotas izlietoti izlietotiem izlietotos izlietots izlietotu izlietotus izlietotā izlietotām izlietotās izlietošana izlietošu jāizlieto neizlieto neizlietojot neizlietotas neizlietoti neizlietotiem neizlietotos neizlietotu neizlietotā neizlietotām
+44	3744	aust	aud auda audis audu audusi audāt audīs ausa ausis austa austai austajiem austajā austam austas austi austie austiem austo austot austošo austošā austs austu austus austā austām austās ausīs aušana aušanai aušanas aušanu aušanā auž aužam aužamo aužot neaust
+45	3745	elegants	eleganta elegantai elegantais elegantajai elegantajam elegantajiem elegantajos elegantajā elegantajām elegantam elegantas eleganti elegantie elegantiem eleganto elegantos elegantu elegantus elegantā elegantāk elegantāka elegantākais elegantākajiem elegantākajā elegantākajām elegantākas elegantāko elegantākos elegantāks elegantāku elegantākā elegantākās elegantām elegantās viselegantākais
+46	3746	bēdīgs	bēdīga bēdīgai bēdīgais bēdīgajai bēdīgajam bēdīgajiem bēdīgajā bēdīgajām bēdīgajās bēdīgam bēdīgas bēdīgie bēdīgiem bēdīgo bēdīgos bēdīgu bēdīgus bēdīgā bēdīgāk bēdīgāka bēdīgākai bēdīgākais bēdīgākajām bēdīgākas bēdīgāki bēdīgākie bēdīgāks bēdīgāku bēdīgākā bēdīgām bēdīgās visbēdīgāk visbēdīgākais visbēdīgākajā visbēdīgākā visbēdīgākās
+47	3747	piekaut	jāpiekauj nepiekauj nepiekaus nepiekautu nepiekāva nepiekāvāt piekauj piekaujat piekaujot piekaus piekausi piekausim piekauts piekautu piekaušana piekaušanai piekaušanas piekaušanu piekaušanā piekaušanām piekaušot piekaušu piekāva piekāvi piekāvis piekāvu piekāvām piekāvāt
+48	3748	parametrs	parametra parametram parametri parametriem parametros parametru parametrus parametrā
+49	3749	norēķināties	jānorēķinās nenorēķinoties nenorēķinājušies nenorēķinājās nenorēķinās nenorēķināsies nenorēķināties nenorēķināšos norēķinies norēķinieties norēķinos norēķinoties norēķinājies norēķinājos norēķinājusies norēķinājušies norēķinājušās norēķinājāmies norēķinājās norēķināmies norēķinās norēķināsies norēķināsieties norēķināsimies norēķināsities norēķinātos norēķināšanās norēķināšos
+50	3750	atlīdzināt	atlīdzina atlīdzini atlīdziniet atlīdzinot atlīdzinādams atlīdzināja atlīdzināji atlīdzinājis atlīdzinājuši atlīdzinām atlīdzinās atlīdzināsi atlīdzināsim atlīdzināta atlīdzinātas atlīdzināti atlīdzināts atlīdzinātu atlīdzinātā atlīdzināšana atlīdzināšanas atlīdzināšanu atlīdzināšu jāatlīdzina neatlīdzina neatlīdzinot neatlīdzināja neatlīdzinās neatlīdzināt
+51	3751	kristietība	kristietībai kristietības kristietību kristietībā
+52	3752	raize	raizes raizi raizēm raizēs raižu
+53	3753	animācija	animācijai animācijas animāciju animācijā animācijām animācijās
+54	3754	nebijis	nebijusi nebijuša nebijušai nebijušam nebijušas nebijuši nebijušiem nebijušos nebijušu nebijušus nebijušā nebijušām nebijušās
+55	3755	aktivizēt	aktivizē aktivizēja aktivizējam aktivizējams aktivizējat aktivizēji aktivizējiet aktivizējis aktivizējot aktivizēju aktivizējām aktivizēs aktivizēsi aktivizēsiet aktivizēsim aktivizēts aktivizētu aktivizēšana jāaktivizē neaktivizēt
+56	3756	nobraukt	jānobrauc nenobrauc nenobrauca nenobraucams nenobraucot nenobraucu nenobraukts nenobrauktu nobrauc nobrauca nobraucam nobraucamais nobraucamo nobraucams nobraucamā nobrauci nobrauciet nobraucis nobraucot nobraucu nobraucām nobrauks nobrauksi nobrauksim nobraukta nobrauktais nobrauktajam nobrauktajiem nobrauktas nobraukti nobrauktie nobrauktiem nobraukto nobrauktos nobraukts nobrauktu nobrauktā nobraukušo nobraukšana
+57	3757	dēmons	dēmon dēmona dēmonam dēmoni dēmoniem dēmonos dēmonu dēmonus
+58	3758	norēķins	norēķina norēķinam norēķini norēķiniem norēķinos norēķinu norēķinus norēķinā
+59	3759	sportisks	sportiska sportiskai sportiskais sportiskajai sportiskajam sportiskajiem sportiskajos sportiskajā sportiskajām sportiskajās sportiskam sportiskas sportiskie sportiskiem sportisko sportiskos sportisku sportiskus sportiskā sportiskāk sportiskāka sportiskākais sportiskākajiem sportiskākajām sportiskāki sportiskākie sportiskākiem sportiskāko sportiskākos sportiskāks sportiskāku sportiskākus sportiskākā sportiskākās sportiskām sportiskās vissportiskākie vissportiskākā
+60	3760	atzvanīt	atzvana atzvani atzvaniet atzvanot atzvanu atzvanāt atzvanīja atzvanījis atzvanīju atzvanījusi atzvanījām atzvanījāt atzvanīs atzvanīsi atzvanīsim atzvanīts atzvanītu atzvanīšana atzvanīšanas atzvanīšanu atzvanīšu jāatzvana neatzvana neatzvanu neatzvanīja neatzvanīji neatzvanīju neatzvanījāt neatzvanīt neatzvanīšanu
+61	3761	mazbērns	mazbērna mazbērnam mazbērni mazbērniem mazbērnos mazbērnu mazbērnus
+62	3762	kristāls	kristāl kristāla kristālam kristāli kristāliem kristālos kristālu kristālus kristālā
+63	3763	vājprāts	vājprāta vājprātam vājprātiem vājprātu vājprātā
+64	3764	košs	koša košais košajam košajiem košajos košajā košajām košajās košam košas koši košie košiem košo košos košu košus košā košāk košāka košākai košākais košākajiem košākajos košākajām košākas košāki košākie košāko košāks košāku košākus košākā košākām košākās košām košās viskošākais viskošākajos
+65	3765	haizivs	haizivi haizivij haizivis haizivju haizivī haizivīm
+66	3766	laikmetīgs	laikmetīga laikmetīgai laikmetīgais laikmetīgajai laikmetīgajam laikmetīgajiem laikmetīgajā laikmetīgajām laikmetīgajās laikmetīgam laikmetīgas laikmetīgi laikmetīgie laikmetīgiem laikmetīgo laikmetīgos laikmetīgu laikmetīgus laikmetīgā laikmetīgākais laikmetīgāks laikmetīgām laikmetīgās
+67	3767	vērtspapīrs	vērtspapīra vērtspapīri vērtspapīriem vērtspapīros vērtspapīru vērtspapīrus vērtspapīrā
+68	3768	krūze	krūzei krūzes krūzi krūzē krūzēm krūzēs krūžu
+69	3769	tehnoloģisks	tehnoloģiska tehnoloģiskai tehnoloģiskais tehnoloģiskajai tehnoloģiskajam tehnoloģiskajiem tehnoloģiskajos tehnoloģiskajā tehnoloģiskajām tehnoloģiskajās tehnoloģiskam tehnoloģiskas tehnoloģiski tehnoloģiskie tehnoloģiskiem tehnoloģisko tehnoloģiskos tehnoloģisku tehnoloģiskus tehnoloģiskā tehnoloģiskāki tehnoloģiskām tehnoloģiskās
+70	3770	augstākais	
+71	3771	mironis	mirona mironi mironim mironu mironus mironī miroņa miroņi miroņiem miroņu miroņus
+72	3772	ietve	ietvei ietves ietvi ietvju ietvē ietvēm ietvēs
+73	3773	revīzija	revīzijai revīzijas revīziju revīzijā revīzijām revīzijās
+74	3774	raktuve	raktuves raktuvi raktuvju raktuvē raktuvēm raktuvēs
+75	3775	pokers	pokera pokeram pokeri pokeru pokerā
+76	3776	glabāšana	glabāšanai glabāšanas glabāšanu glabāšanā
+77	3777	putināt	putina putini putinu putināja putinājis putinājām putinās putināts putināšana
+78	3778	peldēties	jāpeldas nepeldas nepeldies nepeldieties nepeldos nepeldējos nepeldējāmies nepeldēties peldamies peldas peldaties peldies peldieties peldos peldoties peldējies peldējos peldējusies peldējušies peldējāmies peldējās peldējāties peldēsies peldēsimies peldēšanās
+79	3779	nabadzīgs	nabadzīga nabadzīgai nabadzīgais nabadzīgajai nabadzīgajiem nabadzīgajos nabadzīgajā nabadzīgajām nabadzīgajās nabadzīgam nabadzīgas nabadzīgi nabadzīgie nabadzīgiem nabadzīgo nabadzīgos nabadzīgu nabadzīgus nabadzīgā nabadzīgāk nabadzīgāka nabadzīgākajai nabadzīgākajiem nabadzīgākajos nabadzīgākajā nabadzīgākajām nabadzīgākajās nabadzīgākas nabadzīgāki nabadzīgākie nabadzīgākiem nabadzīgāko nabadzīgākos nabadzīgāku nabadzīgākā nabadzīgākās nabadzīgām nabadzīgās visnabadzīgākā
+80	3780	latvis	latis latva latve latvi latvim latvja latvji latvjiem latvju latvjus latvu latvēm
+81	3781	savainot	nesavaino nesavainoja nesavainojot nesavainos nesavainosit nesavainot nesavainotos nesavainotu savaino savainoja savainoji savainojis savainojot savainoju savainojusi savainojušas savainojuši savainojāt savainos savainosi savainosiet savainota savainotais savainotajai savainotajam savainotajiem savainotajām savainotam savainotas savainoti savainotie savainotiem savainoto savainotos savainots savainotu savainotā savainotās savainošu
+82	3782	komisārs	komisāra komisāram komisāri komisāriem komisāru komisārus
+83	3783	atturēt	attur atturam atturami atturams atturat atturi atturiet atturot atturošs atturošu atturošā atturēja atturējis atturēju atturējusi atturējušas atturējuši atturējāt atturēs atturēsim atturēta atturētas atturēti atturētos atturēts atturētu atturēšana atturēšot jāattur neattur neatturami neatturiet neatturēja neatturējis neatturēju neatturēs neatturētu neatturēšot neatturēšu
+84	3784	starptautiski	
+85	3785	ieturēt	ietur ieturam ieturamo ieturamā ieturat ieturi ieturiet ieturot ieturu ieturēja ieturējis ieturēju ieturējusi ieturējuši ieturējām ieturēs ieturēsiet ieturēsim ieturēta ieturētai ieturētais ieturētajai ieturētajiem ieturētajā ieturētas ieturēti ieturētie ieturēto ieturētos ieturēts ieturētu ieturētā ieturētās ieturēšana ieturēšu jāietur neietur neieturot neieturēs
+86	3786	sēdeklis	sēdekli sēdeklim sēdeklī sēdekļa sēdekļi sēdekļiem sēdekļos sēdekļu sēdekļus
+87	3787	mugurkauls	mugurkaula mugurkaulam mugurkauli mugurkauliem mugurkaulu mugurkaulus mugurkaulā
+88	3788	maigi	
+89	3789	āmen	
+90	3790	šķiršanās	
+91	3791	lietotne	lietotnei lietotnes lietotni lietotnē lietotnēm lietotnēs lietotņu
+92	3792	ekonomists	ekonomista ekonomistam ekonomiste ekonomistes ekonomisti ekonomistiem ekonomistos ekonomistu ekonomistus ekonomistā
+93	3793	sadalījums	sadalījuma sadalījumam sadalījumi sadalījumiem sadalījumu sadalījumus sadalījumā
+94	3794	ietekmīgs	ietekmīga ietekmīgai ietekmīgais ietekmīgajiem ietekmīgajā ietekmīgajām ietekmīgam ietekmīgas ietekmīgi ietekmīgie ietekmīgiem ietekmīgo ietekmīgos ietekmīgu ietekmīgus ietekmīgā ietekmīgāk ietekmīgāka ietekmīgākais ietekmīgākajai ietekmīgākajam ietekmīgākajiem ietekmīgākajā ietekmīgākajām ietekmīgākas ietekmīgāki ietekmīgākie ietekmīgāko ietekmīgākos ietekmīgāks ietekmīgāku ietekmīgākā ietekmīgākās ietekmīgām ietekmīgās visietekmīgākais visietekmīgākie visietekmīgāko visietekmīgākā
+95	3795	baktērija	baktērijai baktērijas baktēriju baktērijām baktērijās
+96	3796	tagadējs	tagadēja tagadējai tagadējais tagadējam tagadēji tagadējie tagadējiem tagadējo tagadējos tagadējā tagadējām tagadējās
+97	3797	si	
+98	3798	barjera	barjerai barjeras barjeru barjerā barjerām barjerās
+99	3799	vairot	jāvairo nevairo nevairoja nevairojiet nevairojot nevairoju nevairos nevairosiet nevairotu vairo vairodams vairoja vairojam vairojat vairojiet vairojis vairojot vairojošs vairoju vairojusi vairojušas vairojuši vairos vairosi vairosiet vairosim vairosit vairota vairotas vairoti vairots vairotu vairotā vairošana vairošanas vairošanu vairošanā vairošu
+100	3800	johaidī	

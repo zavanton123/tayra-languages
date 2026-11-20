@@ -1,100 +1,100 @@
-1	1901	milzis	mila milam mili milu milza milze milzi milzim milzu milzī milža milži milžiem milžu milžus
-2	1902	sanāksme	sanāksmei sanāksmes sanāksmi sanāksmju sanāksmē sanāksmēm sanāksmēs
-3	1903	uzņēmējdarbība	uzņēmējdarbībai uzņēmējdarbības uzņēmējdarbību uzņēmējdarbībā uzņēmējdarbībām uzņēmējdarbībās
-4	1904	spiediens	spiedien spiediena spiedienam spiedieni spiedieniem spiedienu spiedienus spiedienā
-5	1905	garša	garšai garšas garšu garšā garšām garšās
-6	1906	seriāls	seriāla seriālam seriāli seriāliem seriālos seriālu seriālus seriālā
-7	1907	iemācīt	iemāca iemāci iemāciet iemācot iemācu iemācām iemācāms iemācāt iemācīja iemācīji iemācījis iemācīju iemācījām iemācījāt iemācīs iemācīsi iemācīsiet iemācīsim iemācīsit iemācīts iemācītu iemācīšana iemācīšot iemācīšu jāiemāca neiemāca neiemācot neiemācām neiemācīja neiemācīju neiemācījām neiemācīs neiemācīsi neiemācīsit neiemācīt neiemācītu neiemācīšu
-8	1908	būve	būvei būves būvi būvju būvē būvēm būvēs
-9	1909	divreiz	
-10	1910	klātbūtne	klātbūtnei klātbūtnes klātbūtni klātbūtnē
-11	1911	miegs	mieg miega miegam miegi miegu miegā
-12	1912	peldēt	jāpeld nepeld nepeldi nepeldiet nepeldēs nepeldēšu peld peldam peldi peldiet peldot peldoša peldošais peldošajā peldošas peldošie peldošiem peldošo peldošs peldošu peldošā peldošās peldu peldēja peldējis peldēju peldējām peldēs peldēsi peldētos peldētu peldēšana peldēšanai peldēšanas peldēšanos peldēšanu peldēšanā peldēšanās peldēšu
-13	1913	pārskatīt	jāpārskata nepārskata nepārskatot nepārskatāma nepārskatāms nepārskatīt pārskata pārskati pārskatiet pārskatot pārskatu pārskatām pārskatāma pārskatāmai pārskatāmas pārskatāmi pārskatāms pārskatāmu pārskatāmā pārskatīja pārskatījis pārskatīju pārskatījusi pārskatījušas pārskatījuši pārskatījām pārskatīs pārskatīsi pārskatīsiet pārskatīsim pārskatīta pārskatītas pārskatīti pārskatīto pārskatītos pārskatīts pārskatītu pārskatīšana pārskatīšu
-14	1914	izvirzīt	izvirza izvirzi izvirziet izvirzot izvirzu izvirzām izvirzāms izvirzāt izvirzīja izvirzījis izvirzīju izvirzījusi izvirzījušas izvirzījuši izvirzījām izvirzīs izvirzīsim izvirzīta izvirzītais izvirzītas izvirzīti izvirzītie izvirzīto izvirzīts izvirzītu izvirzītā izvirzīšana izvirzīšanas izvirzīšanu izvirzīšanā jāizvirza neizvirza neizvirzot neizvirzu neizvirzām neizvirzīja neizvirzīs neizvirzītu neizvirzīšu
-15	1915	dažkārt	
-16	1916	laikmets	laikmeta laikmetam laikmeti laikmetiem laikmetos laikmetu laikmetus laikmetā
-17	1917	koncentrēties	jākoncentrējas koncentrēdamies koncentrējamies koncentrējas koncentrējaties koncentrējies koncentrējieties koncentrējos koncentrējoties koncentrējusies koncentrējušies koncentrējušās koncentrējāmies koncentrējās koncentrēsies koncentrēsieties koncentrēsimies koncentrēsities koncentrētos koncentrēšanās koncentrēšos nekoncentrējamies nekoncentrējas nekoncentrējies nekoncentrējieties nekoncentrējos nekoncentrējoties nekoncentrējāmies nekoncentrējās nekoncentrēsies nekoncentrēsieties nekoncentrēsimies nekoncentrēties
-18	1918	īstenībā	
-19	1919	okeāns	okeān okeāna okeānam okeāni okeāniem okeānos okeānu okeānus okeānā
-20	1920	vanna	vannai vannas vannu vannā vannām vannās
-21	1921	straujš	strauja straujai straujais straujajai straujajam straujajā straujajām straujam straujas straujie straujiem straujo straujos strauju straujus straujā straujāk straujāka straujākai straujākais straujākajiem straujākajā straujākam straujākas straujāki straujākiem straujāko straujākos straujāks straujāku straujākā straujākām straujākās straujām straujās visstraujāk visstraujākais visstraujāko visstraujākā
-22	1922	grasīties	grasas grasies grasos grasoties grasāmies grasās grasāties grasījies grasījos grasījusies grasījušies grasījušās grasījāmies grasījās grasījāties grasīsies grasīsieties grasītos negrasas negrasies negrasieties negrasos negrasoties negrasāmies negrasās negrasāties negrasījies negrasījos negrasījāmies negrasījās negrasīsies negrasītos
-23	1923	sauss	sausa sausai sausais sausajai sausajam sausajiem sausajos sausajā sausajām sausajās sausam sausas sausi sausie sausiem sauso sausos sausu sausus sausā sausāk sausāka sausākai sausākais sausākajām sausākajās sausākam sausākas sausāki sausākos sausāks sausāku sausākus sausākā sausākām sausām sausās vissausāko vissausākā
-24	1924	uzvārds	uzvārda uzvārdam uzvārdi uzvārdiem uzvārdos uzvārdu uzvārdus uzvārdā
-25	1925	kolekcija	kolekcijai kolekcijas kolekciju kolekcijā kolekcijām kolekcijās
-26	1926	salauzt	jāsalauž nesalauza nesalauzi nesalauzt nesalauzts nesalauztu nesalauzīs nesalauž nesalaužama nesalaužams nesalaužamu salauz salauza salauzi salauziet salauzis salauzta salauztai salauztam salauztas salauzti salauztiem salauzts salauztu salauztā salauztām salauztās salauzu salauzām salauzāt salauzīs salauzīsi salauzīsiet salauzīšu salauž salaužam salaužams salaužot salaužu
-27	1927	izsekot	izseko izsekoja izsekojam izsekojams izsekojat izsekoji izsekojiet izsekojis izsekojot izsekoju izsekojusi izsekojuši izsekojām izsekos izsekosi izsekosim izsekota izsekotas izsekoti izsekots izsekotu izsekotā izsekošana izsekošanas izsekošanu izsekošanā izsekošu jāizseko neizseko neizsekoja neizsekojam neizsekojams neizsekojat neizsekoju neizsekosi neizsekot
-28	1928	iespaidīgs	iespaidīga iespaidīgais iespaidīgajai iespaidīgajam iespaidīgajiem iespaidīgajā iespaidīgajām iespaidīgam iespaidīgas iespaidīgi iespaidīgie iespaidīgiem iespaidīgo iespaidīgos iespaidīgu iespaidīgus iespaidīgā iespaidīgāk iespaidīgāka iespaidīgākais iespaidīgākajiem iespaidīgākajām iespaidīgākas iespaidīgāki iespaidīgākie iespaidīgāko iespaidīgāks iespaidīgāku iespaidīgākus iespaidīgākā iespaidīgākām iespaidīgākās iespaidīgām iespaidīgās visiespaidīgāk visiespaidīgākais visiespaidīgākajiem visiespaidīgākos visiespaidīgākā
-29	1929	ieva	ievai ievas ievi ievu ievā ievām ievās
-30	1930	turp	
-31	1931	izjūta	izjūtai izjūtas izjūtu izjūtā izjūtām izjūtās
-32	1932	velosipēds	velosipēda velosipēdam velosipēdi velosipēdiem velosipēdos velosipēdu velosipēdus velosipēdā
-33	1933	faktiski	
-34	1934	krūtis	krūtīm krūtīs krūšu
-35	1935	neatkarība	neatkarībai neatkarības neatkarību neatkarībā neatkarībām
-36	1936	izsacīt	izsacījuši izsacītas izsacīts izsacītā izsacīšana izsaka izsaki izsakiet izsakot izsakoša izsakošs izsaku izsakām izsakāma izsakāmas izsakāmi izsakāms izsakāmu izsakāmā izsakāt jāizsaka neizsaka neizsakiet neizsakot neizsakoša neizsakošas neizsakoši neizsakošos neizsakošu neizsakošus neizsakošās neizsaku neizsakāma neizsakāmas neizsakāmi neizsakāms neizsakāmu neizsakāmā neizsakāmās
-37	1937	pierast	jāpierod nepierada nepierasta nepierasti nepierasts nepierodi pierada pieradi pieradis pieradu pieradusi pieradušai pieradušas pieraduši pieradām pieradīs pieradīsi pieradīsim pieradīšu pierasta pierastais pierastajiem pierastajā pierastajām pierastas pierasti pierastie pierasto pierastos pierasts pierastu pierastā pierastās pierod pierodam pierodi pierodiet pierodot pierodu
-38	1938	kāpnes	kâpnes kāpnēm kāpnēs kāpņu
-39	1939	sapulce	sapulcei sapulces sapulci sapulcē sapulcēm sapulcēs sapulču
-40	1940	virsma	virsmai virsmam virsmas virsmu virsmā virsmām virsmās
-41	1941	gaišs	gaiša gaišai gaišais gaišajai gaišajam gaišajiem gaišajos gaišajā gaišajām gaišajās gaišam gaišas gaišie gaišiem gaišo gaišos gaišu gaišus gaišā gaišāk gaišāka gaišākai gaišākais gaišākajiem gaišākajām gaišākas gaišāki gaišākie gaišāko gaišākos gaišāks gaišāku gaišākus gaišākā gaišākām gaišākās gaišām gaišās visgaišākā
-42	1942	ierast	ieradis ieradu ieradušas ieraduši ieradušos ierasta ierastais ierastajai ierastajam ierastajiem ierastajos ierastajā ierastajām ierastajās ierastam ierastas ierasti ierastie ierastiem ierasto ierasts ierastu ierastus ierastā ierastām ierastās neierasta neierastais neierastajos neierastajā neierastas neierasti neierastiem neierasto neierasts neierastu neierastus neierastā neierastām neierastās
-43	1943	uzvesties	jāuzvedas neuzvedamies neuzvedas neuzvedaties neuzvedies neuzvedieties neuzvedos neuzvedoties neuzvedāmies neuzvedās neuzvedīsies neuzvesties neuzvestos uzvedamies uzvedas uzvedaties uzvedies uzvedieties uzvedos uzvedoties uzvedāmies uzvedās uzvedāties uzvedīsies uzvedīsieties uzvedīsimies uzvedīsities uzvedīšos uzvestos uzvešanās
-44	1944	ērts	visērtāk visērtākais visērtāko visērtākā ērta ērtai ērtais ērtajai ērtajos ērtajā ērtajām ērtam ērtas ērtie ērtiem ērto ērtos ērtu ērtus ērtā ērtāk ērtāka ērtākai ērtākais ērtākajiem ērtākajā ērtākajām ērtākas ērtāki ērtākiem ērtāko ērtākos ērtāks ērtāku ērtākus ērtākā ērtākās ērtām ērtās
-45	1945	lasītājs	lasītāj lasītāja lasītājam lasītāji lasītājiem lasītājos lasītāju lasītājus lasītājā
-46	1946	cukurs	cukur cukura cukuram cukuri cukuriem cukuros cukuru cukurus cukurā
-47	1947	velt	jāveļ vel vels velts veltu velšana velšu veļ veļam veļat veļot veļu vēla vēli vēlām
-48	1948	saturēt	jāsatur nesatur nesaturošam nesaturošas nesaturošie nesaturošs nesaturošu nesaturēja nesaturēs nesaturēsi nesaturētu nesaturēšana nesaturēšanas nesaturēšanu satur saturam saturot saturoša saturošai saturošajiem saturošam saturošas saturoši saturošie saturošiem saturošo saturošos saturošs saturošu saturošus saturošā saturošām saturošās saturēja saturējis saturējusi saturēs saturētu saturēšanu
-49	1949	komplekts	komplekta komplektam komplekti komplektiem komplektos komplektu komplektus komplektā
-50	1950	recepte	receptei receptes recepti receptē receptēm receptēs recepšu
-51	1951	pilots	pilot pilota pilotam pilote piloti pilotiem pilotu pilotus pilotā
-52	1952	izmest	izmests izmestu izmet izmeta izmetam izmetams izmetat izmeti izmetiet izmetis izmetot izmetu izmetām izmetāt izmetīs izmetīsi izmetīsiet izmetīsim izmetīšot izmetīšu izmešana jāizmet neizmest neizmestu neizmet neizmeta neizmetam neizmeti neizmetiet neizmetot neizmetu neizmetīs neizmetīsim neizmetīšu neizmešana
-53	1953	slava	slav slavai slavas slave slavi slavu slavā slavē slāvi slāvē
-54	1954	starpa	starpai starpas starpu starpā starpām starpās
-55	1955	pūķis	pūķa pūķi pūķiem pūķim pūķu pūķus pūķī
-56	1956	monēta	monētai monētas monētu monētā monētām monētās
-57	1957	traucējums	traucējuma traucējumam traucējumi traucējumiem traucējumos traucējumu traucējumus
-58	1958	ekrāns	ekrāna ekrānam ekrāni ekrāniem ekrānos ekrānu ekrānus ekrānā
-59	1959	labot	jālabo laboja labojam labojams labojat laboji labojiet labojis labojot laboju labojusi labojuši labojām labosi labosiet labosim labota labotas laboti labotie laboto labots labotu labošana labošanas labošanu labošanā labošu nelabo nelaboja nelabojam nelabojams nelabojat nelabojiet nelabojis nelaboju nelabos nelabošana nelabošu
-60	1960	aplis	apla apli aplim aplus aplī apļa apļi apļiem apļos apļu apļus
-61	1961	pārdomāt	jāpārdomā nepārdomā nepārdomāji nepārdomāju nepārdomās nepārdomāsi nepārdomāta nepārdomātas nepārdomāti nepārdomātiem nepārdomāts nepārdomātu pārdomāja pārdomājam pārdomājams pārdomājat pārdomāji pārdomājiet pārdomājis pārdomājot pārdomāju pārdomājusi pārdomājuši pārdomājām pārdomājāt pārdomāsi pārdomāsiet pārdomāsim pārdomāta pārdomātai pārdomātam pārdomātas pārdomāti pārdomātiem pārdomāts pārdomātu pārdomātus pārdomātā pārdomāšu
-62	1962	infrastruktūra	infrastruktūrai infrastruktūras infrastruktūru infrastruktūrā infrastruktūrām infrastruktūrās
-63	1963	atsaukties	atsaucamies atsaucas atsaucaties atsaucies atsaucieties atsaucos atsaucoties atsaucāmies atsaucās atsaucāties atsaukdamies atsauksies atsauksieties atsauksimies atsauktos atsaukšanās atsaukšos jāatsaucas neatsaucas neatsaucies neatsaucieties neatsaucos neatsaucoties neatsaucās neatsauksies neatsaukties neatsauktos
-64	1964	stūre	stūrei stūres stūri stūru stūrē stūrēm stūrēs
-65	1965	kauns	kaun kauna kaunam kauniem kaunos kaunu kaunā
-66	1966	iegāde	iegādei iegādes iegādi iegādē iegādēm iegāžu
-67	1967	rakt	jārok nerakt racis raka rakdams raki raks raksi raksiet raksim rakts raktu raku rakām rakāt rakšana rakšu roc rociet rok rokam rokams rokat rokot roku
-68	1968	laboratorija	laboratorijai laboratorijas laboratoriju laboratorijā laboratorijām laboratorijās
-69	1969	būvēt	būvē būvēja būvējam būvējams būvējat būvējiet būvējis būvējot būvēju būvējām būvējāt būvēs būvēsiet būvēsim būvēts būvētu būvēšana būvēšanai būvēšanas būvēšanu būvēšanā būvēšanās būvēšot būvēšu jābūvē nebūvēt
-70	1970	ierosināt	ierosina ierosini ierosiniet ierosinot ierosinu ierosināja ierosināji ierosinājis ierosināju ierosinājusi ierosinājušas ierosinājuši ierosinājām ierosinājāt ierosinām ierosinās ierosināsim ierosināta ierosinātais ierosinātas ierosināti ierosinātie ierosināto ierosināts ierosinātu ierosinātā ierosināšana ierosināšanas ierosināšanu ierosināšanā ierosināšu jāierosina neierosina neierosini neierosinot neierosinu neierosināja neierosināt neierosināšanu
-71	1971	nupat	
-72	1972	romāns	romān romāna romānam romāni romāniem romānos romānu romānus romānā
-73	1973	orķestris	orķestra orķestri orķestriem orķestrim orķestros orķestru orķestrus orķestrī
-74	1974	izmaksāt	izmaksāja izmaksājam izmaksājamo izmaksājams izmaksājamā izmaksājamās izmaksājat izmaksāji izmaksājis izmaksājot izmaksāju izmaksājusi izmaksājušas izmaksājuši izmaksājām izmaksājāt izmaksāsi izmaksāsim izmaksāta izmaksātais izmaksātajām izmaksātas izmaksāti izmaksāto izmaksāts izmaksātu izmaksātā izmaksātās izmaksāšanas izmaksāšanu izmaksāšot izmaksāšu jāizmaksā neizmaksā neizmaksās neizmaksāsim neizmaksāt neizmaksāto neizmaksātās
-75	1975	nolūks	nolūka nolūkam nolūki nolūkiem nolūkos nolūku nolūkus nolūkā
-76	1976	izdevīgs	izdevīga izdevīgai izdevīgais izdevīgajai izdevīgajam izdevīgajiem izdevīgajā izdevīgam izdevīgas izdevīgi izdevīgie izdevīgiem izdevīgo izdevīgos izdevīgu izdevīgus izdevīgā izdevīgāks izdevīgām izdevīgās visizdevīgākais
-77	1977	zīmols	zīmola zīmolam zīmoli zīmoliem zīmolos zīmolu zīmolus zīmolā
-78	1978	šūna	šūnai šūnas šūnu šūnā šūnām šūnās
-79	1979	pārliecība	pārliecībai pārliecības pārliecību pārliecībā pārliecībām pārliecībās
-80	1980	līst	jālien lien lienam lienat lieniet lienot lienu līda līdi līdis līdu līdām līdīs līdīsi līdīsim līdīšot līdīšu līstu līšana nelīst
-81	1981	novērst	novērstu
-82	1982	motors	motor motora motoram motori motoriem motoros motoru motorus motorā
-83	1983	vēders	vēder vēdera vēderam vēderi vēderiem vēderos vēderu vēderus vēderā
-84	1984	cikls	cikla ciklam cikli cikliem ciklos ciklu ciklus ciklā
-85	1985	atlaide	atlaidei atlaides atlaidi atlaidēm atlaidēs atlaižu
-86	1986	izaugt	izaudzis izaug izauga izaugam izaugat izaugi izaugot izaugs izaugsi izaugsiet izaugsim izaugtu izaugu izaugusi izaugusī izauguša izaugušais izaugušajiem izaugušajām izaugušas izauguši izaugušie izaugušiem izaugušo izaugušos izaugušu izaugušus izaugušās izaugām izaugāt izaugšu jāizaug neizaug neizauga neizaugam neizaugs neizaugsi neizaugušās neizaugšu
-87	1987	smiltis	smiltiis smiltīm smiltīs smilšu
-88	1988	kruķis	kruķa kruķi kruķiem kruķim kruķu kruķus kruķī
-89	1989	asaris	asara asarai asaram asaras asari asariem asarim asaros asars asaru asarus asarām asarās asarī asera aseris
-90	1990	spriedums	sprieduma spriedumam spriedumi spriedumiem spriedumos spriedumu spriedumus spriedumā
-91	1991	pase	pasa pasam pasei pases pasi pasiem pasu pasus pasā pasē pasēm pasēs pašu
-92	1992	unikāls	unikāla unikālai unikālais unikālajai unikālajam unikālajiem unikālajos unikālajā unikālajām unikālajās unikālam unikālas unikāli unikālie unikāliem unikālo unikālos unikālu unikālus unikālā unikālāka unikālākais unikālākajai unikālākajiem unikālākajām unikālākas unikālāki unikālākie unikālāko unikālākos unikālāku unikālākā unikālākās unikālām unikālās visunikālākajām visunikālāko visunikālākās
-93	1993	netālu	
-94	1994	nožēlot	jānožēlo nenožēlo nenožēloja nenožēlojam nenožēlojat nenožēlojot nenožēloju nenožēlojām nenožēlos nenožēlosi nenožēlosiet nenožēlosim nenožēlosit nenožēlot nenožēloti nenožēlotu nenožēlošu nožēlo nožēloja nožēlojam nožēlojams nožēlojat nožēloji nožēlojiet nožēlojis nožēlojot nožēloju nožēlojusi nožēlojuši nožēlojāt nožēlos nožēlosi nožēlosiet nožēlosim nožēloti nožēlotu nožēlošana nožēlošanu nožēlošu
-95	1995	glāze	glāzei glāzes glāzi glāzē glāzēm glāzēs glāžu
-96	1996	uzvilkt	jāuzvelk neuzvelk neuzvelkot neuzvilcis neuzvilks neuzvilksi neuzvilksiet neuzvilksim neuzvilkt neuzvilkts neuzvilktu neuzvilku uzvelc uzvelciet uzvelk uzvelkam uzvelkams uzvelkat uzvelkot uzvelku uzvilcis uzvilka uzvilki uzvilks uzvilksi uzvilksiet uzvilksim uzvilksit uzvilkts uzvilktu uzvilku uzvilkām uzvilkāt uzvilkšana uzvilkšot uzvilkšu
-97	1997	pants	pant panta pantam panti pantiem pantos pantu pantus pantā
-98	1998	šonakt	
-99	1999	garantēt	garantē garantēja garantējam garantējams garantējat garantējis garantējot garantēju garantējusi garantējušas garantējuši garantēs garantēsiet garantēsim garantēsit garantēta garantētais garantētas garantēti garantētie garantēto garantēts garantētu garantētā garantēšana garantēšanas garantēšanu garantēšanā garantēšu jāgarantē negarantē negarantēja negarantējam negarantējot negarantēju negarantēs negarantētu negarantētā
-100	2000	smarža	smaržai smaržas smaržu smaržā smaržām smaržās
+1	1901	ķīnietis	ķīniete ķīnietei ķīnietes ķīnieti ķīnietim ķīnietēm ķīnieša ķīnieši ķīniešiem ķīniešu ķīniešus
+2	1902	izvietot	izvieto izvietoja izvietojam izvietojams izvietojat izvietojiet izvietojis izvietojot izvietoju izvietojusi izvietojušas izvietojuši izvietojām izvietos izvietosiet izvietosim izvietota izvietotais izvietotas izvietoti izvietotie izvietoto izvietots izvietotu izvietotā izvietošana izvietošanas izvietošanu izvietošanā izvietošu jāizvieto neizvieto neizvietojam neizvietojams neizvietojot neizvietos neizvietosim neizvietošana neizvietošanu
+3	1903	šaubas	šaubu šaubām šaubās
+4	1904	augstums	augstuma augstumam augstumi augstumiem augstumos augstumu augstumus augstumā
+5	1905	siers	sier siera sieram sieri sieriem sieros sieru sierus sierā
+6	1906	milzis	mila milam mili milu milza milze milzi milzim milzu milzī milža milži milžiem milžu milžus
+7	1907	sanāksme	sanāksmei sanāksmes sanāksmi sanāksmju sanāksmē sanāksmēm sanāksmēs
+8	1908	uzņēmējdarbība	uzņēmējdarbībai uzņēmējdarbības uzņēmējdarbību uzņēmējdarbībā uzņēmējdarbībām uzņēmējdarbībās
+9	1909	spiediens	spiedien spiediena spiedienam spiedieni spiedieniem spiedienu spiedienus spiedienā
+10	1910	garša	garšai garšas garšu garšā garšām garšās
+11	1911	seriāls	seriāla seriālam seriāli seriāliem seriālos seriālu seriālus seriālā
+12	1912	iemācīt	iemāca iemāci iemāciet iemācot iemācu iemācām iemācāms iemācāt iemācīja iemācīji iemācījis iemācīju iemācījām iemācījāt iemācīs iemācīsi iemācīsiet iemācīsim iemācīsit iemācīts iemācītu iemācīšana iemācīšot iemācīšu jāiemāca neiemāca neiemācot neiemācām neiemācīja neiemācīju neiemācījām neiemācīs neiemācīsi neiemācīsit neiemācīt neiemācītu neiemācīšu
+13	1913	būve	būvei būves būvi būvju būvē būvēm būvēs
+14	1914	pieteikt	jāpiesaka nepiesaka nepieteikt nepieteikts piesaka piesaki piesakiet piesakot piesaku pieteic pieteica pieteici pieteicis pieteicu pieteicām pieteiks pieteiksim pieteikta pieteiktais pieteiktajam pieteiktajiem pieteiktajā pieteiktajām pieteiktas pieteikti pieteiktie pieteiktiem pieteikto pieteikts pieteiktu pieteiktā pieteiktās pieteikusi pieteikušas pieteikuši pieteikušo pieteikušos pieteikšana pieteikšu
+15	1915	divreiz	
+16	1916	klātbūtne	klātbūtnei klātbūtnes klātbūtni klātbūtnē
+17	1917	miegs	mieg miega miegam miegi miegu miegā
+18	1918	peldēt	jāpeld nepeld nepeldi nepeldiet nepeldēs nepeldēšu peld peldam peldi peldiet peldot peldoša peldošais peldošajā peldošas peldošie peldošiem peldošo peldošs peldošu peldošā peldošās peldu peldēja peldējis peldēju peldējām peldēs peldēsi peldētos peldētu peldēšana peldēšanai peldēšanas peldēšanos peldēšanu peldēšanā peldēšanās peldēšu
+19	1919	izvirzīt	izvirza izvirzi izvirziet izvirzot izvirzu izvirzām izvirzāms izvirzāt izvirzīja izvirzījis izvirzīju izvirzījusi izvirzījušas izvirzījuši izvirzījām izvirzīs izvirzīsim izvirzīta izvirzītais izvirzītas izvirzīti izvirzītie izvirzīto izvirzīts izvirzītu izvirzītā izvirzīšana izvirzīšanas izvirzīšanu izvirzīšanā jāizvirza neizvirza neizvirzot neizvirzu neizvirzām neizvirzīja neizvirzīs neizvirzītu neizvirzīšu
+20	1920	dažkārt	
+21	1921	laikmets	laikmeta laikmetam laikmeti laikmetiem laikmetos laikmetu laikmetus laikmetā
+22	1922	koncentrēties	jākoncentrējas koncentrēdamies koncentrējamies koncentrējas koncentrējaties koncentrējies koncentrējieties koncentrējos koncentrējoties koncentrējusies koncentrējušies koncentrējušās koncentrējāmies koncentrējās koncentrēsies koncentrēsieties koncentrēsimies koncentrēsities koncentrētos koncentrēšanās koncentrēšos nekoncentrējamies nekoncentrējas nekoncentrējies nekoncentrējieties nekoncentrējos nekoncentrējoties nekoncentrējāmies nekoncentrējās nekoncentrēsies nekoncentrēsieties nekoncentrēsimies nekoncentrēties
+23	1923	īstenībā	
+24	1924	okeāns	okeān okeāna okeānam okeāni okeāniem okeānos okeānu okeānus okeānā
+25	1925	vanna	vannai vannas vannu vannā vannām vannās
+26	1926	straujš	strauja straujai straujais straujajai straujajam straujajā straujajām straujam straujas straujie straujiem straujo straujos strauju straujus straujā straujāk straujāka straujākai straujākais straujākajiem straujākajā straujākam straujākas straujāki straujākiem straujāko straujākos straujāks straujāku straujākā straujākām straujākās straujām straujās visstraujāk visstraujākais visstraujāko visstraujākā
+27	1927	sauss	sausa sausai sausais sausajai sausajam sausajiem sausajos sausajā sausajām sausajās sausam sausas sausi sausie sausiem sauso sausos sausu sausus sausā sausāk sausāka sausākai sausākais sausākajām sausākajās sausākam sausākas sausāki sausākos sausāks sausāku sausākus sausākā sausākām sausām sausās vissausāko vissausākā
+28	1928	uzvārds	uzvārda uzvārdam uzvārdi uzvārdiem uzvārdos uzvārdu uzvārdus uzvārdā
+29	1929	kolekcija	kolekcijai kolekcijas kolekciju kolekcijā kolekcijām kolekcijās
+30	1930	grasīties	grasies grasos grasoties grasāmies grasās grasāties grasījies grasījos grasījusies grasījušies grasījušās grasījāmies grasījās grasījāties grasīsies grasīsieties grasītos negrasies negrasieties negrasos negrasoties negrasāmies negrasās negrasāties negrasījies negrasījos negrasījāmies negrasījās negrasīsies negrasītos
+31	1931	salauzt	jāsalauž nesalauza nesalauzi nesalauzt nesalauzts nesalauztu nesalauzīs nesalauž nesalaužama nesalaužams nesalaužamu salauz salauza salauzi salauziet salauzis salauzta salauztai salauztam salauztas salauzti salauztiem salauzts salauztu salauztā salauztām salauztās salauzu salauzām salauzāt salauzīs salauzīsi salauzīsiet salauzīšu salauž salaužam salaužams salaužot salaužu
+32	1932	izsekot	izseko izsekoja izsekojam izsekojams izsekojat izsekoji izsekojiet izsekojis izsekojot izsekoju izsekojusi izsekojuši izsekojām izsekos izsekosi izsekosim izsekota izsekotas izsekoti izsekots izsekotu izsekotā izsekošana izsekošanas izsekošanu izsekošanā izsekošu jāizseko neizseko neizsekoja neizsekojam neizsekojams neizsekojat neizsekoju neizsekosi neizsekot
+33	1933	iespaidīgs	iespaidīga iespaidīgais iespaidīgajai iespaidīgajam iespaidīgajiem iespaidīgajā iespaidīgajām iespaidīgam iespaidīgas iespaidīgi iespaidīgie iespaidīgiem iespaidīgo iespaidīgos iespaidīgu iespaidīgus iespaidīgā iespaidīgāk iespaidīgāka iespaidīgākais iespaidīgākajiem iespaidīgākajām iespaidīgākas iespaidīgāki iespaidīgākie iespaidīgāko iespaidīgāks iespaidīgāku iespaidīgākus iespaidīgākā iespaidīgākām iespaidīgākās iespaidīgām iespaidīgās visiespaidīgāk visiespaidīgākais visiespaidīgākajiem visiespaidīgākos visiespaidīgākā
+34	1934	ieva	ievai ievas ievi ievu ievā ievām ievās
+35	1935	turp	
+36	1936	izjūta	izjūtai izjūtas izjūtu izjūtā izjūtām izjūtās
+37	1937	velosipēds	velosipēda velosipēdam velosipēdi velosipēdiem velosipēdos velosipēdu velosipēdus velosipēdā
+38	1938	faktiski	
+39	1939	krūtis	krūtīm krūtīs krūšu
+40	1940	neatkarība	neatkarībai neatkarības neatkarību neatkarībā neatkarībām
+41	1941	pierast	jāpierod nepierada nepierasta nepierasti nepierasts nepierodi pierada pieradi pieradis pieradu pieradusi pieradušai pieradušas pieraduši pieradām pieradīs pieradīsi pieradīsim pieradīšu pierasta pierastais pierastajiem pierastajā pierastajām pierastas pierasti pierastie pierasto pierastos pierasts pierastu pierastā pierastās pierod pierodam pierodi pierodiet pierodot pierodu
+42	1942	kāpnes	kâpnes kāpnēm kāpnēs kāpņu
+43	1943	sapulce	sapulcei sapulces sapulci sapulcē sapulcēm sapulcēs sapulču
+44	1944	virsma	virsmai virsmam virsmas virsmu virsmā virsmām virsmās
+45	1945	ierast	ieradis ieradu ieradušas ieraduši ieradušos ierasta ierastais ierastajai ierastajam ierastajiem ierastajos ierastajā ierastajām ierastajās ierastam ierastas ierasti ierastie ierastiem ierasto ierasts ierastu ierastus ierastā ierastām ierastās neierasta neierastais neierastajos neierastajā neierastas neierasti neierastiem neierasto neierasts neierastu neierastus neierastā neierastām neierastās
+46	1946	gaišs	gaiša gaišai gaišais gaišajai gaišajam gaišajiem gaišajos gaišajā gaišajām gaišajās gaišam gaišas gaišie gaišiem gaišo gaišos gaišu gaišus gaišā gaišāk gaišāka gaišākai gaišākais gaišākajiem gaišākajām gaišākas gaišāki gaišākie gaišāko gaišākos gaišāks gaišāku gaišākus gaišākā gaišākām gaišākās gaišām gaišās visgaišākā
+47	1947	uzvesties	jāuzvedas neuzvedamies neuzvedas neuzvedaties neuzvedies neuzvedieties neuzvedos neuzvedoties neuzvedāmies neuzvedās neuzvedīsies neuzvesties neuzvestos uzvedamies uzvedas uzvedaties uzvedies uzvedieties uzvedos uzvedoties uzvedāmies uzvedās uzvedāties uzvedīsies uzvedīsieties uzvedīsimies uzvedīsities uzvedīšos uzvestos uzvešanās
+48	1948	ērts	visērtāk visērtākais visērtāko visērtākā ērta ērtai ērtais ērtajai ērtajos ērtajā ērtajām ērtam ērtas ērtie ērtiem ērto ērtos ērtu ērtus ērtā ērtāk ērtāka ērtākai ērtākais ērtākajiem ērtākajā ērtākajām ērtākas ērtāki ērtākiem ērtāko ērtākos ērtāks ērtāku ērtākus ērtākā ērtākās ērtām ērtās
+49	1949	lasītājs	lasītāj lasītāja lasītājam lasītāji lasītājiem lasītājos lasītāju lasītājus lasītājā
+50	1950	cukurs	cukur cukura cukuram cukuri cukuriem cukuros cukuru cukurus cukurā
+51	1951	velt	jāveļ vel vels velts veltu velšana velšu veļ veļam veļat veļot veļu vēla vēli vēlām
+52	1952	saturēt	jāsatur nesatur nesaturošam nesaturošas nesaturošie nesaturošs nesaturošu nesaturēja nesaturēs nesaturēsi nesaturētu nesaturēšana nesaturēšanas nesaturēšanu satur saturam saturot saturoša saturošai saturošajiem saturošam saturošas saturoši saturošie saturošiem saturošo saturošos saturošs saturošu saturošus saturošā saturošām saturošās saturēja saturējis saturējusi saturēs saturētu saturēšanu
+53	1953	komplekts	komplekta komplektam komplekti komplektiem komplektos komplektu komplektus komplektā
+54	1954	izpēte	izpētei izpētes izpēti izpētē izpētēm
+55	1955	recepte	receptei receptes recepti receptē receptēm receptēs recepšu
+56	1956	pilots	pilot pilota pilotam pilote piloti pilotiem pilotu pilotus pilotā
+57	1957	izmest	izmests izmestu izmet izmeta izmetam izmetams izmetat izmeti izmetiet izmetis izmetot izmetu izmetām izmetāt izmetīs izmetīsi izmetīsiet izmetīsim izmetīšot izmetīšu izmešana jāizmet neizmest neizmestu neizmet neizmeta neizmetam neizmeti neizmetiet neizmetot neizmetu neizmetīs neizmetīsim neizmetīšu neizmešana
+58	1958	slava	slav slavai slavas slave slavi slavu slavā slavē slāvi slāvē
+59	1959	starpa	starpai starpas starpu starpā starpām starpās
+60	1960	pūķis	pūķa pūķi pūķiem pūķim pūķu pūķus pūķī
+61	1961	monēta	monētai monētas monētu monētā monētām monētās
+62	1962	traucējums	traucējuma traucējumam traucējumi traucējumiem traucējumos traucējumu traucējumus
+63	1963	ekrāns	ekrāna ekrānam ekrāni ekrāniem ekrānos ekrānu ekrānus ekrānā
+64	1964	labot	jālabo laboja labojam labojams labojat laboji labojiet labojis labojot laboju labojusi labojuši labojām labosi labosiet labosim labota labotas laboti labotie laboto labots labotu labošana labošanas labošanu labošanā labošu nelabo nelaboja nelabojam nelabojams nelabojat nelabojiet nelabojis nelaboju nelabos nelabošana nelabošu
+65	1965	aplis	apla apli aplim aplus aplī apļa apļi apļiem apļos apļu apļus
+66	1966	pārdomāt	jāpārdomā nepārdomā nepārdomāji nepārdomāju nepārdomās nepārdomāsi nepārdomāta nepārdomātas nepārdomāti nepārdomātiem nepārdomāts nepārdomātu pārdomāja pārdomājam pārdomājams pārdomājat pārdomāji pārdomājiet pārdomājis pārdomājot pārdomāju pārdomājusi pārdomājuši pārdomājām pārdomājāt pārdomāsi pārdomāsiet pārdomāsim pārdomāta pārdomātai pārdomātam pārdomātas pārdomāti pārdomātiem pārdomāts pārdomātu pārdomātus pārdomātā pārdomāšu
+67	1967	infrastruktūra	infrastruktūrai infrastruktūras infrastruktūru infrastruktūrā infrastruktūrām infrastruktūrās
+68	1968	atsaukties	atsaucamies atsaucas atsaucaties atsaucies atsaucieties atsaucos atsaucoties atsaucāmies atsaucās atsaucāties atsaukdamies atsauksies atsauksieties atsauksimies atsauktos atsaukšanās atsaukšos jāatsaucas neatsaucas neatsaucies neatsaucieties neatsaucos neatsaucoties neatsaucās neatsauksies neatsaukties neatsauktos
+69	1969	stūre	stūrei stūres stūri stūru stūrē stūrēm stūrēs
+70	1970	kauns	kaun kauna kaunam kauniem kaunos kaunu kaunā
+71	1971	iegāde	iegādei iegādes iegādi iegādē iegādēm iegāžu
+72	1972	rakt	jārok nerakt racis raka rakdams raki raks raksi raksiet raksim rakts raktu raku rakām rakāt rakšana rakšu roc rociet rok rokam rokams rokat rokot roku
+73	1973	laboratorija	laboratorijai laboratorijas laboratoriju laboratorijā laboratorijām laboratorijās
+74	1974	būvēt	būvē būvēja būvējam būvējams būvējat būvējiet būvējis būvējot būvēju būvējām būvējāt būvēs būvēsiet būvēsim būvēts būvētu būvēšana būvēšanai būvēšanas būvēšanu būvēšanā būvēšanās būvēšot būvēšu jābūvē nebūvēt
+75	1975	ierosināt	ierosina ierosini ierosiniet ierosinot ierosinu ierosināja ierosināji ierosinājis ierosināju ierosinājusi ierosinājušas ierosinājuši ierosinājām ierosinājāt ierosinām ierosinās ierosināsim ierosināta ierosinātais ierosinātas ierosināti ierosinātie ierosināto ierosināts ierosinātu ierosinātā ierosināšana ierosināšanas ierosināšanu ierosināšanā ierosināšu jāierosina neierosina neierosini neierosinot neierosinu neierosināja neierosināt neierosināšanu
+76	1976	nupat	
+77	1977	romāns	romān romāna romānam romāni romāniem romānos romānu romānus romānā
+78	1978	orķestris	orķestra orķestri orķestriem orķestrim orķestros orķestru orķestrus orķestrī
+79	1979	izmaksāt	izmaksāja izmaksājam izmaksājamo izmaksājams izmaksājamā izmaksājamās izmaksājat izmaksāji izmaksājis izmaksājot izmaksāju izmaksājusi izmaksājušas izmaksājuši izmaksājām izmaksājāt izmaksāsi izmaksāsim izmaksāta izmaksātais izmaksātajām izmaksātas izmaksāti izmaksāto izmaksāts izmaksātu izmaksātā izmaksātās izmaksāšanas izmaksāšanu izmaksāšot izmaksāšu jāizmaksā neizmaksā neizmaksās neizmaksāsim neizmaksāt neizmaksāto neizmaksātās
+80	1980	nolūks	nolūka nolūkam nolūki nolūkiem nolūkos nolūku nolūkus nolūkā
+81	1981	izdevīgs	izdevīga izdevīgai izdevīgais izdevīgajai izdevīgajam izdevīgajiem izdevīgajā izdevīgam izdevīgas izdevīgi izdevīgie izdevīgiem izdevīgo izdevīgos izdevīgu izdevīgus izdevīgā izdevīgāks izdevīgām izdevīgās visizdevīgākais
+82	1982	zīmols	zīmola zīmolam zīmoli zīmoliem zīmolos zīmolu zīmolus zīmolā
+83	1983	šūna	šūnai šūnas šūnu šūnā šūnām šūnās
+84	1984	pārliecība	pārliecībai pārliecības pārliecību pārliecībā pārliecībām pārliecībās
+85	1985	līst	jālien lien lienam lienat lieniet lienot lienu līda līdi līdis līdu līdām līdīs līdīsi līdīsim līdīšot līdīšu līstu līšana nelīst
+86	1986	motors	motor motora motoram motori motoriem motoros motoru motorus motorā
+87	1987	vēders	vēder vēdera vēderam vēderi vēderiem vēderos vēderu vēderus vēderā
+88	1988	cikls	cikla ciklam cikli cikliem ciklos ciklu ciklus ciklā
+89	1989	atlaide	atlaidei atlaides atlaidi atlaidēm atlaidēs atlaižu
+90	1990	izaugt	izaudzis izaug izauga izaugam izaugat izaugi izaugot izaugs izaugsi izaugsiet izaugsim izaugtu izaugu izaugusi izaugusī izauguša izaugušais izaugušajiem izaugušajām izaugušas izauguši izaugušie izaugušiem izaugušo izaugušos izaugušu izaugušus izaugušās izaugām izaugāt izaugšu jāizaug neizaug neizauga neizaugam neizaugs neizaugsi neizaugušās neizaugšu
+91	1991	smiltis	smiltiis smiltīm smiltīs smilšu
+92	1992	kruķis	kruķa kruķi kruķiem kruķim kruķu kruķus kruķī
+93	1993	asaris	asara asarai asaram asaras asari asariem asarim asaros asars asaru asarus asarām asarās asarī asera aseris
+94	1994	spriedums	sprieduma spriedumam spriedumi spriedumiem spriedumos spriedumu spriedumus spriedumā
+95	1995	pase	pasa pasam pasei pases pasi pasiem pasu pasus pasā pasē pasēm pasēs pašu
+96	1996	unikāls	unikāla unikālai unikālais unikālajai unikālajam unikālajiem unikālajos unikālajā unikālajām unikālajās unikālam unikālas unikāli unikālie unikāliem unikālo unikālos unikālu unikālus unikālā unikālāka unikālākais unikālākajai unikālākajiem unikālākajām unikālākas unikālāki unikālākie unikālāko unikālākos unikālāku unikālākā unikālākās unikālām unikālās visunikālākajām visunikālāko visunikālākās
+97	1997	netālu	
+98	1998	nožēlot	jānožēlo nenožēlo nenožēloja nenožēlojam nenožēlojat nenožēlojot nenožēloju nenožēlojām nenožēlos nenožēlosi nenožēlosiet nenožēlosim nenožēlosit nenožēlot nenožēloti nenožēlotu nenožēlošu nožēlo nožēloja nožēlojam nožēlojams nožēlojat nožēloji nožēlojiet nožēlojis nožēlojot nožēloju nožēlojusi nožēlojuši nožēlojāt nožēlos nožēlosi nožēlosiet nožēlosim nožēloti nožēlotu nožēlošana nožēlošanu nožēlošu
+99	1999	glāze	glāzei glāzes glāzi glāzē glāzēm glāzēs glāžu
+100	2000	uzvilkt	jāuzvelk neuzvelk neuzvelkot neuzvilcis neuzvilks neuzvilksi neuzvilksiet neuzvilksim neuzvilkt neuzvilkts neuzvilktu neuzvilku uzvelc uzvelciet uzvelk uzvelkam uzvelkams uzvelkat uzvelkot uzvelku uzvilcis uzvilka uzvilki uzvilks uzvilksi uzvilksiet uzvilksim uzvilksit uzvilkts uzvilktu uzvilku uzvilkām uzvilkāt uzvilkšana uzvilkšot uzvilkšu

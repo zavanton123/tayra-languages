@@ -1,100 +1,100 @@
-1	4501	sērs	sēr sēra sēram sēri sēru sērā
-2	4502	etnisks	etniska etniskai etniskais etniskajai etniskajam etniskajiem etniskajos etniskajā etniskajām etniskajās etniskam etniskas etniskie etniskiem etnisko etniskos etnisku etniskā etniskām etniskās
-3	4503	risināties	nerisinoties nerisinājās nerisinās nerisināsies risinoties risinājies risinājusies risinājušies risinājušās risinājās risinās risināsies risinātos
-4	4504	sirms	sirma sirmai sirmais sirmajai sirmajam sirmajiem sirmajos sirmajā sirmajām sirmam sirmas sirmie sirmiem sirmo sirmos sirmu sirmus sirmā sirmāka sirmākas sirmāki sirmākie sirmāks sirmām sirmās
-5	4505	godīgums	godīguma godīgumam godīgumi godīgumiem godīgumu godīgumā
-6	4506	postīt	jāposta neposta neposti nepostot nepostīs nepostītu nepostītā nepostīšu posta posti postot postām postāt postīja postījis postījusi postījušas postījuši postījām postīs postīta postītas postīti postīto postīts postītu postītā postīšana postīšanas postīšanu postīšanā
-7	4507	mape	maiem mapei mapes mapi mapju mapē mapēm mapēs
-8	4508	izteiciens	izteiciena izteicienam izteicieni izteicieniem izteicienos izteicienu izteicienus izteicienā
-9	4509	mehāniķis	mehāniķa mehāniķe mehāniķi mehāniķiem mehāniķim mehāniķu mehāniķus
-10	4510	retums	retum retuma retumam retumi retumiem retumu retumus
-11	4511	bruņurupucis	bruņurupuci bruņurupucim bruņurupuča bruņurupuči bruņurupučiem bruņurupuču bruņurupučus
-12	4512	vairoties	nevairojas nevairosies nevairoties nevairotos vairojas vairojaties vairojies vairojieties vairojoties vairojusies vairojušās vairojās vairosies vairosimies vairotos vairošanās
-13	4513	galvojums	galvojuma galvojumam galvojumi galvojumiem galvojumu galvojumus
-14	4514	spainis	spaini spainim spainī spaiņa spaiņi spaiņiem spaiņos spaiņu spaiņus spani spanni
-15	4515	zīds	zīda zīdam zīdi zīdu zīdā
-16	4516	mātīte	mātītei mātītes mātīti mātītēm mātīšu
-17	4517	parlamentārs	parlamentāra parlamentārai parlamentārais parlamentārajai parlamentārajam parlamentārajiem parlamentārajos parlamentārajā parlamentārajām parlamentārajās parlamentāras parlamentārie parlamentāro parlamentāros parlamentāru parlamentārā parlamentārām parlamentārās
-18	4518	kociņš	kociņa kociņam kociņi kociņiem kociņu kociņus
-19	4519	kontrabanda	kontrabandai kontrabandas kontrabandu kontrabandā
-20	4520	optisks	optiska optiskais optiskajam optiskajiem optiskajā optiskajām optiskas optiski optiskie optiskiem optisko optiskos optisku optiskā optiskām optiskās
-21	4521	evaņģēlijs	evaņģēlija evaņģēlijam evaņģēliji evaņģēlijiem evaņģēlijos evaņģēliju evaņģēlijus evaņģēlijā
-22	4522	koncentrēt	jākoncentrē koncentrē koncentrēja koncentrējam koncentrējams koncentrējat koncentrējiet koncentrējis koncentrējot koncentrēju koncentrējusi koncentrējuši koncentrēs koncentrēsim koncentrēta koncentrētai koncentrētais koncentrētam koncentrētas koncentrēti koncentrētie koncentrētiem koncentrēto koncentrētos koncentrēts koncentrētu koncentrētus koncentrētā koncentrētāk koncentrētāki koncentrētāks koncentrētāku koncentrētākā koncentrētām koncentrētās koncentrēšana koncentrēšanas koncentrēšanu nekoncentrē
-23	4523	antena	antenai antenas antenu antenā antenām antenās
-24	4524	nospļauties	nospļaujamies nospļaujas nospļaujies nospļaujoties nospļausies nospļautos nospļaušanās nospļāvas nospļāvies nospļāvos nospļāvās
-25	4525	sperma	spermai spermas spermu spermā
-26	4526	izdzīt	izdzen izdzenam izdzenams izdzenamā izdzenat izdzeniet izdzenot izdzenoša izdzenošais izdzenu izdzina izdzinis izdzinu izdzinusi izdzinuši izdzinām izdzīdams izdzīs izdzīsi izdzīsiet izdzīsim izdzīta izdzītai izdzītais izdzītas izdzīti izdzītie izdzīto izdzīts izdzītu izdzītā izdzītās izdzīšana izdzīšu jāizdzen neizdzen neizdzenat neizdzinām neizdzīs
-27	4527	modernizācija	modernizācijai modernizācijas modernizāciju modernizācijā modernizācijās
-28	4528	bučot	bučo bučodami bučoja bučoji bučojiet bučojis bučojot bučoju bučojušas bučojuši bučos bučosi bučotos bučošana bučošanai bučošanos bučošanu bučošanās bučošu jābučo nebučoja nebučos
-29	4529	pavērot	jāpavēro pavēro pavēroja pavērojam pavērojat pavērojiet pavērojis pavērojot pavēroju pavērojusi pavērojuši pavērojām pavēros pavērosiet pavērosim pavērosit pavērotu pavērošot pavērošu
-30	4530	riteņbraukšana	riteņbraukšanai riteņbraukšanas riteņbraukšanu riteņbraukšanā
-31	4531	maizīte	maizītei maizītes maizīti maizītē maizītēm maizītēs maizīšu
-32	4532	žests	žesta žestam žesti žestiem žestos žestu žestus žestā
-33	4533	glābiņš	glābiņa glābiņam glābiņiem glābiņu glābiņā
-34	4534	eseja	esejai esejas eseju esejā esejām esejās
-35	4535	nozust	jānozūd nenozuda nenozustu nenozūd nenozūdi nozuda nozudi nozudis nozudu nozudām nozudīs nozudīsi nozudīsiet nozudīsim nozudīšu nozustu nozušana nozūd nozūdam nozūdi nozūdot nozūdu
-36	4536	sadraudzība	sadraudzībai sadraudzības sadraudzību sadraudzībā
-37	4537	sagadīties	nesagadās sagadoties sagadās sagadījies sagadījos sagadījusies sagadījušies sagadījās sagadīsies sagadīšanās
-38	4538	nogāze	nogāzei nogāzes nogāzi nogāzē nogāzēm nogāzēs nogāžu
-39	4539	slepenība	slepenībai slepenības slepenību slepenībā
-40	4540	atlikties	atlicies atliecas atliecies atliekas atliksies atliktos atlikās atlikšos neatliecieties
-41	4541	pietuvoties	jāpietuvojas nepietuvojas nepietuvojās nepietuvoties pietuvojamies pietuvojas pietuvojies pietuvojieties pietuvojos pietuvojoties pietuvojusies pietuvojušies pietuvojušās pietuvojāmies pietuvojās pietuvosies pietuvosieties pietuvosimies pietuvosities pietuvotos pietuvošanās
-42	4542	solidaritāte	solidaritātei solidaritātes solidaritāti solidaritātē solidaritātēs
-43	4543	tīt	jātin tii tin tina tinam tinams tinat tini tiniem tiniet tinis tinos tinot tinu tinām tiā tiņa tiņiem tiņu tīs tīts tītu tīšana tīšu
-44	4544	mīļums	mīļum mīļuma mīļumam mīļumi mīļumu mīļumā
-45	4545	feja	fejai fejas feju fejā fejām fejās
-46	4546	sasveicināties	jāsasveicinās nesasveicinies nesasveicinās nesasveicināsies sasveicinies sasveicinieties sasveicinos sasveicinoties sasveicinājies sasveicinājos sasveicinājāmies sasveicinājās sasveicinājāties sasveicināmies sasveicinās sasveicināsies sasveicināsimies sasveicinātos sasveicināšanās sasveicināšos
-47	4547	neprātīgs	neprātīga neprātīgais neprātīgajam neprātīgajiem neprātīgajā neprātīgajām neprātīgam neprātīgas neprātīgie neprātīgiem neprātīgo neprātīgos neprātīgu neprātīgus neprātīgā neprātīgāk neprātīgākais neprātīgākas neprātīgākiem neprātīgāku neprātīgākās neprātīgām neprātīgās visneprātīgākais visneprātīgākā visneprātīgākās
-48	4548	nedrošs	nedroša nedrošai nedrošajai nedrošajam nedrošajiem nedrošajos nedrošajā nedrošajām nedrošajās nedrošam nedrošas nedroši nedrošie nedrošiem nedrošo nedrošos nedrošu nedrošus nedrošā nedrošāk nedrošāka nedrošākajiem nedrošākajos nedrošākas nedrošāki nedrošākiem nedrošāko nedrošāks nedrošāku nedrošākā nedrošākām nedrošām nedrošās visnedrošāk visnedrošākajiem visnedrošākie visnedrošākā visnedrošākās
-49	4549	arhibīskaps	arhibīskap arhibīskapa arhibīskapam arhibīskapi arhibīskapu
-50	4550	panna	pannai pannam pannas pannu pannā pannām pannās
-51	4551	terase	terasei terases terasi terasē terasēm terasēs terašu
-52	4552	bēbis	bēbi bēbim bēbja bēbji bēbjiem bēbju bēbjus
-53	4553	atmaksāties	atmaksājas atmaksājies atmaksājoties atmaksājusies atmaksājušies atmaksājušās atmaksājās atmaksāsies atmaksātos atmaksāšanās atmaksāšoties jāatmaksājas neatmaksājas neatmaksājoties neatmaksājās neatmaksāsies neatmaksāties neatmaksātos
-54	4554	diskriminācija	diskriminācijai diskriminācijas diskrimināciju diskriminācijā diskriminācijām
-55	4555	funkcionēt	funkcionē funkcionēja funkcionējam funkcionējat funkcionējis funkcionējot funkcionējošs funkcionēju funkcionējusi funkcionējušas funkcionējuši funkcionēs funkcionēsi funkcionētu funkcionēšana funkcionēšanai funkcionēšanas funkcionēšanu funkcionēšanā jāfunkcionē nefunkcionē nefunkcionēja nefunkcionējot nefunkcionēju nefunkcionēs nefunkcionēšanu
-56	4556	pārprast	jāpārprot nepārprast nepārprasta nepārprastu nepārpratu nepārpratīsim nepārprot nepārprotat nepārproti nepārprotiet pārprasta pārprastais pārprastam pārprastas pārprasti pārprastie pārprasto pārprasts pārprastu pārprastā pārprastām pārprastās pārprata pārprati pārpratis pārpratu pārpratusi pārpratuši pārpratāt pārpratīs pārprašana pārprot pārprotam pārprotams pārprotat pārproti pārprotot pārprotu
-57	4557	patriotisms	patriotism patriotisma patriotismam patriotismu patriotismā
-58	4558	vērotājs	vērotāj vērotāja vērotājam vērotāji vērotājiem vērotājos vērotāju vērotājus
-59	4559	sadzīt	jāsadzen jāsadzīst nesadzen nesadzenat nesadzija nesadzijis nesadzijušu nesadzina nesadzīs nesadzīst nesadzīstošas sadzen sadzeniet sadzenot sadzija sadzijis sadzijusi sadzijušas sadzijuši sadzijušie sadzijušu sadzina sadzinis sadzinu sadzinusi sadzinuši sadzinām sadzīs sadzīsi sadzīsim sadzīst sadzītas sadzīti sadzītie sadzīts sadzītu sadzītus sadzītā sadzīšana
-60	4560	sīvs	sīva sīvai sīvais sīvajai sīvajam sīvajā sīvajās sīvam sīvas sīvi sīvie sīviem sīvo sīvu sīvus sīvā sīvāk sīvāka sīvākais sīvākajam sīvākajiem sīvākajā sīvākajām sīvākie sīvāko sīvākos sīvāks sīvāku sīvākā sīvākās sīvām sīvās vissīvākā vissīvākās
-61	4561	protestēt	jāprotestē neprotestē neprotestēja neprotestēji neprotestējot neprotestēju neprotestējuši neprotestējāt neprotestēs neprotestētu neprotestēšu protestē protestēja protestējam protestējat protestēji protestējis protestējot protestējošs protestēju protestējusi protestējušas protestējuši protestējām protestēs protestēsim protestēts protestētu protestēšana protestēšanas protestēšanu protestēšu
-62	4562	bārmenis	bārmeni bārmenim bārmeņa bārmeņi bārmeņiem bārmeņu bārmeņus
-63	4563	iestādīt	iestāda iestādiet iestādot iestādu iestādām iestādāms iestādīja iestādījis iestādīju iestādījusi iestādījuši iestādījām iestādīs iestādīsi iestādīsiet iestādīsim iestādīta iestādītais iestādītajiem iestādītajā iestādītas iestādīti iestādītie iestādītiem iestādīto iestādītos iestādīts iestādītu iestādītus iestādītā iestādītām iestādītās iestādīšana iestādīšot iestādīšu jāiestāda neiestādīsi neiestādīti neiestādīto
-64	4564	atvilktne	atvilktnei atvilktnes atvilktni atvilktnē atvilktnēm atvilktnēs atvilktņu
-65	4565	slidens	slida slidai slidas slidena slidenai slidenais slidenajam slidenajiem slidenajos slidenajā slidenajām slidenajās slidenam slidenas slideni slidenie slideniem slideno slidenos slidenu slidenus slidenā slidenāka slidenākais slidenākam slidenāki slidenāko slidenākos slidenāks slidenākā slidenām slidenās slido slidos slidu slidām slidās
-66	4566	apvainojums	apvainojuma apvainojumi apvainojumiem apvainojumos apvainojumu apvainojumus
-67	4567	iekaisums	iekaisuma iekaisumam iekaisumi iekaisumiem iekaisumu iekaisumus iekaisumā
-68	4568	nofilmēt	jānofilmē nenofilmēja nenofilmētu nofilmē nofilmēja nofilmējam nofilmēji nofilmējiet nofilmējis nofilmēju nofilmējusi nofilmējuši nofilmējām nofilmēs nofilmēsim nofilmēta nofilmētais nofilmētas nofilmēti nofilmētie nofilmēto nofilmēts nofilmētu nofilmētā nofilmēšanas nofilmēšu
-69	4569	novelt	jānoveļ nenovel nenovelsim nenoveltu nenoveļu nenovēlu novel novels novelsim novelts noveltu novelšana noveļ noveļam noveļot noveļu novēla novēli novēlis novēlu novēlām
-70	4570	ārpolitika	ārpolitikai ārpolitikas ārpolitiku ārpolitikā ārpolitikām
-71	4571	florbols	florbola florbolam florbolu florbolā
-72	4572	sausums	sausum sausuma sausumam sausumi sausumiem sausumos sausumu sausumā
-73	4573	pārraudzīt	jāpārrauga nepārraudzītu nepārrauga pārraudzīja pārraudzījis pārraudzījām pārraudzījāt pārraudzīs pārraudzīsim pārraudzīts pārraudzītu pārraudzīšana pārraudzīšu pārrauga pārraugi pārraugot pārraugu pārraugām pārraugāms pārraugāt
-74	4574	palma	palmai palmas palmu palmā palmām palmās
-75	4575	kaklarota	kaklarotai kaklarotas kaklarotu kaklarotām
-76	4576	pārbīties	nepārbijies pārbijies pārbijos pārbijās pārbijāties pārbīsies pārbīstas pārbītos pārbīšos
-77	4577	grafisks	grafiska grafiskai grafiskais grafiskajai grafiskajam grafiskajiem grafiskajā grafiskajām grafiskas grafiski grafiskie grafiskiem grafisko grafiskos grafisku grafiskus grafiskā grafiskāka grafiskām grafiskās
-78	4578	fenomens	fenomena fenomenam fenomeni fenomeniem fenomenu fenomenus fenomenā
-79	4579	tematisks	tematiska tematiskai tematiskais tematiskajai tematiskajam tematiskajiem tematiskajos tematiskajā tematiskajām tematiskajās tematiskam tematiskas tematiski tematiskie tematiskiem tematisko tematiskos tematisku tematiskus tematiskā tematiskāku tematiskām tematiskās
-80	4580	fon	
-81	4581	reaktors	reaktora reaktoram reaktori reaktoriem reaktoros reaktoru reaktorus reaktorā
-82	4582	glezniecība	glezniecībai glezniecības glezniecību glezniecībā
-83	4583	proporcionāls	proporcionāla proporcionālai proporcionālais proporcionālajam proporcionālajā proporcionālam proporcionālas proporcionāli proporcionāliem proporcionālo proporcionālos proporcionālu proporcionālus proporcionālā proporcionālāk proporcionālākai proporcionālām proporcionālās
-84	4584	savaldīt	jāsavalda nesavalda nesavaldi nesavaldot nesavaldāms nesavaldīja nesavaldījām nesavaldītu savalda savaldi savaldiet savaldot savaldu savaldām savaldāms savaldīja savaldījis savaldīju savaldīs savaldīsiet savaldīsit savaldīts savaldītu savaldīšana
-85	4585	ieslēgties	ieslēdzas ieslēdzies ieslēdzieties ieslēdzos ieslēdzoties ieslēdzāmies ieslēdzās ieslēgsies ieslēgsimies ieslēgtos ieslēgšanās ieslēgšos jāieslēdzas neieslēdzamies neieslēdzas neieslēdzies neieslēdzos neieslēdzās neieslēgtos
-86	4586	altāris	altāra altāri altāriem altārim altāru altārus altārī
-87	4587	pingvīns	pingvīna pingvīnam pingvīni pingvīniem pingvīnu pingvīnus
-88	4588	āboliņš	āboliņa āboliņam āboliņi āboliņu āboliņus
-89	4589	gigants	gigant giganta gigantam giganti gigantiem gigantos gigantu gigantus gigantā
-90	4590	vieglatlētika	vieglatlētikai vieglatlētikas vieglatlētiku vieglatlētikā
-91	4591	rudzi	rudziem rudzis rudzos rudzs rudzu rudzus
-92	4592	farmācija	farmācijai farmācijas farmāciju farmācijā
-93	4593	izvietojums	izvietojuma izvietojumam izvietojumi izvietojumiem izvietojumu izvietojumus izvietojumā
-94	4594	iedegt	iededz iededza iededzam iededziet iededzis iededzot iededzu iededzām iededzāt iedeg iedega iedegs iedegsim iedegta iedegtais iedegtajām iedegtas iedegti iedegtiem iedegto iedegtos iedegts iedegtu iedegtām iedegtās iedegu iedegusi iedeguši iedegušos iedegušās iedegām iedegšana iedegšot iedegšu jāiededz neiededza neiededzu neiededzām neiedeg
-95	4595	savilkt	jāsavelk nesavilkt nesavilku savelc savelciet savelk savelkam savelkat savelkot savelkošs savelku savilcis savilka savilki savilks savilksim savilkts savilktu savilku savilkām savilkšana
-96	4596	nebeidzams	nebeidzama nebeidzamai nebeidzamais nebeidzamajam nebeidzamajiem nebeidzamajos nebeidzamajā nebeidzamajām nebeidzamajās nebeidzamam nebeidzamas nebeidzami nebeidzamie nebeidzamiem nebeidzamo nebeidzamos nebeidzamu nebeidzamus nebeidzamā nebeidzamām nebeidzamās
-97	4597	pēcpuse	pēcpusei pēcpuses pēcpusi pēcpusē pēcpusēm pēcpušu
-98	4598	enkurs	enkura enkuram enkuri enkuriem enkuru enkurus
-99	4599	paelpot	paelpo paelpojiet paelpoju paelpotu
-100	4600	pastaigāt	jāpastaigā nepastaigāsi pastaigā pastaigāja pastaigājam pastaigājat pastaigājiet pastaigājis pastaigājot pastaigāju pastaigājām pastaigās pastaigāsi pastaigāsiet pastaigāsim pastaigāts pastaigātu pastaigāšu
+1	4501	elastīgs	elastīga elastīgai elastīgais elastīgajai elastīgajam elastīgajiem elastīgajām elastīgam elastīgas elastīgi elastīgie elastīgiem elastīgo elastīgos elastīgu elastīgus elastīgā elastīgāk elastīgāka elastīgākai elastīgākajiem elastīgākam elastīgākas elastīgāki elastīgākiem elastīgāks elastīgāku elastīgākus elastīgākā elastīgākās elastīgām elastīgās viselastīgākais viselastīgākā
+2	4502	meksikānis	meksikāni meksikānim meksikāņa meksikāņi meksikāņiem meksikāņu meksikāņus
+3	4503	neatlaidīgs	neatlaidīga neatlaidīgai neatlaidīgais neatlaidīgajai neatlaidīgajam neatlaidīgajiem neatlaidīgam neatlaidīgas neatlaidīgi neatlaidīgie neatlaidīgiem neatlaidīgo neatlaidīgos neatlaidīgu neatlaidīgā neatlaidīgāk neatlaidīgāka neatlaidīgākajam neatlaidīgākajiem neatlaidīgākam neatlaidīgāki neatlaidīgākie neatlaidīgākiem neatlaidīgākos neatlaidīgākā neatlaidīgām visneatlaidīgākais
+4	4504	mērķtiecīgs	mērķtiecīga mērķtiecīgai mērķtiecīgais mērķtiecīgajai mērķtiecīgajiem mērķtiecīgam mērķtiecīgas mērķtiecīgie mērķtiecīgiem mērķtiecīgo mērķtiecīgos mērķtiecīgu mērķtiecīgus mērķtiecīgā mērķtiecīgāk mērķtiecīgāka mērķtiecīgākai mērķtiecīgākais mērķtiecīgākajiem mērķtiecīgākas mērķtiecīgāki mērķtiecīgākie mērķtiecīgākiem mērķtiecīgākos mērķtiecīgāks mērķtiecīgāku mērķtiecīgākus mērķtiecīgākā mērķtiecīgām mērķtiecīgās vismērķtiecīgāk
+5	4505	derīgums	derīguma derīgumam derīgumu
+6	4506	čakarēt	nečakarēt čakarē čakarēja čakarējam čakarējat čakarējis čakarējot čakarēju čakarēs čakarēsi čakarēsim čakarētu čakarēšana
+7	4507	ārēji	
+8	4508	viesmīlis	viesmīle viesmīlei viesmīles viesmīli viesmīlim viesmīlēm viesmīļa viesmīļi viesmīļiem viesmīļu viesmīļus
+9	4509	apmānīt	apmāna apmāni apmānot apmānu apmānām apmānīja apmānīji apmānījis apmānīju apmānījām apmānījāt apmānīs apmānīsi apmānīts apmānītu apmānīšana apmānīšu jāapmāna neapmānīs neapmānīsi neapmānīt
+10	4510	nejaušība	nejaušībai nejaušības nejaušību nejaušībām
+11	4511	slota	slotai slotas sloti slotiem slotu slotus slotām
+12	4512	ceturtdaļfināls	ceturtdaļfināla ceturtdaļfinālam ceturtdaļfināli ceturtdaļfināliem ceturtdaļfinālos ceturtdaļfinālu ceturtdaļfinālus ceturtdaļfinālā
+13	4513	marihuāna	marihuānai marihuānas marihuānu marihuānā marihuānās
+14	4514	kāts	kāt kāta kātam kāti kātiem kātos kātu kātus kātā
+15	4515	iznīcinātājs	iznīcinātāja iznīcinātāji iznīcinātājiem iznīcinātāju iznīcinātājus iznīcinātājā
+16	4516	koordināta	koordinātas koordinātu koordinātām koordinātās
+17	4517	izpirkt	izpircis izpirka izpirkdams izpirks izpirksi izpirksim izpirkta izpirktas izpirkti izpirkts izpirktu izpirku izpirkusi izpirkuši izpirkšana izpirkšu izpērc izpērciet izpērk izpērkama izpērkami izpērkams izpērkamā izpērkamās izpērkot izpērkošs izpērku jāizpērk neizpirksi neizpirkt neizpirktos neizpirktās neizpērk neizpērkat
+18	4518	norīt	jānorij nenorij nenorīsi nenorīt norij norija norijam norijams norijat noriji norijiet norijis norijot noriju norīdams norīs norīsim norīts norītu norīšana norīšu
+19	4519	meditācija	meditācijai meditācijas meditāciju meditācijā meditācijām meditācijās
+20	4520	atteikums	atteikuma atteikumam atteikumi atteikumiem atteikumu atteikumus atteikumā
+21	4521	revolucionārs	revolucionāra revolucionārai revolucionārais revolucionārajai revolucionārajiem revolucionārajā revolucionārajām revolucionāram revolucionāras revolucionāri revolucionāriem revolucionāro revolucionāros revolucionāru revolucionārus revolucionārā revolucionārākais revolucionārāko revolucionārāks revolucionārām revolucionārās
+22	4522	noslīkt	jānoslīkst nenoslīka nenoslīks nenoslīkst nenoslīksti nenoslīkt nenoslīktu nenoslīku nenoslīkšu noslīcis noslīka noslīks noslīksi noslīksiet noslīksim noslīkst noslīkstat noslīkstot noslīktu noslīku noslīkšana noslīkšu
+23	4523	koridors	koridora koridoram koridori koridoriem koridoros koridoru koridorus koridorā
+24	4524	vemt	jāvemj nevemt vem vemdams vemj vemjam vemjat vems vemsi vemtu vemšana vemšu vēma vēmi vēmis vēmu vēmāt
+25	4525	sērs	sēr sēra sēram sēri sēru sērā
+26	4526	etnisks	etniska etniskai etniskais etniskajai etniskajam etniskajiem etniskajos etniskajā etniskajām etniskajās etniskam etniskas etniskie etniskiem etnisko etniskos etnisku etniskā etniskām etniskās
+27	4527	sirms	sirma sirmai sirmais sirmajai sirmajam sirmajiem sirmajos sirmajā sirmajām sirmam sirmas sirmie sirmiem sirmo sirmos sirmu sirmus sirmā sirmāka sirmākas sirmāki sirmākie sirmāks sirmām sirmās
+28	4528	godīgums	godīguma godīgumam godīgumi godīgumiem godīgumu godīgumā
+29	4529	postīt	jāposta neposta neposti nepostot nepostīs nepostītu nepostītā nepostīšu posta posti postot postām postāt postīja postījis postījusi postījušas postījuši postījām postīs postīta postītas postīti postīto postīts postītu postītā postīšana postīšanas postīšanu postīšanā
+30	4530	mape	maiem mapei mapes mapi mapju mapē mapēm mapēs
+31	4531	izteiciens	izteiciena izteicienam izteicieni izteicieniem izteicienos izteicienu izteicienus izteicienā
+32	4532	mehāniķis	mehāniķa mehāniķe mehāniķi mehāniķiem mehāniķim mehāniķu mehāniķus
+33	4533	retums	retum retuma retumam retumi retumiem retumu retumus
+34	4534	bruņurupucis	bruņurupuci bruņurupucim bruņurupuča bruņurupuči bruņurupučiem bruņurupuču bruņurupučus
+35	4535	vairoties	nevairojas nevairosies nevairoties nevairotos vairojas vairojaties vairojies vairojieties vairojoties vairojusies vairojušās vairojās vairosies vairosimies vairotos vairošanās
+36	4536	galvojums	galvojuma galvojumam galvojumi galvojumiem galvojumu galvojumus
+37	4537	risināties	nerisinoties nerisinājās nerisināsies risinoties risinājies risinājusies risinājušies risinājušās risinājās risināsies risinātos
+38	4538	spainis	spaini spainim spainī spaiņa spaiņi spaiņiem spaiņos spaiņu spaiņus spani spanni
+39	4539	zīds	zīda zīdam zīdi zīdu zīdā
+40	4540	mātīte	mātītei mātītes mātīti mātītēm mātīšu
+41	4541	parlamentārs	parlamentāra parlamentārai parlamentārais parlamentārajai parlamentārajam parlamentārajiem parlamentārajos parlamentārajā parlamentārajām parlamentārajās parlamentāras parlamentārie parlamentāro parlamentāros parlamentāru parlamentārā parlamentārām parlamentārās
+42	4542	kociņš	kociņa kociņam kociņi kociņiem kociņu kociņus
+43	4543	kontrabanda	kontrabandai kontrabandas kontrabandu kontrabandā
+44	4544	optisks	optiska optiskais optiskajam optiskajiem optiskajā optiskajām optiskas optiski optiskie optiskiem optisko optiskos optisku optiskā optiskām optiskās
+45	4545	evaņģēlijs	evaņģēlija evaņģēlijam evaņģēliji evaņģēlijiem evaņģēlijos evaņģēliju evaņģēlijus evaņģēlijā
+46	4546	koncentrēt	jākoncentrē koncentrē koncentrēja koncentrējam koncentrējams koncentrējat koncentrējiet koncentrējis koncentrējot koncentrēju koncentrējusi koncentrējuši koncentrēs koncentrēsim koncentrēta koncentrētai koncentrētais koncentrētam koncentrētas koncentrēti koncentrētie koncentrētiem koncentrēto koncentrētos koncentrēts koncentrētu koncentrētus koncentrētā koncentrētāk koncentrētāki koncentrētāks koncentrētāku koncentrētākā koncentrētām koncentrētās koncentrēšana koncentrēšanas koncentrēšanu nekoncentrē
+47	4547	antena	antenai antenas antenu antenā antenām antenās
+48	4548	nospļauties	nospļaujamies nospļaujas nospļaujies nospļaujoties nospļausies nospļautos nospļaušanās nospļāvies nospļāvos nospļāvās
+49	4549	sperma	spermai spermas spermu spermā
+50	4550	izdzīt	izdzen izdzenam izdzenams izdzenamā izdzenat izdzeniet izdzenot izdzenoša izdzenošais izdzenu izdzina izdzinis izdzinu izdzinusi izdzinuši izdzinām izdzīdams izdzīs izdzīsi izdzīsiet izdzīsim izdzīta izdzītai izdzītais izdzītas izdzīti izdzītie izdzīto izdzīts izdzītu izdzītā izdzītās izdzīšana izdzīšu jāizdzen neizdzen neizdzenat neizdzinām neizdzīs
+51	4551	modernizācija	modernizācijai modernizācijas modernizāciju modernizācijā modernizācijās
+52	4552	bučot	bučo bučodami bučoja bučoji bučojiet bučojis bučojot bučoju bučojušas bučojuši bučos bučosi bučotos bučošana bučošanai bučošanos bučošanu bučošanās bučošu jābučo nebučoja nebučos
+53	4553	pavērot	jāpavēro pavēro pavēroja pavērojam pavērojat pavērojiet pavērojis pavērojot pavēroju pavērojusi pavērojuši pavērojām pavēros pavērosiet pavērosim pavērosit pavērotu pavērošot pavērošu
+54	4554	riteņbraukšana	riteņbraukšanai riteņbraukšanas riteņbraukšanu riteņbraukšanā
+55	4555	maizīte	maizītei maizītes maizīti maizītē maizītēm maizītēs maizīšu
+56	4556	žests	žesta žestam žesti žestiem žestos žestu žestus žestā
+57	4557	glābiņš	glābiņa glābiņam glābiņiem glābiņu glābiņā
+58	4558	eseja	esejai esejas eseju esejā esejām esejās
+59	4559	nozust	jānozūd nenozuda nenozustu nenozūd nenozūdi nozuda nozudi nozudis nozudu nozudām nozudīs nozudīsi nozudīsiet nozudīsim nozudīšu nozustu nozušana nozūd nozūdam nozūdi nozūdot nozūdu
+60	4560	sadraudzība	sadraudzībai sadraudzības sadraudzību sadraudzībā
+61	4561	sagadīties	nesagadās sagadoties sagadās sagadījies sagadījos sagadījusies sagadījušies sagadījās sagadīsies sagadīšanās
+62	4562	nodoties	jānododas nenodevos nenododas nenodosimies nenodoties nodevies nodevos nodevusies nodevušies nodevāmies nodevās nododamies nododas nododaties nododies nododieties nododos nododoties nodomos nodosies nodošanās nodošos
+63	4563	nogāze	nogāzei nogāzes nogāzi nogāzē nogāzēm nogāzēs nogāžu
+64	4564	slepenība	slepenībai slepenības slepenību slepenībā
+65	4565	pietuvoties	jāpietuvojas nepietuvojas nepietuvojās nepietuvoties pietuvojamies pietuvojas pietuvojies pietuvojieties pietuvojos pietuvojoties pietuvojusies pietuvojušies pietuvojušās pietuvojāmies pietuvojās pietuvosies pietuvosieties pietuvosimies pietuvosities pietuvotos pietuvošanās
+66	4566	solidaritāte	solidaritātei solidaritātes solidaritāti solidaritātē solidaritātēs
+67	4567	tīt	jātin tii tin tina tinam tinams tinat tini tiniem tiniet tinis tinos tinot tinu tinām tiā tiņa tiņiem tiņu tīs tīts tītu tīšana tīšu
+68	4568	mīļums	mīļum mīļuma mīļumam mīļumi mīļumu mīļumā
+69	4569	feja	fejai fejas feju fejā fejām fejās
+70	4570	sasveicināties	jāsasveicinās nesasveicinies nesasveicinās nesasveicināsies sasveicinies sasveicinieties sasveicinos sasveicinoties sasveicinājies sasveicinājos sasveicinājāmies sasveicinājās sasveicinājāties sasveicināmies sasveicinās sasveicināsies sasveicināsimies sasveicinātos sasveicināšanās sasveicināšos
+71	4571	neprātīgs	neprātīga neprātīgais neprātīgajam neprātīgajiem neprātīgajā neprātīgajām neprātīgam neprātīgas neprātīgie neprātīgiem neprātīgo neprātīgos neprātīgu neprātīgus neprātīgā neprātīgāk neprātīgākais neprātīgākas neprātīgākiem neprātīgāku neprātīgākās neprātīgām neprātīgās visneprātīgākais visneprātīgākā visneprātīgākās
+72	4572	nedrošs	nedroša nedrošai nedrošajai nedrošajam nedrošajiem nedrošajos nedrošajā nedrošajām nedrošajās nedrošam nedrošas nedroši nedrošie nedrošiem nedrošo nedrošos nedrošu nedrošus nedrošā nedrošāk nedrošāka nedrošākajiem nedrošākajos nedrošākas nedrošāki nedrošākiem nedrošāko nedrošāks nedrošāku nedrošākā nedrošākām nedrošām nedrošās visnedrošāk visnedrošākajiem visnedrošākie visnedrošākā visnedrošākās
+73	4573	arhibīskaps	arhibīskap arhibīskapa arhibīskapam arhibīskapi arhibīskapu
+74	4574	panna	pannai pannam pannas pannu pannā pannām pannās
+75	4575	terase	terasei terases terasi terasē terasēm terasēs terašu
+76	4576	bēbis	bēbi bēbim bēbja bēbji bēbjiem bēbju bēbjus
+77	4577	diskriminācija	diskriminācijai diskriminācijas diskrimināciju diskriminācijā diskriminācijām
+78	4578	funkcionēt	funkcionē funkcionēja funkcionējam funkcionējat funkcionējis funkcionējot funkcionējošs funkcionēju funkcionējusi funkcionējušas funkcionējuši funkcionēs funkcionēsi funkcionētu funkcionēšana funkcionēšanai funkcionēšanas funkcionēšanu funkcionēšanā jāfunkcionē nefunkcionē nefunkcionēja nefunkcionējot nefunkcionēju nefunkcionēs nefunkcionēšanu
+79	4579	pārprast	jāpārprot nepārprast nepārprasta nepārprastu nepārpratu nepārpratīsim nepārprot nepārprotat nepārproti nepārprotiet pārprasta pārprastais pārprastam pārprastas pārprasti pārprastie pārprasto pārprasts pārprastu pārprastā pārprastām pārprastās pārprata pārprati pārpratis pārpratu pārpratusi pārpratuši pārpratāt pārpratīs pārprašana pārprot pārprotam pārprotams pārprotat pārproti pārprotot pārprotu
+80	4580	patriotisms	patriotism patriotisma patriotismam patriotismu patriotismā
+81	4581	atmaksāties	atmaksājas atmaksājies atmaksājoties atmaksājusies atmaksājušies atmaksājās atmaksāsies atmaksāšanās atmaksāšoties jāatmaksājas neatmaksājas neatmaksājoties neatmaksājās neatmaksāsies neatmaksāties
+82	4582	vērotājs	vērotāj vērotāja vērotājam vērotāji vērotājiem vērotājos vērotāju vērotājus
+83	4583	sadzīt	jāsadzen jāsadzīst nesadzen nesadzenat nesadzija nesadzijis nesadzijušu nesadzina nesadzīs nesadzīst nesadzīstošas sadzen sadzeniet sadzenot sadzija sadzijis sadzijusi sadzijušas sadzijuši sadzijušie sadzijušu sadzina sadzinis sadzinu sadzinusi sadzinuši sadzinām sadzīs sadzīsi sadzīsim sadzīst sadzītas sadzīti sadzītie sadzīts sadzītu sadzītus sadzītā sadzīšana
+84	4584	sīvs	sīva sīvai sīvais sīvajai sīvajam sīvajā sīvajās sīvam sīvas sīvi sīvie sīviem sīvo sīvu sīvus sīvā sīvāk sīvāka sīvākais sīvākajam sīvākajiem sīvākajā sīvākajām sīvākie sīvāko sīvākos sīvāks sīvāku sīvākā sīvākās sīvām sīvās vissīvākā vissīvākās
+85	4585	protestēt	jāprotestē neprotestē neprotestēja neprotestēji neprotestējot neprotestēju neprotestējuši neprotestējāt neprotestēs neprotestētu neprotestēšu protestē protestēja protestējam protestējat protestēji protestējis protestējot protestējošs protestēju protestējusi protestējušas protestējuši protestējām protestēs protestēsim protestēts protestētu protestēšana protestēšanas protestēšanu protestēšu
+86	4586	bārmenis	bārmeni bārmenim bārmeņa bārmeņi bārmeņiem bārmeņu bārmeņus
+87	4587	iestādīt	iestāda iestādiet iestādot iestādu iestādām iestādāms iestādīja iestādījis iestādīju iestādījusi iestādījuši iestādījām iestādīs iestādīsi iestādīsiet iestādīsim iestādīta iestādītais iestādītajiem iestādītajā iestādītas iestādīti iestādītie iestādītiem iestādīto iestādītos iestādīts iestādītu iestādītus iestādītā iestādītām iestādītās iestādīšana iestādīšot iestādīšu jāiestāda neiestādīsi neiestādīti neiestādīto
+88	4588	atvilktne	atvilktnei atvilktnes atvilktni atvilktnē atvilktnēm atvilktnēs atvilktņu
+89	4589	slidens	slida slidai slidas slidena slidenai slidenais slidenajam slidenajiem slidenajos slidenajā slidenajām slidenajās slidenam slidenas slideni slidenie slideniem slideno slidenos slidenu slidenus slidenā slidenāka slidenākais slidenākam slidenāki slidenāko slidenākos slidenāks slidenākā slidenām slidenās slido slidos slidu slidām slidās
+90	4590	apvainojums	apvainojuma apvainojumi apvainojumiem apvainojumos apvainojumu apvainojumus
+91	4591	iekaisums	iekaisuma iekaisumam iekaisumi iekaisumiem iekaisumu iekaisumus iekaisumā
+92	4592	nofilmēt	jānofilmē nenofilmēja nenofilmētu nofilmē nofilmēja nofilmējam nofilmēji nofilmējiet nofilmējis nofilmēju nofilmējusi nofilmējuši nofilmējām nofilmēs nofilmēsim nofilmēta nofilmētais nofilmētas nofilmēti nofilmētie nofilmēto nofilmēts nofilmētu nofilmētā nofilmēšanas nofilmēšu
+93	4593	ārpolitika	ārpolitikai ārpolitikas ārpolitiku ārpolitikā ārpolitikām
+94	4594	florbols	florbola florbolam florbolu florbolā
+95	4595	sausums	sausum sausuma sausumam sausumi sausumiem sausumos sausumu sausumā
+96	4596	pārraudzīt	jāpārrauga nepārraudzītu nepārrauga pārraudzīja pārraudzījis pārraudzījām pārraudzījāt pārraudzīs pārraudzīsim pārraudzīts pārraudzītu pārraudzīšana pārraudzīšu pārrauga pārraugi pārraugot pārraugu pārraugām pārraugāms pārraugāt
+97	4597	iemaksāt	iemaksā iemaksāja iemaksājam iemaksājama iemaksājamo iemaksājamās iemaksāji iemaksājiet iemaksājis iemaksājot iemaksāju iemaksājusi iemaksājušas iemaksājuši iemaksājāt iemaksās iemaksāsi iemaksāta iemaksātais iemaksātajiem iemaksātajām iemaksātas iemaksāti iemaksātie iemaksāto iemaksātos iemaksāts iemaksātu iemaksātā iemaksātām iemaksātās iemaksāšana iemaksāšu jāiemaksā neiemaksā neiemaksāja neiemaksājot neiemaksāju neiemaksāsi
+98	4598	palma	palmai palmas palmu palmā palmām palmās
+99	4599	kaklarota	kaklarotai kaklarotas kaklarotu kaklarotām
+100	4600	grafisks	grafiska grafiskai grafiskais grafiskajai grafiskajam grafiskajiem grafiskajā grafiskajām grafiskas grafiski grafiskie grafiskiem grafisko grafiskos grafisku grafiskus grafiskā grafiskāka grafiskām grafiskās

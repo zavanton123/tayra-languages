@@ -1,100 +1,100 @@
-1	8501	notīties	nenotīsies nenotīties notinas notinies notinos notināmies notinās notīsies notītos notīšos
-2	8502	svainis	svaine svaines svaini svaiņa svaiņu svaiņus
-3	8503	savedējs	savedēj savedēja savedējam savedēji savedēju
-4	8504	stratēģiskais	
-5	8505	taisne	taisnei taisnes taisnē taisnēm taisnēs taišņu
-6	8506	nokust	nenokusa nenokusis nenokusīs nenokūst nokusa nokusis nokusīs nokusīšot nokušana nokūst nokūstot
-7	8507	pelnīti	
-8	8508	inkriminēt	inkriminē inkriminēja inkriminējot inkriminējošs inkriminējusi inkriminējuši inkriminēs inkriminēta inkriminētais inkriminētas inkriminēti inkriminētie inkriminēto inkriminēts inkriminētā
-9	8509	rožains	rožaina rožainajiem rožainajos rožainajā rožainajām rožainajās rožainas rožainie rožainiem rožaino rožainos rožainu rožainus rožainā rožaināk rožainākajā rožainākajām rožaināks rožainām rožainās visrožaināko
-10	8510	daiļava	daiļavai daiļavas daiļavu daiļavām daiļavās
-11	8511	kalst	kalstot kalta kalti
-12	8512	izoperēt	izoperē izoperēja izoperējams izoperējot izoperējām izoperēta izoperētas izoperēti izoperēto izoperēts izoperētu izoperētā izoperēšana izoperēšanas izoperēšanu jāizoperē neizoperējot
-13	8513	wiki	
-14	8514	nīst	
-15	8515	aizpūst	aizpuvis aizpūsti aizpūsts aizpūstu aizpūt aizpūta aizpūtis aizpūtīs aizpūš jāaizpūš neaizpūstu neaizpūta neaizpūtīs neaizpūš
-16	8516	civilists	civilisti civilistiem civilistu civilistus
-17	8517	izmānīt	izmāna izmānot izmānīja izmānījis izmānīju izmānīs izmānīsi izmānīsiet izmānītu izmānīšana izmānīšu jāizmāna
-18	8518	sastāstīt	sastāsta sastāstīja sastāstīji sastāstījis sastāstīju sastāstījusi sastāstījušas sastāstījuši sastāstīts
-19	8519	inventarizācija	inventarizācijai inventarizāciju inventarizācijā inventarizācijām inventarizācijās
-20	8520	ratifikācija	ratifikācijai ratifikācijas ratifikāciju
-21	8521	kredits	kredit kredita kreditam krediti kreditiem kreditos kreditu kreditus kreditā
-22	8522	krāsoties	jākrāsojas krāsojas krāsojos krāsojās krāsotos krāsošanās nekrāsojas nekrāsojās
-23	8523	iedziedāt	iedzied iedziedam iedziedi iedziedot iedziedāja iedziedājis iedziedāju iedziedājusi iedziedājušas iedziedājuši iedziedājām iedziedās iedziedāsim iedziedāta iedziedātajam iedziedātas iedziedātos iedziedāts iedziedātu iedziedātā iedziedātām iedziedātās iedziedāšana
-24	8524	arbitrāža	arbitrāžai arbitrāžas arbitrāžu arbitrāžā
-25	8525	skūt	skuj skuju
-26	8526	pinums	pinuma pinumam pinumi pinumiem pinumos pinumu pinumus pinumā
-27	8527	kālis	kāa kāi kāla kāli kāliem kālim kālu kālus kāos kāu kāļa kāļi kāļiem kāļos kāļu kāļus
-28	8528	desmitdaļa	desmitdaļai desmitdaļas desmitdaļu desmitdaļā desmitdaļām
-29	8529	vīraks	vīraka vīraki vīrakiem vīraku vīrakus vīrakā
-30	8530	bards	barda bardam bardi bardiem bardu bardus
-31	8531	svaidīt	nesvaida nesvaidīs nesvaidītais svaida svaidi svaidīdams svaidīja svaidījis svaidījusi svaidīs svaidīta svaidīti svaidīto svaidīts svaidītu svaidītā svaidīšana svaidīšanas svaidīšanā
-32	8532	mājele	mājelei mājeles mājeli mājelē mājelēm mājelēs
-33	8533	pašūt	pašuj pašujam pašuva pašuvis pašuvu pašuvušas pašūta pašūtai pašūtais pašūti pašūts pašūtu pašūtā
-34	8534	ortopēdija	ortopēdijai ortopēdijas ortopēdiju ortopēdijā
-35	8535	saziedot	jāsaziedo nesaziedotu saziedo saziedoja saziedojam saziedojiet saziedojot saziedojām saziedojāt saziedos saziedosim saziedots saziedotu
-36	8536	masieris	masiera masieri masieriem masierim masieru masierus
-37	8537	rūpība	rūpībai rūpības rūpību rūpībā
-38	8538	astrofiziķis	astrofiziķei astrofiziķi astrofiziķiem
-39	8539	spins	spin spina spinu
-40	8540	murrāt	murrā murrādams murrājot murrājošs murrās murrātu murrāšana
-41	8541	spītīgs	spītīga spītīgai spītīgais spītīgajam spītīgam spītīgas spītīgie spītīgo spītīgu spītīgus spītīgā spītīgāk spītīgākam spītīgāki spītīgāko spītīgām spītīgās
-42	8542	drebēt	drebēdams drebēja drebējis drebēju drebējusi drebējām drebēs drebēšana drebēšanu nedrebēja nedrebējuši
-43	8543	reāliste	reālisti reālistu reālistēm
-44	8544	ekvators	ekvatora ekvatoram ekvatoru
-45	8545	nievāt	nievā nievāja nievājams nievājis nievājot nievājošs nievāju nievājuši nievās nievāšana nievāšanas nievāšanu
-46	8546	iedurties	ieduras iedurtos ieduršanās iedūries iedūrās jāieduras
-47	8547	saīdzis	
-48	8548	apvemties	apvemšanās apvemšos apvēmies apvēmos apvēmās neapvēmies
-49	8549	apvemt	apvemj apvemjam apvems apvemsi apvemts apvemtu apvēma
-50	8550	radze	radzes radzēm radžu
-51	8551	barotava	barotavai barotavas barotavu barotavā barotavām barotavās
-52	8552	federatīvs	federatīva federatīvajai federatīvajā federatīvas federatīvo federatīvu federatīvā federatīvām federatīvās
-53	8553	pārstrukturēt	jāpārstrukturē nepārstrukturēs pārstrukturē pārstrukturēja pārstrukturējam pārstrukturējis pārstrukturējot pārstrukturēs pārstrukturēta pārstrukturēti pārstrukturētie pārstrukturēto pārstrukturēts pārstrukturētu pārstrukturēšana pārstrukturēšanas pārstrukturēšanu pārstrukturēšanā
-54	8554	idiotisms	idiotisma idiotismi idiotismiem idiotismu idiotismus idiotismā
-55	8555	pačukstēt	pačukstēja pačukstējis pačukstēju pačukstējusi pačukstējuši pačukstēs pačukstēsi pačukstēsim pačukstētu pačukstēšu
-56	8556	saldināt	jāsaldina nesaldinātu saldina saldiniet saldinās saldināta saldinātam saldinātas saldinātiem saldinātos saldināts saldinātu saldinātus saldinātās saldināšanai
-57	8557	apvilkt	apvelc apvelciet apvelk apvelkams apvelkot apvelku apvilcis apvilka apvilki apvilksi apvilksiet apvilkts apvilktu apvilku apvilkšu jāapvelk neapvelk neapvilcis neapvilka
-58	8558	sakoncentrēties	jāsakoncentrējas sakoncentrējas sakoncentrējies sakoncentrējos sakoncentrējusies sakoncentrējušies sakoncentrējās sakoncentrēsies sakoncentrēsimies sakoncentrētos
-59	8559	volframs	volfram volframa
-60	8560	skauties	skautos
-61	8561	cēzijs	cēzija cēzijam cēziju
-62	8562	akustika	akustikai akustikas akustiku akustikā
-63	8563	sacerēties	nesaceries nesacerieties nesaceros nesacerēsies nesacerēties saceros saceroties sacerējies sacerējos sacerējusies sacerējušies sacerējušās sacerējāties sacerētos
-64	8564	nomērīt	jānomēra nomēra nomēri nomēriet nomērot nomēru nomērāms nomērīja nomērīju nomērīs nomērīsim nomērīts nomērītu nomērīšana nomērīšu
-65	8565	ārpuszemes	
-66	8566	saskriet	nesaskrēja nesaskrēju saskrien saskrienam saskries saskrietu saskrēja
-67	8567	noskumt	jānoskumst noskuma noskumis noskumst noskumstat
-68	8568	uzrādītājs	uzrādītāja uzrādītājam uzrādītāji uzrādītājiem uzrādītāju uzrādītājus
-69	8569	runga	rungai rungas rungu rungām
-70	8570	saslēgties	nesaslēdzas nesaslēdzos nesaslēdzās saslēdzas saslēdzies saslēdzos saslēdzoties saslēdzāmies saslēdzās saslēgsies saslēgsimies saslēgtos saslēgšanās
-71	8571	kurvis	kurvi kurvja kurvjus kurvī
-72	8572	celle	cellei celles celli cellē cellēm ceļļu
-73	8573	apskriet	apskrien apskrieniet apskrienot apskries apskrēja apskrējis apskrēju apskrējām jāapskrien
-74	8574	aizgādāt	aizgādā aizgādāja aizgādājām aizgādās aizgādāta aizgādāti aizgādāts aizgādātu aizgādāšana jāaizgādā
-75	8575	samirkt	nesamirks nesamirkst nesamirktu samircis samirka samirks samirksi samirksim samirkst samirkstot samirkām samirkšana
-76	8576	anēmija	anēmijas anēmiju
-77	8577	hologramma	hologrammas hologrammu hologrammām
-78	8578	svastika	svastikas svastiku
-79	8579	skrimslis	skrimsli skrimslim skrimsļus skrimšļa skrimšļi skrimšļu skrimšļus
-80	8580	nosmacēt	nenosmacē nenosmacēja nosmacē nosmacēja nosmacējot nosmacēs nosmacēta nosmacētas
-81	8581	sapost	jāsapoš sapos saposa saposts sapostu saposāt saposīs saposīsim sapoš sapošot
-82	8582	ķemmēt	jāķemmē neķemmē neķemmējiet neķemmēts ķemmē ķemmēja ķemmējam ķemmējami ķemmējamus ķemmēji ķemmējis ķemmējot ķemmēju ķemmējusi ķemmējuši ķemmēsiet ķemmēšana ķemmēšanai ķemmēšanas ķemmēšanu
-83	8583	azbests	azbesta azbestam azbestu
-84	8584	pārstrādāties	nepārstrādājas nepārstrādājies nepārstrādājoties nepārstrādāties nepārstrādātos pārstrādājas pārstrādājies pārstrādājusies pārstrādājušies pārstrādājušās pārstrādājās pārstrādāsies pārstrādātos pārstrādāšanās
-85	8585	kairinājums	kairinājuma kairinājumam kairinājumiem kairinājumu kairinājumus
-86	8586	provinciāls	provinciāla provinciālais provinciālajai provinciālajām provinciālam provinciālas provinciāli provinciālie provinciālo provinciālos provinciālu provinciālā provinciālāki provinciālām provinciālās
-87	8587	atpirkties	atpirksies atpirksimies atpirktos atpirkušies atpirkušās atpirkās atpirkšanās atpērkas jāatpērkas neatpirksies neatpērcieties
-88	8588	rācenis	rāceni rāceņa rāceņi rāceņiem rāceņu rāceņus
-89	8589	mikroskopisks	mikroskopiska mikroskopiskajā mikroskopiskas mikroskopiski mikroskopiskiem mikroskopisko mikroskopiskos mikroskopisku mikroskopiskus mikroskopiskā mikroskopiskāka mikroskopiskākajam mikroskopiskāko mikroskopiskām mikroskopiskās
-90	8590	pielīst	jāpielien nepielien nepielīda pielien pielieniet pielienot pielienu pielīda pielīdi pielīdis pielīdāt pielīstu pielīšana
-91	8591	aizskaitīt	aizskaita aizskaiti aizskaitot aizskaitīja aizskaitījis aizskaitījusi aizskaitījuši aizskaitīs aizskaitīta aizskaitīti aizskaitīts aizskaitīšu jāaizskaita
-92	8592	pārkost	nepārkoda pārkoda pārkodis pārkodusi pārkodīs pārkostu pārkož pārkožamo pārkožot
-93	8593	papērt	paper
-94	8594	šrapnelis	šrapneli šrapneļiem šrapneļu
-95	8595	kroka	krokas kroku krokā krokās
-96	8596	paradoksāls	paradoksāla paradoksālais paradoksālajiem paradoksālajā paradoksālajām paradoksālas paradoksālie paradoksālo paradoksālos paradoksālu paradoksālus paradoksālā paradoksālākais paradoksālākā paradoksālām paradoksālās
-97	8597	hidroelektrostacija	hidroelektrostacijas hidroelektrostaciju hidroelektrostacijā hidroelektrostacijām hidroelektrostacijās
-98	8598	rūpnieks	rūpniekam rūpnieki rūpniekiem rūpnieku rūpniekus
-99	8599	ikri	
-100	8600	apdalīt	apdala apdalot apdalu apdalīja apdalījis apdalījusi apdalījuši apdalīsim apdalīta apdalītais apdalītajam apdalītajiem apdalītas apdalīti apdalītie apdalītiem apdalīto apdalītos apdalīts apdalītu jāapdala neapdalot neapdalīs neapdalīt
+1	8501	gudrons	gudrona gudronam gudronu
+2	8502	ravēt	jāravē neravē neravēju neravēsim neravēta neravēšu ravē ravēja ravējam ravējot ravēju ravējusi ravējušas ravējuši ravējām ravēs ravēsim ravēta ravētas ravēts ravēšana ravēšanas ravēšanu ravēšanā ravēšu
+3	8503	maiņstrāva	maiņstrāvas maiņstrāvu
+4	8504	sveķi	
+5	8505	pārziemot	nepārziemo nepārziemoja nepārziemos nepārziemot pārziemo pārziemoja pārziemojis pārziemojot pārziemojusi pārziemojušas pārziemojuši pārziemojušie pārziemojām pārziemos pārziemosim pārziemotu pārziemošana
+6	8506	horvātiete	horvāta horvātam horvāti horvātiem horvātietes horvātieti horvātietēm horvāts horvātu horvātus
+7	8507	kustīgi	
+8	8508	bakteriāls	bakteriāla bakteriālais bakteriālajai bakteriālajām bakteriālas bakteriālie bakteriāliem bakteriālo bakteriālu bakteriālā bakteriālām bakteriālās
+9	8509	nelietība	nelietībai nelietības nelietību nelietībā nelietībām nelietībās
+10	8510	pārskriet	nepārskrien nepārskries nepārskrietu pārskrien pārskrienam pārskrienot pārskrienu pārskries pārskriešu pārskrēja pārskrējis pārskrēju
+11	8511	notīties	nenotīsies nenotīties notinas notinies notinos notināmies notinās notīsies notītos notīšos
+12	8512	svainis	svaine svaines svaini svaiņa svaiņu svaiņus
+13	8513	savedējs	savedēj savedēja savedējam savedēji savedēju
+14	8514	stratēģiskais	
+15	8515	taisne	taisnei taisnes taisnē taisnēm taisnēs taišņu
+16	8516	nokust	nenokusa nenokusis nenokusīs nenokūst nokusa nokusis nokusīs nokusīšot nokušana nokūst nokūstot
+17	8517	pelnīti	
+18	8518	inkriminēt	inkriminē inkriminēja inkriminējot inkriminējošs inkriminējusi inkriminējuši inkriminēs inkriminēta inkriminētais inkriminētas inkriminēti inkriminētie inkriminēto inkriminēts inkriminētā
+19	8519	rožains	rožaina rožainajiem rožainajos rožainajā rožainajām rožainajās rožainas rožainie rožainiem rožaino rožainos rožainu rožainus rožainā rožaināk rožainākajā rožainākajām rožaināks rožainām rožainās visrožaināko
+20	8520	daiļava	daiļavai daiļavas daiļavu daiļavām daiļavās
+21	8521	iedziedāt	iedzied iedziedam iedziedi iedziedot iedziedāja iedziedājis iedziedāju iedziedājusi iedziedājušas iedziedājuši iedziedājām iedziedās iedziedāsim iedziedāta iedziedātajam iedziedātas iedziedātos iedziedāts iedziedātu iedziedātā iedziedātām iedziedātās iedziedāšana
+22	8522	kalst	kalstot kalta kalti
+23	8523	izoperēt	izoperē izoperēja izoperējams izoperējot izoperējām izoperēta izoperētas izoperēti izoperēto izoperēts izoperētu izoperētā izoperēšana izoperēšanas izoperēšanu jāizoperē neizoperējot
+24	8524	wiki	
+25	8525	nīst	
+26	8526	civilists	civilisti civilistiem civilistu civilistus
+27	8527	izmānīt	izmāna izmānot izmānīja izmānījis izmānīju izmānīs izmānīsi izmānīsiet izmānītu izmānīšana izmānīšu jāizmāna
+28	8528	sastāstīt	sastāsta sastāstīja sastāstīji sastāstījis sastāstīju sastāstījusi sastāstījušas sastāstījuši sastāstīts
+29	8529	inventarizācija	inventarizācijai inventarizāciju inventarizācijā inventarizācijām inventarizācijās
+30	8530	ratifikācija	ratifikācijai ratifikācijas ratifikāciju
+31	8531	kredits	kredit kredita kreditam krediti kreditiem kreditos kreditu kreditus kreditā
+32	8532	krāsoties	jākrāsojas krāsojas krāsojos krāsojās krāsotos krāsošanās nekrāsojas nekrāsojās
+33	8533	arbitrāža	arbitrāžai arbitrāžas arbitrāžu arbitrāžā
+34	8534	skūt	skuj skuju
+35	8535	pinums	pinuma pinumam pinumi pinumiem pinumos pinumu pinumus pinumā
+36	8536	kālis	kāa kāi kāla kāli kāliem kālim kālu kālus kāos kāu kāļa kāļi kāļiem kāļos kāļu kāļus
+37	8537	desmitdaļa	desmitdaļai desmitdaļas desmitdaļu desmitdaļā desmitdaļām
+38	8538	kulties	jākuļas kulas kulies kulsies kulsieties kultos kulšanās kuļamies kuļas kuļaties kuļos kuļoties kūlies kūlos kūlās
+39	8539	vīraks	vīraka vīraki vīrakiem vīraku vīrakus vīrakā
+40	8540	bards	barda bardam bardi bardiem bardu bardus
+41	8541	svaidīt	nesvaida nesvaidīs nesvaidītais svaida svaidi svaidīdams svaidīja svaidījis svaidījusi svaidīs svaidīta svaidīti svaidīto svaidīts svaidītu svaidītā svaidīšana svaidīšanas svaidīšanā
+42	8542	aizpūst	aizpūsti aizpūsts aizpūstu aizpūt aizpūta aizpūtis aizpūtīs aizpūš jāaizpūš neaizpūstu neaizpūta neaizpūtīs neaizpūš
+43	8543	mājele	mājelei mājeles mājeli mājelē mājelēm mājelēs
+44	8544	pašūt	pašuj pašujam pašuva pašuvis pašuvu pašuvušas pašūta pašūtai pašūtais pašūti pašūts pašūtu pašūtā
+45	8545	saziedot	jāsaziedo nesaziedotu saziedo saziedoja saziedojam saziedojiet saziedojot saziedojām saziedojāt saziedos saziedosim saziedots saziedotu
+46	8546	ortopēdija	ortopēdijai ortopēdijas ortopēdiju ortopēdijā
+47	8547	masieris	masiera masieri masieriem masierim masieru masierus
+48	8548	rūpība	rūpībai rūpības rūpību rūpībā
+49	8549	astrofiziķis	astrofiziķei astrofiziķi astrofiziķiem
+50	8550	spins	spin spina spinu
+51	8551	murrāt	murrā murrādams murrājot murrājošs murrās murrātu murrāšana
+52	8552	spītīgs	spītīga spītīgai spītīgais spītīgajam spītīgam spītīgas spītīgie spītīgo spītīgu spītīgus spītīgā spītīgāk spītīgākam spītīgāki spītīgāko spītīgām spītīgās
+53	8553	drebēt	drebēdams drebēja drebējis drebēju drebējusi drebējām drebēs drebēšana drebēšanu nedrebēja nedrebējuši
+54	8554	reāliste	reālisti reālistu reālistēm
+55	8555	ekvators	ekvatora ekvatoram ekvatoru
+56	8556	nievāt	nievā nievāja nievājams nievājis nievājot nievājošs nievāju nievājuši nievās nievāšana nievāšanas nievāšanu
+57	8557	iedurties	ieduras iedurtos ieduršanās iedūries iedūrās jāieduras
+58	8558	saīdzis	
+59	8559	apvemties	apvemšanās apvemšos apvēmies apvēmos apvēmās neapvēmies
+60	8560	apvemt	apvemj apvemjam apvems apvemsi apvemts apvemtu apvēma
+61	8561	radze	radzes radzēm radžu
+62	8562	barotava	barotavai barotavas barotavu barotavā barotavām barotavās
+63	8563	federatīvs	federatīva federatīvajai federatīvajā federatīvas federatīvo federatīvu federatīvā federatīvām federatīvās
+64	8564	pārstrukturēt	jāpārstrukturē nepārstrukturēs pārstrukturē pārstrukturēja pārstrukturējam pārstrukturējis pārstrukturējot pārstrukturēs pārstrukturēta pārstrukturēti pārstrukturētie pārstrukturēto pārstrukturēts pārstrukturētu pārstrukturēšana pārstrukturēšanas pārstrukturēšanu pārstrukturēšanā
+65	8565	idiotisms	idiotisma idiotismi idiotismiem idiotismu idiotismus idiotismā
+66	8566	pačukstēt	pačukstēja pačukstējis pačukstēju pačukstējusi pačukstējuši pačukstēs pačukstēsi pačukstēsim pačukstētu pačukstēšu
+67	8567	saldināt	jāsaldina nesaldinātu saldina saldiniet saldinās saldināta saldinātam saldinātas saldinātiem saldinātos saldināts saldinātu saldinātus saldinātās saldināšanai
+68	8568	apvilkt	apvelc apvelciet apvelk apvelkams apvelkot apvelku apvilcis apvilka apvilki apvilksi apvilksiet apvilkts apvilktu apvilku apvilkšu jāapvelk neapvelk neapvilcis neapvilka
+69	8569	sakoncentrēties	jāsakoncentrējas sakoncentrējas sakoncentrējies sakoncentrējos sakoncentrējusies sakoncentrējušies sakoncentrējās sakoncentrēsies sakoncentrēsimies sakoncentrētos
+70	8570	volframs	volfram volframa
+71	8571	cēzijs	cēzija cēzijam cēziju
+72	8572	akustika	akustikai akustikas akustiku akustikā
+73	8573	nomērīt	jānomēra nomēra nomēri nomēriet nomērot nomēru nomērāms nomērīja nomērīju nomērīs nomērīsim nomērīts nomērītu nomērīšana nomērīšu
+74	8574	ārpuszemes	
+75	8575	saskriet	nesaskrēja nesaskrēju saskrien saskrienam saskries saskrietu saskrēja
+76	8576	noskumt	jānoskumst noskuma noskumis noskumst noskumstat
+77	8577	uzrādītājs	uzrādītāja uzrādītājam uzrādītāji uzrādītājiem uzrādītāju uzrādītājus
+78	8578	runga	rungai rungas rungu rungām
+79	8579	saslēgties	nesaslēdzas nesaslēdzos nesaslēdzās saslēdzas saslēdzies saslēdzos saslēdzoties saslēdzāmies saslēdzās saslēgsies saslēgsimies saslēgtos saslēgšanās
+80	8580	kurvis	kurvi kurvja kurvjus kurvī
+81	8581	celle	cellei celles celli cellē cellēm ceļļu
+82	8582	apskriet	apskrien apskrieniet apskrienot apskries apskrēja apskrējis apskrēju apskrējām jāapskrien
+83	8583	aizgādāt	aizgādā aizgādāja aizgādājām aizgādās aizgādāta aizgādāti aizgādāts aizgādātu aizgādāšana jāaizgādā
+84	8584	samirkt	nesamirks nesamirkst nesamirktu samircis samirka samirks samirksi samirksim samirkst samirkstot samirkām samirkšana
+85	8585	anēmija	anēmijas anēmiju
+86	8586	hologramma	hologrammas hologrammu hologrammām
+87	8587	svastika	svastikas svastiku
+88	8588	skrimslis	skrimsli skrimslim skrimsļus skrimšļa skrimšļi skrimšļu skrimšļus
+89	8589	sacerēties	nesaceries nesacerieties nesaceros nesacerēsies nesacerēties saceros saceroties sacerējies sacerējos sacerējusies sacerējušies sacerējāties
+90	8590	nosmacēt	nenosmacē nenosmacēja nosmacē nosmacēja nosmacējot nosmacēs nosmacēta nosmacētas
+91	8591	sapost	jāsapoš sapos saposa saposts sapostu saposāt saposīs saposīsim sapoš sapošot
+92	8592	ķemmēt	jāķemmē neķemmē neķemmējiet neķemmēts ķemmē ķemmēja ķemmējam ķemmējami ķemmējamus ķemmēji ķemmējis ķemmējot ķemmēju ķemmējusi ķemmējuši ķemmēsiet ķemmēšana ķemmēšanai ķemmēšanas ķemmēšanu
+93	8593	azbests	azbesta azbestam azbestu
+94	8594	pārstrādāties	nepārstrādājas nepārstrādājies nepārstrādājoties nepārstrādāties pārstrādājas pārstrādājies pārstrādājusies pārstrādājušies pārstrādājās pārstrādāsies pārstrādāšanās
+95	8595	kairinājums	kairinājuma kairinājumam kairinājumiem kairinājumu kairinājumus
+96	8596	provinciāls	provinciāla provinciālais provinciālajai provinciālajām provinciālam provinciālas provinciāli provinciālie provinciālo provinciālos provinciālu provinciālā provinciālāki provinciālām provinciālās
+97	8597	rācenis	rāceni rāceņa rāceņi rāceņiem rāceņu rāceņus
+98	8598	mikroskopisks	mikroskopiska mikroskopiskajā mikroskopiskas mikroskopiski mikroskopiskiem mikroskopisko mikroskopiskos mikroskopisku mikroskopiskus mikroskopiskā mikroskopiskāka mikroskopiskākajam mikroskopiskāko mikroskopiskām mikroskopiskās
+99	8599	pielīst	jāpielien nepielien nepielīda pielien pielieniet pielienot pielienu pielīda pielīdi pielīdis pielīdāt pielīstu pielīšana
+100	8600	aizskaitīt	aizskaita aizskaiti aizskaitot aizskaitīja aizskaitījis aizskaitījusi aizskaitījuši aizskaitīs aizskaitīta aizskaitīti aizskaitīts aizskaitīšu jāaizskaita

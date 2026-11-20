@@ -18,7 +18,7 @@
 18	218	tēvs	tēva tēvam tēvi tēviem tēvos tēvu tēvus tēvā
 19	219	iedzīvotājs	iedzīvotāj iedzīvotāja iedzīvotājam iedzīvotāji iedzīvotājiem iedzīvotājos iedzīvotāju iedzīvotājus
 20	220	ūdens	ūdea ūdeni ūdenim ūdenī ūdeņi ūdeņiem ūdeņos ūdeņu ūdeņus
-21	221	pateikt	nepateica nepateici nepateicis nepateicu nepateicāt nepateiks nepateiksi nepateiksiet nepateikt nepateiktais nepateikto nepateikts nepateiktu nepateikšu pateic pateica pateicat pateici pateicis pateicu pateicām pateicāt pateiks pateiksi pateiksiet pateiksim pateikta pateiktais pateiktas pateikti pateikto pateiktos pateikts pateiktu pateiktā pateikusi pateikušas pateikuši pateikšu
+21	221	pateikt	nepasaka nepasaki nepasakot nepasaku nepasakāt nepateica nepateici nepateicis nepateicu nepateicāt nepateiks nepateiksi nepateiksiet nepateikt nepateikts nepateiktu nepateikšu pateic pateica pateicat pateici pateicis pateicu pateicām pateicāt pateiks pateiksi pateiksiet pateiksim pateiktais pateiktas pateikti pateikto pateiktos pateikts pateiktu pateikusi pateikuši pateikšu
 22	222	piemēram	
 23	223	atgriezties	atgriezas atgriezdamies atgriezies atgriezieties atgriezos atgrieztos atgriezusies atgriezušies atgriezušās atgriezāmies atgriezās atgriezāties atgriezīsies atgriezīsieties atgriezīsimies atgriezīsities atgriezīšos atgriezīšoties atgriešanās atgriežamies atgriežas atgriežaties atgriežos atgriežoties jāatgriežas neatgriezies neatgriezieties neatgriezos neatgriezties neatgrieztos neatgriezās neatgriezāties neatgriezīsies neatgriezīsieties neatgriezīsimies neatgriezīšos neatgriešanās neatgriežas neatgriežos
 24	224	rezultāts	rezultāt rezultāta rezultātam rezultāti rezultātiem rezultātos rezultātu rezultātus rezultātā
@@ -54,13 +54,13 @@
 54	254	miljons	miljon miljona miljonam miljoni miljoniem miljonos miljonu miljonus miljonā
 55	255	eiro	
 56	256	puisis	puisa puisi puisiem puisim puisu puisus puisī puiu puiša puiši puišiem puišos puišu puišus
-57	257	piedot	jāpiedod nepiedeva nepiedod nepiedodama nepiedodami nepiedodamu nepiedodu nepiedos nepiedot nepiedotu nepiedošu piedeva piedevas piedevis piedevu piedevusi piedevām piedevās piedod piedodam piedodama piedodami piedodams piedodat piedodiet piedodot piedodoša piedodošs piedodošā piedodu piedos piedosi piedosiet piedosim piedoti piedots piedotu piedošana piedošu
+57	257	piedot	jāpiedod nepiedeva nepiedod nepiedodama nepiedodami nepiedodamu nepiedodošs nepiedodu nepiedos nepiedot nepiedotu nepiedošu piedeva piedevis piedevu piedevusi piedevām piedod piedodam piedodama piedodami piedodams piedodat piedodiet piedodot piedodoša piedodošs piedodošā piedodu piedos piedosi piedosiet piedosim piedotam piedoti piedots piedotu piedošana piedošu
 58	258	beigas	beigu beigām beigās
 59	259	kultūra	kultūrai kultūras kultūri kultūru kultūrā kultūrām kultūrās
 60	260	filma	filmai filmas filmu filmā filmām filmās
 61	261	sākums	sākuma sākumam sākumi sākumiem sākumos sākumu sākumus sākumā
 62	262	prieks	prieca priecas priek prieka priekam prieki priekiem priekos prieku priekus priekā
-63	263	piedalīties	jāpiedalās nepiedalies nepiedalos nepiedaloties nepiedalāmies nepiedalās nepiedalāties nepiedalījos nepiedalījāmies nepiedalījās nepiedalījāties nepiedalīsies nepiedalīsimies nepiedalīties nepiedalītos nepiedalīšanās nepiedalīšos piedalas piedalies piedalieties piedalos piedaloties piedalāmies piedalās piedalāties piedalījies piedalījos piedalījusies piedalījušies piedalījušās piedalījāmies piedalījās piedalījāties piedalīsies piedalīsieties piedalīsimies piedalītos piedalīšanās piedalīšos
+63	263	piedalīties	jāpiedalās nepiedalies nepiedalos nepiedaloties nepiedalāmies nepiedalās nepiedalāties nepiedalījos nepiedalījāmies nepiedalījās nepiedalījāties nepiedalīsies nepiedalīsimies nepiedalīties nepiedalītos nepiedalīšanās nepiedalīšos piedalies piedalieties piedalos piedaloties piedalāmies piedalās piedalāties piedalījies piedalījos piedalījusies piedalījušies piedalījušās piedalījāmies piedalījās piedalījāties piedalīsies piedalīsieties piedalīsimies piedalītos piedalīšanās piedalīšos piedalīšoties
 64	264	likums	likum likuma likumam likumi likumiem likumos likumu likumus likumā
 65	265	dziesma	dziesmai dziesmam dziesmas dziesmu dziesmā dziesmām dziesmās
 66	266	mērķis	mērķa mērķi mērķiem mērķim mērķos mērķu mērķus mērķī
@@ -77,7 +77,7 @@
 77	277	savukārt	
 78	278	it	
 79	279	darbība	darbībai darbībam darbības darbību darbībā darbībām darbībās
-80	280	izdoties	izdevas izdevies izdevusies izdevušies izdevušos izdevušās izdevās izdodami izdodamās izdodas izdodies izdodos izdodoties izdosies izdotos izdošanās izdošoties jāizdodas neizdevas neizdevies neizdevusies neizdevušies neizdevušos neizdevušās neizdevās neizdodas neizdodoties neizdosies neizdoties neizdotos neizdošanās neizdošoties
+80	280	izdoties	izdevies izdevusies izdevušies izdevušos izdevušās izdevās izdodami izdodamās izdodas izdodies izdodos izdodoties izdosies izdotos izdošanās izdošoties jāizdodas neizdevies neizdevusies neizdevušies neizdevušos neizdevušās neizdevās neizdodas neizdodoties neizdosies neizdoties neizdotos neizdošanās neizdošoties
 81	281	palīdzība	palīdzībai palīdzības palīdzību palīdzībā
 82	282	banka	bankai bankam bankas banku bankā bankām bankās
 83	283	sabiedrība	sabiedrībai sabiedrības sabiedrību sabiedrībā sabiedrībām sabiedrībās
@@ -95,6 +95,6 @@
 95	295	ziņas	ziņam ziņu ziņām ziņās
 96	296	nedaudz	
 97	297	minūte	minūtei minūtes minūti minūtē minūtēm minūtēs minūšu
-98	298	noteikt	nenoteiksi nenoteiktu noteic noteica noteici noteicis noteicošais noteicošā noteicu noteiks noteiksim noteikta noteiktai noteiktais noteiktajai noteiktajam noteiktajiem noteiktajos noteiktajā noteiktajām noteiktam noteiktas noteiktie noteiktiem noteikto noteiktos noteikts noteiktu noteiktus noteiktā noteiktām noteiktās noteikusi noteikuši noteikšana noteikšanai noteikšanas noteikšanu noteikšanā
-99	299	ierasties	censtos ieradas ieradies ierados ieradusies ieradušies ieradušās ieradāmies ieradās ieradāties ieradīsies ieradīsieties ieradīsimies ieradīsities ieradīšos ieradīšoties ierastos ierašanās ierodamies ierodas ierodaties ierodies ierodieties ierodos ierodoties jāierodas neieradies neierados neieradās neieradīsies neieradīsieties neieradīšos neierasties neierastos neierašanās neierodas neierodies neierodos neierodoties
+98	298	noteikt	jānosaka nenosaka nenoteiktu nosakot nosaku nosakāms noteic noteica noteicis noteicošais noteicošā noteiks noteiksim noteikta noteiktai noteiktais noteiktajam noteiktajiem noteiktajos noteiktajā noteiktajām noteiktam noteiktas noteiktie noteiktiem noteikto noteiktos noteikts noteiktu noteiktus noteiktā noteiktām noteiktās noteikusi noteikšana noteikšanai noteikšanas noteikšanu noteikšanā
+99	299	ierasties	censtos ieradies ierados ieradusies ieradušies ieradušās ieradāmies ieradās ieradāties ieradīsies ieradīsieties ieradīsimies ieradīsities ieradīšos ieradīšoties ierastos ierašanās ierodamies ierodas ierodaties ierodies ierodieties ierodos ierodoties jāierodas neieradies neierados neieradušies neieradās neieradīsies neieradīsieties neieradīšos neierasties neierastos neierašanās neierodas neierodies neierodos neierodoties
 100	300	daži	daža dažas

@@ -1,4 +1,4 @@
-1	2201	piegādāt	jāpiedomā jāpiegādā nepiegādā nepiegādāja nepiegādāsiet piedomā piedomājot piedomāju piedomāt piedomāti piedomāts piegādā piegādāja piegādājam piegādāji piegādājiet piegādājis piegādājot piegādāju piegādājusi piegādājuši piegādājām piegādājāt piegādās piegādāsim piegādāta piegādātajiem piegādātajām piegādātas piegādāti piegādātiem piegādāto piegādāts piegādātu piegādātā piegādātās piegādāšanu piegādāšot piegādāšu
+1	2201	pievērsties	jāpievēršas nepievērsies nepievērsties nepievērstos nepievērsās nepievērsīsies nepievēršas nepievēršos nepievēršoties pievērsdamies pievērsies pievērsieties pievērsos pievērstos pievērsusies pievērsušies pievērsušās pievērsāmies pievērsās pievērsāties pievērsīsies pievērsīsieties pievērsīsimies pievērsīšos pievēršamies pievēršanās pievēršas pievēršaties pievēršos pievēršoties
 2	2202	piemist	jāpiemīt nepiemist nepiemistu nepiemita nepiemīt piemistu piemita piemitis piemitīs piemīt piemītot piemītošs
 3	2203	nokrist	jānokrīt nenokrist nenokristos nenokristu nenokrita nenokritis nenokritu nenokritīs nenokritīsi nenokritīšu nenokrīt nenokrīti nokrista nokristos nokristu nokrita nokriti nokritis nokritu nokritām nokritīs nokritīsi nokritīsim nokritīšu nokrizdams nokrišana nokrīt nokrītam nokrītat nokrīti nokrītot nokrītu
 4	2204	arlabunakti	
@@ -6,33 +6,33 @@
 6	2206	mūžīgs	mūžīga mūžīgai mūžīgais mūžīgajai mūžīgajam mūžīgajiem mūžīgajos mūžīgajā mūžīgajām mūžīgajās mūžīgam mūžīgas mūžīgie mūžīgiem mūžīgo mūžīgos mūžīgu mūžīgus mūžīgā mūžīgāka mūžīgāks mūžīgākā mūžīgām mūžīgās vismūžīgākajiem
 7	2207	ziedot	jāziedo neziedot ziedo ziedodams ziedoja ziedojam ziedojat ziedoji ziedojiet ziedojis ziedojot ziedoju ziedojām ziedojāt ziedos ziedosi ziedosiet ziedosim ziedots ziedotu ziedošana ziedošot ziedošu
 8	2208	būtne	būtnei būtnes būtni būtnē būtnēm būtnēs būtņu
-9	2209	apsēdēties	apsēdamies apsēdies apsēdieties apsēžamies apsēžaties apsēžos apsēžoties jāapsēžas neapsēžas neapsēžaties neapsēžos neapsēžoties
-10	2210	aizsargs	aizsardze aizsardzēm aizsardzēs aizsardžu aizsarg aizsarga aizsargam aizsargi aizsargiem aizsargu aizsargus aizsargā
-11	2211	vardarbība	vardarbībai vardarbības vardarbību vardarbībā vardarbībām
-12	2212	pieskatīt	jāpieskata nepieskata nepieskatīja nepieskatīs nepieskatīt nepieskatīta nepieskatītais nepieskatītas nepieskatīti nepieskatītiem nepieskatīts nepieskatītu nepieskatītus pieskata pieskati pieskatiet pieskatot pieskatu pieskatām pieskatīja pieskatīji pieskatījis pieskatīju pieskatījusi pieskatījuši pieskatījām pieskatījāt pieskatīs pieskatīsi pieskatīsiet pieskatīsim pieskatīsit pieskatīta pieskatītas pieskatīti pieskatīts pieskatītu pieskatīšana pieskatīšu
-13	2213	lelle	lellei lelles lelli lellē lellēm lellēs leļļu
-14	2214	elektrisks	elektriska elektriskai elektriskais elektriskajai elektriskajam elektriskajiem elektriskajos elektriskajā elektriskajām elektriskajās elektriskas elektriski elektriskie elektriskiem elektrisko elektriskos elektrisku elektriskus elektriskā elektriskāku elektriskām elektriskās
-15	2215	uzbūvēt	jāuzbūvē neuzbūvē neuzbūvēja neuzbūvējot neuzbūvēju neuzbūvēsi neuzbūvēsim neuzbūvēt neuzbūvēts neuzbūvētu uzbūvē uzbūvēja uzbūvējam uzbūvējat uzbūvēji uzbūvējiet uzbūvējis uzbūvējot uzbūvēju uzbūvējām uzbūvējāt uzbūvēs uzbūvēsi uzbūvēsiet uzbūvēsim uzbūvēts uzbūvētu uzbūvēšana uzbūvēšu
-16	2216	kopiena	kopienai kopienas kopienu kopienā kopienām kopienās
-17	2217	sveikt	jāsveic nesveikt sveic sveica sveicam sveicat sveici sveiciet sveicis sveicot sveicu sveicām sveikdams sveiksim sveikts sveiktu sveikšana sveikšu
-18	2218	baseins	baseina baseinam baseini baseiniem baseinos baseinu baseinus baseinā
-19	2219	šoseja	šosejai šosejas šoseju šosejā šosejām
-20	2220	administrācija	administrācijai administrācijas administrāciju administrācijā administrācijām administrācijās
-21	2221	valks	valk valka valkai valkas valku valkus valkā
-22	2222	pārcelties	jāpārceļas nepārcelsies nepārcelties nepārceltos nepārceļas nepārceļos nepārceļoties nepārcēlos pārcelies pārcelieties pārcelsies pārcelsieties pārcelsimies pārceltos pārcelšanās pārcelšos pārcelšoties pārceļamies pārceļas pārceļaties pārceļos pārceļoties pārcēlies pārcēlos pārcēlusies pārcēlušies pārcēlušās pārcēlāmies pārcēlās pārcēlāties
-23	2223	finansēt	finansē finansēja finansējam finansējat finansējis finansējot finansēju finansējusi finansējušas finansējuši finansējām finansēs finansēsim finansēta finansētais finansētas finansēti finansētie finansēto finansēts finansētu finansētā finansēšana finansēšanai finansēšanas finansēšanu finansēšanā finansēšanās finansēšu jāfinansē nefinansē nefinansēja nefinansējat nefinansēs nefinansētu nefinansēšana nefinansēšanu
-24	2224	ģenerālis	ģenerāla ģenerāli ģenerālim ģenerālu ģenerāļa ģenerāļi ģenerāļiem ģenerāļu ģenerāļus
-25	2225	reāli	
-26	2226	skumjš	skumja skumjai skumjais skumjajiem skumjajā skumjajām skumjajās skumjam skumji skumjie skumjiem skumjo skumjos skumju skumjus skumjā skumjāk skumjāka skumjākai skumjākais skumjākajam skumjākajiem skumjākajām skumjākas skumjāki skumjākie skumjākiem skumjāko skumjāks skumjāku skumjākā skumjām skumjās visskumjāk visskumjākais visskumjākajā visskumjākie visskumjāko visskumjākās
-27	2227	vairākums	vairākum vairākuma vairākumam vairākumiem vairākumu vairākumus vairākumā
-28	2228	akls	akla aklai aklais aklajai aklajam aklajiem aklajos aklajā aklajās aklam aklas akli aklie akliem aklo aklos aklu aklus aklā aklāka aklāks aklām aklās
-29	2229	saglabāties	jāsaglabājas nesaglabājas nesaglabājās nesaglabāsies nesaglabātos saglabājas saglabājies saglabājoties saglabājusies saglabājušies saglabājušās saglabājās saglabāsies saglabātos saglabāšanās
-30	2230	fans	fana fanam fani faniem fanos fanu fanus fanā
-31	2231	aicinājums	aicinājuma aicinājumam aicinājumi aicinājumiem aicinājumos aicinājumu aicinājumus aicinājumā
-32	2232	apkure	apkurei apkures apkuri apkurē apkurēm
-33	2233	cilvēce	cilvēcei cilvēces cilvēci cilvēcē cilvēi
-34	2234	izprast	izprasta izprastas izprasti izprasts izprastu izprata izpratis izpratu izpratusi izpratuši izpratīs izpratīsi izpratīsiet izpratīšu izprašana izprot izprotam izprotams izprotat izproti izprotiet izprotot izprotošs izprotu jāizprot neizprast neizprata neizprati neizpratu neizpratīs neizprot neizprotam neizprotamais neizprotamo neizprotams neizprotamā neizproti neizprotot neizprotu
-35	2235	apsūdzēt	apsūdzēja apsūdzēji apsūdzējis apsūdzēju apsūdzējusi apsūdzējušas apsūdzējuši apsūdzējāt apsūdzēs apsūdzēsi apsūdzēsim apsūdzēta apsūdzētais apsūdzētas apsūdzēti apsūdzētie apsūdzēto apsūdzēts apsūdzētu apsūdzētā apsūdzēšana apsūdzēšanu apsūdzēšu neapsūdzēja neapsūdzēju neapsūdzēs
+9	2209	aizsargs	aizsardze aizsardzēm aizsardzēs aizsardžu aizsarg aizsarga aizsargam aizsargi aizsargiem aizsargu aizsargus aizsargā
+10	2210	vardarbība	vardarbībai vardarbības vardarbību vardarbībā vardarbībām
+11	2211	pieskatīt	jāpieskata nepieskata nepieskatīja nepieskatīs nepieskatīt nepieskatīta nepieskatītais nepieskatītas nepieskatīti nepieskatītiem nepieskatīts nepieskatītu nepieskatītus pieskata pieskati pieskatiet pieskatot pieskatu pieskatām pieskatīja pieskatīji pieskatījis pieskatīju pieskatījusi pieskatījuši pieskatījām pieskatījāt pieskatīs pieskatīsi pieskatīsiet pieskatīsim pieskatīsit pieskatīta pieskatītas pieskatīti pieskatīts pieskatītu pieskatīšana pieskatīšu
+12	2212	lelle	lellei lelles lelli lellē lellēm lellēs leļļu
+13	2213	elektrisks	elektriska elektriskai elektriskais elektriskajai elektriskajam elektriskajiem elektriskajos elektriskajā elektriskajām elektriskajās elektriskas elektriski elektriskie elektriskiem elektrisko elektriskos elektrisku elektriskus elektriskā elektriskāku elektriskām elektriskās
+14	2214	uzbūvēt	jāuzbūvē neuzbūvē neuzbūvēja neuzbūvējot neuzbūvēju neuzbūvēsi neuzbūvēsim neuzbūvēt neuzbūvēts neuzbūvētu uzbūvē uzbūvēja uzbūvējam uzbūvējat uzbūvēji uzbūvējiet uzbūvējis uzbūvējot uzbūvēju uzbūvējām uzbūvējāt uzbūvēs uzbūvēsi uzbūvēsiet uzbūvēsim uzbūvēts uzbūvētu uzbūvēšana uzbūvēšu
+15	2215	kopiena	kopienai kopienas kopienu kopienā kopienām kopienās
+16	2216	sveikt	jāsveic nesveikt sveic sveica sveicam sveicat sveici sveiciet sveicis sveicot sveicu sveicām sveikdams sveiksim sveikts sveiktu sveikšana sveikšu
+17	2217	baseins	baseina baseinam baseini baseiniem baseinos baseinu baseinus baseinā
+18	2218	šoseja	šosejai šosejas šoseju šosejā šosejām
+19	2219	administrācija	administrācijai administrācijas administrāciju administrācijā administrācijām administrācijās
+20	2220	valks	valk valka valkai valkas valku valkus valkā
+21	2221	pārcelties	jāpārceļas nepārcelsies nepārcelties nepārceltos nepārceļas nepārceļos nepārceļoties nepārcēlos pārcelies pārcelieties pārcelsies pārcelsieties pārcelsimies pārceltos pārcelšanās pārcelšos pārcelšoties pārceļamies pārceļas pārceļaties pārceļos pārceļoties pārcēlies pārcēlos pārcēlusies pārcēlušies pārcēlušās pārcēlāmies pārcēlās pārcēlāties
+22	2222	finansēt	finansē finansēja finansējam finansējat finansējis finansējot finansēju finansējusi finansējušas finansējuši finansējām finansēs finansēsim finansēta finansētais finansētas finansēti finansētie finansēto finansēts finansētu finansētā finansēšana finansēšanai finansēšanas finansēšanu finansēšanā finansēšanās finansēšu jāfinansē nefinansē nefinansēja nefinansējat nefinansēs nefinansētu nefinansēšana nefinansēšanu
+23	2223	ģenerālis	ģenerāla ģenerāli ģenerālim ģenerālu ģenerāļa ģenerāļi ģenerāļiem ģenerāļu ģenerāļus
+24	2224	reāli	
+25	2225	skumjš	skumja skumjai skumjais skumjajiem skumjajā skumjajām skumjajās skumjam skumji skumjie skumjiem skumjo skumjos skumju skumjus skumjā skumjāk skumjāka skumjākai skumjākais skumjākajam skumjākajiem skumjākajām skumjākas skumjāki skumjākie skumjākiem skumjāko skumjāks skumjāku skumjākā skumjām skumjās visskumjāk visskumjākais visskumjākajā visskumjākie visskumjāko visskumjākās
+26	2226	vairākums	vairākum vairākuma vairākumam vairākumiem vairākumu vairākumus vairākumā
+27	2227	akls	akla aklai aklais aklajai aklajam aklajiem aklajos aklajā aklajās aklam aklas akli aklie akliem aklo aklos aklu aklus aklā aklāka aklāks aklām aklās
+28	2228	saglabāties	jāsaglabājas nesaglabājas nesaglabājās nesaglabāsies nesaglabātos saglabājas saglabājies saglabājoties saglabājusies saglabājušies saglabājušās saglabājās saglabāsies saglabātos saglabāšanās
+29	2229	fans	fana fanam fani faniem fanos fanu fanus fanā
+30	2230	aicinājums	aicinājuma aicinājumam aicinājumi aicinājumiem aicinājumos aicinājumu aicinājumus aicinājumā
+31	2231	apkure	apkurei apkures apkuri apkurē apkurēm
+32	2232	cilvēce	cilvēcei cilvēces cilvēci cilvēcē cilvēi
+33	2233	izprast	izprasta izprastas izprasti izprasts izprastu izprata izpratis izpratu izpratusi izpratuši izpratīs izpratīsi izpratīsiet izpratīšu izprašana izprot izprotam izprotams izprotat izproti izprotiet izprotot izprotošs izprotu jāizprot neizprast neizprata neizprati neizpratu neizpratīs neizprot neizprotam neizprotamais neizprotamo neizprotams neizprotamā neizproti neizprotot neizprotu
+34	2234	apsūdzēt	apsūdzēja apsūdzēji apsūdzējis apsūdzēju apsūdzējusi apsūdzējušas apsūdzējuši apsūdzējāt apsūdzēs apsūdzēsi apsūdzēsim apsūdzēta apsūdzētais apsūdzētas apsūdzēti apsūdzētie apsūdzēto apsūdzēts apsūdzētu apsūdzētā apsūdzēšana apsūdzēšanu apsūdzēšu neapsūdzēja neapsūdzēju neapsūdzēs
+35	2235	padot	jāpadod nepadeva nepadod nepados nepadotos nepadotu padeva padevi padevis padevu padevuši padevušās padevām padod padodam padodat padodiet padodot padodu pados padosi padosim padota padotais padotajam padotajiem padotajām padotas padoti padotie padotiem padoto padotos padots padotu padotā padotās padošana padošu
 36	2236	rits	rit rita ritam riti ritiem ritos ritu ritus ritā
 37	2237	kaķe	kaa kau kaā kaķes kaķi kaķu
 38	2238	klusēt	jāklusē klusē klusēdams klusēja klusējam klusējat klusēji klusējiet klusējis klusējot klusējošs klusēju klusējām klusējāt klusēs klusēsi klusēsim klusēts klusētu klusēšana klusēšot klusēšu neklusēt
@@ -45,56 +45,56 @@
 45	2245	automobilis	automobili automobilim automobilu automobilī automobiļa automobiļi automobiļiem automobiļos automobiļu automobiļus
 46	2246	šķērsot	jāšķērso nešķērso nešķērsoja nešķērsojiet nešķērsojot nešķērsoju nešķērsos nešķērsosi nešķērsot nešķērsotu šķērso šķērsodama šķērsoja šķērsojam šķērsojams šķērsojamā šķērsoji šķērsojiet šķērsojis šķērsojot šķērsojošiem šķērsojošos šķērsojošā šķērsojošās šķērsoju šķērsojusi šķērsojušam šķērsojušas šķērsojuši šķērsojušā šķērsojām šķērsos šķērsosim šķērsota šķērsotas šķērsots šķērsotu šķērsošana šķērsošu
 47	2247	bagātība	bagātībai bagātības bagātību bagātībā bagātībām bagātībās
-48	2248	otrādi	
-49	2249	valūta	valūtai valūtas valūtu valūtā valūtām valūtās
-50	2250	sēne	sēnei sēnes sēni sēnē sēnēm sēnēs sēņu
-51	2251	kritums	krituma kritumam kritumi kritumiem kritumu kritumus kritumā
-52	2252	skaistums	skaistuma skaistumam skaistumi skaistumiem skaistumu skaistumus skaistumā
-53	2253	lielākoties	
-54	2254	projām	
-55	2255	kase	kasei kases kasi kasu kasē kasēm kasēs kašu
-56	2256	dzimta	dzimtai dzimtas dzimtu dzimtā dzimtām dzimtās
-57	2257	sameklēt	jāsameklē nesameklē nesameklēja nesameklējamas nesameklēji nesameklēju nesameklējāt nesameklēsi nesameklēsiet nesameklēt sameklē sameklēja sameklējam sameklējama sameklējami sameklējams sameklējat sameklēji sameklējiet sameklējis sameklējot sameklēju sameklējusi sameklējušas sameklējuši sameklējām sameklēs sameklēsi sameklēsiet sameklēsim sameklēta sameklētas sameklēti sameklētie sameklēto sameklēts sameklētu sameklēšana sameklēšu
-58	2258	netīrs	netīra netīrai netīrais netīrajai netīrajam netīrajiem netīrajos netīrajā netīrajām netīrajās netīram netīras netīri netīrie netīriem netīro netīros netīru netīrus netīrā netīrāka netīrākais netīrākajiem netīrākajām netīrākas netīrākie netīrāko netīrāks netīrāku netīrākā netīrākās netīrām netīrās visnetīrākais visnetīrāko visnetīrākā visnetīrākās
-59	2259	citāds	citāda citādai citādais citādajam citādajiem citādajā citādajām citādajās citādam citādas citādie citādiem citādo citādos citādu citādus citādā citādāka citādākai citādākajiem citādākam citādākas citādāki citādākie citādākiem citādāko citādākos citādāks citādāku citādākus citādākā citādākām citādākās citādām citādās
-60	2260	princis	princa princi princim princī prinča prinči prinčiem prinčos prinču prinčus
-61	2261	rūpe	rūpei rūpes rūpi rūpju rūpu rūpām rūpē rūpēm rūpēs
-62	2262	fakultāte	fakultātei fakultātes fakultāti fakultātē fakultātēm fakultātēs fakultāšu
-63	2263	izeja	izejai izejas izeju izejā izejām izejās
-64	2264	ieviest	ieviesa
-65	2265	uzrasties	neuzradies neuzradās neuzradīsies neuzrastos neuzrodas uzradas uzradies uzrados uzradusies uzradušies uzradušās uzradāmies uzradās uzradāties uzradīsies uzradīsieties uzradīšos uzrastos uzrašanās uzrodamies uzrodas uzrodaties uzrodies uzrodos uzrodoties
-66	2266	draudzība	draudzībai draudzības draudzību draudzībā draudzībām
-67	2267	arhitekts	arhitekt arhitekta arhitektam arhitekte arhitekti arhitektiem arhitektos arhitektu arhitektus arhitektā
-68	2268	virkne	virknei virknes virkni virknē virknēm virknēs virkņu
-69	2269	dzirkstele	dzirkstelei dzirksteles dzirksteli dzirkstelē dzirkstelēm dzirkstelēs dzirksteļu
-70	2270	dziedātāja	dziedātāj dziedātājai dziedātājam dziedātājas dziedātāji dziedātājiem dziedātājos dziedātājs dziedātāju dziedātājus dziedātājā dziedātājām
-71	2271	izvēlēt	izvēl izvēliet izvēlot izvēlēja izvēlējis izvēlējusi izvēlējušas izvēlējuši izvēlēta izvēlētais izvēlētas izvēlēti izvēlētie izvēlēto izvēlēts izvēlētu izvēlētā izvēlēšanas izvēlēšanu jāizvēl
-72	2272	uzrunāt	jāuzrunā neuzrunā neuzrunāja neuzrunās neuzrunātu uzrunā uzrunādams uzrunāja uzrunājam uzrunājiet uzrunājis uzrunājot uzrunājošs uzrunājošā uzrunāju uzrunājusi uzrunājušas uzrunājuši uzrunājām uzrunās uzrunāsi uzrunāsim uzrunāta uzrunātais uzrunātajiem uzrunātajām uzrunātas uzrunāti uzrunātie uzrunāto uzrunāts uzrunātu uzrunātā uzrunātās uzrunāšana uzrunāšanas uzrunāšanu uzrunāšanā uzrunāšu
-73	2273	grauds	grauda graudam graudi graudiem graudos graudu graudus graudā
-74	2274	strīds	strīda strīdam strīdi strīdiem strīdos strīdu strīdus strīdā
-75	2275	kails	kaila kailai kailais kailajai kailajiem kailajā kailajām kailam kailas kaili kailie kailiem kailo kailos kailu kailus kailā kailāks kailām kailās
-76	2276	plaši	
-77	2277	savējs	savējie savējo savējos
-78	2278	mācēt	jāmāk mācēdams mācēja mācēji mācējis mācēju mācējām mācējāt mācēs mācēsi mācēsiet mācēsim mācētu mācēšana mācēšu māk mākam mākat māki mākiet mākot māku nemācēt
-79	2279	ieinteresēt	ieinteresē ieinteresēja ieinteresējam ieinteresēji ieinteresējiet ieinteresējis ieinteresējot ieinteresējusi ieinteresējušas ieinteresējuši ieinteresēs ieinteresēsi ieinteresēsim ieinteresēta ieinteresētais ieinteresētas ieinteresēti ieinteresētie ieinteresēto ieinteresēts ieinteresētu ieinteresētā ieinteresēšana ieinteresēšanas ieinteresēšanu ieinteresēšanā ieinteresēšu jāieinteresē neieinteresēja neieinteresēt neieinteresēta neieinteresētais neieinteresētas neieinteresēti neieinteresēto neieinteresēts neieinteresētu
-80	2280	radinieks	radiniece radiniecei radinieces radinieci radiniecēm radinieka radiniekam radinieki radiniekiem radinieku radiniekus radiniekā radinieču
-81	2281	spēlēties	jāspēlējas nespēlējamies nespēlējas nespēlējaties nespēlējies nespēlējieties nespēlējos nespēlējoties nespēlējās nespēlēsies nespēlēsimies nespēlēsities nespēlēties nespēlētos nespēlēšos spēlēdamies spēlējamies spēlējas spēlējaties spēlējies spēlējieties spēlējos spēlējoties spēlējāmies spēlējās spēlējāties spēlēsies spēlēsimies spēlētos spēlēšanās spēlēšos
-82	2282	rūpniecība	rūpniecībai rūpniecības rūpniecību rūpniecībā
-83	2283	cūka	cūkai cūkam cūku cūkām cūkās
-84	2284	solījums	solījum solījuma solījumam solījumi solījumiem solījumos solījumu solījumus solījumā
-85	2285	apkaime	apkaimei apkaimes apkaimi apkaimju apkaimē apkaimēm apkaimēs
-86	2286	arhitektūra	arhitektūrai arhitektūras arhitektūru arhitektūrā
-87	2287	salīdzinoši	
-88	2288	federāls	federāla federālai federālais federālajai federālajam federālajiem federālajos federālajā federālajām federālajās federālas federālie federālo federālos federālu federālā federālām federālās
-89	2289	barība	barībai barības barību barībā barībām barībās
-90	2290	žūrija	žūrijai žūrijas žūriju žūrijā žūrijām žūrijās
-91	2291	skābeklis	skābekla skābekli skābeklim skābeklī skābekļa
-92	2292	pieredzēt	jāpieredz nepieredz nepieredzējis nepieredzēta nepieredzēti nepieredzēto nepieredzēts nepieredzētu pieredz pieredzam pieredzot pieredzu pieredzēja pieredzējis pieredzēju pieredzējusi pieredzējusī pieredzējuša pieredzējušai pieredzējušais pieredzējušajiem pieredzējušam pieredzējušas pieredzējuši pieredzējušie pieredzējušiem pieredzējušo pieredzējušu pieredzējušus pieredzējušā pieredzējām pieredzēsiet pieredzēta pieredzētais pieredzētas pieredzēti pieredzēto pieredzēts pieredzētā
-93	2293	interesents	interesenta interesentam interesenti interesentiem interesentu interesentus
-94	2294	prezentācija	prezentācijai prezentācijas prezentāciju prezentācijā prezentācijām prezentācijās
-95	2295	nākamgad	
-96	2296	šķirne	šķirnei šķirnes šķirni šķirnē šķirnēm šķirnēs šķirņu
-97	2297	apziņa	apziņai apziņas apziņu apziņā apziņām apziņās
-98	2298	apavs	apava apavam apavi apaviem apavos apavu apavus apavā
-99	2299	aprēķināt	aprēķina aprēķini aprēķiniet aprēķinot aprēķināja aprēķinājis aprēķināju aprēķinājusi aprēķinājušas aprēķinājuši aprēķinājām aprēķinājāt aprēķinām aprēķināms aprēķinās aprēķināsim aprēķināta aprēķinātais aprēķinātas aprēķināti aprēķinātie aprēķināto aprēķināts aprēķinātu aprēķinātā aprēķināšana aprēķināšanas aprēķināšanu aprēķināšanā jāaprēķina neaprēķina neaprēķinot neaprēķināja neaprēķināju neaprēķinājām neaprēķinām neaprēķināms neaprēķināt neaprēķināta
-100	2300	liegt	jāliedz liedz liedza liedzam liedzat liedzi liedziet liedzis liedzot liedzu liegdams liegs liegsiet liegta liegtas liegti liegto liegts liegtu liegtā liegtās liegusi liegušas lieguši liegšana liegšanas liegšanu liegšu neliedz neliedza neliedziet neliedzot neliedzu neliegs neliegsi neliegsim neliegt neliegtu neliegšu
+48	2248	apmaksāt	apmaksā apmaksāja apmaksājam apmaksājamo apmaksāji apmaksājis apmaksājot apmaksāju apmaksājusi apmaksājuši apmaksājām apmaksās apmaksāsi apmaksāsiet apmaksāta apmaksātais apmaksātajiem apmaksātajā apmaksātajām apmaksātam apmaksātas apmaksāti apmaksātie apmaksātiem apmaksāto apmaksātos apmaksāts apmaksātu apmaksātus apmaksātā apmaksātām apmaksātās apmaksāšu jāapmaksā neapmaksā neapmaksāja neapmaksāta neapmaksāto neapmaksāts
+49	2249	otrādi	
+50	2250	valūta	valūtai valūtas valūtu valūtā valūtām valūtās
+51	2251	sēne	sēnei sēnes sēni sēnē sēnēm sēnēs sēņu
+52	2252	kritums	krituma kritumam kritumi kritumiem kritumu kritumus kritumā
+53	2253	skaistums	skaistuma skaistumam skaistumi skaistumiem skaistumu skaistumus skaistumā
+54	2254	lielākoties	
+55	2255	projām	
+56	2256	sēsties	jāsēžas sēdies sēdieties sēdos sēdusies sēdušies sēdušās sēdāmies sēdās sēdīsies sēdīsieties sēdīsimies sēdīšos sēdīšoties sēstos sēšanās sēžamies sēžas sēžaties sēžos sēžoties
+57	2257	kase	kasei kases kasi kasu kasē kasēm kasēs kašu
+58	2258	dzimta	dzimtai dzimtas dzimtu dzimtā dzimtām dzimtās
+59	2259	sameklēt	jāsameklē nesameklē nesameklēja nesameklējamas nesameklēji nesameklēju nesameklējāt nesameklēsi nesameklēsiet nesameklēt sameklē sameklēja sameklējam sameklējama sameklējami sameklējams sameklējat sameklēji sameklējiet sameklējis sameklējot sameklēju sameklējusi sameklējušas sameklējuši sameklējām sameklēs sameklēsi sameklēsiet sameklēsim sameklēta sameklētas sameklēti sameklētie sameklēto sameklēts sameklētu sameklēšana sameklēšu
+60	2260	netīrs	netīra netīrai netīrais netīrajai netīrajam netīrajiem netīrajos netīrajā netīrajām netīrajās netīram netīras netīri netīrie netīriem netīro netīros netīru netīrus netīrā netīrāka netīrākais netīrākajiem netīrākajām netīrākas netīrākie netīrāko netīrāks netīrāku netīrākā netīrākās netīrām netīrās visnetīrākais visnetīrāko visnetīrākā visnetīrākās
+61	2261	citāds	citāda citādai citādais citādajam citādajiem citādajā citādajām citādajās citādam citādas citādie citādiem citādo citādos citādu citādus citādā citādāka citādākai citādākajiem citādākam citādākas citādāki citādākie citādākiem citādāko citādākos citādāks citādāku citādākus citādākā citādākām citādākās citādām citādās
+62	2262	princis	princa princi princim princī prinča prinči prinčiem prinčos prinču prinčus
+63	2263	rūpe	rūpei rūpes rūpi rūpju rūpu rūpām rūpē rūpēm rūpēs
+64	2264	fakultāte	fakultātei fakultātes fakultāti fakultātē fakultātēm fakultātēs fakultāšu
+65	2265	izeja	izejai izejas izeju izejā izejām izejās
+66	2266	ieviest	ieviesa
+67	2267	draudzība	draudzībai draudzības draudzību draudzībā draudzībām
+68	2268	arhitekts	arhitekt arhitekta arhitektam arhitekte arhitekti arhitektiem arhitektos arhitektu arhitektus arhitektā
+69	2269	virkne	virknei virknes virkni virknē virknēm virknēs virkņu
+70	2270	dzirkstele	dzirkstelei dzirksteles dzirksteli dzirkstelē dzirkstelēm dzirkstelēs dzirksteļu
+71	2271	dziedātāja	dziedātāj dziedātājai dziedātājam dziedātājas dziedātāji dziedātājiem dziedātājos dziedātājs dziedātāju dziedātājus dziedātājā dziedātājām
+72	2272	izvēlēt	izvēl izvēliet izvēlot izvēlēja izvēlējis izvēlējusi izvēlējušas izvēlējuši izvēlēta izvēlētais izvēlētas izvēlēti izvēlētie izvēlēto izvēlēts izvēlētu izvēlētā izvēlēšanas izvēlēšanu jāizvēl
+73	2273	uzrasties	neuzradies neuzradās neuzradīsies neuzrastos neuzrodas uzradies uzrados uzradusies uzradušies uzradušās uzradāmies uzradās uzradāties uzradīsies uzradīsieties uzradīšos uzrastos uzrašanās uzrodamies uzrodas uzrodaties uzrodies uzrodos uzrodoties
+74	2274	uzrunāt	jāuzrunā neuzrunā neuzrunāja neuzrunās neuzrunātu uzrunā uzrunādams uzrunāja uzrunājam uzrunājiet uzrunājis uzrunājot uzrunājošs uzrunājošā uzrunāju uzrunājusi uzrunājušas uzrunājuši uzrunājām uzrunās uzrunāsi uzrunāsim uzrunāta uzrunātais uzrunātajiem uzrunātajām uzrunātas uzrunāti uzrunātie uzrunāto uzrunāts uzrunātu uzrunātā uzrunātās uzrunāšana uzrunāšanas uzrunāšanu uzrunāšanā uzrunāšu
+75	2275	grauds	grauda graudam graudi graudiem graudos graudu graudus graudā
+76	2276	strīds	strīda strīdam strīdi strīdiem strīdos strīdu strīdus strīdā
+77	2277	kails	kaila kailai kailais kailajai kailajiem kailajā kailajām kailam kailas kaili kailie kailiem kailo kailos kailu kailus kailā kailāks kailām kailās
+78	2278	plaši	
+79	2279	savējs	savējie savējo savējos
+80	2280	mācēt	jāmāk mācēdams mācēja mācēji mācējis mācēju mācējām mācējāt mācēs mācēsi mācēsiet mācēsim mācētu mācēšana mācēšu māk mākam mākat māki mākiet mākot māku nemācēt
+81	2281	ieinteresēt	ieinteresē ieinteresēja ieinteresējam ieinteresēji ieinteresējiet ieinteresējis ieinteresējot ieinteresējusi ieinteresējušas ieinteresējuši ieinteresēs ieinteresēsi ieinteresēsim ieinteresēta ieinteresētais ieinteresētas ieinteresēti ieinteresētie ieinteresēto ieinteresēts ieinteresētu ieinteresētā ieinteresēšana ieinteresēšanas ieinteresēšanu ieinteresēšanā ieinteresēšu jāieinteresē neieinteresēja neieinteresēt neieinteresēta neieinteresētais neieinteresētas neieinteresēti neieinteresēto neieinteresēts neieinteresētu
+82	2282	radinieks	radiniece radiniecei radinieces radinieci radiniecēm radinieka radiniekam radinieki radiniekiem radinieku radiniekus radiniekā radinieču
+83	2283	spēlēties	jāspēlējas nespēlējamies nespēlējas nespēlējaties nespēlējies nespēlējieties nespēlējos nespēlējoties nespēlējās nespēlēsies nespēlēsimies nespēlēsities nespēlēties nespēlētos nespēlēšos spēlēdamies spēlējamies spēlējas spēlējaties spēlējies spēlējieties spēlējos spēlējoties spēlējāmies spēlējās spēlējāties spēlēsies spēlēsimies spēlētos spēlēšanās spēlēšos
+84	2284	rūpniecība	rūpniecībai rūpniecības rūpniecību rūpniecībā
+85	2285	cūka	cūkai cūkam cūku cūkām cūkās
+86	2286	solījums	solījum solījuma solījumam solījumi solījumiem solījumos solījumu solījumus solījumā
+87	2287	apkaime	apkaimei apkaimes apkaimi apkaimju apkaimē apkaimēm apkaimēs
+88	2288	arhitektūra	arhitektūrai arhitektūras arhitektūru arhitektūrā
+89	2289	salīdzinoši	
+90	2290	federāls	federāla federālai federālais federālajai federālajam federālajiem federālajos federālajā federālajām federālajās federālas federālie federālo federālos federālu federālā federālām federālās
+91	2291	barība	barībai barības barību barībā barībām barībās
+92	2292	žūrija	žūrijai žūrijas žūriju žūrijā žūrijām žūrijās
+93	2293	skābeklis	skābekla skābekli skābeklim skābeklī skābekļa
+94	2294	pieredzēt	jāpieredz nepieredz nepieredzējis nepieredzēta nepieredzēti nepieredzēto nepieredzēts nepieredzētu pieredz pieredzam pieredzot pieredzu pieredzēja pieredzējis pieredzēju pieredzējusi pieredzējusī pieredzējuša pieredzējušai pieredzējušais pieredzējušajiem pieredzējušam pieredzējušas pieredzējuši pieredzējušie pieredzējušiem pieredzējušo pieredzējušu pieredzējušus pieredzējušā pieredzējām pieredzēsiet pieredzēta pieredzētais pieredzētas pieredzēti pieredzēto pieredzēts pieredzētā
+95	2295	interesents	interesenta interesentam interesenti interesentiem interesentu interesentus
+96	2296	prezentācija	prezentācijai prezentācijas prezentāciju prezentācijā prezentācijām prezentācijās
+97	2297	nākamgad	
+98	2298	šķirne	šķirnei šķirnes šķirni šķirnē šķirnēm šķirnēs šķirņu
+99	2299	apziņa	apziņai apziņas apziņu apziņā apziņām apziņās
+100	2300	apavs	apava apavam apavi apaviem apavos apavu apavus apavā

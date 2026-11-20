@@ -3,7 +3,7 @@
 3	603	karalis	karaa karali karaliene karalienei karalienes karalieni karalienēm karalienēs karalieņu karalim karalu karalī karaļa karaļi karaļiem karaļos karaļu karaļus
 4	604	deja	dejai dejas deju dejus dejā dejām dejās
 5	605	autors	autor autora autoram autore autori autoriem autoru autorus autorā
-6	606	liecināt	jāliecina liecina liecini lieciniet liecinot liecinu liecinādams liecināja liecināji liecinājis liecināju liecinājāt liecinām liecinās liecināsi liecināsiet liecināsim liecināts liecinātu liecināšana liecināšot liecināšu neliecināt
+6	606	liecināt	jāliecina liecina liecini lieciniet liecinot liecinu liecinādams liecināja liecināji liecinājis liecināju liecinājāt liecinām liecinās liecināsi liecināsiet liecināsim liecināts liecinātu liecināšana liecināšot liecināšu neliecinās neliecināt
 7	607	sniegt	jāsniedz nesniegt sniedz sniedza sniedzam sniedzams sniedzat sniedzi sniedziet sniedzis sniedzot sniedzošs sniedzu sniedzām sniedzāt sniegdams sniegsi sniegsiet sniegsim sniegsit sniegts sniegtu sniegšana sniegšot sniegšu
 8	608	garām	
 9	609	zēns	zēn zēna zēnam zēni zēniem zēnos zēnu zēnus zēnā

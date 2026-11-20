@@ -1,100 +1,100 @@
-1	8401	ķemme	ķemmes ķemmi ķemmju ķemmē ķemmēm
-2	8402	narcise	narcises narcisi narcisēm narcišu
-3	8403	skrūvgriezis	skrūvgriezi skrūvgrieža skrūvgrieži skrūvgriežiem skrūvgriežu skrūvgriežus
-4	8404	teicamnieks	teicamnieka teicamniekam teicamnieki teicamniekiem teicamnieku
-5	8405	atbalstīties	atbalstieties atbalstoties atbalstās atbalstījies atbalstījušies atbalstījās atbalstītos atbalstīšanās neatbalstieties neatbalstītos
-6	8406	daiļrunīgs	daiļrunīga daiļrunīgais daiļrunīgajā daiļrunīgas daiļrunīgi daiļrunīgo daiļrunīgos daiļrunīgu daiļrunīgāk daiļrunīgāka daiļrunīgākajos daiļrunīgāks daiļrunīgās visdaiļrunīgāk
-7	8407	apbruņot	apbruņo apbruņoja apbruņojis apbruņosim apbruņots apbruņotu apbruņošana
-8	8408	hercogiste	hercogistes hercogisti hercogistē
-9	8409	papeldēt	papeld papeldam papeldēja papeldējāt papeldēsim papeldēšu
-10	8410	nogulēties	jānoguļas nogulies nogulieties noguļamies noguļas noguļos noguļoties
-11	8411	ciedrs	ciedra ciedri ciedru
-12	8412	repatriācija	repatriācijai repatriācijas repatriāciju repatriācijā
-13	8413	mazuts	mazuta mazutam mazutu mazutā
-14	8414	jūrmalnieks	jūrmalniece jūrmalnieces jūrmalnieci jūrmalniecēm jūrmalnieka jūrmalnieki jūrmalniekiem jūrmalnieku jūrmalniekus
-15	8415	salasīties	nesalasījās salasies salasieties salasos salasoties salasās salasījies salasījos salasījusies salasījušies salasījāmies salasījās salasītos
-16	8416	kajaks	kajaka kajakam kajaki kajakiem kajakos kajaku kajakus kajakā
-17	8417	kvalificēt	jākvalificē kvalificē kvalificēja kvalificējam kvalificējams kvalificējot kvalificējusi kvalificējām kvalificēs kvalificēsim kvalificēšanas kvalificēšanā nekvalificēja nekvalificēta nekvalificētais nekvalificēti nekvalificētie nekvalificēto nekvalificēts nekvalificētu nekvalificētā
-18	8418	stiprība	stiprības stiprību
-19	8419	abpus	
-20	8420	arfa	arfai arfas arfu arfām
-21	8421	kečups	kečupa kečupam kečupi kečupu kečupā
-22	8422	izkūpēt	izkūpēja izkūpējis izkūpējusi izkūpējušas izkūpējuši izkūpēs izkūpēsim izkūpētu izkūpēšanu neizkūpētu
-23	8423	nocitēt	nocitē nocitēja nocitēji nocitēju nocitējuši nocitēs nocitēti nocitēts nocitētu nocitēšu
-24	8424	tauste	taustei taustes tausti
-25	8425	sēņotājs	sēņotāja sēņotājam sēņotāji sēņotājiem sēņotāju sēņotājus
-26	8426	ražība	ražībai ražības ražību ražībā
-27	8427	demonstrants	demonstranti demonstrantiem demonstrantu demonstrantus
-28	8428	uzvija	uzvijas uzviju uzvijās
-29	8429	iniciēt	iniciē iniciēja iniciējam iniciējis iniciējot iniciēs iniciēsim iniciēts iniciētu iniciēšana jāiniciē
-30	8430	saldens	saldena saldenais saldenajiem saldenas saldeno saldenu saldenā saldenās
-31	8431	naski	
-32	8432	pasekot	jāpaseko nepasekoja paseko pasekojam pasekojiet pasekojis pasekoju pasekojām pasekosim pasekotu pasekošu
-33	8433	hronoloģisks	hronoloģiska hronoloģiskais hronoloģiskajam hronoloģiskajiem hronoloģiskajā hronoloģiski hronoloģisko hronoloģisku hronoloģiskā
-34	8434	patraucēt	nepatraucēja nepatraucējam nepatraucēji nepatraucējot nepatraucēju nepatraucēs nepatraucētu nepatraucēšu patraucē patraucēja patraucējis patraucēju patraucējusi patraucējuši patraucēta patraucētu
-35	8435	etniski	
-36	8436	sniegpārsla	sniegpārslas sniegpārslu sniegpārslām sniegpārslās
-37	8437	sūklis	sūkli sūklī sūkļa sūkļi sūkļiem sūkļu sūkļus
-38	8438	smilšpapīrs	smilšpapīra smilšpapīriem smilšpapīru smilšpapīrus smilšpapīrā
-39	8439	blandīties	blandas blandies blandos blandoties blandāmies blandās blandījos blandījusies blandījušies blandījās blandījāties blandīsies blandītos blandīšanās jāblandās neblandās
-40	8440	dārdzība	dārdzībai dārdzības dārdzību dārdzībā
-41	8441	apzvanīt	apzvana apzvani apzvaniet apzvanot apzvanu apzvanām apzvanīja apzvanījis apzvanīju apzvanījusi apzvanījušas apzvanījām apzvanīs apzvanīsi apzvanīti apzvanīto apzvanīšanas apzvanīšanu apzvanīšu jāapzvana neapzvanot
-42	8442	iedalīties	iedalas iedalāmas iedalās iedalījies iedalījušies iedalīsies iedalītos
-43	8443	kalibrēt	kalibrē kalibrēju kalibrēta kalibrēti kalibrētie kalibrēts kalibrētu kalibrēšana kalibrēšanas kalibrēšanu kalibrēšanā nekalibrētais
-44	8444	uzvilkties	jāuzvelkas neuzvelkas neuzvilkties neuzvilktos uzvelcies uzvelkamies uzvelkas uzvilcies uzvilkos uzvilkās uzvilkšanās
-45	8445	izsmēķēt	izsmēķē izsmēķējat izsmēķēji izsmēķējis izsmēķējot izsmēķēju izsmēķētu izsmēķēšana izsmēķēšu
-46	8446	aiztīties	aiztinas aiztinos aiztināmies aiztinās aiztīsies aiztītos
-47	8447	imigrante	imigrantes imigranti imigrantēm
-48	8448	homoseksuālisms	homoseksuālisma homoseksuālismam homoseksuālismu homoseksuālismā
-49	8449	letiņš	letiņa letiņam letiņi letiņiem letiņos letiņu letiņus
-50	8450	koriste	koristei koristes koristi koristēm
-51	8451	filozofiski	
-52	8452	pieskriet	nepieskries pieskrien pieskrienam pieskrienot pieskrienu pieskries pieskrēja pieskrējis pieskrēju pieskrējām pieskrējāt
-53	8453	sainis	saini sainim sainī saiņa saiņi saiņiem saiņos saiņu saiņus
-54	8454	šķērsiela	šķērsielai šķērsielas šķērsielu šķērsielā šķērsielām šķērsielās
-55	8455	baklažāns	baklažāna baklažāni baklažāniem baklažānu baklažānus
-56	8456	pažēlot	nepažēlo nepažēloja nepažēlojiet nepažēlos nepažēlosiet nepažēlot nepažēloti nepažēlošu pažēlo pažēloja pažēloji pažēlojiet pažēlojis pažēlojusi pažēlojuši pažēlojām pažēlos pažēlota pažēloti pažēlotu
-57	8457	tehno	
-58	8458	hieroglifs	hieroglifa hieroglifi hieroglifiem hieroglifos hieroglifu hieroglifus
-59	8459	ierakties	ieracies ierakdamies ieraksies ieraktos ierakās ierakšanās ierakšos ierocies ierokas jāierokas neierocies neierokas
-60	8460	kanibālisms	kanibālisma kanibālismu
-61	8461	ērģelnieks	ērģelnieka ērģelniekam ērģelnieki ērģelniekiem ērģelniekos ērģelnieku ērģelniekus
-62	8462	mikroklimats	mikroklimata mikroklimatam mikroklimatiem mikroklimatu mikroklimatā
-63	8463	saksofons	saksofona saksofonam saksofoni saksofoniem saksofonu
-64	8464	korāns	korāna korānam korānu korānā
-65	8465	ābeļdārzs	ābeļdārza ābeļdārzam ābeļdārzi ābeļdārziem ābeļdārzu ābeļdārzus ābeļdārzā
-66	8466	demagoģija	demagoģijai demagoģijas demagoģiju demagoģijā
-67	8467	internacionāls	internacionāla internacionālai internacionālais internacionālajai internacionālajam internacionālajiem internacionālajos internacionālajā internacionālajām internacionālajās internacionālie internacionālo internacionālu internacionālus internacionālā internacionālāks internacionālāku internacionālās
-68	8468	aizsprosts	aizsprosta aizsprostam aizsprosti aizsprostiem aizsprostos aizsprostu aizsprostus aizsprostā
-69	8469	īgns	īgna īgnais īgnajam īgnajiem īgnas īgni īgnie īgniem īgno īgnos īgnu īgnus īgnā īgnāka
-70	8470	trokšņains	trokšņaina trokšņainai trokšņainajam trokšņainajiem trokšņainajā trokšņainajās trokšņainas trokšņaini trokšņainie trokšņainiem trokšņaino trokšņainos trokšņainu trokšņainā trokšņaināk trokšņaināki trokšņainām trokšņainās
-71	8471	kāravs	kārava
-72	8472	papusdienot	papusdienoja papusdienojam papusdienojiet papusdienojis papusdienoju papusdienojām papusdienosim papusdienotu papusdienošu
-73	8473	zaglīgs	zaglīga zaglīgais zaglīgajai zaglīgajiem zaglīgajām zaglīgie zaglīgo zaglīgu zaglīgus zaglīgā
-74	8474	behemots	begemota begemoti begemots begemotu behemotam behemotu behemotus
-75	8475	virsējs	virsējais virsējam virsējie virsējo virsējā virsējās
-76	8476	kurpnieks	kurpniece kurpniecei kurpnieci kurpnieka kurpniekam kurpnieki kurpniekiem kurpniekos kurpnieku
-77	8477	pediatrs	pediatra pediatram pediatri pediatriem pediatru pediatrus
-78	8478	sniedze	sniedzei sniedzes sniedzēs
-79	8479	valodniecība	valodniecības valodniecību valodniecībā
-80	8480	radiovilnis	radioviļņa radioviļņi radioviļņiem radioviļņos radioviļņu radioviļņus
-81	8481	melnums	melnuma melnumam melnumi melnumiem melnumu melnumus melnumā
-82	8482	patoloģisks	patoloģiska patoloģiskai patoloģiskajā patoloģiskam patoloģiskas patoloģiski patoloģiskiem patoloģisko patoloģiskos patoloģisku patoloģiskā patoloģiskām patoloģiskās
-83	8483	insekts	insekta insekti insektiem insektu insektus
-84	8484	pieklibot	nepieklibo pieklibo pieklibodams piekliboja pieklibojot pieklibojusi pieklibotas
-85	8485	skuveklis	skuvekli skuveklim skuvekļa skuvekļi skuvekļiem skuvekļu skuvekļus
-86	8486	plikums	plikuma plikumi plikumiem plikumu plikumus plikumā
-87	8487	raibums	raibumam raibumi raibumiem raibumu raibumus raibumā
-88	8488	pirdiens	pirdiena pirdienam pirdieni pirdieniem pirdienu
-89	8489	inkvizīcija	inkvizīcijai inkvizīcijas inkvizīciju inkvizīcijā
-90	8490	uzlidot	neuzlido uzlido uzlidoja uzlidojam uzlidojis uzlidojot uzlidoju uzlidojusi uzlidojuši uzlidos
-91	8491	gudrons	gudrona gudronam gudronu
-92	8492	ravēt	jāravē neravē neravēju neravēsim neravēta neravēšu ravē ravēja ravējam ravējot ravēju ravējusi ravējušas ravējuši ravējām ravēs ravēsim ravēta ravētas ravēts ravēšana ravēšanas ravēšanu ravēšanā ravēšu
-93	8493	maiņstrāva	maiņstrāvas maiņstrāvu
-94	8494	sveķi	
-95	8495	pārziemot	nepārziemo nepārziemoja nepārziemos nepārziemot pārziemo pārziemoja pārziemojis pārziemojot pārziemojusi pārziemojušas pārziemojuši pārziemojušie pārziemojām pārziemos pārziemosim pārziemotu pārziemošana
-96	8496	horvātiete	horvāta horvātam horvāti horvātiem horvātietes horvātieti horvātietēm horvāts horvātu horvātus
-97	8497	kustīgi	
-98	8498	bakteriāls	bakteriāla bakteriālais bakteriālajai bakteriālajām bakteriālas bakteriālie bakteriāliem bakteriālo bakteriālu bakteriālā bakteriālām bakteriālās
-99	8499	nelietība	nelietībai nelietības nelietību nelietībā nelietībām nelietībās
-100	8500	pārskriet	nepārskrien nepārskries nepārskrietu pārskrien pārskrienam pārskrienot pārskrienu pārskries pārskriešu pārskrēja pārskrējis pārskrēju
+1	8401	piedāvāties	piedāvājas piedāvājies piedāvājās
+2	8402	jēgt	jēdz jēdza jēdzat jēdzis jēdzu jēguši
+3	8403	grebt	greba grebi grebis grebj grebjam grebju grebsi grebtu grebšana jāgrebj
+4	8404	smacēt	smacē smacēja smacējam smacējuši smacēs smacēta smacēti smacētie smacētu smacēšana smacēšanu
+5	8405	izraisīties	izraisoties izraisās izraisījies izraisījusies izraisījušies izraisījušās izraisījās izraisīsies izraisītos izraisīšanās neizraisījās neizraisītos
+6	8406	rusifikācija	rusifikācijai rusifikācijas rusifikāciju
+7	8407	importētājs	importētāja importētājam importētāji importētājiem importētājos importētāju importētājus
+8	8408	ciklisks	cikliska cikliskajos cikliskajā cikliskajām cikliskas cikliski cikliskie ciklisko cikliskos ciklisku cikliskā cikliskāku cikliskām cikliskās
+9	8409	biezoknis	biezokni biezoknim biezoknī biezokņa biezokņiem biezokņos
+10	8410	fanātisks	fanātiska fanātiskais fanātiskajai fanātiskajos fanātiskajā fanātiskam fanātiskas fanātiski fanātiskie fanātiskiem fanātisko fanātisku fanātiskus fanātiskā fanātiskāk fanātiskākie fanātiskākos fanātiskās visfanātiskākajiem
+11	8411	ķemme	ķemmes ķemmi ķemmju ķemmē ķemmēm
+12	8412	narcise	narcises narcisi narcisēm narcišu
+13	8413	skrūvgriezis	skrūvgriezi skrūvgrieža skrūvgrieži skrūvgriežiem skrūvgriežu skrūvgriežus
+14	8414	teicamnieks	teicamnieka teicamniekam teicamnieki teicamniekiem teicamnieku
+15	8415	atbalstīties	atbalstieties atbalstoties atbalstās atbalstījies atbalstījušies atbalstījās atbalstītos atbalstīšanās neatbalstieties neatbalstītos
+16	8416	daiļrunīgs	daiļrunīga daiļrunīgais daiļrunīgajā daiļrunīgas daiļrunīgi daiļrunīgo daiļrunīgos daiļrunīgu daiļrunīgāk daiļrunīgāka daiļrunīgākajos daiļrunīgāks daiļrunīgās visdaiļrunīgāk
+17	8417	apbruņot	apbruņo apbruņoja apbruņojis apbruņosim apbruņots apbruņotu apbruņošana
+18	8418	hercogiste	hercogistes hercogisti hercogistē
+19	8419	papeldēt	papeld papeldam papeldēja papeldējāt papeldēsim papeldēšu
+20	8420	ciedrs	ciedra ciedri ciedru
+21	8421	repatriācija	repatriācijai repatriācijas repatriāciju repatriācijā
+22	8422	mazuts	mazuta mazutam mazutu mazutā
+23	8423	jūrmalnieks	jūrmalniece jūrmalnieces jūrmalnieci jūrmalniecēm jūrmalnieka jūrmalnieki jūrmalniekiem jūrmalnieku jūrmalniekus
+24	8424	kajaks	kajaka kajakam kajaki kajakiem kajakos kajaku kajakus kajakā
+25	8425	salasīties	nesalasījās salasies salasieties salasos salasoties salasās salasījies salasījos salasījusies salasījušies salasījāmies salasījās
+26	8426	kvalificēt	jākvalificē kvalificē kvalificēja kvalificējam kvalificējams kvalificējot kvalificējusi kvalificējām kvalificēs kvalificēsim kvalificēšanas kvalificēšanā nekvalificēja nekvalificēta nekvalificētais nekvalificēti nekvalificētie nekvalificēto nekvalificēts nekvalificētu nekvalificētā
+27	8427	stiprība	stiprības stiprību
+28	8428	abpus	
+29	8429	arfa	arfai arfas arfu arfām
+30	8430	kečups	kečupa kečupam kečupi kečupu kečupā
+31	8431	izkūpēt	izkūpēja izkūpējis izkūpējusi izkūpējušas izkūpējuši izkūpēs izkūpēsim izkūpētu izkūpēšanu neizkūpētu
+32	8432	nocitēt	nocitē nocitēja nocitēji nocitēju nocitējuši nocitēs nocitēti nocitēts nocitētu nocitēšu
+33	8433	tauste	taustei taustes tausti
+34	8434	sēņotājs	sēņotāja sēņotājam sēņotāji sēņotājiem sēņotāju sēņotājus
+35	8435	ražība	ražībai ražības ražību ražībā
+36	8436	demonstrants	demonstranti demonstrantiem demonstrantu demonstrantus
+37	8437	uzvija	uzvijas uzviju uzvijās
+38	8438	iniciēt	iniciē iniciēja iniciējam iniciējis iniciējot iniciēs iniciēsim iniciēts iniciētu iniciēšana jāiniciē
+39	8439	saldens	saldena saldenais saldenajiem saldenas saldeno saldenu saldenā saldenās
+40	8440	naski	
+41	8441	pasekot	jāpaseko nepasekoja paseko pasekojam pasekojiet pasekojis pasekoju pasekojām pasekosim pasekotu pasekošu
+42	8442	hronoloģisks	hronoloģiska hronoloģiskais hronoloģiskajam hronoloģiskajiem hronoloģiskajā hronoloģiski hronoloģisko hronoloģisku hronoloģiskā
+43	8443	patraucēt	nepatraucēja nepatraucējam nepatraucēji nepatraucējot nepatraucēju nepatraucēs nepatraucētu nepatraucēšu patraucē patraucēja patraucējis patraucēju patraucējusi patraucējuši patraucēta patraucētu
+44	8444	etniski	
+45	8445	sniegpārsla	sniegpārslas sniegpārslu sniegpārslām sniegpārslās
+46	8446	sūklis	sūkli sūklī sūkļa sūkļi sūkļiem sūkļu sūkļus
+47	8447	smilšpapīrs	smilšpapīra smilšpapīriem smilšpapīru smilšpapīrus smilšpapīrā
+48	8448	dārdzība	dārdzībai dārdzības dārdzību dārdzībā
+49	8449	apzvanīt	apzvana apzvani apzvaniet apzvanot apzvanu apzvanām apzvanīja apzvanījis apzvanīju apzvanījusi apzvanījušas apzvanījām apzvanīs apzvanīsi apzvanīti apzvanīto apzvanīšanas apzvanīšanu apzvanīšu jāapzvana neapzvanot
+50	8450	saliekt	jāsaliec nesaliekts salieca saliecam saliecis saliecot saliekts saliektu
+51	8451	kalibrēt	kalibrē kalibrēju kalibrēta kalibrēti kalibrētie kalibrēts kalibrētu kalibrēšana kalibrēšanas kalibrēšanu kalibrēšanā nekalibrētais
+52	8452	uzvilkties	jāuzvelkas neuzvelkas neuzvilkties neuzvilktos uzvelcies uzvelkamies uzvelkas uzvilcies uzvilkos uzvilkās uzvilkšanās
+53	8453	blandīties	blandies blandos blandoties blandāmies blandās blandījos blandījusies blandījušies blandījās blandījāties blandīsies blandītos blandīšanās jāblandās neblandās
+54	8454	izsmēķēt	izsmēķē izsmēķējat izsmēķēji izsmēķējis izsmēķējot izsmēķēju izsmēķētu izsmēķēšana izsmēķēšu
+55	8455	aiztīties	aiztinas aiztinos aiztināmies aiztinās aiztīsies aiztītos
+56	8456	imigrante	imigrantes imigranti imigrantēm
+57	8457	homoseksuālisms	homoseksuālisma homoseksuālismam homoseksuālismu homoseksuālismā
+58	8458	letiņš	letiņa letiņam letiņi letiņiem letiņos letiņu letiņus
+59	8459	koriste	koristei koristes koristi koristēm
+60	8460	filozofiski	
+61	8461	pieskriet	nepieskries pieskrien pieskrienam pieskrienot pieskrienu pieskries pieskrēja pieskrējis pieskrēju pieskrējām pieskrējāt
+62	8462	sainis	saini sainim sainī saiņa saiņi saiņiem saiņos saiņu saiņus
+63	8463	šķērsiela	šķērsielai šķērsielas šķērsielu šķērsielā šķērsielām šķērsielās
+64	8464	baklažāns	baklažāna baklažāni baklažāniem baklažānu baklažānus
+65	8465	pažēlot	nepažēlo nepažēloja nepažēlojiet nepažēlos nepažēlosiet nepažēlot nepažēloti nepažēlošu pažēlo pažēloja pažēloji pažēlojiet pažēlojis pažēlojusi pažēlojuši pažēlojām pažēlos pažēlota pažēloti pažēlotu
+66	8466	tehno	
+67	8467	hieroglifs	hieroglifa hieroglifi hieroglifiem hieroglifos hieroglifu hieroglifus
+68	8468	ierakties	ieracies ierakdamies ieraksies ieraktos ierakās ierakšanās ierakšos ierocies ierokas jāierokas neierocies neierokas
+69	8469	kanibālisms	kanibālisma kanibālismu
+70	8470	ērģelnieks	ērģelnieka ērģelniekam ērģelnieki ērģelniekiem ērģelniekos ērģelnieku ērģelniekus
+71	8471	mikroklimats	mikroklimata mikroklimatam mikroklimatiem mikroklimatu mikroklimatā
+72	8472	saksofons	saksofona saksofonam saksofoni saksofoniem saksofonu
+73	8473	korāns	korāna korānam korānu korānā
+74	8474	ābeļdārzs	ābeļdārza ābeļdārzam ābeļdārzi ābeļdārziem ābeļdārzu ābeļdārzus ābeļdārzā
+75	8475	demagoģija	demagoģijai demagoģijas demagoģiju demagoģijā
+76	8476	internacionāls	internacionāla internacionālai internacionālais internacionālajai internacionālajam internacionālajiem internacionālajos internacionālajā internacionālajām internacionālajās internacionālie internacionālo internacionālu internacionālus internacionālā internacionālāks internacionālāku internacionālās
+77	8477	aizsprosts	aizsprosta aizsprostam aizsprosti aizsprostiem aizsprostos aizsprostu aizsprostus aizsprostā
+78	8478	īgns	īgna īgnais īgnajam īgnajiem īgnas īgni īgnie īgniem īgno īgnos īgnu īgnus īgnā īgnāka
+79	8479	trokšņains	trokšņaina trokšņainai trokšņainajam trokšņainajiem trokšņainajā trokšņainajās trokšņainas trokšņaini trokšņainie trokšņainiem trokšņaino trokšņainos trokšņainu trokšņainā trokšņaināk trokšņaināki trokšņainām trokšņainās
+80	8480	kāravs	kārava
+81	8481	papusdienot	papusdienoja papusdienojam papusdienojiet papusdienojis papusdienoju papusdienojām papusdienosim papusdienotu papusdienošu
+82	8482	zaglīgs	zaglīga zaglīgais zaglīgajai zaglīgajiem zaglīgajām zaglīgie zaglīgo zaglīgu zaglīgus zaglīgā
+83	8483	behemots	begemota begemoti begemots begemotu behemotam behemotu behemotus
+84	8484	virsējs	virsējais virsējam virsējie virsējo virsējā virsējās
+85	8485	kurpnieks	kurpniece kurpniecei kurpnieci kurpnieka kurpniekam kurpnieki kurpniekiem kurpniekos kurpnieku
+86	8486	pediatrs	pediatra pediatram pediatri pediatriem pediatru pediatrus
+87	8487	sniedze	sniedzei sniedzes sniedzēs
+88	8488	valodniecība	valodniecības valodniecību valodniecībā
+89	8489	radiovilnis	radioviļņa radioviļņi radioviļņiem radioviļņos radioviļņu radioviļņus
+90	8490	melnums	melnuma melnumam melnumi melnumiem melnumu melnumus melnumā
+91	8491	patoloģisks	patoloģiska patoloģiskai patoloģiskajā patoloģiskam patoloģiskas patoloģiski patoloģiskiem patoloģisko patoloģiskos patoloģisku patoloģiskā patoloģiskām patoloģiskās
+92	8492	insekts	insekta insekti insektiem insektu insektus
+93	8493	pieklibot	nepieklibo pieklibo pieklibodams piekliboja pieklibojot pieklibojusi pieklibotas
+94	8494	skuveklis	skuvekli skuveklim skuvekļa skuvekļi skuvekļiem skuvekļu skuvekļus
+95	8495	liekties	jāliecas liecamies liecas liecos liecoties liecās liekdamies lieksies liekšanās neliecas neliecoties nelieksies
+96	8496	plikums	plikuma plikumi plikumiem plikumu plikumus plikumā
+97	8497	raibums	raibumam raibumi raibumiem raibumu raibumus raibumā
+98	8498	pirdiens	pirdiena pirdienam pirdieni pirdieniem pirdienu
+99	8499	inkvizīcija	inkvizīcijai inkvizīcijas inkvizīciju inkvizīcijā
+100	8500	uzlidot	neuzlido uzlido uzlidoja uzlidojam uzlidojis uzlidojot uzlidoju uzlidojusi uzlidojuši uzlidos

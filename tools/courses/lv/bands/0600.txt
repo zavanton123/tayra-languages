@@ -1,5 +1,5 @@
 1	501	vērtība	vērtībai vērtībam vērtības vērtību vērtībā vērtībām vērtībās
-2	502	rasties	censtos jārodas neradas neradies neradusies neradās neradīsies neradīšoties nerasties nerodas nerodoties radas radies rados radusies radušies radās radīsies radīšoties rašanās rodamies rodas rodaties rodies rodoties
+2	502	rasties	censtos jārodas neradies neradusies neradās neradīsies neradīšoties nerasties nerodas nerodoties radies rados radusies radušies radās radīsies radīšoties rašanās rodamies rodas rodaties rodies rodoties
 3	503	pazīt	jāpazīst nepazina nepazini nepazinu nepazināt nepazīs nepazīsi nepazīsiet nepazīsim nepazīst nepazīstam nepazīstams nepazīstat nepazīsti nepazīstiet nepazīstot nepazīstu nepazīt nepazītu pazina pazini pazinis pazinu pazinām pazināt pazīs pazīsi pazīsiet pazīsim pazīst pazīstam pazīstams pazīstat pazīsti pazīstot pazīstu pazītu pazīšana pazīšu
 4	504	izveidot	izveido izveidoja izveidojam izveidojat izveidoji izveidojiet izveidojis izveidojot izveidoju izveidojusi izveidojušas izveidojuši izveidojām izveidojāt izveidos izveidosi izveidosiet izveidosim izveidota izveidotais izveidotas izveidoti izveidotie izveidoto izveidots izveidotu izveidotā izveidošana izveidošanas izveidošanu izveidošanā izveidošot izveidošu jāizveido neizveido neizveidoja neizveidos neizveidot neizveidošanu
 5	505	stāvēt	jāstāv nestāv nestāvi nestāviet nestāvēja nestāvētu stāv stāvam stāvat stāvi stāviet stāvot stāvoša stāvošai stāvošais stāvoši stāvošie stāvošiem stāvošo stāvošs stāvošu stāvošā stāvu stāvēja stāvēji stāvējis stāvēju stāvējusi stāvējuši stāvējām stāvēs stāvēsi stāvēsim stāvētu stāvēšana stāvēšanai stāvēšanas stāvēšanu stāvēšu
@@ -36,7 +36,7 @@
 36	536	prast	jāprot neprast neprastu neprata neprati nepratu nepratām nepratīs nepratīsi neprot neprotam neprotat neproti neprotot neprotu prasta prastam prastas prasti prastie prasts prastu prata prati pratis pratu pratusi pratuši pratām pratīs pratīsi pratīsim pratīšu prot protam protat proti protot protu
 37	537	cīnīties	cīnies cīnieties cīnos cīnoties cīnāmies cīnās cīnāties cīnīdamies cīnījies cīnījos cīnījāmies cīnījās cīnījāties cīnīsies cīnīsieties cīnīsimies cīnīsities cīnītos cīnīšanās cīnīšos cīnīšoties jācīnoties jācīnās necīnīties
 38	538	saule	saui saulei saules sauli saulē saulēm saulēs saulīte saulītei saulītes saulīti saulītē saulītēm saulītēs saulīšu sauļu
-39	539	iepazīties	iepazinas iepazinies iepazinos iepazināmies iepazinās iepazināties iepazīsies iepazīsieties iepazīsimies iepazīstamies iepazīstas iepazīstaties iepazīsties iepazīstieties iepazīstos iepazīstoties iepazītos iepazīšanās iepazīšos iepazīšoties jāiepazīstas neiepazinies neiepazinos neiepazināmies neiepazīstoties neiepazīties neiepazītos
+39	539	iepazīties	iepazinies iepazinos iepazināmies iepazinās iepazināties iepazīsies iepazīsieties iepazīsimies iepazīstamies iepazīstas iepazīstaties iepazīsties iepazīstieties iepazīstos iepazīstoties iepazītos iepazīšanās iepazīšos iepazīšoties jāiepazīstas neiepazinies neiepazinos neiepazināmies neiepazīstoties neiepazīties neiepazītos
 40	540	turēt	jātur netur neturi neturu neturēs neturēt turam turamais turamajiem turamie turamo turamā turat turi turiet turot turu turēja turēji turējis turēju turējusi turējuši turēs turēsi turēsim turēta turētais turētas turēti turēto turētos turēts turētu turētā turēšana turēšanas turēšanu turēšu
 41	541	izvēle	izvēlei izvēles izvēli izvēlē izvēlēm izvēlēs izvēļu
 42	542	krāsa	krāsai krāsam krāsas krāsi krāsu krāsus krāsā krāsām krāsās
@@ -67,14 +67,14 @@
 67	567	īsti	
 68	568	dzīvība	dzīvībai dzīvības dzīvību dzīvībā dzīvībām dzīvībās
 69	569	pārvalde	pārvaldei pārvaldes pārvaldi pārvaldē pārvaldēm pārvaldēs pārvalžu
-70	570	nākties	nenācies nenācās nenākas nenākoties nenāksies nenākšoties nācas nācies nācās nākas nākies nākoties nāksies nākušies nākšanās nākšoties
-71	571	nodot	jānodod nenodeva nenodevi nenodod nenodos nenodošu nodeva nodevas nodevi nodevies nodevis nodevu nodevusi nodevusies nodevuši nodevām nodod nododam nododas nododiet nododot nododu nodomu nodos nodosi nodosiet nodosim nodota nodotas nodoti nodoties nodoto nodotos nodots nodotu nodotās nodošana nodošanās nodošu
+70	570	nākties	nenācies nenācās nenākas nenākoties nenāksies nenākšoties nācies nācās nākas nākoties nāksies nākušies nākšanās nākšoties
+71	571	nodot	jānodod nenodeva nenodevi nenodevu nenodod nenodos nenodosi nenodotu nenodošu nodeva nodevi nodevis nodevu nodevusi nodevuši nodevām nodevāt nodod nododam nododams nododiet nododot nododu nodomu nodos nodosi nodosiet nodosim nodota nodotas nodoti nodoto nodotos nodots nodotu nodotā nodotās nodošana nodošu
 72	572	klubs	klub kluba klubam klubi klubiem klubos klubu klubus klubā
 73	573	ilgs	ilga ilgai ilgais ilgajai ilgajam ilgajiem ilgajos ilgajā ilgajām ilgajās ilgam ilgas ilgie ilgiem ilgo ilgos ilgu ilgus ilgā ilgāk ilgāka ilgākai ilgākais ilgākam ilgākas ilgāki ilgākiem ilgāko ilgāks ilgāku ilgākus ilgākā ilgākām ilgākās ilgām ilgās visilgāk visilgākais visilgāko
 74	574	brīvība	brīvībai brīvības brīvību brīvībā brīvībām brīvībās
 75	575	viedoklis	viedokla viedokli viedoklim viedoklu viedoklus viedoklī viedokļa viedokļi viedokļiem viedokļos viedokļu viedokļus
-76	576	iedot	iedeva iedevi iedevis iedevu iedevusi iedevuši iedevām iedevās iedevāt iedod iedodam iedodat iedodiet iedodot iedodu iedomu iedos iedosi iedosiet iedosim iedosit iedota iedotajām iedotas iedoti iedoto iedots iedotu iedotā iedotās iedošu jāiedod neiedeva neiedevi neiedevu neiedevāt neiedod neiedos neiedot
-77	577	pārdot	jāpārdod nepārdevu nepārdod nepārdodam nepārdodu nepārdos nepārdosim nepārdot nepārdošu pārdeva pārdevi pārdevies pārdevis pārdevu pārdevusi pārdevuši pārdevām pārdod pārdodam pārdodams pārdodat pārdodiet pārdodot pārdodu pārdos pārdosi pārdosiet pārdosim pārdota pārdotais pārdotas pārdoti pārdoto pārdots pārdotu pārdotā pārdotās pārdošana pārdošu
+76	576	iedot	iedeva iedevi iedevis iedevu iedevusi iedevušas iedevuši iedevām iedevāt iedod iedodam iedodat iedodiet iedodot iedodu iedomu iedos iedosi iedosiet iedosim iedosit iedota iedotajām iedotas iedoti iedoto iedots iedotu iedotā iedotās iedošu jāiedod neiedeva neiedevi neiedevu neiedevāt neiedod neiedos neiedot
+77	577	pārdot	jāpārdod nepārdevu nepārdod nepārdodam nepārdodu nepārdos nepārdosim nepārdot nepārdošu pārdeva pārdevi pārdevis pārdevu pārdevusi pārdevuši pārdevām pārdevāt pārdod pārdodam pārdodams pārdodat pārdodiet pārdodot pārdodu pārdos pārdosi pārdosiet pārdosim pārdota pārdotais pārdotas pārdoti pārdoto pārdots pārdotu pārdotā pārdotās pārdošana pārdošu
 78	578	šurp	
 79	579	stāvoklis	stāvoki stāvokli stāvokliem stāvoklim stāvoklī stāvokļa stāvokļi stāvokļiem stāvokļos stāvokļu stāvokļus
 80	580	seši	sešas sešiem sešos sešu sešus sešām sešās
@@ -86,7 +86,7 @@
 86	586	sekot	jāseko neseko nesekoja nesekojam nesekoji nesekojiet nesekojot nesekoju nesekojāt nesekos nesekosim nesekotu nesekošu seko sekoja sekojam sekojat sekoji sekojiet sekojis sekojot sekojošs sekoju sekojusi sekojušas sekojuši sekojām sekojāt sekos sekosi sekosiet sekosim sekoto sekots sekotu sekošana sekošanas sekošanu sekošu
 87	587	patiešām	
 88	588	piedāvājums	piedāvājum piedāvājuma piedāvājumam piedāvājumi piedāvājumiem piedāvājumos piedāvājumu piedāvājumus piedāvājumā
-89	589	mēģināt	mēģina mēģinot mēģināja mēģinājis mēģināju mēģināts
+89	589	mēģināt	mēģina mēģinot mēģināja mēģinājis mēģināju mēģinās mēģināts nemēģinās
 90	590	citādi	citādāk
 91	591	desmit	desmitiem desmitos
 92	592	drošs	drosa drosi droša drošai drošais drošajā drošajās drošam drošas drošiem drošo drošos drošu drošus drošā drošāk drošāka drošākai drošākais drošākajiem drošākajā drošākajām drošākam drošākas drošāki drošākiem drošāko drošāks drošāku drošākus drošākā drošākām drošām drošās visdrošāk visdrošāka visdrošākais visdrošākajām visdrošākā

@@ -19,7 +19,7 @@
 19	1219	būtisks	būtiska būtiskai būtiskais būtiskajam būtiskajiem būtiskajos būtiskajā būtiskajām būtiskam būtiskas būtiskie būtiskiem būtisko būtiskos būtisku būtiskus būtiskā būtiskāk būtiskāka būtiskākais būtiskākajiem būtiskākajām būtiskākajās būtiskākas būtiskāki būtiskākie būtiskāko būtiskākos būtiskāks būtiskāku būtiskākā būtiskākās būtiskām būtiskās visbūtiskāk visbūtiskākais visbūtiskāko visbūtiskākā visbūtiskākās
 20	1220	glezna	gleznai gleznas glezni gleznu gleznus gleznā gleznām gleznās
 21	1221	atšķirīgs	atšķirīga atšķirīgai atšķirīgais atšķirīgajai atšķirīgajam atšķirīgajiem atšķirīgajos atšķirīgajā atšķirīgajām atšķirīgajās atšķirīgam atšķirīgas atšķirīgi atšķirīgie atšķirīgiem atšķirīgo atšķirīgos atšķirīgu atšķirīgus atšķirīgā atšķirīgāk atšķirīgāka atšķirīgākais atšķirīgākas atšķirīgāki atšķirīgākie atšķirīgākiem atšķirīgākos atšķirīgāks atšķirīgāku atšķirīgākus atšķirīgām atšķirīgās visatšķirīgākajiem visatšķirīgākajās visatšķirīgākie visatšķirīgāko visatšķirīgākos visatšķirīgākās
-22	1222	dalīties	dalas dalies dalieties dalos daloties dalāmies dalās dalāties dalīdamies dalījas dalījies dalījos dalījusies dalījušies dalījāmies dalījās dalījāties dalīsies dalīsieties dalīsimies dalītos dalīšanās dalīšos dalīšoties jādalās nedalies nedalos nedaloties nedalāmies nedalās nedalījās nedalīsies nedalīsimies nedalīties nedalīšanās nedalīšos
+22	1222	dalīties	dalies dalieties dalos daloties dalāmies dalās dalāties dalīdamies dalījies dalījos dalījusies dalījušies dalījāmies dalījās dalījāties dalīsies dalīsieties dalīsimies dalītos dalīšanās dalīšos dalīšoties jādalās nedalies nedalos nedaloties nedalāmies nedalās nedalījās nedalīsies nedalīsimies nedalīties nedalīšanās nedalīšos
 23	1223	piemērot	jāpiemēro nepiemēro nepiemēroja nepiemērojam nepiemērojot nepiemēros nepiemērota nepiemērotas nepiemēroti nepiemērotie nepiemēroto nepiemērots nepiemērotu nepiemērotā nepiemērošanu piemēro piemēroja piemērojam piemērojams piemērojis piemērojot piemērojusi piemērojušas piemērojuši piemērojām piemērosim piemērota piemērotais piemērotas piemēroti piemērotie piemēroto piemērots piemērotu piemērotā piemērošana piemērošanas piemērošanu piemērošanā
 24	1224	bērnība	bērnībai bērnības bērnību bērnībā bērnībās
 25	1225	sīks	sīka sīkai sīkais sīkajai sīkajam sīkajiem sīkajām sīkam sīkas sīkie sīkiem sīko sīkos sīku sīkus sīkā sīkāk sīkāka sīkākai sīkākais sīkākajai sīkākajam sīkākajām sīkākas sīkāki sīkākiem sīkāko sīkākos sīkāks sīkāku sīkākus sīkākā sīkākās sīkām sīkās vissīkākajām vissīkāko vissīkākā vissīkākās
@@ -38,7 +38,7 @@
 38	1238	solīt	jāsola nesolīt sola soliet solot sološs solu solām solāt solīdams solīja solīji solījis solīju solījām solījāt solīs solīsi solīsim solīts solītu solīšana solīšu
 39	1239	izstrādāt	izstrādā izstrādāja izstrādājam izstrādāji izstrādājiet izstrādājis izstrādājot izstrādāju izstrādājusi izstrādājušas izstrādājuši izstrādājām izstrādās izstrādāsi izstrādāsim izstrādāta izstrādātais izstrādātajai izstrādātajam izstrādātajiem izstrādātajā izstrādātajām izstrādātam izstrādātas izstrādāti izstrādātie izstrādātiem izstrādāto izstrādātos izstrādāts izstrādātu izstrādātus izstrādātā izstrādātām izstrādātās izstrādāšana izstrādāšu jāizstrādā neizstrādātu
 40	1240	instruments	instrument instrumenta instrumentam instrumenti instrumentiem instrumentos instrumentu instrumentus instrumentā
-41	1241	iesacīt	iesacīja iesaka iesaki iesakiet iesakot iesaku iesakām iesakāma iesakāmas iesakāmi iesakāms iesakāt jāiesaka neiesaka neiesakiet neiesakot neiesaku neiesakām neiesakāt
+41	1241	iesacīt	iesacīja iesaka iesaku
 42	1242	meli	meliem melos melu melus melā
 43	1243	masa	masai masas masu masā masām masās
 44	1244	ienākt	ienāc ienāca ienāci ienāciet ienācis ienācu ienācām ienācāt ienāk ienākam ienākat ienākot ienākošais ienākošajiem ienākošie ienākošo ienākošos ienākošs ienākošu ienākošā ienākošās ienāks ienāksi ienāksiet ienāksit ienāktu ienāku ienākusi ienākušas ienākuši ienākšana ienākšu jāienāk neienāca neienāk neienāks neienākt neienāktos neienāktu
@@ -65,7 +65,7 @@
 65	1265	brokastis	brokai brokas brokastu brokastīm brokastīs
 66	1266	dzelzceļš	dzelzceļa dzelzceļam dzelzceļi dzelzceļiem dzelzceļos dzelzceļu dzelzceļus dzelzceļā
 67	1267	atļauja	atļaujai atļaujas atļauju atļaujā atļaujām atļaujās
-68	1268	gadīties	gadas gadies gadoties gadās gadījas gadījies gadījos gadījusies gadījušies gadījušās gadījāmies gadījās gadījāties gadīsies gadīsieties gadītos gadīšos negadas negadoties negadās negadījās negadīsies negadīties negadītos
+68	1268	gadīties	gadies gadoties gadās gadījies gadījos gadījusies gadījušies gadījušās gadījāmies gadījās gadījāties gadīsies gadīsieties gadītos gadīšos negadoties negadās negadījās negadīsies negadīties negadītos
 69	1269	planēta	planētai planētam planētas planētu planētā planētām planētās
 70	1270	skanēt	jāskan neskanēt skan skanam skanat skani skanot skanošs skanu skanēja skanējis skanēju skanējām skanēs skanēsim skanēts skanētu skanēšana skanēšot skanēšu
 71	1271	slēpties	jāslēpjas neslēpdamies neslēpies neslēpieties neslēpjamies neslēpjas neslēpjos neslēpjoties neslēpos neslēpsies neslēpsimies neslēpties neslēpāmies neslēpās neslēpšos slēpdamies slēpies slēpieties slēpjamies slēpjas slēpjaties slēpjos slēpjoties slēpos slēpsies slēpsimies slēptos slēpusies slēpušies slēpāmies slēpās slēpšanās slēpšos

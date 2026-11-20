@@ -1,100 +1,100 @@
-1	5701	pasākt	nepasāc nepasāk nepasāks nepasāksi pasāc pasācis pasāk pasāka pasākams pasākot pasāks pasāksi pasāksim pasākts pasāktu pasāku pasākusi pasākušas pasākuši pasākām pasākāt pasākšu
-2	5702	kaktuss	kaktus kaktusa kaktusam kaktusi kaktusiem kaktusu kaktusus
-3	5703	sakropļot	nesakropļo nesakropļoju nesakropļotu sakropļo sakropļoja sakropļojis sakropļojot sakropļojusi sakropļojuši sakropļos sakropļosi sakropļota sakropļotais sakropļotas sakropļoti sakropļotie sakropļoto sakropļots sakropļotu sakropļotā sakropļošana sakropļošanas sakropļošanu sakropļošanā
-4	5704	kanoe	
-5	5705	košļāt	jākošļā košļā košļājat košļājiet košļājis košļājot košļāju košļājuši košļājām košļās košļāti košļātu košļāšana košļāšanas košļāšanu košļāšanā nekošļā
-6	5706	diskvalifikācija	diskvalifikācijai diskvalifikācijas diskvalifikāciju diskvalifikācijām
-7	5707	miermīlīgs	miermīlīga miermīlīgais miermīlīgajai miermīlīgajam miermīlīgajiem miermīlīgajā miermīlīgam miermīlīgas miermīlīgi miermīlīgie miermīlīgiem miermīlīgo miermīlīgos miermīlīgu miermīlīgus miermīlīgā miermīlīgāk miermīlīgāka miermīlīgākais miermīlīgākajiem miermīlīgāko miermīlīgāks miermīlīgāku miermīlīgākā miermīlīgām miermīlīgās vismiermīlīgākajai vismiermīlīgākajā vismiermīlīgākie vismiermīlīgākā
-8	5708	žēloties	jāžēlojas nežēlojamies nežēlojas nežēlojies nežēlojieties nežēlojos nežēlojoties nežēlojās nežēlosimies nežēloties žēlodamies žēlojamies žēlojas žēlojaties žēlojies žēlojos žēlojoties žēlojusies žēlojušies žēlojās žēlosies žēlotos žēlošanās
-9	5709	uzlaist	neuzlaida neuzlaiž uzlaid uzlaida uzlaidi uzlaidis uzlaidu uzlaidām uzlaidīs uzlaidīsi uzlaidīsim uzlaidīšu uzlaists uzlaistu uzlaiž uzlaižam uzlaižot
-10	5710	t-krekls	t-krekla t-kreklam t-krekli t-krekliem t-kreklos t-kreklu t-kreklus t-kreklā tkrekla tkreklu tkreklā
-11	5711	netīrums	netīrumi netīrumiem netīrumos netīrumu netīrumus
-12	5712	ziņkārība	ziņkārībai ziņkārības ziņkārību ziņkārībā
-13	5713	tāme	tāmei tāmes tāmi tāmju tāmē tāmēm tāmēs
-14	5714	piezīmēt	jāpiezīmē nepiezīmēt piezīmē piezīmēja piezīmējam piezīmējams piezīmējiet piezīmējis piezīmējot piezīmēju piezīmējām piezīmēs piezīmēsim piezīmēts piezīmēšu
-15	5715	spāre	spāres spāri spāru spārē spārēm spārēs
-16	5716	viltotājs	viltotāja viltotāji viltotājiem viltotāju viltotājus
-17	5717	piedurkne	piedurknei piedurknes piedurkni piedurknē piedurknēm piedurknēs piedurkņu
-18	5718	rauties	jāraujas neraujamies neraujas neraujies neraujos neraujoties nerausies nerāvos nerāvāmies nerāvās raudamies raujamies raujas raujaties raujies raujos raujoties rausies rausimies rautos raušanās raušoties rāvas rāvies rāvos rāvāmies rāvās rāvāties
-19	5719	aizmirsties	aizmirsas aizmirsies aizmirsos aizmirstoties aizmirsusies aizmirsušies aizmirsās aizmirsīsies neaizmirsties neaizmirsīsies
-20	5720	uzplaukt	neuzplauka neuzplauks neuzplaukst uzplauka uzplauks uzplauksi uzplaukst uzplaukstam uzplauksti uzplaukstot uzplaukstošs uzplaukstu uzplauktu uzplauku uzplaukām uzplaukšana
-21	5721	statistisks	statistiska statistiskais statistiskajai statistiskajam statistiskajiem statistiskajos statistiskajā statistiskajās statistiskam statistiskas statistiski statistiskie statistiskiem statistisko statistiskos statistisku statistiskā statistiskām statistiskās
-22	5722	moderni	
-23	5723	ideoloģisks	ideoloģiska ideoloģiskai ideoloģiskais ideoloģiskajai ideoloģiskajiem ideoloģiskajos ideoloģiskajā ideoloģiskajām ideoloģiskas ideoloģiski ideoloģiskie ideoloģiskiem ideoloģisko ideoloģiskos ideoloģisku ideoloģiskus ideoloģiskā ideoloģiskām ideoloģiskās
-24	5724	datorspēle	datorspēlei datorspēles datorspēli datorspēlē datorspēlēm datorspēlēs datorspēļu
-25	5725	kvadrāts	kvadrāt kvadrāta kvadrātam kvadrāti kvadrātiem kvadrātos kvadrātu kvadrātā
-26	5726	nicināt	jānicina nenicina nenicini neniciniet nenicinot nenicinu nenicināja nenicināju nenicinām nenicināt nenicinātu nicina nicini niciniet nicinot nicinu nicināja nicinājis nicināju nicinājuši nicinām nicināma nicināmais nicināmi nicināmie nicināmo nicināms nicināmu nicināmāki nicināsi nicināta nicinātais nicināti nicinātie nicināts nicināšana nicināšanai nicināšanas nicināšanu
-27	5727	dzimumakts	dzimumakta dzimumaktam dzimumaktiem dzimumaktu dzimumaktā
-28	5728	dividende	dividendes dividendi dividendēm dividendēs dividenžu
-29	5729	dažbrīd	
-30	5730	vepris	vepri vepriem veprim vepru veprus
-31	5731	polo	
-32	5732	parīt	
-33	5733	kontrabandists	kontrabandista kontrabandistam kontrabandisti kontrabandistiem kontrabandistu kontrabandistus
-34	5734	pārdabisks	pārdabiska pārdabiskai pārdabiskais pārdabiskajam pārdabiskajā pārdabiskajām pārdabiskas pārdabiski pārdabiskie pārdabiskiem pārdabisko pārdabiskos pārdabisku pārdabiskus pārdabiskā pārdabiskāki pārdabiskām pārdabiskās
-35	5735	tēlnieks	tēlnieka tēlniekam tēlnieki tēlniekiem tēlnieku tēlniekus
-36	5736	kalkulators	kalkulator kalkulatora kalkulatoram kalkulatori kalkulatoriem kalkulatoru kalkulatorus kalkulatorā
-37	5737	orhideja	orhidejai orhidejas orhideju orhidejām
-38	5738	diagnosticēt	diagnosticē diagnosticēja diagnosticējam diagnosticējams diagnosticēji diagnosticējot diagnosticējošs diagnosticēju diagnosticējusi diagnosticējuši diagnosticēs diagnosticēta diagnosticētais diagnosticētas diagnosticēti diagnosticēto diagnosticēts diagnosticētu diagnosticētā diagnosticēšana diagnosticēšanas diagnosticēšanu diagnosticēšanā nediagnosticē nediagnosticētu
-39	5739	izteiksmīgs	izteiksmīga izteiksmīgai izteiksmīgais izteiksmīgajam izteiksmīgajiem izteiksmīgajā izteiksmīgajām izteiksmīgajās izteiksmīgam izteiksmīgas izteiksmīgi izteiksmīgie izteiksmīgiem izteiksmīgo izteiksmīgos izteiksmīgu izteiksmīgus izteiksmīgā izteiksmīgāk izteiksmīgāka izteiksmīgākai izteiksmīgākajiem izteiksmīgākajām izteiksmīgākam izteiksmīgākas izteiksmīgāki izteiksmīgākie izteiksmīgāko izteiksmīgākos izteiksmīgāks izteiksmīgāku izteiksmīgākus izteiksmīgākā izteiksmīgākās izteiksmīgām izteiksmīgās visizteiksmīgāk visizteiksmīgākais visizteiksmīgākās
-40	5740	degvīns	degvīna degvīnam degvīni degvīniem degvīnu degvīnus degvīnā
-41	5741	pavadījums	pavadījuma pavadījumam pavadījumi pavadījumiem pavadījumu pavadījumus pavadījumā
-42	5742	nāvīgs	nāvīga nāvīgais nāvīgajiem nāvīgajā nāvīgas nāvīgi nāvīgie nāvīgiem nāvīgo nāvīgos nāvīgu nāvīgā nāvīgāk nāvīgāka nāvīgākie nāvīgāko nāvīgām nāvīgās
-43	5743	psihiatrisks	psihiatriska psihiatriskai psihiatriskajā psihiatriskajām psihiatriskajās psihiatriskas psihiatriskie psihiatriskiem psihiatrisko psihiatrisku psihiatriskā psihiatriskām psihiatriskās
-44	5744	asiņošana	asiņošanai asiņošanas asiņošanu asiņošanām
-45	5745	dzīsla	dzīslai dzīslas dzīslu dzīslām dzīslās
-46	5746	šķērss	šķērsa šķērsajam šķērsajā šķērsam šķērsi šķērso šķērsos šķērsu šķērsām
-47	5747	reljefs	reljefa reljefam reljefi reljefiem reljefos reljefu reljefus reljefā
-48	5748	apbrīna	apbrīnai apbrīnas apbrīnu apbrīnā
-49	5749	pagadīties	nepagadās pagadas pagadies pagadās pagadījies pagadījusies pagadījušies pagadījās pagadīsies
-50	5750	grifs	grifa grifam grifiem grifu grifus
-51	5751	trokšņot	jātrokšņo netrokšņo netrokšņojam netrokšņojiet netrokšņojāt netrokšņos netrokšņotu trokšņo trokšņoja trokšņojam trokšņojat trokšņojis trokšņojot trokšņoju trokšņojusi trokšņojuši trokšņojāt trokšņosi trokšņosim trokšņošana trokšņošanas trokšņošanu
-52	5752	ērģeles	
-53	5753	saskrieties	nesaskrienas nesaskrienies nesaskrējāmies saskrienamies saskrienas saskrienos saskrienoties saskriesies saskriesimies saskrietos saskriešanās saskrējies saskrējos saskrējāmies saskrējās
-54	5754	pimpis	pimos pimpi pimpim pimpja pimpji pimpjiem pimpju pimu pimā
-55	5755	čuksts	čuksta čukstam čuksti čukstiem čukstos čukstu čukstus čukstā
-56	5756	uzklāt	jāuzklāj neuzklāj uzklāj uzklāja uzklājam uzklājams uzklājiet uzklājis uzklājot uzklāju uzklājām uzklās uzklāsi uzklāsim uzklāts uzklātu uzklāšana uzklāšot uzklāšu
-57	5757	pārtaisīt	jāpārtaisa nepārtaisīju nepārtaisīsi nepārtaisīsim nepārtaisīšu pārtaisa pārtaisi pārtaisiet pārtaisot pārtaisu pārtaisām pārtaisāms pārtaisīja pārtaisījis pārtaisīju pārtaisījām pārtaisīs pārtaisīsi pārtaisīsim pārtaisīts pārtaisītu pārtaisīšana pārtaisīšu
-58	5758	novecojis	
-59	5759	pildījums	pildījuma pildījumam pildījumi pildījumiem pildījumu pildījumus pildījumā
-60	5760	mirstība	mirstībai mirstības mirstību mirstībā
-61	5761	sastrādāties	jāsastrādājas nesastrādājas nesastrādājāmies nesastrādāsies nesastrādāsimies sastrādājamies sastrādājas sastrādājaties sastrādājies sastrādājos sastrādājoties sastrādājusies sastrādājušies sastrādājāmies sastrādājās sastrādājāties sastrādāsies sastrādāsimies sastrādātos sastrādāšanās sastrādāšos
-62	5762	veģetārietis	veģetārieti veģetārietim veģetārieša veģetārieši veģetāriešiem veģetāriešu veģetāriešus
-63	5763	kontracepcija	kontracepcijai kontracepcijas kontracepciju kontracepcijām
-64	5764	piestiprināt	jāpiestiprina piestiprina piestiprini piestipriniet piestiprinot piestiprinu piestiprināja piestiprināji piestiprinājis piestiprināju piestiprinājām piestiprinājāt piestiprinām piestiprināms piestiprinās piestiprināsim piestiprināts piestiprinātu piestiprināšana piestiprināšu
-65	5765	pakustināt	jāpakustina nepakustina nepakustinādams nepakustināji nepakustināju nepakustinās pakustina pakustini pakustiniet pakustinot pakustināja pakustinājis pakustinājusi pakustinājuši pakustinās pakustināsim pakustināts pakustinātu pakustināšu
-66	5766	portatīvs	portatīva portatīvai portatīvais portatīvajai portatīvajam portatīvajiem portatīvajos portatīvajā portatīvajām portatīvam portatīvas portatīvi portatīvie portatīviem portatīvo portatīvos portatīvu portatīvus portatīvā portatīvās
-67	5767	kols	kol kolam koli koliem kolos kolu kolā
-68	5768	paprika	paprikai paprikas papriku paprikā paprikās
-69	5769	peri	peros pers peru perus
-70	5770	uzburt	jāuzbur neuzburs uzbur uzburam uzburiet uzburot uzburs uzbursim uzburts uzburtu uzburu uzburšana uzbūra uzbūris uzbūru uzbūrām
-71	5771	iekrāt	iekrāja iekrājiet iekrājis iekrājot iekrāju iekrājusi iekrājušas iekrājuši iekrās iekrāsi iekrāta iekrātais iekrātas iekrāti iekrātie iekrāto iekrāts iekrātu iekrātā iekrāšana iekrāšanas iekrāšu neiekrāja neiekrājis neiekrājot neiekrātu
-72	5772	pierakstīties	nepierakstoties nepierakstījies nepierakstījos nepierakstījās nepierakstītos pierakstieties pierakstos pierakstoties pierakstāties pierakstījies pierakstījos pierakstījusies pierakstījušies pierakstījušās pierakstījāmies pierakstījās pierakstīsies pierakstīsities pierakstītos pierakstīšanās pierakstīšos
-73	5773	gaist	gaisa gaisi gaisis gaistoša gaistošajai gaistošas gaistoši gaistošie gaistošiem gaistošo gaistošos gaistošs gaistošu gaistošā gaistošām gaistošās gaisu gaisusi gaisušas gaisuši gaisām gaisīsiet negaisa negaisi negaist negaistošais negaistu negaisu negaisīs
-74	5774	ogļhidrāts	ogļhidrāti ogļhidrātiem ogļhidrātu ogļhidrātus
-75	5775	atrauties	atraudamies atraujamies atraujas atraujies atraujoties atrausies atrausimies atrautos atraušanās atrāvies atrāvos atrāvāmies atrāvās atrāvāties jāatraujas neatraujas neatraujies neatraujoties neatrauties neatrautos
-76	5776	dievība	dievībai dievības dievību dievībām
-77	5777	sabiedrotais	
-78	5778	firsts	first firsta firstiem firstu
-79	5779	ķengurs	ķengura ķenguram ķenguri ķenguriem ķenguru ķengurus
-80	5780	apinis	apii apini apinim apinos apiņa apiņi apiņiem apiņu apiņus apīni apīnis apīņi
-81	5781	pediņš	pediņ pediņam pediņi pediņiem pediņu pediņus
-82	5782	modinātājs	modinātāj modinātāja modinātājam modinātāji modinātāju modinātājus
-83	5783	stabilizēt	jāstabilizē stabilizē stabilizēja stabilizējam stabilizējiet stabilizējot stabilizējošs stabilizēs stabilizēsim stabilizēts stabilizētu stabilizēšana
-84	5784	paslīdēt	nepaslīdēja nepaslīdēs nepaslīdēsi nepaslīdēt nepaslīdētu nepaslīdēšu paslīdēja paslīdēji paslīdējis paslīdēju paslīdējusi paslīdējuši paslīdēs paslīdētu paslīdēšanas paslīdēšanu paslīdēšu
-85	5785	demogrāfija	demogrāfijai demogrāfijas demogrāfiju demogrāfijā
-86	5786	anatomija	anatomijai anatomijas anatomiju anatomijā
-87	5787	atspulgs	atspulga atspulgam atspulgi atspulgiem atspulgos atspulgu atspulgus atspulgā
-88	5788	apraudzīt	apraudzīja apraudzīji apraudzījis apraudzījāt apraudzīs apraudzītu apraudzīšu aprauga apraugi apraugot apraugu jāaprauga neapraudzīja neapraudzījāt neapraudzīsi
-89	5789	aisbergs	aisberga aisbergam aisbergi aisbergiem aisbergos aisbergu aisbergus aisbergā
-90	5790	meteorīts	meteorīta meteorītam meteorīti meteorītiem meteorītos meteorītu meteorītā
-91	5791	sarežģīt	nesarežģot nesarežģījuši nesarežģīs nesarežģīsim nesarežģīta nesarežģītas nesarežģīti nesarežģīts nesarežģītu nesarežģītā nesarežģīšana nesarežģīšu sarežģi sarežģot sarežģīja sarežģījis sarežģīju sarežģījusi sarežģījušas sarežģījuši sarežģīs sarežģīsiet sarežģīsim sarežģīšana sarežģīšanas sarežģīšanā
-92	5792	spalvains	spalvaina spalvainai spalvainais spalvainajai spalvainajiem spalvainajā spalvainajām spalvainam spalvainas spalvaini spalvainie spalvainiem spalvaino spalvainos spalvainu spalvainā spalvaināki spalvaināks spalvainām spalvainās
-93	5793	saldētava	saldētavai saldētavas saldētavu saldētavā saldētavām saldētavās
-94	5794	pastmarka	pastmarkai pastmarkas pastmarku pastmarkā pastmarkām pastmarkās
-95	5795	makšķere	makšķeres makšķeri makšķeru makšķerē makšķerēm
-96	5796	vienmer	
-97	5797	izaudzināt	izaudzina izaudzini izaudziniet izaudzināja izaudzināji izaudzinājis izaudzināju izaudzinājusi izaudzinājušas izaudzinājuši izaudzinājāt izaudzinām izaudzinās izaudzināsim izaudzināta izaudzinātajiem izaudzinātas izaudzināti izaudzinātie izaudzinātiem izaudzināto izaudzināts izaudzinātu izaudzināšana izaudzināšu jāizaudzina neizaudzināji neizaudzināsi neizaudzināt
-98	5798	karikatūra	karikatūrai karikatūras karikatūru karikatūrā karikatūrām karikatūrās
-99	5799	šampūns	šampūna šampūnam šampūni šampūniem šampūnos šampūnu šampūnus šampūnā
-100	5800	palikties	nepalikšos palicies paliecies paliekas palikas palikās
+1	5701	izlaupīt	izlaupa izlaupot izlaupīja izlaupījis izlaupījusi izlaupījuši izlaupījām izlaupījāt izlaupīs izlaupīsim izlaupīta izlaupītas izlaupīti izlaupīto izlaupīts izlaupītu izlaupītā izlaupīšana izlaupīšanas izlaupīšanu izlaupīšanā neizlaupa
+2	5702	lizda	lizdai lizdas lizdu
+3	5703	gādība	gādībai gādības gādību gādībā
+4	5704	vienradzis	vienradzi vienradzim vienradzī vienradža vienradži vienradžiem vienradžu vienradžus
+5	5705	tāfele	tāfelei tāfeles tāfeli tāfelē tāfelēm tāfeļu tāpele
+6	5706	mazgāties	jāmazgājas mazgājamies mazgājas mazgājaties mazgājies mazgājieties mazgājos mazgājoties mazgājusies mazgājušies mazgājāmies mazgājās mazgāsies nemazgājas nemazgājaties nemazgājies nemazgājos nemazgājoties nemazgājusies nemazgājušies nemazgājās nemazgāties nemazgāšanās nemazgāšos
+7	5707	ēdnīca	ēdnīcai ēdnīcas ēdnīcu ēdnīcā ēdnīcām ēdnīcās
+8	5708	blūzs	blūza blūzu blūzā
+9	5709	iekāre	iekārei iekāres iekāri iekāru iekārē iekārēm
+10	5710	alkoholiķis	alkoholiķa alkoholiķe alkoholiķi alkoholiķiem alkoholiķim alkoholiķos alkoholiķu alkoholiķus
+11	5711	kristības	kristība kristību kristībā kristībām kristībās
+12	5712	mīlētājs	mīlētāj mīlētāja mīlētājam mīlētājas mīlētāji mīlētājiem mīlētāju mīlētājus mīlētājām
+13	5713	nepieklājīgs	nepieklājīga nepieklājīgais nepieklājīgajam nepieklājīgas nepieklājīgi nepieklājīgie nepieklājīgiem nepieklājīgo nepieklājīgos nepieklājīgu nepieklājīgus nepieklājīgā nepieklājīgāk nepieklājīgākas nepieklājīgām
+14	5714	laka	lakai lakam lakas laku lakā lakām
+15	5715	piparkūka	piparkūkai piparkūkas piparkūku piparkūkām piparkūkās
+16	5716	ievērtēt	ievērtē ievērtēja ievērtējam ievērtējams ievērtējat ievērtējiet ievērtējis ievērtējot ievērtēju ievērtējāt ievērtēs ievērtēsim ievērtētu ievērtēšana ievērtēšu jāievērtē neievērtējot neievērtēju neievērtējām
+17	5717	neredzīgs	neredzīga neredzīgai neredzīgais neredzīgajam neredzīgajiem neredzīgam neredzīgas neredzīgi neredzīgie neredzīgiem neredzīgo neredzīgos neredzīgu neredzīgus neredzīgā neredzīgām neredzīgās
+18	5718	šķiņķis	šķiņķa šķiņķi šķiņķiem šķiņķim šķiņķu šķiņķus šķiņķī šķiņķītis
+19	5719	varenība	varenībai varenības varenību varenībā
+20	5720	auglīgs	auglīga auglīgai auglīgais auglīgajai auglīgajiem auglīgajā auglīgajām auglīgajās auglīgam auglīgas auglīgi auglīgie auglīgiem auglīgo auglīgu auglīgus auglīgā auglīgāk auglīgāka auglīgākai auglīgākais auglīgākajā auglīgākas auglīgāki auglīgākie auglīgāks auglīgāku auglīgākus auglīgākā auglīgām auglīgās visauglīgākais visauglīgākā visauglīgākās
+21	5721	uguņošana	uguņošanai uguņošanas uguņošanu uguņošanā
+22	5722	naba	nabai nabas nabu nabā nabās
+23	5723	neciešams	neciešama neciešamai neciešamais neciešamajiem neciešamas neciešami neciešamie neciešamiem neciešamo neciešamos neciešamu neciešamus neciešamā neciešamāka neciešamākas neciešamāks neciešamāku neciešamākās neciešamām neciešamās visneciešamākais visneciešamāko
+24	5724	pasākt	nepasāc nepasāk nepasāks nepasāksi pasāc pasācis pasāk pasāka pasākams pasākot pasāks pasāksi pasāksim pasākts pasāktu pasāku pasākusi pasākušas pasākuši pasākām pasākāt pasākšu
+25	5725	kaktuss	kaktus kaktusa kaktusam kaktusi kaktusiem kaktusu kaktusus
+26	5726	sakropļot	nesakropļo nesakropļoju nesakropļotu sakropļo sakropļoja sakropļojis sakropļojot sakropļojusi sakropļojuši sakropļos sakropļosi sakropļota sakropļotais sakropļotas sakropļoti sakropļotie sakropļoto sakropļots sakropļotu sakropļotā sakropļošana sakropļošanas sakropļošanu sakropļošanā
+27	5727	kanoe	
+28	5728	košļāt	jākošļā košļā košļājat košļājiet košļājis košļājot košļāju košļājuši košļājām košļās košļāti košļātu košļāšana košļāšanas košļāšanu košļāšanā nekošļā
+29	5729	diskvalifikācija	diskvalifikācijai diskvalifikācijas diskvalifikāciju diskvalifikācijām
+30	5730	prasīties	neprasās neprasījās neprasīsies prasoties prasāmies prasās prasījies prasījos prasījusies prasījās prasīsies
+31	5731	miermīlīgs	miermīlīga miermīlīgais miermīlīgajai miermīlīgajam miermīlīgajiem miermīlīgajā miermīlīgam miermīlīgas miermīlīgi miermīlīgie miermīlīgiem miermīlīgo miermīlīgos miermīlīgu miermīlīgus miermīlīgā miermīlīgāk miermīlīgāka miermīlīgākais miermīlīgākajiem miermīlīgāko miermīlīgāks miermīlīgāku miermīlīgākā miermīlīgām miermīlīgās vismiermīlīgākajai vismiermīlīgākajā vismiermīlīgākie vismiermīlīgākā
+32	5732	pārvērties	nepārvēršoties pārveros pārvērsies pārvērtos pārvēršanās pārvēršos pārvēršoties
+33	5733	žēloties	jāžēlojas nežēlojamies nežēlojas nežēlojies nežēlojieties nežēlojos nežēlojoties nežēlojās nežēlosimies nežēloties žēlodamies žēlojamies žēlojas žēlojaties žēlojies žēlojos žēlojoties žēlojusies žēlojušies žēlojās žēlosies žēlotos žēlošanās
+34	5734	uzlaist	neuzlaida neuzlaiž uzlaid uzlaida uzlaidi uzlaidis uzlaidu uzlaidām uzlaidīs uzlaidīsi uzlaidīsim uzlaidīšu uzlaists uzlaistu uzlaiž uzlaižam uzlaižot
+35	5735	t-krekls	t-krekla t-kreklam t-krekli t-krekliem t-kreklos t-kreklu t-kreklus t-kreklā tkrekla tkreklu tkreklā
+36	5736	netīrums	netīrumi netīrumiem netīrumos netīrumu netīrumus
+37	5737	ziņkārība	ziņkārībai ziņkārības ziņkārību ziņkārībā
+38	5738	tāme	tāmei tāmes tāmi tāmju tāmē tāmēm tāmēs
+39	5739	piezīmēt	jāpiezīmē nepiezīmēt piezīmē piezīmēja piezīmējam piezīmējams piezīmējiet piezīmējis piezīmējot piezīmēju piezīmējām piezīmēs piezīmēsim piezīmēts piezīmēšu
+40	5740	spāre	spāres spāri spāru spārē spārēm spārēs
+41	5741	viltotājs	viltotāja viltotāji viltotājiem viltotāju viltotājus
+42	5742	piedurkne	piedurknei piedurknes piedurkni piedurknē piedurknēm piedurknēs piedurkņu
+43	5743	uzplaukt	neuzplauka neuzplauks neuzplaukst uzplauka uzplauks uzplauksi uzplaukst uzplaukstam uzplauksti uzplaukstot uzplaukstošs uzplaukstu uzplauktu uzplauku uzplaukām uzplaukšana
+44	5744	statistisks	statistiska statistiskais statistiskajai statistiskajam statistiskajiem statistiskajos statistiskajā statistiskajās statistiskam statistiskas statistiski statistiskie statistiskiem statistisko statistiskos statistisku statistiskā statistiskām statistiskās
+45	5745	moderni	
+46	5746	aizmirsties	aizmirsies aizmirsos aizmirstoties aizmirsusies aizmirsušies aizmirsās aizmirsīsies neaizmirsties neaizmirsīsies
+47	5747	ideoloģisks	ideoloģiska ideoloģiskai ideoloģiskais ideoloģiskajai ideoloģiskajiem ideoloģiskajos ideoloģiskajā ideoloģiskajām ideoloģiskas ideoloģiski ideoloģiskie ideoloģiskiem ideoloģisko ideoloģiskos ideoloģisku ideoloģiskus ideoloģiskā ideoloģiskām ideoloģiskās
+48	5748	datorspēle	datorspēlei datorspēles datorspēli datorspēlē datorspēlēm datorspēlēs datorspēļu
+49	5749	kvadrāts	kvadrāt kvadrāta kvadrātam kvadrāti kvadrātiem kvadrātos kvadrātu kvadrātā
+50	5750	nicināt	jānicina nenicina nenicini neniciniet nenicinot nenicinu nenicināja nenicināju nenicinām nenicināt nenicinātu nicina nicini niciniet nicinot nicinu nicināja nicinājis nicināju nicinājuši nicinām nicināma nicināmais nicināmi nicināmie nicināmo nicināms nicināmu nicināmāki nicināsi nicināta nicinātais nicināti nicinātie nicināts nicināšana nicināšanai nicināšanas nicināšanu
+51	5751	dzimumakts	dzimumakta dzimumaktam dzimumaktiem dzimumaktu dzimumaktā
+52	5752	dividende	dividendes dividendi dividendēm dividendēs dividenžu
+53	5753	dažbrīd	
+54	5754	vepris	vepri vepriem veprim vepru veprus
+55	5755	polo	
+56	5756	parīt	
+57	5757	kontrabandists	kontrabandista kontrabandistam kontrabandisti kontrabandistiem kontrabandistu kontrabandistus
+58	5758	pārdabisks	pārdabiska pārdabiskai pārdabiskais pārdabiskajam pārdabiskajā pārdabiskajām pārdabiskas pārdabiski pārdabiskie pārdabiskiem pārdabisko pārdabiskos pārdabisku pārdabiskus pārdabiskā pārdabiskāki pārdabiskām pārdabiskās
+59	5759	tēlnieks	tēlnieka tēlniekam tēlnieki tēlniekiem tēlnieku tēlniekus
+60	5760	kalkulators	kalkulator kalkulatora kalkulatoram kalkulatori kalkulatoriem kalkulatoru kalkulatorus kalkulatorā
+61	5761	orhideja	orhidejai orhidejas orhideju orhidejām
+62	5762	diagnosticēt	diagnosticē diagnosticēja diagnosticējam diagnosticējams diagnosticēji diagnosticējot diagnosticējošs diagnosticēju diagnosticējusi diagnosticējuši diagnosticēs diagnosticēta diagnosticētais diagnosticētas diagnosticēti diagnosticēto diagnosticēts diagnosticētu diagnosticētā diagnosticēšana diagnosticēšanas diagnosticēšanu diagnosticēšanā nediagnosticē nediagnosticētu
+63	5763	izteiksmīgs	izteiksmīga izteiksmīgai izteiksmīgais izteiksmīgajam izteiksmīgajiem izteiksmīgajā izteiksmīgajām izteiksmīgajās izteiksmīgam izteiksmīgas izteiksmīgi izteiksmīgie izteiksmīgiem izteiksmīgo izteiksmīgos izteiksmīgu izteiksmīgus izteiksmīgā izteiksmīgāk izteiksmīgāka izteiksmīgākai izteiksmīgākajiem izteiksmīgākajām izteiksmīgākam izteiksmīgākas izteiksmīgāki izteiksmīgākie izteiksmīgāko izteiksmīgākos izteiksmīgāks izteiksmīgāku izteiksmīgākus izteiksmīgākā izteiksmīgākās izteiksmīgām izteiksmīgās visizteiksmīgāk visizteiksmīgākais visizteiksmīgākās
+64	5764	degvīns	degvīna degvīnam degvīni degvīniem degvīnu degvīnus degvīnā
+65	5765	pavadījums	pavadījuma pavadījumam pavadījumi pavadījumiem pavadījumu pavadījumus pavadījumā
+66	5766	nāvīgs	nāvīga nāvīgais nāvīgajiem nāvīgajā nāvīgas nāvīgi nāvīgie nāvīgiem nāvīgo nāvīgos nāvīgu nāvīgā nāvīgāk nāvīgāka nāvīgākie nāvīgāko nāvīgām nāvīgās
+67	5767	psihiatrisks	psihiatriska psihiatriskai psihiatriskajā psihiatriskajām psihiatriskajās psihiatriskas psihiatriskie psihiatriskiem psihiatrisko psihiatrisku psihiatriskā psihiatriskām psihiatriskās
+68	5768	asiņošana	asiņošanai asiņošanas asiņošanu asiņošanām
+69	5769	dzīsla	dzīslai dzīslas dzīslu dzīslām dzīslās
+70	5770	šķērss	šķērsa šķērsajam šķērsajā šķērsam šķērsi šķērso šķērsos šķērsu šķērsām
+71	5771	reljefs	reljefa reljefam reljefi reljefiem reljefos reljefu reljefus reljefā
+72	5772	apbrīna	apbrīnai apbrīnas apbrīnu apbrīnā
+73	5773	piedomāt	jāpiedomā nepiedomā nepiedomādams nepiedomāja nepiedomājam nepiedomāji nepiedomājot nepiedomāju nepiedomājām piedomā piedomāja piedomājam piedomājams piedomājat piedomājiet piedomājis piedomājot piedomāju piedomājusi piedomājuši piedomājām piedomās piedomāsi piedomāsiet piedomāsim piedomātajā piedomātas piedomāti piedomāts piedomātu piedomāšu
+74	5774	grifs	grifa grifam grifiem grifu grifus
+75	5775	trokšņot	jātrokšņo netrokšņo netrokšņojam netrokšņojiet netrokšņojāt netrokšņos netrokšņotu trokšņo trokšņoja trokšņojam trokšņojat trokšņojis trokšņojot trokšņoju trokšņojusi trokšņojuši trokšņojāt trokšņosi trokšņosim trokšņošana trokšņošanas trokšņošanu
+76	5776	pagadīties	nepagadās pagadies pagadās pagadījies pagadījusies pagadījušies pagadījās pagadīsies
+77	5777	ērģeles	
+78	5778	saskrieties	nesaskrienas nesaskrienies nesaskrējāmies saskrienamies saskrienas saskrienos saskrienoties saskriesies saskriesimies saskrietos saskriešanās saskrējies saskrējos saskrējāmies saskrējās
+79	5779	pimpis	pimos pimpi pimpim pimpja pimpji pimpjiem pimpju pimu pimā
+80	5780	čuksts	čuksta čukstam čuksti čukstiem čukstos čukstu čukstus čukstā
+81	5781	uzklāt	jāuzklāj neuzklāj uzklāj uzklāja uzklājam uzklājams uzklājiet uzklājis uzklājot uzklāju uzklājām uzklās uzklāsi uzklāsim uzklāts uzklātu uzklāšana uzklāšot uzklāšu
+82	5782	pārtaisīt	jāpārtaisa nepārtaisīju nepārtaisīsi nepārtaisīsim nepārtaisīšu pārtaisa pārtaisi pārtaisiet pārtaisot pārtaisu pārtaisām pārtaisāms pārtaisīja pārtaisījis pārtaisīju pārtaisījām pārtaisīs pārtaisīsi pārtaisīsim pārtaisīts pārtaisītu pārtaisīšana pārtaisīšu
+83	5783	novecojis	
+84	5784	pildījums	pildījuma pildījumam pildījumi pildījumiem pildījumu pildījumus pildījumā
+85	5785	mirstība	mirstībai mirstības mirstību mirstībā
+86	5786	piestiprināt	jāpiestiprina piestiprina piestiprini piestipriniet piestiprinot piestiprinu piestiprināja piestiprināji piestiprinājis piestiprināju piestiprinājām piestiprinājāt piestiprinām piestiprināms piestiprinās piestiprināsim piestiprināts piestiprinātu piestiprināšana piestiprināšu
+87	5787	sastrādāties	jāsastrādājas nesastrādājas nesastrādājāmies nesastrādāsies nesastrādāsimies sastrādājamies sastrādājas sastrādājaties sastrādājies sastrādājos sastrādājoties sastrādājusies sastrādājušies sastrādājāmies sastrādājās sastrādājāties sastrādāsies sastrādāsimies sastrādātos sastrādāšanās sastrādāšos
+88	5788	veģetārietis	veģetārieti veģetārietim veģetārieša veģetārieši veģetāriešiem veģetāriešu veģetāriešus
+89	5789	kontracepcija	kontracepcijai kontracepcijas kontracepciju kontracepcijām
+90	5790	pakustināt	jāpakustina nepakustina nepakustinādams nepakustināji nepakustināju nepakustinās pakustina pakustini pakustiniet pakustinot pakustināja pakustinājis pakustinājusi pakustinājuši pakustinās pakustināsim pakustināts pakustinātu pakustināšu
+91	5791	portatīvs	portatīva portatīvai portatīvais portatīvajai portatīvajam portatīvajiem portatīvajos portatīvajā portatīvajām portatīvam portatīvas portatīvi portatīvie portatīviem portatīvo portatīvos portatīvu portatīvus portatīvā portatīvās
+92	5792	kols	kol kolam koli koliem kolos kolu kolā
+93	5793	rauties	jāraujas neraujamies neraujas neraujies neraujos neraujoties nerausies nerāvos nerāvāmies nerāvās raudamies raujamies raujas raujaties raujies raujos raujoties rausies rausimies rautos raušanās raušoties rāvies rāvos rāvāmies rāvās rāvāties
+94	5794	paprika	paprikai paprikas papriku paprikā paprikās
+95	5795	peri	peros pers peru perus
+96	5796	uzburt	jāuzbur neuzburs uzbur uzburam uzburiet uzburot uzburs uzbursim uzburts uzburtu uzburu uzburšana uzbūra uzbūris uzbūru uzbūrām
+97	5797	iekrāt	iekrāja iekrājiet iekrājis iekrājot iekrāju iekrājusi iekrājušas iekrājuši iekrās iekrāsi iekrāta iekrātais iekrātas iekrāti iekrātie iekrāto iekrāts iekrātu iekrātā iekrāšana iekrāšanas iekrāšu neiekrāja neiekrājis neiekrājot neiekrātu
+98	5798	gaist	gaisa gaisi gaisis gaistoša gaistošajai gaistošas gaistoši gaistošie gaistošiem gaistošo gaistošos gaistošs gaistošu gaistošā gaistošām gaistošās gaisu gaisusi gaisušas gaisuši gaisām gaisīsiet negaisa negaisi negaist negaistošais negaistu negaisu negaisīs
+99	5799	ogļhidrāts	ogļhidrāti ogļhidrātiem ogļhidrātu ogļhidrātus
+100	5800	atrauties	atraudamies atraujamies atraujas atraujies atraujoties atrausies atrausimies atrautos atraušanās atrāvies atrāvos atrāvāmies atrāvās atrāvāties jāatraujas neatraujas neatraujies neatraujoties neatrauties neatrautos

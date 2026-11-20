@@ -1,100 +1,100 @@
-1	9901	apdirst	apdirs apdirsa apdirsi apdirsis apdirsts apdirstu apdirš apdiršana apdiršat neapdirs neapdirst
-2	9902	gulētājs	gulētāja gulētājam gulētāji gulētājiem gulētāju gulētājus
-3	9903	žestikulēt	žestikulē žestikulēdami žestikulēdams žestikulēja žestikulējam žestikulējot žestikulējoši žestikulēsim žestikulēšana žestikulēšanu
-4	9904	misticisms	misticisma misticismam misticismu
-5	9905	pamērcēt	jāpamērcē pamērcē pamērcējam pamērcējiet pamērcējis pamērcējot pamērcēju pamērcētu pamērcēšana
-6	9906	sameloties	nesamelojos nesamelosies samelojies samelojos samelojusies samelojušies samelojās samelosies samelotos
-7	9907	aizkrāsot	aizkrāso aizkrāsojam aizkrāsojiet aizkrāsoju aizkrāsos aizkrāsots aizkrāsošana jāaizkrāso
-8	9908	koriandrs	koriandra koriandram koriandru
-9	9909	pedantiski	
-10	9910	pediatrija	pediatrijas pediatriju pediatrijā
-11	9911	politehnisks	politehniskais politehniskajam politehniskajā politehnisko politehniskā politehniskās
-12	9912	nerātnība	nerātnības nerātnību nerātnībām nerātnībās
-13	9913	pieēsties	nepieēdīsies nepieēsties pieēdamies pieēdas pieēdies pieēdos pieēdoties pieēdušies pieēdāmies pieēdās pieēdīšos pieēstos pieēšanās
-14	9914	salnis	saus
-15	9915	kriminālists	kriminālisti kriminālistiem kriminālistu
-16	9916	iebēgt	iebēdzis iebēg iebēga
-17	9917	šķīstums	šķīstum šķīstuma šķīstumam šķīstumu
-18	9918	paauklēt	paauklē paauklēšu
-19	9919	ebrejisks	ebrejiski ebrejisko ebrejisku ebrejiskā
-20	9920	apsegties	apsedzies apsedzieties apsedzos
-21	9921	ņieburs	ņiebura ņieburi ņieburus ņieburā
-22	9922	neienesīgs	neienesīga neienesīgi neienesīgie neienesīgo neienesīgu neienesīgākais neienesīgākā
-23	9923	pārbaidīt	pārbaida pārbaidi pārbaidīja pārbaidīji pārbaidījis pārbaidīju pārbaidīts
-24	9924	aizbilst	aizbilda aizbildi aizbildīs
-25	9925	rauda	raud raudai raudam raudes raudi rauds raudu raudus raudā raudām raudās
-26	9926	bagātināties	bagātinos bagātinoties bagātinājies bagātinājos bagātinājusies bagātinājušies bagātinājās bagātināmies bagātināsies bagātināsimies bagātināšanās
-27	9927	mērcēt	jāmērcē mērcē mērcēdams mērcēja mērcējis mērcējot mērcēju mērcēs mērcēts mērcētu mērcēšana nemērcēt
-28	9928	palasīties	jāpalasās palasas palasies palasos palasoties palasās palasījies palasījos palasīsies palasītos
-29	9929	sagrupēt	jāsagrupē sagrupē sagrupējam sagrupējiet sagrupējot sagrupēju sagrupējusi sagrupējuši sagrupēsim sagrupēta sagrupētas sagrupēti sagrupēts sagrupētu
-30	9930	sentēvs	sentēvi sentēvu
-31	9931	ieguldīties	ieguldies ieguldoties ieguldāmies ieguldās ieguldījies ieguldītos ieguldīšanās jāieguldās neieguldāmies neieguldītos
-32	9932	draudzīgums	draudzīguma draudzīgumam draudzīgumu draudzīgumā
-33	9933	fobija	fobijai fobijas fobiju fobijām fobijās
-34	9934	subkultūra	subkultūrai subkultūras subkultūru subkultūrā subkultūrām subkultūrās
-35	9935	košums	košuma košumam košumi košumiem košumu košumā
-36	9936	augļkopis	augļkope augļkopes augļkopi augļkopim augļkopja augļkopji augļkopjiem augļkopju augļkopjus augļkopu
-37	9937	nobruģēt	jānobruģē nobruģē nobruģēja nobruģējis nobruģējot nobruģējām nobruģēs nobruģēsi nobruģēta nobruģētas nobruģēti nobruģēts nobruģētu
-38	9938	aizstaigāt	aizstaigā aizstaigājam aizstaigājis aizstaigājot aizstaigāju aizstaigāsim aizstaigātu aizstaigāšana aizstaigāšu jāaizstaigā
-39	9939	dogs	doga dogi dogiem dogu dogus
-40	9940	aizmugurisks	aizmuguriska aizmuguriskas aizmuguriski aizmugurisko aizmugurisku aizmuguriskus aizmuguriskām aizmuguriskās
-41	9941	slaucēja	slaucējai slaucējas slaucēju slaucējām
-42	9942	svīre	svīrei svīres svīri
-43	9943	selerija	selerijai selerijas seleriju selerijām
-44	9944	pludiņš	pludiņa pludiņam pludiņi pludiņu pludiņus pludiņā
-45	9945	oboja	obojai obojas oboju
-46	9946	drēbe	drēbi drēbē
-47	9947	grauzt	
-48	9948	ūdensdrošs	ūdensdroša ūdensdrošais ūdensdrošas ūdensdroši ūdensdrošie ūdensdrošiem ūdensdrošos ūdensdrošu ūdensdrošā ūdensdrošām ūdensdrošās
-49	9949	pārmesties	nepārmestos nepārmetīsimies pārmestos pārmetas pārmeties pārmetos pārmetās pārmetīsies
-50	9950	apšmaukt	apšmauc apšmauca apšmaucat apšmauci apšmaucis apšmauktais apšmauktajam apšmaukti apšmaukts apšmaukšana
-51	9951	adīties	adas ados adās
-52	9952	pamirt	pamira pamiris pamirts pamirtu pamiru pamirušais
-53	9953	saskaitīties	nesaskaitāmas nesaskaitījāmies saskaitos saskaitāmas saskaitāmies saskaitāmos saskaitīsies saskaitīsimies
-54	9954	termīts	termīti termītu termītus
-55	9955	noslaucīties	nenoslaukās noslaucījies noslaukieties noslaukās
-56	9956	astrofizika	astrofizikas astrofiziku
-57	9957	samirkšķināt	samirkšķini samirkšķinu samirkšķinājis samirkšķināju samirkšķinājusi samirkšķināsi samirkšķināsiet samirkšķināsim
-58	9958	flautiste	flautistes flautisti flautistēm
-59	9959	izstāvēt	izstāv izstāvam izstāvi izstāvot izstāvu izstāvēja izstāvējis izstāvēju izstāvējām izstāvēs izstāvēta izstāvētu izstāvēšana jāizstāv neizstāvēs neizstāvēsi
-60	9960	uzjautāt	jāuzjautā neuzjautāt uzjautā uzjautāja uzjautājam uzjautājat uzjautājiet uzjautājot uzjautāju uzjautājām uzjautātu uzjautāšu
-61	9961	sliktums	sliktuma sliktumam sliktumi sliktumiem sliktumu sliktumus
-62	9962	baritons	baritona baritonam baritoni baritoniem baritonu
-63	9963	savienojamība	savienojamībai savienojamības savienojamību savienojamībā
-64	9964	homeopātija	homeopātijai homeopātijas homeopātiju homeopātijā
-65	9965	grūtums	grūtuma grūtumam grūtumi grūtumiem grūtumos grūtumu grūtumus grūtumā
-66	9966	āliņģis	āliņģa āliņģi āliņģiem āliņģim āliņģos āliņģu āliņģus āliņģī
-67	9967	pārēšanās	
-68	9968	vecaistēvs	vecamtēvam vecietēvi vecostēvus vecotēvu vecātēva
-69	9969	nocenot	noceno nocenota nocenotais nocenotas nocenoti nocenotie nocenoto nocenots nocenotu nocenotā nocenošana
-70	9970	sakoncentrēt	jāsakoncentrē sakoncentrējiet sakoncentrējis sakoncentrējot sakoncentrēju sakoncentrējusi sakoncentrēsim sakoncentrēta sakoncentrētas sakoncentrēti sakoncentrēts sakoncentrētā sakoncentrēšana
-71	9971	sūkalas	sūkalu sūkalām sūkalās
-72	9972	sievišķīgi	
-73	9973	radioloģija	radioloģijai radioloģijas
-74	9974	cista	cistai cistas cistu cistām cistās
-75	9975	celibāts	celibāta celibātam celibāti celibātu celibātā
-76	9976	aba	abam abas abu abā abām abās
-77	9977	akrobātisks	akrobātiskajā akrobātiskam akrobātiskas akrobātiski akrobātiskie akrobātiskiem akrobātisko akrobātisku akrobātiskus akrobātiskā akrobātiskās
-78	9978	uzplecis	uzpleči uzplečiem uzplečos uzplečus
-79	9979	novietoties	novietojas novietojaties novietojies novietojās novietosies novietotos novietošanās
-80	9980	salidot	jāsalido salido salidoja salidojuši salidojušie salidojušos salidos salidotu
-81	9981	cirksnis	cirksni cirksnim cirksnī cirkšņa cirkšņi cirkšņus
-82	9982	roķele	roķeles roķelēm roķelēs roķeļu
-83	9983	botānika	botānikas botāniku botānikā
-84	9984	neprātība	neprātības neprātību neprātībām
-85	9985	mašīnpistole	mašīnpistoles mašīnpistoli mašīnpistolēm
-86	9986	irīdijs	irīdija irīdiju
-87	9987	hidroplāns	hidroplānam hidroplānu
-88	9988	patīksmināties	patīksminātos
-89	9989	prērija	prēriju prērijā prērijām
-90	9990	dirižablis	dirižabli dirižabļa dirižabļus
-91	9991	kibucs	kibuca kibuci kibucu kibucā
-92	9992	pamainīties	pamainoties pamaināmies pamainās pamainījies pamainījusies pamainījušies pamainījušās pamainījās pamainīsies pamainītos
-93	9993	līdzāspastāvēšana	līdzāspastāvēšanai līdzāspastāvēšanas līdzāspastāvēšanu līdzāspastāvēšanā
-94	9994	raudzēts	raudzēta raudzētai raudzētais raudzētajiem raudzētas raudzēti raudzētie raudzētiem raudzēto raudzētos raudzētu raudzētus raudzētā raudzētām
-95	9995	personvārds	personvārda personvārdam personvārdi personvārdiem personvārdos personvārdu personvārdus personvārdā
-96	9996	parakt	jāparok neparaks neparok paraka paraki paraks paraksi paraksim paraku paroc parociet parok parokot
-97	9997	ģelzis	ģelzi ģelzim ģelža
-98	9998	radons	radona radonu radonā
-99	9999	humānisms	humānisma humānismam humānismiem humānismu humānismā
-100	10000	apsīkt	apsīcis apsīks apsīktu apsīkšana neapsīks neapsīkt neapsīktu
+1	9901	ņieburs	ņiebura ņieburi ņieburus ņieburā
+2	9902	aizbilst	aizbilda aizbildi aizbildīs
+3	9903	neienesīgs	neienesīga neienesīgi neienesīgie neienesīgo neienesīgu neienesīgākais neienesīgākā
+4	9904	pārbaidīt	pārbaida pārbaidi pārbaidīja pārbaidīji pārbaidījis pārbaidīju pārbaidīts
+5	9905	rauda	raud raudai raudam raudes raudi rauds raudu raudus raudā raudām raudās
+6	9906	bagātināties	bagātinos bagātinoties bagātinājies bagātinājos bagātinājusies bagātinājušies bagātinājās bagātināmies bagātināsies bagātināsimies bagātināšanās
+7	9907	mērcēt	jāmērcē mērcē mērcēdams mērcēja mērcējis mērcējot mērcēju mērcēs mērcēts mērcētu mērcēšana nemērcēt
+8	9908	sagrupēt	jāsagrupē sagrupē sagrupējam sagrupējiet sagrupējot sagrupēju sagrupējusi sagrupējuši sagrupēsim sagrupēta sagrupētas sagrupēti sagrupēts sagrupētu
+9	9909	sentēvs	sentēvi sentēvu
+10	9910	ieguldīties	ieguldies ieguldoties ieguldāmies ieguldās ieguldījies ieguldītos ieguldīšanās jāieguldās neieguldāmies neieguldītos
+11	9911	draudzīgums	draudzīguma draudzīgumam draudzīgumu draudzīgumā
+12	9912	fobija	fobijai fobijas fobiju fobijām fobijās
+13	9913	subkultūra	subkultūrai subkultūras subkultūru subkultūrā subkultūrām subkultūrās
+14	9914	košums	košuma košumam košumi košumiem košumu košumā
+15	9915	augļkopis	augļkope augļkopes augļkopi augļkopim augļkopja augļkopji augļkopjiem augļkopju augļkopjus augļkopu
+16	9916	nobruģēt	jānobruģē nobruģē nobruģēja nobruģējis nobruģējot nobruģējām nobruģēs nobruģēsi nobruģēta nobruģētas nobruģēti nobruģēts nobruģētu
+17	9917	aizstaigāt	aizstaigā aizstaigājam aizstaigājis aizstaigājot aizstaigāju aizstaigāsim aizstaigātu aizstaigāšana aizstaigāšu jāaizstaigā
+18	9918	dogs	doga dogi dogiem dogu dogus
+19	9919	aizmugurisks	aizmuguriska aizmuguriskas aizmuguriski aizmugurisko aizmugurisku aizmuguriskus aizmuguriskām aizmuguriskās
+20	9920	slaucēja	slaucējai slaucējas slaucēju slaucējām
+21	9921	svīre	svīrei svīres svīri
+22	9922	selerija	selerijai selerijas seleriju selerijām
+23	9923	pludiņš	pludiņa pludiņam pludiņi pludiņu pludiņus pludiņā
+24	9924	oboja	obojai obojas oboju
+25	9925	drēbe	drēbi drēbē
+26	9926	grauzt	
+27	9927	ūdensdrošs	ūdensdroša ūdensdrošais ūdensdrošas ūdensdroši ūdensdrošie ūdensdrošiem ūdensdrošos ūdensdrošu ūdensdrošā ūdensdrošām ūdensdrošās
+28	9928	pārmesties	nepārmestos nepārmetīsimies pārmestos pārmetas pārmeties pārmetos pārmetās pārmetīsies
+29	9929	apšmaukt	apšmauc apšmauca apšmaucat apšmauci apšmaucis apšmauktais apšmauktajam apšmaukti apšmaukts apšmaukšana
+30	9930	pamirt	pamira pamiris pamirts pamirtu pamiru pamirušais
+31	9931	saskaitīties	nesaskaitījāmies saskaitos saskaitāmies saskaitīsies saskaitīsimies
+32	9932	termīts	termīti termītu termītus
+33	9933	noslaucīties	nenoslaukās noslaucījies noslaukieties noslaukās
+34	9934	astrofizika	astrofizikas astrofiziku
+35	9935	samirkšķināt	samirkšķini samirkšķinu samirkšķinājis samirkšķināju samirkšķinājusi samirkšķināsi samirkšķināsiet samirkšķināsim
+36	9936	flautiste	flautistes flautisti flautistēm
+37	9937	izstāvēt	izstāv izstāvam izstāvi izstāvot izstāvu izstāvēja izstāvējis izstāvēju izstāvējām izstāvēs izstāvēta izstāvētu izstāvēšana jāizstāv neizstāvēs neizstāvēsi
+38	9938	palasīties	jāpalasās palasies palasos palasoties palasās palasījies palasījos palasīsies
+39	9939	uzjautāt	jāuzjautā neuzjautāt uzjautā uzjautāja uzjautājam uzjautājat uzjautājiet uzjautājot uzjautāju uzjautājām uzjautātu uzjautāšu
+40	9940	sliktums	sliktuma sliktumam sliktumi sliktumiem sliktumu sliktumus
+41	9941	baritons	baritona baritonam baritoni baritoniem baritonu
+42	9942	savienojamība	savienojamībai savienojamības savienojamību savienojamībā
+43	9943	homeopātija	homeopātijai homeopātijas homeopātiju homeopātijā
+44	9944	grūtums	grūtuma grūtumam grūtumi grūtumiem grūtumos grūtumu grūtumus grūtumā
+45	9945	āliņģis	āliņģa āliņģi āliņģiem āliņģim āliņģos āliņģu āliņģus āliņģī
+46	9946	pārēšanās	
+47	9947	vecaistēvs	vecamtēvam vecietēvi vecostēvus vecotēvu vecātēva
+48	9948	nocenot	noceno nocenota nocenotais nocenotas nocenoti nocenotie nocenoto nocenots nocenotu nocenotā nocenošana
+49	9949	sakoncentrēt	jāsakoncentrē sakoncentrējiet sakoncentrējis sakoncentrējot sakoncentrēju sakoncentrējusi sakoncentrēsim sakoncentrēta sakoncentrētas sakoncentrēti sakoncentrēts sakoncentrētā sakoncentrēšana
+50	9950	sūkalas	sūkalu sūkalām sūkalās
+51	9951	sievišķīgi	
+52	9952	radioloģija	radioloģijai radioloģijas
+53	9953	cista	cistai cistas cistu cistām cistās
+54	9954	celibāts	celibāta celibātam celibāti celibātu celibātā
+55	9955	aba	abam abas abu abā abām abās
+56	9956	akrobātisks	akrobātiskajā akrobātiskam akrobātiskas akrobātiski akrobātiskie akrobātiskiem akrobātisko akrobātisku akrobātiskus akrobātiskā akrobātiskās
+57	9957	uzplecis	uzpleči uzplečiem uzplečos uzplečus
+58	9958	salidot	jāsalido salido salidoja salidojuši salidojušie salidojušos salidos salidotu
+59	9959	cirksnis	cirksni cirksnim cirksnī cirkšņa cirkšņi cirkšņus
+60	9960	roķele	roķeles roķelēm roķelēs roķeļu
+61	9961	botānika	botānikas botāniku botānikā
+62	9962	neprātība	neprātības neprātību neprātībām
+63	9963	mašīnpistole	mašīnpistoles mašīnpistoli mašīnpistolēm
+64	9964	irīdijs	irīdija irīdiju
+65	9965	hidroplāns	hidroplānam hidroplānu
+66	9966	patīksmināties	patīksminātos
+67	9967	prērija	prēriju prērijā prērijām
+68	9968	dirižablis	dirižabli dirižabļa dirižabļus
+69	9969	kibucs	kibuca kibuci kibucu kibucā
+70	9970	izsēsties	izsēdies izsēdāmies izsēstos izsēšanās
+71	9971	līdzāspastāvēšana	līdzāspastāvēšanai līdzāspastāvēšanas līdzāspastāvēšanu līdzāspastāvēšanā
+72	9972	raudzēts	raudzēta raudzētai raudzētais raudzētajiem raudzētas raudzēti raudzētie raudzētiem raudzēto raudzētos raudzētu raudzētus raudzētā raudzētām
+73	9973	personvārds	personvārda personvārdam personvārdi personvārdiem personvārdos personvārdu personvārdus personvārdā
+74	9974	nosusināt	jānosusina nosusina nosusiniet nosusinot nosusināja nosusinājis nosusināju nosusinājuši nosusinām nosusinās nosusināta nosusinātais nosusinātas nosusināti nosusināto nosusināts nosusinātu nosusināšana nosusināšanas nosusināšanu nosusināšanā
+75	9975	parakt	jāparok neparaks neparok paraka paraki paraks paraksi paraksim paraku paroc parociet parok parokot
+76	9976	ģelzis	ģelzi ģelzim ģelža
+77	9977	radons	radona radonu radonā
+78	9978	humānisms	humānisma humānismam humānismiem humānismu humānismā
+79	9979	apsīkt	apsīcis apsīks apsīktu apsīkšana neapsīks neapsīkt neapsīktu
+80	9980	pamainīties	pamainoties pamaināmies pamainās pamainījies pamainījusies pamainījušies pamainījās pamainīsies
+81	9981	pieēsties	nepieēdīsies nepieēsties pieēdamies pieēdies pieēdos pieēdoties pieēdušies pieēdāmies pieēdās pieēdīšos pieēstos pieēšanās
+82	9982	izmēģināties	izmēģinājies izmēģinājos izmēģinājās izmēģinās
+83	9983	puns	puna punam puni puniem punos punu punus punā
+84	9984	simetrisks	simetriska simetriskajā simetriskas simetriskiem simetrisko simetrisku simetriskus simetriskā simetriskām simetriskās
+85	9985	grupēt	grupējam grupējiet grupējot grupējām grupēti grupētā grupēšana grupēšanas grupēšanu grupēšanā jāgrupē negrupē
+86	9986	teliņš	teliņa teliņi teliņiem teliņu teliņus
+87	9987	topogrāfija	topogrāfijai topogrāfijas topogrāfiju topogrāfijā
+88	9988	parazitēt	neparazitē neparazitētu parazitē parazitēja parazitējot parazitējošs parazitēs parazitētu parazitēšana parazitēšanu
+89	9989	grūst	
+90	9990	fundaments	fundamenta fundamenti fundamentiem fundamentu
+91	9991	kaze	kazi kažu
+92	9992	pārcilvēks	pārcilvēka pārcilvēkam pārcilvēki pārcilvēkiem pārcilvēku pārcilvēkus
+93	9993	metafizika	metafizikai metafizikas metafiziku metafizikā
+94	9994	trīskārtējs	trīskārtējais trīskārtējam trīskārtējiem trīskārtējo trīskārtējos trīskārtēju trīskārtējā
+95	9995	atvilkties	atvelcies atvelkas atvelkos atvilcies atvilkies atvilksies atvilktos atvilkāmies atvilkās atvilkšos neatvelkoties
+96	9996	gļēvulība	gļēvulībai gļēvulības gļēvulību
+97	9997	sasvīst	nesasvīda nesasvīst sasvīdis sasvīdīsiet sasvīsti sasvīšana
+98	9998	semantika	semantikas semantiku semantikā
+99	9999	ekologs	ekologa ekologi ekologiem ekologu ekoloģe
+100	10000	izmocīt	izmocīja izmocīju izmocījām izmocīta izmocītas izmocīti izmocītie izmocīto izmocīts izmocītu izmocītā izmocīšanas

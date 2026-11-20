@@ -1,100 +1,100 @@
-1	1701	nomainīt	jānomaina nenomaina nenomainīju nenomainījāt nomaina nomaini nomainiet nomainot nomainu nomainām nomaināma nomaināmas nomaināms nomainīja nomainīji nomainījis nomainīju nomainījusi nomainījušas nomainījuši nomainījušās nomainījām nomainījāt nomainīs nomainīsi nomainīsiet nomainīsim nomainīta nomainītajām nomainītas nomainīti nomainīto nomainītos nomainīts nomainītu nomainītā nomainītās nomainīšana nomainīšu
-2	1702	ierakstīt	ieraksta ieraksti ierakstiet ierakstot ierakstām ierakstāms ierakstāt ierakstīja ierakstīji ierakstījis ierakstīju ierakstījusi ierakstījuši ierakstījām ierakstījāt ierakstīs ierakstīsi ierakstīsim ierakstīta ierakstītais ierakstītajiem ierakstītajām ierakstītas ierakstīti ierakstītie ierakstītiem ierakstīto ierakstītos ierakstīts ierakstītu ierakstītā ierakstītām ierakstītās ierakstīšana ierakstīšu jāieraksta neieraksta neierakstām neierakstīja
-3	1703	svešs	sveša svešai svešais svešajai svešajam svešajiem svešajos svešajā svešajām svešajās svešam svešas sveši svešie svešiem svešo svešos svešu svešus svešā svešāka svešākam svešākas svešāki svešākiem svešāks svešākā svešākām svešām svešās
-4	1704	augstu	
-5	1705	smieties	jāsmejās nesmieties smejamies smejas smejaties smejies smejieties smejos smejoties smiedamies smiesies smiesieties smiesimies smiesities smietos smiešanās smiešos smējies smējos smējāmies smējās smējāties
-6	1706	institūcija	institūcijai institūcijas institūciju institūcijā institūcijām institūcijās
-7	1707	kuce	kucei kuces kuci kucēm kuiem kuču
-8	1708	kakls	kakla kaklam kakli kakliem kaklos kaklu kaklus kaklā
-9	1709	ārējs	ārēja ārējai ārējais ārējajam ārējam ārējas ārējie ārējiem ārējo ārējos ārēju ārējus ārējā ārējām ārējās
-10	1710	ieeja	ieejai ieejas ieeju ieejā ieejām ieejās
-11	1711	attiekties	attiecas neattiekties
-12	1712	smagi	
-13	1713	štats	štata štatam štati štatiem štatos štatu štatus štatā
-14	1714	gar	
-15	1715	grūtība	grūtībam grūtības grūtību grūtībā grūtībām grūtībās
-16	1716	ha	
-17	1717	roze	rozei rozes rozi rozē rozēm rozēs rožu
-18	1718	iepazīt	iepazina iepazini iepazinis iepazinu iepazinām iepazīs iepazīsi iepazīsiet iepazīsim iepazīsit iepazīst iepazīstam iepazīstams iepazīstat iepazīsti iepazīstiet iepazīstot iepazīstu iepazīts iepazītu iepazīšana iepazīšu jāiepazīst neiepazinu neiepazīs neiepazīsi neiepazīsim neiepazīst neiepazīstam neiepazīsti neiepazīstot neiepazīstu neiepazīts neiepazītu neiepazīšu
-19	1719	personība	personībai personības personību personībā personībām personībās
-20	1720	apraksts	apraksta aprakstam apraksti aprakstiem aprakstos aprakstu aprakstus aprakstā
-21	1721	zvērs	zvēr zvēra zvēram zvēri zvēriem zvēros zvēru zvērus zvērā
-22	1722	izlikties	izlicies izliecas izliecies izliecieties izliekamies izliekas izliekaties izliekos izliekoties izlikas izlikdamies izlikies izlikos izliksies izliksieties izliksimies izliktos izlikāmies izlikās izlikāties izlikšanās izlikšos jāizliekas neizliecies neizliecieties neizliekas neizliekos neizlikos neizliksies neizliksimies neizlikties neizliktos neizlikās neizlikšos
-23	1723	kārtīgi	
-24	1724	kabata	kabatai kabatam kabatas kabatiem kabatu kabatā kabatām kabatās
-25	1725	vilks	vilk vilka vilkam vilki vilkiem vilkos vilku vilkus vilkā
-26	1726	ieslēgt	ieslēdz ieslēdza ieslēdzam ieslēdzams ieslēdzat ieslēdzi ieslēdziet ieslēdzis ieslēdzot ieslēdzu ieslēdzām ieslēdzāt ieslēgdams ieslēgs ieslēgsi ieslēgsiet ieslēgsim ieslēgts ieslēgtu ieslēgšana ieslēgšu jāieslēdz neieslēdz neieslēdza neieslēdzam neieslēdzi neieslēdzot neieslēdzu neieslēdzām neieslēgs neieslēgt neieslēgts
-27	1727	plecs	pleca plecam pleci pleciem plecos plecu plecus plecā
-28	1728	izlaist	izlaid izlaida izlaidi izlaidiet izlaidis izlaidu izlaidām izlaidāt izlaidīs izlaidīsi izlaidīsiet izlaidīsim izlaidīšu izlaists izlaistu izlaizdams izlaišana izlaiž izlaižam izlaižat izlaižot izlaižu jāizlaiž neizlaid neizlaida neizlaidiet neizlaidis neizlaidu neizlaidām neizlaidīs neizlaidīsim neizlaidīšu neizlaist neizlaistu neizlaiž neizlaižam neizlaižot
-29	1729	devējs	devēja devējam devēji devējiem devējos devēju devējus devējā
-30	1730	uzticība	uzticībai uzticības uzticību uzticībā
-31	1731	draudēt	draud draudēja draudēji draudējis draudēju draudējusi draudējušas draudējuši draudējām draudējāt draudēs draudēsi draudēta draudētais draudēto draudēts draudētu draudēšana draudēšanas draudēšanu draudēšanā nedraudēja nedraudēju nedraudējām nedraudēs nedraudēsi nedraudētu
-32	1732	pārsniegt	jāpārsniedz nepārsniedz nepārsniedza nepārsniedzam nepārsniedziet nepārsniedzot nepārsniedzu nepārsniegs nepārsniegsi nepārsniegt nepārsniegtu nepārsniegšana nepārsniegšot pārsniedz pārsniedza pārsniedzam pārsniedzat pārsniedzis pārsniedzot pārsniedzu pārsniedzām pārsniedzāt pārsniegdams pārsniegs pārsniegsi pārsniegsiet pārsniegsim pārsniegts pārsniegtu pārsniegšana pārsniegšot
-33	1733	vectēvs	vectēv vectēva vectēvam vectēvi vectēviem vectēvu vectēvus vectēvā
-34	1734	elektrība	elektrībai elektrības elektrību elektrībā elektrībām
-35	1735	moderns	moderna modernai modernais modernajai modernajiem modernajā modernajām modernajās modernam modernas modernie moderniem moderno modernos modernu modernus modernā modernāk modernāka modernākais modernākajiem modernākajām modernākas modernāki modernākie modernākiem modernāko modernākos modernāks modernāku modernākā modernākām modernākās modernām modernās vismodernākais vismodernāko vismodernākā vismodernākās
-36	1736	detaļa	detaļai detaļas detaļu detaļā detaļām detaļās
-37	1737	konkurence	konkurencei konkurences konkurenci konkurencē konkurencēm konkurencēs konkurenču
-38	1738	e-pasts	e-pasta e-pastam e-pasti e-pastiem e-pastos e-pastu e-pastus e-pastā
-39	1739	tērps	tērpa tērpam tērpi tērpiem tērpos tērpu tērpus tērpā
-40	1740	eksports	eksport eksporta eksportam eksporti eksportos eksportu eksportā
-41	1741	zinātnisks	viszinātniskākajā zinātniska zinātniskai zinātniskais zinātniskajai zinātniskajam zinātniskajiem zinātniskajos zinātniskajā zinātniskajām zinātniskajās zinātniskam zinātniskas zinātniskie zinātniskiem zinātnisko zinātniskos zinātnisku zinātniskus zinātniskā zinātniskāka zinātniskākā zinātniskām zinātniskās
-42	1742	izaicinājums	izaicinājuma izaicinājumam izaicinājumi izaicinājumiem izaicinājumos izaicinājumu izaicinājumus izaicinājumā
-43	1743	teorija	teorijai teorijas teoriju teorijā teorijām teorijās
-44	1744	pētīt	jāpēta jāpētī nepētīt pēta pēti pētiet pētot pētu pētām pētāms pētāt pētī pētīdams pētīja pētīji pētījis pētīju pētījām pētījāt pētīs pētīsiet pētīsim pētīta pētītas pētīti pētītos pētīts pētītu pētītā pētīšana pētīšot pētīšu
-45	1745	savstarpējs	savstarpēja savstarpējai savstarpējais savstarpējajām savstarpējam savstarpējas savstarpēji savstarpējie savstarpējiem savstarpējo savstarpējos savstarpēju savstarpējus savstarpējā savstarpējām savstarpējās
-46	1746	muļķība	muļķībai muļķības muļķību muļķībā muļķībām muļķībās
-47	1747	bārs	bār bāra bāram bāri bāriem bāros bāru bārus bārā
-48	1748	vis	
-49	1749	krājums	krājuma krājumam krājumi krājumiem krājumos krājumu krājumus krājumā
-50	1750	galvenokārt	
-51	1751	mūziķis	mūziķa mūziķe mūziķei mūziķes mūziķi mūziķiem mūziķim mūziķos mūziķu mūziķus mūziķēm mūziķī
-52	1752	burts	bur buram burs burt burta burtam burti burtiem burtos burtu burtus burtā buru buršana būra būri būru
-53	1753	dabisks	dabiska dabiskai dabiskais dabiskajai dabiskajam dabiskajiem dabiskajos dabiskajā dabiskajām dabiskajās dabiskam dabiskas dabiski dabiskie dabiskiem dabisko dabiskos dabisku dabiskus dabiskā dabiskāk dabiskāka dabiskākais dabiskākam dabiskākas dabiskāki dabiskākiem dabiskāko dabiskāks dabiskāku dabiskākus dabiskākā dabiskām dabiskās visdabiskāk visdabiskākais visdabiskākie visdabiskāko visdabiskākā
-54	1754	nepareizi	
-55	1755	idiots	idiot idiota idiotam idiote idiotes idioti idiotiem idiotu idiotus idiotā
-56	1756	opera	operai operas operu operā operām operās
-57	1757	randiņš	randiņa randiņam randiņi randiņiem randiņos randiņu randiņus randiņā
-58	1758	struktūra	struktūrai struktūras struktūru struktūrā struktūrām struktūrās
-59	1759	atzīme	atzīmei atzīmes atzīmi atzīmju atzīmē atzīmēm atzīmēs
-60	1760	novest	jānoved nenoved nenoveda nenovedat nenovediet nenovedot nenovedām nenovedīs nenovedīsim nenovest nenovestu nenovestās noved noveda novedam novedams novedi novediet novedis novedot novedu novedām novedāt novedīs novedīsi novedīsim novedīšot novedīšu novesta novestas novesti novestos novests novestu novestā novestām novezdams novešana
-61	1761	pirmkārt	
-62	1762	grēks	grēka grēkam grēki grēkiem grēkos grēku grēkus grēkā
-63	1763	institūts	institūta institūtam institūti institūtiem institūtos institūtu institūtus institūtā
-64	1764	ārvalsts	ārvalsti ārvalstu ārvalstus ārvalstīs
-65	1765	šodiena	šodienai šodienas šodienu šodienā
-66	1766	izskatīt	izskata izskati izskatot izskatu izskatām izskatāmais izskatāmajiem izskatāmajā izskatāmi izskatāmie izskatāmo izskatāms izskatāt izskatīja izskatīji izskatījis izskatīju izskatījusi izskatījuši izskatījām izskatījāt izskatīs izskatīsi izskatīsim izskatīta izskatītais izskatītajiem izskatītas izskatīti izskatīto izskatīts izskatītu izskatīšana izskatīšu jāizskata neizskata neizskatot neizskatīto neizskatītos
-67	1767	kvalitatīvs	kvalitatīva kvalitatīvai kvalitatīvais kvalitatīvajiem kvalitatīvajā kvalitatīvajām kvalitatīvam kvalitatīvas kvalitatīvi kvalitatīvie kvalitatīviem kvalitatīvo kvalitatīvos kvalitatīvu kvalitatīvus kvalitatīvā kvalitatīvāk kvalitatīvāka kvalitatīvākai kvalitatīvākais kvalitatīvākajiem kvalitatīvākam kvalitatīvākas kvalitatīvāki kvalitatīvākie kvalitatīvākiem kvalitatīvāko kvalitatīvākos kvalitatīvāks kvalitatīvāku kvalitatīvākus kvalitatīvākā kvalitatīvākām kvalitatīvākās kvalitatīvām kvalitatīvās viskvalitatīvāk viskvalitatīvāko viskvalitatīvākos
-68	1768	zaglis	zagis zagle zaglei zagles zagli zagliem zaglim zaglu zaglus zaglēm zagļa zagļi zagļiem zagļos zagļu zagļus
-69	1769	pretīgs	pretīga pretīgais pretīgajai pretīgajiem pretīgajos pretīgajā pretīgajām pretīgam pretīgas pretīgi pretīgie pretīgiem pretīgo pretīgos pretīgu pretīgus pretīgā pretīgāk pretīgāka pretīgākais pretīgākie pretīgāko pretīgākos pretīgāks pretīgāku pretīgākā pretīgākās pretīgām pretīgās vispretīgākais vispretīgākajām vispretīgākā
-70	1770	pavēle	pavēlei pavēles pavēli pavēlē pavēlēm pavēlēs pavēļu
-71	1771	rakstnieks	rakstniece rakstniecei rakstnieces rakstnieci rakstniecē rakstniecēm rakstniek rakstnieka rakstniekam rakstnieki rakstniekiem rakstniekos rakstnieku rakstniekus rakstniekā rakstnieču
-72	1772	tostarp	
-73	1773	satversme	satversmei satversmes satversmi satversmju satversmē satversmēm
-74	1774	faktors	faktora faktoram faktori faktoriem faktoros faktoru faktorus faktorā
-75	1775	vietnieks	vietniece vietniecei vietnieces vietnieci vietniecēm vietniek vietnieka vietniekam vietnieki vietniekiem vietniekos vietnieku vietniekus vietnieču
-76	1776	tikmēr	
-77	1777	izpratne	izpratnei izpratnes izpratni izpratnē izpratnēm izpratnēs izpratņu
-78	1778	sarunāt	jāsarunā nesarunā nesarunāja nesarunājot nesarunāju nesarunās nesarunāt sarunāja sarunājam sarunāji sarunājiet sarunājis sarunājot sarunāju sarunājusi sarunājušas sarunājuši sarunājām sarunājāt sarunāsi sarunāsiet sarunāsim sarunāta sarunātais sarunātajiem sarunātajā sarunātas sarunāti sarunāto sarunātos sarunāts sarunātu sarunātā sarunātām sarunātās sarunāšana sarunāšanas sarunāšanu sarunāšu
-79	1779	iemīlēties	iemīlamies iemīlas iemīlaties iemīlies iemīlos iemīloties iemīlējamies iemīlējies iemīlējos iemīlējusies iemīlējušies iemīlējušās iemīlējāmies iemīlējās iemīlējāties iemīlēsies iemīlēsieties iemīlētos iemīlēšanās iemīlēšos jāiemīlas neiemīlas neiemīlies neiemīlējos neiemīlēsies neiemīlēties neiemīlētos neiemīlēšos
-80	1780	velti	
-81	1781	slepkava	slepkavai slepkavam slepkavas slepkaviem slepkavu slepkavām
-82	1782	ievainot	ievaino ievainoja ievainojama ievainojamas ievainojami ievainojamiem ievainojams ievainojamu ievainojamus ievainojamās ievainoji ievainojis ievainojot ievainoju ievainojuši ievainojām ievainos ievainota ievainotais ievainotajiem ievainotam ievainotas ievainoti ievainotie ievainotiem ievainoto ievainotos ievainots ievainotu ievainotus ievainotā ievainotās neievaino neievainojam neievainojama neievainojams neievainojiet neievainot neievainotu
-83	1783	sajust	jāsajūt nesajust nesajustu nesajuta nesajuti nesajutis nesajutu nesajutām nesajutīs nesajutīsi nesajutīsiet nesajutīsim nesajūt nesajūtam nesajūtot nesajūtu sajusts sajustu sajuta sajuti sajutis sajutu sajutām sajutāt sajutīs sajutīsi sajutīsiet sajutīsim sajutīsit sajutīšot sajutīšu sajušana sajūt sajūtam sajūtams sajūtat sajūti sajūtiet sajūtot
-84	1784	cienīt	ciena cieni cieniet cienot cienu cienā cienāja cienāji cienām cienās cienāt cienāti cienāšu cienīja cienījamie cienīji cienījis cienīju cienījusi cienījuši cienīs cienīsi cienīsim cienīta cienītais cienītam cienīti cienītie cienīts cienītu cienītā cienīšu jāciena neciena necieni necienu necienām necienīs necienītu
-85	1785	spējīgs	spējīga spējīgai spējīgais spējīgajai spējīgajiem spējīgajās spējīgam spējīgas spējīgi spējīgie spējīgiem spējīgo spējīgos spējīgu spējīgus spējīgā spējīgāka spējīgākai spējīgākais spējīgākajiem spējīgākajām spējīgākas spējīgāki spējīgākie spējīgākiem spējīgāko spējīgākos spējīgāks spējīgāku spējīgākus spējīgākā spējīgākām spējīgākās spējīgām spējīgās visspējīgākā
-86	1786	vīruss	vīrus vīrusa vīrusam vīrusi vīrusiem vīrusu vīrusus vīrusā
-87	1787	veidoties	jāveidojas neveidojas neveidojoties neveidojās neveidosies neveidoties neveidotos neveidošanās veidojamies veidojas veidojies veidojos veidojoties veidojusies veidojušies veidojušās veidojāmies veidojās veidosies veidosimies veidotos veidošanās
-88	1788	pretinieks	pretiniece pretiniecei pretinieces pretinieci pretiniecēm pretinieka pretiniekam pretinieki pretiniekiem pretiniekos pretinieku pretiniekus pretiniekā pretinieču
-89	1789	skaitīt	jāskaita neskaita neskaiti neskaitiet neskaitot neskaitu neskaitām neskaitīja neskaitīšu skaita skaiti skaitiet skaitot skaitu skaitām skaitāms skaitīdams skaitīja skaitīji skaitījis skaitīju skaitījusi skaitījām skaitīs skaitīsi skaitīsim skaitīta skaitītas skaitīti skaitītos skaitīts skaitītu skaitītās skaitīšana skaitīšanai skaitīšanas skaitīšanu skaitīšanā skaitīšu
-90	1790	šorīt	
-91	1791	veselīgs	veselīga veselīgai veselīgais veselīgajai veselīgajiem veselīgajā veselīgajām veselīgam veselīgas veselīgi veselīgie veselīgiem veselīgo veselīgos veselīgu veselīgus veselīgā veselīgāk veselīgāka veselīgākai veselīgākais veselīgākajiem veselīgākajā veselīgākajām veselīgākam veselīgākas veselīgāki veselīgākie veselīgākiem veselīgāko veselīgāks veselīgāku veselīgākus veselīgākā veselīgākām veselīgām veselīgās visveselīgāk visveselīgākais
-92	1792	pārējā	pārējās
-93	1793	lūgums	lūguma lūgumam lūgumi lūgumiem lūgumos lūgumu lūgumus lūgumā
-94	1794	galvaspilsēta	galvaspilsētai galvaspilsētas galvaspilsētu galvaspilsētā galvaspilsētām galvaspilsētās
-95	1795	tendence	tendencei tendences tendenci tendencē tendencēm tendencēs tendenču
-96	1796	komplekss	kompleksa kompleksam kompleksi kompleksiem kompleksos kompleksu kompleksus kompleksā
-97	1797	ebrejs	ebrej ebreja ebrejam ebreji ebrejiem ebrejiete ebreju ebrejus ebrejā
-98	1798	uzturs	uztur uztura uzturam uzturi uzturos uzturu uzturā
-99	1799	secināt	jāsecina nesecina nesecinām secina secini seciniet secinot secinu secinādams secināja secināji secinājis secināju secinājusi secinājušas secinājuši secinājām secinājāt secinām secināms secinās secināsi secināsiet secināsim secināsit secinātais secinātas secināto secināts secinātu secinātā
-100	1800	attīstīties	attīstieties attīstos attīstoties attīstās attīstījies attīstījusies attīstījušies attīstījušās attīstījāmies attīstījās attīstīsies attīstīsieties attīstīsimies attīstītos attīstīšanās attīstīšos neattīstos neattīstoties neattīstījusies neattīstījāmies neattīstījās neattīstīsies neattīstīties neattīstītos
+1	1701	iebilst	iebilda iebildi iebildis iebildu iebildām iebildāt iebildīs iebildīsi iebildīsiet iebildīšot iebildīšu iebilstam iebilstams iebilstat iebilsti iebilstot iebilsts iebilstu jāiebilst neiebilda neiebildi neiebildis neiebildu neiebildām neiebildīs neiebildīsi neiebildīsiet neiebildīsim neiebildīsit neiebildīšu neiebilst neiebilstam neiebilstat neiebilsti neiebilstiet neiebilstot neiebilstu
+2	1702	mantojums	mantojum mantojuma mantojumam mantojumi mantojumiem mantojumu mantojumus mantojumā
+3	1703	iesākt	iesāc iesāciet iesācis iesāk iesāka iesākam iesāki iesākot iesāks iesāksi iesāksiet iesāksim iesāksit iesākta iesāktas iesākti iesāktiem iesāktos iesākts iesāktu iesāktus iesāktā iesāktām iesāktās iesāku iesākusi iesākuši iesākušos iesākušās iesākām iesākāt iesākšana iesākšu jāiesāk neiesāka neiesāksi neiesākts neiesāku neiesākām
+4	1704	izcīnīt	izcīna izcīni izcīnot izcīnu izcīnām izcīnāt izcīnīdams izcīnīja izcīnījis izcīnīju izcīnījusi izcīnījušas izcīnījuši izcīnījām izcīnījāt izcīnīs izcīnīsi izcīnīsim izcīnīta izcīnītais izcīnītas izcīnīti izcīnītie izcīnīto izcīnīts izcīnītu izcīnītā izcīnīšana izcīnīšanas izcīnīšanu izcīnīšanā izcīnīšu jāizcīna neizcīna neizcīnot neizcīnīja neizcīnījām neizcīnīs neizcīnīsi
+5	1705	prognoze	prognozei prognozes prognozi prognozē prognozēm prognozēs prognožu
+6	1706	mierīgs	mierīga mierīgai mierīgais mierīgajai mierīgajiem mierīgajos mierīgajā mierīgajām mierīgajās mierīgam mierīgas mierīgie mierīgiem mierīgo mierīgos mierīgu mierīgus mierīgā mierīgāk mierīgāka mierīgākai mierīgākajai mierīgākajiem mierīgākam mierīgākas mierīgāki mierīgākiem mierīgāko mierīgākos mierīgāks mierīgāku mierīgākus mierīgākā mierīgākām mierīgākās mierīgām mierīgās vismierīgākajai vismierīgākā
+7	1707	nomainīt	jānomaina nenomaina nenomainīju nenomainījāt nomaina nomaini nomainiet nomainot nomainu nomainām nomaināma nomaināmas nomaināms nomainīja nomainīji nomainījis nomainīju nomainījusi nomainījušas nomainījuši nomainījušās nomainījām nomainījāt nomainīs nomainīsi nomainīsiet nomainīsim nomainīta nomainītajām nomainītas nomainīti nomainīto nomainītos nomainīts nomainītu nomainītā nomainītās nomainīšana nomainīšu
+8	1708	ierakstīt	ieraksta ieraksti ierakstiet ierakstot ierakstām ierakstāms ierakstāt ierakstīja ierakstīji ierakstījis ierakstīju ierakstījusi ierakstījuši ierakstījām ierakstījāt ierakstīs ierakstīsi ierakstīsim ierakstīta ierakstītais ierakstītajiem ierakstītajām ierakstītas ierakstīti ierakstītie ierakstītiem ierakstīto ierakstītos ierakstīts ierakstītu ierakstītā ierakstītām ierakstītās ierakstīšana ierakstīšu jāieraksta neieraksta neierakstām neierakstīja
+9	1709	svešs	sveša svešai svešais svešajai svešajam svešajiem svešajos svešajā svešajām svešajās svešam svešas sveši svešie svešiem svešo svešos svešu svešus svešā svešāka svešākam svešākas svešāki svešākiem svešāks svešākā svešākām svešām svešās
+10	1710	augstu	
+11	1711	smieties	jāsmejās nesmieties smejamies smejas smejaties smejies smejieties smejos smejoties smiedamies smiesies smiesieties smiesimies smiesities smietos smiešanās smiešos smējies smējos smējāmies smējās smējāties
+12	1712	institūcija	institūcijai institūcijas institūciju institūcijā institūcijām institūcijās
+13	1713	kuce	kucei kuces kuci kucēm kuiem kuču
+14	1714	kakls	kakla kaklam kakli kakliem kaklos kaklu kaklus kaklā
+15	1715	ārējs	ārēja ārējai ārējais ārējajam ārējam ārējas ārējie ārējiem ārējo ārējos ārēju ārējus ārējā ārējām ārējās
+16	1716	ieeja	ieejai ieejas ieeju ieejā ieejām ieejās
+17	1717	smagi	
+18	1718	štats	štata štatam štati štatiem štatos štatu štatus štatā
+19	1719	gar	
+20	1720	grūtība	grūtībam grūtības grūtību grūtībā grūtībām grūtībās
+21	1721	ha	
+22	1722	roze	rozei rozes rozi rozē rozēm rozēs rožu
+23	1723	iepazīt	iepazina iepazini iepazinis iepazinu iepazinām iepazīs iepazīsi iepazīsiet iepazīsim iepazīsit iepazīst iepazīstam iepazīstams iepazīstat iepazīsti iepazīstiet iepazīstot iepazīstu iepazīts iepazītu iepazīšana iepazīšu jāiepazīst neiepazinu neiepazīs neiepazīsi neiepazīsim neiepazīst neiepazīstam neiepazīsti neiepazīstot neiepazīstu neiepazīts neiepazītu neiepazīšu
+24	1724	personība	personībai personības personību personībā personībām personībās
+25	1725	apraksts	apraksta aprakstam apraksti aprakstiem aprakstos aprakstu aprakstus aprakstā
+26	1726	zvērs	zvēr zvēra zvēram zvēri zvēriem zvēros zvēru zvērus zvērā
+27	1727	kārtīgi	
+28	1728	kabata	kabatai kabatam kabatas kabatiem kabatu kabatā kabatām kabatās
+29	1729	vilks	vilk vilka vilkam vilki vilkiem vilkos vilku vilkus vilkā
+30	1730	ieslēgt	ieslēdz ieslēdza ieslēdzam ieslēdzams ieslēdzat ieslēdzi ieslēdziet ieslēdzis ieslēdzot ieslēdzu ieslēdzām ieslēdzāt ieslēgdams ieslēgs ieslēgsi ieslēgsiet ieslēgsim ieslēgts ieslēgtu ieslēgšana ieslēgšu jāieslēdz neieslēdz neieslēdza neieslēdzam neieslēdzi neieslēdzot neieslēdzu neieslēdzām neieslēgs neieslēgt neieslēgts
+31	1731	plecs	pleca plecam pleci pleciem plecos plecu plecus plecā
+32	1732	izlaist	izlaid izlaida izlaidi izlaidiet izlaidis izlaidu izlaidām izlaidāt izlaidīs izlaidīsi izlaidīsiet izlaidīsim izlaidīšu izlaists izlaistu izlaizdams izlaišana izlaiž izlaižam izlaižat izlaižot izlaižu jāizlaiž neizlaid neizlaida neizlaidiet neizlaidis neizlaidu neizlaidām neizlaidīs neizlaidīsim neizlaidīšu neizlaist neizlaistu neizlaiž neizlaižam neizlaižot
+33	1733	devējs	devēja devējam devēji devējiem devējos devēju devējus devējā
+34	1734	apsēsties	apsēdies apsēdieties apsēdos apsēdusies apsēdušies apsēdušās apsēdāmies apsēdās apsēdīsies apsēdīsieties apsēdīsimies apsēdīšos apsēstos apsēšanās apsēžamies apsēžas apsēžaties apsēžos apsēžoties jāapsēžas neapsēdās neapsēsties neapsēstos neapsēžas neapsēžaties neapsēžos neapsēžoties
+35	1735	uzticība	uzticībai uzticības uzticību uzticībā
+36	1736	draudēt	draud draudēja draudēji draudējis draudēju draudējusi draudējušas draudējuši draudējām draudējāt draudēs draudēsi draudēta draudētais draudēto draudēts draudētu draudēšana draudēšanas draudēšanu draudēšanā nedraudēja nedraudēju nedraudējām nedraudēs nedraudēsi nedraudētu
+37	1737	pārsniegt	jāpārsniedz nepārsniedz nepārsniedza nepārsniedzam nepārsniedziet nepārsniedzot nepārsniedzu nepārsniegs nepārsniegsi nepārsniegt nepārsniegtu nepārsniegšana nepārsniegšot pārsniedz pārsniedza pārsniedzam pārsniedzat pārsniedzis pārsniedzot pārsniedzu pārsniedzām pārsniedzāt pārsniegdams pārsniegs pārsniegsi pārsniegsiet pārsniegsim pārsniegts pārsniegtu pārsniegšana pārsniegšot
+38	1738	vectēvs	vectēv vectēva vectēvam vectēvi vectēviem vectēvu vectēvus vectēvā
+39	1739	izlikties	izlicies izliecies izliecieties izliekamies izliekas izliekaties izliekos izliekoties izlikdamies izlikies izlikos izliksies izliksieties izliksimies izliktos izlikāmies izlikās izlikāties izlikšanās izlikšos jāizliekas neizliecies neizliecieties neizliekas neizliekos neizlikos neizliksies neizliksimies neizlikties neizliktos neizlikās neizlikšos
+40	1740	elektrība	elektrībai elektrības elektrību elektrībā elektrībām
+41	1741	moderns	moderna modernai modernais modernajai modernajiem modernajā modernajām modernajās modernam modernas modernie moderniem moderno modernos modernu modernus modernā modernāk modernāka modernākais modernākajiem modernākajām modernākas modernāki modernākie modernākiem modernāko modernākos modernāks modernāku modernākā modernākām modernākās modernām modernās vismodernākais vismodernāko vismodernākā vismodernākās
+42	1742	detaļa	detaļai detaļas detaļu detaļā detaļām detaļās
+43	1743	konkurence	konkurencei konkurences konkurenci konkurencē konkurencēm konkurencēs konkurenču
+44	1744	e-pasts	e-pasta e-pastam e-pasti e-pastiem e-pastos e-pastu e-pastus e-pastā
+45	1745	tērps	tērpa tērpam tērpi tērpiem tērpos tērpu tērpus tērpā
+46	1746	eksports	eksport eksporta eksportam eksporti eksportos eksportu eksportā
+47	1747	zinātnisks	viszinātniskākajā zinātniska zinātniskai zinātniskais zinātniskajai zinātniskajam zinātniskajiem zinātniskajos zinātniskajā zinātniskajām zinātniskajās zinātniskam zinātniskas zinātniskie zinātniskiem zinātnisko zinātniskos zinātnisku zinātniskus zinātniskā zinātniskāka zinātniskākā zinātniskām zinātniskās
+48	1748	izaicinājums	izaicinājuma izaicinājumam izaicinājumi izaicinājumiem izaicinājumos izaicinājumu izaicinājumus izaicinājumā
+49	1749	teorija	teorijai teorijas teoriju teorijā teorijām teorijās
+50	1750	pētīt	jāpēta jāpētī nepētīt pēta pēti pētiet pētot pētu pētām pētāms pētāt pētī pētīdams pētīja pētīji pētījis pētīju pētījām pētījāt pētīs pētīsiet pētīsim pētīta pētītas pētīti pētītos pētīts pētītu pētītā pētīšana pētīšot pētīšu
+51	1751	savstarpējs	savstarpēja savstarpējai savstarpējais savstarpējajām savstarpējam savstarpējas savstarpēji savstarpējie savstarpējiem savstarpējo savstarpējos savstarpēju savstarpējus savstarpējā savstarpējām savstarpējās
+52	1752	muļķība	muļķībai muļķības muļķību muļķībā muļķībām muļķībās
+53	1753	bārs	bār bāra bāram bāri bāriem bāros bāru bārus bārā
+54	1754	vis	
+55	1755	krājums	krājuma krājumam krājumi krājumiem krājumos krājumu krājumus krājumā
+56	1756	galvenokārt	
+57	1757	mūziķis	mūziķa mūziķe mūziķei mūziķes mūziķi mūziķiem mūziķim mūziķos mūziķu mūziķus mūziķēm mūziķī
+58	1758	burts	bur buram burs burt burta burtam burti burtiem burtos burtu burtus burtā buru buršana būra būri būru
+59	1759	dabisks	dabiska dabiskai dabiskais dabiskajai dabiskajam dabiskajiem dabiskajos dabiskajā dabiskajām dabiskajās dabiskam dabiskas dabiski dabiskie dabiskiem dabisko dabiskos dabisku dabiskus dabiskā dabiskāk dabiskāka dabiskākais dabiskākam dabiskākas dabiskāki dabiskākiem dabiskāko dabiskāks dabiskāku dabiskākus dabiskākā dabiskām dabiskās visdabiskāk visdabiskākais visdabiskākie visdabiskāko visdabiskākā
+60	1760	nepareizi	
+61	1761	idiots	idiot idiota idiotam idiote idiotes idioti idiotiem idiotu idiotus idiotā
+62	1762	opera	operai operas operu operā operām operās
+63	1763	randiņš	randiņa randiņam randiņi randiņiem randiņos randiņu randiņus randiņā
+64	1764	struktūra	struktūrai struktūras struktūru struktūrā struktūrām struktūrās
+65	1765	atzīme	atzīmei atzīmes atzīmi atzīmju atzīmē atzīmēm atzīmēs
+66	1766	novest	jānoved nenoved nenoveda nenovedat nenovediet nenovedot nenovedām nenovedīs nenovedīsim nenovest nenovestu nenovestās noved noveda novedam novedams novedi novediet novedis novedot novedu novedām novedāt novedīs novedīsi novedīsim novedīšot novedīšu novesta novestas novesti novestos novests novestu novestā novestām novezdams novešana
+67	1767	pirmkārt	
+68	1768	grēks	grēka grēkam grēki grēkiem grēkos grēku grēkus grēkā
+69	1769	institūts	institūta institūtam institūti institūtiem institūtos institūtu institūtus institūtā
+70	1770	ārvalsts	ārvalsti ārvalstu ārvalstus ārvalstīs
+71	1771	šodiena	šodienai šodienas šodienu šodienā
+72	1772	kvalitatīvs	kvalitatīva kvalitatīvai kvalitatīvais kvalitatīvajiem kvalitatīvajā kvalitatīvajām kvalitatīvam kvalitatīvas kvalitatīvi kvalitatīvie kvalitatīviem kvalitatīvo kvalitatīvos kvalitatīvu kvalitatīvus kvalitatīvā kvalitatīvāk kvalitatīvāka kvalitatīvākai kvalitatīvākais kvalitatīvākajiem kvalitatīvākam kvalitatīvākas kvalitatīvāki kvalitatīvākie kvalitatīvākiem kvalitatīvāko kvalitatīvākos kvalitatīvāks kvalitatīvāku kvalitatīvākus kvalitatīvākā kvalitatīvākām kvalitatīvākās kvalitatīvām kvalitatīvās viskvalitatīvāk viskvalitatīvāko viskvalitatīvākos
+73	1773	zaglis	zagis zagle zaglei zagles zagli zagliem zaglim zaglu zaglus zaglēm zagļa zagļi zagļiem zagļos zagļu zagļus
+74	1774	iemīlēties	iemīlamies iemīlas iemīlaties iemīlies iemīlos iemīloties iemīlējamies iemīlējies iemīlējos iemīlējusies iemīlējušies iemīlējušās iemīlējāmies iemīlējās iemīlējāties iemīlēsies iemīlēsieties iemīlētos iemīlēšanās iemīlēšos jāiemīlas neiemīlas neiemīlies neiemīlējos neiemīlēsies neiemīlēties neiemīlētos neiemīlēšos
+75	1775	pretīgs	pretīga pretīgais pretīgajai pretīgajiem pretīgajos pretīgajā pretīgajām pretīgam pretīgas pretīgi pretīgie pretīgiem pretīgo pretīgos pretīgu pretīgus pretīgā pretīgāk pretīgāka pretīgākais pretīgākie pretīgāko pretīgākos pretīgāks pretīgāku pretīgākā pretīgākās pretīgām pretīgās vispretīgākais vispretīgākajām vispretīgākā
+76	1776	pavēle	pavēlei pavēles pavēli pavēlē pavēlēm pavēlēs pavēļu
+77	1777	rakstnieks	rakstniece rakstniecei rakstnieces rakstnieci rakstniecē rakstniecēm rakstniek rakstnieka rakstniekam rakstnieki rakstniekiem rakstniekos rakstnieku rakstniekus rakstniekā rakstnieču
+78	1778	tostarp	
+79	1779	satversme	satversmei satversmes satversmi satversmju satversmē satversmēm
+80	1780	faktors	faktora faktoram faktori faktoriem faktoros faktoru faktorus faktorā
+81	1781	vietnieks	vietniece vietniecei vietnieces vietnieci vietniecēm vietniek vietnieka vietniekam vietnieki vietniekiem vietniekos vietnieku vietniekus vietnieču
+82	1782	izskatīt	izskata izskati izskatot izskatu izskatām izskatāmais izskatāmajiem izskatāmajā izskatāmi izskatāmie izskatāmo izskatāms izskatāt izskatīja izskatīji izskatījis izskatīju izskatījusi izskatījuši izskatījām izskatījāt izskatīs izskatīsi izskatīsim izskatīta izskatītais izskatītajiem izskatītajā izskatītas izskatīti izskatīto izskatīts izskatītu izskatīšana izskatīšu jāizskata neizskata neizskatot neizskatīto
+83	1783	tikmēr	
+84	1784	izpratne	izpratnei izpratnes izpratni izpratnē izpratnēm izpratnēs izpratņu
+85	1785	sarunāt	jāsarunā nesarunā nesarunāja nesarunājot nesarunāju nesarunās nesarunāt nesarunātu sarunāja sarunājam sarunāji sarunājiet sarunājis sarunājot sarunāju sarunājusi sarunājušas sarunājuši sarunājām sarunājāt sarunāsi sarunāsiet sarunāsim sarunāta sarunātais sarunātajiem sarunātajā sarunātas sarunāti sarunāto sarunāts sarunātu sarunātā sarunātām sarunātās sarunāšana sarunāšanas sarunāšanu sarunāšu
+86	1786	velti	
+87	1787	slepkava	slepkavai slepkavam slepkavas slepkaviem slepkavu slepkavām
+88	1788	ievainot	ievaino ievainoja ievainojama ievainojamas ievainojami ievainojamiem ievainojams ievainojamu ievainojamus ievainojamās ievainoji ievainojis ievainojot ievainoju ievainojuši ievainojām ievainos ievainota ievainotais ievainotajiem ievainotam ievainotas ievainoti ievainotie ievainotiem ievainoto ievainotos ievainots ievainotu ievainotus ievainotā ievainotās neievaino neievainojam neievainojama neievainojams neievainojiet neievainot neievainotu
+89	1789	sajust	jāsajūt nesajust nesajustu nesajuta nesajuti nesajutis nesajutu nesajutām nesajutīs nesajutīsi nesajutīsiet nesajutīsim nesajūt nesajūtam nesajūtot nesajūtu sajusts sajustu sajuta sajuti sajutis sajutu sajutām sajutāt sajutīs sajutīsi sajutīsiet sajutīsim sajutīsit sajutīšot sajutīšu sajušana sajūt sajūtam sajūtams sajūtat sajūti sajūtiet sajūtot
+90	1790	cienīt	ciena cieni cieniet cienot cienu cienā cienāja cienāji cienām cienās cienāt cienāti cienāšu cienīja cienījamie cienīji cienījis cienīju cienījusi cienījuši cienīs cienīsi cienīsim cienīta cienītais cienītam cienīti cienītie cienīts cienītu cienītā cienīšu jāciena neciena necieni necienu necienām necienīs necienītu
+91	1791	spējīgs	spējīga spējīgai spējīgais spējīgajai spējīgajiem spējīgajās spējīgam spējīgas spējīgi spējīgie spējīgiem spējīgo spējīgos spējīgu spējīgus spējīgā spējīgāka spējīgākai spējīgākais spējīgākajiem spējīgākajām spējīgākas spējīgāki spējīgākie spējīgākiem spējīgāko spējīgākos spējīgāks spējīgāku spējīgākus spējīgākā spējīgākām spējīgākās spējīgām spējīgās visspējīgākā
+92	1792	vīruss	vīrus vīrusa vīrusam vīrusi vīrusiem vīrusu vīrusus vīrusā
+93	1793	veidoties	jāveidojas neveidojas neveidojoties neveidojās neveidosies neveidoties neveidotos neveidošanās veidojamies veidojas veidojies veidojos veidojoties veidojusies veidojušies veidojušās veidojāmies veidojās veidosies veidosimies veidotos veidošanās
+94	1794	pretinieks	pretiniece pretiniecei pretinieces pretinieci pretiniecēm pretinieka pretiniekam pretinieki pretiniekiem pretiniekos pretinieku pretiniekus pretiniekā pretinieču
+95	1795	skaitīt	jāskaita neskaita neskaiti neskaitiet neskaitot neskaitu neskaitām neskaitīja neskaitīšu skaita skaiti skaitiet skaitot skaitu skaitām skaitāms skaitīdams skaitīja skaitīji skaitījis skaitīju skaitījusi skaitījām skaitīs skaitīsi skaitīsim skaitīta skaitītas skaitīti skaitītos skaitīts skaitītu skaitītās skaitīšana skaitīšanai skaitīšanas skaitīšanu skaitīšanā skaitīšu
+96	1796	šorīt	
+97	1797	veselīgs	veselīga veselīgai veselīgais veselīgajai veselīgajiem veselīgajā veselīgajām veselīgam veselīgas veselīgi veselīgie veselīgiem veselīgo veselīgos veselīgu veselīgus veselīgā veselīgāk veselīgāka veselīgākai veselīgākais veselīgākajiem veselīgākajā veselīgākajām veselīgākam veselīgākas veselīgāki veselīgākie veselīgākiem veselīgāko veselīgāks veselīgāku veselīgākus veselīgākā veselīgākām veselīgām veselīgās visveselīgāk visveselīgākais
+98	1798	pārējā	pārējās
+99	1799	lūgums	lūguma lūgumam lūgumi lūgumiem lūgumos lūgumu lūgumus lūgumā
+100	1800	galvaspilsēta	galvaspilsētai galvaspilsētas galvaspilsētu galvaspilsētā galvaspilsētām galvaspilsētās

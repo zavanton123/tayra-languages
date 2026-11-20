@@ -1,15 +1,15 @@
-1	8701	liekties	jāliecas liecamies liecas liecos liecoties liecās liekdamies lieksies liekšanās neliecas neliecies neliecieties neliecoties nelieksies
-2	8702	metāns	metāna metānu
-3	8703	apraudāties	apraudas apraudies apraudos apraudājas apraudājies apraudājos apraudājusies apraudājušies apraudājušās apraudājās apraudāsies apraudāšos
-4	8704	augļotājs	augļotāja augļotājam augļotāji augļotājiem augļotāju augļotājus
-5	8705	izraudāties	izraudies izraudos izraudājies izraudājos izraudājusies izraudājās izraudāsies izraudāšanās jāizraudas
-6	8706	botāniķe	botāniķa botāniķi botāniķim botāniķis botāniķu
-7	8707	ievārīt	ievārīja ievārīji ievārījis ievārīju ievārījusi ievārījuši ievārījušos ievārījāt ievārīta ievārītais ievārīto ievārītās
-8	8708	izvelēties	izvelējies izvelējos izvelējušies izvelējāmies izvelējās izvelēsies neizvelēties
-9	8709	saburzīt	nesaburzot nesaburzītas nesaburzīts nesaburzītu saburzi saburzīja saburzījis saburzīju saburzīta saburzītas saburzīti saburzīto saburzīts saburzītu saburzītā
-10	8710	komiski	
-11	8711	pārklausīties	nepārklausījies nepārklausījos nepārklausījāties pārklausījies pārklausījos pārklausījās pārklausīšanās
-12	8712	atrunāties	atrunājamies atrunājas atrunājaties atrunājies atrunājos atrunājoties atrunājusies atrunājās atrunāsies atrunāsieties atrunāsities atrunātos atrunāšanās neatrunājieties neatrunātos
+1	8701	ķecerība	ķecerībai ķecerības ķecerību ķecerībām ķecerībās
+2	8702	gāšana	gāšanai gāšanas gāšanu gāšanā gāšanās
+3	8703	sistematizēt	jāsistematizē sistematizē sistematizēja sistematizējot sistematizēju sistematizējuši sistematizējām sistematizēs sistematizēta sistematizētas sistematizēti sistematizētie sistematizēto sistematizēts sistematizētu sistematizēšana sistematizēšanas sistematizēšanu
+4	8704	slimīgs	slimīga slimīgai slimīgajā slimīgajām slimīgas slimīgiem slimīgo slimīgu slimīgus slimīgā slimīgāku slimīgās
+5	8705	metāns	metāna metānu
+6	8706	augļotājs	augļotāja augļotājam augļotāji augļotājiem augļotāju augļotājus
+7	8707	izraudāties	izraudies izraudos izraudājies izraudājos izraudājusies izraudājās izraudāsies izraudāšanās jāizraudas
+8	8708	botāniķe	botāniķa botāniķi botāniķim botāniķis botāniķu
+9	8709	ievārīt	ievārīja ievārīji ievārījis ievārīju ievārījusi ievārījuši ievārījušos ievārījāt ievārīta ievārītais ievārīto ievārītās
+10	8710	izvelēties	izvelējies izvelējos izvelējušies izvelējāmies izvelējās izvelēsies neizvelēties
+11	8711	saburzīt	nesaburzot nesaburzītas nesaburzīts nesaburzītu saburzi saburzīja saburzījis saburzīju saburzīta saburzītas saburzīti saburzīto saburzīts saburzītu saburzītā
+12	8712	komiski	
 13	8713	līdzstrāva	līdzstrāvai līdzstrāvas līdzstrāvu
 14	8714	kvantitāte	kvantitātei kvantitātes kvantitāti kvantitātē
 15	8715	dālderis	dāldera dālderi dālderiem dālderim dālderos dālderu dālderus
@@ -23,58 +23,58 @@
 23	8723	redzīgs	redzīga redzīgais redzīgajai redzīgajam redzīgajiem redzīgajām redzīgam redzīgas redzīgi redzīgie redzīgiem redzīgo redzīgu redzīgus redzīgā redzīgāk redzīgākai redzīgāki redzīgākiem redzīgākos redzīgākus redzīgākām redzīgām redzīgās visredzīgākā visredzīgākās
 24	8724	iecietīgi	
 25	8725	nožūt	jānožūst nenožuvu nenožūst nožuva nožuvis nožūs nožūst nožūstot nožūtu
-26	8726	savajadzēties	savajadzējies savajadzējās savajadzēsies savajagas
-27	8727	rādītājpirksts	rādītājpirksta rādītājpirkstiem rādītājpirkstu rādītājpirkstus
-28	8728	māšele	māšeles māšeli
-29	8729	izvemties	izvemjas izvemtos izvemšos izvēmos izvēmās
-30	8730	kuprains	kuprainais kuprainajiem kuprainajā kupraini kupraino kuprainu kuprainā
-31	8731	šaujampulveris	šaujampulvera šaujampulveri šaujampulverim
-32	8732	sapirkties	jāsapērkas nesapirkos nesapirksies sapirkos sapirksies sapirksimies sapirktos sapirkušies sapirkās sapērcies sapērkamies sapērkas sapērkos sapērkoties
-33	8733	ilggadīgs	ilggadīga ilggadīgais ilggadīgajai ilggadīgajiem ilggadīgajā ilggadīgajām ilggadīgam ilggadīgi ilggadīgie ilggadīgiem ilggadīgo ilggadīgos ilggadīgu ilggadīgus ilggadīgā ilggadīgākajām ilggadīgākā ilggadīgām ilggadīgās
-34	8734	paraudzīt	paraudzīsim paraudzītu paraudzīšu parauga paraugi paraugiet paraugot paraugu
-35	8735	koncertmeistars	koncertmeistara koncertmeistaram koncertmeistari koncertmeistariem koncertmeistaru
-36	8736	partitūra	partitūrai partitūras partitūru partitūrā partitūrām partitūrās
-37	8737	samērīt	nesamērīja samēra samēri samērot samēru samērījis samērīts samērīšu
-38	8738	tendenciozs	tendencioza tendenciozais tendenciozajai tendenciozajā tendenciozajām tendenciozam tendenciozas tendenciozi tendenciozie tendencioziem tendenciozo tendenciozu tendenciozus tendenciozā tendenciozāks
-39	8739	devalvēt	devalvē devalvēja devalvējam devalvējiet devalvējis devalvējot devalvējusi devalvējuši devalvēs devalvēta devalvētas devalvēti devalvēts devalvētu devalvētā devalvēšana devalvēšanas devalvēšanu devalvēšanā jādevalvē nedevalvē nedevalvēja nedevalvējot nedevalvēs nedevalvēšanu
-40	8740	mangāns	mangāna mangānu
-41	8741	zlots	zlota zlotam zloti zlotiem zlotos zlotu zlotus
-42	8742	ačgārns	ačgārna ačgārnai ačgārnais ačgārnajai ačgārnajā ačgārnas ačgārnie ačgārno ačgārnu ačgārnā ačgārnāk ačgārnāka ačgārnās
-43	8743	koķetēt	koķetē koķetēdams koķetēja koķetējis koķetējot koķetēju koķetējusi koķetējuši koķetēšana koķetēšanas koķetēšanu
-44	8744	liekuļot	liekuļo liekuļoja liekuļojat liekuļojot liekuļos liekuļoti liekuļots liekuļotu liekuļošanas neliekuļo neliekuļojam neliekuļojiet neliekuļojot neliekuļosim neliekuļota neliekuļoto neliekuļots neliekuļotu neliekuļotā neliekuļošu
-45	8745	argentīnietis	argentīnieti argentīnietim argentīnieša argentīnieši argentīniešiem argentīniešu
-46	8746	taifūns	taifūna taifūnam taifūni taifūniem taifūnu taifūnus taifūnā
-47	8747	nosvīst	nenosvīdīsiet nosvīda nosvīdis nosvīdu nosvīdīs nosvīstam
-48	8748	draiskule	draiskules draiskuli draiskulis draiskulēm draiskuļi draiskuļiem draiskuļu draiskuļus
-49	8749	sabombardēt	nesabombardēts sabombardē sabombardēja sabombardējusi sabombardējuši sabombardēs sabombardēta sabombardētas sabombardētie sabombardēto sabombardēts sabombardēšanu
-50	8750	izskaitīt	izskaita izskaiti izskaitot izskaitījis izskaitīju izskaitījām izskaitīsi izskaitīta izskaitītas izskaitīti izskaitītu neizskaitot neizskaitāms neizskaitāmā
-51	8751	blāvi	
-52	8752	ķeglis	ķegli ķegļi ķegļiem ķegļu ķegļus
-53	8753	atliekties	atliecas atliecies atliecās atliektos atliekšanās neatliecieties
-54	8754	vingrināt	jāvingrina vingrina vingrini vingrinot vingrināja vingrināju vingrinām vingrinās vingrināta vingrināti vingrinātie vingrinātiem vingrinātos vingrināšana vingrināšanai vingrināšanas vingrināšanos vingrināšanu vingrināšanās
-55	8755	dārzniecība	dārzniecībai dārzniecības dārzniecību dārzniecībā dārzniecībām dārzniecībās
-56	8756	lemšana	lemšanai lemšanas lemšanu lemšanā
-57	8757	stabulnieks	stabulniece stabulnieka stabulniekam stabulniekiem stabulnieku
-58	8758	pasvītrot	jāpasvītro pasvītro pasvītroja pasvītrojot pasvītroju pasvītrojusi pasvītros pasvītrosim pasvītrota pasvītrotas pasvītroti pasvītroto pasvītrots pasvītrotu pasvītrošanā
-59	8759	paliene	palienei palienes palieni palienē palienēm palieņu
-60	8760	samainīties	jāsamainās nesamainās nesamainītos samainos samainoties samaināmies samainās samainījies samainījušies samainījušās samainījāmies samainījās samainīsies samainīsieties samainīsimies samainītos samainīšanās
-61	8761	mīmika	mīmikai mīmikas mīmiku mīmikā
-62	8762	mikročips	mikročipa mikročipam mikročipi mikročipiem mikročipu mikročipus
-63	8763	apbūvēt	apbūvē apbūvēja apbūvējams apbūvējiet apbūvēs apbūvēts apbūvētu apbūvēšana jāapbūvē neapbūvēt neapbūvēts neapbūvētu
-64	8764	iešūt	iešuj iešujam iešuva iešuvis iešuvusi iešūs iešūta iešūti iešūts iešūtu jāiešuj neiešūsiet neiešūts
-65	8765	līdzcietīgs	līdzcietīga līdzcietīgai līdzcietīgajiem līdzcietīgam līdzcietīgi līdzcietīgiem līdzcietīgo līdzcietīgu līdzcietīgus līdzcietīgā līdzcietīgākai līdzcietīgāki līdzcietīgāku
-66	8766	apskalot	apskalo apskalojuši apskalotas apskaloto apskalots apskalošanas
-67	8767	sadirst	sadirs sadirsa sadirsi sadirsts
-68	8768	osteoporoze	osteoporozei osteoporozes osteoporozi
-69	8769	autoritatīvs	autoritatīva autoritatīvai autoritatīvais autoritatīvajam autoritatīvajiem autoritatīvajā autoritatīvam autoritatīvas autoritatīvi autoritatīviem autoritatīvo autoritatīvos autoritatīvu autoritatīvus autoritatīvā autoritatīvākais autoritatīvākajiem autoritatīvākie autoritatīvāko autoritatīvāks autoritatīvāku autoritatīvākās autoritatīvām autoritatīvās
-70	8770	metalurģija	metalurģijai metalurģijas metalurģiju metalurģijā
-71	8771	snovbords	snovborda snovbordam snovbordu snovbordā
-72	8772	arkls	arkla arklam arkli arkliem arklos arklu arklus arklā
-73	8773	ezītis	ezīti ezītim ezītī ezīša ezīši ezīšiem ezīšu ezīšus
-74	8774	avantūra	avantūrai avantūras avantūru avantūrā avantūrām avantūrās
-75	8775	vēsums	vēsuma vēsumam vēsumu vēsumā
-76	8776	pašaizliedzība	pašaizliedzībai pašaizliedzības pašaizliedzību
-77	8777	izvērt	izver izveram izverot izvērs izvērsi izvērsiet izvērām izvēršana izvēršot izvēršu jāizver neizvēršot
+26	8726	apraudāties	apraudas apraudies apraudos apraudājies apraudājos apraudājusies apraudājušies apraudājušās apraudājās apraudāsies apraudāšos
+27	8727	tīksmināties	jātīksminās tīksminies tīksminoties tīksminājos tīksminājušies tīksminājās tīksminās tīksminātos tīksmināšanās
+28	8728	savajadzēties	savajadzējies savajadzējās savajadzēsies savajagas
+29	8729	rādītājpirksts	rādītājpirksta rādītājpirkstiem rādītājpirkstu rādītājpirkstus
+30	8730	māšele	māšeles māšeli
+31	8731	izvemties	izvemjas izvemtos izvemšos izvēmos izvēmās
+32	8732	kuprains	kuprainais kuprainajiem kuprainajā kupraini kupraino kuprainu kuprainā
+33	8733	šaujampulveris	šaujampulvera šaujampulveri šaujampulverim
+34	8734	sapirkties	jāsapērkas nesapirkos nesapirksies sapirkos sapirksies sapirksimies sapirktos sapirkušies sapirkās sapērcies sapērkamies sapērkas sapērkos sapērkoties
+35	8735	ilggadīgs	ilggadīga ilggadīgais ilggadīgajai ilggadīgajiem ilggadīgajā ilggadīgajām ilggadīgam ilggadīgi ilggadīgie ilggadīgiem ilggadīgo ilggadīgos ilggadīgu ilggadīgus ilggadīgā ilggadīgākajām ilggadīgākā ilggadīgām ilggadīgās
+36	8736	koncertmeistars	koncertmeistara koncertmeistaram koncertmeistari koncertmeistariem koncertmeistaru
+37	8737	partitūra	partitūrai partitūras partitūru partitūrā partitūrām partitūrās
+38	8738	samērīt	nesamērīja samēra samēri samērot samēru samērījis samērīts samērīšu
+39	8739	atrunāties	atrunājamies atrunājas atrunājaties atrunājies atrunājos atrunājoties atrunājusies atrunājās atrunāsies atrunāsieties atrunāsities atrunāšanās neatrunājieties
+40	8740	tendenciozs	tendencioza tendenciozais tendenciozajai tendenciozajā tendenciozajām tendenciozam tendenciozas tendenciozi tendenciozie tendencioziem tendenciozo tendenciozu tendenciozus tendenciozā tendenciozāks
+41	8741	devalvēt	devalvē devalvēja devalvējam devalvējiet devalvējis devalvējot devalvējusi devalvējuši devalvēs devalvēta devalvētas devalvēti devalvēts devalvētu devalvētā devalvēšana devalvēšanas devalvēšanu devalvēšanā jādevalvē nedevalvē nedevalvēja nedevalvējot nedevalvēs nedevalvēšanu
+42	8742	mangāns	mangāna mangānu
+43	8743	zlots	zlota zlotam zloti zlotiem zlotos zlotu zlotus
+44	8744	ačgārns	ačgārna ačgārnai ačgārnais ačgārnajai ačgārnajā ačgārnas ačgārnie ačgārno ačgārnu ačgārnā ačgārnāk ačgārnāka ačgārnās
+45	8745	koķetēt	koķetē koķetēdams koķetēja koķetējis koķetējot koķetēju koķetējusi koķetējuši koķetēšana koķetēšanas koķetēšanu
+46	8746	liekuļot	liekuļo liekuļoja liekuļojat liekuļojot liekuļos liekuļoti liekuļots liekuļotu liekuļošanas neliekuļo neliekuļojam neliekuļojiet neliekuļojot neliekuļosim neliekuļota neliekuļoto neliekuļots neliekuļotu neliekuļotā neliekuļošu
+47	8747	argentīnietis	argentīnieti argentīnietim argentīnieša argentīnieši argentīniešiem argentīniešu
+48	8748	taifūns	taifūna taifūnam taifūni taifūniem taifūnu taifūnus taifūnā
+49	8749	nosvīst	nenosvīdīsiet nosvīda nosvīdis nosvīdu nosvīdīs nosvīstam
+50	8750	draiskule	draiskules draiskuli draiskulis draiskulēm draiskuļi draiskuļiem draiskuļu draiskuļus
+51	8751	sabombardēt	nesabombardēts sabombardē sabombardēja sabombardējusi sabombardējuši sabombardēs sabombardēta sabombardētas sabombardētie sabombardēto sabombardēts sabombardēšanu
+52	8752	izskaitīt	izskaita izskaiti izskaitot izskaitījis izskaitīju izskaitījām izskaitīsi izskaitīta izskaitītas izskaitīti izskaitītu neizskaitot neizskaitāms neizskaitāmā
+53	8753	blāvi	
+54	8754	ķeglis	ķegli ķegļi ķegļiem ķegļu ķegļus
+55	8755	atliekties	atliecas atliecies atliecās atliektos atliekšanās neatliecieties
+56	8756	vingrināt	jāvingrina vingrina vingrini vingrinot vingrināja vingrināju vingrinām vingrinās vingrināta vingrināti vingrinātie vingrinātiem vingrinātos vingrināšana vingrināšanai vingrināšanas vingrināšanos vingrināšanu vingrināšanās
+57	8757	dārzniecība	dārzniecībai dārzniecības dārzniecību dārzniecībā dārzniecībām dārzniecībās
+58	8758	lemšana	lemšanai lemšanas lemšanu lemšanā
+59	8759	stabulnieks	stabulniece stabulnieka stabulniekam stabulniekiem stabulnieku
+60	8760	pasvītrot	jāpasvītro pasvītro pasvītroja pasvītrojot pasvītroju pasvītrojusi pasvītros pasvītrosim pasvītrota pasvītrotas pasvītroti pasvītroto pasvītrots pasvītrotu pasvītrošanā
+61	8761	paliene	palienei palienes palieni palienē palienēm palieņu
+62	8762	mīmika	mīmikai mīmikas mīmiku mīmikā
+63	8763	mikročips	mikročipa mikročipam mikročipi mikročipiem mikročipu mikročipus
+64	8764	apbūvēt	apbūvē apbūvēja apbūvējams apbūvējiet apbūvēs apbūvēts apbūvētu apbūvēšana jāapbūvē neapbūvēt neapbūvēts neapbūvētu
+65	8765	iešūt	iešuj iešujam iešuva iešuvis iešuvusi iešūs iešūta iešūti iešūts iešūtu jāiešuj neiešūsiet neiešūts
+66	8766	līdzcietīgs	līdzcietīga līdzcietīgai līdzcietīgajiem līdzcietīgam līdzcietīgi līdzcietīgiem līdzcietīgo līdzcietīgu līdzcietīgus līdzcietīgā līdzcietīgākai līdzcietīgāki līdzcietīgāku
+67	8767	apskalot	apskalo apskalojuši apskalotas apskaloto apskalots apskalošanas
+68	8768	sadirst	sadirs sadirsa sadirsi sadirsts
+69	8769	osteoporoze	osteoporozei osteoporozes osteoporozi
+70	8770	autoritatīvs	autoritatīva autoritatīvai autoritatīvais autoritatīvajam autoritatīvajiem autoritatīvajā autoritatīvam autoritatīvas autoritatīvi autoritatīviem autoritatīvo autoritatīvos autoritatīvu autoritatīvus autoritatīvā autoritatīvākais autoritatīvākajiem autoritatīvākie autoritatīvāko autoritatīvāks autoritatīvāku autoritatīvākās autoritatīvām autoritatīvās
+71	8771	metalurģija	metalurģijai metalurģijas metalurģiju metalurģijā
+72	8772	snovbords	snovborda snovbordam snovbordu snovbordā
+73	8773	arkls	arkla arklam arkli arkliem arklos arklu arklus arklā
+74	8774	ezītis	ezīti ezītim ezītī ezīša ezīši ezīšiem ezīšu ezīšus
+75	8775	avantūra	avantūrai avantūras avantūru avantūrā avantūrām avantūrās
+76	8776	vēsums	vēsuma vēsumam vēsumu vēsumā
+77	8777	pašaizliedzība	pašaizliedzībai pašaizliedzības pašaizliedzību
 78	8778	ačgārni	
 79	8779	negaršīgs	negaršīga negaršīgais negaršīgas negaršīgi negaršīgu negaršīgā negaršīgāka negaršīgāks negaršīgām
 80	8780	nopakalt	nopakaļ
@@ -92,9 +92,9 @@
 92	8792	atdzīt	atdzen atdzenams atdzina atdzinis atdzinusi atdzinām atdzīst atdzīstot atdzīta atdzītajai atdzītas atdzīti atdzītie atdzītos atdzīts atdzīšana jāatdzīst neatdzīs neatdzīst neatdzīt
 93	8793	homoseksuālists	homoseksuālista homoseksuālistam homoseksuālisti homoseksuālistiem homoseksuālistu homoseksuālistus
 94	8794	viesulis	viesuli viesulim viesulī viesuļa viesuļi viesuļiem viesuļu
-95	8795	slimīgi	
-96	8796	servīze	servīzes servīzi servīzēm servīžu
-97	8797	orākuls	orākula orākulam orākuli orākuliem orākulu orākulā
-98	8798	impala	
-99	8799	aspartāms	aspartāma aspartāmu aspartāmā
-100	8800	cirkulēt	cirkulē cirkulēja cirkulējam cirkulējot cirkulējusi cirkulējušas cirkulējuši cirkulējušo cirkulēs cirkulētu cirkulēšanu jācirkulē necirkulē necirkulēja necirkulētu
+95	8795	atpirkties	atpirksies atpirksimies atpirkušies atpirkās atpirkšanās atpērkas jāatpērkas neatpirksies neatpērcieties
+96	8796	samainīties	jāsamainās nesamainās samainos samainoties samaināmies samainās samainījies samainījušies samainījāmies samainījās samainīsies samainīsieties samainīsimies samainīšanās
+97	8797	slimīgi	
+98	8798	servīze	servīzes servīzi servīzēm servīžu
+99	8799	orākuls	orākula orākulam orākuli orākuliem orākulu orākulā
+100	8800	impala	

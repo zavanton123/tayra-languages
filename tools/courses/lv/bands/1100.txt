@@ -26,7 +26,7 @@
 26	1026	atbildība	atbildībai atbildības atbildību atbildībā atbildībām atbildībās
 27	1027	melot	jāmelo melo melodami meloja melojam melojat meloji melojiet melojis melojot melojošo meloju melojusi melojuši melojāt melos melosi melotu melošana melošanai melošanas melošanu melošanā melošu nemelo nemeloja nemelojam nemelojat nemeloji nemelojiet nemelojot nemeloju nemelojām nemelos nemelosi nemelosim nemelot nemelotu nemelošu
 28	1028	mierīgi	
-29	1029	izteikt	izteic izteica izteici izteicis izteicu izteicām izteicāt izteiks izteiksi izteiksiet izteikta izteiktais izteiktajiem izteiktajām izteiktas izteikti izteiktie izteiktiem izteikto izteiktos izteikts izteiktu izteiktā izteiktām izteiktās izteikusi izteikušas izteikuši izteikušās izteikšana izteikšanai izteikšanas izteikšanu izteikšanā izteikšu neizteica neizteicu neizteiks neizteikšu
+29	1029	izteikt	izsaki izsakiet izsakot izsaku izsakām izsakāmas izteica izteici izteicis izteicu izteicām izteicāt izteiks izteikta izteiktais izteiktajiem izteiktajām izteiktas izteikti izteiktie izteikto izteiktos izteikts izteiktu izteiktā izteiktām izteiktās izteikusi izteikušas izteikuši izteikšana izteikšanu izteikšu jāizsaka neizsaka neizsaku neizsakāmi neizteica neizteikšu
 30	1030	bagāts	bagāta bagātais bagātajai bagātajam bagātajiem bagātajā bagātajām bagātajās bagātam bagātas bagāti bagātie bagātiem bagāto bagātos bagātu bagātus bagātā bagātāk bagātāka bagātākais bagātākajiem bagātākajām bagātākas bagātāki bagātākie bagātākiem bagātāko bagātākos bagātāks bagātāku bagātākus bagātākā bagātākās bagātām bagātās visbagātākais visbagātākajiem visbagātāko
 31	1031	soma	somai somas somu somā somām somās
 32	1032	dzēriens	dzēriena dzērienam dzērieni dzērieniem dzērienos dzērienu dzērienus dzērienā
@@ -70,7 +70,7 @@
 70	1070	jumts	jumt jumta jumtam jumti jumtiem jumtos jumtu jumtus jumtā
 71	1071	organizēt	jāorganizē neorganizēt organizē organizēja organizējam organizējams organizējat organizējiet organizējis organizējot organizēju organizējām organizējāt organizēs organizēsiet organizēsim organizēsit organizēts organizētu organizēšana organizēšot organizēšu
 72	1072	gana	ganai ganas ganu ganā
-73	1073	ieiet	ieej ieejam ieejama ieejami ieejat ieejiet ieejot ieejošais ieejošo ieeju iegāja iegāji iegājis iegāju iegājusi iegājušas iegājuši iegājušās iegājām ieiedami ieies ieiesi ieiesiet ieiesim ieiets ieietu ieiešana ieiešot ieiešu jāieiet neieej neieejiet neieejot neiegāja neiegāju neieies neieiesi neieiet neieietu
+73	1073	ieiet	ieej ieejam ieejams ieejat ieejiet ieejot ieejošais ieejošo ieejošā ieeju iegāja iegāji iegājis iegāju iegājušos iegājušās iegājām ieiedami ieies ieiesi ieiesiet ieiesim ieiesit ieietajās ieietos ieiets ieietu ieiešana ieiešot ieiešu jāieiet neieej neieejiet neiegāja neiegāju neieies neieiesi neieiet neieietu
 74	1074	līderis	līdera līderi līderiem līderim līderos līderu līderus līderī
 75	1075	objekts	objekta objektam objekti objektiem objektos objektu objektus objektā
 76	1076	svars	svar svara svaram svari svariem svaros svaru svarus svarā

@@ -1,100 +1,100 @@
-1	2601	konteksts	konteksta kontekstam konteksti kontekstiem kontekstos kontekstu kontekstus kontekstā
-2	2602	pirkums	pirkuma pirkumam pirkumi pirkumiem pirkumos pirkumu pirkumus pirkumā
-3	2603	arguments	argumenta argumentam argumenti argumentiem argumentos argumentu argumentus argumentā
-4	2604	josla	joslai joslas joslu joslā joslām joslās
-5	2605	šausmīgi	
-6	2606	novietot	jānovieto nenovietot novieto novietoja novietojam novietojams novietojat novietoji novietojiet novietojis novietojot novietoju novietojām novietojāt novietos novietosi novietosiet novietosim novietosit novietots novietotu novietošana novietošot novietošu
-7	2607	informatīvs	informatīva informatīvai informatīvais informatīvajai informatīvajam informatīvajiem informatīvajos informatīvajā informatīvajām informatīvajās informatīvam informatīvas informatīvi informatīvie informatīviem informatīvo informatīvos informatīvu informatīvus informatīvā informatīvāk informatīvākais informatīvākajiem informatīvākas informatīvām informatīvās visinformatīvākā
-8	2608	sāns	sāna sānam sāni sāniem sānos sānu sānus sānā
-9	2609	mīla	mīlai mīlas mīlā
-10	2610	dzīt	dzen dzenam dzenamo dzenamās dzeniet dzenot dzenu dzija dzina dzini dzinis dzinu dzināt dzīs dzīsi dzīsim dzīst dzīta dzītas dzīti dzīto dzītos dzīts dzītu dzīšana dzīšanas dzīšanos dzīšanu dzīšanā dzīšu jādzen nedzen nedzenu nedzina nedzīsi nedzīsim nedzīst nedzīstot nedzītu
-11	2611	lops	lop lopa lopam lopi lopiem lopos lopu lopus lopā
-12	2612	nēsāt	jānēsā nenēsāt nēsā nēsāja nēsājam nēsājams nēsājat nēsāji nēsājiet nēsājis nēsājot nēsāju nēsājām nēsājāt nēsās nēsāsi nēsāsiet nēsāsim nēsāts nēsātu nēsāšana nēsāšu
-13	2613	kristietis	kristieti kristietim kristieša kristieši kristiešiem kristiešos kristiešu kristiešus
-14	2614	jubilejs	jubileja jubileju jubilejā
-15	2615	stulbi	
-16	2616	rītdiena	rītdienai rītdienas rītdienu rītdienā
-17	2617	josta	jostai jostas jostu jostā jostām jostās
-18	2618	virzīties	jāvirzās nevirzas nevirzoties nevirzāmies nevirzās nevirzījies nevirzījušās nevirzījās nevirzījāties nevirzīsies nevirzīties nevirzītos virzas virzies virzieties virzos virzoties virzāmies virzās virzāties virzījies virzījos virzījusies virzījušies virzījušās virzījāmies virzījās virzīsies virzīsimies virzītos virzīšanās virzīšos
-19	2619	interesēties	interesējamies interesējas interesējaties interesējies interesējieties interesējos interesējoties interesējusies interesējušies interesējušās interesējāmies interesējās interesējāties interesēsies interesēsimies interesētos interesēšanās interesēšos jāinteresējas neinteresējamies neinteresējas neinteresējos neinteresējoties neinteresējāmies neinteresējās neinteresēsies neinteresēties neinteresētos neinteresēšanās
-20	2620	īsi	
-21	2621	dibens	dibena dibenam dibeni dibeniem dibenos dibenu dibenus dibenā
-22	2622	pūlis	pūla pūli pūliem pūlim pūlos pūlu pūlī pūļa pūļi pūļiem pūļos pūļu pūļus
-23	2623	zābaks	zābaka zābakam zābakas zābaki zābakiem zābakos zābaku zābakus zābakā
-24	2624	kopa	kopai kopas kopu kopus kopām kopās
-25	2625	lepnums	lepnum lepnuma lepnumam lepnumi lepnumiem lepnumu lepnumus lepnumā
-26	2626	izpildītājs	izpildītāj izpildītāja izpildītājam izpildītāji izpildītājiem izpildītājos izpildītāju izpildītājus izpildītājā
-27	2627	atzīties	atzinas atzinies atzinos atzinās atzināties atzīsies atzīsimies atzīstaties atzīsties atzīstieties atzīstos atzīstoties atzītos atzīšanās atzīšos neatzinās neatzināties neatzīsies neatzīsties neatzīstoties neatzīties neatzītos neatzīšos
-28	2628	tieslietas	tieslietu
-29	2629	līdzēt	jālīdz līdzam līdzams līdzot līdzu līdzēja līdzēji līdzējis līdzēju līdzējusi līdzējušas līdzējuši līdzējām līdzēs līdzēsim līdzēts līdzētu līdzēšot līdzēšu nelīdz nelīdzot nelīdzēja nelīdzējis nelīdzēs nelīdzētu
-30	2630	latviski	
-31	2631	plus	
-32	2632	patvērums	patvēruma patvērumam patvērumi patvērumu patvērumā
-33	2633	vairogs	vairog vairoga vairogam vairogi vairogiem vairogos vairogu vairogus vairogā
-34	2634	pamēģināt	nepamēģina nepamēģinot nepamēģināja nepamēģinājis nepamēģināt pamēģina pamēģinot pamēģināja pamēģinājis pamēģināju pamēģināts
-35	2635	simts	
-36	2636	nulle	nullei nulles nulli nullē nullēm nuu
-37	2637	krēsla	krēslai krēslas krēslu krēslā krēslās
-38	2638	gabaliņš	gabaliņa gabaliņam gabaliņi gabaliņiem gabaliņos gabaliņu gabaliņus gabaliņā
-39	2639	pārdzīvot	jāpārdzīvo nepārdzīvo nepārdzīvoja nepārdzīvojiet nepārdzīvojot nepārdzīvoju nepārdzīvos nepārdzīvosim nepārdzīvot nepārdzīvotu nepārdzīvošu pārdzīvo pārdzīvodams pārdzīvoja pārdzīvojam pārdzīvojat pārdzīvojis pārdzīvojot pārdzīvoju pārdzīvojusi pārdzīvojušas pārdzīvojuši pārdzīvojušā pārdzīvojušās pārdzīvojām pārdzīvos pārdzīvosi pārdzīvosim pārdzīvota pārdzīvotais pārdzīvotas pārdzīvoti pārdzīvoto pārdzīvots pārdzīvotu pārdzīvotā pārdzīvotās pārdzīvošanu pārdzīvošu
-40	2640	kilograms	kilo kilograma kilogramam kilogrami kilogramiem kilogramos kilogramu kilogramus kilogramā
-41	2641	pienākties	jāpienākas nepienācās nepienākas nepienākoties nepienāksies nepienākties nepienāktos pienācies pienācās pienākamies pienākas pienākoties pienāksies pienāktos pienākusies pienākušās pienākšoties
-42	2642	zaķis	zais zaķa zaķi zaķiem zaķim zaķu zaķus zaķī zaķīti zaķītim zaķītis zaķīša zaķīši zaķīšiem zaķīšos zaķīšu zaķīšus
-43	2643	iekļaut	iekļauta
-44	2644	skots	skot skota skotam skoti skotiem skotieti skotos skotu skotus
-45	2645	pilnveidot	jāpilnveido nepilnveidojot nepilnveidos pilnveido pilnveidodams pilnveidoja pilnveidojam pilnveidojams pilnveidojiet pilnveidojis pilnveidojot pilnveidojošs pilnveidoju pilnveidojusi pilnveidojušas pilnveidojuši pilnveidojām pilnveidos pilnveidosim pilnveidota pilnveidotais pilnveidotas pilnveidoti pilnveidotie pilnveidoto pilnveidots pilnveidotu pilnveidotā pilnveidošana pilnveidošanas pilnveidošanu pilnveidošanā pilnveidošu
-46	2646	ieleja	ielejai ielejas ieleju ielejā ielejām ielejās
-47	2647	vēss	vēsa vēsai vēsais vēsajai vēsajam vēsajiem vēsajos vēsajā vēsajām vēsajās vēsam vēsas vēsi vēsie vēsiem vēso vēsos vēsu vēsus vēsā vēsāk vēsāka vēsākai vēsākais vēsākajos vēsākajām vēsākajās vēsākam vēsākas vēsāki vēsākiem vēsākos vēsāks vēsāku vēsākā vēsākām vēsākās vēsām vēsās
-48	2648	paslēpt	jāpaslēpj nepaslēpju paslēp paslēpa paslēpdams paslēpi paslēpiet paslēpis paslēpj paslēpjamas paslēpjot paslēpju paslēps paslēpsim paslēpta paslēptai paslēptajiem paslēptas paslēpti paslēptie paslēptiem paslēpto paslēptos paslēpts paslēptu paslēptus paslēptā paslēptām paslēptās paslēpu paslēpusi paslēpušas paslēpuši paslēpušos paslēpušās paslēpām paslēpāt paslēpšana paslēpšu
-49	2649	mīkla	mīklai mīklas mīklu mīklā mīklām mīklās
-50	2650	neveiksme	neveiksmei neveiksmes neveiksmi neveiksmju neveiksmē neveiksmēm neveiksmēs
-51	2651	valdnieks	valdnieka valdniekam valdnieki valdniekiem valdnieku valdniekus
-52	2652	bauma	baumai baumas baumu baumām baumās
-53	2653	helikopters	helikopter helikoptera helikopteram helikopteri helikopteriem helikopteros helikopteru helikopterus helikopterā
-54	2654	iemest	iemests iemestu iemet iemeta iemetam iemetams iemetat iemeti iemetiet iemetis iemetot iemetu iemetām iemetāt iemetīs iemetīsi iemetīsiet iemetīsim iemetīšu iemešana jāiemet neiemest neiemestu neiemet neiemeta neiemetu neiemetām neiemetīsim
-55	2655	jūdze	jūdzei jūdzes jūdzi jūdzē jūdzēm jūdzēs jūdžu
-56	2656	rats	rat rata ratam ratiem ratos ratu ratus ratā
-57	2657	rēķināties	jārēķinas jārēķinās nerēķinas nerēķinies nerēķinieties nerēķinos nerēķinoties nerēķinājos nerēķinājās nerēķināmies nerēķinās nerēķināsies nerēķināties nerēķinātos nerēķināšanās rēķinies rēķinieties rēķinoties rēķinādamies rēķinājies rēķinājos rēķinājusies rēķinājušies rēķinājušās rēķinājāmies rēķinājās rēķināmies rēķinās rēķināsies rēķinātos rēķināšanās
-58	2658	ciest	cietušo
-59	2659	brilles	brille brillēm brillēs briļļu
-60	2660	segt	jāsedz nesegt sedz sedza sedzam sedziet sedzis sedzot sedzu sedzām segs segsi segsim segts segtu segšana segšot segšu
-61	2661	pagarināt	jāpagarina nepagarina nepagarinot nepagarināja nepagarinās nepagarināsim nepagarināt nepagarināšana nepagarināšanas nepagarināšanu pagarina pagarini pagariniet pagarinot pagarinu pagarināja pagarinājis pagarināju pagarinājusi pagarinājušas pagarinājuši pagarinājām pagarinām pagarināms pagarinās pagarināsi pagarināsim pagarināta pagarinātais pagarinātas pagarināti pagarināto pagarināts pagarinātu pagarinātā pagarināšana pagarināšanas pagarināšanu pagarināšanā
-62	2662	savākt	
-63	2663	cents	cent centa centam centi centiem centos centu centus centā
-64	2664	ievest	ieved ieveda ievedam ievedat ievedi ievediet ievedis ievedot ievedu ievedām ievedāt ievedīs ievedīsi ievedīsiet ievedīsim ievedīšot ievedīšu ievesta ievestam ievestas ievesti ievestiem ievestos ievests ievestu ievestus ievestā ievestām ievestās ievešana jāieved neieved neievedat neievedīs neievest neievestu
-65	2665	ieteicams	ieteicama ieteicamais ieteicamajiem ieteicamajos ieteicamajām ieteicamas ieteicami ieteicamie ieteicamiem ieteicamo ieteicamos ieteicamu ieteicamā ieteicamāk ieteicamāka ieteicamākais ieteicamākajiem ieteicamākajām ieteicamākie ieteicamāko ieteicamāks ieteicamākā ieteicamākās ieteicamām ieteicamās visieteicamāk visieteicamākais visieteicamākā
-66	2666	parole	parolei paroles paroli parolē parolēm parolēs paroļu
-67	2667	pļava	pļavai pļavas pļavu pļavā pļavām pļavās
-68	2668	tabula	tabulai tabulam tabulas tabulu tabulā tabulām tabulās
-69	2669	aprēķins	aprēķina aprēķinam aprēķini aprēķiniem aprēķinos aprēķinu aprēķinus aprēķinā
-70	2670	slodze	slodzei slodzes slodzi slodzē slodzēm slodzēs slodžu
-71	2671	pārveidot	jāpārveido nepārveido nepārveidoju nepārveidosi nepārveidots nepārveidotā nepārveidošu pārveido pārveidodams pārveidoja pārveidojam pārveidojams pārveidojat pārveidojiet pārveidojis pārveidojot pārveidojošs pārveidoju pārveidojusi pārveidojuši pārveidojām pārveidos pārveidosim pārveidota pārveidotais pārveidotas pārveidoti pārveidotie pārveidoto pārveidots pārveidotu pārveidotā pārveidošana pārveidošanas pārveidošanu pārveidošanā pārveidošu
-72	2672	lietuvietis	lietuviete lietuvietei lietuvietes lietuvieti lietuvietim lietuvietēm lietuvieša lietuvieši lietuviešiem lietuviešu lietuviešus
-73	2673	krustojums	krustojuma krustojumam krustojumi krustojumiem krustojumos krustojumu krustojumus krustojumā
-74	2674	sūtījums	sūtījuma sūtījumam sūtījumi sūtījumiem sūtījumos sūtījumu sūtījumus sūtījumā
-75	2675	plastmasa	plastmasai plastmasas plastmasu plastmasā plastmasām
-76	2676	lapsa	lapsai lapsam lapsas lapsi lapsu lapsā lapsām lapsās
-77	2677	ietilpt	ietilpst
-78	2678	fotogrāfs	fotogrāf fotogrāfa fotogrāfam fotogrāfe fotogrāfei fotogrāfes fotogrāfi fotogrāfiem fotogrāfos fotogrāfu fotogrāfus fotogrāfē fotogrāfēm fotogrāfēs fotogrāu
-79	2679	tante	tanos tantei tantes tanti tantē tantēm
-80	2680	agresīvs	agresīva agresīvai agresīvais agresīvajai agresīvajam agresīvajiem agresīvajā agresīvajām agresīvam agresīvas agresīvi agresīvie agresīviem agresīvo agresīvos agresīvu agresīvus agresīvā agresīvāk agresīvāka agresīvākai agresīvākais agresīvākajiem agresīvākam agresīvākas agresīvāki agresīvākie agresīvākiem agresīvāko agresīvāks agresīvāku agresīvākus agresīvākā agresīvākām agresīvām agresīvās visagresīvākie visagresīvāko visagresīvākā
-81	2681	ārpuse	ārpusei ārpuses ārpusi ārpusē
-82	2682	spīts	spīta spītam spīti spītu spītā
-83	2683	melis	mei meis mela mele melei meles melim melēm meļa meļi meļiem meļu meļus
-84	2684	pašreiz	
-85	2685	apstrāde	apstrādei apstrādes apstrādi apstrādē apstrādēm
-86	2686	šahs	šah šaha šaham šahiem šahu šahā
-87	2687	zeķe	zeus zeķei zeķes zeķi zeķu zeķē zeķēm zeķēs
-88	2688	nostāties	nenostājamies nenostājas nenostājos nenostājoties nenostāsies nenostāties nenostātos nenostāšos nostādamies nostājamies nostājas nostājaties nostājies nostājieties nostājos nostājoties nostājusies nostājušies nostājušās nostājāmies nostājās nostāsies nostāsieties nostāsimies nostātos nostāšanās nostāšos
-89	2689	pārrunāt	jāpārrunā nepārrunāja nepārrunājam nepārrunāju nepārrunājām pārrunā pārrunāja pārrunājam pārrunājamais pārrunājamajiem pārrunājami pārrunājamiem pārrunājams pārrunājamā pārrunājiet pārrunājis pārrunājot pārrunāju pārrunājusi pārrunājušas pārrunājuši pārrunājām pārrunājāt pārrunās pārrunāsim pārrunāta pārrunātais pārrunātajiem pārrunātam pārrunātas pārrunāti pārrunātie pārrunāto pārrunāts pārrunātu pārrunātus pārrunātā pārrunāšana pārrunāšu
-90	2690	prokurors	prokurora prokuroram prokurori prokuroriem prokuroru prokurorus
-91	2691	dziļums	dziļuma dziļumam dziļumi dziļumiem dziļumos dziļumu dziļumus dziļumā
-92	2692	pārvarēt	jāpārvar nepārvaram nepārvarama nepārvaramajām nepārvaramas nepārvarami nepārvaramiem nepārvaramo nepārvarams nepārvaramu nepārvaramus nepārvaramā nepārvaramās nepārvarēja pārvar pārvaram pārvarama pārvaramas pārvarami pārvarams pārvari pārvarot pārvarēja pārvarējis pārvarēju pārvarējusi pārvarējušas pārvarējuši pārvarējām pārvarēs pārvarēsi pārvarēsim pārvarēta pārvarētas pārvarēti pārvarēts pārvarētu pārvarēšana pārvarēšu
-93	2693	dimants	dimanta dimantam dimanti dimantiem dimantos dimantu dimantus dimantā
-94	2694	novilkt	jānovelk nenovelc nenovelk nenovelkot nenovilcis nenovilka nenovilks nenovilksi nenovilkt nenovilktu nenovilku nenovilkšu novelc novelciet novelk novelkam novelkams novelkot novelku novilcis novilka novilkdams novilki novilks novilksi novilksiet novilksim novilkts novilktu novilku novilkām novilkšana novilkšu
-95	2695	mes	
-96	2696	maratons	maratona maratonam maratoni maratoniem maratonos maratonu maratonus maratonā
-97	2697	nolaisties	jānolaižas nenolaidies nenolaidieties nenolaidās nenolaidīsies nenolaidīsimies nenolaidīsities nenolaidīšos nenolaisties nenolaistos nenolaižas nenolaižos nolaidies nolaidieties nolaidos nolaidāmies nolaidās nolaidāties nolaidīsies nolaidīsieties nolaidīsimies nolaidīšos nolaidīšoties nolaistos nolaišanās nolaižamies nolaižas nolaižaties nolaižos nolaižoties
-98	2698	arodbiedrība	arodbiedrībai arodbiedrības arodbiedrību arodbiedrībā arodbiedrībām arodbiedrībās
-99	2699	skatījums	skatījuma skatījumam skatījumi skatījumiem skatījumos skatījumu skatījumus skatījumā
-100	2700	veidošana	veidošanai veidošanas veidošanu veidošanā veidošanās
+1	2601	jēdziens	jēdziena jēdzienam jēdzieni jēdzieniem jēdzienos jēdzienu jēdzienus jēdzienā
+2	2602	apakša	apakšai apakšas apakšu apakšā apakšām
+3	2603	burtisks	burtiska burtiskais burtiskajai burtiskajā burtiskas burtiski burtiskiem burtisko burtisku burtiskā burtiskāk burtiskās visburtiskākajā
+4	2604	līdzināties	jālīdzinās līdzinies līdzinieties līdzinos līdzinoties līdzinādamies līdzinājusies līdzinājušies līdzinājušās līdzinājās līdzināmies līdzinās līdzināsies līdzinātos līdzināšanās nelīdzinies nelīdzinos nelīdzinoties nelīdzinājās nelīdzināmies nelīdzinās nelīdzināsies nelīdzināties nelīdzinātos
+5	2605	līcis	līci līcim līcī līča līči līčiem līčos līču līčus
+6	2606	saldējums	saldējuma saldējumam saldējumi saldējumiem saldējumos saldējumu saldējumus saldējumā
+7	2607	klimats	klimata klimatam klimatiem klimatos klimatu klimatā
+8	2608	dievināt	dievina dievini dievinot dievinošu dievinošā dievinu dievināja dievināji dievinājis dievināju dievinājuši dievinām dievināmo dievinās dievināsi dievināta dievinātais dievinātas dievināti dievināts dievinātu dievinātā dievinātās jādievina nedievini nedievinot
+9	2609	konteksts	konteksta kontekstam konteksti kontekstiem kontekstos kontekstu kontekstus kontekstā
+10	2610	pirkums	pirkuma pirkumam pirkumi pirkumiem pirkumos pirkumu pirkumus pirkumā
+11	2611	arguments	argumenta argumentam argumenti argumentiem argumentos argumentu argumentus argumentā
+12	2612	josla	joslai joslas joslu joslā joslām joslās
+13	2613	šausmīgi	
+14	2614	novietot	jānovieto nenovietot novieto novietoja novietojam novietojams novietojat novietoji novietojiet novietojis novietojot novietoju novietojām novietojāt novietos novietosi novietosiet novietosim novietosit novietots novietotu novietošana novietošot novietošu
+15	2615	informatīvs	informatīva informatīvai informatīvais informatīvajai informatīvajam informatīvajiem informatīvajos informatīvajā informatīvajām informatīvajās informatīvam informatīvas informatīvi informatīvie informatīviem informatīvo informatīvos informatīvu informatīvus informatīvā informatīvāk informatīvākais informatīvākajiem informatīvākas informatīvām informatīvās visinformatīvākā
+16	2616	pārvērst	jāpārvērš nepārvērst nepārvērstu nepārvērš nepārvēršot pārvērsta pārvērstas pārvērsti pārvērsto pārvērsts pārvērstu pārvērstā pārvērš pārvēršam pārvēršana pārvēršanai pārvēršanas pārvēršanu pārvēršanā pārvēršanās pārvēršot pārvēršu
+17	2617	sāns	sāna sānam sāni sāniem sānos sānu sānus sānā
+18	2618	mīla	mīlai mīlas mīlā
+19	2619	dzīt	dzen dzenam dzenamo dzenamās dzeniet dzenot dzenu dzija dzina dzini dzinis dzinu dzināt dzīs dzīsi dzīsim dzīst dzīta dzītas dzīti dzīto dzītos dzīts dzītu dzīšana dzīšanas dzīšanos dzīšanu dzīšanā dzīšu jādzen nedzen nedzenu nedzina nedzīsi nedzīsim nedzīst nedzīstot nedzītu
+20	2620	lops	lop lopa lopam lopi lopiem lopos lopu lopus lopā
+21	2621	nēsāt	jānēsā nenēsāt nēsā nēsāja nēsājam nēsājams nēsājat nēsāji nēsājiet nēsājis nēsājot nēsāju nēsājām nēsājāt nēsās nēsāsi nēsāsiet nēsāsim nēsāts nēsātu nēsāšana nēsāšu
+22	2622	kristietis	kristieti kristietim kristieša kristieši kristiešiem kristiešos kristiešu kristiešus
+23	2623	stulbi	
+24	2624	rītdiena	rītdienai rītdienas rītdienu rītdienā
+25	2625	josta	jostai jostas jostu jostā jostām jostās
+26	2626	interesēties	interesējamies interesējas interesējaties interesējies interesējieties interesējos interesējoties interesējusies interesējušies interesējušās interesējāmies interesējās interesējāties interesēsies interesēsimies interesētos interesēšanās interesēšos jāinteresējas neinteresējamies neinteresējas neinteresējos neinteresējoties neinteresējāmies neinteresējās neinteresēsies neinteresēties neinteresētos neinteresēšanās
+27	2627	īsi	
+28	2628	dibens	dibena dibenam dibeni dibeniem dibenos dibenu dibenus dibenā
+29	2629	pūlis	pūla pūli pūliem pūlim pūlos pūlu pūlī pūļa pūļi pūļiem pūļos pūļu pūļus
+30	2630	zābaks	zābaka zābakam zābakas zābaki zābakiem zābakos zābaku zābakus zābakā
+31	2631	kopa	kopai kopas kopos kopu kopus kopām kopās
+32	2632	lepnums	lepnum lepnuma lepnumam lepnumi lepnumiem lepnumu lepnumus lepnumā
+33	2633	izpildītājs	izpildītāj izpildītāja izpildītājam izpildītāji izpildītājiem izpildītājos izpildītāju izpildītājus izpildītājā
+34	2634	tieslietas	tieslietu
+35	2635	atzīties	atzinies atzinos atzinās atzināties atzīsies atzīsimies atzīstaties atzīsties atzīstieties atzīstos atzīstoties atzītos atzīšanās atzīšos neatzinās neatzināties neatzīsies neatzīsties neatzīstoties neatzīties neatzītos neatzīšos
+36	2636	līdzēt	jālīdz līdzam līdzams līdzot līdzu līdzēja līdzēji līdzējis līdzēju līdzējusi līdzējušas līdzējuši līdzējām līdzēs līdzēsim līdzēts līdzētu līdzēšot līdzēšu nelīdz nelīdzot nelīdzēja nelīdzējis nelīdzēs nelīdzētu
+37	2637	latviski	
+38	2638	plus	
+39	2639	patvērums	patvēruma patvērumam patvērumi patvērumu patvērumā
+40	2640	vairogs	vairog vairoga vairogam vairogi vairogiem vairogos vairogu vairogus vairogā
+41	2641	pamēģināt	nepamēģina nepamēģinot nepamēģināja nepamēģinājis nepamēģināt pamēģina pamēģinot pamēģināja pamēģinājis pamēģināju pamēģināts
+42	2642	simts	
+43	2643	nulle	nullei nulles nulli nullē nullēm nuu
+44	2644	krēsla	krēslai krēslas krēslu krēslā krēslās
+45	2645	gabaliņš	gabaliņa gabaliņam gabaliņi gabaliņiem gabaliņos gabaliņu gabaliņus gabaliņā
+46	2646	pārdzīvot	jāpārdzīvo nepārdzīvo nepārdzīvoja nepārdzīvojiet nepārdzīvojot nepārdzīvoju nepārdzīvos nepārdzīvosim nepārdzīvot nepārdzīvotu nepārdzīvošu pārdzīvo pārdzīvodams pārdzīvoja pārdzīvojam pārdzīvojat pārdzīvojis pārdzīvojot pārdzīvoju pārdzīvojusi pārdzīvojušas pārdzīvojuši pārdzīvojušā pārdzīvojušās pārdzīvojām pārdzīvos pārdzīvosi pārdzīvosim pārdzīvota pārdzīvotais pārdzīvotas pārdzīvoti pārdzīvoto pārdzīvots pārdzīvotu pārdzīvotā pārdzīvotās pārdzīvošanu pārdzīvošu
+47	2647	kilograms	kilo kilograma kilogramam kilogrami kilogramiem kilogramos kilogramu kilogramus kilogramā
+48	2648	pienākties	jāpienākas nepienācās nepienākas nepienākoties nepienāksies nepienākties pienācies pienācās pienākamies pienākas pienākoties pienāksies pienākusies pienākšoties
+49	2649	zaķis	zais zaķa zaķi zaķiem zaķim zaķu zaķus zaķī zaķīti zaķītim zaķītis zaķīša zaķīši zaķīšiem zaķīšos zaķīšu zaķīšus
+50	2650	iekļaut	iekļauta
+51	2651	skots	skot skota skotam skoti skotiem skotieti skotos skotu skotus
+52	2652	pilnveidot	jāpilnveido nepilnveidojot nepilnveidos pilnveido pilnveidodams pilnveidoja pilnveidojam pilnveidojams pilnveidojiet pilnveidojis pilnveidojot pilnveidojošs pilnveidoju pilnveidojusi pilnveidojušas pilnveidojuši pilnveidojām pilnveidos pilnveidosim pilnveidota pilnveidotais pilnveidotas pilnveidoti pilnveidotie pilnveidoto pilnveidots pilnveidotu pilnveidotā pilnveidošana pilnveidošanas pilnveidošanu pilnveidošanā pilnveidošu
+53	2653	ieleja	ielejai ielejas ieleju ielejā ielejām ielejās
+54	2654	vēss	vēsa vēsai vēsais vēsajai vēsajam vēsajiem vēsajos vēsajā vēsajām vēsajās vēsam vēsas vēsi vēsie vēsiem vēso vēsos vēsu vēsus vēsā vēsāk vēsāka vēsākai vēsākais vēsākajos vēsākajām vēsākajās vēsākam vēsākas vēsāki vēsākiem vēsākos vēsāks vēsāku vēsākā vēsākām vēsākās vēsām vēsās
+55	2655	paslēpt	jāpaslēpj nepaslēpju paslēp paslēpa paslēpdams paslēpi paslēpiet paslēpis paslēpj paslēpjamas paslēpjot paslēpju paslēps paslēpsim paslēpta paslēptai paslēptajiem paslēptas paslēpti paslēptie paslēptiem paslēpto paslēptos paslēpts paslēptu paslēptus paslēptā paslēptām paslēptās paslēpu paslēpusi paslēpušas paslēpuši paslēpušos paslēpušās paslēpām paslēpāt paslēpšana paslēpšu
+56	2656	mīkla	mīklai mīklas mīklu mīklā mīklām mīklās
+57	2657	neveiksme	neveiksmei neveiksmes neveiksmi neveiksmju neveiksmē neveiksmēm neveiksmēs
+58	2658	valdnieks	valdnieka valdniekam valdnieki valdniekiem valdnieku valdniekus
+59	2659	bauma	baumai baumas baumu baumām baumās
+60	2660	helikopters	helikopter helikoptera helikopteram helikopteri helikopteriem helikopteros helikopteru helikopterus helikopterā
+61	2661	iemest	iemests iemestu iemet iemeta iemetam iemetams iemetat iemeti iemetiet iemetis iemetot iemetu iemetām iemetāt iemetīs iemetīsi iemetīsiet iemetīsim iemetīšu iemešana jāiemet neiemest neiemestu neiemet neiemeta neiemetu neiemetām neiemetīsim
+62	2662	virzīties	jāvirzās nevirzoties nevirzāmies nevirzās nevirzījies nevirzījušās nevirzījās nevirzījāties nevirzīsies nevirzīties nevirzītos virzies virzieties virzos virzoties virzāmies virzās virzāties virzījies virzījos virzījusies virzījušies virzījušās virzījāmies virzījās virzīsies virzīsimies virzītos virzīšanās virzīšos
+63	2663	jūdze	jūdzei jūdzes jūdzi jūdzē jūdzēm jūdzēs jūdžu
+64	2664	rats	rat rata ratam ratiem ratos ratu ratus ratā
+65	2665	ciest	cietušo
+66	2666	brilles	brille brillēm brillēs briļļu
+67	2667	segt	jāsedz nesegt sedz sedza sedzam sedziet sedzis sedzot sedzu sedzām segs segsi segsim segts segtu segšana segšot segšu
+68	2668	rēķināties	jārēķinās nerēķinies nerēķinieties nerēķinos nerēķinoties nerēķinājos nerēķinājās nerēķināmies nerēķinās nerēķināsies nerēķināties nerēķinātos nerēķināšanās rēķinies rēķinieties rēķinoties rēķinādamies rēķinājies rēķinājos rēķinājusies rēķinājušies rēķinājušās rēķinājāmies rēķinājās rēķināmies rēķinās rēķināsies rēķinātos rēķināšanās
+69	2669	pagarināt	jāpagarina nepagarina nepagarinot nepagarināja nepagarinās nepagarināsim nepagarināt nepagarināšana nepagarināšanas nepagarināšanu pagarina pagarini pagariniet pagarinot pagarinu pagarināja pagarinājis pagarināju pagarinājusi pagarinājušas pagarinājuši pagarinājām pagarinām pagarināms pagarinās pagarināsi pagarināsim pagarināta pagarinātais pagarinātas pagarināti pagarināto pagarināts pagarinātu pagarinātā pagarināšana pagarināšanas pagarināšanu pagarināšanā
+70	2670	savākt	
+71	2671	cents	cent centa centam centi centiem centos centu centus centā
+72	2672	ievest	ieved ieveda ievedam ievedat ievedi ievediet ievedis ievedot ievedu ievedām ievedāt ievedīs ievedīsi ievedīsiet ievedīsim ievedīšot ievedīšu ievesta ievestam ievestas ievesti ievestiem ievestos ievests ievestu ievestus ievestā ievestām ievestās ievešana jāieved neieved neievedat neievedīs neievest neievestu
+73	2673	ieteicams	ieteicama ieteicamais ieteicamajiem ieteicamajos ieteicamajām ieteicamas ieteicami ieteicamie ieteicamiem ieteicamo ieteicamos ieteicamu ieteicamā ieteicamāk ieteicamāka ieteicamākais ieteicamākajiem ieteicamākajām ieteicamākie ieteicamāko ieteicamāks ieteicamākā ieteicamākās ieteicamām ieteicamās visieteicamāk visieteicamākais visieteicamākā
+74	2674	parole	parolei paroles paroli parolē parolēm parolēs paroļu
+75	2675	pļava	pļavai pļavas pļavu pļavā pļavām pļavās
+76	2676	tabula	tabulai tabulam tabulas tabulu tabulā tabulām tabulās
+77	2677	aprēķins	aprēķina aprēķinam aprēķini aprēķiniem aprēķinos aprēķinu aprēķinus aprēķinā
+78	2678	slodze	slodzei slodzes slodzi slodzē slodzēm slodzēs slodžu
+79	2679	pārveidot	jāpārveido nepārveido nepārveidoju nepārveidosi nepārveidots nepārveidotā nepārveidošu pārveido pārveidodams pārveidoja pārveidojam pārveidojams pārveidojat pārveidojiet pārveidojis pārveidojot pārveidojošs pārveidoju pārveidojusi pārveidojuši pārveidojām pārveidos pārveidosim pārveidota pārveidotais pārveidotas pārveidoti pārveidotie pārveidoto pārveidots pārveidotu pārveidotā pārveidošana pārveidošanas pārveidošanu pārveidošanā pārveidošu
+80	2680	lietuvietis	lietuviete lietuvietei lietuvietes lietuvieti lietuvietim lietuvietēm lietuvieša lietuvieši lietuviešiem lietuviešu lietuviešus
+81	2681	krustojums	krustojuma krustojumam krustojumi krustojumiem krustojumos krustojumu krustojumus krustojumā
+82	2682	sūtījums	sūtījuma sūtījumam sūtījumi sūtījumiem sūtījumos sūtījumu sūtījumus sūtījumā
+83	2683	plastmasa	plastmasai plastmasas plastmasu plastmasā plastmasām
+84	2684	lapsa	lapsai lapsam lapsas lapsi lapsu lapsā lapsām lapsās
+85	2685	ietilpt	ietilpst
+86	2686	fotogrāfs	fotogrāf fotogrāfa fotogrāfam fotogrāfe fotogrāfei fotogrāfes fotogrāfi fotogrāfiem fotogrāfos fotogrāfu fotogrāfus fotogrāfē fotogrāfēm fotogrāfēs fotogrāu
+87	2687	tante	tanos tantei tantes tanti tantē tantēm
+88	2688	agresīvs	agresīva agresīvai agresīvais agresīvajai agresīvajam agresīvajiem agresīvajā agresīvajām agresīvam agresīvas agresīvi agresīvie agresīviem agresīvo agresīvos agresīvu agresīvus agresīvā agresīvāk agresīvāka agresīvākai agresīvākais agresīvākajiem agresīvākam agresīvākas agresīvāki agresīvākie agresīvākiem agresīvāko agresīvāks agresīvāku agresīvākus agresīvākā agresīvākām agresīvām agresīvās visagresīvākie visagresīvāko visagresīvākā
+89	2689	ārpuse	ārpusei ārpuses ārpusi ārpusē
+90	2690	spīts	spīta spītam spīti spītu spītā
+91	2691	melis	mei meis mela mele melei meles melim melēm meļa meļi meļiem meļu meļus
+92	2692	pašreiz	
+93	2693	apstrāde	apstrādei apstrādes apstrādi apstrādē apstrādēm
+94	2694	šahs	šah šaha šaham šahiem šahu šahā
+95	2695	zeķe	zeus zeķei zeķes zeķi zeķu zeķē zeķēm zeķēs
+96	2696	pārrunāt	jāpārrunā nepārrunāja nepārrunājam nepārrunāju nepārrunājām pārrunā pārrunāja pārrunājam pārrunājamais pārrunājamajiem pārrunājami pārrunājamiem pārrunājams pārrunājamā pārrunājiet pārrunājis pārrunājot pārrunāju pārrunājusi pārrunājušas pārrunājuši pārrunājām pārrunājāt pārrunās pārrunāsim pārrunāta pārrunātais pārrunātajiem pārrunātam pārrunātas pārrunāti pārrunātie pārrunāto pārrunāts pārrunātu pārrunātus pārrunātā pārrunāšana pārrunāšu
+97	2697	prokurors	prokurora prokuroram prokurori prokuroriem prokuroru prokurorus
+98	2698	dziļums	dziļuma dziļumam dziļumi dziļumiem dziļumos dziļumu dziļumus dziļumā
+99	2699	pārvarēt	jāpārvar nepārvaram nepārvarama nepārvaramajām nepārvaramas nepārvarami nepārvaramiem nepārvaramo nepārvarams nepārvaramu nepārvaramus nepārvaramā nepārvaramās nepārvarēja pārvar pārvaram pārvarama pārvaramas pārvarami pārvarams pārvari pārvarot pārvarēja pārvarējis pārvarēju pārvarējusi pārvarējušas pārvarējuši pārvarējām pārvarēs pārvarēsi pārvarēsim pārvarēta pārvarētas pārvarēti pārvarēts pārvarētu pārvarēšana pārvarēšu
+100	2700	dimants	dimanta dimantam dimanti dimantiem dimantos dimantu dimantus dimantā

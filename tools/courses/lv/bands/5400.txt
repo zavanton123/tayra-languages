@@ -1,100 +1,100 @@
-1	5301	garlaicība	garlaicībai garlaicības garlaicību garlaicībā
-2	5302	francisks	franciska franciskai franciskais franciskajā franciskam franciskas francisko francisku franciskus franciskā franciskās
-3	5303	iemainīt	iemaina iemaini iemainiet iemainot iemainu iemainām iemainīja iemainīji iemainījis iemainīju iemainījusi iemainījuši iemainījām iemainījāt iemainīsi iemainīsim iemainītais iemainītajā iemainītas iemainīti iemainītos iemainīts iemainītu iemainīšu jāiemaina neiemaina neiemainīs neiemainīt
-4	5304	planšetdators	planšetdatora planšetdatoram planšetdatori planšetdatoriem planšetdatoros planšetdatoru planšetdatorus planšetdatorā
-5	5305	ūdensvads	ūdensvada ūdensvadam ūdensvadi ūdensvadiem ūdensvados ūdensvadu ūdensvadus ūdensvadā
-6	5306	psihe	psia psihei psihes psihi psihu psihē
-7	5307	klasifikācija	klasifikācijai klasifikācijas klasifikāciju klasifikācijā klasifikācijām
-8	5308	papriecāties	papriecājamies papriecājas papriecājies papriecājieties papriecājos papriecājušies papriecājāmies papriecājās papriecājāties papriecāsies papriecāsimies papriecātos papriecāšanās papriecāšos
-9	5309	ods	od oda odam odi odiem odos odu odus
-10	5310	lādētājs	lādētāja lādētājam lādētāji lādētājiem lādētāju lādētājus lādētājā
-11	5311	atgādāt	atgādā atgādāja atgādājama atgādājams atgādājat atgādāji atgādājiet atgādājis atgādājot atgādāju atgādājusi atgādājuši atgādājām atgādājāt atgādās atgādāta atgādātais atgādātas atgādāti atgādāto atgādāts atgādātu atgādātā atgādāšana atgādāšot atgādāšu jāatgādā neatgādāja
-12	5312	noguldīt	jānogulda nenogulda nenoguldīšu nogulda noguldi noguldiet noguldot noguldu noguldām noguldīja noguldīji noguldījis noguldīju noguldījusi noguldījuši noguldīs noguldīsi noguldīsim noguldīta noguldītas noguldīti noguldītie noguldīto noguldīts noguldītu noguldītā noguldīšana noguldīšanas noguldīšanu noguldīšu
-13	5313	paklausīgs	paklausīga paklausīgai paklausīgais paklausīgajiem paklausīgajos paklausīgajām paklausīgam paklausīgas paklausīgi paklausīgie paklausīgiem paklausīgo paklausīgos paklausīgu paklausīgus paklausīgākais paklausīgākajiem paklausīgākajām paklausīgāki paklausīgākie paklausīgāks paklausīgāku paklausīgākā vispaklausīgākie
-14	5314	pārtrūkt	nepārtrūka nepārtrūks nepārtrūkst nepārtrūkstot nepārtrūkstošu nepārtrūktu pārtrūcis pārtrūka pārtrūks pārtrūkst pārtrūkstot pārtrūktu pārtrūkusi pārtrūkusī pārtrūkušas pārtrūkuši pārtrūkušo pārtrūkšana
-15	5315	saplosīt	nesaplosa nesaplosīs nesaplosītu saplosa saplosi saplosiet saplosot saplosīja saplosījis saplosīju saplosīs saplosīsim saplosīts saplosītu saplosīšana saplosīšu
-16	5316	zemessargs	zemessarga zemessargam zemessargi zemessargiem zemessargos zemessargu zemessargus
-17	5317	sauciens	sauciena saucienam saucieni saucieniem saucienos saucienu saucienus saucienā
-18	5318	lokomotīve	lokomotīvei lokomotīves lokomotīvi lokomotīvju lokomotīvē lokomotīvēm
-19	5319	pārvadīt	jāpārvada pārvada pārvadi pārvadot pārvadu pārvadāt pārvadītu
-20	5320	darbdiena	darbdienai darbdienas darbdienu darbdienā darbdienām darbdienās
-21	5321	rasisms	rasisma rasismam rasismu rasismā
-22	5322	ledājs	ledāja ledājam ledāji ledājiem ledājos ledāju ledājus ledājā
-23	5323	ambiciozs	ambicioza ambiciozai ambiciozais ambiciozajam ambiciozajiem ambiciozajos ambiciozam ambiciozas ambiciozi ambiciozie ambicioziem ambiciozo ambiciozos ambiciozu ambiciozus ambiciozā ambiciozāk ambiciozāka ambiciozākai ambiciozākais ambiciozākajiem ambiciozākajām ambiciozākam ambiciozākas ambiciozāki ambiciozākie ambiciozākiem ambiciozāko ambiciozākos ambiciozāks ambiciozāku ambiciozākus ambiciozākā ambiciozākās ambiciozām ambiciozās visambiciozākais visambiciozākos
-24	5324	mēris	mērim mērī
-25	5325	nodalīt	jānodala nenodala nenodalot nenodalu nenodalām nenodalījām nenodalīšana nodala nodali nodaliet nodalot nodalu nodalām nodalāma nodalāmas nodalāms nodalāt nodalīja nodalījis nodalījusi nodalījuši nodalījušo nodalījām nodalīs nodalīsim nodalīta nodalītai nodalītajā nodalītam nodalītas nodalīti nodalītie nodalīto nodalīts nodalītu nodalītā nodalītām nodalītās nodalīšana
-26	5326	šalle	šallei šalles šalli šallē šallēm šallēs šaļļu
-27	5327	konfederācija	konfederācijai konfederācijas konfederāciju konfederācijā
-28	5328	vakuums	vakuuma vakuumam vakuumu vakuumā
-29	5329	nerātns	nerātna nerātnais nerātnajai nerātnajam nerātnajiem nerātnajām nerātnajās nerātnas nerātni nerātnie nerātniem nerātno nerātnos nerātnu nerātnus nerātnā nerātnāki nerātnām nerātnās
-30	5330	kolekcionārs	kolekcionāra kolekcionāram kolekcionāri kolekcionāriem kolekcionāru kolekcionārus
-31	5331	samelot	nesameloja nesameloju nesamelot nesamelotu nesamelošu samelo sameloja samelojam sameloji samelojiet samelojis samelojot sameloju samelojusi samelojuši samelojām samelos samelosi samelosiet samelots
-32	5332	izskriet	izskrien izskrienam izskrienot izskrienu izskries izskriets izskrietu izskriešana izskriešu izskrēja izskrēji izskrējis izskrēju jāizskrien neizskrien neizskrienot neizskrienu neizskries neizskriesi neizskrietu
-33	5333	ģitārists	ģitārista ģitāristam ģitāriste ģitāristi ģitāristiem ģitāristu ģitāristus
-34	5334	pasīvs	pasīva pasīvai pasīvais pasīvajai pasīvajam pasīvajiem pasīvajos pasīvajā pasīvajām pasīvam pasīvas pasīvie pasīviem pasīvo pasīvos pasīvu pasīvus pasīvā pasīvāk pasīvāka pasīvākas pasīvāki pasīvākie pasīvākiem pasīvāks pasīvām pasīvās vispasīvākie
-35	5335	karatē	
-36	5336	mežacūka	mežacūkai mežacūkas mežacūku mežacūkām mežacūkās
-37	5337	sešdesmit	
-38	5338	atvienot	atvieno atvienoja atvienojam atvienojamais atvienojamas atvienojiet atvienojis atvienojot atvienoju atvienojuši atvienojušās atvienojāt atvienos atvienota atvienotajā atvienotas atvienoti atvienoto atvienotos atvienots atvienotu atvienotās atvienošana atvienošu jāatvieno neatvienojot neatvienoju neatvienosiet neatvienotu
-39	5339	stjuarte	stjuartei stjuartes stjuarti stjuartēm stjuaršu
-40	5340	erekcija	erekcijai erekcijas erekciju erekcijām
-41	5341	stereotips	stereotipa stereotipam stereotipi stereotipiem stereotipos stereotipu stereotipus
-42	5342	pilnmēness	pilnmēnesi pilnmēnesim pilnmēnesī pilnmēneši pilnmēnešus
-43	5343	horizontāls	horizontāla horizontālai horizontālais horizontālajam horizontālajiem horizontālajos horizontālajā horizontālajām horizontālam horizontālas horizontālie horizontālo horizontālos horizontālu horizontālus horizontālā horizontālām horizontālās
-44	5344	ūdensapgāde	ūdensapgādei ūdensapgādes ūdensapgādi ūdensapgādē
-45	5345	turpretim	
-46	5346	plati	
-47	5347	korejietis	korejiete korejietes korejietim korejieša korejieši korejiešiem korejiešu korejiešus
-48	5348	pakāje	pakājei pakājes pakāji pakājē
-49	5349	blonds	blonda blondai blondais blondajai blondajam blondajiem blondajā blondajām blondam blondas blondi blondie blondiem blondo blondos blondu blondus blondā blondāka blondākā blondām blondās
-50	5350	rupjība	rupjībai rupjībam rupjības rupjību rupjībā rupjībām rupjībās
-51	5351	apveltīt	apvelta apvelti apveltot apveltīdams apveltīja apveltījis apveltījusi apveltījuši apveltīs apveltīta apveltītais apveltītas apveltīti apveltītie apveltīto apveltīts apveltītu apveltītā apveltīšu neapveltīja neapveltīt
-52	5352	nemanot	
-53	5353	saindēt	nesaindējot nesaindēsi saindē saindēja saindēji saindējis saindējot saindējusi saindējuši saindējušiem saindējušos saindējušās saindējām saindēs saindēta saindētais saindētajai saindētajam saindētajiem saindētajā saindētas saindēti saindētiem saindēto saindētos saindēts saindētu saindētā saindētām saindētās saindēšana
-54	5354	juriste	juristei juristes juristi juristēm
-55	5355	godāt	godā godādams godāja godājam godājams godājiet godājot godāju godās godāsim godāts godātu godāšana godāšu jāgodā negodāt
-56	5356	paraža	paražai paražas paražu paražām paražās
-57	5357	apvārsnis	apvārsni apvārsnim apvārsnī apvāršņa apvāršņi apvāršņiem apvāršņu apvāršņus
-58	5358	kvīts	kvīti kvītu
-59	5359	primitīvs	primitīva primitīvais primitīvajai primitīvajiem primitīvajos primitīvajā primitīvajām primitīvajās primitīvam primitīvas primitīvi primitīvie primitīviem primitīvo primitīvos primitīvu primitīvus primitīvā primitīvāk primitīvāka primitīvākais primitīvākajā primitīvākajām primitīvāki primitīvākie primitīvākiem primitīvāko primitīvāks primitīvāku primitīvām primitīvās visprimitīvākais visprimitīvākajā visprimitīvākajām visprimitīvāko visprimitīvākā visprimitīvākās
-60	5360	miets	mieta mietam mieti mietiem mietu mietus mietā
-61	5361	salmi	salmiem salmos salmu salmus
-62	5362	melīgs	melīga melīgais melīgajai melīgajiem melīgajā melīgajām melīgajās melīgam melīgas melīgi melīgie melīgiem melīgo melīgos melīgu melīgus melīgā melīgāka melīgākajai melīgākajiem melīgāki melīgām melīgās
-63	5363	sastrādāt	nesastrādā nesastrādās nesastrādāt nesastrādātu sastrādā sastrādāja sastrādājam sastrādāji sastrādājis sastrādāju sastrādājusi sastrādājusī sastrādājušas sastrādājuši sastrādājušiem sastrādājāt sastrādās sastrādāsi sastrādāta sastrādātais sastrādātajiem sastrādātajā sastrādātajām sastrādātas sastrādāti sastrādātiem sastrādāto sastrādātos sastrādāts sastrādātu sastrādātus sastrādātā sastrādātām sastrādātās
-64	5364	rezervāts	rezervāta rezervātam rezervāti rezervātiem rezervātos rezervātu rezervātus rezervātā
-65	5365	virpulis	virpuli virpulim virpulī virpuļa virpuļi virpuļiem virpuļos virpuļu virpuļus
-66	5366	audzējs	audzēja audzējam audzēji audzējiem audzējos audzēju audzējus audzējā
-67	5367	nospriest	jānospriež nospried nosprieda nospriedis nospriedu nospriedusi nospriedušas nosprieduši nospriedām nospriedāt nospriedīs nospriedīsim nospriesto nospriests nospriestu nospriež nospriežam nospriežot nospriežu
-68	5368	līme	līmei līmes līmi līmju līmē līmēm līmēs
-69	5369	franciski	
-70	5370	uzpeldēt	jāuzpeld neuzpeld neuzpeldēt neuzpeldētu uzpeld uzpeldot uzpeldu uzpeldēja uzpeldēji uzpeldējis uzpeldējusi uzpeldējušas uzpeldējuši uzpeldējušu uzpeldēs uzpeldēsim uzpeldētu uzpeldēšana
-71	5371	astoņpadsmit	
-72	5372	zvejot	jāzvejo nezvejo nezvejojam nezvejojot zvejo zvejoja zvejojam zvejojat zvejojiet zvejojis zvejojot zvejoju zvejojušam zvejojuši zvejojām zvejos zvejota zvejotas zvejoti zvejoto zvejots zvejotu zvejotās zvejošana zvejošanai zvejošanas zvejošanu zvejošanā zvejošu
-73	5373	nelaiķis	nelaiķa nelaiķe nelaiķi nelaiķiem nelaiķim nelaiķu nelaiķus
-74	5374	astoņdesmit	
-75	5375	palestīnietis	palestīnietim palestīnieši palestīniešiem palestīniešu palestīniešus
-76	5376	trupa	trupai trupas trupu trupā trupām trupās
-77	5377	modrs	modra modrai modrais modrajai modrajiem modrajām modram modras modrie modriem modro modru modrus modrā modrāk modrākajiem modrāki modrākiem modrām modrās
-78	5378	bruto	
-79	5379	cīrulis	cīruli cīrulim cīrulus cīruļa cīruļi cīruļiem cīruļos cīruļu
-80	5380	aplikt	aplicis apliec aplieciet apliek apliekam apliekams apliekat apliekot aplieku aplika apliks apliksi apliksim aplikts apliktu apliku aplikāt aplikšana aplikšu jāapliek neapliek neapliekam neapliekot neaplieku neaplika neapliks neaplikt neaplikts neapliktu neaplikšana
-81	5381	akustisks	akustiska akustiskai akustiskais akustiskajai akustiskajiem akustiskajos akustiskajā akustiskajām akustiskas akustiskie akustiskiem akustisko akustiskos akustisku akustiskus akustiskā akustiskākā akustiskām akustiskās fizioloģiskās
-82	5382	kurmis	kurma kurmi kurmim kurmja kurmji kurmjiem kurmju kurmjus
-83	5383	vārna	vārnai vārnam vārnas vārnu vārnā vārnām
-84	5384	četrinieks	četrinieka četriniekam četrinieki četriniekiem četriniekos četrinieku četriniekus četriniekā
-85	5385	piekopt	jāpiekopj nepiekopj nepiekopjam nepiekopju nepiekops nepiekopsiet nepiekopt nepiekopu piekop piekopa piekopdams piekopiet piekopis piekopj piekopjam piekopjot piekopju piekops piekopsit piekopts piekoptu piekopu piekopām piekopšana
-86	5386	nopietnība	nopietnībai nopietnības nopietnību nopietnībā
-87	5387	pārraut	jāpārrauj nepārrauj nepārraus pārrauj pārraujams pārraujiet pārraujot pārrauju pārraus pārrausi pārrausim pārrauts pārrautu pārraušana pārraušu pārrāva pārrāvis pārrāvu pārrāvām
-88	5388	piegulēt	jāpieguļ nepieguļ pieguloša piegulošai piegulošais piegulošajā piegulošajām piegulošajās piegulošas pieguloši piegulošie piegulošo piegulošos piegulošs piegulošu piegulošā piegulošām piegulošās piegulētu pieguļ pieguļoša pieguļošai pieguļošais pieguļošajai pieguļošajos pieguļošajā pieguļošajām pieguļošajās pieguļošam pieguļošas pieguļoši pieguļošie pieguļošo pieguļošos pieguļošs pieguļošu pieguļošus pieguļošā pieguļošām pieguļošās
-89	5389	auglība	auglībai auglības auglību auglībā
-90	5390	faraons	faraona faraonam faraoni faraoniem faraonu faraonus
-91	5391	lietussargs	lietussarga lietussargam lietussargi lietussargiem lietussargu lietussargus lietussargā
-92	5392	iestrādāt	iestrādā iestrādāja iestrādājam iestrādājama iestrādājamas iestrādājis iestrādājot iestrādājusi iestrādājuši iestrādājušos iestrādājušās iestrādājām iestrādās iestrādāsim iestrādāta iestrādātai iestrādātais iestrādātajai iestrādātajiem iestrādātajos iestrādātajā iestrādātajām iestrādātajās iestrādātam iestrādātas iestrādāti iestrādātie iestrādātiem iestrādāto iestrādātos iestrādāts iestrādātu iestrādātus iestrādātā iestrādātām iestrādātās iestrādāšana iestrādāšot jāiestrādā
-93	5393	diagramma	diagrammas diagrammu diagrammā diagrammām diagrammās
-94	5394	uzēst	jāuzēd uzēd uzēda uzēdam uzēdiet uzēdot uzēdu uzēdusi uzēdām uzēdīs uzēdīsim uzēdīšu uzēstajiem uzēsto uzēsts uzēstu uzēšana
-95	5395	vielmaiņa	vielmaiņai vielmaiņas vielmaiņu vielmaiņā
-96	5396	izstādīt	izstāda izstādiet izstādot izstādāt izstādīja izstādījis izstādījusi izstādījušas izstādījuši izstādījušās izstādījām izstādīs izstādīsi izstādīta izstādītai izstādītajai izstādītajiem izstādītajos izstādītajām izstādītam izstādītas izstādīti izstādītie izstādītiem izstādīto izstādītos izstādīts izstādītu izstādītā izstādītām izstādītās izstādīšana jāizstāda neizstāda neizstādīsi neizstādītos neizstādītu
-97	5397	dārznieks	dārzniece dārzniecei dārznieces dārznieci dārznieka dārzniekam dārznieki dārzniekiem dārzniekos dārznieku dārzniekus dārzniekā
-98	5398	izpletnis	izpletni izpletnim izpletnī izpletņa izpletņi izpletņiem izpletņu izpletņus
-99	5399	sekls	sekla seklai seklais seklajai seklajiem seklajā seklajām seklajās seklam seklas seklie sekliem seklo seklos seklu seklus seklā seklāk seklāka seklākajās seklākas seklāki seklāks seklāku seklākā seklākām seklākās seklām seklās visseklākais visseklākajām
-100	5400	viesuļvētra	viesuļvētrai viesuļvētras viesuļvētru viesuļvētrā viesuļvētrām viesuļvētrās
+1	5301	uzgriezt	jāuzgriež neuzgriez neuzgrieztu neuzgriezu neuzgriež neuzgriežot uzgriez uzgrieza uzgriezdami uzgriezi uzgriezis uzgriezti uzgrieztiem uzgriezts uzgriezu uzgriezusi uzgriezuši uzgriezīs uzgriezīsi uzgriezīsim uzgriež uzgriežam uzgriežama uzgriežamais uzgriežamajām uzgriežamā uzgriežat uzgriežot uzgriežu
+2	5302	nolēkt	nenolec nenolēksiet nenolēkšu nolec nolecam nolecot nolecu nolēca nolēci nolēcis nolēcu nolēks nolēksi nolēktu nolēkšu
+3	5303	azartspēles	
+4	5304	dancis	danam danci dancī danu danča danči dančiem dančos danču dančus
+5	5305	iz	
+6	5306	adrenalīns	adrenalīna adrenalīnam adrenalīnu
+7	5307	izdarība	izdarības izdarību izdarībā izdarībām izdarībās
+8	5308	dzelme	dzela dzelmei dzelmes dzelmi dzelmju dzelmē dzelmēm dzelmēs
+9	5309	garoza	garozai garozas garozu garozā garozām
+10	5310	stāvlaukums	stāvlaukuma stāvlaukumam stāvlaukumi stāvlaukumiem stāvlaukumos stāvlaukumu stāvlaukumus stāvlaukumā
+11	5311	siekalas	siekala siekalu siekalām siekalās
+12	5312	izmazgāt	izmazgā izmazgāja izmazgājam izmazgājamiem izmazgāji izmazgājiet izmazgājis izmazgājot izmazgāju izmazgājusi izmazgājušas izmazgājuši izmazgājām izmazgās izmazgāta izmazgātas izmazgāti izmazgāto izmazgātos izmazgāts izmazgātu izmazgātā izmazgātām izmazgātās izmazgāšu jāizmazgā neizmazgā neizmazgājami neizmazgājamos neizmazgājamu neizmazgāji neizmazgāsi neizmazgātiem
+13	5313	adekvāts	adekvāta adekvātai adekvātais adekvātajā adekvātajās adekvātam adekvātas adekvātiem adekvāto adekvātu adekvātus adekvātā adekvātāk adekvātāka adekvātākas adekvātāks adekvātāku adekvātākus adekvātākā adekvātākām adekvātām adekvātās visadekvātāk visadekvātākais visadekvātāko
+14	5314	divritenis	divritena divriteni divriteniem divritenim divritenī divriteņa divriteņi divriteņiem divriteņu divriteņus
+15	5315	džemperis	džempera džemperi džemperiem džemperim džemperos džemperu džemperus džemperī
+16	5316	pārbiedēt	nepārbiedē nepārbiedēju pārbiedē pārbiedēja pārbiedēji pārbiedējis pārbiedējot pārbiedēju pārbiedējāt pārbiedēs pārbiedēts pārbiedētu pārbiedēšu
+17	5317	cieti	
+18	5318	iedzīvoties	iedzīvojas iedzīvojaties iedzīvojies iedzīvojos iedzīvojoties iedzīvojusies iedzīvojušies iedzīvojušās iedzīvojāmies iedzīvojās iedzīvosies iedzīvosimies iedzīvotos iedzīvošanās jāiedzīvojas neiedzīvojas neiedzīvojoties neiedzīvojās neiedzīvosies neiedzīvosimies neiedzīvoties neiedzīvotos
+19	5319	runcis	runci runcim runcī runis runča runči runčiem runču runčus
+20	5320	ieraut	ieraudams ierauj ieraujam ieraujat ieraujot ieraus ierausi ierauts ierautu ieraušu ierāva ierāvis ierāvu jāierauj neierauj neieraut
+21	5321	sintēze	sintēzei sintēzes sintēzi sintēzē sintēzēm
+22	5322	atsākties	atsācies atsākamies atsākas atsākoties atsāksies atsāktos atsākusies atsākušies atsākušās atsākās atsākšanās atsākšoties jāatsākas neatsāksies neatsāktos
+23	5323	bruņojums	bruņojuma bruņojumam bruņojumu bruņojumā
+24	5324	nepilsonis	nepilsona nepilsoni nepilsonim nepilsoņa nepilsoņi nepilsoņiem nepilsoņos nepilsoņu nepilsoņus
+25	5325	uzcept	jāuzcep neuzceps neuzcept uzcep uzcepa uzcepam uzcepama uzcepi uzcepiet uzcepis uzcepot uzceps uzcepta uzceptai uzceptas uzcepti uzcepto uzcepts uzceptu uzcepu uzcepusi uzcepuši uzcepām uzcepšanai uzcepšu
+26	5326	kartons	karton kartona kartonam kartoniem kartonu kartonus kartonā
+27	5327	garlaicība	garlaicībai garlaicības garlaicību garlaicībā
+28	5328	francisks	franciska franciskai franciskais franciskajā franciskam franciskas francisko francisku franciskus franciskā franciskās
+29	5329	iemainīt	iemaina iemaini iemainiet iemainot iemainu iemainām iemainīja iemainīji iemainījis iemainīju iemainījusi iemainījuši iemainījām iemainījāt iemainīsi iemainīsim iemainītais iemainītajā iemainītas iemainīti iemainītos iemainīts iemainītu iemainīšu jāiemaina neiemaina neiemainīs neiemainīt
+30	5330	planšetdators	planšetdatora planšetdatoram planšetdatori planšetdatoriem planšetdatoros planšetdatoru planšetdatorus planšetdatorā
+31	5331	ūdensvads	ūdensvada ūdensvadam ūdensvadi ūdensvadiem ūdensvados ūdensvadu ūdensvadus ūdensvadā
+32	5332	psihe	psia psihei psihes psihi psihu psihē
+33	5333	klasifikācija	klasifikācijai klasifikācijas klasifikāciju klasifikācijā klasifikācijām
+34	5334	papriecāties	papriecājamies papriecājas papriecājies papriecājieties papriecājos papriecājušies papriecājāmies papriecājās papriecājāties papriecāsies papriecāsimies papriecātos papriecāšanās papriecāšos
+35	5335	ods	od oda odam odi odiem odos odu odus
+36	5336	lādētājs	lādētāja lādētājam lādētāji lādētājiem lādētāju lādētājus lādētājā
+37	5337	atgādāt	atgādā atgādāja atgādājama atgādājams atgādājat atgādāji atgādājiet atgādājis atgādājot atgādāju atgādājusi atgādājuši atgādājām atgādājāt atgādās atgādāta atgādātais atgādātas atgādāti atgādāto atgādāts atgādātu atgādātā atgādāšana atgādāšot atgādāšu jāatgādā neatgādāja
+38	5338	noguldīt	jānogulda nenogulda nenoguldīšu nogulda noguldi noguldiet noguldot noguldu noguldām noguldīja noguldīji noguldījis noguldīju noguldījusi noguldījuši noguldīs noguldīsi noguldīsim noguldīta noguldītas noguldīti noguldītie noguldīto noguldīts noguldītu noguldītā noguldīšana noguldīšanas noguldīšanu noguldīšu
+39	5339	paklausīgs	paklausīga paklausīgai paklausīgais paklausīgajiem paklausīgajos paklausīgajām paklausīgam paklausīgas paklausīgi paklausīgie paklausīgiem paklausīgo paklausīgos paklausīgu paklausīgus paklausīgākais paklausīgākajiem paklausīgākajām paklausīgāki paklausīgākie paklausīgāks paklausīgāku paklausīgākā vispaklausīgākie
+40	5340	pārtrūkt	nepārtrūka nepārtrūks nepārtrūkst nepārtrūkstot nepārtrūkstošu nepārtrūktu pārtrūcis pārtrūka pārtrūks pārtrūkst pārtrūkstot pārtrūktu pārtrūkusi pārtrūkusī pārtrūkušas pārtrūkuši pārtrūkušo pārtrūkšana
+41	5341	saplosīt	nesaplosa nesaplosīs nesaplosītu saplosa saplosi saplosiet saplosot saplosīja saplosījis saplosīju saplosīs saplosīsim saplosīts saplosītu saplosīšana saplosīšu
+42	5342	zemessargs	zemessarga zemessargam zemessargi zemessargiem zemessargos zemessargu zemessargus
+43	5343	sauciens	sauciena saucienam saucieni saucieniem saucienos saucienu saucienus saucienā
+44	5344	lokomotīve	lokomotīvei lokomotīves lokomotīvi lokomotīvju lokomotīvē lokomotīvēm
+45	5345	pārvadīt	jāpārvada pārvada pārvadi pārvadot pārvadu pārvadāt pārvadītu
+46	5346	darbdiena	darbdienai darbdienas darbdienu darbdienā darbdienām darbdienās
+47	5347	rasisms	rasisma rasismam rasismu rasismā
+48	5348	ledājs	ledāja ledājam ledāji ledājiem ledājos ledāju ledājus ledājā
+49	5349	ambiciozs	ambicioza ambiciozai ambiciozais ambiciozajam ambiciozajiem ambiciozajos ambiciozam ambiciozas ambiciozi ambiciozie ambicioziem ambiciozo ambiciozos ambiciozu ambiciozus ambiciozā ambiciozāk ambiciozāka ambiciozākai ambiciozākais ambiciozākajiem ambiciozākajām ambiciozākam ambiciozākas ambiciozāki ambiciozākie ambiciozākiem ambiciozāko ambiciozākos ambiciozāks ambiciozāku ambiciozākus ambiciozākā ambiciozākās ambiciozām ambiciozās visambiciozākais visambiciozākos
+50	5350	mēris	mērim mērī
+51	5351	nodalīt	jānodala nenodala nenodalot nenodalām nenodalījām nenodalītos nenodalīšana nodala nodali nodaliet nodalot nodalu nodalām nodalāma nodalāmas nodalāms nodalāmās nodalāt nodalīja nodalījis nodalījusi nodalījuši nodalījām nodalīs nodalīsim nodalīta nodalītai nodalītajā nodalītam nodalītas nodalīti nodalītie nodalīto nodalīts nodalītu nodalītā nodalītām nodalītās nodalīšana
+52	5352	šalle	šallei šalles šalli šallē šallēm šallēs šaļļu
+53	5353	konfederācija	konfederācijai konfederācijas konfederāciju konfederācijā
+54	5354	vakuums	vakuuma vakuumam vakuumu vakuumā
+55	5355	nerātns	nerātna nerātnais nerātnajai nerātnajam nerātnajiem nerātnajām nerātnajās nerātnas nerātni nerātnie nerātniem nerātno nerātnos nerātnu nerātnus nerātnā nerātnāki nerātnām nerātnās
+56	5356	kolekcionārs	kolekcionāra kolekcionāram kolekcionāri kolekcionāriem kolekcionāru kolekcionārus
+57	5357	pavērst	jāpavērš nepavērs nepavērsu nepavērš pavērs pavērsa pavērsiet pavērsta pavērstas pavērsti pavērsto pavērsts pavērstu pavērsu pavērsusi pavērsām pavērsīs pavērsīsi pavērsīsiet pavērsīsim pavērš pavēršana pavēršat pavēršot pavēršu
+58	5358	samelot	nesameloja nesameloju nesamelot nesamelotu nesamelošu samelo sameloja samelojam sameloji samelojiet samelojis samelojot sameloju samelojusi samelojuši samelojām samelos samelosi samelosiet samelots
+59	5359	izskriet	izskrien izskrienam izskrienot izskrienu izskries izskriets izskrietu izskriešana izskriešu izskrēja izskrēji izskrējis izskrēju jāizskrien neizskrien neizskrienot neizskrienu neizskries neizskriesi neizskrietu
+60	5360	ģitārists	ģitārista ģitāristam ģitāriste ģitāristi ģitāristiem ģitāristu ģitāristus
+61	5361	pasīvs	pasīva pasīvai pasīvais pasīvajai pasīvajam pasīvajiem pasīvajos pasīvajā pasīvajām pasīvam pasīvas pasīvie pasīviem pasīvo pasīvos pasīvu pasīvus pasīvā pasīvāk pasīvāka pasīvākas pasīvāki pasīvākie pasīvākiem pasīvāks pasīvām pasīvās vispasīvākie
+62	5362	karatē	
+63	5363	atvienot	atvieno atvienoja atvienojam atvienojamais atvienojamas atvienojiet atvienojis atvienojot atvienoju atvienojuši atvienojušās atvienojāt atvienos atvienota atvienotajā atvienotas atvienoti atvienoto atvienotos atvienots atvienotu atvienotās atvienošana atvienošu jāatvieno neatvienojot neatvienoju neatvienosiet neatvienotu
+64	5364	mežacūka	mežacūkai mežacūkas mežacūku mežacūkām mežacūkās
+65	5365	sešdesmit	
+66	5366	stjuarte	stjuartei stjuartes stjuarti stjuartēm stjuaršu
+67	5367	erekcija	erekcijai erekcijas erekciju erekcijām
+68	5368	stereotips	stereotipa stereotipam stereotipi stereotipiem stereotipos stereotipu stereotipus
+69	5369	pilnmēness	pilnmēnesi pilnmēnesim pilnmēnesī pilnmēneši pilnmēnešus
+70	5370	horizontāls	horizontāla horizontālai horizontālais horizontālajam horizontālajiem horizontālajos horizontālajā horizontālajām horizontālam horizontālas horizontālie horizontālo horizontālos horizontālu horizontālus horizontālā horizontālām horizontālās
+71	5371	ūdensapgāde	ūdensapgādei ūdensapgādes ūdensapgādi ūdensapgādē
+72	5372	turpretim	
+73	5373	plati	
+74	5374	korejietis	korejiete korejietes korejietim korejieša korejieši korejiešiem korejiešu korejiešus
+75	5375	pakāje	pakājei pakājes pakāji pakājē
+76	5376	blonds	blonda blondai blondais blondajai blondajam blondajiem blondajā blondajām blondam blondas blondi blondie blondiem blondo blondos blondu blondus blondā blondāka blondākā blondām blondās
+77	5377	rupjība	rupjībai rupjībam rupjības rupjību rupjībā rupjībām rupjībās
+78	5378	apveltīt	apvelta apvelti apveltot apveltīdams apveltīja apveltījis apveltījusi apveltījuši apveltīs apveltīta apveltītais apveltītas apveltīti apveltītie apveltīto apveltīts apveltītu apveltītā apveltīšu neapveltīja neapveltīt
+79	5379	saindēt	nesaindējot nesaindēsi saindē saindēja saindēji saindējis saindējot saindējusi saindējuši saindējušiem saindējušos saindējušās saindējām saindēs saindēta saindētais saindētajai saindētajam saindētajiem saindētajā saindētas saindēti saindētiem saindēto saindētos saindēts saindētu saindētā saindētām saindētās saindēšana
+80	5380	nemanot	
+81	5381	juriste	juristei juristes juristi juristēm
+82	5382	godāt	godā godādams godāja godājam godājams godājiet godājot godāju godās godāsim godāts godātu godāšana godāšu jāgodā negodāt
+83	5383	paraža	paražai paražas paražu paražām paražās
+84	5384	apvārsnis	apvārsni apvārsnim apvārsnī apvāršņa apvāršņi apvāršņiem apvāršņu apvāršņus
+85	5385	kvīts	kvīti kvītu
+86	5386	primitīvs	primitīva primitīvais primitīvajai primitīvajiem primitīvajos primitīvajā primitīvajām primitīvajās primitīvam primitīvas primitīvi primitīvie primitīviem primitīvo primitīvos primitīvu primitīvus primitīvā primitīvāk primitīvāka primitīvākais primitīvākajā primitīvākajām primitīvāki primitīvākie primitīvākiem primitīvāko primitīvāks primitīvāku primitīvām primitīvās visprimitīvākais visprimitīvākajā visprimitīvākajām visprimitīvāko visprimitīvākā visprimitīvākās
+87	5387	miets	mieta mietam mieti mietiem mietu mietus mietā
+88	5388	salmi	salmiem salmos salmu salmus
+89	5389	melīgs	melīga melīgais melīgajai melīgajiem melīgajā melīgajām melīgajās melīgam melīgas melīgi melīgie melīgiem melīgo melīgos melīgu melīgus melīgā melīgāka melīgākajai melīgākajiem melīgāki melīgām melīgās
+90	5390	sastrādāt	nesastrādā nesastrādās nesastrādāt nesastrādātu sastrādā sastrādāja sastrādājam sastrādāji sastrādājis sastrādāju sastrādājusi sastrādājusī sastrādājušas sastrādājuši sastrādājušiem sastrādājāt sastrādās sastrādāsi sastrādāta sastrādātais sastrādātajiem sastrādātajā sastrādātajām sastrādātas sastrādāti sastrādātiem sastrādāto sastrādātos sastrādāts sastrādātu sastrādātus sastrādātā sastrādātām sastrādātās
+91	5391	rezervāts	rezervāta rezervātam rezervāti rezervātiem rezervātos rezervātu rezervātus rezervātā
+92	5392	virpulis	virpuli virpulim virpulī virpuļa virpuļi virpuļiem virpuļos virpuļu virpuļus
+93	5393	audzējs	audzēja audzējam audzēji audzējiem audzējos audzēju audzējus audzējā
+94	5394	nospriest	jānospriež nospried nosprieda nospriedis nospriedu nospriedusi nospriedušas nosprieduši nospriedām nospriedāt nospriedīs nospriedīsim nospriesto nospriests nospriestu nospriež nospriežam nospriežot nospriežu
+95	5395	līme	līmei līmes līmi līmju līmē līmēm līmēs
+96	5396	franciski	
+97	5397	uzpeldēt	jāuzpeld neuzpeld neuzpeldēt neuzpeldētu uzpeld uzpeldot uzpeldu uzpeldēja uzpeldēji uzpeldējis uzpeldējusi uzpeldējušas uzpeldējuši uzpeldējušu uzpeldēs uzpeldēsim uzpeldētu uzpeldēšana
+98	5398	astoņpadsmit	
+99	5399	zvejot	jāzvejo nezvejo nezvejojam nezvejojot zvejo zvejoja zvejojam zvejojat zvejojiet zvejojis zvejojot zvejoju zvejojušam zvejojuši zvejojām zvejos zvejota zvejotas zvejoti zvejoto zvejots zvejotu zvejotās zvejošana zvejošanai zvejošanas zvejošanu zvejošanā zvejošu
+100	5400	nelaiķis	nelaiķa nelaiķe nelaiķi nelaiķiem nelaiķim nelaiķu nelaiķus
