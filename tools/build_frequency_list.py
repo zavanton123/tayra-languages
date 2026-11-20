@@ -56,6 +56,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_dictionary import to_serbian_cyrillic  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_bengali  # noqa: E402
+import frequency_gujarati  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
 import frequency_telugu  # noqa: E402
@@ -73,7 +74,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -5278,6 +5279,9 @@ def build(language, source, size):
         return frequency_swahili.build(size, download)
     if language == "ne":
         return frequency_nepali.build(size, download)
+    # Gujarati is counted from Leipzig's news and Wikipedia sentences, Gujarat Samachar's misspellings repaired (frequency_gujarati).
+    if language == "gu":
+        return frequency_gujarati.build(size, download, SOURCE_LICENCES["leipzig"])
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
