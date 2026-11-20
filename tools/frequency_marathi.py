@@ -227,6 +227,10 @@ def lexicon(dictionaries):
         elif word not in folded and other in kinds and (word[-1] == "ं" or word[-1] == "ा" and "adj" in kinds[word] | kinds[other]
                                                        and not kinds[word] & {"noun", "verb"}):
             folded[word] = other
+        # So is an adjective in -ा the pack has as a noun (काळा, हिरवा, अर्धा) beside its -े; जागा "place" is no जागे "awake".
+        elif (word[-1] == "ा" and other in kinds and "adj" in kinds[other] and kinds[word] <= {"adj", "noun", "adv"}
+              and word not in ("जागा", "विसावा")):
+            folded[word] = other
     for variant in folded:
         del kinds[variant]
     table = defaultdict(set)
