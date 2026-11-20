@@ -257,6 +257,9 @@ def vowel_final(word):
     return word[-1] in VOWEL_SIGNS or word[-1] in "अआइईउऊएऐओऔ"
 
 
+SHORT = {"ी": "ि", "ू": "ु"}
+
+
 def noun_classes(word):
     """
     A noun's declensions it may follow, by its last letter: each its oblique stems (singular, plural) and direct plurals.
@@ -273,9 +276,11 @@ def noun_classes(word):
         return [((base + "्या", base + "्यां"), {base + "ी"})]
     if vowel_final(word):
         return [((word, word + "ं"), set())]
-    # The locative in -ी with the first feminine kind (वेळी); a masculine's or neuter's is LOCATIVE_I.
-    return [((word + "ा", word + "ां"), {word + "े", word + "ं"}), ((word + "े", word + "ां"), {word + "ा", word + "ी"}),
-            ((word + "ी", word + "ीं"), {word + "ी"})]
+    # The locative in -ी with the first feminine kind (वेळी); a masculine's or neuter's is LOCATIVE_I. A long ी or ू before the
+    # last consonant may be short in the oblique (तिकीट: तिकिटा-; जमीन: जमिनी-; पूल: पुला-).
+    stems = [word] + ([word[:-2] + SHORT[word[-2]] + word[-1]] if len(word) > 2 and word[-2] in SHORT else [])
+    return [cls for w in stems for cls in [((w + "ा", w + "ां"), {w + "े", w + "ं"}), ((w + "े", w + "ां"), {w + "ा", w + "ी"}),
+                                           ((w + "ी", w + "ीं"), {w + "ी"})]]
 
 
 def oblique_count(stem):
