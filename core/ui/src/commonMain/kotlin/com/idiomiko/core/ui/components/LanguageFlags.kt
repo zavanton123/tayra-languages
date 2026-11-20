@@ -21,6 +21,7 @@ import com.idiomiko.core.ui.theme.AppShapes
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
 import idiomiko.core.ui.generated.resources.Res
+import idiomiko.core.ui.generated.resources.flag_af
 import idiomiko.core.ui.generated.resources.flag_al
 import idiomiko.core.ui.generated.resources.flag_am
 import idiomiko.core.ui.generated.resources.flag_az
@@ -156,6 +157,7 @@ private val flags: Map<String, List<DrawableResource>> by lazy {
         "no" to listOf(Res.drawable.flag_no),
         "ryu" to listOf(Res.drawable.flag_jp),
         "pl" to listOf(Res.drawable.flag_pl),
+        "ps" to listOf(Res.drawable.flag_af, Res.drawable.flag_pk),
         "pt" to listOf(Res.drawable.flag_pt, Res.drawable.flag_br),
         "pa" to listOf(Res.drawable.flag_in),
         "ro" to listOf(Res.drawable.flag_ro),

@@ -75,6 +75,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Nepali" to "Nepalesisch",
     "Norwegian" to "Norwegisch",
     "Old Irish" to "Altirisch",
+    "Pashto" to "Paschtu",
     "Polish" to "Polnisch",
     "Portuguese" to "Portugiesisch",
     "Punjabi" to "Panjabi",

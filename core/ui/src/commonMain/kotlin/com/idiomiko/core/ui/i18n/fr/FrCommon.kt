@@ -75,6 +75,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Nepali" to "Népalais",
     "Norwegian" to "Norvégien",
     "Old Irish" to "Vieil irlandais",
+    "Pashto" to "Pachto",
     "Polish" to "Polonais",
     "Portuguese" to "Portugais",
     "Punjabi" to "Pendjabi",

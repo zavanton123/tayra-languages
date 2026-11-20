@@ -358,6 +358,23 @@ object AddedLanguages {
         ),
     )
 
+    private fun pashto() = LanguageDefinition(
+        language = Language(
+            name = "Pashto",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Pashto", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/ps/en/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=ps&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = "۔.!?؟",
+            wordCharacters = "\\u200C\\u0600-\\u0608\\u0610-\\u061A\\u0620-\\u065F\\u066E-\\u06D3\\u06D5-\\u06EF\\u06FA-\\u06FF\\uFB50-\\uFDFF\\uFE70-\\uFEFC",
+            rightToLeft = true,
+            showRomanization = true,
+            parserType = "pashto",
+        ),
+    )
+
     private fun scottishGaelic() = LanguageDefinition(
         language = Language(
             name = "Scottish Gaelic",
@@ -503,6 +520,7 @@ object AddedLanguages {
             mongolian(),
             nepali(),
             oldIrish(),
+            pashto(),
             scottishGaelic(),
             tagalog(),
             tamil(),

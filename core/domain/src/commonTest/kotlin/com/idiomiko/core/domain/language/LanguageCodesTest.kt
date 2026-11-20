@@ -38,6 +38,14 @@ class LanguageCodesTest {
     }
 
     @Test
+    fun pashtoIsALanguageWithItsTutorial() {
+        assertEquals("ps", LanguageCodes.codeFor("Pashto"))
+        assertEquals("pus", LanguageCodes.tatoebaCode("ps"))
+        assertNotNull(Tutorials.forLanguage("Pashto"))
+        assertEquals("pashto", LanguageDefinitions.all.first { it.name == "Pashto" }.language.parserType)
+    }
+
+    @Test
     fun tamilIsKnown() {
         assertEquals("ta", LanguageCodes.codeFor("Tamil"))
         assertEquals("tam", LanguageCodes.tatoebaCode("ta"))

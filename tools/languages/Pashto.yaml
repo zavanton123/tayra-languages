@@ -1,0 +1,17 @@
+name: Pashto
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Pashto"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/ps/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=ps&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: "۔.!?؟"
+word_chars: "\\u200C\\u0600-\\u0608\\u0610-\\u061A\\u0620-\\u065F\\u066E-\\u06D3\\u06D5-\\u06EF\\u06FA-\\u06FF\\uFB50-\\uFDFF\\uFE70-\\uFEFC"
+right_to_left: true
+show_romanization: true
+parser_type: pashto
