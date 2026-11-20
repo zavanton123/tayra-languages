@@ -446,11 +446,14 @@ _HAND = """
 پرې|adv|on it, on them
 ترې|adv|from it, from him, from them
 پاره|noun|sake (له ... پاره: for)
+ګاونډ|noun|neighbourhood
+پکار|adj|needed, necessary
+خطرناک|adj|dangerous
 """
 # Forms of the pack's words that its tables lack, irregular or often written: word | forms.
 _MORE_FORMS = """
 ويل|وايي وايم وايې وايو وايئ ووايي ووايم ووايې ووايو ووايئ وايه ووايه وويل وويلې وويله وويلو وويلم ويلي ويلی ويلې ويلو
-کول|وکړ وکړو وکړم وکړې وکړي وکړل وکړه کړی کړې کړي کړل کړه کړ کړو کړلی کړلې کړلي
+کول|وکړ وکړو وکړم وکړې وکړي وکړل وکړه وکړئ کړی کړې کړي کړل کړه کړ کړو کړلی کړلې کړلي کوه کوئ
 ورکول|ورکوي ورکوم ورکوو ورکوې ورکړي ورکړم ورکړو ورکړې ورکړل ورکړ ورکړه ورکړی ورکولو
 کېدل|شو شوه شول شوي شوې شوی شوم شوو وشو وشوه وشول وشوي وشي کېدای کیدای کېږي کېږم شي شم شې نشي
 لرل|درلود درلوده درلودل درلودې نلري
@@ -463,6 +466,8 @@ _MORE_FORMS = """
 کال|کاله کلونو
 منځ|منځه
 ياد|ياده يادې يادو
+ټول|ټوله ټولې ټولو
+دغه|دغې دغو
 """
 # Spellings the pack has as words of their own that are another word's, as Pakistani and older texts write it (چه for چې,
 # کښې for کې, وایروس for ویروس), or forms filed under a rare word spelled alike (کړي "does", not کړۍ "ring"; لري "has", not
@@ -493,6 +498,9 @@ _SPELLED_AS = """
 # verbs with a prefix of their own): infinitive | present stem | perfective prefix | English gloss.
 _HAND_VERBS = """
 خپرېدل|خپرېږ||to be published, to spread
+پرېوتل|پرېوځ||to fall
+وهل|وه|و|to hit, to beat (زنګ وهل: to phone)
+زیاتېدل|زیاتېږ||to increase, to grow
 کارول|کارو|و|to use
 رسول|رسو|و|to deliver, to bring
 سپارل|سپار|و|to hand over, to entrust
