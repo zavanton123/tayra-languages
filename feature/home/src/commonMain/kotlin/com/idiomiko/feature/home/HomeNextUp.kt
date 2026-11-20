@@ -38,6 +38,7 @@ import com.idiomiko.core.domain.stats.StudyTime
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppVerticalDivider
+import com.idiomiko.core.ui.components.FlashcardsIllustration
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.CardHeader
 import com.idiomiko.core.ui.components.CardHeaderSize
@@ -151,7 +152,10 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl),
     ) {
         // Where the card is narrow, its words need the room more than the picture.
-        if (LocalWindowWidth.current.isExpanded) NextUpArt(view.face, view.tint, view.icon, Modifier.size(ART_SIZE))
+        if (LocalWindowWidth.current.isExpanded) {
+            if (view.face == ArtFace.CARDS) FlashcardsIllustration(Modifier.size(ART_SIZE).testTag("next-up-art"))
+            else NextUpArt(view.face, view.tint, view.icon, Modifier.size(ART_SIZE))
+        }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             labelText()
             Text(view.title, style = AppText.pageTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
@@ -177,7 +181,7 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
 @Composable
 private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
     is NextUp.Review -> NextUpView(
-        AppIcons.Style, AppAccents.teal, ArtFace.LANDSCAPE,
+        AppIcons.Style, AppAccents.teal, ArtFace.CARDS,
         title = trPlural(next.due, "{1} card due today", "{1} cards due today", formatCount(next.due)),
         detail = tr("Review them to keep your words fresh."),
         shortDetail = tr("Keep your words fresh"),

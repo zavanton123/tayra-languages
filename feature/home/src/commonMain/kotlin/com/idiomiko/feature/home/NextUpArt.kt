@@ -26,8 +26,8 @@ import com.idiomiko.core.ui.theme.AppAlpha
 
 /** What the picture on the Next up card shows on its front card. */
 internal enum class ArtFace {
-    /** Hills under the sun with a tower: the flashcards. */
-    LANDSCAPE,
+    /** The flashcards: shown by the mascot illustration rather than drawn. */
+    CARDS,
 
     /** Hills with a flag on the top: somewhere to start. */
     SUMMIT,
@@ -98,17 +98,9 @@ private fun DrawScope.face(face: ArtFace, r: Rect, tint: Color, surface: Color, 
         lineTo(r.right, r.bottom); lineTo(r.left, r.bottom); close()
     }
     drawPath(near, tint)
-    if (face == ArtFace.LANDSCAPE) {
-        // A tower on the hill.
-        val w = 4 * u
-        drawRect(tint, Offset(peak.x - w / 2, peak.y - 14 * u), Size(w, 14 * u))
-        drawRect(tint, Offset(peak.x - w, peak.y - 16 * u), Size(w * 2, 3 * u))
-        drawRect(tint, Offset(peak.x - 8 * u, peak.y - 11 * u), Size(16 * u, 2.5f * u))
-    } else {
-        drawLine(lerp(tint, AppAccents.ink, 0.3f), peak, peak + Offset(0f, -16 * u), 1.5f * u)
-        val flag = Path().apply {
-            moveTo(peak.x, peak.y - 16 * u); lineTo(peak.x + 10 * u, peak.y - 12.5f * u); lineTo(peak.x, peak.y - 9 * u); close()
-        }
-        drawPath(flag, AppAccents.orange)
+    drawLine(lerp(tint, AppAccents.ink, 0.3f), peak, peak + Offset(0f, -16 * u), 1.5f * u)
+    val flag = Path().apply {
+        moveTo(peak.x, peak.y - 16 * u); lineTo(peak.x + 10 * u, peak.y - 12.5f * u); lineTo(peak.x, peak.y - 9 * u); close()
     }
+    drawPath(flag, AppAccents.orange)
 }
