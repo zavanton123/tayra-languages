@@ -457,7 +457,7 @@ _MORE_FORMS = """
 رسېدل|ورسېد ورسېده ورسېدل ورسېدو ورسېږي رسېږي رسېږم رسېدو
 تلل|لاړ لاړه لاړل لاړې لاړم ولاړ ولاړه ځي ځم ځو ځئ
 راتلل|راغی راغلی راغلي راغلې راغله راغلل راځي راشي راځم راشم
-يم|وه وې وو ول وئ ياست ؤ
+يم|و وه وې وو ول وئ ياست ؤ
 يو|يوه يوې يوو
 همدا|همدې همدغه
 کال|کاله کلونو
@@ -605,8 +605,10 @@ OVERRIDES.update({pashto_fold(form): [pashto_fold(verb)] for form, verb in (
     # And the forms filed under a rare word spelled alike: لارې "ways" (not لارۍ "lorry"), ډېرې, کلي "villages", ملګري
     # "friends", تنه and کسان "persons".
     ("لارې", "لار"), ("ډېرې", "ډېر"), ("کلي", "کلی"), ("ملګري", "ملګری"), ("تنه", "تن"), ("کسان", "کس"), ("غونډې", "غونډه"), ("بولي", "بلل"), ("خوري", "خوړل"))})
-# How a word is shown where the pack's spellings would show another word's (ترۍ for ترې, مېنه "home" for مینه "love").
-DISPLAY = {pashto_fold(w): w for w in "چې دی ترې مینه رئیس امریکایي زوی".split()}
+# How a word is shown where the pack's spellings would show another word's (ترۍ for ترې, مېنه "home" for مینه "love"), or
+# a Kandahari or Pakistani spelling (تاسې, ستاسې) for the Afghan standard one.
+DISPLAY = {pashto_fold(w): w for w in "چې دی ترې مینه رئیس امریکایي زوی نوی چای".split()}
+DISPLAY.update({pashto_fold("تاسې"): "تاسو", pashto_fold("ستاسې"): "ستاسو"})
 # Persian words of the Dari sentences among the Pashto ones (برای "for", کشور "country", مردم "people", است "is"), and بين, the
 # piece of بين المللي ("international").
 EXCLUDE = {pashto_fold(w) for w in "برای کشور مردم من کند اند بين کرد است از با این خود".split()}
