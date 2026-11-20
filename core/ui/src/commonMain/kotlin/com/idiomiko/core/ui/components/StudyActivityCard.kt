@@ -2,6 +2,7 @@ package com.idiomiko.core.ui.components
 
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 import com.idiomiko.core.domain.stats.StudyActivity
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
@@ -13,7 +14,7 @@ import kotlinx.datetime.LocalDate
  * the days as the streaks do (see [StudyActivity]), on Home and on Statistics alike.
  */
 @Composable
-fun StudyActivityCard(activity: StudyActivity, range: ClosedRange<LocalDate>, subtitle: String, action: (@Composable RowScope.() -> Unit)? = null) {
+fun StudyActivityCard(activity: StudyActivity, range: ClosedRange<LocalDate>, subtitle: String, action: (@Composable RowScope.() -> Unit)? = null, modifier: Modifier = Modifier) {
     ActivityHeatmapCard(
         title = tr("Study activity"),
         subtitle = { subtitle },
@@ -24,6 +25,7 @@ fun StudyActivityCard(activity: StudyActivity, range: ClosedRange<LocalDate>, su
         more = tr("More study"),
         icon = AppIcons.History,
         action = action,
+        modifier = modifier,
         describe = { date ->
             val day = activity.days[date]
             listOfNotNull(

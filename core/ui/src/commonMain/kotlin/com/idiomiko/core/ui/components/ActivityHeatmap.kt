@@ -83,6 +83,8 @@ fun ActivityHeatmapCard(
      * days outside them left blank, and where they do not fit the squares scroll sideways, the latest in view.
      */
     range: ClosedRange<LocalDate>? = null,
+    /** Given a least height, as beside a taller column, the card grows to it. */
+    modifier: Modifier = Modifier,
 ) {
     val empty = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.wash)
     val surface = MaterialTheme.colorScheme.surface
@@ -93,7 +95,7 @@ fun ActivityHeatmapCard(
     val weekdayStyle = MaterialTheme.typography.labelSmall
     // As wide as the longest weekday name, so large text does not run the names into the squares.
     val weekdayWidth = with(density) { WEEKDAY_NAMES.filterNotNull().maxOf { measurer.measure(tr(it), weekdayStyle).size.width }.toDp() }.coerceAtLeast(WEEKDAY_WIDTH)
-    BoxWithConstraints(Modifier.fillMaxWidth()) {
+    BoxWithConstraints(modifier.fillMaxWidth(), propagateMinConstraints = true) {
         // Whole pixels: a fraction rounded up in every square adds up, across a year of weeks, to cutting the last one.
         val gap = with(density) { AppSpacing.xs.toPx().toInt().toDp() }
         // The card's padding takes 20 on each side, and the weekday names a column of their own.
