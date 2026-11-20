@@ -1,0 +1,208 @@
+{
+  "id": "ha-mini-0100",
+  "rankUpTo": 100,
+  "level": "A1",
+  "title": "Gida da iyali",
+  "description": "Ten short, simple stories about home, family and everyday moments in Hausaland.",
+  "topic": "Home and family",
+  "names": [
+    "Audu",
+    "Binta",
+    "Kano",
+    "Kabiru",
+    "Ladi",
+    "Kaduna",
+    "Garba",
+    "Zainab",
+    "Bello",
+    "Hadiza",
+    "Zaria",
+    "Usman",
+    "Halima",
+    "Lawal",
+    "Bilkisu",
+    "Aminu",
+    "Nafisa",
+    "Danjuma",
+    "Asabe",
+    "Tanko",
+    "Maryam",
+    "Yusuf",
+    "Katsina",
+    "Sokoto",
+    "Bauchi",
+    "Abuja",
+    "Jos",
+    "Hauwa",
+    "Ibrahim"
+  ],
+  "lessons": [
+    {
+      "title": "Gidan Audu",
+      "summary": "Audu and his wife Binta live in a big house in Kano, and both of them love it.",
+      "newWords": [
+        "da",
+        "a",
+        "ya",
+        "na",
+        "ta",
+        "ne",
+        "kuma",
+        "mai",
+        "wannan",
+        "ce",
+        "yana",
+        "mutum",
+        "ina",
+        "babba",
+        "gida",
+        "son",
+        "mata",
+        "wa",
+        "tana"
+      ],
+      "text": "Wannan gida ne. Wannan gidan Audu ne. Gidan Audu yana Kano.\n\nAudu mutum ne na Kano. Audu mai gida ne. Audu yana da mata. Matar Audu Binta ce. Audu da Binta mutanen Kano ne.\n\nGidan Audu babba ne. Wannan gida babba ne a Kano. Audu yana son gidan. Binta tana son gidan kuma. Audu yana gida a Kano, kuma Binta tana gida.\n\n\"Ina son wannan gida,\" Audu ya ce.\n\n\"Ina son gidan kuma,\" Binta ta ce. \"Gida ne na Audu da Binta.\"\n\n\"Gidanmu babba ne,\" Audu ya ce.\n\nBinta ta ce, \"Gidanmu gida ne mai kyau.\"\n\nTambayoyi:\nWannan gidan wa ne?\nWannan gidan Audu ne.\nGidan Audu yana ina?\nGidan Audu yana Kano.\nMatar Audu wa ce?\nMatar Audu Binta ce.\nAudu yana son gidan?\nAudu yana son gidan, kuma Binta tana son gidan."
+    },
+    {
+      "title": "Aikin Kabiru",
+      "summary": "Kabiru and his wife Ladi both work in Kaduna, and after work they are at home together.",
+      "newWords": [
+        "su",
+        "shi",
+        "wani",
+        "aiki",
+        "iya",
+        "suna",
+        "haka",
+        "amma",
+        "tare",
+        "yawa",
+        "ma",
+        "yanzu",
+        "bayan",
+        "biyu",
+        "ita",
+        "wuri"
+      ],
+      "text": "Kabiru mutum ne na Kaduna. Kabiru yana aiki a wani babban gida. Shi mai aiki ne. Shi ma yana son aiki.\n\nLadi matar Kabiru ce. Ita ma tana aiki. Ita ma mai aiki ce. Tana aiki a wani wuri a Kaduna.\n\nYanzu Kabiru yana aiki. Ladi ma tana aiki yanzu. Kabiru yana iya aiki da yawa. Ladi ma tana iya aiki da yawa.\n\nBayan aiki, Kabiru ya je gida. Bayan aiki, Ladi ma ta je gida. Yanzu su biyu suna gida tare.\n\n\"Aikin yana da yawa,\" Ladi ta ce.\n\n\"Haka ne,\" Kabiru ya ce. \"Amma ina son aikina.\"\n\nTambayoyi:\nKabiru yana aiki a ina?\nKabiru yana aiki a wani babban gida.\nLadi tana aiki a ina?\nLadi tana aiki a wani wuri a Kaduna.\nBayan aiki, Kabiru da Ladi suna ina?\nBayan aiki, su biyu suna gida tare.\nAiki yana da yawa, amma Kabiru yana son aikinsa?\nHaka ne, Kabiru yana son aikinsa."
+    },
+    {
+      "title": "'Yan Garba",
+      "summary": "Garba's son and daughter in Zaria love to play together in front of the house.",
+      "newWords": [
+        "yi",
+        "ɗan",
+        "suka",
+        "mu",
+        "sai",
+        "wata",
+        "duk",
+        "rana",
+        "wasa",
+        "farko"
+      ],
+      "text": "Garba mutum ne na Zaria. Matar Garba Zainab ce. 'Yan Garba su biyu ne. Sunan ɗan Garba Bello. Sunan 'yar Garba Hadiza.\n\nBello shi ne na farko. Hadiza ita ce ta biyu. A gidan Garba, Bello ne na farko.\n\n'Yan Garba suna son wasa. Duk rana suna wasa tare a gida. Duk rana Bello yana son wasa. Hadiza ma tana son wasa.\n\nWata rana, Garba ya ce, \"Mu yi wasa tare!\" Sai Garba da 'yansa suka yi wasa a gida. Wata rana kuma, Zainab ta yi wasa tare da su. Sai suka yi wasa da yawa.\n\n\"Mu 'yan Garba ne,\" Bello ya ce.\n\nTambayoyi:\n'Yan Garba su nawa ne?\n'Yan Garba su biyu ne.\nWa ne ɗan Garba?\nBello ne ɗan Garba.\nWa ce 'yar Garba?\nHadiza ce 'yar Garba.\n'Yan Garba suna wasa a ina?\nSuna wasa a gida."
+    },
+    {
+      "title": "Ruwa a gida",
+      "summary": "There is no water at Usman's house, so he goes to get some and comes back home.",
+      "newWords": [
+        "ba",
+        "ga",
+        "samu",
+        "yin",
+        "zan",
+        "akwai",
+        "ruwa"
+      ],
+      "text": "Usman yana gida tare da matarsa Halima. Halima tana son yin aiki a gida. Amma babu ruwa a gida.\n\n\"Babu ruwa,\" Halima ta ce. \"Ba zan iya yin aiki ba.\"\n\n\"Zan je, zan samu ruwa,\" Usman ya ce.\n\nUsman ya je wani wuri. A wurin akwai ruwa da yawa. Akwai mutane da yawa a wurin, kuma mutanen suna samun ruwa.\n\nUsman ma ya samu ruwa. Sai ya je gida da ruwan.\n\n\"Ga ruwa,\" Usman ya ce wa Halima.\n\nYanzu akwai ruwa a gida. Halima ta yi aikinta. Sai su biyu suka sha ruwa tare.\n\nTambayoyi:\nUsman ya je ina?\nUsman ya je wani wuri da akwai ruwa da yawa.\nAkwai mutane a wurin?\nAkwai mutane da yawa a wurin.\nUsman ya ce wa Halima me?\nUsman ya ce, \"Ga ruwa.\""
+    },
+    {
+      "title": "Lokacin abinci",
+      "summary": "Lawal comes home after work and waits until it is time to eat with Bilkisu.",
+      "newWords": [
+        "kai",
+        "ka",
+        "za",
+        "daga",
+        "lokaci",
+        "nan",
+        "idan",
+        "har",
+        "ci",
+        "in"
+      ],
+      "text": "Lawal yana aiki duk rana, har lokacin abinci. Daga aiki, Lawal yana gida tare da matarsa Bilkisu.\n\n\"Bilkisu, lokacin abinci ne?\" Lawal ya ce.\n\n\"Ba yanzu ba,\" Bilkisu ta ce. \"Sai bayan wani lokaci. Ka zauna a nan.\"\n\nLawal yana nan a gida. Bayan wani lokaci, Bilkisu ta ce, \"Yanzu lokacin abinci ne. Kai ma, ka ci.\"\n\nSai Lawal ya ci har ya ƙoshi. Bilkisu ma ta ci.\n\n\"Idan ina gida daga aiki, ina son in ci,\" Lawal ya ce. \"Kuma ina son in ci tare da Bilkisu.\"\n\n\"Haka ne,\" Bilkisu ta ce. \"Idan lokacin ya yi, za ka ci, kuma zan ci tare da kai. Za mu ci tare.\"\n\nTambayoyi:\nLawal yana aiki har yaushe?\nLawal yana aiki duk rana, har lokacin abinci.\nWa ya ce, \"Lokacin abinci ne?\"\nLawal ne ya ce haka.\nBayan wani lokaci, Bilkisu ta ce me?\nBilkisu ta ce, \"Yanzu lokacin abinci ne.\""
+    },
+    {
+      "title": "Hanyar gidan Aminu",
+      "summary": "Aminu shows a man the way to his house: go straight on, not back.",
+      "newWords": [
+        "abu",
+        "ni",
+        "gaba",
+        "wajen",
+        "baya",
+        "hanya",
+        "san",
+        "sama"
+      ],
+      "text": "Wata rana, wani mutum ya zo wajen Aminu. Mutumin bai san hanya ba.\n\n\"Ina hanyar gidan Aminu?\" mutumin ya ce.\n\n\"Ni ne Aminu,\" Aminu ya ce. \"Ni, gidana yana nan. Ka je ta wannan hanya. Ka je gaba, ba baya ba.\"\n\n\"Zan san gidan?\" mutumin ya ce.\n\n\"Za ka san shi,\" Aminu ya ce. \"Gida ne babba. A saman gidan akwai wani babban abu.\"\n\nMutumin ya je ta hanyar. Ya je gaba, ba baya ba. Sai ya ga babban gidan da babban abu a samansa. \"Wannan ne gidan Aminu,\" ya ce.\n\nTambayoyi:\nMutumin ya zo wajen wa?\nMutumin ya zo wajen Aminu.\nAminu ya ce wa mutumin me?\nAminu ya ce, \"Ka je gaba, ba baya ba.\"\nMe akwai a saman gidan Aminu?\nA saman gidan akwai wani babban abu."
+    },
+    {
+      "title": "Shekarar farko",
+      "summary": "Nafisa begins her first year at school, and on the first day she finds a friend.",
+      "newWords": [
+        "cikin",
+        "ke",
+        "shekara",
+        "zuwa",
+        "zama",
+        "sa",
+        "saboda"
+      ],
+      "text": "Nafisa 'yar Katsina ce. Wannan ita ce shekararta ta farko a makaranta.\n\nA ranar farko, Nafisa ba ta san kowa ba. Ta ce wa Hauwa, mahaifiyarta, \"Ban san kowa a nan ba.\"\n\nHauwa ta ce, \"Ke ma za ki samu wata. Ke 'yar Katsina ce, kuma a nan akwai 'yan Katsina da yawa.\"\n\nA cikin makarantar, Nafisa ta ga Asabe. Asabe ma ba ta san kowa ba, saboda ita ma shekararta ta farko ce.\n\n\"Mu zama tare,\" Nafisa ta ce wa Asabe.\n\nYanzu Nafisa da Asabe suna tare. Duk rana suna zuwa makaranta tare. A cikin makarantar suna zama tare.\n\nTambayoyi:\nNafisa 'yar ina ce?\nNafisa 'yar Katsina ce.\nMe ya sa Nafisa ba ta san kowa ba?\nSaboda shekararta ta farko ce.\nMe ya sa Asabe ma ba ta san kowa ba?\nSaboda ita ma shekararta ta farko ce.\nNafisa da Asabe suna zuwa makaranta tare?\nHaka ne, duk rana suna zuwa tare."
+    },
+    {
+      "title": "Shugaba Danjuma",
+      "summary": "Danjuma is a boss at a big workplace, and his son Tanko wants to be like him.",
+      "newWords": [
+        "wanda",
+        "zai",
+        "kamar",
+        "domin",
+        "matsayi",
+        "shugaba"
+      ],
+      "text": "Danjuma shugaba ne a wani babban wurin aiki a Kano. Yana da babban matsayi a wurin. Mutane da yawa suna aiki tare da shi.\n\nƊan Danjuma, Tanko, yana son ya zama kamar shi. \"Ina son in zama shugaba kamar ka,\" Tanko ya ce.\n\n\"Domin ka zama shugaba, sai ka iya aiki,\" Danjuma ya ce. \"Kuma domin ka samu matsayi, sai ka iya aiki tare da mutane. Wanda ba ya iya aiki tare da mutane ba zai zama shugaba ba.\"\n\nTanko ya ce, \"Zan yi haka.\"\n\nDaga ranar, Tanko yana aiki tare da mutane. Yana son ya samu matsayi kamar na Danjuma wata rana.\n\nTambayoyi:\nDanjuma yana da wane matsayi?\nDanjuma shugaba ne a wani babban wurin aiki.\nTanko yana son ya zama kamar wa?\nTanko yana son ya zama kamar Danjuma.\nWa ba zai zama shugaba ba?\nWanda ba ya iya aiki tare da mutane ba zai zama shugaba ba."
+    },
+    {
+      "title": "Ƙasar Maryam",
+      "summary": "Maryam and her mother go to Sokoto, the land their family comes from, and spend the day there.",
+      "newWords": [
+        "ƙasa",
+        "sun",
+        "an",
+        "aka"
+      ],
+      "text": "Maryam 'yar Sokoto ce. Ita da mahaifiyarta Asabe suna Abuja yanzu.\n\nWata rana, Maryam ta ce, \"Mu je ƙasar Sokoto.\"\n\n\"Mu je,\" Asabe ta ce. \"Ƙasar Sokoto ƙasarmu ce. Ni ma 'yar Sokoto ce.\"\n\nSai suka je ƙasar Sokoto.\n\nA Sokoto akwai mutane da yawa na gidansu. Duk mutanen sun zo wajen Maryam da Asabe. An yi wasa. Sai aka ci abinci. Duk rana sun yi wasa tare.\n\n\"Ina son ƙasar nan,\" Maryam ta ce. \"Wata rana zan zo kuma.\"\n\nTambayoyi:\nMaryam 'yar ina ce?\nMaryam 'yar Sokoto ce.\nMaryam da Asabe suna ina yanzu?\nSuna Abuja yanzu.\nMe aka yi a Sokoto?\nAn yi wasa, sai aka ci abinci."
+    },
+    {
+      "title": "Abin da Ibrahim yake so",
+      "summary": "Ibrahim wants to work like his father, who shows his two sons how work is done.",
+      "newWords": [
+        "ko",
+        "cewa",
+        "don",
+        "yadda",
+        "yake",
+        "ku",
+        "dai",
+        "gani",
+        "ake",
+        "hakan"
+      ],
+      "text": "Ibrahim ɗan Yusuf ne. Yusuf yana da 'yan biyu, Ibrahim da Bello. Ibrahim yana son ya yi aiki kamar Yusuf. Abin da yake so ke nan.\n\nWata rana, Yusuf ya ce, \"Ku zo wajen aikina. Ku ga yadda ake aiki.\"\n\nSai suka je tare, don su ga aikin. A wurin, Ibrahim ya ga yadda mutane suke aiki.\n\n\"Haka dai ake yin aiki,\" Yusuf ya ce. \"Kun gani?\"\n\n\"Mun gani,\" Ibrahim ya ce. \"Na san cewa aiki yana da yawa. Amma dai ina son hakan.\"\n\nYusuf ya ce, \"Ibrahim ko Bello, wa yake son aiki?\"\n\n\"Ni ne,\" Ibrahim ya ce. \"Zan yi hakan wata rana. Don haka zan fara yanzu.\"\n\nTambayoyi:\nIbrahim ko Bello, wa yake son aiki?\nIbrahim ne yake son aiki.\nYusuf ya ce wa 'yansa me?\nYa ce, \"Ku ga yadda ake aiki.\"\nIbrahim ya san cewa me?\nYa san cewa aiki yana da yawa."
+    }
+  ]
+}
