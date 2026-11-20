@@ -96,4 +96,13 @@ class LanguageCodesTest {
         assertNotNull(Tutorials.forLanguage("Hausa"))
         assertEquals("hausa", LanguageDefinitions.all.first { it.name == "Hausa" }.language.parserType)
     }
+
+    @Test
+    fun marathiIsALanguageInDevanagariWithItsTutorial() {
+        assertEquals("mr", LanguageCodes.codeFor("Marathi"))
+        assertEquals("mar", LanguageCodes.tatoebaCode("mr"))
+        assertNotNull(Tutorials.forLanguage("Marathi"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Marathi" }.language.parserType)
+        assertEquals(setOf(Script.DEVANAGARI), Scripts.of("mr"))
+    }
 }

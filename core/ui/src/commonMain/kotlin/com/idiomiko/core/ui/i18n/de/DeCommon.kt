@@ -73,6 +73,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Chinese (Simplified)" to "Chinesisch (vereinfacht)",
     "Chinese (Traditional)" to "Chinesisch (traditionell)",
     "Manx" to "Manx",
+    "Marathi" to "Marathi",
     "Mongolian" to "Mongolisch",
     "Nepali" to "Nepalesisch",
     "Norwegian" to "Norwegisch",

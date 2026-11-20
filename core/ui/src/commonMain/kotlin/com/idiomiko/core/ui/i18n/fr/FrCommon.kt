@@ -73,6 +73,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Chinese (Simplified)" to "Chinois (simplifié)",
     "Chinese (Traditional)" to "Chinois (traditionnel)",
     "Manx" to "Mannois",
+    "Marathi" to "Marathi",
     "Mongolian" to "Mongol",
     "Nepali" to "Népalais",
     "Norwegian" to "Norvégien",

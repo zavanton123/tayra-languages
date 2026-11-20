@@ -340,6 +340,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun marathi() = LanguageDefinition(
+        language = Language(
+            name = "Marathi",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Marathi", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.shabdkosh.com/search-dictionary?lc=mr&sl=mr&tl=en&e=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/mr/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=mr&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?।॥",
+            wordCharacters = "\\u0900-\\u0963\\u0971-\\u097F\\u200C\\u200D",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun mongolian() = LanguageDefinition(
         language = Language(
             name = "Mongolian",
@@ -573,6 +591,7 @@ object AddedLanguages {
             malay(),
             maltese(),
             manx(),
+            marathi(),
             mongolian(),
             nepali(),
             oldIrish(),

@@ -116,6 +116,17 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun marathiKeepsVowelSignsAndTheEyelashRaInWordsAndLeavesNumbersOut() {
+        val marathi = LanguageDefinitions.all.single { it.name == "Marathi" }.language
+        assertEquals(
+            "[दुसऱ्या] [दिवशी] [ती] [शाळेत] [गेली]. [मी] १० [वाजता] [घरी] [आलो]।",
+            tokensAsString("दुसऱ्या दिवशी ती शाळेत गेली. मी १० वाजता घरी आलो।", marathi),
+        )
+        // An eyelash ra typed with the joiner (र + virama + ZWJ) is one word too.
+        assertEquals("[दुसर\u094D\u200Dया]", tokensAsString("दुसर\u094D\u200Dया", marathi))
+    }
+
+    @Test
     fun malayCutsReduplicationsAndKeepsTitles() {
         val malay = LanguageDefinitions.all.single { it.name == "Malay" }.language
         assertEquals(
