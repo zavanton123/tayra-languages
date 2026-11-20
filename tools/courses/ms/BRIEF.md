@@ -4,8 +4,9 @@ Each course teaches one band of 100 words from the Malay word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `ms-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 6,289 words (the ms-en dictionary pack
-has about 9,800 headwords), so the courses go up to `ms-mini-6300`, whose band has 89 words.
+`themes.tsv` gives each course its theme. The list has 9,341 words (the ms-en dictionary pack
+has about 9,800 headwords; words past it come from the Indonesian packs), so the courses go up to
+`ms-mini-9400`, whose band has 41 words.
 
 ## What the lessons are: mini stories
 
@@ -107,9 +108,11 @@ story; a lesson never needs another lesson to make sense.
   - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short
     essay or reflective column that weighs two sides, an interview, a portrait, a review; precise
     vocabulary for feelings, ideas and processes; long sentences that stay easy to parse;
-  - ranks 5001–6300 (C1): the same, with the more specialised words of professions, sciences and
+  - ranks 5001–8000 (C1): the same, with the more specialised words of professions, sciences and
     the arts, each made clear by its context, figurative language and idioms used more freely, and
-    texts that explain a process or compare viewpoints in some depth.
+    texts that explain a process or compare viewpoints in some depth;
+  - ranks 8001–9400 (C2): the same, with the rarest words of the list, literary and technical,
+    each still made clear by its context.
   From rank 2000 a lesson may also be a short informative or opinion text (a column, a letter to
   a newspaper, a short report), as long as it is everyday, calm and easy to follow.
 - **Repetition on purpose**: repeat key words and phrases the way a teacher would — the new words
@@ -195,7 +198,7 @@ Write `tools/courses/ms/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 6300 `C1`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 8000 `C1`, up to 9400 `C2`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/ms/<id>.json`
 
@@ -236,23 +239,28 @@ Things to know about the Malay list and the checker:
   through *masing-masing* and *kadang-kadang*, but *tiba*, *hati* and *kira* only through their
   own sense (*tiba di rumah*, *hati yang baik*, *saya kira*). The ending after a number
   (*1990-an*, *ke-3*) is not a word.
-- **Affixes.** The list files many affixed forms of a verb under one entry (*membuat*,
-  *berbuat* under *buat*; *melihat*, *dilihat* under *lihat*), and `extra_forms.tsv` adds the
-  *meN-*, *di-* and bare forms of the list's verbs that it lacks (*menunggu*, *membeli*,
-  *memberitahu*). Nouns made with *ke-an*, *pe-*, *pe-an*, *per-an* and *-an* are entries of their
-  own (*kerajaan*, *makanan* 298, *pekerjaan*, *perjalanan*, *pelajar* 169), and so are many
-  *ber-* and *ter-* words (*bersama* 116, *berkata* 138, *berada* 180, *tersebut* 144). A word
-  filed under its root still counts at the root's rank, but it is not that root: never teach a
-  headword through such a word.
+- **Affixes.** The list files a root's verb forms under the root: *meN-*, *di-*, *ber-*,
+  *memper-*/*diper-*, with or without *-kan*/*-i*, and *-kan*/*-i* alone (*guna*: *menggunakan*,
+  *digunakan*, *gunakan*; *ambil*: *diambil*, *ambilkan*; *bantu*: *membantu*, *dibantu*; *henti*:
+  *berhenti*, *menghentikan*), and *se-* with a time or
+  measure word (*sehari*, *seminggu*, *setahun* under *hari*, *minggu*, *tahun*). Nouns and
+  adjectives made with *ke-an*, *pe-*, *pe-an*, *per-an*, *-an* and *ter-* are entries of their own
+  (*kerajaan*, *makanan* 298, *pekerjaan*, *perjalanan*, *pelajar* 169, *terakhir*, *tersenyum*,
+  *tertentu*), and so are the *ber-* adjectives (*berbahaya*, *berkualiti*) and words whose affix
+  is no voice of a root (*berani*, *mengaku* "to admit", *menang*, *mengerti*). The bands up to
+  1000 were pinned before this rule, so there some voice forms are entries of their own (*menjadi*,
+  *lakukan*, *berkata*, *mengajar*, *menjelaskan*, *bertanya*, *selamatkan*); past 1000 the root is
+  the entry (*bantu* 1003, *henti* 1004). A word filed under its root still counts at the root's
+  rank, but it is not that root: never teach a headword through such a word.
 - **Never teach a form of an already taught word.** A verb's voice forms are one word: its *meN-*
-  form, its bare form in commands and object-focus sentences and its *di-* passive. The list keeps
-  some as two entries (*lakukan* 78 holds *melakukan*; *mengatakan* 197 holds *katakan*;
-  *beri* 251 and *memberi* 194 and *berikan* 291 and *memberikan*; *ambil* and *mengambil*):
-  teach the first one reached and skip the other as a form (`ms-mini-0100` taught *buat* and
-  *lakukan*). A root or a derived word with a meaning of its own is a word of its own: *kata*
-  "word, say" and *berkata*, *jalan* and *berjalan*, *ada* and *berada*, *jadi* "so" and *menjadi*
-  "to become". Spelling variants are forms too: *baharu* 624 after *baru*, *fasal* and *pasal*,
-  *emak* and *mak*.
+  form, its bare form in commands and object-focus sentences, its *di-* passive and its *-kan*/*-i*
+  forms. A root past 1000 whose voice form was taught up to 1000 is a form of that taught word
+  (*bantu* after *membantu*, *henti* after *berhenti*): skip it. Up to
+  1000 the list keeps some as two entries (*lakukan* 78 holds *melakukan*; *beri* and *memberi*
+  and *berikan*; *tanya* and *bertanya*): the first one reached was taught. A root or a derived
+  word with a meaning of its own is a word of its own: *jadi* "so" and *menjadi* "to become",
+  *pelajar* and *belajar*. Spelling variants are forms too: *baharu* 624 after *baru*, *fasal* and
+  *pasal*, *emak* and *mak*.
 - **Spoken forms in the list.** The band words *tak* (6), *nak* (35), *dah* (45) and *tu* (83) are
   the spoken forms of *tidak*, *hendak*, *sudah* and *itu*: skipped as band words (they may stand in
   light dialogue). Abbreviations are filed as forms of their word (*yg*, *dgn*, *sy*, *org*,
@@ -266,13 +274,13 @@ Things to know about the Malay list and the checker:
   *Kota Bharu*, *Shah Alam* (*alam* 415) or *Perak* in `names`; write *KL*, *Penang*, *George Town*, or teach the word
   (*pulau* "island") in its own sense.
 - **Missing words.** The list has no days and no months (*Isnin*, *Selasa*, *Rabu*, *Khamis*,
-  *Jumaat*, *Sabtu*; *Januari*... *Disember*; only *Ahad* 1253 and *minggu* 383 "week"): put
+  *Jumaat*, *Sabtu*; *Januari*... *Disember*; only *Ahad* 1564 and *minggu* 383 "week"): put
   the ones you use in `names`. Country, people and language names are not in it either (*Malaysia*,
   *India*, *Cina*, *Inggeris*): *bahasa* 268 is taught, *Inggeris* goes in `names`.
 - **Names** are not in the list: people, places, shops, brands, days and months go in `names`,
   once, without clitics. A name of several words (*Mei Ling*, *George Town*) counts as one known
   word wherever it is written whole; list it whole. Never use a name that is a list word: *Siti*
-  1142, *Hana*, *Ipoh* (read as *ipuh*), *Kuching* (a form of *kucing*), *Kuantan* (read as
+  1409, *Hana*, *Ipoh* (read as *ipuh*), *Kuching* (a form of *kucing*), *Kuantan* (read as
   *antan*), *Kajang*, *Lumut* are list words. Names free of the list include *Ali*, *Aminah*,
   *Hafiz*, *Danial*, *Farid*, *Adam*, *Irfan*, *Nora*, *Salmah*, *Zul*, *Azman*, *Rosli*, *Lim*,
   *Mei Ling*, *Priya*, *Devi*, *Kumar*, *Faizal*, *Aisyah*, *Rahman*, *Yusof*, *Ahmad*, and the
