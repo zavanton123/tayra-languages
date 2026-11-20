@@ -5,11 +5,10 @@ import androidx.compose.runtime.CompositionLocalProvider
 import com.idiomiko.core.ui.components.rememberToastState
 import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.feature.playlists.AddToPlaylistMenuButton
+import com.idiomiko.feature.playlists.AddToPlaylistPopup
 import com.idiomiko.core.domain.playlists.PlaylistSource
 import com.idiomiko.core.ui.components.inLearnedScript
-import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.hoverable
 import androidx.compose.foundation.interaction.MutableInteractionSource
@@ -19,10 +18,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -74,7 +71,6 @@ import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ButtonTone
-import com.idiomiko.core.ui.components.CountTabs
 import com.idiomiko.core.ui.components.CoursesIllustration
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconTile
@@ -87,21 +83,13 @@ import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.ProgressTrack
 import com.idiomiko.core.ui.components.QuietButton
-import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SecondaryButton
-import com.idiomiko.core.ui.components.Segment
-import com.idiomiko.core.ui.components.SegmentStyle
-import com.idiomiko.core.ui.components.SegmentedToggle
-import com.idiomiko.core.ui.components.SelectMenu
-import com.idiomiko.core.ui.components.Tab
 import com.idiomiko.core.ui.components.Tag
-import com.idiomiko.core.ui.components.TagFilterButton
 import com.idiomiko.core.ui.components.TagSize
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.largeText
-import com.idiomiko.core.ui.components.pressScale
 import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.languageInSentence
@@ -111,13 +99,11 @@ import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.state.CollectEvents
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
-import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import com.idiomiko.core.ui.theme.IdiomikoTheme
-import kotlin.math.roundToInt
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
 
@@ -177,395 +163,31 @@ internal fun LabelTag(label: String) = Tag(label, AppAccents.purple, size = TagS
 @Composable
 internal fun SampleTag() = LabelTag(tr("Sample course"))
 
-/** The courses of the language being learned, to search, filter and sort. */
 /**
  * The button that puts a whole course or one lesson into a playlist: an icon, or a full-width
  * button with the label given. The screens provide it; their content alone shows none.
  */
 internal val LocalPlaylistButton = staticCompositionLocalOf<(@Composable (source: PlaylistSource, label: String?) -> Unit)?> { null }
 
-/** Gives [content] the playlist button, which confirms each adding with a toast. */
+/** Gives [content] the playlist button and the course tiles' playlist menu, which confirm each adding with a toast. */
 @Composable
 internal fun ProvidePlaylistButton(content: @Composable () -> Unit) {
     val toast = rememberToastState()
     val button: @Composable (PlaylistSource, String?) -> Unit = { source, label ->
         AddToPlaylistMenuButton(source, onAdded = { toast.show(tr("Added to {0}", it)) }, label = label)
     }
-    CompositionLocalProvider(LocalPlaylistButton provides button, content = content)
+    val popup: @Composable (PlaylistSource, Boolean, () -> Unit) -> Unit = { source, open, onDismiss ->
+        AddToPlaylistPopup(source, open, onDismiss, onAdded = { toast.show(tr("Added to {0}", it)) })
+    }
+    CompositionLocalProvider(LocalPlaylistButton provides button, LocalPlaylistPopup provides popup, content = content)
     ToastHost(toast)
-}
-
-@Composable
-fun CoursesScreen(onNavigate: (Route) -> Unit, viewModel: CoursesViewModel = koinViewModel()) {
-    val state by viewModel.state.collectAsStateWithLifecycle()
-    CollectEvents(viewModel.events) { event ->
-        when (event) {
-            is CoursesEvent.Read -> onNavigate(Route.Read(event.bookId))
-        }
-    }
-    if (LocalWindowWidth.current.isCompact) {
-        ProvidePlaylistButton { PhoneCoursesScreen(state, viewModel, onNavigate) }
-        return
-    }
-    ProvidePlaylistButton {
-        Scaffold(
-            topBar = { AppTopBar(title = tr("Courses"), onNavigate = onNavigate, section = NavSection.COURSES) },
-            containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
-        ) { padding ->
-            if (state.loading) {
-                LoadingIndicator(Modifier.padding(padding))
-                return@Scaffold
-            }
-            CoursesContent(
-                state,
-                onSearch = viewModel::setSearch,
-                onLevel = viewModel::setLevel,
-                onStatus = viewModel::setStatus,
-                onOpen = { onNavigate(Route.Course(it)) },
-                onNewCourse = { onNavigate(Route.NewCourse) },
-                onDownloadCourses = viewModel::downloadCourses,
-                onSort = viewModel::setSort,
-                onView = viewModel::setView,
-                onContinue = viewModel::continueCourse,
-                onTags = viewModel::setTags,
-                modifier = Modifier.padding(padding),
-            )
-        }
-    }
-}
-
-internal val CoursesSort.label: String
-    get() = when (this) {
-        CoursesSort.RECOMMENDED -> tr("Recommended")
-        CoursesSort.RECENTLY_READ -> tr("Recently read")
-        CoursesSort.TITLE -> tr("Title")
-        CoursesSort.PROGRESS -> tr("Progress")
-    }
-
-internal val CoursesSort.description: String
-    get() = when (this) {
-        CoursesSort.RECOMMENDED -> tr("Sorted by recommended")
-        CoursesSort.RECENTLY_READ -> tr("Sorted by recently read")
-        CoursesSort.TITLE -> tr("Sorted by title")
-        CoursesSort.PROGRESS -> tr("Sorted by progress")
-    }
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-internal fun CoursesContent(
-    state: CoursesUiState,
-    onSearch: (String) -> Unit,
-    onLevel: (CourseLevel?) -> Unit,
-    onStatus: (LessonStatus?) -> Unit,
-    onOpen: (courseId: String) -> Unit,
-    onNewCourse: () -> Unit = {},
-    onDownloadCourses: () -> Unit = {},
-    onSort: (CoursesSort) -> Unit = {},
-    onView: (CoursesView) -> Unit = {},
-    onContinue: (CourseProgress) -> Unit = {},
-    onTags: (tags: Set<String>, matchAll: Boolean) -> Unit = { _, _ -> },
-    modifier: Modifier = Modifier,
-) {
-    val colors = MaterialTheme.colorScheme
-    val width = LocalWindowWidth.current
-    val compact = width.isCompact
-    val shown = state.shown
-    ScrollColumn(
-        modifier.fillMaxSize(),
-        contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
-    ) {
-        ScreenHeader(
-            tr("Courses"),
-            if (state.languageName.isEmpty()) tr("Guided lessons to read, level by level.") else tr("Guided {0} lessons to read, level by level.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)),
-            actions = {
-                // Without courses the empty state's own button creates the first one.
-                if (state.languageName.isNotEmpty() && state.courses.isNotEmpty()) {
-                    PrimaryButton(if (compact) tr("Create") else tr("New course"), onClick = onNewCourse, modifier = Modifier.testTag("new-course"), icon = Icons.Default.Add)
-                }
-            },
-        )
-        if (state.courses.isEmpty()) {
-            EmptyCourses(state, onNewCourse, onDownloadCourses)
-            return@ScrollColumn
-        }
-        // The next step comes first, before the filters, as on Books.
-        state.continueWith?.let { ContinueCard(it, compact, onContinue = { onContinue(it) }, onOpen = { onOpen(it.course.id) }) }
-        StatusTabs(state.counts, state.status, onStatus)
-        val levelLabel = tr("Level: {0}", state.level?.display ?: tr("All"))
-        val count = trPlural(shown.size, "{0} course", "{0} courses")
-        if (compact) {
-            SearchBox(state.search, onSearch, Modifier.fillMaxWidth())
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m), itemVerticalAlignment = Alignment.CenterVertically) {
-                LevelMenu(state, levelLabel, onLevel)
-                if (state.availableTags.isNotEmpty()) TagFilterButton(state.availableTags, state.tags, state.matchAllTags, onTags)
-                SelectMenu(CoursesSort.entries, state.sort, onSort, { it.label }, buttonModifier = Modifier.testTag("course-sort"))
-                SegmentedToggle(viewSegments(iconsOnly = true), state.view, onView)
-            }
-        } else {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                SearchBox(state.search, onSearch, Modifier.weight(1f))
-                LevelMenu(state, levelLabel, onLevel)
-                if (state.availableTags.isNotEmpty()) TagFilterButton(state.availableTags, state.tags, state.matchAllTags, onTags)
-                SelectMenu(CoursesSort.entries, state.sort, onSort, { it.label }, buttonModifier = Modifier.testTag("course-sort"))
-                SegmentedToggle(viewSegments(iconsOnly = !width.isExpanded), state.view, onView)
-                Text(count, Modifier.padding(start = AppSpacing.s), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, softWrap = false)
-            }
-        }
-        state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
-        Row(verticalAlignment = Alignment.Bottom) {
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(state.status?.label ?: tr("All courses"), style = AppText.headline)
-                Text(state.sort.description, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            }
-            if (compact) Text(count, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        }
-        if (shown.isEmpty()) {
-            EmptyState(AppIcons.MenuBook, tr("No courses match"), message = tr("Try another search, or clear the filters."))
-            return@ScrollColumn
-        }
-        val columns = when {
-            compact -> 1
-            width.isExpanded -> 3
-            else -> 2
-        }
-        val items: @Composable (List<CourseProgress>) -> Unit = { list ->
-            if (state.view == CoursesView.LIST) {
-                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) { list.forEach { CourseRow(it, compact) { onOpen(it.course.id) } } }
-            } else {
-                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                    list.chunked(columns).forEach { row ->
-                        Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                            row.forEach { CourseCard(it, Modifier.weight(1f).fillMaxHeight(), tagsBelow = compact || it.course.pillCount > 2) { onOpen(it.course.id) } }
-                            repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
-                        }
-                    }
-                }
-            }
-        }
-        if (state.sort == CoursesSort.RECOMMENDED) {
-            // The recommended order goes level by level, so each level gets its heading.
-            shown.groupBy { it.course.level }.forEach { (level, list) ->
-                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    LevelHeader(level, list.size)
-                    items(list)
-                }
-            }
-        } else {
-            items(shown)
-        }
-    }
-}
-
-/** All courses, then those not started, in progress and completed, each with how many it holds. */
-@Composable
-internal fun StatusTabs(counts: Map<LessonStatus?, Int>, selected: LessonStatus?, onSelect: (LessonStatus?) -> Unit) {
-    val tabs = listOf(null, LessonStatus.IN_PROGRESS, LessonStatus.NOT_STARTED, LessonStatus.COMPLETED).map { status ->
-        Tab(status, status?.label ?: tr("All"), count = counts[status] ?: 0, testTag = "status-${status?.name ?: "ALL"}")
-    }
-    CountTabs(tabs, selected, onSelect, style = SegmentStyle.Solid)
-}
-
-/** Grid or list, as icons with their names, or [iconsOnly]. */
-private fun viewSegments(iconsOnly: Boolean): List<Segment<CoursesView>> =
-    listOf(Triple(CoursesView.GRID, AppIcons.GridView, tr("Grid")), Triple(CoursesView.LIST, AppIcons.ViewList, tr("List"))).map { (view, icon, label) ->
-        Segment(view, icon, label = if (iconsOnly) null else label, description = label, testTag = "view-${view.name}")
-    }
-
-/** The course read most recently, with how far it has got and the way into its next lesson. */
-@Composable
-private fun ContinueCard(progress: CourseProgress, compact: Boolean, onContinue: () -> Unit, onOpen: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val course = progress.course
-    val total = progress.lessons.size
-    val shape = AppShapes.large
-    val heading: @Composable () -> Unit = {
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            IconTile(AppIcons.MenuBook, size = 52)
-            Text(tr("Continue learning"), style = AppText.sectionTitle, softWrap = false)
-        }
-    }
-    val courseInfo: @Composable (Modifier) -> Unit = { m ->
-        Row(m.clip(AppShapes.control).clickable(onClick = onOpen), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            LevelTile(course.level, 52)
-            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            }
-        }
-    }
-    val bar: @Composable (Modifier) -> Unit = { m ->
-        Column(m, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Text(trPlural(total, "{1} of {0} lesson", "{1} of {0} lessons", progress.completed), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                ProgressBar(progress, Modifier.weight(1f))
-                Text(percent(progress), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
-        }
-    }
-    val button: @Composable (Modifier) -> Unit = { m ->
-        PrimaryButton(onClick = onContinue, modifier = m.height(AppSizes.control).testTag("continue-course")) {
-            Text(tr("Continue"), style = AppText.smallTitle)
-        }
-    }
-    val card = Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape)
-    if (compact) {
-        Column(card.padding(AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            heading()
-            courseInfo(Modifier)
-            bar(Modifier.fillMaxWidth())
-            button(Modifier.fillMaxWidth())
-        }
-    } else {
-        Row(card.height(IntrinsicSize.Min).padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.xl), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
-            heading()
-            AppVerticalDivider()
-            courseInfo(Modifier.weight(1f))
-            bar(Modifier.weight(1f))
-            button(Modifier)
-        }
-    }
-}
-
-/** A level's heading over its courses, in the level's colour. */
-@Composable
-internal fun LevelHeader(level: CourseLevel, count: Int) {
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).background(level.tint.copy(alpha = AppAlpha.tint)).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Text(level.code, style = AppText.sectionTitle, color = level.tint)
-        Text(" · ", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        Text(tr(level.label), Modifier.weight(1f), style = AppText.itemTitle)
-        Text(trPlural(count, "{0} course", "{0} courses"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-    }
 }
 
 /** Under a course's title: its topic, else its description; the level is shown beside it already. */
 internal val com.idiomiko.core.domain.courses.Course.cardSubtitle: String
     get() = topic.ifBlank { description }
 
-internal fun percent(progress: CourseProgress) = "${(progress.fraction * 100).roundToInt()}%"
-
-/** How far the course has got: not started, completed, or lessons read with the share. */
-@Composable
-internal fun StatusText(progress: CourseProgress, stacked: Boolean) {
-    val colors = MaterialTheme.colorScheme
-    when (progress.status) {
-        LessonStatus.NOT_STARTED -> Text(tr("Not started"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
-        LessonStatus.COMPLETED -> Text(tr("Completed"), style = AppText.label, color = AppAccents.green, softWrap = false)
-        LessonStatus.IN_PROGRESS -> {
-            val read = tr("{0} of {1} read", progress.completed, progress.lessons.size)
-            if (stacked) {
-                Column {
-                    Text(read, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
-                    Text(percent(progress), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                }
-            } else {
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                    Text(read, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
-                    Text(percent(progress), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
-                }
-            }
-        }
-    }
-}
-
-@Composable
-internal fun ProgressBar(progress: CourseProgress, modifier: Modifier) {
-    val color = if (progress.status == LessonStatus.COMPLETED) AppAccents.green else MaterialTheme.colorScheme.primary
-    ProgressTrack(if (progress.completed > 0) progress.fraction else 0f, color, modifier, height = AppSizes.trackThick)
-}
-
-/** A course as a card of the grid; on narrow screens, or with several, its tags go [tagsBelow] the title, which then keeps its width. */
-@Composable
-private fun CourseCard(progress: CourseProgress, modifier: Modifier, tagsBelow: Boolean, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val course = progress.course
-    val interaction = remember { MutableInteractionSource() }
-    val hovered by interaction.collectIsHoveredAsState()
-    Column(
-        modifier.pressScale(interaction).clip(AppShapes.large).background(colors.surface)
-            .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.large)
-            .hoverable(interaction).clickable(interaction, LocalIndication.current, onClick = onClick).padding(AppSpacing.xl).testTag("course-${course.id}"),
-    ) {
-        Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            LevelTile(course.level, 52)
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            }
-            if (!tagsBelow) CourseTags(course)
-        }
-        if (tagsBelow) {
-            Spacer(Modifier.height(AppSpacing.m))
-            CourseTags(course)
-        }
-        // Cards in a row share the tallest one's height; the facts and progress keep to the bottom.
-        Spacer(Modifier.weight(1f))
-        Spacer(Modifier.height(AppSpacing.l))
-        // A course without lessons has no progress to show, only that it is still empty.
-        if (course.lessons.isEmpty()) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(tr("No lessons yet"), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
-            }
-        } else {
-            Text(courseFacts(course), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            Spacer(Modifier.height(AppSpacing.m))
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                ProgressBar(progress, Modifier.weight(1f))
-                StatusText(progress, stacked = false)
-                LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), null)
-                Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
-            }
-        }
-    }
-}
-
 internal fun courseFacts(course: com.idiomiko.core.domain.courses.Course) = "${lessonCount(course.lessons.size)} · ${wordCount(course.wordCount)}"
-
-/** A course as one row of the list. */
-@Composable
-private fun CourseRow(progress: CourseProgress, compact: Boolean, onClick: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val course = progress.course
-    val interaction = remember { MutableInteractionSource() }
-    val hovered by interaction.collectIsHoveredAsState()
-    Row(
-        Modifier.fillMaxWidth().pressScale(interaction).clip(AppShapes.card).background(colors.surface)
-            .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.card)
-            .hoverable(interaction).clickable(interaction, LocalIndication.current, onClick = onClick).padding(horizontal = AppSpacing.l, vertical = AppSpacing.l).testTag("course-${course.id}"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xxl),
-    ) {
-        LevelTile(course.level, 52)
-        if (compact) {
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                    Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                    Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                }
-                Text(courseFacts(course), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    ProgressBar(progress, Modifier.weight(1f))
-                    StatusText(progress, stacked = false)
-                }
-            }
-        } else {
-            Column(Modifier.weight(1.3f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(course.title.inLearnedScript(), style = AppText.itemTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
-                Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            }
-            Box(Modifier.weight(1f)) { CourseTags(course) }
-            Text(courseFacts(course), Modifier.weight(0.9f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
-            ProgressBar(progress, Modifier.weight(0.9f))
-            Box(Modifier.width(ROW_STATUS_WIDTH)) { StatusText(progress, stacked = true) }
-        }
-        if (course.lessons.isNotEmpty()) LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), null)
-        Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
-    }
-}
 
 @Composable
 internal fun LevelTile(level: CourseLevel, size: Int) {
@@ -651,10 +273,6 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
 @Composable
 internal fun SearchBox(value: String, onChange: (String) -> Unit, modifier: Modifier) =
     SearchField(value, onChange, tr("Search courses, lessons and tags"), modifier, fieldModifier = Modifier.testTag("course-search"))
-
-@Composable
-private fun LevelMenu(state: CoursesUiState, label: String, onLevel: (CourseLevel?) -> Unit) =
-    SelectMenu(listOf<CourseLevel?>(null) + state.levels, state.level, onLevel, { it?.display ?: tr("All levels") }, value = label, buttonModifier = Modifier.testTag("level-filter"))
 
 /** A course: what it is, how far the reader has got, and its lessons to read in order. */
 @Composable

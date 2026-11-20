@@ -1,49 +1,60 @@
 package com.idiomiko.feature.courses
 
-import com.idiomiko.core.domain.model.ReadingStage
-import androidx.compose.runtime.SideEffect
-import androidx.compose.runtime.Composable
-import com.idiomiko.core.domain.playlists.PlaylistSource
-import com.idiomiko.core.domain.courses.CourseDraft
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
-import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertTextEquals
+import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import androidx.compose.ui.unit.Density
-import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
 import com.idiomiko.core.data.repository.BookRepositoryImpl
+import com.idiomiko.core.data.repository.CourseRepositoryImpl
 import com.idiomiko.core.data.repository.LanguageRepositoryImpl
 import com.idiomiko.core.data.repository.TermRepositoryImpl
-import com.idiomiko.core.data.repository.CourseRepositoryImpl
 import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
-import androidx.compose.ui.test.assertIsNotEnabled
-import com.idiomiko.core.domain.courses.CourseService
 import com.idiomiko.core.domain.courses.Course
+import com.idiomiko.core.domain.courses.CourseDraft
+import com.idiomiko.core.domain.courses.CourseKnowledge
+import com.idiomiko.core.domain.courses.CourseLevel
 import com.idiomiko.core.domain.courses.CoursePack
 import com.idiomiko.core.domain.courses.CoursePackService
 import com.idiomiko.core.domain.courses.CoursePackStore
+import com.idiomiko.core.domain.courses.CourseService
+import com.idiomiko.core.domain.courses.LessonStatus
 import com.idiomiko.core.domain.dictionary.PackState
+import com.idiomiko.core.domain.frequency.FrequencyList
+import com.idiomiko.core.domain.frequency.FrequencyLists
+import com.idiomiko.core.domain.frequency.FrequencyWord
+import com.idiomiko.core.domain.frequency.WordFrequencyService
 import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.ReadingStage
+import com.idiomiko.core.domain.model.Term
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.playlists.PlaylistSource
 import com.idiomiko.core.domain.service.BookService
 import com.idiomiko.core.domain.service.ReadingService
 import com.idiomiko.core.domain.service.TermService
@@ -53,6 +64,7 @@ import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.theme.IdiomikoTheme
+import com.russhwolf.settings.MapSettings
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -61,10 +73,10 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertTrue
 import kotlin.test.assertNotNull
+import kotlin.test.assertTrue
 
-/** The courses can be searched and filtered, and a course lists its lessons with the reader's progress. */
+/** The courses can be searched and filtered, the next lesson opened, and a course lists its lessons with the reader's progress. */
 @OptIn(ExperimentalTestApi::class)
 class CoursesScreenTest {
     private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-courses-ui", ".db").also { it.delete() }))
@@ -88,13 +100,29 @@ class CoursesScreenTest {
         service,
     )
 
-    private fun ComposeUiTest.host(section: NavSection = NavSection.COURSES, content: @androidx.compose.runtime.Composable () -> Unit) = setContent {
+    /** A frequency list of the Portuguese courses' band words, as the app's own list ranks them. */
+    private val frequency = WordFrequencyService(
+        object : FrequencyLists {
+            override suspend fun list(languageCode: String): FrequencyList? = if (languageCode != "pt") null else FrequencyList(
+                "test",
+                File("../../tools/courses/pt/bands").listFiles()!!.sorted().flatMap { it.readLines() }.map { it.split('\t') }.filter { it.size >= 2 }
+                    .map { FrequencyWord(it[0].toInt(), it[1], it.getOrElse(2) { "" }.split(' ').filter(String::isNotBlank)) },
+            )
+        },
+        terms,
+        languages,
+    )
+
+    private fun viewModel(knowing: Boolean = false) =
+        if (knowing) CoursesViewModel(service, languages, settings, packs, frequency, CourseKnowledge(terms, languages)) else CoursesViewModel(service, languages, settings, packs)
+
+    private fun ComposeUiTest.host(content: @Composable () -> Unit) = setContent {
         IdiomikoTheme {
             ProvideWindowWidth {
                 CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
                     Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                         Column {
-                            AppTopBar(title = "Courses", onNavigate = {}, section = section)
+                            AppTopBar(title = "Courses", onNavigate = {}, section = NavSection.COURSES)
                             content()
                         }
                     }
@@ -103,61 +131,213 @@ class CoursesScreenTest {
         }
     }
 
+    /** The page as the screen shows it, with its view model's actions and [actions]' openings. */
+    private fun ComposeUiTest.page(viewModel: CoursesViewModel, onOpen: (String) -> Unit = {}, phone: Boolean = false) = host {
+        val state by viewModel.state.collectAsState()
+        val actions = remember { CoursesActions.of(viewModel) {}.let { a -> CoursesActions(a.onSearch, a.onStatus, a.onSort, a.onView, a.onTags, a.onToggleTag, a.onClearFilters, onOpen, null, a.onOpenLesson, a.onNewCourse, a.onDownloadCourses) } }
+        if (!state.loading) {
+            if (phone) PhoneCoursesContent(state, actions) else CoursesContent(state, actions)
+        }
+    }
+
     private fun ComposeUiTest.save(env: String) {
         System.getenv(env)?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 
-    private val ids = (100..10000 step 100).map { "pt-mini-" + it.toString().padStart(4, '0') }
+    private fun ComposeUiTest.exists(tag: String) = onAllNodesWithTag(tag).fetchSemanticsNodes().isNotEmpty()
 
-    private fun ComposeUiTest.shown(): List<String> =
-        ids.filter { onAllNodesWithTag("course-$it").fetchSemanticsNodes().isNotEmpty() }
+    private fun ComposeUiTest.waitFor(tag: String) = waitUntil(timeoutMillis = 5_000) { exists(tag) }
+
+    private fun ComposeUiTest.count(): String = onNodeWithTag("result-count").fetchSemanticsNode().config.let { config ->
+        config[androidx.compose.ui.semantics.SemanticsProperties.Text].joinToString { it.text }
+    }
+
+    /** Reads [lessons] of [courseId] to their end, every stage checked. */
+    private fun complete(courseId: String, vararg lessons: Int) = runBlocking {
+        for (n in lessons) {
+            val bookId = service.openLesson(courseId, "$courseId-${n.toString().padStart(2, '0')}")!!
+            reading.openPage(bookId, 1, trackOpen = true)
+            reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
+            ReadingStage.entries.forEach { reading.checkStage(bookId, books.pageCount(bookId), it) }
+        }
+    }
 
     @Test
-    fun coursesCanBeSearchedFilteredAndOpened() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val viewModel = CoursesViewModel(service, languages, settings, packs)
+    fun coursesCanBeSearchedFilteredSortedAndOpened() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = viewModel()
         val opened = mutableListOf<String>()
-        host {
-            val state by viewModel.state.collectAsState()
-            if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = { opened += it }, onSort = viewModel::setSort, onView = viewModel::setView)
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(ids.take(2), shown().take(2), "in the order of their ranks")
+        page(viewModel, onOpen = { opened += it })
+        waitFor("next-lesson")
         onNodeWithText("Guided Portuguese lessons to read, level by level.").assertExists()
-        save("COURSES_GRID_SCREENSHOT")
+        // Nothing is read and no words are counted: the journey starts at A1, with its first lesson.
+        onNodeWithText("START HERE · EM CASA E COM A FAMÍLIA").assertExists()
+        onNodeWithTag("course-pt-mini-0100").assertIsDisplayed()
+        assertTrue(!exists("course-pt-mini-0400"), "the other levels wait folded")
 
-        // The search looks in lesson titles too.
+        // The search looks in lesson titles too, and shows the matches instead of the journey.
         onNodeWithTag("course-search").performTextInput("O prêmio da Clara")
-        waitUntil(timeoutMillis = 5_000) { shown() == listOf("pt-mini-0800") }
-        assertTrue(onAllNodesWithText("1 course").fetchSemanticsNodes().isNotEmpty())
+        waitUntil(timeoutMillis = 5_000) { exists("result-count") && count() == "1 course" }
+        assertTrue(exists("course-pt-mini-0800") && !exists("next-lesson"))
         onNodeWithTag("course-search").performTextClearance()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
+        waitFor("next-lesson")
 
-        onNodeWithText("Level: All").performClick()
-        onNodeWithText("A1 · Beginner").performClick()
-        waitUntil(timeoutMillis = 5_000) { shown() == ids.take(3) }
-        assertTrue(onAllNodesWithText("3 courses").fetchSemanticsNodes().isNotEmpty())
-        onNodeWithText("Level: A1 · Beginner").performClick()
-        onNodeWithText("All levels").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
-
-        // Nothing is started yet, so the "In progress" tab holds no course and the others all of them.
+        // Nothing is started yet, so "In progress" holds no course.
         onNodeWithTag("status-IN_PROGRESS").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No courses match").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithText("Continue learning").fetchSemanticsNodes().size)
         onNodeWithTag("status-NOT_STARTED").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("100 courses").fetchSemanticsNodes().isNotEmpty() }
-
+        waitUntil(timeoutMillis = 5_000) { count() == "100 courses" }
         onNodeWithTag("course-pt-mini-0200").performClick()
         assertEquals(listOf("pt-mini-0200"), opened)
 
-        // Sorted by title, the courses are no longer grouped by level; the list shows them as rows.
+        // Sorted by title the courses are no longer grouped by level; the list shows them as rows.
         onNodeWithTag("course-sort").performClick()
         onNodeWithText("Title").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sorted by title").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithText("Beginner").fetchSemanticsNodes().size)
+        assertTrue(!exists("level-header-A1"))
         onNodeWithTag("view-LIST").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.view == CoursesView.LIST }
         save("COURSES_LIST_SCREENSHOT")
 
+        // Clearing the filters goes back to the journey.
+        onNodeWithTag("clear-filters").performClick()
+        waitFor("next-lesson")
+        assertEquals(CoursesSort.RECOMMENDED, viewModel.state.value.sort)
+        assertEquals(null, viewModel.state.value.status)
+    }
+
+    /** The course under way is offered first, its next lesson opened from the card. */
+    @Test
+    fun theCourseBeingReadIsOfferedToGoOnWith() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        complete("pt-mini-0200", 1)
+        val viewModel = viewModel()
+        val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
+        val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CoursesEvent.Read) read += it.bookId } }
+        page(viewModel)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("KEEP GOING · O DIA A DIA").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Lesson 2: O Pedro perde o ônibus").assertExists()
+        assertTrue(onAllNodesWithTag("pin-in-progress", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty())
+        save("COURSES_SCREENSHOT")
+        onNodeWithTag("start-lesson").performClick()
+        waitUntil(timeoutMillis = 5_000) { read.size == 1 }
+        assertEquals("O Pedro perde o ônibus", runBlocking { books.getBook(read.single()) }?.title)
+        // A stop of the lesson path opens its own lesson.
+        onNodeWithTag("lesson-stop-1").performClick()
+        waitUntil(timeoutMillis = 5_000) { read.size == 2 }
+        assertEquals("A manhã da Ana", runBlocking { books.getBook(read[1]) }?.title)
+        collecting.cancel()
+    }
+
+    /** The words known place the reader on the levels, and each course says how much of it they know. */
+    @Test
+    fun theWordsKnownPlaceTheReaderAndTellHowMuchOfEachCourseIsKnown() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        // The first 400 words of the list are known: the reader is at A2, with 600 to go to B1.
+        runBlocking {
+            val words = File("../../tools/courses/pt/bands").listFiles()!!.sorted().flatMap { it.readLines() }.map { it.split('\t') }.filter { it.size >= 2 && it[0].toInt() <= 400 }
+            terms.insertAll(words.map { Term(languageId = languageId, text = it[1], textLc = it[1].lowercase(), status = TermStatus.WELL_KNOWN) })
+        }
+        val viewModel = viewModel(knowing = true)
+        page(viewModel)
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("400 words known").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("600 words to B1").assertExists()
+        waitUntil(timeoutMillis = 30_000) { viewModel.state.value.knownShares.size == 100 }
+        val shares = viewModel.state.value.knownShares
+        assertTrue(shares.getValue("pt-mini-0100") > shares.getValue("pt-mini-1000"), "the first course is known best: $shares")
+        assertTrue(onAllNodesWithTag("known-share", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty())
+        // The course past the words known is picked to read next.
+        assertEquals("pt-mini-0500", viewModel.state.value.suggested?.course?.id)
+        assertEquals(CourseLevel.A2, viewModel.state.value.journey.current)
+    }
+
+    /** The level on the journey opens its courses; the courses' own tags filter them. */
+    @Test
+    fun coursesCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val trip = runBlocking { service.createCourse(languageId, CourseDraft("Uma viagem", tags = listOf("travel", "food"))) }
+        val market = runBlocking { service.createCourse(languageId, CourseDraft("No mercado", tags = listOf("food"))) }
+        val viewModel = viewModel()
+        page(viewModel)
+        waitFor("tag-chip-food")
+
+        // A tag's chip: the courses with it.
+        onNodeWithTag("tag-chip-food").performClick()
+        waitUntil(timeoutMillis = 5_000) { exists("result-count") && count() == "2 courses" }
+        assertTrue(exists("course-$trip") && exists("course-$market") && !exists("course-pt-mini-0100"))
+        onNodeWithTag("tag-chip-food").performClick()
+        waitFor("next-lesson")
+
+        // The full filter: all of two tags, only the course with both.
+        onNodeWithTag("tag-filter").performClick()
+        onNodeWithTag("tag-food").performClick()
+        onNodeWithTag("tag-travel").performClick()
+        onNodeWithTag("match-all").performClick()
+        save("COURSES_TAGS_SCREENSHOT")
+        onNodeWithTag("apply-tags").performClick()
+        waitUntil(timeoutMillis = 5_000) { exists("result-count") && count() == "1 course" }
+        assertTrue(exists("course-$trip") && !exists("course-$market"))
+    }
+
+    @Test
+    fun aPhoneShowsTheStripTheFiltersAndTheCourses() = runDesktopComposeUiTest(width = 400, height = 860) {
+        complete("pt-mini-0200", 1)
+        val viewModel = viewModel()
+        page(viewModel, phone = true)
+        waitFor("next-lesson")
+        onNodeWithTag("journey-strip").assertIsDisplayed()
+        assertTrue(!exists("view-GRID"), "no grid or list on a phone")
+        onNodeWithTag("filters-button").performClick()
+        onNodeWithTag("status-NOT_STARTED").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.status == LessonStatus.NOT_STARTED }
+        onNodeWithTag("sort-TITLE").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.sort == CoursesSort.TITLE }
+        save("COURSES_PHONE_SCREENSHOT")
+    }
+
+    @Test
+    fun phoneControlsFitAtLargeText() = runDesktopComposeUiTest(width = 400, height = 860) {
+        val viewModel = viewModel()
+        setContent {
+            IdiomikoTheme {
+                ProvideWindowWidth {
+                    val density = LocalDensity.current
+                    CompositionLocalProvider(
+                        LocalDensity provides Density(density.density, 1.3f),
+                        LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {},
+                    ) {
+                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                            val state by viewModel.state.collectAsState()
+                            Column {
+                                AppTopBar(title = "Courses", onNavigate = {}, section = NavSection.COURSES)
+                                if (!state.loading) PhoneCoursesContent(state, CoursesActions())
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        waitFor("next-lesson")
+        val rootWidth = onAllNodes(isRoot())[0].fetchSemanticsNode().size.width
+        listOf("course-search", "filters-button", "start-lesson", "all-lessons").forEach { tag ->
+            val node = onNodeWithTag(tag).assertIsDisplayed().fetchSemanticsNode()
+            assertTrue(node.positionInRoot.x >= 0f && node.positionInRoot.x + node.size.width <= rootWidth, "$tag stays inside the viewport at 130% text")
+        }
+    }
+
+    /** The screen gives each tile's menu the playlist menu, which offers the whole course. */
+    @Test
+    fun aTileOffersItsCourseToAPlaylist() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val viewModel = viewModel()
+        val asked = mutableListOf<PlaylistSource>()
+        host {
+            val state by viewModel.state.collectAsState()
+            val popup: @Composable (PlaylistSource, Boolean, () -> Unit) -> Unit = { source, open, _ -> if (open) SideEffect { asked += source } }
+            CompositionLocalProvider(LocalPlaylistPopup provides popup) {
+                if (!state.loading) CoursesContent(state, CoursesActions())
+            }
+        }
+        waitFor("course-menu-pt-mini-0100")
+        onNodeWithTag("course-menu-pt-mini-0100").performClick()
+        onNodeWithTag("menu-add-to-playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { asked.isNotEmpty() }
+        assertEquals(PlaylistSource.WholeCourse("pt-mini-0100"), asked.first())
     }
 
     @Test
@@ -170,7 +350,6 @@ class CoursesScreenTest {
             if (!state.loading) CourseContent(state, onOpenLesson = viewModel::openLesson, onCourses = {})
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Em casa e com a família").fetchSemanticsNodes().isNotEmpty() }
-        // The first lesson is picked out as the place to start.
         onNodeWithText("Start here").assertExists()
         save("COURSE_NEW_SCREENSHOT")
         for (lesson in listOf("A casa nova", "Onde está o Tom?", "Um computador para dois")) onNodeWithText(lesson).assertExists()
@@ -185,13 +364,11 @@ class CoursesScreenTest {
         runBlocking {
             reading.openPage(bookId, 1, trackOpen = true)
             reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
-            // A lesson is completed once every stage of it is checked too.
             ReadingStage.entries.forEach { reading.checkStage(bookId, books.pageCount(bookId), it) }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue: Onde está o Tom?").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("1 of 10 read").assertExists()
         onNodeWithText("Continue here").assertExists()
-        assertEquals(0, onAllNodesWithText("Start here").fetchSemanticsNodes().size)
         assertNotNull(onAllNodesWithText("Completed").fetchSemanticsNodes().singleOrNull())
         save("COURSE_SCREENSHOT")
         collecting.cancel()
@@ -223,185 +400,20 @@ class CoursesScreenTest {
         val viewModel = CourseViewModel("pt-mini-0100", service)
         host {
             val state by viewModel.state.collectAsState()
-            // Downloaded courses tag every lesson, as "idiomiko".
             val tagged = state.progress?.let { p -> state.copy(progress = p.copy(lessons = p.lessons.map { it.copy(lesson = it.lesson.copy(tags = listOf("idiomiko"))) })) } ?: state
             if (!state.loading) CourseContent(tagged, onOpenLesson = {}, onCourses = {})
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("A casa nova").fetchSemanticsNodes().isNotEmpty() }
         save("COURSE_PHONE_SCREENSHOT")
-        // The title's own text, not the lesson row it merges into.
         val title = onNodeWithText("A casa nova", useUnmergedTree = true).fetchSemanticsNode()
         val tag = onAllNodesWithText("idiomiko", useUnmergedTree = true).fetchSemanticsNodes().last()
         assertTrue(title.size.height < 2 * tag.size.height, "the title stays on one line, not a word or letter a line: ${title.size}")
     }
 
     @Test
-    fun theCourseBeingReadIsOfferedToContinue() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        // The first lesson of the second course is read to its end.
-        runBlocking {
-            val bookId = service.openLesson("pt-mini-0200", "pt-mini-0200-01")!!
-            reading.openPage(bookId, 1, trackOpen = true)
-            reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
-            // A lesson is completed once every stage of it is checked too.
-            ReadingStage.entries.forEach { reading.checkStage(bookId, books.pageCount(bookId), it) }
-        }
-        val viewModel = CoursesViewModel(service, languages, settings, packs)
-        val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
-        val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CoursesEvent.Read) read += it.bookId } }
-        host {
-            val state by viewModel.state.collectAsState()
-            if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = {}, onContinue = viewModel::continueCourse)
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue learning").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("1 of 10 lessons").assertExists()
-        save("COURSES_SCREENSHOT")
-        onNodeWithTag("continue-course").performClick()
-        waitUntil(timeoutMillis = 5_000) { read.size == 1 }
-        // It opens the course's next lesson.
-        assertEquals("O Pedro perde o ônibus", runBlocking { books.getBook(read.single()) }?.title)
-        collecting.cancel()
-    }
-
-    /** On a phone the page has its own header, the filters open sheets, and the course being read is offered first. */
-    @Test
-    fun aPhoneShowsTheCoursesAsCardsWithSheetsForTheFilters() = runDesktopComposeUiTest(width = 420, height = 900) {
-        runBlocking {
-            val bookId = service.openLesson("pt-mini-0200", "pt-mini-0200-01")!!
-            reading.openPage(bookId, 1, trackOpen = true)
-            reading.markPageRead(bookId, books.pageCount(bookId), markRestAsKnown = false)
-            // A lesson is completed once every stage of it is checked too.
-            ReadingStage.entries.forEach { reading.checkStage(bookId, books.pageCount(bookId), it) }
-        }
-        val viewModel = CoursesViewModel(service, languages, settings, packs)
-        val read = java.util.Collections.synchronizedList(mutableListOf<Long>())
-        val collecting = CoroutineScope(Dispatchers.Default).launch { viewModel.events.flow.collect { if (it is CoursesEvent.Read) read += it.bookId } }
-        setContent {
-            IdiomikoTheme {
-                ProvideWindowWidth {
-                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {}) {
-                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                            val state by viewModel.state.collectAsState()
-                            Column {
-                                AppTopBar(title = "Courses", onNavigate = {}, section = NavSection.COURSES, actions = { NewCourseAction(state) {} })
-                                if (!state.loading) {
-                                    PhoneCoursesContent(
-                                        state,
-                                        PhoneCoursesActions(onSearch = viewModel::setSearch, onLevel = viewModel::setLevel, onStatus = viewModel::setStatus, onSort = viewModel::setSort, onTags = viewModel::setTags, onContinue = viewModel::continueCourse),
-                                    )
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Continue learning").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("new-course").assertExists()
-        onNodeWithText("1 of 10 lessons").assertExists()
-        assertEquals(0, onAllNodesWithTag("view-GRID").fetchSemanticsNodes().size, "no grid or list on a phone")
-        val order = listOf("continue-card", "course-search", "status-filter", "level-header-A1", "course-pt-mini-0100")
-            .map { onNodeWithTag(it).fetchSemanticsNode().positionInRoot.y }
-        assertEquals(order.sorted(), order, "continue, browsing controls, and the catalogue keep their intended order")
-        onNodeWithTag("course-pt-mini-0100").assertIsDisplayed()
-        onNodeWithTag("course-pt-mini-0200").assertIsDisplayed()
-        onNodeWithText("10 lessons · Common words 1–100").assertExists()
-        onNodeWithText("Sample course").assertDoesNotExist()
-        save("COURSES_PHONE_SCREENSHOT")
-
-        // Status has its own compact picker, while level and tags share the Filters entry point.
-        onNodeWithTag("status-filter").performClick()
-        onAllNodesWithText("Not started").let { it[it.fetchSemanticsNodes().lastIndex].performClick() }
-        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.status == com.idiomiko.core.domain.courses.LessonStatus.NOT_STARTED }
-        onNodeWithTag("status-filter").performClick()
-        onAllNodesWithText("All courses").let { it[it.fetchSemanticsNodes().lastIndex].performClick() }
-        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.status == null }
-
-        onNodeWithTag("level-filter").performClick()
-        onNodeWithText("A2 · Elementary").performClick()
-        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.level == com.idiomiko.core.domain.courses.CourseLevel.A2 }
-        onNodeWithTag("level-filter").assertExists()
-        assertTrue(viewModel.state.value.shown.all { it.course.level == com.idiomiko.core.domain.courses.CourseLevel.A2 })
-        // The sort opens a sheet too.
-        onNodeWithTag("course-sort").performClick()
-        onNodeWithText("Title").performClick()
-        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.sort == CoursesSort.TITLE }
-
-        onNodeWithTag("continue-course").performClick()
-        waitUntil(timeoutMillis = 5_000) { read.size == 1 }
-        collecting.cancel()
-    }
-
-    @Test
-    fun phoneCourseControlsFitAtLargeText() = runDesktopComposeUiTest(width = 400, height = 860) {
-        val viewModel = CoursesViewModel(service, languages, settings, packs)
-        viewModel.setStatus(com.idiomiko.core.domain.courses.LessonStatus.IN_PROGRESS)
-        setContent {
-            IdiomikoTheme {
-                ProvideWindowWidth {
-                    val density = LocalDensity.current
-                    CompositionLocalProvider(
-                        LocalDensity provides Density(density.density, 1.3f),
-                        LocalLearningLanguage provides LearningLanguageState(listOf(languageId to "Portuguese"), languageId) {},
-                    ) {
-                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                            val state by viewModel.state.collectAsState()
-                            Column {
-                                AppTopBar(title = "Courses", onNavigate = {}, section = NavSection.COURSES)
-                                if (!state.loading) PhoneCoursesContent(state, PhoneCoursesActions())
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("In progress").fetchSemanticsNodes().isNotEmpty() }
-        val rootWidth = onAllNodes(isRoot())[0].fetchSemanticsNode().size.width
-        listOf("status-filter", "level-filter", "course-sort").forEach { tag ->
-            val node = onNodeWithTag(tag).assertIsDisplayed().fetchSemanticsNode()
-            assertTrue(node.positionInRoot.x >= 0f && node.positionInRoot.x + node.size.width <= rootWidth, "$tag stays inside the viewport at 130% text")
-        }
-    }
-
-    @Test
-    fun coursesCanBeFilteredByAnyOrAllOfSeveralTags() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val trip = runBlocking { service.createCourse(languageId, CourseDraft("Uma viagem", tags = listOf("travel", "food"))) }
-        val market = runBlocking { service.createCourse(languageId, CourseDraft("No mercado", tags = listOf("food"))) }
-        val viewModel = CoursesViewModel(service, languages, settings, packs)
-        host {
-            val state by viewModel.state.collectAsState()
-            if (!state.loading) CoursesContent(state, viewModel::setSearch, viewModel::setLevel, viewModel::setStatus, onOpen = {}, onTags = viewModel::setTags)
-        }
-        fun visible(id: String) = onAllNodesWithTag("course-$id").fetchSemanticsNodes().isNotEmpty()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("102 courses").fetchSemanticsNodes().isNotEmpty() }
-
-        // Any of the two tags: both courses with "food" or "travel", none of the samples.
-        onNodeWithTag("tag-filter").performClick()
-        onNodeWithTag("tag-food").performClick()
-        onNodeWithTag("tag-travel").performClick()
-        onNodeWithText("2 tags selected").assertExists()
-        save("COURSES_TAGS_SCREENSHOT")
-        onNodeWithTag("apply-tags").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("2 courses").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(visible(trip) && visible(market))
-        assertEquals(emptyList(), shown())
-
-        // All of them: only the course with both.
-        onNodeWithTag("tag-filter").performClick()
-        onNodeWithTag("match-all").performClick()
-        onNodeWithTag("apply-tags").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 course").fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(visible(trip) && !visible(market))
-
-        onNodeWithTag("tag-filter").performClick()
-        onNodeWithText("Clear all").performClick()
-        onNodeWithTag("apply-tags").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("102 courses").fetchSemanticsNodes().isNotEmpty() }
-    }
-
-    @Test
     fun withoutCoursesTheReadyMadeOnesAreOfferedForDownload() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         var asked = 0
-        host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true), {}, {}, {}, onOpen = {}, onDownloadCourses = { asked++ }) }
+        host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true), CoursesActions(onDownloadCourses = { asked++ })) }
         onNodeWithText("Get started with courses").assertExists()
         save("COURSES_EMPTY_PACK_SCREENSHOT")
         onNodeWithTag("download-courses").performClick()
@@ -412,7 +424,7 @@ class CoursesScreenTest {
     @Test
     fun theDownloadShowsOnTheButton() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         var asked = 0
-        host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true, packState = PackState.Downloading(0.4f)), {}, {}, {}, onOpen = {}, onDownloadCourses = { asked++ }) }
+        host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true, packState = PackState.Downloading(0.4f)), CoursesActions(onDownloadCourses = { asked++ })) }
         onNodeWithText("Downloading…").assertExists()
         onNodeWithTag("download-courses").assertIsNotEnabled()
         assertEquals(0, asked)
@@ -421,14 +433,28 @@ class CoursesScreenTest {
     @Test
     fun withoutCoursesOrAPackTheFirstCourseIsCreated() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         var created = 0
-        host { CoursesContent(CoursesUiState(loading = false, languageName = "Estonian"), {}, {}, {}, onOpen = {}, onNewCourse = { created++ }) }
+        host { CoursesContent(CoursesUiState(loading = false, languageName = "Estonian"), CoursesActions(onNewCourse = { created++ })) }
         onNodeWithText("Build a guided reading course from books and texts you choose.").assertExists()
-        onNodeWithText("How courses work").assertDoesNotExist()
-        onNodeWithText("Organize lessons").assertDoesNotExist()
         onNodeWithTag("download-courses").assertDoesNotExist()
-        assertEquals(1, onAllNodesWithTag("new-course").fetchSemanticsNodes().size, "only the empty state's button, not the header's")
+        assertEquals(1, onAllNodesWithTag("new-course").fetchSemanticsNodes().size, "only the empty state's button")
         save("COURSES_EMPTY_SCREENSHOT")
         onNodeWithTag("new-course").performClick()
         assertEquals(1, created)
+    }
+
+    @Test
+    fun theOwnCoursesLinkMakesANewCourse() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        var created = 0
+        val viewModel = viewModel()
+        host {
+            val state by viewModel.state.collectAsState()
+            if (!state.loading) CoursesContent(state, CoursesActions(onNewCourse = { created++ }))
+        }
+        waitFor("new-course")
+        onNodeWithTag("new-course").performScrollTo().performClick()
+        assertEquals(1, created)
+        // Without a word count the card names the level and the courses read in it.
+        onNodeWithText("0 of 3 courses").assertExists()
+        onNodeWithTag("journey-A1").assertTextEquals("A1", "A1 · Beginner", "0 of 3 · you are here", "0%")
     }
 }
