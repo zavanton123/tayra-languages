@@ -44,8 +44,9 @@ story; a lesson never needs another lesson to make sense.
 - **The verb**: subject concord + tense + (object concord) + stem + ending: *ngi-ya-hamba*,
   *wa-hamba*, *u-zo-hamba*, *ngi-hamb-ile*, *a-ka-hamb-i*, *ngi-ya-m-bona*. The list files every such
   form under its verb (*hamba* holds *ukuhamba*, *wahamba*, *ngiyahamba*, *uzohamba*, *akahambi*), the
-  infinitive *uku-* too, and the checker reads the object concords and the extensions (*bonwa*,
-  *hambela*, *hambisa*, *thandana*) as their verb.
+  infinitive *uku-* too, and the checker reads the object concords and the extensions (*thandwa*,
+  *hambisa*, *fundisisa*) as their verb, unless the pack has the derived verb as a word of its own
+  (*hambela*, *thandana*, *bonakala*, *sebenzisa* are headwords: teach them in their own sense).
 - **Grammar grows with the bands**, each band using what came before:
   - ranks 1–300: the copula (*nguThemba*, *yindlu*, *ngiyingane*, *akayona ingane*), the present
     (*ngiyahamba*, *ngihamba kahle*), the recent past *-ile/-e* (*ufikile*, *ngimbonile*), the remote
