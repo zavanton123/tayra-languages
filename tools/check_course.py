@@ -31,6 +31,7 @@ import frequency_bengali  # noqa: E402
 import frequency_kannada  # noqa: E402
 import frequency_swahili  # noqa: E402
 import frequency_tamil  # noqa: E402
+import frequency_hausa  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
@@ -311,6 +312,10 @@ def fold(code, word):
     # The Swahili list writes the straight apostrophe (ng'ombe); the reader reads ’ ‘ ´ ` as it.
     if code == "sw":
         return word.translate(frequency_swahili.APOSTROPHES)
+    # Hausa words are matched with their hooked letters, written so or with an apostrophe (k'asa as ƙasa, 'yan as ƴan), as the
+    # reader matches them (HausaParser).
+    if code == "ha":
+        return frequency_hausa.hausa_fold(word)
     # So does the Afrikaans one (’n, ma’s).
     if code == "af":
         return word.translate(AFRIKAANS_APOSTROPHES)
@@ -743,6 +748,10 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return maltese_tokens(text)
     if code == "af":
         return AFRIKAANS_WORD.findall(text.translate(AFRIKAANS_APOSTROPHES))
+    # Hausa words as the reader cuts them: an apostrophe inside a word (sa'a, k'asa) and one before b, d or y ('yan) is part
+    # of it, one at its edges otherwise a quotation mark.
+    if code == "ha":
+        return frequency_hausa.WORD.findall(text.translate(frequency_hausa.APOSTROPHES))
     if code in FINNIC:
         return finnic_tokens(text, code)
     if code == "hi":
@@ -2715,7 +2724,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:",
     )
 }
 
@@ -3275,6 +3284,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^પ્રશ્નો:", "", text)
             # A number in Gujarati or Western digits, with a postposition written on (૧૦માં, 2020ની, ૫-૬), is a number.
             text = re.sub(r"[૦-૯0-9]+(?:-?[\u0a80-\u0aff]+)?", " ", text)
+        if code == "ha":
+            text = re.sub(r"(?m)^Tambayoyi:", "", text)
         if code == "th":
             text = re.sub(r"(?m)^คำถาม:", "", text)
         if code == "vi":
@@ -3393,6 +3404,10 @@ def check(path, brief=False):
         # A Sinhala word with a clitic written on (ගෙදරත්, පොතකි) that the list lacks is read as the form without it.
         if code == "si":
             lowered = [w if w in ranks or w in names else frequency_sinhala.checker_word(w, ranks) or w for w in lowered]
+        # A Hausa noun's linked form and possessives (gidanmu, motarsa, ɗalibansu) that the list lacks are read as the list's
+        # forms they are made on (frequency_hausa).
+        if code == "ha":
+            lowered = [w if w in ranks or w in names else frequency_hausa.checker_word(w, ranks) or w for w in lowered]
         names_here = names | {"\u0000name"}
         outside = {}
         known = 0
