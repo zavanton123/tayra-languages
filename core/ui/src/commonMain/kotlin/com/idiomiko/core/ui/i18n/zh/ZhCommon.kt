@@ -24,6 +24,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Azerbaijani" to "阿塞拜疆语",
     "Basque" to "巴斯克语",
     "Belarusian" to "白俄罗斯语",
+    "Bengali" to "孟加拉语",
     "Bosnian" to "波斯尼亚语",
     "Breton" to "布列塔尼语",
     "Bulgarian" to "保加利亚语",

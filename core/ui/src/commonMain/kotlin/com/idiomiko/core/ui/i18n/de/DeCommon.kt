@@ -24,6 +24,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Azerbaijani" to "Aserbaidschanisch",
     "Basque" to "Baskisch",
     "Belarusian" to "Belarussisch",
+    "Bengali" to "Bengalisch",
     "Bosnian" to "Bosnisch",
     "Breton" to "Bretonisch",
     "Bulgarian" to "Bulgarisch",

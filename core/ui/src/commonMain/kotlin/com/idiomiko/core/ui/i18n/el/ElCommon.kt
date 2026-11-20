@@ -24,6 +24,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Azerbaijani" to "Αζερμπαϊτζανικά",
     "Basque" to "Βασκικά",
     "Belarusian" to "Λευκορωσικά",
+    "Bengali" to "Βεγγαλικά",
     "Bosnian" to "Βοσνιακά",
     "Breton" to "Βρετονικά",
     "Bulgarian" to "Βουλγαρικά",
