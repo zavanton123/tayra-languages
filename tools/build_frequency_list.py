@@ -65,6 +65,7 @@ import frequency_telugu  # noqa: E402
 import frequency_nepali  # noqa: E402
 import frequency_hausa  # noqa: E402
 import frequency_zulu  # noqa: E402
+import frequency_amharic  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -78,7 +79,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha", "mr",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps", "gu", "ha", "mr", "am",
     "si",
     "zu",
 ]
@@ -5301,6 +5302,8 @@ def build(language, source, size):
         return frequency_hausa.build(size, download)
     if language == "zu":
         return frequency_zulu.build(size, download)
+    if language == "am":
+        return frequency_amharic.build(size, download)
     order = [source] if source else SOURCE_ORDER.get(language, ["wordfreq", "frequencywords", "leipzig", "wikipedia"])
     found = []
     for name in order:
