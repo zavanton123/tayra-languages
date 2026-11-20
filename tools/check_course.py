@@ -36,6 +36,7 @@ import frequency_hausa  # noqa: E402
 import frequency_zulu  # noqa: E402
 import frequency_amharic  # noqa: E402
 import frequency_somali  # noqa: E402
+import frequency_yoruba  # noqa: E402
 import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 import frequency_telugu  # noqa: E402
@@ -243,6 +244,9 @@ def _is_kanji(c):
 
 
 def fold(code, word):
+    # Yoruba words are matched in NFC with their tones and dots, as the reader matches them (YorubaParser).
+    if code == "yo":
+        return frequency_yoruba.yoruba_standard(word)
     # Lao words are matched in today's spelling, as the reader reads them (LaoParser.normalise).
     if code == "lo":
         return lao_normalised(word)
@@ -777,6 +781,9 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
     # of it, one at its edges otherwise a quotation mark.
     if code == "ha":
         return frequency_hausa.WORD.findall(text.translate(frequency_hausa.APOSTROPHES))
+    # Yoruba words keep their combining tone marks inside them (ẹ́ is ẹ and an acute); a hyphen or an apostrophe parts them.
+    if code == "yo":
+        return frequency_yoruba.WORD.findall(frequency_yoruba.yoruba_standard(text))
     if code in FINNIC:
         return finnic_tokens(text, code)
     if code == "hi":
@@ -2795,7 +2802,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:", "Su'aalo:", "Savollar:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:", "Su'aalo:", "Savollar:", "Àwọn ìbéèrè:",
         "ጥያቄዎች፦", "ጥያቄዎች:",
     )
 }
@@ -3410,6 +3417,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^سوالات:", "", text)
         if code == "ps":
             text = re.sub(r"(?m)^پوښتنې:", "", text)
+        if code == "yo":
+            text = re.sub(r"(?m)^Àwọn ìbéèrè:", "", text)
         if code == "mn":
             text = re.sub(r"(?m)^Асуултууд:", "", text)
         if code == "lv":
