@@ -71,4 +71,12 @@ class LanguageCodesTest {
         assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Nepali" }.language.parserType)
         assertEquals(setOf(Script.DEVANAGARI), Scripts.of("ne"))
     }
+
+    @Test
+    fun gujaratiIsALanguageWithItsTutorial() {
+        assertEquals("gu", LanguageCodes.codeFor("Gujarati"))
+        assertEquals("guj", LanguageCodes.tatoebaCode("gu"))
+        assertNotNull(Tutorials.forLanguage("Gujarati"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Gujarati" }.language.parserType)
+    }
 }

@@ -8,7 +8,7 @@ import com.idiomiko.core.domain.morphology.ChineseScript
 
 /** The writing systems text recognition tells apart: the engines read some and not others. */
 internal enum class OcrScript {
-    LATIN, CYRILLIC, GREEK, ARABIC, HEBREW, ARMENIAN, GEORGIAN, DEVANAGARI, BENGALI, GURMUKHI, TAMIL, TELUGU, KANNADA, THAI, LAO, KHMER,
+    LATIN, CYRILLIC, GREEK, ARABIC, HEBREW, ARMENIAN, GEORGIAN, DEVANAGARI, BENGALI, GURMUKHI, GUJARATI, TAMIL, TELUGU, KANNADA, THAI, LAO, KHMER,
     TIBETAN, SYRIAC, ETHIOPIC, HAN_SIMPLIFIED, HAN_TRADITIONAL, JAPANESE, KOREAN,
 }
 
@@ -58,7 +58,7 @@ internal object OcrLanguages {
         "eo" to (OcrScript.LATIN to "epo"), "et" to (OcrScript.LATIN to "est"), "fo" to (OcrScript.LATIN to "fao"),
         "fa" to (OcrScript.ARABIC to "fas"), "fi" to (OcrScript.LATIN to "fin"), "fr" to (OcrScript.LATIN to "fra"),
         "gl" to (OcrScript.LATIN to "glg"), "ka" to (OcrScript.GEORGIAN to "kat"), "de" to (OcrScript.LATIN to "deu"),
-        "el" to (OcrScript.GREEK to "ell"), "grc" to (OcrScript.GREEK to "grc"), "he" to (OcrScript.HEBREW to "heb"),
+        "el" to (OcrScript.GREEK to "ell"), "gu" to (OcrScript.GUJARATI to "guj"), "grc" to (OcrScript.GREEK to "grc"), "he" to (OcrScript.HEBREW to "heb"),
         "yi" to (OcrScript.HEBREW to "yid"), "hi" to (OcrScript.DEVANAGARI to "hin"), "sa" to (OcrScript.DEVANAGARI to "san"),
         "hu" to (OcrScript.LATIN to "hun"), "is" to (OcrScript.LATIN to "isl"), "id" to (OcrScript.LATIN to "ind"),
         "it" to (OcrScript.LATIN to "ita"), "ja" to (OcrScript.JAPANESE to "jpn"), "ryu" to (OcrScript.JAPANESE to "jpn"),
@@ -84,7 +84,7 @@ internal object OcrLanguages {
         "aze" to "Azerbaijani", "eus" to "Basque", "bel" to "Belarusian", "ben" to "Bengali", "bos" to "Bosnian", "bre" to "Breton",
         "bul" to "Bulgarian", "cat" to "Catalan", "ceb" to "Cebuano", "hrv" to "Croatian", "ces" to "Czech", "dan" to "Danish",
         "nld" to "Dutch", "eng" to "English", "epo" to "Esperanto", "est" to "Estonian", "fao" to "Faroese", "fas" to "Persian",
-        "fin" to "Finnish", "fra" to "French", "glg" to "Galician", "kat" to "Georgian", "deu" to "German", "ell" to "Greek",
+        "fin" to "Finnish", "fra" to "French", "glg" to "Galician", "kat" to "Georgian", "deu" to "German", "ell" to "Greek", "guj" to "Gujarati",
         "grc" to "Ancient Greek", "heb" to "Hebrew", "yid" to "Yiddish", "hin" to "Hindi", "san" to "Sanskrit", "hun" to "Hungarian",
         "isl" to "Icelandic", "ind" to "Indonesian", "ita" to "Italian", "kaz" to "Kazakh", "khm" to "Khmer", "kor" to "Korean",
         "kan" to "Kannada", "lao" to "Lao", "lat" to "Latin", "lav" to "Latvian", "lit" to "Lithuanian", "mkd" to "Macedonian",

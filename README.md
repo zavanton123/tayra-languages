@@ -114,7 +114,7 @@ the pack of their languages.
 Read in Albanian, Ancient Greek, Arabic, Armenian, Assyrian, Basque, Belarusian, Bosnian,
 Breton, Bulgarian, Cantonese, Catalan, Cornish, Croatian, Czech, Danish, Dutch, Egyptian Arabic,
 English, Esperanto, Estonian, Farsi, Finnish, French, Galician, Georgian, German, Greek,
-Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Kannada,
+Gujarati, Hawaiian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Kannada,
 Khmer, Korean, Lao, Latin, Latvian, Lithuanian, Macedonian, Malay, Maltese, Mandarin Chinese, Manx,
 Mongolian, Nepali, Norwegian, Old Irish, Polish, Portuguese, Romanian, Russian, Scottish Gaelic,
 Serbian, Slovak, Slovene, Spanish, Swedish, Tagalog, Tamil, Thai, Toki Pona, Turkish, Ukrainian,

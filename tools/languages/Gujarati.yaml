@@ -1,0 +1,18 @@
+name: Gujarati
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Gujarati"
+  - for: terms
+    type: popup
+    url: "https://www.shabdkosh.com/search-dictionary?lc=gu&sl=gu&tl=en&e=[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=gu&tl=en&text=[WORD]&op=translate"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!?।॥"
+split_sentence_exceptions: "ડૉ.|પ્રો."
+word_chars: "\\u0A80-\\u0AFF"
+right_to_left: false
+show_romanization: true
+parser_type: spacedel

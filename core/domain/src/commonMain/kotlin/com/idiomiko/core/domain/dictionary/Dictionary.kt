@@ -164,7 +164,7 @@ object DictionaryPacks {
         "bg" to "Bulgarian", "yue" to "Cantonese", "ca" to "Catalan", "zh" to "Chinese", "kw" to "Cornish",
         "hr" to "Croatian", "cs" to "Czech", "da" to "Danish", "nl" to "Dutch", "arz" to "Egyptian Arabic",
         "en" to "English", "eo" to "Esperanto", "et" to "Estonian", "fa" to "Farsi", "fi" to "Finnish",
-        "fr" to "French", "gl" to "Galician", "ka" to "Georgian", "de" to "German", "el" to "Greek",
+        "fr" to "French", "gl" to "Galician", "ka" to "Georgian", "de" to "German", "el" to "Greek", "gu" to "Gujarati",
         "haw" to "Hawaiian", "he" to "Hebrew", "hi" to "Hindi", "hu" to "Hungarian", "is" to "Icelandic",
         "id" to "Indonesian", "ga" to "Irish", "it" to "Italian", "ja" to "Japanese", "kn" to "Kannada",
         "kk" to "Kazakh", "km" to "Khmer", "ko" to "Korean", "lo" to "Lao", "la" to "Latin", "lv" to "Latvian",

@@ -140,6 +140,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun gujarati() = LanguageDefinition(
+        language = Language(
+            name = "Gujarati",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Gujarati", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.shabdkosh.com/search-dictionary?lc=gu&sl=gu&tl=en&e=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=gu&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 3),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!?।॥",
+            exceptionsSplitSentences = "ડૉ.|પ્રો.",
+            wordCharacters = "\\u0A80-\\u0AFF",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun hawaiian() = LanguageDefinition(
         language = Language(
             name = "Hawaiian",
@@ -508,6 +526,7 @@ object AddedLanguages {
             cantonese(),
             cornish(),
             egyptianArabic(),
+            gujarati(),
             hawaiian(),
             irish(),
             japanese(),

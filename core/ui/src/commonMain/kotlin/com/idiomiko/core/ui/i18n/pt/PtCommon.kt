@@ -47,6 +47,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Georgian" to "Georgiano",
     "German" to "Alemão",
     "Greek" to "Grego",
+    "Gujarati" to "Guzerate",
     "Hawaiian" to "Havaiano",
     "Hebrew" to "Hebraico",
     "Hindi" to "Hindi",

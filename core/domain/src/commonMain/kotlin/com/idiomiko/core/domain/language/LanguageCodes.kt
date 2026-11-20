@@ -41,6 +41,7 @@ object LanguageCodes {
         "telugu" to "te",
         "nepali" to "ne",
         "pashto" to "ps",
+        "gujarati" to "gu",
     )
 
     /** ISO 639-3 codes as used by Tatoeba, keyed by the 639-1 codes above. */
@@ -76,6 +77,7 @@ object LanguageCodes {
         "te" to "tel",
         "ne" to "nep",
         "ps" to "pus",
+        "gu" to "guj",
     )
 
     /** Every known language once, by its shortest name, sorted by name. */

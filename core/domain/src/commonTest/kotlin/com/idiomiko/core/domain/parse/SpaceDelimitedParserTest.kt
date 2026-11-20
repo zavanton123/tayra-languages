@@ -141,6 +141,15 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun gujaratiKeepsVowelSignsViramaAndEndingsInTheWord() {
+        val gujarati = LanguageDefinitions.all.single { it.name == "Gujarati" }.language
+        assertEquals(
+            "[રામનો] [ભાઈ] [ઘરમાં] [છે]. [ડૉ.] [મહેતા] [સ્કૂલે] [ગયાં]!",
+            tokensAsString("રામનો ભાઈ ઘરમાં છે. ડૉ. મહેતા સ્કૂલે ગયાં!", gujarati),
+        )
+    }
+
+    @Test
     fun numberedAssignsSentences() {
         val tokens = parser.parse("Hi there. Bye.", TestLanguages.english).numbered()
         assertEquals(listOf("Hi", " ", "there", ". ", "Bye", "."), tokens.map { it.token })

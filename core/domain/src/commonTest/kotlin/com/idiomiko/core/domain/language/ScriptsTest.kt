@@ -21,4 +21,10 @@ class ScriptsTest {
         assertEquals(setOf(Script.GURMUKHI), Scripts.of("pa"))
         assertEquals(Script.GURMUKHI, Scripts.dominant("ਮੈਂ ਪੰਜਾਬੀ ਬੋਲਦਾ ਹਾਂ।"))
     }
+
+    @Test
+    fun gujaratiIsWrittenInItsOwnScript() {
+        assertEquals(setOf(Script.GUJARATI), Scripts.of("gu"))
+        assertEquals(Script.GUJARATI, Scripts.dominant("હું ગુજરાતી બોલું છું."))
+    }
 }
