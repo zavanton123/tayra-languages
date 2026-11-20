@@ -8,7 +8,7 @@ package com.idiomiko.core.domain.dictionary
 internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
     "v0.1.0" to mapOf(
         "be-de" to 189_126L, "be-en" to 1_282_426L, "be-fr" to 187_251L, "be-pt" to 64_433L, "be-ru" to 1_523_904L,
-        "bg-de" to 156_022L, "bg-en" to 5_586_993L, "bg-fr" to 3_346_132L, "bg-pt" to 98_606L, "bg-ru" to 1_282_832L,
+        "bg-de" to 156_022L, "bg-fr" to 3_346_132L, "bg-pt" to 98_606L, "bg-ru" to 1_282_832L,
         "ca-de" to 562_508L, "ca-es" to 373_500L, "ca-fr" to 2_169_004L, "ca-pt" to 425_673L,
         "ca-ru" to 764_323L, "cs-de" to 3_680_851L, "cs-es" to 126_561L, "cs-fr" to 6_520_287L,
         "cs-ru" to 2_560_114L, "da-de" to 139_989L, "da-es" to 80_014L, "da-fr" to 637_586L,
@@ -47,9 +47,9 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
     "dictionaries-v2" to mapOf(
         "af-en" to 634_348L, "aii-en" to 575_695L, "am-en" to 1_188_085L, "az-en" to 16_870_128L, "ar-en" to 7_903_435L, "ar-fr" to 1_157_530L, "ar-pl" to 2_562_403L, "ar-pt" to 316_687L,
         "ar-ru" to 3_080_252L, "ar-zh" to 851_214L, "arz-en" to 159_960L, "be-pl" to 2_074_197L, "be-zh" to 282_582L,
-        "bg-pl" to 3_794_653L, "bg-zh" to 598_009L, "bn-en" to 1_489_308L, "br-en" to 412_199L, "br-fr" to 2_047_497L, "br-ru" to 115_958L,
+        "bg-en" to 5_828_413L, "bg-pl" to 3_794_653L, "bg-zh" to 598_009L, "bn-en" to 1_489_308L, "br-en" to 412_199L, "br-fr" to 2_047_497L, "br-ru" to 115_958L,
         "bs-en" to 6_288_411L, "bs-zh" to 1_114_855L, "ca-en" to 5_519_548L, "ca-pl" to 834_445L, "ca-zh" to 1_704_978L, "cs-el" to 243_078L,
-        "cs-en" to 11_064_468L, "cs-pl" to 4_290_625L, "cs-pt" to 262_468L, "cs-zh" to 2_812_601L, "cy-en" to 2_502_496L, "cy-fr" to 376_642L,
+        "cs-en" to 11_064_468L, "cs-pl" to 4_290_625L, "cs-pt" to 262_468L, "cs-zh" to 2_812_601L, "cy-en" to 2_661_250L, "cy-fr" to 376_642L,
         "cy-pl" to 169_919L, "cy-ru" to 300_644L, "da-en" to 3_651_855L, "da-pl" to 1_084_584L, "da-zh" to 360_462L, "de-el" to 1_221_342L,
         "de-pl" to 5_670_368L, "de-zh" to 9_117_995L, "el-pl" to 2_113_501L, "el-zh" to 803_710L, "en-el" to 5_271_950L,
         "en-pl" to 7_629_834L, "en-zh" to 5_809_428L, "eo-de" to 482_294L, "eo-el" to 3_409_484L, "eo-en" to 3_976_968L,
@@ -59,7 +59,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "eu-pt" to 371_017L, "eu-ru" to 1_103_823L, "fa-en" to 3_479_836L, "fa-fr" to 368_776L, "fa-pl" to 312_880L,
         "fa-ru" to 881_992L, "fa-zh" to 494_307L, "fi-el" to 1_383_881L, "fi-pl" to 4_121_219L, "fi-zh" to 4_351_688L,
         "fr-el" to 5_628_018L, "fr-pl" to 3_588_101L, "fr-zh" to 5_034_449L, "ga-en" to 3_782_364L, "ga-es" to 275_065L,
-        "ga-fr" to 406_352L, "ga-pl" to 314_312L, "ga-ru" to 583_638L, "gd-en" to 1_011_449L, "gd-pt" to 96_464L,
+        "ga-fr" to 406_352L, "ga-pl" to 314_312L, "ga-ru" to 583_638L, "gd-en" to 1_132_852L, "gd-pt" to 96_464L,
         "gd-ru" to 156_834L, "gl-pl" to 310_884L, "gl-zh" to 1_004_540L, "grc-de" to 1_244_348L, "grc-el" to 10_485_869L,
         "grc-en" to 17_137_362L, "grc-fr" to 8_367_884L, "grc-ru" to 8_602_407L, "gu-en" to 725_095L, "gv-en" to 432_357L, "ha-en" to 364_161L, "haw-en" to 218_607L,
         "haw-ru" to 49_497L, "he-en" to 1_564_871L, "he-es" to 166_740L, "he-pl" to 199_503L, "he-ru" to 656_278L,
