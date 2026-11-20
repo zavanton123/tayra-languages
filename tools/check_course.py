@@ -45,6 +45,7 @@ import frequency_pashto  # noqa: E402
 import frequency_gujarati  # noqa: E402
 import frequency_sinhala  # noqa: E402
 import frequency_uzbek  # noqa: E402
+import frequency_burmese  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LISTS = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "frequency")
@@ -349,6 +350,9 @@ def fold(code, word):
     if code == "km":
         import build_frequency_list as fl
         return fl.khmer_fold(word)
+    # Burmese is matched Unicode-normalised, as the reader reads it (BurmeseParser.normalise): ၀င် as ဝင်, ့ before ်.
+    if code == "my":
+        return frequency_burmese.my_normalise(word)
     return word
 
 
@@ -556,6 +560,37 @@ def khmer_spans(text):
     return out
 
 
+_burmese = {}
+
+
+def burmese_spans(text):
+    """
+    The Burmese words of [text] as the reader cuts them (BurmeseParser) with the my-en pack installed, with where each starts
+    and ends, [text] Unicode-normalised as the reader reads it (frequency_burmese.my_normalise): each run of letters into its
+    likeliest words, by the shipped list's ranks (not the courses' pinned one's), among the list's words and forms, the app's
+    own word list (files/lexicon/my.txt) and the pack's, never inside a syllable, letters no word covers one word together.
+    ၊ ။, the digits and anything not Burmese are no words.
+    """
+    if not _burmese:
+        import build_frequency_list as fl
+        words, ranks = fl.list_ranks(open(os.path.join(LISTS, "my.tsv"), encoding="utf-8").read())
+        path = os.path.join(ROOT, "dictionaries", "my-en.sqlite")
+        if not os.path.exists(path):
+            sys.exit(f"Burmese courses need the my-en pack at {path}")
+        normalise = frequency_burmese.my_normalise
+        lexicon = {normalise(w) for w in words} | frequency_burmese.pack_words(path) | frequency_burmese.lexicon_words()
+        ranks = {normalise(w): r for w, r in sorted(ranks.items(), key=lambda kv: kv[1], reverse=True)}
+        _burmese.update(segment=fl.segmenter("my", {w for w in lexicon if w and " " not in w}, ranks))
+    text = frequency_burmese.my_normalise(text)
+    out = []
+    for match in frequency_burmese.MY_RUN.finditer(text):
+        at = match.start()
+        for word in _burmese["segment"](match.group(0)):
+            out.append((word, at, at + len(word)))
+            at += len(word)
+    return out
+
+
 def lao_normalised(text):
     """[text] in today's spelling, as LaoParser reads it (ໍ + າ as ຳ; ຫນ, ຫມ, ຫລ as ໜ, ໝ, ຫຼ)."""
     return lao_reader()["normalise"](text)
@@ -721,6 +756,8 @@ def tokens(text, code=None, ranks=None, names=frozenset(), verbs=None, heads=Non
         return [word for word, _, _ in lao_spans(text)]
     if code == "km":
         return [word for word, _, _ in khmer_spans(text)]
+    if code == "my":
+        return [word for word, _, _ in burmese_spans(text)]
     if code == "ja":
         return japanese_tokens(text, ranks)
     if code == "zh":
@@ -2802,7 +2839,7 @@ QUESTION_HEADERS = {
         "Câu hỏi:", "Pyetje:", "Govynnow:", "פֿראַגעס:", "Асуултууд:", "Feyshtyn:", "ຄຳຖາມ:", "Jautājumi:",
         "Goulennoù:", "ಪ್ರಶ್ನೆಗಳು:", "Nā nīnau:", "Galderak:", "Пытанні:", "Mistoqsijiet:", "Soalan:", "প্রশ্ন:",
         "Maswali:", "Сұрақтар:", "Suallar:", "Vrae:", "سوالات:",
-        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:", "Su'aalo:", "Savollar:", "Àwọn ìbéèrè:",
+        "கேள்விகள்:", "ਸਵਾਲ:", "ప్రశ్నలు:", "प्रश्नहरू:", "پوښتنې:", "પ્રશ્નો:", "ප්\u200dරශ්න:", "Tambayoyi:", "प्रश्न:", "Imibuzo:", "Su'aalo:", "Savollar:", "Àwọn ìbéèrè:", "မေးခွန်းများ:",
         "ጥያቄዎች፦", "ጥያቄዎች:",
     )
 }
@@ -3068,6 +3105,8 @@ def check(path, brief=False):
         names = set()
     if code == "lo":
         long_names = sorted({lao_normalised(n) for n in course.get("names", [])}, key=len, reverse=True)
+    if code == "my":
+        long_names = sorted({fold(code, n) for n in course.get("names", [])}, key=len, reverse=True)
     if code == "ru":
         names = names | russian_name_forms(course.get("names", []))
     # Mongolian names take the case endings joined (Доржийн, Доржид, Ануг, Ховдоос).
@@ -3181,7 +3220,7 @@ def check(path, brief=False):
     report = []
     # Where each new word is taught, by its forms: a Chinese lesson must not use a word a later lesson teaches.
     taught_in = {}
-    if code in ("zh", "ja", "ko", "th", "lo", "km"):
+    if code in ("zh", "ja", "ko", "th", "lo", "km", "my"):
         for j, later in enumerate(course["lessons"], start=1):
             for new in later.get("newWords", []):
                 key = fold(code, new.lower())
@@ -3203,6 +3242,12 @@ def check(path, brief=False):
             old_spelling = lao_normalised(text) != text
             text = lao_normalised(text)
             edges = {at for _, start, end in lao_spans(text) for at in (start, end)}
+            run_on = sorted({name for name in long_names for found in re.finditer(re.escape(name), text)
+                             if found.start() not in edges or found.end() not in edges})
+        # The reader reads Burmese Unicode-normalised, and so does the checker; a name must start and end where its words do.
+        if code == "my":
+            text = fold(code, text)
+            edges = {at for _, start, end in burmese_spans(text) for at in (start, end)}
             run_on = sorted({name for name in long_names for found in re.finditer(re.escape(name), text)
                              if found.start() not in edges or found.end() not in edges})
         for name in long_names:
@@ -3409,6 +3454,8 @@ def check(path, brief=False):
             text = re.sub(r"(?m)^ຄຳຖາມ:", "", text)
         if code == "km":
             text = re.sub(r"(?m)^សំណួរ៖", "", text)
+        if code == "my":
+            text = re.sub(r"(?m)^မေးခွန်းများ:", "", text)
         if code == "fa":
             text = re.sub("(?m)^پرسش\u200cها:", "", text)
         if code == "tok":
