@@ -111,6 +111,26 @@ NOT_WORDS = {"name", "character", "prefix", "suffix", "infix", "interfix", "symb
 LETTER_NAME = "name of the Latin script letter"
 # By hand: words a spelling is counted for instead of the pack's.
 YORUBA_FORMS = {}
+# A low-tone verb of one syllable is said and written with the mid tone before its object (rà "buy": mo ra ìwé; mọ̀ "know":
+# mo mọ ọ̀nà; gbà "take": gba owó; kà "read": ka ìwé): such a spelling is the verb's, unless it is a word itself; mọ "mould"
+# is far rarer than mọ̀ before an object.
+LOW_TONE_SYLLABLE = re.compile(r"^[^aeiouẹọ]*[aeiouẹọ]n?$")
+MID_BEFORE_OBJECT = {"mọ"}
+# Spellings that are, in the counted text, mostly a common word with its tone left out (ko for kò, to for tó, dun for dùn,
+# pọ for pọ̀, verbs that take no object).
+NOT_BEFORE_OBJECT = {"ko", "to", "dun", "pọ"}
+
+
+def low_tone(word):
+    """[word], one syllable, with the grave on its vowel (gba: gbà)."""
+    d = unicodedata.normalize("NFD", word)
+    i = max(i for i, c in enumerate(d) if c in "aeiou")
+    j = i + 1
+    while j < len(d) and unicodedata.combining(d[j]):
+        j += 1
+    return unicodedata.normalize("NFC", d[:j] + GRAVE + d[j:])
+
+
 # Words whose only senses are rare ones (ki "load", yi "be tough", re the mid-tone syllable): what the text writes so is kí,
 # yí or yìí and rẹ̀ with their tones left out.
 YORUBA_EXCLUDED = {"ki", "yi", "re"}
@@ -175,8 +195,15 @@ class Lexicon:
         written = self.written[word]
         return word if word in written else min(written)
 
+    def low_tone_verb(self, token):
+        """The low-tone verb [token] is the spelling of before an object (ra: rà), or None."""
+        if has_tone(token) or token in NOT_BEFORE_OBJECT or not LOW_TONE_SYLLABLE.match(token):
+            return None
+        verb = low_tone(token)
+        return verb if self.kinds.get(verb, set()) & {"verb", "hand"} else None
+
     def is_known(self, token):
-        return token in self.kinds or token in self.forms
+        return token in self.kinds or token in self.forms or self.low_tone_verb(token) is not None
 
     def is_careless(self, token):
         """Whether [token], no word itself, is a common word without its tones (TELL_WORDS) or a word without its dots."""
@@ -191,6 +218,9 @@ class Lexicon:
             return frozenset(YORUBA_FORMS[token].split(",")), True
         if token in YORUBA_EXCLUDED:
             return frozenset(), False
+        verb = self.low_tone_verb(token)
+        if verb and (token not in self.kinds or token in MID_BEFORE_OBJECT):
+            return frozenset({verb}), True
         if token in self.kinds:
             return frozenset({token}), True
         if token in self.forms:
