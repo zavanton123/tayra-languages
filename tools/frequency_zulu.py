@@ -8,8 +8,10 @@ ekhaya "at home"), and a name keeps its capital behind such a prefix (uThemba, k
 so has hundreds of forms of a common word, most of which no pack lists. Each text word is read here as the pack's word or
 form (dictionaries/zu-en.sqlite, from the English Wiktionary, whose inflection tables are generated and long), a noun or
 pronoun with a prefix (nominal_lemmas), or a verb by its prefix and ending as the pack's tables show them, with an object
-concord or an extension (verb_lemmas); a word of the lexicon keeps its own count, and a form of several words is shared
-by how common each is by the forms of no other.
+concord or an extension (verb_lemmas); failing those, as a regular form the tables lack that one pack word alone makes
+(regular_lemmas: locatives, copulas, a noun without its first vowel, concords on adjectives and adverbs, hortatives, the
+perfect in -ele). A word of the lexicon keeps its own count, and a form of several words is shared by how common each is
+by the forms of no other.
 
 Counted from Leipzig's community and web sentences, OPUS's CCAligned web text and its Wikimedia text, each kind the share
 WEIGHTS gives. A word written with a capital inside a sentence is a name (Durban, uThemba, kwaZulu) and not counted, unless
@@ -44,7 +46,8 @@ WORD = re.compile(r"[A-Za-z]+")
 SENTENCE_START = re.compile(r"(?:^|[.!?:;…\"“”«»()\[\]♪]\s*|\s-\s*)$")
 # A word must be counted this often (all its forms, all sources) to be listed.
 LEAST_COUNT = 4
-FORMS_LISTED = 400
+# A common verb has hundreds of forms in the texts; with the regular forms read too, 600 keeps every form 400 did.
+FORMS_LISTED = 600
 VOWELS = "aeiou"
 
 # Parts of speech that are no words of a text.
@@ -147,6 +150,21 @@ ZULU_FORMS = {
     "uthi": "thi",
     "kuthi": "thi",
     "othi": "thi",
+    # "Sitting, staying", hlala's perfect; "they are not there" of class 6.
+    "hlezi": "hlala",
+    "awekho": "khona",
+    # "Come!", za's.
+    "woza": "za",
+    "wozani": "za",
+    # "He is not there", as akekho.
+    "akakho": "khona",
+    # "Badly", bi's; "after, behind" spelled without u; "on the day of"; "in that (it is)".
+    "kabi": "bi",
+    "emva": "emuva",
+    "ngemva": "emuva",
+    "ngomhla": "mhla",
+    "ngomhlaka": "mhla",
+    "ekutheni": "ukuthi",
 }
 
 
@@ -182,9 +200,10 @@ SUBJECT_CONCORDS = ["ngi", "u", "si", "ni", "ba", "i", "li", "zi", "ku", "lu", "
                     "eli", "ezi", "olu", "obu", "oku", "eni", "engi", "angi", "awu", "aka", "asi", "ani", "aba", "awa", "ayi",
                     "ali", "azi", "alu", "abu", "aku"]
 # The concords of the quantitative -nke "all" (wonke, bonke, zonke) and of -dwa "alone" (yedwa, bodwa, ngedwa).
-NKE = {c + "nke" for c in ("o", "wo", "bo", "zo", "yo", "lo", "so", "ko", "lwo", "bwo", "mo")}
+NKE = {c + "nke" for c in ("o", "wo", "bo", "zo", "yo", "lo", "so", "ko", "lwo", "bwo", "mo", "no")}
 DWA = {c + "dwa" for c in ("nge", "we", "ye", "so", "bo", "lo", "zo", "yo", "wo", "lwo", "bwo", "ni", "si", "eyo", "owo", "elilo",
-                           "esiso", "olulo", "obubo", "okuko", "ababo", "ezizo", "omo", "abo")}
+                           "esiso", "olulo", "obubo", "okuko", "ababo", "ezizo", "omo", "abo",
+                           "oye", "noye")}
 # Prefixes an adverb takes: ngaphansi, naphakathi, kuqala; the possessive concords, okwamanje "for now", samanje "modern".
 ADVERB_PREFIXES = ["nga", "na", "ku", "wa", "ba", "ya", "la", "sa", "za", "lwa", "bwa", "kwa", "owa", "aba", "eya", "ela", "esa",
                    "eza", "olwa", "obwa", "okwa", "ezase", "okwase"]
@@ -195,6 +214,86 @@ COPULAS = ["ku", "aku", "i", "ayi", "li", "ali", "si", "asi", "zi", "azi", "lu",
 # concords (ngikunika is nika's; uyangipha, wamupha). The rest of the short verbs (ma "stand", na "rain", sa "dawn", nya,
 # wa "fall") have only their tables' forms: by rule they would take abanye, bese, kuwe, lawa.
 SHORT_VERBS = {"ya", "za", "ba", "dla", "pha", "fa", "thi", "sho"}
+# Verbs a text also writes with e- or a- (ukwedlula, ezedlule "past", wezwa "he heard", ezahlukene "different"), and as
+# a frequentative (ezahlukahlukene "various"), which the pack has otherwise.
+VARIANTS = {"edlula": "dlula", "ezwa": "zwa", "ahlukana": "ehlukana", "ahluka": "ehluka", "ahlukahlukana": "ehlukana",
+            "ehlukahlukana": "ehlukana", "hlukahlukana": "ehlukana"}
+
+# The regular forms the pack's tables lack, read only where nothing above reads a word and one pack word alone makes it
+# (Lexicon.regular_lemmas). The concords a noun's copula, an adjective, a relative stem or an adverb takes in front:
+# subject (iphezulu, ulapha), relative (eliphezulu, eyishumi, okuyinto), negative (ayiphezulu, akude) and past (yayinkulu,
+# ibimnyama).
+CONCORDS = ["ngi", "u", "si", "ni", "ba", "i", "li", "zi", "lu", "bu", "ku", "a", "wu",
+            "e", "o", "aba", "esi", "eli", "ezi", "olu", "obu", "oku", "engi", "eni", "ama",
+            "angi", "awu", "aka", "asi", "ani", "ali", "azi", "alu", "abu", "aku", "awa", "ayi",
+            "bengi", "ube", "besi", "beni", "bebe", "ibi", "ibe", "beli", "bezi", "belu", "bebu", "beku", "be", "abe",
+            "ngangi", "wawu", "sasi", "nani", "babe", "yayi", "lali", "zazi", "lwalu", "babu", "kwaku", "waye", "aye",
+            "kube", "kungu", "kuyi", "kwakuyi", "kwakungu", "kunga", "kuzoba", "kungaba"]
+# The prefixes of a locative: itself (emgwaqweni), "at" with a concord (lisesifundazweni, abasemkhunjini, usekhaya),
+# "and, by, of" (nasemkhunjini, ngasemgwaqweni, wasemzini).
+LOCATIVE_PREFIXES = {"", "s"} | {c + "s" for c in CONCORDS + ["na", "nga", "njenga", "kwa", "wa", "ba", "ya", "la", "sa",
+                                                                "za", "lwa", "bwa", "owa", "eya", "ela", "esa", "eza",
+                                                                "olwa", "obwa", "okwa", "kuna", "ngoku"]}
+# A noun without its first vowel after ku "to" (kusisebenzi), kuna "than", or na "have" in the negative (azinasici).
+BARE_PREFIXES = {"", "ku", "kuna", "nga"} | {n + "na" for n in ("angi", "awu", "aka", "asi", "ani", "aba", "ayi", "ali",
+                                                                  "azi", "alu", "abu", "aku", "awa", "a", "enga",
+                                                                  "esinga", "ezinga", "abanga", "onga", "okunga")}
+# "Both, all three" (bobabili, zozimbili) before a number's forms.
+QUANTITATIVE = ["bo", "zo", "yo", "wo", "lo", "so", "ko", "lwo", "bwo", "mo", "no"]
+# The negative copula before a pronoun's combining stem: akusikho "it is not there", akusiyo "it is not it".
+NEGATIVE_COPULAS = ["akusi", "akuyi", "asi", "ayisi", "akasi", "alisi", "azisi", "alusi", "abusi", "abasi", "awusi", "awasi"]
+# Prefixes before an infinitive without its first vowel and with an object concord: ngokungipha, kokuqhathanisa,
+# kunakuqala, njengokumbona.
+INFINITIVE_PREFIXES = ["u", "o", "no", "ngo", "njengo", "kuno", "nango", "ko", "wo", "bo", "yo", "lo", "so", "zo", "lwo", "bwo",
+                       "owo", "abo", "eyo", "elo", "eso", "ezo", "olwo", "obo", "oko", "kuna", "nga", "na", "e"]
+# Which prefixes each kind of regular form takes (Lexicon._make_regular_forms).
+REGULAR_PREFIXES = {
+    "locative": LOCATIVE_PREFIXES,
+    "copula": {""} | set(CONCORDS),
+    "bare": BARE_PREFIXES,
+    "stem": {""} | set(CONCORDS) | {"yi", "ngu", "wu", "njenga"} | set(QUANTITATIVE),
+    "pronoun": set(NEGATIVE_COPULAS),
+    "khona": {""} | set(CONCORDS) | {"ngoku", "noku", "nga", "ka"},
+    "o-noun": {"k"},
+}
+LONGEST_REGULAR_PREFIX = max(len(p) for ps in REGULAR_PREFIXES.values() for p in ps)
+# A labial before the locative's -w- becomes a palatal (umkhumbi emkhunjini, umlomo emlonyeni, ingubo engutsheni).
+PALATALS = [("mb", "nj"), ("mp", "ntsh"), ("bh", "j"), ("ph", "sh"), ("p", "tsh"), ("b", "tsh"), ("m", "ny")]
+
+
+def locatives(noun):
+    """The locatives of [noun] (or its plural) as texts write them: e- for its first vowel, -ini/-eni for its last, -o and
+    -u with a w (emgwaqweni, ezulwini) or a labial made palatal (emkhunjini), umu- of a short stem as m- (emzini); a u- noun
+    of class 11 with o- (osebeni)."""
+    stem = noun[1:]
+    if len(stem) < 3 or stem[-1] not in VOWELS or noun[0] not in "aiu":
+        return set()
+    heads = {"e" + stem[:-1]}
+    if noun[0] == "u":
+        heads.add("o" + stem[:-1])
+    if noun.startswith("umu") and len(noun) <= 6:
+        heads.add("em" + noun[3:-1])
+    last = stem[-1]
+    out = set()
+    for head in heads:
+        out |= {head + end for end in {"a": ["eni"], "e": ["eni"], "i": ["ini"], "o": ["weni", "eni"], "u": ["wini", "ini"]}[last]}
+        for labial, palatal in PALATALS:
+            if head.endswith(labial):
+                out.add(head[:-len(labial)] + palatal + ("ini" if last in "iu" else "eni"))
+                break
+    return out
+
+
+def noun_copulas(noun):
+    """"It is [noun]": ngumuntu, wumuntu, yishumi, yizinto, ngamanzi, ngobaba."""
+    stem = noun[1:]
+    if noun[0] == "u":
+        return {"ngu" + stem, "wu" + stem}
+    if noun[0] == "i":
+        return {"yi" + stem}
+    if noun[0] in "ao":
+        return {"ng" + noun}
+    return set()
 
 
 class Lexicon:
@@ -240,6 +339,7 @@ class Lexicon:
         self.pronouns = {w for w, ks in self.kinds.items() if "pron" in ks and len(w) > 3}
         self.nominals = {w for w, ks in self.kinds.items() if ks & {"noun", "pron"}}
         self._learn_verb_patterns()
+        self._make_regular_forms()
 
     def _learn_verb_patterns(self):
         """The prefixes and endings of the pack's verb tables, by whether the stem starts with a consonant (C) or a vowel
@@ -296,10 +396,144 @@ class Lexicon:
             self.special.setdefault(prefix + "thile", "thi")
             self.special.setdefault(prefix + "shilo", "sho")
 
+    def _make_regular_forms(self):
+        """The forms of the pack's words its tables lack, each with the prefixes it takes (REGULAR_PREFIXES): a noun's
+        locatives as texts write them (emgwaqweni, emkhunjini, emzini; the tables have emgwaqeni), its copulas (yishumi,
+        ngumuntu), the noun without its first vowel (filimu, khasi); an adjective's, a relative stem's and an adverb's
+        forms (nkulu, mnyama, phezulu, seduze); a pronoun's combining stem; and the verb stems of the perfect in -ele, -ene
+        (tholakele, sele, jwayele) and of the e- verbs without their e (jwayela)."""
+        self.regular = {kind: defaultdict(set) for kind in REGULAR_PREFIXES}
+        for noun in [w for w, ks in self.kinds.items() if "noun" in ks and len(w) > 3]:
+            table = self.table[noun]
+            for base in {noun} | {f for f in table if f[0] in "aiu" and len(f) > 3 and f[1:] in table}:
+                for form in locatives(base):
+                    self.regular["locative"][form].add(noun)
+                for form in noun_copulas(base):
+                    self.regular["copula"][form].add(noun)
+                if len(base) > 4:
+                    self.regular["bare"][base[1:]].add(noun)
+                # Ku "to" before a noun in o- (kowesifazane, kobaba).
+                if base[0] == "o":
+                    self.regular["o-noun"][base].add(noun)
+        stems = defaultdict(set)
+        for word, kinds in self.kinds.items():
+            if len(word) < 3:
+                continue
+            if kinds & {"adj", "num"} or "conj" in kinds and self.table[word]:
+                for form in {word} | self.table[word]:
+                    stems[form].add(word)
+                    if form[0] in VOWELS and len(word) > 3:
+                        stems[form[1:]].add(word)
+            if "adv" in kinds:
+                stems[word].add(word)
+                if word[0] in VOWELS:
+                    stems["s" + word].add(word)
+        for form, words in stems.items():
+            if len(form) > 3:
+                self.regular["stem"][form] |= words
+        # "Is not there", "who is no longer there" (kungekho, engekho, akusekho, ongasekho): khona's.
+        for form in ("ngekho", "sekho", "ngasekho"):
+            self.regular["khona"][form].add("khona")
+        for stem, word in self.combining.items():
+            if word in self.kinds:
+                self.regular["pronoun"][stem].add(word)
+        self.perfect = defaultdict(set)
+        self.dropped = defaultdict(set)
+        for verb in self.verbs:
+            if not verb.endswith("a") or len(verb) < 4:
+                continue
+            root = verb[:-1]
+            roots = [root]
+            if root[0] == "e" and len(root) > 4 and root[1] not in VOWELS:
+                roots.append(root[1:])
+                self.dropped[root[1:]].add(verb)
+            for r in roots:
+                if r[-2:] in ("al", "an", "el", "en") and len(r) > 2:
+                    self.perfect[r[:-2] + "e" + r[-1]].add(verb)
+        for variant, verb in VARIANTS.items():
+            if verb in self.verbs:
+                root = variant[:-1]
+                self.perfect[root].add(verb)
+                if root[-2:] in ("al", "an", "el", "en"):
+                    self.perfect[root[:-2] + "e" + root[-1]].add(verb)
+        self.variants = {v[:-1]: {verb} for v, verb in VARIANTS.items() if verb in self.verbs}
+        # The stems the regular verb forms are read on: no short verb's (waye is no form of ya), but an infinitive's may be
+        # (kokuba, ngokungipha).
+        self.regular_stems = {stem: set(verbs) for stem, verbs in self.stems.items() if len(stem) > 2}
+        for stem, verbs in list(self.variants.items()) + list(self.dropped.items()):
+            self.regular_stems.setdefault(stem, set()).update(verbs)
+        self.infinitive_stems = {**self.regular_stems, **{s: v for s, v in self.stems.items() if len(s) <= 2}}
+
+    def _parse_verb(self, token, stems, endings, fits):
+        """As verb_lemmas, with [stems], [endings] and the test [fits] of a prefix given."""
+        for i in range(0, min(len(token) - 1, self.longest_prefix) + 1):
+            prefix = token[:i]
+            out = set()
+            for j in range(i + 1, len(token)):
+                stem, ending = token[i:j], token[j:]
+                if ending in endings and stem in stems and fits(prefix, ending, self.kind_of(stem)):
+                    out |= stems[stem]
+            if out:
+                return out
+        return set()
+
+    def _regular_verbs(self, token):
+        """The verbs [token] is a regular form of that the tables lack: the hortative (masibone, masibuye), the imperative
+        with an object concord (yidonse, msize), the perfect in -ele, -ene (itholakele, esisele, ujwayele), an e- verb
+        without its e (uzojwayela), a verb in another vowel with the relative -yo (amaziyo, engikwaziyo), and an infinitive
+        with an object concord or a prefix (ngokungipha, kokuqhathanisa, kunakuqala)."""
+        out = set()
+        stems = self.regular_stems
+        fits = self._prefix_fits
+        if token.startswith("ma") and len(token) > 5:
+            out |= self._parse_verb(token[2:], stems, {"e"}, lambda p, e, k: fits(p, "e", k))
+        objects = lambda p, k: p in (OBJECTS if k == "C" else OBJECTS_BEFORE_VOWEL)
+        out |= self._parse_verb(token, stems, {"e", "eni"}, lambda p, e, k: objects(p, k))
+        out |= self._parse_verb(token, self.perfect, {"e", "eyo"}, lambda p, e, k: fits(p, "ile", k) or fits(p, "e", k) and p == "")
+        out |= self._parse_verb(token, self.dropped, set(self.endings["C"]), fits)
+        out |= self._parse_verb(token, self.variants, set(self.endings["V"]), fits)
+        # An adverb of a verb's form with oku (ngokuvamile "usually", ngokuphelele "fully").
+        if token.startswith(("ngoku", "ngokw")) and len(token) > 7:
+            out |= self.verb_lemmas(token[2:]) or self._regular_verbs(token[2:])
+        if token.endswith("yo"):
+            for i in range(0, min(len(token), self.longest_prefix + 1)):
+                if token[i:-2] in self.whole and fits(token[:i], "ayo", self.kind_of(token[i:-2])):
+                    out |= self.whole[token[i:-2]]
+        for prefix in INFINITIVE_PREFIXES:
+            for ku in ("ku", "kw"):
+                if token.startswith(prefix + ku) and len(token) >= len(prefix) + 4:
+                    rest = token[len(prefix) + 2:]
+                    kind = "C" if ku == "ku" else "V"
+                    # An infinitive that is a noun of its own is the noun's (kunakuqala: ukuqala "the beginning").
+                    if "u" + ku + rest in self.kinds:
+                        out.add("u" + ku + rest)
+                        continue
+                    found = self._parse_verb(rest, self.infinitive_stems, {"a"},
+                                             lambda p, e, k: k == kind and (p == "" or objects(p, k)))
+                    for i in range(0, 4):
+                        if rest[i:] in self.whole and (i == 0 or objects(rest[:i], self.kind_of(rest[i:]))):
+                            found |= self.whole[rest[i:]]
+                    out |= found
+        return out
+
+    @functools.lru_cache(maxsize=None)
+    def regular_lemmas(self, token):
+        """The word [token] is a regular form of that the tables lack (_make_regular_forms, _regular_verbs), when one word
+        alone makes it."""
+        found = set()
+        for i in range(0, min(len(token) - 2, LONGEST_REGULAR_PREFIX) + 1):
+            prefix, rest = token[:i], token[i:]
+            for kind, prefixes in REGULAR_PREFIXES.items():
+                if prefix in prefixes and rest in self.regular[kind]:
+                    found |= self.regular[kind][rest]
+        found |= self._regular_verbs(token)
+        return frozenset(found) if len(found) == 1 else frozenset()
+
     @staticmethod
     def kind_of(stem):
         return "V" if stem[0] in VOWELS else "C"
 
+    @functools.lru_cache(maxsize=None)
     def _prefix_fits(self, prefix, ending, kind):
         prefixes = self.endings[kind].get(ending)
         if prefixes and prefix in prefixes:
@@ -484,7 +718,7 @@ class Lexicon:
                 found = self.verb_lemmas(bare)
                 if found:
                     return found
-        return frozenset()
+        return self.regular_lemmas(token)
 
 
 def _tokens(line):
