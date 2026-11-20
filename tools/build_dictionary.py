@@ -102,6 +102,7 @@ SOURCES = {
     "mr": ("Marathi", None, "dictionaries/kaikki.org-dictionary-Marathi.jsonl.gz"),
     "zu": ("Zulu", None, "dictionaries/kaikki.org-dictionary-Zulu.jsonl.gz"),
     "am": ("Amharic", None, "dictionaries/kaikki.org-dictionary-Amharic.jsonl.gz"),
+    "so": ("Somali", None, "dictionaries/kaikki.org-dictionary-Somali.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -513,9 +514,47 @@ def amharic_translation_entries(kept):
     return entries
 
 
+def somali_translation_entries(kept):
+    """
+    The Somali words the English Wiktionary's translation tables give that its Somali entries lack (bisad "cat", cusub
+    "new"), by part of speech, each glossed with the English words it translates: word -> pos -> glosses. A name (Faransa)
+    and a phrase are left out; a word given with its article (abwan-ka) is the word.
+    """
+    entries = defaultdict(lambda: defaultdict(list))
+    with open_text(SOURCES["en"][2]) as f:
+        for line in f:
+            if '"code": "so"' not in line:
+                continue
+            d = json.loads(line)
+            for t in d.get("translations", []):
+                word = somali_plain(t.get("word", "").strip()) if t.get("code") == "so" else ""
+                word = re.sub(r"-(?:ka|ga|ha|ta|da|sha|dha)$", "", word)
+                if not word or word in kept or not re.fullmatch(r"[a-z]+(?:'[a-z]+)*", word):
+                    continue
+                gloss = d["word"] + (f" ({t['sense']})" if t.get("sense") else "")
+                if gloss not in entries[word][d.get("pos") or "unknown"]:
+                    entries[word][d.get("pos") or "unknown"].append(gloss)
+    return entries
+
+
+def somali_plain(word):
+    """A Somali spelling without the tone marks the dictionary writes (dòor, béen) and texts never carry."""
+    return unicodedata.normalize("NFC", "".join(c for c in unicodedata.normalize("NFD", word) if not unicodedata.combining(c)))
+
+
+# The Somali verb tables leave their labels and broken cells among the forms ("Imperative", "l", "t", "aa", "taysaa" of door):
+# a form is kept only when it is lowercase and starts as its word does, or, for the verbs that take their person in front
+# (iman: yimid, timid, nimid), with y, t or n before the word's first letter.
+def somali_form(form, word):
+    if not form or not form.islower() or len(form) < 2:
+        return False
+    head = word[:2] if len(word) > 2 else word[:1]
+    return form.startswith(head) or (word[0] in "aeiou" and form[:1] in "ytn" and form[1:].startswith(word[0]))
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"mr": clean_marathi, "te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones, "so": somali_plain}
 
 
 def pashto_translation_entries(kept):
@@ -1220,7 +1259,7 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 form = cleaner(x.get("form", "").strip())
                 # A one-letter word has no forms, but for Azerbaijani's "o" ("he, she, it; that"): onu, ona, onun.
                 own = is_clean_form(form, word, source) or (source == "az" and word == "o" and form != word and WORD_RE.match(form))
-                if not own or (latin_only and foreign(form)):
+                if not own or (latin_only and foreign(form)) or (source == "so" and not somali_form(form, word)):
                     continue
                 if source == "pa":
                     tags = set(x.get("tags", []))
@@ -1286,6 +1325,16 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 entry_count += 1
         flush()
         label += "; everyday words it lacks, by hand (tools/frequency_zulu.py)"
+    if source == "so":
+        kept = {w for (w,) in db.execute("SELECT word_lc FROM entries")}
+        for word, by_pos in sorted(somali_translation_entries(kept).items()):
+            for pos, glosses in sorted(by_pos.items()):
+                senses = [{"glosses": [g]} for g in glosses]
+                entry_rows.append((next_id, word, word, pos, None, json.dumps(senses, ensure_ascii=False, separators=(",", ":"))))
+                next_id += 1
+                entry_count += 1
+        flush()
+        label += " and its English entries' translation tables"
     if source == "ur":
         added, next_id = urdu_from_hindi(urdu_kept, next_id)
         entry_rows = [row for row, _ in added]
