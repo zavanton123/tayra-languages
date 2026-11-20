@@ -1,7 +1,7 @@
 package com.idiomiko.core.domain.language
 
 /** The writing systems text is in, as far as telling one language's translations from another's needs. */
-enum class Script { LATIN, CYRILLIC, GREEK, ARABIC, HEBREW, SYRIAC, HAN, KANA, HANGUL, DEVANAGARI, BENGALI, GURMUKHI, GUJARATI, TAMIL, TELUGU, KANNADA, SINHALA, THAI, LAO, KHMER, GEORGIAN, ARMENIAN }
+enum class Script { LATIN, CYRILLIC, GREEK, ARABIC, HEBREW, SYRIAC, HAN, KANA, HANGUL, DEVANAGARI, BENGALI, GURMUKHI, GUJARATI, TAMIL, TELUGU, KANNADA, SINHALA, THAI, LAO, KHMER, GEORGIAN, ARMENIAN, ETHIOPIC }
 
 object Scripts {
     /** The scripts a language is written in; Latin when it is not one of the others. */
@@ -25,6 +25,7 @@ object Scripts {
         "th" -> setOf(Script.THAI)
         "ka" -> setOf(Script.GEORGIAN)
         "hy" -> setOf(Script.ARMENIAN)
+        "am", "ti", "gez" -> setOf(Script.ETHIOPIC)
         else -> setOf(Script.LATIN)
     }
 
@@ -50,6 +51,7 @@ object Scripts {
         in 0xD80..0xDFF -> Script.SINHALA
         in 0xE00..0xE7F -> Script.THAI
         in 0x10A0..0x10FF -> Script.GEORGIAN
+        in 0x1200..0x139F, in 0x2D80..0x2DDF, in 0xAB00..0xAB2F -> if (c.isLetter()) Script.ETHIOPIC else null
         in 0x3040..0x30FF -> Script.KANA
         in 0x4E00..0x9FFF, in 0x3400..0x4DBF -> Script.HAN
         in 0xAC00..0xD7AF, in 0x1100..0x11FF -> Script.HANGUL

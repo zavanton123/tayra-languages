@@ -33,4 +33,10 @@ class ScriptsTest {
         assertEquals(setOf(Script.SINHALA), Scripts.of("si"))
         assertEquals(Script.SINHALA, Scripts.dominant("මම සිංහල කතා කරනවා."))
     }
+
+    @Test
+    fun amharicIsWrittenInEthiopic() {
+        assertEquals(setOf(Script.ETHIOPIC), Scripts.of("am"))
+        assertEquals(Script.ETHIOPIC, Scripts.dominant("እኔ አማርኛ እናገራለሁ።"))
+    }
 }
