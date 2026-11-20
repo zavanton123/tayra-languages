@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Maltese word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `mt-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-The list has 6,561 words: the courses are `mt-mini-0100` to `mt-mini-6600` (the last band has 61
-words). `themes.tsv` gives each course its theme.
+The list has 10,000 words: the courses are `mt-mini-0100` to `mt-mini-10000`. `themes.tsv` gives each
+course its theme.
 
 ## What the lessons are: mini stories
 
@@ -60,10 +60,13 @@ lesson never needs another lesson to make sense.
     ma*;
   - ranks 2001–4000: a richer register: connectors (*madankollu*, *għalhekk*, *filwaqt li*,
     *peress li*, *sakemm*, *għalkemm*), verbal nouns, a short column, a letter, a diary entry;
-  - ranks 4001–6600 (C1): everything before, with more abstract and nuanced content: a short essay
+  - ranks 4001–8000 (C1): everything before, with more abstract and nuanced content: a short essay
     or reflective column that weighs two sides, an interview, a portrait, a review; precise
     vocabulary for feelings, ideas and processes, the specialised words of professions, sciences
-    and the arts made clear by their context.
+    and the arts made clear by their context;
+  - ranks 8001–10000 (C2): texts close to what native readers meet: literary prose with images
+    and rhythm, academic and journalistic registers, learned words explained by their context.
+    Still standalone, calm and easy to follow for a reader at the level.
   After rank 1000 sentences get longer and joined, dialogue can carry more of the story, and a
   story may be told by a first-person narrator or as an e-mail, a letter or a diary entry. From
   rank 2000 a lesson may also be a short informative or opinion text, as long as it is calm and
