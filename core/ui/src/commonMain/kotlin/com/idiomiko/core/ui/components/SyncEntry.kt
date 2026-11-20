@@ -1,9 +1,7 @@
 package com.idiomiko.core.ui.components
 
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -11,7 +9,6 @@ import androidx.compose.foundation.layout.statusBars
 import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.material3.pulltorefresh.PullToRefreshDefaults
 import androidx.compose.material3.pulltorefresh.pullToRefresh
 import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
@@ -24,8 +21,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -44,8 +43,9 @@ class SyncEntry(val running: Boolean, val lastSynced: Instant? = null, val faile
 val LocalSyncEntry = compositionLocalOf<SyncEntry?> { null }
 
 /**
- * The wide bar's sync status: "Synced 2 minutes ago", "Syncing…" with a spinner, or that the last sync
- * failed; a click asks whether to sync now.
+ * The wide bar's sync status as a single cloud: green once this device has synced, grey while it syncs, before
+ * its first sync or after one failed. What it means ("Synced 2 minutes ago", "Syncing…", "Sync failed") is its
+ * tooltip and its description; a click asks whether to sync now.
  */
 @Composable
 internal fun SyncStatusButton(entry: SyncEntry) {
@@ -64,27 +64,25 @@ internal fun SyncStatusButton(entry: SyncEntry) {
         synced != null -> tr("Synced {0}", synced.relativeTo(now))
         else -> tr("Sync")
     }
-    AppTooltip(tr("Sync now")) {
-        Row(
+    val good = synced != null && !entry.running && !entry.failed
+    AppTooltip(label) {
+        Box(
             Modifier.clip(AppShapes.control).clickable(onClickLabel = tr("Sync now"), role = Role.Button, onClick = entry.open)
-                .padding(horizontal = AppSpacing.s, vertical = AppSpacing.s).testTag("sync-button"),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
+                .semantics { contentDescription = label }
+                .padding(AppSpacing.s).testTag("sync-button"),
+            contentAlignment = Alignment.Center,
         ) {
-            Box(Modifier.size(AppSizes.icon), contentAlignment = Alignment.Center) {
-                if (entry.running) AppSpinner(size = SpinnerSize.Small, color = colors.onSurfaceVariant)
-                else Icon(
-                    when {
-                        entry.failed -> AppIcons.CloudOff
-                        synced != null -> AppIcons.CloudDone
-                        else -> AppIcons.Cloud
-                    },
-                    contentDescription = null,
-                    tint = if (entry.failed) colors.error else colors.onSurfaceVariant,
-                    modifier = Modifier.size(AppSizes.icon),
-                )
-            }
-            Text(label, style = MaterialTheme.typography.bodyMedium, color = if (entry.failed) colors.error else colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (entry.running) AppSpinner(size = SpinnerSize.Small, color = colors.onSurfaceVariant)
+            else Icon(
+                when {
+                    entry.failed -> AppIcons.CloudOff
+                    synced != null -> AppIcons.CloudDone
+                    else -> AppIcons.Cloud
+                },
+                contentDescription = null,
+                tint = if (good) AppAccents.green else colors.onSurfaceVariant,
+                modifier = Modifier.size(AppSizes.icon),
+            )
         }
     }
 }

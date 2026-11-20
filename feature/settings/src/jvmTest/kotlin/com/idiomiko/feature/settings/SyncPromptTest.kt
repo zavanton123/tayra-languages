@@ -116,7 +116,7 @@ class SyncPromptTest {
         onNodeWithText("OK").performClick()
         onNodeWithTag("sync-dialog").assertDoesNotExist()
         // The bar says when the device last synced.
-        onNodeWithText("Synced just now").assertExists()
+        onNodeWithContentDescription("Synced just now").assertExists()
     }
 
     @Test
@@ -126,8 +126,9 @@ class SyncPromptTest {
         onNodeWithTag("sync-button").performClick()
         onNodeWithTag("sync-confirm").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sync-progress").fetchSemanticsNodes().isNotEmpty() }
-        // In the dialog and in the bar's status.
-        assertEquals(2, onAllNodesWithText("Syncing…").fetchSemanticsNodes().size)
+        // In the dialog, and as the bar's status.
+        assertEquals(1, onAllNodesWithText("Syncing…").fetchSemanticsNodes().size)
+        onNodeWithContentDescription("Syncing…").assertExists()
         onNodeWithText("Sending 12,000 of 47,480").assertExists()
         hold.complete(Unit)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sync-summary").fetchSemanticsNodes().isNotEmpty() }

@@ -19,6 +19,7 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
@@ -341,7 +342,7 @@ class HomeScreenTest {
         show(pictured, dark = true, bar = true)
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Study activity")).fetchSemanticsNodes().isNotEmpty() }
         picture("HOME_DARK_SCREENSHOT")
-        onNodeWithText("Synced 2 minutes ago").assertExists()
+        onNodeWithContentDescription("Synced 2 minutes ago").assertExists()
     }
 
     @Test

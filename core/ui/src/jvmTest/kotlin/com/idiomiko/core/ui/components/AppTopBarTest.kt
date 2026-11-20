@@ -129,23 +129,23 @@ class AppTopBarTest {
         setContent {
             MaterialTheme { CompositionLocalProvider(LocalSyncEntry provides entry) { AppTopBar(title = "Home", onNavigate = {}, section = NavSection.HOME) } }
         }
-        onNodeWithText("Sync").assertExists()
+        onNodeWithContentDescription("Sync").assertExists()
         onNodeWithTag("sync-button").performClick()
         assertEquals(1, asked)
         entry = SyncEntry(running = true) { asked++ }
         waitForIdle()
-        onNodeWithText("Syncing…").assertExists()
+        onNodeWithContentDescription("Syncing…").assertExists()
         onNodeWithTag("sync-button").performClick()
         assertEquals(2, asked)
         entry = SyncEntry(running = false, lastSynced = kotlin.time.Clock.System.now() - kotlin.time.Duration.parse("2m")) { asked++ }
         waitForIdle()
-        onNodeWithText("Synced 2 minutes ago").assertExists()
+        onNodeWithContentDescription("Synced 2 minutes ago").assertExists()
         System.getenv("SYNC_STATUS_SCREENSHOT")?.let { path ->
             javax.imageio.ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", java.io.File(path))
         }
         entry = SyncEntry(running = false, failed = true) { asked++ }
         waitForIdle()
-        onNodeWithText("Sync failed").assertExists()
+        onNodeWithContentDescription("Sync failed").assertExists()
     }
 
     /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages. */
