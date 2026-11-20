@@ -16,6 +16,13 @@ WHERE language_id = :languageId AND status BETWEEN 1 AND 4 AND id NOT IN (SELECT
     AND created_at >= :since AND created_at < :until
 ORDER BY created_at DESC, id DESC;
 
+-- The last :limit of the same words, the latest first, with the sentence each was saved in.
+termsSavedRecently:
+SELECT id, text, translation, status, created_at, sentence FROM terms
+WHERE language_id = :languageId AND status BETWEEN 1 AND 4 AND id NOT IN (SELECT term_id FROM level_terms)
+ORDER BY created_at DESC, id DESC
+LIMIT :limit;
+
 reviewTimes:
 SELECT r.reviewed_at, r.rating, r.taken_ms FROM flashcard_reviews r INNER JOIN terms t ON t.id = r.term_id
 WHERE t.language_id = :languageId;

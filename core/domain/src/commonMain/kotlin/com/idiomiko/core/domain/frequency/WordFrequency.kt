@@ -94,6 +94,31 @@ data class FrequencyBand(val index: Int, val words: List<RankedWord>) {
     val settled: Int get() = words.count { it.knowledge == WordKnowledge.KNOWN || it.knowledge == WordKnowledge.IGNORED }
 }
 
+/**
+ * The words known, as [WordFrequencyService.observeKnownWords] counts them, against the frequency list:
+ * the next [milestone] to reach, a round number of the list's most common words, and how many of those
+ * are known. Without a list, [milestone] is null.
+ */
+data class VocabularyProgress(val known: Int, val milestone: Int?, val knownInMilestone: Int) {
+    /** From 0 to 1: the share of the milestone's words known. */
+    val share: Float get() = milestone?.takeIf { it > 0 }?.let { (knownInMilestone.toFloat() / it).coerceIn(0f, 1f) } ?: 0f
+
+    companion object {
+        /** The numbers of words to reach, as far as the list goes. */
+        val MILESTONES = listOf(100, 250, 500, 1000, 2000, 3000, 5000, 7500, 10_000, 15_000, 20_000)
+
+        /**
+         * [known] words, and whether each word of the list is known, the most common first: the next
+         * milestone is the first past [known] that the list reaches, or the whole list once it is passed.
+         */
+        fun of(known: Int, knownByRank: List<Boolean>): VocabularyProgress {
+            if (knownByRank.isEmpty()) return VocabularyProgress(known, null, 0)
+            val milestone = MILESTONES.firstOrNull { it > known && it <= knownByRank.size } ?: knownByRank.size
+            return VocabularyProgress(known, milestone, knownByRank.take(milestone).count { it })
+        }
+    }
+}
+
 data class WordFrequencyOverview(val languageName: String, val source: String, val words: List<RankedWord>) {
     val bands: List<FrequencyBand> = words.chunked(BAND_SIZE).mapIndexed { index, chunk -> FrequencyBand(index, chunk) }
 
@@ -135,15 +160,18 @@ class WordFrequencyService(
      * counts for "casa"), or a known saved word that the list has neither as a word nor as a form.
      * Phrases are not words. Without a list, every known saved word counts.
      */
-    fun observeKnownWords(languageId: Long): Flow<Int> = flow {
+    fun observeKnownWords(languageId: Long): Flow<Int> = observeVocabulary(languageId).map { it.known }
+
+    /** The words known, as [observeKnownWords] counts them, and how far they go through the list's most common words. */
+    fun observeVocabulary(languageId: Long): Flow<VocabularyProgress> = flow {
         val language = languages.getById(languageId)
         val list = language?.let { LanguageCodes.codeFor(it.name) }?.let { lists.list(it) }?.inScript(language.chineseScript)
         val listed = list?.words?.flatMapTo(HashSet()) { it.forms + it.key }.orEmpty()
         emitAll(
             terms.observeWordStatuses(languageId).map { statuses ->
                 val known = statuses.filterValues { it == TermStatus.WELL_KNOWN }.keys
-                val inList = list?.words?.count { statusOf(it, statuses) == TermStatus.WELL_KNOWN } ?: 0
-                inList + known.count { it !in listed }
+                val byRank = list?.words?.map { statusOf(it, statuses) == TermStatus.WELL_KNOWN }.orEmpty()
+                VocabularyProgress.of(byRank.count { it } + known.count { it !in listed }, byRank)
             },
         )
     }

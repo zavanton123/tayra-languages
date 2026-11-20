@@ -86,6 +86,9 @@ class StatsService(
     /** The words counted as saved today in the language with [languageId], the latest first. */
     suspend fun savedToday(languageId: Long): List<SavedWord> = learning.savedOn(languageId, today())
 
+    /** The last [limit] words saved to learn in the language with [languageId], the latest first. */
+    suspend fun recentlySaved(languageId: Long, limit: Int): List<SavedWord> = learning.recentlySaved(languageId, limit)
+
     private companion object {
         const val SAVED_WEEKS = 12
     }

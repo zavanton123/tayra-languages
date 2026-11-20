@@ -52,5 +52,12 @@ class LearningStatsRepositoryImpl(
         }
     }
 
+    override suspend fun recentlySaved(languageId: Long, limit: Int): List<SavedWord> = withContext(databaseDispatcher) {
+        provider.database().statsQueries.termsSavedRecently(languageId, limit.toLong()).awaitAsList().mapNotNull { row ->
+            val status = TermStatus.fromValueOrNull(row.status.toInt()) ?: return@mapNotNull null
+            SavedWord(row.id, row.text, row.translation?.takeIf { it.isNotBlank() }, status, row.created_at.toInstant(), row.sentence?.takeIf { it.isNotBlank() })
+        }
+    }
+
     private fun Long.day(): LocalDate = toInstant().toLocalDateTime(timeZone).date
 }

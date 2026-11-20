@@ -21,8 +21,8 @@ data class LanguageActivity(
     val booksFinished: Int = 0,
 )
 
-/** A word counted in [LanguageActivity.termsSaved]. */
-data class SavedWord(val termId: Long, val text: String, val translation: String?, val status: TermStatus, val savedAt: Instant)
+/** A word counted in [LanguageActivity.termsSaved]; [sentence] is the one it was saved in, when it was. */
+data class SavedWord(val termId: Long, val text: String, val translation: String?, val status: TermStatus, val savedAt: Instant, val sentence: String? = null)
 
 /** Reads [LanguageActivity] from the database. */
 fun interface LearningStatsRepository {
@@ -30,6 +30,9 @@ fun interface LearningStatsRepository {
 
     /** The words counted in [LanguageActivity.termsSaved] on [day], the latest first. */
     suspend fun savedOn(languageId: Long, day: LocalDate): List<SavedWord> = emptyList()
+
+    /** The last [limit] words counted in [LanguageActivity.termsSaved], the latest first. */
+    suspend fun recentlySaved(languageId: Long, limit: Int): List<SavedWord> = emptyList()
 }
 
 /** One language's progress, ready to show. */

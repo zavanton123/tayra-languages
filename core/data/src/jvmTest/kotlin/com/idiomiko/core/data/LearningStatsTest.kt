@@ -52,4 +52,17 @@ class LearningStatsTest {
         // Only the timed answers say how long an answer takes.
         assertEquals(5.seconds, activity.averageAnswer)
     }
+
+    @Test
+    fun theWordsSavedLastComeFirstWithTheirSentences() = runBlocking {
+        val terms = TermRepositoryImpl(provider)
+        val gato = terms.save(Term(languageId = language, text = "gato", textLc = "gato", status = TermStatus.LEARNING_3, sentence = "O gato dorme."))
+        terms.save(Term(languageId = language, text = "sim", textLc = "sim", status = TermStatus.WELL_KNOWN))
+        val recent = stats.recentlySaved(language, limit = 5)
+        // Known on sight is not saved to learn; the later word comes first.
+        assertEquals(listOf("gato", "casa"), recent.map { it.text })
+        assertEquals("O gato dorme.", recent.first { it.termId == gato }.sentence)
+        assertEquals(null, recent.last().sentence)
+        assertEquals(1, stats.recentlySaved(language, limit = 1).size)
+    }
 }
