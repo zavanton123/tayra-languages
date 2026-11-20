@@ -82,7 +82,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "ro-pl" to 701_500L, "ro-zh" to 1_638_787L, "ru-el" to 452_719L, "ru-pl" to 5_659_059L, "ru-zh" to 15_810_908L,
         "sga-en" to 436_575L, "si-en" to 1_353_113L, "sk-en" to 3_866_104L, "sk-pl" to 2_671_558L, "sk-zh" to 337_894L, "sl-en" to 1_856_471L, "sl-pl" to 669_113L, "sl-zh" to 287_168L,
         "so-en" to 168_624L, "sq-de" to 196_044L, "sq-en" to 2_215_997L, "sq-fr" to 332_439L, "sq-pl" to 394_691L, "sq-ru" to 432_477L,
-        "sq-zh" to 376_881L, "sr-zh" to 2_678_479L, "sv-el" to 237_075L, "sv-en" to 10_229_082L, "sv-pl" to 2_644_917L, "sv-zh" to 1_691_507L, "sw-en" to 1_466_861L, "ta-en" to 6_157_784L, "te-en" to 1_357_576L,
+        "sq-zh" to 376_881L, "sr-zh" to 2_678_479L, "sv-el" to 237_075L, "sv-en" to 10_229_082L, "sv-pl" to 2_644_917L, "sv-zh" to 1_691_507L, "sw-en" to 1_466_861L, "ta-en" to 6_173_624L, "te-en" to 1_357_576L,
         "th-en" to 1_536_656L, "th-pl" to 189_736L, "th-ru" to 179_480L, "th-zh" to 185_555L, "tl-en" to 2_881_047L,
         "tl-fr" to 101_376L, "tl-pl" to 81_830L, "tl-ru" to 136_100L, "tl-zh" to 145_831L, "tok-de" to 10_004L,
         "tok-el" to 11_250L, "tok-en" to 10_220L, "tok-es" to 10_576L, "tok-fr" to 10_808L, "tok-pl" to 10_663L,
