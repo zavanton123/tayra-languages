@@ -344,7 +344,7 @@ def repaired(word, clean):
     candidates = {word}
     for pattern, rights in SAMACHAR_REPAIRS:
         candidates |= {pattern.sub(right, c) for c in candidates for right in rights if pattern.search(c)}
-    for c in candidates:
+    for c in sorted(candidates):
         if clean.get(c, 0) > best_count:
             best, best_count = c, clean[c]
     return best
@@ -483,9 +483,9 @@ def build(size, download, licence, dictionaries=DICTIONARIES):
             heads = others or ({own} if own else set())
         if not heads:
             continue
-        weights = {h: alone.get(h, 0.0) for h in heads}
+        weights = {h: alone.get(h, 0.0) for h in sorted(heads)}
         whole = sum(weights.values())
-        for head in heads:
+        for head in weights:
             part = weights[head] / whole if whole else 1 / len(heads)
             if part <= 0:
                 continue
@@ -493,10 +493,10 @@ def build(size, download, licence, dictionaries=DICTIONARIES):
             totals[head] += raw[form]
             forms[head][form] = forms[head].get(form, 0.0) + share * part
 
-    ranked = sorted((w for w in scores if totals[w] >= LEAST_COUNT), key=lambda w: -scores[w])[:size]
+    ranked = sorted((w for w in scores if totals[w] >= LEAST_COUNT), key=lambda w: (-scores[w], w))[:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
-        listed = sorted(forms[word], key=lambda f: -forms[word][f])[:FORMS_LISTED]
+        listed = sorted(forms[word], key=lambda f: (-forms[word][f], f))[:FORMS_LISTED]
         if word not in listed:
             listed = [word] + listed[:FORMS_LISTED - 1]
         lines.append(word + "\t" + " ".join(listed))
