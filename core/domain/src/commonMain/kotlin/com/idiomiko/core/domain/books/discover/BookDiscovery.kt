@@ -133,9 +133,10 @@ data class LicensedText(val text: String, val license: String)
 
 /**
  * How much of a text the reader knows: its running words, each counted where it stands. [wholeWords]
- * is the running words of the whole text, where the sample judged was the whole of it.
+ * is the running words of the whole text, where the sample judged was the whole of it; [newWords] the
+ * different words in it the reader has not met, where they were counted.
  */
-data class TextCoverage(val words: Int, val known: Int, val wholeWords: Int? = null) {
+data class TextCoverage(val words: Int, val known: Int, val wholeWords: Int? = null, val newWords: Int? = null) {
     val percent: Int get() = if (words == 0) 0 else 100 * known / words
 
     /** The minutes the whole text takes at the app's reading pace, where its length is known. */

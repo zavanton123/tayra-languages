@@ -61,6 +61,8 @@ import com.idiomiko.feature.settings.AccountBadgeViewModel
 import com.idiomiko.core.ui.components.LocalSyncEntry
 import com.idiomiko.core.ui.components.AccountBadge
 import com.idiomiko.core.ui.components.LocalAccountBadge
+import com.idiomiko.core.ui.components.LocalWebPictures
+import com.idiomiko.core.domain.web.WebPictures
 import com.idiomiko.core.ui.components.PullToSync
 import com.idiomiko.core.ui.components.SyncEntry
 import androidx.compose.foundation.layout.fillMaxSize
@@ -118,6 +120,7 @@ fun AppNavHost(openCourses: Int = 0) {
     }
     CompositionLocalProvider(
         LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,
+        LocalWebPictures provides koinInject<WebPictures>(),
     ) {
     Scaffold(
         bottomBar = {

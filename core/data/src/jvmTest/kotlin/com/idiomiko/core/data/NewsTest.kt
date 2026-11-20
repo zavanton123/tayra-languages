@@ -63,10 +63,38 @@ class NewsTest {
         assertEquals("O gato voltou para casa.", gato.summary)
         assertEquals(Instant.parse("2026-10-16T08:30:00Z"), gato.published)
         assertEquals("O gato voltou para casa.", gato.feedText)
+        assertEquals("https://news.example/gato.jpg", gato.imageUrl)
         assertEquals("A & B", ab.title)
         assertEquals("https://news.example/ab", ab.url)
         assertEquals(Instant.parse("2026-10-15T08:00:00Z"), ab.published)
         assertTrue(ab.feedText!!.startsWith("Uma frase longa"), "a feed that carries the whole article gives it")
+    }
+
+    @Test
+    fun anArticlesPictureIsTheOneItsFeedGives() {
+        val rss = """<rss><channel>
+            <item><title>Thumbnail</title><link>https://news.example/a</link><media:thumbnail width="240" url="https://news.example/a.jpg"/></item>
+            <item><title>Enclosure</title><link>https://news.example/b</link><enclosure url="https://news.example/b.mp3" type="audio/mpeg"/><enclosure url="https://news.example/b.png" type="image/png"/></item>
+            <item><title>In the text</title><link>https://news.example/c</link>
+              <content:encoded><![CDATA[<img src="https://stats.example/pixel.png" width="1" height="1"><p><img src="https://news.example/c.jpg" alt="">Texto.</p>]]></content:encoded></item>
+            <item><title>Escaped</title><link>https://news.example/d</link><description>&lt;img src=&quot;//news.example/d.webp&quot;&gt; Texto.</description></item>
+            <item><title>None</title><link>https://news.example/e</link><description>Texto.</description></item>
+            </channel></rss>"""
+        assertEquals(
+            listOf("https://news.example/a.jpg", "https://news.example/b.png", "https://news.example/c.jpg", "https://news.example/d.webp", null),
+            FeedNewsReader.parse(rss, source).map { it.imageUrl },
+        )
+        val atom = """<feed><entry><title>A</title><link rel="alternate" href="https://news.example/a"/><link rel="enclosure" type="image/jpeg" href="https://news.example/a.jpg"/></entry></feed>"""
+        val article = FeedNewsReader.parse(atom, source).single()
+        assertEquals("https://news.example/a", article.url)
+        assertEquals("https://news.example/a.jpg", article.imageUrl)
+    }
+
+    @Test
+    fun aPagesPictureIsTheOneItIsSharedWith() {
+        assertEquals("https://news.example/og.jpg", ArticleText.picture("""<html><head><meta content="https://news.example/og.jpg" property="og:image"><meta name="twitter:image" content="https://news.example/tw.jpg"></head></html>"""))
+        assertEquals("https://news.example/tw.jpg", ArticleText.picture("""<head><meta name='twitter:image' content='https://news.example/tw.jpg'/></head>"""))
+        assertNull(ArticleText.picture("<head><title>T</title></head>"))
     }
 
     @Test
@@ -230,8 +258,8 @@ class NewsTest {
         val portuguese = languages.getById(id)!!
         listOf("o" to TermStatus.WELL_KNOWN, "gato" to TermStatus.NEW_2).forEach { (word, status) -> terms.save(Term(languageId = id, text = word, textLc = word, status = status)) }
         val article = service.latest(portuguese).articles.first()
-        // 9 running words, of which o and gato are known.
-        assertEquals(TextCoverage(words = 9, known = 2), service.coverage(article, portuguese))
+        // 9 running words, of which o and gato are known; the other 7 are 6 words, casa twice.
+        assertEquals(TextCoverage(words = 9, known = 2, wholeWords = 9, newWords = 6), service.coverage(article, portuguese))
 
         val bookId = service.open(article, portuguese, "Fonte: Notícias.")
         assertEquals(bookId, service.open(article, portuguese, "Fonte: Notícias."), "opening again finds the same text")

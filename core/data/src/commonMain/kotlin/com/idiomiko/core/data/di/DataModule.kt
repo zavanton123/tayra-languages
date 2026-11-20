@@ -82,6 +82,7 @@ import com.idiomiko.core.data.sync.SyncEngine
 import com.idiomiko.core.data.sync.SyncedPacks
 import com.idiomiko.core.data.sync.SyncTransport
 import com.idiomiko.core.data.web.HttpWebPageReader
+import com.idiomiko.core.data.web.HttpWebPictures
 import com.idiomiko.core.data.web.webPagesSupported
 import com.idiomiko.core.domain.backup.BackupRepository
 import com.idiomiko.core.domain.books.BookPackService
@@ -173,6 +174,7 @@ import com.idiomiko.core.domain.service.effectiveEngine
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.stats.LearningStatsRepository
 import com.idiomiko.core.domain.web.WebPageReader
+import com.idiomiko.core.domain.web.WebPictures
 import org.koin.core.module.Module
 import org.koin.dsl.module
 import com.idiomiko.core.domain.practice.PracticeExampleStore
@@ -312,6 +314,7 @@ val dataModule: Module = module {
     // A browser may fetch only the sites that allow it, so there the book form offers no web pages.
     if (webPagesSupported) single<WebPageReader> { HttpWebPageReader(get()) }
     single<WikiReader> { WikiArticles(get()) }
+    single<WebPictures> { HttpWebPictures(createPlainHttpClient()) }
     single { NewsService(get(), get(), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get(), getOrNull()) }
     single { LanguageAssets(get(), get(), get(), get(), getOrNull<NetworkStatus>() ?: AnyNetwork) }

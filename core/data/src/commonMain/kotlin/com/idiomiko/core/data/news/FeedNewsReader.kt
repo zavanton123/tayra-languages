@@ -3,6 +3,7 @@ package com.idiomiko.core.data.news
 import com.idiomiko.core.data.files.HtmlText
 import com.idiomiko.core.data.files.Markup
 import com.idiomiko.core.data.files.MarkupToken
+import com.idiomiko.core.domain.news.ArticlePage
 import com.idiomiko.core.domain.news.NewsArticle
 import com.idiomiko.core.domain.news.NewsFeedReader
 import com.idiomiko.core.domain.news.NewsSource
@@ -35,18 +36,22 @@ class FeedNewsReader(private val client: HttpClient) : NewsFeedReader {
         return parse(checked(response, source.name).bodyAsText(), source)
     }
 
-    override suspend fun text(article: NewsArticle): String {
+    override suspend fun text(article: NewsArticle): String = page(article).text
+
+    override suspend fun page(article: NewsArticle): ArticlePage {
         val inFeed = article.feedText?.takeIf { it.isNotBlank() }
-        if (inFeed != null && (article.source.textInFeed || ArticleText.letters(inFeed) >= FULL_TEXT_LETTERS)) return inFeed
+        if (inFeed != null && (article.source.textInFeed || ArticleText.letters(inFeed) >= FULL_TEXT_LETTERS)) return ArticlePage(inFeed)
         val response = client.get(article.url) {
             header(HttpHeaders.UserAgent, USER_AGENT)
             header(HttpHeaders.CacheControl, "no-store")
             timeout { requestTimeoutMillis = TIMEOUT; socketTimeoutMillis = TIMEOUT }
         }
-        val text = ArticleText.extract(checked(response, article.source.name).bodyAsText())
+        val html = checked(response, article.source.name).bodyAsText()
+        val text = ArticleText.extract(html)
         // A page whose text could not be found still has the feed's text to read.
-        return text.takeIf { ArticleText.letters(it) >= MIN_ARTICLE_LETTERS } ?: inFeed
+        val found = text.takeIf { ArticleText.letters(it) >= MIN_ARTICLE_LETTERS } ?: inFeed
             ?: throw IllegalStateException("Could not find the article's text")
+        return ArticlePage(found, ArticleText.picture(html))
     }
 
     private fun checked(response: HttpResponse, name: String): HttpResponse {
@@ -77,6 +82,8 @@ class FeedNewsReader(private val client: HttpClient) : NewsFeedReader {
                     is MarkupToken.Open -> when {
                         token.name in ITEMS -> { fields = mutableMapOf(); topics.clear() }
                         fields == null -> Unit
+                        // The article's picture, the first the item gives: Media RSS's, or an enclosure that is an image.
+                        picture(token) != null -> fields.getOrPut(PICTURE) { picture(token)!! }
                         // Atom names a topic in an attribute.
                         token.name == "category" && token.attributes["term"] != null -> topics += (token.attributes["label"] ?: token.attributes.getValue("term"))
                         // Atom's links: the article's page is the alternate one, or the one with no rel.
@@ -110,6 +117,26 @@ class FeedNewsReader(private val client: HttpClient) : NewsFeedReader {
             return articles
         }
 
+        /** Where an item keeps its picture's address among its fields, under a name no element has. */
+        private const val PICTURE = " picture"
+
+        /** The address of the picture a tag of a feed item gives: Media RSS's content and thumbnail, an RSS enclosure or an Atom link that is an image. */
+        private fun picture(token: MarkupToken.Open): String? {
+            val attributes = token.attributes
+            val type = attributes["type"].orEmpty()
+            val url = when (token.name) {
+                "media:thumbnail" -> attributes["url"]
+                "media:content" -> attributes["url"]?.takeIf { attributes["medium"] == "image" || type.startsWith("image/") || (attributes["medium"] == null && type.isEmpty() && looksLikePicture(it)) }
+                "enclosure" -> attributes["url"]?.takeIf { type.startsWith("image/") || (type.isEmpty() && looksLikePicture(it)) }
+                "link" -> attributes["href"]?.takeIf { attributes["rel"] == "enclosure" && type.startsWith("image/") }
+                else -> null
+            }
+            return url?.trim()?.takeIf { it.startsWith("http") }
+        }
+
+        private fun looksLikePicture(url: String): Boolean =
+            url.substringBefore('?').substringAfterLast('.').lowercase() in setOf("jpg", "jpeg", "png", "webp")
+
         private fun item(fields: Map<String, String>, source: NewsSource): NewsArticle? {
             val url = (fields["link"] ?: fields["guid"]?.takeIf { it.startsWith("http") })?.trim()?.let { articleUrl(it, source) } ?: return null
             val title = fields["title"]?.let(::plain)?.takeIf { it.isNotEmpty() } ?: return null
@@ -125,6 +152,7 @@ class FeedNewsReader(private val client: HttpClient) : NewsFeedReader {
                 summary = summary.ifEmpty { full.orEmpty() }.take(SUMMARY_CHARACTERS),
                 published = listOf("pubdate", "published", "dc:date", "updated").firstNotNullOfOrNull { fields[it]?.let(::date) },
                 feedText = body,
+                imageUrl = fields[PICTURE] ?: listOf("content:encoded", "content", "description", "summary").firstNotNullOfOrNull { fields[it]?.let(ArticleText::firstPicture) },
             )
         }
 

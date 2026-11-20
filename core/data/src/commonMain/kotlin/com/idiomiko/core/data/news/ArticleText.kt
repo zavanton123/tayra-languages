@@ -18,6 +18,39 @@ import kotlinx.serialization.json.JsonPrimitive
  */
 internal object ArticleText {
 
+    /** The picture a page is shared with (Open Graph's or Twitter's), as an absolute address; null when it names none. */
+    fun picture(html: String): String? {
+        for (tag in META.findAll(html)) {
+            val attributes = ATTRIBUTE.findAll(tag.value).associate { it.groupValues[1].lowercase() to Markup.decodeEntities(it.groupValues[2].ifEmpty { it.groupValues[3] }) }
+            val name = (attributes["property"] ?: attributes["name"])?.lowercase() ?: continue
+            if (name in PICTURE_NAMES) attributes["content"]?.let(::absolute)?.let { return it }
+        }
+        return null
+    }
+
+    /** The first picture of a piece of HTML, such as a feed item's, leaving out the dot-sized ones that count visits. */
+    fun firstPicture(html: String): String? = IMG.findAll(html).firstNotNullOfOrNull { img ->
+        val attributes = ATTRIBUTE.findAll(img.value).associate { it.groupValues[1].lowercase() to it.groupValues[2].ifEmpty { it.groupValues[3] } }
+        val tiny = listOf("width", "height").any { attributes[it]?.toIntOrNull()?.let { size -> size < MIN_PICTURE } == true }
+        attributes["src"]?.takeUnless { tiny || it.substringBefore('?').endsWith(".gif", ignoreCase = true) }?.let(::absolute)
+    }
+
+    private fun absolute(url: String): String? = url.trim().let {
+        when {
+            it.startsWith("https://") || it.startsWith("http://") -> it
+            it.startsWith("//") -> "https:$it"
+            else -> null
+        }
+    }
+
+    private val META = Regex("""<meta\b[^>]*>""", RegexOption.IGNORE_CASE)
+    private val IMG = Regex("""<img\b[^>]*>""", RegexOption.IGNORE_CASE)
+    private val ATTRIBUTE = Regex("""([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)')""")
+    private val PICTURE_NAMES = setOf("og:image", "og:image:url", "og:image:secure_url", "twitter:image", "twitter:image:src")
+
+    /** Narrower than this, in pixels, an image is a counter or an icon rather than a picture. */
+    private const val MIN_PICTURE = 50
+
     fun extract(html: String): String {
         val shown = paragraphs(html, NEWS)
         val given = structured(html)

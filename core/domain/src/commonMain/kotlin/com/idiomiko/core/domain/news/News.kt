@@ -46,7 +46,15 @@ data class NewsArticle(
     val topics: List<String> = emptyList(),
     /** How long the whole article is, in the site's own measure (a Wikipedia article's size in bytes); null when unknown. */
     val length: Int? = null,
+    /** The address of the picture the feed gives the article; null when it gives none. */
+    val imageUrl: String? = null,
 )
+
+/** What an article's page holds: its text, one paragraph per line, and the picture it is shared with, where it names one. */
+data class ArticlePage(val text: String, val imageUrl: String? = null)
+
+/** How much of an article the reader knows, and the picture its page names, found while reading it to judge it. */
+data class JudgedArticle(val coverage: TextCoverage, val imageUrl: String?)
 
 /** An article the reader has opened, as a text to read. */
 data class NewsBook(val url: String, val bookId: Long, val lastOpened: Instant?, val isCompleted: Boolean)
@@ -58,6 +66,9 @@ interface NewsFeedReader {
 
     /** The article's text, one paragraph per line, taken from the feed or from its page. */
     suspend fun text(article: NewsArticle): String
+
+    /** The article's text, and the picture its page names when the page had to be read for the text. */
+    suspend fun page(article: NewsArticle): ArticlePage = ArticlePage(text(article))
 }
 
 /**
@@ -131,7 +142,7 @@ class NewsService(
     private val lock = Mutex()
 
     /** The last texts read, so judging an article and then opening it fetches it once. */
-    private val texts = LinkedHashMap<String, String>()
+    private val texts = LinkedHashMap<String, ArticlePage>()
 
     fun sources(language: Language): List<NewsSource> {
         val code = LanguageCodes.codeFor(language.name) ?: return emptyList()
@@ -148,10 +159,19 @@ class NewsService(
     }
 
     /** How much of the article the reader knows; null for a language the app cannot split into words. */
-    suspend fun coverage(article: NewsArticle, language: Language): TextCoverage? {
+    suspend fun coverage(article: NewsArticle, language: Language): TextCoverage? = judge(article, language)?.coverage
+
+    /**
+     * How much of the article the reader knows, how long it is and how many words in it are new, with the picture
+     * its page names; null for a language the app cannot split into words. The whole article is judged.
+     */
+    suspend fun judge(article: NewsArticle, language: Language): JudgedArticle? {
         if (!language.isSupported) return null
-        val words = readingService.renderItems(text(article), language).filter { it.isWord && it.tokenCount == 1 }
-        return TextCoverage(words.size, words.count { it.status != TermStatus.UNKNOWN })
+        val page = page(article)
+        val words = readingService.renderItems(page.text, language).filter { it.isWord && it.tokenCount == 1 }
+        val unknown = words.filter { it.status == TermStatus.UNKNOWN }
+        val coverage = TextCoverage(words.size, words.size - unknown.size, wholeWords = words.size, newWords = unknown.mapTo(HashSet()) { it.textLc }.size)
+        return JudgedArticle(coverage, page.imageUrl)
     }
 
     /** The text to read for the article, made the first time it is opened; ends with [attribution]. */
@@ -185,14 +205,16 @@ class NewsService(
 
     fun observeOpened(): Flow<Map<String, NewsBook>> = books.observeNewsBooks()
 
-    private suspend fun text(article: NewsArticle): String {
+    private suspend fun text(article: NewsArticle): String = page(article).text
+
+    private suspend fun page(article: NewsArticle): ArticlePage {
         lock.withLock { texts[article.url] }?.let { return it }
-        val text = reader.text(article)
+        val page = reader.page(article)
         lock.withLock {
-            texts[article.url] = text
+            texts[article.url] = page
             while (texts.size > KEPT_TEXTS) texts.remove(texts.keys.first())
         }
-        return text
+        return page
     }
 
     companion object {
