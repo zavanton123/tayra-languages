@@ -120,22 +120,32 @@ class AppTopBarTest {
         assertEquals("Z", initial("  ", "zed@example.com"))
     }
 
-    /** The sync button shows only with an account service and asks to sync; it turns while a sync is under way. */
+    /** The sync status shows only with an account service and asks to sync; it says when the device last synced, or that a sync runs or failed. */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun theSyncButtonOpensTheQuestion() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+    fun theSyncStatusOpensTheQuestion() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         var asked = 0
-        var running by mutableStateOf(false)
+        var entry by mutableStateOf(SyncEntry(running = false) { asked++ })
         setContent {
-            MaterialTheme { CompositionLocalProvider(LocalSyncEntry provides SyncEntry(running) { asked++ }) { AppTopBar(title = "Home", onNavigate = {}, section = NavSection.HOME) } }
+            MaterialTheme { CompositionLocalProvider(LocalSyncEntry provides entry) { AppTopBar(title = "Home", onNavigate = {}, section = NavSection.HOME) } }
         }
-        onNodeWithContentDescription("Sync").performClick()
+        onNodeWithText("Sync").assertExists()
+        onNodeWithTag("sync-button").performClick()
         assertEquals(1, asked)
-        running = true
+        entry = SyncEntry(running = true) { asked++ }
         waitForIdle()
-        onNodeWithContentDescription("Sync").assertExists()
-        onNodeWithContentDescription("Sync").performClick()
+        onNodeWithText("Syncing…").assertExists()
+        onNodeWithTag("sync-button").performClick()
         assertEquals(2, asked)
+        entry = SyncEntry(running = false, lastSynced = kotlin.time.Clock.System.now() - kotlin.time.Duration.parse("2m")) { asked++ }
+        waitForIdle()
+        onNodeWithText("Synced 2 minutes ago").assertExists()
+        System.getenv("SYNC_STATUS_SCREENSHOT")?.let { path ->
+            javax.imageio.ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
+        entry = SyncEntry(running = false, failed = true) { asked++ }
+        waitForIdle()
+        onNodeWithText("Sync failed").assertExists()
     }
 
     /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages. */

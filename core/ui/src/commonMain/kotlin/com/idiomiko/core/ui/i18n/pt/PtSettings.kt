@@ -400,4 +400,6 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Daily goal" to "Meta diária",
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minutos de leitura e de cartões por dia. O início mostra quanto já fez hoje.",
     "daily goal" to "meta diária",
+    "Sync failed" to "A sincronização falhou",
+    "Synced {0}" to "Sincronizado {0}",
 )

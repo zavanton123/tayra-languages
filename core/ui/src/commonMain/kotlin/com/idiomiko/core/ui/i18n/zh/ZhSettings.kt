@@ -400,4 +400,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Daily goal" to "每日目标",
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "每天阅读和复习抽认卡的分钟数。主页会显示今天的进度。",
     "daily goal" to "每日目标",
+    "Sync failed" to "同步失败",
+    "Synced {0}" to "已同步（{0}）",
 )

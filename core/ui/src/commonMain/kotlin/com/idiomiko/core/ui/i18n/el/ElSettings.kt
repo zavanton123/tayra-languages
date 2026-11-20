@@ -400,4 +400,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Daily goal" to "Ημερήσιος στόχος",
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "Λεπτά ανάγνωσης και καρτών την ημέρα. Η αρχική σελίδα δείχνει πόσο έχεις προχωρήσει σήμερα.",
     "daily goal" to "ημερήσιο στόχο",
+    "Sync failed" to "Ο συγχρονισμός απέτυχε",
+    "Synced {0}" to "Συγχρονίστηκε {0}",
 )

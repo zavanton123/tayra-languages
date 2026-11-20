@@ -400,4 +400,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Daily goal" to "Objectif quotidien",
     "Minutes of reading and flashcards a day. Home shows how far today has got." to "Minutes de lecture et de cartes par jour. L’accueil montre où vous en êtes aujourd’hui.",
     "daily goal" to "objectif quotidien",
+    "Sync failed" to "Échec de la synchronisation",
+    "Synced {0}" to "Synchronisé {0}",
 )

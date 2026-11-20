@@ -35,6 +35,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.time.Instant
 
 enum class SyncStep { ASK, SYNCING, DONE, FAILED }
 
@@ -48,6 +49,10 @@ data class SyncPromptState(
     /** A sync is under way, on its own or asked. */
     val running: Boolean = false,
     val progress: SyncProgress? = null,
+    /** When this device last synced since the app started, on its own or asked. */
+    val lastSynced: Instant? = null,
+    /** The last sync, on its own or asked, did not finish. */
+    val lastFailed: Boolean = false,
     val summary: SyncSummary? = null,
     val problem: AccountProblem? = null,
     val problemText: String? = null,
@@ -62,7 +67,9 @@ class SyncPromptViewModel(private val sync: AutoSync, private val accounts: Acco
     val state: StateFlow<SyncPromptState> = _state.asStateFlow()
 
     init {
-        viewModelScope.launch { sync.status.collect { s -> _state.update { it.copy(running = s.running, progress = s.progress) } } }
+        viewModelScope.launch {
+            sync.status.collect { s -> _state.update { it.copy(running = s.running, progress = s.progress, lastSynced = s.lastSynced ?: it.lastSynced, lastFailed = s.problem != null) } }
+        }
         viewModelScope.launch { accounts.signedIn.collect { email -> _state.update { it.copy(signedIn = email != null) } } }
     }
 

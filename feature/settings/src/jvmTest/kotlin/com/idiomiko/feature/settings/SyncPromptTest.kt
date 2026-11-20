@@ -91,7 +91,7 @@ class SyncPromptTest {
         setContent {
             val state by viewModel.state.collectAsStateWithLifecycle()
             IdiomikoTheme {
-                CompositionLocalProvider(LocalSyncEntry provides SyncEntry(state.running, viewModel::open)) {
+                CompositionLocalProvider(LocalSyncEntry provides SyncEntry(state.running, state.lastSynced, state.lastFailed, viewModel::open)) {
                     AppTopBar(title = "Home", onNavigate = {})
                 }
                 SyncPrompt(viewModel, onOpenAccount = { accountOpened++ })
@@ -105,7 +105,7 @@ class SyncPromptTest {
         val sync = Sync()
         showBar(Accounts("reader@example.com"), sync)
         onNodeWithTag("sync-dialog").assertDoesNotExist()
-        onNodeWithContentDescription("Sync").performClick()
+        onNodeWithTag("sync-button").performClick()
         onNodeWithText("Sync your library?").assertExists()
         assertEquals(0, sync.syncs, "nothing syncs before the answer")
         onNodeWithTag("sync-confirm").performClick()
@@ -115,16 +115,19 @@ class SyncPromptTest {
         onNodeWithText("Sent: 3 · Taken from other devices: 2").assertExists()
         onNodeWithText("OK").performClick()
         onNodeWithTag("sync-dialog").assertDoesNotExist()
+        // The bar says when the device last synced.
+        onNodeWithText("Synced just now").assertExists()
     }
 
     @Test
     fun theProgressShowsWhileItSyncs() = runDesktopComposeUiTest(width = 1600, height = 900) {
         val hold = CompletableDeferred<Unit>()
         showBar(Accounts("reader@example.com"), Sync(hold = hold))
-        onNodeWithContentDescription("Sync").performClick()
+        onNodeWithTag("sync-button").performClick()
         onNodeWithTag("sync-confirm").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sync-progress").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Syncing…").assertExists()
+        // In the dialog and in the bar's status.
+        assertEquals(2, onAllNodesWithText("Syncing…").fetchSemanticsNodes().size)
         onNodeWithText("Sending 12,000 of 47,480").assertExists()
         hold.complete(Unit)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sync-summary").fetchSemanticsNodes().isNotEmpty() }
@@ -134,7 +137,7 @@ class SyncPromptTest {
     fun signedOutItLeadsToTheAccountPage() = runDesktopComposeUiTest(width = 1600, height = 900) {
         val sync = Sync()
         showBar(Accounts(null), sync)
-        onNodeWithContentDescription("Sync").performClick()
+        onNodeWithTag("sync-button").performClick()
         onNodeWithText("Sign in to your account to sync your library with your other devices.").assertExists()
         onNodeWithTag("sync-confirm").assertDoesNotExist()
         onNodeWithText("Open Account").performClick()
@@ -148,7 +151,7 @@ class SyncPromptTest {
     fun twoLibrariesAreCombinedOnlyFromTheAccountPage() = runDesktopComposeUiTest(width = 1600, height = 900) {
         val sync = Sync(combining = true)
         showBar(Accounts("reader@example.com"), sync)
-        onNodeWithContentDescription("Sync").performClick()
+        onNodeWithTag("sync-button").performClick()
         onNodeWithTag("sync-confirm").performClick()
         waitUntil(timeoutMillis = 5_000) { accountOpened == 1 }
         assertEquals(0, sync.syncs, "nothing is combined before the answer")
@@ -159,7 +162,7 @@ class SyncPromptTest {
     fun aSyncThatFailsSaysWhyAndTriesAgain() = runDesktopComposeUiTest(width = 1600, height = 900) {
         val sync = Sync(failing = true)
         showBar(Accounts("reader@example.com"), sync)
-        onNodeWithContentDescription("Sync").performClick()
+        onNodeWithTag("sync-button").performClick()
         onNodeWithTag("sync-confirm").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sync-problem").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("The account service cannot be reached").assertExists()

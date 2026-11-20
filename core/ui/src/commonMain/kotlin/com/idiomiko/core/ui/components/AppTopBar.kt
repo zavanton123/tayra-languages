@@ -177,7 +177,7 @@ fun AppTopBar(
                 Spacer(Modifier.weight(1f))
                 actions()
                 LocalSyncEntry.current?.let { sync ->
-                    SyncButton(sync)
+                    SyncStatusButton(sync)
                     Spacer(Modifier.width(AppSpacing.s))
                 }
                 // The language being learned sits just before the tabs it applies to.
