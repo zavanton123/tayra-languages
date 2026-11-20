@@ -44,6 +44,7 @@ import frequency_sinhala  # noqa: E402
 from frequency_hausa import AJAMI, hausa_clean  # noqa: E402
 import frequency_uzbek  # noqa: E402
 from frequency_yoruba import WORD_ONLY as YORUBA_WORD_RE, bare, dotless, toneless, yoruba_standard  # noqa: E402
+from frequency_burmese import my_normalise  # noqa: E402
 
 # Per source language: the English name, the stem of its Russian/German Wiktionary section files
 # (dictionaries/<stem>-to-russian.jsonl, dictionaries/<stem>-to-german.jsonl) and the English
@@ -107,6 +108,7 @@ SOURCES = {
     "so": ("Somali", None, "dictionaries/kaikki.org-dictionary-Somali.jsonl.gz"),
     "uz": ("Uzbek", None, "dictionaries/kaikki.org-dictionary-Uzbek.jsonl.gz"),
     "yo": ("Yoruba", None, "dictionaries/kaikki.org-dictionary-Yoruba.jsonl.gz"),
+    "my": ("Burmese", None, "dictionaries/kaikki.org-dictionary-Burmese.jsonl.gz"),
 }
 # Gloss languages that come from their own Wiktionary: the dump file suffix and the pattern of
 # a sense that only says "variant of X".
@@ -143,6 +145,8 @@ SKIP_FORM_TAGS_BY_SOURCE = {
     "pa": {"Shahmukhi"},
     # Urdu entries list the Hindi spelling (Devanagari) as a form, and comparatives that are words of their own (بہتر of اچھا).
     "ur": {"Hindi", "comparative", "superlative"},
+    # Burmese words do not inflect: an entry's forms are its classifier (ယောက် of အစ်ကို) and its digit (၁ of တစ်).
+    "my": {"classifier", "digit"},
 }
 # The Azerbaijani personal pronouns' table lists all six on each one's page; a form goes to its own person and number.
 AZERBAIJANI_PERSONAL = {"mən": {"first-person", "singular"}, "sən": {"second-person", "singular"}, "o": {"third-person", "singular"},
@@ -183,7 +187,7 @@ def is_clean_form(form, lemma, source=None):
         return False
     if " " in form and " " not in lemma:
         return False
-    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else SINHALA_WORD_RE if source == "si" else MARATHI_WORD_RE if source == "mr" else YORUBA_WORD_RE if source == "yo" else WORD_RE
+    word_re = BENGALI_WORD_RE if source == "bn" else TAMIL_WORD_RE if source == "ta" else TELUGU_WORD_RE if source == "te" else GURMUKHI_WORD_RE if source == "pa" else NEPALI_WORD_RE if source == "ne" else GUJARATI_WORD_RE if source == "gu" else SINHALA_WORD_RE if source == "si" else MARATHI_WORD_RE if source == "mr" else YORUBA_WORD_RE if source == "yo" else BURMESE_WORD_RE if source == "my" else WORD_RE
     return all(word_re.match(part) for part in form.split())
 
 
@@ -580,9 +584,14 @@ def uzbek_translation_entries(kept):
     return entries
 
 
+# A Burmese pronoun's induced creaky tone, which Wiktionary gives as a sense of an entry of its own.
+BURMESE_CREAKY_GLOSS = re.compile(r"^Induced creaky tone form of (\S+)")
+BURMESE_WORD_RE = re.compile("^[\u1000-\u109f]+$")
+
+
 # How each source's spellings are normalised before matching, when it needs it at all.
 CLEANERS = {"mr": clean_marathi, "te": clean_telugu, "gu": clean_gujarati, "bn": clean_bengali, "ta": clean_tamil, "pa": clean_gurmukhi, "sr": clean_serbian_cyrillic, "uk": strip_pitch, "be": strip_pitch, "ru": strip_pitch, "bg": strip_pitch, "mk": strip_pitch, "hr": strip_pitch, "la": strip_length,
-            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones, "so": somali_plain, "uz": frequency_uzbek.normalise, "yo": yoruba_standard}
+            "ur": urdu_fold, "ne": clean_nepali, "ps": clean_pashto, "si": frequency_sinhala.clean, "ha": hausa_clean, "zu": strip_zulu_tones, "so": somali_plain, "uz": frequency_uzbek.normalise, "yo": yoruba_standard, "my": my_normalise}
 
 
 def pashto_translation_entries(kept):
@@ -1247,6 +1256,10 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 word, *variants = yoruba_heads(d)
             if not word or (latin_only and foreign(word)):
                 continue
+            # A Burmese phrase or proverb written as one (ရပါတယ်, မသိဘူး) is a sentence, not a word: the reader, which cuts
+            # Burmese by the pack's words too, would read it as one.
+            if source == "my" and d.get("pos") in ("phrase", "proverb") and " " not in word:
+                continue
             senses = []
             for s in d.get("senses", []):
                 tags = s.get("tags", [])
@@ -1263,7 +1276,14 @@ def build_english_target(source, en_path, out_path, report_every=200_000):
                 if source == "ha":
                     # A form of two words names them together ("plural of ɗan and 'ya").
                     targets = [t for target in targets for t in target.split(" and ")]
-                for lemma in targets:
+                linked = targets
+                if source == "my":
+                    # A pronoun's induced creaky tone (သူ့ "his" of သူ, ကျွန်တော့် of ကျွန်တော်) is its form. The other senses
+                    # that point to a word are abbreviations and other spellings that are words too (ထိ "to touch" of အထိ,
+                    # ဒီ "this" of ဒီဇင်ဘာ): no forms, which would file a word under another.
+                    linked = [m.group(1) for g in s.get("glosses", []) if (m := BURMESE_CREAKY_GLOSS.match(g))]
+                    targets = targets + linked
+                for lemma in linked:
                     if is_clean_form(word, lemma, source) and not (latin_only and foreign(lemma)):
                         form_rows.append((lowercase(word, source), lemma))
                         pointer_count += 1
