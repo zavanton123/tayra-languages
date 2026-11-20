@@ -175,14 +175,11 @@ fun AddToPlaylistMenuButton(
     viewModel: AddToPlaylistViewModel = koinViewModel(key = "add-to-playlist-$source") { parametersOf(source) },
 ) {
     var open by remember { mutableStateOf(false) }
-    var creating by remember { mutableStateOf(false) }
-    CollectEvents(viewModel.added) { name -> open = false; onAdded(name) }
     val tag = when (source) {
         is PlaylistSource.WholeCourse -> "add-course-to-playlist-${source.courseId}"
         is PlaylistSource.Lesson -> "add-lesson-to-playlist-${source.lessonId}"
         is PlaylistSource.Text -> "add-text-to-playlist-${source.bookId}"
     }
-    val gap = with(LocalDensity.current) { AppSpacing.xs.roundToPx() }
     Box(modifier) {
         if (label != null) {
             SecondaryButton(label, onClick = { open = !open }, modifier = Modifier.fillMaxWidth().testTag(tag), icon = AppIcons.PlaylistAdd)
@@ -191,10 +188,28 @@ fun AddToPlaylistMenuButton(
                 AppIconButton(AppIcons.PlaylistAdd, contentDescription = tr("Add to playlist"), onClick = { open = !open }, modifier = Modifier.testTag(tag), tint = MaterialTheme.colorScheme.primary)
             }
         }
-        if (open) {
-            Popup(popupPositionProvider = remember(gap) { BelowOrAbove(gap) }, onDismissRequest = { open = false }) {
-                AddToPlaylistMenu(viewModel, onCreate = { open = false; creating = true })
-            }
+        AddToPlaylistPopup(source, open, onDismiss = { open = false }, onAdded = onAdded, viewModel = viewModel)
+    }
+}
+
+/**
+ * The playlist menu of [AddToPlaylistMenuButton] on its own, shown while [open] below (or above) whatever it is
+ * placed beside, as a menu item that adds to a playlist opens it. Adding to a playlist, or creating one, closes it.
+ */
+@Composable
+fun AddToPlaylistPopup(
+    source: PlaylistSource,
+    open: Boolean,
+    onDismiss: () -> Unit,
+    onAdded: (playlist: String) -> Unit,
+    viewModel: AddToPlaylistViewModel = koinViewModel(key = "add-to-playlist-$source") { parametersOf(source) },
+) {
+    var creating by remember { mutableStateOf(false) }
+    CollectEvents(viewModel.added) { name -> onDismiss(); onAdded(name) }
+    val gap = with(LocalDensity.current) { AppSpacing.xs.roundToPx() }
+    if (open) {
+        Popup(popupPositionProvider = remember(gap) { BelowOrAbove(gap) }, onDismissRequest = onDismiss) {
+            AddToPlaylistMenu(viewModel, onCreate = { onDismiss(); creating = true })
         }
     }
     if (creating) {

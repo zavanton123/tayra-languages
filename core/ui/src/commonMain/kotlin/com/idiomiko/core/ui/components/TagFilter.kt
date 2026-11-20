@@ -58,9 +58,22 @@ fun TagFilterButton(
             badge = selected.size,
             trailingIcon = Icons.Default.ArrowDropDown,
         )
-        AppMenu(expanded = open, onDismissRequest = { open = false }, modifier = Modifier.width(TAG_FILTER_WIDTH)) {
-            TagFilterBody(available, selected, matchAll) { tags, all -> open = false; onApply(tags, all) }
-        }
+        TagFilterMenu(open, onDismiss = { open = false }, available, selected, matchAll, onApply)
+    }
+}
+
+/** The panel of [TagFilterButton] on its own, open while [expanded] beside whatever opens it; applying closes it. */
+@Composable
+fun TagFilterMenu(
+    expanded: Boolean,
+    onDismiss: () -> Unit,
+    available: List<String>,
+    selected: Set<String>,
+    matchAll: Boolean,
+    onApply: (tags: Set<String>, matchAll: Boolean) -> Unit,
+) {
+    AppMenu(expanded = expanded, onDismissRequest = onDismiss, modifier = Modifier.width(TAG_FILTER_WIDTH)) {
+        TagFilterBody(available, selected, matchAll) { tags, all -> onDismiss(); onApply(tags, all) }
     }
 }
 
