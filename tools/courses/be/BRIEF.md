@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Belarusian word frequency lis
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `be-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 3,840 words, so the courses run up to
-`be-mini-3900` (its band is ranks 3801–3840, 40 words).
+`themes.tsv` gives each course its theme. The list has 10,000 words, so the courses run up to
+`be-mini-10000` (ranks 9901–10000).
 
 ## What the lessons are: mini stories
 
@@ -72,10 +72,21 @@ story; a lesson never needs another lesson to make sense.
   - ranks 2501–3000: a richer, more formal register: connectors such as *між тым*, *аднак*, *з
     улікам*, *у сувязі з*, *што тычыцца*; long participle phrases; common idioms explained by their
     context;
-  - ranks 3001–3900: everything before, in a more literary, descriptive style: precise adjectives
+  - ranks 3001–4000: everything before, in a more literary, descriptive style: precise adjectives
     and clear images, the newspaper *калонка* and the *нарыс* (a light reflection on everyday life),
     dialogue that marks formal and informal speech, less common connectors (*абы толькі*,
-    *насуперак*, *хай нават*).
+    *насуперак*, *хай нават*);
+  - ranks 4001–5000 (C1): everything before, with more abstract and nuanced content: a short essay
+    or reflective column that weighs two sides, an interview, a portrait, a review;
+  - ranks 5001–6000 (C1): the same, with the more specialised words of professions, sciences and
+    the arts, each made clear by its context, and texts that explain a process or compare
+    viewpoints in some depth;
+  - ranks 6001–8000 (C1): the same, with figurative language and idioms used more freely, words
+    chosen for their shades of meaning, and topics that need some background, which the text
+    gives;
+  - ranks 8001–10000 (C2): texts close to what native readers meet: literary prose, academic and
+    journalistic registers, learned words explained by their context. Still standalone, calm and
+    easy to follow for a reader at the level.
   From rank 2000 a lesson may also be a short informative or opinion text (a *калонка*, a letter
   to a newspaper, a short report), as long as it is everyday, calm and easy to follow. Still one
   clear idea at a time: a learner at the level should follow every sentence on first reading.
@@ -173,7 +184,7 @@ Write `tools/courses/be/<id>.json`:
 }
 ```
 
-Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 3900 `B2`.
+Levels: up to rank 300 `A1`, up to 1000 `A2`, up to 2000 `B1`, up to 4000 `B2`, up to 8000 `C1`, after that `C2`.
 
 ## The rules, checked by `python3 tools/check_course.py tools/courses/be/<id>.json`
 
@@ -197,12 +208,17 @@ Things to know about the Belarusian list and the checker:
 
 - The courses are pinned to the list they were written against, `tools/courses/be/wordlist.tsv`
   (a copy of the app's `be.tsv`); the checker reads it instead of the app's list, so a rebuilt app
-  list does not move the bands. The `bands/*.txt` files come from it.
+  list does not move the bands. The `bands/*.txt` files come from it. Courses up to `be-mini-1600`
+  were written against the first list (3,840 words, built from the English Wiktionary's words alone);
+  the rebuilt list (2026-11-20) adds the Russian and Polish Wiktionaries' Belarusian words and the
+  words found in the corpus itself (*музей*, *фестываль*, *сцэна*, *квіток*, *транспарт*), and is
+  pinned with ranks 1–1600 as they were: rank 1601 on is the rebuilt list's order, so band 1700
+  holds its commonest new words (*жа*, *тэрыторыя*, *многі*, *арганізацыя*, *музей*).
 - The list was built from news, web and Wikipedia text (Leipzig corpora), so politics, history and
   the state rank high and everyday words rank late: *казаць* is 74 and *жыць* 115 (so *кажа* and
   *жыве* are fine in the first course), but *мама* is 963, *хлеб* 1100, *бабуля* 1185, *кот* 1416,
-  *тата* 1508, *кава* 1625. Check a word's rank rather than guess it. Its tail (from about rank
-  2000) is filled out with ordinary dictionary words, so everyday nouns are there, only late.
+  *тата* 1508, *кава* 3420. Check a word's rank rather than guess it. Everyday words rare in the
+  news (*туалет*, *агурок*, *варона*) are past rank 10,000 and not in the list.
 - The list files the forms of a word under its headword: the cases of nouns, adjectives and
   pronouns, the conjugation and the participles of verbs, usually the other aspect (*бачыць* holds
   *убачыць*, *чытаць* holds *прачытаць*, *ісці* holds *ішоў*; *зрабіць* and *рабіць* are entries of
@@ -224,13 +240,13 @@ Things to know about the Belarusian list and the checker:
   *убачыла*), so it cannot tell you when you got the rule wrong: check every *у*/*ў* yourself (the writers'
   `uw.py` flags the doubtful ones).
   Spelling variants of one word are entries of their own here and there (*лідар* 515 and *лідэр*
-  771; *расліна* 718 and *расьліна* 2657; *хаця* 661 and *хоць* 224; *заўсёды* 306 and *заўжды*
+  771; *хаця* 661 and *хоць* 222; *заўсёды* 306 and *заўжды*
   1313; *і* 2 and *й* 664): never teach the second one as a new word (it is the same word as the one
   taught before): skip it and say so.
 - The checker compares whole words, lowercased, the apostrophe folded (*сям'я*, *сям’я* and *сямʼя*
   are one word), split at hyphens (*хто-небудзь* is *хто* + *небудзь*, *па-беларуску* is *па* +
   *беларуску*): an entry written with a hyphen (*па-беларуску* 683, *з-за* 253, *які-небудзь* 1062,
-  *па-мойму* 2013) can never be counted as used, so skip it as a new word, and *небудзь*, not in the
+  *па-мойму* 5021) can never be counted as used, so skip it as a new word, and *небудзь*, not in the
   list, costs one outside word. The ending of an ordinal after its digits (*5-га*, *2-і*) is not
   counted, nor is a Roman numeral (*XX стагоддзе*). The `Пытанні:` header is not counted.
 - A **name** goes in `names` once, in the nominative (*Алеся*, *Пятрусь*, *Андрэй*, *Марыя*,
@@ -250,7 +266,9 @@ Things to know about the Belarusian list and the checker:
   adjectives of places (*беларускі* 28, *мінскі* 411, *віцебскі* 719, *гомельскі* 861), which are
   list words, not names. Day and month names are in the list (*панядзелак* 1282, *травень* 894).
 - The list's form lists are noisy (spellings without *ё* such as *самалет*, *знаемы*; taraškievica
-  spellings such as *сыстэма*, *зьмена*, *госьць*; unrelated words): a new word must appear as itself
+  spellings such as *сыстэма*, *зьмена*, *госьць*, which the rebuilt list files under their official
+  words: *пасьля* under *пасля*, *музэй* under *музей*, *прэзыдэнцкі* under *прэзідэнцкі*;
+  unrelated words): a new word must appear as itself
   or a true inflection, never through such a form, and a non-standard form the checker accepts is
   still wrong in the text. Some entries are not words to teach: Russian words and Russianisms
   (*харошы*, *скорасць*, *рэзультат*, *пуць*, *ігра*, *рысунак*, *поезд*, *стул*, *стакан*, *шаг*,
