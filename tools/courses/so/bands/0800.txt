@@ -1,0 +1,100 @@
+1	701	ciyaal	ciyaal ciyaalka ciyaalkayga ciyaalkii ciyaalkooda ciyaalkan ciyaalku ciyaalna ciyaalo ciyaalkani ciyaalkoodana ciyaalkeeda ciyaalkiisa ciyaalkiisu ciyaalkeena
+2	702	khamri	khamriga khamri khamrigaasi khamrigu khamrigan khamriyo khamridu khamrigii khamrigaas khamrigaaga
+3	703	musqul	musqusha musqulaha musqulo musqul musqushii musqulahiisa musqushiisa musqulood
+4	704	ogow	ogow ogowna ogowse
+5	705	cagaaran	cagaaran cagaarani
+6	706	geesi	geesi geesiga geesiyada geesigii geesigana geesiyadii geesigaas geesigu geesigeeda geesiyo
+7	707	shimbir	shimbir shimbiraha shimbirta shimbiro shimbirku shimbirahaas shinbir shimbiraheena shimbirkiis shimbirtii shimbirood shimbireed shimbirkii shimbirro shimbirtu
+8	708	dhoobo	dhoobada dhoobo dhoobadii dhoobadiiba
+9	709	gumeys	gumeys gumeysi gumeysto gumeysan gumeystay gumeystaan gumeyso gumeysaha gumeystaa gumeystey
+10	710	jaban	jaban jajaban jabani
+11	711	dameer	dameer dameeraha dameerkii dameerka dameero dameerkaagu dameerradii dameerood dameertii dameerkeedii dameerku dameerkayga dameerkaa dameerkaaga dameerkani dameerada dameerahaagii dameerkiisii dameerrada dameerta dameerkiisa dameerradoodii dameerro
+12	712	dhalaal	dhalaalaya dhalaali dhalaalka dhalaal dhalaalay dhalaalin dhalaalo dhalaala dhalaalid dhalaalaysa dhalaalayo dhalaasho dhalaalayey dhalaaleen dhalaaley dhalaashey dhalaashay dhalaalayay dhalaalaan dhalaashaan dhalaalaa dhalaalahooda dhalaalayaan
+13	713	bilaa	bilaa
+14	714	shaah	shaaha shaah shaahu shaaho shaahii shaahna shaaheeda shaahaaga
+15	715	hadiyad	hadiyad hadiyado hadiyadaha hadiyadda hadiyada hadiyadna hadiyaddii hadiyadeed hadiyadan hadiyadaas hadiyadahan hadiyaddaba hadiyadahaas hadiyadahoodii hadiyadii
+16	716	derbi	derbiga derbi derbiyada derbigii derbiyo derbiyadiisa derbiyadeeda derbiyadaas derbigeedii derbiyadiisu derbigan derbiguna derbiyadaada derbiyadii derbiyadiisii derbiyadooda
+17	717	dardar	dardar dardaro dardarta dardartii dardartay dardarnaa dardartan dardarteeda dardaray dardarin dardaroda
+18	718	jaalle	jaalaha jaale jaalle jaallayaal jaallada jaallaha jaalena jaallahay
+19	719	kalluun	kalluunka kalluun kalluunku kalluunkii kalluunkaas kalluunta kalluunkaasi kalluunkoodii kalluunna
+20	720	sabti	sabtidii sabtida sabti sabtidu sabtina sabtidiina sabtiga
+21	721	qaawan	qaawan qaawanayd qaawanaan qaawanahay qaawanayn qaawani qaawanaa
+22	722	lixdan	lixdan lixdankii lixdanka lixdankiiba lixdankaa lixdanadii
+23	723	buluug	buluug buluugga buluugada buluugta
+24	724	saan	saan saanada saanta saanyaday saanadan saanka saanadii saanteeda saantii saantiisa saankeeda saankuba
+25	725	hubso	hubso hubsaday hubsan hubsado hubsadaan hubsadeen hubsato hubsadaa hubsanin hubsanno hubsatay hubsatey hubsadey hubsanayaana hubsada hubsataa hubsanayaa hubsanayn hubsaneyn
+26	726	awr	awr awrka awrkii awrta awrkiisa awrba awrkeena awrkiinu awrkiisii awrkaasi awrku awrkaygii awrtaa awrkeeda awrtaba awrtii awrtaadana awrtooda
+27	727	tun	tuntay tumo tumi tuman tun tuntaan tunto tunteen tuna tuni tunayey tuntey tunta tuntid
+28	728	tari	tari tarin tariyo tarinayo
+29	729	kori	kori koriyo korin korinay koriyay korinta koriyey korisaa koriyaan korinayo koriya korinayn korinayaa korinaynay korinayso korisaan koriyaana korida korisey korisay koriso korinaynaa koriyaa korinaysa korinaysay korinteeda korisa koriyeyna
+30	730	lun	luntay lunto lun luntey lunta lunay luna luntaa lunnay
+31	731	guduud	guduud guduudan guduudka guduud' guduudani guduudan' guduudkooda guduudayn
+32	732	madhan	madhan madhani
+33	733	wanaaji	wanaajiyo wanaajinta wanaajin wanaajiyaan wanaajiyey wanaajiya wanaaji wanaajiso wanaajino wanaajiyay wanaajisaa wanaajineysa wanaajisay wanaajinaya wanaajinaa wanaajinteeda wanaajinaysaa wanaajintooda wanaajiyayna wanaajinayaa wanaajintiisa wanaajinayaan wanaajinaynaa wanaajintaa wanaajiyaa wanaajiyaa'
+34	734	carrab	carrabka carrab carrabkoodu carrabkii carrabkooda carrabkaaga carrabbo carrabkayga carrabkiina carrabkoodiina carrabku carrabyadoodu
+35	735	casaan	casaan casaanka casaanyada casaankii casaanyo casaanta
+36	736	aadame	aadamaha aadame aadamahu
+37	737	can	can canada canantay canka cano canood cantiisa
+38	738	intee	intee inteena
+39	739	sonkor	sonkorta sonkor sonkortu sonkortaada sonkortii sonkorna
+40	740	bisad	bisadaha bisad bisadda bisadayda bisado bisad' bisadu bisadi bisada bisadii bisadaasi bisadan bisadani bisaddu
+41	741	khamiis	khamiistii khamiis khamiista khamiisku khamiiska khamiistu khamiisyada khamiisyo
+42	742	hilmaam	hilmaami hilmaamay hilmaamin hilmaamno hilmaameen hilmaamaan hilmaanto hilmaamo hilmaam hilmaameyn hilmaamina hilmaamteen hilmaanta hilmaantay hilmaamayaan hilmaamayn hilmaamayo hilmaamka hilmaanteen
+43	743	qorsheyn	qorsheynta qorsheyn qorsheynaa qorsheyntii qorsheyntu qorsheyneyn qorsheynaha qorsheynayn
+44	744	cabitaan	cabitaanka cabitaan cabitaanada cabitaanno cabitaano cabitaankii cabitaankoodu cabitaannada cabitaanba
+45	745	dhowey	dhowey dhoweynta dhoweysay dhoweyey dhoweyeen dhoweyney dhoweyntiisa dhoweyntii dhoweyno dhoweynin dhoweysaan dhoweyseen dhoweyntan dhoweyntooda dhoweysey dhoweyay
+46	746	addoon	addoon addoonta addoonkaaga addoomo addoonkii addoonkiisa addoommo addoonka addoonada addoono addoonkiisii addoonkaygii addoontaada addoonkaagii addoonkayga addoonkaas addoonna addoonteedii addoontii addoontiisa
+47	747	bare	bare baraha barayaal barayaasha bareeyo barayaashiisa barayaashii baradii barahan bareeyaha barahaas barahaaga baradaadii baradeeda baradiis baradoodii baraheedu barayaashan barayaashu barada
+48	748	xanaaq	xanaaqay xanaaq xanaaqa xanaaqo xanaaqdaa xanaaqday xanaaqeen xanaaqaa xanaaqaagu xanaaqaba xanaaqdee xanaaqayga xanaaqaaga xanaaqda xanaaqu xanaaqii xanaaqoodiina
+49	749	jilib	jilib jilibka jilbo jilibkiisa jilibyadii jilibba jilibbada jilibkaaguna jilibkaasi jilibo jilibyada jilibyo
+50	750	kaneeco	kaneecada kaneecadu kaneecooyinkaas kaneeco kaneecooyin kaneecooyinkan kaneecooyinka kaneecadii
+51	751	qaniin	qaniinyada qaniinay qaniina qaniinka qaniinyo qaniintay qaniin qaniino qaniinto qaniinta qaniintaa qaniini qaniinaan qaniinana qaniinayaan qaniinayso qaniinyadaana qaniinyadaasi qaniinyadan qaniinaa qaniinyadiisu
+52	752	dillaac	dillaacay dillaac dillaaca dillaacaa dillaacdo dillaacday dillaaci dillaacaan dillaacin dillaaco dillaacayaan dillaacaya dillaaceysa dillaacyadooda
+53	753	soddon	soddon soddonka soddonkii soddonnadii soddonkaa
+54	754	gad	gaday gadi gadaa gada gadan gadaan gedi gadin gad gadayo gadey gadayey gadayso gadeen gaddo gadayaa gadaysa gadna gadow gadaya gadayaan gaddin gidi gaddaan gaddaa gadday gaddeen
+55	755	afaraad	afaraad afaraadna
+56	756	daruur	daruur daruuraha daruuro daruurta daruurtii daruurtay daruurada daruurro daruurtu daruurtiisana daruurtuna
+57	757	doqon	doqon doqonkii doqonku doqontii doqonka doqonta doqontu doqonkan doqonba doqonno doqonadu doqono doqonada
+58	758	naafo	naafada naafo naafadu naafooba naafadiisa naafaha
+59	759	konton	konton kontonka kontonkii kontonkiisii kontonkaa kontonkaaga kontonkeena kontonkan
+60	760	xishood	xishood xishoodo xishoodka xishooday xishoodeen xishoodku xishoodaa xishoodee xishoodkayaga xishoodkan xishoodkana xishoodkuba xishoodna xishoodkeed xishoodkii
+61	761	xab	xabbadood xabo xabbada xabbo xabbadu xab xabka xabna xabkeed
+62	762	qurxoon	qurxoon qurxoonaatay qurxoonna qurxoonayn
+63	763	halkee	halkee halkeese
+64	764	kolon	kolon kolonyo kolonyada kolonyadooda kolonyadan kolonyadii
+65	765	maaray	maaraynta maarayso maaraysay maarayaha maaraynteedu maarayntooda maaray maaraysa maaraysaa
+66	766	iloob	iloob iloobin iloobi iloobay iloobey iloobo iloobaan iloobaa iloobayo iloobeen ilooba iloobina iloobeyn iloobeysa
+67	767	sabool	saboolka sabool saboolku saboolkaba
+68	768	lo'	lo'da lo' lo'du lo'daa lo'aad lo'dani lo'deena lo'dii lo'na lo'diisiiba lo'aadna lo'ada lo'o lo'daada lo'daadana lo'dee lo'dooda lo'doodii
+69	769	xagee	xagee xageena xageeba xageese
+70	770	cagaar	cagaar cagaarka cagaarkooda cagaartay cagaaraan cagaarkaaga cagaarku
+71	771	dayr	dayrta dayr dayrka dayro dayrtii dayrkii dayrada dayrtay dayradaadii dayrkan
+72	772	duun	duun duunyo duunyada duunyadana duunka duunyoba duuno duunyadiisa duunyaday duunyadaa duunyadii duunyadiiba duunyadu duunyadaba duunku duunyadeeda
+73	773	wasakh	wasakhda wasakh wasakhahaasi wasakhayn wasakhdaasi wasakha wasakhdii wasakhdu wasakhyahay wasakhdaas
+74	774	mas	mas maska mas' maskii masas masasku maso masku masaska masta maskani masaskii maskan
+75	775	qoy	qoy qoyan qoyey qoysay qoynta qoyana qoyno qoyo qoynin qoyay qoyaa qoyanna qoyday qoya qoyayaan qoyntu qoyso
+76	776	haye	haye
+77	777	qadhaadh	qadhaadh qadhaadhaa qadhaadhahay qadhaadhaato qadhaadhi qadhaadha
+78	778	duhur	duhurkii duhur duhurka duhurkaase duhuradii duhurtii duhuryadii
+79	779	qiiq	qiiqa qiiq qiiqay qiiqna qiiqaas qiiqu qiiqdu
+80	780	khudaar	khudaarta khudaar khudaartii khudaartayda khudaar' khudaartaas
+81	781	uumi	uumi uumiga uumiyaha
+82	782	guray	guray gurayo gurayay gurayahooda
+83	783	nuug	nuugo nuuga nuugtaa nuugid nuugta nuug nuugaan nuugto nuugin nuugaya nuugaa nuugtay nuugayaan nuugi nuugayo nuugga nuugnaa nuugyada
+84	784	mataan	mataanaha mataano mataan mataankiisa mataanood mataanahan mataankiisuna mataanta
+85	785	xaggee	xaggee xaggeena
+86	786	ari	ari ariga arigii arina arigana ariguna ariga' arise arigan
+87	787	idinka	idinka idinkoo
+88	788	cayaar	cayaar cayaaro cayaaraan cayaaray cayaareen cayaara cayaaraa
+89	789	rooti	rooti rootiga rootida rootiyo
+90	790	haro	harada haro harooyinka haradayada haraha harooyin haro' haradaas harahooda harahu haroo
+91	791	jiilaal	jiilaalka jiilaal jiilaalkii jiilaalku jiilaalkaas jiilaalkiisii
+92	792	caws	cawska caws cawskaas cawskii cawskiisii cawskaaga cawsku
+93	793	qaamuus	qaamuuska qaamuus qaamuusyo qaamuusku qaamuuskan qaamuusyada qaamuuskiisa qaamuuskaasi qaamuuskiisii
+94	794	xaar	xaar xaarka xaaro xaarkeed xaaraha xaarku xaarta xaarkan xaarkeeda xaarkeedna xaarkii xaarkiina xaarkiisa xaarro
+95	795	tiraab	tiraabay tiraab tiraabta tiraabo tiraabi tiraabeen tiraabina tiraabtii tiraabtuna tiraabaan tiraabka
+96	796	jiran	jiran jiranaa
+97	797	aar	aar aarkii aarka aaraarta aarkeed aaro aaradii aaryada aarkay
+98	798	isniin	isniin isniinta isniintii
+99	799	shukaansi	shukaansi shukaansiga shukaansigu
+100	800	qoyaan	qoyaan qoyaanka qoyaankaaga qoyaankana
