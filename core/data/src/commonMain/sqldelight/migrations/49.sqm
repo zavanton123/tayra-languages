@@ -1,0 +1,3 @@
+-- Amharic words take every Ethiopic letter and the gemination marks (ሰ፟ማ, ፚ); an Amharic made before cut its words at them.
+UPDATE languages SET word_characters = 'ሀ-ፚ፝-፟፩-፼ᎀ-ᎏⶀ-ⷞꬁ-ꬮ'
+WHERE name = 'Amharic' AND parser_type = 'spacedel' AND word_characters = 'ሀ-ፙ፩-፼';

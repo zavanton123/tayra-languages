@@ -105,6 +105,13 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun amharicWordsAreCutAtItsWordSpaceAndKeepTheirGeminationMark() {
+        val amharic = LanguageDefinitions.all.first { it.name == "Amharic" }.language
+        assertEquals("[ልጁ]፡[ቤት]፡[ገባ]። [ሰ፟ማ]፣ [ፚ]!", tokensAsString("ልጁ፡ቤት፡ገባ። ሰ፟ማ፣ ፚ!", amharic))
+        assertEquals(listOf(true, false), parser.parse("ገባ። ቤቱ", amharic).filter { !it.isWord }.map { it.isEndOfSentence })
+    }
+
+    @Test
     fun legacyHexEscapesAreConverted() {
         val arabic = TestLanguages.generic.copy(wordCharacters = "\\x{0600}-\\x{06FF}")
         assertEquals("[مرحبا] [بكم]", tokensAsString("مرحبا بكم", arabic))

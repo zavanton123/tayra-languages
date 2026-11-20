@@ -1,0 +1,24 @@
+name: Amharic
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://www.amharicpro.com/index.php?dr=101&searchkey=[WORD]"
+  - for: terms
+    type: popup
+    url: "https://dictionary.abyssinica.com/[WORD]"
+  - for: terms
+    type: embedded
+    url: "http://www.amharicdictionary.com/Home/Index/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=am&tl=en&text=[WORD]&op=translate"
+  - for: terms
+    type: embedded
+    url: "https://www.verbix.com/webverbix/go.php?&D1=252&T1=[WORD]"
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥"
+split_sentences: ".!¡?።፧፠፨"
+split_sentence_exceptions: "[A-Z].|[\\u1200-\\u1359\\u1369-\\u137C].|ዓ.ም.|እ.ኤ.አ.|ዓክልበ.|እ.አ.አ.|ኪ.ሜ.|ክ.በ.|እ.ኤ.ኣ.|ዓ.ዓ.|ኤ.አ.|አ.አ.|ወዘተ.|አ.ም.|ምዕ."
+word_chars: "\\u1200-\\u135A\\u135D-\\u135F\\u1369-\\u137C\\u1380-\\u138F\\u2D80-\\u2DDE\\uAB01-\\uAB2E"
+right_to_left: false
+show_romanization: true
+parser_type: spacedel

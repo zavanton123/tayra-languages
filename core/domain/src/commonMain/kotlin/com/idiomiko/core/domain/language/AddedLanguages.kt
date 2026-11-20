@@ -30,6 +30,26 @@ object AddedLanguages {
         ),
     )
 
+    private fun amharic() = LanguageDefinition(
+        language = Language(
+            name = "Amharic",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.amharicpro.com/index.php?dr=101&searchkey=[WORD]", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://dictionary.abyssinica.com/[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "http://www.amharicdictionary.com/Home/Index/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=am&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://www.verbix.com/webverbix/go.php?&D1=252&T1=[WORD]", isActive = true, sortOrder = 5),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥",
+            regexpSplitSentences = ".!¡?።፧፠፨",
+            exceptionsSplitSentences = "[A-Z].|[\\u1200-\\u1359\\u1369-\\u137C].|ዓ.ም.|እ.ኤ.አ.|ዓክልበ.|እ.አ.አ.|ኪ.ሜ.|ክ.በ.|እ.ኤ.ኣ.|ዓ.ዓ.|ኤ.አ.|አ.አ.|ወዘተ.|አ.ም.|ምዕ.",
+            wordCharacters = "\\u1200-\\u135A\\u135D-\\u135F\\u1369-\\u137C\\u1380-\\u138F\\u2D80-\\u2DDE\\uAB01-\\uAB2E",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun ancientGreek() = LanguageDefinition(
         language = Language(
             name = "Ancient Greek",
@@ -592,6 +612,7 @@ object AddedLanguages {
     val all: List<LanguageDefinition> by lazy {
         listOf(
             afrikaans(),
+            amharic(),
             ancientGreek(),
             arabic(),
             assyrian(),
