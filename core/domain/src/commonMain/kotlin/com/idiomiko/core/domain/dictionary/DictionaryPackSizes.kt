@@ -45,7 +45,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "uk-fr" to 3_791_066L, "uk-pt" to 119_133L, "uk-ru" to 4_771_558L,
     ),
     "dictionaries-v2" to mapOf(
-        "af-en" to 634_348L, "aii-en" to 575_695L, "am-en" to 216_382L, "az-en" to 16_870_128L, "ar-en" to 7_903_435L, "ar-fr" to 1_157_530L, "ar-pl" to 2_562_403L, "ar-pt" to 316_687L,
+        "af-en" to 634_348L, "aii-en" to 575_695L, "am-en" to 1_188_085L, "az-en" to 16_870_128L, "ar-en" to 7_903_435L, "ar-fr" to 1_157_530L, "ar-pl" to 2_562_403L, "ar-pt" to 316_687L,
         "ar-ru" to 3_080_252L, "ar-zh" to 851_214L, "arz-en" to 159_960L, "be-pl" to 2_074_197L, "be-zh" to 282_582L,
         "bg-pl" to 3_794_653L, "bg-zh" to 598_009L, "bn-en" to 1_489_308L, "br-en" to 412_199L, "br-fr" to 2_047_497L, "br-ru" to 115_958L,
         "bs-en" to 6_288_411L, "bs-zh" to 1_114_855L, "ca-pl" to 834_445L, "ca-zh" to 1_704_978L, "cs-el" to 243_078L,
