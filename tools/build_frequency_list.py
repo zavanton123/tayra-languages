@@ -70,6 +70,7 @@ import frequency_somali  # noqa: E402
 import frequency_yoruba  # noqa: E402
 import frequency_yiddish  # noqa: E402
 import frequency_latvian  # noqa: E402
+import frequency_belarusian  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DICTIONARIES = os.path.join(ROOT, "dictionaries")
@@ -3186,6 +3187,8 @@ def normalise(language, form):
         return frequency_afrikaans.normalised(form)
     if language == "uz":
         return frequency_uzbek.normalise(form)
+    if language == "be":
+        return frequency_belarusian.normalise(form)
     return form
 
 
@@ -6047,6 +6050,8 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
+    if language == "be":
+        frequency_belarusian.mend(freq, pos, lemmas, common, DICTIONARIES, overrides, excluded, FALLBACKS["be"]["leipzig"])
     verbal_nouns = verbal_nouns or {}
     if language == "haw":
         overrides, excluded = hawaiian_words(freq, pos, lemmas, common, overrides, excluded)
