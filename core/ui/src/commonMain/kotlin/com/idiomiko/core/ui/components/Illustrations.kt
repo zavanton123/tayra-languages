@@ -9,6 +9,7 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import org.jetbrains.compose.resources.painterResource
 import idiomiko.core.ui.generated.resources.Res
 import idiomiko.core.ui.generated.resources.archived_books_empty_monkey
+import idiomiko.core.ui.generated.resources.find_books_monkey_v4
 import idiomiko.core.ui.generated.resources.illustration_courses
 import idiomiko.core.ui.generated.resources.illustration_flashcards
 import idiomiko.core.ui.generated.resources.illustration_journey
@@ -36,4 +37,10 @@ fun JourneyIllustration(modifier: Modifier = Modifier) {
 @Composable
 fun ArchivedBooksIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.archived_books_empty_monkey), contentDescription = null, modifier = modifier)
+}
+
+/** The mascot reading through a magnifying glass beside a stack of books: finding books to read. */
+@Composable
+fun FindBooksIllustration(modifier: Modifier = Modifier) {
+    Image(painterResource(Res.drawable.find_books_monkey_v4), contentDescription = null, modifier = modifier)
 }

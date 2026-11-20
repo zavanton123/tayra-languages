@@ -84,6 +84,7 @@ import com.idiomiko.core.ui.components.Crumb
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconTile
+import com.idiomiko.core.ui.components.FindBooksIllustration
 import com.idiomiko.core.ui.components.JourneyIllustration
 import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -204,7 +205,7 @@ private fun Hero(state: FindBooksUiState, actions: FindBooksActions, knownWords:
             }
         }
         if (picture) {
-            JourneyIllustration(Modifier.align(Alignment.BottomEnd).padding(end = AppSpacing.huge).width(HERO_PICTURE).offset(y = HERO_PICTURE_DROP).testTag("hero-mascot"))
+            FindBooksIllustration(Modifier.align(Alignment.BottomEnd).padding(end = AppSpacing.huge, bottom = AppSpacing.m).width(HERO_MASCOT).testTag("hero-mascot"))
         }
     }
 }
@@ -699,7 +700,8 @@ private val HERO_PADDING_TOP = 28.dp
 private val HERO_SEARCH_HEIGHT = 52.dp
 private val HERO_SEARCH_RADIUS = 14.dp
 private val HERO_PICTURE = 270.dp
-private val HERO_PICTURE_DROP = 34.dp
+/** The mascot's width: about as tall as the hero's words, so it sits inside the hero whole. */
+private val HERO_MASCOT = 210.dp
 private val HERO_PICTURE_FROM = 760.dp
 
 /** The white tab under a cover's share and its add button, a touch see-through. */
