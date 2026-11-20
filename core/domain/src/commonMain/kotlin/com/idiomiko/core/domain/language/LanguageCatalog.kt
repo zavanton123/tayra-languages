@@ -11,7 +11,7 @@ object LanguageCatalog {
         "Icelandic", "Indonesian", "Irish", "Italian", "Japanese", "Kannada", "Kazakh", "Khmer", "Korean", "Lao",
         "Latin", "Latvian", "Lithuanian", "Macedonian", "Malay", "Maltese", "Mandarin Chinese", "Manx",
         "Mongolian", "Norwegian", "Old Irish", "Polish", "Portuguese", "Punjabi", "Romanian", "Russian",
-        "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swedish", "Tagalog", "Tamil", "Telugu", "Thai",
+        "Scottish Gaelic", "Serbian", "Slovak", "Slovene", "Spanish", "Swahili", "Swedish", "Tagalog", "Tamil", "Telugu", "Thai",
         "Toki Pona", "Turkish", "Ukrainian", "Urdu", "Vietnamese", "Welsh", "Yiddish",
     )
 

@@ -2650,6 +2650,46 @@ På en dator gör kortkommandon läsningen snabbare. Siffrorna 1 till 4 väljer 
 
 I Inställningar kan du också välja ditt modersmål, appens språk, ordböcker för offlinebruk och röster. Öppna nu Kurser, välj den första kursen och börja läsa. Lycka till!""",
             ),
+            "sw" to Tutorial(
+                title = "Jinsi ya kujifunza na Idiomiko",
+                text = """Karibu Idiomiko! Kitabu hiki kifupi kinakuonyesha jinsi ya kutumia programu hii kujifunza lugha kwa kusoma. Kimeandikwa katika lugha unayojifunza, kwa hiyo pia ni maandishi yako ya kwanza ya mazoezi. Usijali kama bado huelewi kila neno.
+
+Kwa nini kusoma kunafaa
+
+Tunajifunza lugha vizuri zaidi kutokana na maandishi mengi ya kuvutia ambayo karibu tunaweza kuyaelewa. Unapojua maneno mengi kwenye ukurasa, unaweza kubahatisha mengine, na kila neno jipya linakuwa rahisi zaidi kukumbuka. Idiomiko inakusaidia kupata maandishi kama hayo na inakumbuka kila neno unalokutana nalo.
+
+Rangi zinaonyesha unachokijua
+
+Maneno ambayo bado hujayahifadhi ni ya bluu: ni mapya kwako. Bofya neno ili kuona tafsiri yake katika lugha yako ya mama, kulitafuta katika kamusi au kusikia jinsi linavyotamkwa. Kisha chagua jinsi unavyolijua. Hali kuanzia 1 hadi 4 zinamaanisha kwamba bado unajifunza neno hilo, na rangi yake inafifia kadiri unavyolijifunza. Linajulikana inamaanisha kwamba unalijua neno vizuri, na hapo halina rangi kabisa. Puuza ni kwa ajili ya majina, namba na maneno mengine ambayo huhitaji kujifunza. Unaweza pia kuhifadhi kirai cha maneno kadhaa pamoja.
+
+Maliza kila ukurasa
+
+Mwishoni mwa ukurasa, weka alama kwamba maneno yaliyobaki yanajulikana. Kila neno la bluu lililobaki kwenye ukurasa linakuwa linajulikana. Hivi ndivyo Idiomiko inavyojua maneno ambayo tayari unayajua, kwa hiyo kuwa mkweli: ikiwa neno bado halieleweki, libofye kwanza na ulipe hali ya kujifunza. Kisha ukurasa unaofuata unaonyesha maneno machache ya bluu.
+
+Sikiliza na utafsiri
+
+Bonyeza kitufe cha kucheza ili kusikia maandishi yakisomwa kwa sauti, sentensi baada ya sentensi. Ukiwasha kusitisha kiotomatiki, usomaji unasimama baada ya kila sentensi, ili uweze kuirudia. Ikiwa sentensi ni ngumu sana, unaweza kuitafsiri, lakini kwanza jaribu kuielewa mwenyewe.
+
+Kozi na maandishi yako mwenyewe
+
+Skrini ya Kozi ina kozi zilizo tayari: hadithi fupi na rahisi, kuanzia kiwango rahisi zaidi, A1, hadi kigumu zaidi, C2. Kila kozi inafundisha maneno mia moja yanayofuata kati ya yale yanayotumika zaidi katika lugha. Unaweza kupakua kozi za lugha yako katika Mipangilio, chini ya Kozi. Katika Vitabu unaweza pia kuongeza maandishi yako mwenyewe: bandika makala, leta faili, au tengeneza kozi yako mwenyewe kutokana na maandishi unayochagua.
+
+Kiwango chako cha msamiati
+
+Katika Msamiati, orodha ya maneno kwa kadiri yanavyotumika inaonyesha maneno yanayotumika zaidi katika lugha yako. Ikiwa tayari unaijua lugha kidogo, weka kiwango chako cha msamiati hapo, na Idiomiko itaweka alama kwamba maneno yanayotumika zaidi yanajulikana kwa ajili yako.
+
+Kadi za kumbukumbu
+
+Kila neno unalojifunza linapata kadi ya kumbukumbu. Kila siku, pitia kadi zilizofikia wakati wake katika Kadi za kumbukumbu; dakika chache zinatosha. Kusoma bado ndiyo kazi kuu, na kadi za kumbukumbu zinasaidia maneno mapya yabaki nawe.
+
+Ifanye kuwa mazoea
+
+Soma kidogo kila siku, hata kwa dakika kumi. Chagua maandishi unayoyafurahia, na uyasome zaidi ya mara moja. Sikiliza na usome kwa wakati mmoja. Usihifadhi kila neno: hifadhi maneno unayotaka kujifunza, na uendelee kusoma. Unaweza kuona maendeleo yako katika takwimu, na katika maneno ambayo si ya bluu tena.
+
+Kwenye kompyuta, njia za mkato za kibodi zinafanya usomaji uwe wa haraka zaidi. Namba kuanzia 1 hadi 4 zinatoa hali, K inaweka alama kwamba neno linajulikana, I inalipuuza, T inatafsiri sentensi na kitufe cha nafasi kinacheza au kusitisha sauti. Utazipata zote katika Mipangilio, chini ya Njia za mkato za kibodi.
+
+Katika Mipangilio unaweza pia kuchagua lugha yako ya mama, lugha ya kiolesura, kamusi za nje ya mtandao na sauti. Sasa fungua Kozi, chagua kozi ya kwanza na uanze kusoma. Kila la heri!""",
+            ),
             "ta" to Tutorial(
                 title = "Idiomiko மூலம் கற்பது எப்படி",
                 text = """Idiomiko-க்கு வரவேற்கிறோம்! படிப்பதன் மூலம் ஒரு மொழியைக் கற்க இந்தச் செயலியை எப்படிப் பயன்படுத்துவது என்று இந்தச் சிறிய புத்தகம் உங்களுக்குக் காட்டுகிறது. இது நீங்கள் கற்கும் மொழியிலேயே எழுதப்பட்டுள்ளது, எனவே இதுவே உங்கள் முதல் பயிற்சி உரையும் ஆகும். ஒவ்வொரு சொல்லும் இன்னும் புரியவில்லை என்றால் கவலைப்பட வேண்டாம்.
