@@ -73,7 +73,7 @@ LANGUAGES = [
     "uk", "ga", "cy", "gv", "mt", "tl", "hy", "ka", "sq", "eo", "eu", "gd", "kw", "haw", "bs",
     "id", "mn", "vi", "br", "tok", "sga", "grc", "ar", "arz", "he", "fa", "yi", "aii", "hi", "kn", "bn",
     "az",
-    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne",
+    "th", "lo", "km", "zh", "yue", "ja", "ko", "ms", "af", "sw", "kk", "ur", "ta", "pa", "te", "ne", "ps",
 ]
 
 # wordfreq's code where it differs from the app's. wordfreq also answers for a language it lacks
@@ -116,6 +116,7 @@ FALLBACKS = {
            "wikipedia_sentences": ["afr_wikipedia_2021_300K"], "frequencywords": "af"},
     "ur": {"leipzig": ["urd_newscrawl_2016_1M", "urd_wikipedia_2021_300K"]},
     "pa": {"leipzig": ["pan_wikipedia_2021_300K", "pan-in_web_2015_100K"]},
+    "ps": {"leipzig": ["pus_news_2020_100K", "pus_newscrawl_2011_100K"], "wikipedia_sentences": ["pus_wikipedia_2021_30K"]},
 }
 
 # Languages written without spaces: a corpus's runs of letters are cut into words as the app's
@@ -257,6 +258,11 @@ SOURCE_ORDER["ta"] = ["wordfreq", "frequencywords", "leipzig"]
 FALLBACKS["ta"] = {"leipzig": ["tam_newscrawl_2011_1M", "tam_news_2019_100K", "tam_news_2020_100K"]}
 BLEND.add("ta")
 SOURCE_WEIGHTS["ta"] = {"wordfreq": 0.4, "frequencywords": 0.2, "leipzig": 0.4}
+# Pashto has neither wordfreq nor subtitles: it is counted from Leipzig's news (200,000 sentences of 2011 and 2020) and, at a
+# fifth of the blend, its Wikipedia's sentences.
+SOURCE_ORDER["ps"] = ["leipzig", "wikipedia_sentences"]
+BLEND.add("ps")
+SOURCE_WEIGHTS["ps"] = {"leipzig": 0.8, "wikipedia_sentences": 0.2}
 
 # The gloss language of the pack whose forms group a language's words, where English's is small.
 DICTIONARY_TARGETS = {"br": "fr"}
@@ -305,6 +311,10 @@ import frequency_persian  # noqa: E402
 import frequency_urdu  # noqa: E402
 OVERRIDES["ur"] = frequency_urdu.OVERRIDES
 EXCLUDE["ur"] = frequency_urdu.EXCLUDE
+import frequency_pashto  # noqa: E402
+OVERRIDES["ps"] = frequency_pashto.OVERRIDES
+EXCLUDE["ps"] = frequency_pashto.EXCLUDE
+DISPLAY["ps"] = frequency_pashto.DISPLAY
 import frequency_mongolian  # noqa: E402
 import frequency_lao  # noqa: E402
 import frequency_km  # noqa: E402
@@ -3107,6 +3117,8 @@ def normalise(language, form):
         return frequency_persian.persian_fold(form)
     if language == "ur":
         return frequency_urdu.urdu_fold(form)
+    if language == "ps":
+        return frequency_pashto.pashto_fold(form)
     if language == "hy":
         return armenian_unmarked(form)
     # Some Vietnamese subtitles write a tone mark as a letter of its own, which the reader and the pack join to the vowel.
@@ -3189,6 +3201,8 @@ def lower(language, text):
     """Lowercase as the language does: Turkish and Azerbaijani dotted and dotless i keep apart."""
     if language in ("tr", "az"):
         text = text.replace("I", "ı").replace("İ", "i")
+    if language == "ps":
+        return frequency_pashto.pashto_fold(text)
     return text.lower()
 
 
@@ -3273,6 +3287,10 @@ def leipzig_counts(language, limit, source="leipzig"):
         used.append(corpus)
         if language == "vi":
             for word, n in vietnamese_sentence_counts(path).items():
+                counts[word] = counts.get(word, 0) + n
+            continue
+        if language == "ps":
+            for word, n in frequency_pashto.sentence_counts(path).items():
                 counts[word] = counts.get(word, 0) + n
             continue
         if language in LEIPZIG_DEDUPED:
@@ -4652,7 +4670,7 @@ def load_dictionary(language):
                 else:
                     AZERBAIJANI_OWN.add(word_lc)
         # Hindi's postpositions (का, को, से, ने) are its prepositions, and Mongolian's (тухай, хооронд, төлөө).
-        if language in ("hi", "mn", "kk", "ur", "pa") and p == "postp":
+        if language in ("hi", "mn", "kk", "ur", "pa", "ps") and p == "postp":
             p = "prep"
         # And Basque's (ondoren, aurka, gabe).
         if language == "eu" and p == "postp":
@@ -4687,6 +4705,11 @@ def load_dictionary(language):
             common.setdefault(word_lc, word)
         elif language == "mt" and p == "noun" and word_lc in MALTESE_CAPITALISED and lower(language, word) == word_lc:
             common.setdefault(word_lc, word)
+        # A Pashto word is matched folded (چي) and shown as spelled, in its Afghan spelling where the pack has several (چې, not
+        # چي or چی).
+        elif language == "ps":
+            if word_lc not in common or frequency_pashto.spelling_rank(word) > frequency_pashto.spelling_rank(common[word_lc]):
+                common[word_lc] = word
     # A noun the dictionary also lists as a rare lowercase word ("zeit") keeps its capital.
     common.update(DISPLAY.get(language, {}))
     if language == "br":
@@ -5778,6 +5801,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "pa":
         # Punjabi words in Gurmukhi letters alone: its Shahmukhi, English and digits are no words of the list.
         for w in [w for w in freq if not PUNJABI_LETTERS.fullmatch(w)]:
+            del freq[w]
+    if language == "ps":
+        for w in [w for w in freq if not frequency_pashto.LETTERS.fullmatch(w)]:
             del freq[w]
     label = " + ".join(f"{label} ({SOURCE_LICENCES.get((language, name), SOURCE_LICENCES[name])})" for name, _, label in found)
     if language == "kk":
