@@ -61,7 +61,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "fr-el" to 5_628_018L, "fr-pl" to 3_588_101L, "fr-zh" to 5_034_449L, "ga-en" to 3_782_364L, "ga-es" to 275_065L,
         "ga-fr" to 406_352L, "ga-pl" to 314_312L, "ga-ru" to 583_638L, "gd-en" to 1_011_449L, "gd-pt" to 96_464L,
         "gd-ru" to 156_834L, "gl-pl" to 310_884L, "gl-zh" to 1_004_540L, "grc-de" to 1_244_348L, "grc-el" to 10_485_869L,
-        "grc-en" to 16_952_921L, "grc-fr" to 8_367_884L, "grc-ru" to 8_602_407L, "gv-en" to 236_180L, "haw-en" to 202_093L,
+        "grc-en" to 16_952_921L, "grc-fr" to 8_367_884L, "grc-ru" to 8_602_407L, "gv-en" to 432_357L, "haw-en" to 202_093L,
         "haw-ru" to 49_497L, "he-en" to 1_564_871L, "he-es" to 166_740L, "he-pl" to 199_503L, "he-ru" to 656_278L,
         "he-zh" to 192_829L, "hi-en" to 1_936_680L, "hi-fr" to 82_898L, "hi-pl" to 203_813L, "hi-ru" to 366_352L,
         "hi-zh" to 257_949L, "hr-zh" to 1_124_075L, "hu-pl" to 10_094_162L, "hu-zh" to 3_616_755L, "hy-en" to 12_031_638L,
