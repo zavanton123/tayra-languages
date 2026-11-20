@@ -257,6 +257,7 @@ SINHALA_WORDS = {
     "යොදනවා": "verb", "සොයනවා": "verb", "ඉල්ලනවා": "verb", "පෙන්වනවා": "verb", "පවතිනවා": "verb", "පිහිටනවා": "verb",
     # Words a verb's rule form is spelled as: වඩා "than", වහාම "at once", ගහන "population", වහල "roof", දක්වා "until".
     "වඩා": "adv", "වහාම": "adv", "ගහන": "noun", "වහල": "noun", "දක්වා": "postp", "ගණන": "noun", "යැයි": "particle",
+    "පැහැදිලි": "adj", "නියමිත": "adj",
 }
 # Everyday words the pack lacks, with their kind and an English gloss: they go into the pack too (build_dictionary).
 HAND_ENTRIES = {
