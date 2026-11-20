@@ -177,6 +177,16 @@ def grc_name_forms(names):
 GRC_ELISION = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff][’'᾽ʼ](?![^\W\d_])")
 
 
+_SINHALA_FORMS = None
+
+
+def _sinhala_forms():
+    global _SINHALA_FORMS
+    if _SINHALA_FORMS is None:
+        _SINHALA_FORMS = set(load_list("si")[0])
+    return _SINHALA_FORMS
+
+
 def sinhala_problems(text):
     """What makes a Sinhala text spelled otherwise than the list: not NFC, a joiner astray, a conjunct without its joiner."""
     problems = []
@@ -185,7 +195,10 @@ def sinhala_problems(text):
     for word in sorted(set(SINHALA_WORD.findall(text.replace("\u200c", "")))):
         if frequency_sinhala.STRAY_JOINER.search(word):
             problems.append(f"a joiner astray in '{word}': it goes only after al-lakuna, in ්‍ර ්‍ය and ක්‍ෂ")
-        if re.search("\u0dca[\u0dbb\u0dba]", word):
+        # Repaya (ර්ය) and a plain al-lakuna before ර/ය (දුම්රිය) are written without the joiner, as the list has them:
+        # only a word the list knows solely in its joined spelling is flagged.
+        joined = re.sub("\u0dca(?=[\u0dbb\u0dba])", "\u0dca\u200d", word)
+        if joined != word and word not in _sinhala_forms() and joined in _sinhala_forms():
             problems.append(f"'{word}' has ්ර or ්ය without the joiner: write ්\u200dර, ්\u200dය (the reader takes them for other words)")
     return problems
 
