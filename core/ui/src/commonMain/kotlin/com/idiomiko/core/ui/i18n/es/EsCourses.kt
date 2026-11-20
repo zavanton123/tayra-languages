@@ -50,8 +50,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "Common words {0}–{1}" to "Palabras frecuentes {0}–{1}",
     "Sample course" to "Curso de ejemplo",
     "Courses" to "Cursos",
-    "Guided lessons to read, level by level." to "Lecciones guiadas para leer, nivel a nivel.",
-    "Guided {0} lessons to read, level by level." to "Lecciones guiadas en {0} para leer, nivel a nivel.",
     "Create" to "Crear",
     "New course" to "Nuevo curso",
     "Choose a language to learn to see its courses." to "Elige un idioma que aprender para ver sus cursos.",

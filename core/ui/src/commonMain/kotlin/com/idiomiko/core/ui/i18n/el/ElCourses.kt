@@ -50,8 +50,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "Common words {0}–{1}" to "Συχνές λέξεις {0}–{1}",
     "Sample course" to "Δείγμα μαθήματος",
     "Courses" to "Μαθήματα",
-    "Guided lessons to read, level by level." to "Καθοδηγούμενες ενότητες για ανάγνωση, επίπεδο προς επίπεδο.",
-    "Guided {0} lessons to read, level by level." to "Καθοδηγούμενες ενότητες στα {0} για ανάγνωση, επίπεδο προς επίπεδο.",
     "Create" to "Δημιουργία",
     "New course" to "Νέο μάθημα",
     "Choose a language to learn to see its courses." to "Επιλέξτε μια γλώσσα εκμάθησης για να δείτε τα μαθήματά της.",

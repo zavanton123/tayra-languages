@@ -48,9 +48,7 @@ import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.Segment
-import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.formatCount
-import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
@@ -144,11 +142,6 @@ internal fun viewSegments(): List<Segment<CoursesView>> =
         Segment(view, icon, label = null, description = label, testTag = "view-${view.name}")
     }
 
-@Composable
-internal fun coursesSubtitle(state: CoursesUiState): String =
-    if (state.languageName.isEmpty()) tr("Guided lessons to read, level by level.")
-    else tr("Guided {0} lessons to read, level by level.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))
-
 /**
  * Where each level's courses are on the page, which of them are open, and the way to scroll to one: a level
  * chosen on the journey opens and comes into view.
@@ -199,7 +192,7 @@ internal fun rememberJourneyNav(): JourneyNav {
 internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modifier: Modifier = Modifier) {
     if (state.courses.isEmpty()) {
         ScrollColumn(modifier.fillMaxSize(), contentModifier = Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-            ScreenHeader(tr("Courses"), coursesSubtitle(state))
+            ScreenHeader(tr("Courses"), subtitle = null)
             EmptyCourses(state, actions.onNewCourse, actions.onDownloadCourses)
         }
         return
@@ -226,7 +219,7 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
             contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + BAR_ROOM, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
             verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
         ) {
-            ScreenHeader(tr("Courses"), coursesSubtitle(state))
+            ScreenHeader(tr("Courses"), subtitle = null)
             BoxWithConstraints(Modifier.fillMaxWidth()) {
                 val columns = when {
                     maxWidth >= FOUR_COLUMNS -> 4

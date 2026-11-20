@@ -58,7 +58,6 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
     ) {
         // A phone's bar names the page; a wider window's column has its title.
         if (!phone) Text(tr("Courses"), style = AppText.pageTitle)
-        Text(coursesSubtitle(state), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
         if (state.courses.isEmpty()) {
             EmptyCourses(state, actions.onNewCourse, actions.onDownloadCourses)
             return@ScrollColumn

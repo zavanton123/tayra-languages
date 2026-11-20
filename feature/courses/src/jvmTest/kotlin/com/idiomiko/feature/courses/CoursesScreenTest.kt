@@ -168,7 +168,7 @@ class CoursesScreenTest {
         val opened = mutableListOf<String>()
         page(viewModel, onOpen = { opened += it })
         waitFor("next-lesson")
-        onNodeWithText("Guided Portuguese lessons to read, level by level.").assertExists()
+        onNodeWithText("Guided Portuguese lessons to read, level by level.").assertDoesNotExist()
         // Nothing is read and no words are counted: the journey starts at A1, with its first lesson.
         onNodeWithText("START HERE · EM CASA E COM A FAMÍLIA").assertExists()
         onNodeWithTag("course-pt-mini-0100").assertIsDisplayed()

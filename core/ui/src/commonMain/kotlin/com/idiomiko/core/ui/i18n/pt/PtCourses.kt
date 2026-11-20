@@ -50,8 +50,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Common words {0}–{1}" to "Palavras frequentes {0}–{1}",
     "Sample course" to "Curso de exemplo",
     "Courses" to "Cursos",
-    "Guided lessons to read, level by level." to "Lições guiadas para ler, nível por nível.",
-    "Guided {0} lessons to read, level by level." to "Lições guiadas em {0} para ler, nível por nível.",
     "Create" to "Criar",
     "New course" to "Novo curso",
     "Choose a language to learn to see its courses." to "Escolha um idioma de estudo para ver os cursos dele.",

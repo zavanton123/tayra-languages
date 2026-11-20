@@ -50,8 +50,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Common words {0}–{1}" to "常用词 {0}–{1}",
     "Sample course" to "示例课程",
     "Courses" to "课程",
-    "Guided lessons to read, level by level." to "循序渐进的分级阅读课文。",
-    "Guided {0} lessons to read, level by level." to "循序渐进的分级{0}阅读课文。",
     "Create" to "创建",
     "New course" to "新建课程",
     "Choose a language to learn to see its courses." to "选择要学习的语言，即可查看相应课程。",
