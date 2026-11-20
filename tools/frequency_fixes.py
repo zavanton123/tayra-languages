@@ -1244,6 +1244,10 @@ _OVERRIDES_D = {
         "piektdien": ["piektdiena"], "sestdien": ["sestdiena"], "svētdien": ["svētdiena"], "drīzāk": ["drīz"],
         # nekur "nowhere", which the pack files under nekurt, kurt's negated verb.
         "nekur": ["nekur"],
+        # vērt "to thread, to open", which the pack files under vērst too, with its forms (ver, vēra, veru).
+        "vērt": ["vērt"],
+        # pārskatu and pārskati, the report's cases more than pārskatīt's "I, you review".
+        "pārskatu": ["pārskats"], "pārskati": ["pārskats"],
     },
     # Estonian: pronoun case forms (mu, mind, mul, sind, teda, neid...) are tied to more than 6 words in
     # the dictionary and were dropped; ma/sa/ta/me/te/nad were separate from mina/sina/tema/meie/teie/nemad;
@@ -1308,8 +1312,8 @@ _EXCLUDE_D = {
     # Abbreviations
     "lt": {"mln", "proc", "tūkst", "kt", "kt.", "mėn", "mėn.", "tolia", "toliai", "tolių", "tolui", "galį", "galio", "galis"},
     # Latvian: Kristus (Christ), counted for krist and krusts, and Francija's cases, which the regular forms of francijs
-    # "francium" would take.
-    "lv": {"kristus", "francija", "francijas", "francijā", "franciju", "francijai"},
+    # "francium" would take; and pievērties, made of pievērt, which the counts have only as pieveries.
+    "lv": {"kristus", "francija", "francijas", "francijā", "franciju", "francijai", "pievērties"},
     # Estonian: names and English in the subtitles (and, kate, frank, pete are also rare Estonian words, which keep their
     # other forms), and simplemma's guesses ist (of istus) and ühendriik (Ühendriigid, a name).
     "et": {"and", "kate", "frank", "pete", "don", "morgan", "morgana", "morgani", "morganit", "morganiga", "morganile",

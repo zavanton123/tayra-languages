@@ -6021,8 +6021,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # And the Uzbek ones, whose counts also settle which verbs are folded into others (frequency_uzbek).
         frequency_uzbek.SEEN = freq
     if language == "lv":
-        # And the Latvian forms made for the words (frequency_latvian).
+        # And the Latvian forms made for the words, whose counts also settle which verbs are made (frequency_latvian).
         frequency_latvian.SEEN = set(freq)
+        frequency_latvian.COUNTS = freq
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
