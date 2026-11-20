@@ -4,7 +4,7 @@ package com.idiomiko.core.domain.language
 object LanguageCatalog {
     /** Names of the predefined languages a user can learn, in display order. */
     val targetLanguages: List<String> = listOf(
-        "Albanian", "Ancient Greek", "Arabic", "Armenian", "Assyrian", "Basque", "Belarusian",
+        "Afrikaans", "Albanian", "Ancient Greek", "Arabic", "Armenian", "Assyrian", "Basque", "Belarusian",
         "Bosnian", "Breton", "Bulgarian", "Cantonese", "Catalan", "Cornish", "Croatian", "Czech",
         "Danish", "Dutch", "Egyptian Arabic", "English", "Esperanto", "Estonian", "Farsi", "Finnish",
         "French", "Galician", "Georgian", "German", "Greek", "Hawaiian", "Hebrew", "Hindi", "Hungarian",

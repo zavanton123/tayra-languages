@@ -10,6 +10,46 @@ object Tutorials {
     /** By ISO 639-1 code. */
     private val byCode: Map<String, Tutorial> by lazy {
         mapOf(
+            "af" to Tutorial(
+                title = "Hoe om met Idiomiko te leer",
+                text = """Welkom by Idiomiko! Hierdie kort boek wys jou hoe om die toep te gebruik om 'n taal deur lees te leer. Dit is geskryf in die taal wat jy leer, dus is dit ook jou eerste oefenteks. Moenie bekommerd wees nie as jy nog nie elke woord verstaan nie.
+
+Waarom lees werk
+
+Ons leer 'n taal die beste uit baie interessante tekste wat ons amper kan verstaan. Wanneer jy die meeste van die woorde op 'n bladsy ken, kan jy die res raai, en elke nuwe woord is makliker om te onthou. Idiomiko help jou om sulke tekste te vind en onthou elke woord wat jy teëkom.
+
+Kleure wys wat jy ken
+
+Woorde wat jy nog nie gestoor het nie, is blou: hulle is nuut vir jou. Klik op 'n woord om sy vertaling in jou moedertaal te sien, om dit in 'n woordeboek na te slaan of om te hoor hoe dit klink. Kies dan hoe goed jy dit ken. Die statusse van 1 tot 4 beteken dat jy die woord nog leer, en sy kleur word ligter namate jy dit leer. Bekend beteken dat jy die woord goed ken, en dan het dit glad geen kleur nie. Ignoreer is vir name, getalle en ander woorde wat jy nie hoef te leer nie. Jy kan ook 'n frase van 'n paar woorde saam stoor.
+
+Voltooi elke bladsy
+
+Aan die einde van 'n bladsy merk jy die oorblywende woorde as bekend. Elke blou woord wat op die bladsy oorbly, word bekend. Só leer Idiomiko watter woorde jy reeds ken, dus wees eerlik: as 'n woord nog nie duidelik is nie, klik eers daarop en gee dit 'n leerstatus. Dan wys die volgende bladsy minder blou woorde.
+
+Luister en vertaal
+
+Druk die speelknoppie om die teks hardop te hoor, sin vir sin. Met outo-pouse aan hou die lees ná elke sin op, sodat jy dit kan herhaal. As 'n sin te moeilik is, kan jy dit vertaal, maar probeer dit eers self verstaan.
+
+Kursusse en jou eie tekste
+
+Die Kursusse-skerm het klaargemaakte kursusse: kort en eenvoudige stories, van die maklikste vlak, A1, tot die moeilikste, C2. Elke kursus leer die volgende honderd van die algemeenste woorde van die taal. Jy kan die kursusse van jou taal in Instellings aflaai, onder Kursusse. In Boeke kan jy ook jou eie tekste byvoeg: plak 'n artikel, voer 'n lêer in, of maak jou eie kursus uit tekste wat jy kies.
+
+Jou woordeskatvlak
+
+In Woordeskat wys die woordfrekwensielys die algemeenste woorde van jou taal. As jy die taal al 'n bietjie ken, stel jou woordeskatvlak daar, en Idiomiko merk die algemeenste woorde vir jou as bekend.
+
+Flitskaarte
+
+Elke woord wat jy leer, kry 'n flitskaart. Hersien elke dag die kaarte wat in Flitskaarte aan die beurt is; 'n paar minute is genoeg. Lees is steeds die hoofwerk, en flitskaarte help die nuwe woorde om by jou te bly.
+
+Maak dit 'n gewoonte
+
+Lees elke dag 'n bietjie, al is dit net tien minute. Kies tekste wat jy geniet, en lees hulle meer as een keer. Luister en lees terselfdertyd. Moenie elke woord stoor nie: stoor die woorde wat jy wil leer, en hou aan lees. Jy kan jou vordering in die statistiek sien, en in die woorde wat nie meer blou is nie.
+
+Op 'n rekenaar maak sleutelbordkortpaaie lees vinniger. Die getalle van 1 tot 4 gee 'n status, K merk 'n woord as bekend, I ignoreer dit, T vertaal die sin en die spasiebalk speel of pouseer die klank. Jy vind hulle almal in Instellings, onder Sleutelbordkortpaaie.
+
+In Instellings kan jy ook jou moedertaal, die taal van die koppelvlak, vanlyn woordeboeke en stemme kies. Maak nou Kursusse oop, kies die eerste kursus en begin lees. Sterkte!""",
+            ),
             "aii" to Tutorial(
                 title = "ܐܝܟܢܐ ܝܠܦܐ ܥܡ Idiomiko",
                 text = """ܒܫܝܢܐ ܘܫܠܡܐ ܠ Idiomiko! ܐܗܐ ܟܬܒܐ ܟܪܝܐ ܟܐ ܡܚܘܐ ܠܘܟܘܢ ܐܝܟܢܐ ܡܦܠܚܝܬܘܢ ܒ Idiomiko ܕܝܠܦܝܬܘܢ ܠܫܢܐ ܒܝܕ ܩܪܝܬܐ. ܗܘ ܟܬܝܒܐ ܝܠܗ ܒܠܫܢܐ ܕܒܝܠܦܐ ܝܬܘܢ، ܡܛܠ ܗܕܐ ܝܠܗ ܐܦ ܟܬܝܒܬܐ ܩܕܡܝܬܐ ܕܡܪܘܢܐ ܕܝܠܘܟܘܢ. ܠܐ ܕܚܠܝܬܘܢ ܐܢ ܗܠ ܗܫܐ ܠܐ ܦܗܡܝܬܘܢ ܟܠ ܡܠܬܐ.
