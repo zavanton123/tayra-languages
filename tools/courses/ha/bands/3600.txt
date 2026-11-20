@@ -1,0 +1,100 @@
+1	3501	guraben	guraben
+2	3502	kanwa	kanwa kanwata kanwarka kanwan
+3	3503	tacewa	tacewa tacewar
+4	3504	salad	salad
+5	3505	daidaici	daidaici
+6	3506	kifar	kifar kifarsa
+7	3507	ɗab'i	ɗab'i ɗab'in
+8	3508	kirawo	kirawo
+9	3509	tsintar	tsintar
+10	3510	dang	dang
+11	3511	dagula	dagula
+12	3512	kuturta	kuturta
+13	3513	rundunonin	rundunonin rundunoninsu rundunoninmu rundunoninsa
+14	3514	nizami	nizamin nizami nizaminmu
+15	3515	razana	razana
+16	3516	berayen	berayen
+17	3517	jiƙa	jiƙa
+18	3518	ɗinbin	ɗinbin
+19	3519	barace	barace baracen
+20	3520	kaddarori	kaddarorin kaddarori kaddarorinsu kaddarorinsa
+21	3521	kwaɗo	kwaɗo kwaɗi kwaɗon kwaɗin
+22	3522	murza	murza
+23	3523	daƙiƙu	daƙiƙu
+24	3524	muhallansu	muhallansu
+25	3525	yinta	yinta
+26	3526	aha	aha
+27	3527	ajami	ajami ajamin
+28	3528	muje	muje
+29	3529	nazarci	nazarci
+30	3530	bahasi	bahasi bahasin
+31	3531	wargaje	wargaje
+32	3532	kowai	kowai
+33	3533	ugh	ugh
+34	3534	fiano	fiano fianon
+35	3535	tanka	tankar tanka
+36	3536	rikicewa	rikicewa rikicewar rikicewarta
+37	3537	askirim	askirim
+38	3538	durowa	durowa durowar
+39	3539	fasta	fasta
+40	3540	gaskiyane	gaskiyane
+41	3541	jekan	jekan
+42	3542	masoyiyata	masoyiyata
+43	3543	murmurshi	murmurshi
+44	3544	naaji	naaji
+45	3545	naaka	naaka
+46	3546	shaitani	shaitani
+47	3547	tenis	tenis
+48	3548	tsunbace	tsunbace
+49	3549	walet	walet
+50	3550	yanzunnan	yanzunnan
+51	3551	zaafi	zaafi
+52	3552	ɗansandan	ɗansandan
+53	3553	ʻyan	ʻyan
+54	3554	ʻyar	ʻyar ʻyarsu
+55	3555	katutu	katutu
+56	3556	waiwayi	waiwayi
+57	3557	darewa	darewa darewar darewarsu darewarta
+58	3558	oak	oak
+59	3559	nunar	nunar
+60	3560	sa'ilin	sa'ilin
+61	3561	salwantar	salwantar
+62	3562	shagala	shagala
+63	3563	tunatarwa	tunatarwa tunatarwarmu tunatarwar
+64	3564	kwangiloli	kwangiloli kwangilolin kwangilolinsu kwangilolinsa
+65	3565	ƙididdige	ƙididdige
+66	3566	jam'i	jam'i jam'in jam'inta jam'insa
+67	3567	zalla	zalla zallan zallar
+68	3568	tsegumi	tsegumi tsegumin
+69	3569	haɓɓaka	haɓɓaka haɓɓakar
+70	3570	hayyacinta	hayyacinta
+71	3571	sayayya	sayayya sayayyar sayayyarsu sayayyarsa
+72	3572	cen	cen
+73	3573	ƙarata	ƙarata
+74	3574	itama	itama itamar
+75	3575	nazarce	nazarce nazarcen nazarcenta
+76	3576	ta'azzara	ta'azzara
+77	3577	bansan	bansan bansanka
+78	3578	haifesu	haifesu
+79	3579	jaraba	jaraba jarabar jarabarsa
+80	3580	jami'iyyar	jami'iyyar jami'iyyarsu
+81	3581	kurciya	kurciya kurciyan
+82	3582	gaida	gaida gaidan
+83	3583	sayawa	sayawa
+84	3584	tsit	tsit
+85	3585	musgunawa	musgunawa musgunawar musgunawan
+86	3586	jakadiyar	jakadiyar
+87	3587	sito	sito siton
+88	3588	cakuɗa	cakuɗa cakuɗan
+89	3589	kamanceceniya	kamanceceniya kamanceceniyar kamanceceniyarsa kamanceceniyarsu
+90	3590	kwamishinoni	kwamishinonin kwamishinoni kwamishinoninsa
+91	3591	makusanta	makusanta makusantansu makusantan makusantansa
+92	3592	aza	aza
+93	3593	maziyarta	maziyarta maziyartan maziyartansu
+94	3594	raunana	raunana raunanan
+95	3595	tirela	tirela tirelar tirelarsa
+96	3596	auran	auran auranka auransa auransu
+97	3597	em	em
+98	3598	gameda	gameda
+99	3599	gayu	gayu
+100	3600	haƙiƙance	haƙiƙance

@@ -1,0 +1,100 @@
+1	4101	nutsar	nutsar
+2	4102	zakuna	zakuna zakunan
+3	4103	gabace	gabace
+4	4104	madugun	madugun
+5	4105	beyar	beyar
+6	4106	maciya	maciya maciyar
+7	4107	maishe	maishe
+8	4108	keda	keda
+9	4109	gaira	gaira
+10	4110	muzgunawa	muzgunawa
+11	4111	rina	rina
+12	4112	yima	yima
+13	4113	kuɗa	kuɗa
+14	4114	katantanwa	katantanwa katantanwar katantanwan
+15	4115	bindige	bindige
+16	4116	tsigewa	tsigewar tsigewa
+17	4117	jariran	jariran jariransu
+18	4118	gwauron	gwauron
+19	4119	nagartaccen	nagartaccen
+20	4120	fesa	fesa
+21	4121	gurgu	gurgu
+22	4122	husuma	husuma husumarsa husumar
+23	4123	kafirta	kafirta
+24	4124	yashe	yashe
+25	4125	azzakari	azzakarinka azzakari azzakarinsa azzakarina
+26	4126	jemage	jemage
+27	4127	anga	anga
+28	4128	amo	amo amon amonta
+29	4129	tiriliyan	tiriliyan
+30	4130	akace	akace
+31	4131	gaisawa	gaisawa gaisawar
+32	4132	zuhudu	zuhudu zuhudun
+33	4133	fura	fura furar furata furan furana
+34	4134	dunƙulewa	dunƙulewa dunƙulewar
+35	4135	yoyo	yoyo yoyon
+36	4136	ƙararrakin	ƙararrakin ƙararrakinta ƙararrakinsu
+37	4137	babatu	babatu babatun
+38	4138	bibbiyu	bibbiyu
+39	4139	kamasu	kamasu
+40	4140	tangarda	tangarda
+41	4141	yayatawa	yayatawa yayatawan
+42	4142	jefawa	jefawa jefawar
+43	4143	zubewar	zubewar
+44	4144	karatuttuka	karatuttuka karatuttukan karatuttukansa karatuttukansu karatuttukanta
+45	4145	mashawarta	mashawarta mashawartan mashawartana mashawartansa mashawartar
+46	4146	telebijin	telebijin
+47	4147	sharewa	sharewa sharewar
+48	4148	kungiyance	kungiyance
+49	4149	shawartar	shawartar
+50	4150	baza'a	baza'a
+51	4151	tarɓa	tarɓa
+52	4152	wajibcin	wajibcin wajibcinsu wajibcinta wajibcinsa
+53	4153	jakadu	jakadun jakadu jakadunta
+54	4154	dirar	dirar
+55	4155	muga	muga
+56	4156	musguna	musguna
+57	4157	kiredit	kiredit
+58	4158	baffa	bappa baffan baffansa baffa baffana baffanninsa
+59	4159	sirdi	sirdi sirdin sirdinta sirdina sirdinsa
+60	4160	makiyayi	makiyayi makiyayan makiyayin makiyayansu makiyayarsu
+61	4161	dattaku	dattaku dattakun
+62	4162	kadin	kadin
+63	4163	kamashi	kamashi
+64	4164	haddace	haddace
+65	4165	mahaɗin	mahaɗin mahaɗinsa mahaɗinta
+66	4166	hurawa	hurawa
+67	4167	jahannama	jahannama
+68	4168	murzani	murzani murjani
+69	4169	almubazzaranci	almubazzaranci almubazzarancin
+70	4170	shidda	shidda
+71	4171	jarumawa	jarumawa jarumawan jarumawansu
+72	4172	gum	gum sum
+73	4173	diddige	dugadugan diddigen diddige dugaduganku dugaduganmu dugaduganta
+74	4174	ƙsar	ƙsar
+75	4175	afkawa	afkawa afkawar
+76	4176	zazzafar	zazzafar
+77	4177	keɓewa	keɓewa keɓewar keɓewarsa keɓewarsu keɓewarta
+78	4178	mahaya	mahaya mahayan mahayansu
+79	4179	daita	daita
+80	4180	ashana	ashana
+81	4181	ma'adanan	ma'adanan
+82	4182	kwaikwayi	kwaikwayi
+83	4183	alatu	alatu
+84	4184	ruɓe	ruɓe
+85	4185	kagara	kagara kagaran kagarar kagaransa kagaransu kagararsa kagararsu
+86	4186	firiji	firiji firijin
+87	4187	ɗimuwa	ɗimuwa
+88	4188	danƙa	danƙa
+89	4189	filo	filo filonta
+90	4190	lasar	lasar
+91	4191	butulci	butulci butulcin
+92	4192	isashen	isashen
+93	4193	aradu	aradu
+94	4194	ɗinku	ɗinku
+95	4195	alƙalanci	alƙalanci alƙalancin
+96	4196	sari	sari sarin
+97	4197	fakin	fakin
+98	4198	gajarta	gajarta gajeru
+99	4199	mahauci	mahauci mahaucin
+100	4200	bangarena	bangarena

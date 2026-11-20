@@ -1,0 +1,100 @@
+1	2001	oda	oda
+2	2002	umarci	umarci umarcin
+3	2003	wadai	wadai wadain
+4	2004	kawu	kawu kawun kawunsa kawunta kawunsu kawunka kawunku kawunan kawunansu kawunanmu kawunanku
+5	2005	yarima	yarima yariman yarimar
+6	2006	manzo	manzon manzo manzonsa manzanni manzannin manzanninsa
+7	2007	yaruka	yarukan yaruka yarukansa yarukanta yarukansu
+8	2008	kashewa	kashewa kashewar
+9	2009	sanyawa	sanyawa sanyawar
+10	2010	tattaki	tattaki tattakin tattakinsa tattakinsu tattakinta
+11	2011	yuwu	yuwu
+12	2012	samfuran	samfuran samfuransa samfuransu samfuranta
+13	2013	tafarki	tafarkin tafarki tafarkinsa tafarkuna tafarkinta tafarkinsu
+14	2014	daddadare	daddadare daddadaren
+15	2015	tsaiko	tsaiko tsaikon
+16	2016	gabanin	gabanin gabaninsa gabaninku gabaninsu
+17	2017	nima	nima
+18	2018	alewa	alewa alewar
+19	2019	makabarta	makabarta makabartar makabartan makabartarsa
+20	2020	shuke	shuke shuken
+21	2021	mahaukaci	mahaukaci mahaukacin
+22	2022	shagali	shagalin shagali
+23	2023	harabar	harabar harabarta harabarsa
+24	2024	halatta	halatta halattar
+25	2025	ragowa	ragowar ragowa ragowarsu ragowarsa ragowarta ragowan
+26	2026	buki	bukin buki bukinsa
+27	2027	gamsar	gamsar
+28	2028	tamu	tamu
+29	2029	rikitarwa	rikitarwa rikitarwan rikitarwar rikitarwarsa
+30	2030	ƙwanƙwasa	ƙwanƙwasa
+31	2031	ninƙaya	ninƙaya ninƙayar
+32	2032	sanannu	sanannun sanannu sanannunsa sanannunsu sanannunta
+33	2033	rungumi	rungumi rungumin
+34	2034	majiya	majiya majiyar majiyarmu majiyarsa majiyarta
+35	2035	jituwa	jituwa jituwar jituwan jituwarsa jituwarsu
+36	2036	mujallu	mujallu mujallun mujallunsa
+37	2037	tuntuɓa	tuntuɓar tuntuɓa tuntuɓarsa tuntuɓarsu
+38	2038	sittin	sittin
+39	2039	maras	maras
+40	2040	tuhume	tuhume tuhumen tuhumensu
+41	2041	gurɓata	gurɓata gurɓatar
+42	2042	masifa	masifa masifar masifan
+43	2043	yaƙar	yaƙar yaƙarta yaƙarsa
+44	2044	iyawa	iyawa iyawar iyawarsa iyawarsu iyawarta iyawarka iyawarmu iyawarku
+45	2045	katse	katse katsen
+46	2046	yasan	yasan
+47	2047	tilo	tilo tilon
+48	2048	matakala	matakala matakalan matakalar matakalarsa
+49	2049	sharaɗi	sharaɗi sharuɗan sharaɗin sharuɗa sharuɗanta
+50	2050	gujewa	gujewa gujewar
+51	2051	saurara	saurara sauraran
+52	2052	bom	bom
+53	2053	taushi	taushi taushin
+54	2054	cizo	cizon cizo cizonta cizonsa
+55	2055	cikakku	cikakkun cikakku
+56	2056	tambari	tambarin tambari tambura tambarinsa tambarinsu tamburan tambarinta tambarinmu
+57	2057	siyayya	siyayya siyayyar
+58	2058	karɓe	karɓe
+59	2059	hazo	hazo hazon
+60	2060	rufai	rufai rufain
+61	2061	gafarta	gafarta
+62	2062	gaishe	gaishe
+63	2063	murƙushe	murƙushe
+64	2064	shinge	shingen shinge shingayen shingaye shingensa
+65	2065	huce	huce
+66	2066	nakasa	nakasa nakasar nakasan nakasarsa nakasarsu
+67	2067	makirci	makircin makirci makircinsu makircinsa makircinta
+68	2068	takaice	takaice
+69	2069	ranta	ranta rance ranci
+70	2070	hazaka	hazaka
+71	2071	alfanu	alfanu alfanun alfanunsa alfanunta
+72	2072	gyaɗa	gyaɗa gyaɗar
+73	2073	ambato	ambaton ambato ambatonsa ambatonsu ambatonta
+74	2074	dawakai	dawakai
+75	2075	tuntuɓi	tuntuɓi
+76	2076	wauta	wauta wautar wautarta
+77	2077	aljanna	aljanna aljannar aljannarsu
+78	2078	dankali	dankali dankalin
+79	2079	karama	karamar karama karaman
+80	2080	ƙayyade	ƙayyade
+81	2081	kaimi	kaimi kaimin
+82	2082	dawa	dawa dawan dawata dawar
+83	2083	sura	surar sura surori surorin surarmu surarsa surarsu suranta surarta surorinta suran surana suransu surorinsa
+84	2084	ruhi	ruhin ruhi ruhinta ruhinsu ruhinka ruhinsa
+85	2085	tamanin	tamanin
+86	2086	mahara	maharan mahara maharar
+87	2087	ɗaukacin	ɗaukacin
+88	2088	bore	bore boren borena
+89	2089	ruhu	ruhun ruhu ruhuna ruhunsa ruhunsu ruhunta
+90	2090	tsutsa	tsutsar tsutsotsi tsutsa tsutsotsin tsutsansu tsutsarsu
+91	2091	banga	banga bangar banguna bangan bangunan bangarta
+92	2092	sabani	sabani sabanin sabaninsu
+93	2093	kabilu	kabilu
+94	2094	wa'azi	wa'azi wa'azin wa'azinsu wa'azinsa wa'azinta
+95	2095	zame	zame
+96	2096	rubutawa	rubutawa
+97	2097	rama	rama ramata ramana ramar
+98	2098	lafazi	lafazin lafazi
+99	2099	ziyarce	ziyarce ziyarcen
+100	2100	biredi	biredi biredin

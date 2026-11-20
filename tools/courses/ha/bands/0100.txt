@@ -1,0 +1,100 @@
+1	1	da	da
+2	2	a	a
+3	3	ya	ya yayye yayu yayyenta yayyensa yayun yayunta yayyen
+4	4	na	na
+5	5	ba	ba bai bashe
+6	6	ta	ta
+7	7	yi	yi
+8	8	ne	ne
+9	9	kuma	kuma
+10	10	mai	mai masu man main masunta masun mansa manka
+11	11	su	su
+12	12	shi	shi
+13	13	kai	kan kai kansa kansu kaina kanka kanmu kanku kawuna kawunan kawunansu kawunanmu kain kawunanku
+14	14	cikin	cikin
+15	15	wannan	wannan
+16	16	wani	wani wasu
+17	17	ƙasa	ƙasar ƙasa ƙasashen ƙasashe ƙasan ƙasarmu ƙasarsa ƙasarsu ƙasarta ƙasata ƙasashensu ƙasarka ƙasanmu ƙas ƙasashenmu ƙasarku ƙasana ƙasanta ƙasashenku ƙasansa ƙasashenta ƙasashensa ƙasansu
+18	18	ka	ka
+19	19	ce	ce
+20	20	za	za
+21	21	daga	daga dagan dagar daganta
+22	22	ɗan	ƴan ɗan ƴar ƴarsa ƴarta ƴansu ƴanta ƴarsu ƴarka ƴarmu ƴanmu ƴarku ƴansa ƴanku
+23	23	abu	abin abu abun abubuwan abubuwa abinsu abubuwar abinsa abubuwansa abubuwanku abubuwana abubuwansu abunsa abinka abinki abinku abinmu abubuwanka abubuwanta abubuwanmu abuna
+24	24	ga	ga
+25	25	ke	ke
+26	26	sun	sun
+27	27	wanda	wanda waɗanda
+28	28	an	an
+29	29	ko	ko
+30	30	aiki	aiki aikin ayyukan ayyuka aikinsa aikinta ayyukansa aikina ayyukansu aikinsu ayyukanta aikinmu aikinka ayyukanmu aikinku ayyukanka aikinki ayyukana ayyukanku ayyukar ayyukata
+31	31	lokaci	lokacin lokaci lokuta lokutan lokacinsa lokacinta lokacinmu lokacina lokacinka lokacinsu lokutansu lokutansa lokutanta
+32	32	yana	yana
+33	33	shekara	shekara shekarar shekaru shekarun shekarata shekarunsa shekaran shekarunta shekarunka shekarunsu shekaruna shekararsa shekarunki shekarunmu shekararta shekaranta shekaranmu shekararsu shekarana
+34	34	iya	iya iyan
+35	35	aka	aka
+36	36	mutum	mutane mutum mutanen mutumin mutanensa mutanenmu mutanensu mutanenta mutanena mutanenka mutanenku mutuminsa mutuminta
+37	37	suna	suna sunan sunayen sunansa sunana sunanta sunanka sunaye sunayensu sunansu sunanki sunayensa sunarsa sunayenka sunayenta sunar sunata sunayenmu sunanmu sunarta
+38	38	cewa	cewa
+39	39	suka	suka
+40	40	haka	haka
+41	41	mu	mu
+42	42	don	don
+43	43	ina	ina
+44	44	sai	sai
+45	45	zai	zai
+46	46	zuwa	zuwa zuwan zuwansa zuwanmu zuwansu zuwanka zuwana zuwanta zuwata
+47	47	nan	nan
+48	48	wata	wata watan watanni watannin watansa watar watansu watanmu watanninsa watanninta
+49	49	zama	zama zaman zamana zamansa zamansu zamanta zamar zamanki zamanka zamanmu zamanku zamarta
+50	50	samu	samu samun samunsa samunsu samunta samunka samunki samunku
+51	51	yin	yin
+52	52	amma	amma
+53	53	duk	duk
+54	54	sa	sa shanu shanun shanunsu shanunsa shanunta
+55	55	tare	tare
+56	56	idan	idan idansu idanmu
+57	57	har	har
+58	58	ɗaya	ɗaya ɗayan ɗayansu ɗayanta ɗayanmu ɗayansa ɗayar ɗayanka ɗayanku ɗayarsu
+59	59	rana	ranar rana ran ranan ransa ranka ransu ranki ranmu ranku ranarsu ranarku ranarsa ranarta
+60	60	yawa	yawa yawan yawansu yawansa yawanta yawanmu yawana yawar yawanku yawarsa
+61	61	babba	babban manyan babbar babba manya manyanta manyanmu manyansu manyansa manyanka babbansa babbansu babbarsu manyar babbanta babbarsa babbarta
+62	62	yadda	yadda
+63	63	ma	ma
+64	64	yanzu	yanzu
+65	65	gida	gidan gida gidajen gidaje gidansa gidana gidajensu gidansu gidanta gidanmu gidanka gidanki gidanku gidajenmu gidajenka gidajensa gidajenta gidajenku
+66	66	kamar	kamar kamarsa kamarta kamarsu kamarki kamarka
+67	67	bayan	bayan
+68	68	zan	zan
+69	69	domin	domin dominsu dominki dominku dominsa dominmu dominta
+70	70	ni	ni
+71	71	matsayi	matsayin matsayi matsayinsa matsayinta matsayinsu matsayinka matsayina matsayinki matsayinmu matsayinku
+72	72	son	son
+73	73	mata	mata matan matar matarsa matata matarka matansu matansa matanmu matana matanku matanta matarsu
+74	74	wa	wa
+75	75	ci	ci
+76	76	gaba	gaba
+77	77	yake	yake
+78	78	ku	ku
+79	79	dai	dai
+80	80	akwai	akwai akwain
+81	81	iri	irin iri irinsu irinsa irinta irinka irina irinmu
+82	82	wasa	wasan wasa wasannin wasansa wasanta wasanka wasansu wasar wasanninsu wasanninta wasanninsa wasanmu wasana wasanninmu
+83	83	biyu	biyu biyun biyunsu biyunsa
+84	84	wajen	wajen wajensa wajensu wajenmu wajenta wajenka wajenku wajenki
+85	85	baya	baya bayar bayansa bayansu bayana bayanta bayanmu bayanku bayanka bayata
+86	86	hanya	hanyar hanya hanyoyin hanyoyi hanyarsa hanyata hanyan hanyarsu hanyarta hanyarmu hanyoyinsa hanyarku hanyoyinsu hanyoyinmu hanyarka hanyoyinta
+87	87	tana	tana tanan tanana
+88	88	gani	ganin gani ganinsa ganinsu ganinta ganinki ganinmu ganinka ganinku
+89	89	in	in
+90	90	saboda	saboda
+91	91	ita	ita
+92	92	ake	ake
+93	93	hakan	hakan
+94	94	shugaba	shugaban shugaba shugabannin shugabar shugabanni shugabansu shugabanta shugabanninsu shugabanmu shugabanninmu shugabanninta shugabana shugabansa shugabanku shugabarsa shugabanninku shugabanka shugabanninka shugabarsu shugabanninsa shugabarta
+95	95	san	san
+96	96	sama	sama samar saman samansa samanta samanki samansu samata
+97	97	farko	farko farkon farkonsa farkonsu farkonta
+98	98	fara	fara faran fararta farai
+99	99	ruwa	ruwa ruwan ruwansa ruwansu ruwanmu ruwayen ruwanka ruwanta ruwaye ruwana ruwanki ruwar
+100	100	wuri	wurin wuri wuraren wurare wurina wurinsa wurinsu wurinmu wurinta wurarensu wurinka wurinku wurinki wurarensa wurarenmu wurarenta

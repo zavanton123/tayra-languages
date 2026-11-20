@@ -1,0 +1,100 @@
+1	601	sanyi	sanyi sanyin sanyinka
+2	602	dabara	dabarun dabara dabarar dabaru dabaran dabarunsa dabararsa dabarunmu dabarunka dabarunki dabarunsu dabararka dabararmu dabarunta dabararsu dabararta dabarata
+3	603	sanar	sanar sanarta
+4	604	shigo	shigo
+5	605	murya	muryar murya muryarsa muryarta muryarka muryata muryarsu muryarku muryan muryanka muryarki muryarmu
+6	606	ofishi	ofishin ofishi
+7	607	kuskure	kuskure kuskuren kuskurensa kuskurenku kuskurenka kuskurenta kuskurensu kuskurenmu
+8	608	nama	naman nama namun namana namomin namar namansu namata namanki namansa
+9	609	talaka	talakawa talaka talakawan talakan talakawansa talakawansu talakar talakawanta talakansa talakawanku talakawanmu talakanmu
+10	610	iyaka	iyaka iyakar iyakarta iyakarku iyakarsu iyakarsa iyakan iyakanta
+11	611	koyo	koyon koyo koyonsu koyonta koyonsa
+12	612	yammaci	yammacin yammaci yammacinsa yammacinta yammacinsu
+13	613	jira	jira
+14	614	aboka	aboka abokan abokansa abokanta abokanmu abokansu abokana abokanka abokanku
+15	615	dogo	dogon doguwar dogo doguwa dogayen dogaye dogonsa doguwan
+16	616	adawa	adawa adawar adawan adawarsa adawarmu adawarsu adawarta adawansu adawarka
+17	617	godiya	godiya godiyar godiyarsu godiyarsa godiyarta godiyarmu godiyata godiyan
+18	618	addu'a	addu'a addu'ar addu'o'i addu'o'in addu'arku addu'ata addu'o'inmu addu'o'inku addu'o'ina addu'an addu'arsa addu'o'insa addu'arsu addu'arta addu'o'insu addu'o'inta
+19	619	baiwa	baiwa baiwar baiwarsa baiwarka baiwarta baiwarsu
+20	620	cibiya	cibiyar cibiya cibiyan cibiyarta cibiyarsa cibiyarsu
+21	621	saki	saki sakin sakinsa sakinta sakina sakinsu
+22	622	kiwo	kiwon kiwo kiwonsu kiwonsa kiwonta
+23	623	ƙaranci	ƙarancin ƙaranci ƙarancinta ƙarancinsa ƙarancinsu
+24	624	hanci	hanci hancin hancinsa hancina hancinta
+25	625	la'akari	la'akari la'akarin
+26	626	muhalli	muhalli muhallin muhallinsu muhallinmu muhallinsa muhallinta
+27	627	yamma	yamma yamman yammata
+28	628	samo	samo
+29	629	zamantakewa	zamantakewa zamantakewar zamantakewarsu zamantakewarmu zamantakewarsa zamantakewarku zamantakewarta
+30	630	gargajiya	gargajiya gargajiyar gargajiyan gargajiyarsu gargajiyarta
+31	631	kisan	kisan kisanku kisansa kisansu kisanta
+32	632	hijira	hijira hijirar hijiran hijirarsa hijirarsu hijirarta
+33	633	rubuce	rubuce rubucen rubucensa rubucenta rubucensu rubucenmu
+34	634	marasa	marasa
+35	635	kalla	kalli kalle kalla kallan kallanka kallansu
+36	636	zanga	zanga zangar zangan zangarsa zangarsu
+37	637	baba	baba babana babansa baban babata babanta babanka babarta babarsa babanmu babanni babanninsu babansu babar babanki babanku
+38	638	sirri	sirri sirrin sirrinka sirrinta sirrinsa sirrinsu
+39	639	mummuna	mummunan mummunar mummuna
+40	640	ƙa'ida	ƙa'ida ƙa'idar ƙa'idodin ƙa'idodi ƙa'idarta ƙa'idodinsa ƙa'idarsu ƙa'idarsa ƙa'idodinta ƙa'idodinsu
+41	641	noma	noma noman nomawa nomansa nome nomansu nomanta
+42	642	tsakani	tsakaninsu tsakani tsakaninmu tsakaninsa tsakanina tsakaninta tsakaninku tsakaninka
+43	643	hau	hau hauna
+44	644	kiyaye	kiyaye
+45	645	fa	fa
+46	646	mani	mani manin maninka
+47	647	jefa	jefa
+48	648	canji	canjin canji canjinsa canjinta
+49	649	aika	aika
+50	650	jawo	jawo
+51	651	tsanani	tsananin tsanani tsananinsu tsananinta tsananinsa
+52	652	kati	katin katunan kati katuna katinsa katina katinsu katinta
+53	653	lardi	lardin larduna lardi lardunan lardinsa lardinta lardunansa lardunansu lardunanta lardinsu
+54	654	nasa	nasa
+55	655	fina	fina
+56	656	lalata	lalata
+57	657	fahimci	fahimci fahimcin
+58	658	mataimaki	mataimakin mataimakinsa mataimaki mataimakina mataimakinta
+59	659	bindiga	bindiga bindigar bindigogi bindigan bindigogin bindigoginsu bindigarsa bindigarta bindigoginmu bindigarsu bindigansu bindigoginsa bindigoginta
+60	660	gizo	gizo gizon gizonsa gizonta gizonku
+61	661	shakka	shakka shakkar shakkan shakkarsu shakkarta shakkarsa
+62	662	bugu	bugu bugun bugunta bugunki bugunsa
+63	663	maganta	magance maganta
+64	664	bayanai	bayanai
+65	665	ƙwaƙwalwa	ƙwaƙwalwa ƙwaƙwalwar ƙwaƙwalwata ƙwaƙwalwarka ƙwaƙwalwarsa ƙwaƙwalen ƙwaƙwalwarta ƙwaƙwalwarsu ƙwaƙwale ƙwaƙwalwan ƙwaƙwalwarmu ƙwaƙwalwansa
+66	666	cimma	cimma
+67	667	yarjejeniya	yarjejeniyar yarjejeniya yarjejeniyoyin yarjejeniyoyi yarjejeniyarsa yarjejeniyarsu yarjejeniyarta
+68	668	giya	giya giyar giyan giyarsa giyarsu giyarta
+69	669	yare	yaren yare yarensu yarenku yarenta yarenmu yarensa
+70	670	ba'a	ba'a ba'an ba'ar
+71	671	dala	dala dalar daloli dalolin dalan dalarsu dalansa
+72	672	bango	bango bangon bangonsa bangwayen bangonta
+73	673	dukiya	dukiyar dukiya dukiyarsa dukiyarsu dukiyoyi dukiyoyin dukiyoyinsu dukiyarta dukiyarmu dukiyata dukiyansu dukiyarka dukiyoyinmu dukiyarku dukiyanta dukiyoyinku dukiyoyinsa dukiyoyinta
+74	674	kimanin	kimanin
+75	675	nau'i	nau'in nau'i nau'o'in nau'o'i nau'o'inta nau'insa nau'insu nau'inmu nau'inta nau'o'insa
+76	676	tari	tarin tari tarinka tarinsa tarinta tarina tarinsu
+77	677	gwaji	gwajin gwaji gwajinsa gwajinta gwajinsu
+78	678	koyaushe	koyaushe
+79	679	tamkar	tamkar tamkarsa tamkarsu
+80	680	alheri	alheri alherin alherinsa alherinmu alherinki alherinku
+81	681	hikima	hikima hikimar hikimarka hikimarsa hikimomi hikimomin hikimarsu hikimarmu hikimarta hikiman
+82	682	gona	gona gonar gonaki gonakin gonarsa gonan gonakinsu gonarsu gonana gonakinmu gonarta gonakinta gonarku gonakinsa gonansa gonarmu
+83	683	ƙanƙara	ƙanƙara ƙanƙarar ƙanƙaran
+84	684	talabijin	talabijin
+85	685	takwas	takwas
+86	686	sanarwa	sanarwar sanarwa sanarwan sanarwarsa sanarwarta sanarwarsu
+87	687	sauka	sauka saukan
+88	688	tunda	tunda
+89	689	ƙunshi	ƙunshi
+90	690	fitowa	fitowa fitowar fitowarsa fitowan fitowarta fitowarsu fitowarka fitowarki fitowarmu
+91	691	musulmi	musulmi musulmin musulmai musulminsu
+92	692	juya	juya
+93	693	yunƙuri	yunƙurin yunƙuri yunƙurinta yunƙurinsa yunƙurinsu yunƙurinka
+94	694	tushe	tushen tushe tushensa tushena tushensu tushenta tushenmu
+95	695	murna	murna murnar murnan murnarsa
+96	696	kabari	kabarin kabari kaburburan kaburbura kabarinsa kabarinta kabarinka kabarinki kabarinsu kaburburansu
+97	697	koya	koya koyan
+98	698	nisa	nisa nisan nisanta nisansa nisarsa
+99	699	dangi	dangin dangi danginsa danginta danginsu danginku danginmu dangina
+100	700	albashi	albashi albashin albashinsu albashinsa albashinka albashina albashinmu albashinta

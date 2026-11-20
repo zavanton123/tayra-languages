@@ -1,0 +1,100 @@
+1	401	kanta	kanta kantar kantarki kantarsa kantan kantanka
+2	402	rage	rage
+3	403	iko	ikon iko ikonsa ikonsu ikonta ikona ikonka ikonmu ikonku
+4	404	waya	waya wayar wayata wayoyin wayarsa wayoyi wayan wayoyinsu wayarta wayarka wayarku wayoyinmu wayana wayarsu wayoyina wayoyinku wayoyinsa wayoyinta
+5	405	naɗa	naɗa naɗe naɗi naɗan
+6	406	kaɗa	kaɗa kaɗe
+7	407	tattali	tattalin tattali tattalinsu
+8	408	takara	takarar takara takaran takararsa takararsu takararta takaranta takararmu takaransu takararka takararku
+9	409	tara	tara tarar taran tararsa tarana tararta
+10	410	mako	mako makon makwanni makwannin makonsa makonta
+11	411	sauƙi	sauƙi sauƙin
+12	412	kasuwanci	kasuwanci kasuwancin kasuwancinsa kasuwancinsu kasuwancinmu kasuwancinta kasuwancina kasuwancinka
+13	413	ƙin	ƙin
+14	414	gine	gine ginen ginensa ginensu ginenta
+15	415	rufa	rufe rufa
+16	416	rawa	rawa rawar rawan rawarsa rawarta rawansu rawansa rawarsu rawana rawarku
+17	417	rasa	rasa rasan
+18	418	shida	shida shidan shidar shidansa
+19	419	taka	taka
+20	420	zargi	zargin zargi zarginsa zarginsu zarginta
+21	421	ƴanci	ƴancin ƴanci ƴancinsu ƴancinmu ƴancinsa ƴancinka ƴancinta ƴancinki
+22	422	zata	zata
+23	423	haɗi	haɗin haɗi haɗinsa haɗinsu
+24	424	iska	iska iskar iskan iskarta iskoki iskarsa iskokin
+25	425	kasancewa	kasancewa kasancewar kasancewarsa kasancewarta kasancewarsu kasancewarka kasancewarmu kasancewarku
+26	426	kyakkyawa	kyakkyawan kyakkyawar kyakkyawa
+27	427	wai	wai
+28	428	sauri	sauri saurin saurinsa saurinta saurinsu
+29	429	wacce	wacce waccen
+30	430	iyali	iyali iyalai iyalan iyalinsa iyalin iyalansu iyalansa iyalinta iyalina iyalanka iyalinka iyalanku iyalinsu iyalanta iyalanmu iyalinki iyalinmu iyalanki
+31	431	taimako	taimakon taimako taimakonsa taimakonsu taimakonka taimakonku taimakona taimakonki taimakonta taimakonmu
+32	432	mayar	mayar
+33	433	wadda	wadda waddar
+34	434	miji	mijinta miji mijin mazan mijina mazaje mazajen mijinki mazajensu mazansu mijinsu mazajenmu mazanmu mazajenku mijinka mazar mazajenta mijinmu mijinsa mazajensa mazana mazarta
+35	435	hari	hari harin harinsa harinmu harinsu
+36	436	teku	teku tekun tekuna tekunta tekunmu tekunsa tekunsu
+37	437	dutse	dutse dutsen duwatsu duwatsun dutsensu duwatsunsa duwatsunsu
+38	438	nawa	nawa nawarsu nawata
+39	439	ƙabila	ƙabilar ƙabilu ƙabilun ƙabila ƙabilarsu ƙabilunsu ƙabilarsa ƙabilarka ƙabilarmu ƙabilarta kabilansu ƙabilan ƙabilunmu ƙabilunsa ƙabilunta ƙabilanta
+40	440	likita	likita likitan likitoci likitocin likitar likitanka likitanku likitansa likitanta likitocinta likitocinsa likitansu likitocinmu likitocinsu
+41	441	jami'i	jami'in jami'an jami'ai jami'i jami'ansu jami'ansa jami'anta jami'insa jami'inta jami'insu jami'aina jami'arta jami'arsa jami'arsu
+42	442	gama	gama
+43	443	tsakiya	tsakiyar tsakiya tsakiyan tsakiyarsa tsakiyarta tsakiyarsu tsakiyana tsakiyarmu
+44	444	fasaha	fasaha fasahar fasaharsa fasaharta fasaharsu fasahan
+45	445	kyauta	kyauta kyautar kyautan kyautarsa kyautarsu kyautarta
+46	446	kwamiti	kwamitin kwamiti kwamitinta kwamitinsu kwamitinsa kwamitinka
+47	447	kalma	kalmar kalmomi kalmomin kalma kalmansa kalmominku kalmominsu kalmominsa kalmominta kalmominmu kalman kalmarsa kalmarmu kalmarsu kalmarta kalmomina
+48	448	ƙarfe	ƙarfe ƙarfen ƙarafa ƙarafan
+49	449	daula	daular dauloli daula daulolin daularsa daularta daularsu daulan
+50	450	kaka	kakar kaka kakan kakanni kakata kakana kakansa kakanninmu kakannin kakanta kakanninsu kakanninsa kakarsa kakannina kakarta kakanninku kakarka kakanmu kakanninka kakanninta kakanka kakansu kakarsu kakanku kakarmu
+51	451	kada	kada kadarta kadar kadana kadata
+52	452	ƙofa	ƙofar ƙofa ƙofofin ƙofofi ƙofan ƙofarka ƙofarsu ƙofofinsu ƙofarmu ƙofarsa ƙofofinsa ƙofofinta ƙofarta
+53	453	fahimta	fahimtar fahimta fahimtarsa fahimtarsu fahimtarku fahimtarmu fahimtarta fahimtarka
+54	454	damuwa	damuwa damuwar damuwarsu damuwarsa damuwata damuwarmu damuwarta damuwan damuwanta damuwarka damuwarku
+55	455	aminta	amince aminta
+56	456	daji	daji dajin dazuzzuka dazuzzukan dajina dazuzzukanta dajinsa dajinmu dazuzzukanmu dazuzzukansa dazuzzukansu
+57	457	karanta	karanta
+58	458	zaune	zaune
+59	459	aikata	aikata aikatar aikatan
+60	460	hukunci	hukuncin hukunci hukuncinsa hukuncinki hukuncinku hukuncinta hukuncinsu hukuncina
+61	461	haɗari	haɗari haɗarin haɗarurruka haɗarurrukan haɗarinsa haɗarinsu haɗarinta
+62	462	ɗari	ɗari ɗarurruwa ɗarin ɗarinka ɗarinsu ɗarurruwan
+63	463	gobe	gobe
+64	464	sata	sace sata satar saci sacen sacin satan satarsa sacinta
+65	465	malami	malamin malami malamai malaman malamina malaminsa malaminmu malaminku malaminta malamansu malaminsu malamanta malamansa malamaina malamanka malamanmu
+66	466	kogi	kogin kogi koguna kogunan koginsa kogunansu kogina koginta kogunansa kogunanta
+67	467	bin	bin
+68	468	lamari	lamarin lamari lamarinsa lamarinsu lamarinta lamarinka lamarinki
+69	469	marubuci	marubuci marubucin marubuta marubutan marubuciya marubuciyar marubucinsa marubuciyan marubucinta marubutansa marubutanta marubucinsu marubutana marubutansu
+70	470	kowace	kowace
+71	471	canza	canza canzan
+72	472	kotu	kotun kotu kotunan kotuna kotunsa kotunta kotunsu
+73	473	mara	mara maran
+74	474	tasiri	tasiri tasirin tasirinsa tasirinta tasirinsu tasirinku
+75	475	daina	daina
+76	476	wuya	wuya wuyan wuyar wuyansa wuyana wuyansu wuyanta wuyanku wuyata wuyarta wuyarsa wuyanmu wuyoyi wuyoyin
+77	477	zaɓi	zaɓi zaɓin zaɓina zaɓinka zaɓinmu zaɓinsa zaɓinta zaɓinsu
+78	478	ƙare	ƙare
+79	479	rubutu	rubutu rubutun rubutunku rubutunsu rubutunsa rubutunka rubutunta rubutunmu rubutuna
+80	480	maimakon	maimakon maimakonsa maimakonta
+81	481	muhimmanci	muhimmanci muhimmancin muhimmancinsa muhimmancinsu muhimmancinmu muhimmancinta
+82	482	ɗalibi	ɗalibai ɗalibi ɗalibin ɗalibansa ɗalibanta ɗalibansu ɗalibanmu ɗalibinsa ɗalibaina ɗalibinta
+83	483	haɗu	haɗu
+84	484	isa	isa ishi isan isanmu
+85	485	kenan	kenan
+86	486	haske	haske hasken haskensa haskenta haskoki haskensu haskokin
+87	487	tsaye	tsaye tsayen
+88	488	kimiyya	kimiyya kimiyyar kimiyyan kimiyyarta
+89	489	cigaba	cigaba cigaban cigabanta cigabansu cigabansa
+90	490	fuska	fuska fuskar fuskarsa fuskoki fuskarta fuskokin fuskarki fuskokinsu fuskan fuskata fuskarku fuskarmu fuskarka fuskokinku fuskarsu
+91	491	saba	saba sabata sabar
+92	492	jini	jini jinin jininsa jinina jininta jininmu jininsu jininku
+93	493	ja	ja janye jajayen jajaye
+94	494	faruwa	faruwa faruwar faruwan faruwansa faruwarsa
+95	495	jarumi	jarumi jarumai jarumin jaruman jaruma jarumar jarumarsa jarumarsu jarumata jarumansu jaruminsa jaruminta jarumaina jarumanmu jarumansa jarumanta jarumarta
+96	496	bashi	bashi bashin bashinsa bashina bashinmu bashinta
+97	497	namiji	namiji namijin mazan mazaje mazajen mazajensu mazansu mazajenmu mazanmu mazajenku mazar mazajenta mazajensa mazana mazarta
+98	498	haihuwa	haihuwa haihuwar haihuwarsa haihuwarta haihuwata haihuwarsu haihuwarmu haihuwarka haihuwarki haihuwarku haihuwansu haihuwan
+99	499	al'amari	al'amarin al'amuran al'amari al'amura al'amuransa al'amuransu al'amuranka al'amarinsa al'amuranta al'amarina al'amarinka al'amarinmu al'amarinsu al'amuranmu al'amarinta al'amuranku
+100	500	karo	karo karon karonsa

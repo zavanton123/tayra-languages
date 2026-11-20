@@ -1,0 +1,100 @@
+1	2301	yanada	yanada
+2	2302	yallaɓai	yallaɓai
+3	2303	iske	iske
+4	2304	gilla	gillar gilla gillan gillarsa
+5	2305	karantawa	karantawa
+6	2306	matafiya	matafiya matafiyan
+7	2307	taɓi	taɓin taɓi
+8	2308	kasada	kasada kasadar kasadarsa kasadarsu kasadarta
+9	2309	nishi	nishi nishin
+10	2310	wakiliyar	wakiliyar wakiliyarmu wakiliyarta wakiliyarsu
+11	2311	injina	injina injinan injinanku injinansa injinanta
+12	2312	dambe	dambe damben
+13	2313	gawarwaki	gawarwakin gawarwaki gawarwakinsu gawarwakinta gawarwakinsa
+14	2314	kicin	kicin kicinsa
+15	2315	renon	renon renonta renonsu renonsa
+16	2316	beli	beli belin belina belinsa belinsu belinta
+17	2317	mazaɓu	mazaɓu mazaɓun mazaɓunsu
+18	2318	sauƙaƙe	sauƙaƙe
+19	2319	turare	turare turaren turarensa
+20	2320	raka	raka ram
+21	2321	rabawa	rabawa rabawar
+22	2322	yen	yen
+23	2323	jinkirta	jinkirta jinkirtar
+24	2324	tabar	tabar tabarsa tabarmu
+25	2325	ɓaba	ɓaba
+26	2326	www	www
+27	2327	ganewa	ganewa ganewar
+28	2328	magudanar	magudanar
+29	2329	takan	takan takansu takansa
+30	2330	koka	koka
+31	2331	yaye	yaye yayen
+32	2332	rakiya	rakiyar rakiya rakiyarsa
+33	2333	diflomasiyya	diflomasiyya diflomasiyyar diflomasiyyarta diflomasiyyarsa
+34	2334	siyarwa	siyarwa siyarwar siyarwarsa
+35	2335	daama	daama daaman daamar
+36	2336	naayi	naayi
+37	2337	fitarwa	fitarwa fitarwar fitarwarsu
+38	2338	benci	benci bencin bencina
+39	2339	shahada	shahada shahadar shahadarsu shahadarsa
+40	2340	sintiri	sintiri sintirin
+41	2341	kamanni	kamanni kamannin kamanninsa kamanninsu kamanninta
+42	2342	safara	safarar safara safararta safararsu
+43	2343	sadaukarwa	sadaukarwa sadaukarwar sadaukarwarmu sadaukarwarta sadaukarwarsa sadaukarwarsu
+44	2344	cikar	cikar cikarta cikarsa cikarsu
+45	2345	bunƙasar	bunƙasar
+46	2346	tan	tan
+47	2347	shehu	shehu shehun shehunan shehunanmu shehunai
+48	2348	mahimman	mahimman
+49	2349	ungulu	ungulu ungulun
+50	2350	ciwace	ciwace ciwacen
+51	2351	faɗakarwa	faɗakarwa faɗakarwar faɗakarwarmu
+52	2352	annashuwa	annashuwa
+53	2353	kamawa	kamawa kamawar kamawarsa
+54	2354	jera	jera
+55	2355	kwastomomi	kwastomomi kwastomomin kwastomominmu kwastomominsa kwastomominsu kwastomominta
+56	2356	niƙa	niƙa niƙe niƙi niƙan
+57	2357	tsiraru	tsiraru tsirarun tsirarunsu
+58	2358	daukawa	daukawa
+59	2359	ƙazami	ƙazamin ƙazamar ƙazami ƙazama ƙazamai ƙazaman
+60	2360	dunƙule	dunƙule dunƙulen
+61	2361	kwamitoci	kwamitocin kwamitoci kwamitocinsu kwamitocinsa kwamitocinta
+62	2362	ƙonewa	ƙonewa ƙonewar
+63	2363	kash	kash
+64	2364	ango	ango angon angonta angona angonsa
+65	2365	abokantaka	abokantaka abokantakarmu abokantakar abokantakarsu abokantakarsa
+66	2366	tuwo	tuwo tuwon tuwona
+67	2367	agwagwa	agwagwa agwagwar agwagi agwagin
+68	2368	hayaƙin	hayaƙin
+69	2369	kaɗaici	kaɗaici kaɗaicin kaɗaicinta
+70	2370	kaye	kaye kayen kayenta
+71	2371	kawowa	kawowa
+72	2372	sakaci	sakaci sakacin sakacinsa
+73	2373	damuna	damuna
+74	2374	guntu	guntu guntun guntayen guntaye guntunta
+75	2375	kyanwa	kyanwa kyanwar
+76	2376	ɗan'adam	ɗan'adam
+77	2377	labule	labule labulen
+78	2378	ta'aziyya	ta'aziyya ta'aziyyar ta'aziyyarku ta'aziyyarsa ta'aziyyarmu ta'aziyyarsu ta'aziyyarta
+79	2379	bugi	bugi
+80	2380	jijiya	jijiya jijiyar jijiyarsa jijiyarta
+81	2381	bokiti	bokiti bokitin bokitinsa
+82	2382	tantancewa	tantancewa tantancewar tantancewarta tantancewarsu
+83	2383	jimilla	jimillar jimilla jimillarsu jimillan jimillarta
+84	2384	ƙasida	ƙasida ƙasidu ƙasidar ƙasidun ƙasidarsa ƙasidunsa ƙasidarta ƙasidarsu ƙasidunta
+85	2385	ɗinka	ɗinka
+86	2386	dijital	dijital
+87	2387	sumbaci	sumbaci
+88	2388	amini	amini aminai aminan aminansu aminin amininmu amininsa aminansa aminanta aminina amininta
+89	2389	lamiri	lamiri lamirin lamirinsa lamirinka lamirinsu lamirinta
+90	2390	dako	dakon dako
+91	2391	saniya	saniya saniyar shanu shanun shanunsu shanunsa shanunta
+92	2392	aikatawa	aikatawa
+93	2393	tsagaita	tsagaita
+94	2394	sasantawa	sasantawa sasantawar
+95	2395	kazalika	kazalika
+96	2396	musaya	musaye musaya musayan
+97	2397	cutarwa	cutarwa cutarwar cutarwan
+98	2398	tsattsauran	tsattsauran
+99	2399	ƙalubalanta	ƙalubalantar ƙalubalantarsa ƙalubalanta ƙalubalantarta ƙalubalantarku ƙalubalantarsu
+100	2400	takunkumi	takunkumin takunkumi

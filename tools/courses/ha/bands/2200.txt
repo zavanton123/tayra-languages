@@ -1,0 +1,100 @@
+1	2101	maƙura	maƙura maƙurar
+2	2102	karantar	karantar
+3	2103	kwatankwacin	kwatankwacin kwatankwacinsu kwatankwacinsa kwatankwacinta
+4	2104	duniyoyi	duniyoyi duniyoyin duniyoyinsa
+5	2105	jikkata	jikkata jikkatan jikkatar
+6	2106	farautar	farautar farautarsu farautarsa
+7	2107	imel	imel
+8	2108	gangami	gangamin gangami gangaminsa gangaminta
+9	2109	anyi	anyi
+10	2110	sarrafawa	sarrafawa sarrafawar
+11	2111	sabunta	sabunta sabuntar
+12	2112	adama	adama
+13	2113	masara	masara masarar
+14	2114	almajiri	almajiran almajiransa almajirai almajiri almajirin almajirinsa almajiransu almajiranmu almajiranta
+15	2115	dam	dam
+16	2116	mahalarta	mahalarta mahalartan mahalartar mahalartansu
+17	2117	ɓuya	ɓuya
+18	2118	ƙunci	ƙunci ƙuncin ƙuncinta ƙuncinsa
+19	2119	nasiha	nasiha nasihar nasihata nasiharmu nasihohi nasiharsu nasihohin
+20	2120	wasun	wasunsu wasun wasunmu
+21	2121	caji	caji cajin
+22	2122	dila	dila dilan dilar
+23	2123	farinciki	farinciki farincikin
+24	2124	ƙunar	ƙunar
+25	2125	daidaituwa	daidaituwa daidaituwar daidaituwarsa daidaituwarsu daidaituwarta
+26	2126	sharuɗɗa	sharuɗɗan sharuɗɗa sharuɗɗanta sharuɗɗansa
+27	2127	horas	horas
+28	2128	kimiya	kimiya kimiyar kimiyan
+29	2129	halasta	halasta
+30	2130	siriri	siriri siririn siririya siririyar sirara siraran
+31	2131	taho	taho
+32	2132	latti	latti lattin
+33	2133	mawaƙiya	mawaƙiyar mawaƙiya mawaƙiyan
+34	2134	kurma	kurma kurame kurmar kurmarsa
+35	2135	ƙarara	ƙarara ƙararar
+36	2136	ƙaho	ƙaho ƙahon ƙahonsu ƙahonin ƙahonsa ƙahonta ƙahoni ƙahoninsu
+37	2137	ƴar'uwar	ƴar'uwar ƴar'uwarta ƴar'uwarsa ƴar'uwarsu ƴar'uwarku
+38	2138	fusata	fusata
+39	2139	akuya	akuya awaki akuyar awakin akuyarsa awakai akuyan
+40	2140	busa	busa
+41	2141	makamantan	makamantansu makamantan makamantansa makamantanta
+42	2142	ɗaiɗaiku	ɗaiɗaikun ɗaiɗaiku
+43	2143	nakan	nakan
+44	2144	shashasha	shashasha
+45	2145	faifan	faifan faifansa faifanta
+46	2146	zage	zage
+47	2147	ƙidaya	ƙidaya ƙidayar ƙidayan
+48	2148	soki	soki sokin
+49	2149	jakada	jakadan jakada jakadar jakadanta jakadansa
+50	2150	fitacciya	fitacciyar fitacciya fitacciyarta
+51	2151	zanta	zanta zantar
+52	2152	ninka	ninka
+53	2153	amsawa	amsawa amsawar amsawarka amsawarsu
+54	2154	zartarwa	zartarwa zartarwar zartarwarsa
+55	2155	ɗau	ɗau
+56	2156	kurakurai	kurakurai
+57	2157	doron	doron
+58	2158	du	du
+59	2159	zamowa	zamowa zamowar zamowarta
+60	2160	nashi	nashi nashin
+61	2161	makaho	makaho makahon
+62	2162	daidaitawa	daidaitawa daidaitawar daidaitawarsa daidaitawarsu daidaitawarta
+63	2163	gagara	gagara gagarar
+64	2164	maƙasudin	maƙasudin maƙasudinsa
+65	2165	kishiya	kishiyar kishiya kishiyoyin kishiyarta kishiyoyinsa kishiyata kishiyoyi kishiyarki kishiyarsa kishiyarsu kishiyoyinsu kishiyoyinta
+66	2166	fiyano	fiyano
+67	2167	haɗaka	haɗakar haɗaka haɗakarsa haɗakan haɗakarsu haɗakarta
+68	2168	bushewa	bushewa bushewar
+69	2169	kadarori	kadarorin kadarori kadarorinta kadarorinsu kadarorinsa kadarorinmu
+70	2170	tabo	tabo tabon tabbar tabba tabonsu
+71	2171	tagwaye	tagwayen tagwaye tagwayensa tagwayenta
+72	2172	taɓarɓarewa	taɓarɓarewar taɓarɓarewa taɓarɓarewarta
+73	2173	kyautatawa	kyautatawa kyautatawar kyautatawarsu
+74	2174	hutawa	hutawa
+75	2175	baƙuncin	baƙuncin baƙuncinsa baƙuncinsu
+76	2176	huda	huda
+77	2177	yazo	yazo
+78	2178	fenti	fenti fentin fentinsa
+79	2179	fitina	fitina fitinar
+80	2180	ibn	ibn
+81	2181	rarrabuwa	rarrabuwar rarrabuwa rarrabuwan rarrabuwarsu rarrabuwarsa rarrabuwarta
+82	2182	tsabta	tsabta tsabtar
+83	2183	aski	aski askin
+84	2184	keta	keta
+85	2185	tafka	tafka
+86	2186	zaci	zaci
+87	2187	tsunduma	tsunduma tsundumar
+88	2188	suga	suga
+89	2189	kwabo	kwabo kwabon kwabonsa kwabona kwabonsu kwabban
+90	2190	maɓalli	maɓallin maɓalli
+91	2191	dakata	dakata
+92	2192	marar	marar
+93	2193	burgewa	burgewa burgewar
+94	2194	ɓarkewar	ɓarkewar
+95	2195	kiyasta	kiyasta
+96	2196	azabtarwa	azabtarwa azabtarwar azabtarwan azabtarwarsu
+97	2197	yaudarar	yaudarar yaudararsa yaudararsu yaudararta yaudararmu
+98	2198	linzami	linzami linzamin linzaminsu linzamai
+99	2199	saba'in	saba'in
+100	2200	masarufi	masarufi masarufin

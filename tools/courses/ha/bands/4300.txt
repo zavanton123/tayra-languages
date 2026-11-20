@@ -1,0 +1,100 @@
+1	4201	muji	muji
+2	4202	akwatun	akwatun
+3	4203	fasassun	fasassun
+4	4204	juyo	juyo
+5	4205	sauwake	sauwake
+6	4206	tattausan	tattausan
+7	4207	ƙiftawar	ƙiftawar
+8	4208	dakuma	dakuma
+9	4209	zaɓeta	zaɓeta
+10	4210	wawanci	wawanci
+11	4211	yawwa	yawwa yawwan
+12	4212	al'aura	al'aura al'aurar al'aurarsu al'aurarsa al'aurarta al'auransu
+13	4213	tsintsiya	tsintsiya tsintsiyan
+14	4214	amintacciya	amintacciya amintacciyar
+15	4215	kece	kece
+16	4216	wawushe	wawushe
+17	4217	mahayi	mahayin mahayi mahayinsa
+18	4218	rura	rura
+19	4219	gefuna	gefuna gefunan gefunansu
+20	4220	hadimin	hadimin hadiminsa
+21	4221	kurmus	kurmus
+22	4222	ababan	ababan
+23	4223	ƙaƙaba	ƙaƙaba
+24	4224	girmi	girmi
+25	4225	watarana	watarana
+26	4226	watsu	watsu
+27	4227	ciyaman	ciyaman
+28	4228	gaƴan	gaƴan
+29	4229	shaƙuwa	shaƙuwa
+30	4230	sa'oi	sa'oi sa'oin
+31	4231	nitsa	nitsa nitse
+32	4232	nagartattun	nagartattun
+33	4233	tarbar	tarbar tarbarsa tarbarsu
+34	4234	zalunce	zalunce zaluncen
+35	4235	ƙananun	ƙananun
+36	4236	niyar	niyar niyarta
+37	4237	rigaya	rigaya
+38	4238	safai	safai
+39	4239	kakkautawa	kakkautawa
+40	4240	rahotan	rahotan
+41	4241	ƙulli	ƙulli
+42	4242	gurasa	gurasar gurasa
+43	4243	alummar	alummar alummarta alummarsa
+44	4244	baligi	baligi
+45	4245	kasha	kasha kashar
+46	4246	mudu	mudu
+47	4247	ɗanda	ɗanda
+48	4248	ɓallewa	ɓallewa ɓallewar ɓallewarta
+49	4249	zaɓeshi	zaɓeshi
+50	4250	ƙaƙabawa	ƙaƙabawa
+51	4251	hubbare	hubbaren hubbarensa hubbare
+52	4252	alburusai	alburusai
+53	4253	tubar	tubar tubarsa tubarsu
+54	4254	alamta	alamta
+55	4255	gandunan	gandunan
+56	4256	zaga	zaga
+57	4257	la'anci	la'anci
+58	4258	zikiri	zikirin zikiri
+59	4259	cuwa	cuwa
+60	4260	jajantawa	jajantawa
+61	4261	jero	jero
+62	4262	tuya	tuya
+63	4263	ajiyewa	ajiyewa
+64	4264	watsewa	watsewa watsewar watsewarta
+65	4265	boka	bokaye boka bokan bokar bokayen
+66	4266	sakatarori	sakatarori sakatarorin sakatarorinsa sakatarorinta
+67	4267	haramtawa	haramtawa
+68	4268	ayukan	ayukan ayukanta
+69	4269	firar	firar
+70	4270	halak	halak
+71	4271	lalurar	lalurar
+72	4272	ankara	ankara
+73	4273	lauje	lauje
+74	4274	ma'abuta	ma'abuta
+75	4275	majigi	majigi majigin
+76	4276	milliyan	milliyan
+77	4277	kwatantawa	kwatantawa
+78	4278	benaye	benaye benayen benayensu benayenta
+79	4279	matayen	matayen matayensu matayensa
+80	4280	tawakkali	tawakkali tawakkalin
+81	4281	hamdala	hamdala
+82	4282	noƙe	noƙe
+83	4283	kwala	kwala kwalar kwalan
+84	4284	kwayan	kwayan
+85	4285	hidimtawa	hidimtawa
+86	4286	fusatattun	fusatattun
+87	4287	batta	batta battar
+88	4288	faƙiri	faƙirai faƙiran faƙiri
+89	4289	cunkushe	cunkushe
+90	4290	kaikaice	kaikaice
+91	4291	sadar	sadar
+92	4292	alokacin	alokacin alokacinsu
+93	4293	maharba	maharba maharban maharbansa
+94	4294	makance	makance
+95	4295	yaƙen	yaƙen yaƙensa yaƙensu
+96	4296	sakandari	sakandari sakandarin
+97	4297	shaho	shaho shahon shahuna
+98	4298	ɗabi'ance	ɗabi'ance
+99	4299	ƙawanya	ƙawanya
+100	4300	fatalwowi	fatalwowi

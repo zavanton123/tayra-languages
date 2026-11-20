@@ -1,0 +1,100 @@
+1	1301	sabili	sabili
+2	1302	ihu	ihu
+3	1303	sarauniya	sarauniyar sarauniya sarauniyarsa sarauniyarsu sarauniyarta
+4	1304	tsaka	tsaka tsakar tsakan
+5	1305	otal	otal
+6	1306	janyo	janyo
+7	1307	siyan	siyan siyansa
+8	1308	takobi	takobi takobin takobinsa takobina takubbansu takubba takubban takobinta
+9	1309	kwalba	kwalbar kwalba kwalban kwalaben kwalabe kwalbansa
+10	1310	iren	iren irensu irensa irenmu irenka
+11	1311	ƙura	ƙura ƙurar ƙuranmu ƙuransa ƙurarmu ƙurarta
+12	1312	direba	direban direba direbanta direbar direbansa direbansu
+13	1313	shirme	shirme shirmen shirmenka
+14	1314	fasali	fasalin fasali fasalinsa fasalinsu fasalinta
+15	1315	ware	ware waren
+16	1316	hagu	hagu hagun hagunsa hagunka hagunsu hagunta
+17	1317	matsi	matsin matsi matsinsu
+18	1318	rera	rera
+19	1319	ganye	ganyen ganye ganyaye ganyayen ganyensu ganyensa ganyenta
+20	1320	gogewa	gogewa gogewar gogewarsa gogewarmu gogewarta gogewarsu
+21	1321	basa	basa
+22	1322	nukiliya	nukiliya nukiliyar nukiliyarmu nukiliyan
+23	1323	rani	rani ranin
+24	1324	ambaliya	ambaliyar ambaliya ambaliyan
+25	1325	mutun	mutunta mutun
+26	1326	ƙone	ƙone
+27	1327	hange	hangen hange hangenka hangensa hangensu
+28	1328	tsire	tsire tsiren tsirensa
+29	1329	sigari	sigari sigarin
+30	1330	suma	suma sumata suman
+31	1331	bas	bas
+32	1332	raya	raya
+33	1333	zumunta	zumunta zumuntar
+34	1334	guje	guje
+35	1335	caca	caca cacar cacanta cacarsa cacan
+36	1336	komi	komi komin
+37	1337	bukukuwa	bukukuwan bukukuwa bukukuwar bukukuwansu bukukuwansa
+38	1338	mabiya	mabiya mabiyansa mabiyan mabiyansu mabiyanta mabiyar mabiyanka
+39	1339	aro	aro aron aronsa arona aronmu
+40	1340	tebur	tebur tebura teburan
+41	1341	kulle	kulle kullen kullensu
+42	1342	miliyoyi	miliyoyin miliyoyi
+43	1343	rufi	rufin rufi rufinmu rufinsa rufina rufinta
+44	1344	haramta	haramta
+45	1345	kwalliya	kwalliya kwalliyar kwalliyarta kwalliyarsu kwalliyarki kwalliyan
+46	1346	samfuri	samfurin samfuri samfurinta samfurinsa samfurinsu
+47	1347	haifuwa	haifuwar haifuwa haifuwarsa haifuwarsu haifuwarta haifuwan
+48	1348	ziyarta	ziyartar ziyarta ziyartan ziyartarta ziyartarsa
+49	1349	zuma	zuma zuman zumar
+50	1350	shuka	shuka shukar shukan shukarsu shukarmu shukarsa
+51	1351	karuwa	karuwar karuwa karuwarta
+52	1352	hamayya	hamayya hamayyarsa hamayyar hamayyarta hamayyarsu hamayyarka hamayyata
+53	1353	biyayya	biyayya biyayyar biyayyarsa biyayyarku biyayyarsu biyayyarta
+54	1354	gabatarwa	gabatarwa gabatarwar gabatarwarsa gabatarwarta gabatarwan gabatarwansa gabatarwansu gabatarwarsu
+55	1355	ma'aurata	ma'aurata ma'auratan
+56	1356	gajiya	gajiya gajiyar gajiyarsa gajiyan gajiyarta
+57	1357	tuta	tutar tuta tutarmu tutoci tutocin tutocinsu tutarsu tutarsa tutan tutarta
+58	1358	saɓani	saɓanin saɓani
+59	1359	kide	kide
+60	1360	haƙori	haƙori haƙoran haƙora haƙorin haƙoransu haƙoranku haƙorina haƙoranta haƙoransa
+61	1361	hawaye	hawaye hawayen hawayensu hawayenta hawayenki hawayenmu
+62	1362	samarwa	samarwa samarwar
+63	1363	zakara	zakarun zakara zakaran zakarar zakaru zakaruna zakarunsa zakarunsu
+64	1364	bayarwa	bayarwa
+65	1365	ayyana	ayyana
+66	1366	zumunci	zumunci zumuncin zumuncinsu zumuncinta
+67	1367	marigayi	marigayi marigayin
+68	1368	makoma	makomar makoma makomarsu makomarsa makomarka makomarta makomarmu
+69	1369	alhali	alhali
+70	1370	raguwa	raguwar raguwa raguwarsa raguwarta
+71	1371	haram	haram haramun
+72	1372	juriya	juriya juriyar juriyan juriyarsu juriyarsa juriyarmu juriyarta
+73	1373	murabus	murabus
+74	1374	dabam	dabam
+75	1375	jamhuriya	jamhuriyar jamhuriya jamhuriyarmu jamhuriyarsu
+76	1376	alade	alade aladu aladun aladen aladunta
+77	1377	ƙona	ƙona
+78	1378	gobara	gobarar gobara gobaran gobararmu
+79	1379	azama	azaman azama azamarka azamarsu azamar
+80	1380	cikakkiyar	cikakkiyar cikakkiyarsa
+81	1381	ƙetare	ƙetare ƙetaren
+82	1382	zunubi	zunubi zunubai zunubin zunuban zunubinsa zunubanku zunubina zunubansa zunubanka zunubansu zunubanmu zunubinmu zunubinsu
+83	1383	jaddada	jaddada
+84	1384	guji	guji gujin
+85	1385	manaja	manajan manaja manajanmu manajoji manajojin manajar manajanta manajansa manajansu manajojinsa manajana manajarta manajojinta
+86	1386	wayewa	wayewa wayewar wayewarki wayewarsu wayewarsa wayewan
+87	1387	gas	gas
+88	1388	canja	canja
+89	1389	buge	buge bugen
+90	1390	dasa	dasa
+91	1391	kurkuku	kurkuku kurkukun kurkukunku kurkukunsa
+92	1392	hakki	hakkin hakki hakkina hakkoki hakkinka hakkinki hakkokina hakkokin hakkokinta hakkokinmu
+93	1393	tuƙuru	tuƙuru
+94	1394	shima	shima
+95	1395	haddasa	haddasa haddasar
+96	1396	fyaɗe	fyaɗe fyaɗen
+97	1397	kiɗan	kiɗan kiɗansu kiɗansa kiɗanta kiɗanku
+98	1398	sanadiyyar	sanadiyyar sanadiyyarka
+99	1399	kame	kame kamen
+100	1400	gayyata	gayyatar gayyata gayyatarta gayyatarsa gayyatarku
