@@ -31,12 +31,14 @@ import com.idiomiko.core.domain.home.knownPercent
 import com.idiomiko.core.domain.stats.SavedWord
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTooltip
+import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.CardHeader
 import com.idiomiko.core.ui.components.CardHeaderSize
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.ProgressTrack
+import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.StudyActivityCard
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.inLearnedScript
@@ -56,10 +58,18 @@ import kotlinx.datetime.minus
 
 /** A card of the page's progress side: a small header with an optional link at its end, and its content. */
 @Composable
-private fun SectionCard(title: String, icon: ImageVector, tint: Color, tag: String, link: Pair<String, () -> Unit>? = null, content: @Composable () -> Unit) {
+private fun SectionCard(
+    title: String,
+    icon: ImageVector,
+    tint: Color,
+    tag: String,
+    link: Pair<String, () -> Unit>? = null,
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit,
+) {
     val compact = LocalWindowWidth.current.isCompact
     Column(
-        Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl).testTag(tag),
+        modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl).testTag(tag),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
         CardHeader(title, icon = icon, tint = tint, size = CardHeaderSize.Dense, actions = {
@@ -75,9 +85,9 @@ private fun SectionCard(title: String, icon: ImageVector, tint: Color, tag: Stri
  */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-internal fun RecentWordsCard(state: HomeUiState, actions: HomeActions) {
+internal fun RecentWordsCard(state: HomeUiState, actions: HomeActions, modifier: Modifier = Modifier) {
     if (state.recentWords.isEmpty()) return
-    SectionCard(tr("Recently saved"), AppIcons.Abc, AppAccents.orange, "recent-words", link = tr("Vocabulary") to { actions.onNavigate(Route.Terms()) }) {
+    SectionCard(tr("Recently saved"), AppIcons.Abc, AppAccents.orange, "recent-words", link = tr("Vocabulary") to { actions.onNavigate(Route.Terms()) }, modifier = modifier) {
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             state.recentWords.forEach { word -> WordChip(word) { actions.onNavigate(if (word.sentence != null) Route.BrowseFlashcards(word.termId) else Route.EditTerm(word.termId)) } }
         }
@@ -108,11 +118,11 @@ private fun WordChip(word: SavedWord, onClick: () -> Unit) {
  * next milestone. The count of words known is in the day's strip above, so it is not said twice.
  */
 @Composable
-internal fun VocabularyCard(state: HomeUiState, actions: HomeActions) {
+internal fun VocabularyCard(state: HomeUiState, actions: HomeActions, modifier: Modifier = Modifier) {
     val words = state.vocabulary ?: return
     val milestone = words.milestone ?: return
     val colors = MaterialTheme.colorScheme
-    SectionCard(tr("Vocabulary"), AppIcons.DoneAll, AppAccents.green, "vocabulary", link = tr("Word frequency") to { actions.onNavigate(Route.WordFrequency) }) {
+    SectionCard(tr("Vocabulary"), AppIcons.DoneAll, AppAccents.green, "vocabulary", link = tr("Word frequency") to { actions.onNavigate(Route.WordFrequency) }, modifier = modifier) {
         Text(tr("{0}% of the {1} most common words", (words.share * 100).toInt(), formatCount(milestone)), style = AppText.itemTitle)
         ProgressTrack(words.share, AppAccents.green, Modifier.fillMaxWidth(), height = AppSizes.trackThick)
         if (words.known < milestone) Text(tr("Next milestone: {0}", formatCount(milestone)), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
@@ -120,55 +130,94 @@ internal fun VocabularyCard(state: HomeUiState, actions: HomeActions) {
 }
 
 /**
- * What suits the reader's level: the course whose words go just past those known, and books not opened yet
- * that the reader mostly knows the words of. A course already offered as the next step is not offered twice.
+ * The vocabulary as one row on a phone, in place of the wide window's card of the most common words: the count of
+ * words known is on the day's card above, and the row leads to the words themselves.
  */
 @Composable
-internal fun SuggestionsCard(state: HomeUiState, actions: HomeActions) {
-    val next = state.nextUp
-    val course = state.suggestedCourse?.takeIf { !(next is NextUp.Lesson && next.course.course.id == it.course.id) }
-    if (course == null && state.suggestedBooks.isEmpty()) return
-    SectionCard(tr("For your level"), AppIcons.Explore, AppAccents.blue, "suggestions", link = tr("Browse courses") to { actions.onNavigate(Route.Courses) }) {
-        Column {
-            course?.let { c ->
-                val rank = c.course.rankUpTo
-                SuggestionRow(
-                    AppIcons.School, AppAccents.blue, c.course.title.inLearnedScript(),
-                    listOfNotNull(c.course.level.code, rank?.let { tr("Words up to rank {0}", formatCount(it)) }).joinToString(" · "),
-                    "suggested-course",
-                ) { actions.onNavigate(Route.Course(c.course.id)) }
-            }
-            state.suggestedBooks.forEach { book ->
-                SuggestionRow(
-                    AppIcons.MenuBook, AppAccents.purple, book.title.inLearnedScript(),
-                    listOfNotNull(book.knownPercent?.let { tr("{0}% known", it) }, pageLine(book)).joinToString(" · "),
-                    "suggested-book-${book.id}",
-                ) { actions.onNavigate(Route.Read(book.id)) }
-            }
+internal fun VocabularyRow(actions: HomeActions, modifier: Modifier = Modifier) {
+    val colors = MaterialTheme.colorScheme
+    Row(
+        modifier.fillMaxWidth().cardSurface(AppShapes.card).clickable { actions.onNavigate(Route.Terms()) }.padding(AppSpacing.l).testTag("vocabulary-row"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+    ) {
+        IconTile(AppIcons.Book, size = 48, tint = AppAccents.green)
+        Column(Modifier.weight(1f)) {
+            Text(tr("Vocabulary"), style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(tr("Build and review your word knowledge"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
+        Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
     }
 }
 
+/** What [RecommendedCard] offers: a title, what makes it fit, where it leads and where the button browses for more. */
+private class Recommendation(val title: String, val detail: String, val tag: String, val open: Route, val browse: String, val browseTo: Route)
+
+/**
+ * One thing that suits the reader's level: the course whose words go just past those known, or failing that a
+ * book not opened yet whose words the reader mostly knows. A course already offered as the next step is not offered twice.
+ */
 @Composable
-private fun SuggestionRow(icon: ImageVector, tint: Color, title: String, detail: String, tag: String, onClick: () -> Unit) {
+private fun recommendation(state: HomeUiState): Recommendation? {
+    val next = state.nextUp
+    val course = state.suggestedCourse?.takeIf { !(next is NextUp.Lesson && next.course.course.id == it.course.id) }
+    if (course != null) {
+        val rank = course.course.rankUpTo
+        return Recommendation(
+            course.course.title.inLearnedScript(),
+            listOfNotNull(course.course.level.code, rank?.let { tr("Words up to rank {0}", formatCount(it)) }).joinToString(" · "),
+            "suggested-course", Route.Course(course.course.id), tr("Browse courses"), Route.Courses,
+        )
+    }
+    val book = state.suggestedBooks.firstOrNull() ?: return null
+    return Recommendation(
+        book.title.inLearnedScript(),
+        listOfNotNull(book.knownPercent?.let { tr("{0}% known", it) }, pageLine(book)).joinToString(" · "),
+        "suggested-book-${book.id}", Route.Read(book.id), tr("Browse books"), Route.Books,
+    )
+}
+
+/** The recommendation for the reader's level, which opens on a click, with a way to browse for others beside it. */
+@Composable
+internal fun RecommendedCard(state: HomeUiState, actions: HomeActions, modifier: Modifier = Modifier) {
+    val pick = recommendation(state) ?: return
     val colors = MaterialTheme.colorScheme
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.control).clickable(onClick = onClick).padding(vertical = AppSpacing.s).testTag(tag),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-    ) {
-        IconTile(icon, size = 36, tint = tint)
-        Column(Modifier.weight(1f)) {
-            Text(title, style = AppText.emphasis, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+    val compact = LocalWindowWidth.current.isCompact
+    val browse = @Composable { m: Modifier ->
+        SecondaryButton(pick.browse, onClick = { actions.onNavigate(pick.browseTo) }, modifier = m.testTag("suggestions-browse"), size = ButtonSize.Large, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
+    }
+    val about = @Composable { m: Modifier ->
+        Row(
+            m.clip(AppShapes.control).clickable { actions.onNavigate(pick.open) }.testTag(pick.tag),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
+        ) {
+            IconTile(AppIcons.RocketLaunch, size = if (compact) 48 else 72, tint = AppAccents.purple)
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                Text(tr("Recommended for you").uppercase(), style = AppText.overline, color = AppAccents.onWash(AppAccents.purple))
+                Text(pick.title, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(pick.detail, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
         }
-        Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconSmall))
+    }
+    val card = modifier.testTag("suggestions").fillMaxWidth().cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl)
+    // A phone has no room for the button beside the words: it goes under them.
+    if (compact) {
+        Column(card, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            about(Modifier.fillMaxWidth())
+            browse(Modifier.fillMaxWidth())
+        }
+    } else {
+        Row(card, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+            about(Modifier.weight(1f))
+            browse(Modifier)
+        }
     }
 }
 
 /** The last 16 weeks of study; the whole year is on Statistics. */
 @Composable
-internal fun RecentActivityCard(state: HomeUiState, actions: HomeActions) {
+internal fun RecentActivityCard(state: HomeUiState, actions: HomeActions, modifier: Modifier = Modifier) {
     val activity = state.activity ?: return
     val today = activity.today
     val start = today.minus(today.dayOfWeek.ordinal, DateTimeUnit.DAY).minus((RECENT_WEEKS - 1) * 7, DateTimeUnit.DAY)
@@ -178,6 +227,7 @@ internal fun RecentActivityCard(state: HomeUiState, actions: HomeActions) {
         range = start..today,
         subtitle = trPlural(days, "{1} day studied in the last 16 weeks", "{1} days studied in the last 16 weeks", formatCount(days)),
         action = { LinkText(tr("See all stats"), onClick = { actions.onNavigate(Route.Stats) }, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.testTag("see-all-stats")) },
+        modifier = modifier.testTag("activity"),
     )
 }
 

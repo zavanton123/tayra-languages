@@ -38,6 +38,9 @@ import kotlinx.coroutines.flow.mapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.toLocalDateTime
+import kotlin.time.Clock
 import kotlin.time.Instant
 
 data class HomeUiState(
@@ -68,6 +71,8 @@ data class HomeUiState(
     val suggestedBooks: List<BookListItem> = emptyList(),
     /** Whether this platform can make a text from a web page's address. */
     val readsWebPages: Boolean = false,
+    /** The time of day the page was shown at, for its greeting. */
+    val dayPart: DayPart = DayPart.MORNING,
 ) {
     /** The one step offered first. */
     val nextUp: NextUp get() = NextUp.choose(flashcardsDue, course, book?.takeIf { !it.isCompleted }, suggestedCourse, activity?.averageAnswer)
@@ -141,6 +146,7 @@ class HomeViewModel(
                 )
             }.mapLatest { state ->
                 state.copy(
+                    dayPart = DayPart.at(Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault()).hour),
                     activity = language?.let { stats.studyActivity(it.id, it.name) },
                     recentWords = language?.let { stats.recentlySaved(it.id, RECENT_WORDS) }.orEmpty(),
                 )
