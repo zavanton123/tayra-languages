@@ -58,7 +58,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "et-zh" to 764_638L, "eu-en" to 4_360_574L, "eu-es" to 883_517L, "eu-fr" to 2_796_902L, "eu-pl" to 3_349_832L,
         "eu-pt" to 371_017L, "eu-ru" to 1_103_823L, "fa-en" to 3_479_836L, "fa-fr" to 368_776L, "fa-pl" to 312_880L,
         "fa-ru" to 881_992L, "fa-zh" to 494_307L, "fi-el" to 1_383_881L, "fi-pl" to 4_121_219L, "fi-zh" to 4_351_688L,
-        "fr-el" to 5_628_018L, "fr-pl" to 3_588_101L, "fr-zh" to 5_034_449L, "ga-en" to 3_782_364L, "ga-es" to 275_065L,
+        "fr-el" to 5_628_018L, "fr-pl" to 3_588_101L, "fr-zh" to 5_034_449L, "ga-en" to 4_082_371L, "ga-es" to 275_065L,
         "ga-fr" to 406_352L, "ga-pl" to 314_312L, "ga-ru" to 583_638L, "gd-en" to 1_132_852L, "gd-pt" to 96_464L,
         "gd-ru" to 156_834L, "gl-pl" to 310_884L, "gl-zh" to 1_004_540L, "grc-de" to 1_244_348L, "grc-el" to 10_485_869L,
         "grc-en" to 17_137_362L, "grc-fr" to 8_367_884L, "grc-ru" to 8_602_407L, "gu-en" to 725_095L, "gv-en" to 432_357L, "ha-en" to 364_161L, "haw-en" to 218_607L,
