@@ -28,7 +28,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "The books and their pages will be deleted. Terms are kept." to "Книги и их страницы будут удалены. Слова сохранятся.",
     "Clear everything" to "Очистить всё",
     "Books" to "Книги",
-    "Books you have set aside. Unarchive one to keep reading it." to "Отложенные книги. Верните книгу из архива, чтобы продолжить чтение.",
     "Read, learn, and explore languages through great texts." to "Читайте, учитесь и открывайте для себя языки с помощью отличных текстов.",
     "New book" to "Новая книга",
     // EmptyLibrary
@@ -61,8 +60,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "Edit" to "Изменить",
     "Bookmarks" to "Закладки",
     "No archived books." to "В архиве нет книг.",
-    "No archived books" to "Архив пуст",
-    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Книги, которые вы архивируете через меню ⋮, хранятся здесь, вне библиотеки, пока вы не вернёте их из архива.",
     "No books match these filters." to "Нет книг, подходящих под фильтры.",
     "No other books yet" to "Других книг пока нет",
     "Create a book" to "Создать книгу",
@@ -236,4 +233,11 @@ internal val ruBooks: Map<String, String> = mapOf(
     "public domain or an open licence" to "общественное достояние или открытая лицензия",
     "Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people." to "Польская школьная программа и классика из Wolne Lektury, в основном в общественном достоянии. Без поиска — книги для детей и юношества.",
     "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "Тексты, набранные добровольцами Викитеки и распространяемые по лицензии CC BY-SA. Без поиска — самые читаемые произведения прошлого месяца. Каждое оценивается по первой главе.",
+    "Books you set aside appear here." to "Здесь появляются отложенные книги.",
+    "No archived books yet" to "Пока нет книг в архиве",
+    "When you archive a book, it will appear here. You can restore it to your library whenever you're ready." to "Когда вы отправите книгу в архив, она появится здесь. Вернуть её в библиотеку можно в любой момент.",
+    "Back to my books" to "Назад к моим книгам",
+    "How archiving works" to "Как работает архив",
+    "Got it" to "Понятно",
+    "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Отправьте книгу в архив через её меню ⋮, чтобы убрать её из библиотеки, не удаляя. Её страницы, ваш прогресс и сохранённые из неё слова останутся. Чтобы снова её читать, откройте «Книги в архиве» и выберите «Вернуть из архива».",
 )

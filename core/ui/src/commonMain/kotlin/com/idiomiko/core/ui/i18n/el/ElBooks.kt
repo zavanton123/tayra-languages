@@ -28,7 +28,6 @@ internal val elBooks: Map<String, String> = mapOf(
     "The books and their pages will be deleted. Terms are kept." to "Τα βιβλία και οι σελίδες τους θα διαγραφούν. Οι λέξεις διατηρούνται.",
     "Clear everything" to "Εκκαθάριση όλων",
     "Books" to "Βιβλία",
-    "Books you have set aside. Unarchive one to keep reading it." to "Βιβλία που έχετε αφήσει στην άκρη. Επαναφέρετε ένα από το αρχείο για να συνεχίσετε την ανάγνωσή του.",
     "Read, learn, and explore languages through great texts." to "Διαβάστε, μάθετε και εξερευνήστε γλώσσες μέσα από σπουδαία κείμενα.",
     "New book" to "Νέο βιβλίο",
     // EmptyLibrary
@@ -61,8 +60,6 @@ internal val elBooks: Map<String, String> = mapOf(
     "Edit" to "Επεξεργασία",
     "Bookmarks" to "Σελιδοδείκτες",
     "No archived books." to "Δεν υπάρχουν αρχειοθετημένα βιβλία.",
-    "No archived books" to "Δεν υπάρχουν αρχειοθετημένα βιβλία",
-    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Τα βιβλία που αρχειοθετείτε από το μενού ⋮ τους περιμένουν εδώ, έξω από τη βιβλιοθήκη σας, μέχρι να τα επαναφέρετε.",
     "No books match these filters." to "Κανένα βιβλίο δεν ταιριάζει με αυτά τα φίλτρα.",
     "No other books yet" to "Δεν υπάρχουν ακόμη άλλα βιβλία",
     "Create a book" to "Δημιουργία βιβλίου",
@@ -236,4 +233,11 @@ internal val elBooks: Map<String, String> = mapOf(
     "public domain or an open licence" to "κοινό κτήμα ή ανοιχτή άδεια",
     "Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people." to "Πολωνικά σχολικά αναγνώσματα και κλασικά έργα από το Wolne Lektury, τα περισσότερα κοινό κτήμα. Χωρίς αναζήτηση, τα βιβλία του για παιδιά και νέους.",
     "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "Κείμενα που μεταγράφηκαν από εθελοντές του Wikisource, ελεύθερα για κοινοποίηση με CC BY-SA. Χωρίς αναζήτηση, τα πιο δημοφιλή έργα του προηγούμενου μήνα. Το καθένα αξιολογείται από το πρώτο του κεφάλαιο.",
+    "Books you set aside appear here." to "Τα βιβλία που βάζεις στην άκρη εμφανίζονται εδώ.",
+    "No archived books yet" to "Δεν υπάρχουν ακόμη αρχειοθετημένα βιβλία",
+    "When you archive a book, it will appear here. You can restore it to your library whenever you're ready." to "Όταν αρχειοθετείς ένα βιβλίο, θα εμφανίζεται εδώ. Μπορείς να το επαναφέρεις στη βιβλιοθήκη σου όποτε θέλεις.",
+    "Back to my books" to "Πίσω στα βιβλία μου",
+    "How archiving works" to "Πώς λειτουργεί η αρχειοθέτηση",
+    "Got it" to "Εντάξει",
+    "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Αρχειοθέτησε ένα βιβλίο από το μενού ⋮ του για να το βγάλεις από τη βιβλιοθήκη σου χωρίς να το διαγράψεις. Οι σελίδες του, η πρόοδός σου και οι λέξεις που αποθήκευσες από αυτό μένουν. Για να το ξαναδιαβάσεις, άνοιξε τα Αρχειοθετημένα βιβλία και διάλεξε Επαναφορά από το αρχείο.",
 )

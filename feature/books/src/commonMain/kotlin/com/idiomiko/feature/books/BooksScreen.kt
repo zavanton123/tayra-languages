@@ -1,5 +1,9 @@
 package com.idiomiko.feature.books
 
+import com.idiomiko.core.ui.components.ArchivedBooksIllustration
+import com.idiomiko.core.ui.components.AppDialog
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.layout.aspectRatio
 import com.idiomiko.core.ui.components.inLearnedScript
 import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
@@ -136,6 +140,7 @@ fun BooksScreen(
         }
         val callbacks = BooksCallbacks(
                 onOpen = { onNavigate(Route.Read(it.id)) },
+                onBackToBooks = { onBack?.invoke() ?: onNavigate(Route.Books) },
                 onPractice = { practise(Route.Practice(it.id)) },
                 onEdit = { onNavigate(Route.EditBook(it.id)) },
                 onArchive = { if (it.isArchived) viewModel.unarchive(it.id) else viewModel.archive(it.id) },
@@ -190,6 +195,8 @@ internal class BooksCallbacks(
     val onDelete: (BookListItem) -> Unit = {},
     val onBookmarks: (BookListItem) -> Unit = {},
     val onNewBook: () -> Unit = {},
+    /** From the archive back to the library. */
+    val onBackToBooks: () -> Unit = {},
     val onSearch: (String) -> Unit = {},
     val onSort: (BookSort) -> Unit = {},
     val onTags: (tags: Set<String>, matchAll: Boolean) -> Unit = { _, _ -> },
@@ -224,7 +231,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         item {
             ScreenHeader(
                 title = if (state.archived) tr("Archived books") else tr("Books"),
-                subtitle = if (state.archived) tr("Books you have set aside. Unarchive one to keep reading it.") else null,
+                subtitle = if (state.archived) tr("Books you set aside appear here.") else null,
             ) {
                 // An empty library offers the same ways in itself.
                 if (!state.archived && state.books.isNotEmpty()) {
@@ -240,7 +247,7 @@ internal fun BooksContent(state: BooksUiState, callbacks: BooksCallbacks, modifi
         }
         // An empty archive has nothing to sort or filter, so it says only how books get there.
         if (state.archived && state.books.isEmpty()) {
-            item { EmptyArchive() }
+            item { EmptyArchive(callbacks.onBackToBooks) }
             return@ScrollList
         }
         if (!state.archived) state.continueWith?.let { book -> item { ContinueCard(book) { callbacks.onOpen(book) } } }
@@ -520,11 +527,54 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
     )
 }
 
-/** The archive with nothing in it: how a book is set aside. */
+/**
+ * The archive with nothing in it: the mascot at an empty box beside what archiving does, the way back to the
+ * library, and how archiving works. Side by side on a wide window, the picture above on a narrow one.
+ */
 @Composable
-internal fun EmptyArchive() {
-    EmptyState(AppIcons.Book, tr("No archived books"), message = tr("Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them."))
+internal fun EmptyArchive(onBackToBooks: () -> Unit) {
+    var explaining by remember { mutableStateOf(false) }
+    val wide = !LocalWindowWidth.current.isCompact
+    val words = @Composable {
+        Text(tr("No archived books yet"), style = AppText.pageTitle)
+        Text(
+            tr("When you archive a book, it will appear here. You can restore it to your library whenever you're ready."),
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        PrimaryButton(tr("Back to my books"), onClick = onBackToBooks, modifier = Modifier.padding(top = AppSpacing.s).testTag("archive-back"))
+        LinkText(tr("How archiving works"), onClick = { explaining = true }, modifier = Modifier.testTag("archive-how"))
+    }
+    val card = Modifier.fillMaxWidth().widthIn(max = EMPTY_ARCHIVE_MAX).cardSurface(AppShapes.large).padding(AppSpacing.xxxl).testTag("empty-archive")
+    Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.TopCenter) {
+        if (wide) {
+            Row(card, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxxl)) {
+                ArchivedBooksIllustration(Modifier.weight(1f).aspectRatio(ARCHIVE_PICTURE_RATIO))
+                Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { words() }
+            }
+        } else {
+            Column(card, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                ArchivedBooksIllustration(Modifier.fillMaxWidth().aspectRatio(ARCHIVE_PICTURE_RATIO))
+                Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { words() }
+            }
+        }
+    }
+    if (explaining) {
+        AppDialog(
+            onDismissRequest = { explaining = false },
+            confirmButton = { QuietButton(tr("Got it"), onClick = { explaining = false }) },
+            title = { Text(tr("How archiving works")) },
+            text = {
+                Text(tr("Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive."))
+            },
+            modifier = Modifier.testTag("archive-how-dialog"),
+        )
+    }
 }
+
+private val EMPTY_ARCHIVE_MAX = 1040.dp
+/** The picture's own width to height. */
+private const val ARCHIVE_PICTURE_RATIO = 1.5f
 
 /**
  * No books in the archive, or none matching the filters. [onlyContinued] means the one match is the

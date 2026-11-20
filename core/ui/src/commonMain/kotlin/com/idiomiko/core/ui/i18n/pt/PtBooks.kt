@@ -28,7 +28,6 @@ internal val ptBooks: Map<String, String> = mapOf(
     "The books and their pages will be deleted. Terms are kept." to "Os livros e suas páginas serão excluídos. Os termos são mantidos.",
     "Clear everything" to "Limpar tudo",
     "Books" to "Livros",
-    "Books you have set aside. Unarchive one to keep reading it." to "Livros que você deixou de lado. Desarquive um para continuar a leitura.",
     "Read, learn, and explore languages through great texts." to "Leia, aprenda e explore idiomas com ótimos textos.",
     "New book" to "Novo livro",
     // EmptyLibrary
@@ -61,8 +60,6 @@ internal val ptBooks: Map<String, String> = mapOf(
     "Edit" to "Editar",
     "Bookmarks" to "Marcadores",
     "No archived books." to "Nenhum livro arquivado.",
-    "No archived books" to "Nenhum livro arquivado",
-    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Os livros que você arquiva pelo menu ⋮ ficam aqui, fora da sua biblioteca, até você desarquivá-los.",
     "No books match these filters." to "Nenhum livro corresponde a estes filtros.",
     "No other books yet" to "Ainda não há outros livros",
     "Create a book" to "Criar livro",
@@ -236,4 +233,11 @@ internal val ptBooks: Map<String, String> = mapOf(
     "public domain or an open licence" to "domínio público ou licença aberta",
     "Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people." to "Leituras escolares e clássicos poloneses do Wolne Lektury, a maioria em domínio público. Sem busca, os livros para crianças e jovens.",
     "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "Textos transcritos pelos voluntários do Wikisource, de livre compartilhamento sob CC BY-SA. Sem busca, as obras mais lidas do mês passado. Cada uma é avaliada pelo primeiro capítulo.",
+    "Books you set aside appear here." to "Os livros que você deixou de lado aparecem aqui.",
+    "No archived books yet" to "Ainda não há livros arquivados",
+    "When you archive a book, it will appear here. You can restore it to your library whenever you're ready." to "Quando você arquivar um livro, ele vai aparecer aqui. Você pode devolvê-lo à sua biblioteca quando quiser.",
+    "Back to my books" to "Voltar aos meus livros",
+    "How archiving works" to "Como funciona o arquivo",
+    "Got it" to "Entendi",
+    "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Arquive um livro pelo menu ⋮ dele para tirá-lo da sua biblioteca sem apagá-lo. As páginas, o seu progresso e as palavras que você salvou dele ficam. Para ler de novo, abra Livros arquivados e escolha Desarquivar.",
 )

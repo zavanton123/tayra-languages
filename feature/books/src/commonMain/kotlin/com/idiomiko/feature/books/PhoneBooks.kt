@@ -93,10 +93,10 @@ internal fun PhoneBooksContent(state: BooksUiState, callbacks: BooksCallbacks, s
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
         if (state.archived && state.books.isEmpty()) {
-            item { EmptyArchive() }
+            item { EmptyArchive(callbacks.onBackToBooks) }
             return@ScrollList
         } else if (state.archived) {
-            item { Text(tr("Books you have set aside. Unarchive one to keep reading it."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
+            item { Text(tr("Books you set aside appear here."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
         } else if (state.books.isEmpty()) {
             item { EmptyLibrary(state, callbacks.onNewBook, callbacks.onDownloadBooks, callbacks.onFindBooks) }
             return@ScrollList

@@ -83,13 +83,14 @@ class BooksTableTest {
     private val opened = mutableListOf<String>()
     private val practised = mutableListOf<String>()
 
-    private fun ComposeUiTest.page(library: List<BookListItem> = books, theme: AppTheme = AppThemes.default, phone: Boolean = false, view: BooksView = BooksView.LIST) = setContent {
+    private fun ComposeUiTest.page(library: List<BookListItem> = books, theme: AppTheme = AppThemes.default, phone: Boolean = false, view: BooksView = BooksView.LIST, archived: Boolean = false) = setContent {
         var state by remember {
-            mutableStateOf(BooksUiState(loading = false, books = library, view = view, languages = listOf(Language(id = 1, name = "Portuguese")), currentLanguageId = 1, packAvailable = true))
+            mutableStateOf(BooksUiState(loading = false, archived = archived, books = library, view = view, languages = listOf(Language(id = 1, name = "Portuguese")), currentLanguageId = 1, packAvailable = true))
         }
         val callbacks = BooksCallbacks(
             onOpen = { opened += it.title },
             onPractice = { practised += it.title },
+            onBackToBooks = { backToBooks++ },
             onSort = { state = state.copy(sort = it) },
             onProgress = { state = state.copy(progress = it) },
             onTags = { tags, all -> state = state.copy(tags = tags, matchAllTags = all) },
@@ -109,6 +110,33 @@ class BooksTableTest {
                 }
             }
         }
+    }
+
+    private var backToBooks = 0
+
+    @Test
+    fun anEmptyArchiveShowsTheWayBackAndHowArchivingWorks() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        page(library = emptyList(), archived = true)
+        onNodeWithTag("empty-archive").assertIsDisplayed()
+        onNodeWithText("No archived books yet").assertExists()
+        onNodeWithText("Books you set aside appear here.").assertExists()
+        shot("archive-empty-desktop")
+        onNodeWithTag("archive-back").performClick()
+        assertEquals(1, backToBooks)
+        onNodeWithTag("archive-how").performClick()
+        waitForIdle()
+        onNodeWithTag("archive-how-dialog").assertExists()
+        shot("archive-how")
+        onNodeWithText("Got it").performClick()
+        waitForIdle()
+        assertEquals(0, onAllNodesWithTag("archive-how-dialog").fetchSemanticsNodes().size)
+    }
+
+    @Test
+    fun anEmptyArchiveOnAPhoneAndInTheDark() = runDesktopComposeUiTest(width = 400, height = 860) {
+        page(library = emptyList(), archived = true, phone = true, theme = AppThemes.night)
+        onNodeWithTag("empty-archive").assertIsDisplayed()
+        shot("archive-empty-phone-dark")
     }
 
     private fun ComposeUiTest.shot(name: String) {

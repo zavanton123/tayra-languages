@@ -28,7 +28,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     "The books and their pages will be deleted. Terms are kept." to "这些书及其所有页面将被删除。词条会保留。",
     "Clear everything" to "全部清除",
     "Books" to "书籍",
-    "Books you have set aside. Unarchive one to keep reading it." to "你暂时搁置的书籍。取消归档即可继续阅读。",
     "Read, learn, and explore languages through great texts." to "通过好文章阅读、学习、探索语言。",
     "New book" to "新建书籍",
     // EmptyLibrary
@@ -61,8 +60,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     "Edit" to "编辑",
     "Bookmarks" to "书签",
     "No archived books." to "没有已归档的书籍。",
-    "No archived books" to "没有已归档的书籍",
-    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "通过 ⋮ 菜单归档的书籍会放在这里，不在书库中显示，直到你取消归档。",
     "No books match these filters." to "没有符合这些筛选条件的书籍。",
     "No other books yet" to "还没有其他书籍",
     "Create a book" to "创建书籍",
@@ -236,4 +233,11 @@ internal val zhBooks: Map<String, String> = mapOf(
     "public domain or an open licence" to "公有领域或开放许可",
     "Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people." to "来自 Wolne Lektury 的波兰语学校读物和经典作品，大多属于公有领域。未搜索时显示儿童和青少年读物。",
     "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "由 Wikisource 志愿者录入的文本，采用 CC BY-SA 许可，可自由分享。未搜索时显示上个月阅读量最高的作品。每部作品按第一章评估。",
+    "Books you set aside appear here." to "你搁置的书会显示在这里。",
+    "No archived books yet" to "还没有归档的书",
+    "When you archive a book, it will appear here. You can restore it to your library whenever you're ready." to "归档一本书后，它会出现在这里。你随时可以把它放回书库。",
+    "Back to my books" to "返回我的书",
+    "How archiving works" to "归档如何运作",
+    "Got it" to "知道了",
+    "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "从书的 ⋮ 菜单中归档，可将它移出书库而不删除。它的页面、你的进度以及从中保存的单词都会保留。要再次阅读，请打开“已归档的书籍”并选择“取消归档”。",
 )

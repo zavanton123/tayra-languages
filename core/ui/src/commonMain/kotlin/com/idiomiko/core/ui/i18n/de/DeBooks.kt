@@ -28,7 +28,6 @@ internal val deBooks: Map<String, String> = mapOf(
     "The books and their pages will be deleted. Terms are kept." to "Die Bücher und ihre Seiten werden gelöscht. Die Begriffe bleiben erhalten.",
     "Clear everything" to "Alles löschen",
     "Books" to "Bücher",
-    "Books you have set aside. Unarchive one to keep reading it." to "Bücher, die du beiseitegelegt hast. Hol eines aus dem Archiv, um weiterzulesen.",
     "Read, learn, and explore languages through great texts." to "Lies, lerne und entdecke Sprachen mit großartigen Texten.",
     "New book" to "Neues Buch",
     // EmptyLibrary
@@ -61,8 +60,6 @@ internal val deBooks: Map<String, String> = mapOf(
     "Edit" to "Bearbeiten",
     "Bookmarks" to "Lesezeichen",
     "No archived books." to "Keine archivierten Bücher.",
-    "No archived books" to "Keine archivierten Bücher",
-    "Books you archive from their ⋮ menu wait here, out of your library, until you unarchive them." to "Bücher, die du über ihr ⋮-Menü archivierst, warten hier außerhalb deiner Bibliothek, bis du sie wiederherstellst.",
     "No books match these filters." to "Keine Bücher passen zu diesen Filtern.",
     "No other books yet" to "Noch keine anderen Bücher",
     "Create a book" to "Buch erstellen",
@@ -236,4 +233,11 @@ internal val deBooks: Map<String, String> = mapOf(
     "public domain or an open licence" to "gemeinfrei oder unter offener Lizenz",
     "Polish school readings and classics from Wolne Lektury, most in the public domain. Without a search, its books for children and young people." to "Polnische Schullektüren und Klassiker aus Wolne Lektury, meist gemeinfrei. Ohne Suche die Bücher für Kinder und Jugendliche.",
     "Texts transcribed by Wikisource's volunteers, free to share under CC BY-SA. Without a search, the most read works of last month. Each is judged by its first chapter." to "Von Freiwilligen bei Wikisource erfasste Texte, frei teilbar unter CC BY-SA. Ohne Suche die meistgelesenen Werke des letzten Monats. Jedes wird nach seinem ersten Kapitel bewertet.",
+    "Books you set aside appear here." to "Bücher, die du beiseitegelegt hast, erscheinen hier.",
+    "No archived books yet" to "Noch keine archivierten Bücher",
+    "When you archive a book, it will appear here. You can restore it to your library whenever you're ready." to "Wenn du ein Buch archivierst, erscheint es hier. Du kannst es jederzeit in deine Bibliothek zurückholen.",
+    "Back to my books" to "Zurück zu meinen Büchern",
+    "How archiving works" to "So funktioniert das Archiv",
+    "Got it" to "Verstanden",
+    "Archive a book from its ⋮ menu to take it out of your library without deleting it. Its pages, your progress and the words you saved from it stay. To read it again, open Archived books and choose Unarchive." to "Archiviere ein Buch über sein ⋮-Menü, um es aus deiner Bibliothek zu nehmen, ohne es zu löschen. Seine Seiten, dein Fortschritt und die daraus gespeicherten Wörter bleiben erhalten. Um es wieder zu lesen, öffne „Archivierte Bücher“ und wähle „Aus dem Archiv holen“.",
 )

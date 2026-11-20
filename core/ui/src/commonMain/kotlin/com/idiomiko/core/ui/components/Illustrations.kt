@@ -8,6 +8,7 @@ import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import org.jetbrains.compose.resources.painterResource
 import idiomiko.core.ui.generated.resources.Res
+import idiomiko.core.ui.generated.resources.archived_books_empty_monkey
 import idiomiko.core.ui.generated.resources.illustration_courses
 import idiomiko.core.ui.generated.resources.illustration_flashcards
 import idiomiko.core.ui.generated.resources.illustration_journey
@@ -29,4 +30,10 @@ fun FlashcardsIllustration(modifier: Modifier = Modifier) {
 @Composable
 fun JourneyIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.illustration_journey), contentDescription = null, modifier = modifier)
+}
+
+/** The mascot peering into an empty box of set-aside books: the archive with nothing in it. */
+@Composable
+fun ArchivedBooksIllustration(modifier: Modifier = Modifier) {
+    Image(painterResource(Res.drawable.archived_books_empty_monkey), contentDescription = null, modifier = modifier)
 }
