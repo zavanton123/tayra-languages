@@ -17,7 +17,9 @@ The output is a gzip-compressed SQLite file (.sqlite.gzip, the extension the app
 under) that the app decompresses once and opens read-only on every platform; the uncompressed
 .sqlite file is written next to it for inspection with sqlite3:
 
-  meta(key, value)                           format, source/target language, entry count
+  meta(key, value)                           format, source/target language, entry count; supplement_entries and
+                                             supplement_forms when tools/glosses/<source>-<target>.tsv added entries
+                                             (the last supplement_entries ids) for frequency-list words the dumps lack
   entries(id, word, word_lc, pos, ipa, senses) senses is a JSON list of {glosses, tags, examples}
   forms(form_lc, lemma, generated)
 
@@ -624,8 +626,95 @@ def drop_shared_forms(db, source):
     ).rowcount
 
 
+TOOLS_DIR = os.path.dirname(os.path.abspath(__file__))
+# Hand-written glosses for the frequency-list words the dumps leave out, one file per pack:
+# tools/glosses/<source>-<target>.tsv, rows of word, part of speech and gloss separated by tabs, the
+# gloss's senses separated by SENSE_SEPARATOR; lines starting with "#" are comments.
+GLOSSES_DIR = os.path.join(TOOLS_DIR, "glosses")
+SENSE_SEPARATOR = " ; "
+FREQUENCY_DIR = os.path.join(os.path.dirname(TOOLS_DIR), "feature/frequency/src/commonMain/composeResources/files/frequency")
+
+
+def supplement_path(source, target):
+    return os.path.join(GLOSSES_DIR, f"{source}-{target}.tsv")
+
+
+def read_supplement(path):
+    """The (line number, word, pos, senses, field count) rows of a supplement file; senses are the gloss split at SENSE_SEPARATOR."""
+    rows = []
+    with open(path, encoding="utf-8") as f:
+        for number, line in enumerate(f, 1):
+            line = line.rstrip("\n").rstrip("\r")
+            if not line.strip() or line.startswith("#"):
+                continue
+            fields = line.split("\t")
+            word, pos, gloss = (fields + ["", ""])[:3]
+            senses = [s.strip() for s in gloss.split(SENSE_SEPARATOR)]
+            rows.append((number, unicodedata.normalize("NFC", word.strip()), pos.strip(), senses, len(fields)))
+    return rows
+
+
+def frequency_list(source, path=None):
+    """The app's frequency list for [source] in rank order: (word, its corpus forms); empty when there is none."""
+    path = path or os.path.join(FREQUENCY_DIR, f"{source}.tsv")
+    if not os.path.exists(path):
+        return []
+    out = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip("\n")
+            if not line or line.startswith("#"):
+                continue
+            word, _, forms = line.partition("\t")
+            out.append((word, forms.split(" ") if forms else []))
+    return out
+
+
+def add_supplement(db, source, target):
+    """
+    Adds an entry for every row of the pack's supplement file whose word has no entry yet, after all
+    the others (the last supplement_entries ids), and points the word's corpus forms in the frequency
+    list at it where no entry or form row has them; returns (entries, forms) added. Without the file
+    nothing changes.
+    """
+    path = supplement_path(source, target)
+    if not os.path.exists(path):
+        return 0, 0
+    have = {w for (w,) in db.execute("SELECT word_lc FROM entries")}
+    next_id = (db.execute("SELECT max(id) FROM entries").fetchone()[0] or 0) + 1
+    entry_rows, added = [], set()
+    for _, word, pos, senses, _ in read_supplement(path):
+        word_lc = lowercase(word, source)
+        senses = [s for s in senses if s]
+        if not word or not senses or word_lc in have or (word_lc, pos) in added:
+            continue
+        added.add((word_lc, pos))
+        entry_rows.append((next_id, word, word_lc, pos, None, json.dumps([{"glosses": [s]} for s in senses], ensure_ascii=False, separators=(",", ":"))))
+        next_id += 1
+    db.executemany("INSERT INTO entries(id, word, word_lc, pos, ipa, senses) VALUES (?, ?, ?, ?, ?, ?)", entry_rows)
+    words = {lowercase(word, source): word for _, word, _, _, _, _ in entry_rows}
+    taken = have | set(words) | {f for (f,) in db.execute("SELECT DISTINCT form_lc FROM forms")}
+    form_rows = []
+    for word, forms in frequency_list(source):
+        lemma = words.get(lowercase(word, source))
+        for form in forms if lemma else []:
+            form_lc = lowercase(form, source)
+            if form_lc and form_lc not in taken:
+                taken.add(form_lc)
+                form_rows.append((form_lc, lemma))
+    db.executemany("INSERT INTO forms(form_lc, lemma, generated) VALUES (?, ?, 1)", form_rows)
+    print(f"  {len(entry_rows):,} entries and {len(form_rows):,} forms from {os.path.relpath(path)}", file=sys.stderr)
+    return len(entry_rows), len(form_rows)
+
+
 def finish_output(db, path, out_path, source, target, entry_count, form_count, sources):
+    supplement_entries, supplement_forms = add_supplement(db, source, target)
+    entry_count += supplement_entries
+    form_count += supplement_forms
     form_count -= drop_shared_forms(db, source)
+    supplement = [("supplement_entries", str(supplement_entries)), ("supplement_forms", str(supplement_forms))] if supplement_entries else []
+    if supplement_entries:
+        sources += "; hand-written glosses for frequency-list words (tools/glosses)"
     db.executemany(
         "INSERT INTO meta(key, value) VALUES (?, ?)",
         [
@@ -636,7 +725,7 @@ def finish_output(db, path, out_path, source, target, entry_count, form_count, s
             ("form_count", str(form_count)),
             ("sources", sources),
             ("license", "CC BY-SA 4.0"),
-        ],
+        ] + supplement,
     )
     db.executescript(
         f"""
