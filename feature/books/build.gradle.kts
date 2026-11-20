@@ -4,6 +4,9 @@ plugins {
 
 kotlin {
     sourceSets {
+        commonMain.dependencies {
+            implementation(libs.compose.ui.backhandler)
+        }
         jvmTest.dependencies {
             implementation(projects.core.data)
             implementation(libs.multiplatform.settings)

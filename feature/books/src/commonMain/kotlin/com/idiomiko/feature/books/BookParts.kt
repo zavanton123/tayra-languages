@@ -56,16 +56,24 @@ import com.idiomiko.core.ui.theme.AppText
  * books side by side differ, with the title on it; a cover from [LARGE_COVER] wide also names the language.
  */
 @Composable
-internal fun BookCover(book: BookListItem, width: Dp) {
+internal fun BookCover(book: BookListItem, width: Dp) =
+    BookCover(book.title, width, LanguageCodes.codeFor(book.languageName)?.uppercase() ?: book.languageName.take(2).uppercase())
+
+/**
+ * A drawn cover for the book with [title]; a large one names the language by its [code] at the top, or leaves the top
+ * clear without it. [typeShare] is the title's size as a share of the width, smaller where badges share the cover.
+ */
+@Composable
+internal fun BookCover(title: String, width: Dp, code: String?, typeShare: Float? = null) {
     val gradients = AppAccents.coverGradients
-    val (start, end) = gradients[stableHash(book.title).mod(gradients.size)]
+    val (start, end) = gradients[stableHash(title).mod(gradients.size)]
     val large = width >= LARGE_COVER
     val shape = RoundedCornerShape(topStart = width * 0.08f, bottomStart = width * 0.08f, topEnd = width * 0.16f, bottomEnd = width * 0.16f)
-    val title = book.title.inLearnedScript()
+    val shown = title.inLearnedScript()
     // The type shrinks until the title's longest word fits a line, so no word is cut in two.
     val room = width.value * (1 - TYPE_START - TYPE_END)
-    val longest = title.split(' ').maxOfOrNull { it.length }?.coerceAtLeast(1) ?: 1
-    val typeSize = minOf(width.value * if (large) 0.15f else 0.18f, room / (longest * GLYPH_WIDTH))
+    val longest = shown.split(' ').maxOfOrNull { it.length }?.coerceAtLeast(1) ?: 1
+    val typeSize = minOf(width.value * (typeShare ?: if (large) 0.15f else 0.18f), room / (longest * GLYPH_WIDTH))
     val type = AppText.sectionTitle.copy(
         color = AppAccents.onAccent,
         fontSize = typeSize.sp,
@@ -83,13 +91,12 @@ internal fun BookCover(book: BookListItem, width: Dp) {
     ) {
         val inset = Modifier.fillMaxSize().padding(start = width * TYPE_START, end = width * TYPE_END, top = width * 0.12f, bottom = width * 0.12f)
         if (large) {
-            Column(inset, verticalArrangement = Arrangement.SpaceBetween) {
-                val code = LanguageCodes.codeFor(book.languageName)?.uppercase() ?: book.languageName.take(2).uppercase()
-                Text(code, style = AppText.smallTitle.copy(fontSize = (width.value * 0.15f).sp, color = AppAccents.onAccent.copy(alpha = CODE_ALPHA)), maxLines = 1)
-                Text(title, style = type, maxLines = 3, overflow = TextOverflow.Ellipsis)
+            Column(inset, verticalArrangement = if (code != null) Arrangement.SpaceBetween else Arrangement.Bottom) {
+                if (code != null) Text(code, style = AppText.smallTitle.copy(fontSize = (width.value * 0.15f).sp, color = AppAccents.onAccent.copy(alpha = CODE_ALPHA)), maxLines = 1)
+                Text(shown, style = type, maxLines = 3, overflow = TextOverflow.Ellipsis)
             }
         } else {
-            Text(title, inset, style = type, maxLines = 3, overflow = TextOverflow.Ellipsis)
+            Text(shown, inset, style = type, maxLines = 3, overflow = TextOverflow.Ellipsis)
         }
     }
 }
@@ -201,7 +208,7 @@ internal fun lengthLine(book: BookListItem): String = words(book.wordCount) + " 
 internal val LARGE_COVER = 64.dp
 internal val THUMB = 44.dp
 internal val RING = 42.dp
-private const val COVER_RATIO = 1.38f
+internal const val COVER_RATIO = 1.38f
 private const val RING_STROKE = 0.11f
 
 /** The cover's margins beside its type, as shares of its width: the spine's side is wider. */
