@@ -80,7 +80,6 @@ SOMALI_WORDS = {
     "in": ("conj", "that (introducing a clause)"),
     "ha": ("particle", "let (optative); don't (with a negative imperative)"),
     "yaa": ("pron", "who"),
-    "maxay": ("pron", "what, why"),
     "sidee": ("adv", "how"),
     "xaggee": ("adv", "where"),
     "halkee": ("adv", "where"),
@@ -417,7 +416,7 @@ for _focus, _clusters in {
              "waxad"],
     "ayaa": ["ayaan", "ayaad", "ayuu", "ayay", "ayey", "ayaannu", "ayaynu", "ayeynu", "ayaanu"],
     "baa": ["baan", "baad", "buu", "bay", "baannu", "baynu"],
-    "maxaa": ["maxaan", "maxaad", "muxuu", "maxaynu", "maxaannu"],
+    "maxaa": ["maxaan", "maxaad", "muxuu", "maxay", "maxey", "maxaynu", "maxaannu"],
     "ma": ["maan", "maad", "muu", "may", "mey", "maannu", "maynu", "miyaa", "miyaad", "miyuu", "miyay", "miyey", "miyaan",
            "miyaannu", "miyaynu", "majiro", "majirto"],
     "in": ["inuu", "inay", "iney", "inaan", "inaad", "inaynu", "inaannu", "inaanu", "inuusan", "inaysan", "inaanay"],
@@ -500,7 +499,9 @@ SOMALI_FORMS.update({
     "kuwo": "kuwa", "kuwii": "kuwa", "kuwaasoo": "kuwaas", "kuwaasi": "kuwaas", "taasoo": "taas", "taasi": "taas", "tani": "tan",
     "kaasoo": "kaas", "kaasi": "kaas", "wixii": "wax", "sidaa": "sidaas", "intaa": "inta", "intaas": "inta", "horay": "hore",
     "horey": "hore", "ahaatee": "ah", "ahaadeen": "ah",
-    "kaloo": "kale", "wuxu": "waxa", "aha": "ah", "usoo": "u",
+    "kaloo": "kale", "waxyaabaha": "wax", "waxyaalaha": "wax", "waxyaabo": "wax", "waxyaalo": "wax", "waxyaabihii": "wax",
+    "waxyaabahaas": "wax", "waxyaabahan": "wax", "laha": "leh", "lihi": "leh", "lihid": "leh", "lihin": "leh", "lahan": "leh",
+    "yaqaannaan": "aqoon", "yaqaanaan": "aqoon", "taqaannaan": "aqoon", "kuwani": "kuwan", "kuwaani": "kuwan", "aabbo": "aabbe", "aabo": "aabbe", "wuxu": "waxa", "aha": "ah", "usoo": "u",
     # arag "see": its stem is ark- before a vowel (arkay "he saw").
     **{f: "arag" for f in ["arkay", "arkey", "arko", "arki", "arkin", "arkaa", "arkeen", "arkaan", "arkaya", "arkayaa", "arkaysaa",
                            "arkayaan", "arkayay", "arkayo", "arka", "arkeyn", "arkayn"]},
@@ -586,7 +587,7 @@ THIRD_ENDINGS = (["ad" + e for e in ("aa", "aan", "ay", "ey", "een", "o", "a")]
 CONTRACTED_ENDINGS = ["t" + e for e in ("aa", "aan", "ay", "ey", "een", "o", "a")]
 # The middle (third-conjugation) verbs the pack lacks, whose forms are read as their plain verb's: qaado "take for oneself"
 # (qaatay "he took", qaadatay, qaadan) as qaad's.
-MIDDLE_VERBS = {"qaad": "qaado", "bar": "baro", "dhig": "dhigo", "hel": "helo", "gal": "galo", "keen": "keeno", "sheeg": "sheego",
+MIDDLE_VERBS = {"hay": "hayso", "qaad": "qaado", "bar": "baro", "dhig": "dhigo", "hel": "helo", "gal": "galo", "keen": "keeno", "sheeg": "sheego",
                 "rab": "rabo", "dhis": "dhiso", "xir": "xirso", "isticmaal": "isticmaalo"}
 # An adjective as a predicate (weynaa "was big", wanaagsanayd, fiicnayn) and its plural by doubling (yaryar, waaweyn).
 ADJECTIVE_ENDINGS = ["aa", "ayd", "eyd", "ayn", "eyn", "aayeen", "i", "aan", "aato", "aado", "aaday", "aatay", "aaday", "aatay",
@@ -659,7 +660,7 @@ class Lexicon:
             out |= {base + "d" + e for e in ("aa", "aan", "ay", "ey", "een", "o", "a")}
             out |= {base + "ot" + e for e in ("aa", "aan", "ay", "ey", "een", "o", "a")}
             out |= {base + "on" + e for e in ("", "naa", "nay", "no", "in")} | {base + "on" + p + e for p in ("ay", "ey") for e in _PROGRESSIVE}
-            if not base.endswith("s") and not _vowel(base[-1]):
+            if not _vowel(base[-1]):
                 out |= {base + e for e in CONTRACTED_ENDINGS}
                 if base.endswith("d"):
                     out |= {base[:-1] + e for e in CONTRACTED_ENDINGS}
