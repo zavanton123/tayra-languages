@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Nepali word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its forms). Course `ne-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 5,058 words: `ne-mini-0100` to `ne-mini-5100`
-(the last band has 58 words).
+`themes.tsv` gives each course its theme. The list has 5,009 words: `ne-mini-0100` to `ne-mini-5100`
+(the last band has 9 words).
 
 ## The register
 
@@ -162,7 +162,7 @@ Things to know about the Nepali list and the checker:
   (*देखिनु*, *भनिनु*, *पाइनु*), otherwise it is its verb's (*गरिन्छ* is *गर्नु*'s).
 - **The news shows in the first ranks**: *सरकार, कम्पनी, जिल्ला, विकास, निर्माण, कार्यक्रम, प्रतिशत, बैंक* are in
   the first hundred, and everyday nouns come later than you might expect: *नाम* 121, *आमा* 150, *साथी* 195,
-  *विद्यालय* 263, *पानी* 264, *बुबा* 301, *खाना* 351, *भाइ* 822, *दिदी* 1214, *हजुरआमा* 1787. Check a word's rank
+  *विद्यालय* 263, *पानी* 264, *बुबा* 301, *खाना* 352, *भाइ* 606, *दिदी* 1215, *हजुरआमा* 1777. Check a word's rank
   (`rank.py` in the writer folder) rather than guess.
 - **Most words have no entry in the app's ne-en dictionary**: the pack has 2,200 entries, so the list also
   takes the words the corpus uses that the English Wiktionary's Hindi entries spell alike (*कारण*, *अवस्था*,
