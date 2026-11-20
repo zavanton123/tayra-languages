@@ -280,7 +280,7 @@ SOURCE_WEIGHTS["ps"] = {"leipzig": 0.8, "wikipedia_sentences": 0.2}
 SOURCE_ORDER["mr"] = ["leipzig", "wikipedia_sentences"]
 BLEND.add("mr")
 # Uzbek has neither wordfreq nor FrequencyWords, and OPUS's subtitles are a few hundred lines: it is counted from CC-100's web
-# text (46 million words), Leipzig's news (800,000 words in the Latin alphabet) and, at a tenth, Leipzig's Wikipedia sentences,
+# text (44 million words), Leipzig's news (800,000 words in the Latin alphabet) and, at a tenth, Leipzig's Wikipedia sentences,
 # each read as the reader reads them (frequency_uzbek).
 SOURCE_ORDER["uz"] = ["uzbek_web", "uzbek_news", "uzbek_wikipedia"]
 BLEND.add("uz")
