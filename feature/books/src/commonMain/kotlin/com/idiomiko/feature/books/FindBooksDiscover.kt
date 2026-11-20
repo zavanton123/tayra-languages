@@ -113,8 +113,8 @@ import com.idiomiko.core.ui.theme.AppText
 import kotlin.math.roundToInt
 
 /**
- * The page of every library: the search across them all with its topics, the How hard? scale, the shelves picked for
- * the reader, or the books a search or topic found, and the libraries to browse one by one.
+ * The page of every library: the search across them all with its topics, the How hard? scale, the libraries to
+ * browse one by one, then the shelves picked for the reader, or the books a search or topic found.
  */
 @Composable
 internal fun DiscoverPage(state: FindBooksUiState, actions: FindBooksActions, open: (FoundBookItem) -> Unit, knownWords: Int?) {
@@ -122,6 +122,7 @@ internal fun DiscoverPage(state: FindBooksUiState, actions: FindBooksActions, op
     PageList(compact) {
         item { Hero(state, actions, knownWords, compact) }
         item { HowHard(state.minKnown, actions.onMinKnown, compact) }
+        if (state.sources.isNotEmpty() && !state.allDown) item { BrowseLibraries(state, actions, compact) }
         when {
             state.languageName.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("Choose a language to learn to see its books.")) }
             state.sources.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("None of the libraries has books in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))) }
@@ -130,7 +131,8 @@ internal fun DiscoverPage(state: FindBooksUiState, actions: FindBooksActions, op
             state.loading -> item { Column(verticalArrangement = Arrangement.spacedBy(SECTION_GAP)) { ShelfSkeleton(compact); ShelfSkeleton(compact) } }
             else -> item { Shelves(state, actions, open, compact) }
         }
-        if (state.sources.isNotEmpty()) item { BrowseLibraries(state, actions, compact) }
+        // With every library down, their cards follow the card that says so.
+        if (state.sources.isNotEmpty() && state.allDown) item { BrowseLibraries(state, actions, compact) }
     }
 }
 
@@ -258,7 +260,7 @@ private fun TopicChip(topic: Topic, selected: Boolean, onClick: () -> Unit) {
 }
 
 /**
- * How hard the books may be: a scale from Hard to Easy over the least share of their words the reader knows, its
+ * How hard the books may be: a scale from Easy to Hard over the least share of their words the reader knows, its
  * stretches in the colours of the levels, and the share chosen beside it.
  */
 @Composable
@@ -280,7 +282,7 @@ private fun HowHard(minKnown: Int, onChange: (Int) -> Unit, compact: Boolean) {
     if (compact) {
         Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("how-hard"), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             Row(verticalAlignment = Alignment.CenterVertically) { Box(Modifier.weight(1f)) { title() }; threshold() }
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) { hard(); KnownScale(minKnown, onChange, Modifier.weight(1f)); easy() }
+            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) { easy(); KnownScale(minKnown, onChange, Modifier.weight(1f)); hard() }
         }
     } else {
         Row(
@@ -289,21 +291,22 @@ private fun HowHard(minKnown: Int, onChange: (Int) -> Unit, compact: Boolean) {
             horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
             title()
-            hard()
-            KnownScale(minKnown, onChange, Modifier.weight(1f))
             easy()
+            KnownScale(minKnown, onChange, Modifier.weight(1f))
+            hard()
             Box(Modifier.widthIn(min = THRESHOLD_WIDTH), contentAlignment = Alignment.CenterEnd) { threshold() }
         }
     }
 }
 
 /**
- * The How hard? scale: its stops evenly along a track, each stretch coloured by the level of the stop it leads to (red
- * for hard, orange for medium, green for easy), and a ringed thumb on the stop chosen. A tap or a drag picks the nearest.
+ * The How hard? scale, easiest first: its stops evenly along a track from the most known to any, each stretch coloured
+ * by the level of the stop it starts from (green for easy, orange for medium, red for hard), and a ringed thumb on the
+ * stop chosen. A tap or a drag picks the nearest.
  */
 @Composable
 private fun KnownScale(value: Int, onChange: (Int) -> Unit, modifier: Modifier) {
-    val stops = Discovery.KNOWN_STOPS
+    val stops = Discovery.KNOWN_STOPS.reversed()
     val at = stops.indexOf(value).coerceAtLeast(0)
     val change by rememberUpdatedState(onChange)
     val ring = MaterialTheme.colorScheme.primary
@@ -328,7 +331,7 @@ private fun KnownScale(value: Int, onChange: (Int) -> Unit, modifier: Modifier) 
             val track = Path().apply { addRoundRect(RoundRect(left, y - thick / 2, left + width, y + thick / 2, CornerRadius(thick / 2))) }
             clipPath(track) {
                 // Each stretch overlaps the next by a pixel, so no seam shows between two of one colour.
-                for (i in 1 until stops.size) drawRect(knownTint(stops[i]), topLeft = Offset(x(i - 1), y - thick / 2), size = Size(x(i) - x(i - 1) + 1f, thick))
+                for (i in 1 until stops.size) drawRect(knownTint(stops[i - 1]), topLeft = Offset(x(i - 1), y - thick / 2), size = Size(x(i) - x(i - 1) + 1f, thick))
             }
             val r = SCALE_THUMB.toPx() / 2
             drawCircle(fill, radius = r, center = Offset(x(at), y))

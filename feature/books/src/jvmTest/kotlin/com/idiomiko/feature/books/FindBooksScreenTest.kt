@@ -275,16 +275,17 @@ class FindBooksScreenTest {
     @Test
     fun aPhoneCondensesTheHeroAndScrollsTheShelves() = runDesktopComposeUiTest(width = 400, height = 860) {
         show(discover) { FindBooksActions() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("A menina e a lua")).fetchSemanticsNodes().isNotEmpty() }
+        // The libraries come right under the How hard? scale, two to a row.
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("library-WIKISOURCE")).fetchSemanticsNodes().isNotEmpty() }
         shot("discover-phone-light")
         assertEquals(0, count("hero-mascot"))
         onNodeWithText("Search every library").assertExists()
-        // The libraries two to a row.
-        onAllNodes(hasScrollToNodeAction())[0].performScrollToNode(hasTestTag("library-ADAMASTOR"))
-        shot("discover-phone-light-libraries")
         val top = { tag: String -> onNodeWithTag(tag).fetchSemanticsNode().boundsInRoot.top }
         assertEquals(top("library-WIKISOURCE"), top("library-GDL"))
         assert(top("library-STORYBOOKS") > top("library-GDL"))
+        // The shelves follow them.
+        onAllNodes(hasScrollToNodeAction())[0].performScrollToNode(hasText("A menina e a lua"))
+        shot("discover-phone-light-shelves")
     }
 
     @Test
@@ -296,7 +297,7 @@ class FindBooksScreenTest {
     @Test
     fun aPhoneInTheDarkTheme() = runDesktopComposeUiTest(width = 400, height = 860) {
         show(discover, theme = AppThemes.night) { FindBooksActions() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("A menina e a lua")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("library-WIKISOURCE")).fetchSemanticsNodes().isNotEmpty() }
         shot("discover-phone-dark")
     }
 
