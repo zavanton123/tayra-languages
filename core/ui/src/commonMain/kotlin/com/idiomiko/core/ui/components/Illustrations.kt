@@ -25,7 +25,7 @@ fun FlashcardsIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.illustration_flashcards), contentDescription = null, modifier = modifier)
 }
 
-/** The mascot with a map and a backpack, the next stops dotted along its path: the next lesson of a course. */
+/** The mascot with a map and a backpack: the next lesson of a course. */
 @Composable
 fun JourneyIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.illustration_journey), contentDescription = null, modifier = modifier)
