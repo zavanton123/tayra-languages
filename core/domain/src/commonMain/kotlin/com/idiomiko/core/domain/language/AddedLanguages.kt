@@ -412,6 +412,24 @@ object AddedLanguages {
         ),
     )
 
+    private fun sinhala() = LanguageDefinition(
+        language = Language(
+            name = "Sinhala",
+            dictionaries = listOf(
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.EMBEDDED, url = "https://en.wiktionary.org/wiki/[WORD]#Sinhalese", isActive = true, sortOrder = 1),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://www.maduraonline.com/?find=[WORD]", isActive = true, sortOrder = 2),
+                LanguageDictionary(useFor = DictionaryUse.TERMS, type = DictionaryType.POPUP, url = "https://glosbe.com/si/en/[WORD]", isActive = true, sortOrder = 3),
+                LanguageDictionary(useFor = DictionaryUse.SENTENCES, type = DictionaryType.POPUP, url = "https://translate.google.com/?sl=si&tl=en&text=[WORD]&op=translate", isActive = true, sortOrder = 4),
+            ),
+            characterSubstitutions = "´='|`='|’='|‘='|...=…|..=‥|\u200C=",
+            regexpSplitSentences = ".!?෴",
+            wordCharacters = "\\u0D80-\\u0DFF\\u200D",
+            rightToLeft = false,
+            showRomanization = true,
+            parserType = "spacedel",
+        ),
+    )
+
     private fun tagalog() = LanguageDefinition(
         language = Language(
             name = "Tagalog",
@@ -541,6 +559,7 @@ object AddedLanguages {
             oldIrish(),
             pashto(),
             scottishGaelic(),
+            sinhala(),
             tagalog(),
             tamil(),
             telugu(),

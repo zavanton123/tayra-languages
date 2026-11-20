@@ -85,6 +85,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Russian" to "Ruso",
     "Scottish Gaelic" to "Gaélico escocés",
     "Serbian" to "Serbio",
+    "Sinhala" to "Cingalés",
     "Slovak" to "Eslovaco",
     "Slovene" to "Esloveno",
     "Spanish" to "Español",

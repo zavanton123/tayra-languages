@@ -1,0 +1,22 @@
+name: Sinhala
+dictionaries:
+  - for: terms
+    type: embedded
+    url: "https://en.wiktionary.org/wiki/[WORD]#Sinhalese"
+  - for: terms
+    type: popup
+    url: "https://www.maduraonline.com/?find=[WORD]"
+  - for: terms
+    type: popup
+    url: "https://glosbe.com/si/en/[WORD]"
+  - for: sentences
+    type: popup
+    url: "https://translate.google.com/?sl=si&tl=en&text=[WORD]&op=translate"
+# The non-joiner some sites write after al-lakuna (දක්‌වා) changes nothing to a word: it is dropped. The joiner of a
+# conjunct (ප්‍රශ්නය, අවශ්‍ය) is part of the word.
+character_substitutions: "´='|`='|’='|‘='|...=…|..=‥|‌="
+split_sentences: ".!?෴"
+word_chars: "\\u0D80-\\u0DFF\\u200D"
+right_to_left: false
+show_romanization: true
+parser_type: spacedel

@@ -125,6 +125,16 @@ class SpaceDelimitedParserTest {
     }
 
     @Test
+    fun sinhalaKeepsItsConjunctsAndDropsTheNonJoiner() {
+        val sinhala = LanguageDefinitions.all.single { it.name == "Sinhala" }.language
+        // The joiner after al-lakuna writes ප්‍ර and ය්‍ය as one letter of the word; the non-joiner after it (දක්‌වා) is no break.
+        assertEquals(
+            "[ප්\u200Dරශ්නය] [අවශ්\u200Dය] [නම්] [ගෙදර] [දක්වා] [එන්න]! [ඔයා] [කොහෙද]?",
+            tokensAsString("ප්\u200Dරශ්නය අවශ්\u200Dය නම් ගෙදර දක්\u200Cවා එන්න! ඔයා කොහෙද?", sinhala),
+        )
+    }
+
+    @Test
     fun azerbaijaniLowercase() {
         assertEquals("ışıq indi", AzerbaijaniParser().lowercase("Işıq İndi"))
         assertEquals("indi", AzerbaijaniParser().lowercase("i\u0307ndi"), "the dot an İ left when lowercased as other languages do")

@@ -26,7 +26,9 @@ ADDED_DIR = "tools/languages"
 
 
 def qstr(s):
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$").replace("\n", "\\n") + '"'
+    """A Kotlin string literal of [s]; a joiner or non-joiner (Sinhala's substitution) is written as its escape."""
+    s = s.replace("\\", "\\\\").replace('"', '\\"').replace("$", "\\$").replace("\n", "\\n")
+    return '"' + "".join(f"\\u{ord(c):04X}" if c in "\u200c\u200d" else c for c in s) + '"'
 
 
 def placeholder(url):

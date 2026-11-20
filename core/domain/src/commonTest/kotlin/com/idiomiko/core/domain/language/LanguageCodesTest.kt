@@ -79,4 +79,13 @@ class LanguageCodesTest {
         assertNotNull(Tutorials.forLanguage("Gujarati"))
         assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Gujarati" }.language.parserType)
     }
+
+    @Test
+    fun sinhalaIsALanguageWithItsTutorial() {
+        assertEquals("si", LanguageCodes.codeFor("Sinhala"))
+        assertEquals("sin", LanguageCodes.tatoebaCode("si"))
+        assertEquals("Sinhala", LanguageCodes.option("si")?.name)
+        assertNotNull(Tutorials.forLanguage("Sinhala"))
+        assertEquals("spacedel", LanguageDefinitions.all.first { it.name == "Sinhala" }.language.parserType)
+    }
 }
