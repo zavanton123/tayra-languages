@@ -25,8 +25,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
@@ -45,7 +43,6 @@ import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.theme.AppAccents
-import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -144,24 +141,17 @@ private fun LessonPath(lessons: List<LessonProgress>, current: LessonProgress, o
 
 private enum class StopKind { DONE, CURRENT, AHEAD }
 
-/** One stop of the lesson path, on a darker rim below it as if raised; the current one ringed as well. */
+/** One stop of the lesson path: a flat circle, green when read, orange for the one to read next, grey ahead. */
 @Composable
 private fun LessonStop(number: Int, kind: StopKind, size: Dp, onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val (fill, rim, content) = when (kind) {
-        StopKind.DONE -> Triple(AppAccents.green, lerp(AppAccents.green, AppAccents.ink, RIM_SHADE), AppAccents.onAccent)
-        StopKind.CURRENT -> Triple(AppAccents.orange, lerp(AppAccents.orange, AppAccents.ink, RIM_SHADE), AppAccents.onAccent)
-        StopKind.AHEAD -> Triple(colors.surfaceContainerHigh, colors.outlineVariant, colors.onSurfaceVariant)
+    val (fill, content) = when (kind) {
+        StopKind.DONE -> AppAccents.green to AppAccents.onAccent
+        StopKind.CURRENT -> AppAccents.orange to AppAccents.onAccent
+        StopKind.AHEAD -> colors.surfaceContainerHigh to colors.onSurfaceVariant
     }
-    val halo = AppAccents.orange.copy(alpha = AppAlpha.line)
     Box(
-        Modifier.padding(if (kind == StopKind.CURRENT) AppSpacing.xs else 0.dp).size(size)
-            .drawBehind {
-                val radius = this.size.minDimension / 2
-                if (kind == StopKind.CURRENT) drawCircle(halo, radius + HALO.toPx(), center)
-                drawCircle(rim, radius, center + Offset(0f, RIM.toPx()))
-                drawCircle(fill, radius, center)
-            }
+        Modifier.size(size).drawBehind { drawCircle(fill) }
             .clip(AppShapes.circle).clickable(onClick = onClick).testTag("lesson-stop-$number"),
         contentAlignment = Alignment.Center,
     ) {
@@ -183,7 +173,4 @@ private const val CURRENT_SCALE = 1.22f
 
 /** On a phone the main button takes more of the row than All lessons, so its longer label stays on one line. */
 private const val PRIMARY_SHARE = 1.35f
-private val RIM = 4.dp
-private val HALO = 6.dp
-private const val RIM_SHADE = 0.25f
 private val SCENE_WIDTH = 300.dp
