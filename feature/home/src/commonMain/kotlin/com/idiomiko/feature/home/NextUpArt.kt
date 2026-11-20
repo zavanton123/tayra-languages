@@ -11,7 +11,6 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.graphics.Path
-import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.clipPath
@@ -38,8 +37,7 @@ internal enum class ArtFace {
 }
 
 /**
- * The Next up card's picture: a fan of three cards on a soft wash of [tint], the front one with [face] on it, and a
- * little burst of light at its corner. Drawn, not an image, so it takes the theme's surface and any accent.
+ * The Next up card's picture: a fan of three cards on a soft wash of [tint], the front one with [face] on it. Drawn, not an image, so it takes the theme's surface and any accent.
  */
 @Composable
 internal fun NextUpArt(face: ArtFace, tint: Color, icon: ImageVector, modifier: Modifier = Modifier) {
@@ -68,15 +66,9 @@ internal fun NextUpArt(face: ArtFace, tint: Color, icon: ImageVector, modifier: 
             val shape = Path().apply { addRoundRect(androidx.compose.ui.geometry.RoundRect(inner, CornerRadius(4 * u))) }
             clipPath(shape) { face(face, inner, tint, surface, painter, u) }
         }
-        // The burst, above the fan's top corner.
-        val burst = Offset(pivot.x + card.width * 0.62f, pivot.y - card.height - 4 * u)
-        for ((from, to) in listOf(Offset(-6f, -2f) to Offset(-9f, -12f), Offset(-1f, 1f) to Offset(6f, -7f), Offset(2f, 6f) to Offset(12f, 3f))) {
-            drawLine(AppAccents.amber, burst + from * u, burst + to * u, 2.2f * u, StrokeCap.Round)
-        }
     }
 }
 
-private operator fun Offset.times(u: Float) = Offset(x * u, y * u)
 
 private fun DrawScope.face(face: ArtFace, r: Rect, tint: Color, surface: Color, painter: VectorPainter, u: Float) {
     if (face == ArtFace.PAGE) {

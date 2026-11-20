@@ -43,7 +43,7 @@ fun HomeScreen(onNavigate: (Route) -> Unit, viewModel: HomeViewModel = koinViewM
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.refresh() }
     Scaffold(
         topBar = {
-            AppTopBar(title = tr("Home"), onNavigate = onNavigate, section = NavSection.HOME, actions = { QuickAddButton(state.readsWebPages, onNavigate) })
+            AppTopBar(title = tr("Home"), onNavigate = onNavigate, section = NavSection.HOME)
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->

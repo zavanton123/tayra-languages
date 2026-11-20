@@ -48,8 +48,6 @@ internal val elHome: Map<String, String> = mapOf(
     "Words up to rank {0}" to "Λέξεις έως τη θέση {0}",
     "{1} days studied in the last 16 weeks" to "{1} ημέρα μελέτης τις τελευταίες 16 εβδομάδες|{1} ημέρες μελέτης τις τελευταίες 16 εβδομάδες",
     "See all stats" to "Όλα τα στατιστικά",
-    "Paste or import text" to "Επικόλληση ή εισαγωγή κειμένου",
-    "YouTube video" to "Βίντεο YouTube",
     "Good morning!" to "Καλημέρα!",
     "Good afternoon!" to "Καλό απόγευμα!",
     "Good evening!" to "Καλησπέρα!",

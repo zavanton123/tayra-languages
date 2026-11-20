@@ -48,8 +48,6 @@ internal val plHome: Map<String, String> = mapOf(
     "Words up to rank {0}" to "Słowa do pozycji {0}",
     "{1} days studied in the last 16 weeks" to "{1} dzień nauki w ostatnich 16 tygodniach|{1} dni nauki w ostatnich 16 tygodniach|{1} dni nauki w ostatnich 16 tygodniach",
     "See all stats" to "Wszystkie statystyki",
-    "Paste or import text" to "Wklej lub zaimportuj tekst",
-    "YouTube video" to "Film z YouTube",
     "Good morning!" to "Dzień dobry!",
     "Good afternoon!" to "Dzień dobry!",
     "Good evening!" to "Dobry wieczór!",

@@ -163,7 +163,7 @@ class HomeScreenTest {
     private val busy = HomeUiState(
         loading = false, languageName = "Portuguese", activity = busyToday, course = course, book = book, flashcardsDue = 310,
         playlist = Playlist(3, 1, "Main", "", 0, at(1), at(0), playlistItems, ListeningPosition(2, 1, 0)),
-        dailyGoal = 15, vocabulary = vocabulary, recentWords = words, suggestedCourse = nextBand, suggestedBooks = listOf(easyBook), readsWebPages = true,
+        dailyGoal = 15, vocabulary = vocabulary, recentWords = words, suggestedCourse = nextBand, suggestedBooks = listOf(easyBook),
         dayPart = DayPart.AFTERNOON,
     )
 
@@ -208,7 +208,7 @@ class HomeScreenTest {
                 ) {
                     Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
                         Column {
-                            if (bar) AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME, actions = { QuickAddButton(state.readsWebPages) { visited += it } })
+                            if (bar) AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME)
                             PageColumn(PaddingValues(), Modifier.weight(1f)) {
                                 HomeContent(state, HomeActions({ visited += it }, onOpenLesson = { _, lesson -> opened += lesson.lesson.id }, onContinuePlaylist = listened))
                             }
@@ -407,7 +407,7 @@ class HomeScreenTest {
         val opened = mutableListOf<String>()
         val first = HomeUiState(
             loading = false, languageName = "Portuguese", activity = StudyActivity(emptyMap(), today), course = course("pt-mini-0100", "A família", 100, done = 0),
-            suggestedCourse = nextBand, vocabulary = VocabularyProgress.of(0, List(5_000) { false }), readsWebPages = true,
+            suggestedCourse = nextBand, vocabulary = VocabularyProgress.of(0, List(5_000) { false }),
         )
         show(first, opened = opened, bar = true)
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Start here")).fetchSemanticsNodes().isNotEmpty() }
@@ -481,28 +481,6 @@ class HomeScreenTest {
         assertFalse(resumable(busy.playlist!!.copy(position = null)))
     }
 
-    /** One entry point brings in text, a web page or a YouTube video through the imports there are. */
-    @Test
-    fun quickAddLeadsToTheImports() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val visited = mutableListOf<Route>()
-        show(busy, visited, bar = true)
-        for (item in listOf("quick-add-text", "quick-add-web", "quick-add-video")) {
-            onNodeWithTag("quick-add").performClick()
-            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag(item).fetchSemanticsNodes().isNotEmpty() }
-            onNodeWithTag(item).performClick()
-        }
-        assertEquals(listOf(Route.NewBook(), Route.NewBook(fromWeb = true), Route.NewVideo), visited)
-    }
-
-    /** Without web pages on the platform, the menu leaves them out. */
-    @Test
-    fun quickAddLeavesOutWhatThePlatformCannotRead() = runDesktopComposeUiTest(width = 400, height = 1000) {
-        show(busy.copy(readsWebPages = false), bar = true)
-        onNodeWithTag("quick-add").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("quick-add-text").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithTag("quick-add-web").fetchSemanticsNodes().size)
-        assertTrue(onAllNodesWithText("YouTube video").fetchSemanticsNodes().isNotEmpty())
-    }
 
     /** The goal reached turns the ring green and says so; the ring leads to the setting. */
     @Test

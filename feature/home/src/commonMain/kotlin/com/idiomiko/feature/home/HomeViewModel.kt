@@ -69,8 +69,6 @@ data class HomeUiState(
     val suggestedCourse: CourseProgress? = null,
     /** Books not opened yet that the reader can mostly read already. */
     val suggestedBooks: List<BookListItem> = emptyList(),
-    /** Whether this platform can make a text from a web page's address. */
-    val readsWebPages: Boolean = false,
     /** The time of day the page was shown at, for its greeting. */
     val dayPart: DayPart = DayPart.MORNING,
 ) {
@@ -103,7 +101,6 @@ class HomeViewModel(
     private val player: PlaylistPlayer? = null,
     /** Counts the words known against the frequency list; null leaves the vocabulary out. */
     frequency: WordFrequencyService? = null,
-    readsWebPages: Boolean = false,
 ) : ViewModel() {
     init {
         // A language added since the app started gets its sample courses here.
@@ -130,7 +127,6 @@ class HomeViewModel(
                         flashcardsDue = due,
                         error = problem,
                         suggestedBooks = LevelSuggestions.books(bookList, id),
-                        readsWebPages = readsWebPages,
                     ),
                     courseList,
                 )

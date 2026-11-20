@@ -48,8 +48,6 @@ internal val zhHome: Map<String, String> = mapOf(
     "Words up to rank {0}" to "词频前 {0} 的词",
     "{1} days studied in the last 16 weeks" to "过去 16 周学习了 {1} 天",
     "See all stats" to "查看全部统计",
-    "Paste or import text" to "粘贴或导入文本",
-    "YouTube video" to "YouTube 视频",
     "Good morning!" to "早上好！",
     "Good afternoon!" to "下午好！",
     "Good evening!" to "晚上好！",

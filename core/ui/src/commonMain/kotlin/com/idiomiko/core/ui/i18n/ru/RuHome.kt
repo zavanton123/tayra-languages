@@ -48,8 +48,6 @@ internal val ruHome: Map<String, String> = mapOf(
     "Words up to rank {0}" to "Слова до {0}-го по частоте",
     "{1} days studied in the last 16 weeks" to "{1} день занятий за последние 16 недель|{1} дня занятий за последние 16 недель|{1} дней занятий за последние 16 недель",
     "See all stats" to "Вся статистика",
-    "Paste or import text" to "Вставить или импортировать текст",
-    "YouTube video" to "Видео с YouTube",
     "Good morning!" to "Доброе утро!",
     "Good afternoon!" to "Добрый день!",
     "Good evening!" to "Добрый вечер!",

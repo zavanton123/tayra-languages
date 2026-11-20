@@ -13,7 +13,6 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
@@ -133,10 +132,7 @@ internal fun WideHeader(state: HomeUiState, actions: HomeActions) {
         itemVerticalAlignment = Alignment.CenterVertically,
     ) {
         Column(Modifier.padding(end = AppSpacing.xxl)) {
-            Box {
-                Text(greeting(state.languageName, state.dayPart), style = AppText.pageTitle, modifier = Modifier.padding(end = AppSpacing.l).testTag("greeting"))
-                Sparkle(Modifier.align(Alignment.TopEnd).offset(x = AppSpacing.xs, y = -AppSpacing.xs))
-            }
+            Text(greeting(state.languageName, state.dayPart), style = AppText.pageTitle, modifier = Modifier.testTag("greeting"))
             Text(goalCheer(state.goal), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("goal-cheer"))
         }
         BoxWithConstraints {
@@ -278,18 +274,6 @@ private fun PhoneFigure(icon: ImageVector, tint: Color, text: String, tag: Strin
     }
 }
 
-/** Three short rays beside the greeting, as a little burst of light. */
-@Composable
-private fun Sparkle(modifier: Modifier = Modifier) {
-    Canvas(modifier.size(SPARKLE_SIZE)) {
-        val stroke = SPARKLE_STROKE.toPx()
-        val w = size.width
-        val h = size.height
-        drawLine(AppAccents.amber, Offset(w * 0.12f, h * 0.55f), Offset(w * 0.2f, h * 0.08f), stroke, StrokeCap.Round)
-        drawLine(AppAccents.amber, Offset(w * 0.38f, h * 0.68f), Offset(w * 0.78f, h * 0.3f), stroke, StrokeCap.Round)
-        drawLine(AppAccents.amber, Offset(w * 0.5f, h * 0.92f), Offset(w * 0.95f, h * 0.82f), stroke, StrokeCap.Round)
-    }
-}
 
 private val RING_WIDE = 64.dp
 private val RING_PHONE = 58.dp
@@ -299,5 +283,3 @@ private val DIVIDER_HEIGHT = 44.dp
 /** Room for the goal and the three figures on one line. */
 private val ONE_LINE_CARD = 860.dp
 private val PHONE_DIVIDER_HEIGHT = 28.dp
-private val SPARKLE_SIZE = 22.dp
-private val SPARKLE_STROKE = 2.5.dp

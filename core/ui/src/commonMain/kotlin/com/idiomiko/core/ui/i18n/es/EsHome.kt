@@ -48,8 +48,6 @@ internal val esHome: Map<String, String> = mapOf(
     "Words up to rank {0}" to "Palabras hasta el puesto {0}",
     "{1} days studied in the last 16 weeks" to "{1} día de estudio en las últimas 16 semanas|{1} días de estudio en las últimas 16 semanas",
     "See all stats" to "Ver todas las estadísticas",
-    "Paste or import text" to "Pegar o importar texto",
-    "YouTube video" to "Vídeo de YouTube",
     "Good morning!" to "¡Buenos días!",
     "Good afternoon!" to "¡Buenas tardes!",
     "Good evening!" to "¡Buenas noches!",
