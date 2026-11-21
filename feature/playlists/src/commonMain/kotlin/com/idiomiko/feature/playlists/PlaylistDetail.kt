@@ -340,7 +340,7 @@ private fun NowPlayingStrip(state: PlaylistDetailUiState, compact: Boolean, onOp
     }
 }
 
-/** The texts in order, dragged by their handles to reorder them and played from by their number or a double click. */
+/** The texts in order, dragged by their handles to reorder them and played from by their play button or a double click. */
 @Composable
 private fun TextsCard(state: PlaylistDetailUiState, playlist: Playlist, viewModel: PlaylistDetailViewModel, onNavigate: (Route) -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -396,8 +396,12 @@ private fun TextRow(
             Modifier.size(NUMBER).clip(AppShapes.small).clickable { if (holds) viewModel.pause() else play() }.semantics { contentDescription = label }.testTag("play-item-${item.id}"),
             contentAlignment = Alignment.Center,
         ) {
-            if (current) Icon(AppIcons.PlayArrow, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
-            else Text("${index + 1}", style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+            Icon(
+                if (holds) AppIcons.Pause else AppIcons.PlayArrow,
+                contentDescription = null,
+                tint = if (current) colors.primary else colors.onSurfaceVariant,
+                modifier = Modifier.size(AppSizes.icon),
+            )
         }
         BookCover(item.title, ROW_COVER, titled = false)
         Column(Modifier.weight(1f)) {
