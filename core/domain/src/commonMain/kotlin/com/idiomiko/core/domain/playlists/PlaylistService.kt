@@ -6,6 +6,7 @@ import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.repository.LanguageRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
 import kotlin.time.Clock
 import kotlin.time.Duration
 
@@ -103,6 +104,11 @@ class PlaylistService(
     /** What the library of the language with [languageId] has to add. */
     suspend fun library(languageId: Long): PlaylistLibrary =
         PlaylistLibrary(repository.texts(languageId), courses.observeCourses(languageId).first().map { it.course }.filter { it.lessons.isNotEmpty() })
+
+    /** The title of the course each lesson text of the language comes from, by the text's book id. */
+    fun observeLessonCourses(languageId: Long): Flow<Map<Long, String>> = courses.observeCourses(languageId).map { list ->
+        list.flatMap { progress -> progress.lessons.mapNotNull { lesson -> lesson.book?.let { it.bookId to progress.course.title } } }.toMap()
+    }
 
     /** The ISO 639-1 code of the language with [languageId], which listening times are estimated in. */
     suspend fun languageCode(languageId: Long): String? = languages.getById(languageId)?.name?.let { LanguageCodes.codeFor(it) }

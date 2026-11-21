@@ -78,6 +78,16 @@ class PlaylistServiceTest {
     }
 
     @Test
+    fun aLessonTextIsKnownByItsCoursesTitle() = runTest {
+        val language = portuguese()
+        val lobo = book(language, "O lobo")
+        val course = TestCourses.ALL[1]
+        val id = service.create(language, PlaylistDraft("Morning"), listOf(PlaylistSource.Text(lobo), PlaylistSource.Lesson(course.id, course.lessons[0].id)))
+        val lesson = service.playlist(id)!!.items[1].bookId
+        assertEquals(mapOf(lesson to course.title), service.observeLessonCourses(language).first())
+    }
+
+    @Test
     fun aPlaylistNeedsANameOfAtMostSixtyCharacters() = runTest {
         val language = portuguese()
         assertFailsWith<PlaylistValidationException> { service.create(language, PlaylistDraft("   ")) }
