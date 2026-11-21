@@ -27,11 +27,14 @@ import com.idiomiko.core.domain.courses.Lesson
 import com.idiomiko.core.domain.courses.SampleCourseSource
 import com.idiomiko.core.domain.model.BookDraft
 import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.TermDraft
+import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.playlists.ListeningTime
 import com.idiomiko.core.domain.playlists.PlaylistPlayer
 import com.idiomiko.core.domain.playlists.PlaylistService
 import com.idiomiko.core.domain.playlists.SpeechOutput
 import com.idiomiko.core.domain.service.BookService
+import com.idiomiko.core.domain.service.BookStatsService
 import com.idiomiko.core.domain.service.LocalSpeech
 import com.idiomiko.core.domain.service.MemorySpeechAudioCache
 import com.idiomiko.core.domain.service.ReadingService
@@ -99,6 +102,8 @@ internal class PlaylistTestData {
     val repository = PlaylistRepositoryImpl(provider)
     val service = PlaylistService(repository, courses, languages, time)
     val reading = ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages))
+    val stats = BookStatsService(books, languages, settings, reading)
+    val selection = PlaylistSelection()
     val output = SilentOutput()
     val player = PlaylistPlayer(
         service, repository, books, languages, reading, SentenceAudio(LocalSpeech(emptyList()), settings, MemorySpeechAudioCache()), LocalSpeech(emptyList()), settings, output, time,
@@ -108,6 +113,16 @@ internal class PlaylistTestData {
     val languageId: Long = runBlocking { languages.save(Language(name = "Portuguese")).also { id -> settings.update { it.copy(currentLanguageId = id) }; courses.seedSamples() } }
 
     fun book(title: String, text: String) = runBlocking { bookService.create(BookDraft(languageId = languageId, title = title, text = text)) }
+
+    /** Saves [words] as known, so the texts' known shares are counted against them. */
+    fun know(vararg words: String) = runBlocking {
+        val terms = TermService(this@PlaylistTestData.terms, languages)
+        words.forEach { terms.save(TermDraft(languageId = languageId, text = it, status = TermStatus.WELL_KNOWN)) }
+    }
+
+    fun playlists() = PlaylistsViewModel(service, player, settings, languages, time, selection)
+
+    fun detail(id: Long) = PlaylistDetailViewModel(id, service, player, time, settings, stats)
 
     fun newsArticle(title: String, text: String) = runBlocking { book(title, text).also { books.linkNews("https://example.org/${title.hashCode()}", it) } }
 }

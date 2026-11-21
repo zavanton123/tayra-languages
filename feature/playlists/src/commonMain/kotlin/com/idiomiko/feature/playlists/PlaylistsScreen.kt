@@ -1,15 +1,11 @@
 package com.idiomiko.feature.playlists
 
-import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.hoverable
-import androidx.compose.foundation.interaction.MutableInteractionSource
-import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -17,14 +13,19 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -32,7 +33,16 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.PathEffect
+import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -41,25 +51,24 @@ import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
+import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
-import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.ProgressTrack
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SecondaryButton
-import com.idiomiko.core.ui.components.SelectMenu
-import com.idiomiko.core.ui.components.pressScale
+import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
@@ -69,9 +78,9 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import kotlin.math.roundToInt
 import kotlin.time.Duration
 import org.koin.compose.viewmodel.koinViewModel
+import org.koin.core.parameter.parametersOf
 
 internal val PlaylistsSort.label: String
     get() = when (this) {
@@ -80,218 +89,316 @@ internal val PlaylistsSort.label: String
         PlaylistsSort.CREATED -> tr("Recently created")
     }
 
-internal fun percent(fraction: Float) = "${(fraction * 100).roundToInt()}%"
-
 /** "8 texts · ~34 min", or "0 texts" for an empty playlist. */
 internal fun playlistFacts(playlist: Playlist, duration: Duration) =
     if (playlist.items.isEmpty()) textCount(0) else "${textCount(playlist.items.size)} · ${listeningTime(duration)}"
 
-/** The playlists of the language being learned: the one to go on with, then all of them to search and sort. */
+/** The sidebar's line under a playlist's name: its length, with "✓ done" once every text was heard. */
+private fun listFacts(summary: PlaylistSummary): String =
+    playlistFacts(summary.playlist, summary.duration) + if (summary.playlist.isComplete) " · " + tr("✓ done") else ""
+
+/** How far listening has got: "2 of 5 played · ~3 min left", "1 text · ✓ done", or the length before it starts. */
+internal fun progressFacts(playlist: Playlist, duration: Duration, remaining: Duration): String = when {
+    playlist.isComplete -> textCount(playlist.items.size) + " · " + tr("✓ done")
+    playlist.finishedCount > 0 || playlist.position != null ->
+        trPlural(playlist.items.size, "{1} of {0} played", "{1} of {0} played", playlist.finishedCount) + " · " + tr("{0} left", listeningTime(remaining))
+    else -> playlistFacts(playlist, duration)
+}
+
+/**
+ * The playlists of the language being learned. A wide window shows them in a sidebar beside the one chosen
+ * ([selectId] when the route names one); narrower ones list them, each opening on its own page.
+ */
 @Composable
-fun PlaylistsScreen(onNavigate: (Route) -> Unit, viewModel: PlaylistsViewModel = koinViewModel()) {
+fun PlaylistsScreen(
+    onNavigate: (Route) -> Unit,
+    selectId: Long? = null,
+    viewModel: PlaylistsViewModel = koinViewModel(),
+    detail: @Composable (Long) -> PlaylistDetailViewModel = { id -> koinViewModel(key = "playlist-$id") { parametersOf(id) } },
+) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val width = LocalWindowWidth.current
+    var creating by remember { mutableStateOf(false) }
+    LaunchedEffect(selectId) { selectId?.let(viewModel::select) }
     Scaffold(
-        topBar = { AppTopBar(title = tr("Playlists"), onNavigate = onNavigate, section = NavSection.PLAYLISTS) },
+        topBar = {
+            AppTopBar(title = tr("Playlists"), onNavigate = onNavigate, section = NavSection.PLAYLISTS, actions = {
+                if (width.isCompact && state.playlists.isNotEmpty()) {
+                    AppIconButton(Icons.Default.Add, contentDescription = tr("New playlist"), onClick = { creating = true }, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.testTag("new-playlist"))
+                }
+            })
+        },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        if (state.loading) {
-            LoadingIndicator(Modifier.padding(padding))
-            return@Scaffold
-        }
-        PlaylistsContent(state, onNavigate, onSearch = viewModel::setSearch, onSort = viewModel::setSort, onPlay = viewModel::play, onDelete = viewModel::delete, modifier = Modifier.padding(padding))
+        if (state.loading) LoadingIndicator(Modifier.padding(padding))
+        else PlaylistsContent(state, viewModel, onNavigate, onCreate = { creating = true }, detail, Modifier.padding(padding))
+    }
+    // A new playlist opens to be filled: beside the list on a wide window, on its own page otherwise.
+    if (creating) {
+        NewPlaylistDialog(bookId = null, onCreated = { id, _ ->
+            creating = false
+            viewModel.select(id)
+            if (!width.isExpanded) onNavigate(Route.Playlist(id))
+        }, onDismiss = { creating = false })
     }
 }
 
 @Composable
 internal fun PlaylistsContent(
     state: PlaylistsUiState,
+    viewModel: PlaylistsViewModel,
     onNavigate: (Route) -> Unit,
-    onSearch: (String) -> Unit,
-    onSort: (PlaylistsSort) -> Unit,
-    onPlay: (Long) -> Unit,
-    onDelete: (Long) -> Unit,
+    onCreate: () -> Unit,
+    detail: @Composable (Long) -> PlaylistDetailViewModel,
     modifier: Modifier = Modifier,
 ) {
-    val colors = MaterialTheme.colorScheme
     val width = LocalWindowWidth.current
-    val compact = width.isCompact
-    var deleting by remember { mutableStateOf<PlaylistSummary?>(null) }
-    var creating by remember { mutableStateOf(false) }
+    when {
+        state.playlists.isEmpty() -> NoPlaylists(onCreate, modifier)
+        width.isExpanded -> Row(modifier.fillMaxSize()) {
+            Sidebar(state, viewModel, onCreate)
+            val selected = state.selected
+            ScrollColumn(
+                Modifier.weight(1f).fillMaxHeight(),
+                contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + AppSizes.scrollbarRoom, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
+            ) {
+                if (selected != null) PlaylistPane(detail(selected.playlist.id), onNavigate)
+            }
+        }
+        else -> PlaylistList(state, viewModel, onNavigate, onCreate, modifier)
+    }
+}
+
+/** No playlist yet: what one is for, and the way to make the first. */
+@Composable
+private fun NoPlaylists(onCreate: () -> Unit, modifier: Modifier) {
+    val compact = LocalWindowWidth.current.isCompact
     ScrollColumn(
         modifier.fillMaxSize(),
         contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
+        horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        ScreenHeader(
-            tr("Playlists"),
-            tr("Listen to your texts, one after another."),
-            actions = {
-                if (state.playlists.isNotEmpty()) {
-                    PrimaryButton(if (compact) tr("Create") else tr("New playlist"), onClick = { creating = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
-                }
-            },
-        )
-        if (state.playlists.isEmpty()) {
+        Column(Modifier.widthIn(max = AppSizes.readableWidth), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+            ScreenHeader(tr("Playlists"), subtitle = null)
             EmptyState(
                 AppIcons.QueueMusic,
                 tr("No playlists yet"),
+                modifier = Modifier.testTag("no-playlists"),
                 message = tr("Collect books, course lessons and news articles to listen to them one after another."),
                 action = {
                     Spacer(Modifier.height(AppSpacing.s))
-                    PrimaryButton(tr("Create playlist"), onClick = { creating = true }, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
+                    PrimaryButton(tr("Create playlist"), onClick = onCreate, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
                 },
             )
-            return@ScrollColumn
         }
-        state.continueWith?.let { summary ->
-            ContinueCard(summary, playing = state.playing && state.playingId == summary.playlist.id, compact = compact, onPlay = { onPlay(summary.playlist.id) }, onOpen = { onNavigate(Route.Playlist(summary.playlist.id)) })
-        }
-        if (compact) {
-            Text(tr("Your playlists"), style = AppText.headline)
-            SearchField(state.search, onSearch, tr("Search playlists"), Modifier.fillMaxWidth())
-            SelectMenu(PlaylistsSort.entries, state.sort, onSort, { it.label }, buttonModifier = Modifier.testTag("playlist-sort"))
-        } else {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(tr("Your playlists"), Modifier.weight(1f), style = AppText.headline)
-                SearchField(state.search, onSearch, tr("Search playlists"), Modifier.width(SEARCH_WIDTH))
-                SelectMenu(PlaylistsSort.entries, state.sort, onSort, { it.label }, buttonModifier = Modifier.testTag("playlist-sort"))
+    }
+}
+
+/** A wide window's list of playlists, as a card down the left: the search, the order, and a row for each. */
+@Composable
+private fun Sidebar(state: PlaylistsUiState, viewModel: PlaylistsViewModel, onCreate: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val selectedId = state.selected?.playlist?.id
+    Box(
+        // The card scrolls inside itself, so no scrollbar needs room beside it.
+        Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l).fillMaxHeight()
+            .padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.xxl)
+            .testTag("sidebar"),
+    ) {
+        Column(Modifier.fillMaxSize().cardSurface(AppShapes.large).padding(vertical = AppSpacing.l)) {
+            Row(Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
+                Text(tr("Playlists"), Modifier.weight(1f), style = AppText.itemTitleBold)
+                LinkText(tr("New playlist"), onClick = onCreate, icon = Icons.Default.Add, style = AppText.labelStrong, modifier = Modifier.testTag("new-playlist"))
             }
-        }
-        val shown = state.shown
-        if (shown.isEmpty()) {
-            EmptyState(AppIcons.QueueMusic, tr("No playlists match"), message = tr("Try another search."))
-        } else {
-            val columns = when {
-                compact -> 1
-                width.isExpanded -> 3
-                else -> 2
+            Spacer(Modifier.height(AppSpacing.m))
+            SearchField(state.search, viewModel::setSearch, tr("Search playlists"), Modifier.fillMaxWidth().padding(horizontal = AppSpacing.m))
+            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs), horizontalArrangement = Arrangement.End) {
+                SortMenu(state.sort, viewModel::setSort)
             }
-            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                shown.chunked(columns).forEach { row ->
-                    Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                        row.forEach { summary ->
-                            PlaylistCard(
-                                summary,
-                                playing = state.playing && state.playingId == summary.playlist.id,
-                                modifier = Modifier.weight(1f).fillMaxHeight(),
-                                onOpen = { onNavigate(Route.Playlist(summary.playlist.id)) },
-                                onPlay = { onPlay(summary.playlist.id) },
-                                onEdit = { onNavigate(Route.EditPlaylist(summary.playlist.id)) },
-                                onDelete = { deleting = summary },
-                            )
-                        }
-                        repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
-                    }
+            val shown = state.shown
+            ScrollColumn(
+                Modifier.weight(1f).fillMaxWidth(),
+                contentModifier = Modifier.padding(start = AppSpacing.s, end = AppSpacing.s + AppSizes.scrollbarRoom),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+            ) {
+                if (shown.isEmpty()) {
+                    Text(
+                        tr("No playlists match"),
+                        Modifier.fillMaxWidth().padding(AppSpacing.l),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = colors.onSurfaceVariant,
+                        textAlign = TextAlign.Center,
+                    )
+                }
+                shown.forEach { summary ->
+                    SidebarRow(
+                        summary,
+                        selected = summary.playlist.id == selectedId,
+                        loaded = state.playingId == summary.playlist.id,
+                        playing = state.isPlaying(summary.playlist.id),
+                        onClick = { viewModel.select(summary.playlist.id) },
+                    )
                 }
             }
         }
-        AppDivider()
-        Text(
-            "${trPlural(state.playlists.size, "{0} playlist", "{0} playlists")} · ${textCount(state.textCount)}",
-            style = MaterialTheme.typography.bodyMedium,
-            color = colors.onSurfaceVariant,
+    }
+}
+
+/** A playlist in the sidebar: its covers, name, length and progress, and the bars while it is the one playing. */
+@Composable
+private fun SidebarRow(summary: PlaylistSummary, selected: Boolean, loaded: Boolean, playing: Boolean, onClick: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val playlist = summary.playlist
+    val shape = AppShapes.card
+    Row(
+        Modifier.fillMaxWidth().clip(shape)
+            .then(if (selected) Modifier.background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.selected(colors.primary.copy(alpha = AppAlpha.line)), shape) else Modifier)
+            .clickable(onClick = onClick).semantics { this.selected = selected }
+            .padding(horizontal = AppSpacing.s, vertical = AppSpacing.s + AppSpacing.xxs).testTag("playlist-${playlist.id}"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        CoverMosaic(playlist, SIDEBAR_MOSAIC, AppShapes.control)
+        Column(Modifier.weight(1f)) {
+            Text(playlist.name, style = AppText.labelBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(listFacts(summary), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Spacer(Modifier.height(AppSpacing.s))
+            ProgressTrack(playlist.progress, playlistProgressColor(playlist), height = AppSizes.trackThin)
+        }
+        Box(Modifier.size(AppSizes.iconSmall)) {
+            if (loaded) Equaliser(playing, Modifier.testTag("playing-${playlist.id}"))
+        }
+    }
+}
+
+/** The order of the sidebar's playlists, as a small link that opens the choices. */
+@Composable
+private fun SortMenu(sort: PlaylistsSort, onSort: (PlaylistsSort) -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    var open by remember { mutableStateOf(false) }
+    Box {
+        Row(
+            Modifier.clip(AppShapes.small).clickable { open = true }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("playlist-sort"),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
+        ) {
+            Icon(AppIcons.SwapVert, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconSmall))
+            Text(sort.label, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconSmall))
+        }
+        AppMenu(expanded = open, onDismissRequest = { open = false }) {
+            PlaylistsSort.entries.forEach { option ->
+                AppMenuItem(
+                    text = { Text(option.label, color = if (option == sort) colors.primary else colors.onSurface) },
+                    onClick = { open = false; onSort(option) },
+                )
+            }
+        }
+    }
+}
+
+/**
+ * The playlists as a phone lists them, and a window too narrow for the sidebar: a card for each, played or held
+ * from its own button, then a row to make another.
+ */
+@Composable
+private fun PlaylistList(state: PlaylistsUiState, viewModel: PlaylistsViewModel, onNavigate: (Route) -> Unit, onCreate: () -> Unit, modifier: Modifier) {
+    val compact = LocalWindowWidth.current.isCompact
+    ScrollColumn(
+        modifier.fillMaxSize(),
+        contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.s else AppSpacing.xxl),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Column(Modifier.widthIn(max = AppSizes.readableWidth), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+            if (!compact) {
+                ScreenHeader(tr("Playlists"), subtitle = null, actions = {
+                    PrimaryButton(tr("New playlist"), onClick = onCreate, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
+                })
+            }
+            // A long list gets a search; a few playlists are seen at a glance.
+            if (state.playlists.size > SEARCH_FROM) SearchField(state.search, viewModel::setSearch, tr("Search playlists"), Modifier.fillMaxWidth())
+            state.shown.forEach { summary ->
+                PlaylistCard(
+                    summary,
+                    playing = state.isPlaying(summary.playlist.id),
+                    onOpen = { viewModel.select(summary.playlist.id); onNavigate(Route.Playlist(summary.playlist.id)) },
+                    onPlay = { viewModel.play(summary.playlist.id) },
+                )
+            }
+            NewPlaylistRow(onCreate)
+        }
+    }
+}
+
+/** A playlist as a phone's card: its covers, name, progress, and a button that plays, holds or replays it where it is. */
+@Composable
+private fun PlaylistCard(summary: PlaylistSummary, playing: Boolean, onOpen: () -> Unit, onPlay: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    val playlist = summary.playlist
+    Row(
+        Modifier.fillMaxWidth().cardSurface(AppShapes.large).clickable(onClick = onOpen).padding(AppSpacing.m).testTag("playlist-${playlist.id}"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        CoverMosaic(playlist, PHONE_MOSAIC, AppShapes.panel)
+        Column(Modifier.weight(1f)) {
+            Text(playlist.name, style = AppText.itemTitleBold, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(
+                progressFacts(playlist, summary.duration, summary.remaining),
+                style = MaterialTheme.typography.bodyMedium,
+                color = colors.onSurfaceVariant,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+            )
+            Spacer(Modifier.height(AppSpacing.s))
+            ProgressTrack(playlist.progress, playlistProgressColor(playlist), height = AppSizes.trackThin)
+        }
+        val replay = playlist.isComplete && !playing
+        AppIconButton(
+            when {
+                playing -> AppIcons.Pause
+                replay -> AppIcons.Replay
+                else -> AppIcons.PlayArrow
+            },
+            contentDescription = when {
+                playing -> tr("Pause")
+                replay -> tr("Play again")
+                else -> tr("Play {0}", playlist.name)
+            },
+            onClick = onPlay,
+            enabled = playlist.items.isNotEmpty(),
+            size = IconButtonSize.Large,
+            style = if (replay) IconButtonStyle.Tonal else IconButtonStyle.Filled,
+            modifier = Modifier.testTag("play-playlist-${playlist.id}"),
         )
     }
-    // A new playlist opens on its own page, to fill it.
-    if (creating) NewPlaylistDialog(bookId = null, onCreated = { id, _ -> creating = false; onNavigate(Route.Playlist(id)) }, onDismiss = { creating = false })
-    deleting?.let { summary ->
-        DeletePlaylistDialog(summary.playlist, summary.duration, onConfirm = { onDelete(summary.playlist.id); deleting = null }, onDismiss = { deleting = null })
-    }
 }
 
-/** The playlist being listened to, with how far it has got and the way back into it. */
+/** The dashed row under the list that makes another playlist. */
 @Composable
-private fun ContinueCard(summary: PlaylistSummary, playing: Boolean, compact: Boolean, onPlay: () -> Unit, onOpen: () -> Unit) {
+private fun NewPlaylistRow(onCreate: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    val playlist = summary.playlist
-    val shape = AppShapes.large
-    val card = Modifier.fillMaxWidth().clip(shape).background(colors.primary.copy(alpha = AppAlpha.wash))
-        .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape).clickable(onClick = onOpen).testTag("continue-playlist")
-    val details: @Composable (Modifier) -> Unit = { m ->
-        Column(m, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-            Text(tr("Continue listening").uppercase(), style = AppText.overline, color = colors.primary)
-            Text(playlist.name, style = AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            playlist.currentItem?.let { Text(it.title, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis) }
-            Spacer(Modifier.height(AppSpacing.xs))
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                Text(trPlural(playlist.items.size, "{1} of {0} text", "{1} of {0} texts", playlist.finishedCount), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
-                ProgressTrack(playlist.progress, colors.primary, Modifier.weight(1f), height = AppSizes.trackThick)
-                Text(tr("{0} left", listeningTime(summary.remaining)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, softWrap = false)
+    val line = colors.outlineVariant
+    Row(
+        Modifier.fillMaxWidth().clip(AppShapes.large)
+            .drawBehind {
+                val stroke = DASH_WIDTH.toPx()
+                drawRoundRect(
+                    line,
+                    topLeft = Offset(stroke / 2, stroke / 2),
+                    size = Size(size.width - stroke, size.height - stroke),
+                    cornerRadius = CornerRadius(DASH_CORNER.toPx()),
+                    style = Stroke(stroke, pathEffect = PathEffect.dashPathEffect(floatArrayOf(DASH.toPx(), DASH.toPx()))),
+                )
             }
-        }
-    }
-    val button: @Composable (Modifier) -> Unit = { m ->
-        PrimaryButton(if (playing) tr("Pause") else tr("Continue"), onClick = onPlay, modifier = m.testTag("continue-play"), icon = if (playing) AppIcons.Pause else AppIcons.PlayArrow, size = ButtonSize.Large)
-    }
-    if (compact) {
-        Column(card.padding(AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                CoverTile(playlist.cover, AppSizes.tileXLarge, icon = AppIcons.MenuBook)
-                details(Modifier.weight(1f))
-            }
-            button(Modifier.fillMaxWidth())
-        }
-    } else {
-        Row(card.padding(AppSpacing.xl), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
-            CoverTile(playlist.cover, CONTINUE_TILE, icon = AppIcons.MenuBook)
-            details(Modifier.weight(1f))
-            button(Modifier)
-        }
-    }
-}
-
-/** A playlist as a card of the grid: its cover and menu, name, length and description, and how far listening has got. */
-@Composable
-private fun PlaylistCard(
-    summary: PlaylistSummary,
-    playing: Boolean,
-    modifier: Modifier,
-    onOpen: () -> Unit,
-    onPlay: () -> Unit,
-    onEdit: () -> Unit,
-    onDelete: () -> Unit,
-) {
-    val colors = MaterialTheme.colorScheme
-    val playlist = summary.playlist
-    val interaction = remember { MutableInteractionSource() }
-    val hovered by interaction.collectIsHoveredAsState()
-    Column(
-        modifier.pressScale(interaction).clip(AppShapes.large).background(colors.surface)
-            .border(AppBorders.hairline(if (hovered) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.large)
-            .hoverable(interaction).clickable(interaction, LocalIndication.current, onClick = onOpen).padding(AppSpacing.xl).testTag("playlist-${playlist.id}"),
+            .clickable(onClick = onCreate).padding(vertical = AppSpacing.l).testTag("new-playlist-row"),
+        horizontalArrangement = Arrangement.Center,
+        verticalAlignment = Alignment.CenterVertically,
     ) {
-        Row(verticalAlignment = Alignment.Top) {
-            CoverTile(playlist.cover, AppSizes.tileXLarge)
-            Spacer(Modifier.weight(1f))
-            OverflowMenu(tr("More actions"), buttonModifier = Modifier.testTag("playlist-menu-${playlist.id}")) { close ->
-                if (playlist.items.isNotEmpty()) AppMenuItem(text = { Text(if (playing) tr("Pause") else tr("Play")) }, onClick = { close(); onPlay() })
-                AppMenuItem(text = { Text(tr("Edit details")) }, onClick = { close(); onEdit() })
-                AppMenuItem(text = { Text(tr("Delete playlist"), color = colors.error) }, onClick = { close(); onDelete() })
-            }
-        }
-        Spacer(Modifier.height(AppSpacing.l))
-        Text(playlist.name, style = AppText.itemTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        Text(playlistFacts(playlist, summary.duration), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        if (playlist.description.isNotBlank()) {
-            Spacer(Modifier.height(AppSpacing.xs))
-            Text(playlist.description, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
-        }
-        // Cards in a row share the tallest one's height; the progress keeps to the bottom.
-        Spacer(Modifier.weight(1f))
-        Spacer(Modifier.height(AppSpacing.l))
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            ProgressTrack(playlist.progress, colors.primary, Modifier.weight(1f), height = AppSizes.track)
-            Text(percent(playlist.progress), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            AppIconButton(
-                if (playing) AppIcons.Pause else AppIcons.PlayArrow,
-                contentDescription = if (playing) tr("Pause") else tr("Play {0}", playlist.name),
-                onClick = onPlay,
-                enabled = playlist.items.isNotEmpty(),
-                size = IconButtonSize.Large,
-                style = IconButtonStyle.Filled,
-                modifier = Modifier.testTag("play-playlist-${playlist.id}"),
-            )
-        }
+        Icon(Icons.Default.Add, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
+        Spacer(Modifier.width(AppSpacing.s))
+        Text(tr("New playlist"), style = AppText.labelBold, color = colors.primary)
     }
 }
 
@@ -320,5 +427,13 @@ internal fun DeletePlaylistDialog(playlist: Playlist, duration: Duration, onConf
     }
 }
 
-private val SEARCH_WIDTH = 360.dp
-private val CONTINUE_TILE = 96.dp
+/** The width of a wide window's list of playlists, as wide as the Courses page's sidebar. */
+private val SIDEBAR = 300.dp
+private val SIDEBAR_MOSAIC = 48.dp
+private val PHONE_MOSAIC = 56.dp
+private val DASH = 6.dp
+private val DASH_WIDTH = 2.dp
+private val DASH_CORNER = 18.dp
+
+/** From this many playlists a phone's list gets a search. */
+private const val SEARCH_FROM = 6

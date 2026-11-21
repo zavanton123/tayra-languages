@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.courses.Course
 import com.idiomiko.core.domain.playlists.Playlist
+import com.idiomiko.core.domain.playlists.PlaylistItem
 import com.idiomiko.core.domain.playlists.PlaylistDraft
 import com.idiomiko.core.domain.playlists.PlaylistLibrary
 import com.idiomiko.core.domain.playlists.PlaylistPlayer
@@ -12,10 +13,14 @@ import com.idiomiko.core.domain.playlists.PlaylistSource
 import com.idiomiko.core.domain.playlists.PlaylistTextKind
 import com.idiomiko.core.domain.playlists.PlayerState
 import com.idiomiko.core.domain.playlists.ListeningTime
+import com.idiomiko.core.domain.service.BookStatsService
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.state.UiEvents
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -24,10 +29,13 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.onStart
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import kotlin.time.Duration
 import kotlin.time.Instant
 
@@ -35,6 +43,11 @@ enum class PlaylistsSort { RECENTLY_PLAYED, NAME, CREATED }
 
 /** A playlist with the listening times shown for it. */
 data class PlaylistSummary(val playlist: Playlist, val duration: Duration, val remaining: Duration)
+
+/** The playlist chosen on the wide Playlists page, kept while the app runs so the page opens on it again. */
+class PlaylistSelection {
+    val id = MutableStateFlow<Long?>(null)
+}
 
 data class PlaylistsUiState(
     val loading: Boolean = true,
@@ -45,6 +58,8 @@ data class PlaylistsUiState(
     /** The playlist the player has loaded, if it is one of these. */
     val playingId: Long? = null,
     val playing: Boolean = false,
+    /** The playlist chosen on the wide page, when it is still there. */
+    val chosenId: Long? = null,
 ) {
     /** The playlists matching the search, in the chosen order. */
     val shown: List<PlaylistSummary>
@@ -58,12 +73,15 @@ data class PlaylistsUiState(
             }
         }
 
-    /** The playlist to go on with: the one loaded in the player, else the one played last that is not finished. */
-    val continueWith: PlaylistSummary?
-        get() = playlists.firstOrNull { it.playlist.id == playingId }
-            ?: playlists.filter { it.playlist.position != null && !it.playlist.isComplete }.maxByOrNull { it.playlist.lastPlayedAt ?: Instant.DISTANT_PAST }
+    /** The playlist the wide page shows: the one chosen, else the one played last, else the first listed. */
+    val selected: PlaylistSummary?
+        get() = playlists.firstOrNull { it.playlist.id == chosenId }
+            ?: playlists.filter { it.playlist.lastPlayedAt != null }.maxByOrNull { it.playlist.lastPlayedAt!! }
+            ?: shown.firstOrNull()
+            ?: playlists.firstOrNull()
 
-    val textCount: Int get() = playlists.sumOf { it.playlist.items.size }
+    /** Whether the player has the playlist with [id] loaded and is playing it. */
+    fun isPlaying(id: Long): Boolean = playing && playingId == id
 }
 
 /** The playlists of the language being learned. */
@@ -73,6 +91,7 @@ class PlaylistsViewModel(
     settings: SettingsRepository,
     languages: com.idiomiko.core.domain.repository.LanguageRepository,
     time: ListeningTime,
+    private val selection: PlaylistSelection,
 ) : ViewModel() {
     private data class Choices(val search: String = "", val sort: PlaylistsSort = PlaylistsSort.RECENTLY_PLAYED)
 
@@ -86,7 +105,7 @@ class PlaylistsViewModel(
             service.observePlaylists(id).map { list -> name to list.map { PlaylistSummary(it, service.duration(it, code), service.remaining(it, code)) } }
         }
 
-    val state: StateFlow<PlaylistsUiState> = combine(playlists, choices, player.state) { (name, list), c, playing ->
+    val state: StateFlow<PlaylistsUiState> = combine(playlists, choices, player.state, selection.id) { (name, list), c, playing, chosen ->
         PlaylistsUiState(
             loading = false,
             languageName = name,
@@ -95,11 +114,17 @@ class PlaylistsViewModel(
             sort = c.sort,
             playingId = playing.playlist?.id?.takeIf { playing.isLoaded },
             playing = playing.isPlaying,
+            chosenId = chosen,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), PlaylistsUiState())
 
     fun setSearch(query: String) = choices.update { it.copy(search = query) }
     fun setSort(sort: PlaylistsSort) = choices.update { it.copy(sort = sort) }
+
+    /** Shows the playlist on the wide page, now and when the page opens again. */
+    fun select(playlistId: Long) {
+        selection.id.value = playlistId
+    }
 
     /** Plays the playlist, or pauses it when it is the one playing. */
     fun play(playlistId: Long) {
@@ -116,12 +141,51 @@ data class PlaylistDetailUiState(
     val loading: Boolean = true,
     val playlist: Playlist? = null,
     val duration: Duration = Duration.ZERO,
+    /** What is left to hear of it, the current text's heard pages left out. */
+    val remaining: Duration = Duration.ZERO,
     val durations: Map<Long, Duration> = emptyMap(),
+    /** The share of each text's words known, by item id, where it has been counted. */
+    val known: Map<Long, Int> = emptyMap(),
+    /** The title of the course each lesson comes from, by item id. */
+    val courses: Map<Long, String> = emptyMap(),
     val player: PlayerState = PlayerState(),
     val error: String? = null,
 ) {
     /** Whether the player has this playlist loaded. */
     val isLoaded: Boolean get() = player.isLoaded && player.playlist?.id == playlist?.id
+
+    /** Whether the player is playing this playlist now. */
+    val isPlaying: Boolean get() = isLoaded && player.isPlaying
+
+    /** The text listening is at: the player's while it has the playlist, else the place kept. */
+    val currentId: Long? get() = if (isLoaded) player.itemId else playlist?.position?.itemId
+
+    /** The text that comes after the current one, or the first not heard before listening starts. */
+    val nextId: Long?
+        get() {
+            val items = playlist?.items ?: return null
+            if (isLoaded) return player.order.getOrNull(player.queueIndex + 1)
+            playlist.position?.let { return it.itemId }
+            return items.firstOrNull { !it.finished }?.id
+        }
+
+    /** Where [item] stands: heard, being played, or next. */
+    fun statusOf(item: PlaylistItem): ItemStatus = when {
+        item.id == currentId && isLoaded ->
+            if (player.isPlaying) ItemStatus.Playing(player.sentence + 1, player.sentences.size) else ItemStatus.Paused(player.sentence + 1, player.sentences.size)
+        item.id == nextId && !item.finished -> ItemStatus.UpNext
+        item.finished -> ItemStatus.Played
+        else -> ItemStatus.None
+    }
+}
+
+/** A text's place in the listening, as its row tells it. */
+sealed interface ItemStatus {
+    data object Played : ItemStatus
+    data class Playing(val sentence: Int, val sentences: Int) : ItemStatus
+    data class Paused(val sentence: Int, val sentences: Int) : ItemStatus
+    data object UpNext : ItemStatus
+    data object None : ItemStatus
 }
 
 sealed interface PlaylistDetailEvent {
@@ -135,22 +199,39 @@ class PlaylistDetailViewModel(
     private val player: PlaylistPlayer,
     time: ListeningTime,
     settings: SettingsRepository,
+    private val stats: BookStatsService,
 ) : ViewModel() {
     val events = UiEvents<PlaylistDetailEvent>()
     private val error = MutableStateFlow<String?>(null)
+    private val playlist = service.observePlaylist(playlistId)
+
+    /** The known share of each of the playlist's texts, counted once for each text it gets. */
+    private val known: Flow<Map<Long, Int>> = playlist.map { it?.items.orEmpty().map { item -> item.bookId }.toSet() }.distinctUntilChanged()
+        .map { books -> books.mapNotNull { book -> knownShare(book)?.let { book to it } }.toMap() }
+        .onStart { emit(emptyMap()) }
+
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private val courses: Flow<Map<Long, String>> = playlist.map { it?.languageId }.distinctUntilChanged()
+        .flatMapLatest { language -> if (language == null) flowOf(emptyMap()) else service.observeLessonCourses(language) }
+        .onStart { emit(emptyMap()) }
 
     val state: StateFlow<PlaylistDetailUiState> = combine(
-        service.observePlaylist(playlistId),
+        playlist,
         player.state,
         combine(time.changes, settings.settings.map { it.playlistSpeed }.distinctUntilChanged()) { _, _ -> },
+        combine(known, courses) { k, c -> k to c },
         error,
-    ) { playlist, playing, _, error ->
+    ) { playlist, playing, _, (known, courses), error ->
         val code = playlist?.let { service.languageCode(it.languageId) }
+        val items = playlist?.items.orEmpty()
         PlaylistDetailUiState(
             loading = false,
             playlist = playlist,
             duration = playlist?.let { service.duration(it, code) } ?: Duration.ZERO,
-            durations = playlist?.items.orEmpty().associate { it.id to service.duration(it.length, code) },
+            remaining = playlist?.let { service.remaining(it, code) } ?: Duration.ZERO,
+            durations = items.associate { it.id to service.duration(it.length, code) },
+            known = items.mapNotNull { item -> known[item.bookId]?.let { item.id to it } }.toMap(),
+            courses = items.mapNotNull { item -> courses[item.bookId]?.let { item.id to it } }.toMap(),
             player = playing,
             error = error,
         )
@@ -170,6 +251,14 @@ class PlaylistDetailViewModel(
     fun delete() = change {
         service.delete(playlistId)
         events.send(PlaylistDetailEvent.Deleted)
+    }
+
+    private suspend fun knownShare(bookId: Long): Int? = try {
+        withContext(Dispatchers.Default) { stats.stats(bookId) }?.takeIf { it.distinctTerms > 0 }?.let { 100 - it.unknownPercent }
+    } catch (e: CancellationException) {
+        throw e
+    } catch (_: Exception) {
+        null
     }
 
     private fun change(block: suspend () -> Unit) {

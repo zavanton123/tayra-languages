@@ -7,6 +7,7 @@ import androidx.navigation.toRoute
 import com.idiomiko.core.domain.playlists.PlaylistPlayer
 import com.idiomiko.core.domain.playlists.PlaylistSource
 import com.idiomiko.core.domain.playlists.SpeechOutput
+import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.navigation.Route
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -25,8 +26,9 @@ val playlistsModule = module {
     single { NowPlayingFeed(get(), get(), get(), get(), CoroutineScope(SupervisorJob() + Dispatchers.Main)) }
     // Made with the app, so the system's controls follow the player from the start.
     single(createdAtStart = true) { systemMediaControls() }
-    viewModel { PlaylistsViewModel(get(), get(), get(), get(), get()) }
-    viewModel { (playlistId: Long) -> PlaylistDetailViewModel(playlistId, get(), get(), get(), get()) }
+    single { PlaylistSelection() }
+    viewModel { PlaylistsViewModel(get(), get(), get(), get(), get(), get()) }
+    viewModel { (playlistId: Long) -> PlaylistDetailViewModel(playlistId, get(), get(), get(), get(), get()) }
     viewModel { (mode: PlaylistFormMode) -> PlaylistFormViewModel(mode, get(), get()) }
     viewModel { (source: PlaylistSource) -> AddToPlaylistViewModel(source, get(), get()) }
     viewModel { PlayerViewModel(get(), get(), get(), get(), get(), get()) }
@@ -36,7 +38,9 @@ fun NavGraphBuilder.playlistsGraph(navController: NavController) {
     composable<Route.Playlists> { PlaylistsScreen(onNavigate = { navController.navigate(it) }) }
     composable<Route.Playlist> { entry ->
         val route = entry.toRoute<Route.Playlist>()
-        PlaylistDetailScreen(route.playlistId, onNavigate = { navController.navigate(it) }, onBack = { navController.backTo(Route.Playlists) })
+        // A wide window has no page of its own for a playlist: the Playlists page opens with it chosen.
+        if (LocalWindowWidth.current.isExpanded) PlaylistsScreen(onNavigate = { navController.navigate(it) }, selectId = route.playlistId)
+        else PlaylistDetailScreen(route.playlistId, onNavigate = { navController.navigate(it) }, onBack = { navController.backTo(Route.Playlists) })
     }
     composable<Route.Player> { PlayerScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
     composable<Route.EditPlaylist> { entry ->

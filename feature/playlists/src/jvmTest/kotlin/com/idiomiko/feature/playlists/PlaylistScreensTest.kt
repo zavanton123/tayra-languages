@@ -1,35 +1,58 @@
 package com.idiomiko.feature.playlists
 
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertIsSelected
+import androidx.compose.ui.test.assertTextContains
+import androidx.compose.ui.test.doubleClick
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
-import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
+import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.playlists.ListeningPosition
+import com.idiomiko.core.domain.playlists.PlayerStatus
 import com.idiomiko.core.domain.playlists.PlaylistDraft
 import com.idiomiko.core.domain.playlists.PlaylistSource
+import com.idiomiko.core.domain.service.SentenceTranslator
+import com.idiomiko.core.ui.components.LearningLanguageState
+import com.idiomiko.core.ui.components.LocalLearningLanguage
+import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.theme.AppTheme
+import com.idiomiko.core.ui.theme.AppThemes
+import com.idiomiko.core.ui.theme.IdiomikoTheme
 import kotlinx.coroutines.runBlocking
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertNotEquals
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
 import kotlin.time.Clock
 
-/** The playlists, making one, and a playlist's own page, as the screens show them. */
+/** The Playlists page with the chosen playlist beside the list, the phone's list and playlist pages, and making playlists. */
 @OptIn(ExperimentalTestApi::class)
 class PlaylistScreensTest {
     private val data = PlaylistTestData()
     private val text = "O carro parou na estrada. O motorista desceu e olhou o motor. Nada parecia errado. "
 
-    /** Three playlists: one being listened to, one not started, one heard to the end. */
+    /** Three playlists: one being listened to (at its third text), one not started, one heard to the end. */
     private fun library(): List<Long> = runBlocking {
         val books = listOf("Uma compra com problema", "O dia a dia", "Na cidade", "Saúde e bem-estar").map { data.book(it, text.repeat(8)) }
         val morning = data.service.create(
@@ -37,50 +60,254 @@ class PlaylistScreensTest {
             PlaylistDraft("Morning Portuguese", "Everyday listening", cover = 0),
             listOf(PlaylistSource.WholeCourse(data.course.id), PlaylistSource.Text(books[0]), PlaylistSource.Text(books[1])),
         )
-        val work = data.service.create(data.languageId, PlaylistDraft("Work & Business", "Professional vocabulary", cover = 1), listOf(PlaylistSource.Text(books[2])))
+        val work = data.service.create(data.languageId, PlaylistDraft("Work & Business", "Professional vocabulary", cover = 5), listOf(PlaylistSource.Text(books[2])))
         val stories = data.service.create(data.languageId, PlaylistDraft("Short stories", "Easy graded stories", cover = 2), listOf(PlaylistSource.Text(books[3])))
         val items = data.service.playlist(morning)!!.items
         items.take(2).forEach { data.repository.setFinished(it.id, Clock.System.now()) }
         data.repository.savePosition(morning, ListeningPosition(items[2].id, 1, 0), Clock.System.now())
         data.repository.setFinished(data.service.playlist(stories)!!.items[0].id, Clock.System.now())
+        data.know(
+            "o", "a", "e", "na", "carro", "parou", "estrada", "motorista", "desceu", "olhou", "motor", "nada", "parecia", "caixa", "chegou", "produto",
+            "não", "júlia", "gravou", "um", "vídeo", "do", "escreveu", "à", "loja", "chamar", "aparelho", "de", "resolve", "disse", "ela", "ao", "marido", "que", "é", "problema",
+        )
         listOf(morning, work, stories)
     }
 
-    @Test
-    fun thePlaylistsShowTheOneToGoOnWithAndCanBeSearchedAndSorted() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val (morning, work) = library()
-        val viewModel = PlaylistsViewModel(data.service, data.player, data.settings, data.languages, data.time)
-        val visited = mutableListOf<Route>()
-        host(data) {
-            val state by viewModel.state.collectAsState()
-            if (!state.loading) PlaylistsContent(state, onNavigate = { visited += it }, onSearch = viewModel::setSearch, onSort = viewModel::setSort, onPlay = viewModel::play, onDelete = viewModel::delete)
+    /** Plays [playlist] from where it got to and waits until its first sentence is being said. */
+    private fun playing(playlist: Long) {
+        data.player.play(playlist)
+        val end = System.currentTimeMillis() + 10_000
+        while (data.output.done == null || data.player.state.value.status != PlayerStatus.PLAYING) {
+            check(System.currentTimeMillis() < end) { "not playing: ${data.player.state.value}" }
+            Thread.sleep(10)
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Your playlists")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("continue-playlist").assertExists()
-        onNodeWithText("CONTINUE LISTENING").assertExists()
-        onNodeWithText("O vídeo da Júlia").assertExists()
-        onNodeWithText("2 of 5 texts").assertExists()
-        onNodeWithText("3 playlists · 7 texts").assertExists()
-        onNodeWithText("40%").assertExists()
+    }
+
+    private val translator = object : SentenceTranslator {
+        override suspend fun translate(text: String, language: Language): String? = null
+    }
+
+    /** The Playlists page as the app shows it, with the player's bar under it. */
+    private fun ComposeUiTest.page(viewModel: PlaylistsViewModel, theme: AppTheme = AppThemes.default, visited: MutableList<Route> = mutableListOf(), content: (@Composable () -> Unit)? = null) {
+        val bar = PlayerViewModel(data.player, data.service, translator, data.languages, data.settings, data.time)
+        setContent {
+            IdiomikoTheme(theme) {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(data.languageId to "Portuguese"), data.languageId) {}) {
+                        Surface(color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                            Column {
+                                Box(Modifier.weight(1f)) {
+                                    content?.invoke() ?: PlaylistsScreen(onNavigate = { visited += it }, viewModel = viewModel, detail = { id -> remember(id) { data.detail(id) } })
+                                }
+                                PlayerBar(onNavigate = { visited += it }, onPlayerScreen = false, viewModel = bar)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun ComposeUiTest.shown(tag: String) = onAllNodes(hasTestTag(tag)).fetchSemanticsNodes().isNotEmpty()
+
+    private fun order(playlist: Long) = runBlocking { data.service.playlist(playlist)!!.items.map { it.id } }
+
+    @Test
+    fun aWidePageShowsTheLastPlayedPlaylistBesideTheListAndAnotherWhenChosen() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val (morning, work, stories) = library()
+        playing(morning)
+        page(data.playlists())
+        waitUntil(timeoutMillis = 10_000) { shown("now-playing") && onAllNodes(hasText("% known", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("playlist-$morning").assertIsSelected()
+        onNodeWithTag("playing-$morning", useUnmergedTree = true).assertExists()
+        onNodeWithText("Short stories").assertExists()
+        onNodeWithText("1 text · ~1 min · ✓ done").assertExists()
+        onNodeWithTag("playlist-facts").assertTextContains("2 of 5 played", substring = true)
+        onNodeWithTag("playlist-facts").assertTextContains("3 lessons, 2 books", substring = true)
+        assertEquals(3, onAllNodes(hasText("Lesson · Compras e serviços")).fetchSemanticsNodes().size)
+        onNodeWithText("Pause").assertExists()
         screenshot("playlists")
 
+        // Choosing another playlist shows it, and the page opens on it again for the rest of the session.
         onNodeWithTag("playlist-$work").performClick()
-        assertEquals(listOf<Route>(Route.Playlist(work)), visited)
-        onNodeWithText("Search playlists").performTextInput("work")
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Morning Portuguese")).fetchSemanticsNodes().size == 1 }
-        onNodeWithTag("playlist-$morning").assertDoesNotExist()
+        waitUntil(timeoutMillis = 5_000) { !shown("now-playing") }
+        onNodeWithTag("playlist-$work").assertIsSelected()
+        onNodeWithTag("playlist-facts").assertTextContains("0 of 1 played", substring = true)
+        onNodeWithTag("play-all").assertTextContains("Play")
+        assertEquals(work, data.selection.id.value)
+
+        onNodeWithText("Search playlists").performTextInput("stor")
+        waitUntil(timeoutMillis = 5_000) { !shown("playlist-$morning") }
+        onNodeWithTag("playlist-$stories").assertExists()
     }
 
     @Test
-    fun onAPhoneThePlaylistsAreOneColumn() = runDesktopComposeUiTest(width = 400, height = 1500) {
-        library()
-        val viewModel = PlaylistsViewModel(data.service, data.player, data.settings, data.languages, data.time)
-        host(data) {
-            val state by viewModel.state.collectAsState()
-            if (!state.loading) PlaylistsContent(state, onNavigate = {}, onSearch = viewModel::setSearch, onSort = viewModel::setSort, onPlay = viewModel::play, onDelete = viewModel::delete)
+    fun theWidePageInTheDarkTheme() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val (morning) = library()
+        playing(morning)
+        page(data.playlists(), theme = AppThemes.night)
+        waitUntil(timeoutMillis = 10_000) { shown("now-playing") && onAllNodes(hasText("% known", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        screenshot("playlists-dark")
+    }
+
+    @Test
+    fun aRouteToAPlaylistOpensThePageWithItChosen() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val (_, work) = library()
+        val viewModel = data.playlists()
+        page(viewModel) { PlaylistsScreen(onNavigate = {}, selectId = work, viewModel = viewModel, detail = { id -> remember(id) { data.detail(id) } }) }
+        waitUntil(timeoutMillis = 5_000) { shown("playlist-header") }
+        onNodeWithTag("playlist-$work").assertIsSelected()
+    }
+
+    @Test
+    fun theNowPlayingStripFollowsTheSentenceAndOpensThePlayer() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val (morning) = library()
+        val visited = mutableListOf<Route>()
+        page(data.playlists(), visited = visited)
+        waitUntil(timeoutMillis = 5_000) { shown("playlist-header") }
+        // Before anything plays there is no strip, and the third text is the one to go on with.
+        assertTrue(!shown("now-playing"))
+        val items = runBlocking { data.service.playlist(morning)!!.items }
+        onNodeWithTag("status-${items[2].id}").assertTextContains("Up next")
+        onNodeWithTag("status-${items[0].id}").assertTextContains("✓ Played")
+        onNodeWithTag("play-all").assertTextContains("Continue")
+
+        onNodeWithTag("play-all").performClick()
+        waitUntil(timeoutMillis = 10_000) { data.output.done != null && shown("now-playing") }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("A Júlia gravou um vídeo", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        val sentences = data.player.state.value.sentences
+        onNodeWithTag("now-playing-sentence").assertTextContains("A Júlia gravou um vídeo", substring = true)
+        onNodeWithTag("now-playing").assertExists()
+        onNodeWithText("Now playing · O vídeo da Júlia · sentence 1 of ${sentences.size}").assertExists()
+        onNodeWithTag("status-${items[2].id}").assertTextContains("Playing · 1 of ${sentences.size}")
+        onNodeWithTag("status-${items[3].id}").assertTextContains("Up next")
+
+        data.output.finish()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Now playing · O vídeo da Júlia · sentence 2 of ${sentences.size}")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("now-playing-open").performClick()
+        assertEquals(listOf<Route>(Route.Player), visited)
+    }
+
+    @Test
+    fun aTextIsPlayedFromItsNumberOrADoubleClick() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val (morning) = library()
+        page(data.playlists())
+        waitUntil(timeoutMillis = 5_000) { shown("playlist-header") }
+        val items = runBlocking { data.service.playlist(morning)!!.items }
+        onNodeWithTag("play-item-${items[3].id}").performClick()
+        waitUntil(timeoutMillis = 10_000) { data.player.state.value.let { it.playlist?.id == morning && it.itemId == items[3].id } }
+        waitUntil(timeoutMillis = 10_000) { data.player.state.value.isPlaying && onAllNodes(hasText("Pause")).fetchSemanticsNodes().isNotEmpty() }
+
+        // The current text's mark holds it.
+        onNodeWithTag("play-item-${items[3].id}").performClick()
+        waitUntil(timeoutMillis = 5_000) { data.player.state.value.status == PlayerStatus.PAUSED }
+
+        onNodeWithTag("item-${items[0].id}").performMouseInput { doubleClick() }
+        waitUntil(timeoutMillis = 10_000) { data.player.state.value.itemId == items[0].id }
+    }
+
+    @Test
+    fun textsAreReorderedByDraggingOrFromTheirMenu() = runDesktopComposeUiTest(width = 1600, height = 1100) {
+        val (morning) = library()
+        page(data.playlists())
+        waitUntil(timeoutMillis = 5_000) { shown("playlist-header") }
+        val items = order(morning)
+
+        onNodeWithTag("item-menu-${items[0]}").performClick()
+        onNodeWithText("Move down").performClick()
+        waitUntil(timeoutMillis = 5_000) { order(morning) == listOf(items[1], items[0]) + items.drop(2) }
+
+        onNodeWithTag("drag-${items[4]}").performTouchInput {
+            down(center)
+            repeat(20) { moveBy(Offset(0f, -10f), delayMillis = 16) }
+            up()
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Your playlists")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { order(morning).last() != items[4] }
+        assertNotEquals(items[4], order(morning).last())
+    }
+
+    @Test
+    fun aPlaylistIsDeletedFromItsMenu() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val (morning, work) = library()
+        page(data.playlists())
+        waitUntil(timeoutMillis = 5_000) { shown("playlist-header") }
+        onNodeWithTag("playlist-actions").performClick()
+        onNodeWithTag("delete-playlist").performClick()
+        onNodeWithText("Morning Portuguese will be removed. The books, courses and texts inside it will stay in your library.").assertExists()
+        onNodeWithTag("confirm-delete-playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { runBlocking { data.service.playlist(morning) } == null }
+        // The page goes on with another playlist.
+        waitUntil(timeoutMillis = 5_000) { shown("playlist-header") && !shown("playlist-$morning") }
+        assertTrue(shown("playlist-$work"))
+    }
+
+    @Test
+    fun anEmptyPlaylistSaysHowToFillIt() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val id = runBlocking { data.service.create(data.languageId, PlaylistDraft("Travel Portuguese")) }
+        page(data.playlists())
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("This playlist is empty")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("playlist-$id").assertIsSelected()
+        onNodeWithText("You can also add the current text from the reader.").assertExists()
+        onNodeWithTag("play-all").assertIsNotEnabled()
+        screenshot("playlist-empty")
+    }
+
+    @Test
+    fun withNoPlaylistsThePageOffersToMakeOne() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        page(data.playlists())
+        waitUntil(timeoutMillis = 5_000) { shown("no-playlists") }
+        onNodeWithText("No playlists yet").assertExists()
+        assertTrue(!shown("sidebar"))
+        onNodeWithTag("new-playlist").assertExists()
+        screenshot("playlists-empty")
+    }
+
+    @Test
+    fun aPhonesListPlaysAPlaylistFromItsRowWithoutOpeningIt() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val (morning, work, stories) = library()
+        playing(morning)
+        val visited = mutableListOf<Route>()
+        page(data.playlists(), visited = visited)
+        waitUntil(timeoutMillis = 5_000) { shown("new-playlist-row") }
+        onNodeWithText("2 of 5 played · ", substring = true).assertExists()
+        onNodeWithText("1 text · ✓ done").assertExists()
+        onAllNodesWithContentDescription("Play again").fetchSemanticsNodes().size.let { assertEquals(1, it) }
         screenshot("playlists-phone")
+
+        onNodeWithTag("play-playlist-$work").performClick()
+        waitUntil(timeoutMillis = 10_000) { data.player.state.value.playlist?.id == work && data.player.state.value.isPlaying }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithContentDescription("Pause").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("play-playlist-$work").performClick()
+        waitUntil(timeoutMillis = 5_000) { data.player.state.value.status == PlayerStatus.PAUSED }
+        assertTrue(visited.isEmpty())
+
+        onNodeWithTag("playlist-$stories").performClick()
+        assertEquals(listOf<Route>(Route.Playlist(stories)), visited)
+    }
+
+    @Test
+    fun aPhonesPlaylistPageShowsWhatIsPlayingAndItsTexts() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val (morning) = library()
+        playing(morning)
+        val viewModel = data.detail(morning)
+        var left = false
+        page(data.playlists()) { PlaylistDetailScreen(morning, onNavigate = {}, onBack = { left = true }, viewModel = viewModel) }
+        waitUntil(timeoutMillis = 10_000) { shown("now-playing") }
+        onNodeWithTag("playlist-facts").assertTextContains("2 of 5 played · ", substring = true)
+        val items = runBlocking { data.service.playlist(morning)!!.items }
+        screenshot("playlist-phone")
+
+        // A tap on a row plays from it; on the one playing it holds it.
+        onNodeWithTag("item-${items[2].id}").performClick()
+        waitUntil(timeoutMillis = 5_000) { data.player.state.value.status == PlayerStatus.PAUSED }
+        onNodeWithTag("item-${items[4].id}").performClick()
+        waitUntil(timeoutMillis = 10_000) { data.player.state.value.itemId == items[4].id }
+
+        onNodeWithTag("playlist-actions").performClick()
+        onNodeWithTag("delete-playlist").performClick()
+        onNodeWithTag("confirm-delete-playlist").performClick()
+        waitUntil(timeoutMillis = 5_000) { left }
+        assertNull(runBlocking { data.service.playlist(morning) })
     }
 
     @Test
@@ -198,66 +425,4 @@ class PlaylistScreensTest {
         screenshot("playlist-create-phone")
     }
 
-    @Test
-    fun aPlaylistsPageReordersItsTextsAndDeletesIt() = runDesktopComposeUiTest(width = 1586, height = 1100) {
-        val (morning) = library()
-        val viewModel = PlaylistDetailViewModel(morning, data.service, data.player, data.time, data.settings)
-        var left = false
-        host(data) {
-            val state by viewModel.state.collectAsState()
-            val playlist = state.playlist
-            if (!state.loading && playlist != null) PlaylistDetailContent(state, playlist, viewModel, onNavigate = {}, onBack = { left = true })
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Drag to reorder.")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("2 of 5 played").assertExists()
-        onNodeWithText("Current").assertExists()
-        screenshot("playlist-detail")
-
-        val items = runBlocking { data.service.playlist(morning)!!.items }
-        onNodeWithTag("item-menu-${items[0].id}").performClick()
-        // Playing a text is the row's own button, not a menu item.
-        assertTrue(onAllNodes(hasText("Play from here")).fetchSemanticsNodes().isEmpty())
-        onNodeWithText("Move down").performClick()
-        waitUntil(timeoutMillis = 5_000) { runBlocking { data.service.playlist(morning)!!.items.map { it.id } } == listOf(items[1].id, items[0].id) + items.drop(2).map { it.id } }
-
-        onNodeWithTag("play-item-${items[2].id}").performClick()
-        waitUntil(timeoutMillis = 5_000) { data.player.state.value.let { it.playlist?.id == morning && it.itemId == items[2].id } }
-
-        onNodeWithTag("delete-playlist").performClick()
-        onNodeWithTag("delete-playlist-dialog").assertExists()
-        onNodeWithText("Morning Portuguese will be removed. The books, courses and texts inside it will stay in your library.").assertExists()
-        screenshot("playlist-delete")
-        onNodeWithTag("confirm-delete-playlist").performClick()
-        waitUntil(timeoutMillis = 5_000) { left }
-        assertNull(runBlocking { data.service.playlist(morning) })
-    }
-
-    @Test
-    fun anEmptyPlaylistSaysHowToFillIt() = runDesktopComposeUiTest(width = 1586, height = 1000) {
-        val id = runBlocking { data.service.create(data.languageId, PlaylistDraft("Travel Portuguese")) }
-        val viewModel = PlaylistDetailViewModel(id, data.service, data.player, data.time, data.settings)
-        host(data) {
-            val state by viewModel.state.collectAsState()
-            val playlist = state.playlist
-            if (!state.loading && playlist != null) PlaylistDetailContent(state, playlist, viewModel, onNavigate = {}, onBack = {})
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("This playlist is empty")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("0 texts").assertExists()
-        onNodeWithText("You can also add the current text from the reader.").assertExists()
-        onNodeWithTag("play-all").assertIsNotEnabled()
-        screenshot("playlist-empty")
-    }
-
-    @Test
-    fun onAPhoneAPlaylistsPageIsOneColumn() = runDesktopComposeUiTest(width = 400, height = 1600) {
-        val (morning) = library()
-        val viewModel = PlaylistDetailViewModel(morning, data.service, data.player, data.time, data.settings)
-        host(data, "Morning Portuguese") {
-            val state by viewModel.state.collectAsState()
-            val playlist = state.playlist
-            if (!state.loading && playlist != null) PlaylistDetailContent(state, playlist, viewModel, onNavigate = {}, onBack = {})
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Drag to reorder.")).fetchSemanticsNodes().isNotEmpty() }
-        screenshot("playlist-detail-phone")
-    }
 }

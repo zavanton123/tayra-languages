@@ -186,7 +186,7 @@ private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
 
 /** The sentence with the word being spoken marked, when the voice tells which it is. */
 @Composable
-private fun spokenSentence(sentence: String, word: IntRange?): AnnotatedString {
+internal fun spokenSentence(sentence: String, word: IntRange?): AnnotatedString {
     val mark = MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.soft)
     if (word == null || word.first < 0 || word.last >= sentence.length || word.isEmpty()) return AnnotatedString(sentence)
     return buildAnnotatedString {
