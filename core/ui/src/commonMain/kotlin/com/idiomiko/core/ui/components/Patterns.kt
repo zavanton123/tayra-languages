@@ -456,12 +456,24 @@ fun SearchField(
     }
 }
 
-/** A row's actions behind its ⋮ button: [items] are [AppMenuItem]s, given a way to close the menu. [buttonModifier] is the button's, for its test tag. */
+/**
+ * A row's actions behind its ⋮ button ([icon] and [style] give it another look): [items] are [AppMenuItem]s, given a way
+ * to close the menu. [buttonModifier] is the button's, for its test tag.
+ */
 @Composable
-fun OverflowMenu(contentDescription: String, modifier: Modifier = Modifier, buttonModifier: Modifier = Modifier, items: @Composable ColumnScope.(close: () -> Unit) -> Unit) {
+fun OverflowMenu(
+    contentDescription: String,
+    modifier: Modifier = Modifier,
+    buttonModifier: Modifier = Modifier,
+    icon: ImageVector = Icons.Default.MoreVert,
+    tint: Color? = null,
+    style: IconButtonStyle = IconButtonStyle.Plain,
+    size: IconButtonSize = IconButtonSize.Regular,
+    items: @Composable ColumnScope.(close: () -> Unit) -> Unit,
+) {
     var open by remember { mutableStateOf(false) }
     Box(modifier) {
-        AppIconButton(Icons.Default.MoreVert, contentDescription = contentDescription, onClick = { open = true }, modifier = buttonModifier)
+        AppIconButton(icon, contentDescription = contentDescription, onClick = { open = true }, modifier = buttonModifier, tint = tint, style = style, size = size)
         AppMenu(expanded = open, onDismissRequest = { open = false }) { items { open = false } }
     }
 }

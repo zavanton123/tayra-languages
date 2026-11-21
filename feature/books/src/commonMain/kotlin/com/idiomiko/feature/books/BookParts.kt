@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material3.Icon
@@ -22,15 +21,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
@@ -39,6 +34,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.model.BookListItem
+import com.idiomiko.core.ui.components.BOOK_COVER_RATIO
+import com.idiomiko.core.ui.components.BookCover as DrawnCover
 import com.idiomiko.core.ui.components.Tag
 import com.idiomiko.core.ui.components.TagSize
 import com.idiomiko.core.ui.components.TagStyle
@@ -53,56 +50,11 @@ import com.idiomiko.core.ui.theme.AppText
 
 /**
  * A book's drawn cover: a gradient picked from its title, so a book keeps its look wherever it shows and
- * books side by side differ, with the title on it; a cover from [LARGE_COVER] wide also names the language.
+ * books side by side differ, with the title on it; a cover from [LARGE_BOOK_COVER] wide also names the language.
  */
 @Composable
 internal fun BookCover(book: BookListItem, width: Dp) =
-    BookCover(book.title, width, LanguageCodes.codeFor(book.languageName)?.uppercase() ?: book.languageName.take(2).uppercase())
-
-/**
- * A drawn cover for the book with [title]; a large one names the language by its [code] at the top, or leaves the top
- * clear without it. [typeShare] is the title's size as a share of the width, smaller where badges share the cover.
- */
-@Composable
-internal fun BookCover(title: String, width: Dp, code: String?, typeShare: Float? = null) {
-    val gradients = AppAccents.coverGradients
-    val (start, end) = gradients[stableHash(title).mod(gradients.size)]
-    val large = width >= LARGE_COVER
-    val shape = RoundedCornerShape(topStart = width * 0.08f, bottomStart = width * 0.08f, topEnd = width * 0.16f, bottomEnd = width * 0.16f)
-    val shown = title.inLearnedScript()
-    // The type shrinks until the title's longest word fits a line, so no word is cut in two.
-    val room = width.value * (1 - TYPE_START - TYPE_END)
-    val longest = shown.split(' ').maxOfOrNull { it.length }?.coerceAtLeast(1) ?: 1
-    val typeSize = minOf(width.value * (typeShare ?: if (large) 0.15f else 0.18f), room / (longest * GLYPH_WIDTH))
-    val type = AppText.sectionTitle.copy(
-        color = AppAccents.onAccent,
-        fontSize = typeSize.sp,
-        lineHeight = (typeSize * 1.15f).sp,
-        shadow = Shadow(AppAccents.ink.copy(alpha = TYPE_SHADOW), Offset(0f, 1f), 2f),
-    )
-    // A picture: the title beside it is what is read out.
-    Box(
-        Modifier.size(width = width, height = width * COVER_RATIO).clearAndSetSemantics {}.clip(shape).drawBehind {
-            // Mostly downward and a little to the right, as the light falls on a book standing on a shelf.
-            drawRect(Brush.linearGradient(listOf(start, end), start = Offset.Zero, end = Offset(size.width * 0.36f, size.height)))
-            // The spine.
-            drawRect(AppAccents.ink.copy(alpha = SPINE_SHADE), size = Size(size.width * 0.1f, size.height))
-        },
-    ) {
-        val inset = Modifier.fillMaxSize().padding(start = width * TYPE_START, end = width * TYPE_END, top = width * 0.12f, bottom = width * 0.12f)
-        if (large) {
-            Column(inset, verticalArrangement = if (code != null) Arrangement.SpaceBetween else Arrangement.Bottom) {
-                if (code != null) Text(code, style = AppText.smallTitle.copy(fontSize = (width.value * 0.15f).sp, color = AppAccents.onAccent.copy(alpha = CODE_ALPHA)), maxLines = 1)
-                Text(shown, style = type, maxLines = 3, overflow = TextOverflow.Ellipsis)
-            }
-        } else {
-            Text(shown, inset, style = type, maxLines = 3, overflow = TextOverflow.Ellipsis)
-        }
-    }
-}
-
-/** A string's hash computed the same way on every platform, so a cover looks the same everywhere. */
-private fun stableHash(text: String): Int = text.fold(0) { hash, c -> 31 * hash + c.code }
+    DrawnCover(book.title, width, LanguageCodes.codeFor(book.languageName)?.uppercase() ?: book.languageName.take(2).uppercase())
 
 /** How far through the book the reader is, as a ring with the share in it; a finished book is a green tick. */
 @Composable
@@ -204,19 +156,7 @@ internal fun BookLength(book: BookListItem, tags: Boolean = true, maxTags: Int =
 /** "1,223 words · ~21 min". */
 internal fun lengthLine(book: BookListItem): String = words(book.wordCount) + " · " + tr("~{0} min", book.readingMinutes)
 
-/** From this wide a cover names the language too. */
-internal val LARGE_COVER = 64.dp
 internal val THUMB = 44.dp
 internal val RING = 42.dp
-internal const val COVER_RATIO = 1.38f
+internal const val COVER_RATIO = BOOK_COVER_RATIO
 private const val RING_STROKE = 0.11f
-
-/** The cover's margins beside its type, as shares of its width: the spine's side is wider. */
-private const val TYPE_START = 0.15f
-private const val TYPE_END = 0.06f
-
-/** About how wide a bold letter is, in ems. */
-private const val GLYPH_WIDTH = 0.58f
-private const val SPINE_SHADE = 0.14f
-private const val TYPE_SHADOW = 0.15f
-private const val CODE_ALPHA = 0.85f

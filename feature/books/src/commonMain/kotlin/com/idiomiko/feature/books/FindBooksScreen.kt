@@ -30,6 +30,7 @@ import com.idiomiko.core.domain.books.discover.BookSource
 import com.idiomiko.core.domain.books.discover.Shelf
 import com.idiomiko.core.domain.books.discover.Topic
 import com.idiomiko.core.ui.components.AppDialog
+import com.idiomiko.core.ui.components.BookCover
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.CoverageLine
 import com.idiomiko.core.ui.components.LocalLearningLanguage

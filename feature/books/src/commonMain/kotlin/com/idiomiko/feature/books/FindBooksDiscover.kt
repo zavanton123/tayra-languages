@@ -80,6 +80,7 @@ import com.idiomiko.core.domain.books.discover.Shelf
 import com.idiomiko.core.domain.books.discover.ShelfBooks
 import com.idiomiko.core.domain.books.discover.Topic
 import com.idiomiko.core.ui.components.AppIconButton
+import com.idiomiko.core.ui.components.BookCover
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.CoverageCheck
