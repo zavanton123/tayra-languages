@@ -60,7 +60,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Installing {0} into the app folder…" to "正在将 {0} 安装到应用文件夹…",
     "unknown error" to "未知错误",
     "Speech" to "朗读",
-    "Choose how words and passages are spoken." to "选择单词和段落的朗读方式。",
     // PhoneSpeech.kt
     "Playback" to "播放",
     "Installed voices" to "已安装的语音",

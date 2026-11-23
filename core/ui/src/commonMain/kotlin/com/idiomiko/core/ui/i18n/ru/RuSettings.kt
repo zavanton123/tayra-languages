@@ -60,7 +60,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Installing {0} into the app folder…" to "Установка {0} в папку приложения…",
     "unknown error" to "неизвестная ошибка",
     "Speech" to "Озвучивание",
-    "Choose how words and passages are spoken." to "Выберите, как озвучиваются слова и отрывки текста.",
     // PhoneSpeech.kt
     "Playback" to "Воспроизведение",
     "Installed voices" to "Скачанные голоса",

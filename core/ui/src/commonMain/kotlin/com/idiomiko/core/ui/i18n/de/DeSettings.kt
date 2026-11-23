@@ -60,7 +60,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Installing {0} into the app folder…" to "{0} wird im App-Ordner installiert…",
     "unknown error" to "unbekannter Fehler",
     "Speech" to "Sprachausgabe",
-    "Choose how words and passages are spoken." to "Wähle, wie Wörter und Textstellen gesprochen werden.",
     // PhoneSpeech.kt
     "Playback" to "Wiedergabe",
     "Installed voices" to "Installierte Stimmen",

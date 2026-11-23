@@ -60,7 +60,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Installing {0} into the app folder…" to "Instalowanie {0} w folderze aplikacji…",
     "unknown error" to "nieznany błąd",
     "Speech" to "Mowa",
-    "Choose how words and passages are spoken." to "Wybierz, jak mają być wymawiane słowa i fragmenty tekstu.",
     // PhoneSpeech.kt
     "Playback" to "Odtwarzanie",
     "Installed voices" to "Pobrane głosy",

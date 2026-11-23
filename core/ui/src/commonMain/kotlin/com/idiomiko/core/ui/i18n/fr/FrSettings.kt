@@ -60,7 +60,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Installing {0} into the app folder…" to "Installation de {0} dans le dossier de l’application…",
     "unknown error" to "erreur inconnue",
     "Speech" to "Synthèse vocale",
-    "Choose how words and passages are spoken." to "Choisissez comment les mots et les passages sont prononcés.",
     // PhoneSpeech.kt
     "Playback" to "Lecture audio",
     "Installed voices" to "Voix installées",

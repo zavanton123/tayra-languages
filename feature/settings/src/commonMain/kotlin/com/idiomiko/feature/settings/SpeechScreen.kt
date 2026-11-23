@@ -287,7 +287,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Speech"), tr("Choose how words and passages are spoken."), onBackToSettings = onBack)
+            ScreenHeader(tr("Speech"), null, onBackToSettings = onBack)
             if (LocalWindowWidth.current.isExpanded) {
                 // The engine on the left with speech recognition under it, which keeps the two columns about as tall.
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {

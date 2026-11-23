@@ -60,7 +60,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Installing {0} into the app folder…" to "Instalando {0} en la carpeta de la app…",
     "unknown error" to "error desconocido",
     "Speech" to "Voz",
-    "Choose how words and passages are spoken." to "Elige cómo se pronuncian las palabras y los fragmentos.",
     // PhoneSpeech.kt
     "Playback" to "Reproducción",
     "Installed voices" to "Voces instaladas",

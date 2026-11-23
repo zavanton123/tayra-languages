@@ -60,7 +60,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Installing {0} into the app folder…" to "Εγκατάσταση του {0} στον φάκελο της εφαρμογής…",
     "unknown error" to "άγνωστο σφάλμα",
     "Speech" to "Εκφώνηση",
-    "Choose how words and passages are spoken." to "Επιλέξτε πώς εκφωνούνται οι λέξεις και τα αποσπάσματα.",
     // PhoneSpeech.kt
     "Playback" to "Αναπαραγωγή",
     "Installed voices" to "Εγκατεστημένες φωνές",
