@@ -70,7 +70,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Hear the prompt and type the answer" to "听提示，输入答案",
     "Questions: {0}" to "题目：{0}",
     "Vocabulary" to "词汇",
-    "Review and manage your vocabulary." to "查看和管理你的词汇。",
     "Export to Anki" to "导出到 Anki",
     "Exporting {0}" to "正在导出 {0}",
     "Sending {0}" to "正在发送 {0}",

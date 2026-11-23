@@ -70,7 +70,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Hear the prompt and type the answer" to "Ακούστε την ερώτηση και γράψτε την απάντηση",
     "Questions: {0}" to "Ερωτήσεις: {0}",
     "Vocabulary" to "Λεξιλόγιο",
-    "Review and manage your vocabulary." to "Δείτε και οργανώστε το λεξιλόγιό σας.",
     "Export to Anki" to "Εξαγωγή στο Anki",
     "Exporting {0}" to "Εξαγωγή: {0}",
     "Sending {0}" to "Αποστολή: {0}",

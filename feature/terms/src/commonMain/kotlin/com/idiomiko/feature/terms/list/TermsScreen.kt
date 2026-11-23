@@ -304,7 +304,7 @@ private fun ListMenu(state: TermsListUiState, actions: ListActions) {
 @Composable
 internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Unit, onNew: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
-        ScreenHeader(tr("Vocabulary"), tr("Review and manage your vocabulary.")) {
+        ScreenHeader(tr("Vocabulary"), null) {
             SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
             PrimaryButton(tr("Add term"), onClick = onNew, icon = Icons.Default.Add)
         }

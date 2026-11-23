@@ -70,7 +70,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Hear the prompt and type the answer" to "Posłuchaj i wpisz odpowiedź",
     "Questions: {0}" to "Pytania: {0}",
     "Vocabulary" to "Słownictwo",
-    "Review and manage your vocabulary." to "Przeglądaj i porządkuj swoje słownictwo.",
     "Export to Anki" to "Eksportuj do Anki",
     "Exporting {0}" to "Eksport: {0}",
     "Sending {0}" to "Wysyłanie: {0}",

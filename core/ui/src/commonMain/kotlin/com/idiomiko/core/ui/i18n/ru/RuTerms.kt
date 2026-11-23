@@ -70,7 +70,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Hear the prompt and type the answer" to "Послушайте и напечатайте ответ",
     "Questions: {0}" to "Вопросы: {0}",
     "Vocabulary" to "Слова",
-    "Review and manage your vocabulary." to "Просматривайте и упорядочивайте свои слова.",
     "Export to Anki" to "Экспортировать в Anki",
     "Exporting {0}" to "Экспорт: {0}",
     "Sending {0}" to "Отправка: {0}",

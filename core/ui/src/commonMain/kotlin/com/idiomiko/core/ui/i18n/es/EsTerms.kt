@@ -70,7 +70,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Hear the prompt and type the answer" to "Escucha y escribe la respuesta",
     "Questions: {0}" to "Preguntas: {0}",
     "Vocabulary" to "Vocabulario",
-    "Review and manage your vocabulary." to "Revisa y organiza tu vocabulario.",
     "Export to Anki" to "Exportar a Anki",
     "Exporting {0}" to "Exportando: {0}",
     "Sending {0}" to "Enviando: {0}",
