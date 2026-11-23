@@ -336,7 +336,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Show password" to "显示密码",
     "Already have an account?" to "已有账户？",
     "New to {0}?" to "初次使用 {0}？",
-    "Profile" to "个人资料",
     "Signed in" to "已登录",
     "Signed in with" to "登录方式",
     "Everything is synced" to "已全部同步",

@@ -336,7 +336,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Show password" to "Afficher le mot de passe",
     "Already have an account?" to "Vous avez déjà un compte ?",
     "New to {0}?" to "Première fois sur {0} ?",
-    "Profile" to "Profil",
     "Signed in" to "Connexion active",
     "Signed in with" to "Connexion via",
     "Everything is synced" to "Tout est synchronisé",

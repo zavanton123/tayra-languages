@@ -336,7 +336,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Show password" to "Показать пароль",
     "Already have an account?" to "Уже есть аккаунт?",
     "New to {0}?" to "Впервые в {0}?",
-    "Profile" to "Профиль",
     "Signed in" to "Вход выполнен",
     "Signed in with" to "Способ входа",
     "Everything is synced" to "Всё синхронизировано",

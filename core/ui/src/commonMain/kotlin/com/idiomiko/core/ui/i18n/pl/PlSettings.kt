@@ -336,7 +336,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Show password" to "Pokaż hasło",
     "Already have an account?" to "Masz już konto?",
     "New to {0}?" to "Pierwszy raz w {0}?",
-    "Profile" to "Profil",
     "Signed in" to "Zalogowano",
     "Signed in with" to "Logowanie przez",
     "Everything is synced" to "Wszystko jest zsynchronizowane",

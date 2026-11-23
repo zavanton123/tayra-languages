@@ -336,7 +336,6 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Show password" to "Mostrar senha",
     "Already have an account?" to "Já tem uma conta?",
     "New to {0}?" to "Primeira vez no {0}?",
-    "Profile" to "Perfil",
     "Signed in" to "Sessão iniciada",
     "Signed in with" to "Entrada com",
     "Everything is synced" to "Tudo sincronizado",

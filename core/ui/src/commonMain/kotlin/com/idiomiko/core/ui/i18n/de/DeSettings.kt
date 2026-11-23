@@ -336,7 +336,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Show password" to "Passwort anzeigen",
     "Already have an account?" to "Du hast schon ein Konto?",
     "New to {0}?" to "Neu bei {0}?",
-    "Profile" to "Profil",
     "Signed in" to "Angemeldet",
     "Signed in with" to "Angemeldet mit",
     "Everything is synced" to "Alles ist synchronisiert",

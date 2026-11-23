@@ -336,7 +336,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Show password" to "Mostrar contraseña",
     "Already have an account?" to "¿Ya tienes una cuenta?",
     "New to {0}?" to "¿Es tu primera vez en {0}?",
-    "Profile" to "Perfil",
     "Signed in" to "Sesión iniciada",
     "Signed in with" to "Sesión iniciada con",
     "Everything is synced" to "Todo está sincronizado",

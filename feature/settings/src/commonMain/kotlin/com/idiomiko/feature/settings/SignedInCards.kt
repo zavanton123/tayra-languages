@@ -99,10 +99,10 @@ internal fun SignedInCards(state: AccountUiState, actions: AccountViewModel?) {
 
 /** A card of the signed-in page: the card surface with the cards' padding, its header and [content] under it. */
 @Composable
-private fun AccountPart(title: String, icon: ImageVector, modifier: Modifier, content: @Composable ColumnScope.() -> Unit) {
+private fun AccountPart(title: String?, icon: ImageVector?, modifier: Modifier, content: @Composable ColumnScope.() -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
     Column(modifier.fillMaxWidth().cardSurface().padding(if (compact) AppSpacing.l else AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        CardHeader(title, icon = icon, size = if (compact) CardHeaderSize.Dense else CardHeaderSize.Card)
+        if (title != null) CardHeader(title, icon = icon, size = if (compact) CardHeaderSize.Dense else CardHeaderSize.Card)
         content()
     }
 }
@@ -115,7 +115,7 @@ private fun ProfileCard(state: AccountUiState, actions: AccountViewModel?, modif
     // The bar's avatar has the picture already fetched.
     val badge = LocalAccountBadge.current
     val name = account?.name ?: badge?.name
-    AccountPart(tr("Profile"), Icons.Default.Person, modifier.testTag("account-card")) {
+    AccountPart(null, null, modifier.testTag("account-card")) {
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             AccountAvatar(
                 name, email, badge?.picture, if (compact) AVATAR_COMPACT else AVATAR, Modifier.testTag("account-card-avatar"),

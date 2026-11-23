@@ -336,7 +336,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Show password" to "Εμφάνιση κωδικού",
     "Already have an account?" to "Έχετε ήδη λογαριασμό;",
     "New to {0}?" to "Πρώτη φορά στο {0};",
-    "Profile" to "Προφίλ",
     "Signed in" to "Σε σύνδεση",
     "Signed in with" to "Σύνδεση μέσω",
     "Everything is synced" to "Όλα είναι συγχρονισμένα",
