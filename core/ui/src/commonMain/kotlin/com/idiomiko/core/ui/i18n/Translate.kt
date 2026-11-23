@@ -169,3 +169,17 @@ fun formatCount(n: Int): String {
     val digits = if (n < 0) (-n.toLong()).toString() else n.toString()
     return (if (n < 0) "-" else "") + digits.reversed().chunked(3).joinToString(separator).reversed()
 }
+
+/**
+ * A share given in tenths of a percent, as the interface language writes it: "96.4%" in English,
+ * "96,4 %" in German; a whole one without its tenth, "40%".
+ */
+fun formatPercent(tenths: Int): String {
+    val point = when (UiLanguage.code) {
+        "en", "zh" -> "."
+        else -> ","
+    }
+    val whole = formatCount(tenths / 10)
+    val tenth = tenths % 10
+    return tr("{0}%", if (tenth == 0) whole else "$whole$point$tenth")
+}

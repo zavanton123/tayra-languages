@@ -176,6 +176,12 @@ object AppSizes {
     val tileLarge = 48.dp
     val tileXLarge = 56.dp
 
+    /** A ring chart of shares, such as the vocabulary's known and learning words: its width and its stroke, then on a phone. */
+    val ring = 120.dp
+    val ringStroke = 14.dp
+    val ringCompact = 84.dp
+    val ringStrokeCompact = 10.dp
+
     /** The width of the mascot on an empty state: on a phone, and on a wider window. */
     val emptyArtCompact = 180.dp
     val emptyArt = 240.dp
