@@ -1129,7 +1129,7 @@ private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
     ).mapNotNull { (label, actions, separator) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { Triple(label, it, separator) } }
     PopupCard {
         Column(Modifier.padding(AppSpacing.l).width(SHORTCUTS_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Text(tr("Keyboard shortcuts"), style = AppText.smallTitle)
+            Text(tr("Hotkeys"), style = AppText.smallTitle)
             rows.forEach { (label, keys, separator) ->
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     Row(Modifier.width(SHORTCUT_KEYS_WIDTH), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
@@ -1195,7 +1195,7 @@ private fun ContinuousControls(
 ) {
     val colors = MaterialTheme.colorScheme
     var showShortcuts by remember { mutableStateOf(false) }
-    val shortcutsDescription = tr("Keyboard shortcuts")
+    val shortcutsDescription = tr("Hotkeys")
     val playDescription = if (!playEnabled) playDisabledReason else if (playing) tr("Pause reading") else tr("Read the page")
     val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {

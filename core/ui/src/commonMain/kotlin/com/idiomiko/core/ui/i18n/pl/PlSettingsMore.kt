@@ -120,7 +120,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "Po przywróceniu można je ponownie pobrać lub skonfigurować.",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "Skróty klawiszowe",
+    "Hotkeys" to "Skróty",
     "Customise how you navigate and listen while reading." to "Dostosuj klawisze do poruszania się po tekście i słuchania.",
     "No shortcuts match “{0}”." to "Brak skrótów pasujących do „{0}”.",
     "Every keyboard shortcut goes back to its default key." to "Wszystkie skróty klawiszowe wrócą do domyślnych klawiszy.",

@@ -120,7 +120,7 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "Ces éléments peuvent être téléchargés ou configurés à nouveau après la restauration.",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "Raccourcis clavier",
+    "Hotkeys" to "Raccourcis",
     "Customise how you navigate and listen while reading." to "Personnalisez les touches pour naviguer et écouter pendant la lecture.",
     "No shortcuts match “{0}”." to "Aucun raccourci ne correspond à « {0} ».",
     "Every keyboard shortcut goes back to its default key." to "Chaque raccourci clavier revient à sa touche par défaut.",

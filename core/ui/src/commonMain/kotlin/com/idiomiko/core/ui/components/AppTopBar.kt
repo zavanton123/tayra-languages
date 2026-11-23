@@ -87,17 +87,17 @@ private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull
         // As the phone's More and the Settings index have them: the preferences, the offline resources, then the data.
         // Clearing the data is found in Settings, not offered from the menu.
         listOfNotNull(
-            MenuEntry("Settings", Route.Settings),
+            MenuEntry("General", Route.Settings),
             MenuEntry("Languages", Route.Languages),
             MenuEntry("Flashcards", Route.FlashcardSettings),
             MenuEntry("Vocabulary", Route.VocabularySettings),
-            MenuEntry("Keyboard shortcuts", Route.Shortcuts),
+            MenuEntry("Hotkeys", Route.Shortcuts),
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
             MenuEntry("Speech", Route.Speech),
             MenuEntry("Translation", Route.OfflineTranslation),
             MenuEntry("Backups", Route.Backups),
             MenuEntry("About", Route.About),
-            MenuEntry("Experimental features", Route.ExperimentalFeatures),
+            MenuEntry("Experiments", Route.ExperimentalFeatures),
         ),
     ),
     // Signing in and syncing, apart from the settings so it is found at once; signed in, the avatar at the end leads there instead.

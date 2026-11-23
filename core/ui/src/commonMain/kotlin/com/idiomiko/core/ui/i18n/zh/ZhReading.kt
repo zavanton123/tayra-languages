@@ -91,7 +91,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "More / less line height" to "增大 / 减小行高",
     "Text size / line height back to default" to "将文本大小 / 行高恢复默认",
     "Auto-pause on / off" to "开启 / 关闭自动暂停",
-    "Keyboard shortcuts" to "键盘快捷键",
+    "Hotkeys" to "快捷键",
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl（Mac 上为 ⌘）加方向键可在单词间移动并更改单词状态；K 和 U 需要先选中单词。",
     "Pause reading" to "暂停朗读",
     "Read the page" to "朗读本页",

@@ -120,7 +120,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "Diese Elemente lassen sich nach dem Wiederherstellen erneut herunterladen oder einrichten.",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "Tastenkürzel",
+    "Hotkeys" to "Tastenkürzel",
     "Customise how you navigate and listen while reading." to "Passe an, wie du beim Lesen navigierst und zuhörst.",
     "No shortcuts match “{0}”." to "Keine Tastenkürzel passen zu „{0}“.",
     "Every keyboard shortcut goes back to its default key." to "Alle Tastenkürzel werden auf ihre Standardtasten zurückgesetzt.",

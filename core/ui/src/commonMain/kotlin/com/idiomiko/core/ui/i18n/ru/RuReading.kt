@@ -91,7 +91,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "More / less line height" to "Межстрочный интервал больше / меньше",
     "Text size / line height back to default" to "Сбросить размер текста / межстрочный интервал",
     "Auto-pause on / off" to "Автопауза вкл. / выкл.",
-    "Keyboard shortcuts" to "Сочетания клавиш",
+    "Hotkeys" to "Горячие клавиши",
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl (⌘ на Mac) со стрелками переходит между словами и меняет статус слова; для K и U нужно выбрать слово.",
     "Pause reading" to "Приостановить чтение",
     "Read the page" to "Читать страницу вслух",

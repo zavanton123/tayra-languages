@@ -233,9 +233,9 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), Route.Languages, AppIcons.Globe, learning),
         SettingsPage(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings, AppIcons.Style, trPlural(settings.flashcardNewPerDay, "{0} new a day", "{0} new a day")),
         SettingsPage(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings, AppIcons.Abc),
-        if (compact) null else SettingsPage(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts, AppIcons.Keyboard),
+        if (compact) null else SettingsPage(tr("Hotkeys"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts, AppIcons.Keyboard),
         SettingsPage(tr("About"), tr("The version of the app and where it comes from."), Route.About, Icons.Default.Info),
-        SettingsPage(tr("Experimental features"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb),
+        SettingsPage(tr("Experiments"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb),
     )
     val resources = listOf(
         SettingsPage(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries, AppIcons.MenuBook),

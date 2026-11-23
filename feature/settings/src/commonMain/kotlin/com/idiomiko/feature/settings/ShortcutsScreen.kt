@@ -109,11 +109,11 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     val assign: (HotkeyAction, Hotkey?) -> Unit = { action, hotkey -> viewModel.update { it.copy(hotkeys = it.hotkeys + (action to hotkey)) } }
 
     Scaffold(
-        topBar = { AppTopBar(title = tr("Keyboard shortcuts"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
+        topBar = { AppTopBar(title = tr("Hotkeys"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Keyboard shortcuts"), tr("Customise how you navigate and listen while reading."), onBackToSettings = onBack) {
+            ScreenHeader(tr("Hotkeys"), tr("Customise how you navigate and listen while reading."), onBackToSettings = onBack) {
                 HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)

@@ -91,7 +91,7 @@ internal val elReading: Map<String, String> = mapOf(
     "More / less line height" to "Μεγαλύτερο / μικρότερο διάστιχο",
     "Text size / line height back to default" to "Επαναφορά μεγέθους κειμένου / διάστιχου",
     "Auto-pause on / off" to "Αυτόματη παύση ενεργή / ανενεργή",
-    "Keyboard shortcuts" to "Συντομεύσεις πληκτρολογίου",
+    "Hotkeys" to "Συντομεύσεις",
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Το Ctrl (⌘ σε Mac) με τα βέλη μετακινεί ανάμεσα στις λέξεις και αλλάζει την κατάσταση μιας λέξης· τα K και U χρειάζονται επιλεγμένη λέξη.",
     "Pause reading" to "Παύση ανάγνωσης",
     "Read the page" to "Ανάγνωση της σελίδας",

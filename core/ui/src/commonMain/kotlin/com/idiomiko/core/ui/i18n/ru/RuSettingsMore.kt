@@ -120,7 +120,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "После восстановления их можно снова скачать или настроить.",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "Сочетания клавиш",
+    "Hotkeys" to "Горячие клавиши",
     "Customise how you navigate and listen while reading." to "Настройте клавиши для перемещения по тексту и прослушивания.",
     "No shortcuts match “{0}”." to "Нет сочетаний клавиш по запросу «{0}».",
     "Every keyboard shortcut goes back to its default key." to "Все сочетания клавиш вернутся к значениям по умолчанию.",

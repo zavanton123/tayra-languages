@@ -120,7 +120,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "Estos elementos se pueden volver a descargar o configurar después de restaurar.",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "Atajos de teclado",
+    "Hotkeys" to "Atajos",
     "Customise how you navigate and listen while reading." to "Personaliza cómo te mueves y escuchas mientras lees.",
     "No shortcuts match “{0}”." to "Ningún atajo coincide con «{0}».",
     "Every keyboard shortcut goes back to its default key." to "Todos los atajos de teclado vuelven a su tecla predeterminada.",

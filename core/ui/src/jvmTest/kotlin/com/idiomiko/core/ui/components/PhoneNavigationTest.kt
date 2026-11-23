@@ -109,7 +109,7 @@ class PhoneNavigationTest {
         // Under Read, or a tab of their own, instead; Watch only with the videos on.
         for (page in listOf("more-News", "more-Find books", "more-Playlists")) onNodeWithTag(page).assertDoesNotExist()
         onNodeWithText("WATCH").assertDoesNotExist()
-        for (gone in listOf("Clear data", "Keyboard shortcuts", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
+        for (gone in listOf("Clear data", "Hotkeys", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
         // A row is lit across the sheet's whole width.
         assertEquals(onNodeWithTag("more-sheet").fetchSemanticsNode().boundsInRoot.width, onNodeWithTag("more-Statistics").fetchSemanticsNode().boundsInRoot.width, 1f)
@@ -136,7 +136,7 @@ class PhoneNavigationTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Statistics").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithTag("more-Videos").fetchSemanticsNodes().size)
         // Tests run from the sources, which count as a debug build.
-        onNodeWithTag("more-Experimental features").assertExists()
+        onNodeWithTag("more-Experiments").assertExists()
         videos = true
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Videos").fetchSemanticsNodes().isNotEmpty() }
     }

@@ -91,7 +91,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "More / less line height" to "Mais / menos altura da linha",
     "Text size / line height back to default" to "Restaurar tamanho do texto / altura da linha",
     "Auto-pause on / off" to "Pausa automática ativada / desativada",
-    "Keyboard shortcuts" to "Atalhos de teclado",
+    "Hotkeys" to "Atalhos",
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl (⌘ no Mac) com as setas passa de uma palavra para outra e muda o status da palavra; K e U precisam de uma palavra selecionada.",
     "Pause reading" to "Pausar leitura",
     "Read the page" to "Ler a página em voz alta",

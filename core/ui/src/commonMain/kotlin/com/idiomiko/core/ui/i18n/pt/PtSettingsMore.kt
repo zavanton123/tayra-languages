@@ -120,7 +120,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "Esses itens podem ser baixados ou configurados de novo após a restauração.",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "Atalhos de teclado",
+    "Hotkeys" to "Atalhos",
     "Customise how you navigate and listen while reading." to "Personalize como você navega e ouve durante a leitura.",
     "No shortcuts match “{0}”." to "Nenhum atalho encontrado para “{0}”.",
     "Every keyboard shortcut goes back to its default key." to "Todos os atalhos de teclado voltam às teclas padrão.",

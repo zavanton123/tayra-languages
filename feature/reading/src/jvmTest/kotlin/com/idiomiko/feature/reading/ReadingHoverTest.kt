@@ -932,7 +932,7 @@ class ReadingHoverTest {
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
-        for (gone in listOf("LANGUAGE TOOLS", "Translate sentence", "Translate page", "Next theme", "Keyboard shortcuts")) {
+        for (gone in listOf("LANGUAGE TOOLS", "Translate sentence", "Translate page", "Next theme", "Hotkeys")) {
             assertTrue(rule.onAllNodesWithText(gone).fetchSemanticsNodes().isEmpty(), "$gone is not in the pane")
         }
     }

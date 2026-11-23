@@ -91,7 +91,7 @@ internal val esReading: Map<String, String> = mapOf(
     "More / less line height" to "Más / menos interlineado",
     "Text size / line height back to default" to "Restablecer tamaño del texto / interlineado",
     "Auto-pause on / off" to "Pausa automática sí / no",
-    "Keyboard shortcuts" to "Atajos de teclado",
+    "Hotkeys" to "Atajos",
     "Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word." to "Ctrl (⌘ en Mac) con las flechas se mueve entre palabras y cambia el estado de una palabra; K y U necesitan una palabra seleccionada.",
     "Pause reading" to "Pausar la lectura",
     "Read the page" to "Leer la página en voz alta",

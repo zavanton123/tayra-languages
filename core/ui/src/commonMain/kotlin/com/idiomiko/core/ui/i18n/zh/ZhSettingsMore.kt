@@ -120,7 +120,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "恢复后可重新下载或配置这些内容。",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "键盘快捷键",
+    "Hotkeys" to "快捷键",
     "Customise how you navigate and listen while reading." to "自定义阅读时用于导航和收听的按键。",
     "No shortcuts match “{0}”." to "没有与“{0}”匹配的快捷键。",
     "Every keyboard shortcut goes back to its default key." to "所有键盘快捷键都将恢复为默认按键。",

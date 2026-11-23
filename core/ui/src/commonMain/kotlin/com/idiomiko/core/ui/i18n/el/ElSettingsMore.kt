@@ -120,7 +120,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "These items can be downloaded or configured again after restoring." to "Αυτά μπορούν να ληφθούν ή να ρυθμιστούν ξανά μετά την επαναφορά.",
 
     // ShortcutsScreen.kt
-    "Keyboard shortcuts" to "Συντομεύσεις πληκτρολογίου",
+    "Hotkeys" to "Συντομεύσεις",
     "Customise how you navigate and listen while reading." to "Προσαρμόστε τα πλήκτρα για πλοήγηση και ακρόαση κατά την ανάγνωση.",
     "No shortcuts match “{0}”." to "Καμία συντόμευση δεν ταιριάζει με «{0}».",
     "Every keyboard shortcut goes back to its default key." to "Όλες οι συντομεύσεις πληκτρολογίου επανέρχονται στα προεπιλεγμένα πλήκτρα.",

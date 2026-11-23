@@ -35,9 +35,9 @@ fun ExperimentalFeaturesScreen(
     videosAvailable: Boolean = videoSupported,
 ) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
-    Scaffold(topBar = { AppTopBar(title = tr("Experimental features"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) }) { padding ->
+    Scaffold(topBar = { AppTopBar(title = tr("Experiments"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) }) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxSize(), contentModifier = Modifier.padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            ScreenTitle(tr("Experimental features"))
+            ScreenTitle(tr("Experiments"))
             Text(tr("Turn on features that are still being built."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             ContentCard(tr("Features"), subtitle = null, icon = AppIcons.Lightbulb) {
                 SwitchSetting(
