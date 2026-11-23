@@ -201,6 +201,7 @@ class SettingsRepositoryImpl(
         val ctrlWords = !store.getBoolean(Keys.CTRL_WORD_HOTKEYS, false)
         val knownKey = !store.getBoolean(Keys.KNOWN_HOTKEY, false)
         val unknownKey = !store.getBoolean(Keys.UNKNOWN_HOTKEY, false)
+        val learningKey = !store.getBoolean(Keys.LEARNING_HOTKEY, false)
         return saved.mapValues { (action, key) ->
             val oldDefault = HotkeyAction.changedDefaults[action]
             val clashes = key != null && saved.any { (other, otherKey) -> other != action && otherKey == key }
@@ -209,6 +210,7 @@ class SettingsRepositoryImpl(
                 unknownKey && action in HotkeyAction.unknownKeyDefaults && stored[action] == "" -> action.default
                 ctrlWords && oldDefault != null && stored[action] != null && (key == oldDefault || clashes) -> action.default
                 knownKey && key != null && key == HotkeyAction.knownKeyChange[action] -> action.default
+                learningKey && key != null && key == HotkeyAction.learningKeyChange[action] -> action.default
                 else -> key
             }
         }
@@ -319,6 +321,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.CTRL_WORD_HOTKEYS, true)
         store.putBoolean(Keys.KNOWN_HOTKEY, true)
         store.putBoolean(Keys.UNKNOWN_HOTKEY, true)
+        store.putBoolean(Keys.LEARNING_HOTKEY, true)
     }
 
     private object Keys {
@@ -367,6 +370,7 @@ class SettingsRepositoryImpl(
         const val CTRL_WORD_HOTKEYS = "hotkeys_ctrl_word_applied_v2"
         const val KNOWN_HOTKEY = "hotkeys_known_on_k_applied"
         const val UNKNOWN_HOTKEY = "hotkeys_unknown_on_u_applied"
+        const val LEARNING_HOTKEY = "hotkeys_learning_on_l_applied"
         const val SPEECH_ENGINE = "speech_engine"
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"

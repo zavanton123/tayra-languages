@@ -73,6 +73,24 @@ class HotkeyDefaultsMigrationTest {
         assertEquals(Hotkey("W"), keys[HotkeyAction.LISTEN_PAUSE])
     }
 
+    /** Learning moved from 1 to L: a saved 1 moves to L once, and a key chosen by hand stays; after that, 1 can be chosen again. */
+    @Test
+    fun theLearningShortcutMovesFromOneToL() = runTest {
+        val store = MapSettings()
+        HotkeyAction.entries.forEach { store.putString(it.settingKey, it.default?.serialized ?: "") }
+        store.putString(HotkeyAction.STATUS_1.settingKey, "1")
+
+        val first = SettingsRepositoryImpl(store)
+        assertEquals(Hotkey("L"), first.current.hotkeys[HotkeyAction.STATUS_1])
+        first.update { it.copy(hotkeys = it.hotkeys + (HotkeyAction.STATUS_1 to Hotkey("1"))) }
+        assertEquals(Hotkey("1"), SettingsRepositoryImpl(store).current.hotkeys[HotkeyAction.STATUS_1])
+
+        val chosen = MapSettings()
+        HotkeyAction.entries.forEach { chosen.putString(it.settingKey, it.default?.serialized ?: "") }
+        chosen.putString(HotkeyAction.STATUS_1.settingKey, "J")
+        assertEquals(Hotkey("J"), SettingsRepositoryImpl(chosen).current.hotkeys[HotkeyAction.STATUS_1])
+    }
+
     /** Set to Unknown got U later: an unassigned saved one picks it up once, and clearing it afterwards sticks. */
     @Test
     fun setToUnknownGetsUOnce() = runTest {
@@ -90,5 +108,6 @@ class HotkeyDefaultsMigrationTest {
         val keys = SettingsRepositoryImpl(MapSettings()).current.hotkeys
         assertEquals(Hotkey("Space"), keys[HotkeyAction.LISTEN_PLAY_PAUSE])
         assertEquals(Hotkey("Q"), keys[HotkeyAction.LISTEN_AUTO_PAUSE])
+        assertEquals(Hotkey("L"), keys[HotkeyAction.STATUS_1])
     }
 }

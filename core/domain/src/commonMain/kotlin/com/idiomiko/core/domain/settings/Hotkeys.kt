@@ -82,7 +82,7 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
     LISTEN_PAUSE_ARROW(HotkeyCategory.LISTENING, "Play or pause reading aloud (third key)", Hotkey("Up")),
     LISTEN_AUTO_PAUSE(HotkeyCategory.LISTENING, "Turn auto-pause on or off", Hotkey("Q")),
 
-    STATUS_1(HotkeyCategory.STATUS, "Set status to 1", Hotkey("1")),
+    STATUS_1(HotkeyCategory.STATUS, "Set status to 1", Hotkey("L")),
     STATUS_2(HotkeyCategory.STATUS, "Set status to 2", Hotkey("2")),
     STATUS_3(HotkeyCategory.STATUS, "Set status to 3", Hotkey("3")),
     STATUS_4(HotkeyCategory.STATUS, "Set status to 4", Hotkey("4")),
@@ -169,6 +169,9 @@ enum class HotkeyAction(val category: HotkeyCategory, val description: String, v
 
         /** The Known status moved from W to K, which leaves W to pause and resume reading aloud. */
         val knownKeyChange: Map<HotkeyAction, Hotkey> = mapOf(STATUS_WELL_KNOWN to Hotkey("W"))
+
+        /** Learning (status 1) moved from 1 to L, beside K for Known and U for Unknown. */
+        val learningKeyChange: Map<HotkeyAction, Hotkey> = mapOf(STATUS_1 to Hotkey("1"))
 
         /**
          * The action for [pressed] among [hotkeys]. Keys shared by a word shortcut and a listening one

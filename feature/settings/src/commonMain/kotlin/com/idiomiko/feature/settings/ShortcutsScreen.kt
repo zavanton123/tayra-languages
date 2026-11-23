@@ -117,7 +117,7 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     ) { padding ->
         SettingsPane(SettingsSection.HOTKEYS, padding, onNavigate) { inner ->
             PageColumn(inner) {
-                ScreenHeader(tr("Hotkeys"), tr("Customise how you navigate and listen while reading."), onBackToSettings = onBack) {
+                ScreenHeader(tr("Hotkeys"), null, onBackToSettings = onBack) {
                     HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
                 }
                 SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)
