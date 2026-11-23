@@ -216,14 +216,11 @@ internal val elCommon: Map<String, String> = mapOf(
     "Choose what you learn, how translations appear, and the language of the app." to "Επιλέξτε τι μαθαίνετε, σε ποια γλώσσα εμφανίζονται οι μεταφράσεις και τη γλώσσα της εφαρμογής.",
     "Language setup" to "Ρύθμιση γλωσσών",
     "I'm learning" to "Μαθαίνω",
-    "Used for books, courses, vocabulary and flashcards." to "Για βιβλία, μαθήματα, λεξιλόγιο και κάρτες.",
     "Studying" to "Μελέτη",
     "Translations" to "Μεταφράσεις",
     "Show meanings in" to "Γλώσσα σημασιών",
-    "Used for translations, definitions and example sentences." to "Για μεταφράσεις, ορισμούς και παραδείγματα.",
     "App" to "Εφαρμογή",
     "Interface language" to "Γλώσσα διεπαφής",
-    "Used for menus, buttons and messages." to "Για μενού, κουμπιά και μηνύματα.",
     "Changes saved" to "Οι αλλαγές αποθηκεύτηκαν",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt

@@ -216,14 +216,11 @@ internal val deCommon: Map<String, String> = mapOf(
     "Choose what you learn, how translations appear, and the language of the app." to "Wähle, was du lernst, in welcher Sprache Übersetzungen erscheinen und die Sprache der App.",
     "Language setup" to "Spracheinstellungen",
     "I'm learning" to "Ich lerne",
-    "Used for books, courses, vocabulary and flashcards." to "Für Bücher, Kurse, Wortschatz und Karteikarten.",
     "Studying" to "Lernen",
     "Translations" to "Übersetzungen",
     "Show meanings in" to "Bedeutungen anzeigen auf",
-    "Used for translations, definitions and example sentences." to "Für Übersetzungen, Definitionen und Beispielsätze.",
     "App" to "App",
     "Interface language" to "Sprache der Oberfläche",
-    "Used for menus, buttons and messages." to "Für Menüs, Schaltflächen und Meldungen.",
     "Changes saved" to "Änderungen gespeichert",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt

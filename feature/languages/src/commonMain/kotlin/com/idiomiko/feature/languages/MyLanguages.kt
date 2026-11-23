@@ -40,8 +40,7 @@ internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, S
     Column(
         modifier.clip(AppShapes.card).background(colors.surface).border(AppBorders.hairline(colors.outlineVariant), AppShapes.card).padding(AppSpacing.l).testTag("my-languages"),
     ) {
-        Text(tr("My languages").uppercase(), style = AppText.overline.copy(color = colors.onSurfaceVariant))
-        Text(tr("Languages I'm learning"), Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m), style = AppText.sectionTitle)
+        Text(tr("Languages I'm learning"), Modifier.padding(bottom = AppSpacing.m), style = AppText.sectionTitle)
         val mine = learning.myChoices
         mine.forEachIndexed { index, choice ->
             Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {

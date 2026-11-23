@@ -239,7 +239,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Whisper small: quick, well enough for a phrase" to "Whisper small: rápido, suficiente para una frase",
     "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: mejor con el acento, unos segundos por frase",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Escucha tus respuestas cuando practicas la expresión oral. Funciona en este ordenador, sin red una vez descargado.",
-    "My languages" to "Mis idiomas",
     "Languages I'm learning" to "Idiomas que estoy aprendiendo",
     "Learning now" to "Aprendiendo ahora",
     "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "Quitar un idioma borra sus textos, palabras y progreso, y los diccionarios, voces y otras descargas guardadas para él.",

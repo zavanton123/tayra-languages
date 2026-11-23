@@ -239,7 +239,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Whisper small: quick, well enough for a phrase" to "Whisper small: быстрая, хватает для фразы",
     "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: лучше справляется с акцентом, несколько секунд на фразу",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Слушает ваши ответы, когда вы тренируете говорение. Работает на этом компьютере, после загрузки без сети.",
-    "My languages" to "Мои языки",
     "Languages I'm learning" to "Языки, которые я учу",
     "Learning now" to "Учу сейчас",
     "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "При удалении языка удаляются его тексты, слова и прогресс, а также загруженные для него словари, голоса и другие файлы.",

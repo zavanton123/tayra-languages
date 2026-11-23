@@ -216,14 +216,11 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Choose what you learn, how translations appear, and the language of the app." to "Выберите, что изучать, на какой язык переводить и язык приложения.",
     "Language setup" to "Настройка языков",
     "I'm learning" to "Изучаемый язык",
-    "Used for books, courses, vocabulary and flashcards." to "Для книг, курсов, слов и карточек.",
     "Studying" to "Изучение",
     "Translations" to "Переводы",
     "Show meanings in" to "Переводить на",
-    "Used for translations, definitions and example sentences." to "Для переводов, определений и примеров.",
     "App" to "Приложение",
     "Interface language" to "Язык интерфейса",
-    "Used for menus, buttons and messages." to "Для меню, кнопок и сообщений.",
     "Changes saved" to "Изменения сохранены",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt

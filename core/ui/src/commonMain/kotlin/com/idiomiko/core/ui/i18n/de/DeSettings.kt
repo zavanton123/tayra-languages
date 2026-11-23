@@ -239,7 +239,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Whisper small: quick, well enough for a phrase" to "Whisper small: schnell, gut genug für eine Wendung",
     "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: besser bei Akzent, einige Sekunden pro Wendung",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Hört deine Antworten, wenn du das Sprechen übst. Läuft auf diesem Computer, nach dem Herunterladen ohne Netzwerk.",
-    "My languages" to "Meine Sprachen",
     "Languages I'm learning" to "Sprachen, die ich lerne",
     "Learning now" to "Lerne ich gerade",
     "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "Beim Entfernen einer Sprache werden ihre Texte, Wörter und Fortschritte sowie die für sie geladenen Wörterbücher, Stimmen und anderen Downloads gelöscht.",

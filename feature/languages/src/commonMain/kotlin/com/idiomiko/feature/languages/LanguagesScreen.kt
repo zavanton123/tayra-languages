@@ -96,7 +96,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             // The room beside the settings sidebar, which may hold one column only.
             val wide = LocalWindowWidth.current.isExpanded
             PageColumn(inner) {
-                ScreenHeader(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), onBackToSettings = onBack) {
+                ScreenHeader(tr("Languages"), null, onBackToSettings = onBack) {
                     if (!compact) SavedNote(changes)
                 }
                 // The three tiles are cards of their own, straight on the page, as on a phone.
@@ -113,7 +113,6 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                                 flagName = { it.label },
                                 unavailable = { if (learning != null && it.id in learning.nativeIds) tr("Your native language") else null },
                             )
-                            TileDescription(tr("Used for books, courses, vocabulary and flashcards."))
                         }
                     }
                     val nativeTile: @Composable (Modifier) -> Unit = { m ->
@@ -127,7 +126,6 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                                 flagName = { it.name },
                                 unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
                             )
-                            TileDescription(tr("Used for translations, definitions and example sentences."))
                         }
                     }
                     val uiTile: @Composable (Modifier) -> Unit = { m ->
@@ -140,7 +138,6 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                                 modifier = Modifier.testTag("interface-language"),
                                 flagName = { LanguageCatalog.nativeOption(it.code).name },
                             )
-                            TileDescription(tr("Used for menus, buttons and messages."))
                         }
                     }
                     if (wide) {
@@ -210,11 +207,6 @@ private fun LanguageTile(
             content()
         }
     }
-}
-
-@Composable
-private fun TileDescription(text: String) {
-    Text(text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = AppSpacing.l))
 }
 
 /** A field showing the chosen language with its flag; it opens a menu of the [options], each with its flag. [name] is the name to show. */

@@ -216,14 +216,11 @@ internal val esCommon: Map<String, String> = mapOf(
     "Choose what you learn, how translations appear, and the language of the app." to "Elige qué aprendes, a qué idioma se traduce y el idioma de la app.",
     "Language setup" to "Configuración de idiomas",
     "I'm learning" to "Estoy aprendiendo",
-    "Used for books, courses, vocabulary and flashcards." to "Para libros, cursos, vocabulario y tarjetas.",
     "Studying" to "Estudio",
     "Translations" to "Traducciones",
     "Show meanings in" to "Mostrar significados en",
-    "Used for translations, definitions and example sentences." to "Para traducciones, definiciones y frases de ejemplo.",
     "App" to "Aplicación",
     "Interface language" to "Idioma de la interfaz",
-    "Used for menus, buttons and messages." to "Para menús, botones y mensajes.",
     "Changes saved" to "Cambios guardados",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt

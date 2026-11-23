@@ -239,7 +239,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Whisper small: quick, well enough for a phrase" to "Whisper small: γρήγορο, αρκετό για μια φράση",
     "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: καλύτερο με την προφορά, λίγα δευτερόλεπτα ανά φράση",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Ακούει τις απαντήσεις σου όταν εξασκείσαι στην ομιλία. Τρέχει σε αυτόν τον υπολογιστή, χωρίς δίκτυο μετά τη λήψη.",
-    "My languages" to "Οι γλώσσες μου",
     "Languages I'm learning" to "Γλώσσες που μαθαίνω",
     "Learning now" to "Τη μαθαίνω τώρα",
     "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "Η αφαίρεση μιας γλώσσας διαγράφει τα κείμενα, τις λέξεις και την πρόοδό της, καθώς και τα λεξικά, τις φωνές και τις άλλες λήψεις της.",

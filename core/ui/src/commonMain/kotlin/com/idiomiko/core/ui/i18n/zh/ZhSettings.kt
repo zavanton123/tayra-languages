@@ -239,7 +239,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Whisper small: quick, well enough for a phrase" to "Whisper small：速度快，识别短语足够",
     "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo：更能听懂口音，每个短语需几秒",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "在你练习口语时听取你的回答。它在这台电脑上运行，下载后无需网络。",
-    "My languages" to "我的语言",
     "Languages I'm learning" to "我在学的语言",
     "Learning now" to "正在学习",
     "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "移除一种语言会删除它的文本、单词和进度，以及为它下载的词典、语音和其他内容。",

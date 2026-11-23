@@ -216,14 +216,11 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Choose what you learn, how translations appear, and the language of the app." to "选择你要学的语言、翻译的显示语言以及应用的语言。",
     "Language setup" to "语言设置",
     "I'm learning" to "我在学",
-    "Used for books, courses, vocabulary and flashcards." to "用于书籍、课程、词汇和闪卡。",
     "Studying" to "学习",
     "Translations" to "翻译",
     "Show meanings in" to "释义语言",
-    "Used for translations, definitions and example sentences." to "用于翻译、释义和例句。",
     "App" to "应用",
     "Interface language" to "界面语言",
-    "Used for menus, buttons and messages." to "用于菜单、按钮和提示信息。",
     "Changes saved" to "更改已保存",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt

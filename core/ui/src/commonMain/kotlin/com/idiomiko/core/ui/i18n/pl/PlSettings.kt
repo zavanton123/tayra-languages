@@ -239,7 +239,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Whisper small: quick, well enough for a phrase" to "Whisper small: szybki, wystarczający dla frazy",
     "Whisper large turbo: better at an accent, a few seconds a phrase" to "Whisper large turbo: lepiej radzi sobie z akcentem, kilka sekund na frazę",
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Słucha Twoich odpowiedzi, gdy ćwiczysz mówienie. Działa na tym komputerze, po pobraniu bez sieci.",
-    "My languages" to "Moje języki",
     "Languages I'm learning" to "Języki, których się uczę",
     "Learning now" to "Uczę się teraz",
     "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "Usunięcie języka usuwa jego teksty, słowa i postępy oraz pobrane dla niego słowniki, głosy i inne pliki.",
