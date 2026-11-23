@@ -3,6 +3,7 @@ package com.idiomiko.core.ui.components
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsNotSelected
 import androidx.compose.ui.test.assertIsSelected
@@ -12,11 +13,14 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import androidx.compose.ui.unit.dp
+import com.idiomiko.core.ui.hotkeys.opensSettings
 import com.idiomiko.core.ui.navigation.Route
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertTrue
 
-/** The sidebar beside every settings page on a wide window. */
+/** The sidebar beside every settings page on a wide window, and the desktop's shortcut to the settings. */
 @OptIn(ExperimentalTestApi::class)
 class SettingsSidebarTest {
 
@@ -81,6 +85,20 @@ class SettingsSidebarTest {
         onNodeWithTag("settings-sidebar").assertExists()
         waitForIdle()
         assertEquals(WindowWidth.MEDIUM, widths.last())
+    }
+
+    @Test
+    fun commandCommaOnAMacAndControlCommaElsewhereOpenTheSettings() {
+        fun press(key: Key = Key.Comma, ctrl: Boolean = false, meta: Boolean = false, alt: Boolean = false, shift: Boolean = false, macOs: Boolean) =
+            opensSettings(key, ctrl, meta, alt, shift, macOs)
+        assertTrue(press(meta = true, macOs = true))
+        assertTrue(press(ctrl = true, macOs = false))
+        assertFalse(press(ctrl = true, macOs = true), "Control is not the Mac's way")
+        assertFalse(press(meta = true, macOs = false), "the Windows key is not the others'")
+        assertFalse(press(macOs = true))
+        assertFalse(press(meta = true, shift = true, macOs = true))
+        assertFalse(press(ctrl = true, alt = true, macOs = false))
+        assertFalse(press(key = Key.Period, meta = true, macOs = true))
     }
 
     @androidx.compose.runtime.Composable

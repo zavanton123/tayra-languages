@@ -10,6 +10,9 @@ import com.idiomiko.App
 import com.idiomiko.core.data.bridge.DesktopBrowserBridge
 import com.idiomiko.core.data.runtime.AppInstanceLock
 import com.idiomiko.core.domain.media.VideoOpenRequests
+import com.idiomiko.core.ui.hotkeys.opensSettings
+import com.idiomiko.core.ui.navigation.NavigationRequests
+import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.di.initKoin
 import io.github.vinceglb.filekit.FileKit
 import java.awt.Desktop
@@ -38,12 +41,16 @@ fun main() {
     // Lets the Idiomiko browser extension look words up while the app is open.
     GlobalContext.get().get<DesktopBrowserBridge>().start()
     setDockIcon()
+    val navigation = GlobalContext.get().get<NavigationRequests>()
+    setSettingsMenuItem(navigation)
     application {
         Window(
             onCloseRequest = ::exitApplication,
             title = "Idiomiko",
             icon = painterResource("window-icon.png"),
             state = WindowState(width = 1200.dp, height = 800.dp),
+            // ⌘, or Ctrl+, opens the settings from any page; a page that takes the press for a hotkey of its own keeps it.
+            onKeyEvent = { event -> event.opensSettings(isMacOs).also { if (it) navigation.open(Route.Settings) } },
         ) {
             LaunchedEffect(window) {
                 if (isMacOs) {
@@ -81,6 +88,15 @@ private fun setDockIcon() {
     }
 }
 
+
+/** Turns on the Settings… item of the macOS application menu, which leads to the settings as ⌘, does. */
+private fun setSettingsMenuItem(navigation: NavigationRequests) {
+    if (!isMacOs) return
+    runCatching {
+        if (!Desktop.isDesktopSupported() || !Desktop.getDesktop().isSupported(Desktop.Action.APP_PREFERENCES)) return
+        Desktop.getDesktop().setPreferencesHandler { navigation.open(Route.Settings) }
+    }
+}
 
 /**
  * The Dock labels a bare JVM "java" unless it is started with `-Xdock:name`. Gradle passes the

@@ -19,6 +19,7 @@ import com.idiomiko.core.domain.morphology.ChineseScriptTables
 import com.idiomiko.core.domain.service.CommandLineSetup
 import com.idiomiko.core.domain.service.CommandLineTool
 import com.idiomiko.core.ui.chinese.ResourceChineseScriptTables
+import com.idiomiko.core.ui.navigation.NavigationRequests
 import org.koin.core.context.startKoin
 import org.koin.core.module.Module
 import org.koin.core.module.dsl.viewModel
@@ -26,6 +27,7 @@ import org.koin.dsl.module
 
 private val appModule = module {
     single<ChineseScriptTables> { ResourceChineseScriptTables() }
+    single { NavigationRequests() }
     viewModel {
         AppBootstrapViewModel(
             get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull(), getOrNull(), getOrNull(), getOrNull(),

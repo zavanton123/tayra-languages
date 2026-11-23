@@ -62,6 +62,7 @@ import com.idiomiko.core.ui.components.LocalSyncEntry
 import com.idiomiko.core.ui.components.AccountBadge
 import com.idiomiko.core.ui.components.LocalAccountBadge
 import com.idiomiko.core.ui.components.LocalSettingsSwitch
+import com.idiomiko.core.ui.navigation.NavigationRequests
 import com.idiomiko.core.ui.components.LocalWebPictures
 import com.idiomiko.core.domain.web.WebPictures
 import com.idiomiko.core.ui.components.PullToSync
@@ -91,6 +92,9 @@ fun AppNavHost(openCourses: Int = 0) {
     // A video asked for from outside the app's screens, such as the browser extension's "Open in Idiomiko".
     val videoOpens = koinInject<VideoOpenRequests>()
     LaunchedEffect(videoOpens) { videoOpens.videos.collect { navController.navigate(Route.Watch(it)) } }
+    // A page asked for by the platform, such as the settings by the desktop's ⌘, or Ctrl+,.
+    val requests = koinInject<NavigationRequests>()
+    LaunchedEffect(requests) { requests.routes.collect { navController.navigate(it) { launchSingleTop = true } } }
     // A settings sidebar's section takes the place of the page it was chosen on, so Back leaves the settings at once.
     val settingsSwitch = remember<(Route) -> Unit>(navController) {
         { route ->
