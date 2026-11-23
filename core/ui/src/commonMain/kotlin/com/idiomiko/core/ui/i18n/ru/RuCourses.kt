@@ -373,7 +373,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Keep going" to "Продолжить",
     // CoursesJourney.kt, CoursesHero.kt, CourseTiles.kt and CoursesCatalogue.kt: the courses as a journey
     "Your journey" to "Ваш путь",
-    "you are here" to "вы здесь",
     "{1} of {0} courses" to "{1} из {0} курса|{1} из {0} курсов|{1} из {0} курсов",
     "{1} words to {2}" to "{1} слово до {2}|{1} слова до {2}|{1} слов до {2}",
     "Picked for your {1} words" to "Подобрано под {1} известное вам слово|Подобрано под {1} известных вам слова|Подобрано под {1} известных вам слов",

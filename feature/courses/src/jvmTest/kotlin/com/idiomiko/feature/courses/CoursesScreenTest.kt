@@ -237,8 +237,7 @@ class CoursesScreenTest {
         }
         val viewModel = viewModel(knowing = true)
         page(viewModel)
-        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("400 words known").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("600 words to B1").assertExists()
+        waitUntil(timeoutMillis = 10_000) { onAllNodesWithText("400 words known · 600 words to B1").fetchSemanticsNodes().isNotEmpty() }
         waitUntil(timeoutMillis = 30_000) { viewModel.state.value.knownShares.size == 100 }
         val shares = viewModel.state.value.knownShares
         assertTrue(shares.getValue("pt-mini-0100") > shares.getValue("pt-mini-1000"), "the first course is known best: $shares")
@@ -453,8 +452,8 @@ class CoursesScreenTest {
         waitFor("new-course")
         onNodeWithTag("new-course").performScrollTo().performClick()
         assertEquals(1, created)
-        // Without a word count the card names the level and the courses read in it.
+        // Without a word count the summary names the level and the courses read in it.
         onNodeWithText("0 of 3 courses").assertExists()
-        onNodeWithTag("journey-A1").assertTextEquals("A1", "A1 · Beginner", "0 of 3 · you are here", "0%")
+        onNodeWithTag("journey-A1").assertTextEquals("A1", "A1 · Beginner", "0 of 3")
     }
 }

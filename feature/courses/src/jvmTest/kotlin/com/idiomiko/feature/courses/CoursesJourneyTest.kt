@@ -19,6 +19,7 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.idiomiko.core.domain.courses.CourseLevel
 import com.idiomiko.core.domain.playlists.PlaylistSource
@@ -74,14 +75,18 @@ class CoursesJourneyTest {
     fun theDesktopPageShowsTheJourneyTheNextLessonAndTheReadersLevel() = runDesktopComposeUiTest(width = 1600, height = 1100) {
         val state = JourneyFixture.underWay()
         page(state)
-        // The level card: B1 by the words known, with the words still to go to B2.
-        onNodeWithTag("level-card").assertIsDisplayed()
-        onNodeWithText("1,540 words known").assertExists()
-        onNodeWithText("460 words to B2").assertExists()
-        // The journey: A1 and A2 ticked, the reader at B1.
+        // The pane's journey: B1 by the words known, with the words still to go to B2; A1 and A2 ticked.
+        onNodeWithTag("top-pane").assertIsDisplayed()
+        onNodeWithTag("level-summary").assertIsDisplayed()
+        onNodeWithText("1,540 words known · 460 words to B2").assertExists()
         onNodeWithText("3 of 3 courses").assertExists()
         onNodeWithText("7 of 7 courses").assertExists()
-        onNodeWithText("0 of 10 · you are here").assertExists()
+        onNodeWithTag("journey-B1").assertTextEquals("B1", "B1 · Intermediate", "0 of 10")
+        // The six levels in one line beside the reader's level, and the filters' controls in the pane.
+        val levels = CourseLevel.entries.map { onNodeWithTag("journey-${it.name}").fetchSemanticsNode().positionInRoot.y }
+        assertTrue(levels.all { it == levels.first() }, "one line of levels: $levels")
+        assertTrue(onNodeWithTag("level-summary").fetchSemanticsNode().positionInRoot.x < onNodeWithTag("journey-A1").fetchSemanticsNode().positionInRoot.x)
+        listOf("course-search", "new-course", "status-ALL", "tag-filter", "course-sort", "view-GRID").forEach { onNodeWithTag(it).assertIsDisplayed() }
         // The next lesson: the fourth of the course under way, begun, with its recording.
         onNodeWithText("KEEP GOING · LUGARES DO BRASIL").assertExists()
         onNodeWithText("Lesson 4: Uma excursão a Brasília", substring = true).assertExists()
@@ -112,7 +117,7 @@ class CoursesJourneyTest {
         onNodeWithText("START HERE · EM CASA E COM A FAMÍLIA").assertExists()
         onNodeWithText("Start lesson").assertExists()
         // No word known yet: the card names the level rather than counting none.
-        assertEquals(2, onAllNodesWithText("A1 · Beginner").fetchSemanticsNodes().size, "on the level card and the journey")
+        assertEquals(2, onAllNodesWithText("A1 · Beginner").fetchSemanticsNodes().size, "on the level summary and the journey")
         onNodeWithText("300 words to A2").assertExists()
         // Nothing is finished, so there is no line of finished levels; the first course is the one to start.
         assertTrue(!exists("finished-levels"))
@@ -127,8 +132,8 @@ class CoursesJourneyTest {
         onNodeWithTag("journey-B2").performClick()
         waitUntil(timeoutMillis = 5_000) { exists("course-pt-mini-2100") }
         onNodeWithTag("course-pt-mini-2100").assertIsDisplayed()
-        // A finished level unfolds the finished ones.
-        onNodeWithTag("journey-A1").performClick()
+        // A finished level unfolds the finished ones; the pane scrolls with the page, so it is scrolled back to first.
+        onNodeWithTag("journey-A1").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { exists("course-pt-mini-0100") }
         onNodeWithTag("course-pt-mini-0100").assertIsDisplayed()
         assertEquals(2, onAllNodesWithText("Hide").fetchSemanticsNodes().size, "the finished levels and B2 can be folded again")
@@ -185,7 +190,7 @@ class CoursesJourneyTest {
         page(JourneyFixture.underWay(), phone = true)
         onNodeWithTag("journey-strip").assertIsDisplayed()
         onNodeWithTag("filters-button").assertIsDisplayed()
-        assertTrue(!exists("sidebar") && !exists("hero-scene"), "no sidebar and no picture on a phone")
+        assertTrue(!exists("top-pane") && !exists("hero-scene"), "no pane and no picture on a phone")
         val order = listOf("journey-strip", "course-search", "next-lesson", "course-pt-mini-1100").map { onNodeWithTag(it).fetchSemanticsNode().positionInRoot.y }
         assertEquals(order.sorted(), order)
         // Two tiles side by side.
@@ -244,13 +249,64 @@ class CoursesJourneyTest {
         shot("desktop-list")
     }
 
-    /** A window too narrow for the sidebar shows the page in one column, the level as a strip and the filters behind a button. */
+    /** The pane's search, filters, order and view, and its way to a course of one's own. */
+    @Test
+    fun thePanesControlsSearchFilterSortAndMakeACourse() = runDesktopComposeUiTest(width = 1600, height = 1100) {
+        val searches = mutableListOf<String>()
+        val statuses = mutableListOf<Any?>()
+        val tags = mutableListOf<String>()
+        val sorts = mutableListOf<CoursesSort>()
+        val views = mutableListOf<CoursesView>()
+        var created = 0
+        page(
+            JourneyFixture.underWay(),
+            CoursesActions(
+                onSearch = { searches += it },
+                onStatus = { statuses += it },
+                onToggleTag = { tags += it },
+                onSort = { sorts += it },
+                onView = { views += it },
+                onNewCourse = { created++ },
+            ),
+        )
+        onNodeWithTag("course-search").performTextInput("casa")
+        onNodeWithTag("status-IN_PROGRESS").performClick()
+        onNodeWithTag("tag-chip-mine").performClick()
+        onNodeWithTag("course-sort").performClick()
+        onNodeWithText("Title").performClick()
+        onNodeWithTag("view-LIST").performClick()
+        onNodeWithTag("new-course").performClick()
+        assertEquals("casa", searches.first())
+        assertEquals(listOf<Any?>(com.idiomiko.core.domain.courses.LessonStatus.IN_PROGRESS), statuses)
+        assertEquals(listOf("mine"), tags)
+        assertEquals(listOf(CoursesSort.TITLE), sorts)
+        assertEquals(listOf(CoursesView.LIST), views)
+        assertEquals(1, created)
+    }
+
+    /** A window just wide enough for the pane puts the levels under the reader's level, in two even rows. */
+    @Test
+    fun aNarrowerWideWindowWrapsTheLevels() = runDesktopComposeUiTest(width = 1000, height = 1100) {
+        page(JourneyFixture.underWay())
+        onNodeWithTag("top-pane").assertIsDisplayed()
+        val summary = onNodeWithTag("level-summary").fetchSemanticsNode().positionInRoot
+        val places = CourseLevel.entries.associateWith { onNodeWithTag("journey-${it.name}").fetchSemanticsNode().positionInRoot }
+        assertTrue(places.values.all { it.y > summary.y }, "the levels under the summary")
+        assertEquals(places.getValue(CourseLevel.A1).y, places.getValue(CourseLevel.B1).y, "A1 to B1 in the first row")
+        assertEquals(places.getValue(CourseLevel.B2).y, places.getValue(CourseLevel.C2).y, "B2 to C2 in the second")
+        assertEquals(places.getValue(CourseLevel.A1).x, places.getValue(CourseLevel.B2).x, "the rows line up")
+        assertEquals(places.getValue(CourseLevel.B1).x, places.getValue(CourseLevel.C2).x, "in columns")
+        assertTrue(!exists("hero-scene"), "no room for the picture beside the lesson path")
+        shot("desktop-1000")
+    }
+
+    /** A window too narrow for the pane shows the page in one column, the level as a strip and the filters behind a button. */
     @Test
     fun aMiddleSizedWindowHasOneColumn() = runDesktopComposeUiTest(width = 820, height = 1000) {
         page(JourneyFixture.underWay())
         onNodeWithTag("journey-strip").assertIsDisplayed()
         onNodeWithTag("filters-button").assertIsDisplayed()
-        assertTrue(!exists("sidebar"))
+        assertTrue(!exists("top-pane"))
         val first = onNodeWithTag("course-pt-mini-1100").fetchSemanticsNode().positionInRoot
         val third = onNodeWithTag("course-pt-mini-1300").fetchSemanticsNode().positionInRoot
         assertEquals(first.y, third.y, "three tiles a row")

@@ -2,14 +2,14 @@ package com.idiomiko.feature.courses
 
 import androidx.compose.foundation.ScrollState
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Warning
@@ -185,9 +185,9 @@ internal fun rememberJourneyNav(): JourneyNav {
 }
 
 /**
- * A wide window's courses: a sidebar with the reader's level, the journey through the levels and the filters, beside
- * the next lesson and the courses of the reader's level, the finished levels folded and the others to open. Where
- * the window is not wide enough for both, the page is one column, as on a phone.
+ * A wide window's courses: under the title, a pane with the journey through the levels, the search and the filters,
+ * then the next lesson and the courses of the reader's level, the finished levels folded and the others to open.
+ * Where the window is not wide enough for the pane, the page is one column, as on a phone.
  */
 @Composable
 internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modifier: Modifier = Modifier) {
@@ -203,26 +203,19 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
         return
     }
     val nav = rememberJourneyNav()
-    Row(modifier.fillMaxSize()) {
+    Box(modifier.fillMaxSize(), contentAlignment = Alignment.TopCenter) {
         ScrollColumn(
-            // The same gap on either side of the cards, measured to the scrollbar on the right.
-            Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l + AppSizes.scrollbarRoom).fillMaxHeight().testTag("sidebar"),
-            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + AppSizes.scrollbarRoom, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
-            verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
-        ) {
-            LevelCard(state.journey)
-            JourneyCard(state.journey, onLevel = { nav.goTo(it, state.journey) })
-            FiltersCard(state, actions)
-        }
-        ScrollColumn(
-            Modifier.weight(1f).fillMaxHeight(),
+            Modifier.widthIn(max = AppSizes.pageWidth + AppSpacing.xxxl * 2 + AppSizes.scrollbarRoom).fillMaxSize(),
             state = nav.scroll,
-            contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + AppSizes.scrollbarRoom, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
+            // The same gap on either side of the page, measured to the scrollbar on the right.
+            contentModifier = Modifier.padding(start = AppSpacing.xxxl, end = AppSpacing.xxxl + AppSizes.scrollbarRoom, top = AppSpacing.xxl, bottom = AppSpacing.xxl).onPlaced { nav.content = it },
             verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
         ) {
             ScreenHeader(tr("Courses"), subtitle = null)
+            CoursesTopPane(state, actions, onLevel = { nav.goTo(it, state.journey) })
             BoxWithConstraints(Modifier.fillMaxWidth()) {
                 val columns = when {
+                    maxWidth >= FIVE_COLUMNS -> 5
                     maxWidth >= FOUR_COLUMNS -> 4
                     maxWidth >= THREE_COLUMNS -> 3
                     else -> 2
@@ -329,8 +322,7 @@ private fun Results(state: CoursesUiState, actions: CoursesActions, items: @Comp
     }
 }
 
-private val SIDEBAR = 300.dp
-
+private val FIVE_COLUMNS = 1400.dp
 private val FOUR_COLUMNS = 1000.dp
 private val THREE_COLUMNS = 720.dp
 

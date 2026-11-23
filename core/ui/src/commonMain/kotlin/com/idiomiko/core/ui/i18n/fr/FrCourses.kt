@@ -373,7 +373,6 @@ internal val frCourses: Map<String, String> = mapOf(
     "Keep going" to "Continuer",
     // CoursesJourney.kt, CoursesHero.kt, CourseTiles.kt and CoursesCatalogue.kt: the courses as a journey
     "Your journey" to "Votre parcours",
-    "you are here" to "vous êtes ici",
     "{1} of {0} courses" to "{1} cours sur {0}|{1} cours sur {0}",
     "{1} words to {2}" to "{1} mot avant le {2}|{1} mots avant le {2}",
     "Picked for your {1} words" to "Choisi pour votre {1} mot|Choisis pour vos {1} mots",

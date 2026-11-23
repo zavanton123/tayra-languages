@@ -42,7 +42,7 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: CoursesActions,
 private enum class CoursesSheet { FILTERS, TAGS }
 
 /**
- * The courses in one column, on a phone or a window too narrow for the sidebar: the level and the journey as a strip,
+ * The courses in one column, on a phone or a window too narrow for the pane above them: the level and the journey as a strip,
  * the search with the filters behind a button, the next lesson, and the courses by level.
  */
 @Composable
