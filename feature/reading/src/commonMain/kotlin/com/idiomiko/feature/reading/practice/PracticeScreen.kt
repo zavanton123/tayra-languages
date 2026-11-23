@@ -1,7 +1,5 @@
 package com.idiomiko.feature.reading.practice
 
-import kotlinx.coroutines.flow.StateFlow
-import com.idiomiko.core.ui.components.EdgeScrollbar
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -14,6 +12,7 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
@@ -28,6 +27,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -36,7 +36,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -50,6 +53,9 @@ import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.input.key.type
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
@@ -58,14 +64,26 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.practice.Exercise
+import com.idiomiko.core.domain.practice.ExerciseType
+import com.idiomiko.core.domain.practice.PracticeContext
+import com.idiomiko.core.domain.practice.PracticeResponse
+import com.idiomiko.core.domain.practice.PracticeSetup
+import com.idiomiko.core.domain.practice.PracticeSource
 import com.idiomiko.core.domain.service.SentenceAudio
+import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.ui.audio.rememberMicrophoneAccess
 import com.idiomiko.core.ui.audio.rememberSpeaker
+import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.AppDivider
+import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ButtonSize
+import com.idiomiko.core.ui.components.EdgeScrollbar
 import com.idiomiko.core.ui.components.EmptyState
+import com.idiomiko.core.ui.components.FreshViewModels
+import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -78,9 +96,12 @@ import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.SentenceCheck
 import com.idiomiko.core.ui.components.SpeakAnswer
 import com.idiomiko.core.ui.components.cardSurface
+import com.idiomiko.core.ui.components.label
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
+import com.idiomiko.core.ui.navigation.LocalStageCheck
 import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.state.CollectEvents
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppBorders
@@ -89,37 +110,17 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import com.idiomiko.feature.terms.form.TermFormEvent
+import com.idiomiko.feature.terms.form.TermFormKey
+import com.idiomiko.feature.terms.form.TermFormPanel
+import com.idiomiko.feature.terms.form.TermFormViewModel
+import com.idiomiko.feature.terms.list.PracticeSetupDialog
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import androidx.compose.foundation.layout.fillMaxHeight
-import com.idiomiko.core.ui.components.AppDialogSurface
-import com.idiomiko.core.ui.components.AppIconButton
-import com.idiomiko.core.ui.components.IconButtonStyle
-import com.idiomiko.core.domain.practice.PracticeSource
-import com.idiomiko.core.domain.practice.PracticeSetup
-import com.idiomiko.core.domain.practice.PracticeResponse
-import com.idiomiko.core.domain.practice.PracticeContext
-import com.idiomiko.core.domain.practice.ExerciseType
-import com.idiomiko.core.ui.components.label
-import androidx.compose.runtime.setValue
-import androidx.compose.runtime.mutableStateOf
-import com.idiomiko.core.ui.audio.rememberMicrophoneAccess
-import androidx.compose.material.icons.filled.Edit
-import com.idiomiko.core.ui.state.CollectEvents
-import com.idiomiko.feature.terms.form.TermFormPanel
-import com.idiomiko.feature.terms.form.TermFormEvent
-import com.idiomiko.feature.terms.form.TermFormKey
-import com.idiomiko.feature.terms.form.TermFormViewModel
-import com.idiomiko.feature.terms.list.PracticeSetupDialog
-import androidx.compose.ui.text.AnnotatedString
-import com.idiomiko.core.ui.components.FreshViewModels
-import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.ui.semantics.semantics
-import kotlinx.coroutines.launch
-import androidx.compose.runtime.rememberCoroutineScope
-import kotlinx.coroutines.flow.map
-import com.idiomiko.core.domain.settings.SettingsRepository
 
 /** Practising the words being learned on a page, right after reading it, or words chosen in the vocabulary. */
 @Composable
@@ -307,9 +308,11 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
             ) {
                 Column {
                     // On a phone the bar carries the title; in a dialog the title has the way out beside it.
-                    if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
+                    if (!compact) Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                         Text(tr("Practice"), Modifier.weight(1f), style = AppText.screenTitle)
                         if (onClose != null) {
+                            // The reader's stage is checked from the result, once the practice is done.
+                            if (state.finished) LocalStageCheck.current?.invoke(onClose)
                             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-practice-dialog"), style = IconButtonStyle.Tonal)
                         }
                     }

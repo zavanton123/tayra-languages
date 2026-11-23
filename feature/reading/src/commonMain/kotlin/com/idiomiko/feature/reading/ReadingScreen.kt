@@ -3,6 +3,7 @@ package com.idiomiko.feature.reading
 import com.idiomiko.core.domain.service.SetupKind
 import com.idiomiko.core.ui.components.LocalPreparing
 import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
+import com.idiomiko.core.ui.navigation.LocalStageCheck
 import com.idiomiko.core.domain.model.ReadingStage
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.runtime.getValue
@@ -261,7 +262,8 @@ fun ReadingScreen(
         }
     }
     // Beyond a phone the practice opens over the reader, which stays where it was.
-    val practise = rememberPracticeOpener(navigateFromReader)
+    val practise = rememberPracticeOpener(navigateFromReader, stageCheck(state, ReadingStage.QUIZ, viewModel::checkStage))
+    val practiseAll = rememberPracticeOpener(navigateFromReader)
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
         viewModel.onResumed()
         // Back in front (from the examples, say) the text takes the keys again, even with the term pane open, which the focus below leaves alone.
@@ -426,7 +428,7 @@ fun ReadingScreen(
                             state, viewModel, speaker, continuous,
                             onHome = leave,
                             onPractice = { setup -> practise(Route.Practice(bookId, state.pageNumber, setup = setup.encode())) },
-                            onPracticeAll = { setup -> practise(Route.Practice(bookId, page = null, setup = setup.encode())) },
+                            onPracticeAll = { setup -> practiseAll(Route.Practice(bookId, page = null, setup = setup.encode())) },
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
@@ -480,19 +482,21 @@ fun ReadingScreen(
     lessonVocabulary?.let { ids ->
         // Statuses changed in the list show in the text once it closes.
         val close = { lessonVocabulary = null; viewModel.refresh() }
-        AppDialogSurface(
-            onDismissRequest = close,
-            modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("lesson-vocabulary-dialog"),
-            maxWidth = Dp.Infinity,
-        ) {
-            TermsScreen(
-                termIds = ids,
-                onNavigate = { route -> close(); navigateFromReader(route) },
-                onBack = close,
-                dialog = true,
-                title = if (state.lesson != null) tr("Lesson vocabulary") else tr("Page vocabulary"),
-                subtitle = state.book?.title,
-            )
+        CompositionLocalProvider(LocalStageCheck provides stageCheck(state, ReadingStage.WORDS, viewModel::checkStage)) {
+            AppDialogSurface(
+                onDismissRequest = close,
+                modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("lesson-vocabulary-dialog"),
+                maxWidth = Dp.Infinity,
+            ) {
+                TermsScreen(
+                    termIds = ids,
+                    onNavigate = { route -> close(); navigateFromReader(route) },
+                    onBack = close,
+                    dialog = true,
+                    title = if (state.lesson != null) tr("Lesson vocabulary") else tr("Page vocabulary"),
+                    subtitle = state.book?.title,
+                )
+            }
         }
     }
     // A playlist made from the reader starts with the open text, and the reader stays.
@@ -773,7 +777,11 @@ private fun ReadingBody(
             PracticeSetupDialog(PracticeSource.Page(book.id, state.pageNumber), onStart = { setup -> quizSetup = false; onPractice(setup) }, onDismiss = { quizSetup = false })
         }
     }
-    if (flashcards) flashcardsDialog?.invoke { flashcards = false; viewModel.refresh() }
+    if (flashcards) {
+        CompositionLocalProvider(LocalStageCheck provides stageCheck(state, ReadingStage.FLASHCARDS, viewModel::checkStage)) {
+            flashcardsDialog?.invoke { flashcards = false; viewModel.refresh() }
+        }
+    }
     // The story's, also while the lesson's questions stand in for it: the reading stage's words to mark.
     val unknownWords = remember(state.storyPage, state.page) { BookStatsCalculator.calculate(state.storyItems).distinctUnknowns }
     val scrollState = rememberScrollState()
@@ -1098,6 +1106,13 @@ private val SETTINGS_DIALOG_WIDTH = 1040.dp
 /** The docked term pane, as wide as Word frequency's. */
 private val TERM_PANEL_WIDTH = 440.dp
 private const val EXAMPLES_DIALOG_HEIGHT = 0.92f
+/**
+ * The green check of the footer, for a dialog of [stage] over the text to show while that stage is the one being worked on:
+ * it closes the dialog and checks the stage. Null for a dialog of another stage.
+ */
+private fun stageCheck(state: ReadingUiState, stage: ReadingStage, onCheck: () -> Unit): (@Composable (onClose: () -> Unit) -> Unit)? =
+    if (state.stage != stage) null else { close -> CheckStageButton(stage, stage in state.stages, onCheck = { close(); onCheck() }) }
+
 private val HANDLE_WIDTH = 32.dp
 private val VOCABULARY_BAR_WIDTH = 360.dp
 private val SOURCE_DIVIDER_HEIGHT = 20.dp

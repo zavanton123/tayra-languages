@@ -25,7 +25,7 @@ class PracticeOpenerTest {
         IdiomikoTheme {
             ProvideWindowWidth {
                 CompositionLocalProvider(LocalPracticeDialog provides { route, onClose -> Button(onClick = onClose) { Text("Practising $route") } }) {
-                    val practise = rememberPracticeOpener { visited += it }
+                    val practise = rememberPracticeOpener(onNavigate = { visited += it })
                     Button(onClick = { practise(Route.Practice(1, 2)) }) { Text("Practise") }
                 }
             }

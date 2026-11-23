@@ -134,6 +134,7 @@ import com.idiomiko.core.ui.components.pushFill
 import com.idiomiko.core.ui.hotkeys.HotkeyMatcher
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
+import com.idiomiko.core.ui.navigation.LocalStageCheck
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.state.CollectEvents
 import com.idiomiko.core.ui.theme.AppAccents
@@ -216,8 +217,9 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     Scaffold(
         topBar = {
             if (onClose != null) {
-                Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     Text(tr("Flashcards"), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+                    LocalStageCheck.current?.invoke(onClose)
                     AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-flashcards-dialog"), style = IconButtonStyle.Tonal)
                 }
             } else {

@@ -1,102 +1,109 @@
 package com.idiomiko.feature.reading
 
-import androidx.compose.ui.test.onNodeWithContentDescription
-import androidx.compose.ui.test.assertIsEnabled
-import androidx.compose.ui.test.assertIsNotEnabled
-import androidx.compose.ui.test.performKeyInput
-import androidx.compose.ui.test.pressKey
-import androidx.compose.ui.input.key.Key
-import kotlin.test.assertNull
-import kotlin.test.assertFalse
-import androidx.compose.ui.test.performScrollTo
-import com.idiomiko.core.domain.settings.SettingsRepository
-import com.idiomiko.feature.reading.practice.PracticeDialog
-import com.idiomiko.core.ui.navigation.Route
-import com.idiomiko.feature.terms.list.PracticeSetupViewModel
-import com.idiomiko.core.domain.practice.PracticeSkill
-import com.idiomiko.core.domain.service.MemorySpeechAudioCache
-import com.idiomiko.core.domain.service.SentenceAudio
-import com.idiomiko.core.domain.service.LocalSpeech
-import org.koin.core.module.dsl.viewModel
-import org.koin.dsl.module
-import org.koin.core.context.stopKoin
-import org.koin.core.context.startKoin
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.input.key.Key
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsEnabled
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
-import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.pressKey
 import androidx.compose.ui.test.runDesktopComposeUiTest
-import com.russhwolf.settings.MapSettings
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
 import com.idiomiko.core.data.repository.BookRepositoryImpl
 import com.idiomiko.core.data.repository.LanguageRepositoryImpl
+import com.idiomiko.core.data.repository.PracticeExampleRepositoryImpl
+import com.idiomiko.core.data.repository.PracticeProgressRepositoryImpl
 import com.idiomiko.core.data.repository.TermRepositoryImpl
 import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.frequency.FrequencyList
+import com.idiomiko.core.domain.frequency.FrequencyLists
 import com.idiomiko.core.domain.model.BookDraft
 import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.model.Term
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.practice.Exercise
 import com.idiomiko.core.domain.practice.ExerciseType
+import com.idiomiko.core.domain.practice.Heard
+import com.idiomiko.core.domain.practice.PracticeBuilder
 import com.idiomiko.core.domain.practice.PracticeContext
+import com.idiomiko.core.domain.practice.PracticeExampleStore
+import com.idiomiko.core.domain.practice.PracticeMaterialLoader
 import com.idiomiko.core.domain.practice.PracticeResponse
 import com.idiomiko.core.domain.practice.PracticeSetup
-import com.idiomiko.core.domain.practice.PracticeBuilder
-import com.idiomiko.core.domain.practice.PracticeMaterialLoader
-import com.idiomiko.core.domain.practice.WordForms
-import com.idiomiko.core.domain.frequency.FrequencyLists
-import com.idiomiko.core.domain.frequency.FrequencyList
-import com.idiomiko.core.domain.practice.PracticeExampleStore
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.ui.test.assertTextEquals
-import com.idiomiko.core.data.repository.PracticeExampleRepositoryImpl
-import com.idiomiko.core.data.repository.PracticeProgressRepositoryImpl
+import com.idiomiko.core.domain.practice.PracticeSkill
 import com.idiomiko.core.domain.practice.PracticeSource
+import com.idiomiko.core.domain.practice.SpeechRecognition
+import com.idiomiko.core.domain.practice.WordForms
 import com.idiomiko.core.domain.service.BookService
 import com.idiomiko.core.domain.service.ExampleSearchQuery
 import com.idiomiko.core.domain.service.ExampleSearchResult
 import com.idiomiko.core.domain.service.ExampleSentence
 import com.idiomiko.core.domain.service.ExampleSentencesProvider
+import com.idiomiko.core.domain.service.LocalSpeech
+import com.idiomiko.core.domain.service.MemorySpeechAudioCache
 import com.idiomiko.core.domain.service.ReadingService
+import com.idiomiko.core.domain.service.SentenceAudio
 import com.idiomiko.core.domain.service.SentenceTranslator
 import com.idiomiko.core.domain.service.TermService
+import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.ProvideWindowWidth
+import com.idiomiko.core.ui.navigation.LocalStageCheck
+import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.feature.reading.practice.PracticeActions
 import com.idiomiko.feature.reading.practice.PracticeContent
+import com.idiomiko.feature.reading.practice.PracticeDialog
 import com.idiomiko.feature.reading.practice.PracticeResult
 import com.idiomiko.feature.reading.practice.PracticeUiState
 import com.idiomiko.feature.reading.practice.PracticeViewModel
-import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.CompletableDeferred
-import com.idiomiko.core.domain.practice.Heard
-import com.idiomiko.core.domain.practice.SpeechRecognition
+import com.idiomiko.feature.terms.list.PracticeSetupViewModel
+import com.russhwolf.settings.MapSettings
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertNull
 import kotlin.test.assertTrue
-import com.idiomiko.core.ui.components.AppDialogSurface
-import androidx.compose.ui.unit.Dp
-import androidx.compose.ui.Modifier
-import androidx.compose.foundation.layout.fillMaxHeight
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.runBlocking
+import org.koin.core.context.startKoin
+import org.koin.core.context.stopKoin
+import org.koin.core.module.dsl.viewModel
+import org.koin.dsl.module
 
 /** The practice of a page asks about its words in every way, checks the answers and leaves the words' statuses alone. */
 @OptIn(ExperimentalTestApi::class)
@@ -189,7 +196,7 @@ class PracticeScreenTest {
         return viewModel
     }
 
-    /** In a dialog over the page that started it, the practice's title has a close button beside it. */
+    /** In a dialog over the page that started it, the practice's title has a close button beside it, and the result the reader's stage check. */
     @Test
     fun aPracticeInADialogClosesFromBesideItsTitle() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         runBlocking {
@@ -204,20 +211,29 @@ class PracticeScreenTest {
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
         val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), PracticeSetup(types = setOf(ExerciseType.GAP), responses = setOf(PracticeResponse.CHOOSE)), PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, random = Random(7))
         var closed = 0
+        var finished by mutableStateOf(false)
         setContent {
             IdiomikoTheme {
                 ProvideWindowWidth {
                     val state by viewModel.state.collectAsState()
-                    AppDialogSurface(onDismissRequest = {}, modifier = Modifier.fillMaxHeight(), maxWidth = Dp.Infinity, color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                        if (!state.loading) PracticeContent(state, PracticeActions(onChoose = viewModel::choose, onNext = viewModel::next, onSpeak = {}), onClose = { closed++ })
+                    CompositionLocalProvider(LocalStageCheck provides { onClose -> Box(Modifier.size(60.dp).testTag("stage-check").clickable(onClick = onClose)) }) {
+                        AppDialogSurface(onDismissRequest = {}, modifier = Modifier.fillMaxHeight(), maxWidth = Dp.Infinity, color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                            if (!state.loading) PracticeContent(if (finished) state.copy(finished = true) else state, PracticeActions(onChoose = viewModel::choose, onNext = viewModel::next, onSpeak = {}), onClose = { closed++ })
+                        }
                     }
                 }
             }
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("PRACTICE_DIALOG_SCREENSHOT")?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
+        onNodeWithTag("stage-check").assertDoesNotExist()
         onNodeWithTag("close-practice-dialog").performClick()
         assertEquals(1, closed)
+        finished = true
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("stage-check").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("PRACTICE_RESULT_SCREENSHOT")?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
+        onNodeWithTag("stage-check").performClick()
+        assertEquals(2, closed)
     }
 
     /** The whole text's practice asks about the words being learned on every page, each in its own sentence. */

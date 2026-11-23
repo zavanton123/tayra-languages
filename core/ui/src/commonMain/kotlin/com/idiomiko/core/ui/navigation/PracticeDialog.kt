@@ -1,6 +1,7 @@
 package com.idiomiko.core.ui.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -15,17 +16,23 @@ import com.idiomiko.core.ui.components.LocalWindowWidth
  */
 val LocalPracticeDialog = staticCompositionLocalOf<(@Composable (route: Route, onClose: () -> Unit) -> Unit)?> { null }
 
+/**
+ * The reader's button that checks the stage a dialog over it belongs to, for the dialog to show beside its close button;
+ * given the dialog's own close, which it calls first. Null in a dialog opened for anything else.
+ */
+val LocalStageCheck = staticCompositionLocalOf<(@Composable (onClose: () -> Unit) -> Unit)?> { null }
+
 /** Shows the day's flashcards in a dialog over a text, calling back when it is closed; null where the app does not provide it. */
 val LocalFlashcardsDialog = staticCompositionLocalOf<(@Composable (onClose: () -> Unit) -> Unit)?> { null }
 
 /**
  * The way to start a practice from this page: on a window wider than a phone, in the
- * [LocalPracticeDialog] shown here over the page; on a phone, or without one, by [onNavigate].
+ * [LocalPracticeDialog] shown here over the page, with [check] as its [LocalStageCheck]; on a phone, or without one, by [onNavigate].
  */
 @Composable
-fun rememberPracticeOpener(onNavigate: (Route) -> Unit): (Route) -> Unit {
+fun rememberPracticeOpener(onNavigate: (Route) -> Unit, check: (@Composable (onClose: () -> Unit) -> Unit)? = null): (Route) -> Unit {
     val dialog = LocalPracticeDialog.current?.takeIf { !LocalWindowWidth.current.isCompact }
     var open by remember { mutableStateOf<Route?>(null) }
-    open?.let { route -> dialog?.invoke(route) { open = null } }
+    open?.let { route -> CompositionLocalProvider(LocalStageCheck provides check) { dialog?.invoke(route) { open = null } } }
     return { route -> if (dialog != null) open = route else onNavigate(route) }
 }

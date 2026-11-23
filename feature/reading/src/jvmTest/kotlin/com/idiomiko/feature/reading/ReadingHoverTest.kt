@@ -1,137 +1,139 @@
 package com.idiomiko.feature.reading
 
-import androidx.compose.ui.test.onLast
-import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.test.assertIsSelected
-import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
-import com.idiomiko.core.domain.model.ReadingStage
-import com.idiomiko.core.domain.settings.UserSettings
-import androidx.compose.ui.Modifier
+import androidx.compose.foundation.focusable
 import androidx.compose.foundation.layout.Box
-import kotlin.test.assertFalse
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.onKeyEvent
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.ui.test.hasTestTag
-import androidx.compose.ui.test.hasAnyAncestor
-import androidx.compose.ui.test.hasText
-import androidx.compose.ui.test.assertCountEquals
-import com.idiomiko.core.domain.courses.Course
-import com.idiomiko.core.domain.courses.CourseLevel
-import com.idiomiko.core.domain.courses.Lesson
-import com.idiomiko.core.domain.courses.LessonQuestion
-import com.idiomiko.core.domain.courses.LessonReading
-import com.russhwolf.settings.MapSettings
-import kotlin.test.assertTrue
-import org.koin.dsl.module
-import androidx.compose.ui.test.performTextInput
-import androidx.compose.ui.test.performTextClearance
-import androidx.compose.ui.test.assertIsFocused
-import com.idiomiko.core.domain.model.TermStatus
-import androidx.compose.ui.test.pressKey
-import androidx.compose.foundation.focusable
-import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.test.performKeyInput
-import androidx.compose.ui.input.key.Key
-import com.idiomiko.core.data.network.createHttpClient
-import com.idiomiko.core.data.network.KtorRecordingFetcher
-import com.idiomiko.core.domain.service.ExampleRecordings
-import androidx.compose.ui.test.performClick
-import androidx.compose.ui.test.performScrollTo
-import androidx.compose.ui.test.assertIsEnabled
-import androidx.compose.ui.test.assertIsNotEnabled
-import androidx.compose.ui.test.onNodeWithContentDescription
-import androidx.compose.ui.test.onAllNodesWithContentDescription
-import com.idiomiko.core.domain.service.MemorySpeechAudioCache
-import com.idiomiko.core.domain.service.SentenceAudio
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.semantics.SemanticsProperties
-import org.koin.core.context.stopKoin
-import org.koin.core.context.startKoin
-import org.junit.Rule
-import com.idiomiko.core.domain.settings.SettingsRepository
+import androidx.compose.ui.test.assertCountEquals
+import androidx.compose.ui.test.assertIsEnabled
+import androidx.compose.ui.test.assertIsFocused
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertIsSelected
+import androidx.compose.ui.test.assertTextContains
+import androidx.compose.ui.test.assertTextEquals
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.click
+import androidx.compose.ui.test.getBoundsInRoot
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onAllNodesWithContentDescription
+import androidx.compose.ui.test.onAllNodesWithTag
+import androidx.compose.ui.test.onAllNodesWithText
+import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performKeyInput
+import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.performScrollTo
+import androidx.compose.ui.test.performSemanticsAction
+import androidx.compose.ui.test.performTextClearance
+import androidx.compose.ui.test.performTextInput
+import androidx.compose.ui.test.performTouchInput
+import androidx.compose.ui.test.pressKey
+import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.height
-import androidx.compose.ui.text.TextLayoutResult
-import androidx.compose.ui.test.performMouseInput
-import kotlinx.coroutines.flow.first
-import androidx.compose.ui.test.onNodeWithText
-import androidx.compose.ui.test.onAllNodesWithText
-import androidx.compose.ui.test.junit4.createComposeRule
-import com.idiomiko.core.ui.theme.AppSpacing
-import androidx.compose.ui.test.isRoot
-import androidx.compose.ui.semantics.SemanticsActions
-import androidx.compose.ui.geometry.Offset
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
+import com.idiomiko.core.data.export.AnkiPackagerImpl
+import com.idiomiko.core.data.network.KtorRecordingFetcher
+import com.idiomiko.core.data.network.createHttpClient
 import com.idiomiko.core.data.repository.BookRepositoryImpl
 import com.idiomiko.core.data.repository.LanguageRepositoryImpl
 import com.idiomiko.core.data.repository.TermRepositoryImpl
 import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
-import com.idiomiko.core.domain.dictionary.DictionaryId
-import com.idiomiko.core.domain.dictionary.OfflineDictionary
-import com.idiomiko.core.domain.model.BookDraft
-import com.idiomiko.core.domain.model.Language
-import com.idiomiko.core.domain.service.BookService
-import com.idiomiko.core.domain.service.BookStatsService
-import com.idiomiko.core.domain.service.LocalSpeech
-import org.koin.core.module.dsl.viewModel
-import com.idiomiko.core.domain.service.DictionaryService
-import com.idiomiko.core.domain.service.ExampleSearchResult
-import com.idiomiko.core.domain.service.ExampleSentence
-import com.idiomiko.core.domain.service.ExampleSearchQuery
-import com.idiomiko.core.domain.service.ExampleSentencesProvider
-import com.idiomiko.core.domain.repository.DictionaryRepository
+import com.idiomiko.core.domain.courses.Course
+import com.idiomiko.core.domain.courses.CourseLevel
+import com.idiomiko.core.domain.courses.Lesson
+import com.idiomiko.core.domain.courses.LessonQuestion
+import com.idiomiko.core.domain.courses.LessonReading
 import com.idiomiko.core.domain.dictionary.DictionaryEntry
+import com.idiomiko.core.domain.dictionary.DictionaryId
 import com.idiomiko.core.domain.dictionary.DictionaryPack
 import com.idiomiko.core.domain.dictionary.DictionaryPackStore
-import com.idiomiko.feature.terms.form.TermFormViewModel
-import com.idiomiko.feature.terms.form.TermFormKey
-import com.idiomiko.feature.terms.examples.ExamplesSearchViewModel
-import androidx.compose.ui.test.click
-import androidx.compose.ui.test.assertTextContains
-import androidx.compose.ui.test.assertTextEquals
-import androidx.compose.ui.test.onNodeWithTag
-import androidx.compose.ui.test.onAllNodesWithTag
-import androidx.compose.ui.test.captureToImage
-import androidx.compose.ui.graphics.toAwtImage
-import com.idiomiko.core.ui.components.STATUS_BAR_TAG
-import kotlinx.coroutines.flow.MutableStateFlow
-import com.idiomiko.core.domain.service.SpeechVoice
-import com.idiomiko.core.domain.service.SpeechPackage
-import com.idiomiko.core.domain.service.SpeechEngine
+import com.idiomiko.core.domain.dictionary.OfflineDictionary
+import com.idiomiko.core.domain.export.AnkiAddResult
+import com.idiomiko.core.domain.export.AnkiCollection
+import com.idiomiko.core.domain.export.AnkiConnection
+import com.idiomiko.core.domain.export.AnkiExportService
+import com.idiomiko.core.domain.model.BookDraft
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.ReadingStage
+import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.repository.DictionaryRepository
+import com.idiomiko.core.domain.service.BookService
+import com.idiomiko.core.domain.service.BookStatsService
+import com.idiomiko.core.domain.service.DictionaryService
+import com.idiomiko.core.domain.service.ExampleRecordings
+import com.idiomiko.core.domain.service.ExampleSearchQuery
+import com.idiomiko.core.domain.service.ExampleSearchResult
+import com.idiomiko.core.domain.service.ExampleSentence
+import com.idiomiko.core.domain.service.ExampleSentencesProvider
+import com.idiomiko.core.domain.service.LocalSpeech
 import com.idiomiko.core.domain.service.LocalSpeechEngine
 import com.idiomiko.core.domain.service.LocalTranslation
+import com.idiomiko.core.domain.service.MemorySpeechAudioCache
 import com.idiomiko.core.domain.service.ReadingService
+import com.idiomiko.core.domain.service.SentenceAudio
 import com.idiomiko.core.domain.service.SentenceTranslator
+import com.idiomiko.core.domain.service.SpeechEngine
+import com.idiomiko.core.domain.service.SpeechPackage
+import com.idiomiko.core.domain.service.SpeechVoice
 import com.idiomiko.core.domain.service.TermPopupBuilder
 import com.idiomiko.core.domain.service.TermService
 import com.idiomiko.core.domain.service.TermTranslationProvider
 import com.idiomiko.core.domain.service.WordTranslationService
+import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.domain.settings.UserSettings
+import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.STATUS_BAR_TAG
+import com.idiomiko.core.ui.components.WindowWidth
+import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
+import com.idiomiko.core.ui.navigation.LocalStageCheck
+import com.idiomiko.core.ui.theme.AppSpacing
+import com.idiomiko.feature.terms.examples.ExamplesSearchViewModel
+import com.idiomiko.feature.terms.form.TermFormKey
+import com.idiomiko.feature.terms.form.TermFormViewModel
+import com.russhwolf.settings.MapSettings
+import java.io.File
+import kotlin.test.Test
+import kotlin.test.assertEquals
+import kotlin.test.assertFalse
+import kotlin.test.assertNull
+import kotlin.test.assertTrue
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.setMain
 import kotlinx.coroutines.withTimeout
 import org.junit.After
-import java.io.File
-import kotlin.test.Test
-import androidx.compose.ui.test.performTouchInput
-import kotlin.test.assertEquals
-import kotlin.test.assertNull
-import androidx.compose.ui.test.getBoundsInRoot
-import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.setValue
-import com.idiomiko.core.ui.components.LocalWindowWidth
-import com.idiomiko.core.ui.components.WindowWidth
-import com.idiomiko.core.data.export.AnkiPackagerImpl
-import com.idiomiko.core.domain.export.AnkiExportService
-import com.idiomiko.core.domain.export.AnkiAddResult
-import com.idiomiko.core.domain.export.AnkiCollection
-import com.idiomiko.core.domain.export.AnkiConnection
+import org.junit.Rule
+import org.koin.core.context.startKoin
+import org.koin.core.context.stopKoin
+import org.koin.core.module.dsl.viewModel
+import org.koin.dsl.module
 
 class ReadingHoverTest {
 
@@ -618,7 +620,7 @@ class ReadingHoverTest {
         val visited = mutableListOf<com.idiomiko.core.ui.navigation.Route>()
         var closeCards: (() -> Unit)? = null
         rule.setContent {
-            CompositionLocalProvider(LocalFlashcardsDialog provides { onClose -> closeCards = onClose; Box(Modifier.testTag("day-flashcards")) }) {
+            CompositionLocalProvider(LocalFlashcardsDialog provides { onClose -> closeCards = onClose; Box(Modifier.testTag("day-flashcards")) { LocalStageCheck.current?.invoke(onClose) } }) {
                 ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm)
             }
         }
@@ -629,6 +631,13 @@ class ReadingHoverTest {
         assertTrue(visited.isEmpty(), "the text is not left")
         closeCards!!()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("day-flashcards").fetchSemanticsNodes().isEmpty() }
+        // The green check in the dialog closes it and checks the stage, as the footer's does.
+        rule.onNodeWithTag("stage-flashcards").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("day-flashcards").fetchSemanticsNodes().isNotEmpty() }
+        // The stand-in dialog is drawn in the page, under its footer, so the button is pressed through its semantics.
+        rule.onNode(hasTestTag("check-stage") and hasAnyAncestor(hasTestTag("day-flashcards"))).performSemanticsAction(SemanticsActions.OnClick)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("day-flashcards").fetchSemanticsNodes().isEmpty() }
+        rule.waitUntil(5_000) { ReadingStage.FLASHCARDS in vm.state.value.stages }
     }
 
     /** The vocabulary list a lesson opens over the reader. */
@@ -719,6 +728,7 @@ class ReadingHoverTest {
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
         assertTrue(visited.none { it is com.idiomiko.core.ui.navigation.Route.Terms }, "the reader stays under the list")
+        rule.onNode(hasTestTag("check-stage") and hasAnyAncestor(hasTestTag("lesson-vocabulary-dialog"))).assertExists()
         rule.onNodeWithTag("close-terms-dialog").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-vocabulary-dialog").fetchSemanticsNodes().isEmpty() }
 

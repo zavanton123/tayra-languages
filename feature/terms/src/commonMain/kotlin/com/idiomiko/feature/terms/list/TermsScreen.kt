@@ -1,21 +1,5 @@
 package com.idiomiko.feature.terms.list
 
-import androidx.compose.foundation.layout.heightIn
-import com.idiomiko.feature.terms.form.TermFormKey
-import com.idiomiko.feature.terms.form.TERM_DIALOG_WIDTH
-import com.idiomiko.feature.terms.form.TermEditScreen
-import com.idiomiko.core.ui.components.AppDialogSurface
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.safeDrawing
-import com.idiomiko.core.ui.i18n.formatCount
-import com.idiomiko.core.ui.components.ActiveFilterSummary
-import com.idiomiko.core.ui.components.chosenFor
-import com.idiomiko.core.ui.components.shownName
-import com.idiomiko.core.ui.components.shownAbbreviation
-import com.idiomiko.core.ui.components.shownStatuses
-import com.idiomiko.core.ui.components.learningLevels
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -30,12 +14,17 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.windowInsetsPadding
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -62,13 +51,16 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.model.Term
 import com.idiomiko.core.domain.model.TermStatus
+import com.idiomiko.core.domain.practice.PracticeSource
 import com.idiomiko.core.domain.repository.TermListSort
 import com.idiomiko.core.domain.repository.TermSortField
 import com.idiomiko.core.domain.service.SentenceAudio
 import com.idiomiko.core.ui.audio.SpeakButton
 import com.idiomiko.core.ui.audio.Speaker
 import com.idiomiko.core.ui.audio.rememberSpeaker
+import com.idiomiko.core.ui.components.ActiveFilterSummary
 import com.idiomiko.core.ui.components.AppCheckbox
+import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
@@ -98,11 +90,19 @@ import com.idiomiko.core.ui.components.TableHeader
 import com.idiomiko.core.ui.components.TableHeaderCell
 import com.idiomiko.core.ui.components.ToggleButton
 import com.idiomiko.core.ui.components.cardSurface
+import com.idiomiko.core.ui.components.chosenFor
 import com.idiomiko.core.ui.components.itemMotion
+import com.idiomiko.core.ui.components.learningLevels
+import com.idiomiko.core.ui.components.shownAbbreviation
+import com.idiomiko.core.ui.components.shownName
+import com.idiomiko.core.ui.components.shownStatuses
 import com.idiomiko.core.ui.files.saveBinaryFile
+import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
+import com.idiomiko.core.ui.navigation.LocalStageCheck
 import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.navigation.rememberPracticeOpener
 import com.idiomiko.core.ui.state.CollectEvents
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
@@ -112,6 +112,10 @@ import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import com.idiomiko.core.ui.theme.IdiomikoTheme
+import com.idiomiko.feature.terms.anki.ankiLabel
+import com.idiomiko.feature.terms.form.TERM_DIALOG_WIDTH
+import com.idiomiko.feature.terms.form.TermEditScreen
+import com.idiomiko.feature.terms.form.TermFormKey
 import kotlin.time.Clock
 import kotlin.time.Instant
 import kotlinx.coroutines.launch
@@ -122,9 +126,6 @@ import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import com.idiomiko.core.ui.navigation.rememberPracticeOpener
-import com.idiomiko.feature.terms.anki.ankiLabel
-import com.idiomiko.core.domain.practice.PracticeSource
 
 internal enum class TermSortOption(val sort: TermListSort) {
     RECENT(TermListSort(TermSortField.CREATED, ascending = false)),
@@ -311,12 +312,13 @@ internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Un
     }
 }
 
-/** The header of the list shown over another screen: its own title, the Anki export of what it lists, and a way to close. */
+/** The header of the list shown over another screen: its own title, the Anki export of what it lists, the reader's stage check, and a way to close. */
 @Composable
 private fun DialogHeader(title: String, subtitle: String?, exporting: String?, sending: Boolean, onExport: () -> Unit, onClose: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(title, subtitle) {
             SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
+            LocalStageCheck.current?.invoke(onClose)
             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-terms-dialog"), style = IconButtonStyle.Tonal)
         }
     }
