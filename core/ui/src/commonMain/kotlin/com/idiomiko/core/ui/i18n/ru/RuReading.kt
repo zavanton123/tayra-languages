@@ -61,7 +61,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Furigana or pinyin above the words" to "Фуригана или пиньинь над словами",
     "Speech engine" to "Синтезатор речи",
     "System voices" to "Системные голоса",
-    "Piper (offline, downloadable voices)" to "Piper (офлайн, голоса для скачивания)",
+    "Piper (offline, medium quality)" to "Piper (офлайн, среднее качество)",
     "Kokoro (offline, high quality)" to "Kokoro (офлайн, высокое качество)",
     "Voice" to "Голос",
     "{0} voice" to "Голос ({0})",

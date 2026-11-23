@@ -59,7 +59,6 @@ import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.SliderSetting
 import com.idiomiko.core.ui.components.StatusPill
 import com.idiomiko.core.ui.components.StatusTints
-import com.idiomiko.core.ui.components.Tag
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
@@ -314,7 +313,6 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
 /** The engine choice, what it is, whether it works, and a way to reinstall it. */
 @Composable
 private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, voiceMissing: Boolean, modifier: Modifier = Modifier) {
-    val compact = LocalWindowWidth.current.isCompact
     ContentCard(tr("Speech engine"), tr("Reader playback and term pronunciation use this engine."), icon = AppIcons.Memory, modifier = modifier) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Dropdown(
@@ -325,7 +323,6 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
                 optionLabel = { tr(it.label) },
                 modifier = Modifier.weight(1f),
             )
-            if (!compact) EngineTags(settings.speechEngine)
         }
         Spacer(Modifier.height(AppSpacing.m))
         Text(
@@ -334,15 +331,6 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
         if (engine != null) EngineStatus(viewModel, engine, voiceMissing)
-    }
-}
-
-@Composable
-private fun EngineTags(engine: SpeechEngine) {
-    when (engine) {
-        SpeechEngine.SYSTEM -> Tag(tr("Built in"), MaterialTheme.colorScheme.primary)
-        SpeechEngine.PIPER -> { Tag(tr("Offline"), StatusTints.ok); Tag(tr("Many languages"), MaterialTheme.colorScheme.primary) }
-        SpeechEngine.KOKORO -> { Tag(tr("Offline"), StatusTints.ok); Tag(tr("High quality"), MaterialTheme.colorScheme.primary) }
     }
 }
 

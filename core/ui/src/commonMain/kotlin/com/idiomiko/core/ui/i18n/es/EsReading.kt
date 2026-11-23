@@ -61,7 +61,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Furigana or pinyin above the words" to "Furigana o pinyin encima de las palabras",
     "Speech engine" to "Motor de voz",
     "System voices" to "Voces del sistema",
-    "Piper (offline, downloadable voices)" to "Piper (sin conexión, voces descargables)",
+    "Piper (offline, medium quality)" to "Piper (sin conexión, calidad media)",
     "Kokoro (offline, high quality)" to "Kokoro (sin conexión, alta calidad)",
     "Voice" to "Voz",
     "{0} voice" to "Voz ({0})",

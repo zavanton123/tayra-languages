@@ -5,7 +5,7 @@ import kotlinx.coroutines.flow.StateFlow
 /** Which engine reads text aloud. */
 enum class SpeechEngine(val label: String) {
     SYSTEM("System voices"),
-    PIPER("Piper (offline, downloadable voices)"),
+    PIPER("Piper (offline, medium quality)"),
     KOKORO("Kokoro (offline, high quality)"),
 }
 

@@ -61,7 +61,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Furigana or pinyin above the words" to "Furigana ή pinyin πάνω από τις λέξεις",
     "Speech engine" to "Μηχανή εκφώνησης",
     "System voices" to "Φωνές συστήματος",
-    "Piper (offline, downloadable voices)" to "Piper (εκτός σύνδεσης, φωνές για λήψη)",
+    "Piper (offline, medium quality)" to "Piper (εκτός σύνδεσης, μέτρια ποιότητα)",
     "Kokoro (offline, high quality)" to "Kokoro (εκτός σύνδεσης, υψηλή ποιότητα)",
     "Voice" to "Φωνή",
     "{0} voice" to "Φωνή ({0})",

@@ -61,7 +61,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Furigana or pinyin above the words" to "在单词上方显示假名注音或拼音",
     "Speech engine" to "语音引擎",
     "System voices" to "系统语音",
-    "Piper (offline, downloadable voices)" to "Piper（离线，可下载语音）",
+    "Piper (offline, medium quality)" to "Piper（离线，中等质量）",
     "Kokoro (offline, high quality)" to "Kokoro（离线，高音质）",
     "Voice" to "语音",
     "{0} voice" to "{0}语音",

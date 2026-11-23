@@ -42,7 +42,6 @@ import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.SelectButton
 import com.idiomiko.core.ui.components.SliderSetting
 import com.idiomiko.core.ui.components.StatusTints
-import com.idiomiko.core.ui.components.Tag
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -75,14 +74,6 @@ internal fun PhoneSpeechScreen(
             ContentCard(tr("Speech engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val chosen = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM
                 SelectButton(engine?.displayName ?: tr(chosen.label), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-speech-engine"))
-                Spacer(Modifier.height(AppSpacing.m))
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    when (chosen) {
-                        SpeechEngine.SYSTEM -> Tag(tr("Built in"), colors.primary)
-                        SpeechEngine.PIPER -> { Tag(tr("Offline"), StatusTints.ok); Tag(tr("Many languages"), colors.primary) }
-                        SpeechEngine.KOKORO -> { Tag(tr("Offline"), StatusTints.ok); Tag(tr("High quality"), colors.primary) }
-                    }
-                }
                 if (engine != null) {
                     Spacer(Modifier.height(AppSpacing.m))
                     PhoneEngineStatus(viewModel, engine, voiceMissing = learning != null && voices[learning.code].isNullOrEmpty())
