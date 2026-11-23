@@ -29,7 +29,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.lerp
 import androidx.compose.ui.layout.onPlaced
@@ -59,12 +58,12 @@ import com.idiomiko.core.ui.theme.AppText
 import com.idiomiko.core.ui.theme.tint
 import kotlin.math.roundToInt
 
-/** The level as a badge, turned a little: its code over its name, in the level's colour. */
+/** The level as a badge: its code over its name, in the level's colour. */
 @Composable
 internal fun LevelBadge(level: CourseLevel, size: Dp, modifier: Modifier = Modifier) {
     val small = size < BADGE
     Box(
-        modifier.rotate(BADGE_TILT).size(size).clip(if (small) AppShapes.card else AppShapes.large)
+        modifier.size(size).clip(if (small) AppShapes.card else AppShapes.large)
             .background(Brush.linearGradient(listOf(level.tint, lerp(level.tint, AppAccents.ink, BADGE_SHADE))))
             .padding(AppSpacing.xs).testTag("level-badge"),
         contentAlignment = Alignment.Center,
@@ -202,7 +201,6 @@ internal fun CreateCourseLink(onNewCourse: () -> Unit) =
 
 private val BADGE = 84.dp
 private val BADGE_SMALL = 52.dp
-private const val BADGE_TILT = -4f
 private const val BADGE_SHADE = 0.22f
 private val LEVEL_CHIP = 32.dp
 
