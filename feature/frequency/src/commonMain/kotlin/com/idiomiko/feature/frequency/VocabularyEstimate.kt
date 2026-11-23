@@ -105,7 +105,8 @@ internal fun EstimateCard(list: FrequencyList, level: Int, onPick: (Int) -> Unit
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val choices = remember(list) { VocabularyLevelService.choices(list.words.size) }
-    val index = choices.indexOf(level).coerceAtLeast(0)
+    // A level of the courses can fall between two stops; the slider then rests on the one below.
+    val index = choices.indexOfLast { it <= level }.coerceAtLeast(0)
     val shape = AppShapes.large
     Column(modifier.clip(shape).border(AppBorders.hairline(), shape).padding(if (compact) AppSpacing.l else AppSpacing.xxl)) {
         Text(tr("Estimated vocabulary"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
