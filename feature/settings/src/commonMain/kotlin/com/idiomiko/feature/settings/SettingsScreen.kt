@@ -53,7 +53,6 @@ import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.service.AppUpdateService
-import com.idiomiko.core.domain.bridge.BrowserExtensionBridge
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.components.MarkedText
@@ -100,8 +99,6 @@ class SettingsViewModel(
     private val settings: SettingsRepository,
     /** The desktop app's updates; other platforms have none. */
     val updates: AppUpdateService? = null,
-    /** The desktop app's connection to the browser extension; other platforms have none. */
-    val browserBridge: BrowserExtensionBridge? = null,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
@@ -145,7 +142,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                         AppearanceCard(settings, viewModel)
                         ReadingCard(settings, viewModel)
                         BehaviourCard(settings, viewModel)
-                        viewModel.browserBridge?.let { BrowserExtensionCard(it) }
                         viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -159,7 +155,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 PreviewCard(settings)
                 BehaviourCard(settings, viewModel)
                 SettingsIndex(settings, onNavigate, compact = false)
-                viewModel.browserBridge?.let { BrowserExtensionCard(it) }
                 viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
             }
         }
@@ -351,68 +346,6 @@ internal fun DailyGoalStepper(settings: UserSettings, viewModel: SettingsViewMod
 }
 
 private const val DAILY_GOAL_STEP = 5
-
-/**
- * The Idiomiko browser extension: whether the app is ready for it, the browsers paired with it, and
- * the code that pairs another.
- */
-@Composable
-private fun BrowserExtensionCard(bridge: BrowserExtensionBridge) {
-    val state by bridge.state.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
-    ContentCard(
-        tr("Browser extension"),
-        tr("Watch YouTube with your Idiomiko words: coloured subtitles, lookups and saving words, while the app is open."),
-        icon = AppIcons.Link,
-        modifier = Modifier.testTag("browser-extension"),
-    ) {
-        state.error?.let { Text(tr("Could not start: {0}", it), style = MaterialTheme.typography.bodyMedium, color = colors.error) }
-        val code = state.code
-        if (code != null) {
-            Text(tr("Type this code into the Idiomiko extension:"), style = MaterialTheme.typography.bodyMedium)
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(Modifier.weight(1f)) { CommandBox(code.chunked(3).joinToString(" "), Modifier.testTag("pairing-code"), MaterialTheme.typography.headlineSmall) }
-                Spacer(Modifier.width(AppSpacing.m))
-                SecondaryButton(onClick = bridge::cancelPairing) { Text(tr("Cancel")) }
-            }
-            Text(tr("The code works once, for five minutes."), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-        } else if (state.port != null) {
-            val automatic = state.automaticIn.joinToString(", ")
-            SettingRow(
-                tr("Ready"),
-                if (automatic.isEmpty()) tr("Pair each browser once to let its extension use your words.")
-                else tr("The extension connects by itself in {0}. Pair other browsers with a code.", automatic),
-                stackOnCompact = true,
-            ) {
-                SecondaryButton(tr("Pair with a code"), onClick = bridge::startPairing, modifier = Modifier.testTag("pair-browser"), icon = AppIcons.Link)
-            }
-        }
-        if (state.browsers.isNotEmpty()) {
-            Text(tr("Paired browsers"), style = MaterialTheme.typography.titleSmall)
-            state.browsers.forEach { browser ->
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(browser.browser, Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium)
-                    SecondaryButton(onClick = { bridge.unpair(browser.id) }) { Text(tr("Remove")) }
-                }
-            }
-        }
-    }
-}
-
-/** A path or command in a monospace box, selectable for copying. */
-@Composable
-private fun CommandBox(text: String, modifier: Modifier = Modifier, style: TextStyle = MaterialTheme.typography.bodyMedium) {
-    val colors = MaterialTheme.colorScheme
-    SelectionContainer {
-        Text(
-            text,
-            modifier.fillMaxWidth().clip(AppShapes.compact).background(colors.surfaceVariant.copy(alpha = AppAlpha.muted))
-                .border(AppBorders.hairline(), AppShapes.compact).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
-            style = style,
-            fontFamily = FontFamily.Monospace,
-        )
-    }
-}
 
 /** A sentence in the language being learned, drawn as the reader draws it with the chosen theme, highlighting, size and spacing. */
 @Composable

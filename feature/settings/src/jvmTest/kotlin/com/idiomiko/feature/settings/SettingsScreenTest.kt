@@ -1,14 +1,5 @@
 package com.idiomiko.feature.settings
 
-import androidx.compose.ui.test.hasText
-import androidx.compose.ui.test.filterToOne
-import androidx.compose.ui.test.onChildren
-import kotlin.time.Instant
-import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.flow.MutableStateFlow
-import com.idiomiko.core.domain.bridge.PairedBrowser
-import com.idiomiko.core.domain.bridge.BridgeState
-import com.idiomiko.core.domain.bridge.BrowserExtensionBridge
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.domain.service.SpeechEngine
 import androidx.compose.runtime.Composable
@@ -151,30 +142,6 @@ class SettingsScreenTest {
         onNodeWithText("Gruvbox Dark").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.themeId == "gruvbox_dark" }
         System.getenv("THEMES_SCREENSHOT")?.let { save(it.replace(".png", "-gruvbox.png")) }
-    }
-
-    /** On the desktop the extension connects by itself; a browser it can't is paired from the card with a code, and can be removed again. */
-    @Test
-    fun aBrowserIsPairedFromTheExtensionCard() = runDesktopComposeUiTest(width = 1580, height = 1500) {
-        val settings = SettingsRepositoryImpl(MapSettings())
-        val bridge = object : BrowserExtensionBridge {
-            override val state = MutableStateFlow(BridgeState(port = 47_831, automaticIn = listOf("Chrome", "Firefox")))
-            override fun startPairing() = state.update { it.copy(code = "482913") }
-            override fun cancelPairing() = state.update { it.copy(code = null) }
-            override fun unpair(id: String) = state.update { s -> s.copy(browsers = s.browsers.filter { it.id != id }) }
-        }
-        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings, browserBridge = bridge)) } }
-
-        onNodeWithText("The extension connects by itself in Chrome, Firefox. Pair other browsers with a code.").performScrollTo().assertExists()
-        onNodeWithTag("pair-browser").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("482 913").fetchSemanticsNodes().isNotEmpty() }
-        System.getenv("BRIDGE_SCREENSHOT")?.let { save(it) }
-        bridge.state.update { it.copy(code = null, browsers = listOf(PairedBrowser("a1", "Chrome", Instant.fromEpochMilliseconds(0)))) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Paired browsers").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Chrome").assertExists()
-        System.getenv("BRIDGE_SCREENSHOT")?.let { save(it.replace(".png", "-paired.png")) }
-        onNodeWithTag("browser-extension").onChildren().filterToOne(hasText("Remove")).performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Paired browsers").fetchSemanticsNodes().isEmpty() }
     }
 
     private fun ComposeUiTest.save(path: String) {
