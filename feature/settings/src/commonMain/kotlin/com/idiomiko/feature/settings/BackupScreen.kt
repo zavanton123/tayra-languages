@@ -79,6 +79,8 @@ import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.files.saveBinaryFile
@@ -237,38 +239,40 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        PageColumn(padding, modifier = dropTarget) {
-            ScreenHeader(tr("Data"), null, onBackToSettings = onBack)
-            val create: @Composable (Modifier) -> Unit = { m ->
-                ActionCard(
-                    tr("Create a backup"),
-                    tr("Save your languages, books, vocabulary, reading history, and settings."),
-                    AppIcons.Storage,
-                    modifier = m,
-                ) { PrimaryButton(onClick = viewModel::create, enabled = idle) { Text(tr("Create backup"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
-            }
-            val import: @Composable (Modifier) -> Unit = { m ->
-                ActionCard(
-                    tr("Import a backup"),
-                    tr("Restore Idiomiko data from a previously exported backup file."),
-                    AppIcons.UploadFile,
-                    note = if (dropping) tr("Drop the file to import it.") else null,
-                    modifier = m,
-                    highlighted = dropping,
-                ) { SecondaryButton(onClick = { picker.launch() }, enabled = idle) { Text(tr("Choose file"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
-            }
-            if (compact) {
-                create(Modifier)
-                import(Modifier)
-            } else {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    create(Modifier.weight(1f).fillMaxHeight())
-                    import(Modifier.weight(1f).fillMaxHeight())
+        SettingsPane(SettingsSection.DATA, padding, onNavigate) { inner ->
+            PageColumn(inner, modifier = dropTarget) {
+                ScreenHeader(tr("Data"), null, onBackToSettings = onBack)
+                val create: @Composable (Modifier) -> Unit = { m ->
+                    ActionCard(
+                        tr("Create a backup"),
+                        tr("Save your languages, books, vocabulary, reading history, and settings."),
+                        AppIcons.Storage,
+                        modifier = m,
+                    ) { PrimaryButton(onClick = viewModel::create, enabled = idle) { Text(tr("Create backup"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
                 }
+                val import: @Composable (Modifier) -> Unit = { m ->
+                    ActionCard(
+                        tr("Import a backup"),
+                        tr("Restore Idiomiko data from a previously exported backup file."),
+                        AppIcons.UploadFile,
+                        note = if (dropping) tr("Drop the file to import it.") else null,
+                        modifier = m,
+                        highlighted = dropping,
+                    ) { SecondaryButton(onClick = { picker.launch() }, enabled = idle) { Text(tr("Choose file"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
+                }
+                if (compact) {
+                    create(Modifier)
+                    import(Modifier)
+                } else {
+                    Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        create(Modifier.weight(1f).fillMaxHeight())
+                        import(Modifier.weight(1f).fillMaxHeight())
+                    }
+                }
+                Progress(state)
+                HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it })
+                ClearDataBlock(state.clearing, backupEnabled = idle, onClear = viewModel::clear, onBackup = viewModel::create, onDone = onCleared)
             }
-            Progress(state)
-            HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it })
-            ClearDataBlock(state.clearing, backupEnabled = idle, onClear = viewModel::clear, onBackup = viewModel::create, onDone = onCleared)
         }
     }
 

@@ -61,6 +61,8 @@ import com.idiomiko.core.ui.components.AppDialog
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.Dropdown
 import com.idiomiko.core.ui.components.HeaderButton
@@ -123,7 +125,6 @@ class SettingsViewModel(
 fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     var confirmReset by remember { mutableStateOf(false) }
-    val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
 
     if (compact) {
@@ -132,30 +133,34 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        PageColumn(padding) {
-            ScreenHeader(tr("General"), null) {
-                HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
-            }
-            if (wide) {
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                        AppearanceCard(settings, viewModel)
-                        ReadingCard(settings, viewModel)
-                        BehaviourCard(settings, viewModel)
-                        viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
-                    }
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                        PreviewCard(settings)
-                        SettingsIndex(settings, onNavigate, compact = false)
-                    }
+        SettingsPane(SettingsSection.GENERAL, padding, onNavigate) { inner ->
+            // The room beside the settings sidebar, which may hold one column only.
+            val wide = LocalWindowWidth.current.isExpanded
+            PageColumn(inner) {
+                ScreenHeader(tr("General"), null) {
+                    HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
                 }
-            } else {
-                AppearanceCard(settings, viewModel)
-                ReadingCard(settings, viewModel)
-                PreviewCard(settings)
-                BehaviourCard(settings, viewModel)
-                SettingsIndex(settings, onNavigate, compact = false)
-                viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
+                if (wide) {
+                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                            AppearanceCard(settings, viewModel)
+                            ReadingCard(settings, viewModel)
+                            BehaviourCard(settings, viewModel)
+                            viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
+                        }
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                            PreviewCard(settings)
+                            SettingsIndex(settings, onNavigate, compact = false)
+                        }
+                    }
+                } else {
+                    AppearanceCard(settings, viewModel)
+                    ReadingCard(settings, viewModel)
+                    PreviewCard(settings)
+                    BehaviourCard(settings, viewModel)
+                    SettingsIndex(settings, onNavigate, compact = false)
+                    viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
+                }
             }
         }
     }
@@ -207,7 +212,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
             extra?.invoke()
         }
     }
-    // The wide bar's Settings menu leads to these pages; a phone reaches its flashcard and vocabulary settings only from here.
+    // A wide window's settings sidebar leads to these pages; a phone reaches its flashcard and vocabulary settings only from here.
     if (compact) card(tr("Preferences"), Icons.Default.Settings, preferences, null)
 }
 

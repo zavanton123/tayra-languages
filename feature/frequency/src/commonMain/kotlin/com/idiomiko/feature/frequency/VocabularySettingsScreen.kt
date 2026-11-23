@@ -39,6 +39,8 @@ import com.idiomiko.core.domain.frequency.LevelEdges
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.LinkText
@@ -79,18 +81,20 @@ fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit = {
         topBar = { AppTopBar(title = tr("Vocabulary settings"), onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        if (state.loading) {
-            LoadingIndicator(Modifier.padding(padding))
-            return@Scaffold
-        }
-        PageColumn(padding) {
-            VocabularySettingsContent(
-                state,
-                onPick = viewModel::pick,
-                onSave = viewModel::save,
-                onWordFrequency = { onNavigate(Route.WordFrequency) },
-                onBackToSettings = { onNavigate(Route.Settings) },
-            )
+        SettingsPane(SettingsSection.VOCABULARY, padding, onNavigate) { inner ->
+            if (state.loading) {
+                LoadingIndicator(Modifier.padding(inner))
+                return@SettingsPane
+            }
+            PageColumn(inner) {
+                VocabularySettingsContent(
+                    state,
+                    onPick = viewModel::pick,
+                    onSave = viewModel::save,
+                    onWordFrequency = { onNavigate(Route.WordFrequency) },
+                    onBackToSettings = { onNavigate(Route.Settings) },
+                )
+            }
         }
     }
 }

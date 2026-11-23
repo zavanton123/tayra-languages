@@ -15,6 +15,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -36,18 +38,20 @@ fun ExperimentalFeaturesScreen(
 ) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     Scaffold(topBar = { AppTopBar(title = tr("Experiments"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) }) { padding ->
-        ScrollColumn(Modifier.padding(padding).fillMaxSize(), contentModifier = Modifier.padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            ScreenTitle(tr("Experiments"))
-            Text(tr("Turn on features that are still being built."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            ContentCard(tr("Features"), subtitle = null, icon = AppIcons.Lightbulb) {
-                SwitchSetting(
-                    tr("Videos"),
-                    if (videosAvailable) tr("Watch videos with their subtitles as text you can read and look up.") else tr("Videos aren't available on the web yet."),
-                    checked = videosAvailable && settings.experimentalVideos,
-                    enabled = videosAvailable,
-                    switchModifier = Modifier.testTag("experimental-videos"),
-                    onChange = { on -> viewModel.update { it.copy(experimentalVideos = on) } },
-                )
+        SettingsPane(SettingsSection.EXPERIMENTS, padding, onNavigate) { inner ->
+            ScrollColumn(Modifier.padding(inner).fillMaxSize(), contentModifier = Modifier.padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                ScreenTitle(tr("Experiments"))
+                Text(tr("Turn on features that are still being built."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                ContentCard(tr("Features"), subtitle = null, icon = AppIcons.Lightbulb) {
+                    SwitchSetting(
+                        tr("Videos"),
+                        if (videosAvailable) tr("Watch videos with their subtitles as text you can read and look up.") else tr("Videos aren't available on the web yet."),
+                        checked = videosAvailable && settings.experimentalVideos,
+                        enabled = videosAvailable,
+                        switchModifier = Modifier.testTag("experimental-videos"),
+                        onChange = { on -> viewModel.update { it.copy(experimentalVideos = on) } },
+                    )
+                }
             }
         }
     }

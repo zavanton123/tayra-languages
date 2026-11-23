@@ -24,12 +24,26 @@ import com.idiomiko.core.domain.settings.HotkeyAction
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import androidx.compose.ui.test.onNodeWithTag
 import kotlin.test.assertEquals
 import kotlin.test.assertNull
 
 /** A shortcut is changed by selecting it and pressing keys; clashes are shown, and Backspace clears one. */
 @OptIn(ExperimentalTestApi::class)
 class ShortcutsScreenTest {
+
+    /** Too narrow for the settings sidebar, the page keeps its way back to Settings. */
+    @Test
+    fun aMediumWindowHasTheWayBackRatherThanTheSidebar() = runDesktopComposeUiTest(width = 800, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        var back = 0
+        setContent { Hosted(settings) { ShortcutsScreen(onNavigate = {}, onBack = { back++ }, viewModel = SettingsViewModel(settings)) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No conflicts", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("settings-sidebar").assertDoesNotExist()
+        System.getenv("SHORTCUTS_SCREENSHOT")?.let { save(it.replace(".png", "-medium.png")) }
+        onNodeWithText("Settings").performClick()
+        assertEquals(1, back)
+    }
 
     @Test
     fun pressingKeysChangesAShortcutAndClashesAreShown() = runDesktopComposeUiTest(width = 1586, height = 1000) {

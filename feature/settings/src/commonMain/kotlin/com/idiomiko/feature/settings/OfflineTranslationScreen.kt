@@ -55,6 +55,8 @@ import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.Dropdown
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.LocalLearningLanguage
@@ -216,18 +218,20 @@ fun OfflineTranslationScreen(
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        PageColumn(padding) {
-            ScreenHeader(tr("Translation"), tr("Choose how translations are generated, and add dictionaries of your own."), onBackToSettings = onBack) {
-                if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pairReady)
-            }
-            if (LocalWindowWidth.current.isExpanded && dictionaries.canImport) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    EngineCard(settings, viewModel, pairReady, Modifier.weight(1f).fillMaxHeight())
-                    importCard(Modifier.weight(1f).fillMaxHeight())
+        SettingsPane(SettingsSection.TRANSLATION, padding, onNavigate) { inner ->
+            PageColumn(inner) {
+                ScreenHeader(tr("Translation"), tr("Choose how translations are generated, and add dictionaries of your own."), onBackToSettings = onBack) {
+                    if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pairReady)
                 }
-            } else {
-                EngineCard(settings, viewModel, pairReady)
-                importCard(Modifier)
+                if (LocalWindowWidth.current.isExpanded && dictionaries.canImport) {
+                    Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        EngineCard(settings, viewModel, pairReady, Modifier.weight(1f).fillMaxHeight())
+                        importCard(Modifier.weight(1f).fillMaxHeight())
+                    }
+                } else {
+                    EngineCard(settings, viewModel, pairReady)
+                    importCard(Modifier)
+                }
             }
         }
     }

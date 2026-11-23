@@ -12,6 +12,7 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
@@ -33,6 +34,7 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 /** The Settings page changes the reading settings with its controls and puts them back with Reset to defaults. */
 @OptIn(ExperimentalTestApi::class)
@@ -45,6 +47,7 @@ class SettingsScreenTest {
         setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(androidx.compose.ui.test.hasText("Reading preview")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("settings-section-GENERAL").assertIsSelected()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it) }
 
         onNodeWithContentDescription("reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }
@@ -68,6 +71,21 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f }
         assertEquals(5, settings.current.statsSampleSize)
         assertEquals("serif", settings.current.readingFont)
+    }
+
+    /** A window just wide enough for the sidebar keeps it, with the page in one column beside it; another section opens from it. */
+    @Test
+    fun aMediumWideWindowHasTheSidebarBesideOneColumn() = runDesktopComposeUiTest(width = 1000, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val visited = mutableListOf<Route>()
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = { visited += it }, viewModel = SettingsViewModel(settings)) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(androidx.compose.ui.test.hasText("Reading preview")).fetchSemanticsNodes().isNotEmpty() }
+        val appearance = onNodeWithText("Appearance").fetchSemanticsNode().boundsInRoot
+        val preview = onNodeWithText("Reading preview").fetchSemanticsNode().boundsInRoot
+        assertTrue(preview.top > appearance.top && preview.left == appearance.left, "the cards stack in one column")
+        System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-medium.png")) }
+        onNodeWithTag("settings-section-SPEECH").performClick()
+        assertEquals(listOf<Route>(Route.Speech), visited)
     }
 
     /** A phone gets compact cards: the theme and font from bottom sheets, the sliders under their labels, Reset in the top bar. */

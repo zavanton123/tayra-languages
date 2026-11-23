@@ -68,7 +68,7 @@ fun ScreenTitle(title: String, modifier: Modifier = Modifier) {
 class Crumb(val label: String, val onClick: (() -> Unit)? = null)
 
 /**
- * The page heading: an optional way back (to Settings, or along [crumbs], whose back button takes
+ * The page heading: an optional way back (to Settings where no settings sidebar is beside it, or along [crumbs], whose back button takes
  * [onBack] or else the last crumb that acts), the title and subtitle, and actions on the right. On a phone the bar names the screen, so only the subtitle and actions
  * show, unless [titleOnCompact] keeps a title the bar does not give.
  */
@@ -87,7 +87,8 @@ fun ScreenHeader(
     // A phone's bar holds the title; a subtitle alone moves up under it, so it reads as the title's and not the content's.
     val underBar = compact && !titleOnCompact && crumbs.isEmpty() && subtitle != null
     Column(Modifier.fillMaxWidth().then(if (underBar) Modifier.pullUp(AppSpacing.l) else Modifier)) {
-        if (onBackToSettings != null && !compact) {
+        // Beside the settings sidebar, which leads to Settings already, the way back would only repeat it.
+        if (onBackToSettings != null && !compact && !LocalSettingsSidebar.current) {
             Row(
                 Modifier.clip(AppShapes.compact).clickable(onClick = onBackToSettings).padding(vertical = AppSpacing.xs, horizontal = AppSpacing.xxs),
                 verticalAlignment = Alignment.CenterVertically,
@@ -330,12 +331,16 @@ fun formatSize(bytes: Long): String = when {
 @Composable
 fun PageColumn(padding: PaddingValues, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
+    val side = if (compact) AppSpacing.l else AppSpacing.giant
+    // Beside the settings sidebar the page keeps to it, as a playlist does beside the playlists; the sidebar's margin keeps them apart.
+    val besideSidebar = LocalSettingsSidebar.current
     val scroll = rememberScrollState()
     Box(modifier.padding(padding).fillMaxSize()) {
-        Box(Modifier.fillMaxSize().verticalScroll(scroll), contentAlignment = Alignment.TopCenter) {
+        Box(Modifier.fillMaxSize().verticalScroll(scroll), contentAlignment = if (besideSidebar) Alignment.TopStart else Alignment.TopCenter) {
             Column(
                 Modifier.widthIn(max = AppSizes.pageWidth).fillMaxWidth()
-                    .padding(horizontal = if (compact) AppSpacing.l else AppSpacing.giant, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
+                    .padding(start = if (besideSidebar) AppSpacing.l else side, end = side)
+                    .padding(vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
                 content = content,
             )

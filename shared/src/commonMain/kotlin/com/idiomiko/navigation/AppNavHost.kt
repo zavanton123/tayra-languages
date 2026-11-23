@@ -61,6 +61,7 @@ import com.idiomiko.feature.settings.AccountBadgeViewModel
 import com.idiomiko.core.ui.components.LocalSyncEntry
 import com.idiomiko.core.ui.components.AccountBadge
 import com.idiomiko.core.ui.components.LocalAccountBadge
+import com.idiomiko.core.ui.components.LocalSettingsSwitch
 import com.idiomiko.core.ui.components.LocalWebPictures
 import com.idiomiko.core.domain.web.WebPictures
 import com.idiomiko.core.ui.components.PullToSync
@@ -90,6 +91,16 @@ fun AppNavHost(openCourses: Int = 0) {
     // A video asked for from outside the app's screens, such as the browser extension's "Open in Idiomiko".
     val videoOpens = koinInject<VideoOpenRequests>()
     LaunchedEffect(videoOpens) { videoOpens.videos.collect { navController.navigate(Route.Watch(it)) } }
+    // A settings sidebar's section takes the place of the page it was chosen on, so Back leaves the settings at once.
+    val settingsSwitch = remember<(Route) -> Unit>(navController) {
+        { route ->
+            val shown = navController.currentBackStackEntry?.destination?.id
+            navController.navigate(route) {
+                if (shown != null) popUpTo(shown) { inclusive = true }
+                launchSingleTop = true
+            }
+        }
+    }
     // Phones get the main areas as a bottom bar, except while reading, practising or reviewing flashcards; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
@@ -120,7 +131,7 @@ fun AppNavHost(openCourses: Int = 0) {
     }
     CompositionLocalProvider(
         LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,
-        LocalWebPictures provides koinInject<WebPictures>(),
+        LocalWebPictures provides koinInject<WebPictures>(), LocalSettingsSwitch provides settingsSwitch,
     ) {
     Scaffold(
         bottomBar = {

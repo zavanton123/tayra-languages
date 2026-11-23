@@ -66,6 +66,8 @@ import com.idiomiko.core.ui.components.AppDialog
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.CardHeader
 import com.idiomiko.core.ui.components.EmptyState
@@ -113,39 +115,41 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         topBar = { AppTopBar(title = tr("Hotkeys"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        PageColumn(padding) {
-            ScreenHeader(tr("Hotkeys"), tr("Customise how you navigate and listen while reading."), onBackToSettings = onBack) {
-                HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
-            }
-            SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)
-
-            // Without the learning levels shown, the keys for levels 2 to 4, for stepping between them and for Ignored are left out.
-            val levels = learningLevels
-            val groups = HotkeyAction.byCategory.mapValues { (_, actions) -> actions.filter { it.matches(query, hotkeys[it]) && (levels || it !in LEVEL_ACTIONS) } }.filterValues { it.isNotEmpty() }
-            if (groups.isEmpty()) {
-                EmptyState(tr("No shortcuts match “{0}”.", query.trim()))
-            }
-            val card: @Composable (HotkeyCategory, List<HotkeyAction>) -> Unit = { category, actions ->
-                CategoryCard(category, actions, hotkeys, conflicts, editing, onEdit = { editing = it }, onDone = { editing = null }, onAssign = assign)
-            }
-            if (LocalWindowWidth.current.isExpanded) {
-                // Two columns of about the same height: each group goes to the shorter one.
-                val columns = listOf(mutableListOf<HotkeyCategory>(), mutableListOf())
-                val heights = intArrayOf(0, 0)
-                groups.forEach { (category, actions) ->
-                    val column = if (heights[0] <= heights[1]) 0 else 1
-                    columns[column] += category
-                    heights[column] += actions.size + 2
+        SettingsPane(SettingsSection.HOTKEYS, padding, onNavigate) { inner ->
+            PageColumn(inner) {
+                ScreenHeader(tr("Hotkeys"), tr("Customise how you navigate and listen while reading."), onBackToSettings = onBack) {
+                    HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
                 }
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    columns.forEach { categories ->
-                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                            categories.forEach { card(it, groups.getValue(it)) }
+                SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)
+
+                // Without the learning levels shown, the keys for levels 2 to 4, for stepping between them and for Ignored are left out.
+                val levels = learningLevels
+                val groups = HotkeyAction.byCategory.mapValues { (_, actions) -> actions.filter { it.matches(query, hotkeys[it]) && (levels || it !in LEVEL_ACTIONS) } }.filterValues { it.isNotEmpty() }
+                if (groups.isEmpty()) {
+                    EmptyState(tr("No shortcuts match “{0}”.", query.trim()))
+                }
+                val card: @Composable (HotkeyCategory, List<HotkeyAction>) -> Unit = { category, actions ->
+                    CategoryCard(category, actions, hotkeys, conflicts, editing, onEdit = { editing = it }, onDone = { editing = null }, onAssign = assign)
+                }
+                if (LocalWindowWidth.current.isExpanded) {
+                    // Two columns of about the same height: each group goes to the shorter one.
+                    val columns = listOf(mutableListOf<HotkeyCategory>(), mutableListOf())
+                    val heights = intArrayOf(0, 0)
+                    groups.forEach { (category, actions) ->
+                        val column = if (heights[0] <= heights[1]) 0 else 1
+                        columns[column] += category
+                        heights[column] += actions.size + 2
+                    }
+                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        columns.forEach { categories ->
+                            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                                categories.forEach { card(it, groups.getValue(it)) }
+                            }
                         }
                     }
+                } else {
+                    groups.forEach { (category, actions) -> card(category, actions) }
                 }
-            } else {
-                groups.forEach { (category, actions) -> card(category, actions) }
             }
         }
     }

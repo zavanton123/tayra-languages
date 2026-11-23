@@ -6,6 +6,7 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithContentDescription
@@ -193,7 +194,8 @@ class BackupScreenTest {
         val viewModel = BackupViewModel(repository, clearDataService(provider, settings))
         setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, onCleared = { cleared++ }, viewModel = viewModel) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText(time)).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Data").assertExists()
+        // The page's title, apart from the settings sidebar's row of the same name.
+        onNode(hasText("Data") and !hasTestTag("settings-section-DATA")).assertExists()
         onNodeWithText("Will be removed").assertExists()
         onNodeWithText("Will remain").assertExists()
         System.getenv("DATA_SCREENSHOT")?.let { save(it.replace(".png", "$screenshot.png")) }

@@ -45,6 +45,8 @@ import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppProgressBar
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.Dropdown
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -286,21 +288,23 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        PageColumn(padding) {
-            ScreenHeader(tr("Speech"), null, onBackToSettings = onBack)
-            if (LocalWindowWidth.current.isExpanded) {
-                // The engine on the left with speech recognition under it, which keeps the two columns about as tall.
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                        EngineCard(settings, viewModel, engine, voiceMissing)
-                        RecognitionCard(viewModel)
+        SettingsPane(SettingsSection.SPEECH, padding, onNavigate) { inner ->
+            PageColumn(inner) {
+                ScreenHeader(tr("Speech"), null, onBackToSettings = onBack)
+                if (LocalWindowWidth.current.isExpanded) {
+                    // The engine on the left with speech recognition under it, which keeps the two columns about as tall.
+                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                            EngineCard(settings, viewModel, engine, voiceMissing)
+                            RecognitionCard(viewModel)
+                        }
+                        VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f))
                     }
-                    VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f))
+                } else {
+                    EngineCard(settings, viewModel, engine, voiceMissing)
+                    VoiceCard(settings, viewModel, engine, learning, voices)
+                    RecognitionCard(viewModel)
                 }
-            } else {
-                EngineCard(settings, viewModel, engine, voiceMissing)
-                VoiceCard(settings, viewModel, engine, learning, voices)
-                RecognitionCard(viewModel)
             }
         }
     }

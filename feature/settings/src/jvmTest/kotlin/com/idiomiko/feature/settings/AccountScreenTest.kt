@@ -190,8 +190,9 @@ class AccountScreenTest {
         onNodeWithText("Welcome back").assertExists()
     }
 
+    /** Beside the settings sidebar, a window not much wider than the card needs keeps the panel beside the form. */
     @Test
-    fun signedOutAMediumWindowKeepsThePanelBesideTheForm() = runDesktopComposeUiTest(width = 1000, height = 1000) {
+    fun signedOutANarrowerWideWindowKeepsThePanelBesideTheForm() = runDesktopComposeUiTest(width = 1100, height = 1000) {
         show(FakeAccounts(), identity = FakeIdentity())
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-google").fetchSemanticsNodes().isNotEmpty() }
         val pitch = onNodeWithTag("account-pitch").fetchSemanticsNode().boundsInRoot

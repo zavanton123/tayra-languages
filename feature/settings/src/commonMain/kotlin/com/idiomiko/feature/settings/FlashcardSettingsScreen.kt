@@ -29,6 +29,8 @@ import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.SettingsSection
+import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.HeaderButton
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -56,7 +58,6 @@ fun FlashcardSettingsScreen(
     retention: RetentionHelpViewModel? = null,
 ) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
-    val wide = LocalWindowWidth.current.isExpanded
     val compact = LocalWindowWidth.current.isCompact
     val reset = {
         val defaults = UserSettings()
@@ -95,30 +96,34 @@ fun FlashcardSettingsScreen(
         topBar = { AppTopBar(title = tr("Flashcard settings"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        PageColumn(padding) {
-            ScreenHeader(tr("Flashcard settings"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
-                HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = reset)
-            }
-            if (wide) {
-                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                        LimitsCard(settings, viewModel)
-                        SchedulingCard(settings, viewModel, retention)
-                        personal?.let { PersonalSchedulingCard(it) }
-                    }
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                        AnswerCard(settings, viewModel)
-                        LeechCard(settings, viewModel)
-                        StatusInfo()
-                    }
+        SettingsPane(SettingsSection.FLASHCARDS, padding, onNavigate) { inner ->
+            // The room beside the settings sidebar, which may hold one column only.
+            val wide = LocalWindowWidth.current.isExpanded
+            PageColumn(inner) {
+                ScreenHeader(tr("Flashcard settings"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
+                    HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = reset)
                 }
-            } else {
-                LimitsCard(settings, viewModel)
-                SchedulingCard(settings, viewModel, retention)
-                personal?.let { PersonalSchedulingCard(it) }
-                AnswerCard(settings, viewModel)
-                LeechCard(settings, viewModel)
-                StatusInfo()
+                if (wide) {
+                    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                            LimitsCard(settings, viewModel)
+                            SchedulingCard(settings, viewModel, retention)
+                            personal?.let { PersonalSchedulingCard(it) }
+                        }
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                            AnswerCard(settings, viewModel)
+                            LeechCard(settings, viewModel)
+                            StatusInfo()
+                        }
+                    }
+                } else {
+                    LimitsCard(settings, viewModel)
+                    SchedulingCard(settings, viewModel, retention)
+                    personal?.let { PersonalSchedulingCard(it) }
+                    AnswerCard(settings, viewModel)
+                    LeechCard(settings, viewModel)
+                    StatusInfo()
+                }
             }
         }
     }
