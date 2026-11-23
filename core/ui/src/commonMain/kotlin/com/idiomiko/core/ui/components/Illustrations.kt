@@ -8,10 +8,12 @@ import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import org.jetbrains.compose.resources.painterResource
 import idiomiko.core.ui.generated.resources.Res
+import idiomiko.core.ui.generated.resources.account_sync_monkey
 import idiomiko.core.ui.generated.resources.archived_books_empty_monkey
 import idiomiko.core.ui.generated.resources.courses_loading_monkey
 import idiomiko.core.ui.generated.resources.empty_state_monkey
 import idiomiko.core.ui.generated.resources.find_books_monkey_v4
+import idiomiko.core.ui.generated.resources.google_logo
 import idiomiko.core.ui.generated.resources.illustration_courses
 import idiomiko.core.ui.generated.resources.illustration_flashcards
 import idiomiko.core.ui.generated.resources.illustration_journey
@@ -39,6 +41,18 @@ fun JourneyIllustration(modifier: Modifier = Modifier) {
 @Composable
 fun ArchivedBooksIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.archived_books_empty_monkey), contentDescription = null, modifier = modifier)
+}
+
+/** The mascot reading with a phone in hand, a cloud syncing between them: signing in to keep a library on every device. */
+@Composable
+fun AccountSyncIllustration(modifier: Modifier = Modifier) {
+    Image(painterResource(Res.drawable.account_sync_monkey), contentDescription = null, modifier = modifier)
+}
+
+/** Google's "G", in its own colours, on a button that signs in with Google. */
+@Composable
+fun GoogleLogo(modifier: Modifier = Modifier) {
+    Image(painterResource(Res.drawable.google_logo), contentDescription = null, modifier = modifier)
 }
 
 /** The mascot looking through a magnifying glass at an empty card: any list or page with nothing to show. */

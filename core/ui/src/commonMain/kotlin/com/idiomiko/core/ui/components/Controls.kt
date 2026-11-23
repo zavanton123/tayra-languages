@@ -556,7 +556,10 @@ fun <T> SelectMenu(
     }
 }
 
-/** A link within a line or a header, such as a breadcrumb or "Powered by Tatoeba": text that acts, with an optional icon before or after. */
+/**
+ * A link within a line or a header, such as a breadcrumb or "Powered by Tatoeba": text that acts, with an optional icon before or after.
+ * Not [enabled], it is dimmed and does nothing.
+ */
 @Composable
 fun LinkText(
     text: String,
@@ -567,15 +570,17 @@ fun LinkText(
     icon: ImageVector? = null,
     trailingIcon: ImageVector? = null,
     maxLines: Int = Int.MAX_VALUE,
+    enabled: Boolean = true,
 ) {
+    val shown = if (enabled) color else color.copy(alpha = AppAlpha.disabled)
     Row(
-        modifier.clip(AppShapes.small).clickable(role = Role.Button, onClick = onClick).padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xs),
+        modifier.clip(AppShapes.small).clickable(enabled = enabled, role = Role.Button, onClick = onClick).padding(horizontal = AppSpacing.xs, vertical = AppSpacing.xs),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs),
     ) {
-        if (icon != null) Icon(icon, contentDescription = null, tint = color, modifier = Modifier.size(AppSizes.iconCompact))
-        Text(text, Modifier.weight(1f, fill = false), style = style.copy(fontWeight = AppText.emphasis.fontWeight), color = color, maxLines = maxLines, overflow = TextOverflow.Ellipsis)
-        if (trailingIcon != null) Icon(trailingIcon, contentDescription = null, tint = color, modifier = Modifier.size(AppSizes.iconSmall))
+        if (icon != null) Icon(icon, contentDescription = null, tint = shown, modifier = Modifier.size(AppSizes.iconCompact))
+        Text(text, Modifier.weight(1f, fill = false), style = style.copy(fontWeight = AppText.emphasis.fontWeight), color = shown, maxLines = maxLines, overflow = TextOverflow.Ellipsis)
+        if (trailingIcon != null) Icon(trailingIcon, contentDescription = null, tint = shown, modifier = Modifier.size(AppSizes.iconSmall))
     }
 }
 
