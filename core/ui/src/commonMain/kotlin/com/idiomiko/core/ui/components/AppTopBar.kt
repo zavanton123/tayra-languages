@@ -85,7 +85,7 @@ private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull
     MenuGroup(
         NavSection.SETTINGS,
         // As the phone's More and the Settings index have them: the preferences, the offline resources, then the data.
-        // Clearing the data is found in Settings, not offered from the menu.
+        // Data holds the backups and clearing the data on this device.
         listOfNotNull(
             MenuEntry("General", Route.Settings),
             MenuEntry("Languages", Route.Languages),
@@ -94,7 +94,7 @@ private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull
             MenuEntry("Hotkeys", Route.Shortcuts),
             MenuEntry("Speech", Route.Speech),
             MenuEntry("Translation", Route.OfflineTranslation),
-            MenuEntry("Backups", Route.Backups),
+            MenuEntry("Data", Route.Backups),
             MenuEntry("About", Route.About),
             MenuEntry("Experiments", Route.ExperimentalFeatures),
         ),

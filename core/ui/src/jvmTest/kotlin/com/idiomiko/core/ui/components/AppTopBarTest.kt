@@ -82,6 +82,19 @@ class AppTopBarTest {
         assertEquals(listOf<Route>(Route.Speech), visited)
     }
 
+    /** The backups and clearing the data share the Settings menu's Data page. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun theSettingsMenuLeadsToTheDataPage() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.BOOKS) } }
+        onNodeWithText("Settings").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Data").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Backups").assertDoesNotExist()
+        onNodeWithText("Data").performClick()
+        assertEquals(listOf<Route>(Route.Backups), visited)
+    }
+
     /** Signed in, the account's avatar ends the bar and takes the Account tab's place; it opens the account page. */
     @OptIn(ExperimentalTestApi::class)
     @Test
