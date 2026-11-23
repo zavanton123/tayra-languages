@@ -233,20 +233,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Text in photos is read on the device: with Tesseract (Apache 2.0) and Leptonica (BSD) through bytedeco's JavaCPP builds (Apache 2.0), using the tessdata_fast models (Apache 2.0); on Android also with Google's ML Kit, and on iOS with Apple's Vision." to "Το κείμενο στις φωτογραφίες αναγνωρίζεται στη συσκευή: με το Tesseract (Apache 2.0) και το Leptonica (BSD) μέσω των εκδόσεων JavaCPP της bytedeco (Apache 2.0), με τα μοντέλα tessdata_fast (Apache 2.0)· στο Android επίσης με το ML Kit της Google και στο iOS με το Vision της Apple.",
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Μοντέλα για την ανάγνωση φωτογραφιών σελίδων, που λήφθηκαν όταν εισήχθη για πρώτη φορά φωτογραφία στη γλώσσα τους.",
-    // Command-line tool (SettingsScreen.kt)
-    "Command-line tool" to "Εργαλείο γραμμής εντολών",
-    "Use your library from a terminal with the idiomiko command, and let AI agents work with it." to "Χρησιμοποιήστε τη βιβλιοθήκη σας από ένα τερματικό με την εντολή idiomiko και αφήστε πράκτορες ΤΝ να δουλεύουν με αυτή.",
-    "The idiomiko command comes with the installed app. From the sources, run it with ./gradlew :cli:run." to "Η εντολή idiomiko συνοδεύει την εγκατεστημένη εφαρμογή. Από τον πηγαίο κώδικα, εκτελέστε τη με ./gradlew :cli:run.",
-    "Type idiomiko in a new terminal window, for example idiomiko --help." to "Πληκτρολογήστε idiomiko σε ένα νέο παράθυρο τερματικού, για παράδειγμα idiomiko --help.",
-    "Puts idiomiko on the PATH, so any terminal finds it." to "Προσθέτει το idiomiko στο PATH, ώστε να το βρίσκει κάθε τερματικό.",
-    "Install command-line tool" to "Εγκατάσταση εργαλείου γραμμής εντολών",
-    "Checking whether a terminal finds idiomiko…" to "Έλεγχος αν ένα τερματικό βρίσκει το idiomiko…",
-    "On your PATH" to "Στο PATH σας",
-    "Not on your PATH" to "Εκτός PATH",
-    "Location: {0}" to "Τοποθεσία: {0}",
-    "Added to your PATH. Open a new terminal window to use it." to "Προστέθηκε στο PATH σας. Ανοίξτε ένα νέο παράθυρο τερματικού για να το χρησιμοποιήσετε.",
-    "Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it." to "Ο φάκελος ~/.local/bin προστέθηκε στο PATH σας στο {0}. Ανοίξτε ένα νέο παράθυρο τερματικού για να το χρησιμοποιήσετε.",
-    "Could not change the PATH: {0}" to "Δεν ήταν δυνατή η αλλαγή του PATH: {0}",
     // LanguageSetupDialog.kt
     // ClearDataScreen.kt
     "Clear data" to "Διαγραφή δεδομένων",

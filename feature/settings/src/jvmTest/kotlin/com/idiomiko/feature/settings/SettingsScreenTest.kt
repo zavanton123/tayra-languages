@@ -37,8 +37,6 @@ import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.theme.AppThemes
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import androidx.compose.ui.test.performScrollTo
-import com.idiomiko.core.domain.service.CommandLineStatus
-import com.idiomiko.core.domain.service.CommandLineTool
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
@@ -153,36 +151,6 @@ class SettingsScreenTest {
         onNodeWithText("Gruvbox Dark").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.themeId == "gruvbox_dark" }
         System.getenv("THEMES_SCREENSHOT")?.let { save(it.replace(".png", "-gruvbox.png")) }
-    }
-
-    /** On the desktop the command-line tool is put on the PATH from its card, which then says where. */
-    @Test
-    fun theCommandLineToolIsInstalledFromItsCard() = runDesktopComposeUiTest(width = 1580, height = 1300) {
-        val settings = SettingsRepositoryImpl(MapSettings())
-        val tool = object : CommandLineTool {
-            var installed = false
-            override val available = true
-            override suspend fun status() = if (installed) CommandLineStatus(true, "/Users/me/.local/bin/idiomiko", removable = true) else CommandLineStatus(false)
-            override suspend fun install(): CommandLineStatus {
-                installed = true
-                return status().copy(pathChangedIn = "/Users/me/.zshrc")
-            }
-            override suspend fun uninstall(): CommandLineStatus {
-                installed = false
-                return status()
-            }
-        }
-        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings, tool)) } }
-
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not on your PATH").fetchSemanticsNodes().isNotEmpty() }
-        System.getenv("CLI_SCREENSHOT")?.let { save(it) }
-        onNodeWithText("Install command-line tool").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("On your PATH").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("/Users/me/.local/bin/idiomiko").assertExists()
-        onNodeWithText("Added ~/.local/bin to your PATH in /Users/me/.zshrc. Open a new terminal window to use it.").assertExists()
-        System.getenv("CLI_SCREENSHOT")?.let { save(it.replace(".png", "-installed.png")) }
-        onNodeWithText("Remove").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not on your PATH").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** On the desktop the extension connects by itself; a browser it can't is paired from the card with a code, and can be removed again. */

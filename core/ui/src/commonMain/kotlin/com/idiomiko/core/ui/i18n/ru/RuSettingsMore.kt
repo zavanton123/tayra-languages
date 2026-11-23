@@ -233,20 +233,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Text in photos is read on the device: with Tesseract (Apache 2.0) and Leptonica (BSD) through bytedeco's JavaCPP builds (Apache 2.0), using the tessdata_fast models (Apache 2.0); on Android also with Google's ML Kit, and on iOS with Apple's Vision." to "Текст на фото распознаётся на устройстве: с помощью Tesseract (Apache 2.0) и Leptonica (BSD) в сборках JavaCPP от bytedeco (Apache 2.0) и моделей tessdata_fast (Apache 2.0); на Android также с помощью ML Kit от Google, а на iOS — Vision от Apple.",
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Модели для распознавания фото страниц; загружаются, когда впервые импортируется фото на их языке.",
-    // Command-line tool (SettingsScreen.kt)
-    "Command-line tool" to "Инструмент командной строки",
-    "Use your library from a terminal with the idiomiko command, and let AI agents work with it." to "Работайте с библиотекой из терминала командой idiomiko и дайте ИИ-агентам работать с ней.",
-    "The idiomiko command comes with the installed app. From the sources, run it with ./gradlew :cli:run." to "Команда idiomiko входит в установленное приложение. Из исходного кода её запускают через ./gradlew :cli:run.",
-    "Type idiomiko in a new terminal window, for example idiomiko --help." to "Введите idiomiko в новом окне терминала, например idiomiko --help.",
-    "Puts idiomiko on the PATH, so any terminal finds it." to "Добавляет idiomiko в PATH, чтобы её находил любой терминал.",
-    "Install command-line tool" to "Установить инструмент командной строки",
-    "Checking whether a terminal finds idiomiko…" to "Проверяем, находит ли терминал idiomiko…",
-    "On your PATH" to "Есть в PATH",
-    "Not on your PATH" to "Нет в PATH",
-    "Location: {0}" to "Расположение: {0}",
-    "Added to your PATH. Open a new terminal window to use it." to "Добавлено в PATH. Откройте новое окно терминала, чтобы пользоваться командой.",
-    "Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it." to "Папка ~/.local/bin добавлена в PATH в файле {0}. Откройте новое окно терминала, чтобы пользоваться командой.",
-    "Could not change the PATH: {0}" to "Не удалось изменить PATH: {0}",
     // LanguageSetupDialog.kt
     // ClearDataScreen.kt
     "Clear data" to "Очистить данные",

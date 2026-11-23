@@ -233,20 +233,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Text in photos is read on the device: with Tesseract (Apache 2.0) and Leptonica (BSD) through bytedeco's JavaCPP builds (Apache 2.0), using the tessdata_fast models (Apache 2.0); on Android also with Google's ML Kit, and on iOS with Apple's Vision." to "照片中的文字在设备上识别：通过 bytedeco 的 JavaCPP 构建（Apache 2.0）使用 Tesseract（Apache 2.0）和 Leptonica（BSD），并采用 tessdata_fast 模型（Apache 2.0）；Android 上还使用 Google 的 ML Kit，iOS 上使用 Apple 的 Vision。",
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "用于识别书页照片的模型，在首次导入相应语言的照片时下载。",
-    // Command-line tool (SettingsScreen.kt)
-    "Command-line tool" to "命令行工具",
-    "Use your library from a terminal with the idiomiko command, and let AI agents work with it." to "在终端中通过 idiomiko 命令使用你的书库，并让 AI 智能体操作它。",
-    "The idiomiko command comes with the installed app. From the sources, run it with ./gradlew :cli:run." to "idiomiko 命令随已安装的应用提供。从源码运行时，请使用 ./gradlew :cli:run。",
-    "Type idiomiko in a new terminal window, for example idiomiko --help." to "在新的终端窗口中输入 idiomiko，例如 idiomiko --help。",
-    "Puts idiomiko on the PATH, so any terminal finds it." to "将 idiomiko 添加到 PATH，任何终端都能找到它。",
-    "Install command-line tool" to "安装命令行工具",
-    "Checking whether a terminal finds idiomiko…" to "正在检查终端能否找到 idiomiko…",
-    "On your PATH" to "已在 PATH 中",
-    "Not on your PATH" to "不在 PATH 中",
-    "Location: {0}" to "位置：{0}",
-    "Added to your PATH. Open a new terminal window to use it." to "已添加到 PATH。请打开新的终端窗口使用。",
-    "Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it." to "已在 {0} 中将 ~/.local/bin 添加到 PATH。请打开新的终端窗口使用。",
-    "Could not change the PATH: {0}" to "无法修改 PATH：{0}",
     // LanguageSetupDialog.kt
     // ClearDataScreen.kt
     "Clear data" to "清除数据",

@@ -54,8 +54,6 @@ import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.service.AppUpdateService
 import com.idiomiko.core.domain.bridge.BrowserExtensionBridge
-import com.idiomiko.core.domain.service.CommandLineStatus
-import com.idiomiko.core.domain.service.CommandLineTool
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.components.MarkedText
@@ -63,7 +61,6 @@ import com.idiomiko.core.ui.components.pushFill
 import com.idiomiko.core.ui.components.AppDialog
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
-import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.Dropdown
@@ -81,10 +78,7 @@ import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.SettingRow
 import com.idiomiko.core.ui.components.SliderSetting
-import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.StatusDot
-import com.idiomiko.core.ui.components.StatusPill
-import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.components.SwitchSetting
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
@@ -98,49 +92,18 @@ import com.idiomiko.core.ui.theme.LocalThemePreview
 import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.core.ui.theme.fontFamily
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 
 class SettingsViewModel(
     private val settings: SettingsRepository,
-    /** The desktop app's `idiomiko` command; other platforms have none. */
-    val commandLine: CommandLineTool? = null,
     /** The desktop app's updates; other platforms have none. */
     val updates: AppUpdateService? = null,
     /** The desktop app's connection to the browser extension; other platforms have none. */
     val browserBridge: BrowserExtensionBridge? = null,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
-
-    private val _commandLineStatus = MutableStateFlow<CommandLineStatus?>(null)
-    val commandLineStatus: StateFlow<CommandLineStatus?> = _commandLineStatus.asStateFlow()
-
-    private val _commandLineBusy = MutableStateFlow(false)
-    val commandLineBusy: StateFlow<Boolean> = _commandLineBusy.asStateFlow()
-
-    init {
-        commandLine?.let { tool -> viewModelScope.launch { _commandLineStatus.value = tool.status() } }
-    }
-
-    fun installCommandLine() = changeCommandLine { it.install() }
-
-    fun uninstallCommandLine() = changeCommandLine { it.uninstall() }
-
-    private fun changeCommandLine(action: suspend (CommandLineTool) -> CommandLineStatus) {
-        val tool = commandLine ?: return
-        if (_commandLineBusy.value) return
-        _commandLineBusy.value = true
-        viewModelScope.launch {
-            try {
-                _commandLineStatus.value = action(tool)
-            } finally {
-                _commandLineBusy.value = false
-            }
-        }
-    }
 
     fun update(transform: (UserSettings) -> UserSettings) = viewModelScope.launch { settings.update(transform) }
 
@@ -182,7 +145,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                         AppearanceCard(settings, viewModel)
                         ReadingCard(settings, viewModel)
                         BehaviourCard(settings, viewModel)
-                        if (viewModel.commandLine != null) CommandLineCard(viewModel)
                         viewModel.browserBridge?.let { BrowserExtensionCard(it) }
                         viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                     }
@@ -197,7 +159,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 PreviewCard(settings)
                 BehaviourCard(settings, viewModel)
                 SettingsIndex(settings, onNavigate, compact = false)
-                if (viewModel.commandLine != null) CommandLineCard(viewModel)
                 viewModel.browserBridge?.let { BrowserExtensionCard(it) }
                 viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
             }
@@ -390,52 +351,6 @@ internal fun DailyGoalStepper(settings: UserSettings, viewModel: SettingsViewMod
 }
 
 private const val DAILY_GOAL_STEP = 5
-
-/**
- * The `idiomiko` command of the desktop app: where a terminal finds it when it is on the PATH, else the
- * button that puts it there.
- */
-@Composable
-private fun CommandLineCard(viewModel: SettingsViewModel) {
-    val status by viewModel.commandLineStatus.collectAsStateWithLifecycle()
-    val busy by viewModel.commandLineBusy.collectAsStateWithLifecycle()
-    val colors = MaterialTheme.colorScheme
-    val available = viewModel.commandLine?.available == true
-    ContentCard(
-        tr("Command-line tool"),
-        tr("Use your library from a terminal with the idiomiko command, and let AI agents work with it."),
-        icon = AppIcons.Terminal,
-    ) {
-        val current = status
-        when {
-            current == null -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                AppSpinner(size = SpinnerSize.Small)
-                Text(tr("Checking whether a terminal finds idiomiko…"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
-            current.installed -> {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Box(Modifier.weight(1f)) { StatusPill(tr("On your PATH"), StatusTints.ok) }
-                    if (current.removable) SecondaryButton(onClick = viewModel::uninstallCommandLine, enabled = !busy) { Text(tr("Remove")) }
-                }
-                current.location?.let { CommandBox(it) }
-                Text(tr("Type idiomiko in a new terminal window, for example idiomiko --help."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
-            available -> SettingRow(tr("Not on your PATH"), tr("Puts idiomiko on the PATH, so any terminal finds it."), stackOnCompact = true) {
-                SecondaryButton(tr("Install command-line tool"), onClick = viewModel::installCommandLine, modifier = Modifier.testTag("install-cli"), icon = AppIcons.Terminal, enabled = !busy, loading = busy)
-            }
-            else -> Text(tr("The idiomiko command comes with the installed app. From the sources, run it with ./gradlew :cli:run."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        }
-        current?.pathChangedIn?.let { changed ->
-            Text(
-                if (changed == "PATH") tr("Added to your PATH. Open a new terminal window to use it.")
-                else tr("Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it.", changed),
-                style = MaterialTheme.typography.bodySmall,
-                color = colors.primary,
-            )
-        }
-        current?.error?.let { Text(tr("Could not change the PATH: {0}", it), style = MaterialTheme.typography.bodySmall, color = colors.error) }
-    }
-}
 
 /**
  * The Idiomiko browser extension: whether the app is ready for it, the browsers paired with it, and

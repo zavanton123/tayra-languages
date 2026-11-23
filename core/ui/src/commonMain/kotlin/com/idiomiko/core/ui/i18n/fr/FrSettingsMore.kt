@@ -233,20 +233,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Text in photos is read on the device: with Tesseract (Apache 2.0) and Leptonica (BSD) through bytedeco's JavaCPP builds (Apache 2.0), using the tessdata_fast models (Apache 2.0); on Android also with Google's ML Kit, and on iOS with Apple's Vision." to "Le texte des photos est lu sur l’appareil : avec Tesseract (Apache 2.0) et Leptonica (BSD) via les builds JavaCPP de bytedeco (Apache 2.0), avec les modèles tessdata_fast (Apache 2.0) ; sur Android également avec ML Kit de Google, et sur iOS avec Vision d’Apple.",
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Modèles de lecture des photos de pages, téléchargés lors du premier import d’une photo dans leur langue.",
-    // Command-line tool (SettingsScreen.kt)
-    "Command-line tool" to "Outil en ligne de commande",
-    "Use your library from a terminal with the idiomiko command, and let AI agents work with it." to "Utilisez votre bibliothèque depuis un terminal avec la commande idiomiko, et laissez des agents IA travailler avec.",
-    "The idiomiko command comes with the installed app. From the sources, run it with ./gradlew :cli:run." to "La commande idiomiko est fournie avec l’application installée. Depuis les sources, lancez-la avec ./gradlew :cli:run.",
-    "Type idiomiko in a new terminal window, for example idiomiko --help." to "Tapez idiomiko dans une nouvelle fenêtre de terminal, par exemple idiomiko --help.",
-    "Puts idiomiko on the PATH, so any terminal finds it." to "Ajoute idiomiko au PATH pour que n’importe quel terminal la trouve.",
-    "Install command-line tool" to "Installer l’outil en ligne de commande",
-    "Checking whether a terminal finds idiomiko…" to "Vérification : un terminal trouve-t-il idiomiko…",
-    "On your PATH" to "Dans votre PATH",
-    "Not on your PATH" to "Absent de votre PATH",
-    "Location: {0}" to "Emplacement : {0}",
-    "Added to your PATH. Open a new terminal window to use it." to "Ajouté à votre PATH. Ouvrez une nouvelle fenêtre de terminal pour l’utiliser.",
-    "Added ~/.local/bin to your PATH in {0}. Open a new terminal window to use it." to "~/.local/bin a été ajouté à votre PATH dans {0}. Ouvrez une nouvelle fenêtre de terminal pour l’utiliser.",
-    "Could not change the PATH: {0}" to "Impossible de modifier le PATH : {0}",
     // LanguageSetupDialog.kt
     // ClearDataScreen.kt
     "Clear data" to "Effacer les données",
