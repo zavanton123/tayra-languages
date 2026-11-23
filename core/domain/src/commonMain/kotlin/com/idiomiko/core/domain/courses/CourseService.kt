@@ -58,7 +58,7 @@ class CourseService(
      * their lessons, and forgets they were written, so installing their pack again restores them.
      */
     suspend fun removeSamples(courseIds: Set<String>) {
-        for (id in courseIds) repository.course(id)?.let { deleteCourse(it.id) }
+        for (id in courseIds) repository.course(id)?.let { remove(it) }
         repository.forgetSeeded(courseIds)
     }
 
@@ -161,9 +161,10 @@ class CourseService(
 
     suspend fun updateCourse(courseId: String, draft: CourseDraft) = repository.updateCourse(own(courseId).id, validated(draft))
 
-    /** Deletes the course, its lessons and the texts made from them. */
-    suspend fun deleteCourse(courseId: String) {
-        val course = stored(courseId)
+    /** Deletes the reader's own course, its lessons and the texts made from them; the app's courses stay. */
+    suspend fun deleteCourse(courseId: String) = remove(own(courseId))
+
+    private suspend fun remove(course: Course) {
         for (lesson in course.lessons) books.lessonBookId(lesson.id)?.let { bookService.delete(it) }
         repository.deleteCourse(course.id)
     }

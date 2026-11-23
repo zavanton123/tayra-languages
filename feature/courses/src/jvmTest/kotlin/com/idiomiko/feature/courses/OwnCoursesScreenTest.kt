@@ -146,7 +146,7 @@ class OwnCoursesScreenTest {
         waitUntil(timeoutMillis = 5_000) { runBlocking { service.observeCourse(courseId).first() }!!.course.lessons.map { it.title } == listOf("O cão") }
     }
 
-    /** The app's courses are read as they come: nothing on them can be edited, only the whole course deleted. */
+    /** The app's courses are read as they come: nothing on them can be edited or deleted. */
     @Test
     fun aSampleCourseIsTaggedAndCannotBeChanged() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val viewModel = CourseViewModel("pt-mini-0100", service)
@@ -156,7 +156,7 @@ class OwnCoursesScreenTest {
         onNodeWithTag("edit-course").assertDoesNotExist()
         onNodeWithTag("add-lesson").assertDoesNotExist()
         onNodeWithTag("lesson-menu-pt-mini-0100-01").assertDoesNotExist()
-        onNodeWithTag("course-menu").assertExists()
+        onNodeWithTag("course-menu").assertDoesNotExist()
         System.getenv("SAMPLE_COURSE_SCREENSHOT")?.let { save(it) }
         val lesson = runBlocking { service.observeCourse("pt-mini-0100").first() }!!.course.lessons.first()
         for (change in listOf<suspend () -> Unit>(
@@ -165,6 +165,7 @@ class OwnCoursesScreenTest {
             { service.updateLesson("pt-mini-0100", lesson.id, LessonDraft("Changed", text = "Outro texto.")) },
             { service.moveLesson("pt-mini-0100", lesson.id, 1) },
             { service.deleteLesson("pt-mini-0100", lesson.id) },
+            { service.deleteCourse("pt-mini-0100") },
         )) assertFailsWith<CourseValidationException> { runBlocking { change() } }
         assertEquals(lesson, runBlocking { service.observeCourse("pt-mini-0100").first() }!!.course.lessons.first(), "the lesson is as it came")
     }

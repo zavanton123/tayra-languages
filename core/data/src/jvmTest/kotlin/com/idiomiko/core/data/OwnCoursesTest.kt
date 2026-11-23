@@ -109,7 +109,9 @@ class OwnCoursesTest {
         assertEquals("Primeiros passos", kept.title)
         assertEquals(5, kept.lessons.size)
 
-        service.deleteCourse("pt-test-b1")
+        assertFailsWith<CourseValidationException> { service.deleteCourse("pt-test-b1") }
+        // Samples could once be deleted; one deleted then stays deleted.
+        repository.deleteCourse("pt-test-b1")
         service.seedSamples()
         assertEquals(listOf("pt-test-a1", "pt-test-a2"), service.observeCourses(pt).first().map { it.course.id }, "a deleted sample stays deleted")
     }
@@ -121,7 +123,7 @@ class OwnCoursesTest {
         var bundled = listOf(course("pt-old", null))
         val seeding = CourseService(books, languages, bookService, repository, SampleCourseSource { bundled })
         seeding.seedSamples()
-        seeding.deleteCourse("pt-old")
+        repository.deleteCourse("pt-old")
         bundled = listOf(course("pt-old", null), course("pt-freq-0200", 200), course("pt-freq-0100", 100))
         seeding.seedSamples()
         val courses = seeding.observeCourses(pt).first().map { it.course }

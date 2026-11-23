@@ -348,16 +348,15 @@ internal fun CourseContent(
             return@ScrollColumn
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }
-        // The app's courses are read as they come: only deleting one is left of the editing.
+        // The app's courses are read as they come: only the reader's own are edited or deleted.
         val own = editing.takeIf { !progress.course.builtIn }
-        val deletable = editing
         if (width.isExpanded) {
             Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
-                CourseSummary(progress, onOpenLesson, own, Modifier.weight(1f), deletable)
+                CourseSummary(progress, onOpenLesson, own, Modifier.weight(1f))
                 LessonList(progress, compact = false, onOpenLesson, own, Modifier.weight(2.05f))
             }
         } else {
-            CourseSummary(progress, onOpenLesson, own, Modifier.fillMaxWidth(), deletable)
+            CourseSummary(progress, onOpenLesson, own, Modifier.fillMaxWidth())
             LessonList(progress, compact, onOpenLesson, own, Modifier.fillMaxWidth())
         }
     }
@@ -365,7 +364,7 @@ internal fun CourseContent(
 
 /** What the course is, how far the reader has got, and the way into the next lesson. */
 @Composable
-private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Unit, editing: CourseEditing?, modifier: Modifier, deleting: CourseEditing? = editing) {
+private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Unit, editing: CourseEditing?, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     val course = progress.course
     var confirm by remember { mutableStateOf(false) }
@@ -380,7 +379,7 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                     Text(course.subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 // Deleting is kept in a menu by the title, away from the buttons that start and edit the course.
-                if (deleting != null) {
+                if (editing != null) {
                     OverflowMenu(tr("Course actions"), buttonModifier = Modifier.testTag("course-menu")) { close ->
                         AppMenuItem(text = { Text(tr("Delete course"), color = colors.error) }, onClick = { close(); confirm = true })
                     }
@@ -419,11 +418,11 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
             if (editing != null) {
                 SecondaryButton(tr("Edit course"), onClick = editing.onEdit, modifier = Modifier.fillMaxWidth().testTag("edit-course"), icon = Icons.Default.Edit)
             }
-            if (deleting != null && confirm) {
+            if (editing != null && confirm) {
                 ConfirmDelete(
                     tr("Delete this course?"),
                     trPlural(course.lessons.size, "{1} and its {0} lesson are deleted, with your reading progress in them. Words you saved stay in your vocabulary.", "{1} and its {0} lessons are deleted, with your reading progress in them. Words you saved stay in your vocabulary.", course.title),
-                    onConfirm = { confirm = false; deleting.onDelete() },
+                    onConfirm = { confirm = false; editing.onDelete() },
                     onDismiss = { confirm = false },
                 )
             }
