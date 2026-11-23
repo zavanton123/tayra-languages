@@ -8,7 +8,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Book packs" to "Πακέτα βιβλίων",
     "Reset" to "Επαναφορά",
     "Reset to defaults" to "Επαναφορά προεπιλογών",
-    "Changes are saved automatically." to "Οι αλλαγές αποθηκεύονται αυτόματα.",
     "Reset to defaults?" to "Επαναφορά προεπιλογών;",
     "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Το θέμα, η επισήμανση, το μέγεθος και τα διαστήματα κειμένου και το δείγμα στατιστικών επανέρχονται στις προεπιλογές.",
     "Cancel" to "Ακύρωση",

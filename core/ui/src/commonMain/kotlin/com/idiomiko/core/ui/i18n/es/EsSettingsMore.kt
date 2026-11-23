@@ -8,7 +8,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Book packs" to "Paquetes de libros",
     "Reset" to "Restablecer",
     "Reset to defaults" to "Restablecer valores predeterminados",
-    "Changes are saved automatically." to "Los cambios se guardan automáticamente.",
     "Reset to defaults?" to "¿Restablecer los valores predeterminados?",
     "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "El tema, el resaltado, el tamaño y el espaciado de lectura y el tamaño de la muestra de estadísticas vuelven a sus valores predeterminados.",
     "Cancel" to "Cancelar",

@@ -8,7 +8,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Book packs" to "Пакеты книг",
     "Reset" to "Сбросить",
     "Reset to defaults" to "Сбросить настройки",
-    "Changes are saved automatically." to "Изменения сохраняются автоматически.",
     "Reset to defaults?" to "Сбросить настройки?",
     "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Тема, подсветка, размер текста и интервал, а также выборка для статистики вернутся к значениям по умолчанию.",
     "Cancel" to "Отмена",

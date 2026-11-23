@@ -77,7 +77,6 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
                 PhoneLanguageRow(LanguageCatalog.nativeOption(ui.code).name, label = ui.name, tag = "interface-language") { uiSheet = true }
             }
             if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth())
-            InfoBanner(tr("Changes are saved automatically."))
         }
     }
     if (learningSheet && learning != null) {

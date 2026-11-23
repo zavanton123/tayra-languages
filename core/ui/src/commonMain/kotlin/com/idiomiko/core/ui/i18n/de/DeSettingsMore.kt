@@ -8,7 +8,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Book packs" to "Buchpakete",
     "Reset" to "Zurücksetzen",
     "Reset to defaults" to "Auf Standard zurücksetzen",
-    "Changes are saved automatically." to "Änderungen werden automatisch gespeichert.",
     "Reset to defaults?" to "Auf Standard zurücksetzen?",
     "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Design, Hervorhebung, Lesegröße und Abstände sowie die Stichprobengröße der Statistik werden auf die Standardwerte zurückgesetzt.",
     "Cancel" to "Abbrechen",

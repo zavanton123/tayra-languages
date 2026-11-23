@@ -8,7 +8,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Book packs" to "Packs de livres",
     "Reset" to "Réinitialiser",
     "Reset to defaults" to "Rétablir les valeurs par défaut",
-    "Changes are saved automatically." to "Les modifications sont enregistrées automatiquement.",
     "Reset to defaults?" to "Rétablir les valeurs par défaut ?",
     "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Le thème, le surlignage, la taille et l’espacement du texte et l’échantillon des statistiques reviennent à leurs valeurs par défaut.",
     "Cancel" to "Annuler",

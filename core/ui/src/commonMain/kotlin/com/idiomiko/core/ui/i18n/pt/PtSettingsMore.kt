@@ -8,7 +8,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Book packs" to "Pacotes de livros",
     "Reset" to "Redefinir",
     "Reset to defaults" to "Restaurar padrões",
-    "Changes are saved automatically." to "As alterações são salvas automaticamente.",
     "Reset to defaults?" to "Restaurar os padrões?",
     "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "O tema, o destaque, o tamanho e o espaçamento do texto e a amostra das estatísticas voltam ao padrão.",
     "Cancel" to "Cancelar",

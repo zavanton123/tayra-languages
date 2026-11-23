@@ -188,7 +188,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     }
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         PreviewCard(settings)
-                        InfoBanner(tr("Changes are saved automatically."))
                         SettingsIndex(settings, onNavigate, compact = false)
                     }
                 }
@@ -201,7 +200,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                 if (viewModel.commandLine != null) CommandLineCard(viewModel)
                 viewModel.browserBridge?.let { BrowserExtensionCard(it) }
                 viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
-                InfoBanner(tr("Changes are saved automatically."))
             }
         }
     }
