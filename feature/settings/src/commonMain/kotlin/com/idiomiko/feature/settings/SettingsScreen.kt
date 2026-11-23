@@ -52,7 +52,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.model.TermStatus
-import com.idiomiko.core.domain.service.AppUpdateService
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.components.MarkedText
@@ -97,11 +96,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import org.koin.compose.viewmodel.koinViewModel
 
-class SettingsViewModel(
-    private val settings: SettingsRepository,
-    /** The desktop app's updates; other platforms have none. */
-    val updates: AppUpdateService? = null,
-) : ViewModel() {
+class SettingsViewModel(private val settings: SettingsRepository) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
 
     fun update(transform: (UserSettings) -> UserSettings) = viewModelScope.launch { settings.update(transform) }
@@ -146,7 +141,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                             AppearanceCard(settings, viewModel)
                             ReadingCard(settings, viewModel)
                             BehaviourCard(settings, viewModel)
-                            viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                         }
                         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             PreviewCard(settings)
@@ -159,7 +153,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     PreviewCard(settings)
                     BehaviourCard(settings, viewModel)
                     SettingsIndex(settings, onNavigate, compact = false)
-                    viewModel.updates?.let { AppUpdatesCard(it, settings) { on -> viewModel.update { s -> s.copy(checkForUpdates = on) } } }
                 }
             }
         }

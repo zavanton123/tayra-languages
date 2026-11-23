@@ -14,7 +14,8 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val settingsModule = module {
-    viewModel { SettingsViewModel(get(), getOrNull()) }
+    viewModel { SettingsViewModel(get()) }
+    viewModel { UpdatesViewModel(get(), getOrNull()) }
     viewModel { PersonalSchedulingViewModel(get(), get()) }
     viewModel { RetentionHelpViewModel(get(), get()) }
     viewModel { DictionaryImportViewModel(get()) }
@@ -62,5 +63,6 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
         )
     }
     composable<Route.About> { AboutScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.Updates> { UpdatesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.ExperimentalFeatures> { ExperimentalFeaturesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
 }

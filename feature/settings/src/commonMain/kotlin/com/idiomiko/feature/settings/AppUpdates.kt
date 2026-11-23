@@ -68,14 +68,14 @@ fun AppUpdateBanner(service: AppUpdateService? = getKoin().getOrNull()) {
     }
 }
 
-/** The app's version and its updates, in the desktop app's settings. */
+/** The app's version and its updates, on the desktop app's Updates page. */
 @Composable
-internal fun AppUpdatesCard(service: AppUpdateService, settings: UserSettings, onCheckAtStart: (Boolean) -> Unit) {
+internal fun AppUpdatesCard(service: AppUpdateService, settings: UserSettings, modifier: Modifier = Modifier, onCheckAtStart: (Boolean) -> Unit) {
     val state by service.state.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
     val colors = MaterialTheme.colorScheme
     val version = service.currentVersion
-    ContentCard(tr("App updates"), null, icon = AppIcons.Download) {
+    ContentCard(tr("App updates"), null, icon = AppIcons.Download, modifier = modifier) {
         Text(
             if (version != null) tr("Version {0}", version) else tr("A run from the sources; update it with git."),
             style = MaterialTheme.typography.bodyLarge,

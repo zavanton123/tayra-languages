@@ -4,15 +4,15 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsNotSelected
+import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isToggleable
-import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.performClick
-import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
@@ -25,16 +25,16 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
-/** The offer of a new release across the top of the app, and the app's updates in Settings. */
+/** The offer of a new release across the top of the app, and the app's updates on their settings page. */
 @OptIn(ExperimentalTestApi::class)
 class AppUpdatesScreenTest {
 
     private val update = AppUpdate("0.6.0", "notes", "https://example/v0.6.0", UpdateInstaller("Idiomiko-0.6.0-macos-arm64.dmg", "https://example/x.dmg", 10, null))
 
     /** An updater that offers [offer] and holds the download until the test lets it go on. */
-    private class FakeUpdater(var offer: AppUpdate?) : AppUpdater {
-        override val currentVersion = "0.5.0"
+    private class FakeUpdater(var offer: AppUpdate?, override val currentVersion: String? = "0.5.0") : AppUpdater {
         val downloadGoesOn = CompletableDeferred<Unit>()
         var installed: String? = null
         override suspend fun check() = offer
@@ -74,25 +74,59 @@ class AppUpdatesScreenTest {
     }
 
     @Test
-    fun settingsShowTheVersionAndCheckWhenAsked() = runDesktopComposeUiTest(width = 1580, height = 2200) {
+    fun theUpdatesPageShowsTheVersionAndChecksWhenAsked() = runDesktopComposeUiTest(width = 1580, height = 1000) {
         val settings = SettingsRepositoryImpl(MapSettings())
         val updater = FakeUpdater(null)
         val service = AppUpdateService(updater, settings)
-        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings, updates = service)) } }
+        setContent { Hosted(settings) { UpdatesScreen(onNavigate = {}, onBack = {}, viewModel = UpdatesViewModel(settings, service)) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Version 0.5.0")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("check-updates").performScrollTo().performClick()
+        onNodeWithTag("settings-section-UPDATES").assertIsSelected()
+        onNodeWithTag("settings-section-GENERAL").assertIsNotSelected()
+        onNodeWithTag("check-updates").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("You have the latest version")).fetchSemanticsNodes().isNotEmpty() }
 
         updater.offer = update
-        onNodeWithTag("check-updates").performScrollTo().performClick()
+        onNodeWithTag("check-updates").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Install and restart")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("UPDATE_SETTINGS_SCREENSHOT")?.let { save(it) }
+    }
 
-        // The card's switch is the last on the page.
-        onAllNodes(isToggleable()).onLast().performScrollTo().performClick()
+    @Test
+    fun theSwitchSavesWhetherToCheckAtStart() = runDesktopComposeUiTest(width = 1580, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = AppUpdateService(FakeUpdater(null), settings)
+        setContent { Hosted(settings) { UpdatesScreen(onNavigate = {}, onBack = {}, viewModel = UpdatesViewModel(settings, service)) } }
+
+        assertEquals(true, settings.current.checkForUpdates)
+        onNode(isToggleable()).performClick()
         waitUntil(timeoutMillis = 5_000) { !settings.current.checkForUpdates }
-        assertEquals(false, settings.current.checkForUpdates)
+        onNode(isToggleable()).performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.checkForUpdates }
+    }
+
+    /** A run from the sources has no version to update: the page says so and offers neither the check nor the switch. */
+    @Test
+    fun aRunFromTheSourcesSaysToUpdateWithGit() = runDesktopComposeUiTest(width = 1580, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = AppUpdateService(FakeUpdater(null, currentVersion = null), settings)
+        setContent { Hosted(settings) { UpdatesScreen(onNavigate = {}, onBack = {}, viewModel = UpdatesViewModel(settings, service)) } }
+
+        onNodeWithText("A run from the sources; update it with git.").assertExists()
+        onNodeWithTag("check-updates").assertDoesNotExist()
+        assertTrue(onAllNodes(isToggleable()).fetchSemanticsNodes().isEmpty())
+    }
+
+    /** The General page no longer holds the app's updates; they have a page of their own. */
+    @Test
+    fun theGeneralPageLeavesTheUpdatesOut() = runDesktopComposeUiTest(width = 1580, height = 2200) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
+
+        onNodeWithText("App updates").assertDoesNotExist()
+        onNodeWithTag("check-updates").assertDoesNotExist()
+        onNodeWithTag("settings-section-UPDATES").assertExists()
+        System.getenv("UPDATE_GENERAL_SCREENSHOT")?.let { save(it) }
     }
 
     private fun ComposeUiTest.save(path: String) {
