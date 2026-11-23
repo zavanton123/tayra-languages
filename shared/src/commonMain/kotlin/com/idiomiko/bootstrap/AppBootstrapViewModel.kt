@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import co.touchlab.kermit.Logger
 import com.idiomiko.core.domain.flashcards.CardSentences
 import com.idiomiko.core.domain.service.ChineseScriptService
+import com.idiomiko.core.domain.service.CommandLineSetup
 import com.idiomiko.core.domain.service.CutWordsMigration
 import com.idiomiko.core.domain.service.BookStatsService
 import com.idiomiko.core.domain.service.DemoDataService
@@ -17,6 +18,7 @@ import com.idiomiko.core.domain.service.LearningLanguageService
 import com.idiomiko.core.domain.courses.CoursePackService
 import com.idiomiko.core.domain.books.BookPackService
 import com.idiomiko.core.domain.courses.CourseService
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -32,7 +34,8 @@ sealed interface BootstrapState {
 /**
  * Opens the database and makes sure the catalog languages exist, with demo data on first start,
  * then keeps saved translations in the native language, gives words being learned a translation
- * and flashcards a sentence, for as long as the app runs. It never syncs: only the reader starts a sync.
+ * and flashcards a sentence, for as long as the app runs. Once the app is up, the installed desktop
+ * app puts its `idiomiko` command on the PATH on its first run. It never syncs: only the reader starts a sync.
  */
 class AppBootstrapViewModel(
     private val demoData: DemoDataService,
@@ -54,6 +57,8 @@ class AppBootstrapViewModel(
     private val emptyExceptions: EmptyExceptionsMigration? = null,
     /** In the web app, takes up a sign-in made on another page of the service. */
     private val accounts: AccountRepository? = null,
+    /** On the desktop, puts the `idiomiko` command on the PATH the first time the installed app runs. */
+    private val commandLineSetup: CommandLineSetup? = null,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<BootstrapState>(BootstrapState.Loading)
@@ -74,6 +79,7 @@ class AppBootstrapViewModel(
                 cutWords?.migrate()
                 emptyExceptions?.migrate()
                 _state.value = BootstrapState.Ready
+                commandLineSetup?.let { viewModelScope.launch { setUpCommandLine(it) } }
                 bookStats.refreshAll()
                 dictionaries.refresh()
                 translationLanguages.start(viewModelScope)
@@ -85,6 +91,20 @@ class AppBootstrapViewModel(
                 Logger.e(e) { "Bootstrap failed" }
                 _state.value = BootstrapState.Failed(e.message ?: e.toString())
             }
+        }
+    }
+
+    /** Failures are only logged: the command is a convenience, and the app asks nothing about it. */
+    private suspend fun setUpCommandLine(setup: CommandLineSetup) {
+        try {
+            val result = setup.run() ?: return
+            val error = result.error
+            if (error != null) Logger.w { "Could not put the idiomiko command on the PATH: $error" }
+            else Logger.i { "Put the idiomiko command on the PATH at ${result.location}" + (result.pathChangedIn?.let { "; PATH changed in $it" } ?: "") }
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            Logger.w(e) { "Could not set up the idiomiko command" }
         }
     }
 }

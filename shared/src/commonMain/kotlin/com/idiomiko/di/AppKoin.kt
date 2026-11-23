@@ -16,6 +16,8 @@ import com.idiomiko.feature.settings.settingsModule
 import com.idiomiko.feature.stats.statsModule
 import com.idiomiko.feature.terms.termsModule
 import com.idiomiko.core.domain.morphology.ChineseScriptTables
+import com.idiomiko.core.domain.service.CommandLineSetup
+import com.idiomiko.core.domain.service.CommandLineTool
 import com.idiomiko.core.ui.chinese.ResourceChineseScriptTables
 import org.koin.core.context.startKoin
 import org.koin.core.module.Module
@@ -24,7 +26,13 @@ import org.koin.dsl.module
 
 private val appModule = module {
     single<ChineseScriptTables> { ResourceChineseScriptTables() }
-    viewModel { AppBootstrapViewModel(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull(), getOrNull(), getOrNull(), getOrNull()) }
+    viewModel {
+        AppBootstrapViewModel(
+            get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), getOrNull(), getOrNull(), getOrNull(), getOrNull(),
+            // Only the desktop app has a command-line tool.
+            commandLineSetup = getOrNull<CommandLineTool>()?.let { CommandLineSetup(it, get()) },
+        )
+    }
 }
 
 /** Feature modules wired into the app. */

@@ -31,9 +31,9 @@ class DesktopCommandLineToolTest {
     }
 
     /** The PATH a new terminal would get: [path], plus ~/.local/bin once a profile line added it. */
-    private fun tool(path: List<String>?, shell: String = "/bin/zsh", launcher: File? = File(app, "Idiomiko"), source: File? = null) =
+    private fun tool(path: List<String>?, shell: String = "/bin/zsh", launcher: File? = File(app, "Idiomiko")) =
         DesktopCommandLineTool(
-            appLauncher = launcher, sourceLauncher = source, javaHome = "/opt/jdk", home = home, windows = false, mac = true, shell = shell,
+            appLauncher = launcher, home = home, windows = false, mac = true, shell = shell,
             terminalPath = { path?.let { if (profileAdded()) it + "~/.local/bin" else it } },
         )
 
@@ -94,16 +94,6 @@ class DesktopCommandLineToolTest {
         assertTrue(status.installed)
         assertEquals(File(other, "idiomiko").absolutePath, status.location)
         assertFalse(status.removable)
-    }
-
-    @Test
-    fun aRunFromTheSourcesInstallsTheBuiltCommandWithItsJava() = runBlocking {
-        val built = File(root, "cli/build/install/idiomiko/bin/idiomiko").apply { parentFile.mkdirs(); writeText("#!/bin/sh\n"); setExecutable(true) }
-        val tool = tool(path = listOf("/usr/bin"), launcher = null, source = built)
-        assertTrue(tool.available)
-        assertTrue(tool.install().installed)
-        val script = File(home, ".local/bin/idiomiko").readText()
-        assertTrue("export JAVA_HOME=\"/opt/jdk\"" in script && built.absolutePath in script, script)
     }
 
     @Test

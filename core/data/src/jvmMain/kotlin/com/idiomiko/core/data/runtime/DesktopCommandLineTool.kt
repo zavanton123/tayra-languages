@@ -15,15 +15,12 @@ import java.util.concurrent.TimeUnit
  * Windows. On macOS and Linux a two-line script in `~/.local/bin` runs that launcher, and when the
  * login shell does not search that folder yet, a line in its profile adds it. On Windows an
  * `idiomiko.cmd` doing the same goes in a folder of its own, which goes on the user's PATH. Either
- * way only new terminals see the change. A run from the sources uses the command that `:cli:installDist` builds instead.
+ * way only new terminals see the change. A run from the sources has no bundled launcher, so nothing to
+ * install; there `./gradlew :cli:run` runs the command.
  */
 class DesktopCommandLineTool(
     /** The app's own launcher; jpackage names it in this property. */
     appLauncher: File? = System.getProperty("jpackage.app-path")?.let(::File),
-    /** The command built from the sources, which desktopApp's `run` task names for a run without installers. */
-    private val sourceLauncher: File? = System.getProperty(SOURCE_LAUNCHER_PROPERTY)?.let(::File),
-    /** The Java the built command needs; the installed app brings its own. */
-    private val javaHome: String = System.getProperty("java.home"),
     private val home: File = File(System.getProperty("user.home")),
     private val windows: Boolean = System.getProperty("os.name").lowercase().contains("win"),
     private val mac: Boolean = System.getProperty("os.name").lowercase().contains("mac"),
@@ -32,9 +29,7 @@ class DesktopCommandLineTool(
     private val terminalPath: () -> List<String>? = { loginShellPath(shell) },
 ) : CommandLineTool {
 
-    private val bundledLauncher: File? = appLauncher?.parentFile?.resolve(if (windows) "idiomiko-cli.exe" else "idiomiko-cli")?.takeIf { it.isFile }
-
-    private val launcher: File? get() = bundledLauncher ?: sourceLauncher?.takeIf { it.isFile }
+    private val launcher: File? = appLauncher?.parentFile?.resolve(if (windows) "idiomiko-cli.exe" else "idiomiko-cli")?.takeIf { it.isFile }
 
     override val available: Boolean get() = launcher != null
 
@@ -95,9 +90,7 @@ class DesktopCommandLineTool(
 
     private fun installOnUnix(launcher: File): CommandLineStatus {
         binDir.mkdirs()
-        // The command built from the sources is a start script that looks for Java; the app's launcher brings its own.
-        val java = if (launcher == bundledLauncher) "" else "export JAVA_HOME=\"$javaHome\"\n"
-        script.writeText("#!/bin/sh\n# $MARKER: runs the command-line tool of the app.\n${java}exec \"${launcher.absolutePath}\" \"\$@\"\n")
+        script.writeText("#!/bin/sh\n# $MARKER: runs the command-line tool of the app.\nexec \"${launcher.absolutePath}\" \"\$@\"\n")
         script.setExecutable(true, false)
         val path = terminalPath()
         val searched = path?.any { File(it.replaceFirst("~", home.absolutePath)).absoluteFile == binDir.absoluteFile } == true
@@ -157,7 +150,6 @@ class DesktopCommandLineTool(
 
     companion object {
         const val MARKER = "Added by Idiomiko"
-        const val SOURCE_LAUNCHER_PROPERTY = "idiomiko.cliLauncher"
         private const val UNIX_PATH_LINE = "export PATH=\"\$HOME/.local/bin:\$PATH\"  # $MARKER"
         private const val PATH_PREFIX = "__IDIOMIKO_PATH__="
 

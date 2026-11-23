@@ -105,10 +105,6 @@ compose.desktop {
 // while it was open broke the next screen it drew with NoClassDefFoundError. Runs start from a private copy instead;
 // replacing the copy only unlinks the old files, which an app that is still open keeps reading.
 tasks.withType<JavaExec>().matching { it.name == "run" }.configureEach {
-    // A run from the sources has no bundled `idiomiko`; Settings > Command-line tool puts the one :cli builds on the PATH instead.
-    dependsOn(":cli:installDist")
-    val windowsHost = System.getProperty("os.name").lowercase().contains("win")
-    systemProperty("idiomiko.cliLauncher", rootDir.resolve("cli/build/install/idiomiko/bin/" + if (windowsHost) "idiomiko.bat" else "idiomiko").absolutePath)
     val projectRoot = rootDir.absolutePath + File.separator
     val copies = layout.buildDirectory.dir("run-classpath").get().asFile
     val fileCollections = objects
@@ -136,7 +132,7 @@ jbrJava?.let { java ->
 // The installed app carries a second launcher, `idiomiko-cli` (the app's own is `Idiomiko`, the same name to
 // macOS and Windows), that runs the command line of :cli on the app's own
 // runtime and jars: a console program on Windows, and headless so macOS shows no Dock icon for it.
-// Settings > Command-line tool puts it on the PATH.
+// The app puts it on the PATH the first time it runs (CommandLineSetup).
 val cliLauncherProperties = layout.buildDirectory.file("cli-launcher/idiomiko-cli.properties")
 val writeCliLauncherProperties by tasks.registering {
     val target = cliLauncherProperties
