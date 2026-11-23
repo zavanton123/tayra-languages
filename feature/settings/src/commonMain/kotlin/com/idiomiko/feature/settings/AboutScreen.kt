@@ -1,5 +1,6 @@
 package com.idiomiko.feature.settings
 
+import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.components.ScreenTitle
@@ -18,8 +19,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.rememberScrollState
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.SettingsSection
-import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.appVersion
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -28,18 +27,21 @@ import com.idiomiko.core.ui.theme.AppSpacing
 
 @Composable
 fun AboutScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit = { onNavigate(Route.Settings) }) {
-    // Opened from Settings like its other pages, it has their way back on a phone.
+    // Reached from the account menu, it stands alone: no settings sidebar beside it, a way back on a phone.
     Scaffold(topBar = { AppTopBar(title = tr("About"), onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) }) { padding ->
-        SettingsPane(SettingsSection.ABOUT, padding, onNavigate) { inner ->
-            ScrollColumn(Modifier.padding(inner).fillMaxSize(), contentModifier = Modifier.padding(AppSpacing.l).widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                ScreenTitle(tr("About"))
-                Text("Idiomiko", style = MaterialTheme.typography.headlineSmall)
-                appVersion()?.let { Text(tr("Version {0}", it), modifier = Modifier.testTag("about-version"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                Text(tr("Learn languages by reading. Import texts, select words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
-                Text(tr("A reader for learning languages through texts, on Android, iOS, desktop and the web."), style = MaterialTheme.typography.bodyMedium)
-                Text(tr("Credits"), style = MaterialTheme.typography.titleMedium)
-                CREDITS.forEach { Text(tr(it), style = MaterialTheme.typography.bodySmall) }
-            }
+        val content: @Composable () -> Unit = {
+            ScreenTitle(tr("About"))
+            Text("Idiomiko", style = MaterialTheme.typography.headlineSmall)
+            appVersion()?.let { Text(tr("Version {0}", it), modifier = Modifier.testTag("about-version"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+            Text(tr("Learn languages by reading. Import texts, select words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
+            Text(tr("A reader for learning languages through texts, on Android, iOS, desktop and the web."), style = MaterialTheme.typography.bodyMedium)
+            Text(tr("Credits"), style = MaterialTheme.typography.titleMedium)
+            CREDITS.forEach { Text(tr(it), style = MaterialTheme.typography.bodySmall) }
+        }
+        if (LocalWindowWidth.current.isCompact) {
+            ScrollColumn(Modifier.padding(padding).fillMaxSize(), contentModifier = Modifier.padding(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { content() }
+        } else {
+            PageColumn(padding) { Column(Modifier.widthIn(max = TEXT_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) { content() } }
         }
     }
 }

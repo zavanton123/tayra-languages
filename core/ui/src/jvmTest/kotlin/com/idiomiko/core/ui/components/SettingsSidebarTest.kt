@@ -68,7 +68,7 @@ class SettingsSidebarTest {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.CLEAR_DATA, onNavigate = { visited += it }) } } }
         assertEquals(
-            listOf("General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "About", "Experiments"),
+            listOf("General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "Experiments"),
             SettingsSection.entries.map { it.label },
         )
         onNodeWithTag("settings-section-CLEAR_DATA").assertIsSelected()

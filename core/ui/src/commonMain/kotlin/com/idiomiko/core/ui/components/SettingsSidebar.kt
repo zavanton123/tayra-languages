@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -57,7 +56,6 @@ enum class SettingsSection(val label: String, val route: Route, val icon: ImageV
     TRANSLATION("Translation", Route.OfflineTranslation, AppIcons.Translate),
     BACKUPS("Backups", Route.Backups, AppIcons.UploadFile),
     CLEAR_DATA("Clear data", Route.ClearData, AppIcons.DeleteOutline),
-    ABOUT("About", Route.About, Icons.Default.Info),
     EXPERIMENTS("Experiments", Route.ExperimentalFeatures, AppIcons.Lightbulb),
 }
 

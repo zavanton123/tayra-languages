@@ -32,11 +32,11 @@ class AboutScreenTest {
         }
     }
 
-    /** A wide window shows About beside the settings sidebar, with About lit. */
+    /** A wide window shows About on its own, without the settings sidebar. */
     @Test
-    fun aWideWindowShowsAboutBesideTheSettingsSidebar() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aWideWindowShowsAboutWithoutTheSettingsSidebar() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         setContent { IdiomikoTheme { ProvideWindowWidth { AboutScreen(onNavigate = {}) } } }
-        onNodeWithTag("settings-section-ABOUT").assertIsSelected()
+        onNodeWithTag("settings-sidebar").assertDoesNotExist()
         System.getenv("ABOUT_SCREENSHOT")?.let { path ->
             waitForIdle()
             ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
