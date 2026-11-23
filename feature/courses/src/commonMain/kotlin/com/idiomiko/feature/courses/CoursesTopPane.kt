@@ -44,7 +44,7 @@ import com.idiomiko.core.domain.courses.CourseLevel
 import com.idiomiko.core.domain.courses.LevelProgress
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppVerticalDivider
-import com.idiomiko.core.ui.components.SecondaryButton
+import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.SegmentedToggle
 import com.idiomiko.core.ui.components.SelectMenu
 import com.idiomiko.core.ui.components.TagFilterMenu
@@ -73,7 +73,7 @@ internal fun CoursesTopPane(state: CoursesUiState, actions: CoursesActions, onLe
         Column(Modifier.padding(AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 SearchBox(state.search, actions.onSearch, Modifier.weight(1f))
-                SecondaryButton(tr("Create your own course"), actions.onNewCourse, Modifier.height(AppSizes.control).testTag("new-course"), icon = Icons.Default.Add)
+                PrimaryButton(tr("Create your own course"), actions.onNewCourse, Modifier.height(AppSizes.control).testTag("new-course"), icon = Icons.Default.Add)
             }
             FilterRow(state, actions)
         }

@@ -298,13 +298,13 @@ internal fun LevelHeading(level: CourseLevel, detail: String?, modifier: Modifie
     }
 }
 
-/** A level the reader is not at: its heading with how many courses it has, and a toggle that shows or hides them. */
+/** A level's heading with [detail], by default how many courses it has, and a toggle that shows or hides them. */
 @Composable
-internal fun FoldedLevelHeading(level: LevelProgress, expanded: Boolean, onToggle: () -> Unit, modifier: Modifier = Modifier) {
+internal fun FoldedLevelHeading(level: LevelProgress, expanded: Boolean, onToggle: () -> Unit, modifier: Modifier = Modifier, detail: String? = null) {
     val colors = MaterialTheme.colorScheme
     LevelHeading(
         level.level,
-        if (level.completed > 0) trPlural(level.courses, "{1} of {0} course", "{1} of {0} courses", level.completed) else trPlural(level.courses, "{0} course", "{0} courses"),
+        detail ?: if (level.completed > 0) trPlural(level.courses, "{1} of {0} course", "{1} of {0} courses", level.completed) else trPlural(level.courses, "{0} course", "{0} courses"),
         modifier.clip(AppShapes.control).clickable(onClick = onToggle).padding(vertical = AppSpacing.xs),
     ) {
         Row(Modifier.testTag("level-toggle-${level.level.name}"), verticalAlignment = Alignment.CenterVertically) {

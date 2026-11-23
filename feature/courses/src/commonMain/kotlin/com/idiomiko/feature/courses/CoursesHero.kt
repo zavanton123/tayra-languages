@@ -32,7 +32,6 @@ import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.courses.LessonProgress
 import com.idiomiko.core.domain.courses.LessonStatus
 import com.idiomiko.core.domain.home.NextUp
-import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.JourneyIllustration
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.PrimaryButton
@@ -83,7 +82,6 @@ internal fun NextLessonHero(next: NextUp.Lesson, onStart: () -> Unit, onOpenLess
                 onClick = onStart,
                 modifier = Modifier.testTag("start-lesson").then(if (compact) Modifier.weight(PRIMARY_SHARE) else Modifier),
                 size = ButtonSize.Large,
-                icon = if (compact) null else AppIcons.PlayArrow,
             )
             SecondaryButton(tr("All lessons"), onClick = onAllLessons, modifier = Modifier.testTag("all-lessons").then(if (compact) Modifier.weight(1f) else Modifier), size = ButtonSize.Large)
         }

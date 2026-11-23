@@ -149,7 +149,7 @@ internal fun viewSegments(): List<Segment<CoursesView>> =
  */
 @Stable
 internal class JourneyNav(val scroll: ScrollState, private val scope: CoroutineScope) {
-    /** The levels other than the reader's that are open, by level. */
+    /** The levels folded or unfolded by hand; the reader's level starts open, the others folded. */
     val expanded = mutableStateMapOf<CourseLevel, Boolean>()
 
     /** Whether the finished levels are unfolded. */
@@ -168,7 +168,7 @@ internal class JourneyNav(val scroll: ScrollState, private val scope: CoroutineS
     /** Opens the [level] (unfolding the finished levels for one of them) and scrolls it into view once it is laid out. */
     fun goTo(level: CourseLevel, journey: CourseJourney) {
         if (journey.finished.any { it.level == level }) showFinished = true
-        else if (level != journey.current) expanded[level] = true
+        else expanded[level] = true
         scope.launch {
             withFrameNanos { }
             withFrameNanos { }
@@ -264,13 +264,16 @@ internal fun Catalogue(state: CoursesUiState, actions: CoursesActions, nav: Jour
         val journey = state.journey
         val byLevel = state.courses.groupBy { it.course.level }
         journey.currentProgress?.let { level ->
+            val open = nav.expanded[level.level] != false
             Column(nav.mark(level.level), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 val known = journey.known
-                LevelHeading(
-                    level.level,
-                    if (known != null && known > 0) trPlural(known, "Picked for your {1} word", "Picked for your {1} words", formatCount(known)) else trPlural(level.courses, "{0} course", "{0} courses"),
+                FoldedLevelHeading(
+                    level,
+                    open,
+                    onToggle = { nav.expanded[level.level] = !open },
+                    detail = if (known != null && known > 0) trPlural(known, "Picked for your {1} word", "Picked for your {1} words", formatCount(known)) else null,
                 )
-                items(byLevel[level.level].orEmpty())
+                if (open) items(byLevel[level.level].orEmpty())
             }
         }
         val finished = journey.finished

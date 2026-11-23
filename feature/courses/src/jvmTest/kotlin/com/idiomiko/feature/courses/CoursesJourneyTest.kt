@@ -136,7 +136,7 @@ class CoursesJourneyTest {
         onNodeWithTag("journey-A1").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { exists("course-pt-mini-0100") }
         onNodeWithTag("course-pt-mini-0100").assertIsDisplayed()
-        assertEquals(2, onAllNodesWithText("Hide").fetchSemanticsNodes().size, "the finished levels and B2 can be folded again")
+        assertEquals(3, onAllNodesWithText("Hide").fetchSemanticsNodes().size, "B1, the finished levels and B2 can be folded again")
     }
 
     @Test
@@ -147,6 +147,11 @@ class CoursesJourneyTest {
         assertTrue(exists("course-pt-mini-1000"))
         onNodeWithTag("level-header-C1").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { exists("course-own-course-noticias") }
+        // The reader's level folds like the others, and its place on the journey opens it again.
+        onNodeWithTag("level-header-B1").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { !exists("course-pt-mini-1900") }
+        onNodeWithTag("journey-B1").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { exists("course-pt-mini-1900") }
     }
 
     @Test
