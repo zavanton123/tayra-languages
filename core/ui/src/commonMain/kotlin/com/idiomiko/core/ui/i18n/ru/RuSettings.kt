@@ -256,7 +256,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Speech recognition, medium quality" to "Распознавание речи, среднее качество",
     "Speech recognition, high quality" to "Распознавание речи, высокое качество",
     "Account" to "Аккаунт",
-    "Keep your library the same on all your devices." to "Одна и та же библиотека на всех ваших устройствах.",
     "Accounts are not available yet" to "Аккаунты пока недоступны",
     "This version of the app has no account service to sign in to." to "В этой версии приложения нет службы аккаунтов для входа.",
     "Create an account" to "Создать аккаунт",

@@ -256,7 +256,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Speech recognition, medium quality" to "语音识别，中等质量",
     "Speech recognition, high quality" to "语音识别，高质量",
     "Account" to "账户",
-    "Keep your library the same on all your devices." to "让你的资料库在所有设备上保持一致。",
     "Accounts are not available yet" to "账户功能尚不可用",
     "This version of the app has no account service to sign in to." to "此版本的应用没有可登录的账户服务。",
     "Create an account" to "创建账户",

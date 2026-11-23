@@ -256,7 +256,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Speech recognition, medium quality" to "Reconocimiento de voz, calidad media",
     "Speech recognition, high quality" to "Reconocimiento de voz, alta calidad",
     "Account" to "Cuenta",
-    "Keep your library the same on all your devices." to "Mantén tu biblioteca igual en todos tus dispositivos.",
     "Accounts are not available yet" to "Las cuentas aún no están disponibles",
     "This version of the app has no account service to sign in to." to "Esta versión de la app no tiene un servicio de cuentas en el que iniciar sesión.",
     "Create an account" to "Crear una cuenta",

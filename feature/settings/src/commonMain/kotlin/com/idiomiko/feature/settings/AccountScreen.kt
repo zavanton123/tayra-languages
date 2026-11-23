@@ -81,7 +81,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
 
 @Composable
 internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, onBack: () -> Unit) {
-    ScreenHeader(tr("Account"), tr("Keep your library the same on all your devices."), onBackToSettings = onBack)
+    ScreenHeader(tr("Account"), null, onBackToSettings = onBack)
     // Signed out, a problem is said in the form, beside the fields it is about.
     if (!state.signedOut) state.problem?.let { ProblemNotice(it, state.problemText) }
     state.done?.let { DoneNotice(it) }

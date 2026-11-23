@@ -256,7 +256,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Speech recognition, medium quality" to "Rozpoznawanie mowy, średnia jakość",
     "Speech recognition, high quality" to "Rozpoznawanie mowy, wysoka jakość",
     "Account" to "Konto",
-    "Keep your library the same on all your devices." to "Miej tę samą bibliotekę na wszystkich urządzeniach.",
     "Accounts are not available yet" to "Konta nie są jeszcze dostępne",
     "This version of the app has no account service to sign in to." to "Ta wersja aplikacji nie ma usługi kont, do której można się zalogować.",
     "Create an account" to "Załóż konto",

@@ -256,7 +256,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Speech recognition, medium quality" to "Αναγνώριση ομιλίας, μέτρια ποιότητα",
     "Speech recognition, high quality" to "Αναγνώριση ομιλίας, υψηλή ποιότητα",
     "Account" to "Λογαριασμός",
-    "Keep your library the same on all your devices." to "Κρατήστε τη βιβλιοθήκη σας ίδια σε όλες τις συσκευές σας.",
     "Accounts are not available yet" to "Οι λογαριασμοί δεν είναι ακόμη διαθέσιμοι",
     "This version of the app has no account service to sign in to." to "Αυτή η έκδοση της εφαρμογής δεν έχει υπηρεσία λογαριασμών για σύνδεση.",
     "Create an account" to "Δημιουργία λογαριασμού",

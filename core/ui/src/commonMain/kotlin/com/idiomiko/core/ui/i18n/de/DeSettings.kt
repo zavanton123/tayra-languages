@@ -256,7 +256,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Speech recognition, medium quality" to "Spracherkennung, mittlere Qualität",
     "Speech recognition, high quality" to "Spracherkennung, hohe Qualität",
     "Account" to "Konto",
-    "Keep your library the same on all your devices." to "Halte deine Bibliothek auf all deinen Geräten auf demselben Stand.",
     "Accounts are not available yet" to "Konten sind noch nicht verfügbar",
     "This version of the app has no account service to sign in to." to "Diese Version der App hat keinen Kontodienst zum Anmelden.",
     "Create an account" to "Konto erstellen",
