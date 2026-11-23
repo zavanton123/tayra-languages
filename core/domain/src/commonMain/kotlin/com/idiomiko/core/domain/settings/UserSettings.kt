@@ -78,8 +78,6 @@ data class UserSettings(
     val translationEngine: TranslationEngine = TranslationEngine.ARGOS,
     /** Google Cloud Translation API key, used only when [translationEngine] is [TranslationEngine.GOOGLE]. */
     val googleTranslateApiKey: String = "",
-    /** Python executable that has Argos Translate installed; empty means `python3` from the PATH. */
-    val argosPython: String = "",
     /** New flashcards introduced per day, per language. */
     val flashcardNewPerDay: Int = 20,
     /** Reviews shown per day, per language; 0 is no limit. */

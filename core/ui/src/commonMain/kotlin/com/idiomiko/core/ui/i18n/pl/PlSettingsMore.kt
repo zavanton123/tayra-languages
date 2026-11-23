@@ -68,8 +68,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     // BackupException messages from the backup repository, shown through tr(message).
     "This file is not a Idiomiko backup" to "Ten plik nie jest kopią zapasową Idiomiko",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "Ta kopia zapasowa została utworzona w nowszej wersji Idiomiko; zaktualizuj aplikację, aby ją przywrócić",
-    "No backups yet" to "Nie ma jeszcze kopii zapasowych",
-    "{0} local backups" to "{0} lokalna kopia zapasowa|{0} lokalne kopie zapasowe|{0} lokalnych kopii zapasowych",
     "Backups" to "Kopie zapasowe",
     "Protect your library, vocabulary, progress, and preferences." to "Zabezpiecz bibliotekę, słownictwo, postępy i ustawienia.",
     "Create a backup" to "Utwórz kopię zapasową",
@@ -101,7 +99,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "OK" to "OK",
     "Backup history" to "Historia kopii zapasowych",
     "Newest first." to "Od najnowszych.",
-    "{0} backups" to "{0} kopia zapasowa|{0} kopie zapasowe|{0} kopii zapasowych",
     "Create a backup to keep a copy of your data." to "Utwórz kopię zapasową, aby zachować swoje dane.",
     "Restoring replaces your current Idiomiko data after confirmation." to "Po potwierdzeniu przywrócenie zastąpi bieżące dane Tayry.",
     "Export" to "Eksportuj",

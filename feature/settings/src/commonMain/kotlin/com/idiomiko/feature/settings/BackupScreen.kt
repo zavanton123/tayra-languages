@@ -211,11 +211,6 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         scope.launch { viewModel.import(files.first().readBytes()) }
     }
     val compact = LocalWindowWidth.current.isCompact
-    val count = state.backups.size
-    val pill: @Composable () -> Unit = {
-        if (state.loaded) StatusPill(if (count == 0) tr("No backups yet") else trPlural(count, "{0} local backup", "{0} local backups"), if (count == 0) StatusTints.warning else StatusTints.ok)
-    }
-
     if (compact) {
         PhoneBackupsScreen(state, idle, viewModel, onImport = { picker.launch() }, onRestore = { restoring = it }, onDelete = { deleting = it }, onNavigate = onNavigate, onBack = onBack)
     } else Scaffold(
@@ -223,8 +218,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding, modifier = dropTarget) {
-            ScreenHeader(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), onBackToSettings = onBack) { if (!compact) pill() }
-            if (compact) pill()
+            ScreenHeader(tr("Backups"), null, onBackToSettings = onBack)
             val create: @Composable (Modifier) -> Unit = { m ->
                 ActionCard(
                     tr("Create a backup"),
@@ -357,7 +351,6 @@ private fun HistoryCard(
         tr("Newest first."),
         icon = AppIcons.History,
         modifier = modifier,
-        titleExtra = { if (state.backups.isNotEmpty()) Tag(trPlural(state.backups.size, "{0} backup", "{0} backups"), MaterialTheme.colorScheme.primary) },
     ) {
         if (state.loaded && state.backups.isEmpty()) {
             Text(
@@ -385,7 +378,7 @@ private fun HistoryCard(
 }
 
 /** How many of the newest backups the history shows until More opens the rest. */
-private const val RECENT_BACKUPS = 5
+private const val RECENT_BACKUPS = 3
 
 /** The newest backups, or all of them once [more] is open. */
 internal fun List<Backup>.recent(more: Boolean): List<Backup> = if (more) this else take(RECENT_BACKUPS)
@@ -463,9 +456,6 @@ private fun BackupRowContent(
                 Text(formatSize(backup.sizeBytes), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             if (!stacked) {
-                StatusDot(StatusTints.ok, size = AppSizes.dot)
-                Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("Ready"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
                 Spacer(Modifier.width(AppSpacing.xxl))
                 actions()
             }

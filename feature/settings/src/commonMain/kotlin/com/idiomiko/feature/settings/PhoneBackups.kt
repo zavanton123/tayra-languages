@@ -75,7 +75,6 @@ internal fun PhoneBackupsScreen(
     onBack: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
-    val count = state.backups.size
     Scaffold(
         topBar = {
             AppTopBar(title = tr("Backups"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS)
@@ -83,11 +82,6 @@ internal fun PhoneBackupsScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            // Every settings page shows where it stands the same way: a pill under its subtitle.
-            Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Text(tr("Protect your library, vocabulary, progress, and preferences."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-                if (state.loaded) StatusPill(if (count == 0) tr("No backups yet") else trPlural(count, "{0} local backup", "{0} local backups"), if (count == 0) StatusTints.warning else StatusTints.ok)
-            }
             AppCard {
                 CardHeader(tr("Protect your data"), tr("Save your library, vocabulary, progress, and preferences."), icon = AppIcons.Storage, size = CardHeaderSize.Dense)
                 Spacer(Modifier.height(AppSpacing.l))
@@ -106,10 +100,7 @@ internal fun PhoneBackupsScreen(
             }
             Progress(state)
             Column {
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Text(tr("Backup history"), style = AppText.headline)
-                    if (count > 0) Tag(trPlural(count, "{0} backup", "{0} backups"), colors.primary)
-                }
+                Text(tr("Backup history"), style = AppText.headline)
                 Text(tr("Newest first."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
             if (state.loaded && state.backups.isEmpty()) {
@@ -142,10 +133,7 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
                 Text(formatBackupTime(backup, seconds = false), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 if (latest) Tag(tr("Latest"), colors.primary)
             }
-            Row {
-                Text("${formatSize(backup.sizeBytes)} • ", style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-                Text(tr("Ready"), style = MaterialTheme.typography.bodySmall, color = StatusTints.ok)
-            }
+            Text(formatSize(backup.sizeBytes), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         Spacer(Modifier.width(AppSpacing.s))
         SecondaryButton(onClick = onRestore, enabled = enabled) { Text(tr("Restore")) }

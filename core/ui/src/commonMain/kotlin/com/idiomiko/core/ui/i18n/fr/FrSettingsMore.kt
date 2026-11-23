@@ -68,8 +68,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     // BackupException messages from the backup repository, shown through tr(message).
     "This file is not a Idiomiko backup" to "Ce fichier n’est pas une sauvegarde de Idiomiko",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "Cette sauvegarde a été créée par une version plus récente de Idiomiko ; mettez à jour l’application pour la restaurer",
-    "No backups yet" to "Aucune sauvegarde pour l’instant",
-    "{0} local backups" to "{0} sauvegarde locale|{0} sauvegardes locales",
     "Backups" to "Sauvegardes",
     "Protect your library, vocabulary, progress, and preferences." to "Protégez votre bibliothèque, votre vocabulaire, votre progression et vos préférences.",
     "Create a backup" to "Créer une sauvegarde",
@@ -101,7 +99,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "OK" to "OK",
     "Backup history" to "Historique des sauvegardes",
     "Newest first." to "Les plus récentes d’abord.",
-    "{0} backups" to "{0} sauvegarde|{0} sauvegardes",
     "Create a backup to keep a copy of your data." to "Créez une sauvegarde pour garder une copie de vos données.",
     "Restoring replaces your current Idiomiko data after confirmation." to "Après confirmation, la restauration remplace vos données Idiomiko actuelles.",
     "Export" to "Exporter",

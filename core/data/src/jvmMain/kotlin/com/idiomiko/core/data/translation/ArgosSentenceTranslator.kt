@@ -164,7 +164,6 @@ class ArgosSentenceTranslator(
         managed.ensure { _progress.value = it }
         _progress.value = "Installing Argos Translate (about a gigabyte, a few minutes)\u2026"
         managed.pip(listOf("argostranslate"), "Installing Argos Translate") { _progress.value = it }
-        settings.update { it.copy(argosPython = managed.python.absolutePath) }
         lock.withLock { stop() }
         if (!importOk()) error("argostranslate did not import after installation")
     }
@@ -227,7 +226,7 @@ class ArgosSentenceTranslator(
     }
 
     private fun ensureWorker(): Pair<BufferedWriter, BufferedReader> {
-        val python = settings.current.argosPython.trim().ifEmpty { managed.python.takeIf { it.exists() }?.absolutePath ?: "python3" }
+        val python = managed.python.takeIf { it.exists() }?.absolutePath ?: "python3"
         val current = process
         if (current != null && current.isAlive && startedWith == python) return writer!! to reader!!
         stop()

@@ -68,8 +68,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     // BackupException messages from the backup repository, shown through tr(message).
     "This file is not a Idiomiko backup" to "Αυτό το αρχείο δεν είναι αντίγραφο ασφαλείας του Idiomiko",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "Αυτό το αντίγραφο ασφαλείας δημιουργήθηκε από νεότερη έκδοση του Idiomiko· ενημερώστε την εφαρμογή για να το επαναφέρετε",
-    "No backups yet" to "Δεν υπάρχουν αντίγραφα ασφαλείας ακόμη",
-    "{0} local backups" to "{0} τοπικό αντίγραφο ασφαλείας|{0} τοπικά αντίγραφα ασφαλείας",
     "Backups" to "Αντίγραφα ασφαλείας",
     "Protect your library, vocabulary, progress, and preferences." to "Προστατέψτε τη βιβλιοθήκη, το λεξιλόγιο, την πρόοδο και τις προτιμήσεις σας.",
     "Create a backup" to "Δημιουργία αντιγράφου ασφαλείας",
@@ -101,7 +99,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "OK" to "OK",
     "Backup history" to "Ιστορικό αντιγράφων ασφαλείας",
     "Newest first." to "Πρώτα τα νεότερα.",
-    "{0} backups" to "{0} αντίγραφο ασφαλείας|{0} αντίγραφα ασφαλείας",
     "Create a backup to keep a copy of your data." to "Δημιουργήστε ένα αντίγραφο ασφαλείας για να κρατήσετε αντίγραφο των δεδομένων σας.",
     "Restoring replaces your current Idiomiko data after confirmation." to "Η επαναφορά αντικαθιστά τα τρέχοντα δεδομένα του Idiomiko μετά από επιβεβαίωση.",
     "Export" to "Εξαγωγή",

@@ -68,8 +68,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     // BackupException messages from the backup repository, shown through tr(message).
     "This file is not a Idiomiko backup" to "此文件不是 Idiomiko 备份",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "此备份由较新版本的 Idiomiko 创建；请更新应用后再恢复",
-    "No backups yet" to "还没有备份",
-    "{0} local backups" to "{0} 个本地备份",
     "Backups" to "备份",
     "Protect your library, vocabulary, progress, and preferences." to "保护你的书库、词汇、进度和偏好设置。",
     "Create a backup" to "创建备份",
@@ -101,7 +99,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "OK" to "确定",
     "Backup history" to "备份记录",
     "Newest first." to "最新的在前。",
-    "{0} backups" to "{0} 个备份",
     "Create a backup to keep a copy of your data." to "创建一个备份来保存数据副本。",
     "Restoring replaces your current Idiomiko data after confirmation." to "确认后，恢复操作将替换当前的 Idiomiko 数据。",
     "Export" to "导出",

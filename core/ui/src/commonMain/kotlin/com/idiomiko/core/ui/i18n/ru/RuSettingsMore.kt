@@ -68,8 +68,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     // BackupException messages from the backup repository, shown through tr(message).
     "This file is not a Idiomiko backup" to "Этот файл не является резервной копией Idiomiko",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "Эта резервная копия создана более новой версией Idiomiko; обновите приложение, чтобы восстановить её",
-    "No backups yet" to "Резервных копий пока нет",
-    "{0} local backups" to "{0} локальная резервная копия|{0} локальные резервные копии|{0} локальных резервных копий",
     "Backups" to "Резервные копии",
     "Protect your library, vocabulary, progress, and preferences." to "Сохраните библиотеку, слова, прогресс и настройки.",
     "Create a backup" to "Создать резервную копию",
@@ -101,7 +99,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "OK" to "ОК",
     "Backup history" to "История резервных копий",
     "Newest first." to "Сначала новые.",
-    "{0} backups" to "{0} резервная копия|{0} резервные копии|{0} резервных копий",
     "Create a backup to keep a copy of your data." to "Создайте резервную копию, чтобы сохранить свои данные.",
     "Restoring replaces your current Idiomiko data after confirmation." to "После подтверждения восстановление заменит текущие данные Idiomiko.",
     "Export" to "Экспортировать",

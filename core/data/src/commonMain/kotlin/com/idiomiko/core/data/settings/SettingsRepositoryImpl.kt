@@ -87,21 +87,18 @@ class SettingsRepositoryImpl(
     }
 
     /**
-     * The settings a backup carries, as stored values. API keys and the Python path stay out:
-     * secrets do not belong in a file, and the path only makes sense on this computer.
+     * The settings a backup carries, as stored values. API keys stay out: secrets do not belong in a file.
      */
     fun backupValues(): Map<String, String> {
         val values = StringMapSettings()
         write(current, values)
-        values.remove(Keys.ARGOS_PYTHON)
         return values.values
     }
 
-    /** Takes the settings in a backup's [values], keeping the API keys and Python path of this device. */
+    /** Takes the settings in a backup's [values], keeping the API keys of this device. */
     suspend fun restoreBackupValues(values: Map<String, String>) {
         val local = current
         val restored = read(StringMapSettings(values.toMutableMap()), googleTranslateApiKey = local.googleTranslateApiKey)
-            .copy(argosPython = local.argosPython)
         update { restored }
     }
 
@@ -163,7 +160,6 @@ class SettingsRepositoryImpl(
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
             googleTranslateApiKey = googleTranslateApiKey,
-            argosPython = store.getString(Keys.ARGOS_PYTHON, defaults.argosPython),
             flashcardNewPerDay = store.getInt(Keys.FLASHCARD_NEW_PER_DAY, defaults.flashcardNewPerDay).coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY),
             flashcardReviewsPerDay = store.getInt(Keys.FLASHCARD_REVIEWS_PER_DAY, defaults.flashcardReviewsPerDay).coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY),
             flashcardRetention = store.getInt(Keys.FLASHCARD_RETENTION, defaults.flashcardRetention)
@@ -292,7 +288,6 @@ class SettingsRepositoryImpl(
         store.putLong(Keys.LAST_UPDATE_CHECK, s.lastUpdateCheck)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
-        store.putString(Keys.ARGOS_PYTHON, s.argosPython)
         store.putInt(Keys.FLASHCARD_NEW_PER_DAY, s.flashcardNewPerDay)
         store.putInt(Keys.FLASHCARD_REVIEWS_PER_DAY, s.flashcardReviewsPerDay)
         store.putInt(Keys.FLASHCARD_RETENTION, s.flashcardRetention)
@@ -380,7 +375,6 @@ class SettingsRepositoryImpl(
         const val PRACTICE_TRANSLATION = "reading_practice_translation"
         const val TRANSLATION_ENGINE = "translation_engine"
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
-        const val ARGOS_PYTHON = "argos_python"
         const val TUTORIAL_BOOKS = "tutorial_books_added"
         const val NATIVE_LANGUAGE = "native_language"
         const val LEGACY_TRANSLATION_TARGET = "translation_target_language"

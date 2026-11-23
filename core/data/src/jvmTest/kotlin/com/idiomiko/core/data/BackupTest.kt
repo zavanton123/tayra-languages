@@ -87,20 +87,19 @@ class BackupTest {
         val language = env.languages.save(Language(name = "Portuguese"))
         val book = BookService(env.books, env.languages).create(BookDraft(languageId = language, title = "Lobo d'água", text = "O lobo d'água dorme."))
         val lobo = env.service.save(env.service.findOrNew(language, "lobo").copy(status = TermStatus.NEW_1, statusExplicitlySet = true, translation = "wolf"), sentence = "O lobo d'água dorme.")
-        env.settings.update { it.copy(currentLanguageId = language, readingFontScale = 1.3f, themeId = "sepia", googleTranslateApiKey = "secret-key", argosPython = "/usr/bin/python3") }
+        env.settings.update { it.copy(currentLanguageId = language, readingFontScale = 1.3f, themeId = "sepia", googleTranslateApiKey = "secret-key") }
 
         val backup = env.backups.create()
         assertEquals(LocalDateTime(2026, 10, 3, 12, 0, 0), backup.createdAt)
         assertEquals(listOf(backup.name), env.backups.list().map { it.name })
         val file = env.backups.read(backup.name)
         assertFalse(file.decodeToString().contains("secret-key"), "API keys stay out of backups")
-        assertFalse(file.decodeToString().contains("/usr/bin/python3"), "the Python path stays out of backups")
 
         // Everything changes after the backup.
         env.books.deleteBook(book)
         env.service.save(env.service.findOrNew(language, "gato").copy(status = TermStatus.NEW_2, statusExplicitlySet = true))
         env.service.setStatus(listOf(lobo), TermStatus.WELL_KNOWN)
-        env.settings.update { it.copy(readingFontScale = 2f, themeId = "default", googleTranslateApiKey = "new-key", argosPython = "/opt/python") }
+        env.settings.update { it.copy(readingFontScale = 2f, themeId = "default", googleTranslateApiKey = "new-key") }
 
         val undo = env.backups.restore(backup.name)
         assertEquals(listOf(undo.name, backup.name), env.backups.list().map { it.name }, "the data before the restore is backed up first, newest first")
@@ -116,7 +115,6 @@ class BackupTest {
         assertEquals("sepia", env.settings.current.themeId)
         assertEquals(language, env.settings.current.currentLanguageId)
         assertEquals("new-key", env.settings.current.googleTranslateApiKey, "this device's API key is kept")
-        assertEquals("/opt/python", env.settings.current.argosPython, "this device's Python path is kept")
 
         // New rows still get ids of their own.
         val gato = env.service.save(env.service.findOrNew(language, "gato").copy(status = TermStatus.NEW_1, statusExplicitlySet = true))

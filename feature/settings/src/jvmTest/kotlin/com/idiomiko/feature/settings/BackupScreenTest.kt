@@ -59,7 +59,7 @@ class BackupScreenTest {
         val viewModel = BackupViewModel(repository)
         setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = { restored = true }, viewModel = viewModel) } }
 
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No backups yet", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Create a backup to keep a copy of your data.")).fetchSemanticsNodes().isNotEmpty() }
         onAllNodes(hasText("Create backup") and hasClickAction()).onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00:00")).fetchSemanticsNodes().isNotEmpty() }
 
@@ -85,9 +85,9 @@ class BackupScreenTest {
         onNodeWithText("Oct 3, 2026, 12:00:00").assertExists()
     }
 
-    /** The history shows the five newest backups; More opens the older ones and Less puts them away. */
+    /** The history shows the three newest backups; More opens the older ones and Less puts them away. */
     @Test
-    fun onlyTheFiveNewestBackupsShowUntilMore() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun onlyTheThreeNewestBackupsShowUntilMore() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-backup-more", ".db").also { it.delete() }))
         val settings = SettingsRepositoryImpl(MapSettings())
         val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("idiomiko-backup-more").toFile()), Ticking(), timeZone = { TimeZone.UTC })
@@ -96,8 +96,8 @@ class BackupScreenTest {
         setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:30:00")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Oct 3, 2026, 12:10:00").assertExists()
-        onNodeWithText("Oct 3, 2026, 12:05:00").assertDoesNotExist()
+        onNodeWithText("Oct 3, 2026, 12:20:00").assertExists()
+        onNodeWithText("Oct 3, 2026, 12:15:00").assertDoesNotExist()
         onNodeWithTag("backups-more").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00:00")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("backups-more").performScrollTo().performClick()
@@ -120,7 +120,7 @@ class BackupScreenTest {
         runBlocking { books.deleteBook(book) }
         val viewModel = BackupViewModel(repository)
         setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No backups yet", substring = true)).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Create a backup to keep a copy of your data.")).fetchSemanticsNodes().isNotEmpty() }
 
         // Declining keeps the file in the list and the data as it is.
         viewModel.import(exported)
@@ -154,7 +154,7 @@ class BackupScreenTest {
         onNodeWithTag("phone-create-backup").performClick()
         // The phone row leaves the seconds out.
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("1 local backup").assertExists()
+        onNodeWithText("1 local backup", substring = true).assertDoesNotExist()
         System.getenv("BACKUP_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 
         onNodeWithTag("phone-whats-included").performScrollTo().performClick()

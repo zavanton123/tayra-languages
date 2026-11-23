@@ -191,7 +191,7 @@ fun OfflineTranslationScreen(
     val packages by viewModel.packages.collectAsStateWithLifecycle()
     val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
     var checked by remember { mutableStateOf(false) }
-    LaunchedEffect(settings.argosPython, settings.translationEngine) {
+    LaunchedEffect(settings.translationEngine) {
         if (settings.translationEngine == TranslationEngine.ARGOS) {
             viewModel.check()
             checked = true
@@ -301,7 +301,6 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
-    var advanced by remember { mutableStateOf(false) }
     // The engine working is not the whole story: until the pair's packages are in, it is amber, as the status pill above says.
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
@@ -332,32 +331,6 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
         Spacer(Modifier.height(AppSpacing.m))
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
         AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
-    }
-    if (viewModel.hasRuntimeSetup) {
-        Spacer(Modifier.height(AppSpacing.m))
-        Column(
-            Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel),
-        ) {
-            Row(
-                Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
-                Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("Advanced runtime settings"), style = MaterialTheme.typography.bodyLarge)
-            }
-            Reveal(advanced) {
-                AppTextField(
-                    value = settings.argosPython,
-                    onValueChange = { v -> viewModel.update { it.copy(argosPython = v.trim()) } },
-                    label = { Text(tr("Python executable (optional)")) },
-                    placeholder = { Text(tr("The app's own Python")) },
-                    supportingText = { Text(tr("Leave empty to use the Python the app downloads for itself, or give the full path to one that has argostranslate installed.")) },
-                    singleLine = true,
-                    modifier = Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m),
-                )
-            }
-        }
     }
 }
 
