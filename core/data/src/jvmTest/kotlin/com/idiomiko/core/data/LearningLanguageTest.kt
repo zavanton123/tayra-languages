@@ -60,7 +60,7 @@ class LearningLanguageTest {
         assertEquals(portuguese, service.ensure())
     }
 
-    /** The app leaves the first language to the user; one that is gone is still replaced. */
+    /** The app leaves the language to the user: one that is gone gives way to another being learned, or to the user's choice. */
     @Test
     fun anUnchosenLanguageIsLeftForTheUser() = runBlocking<Unit> {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-learning-unchosen", ".db").also { it.delete() }))
@@ -68,11 +68,18 @@ class LearningLanguageTest {
         val settings = SettingsRepositoryImpl(MapSettings())
         val service = LearningLanguageService(settings, languages, BookRepositoryImpl(provider))
         val czech = languages.save(Language(name = "Czech"))
+        val polish = languages.save(Language(name = "Polish"))
         assertEquals(0, service.ensure(pickUnchosen = false))
         assertEquals(0, settings.current.currentLanguageId)
 
         settings.update { it.copy(currentLanguageId = 987_654) }
-        assertEquals(czech, service.ensure(pickUnchosen = false))
+        assertEquals(0, service.ensure(pickUnchosen = false), "no language is picked for the user")
+        assertEquals(0, settings.current.currentLanguageId)
+
+        settings.update { it.copy(currentLanguageId = 987_654, myLanguages = "987654,$polish") }
+        assertEquals(polish, service.ensure(pickUnchosen = false), "another language being learned takes its place")
+        assertEquals(listOf(polish), service.mine())
+        assertTrue(czech != polish)
     }
 
     @Test

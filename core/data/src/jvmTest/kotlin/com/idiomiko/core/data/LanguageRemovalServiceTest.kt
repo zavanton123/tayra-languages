@@ -192,4 +192,16 @@ class LanguageRemovalServiceTest {
         assertEquals(0, settings.current.currentLanguageId)
         assertEquals(emptyList(), learning.mine())
     }
+
+    /** A language left in the list after it was deleted another way does not take the removed one's place. */
+    @Test
+    fun aLanguageThatIsGoneDoesNotTakeTheRemovedOnesPlace() = runBlocking<Unit> {
+        languages.save(Language(name = "Afrikaans"))
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        learning.select(portuguese)
+        settings.update { it.copy(myLanguages = "987654,$portuguese") }
+        service.remove(portuguese)
+        assertEquals(0, settings.current.currentLanguageId, "the user is asked for the next language")
+        assertEquals(emptyList(), learning.mine())
+    }
 }

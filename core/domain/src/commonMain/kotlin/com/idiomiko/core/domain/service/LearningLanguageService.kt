@@ -62,14 +62,20 @@ class LearningLanguageService(
      * Makes sure a language that still exists is chosen, picking one when none is: the language
      * of the book read last, else of any book, else the first by name, passing over the native
      * language while another one is there. Returns its id, or 0 when there are no languages.
-     * While none was ever chosen (0, as on first start), one is picked only when [pickUnchosen]:
-     * otherwise it is left for the user to choose.
+     * Unless [pickUnchosen], the app leaves the choice to the user: a chosen language that is gone
+     * gives way to another one being learned, or to none, to be asked for.
      */
     suspend fun ensure(pickUnchosen: Boolean = true): Long {
         val every = languages.getAll()
         val current = settings.current.currentLanguageId
         if (every.any { it.id == current }) return current
         if (current == 0L && !pickUnchosen) return 0
+        if (!pickUnchosen) {
+            val ids = every.map { it.id }.toSet()
+            val next = decode(settings.current.myLanguages).firstOrNull { it in ids } ?: 0L
+            settings.update { s -> s.copy(currentLanguageId = next, myLanguages = encode(decode(s.myLanguages).filter { it in ids })) }
+            return next
+        }
         val all = every.filterNot { isNative(it) }.ifEmpty { every }
         val shelf = books.observeBooks(archived = false).first().filter { book -> all.any { it.id == book.languageId } }
         val pick = shelf.filter { it.lastOpened != null }.maxByOrNull { it.lastOpened!! }?.languageId
@@ -98,8 +104,10 @@ class LearningLanguageService(
      */
     suspend fun forget(languageId: Long) {
         fillMine()
+        // Ids of languages deleted some other way may linger in the list; none of them takes the place.
+        val ids = languages.getAll().map { it.id }.toSet()
         settings.update { s ->
-            val rest = decode(s.myLanguages) - languageId
+            val rest = decode(s.myLanguages).filter { it != languageId && it in ids }
             val current = if (s.currentLanguageId == languageId) rest.firstOrNull() ?: 0L else s.currentLanguageId
             s.copy(currentLanguageId = current, myLanguages = encode(rest), knownWordCounts = encodeCounts(counts(s.knownWordCounts) - languageId))
         }
