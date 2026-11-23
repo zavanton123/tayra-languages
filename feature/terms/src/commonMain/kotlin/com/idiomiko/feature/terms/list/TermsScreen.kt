@@ -79,6 +79,7 @@ import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ChipLeading
 import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.EmptyState
+import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.ListPager
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -494,6 +495,7 @@ private val STATUS_WIDTH = 120.dp
 private val ADDED_WIDTH = 110.dp
 private val MENU_WIDTH = 48.dp
 private val SPEAK_BUTTON = 32.dp
+private val PLAY_BUTTON = 26.dp
 private val SEARCH_FIELD_WIDTH = 560.dp
 private val TICK_DISC = 20.dp
 
@@ -523,23 +525,23 @@ private fun TermTableRow(term: Term, languageName: String, selected: Boolean, in
         else -> Color.Transparent
     }
     Row(
-        Modifier.fillMaxWidth().heightIn(min = AppSizes.row).background(background).hoverable(interaction).clickable { actions.onOpen(term) }
-            .padding(horizontal = AppSpacing.s, vertical = AppSpacing.s),
+        Modifier.fillMaxWidth().heightIn(min = AppSizes.touch).background(background).hoverable(interaction).clickable { actions.onOpen(term) }
+            .padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
         val code = LanguageCodes.codeFor(languageName)
-        Row(Modifier.weight(TERM_WEIGHT).padding(start = AppSpacing.s, end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Row(Modifier.weight(TERM_WEIGHT).padding(start = AppSpacing.s, end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             PlayButton(term.displayText, code, actions.speaker)
-            Text(term.displayText, style = AppText.sectionTitle, color = colors.primary, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(term.displayText, style = AppText.itemTitleBold, color = colors.primary, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         CaptionedCell(tr("Translation"), term.translation, Modifier.weight(TRANSLATION_WEIGHT).padding(end = AppSpacing.m))
-        Row(Modifier.weight(EXAMPLE_WEIGHT).padding(end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+        Row(Modifier.weight(EXAMPLE_WEIGHT).padding(end = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             term.sentence?.let { PlayButton(it, code, actions.speaker) }
             CaptionedCell(tr("Example"), term.sentence, Modifier.weight(1f, fill = false))
         }
         Box(Modifier.width(STATUS_WIDTH)) { StatusChip(term.status, named = true) { actions.onStatus(term, it) } }
-        Text(term.createdAt?.let(::addedLabel).orEmpty(), Modifier.width(ADDED_WIDTH), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        Text(term.createdAt?.let(::addedLabel).orEmpty(), Modifier.width(ADDED_WIDTH), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { RowMenu(term, actions) }
     }
 }
@@ -575,15 +577,15 @@ private fun CompactTermRow(term: Term, languageName: String, selected: Boolean, 
 /** A word or sentence read aloud from a round button in the table. */
 @Composable
 private fun PlayButton(text: String, languageCode: String?, speaker: Speaker) =
-    SpeakButton(text, languageCode, speaker, Modifier.size(SPEAK_BUTTON), style = IconButtonStyle.Tonal, shape = AppShapes.circle, icon = AppIcons.PlayArrow)
+    SpeakButton(text, languageCode, speaker, Modifier.size(PLAY_BUTTON), style = IconButtonStyle.Tonal, size = IconButtonSize.Small, shape = AppShapes.circle, icon = AppIcons.PlayArrow)
 
 /** A cell's value under a small caption naming it; nothing where there is no value. */
 @Composable
 private fun CaptionedCell(caption: String, value: String?, modifier: Modifier = Modifier) {
     Column(modifier) {
         if (!value.isNullOrBlank()) {
-            Text(caption, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            Text(value, style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Text(caption, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text(value, style = MaterialTheme.typography.bodyMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
     }
 }
