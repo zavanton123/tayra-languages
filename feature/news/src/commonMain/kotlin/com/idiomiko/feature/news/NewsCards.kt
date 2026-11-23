@@ -49,6 +49,7 @@ import com.idiomiko.core.domain.news.NewsTopics
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.CoverageCheck
+import com.idiomiko.core.ui.components.EmptyStateIllustration
 import com.idiomiko.core.ui.components.JourneyIllustration
 import com.idiomiko.core.ui.components.PlaceholderLine
 import com.idiomiko.core.ui.components.PrimaryButton
@@ -403,6 +404,7 @@ internal fun NoMatchCard(state: NewsUiState, actions: NewsActions, compact: Bool
         message = tr("Try another topic or source, or clear the filters."),
         compact = compact,
         tag = "news-no-match",
+        art = { EmptyStateIllustration(Modifier.width(if (compact) AppSizes.emptyArtCompact else AppSizes.emptyArt)) },
     ) {
         Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             SecondaryButton(tr("Clear filters"), onClick = actions.onClear, modifier = Modifier.testTag("no-match-clear"))
@@ -411,15 +413,22 @@ internal fun NoMatchCard(state: NewsUiState, actions: NewsActions, compact: Bool
     }
 }
 
-/** The mascot, a title and a message centred on a card, and what to do about it. */
+/** The mascot ([art]), a title and a message centred on a card, and what to do about it. */
 @Composable
-internal fun MessageCard(title: String, message: String, compact: Boolean, tag: String, actions: @Composable ColumnScope.() -> Unit) {
+internal fun MessageCard(
+    title: String,
+    message: String,
+    compact: Boolean,
+    tag: String,
+    art: @Composable () -> Unit = { JourneyIllustration(Modifier.width(if (compact) 140.dp else 180.dp)) },
+    actions: @Composable ColumnScope.() -> Unit,
+) {
     Column(
         Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(if (compact) AppSpacing.xl else AppSpacing.xxxl).testTag(tag),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        JourneyIllustration(Modifier.width(if (compact) 140.dp else 180.dp))
+        art()
         Text(title, style = if (compact) AppText.sectionTitle else AppText.headline, textAlign = TextAlign.Center)
         Text(message, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         Spacer(Modifier.height(AppSpacing.xs))

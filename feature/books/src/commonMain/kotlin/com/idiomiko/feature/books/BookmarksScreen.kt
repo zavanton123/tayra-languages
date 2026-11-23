@@ -29,7 +29,7 @@ import com.idiomiko.core.domain.repository.BookRepository
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.EmptyMessage
+import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.ScreenTitle
 import com.idiomiko.core.ui.components.ScrollList
@@ -71,7 +71,7 @@ fun BookmarksScreen(
         Column(Modifier.padding(padding).fillMaxSize()) {
             ScreenTitle(tr("Bookmarks: {0}", state.title), Modifier.padding(AppSpacing.l))
             if (state.bookmarks.isEmpty()) {
-                EmptyMessage(tr("No bookmarks yet. Add one from the reading menu."))
+                EmptyState(tr("No bookmarks yet. Add one from the reading menu."), Modifier.padding(horizontal = AppSpacing.l))
             } else {
                 ScrollList(Modifier.fillMaxSize()) {
                     items(state.bookmarks, key = { it.id }) { bookmark -> Column(itemMotion()) {

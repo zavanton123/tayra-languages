@@ -44,7 +44,6 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
@@ -457,22 +456,16 @@ private fun ItemMenu(item: PlaylistItem, index: Int, count: Int, viewModel: Play
 private fun EmptyPlaylist(onAdd: () -> Unit, onBack: (() -> Unit)?) {
     val colors = MaterialTheme.colorScheme
     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-        Column(
-            Modifier.fillMaxWidth().clip(AppShapes.large).background(colors.primary.copy(alpha = AppAlpha.wash))
-                .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.tint)), AppShapes.large)
-                .padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.huge).testTag("empty-playlist"),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
-        ) {
-            Box(Modifier.size(EMPTY_CIRCLE).clip(AppShapes.circle).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
-                Icon(AppIcons.PlaylistAdd, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconHuge))
-            }
-            Text(tr("This playlist is empty"), style = AppText.headline, textAlign = TextAlign.Center)
-            Text(tr("Add books, course lessons or individual texts to start listening."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-            Spacer(Modifier.height(AppSpacing.xs))
-            PrimaryButton(tr("Add texts"), onClick = onAdd, icon = Icons.Default.Add, modifier = Modifier.testTag("add-texts"))
-            if (onBack != null) LinkText(tr("Back to playlists"), onClick = onBack)
-        }
+        EmptyState(
+            tr("This playlist is empty"),
+            Modifier.testTag("empty-playlist"),
+            message = tr("Add books, course lessons or individual texts to start listening."),
+            action = {
+                Spacer(Modifier.height(AppSpacing.s))
+                PrimaryButton(tr("Add texts"), onClick = onAdd, icon = Icons.Default.Add, modifier = Modifier.testTag("add-texts"))
+                if (onBack != null) LinkText(tr("Back to playlists"), onClick = onBack)
+            },
+        )
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Icon(AppIcons.Lightbulb, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon))
             Text(tr("You can also add the current text from the reader."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
@@ -487,4 +480,3 @@ private val PAGE_ROW_COVER = 34.dp
 private val NUMBER = 28.dp
 private val META = 150.dp
 private val STATUS = 130.dp
-private val EMPTY_CIRCLE = 112.dp

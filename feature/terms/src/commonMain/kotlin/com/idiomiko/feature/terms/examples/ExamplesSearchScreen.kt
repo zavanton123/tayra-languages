@@ -89,7 +89,7 @@ import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.ChipSize
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.Crumb
-import com.idiomiko.core.ui.components.EmptyMessage
+import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.ErrorMessage
 import com.idiomiko.core.ui.components.HoverTranslatedText
 import com.idiomiko.core.ui.components.IconButtonStyle
@@ -306,19 +306,21 @@ fun ExamplesSearchScreen(
                 when {
                     state.searching -> item { PlaceholderCards(4, lines = 1) }
                     state.results.isEmpty() -> item {
-                        Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-                            EmptyMessage(if (state.failed) unreachable(query.source) else tr("No examples match these filters."), Modifier.fillMaxWidth())
-                            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                                if (state.failed) SecondaryButton(tr("Retry"), onClick = viewModel::search, icon = Icons.Default.Refresh)
-                                state.fallbackSources.forEach { source ->
-                                    val label = when (source) {
-                                        ExampleSource.COURSES -> tr("Try my courses")
-                                        else -> tr("Try Leipzig Corpora")
+                        EmptyState(
+                            if (state.failed) unreachable(query.source) else tr("No examples match these filters."),
+                            action = {
+                                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                                    if (state.failed) SecondaryButton(tr("Retry"), onClick = viewModel::search, icon = Icons.Default.Refresh)
+                                    state.fallbackSources.forEach { source ->
+                                        val label = when (source) {
+                                            ExampleSource.COURSES -> tr("Try my courses")
+                                            else -> tr("Try Leipzig Corpora")
+                                        }
+                                        SecondaryButton(label, onClick = { viewModel.setSource(source) })
                                     }
-                                    SecondaryButton(label, onClick = { viewModel.setSource(source) })
                                 }
-                            }
-                        }
+                            },
+                        )
                     }
                     else -> {
                         itemsIndexed(state.results) { index, example ->

@@ -109,6 +109,7 @@ import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.Confetti
 import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.EdgeScrollbar
+import com.idiomiko.core.ui.components.EmptyStateIllustration
 import com.idiomiko.core.ui.components.FreshViewModels
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
@@ -1072,8 +1073,13 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        Box(Modifier.size(FINISHED_ICON_TILE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
-            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
+        // With no answer given there was nothing to review: the mascot, not a tick.
+        if (state.answered == 0 && !state.limitReached) {
+            EmptyStateIllustration(Modifier.width(if (LocalWindowWidth.current.isCompact) AppSizes.emptyArtCompact else AppSizes.emptyArt))
+        } else {
+            Box(Modifier.size(FINISHED_ICON_TILE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.soft)), contentAlignment = Alignment.Center) {
+                Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
+            }
         }
         if (state.limitReached) {
             QuickSessionDone(state, actions)

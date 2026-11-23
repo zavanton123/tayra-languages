@@ -176,6 +176,10 @@ object AppSizes {
     val tileLarge = 48.dp
     val tileXLarge = 56.dp
 
+    /** The width of the mascot on an empty state: on a phone, and on a wider window. */
+    val emptyArtCompact = 180.dp
+    val emptyArt = 240.dp
+
     /** The widths of dialogs and panels. */
     val dialogNarrow = 440.dp
     val dialog = 560.dp

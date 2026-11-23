@@ -89,6 +89,7 @@ import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.FindBooksIllustration
+import com.idiomiko.core.ui.components.EmptyStateIllustration
 import com.idiomiko.core.ui.components.JourneyIllustration
 import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -570,7 +571,7 @@ private fun NoMatch(state: FindBooksUiState, actions: FindBooksActions, harder: 
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        JourneyIllustration(Modifier.width(NO_MATCH_MASCOT))
+        EmptyStateIllustration(Modifier.width(if (LocalWindowWidth.current.isCompact) AppSizes.emptyArtCompact else AppSizes.emptyArt))
         Text(
             when {
                 levelOnly -> tr("No book here is this easy for you yet.")

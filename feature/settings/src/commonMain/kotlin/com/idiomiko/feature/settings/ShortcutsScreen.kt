@@ -68,6 +68,7 @@ import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.CardHeader
+import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.HeaderButton
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -122,7 +123,7 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
             val levels = learningLevels
             val groups = HotkeyAction.byCategory.mapValues { (_, actions) -> actions.filter { it.matches(query, hotkeys[it]) && (levels || it !in LEVEL_ACTIONS) } }.filterValues { it.isNotEmpty() }
             if (groups.isEmpty()) {
-                Text(tr("No shortcuts match “{0}”.", query.trim()), style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                EmptyState(tr("No shortcuts match “{0}”.", query.trim()))
             }
             val card: @Composable (HotkeyCategory, List<HotkeyAction>) -> Unit = { category, actions ->
                 CategoryCard(category, actions, hotkeys, conflicts, editing, onEdit = { editing = it }, onDone = { editing = null }, onAssign = assign)
