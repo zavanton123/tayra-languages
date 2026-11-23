@@ -334,5 +334,5 @@ private val SIDEBAR = 300.dp
 private val FOUR_COLUMNS = 1000.dp
 private val THREE_COLUMNS = 720.dp
 
-/** The main column's width from which the next lesson's card has room for its picture. */
-private val PICTURE_WIDTH = 820.dp
+/** The main column's width from which the next lesson's card has room for its picture beside the ten stops of its path. */
+private val PICTURE_WIDTH = 960.dp
