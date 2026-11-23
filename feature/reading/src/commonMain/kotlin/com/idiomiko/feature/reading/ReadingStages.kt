@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -34,7 +35,9 @@ import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.model.ReadingStage
+import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.AppTooltip
 import com.idiomiko.core.ui.components.BadgeEmphasis
 import com.idiomiko.core.ui.components.CountBadge
@@ -184,25 +187,27 @@ internal fun CheckStageButton(stage: ReadingStage, done: Boolean, onCheck: () ->
 
 /**
  * Above the text: the stage being worked on and what to do in it, beside the button that opens a
- * stage done in a dialog. Its place in the order is the chain's to show.
+ * stage done in a dialog, and a cross that closes the note for this stage. Its place in the order is the chain's to show.
  */
 @Composable
-internal fun StageNote(stage: ReadingStage, stages: List<ReadingStage>, onAction: () -> Unit, modifier: Modifier = Modifier) {
+internal fun StageNote(stage: ReadingStage, stages: List<ReadingStage>, onAction: () -> Unit, onClose: () -> Unit, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
+    val accent = AppAccents.onWash(AppAccents.blue)
     val number = tr("Stage {0} of {1}: {2}", stages.indexOf(stage) + 1, stages.size, stage.title())
     Row(
-        modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.tint))
-            .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.line)), AppShapes.card)
-            .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("stage-note"),
+        modifier.fillMaxWidth().clip(AppShapes.card).background(AppAccents.blue.copy(alpha = AppAlpha.soft))
+            .border(AppBorders.hairline(AppAccents.blue.copy(alpha = AppAlpha.line)), AppShapes.card)
+            .padding(start = AppSpacing.xl, top = AppSpacing.l, bottom = AppSpacing.l, end = AppSpacing.s).testTag("stage-note"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Icon(stage.icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconXLarge))
-        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-            Text(stage.title(), style = AppText.itemTitle, modifier = Modifier.semantics { contentDescription = number })
-            Text(stage.hint(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+        Icon(stage.icon, contentDescription = null, tint = accent, modifier = Modifier.size(AppSizes.iconHuge))
+        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Text(stage.title(), style = AppText.sectionTitle, modifier = Modifier.semantics { contentDescription = number })
+            Text(stage.hint(), style = MaterialTheme.typography.bodyLarge, color = colors.onSurface)
         }
         stage.action()?.let { label -> SecondaryButton(label, onClick = onAction, modifier = Modifier.testTag("stage-action")) }
+        AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.align(Alignment.Top).testTag("stage-note-close"), size = IconButtonSize.Small, tint = colors.onSurfaceVariant)
     }
 }
 

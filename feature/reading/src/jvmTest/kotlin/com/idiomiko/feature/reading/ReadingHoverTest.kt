@@ -301,8 +301,12 @@ class ReadingHoverTest {
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
         }
 
+        // Closing the stage's note hides it for this stage only: the next stage shows its own.
+        rule.onNodeWithTag("stage-note-close").performClick()
+        rule.onNodeWithTag("stage-note").assertDoesNotExist()
         rule.onNodeWithContentDescription("Check: Read aloud").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("5 words marked as known").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("stage-note").assertExists()
         System.getenv("READING_TOAST_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))

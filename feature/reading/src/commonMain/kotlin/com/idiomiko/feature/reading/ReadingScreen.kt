@@ -798,6 +798,8 @@ private fun ReadingBody(
     val wordLocator = remember { WordLocator() }
     val viewport = remember { arrayOfNulls<LayoutCoordinates>(1) }
     var viewportSize by remember { mutableStateOf(IntSize.Zero) }
+    // The stages whose note above the text the reader closed; the others still show theirs.
+    var closedNotes by remember { mutableStateOf(emptySet<ReadingStage>()) }
     CentreWordOnResize(scrollState, state.marked.minOrNull(), wordLocator, viewportSize) { viewport[0] }
     val compact = LocalWindowWidth.current.isCompact
     val edgePadding = AppSpacing.l
@@ -825,7 +827,9 @@ private fun ReadingBody(
             state.translationProgress?.let { TranslationProgress(it) }
                 ?: state.translationError?.let { TranslationNotice(it, viewModel, onSettings) }
             AppDivider(Modifier.padding(bottom = AppSpacing.xl))
-            StageNote(state.stage, state.pageStages, onAction = { openStage(state.stage) }, Modifier.padding(bottom = AppSpacing.xl))
+            if (state.stage !in closedNotes) {
+                StageNote(state.stage, state.pageStages, onAction = { openStage(state.stage) }, onClose = { closedNotes += state.stage }, Modifier.padding(bottom = AppSpacing.xl))
+            }
             state.flash?.let { Text(it, color = MaterialTheme.colorScheme.tertiary, style = MaterialTheme.typography.labelLarge) }
             val chinese = state.language?.let { LanguageCodes.codeFor(it.name) } in setOf("zh", "yue")
             // Pinyin above the words is kept; zhuyin is written from it when chosen.
