@@ -123,6 +123,8 @@ fun EmptyState(
     title: String,
     modifier: Modifier = Modifier,
     message: String? = null,
+    /** A picture shown instead of [icon]. */
+    art: (@Composable () -> Unit)? = null,
     action: (@Composable () -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
@@ -131,7 +133,7 @@ fun EmptyState(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
-        Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconHuge))
+        if (art != null) art() else Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconHuge))
         Text(title, style = AppText.sectionTitle, textAlign = TextAlign.Center)
         if (message != null) Text(message, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         action?.invoke()

@@ -13,6 +13,7 @@ import idiomiko.core.ui.generated.resources.find_books_monkey_v4
 import idiomiko.core.ui.generated.resources.illustration_courses
 import idiomiko.core.ui.generated.resources.illustration_flashcards
 import idiomiko.core.ui.generated.resources.illustration_journey
+import idiomiko.core.ui.generated.resources.vocabulary_empty_monkey
 
 /** An open book in front of two text cards, on a soft disc: the courses page before there are courses. */
 @Composable
@@ -37,6 +38,12 @@ fun JourneyIllustration(modifier: Modifier = Modifier) {
 @Composable
 fun ArchivedBooksIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.archived_books_empty_monkey), contentDescription = null, modifier = modifier)
+}
+
+/** The mascot looking through a magnifying glass at an empty card, for a vocabulary with no words to show. */
+@Composable
+fun VocabularyEmptyIllustration(modifier: Modifier = Modifier) {
+    Image(painterResource(Res.drawable.vocabulary_empty_monkey), contentDescription = null, modifier = modifier)
 }
 
 /** The mascot reading through a magnifying glass beside a stack of books: finding books to read. */

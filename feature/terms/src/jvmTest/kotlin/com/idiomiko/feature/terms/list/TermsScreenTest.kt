@@ -208,6 +208,7 @@ class TermsScreenTest {
         show(termIds = emptyList())
         waitUntil(timeoutMillis = 5_000) { listed("No saved words here yet.") }
         assertEquals(false, listed("comprar"))
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-empty.png"))) }
     }
 
     /** Chosen terms can be practised: the list menu asks which kinds of question, any of them, then opens the practice on them. */
