@@ -539,7 +539,7 @@ gets its meaning and its parent.
 
 ## Course packs
 
-The ready-made courses of a language are one download, offered in Settings > Courses: a
+The ready-made courses of a language are one download, which the app fetches on its own (`LanguageAssets`): a
 gzip-compressed SQLite file (tables `meta`, `courses`, `lessons`) listed in `CoursePacks` and
 published as an asset of the `courses-v1` GitHub release; there are packs for `pt`, `en`, `de`, `fr`, `es`, `ru`, `it`, `sr`, `nl`, `da`, `no`, `sv` and `el`.
 `tools/build_courses.py --language <code>` checks each course in `tools/courses/<code>/` (written as its `BRIEF.md` says) and writes
@@ -575,7 +575,7 @@ the verb, participle and noun forms the wordfreq list and Wiktionary miss.
 
 ## Book packs
 
-A language's ready-made books are one download too, offered in Settings > Books and on the empty
+A language's ready-made books are one download too, fetched on its own as well and offered on the empty
 Books page: a gzip-compressed SQLite file (tables `meta`, `books`) listed in `BookPacks` and published as an
 asset of the `books-v1` GitHub release; there is a pack for `pt`. The texts are authentic works under a
 free licence (public domain, or CC BY-SA 4.0 for the Wikibooks and Wikipedia pages), listed with their
