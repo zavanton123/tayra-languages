@@ -484,7 +484,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Download or remove dictionaries and text recognition models on the Downloads page." to "Wörterbücher und Texterkennungsmodelle lädst du auf der Seite „Downloads“ herunter oder entfernst sie dort.",
     "Download or remove the translation models for the language you learn on the Downloads page." to "Die Übersetzungsmodelle für deine Lernsprache lädst du auf der Seite „Downloads“ herunter oder entfernst sie dort.",
     "Download or remove voices and speech recognition models on the Downloads page." to "Stimmen und Spracherkennungsmodelle lädst du auf der Seite „Downloads“ herunter oder entfernst sie dort.",
-    "Download or remove voices on the Downloads page." to "Stimmen lädst du auf der Seite „Downloads“ herunter oder entfernst sie dort.",
+    "Download other voices to choose from, or remove those you do not use." to "Lade weitere Stimmen zur Auswahl herunter oder entferne die, die du nicht nutzt.",
     "Browser extension" to "Browsererweiterung",
     "Watch YouTube with your Idiomiko words: coloured subtitles, lookups and saving words, while the app is open." to "YouTube mit deinen Idiomiko-Wörtern ansehen: farbige Untertitel, Nachschlagen und Speichern von Wörtern, solange die App geöffnet ist.",
     "Type this code into the Idiomiko extension:" to "Gib diesen Code in der Idiomiko-Erweiterung ein:",

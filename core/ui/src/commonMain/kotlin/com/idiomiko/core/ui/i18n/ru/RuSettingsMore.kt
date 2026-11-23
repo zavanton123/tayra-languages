@@ -484,7 +484,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Download or remove dictionaries and text recognition models on the Downloads page." to "Скачивайте и удаляйте словари и модели распознавания текста на странице «Загрузки».",
     "Download or remove the translation models for the language you learn on the Downloads page." to "Скачивайте и удаляйте модели перевода для изучаемого языка на странице «Загрузки».",
     "Download or remove voices and speech recognition models on the Downloads page." to "Скачивайте и удаляйте голоса и модели распознавания речи на странице «Загрузки».",
-    "Download or remove voices on the Downloads page." to "Скачивайте и удаляйте голоса на странице «Загрузки».",
+    "Download other voices to choose from, or remove those you do not use." to "Скачайте другие голоса на выбор или удалите те, которыми не пользуетесь.",
     "Browser extension" to "Расширение для браузера",
     "Watch YouTube with your Idiomiko words: coloured subtitles, lookups and saving words, while the app is open." to "Смотрите YouTube со своими словами из Idiomiko: цветные субтитры, поиск и сохранение слов, пока приложение открыто.",
     "Type this code into the Idiomiko extension:" to "Введите этот код в расширении Idiomiko:",

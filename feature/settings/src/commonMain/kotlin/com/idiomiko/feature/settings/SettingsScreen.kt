@@ -238,7 +238,6 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("Experimental features"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb),
     )
     val resources = listOf(
-        SettingsPage(tr("Downloads"), tr("Course and book packs, dictionaries, voices and offline models, to download or remove."), Route.Downloads, AppIcons.Download),
         SettingsPage(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), Route.OfflineDictionaries, AppIcons.MenuBook),
         SettingsPage(tr("Speech"), tr("Choose how words and passages are spoken."), Route.Speech, AppIcons.VolumeUp, speechEngineName(settings.speechEngine)),
         SettingsPage(tr("Translation"), tr("Choose how translations are generated and stored."), Route.OfflineTranslation, AppIcons.Translate, translationEngineName(settings.translationEngine)),
@@ -281,7 +280,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
 
 /** The pages the phone's More sheet lists, which a phone's settings index leaves out. */
 private val ON_MORE_SHEET = setOf<Route>(
-    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.Downloads, Route.Backups, Route.Account,
+    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.OfflineDictionaries, Route.Speech, Route.OfflineTranslation, Route.Backups, Route.Account,
 )
 
 /** The speech engine's short name, for the index: the system voices, Piper or Kokoro. */

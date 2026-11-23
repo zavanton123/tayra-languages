@@ -69,17 +69,17 @@ class AppTopBarTest {
         assertEquals(pages.map { it.second }, visited)
     }
 
-    /** The Downloads page is in the Settings menu, not a tab of its own. */
+    /** The Speech page is in the Settings menu, not a tab of its own. */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun theSettingsMenuLeadsToTheDownloads() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+    fun theSettingsMenuLeadsToTheSpeechSettings() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.BOOKS) } }
-        onNodeWithText("Downloads").assertDoesNotExist()
+        onNodeWithText("Speech").assertDoesNotExist()
         onNodeWithText("Settings").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Downloads").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Downloads").performClick()
-        assertEquals(listOf<Route>(Route.Downloads), visited)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Speech").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Speech").performClick()
+        assertEquals(listOf<Route>(Route.Speech), visited)
     }
 
     /** Signed in, the account's avatar ends the bar and takes the Account tab's place; it opens the account page. */
@@ -198,8 +198,8 @@ class AppTopBarTest {
         }
         onNodeWithText("More").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("About").fetchSemanticsNodes().isNotEmpty() }
-        onAllNodesWithText("Downloads").onLast().performClick()
-        assertEquals(listOf<Route>(Route.Downloads), visited)
+        onAllNodesWithText("Speech").onLast().performClick()
+        assertEquals(listOf<Route>(Route.Speech), visited)
     }
 
     @Test

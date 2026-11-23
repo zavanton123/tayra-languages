@@ -1,9 +1,6 @@
 package com.idiomiko.feature.settings
 
-import kotlin.test.assertEquals
-import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.assertCountEquals
-import com.idiomiko.core.ui.navigation.Route
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
@@ -18,10 +15,7 @@ import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onNodeWithContentDescription
-import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
-import androidx.compose.ui.test.performClick
-import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
@@ -81,9 +75,9 @@ class TranslationSettingsScreenTest {
         override suspend fun removePackage(fromCode: String, toCode: String) { installed -= "$fromCode-$toCode" }
     }
 
-    /** The page says what the pair lacks, and the models are downloaded on the Downloads page, which it leads to. */
+    /** The page says what the pair lacks; the app downloads the models on its own, so the page offers no downloads. */
     @Test
-    fun theMissingModelsAreFetchedFromTheDownloads() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun thePageSaysWhatThePairLacks() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-translation-settings", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -93,20 +87,17 @@ class TranslationSettingsScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
         }
         val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
-        val visited = mutableListOf<Route>()
-        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
 
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("downloads-link").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed. The language pair still needs a download.")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Search packages").assertDoesNotExist()
         onAllNodes(hasText("Install") and hasClickAction()).assertCountEquals(0)
-        onNodeWithTag("open-downloads").performScrollTo().performClick()
-        assertEquals(listOf<Route>(Route.Downloads), visited)
         assertFalse("pt-en" in argos.installed, "nothing is downloaded from this page")
     }
 
     @Test
-    fun aPhoneLeadsToTheDownloadsToo() = runDesktopComposeUiTest(width = 400, height = 1100) {
+    fun aPhoneSaysWhatThePairLacksToo() = runDesktopComposeUiTest(width = 400, height = 1100) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-translation-phone", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -116,13 +107,11 @@ class TranslationSettingsScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
         }
         val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
-        val visited = mutableListOf<Route>()
-        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
 
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("downloads-link").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed. The language pair still needs a download.")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
-        onNodeWithTag("open-downloads").performScrollTo().performClick()
-        assertEquals(listOf<Route>(Route.Downloads), visited)
+        onAllNodes(hasText("Install") and hasClickAction()).assertCountEquals(0)
     }
 
     private fun ComposeUiTest.save(path: String) {

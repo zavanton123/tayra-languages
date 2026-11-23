@@ -16,8 +16,7 @@ val settingsModule = module {
     viewModel { PersonalSchedulingViewModel(get(), get()) }
     viewModel { RetentionHelpViewModel(get(), get()) }
     viewModel { DictionariesViewModel(get(), get(), get()) }
-    viewModel { DownloadsViewModel(get(), get(), get(), get(), get(), get(), get(), get()) }
-    viewModel { SpeechViewModel(get(), get(), get(), getOrNull()) }
+    viewModel { SpeechViewModel(get(), get(), get(), getOrNull(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
     viewModel { AccountViewModel(get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>()) }
@@ -29,7 +28,6 @@ val settingsModule = module {
 fun NavGraphBuilder.settingsGraph(navController: NavController) {
     val navigate: (Route) -> Unit = { navController.navigate(it) }
     composable<Route.Settings> { SettingsScreen(onNavigate = navigate) }
-    composable<Route.Downloads> { DownloadsScreen(onNavigate = navigate) }
     composable<Route.Shortcuts> { ShortcutsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }, personal = koinViewModel(), retention = koinViewModel()) }

@@ -242,7 +242,6 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
                 LanguagePairCard(settings, viewModel, learningName, nativeName, onNavigate)
                 EngineCard(settings, viewModel, pair.ready)
             }
-            if (local) DownloadsLinkCard(modelsInDownloads(), onNavigate)
         }
     }
 }
@@ -473,5 +472,3 @@ internal fun TranslationEngine.shortName(localName: String): String = when (this
     TranslationEngine.GOOGLE -> "Google Translate"
 }
 
-/** What the Downloads page offers in place of this page's own downloads. */
-internal fun modelsInDownloads(): String = tr("Download or remove the translation models for the language you learn on the Downloads page.")

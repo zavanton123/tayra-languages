@@ -76,8 +76,8 @@ import com.idiomiko.core.ui.components.Reveal
 
 /**
  * The Speech page on a phone: a banner saying where speech stands, the engine picked from a sheet
- * with its status under it, playback with the voice and the speed, and the voices to download for
- * the language being learned, with a search for the rest.
+ * with its status under it, playback with the voice and the speed, and the voices and speech
+ * recognition models of the language being learned, to download or remove.
  */
 @Composable
 internal fun PhoneSpeechScreen(
@@ -116,7 +116,7 @@ internal fun PhoneSpeechScreen(
                 }
                 if (engine != null) {
                     Spacer(Modifier.height(AppSpacing.m))
-                    PhoneEngineStatus(viewModel, engine, voiceMissing = learning != null && voices[learning.code].isNullOrEmpty(), onNavigate)
+                    PhoneEngineStatus(viewModel, engine, voiceMissing = learning != null && voices[learning.code].isNullOrEmpty())
                 }
             }
             ContentCard(tr("Playback"), subtitle = null, icon = AppIcons.VolumeUp, dense = true) {
@@ -157,8 +157,8 @@ internal fun PhoneSpeechScreen(
                 }
                 PlaySample(viewModel, learning)
             }
-            DownloadsLinkCard(voicesInDownloads(viewModel.recognition != null), onNavigate)
-            if (viewModel.recognition != null) RecognitionCard(viewModel)
+            if (viewModel.downloadsHere) VoicesCard(viewModel, learning?.let { tr(it.name) }, dense = true)
+            if (viewModel.recognition != null) RecognitionCard(viewModel, dense = true)
             if (engine != null && engine.hasRuntimeSetup) AdvancedRow(viewModel, engine)
         }
     }
@@ -174,13 +174,15 @@ internal fun PhoneSpeechScreen(
 
 /** Whether the engine works; the install button shows only while it does not. */
 @Composable
-private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean, onNavigate: (Route) -> Unit) {
+private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
-    // The way to a voice is in the notice that says one is missing: the language's downloads.
+    val downloads by viewModel.downloads.collectAsStateWithLifecycle()
+    val downloadStates by viewModel.downloadStates.collectAsStateWithLifecycle()
+    // The way to a voice is in the notice that says one is missing: it downloads one in place.
     val working = ready && !failed
     // Amber while the language learned has no voice, as the status pill above says.
     val tint = when {
@@ -203,7 +205,7 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
         busy = busy,
         action = when {
             engine.hasRuntimeSetup && !ready && !busy -> { { PrimaryButton(tr("Install"), onClick = viewModel::install) } }
-            working && voiceMissing -> { { PrimaryButton(tr("Go to Downloads"), onClick = { onNavigate(Route.Downloads) }, modifier = Modifier.testTag("notice-download-voice")) } }
+            working && voiceMissing && viewModel.offersVoice(downloads, downloadStates) -> { { DownloadVoiceButton(viewModel) } }
             else -> null
         },
     ) {

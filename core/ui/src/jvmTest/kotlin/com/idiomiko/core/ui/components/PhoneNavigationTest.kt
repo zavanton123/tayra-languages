@@ -113,7 +113,7 @@ class PhoneNavigationTest {
         onNodeWithTag("more-Statistics").assertExists()
         // A row is lit across the sheet's whole width.
         assertEquals(onNodeWithTag("more-sheet").fetchSemanticsNode().boundsInRoot.width, onNodeWithTag("more-Statistics").fetchSemanticsNode().boundsInRoot.width, 1f)
-        onNodeWithTag("more-Downloads").performMouseInput { moveTo(center) }
+        onNodeWithTag("more-Speech").performMouseInput { moveTo(center) }
         System.getenv("MORE_SHEET_SCREENSHOT")?.let { path ->
             waitForIdle()
             javax.imageio.ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", java.io.File(path))

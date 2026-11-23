@@ -49,9 +49,15 @@ import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.language.LanguageOption
 import com.idiomiko.core.domain.repository.LanguageRepository
+import com.idiomiko.core.domain.service.LanguageAssets
+import com.idiomiko.core.domain.service.LanguageSetupService
 import com.idiomiko.core.domain.service.LocalSpeech
 import com.idiomiko.core.domain.service.LocalSpeechEngine
 import com.idiomiko.core.domain.service.SpeechEngine
+import com.idiomiko.core.domain.service.SetupItem
+import com.idiomiko.core.domain.service.SetupKind
+import com.idiomiko.core.domain.service.SetupState
+import com.idiomiko.core.domain.service.SetupStatus
 import com.idiomiko.core.domain.service.SpeechPackage
 import com.idiomiko.core.domain.service.SpeechVoice
 import com.idiomiko.core.domain.settings.SettingsRepository
@@ -94,11 +100,14 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
@@ -110,7 +119,10 @@ import com.idiomiko.core.domain.practice.SpeechRecognitionSetup
 import com.idiomiko.core.domain.practice.RecognitionModel
 import com.idiomiko.core.domain.practice.RecognitionQuality
 
-/** The speech engines: which one reads aloud, its runtime, and the voices to download. */
+/**
+ * The speech engines: which one reads aloud, its runtime, and the voices and speech recognition
+ * models of the language being learned, downloaded and removed in place through [setup].
+ */
 @OptIn(ExperimentalCoroutinesApi::class)
 class SpeechViewModel(
     private val settings: SettingsRepository,
@@ -118,6 +130,9 @@ class SpeechViewModel(
     val localSpeech: LocalSpeech,
     /** The recogniser to set up for speaking practice, where it needs setting up (the desktop). */
     val recognition: SpeechRecognitionSetup? = null,
+    private val setup: LanguageSetupService? = null,
+    /** What the app keeps on its own, which the page offers no Remove for: the last voice. */
+    private val assets: LanguageAssets? = null,
 ) : ViewModel() {
     val state: StateFlow<UserSettings> = settings.settings
     val settingsRepository: SettingsRepository get() = settings
@@ -189,6 +204,80 @@ class SpeechViewModel(
 
     fun chooseRecognition(quality: RecognitionQuality) = update { it.copy(speechRecognitionQuality = quality.name) }
 
+    private val _downloads = MutableStateFlow<List<SetupItem>?>(null)
+
+    /** The language's voices and speech recognition models, downloaded or not; null while they are looked up. */
+    val downloads: StateFlow<List<SetupItem>?> = _downloads.asStateFlow()
+
+    /** Where each voice or model being downloaded or removed is. */
+    val downloadStates: StateFlow<Map<String, SetupState>> = setup?.states ?: MutableStateFlow(emptyMap())
+
+    /** Whether the page downloads and removes voices and models itself. */
+    val downloadsHere: Boolean get() = setup != null
+    private var loadingDownloads: Job? = null
+
+    init {
+        if (setup != null) {
+            viewModelScope.launch {
+                settings.settings.map { it.currentLanguageId to it.speechEngine }.distinctUntilChanged().collect { loadDownloads() }
+            }
+            // A voice or model that finished downloading, or went, changes what the language has and what speaks it.
+            viewModelScope.launch {
+                var before = emptyMap<String, SetupState>()
+                setup.states.collect { now ->
+                    val settled = before.any { (id, was) -> was !is SetupState.Done && (now[id] is SetupState.Done || id !in now) }
+                    before = now
+                    if (settled) {
+                        loadDownloads()
+                        checkRecognition()
+                        engine()?.let { refresh(it) }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun loadDownloads() {
+        val setup = setup ?: return
+        loadingDownloads?.cancel()
+        loadingDownloads = viewModelScope.launch {
+            _downloads.value = try {
+                setup.overview(settings.current.currentLanguageId).filter { it.kind == SetupKind.VOICE || it.kind == SetupKind.RECOGNITION }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                emptyList()
+            }
+        }
+    }
+
+    /** Downloads a voice or a speech recognition model, which goes on when the page is left. */
+    fun install(item: SetupItem) {
+        setup?.install(listOf(item))
+    }
+
+    fun remove(item: SetupItem) {
+        setup?.remove(item)
+    }
+
+    /** Whether [item] can be removed: on the device, and not the last voice, which the app keeps on its own. */
+    fun canRemove(item: SetupItem): Boolean =
+        setup?.canRemove(item) == true && assets?.required(item, downloads.value.orEmpty()) != true
+
+    /**
+     * The voice to download when the engine has none for the language: one of the engine's own,
+     * else the one the app would fetch on its own; null when every voice is on the device.
+     */
+    fun voiceToDownload(downloads: List<SetupItem>? = this.downloads.value): SetupItem? {
+        val missing = downloads.orEmpty().filter { it.kind == SetupKind.VOICE && it.status == SetupStatus.MISSING }
+        val name = engine()?.displayName
+        return missing.firstOrNull { it.engine == name } ?: missing.firstOrNull { it.recommended } ?: missing.firstOrNull()
+    }
+
+    /** The speech recognition model of [quality] as a download, once the downloads are looked up. */
+    fun recognitionDownload(quality: RecognitionQuality): SetupItem? =
+        downloads.value?.firstOrNull { it.kind == SetupKind.RECOGNITION && it.id == "recognition:${quality.name.lowercase()}" }
+
     private fun task(block: suspend () -> String) {
         if (_busy.value) return
         _busy.value = true
@@ -232,30 +321,38 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
             if (compact) pill()
             if (LocalWindowWidth.current.isExpanded) {
                 Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    EngineCard(settings, viewModel, engine, voiceMissing, onNavigate, Modifier.weight(1f).fillMaxHeight())
+                    EngineCard(settings, viewModel, engine, voiceMissing, Modifier.weight(1f).fillMaxHeight())
                     VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f).fillMaxHeight())
                 }
             } else {
-                EngineCard(settings, viewModel, engine, voiceMissing, onNavigate)
+                EngineCard(settings, viewModel, engine, voiceMissing)
                 VoiceCard(settings, viewModel, engine, learning, voices)
             }
-            if (LocalWindowWidth.current.isExpanded && viewModel.recognition != null) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    DownloadsLinkCard(voicesInDownloads(recognition = true), onNavigate, Modifier.weight(1f).fillMaxHeight())
-                    RecognitionCard(viewModel, Modifier.weight(1f).fillMaxHeight())
-                }
-            } else {
-                DownloadsLinkCard(voicesInDownloads(viewModel.recognition != null), onNavigate)
-                if (viewModel.recognition != null) RecognitionCard(viewModel)
-            }
+            DownloadCards(viewModel, learning)
         }
     }
 }
 
-/** What the Downloads page offers in place of this page's own downloads. */
-internal fun voicesInDownloads(recognition: Boolean): String =
-    if (recognition) tr("Download or remove voices and speech recognition models on the Downloads page.")
-    else tr("Download or remove voices on the Downloads page.")
+/**
+ * The speech recognition models and the voices to download: side by side on a wide window, each
+ * as tall as it needs and the voices under the voice chosen, the voices alone across the page
+ * where nothing is recognised.
+ */
+@Composable
+private fun DownloadCards(viewModel: SpeechViewModel, learning: LanguageOption?) {
+    val voices = viewModel.downloadsHere
+    val recognition = viewModel.recognition != null
+    val name = learning?.let { tr(it.name) }
+    if (LocalWindowWidth.current.isExpanded && voices && recognition) {
+        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
+            RecognitionCard(viewModel, Modifier.weight(1f))
+            VoicesCard(viewModel, name, Modifier.weight(1f))
+        }
+    } else {
+        if (voices) VoicesCard(viewModel, name)
+        if (recognition) RecognitionCard(viewModel)
+    }
+}
 
 @Composable
 internal fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, ready: Boolean, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
@@ -270,7 +367,7 @@ internal fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, rea
 
 /** The engine choice, what it is, whether it works, and a way to reinstall it. */
 @Composable
-private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, voiceMissing: Boolean, onNavigate: (Route) -> Unit, modifier: Modifier = Modifier) {
+private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, voiceMissing: Boolean, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     ContentCard(tr("Speech engine"), tr("Reader playback and term pronunciation use this engine."), icon = AppIcons.Memory, modifier = modifier) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
@@ -292,7 +389,7 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
         )
         if (engine != null) {
             Spacer(Modifier.height(AppSpacing.l))
-            EngineStatus(viewModel, engine, voiceMissing, onNavigate)
+            EngineStatus(viewModel, engine, voiceMissing)
         }
     }
 }
@@ -307,14 +404,16 @@ private fun EngineTags(engine: SpeechEngine) {
 }
 
 @Composable
-private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean, onNavigate: (Route) -> Unit) {
+private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, voiceMissing: Boolean) {
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
+    val downloads by viewModel.downloads.collectAsStateWithLifecycle()
+    val downloadStates by viewModel.downloadStates.collectAsStateWithLifecycle()
     var advanced by remember { mutableStateOf(false) }
-    // The way to a voice is in the notice that says one is missing: the language's downloads.
+    // The way to a voice is in the notice that says one is missing: it downloads one in place.
     val working = ready && !failed
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
@@ -337,7 +436,7 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
         action = {
             when {
                 engine.hasRuntimeSetup && !ready && !busy -> PrimaryButton(tr("Install"), onClick = viewModel::install)
-                working && voiceMissing -> PrimaryButton(tr("Go to Downloads"), onClick = { onNavigate(Route.Downloads) }, modifier = Modifier.testTag("notice-download-voice"))
+                working && voiceMissing && viewModel.offersVoice(downloads, downloadStates) -> DownloadVoiceButton(viewModel)
                 else -> SecondaryButton(tr("Check installation"), onClick = viewModel::check, enabled = !busy)
             }
         },

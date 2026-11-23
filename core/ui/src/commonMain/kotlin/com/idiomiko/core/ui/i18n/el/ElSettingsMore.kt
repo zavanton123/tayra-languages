@@ -484,7 +484,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Download or remove dictionaries and text recognition models on the Downloads page." to "Κατεβάστε ή αφαιρέστε λεξικά και μοντέλα αναγνώρισης κειμένου στη σελίδα «Λήψεις».",
     "Download or remove the translation models for the language you learn on the Downloads page." to "Κατεβάστε ή αφαιρέστε τα μοντέλα μετάφρασης για τη γλώσσα που μαθαίνετε στη σελίδα «Λήψεις».",
     "Download or remove voices and speech recognition models on the Downloads page." to "Κατεβάστε ή αφαιρέστε φωνές και μοντέλα αναγνώρισης ομιλίας στη σελίδα «Λήψεις».",
-    "Download or remove voices on the Downloads page." to "Κατεβάστε ή αφαιρέστε φωνές στη σελίδα «Λήψεις».",
+    "Download other voices to choose from, or remove those you do not use." to "Κατεβάστε κι άλλες φωνές για να διαλέξετε ή αφαιρέστε όσες δεν χρησιμοποιείτε.",
     "Browser extension" to "Επέκταση προγράμματος περιήγησης",
     "Watch YouTube with your Idiomiko words: coloured subtitles, lookups and saving words, while the app is open." to "Δες YouTube με τις λέξεις σου από το Idiomiko: χρωματιστοί υπότιτλοι, αναζήτηση και αποθήκευση λέξεων, όσο η εφαρμογή είναι ανοιχτή.",
     "Type this code into the Idiomiko extension:" to "Πληκτρολόγησε αυτόν τον κωδικό στην επέκταση Idiomiko:",

@@ -484,7 +484,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Download or remove dictionaries and text recognition models on the Downloads page." to "Transfira ou remova dicionários e modelos de reconhecimento de texto na página Transferências.",
     "Download or remove the translation models for the language you learn on the Downloads page." to "Transfira ou remova os modelos de tradução da língua que aprende na página Transferências.",
     "Download or remove voices and speech recognition models on the Downloads page." to "Transfira ou remova vozes e modelos de reconhecimento de fala na página Transferências.",
-    "Download or remove voices on the Downloads page." to "Transfira ou remova vozes na página Transferências.",
+    "Download other voices to choose from, or remove those you do not use." to "Transfira outras vozes para escolher ou remova as que não usa.",
     "Browser extension" to "Extensão do navegador",
     "Watch YouTube with your Idiomiko words: coloured subtitles, lookups and saving words, while the app is open." to "Assista ao YouTube com suas palavras do Idiomiko: legendas coloridas, consultas e palavras salvas, enquanto o app estiver aberto.",
     "Type this code into the Idiomiko extension:" to "Digite este código na extensão do Idiomiko:",

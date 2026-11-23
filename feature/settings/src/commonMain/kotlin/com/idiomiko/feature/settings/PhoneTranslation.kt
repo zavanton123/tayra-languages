@@ -165,7 +165,6 @@ internal fun PhoneTranslationScreen(
                     )
                 }
             }
-            if (local) DownloadsLinkCard(modelsInDownloads(), onNavigate)
         }
     }
     if (nativeSheet) {

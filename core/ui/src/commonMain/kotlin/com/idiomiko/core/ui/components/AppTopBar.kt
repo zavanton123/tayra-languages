@@ -92,7 +92,6 @@ private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull
             MenuEntry("Flashcards", Route.FlashcardSettings),
             MenuEntry("Vocabulary", Route.VocabularySettings),
             MenuEntry("Keyboard shortcuts", Route.Shortcuts),
-            MenuEntry("Downloads", Route.Downloads),
             MenuEntry("Dictionaries", Route.OfflineDictionaries),
             MenuEntry("Speech", Route.Speech),
             MenuEntry("Translation", Route.OfflineTranslation),

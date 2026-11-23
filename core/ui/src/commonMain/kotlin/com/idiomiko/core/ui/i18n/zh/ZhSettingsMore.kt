@@ -484,7 +484,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Download or remove dictionaries and text recognition models on the Downloads page." to "在“下载”页面下载或删除词典和文字识别模型。",
     "Download or remove the translation models for the language you learn on the Downloads page." to "在“下载”页面下载或删除所学语言的翻译模型。",
     "Download or remove voices and speech recognition models on the Downloads page." to "在“下载”页面下载或删除语音和语音识别模型。",
-    "Download or remove voices on the Downloads page." to "在“下载”页面下载或删除语音。",
+    "Download other voices to choose from, or remove those you do not use." to "下载其他语音以供选择，或删除不用的语音。",
     "Browser extension" to "浏览器扩展",
     "Watch YouTube with your Idiomiko words: coloured subtitles, lookups and saving words, while the app is open." to "在应用打开时，用你的 Idiomiko 词汇看 YouTube：彩色字幕、查词和保存单词。",
     "Type this code into the Idiomiko extension:" to "在 Idiomiko 扩展中输入此代码：",
