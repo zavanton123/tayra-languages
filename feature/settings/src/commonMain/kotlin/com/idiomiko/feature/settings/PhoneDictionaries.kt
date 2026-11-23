@@ -81,8 +81,7 @@ internal fun PhoneDictionariesScreen(
                 Text(tr("Manage offline word definitions and base-form lookup."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 pill()
             }
-            PhoneLookupCard(learning, nativeName, current, onDownloads = { onNavigate(Route.Downloads) }, onTest = onTest)
-            DownloadsLinkCard(dictionariesInDownloads(), onNavigate)
+            PhoneLookupCard(learning, nativeName, current, onDownload = viewModel::download, onTest = onTest)
             // Bringing a dictionary of one's own comes after the dictionaries themselves.
             if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
         }
@@ -91,7 +90,7 @@ internal fun PhoneDictionariesScreen(
 
 /** The pair looked up and where its dictionary stands, with the one thing to do about it as a full-width button. */
 @Composable
-private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownloads: () -> Unit, onTest: (DictionaryPack) -> Unit) {
+private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownload: (DictionaryPack) -> Unit, onTest: (DictionaryPack) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val state = current?.state
     ContentCard(tr("Current lookup"), subtitle = null, icon = AppIcons.MenuBook, dense = true) {
@@ -122,8 +121,8 @@ private fun PhoneLookupCard(learning: LanguageOption?, nativeName: String, curre
             }
             else -> {
                 Spacer(Modifier.height(AppSpacing.l))
-                PrimaryButton(onClick = onDownloads, modifier = Modifier.fillMaxWidth().testTag("phone-download-current")) {
-                    Text(tr("Go to Downloads"), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                PrimaryButton(onClick = { onDownload(current.pack) }, modifier = Modifier.fillMaxWidth().testTag("phone-download-current")) {
+                    Text(if (state is PackState.Failed) tr("Try again") else tr("Download"), style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
         }

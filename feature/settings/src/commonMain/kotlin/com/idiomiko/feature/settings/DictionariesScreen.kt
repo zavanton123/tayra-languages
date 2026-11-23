@@ -110,8 +110,12 @@ import com.idiomiko.core.domain.ocr.TextRecognizer
 import com.idiomiko.core.domain.ocr.OcrPack
 import com.idiomiko.core.domain.ocr.NoTextRecognizer
 import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.platform.testTag
 
-/** The dictionary the reader looks words up in, the dictionaries imported, and a test of a lookup; downloading them is the Downloads page's. */
+/**
+ * The dictionary the reader looks words up in, the dictionaries imported, and a test of a lookup.
+ * The app downloads the dictionary on its own; the page fetches it again when that failed.
+ */
 class DictionariesViewModel(
     settings: SettingsRepository,
     private val dictionaries: DictionaryService,
@@ -126,6 +130,11 @@ class DictionariesViewModel(
     /** The language being learned, whose dictionaries the page leads with. */
     val learning: StateFlow<LanguageOption?> = learningLanguage(languages, settings)
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
+
+    /** Downloads [pack] now, as when the app's own download failed or had no network. */
+    fun download(pack: DictionaryPack) {
+        viewModelScope.launch { dictionaries.download(pack) }
+    }
 
     /** What the installed pack says about [word]. */
     suspend fun lookup(pack: DictionaryPack, word: String): DictionaryLookup = dictionaries.lookup(pack.id, word.trim())
@@ -247,20 +256,16 @@ fun DictionariesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewMode
         PageColumn(padding) {
             ScreenHeader(tr("Dictionaries"), tr("Manage offline word definitions and base-form lookup."), onBackToSettings = onBack) { if (!compact) pill() }
             if (compact) pill()
-            CurrentLookupCard(learning, nativeName, current, onDownloads = { onNavigate(Route.Downloads) }, onTest = { testing = it })
-            DownloadsLinkCard(dictionariesInDownloads(), onNavigate)
+            CurrentLookupCard(learning, nativeName, current, onDownload = viewModel::download, onTest = { testing = it })
             if (viewModel.canImport) ImportDictionaryCard(viewModel, learning, native)
         }
     }
     testing?.let { pack -> TestLookupDialog(pack, viewModel, onDismiss = { testing = null }) }
 }
 
-/** The pair the reader looks words up in, and whether its dictionary is on the device. */
-/** What the Downloads page offers in place of this page's own downloads. */
-internal fun dictionariesInDownloads(): String = tr("Download or remove dictionaries and text recognition models on the Downloads page.")
-
+/** The pair the reader looks words up in, and whether its dictionary is on the device, with a way to download it while it is not. */
 @Composable
-private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownloads: () -> Unit, onTest: (DictionaryPack) -> Unit) {
+private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, current: PackStatus?, onDownload: (DictionaryPack) -> Unit, onTest: (DictionaryPack) -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
     val state = current?.state
     val pair: @Composable () -> Unit = {
@@ -283,7 +288,8 @@ private fun CurrentLookupCard(learning: LanguageOption?, nativeName: String, cur
             current == null -> {}
             state is PackState.Installed -> SecondaryButton(tr("Test lookup"), onClick = { onTest(current.pack) })
             state is PackState.Downloading -> {}
-            else -> PrimaryButton(tr("Go to Downloads"), onClick = onDownloads)
+            state is PackState.Failed -> PrimaryButton(tr("Try again"), onClick = { onDownload(current.pack) }, icon = AppIcons.Download, modifier = Modifier.testTag("download-current"))
+            else -> PrimaryButton(tr("Download"), onClick = { onDownload(current.pack) }, icon = AppIcons.Download, modifier = Modifier.testTag("download-current"))
         }
     }
     Column(

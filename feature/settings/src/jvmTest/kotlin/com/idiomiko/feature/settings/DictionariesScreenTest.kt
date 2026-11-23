@@ -1,7 +1,7 @@
 package com.idiomiko.feature.settings
 
-import kotlin.test.assertEquals
-import com.idiomiko.core.ui.navigation.Route
+import kotlinx.coroutines.CompletableDeferred
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
@@ -36,7 +36,6 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
-import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
 /** The Dictionaries page shows the reader's pair, the installed packs and the ones to download, and tests a lookup. */
@@ -71,17 +70,14 @@ class DictionariesScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
         }
         val viewModel = DictionariesViewModel(settings, service, languages)
-        val visited = mutableListOf<Route>()
-        setContent { Hosted(settings) { DictionariesScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline lookup ready")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it) }
 
-        // The page downloads nothing itself: the dictionaries are fetched and removed on the Downloads page.
+        // The app keeps the pair's dictionary on its own, so there is nothing to download here.
         onNodeWithText("Downloaded dictionaries").assertDoesNotExist()
         onAllNodes(hasText("Download") and hasClickAction()).assertCountEquals(0)
-        onNodeWithTag("open-downloads").performScrollTo().performClick()
-        assertEquals(listOf<Route>(Route.Downloads), visited)
 
         // A lookup shows what the reader will show.
         onNodeWithText("Test lookup").performClick()
@@ -92,9 +88,9 @@ class DictionariesScreenTest {
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-lookup.png"), root = 1) }
     }
 
-    /** A phone shows the pair's dictionary is missing and leads to the Downloads page to fetch it. */
+    /** A phone shows the pair's dictionary is missing and downloads it in place, as when the app's own download failed. */
     @Test
-    fun aPhoneLeadsToTheDownloadsForAMissingDictionary() = runDesktopComposeUiTest(width = 400, height = 1200) {
+    fun aPhoneDownloadsAMissingDictionaryInPlace() = runDesktopComposeUiTest(width = 400, height = 1200) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-dictionaries-phone", ".db").also { it.delete() }))
         val languages = LanguageRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
@@ -106,14 +102,45 @@ class DictionariesScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
         }
         val viewModel = DictionariesViewModel(settings, service, languages)
-        val visited = mutableListOf<Route>()
-        setContent { Hosted(settings) { DictionariesScreen(onNavigate = { visited += it }, onBack = {}, viewModel = viewModel) } }
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Portuguese → Russian is not downloaded")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("DICTIONARIES_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onNodeWithTag("phone-download-current").performScrollTo().performClick()
-        assertEquals(listOf<Route>(Route.Downloads), visited)
-        assertFalse("pt-ru" in store.installed, "nothing is downloaded from this page")
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline lookup ready")).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue("pt-ru" in store.installed)
+        onNodeWithText("Test lookup").assertExists()
+    }
+
+    /** On a wide window the missing dictionary is downloaded from the lookup card, with its progress shown meanwhile. */
+    @Test
+    fun theMissingDictionaryIsDownloadedFromTheLookupCard() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-dictionaries-download", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val finish = CompletableDeferred<Unit>()
+        val store = object : DictionaryPackStore {
+            val installed = mutableSetOf<String>()
+            override suspend fun installedSize(pack: DictionaryPack): Long? = if (pack.id.name in installed) 2_000_000L else null
+            override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) { onProgress(0.4f); finish.await(); installed += pack.id.name }
+            override suspend fun remove(pack: DictionaryPack) { installed -= pack.id.name }
+        }
+        val service = DictionaryService(store, FakeEntries)
+        runBlocking {
+            service.refresh()
+            val portuguese = languages.save(Language(name = "Portuguese"))
+            settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru") }
+        }
+        val viewModel = DictionariesViewModel(settings, service, languages)
+        setContent { Hosted(settings) { DictionariesScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("download-current").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("download-current").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Downloading the dictionary…")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("download-current").assertDoesNotExist()
+        finish.complete(Unit)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline lookup ready")).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue("pt-ru" in store.installed)
     }
 
     private fun ComposeUiTest.save(path: String, root: Int = 0) {
