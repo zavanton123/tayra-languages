@@ -339,7 +339,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Signed in" to "Вход выполнен",
     "Signed in with" to "Способ входа",
     "Everything is synced" to "Всё синхронизировано",
-    "Your library is safely up to date on all your devices." to "Ваша библиотека в актуальном состоянии на всех устройствах.",
     "Changes not sent yet" to "Изменения ещё не отправлены",
     "Sync to send what changed on this device." to "Синхронизируйте, чтобы отправить изменения с этого устройства.",
     "Bringing your library up to date." to "Библиотека обновляется.",

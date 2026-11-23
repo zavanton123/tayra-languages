@@ -339,7 +339,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Signed in" to "Σε σύνδεση",
     "Signed in with" to "Σύνδεση μέσω",
     "Everything is synced" to "Όλα είναι συγχρονισμένα",
-    "Your library is safely up to date on all your devices." to "Η βιβλιοθήκη σας είναι ενημερωμένη με ασφάλεια σε όλες τις συσκευές σας.",
     "Changes not sent yet" to "Αλλαγές που δεν έχουν σταλεί ακόμη",
     "Sync to send what changed on this device." to "Συγχρονίστε για να σταλούν όσα άλλαξαν σε αυτή τη συσκευή.",
     "Bringing your library up to date." to "Η βιβλιοθήκη σας ενημερώνεται.",

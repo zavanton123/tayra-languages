@@ -339,7 +339,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Signed in" to "Zalogowano",
     "Signed in with" to "Logowanie przez",
     "Everything is synced" to "Wszystko jest zsynchronizowane",
-    "Your library is safely up to date on all your devices." to "Twoja biblioteka jest bezpiecznie aktualna na wszystkich urządzeniach.",
     "Changes not sent yet" to "Zmiany jeszcze niewysłane",
     "Sync to send what changed on this device." to "Zsynchronizuj, aby wysłać zmiany z tego urządzenia.",
     "Bringing your library up to date." to "Aktualizowanie biblioteki.",

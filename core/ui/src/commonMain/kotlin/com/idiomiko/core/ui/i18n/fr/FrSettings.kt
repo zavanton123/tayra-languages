@@ -339,7 +339,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Signed in" to "Connexion active",
     "Signed in with" to "Connexion via",
     "Everything is synced" to "Tout est synchronisé",
-    "Your library is safely up to date on all your devices." to "Votre bibliothèque est à jour et en sécurité sur tous vos appareils.",
     "Changes not sent yet" to "Modifications pas encore envoyées",
     "Sync to send what changed on this device." to "Synchronisez pour envoyer ce qui a changé sur cet appareil.",
     "Bringing your library up to date." to "Mise à jour de votre bibliothèque.",

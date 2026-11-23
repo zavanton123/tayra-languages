@@ -339,7 +339,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Signed in" to "已登录",
     "Signed in with" to "登录方式",
     "Everything is synced" to "已全部同步",
-    "Your library is safely up to date on all your devices." to "你的资料库在所有设备上都已安全更新。",
     "Changes not sent yet" to "有更改尚未发送",
     "Sync to send what changed on this device." to "同步以发送此设备上的更改。",
     "Bringing your library up to date." to "正在更新你的资料库。",

@@ -339,7 +339,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Signed in" to "Angemeldet",
     "Signed in with" to "Angemeldet mit",
     "Everything is synced" to "Alles ist synchronisiert",
-    "Your library is safely up to date on all your devices." to "Deine Bibliothek ist auf all deinen Geräten sicher auf dem neuesten Stand.",
     "Changes not sent yet" to "Änderungen noch nicht gesendet",
     "Sync to send what changed on this device." to "Synchronisiere, um zu senden, was sich auf diesem Gerät geändert hat.",
     "Bringing your library up to date." to "Deine Bibliothek wird auf den neuesten Stand gebracht.",

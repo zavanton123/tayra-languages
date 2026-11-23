@@ -339,7 +339,6 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Signed in" to "Sessão iniciada",
     "Signed in with" to "Entrada com",
     "Everything is synced" to "Tudo sincronizado",
-    "Your library is safely up to date on all your devices." to "Sua biblioteca está atualizada e segura em todos os seus dispositivos.",
     "Changes not sent yet" to "Alterações ainda não enviadas",
     "Sync to send what changed on this device." to "Sincronize para enviar o que mudou neste dispositivo.",
     "Bringing your library up to date." to "Atualizando sua biblioteca.",

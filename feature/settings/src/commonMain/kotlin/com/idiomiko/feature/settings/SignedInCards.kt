@@ -175,9 +175,7 @@ private fun SyncCard(state: AccountUiState, actions: AccountViewModel?, modifier
         Column {
             val words = state.knownWords?.let { n -> trPlural(n, "{0} word", "{0} words").replaceFirst(n.toString(), formatCount(n)) }
             SyncPartRow(AppIcons.Book, tr("Books and courses"), shown, state.unsent)
-            AppDivider()
             SyncPartRow(AppIcons.Translate, tr("Vocabulary"), shown, state.unsent, upToDate = words)
-            AppDivider()
             SyncPartRow(AppIcons.Tune, tr("Progress and settings"), shown, state.unsent)
         }
         Spacer(Modifier.weight(1f))
@@ -200,7 +198,7 @@ private fun SyncStatusPanel(state: AccountUiState, shown: SyncShown) {
         SyncShown.SYNCING -> colors.primary
     }
     val (title, message) = when (shown) {
-        SyncShown.SYNCED -> tr("Everything is synced") to tr("Your library is safely up to date on all your devices.")
+        SyncShown.SYNCED -> tr("Everything is synced") to null
         SyncShown.UNSENT -> tr("Changes not sent yet") to tr("Sync to send what changed on this device.")
         SyncShown.SYNCING -> tr("Syncing…") to (state.sync.progress?.let(::progressLine) ?: tr("Bringing your library up to date."))
         SyncShown.FAILED -> {
@@ -221,7 +219,7 @@ private fun SyncStatusPanel(state: AccountUiState, shown: SyncShown) {
             )
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(title, style = AppText.itemTitle)
-                Text(message, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                if (message != null) Text(message, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 val synced = state.sync.lastSynced
                 if (synced != null && shown != SyncShown.SYNCING) {
                     // The time since the last sync moves on while nothing else changes.

@@ -339,7 +339,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Signed in" to "Sesión iniciada",
     "Signed in with" to "Sesión iniciada con",
     "Everything is synced" to "Todo está sincronizado",
-    "Your library is safely up to date on all your devices." to "Tu biblioteca está al día y a salvo en todos tus dispositivos.",
     "Changes not sent yet" to "Cambios aún no enviados",
     "Sync to send what changed on this device." to "Sincroniza para enviar lo que cambió en este dispositivo.",
     "Bringing your library up to date." to "Poniendo al día tu biblioteca.",
