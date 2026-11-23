@@ -278,7 +278,7 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
                 if (engine == TranslationEngine.GOOGLE) Tag(tr("Paid"), StatusTints.warning) else Tag(tr("Free"), MaterialTheme.colorScheme.primary)
             }
         }
-        Spacer(Modifier.height(AppSpacing.l))
+        if (!local) Spacer(Modifier.height(AppSpacing.l))
         when {
             local -> LocalEngineStatus(settings, viewModel, pairReady)
             engine == TranslationEngine.GOOGLE -> GoogleSettings(settings, viewModel)
@@ -301,6 +301,10 @@ private fun LocalEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
+    // The check runs on its own when the page opens or the engine changes: a translator that works with
+    // the pair's packages in, or one still being checked, needs no box; only a problem, or an install, shows one.
+    if (progress == null && (busy || (ready && pairReady))) return
+    Spacer(Modifier.height(AppSpacing.l))
     // The engine working is not the whole story: until the pair's packages are in, it is amber, as the status pill above says.
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline

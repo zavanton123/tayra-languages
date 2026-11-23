@@ -126,6 +126,27 @@ class TranslationSettingsScreenTest {
         override suspend fun removePackage(fromCode: String, toCode: String) { installed -= "$fromCode-$toCode" }
     }
 
+    /** The translator is checked when the page opens; once it works with the pair in, no status box shows. */
+    @Test
+    fun aWorkingTranslatorShowsNoStatus() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-translation-ok", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val argos = FakeArgos(setOf("pt-en", "en-ru"))
+        runBlocking {
+            val portuguese = languages.save(Language(name = "Portuguese"))
+            settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
+        }
+        val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel, dictionaries = dictionaries(emptyList())) } }
+
+        waitUntil(timeoutMillis = 5_000) { viewModel.ready.value && !viewModel.busy.value }
+        waitForIdle()
+        onNodeWithText("Installed and working").assertDoesNotExist()
+        onNodeWithText("Check installation").assertDoesNotExist()
+        onNodeWithText("Import a dictionary").assertExists()
+    }
+
     /** The page says what the pair lacks; the app downloads the models on its own, so the page offers no downloads. */
     @Test
     fun thePageSaysWhatThePairLacks() = runDesktopComposeUiTest(width = 1586, height = 1000) {

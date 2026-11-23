@@ -110,6 +110,9 @@ private fun PhoneEngineStatus(settings: UserSettings, viewModel: OfflineTranslat
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val progress by viewModel.progress.collectAsStateWithLifecycle()
+    // The check runs on its own when the page opens or the engine changes: a translator that works with
+    // the pair's packages in, or one still being checked, needs no box; only a problem, or an install, shows one.
+    if (progress == null && (busy || (ready && pairReady))) return
     // Amber until the pair's packages are in, as the status pill above says.
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
