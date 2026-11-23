@@ -457,7 +457,8 @@ class SpeechSettingsScreenTest {
         val recognition = FakeRecognition()
         val settings = show(SpeechEngine.PIPER, FakeKokoro(), FakePiper(), recognition)
         waitForTag("download-recognition-high")
-        onNodeWithText("Not installed").assertExists()
+        // Each model says whether it is on the device; the card has no status of its own.
+        onNodeWithText("Not installed").assertDoesNotExist()
         onNodeWithText("Not downloaded").assertDoesNotExist()
 
         onNodeWithTag("download-recognition-medium").performScrollTo().performClick()
@@ -466,7 +467,7 @@ class SpeechSettingsScreenTest {
         recognition.installing.complete(Unit)
         waitForTag("remove-recognition-medium")
         assertEquals("MEDIUM", settings.current.speechRecognitionQuality, "the first model downloaded hears")
-        onNodeWithText("Installed").assertExists()
+        onNodeWithText("Installed").assertDoesNotExist()
 
         onNodeWithTag("remove-recognition-medium").performClick()
         onNodeWithTag("confirm-remove").performClick()

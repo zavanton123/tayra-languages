@@ -32,8 +32,6 @@ import com.idiomiko.core.domain.practice.RecognitionQuality
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.LocalWindowWidth
-import com.idiomiko.core.ui.components.StatusTints
-import com.idiomiko.core.ui.components.Tag
 import com.idiomiko.core.ui.components.formatSize
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trProgress
@@ -66,12 +64,6 @@ internal fun RecognitionCard(viewModel: SpeechViewModel, modifier: Modifier = Mo
         icon = AppIcons.Mic,
         dense = dense,
         modifier = modifier.testTag("speech-recognition"),
-        titleExtra = {
-            // A phone's title has no room for it, and each model says whether it is on the device.
-            if (models.isNotEmpty() && !LocalWindowWidth.current.isCompact) {
-                if (hearing != null) Tag(tr("Installed"), StatusTints.ok) else Tag(tr("Not installed"), StatusTints.warning)
-            }
-        },
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             models.forEach { model ->
@@ -107,9 +99,8 @@ private fun ModelRow(model: RecognitionModel, hearing: Boolean, state: RowState?
     val compact = LocalWindowWidth.current.isCompact
     val side: @Composable () -> Unit = {
         Column(horizontalAlignment = Alignment.End, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-            when {
-                model.installed -> Text(tr("On this device"), style = MaterialTheme.typography.bodyMedium, color = StatusTints.ok)
-                state == null -> Text(tr("Not downloaded"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (!model.installed && state == null) {
+                Text(tr("Not downloaded"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             state?.let { DownloadAction(it, tag, onDownload, onRemove) }
         }
