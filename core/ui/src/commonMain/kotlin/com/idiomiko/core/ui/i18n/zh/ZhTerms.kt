@@ -231,6 +231,8 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Download word finder" to "下载找词工具",
     "word finder" to "找词工具",
     "Import a dictionary" to "导入词典",
+    "Remove the {0} dictionary?" to "删除{0}词典？",
+    "Its entries no longer show when you look words up. You can import it again at any time." to "查词时将不再显示其中的词条。你可以随时重新导入。",
     "Import · {0}" to "导入 · {0}",
     "Yomitan, MDict or StarDict files" to "Yomitan、MDict 或 StarDict 文件",
     "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "添加你自己的词典；它的词条会显示在对应语言的离线词典旁边。",

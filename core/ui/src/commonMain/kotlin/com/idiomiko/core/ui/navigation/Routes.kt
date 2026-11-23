@@ -150,13 +150,9 @@ sealed interface Route {
     @Serializable
     data object Shortcuts : Route
 
-    /** Argos Translate runtime and language packages (desktop only). */
+    /** The translation engine and its offline runtime, and the dictionaries the user imports. */
     @Serializable
     data object OfflineTranslation : Route
-
-    /** Downloadable offline dictionary packs. */
-    @Serializable
-    data object OfflineDictionaries : Route
 
     /** Speech engines and their voices. */
     @Serializable

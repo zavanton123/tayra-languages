@@ -441,7 +441,7 @@ wty's glossary dictionaries, the translation tables of the native language's Wik
 language's words for one meaning, its label as the tag. They have the packs' layout, are
 `DictionaryId(native, learning, glossary = true)` in the app (kept out of `DictionaryPacks.all`,
 listed in `DictionaryPacks.glossaries`) and are published in the `glossaries-v1` release. The term
-pane's "Find a … word from …" opens them; the Dictionaries screen lists only installed ones.
+pane's "Find a … word from …" opens them.
 
 FreeDict's dictionaries (https://freedict.org, GPL and other free licences) are published as
 editions: `tools/build_freedict.py` reads FreeDict's database, downloads each StarDict release of a
@@ -457,7 +457,8 @@ shows the entries of its installed editions after its own pack's, labelled FreeD
 the imported dictionaries' (`DictionaryService.companionsOf`), and the pair counts as available
 when only an edition is installed.
 
-Dictionaries of the user's own can be imported from the Dictionaries screen: `DictionaryFiles`
+Dictionaries of the user's own can be imported (and removed) on the Translation settings page
+(`ImportDictionaryCard`, `DictionaryImportViewModel`): `DictionaryFiles`
 (core/data `mdict/`) hands a zip to `YomitanConverter` (or to `StardictConverter` when it holds an
 .ifo and no index.json), an MDict file to `MdictConverter` and a tar or gzip file to
 `StardictConverter`, by their first bytes. Several files chosen together (a StarDict dictionary's
@@ -494,7 +495,7 @@ Pango, XDXF, HTML and the others in lower case) become glosses the way MDict rec
 `entry://`, `#word`) are no gloss; the phonetic field `t` is the entry's IPA; binary fields
 (upper-case types: sounds, pictures) are skipped.
 
-Any Yomitan dictionary can be imported from the Dictionaries screen. `YomitanConverter` (core/data)
+Any Yomitan dictionary can be imported on the Translation settings page. `YomitanConverter` (core/data)
 reads the zip with `ZipArchive`, whose entries are inflated per platform (`Inflater`, zlib on iOS,
 `DecompressionStream` on the web), and converts it in Kotlin the way the Python tool converts wty's:
 term banks to entries and forms, wty's glosses lists, other dictionaries' glossary lists or list

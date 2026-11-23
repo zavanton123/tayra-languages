@@ -15,7 +15,10 @@ import androidx.compose.ui.test.performTextClearance
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.russhwolf.settings.MapSettings
@@ -23,7 +26,17 @@ import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
 import com.idiomiko.core.data.repository.LanguageRepositoryImpl
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
+import com.idiomiko.core.domain.dictionary.DictionaryId
+import com.idiomiko.core.domain.dictionary.DictionaryImporter
+import com.idiomiko.core.domain.dictionary.DictionaryPack
+import com.idiomiko.core.domain.dictionary.DictionaryPackStore
+import com.idiomiko.core.domain.dictionary.ImportedDictionaries
+import com.idiomiko.core.domain.dictionary.ImportedDictionary
+import com.idiomiko.core.domain.dictionary.ImportedDictionaryInfo
+import com.idiomiko.core.domain.dictionary.ImportedDictionaryStore
 import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.repository.DictionaryRepository
+import com.idiomiko.core.domain.service.DictionaryService
 import com.idiomiko.core.domain.service.GoogleTranslation
 import com.idiomiko.core.domain.service.LocalPackage
 import com.idiomiko.core.domain.service.LocalSentenceTranslator
@@ -43,9 +56,47 @@ import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
-/** The Translation page shows the engine's state and says what the pair lacks; the native language is set on Languages. */
+/**
+ * The Translation page shows the engine's state and says what the pair lacks, and imports
+ * dictionaries of the user's own; the native language is set on Languages.
+ */
 @OptIn(ExperimentalTestApi::class)
 class TranslationSettingsScreenTest {
+
+    /** Packs on the device, imported ones included, by name. */
+    private class FakePackStore(installed: Set<String>) : DictionaryPackStore {
+        val installed = installed.toMutableSet()
+        override suspend fun installedSize(pack: DictionaryPack): Long? = if (pack.id.name in installed) 12_400_000L else null
+        override suspend fun install(pack: DictionaryPack, onProgress: (Float?) -> Unit) { installed += pack.id.name }
+        override suspend fun installFile(pack: DictionaryPack, sqlite: ByteArray) { installed += pack.id.name }
+        override suspend fun remove(pack: DictionaryPack) { installed -= pack.id.name }
+    }
+
+    private object NoEntries : DictionaryRepository {
+        override suspend fun isAvailable(dictionary: DictionaryId) = false
+        override suspend fun entries(dictionary: DictionaryId, wordLc: String) = emptyList<com.idiomiko.core.domain.dictionary.DictionaryEntry>()
+        override suspend fun lemmas(dictionary: DictionaryId, formLc: String) = emptyList<String>()
+        override suspend fun close(dictionary: DictionaryId) = Unit
+    }
+
+    private object NoImporter : DictionaryImporter {
+        override suspend fun inspect(file: ByteArray) = ImportedDictionaryInfo("Jitendex", "2026.10.01")
+        override suspend fun convert(file: ByteArray, sourceLanguage: String, targetLanguage: String, onProgress: (Float) -> Unit) = ByteArray(0)
+    }
+
+    private val jitendex = ImportedDictionary("jitendex", "Jitendex", "2026.10.01", "ja", "en", 12_400_000L)
+
+    /** Dictionaries that can be imported, with [imported] imported already. */
+    private fun dictionaries(imported: List<ImportedDictionary>, store: FakePackStore = FakePackStore(imported.map { it.id.name }.toSet())): DictionaryImportViewModel {
+        val registry = ImportedDictionaries(object : ImportedDictionaryStore {
+            var saved = imported
+            override suspend fun list() = saved
+            override suspend fun save(dictionaries: List<ImportedDictionary>) { saved = dictionaries }
+        })
+        val service = DictionaryService(store, NoEntries, registry, NoImporter)
+        runBlocking { service.refresh() }
+        return DictionaryImportViewModel(service)
+    }
 
     /** Argos with a catalogue of packages, some installed. */
     private class FakeArgos(installed: Set<String>) : LocalSentenceTranslator {
@@ -87,9 +138,10 @@ class TranslationSettingsScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
         }
         val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
-        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel, dictionaries = dictionaries(listOf(jitendex))) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed. The language pair still needs a download.")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Import a dictionary").assertExists()
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Search packages").assertDoesNotExist()
         onNodeWithText("Language pair").assertDoesNotExist()
@@ -108,11 +160,32 @@ class TranslationSettingsScreenTest {
             settings.update { it.copy(currentLanguageId = portuguese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
         }
         val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
-        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel, dictionaries = dictionaries(listOf(jitendex))) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed. The language pair still needs a download.")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onAllNodes(hasText("Install") and hasClickAction()).assertCountEquals(0)
+        onNodeWithTag("import-dictionary").performScrollTo().assertExists()
+    }
+
+    /** An imported dictionary is listed under the import, and is removed once the removal is confirmed. */
+    @Test
+    fun anImportedDictionaryCanBeRemoved() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val languages = LanguageRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-translation-import", ".db").also { it.delete() })))
+        runBlocking { settings.update { it.copy(translationEngine = TranslationEngine.MYMEMORY) } }
+        val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(null), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
+        val store = FakePackStore(setOf(jitendex.id.name))
+        val dictionaries = dictionaries(listOf(jitendex), store)
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel, dictionaries = dictionaries) } }
+
+        onNodeWithText("Japanese → English").assertExists()
+        onNodeWithTag("remove-imported-jitendex").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Remove the Jitendex dictionary?")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("confirm-remove").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Jitendex")).fetchSemanticsNodes().isEmpty() }
+        assertFalse(jitendex.id.name in store.installed)
+        onNodeWithTag("import-dictionary").assertExists()
     }
 
     private fun ComposeUiTest.save(path: String) {

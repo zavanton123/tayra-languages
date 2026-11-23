@@ -231,6 +231,8 @@ internal val frTerms: Map<String, String> = mapOf(
     "Download word finder" to "Télécharger la recherche de mots",
     "word finder" to "recherche de mots",
     "Import a dictionary" to "Importer un dictionnaire",
+    "Remove the {0} dictionary?" to "Supprimer le dictionnaire {0} ?",
+    "Its entries no longer show when you look words up. You can import it again at any time." to "Ses entrées n’apparaissent plus quand vous cherchez des mots. Vous pouvez l’importer de nouveau à tout moment.",
     "Import · {0}" to "Importer · {0}",
     "Yomitan, MDict or StarDict files" to "Fichiers Yomitan, MDict ou StarDict",
     "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Ajoutez votre propre dictionnaire ; ses entrées s’affichent à côté du dictionnaire hors ligne de ses langues.",

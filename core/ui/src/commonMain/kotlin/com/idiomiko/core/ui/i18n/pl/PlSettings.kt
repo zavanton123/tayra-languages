@@ -123,6 +123,7 @@ internal val plSettings: Map<String, String> = mapOf(
     // OfflineTranslationScreen.kt
     "Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…" to "Instalowanie {0} w folderze aplikacji. Zostanie pobrany około gigabajt danych, co potrwa kilka minut…",
     "Translation" to "Tłumaczenie",
+    "Choose how translations are generated, and add dictionaries of your own." to "Wybierz, jak tworzone są tłumaczenia, i dodaj własne słowniki.",
     "Choose how translations are generated and stored." to "Wybierz, jak tłumaczenia są tworzone i przechowywane.",
     "Your language" to "Twój język",
     "Online translation: {0}" to "Tłumaczenie online: {0}",

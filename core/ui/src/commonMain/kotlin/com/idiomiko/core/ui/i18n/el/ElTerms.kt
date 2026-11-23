@@ -231,6 +231,8 @@ internal val elTerms: Map<String, String> = mapOf(
     "Download word finder" to "Λήψη εύρεσης λέξεων",
     "word finder" to "εύρεση λέξεων",
     "Import a dictionary" to "Εισαγωγή λεξικού",
+    "Remove the {0} dictionary?" to "Αφαίρεση του λεξικού {0};",
+    "Its entries no longer show when you look words up. You can import it again at any time." to "Τα λήμματά του δεν εμφανίζονται πλέον όταν αναζητάτε λέξεις. Μπορείτε να το εισαγάγετε ξανά οποτεδήποτε.",
     "Import · {0}" to "Εισαγωγή · {0}",
     "Yomitan, MDict or StarDict files" to "Αρχεία Yomitan, MDict ή StarDict",
     "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Προσθέστε δικό σας λεξικό· τα λήμματά του εμφανίζονται δίπλα στο λεξικό εκτός σύνδεσης των γλωσσών του.",

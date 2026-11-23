@@ -15,7 +15,7 @@ val settingsModule = module {
     viewModel { SettingsViewModel(get(), getOrNull(), getOrNull(), getOrNull()) }
     viewModel { PersonalSchedulingViewModel(get(), get()) }
     viewModel { RetentionHelpViewModel(get(), get()) }
-    viewModel { DictionariesViewModel(get(), get(), get()) }
+    viewModel { DictionaryImportViewModel(get()) }
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
@@ -31,7 +31,6 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     composable<Route.Shortcuts> { ShortcutsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }, personal = koinViewModel(), retention = koinViewModel()) }
-    composable<Route.OfflineDictionaries> { DictionariesScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.OfflineTranslation> { OfflineTranslationScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.ClearData> {
         ClearDataScreen(

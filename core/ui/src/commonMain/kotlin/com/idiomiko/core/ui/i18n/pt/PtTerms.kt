@@ -231,6 +231,8 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Download word finder" to "Baixar localizador de palavras",
     "word finder" to "localizador de palavras",
     "Import a dictionary" to "Importar um dicionário",
+    "Remove the {0} dictionary?" to "Remover o dicionário {0}?",
+    "Its entries no longer show when you look words up. You can import it again at any time." to "As suas entradas deixam de aparecer quando procura palavras. Pode importá-lo de novo a qualquer momento.",
     "Import · {0}" to "Importar · {0}",
     "Yomitan, MDict or StarDict files" to "Arquivos do Yomitan, MDict ou StarDict",
     "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Adicione um dicionário seu; as entradas dele aparecem ao lado do dicionário offline dos seus idiomas.",

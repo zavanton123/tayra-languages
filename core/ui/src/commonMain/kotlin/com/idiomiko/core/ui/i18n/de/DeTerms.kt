@@ -231,6 +231,8 @@ internal val deTerms: Map<String, String> = mapOf(
     "Download word finder" to "Wortsuche herunterladen",
     "word finder" to "Wortsuche",
     "Import a dictionary" to "Wörterbuch importieren",
+    "Remove the {0} dictionary?" to "Das Wörterbuch {0} entfernen?",
+    "Its entries no longer show when you look words up. You can import it again at any time." to "Seine Einträge erscheinen beim Nachschlagen nicht mehr. Du kannst es jederzeit wieder importieren.",
     "Import · {0}" to "Importieren · {0}",
     "Yomitan, MDict or StarDict files" to "Yomitan-, MDict- oder StarDict-Dateien",
     "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Füge ein eigenes Wörterbuch hinzu; seine Einträge erscheinen neben dem Offline-Wörterbuch seiner Sprachen.",

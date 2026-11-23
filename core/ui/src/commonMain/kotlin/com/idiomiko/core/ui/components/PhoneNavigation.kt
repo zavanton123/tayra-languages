@@ -167,7 +167,6 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
         "Offline resources",
         listOf(
             // Named apart from the tabs: these set things up rather than open them.
-            MoreEntry("Dictionaries", AppIcons.MenuBook, Route.OfflineDictionaries),
             MoreEntry("Speech", AppIcons.VolumeUp, Route.Speech),
             MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
         ),

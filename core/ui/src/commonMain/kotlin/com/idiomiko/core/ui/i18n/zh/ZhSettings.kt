@@ -123,6 +123,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     // OfflineTranslationScreen.kt
     "Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…" to "正在将 {0} 安装到应用文件夹。需要下载约 1 GB，耗时几分钟…",
     "Translation" to "翻译",
+    "Choose how translations are generated, and add dictionaries of your own." to "选择翻译的生成方式，并添加你自己的词典。",
     "Choose how translations are generated and stored." to "选择翻译的生成和存储方式。",
     "Your language" to "你的语言",
     "Online translation: {0}" to "在线翻译：{0}",

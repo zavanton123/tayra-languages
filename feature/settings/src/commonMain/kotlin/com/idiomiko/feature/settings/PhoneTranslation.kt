@@ -42,7 +42,8 @@ import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSpacing
 
 /**
- * The Translation page on a phone: the engine picked from a sheet with its status under it.
+ * The Translation page on a phone: the engine picked from a sheet with its status under it, then
+ * the dictionaries of one's own.
  */
 @Composable
 internal fun PhoneTranslationScreen(
@@ -54,6 +55,7 @@ internal fun PhoneTranslationScreen(
     checking: Boolean,
     ready: Boolean,
     pairReady: Boolean,
+    importCard: @Composable (Modifier) -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
     var engineSheet by remember { mutableStateOf(false) }
@@ -63,7 +65,7 @@ internal fun PhoneTranslationScreen(
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Text(tr("Choose how translations are generated and stored."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                Text(tr("Choose how translations are generated, and add dictionaries of your own."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 EngineStatusPill(settings, viewModel, local, checking, ready, pairReady)
             }
             ContentCard(tr("Translation engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
@@ -88,6 +90,7 @@ internal fun PhoneTranslationScreen(
                     )
                 }
             }
+            importCard(Modifier)
         }
     }
     if (engineSheet) {

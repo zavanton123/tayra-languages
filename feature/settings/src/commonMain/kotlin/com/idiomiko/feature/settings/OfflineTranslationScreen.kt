@@ -12,7 +12,9 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -55,6 +57,8 @@ import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.Dropdown
 import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.LocalLearningLanguage
+import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
@@ -175,7 +179,12 @@ class OfflineTranslationViewModel(
 
 
 @Composable
-fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: OfflineTranslationViewModel = koinViewModel()) {
+fun OfflineTranslationScreen(
+    onNavigate: (Route) -> Unit,
+    onBack: () -> Unit,
+    viewModel: OfflineTranslationViewModel = koinViewModel(),
+    dictionaries: DictionaryImportViewModel = koinViewModel(),
+) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     val busy by viewModel.busy.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
@@ -194,8 +203,13 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
     // Whether the language being learned can be translated into the native one with what is installed.
     val pairReady = packages.none { it.key in wanted && !it.installed }
 
+    val learningCode = LocalLearningLanguage.current?.currentName?.let(LanguageCodes::codeFor)
+    val importCard: @Composable (Modifier) -> Unit = { modifier ->
+        if (dictionaries.canImport) ImportDictionaryCard(dictionaries, learningCode, native, modifier)
+    }
+
     if (LocalWindowWidth.current.isCompact) {
-        PhoneTranslationScreen(settings, viewModel, onNavigate, onBack, local, checking = busy || !checked, ready, pairReady)
+        PhoneTranslationScreen(settings, viewModel, onNavigate, onBack, local, checking = busy || !checked, ready, pairReady, importCard)
         return
     }
     Scaffold(
@@ -203,11 +217,18 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Translation"), tr("Choose how translations are generated and stored."), onBackToSettings = onBack) {
+            ScreenHeader(tr("Translation"), tr("Choose how translations are generated, and add dictionaries of your own."), onBackToSettings = onBack) {
                 if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pairReady)
             }
-            if (LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pairReady)
-            EngineCard(settings, viewModel, pairReady)
+            if (LocalWindowWidth.current.isExpanded && dictionaries.canImport) {
+                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                    EngineCard(settings, viewModel, pairReady, Modifier.weight(1f).fillMaxHeight())
+                    importCard(Modifier.weight(1f).fillMaxHeight())
+                }
+            } else {
+                EngineCard(settings, viewModel, pairReady)
+                importCard(Modifier)
+            }
         }
     }
 }

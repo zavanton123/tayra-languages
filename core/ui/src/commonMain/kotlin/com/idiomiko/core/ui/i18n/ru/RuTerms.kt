@@ -231,6 +231,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Download word finder" to "Скачать поиск слов",
     "word finder" to "поиск слов",
     "Import a dictionary" to "Импорт словаря",
+    "Remove the {0} dictionary?" to "Удалить словарь {0}?",
+    "Its entries no longer show when you look words up. You can import it again at any time." to "Его статьи больше не будут показываться при поиске слов. Его можно снова импортировать в любое время.",
     "Import · {0}" to "Импортировать · {0}",
     "Yomitan, MDict or StarDict files" to "Файлы Yomitan, MDict или StarDict",
     "Add a dictionary of your own; its entries show beside the offline dictionary of its languages." to "Добавьте свой словарь: его статьи появятся рядом с офлайн-словарём его языков.",

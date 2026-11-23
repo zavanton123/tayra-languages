@@ -106,14 +106,14 @@ voice falls back to the system voice.
 Download a dictionary pack for a language and its meanings appear in the term pane with no
 network: definitions, every sense with a one-tap add, and the link from an inflected form to
 its base word. Packs exist for 69 languages, with meanings in English, Chinese, French,
-German, Greek, Polish, Portuguese, Russian or Spanish where Wiktionary covers the pair, and are
-managed on the Dictionaries screen. When a pack lacks a word, the language's rules, ported from
+German, Greek, Polish, Portuguese, Russian or Spanish where Wiktionary covers the pair, and the
+app downloads the pack of the language you learn on its own. When a pack lacks a word, the language's rules, ported from
 Yomitan, find what it is a spelling or an inflection of ("walked" to "walk", "еще" to "ещё",
 "食べました" to "食べる"), so the meaning and the base word still show. FreeDict's bilingual
-dictionaries are offered there as well, beside the Wiktionary packs and for pairs Wiktionary does
+dictionaries are used as well, beside the Wiktionary packs and for pairs Wiktionary does
 not cover. Dictionaries of your own, made for Yomitan (.zip), MDict (.mdx) or StarDict (its .ifo,
-.idx and .dict files, or an archive of them), can be imported there too; their entries show beside
-the pack of their languages.
+.idx and .dict files, or an archive of them), can be imported and removed under Settings ›
+Translation; their entries show beside the pack of their languages.
 
 ## Languages
 
@@ -154,7 +154,7 @@ them and read as words of their own (학교에서 is 학교 + 에서), and verbs
 - Photos of pages become text too: pick them, or take one with the phone's camera. iOS reads them
   with Vision; Android with ML Kit for Latin, Chinese, Japanese, Korean and Devanagari text and
   Tesseract for other scripts; the desktop with Tesseract. A Tesseract model (1–5 MB) is downloaded
-  for a language the first time a photo in it is read, and can be removed under Dictionaries.
+  for a language the first time a photo in it is read.
 - Long texts are split into pages by paragraph or by word count; pages can be edited, added
   or removed later.
 - The library puts the book being read on top, with the minutes left at a learner's pace, then

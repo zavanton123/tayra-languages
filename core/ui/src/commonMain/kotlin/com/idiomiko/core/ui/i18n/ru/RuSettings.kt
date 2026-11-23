@@ -123,6 +123,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     // OfflineTranslationScreen.kt
     "Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…" to "Установка {0} в папку приложения. Будет скачано около гигабайта, это займёт несколько минут…",
     "Translation" to "Перевод",
+    "Choose how translations are generated, and add dictionaries of your own." to "Выберите, как создаются переводы, и добавьте свои словари.",
     "Choose how translations are generated and stored." to "Выберите, как создаются и хранятся переводы.",
     "Your language" to "Ваш язык",
     "Online translation: {0}" to "Онлайн-перевод: {0}",

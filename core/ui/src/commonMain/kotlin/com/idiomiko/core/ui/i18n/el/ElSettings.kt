@@ -123,6 +123,7 @@ internal val elSettings: Map<String, String> = mapOf(
     // OfflineTranslationScreen.kt
     "Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…" to "Εγκατάσταση του {0} στον φάκελο της εφαρμογής. Θα ληφθεί περίπου ένα gigabyte και θα χρειαστούν λίγα λεπτά…",
     "Translation" to "Μετάφραση",
+    "Choose how translations are generated, and add dictionaries of your own." to "Επιλέξτε πώς δημιουργούνται οι μεταφράσεις και προσθέστε δικά σας λεξικά.",
     "Choose how translations are generated and stored." to "Επιλέξτε πώς δημιουργούνται και αποθηκεύονται οι μεταφράσεις.",
     "Your language" to "Η γλώσσα σας",
     "Online translation: {0}" to "Online μετάφραση: {0}",
