@@ -71,7 +71,7 @@ class SettingsSidebarTest {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.CLEAR_DATA, onNavigate = { visited += it }) } } }
         assertEquals(
-            listOf("General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "Updates", "Experiments"),
+            listOf("General", "Goals", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "Updates", "Experiments"),
             SettingsSection.entries.map { it.label },
         )
         onNodeWithTag("settings-section-CLEAR_DATA").assertIsSelected()
@@ -81,6 +81,22 @@ class SettingsSidebarTest {
         assertTrue(clear.top >= backups.bottom, "Clear data sits below Backups")
         onNodeWithTag("settings-section-BACKUPS").performClick()
         assertEquals(listOf<Route>(Route.Backups), visited)
+    }
+
+    /** Goals follows General, lit while its page is open, and opens from the others. */
+    @Test
+    fun goalsFollowsGeneralAndIsLitOnItsPage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.GOALS, onNavigate = { visited += it }) } } }
+        assertEquals(SettingsSection.GOALS, SettingsSection.entries[1])
+        onNodeWithTag("settings-section-GOALS").assertIsSelected()
+        onNodeWithTag("settings-section-GENERAL").assertIsNotSelected()
+        val general = onNodeWithTag("settings-section-GENERAL").fetchSemanticsNode().boundsInRoot
+        val goals = onNodeWithTag("settings-section-GOALS").fetchSemanticsNode().boundsInRoot
+        val languages = onNodeWithTag("settings-section-LANGUAGES").fetchSemanticsNode().boundsInRoot
+        assertTrue(goals.top >= general.bottom && languages.top >= goals.bottom, "Goals sits between General and Languages")
+        onNodeWithTag("settings-section-GENERAL").performClick()
+        assertEquals(listOf<Route>(Route.Settings), visited)
     }
 
     /** Updates sits between Clear data and Experiments, and is left out where the app provides it as hidden. */

@@ -30,8 +30,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "reading font size" to "размер шрифта",
     "Reading line height" to "Межстрочный интервал",
     "reading line height" to "межстрочный интервал",
-    "Behaviour" to "Поведение",
-    "Control how Idiomiko behaves on different pages." to "Настройте поведение Idiomiko на разных страницах.",
+    "Display word statuses" to "Отображение статусов слов",
     "Show learning levels" to "Показывать уровни изучения",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "Статусы 1–4 для изучаемых слов и «Игнорировать» вместо только «Незнакомое», «Изучаю» и «Знаю».",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known." to "Статусы 1–4 для изучаемых слов и «Игнорируемое» вместо только «Новое», «Изучаю» и «Знакомое».",
@@ -297,6 +296,10 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Becomes your speech engine" to "Станет вашим синтезатором речи",
     "All voices" to "Все голоса",
     "Needed by every voice, downloaded once" to "Нужна всем голосам, скачивается один раз",
+
+    // GoalsScreen.kt
+    "Goals" to "Цели",
+    "Set goals" to "Задать цели",
 
     // UpdatesScreen.kt
     "Updates" to "Обновления",

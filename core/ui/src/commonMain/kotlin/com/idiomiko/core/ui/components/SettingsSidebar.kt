@@ -48,6 +48,7 @@ import com.idiomiko.core.ui.theme.AppText
 /** The settings pages, in the order the sidebar lists them; [label] is English, shown through `tr`. */
 enum class SettingsSection(val label: String, val route: Route, val icon: ImageVector) {
     GENERAL("General", Route.Settings, Icons.Default.Settings),
+    GOALS("Goals", Route.Goals, AppIcons.Target),
     LANGUAGES("Languages", Route.Languages, AppIcons.Globe),
     FLASHCARDS("Flashcards", Route.FlashcardSettings, AppIcons.Style),
     VOCABULARY("Vocabulary", Route.VocabularySettings, AppIcons.Abc),

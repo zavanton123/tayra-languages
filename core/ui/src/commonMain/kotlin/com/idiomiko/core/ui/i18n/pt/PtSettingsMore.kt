@@ -30,8 +30,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "reading font size" to "tamanho da fonte de leitura",
     "Reading line height" to "Altura da linha de leitura",
     "reading line height" to "altura da linha de leitura",
-    "Behaviour" to "Comportamento",
-    "Control how Idiomiko behaves on different pages." to "Controle como o Idiomiko se comporta nas diferentes páginas.",
+    "Display word statuses" to "Mostrar status das palavras",
     "Show learning levels" to "Mostrar níveis de aprendizado",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "Status de 1 a 4 para palavras em aprendizado, e Ignorada, em vez de apenas Desconhecida, Aprendendo e Conhecida.",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known." to "Estados 1 a 4 para palavras em estudo, e Ignorada, em vez de apenas Nova, Aprendendo e Conhecida.",
@@ -297,6 +296,10 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Becomes your speech engine" to "Passa a ser seu mecanismo de voz",
     "All voices" to "Todas as vozes",
     "Needed by every voice, downloaded once" to "Necessário para todas as vozes, baixado uma vez",
+
+    // GoalsScreen.kt
+    "Goals" to "Metas",
+    "Set goals" to "Definir metas",
 
     // UpdatesScreen.kt
     "Updates" to "Atualizações",

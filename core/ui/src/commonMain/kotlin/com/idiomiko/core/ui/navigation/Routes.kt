@@ -184,6 +184,10 @@ sealed interface Route {
     @Serializable
     data object ClearData : Route
 
+    /** Settings: the daily goal. */
+    @Serializable
+    data object Goals : Route
+
     /** Settings: the desktop app's version and its updates. */
     @Serializable
     data object Updates : Route

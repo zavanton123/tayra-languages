@@ -30,8 +30,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "reading font size" to "μέγεθος γραμματοσειράς ανάγνωσης",
     "Reading line height" to "Διάστιχο ανάγνωσης",
     "reading line height" to "διάστιχο ανάγνωσης",
-    "Behaviour" to "Συμπεριφορά",
-    "Control how Idiomiko behaves on different pages." to "Ορίστε πώς συμπεριφέρεται το Idiomiko σε διάφορες σελίδες.",
+    "Display word statuses" to "Εμφάνιση κατάστασης λέξεων",
     "Show learning levels" to "Εμφάνιση επιπέδων εκμάθησης",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "Καταστάσεις 1–4 για λέξεις σε εκμάθηση, και «Αγνοείται», αντί μόνο για «Άγνωστη», «Σε εκμάθηση» και «Γνωστή».",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known." to "Καταστάσεις 1 έως 4 για λέξεις που μαθαίνετε και Αγνοημένες, αντί μόνο Νέα, Σε εκμάθηση και Γνωστή.",
@@ -297,6 +296,10 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Becomes your speech engine" to "Γίνεται η μηχανή εκφώνησής σας",
     "All voices" to "Όλες οι φωνές",
     "Needed by every voice, downloaded once" to "Απαιτείται από όλες τις φωνές, λαμβάνεται μία φορά",
+
+    // GoalsScreen.kt
+    "Goals" to "Στόχοι",
+    "Set goals" to "Ορισμός στόχων",
 
     // UpdatesScreen.kt
     "Updates" to "Ενημερώσεις",

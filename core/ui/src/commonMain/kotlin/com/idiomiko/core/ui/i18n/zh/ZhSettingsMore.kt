@@ -30,8 +30,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "reading font size" to "阅读字号",
     "Reading line height" to "阅读行高",
     "reading line height" to "阅读行高",
-    "Behaviour" to "行为",
-    "Control how Idiomiko behaves on different pages." to "设置 Idiomiko 在各个页面上的行为。",
+    "Display word statuses" to "显示单词状态",
     "Show learning levels" to "显示学习级别",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only Unknown, Learning and Known." to "为学习中的单词显示状态 1 到 4，以及“已忽略”，而不只是“生词”“学习中”和“已掌握”。",
     "Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known." to "为正在学习的词显示状态 1 到 4 和“已忽略”，而不只是新词、学习中和已掌握。",
@@ -297,6 +296,10 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Becomes your speech engine" to "将成为你的语音引擎",
     "All voices" to "全部语音",
     "Needed by every voice, downloaded once" to "所有语音都需要，只需下载一次",
+
+    // GoalsScreen.kt
+    "Goals" to "目标",
+    "Set goals" to "设定目标",
 
     // UpdatesScreen.kt
     "Updates" to "更新",
