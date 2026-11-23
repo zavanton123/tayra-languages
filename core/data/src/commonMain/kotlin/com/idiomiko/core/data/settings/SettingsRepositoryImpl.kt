@@ -87,19 +87,20 @@ class SettingsRepositoryImpl(
     }
 
     /**
-     * The settings a backup carries, as stored values. API keys stay out: secrets do not belong in a file.
+     * The settings a backup carries, as stored values. API keys stay out: secrets do not belong in a
+     * file. So does what only describes this device, such as whether its `idiomiko` command was set up.
      */
     fun backupValues(): Map<String, String> {
         val values = StringMapSettings()
         write(current, values)
-        return values.values
+        return values.values - Keys.DEVICE_ONLY
     }
 
-    /** Takes the settings in a backup's [values], keeping the API keys of this device. */
+    /** Takes the settings in a backup's [values], keeping the API keys and the device's own settings. */
     suspend fun restoreBackupValues(values: Map<String, String>) {
         val local = current
         val restored = read(StringMapSettings(values.toMutableMap()), googleTranslateApiKey = local.googleTranslateApiKey)
-        update { restored }
+        update { restored.copy(commandLineSetUp = local.commandLineSetUp) }
     }
 
     private fun load(): UserSettings {
@@ -157,6 +158,7 @@ class SettingsRepositoryImpl(
             checkForUpdates = store.getBoolean(Keys.CHECK_FOR_UPDATES, defaults.checkForUpdates),
             skippedUpdate = store.getString(Keys.SKIPPED_UPDATE, defaults.skippedUpdate),
             lastUpdateCheck = store.getLong(Keys.LAST_UPDATE_CHECK, defaults.lastUpdateCheck),
+            commandLineSetUp = store.getBoolean(Keys.COMMAND_LINE_SET_UP, defaults.commandLineSetUp),
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
             translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
             googleTranslateApiKey = googleTranslateApiKey,
@@ -286,6 +288,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.CHECK_FOR_UPDATES, s.checkForUpdates)
         store.putString(Keys.SKIPPED_UPDATE, s.skippedUpdate)
         store.putLong(Keys.LAST_UPDATE_CHECK, s.lastUpdateCheck)
+        store.putBoolean(Keys.COMMAND_LINE_SET_UP, s.commandLineSetUp)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
         store.putInt(Keys.FLASHCARD_NEW_PER_DAY, s.flashcardNewPerDay)
@@ -383,6 +386,10 @@ class SettingsRepositoryImpl(
         const val CHECK_FOR_UPDATES = "check_for_updates"
         const val SKIPPED_UPDATE = "skipped_update"
         const val LAST_UPDATE_CHECK = "last_update_check"
+        const val COMMAND_LINE_SET_UP = "command_line_set_up"
+
+        /** Settings that stay out of backups, besides the secrets, which the plain store never holds. */
+        val DEVICE_ONLY = listOf(COMMAND_LINE_SET_UP)
         const val TRANSLATION_EMAIL = "translation_contact_email"
         const val FLASHCARD_NEW_PER_DAY = "flashcard_new_per_day"
         const val FLASHCARD_REVIEWS_PER_DAY = "flashcard_reviews_per_day"

@@ -136,6 +136,11 @@ data class UserSettings(
     val skippedUpdate: String = "",
     /** When the app last looked for a new release, in milliseconds since the epoch. */
     val lastUpdateCheck: Long = 0,
+    /**
+     * Whether the desktop app put its `idiomiko` command on the PATH, or found it there, on its first
+     * run. Kept on this device only: neither synced nor backed up.
+     */
+    val commandLineSetUp: Boolean = false,
     /** The setup last used for practice from the reader, as `PracticeSetup.encode` writes it; empty before the first. */
     val practiceSetupReading: String = "",
     /** The setup last used for practice of words chosen in the vocabulary. */
