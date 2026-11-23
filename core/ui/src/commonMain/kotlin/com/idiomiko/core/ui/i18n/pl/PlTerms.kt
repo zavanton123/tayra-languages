@@ -32,7 +32,9 @@ internal val plTerms: Map<String, String> = mapOf(
     "Recently added" to "Ostatnio dodane",
     "Term A–Z" to "Alfabetycznie",
     // PhoneTerms.kt
-    "{0} terms · {1} known" to "Słowa: {0} · znane: {1}",
+    "Vocabulary overview" to "Przegląd słownictwa",
+    "All vocabulary" to "Całe słownictwo",
+    "known" to "znane",
     "{0}%" to "{0}%",
     "{1} of {2} terms shown" to "Pokazano {1} z {2} słowa|Pokazano {1} z {2} słów|Pokazano {1} z {2} słów",
     "Select terms" to "Zaznacz słowa",

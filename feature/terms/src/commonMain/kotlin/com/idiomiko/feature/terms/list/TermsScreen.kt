@@ -55,7 +55,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -82,7 +81,6 @@ import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.ListPager
-import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
@@ -97,9 +95,7 @@ import com.idiomiko.core.ui.components.SelectMenu
 import com.idiomiko.core.ui.components.SelectableChip
 import com.idiomiko.core.ui.components.TableHeader
 import com.idiomiko.core.ui.components.TableHeaderCell
-import com.idiomiko.core.ui.components.TintedSurface
 import com.idiomiko.core.ui.components.ToggleButton
-import com.idiomiko.core.ui.components.animatedCount
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.itemMotion
 import com.idiomiko.core.ui.files.saveBinaryFile
@@ -202,7 +198,7 @@ fun TermsScreen(
                 item { DialogHeader(title.orEmpty(), subtitle, exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onClose = { onBack?.invoke() }) }
             } else {
                 item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
-                item { StatCards(state, compact) }
+                item { VocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.xl)) }
             }
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel, pageNote = !dialog) } }
@@ -321,37 +317,6 @@ private fun DialogHeader(title: String, subtitle: String?, exporting: String?, s
         ScreenHeader(title, subtitle) {
             SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-terms-dialog"), style = IconButtonStyle.Tonal)
-        }
-    }
-}
-
-private data class StatCard(val label: String, val value: Int, val icon: ImageVector, val tint: Color)
-
-@OptIn(ExperimentalLayoutApi::class)
-@Composable
-private fun StatCards(state: TermsListUiState, compact: Boolean) {
-    val cards = listOf(
-        StatCard(tr("Total terms"), state.totalTerms, AppIcons.Book, AppAccents.blue),
-        StatCard(tr("Learning"), state.learningCount, AppIcons.BarChart, AppAccents.purple),
-        StatCard(tr("Known"), state.knownCount, Icons.Default.Check, AppAccents.green),
-    )
-    FlowRow(
-        Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl),
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
-        maxItemsInEachRow = if (compact) 2 else cards.size,
-    ) {
-        cards.forEach { card ->
-            TintedSurface(card.tint, Modifier.weight(1f), shape = AppShapes.card, padding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.xl)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    IconTile(card.icon, size = 48, tint = card.tint)
-                    Spacer(Modifier.width(AppSpacing.l))
-                    Column {
-                        Text(card.label, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Text(animatedCount(card.value).toString(), style = AppText.headline)
-                    }
-                }
-            }
         }
     }
 }

@@ -32,7 +32,9 @@ internal val esTerms: Map<String, String> = mapOf(
     "Recently added" to "Añadidas recientemente",
     "Term A–Z" to "Palabra A–Z",
     // PhoneTerms.kt
-    "{0} terms · {1} known" to "{0} palabras · {1} conocidas",
+    "Vocabulary overview" to "Resumen del vocabulario",
+    "All vocabulary" to "Todo el vocabulario",
+    "known" to "conocido",
     "{0}%" to "{0} %",
     "{1} of {2} terms shown" to "{1} de {2} término mostrado|{1} de {2} términos mostrados",
     "Select terms" to "Seleccionar palabras",

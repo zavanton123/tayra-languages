@@ -2,6 +2,8 @@ package com.idiomiko.feature.terms.list
 
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.performScrollToNode
 import androidx.compose.ui.test.performScrollToIndex
 import androidx.compose.ui.test.hasScrollToNodeAction
@@ -49,6 +51,9 @@ import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import java.io.File
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
+import androidx.compose.ui.unit.dp
 import javax.imageio.ImageIO
 import kotlin.test.AfterTest
 import kotlin.test.Test
@@ -81,11 +86,11 @@ class TermsScreenTest {
     @AfterTest
     fun tearDown() = stopKoin()
 
-    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}, extra: Int = 0, termIds: List<Long>? = null, dialog: Boolean = false, more: suspend (Long) -> Unit = {}) {
+    private fun ComposeUiTest.show(onNavigate: (Route) -> Unit = {}, extra: Int = 0, termIds: List<Long>? = null, dialog: Boolean = false, seed: Boolean = true, more: suspend (Long) -> Unit = {}) {
         val languageId = runBlocking {
             val id = languages.save(Language(name = "Portuguese"))
             settings.update { it.copy(currentLanguageId = id) }
-            listOf(
+            if (seed) listOf(
                 "gostar" to TermStatus.WELL_KNOWN, "comprar" to TermStatus.NEW_1, "produtos" to TermStatus.NEW_1,
                 "expressão" to TermStatus.WELL_KNOWN, "pensar" to TermStatus.LEARNING_3, "lá" to TermStatus.IGNORED,
             ).forEach { (text, status) -> service.save(TermDraft(languageId = id, text = text, status = status, statusExplicitlySet = true)) }
@@ -123,16 +128,84 @@ class TermsScreenTest {
             }
         }
         // The newest term comes first: with many more added, the first of them.
-        if (termIds?.isEmpty() != true) waitUntil(timeoutMillis = 5_000) { onAllNodesWithText(if (extra > 0) "palavra${extra - 1}" else "comprar").fetchSemanticsNodes().isNotEmpty() }
+        if (seed && termIds?.isEmpty() != true) waitUntil(timeoutMillis = 5_000) { onAllNodesWithText(if (extra > 0) "palavra${extra - 1}" else "comprar").fetchSemanticsNodes().isNotEmpty() }
     }
 
     private fun ComposeUiTest.listed(word: String) = onAllNodesWithText(word).fetchSemanticsNodes().isNotEmpty()
+
+    /** Whether [text] shows inside the node tagged [tag]. */
+    private fun ComposeUiTest.shownIn(tag: String, text: String) =
+        onAllNodes(hasText(text) and hasAnyAncestor(hasTestTag(tag))).fetchSemanticsNodes().isNotEmpty()
+
+    private fun ComposeUiTest.screenshot(suffix: String) =
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "$suffix.png"))) }
+
+    /** The overview counts the whole vocabulary: the total, the known words' share of those known and learning in the ring, and both in the legend. */
+    @Test
+    fun theOverviewShowsTheKnownShareAndBothCounts() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show()
+        // Two known and three learning; the ignored word counts in neither.
+        waitUntil(timeoutMillis = 5_000) {
+            shownIn("vocabulary-overview", "5") && shownIn("legend-known", "2") && shownIn("legend-learning", "3")
+        }
+        onNodeWithText("Vocabulary overview").assertExists()
+        onNodeWithText("All vocabulary").assertExists()
+        assertTrue(shownIn("vocabulary-ring", "40%") && shownIn("vocabulary-ring", "known"))
+        assertTrue(shownIn("legend-known", "Known") && shownIn("legend-known", "40%"))
+        assertTrue(shownIn("legend-learning", "Learning") && shownIn("legend-learning", "60%"))
+        screenshot("-overview")
+    }
+
+    /** A window narrower than a desktop's keeps the whole overview, wrapping it onto two lines where it must. */
+    @Test
+    fun aMediumWindowKeepsTheWholeOverview() = runDesktopComposeUiTest(width = 1000, height = 1000) {
+        show()
+        waitUntil(timeoutMillis = 5_000) { shownIn("legend-learning", "3") }
+        onNodeWithText("Total terms").assertExists()
+        assertTrue(shownIn("legend-known", "40%") && shownIn("legend-learning", "60%"))
+        screenshot("-medium")
+    }
+
+    @Test
+    fun aNarrowWindowWrapsTheOverview() = runDesktopComposeUiTest(width = 760, height = 1000) {
+        show()
+        waitUntil(timeoutMillis = 5_000) { shownIn("legend-learning", "3") }
+        assertTrue(shownIn("vocabulary-ring", "40%") && shownIn("legend-learning", "60%"))
+        screenshot("-narrow")
+    }
+
+    /** Large counts are grouped as the interface language writes them, and the shares keep a tenth of a percent. */
+    @Test
+    fun theOverviewGroupsLargeCounts() = runDesktopComposeUiTest(width = 1586, height = 640) {
+        setContent {
+            IdiomikoTheme {
+                androidx.compose.foundation.layout.Column(androidx.compose.ui.Modifier.padding(32.dp), verticalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy(24.dp)) {
+                    VocabularyOverview(19159, known = 18470, learning = 689)
+                    androidx.compose.foundation.layout.Box(androidx.compose.ui.Modifier.width(360.dp)) { PhoneVocabularyOverview(19159, known = 18470, learning = 689) }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { listed("19,159") && listed("18,470") }
+        assertEquals(2, onAllNodes(hasText("96.4%") and hasAnyAncestor(hasTestTag("vocabulary-ring"))).fetchSemanticsNodes().size)
+        assertEquals(2, onAllNodes(hasText("3.6%") and hasAnyAncestor(hasTestTag("legend-learning"))).fetchSemanticsNodes().size)
+        screenshot("-overview-card")
+    }
+
+    /** A language with no terms yet shows a grey ring at 0%, not a share of nothing. */
+    @Test
+    fun anEmptyLanguagesOverviewShowsNoShare() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(seed = false)
+        waitUntil(timeoutMillis = 5_000) { shownIn("vocabulary-ring", "0%") }
+        assertTrue(shownIn("vocabulary-overview", "0"))
+        assertTrue(shownIn("legend-known", "0%") && shownIn("legend-learning", "0%"))
+        screenshot("-overview-empty")
+    }
 
     private fun ComposeUiTest.waitForList(vararg shown: String, hidden: List<String>) =
         waitUntil(timeoutMillis = 5_000) { shown.all { listed(it) } && hidden.none { listed(it) } }
 
     @Test
-    fun tickingStatusesAndDaysNarrowsTheListAtOnce() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun tickingStatusesAndDaysNarrowsTheListAtOnce() = runDesktopComposeUiTest(width = 1586, height = 1200) {
         show()
         // The screen opens on the words being learned: statuses 1 to 4 are ticked, known and ignored terms stay out.
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
@@ -263,6 +336,8 @@ class TermsScreenTest {
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar", "expressão", "lá"))
         onNodeWithText("Learning 1–4 · 3 terms").assertExists()
         onNodeWithText("Filter vocabulary").assertDoesNotExist()
+        waitUntil(timeoutMillis = 5_000) { shownIn("legend-known", "40%") && shownIn("legend-learning", "3") }
+        onNodeWithText("Vocabulary overview").assertExists()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone.png"))) }
 
         onNodeWithText("Filters").performClick()

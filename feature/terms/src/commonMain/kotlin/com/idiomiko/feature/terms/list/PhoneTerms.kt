@@ -104,7 +104,7 @@ private val SPEAK_BUTTON = 36.dp
 private val TICK_BOX = 24.dp
 
 /**
- * The vocabulary on a phone: the counts and an add button under the bar, the search, a sort
+ * The vocabulary on a phone: the overview card under the bar, the search with an add button beside it, a sort
  * picker and a Filters button that opens a sheet, then the terms as cards. Terms are ticked
  * for the bulk actions by a long press or after Select terms in the list menu.
  */
@@ -144,20 +144,21 @@ internal fun PhoneTermsScreen(
         },
     ) { padding ->
         ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
+            item { PhoneVocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.m)) }
             item {
-                Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-                    Text(
-                        // The filter summary below gives how many terms the filters leave; this line keeps to the whole vocabulary.
-                        if (state.selected.isNotEmpty()) tr("{0} of {1} selected", state.selected.size, state.totalCount)
-                        else tr("{0} terms · {1} known", formatCount(state.totalTerms), formatCount(state.knownCount)),
-                        Modifier.weight(1f),
-                        style = MaterialTheme.typography.bodyLarge,
-                        color = colors.onSurfaceVariant,
-                    )
+                Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
+                    SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.weight(1f))
                     AppIconButton(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term"), size = IconButtonSize.Large, style = IconButtonStyle.Filled)
                 }
             }
-            item { SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m)) }
+            if (state.selected.isNotEmpty()) item {
+                Text(
+                    tr("{0} of {1} selected", state.selected.size, state.totalCount),
+                    Modifier.padding(bottom = AppSpacing.m),
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = colors.onSurfaceVariant,
+                )
+            }
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     val sortLabel = TermSortOption.entries.firstOrNull { it.sort == state.sort }?.label ?: tr("Custom order")

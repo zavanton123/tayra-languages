@@ -32,7 +32,9 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Recently added" to "最近添加",
     "Term A–Z" to "按词条字母排序",
     // PhoneTerms.kt
-    "{0} terms · {1} known" to "{0} 个词条 · 已掌握 {1} 个",
+    "Vocabulary overview" to "词汇概览",
+    "All vocabulary" to "全部词汇",
+    "known" to "已掌握",
     "{0}%" to "{0}%",
     "{1} of {2} terms shown" to "显示 {2} 个词语中的 {1} 个",
     "Select terms" to "选择词条",
