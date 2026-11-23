@@ -97,10 +97,7 @@ internal fun PhoneBackupsScreen(
                 SecondaryButton(tr("Import backup"), onClick = onImport, modifier = Modifier.fillMaxWidth(), icon = AppIcons.UploadFile, enabled = idle, size = ButtonSize.Large)
             }
             Progress(state)
-            Column {
-                Text(tr("Backup history"), style = AppText.headline)
-                Text(tr("Newest first."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-            }
+            Text(tr("Backup history"), style = AppText.headline)
             if (state.loaded && state.backups.isEmpty()) {
                 Text(tr("Create a backup to keep a copy of your data."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }

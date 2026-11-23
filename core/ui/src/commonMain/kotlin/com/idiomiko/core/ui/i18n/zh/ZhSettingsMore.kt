@@ -93,7 +93,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "The data you had before is kept as the backup of {0}." to "之前的数据已保存为 {0} 的备份。",
     "OK" to "确定",
     "Backup history" to "备份记录",
-    "Newest first." to "最新的在前。",
     "Create a backup to keep a copy of your data." to "创建一个备份来保存数据副本。",
     "Restoring replaces your current Idiomiko data after confirmation." to "确认后，恢复操作将替换当前的 Idiomiko 数据。",
     "Export" to "导出",

@@ -93,7 +93,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "The data you had before is kept as the backup of {0}." to "Τα προηγούμενα δεδομένα σας φυλάσσονται στο αντίγραφο ασφαλείας της {0}.",
     "OK" to "OK",
     "Backup history" to "Ιστορικό αντιγράφων ασφαλείας",
-    "Newest first." to "Πρώτα τα νεότερα.",
     "Create a backup to keep a copy of your data." to "Δημιουργήστε ένα αντίγραφο ασφαλείας για να κρατήσετε αντίγραφο των δεδομένων σας.",
     "Restoring replaces your current Idiomiko data after confirmation." to "Η επαναφορά αντικαθιστά τα τρέχοντα δεδομένα του Idiomiko μετά από επιβεβαίωση.",
     "Export" to "Εξαγωγή",

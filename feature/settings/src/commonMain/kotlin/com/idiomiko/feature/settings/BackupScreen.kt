@@ -345,7 +345,7 @@ private fun HistoryCard(
 ) {
     ContentCard(
         tr("Backup history"),
-        tr("Newest first."),
+        null,
         icon = AppIcons.History,
         modifier = modifier,
     ) {

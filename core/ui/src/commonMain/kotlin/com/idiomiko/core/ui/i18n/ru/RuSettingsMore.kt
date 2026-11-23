@@ -93,7 +93,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "The data you had before is kept as the backup of {0}." to "Прежние данные сохранены в резервной копии от {0}.",
     "OK" to "ОК",
     "Backup history" to "История резервных копий",
-    "Newest first." to "Сначала новые.",
     "Create a backup to keep a copy of your data." to "Создайте резервную копию, чтобы сохранить свои данные.",
     "Restoring replaces your current Idiomiko data after confirmation." to "После подтверждения восстановление заменит текущие данные Idiomiko.",
     "Export" to "Экспортировать",

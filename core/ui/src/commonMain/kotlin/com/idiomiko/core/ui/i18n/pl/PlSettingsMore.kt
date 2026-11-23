@@ -93,7 +93,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "The data you had before is kept as the backup of {0}." to "Poprzednie dane zachowano w kopii zapasowej z {0}.",
     "OK" to "OK",
     "Backup history" to "Historia kopii zapasowych",
-    "Newest first." to "Od najnowszych.",
     "Create a backup to keep a copy of your data." to "Utwórz kopię zapasową, aby zachować swoje dane.",
     "Restoring replaces your current Idiomiko data after confirmation." to "Po potwierdzeniu przywrócenie zastąpi bieżące dane Tayry.",
     "Export" to "Eksportuj",

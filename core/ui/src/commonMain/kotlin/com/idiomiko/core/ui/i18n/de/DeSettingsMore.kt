@@ -93,7 +93,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "The data you had before is kept as the backup of {0}." to "Deine vorherigen Daten sind als Sicherung vom {0} erhalten.",
     "OK" to "OK",
     "Backup history" to "Sicherungsverlauf",
-    "Newest first." to "Neueste zuerst.",
     "Create a backup to keep a copy of your data." to "Erstelle eine Sicherung, um eine Kopie deiner Daten zu behalten.",
     "Restoring replaces your current Idiomiko data after confirmation." to "Das Wiederherstellen ersetzt nach Bestätigung deine aktuellen Idiomiko-Daten.",
     "Export" to "Exportieren",
