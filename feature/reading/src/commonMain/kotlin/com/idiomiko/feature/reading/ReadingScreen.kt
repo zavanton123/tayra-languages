@@ -89,8 +89,6 @@ import androidx.compose.ui.input.key.key
 import androidx.compose.ui.input.key.utf16CodePoint
 import co.touchlab.kermit.Logger
 import com.idiomiko.core.ui.audio.Speaker
-import com.idiomiko.core.domain.settings.Hotkey
-import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.input.key.onPreviewKeyEvent
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
@@ -943,7 +941,6 @@ private fun ReadingBody(
                     ContinuousControls(
                         playing = continuous.active,
                         autoPause = state.settings.autoPause,
-                        hotkeys = state.settings.hotkeys,
                         onPlay = continuous::toggle,
                         playEnabled = canSpeak,
                         playDisabledReason = noVoiceReason(state),
@@ -1098,94 +1095,16 @@ private val SETTINGS_DIALOG_WIDTH = 1040.dp
 private val TERM_PANEL_WIDTH = 440.dp
 private const val EXAMPLES_DIALOG_HEIGHT = 0.92f
 private val HANDLE_WIDTH = 32.dp
-private val SHORTCUTS_WIDTH = 440.dp
-private val SHORTCUT_KEYS_WIDTH = 250.dp
 private val VOCABULARY_BAR_WIDTH = 360.dp
 private val SOURCE_DIVIDER_HEIGHT = 20.dp
 
-/** The listening and paging shortcuts as they are set now, keys first. */
-@Composable
-private fun ShortcutsCard(hotkeys: Map<HotkeyAction, Hotkey?>) {
-    val colors = MaterialTheme.colorScheme
-    // Keys for one action are alternatives ("or"); a row of two opposite actions pairs them with "/".
-    val or = tr("or")
-    val rows = listOf(
-        Triple(tr("Play / pause"), listOf(HotkeyAction.LISTEN_PLAY_PAUSE, HotkeyAction.LISTEN_PAUSE, HotkeyAction.LISTEN_PAUSE_ARROW), or),
-        Triple(tr("Previous sentence"), listOf(HotkeyAction.LISTEN_PREVIOUS, HotkeyAction.LISTEN_PREVIOUS_ARROW), or),
-        Triple(tr("Next sentence"), listOf(HotkeyAction.LISTEN_NEXT, HotkeyAction.LISTEN_NEXT_ARROW), or),
-        Triple(tr("Repeat sentence"), listOf(HotkeyAction.LISTEN_REPEAT, HotkeyAction.LISTEN_REPEAT_ARROW), or),
-        Triple(tr("Mark word as known"), listOf(HotkeyAction.STATUS_WELL_KNOWN), or),
-        Triple(tr("Mark word as new"), listOf(HotkeyAction.DELETE_TERM), or),
-        Triple(tr("Show / hide the term pane"), listOf(HotkeyAction.TOGGLE_TERM_PANE), or),
-        Triple(tr("Next coloured word"), listOf(HotkeyAction.NEXT_COLORED_WORD), or),
-        Triple(tr("Previous coloured word"), listOf(HotkeyAction.PREV_COLORED_WORD), or),
-        Triple(tr("Larger / smaller text"), listOf(HotkeyAction.TEXT_LARGER, HotkeyAction.TEXT_SMALLER), "/"),
-        Triple(tr("More / less line height"), listOf(HotkeyAction.LINES_FURTHER, HotkeyAction.LINES_CLOSER), "/"),
-        Triple(tr("Text size / line height back to default"), listOf(HotkeyAction.TEXT_RESET, HotkeyAction.LINES_RESET), "/"),
-        Triple(tr("Auto-pause on / off"), listOf(HotkeyAction.LISTEN_AUTO_PAUSE), or),
-        Triple(tr("Next page"), listOf(HotkeyAction.NEXT_PAGE), or),
-        Triple(tr("Previous page"), listOf(HotkeyAction.PREVIOUS_PAGE), or),
-    ).mapNotNull { (label, actions, separator) -> actions.mapNotNull { hotkeys[it] }.takeIf { it.isNotEmpty() }?.let { Triple(label, it, separator) } }
-    PopupCard {
-        Column(Modifier.padding(AppSpacing.l).width(SHORTCUTS_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Text(tr("Hotkeys"), style = AppText.smallTitle)
-            rows.forEach { (label, keys, separator) ->
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    Row(Modifier.width(SHORTCUT_KEYS_WIDTH), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
-                        keys.forEachIndexed { index, key ->
-                            if (index > 0) Text(separator, style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant)
-                            KeyCap(key)
-                        }
-                    }
-                    Text(label, style = MaterialTheme.typography.bodyMedium)
-                }
-            }
-            Text(
-                tr("Ctrl (⌘ on a Mac) with the arrows moves between words and changes a word's status; K and U need a selected word."),
-                style = MaterialTheme.typography.bodySmall,
-                color = colors.onSurfaceVariant,
-            )
-        }
-    }
-}
-
-/** A key as printed on the keyboard: arrows as arrows, modifiers joined with +. */
-@Composable
-private fun KeyCap(hotkey: Hotkey) {
-    val colors = MaterialTheme.colorScheme
-    val key = when (hotkey.key) {
-        "Left" -> "\u2190"
-        "Right" -> "\u2192"
-        "Up" -> "\u2191"
-        "Down" -> "\u2193"
-        "Plus" -> "+"
-        "Minus" -> "\u2212"
-        else -> hotkey.key
-    }
-    val label = buildList {
-        if (hotkey.ctrl) add("Ctrl")
-        if (hotkey.alt) add("Alt")
-        if (hotkey.shift) add("Shift")
-        add(key)
-    }.joinToString(" + ")
-    Text(
-        label,
-        style = AppText.badge,
-        modifier = Modifier.clip(AppShapes.small).background(colors.surfaceVariant)
-            .border(AppBorders.hairline(), AppShapes.small).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
-    )
-}
-
 /**
- * The page's play button, to read on from sentence to sentence, with the auto-pause switch after
- * it and, where there is a keyboard ([hotkeys] given), a button listing the listening shortcuts
- * before it.
+ * The page's play button, to read on from sentence to sentence, with the auto-pause switch after it.
  */
 @Composable
 private fun ContinuousControls(
     playing: Boolean,
     autoPause: Boolean,
-    hotkeys: Map<HotkeyAction, Hotkey?>?,
     onPlay: () -> Unit,
     playEnabled: Boolean,
     playDisabledReason: String,
@@ -1193,31 +1112,9 @@ private fun ContinuousControls(
     modifier: Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
-    var showShortcuts by remember { mutableStateOf(false) }
-    val shortcutsDescription = tr("Hotkeys")
     val playDescription = if (!playEnabled) playDisabledReason else if (playing) tr("Pause reading") else tr("Read the page")
     val autoPauseDescription = if (autoPause) tr("Auto-pause on") else tr("Auto-pause off")
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        if (hotkeys != null) {
-            Box {
-                AppTooltip(shortcutsDescription) {
-                    Box(
-                        Modifier.size(CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.surface)
-                            .border(AppBorders.selected(colors.primary), AppShapes.circle)
-                            .clickable { showShortcuts = !showShortcuts }
-                            .semantics { contentDescription = shortcutsDescription },
-                        contentAlignment = Alignment.Center,
-                    ) { Icon(AppIcons.Keyboard, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconMedium)) }
-                }
-                if (showShortcuts) {
-                    Popup(
-                        alignment = Alignment.BottomEnd,
-                        offset = with(LocalDensity.current) { IntOffset(0, -52.dp.roundToPx()) },
-                        onDismissRequest = { showShortcuts = false },
-                    ) { ShortcutsCard(hotkeys) }
-                }
-            }
-        }
         AppTooltip(playDescription) {
             Box(
                 Modifier.size(PLAY_CONTROL_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
