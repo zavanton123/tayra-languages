@@ -297,7 +297,7 @@ export default defineContentScript({
       if (video !== details) return;
       side.setVideo(lines, ranks, fromApp, saved);
       if (!got && status && !status.ok) {
-        overlay.say(status.error === 'unpaired' ? 'Idiomiko: pair this browser in the app’s Settings to look words up' : 'Idiomiko: open the app to look words up');
+        overlay.say(status.error === 'unconnected' ? 'Idiomiko: this browser can’t connect to the app; see the extension’s popup' : 'Idiomiko: open the app to look words up');
       }
     }
 

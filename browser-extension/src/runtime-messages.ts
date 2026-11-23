@@ -5,8 +5,6 @@ import type { PrintTranscript } from './transcript';
 
 export type RuntimeRequest =
   | { type: 'status' }
-  | { type: 'pair'; code: string }
-  | { type: 'unpair' }
   | { type: 'transcript'; request: TranscriptRequest }
   | { type: 'lookup'; term: string }
   | { type: 'save'; request: SaveTermRequest }
@@ -19,8 +17,6 @@ export type RuntimeRequest =
 
 export interface RuntimeAnswers {
   status: BridgeResult<BridgeStatus>;
-  pair: BridgeResult<null>;
-  unpair: BridgeResult<null>;
   transcript: BridgeResult<TranscriptResponse>;
   lookup: BridgeResult<LookupResponse>;
   save: BridgeResult<SaveTermResponse>;

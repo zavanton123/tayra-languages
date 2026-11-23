@@ -27,22 +27,10 @@ export default defineBackground(() => {
   }
   const client = new BridgeClient(tokens, undefined, undefined, helperToken);
 
-  function browserName(): string {
-    const agent = navigator.userAgent;
-    if (agent.includes('Firefox/')) return 'Firefox';
-    if (agent.includes('Edg/')) return 'Edge';
-    return 'Chrome';
-  }
-
   async function handle(request: RuntimeRequest): Promise<BridgeResult<unknown>> {
     switch (request.type) {
       case 'status':
         return client.call('GET', '/v1/status');
-      case 'pair':
-        return client.pair(request.code, browserName());
-      case 'unpair':
-        await tokens.set(null);
-        return { ok: true, data: null };
       case 'transcript':
         return client.call('POST', '/v1/transcript', request.request);
       case 'lookup':

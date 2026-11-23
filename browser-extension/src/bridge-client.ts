@@ -12,7 +12,7 @@ export interface TokenStore {
 
 /**
  * Talks to the Idiomiko desktop app on this computer: finds the port it listens on, and sends the
- * pairing token with every call. Forgets the token when the app no longer knows it.
+ * token from the app's helper with every call. Forgets the token when the app no longer knows it.
  */
 export class BridgeClient {
   private port: number | null = null;
@@ -21,28 +21,28 @@ export class BridgeClient {
     private readonly tokens: TokenStore,
     private readonly fetchImpl: typeof fetch = (input, init) => fetch(input, init),
     private readonly timeoutMs = 4000,
-    /** The token the app's helper gives, with no pairing code; null where the browser can't start it. */
-    private readonly automatic: () => Promise<string | null> = async () => null,
+    /** The token the app's helper gives; null where the browser can't start it. */
+    private readonly helper: () => Promise<string | null> = async () => null,
   ) {}
 
-  async call<T>(method: 'GET' | 'POST', path: string, body?: unknown, authorized = true, read: (response: Response) => Promise<T> = readJson): Promise<BridgeResult<T>> {
-    const first = await this.callOnce<T>(method, path, body, authorized, read);
-    if (first.ok || first.error !== 'unpaired') return first;
+  async call<T>(method: 'GET' | 'POST', path: string, body?: unknown, read: (response: Response) => Promise<T> = readJson): Promise<BridgeResult<T>> {
+    const first = await this.callOnce<T>(method, path, body, read);
+    if (first.ok || first.error !== 'unconnected') return first;
     // No token yet, or one the app no longer knows: the helper may give one.
-    const token = await this.automatic().catch(() => null);
+    const token = await this.helper().catch(() => null);
     if (!token) return first;
     await this.tokens.set(token);
-    return this.callOnce<T>(method, path, body, authorized, read);
+    return this.callOnce<T>(method, path, body, read);
   }
 
   /** What the app sends at [path] as bytes, or null when it sends nothing (204). */
   bytes(path: string): Promise<BridgeResult<ArrayBuffer | null>> {
-    return this.call('GET', path, undefined, true, async (response) => (response.status === 204 ? null : response.arrayBuffer()));
+    return this.call('GET', path, undefined, async (response) => (response.status === 204 ? null : response.arrayBuffer()));
   }
 
-  private async callOnce<T>(method: 'GET' | 'POST', path: string, body: unknown, authorized: boolean, read: (response: Response) => Promise<T>): Promise<BridgeResult<T>> {
-    const token = authorized ? await this.tokens.get() : null;
-    if (authorized && !token) return (await this.find()) ? { ok: false, error: 'unpaired' } : { ok: false, error: 'offline' };
+  private async callOnce<T>(method: 'GET' | 'POST', path: string, body: unknown, read: (response: Response) => Promise<T>): Promise<BridgeResult<T>> {
+    const token = await this.tokens.get();
+    if (!token) return (await this.find()) ? { ok: false, error: 'unconnected' } : { ok: false, error: 'offline' };
     for (let attempt = 0; attempt < 2; attempt++) {
       const port = this.port ?? (await this.find());
       if (port === null) return { ok: false, error: 'offline' };
@@ -50,7 +50,7 @@ export class BridgeClient {
         const response = await this.send(port, method, path, body, token);
         if (response.status === 401) {
           await this.tokens.set(null);
-          return { ok: false, error: 'unpaired' };
+          return { ok: false, error: 'unconnected' };
         }
         if (!response.ok) {
           const failure = (await response.json().catch(() => null)) as { error?: string } | null;
@@ -63,13 +63,6 @@ export class BridgeClient {
       }
     }
     return { ok: false, error: 'offline' };
-  }
-
-  async pair(code: string, browserName: string): Promise<BridgeResult<null>> {
-    const answer = await this.call<{ token: string }>('POST', '/v1/pair', { code: code.replace(/\s+/g, ''), browser: browserName }, false);
-    if (!answer.ok) return answer;
-    await this.tokens.set(answer.data.token);
-    return { ok: true, data: null };
   }
 
   /** The port Idiomiko answers on, or null when the app isn't open. */

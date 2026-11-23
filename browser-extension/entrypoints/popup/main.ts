@@ -32,52 +32,41 @@ async function render() {
       paragraph('Connected to Idiomiko', 'ok'),
       paragraph(language ? `Open a YouTube video in ${language} to watch it with your words.` : 'Choose a language to learn in Idiomiko.', 'muted'),
     );
-    const forget = document.createElement('button');
-    forget.className = 'quiet';
-    forget.textContent = 'Unpair this browser';
-    forget.onclick = async () => {
-      await ask({ type: 'unpair' });
-      await render();
-    };
-    content.append(forget);
     return;
   }
   if (status.error === 'offline') {
     content.append(
-      paragraph('The Idiomiko app is not open.'),
-      paragraph('Start Idiomiko on this computer to look words up and colour subtitles. Without it, the extension still shows subtitles and their translation.', 'muted'),
+      paragraph('Open Idiomiko on this computer to use the extension.'),
+      paragraph('While the app is open, the extension colours subtitles by the words you know and looks words up. Without it, the extension still shows subtitles and their translation.', 'muted'),
+      tryAgain(),
     );
     return;
   }
-  if (status.error === 'unpaired') {
+  if (status.error === 'unconnected') {
+    // The app is open, but its helper gave this browser no token.
+    if (typeof browser.runtime.sendNativeMessage !== 'function') {
+      content.append(paragraph(`This browser isn’t supported yet — use ${BROWSERS}.`));
+      return;
+    }
     content.append(
-      paragraph('This browser could not connect to Idiomiko by itself.'),
-      paragraph('In Idiomiko, open Settings → Browser extension, press “Pair with a code”, and type the code here.', 'muted'),
+      paragraph('Idiomiko is open, but this browser could not connect to it.'),
+      paragraph(`Quit and reopen Idiomiko so it can set up this browser, then try again. If it still can’t connect, this browser isn’t supported yet — use ${BROWSERS}.`, 'muted'),
+      tryAgain(),
     );
-    const form = document.createElement('form');
-    const input = document.createElement('input');
-    input.inputMode = 'numeric';
-    input.autocomplete = 'off';
-    input.placeholder = '000 000';
-    input.maxLength = 7;
-    const button = document.createElement('button');
-    button.type = 'submit';
-    button.textContent = 'Pair';
-    form.append(input, button);
-    const problem = paragraph('', 'error');
-    form.onsubmit = async (event) => {
-      event.preventDefault();
-      button.disabled = true;
-      const paired = await ask({ type: 'pair', code: input.value });
-      button.disabled = false;
-      if (paired.ok) await render();
-      else problem.textContent = paired.error === 'offline' ? 'The Idiomiko app is not open.' : 'That code is wrong or has expired. Ask Idiomiko for a new one.';
-    };
-    content.append(form, problem);
-    input.focus();
     return;
   }
   content.append(paragraph(status.message ?? 'Idiomiko could not answer.', 'error'));
+}
+
+/** The browsers the app sets up for the extension (NativeHostInstaller). */
+const BROWSERS = 'Chrome, Edge, Brave, Vivaldi, Arc or Firefox';
+
+function tryAgain(): HTMLButtonElement {
+  const button = document.createElement('button');
+  button.className = 'quiet';
+  button.textContent = 'Try again';
+  button.onclick = () => void render();
+  return button;
 }
 
 /** Turns the Idiomiko subtitles on YouTube on or off. */

@@ -85,8 +85,12 @@ export interface ChangesResponse {
   reset: boolean;
 }
 
-/** Why a call didn't get an answer: the app isn't open, this browser isn't paired, or the app refused. */
-export type BridgeFailure = 'offline' | 'unpaired' | 'failed';
+/**
+ * Why a call didn't get an answer: the app isn't open, it is open but this browser couldn't get the
+ * token from the app's helper (the app hasn't registered the helper with this browser, or the browser
+ * can't start one), or the app refused.
+ */
+export type BridgeFailure = 'offline' | 'unconnected' | 'failed';
 
 export type BridgeResult<T> = { ok: true; data: T } | { ok: false; error: BridgeFailure; message?: string };
 

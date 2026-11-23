@@ -69,21 +69,6 @@ p {
   color: var(--ok);
   font-weight: 600;
 }
-form {
-  display: flex;
-  gap: 8px;
-}
-input {
-  flex: 1;
-  min-width: 0;
-  padding: 8px 10px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: transparent;
-  color: var(--text);
-  font: 600 18px/1 ui-monospace, 'SF Mono', Menlo, monospace;
-  letter-spacing: 0.15em;
-}
 button {
   padding: 8px 14px;
   border: 0;
