@@ -325,4 +325,16 @@ class AppTopBarTest {
         assertEquals(listOf(2L), chosen)
         assertEquals(0, rule.onAllNodesWithText("Add a language").fetchSemanticsNodes().size, "the dialog closes with the choice")
     }
+
+    /** With no language chosen, the bar still offers one to choose, which opens the languages. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun withNoLanguageChosenTheBarOffersToChooseOne() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val state = LearningLanguageState(listOf(1L to "Portuguese", 2L to "German"), 0L) {}
+        setContent { MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Home", onNavigate = {}, section = NavSection.HOME) } } }
+        onNodeWithText("Choose a language to learn").assertExists()
+        onNodeWithTag("choose-language").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("language-dialog").fetchSemanticsNodes().isNotEmpty() }
+    }
+
 }

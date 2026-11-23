@@ -157,12 +157,16 @@ fun LanguageCodeBadge(languageName: String, size: Dp = 28.dp) {
  * The global choice of the language being learned, for the top bar: the name with its flag on
  * wide screens, just the flag on [compact] ones. It opens a menu of the languages being learned
  * and a way to add one, which opens the language dialog, or calls [onOpen] where the choice is a
- * screen of its own (phones). Shows nothing until languages exist.
+ * screen of its own (phones). With none chosen yet it offers to choose one; it shows nothing until languages exist.
  */
 @Composable
 fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, onOpen: (() -> Unit)? = null) {
     val state = LocalLearningLanguage.current ?: return
-    val current = state.current ?: return
+    val current = state.current
+    if (current == null) {
+        if (state.languages.isNotEmpty()) ChooseLanguageButton(state, compact, modifier, onOpen)
+        return
+    }
     val colors = MaterialTheme.colorScheme
     var menu by remember { mutableStateOf(false) }
     var adding by remember { mutableStateOf(false) }
@@ -210,6 +214,32 @@ fun LearningLanguageSelector(compact: Boolean, modifier: Modifier = Modifier, on
                 },
                 modifier = Modifier.testTag("add-language"),
             )
+        }
+        if (adding) LanguageDialog(state, onDismiss = { adding = false })
+    }
+}
+
+/** The selector while no language is being learned: a globe that opens the languages to choose from. */
+@Composable
+private fun ChooseLanguageButton(state: LearningLanguageState, compact: Boolean, modifier: Modifier, onOpen: (() -> Unit)?) {
+    val colors = MaterialTheme.colorScheme
+    var adding by remember { mutableStateOf(false) }
+    val label = tr("Choose a language to learn")
+    Box(modifier) {
+        Row(
+            Modifier.clip(AppShapes.panel)
+                .background(colors.primary.copy(alpha = AppAlpha.wash))
+                .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), AppShapes.panel)
+                .clickable { if (onOpen != null) onOpen() else adding = true }
+                .semantics { contentDescription = label }
+                .padding(horizontal = if (compact) AppSpacing.s else AppSpacing.m, vertical = AppSpacing.s)
+                .testTag("choose-language"),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.xs else AppSpacing.s),
+        ) {
+            Icon(AppIcons.Globe, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
+            if (!compact) Text(label, style = AppText.smallTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Icon(Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon))
         }
         if (adding) LanguageDialog(state, onDismiss = { adding = false })
     }

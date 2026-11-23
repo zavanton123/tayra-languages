@@ -162,7 +162,7 @@ fun AppTopBar(
                     Spacer(Modifier.width(AppSpacing.s))
                 }
                 // The language being learned sits just before the tabs it applies to.
-                if (LocalLearningLanguage.current?.currentName != null) {
+                if (LocalLearningLanguage.current?.languages?.isNotEmpty() == true) {
                     LearningLanguageSelector(compact = false)
                     Spacer(Modifier.width(AppSpacing.l))
                 }
