@@ -49,15 +49,18 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(androidx.compose.ui.test.hasText("Reading preview")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("settings-section-GENERAL").assertIsSelected()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it) }
+        // The word statuses have their card; the daily goal has a page of its own.
+        onNodeWithText("Display word statuses").assertExists()
+        onNodeWithText("Show learning levels").assertExists()
+        onNodeWithText("Behaviour").assertDoesNotExist()
+        onNodeWithText("Daily goal").assertDoesNotExist()
+        onNodeWithTag("daily-goal").assertDoesNotExist()
 
         onNodeWithContentDescription("reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.3f }
         onNodeWithText("130%").assertExists()
         onNodeWithContentDescription("Decrease book stats page sample size").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.statsSampleSize == 4 }
-        // The daily goal moves five minutes at a time.
-        onNodeWithContentDescription("Increase daily goal").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { settings.current.dailyGoalMinutes == 20 }
 
         // The reading font is chosen from a list whose entries are drawn in their own fonts.
         onNodeWithText("System serif").performClick()
@@ -97,6 +100,9 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Appearance").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Reset to defaults").assertDoesNotExist()
         onNodeWithText("120%").assertExists()
+        onNodeWithTag("word-statuses").assertExists()
+        onNodeWithText("Behaviour").assertDoesNotExist()
+        onNodeWithTag("daily-goal").assertDoesNotExist()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 
         onNodeWithTag("phone-slider-reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }
@@ -135,11 +141,14 @@ class SettingsScreenTest {
         onNodeWithText("Data").assertDoesNotExist()
         // The current value beside the page: the cards a day.
         onNodeWithText("15 new a day").assertExists()
-        for (route in listOf(Route.FlashcardSettings, Route.VocabularySettings)) onNodeWithTag("settings-link-$route").assertExists()
+        for (route in listOf(Route.Goals, Route.FlashcardSettings, Route.VocabularySettings)) onNodeWithTag("settings-link-$route").assertExists()
         // More lists the offline resources, the languages, the backups and About; a phone has no keyboard shortcuts page.
         onNodeWithText("Offline resources").assertDoesNotExist()
         for (route in listOf(Route.Speech, Route.Languages, Route.Backups, Route.About, Route.Shortcuts)) onNodeWithTag("settings-link-$route").assertDoesNotExist()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone-index.png")) }
+        // A phone has no sidebar, so its goals are reached from here.
+        onNodeWithTag("settings-link-${Route.Goals}").performClick()
+        assertEquals(listOf<Route>(Route.Goals), visited)
     }
 
     /** The theme list shows each theme with its colours; a theme that was removed opens as the one standing in for it. */

@@ -200,7 +200,7 @@ private fun GoalSummary(goal: DailyGoal, ring: Dp, actions: HomeActions, today: 
     val colors = MaterialTheme.colorScheme
     AppTooltip(tr("Reading and flashcards count towards the daily goal.")) {
         Row(
-            Modifier.clip(AppShapes.control).clickable(onClickLabel = tr("Change the daily goal"), role = Role.Button) { actions.onNavigate(Route.Settings) }
+            Modifier.clip(AppShapes.control).clickable(onClickLabel = tr("Change the daily goal"), role = Role.Button) { actions.onNavigate(Route.Goals) }
                 .padding(end = if (today) 0.dp else AppSpacing.s).testTag("daily-goal"),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),

@@ -140,7 +140,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                         Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             AppearanceCard(settings, viewModel)
                             ReadingCard(settings, viewModel)
-                            BehaviourCard(settings, viewModel)
+                            WordStatusesCard(settings, viewModel)
                         }
                         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             PreviewCard(settings)
@@ -151,7 +151,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     AppearanceCard(settings, viewModel)
                     ReadingCard(settings, viewModel)
                     PreviewCard(settings)
-                    BehaviourCard(settings, viewModel)
+                    WordStatusesCard(settings, viewModel)
                     SettingsIndex(settings, onNavigate, compact = false)
                 }
             }
@@ -182,6 +182,7 @@ private class SettingsPage(val title: String, val description: String, val route
 internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, compact: Boolean) {
     val learning = LocalLearningLanguage.current?.current?.label?.let { tr(it) }
     val preferences = listOfNotNull(
+        SettingsPage(tr("Goals"), tr("Minutes of reading and flashcards a day. Home shows how far today has got."), Route.Goals, AppIcons.Target),
         SettingsPage(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), Route.Languages, AppIcons.Globe, learning),
         SettingsPage(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings, AppIcons.Style, trPlural(settings.flashcardNewPerDay, "{0} new a day", "{0} new a day")),
         SettingsPage(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings, AppIcons.Abc),
@@ -302,14 +303,12 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
     }
 }
 
+/** Which statuses words are shown with, and how many pages a book's known share is counted from. */
 @Composable
-private fun BehaviourCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard(tr("Behaviour"), tr("Control how Idiomiko behaves on different pages."), icon = Icons.Default.Settings) {
+private fun WordStatusesCard(settings: UserSettings, viewModel: SettingsViewModel) {
+    ContentCard(tr("Display word statuses"), null, icon = AppIcons.Visibility, modifier = Modifier.testTag("word-statuses")) {
         SwitchSetting(tr("Show learning levels"), tr("Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known."), settings.showLearningLevels) { v ->
             viewModel.update { it.copy(showLearningLevels = v) }
-        }
-        SettingRow(tr("Daily goal"), tr("Minutes of reading and flashcards a day. Home shows how far today has got."), divider = true, modifier = Modifier.testTag("daily-goal")) {
-            DailyGoalStepper(settings, viewModel)
         }
         SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {
             NumberStepper(

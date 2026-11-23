@@ -494,7 +494,7 @@ class HomeScreenTest {
         onNodeWithText("reach today's goal", substring = true).assertDoesNotExist()
         onNodeWithText("12 minutes of study today").assertExists()
         onNodeWithTag("daily-goal").performClick()
-        assertEquals(listOf<Route>(Route.Settings), visited)
+        assertEquals(listOf<Route>(Route.Goals), visited)
     }
 
     /** With no course for the level, a book the reader mostly knows is recommended instead, with the books a click away. */

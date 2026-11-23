@@ -9,8 +9,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -87,16 +85,8 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                     name = tr("reading line height"),
                 ) { v -> viewModel.update { it.copy(readingLineHeight = v) } }
             }
-            ContentCard(tr("Behaviour"), subtitle = null, icon = Icons.Default.Settings, dense = true) {
+            ContentCard(tr("Display word statuses"), subtitle = null, icon = AppIcons.Visibility, dense = true, modifier = Modifier.testTag("word-statuses")) {
                 SwitchSetting(tr("Show learning levels"), description = tr("Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known."), checked = settings.showLearningLevels, dense = true) { v -> viewModel.update { it.copy(showLearningLevels = v) } }
-                AppDivider()
-                Column(Modifier.padding(vertical = AppSpacing.m).testTag("daily-goal"), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                        Text(tr("Daily goal"), style = MaterialTheme.typography.bodyLarge)
-                        Text(tr("Minutes of reading and flashcards a day. Home shows how far today has got."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
-                    DailyGoalStepper(settings, viewModel)
-                }
                 AppDivider()
                 Column(Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
