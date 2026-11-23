@@ -21,7 +21,7 @@ import com.idiomiko.core.domain.service.LocalSentenceTranslator
 import com.idiomiko.core.domain.service.SentenceTranslation
 import com.idiomiko.core.domain.service.SentenceTranslator
 import com.idiomiko.core.domain.service.TranslationEngine
-import com.idiomiko.core.domain.service.effectiveEngine
+import com.idiomiko.core.domain.service.engineFor
 import com.idiomiko.core.domain.service.failedOnError
 import com.idiomiko.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
@@ -220,8 +220,8 @@ class ExamplesSearchViewModel(
         if (s.features.translations || sentence in s.translations) return
         _state.update { it.copy(translations = it.translations + (sentence to SentenceTranslation.Loading)) }
         val prefs = settings.current
-        val engine = prefs.effectiveEngine(localTranslator != null)
         translations.launch {
+            val engine = prefs.engineFor(language, localTranslator)
             val ready = engine != TranslationEngine.ARGOS || localTranslator == null || prepareLocal(language, prefs.nativeLanguage)
             val result = if (ready) translator.translate(sentence, language) else null
             _state.update {

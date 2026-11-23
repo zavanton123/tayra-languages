@@ -40,7 +40,7 @@ import com.idiomiko.core.domain.service.WordTranslationService
 import com.idiomiko.core.domain.service.WordReadings
 import com.idiomiko.core.domain.morphology.Furigana
 import com.idiomiko.core.domain.service.TranslationEngine
-import com.idiomiko.core.domain.service.effectiveEngine
+import com.idiomiko.core.domain.service.engineFor
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.state.UiEvents
@@ -217,7 +217,7 @@ class ReadingViewModel(
         local?.lastError ?: MutableStateFlow(null),
         local?.progress ?: MutableStateFlow(null),
     ) { s, prefs, localError, localProgress ->
-        val offline = prefs.showTranslations && prefs.effectiveEngine(local != null) == TranslationEngine.ARGOS
+        val offline = prefs.showTranslations && s.language?.let { prefs.engineFor(it, local) } == TranslationEngine.ARGOS
         s.copy(settings = prefs, translationError = localError.takeIf { offline }, translationProgress = localProgress.takeIf { offline })
     }.stateIn(viewModelScope, SharingStarted.Eagerly, ReadingUiState())
     val events = UiEvents<ReadingEvent>()
@@ -893,8 +893,8 @@ class ReadingViewModel(
         _state.update { it.copy(translations = it.translations + pending.associateWith { SentenceTranslation.Loading }) }
         // _state carries default settings; the live ones come from the repository.
         val prefs = settingsRepository.current
-        val engine = prefs.effectiveEngine(hasLocalTranslator)
         translationJob = viewModelScope.launch {
+            val engine = prefs.engineFor(language, local)
             if (engine == TranslationEngine.ARGOS && local != null) {
                 val source = LanguageCodes.codeFor(language.name)
                 val target = LanguageCatalog.nativeOption(prefs.nativeLanguage)
@@ -1061,16 +1061,6 @@ class ReadingViewModel(
     fun retryOfflineTranslation() {
         _state.update { it.copy(translations = it.translations.filterValues { t -> t !is SentenceTranslation.Unavailable }) }
         translateSentences()
-    }
-
-    /** Switches this reader back to MyMemory, for languages Argos has no model for. */
-    fun useOnlineEngine() {
-        viewModelScope.launch {
-            translationJob?.cancel()
-            settingsRepository.update { it.copy(translationEngine = TranslationEngine.MYMEMORY) }
-            _state.update { it.copy(translations = emptyMap()) }
-            translateSentences()
-        }
     }
 
     /** Engines the drawer can offer here: Argos only where it exists. */

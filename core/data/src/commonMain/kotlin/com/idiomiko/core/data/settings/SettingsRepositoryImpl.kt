@@ -159,7 +159,10 @@ class SettingsRepositoryImpl(
             lastUpdateCheck = store.getLong(Keys.LAST_UPDATE_CHECK, defaults.lastUpdateCheck),
             commandLineSetUp = store.getBoolean(Keys.COMMAND_LINE_SET_UP, defaults.commandLineSetUp),
             translationContactEmail = store.getString(Keys.TRANSLATION_EMAIL, defaults.translationContactEmail),
-            translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") } ?: defaults.translationEngine,
+            translationEngine = TranslationEngine.entries.firstOrNull { it.name == store.getString(Keys.TRANSLATION_ENGINE, "") }
+                // MyMemory was once the way to read a language Argos lacks, which now happens by itself.
+                ?.takeUnless { it == TranslationEngine.MYMEMORY && !store.getBoolean(Keys.ARGOS_PER_LANGUAGE, false) }
+                ?: defaults.translationEngine,
             googleTranslateApiKey = googleTranslateApiKey,
             flashcardNewPerDay = store.getInt(Keys.FLASHCARD_NEW_PER_DAY, defaults.flashcardNewPerDay).coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY),
             flashcardReviewsPerDay = store.getInt(Keys.FLASHCARD_REVIEWS_PER_DAY, defaults.flashcardReviewsPerDay).coerceIn(0, UserSettings.MAX_FLASHCARDS_PER_DAY),
@@ -291,6 +294,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.COMMAND_LINE_SET_UP, s.commandLineSetUp)
         store.putString(Keys.TRANSLATION_EMAIL, s.translationContactEmail)
         store.putString(Keys.TRANSLATION_ENGINE, s.translationEngine.name)
+        store.putBoolean(Keys.ARGOS_PER_LANGUAGE, true)
         store.putInt(Keys.FLASHCARD_NEW_PER_DAY, s.flashcardNewPerDay)
         store.putInt(Keys.FLASHCARD_REVIEWS_PER_DAY, s.flashcardReviewsPerDay)
         store.putInt(Keys.FLASHCARD_RETENTION, s.flashcardRetention)
@@ -378,6 +382,7 @@ class SettingsRepositoryImpl(
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val PRACTICE_TRANSLATION = "reading_practice_translation"
         const val TRANSLATION_ENGINE = "translation_engine"
+        const val ARGOS_PER_LANGUAGE = "translation_engine_argos_per_language_applied"
         const val GOOGLE_TRANSLATE_API_KEY = "google_translate_api_key"
         const val TUTORIAL_BOOKS = "tutorial_books_added"
         const val NATIVE_LANGUAGE = "native_language"

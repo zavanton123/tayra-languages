@@ -43,6 +43,7 @@ import com.idiomiko.core.domain.service.LocalSentenceTranslator
 import com.idiomiko.core.domain.service.LocalTranslation
 import com.idiomiko.core.domain.service.LocalTranslationProblem
 import com.idiomiko.core.domain.service.TranslationEngine
+import com.idiomiko.core.domain.service.engineFor
 import com.idiomiko.core.ui.components.LearningLanguageState
 import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.ProvideWindowWidth
@@ -146,6 +147,26 @@ class TranslationSettingsScreenTest {
         onNodeWithText("Installed and working").assertDoesNotExist()
         onNodeWithText("Check installation").assertDoesNotExist()
         onNodeWithText("Import a dictionary").assertExists()
+    }
+
+    /** Argos stays the choice, but a language it has no models for is translated by MyMemory, and the page says so. */
+    @Test
+    fun aLanguageArgosLacksGoesToMyMemory() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-translation-uncovered", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val argos = FakeArgos(setOf("en-ru"))
+        runBlocking {
+            val japanese = languages.save(Language(name = "Japanese"))
+            settings.update { it.copy(currentLanguageId = japanese, nativeLanguage = "ru", translationEngine = TranslationEngine.ARGOS) }
+        }
+        val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(argos), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel, dictionaries = dictionaries(emptyList())) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Online translation: MyMemory")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(TranslationEngine.ARGOS, settings.current.translationEngine)
+        runBlocking { assertEquals(TranslationEngine.MYMEMORY, settings.current.engineFor(Language(name = "Japanese"), argos)) }
+        runBlocking { assertEquals(TranslationEngine.ARGOS, settings.current.engineFor(Language(name = "Portuguese"), argos)) }
     }
 
     /** The page says what the pair lacks; the app downloads the models on its own, so the page offers no downloads. */

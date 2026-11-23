@@ -96,6 +96,8 @@ abstract class LanguageModelTranslator(private val settings: SettingsRepository)
         if (problem != null) error(problem.message)
     }
 
+    override suspend fun hasModel(fromCode: String, toCode: String): Boolean = modelFor(fromCode) != null && modelFor(toCode) != null
+
     override suspend fun canTranslate(fromCode: String, toCode: String): Boolean {
         val from = modelFor(fromCode) ?: return false
         val to = modelFor(toCode) ?: return false

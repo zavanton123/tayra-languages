@@ -172,7 +172,8 @@ import com.idiomiko.core.domain.service.TranslationLanguageKeeper
 import com.idiomiko.core.domain.service.WordReadings
 import com.idiomiko.core.domain.service.WordRecordings
 import com.idiomiko.core.domain.service.WordTranslationService
-import com.idiomiko.core.domain.service.effectiveEngine
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.service.engineFor
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.stats.LearningStatsRepository
 import com.idiomiko.core.domain.web.WebPageReader
@@ -245,12 +246,12 @@ val dataModule: Module = module {
     single<SentenceTranslator> {
         val settings = get<SettingsRepository>()
         val local = get<LocalTranslation>().translator
-        val engine = { settings.current.effectiveEngine(local != null) }
+        val engine: suspend (Language) -> TranslationEngine = { settings.current.engineFor(it, local) }
         val routed = RoutingSentenceTranslator(get<MyMemoryTranslationProvider>(), get<GoogleTranslationProvider>(), local, engine)
         // Stored translations carry the engine in their key so switching engines never mixes results.
-        CachedSentenceTranslator(routed, get(), targetLanguage = {
+        CachedSentenceTranslator(routed, get(), targetLanguage = { language ->
             val native = settings.current.nativeLanguage
-            when (engine()) {
+            when (engine(language)) {
                 TranslationEngine.ARGOS -> "argos:$native"
                 TranslationEngine.GOOGLE -> "google:$native"
                 TranslationEngine.MYMEMORY -> native

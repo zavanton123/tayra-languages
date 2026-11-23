@@ -1,5 +1,8 @@
 package com.idiomiko.core.domain.service
 
+import com.idiomiko.core.domain.language.LanguageCatalog
+import com.idiomiko.core.domain.language.LanguageCodes
+import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.settings.UserSettings
 import kotlinx.coroutines.flow.StateFlow
 
@@ -23,6 +26,14 @@ fun UserSettings.effectiveEngine(hasLocalTranslator: Boolean): TranslationEngine
     translationEngine == TranslationEngine.ARGOS && !hasLocalTranslator -> TranslationEngine.MYMEMORY
     translationEngine == TranslationEngine.GOOGLE && googleTranslateApiKey.isBlank() -> TranslationEngine.MYMEMORY
     else -> translationEngine
+}
+
+/** [effectiveEngine] for [language]: the on-device translator leaves the languages it has no model for to MyMemory. */
+suspend fun UserSettings.engineFor(language: Language, local: LocalSentenceTranslator?): TranslationEngine {
+    val engine = effectiveEngine(local != null)
+    if (engine != TranslationEngine.ARGOS || local == null) return engine
+    val source = LanguageCodes.codeFor(language.name) ?: return engine
+    return if (local.hasModel(source, LanguageCatalog.nativeOption(nativeLanguage).code)) engine else TranslationEngine.MYMEMORY
 }
 
 /** The Google Cloud Translation client's self-check, for the Settings screen. */
@@ -84,6 +95,13 @@ interface LocalSentenceTranslator : SentenceTranslator {
     fun requiredPackages(fromCode: String, toCode: String, catalog: List<LocalPackage>): Set<String> =
         if (catalog.any { it.fromCode == fromCode && it.toCode == toCode }) setOf("$fromCode-$toCode")
         else setOf("$fromCode-en", "en-$toCode")
+
+    /** Whether the catalog has models for the pair at all, installed or not; true while the catalog is unknown. */
+    suspend fun hasModel(fromCode: String, toCode: String): Boolean {
+        val catalog = knownPackages() ?: runCatching { packages() }.getOrNull() ?: return true
+        val keys = catalog.mapTo(HashSet()) { it.key }
+        return requiredPackages(fromCode, toCode, catalog).all { it in keys }
+    }
 
     /** A readable line about the installation: version and installed language pairs, or what is wrong. */
     suspend fun status(): String

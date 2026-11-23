@@ -142,7 +142,6 @@ import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.AppScreenDialog
 import com.idiomiko.core.ui.navigation.rememberPracticeOpener
 import com.idiomiko.core.ui.components.AppIconButton
-import com.idiomiko.core.ui.components.AppSwitch
 import com.idiomiko.core.ui.components.BarSurface
 import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.Notice
@@ -1251,7 +1250,7 @@ private fun ContinuousControls(
     }
 }
 
-/** Missing models get an Install button, unsupported pairs a way back to MyMemory, anything else a retry. */
+/** Missing models get an Install button, failures a retry; every notice links to Settings. */
 @Composable
 private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: ReadingViewModel, onSettings: () -> Unit) {
     // The models are on their way in the background.
@@ -1273,10 +1272,7 @@ private fun TranslationNotice(problem: LocalTranslationProblem, viewModel: Readi
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 when (problem) {
                     is LocalTranslationProblem.ModelMissing -> PrimaryButton(tr("Install"), onClick = viewModel::installOfflineModels)
-                    is LocalTranslationProblem.NoModel -> {
-                        Text(tr("Offline"), style = MaterialTheme.typography.bodyMedium)
-                        AppSwitch(checked = true, onCheckedChange = { on -> if (!on) viewModel.useOnlineEngine() })
-                    }
+                    is LocalTranslationProblem.NoModel -> {}
                     is LocalTranslationProblem.Failed -> SecondaryButton(tr("Try again"), onClick = viewModel::retryOfflineTranslation)
                 }
                 QuietButton(tr("Settings"), onClick = onSettings)

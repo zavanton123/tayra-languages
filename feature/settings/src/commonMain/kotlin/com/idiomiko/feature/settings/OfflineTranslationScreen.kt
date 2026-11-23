@@ -60,6 +60,7 @@ import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.Dropdown
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.LocalLearningLanguage
+import com.idiomiko.core.domain.language.LanguageCatalog
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PrimaryButton
@@ -151,6 +152,13 @@ class OfflineTranslationViewModel(
         .map { setOfNotNull(it?.code) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
 
+    /** Whether the on-device translator has models for the language being learned; MyMemory translates it otherwise. */
+    val learningCovered: StateFlow<Boolean> = combine(languagesInUse, settings.settings) { codes, saved ->
+        val translator = localTranslation.translator ?: return@combine true
+        val native = LanguageCatalog.nativeOption(saved.nativeLanguage).code
+        codes.all { it == native || translator.hasModel(it, native) }
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), true)
+
     /**
      * Saves [transform]; Google becomes the engine only with a key, and clearing its key puts back
      * the engine used before it while the page goes on showing Google.
@@ -228,6 +236,7 @@ fun OfflineTranslationScreen(
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val packages by viewModel.packages.collectAsStateWithLifecycle()
     val inUse by viewModel.languagesInUse.collectAsStateWithLifecycle()
+    val covered by viewModel.learningCovered.collectAsStateWithLifecycle()
     var checked by remember { mutableStateOf(false) }
     LaunchedEffect(settings.translationEngine) {
         if (settings.translationEngine == TranslationEngine.ARGOS) {
@@ -236,7 +245,7 @@ fun OfflineTranslationScreen(
         }
     }
     val native = settings.nativeLanguage.ifBlank { "en" }
-    val local = viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS
+    val local = viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS && covered
     val wanted = if (local) viewModel.wantedPackages(inUse, native, packages) else emptySet()
     // Whether the language being learned can be translated into the native one with what is installed.
     val pairReady = packages.none { it.key in wanted && !it.installed }
@@ -294,7 +303,8 @@ internal fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslat
 @Composable
 private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, pairReady: Boolean, modifier: Modifier = Modifier) {
     val engine = settings.translationEngine
-    val local = engine == TranslationEngine.ARGOS && viewModel.hasLocalTranslator
+    val covered by viewModel.learningCovered.collectAsStateWithLifecycle()
+    val local = engine == TranslationEngine.ARGOS && viewModel.hasLocalTranslator && covered
     val subtitle = when {
         local && viewModel.hasRuntimeSetup -> tr("Runs on this computer. No network connection required.")
         local -> tr("Runs on this device. No network connection required.")

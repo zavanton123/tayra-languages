@@ -32,7 +32,7 @@ sealed interface SentenceTranslation {
 class CachedSentenceTranslator(
     private val inner: SentenceTranslator,
     private val store: SentenceTranslationCache,
-    private val targetLanguage: () -> String,
+    private val targetLanguage: suspend (Language) -> String,
     private val minIntervalMs: Long = 250,
     private val maxEntries: Int = 2_000,
     private val failureTtlMs: Long = 60_000,
@@ -46,7 +46,7 @@ class CachedSentenceTranslator(
     private class Entry(val text: String?, val at: Long)
 
     override suspend fun translate(text: String, language: Language): String? {
-        val target = targetLanguage().trim().lowercase().ifEmpty { "en" }
+        val target = targetLanguage(language).trim().lowercase().ifEmpty { "en" }
         val key = "$target|$text"
         lock.withLock {
             val now = now()
@@ -92,10 +92,10 @@ class RoutingSentenceTranslator(
     private val myMemory: SentenceTranslator,
     private val google: SentenceTranslator,
     private val local: SentenceTranslator?,
-    /** The effective engine, see [effectiveEngine]. */
-    private val engine: () -> TranslationEngine,
+    /** The engine for the language, see [engineFor]. */
+    private val engine: suspend (Language) -> TranslationEngine,
 ) : SentenceTranslator {
-    override suspend fun translate(text: String, language: Language): String? = when (engine()) {
+    override suspend fun translate(text: String, language: Language): String? = when (engine(language)) {
         TranslationEngine.ARGOS -> (local ?: myMemory).translate(text, language)
         TranslationEngine.GOOGLE -> google.translate(text, language)
         TranslationEngine.MYMEMORY -> myMemory.translate(text, language)
