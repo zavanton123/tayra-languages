@@ -1,5 +1,7 @@
 package com.idiomiko.feature.settings
 
+import androidx.compose.material.icons.filled.Delete
+import com.idiomiko.core.ui.components.NavigationRow
 import androidx.compose.ui.platform.testTag
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -248,6 +250,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
             }
             Progress(state)
             HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it })
+            ClearDataCard(onNavigate, dense = false)
         }
     }
 
@@ -331,6 +334,21 @@ private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note:
                 Text(note, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
+    }
+}
+
+/** Clearing the data on this device, last on the page, after the backups that would bring it back. */
+@Composable
+internal fun ClearDataCard(onNavigate: (Route) -> Unit, dense: Boolean) {
+    ContentCard(tr("Data"), subtitle = null, icon = AppIcons.UploadFile, dense = dense) {
+        NavigationRow(
+            tr("Clear local data"),
+            onClick = { onNavigate(Route.ClearData) },
+            description = if (dense) null else tr("Remove your learning data and downloaded files from this device. Your preferences stay."),
+            icon = Icons.Default.Delete,
+            tint = MaterialTheme.colorScheme.error,
+            modifier = Modifier.testTag("settings-link-${Route.ClearData}"),
+        )
     }
 }
 

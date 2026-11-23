@@ -106,6 +106,7 @@ internal fun PhoneBackupsScreen(
                 PhoneBackupRow(backup, latest = i == 0, enabled = idle, onRestore = { onRestore(backup) }, onExport = { viewModel.export(backup) }, onDelete = { onDelete(backup) })
             }
             MoreBackups(state.backups, more) { more = !more }
+            ClearDataCard(onNavigate, dense = true)
         }
     }
 }

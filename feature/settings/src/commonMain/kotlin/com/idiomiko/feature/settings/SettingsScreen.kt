@@ -209,17 +209,6 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
     }
     // The wide bar's Settings menu leads to these pages; a phone reaches its flashcard and vocabulary settings only from here.
     if (compact) card(tr("Preferences"), Icons.Default.Settings, preferences, null)
-    // The destructive action keeps to its own section, on its own; the menus lead to Speech, Translation, the account, backups and the archive.
-    card(tr("Data"), AppIcons.UploadFile, emptyList()) {
-        NavigationRow(
-            tr("Clear local data"),
-            onClick = { onNavigate(Route.ClearData) },
-            description = if (compact) null else tr("Remove your learning data and downloaded files from this device. Your preferences stay."),
-            icon = Icons.Default.Delete,
-            tint = MaterialTheme.colorScheme.error,
-            modifier = Modifier.testTag("settings-link-${Route.ClearData}"),
-        )
-    }
 }
 
 /** The pages the phone's More sheet lists, which a phone's settings index leaves out. */

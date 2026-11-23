@@ -1,5 +1,7 @@
 package com.idiomiko.feature.settings
 
+import androidx.compose.ui.test.onAllNodesWithTag
+import com.idiomiko.core.ui.navigation.Route
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
@@ -163,6 +165,19 @@ class BackupScreenTest {
         onAllNodes(hasText("Delete") and hasClickAction()).onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00")).fetchSemanticsNodes().isEmpty() }
         onNodeWithText("Create a backup to keep a copy of your data.").assertExists()
+    }
+
+    /** Clearing the data on this device is reached from the foot of the Backups page. */
+    @Test
+    fun clearingTheDataIsAtTheFootOfTheBackups() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-backup-clear", ".db").also { it.delete() }))
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("idiomiko-backup-clear").toFile()), Ticking(), timeZone = { TimeZone.UTC })
+        val visited = mutableListOf<Route>()
+        setContent { Hosted(settings) { BackupScreen(onNavigate = { visited += it }, onBack = {}, onRestored = {}, viewModel = BackupViewModel(repository)) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("settings-link-${Route.ClearData}").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("settings-link-${Route.ClearData}").performScrollTo().performClick()
+        assertEquals(listOf<Route>(Route.ClearData), visited)
     }
 
     private fun ComposeUiTest.save(path: String) {

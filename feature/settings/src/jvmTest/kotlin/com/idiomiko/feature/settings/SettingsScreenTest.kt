@@ -113,7 +113,8 @@ class SettingsScreenTest {
         val visited = mutableListOf<Route>()
         setContent { Hosted(settings) { SettingsScreen(onNavigate = { visited += it }, viewModel = SettingsViewModel(settings)) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Preferences").fetchSemanticsNodes().isNotEmpty() }
-        for (group in listOf("Preferences", "Data")) onNodeWithText(group).assertExists()
+        onNodeWithText("Preferences").assertExists()
+        onNodeWithText("Data").assertDoesNotExist()
         // The current value beside the page: the cards a day.
         onNodeWithText("15 new a day").assertExists()
         for (route in listOf(Route.FlashcardSettings, Route.VocabularySettings)) onNodeWithTag("settings-link-$route").assertExists()
@@ -121,8 +122,7 @@ class SettingsScreenTest {
         onNodeWithText("Offline resources").assertDoesNotExist()
         for (route in listOf(Route.Speech, Route.Languages, Route.Backups, Route.About, Route.Shortcuts)) onNodeWithTag("settings-link-$route").assertDoesNotExist()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone-index.png")) }
-        onNodeWithTag("settings-link-${Route.ClearData}").performScrollTo().performClick()
-        assertEquals(listOf<Route>(Route.ClearData), visited)
+        onNodeWithTag("settings-link-${Route.ClearData}").assertDoesNotExist()
     }
 
     /** The theme list shows each theme with its colours; a theme that was removed opens as the one standing in for it. */
