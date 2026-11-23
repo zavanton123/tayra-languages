@@ -16,8 +16,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "Elige un tema",
     "Light" to "Claros",
     "Dark" to "Oscuros",
-    "Reduce motion" to "Reducir movimiento",
-    "Keep the screens still: no sliding, fading or turning over." to "Mantiene las pantallas quietas: sin deslizamientos, fundidos ni giros.",
     "Reading" to "Lectura",
     "{0} new a day" to "{0} nueva al día|{0} nuevas al día",
     "The version of the app and where it comes from." to "La versión de la aplicación y su origen.",

@@ -16,8 +16,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "Escolha um tema",
     "Light" to "Claros",
     "Dark" to "Escuros",
-    "Reduce motion" to "Reduzir movimento",
-    "Keep the screens still: no sliding, fading or turning over." to "Mantém as telas paradas: sem deslizar, esmaecer nem virar.",
     "Reading" to "Leitura",
     "{0} new a day" to "{0} nova por dia|{0} novas por dia",
     "The version of the app and where it comes from." to "A versão do aplicativo e de onde ele vem.",

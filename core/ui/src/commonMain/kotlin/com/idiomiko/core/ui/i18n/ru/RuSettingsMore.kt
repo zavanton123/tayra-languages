@@ -16,8 +16,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "Выберите тему",
     "Light" to "Светлые",
     "Dark" to "Тёмные",
-    "Reduce motion" to "Меньше движения",
-    "Keep the screens still: no sliding, fading or turning over." to "Экраны не двигаются: без сдвигов, затуханий и переворотов.",
     "Reading" to "Чтение",
     "{0} new a day" to "{0} новая в день|{0} новые в день|{0} новых в день",
     "The version of the app and where it comes from." to "Версия приложения и его происхождение.",

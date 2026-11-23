@@ -60,8 +60,6 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             ContentCard(tr("Appearance"), subtitle = null, icon = AppIcons.Palette, dense = true) {
                 NavigationRow(tr("Choose a theme"), onClick = { themeSheet = true }, modifier = Modifier.testTag("phone-theme"), value = AppThemes.byId(settings.themeId).label)
-                AppDivider()
-                SwitchSetting(tr("Reduce motion"), description = null, checked = settings.reduceMotion, dense = true) { v -> viewModel.update { it.copy(reduceMotion = v) } }
             }
             ContentCard(tr("Reading"), subtitle = null, iconText = "Aa", dense = true) {
                 // The preview comes first, so the font and spacing are seen changing while they are set.

@@ -15,13 +15,13 @@ val LocalAppTheme = staticCompositionLocalOf { AppThemes.default }
 val LocalThemePreview = staticCompositionLocalOf<(String?) -> Unit> { {} }
 
 /**
- * The app's look: [theme]'s colours, the design system's shapes, motion reduced when the reader or the
- * system asks ([reduceMotion]), and statuses shown with their four learning levels or as one Learning ([learningLevels]).
+ * The app's look: [theme]'s colours, the design system's shapes, motion reduced when the system asks,
+ * and statuses shown with their four learning levels or as one Learning ([learningLevels]).
  */
 @Composable
-fun IdiomikoTheme(theme: AppTheme = AppThemes.default, reduceMotion: Boolean = false, learningLevels: Boolean = true, content: @Composable () -> Unit) {
+fun IdiomikoTheme(theme: AppTheme = AppThemes.default, learningLevels: Boolean = true, content: @Composable () -> Unit) {
     SystemBarIcons(darkTheme = theme.isDark)
-    CompositionLocalProvider(LocalAppTheme provides theme, LocalReduceMotion provides (reduceMotion || systemReducesMotion()), LocalLearningLevels provides learningLevels) {
+    CompositionLocalProvider(LocalAppTheme provides theme, LocalReduceMotion provides systemReducesMotion(), LocalLearningLevels provides learningLevels) {
         MaterialTheme(colorScheme = theme.colorScheme, shapes = AppShapes.material, content = content)
     }
 }

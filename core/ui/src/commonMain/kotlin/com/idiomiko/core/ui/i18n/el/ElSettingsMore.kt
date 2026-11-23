@@ -16,8 +16,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "Επιλέξτε θέμα",
     "Light" to "Φωτεινά",
     "Dark" to "Σκούρα",
-    "Reduce motion" to "Μείωση κίνησης",
-    "Keep the screens still: no sliding, fading or turning over." to "Κρατά τις οθόνες ακίνητες: χωρίς ολίσθηση, σβήσιμο ή αναποδογύρισμα.",
     "Reading" to "Ανάγνωση",
     "{0} new a day" to "{0} νέα την ημέρα|{0} νέες την ημέρα",
     "The version of the app and where it comes from." to "Η έκδοση της εφαρμογής και η προέλευσή της.",

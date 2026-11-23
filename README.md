@@ -24,7 +24,7 @@ everything you learn stays on your own device.
 - **A reader that adapts to you.** Adjustable font size, line height and text
   width, several colour themes, keyboard shortcuts on desktop, and bookmarks to pick up
   where you left off. Screens move gently: a word's colour fades to its new status and a
-  flashcard turns over. Reduce motion in Settings, or the system's own setting, keeps them still.
+  flashcard turns over. The system's own reduce-motion setting keeps them still.
 - **Translations under the mouse.** Resting the pointer on any word, in the text, in a term's
   examples or on the examples screen, shows its translation just above it: your saved meaning
   when there is one, otherwise the offline dictionary or the chosen translation engine.

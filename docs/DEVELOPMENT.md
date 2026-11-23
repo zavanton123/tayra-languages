@@ -265,8 +265,8 @@ Screens are built from `core/ui`.
   - `AppMotion` holds the durations (`short` 150 ms for a colour, `medium` 250 ms for something that
     moves or grows, `long` 400 ms) and the easings. `AppMotion.spec()` returns an animation spec that
     snaps when motion is reduced.
-  - Motion is reduced (`LocalReduceMotion`) when the setting asks or the system does: Android's
-    animations off, iOS's and the browser's Reduce Motion.
+  - Motion is reduced (`LocalReduceMotion`) when the system asks: Android's animations off, iOS's
+    and the browser's Reduce Motion.
   - `Reveal` and `RevealValue` open and close panels; `Appear` fades notices and answers in (and,
     with `grow`, the next flashcard); `PopIn` pops a mark in, as a right answer's tick.
     `animatedCount()` runs a number to its new value. `itemMotion()` lets a list's items glide when

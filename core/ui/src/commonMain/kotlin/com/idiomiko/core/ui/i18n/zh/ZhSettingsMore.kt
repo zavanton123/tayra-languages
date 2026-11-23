@@ -16,8 +16,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "选择主题",
     "Light" to "浅色",
     "Dark" to "深色",
-    "Reduce motion" to "减少动态效果",
-    "Keep the screens still: no sliding, fading or turning over." to "让界面保持静止：不滑动、不淡入淡出、不翻转。",
     "Reading" to "阅读",
     "{0} new a day" to "每天 {0} 张新卡",
     "The version of the app and where it comes from." to "应用的版本和来源。",

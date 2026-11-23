@@ -55,6 +55,8 @@ class SettingsScreenTest {
         onNodeWithText("Behaviour").assertDoesNotExist()
         onNodeWithText("Daily goal").assertDoesNotExist()
         onNodeWithTag("daily-goal").assertDoesNotExist()
+        // Motion follows the system's setting alone.
+        onNodeWithText("Reduce motion").assertDoesNotExist()
 
         onNodeWithContentDescription("reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.3f }
@@ -103,6 +105,8 @@ class SettingsScreenTest {
         onNodeWithTag("word-statuses").assertExists()
         onNodeWithText("Behaviour").assertDoesNotExist()
         onNodeWithTag("daily-goal").assertDoesNotExist()
+        // Motion follows the system's setting alone.
+        onNodeWithText("Reduce motion").assertDoesNotExist()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 
         onNodeWithTag("phone-slider-reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }

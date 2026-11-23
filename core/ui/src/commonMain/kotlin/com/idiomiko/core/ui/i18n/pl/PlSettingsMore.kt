@@ -16,8 +16,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "Wybierz motyw",
     "Light" to "Jasne",
     "Dark" to "Ciemne",
-    "Reduce motion" to "Ogranicz ruch",
-    "Keep the screens still: no sliding, fading or turning over." to "Ekrany pozostają nieruchome: bez przesuwania, zanikania i obracania.",
     "Reading" to "Czytanie",
     "{0} new a day" to "{0} nowa dziennie|{0} nowe dziennie|{0} nowych dziennie",
     "The version of the app and where it comes from." to "Wersja aplikacji i jej pochodzenie.",

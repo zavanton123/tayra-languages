@@ -16,8 +16,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "Design auswählen",
     "Light" to "Hell",
     "Dark" to "Dunkel",
-    "Reduce motion" to "Bewegung reduzieren",
-    "Keep the screens still: no sliding, fading or turning over." to "Hält die Bildschirme ruhig: kein Gleiten, Ein- und Ausblenden oder Umdrehen.",
     "Reading" to "Lesen",
     "{0} new a day" to "{0} neue pro Tag|{0} neue pro Tag",
     "The version of the app and where it comes from." to "Die Version der App und woher sie kommt.",

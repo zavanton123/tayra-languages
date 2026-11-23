@@ -16,8 +16,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Choose a theme" to "Choisissez un thème",
     "Light" to "Clairs",
     "Dark" to "Sombres",
-    "Reduce motion" to "Réduire les animations",
-    "Keep the screens still: no sliding, fading or turning over." to "Garde les écrans immobiles : pas de glissements, de fondus ni de retournements.",
     "Reading" to "Lecture",
     "{0} new a day" to "{0} nouvelle par jour|{0} nouvelles par jour",
     "The version of the app and where it comes from." to "La version de l'application et son origine.",

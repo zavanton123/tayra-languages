@@ -158,7 +158,7 @@ fun App(titleBarInset: Dp = 0.dp) {
             runCatching { personalScheduling.optimizeWhereDue(languageRepository.getAll().map { it.id }) }
                 .onFailure { if (it is CancellationException) throw it }
         }
-        IdiomikoTheme(AppThemes.byId(previewThemeId ?: settings.themeId), reduceMotion = settings.reduceMotion, learningLevels = settings.showLearningLevels) {
+        IdiomikoTheme(AppThemes.byId(previewThemeId ?: settings.themeId), learningLevels = settings.showLearningLevels) {
             // Text takes the background's content colour from here, as a Surface would provide it.
             Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
                 CompositionLocalProvider(

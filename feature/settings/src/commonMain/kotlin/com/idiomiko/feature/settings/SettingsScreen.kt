@@ -109,7 +109,6 @@ class SettingsViewModel(private val settings: SettingsRepository) : ViewModel() 
             readingFontScale = defaults.readingFontScale,
             readingLineHeight = defaults.readingLineHeight,
             readingFont = defaults.readingFont,
-            reduceMotion = defaults.reduceMotion,
             showLearningLevels = defaults.showLearningLevels,
             statsSampleSize = defaults.statsSampleSize,
         )
@@ -239,9 +238,6 @@ private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel)
                     }
                 },
             )
-        }
-        SwitchSetting(tr("Reduce motion"), tr("Keep the screens still: no sliding, fading or turning over."), settings.reduceMotion, divider = true) { v ->
-            viewModel.update { it.copy(reduceMotion = v) }
         }
     }
 }
