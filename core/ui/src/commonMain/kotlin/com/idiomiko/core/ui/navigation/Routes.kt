@@ -183,4 +183,8 @@ sealed interface Route {
     /** Settings: removing everything the app keeps on the device. */
     @Serializable
     data object ClearData : Route
+
+    /** Settings: the desktop app's version and its updates. */
+    @Serializable
+    data object Updates : Route
 }

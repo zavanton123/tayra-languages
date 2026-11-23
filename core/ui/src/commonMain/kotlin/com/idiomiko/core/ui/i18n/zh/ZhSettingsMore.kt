@@ -298,6 +298,9 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "All voices" to "全部语音",
     "Needed by every voice, downloaded once" to "所有语音都需要，只需下载一次",
 
+    // UpdatesScreen.kt
+    "Updates" to "更新",
+
     // AppUpdates.kt
     "App updates" to "应用更新",
     "Version {0}" to "版本 {0}",

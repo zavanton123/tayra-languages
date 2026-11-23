@@ -298,6 +298,9 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "All voices" to "Alle Stimmen",
     "Needed by every voice, downloaded once" to "Wird von jeder Stimme benötigt, einmal heruntergeladen",
 
+    // UpdatesScreen.kt
+    "Updates" to "Updates",
+
     // AppUpdates.kt
     "App updates" to "App-Updates",
     "Version {0}" to "Version {0}",

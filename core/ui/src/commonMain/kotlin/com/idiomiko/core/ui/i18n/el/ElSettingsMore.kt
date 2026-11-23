@@ -298,6 +298,9 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "All voices" to "Όλες οι φωνές",
     "Needed by every voice, downloaded once" to "Απαιτείται από όλες τις φωνές, λαμβάνεται μία φορά",
 
+    // UpdatesScreen.kt
+    "Updates" to "Ενημερώσεις",
+
     // AppUpdates.kt
     "App updates" to "Ενημερώσεις εφαρμογής",
     "Version {0}" to "Έκδοση {0}",

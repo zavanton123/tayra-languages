@@ -298,6 +298,9 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "All voices" to "Todas as vozes",
     "Needed by every voice, downloaded once" to "Necessário para todas as vozes, baixado uma vez",
 
+    // UpdatesScreen.kt
+    "Updates" to "Atualizações",
+
     // AppUpdates.kt
     "App updates" to "Atualizações do app",
     "Version {0}" to "Versão {0}",

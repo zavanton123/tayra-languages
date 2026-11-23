@@ -298,6 +298,9 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "All voices" to "Todas las voces",
     "Needed by every voice, downloaded once" to "Lo necesitan todas las voces; se descarga una vez",
 
+    // UpdatesScreen.kt
+    "Updates" to "Actualizaciones",
+
     // AppUpdates.kt
     "App updates" to "Actualizaciones de la app",
     "Version {0}" to "Versión {0}",

@@ -115,6 +115,8 @@ class PhoneNavigationTest {
         val backups = onNodeWithTag("more-Backups").fetchSemanticsNode().boundsInRoot
         val clear = onNodeWithTag("more-Clear data").fetchSemanticsNode().boundsInRoot
         assertTrue(clear.top >= backups.bottom && clear.top - backups.bottom < backups.height, "Clear data follows Backups")
+        // Phones do not update the app themselves, so the Updates page is not offered.
+        onNodeWithTag("more-Updates").assertDoesNotExist()
         onNodeWithTag("more-Statistics").assertExists()
         // A row is lit across the sheet's whole width.
         assertEquals(onNodeWithTag("more-sheet").fetchSemanticsNode().boundsInRoot.width, onNodeWithTag("more-Statistics").fetchSemanticsNode().boundsInRoot.width, 1f)

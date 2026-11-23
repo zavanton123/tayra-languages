@@ -298,6 +298,9 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "All voices" to "Все голоса",
     "Needed by every voice, downloaded once" to "Нужна всем голосам, скачивается один раз",
 
+    // UpdatesScreen.kt
+    "Updates" to "Обновления",
+
     // AppUpdates.kt
     "App updates" to "Обновления приложения",
     "Version {0}" to "Версия {0}",

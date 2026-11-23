@@ -3,6 +3,9 @@ package com.idiomiko.core.ui.components
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsNotSelected
@@ -68,7 +71,7 @@ class SettingsSidebarTest {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.CLEAR_DATA, onNavigate = { visited += it }) } } }
         assertEquals(
-            listOf("General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "Experiments"),
+            listOf("General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "Updates", "Experiments"),
             SettingsSection.entries.map { it.label },
         )
         onNodeWithTag("settings-section-CLEAR_DATA").assertIsSelected()
@@ -78,6 +81,28 @@ class SettingsSidebarTest {
         assertTrue(clear.top >= backups.bottom, "Clear data sits below Backups")
         onNodeWithTag("settings-section-BACKUPS").performClick()
         assertEquals(listOf<Route>(Route.Backups), visited)
+    }
+
+    /** Updates sits between Clear data and Experiments, and is left out where the app provides it as hidden. */
+    @Test
+    fun updatesFollowsClearDataAndCanBeLeftOut() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        var hidden by mutableStateOf(emptySet<SettingsSection>())
+        setContent {
+            MaterialTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalHiddenSettingsSections provides hidden) { Page(SettingsSection.UPDATES, onNavigate = {}) }
+                }
+            }
+        }
+        onNodeWithTag("settings-section-UPDATES").assertIsSelected()
+        val clear = onNodeWithTag("settings-section-CLEAR_DATA").fetchSemanticsNode().boundsInRoot
+        val updates = onNodeWithTag("settings-section-UPDATES").fetchSemanticsNode().boundsInRoot
+        val experiments = onNodeWithTag("settings-section-EXPERIMENTS").fetchSemanticsNode().boundsInRoot
+        assertTrue(updates.top >= clear.bottom && experiments.top >= updates.bottom, "Updates sits between Clear data and Experiments")
+
+        hidden = setOf(SettingsSection.UPDATES)
+        onNodeWithTag("settings-section-UPDATES").assertDoesNotExist()
+        onNodeWithTag("settings-section-EXPERIMENTS").assertExists()
     }
 
     /** Below an expanded window there is no sidebar, and the page keeps its way back to Settings. */

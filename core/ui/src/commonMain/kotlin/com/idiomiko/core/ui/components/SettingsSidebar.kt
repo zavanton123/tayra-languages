@@ -56,8 +56,12 @@ enum class SettingsSection(val label: String, val route: Route, val icon: ImageV
     TRANSLATION("Translation", Route.OfflineTranslation, AppIcons.Translate),
     BACKUPS("Backups", Route.Backups, AppIcons.UploadFile),
     CLEAR_DATA("Clear data", Route.ClearData, AppIcons.DeleteOutline),
+    UPDATES("Updates", Route.Updates, AppIcons.Download),
     EXPERIMENTS("Experiments", Route.ExperimentalFeatures, AppIcons.Lightbulb),
 }
+
+/** The sections the sidebar leaves out, such as Updates where the app does not update itself; provided at the root of the app. */
+val LocalHiddenSettingsSections = compositionLocalOf { emptySet<SettingsSection>() }
 
 /** Whether the page sits beside the settings sidebar, which then stands in for [ScreenHeader]'s way back to Settings. */
 val LocalSettingsSidebar = compositionLocalOf { false }
@@ -105,7 +109,8 @@ fun SettingsSidebar(current: SettingsSection, onSelect: (SettingsSection) -> Uni
                 contentModifier = Modifier.padding(start = AppSpacing.s, end = AppSpacing.s + AppSizes.scrollbarRoom),
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs),
             ) {
-                SettingsSection.entries.forEach { section -> SidebarRow(section, section == current) { onSelect(section) } }
+                val hidden = LocalHiddenSettingsSections.current
+                SettingsSection.entries.filter { it !in hidden }.forEach { section -> SidebarRow(section, section == current) { onSelect(section) } }
             }
         }
     }
