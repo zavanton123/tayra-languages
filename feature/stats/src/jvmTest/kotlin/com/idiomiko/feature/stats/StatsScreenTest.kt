@@ -100,6 +100,10 @@ class StatsScreenTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Nothing to count yet")).fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodes(hasText("Study activity")).fetchSemanticsNodes().size)
+        System.getenv("STATS_EMPTY_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path))
+        }
         onNodeWithTag("stats-start").performClick()
         assertEquals(listOf<Route>(Route.Books), visited)
     }

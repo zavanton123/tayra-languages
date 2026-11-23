@@ -253,6 +253,18 @@ class PlaylistScreensTest {
     }
 
     @Test
+    fun aPhonesEmptyPlaylistSaysHowToFillIt() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val id = runBlocking { data.service.create(data.languageId, PlaylistDraft("Travel Portuguese")) }
+        var left = false
+        page(data.playlists()) { PlaylistDetailScreen(id, onNavigate = {}, onBack = { left = true }, viewModel = data.detail(id)) }
+        waitUntil(timeoutMillis = 5_000) { shown("empty-playlist") }
+        onNodeWithTag("add-texts").assertExists()
+        screenshot("playlist-empty-phone")
+        onNodeWithText("Back to playlists").performClick()
+        assertTrue(left)
+    }
+
+    @Test
     fun withNoPlaylistsThePageOffersToMakeOne() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         page(data.playlists())
         waitUntil(timeoutMillis = 5_000) { shown("no-playlists") }

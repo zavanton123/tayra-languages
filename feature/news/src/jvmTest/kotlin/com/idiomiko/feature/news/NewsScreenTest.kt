@@ -376,6 +376,7 @@ class NewsScreenTest {
     fun aLanguageWithoutFeedsSaysSo() = runDesktopComposeUiTest(width = 1200, height = 800) {
         show(NewsUiState(languageName = "Cornish", loading = false))
         onNodeWithText("There is no news feed in Cornish yet.").assertExists()
+        shot("desktop-no-feed")
     }
 
     @Test

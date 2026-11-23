@@ -152,6 +152,7 @@ class BooksScreenTest {
         onNode(hasScrollToIndexAction()).performScrollToNode(hasText("No other books yet"))
         onNodeWithText("No other books yet").assertExists()
         onNodeWithText("No books match these filters.").assertDoesNotExist()
+        System.getenv("BOOKS_EMPTY_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
     }
 
     @Test
@@ -333,6 +334,7 @@ class BooksScreenTest {
             }
         }
         onNodeWithText("Your library is empty").assertExists()
+        System.getenv("BOOKS_EMPTY_SCREENSHOT")?.let { save(it) }
         onNodeWithTag("download-books").performClick()
         assertEquals(1, asked)
         state = state.copy(packState = PackState.Downloading(0.3f))

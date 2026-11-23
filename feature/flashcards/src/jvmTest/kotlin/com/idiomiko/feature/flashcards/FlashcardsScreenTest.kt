@@ -1052,6 +1052,7 @@ class FlashcardsScreenTest {
         onNodeWithContentDescription("More actions").performClick()
         onNodeWithText("Delete card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No cards are due").fetchSemanticsNodes().isNotEmpty() }
+        save("FLASHCARD_EMPTY_SCREENSHOT")
         assertEquals(null, runBlocking { terms.getById(termId) })
     }
 
