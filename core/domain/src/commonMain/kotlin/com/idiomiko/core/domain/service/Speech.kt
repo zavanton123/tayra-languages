@@ -54,6 +54,12 @@ interface LocalSpeechEngine {
 
     suspend fun isReady(): Boolean
 
+    /**
+     * Whether the engine's runtime is on the device, working or not: true with [isReady] false
+     * means an installation that is broken, which [setUp] repairs.
+     */
+    suspend fun runtimeInstalled(): Boolean = isReady()
+
     /** Installs the engine's runtime. Returns a summary or throws. */
     suspend fun setUp(): String
 

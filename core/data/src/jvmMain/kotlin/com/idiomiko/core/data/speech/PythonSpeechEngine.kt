@@ -45,6 +45,8 @@ abstract class PythonSpeechEngine(
 
     override suspend fun isReady(): Boolean = runCatching { missing(statusReply()) == null }.getOrDefault(false)
 
+    override suspend fun runtimeInstalled(): Boolean = withContext(Dispatchers.IO) { python.isInstalled && python.hasPackage(pipPackages.first()) }
+
     override suspend fun status(): String = try {
         val reply = statusReply()
         val version = reply["version"]?.jsonPrimitive?.content ?: "?"

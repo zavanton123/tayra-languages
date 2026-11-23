@@ -45,6 +45,13 @@ class ManagedPython(private val dir: File = File(DatabaseDriverFactory.dataDirec
         if (!isInstalled) error("the Python download did not contain ${python.absolutePath}")
     }
 
+    /** Whether pip has installed the package [name] here, going by its record in site-packages. */
+    fun hasPackage(name: String): Boolean {
+        val dist = name.lowercase().replace(Regex("[-_.]+"), "_")
+        val roots = listOf(File(dir, "python/Lib/site-packages")) + File(dir, "python/lib").listFiles().orEmpty().map { File(it, "site-packages") }
+        return roots.any { root -> root.listFiles().orEmpty().any { it.name.lowercase().startsWith("$dist-") && it.name.endsWith(".dist-info") } }
+    }
+
     /** Installs [packages] with pip, reporting each package it fetches as "[label]: fetching x", followed by its [notes] if any. */
     fun pip(packages: List<String>, label: String, notes: Map<String, String> = emptyMap(), onProgress: (String) -> Unit) {
         run(listOf(python.absolutePath, "-m", "pip", "install", "--disable-pip-version-check", "--no-input") + packages, PIP_TIMEOUT_MS) { line ->
