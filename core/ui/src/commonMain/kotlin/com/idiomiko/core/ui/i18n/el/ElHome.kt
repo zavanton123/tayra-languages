@@ -45,7 +45,6 @@ internal val elHome: Map<String, String> = mapOf(
     "{0}% of the {1} most common words" to "Το {0}% των {1} πιο συχνών λέξεων",
     "Next milestone: {0}" to "Επόμενος στόχος: {0}",
     "Words up to rank {0}" to "Λέξεις έως τη θέση {0}",
-    "{1} days studied in the last 16 weeks" to "{1} ημέρα μελέτης τις τελευταίες 16 εβδομάδες|{1} ημέρες μελέτης τις τελευταίες 16 εβδομάδες",
     "See all stats" to "Όλα τα στατιστικά",
     "Good morning!" to "Καλημέρα!",
     "Good afternoon!" to "Καλό απόγευμα!",

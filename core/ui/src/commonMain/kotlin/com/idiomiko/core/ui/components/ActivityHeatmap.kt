@@ -67,7 +67,7 @@ import kotlinx.datetime.plus
 @Composable
 fun ActivityHeatmapCard(
     title: String,
-    subtitle: (start: LocalDate) -> String,
+    subtitle: (start: LocalDate) -> String?,
     today: LocalDate,
     levels: (start: LocalDate) -> Map<LocalDate, Int>,
     fewer: String,

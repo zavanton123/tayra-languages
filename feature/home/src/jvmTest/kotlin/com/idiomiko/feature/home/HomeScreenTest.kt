@@ -311,7 +311,7 @@ class HomeScreenTest {
         onNodeWithTag("recent-word-20").performClick()
         onNodeWithTag("recent-word-21").performClick()
         // The last 16 weeks here, the year on Statistics.
-        onNodeWithText("4 days studied in the last 16 weeks").assertExists()
+        onNodeWithText("4 days studied in the last 16 weeks").assertDoesNotExist()
         onNodeWithTag("see-all-stats").performClick()
         assertEquals(listOf("pt-mini-0100-l3"), opened)
         assertEquals(1, listened)

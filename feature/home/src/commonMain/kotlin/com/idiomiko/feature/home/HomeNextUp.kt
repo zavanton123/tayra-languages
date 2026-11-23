@@ -109,8 +109,7 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
     val buttons = @Composable {
         val quick = view.quick
         ButtonPair(
-            // On a phone the play icon is left out, so both buttons fit side by side.
-            primary = { m -> PrimaryButton(view.button, onClick = view.onClick, modifier = m.heightIn(min = BUTTON_HEIGHT).testTag("next-up-action"), size = ButtonSize.Large, icon = if (compact) null else AppIcons.PlayArrow) },
+            primary = { m -> PrimaryButton(view.button, onClick = view.onClick, modifier = m.heightIn(min = BUTTON_HEIGHT).testTag("next-up-action"), size = ButtonSize.Large) },
             secondary = quick?.let { onQuick ->
                 { m -> SecondaryButton(tr("Quick {0}", NextUp.QUICK_SESSION), onClick = onQuick, modifier = m.heightIn(min = BUTTON_HEIGHT).testTag("next-up-quick"), size = ButtonSize.Large, icon = AppIcons.Speed) }
             },

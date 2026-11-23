@@ -45,7 +45,6 @@ import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.inLearnedScript
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
-import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
@@ -222,11 +221,9 @@ internal fun RecentActivityCard(state: HomeUiState, actions: HomeActions, modifi
     val activity = state.activity ?: return
     val today = activity.today
     val start = today.minus(today.dayOfWeek.ordinal, DateTimeUnit.DAY).minus((RECENT_WEEKS - 1) * 7, DateTimeUnit.DAY)
-    val days = activity.days.keys.count { it in start..today }
     StudyActivityCard(
         activity,
         range = start..today,
-        subtitle = trPlural(days, "{1} day studied in the last 16 weeks", "{1} days studied in the last 16 weeks", formatCount(days)),
         action = { LinkText(tr("See all stats"), onClick = { actions.onNavigate(Route.Stats) }, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.testTag("see-all-stats")) },
         modifier = modifier.testTag("activity"),
     )

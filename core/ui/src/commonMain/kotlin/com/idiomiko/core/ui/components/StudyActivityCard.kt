@@ -14,7 +14,7 @@ import kotlinx.datetime.LocalDate
  * the days as the streaks do (see [StudyActivity]), on Home and on Statistics alike.
  */
 @Composable
-fun StudyActivityCard(activity: StudyActivity, range: ClosedRange<LocalDate>, subtitle: String, action: (@Composable RowScope.() -> Unit)? = null, modifier: Modifier = Modifier) {
+fun StudyActivityCard(activity: StudyActivity, range: ClosedRange<LocalDate>, subtitle: String? = null, action: (@Composable RowScope.() -> Unit)? = null, modifier: Modifier = Modifier) {
     ActivityHeatmapCard(
         title = tr("Study activity"),
         subtitle = { subtitle },
