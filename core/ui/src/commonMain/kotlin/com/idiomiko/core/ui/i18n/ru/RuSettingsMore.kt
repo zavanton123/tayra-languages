@@ -9,7 +9,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Reset" to "Сбросить",
     "Reset to defaults" to "Сбросить настройки",
     "Reset to defaults?" to "Сбросить настройки?",
-    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Тема, подсветка, размер текста и интервал, а также выборка для статистики вернутся к значениям по умолчанию.",
+    "The theme, highlighting, reading size and spacing go back to their defaults." to "Тема, подсветка, размер текста и интервал вернутся к значениям по умолчанию.",
     "Cancel" to "Отмена",
     "Appearance" to "Оформление",
     "Theme" to "Тема",

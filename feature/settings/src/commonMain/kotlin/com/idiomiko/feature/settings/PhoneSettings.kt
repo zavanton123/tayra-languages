@@ -85,18 +85,6 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
             }
             ContentCard(tr("Display word statuses"), subtitle = null, icon = AppIcons.Visibility, dense = true, modifier = Modifier.testTag("word-statuses")) {
                 SwitchSetting(tr("Show learning levels"), description = tr("Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known."), checked = settings.showLearningLevels, dense = true) { v -> viewModel.update { it.copy(showLearningLevels = v) } }
-                AppDivider()
-                Column(Modifier.padding(vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                        Text(tr("Book stats page sample size"), style = MaterialTheme.typography.bodyLarge)
-                        Text(tr("Number of pages used for book statistics."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
-                    NumberStepper(
-                        value = settings.statsSampleSize,
-                        range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,
-                        name = tr("book stats page sample size"),
-                    ) { n -> viewModel.update { it.copy(statsSampleSize = n) } }
-                }
             }
             // The other settings pages, as on the desktop: a phone's index has no room for the descriptions.
             SettingsIndex(settings, onNavigate, compact = true)

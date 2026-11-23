@@ -9,7 +9,7 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Reset" to "Réinitialiser",
     "Reset to defaults" to "Rétablir les valeurs par défaut",
     "Reset to defaults?" to "Rétablir les valeurs par défaut ?",
-    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Le thème, le surlignage, la taille et l’espacement du texte et l’échantillon des statistiques reviennent à leurs valeurs par défaut.",
+    "The theme, highlighting, reading size and spacing go back to their defaults." to "Le thème, le surlignage, la taille et l’espacement du texte reviennent à leurs valeurs par défaut.",
     "Cancel" to "Annuler",
     "Appearance" to "Apparence",
     "Theme" to "Thème",

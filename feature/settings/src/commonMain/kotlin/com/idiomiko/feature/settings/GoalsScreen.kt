@@ -23,7 +23,7 @@ import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSizes
 import org.koin.compose.viewmodel.koinViewModel
 
-/** Settings: the daily goal that Home measures today's reading and flashcards against. */
+/** Settings: the daily goal that Home measures today's reading and flashcards against, and the pages a book's stats are sampled from. */
 @Composable
 fun GoalsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
@@ -45,6 +45,16 @@ fun GoalsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Sett
                         modifier = Modifier.testTag("daily-goal"),
                     ) {
                         DailyGoalStepper(settings, viewModel)
+                    }
+                    SettingRow(
+                        tr("Book stats page sample size"),
+                        tr("Number of pages used for book statistics."),
+                        divider = true,
+                        stackOnCompact = true,
+                        dense = compact,
+                        modifier = Modifier.testTag("stats-sample-size"),
+                    ) {
+                        StatsSampleStepper(settings, viewModel)
                     }
                 }
             }

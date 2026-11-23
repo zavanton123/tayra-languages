@@ -9,7 +9,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Reset" to "Επαναφορά",
     "Reset to defaults" to "Επαναφορά προεπιλογών",
     "Reset to defaults?" to "Επαναφορά προεπιλογών;",
-    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Το θέμα, η επισήμανση, το μέγεθος και τα διαστήματα κειμένου και το δείγμα στατιστικών επανέρχονται στις προεπιλογές.",
+    "The theme, highlighting, reading size and spacing go back to their defaults." to "Το θέμα, η επισήμανση, το μέγεθος και τα διαστήματα κειμένου επανέρχονται στις προεπιλογές.",
     "Cancel" to "Ακύρωση",
     "Appearance" to "Εμφάνιση",
     "Theme" to "Θέμα",

@@ -9,7 +9,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Reset" to "重置",
     "Reset to defaults" to "恢复默认设置",
     "Reset to defaults?" to "恢复默认设置？",
-    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "主题、高亮、阅读字号和间距以及统计抽样页数将恢复默认值。",
+    "The theme, highlighting, reading size and spacing go back to their defaults." to "主题、高亮、阅读字号和间距将恢复默认值。",
     "Cancel" to "取消",
     "Appearance" to "外观",
     "Theme" to "主题",

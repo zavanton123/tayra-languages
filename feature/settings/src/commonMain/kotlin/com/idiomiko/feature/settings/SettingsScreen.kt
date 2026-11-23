@@ -110,7 +110,6 @@ class SettingsViewModel(private val settings: SettingsRepository) : ViewModel() 
             readingLineHeight = defaults.readingLineHeight,
             readingFont = defaults.readingFont,
             showLearningLevels = defaults.showLearningLevels,
-            statsSampleSize = defaults.statsSampleSize,
         )
     }
 }
@@ -161,7 +160,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         AppDialog(
             onDismissRequest = { confirmReset = false },
             title = { Text(tr("Reset to defaults?")) },
-            text = { Text(tr("The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults.")) },
+            text = { Text(tr("The theme, highlighting, reading size and spacing go back to their defaults.")) },
             confirmButton = { PrimaryButton(onClick = { confirmReset = false; viewModel.resetToDefaults() }) { Text(tr("Reset")) } },
             dismissButton = { QuietButton(onClick = { confirmReset = false }) { Text(tr("Cancel")) } },
         )
@@ -299,21 +298,24 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
     }
 }
 
-/** Which statuses words are shown with, and how many pages a book's known share is counted from. */
+/** Which statuses words are shown with. */
 @Composable
 private fun WordStatusesCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Display word statuses"), null, icon = AppIcons.Visibility, modifier = Modifier.testTag("word-statuses")) {
         SwitchSetting(tr("Show learning levels"), tr("Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known."), settings.showLearningLevels) { v ->
             viewModel.update { it.copy(showLearningLevels = v) }
         }
-        SettingRow(tr("Book stats page sample size"), tr("Number of pages used for book statistics."), divider = true) {
-            NumberStepper(
-                value = settings.statsSampleSize,
-                range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,
-                name = tr("book stats page sample size"),
-            ) { n -> viewModel.update { it.copy(statsSampleSize = n) } }
-        }
     }
+}
+
+/** How many pages a book's known share is counted from. */
+@Composable
+internal fun StatsSampleStepper(settings: UserSettings, viewModel: SettingsViewModel) {
+    NumberStepper(
+        value = settings.statsSampleSize,
+        range = UserSettings.MIN_STATS_SAMPLE_SIZE..UserSettings.MAX_STATS_SAMPLE_SIZE,
+        name = tr("book stats page sample size"),
+    ) { n -> viewModel.update { it.copy(statsSampleSize = n) } }
 }
 
 /** The daily goal in minutes, five at a time. */

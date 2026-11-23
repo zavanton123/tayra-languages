@@ -9,7 +9,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Reset" to "Restablecer",
     "Reset to defaults" to "Restablecer valores predeterminados",
     "Reset to defaults?" to "¿Restablecer los valores predeterminados?",
-    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "El tema, el resaltado, el tamaño y el espaciado de lectura y el tamaño de la muestra de estadísticas vuelven a sus valores predeterminados.",
+    "The theme, highlighting, reading size and spacing go back to their defaults." to "El tema, el resaltado, el tamaño y el espaciado de lectura vuelven a sus valores predeterminados.",
     "Cancel" to "Cancelar",
     "Appearance" to "Apariencia",
     "Theme" to "Tema",

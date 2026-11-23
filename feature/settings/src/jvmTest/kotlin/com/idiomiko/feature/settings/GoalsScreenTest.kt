@@ -19,7 +19,7 @@ import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-/** The Goals page sets the daily goal Home measures the day against. */
+/** The Goals page sets the daily goal Home measures the day against, and the book stats sample size. */
 @OptIn(ExperimentalTestApi::class)
 class GoalsScreenTest {
 
@@ -40,6 +40,10 @@ class GoalsScreenTest {
         onNodeWithContentDescription("Decrease daily goal").performClick()
         onNodeWithContentDescription("Decrease daily goal").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.dailyGoalMinutes == start - 5 }
+
+        onNodeWithTag("stats-sample-size").assertExists()
+        onNodeWithContentDescription("Decrease book stats page sample size").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.statsSampleSize == 4 }
     }
 
     /** On a phone the page has no sidebar, and the bar's arrow goes back. */

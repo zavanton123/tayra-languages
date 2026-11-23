@@ -9,7 +9,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Reset" to "Redefinir",
     "Reset to defaults" to "Restaurar padrões",
     "Reset to defaults?" to "Restaurar os padrões?",
-    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "O tema, o destaque, o tamanho e o espaçamento do texto e a amostra das estatísticas voltam ao padrão.",
+    "The theme, highlighting, reading size and spacing go back to their defaults." to "O tema, o destaque, o tamanho e o espaçamento do texto voltam ao padrão.",
     "Cancel" to "Cancelar",
     "Appearance" to "Aparência",
     "Theme" to "Tema",

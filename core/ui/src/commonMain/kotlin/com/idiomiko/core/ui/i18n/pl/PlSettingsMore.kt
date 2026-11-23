@@ -9,7 +9,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Reset" to "Resetuj",
     "Reset to defaults" to "Przywróć domyślne",
     "Reset to defaults?" to "Przywrócić ustawienia domyślne?",
-    "The theme, highlighting, reading size and spacing and statistics sample size go back to their defaults." to "Motyw, podświetlanie, rozmiar tekstu i odstępy oraz próbka do statystyk wrócą do wartości domyślnych.",
+    "The theme, highlighting, reading size and spacing go back to their defaults." to "Motyw, podświetlanie, rozmiar tekstu i odstępy wrócą do wartości domyślnych.",
     "Cancel" to "Anuluj",
     "Appearance" to "Wygląd",
     "Theme" to "Motyw",

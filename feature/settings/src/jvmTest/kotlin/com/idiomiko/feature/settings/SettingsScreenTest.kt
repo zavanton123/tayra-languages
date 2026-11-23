@@ -61,8 +61,9 @@ class SettingsScreenTest {
         onNodeWithContentDescription("reading font size").performSemanticsAction(SemanticsActions.SetProgress) { it(1.3f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.3f }
         onNodeWithText("130%").assertExists()
-        onNodeWithContentDescription("Decrease book stats page sample size").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { settings.current.statsSampleSize == 4 }
+        // The stats sample size is set on the Goals page, and the reset here leaves it be.
+        onNodeWithText("Book stats page sample size").assertDoesNotExist()
+        runBlocking { settings.update { it.copy(statsSampleSize = 4) } }
 
         // The reading font is chosen from a list whose entries are drawn in their own fonts.
         onNodeWithText("System serif").performClick()
@@ -74,7 +75,7 @@ class SettingsScreenTest {
         onNodeWithText("Reset to defaults").performScrollTo().performClick()
         onNodeWithText("Reset").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f }
-        assertEquals(5, settings.current.statsSampleSize)
+        assertEquals(4, settings.current.statsSampleSize)
         assertEquals("serif", settings.current.readingFont)
     }
 
