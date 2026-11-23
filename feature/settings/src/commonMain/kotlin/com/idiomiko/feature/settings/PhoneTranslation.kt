@@ -98,7 +98,7 @@ internal fun PhoneTranslationScreen(
             tr("Translation engine"), viewModel.engines, selected = settings.translationEngine,
             label = { it.displayLabel(viewModel.localName.ifEmpty { null }) },
             onDismiss = { engineSheet = false },
-            onPick = { e -> engineSheet = false; viewModel.update { it.copy(translationEngine = e) } },
+            onPick = { e -> engineSheet = false; viewModel.chooseEngine(e) },
         )
     }
 }

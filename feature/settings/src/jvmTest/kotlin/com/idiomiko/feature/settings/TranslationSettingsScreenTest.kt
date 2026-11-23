@@ -54,6 +54,7 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertFalse
+import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 /**
@@ -187,6 +188,33 @@ class TranslationSettingsScreenTest {
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
         onAllNodes(hasText("Install") and hasClickAction()).assertCountEquals(0)
         onNodeWithTag("import-dictionary").performScrollTo().assertExists()
+    }
+
+    /** Google picked without a key shows its key field but leaves the engine before it saved, until a key is given. */
+    @Test
+    fun googleIsSavedOnlyWithAKey() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val languages = LanguageRepositoryImpl(DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-translation-google", ".db").also { it.delete() })))
+        runBlocking { settings.update { it.copy(translationEngine = TranslationEngine.MYMEMORY) } }
+        val viewModel = OfflineTranslationViewModel(settings, languages, LocalTranslation(null), object : GoogleTranslation { override suspend fun checkKey() = "ok" })
+        setContent { HostedTranslation(settings) { OfflineTranslationScreen(onNavigate = {}, onBack = {}, viewModel = viewModel, dictionaries = dictionaries(emptyList())) } }
+
+        runOnIdle { viewModel.chooseEngine(TranslationEngine.GOOGLE) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("API key")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(TranslationEngine.MYMEMORY, settings.current.translationEngine)
+
+        runOnIdle { viewModel.update { it.copy(googleTranslateApiKey = "key") } }
+        waitUntil(timeoutMillis = 5_000) { settings.current.translationEngine == TranslationEngine.GOOGLE }
+
+        // Clearing the key puts the engine before it back, while the page stays on Google for a new key.
+        runOnIdle { viewModel.update { it.copy(googleTranslateApiKey = "") } }
+        waitUntil(timeoutMillis = 5_000) { settings.current.translationEngine == TranslationEngine.MYMEMORY }
+        waitForIdle()
+        onAllNodes(hasText("API key")).fetchSemanticsNodes().isNotEmpty().let(::assertTrue)
+
+        runOnIdle { viewModel.chooseEngine(TranslationEngine.MYMEMORY) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("API key")).fetchSemanticsNodes().isEmpty() }
+        assertEquals(TranslationEngine.MYMEMORY, settings.current.translationEngine)
     }
 
     /** An imported dictionary is listed under the import, and is removed once the removal is confirmed. */

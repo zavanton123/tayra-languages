@@ -75,6 +75,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
@@ -89,7 +90,14 @@ class OfflineTranslationViewModel(
     private val localTranslation: LocalTranslation,
     private val google: GoogleTranslation,
 ) : ViewModel() {
-    val state: StateFlow<UserSettings> = settings.settings
+    /** Google picked while it has no key: the page shows it, but the saved engine stays the one before. */
+    private val pendingGoogle = MutableStateFlow(false)
+    private var before: TranslationEngine? = null
+
+    /** The settings as the page shows them, with Google as the engine while it waits for its key. */
+    val state: StateFlow<UserSettings> = combine(settings.settings, pendingGoogle) { saved, pending ->
+        if (pending) saved.copy(translationEngine = TranslationEngine.GOOGLE) else saved
+    }.stateIn(viewModelScope, SharingStarted.Eagerly, settings.current)
 
     /** Whether this platform has an on-device translator (Argos on desktop, ML Kit on phones). */
     val hasLocalTranslator: Boolean = localTranslation.translator != null
@@ -143,8 +151,36 @@ class OfflineTranslationViewModel(
         .map { setOfNotNull(it?.code) }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptySet())
 
+    /**
+     * Saves [transform]; Google becomes the engine only with a key, and clearing its key puts back
+     * the engine used before it while the page goes on showing Google.
+     */
     fun update(transform: (UserSettings) -> UserSettings) {
-        viewModelScope.launch { settings.update(transform) }
+        viewModelScope.launch {
+            var hold = false
+            settings.update { saved ->
+                val next = transform(saved)
+                val keyless = next.googleTranslateApiKey.isBlank()
+                hold = keyless && (pendingGoogle.value || next.translationEngine == TranslationEngine.GOOGLE)
+                when {
+                    pendingGoogle.value && !keyless -> next.copy(translationEngine = TranslationEngine.GOOGLE)
+                    next.translationEngine == TranslationEngine.GOOGLE && keyless -> next.copy(translationEngine = before ?: UserSettings().translationEngine)
+                    else -> next
+                }
+            }
+            pendingGoogle.value = hold
+        }
+    }
+
+    /** Picks the engine; Google without a key is only shown until a key is given. */
+    fun chooseEngine(engine: TranslationEngine) {
+        if (engine == TranslationEngine.GOOGLE && settings.current.googleTranslateApiKey.isBlank()) {
+            if (settings.current.translationEngine != TranslationEngine.GOOGLE) before = settings.current.translationEngine
+            pendingGoogle.value = true
+        } else {
+            pendingGoogle.value = false
+            update { it.copy(translationEngine = engine) }
+        }
     }
 
     /** Reports the installation and reloads the package list. */
@@ -271,7 +307,7 @@ private fun EngineCard(settings: UserSettings, viewModel: OfflineTranslationView
             Dropdown(
                 options = viewModel.engines,
                 selected = engine,
-                onSelect = { e -> viewModel.update { it.copy(translationEngine = e) } },
+                onSelect = viewModel::chooseEngine,
                 label = null,
                 // Wide screens show "Offline" and "Free" as tags beside the name.
                 optionLabel = { if (compact) it.displayLabel(viewModel.localName.ifEmpty { null }) else it.shortName(viewModel.localName) },
