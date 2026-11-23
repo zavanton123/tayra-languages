@@ -13,6 +13,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "Отмена",
     "Appearance" to "Оформление",
     "Theme" to "Тема",
+    "Choose a theme" to "Выберите тему",
     "Light" to "Светлые",
     "Dark" to "Тёмные",
     "Reduce motion" to "Меньше движения",

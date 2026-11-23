@@ -13,6 +13,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "Cancelar",
     "Appearance" to "Apariencia",
     "Theme" to "Tema",
+    "Choose a theme" to "Elige un tema",
     "Light" to "Claros",
     "Dark" to "Oscuros",
     "Reduce motion" to "Reducir movimiento",

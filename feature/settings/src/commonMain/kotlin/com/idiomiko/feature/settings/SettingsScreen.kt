@@ -276,7 +276,7 @@ private val ON_MORE_SHEET = setOf<Route>(
 @Composable
 private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel) {
     ContentCard(tr("Appearance"), null, icon = AppIcons.Palette) {
-        SettingRow(tr("Theme"), null, stackOnCompact = true) {
+        SettingRow(tr("Choose a theme"), null, stackOnCompact = true) {
             Dropdown(
                 // Light themes, then dark, each under its heading.
                 options = AppThemes.all.sortedBy { it.isDark },

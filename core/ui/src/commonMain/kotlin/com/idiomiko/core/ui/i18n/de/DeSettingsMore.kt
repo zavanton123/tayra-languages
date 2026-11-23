@@ -13,6 +13,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "Abbrechen",
     "Appearance" to "Darstellung",
     "Theme" to "Design",
+    "Choose a theme" to "Design auswählen",
     "Light" to "Hell",
     "Dark" to "Dunkel",
     "Reduce motion" to "Bewegung reduzieren",

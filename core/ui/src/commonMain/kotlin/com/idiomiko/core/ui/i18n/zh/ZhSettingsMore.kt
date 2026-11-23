@@ -13,6 +13,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "取消",
     "Appearance" to "外观",
     "Theme" to "主题",
+    "Choose a theme" to "选择主题",
     "Light" to "浅色",
     "Dark" to "深色",
     "Reduce motion" to "减少动态效果",

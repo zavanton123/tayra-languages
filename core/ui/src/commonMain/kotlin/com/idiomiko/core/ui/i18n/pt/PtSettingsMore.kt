@@ -13,6 +13,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "Cancelar",
     "Appearance" to "Aparência",
     "Theme" to "Tema",
+    "Choose a theme" to "Escolha um tema",
     "Light" to "Claros",
     "Dark" to "Escuros",
     "Reduce motion" to "Reduzir movimento",

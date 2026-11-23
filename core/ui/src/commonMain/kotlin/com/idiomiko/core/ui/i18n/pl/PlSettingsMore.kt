@@ -13,6 +13,7 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "Anuluj",
     "Appearance" to "Wygląd",
     "Theme" to "Motyw",
+    "Choose a theme" to "Wybierz motyw",
     "Light" to "Jasne",
     "Dark" to "Ciemne",
     "Reduce motion" to "Ogranicz ruch",

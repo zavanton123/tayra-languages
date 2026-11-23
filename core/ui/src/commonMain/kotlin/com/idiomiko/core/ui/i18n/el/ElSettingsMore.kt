@@ -13,6 +13,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "Ακύρωση",
     "Appearance" to "Εμφάνιση",
     "Theme" to "Θέμα",
+    "Choose a theme" to "Επιλέξτε θέμα",
     "Light" to "Φωτεινά",
     "Dark" to "Σκούρα",
     "Reduce motion" to "Μείωση κίνησης",

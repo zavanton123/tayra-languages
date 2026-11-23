@@ -13,6 +13,7 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Cancel" to "Annuler",
     "Appearance" to "Apparence",
     "Theme" to "Thème",
+    "Choose a theme" to "Choisissez un thème",
     "Light" to "Clairs",
     "Dark" to "Sombres",
     "Reduce motion" to "Réduire les animations",
