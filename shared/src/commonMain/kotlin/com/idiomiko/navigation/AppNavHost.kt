@@ -9,6 +9,7 @@ import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.rememberToastState
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
+import org.koin.compose.getKoin
 import org.koin.compose.koinInject
 import androidx.compose.animation.EnterTransition
 import androidx.compose.animation.ExitTransition
@@ -54,6 +55,7 @@ import com.idiomiko.feature.playlists.PlaybackNotificationsPermission
 import com.idiomiko.feature.playlists.PlaybackProblemDialog
 import com.idiomiko.feature.playlists.PlayerBar
 import com.idiomiko.feature.playlists.playlistsGraph
+import com.idiomiko.core.domain.service.AppUpdateService
 import com.idiomiko.core.domain.service.LanguageAssets
 import com.idiomiko.feature.settings.SyncPrompt
 import com.idiomiko.feature.settings.SyncPromptViewModel
@@ -61,7 +63,9 @@ import com.idiomiko.feature.settings.AccountBadgeViewModel
 import com.idiomiko.core.ui.components.LocalSyncEntry
 import com.idiomiko.core.ui.components.AccountBadge
 import com.idiomiko.core.ui.components.LocalAccountBadge
+import com.idiomiko.core.ui.components.LocalHiddenSettingsSections
 import com.idiomiko.core.ui.components.LocalSettingsSwitch
+import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.navigation.NavigationRequests
 import com.idiomiko.core.ui.components.LocalWebPictures
 import com.idiomiko.core.domain.web.WebPictures
@@ -105,6 +109,9 @@ fun AppNavHost(openCourses: Int = 0) {
             }
         }
     }
+    // Only the desktop app updates itself; elsewhere the sidebar leaves the page out.
+    val koin = getKoin()
+    val hiddenSections = remember(koin) { if (koin.getOrNull<AppUpdateService>() == null) setOf(SettingsSection.UPDATES) else emptySet() }
     // Phones get the main areas as a bottom bar, except while reading, practising or reviewing flashcards; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
@@ -138,6 +145,7 @@ fun AppNavHost(openCourses: Int = 0) {
     CompositionLocalProvider(
         LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,
         LocalWebPictures provides koinInject<WebPictures>(), LocalSettingsSwitch provides settingsSwitch,
+        LocalHiddenSettingsSections provides hiddenSections,
     ) {
     Scaffold(
         bottomBar = {
