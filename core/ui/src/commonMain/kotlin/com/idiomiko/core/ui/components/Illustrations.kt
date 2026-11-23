@@ -9,6 +9,7 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import org.jetbrains.compose.resources.painterResource
 import idiomiko.core.ui.generated.resources.Res
 import idiomiko.core.ui.generated.resources.archived_books_empty_monkey
+import idiomiko.core.ui.generated.resources.courses_loading_monkey
 import idiomiko.core.ui.generated.resources.find_books_monkey_v4
 import idiomiko.core.ui.generated.resources.illustration_courses
 import idiomiko.core.ui.generated.resources.illustration_flashcards
@@ -50,4 +51,10 @@ fun VocabularyEmptyIllustration(modifier: Modifier = Modifier) {
 @Composable
 fun FindBooksIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.find_books_monkey_v4), contentDescription = null, modifier = modifier)
+}
+
+/** The mascot stacking books and lesson cards, while a language's courses are being prepared. */
+@Composable
+fun CoursesLoadingIllustration(modifier: Modifier = Modifier) {
+    Image(painterResource(Res.drawable.courses_loading_monkey), contentDescription = null, modifier = modifier)
 }

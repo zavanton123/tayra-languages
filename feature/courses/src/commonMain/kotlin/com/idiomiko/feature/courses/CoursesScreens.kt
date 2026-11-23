@@ -1,5 +1,7 @@
 package com.idiomiko.feature.courses
 
+import com.idiomiko.core.ui.components.AppProgressBar
+import com.idiomiko.core.ui.components.CoursesLoadingIllustration
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.runtime.CompositionLocalProvider
 import com.idiomiko.core.ui.components.rememberToastState
@@ -211,6 +213,8 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
     val language = state.languageName
+    // The ready-made courses on their way: the page says so, with how far the download has got.
+    val downloading = state.packAvailable && state.packState is PackState.Downloading
     Box(Modifier.fillMaxWidth().padding(top = if (compact) 0.dp else AppSpacing.xxl), contentAlignment = Alignment.TopCenter) {
         Column(
             Modifier.widthIn(max = AppSizes.readableWidth).fillMaxWidth()
@@ -220,14 +224,15 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             // On a phone, or with large text, the picture gives way so the buttons stay on screen; a dark theme dims it.
-            CoursesIllustration(
-                Modifier.size(if (compact || largeText) ILLUSTRATION_SIZE * SMALL_ILLUSTRATION else ILLUSTRATION_SIZE)
-                    .alpha(if (IdiomikoTheme.current.isDark) AppAlpha.strong else 1f),
-            )
+            val full = if (downloading) LOADING_ILLUSTRATION_SIZE else ILLUSTRATION_SIZE
+            val art = Modifier.size(if (compact || largeText) full * SMALL_ILLUSTRATION else full)
+                .alpha(if (IdiomikoTheme.current.isDark) AppAlpha.strong else 1f)
+            if (downloading) CoursesLoadingIllustration(art) else CoursesIllustration(art)
             Spacer(Modifier.height(AppSpacing.xxl))
             Text(
                 when {
                     language.isEmpty() -> tr("Choose a language to learn")
+                    downloading -> tr("Preparing your courses")
                     state.packAvailable -> tr("Get started with courses")
                     else -> tr("Create your first course")
                 },
@@ -238,6 +243,7 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
             Text(
                 when {
                     language.isEmpty() -> tr("Choose a language to learn to see its courses.")
+                    downloading -> tr("We're downloading the courses and finding the best place to start.")
                     state.packAvailable -> tr("Download the ready-made {0} courses, or build your own from books and texts you choose.", languageInSentence(language, LanguageCase.PREPOSITIONAL))
                     else -> tr("Build a guided reading course from books and texts you choose.")
                 },
@@ -246,11 +252,16 @@ internal fun EmptyCourses(state: CoursesUiState, onNewCourse: () -> Unit, onDown
                 textAlign = TextAlign.Center,
             )
             if (language.isEmpty()) return@Column
+            if (downloading) {
+                Spacer(Modifier.height(AppSpacing.xl))
+                Text(tr("Downloading courses…"), style = AppText.labelStrong, color = colors.onSurfaceVariant)
+                Spacer(Modifier.height(AppSpacing.s))
+                AppProgressBar((state.packState as PackState.Downloading).progress, Modifier.widthIn(max = PROGRESS_WIDTH).fillMaxWidth().testTag("courses-progress"))
+            }
             Spacer(Modifier.height(AppSpacing.xxxl))
             FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 if (state.packAvailable) {
                     // The courses are downloaded from here; they take the page over as soon as they are written.
-                    val downloading = state.packState is PackState.Downloading
                     PrimaryButton(if (downloading) tr("Downloading…") else tr("Download courses"), onClick = onDownloadCourses, icon = AppIcons.Download, loading = downloading, modifier = Modifier.testTag("download-courses"))
                     SecondaryButton(tr("Create course"), onClick = onNewCourse, modifier = Modifier.testTag("new-course"), icon = Icons.Default.Add)
                 } else {
@@ -501,6 +512,12 @@ private val LESSON_CIRCLE = 48.dp
 private val LESSON_STATUS_WIDTH = 128.dp
 private val ROW_STATUS_WIDTH = 120.dp
 private val ILLUSTRATION_SIZE = 220.dp
+
+/** The mascot stacking the courses is a scene of its own, drawn larger than the book. */
+private val LOADING_ILLUSTRATION_SIZE = 320.dp
+
+/** How wide the courses' download progress runs under the text. */
+private val PROGRESS_WIDTH = 480.dp
 private const val SMALL_ILLUSTRATION = 0.6f
 private val LEVEL_STRIPE = 5.dp
 private val FACT_DIVIDER_HEIGHT = 22.dp

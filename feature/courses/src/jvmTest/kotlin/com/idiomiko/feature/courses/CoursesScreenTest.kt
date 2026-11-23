@@ -424,9 +424,12 @@ class CoursesScreenTest {
     fun theDownloadShowsOnTheButton() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         var asked = 0
         host { CoursesContent(CoursesUiState(loading = false, languageName = "Portuguese", packAvailable = true, packState = PackState.Downloading(0.4f)), CoursesActions(onDownloadCourses = { asked++ })) }
+        onNodeWithText("Preparing your courses").assertExists()
+        onNodeWithTag("courses-progress").assertExists()
         onNodeWithText("Downloading…").assertExists()
         onNodeWithTag("download-courses").assertIsNotEnabled()
         assertEquals(0, asked)
+        save("COURSES_LOADING_SCREENSHOT")
     }
 
     @Test
