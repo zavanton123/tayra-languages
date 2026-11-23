@@ -41,7 +41,8 @@ Watch YouTube in the language you are learning, with the Idiomiko app on your co
 - Videos you watch go into Idiomiko's Videos library; bookmark a line with R, and open the video in
   the app where you are.
 
-Requires the free Idiomiko desktop app (macOS, Windows, Linux), open while you watch. The
+Requires the free Idiomiko desktop app (macOS, Windows, Linux), open while you watch, and Chrome,
+Edge, Brave, Vivaldi, Arc or Firefox, where the extension connects to the app by itself. The
 extension talks only to the app on your computer; nothing is sent anywhere else.
 
 ## Chrome Web Store: single purpose
@@ -54,7 +55,7 @@ word saving, backed by the Idiomiko app on their computer.
 - **storage** — keeps the extension's settings, the words saved from each video, and the token for
   the Idiomiko app.
 - **nativeMessaging** — asks the Idiomiko app's helper (`app.idiomiko.bridge`), which the app registers,
-  for the token, so the extension connects to the app with no pairing code.
+  for the token; this is how the extension connects to the app.
 - **Host https://www.youtube.com/\*** — shows the subtitles, panel and word cards on YouTube's
   watch pages and reads the video's subtitle tracks the player already has.
 - **Host http://127.0.0.1/\*** — talks to the Idiomiko app on the same computer (ports 47831–47835).
@@ -79,5 +80,5 @@ No other data types.
 - Host `PRIVACY.md` on the Idiomiko website and put its address in both stores.
 - After the Chrome Web Store assigns the extension's ID, add it to
   `NativeHostInstaller.CHROME_EXTENSION_IDS` and ship that app version **before** the extension is
-  public, or the store build cannot get its token from the app (pairing with a code still works).
+  public, or the store build cannot get its token from the app and cannot connect to it at all.
 - On addons.mozilla.org, the ID is fixed by the manifest: `youtube@idiomiko.app`, already in the app.

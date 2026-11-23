@@ -1,6 +1,6 @@
 # Idiomiko for YouTube — privacy policy
 
-_Last updated: 11 November 2026_
+_Last updated: 23 November 2026_
 
 Idiomiko for YouTube is a browser extension that works together with the Idiomiko app on your
 own computer. This policy says what it handles and where that goes.
@@ -23,9 +23,8 @@ When you watch a YouTube video, the extension sends the Idiomiko app:
 What the app then does with them — such as translating a line with a translation service you chose
 in the app — is covered by the app's own settings and privacy policy.
 
-To connect without a pairing code, the extension asks the Idiomiko app's helper, which the app
-registers with your browsers, for a token. The token only lets the extension talk to the app on
-this computer.
+To connect, the extension asks the Idiomiko app's helper, which the app registers with your
+browsers, for a token. The token only lets the extension talk to the app on this computer.
 
 ## What the extension keeps
 
