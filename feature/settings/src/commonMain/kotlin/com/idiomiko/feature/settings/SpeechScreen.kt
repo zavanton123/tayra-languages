@@ -277,7 +277,6 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
     val compact = LocalWindowWidth.current.isCompact
     // An engine that works but has no voice for the language learned is not ready for it.
     val voiceMissing = engine != null && learning != null && voices[learning.code].isNullOrEmpty()
-    val pill: @Composable () -> Unit = { SpeechStatusPill(engine, busy || !checked, ready, learning, voices) }
 
     if (compact) {
         PhoneSpeechScreen(settings, viewModel, engine, learning, voices, packages, checking = busy || !checked, ready, onNavigate, onBack)
@@ -288,7 +287,7 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Speech"), tr("Choose how words and passages are spoken."), onBackToSettings = onBack) { pill() }
+            ScreenHeader(tr("Speech"), tr("Choose how words and passages are spoken."), onBackToSettings = onBack)
             if (LocalWindowWidth.current.isExpanded) {
                 // The engine on the left with speech recognition under it, which keeps the two columns about as tall.
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
@@ -307,16 +306,6 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
     }
 }
 
-@Composable
-internal fun SpeechStatusPill(engine: LocalSpeechEngine?, checking: Boolean, ready: Boolean, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
-    when {
-        engine == null -> StatusPill(tr("Using system voices"), MaterialTheme.colorScheme.primary)
-        checking -> StatusPill(tr("Checking speech"), MaterialTheme.colorScheme.outline)
-        !ready -> StatusPill(tr("{0} is not installed", engine.displayName), StatusTints.warning)
-        learning != null && voices[learning.code].isNullOrEmpty() -> StatusPill(tr("No {0} voice yet", tr(learning.name)), StatusTints.warning)
-        else -> StatusPill(tr("Offline speech ready"), StatusTints.ok)
-    }
-}
 
 /** The engine choice, what it is, whether it works, and a way to reinstall it. */
 @Composable
@@ -340,10 +329,7 @@ private fun EngineCard(settings: UserSettings, viewModel: SpeechViewModel, engin
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
-        if (engine != null) {
-            Spacer(Modifier.height(AppSpacing.l))
-            EngineStatus(viewModel, engine, voiceMissing)
-        }
+        if (engine != null) EngineStatus(viewModel, engine, voiceMissing)
     }
 }
 
@@ -368,6 +354,10 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
     val broken by viewModel.broken.collectAsStateWithLifecycle()
     // The way to a voice is in the notice that says one is missing: it downloads one in place.
     val working = ready && !failed
+    // The check runs on its own when the page opens or the engine changes: a working engine, or one
+    // still being checked, needs no box; only a problem, or an install under way, shows one.
+    if (progress == null && (busy || (working && !voiceMissing))) return
+    Spacer(Modifier.height(AppSpacing.l))
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline
         working && !voiceMissing -> StatusTints.ok

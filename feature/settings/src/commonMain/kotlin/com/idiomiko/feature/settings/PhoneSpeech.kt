@@ -72,10 +72,7 @@ internal fun PhoneSpeechScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Text(tr("Choose how words and passages are spoken."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-                SpeechStatusPill(engine, checking, ready, learning, voices)
-            }
+            Text(tr("Choose how words and passages are spoken."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             ContentCard(tr("Speech engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val chosen = settings.speechEngine.takeIf { it in viewModel.engines } ?: SpeechEngine.SYSTEM
                 SelectButton(engine?.displayName ?: tr(chosen.label), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-speech-engine"))
@@ -136,6 +133,9 @@ private fun PhoneEngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEng
     val broken by viewModel.broken.collectAsStateWithLifecycle()
     // The way to a voice is in the notice that says one is missing: it downloads one in place.
     val working = ready && !failed
+    // The check runs on its own when the page opens or the engine changes: a working engine, or one
+    // still being checked, needs no box; only a problem, or an install under way, shows one.
+    if (progress == null && (busy || (working && !voiceMissing))) return
     // Amber while the language learned has no voice, as the status pill above says.
     val tint = when {
         busy -> MaterialTheme.colorScheme.outline

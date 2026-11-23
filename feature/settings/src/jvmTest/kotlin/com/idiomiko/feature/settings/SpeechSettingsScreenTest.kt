@@ -214,7 +214,6 @@ class SpeechSettingsScreenTest {
     fun kokoroVoicesAreRowsOfTheirOwnAndOneIsChosenByItsRow() = runDesktopComposeUiTest(width = 1586, height = 1200) {
         val kokoro = FakeKokoro()
         val settings = show(SpeechEngine.KOKORO, kokoro, FakePiper())
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
         val alex = "voice-voice:KOKORO:kokoro:pm_alex"
         val dora = "voice-voice:KOKORO:kokoro:pf_dora"
         waitForTag("row-$dora")
@@ -316,14 +315,15 @@ class SpeechSettingsScreenTest {
         waitForNoTag("row-voice-voice:PIPER:pt_BR-faber-x_low")
     }
 
-    /** The installation of the engine is checked whenever the page opens; a working one offers no reinstall. */
+    /** The installation of the engine is checked whenever the page opens; a working one shows no status box and no reinstall. */
     @Test
-    fun theEngineIsCheckedOnOpeningAndAWorkingOneOffersNoReinstall() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+    fun theEngineIsCheckedOnOpeningAndAWorkingOneShowsNothing() = runDesktopComposeUiTest(width = 1586, height = 1200) {
         val piper = FakePiper()
         show(SpeechEngine.PIPER, FakeKokoro(), piper)
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed and working")).fetchSemanticsNodes().isNotEmpty() }
-        assertTrue(piper.checks >= 1, "the check ran when the page opened")
-        onNodeWithText("Check installation").assertExists()
+        waitUntil(timeoutMillis = 5_000) { piper.checks >= 1 }
+        waitForIdle()
+        onNodeWithText("Installed and working").assertDoesNotExist()
+        onNodeWithText("Check installation").assertDoesNotExist()
         onNodeWithTag("reinstall-engine").assertDoesNotExist()
         onNodeWithText("Reinstall Piper").assertDoesNotExist()
     }
@@ -340,7 +340,7 @@ class SpeechSettingsScreenTest {
         onNodeWithTag("reinstall-engine").performClick()
         waitUntil(timeoutMillis = 5_000) { piper.setUps == 1 }
         waitForNoTag("reinstall-engine")
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed and working")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Something went wrong")).fetchSemanticsNodes().isEmpty() }
     }
 
     /** An engine never installed offers Install, not a reinstall. */
@@ -359,14 +359,14 @@ class SpeechSettingsScreenTest {
         val piper = FakePiper()
         piper.installed.clear()
         val settings = show(SpeechEngine.PIPER, FakeKokoro(), piper, FakeRecognition())
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("No Portuguese voice yet")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed; no voice for this language yet")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("80%").assertExists()
         onNodeWithText("Reader playback and term pronunciation use this engine.").assertDoesNotExist()
         waitForTag("notice-download-voice")
         waitForTag("download-voice-voice:PIPER:pt_BR-cadu-medium")
         onNodeWithTag("play-voice-voice:PIPER:pt_BR-cadu-medium").assertIsNotEnabled()
         onNodeWithTag("notice-download-voice").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { "pt_BR-faber-medium" in piper.installed }
         assertEquals(setOf("pt_BR-faber-medium"), piper.installed, "the engine's own voice, as the app would fetch")
         onNodeWithTag("notice-download-voice").assertDoesNotExist()
         waitForTag("current-voice-voice:PIPER:pt_BR-faber-medium")
