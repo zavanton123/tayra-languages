@@ -275,8 +275,8 @@ private val ON_MORE_SHEET = setOf<Route>(
 
 @Composable
 private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard(tr("Appearance"), tr("Customise the look and feel of Idiomiko."), icon = AppIcons.Palette) {
-        SettingRow(tr("Theme"), tr("Choose how Idiomiko looks."), stackOnCompact = true) {
+    ContentCard(tr("Appearance"), null, icon = AppIcons.Palette) {
+        SettingRow(tr("Theme"), null, stackOnCompact = true) {
             Dropdown(
                 // Light themes, then dark, each under its heading.
                 options = AppThemes.all.sortedBy { it.isDark },
@@ -321,8 +321,8 @@ internal fun ThemeSwatch(theme: AppTheme) {
 
 @Composable
 private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
-    ContentCard(tr("Reading"), tr("Adjust the font, text size and spacing for a comfortable reading experience."), iconText = "Aa") {
-        SettingRow(tr("Reading font"), tr("The typeface of the text you read."), stackOnCompact = true) {
+    ContentCard(tr("Reading"), null, iconText = "Aa") {
+        SettingRow(tr("Reading font"), null, stackOnCompact = true) {
             Dropdown(
                 options = ReadingFont.choices,
                 selected = ReadingFont.byId(settings.readingFont),
@@ -502,7 +502,7 @@ private fun CommandBox(text: String, modifier: Modifier = Modifier, style: TextS
 /** A sentence in the language being learned, drawn as the reader draws it with the chosen theme, highlighting, size and spacing. */
 @Composable
 private fun PreviewCard(settings: UserSettings) {
-    ContentCard(tr("Reading preview"), tr("Preview updates as you adjust the controls."), icon = AppIcons.MenuBook) { PreviewBox(settings) }
+    ContentCard(tr("Reading preview"), null, icon = AppIcons.MenuBook) { PreviewBox(settings) }
 }
 
 /** The preview itself: the sample sentence on the theme's page with the legend under it; [padding] is the page's inner margin. */

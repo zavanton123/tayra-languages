@@ -75,7 +75,7 @@ internal fun AppUpdatesCard(service: AppUpdateService, settings: UserSettings, o
     val scope = rememberCoroutineScope()
     val colors = MaterialTheme.colorScheme
     val version = service.currentVersion
-    ContentCard(tr("App updates"), tr("New versions of Idiomiko, installed from its GitHub releases."), icon = AppIcons.Download) {
+    ContentCard(tr("App updates"), null, icon = AppIcons.Download) {
         Text(
             if (version != null) tr("Version {0}", version) else tr("A run from the sources; update it with git."),
             style = MaterialTheme.typography.bodyLarge,
