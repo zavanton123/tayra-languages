@@ -73,6 +73,7 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import com.idiomiko.core.ui.theme.tint
 
 /** The picture of what a course is about. */
 internal val CourseTheme.icon: ImageVector

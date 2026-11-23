@@ -60,6 +60,7 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import com.idiomiko.core.ui.theme.tint
 import kotlin.math.roundToInt
 
 /** The level as a badge, turned a little: its code over its name, in the level's colour. */

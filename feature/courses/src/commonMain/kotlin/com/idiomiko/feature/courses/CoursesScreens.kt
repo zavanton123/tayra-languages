@@ -103,19 +103,10 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import com.idiomiko.core.ui.theme.tint
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-
-internal val CourseLevel.tint: Color
-    get() = when (this) {
-        CourseLevel.A1 -> AppAccents.green
-        CourseLevel.A2 -> AppAccents.blue
-        CourseLevel.B1 -> AppAccents.purple
-        CourseLevel.B2 -> AppAccents.orange
-        CourseLevel.C1 -> AppAccents.red
-        CourseLevel.C2 -> AppAccents.teal
-    }
 
 internal val LessonStatus.label: String
     get() = when (this) {
