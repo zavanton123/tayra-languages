@@ -149,7 +149,6 @@ internal fun VoiceList(settings: UserSettings, viewModel: SpeechViewModel, engin
     val current = currentVoice(choices, onDevice, engine?.let { settings.speechVoices["${it.engine.name}:$code"] })
 
     Text(learning?.let { tr("{0} voices", languageInSentence(it.name, LanguageCase.PREPOSITIONAL)) } ?: tr("Voices"), style = AppText.itemTitle)
-    if (engine != null) Text(tr("Select a voice or download another one."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
     Spacer(Modifier.height(AppSpacing.m))
     when {
         choices.isEmpty() && viewModel.downloadsHere && downloads == null ->

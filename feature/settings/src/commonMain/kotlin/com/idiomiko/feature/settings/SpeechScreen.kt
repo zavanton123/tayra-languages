@@ -421,17 +421,9 @@ private fun VoiceCard(
     voices: Map<String, List<SpeechVoice>>,
     modifier: Modifier = Modifier,
 ) {
-    val languageName = learning?.let { tr(it.name) }
     ContentCard(
         tr("Voice & playback"),
-        when {
-            languageName == null && engine == null -> tr("Hear how your language sounds with the system voice.")
-            languageName == null && engine?.supportsSpeed == true -> tr("Choose the voice and playback speed for your language.")
-            languageName == null -> tr("Choose the voice for your language and hear it.")
-            engine == null -> tr("Hear how {0} sounds with the system voice.", languageName)
-            engine.supportsSpeed -> tr("Choose the {0} voice and playback speed.", languageName)
-            else -> tr("Choose the {0} voice and hear it.", languageName)
-        },
+        null,
         icon = AppIcons.VolumeUp,
         modifier = modifier.testTag("speech-voices"),
     ) {
