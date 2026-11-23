@@ -10,12 +10,6 @@ const val BRIDGE_API = 1
 data class BridgeHello(val app: String = "idiomiko", val api: Int = BRIDGE_API)
 
 @Serializable
-data class PairRequest(val code: String, val browser: String = "")
-
-@Serializable
-data class PairResponse(val token: String)
-
-@Serializable
 data class BridgeLanguage(val id: Long, val name: String, val code: String?)
 
 /** The language being learned, the native one, and the app's version. */

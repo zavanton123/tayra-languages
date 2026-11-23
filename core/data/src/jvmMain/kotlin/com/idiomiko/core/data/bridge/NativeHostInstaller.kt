@@ -12,11 +12,11 @@ import java.nio.file.attribute.PosixFilePermissions
 import java.security.SecureRandom
 
 /**
- * Connects the Idiomiko extension to the app with no pairing code, through the browsers' native
- * messaging: the app registers a small helper with every browser on this computer, and a browser
- * lets only the extensions named in the registration start it, so only Idiomiko's extension gets the
- * token the helper gives. The helper is a shell script (PowerShell on Windows) that prints the
- * token from a file only this user can read; it needs no running app.
+ * Connects the Idiomiko extension to the app by itself, through the browsers' native messaging (the
+ * only way it connects): the app registers a small helper with every browser on this computer, and a
+ * browser lets only the extensions named in the registration start it, so only Idiomiko's extension
+ * gets the token the helper gives. The helper is a shell script (PowerShell on Windows) that prints
+ * the token from a file only this user can read; it needs no running app.
  */
 class NativeHostInstaller(
     private val folder: File,

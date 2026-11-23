@@ -4,7 +4,6 @@ import kotlin.io.path.createTempDirectory
 import com.idiomiko.core.data.bridge.NativeHostInstaller
 import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.bridge.DesktopBrowserBridge
-import com.idiomiko.core.data.bridge.SecurePairedBrowserStore
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
 import com.idiomiko.core.data.repository.BookRepositoryImpl
@@ -12,7 +11,6 @@ import com.idiomiko.core.data.repository.LanguageRepositoryImpl
 import com.idiomiko.core.data.repository.TermRepositoryImpl
 import com.idiomiko.core.data.repository.VideoRepositoryImpl
 import com.idiomiko.core.data.repository.WordsReadRepositoryImpl
-import com.idiomiko.core.data.settings.InMemorySecureStore
 import com.idiomiko.core.data.settings.SettingsRepositoryImpl
 import com.idiomiko.core.domain.bridge.AddVideoRequest
 import com.idiomiko.core.domain.bridge.AddVideoResponse
@@ -31,7 +29,7 @@ import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
-import com.idiomiko.core.domain.bridge.BridgePairing
+import com.idiomiko.core.domain.bridge.BridgeAccess
 import com.idiomiko.core.domain.bridge.BrowserBridgeApi
 import com.idiomiko.core.domain.bridge.SaveTermRequest
 import com.idiomiko.core.domain.bridge.StatusChanges
@@ -74,7 +72,6 @@ import java.net.URI
 import java.net.http.HttpClient
 import java.net.http.HttpRequest
 import java.net.http.HttpResponse
-import kotlin.random.Random
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith
@@ -82,9 +79,6 @@ import kotlin.test.assertFalse
 import kotlin.test.assertNotNull
 import kotlin.test.assertNull
 import kotlin.test.assertTrue
-import kotlin.time.Clock
-import kotlin.time.Duration.Companion.minutes
-import kotlin.time.Instant
 
 /** The app's side of the browser extension: pairing, what it answers, and who it answers. */
 class BrowserBridgeTest {
@@ -292,44 +286,16 @@ class BrowserBridgeTest {
         }
     }
 
-    private class TestClock(var now: Instant = Instant.fromEpochMilliseconds(1_000_000)) : Clock {
-        override fun now() = now
-    }
-
     @Test
-    fun pairingTakesTheCodeOnceAndBeforeItExpires() {
-        val clock = TestClock()
-        val secrets = InMemorySecureStore()
-        val pairing = BridgePairing(SecurePairedBrowserStore(secrets), clock, Random(7))
-        assertNull(pairing.pair("123456", "Chrome"), "no code shown")
-        val code = pairing.start()
-        assertEquals(BridgePairing.CODE_LENGTH, code.length)
-        val token = assertNotNull(pairing.pair(code, "Chrome"))
-        assertTrue(pairing.accepts(token))
-        assertFalse(pairing.accepts(token.dropLast(1) + "x"))
-        assertNull(pairing.pair(code, "Firefox"), "a code works once")
-        assertEquals(listOf("Chrome"), BridgePairing(SecurePairedBrowserStore(secrets), clock).browsers.map { it.browser }, "kept between runs")
-
-        val late = pairing.start()
-        clock.now += 6.minutes
-        assertNull(pairing.pair(late, "Firefox"), "expired")
-
-        val guessed = pairing.start()
-        repeat(BridgePairing.MAX_WRONG_TRIES) { assertNull(pairing.pair("000000".takeIf { it != guessed } ?: "111111", "Firefox")) }
-        assertNull(pairing.pair(guessed, "Firefox"), "too many wrong codes end the pairing")
-
-        pairing.unpair(pairing.browsers.single().id)
-        assertFalse(pairing.accepts(token))
-    }
-
-    @Test
-    fun theServerAnswersOnlyThePairedExtension() {
+    fun theServerAnswersOnlyTheExtensionWithTheHelpersToken() {
         val env = Env()
         val free = ServerSocket(0).use { it.localPort }
-        val bridge = DesktopBrowserBridge(env.api, StatusChanges(env.terms, env.settings), BridgePairing(SecurePairedBrowserStore(InMemorySecureStore())), free..free, videos = env.videos)
+        val folder = createTempDirectory("idiomiko-bridge").toFile()
+        val installer = NativeHostInstaller(folder, folder, "linux")
+        val bridge = DesktopBrowserBridge(env.api, StatusChanges(env.terms, env.settings), BridgeAccess(installer::token), free..free, videos = env.videos)
         bridge.start()
         try {
-            assertEquals(free, bridge.state.value.port)
+            assertEquals(free, bridge.port)
             val client = HttpClient.newHttpClient()
             fun call(method: String, path: String, body: String? = null, origin: String? = "chrome-extension://abc", token: String? = null): HttpResponse<String> {
                 val request = HttpRequest.newBuilder(URI("http://127.0.0.1:$free$path"))
@@ -340,16 +306,12 @@ class BrowserBridgeTest {
             }
             assertEquals(200, call("GET", "/v1/hello").statusCode())
             assertEquals(403, call("GET", "/v1/hello", origin = "https://evil.example").statusCode(), "web pages are turned away")
-            assertEquals(401, call("GET", "/v1/status").statusCode(), "unpaired")
-            assertEquals(403, call("POST", "/v1/pair", """{"code":"000000"}""").statusCode())
+            assertEquals(401, call("GET", "/v1/status").statusCode(), "no token")
+            assertEquals(401, call("GET", "/v1/status", token = "0".repeat(64)).statusCode(), "a token the helper didn't give")
+            assertEquals(401, call("POST", "/v1/pair", """{"code":"000000"}""").statusCode(), "no pairing with a code")
 
-            bridge.startPairing()
-            val code = assertNotNull(bridge.state.value.code)
-            val paired = call("POST", "/v1/pair", """{"code":"$code","browser":"Chrome"}""")
-            assertEquals(200, paired.statusCode())
-            val token = paired.body().substringAfter("\"token\":\"").substringBefore('"')
-            assertNull(bridge.state.value.code)
-            assertEquals(listOf("Chrome"), bridge.state.value.browsers.map { it.browser })
+            val token = installer.token()
+            assertEquals(403, call("GET", "/v1/status", origin = "https://evil.example", token = token).statusCode(), "not even with the token")
 
             val status = call("GET", "/v1/status", token = token)
             assertEquals(200, status.statusCode())
@@ -378,7 +340,7 @@ class BrowserBridgeTest {
     }
 }
 
-/** The helper the browsers start for the extension, so it connects with no pairing code. */
+/** The helper the browsers start for the extension, which is how it connects to the app. */
 class NativeHostInstallerTest {
 
     @Test
@@ -427,8 +389,10 @@ class NativeHostInstallerTest {
     fun theHelpersTokenIsAccepted() {
         val folder = createTempDirectory("idiomiko-accept").toFile()
         val installer = NativeHostInstaller(folder, folder, "linux")
-        val pairing = BridgePairing(SecurePairedBrowserStore(InMemorySecureStore()), automaticToken = installer::token)
-        assertTrue(pairing.accepts(installer.token()))
-        assertFalse(pairing.accepts("0".repeat(64)))
+        val access = BridgeAccess(installer::token)
+        assertTrue(access.accepts(installer.token()))
+        assertFalse(access.accepts("0".repeat(64)))
+        assertFalse(access.accepts(installer.token().dropLast(1)))
+        assertFalse(access.accepts(null))
     }
 }

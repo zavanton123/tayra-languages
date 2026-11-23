@@ -14,11 +14,9 @@ import com.idiomiko.core.data.runtime.DesktopAppUpdater
 import com.idiomiko.core.data.runtime.DesktopCommandLineTool
 import com.idiomiko.core.data.bridge.DesktopBrowserBridge
 import com.idiomiko.core.data.bridge.NativeHostInstaller
-import com.idiomiko.core.data.bridge.SecurePairedBrowserStore
-import com.idiomiko.core.domain.bridge.BridgePairing
+import com.idiomiko.core.domain.bridge.BridgeAccess
 import com.idiomiko.core.domain.bridge.BrowserBridgeApi
 import com.idiomiko.core.domain.bridge.BridgeVideos
-import com.idiomiko.core.domain.bridge.BrowserExtensionBridge
 import com.idiomiko.core.domain.bridge.StatusChanges
 import com.idiomiko.core.data.runtime.ManagedPython
 import com.idiomiko.core.data.account.DesktopIdentitySignIn
@@ -53,7 +51,6 @@ import com.idiomiko.core.domain.service.SpeechAudioCache
 import java.io.File
 import java.util.prefs.Preferences
 import org.koin.core.module.Module
-import org.koin.dsl.bind
 import org.koin.dsl.module
 
 actual val platformDataModule: Module = module {
@@ -77,10 +74,10 @@ actual val platformDataModule: Module = module {
     single<CommandLineTool> { DesktopCommandLineTool() }
     single { StatusChanges(get(), get()) }
     single { NativeHostInstaller(File(DatabaseDriverFactory.dataDirectory(), "browser-extension")) }
-    single { BridgePairing(SecurePairedBrowserStore(get()), automaticToken = get<NativeHostInstaller>()::token) }
+    single { BridgeAccess(get<NativeHostInstaller>()::token) }
     single { BrowserBridgeApi(get(), get(), get(), get(), get<DictionaryService>(), get(), System.getProperty("idiomiko.version"), getOrNull(), getOrNull(), getOrNull()) }
     single { BridgeVideos(get(), get(), get(), get(), get(), get()) }
-    single { DesktopBrowserBridge(get(), get(), get(), nativeHost = get(), videos = get()) } bind BrowserExtensionBridge::class
+    single { DesktopBrowserBridge(get(), get(), get(), nativeHost = get(), videos = get()) }
     single<AppUpdater> { DesktopAppUpdater(get()) }
     single { AppUpdateService(get(), get()) }
     // Anki's AnkiConnect add-on listens on the desktop only.
