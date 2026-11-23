@@ -52,12 +52,13 @@ import com.idiomiko.core.ui.theme.tint
 /**
  * The levels to choose from, as cards with the [selected] one ringed: one row of them where they fit at a
  * readable width, else two rows; [compact], for a phone, one level to a row with its badge on the left.
+ * The [current] level, the one set, says so on its card.
  */
 @Composable
-internal fun LevelPicker(edges: List<LevelEdge>, selected: LevelEdge?, onPick: (Int) -> Unit, compact: Boolean, modifier: Modifier = Modifier) {
+internal fun LevelPicker(edges: List<LevelEdge>, selected: LevelEdge?, onPick: (Int) -> Unit, compact: Boolean, modifier: Modifier = Modifier, current: LevelEdge? = null) {
     if (compact) {
         Column(modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            edges.forEach { edge -> LevelCard(edge, edge == selected, { onPick(edge.words) }, Modifier.fillMaxWidth(), compact = true) }
+            edges.forEach { edge -> LevelCard(edge, edge == selected, edge == current, { onPick(edge.words) }, Modifier.fillMaxWidth(), compact = true) }
         }
         return
     }
@@ -67,7 +68,7 @@ internal fun LevelPicker(edges: List<LevelEdge>, selected: LevelEdge?, onPick: (
         Column(Modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(gap)) {
             edges.chunked(perRow).forEach { row ->
                 Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(gap)) {
-                    row.forEach { edge -> LevelCard(edge, edge == selected, { onPick(edge.words) }, Modifier.weight(1f).fillMaxHeight()) }
+                    row.forEach { edge -> LevelCard(edge, edge == selected, edge == current, { onPick(edge.words) }, Modifier.weight(1f).fillMaxHeight()) }
                     repeat(perRow - row.size) { Spacer(Modifier.weight(1f)) }
                 }
             }
@@ -90,10 +91,10 @@ private fun LevelEdge.color(): Color = level?.tint ?: MaterialTheme.colorScheme.
 
 /**
  * A level to choose: its badge, its code and its name, stacked, or in a row when [compact]. The chosen
- * one has a ring, a wash and a check, in its corner or at the row's end.
+ * one has a ring, a wash and a check, in its corner or at the row's end; the [current] one is labelled so.
  */
 @Composable
-private fun LevelCard(edge: LevelEdge, selected: Boolean, onClick: () -> Unit, modifier: Modifier, compact: Boolean = false) {
+private fun LevelCard(edge: LevelEdge, selected: Boolean, current: Boolean, onClick: () -> Unit, modifier: Modifier, compact: Boolean = false) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.card
     Box(
@@ -110,6 +111,7 @@ private fun LevelCard(edge: LevelEdge, selected: Boolean, onClick: () -> Unit, m
                     Text(edge.code(), style = AppText.itemTitleBold, maxLines = 1)
                     Text(edge.name(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 }
+                if (current) CurrentLabel()
                 if (selected) ChosenCheck()
             }
         } else {
@@ -118,10 +120,27 @@ private fun LevelCard(edge: LevelEdge, selected: Boolean, onClick: () -> Unit, m
                 Spacer(Modifier.height(AppSpacing.m))
                 Text(edge.code(), style = AppText.itemTitleBold, maxLines = 1)
                 Text(edge.name(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center, minLines = 2)
+                if (current) {
+                    Spacer(Modifier.height(AppSpacing.s))
+                    CurrentLabel()
+                }
             }
             if (selected) ChosenCheck(Modifier.align(Alignment.TopEnd).padding(AppSpacing.s))
         }
     }
+}
+
+/** "Current" on the card of the level set. */
+@Composable
+private fun CurrentLabel() {
+    val colors = MaterialTheme.colorScheme
+    Text(
+        tr("Current"),
+        Modifier.clip(AppShapes.pill).background(colors.primary.copy(alpha = AppAlpha.tint)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs),
+        style = AppText.badgeBold,
+        color = colors.primary,
+        maxLines = 1,
+    )
 }
 
 /** The small filled check on the chosen card. */
