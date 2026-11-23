@@ -62,7 +62,6 @@ internal fun AccountMenuButton(badge: AccountBadge?, onNavigate: (Route) -> Unit
             if (badge != null) AppMenuItem(text = { Text(tr("Account")) }, onClick = { open = false; badge.open() })
             else AppMenuItem(text = { Text(tr("Sign in")) }, onClick = { go(Route.Account) })
             AppMenuItem(text = { Text(tr("Settings")) }, onClick = { go(Route.Settings) })
-            AppMenuItem(text = { Text(tr("Backups")) }, onClick = { go(Route.Backups) })
             AppMenuItem(text = { Text(tr("About")) }, onClick = { go(Route.About) })
             if (badge != null) {
                 AppDivider()

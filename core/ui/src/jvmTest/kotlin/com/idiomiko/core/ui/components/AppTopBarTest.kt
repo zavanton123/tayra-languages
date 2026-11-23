@@ -74,7 +74,7 @@ class AppTopBarTest {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME) } }
         onNodeWithTag("account-avatar").assertDoesNotExist()
-        val pages = listOf("Sign in" to Route.Account, "Settings" to Route.Settings, "Backups" to Route.Backups, "About" to Route.About)
+        val pages = listOf("Sign in" to Route.Account, "Settings" to Route.Settings, "About" to Route.About)
         for ((label, _) in pages) {
             onNodeWithTag("account-button").performClick()
             waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isNotEmpty() }
@@ -116,11 +116,11 @@ class AppTopBarTest {
         saveMenu("ACCOUNT_MENU_SCREENSHOT", "-signed-in")
         onNodeWithText("Account").performClick()
         assertEquals(1, opened)
-        for (label in listOf("Settings", "Backups", "About")) {
+        for (label in listOf("Settings", "About")) {
             open()
             onNodeWithText(label).performClick()
         }
-        assertEquals(listOf<Route>(Route.Settings, Route.Backups, Route.About), visited)
+        assertEquals(listOf<Route>(Route.Settings, Route.About), visited)
         open()
         onNodeWithTag("account-menu-sign-out").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isEmpty() }
