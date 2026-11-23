@@ -149,7 +149,6 @@ class BackupScreenTest {
         setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Protect your data")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Backups are stored on this device and go with the app if it is removed. Export one to keep a copy.").assertExists()
         onNodeWithText("Create a backup").assertDoesNotExist()
         onNodeWithTag("phone-create-backup").performClick()
         // The phone row leaves the seconds out.
@@ -157,8 +156,6 @@ class BackupScreenTest {
         onNodeWithText("1 local backup", substring = true).assertDoesNotExist()
         System.getenv("BACKUP_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 
-        onNodeWithTag("phone-whats-included").performScrollTo().performClick()
-        onNodeWithText("Languages and books").assertExists()
         onNodeWithContentDescription("More for the backup of Oct 3, 2026, 12:00:00").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Delete")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Delete").performClick()

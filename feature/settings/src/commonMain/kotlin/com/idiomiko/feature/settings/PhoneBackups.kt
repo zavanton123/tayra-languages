@@ -95,8 +95,6 @@ internal fun PhoneBackupsScreen(
                 )
                 Spacer(Modifier.height(AppSpacing.m))
                 SecondaryButton(tr("Import backup"), onClick = onImport, modifier = Modifier.fillMaxWidth(), icon = AppIcons.UploadFile, enabled = idle, size = ButtonSize.Large)
-                Spacer(Modifier.height(AppSpacing.m))
-                Text(tr("Backups are stored on this device and go with the app if it is removed. Export one to keep a copy."), Modifier.fillMaxWidth(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
             }
             Progress(state)
             Column {
@@ -111,7 +109,6 @@ internal fun PhoneBackupsScreen(
                 PhoneBackupRow(backup, latest = i == 0, enabled = idle, onRestore = { onRestore(backup) }, onExport = { viewModel.export(backup) }, onDelete = { onDelete(backup) })
             }
             MoreBackups(state.backups, more) { more = !more }
-            IncludedRow()
         }
     }
 }
@@ -147,19 +144,3 @@ private fun PhoneBackupRow(backup: Backup, latest: Boolean, enabled: Boolean, on
     }
 }
 
-/** What a backup holds, folded away under a row. */
-@Composable
-private fun IncludedRow() {
-    val colors = MaterialTheme.colorScheme
-    var open by remember { mutableStateOf(false) }
-    Column(Modifier.fillMaxWidth().cardSurface()) {
-        Row(Modifier.fillMaxWidth().clickable { open = !open }.padding(AppSpacing.l).testTag("phone-whats-included"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            IconTile(AppIcons.VerifiedUser, size = 44)
-            Text(tr("What's included in a backup"), Modifier.weight(1f), style = AppText.itemTitle)
-            Icon(if (open) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, tint = colors.onSurfaceVariant)
-        }
-        Reveal(open) {
-            Column(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.m)) { IncludedLines(gap = AppSpacing.m) }
-        }
-    }
-}

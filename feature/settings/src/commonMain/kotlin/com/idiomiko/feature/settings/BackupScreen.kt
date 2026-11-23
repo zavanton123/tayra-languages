@@ -224,7 +224,6 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     tr("Create a backup"),
                     tr("Save your languages, books, vocabulary, reading history, and settings."),
                     AppIcons.Storage,
-                    note = tr("Stored locally on this device."),
                     modifier = m,
                 ) { PrimaryButton(onClick = viewModel::create, enabled = idle) { Text(tr("Create backup"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
             }
@@ -233,11 +232,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                     tr("Import a backup"),
                     tr("Restore Idiomiko data from a previously exported backup file."),
                     AppIcons.UploadFile,
-                    note = when {
-                        dropping -> tr("Drop the file to import it.")
-                        acceptsDroppedFiles -> tr("Or drop a backup file anywhere on this screen. It joins the history below, and you are asked whether to restore it right away.")
-                        else -> tr("It joins the history below, and you are asked whether to restore it right away.")
-                    },
+                    note = if (dropping) tr("Drop the file to import it.") else null,
                     modifier = m,
                     highlighted = dropping,
                 ) { SecondaryButton(onClick = { picker.launch() }, enabled = idle) { Text(tr("Choose file"), Modifier.padding(horizontal = AppSpacing.xxl)) } }
@@ -318,7 +313,7 @@ internal fun Progress(state: BackupState) {
 
 /** A card with one action: its icon, what it does, the button, and a note under it; [highlighted] while a drop would land in it. */
 @Composable
-private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note: String, modifier: Modifier = Modifier, highlighted: Boolean = false, button: @Composable () -> Unit) {
+private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note: String? = null, modifier: Modifier = Modifier, highlighted: Boolean = false, button: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.fillMaxWidth().clip(AppShapes.card).background(if (highlighted) colors.primaryContainer else colors.surface)
@@ -331,8 +326,10 @@ private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note:
             Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             Spacer(Modifier.height(AppSpacing.xl))
             button()
-            Spacer(Modifier.height(AppSpacing.m))
-            Text(note, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            if (note != null) {
+                Spacer(Modifier.height(AppSpacing.m))
+                Text(note, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
         }
     }
 }
@@ -464,29 +461,6 @@ private fun BackupRowContent(
             Spacer(Modifier.height(AppSpacing.s))
             actions()
         }
-    }
-}
-
-/** What a backup holds and, under a divider [gap] away, what it leaves out. */
-@Composable
-internal fun IncludedLines(gap: Dp) {
-    listOf(tr("Languages and books"), tr("Vocabulary"), tr("Reading history"), tr("Settings")).forEach { IncludedLine(it, Icons.Default.CheckCircle, StatusTints.ok) }
-    AppDivider(Modifier.padding(vertical = gap))
-    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = AppSpacing.xs)) {
-        Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
-        Spacer(Modifier.width(AppSpacing.l))
-        Text(tr("Not included"), style = AppText.emphasis)
-    }
-    listOf(tr("Audio files"), tr("Downloaded dictionaries"), tr("Voices and translation models"), tr("API keys"))
-        .forEach { IncludedLine(it, AppIcons.RemoveCircle, MaterialTheme.colorScheme.outline) }
-}
-
-@Composable
-private fun IncludedLine(text: String, icon: ImageVector, tint: Color) {
-    Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = AppSpacing.xs)) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconMedium))
-        Spacer(Modifier.width(AppSpacing.l))
-        Text(text, style = MaterialTheme.typography.bodyLarge)
     }
 }
 
