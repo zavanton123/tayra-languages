@@ -15,6 +15,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -145,7 +147,7 @@ internal fun WideHeader(state: HomeUiState, actions: HomeActions) {
                     val saved = activity?.savedToday ?: 0
                     Figure(AppIcons.Abc, AppAccents.orange, trPlural(saved, "{1} word saved today", "{1} words saved today", formatCount(saved)), "saved-today", actions.onSavedToday)
                     state.vocabulary?.takeIf { it.known > 0 }?.let { words ->
-                        Figure(AppIcons.DoneAll, AppAccents.green, trPlural(words.known, "{1} word known", "{1} words known", formatCount(words.known)), "known") { actions.onNavigate(Route.WordFrequency) }
+                        Figure(Icons.Default.Check, AppAccents.green, trPlural(words.known, "{1} word known", "{1} words known", formatCount(words.known)), "known") { actions.onNavigate(Route.WordFrequency) }
                     }
                 }
             }
@@ -182,7 +184,7 @@ internal fun PhoneTodayCard(state: HomeUiState, actions: HomeActions) {
                 streak?.let { PhoneFigure(AppIcons.Flame, AppAccents.pink, trPlural(it, "{0}-day streak", "{0}-day streak"), "streak", Modifier) }
                 if (streak != null && known != null) AppVerticalDivider(Modifier.padding(horizontal = AppSpacing.xs).height(PHONE_DIVIDER_HEIGHT))
                 known?.let {
-                    PhoneFigure(AppIcons.DoneAll, AppAccents.green, trPlural(it, "{1} word known", "{1} words known", formatCount(it)), "known", Modifier.weight(1f, fill = false)) {
+                    PhoneFigure(Icons.Default.Check, AppAccents.green, trPlural(it, "{1} word known", "{1} words known", formatCount(it)), "known", Modifier.weight(1f, fill = false)) {
                         actions.onNavigate(Route.WordFrequency)
                     }
                 }
@@ -216,9 +218,8 @@ private fun GoalSummary(goal: DailyGoal, ring: Dp, actions: HomeActions, today: 
                     },
                     style = AppText.sectionTitle,
                 )
-                Text(
-                    if (goal.reached) trPlural(goal.done, "{0} minute of study today", "{0} minutes of study today")
-                    else trPlural(goal.left, "{0} minute to go", "{0} minutes to go"),
+                if (goal.reached) Text(
+                    trPlural(goal.done, "{0} minute of study today", "{0} minutes of study today"),
                     style = MaterialTheme.typography.bodyLarge,
                     color = colors.onSurfaceVariant,
                 )

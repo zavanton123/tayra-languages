@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -122,7 +123,7 @@ internal fun VocabularyCard(state: HomeUiState, actions: HomeActions, modifier: 
     val words = state.vocabulary ?: return
     val milestone = words.milestone ?: return
     val colors = MaterialTheme.colorScheme
-    SectionCard(tr("Vocabulary"), AppIcons.DoneAll, AppAccents.green, "vocabulary", link = tr("Word frequency") to { actions.onNavigate(Route.WordFrequency) }, modifier = modifier) {
+    SectionCard(tr("Vocabulary"), Icons.Default.Check, AppAccents.green, "vocabulary", link = tr("Word frequency") to { actions.onNavigate(Route.WordFrequency) }, modifier = modifier) {
         Text(tr("{0}% of the {1} most common words", (words.share * 100).toInt(), formatCount(milestone)), style = AppText.itemTitle)
         ProgressTrack(words.share, AppAccents.green, Modifier.fillMaxWidth(), height = AppSizes.trackThick)
         if (words.known < milestone) Text(tr("Next milestone: {0}", formatCount(milestone)), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)

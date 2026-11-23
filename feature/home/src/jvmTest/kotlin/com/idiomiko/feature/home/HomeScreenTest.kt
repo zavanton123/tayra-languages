@@ -279,14 +279,14 @@ class HomeScreenTest {
         onNodeWithText("Boa tarde!").assertExists()
         onNodeWithText("Keep going — you're almost at today's goal!").assertExists()
         onNodeWithText("12 of 15 minutes").assertExists()
-        onNodeWithText("3 minutes to go").assertExists()
+        onNodeWithText("3 minutes to go").assertDoesNotExist()
         onNodeWithText("4-day streak").assertExists()
         onNodeWithText("1,532 words known").assertExists()
-        // One step first, with its time and the goal it nears, and the page's only filled button; on a wide window it needs no label.
+        // One step first, with its time, and the page's only filled button; on a wide window it needs no label.
         onNodeWithText("Next up").assertDoesNotExist()
         onNodeWithText("310 cards due today").assertExists()
         onNodeWithText("~31 min").assertExists()
-        onNodeWithText("Just 3 minutes to reach today's goal.").assertExists()
+        onNodeWithText("Just 3 minutes to reach today's goal.").assertDoesNotExist()
         onNodeWithTag("next-up-art").assertExists()
         assertEquals(1, onAllNodesWithTag("next-up-action").fetchSemanticsNodes().size)
         onNodeWithTag("next-up-quick").performClick()
@@ -351,7 +351,7 @@ class HomeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Keep your words fresh")).fetchSemanticsNodes().isNotEmpty() }
         picture("HOME_PHONE_SCREENSHOT")
         onNodeWithText("13 of 15 minutes today").assertExists()
-        onNodeWithText("2 minutes to go").assertExists()
+        onNodeWithText("2 minutes to go").assertDoesNotExist()
         onNodeWithText("1-day streak").assertExists()
         onNodeWithText("1,539 words known").assertExists()
         onNodeWithText("99+", useUnmergedTree = true).assertExists()

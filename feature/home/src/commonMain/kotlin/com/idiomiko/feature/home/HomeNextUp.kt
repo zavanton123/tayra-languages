@@ -160,16 +160,7 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
             labelText()
             Text(view.title, style = AppText.pageTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
             view.detail?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
-            val goal = state.goal
-            val hint = if (goal.goal > 0 && !goal.reached) {
-                Fact(
-                    AppIcons.Target,
-                    if (goal.fraction >= 0.5f) trPlural(goal.left, "Just {0} minute to reach today's goal.", "Just {0} minutes to reach today's goal.")
-                    else trPlural(goal.left, "{0} minute to go for today's goal.", "{0} minutes to go for today's goal."),
-                    AppAccents.green,
-                )
-            } else null
-            val facts = listOfNotNull(next.minutes?.let { Fact(AppIcons.Schedule, tr("~{0} min", it)) }) + view.facts.map { Fact(null, it) } + listOfNotNull(hint)
+            val facts = listOfNotNull(next.minutes?.let { Fact(AppIcons.Schedule, tr("~{0} min", it)) }) + view.facts.map { Fact(null, it) }
             if (facts.isNotEmpty()) Facts(facts)
             progress()
             Spacer(Modifier.height(AppSpacing.s))
@@ -183,7 +174,7 @@ private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
     is NextUp.Review -> NextUpView(
         AppIcons.Style, AppAccents.teal, ArtFace.CARDS,
         title = trPlural(next.due, "{1} card due today", "{1} cards due today", formatCount(next.due)),
-        detail = tr("Review them to keep your words fresh."),
+        detail = null,
         shortDetail = tr("Keep your words fresh"),
         facts = emptyList(),
         button = tr("Review flashcards"),
