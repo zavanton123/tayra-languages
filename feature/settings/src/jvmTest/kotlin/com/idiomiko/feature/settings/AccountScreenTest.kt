@@ -187,7 +187,7 @@ class AccountScreenTest {
             }
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("settings-section-ACCOUNT").assertIsSelected()
+        onNodeWithTag("settings-sidebar").assertDoesNotExist()
         onNodeWithTag("account-avatar").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isNotEmpty() }
         shot("NAV_MENU_SCREENSHOT", "-signed-in")

@@ -31,8 +31,6 @@ import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.ui.components.APP_NAME
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.SettingsSection
-import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -68,24 +66,23 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
         topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.ACCOUNT) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPane(SettingsSection.ACCOUNT, padding, onNavigate) { inner ->
-            val content: @Composable () -> Unit = { AccountContent(state, viewModel, onBack) }
-            if (compact) {
-                ScrollColumn(
-                    Modifier.padding(inner).fillMaxSize(),
-                    contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
-                    verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
-                ) { content() }
-            } else {
-                PageColumn(inner) { Column(Modifier.widthIn(max = PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
-            }
+        // The account is reached from the account menu, not among the settings: no settings sidebar beside it.
+        val content: @Composable () -> Unit = { AccountContent(state, viewModel, onBack) }
+        if (compact) {
+            ScrollColumn(
+                Modifier.padding(padding).fillMaxSize(),
+                contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
+                verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+            ) { content() }
+        } else {
+            PageColumn(padding) { Column(Modifier.widthIn(max = PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
         }
     }
 }
 
 @Composable
 internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, onBack: () -> Unit) {
-    ScreenHeader(tr("Account"), null, onBackToSettings = onBack)
+    ScreenHeader(tr("Account"), null)
     // Signed out, a problem is said in the form, beside the fields it is about.
     if (!state.signedOut) state.problem?.let { ProblemNotice(it, state.problemText) }
     state.done?.let { DoneNotice(it) }

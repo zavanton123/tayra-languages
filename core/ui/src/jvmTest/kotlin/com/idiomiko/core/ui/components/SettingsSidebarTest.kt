@@ -24,13 +24,13 @@ import kotlin.test.assertTrue
 @OptIn(ExperimentalTestApi::class)
 class SettingsSidebarTest {
 
-    /** A wide window lists every settings section, Account first, with the page's own lit; another one opens in its place. */
+    /** A wide window lists every settings section, General first, with the page's own lit; another one opens in its place. */
     @Test
     fun theSidebarLightsTheCurrentSectionAndOpensTheOthers() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.SPEECH, onNavigate = { visited += it }) } } }
         onNodeWithTag("settings-sidebar").assertExists()
-        assertEquals(SettingsSection.ACCOUNT, SettingsSection.entries.first())
+        assertEquals(SettingsSection.GENERAL, SettingsSection.entries.first())
         for (section in SettingsSection.entries) {
             val row = onNodeWithTag("settings-section-${section.name}")
             if (section == SettingsSection.SPEECH) row.assertIsSelected() else row.assertIsNotSelected()
@@ -38,10 +38,10 @@ class SettingsSidebarTest {
         // The sidebar's title is the only Settings left: the page's way back would repeat it.
         assertEquals(1, onAllNodesWithText("Settings").fetchSemanticsNodes().size)
         onNodeWithTag("settings-section-GENERAL").performClick()
-        onNodeWithTag("settings-section-ACCOUNT").performClick()
+        onNodeWithTag("settings-section-BACKUPS").performClick()
         // The page shown already is not opened again.
         onNodeWithTag("settings-section-SPEECH").performClick()
-        assertEquals(listOf<Route>(Route.Settings, Route.Account), visited)
+        assertEquals(listOf<Route>(Route.Settings, Route.Backups), visited)
     }
 
     /** Provided by the app, the switch that takes the shown page's place opens the section rather than a plain link. */
@@ -68,7 +68,7 @@ class SettingsSidebarTest {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.CLEAR_DATA, onNavigate = { visited += it }) } } }
         assertEquals(
-            listOf("Account", "General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "About", "Experiments"),
+            listOf("General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "About", "Experiments"),
             SettingsSection.entries.map { it.label },
         )
         onNodeWithTag("settings-section-CLEAR_DATA").assertIsSelected()
