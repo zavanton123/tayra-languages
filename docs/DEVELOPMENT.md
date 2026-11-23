@@ -38,9 +38,13 @@ Domain services depend on repository interfaces declared in `core/domain`; `core
 provides the SQLDelight implementations. Each feature exposes a Koin module and a navigation
 graph that `shared` composes into the app.
 
-The desktop installers carry a second jpackage launcher, `idiomiko`, that runs `:cli`'s main
+The desktop installers carry a second jpackage launcher, `idiomiko-cli`, that runs `:cli`'s main
 class on the app's own runtime and jars (see the end of `desktopApp/build.gradle.kts`);
-`DesktopCommandLineTool` puts it on the PATH from Settings. The app holds a lock on
+`DesktopCommandLineTool` puts it on the PATH. `CommandLineSetup` (core/domain) does that once,
+the first time the installed app runs: `AppBootstrapViewModel` starts it once the app is ready, and
+the device-only `commandLineSetUp` setting, kept out of sync and backups, records that it ran, so a
+command the user removes stays removed. A run from the sources has no launcher and skips it; use
+`./gradlew :cli:run` there. The app holds a lock on
 `app.lock` in the data folder while it is open, which tells the command so. Both open the
 database in WAL mode with a busy timeout, so they can use it at the same time.
 

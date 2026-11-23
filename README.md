@@ -166,8 +166,9 @@ them and read as words of their own (학교에서 is 학교 + 에서), and verbs
 
 The desktop app comes with `idiomiko`, a command-line tool for the same library: add books and
 courses, read a page's words with their statuses, change statuses, export to Anki, make and
-restore backups. Every command can answer in JSON, so AI agents can use it too. Settings >
-Command-line tool puts it on the PATH; [docs/CLI.md](docs/CLI.md) describes it.
+restore backups. Every command can answer in JSON, so AI agents can use it too. The installed
+app puts it on the PATH by itself the first time it runs; from the sources, run it with
+`./gradlew :cli:run`. [docs/CLI.md](docs/CLI.md) describes it.
 
 ## Get it
 

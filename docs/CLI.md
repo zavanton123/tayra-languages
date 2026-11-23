@@ -6,16 +6,19 @@ who like a terminal and for AI agents, which can read and change the library thr
 
 ## Installing
 
-`idiomiko` is inside the installed app. In the app, open **Settings** and press **Install
-command-line tool** under *Command-line tool*; then open a new terminal window.
+`idiomiko` is inside the installed app, and the app puts it on the `PATH` by itself the first
+time it runs, in the background and without asking. Terminal windows opened after that find it.
 
 - **macOS and Linux:** a small script goes into `~/.local/bin`, and when the shell does not
   search that folder yet, one line in its profile (`~/.zshrc`, `~/.bash_profile` or
   `~/.bashrc`, or a file in `~/.config/fish/conf.d`) adds it to the `PATH`.
 - **Windows:** an `idiomiko.cmd` that runs the launcher is put in `%LOCALAPPDATA%\Idiomiko\bin`, and that folder is added to the user's `PATH`.
 
-**Remove** in the same place takes it off again. Without the button, the launcher can be run by
-its full path:
+It happens once per computer: when a terminal already finds an `idiomiko`, the app leaves it
+alone, and a failed attempt is only noted in the app's log. To take the command off again, delete
+`~/.local/bin/idiomiko` and the profile line marked `Added by Idiomiko` (on Windows,
+`%LOCALAPPDATA%\Idiomiko\bin\idiomiko.cmd` and that folder's `PATH` entry); the app does not put
+it back. Either way, the launcher can be run by its full path:
 
 | System | Where the launcher is |
 | --- | --- |
@@ -24,8 +27,9 @@ its full path:
 | Linux (DEB/RPM) | `/opt/idiomiko/bin/idiomiko-cli` |
 | Linux (tarball) | `idiomiko/bin/idiomiko-cli` where it was unpacked |
 
-From the sources: `./gradlew :cli:run --args="books list"`, or `./gradlew :cli:installDist` and
-then `cli/build/install/idiomiko/bin/idiomiko`.
+A run of the app from the sources has no launcher to put on the `PATH`, so it sets nothing up.
+There, run the command with `./gradlew :cli:run --args="books list"`, or `./gradlew :cli:installDist`
+and then `cli/build/install/idiomiko/bin/idiomiko`.
 
 ## Using it
 
