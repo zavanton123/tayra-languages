@@ -347,7 +347,7 @@ internal val plSettings: Map<String, String> = mapOf(
     "Not sent yet" to "Jeszcze niewysłane",
     "Up to date" to "Aktualne",
     "This action cannot be undone." to "Tej czynności nie można cofnąć.",
-    "Sync your library?" to "Zsynchronizować bibliotekę?",
+    "Sync your data?" to "Zsynchronizować dane?",
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Twoje słowa, teksty, czytanie i ustawienia nauki zostaną uzgodnione z kontem i innymi urządzeniami.",
     "Sign in to your account to sync your library with your other devices." to "Zaloguj się na konto, aby synchronizować bibliotekę z innymi urządzeniami.",
     "Open Account" to "Otwórz konto",

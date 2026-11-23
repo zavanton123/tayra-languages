@@ -347,7 +347,7 @@ internal val frSettings: Map<String, String> = mapOf(
     "Not sent yet" to "Pas encore envoyé",
     "Up to date" to "À jour",
     "This action cannot be undone." to "Cette action est irréversible.",
-    "Sync your library?" to "Synchroniser votre bibliothèque ?",
+    "Sync your data?" to "Synchroniser vos données ?",
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Vos mots, textes, lectures et réglages d’apprentissage sont mis à jour avec votre compte et vos autres appareils.",
     "Sign in to your account to sync your library with your other devices." to "Connectez-vous à votre compte pour synchroniser votre bibliothèque avec vos autres appareils.",
     "Open Account" to "Ouvrir le compte",

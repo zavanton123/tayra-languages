@@ -112,7 +112,7 @@ class SyncPromptTest {
         showBar(Accounts("reader@example.com"), sync)
         onNodeWithTag("sync-dialog").assertDoesNotExist()
         onNodeWithTag("sync-button").performClick()
-        onNodeWithText("Sync your library?").assertExists()
+        onNodeWithText("Sync your data?").assertExists()
         assertEquals(0, sync.syncs, "nothing syncs before the answer")
         onNodeWithTag("sync-confirm").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("sync-summary").fetchSemanticsNodes().isNotEmpty() }
@@ -221,7 +221,7 @@ class SyncPromptTest {
             }
         }
         onNodeWithTag("page").performTouchInput { swipeDown(startY = top + 10f, endY = bottom, durationMillis = 400) }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sync your library?").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sync your data?").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, sync.syncs, "a pull only asks")
     }
 }

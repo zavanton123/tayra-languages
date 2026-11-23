@@ -142,7 +142,7 @@ internal fun SyncDialog(state: SyncPromptState, actions: SyncPromptViewModel?, o
     AppDialog(
         onDismissRequest = close,
         modifier = Modifier.testTag("sync-dialog"),
-        title = { Text(if (!ready || state.step == SyncStep.ASK) tr("Sync your library?") else tr("Sync")) },
+        title = { Text(if (!ready || state.step == SyncStep.ASK) tr("Sync your data?") else tr("Sync")) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 when {

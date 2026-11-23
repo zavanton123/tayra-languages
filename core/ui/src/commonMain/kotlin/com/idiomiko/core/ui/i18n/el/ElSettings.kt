@@ -347,7 +347,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Not sent yet" to "Δεν έχει σταλεί ακόμη",
     "Up to date" to "Ενημερωμένο",
     "This action cannot be undone." to "Αυτή η ενέργεια δεν αναιρείται.",
-    "Sync your library?" to "Συγχρονισμός της βιβλιοθήκης σας;",
+    "Sync your data?" to "Συγχρονισμός των δεδομένων σας;",
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Οι λέξεις, τα κείμενα, η ανάγνωση και οι ρυθμίσεις μάθησής σας ενημερώνονται με τον λογαριασμό και τις άλλες συσκευές σας.",
     "Sign in to your account to sync your library with your other devices." to "Συνδεθείτε στον λογαριασμό σας για να συγχρονίσετε τη βιβλιοθήκη σας με τις άλλες συσκευές σας.",
     "Open Account" to "Άνοιγμα λογαριασμού",

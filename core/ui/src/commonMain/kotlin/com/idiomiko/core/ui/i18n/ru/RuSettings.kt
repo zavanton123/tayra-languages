@@ -347,7 +347,7 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Not sent yet" to "Ещё не отправлено",
     "Up to date" to "Актуально",
     "This action cannot be undone." to "Это действие нельзя отменить.",
-    "Sync your library?" to "Синхронизировать библиотеку?",
+    "Sync your data?" to "Синхронизировать данные?",
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Ваши слова, тексты, чтение и настройки обучения будут обновлены по аккаунту и другим вашим устройствам.",
     "Sign in to your account to sync your library with your other devices." to "Войдите в аккаунт, чтобы синхронизировать библиотеку с другими устройствами.",
     "Open Account" to "Открыть аккаунт",

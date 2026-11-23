@@ -347,7 +347,7 @@ internal val deSettings: Map<String, String> = mapOf(
     "Not sent yet" to "Noch nicht gesendet",
     "Up to date" to "Aktuell",
     "This action cannot be undone." to "Das lässt sich nicht rückgängig machen.",
-    "Sync your library?" to "Bibliothek synchronisieren?",
+    "Sync your data?" to "Daten synchronisieren?",
     "Your words, texts, reading and learning setup are brought up to date with your account and your other devices." to "Deine Wörter, Texte, dein Lesefortschritt und deine Lerneinstellungen werden mit deinem Konto und deinen anderen Geräten abgeglichen.",
     "Sign in to your account to sync your library with your other devices." to "Melde dich bei deinem Konto an, um deine Bibliothek mit deinen anderen Geräten zu synchronisieren.",
     "Open Account" to "Konto öffnen",
