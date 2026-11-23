@@ -1,7 +1,5 @@
 package com.idiomiko.feature.settings
 
-import androidx.compose.material.icons.filled.Delete
-import com.idiomiko.core.ui.components.NavigationRow
 import androidx.compose.ui.platform.testTag
 import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -76,6 +74,7 @@ import co.touchlab.kermit.Logger
 import com.idiomiko.core.domain.backup.Backup
 import com.idiomiko.core.domain.backup.BackupException
 import com.idiomiko.core.domain.backup.BackupRepository
+import com.idiomiko.core.domain.service.ClearDataService
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
@@ -94,8 +93,10 @@ import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.datetime.LocalDateTime
@@ -112,11 +113,17 @@ data class BackupState(
     val restored: Backup? = null,
     /** Set once a file was imported, until the reader has said whether to restore it now. */
     val imported: Backup? = null,
-)
+    /** Clearing the data on this device, from the foot of the page. */
+    val clearing: ClearDataUiState = ClearDataUiState(),
+) {
+    /** Nothing is under way, so another action may start. */
+    val idle: Boolean get() = working == null && !clearing.inProgress
+}
 
-class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
+class BackupViewModel(private val backups: BackupRepository, private val clearData: ClearDataService) : ViewModel() {
     private val _state = MutableStateFlow(BackupState())
-    val state: StateFlow<BackupState> = _state.asStateFlow()
+    val state: StateFlow<BackupState> = combine(_state, clearData.running) { s, running -> s.copy(clearing = s.clearing.copy(running = running)) }
+        .stateIn(viewModelScope, SharingStarted.Eagerly, _state.value)
 
     init {
         viewModelScope.launch { refresh() }
@@ -155,9 +162,20 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
 
     fun messageSeen() = _state.update { it.copy(message = null) }
 
+    /** Removes everything the app keeps on the device except the settings and the backups; it runs once. */
+    fun clear() {
+        if (!_state.value.idle || _state.value.clearing.started) return
+        _state.update { it.copy(clearing = ClearDataUiState(started = true), message = null, error = null) }
+        viewModelScope.launch {
+            val problems = clearData.clearEverything()
+            _state.update { it.copy(clearing = it.clearing.copy(done = true, problems = problems)) }
+            refresh()
+        }
+    }
+
     /** Does [action] while showing [working]; a failure is shown by [failed] with what went wrong. */
     private fun run(working: String, failed: (String) -> String, action: suspend () -> String?) {
-        if (_state.value.working != null) return
+        if (!_state.value.idle) return
         _state.update { it.copy(working = working, message = null, error = null) }
         viewModelScope.launch {
             try {
@@ -191,9 +209,9 @@ class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
     }
 }
 
-/** The backups kept by the app: make one, import one, and restore, export or delete those in the history. */
+/** The Data page: make, import, restore, export or delete backups, and clear the data on this device at its foot. */
 @Composable
-fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, viewModel: BackupViewModel = koinViewModel()) {
+fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, onCleared: () -> Unit, viewModel: BackupViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
     // How an action went shows for a moment over the screen, not as a block in it.
@@ -206,7 +224,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     val picker = rememberFilePickerLauncher(type = FileKitType.File()) { file ->
         if (file != null) scope.launch { viewModel.import(file.readBytes()) }
     }
-    val idle = state.working == null
+    val idle = state.idle
     // A file dragged in from the desktop lands anywhere on the screen; the import card lights up meanwhile.
     var dropping by remember { mutableStateOf(false) }
     val dropTarget = Modifier.acceptsDroppedFiles(enabled = idle, onHover = { dropping = it }) { files ->
@@ -214,13 +232,13 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     }
     val compact = LocalWindowWidth.current.isCompact
     if (compact) {
-        PhoneBackupsScreen(state, idle, viewModel, onImport = { picker.launch() }, onRestore = { restoring = it }, onDelete = { deleting = it }, onNavigate = onNavigate, onBack = onBack)
+        PhoneBackupsScreen(state, idle, viewModel, onImport = { picker.launch() }, onRestore = { restoring = it }, onDelete = { deleting = it }, onCleared = onCleared, onNavigate = onNavigate, onBack = onBack)
     } else Scaffold(
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding, modifier = dropTarget) {
-            ScreenHeader(tr("Backups"), null, onBackToSettings = onBack)
+            ScreenHeader(tr("Data"), null, onBackToSettings = onBack)
             val create: @Composable (Modifier) -> Unit = { m ->
                 ActionCard(
                     tr("Create a backup"),
@@ -250,7 +268,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
             }
             Progress(state)
             HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it })
-            ClearDataCard(onNavigate, dense = false)
+            ClearDataBlock(state.clearing, backupEnabled = idle, onClear = viewModel::clear, onBackup = viewModel::create, onDone = onCleared)
         }
     }
 
@@ -334,21 +352,6 @@ private fun ActionCard(title: String, subtitle: String, icon: ImageVector, note:
                 Text(note, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
-    }
-}
-
-/** Clearing the data on this device, last on the page, after the backups that would bring it back. */
-@Composable
-internal fun ClearDataCard(onNavigate: (Route) -> Unit, dense: Boolean) {
-    ContentCard(tr("Data"), subtitle = null, icon = AppIcons.UploadFile, dense = dense) {
-        NavigationRow(
-            tr("Clear local data"),
-            onClick = { onNavigate(Route.ClearData) },
-            description = if (dense) null else tr("Remove your learning data and downloaded files from this device. Your preferences stay."),
-            icon = Icons.Default.Delete,
-            tint = MaterialTheme.colorScheme.error,
-            modifier = Modifier.testTag("settings-link-${Route.ClearData}"),
-        )
     }
 }
 

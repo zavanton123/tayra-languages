@@ -233,8 +233,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Μοντέλα για την ανάγνωση φωτογραφιών σελίδων, που λήφθηκαν όταν εισήχθη για πρώτη φορά φωτογραφία στη γλώσσα τους.",
     // LanguageSetupDialog.kt
-    // ClearDataScreen.kt
-    "Clear data" to "Διαγραφή δεδομένων",
+    // ClearDataBlock.kt
     "Clear local data" to "Διαγραφή τοπικών δεδομένων",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "Αφαιρέστε τα δεδομένα μελέτης και τα αρχεία που έχουν ληφθεί από αυτή τη συσκευή. Οι προτιμήσεις σας παραμένουν.",
     "Will be removed" to "Θα αφαιρεθούν",
@@ -264,7 +263,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Some things could not be removed" to "Ορισμένα στοιχεία δεν ήταν δυνατό να αφαιρεθούν",
     "The rest is gone. You can try again later from here or from their Settings pages." to "Τα υπόλοιπα αφαιρέθηκαν. Μπορείτε να δοκιμάσετε ξανά αργότερα από εδώ ή από τις αντίστοιχες σελίδες των Ρυθμίσεων.",
     "Clear all data" to "Διαγραφή όλων των δεδομένων",
-    "Continue to clear data" to "Συνέχεια στη διαγραφή",
     "Clear all data?" to "Διαγραφή όλων των δεδομένων;",
     "This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone." to "Θα αφαιρεθούν τα βιβλία και τα κείμενά σας, τα μαθήματα και οι ενότητές σας μαζί με την πρόοδό τους, οι λέξεις και οι κάρτες σας, καθώς και τα λεξικά, οι φωνές και τα μοντέλα μετάφρασης που έχουν ληφθεί. Οι ρυθμίσεις και τα αντίγραφα ασφαλείας παραμένουν. Η ενέργεια δεν αναιρείται.",
     "Could not remove: {0}" to "Δεν ήταν δυνατή η αφαίρεση: {0}",

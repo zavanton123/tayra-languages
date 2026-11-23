@@ -104,7 +104,7 @@ class SettingsScreenTest {
 
     /**
      * A phone's settings end with the pages the More sheet does not list, in the plan's groups, each
-     * with its current value where it has one; clearing the data is in Data, not a first-level choice.
+     * with its current value where it has one.
      */
     @Test
     fun aPhoneIndexesTheSettingsMoreLeavesOut() = runDesktopComposeUiTest(width = 400, height = 2600) {
@@ -122,7 +122,6 @@ class SettingsScreenTest {
         onNodeWithText("Offline resources").assertDoesNotExist()
         for (route in listOf(Route.Speech, Route.Languages, Route.Backups, Route.About, Route.Shortcuts)) onNodeWithTag("settings-link-$route").assertDoesNotExist()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone-index.png")) }
-        onNodeWithTag("settings-link-${Route.ClearData}").assertDoesNotExist()
     }
 
     /** The theme list shows each theme with its colours; a theme that was removed opens as the one standing in for it. */

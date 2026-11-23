@@ -233,8 +233,7 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Modèles de lecture des photos de pages, téléchargés lors du premier import d’une photo dans leur langue.",
     // LanguageSetupDialog.kt
-    // ClearDataScreen.kt
-    "Clear data" to "Effacer les données",
+    // ClearDataBlock.kt
     "Clear local data" to "Effacer les données locales",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "Supprimez vos données d’apprentissage et les fichiers téléchargés de cet appareil. Vos préférences sont conservées.",
     "Will be removed" to "Sera supprimé",
@@ -264,7 +263,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Some things could not be removed" to "Certains éléments n’ont pas pu être supprimés",
     "The rest is gone. You can try again later from here or from their Settings pages." to "Le reste a été supprimé. Vous pourrez réessayer plus tard ici ou depuis leurs pages de paramètres.",
     "Clear all data" to "Effacer toutes les données",
-    "Continue to clear data" to "Continuer vers l’effacement",
     "Clear all data?" to "Effacer toutes les données ?",
     "This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone." to "Cela supprime vos livres et textes, vos cours et leçons avec leur progression, vos mots et vos cartes, ainsi que les dictionnaires, voix et modèles de traduction téléchargés. Les paramètres et les sauvegardes sont conservés. Cette action est irréversible.",
     "Could not remove: {0}" to "Impossible de supprimer : {0}",

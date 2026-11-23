@@ -60,8 +60,8 @@ import com.idiomiko.core.ui.theme.AppText
 import com.idiomiko.core.ui.components.Reveal
 
 /**
- * The Backups page on a phone: one card with the two actions, the history as a plain list with a
- * menu per backup, and what a backup holds folded away under a row. The dialogs stay with the screen.
+ * The Data page on a phone: one card with the two backup actions, the history as a plain list with a
+ * menu per backup, then clearing the data on this device. The dialogs stay with the screen.
  */
 @Composable
 internal fun PhoneBackupsScreen(
@@ -71,13 +71,14 @@ internal fun PhoneBackupsScreen(
     onImport: () -> Unit,
     onRestore: (Backup) -> Unit,
     onDelete: (Backup) -> Unit,
+    onCleared: () -> Unit,
     onNavigate: (Route) -> Unit,
     onBack: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
     Scaffold(
         topBar = {
-            AppTopBar(title = tr("Backups"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS)
+            AppTopBar(title = tr("Data"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS)
         },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
@@ -106,7 +107,7 @@ internal fun PhoneBackupsScreen(
                 PhoneBackupRow(backup, latest = i == 0, enabled = idle, onRestore = { onRestore(backup) }, onExport = { viewModel.export(backup) }, onDelete = { onDelete(backup) })
             }
             MoreBackups(state.backups, more) { more = !more }
-            ClearDataCard(onNavigate, dense = true)
+            PhoneClearDataBlock(state.clearing, backupEnabled = idle, onClear = viewModel::clear, onBackup = viewModel::create, onDone = onCleared)
         }
     }
 }

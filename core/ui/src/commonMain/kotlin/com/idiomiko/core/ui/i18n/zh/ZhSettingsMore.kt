@@ -233,8 +233,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "用于识别书页照片的模型，在首次导入相应语言的照片时下载。",
     // LanguageSetupDialog.kt
-    // ClearDataScreen.kt
-    "Clear data" to "清除数据",
+    // ClearDataBlock.kt
     "Clear local data" to "清除本地数据",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "从本设备删除你的学习数据和已下载的文件。偏好设置会保留。",
     "Will be removed" to "将被删除",
@@ -264,7 +263,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Some things could not be removed" to "部分内容无法删除",
     "The rest is gone. You can try again later from here or from their Settings pages." to "其余内容已删除。你可以稍后在这里或相应的设置页面中重试。",
     "Clear all data" to "清除所有数据",
-    "Continue to clear data" to "继续清除数据",
     "Clear all data?" to "清除所有数据？",
     "This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone." to "这将删除你的书籍和文本、课程和课文及其进度、单词和闪卡，以及已下载的词典、语音和翻译模型。设置和备份会保留。此操作无法撤销。",
     "Could not remove: {0}" to "无法删除：{0}",

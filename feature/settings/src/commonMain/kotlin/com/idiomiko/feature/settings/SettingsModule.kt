@@ -20,7 +20,7 @@ val settingsModule = module {
     viewModel { DictionaryImportViewModel(get()) }
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
-    viewModel { BackupViewModel(get()) }
+    viewModel { BackupViewModel(get(), get()) }
     viewModel {
         AccountViewModel(
             get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>(),
@@ -29,7 +29,6 @@ val settingsModule = module {
     }
     viewModel { SyncPromptViewModel(get(), get()) }
     viewModel { AccountBadgeViewModel(get()) }
-    viewModel { ClearDataViewModel(get()) }
 }
 
 fun NavGraphBuilder.settingsGraph(navController: NavController) {
@@ -39,20 +38,14 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }, personal = koinViewModel(), retention = koinViewModel()) }
     composable<Route.OfflineTranslation> { OfflineTranslationScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
-    composable<Route.ClearData> {
-        ClearDataScreen(
-            onNavigate = navigate,
-            onBack = { navController.popBackStack() },
-            // Screens opened before the clearing show data that is gone, so the app starts over from the courses.
-            onCleared = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
-        )
-    }
     composable<Route.Backups> {
         BackupScreen(
             onNavigate = navigate,
             onBack = { navController.popBackStack() },
             // Screens opened before the restore show data that is gone, so the app starts over from the books.
             onRestored = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
+            // The same after clearing the data, once its result was seen.
+            onCleared = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
         )
     }
     composable<Route.Account> {

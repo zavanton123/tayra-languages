@@ -233,8 +233,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Модели для распознавания фото страниц; загружаются, когда впервые импортируется фото на их языке.",
     // LanguageSetupDialog.kt
-    // ClearDataScreen.kt
-    "Clear data" to "Очистить данные",
+    // ClearDataBlock.kt
     "Clear local data" to "Очистить данные на устройстве",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "Удалите учебные данные и скачанные файлы с этого устройства. Настройки останутся.",
     "Will be removed" to "Будет удалено",
@@ -264,7 +263,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Some things could not be removed" to "Кое-что удалить не удалось",
     "The rest is gone. You can try again later from here or from their Settings pages." to "Остальное удалено. Попробуйте позже здесь или на соответствующих страницах настроек.",
     "Clear all data" to "Удалить все данные",
-    "Continue to clear data" to "Перейти к удалению",
     "Clear all data?" to "Удалить все данные?",
     "This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone." to "Будут удалены ваши книги и тексты, ваши курсы и уроки вместе с прогрессом, слова и карточки, а также скачанные словари, голоса и модели перевода. Настройки и резервные копии останутся. Это нельзя отменить.",
     "Could not remove: {0}" to "Не удалось удалить: {0}",
