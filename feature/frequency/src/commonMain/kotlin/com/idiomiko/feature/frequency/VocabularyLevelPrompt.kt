@@ -1,27 +1,17 @@
 package com.idiomiko.feature.frequency
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.selection.selectable
-import androidx.compose.foundation.selection.selectableGroup
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -30,14 +20,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.text.buildAnnotatedString
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.text.withStyle
-import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.frequency.LevelEdge
@@ -57,19 +41,14 @@ import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.rememberToastState
 import com.idiomiko.core.ui.i18n.LanguageCase
-import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
-import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.state.CollectEvents
-import com.idiomiko.core.ui.theme.AppAccents
 import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
-import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import com.idiomiko.core.ui.theme.tint
 import org.koin.compose.viewmodel.koinViewModel
 
 /**
@@ -129,10 +108,7 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
             Spacer(Modifier.height(AppSpacing.s))
             PromptSubtitle()
             Spacer(Modifier.height(AppSpacing.xl))
-            // One level to a row, so each name has the sheet's width.
-            Column(Modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                state.edges.forEach { edge -> LevelCard(edge, edge == chosen, { onPick(edge.words) }, Modifier.fillMaxWidth(), compact = true) }
-            }
+            LevelPicker(state.edges, chosen, onPick, compact = true)
             Spacer(Modifier.height(AppSpacing.l))
             ChosenLevelStrip(chosen)
             Spacer(Modifier.height(AppSpacing.l))
@@ -161,19 +137,7 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
                 Text(tr("Choose your level"), style = AppText.sectionTitle)
-                // One row of cards where they fit at a readable width, else two rows.
-                BoxWithConstraints {
-                    val gap = AppSpacing.m
-                    val perRow = if (fitsOneRow(maxWidth, state.edges.size, gap)) state.edges.size else (state.edges.size + 1) / 2
-                    Column(Modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(gap)) {
-                        state.edges.chunked(perRow).forEach { row ->
-                            Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(gap)) {
-                                row.forEach { edge -> LevelCard(edge, edge == chosen, { onPick(edge.words) }, Modifier.weight(1f).fillMaxHeight()) }
-                                repeat(perRow - row.size) { Spacer(Modifier.weight(1f)) }
-                            }
-                        }
-                    }
-                }
+                LevelPicker(state.edges, chosen, onPick, compact = false)
                 ChosenLevelStrip(chosen)
             }
         }
@@ -182,8 +146,6 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
     }
 }
 
-private fun fitsOneRow(width: Dp, cards: Int, gap: Dp) = width >= CARD_MIN_WIDTH * cards + gap * (cards - 1)
-
 /** What the level is for, and where it can be changed. */
 @Composable
 private fun PromptSubtitle() {
@@ -191,103 +153,6 @@ private fun PromptSubtitle() {
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
         Text(tr("Choose the level that feels closest. We'll use it to personalize your courses and vocabulary."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
         Text(tr("You can change this later in Settings → Vocabulary."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = AppAlpha.muted))
-    }
-}
-
-/** The level's short name: its code, or Starter. */
-@Composable
-private fun LevelEdge.code(): String = level?.code ?: tr("Starter")
-
-@Composable
-private fun LevelEdge.name(): String = level?.let { tr(it.label) } ?: tr("I'm just beginning")
-
-/** The level's colour, as the courses show it; Starter has the theme's. */
-@Composable
-private fun LevelEdge.color(): Color = level?.tint ?: MaterialTheme.colorScheme.primary
-
-/**
- * A level to choose: its badge, its code and its name, stacked, or in a row when [compact]. The chosen
- * one has a ring, a wash and a check, in its corner or at the row's end.
- */
-@Composable
-private fun LevelCard(edge: LevelEdge, selected: Boolean, onClick: () -> Unit, modifier: Modifier, compact: Boolean = false) {
-    val colors = MaterialTheme.colorScheme
-    val shape = AppShapes.card
-    Box(
-        modifier.clip(shape)
-            .border(if (selected) AppBorders.chosen() else AppBorders.hairline(), shape)
-            .background(if (selected) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
-            .selectable(selected = selected, role = Role.RadioButton, onClick = onClick)
-            .testTag("level-card-${edge.level?.code ?: "Starter"}"),
-    ) {
-        if (compact) {
-            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.m, vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                LevelBadge(edge, AppSizes.tileLarge)
-                Column(Modifier.weight(1f)) {
-                    Text(edge.code(), style = AppText.itemTitleBold, maxLines = 1)
-                    Text(edge.name(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                }
-                if (selected) ChosenCheck()
-            }
-        } else {
-            Column(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.l), horizontalAlignment = Alignment.CenterHorizontally) {
-                LevelBadge(edge, AppSizes.tileXLarge)
-                Spacer(Modifier.height(AppSpacing.m))
-                Text(edge.code(), style = AppText.itemTitleBold, maxLines = 1)
-                Text(edge.name(), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.Center, minLines = 2)
-            }
-            if (selected) ChosenCheck(Modifier.align(Alignment.TopEnd).padding(AppSpacing.s))
-        }
-    }
-}
-
-/** The small filled check on the chosen card. */
-@Composable
-private fun ChosenCheck(modifier: Modifier = Modifier) {
-    val colors = MaterialTheme.colorScheme
-    Box(modifier.size(AppSizes.icon).clip(AppShapes.circle).background(colors.primary), contentAlignment = Alignment.Center) {
-        Icon(Icons.Default.Check, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconTiny))
-    }
-}
-
-/** The level's code on a rounded square of its colour; Starter's reads Starter, smaller on a smaller badge. */
-@Composable
-private fun LevelBadge(edge: LevelEdge, size: Dp) {
-    val starter = edge.level == null
-    val starterStyle = if (size < AppSizes.tileXLarge) AppText.badgeBold.copy(fontSize = MaterialTheme.typography.labelSmall.fontSize) else AppText.badgeBold
-    Box(Modifier.size(size).clip(AppShapes.card).background(edge.color()), contentAlignment = Alignment.Center) {
-        Text(
-            edge.code(),
-            style = if (starter) starterStyle else AppText.sectionTitle,
-            color = if (starter) MaterialTheme.colorScheme.onPrimary else AppAccents.onAccent,
-            maxLines = 1,
-            overflow = TextOverflow.Clip,
-        )
-    }
-}
-
-/** What choosing [edge] does: which of the most common words start as known. */
-@Composable
-private fun ChosenLevelStrip(edge: LevelEdge) {
-    val colors = MaterialTheme.colorScheme
-    val what = if (edge.words == 0) tr("We'll begin with the basics and mark no words as already known.")
-    else trPlural(edge.words, "We'll mark the {1} most common word as known.", "We'll mark the {1} most common words as known.", formatCount(edge.words))
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("chosen-level"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-    ) {
-        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
-        val selected = tr("{0} level selected", edge.code())
-        Text(
-            buildAnnotatedString {
-                withStyle(AppText.labelBold.toSpanStyle()) { append(selected) }
-                append("  ")
-                append(what)
-            },
-            style = MaterialTheme.typography.bodyMedium,
-            color = colors.onSurface,
-        )
     }
 }
 
@@ -314,7 +179,5 @@ private fun PromptButtons(state: VocabularySettingsUiState, chosen: LevelEdge, o
     }
 }
 
-/** The narrowest a level card gets in one row before the cards take two rows: "Intermediate" on one line. */
-private val CARD_MIN_WIDTH = 120.dp
 private val DIALOG_WIDTH = 1080.dp
 private val LOADING_HEIGHT = 240.dp
