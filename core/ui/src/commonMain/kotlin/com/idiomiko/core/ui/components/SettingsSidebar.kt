@@ -57,6 +57,7 @@ enum class SettingsSection(val label: String, val route: Route, val icon: ImageV
     SPEECH("Speech", Route.Speech, AppIcons.VolumeUp),
     TRANSLATION("Translation", Route.OfflineTranslation, AppIcons.Translate),
     BACKUPS("Backups", Route.Backups, AppIcons.UploadFile),
+    CLEAR_DATA("Clear data", Route.ClearData, AppIcons.DeleteOutline),
     ABOUT("About", Route.About, Icons.Default.Info),
     EXPERIMENTS("Experiments", Route.ExperimentalFeatures, AppIcons.Lightbulb),
 }

@@ -218,7 +218,7 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
 
 /** The pages the phone's More sheet lists, which a phone's settings index leaves out. */
 private val ON_MORE_SHEET = setOf<Route>(
-    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.Speech, Route.OfflineTranslation, Route.Backups, Route.Account,
+    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.Speech, Route.OfflineTranslation, Route.Backups, Route.ClearData, Route.Account,
 )
 
 

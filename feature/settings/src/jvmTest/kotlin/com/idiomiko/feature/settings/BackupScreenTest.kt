@@ -3,6 +3,8 @@ package com.idiomiko.feature.settings
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsNotSelected
+import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.hasText
@@ -37,7 +39,7 @@ import kotlin.time.Clock
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
 
-/** The Backups screen makes, lists, restores and deletes backups, and clears the data on this device. */
+/** The Backups screen makes, lists, restores and deletes backups. */
 @OptIn(ExperimentalTestApi::class)
 class BackupScreenTest {
 
@@ -57,8 +59,8 @@ class BackupScreenTest {
         }
         val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("idiomiko-backup-screen").toFile()), Ticking(), timeZone = { TimeZone.UTC })
         var restored = false
-        val viewModel = BackupViewModel(repository, clearDataService(provider, settings))
-        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = { restored = true }, onCleared = {}, viewModel = viewModel) } }
+        val viewModel = BackupViewModel(repository)
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = { restored = true }, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Create a backup to keep a copy of your data.")).fetchSemanticsNodes().isNotEmpty() }
         onAllNodes(hasText("Create backup") and hasClickAction()).onLast().performClick()
@@ -93,8 +95,8 @@ class BackupScreenTest {
         val settings = SettingsRepositoryImpl(MapSettings())
         val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("idiomiko-backup-more").toFile()), Ticking(), timeZone = { TimeZone.UTC })
         runBlocking { repeat(7) { repository.create() } }
-        val viewModel = BackupViewModel(repository, clearDataService(provider, settings))
-        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, onCleared = {}, viewModel = viewModel) } }
+        val viewModel = BackupViewModel(repository)
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:30:00")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Oct 3, 2026, 12:20:00").assertExists()
@@ -119,8 +121,8 @@ class BackupScreenTest {
         // A file exported earlier: made here, then forgotten by the device.
         val exported = runBlocking { repository.create().let { backup -> repository.read(backup.name).also { repository.delete(backup.name) } } }
         runBlocking { books.deleteBook(book) }
-        val viewModel = BackupViewModel(repository, clearDataService(provider, settings))
-        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, onCleared = {}, viewModel = viewModel) } }
+        val viewModel = BackupViewModel(repository)
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Create a backup to keep a copy of your data.")).fetchSemanticsNodes().isNotEmpty() }
 
         // Declining keeps the file in the list and the data as it is.
@@ -146,8 +148,8 @@ class BackupScreenTest {
         val settings = SettingsRepositoryImpl(MapSettings())
         runBlocking { LanguageRepositoryImpl(provider).save(Language(name = "Portuguese")) }
         val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("idiomiko-backup-phone").toFile()), Ticking(), timeZone = { TimeZone.UTC })
-        val viewModel = BackupViewModel(repository, clearDataService(provider, settings))
-        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, onCleared = {}, viewModel = viewModel) } }
+        val viewModel = BackupViewModel(repository)
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
 
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Protect your data")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Create a backup").assertDoesNotExist()
@@ -166,51 +168,32 @@ class BackupScreenTest {
         onNodeWithText("Create a backup to keep a copy of your data.").assertExists()
     }
 
-    /** Clearing the data is at the foot of the Backups page: confirmed, reported in place, and the backups stay listed. */
+    /** The Backups page, beside the settings sidebar with Backups lit, ends with the history: clearing the data has its own page. */
     @Test
-    fun clearingTheDataAtTheFootOfThePageKeepsTheBackups() = runDesktopComposeUiTest(width = 1586, height = 2200) {
-        clearsAndKeepsTheBackups("idiomiko-data-clear", time = "Oct 3, 2026, 12:00:00", screenshot = "")
+    fun theBackupsPageEndsWithTheHistory() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        showsNoClearing("idiomiko-backups-page", time = "Oct 3, 2026, 12:00:00", screenshot = "")
+        onNodeWithTag("settings-section-BACKUPS").assertIsSelected()
+        onNodeWithTag("settings-section-CLEAR_DATA").assertIsNotSelected()
     }
 
-    /** A phone stacks the same block under the history. */
     @Test
-    fun aPhoneClearsTheDataBelowTheHistory() = runDesktopComposeUiTest(width = 400, height = 2600) {
-        clearsAndKeepsTheBackups("idiomiko-data-clear-phone", time = "Oct 3, 2026, 12:00", screenshot = "-phone")
+    fun aPhonesBackupsPageEndsWithTheHistory() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        showsNoClearing("idiomiko-backups-page-phone", time = "Oct 3, 2026, 12:00", screenshot = "-phone")
     }
 
-    private fun ComposeUiTest.clearsAndKeepsTheBackups(name: String, time: String, screenshot: String) {
+    private fun ComposeUiTest.showsNoClearing(name: String, time: String, screenshot: String) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile(name, ".db").also { it.delete() }))
-        val languages = LanguageRepositoryImpl(provider)
-        val books = BookRepositoryImpl(provider)
         val settings = SettingsRepositoryImpl(MapSettings())
-        runBlocking {
-            val language = languages.save(Language(name = "Portuguese"))
-            BookService(books, languages).create(BookDraft(languageId = language, title = "O lobo", text = "O lobo dorme."))
-        }
         val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory(name).toFile()), Ticking(), timeZone = { TimeZone.UTC })
         runBlocking { repository.create() }
-        var cleared = 0
-        // Made once: clearing changes the settings, which recomposes the host.
-        val viewModel = BackupViewModel(repository, clearDataService(provider, settings))
-        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, onCleared = { cleared++ }, viewModel = viewModel) } }
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = BackupViewModel(repository)) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText(time)).fetchSemanticsNodes().isNotEmpty() }
         // The page's title, apart from the settings sidebar's row of the same name.
         onNode(hasText("Backups") and !hasTestTag("settings-section-BACKUPS")).assertExists()
-        onNodeWithText("Will be removed").assertExists()
-        onNodeWithText("Will remain").assertExists()
-        System.getenv("DATA_SCREENSHOT")?.let { save(it.replace(".png", "$screenshot.png")) }
-
-        onNodeWithTag("clear-all").performScrollTo().performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Clear all data?")).fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Clear everything").performClick()
-        waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Everything was cleared")).fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(emptyList(), runBlocking { books.getBooks() })
-        onNodeWithText(time).assertExists()
-        onNodeWithText("Create a backup to keep a copy of your data.").assertDoesNotExist()
-        System.getenv("DATA_SCREENSHOT")?.let { save(it.replace(".png", "$screenshot-cleared.png")) }
-
-        onNodeWithTag("clear-done").performScrollTo().performClick()
-        assertEquals(1, cleared)
+        onNodeWithText("Data").assertDoesNotExist()
+        for (gone in listOf("Clear local data", "Will be removed", "This action is permanent")) onNodeWithText(gone).assertDoesNotExist()
+        onNodeWithTag("clear-all").assertDoesNotExist()
+        System.getenv("BACKUP_SCREENSHOT")?.let { save(it.replace(".png", "$screenshot-page.png")) }
     }
 
     private fun ComposeUiTest.save(path: String) {

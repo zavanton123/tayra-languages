@@ -233,7 +233,8 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "用于识别书页照片的模型，在首次导入相应语言的照片时下载。",
     // LanguageSetupDialog.kt
-    // ClearDataBlock.kt
+    // ClearDataScreen.kt
+    "Clear data" to "清除数据",
     "Clear local data" to "清除本地数据",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "从本设备删除你的学习数据和已下载的文件。偏好设置会保留。",
     "Will be removed" to "将被删除",

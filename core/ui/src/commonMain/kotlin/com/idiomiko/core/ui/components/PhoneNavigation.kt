@@ -150,7 +150,8 @@ private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 /**
  * The More sheet's destinations, in groups: the videos when they are on, the words and how they go,
  * what is downloaded for use offline, and the preferences and data. The settings pages of a single
- * feature and clearing the data are found from Settings, which indexes them.
+ * feature are found from Settings, which indexes them; clearing the data is listed here, since a
+ * phone has no settings sidebar to reach it from.
  */
 private fun moreGroups(videos: Boolean) = listOfNotNull(
     // What there is to read is under Read, the playlists have a tab.
@@ -178,6 +179,7 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
             MoreEntry("Settings", Icons.Default.Settings, Route.Settings),
             MoreEntry("Languages", AppIcons.Globe, Route.Languages),
             MoreEntry("Backups", AppIcons.UploadFile, Route.Backups),
+            MoreEntry("Clear data", AppIcons.DeleteOutline, Route.ClearData),
             MoreEntry("About", Icons.Default.Info, Route.About),
             MoreEntry("Experiments", AppIcons.Lightbulb, Route.ExperimentalFeatures),
         ),

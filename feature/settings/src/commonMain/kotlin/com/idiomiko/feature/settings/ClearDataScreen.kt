@@ -16,8 +16,10 @@ import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -25,31 +27,54 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import androidx.lifecycle.viewModelScope
+import co.touchlab.kermit.Logger
+import com.idiomiko.core.domain.backup.BackupException
+import com.idiomiko.core.domain.backup.BackupRepository
+import com.idiomiko.core.domain.service.ClearDataService
 import com.idiomiko.core.domain.service.ClearStep
-import com.idiomiko.core.ui.components.AppCard
+import com.idiomiko.core.ui.components.APP_NAME
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppSpinner
+import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.AppVerticalDivider
-import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.CardHeader
 import com.idiomiko.core.ui.components.CardHeaderSize
 import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.Notice
+import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.PrimaryButton
+import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.SecondaryButton
-import com.idiomiko.core.ui.components.SectionHeader
+import com.idiomiko.core.ui.components.SettingsPane
+import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.StatusTints
+import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.cardSurface
+import com.idiomiko.core.ui.components.rememberToastState
 import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import org.koin.compose.viewmodel.koinViewModel
 
 data class ClearDataUiState(
     /** Whether the clearing was started; it cannot be started twice. */
@@ -58,11 +83,74 @@ data class ClearDataUiState(
     val done: Boolean = false,
     /** The steps that failed, with why. */
     val problems: Map<ClearStep, String> = emptyMap(),
-) {
-    val inProgress: Boolean get() = started && !done
+    /** Whether the backup the reminder offers is being made; clearing waits for it. */
+    val backingUp: Boolean = false,
+    /** How that backup went, shown for a moment over the page. */
+    val message: String? = null,
+)
+
+class ClearDataViewModel(private val service: ClearDataService, private val backups: BackupRepository) : ViewModel() {
+    private val _state = MutableStateFlow(ClearDataUiState())
+    val state: StateFlow<ClearDataUiState> = combine(_state, service.running) { s, running -> s.copy(running = running) }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), ClearDataUiState())
+
+    /** Makes a backup before clearing, as the reminder suggests. */
+    fun backup() {
+        if (_state.value.started || _state.value.backingUp) return
+        _state.update { it.copy(backingUp = true, message = null) }
+        viewModelScope.launch {
+            val message = try {
+                tr("Backup of {0} created", formatBackupTime(backups.create()))
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: BackupException) {
+                // The repository's messages are fixed texts, translated like the screen's own.
+                e.message?.let(::tr)
+            } catch (e: Exception) {
+                Logger.w(e) { "Could not back up before clearing" }
+                tr("Could not create the backup: {0}", e.message ?: e::class.simpleName.orEmpty())
+            }
+            _state.update { it.copy(backingUp = false, message = message) }
+        }
+    }
+
+    fun messageSeen() = _state.update { it.copy(message = null) }
+
+    /** Removes everything the app keeps on the device except the settings and the backups; it runs once. */
+    fun clear() {
+        if (_state.value.started || _state.value.backingUp) return
+        _state.update { it.copy(started = true, message = null) }
+        viewModelScope.launch {
+            val problems = service.clearEverything()
+            _state.update { it.copy(done = true, problems = problems) }
+        }
+    }
 }
 
-/** The three things the block talks about, each standing for the steps behind it. */
+/** Settings: one button that removes everything the app keeps on the device, after a confirmation. */
+@Composable
+fun ClearDataScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onCleared: () -> Unit, viewModel: ClearDataViewModel = koinViewModel()) {
+    val state by viewModel.state.collectAsStateWithLifecycle()
+    val toast = rememberToastState()
+    LaunchedEffect(state.message) {
+        state.message?.let { toast.show(it); viewModel.messageSeen() }
+    }
+    if (LocalWindowWidth.current.isCompact) {
+        PhoneClearDataScreen(state, onClear = viewModel::clear, onBackup = viewModel::backup, onDone = onCleared, onNavigate = onNavigate, onBack = onBack)
+    } else Scaffold(
+        topBar = { AppTopBar(title = APP_NAME, onNavigate = onNavigate, section = NavSection.SETTINGS) },
+        containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+    ) { padding ->
+        SettingsPane(SettingsSection.CLEAR_DATA, padding, onNavigate) { inner ->
+            PageColumn(inner) {
+                ClearDataContent(state, onClear = viewModel::clear, onBackup = viewModel::backup, onDone = onCleared, onBack = onBack)
+            }
+        }
+    }
+    ToastHost(toast)
+}
+
+/** The three things the page talks about, each standing for the steps behind it. */
 internal enum class ClearGroup(val steps: List<ClearStep>) {
     LEARNING(listOf(ClearStep.LIBRARY)),
     OFFLINE(listOf(ClearStep.COURSE_PACKS, ClearStep.DICTIONARIES, ClearStep.VOICES, ClearStep.TRANSLATION_MODELS)),
@@ -70,96 +158,40 @@ internal enum class ClearGroup(val steps: List<ClearStep>) {
 }
 
 /**
- * The foot of the Data page: what clearing removes beside what it leaves, the reminder to back up
- * first, and the permanent-action notice with the one button that clears everything after a confirmation.
+ * The page below the bar: what clearing removes beside what it leaves, the reminder to back up first, and the
+ * permanent-action notice with Cancel, which goes back, and the one button that clears everything after a confirmation.
  */
 @Composable
-internal fun ClearDataBlock(state: ClearDataUiState, backupEnabled: Boolean, onClear: () -> Unit, onBackup: () -> Unit, onDone: () -> Unit) {
+internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBackup: () -> Unit, onDone: () -> Unit, onBack: () -> Unit) {
     val wide = LocalWindowWidth.current.isExpanded
     var confirming by remember { mutableStateOf(false) }
 
-    SectionHeader(tr("Clear local data"), subtitle = tr("Remove your learning data and downloaded files from this device. Your preferences stay."))
+    ScreenHeader(tr("Clear local data"), tr("Remove your learning data and downloaded files from this device. Your preferences stay."), onBackToSettings = onBack)
     Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxl)) {
         if (wide) {
             Row(Modifier.height(IntrinsicSize.Min)) {
                 RemovedColumn(state, Modifier.weight(1f).padding(end = AppSpacing.xxl))
                 AppVerticalDivider()
-                RemainsColumn(onBackup, enabled = backupEnabled && !state.started, Modifier.weight(1f).padding(start = AppSpacing.xxl))
+                RemainsColumn(state, onBackup, Modifier.weight(1f).padding(start = AppSpacing.xxl))
             }
         } else {
             RemovedColumn(state, Modifier.fillMaxWidth())
             AppDivider(Modifier.padding(vertical = AppSpacing.xl))
-            RemainsColumn(onBackup, enabled = backupEnabled && !state.started, Modifier.fillMaxWidth())
+            RemainsColumn(state, onBackup, Modifier.fillMaxWidth())
         }
     }
-    ClearStatusNotice(state) {
-        if (state.done) {
-            PrimaryButton(onClick = onDone, modifier = Modifier.testTag("clear-done")) { Text(tr("Done")) }
-        } else {
-            PrimaryButton(
-                if (state.started) tr("Clearing…") else tr("Clear all data"),
-                onClick = { confirming = true },
-                modifier = Modifier.testTag("clear-all"),
-                icon = AppIcons.RemoveCircle,
-                enabled = !state.started,
-                loading = state.started,
-                tone = ButtonTone.Danger,
-            )
-        }
+
+    val buttons: @Composable () -> Unit = { ActionButtons(state, onCancel = onBack, onClear = { confirming = true }, onDone = onDone) }
+    ClearStatusNotice(state, action = if (wide) ({ Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) { buttons() } }) else null)
+    if (!wide) {
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.End)) { buttons() }
     }
 
     if (confirming) ClearConfirmDialog(onConfirm = { confirming = false; onClear() }, onDismiss = { confirming = false })
 }
 
-/** The same block on a phone, stacked: what goes, what stays, the backup reminder and the permanent-action notice, each with a full-width button. */
 @Composable
-internal fun PhoneClearDataBlock(state: ClearDataUiState, backupEnabled: Boolean, onClear: () -> Unit, onBackup: () -> Unit, onDone: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    var confirming by remember { mutableStateOf(false) }
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-        Text(tr("Clear local data"), style = AppText.headline)
-        Text(tr("Remove your learning data and downloaded files from this device. Your preferences stay."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-    }
-    AppCard {
-        CardHeader(tr("Will be removed"), tr("Everything you added, learned or downloaded."), icon = AppIcons.RemoveCircle, tint = colors.error, size = CardHeaderSize.Dense)
-        AppDivider(Modifier.padding(vertical = AppSpacing.l))
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) { ClearGroup.entries.forEach { GroupRow(it, state) } }
-    }
-    AppCard {
-        CardHeader(tr("Will remain"), tr("Your app setup is not affected."), icon = AppIcons.VerifiedUser, size = CardHeaderSize.Dense)
-        AppDivider(Modifier.padding(vertical = AppSpacing.l))
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) { RemainingItems() }
-    }
-    BackupNotice {
-        SecondaryButton(
-            tr("Create backup"),
-            onClick = onBackup,
-            modifier = Modifier.fillMaxWidth().testTag("clear-backup"),
-            enabled = backupEnabled && !state.started,
-            size = ButtonSize.Large,
-        )
-    }
-    ClearStatusNotice(state) {
-        if (state.done) {
-            PrimaryButton(tr("Done"), onClick = onDone, modifier = Modifier.fillMaxWidth().testTag("clear-done"), size = ButtonSize.Large)
-        } else {
-            PrimaryButton(
-                if (state.started) tr("Clearing…") else tr("Clear all data"),
-                onClick = { confirming = true },
-                modifier = Modifier.fillMaxWidth().testTag("clear-all"),
-                icon = AppIcons.RemoveCircle,
-                enabled = !state.started,
-                loading = state.started,
-                tone = ButtonTone.Danger,
-                size = ButtonSize.Large,
-            )
-        }
-    }
-    if (confirming) ClearConfirmDialog(onConfirm = { confirming = false; onClear() }, onDismiss = { confirming = false })
-}
-
-@Composable
-private fun ClearConfirmDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
+internal fun ClearConfirmDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
     ConfirmDialog(
         title = tr("Clear all data?"),
         text = tr("This removes your books and texts, your courses and lessons with their progress, your words and flashcards, and the downloaded dictionaries, voices and translation models. Settings and backups stay. This cannot be undone."),
@@ -172,7 +204,7 @@ private fun ClearConfirmDialog(onConfirm: () -> Unit, onDismiss: () -> Unit) {
 
 /** The permanent-action notice: a warning before, what happened after. */
 @Composable
-private fun ClearStatusNotice(state: ClearDataUiState, action: @Composable () -> Unit) {
+internal fun ClearStatusNotice(state: ClearDataUiState, action: (@Composable () -> Unit)?) {
     val cleared = state.done && state.problems.isEmpty()
     Notice(
         clearStatusTitle(state),
@@ -200,6 +232,24 @@ private fun clearStatusText(state: ClearDataUiState): String = when {
 }
 
 @Composable
+private fun ActionButtons(state: ClearDataUiState, onCancel: () -> Unit, onClear: () -> Unit, onDone: () -> Unit) {
+    if (state.done) {
+        PrimaryButton(onClick = onDone, modifier = Modifier.testTag("clear-done")) { Text(tr("Done")) }
+        return
+    }
+    SecondaryButton(onClick = onCancel, enabled = !state.started, modifier = Modifier.testTag("clear-cancel")) { Text(tr("Cancel")) }
+    PrimaryButton(
+        if (state.started) tr("Clearing…") else tr("Clear all data"),
+        onClick = onClear,
+        modifier = Modifier.testTag("clear-all"),
+        icon = AppIcons.RemoveCircle,
+        enabled = !state.started && !state.backingUp,
+        loading = state.started,
+        tone = ButtonTone.Danger,
+    )
+}
+
+@Composable
 private fun RemovedColumn(state: ClearDataUiState, modifier: Modifier) {
     val colors = MaterialTheme.colorScheme
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -209,7 +259,7 @@ private fun RemovedColumn(state: ClearDataUiState, modifier: Modifier) {
 }
 
 @Composable
-private fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
+internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
     val colors = MaterialTheme.colorScheme
     val problems = group.steps.mapNotNull { state.problems[it] }
     val running = state.running != null && state.running in group.steps
@@ -256,20 +306,20 @@ private fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
 }
 
 @Composable
-private fun RemainsColumn(onBackup: () -> Unit, enabled: Boolean, modifier: Modifier) {
+private fun RemainsColumn(state: ClearDataUiState, onBackup: () -> Unit, modifier: Modifier) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
         CardHeader(tr("Will remain"), tr("Your app setup is not affected."), icon = AppIcons.VerifiedUser, size = CardHeaderSize.Large)
         RemainingItems()
         Spacer(Modifier.weight(1f, fill = false))
         BackupNotice {
-            SecondaryButton(onClick = onBackup, enabled = enabled, modifier = Modifier.testTag("clear-backup")) { Text(tr("Create backup")) }
+            SecondaryButton(tr("Create backup"), onClick = onBackup, modifier = Modifier.testTag("clear-backup"), enabled = !state.started, loading = state.backingUp)
         }
     }
 }
 
 /** What clearing leaves alone, a row each. */
 @Composable
-private fun RemainingItems() {
+internal fun RemainingItems() {
     listOf(
         Triple(Icons.Default.Settings, tr("Settings"), tr("Themes, fonts, languages and preferences")),
         Triple(AppIcons.FileOutline, tr("Backup files"), tr("Restore one later to recover your learning data")),
@@ -287,6 +337,6 @@ private fun RemainingItems() {
 
 /** The reminder to back up first, with [action] making the backup. */
 @Composable
-private fun BackupNotice(action: @Composable () -> Unit) {
+internal fun BackupNotice(action: @Composable () -> Unit) {
     Notice(tr("Back up before clearing"), message = tr("Create a recovery file in case you change your mind."), action = action)
 }

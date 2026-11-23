@@ -57,8 +57,27 @@ class SettingsSidebarTest {
             }
         }
         onNodeWithTag("settings-section-BACKUPS").performClick()
-        assertEquals(listOf<Route>(Route.Backups), switched)
+        onNodeWithTag("settings-section-CLEAR_DATA").performClick()
+        assertEquals(listOf<Route>(Route.Backups, Route.ClearData), switched)
         assertEquals(emptyList(), linked)
+    }
+
+    /** Clearing the data has its own section right below Backups, lit while its page is open. */
+    @Test
+    fun clearDataFollowsBackupsAndIsLitOnItsPage() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.CLEAR_DATA, onNavigate = { visited += it }) } } }
+        assertEquals(
+            listOf("Account", "General", "Languages", "Flashcards", "Vocabulary", "Hotkeys", "Speech", "Translation", "Backups", "Clear data", "About", "Experiments"),
+            SettingsSection.entries.map { it.label },
+        )
+        onNodeWithTag("settings-section-CLEAR_DATA").assertIsSelected()
+        onNodeWithTag("settings-section-BACKUPS").assertIsNotSelected()
+        val backups = onNodeWithTag("settings-section-BACKUPS").fetchSemanticsNode().boundsInRoot
+        val clear = onNodeWithTag("settings-section-CLEAR_DATA").fetchSemanticsNode().boundsInRoot
+        assertTrue(clear.top >= backups.bottom, "Clear data sits below Backups")
+        onNodeWithTag("settings-section-BACKUPS").performClick()
+        assertEquals(listOf<Route>(Route.Backups), visited)
     }
 
     /** Below an expanded window there is no sidebar, and the page keeps its way back to Settings. */

@@ -21,6 +21,7 @@ import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.idiomiko.core.ui.navigation.Route
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 
 /** The phone's bottom bar marks the current area and counts the flashcards due; More opens the sheet of the other pages, the vocabulary among them. */
 @OptIn(ExperimentalTestApi::class)
@@ -104,14 +105,16 @@ class PhoneNavigationTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Croatian").assertExists()
-        // The plan's four groups; clearing the data and the settings of single features are found from Settings.
+        // The plan's four groups; the settings of single features are found from Settings.
         for (group in listOf("WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
         // Under Read, or a tab of their own, instead; Watch only with the videos on.
         for (page in listOf("more-News", "more-Find books", "more-Playlists")) onNodeWithTag(page).assertDoesNotExist()
         onNodeWithText("WATCH").assertDoesNotExist()
-        for (gone in listOf("Data", "Clear data", "Hotkeys", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
-        // The backups and clearing the data are one page, Backups.
-        onNodeWithTag("more-Backups").assertExists()
+        for (gone in listOf("Data", "Hotkeys", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
+        // A phone has no settings sidebar, so clearing the data has its own row, right below the backups.
+        val backups = onNodeWithTag("more-Backups").fetchSemanticsNode().boundsInRoot
+        val clear = onNodeWithTag("more-Clear data").fetchSemanticsNode().boundsInRoot
+        assertTrue(clear.top >= backups.bottom && clear.top - backups.bottom < backups.height, "Clear data follows Backups")
         onNodeWithTag("more-Statistics").assertExists()
         // A row is lit across the sheet's whole width.
         assertEquals(onNodeWithTag("more-sheet").fetchSemanticsNode().boundsInRoot.width, onNodeWithTag("more-Statistics").fetchSemanticsNode().boundsInRoot.width, 1f)

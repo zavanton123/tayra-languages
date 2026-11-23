@@ -233,7 +233,8 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Модели для распознавания фото страниц; загружаются, когда впервые импортируется фото на их языке.",
     // LanguageSetupDialog.kt
-    // ClearDataBlock.kt
+    // ClearDataScreen.kt
+    "Clear data" to "Очистить данные",
     "Clear local data" to "Очистить данные на устройстве",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "Удалите учебные данные и скачанные файлы с этого устройства. Настройки останутся.",
     "Will be removed" to "Будет удалено",

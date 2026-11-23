@@ -233,7 +233,8 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Modelos para leer fotos de páginas, descargados la primera vez que se importó una foto en su idioma.",
     // LanguageSetupDialog.kt
-    // ClearDataBlock.kt
+    // ClearDataScreen.kt
+    "Clear data" to "Borrar datos",
     "Clear local data" to "Borrar datos locales",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "Elimina de este dispositivo tus datos de aprendizaje y los archivos descargados. Tus preferencias se conservan.",
     "Will be removed" to "Se eliminará",

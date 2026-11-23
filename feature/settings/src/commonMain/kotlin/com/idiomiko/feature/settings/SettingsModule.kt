@@ -20,7 +20,8 @@ val settingsModule = module {
     viewModel { DictionaryImportViewModel(get()) }
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
-    viewModel { BackupViewModel(get(), get()) }
+    viewModel { BackupViewModel(get()) }
+    viewModel { ClearDataViewModel(get(), get()) }
     viewModel {
         AccountViewModel(
             get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>(),
@@ -44,7 +45,13 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
             onBack = { navController.popBackStack() },
             // Screens opened before the restore show data that is gone, so the app starts over from the books.
             onRestored = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
-            // The same after clearing the data, once its result was seen.
+        )
+    }
+    composable<Route.ClearData> {
+        ClearDataScreen(
+            onNavigate = navigate,
+            onBack = { navController.popBackStack() },
+            // As after a restore, once the result of the clearing was seen.
             onCleared = { navController.navigate(Route.Courses) { popUpTo<Route.Courses> { inclusive = true } } },
         )
     }

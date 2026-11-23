@@ -179,4 +179,8 @@ sealed interface Route {
     /** Debug builds only: turning on features still being built. */
     @Serializable
     data object ExperimentalFeatures : Route
+
+    /** Settings: removing everything the app keeps on the device. */
+    @Serializable
+    data object ClearData : Route
 }

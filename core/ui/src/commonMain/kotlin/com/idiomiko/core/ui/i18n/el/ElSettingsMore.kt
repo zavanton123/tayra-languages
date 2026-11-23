@@ -233,7 +233,8 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     // TextRecognitionCard.kt
     "Models for reading photos of pages, downloaded when a photo in their language was first imported." to "Μοντέλα για την ανάγνωση φωτογραφιών σελίδων, που λήφθηκαν όταν εισήχθη για πρώτη φορά φωτογραφία στη γλώσσα τους.",
     // LanguageSetupDialog.kt
-    // ClearDataBlock.kt
+    // ClearDataScreen.kt
+    "Clear data" to "Διαγραφή δεδομένων",
     "Clear local data" to "Διαγραφή τοπικών δεδομένων",
     "Remove your learning data and downloaded files from this device. Your preferences stay." to "Αφαιρέστε τα δεδομένα μελέτης και τα αρχεία που έχουν ληφθεί από αυτή τη συσκευή. Οι προτιμήσεις σας παραμένουν.",
     "Will be removed" to "Θα αφαιρεθούν",

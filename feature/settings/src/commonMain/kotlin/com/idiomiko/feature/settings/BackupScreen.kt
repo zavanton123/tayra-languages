@@ -74,7 +74,6 @@ import co.touchlab.kermit.Logger
 import com.idiomiko.core.domain.backup.Backup
 import com.idiomiko.core.domain.backup.BackupException
 import com.idiomiko.core.domain.backup.BackupRepository
-import com.idiomiko.core.domain.service.ClearDataService
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
@@ -95,10 +94,8 @@ import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
 import io.github.vinceglb.filekit.readBytes
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.combine
-import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.datetime.LocalDateTime
@@ -115,17 +112,14 @@ data class BackupState(
     val restored: Backup? = null,
     /** Set once a file was imported, until the reader has said whether to restore it now. */
     val imported: Backup? = null,
-    /** Clearing the data on this device, from the foot of the page. */
-    val clearing: ClearDataUiState = ClearDataUiState(),
 ) {
     /** Nothing is under way, so another action may start. */
-    val idle: Boolean get() = working == null && !clearing.inProgress
+    val idle: Boolean get() = working == null
 }
 
-class BackupViewModel(private val backups: BackupRepository, private val clearData: ClearDataService) : ViewModel() {
+class BackupViewModel(private val backups: BackupRepository) : ViewModel() {
     private val _state = MutableStateFlow(BackupState())
-    val state: StateFlow<BackupState> = combine(_state, clearData.running) { s, running -> s.copy(clearing = s.clearing.copy(running = running)) }
-        .stateIn(viewModelScope, SharingStarted.Eagerly, _state.value)
+    val state: StateFlow<BackupState> = _state.asStateFlow()
 
     init {
         viewModelScope.launch { refresh() }
@@ -164,17 +158,6 @@ class BackupViewModel(private val backups: BackupRepository, private val clearDa
 
     fun messageSeen() = _state.update { it.copy(message = null) }
 
-    /** Removes everything the app keeps on the device except the settings and the backups; it runs once. */
-    fun clear() {
-        if (!_state.value.idle || _state.value.clearing.started) return
-        _state.update { it.copy(clearing = ClearDataUiState(started = true), message = null, error = null) }
-        viewModelScope.launch {
-            val problems = clearData.clearEverything()
-            _state.update { it.copy(clearing = it.clearing.copy(done = true, problems = problems)) }
-            refresh()
-        }
-    }
-
     /** Does [action] while showing [working]; a failure is shown by [failed] with what went wrong. */
     private fun run(working: String, failed: (String) -> String, action: suspend () -> String?) {
         if (!_state.value.idle) return
@@ -211,9 +194,9 @@ class BackupViewModel(private val backups: BackupRepository, private val clearDa
     }
 }
 
-/** The Backups page: make, import, restore, export or delete backups, and clear the data on this device at its foot. */
+/** The backups kept by the app: make one, import one, and restore, export or delete those in the history. */
 @Composable
-fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, onCleared: () -> Unit, viewModel: BackupViewModel = koinViewModel()) {
+fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, viewModel: BackupViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val scope = rememberCoroutineScope()
     // How an action went shows for a moment over the screen, not as a block in it.
@@ -234,7 +217,7 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
     }
     val compact = LocalWindowWidth.current.isCompact
     if (compact) {
-        PhoneBackupsScreen(state, idle, viewModel, onImport = { picker.launch() }, onRestore = { restoring = it }, onDelete = { deleting = it }, onCleared = onCleared, onNavigate = onNavigate, onBack = onBack)
+        PhoneBackupsScreen(state, idle, viewModel, onImport = { picker.launch() }, onRestore = { restoring = it }, onDelete = { deleting = it }, onNavigate = onNavigate, onBack = onBack)
     } else Scaffold(
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -271,7 +254,6 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
                 }
                 Progress(state)
                 HistoryCard(state, idle, viewModel, onRestore = { restoring = it }, onDelete = { deleting = it })
-                ClearDataBlock(state.clearing, backupEnabled = idle, onClear = viewModel::clear, onBackup = viewModel::create, onDone = onCleared)
             }
         }
     }
