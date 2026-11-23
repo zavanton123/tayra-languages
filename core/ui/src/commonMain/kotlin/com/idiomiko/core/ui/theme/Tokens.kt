@@ -93,6 +93,10 @@ object AppBorders {
     /** The 1.5dp ring of something chosen or active: a selected option, a pressed toolbar button, a drop target. */
     @Composable
     fun selected(color: Color = MaterialTheme.colorScheme.primary): BorderStroke = BorderStroke(1.5.dp, color)
+
+    /** The 2dp ring of a large card chosen among others, such as a level card, which a thinner ring leaves faint. */
+    @Composable
+    fun chosen(color: Color = MaterialTheme.colorScheme.primary): BorderStroke = BorderStroke(2.dp, color)
 }
 
 /**

@@ -2,7 +2,10 @@ package com.idiomiko.feature.frequency
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.idiomiko.core.domain.courses.CourseRepository
 import com.idiomiko.core.domain.frequency.FrequencyList
+import com.idiomiko.core.domain.frequency.LevelEdge
+import com.idiomiko.core.domain.frequency.LevelEdges
 import com.idiomiko.core.domain.frequency.VocabularyLevelService
 import com.idiomiko.core.domain.language.Tutorials
 import com.idiomiko.core.domain.model.Language
@@ -21,6 +24,7 @@ import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -43,6 +47,8 @@ data class VocabularySettingsUiState(
     val saving: Boolean = false,
     /** A sample text in the language, to show what the picked level knows. */
     val example: List<ExampleToken> = emptyList(),
+    /** Starter and the European levels the list reaches, with the words known at each. */
+    val edges: List<LevelEdge> = listOf(LevelEdge(null, 0)),
 ) {
     val shownLevel: Int get() = picked ?: level
 }
@@ -53,6 +59,7 @@ class VocabularySettingsViewModel(
     private val languages: LanguageRepository,
     settings: SettingsRepository,
     private val lexicons: LexiconService? = null,
+    private val courses: CourseRepository? = null,
 ) : ViewModel() {
     private val picked = MutableStateFlow<Int?>(null)
     private val saving = MutableStateFlow(false)
@@ -67,10 +74,16 @@ class VocabularySettingsViewModel(
             val language = languages.getById(id)
             val list = levels.list(id)
             emit(Loaded(id, language?.name.orEmpty(), list, if (language != null && list != null) example(language, list) else emptyList()))
-        }.flatMapLatest { loaded -> levels.observeChosenLevel(loaded.id).map { loaded to it } }
+        }.flatMapLatest { loaded ->
+            // The levels end where the language's courses do, which may arrive after the list.
+            val edges = (courses?.observeCourses(loaded.id) ?: flowOf(emptyList()))
+                .map { LevelEdges.of(it, loaded.list?.words?.size ?: 0) }
+                .distinctUntilChanged()
+            combine(levels.observeChosenLevel(loaded.id), edges) { chosen, levelEdges -> Triple(loaded, chosen, levelEdges) }
+        }
     }
 
-    val state: StateFlow<VocabularySettingsUiState> = combine(language, picked, saving) { (loaded, chosen), pick, busy ->
+    val state: StateFlow<VocabularySettingsUiState> = combine(language, picked, saving) { (loaded, chosen, edges), pick, busy ->
         val level = chosen ?: 0
         VocabularySettingsUiState(
             loading = false,
@@ -83,6 +96,7 @@ class VocabularySettingsViewModel(
             picked = pick?.takeIf { it != level || chosen == null },
             saving = busy,
             example = loaded.example,
+            edges = edges,
         )
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), VocabularySettingsUiState())
 
