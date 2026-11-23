@@ -334,9 +334,9 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
 }
 
 /**
- * The speech recognition models and the voices to download: side by side on a wide window, each
- * as tall as it needs and the voices under the voice chosen, the voices alone across the page
- * where nothing is recognised.
+ * The voices to download and the speech recognition models: side by side on a wide window, each
+ * as tall as it needs and the voices under the engine, the voices alone across the page where
+ * nothing is recognised.
  */
 @Composable
 private fun DownloadCards(viewModel: SpeechViewModel, learning: LanguageOption?) {
@@ -345,8 +345,8 @@ private fun DownloadCards(viewModel: SpeechViewModel, learning: LanguageOption?)
     val name = learning?.let { tr(it.name) }
     if (LocalWindowWidth.current.isExpanded && voices && recognition) {
         Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
-            RecognitionCard(viewModel, Modifier.weight(1f))
             VoicesCard(viewModel, name, Modifier.weight(1f))
+            RecognitionCard(viewModel, Modifier.weight(1f))
         }
     } else {
         if (voices) VoicesCard(viewModel, name)
