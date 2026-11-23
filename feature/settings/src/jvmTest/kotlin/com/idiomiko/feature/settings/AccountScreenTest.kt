@@ -5,7 +5,12 @@ import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.UriHandler
 import androidx.compose.ui.test.ComposeUiTest
+import androidx.compose.ui.semantics.SemanticsActions
+import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsEnabled
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -43,6 +48,7 @@ import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
 import kotlin.time.Instant
 
 /** The account page signed out and in: signing in, confirming the email, the plan, combining two libraries. */
@@ -147,6 +153,109 @@ class AccountScreenTest {
         onNodeWithText("Continue with Google").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         assertEquals("google-user@example.com", accounts.signedIn.value)
+    }
+
+    @Test
+    fun signedOutAWideWindowShowsWhatAnAccountGivesBesideTheForm() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(FakeAccounts(), identity = FakeIdentity())
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-google").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Your learning, everywhere").assertExists()
+        onNodeWithText("Pick up exactly where you left off").assertExists()
+        onNodeWithTag("account-mascot").assertExists()
+        onNodeWithText("Welcome back").assertExists()
+        onNodeWithText("or").assertExists()
+        val pitch = onNodeWithTag("account-pitch").fetchSemanticsNode().boundsInRoot
+        val email = onNodeWithTag("account-email").fetchSemanticsNode().boundsInRoot
+        assertTrue(pitch.right <= email.left, "the form stands beside the panel")
+        save("ACCOUNT_SCREENSHOT", "-signed-out-wide")
+
+        onNodeWithTag("account-switch").performClick()
+        onNodeWithText("Create your account").assertExists()
+        onNodeWithText("Already have an account?").assertExists()
+        onNodeWithText("At least 8 characters").assertExists()
+        assertEquals(0, onAllNodesWithTag("account-forgot").fetchSemanticsNodes().size, "no reset while making an account")
+        save("ACCOUNT_SCREENSHOT", "-create-account")
+        onNodeWithTag("account-switch").performClick()
+        onNodeWithText("Welcome back").assertExists()
+    }
+
+    @Test
+    fun signedOutAMediumWindowKeepsThePanelBesideTheForm() = runDesktopComposeUiTest(width = 1000, height = 1000) {
+        show(FakeAccounts(), identity = FakeIdentity())
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-google").fetchSemanticsNodes().isNotEmpty() }
+        val pitch = onNodeWithTag("account-pitch").fetchSemanticsNode().boundsInRoot
+        val email = onNodeWithTag("account-email").fetchSemanticsNode().boundsInRoot
+        assertTrue(pitch.right <= email.left, "the form stands beside the panel")
+        save("ACCOUNT_SCREENSHOT", "-signed-out-medium")
+    }
+
+    @Test
+    fun signedOutAPhoneHasTheHeadlineAboveTheForm() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        show(FakeAccounts(), identity = FakeIdentity())
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-google").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Your learning, everywhere").assertExists()
+        assertEquals(0, onAllNodesWithText("Continue on any device").fetchSemanticsNodes().size, "the phone keeps only the headline")
+        val pitch = onNodeWithTag("account-pitch").fetchSemanticsNode().boundsInRoot
+        val email = onNodeWithTag("account-email").fetchSemanticsNode().boundsInRoot
+        assertTrue(pitch.bottom <= email.top, "the headline is above the form")
+        save("ACCOUNT_SCREENSHOT", "-signed-out-phone")
+    }
+
+    @Test
+    fun creatingAnAccountSignsIn() = runDesktopComposeUiTest(width = 1400, height = 1100) {
+        val accounts = FakeAccounts()
+        show(accounts)
+        onNodeWithTag("account-switch").performClick()
+        onNodeWithTag("account-email").performTextInput("new@example.com")
+        onNodeWithTag("account-submit").assertIsNotEnabled()
+        onNodeWithTag("account-password").performTextInput("correct horse")
+        onNodeWithText("Create account").assertExists()
+        onNodeWithTag("account-submit").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals("new@example.com", accounts.signedIn.value)
+    }
+
+    @Test
+    fun aForgottenPasswordIsResetWithTheCodeInTheForm() = runDesktopComposeUiTest(width = 1400, height = 1100) {
+        val accounts = FakeAccounts()
+        show(accounts)
+        onNodeWithTag("account-forgot").assertIsNotEnabled()
+        onNodeWithTag("account-email").performTextInput("reader@example.com")
+        onNodeWithTag("account-forgot").assertIsEnabled().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Choose a new password").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("We sent a code to reader@example.com. Enter it with your new password.").assertExists()
+        onNodeWithTag("account-pitch").assertExists()
+        save("ACCOUNT_SCREENSHOT", "-reset")
+
+        onNodeWithTag("reset-cancel").performClick()
+        onNodeWithText("Welcome back").assertExists()
+        onNodeWithTag("account-forgot").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("reset-code").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("reset-code").performTextInput("123456")
+        onNodeWithTag("reset-password").performTextInput("correct horse")
+        onNodeWithTag("reset-submit").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Your new password is set").assertExists()
+        assertEquals("reader@example.com", accounts.signedIn.value)
+    }
+
+    @Test
+    fun thePasswordCanBeShownAndHiddenAgain() = runDesktopComposeUiTest(width = 1400, height = 1100) {
+        show(FakeAccounts())
+        onNodeWithTag("account-password").performTextInput("correct horse")
+        assertEquals("•".repeat(13), drawnPassword())
+        onNodeWithContentDescription("Show password").performClick()
+        assertEquals("correct horse", drawnPassword())
+        onNodeWithContentDescription("Hide password").performClick()
+        assertEquals("•".repeat(13), drawnPassword())
+    }
+
+    /** The password as the field draws it. */
+    private fun ComposeUiTest.drawnPassword(): String {
+        waitForIdle()
+        val layouts = mutableListOf<TextLayoutResult>()
+        onNodeWithTag("account-password").fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action!!(layouts)
+        return layouts.first().layoutInput.text.text
     }
 
     @Test

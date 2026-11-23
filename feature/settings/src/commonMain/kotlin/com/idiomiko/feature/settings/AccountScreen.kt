@@ -27,13 +27,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.input.KeyboardType
-import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.account.AccountProblem
-import com.idiomiko.core.domain.account.SignInProvider
 import com.idiomiko.core.ui.components.APP_NAME
 import com.idiomiko.core.ui.components.AccountAvatar
 import com.idiomiko.core.ui.components.LocalAccountBadge
@@ -54,6 +52,7 @@ import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import kotlinx.datetime.TimeZone
@@ -84,7 +83,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) { content() }
         } else {
-            PageColumn(padding) { Column(Modifier.widthIn(max = PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
+            PageColumn(padding) { Column(Modifier.widthIn(max = if (state.signedOut) SIGNED_OUT_WIDTH else PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
         }
     }
 }
@@ -92,12 +91,12 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
 @Composable
 internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, onBack: () -> Unit) {
     ScreenHeader(tr("Account"), tr("Keep your library the same on all your devices."), onBackToSettings = onBack)
-    state.problem?.let { ProblemNotice(it, state.problemText) }
+    // Signed out, a problem is said in the form, beside the fields it is about.
+    if (!state.signedOut) state.problem?.let { ProblemNotice(it, state.problemText) }
     state.done?.let { DoneNotice(it) }
     when {
         !state.available -> NotSetUpCard()
-        state.signedIn == null && state.resetSentTo != null -> ResetCard(state, actions)
-        state.signedIn == null -> SignInCard(state, actions)
+        state.signedOut -> SignedOutCard(state, actions)
         else -> {
             AccountCard(state, actions)
             CombineQuestion(state, actions)
@@ -113,79 +112,6 @@ private fun NotSetUpCard() {
         message = tr("This version of the app has no account service to sign in to."),
         icon = Icons.Default.AccountCircle,
     )
-}
-
-@Composable
-private fun SignInCard(state: AccountUiState, actions: AccountViewModel?) {
-    var creating by rememberSaveable { mutableStateOf(false) }
-    var email by rememberSaveable { mutableStateOf("") }
-    var password by rememberSaveable { mutableStateOf("") }
-    val busy = state.busy != null
-    ContentCard(
-        if (creating) tr("Create an account") else tr("Sign in"),
-        subtitle = tr("With an account, your library goes with you to your other devices."),
-        icon = Icons.Default.AccountCircle,
-    ) {
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            AppTextField(
-                email, { email = it }, Modifier.fillMaxWidth().testTag("account-email"),
-                label = { Text(tr("Email")) }, singleLine = true,
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
-            )
-            AppTextField(
-                password, { password = it }, Modifier.fillMaxWidth().testTag("account-password"),
-                label = { Text(tr("Password")) }, singleLine = true,
-                visualTransformation = PasswordVisualTransformation(),
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-                supportingText = if (creating) ({ Text(tr("At least 8 characters")) }) else null,
-            )
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                PrimaryButton(
-                    if (creating) tr("Create account") else tr("Sign in"),
-                    onClick = { if (creating) actions?.register(email, password) else actions?.signIn(email, password) },
-                    enabled = email.isNotBlank() && password.isNotEmpty() && !busy,
-                    loading = state.busy == AccountTask.SIGNING_IN,
-                    modifier = Modifier.testTag("account-submit"),
-                )
-                QuietButton(
-                    if (creating) tr("I have an account") else tr("Create an account"),
-                    onClick = { creating = !creating },
-                    enabled = !busy,
-                    modifier = Modifier.testTag("account-switch"),
-                )
-            }
-            if (!creating) {
-                QuietButton(tr("Forgot your password?"), onClick = { actions?.forgotPassword(email) }, enabled = email.isNotBlank() && !busy, modifier = Modifier.testTag("account-forgot"))
-            }
-            state.signInProviders.forEach { provider ->
-                SecondaryButton(
-                    if (provider == SignInProvider.GOOGLE) tr("Continue with Google") else tr("Continue with Apple"),
-                    onClick = { actions?.signInWith(provider) }, enabled = !busy,
-                    modifier = Modifier.fillMaxWidth().testTag("account-${provider.name.lowercase()}"),
-                )
-            }
-        }
-    }
-}
-
-/** After a reset code was sent: the code and a new password. */
-@Composable
-private fun ResetCard(state: AccountUiState, actions: AccountViewModel?) {
-    var code by rememberSaveable { mutableStateOf("") }
-    var password by rememberSaveable { mutableStateOf("") }
-    ContentCard(tr("Choose a new password"), subtitle = tr("We sent a code to {0}. Enter it with your new password.", state.resetSentTo.orEmpty()), icon = Icons.Default.AccountCircle) {
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            AppTextField(code, { code = it }, Modifier.fillMaxWidth().testTag("reset-code"), label = { Text(tr("Code")) }, singleLine = true, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
-            AppTextField(
-                password, { password = it }, Modifier.fillMaxWidth().testTag("reset-password"), label = { Text(tr("New password")) }, singleLine = true,
-                visualTransformation = PasswordVisualTransformation(), supportingText = { Text(tr("At least 8 characters")) },
-            )
-            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                PrimaryButton(tr("Set password and sign in"), onClick = { actions?.resetPassword(code, password) }, enabled = code.isNotBlank() && password.length >= 8 && state.busy == null, loading = state.busy != null)
-                QuietButton(tr("Cancel"), onClick = { actions?.cancelReset() })
-            }
-        }
-    }
 }
 
 @Composable
@@ -294,7 +220,7 @@ private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?)
 }
 
 @Composable
-private fun ProblemNotice(problem: AccountProblem, text: String?) {
+internal fun ProblemNotice(problem: AccountProblem, text: String?) {
     Notice(
         problemTitle(problem, text),
         message = problemMessage(problem, text),
@@ -344,6 +270,12 @@ private fun DoneNotice(done: AccountDone) {
 private fun day(at: Instant): String = at.toLocalDateTime(TimeZone.currentSystemDefault()).date.toString()
 
 private val PAGE_WIDTH = 880.dp
+
+/** Signed out, the page is wide enough for the sign-in form beside what an account gives. */
+private val SIGNED_OUT_WIDTH = AppSizes.contentWidth
+
+/** The sign-in, the account card's place, shown while this device has an account service and is signed in to none. */
+private val AccountUiState.signedOut: Boolean get() = available && signedIn == null
 
 /** Wide enough for a six-digit code. */
 private val CODE_FIELD_WIDTH = 160.dp
