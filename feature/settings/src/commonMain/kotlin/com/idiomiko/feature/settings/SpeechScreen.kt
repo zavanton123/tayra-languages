@@ -352,9 +352,11 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
     val status by viewModel.status.collectAsStateWithLifecycle()
     val ready by viewModel.ready.collectAsStateWithLifecycle()
     val failed by viewModel.failed.collectAsStateWithLifecycle()
-    val progress by viewModel.progress.collectAsStateWithLifecycle()
+    val engineProgress by viewModel.progress.collectAsStateWithLifecycle()
     val downloads by viewModel.downloads.collectAsStateWithLifecycle()
     val downloadStates by viewModel.downloadStates.collectAsStateWithLifecycle()
+    // A voice's download reports through the engine too, but its row already shows how far it has got.
+    val progress = engineProgress.takeUnless { voiceDownloading(downloads, downloadStates) }
     val broken by viewModel.broken.collectAsStateWithLifecycle()
     // The way to a voice is in the notice that says one is missing: it downloads one in place.
     val working = ready && !failed

@@ -297,18 +297,14 @@ private fun VoiceRow(
 @Composable
 internal fun CurrentTag(tag: String) = Tag(tr("Current"), MaterialTheme.colorScheme.primary, Modifier.testTag("current-$tag"))
 
-/** On the device with its size, in green, or the size to download; smaller on a phone, to keep to one line beside the button. */
+/** A tick and its size, in green, once on the device, or the size to download; smaller on a phone, to keep to one line beside the button. */
 @Composable
 private fun VoiceStatus(state: RowState) {
     val style = if (LocalWindowWidth.current.isCompact) MaterialTheme.typography.bodySmall else MaterialTheme.typography.bodyMedium
     when (state) {
         is RowState.Installed -> Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             Icon(Icons.Default.CheckCircle, contentDescription = null, tint = StatusTints.ok, modifier = Modifier.size(AppSizes.iconSmall))
-            Text(
-                listOfNotNull(state.bytes?.let(::formatSize), tr("On this device")).joinToString(" · "),
-                style = style,
-                color = StatusTints.ok,
-            )
+            state.bytes?.let { Text(formatSize(it), style = style, color = StatusTints.ok) }
         }
         is RowState.Available -> state.size?.let { Text(it, style = style, color = MaterialTheme.colorScheme.onSurfaceVariant) }
         else -> Unit
@@ -342,5 +338,8 @@ internal fun DownloadVoiceButton(viewModel: SpeechViewModel, modifier: Modifier 
 
 /** Whether the notice has a voice to offer, so a phone shows its button row only then. */
 internal fun SpeechViewModel.offersVoice(downloads: List<SetupItem>?, progress: Map<String, SetupState>): Boolean =
-    voiceToDownload(downloads) != null ||
-        downloads.orEmpty().any { it.kind == SetupKind.VOICE && (progress[it.id] is SetupState.Waiting || progress[it.id] is SetupState.Running) }
+    voiceToDownload(downloads) != null || voiceDownloading(downloads, progress)
+
+/** Whether a voice is downloading; its own row shows how far, so the engine's box keeps out of it. */
+internal fun voiceDownloading(downloads: List<SetupItem>?, progress: Map<String, SetupState>): Boolean =
+    downloads.orEmpty().any { it.kind == SetupKind.VOICE && (progress[it.id] is SetupState.Waiting || progress[it.id] is SetupState.Running) }

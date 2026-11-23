@@ -139,7 +139,16 @@ class SpeechSettingsScreenTest {
         override suspend fun runtimeInstalled() = runtime
         override suspend fun setUp(): String { setUps++; ready = true; return "ready" }
         override suspend fun packages() = catalog.map { it.copy(installed = it.id in installed) }
-        override suspend fun installPackage(id: String) { installed += id }
+        /** When set, a download reports its progress and waits for it before finishing. */
+        var downloading: CompletableDeferred<Unit>? = null
+        override suspend fun installPackage(id: String) {
+            downloading?.let {
+                progress.value = "Downloading Cadu (37 MB of 63 MB)…"
+                it.await()
+                progress.value = null
+            }
+            installed += id
+        }
         override suspend fun removePackage(id: String) { installed -= id }
         override suspend fun voices(languageCode: String) =
             if (!ready) emptyList() else packages().filter { it.installed && it.languageCode == languageCode }.map { SpeechVoice(it.id, it.title, languageCode) }
@@ -326,6 +335,24 @@ class SpeechSettingsScreenTest {
         onNodeWithText("Check installation").assertDoesNotExist()
         onNodeWithTag("reinstall-engine").assertDoesNotExist()
         onNodeWithText("Reinstall Piper").assertDoesNotExist()
+    }
+
+    /** A voice downloading shows how far it has got in its own row, and the engine's box stays away. */
+    @Test
+    fun aVoiceDownloadLeavesTheEngineBoxAway() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val piper = FakePiper().apply { downloading = CompletableDeferred() }
+        show(SpeechEngine.PIPER, FakeKokoro(), piper)
+        val cadu = "voice-voice:PIPER:pt_BR-cadu-medium"
+        waitForTag("download-$cadu")
+        onNodeWithTag("download-$cadu").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { piper.progress.value != null }
+        waitForIdle()
+        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-downloading.png")) }
+        onNodeWithText("Installed and working").assertDoesNotExist()
+        onNodeWithText("Check installation").assertDoesNotExist()
+        assertTrue(onAllNodesWithText("Downloading Cadu (37 MB of 63 MB)…").fetchSemanticsNodes().size <= 1)
+        piper.downloading?.complete(Unit)
+        waitForTag("remove-$cadu")
     }
 
     /** An engine on the device that does not work shows its reinstall at once, which sets it up again. */
