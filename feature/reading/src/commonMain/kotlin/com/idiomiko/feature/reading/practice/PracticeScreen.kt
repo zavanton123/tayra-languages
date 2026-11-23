@@ -783,7 +783,6 @@ private fun backLabel(state: PracticeUiState): String = if (state.fromVocabulary
 @Composable
 private fun Empty(state: PracticeUiState, actions: PracticeActions) {
     EmptyState(
-        icon = AppIcons.School,
         title = if (state.fromVocabulary || state.wholeBook) tr("Nothing to practise") else tr("Nothing to practise on this page"),
         message = when {
             state.fromVocabulary -> tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")

@@ -10,11 +10,11 @@ import org.jetbrains.compose.resources.painterResource
 import idiomiko.core.ui.generated.resources.Res
 import idiomiko.core.ui.generated.resources.archived_books_empty_monkey
 import idiomiko.core.ui.generated.resources.courses_loading_monkey
+import idiomiko.core.ui.generated.resources.empty_state_monkey
 import idiomiko.core.ui.generated.resources.find_books_monkey_v4
 import idiomiko.core.ui.generated.resources.illustration_courses
 import idiomiko.core.ui.generated.resources.illustration_flashcards
 import idiomiko.core.ui.generated.resources.illustration_journey
-import idiomiko.core.ui.generated.resources.vocabulary_empty_monkey
 
 /** An open book in front of two text cards, on a soft disc: the courses page before there are courses. */
 @Composable
@@ -41,10 +41,11 @@ fun ArchivedBooksIllustration(modifier: Modifier = Modifier) {
     Image(painterResource(Res.drawable.archived_books_empty_monkey), contentDescription = null, modifier = modifier)
 }
 
-/** The mascot looking through a magnifying glass at an empty card, for a vocabulary with no words to show. */
+/** The mascot looking through a magnifying glass at an empty card: any list or page with nothing to show. */
 @Composable
-fun VocabularyEmptyIllustration(modifier: Modifier = Modifier) {
-    Image(painterResource(Res.drawable.vocabulary_empty_monkey), contentDescription = null, modifier = modifier)
+fun EmptyStateIllustration(modifier: Modifier = Modifier) {
+    val dimmed = if (IdiomikoTheme.current.isDark) Modifier.alpha(AppAlpha.strong) else Modifier
+    Image(painterResource(Res.drawable.empty_state_monkey), contentDescription = null, modifier = modifier.then(dimmed))
 }
 
 /** The mascot reading through a magnifying glass beside a stack of books: finding books to read. */

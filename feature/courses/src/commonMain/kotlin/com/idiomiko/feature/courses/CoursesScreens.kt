@@ -344,7 +344,7 @@ internal fun CourseContent(
             }
         }
         if (progress == null) {
-            EmptyState(AppIcons.MenuBook, tr("Course not found"), message = tr("This course is no longer available."))
+            EmptyState(tr("Course not found"), message = tr("This course is no longer available."))
             return@ScrollColumn
         }
         state.error?.let { InfoBanner(it, tint = colors.error, icon = Icons.Default.Warning) }

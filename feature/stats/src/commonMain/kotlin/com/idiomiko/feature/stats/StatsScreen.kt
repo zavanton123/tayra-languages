@@ -149,7 +149,6 @@ internal fun StatsContent(state: StatsUiState, onNavigate: (Route) -> Unit = {})
     // With nothing read, saved or reviewed, one message and a way to start say more than a page of grey charts.
     if (overview != null && overview.wordsRead == 0 && overview.termsByStatus.values.sum() == 0 && overview.reviewsTotal == 0) {
         EmptyState(
-            AppIcons.BarChart,
             tr("Nothing to count yet"),
             message = tr("Read a text or save a word, and your progress shows here."),
             action = { PrimaryButton(tr("Browse books"), onClick = { onNavigate(Route.Books) }, modifier = Modifier.testTag("stats-start")) },

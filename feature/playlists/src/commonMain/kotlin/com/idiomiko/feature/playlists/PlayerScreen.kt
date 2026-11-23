@@ -98,7 +98,6 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
     ) {
         if (!p.isLoaded || playlist == null) {
             EmptyState(
-                AppIcons.Headphones,
                 tr("Nothing is playing"),
                 message = tr("Play a playlist to hear its texts one after another."),
                 action = { PrimaryButton(tr("Open playlists"), onClick = { onNavigate(Route.Playlists) }, icon = AppIcons.QueueMusic) },

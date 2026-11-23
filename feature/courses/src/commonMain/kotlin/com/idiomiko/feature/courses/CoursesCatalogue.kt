@@ -307,7 +307,7 @@ private fun Results(state: CoursesUiState, actions: CoursesActions, items: @Comp
             LinkText(tr("Clear filters"), actions.onClearFilters, Modifier.testTag("clear-filters"), style = MaterialTheme.typography.bodyMedium)
         }
         if (shown.isEmpty()) {
-            EmptyState(AppIcons.MenuBook, tr("No courses match"), message = tr("Try another search, or clear the filters."))
+            EmptyState(tr("No courses match"), message = tr("Try another search, or clear the filters."))
         } else if (state.sort == CoursesSort.RECOMMENDED) {
             // The recommended order goes level by level, so each level keeps its heading.
             shown.groupBy { it.course.level }.forEach { (level, list) ->

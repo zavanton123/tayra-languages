@@ -184,7 +184,7 @@ class DesignSystemGalleryTest {
                 }
             }
             PlaceholderCards(2, thumbnail = true)
-            EmptyState(AppIcons.Book, "No books match these filters.", message = "Try other filters.", action = { QuietButton("Create a book", onClick = {}) })
+            EmptyState("No books match these filters.", message = "Try other filters.", action = { QuietButton("Create a book", onClick = {}) })
             ContentCard("Card", "A card with a setting, a banner and a header button.", icon = AppIcons.Download, modifier = Modifier.fillMaxWidth()) {
                 SwitchSetting("A switch", "Its description.", checked = true) {}
                 InfoBanner("An information banner.")

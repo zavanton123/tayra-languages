@@ -1,6 +1,5 @@
 package com.idiomiko.feature.terms.list
 
-import com.idiomiko.core.ui.components.VocabularyEmptyIllustration
 import androidx.compose.foundation.layout.heightIn
 import com.idiomiko.feature.terms.form.TermFormKey
 import com.idiomiko.feature.terms.form.TERM_DIALOG_WIDTH
@@ -211,7 +210,7 @@ fun TermsScreen(
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
-                item { EmptyState(AppIcons.Book, if (state.filter.termIds?.isEmpty() == true) tr("No saved words here yet.") else tr("No terms match the current filters."), art = { VocabularyEmptyIllustration(Modifier.width(EMPTY_ART)) }) }
+                item { EmptyState(if (state.filter.termIds?.isEmpty() == true) tr("No saved words here yet.") else tr("No terms match the current filters.")) }
             } else if (compact) {
                 itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Column(itemMotion()) {
                     CompactTermRow(term, state.languageName(term.languageId), term.id in state.selected, rowActions)
@@ -724,4 +723,3 @@ internal fun AddedPresets(min: Int?, max: Int?, onChange: (Int?, Int?) -> Unit) 
 }
 
 /** How wide the empty vocabulary's mascot is drawn. */
-private val EMPTY_ART = 240.dp

@@ -106,7 +106,7 @@ fun PlaylistDetailScreen(
         val playlist = state.playlist
         when {
             state.loading -> LoadingIndicator(Modifier.padding(padding))
-            playlist == null -> EmptyState(AppIcons.QueueMusic, tr("This playlist no longer exists."), Modifier.padding(padding).padding(AppSpacing.xxl))
+            playlist == null -> EmptyState(tr("This playlist no longer exists."), Modifier.padding(padding).padding(AppSpacing.xxl))
             else -> PlaylistPage(state, playlist, viewModel, onNavigate, onBack, Modifier.padding(padding))
         }
     }

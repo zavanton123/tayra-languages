@@ -182,7 +182,6 @@ private fun NoPlaylists(onCreate: () -> Unit, modifier: Modifier) {
         Column(Modifier.widthIn(max = AppSizes.readableWidth), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             ScreenHeader(tr("Playlists"), subtitle = null)
             EmptyState(
-                AppIcons.QueueMusic,
                 tr("No playlists yet"),
                 modifier = Modifier.testTag("no-playlists"),
                 message = tr("Collect books, course lessons and news articles to listen to them one after another."),

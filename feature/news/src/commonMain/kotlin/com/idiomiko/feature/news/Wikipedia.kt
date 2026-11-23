@@ -18,7 +18,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -340,16 +339,15 @@ internal fun WikipediaContent(state: WikiUiState, actions: WikiActions, modifier
             if (!compact) part(gap = false) { NewsHeader(null, state.loading, Clock.System.now(), actions.onRetry) }
             part(gap = !compact) { if (compact) WikiPhoneControls(state, actions, tabs) { sheet = true } else WikiControls(state, actions, tabs) }
             when {
-                state.languageName.isEmpty() -> part { EmptyState(AppIcons.Globe, tr("Choose a language to learn to see its news.")) }
+                state.languageName.isEmpty() -> part { EmptyState(tr("Choose a language to learn to see its news.")) }
                 state.loading -> part { WikiSkeleton(columns) }
                 state.error != null -> part {
                     EmptyState(
-                        Icons.Default.Warning,
                         tr("{0} could not be read: {1}", state.wiki.label, state.error),
                         action = { SecondaryButton(tr("Try again"), onClick = actions.onRetry) },
                     )
                 }
-                state.shown.isEmpty() -> part { EmptyState(AppIcons.Globe, if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
+                state.shown.isEmpty() -> part { EmptyState(if (state.articles.isEmpty()) tr("No articles found.") else tr("No articles match these filters.")) }
                 else -> {
                     part(key = "wiki-heading") { WikiHeading(state, compact) }
                     state.shown.chunked(columns).forEach { row ->

@@ -504,7 +504,6 @@ internal fun EmptyLibrary(state: BooksUiState, onNewBook: () -> Unit, onDownload
     val language = state.languageName
     val downloading = state.packState is PackState.Downloading
     EmptyState(
-        AppIcons.MenuBook,
         if (language.isEmpty()) tr("Choose a language to learn") else tr("Your library is empty"),
         Modifier.testTag("empty-library"),
         message = when {
@@ -621,8 +620,8 @@ internal fun NoBooks(
 ) {
     when {
         archived -> NoArchivedMatches(onClearFilters, onBackToBooks)
-        onlyContinued -> EmptyState(AppIcons.Book, tr("No other books yet"), action = { QuietButton(tr("Find books"), onClick = onFindBooks) })
-        else -> EmptyState(AppIcons.Book, tr("No books match these filters."), action = { QuietButton(tr("Create a book"), onClick = onNewBook) })
+        onlyContinued -> EmptyState(tr("No other books yet"), action = { QuietButton(tr("Find books"), onClick = onFindBooks) })
+        else -> EmptyState(tr("No books match these filters."), action = { QuietButton(tr("Create a book"), onClick = onNewBook) })
     }
 }
 

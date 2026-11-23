@@ -120,7 +120,7 @@ fun WatchScreen(
     ) { padding ->
         when {
             state.loading -> LoadingIndicator(Modifier.padding(padding))
-            state.video == null -> EmptyState(AppIcons.Movie, tr("Video not found"), Modifier.padding(padding), message = state.error?.let { tr(it) })
+            state.video == null -> EmptyState(tr("Video not found"), Modifier.padding(padding), message = state.error?.let { tr(it) })
             else -> WatchContent(state, playback, viewModel, onNavigate, player, Modifier.padding(padding))
         }
     }

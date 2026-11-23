@@ -131,8 +131,8 @@ internal fun DiscoverPage(state: FindBooksUiState, actions: FindBooksActions, op
         item { HowHard(state.minKnown, actions.onMinKnown, compact) }
         if (state.sources.isNotEmpty() && !state.allDown) item { BrowseLibraries(state, actions, compact) }
         when {
-            state.languageName.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("Choose a language to learn to see its books.")) }
-            state.sources.isEmpty() -> item { EmptyState(AppIcons.MenuBook, tr("None of the libraries has books in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))) }
+            state.languageName.isEmpty() -> item { EmptyState(tr("Choose a language to learn to see its books.")) }
+            state.sources.isEmpty() -> item { EmptyState(tr("None of the libraries has books in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL))) }
             state.allDown -> item { OfflineCard(state, actions, compact) }
             else -> {
                 item { Books(state, actions, open, compact) }
@@ -154,7 +154,7 @@ private fun Books(state: FindBooksUiState, actions: FindBooksActions, open: (Fou
             selected != null && state.selectedDown -> LibraryBreak(state, selected, actions, compact)
             state.narrowed -> Results(state, actions, open, compact)
             state.loading -> Column(verticalArrangement = Arrangement.spacedBy(SECTION_GAP)) { ShelfSkeleton(compact); if (!state.oneGrid) ShelfSkeleton(compact) }
-            selected != null && state.books.isEmpty() -> EmptyState(AppIcons.MenuBook, tr("{0} has no books in {1}.", selected.libraryName, languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
+            selected != null && state.books.isEmpty() -> EmptyState(tr("{0} has no books in {1}.", selected.libraryName, languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
             selected != null && state.oneGrid -> LibraryBooks(state, selected, actions, open, compact)
             else -> Shelves(state, actions, open, compact)
         }

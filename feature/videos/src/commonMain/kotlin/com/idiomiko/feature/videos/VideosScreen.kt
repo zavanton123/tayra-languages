@@ -99,7 +99,6 @@ internal fun VideosContent(
         )
         if (state.videos.isEmpty()) {
             EmptyState(
-                AppIcons.Movie,
                 tr("No videos yet"),
                 message = tr("Add a YouTube video, or a video on the internet with its subtitles."),
                 action = {
@@ -112,7 +111,7 @@ internal fun VideosContent(
         if (state.videos.size > SEARCH_FROM) SearchField(state.search, onSearch, tr("Search videos"), Modifier.fillMaxWidth())
         val shown = state.shown
         if (shown.isEmpty()) {
-            EmptyState(AppIcons.Movie, tr("No videos match"), message = tr("Try another search."))
+            EmptyState(tr("No videos match"), message = tr("Try another search."))
         } else {
             Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 shown.forEach { item -> VideoCard(item, onOpen = { onNavigate(Route.Watch(item.video.bookId)) }, onDelete = { deleting = item }) }

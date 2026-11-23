@@ -222,14 +222,13 @@ internal fun WordFrequencyContent(
                 when {
                     overview == null -> item(key = "none") {
                         EmptyState(
-                            AppIcons.BarChart,
                             tr("No frequency list yet"),
                             Modifier.padding(top = AppSpacing.s),
                             message = if (state.languageName.isEmpty()) tr("Choose a language to learn to see its most common words.")
                             else tr("There is no word frequency list for {0}. Lists come with the languages the app offers to learn.", languageInSentence(state.languageName, LanguageCase.GENITIVE)),
                         )
                     }
-                    bands.isEmpty() -> item(key = "empty") { EmptyState(AppIcons.BarChart, tr("No words match"), Modifier.padding(top = AppSpacing.s), message = tr("Try another search, or show more kinds of words.")) }
+                    bands.isEmpty() -> item(key = "empty") { EmptyState(tr("No words match"), Modifier.padding(top = AppSpacing.s), message = tr("Try another search, or show more kinds of words.")) }
                     else -> {
                         bands.forEachIndexed { i, band ->
                             item(key = "band-${band.index}") { BandHeader(

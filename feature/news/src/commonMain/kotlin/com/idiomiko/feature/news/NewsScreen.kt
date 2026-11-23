@@ -226,13 +226,13 @@ internal fun NewsContent(
             if (!compact) part(gap = false) { NewsHeader(state.loadedAt, state.loading, now, actions.onRefresh) }
             part(gap = !compact) { if (compact) PhoneControls(state, actions, tabs) { sheet = true } else DesktopControls(state, actions, tabs) }
             when {
-                state.languageName.isEmpty() -> part { EmptyState(AppIcons.Newspaper, tr("Choose a language to learn to see its news.")) }
+                state.languageName.isEmpty() -> part { EmptyState(tr("Choose a language to learn to see its news.")) }
                 state.sources.isEmpty() -> part {
-                    EmptyState(AppIcons.Newspaper, tr("There is no news feed in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
+                    EmptyState(tr("There is no news feed in {0} yet.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)))
                 }
                 state.loading && state.articles.isEmpty() -> part { FrontSkeleton(layout) }
                 state.allFailed -> part { OutageCard(actions.onRefresh, compact) }
-                state.articles.isEmpty() -> part { EmptyState(AppIcons.Newspaper, tr("No articles found.")) }
+                state.articles.isEmpty() -> part { EmptyState(tr("No articles found.")) }
                 else -> frontPage(state, actions, context, layout)
             }
             if (state.sources.isNotEmpty()) part {

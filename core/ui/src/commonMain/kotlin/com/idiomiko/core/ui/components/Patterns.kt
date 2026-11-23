@@ -114,31 +114,34 @@ fun AppCard(
 }
 
 /**
- * What a list shows when it has nothing to show, or a notice in place of content: an icon, a
- * title, an optional [message] and an optional [action], centred on a card.
+ * What a list shows when it has nothing to show, or a notice in place of content: the mascot, a
+ * title, an optional [message] and an optional [action], centred on a card. [showArt] false leaves
+ * the mascot out where the card sits in a small space.
  */
 @Composable
 fun EmptyState(
-    icon: ImageVector,
     title: String,
     modifier: Modifier = Modifier,
     message: String? = null,
-    /** A picture shown instead of [icon]. */
-    art: (@Composable () -> Unit)? = null,
+    showArt: Boolean = true,
     action: (@Composable () -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
+    val compact = LocalWindowWidth.current.isCompact
     Column(
         modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxxl),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
     ) {
-        if (art != null) art() else Icon(icon, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconHuge))
+        if (showArt) EmptyStateIllustration(Modifier.width(if (compact) EMPTY_ART_COMPACT else EMPTY_ART))
         Text(title, style = AppText.sectionTitle, textAlign = TextAlign.Center)
         if (message != null) Text(message, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         action?.invoke()
     }
 }
+
+private val EMPTY_ART = 240.dp
+private val EMPTY_ART_COMPACT = 180.dp
 
 /**
  * The bar over a list while items are ticked: an optional [leading] control (a tick for all),

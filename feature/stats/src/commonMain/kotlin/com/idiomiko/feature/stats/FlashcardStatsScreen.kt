@@ -140,7 +140,7 @@ internal fun FlashcardStatsContent(state: FlashcardStatsUiState, onPeriod: (Stat
     ScreenHeader(tr("Flashcard statistics"), subtitle = null)
     val stats = state.stats
     if (stats == null || stats.counts.total == 0) {
-        EmptyState(AppIcons.Style, tr("No flashcards yet"), message = tr("Words you give a status of 1 to 4 while reading get a card, and their figures show here."))
+        EmptyState(tr("No flashcards yet"), message = tr("Words you give a status of 1 to 4 while reading get a card, and their figures show here."))
         return
     }
     SegmentedToggle(

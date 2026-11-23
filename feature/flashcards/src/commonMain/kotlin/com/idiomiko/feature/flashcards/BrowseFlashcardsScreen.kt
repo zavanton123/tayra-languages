@@ -530,7 +530,6 @@ internal fun CardSelectionBar(state: BrowseUiState, viewModel: BrowseFlashcardsV
 @Composable
 internal fun EmptyCards(state: BrowseUiState) {
     EmptyState(
-        AppIcons.Style,
         title = if (state.filtered) tr("No cards match.") else tr("No flashcards yet"),
         message = if (state.filtered) null else tr("Words you give a status of 1 to 4 while reading get a card here."),
     )
