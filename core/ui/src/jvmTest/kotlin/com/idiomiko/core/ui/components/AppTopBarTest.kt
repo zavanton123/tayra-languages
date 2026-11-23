@@ -37,19 +37,14 @@ class AppTopBarTest {
     @get:Rule
     val rule = createComposeRule()
 
-    /** The Settings menu is tall enough for all its entries: its list does not scroll, so it shows no scrollbar. */
+    /** The settings and the account are under the account menu at the end of the bar, not tabs of their own. */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun theSettingsMenuFitsWithoutScrolling() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+    fun theBarHasNoSettingsOrAccountTab() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         setContent { MaterialTheme { AppTopBar(title = "Idiomiko", onNavigate = {}, section = NavSection.HOME) } }
-        onNodeWithText("Settings").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("About").fetchSemanticsNodes().isNotEmpty() }
-        val lists = onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.VerticalScrollAxisRange) and hasAnyDescendant(hasText("About"))).fetchSemanticsNodes()
-        System.getenv("SETTINGS_MENU_SCREENSHOT")?.let { path ->
-            waitForIdle()
-            javax.imageio.ImageIO.write(onAllNodes(isRoot())[1].captureToImage().toAwtImage(), "png", java.io.File(path))
-        }
-        for (list in lists) assertEquals(0f, list.config[SemanticsProperties.VerticalScrollAxisRange].maxValue(), "nothing is left to scroll to")
+        for (tab in listOf("Home", "Read", "Playlists", "Flashcards", "Vocabulary")) onNodeWithText(tab).assertExists()
+        for (gone in listOf("Settings", "Account", "More")) onNodeWithText(gone).assertDoesNotExist()
+        onNodeWithContentDescription("Account and settings").assertExists()
     }
 
     /** The courses, the books and the news share the Read menu, which has no Courses or News tab beside it. */
@@ -69,47 +64,85 @@ class AppTopBarTest {
         assertEquals(pages.map { it.second }, visited)
     }
 
-    /** The Speech page is in the Settings menu, not a tab of its own. */
+    /**
+     * Signed out, the bar ends with a person in a circle whose menu says so and leads to signing in, the settings,
+     * the data and About, with nothing to sign out of.
+     */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun theSettingsMenuLeadsToTheSpeechSettings() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+    fun signedOutThePersonIconOffersSigningInAndTheSettings() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val visited = mutableListOf<Route>()
-        setContent { MaterialTheme { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.BOOKS) } }
-        onNodeWithText("Speech").assertDoesNotExist()
-        onNodeWithText("Settings").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Speech").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Speech").performClick()
-        assertEquals(listOf<Route>(Route.Speech), visited)
-    }
-
-    /** The backups and clearing the data share the Settings menu's Data page. */
-    @OptIn(ExperimentalTestApi::class)
-    @Test
-    fun theSettingsMenuLeadsToTheDataPage() = runDesktopComposeUiTest(width = 1600, height = 1000) {
-        val visited = mutableListOf<Route>()
-        setContent { MaterialTheme { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.BOOKS) } }
-        onNodeWithText("Settings").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Data").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Backups").assertDoesNotExist()
-        onNodeWithText("Data").performClick()
-        assertEquals(listOf<Route>(Route.Backups), visited)
-    }
-
-    /** Signed in, the account's avatar ends the bar and takes the Account tab's place; it opens the account page. */
-    @OptIn(ExperimentalTestApi::class)
-    @Test
-    fun theAvatarLeadsToTheAccount() = runDesktopComposeUiTest(width = 1600, height = 1000) {
-        var opened = 0
-        var badge by mutableStateOf<AccountBadge?>(null)
-        setContent { MaterialTheme { CompositionLocalProvider(LocalAccountBadge provides badge) { AppTopBar(title = "Home", onNavigate = {}, section = NavSection.HOME) } } }
-        onNodeWithText("Account").assertExists()
+        setContent { MaterialTheme { AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME) } }
         onNodeWithTag("account-avatar").assertDoesNotExist()
-        badge = AccountBadge("ana@example.com", "Ana Reader", picture = null) { opened++ }
-        waitForIdle()
-        onNodeWithText("Account").assertDoesNotExist()
+        val pages = listOf("Sign in" to Route.Account, "Settings" to Route.Settings, "Data" to Route.Backups, "About" to Route.About)
+        for ((label, _) in pages) {
+            onNodeWithTag("account-button").performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isNotEmpty() }
+            onNodeWithText("Not signed in").assertExists()
+            onNodeWithText("Sign out").assertDoesNotExist()
+            onNodeWithText("Account").assertDoesNotExist()
+            if (label == "Sign in") saveMenu("ACCOUNT_MENU_SCREENSHOT", "-signed-out")
+            onNodeWithText(label).performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isEmpty() }
+        }
+        assertEquals(pages.map { it.second }, visited)
+    }
+
+    /**
+     * Signed in, the avatar takes the person's place; its menu names the account and leads to it, the settings, the
+     * data and About, and signs out last, apart from the rest.
+     */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun signedInTheAvatarOffersTheAccountTheSettingsAndSigningOut() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val visited = mutableListOf<Route>()
+        var opened = 0
+        var signedOut = 0
+        val badge = AccountBadge("ana@example.com", "Ana Reader", picture = null, signOut = { signedOut++ }) { opened++ }
+        setContent {
+            MaterialTheme { CompositionLocalProvider(LocalAccountBadge provides badge) { AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME) } }
+        }
+        onNodeWithTag("account-button").assertDoesNotExist()
         onNodeWithText("A").assertExists()
-        onNodeWithTag("account-avatar").performClick()
+        fun open() {
+            onNodeWithTag("account-avatar").performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isNotEmpty() }
+        }
+        open()
+        onNodeWithText("Ana Reader").assertExists()
+        onNodeWithText("ana@example.com").assertExists()
+        onNodeWithText("Sign in").assertDoesNotExist()
+        onNodeWithText("Not signed in").assertDoesNotExist()
+        saveMenu("ACCOUNT_MENU_SCREENSHOT", "-signed-in")
+        onNodeWithText("Account").performClick()
         assertEquals(1, opened)
+        for (label in listOf("Settings", "Data", "About")) {
+            open()
+            onNodeWithText(label).performClick()
+        }
+        assertEquals(listOf<Route>(Route.Settings, Route.Backups, Route.About), visited)
+        open()
+        onNodeWithTag("account-menu-sign-out").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isEmpty() }
+        assertEquals(1, signedOut)
+    }
+
+    /** The bar with its open menu drawn over it, saved to the file the environment variable [env] names. */
+    @OptIn(ExperimentalTestApi::class)
+    private fun androidx.compose.ui.test.ComposeUiTest.saveMenu(env: String, suffix: String) {
+        val path = System.getenv(env) ?: return
+        waitForIdle()
+        val roots = onAllNodes(isRoot())
+        val page = roots[0].captureToImage().toAwtImage()
+        val canvas = java.awt.image.BufferedImage(page.width, minOf(page.height, 480), java.awt.image.BufferedImage.TYPE_INT_ARGB)
+        val g = canvas.createGraphics()
+        g.drawImage(page, 0, 0, null)
+        for (i in 1 until roots.fetchSemanticsNodes().size) {
+            val bounds = roots[i].fetchSemanticsNode().boundsInWindow
+            g.drawImage(roots[i].captureToImage().toAwtImage(), bounds.left.toInt(), bounds.top.toInt(), null)
+        }
+        g.dispose()
+        javax.imageio.ImageIO.write(canvas, "png", java.io.File(path.replace(".png", "$suffix.png")))
     }
 
     /** A phone's bar shows the avatar on a page with a way back as well. */
@@ -197,22 +230,24 @@ class AppTopBarTest {
         javax.imageio.ImageIO.write(strip, "png", java.io.File(path.replace(".png", "$suffix.png")))
     }
 
-    /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages. */
+    /** In a narrower window the tabs that do not fit fold into More, whose menu still reaches their pages; the account menu stays at the end. */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun tabsThatDoNotFitFoldIntoMore() = runDesktopComposeUiTest(width = 880, height = 900) {
+    fun tabsThatDoNotFitFoldIntoMore() = runDesktopComposeUiTest(width = 760, height = 900) {
         val visited = mutableListOf<Route>()
         val state = LearningLanguageState(listOf(1L to "Portuguese"), 1L, knownWords = 1369) {}
-        setContent { MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Books", onNavigate = { visited += it }, section = NavSection.SETTINGS) } } }
+        setContent { MaterialTheme { CompositionLocalProvider(LocalLearningLanguage provides state) { AppTopBar(title = "Statistics", onNavigate = { visited += it }, section = NavSection.TERMS) } } }
         onNodeWithText("Home").assertExists()
+        onNodeWithContentDescription("Account and settings").assertExists()
         System.getenv("NARROW_BAR_SCREENSHOT")?.let { path ->
             waitForIdle()
             javax.imageio.ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", java.io.File(path))
         }
         onNodeWithText("More").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("About").fetchSemanticsNodes().isNotEmpty() }
-        onAllNodesWithText("Speech").onLast().performClick()
-        assertEquals(listOf<Route>(Route.Speech), visited)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Statistics").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Settings").assertDoesNotExist()
+        onAllNodesWithText("Statistics").onLast().performClick()
+        assertEquals(listOf<Route>(Route.Stats), visited)
     }
 
     @Test

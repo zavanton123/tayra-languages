@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountProfile
 import com.idiomiko.core.domain.account.AccountRepository
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -40,6 +41,19 @@ class AccountBadgeViewModel(private val accounts: AccountRepository) : ViewModel
                 val kept = _state.value.picture.takeIf { profile?.picture != null && profile.picture == _state.value.profile?.picture }
                 _state.value = AccountBadgeState(profile, kept)
                 if (profile?.picture != null && kept == null) _state.value = AccountBadgeState(profile, accounts.picture())
+            }
+        }
+    }
+
+    /** Signs this device out, as the Account page's Sign out does; the avatar goes once the device is signed out. */
+    fun signOut() {
+        viewModelScope.launch {
+            try {
+                accounts.signOut()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (_: Exception) {
+                // The device forgets the sign-in first, so it is signed out here even when the service cannot be told.
             }
         }
     }

@@ -270,6 +270,8 @@ internal val frSettings: Map<String, String> = mapOf(
     "New password" to "Nouveau mot de passe",
     "Set password and sign in" to "Définir le mot de passe et se connecter",
     "Sign out" to "Se déconnecter",
+    "Account and settings" to "Compte et paramètres",
+    "Not signed in" to "Non connecté",
     "Loading…" to "Chargement…",
     "Sync is not active on this account." to "La synchronisation n'est pas active sur ce compte.",
     "Sync is active until {0}." to "La synchronisation est active jusqu'au {0}.",

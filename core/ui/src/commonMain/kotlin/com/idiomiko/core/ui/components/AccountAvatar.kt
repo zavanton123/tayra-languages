@@ -30,8 +30,11 @@ import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import org.jetbrains.compose.resources.decodeToImageBitmap
 
-/** The account signed in to, for the bar: its [name] or [email], its [picture] (an encoded image) when it has one, and opening the account page. */
-class AccountBadge(val email: String, val name: String?, val picture: ByteArray?, val open: () -> Unit)
+/**
+ * The account signed in to, for the bar: its [name] or [email], its [picture] (an encoded image) when it has one,
+ * signing this device out, and opening the account page.
+ */
+class AccountBadge(val email: String, val name: String?, val picture: ByteArray?, val signOut: () -> Unit = {}, val open: () -> Unit)
 
 /** Provided at the root of the app; null when signed out or where the build has no account service. */
 val LocalAccountBadge = compositionLocalOf<AccountBadge?> { null }
@@ -49,7 +52,7 @@ fun AccountAvatar(name: String?, email: String, picture: ByteArray?, size: Dp, m
 internal fun initial(name: String?, email: String): String =
     (name?.trim()?.takeIf { it.isNotEmpty() } ?: email.trim()).firstOrNull()?.uppercase() ?: "?"
 
-/** The bar's way to the account page: its avatar, named by a tooltip. */
+/** A phone bar's way to the account page: its avatar, named by a tooltip. */
 @Composable
 internal fun AccountButton(badge: AccountBadge) {
     val label = tr("Account")

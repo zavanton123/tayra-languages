@@ -93,6 +93,15 @@ class AccountViewModel(
         // Signing in to another account makes everything here unsent to it.
         viewModelScope.launch { accounts.signedIn.flatMapLatest { sync.unsent() }.collect { unsent -> _state.update { it.copy(unsent = unsent) } } }
         viewModelScope.launch { knownWords.collect { words -> _state.update { it.copy(knownWords = words) } } }
+        // Signed out from the bar's account menu, the page shows the sign-in again.
+        viewModelScope.launch {
+            accounts.signedIn.collect { email ->
+                if (email == null && _state.value.signedIn != null) {
+                    _state.update { it.signedOut() }
+                    offerProviders()
+                }
+            }
+        }
     }
 
     /** Reads what the account holds again, when signed in. */

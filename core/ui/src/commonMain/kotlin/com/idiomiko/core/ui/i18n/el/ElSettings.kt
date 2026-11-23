@@ -270,6 +270,8 @@ internal val elSettings: Map<String, String> = mapOf(
     "New password" to "Νέος κωδικός",
     "Set password and sign in" to "Ορισμός κωδικού και σύνδεση",
     "Sign out" to "Αποσύνδεση",
+    "Account and settings" to "Λογαριασμός και ρυθμίσεις",
+    "Not signed in" to "Δεν έχετε συνδεθεί",
     "Loading…" to "Φόρτωση…",
     "Sync is not active on this account." to "Ο συγχρονισμός δεν είναι ενεργός σε αυτόν τον λογαριασμό.",
     "Sync is active until {0}." to "Ο συγχρονισμός είναι ενεργός έως {0}.",

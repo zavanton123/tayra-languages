@@ -123,11 +123,13 @@ fun AppNavHost(openCourses: Int = 0) {
         if (sync.available) SyncEntry(sync.running, sync.lastSynced, sync.lastFailed, sync.unsent, syncPrompt::open) else null
     }
     val pullToSync = syncEntry != null && LocalWindowWidth.current.isCompact && destination?.let(::pullsToSync) == true
-    // The bars' avatar, while signed in: the account's picture or first letter, leading to the account page.
+    // The bars' avatar, while signed in: the account's picture or first letter, leading to the account page; the wide bar's menu also signs out.
     val badgeModel = koinViewModel<AccountBadgeViewModel>()
     val badgeState by badgeModel.state.collectAsStateWithLifecycle()
     val accountBadge = remember(badgeState, navController) {
-        badgeState.profile?.let { p -> AccountBadge(p.email, p.name, badgeState.picture) { navController.navigate(Route.Account) { launchSingleTop = true } } }
+        badgeState.profile?.let { p ->
+            AccountBadge(p.email, p.name, badgeState.picture, signOut = badgeModel::signOut) { navController.navigate(Route.Account) { launchSingleTop = true } }
+        }
     }
     CompositionLocalProvider(
         LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,

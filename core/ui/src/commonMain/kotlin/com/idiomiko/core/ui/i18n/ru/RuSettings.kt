@@ -270,6 +270,8 @@ internal val ruSettings: Map<String, String> = mapOf(
     "New password" to "Новый пароль",
     "Set password and sign in" to "Задать пароль и войти",
     "Sign out" to "Выйти",
+    "Account and settings" to "Аккаунт и настройки",
+    "Not signed in" to "Вход не выполнен",
     "Loading…" to "Загрузка…",
     "Sync is not active on this account." to "Синхронизация не активна для этого аккаунта.",
     "Sync is active until {0}." to "Синхронизация активна до {0}.",

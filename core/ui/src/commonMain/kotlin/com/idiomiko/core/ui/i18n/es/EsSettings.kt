@@ -270,6 +270,8 @@ internal val esSettings: Map<String, String> = mapOf(
     "New password" to "Nueva contraseña",
     "Set password and sign in" to "Establecer contraseña e iniciar sesión",
     "Sign out" to "Cerrar sesión",
+    "Account and settings" to "Cuenta y ajustes",
+    "Not signed in" to "No has iniciado sesión",
     "Loading…" to "Cargando…",
     "Sync is not active on this account." to "La sincronización no está activa en esta cuenta.",
     "Sync is active until {0}." to "La sincronización está activa hasta el {0}.",

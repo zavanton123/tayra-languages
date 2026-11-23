@@ -73,41 +73,24 @@ private data class MenuGroup(
     val covers: Set<NavSection> = setOf(section),
 )
 
-private fun menuGroups(videos: Boolean, account: Boolean = true) = listOfNotNull(
+private fun menuGroups(videos: Boolean) = listOfNotNull(
     MenuGroup(NavSection.HOME, listOf(MenuEntry("Home", Route.Home)), direct = true),
     // Everything to read in one menu: the courses, the books and the news.
     MenuGroup(NavSection.BOOKS, readPages.map { MenuEntry(it.label, it.route) }, label = "Read", covers = readSections),
     MenuGroup(NavSection.VIDEOS, listOf(MenuEntry("All videos", Route.Videos), MenuEntry("Add video", Route.NewVideo))).takeIf { videos },
     MenuGroup(NavSection.PLAYLISTS, listOf(MenuEntry("Playlists", Route.Playlists)), direct = true),
-    // Their settings are under Settings, with the others.
+    // Their settings are with the others, beside the settings pages' sidebar.
     MenuGroup(NavSection.FLASHCARDS, flashcardPages.map { MenuEntry(it.label, it.route) }),
     MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
-    MenuGroup(
-        NavSection.SETTINGS,
-        // As the phone's More and the Settings index have them: the preferences, the offline resources, then the data.
-        // Data holds the backups and clearing the data on this device.
-        listOfNotNull(
-            MenuEntry("General", Route.Settings),
-            MenuEntry("Languages", Route.Languages),
-            MenuEntry("Flashcards", Route.FlashcardSettings),
-            MenuEntry("Vocabulary", Route.VocabularySettings),
-            MenuEntry("Hotkeys", Route.Shortcuts),
-            MenuEntry("Speech", Route.Speech),
-            MenuEntry("Translation", Route.OfflineTranslation),
-            MenuEntry("Data", Route.Backups),
-            MenuEntry("About", Route.About),
-            MenuEntry("Experiments", Route.ExperimentalFeatures),
-        ),
-    ),
-    // Signing in and syncing, apart from the settings so it is found at once; signed in, the avatar at the end leads there instead.
-    MenuGroup(NavSection.ACCOUNT, listOf(MenuEntry("Account", Route.Account)), direct = true).takeIf { account },
 )
 
 const val APP_NAME = "Idiomiko"
 
 /**
  * The application bar with the choice of the language being learned and the main menu (Home, Read with the
- * courses, books and news, Videos, Playlists, Flashcards, Vocabulary, Settings), shown on all screens except the reading pane. On narrow screens the menu collapses into one overflow menu.
+ * courses, books and news, Videos, Playlists, Flashcards, Vocabulary), shown on all screens except the reading pane.
+ * On narrow screens the menu collapses into one overflow menu. The wide bar ends with the account menu, which leads
+ * to the account, the settings, the data and About: under the avatar when signed in, a person icon when not.
  *
  * Wide windows always show the logo with the app's name, which leads to the home screen. [title] names the
  * screen only in the compact bar on phones, so screens show their own heading on wide windows
@@ -185,10 +168,9 @@ fun AppTopBar(
                 }
                 if (showMenu) {
                     val badge = LocalAccountBadge.current
-                    WideMenu(section, onNavigate, account = badge == null)
-                    badge?.let {
+                    WideMenu(section, onNavigate) {
                         Spacer(Modifier.width(AppSpacing.s))
-                        AccountButton(it)
+                        AccountMenuButton(badge, onNavigate)
                     }
                 }
             }
@@ -198,26 +180,28 @@ fun AppTopBar(
 }
 
 /**
- * The tabs of the wide bar. Those that do not fit the window fold, from the last one on, into a
- * More tab at the end, whose menu lists their pages, so a narrower window still reaches them all.
+ * The tabs of the wide bar, then [end], which always shows. Tabs that do not fit the window fold, from the last one
+ * on, into a More tab before [end], whose menu lists their pages, so a narrower window still reaches them all.
  */
 @Composable
-private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit, account: Boolean = true) {
-    val groups = menuGroups(LocalVideosEnabled.current, account)
+private fun WideMenu(section: NavSection?, onNavigate: (Route) -> Unit, end: @Composable () -> Unit) {
+    val groups = menuGroups(LocalVideosEnabled.current)
     SubcomposeLayout { constraints ->
         val free = Constraints()
+        val last = subcompose(END) { Row(verticalAlignment = Alignment.CenterVertically) { end() } }.single().measure(free)
+        val room = (constraints.maxWidth - last.width).coerceAtLeast(0)
         // Measured apart, hidden from screen readers: a tab that does not fit is never placed, and must not be read out either.
         fun width(slot: Any, tab: @Composable () -> Unit) =
             subcompose(slot) { Box(Modifier.clearAndSetSemantics {}) { tab() } }.single().measure(free).width
         val widths = groups.map { group -> width("measure-${group.section}") { GroupTab(group, section, onNavigate) } }
         var shown = groups.size
-        if (widths.sum() > constraints.maxWidth) {
+        if (widths.sum() > room) {
             val more = width(MORE_PROBE) { OverflowTab(emptyList(), section, onNavigate) }
-            while (shown > 0 && widths.take(shown).sum() + more > constraints.maxWidth) shown--
+            while (shown > 0 && widths.take(shown).sum() + more > room) shown--
         }
         val tabs = groups.take(shown).map { group -> subcompose(group.section) { GroupTab(group, section, onNavigate) }.single().measure(free) }
         val more = if (shown < groups.size) subcompose(MORE) { OverflowTab(groups.drop(shown), section, onNavigate) }.single().measure(free) else null
-        val placed = tabs + listOfNotNull(more)
+        val placed = tabs + listOfNotNull(more, last)
         val height = placed.maxOfOrNull { it.height } ?: 0
         layout(placed.sumOf { it.width }, height) {
             var x = 0
@@ -305,6 +289,9 @@ private fun NavTab(label: String, active: Boolean, badge: Int?, onClick: () -> U
 /** The slots of the More tab: measured empty to see what room it needs, then with the tabs it holds. */
 private const val MORE_PROBE = "more-probe"
 private const val MORE = "more"
+
+/** The slot of what ends the bar, after the tabs. */
+private const val END = "end"
 
 private val PHONE_BAR_HEIGHT = 72.dp
 private val WIDE_BAR_HEIGHT = 64.dp

@@ -270,6 +270,8 @@ internal val ptSettings: Map<String, String> = mapOf(
     "New password" to "Nova senha",
     "Set password and sign in" to "Definir senha e entrar",
     "Sign out" to "Sair",
+    "Account and settings" to "Conta e configurações",
+    "Not signed in" to "Sem sessão iniciada",
     "Loading…" to "Carregando…",
     "Sync is not active on this account." to "A sincronização não está ativa nesta conta.",
     "Sync is active until {0}." to "A sincronização está ativa até {0}.",

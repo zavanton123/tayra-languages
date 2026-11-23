@@ -270,6 +270,8 @@ internal val plSettings: Map<String, String> = mapOf(
     "New password" to "Nowe hasło",
     "Set password and sign in" to "Ustaw hasło i zaloguj się",
     "Sign out" to "Wyloguj się",
+    "Account and settings" to "Konto i ustawienia",
+    "Not signed in" to "Nie zalogowano",
     "Loading…" to "Wczytywanie…",
     "Sync is not active on this account." to "Synchronizacja nie jest aktywna na tym koncie.",
     "Sync is active until {0}." to "Synchronizacja jest aktywna do {0}.",

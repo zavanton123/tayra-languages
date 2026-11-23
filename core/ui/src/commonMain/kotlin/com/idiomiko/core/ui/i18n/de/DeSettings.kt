@@ -270,6 +270,8 @@ internal val deSettings: Map<String, String> = mapOf(
     "New password" to "Neues Passwort",
     "Set password and sign in" to "Passwort festlegen und anmelden",
     "Sign out" to "Abmelden",
+    "Account and settings" to "Konto und Einstellungen",
+    "Not signed in" to "Nicht angemeldet",
     "Loading…" to "Wird geladen…",
     "Sync is not active on this account." to "Die Synchronisierung ist für dieses Konto nicht aktiv.",
     "Sync is active until {0}." to "Die Synchronisierung ist bis {0} aktiv.",

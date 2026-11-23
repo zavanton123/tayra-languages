@@ -270,6 +270,8 @@ internal val zhSettings: Map<String, String> = mapOf(
     "New password" to "新密码",
     "Set password and sign in" to "设置密码并登录",
     "Sign out" to "退出登录",
+    "Account and settings" to "账户和设置",
+    "Not signed in" to "未登录",
     "Loading…" to "正在加载…",
     "Sync is not active on this account." to "此账户的同步未开启。",
     "Sync is active until {0}." to "同步有效期至 {0}。",

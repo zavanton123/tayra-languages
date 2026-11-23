@@ -44,7 +44,10 @@ import com.idiomiko.core.domain.account.StoreReceipt
 import com.idiomiko.core.domain.account.Subscriptions
 import com.idiomiko.core.domain.account.SyncProgress
 import com.idiomiko.core.domain.account.SyncSummary
+import com.idiomiko.core.ui.components.AccountBadge
+import com.idiomiko.core.ui.components.LocalAccountBadge
 import com.idiomiko.core.ui.components.ProvideWindowWidth
+import androidx.compose.ui.test.assertIsSelected
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.emptyFlow
@@ -164,6 +167,62 @@ class AccountScreenTest {
         onNodeWithText("Continue with Google").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         assertEquals("google-user@example.com", accounts.signedIn.value)
+    }
+
+    /** Sign out in the bar's account menu signs the device out as the page's own button does, and the page asks to sign in again. */
+    @Test
+    fun signingOutFromTheAccountMenu() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val accounts = FakeAccounts()
+        runBlocking { accounts.signIn("reader@example.com", "correct horse") }
+        val badge = AccountBadgeViewModel(accounts)
+        runner = SyncRunner(FakeSync())
+        val viewModel = AccountViewModel(accounts, runner)
+        setContent {
+            IdiomikoTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalAccountBadge provides AccountBadge("reader@example.com", "Ana Reader", null, signOut = badge::signOut) {}) {
+                        AccountScreen(onNavigate = {}, onBack = {}, viewModel = viewModel)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("settings-section-ACCOUNT").assertIsSelected()
+        onNodeWithTag("account-avatar").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isNotEmpty() }
+        shot("NAV_MENU_SCREENSHOT", "-signed-in")
+        onNodeWithTag("account-menu-sign-out").performClick()
+        waitUntil(timeoutMillis = 5_000) { accounts.signedIn.value == null }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-email").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("account-card").fetchSemanticsNodes().size)
+    }
+
+    /** The open person menu over the signed-out page, as the window shows it. */
+    @Test
+    fun signedOutTheAccountMenuSaysSo() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        show(FakeAccounts(), identity = FakeIdentity())
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-google").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-button").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Not signed in").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Sign out").assertDoesNotExist()
+        shot("NAV_MENU_SCREENSHOT", "-signed-out")
+    }
+
+    /** The window as it shows, the menus over the page included, saved where the environment variable [env] says. */
+    private fun ComposeUiTest.shot(env: String, suffix: String) {
+        val path = System.getenv(env) ?: return
+        waitForIdle()
+        val roots = onAllNodes(isRoot())
+        val page = roots[0].captureToImage().toAwtImage()
+        val canvas = java.awt.image.BufferedImage(page.width, page.height, java.awt.image.BufferedImage.TYPE_INT_ARGB)
+        val g = canvas.createGraphics()
+        g.drawImage(page, 0, 0, null)
+        for (i in 1 until roots.fetchSemanticsNodes().size) {
+            val bounds = roots[i].fetchSemanticsNode().boundsInWindow
+            g.drawImage(roots[i].captureToImage().toAwtImage(), bounds.left.toInt(), bounds.top.toInt(), null)
+        }
+        g.dispose()
+        ImageIO.write(canvas, "png", File(path.replace(".png", "$suffix.png")))
     }
 
     @Test
