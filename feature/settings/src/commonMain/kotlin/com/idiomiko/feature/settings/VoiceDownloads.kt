@@ -134,8 +134,8 @@ private fun currentVoice(choices: List<VoiceChoice>, onDevice: List<SpeechVoice>
 /**
  * The language's voices for the engine in use, one row each: a button to hear it, its name and
  * details, and where it stands. The current one is ringed; another one on the device becomes it
- * when its row is clicked; one not on the device is downloaded in place. A long list shows those on
- * the device and a few more, the rest behind Browse more voices.
+ * when its row is clicked; one not on the device is downloaded in place. A long list shows the
+ * first few and the current one, the rest behind Browse more voices.
  */
 @Composable
 internal fun VoiceList(settings: UserSettings, viewModel: SpeechViewModel, engine: LocalSpeechEngine?, learning: LanguageOption?, voices: Map<String, List<SpeechVoice>>) {
@@ -172,11 +172,11 @@ internal fun VoiceList(settings: UserSettings, viewModel: SpeechViewModel, engin
                 val item = choice.item
                 choice.key to (if (item == null) RowState.Installed(null) else rowState(item, progress[item.id] ?: modelProgress.takeIf { _ -> item.sharedModel }))
             }
-            val long = choices.size > VISIBLE_VOICES
-            val shown = if (!long || expanded) choices else {
-                val room = maxOf(VISIBLE_VOICES, choices.count { it.onDevice })
-                choices.filterIndexed { i, choice -> i < room || states[choice.key] is RowState.Working }
-            }
+            // Folded, the first few show, and the current voice and any downloading one wherever they are:
+            // a model's voices are all on the device at once, so being there cannot be what keeps a row.
+            val folded = choices.filterIndexed { i, choice -> i < VISIBLE_VOICES || choice === current || states[choice.key] is RowState.Working }
+            val long = folded.size < choices.size
+            val shown = if (!long || expanded) choices else folded
             Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 shown.forEach { choice ->
                     val item = choice.item
@@ -311,7 +311,7 @@ private fun VoiceStatus(state: RowState) {
     }
 }
 
-/** How many voices a long list shows before Browse more voices, unless more are on the device. */
+/** How many voices a long list shows before Browse more voices, besides the current one. */
 private const val VISIBLE_VOICES = 4
 
 /**

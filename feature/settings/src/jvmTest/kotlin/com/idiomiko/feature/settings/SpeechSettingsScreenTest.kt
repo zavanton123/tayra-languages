@@ -101,10 +101,11 @@ class SpeechSettingsScreenTest {
         )
         override suspend fun installPackage(id: String) { installed = true }
         override suspend fun removePackage(id: String) { installed = false }
+        var portuguese = listOf(SpeechVoice("pm_alex", "Alex (Brazilian, male)", "pt"), SpeechVoice("pf_dora", "Dora (Brazilian, female)", "pt"))
         override fun packageVoices(id: String, languageCode: String) =
-            if (languageCode == "pt") listOf(SpeechVoice("pm_alex", "Alex (Brazilian, male)", "pt"), SpeechVoice("pf_dora", "Dora (Brazilian, female)", "pt")) else emptyList()
+            if (languageCode == "pt") portuguese else emptyList()
         override suspend fun voices(languageCode: String) =
-            if (installed && languageCode == "pt") listOf(SpeechVoice("pm_alex", "Alex (Brazilian, male)", "pt"), SpeechVoice("pf_dora", "Dora (Brazilian, female)", "pt")) else emptyList()
+            if (installed && languageCode == "pt") portuguese else emptyList()
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
     }
 
@@ -246,6 +247,26 @@ class SpeechSettingsScreenTest {
         onNodeWithTag("row-$dora").assertIsSelected()
         onNodeWithTag("row-$alex").assertIsNotSelected()
         onNodeWithTag("current-$alex").assertDoesNotExist()
+    }
+
+    /** Kokoro's voices are all on the device with its model, yet a long list still folds to four and the current one. */
+    @Test
+    fun aLongKokoroListFoldsAndUnfolds() = runDesktopComposeUiTest(width = 1586, height = 1600) {
+        val kokoro = FakeKokoro().apply {
+            portuguese = listOf("pm_alex", "pf_dora", "pm_one", "pf_two", "pm_three", "pf_four").map { SpeechVoice(it, it, "pt") }
+        }
+        val repository = show(SpeechEngine.KOKORO, kokoro, FakePiper())
+        runBlocking { repository.update { it.copy(speechVoices = mapOf("KOKORO:pt" to "pf_four")) } }
+        val row = { id: String -> "row-voice-voice:KOKORO:kokoro:$id" }
+        waitForTag("voices-more")
+        waitForTag("current-voice-voice:KOKORO:kokoro:pf_four")
+        assertEquals(5, onAllNodes(hasTestTagPrefix("row-voice-voice:KOKORO:")).fetchSemanticsNodes().size)
+        onNodeWithTag(row("pm_three")).assertDoesNotExist()
+        onNodeWithText("Browse more voices").performScrollTo().performClick()
+        waitForTag(row("pm_three"))
+        assertEquals(6, onAllNodes(hasTestTagPrefix("row-voice-voice:KOKORO:")).fetchSemanticsNodes().size)
+        onNodeWithText("Show fewer").performScrollTo().performClick()
+        waitForNoTag(row("pm_three"))
     }
 
     /** Before Kokoro's model is on the device each of its voices offers it; downloading one brings them all. */
