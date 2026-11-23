@@ -1,5 +1,12 @@
 package com.idiomiko.feature.settings
 
+import androidx.compose.ui.semantics.SemanticsProperties
+import androidx.compose.ui.semantics.getOrNull
+import androidx.compose.ui.test.SemanticsMatcher
+import androidx.compose.ui.test.assertIsEnabled
+import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.assertIsNotSelected
+import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.runtime.Composable
@@ -101,15 +108,22 @@ class SpeechSettingsScreenTest {
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
     }
 
-    /** Piper: one download per voice. */
+    /** Piper: one download per voice, titled as its catalog titles them; [ready] and [runtime] make a broken installation. */
     private class FakePiper : LocalSpeechEngine {
         val installed = mutableSetOf("pt_BR-faber-medium")
+        var ready = true
+        var runtime = true
+        var checks = 0
+        var setUps = 0
         private val catalog = listOf(
-            SpeechPackage("pt_BR-faber-medium", "Faber (Brazil, medium)", "pt", "Portuguese", 63_000_000, false),
-            SpeechPackage("pt_PT-tugão-medium", "Tugão (Portugal, medium)", "pt", "Portuguese", 63_000_000, false),
-            SpeechPackage("pt_BR-cadu-medium", "Cadu (Brazil, medium)", "pt", "Portuguese", 63_000_000, false),
-            SpeechPackage("cs_CZ-jirka-low", "Jirka (Czechia, low)", "cs", "Czech", 28_000_000, false),
-            SpeechPackage("de_DE-thorsten-high", "Thorsten (Germany, high)", "de", "German", 114_000_000, false),
+            SpeechPackage("pt_BR-faber-medium", "Faber \u00b7 medium \u00b7 Brazil", "pt", "Portuguese", 63_000_000, false),
+            SpeechPackage("pt_PT-tugão-medium", "Tugão \u00b7 medium \u00b7 Portugal", "pt", "Portuguese", 63_000_000, false),
+            SpeechPackage("pt_BR-cadu-medium", "Cadu \u00b7 medium \u00b7 Brazil", "pt", "Portuguese", 63_000_000, false),
+            SpeechPackage("pt_BR-jeff-medium", "Jeff \u00b7 medium \u00b7 Brazil", "pt", "Portuguese", 63_000_000, false),
+            SpeechPackage("pt_BR-edresson-low", "Edresson \u00b7 low \u00b7 Brazil", "pt", "Portuguese", 28_000_000, false),
+            SpeechPackage("pt_BR-faber-x_low", "Faber \u00b7 x low \u00b7 Brazil", "pt", "Portuguese", 21_000_000, false),
+            SpeechPackage("cs_CZ-jirka-low", "Jirka \u00b7 low \u00b7 Czechia", "cs", "Czech", 28_000_000, false),
+            SpeechPackage("de_DE-thorsten-high", "Thorsten \u00b7 high \u00b7 Germany", "de", "German", 114_000_000, false),
         )
         override val engine = SpeechEngine.PIPER
         override val displayName = "Piper"
@@ -117,14 +131,18 @@ class SpeechSettingsScreenTest {
         override val packagesDescription = "One download per voice, 20 to 120 MB each."
         override val hasRuntimeSetup = true
         override val progress = MutableStateFlow<String?>(null)
-        override suspend fun status() = "Piper 1.3.0 · Python 3.12.14 · ${installed.size} voices downloaded"
-        override suspend fun isReady() = true
-        override suspend fun setUp() = "ready"
+        override suspend fun status(): String {
+            checks++
+            return if (ready) "Piper 1.3.0 · Python 3.12.14 · ${installed.size} voices downloaded" else "Piper is not installed yet: No module named 'piper'"
+        }
+        override suspend fun isReady() = ready
+        override suspend fun runtimeInstalled() = runtime
+        override suspend fun setUp(): String { setUps++; ready = true; return "ready" }
         override suspend fun packages() = catalog.map { it.copy(installed = it.id in installed) }
         override suspend fun installPackage(id: String) { installed += id }
         override suspend fun removePackage(id: String) { installed -= id }
         override suspend fun voices(languageCode: String) =
-            packages().filter { it.installed && it.languageCode == languageCode }.map { SpeechVoice(it.id, it.title, languageCode) }
+            if (!ready) emptyList() else packages().filter { it.installed && it.languageCode == languageCode }.map { SpeechVoice(it.id, it.title, languageCode) }
         override suspend fun synthesize(text: String, languageCode: String, voiceId: String?, speed: Float): ByteArray? = null
     }
 
@@ -191,54 +209,151 @@ class SpeechSettingsScreenTest {
     private fun ComposeUiTest.waitForNoTag(tag: String) =
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag(tag).fetchSemanticsNodes().isEmpty() }
 
+    /** Kokoro's voices are a row each; clicking one on the device makes it the voice that speaks. */
     @Test
-    fun kokoroShowsItsModelAndTheChosenVoice() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun kokoroVoicesAreRowsOfTheirOwnAndOneIsChosenByItsRow() = runDesktopComposeUiTest(width = 1586, height = 1200) {
         val kokoro = FakeKokoro()
         val settings = show(SpeechEngine.KOKORO, kokoro, FakePiper())
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Alex (Brazilian, male)")).fetchSemanticsNodes().isNotEmpty() }
+        val alex = "voice-voice:KOKORO:kokoro:pm_alex"
+        val dora = "voice-voice:KOKORO:kokoro:pf_dora"
+        waitForTag("row-$dora")
         onNodeWithText("80%").assertExists()
+        onNodeWithText("Portuguese voices").assertExists()
+        onNodeWithText("Brazilian · Female · Kokoro").assertExists()
+        onNodeWithText("Try this voice").assertDoesNotExist()
+        onNodeWithText("Portuguese voice").assertDoesNotExist()
 
         onNodeWithContentDescription("speech speed").performSemanticsAction(SemanticsActions.SetProgress) { it(0.85f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 0.85f }
 
-        // Kokoro's voices share one model, listed as one row with the voices it holds.
-        waitForTag("row-voice-Kokoro")
-        onNodeWithText("Kokoro voices").assertExists()
-        onNodeWithText("Alex (Brazilian, male), Dora (Brazilian, female)").assertExists()
+        // Nothing chosen yet: the engine's first voice speaks, and its row says so.
+        onNodeWithTag("row-$alex").assertIsSelected()
+        onNodeWithTag("current-$alex").assertExists()
+        onNodeWithTag("row-$dora").assertIsNotSelected()
+        onNodeWithTag("play-$dora").assertIsEnabled()
+        onNodeWithTag("row-$dora").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.speechVoices["KOKORO:pt"] == "pf_dora" }
+        waitForTag("current-$dora")
+        onNodeWithTag("row-$dora").assertIsSelected()
+        onNodeWithTag("row-$alex").assertIsNotSelected()
+        onNodeWithTag("current-$alex").assertDoesNotExist()
     }
 
-    /** The language's voices are downloaded and removed on the page; the last one that reads it stays. */
+    /** Before Kokoro's model is on the device each of its voices offers it; downloading one brings them all. */
     @Test
-    fun theVoicesAreDownloadedAndRemovedInPlace() = runDesktopComposeUiTest(width = 1586, height = 1900) {
+    fun aKokoroVoiceDownloadsTheModelForAllItsVoices() = runDesktopComposeUiTest(width = 1586, height = 1400) {
+        val kokoro = FakeKokoro().apply { installed = false }
+        show(SpeechEngine.KOKORO, kokoro, FakePiper())
+        val alex = "voice-voice:KOKORO:kokoro:pm_alex"
+        val dora = "voice-voice:KOKORO:kokoro:pf_dora"
+        waitForTag("download-$dora")
+        onNodeWithTag("download-$alex").assertExists()
+        onNodeWithTag("play-$dora").assertIsNotEnabled()
+        onNodeWithTag("download-$dora").performClick()
+        waitForTag("remove-$alex")
+        assertTrue(kokoro.installed)
+        onNodeWithTag("remove-$dora").assertExists()
+        onNodeWithTag("play-$alex").assertIsEnabled()
+        onNodeWithTag("play-$dora").assertIsEnabled()
+    }
+
+    /** The language's voices are downloaded and removed in their rows; the last one that reads it stays. */
+    @Test
+    fun theVoicesAreDownloadedAndRemovedInPlace() = runDesktopComposeUiTest(width = 1586, height = 1600) {
         val piper = FakePiper()
         val kokoro = FakeKokoro().apply { installed = false }
         val recognition = FakeRecognition().apply { installed += RecognitionQuality.MEDIUM }
-        show(SpeechEngine.PIPER, kokoro, piper, recognition)
-        val faber = "voice:PIPER:pt_BR-faber-medium"
-        val cadu = "voice:PIPER:pt_BR-cadu-medium"
-        waitForTag("download-voice-$cadu")
+        val settings = show(SpeechEngine.PIPER, kokoro, piper, recognition)
+        val faber = "voice-voice:PIPER:pt_BR-faber-medium"
+        val cadu = "voice-voice:PIPER:pt_BR-cadu-medium"
+        waitForTag("download-$cadu")
+        assertTrue(onAllNodesWithText("Brazil · Medium quality · Piper").fetchSemanticsNodes().isNotEmpty())
+        // Piper's voices only: Kokoro's are listed when Kokoro speaks.
+        onNodeWithTag("row-voice-voice:KOKORO:kokoro:pf_dora").assertDoesNotExist()
         // The one voice on the device is the last that reads Portuguese, so it cannot be removed.
-        onNodeWithTag("row-voice-$faber").assertExists()
-        onNodeWithTag("remove-voice-$faber").assertDoesNotExist()
-        onNodeWithText("Speech settings").assertDoesNotExist()
+        onNodeWithTag("row-$faber").assertIsSelected()
+        onNodeWithTag("current-$faber").assertExists()
+        onNodeWithTag("remove-$faber").assertDoesNotExist()
+        onNodeWithTag("play-$faber").assertIsEnabled()
+        onNodeWithTag("play-$cadu").assertIsNotEnabled()
+        onNodeWithText("Voices").assertDoesNotExist()
+        onNodeWithText("Advanced engine settings").assertDoesNotExist()
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it) }
 
-        onNodeWithTag("download-voice-$cadu").performScrollTo().performClick()
-        waitForTag("remove-voice-$cadu")
+        onNodeWithTag("download-$cadu").performScrollTo().performClick()
+        waitForTag("remove-$cadu")
         assertTrue("pt_BR-cadu-medium" in piper.installed)
-        // With two voices on the device, either can go.
-        waitForTag("remove-voice-$faber")
+        onNodeWithTag("play-$cadu").assertIsEnabled()
+        // With two voices on the device, either can go, and the new one is chosen by its row.
+        waitForTag("remove-$faber")
+        onNodeWithTag("row-$cadu").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.speechVoices["PIPER:pt"] == "pt_BR-cadu-medium" }
+        waitForTag("current-$cadu")
+        onNodeWithTag("row-$cadu").assertIsSelected()
 
-        onNodeWithTag("remove-voice-$faber").performScrollTo().performClick()
+        onNodeWithTag("remove-$faber").performScrollTo().performClick()
         onNodeWithTag("confirm-remove").performClick()
-        waitForNoTag("remove-voice-$faber")
-        waitForTag("download-voice-$faber")
+        waitForNoTag("remove-$faber")
+        waitForTag("download-$faber")
         assertEquals(setOf("pt_BR-cadu-medium"), piper.installed)
-        onNodeWithTag("remove-voice-$cadu").assertDoesNotExist()
+        onNodeWithTag("remove-$cadu").assertDoesNotExist()
     }
 
-    /** A phone shows a pill for the voice situation and the speed under its label; a missing voice is downloaded from the notice. */
+    /** A long list shows the voices on the device and enough others to make four, the rest behind Browse more voices. */
+    @Test
+    fun browseMoreVoicesShowsTheRest() = runDesktopComposeUiTest(width = 1586, height = 1600) {
+        show(SpeechEngine.PIPER, FakeKokoro().apply { installed = false }, FakePiper())
+        waitForTag("voices-more")
+        assertEquals(4, onAllNodes(hasTestTagPrefix("row-voice-voice:PIPER:")).fetchSemanticsNodes().size)
+        onNodeWithTag("row-voice-voice:PIPER:pt_BR-faber-x_low").assertDoesNotExist()
+        onNodeWithText("Browse more voices").performScrollTo().performClick()
+        waitForTag("row-voice-voice:PIPER:pt_BR-faber-x_low")
+        assertEquals(6, onAllNodes(hasTestTagPrefix("row-voice-voice:PIPER:")).fetchSemanticsNodes().size)
+        onNodeWithText("Brazil · Very low quality · Piper").assertExists()
+        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-expanded.png")) }
+        onNodeWithText("Show fewer").performScrollTo().performClick()
+        waitForNoTag("row-voice-voice:PIPER:pt_BR-faber-x_low")
+    }
+
+    /** The installation of the engine is checked whenever the page opens; a working one offers no reinstall. */
+    @Test
+    fun theEngineIsCheckedOnOpeningAndAWorkingOneOffersNoReinstall() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val piper = FakePiper()
+        show(SpeechEngine.PIPER, FakeKokoro(), piper)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed and working")).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(piper.checks >= 1, "the check ran when the page opened")
+        onNodeWithText("Check installation").assertExists()
+        onNodeWithTag("reinstall-engine").assertDoesNotExist()
+        onNodeWithText("Reinstall Piper").assertDoesNotExist()
+    }
+
+    /** An engine on the device that does not work shows its reinstall at once, which sets it up again. */
+    @Test
+    fun aBrokenEngineShowsItsReinstall() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val piper = FakePiper().apply { ready = false }
+        show(SpeechEngine.PIPER, FakeKokoro(), piper)
+        waitForTag("reinstall-engine")
+        onNodeWithText("Something went wrong").assertExists()
+        onNodeWithText("Reinstall Piper").assertExists()
+        onNodeWithText("Check installation").assertExists()
+        onNodeWithTag("reinstall-engine").performClick()
+        waitUntil(timeoutMillis = 5_000) { piper.setUps == 1 }
+        waitForNoTag("reinstall-engine")
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed and working")).fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** An engine never installed offers Install, not a reinstall. */
+    @Test
+    fun anEngineNotInstalledOffersInstall() = runDesktopComposeUiTest(width = 1586, height = 1200) {
+        val piper = FakePiper().apply { ready = false; runtime = false }
+        show(SpeechEngine.PIPER, FakeKokoro(), piper)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Not installed")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Install").assertExists()
+        onNodeWithTag("reinstall-engine").assertDoesNotExist()
+    }
+
+    /** A phone has the same voice rows under the speed; a missing voice is downloaded from the notice. */
     @Test
     fun aPhoneDownloadsAMissingVoiceFromTheNotice() = runDesktopComposeUiTest(width = 400, height = 2600) {
         val piper = FakePiper()
@@ -249,13 +364,23 @@ class SpeechSettingsScreenTest {
         onNodeWithText("Reader playback and term pronunciation use this engine.").assertDoesNotExist()
         waitForTag("notice-download-voice")
         waitForTag("download-voice-voice:PIPER:pt_BR-cadu-medium")
-        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
+        onNodeWithTag("play-voice-voice:PIPER:pt_BR-cadu-medium").assertIsNotEnabled()
         onNodeWithTag("notice-download-voice").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Offline speech ready")).fetchSemanticsNodes().isNotEmpty() }
         assertEquals(setOf("pt_BR-faber-medium"), piper.installed, "the engine's own voice, as the app would fetch")
         onNodeWithTag("notice-download-voice").assertDoesNotExist()
-        onNodeWithTag("phone-speech-speed").performSemanticsAction(SemanticsActions.SetProgress) { it(1.0f) }
+        waitForTag("current-voice-voice:PIPER:pt_BR-faber-medium")
+        onNodeWithTag("row-voice-voice:PIPER:pt_BR-faber-medium").assertIsSelected()
+        onNodeWithTag("play-voice-voice:PIPER:pt_BR-faber-medium").assertIsEnabled()
+        onNodeWithTag("download-voice-voice:PIPER:pt_BR-cadu-medium").performScrollTo().performClick()
+        waitForTag("remove-voice-voice:PIPER:pt_BR-cadu-medium")
+        onNodeWithTag("row-voice-voice:PIPER:pt_BR-cadu-medium").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.speechVoices["PIPER:pt"] == "pt_BR-cadu-medium" }
+        waitForTag("current-voice-voice:PIPER:pt_BR-cadu-medium")
+        onNodeWithTag("phone-speech-speed").performScrollTo().performSemanticsAction(SemanticsActions.SetProgress) { it(1.0f) }
         waitUntil(timeoutMillis = 5_000) { settings.current.speechSpeed == 1.0f }
+        onNodeWithTag("phone-speech-speed").performScrollTo()
+        System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
     }
 
     /** The models on the device are chosen between here. */
@@ -303,6 +428,9 @@ class SpeechSettingsScreenTest {
         waitForIdle()
         onNodeWithTag("speech-recognition").assertDoesNotExist()
     }
+
+    private fun hasTestTagPrefix(prefix: String) =
+        SemanticsMatcher("test tag starts with $prefix") { it.config.getOrNull(SemanticsProperties.TestTag)?.startsWith(prefix) == true }
 
     private fun ComposeUiTest.save(path: String) {
         waitForIdle()

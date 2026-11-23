@@ -1,52 +1,31 @@
 package com.idiomiko.feature.settings
 
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.testTag
-import com.idiomiko.core.ui.components.LocalLearningLanguage
-import androidx.compose.foundation.Canvas
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.KeyboardArrowDown
-import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.geometry.CornerRadius
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.language.LanguageOption
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.service.LanguageAssets
@@ -62,44 +41,27 @@ import com.idiomiko.core.domain.service.SpeechPackage
 import com.idiomiko.core.domain.service.SpeechVoice
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.settings.UserSettings
-import com.idiomiko.core.ui.audio.rememberSpeaker
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
-import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppProgressBar
-import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.CodeTile
 import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.Dropdown
-import com.idiomiko.core.ui.components.IconTile
-import com.idiomiko.core.ui.components.InfoBanner
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.Notice
-import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.Reveal
 import com.idiomiko.core.ui.components.ScreenHeader
-import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SecondaryButton
-import com.idiomiko.core.ui.components.SettingRow
 import com.idiomiko.core.ui.components.SliderSetting
-import com.idiomiko.core.ui.components.StatusDot
 import com.idiomiko.core.ui.components.StatusPill
 import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.components.Tag
-import com.idiomiko.core.ui.components.formatSize
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
-import com.idiomiko.core.ui.theme.AppAlpha
-import com.idiomiko.core.ui.theme.AppBorders
-import com.idiomiko.core.ui.theme.AppShapes
-import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
-import com.idiomiko.core.ui.theme.AppText
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.Job
@@ -176,16 +138,21 @@ class SpeechViewModel(
     fun chooseVoice(engine: SpeechEngine, languageCode: String, voiceId: String) =
         update { it.copy(speechVoices = it.speechVoices + ("${engine.name}:$languageCode" to voiceId)) }
 
+    private val _broken = MutableStateFlow(false)
+
+    /** True when the last check found the engine's runtime on the device but not working, which a reinstall repairs. */
+    val broken: StateFlow<Boolean> = _broken.asStateFlow()
+
     /** Reports the installation of the chosen engine and reloads its packages and voices. */
     fun check() {
         val engine = engine() ?: return
-        task { refresh(engine); engine.status() }
+        task(engine) { refresh(engine); engine.status() }
     }
 
     fun install() {
         val engine = engine() ?: return
         _status.value = tr("Installing {0} into the app folder…", engine.displayName)
-        task { val summary = engine.setUp(); refresh(engine); summary }
+        task(engine) { val summary = engine.setUp(); refresh(engine); summary }
     }
 
     private suspend fun refresh(engine: LocalSpeechEngine) {
@@ -278,11 +245,15 @@ class SpeechViewModel(
     fun recognitionDownload(quality: RecognitionQuality): SetupItem? =
         downloads.value?.firstOrNull { it.kind == SetupKind.RECOGNITION && it.id == "recognition:${quality.name.lowercase()}" }
 
-    private fun task(block: suspend () -> String) {
+    private fun task(engine: LocalSpeechEngine, block: suspend () -> String) {
         if (_busy.value) return
         _busy.value = true
         viewModelScope.launch {
             _status.value = try { block().also { _failed.value = false } } catch (e: Exception) { _failed.value = true; e.message ?: tr("unknown error") }
+            _broken.value = engine.hasRuntimeSetup && (
+                (_ready.value && _failed.value) ||
+                    (!_ready.value && runCatching { engine.runtimeInstalled() }.getOrDefault(false))
+                )
             _busy.value = false
         }
     }
@@ -317,40 +288,22 @@ fun SpeechScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Spe
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Speech"), tr("Choose how words and passages are spoken."), onBackToSettings = onBack) { if (!compact) pill() }
-            if (compact) pill()
+            ScreenHeader(tr("Speech"), tr("Choose how words and passages are spoken."), onBackToSettings = onBack) { pill() }
             if (LocalWindowWidth.current.isExpanded) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    EngineCard(settings, viewModel, engine, voiceMissing, Modifier.weight(1f).fillMaxHeight())
-                    VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f).fillMaxHeight())
+                // The engine on the left with speech recognition under it, which keeps the two columns about as tall.
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
+                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        EngineCard(settings, viewModel, engine, voiceMissing)
+                        RecognitionCard(viewModel)
+                    }
+                    VoiceCard(settings, viewModel, engine, learning, voices, Modifier.weight(1f))
                 }
             } else {
                 EngineCard(settings, viewModel, engine, voiceMissing)
                 VoiceCard(settings, viewModel, engine, learning, voices)
+                RecognitionCard(viewModel)
             }
-            DownloadCards(viewModel, learning)
         }
-    }
-}
-
-/**
- * The voices to download and the speech recognition models: side by side on a wide window, each
- * as tall as it needs and the voices under the engine, the voices alone across the page where
- * nothing is recognised.
- */
-@Composable
-private fun DownloadCards(viewModel: SpeechViewModel, learning: LanguageOption?) {
-    val voices = viewModel.downloadsHere
-    val recognition = viewModel.recognition != null
-    val name = learning?.let { tr(it.name) }
-    if (LocalWindowWidth.current.isExpanded && voices && recognition) {
-        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl), verticalAlignment = Alignment.Top) {
-            VoicesCard(viewModel, name, Modifier.weight(1f))
-            RecognitionCard(viewModel, Modifier.weight(1f))
-        }
-    } else {
-        if (voices) VoicesCard(viewModel, name)
-        if (recognition) RecognitionCard(viewModel)
     }
 }
 
@@ -412,7 +365,7 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
     val progress by viewModel.progress.collectAsStateWithLifecycle()
     val downloads by viewModel.downloads.collectAsStateWithLifecycle()
     val downloadStates by viewModel.downloadStates.collectAsStateWithLifecycle()
-    var advanced by remember { mutableStateOf(false) }
+    val broken by viewModel.broken.collectAsStateWithLifecycle()
     // The way to a voice is in the notice that says one is missing: it downloads one in place.
     val working = ready && !failed
     val tint = when {
@@ -425,7 +378,7 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
             busy -> tr("Checking…")
             working && voiceMissing -> tr("Installed; no voice for this language yet")
             working -> tr("Installed and working")
-            ready -> tr("Something went wrong")
+            ready || broken -> tr("Something went wrong")
             else -> tr("Not installed")
         },
         message = status?.let { tr(it) },
@@ -435,7 +388,7 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
         busy = busy,
         action = {
             when {
-                engine.hasRuntimeSetup && !ready && !busy -> PrimaryButton(tr("Install"), onClick = viewModel::install)
+                engine.hasRuntimeSetup && !ready && !broken && !busy -> PrimaryButton(tr("Install"), onClick = viewModel::install)
                 working && voiceMissing && viewModel.offersVoice(downloads, downloadStates) -> DownloadVoiceButton(viewModel)
                 else -> SecondaryButton(tr("Check installation"), onClick = viewModel::check, enabled = !busy)
             }
@@ -446,32 +399,29 @@ private fun EngineStatus(viewModel: SpeechViewModel, engine: LocalSpeechEngine, 
         Text(tr(it), style = MaterialTheme.typography.bodySmall)
         AppProgressBar(null, Modifier.padding(top = AppSpacing.xs))
     }
-    if (engine.hasRuntimeSetup) {
+    if (broken && !busy) {
         Spacer(Modifier.height(AppSpacing.m))
-        Column(Modifier.fillMaxWidth().clip(AppShapes.panel).border(AppBorders.hairline(), AppShapes.panel)) {
-            Row(
-                Modifier.fillMaxWidth().clickable { advanced = !advanced }.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Icon(if (advanced) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
-                Spacer(Modifier.width(AppSpacing.s))
-                Text(tr("Advanced engine settings"), style = MaterialTheme.typography.bodyLarge)
-            }
-            Reveal(advanced) {
-                Column(Modifier.padding(start = AppSpacing.l, end = AppSpacing.l, bottom = AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    Text(
-                        tr("{0} runs in the app's own Python, kept in the app folder. Reinstalling downloads it again, which repairs a broken installation; downloaded voices are kept.", engine.displayName),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                    SecondaryButton(tr("Reinstall {0}", engine.displayName), onClick = viewModel::install, enabled = !busy)
-                }
-            }
-        }
+        ReinstallEngine(viewModel, engine)
     }
 }
 
-/** The voice for the language being learned, the speed, and a sentence to hear them with. */
+/** Shown only while the check finds the engine broken: what a reinstall does, and the button for it. */
+@Composable
+internal fun ReinstallEngine(viewModel: SpeechViewModel, engine: LocalSpeechEngine) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+        Text(
+            tr("{0} runs in the app's own Python, kept in the app folder. Reinstalling downloads it again, which repairs a broken installation; downloaded voices are kept.", engine.displayName),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+        )
+        SecondaryButton(tr("Reinstall {0}", engine.displayName), onClick = viewModel::install, modifier = Modifier.testTag("reinstall-engine"))
+    }
+}
+
+/**
+ * The speed and the language's voices for the engine in use, each to hear, choose, download or
+ * remove in place.
+ */
 @Composable
 private fun VoiceCard(
     settings: UserSettings,
@@ -493,33 +443,8 @@ private fun VoiceCard(
             else -> tr("Choose the {0} voice and hear it.", languageName)
         },
         icon = AppIcons.VolumeUp,
-        modifier = modifier,
+        modifier = modifier.testTag("speech-voices"),
     ) {
-        val options = learning?.let { voices[it.code] }.orEmpty()
-        when {
-            engine == null -> Text(
-                tr("The system picks the voice for each language."),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-            learning != null && options.isNotEmpty() -> {
-                val chosen = settings.speechVoices["${engine.engine.name}:${learning.code}"]
-                Dropdown(
-                    options = options,
-                    selected = options.firstOrNull { it.id == chosen } ?: options.first(),
-                    onSelect = { voice -> viewModel.chooseVoice(engine.engine, learning.code, voice.id) },
-                    label = tr("{0} voice", tr(learning.name)),
-                    optionLabel = { localizedVoiceName(it.name) },
-                    modifier = Modifier.fillMaxWidth(),
-                )
-            }
-            else -> InfoBanner(
-                if (languageName == null) tr("{0} has no voice for your language on this device yet, so the system voice reads it.", engine.displayName)
-                else tr("{0} has no {1} voice on this device yet, so the system voice reads {1}.", engine.displayName, languageName),
-                tint = StatusTints.warning,
-                icon = Icons.Default.Warning,
-            )
-        }
         if (engine?.supportsSpeed == true) {
             SliderSetting(
                 tr("Speech speed"),
@@ -527,63 +452,13 @@ private fun VoiceCard(
                 settings.speechSpeed,
                 0.5f..1.5f,
                 onChange = { v -> viewModel.update { it.copy(speechSpeed = v) } },
-                modifier = Modifier.padding(vertical = AppSpacing.m),
+                modifier = Modifier.padding(top = AppSpacing.s),
                 step = 0.05f,
                 sliderModifier = Modifier.semantics { contentDescription = tr("speech speed") },
             )
+            AppDivider(Modifier.padding(vertical = AppSpacing.l))
         }
-        AppDivider(Modifier.padding(vertical = AppSpacing.m))
-        TryIt(viewModel, learning)
-    }
-}
-
-/** A sentence in the language being learned, to hear the chosen engine and voice with. */
-@Composable
-private fun TryIt(viewModel: SpeechViewModel, language: LanguageOption?) {
-    val speaker = rememberSpeaker(viewModel.localSpeech, viewModel.settingsRepository)
-    val working by speaker.working.collectAsStateWithLifecycle()
-    val playing by speaker.playing.collectAsStateWithLifecycle()
-    var text by remember(language) { mutableStateOf(language?.let { SAMPLES[it.code] }.orEmpty()) }
-    Text(tr("Try this voice"), style = AppText.itemTitle)
-    Spacer(Modifier.height(AppSpacing.s))
-    AppTextField(
-        value = text,
-        onValueChange = { text = it },
-        placeholder = { Text(language?.let { tr("Type a sentence in {0}", tr(it.name)) } ?: tr("Type a sentence in the language you are learning")) },
-        modifier = Modifier.fillMaxWidth(),
-    )
-    Spacer(Modifier.height(AppSpacing.l))
-    val active = playing != null && playing == text
-    Row(verticalAlignment = Alignment.CenterVertically) {
-        PrimaryButton(
-            when {
-                active && working -> tr("Preparing…")
-                active -> tr("Stop")
-                else -> tr("Play sample")
-            },
-            onClick = { speaker.toggle(text, language?.code ?: "en") },
-            icon = if (active && !working) AppIcons.Stop else AppIcons.VolumeUp,
-            enabled = text.isNotBlank(),
-        )
-        Spacer(Modifier.width(AppSpacing.xxl))
-        Waveform(active = active && !working, modifier = Modifier.weight(1f).height(WAVEFORM_HEIGHT))
-    }
-}
-
-/** A row of bars like a recording's waveform, in the accent colour while the sample plays. */
-@Composable
-private fun Waveform(active: Boolean, modifier: Modifier = Modifier) {
-    val color = if (active) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.primary.copy(alpha = AppAlpha.disabled)
-    Canvas(modifier) {
-        val bar = 3.dp.toPx()
-        val gap = 4.dp.toPx()
-        val count = ((size.width + gap) / (bar + gap)).toInt()
-        for (i in 0 until count) {
-            // A fixed pattern of louder and softer bars, so it reads as speech without real audio data.
-            val level = 0.2f + 0.8f * (0.5f + 0.5f * kotlin.math.sin(i * 0.9f) * kotlin.math.cos(i * 0.37f)) * (if (i % 7 == 3) 1f else 0.7f)
-            val height = size.height * level.coerceIn(0.15f, 1f)
-            drawRoundRect(color, Offset(i * (bar + gap), (size.height - height) / 2), Size(bar, height), CornerRadius(bar / 2))
-        }
+        VoiceList(settings, viewModel, engine, learning, voices)
     }
 }
 
@@ -595,10 +470,7 @@ internal val SpeechPackage.displayTitle: String
 
 private val MODEL_TITLE = Regex("""(.+) model with (\d+) voices""")
 
-private val WAVEFORM_HEIGHT = 44.dp
-private val VOICE_SEARCH_WIDTH = 260.dp
-
-/** A short sentence per language so the Try it field is never empty for the common ones. */
+/** A short sentence per language, which each voice's play button reads. */
 internal val SAMPLES: Map<String, String> = mapOf(
     "en" to "Reading a little every day is the best way to learn.",
     "de" to "Jeden Tag ein wenig zu lesen ist der beste Weg zu lernen.",
@@ -613,19 +485,6 @@ internal val SAMPLES: Map<String, String> = mapOf(
     "uk" to "Читати потроху щодня \u2014 найкращий спосіб навчатися.",
     "cs" to "Číst každý den trochu je nejlepší způsob, jak se učit.",
 )
-
-/**
- * A voice's name with its details in the interface language, in brackets, "Dora (Brazilian, female)",
- * or after dots, "Cadu · medium · Brazil". A word without a translation stays as it is.
- */
-internal fun localizedVoiceName(name: String): String {
-    val parts = name.split(" · ")
-    if (parts.size > 1) return (listOf(parts.first()) + parts.drop(1).map { tr(it) }).joinToString(" · ")
-    val open = name.lastIndexOf(" (")
-    if (open < 0 || !name.endsWith(")")) return name
-    val details = name.substring(open + 2, name.length - 1).split(", ").joinToString(", ") { tr(it) }
-    return "${name.substring(0, open)} ($details)"
-}
 
 /** "Kokoro voice model", or "Kokoro compact model" for a compact copy downloaded before only full models were offered. */
 @Composable
