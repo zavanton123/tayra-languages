@@ -3,7 +3,6 @@ package com.idiomiko.core.ui.i18n.zh
 internal val zhSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "设置",
-    "Personalise your reading experience." to "打造个性化的阅读体验。",
     "More settings" to "更多设置",
     "Course packs" to "课程包",
     "Book packs" to "图书包",
@@ -24,7 +23,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Reading" to "阅读",
     "{0} new a day" to "每天 {0} 张新卡",
     "The version of the app and where it comes from." to "应用的版本和来源。",
-    "Books you put away, to bring back or delete." to "已归档的书，可恢复或删除。",
     "Offline resources" to "离线资源",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "调整字体、字号和间距，让阅读更舒适。",
     "Reading font" to "阅读字体",
@@ -69,7 +67,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "This file is not a Idiomiko backup" to "此文件不是 Idiomiko 备份",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "此备份由较新版本的 Idiomiko 创建；请更新应用后再恢复",
     "Backups" to "备份",
-    "Protect your library, vocabulary, progress, and preferences." to "保护你的书库、词汇、进度和偏好设置。",
     "Create a backup" to "创建备份",
     "Save your languages, books, vocabulary, reading history, and settings." to "保存你的语言、书籍、词汇、阅读记录和设置。",
     "Create backup" to "创建备份",

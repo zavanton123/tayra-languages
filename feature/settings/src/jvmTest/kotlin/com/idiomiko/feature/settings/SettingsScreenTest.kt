@@ -87,7 +87,7 @@ class SettingsScreenTest {
         val settings = SettingsRepositoryImpl(MapSettings())
         runBlocking { settings.update { it.copy(readingFontScale = 1.2f) } }
         setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Personalise your reading experience.").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Appearance").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Reset to defaults").assertDoesNotExist()
         onNodeWithText("120%").assertExists()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
@@ -127,7 +127,7 @@ class SettingsScreenTest {
         for (group in listOf("Preferences", "Data")) onNodeWithText(group).assertExists()
         // The current value beside the page: the cards a day.
         onNodeWithText("15 new a day").assertExists()
-        for (route in listOf(Route.FlashcardSettings, Route.VocabularySettings, Route.ArchivedBooks)) onNodeWithTag("settings-link-$route").assertExists()
+        for (route in listOf(Route.FlashcardSettings, Route.VocabularySettings)) onNodeWithTag("settings-link-$route").assertExists()
         // More lists the offline resources, the languages, the backups and About; a phone has no keyboard shortcuts page.
         onNodeWithText("Offline resources").assertDoesNotExist()
         for (route in listOf(Route.Speech, Route.Languages, Route.Backups, Route.About, Route.Shortcuts)) onNodeWithTag("settings-link-$route").assertDoesNotExist()

@@ -3,7 +3,6 @@ package com.idiomiko.core.ui.i18n.pl
 internal val plSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Ustawienia",
-    "Personalise your reading experience." to "Dostosuj czytanie do siebie.",
     "More settings" to "Więcej ustawień",
     "Course packs" to "Pakiety kursów",
     "Book packs" to "Pakiety książek",
@@ -24,7 +23,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Reading" to "Czytanie",
     "{0} new a day" to "{0} nowa dziennie|{0} nowe dziennie|{0} nowych dziennie",
     "The version of the app and where it comes from." to "Wersja aplikacji i jej pochodzenie.",
-    "Books you put away, to bring back or delete." to "Odłożone książki, do przywrócenia lub usunięcia.",
     "Offline resources" to "Zasoby offline",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Dostosuj czcionkę, rozmiar tekstu i odstępy, aby wygodnie czytać.",
     "Reading font" to "Czcionka do czytania",
@@ -69,7 +67,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "This file is not a Idiomiko backup" to "Ten plik nie jest kopią zapasową Idiomiko",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "Ta kopia zapasowa została utworzona w nowszej wersji Idiomiko; zaktualizuj aplikację, aby ją przywrócić",
     "Backups" to "Kopie zapasowe",
-    "Protect your library, vocabulary, progress, and preferences." to "Zabezpiecz bibliotekę, słownictwo, postępy i ustawienia.",
     "Create a backup" to "Utwórz kopię zapasową",
     "Save your languages, books, vocabulary, reading history, and settings." to "Zapisz języki, książki, słownictwo, historię czytania i ustawienia.",
     "Create backup" to "Utwórz kopię",

@@ -3,7 +3,6 @@ package com.idiomiko.core.ui.i18n.el
 internal val elSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Ρυθμίσεις",
-    "Personalise your reading experience." to "Προσαρμόστε την ανάγνωση στις ανάγκες σας.",
     "More settings" to "Περισσότερες ρυθμίσεις",
     "Course packs" to "Πακέτα μαθημάτων",
     "Book packs" to "Πακέτα βιβλίων",
@@ -24,7 +23,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Reading" to "Ανάγνωση",
     "{0} new a day" to "{0} νέα την ημέρα|{0} νέες την ημέρα",
     "The version of the app and where it comes from." to "Η έκδοση της εφαρμογής και η προέλευσή της.",
-    "Books you put away, to bring back or delete." to "Βιβλία που έχετε αρχειοθετήσει, για επαναφορά ή διαγραφή.",
     "Offline resources" to "Πόροι εκτός σύνδεσης",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Ρυθμίστε τη γραμματοσειρά, το μέγεθος κειμένου και τα διαστήματα για άνετη ανάγνωση.",
     "Reading font" to "Γραμματοσειρά ανάγνωσης",
@@ -69,7 +67,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "This file is not a Idiomiko backup" to "Αυτό το αρχείο δεν είναι αντίγραφο ασφαλείας του Idiomiko",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "Αυτό το αντίγραφο ασφαλείας δημιουργήθηκε από νεότερη έκδοση του Idiomiko· ενημερώστε την εφαρμογή για να το επαναφέρετε",
     "Backups" to "Αντίγραφα ασφαλείας",
-    "Protect your library, vocabulary, progress, and preferences." to "Προστατέψτε τη βιβλιοθήκη, το λεξιλόγιο, την πρόοδο και τις προτιμήσεις σας.",
     "Create a backup" to "Δημιουργία αντιγράφου ασφαλείας",
     "Save your languages, books, vocabulary, reading history, and settings." to "Αποθηκεύστε τις γλώσσες, τα βιβλία, το λεξιλόγιο, το ιστορικό ανάγνωσης και τις ρυθμίσεις σας.",
     "Create backup" to "Δημιουργία αντιγράφου",

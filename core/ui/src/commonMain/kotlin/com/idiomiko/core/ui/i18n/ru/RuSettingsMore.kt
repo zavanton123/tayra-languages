@@ -3,7 +3,6 @@ package com.idiomiko.core.ui.i18n.ru
 internal val ruSettingsMore: Map<String, String> = mapOf(
     // SettingsScreen.kt
     "Settings" to "Настройки",
-    "Personalise your reading experience." to "Настройте чтение под себя.",
     "More settings" to "Другие настройки",
     "Course packs" to "Пакеты курсов",
     "Book packs" to "Пакеты книг",
@@ -24,7 +23,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Reading" to "Чтение",
     "{0} new a day" to "{0} новая в день|{0} новые в день|{0} новых в день",
     "The version of the app and where it comes from." to "Версия приложения и его происхождение.",
-    "Books you put away, to bring back or delete." to "Убранные книги: вернуть или удалить.",
     "Offline resources" to "Офлайн-ресурсы",
     "Adjust the font, text size and spacing for a comfortable reading experience." to "Настройте шрифт, размер текста и интервалы для удобного чтения.",
     "Reading font" to "Шрифт для чтения",
@@ -69,7 +67,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "This file is not a Idiomiko backup" to "Этот файл не является резервной копией Idiomiko",
     "This backup was made by a newer version of Idiomiko; update the app to restore it" to "Эта резервная копия создана более новой версией Idiomiko; обновите приложение, чтобы восстановить её",
     "Backups" to "Резервные копии",
-    "Protect your library, vocabulary, progress, and preferences." to "Сохраните библиотеку, слова, прогресс и настройки.",
     "Create a backup" to "Создать резервную копию",
     "Save your languages, books, vocabulary, reading history, and settings." to "Сохраните языки, книги, слова, историю чтения и настройки.",
     "Create backup" to "Создать копию",

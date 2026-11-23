@@ -173,7 +173,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PageColumn(padding) {
-            ScreenHeader(tr("Settings"), tr("Personalise your reading experience.")) {
+            ScreenHeader(tr("General"), null) {
                 HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
             }
             if (wide) {
@@ -237,18 +237,9 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
         SettingsPage(tr("About"), tr("The version of the app and where it comes from."), Route.About, Icons.Default.Info),
         SettingsPage(tr("Experiments"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb),
     )
-    val resources = listOf(
-        SettingsPage(tr("Speech"), tr("Choose how words and passages are spoken."), Route.Speech, AppIcons.VolumeUp, speechEngineName(settings.speechEngine)),
-        SettingsPage(tr("Translation"), tr("Choose how translations are generated, and add dictionaries of your own."), Route.OfflineTranslation, AppIcons.Translate, translationEngineName(settings.translationEngine)),
-    )
-    val data = listOf(
-        SettingsPage(tr("Account"), tr("Keep your library the same on all your devices."), Route.Account, Icons.Default.AccountCircle),
-        SettingsPage(tr("Backups"), tr("Protect your library, vocabulary, progress, and preferences."), Route.Backups, AppIcons.UploadFile),
-        SettingsPage(tr("Book archive"), tr("Books you put away, to bring back or delete."), Route.ArchivedBooks, AppIcons.BookClosed),
-    )
-    val card: @Composable (String, ImageVector, List<SettingsPage>, @Composable () -> Unit) -> Unit = { title, icon, all, extra ->
+    val card: @Composable (String, ImageVector, List<SettingsPage>, (@Composable () -> Unit)?) -> Unit = { title, icon, all, extra ->
         val pages = if (compact) all.filter { it.route !in ON_MORE_SHEET } else all
-        if (pages.isNotEmpty() || !compact) ContentCard(title, subtitle = null, icon = icon, dense = compact) {
+        if (pages.isNotEmpty() || !compact || extra != null) ContentCard(title, subtitle = null, icon = icon, dense = compact) {
             pages.forEach { page ->
                 NavigationRow(
                     page.title,
@@ -259,13 +250,13 @@ internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, 
                     modifier = Modifier.testTag("settings-link-${page.route}"),
                 )
             }
-            extra()
+            extra?.invoke()
         }
     }
-    card(tr("Preferences"), Icons.Default.Settings, preferences) {}
-    card(tr("Offline resources"), AppIcons.Download, resources) {}
-    // The destructive action keeps to its own section, after the backups that would undo it.
-    card(tr("Data"), AppIcons.UploadFile, data) {
+    // The wide bar's Settings menu leads to these pages; a phone reaches its flashcard and vocabulary settings only from here.
+    if (compact) card(tr("Preferences"), Icons.Default.Settings, preferences, null)
+    // The destructive action keeps to its own section, on its own; the menus lead to Speech, Translation, the account, backups and the archive.
+    card(tr("Data"), AppIcons.UploadFile, emptyList()) {
         NavigationRow(
             tr("Clear local data"),
             onClick = { onNavigate(Route.ClearData) },
@@ -282,19 +273,7 @@ private val ON_MORE_SHEET = setOf<Route>(
     Route.Languages, Route.About, Route.ExperimentalFeatures, Route.Speech, Route.OfflineTranslation, Route.Backups, Route.Account,
 )
 
-/** The speech engine's short name, for the index: the system voices, Piper or Kokoro. */
-private fun speechEngineName(engine: SpeechEngine): String = when (engine) {
-    SpeechEngine.SYSTEM -> tr("System voices")
-    SpeechEngine.PIPER -> "Piper"
-    SpeechEngine.KOKORO -> "Kokoro"
-}
 
-/** The translator's short name, for the index: on this device, MyMemory or Google Translate. */
-private fun translationEngineName(engine: TranslationEngine): String = when (engine) {
-    TranslationEngine.ARGOS -> tr("Offline")
-    TranslationEngine.MYMEMORY -> "MyMemory"
-    TranslationEngine.GOOGLE -> "Google Translate"
-}
 
 @Composable
 private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel) {

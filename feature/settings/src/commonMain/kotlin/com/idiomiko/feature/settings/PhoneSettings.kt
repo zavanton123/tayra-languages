@@ -53,14 +53,13 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
     var fontSheet by remember { mutableStateOf(false) }
     Scaffold(
         topBar = {
-            AppTopBar(title = tr("Settings"), onNavigate = onNavigate, section = NavSection.SETTINGS, actions = {
+            AppTopBar(title = tr("General"), onNavigate = onNavigate, section = NavSection.SETTINGS, actions = {
                 QuietButton(onClick = onReset) { Text(tr("Reset"), style = MaterialTheme.typography.titleMedium) }
             })
         },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Text(tr("Personalise your reading experience."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             ContentCard(tr("Appearance"), subtitle = null, icon = AppIcons.Palette, dense = true) {
                 NavigationRow(tr("Theme"), onClick = { themeSheet = true }, modifier = Modifier.testTag("phone-theme"), value = AppThemes.byId(settings.themeId).label)
                 AppDivider()
