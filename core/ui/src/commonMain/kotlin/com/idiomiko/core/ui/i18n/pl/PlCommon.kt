@@ -10,7 +10,6 @@ internal val plCommon: Map<String, String> = mapOf(
     "Menus, buttons and messages." to "Menu, przyciski i komunikaty.",
     // PhoneNavigation.kt
     "Preferences" to "Preferencje",
-    "Data" to "Dane",
     "Watch" to "Oglądaj",
     "Words and progress" to "Słowa i postępy",
     "Preferences and data" to "Ustawienia i dane",

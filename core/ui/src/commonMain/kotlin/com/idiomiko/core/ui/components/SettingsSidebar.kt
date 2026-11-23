@@ -56,7 +56,7 @@ enum class SettingsSection(val label: String, val route: Route, val icon: ImageV
     HOTKEYS("Hotkeys", Route.Shortcuts, AppIcons.Keyboard),
     SPEECH("Speech", Route.Speech, AppIcons.VolumeUp),
     TRANSLATION("Translation", Route.OfflineTranslation, AppIcons.Translate),
-    DATA("Data", Route.Backups, AppIcons.UploadFile),
+    BACKUPS("Backups", Route.Backups, AppIcons.UploadFile),
     ABOUT("About", Route.About, Icons.Default.Info),
     EXPERIMENTS("Experiments", Route.ExperimentalFeatures, AppIcons.Lightbulb),
 }

@@ -38,7 +38,7 @@ import com.idiomiko.core.ui.theme.AppText
 
 /**
  * The end of the wide bar: the avatar when signed in, a person in a circle when not, opening the account menu
- * with the account, the settings, the data and About, and signing out when signed in.
+ * with the account, the settings, the backups and About, and signing out when signed in.
  */
 @Composable
 internal fun AccountMenuButton(badge: AccountBadge?, onNavigate: (Route) -> Unit) {
@@ -62,7 +62,7 @@ internal fun AccountMenuButton(badge: AccountBadge?, onNavigate: (Route) -> Unit
             if (badge != null) AppMenuItem(text = { Text(tr("Account")) }, onClick = { open = false; badge.open() })
             else AppMenuItem(text = { Text(tr("Sign in")) }, onClick = { go(Route.Account) })
             AppMenuItem(text = { Text(tr("Settings")) }, onClick = { go(Route.Settings) })
-            AppMenuItem(text = { Text(tr("Data")) }, onClick = { go(Route.Backups) })
+            AppMenuItem(text = { Text(tr("Backups")) }, onClick = { go(Route.Backups) })
             AppMenuItem(text = { Text(tr("About")) }, onClick = { go(Route.About) })
             if (badge != null) {
                 AppDivider()

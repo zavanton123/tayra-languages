@@ -109,9 +109,9 @@ class PhoneNavigationTest {
         // Under Read, or a tab of their own, instead; Watch only with the videos on.
         for (page in listOf("more-News", "more-Find books", "more-Playlists")) onNodeWithTag(page).assertDoesNotExist()
         onNodeWithText("WATCH").assertDoesNotExist()
-        for (gone in listOf("Backups", "Clear data", "Hotkeys", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
-        // The backups and clearing the data are one page, Data.
-        onNodeWithTag("more-Data").assertExists()
+        for (gone in listOf("Data", "Clear data", "Hotkeys", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
+        // The backups and clearing the data are one page, Backups.
+        onNodeWithTag("more-Backups").assertExists()
         onNodeWithTag("more-Statistics").assertExists()
         // A row is lit across the sheet's whole width.
         assertEquals(onNodeWithTag("more-sheet").fetchSemanticsNode().boundsInRoot.width, onNodeWithTag("more-Statistics").fetchSemanticsNode().boundsInRoot.width, 1f)

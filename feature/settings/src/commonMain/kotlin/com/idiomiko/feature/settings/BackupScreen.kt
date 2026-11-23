@@ -211,7 +211,7 @@ class BackupViewModel(private val backups: BackupRepository, private val clearDa
     }
 }
 
-/** The Data page: make, import, restore, export or delete backups, and clear the data on this device at its foot. */
+/** The Backups page: make, import, restore, export or delete backups, and clear the data on this device at its foot. */
 @Composable
 fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: () -> Unit, onCleared: () -> Unit, viewModel: BackupViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -239,9 +239,9 @@ fun BackupScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onRestored: ()
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, onBack = onBack.takeIf { LocalWindowWidth.current.isCompact }, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
-        SettingsPane(SettingsSection.DATA, padding, onNavigate) { inner ->
+        SettingsPane(SettingsSection.BACKUPS, padding, onNavigate) { inner ->
             PageColumn(inner, modifier = dropTarget) {
-                ScreenHeader(tr("Data"), null, onBackToSettings = onBack)
+                ScreenHeader(tr("Backups"), null, onBackToSettings = onBack)
                 val create: @Composable (Modifier) -> Unit = { m ->
                     ActionCard(
                         tr("Create a backup"),

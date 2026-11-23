@@ -10,7 +10,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Menus, buttons and messages." to "菜单、按钮和提示信息。",
     // PhoneNavigation.kt
     "Preferences" to "偏好设置",
-    "Data" to "数据",
     "Watch" to "观看",
     "Words and progress" to "词汇与进度",
     "Preferences and data" to "偏好与数据",

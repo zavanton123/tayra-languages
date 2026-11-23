@@ -60,7 +60,7 @@ import com.idiomiko.core.ui.theme.AppText
 import com.idiomiko.core.ui.components.Reveal
 
 /**
- * The Data page on a phone: one card with the two backup actions, the history as a plain list with a
+ * The Backups page on a phone: one card with the two backup actions, the history as a plain list with a
  * menu per backup, then clearing the data on this device. The dialogs stay with the screen.
  */
 @Composable
@@ -78,7 +78,7 @@ internal fun PhoneBackupsScreen(
     val colors = MaterialTheme.colorScheme
     Scaffold(
         topBar = {
-            AppTopBar(title = tr("Data"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS)
+            AppTopBar(title = tr("Backups"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS)
         },
         containerColor = colors.surfaceContainerLow,
     ) { padding ->

@@ -10,7 +10,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Menus, buttons and messages." to "Меню, кнопки и сообщения.",
     // PhoneNavigation.kt
     "Preferences" to "Настройки",
-    "Data" to "Данные",
     "Watch" to "Видео",
     "Words and progress" to "Слова и прогресс",
     "Preferences and data" to "Настройки и данные",

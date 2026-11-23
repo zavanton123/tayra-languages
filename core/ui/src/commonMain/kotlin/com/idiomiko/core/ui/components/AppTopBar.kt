@@ -90,7 +90,7 @@ const val APP_NAME = "Idiomiko"
  * The application bar with the choice of the language being learned and the main menu (Home, Read with the
  * courses, books and news, Videos, Playlists, Flashcards, Vocabulary), shown on all screens except the reading pane.
  * On narrow screens the menu collapses into one overflow menu. The wide bar ends with the account menu, which leads
- * to the account, the settings, the data and About: under the avatar when signed in, a person icon when not.
+ * to the account, the settings, the backups and About: under the avatar when signed in, a person icon when not.
  *
  * Wide windows always show the logo with the app's name, which leads to the home screen. [title] names the
  * screen only in the compact bar on phones, so screens show their own heading on wide windows

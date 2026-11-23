@@ -10,7 +10,6 @@ internal val deCommon: Map<String, String> = mapOf(
     "Menus, buttons and messages." to "Menüs, Schaltflächen und Meldungen.",
     // PhoneNavigation.kt
     "Preferences" to "Einstellungen",
-    "Data" to "Daten",
     "Watch" to "Ansehen",
     "Words and progress" to "Wörter und Fortschritt",
     "Preferences and data" to "Einstellungen und Daten",

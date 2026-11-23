@@ -37,7 +37,7 @@ import kotlin.time.Clock
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
 
-/** The Data screen makes, lists, restores and deletes backups, and clears the data on this device. */
+/** The Backups screen makes, lists, restores and deletes backups, and clears the data on this device. */
 @OptIn(ExperimentalTestApi::class)
 class BackupScreenTest {
 
@@ -166,7 +166,7 @@ class BackupScreenTest {
         onNodeWithText("Create a backup to keep a copy of your data.").assertExists()
     }
 
-    /** Clearing the data is at the foot of the Data page: confirmed, reported in place, and the backups stay listed. */
+    /** Clearing the data is at the foot of the Backups page: confirmed, reported in place, and the backups stay listed. */
     @Test
     fun clearingTheDataAtTheFootOfThePageKeepsTheBackups() = runDesktopComposeUiTest(width = 1586, height = 2200) {
         clearsAndKeepsTheBackups("idiomiko-data-clear", time = "Oct 3, 2026, 12:00:00", screenshot = "")
@@ -195,7 +195,7 @@ class BackupScreenTest {
         setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, onCleared = { cleared++ }, viewModel = viewModel) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText(time)).fetchSemanticsNodes().isNotEmpty() }
         // The page's title, apart from the settings sidebar's row of the same name.
-        onNode(hasText("Data") and !hasTestTag("settings-section-DATA")).assertExists()
+        onNode(hasText("Backups") and !hasTestTag("settings-section-BACKUPS")).assertExists()
         onNodeWithText("Will be removed").assertExists()
         onNodeWithText("Will remain").assertExists()
         System.getenv("DATA_SCREENSHOT")?.let { save(it.replace(".png", "$screenshot.png")) }

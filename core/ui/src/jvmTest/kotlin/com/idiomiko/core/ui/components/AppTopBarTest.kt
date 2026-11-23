@@ -66,7 +66,7 @@ class AppTopBarTest {
 
     /**
      * Signed out, the bar ends with a person in a circle whose menu says so and leads to signing in, the settings,
-     * the data and About, with nothing to sign out of.
+     * the backups and About, with nothing to sign out of.
      */
     @OptIn(ExperimentalTestApi::class)
     @Test
@@ -74,7 +74,7 @@ class AppTopBarTest {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME) } }
         onNodeWithTag("account-avatar").assertDoesNotExist()
-        val pages = listOf("Sign in" to Route.Account, "Settings" to Route.Settings, "Data" to Route.Backups, "About" to Route.About)
+        val pages = listOf("Sign in" to Route.Account, "Settings" to Route.Settings, "Backups" to Route.Backups, "About" to Route.About)
         for ((label, _) in pages) {
             onNodeWithTag("account-button").performClick()
             waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isNotEmpty() }
@@ -90,7 +90,7 @@ class AppTopBarTest {
 
     /**
      * Signed in, the avatar takes the person's place; its menu names the account and leads to it, the settings, the
-     * data and About, and signs out last, apart from the rest.
+     * backups and About, and signs out last, apart from the rest.
      */
     @OptIn(ExperimentalTestApi::class)
     @Test
@@ -116,7 +116,7 @@ class AppTopBarTest {
         saveMenu("ACCOUNT_MENU_SCREENSHOT", "-signed-in")
         onNodeWithText("Account").performClick()
         assertEquals(1, opened)
-        for (label in listOf("Settings", "Data", "About")) {
+        for (label in listOf("Settings", "Backups", "About")) {
             open()
             onNodeWithText(label).performClick()
         }

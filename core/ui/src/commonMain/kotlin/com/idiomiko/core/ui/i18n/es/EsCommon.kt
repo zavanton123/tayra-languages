@@ -10,7 +10,6 @@ internal val esCommon: Map<String, String> = mapOf(
     "Menus, buttons and messages." to "Menús, botones y mensajes.",
     // PhoneNavigation.kt
     "Preferences" to "Preferencias",
-    "Data" to "Datos",
     "Watch" to "Ver",
     "Words and progress" to "Palabras y progreso",
     "Preferences and data" to "Preferencias y datos",

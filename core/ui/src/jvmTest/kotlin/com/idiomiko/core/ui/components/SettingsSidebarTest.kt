@@ -56,7 +56,7 @@ class SettingsSidebarTest {
                 }
             }
         }
-        onNodeWithTag("settings-section-DATA").performClick()
+        onNodeWithTag("settings-section-BACKUPS").performClick()
         assertEquals(listOf<Route>(Route.Backups), switched)
         assertEquals(emptyList(), linked)
     }
