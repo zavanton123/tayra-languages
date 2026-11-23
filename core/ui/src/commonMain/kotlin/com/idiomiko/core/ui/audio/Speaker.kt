@@ -78,8 +78,11 @@ class Speaker(
         }
     }
 
-    /** Reads [text] aloud; [onFinished] runs when it has been read to the end, not when it is stopped or replaced. */
-    fun speak(text: String, languageCode: String?, onFinished: (() -> Unit)? = null) {
+    /**
+     * Reads [text] aloud; [onFinished] runs when it has been read to the end, not when it is stopped or replaced.
+     * [voiceId] speaks it in that voice of the engine instead of the one chosen for the language.
+     */
+    fun speak(text: String, languageCode: String?, onFinished: (() -> Unit)? = null, voiceId: String? = null) {
         stop()
         if (text.isBlank()) return
         val current = ++request
@@ -105,7 +108,8 @@ class Speaker(
             _working.value = true
             val wav = try {
                 // Made at normal speed, and played at the reader's: changing the speed makes nothing again.
-                prepared?.audioFor(text, languageCode) ?: engine.synthesize(spoken, languageCode, prefs.speechVoices["${engine.engine.name}:$languageCode"], 1f)
+                (if (voiceId == null) prepared?.audioFor(text, languageCode) else null)
+                    ?: engine.synthesize(spoken, languageCode, voiceId ?: prefs.speechVoices["${engine.engine.name}:$languageCode"], 1f)
             } catch (e: CancellationException) {
                 // Stopped or replaced: the newer request owns the state now.
                 throw e
