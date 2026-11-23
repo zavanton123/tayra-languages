@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.text.KeyboardOptions
@@ -16,15 +15,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
@@ -33,13 +29,9 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.ui.components.APP_NAME
-import com.idiomiko.core.ui.components.AccountAvatar
-import com.idiomiko.core.ui.components.LocalAccountBadge
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.ConfirmDialog
-import com.idiomiko.core.ui.components.ContentCard
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.Notice
@@ -48,13 +40,11 @@ import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
-import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
-import com.idiomiko.core.ui.theme.AppText
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.viewmodel.koinViewModel
@@ -62,8 +52,9 @@ import kotlin.time.Instant
 
 /**
  * Settings: the Idiomiko account this device is signed in to. Signed out, it signs in or
- * makes an account; signed in, it shows the subscription, signs out or deletes the account,
- * and asks whether to combine two libraries when a sync finds another one in the account.
+ * makes an account; signed in, it shows the profile and subscription, how syncing stands, signs
+ * out or deletes the account, and asks whether to combine two libraries when a sync finds another
+ * one in the account.
  */
 @Composable
 fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: AccountViewModel = koinViewModel()) {
@@ -83,7 +74,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) { content() }
         } else {
-            PageColumn(padding) { Column(Modifier.widthIn(max = if (state.signedOut) SIGNED_OUT_WIDTH else PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
+            PageColumn(padding) { Column(Modifier.widthIn(max = PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
         }
     }
 }
@@ -98,9 +89,8 @@ internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, o
         !state.available -> NotSetUpCard()
         state.signedOut -> SignedOutCard(state, actions)
         else -> {
-            AccountCard(state, actions)
+            SignedInCards(state, actions)
             CombineQuestion(state, actions)
-            DeleteAccountCard(state, actions)
         }
     }
 }
@@ -114,43 +104,9 @@ private fun NotSetUpCard() {
     )
 }
 
-@Composable
-private fun AccountCard(state: AccountUiState, actions: AccountViewModel?) {
-    val account = state.account
-    val email = state.signedIn.orEmpty()
-    // The bar's avatar has the picture already fetched.
-    val badge = LocalAccountBadge.current
-    val name = account?.name ?: badge?.name
-    // Named, the card is headed by the name with the email under it, above the plan.
-    ContentCard(
-        name ?: email, subtitle = listOfNotNull(email.takeIf { name != null }, planText(state)).joinToString("\n"),
-        modifier = Modifier.testTag("account-card"),
-        leading = { size -> AccountAvatar(name, email, badge?.picture, size, Modifier.testTag("account-card-avatar"), letterStyle = AppText.sectionTitle) },
-    ) {
-        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            if (account != null && !account.emailVerified) ConfirmEmail(state, actions)
-            val uri = LocalUriHandler.current
-            val plan = account?.plan
-            if (state.storeAvailable && plan?.active == false) StorePlans(state, actions)
-            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
-                plan?.checkoutUrl?.let { url ->
-                    PrimaryButton(tr("Subscribe"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-subscribe"))
-                }
-                plan?.manageUrl?.let { url ->
-                    SecondaryButton(tr("Manage subscription"), onClick = { uri.openUri(url) }, modifier = Modifier.testTag("account-manage"))
-                }
-                SecondaryButton(tr("Sign out"), onClick = { actions?.signOut() }, enabled = state.busy == null, modifier = Modifier.testTag("account-sign-out"))
-            }
-            if (plan?.checkoutUrl != null) {
-                Text(tr("The checkout opens in your browser. Come back here when it is done."), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-        }
-    }
-}
-
 /** The store's plans, in the phone apps, for an account without a subscription; restoring is offered even without them. */
 @Composable
-private fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
+internal fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         state.products.forEach { product ->
             PrimaryButton(
@@ -166,7 +122,7 @@ private fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
 }
 
 @Composable
-private fun planText(state: AccountUiState): String {
+internal fun planText(state: AccountUiState): String {
     val plan = state.account?.plan ?: return tr("Loading…")
     return when {
         !plan.active -> tr("Sync is not active on this account.")
@@ -176,7 +132,7 @@ private fun planText(state: AccountUiState): String {
 }
 
 @Composable
-private fun ConfirmEmail(state: AccountUiState, actions: AccountViewModel?) {
+internal fun ConfirmEmail(state: AccountUiState, actions: AccountViewModel?) {
     var code by rememberSaveable { mutableStateOf("") }
     Notice(tr("Confirm your email"), message = tr("Enter the code we sent to your email."), icon = Icons.Default.Warning, tint = MaterialTheme.colorScheme.tertiary) {
         // The code and its button on one line, asking again below: a phone has no room for all three.
@@ -199,24 +155,6 @@ private fun CombineQuestion(state: AccountUiState, actions: AccountViewModel?) {
         onConfirm = { actions?.syncNow(combine = true) },
         onDismiss = { actions?.cancelCombine() },
     )
-}
-
-@Composable
-private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?) {
-    var confirming by remember { mutableStateOf(false) }
-    ContentCard(tr("Delete account"), subtitle = tr("Removes the account and everything kept with it. The library on this device stays."), icon = Icons.Default.Warning) {
-        SecondaryButton(tr("Delete account"), onClick = { confirming = true }, enabled = state.busy == null, tone = ButtonTone.Danger, modifier = Modifier.testTag("account-delete"))
-    }
-    if (confirming) {
-        ConfirmDialog(
-            title = tr("Delete your account?"),
-            text = tr("Your account and everything kept with it are deleted for good. This device is signed out; its library stays."),
-            confirmLabel = tr("Delete account"),
-            destructive = true,
-            onConfirm = { confirming = false; actions?.deleteAccount() },
-            onDismiss = { confirming = false },
-        )
-    }
 }
 
 @Composable
@@ -269,10 +207,8 @@ private fun DoneNotice(done: AccountDone) {
 
 private fun day(at: Instant): String = at.toLocalDateTime(TimeZone.currentSystemDefault()).date.toString()
 
-private val PAGE_WIDTH = 880.dp
-
-/** Signed out, the page is wide enough for the sign-in form beside what an account gives. */
-private val SIGNED_OUT_WIDTH = AppSizes.contentWidth
+/** Wide enough for the sign-in form beside what an account gives, and for the profile beside the sync card. */
+private val PAGE_WIDTH = AppSizes.contentWidth
 
 /** The sign-in, the account card's place, shown while this device has an account service and is signed in to none. */
 private val AccountUiState.signedOut: Boolean get() = available && signedIn == null

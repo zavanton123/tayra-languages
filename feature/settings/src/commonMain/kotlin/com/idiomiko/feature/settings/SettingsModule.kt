@@ -8,6 +8,8 @@ import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.domain.account.IdentitySignIn
 import com.idiomiko.core.domain.account.StorePurchases
 import com.idiomiko.core.domain.account.Subscriptions
+import com.idiomiko.core.domain.service.LearningLanguageService
+import kotlinx.coroutines.flow.map
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
@@ -19,7 +21,12 @@ val settingsModule = module {
     viewModel { SpeechViewModel(get(), get(), get(), getOrNull(), get(), get()) }
     viewModel { OfflineTranslationViewModel(get(), get(), get(), get()) }
     viewModel { BackupViewModel(get()) }
-    viewModel { AccountViewModel(get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>()) }
+    viewModel {
+        AccountViewModel(
+            get(), get(), getOrNull<StorePurchases>()?.let { Subscriptions(it, get()) }, getOrNull<IdentitySignIn>(),
+            knownWords = get<LearningLanguageService>().observeKnownWordCounts().map { it.values.sum() },
+        )
+    }
     viewModel { SyncPromptViewModel(get(), get()) }
     viewModel { AccountBadgeViewModel(get()) }
     viewModel { ClearDataViewModel(get()) }

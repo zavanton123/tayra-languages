@@ -16,7 +16,12 @@ import com.idiomiko.core.domain.account.StoreException
 import com.idiomiko.core.domain.account.StoreProduct
 import com.idiomiko.core.domain.account.Subscriptions
 import kotlinx.coroutines.CancellationException
+import com.idiomiko.core.domain.account.SyncStatus
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.emptyFlow
+import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
@@ -48,13 +53,23 @@ data class AccountUiState(
     val resetSentTo: String? = null,
     /** The last thing done, said once. */
     val done: AccountDone? = null,
-)
+    /** How syncing stands on this device: under way, when it last synced, why it last failed. */
+    val sync: SyncStatus = SyncStatus(),
+    /** This device holds changes not sent to the account yet; taken as so until it is known. */
+    val unsent: Boolean = true,
+    /** The words known across the languages being learned, as last counted; null where not counted. */
+    val knownWords: Int? = null,
+) {
+    /** Signed out again: what is about the account goes, what is about this device stays. */
+    fun signedOut(): AccountUiState = AccountUiState(available = available, sync = sync, unsent = unsent, knownWords = knownWords)
+}
 
 enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIBING, SYNCING, DELETING }
 
 enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, ACCOUNT_DELETED }
 
 /** The account this device is signed in to, and combining its library with the account's when the reader agrees. */
+@OptIn(ExperimentalCoroutinesApi::class)
 class AccountViewModel(
     private val accounts: AccountRepository,
     private val sync: SyncRunner,
@@ -62,6 +77,8 @@ class AccountViewModel(
     private val subscriptions: Subscriptions? = null,
     /** Signing in with Google or Apple, where the platform can; null elsewhere. */
     private val identity: IdentitySignIn? = null,
+    /** The words known across the languages being learned, for the sync card's vocabulary row. */
+    knownWords: Flow<Int> = emptyFlow(),
 ) : ViewModel() {
     private var clients = SignInClients()
 
@@ -72,6 +89,10 @@ class AccountViewModel(
         reload()
         // A sync asked for elsewhere found two libraries: the question is asked here.
         viewModelScope.launch { sync.status.map { it.waitingToCombine }.distinctUntilChanged().collect { waiting -> if (waiting) _state.update { it.copy(confirmCombine = true) } } }
+        viewModelScope.launch { sync.status.collect { status -> _state.update { it.copy(sync = status) } } }
+        // Signing in to another account makes everything here unsent to it.
+        viewModelScope.launch { accounts.signedIn.flatMapLatest { sync.unsent() }.collect { unsent -> _state.update { it.copy(unsent = unsent) } } }
+        viewModelScope.launch { knownWords.collect { words -> _state.update { it.copy(knownWords = words) } } }
     }
 
     /** Reads what the account holds again, when signed in. */
@@ -109,7 +130,7 @@ class AccountViewModel(
 
     fun signOut() = work(AccountTask.LOADING) {
         accounts.signOut()
-        _state.update { AccountUiState(available = it.available) }
+        _state.update { it.signedOut() }
         offerProviders()
     }
 
@@ -139,8 +160,11 @@ class AccountViewModel(
 
     fun cancelReset() = _state.update { it.copy(resetSentTo = null) }
 
-    /** Syncs, combining the two libraries when [combine], the reader's answer to the page's question. */
-    fun syncNow(combine: Boolean = false) = work(AccountTask.SYNCING) {
+    /**
+     * Syncs, combining the two libraries when [combine], the reader's answer to the page's question. A failure
+     * is said by the sync card, from the sync's own status, rather than again above it.
+     */
+    fun syncNow(combine: Boolean = false) = work(AccountTask.SYNCING, sayProblem = false) {
         when (sync.syncNow(combine)) {
             SyncResult.NeedsCombining -> _state.update { it.copy(confirmCombine = true) }
             is SyncResult.Done -> _state.update { it.copy(confirmCombine = false, done = AccountDone.SYNCED) }
@@ -151,7 +175,7 @@ class AccountViewModel(
 
     fun deleteAccount() = work(AccountTask.DELETING) {
         accounts.deleteAccount()
-        _state.update { AccountUiState(available = it.available, done = AccountDone.ACCOUNT_DELETED) }
+        _state.update { it.signedOut().copy(done = AccountDone.ACCOUNT_DELETED) }
         offerProviders()
     }
 
@@ -194,7 +218,7 @@ class AccountViewModel(
     }
 
     /** Runs [action] as [task]; a failure is kept for the page to say, and signing out elsewhere shows the sign-in again. */
-    private fun work(task: AccountTask, action: suspend () -> Unit) {
+    private fun work(task: AccountTask, sayProblem: Boolean = true, action: suspend () -> Unit) {
         if (_state.value.busy != null) return
         _state.update { it.copy(busy = task, problem = null, problemText = null, done = null) }
         viewModelScope.launch {
@@ -205,7 +229,8 @@ class AccountViewModel(
             } catch (e: AccountException) {
                 _state.update {
                     val signedOut = e.problem == AccountProblem.SIGNED_OUT
-                    (if (signedOut) AccountUiState(available = it.available) else it).copy(problem = e.problem, problemText = e.message)
+                    if (signedOut) it.signedOut().copy(problem = e.problem, problemText = e.message)
+                    else if (sayProblem) it.copy(problem = e.problem, problemText = e.message) else it
                 }
                 if (e.problem == AccountProblem.SIGNED_OUT) offerProviders()
             } catch (e: IdentityException) {
@@ -213,7 +238,7 @@ class AccountViewModel(
             } catch (e: StoreException) {
                 _state.update { it.copy(problem = AccountProblem.INVALID, problemText = e.message) }
             } catch (e: Exception) {
-                _state.update { it.copy(problem = AccountProblem.SERVER, problemText = e.message) }
+                if (sayProblem) _state.update { it.copy(problem = AccountProblem.SERVER, problemText = e.message) }
             } finally {
                 _state.update { it.copy(busy = null) }
             }

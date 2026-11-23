@@ -12,6 +12,10 @@ import androidx.compose.ui.test.assertIsEnabled
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasClickAction
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.isDialog
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
@@ -43,12 +47,15 @@ import com.idiomiko.core.domain.account.SyncSummary
 import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.emptyFlow
+import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Instant
 
 /** The account page signed out and in: signing in, confirming the email, the plan, combining two libraries. */
@@ -98,12 +105,16 @@ class AccountScreenTest {
     /** What syncs the page shown last, as asked from elsewhere in the app. */
     private lateinit var runner: SyncRunner
 
-    private class FakeSync(var combining: Boolean = false) : LibrarySync {
+    /** A library that holds changes not sent yet while [unsent], until it syncs. */
+    private class FakeSync(var combining: Boolean = false, unsent: Boolean = false, private val synced: Instant? = null) : LibrarySync {
         var syncs = 0
+        val unsentNow = MutableStateFlow(unsent)
         override suspend fun syncNow(progress: (SyncProgress) -> Unit): SyncSummary {
-            syncs++; combining = false; return SyncSummary(sent = 3, received = 5, changed = 2)
+            syncs++; combining = false; unsentNow.value = false; return SyncSummary(sent = 3, received = 5, changed = 2)
         }
         override suspend fun needsCombining() = combining
+        override fun unsent() = unsentNow
+        override fun lastSynced() = synced
     }
 
     private class FakeStore : StorePurchases {
@@ -120,10 +131,10 @@ class AccountScreenTest {
     }
 
     private fun ComposeUiTest.show(
-        accounts: FakeAccounts, sync: LibrarySync = FakeSync(), store: StorePurchases? = null, identity: IdentitySignIn? = null,
+        accounts: FakeAccounts, sync: LibrarySync = FakeSync(), store: StorePurchases? = null, identity: IdentitySignIn? = null, knownWords: Int? = null,
     ): AccountViewModel {
         runner = SyncRunner(sync)
-        val viewModel = AccountViewModel(accounts, runner, store?.let { Subscriptions(it, accounts) }, identity)
+        val viewModel = AccountViewModel(accounts, runner, store?.let { Subscriptions(it, accounts) }, identity, knownWords?.let { flowOf(it) } ?: emptyFlow())
         setContent {
             CompositionLocalProvider(LocalUriHandler provides object : UriHandler { override fun openUri(uri: String) { opened += uri } }) {
                 IdiomikoTheme { ProvideWindowWidth { AccountScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } }
@@ -355,22 +366,71 @@ class AccountScreenTest {
         show(accounts)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Sync is not active on this account.").assertExists()
-        save("ACCOUNT_SCREENSHOT", "-phone")
+        save("ACCOUNT_SCREENSHOT", "-signed-in-phone")
     }
 
-    /** Syncing is asked for from the bar's cloud or by pulling a phone page down; the page has no sync controls of its own. */
     @Test
-    fun signedInThePageHoldsTheAccountAndNoSyncControls() = runDesktopComposeUiTest(width = 1400, height = 1600) {
-        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
-        val sync = FakeSync()
-        show(accounts, sync = sync)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("account-delete").assertExists()
-        for (text in listOf("Sync now", "Sync automatically", "Your words, texts, reading and learning setup, the same on all your devices.")) {
-            assertEquals(0, onAllNodesWithText(text).fetchSemanticsNodes().size, text)
-        }
-        assertEquals(0, onAllNodesWithTag("account-sync").fetchSemanticsNodes().size)
+    fun signedInThePageShowsTheProfileBesideHowSyncingStands() = runDesktopComposeUiTest(width = 1586, height = 1150) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com"; confirmed = true }
+        val sync = FakeSync(synced = kotlin.time.Clock.System.now() - 12.minutes)
+        show(accounts, sync = sync, knownWords = 1540)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-sign-in-methods").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-signed-in").assertExists()
+        onNodeWithText("Email").assertExists()
+        onNodeWithText("Everything is synced").assertExists()
+        onNodeWithText("1,540 words").assertExists()
+        assertEquals(2, onAllNodesWithText("Up to date").fetchSemanticsNodes().size)
+        onNodeWithText("Last synced 12 minutes ago").assertExists()
+        val profile = onNodeWithTag("account-card").fetchSemanticsNode().boundsInRoot
+        val syncCard = onNodeWithTag("account-sync-card").fetchSemanticsNode().boundsInRoot
+        assertTrue(profile.right <= syncCard.left, "the cards stand side by side")
+        assertEquals(profile.height, syncCard.height, "of equal height")
         assertEquals(0, sync.syncs, "opening the page syncs nothing")
         save("ACCOUNT_SCREENSHOT", "-signed-in")
+    }
+
+    @Test
+    fun syncNowSendsWhatIsNotSentYet() = runDesktopComposeUiTest(width = 1586, height = 1150) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com"; confirmed = true }
+        val sync = FakeSync(unsent = true)
+        show(accounts, sync = sync)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Changes not sent yet").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(3, onAllNodesWithText("Not sent yet").fetchSemanticsNodes().size)
+        onNodeWithTag("account-last-synced").assertDoesNotExist()
+        save("ACCOUNT_SCREENSHOT", "-signed-in-unsent")
+
+        onNodeWithTag("account-sync-now").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Everything is synced").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, sync.syncs)
+        onNodeWithText("Last synced just now").assertExists()
+        onNodeWithText("This device is in sync").assertExists()
+    }
+
+    @Test
+    fun signingOutShowsTheSignInAgain() = runDesktopComposeUiTest(width = 1400, height = 1150) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        show(accounts)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-sign-out").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Welcome back").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(null, accounts.signedIn.value)
+    }
+
+    @Test
+    fun deletingTheAccountAsksFirst() = runDesktopComposeUiTest(width = 1400, height = 1150) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com" }
+        show(accounts)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("This action cannot be undone.").assertExists()
+        onNodeWithTag("account-delete").performClick()
+        onNodeWithText("Delete your account?").assertExists()
+        onNode(hasText("Cancel") and hasAnyAncestor(isDialog())).performClick()
+        assertEquals("reader@example.com", accounts.signedIn.value, "kept when not confirmed")
+
+        onNodeWithTag("account-delete").performClick()
+        onNode(hasText("Delete account") and hasClickAction() and hasAnyAncestor(isDialog())).performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your account is deleted").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(null, accounts.signedIn.value)
+        onNodeWithText("Welcome back").assertExists()
     }
 }

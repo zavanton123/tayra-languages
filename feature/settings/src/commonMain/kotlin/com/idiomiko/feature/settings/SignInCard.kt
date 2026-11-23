@@ -58,7 +58,6 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import kotlin.math.roundToInt
 
 /**
  * Signed out: what an account gives on a light blue panel, beside the form that signs in, makes an
