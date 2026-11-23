@@ -1,5 +1,6 @@
 package com.idiomiko.feature.settings
 
+import androidx.compose.runtime.saveable.rememberSaveable
 import com.idiomiko.core.ui.components.ScrollColumn
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -114,9 +115,11 @@ internal fun PhoneBackupsScreen(
             if (state.loaded && state.backups.isEmpty()) {
                 Text(tr("Create a backup to keep a copy of your data."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
-            state.backups.forEachIndexed { i, backup ->
+            var more by rememberSaveable { mutableStateOf(false) }
+            state.backups.recent(more).forEachIndexed { i, backup ->
                 PhoneBackupRow(backup, latest = i == 0, enabled = idle, onRestore = { onRestore(backup) }, onExport = { viewModel.export(backup) }, onDelete = { onDelete(backup) })
             }
+            MoreBackups(state.backups, more) { more = !more }
             IncludedRow()
         }
     }

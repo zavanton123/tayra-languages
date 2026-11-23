@@ -85,6 +85,25 @@ class BackupScreenTest {
         onNodeWithText("Oct 3, 2026, 12:00:00").assertExists()
     }
 
+    /** The history shows the five newest backups; More opens the older ones and Less puts them away. */
+    @Test
+    fun onlyTheFiveNewestBackupsShowUntilMore() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-backup-more", ".db").also { it.delete() }))
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val repository = BackupRepositoryImpl(provider, settings, BackupFiles(Files.createTempDirectory("idiomiko-backup-more").toFile()), Ticking(), timeZone = { TimeZone.UTC })
+        runBlocking { repeat(7) { repository.create() } }
+        val viewModel = BackupViewModel(repository)
+        setContent { Hosted(settings) { BackupScreen(onNavigate = {}, onBack = {}, onRestored = {}, viewModel = viewModel) } }
+
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:30:00")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Oct 3, 2026, 12:10:00").assertExists()
+        onNodeWithText("Oct 3, 2026, 12:05:00").assertDoesNotExist()
+        onNodeWithTag("backups-more").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00:00")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("backups-more").performScrollTo().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Oct 3, 2026, 12:00:00")).fetchSemanticsNodes().isEmpty() }
+    }
+
     @Test
     fun anImportedBackupIsOfferedForRestoring() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-backup-import", ".db").also { it.delete() }))

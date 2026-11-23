@@ -1,5 +1,9 @@
 package com.idiomiko.feature.settings
 
+import androidx.compose.ui.platform.testTag
+import androidx.compose.material.icons.filled.KeyboardArrowUp
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.runtime.saveable.rememberSaveable
 import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.rememberToastState
 import androidx.compose.runtime.LaunchedEffect
@@ -363,8 +367,9 @@ private fun HistoryCard(
                 modifier = Modifier.padding(vertical = AppSpacing.m),
             )
         }
+        var more by rememberSaveable { mutableStateOf(false) }
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            state.backups.forEachIndexed { i, backup ->
+            state.backups.recent(more).forEachIndexed { i, backup ->
                 BackupRow(
                     backup,
                     latest = i == 0,
@@ -374,7 +379,28 @@ private fun HistoryCard(
                     onDelete = { onDelete(backup) },
                 )
             }
+            MoreBackups(state.backups, more) { more = !more }
         }
+    }
+}
+
+/** How many of the newest backups the history shows until More opens the rest. */
+private const val RECENT_BACKUPS = 5
+
+/** The newest backups, or all of them once [more] is open. */
+internal fun List<Backup>.recent(more: Boolean): List<Backup> = if (more) this else take(RECENT_BACKUPS)
+
+/** More under the newest backups when there are older ones, and Less to put them away again. */
+@Composable
+internal fun MoreBackups(backups: List<Backup>, more: Boolean, onToggle: () -> Unit) {
+    if (backups.size <= RECENT_BACKUPS) return
+    Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+        QuietButton(
+            if (more) tr("Less") else tr("More"),
+            onClick = onToggle,
+            modifier = Modifier.testTag("backups-more"),
+            icon = if (more) Icons.Default.KeyboardArrowUp else Icons.Default.KeyboardArrowDown,
+        )
     }
 }
 
