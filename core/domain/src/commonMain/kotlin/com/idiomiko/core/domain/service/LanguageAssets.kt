@@ -6,8 +6,13 @@ import com.idiomiko.core.domain.courses.CoursePacks
 import com.idiomiko.core.domain.dictionary.DictionaryPacks
 import com.idiomiko.core.domain.dictionary.PackState
 import com.idiomiko.core.domain.language.LanguageCodes
+import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.ocr.NoTextRecognizer
+import com.idiomiko.core.domain.ocr.OcrReadiness
+import com.idiomiko.core.domain.ocr.TextRecognizer
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -41,7 +46,7 @@ object AnyNetwork : NetworkStatus {
 
 /**
  * Keeps what the language being learned needs on the device, without asking: its course and book
- * packs and its dictionary on any connection, and a voice and the translation models into the
+ * packs, its dictionary and its text recognition model on any connection, and a voice and the translation models into the
  * native language on an unmetered one (Wi-Fi). [ensure] is called when the app starts and when a
  * language is chosen; what is missing is fetched in the background, one download after another,
  * and tried again later when one fails or waits for Wi-Fi. Speech recognition stays a choice.
@@ -52,6 +57,7 @@ class LanguageAssets(
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val network: NetworkStatus = AnyNetwork,
+    private val recognizer: TextRecognizer = NoTextRecognizer,
     private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default),
     private val retryAfter: Duration = 15.minutes,
 ) {
@@ -83,7 +89,8 @@ class LanguageAssets(
 
     private suspend fun fetch(request: Request) {
         val id = request.languageId
-        val code = languages.getById(id)?.name?.let(LanguageCodes::codeFor) ?: return
+        val language = languages.getById(id) ?: return
+        val code = LanguageCodes.codeFor(language.name) ?: return
         val large = request.anyNetwork || network.unmetered()
         val missing = setup.missing(id)
         val voice = missing.filter { it.kind == SetupKind.VOICE }.let { voices -> voices.firstOrNull { it.recommended } ?: voices.firstOrNull() }
@@ -100,6 +107,7 @@ class LanguageAssets(
             books.download(pack)
             if (books.packs.value.firstOrNull { it.pack.id == pack.id }?.state is PackState.Failed) failed = true
         }
+        if (!fetchTextRecognition(language)) failed = true
         for (item in wanted) {
             if (!setup.installNow(item)) failed = true
             if (id == current) _preparing.update { it - item.kind }
@@ -108,6 +116,19 @@ class LanguageAssets(
         if (failed) scope.launch {
             delay(retryAfter)
             if (current == id) requests.trySend(Request(id, request.anyNetwork))
+        }
+    }
+
+    /** Downloads the model that reads [language] off photos when it lacks one; false when that failed. */
+    private suspend fun fetchTextRecognition(language: Language): Boolean {
+        if (runCatching { recognizer.readiness(language) }.getOrNull() !is OcrReadiness.NeedsDownload) return true
+        return try {
+            recognizer.download(language) {}
+            true
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            false
         }
     }
 

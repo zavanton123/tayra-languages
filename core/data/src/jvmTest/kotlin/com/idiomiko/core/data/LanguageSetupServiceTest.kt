@@ -1,5 +1,8 @@
 package com.idiomiko.core.data
 
+import com.idiomiko.core.domain.ocr.OcrPack
+import com.idiomiko.core.domain.ocr.OcrReadiness
+import com.idiomiko.core.domain.ocr.TextRecognizer
 import com.idiomiko.core.domain.practice.SpeechRecognitionSetup
 import com.idiomiko.core.domain.practice.RecognitionQuality
 import com.idiomiko.core.domain.practice.RecognitionModel
@@ -377,6 +380,26 @@ class LanguageSetupServiceTest {
         assertEquals(SpeechEngine.PIPER, settings.current.speechEngine, "a voice is of no use unless its engine speaks")
         assertEquals(TranslationEngine.MYMEMORY, settings.current.translationEngine, "the translator chosen in Settings stays")
         withTimeout(5_000) { assets.preparing.first { it.isEmpty() } }
+    }
+
+    private class FakeRecognizer : TextRecognizer {
+        val installed = mutableSetOf<String>()
+        override suspend fun readiness(language: Language): OcrReadiness = if ("por" in installed) OcrReadiness.Ready else OcrReadiness.NeedsDownload(1_900_000)
+        override suspend fun download(language: Language, onProgress: (Float?) -> Unit) { installed += "por" }
+        override suspend fun recognize(image: ByteArray, language: Language): String = ""
+        override suspend fun installedPacks(): List<OcrPack> = installed.map { OcrPack(it, "Portuguese", 1_900_000) }
+        override suspend fun remove(pack: OcrPack) { installed -= pack.id }
+    }
+
+    /** The model that reads the language off photos comes with the small packs, on any connection. */
+    @Test
+    fun theTextRecognitionModelComesOnItsOwn() = runBlocking<Unit> {
+        val recognizer = FakeRecognizer()
+        val assets = LanguageAssets(setup, BookPackService(FakeBookPacks(), books, BookService(books, languages), languages), languages, settings, Network(free = false), recognizer)
+        val id = languages.save(Language(name = "Portuguese"))
+
+        assets.ensure(id)
+        withTimeout(5_000) { while ("por" !in recognizer.installed) delay(20) }
     }
 
     /** What the app keeps for the language offers no Remove: everything but speech recognition, and a voice only while it is the last one. */

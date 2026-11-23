@@ -1,5 +1,7 @@
 package com.idiomiko.core.data.di
 
+import com.idiomiko.core.domain.ocr.NoTextRecognizer
+import com.idiomiko.core.domain.ocr.TextRecognizer
 import com.idiomiko.core.domain.courses.LessonSummaries
 import org.koin.dsl.binds
 import com.idiomiko.core.domain.account.AccountRepository
@@ -317,7 +319,7 @@ val dataModule: Module = module {
     single<WebPictures> { HttpWebPictures(createPlainHttpClient()) }
     single { NewsService(get(), get(), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get(), getOrNull()) }
-    single { LanguageAssets(get(), get(), get(), get(), getOrNull<NetworkStatus>() ?: AnyNetwork) }
+    single { LanguageAssets(get(), get(), get(), get(), getOrNull<NetworkStatus>() ?: AnyNetwork, getOrNull<TextRecognizer>() ?: NoTextRecognizer) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single { LanguageRemovalService(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }
