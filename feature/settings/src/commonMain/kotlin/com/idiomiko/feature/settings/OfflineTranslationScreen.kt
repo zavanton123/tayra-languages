@@ -1,40 +1,25 @@
 package com.idiomiko.feature.settings
 
-import androidx.compose.foundation.background
-import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.AppProgressBar
-import com.idiomiko.core.ui.components.AppVerticalDivider
-import com.idiomiko.core.ui.components.CodeTile
 import com.idiomiko.core.ui.components.ContentCard
-import com.idiomiko.core.ui.components.InfoBanner
 import com.idiomiko.core.ui.components.Notice
-import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.ScreenHeader
-import com.idiomiko.core.ui.components.SearchField
-import com.idiomiko.core.ui.components.StatusDot
 import com.idiomiko.core.ui.components.StatusPill
 import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.components.Tag
-import com.idiomiko.core.ui.components.formatSize
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.KeyboardArrowUp
@@ -44,23 +29,19 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
-import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.idiomiko.core.domain.language.LanguageCatalog
-import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.service.GoogleTranslation
 import com.idiomiko.core.domain.service.LocalPackage
@@ -70,12 +51,9 @@ import com.idiomiko.core.domain.service.TranslationEngine
 import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.components.AppIcons
-import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.Dropdown
-import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PrimaryButton
@@ -87,7 +65,6 @@ import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
-import com.idiomiko.core.ui.theme.AppText
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
@@ -211,17 +188,14 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
             checked = true
         }
     }
-    val wide = LocalWindowWidth.current.isExpanded
-    val learningName = LocalLearningLanguage.current?.currentName?.let { tr(it) }
     val native = settings.nativeLanguage.ifBlank { "en" }
-    val nativeName = tr(LanguageCatalog.nativeOption(native).name)
     val local = viewModel.hasLocalTranslator && settings.translationEngine == TranslationEngine.ARGOS
     val wanted = if (local) viewModel.wantedPackages(inUse, native, packages) else emptySet()
-    val missing = packages.filter { it.key in wanted && !it.installed }
-    val pair = PairState(learningName, nativeName, missing, sameLanguage = inUse.contains(native))
+    // Whether the language being learned can be translated into the native one with what is installed.
+    val pairReady = packages.none { it.key in wanted && !it.installed }
 
     if (LocalWindowWidth.current.isCompact) {
-        PhoneTranslationScreen(settings, viewModel, onNavigate, onBack, local, checking = busy || !checked, ready, pair, packages, wanted, learningName, nativeName)
+        PhoneTranslationScreen(settings, viewModel, onNavigate, onBack, local, checking = busy || !checked, ready, pairReady)
         return
     }
     Scaffold(
@@ -230,101 +204,29 @@ fun OfflineTranslationScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, vi
     ) { padding ->
         PageColumn(padding) {
             ScreenHeader(tr("Translation"), tr("Choose how translations are generated and stored."), onBackToSettings = onBack) {
-                if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
+                if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pairReady)
             }
-            if (LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pair)
-            if (wide) {
-                Row(Modifier.height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                    LanguagePairCard(settings, viewModel, learningName, nativeName, onNavigate, Modifier.weight(1f).fillMaxHeight())
-                    EngineCard(settings, viewModel, pair.ready, Modifier.weight(1f).fillMaxHeight())
-                }
-            } else {
-                LanguagePairCard(settings, viewModel, learningName, nativeName, onNavigate)
-                EngineCard(settings, viewModel, pair.ready)
-            }
+            if (LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pairReady)
+            EngineCard(settings, viewModel, pairReady)
         }
     }
 }
 
-/** Whether the language being learned can be translated into the native language with what is installed. */
-internal class PairState(val learning: String?, val native: String, val missing: List<LocalPackage>, val sameLanguage: Boolean) {
-    val label: String get() = "${learning ?: tr("Your language")} → $native"
-    val ready: Boolean get() = missing.isEmpty()
-}
-
 @Composable
-internal fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslationViewModel, local: Boolean, checking: Boolean, ready: Boolean, pair: PairState) {
+internal fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslationViewModel, local: Boolean, checking: Boolean, ready: Boolean, pairReady: Boolean) {
     when (settings.translationEngine) {
         TranslationEngine.ARGOS -> when {
             !local -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)
             checking -> StatusPill(tr("Checking offline translation"), MaterialTheme.colorScheme.outline)
             !ready -> StatusPill(tr("{0} is not installed", viewModel.localName), StatusTints.warning)
             // Named as the rest of the page names them: packages for the desktop's translator, models for the phone's.
-            !pair.ready -> StatusPill(if (viewModel.hasRuntimeSetup) tr("Language packages needed") else tr("Language models needed"), StatusTints.warning)
+            !pairReady -> StatusPill(if (viewModel.hasRuntimeSetup) tr("Language packages needed") else tr("Language models needed"), StatusTints.warning)
             else -> StatusPill(tr("Offline translation ready"), StatusTints.ok)
         }
         TranslationEngine.MYMEMORY -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)
         TranslationEngine.GOOGLE ->
             if (settings.googleTranslateApiKey.isBlank()) StatusPill(tr("Google API key needed"), StatusTints.warning)
             else StatusPill(tr("Online translation: {0}", "Google"), StatusTints.ok)
-    }
-}
-
-@Composable
-private fun LanguagePairCard(settings: UserSettings, viewModel: OfflineTranslationViewModel, learningName: String?, nativeName: String, onNavigate: (Route) -> Unit, modifier: Modifier = Modifier) {
-    ContentCard(tr("Language pair"), tr("Translations and example sentences use your native language."), icon = AppIcons.SwapHoriz, modifier = modifier) {
-        val compact = LocalWindowWidth.current.isCompact
-        val learning: @Composable (Modifier) -> Unit = { m ->
-            Column(m) {
-                Dropdown(
-                    options = listOfNotNull(learningName),
-                    selected = learningName,
-                    onSelect = {},
-                    label = tr("Learning language"),
-                    optionLabel = { it },
-                    enabled = false,
-                    modifier = Modifier.fillMaxWidth(),
-                )
-                // The language learned is chosen on Languages, which this leads to, as the phone's page does.
-                LinkText(tr("Change the language you learn"), onClick = { onNavigate(Route.Languages) }, modifier = Modifier.padding(start = AppSpacing.l, top = AppSpacing.xs), style = MaterialTheme.typography.bodySmall)
-            }
-        }
-        val nativeField: @Composable (Modifier) -> Unit = { m ->
-            Column(m) {
-                // The language being learned cannot be the native one too, so it is listed dimmed.
-                val learningCode = LocalLearningLanguage.current?.currentName?.let(LanguageCodes::codeFor)
-                Dropdown(
-                    options = LanguageCatalog.nativeLanguages,
-                    unavailable = { if (it.code == learningCode) tr("You are learning it") else null },
-                    selected = LanguageCatalog.nativeOption(settings.nativeLanguage),
-                    onSelect = { option -> if (option.code != learningCode) viewModel.update { it.copy(nativeLanguage = option.code) } },
-                    label = tr("Native language"),
-                    optionLabel = { tr(it.name) },
-                    modifier = Modifier.fillMaxWidth(),
-                )
-                // Keeps both fields the same height when side by side.
-                Text(" ", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = AppSpacing.xs))
-            }
-        }
-        if (compact) {
-            Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                learning(Modifier.fillMaxWidth())
-                nativeField(Modifier.fillMaxWidth())
-            }
-        } else {
-            Row(verticalAlignment = Alignment.Top) {
-                learning(Modifier.weight(1f))
-                Icon(
-                    Icons.AutoMirrored.Filled.ArrowForward,
-                    contentDescription = tr("translated into"),
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(horizontal = AppSpacing.m).padding(top = AppSpacing.xxl).size(AppSizes.iconMedium),
-                )
-                nativeField(Modifier.weight(1f))
-            }
-        }
-        Spacer(Modifier.height(AppSpacing.m))
-        InfoBanner(learningName?.let { tr("{0} terms will be translated into {1}.", it, nativeName) } ?: tr("Your terms will be translated into {0}.", nativeName))
     }
 }
 

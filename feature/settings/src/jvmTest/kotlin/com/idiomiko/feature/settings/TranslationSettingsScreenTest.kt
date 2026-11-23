@@ -43,7 +43,7 @@ import kotlin.test.Test
 import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 
-/** The Translation page shows the pair, the engine's state and the packages, and installs what the pair lacks. */
+/** The Translation page shows the engine's state and says what the pair lacks; the native language is set on Languages. */
 @OptIn(ExperimentalTestApi::class)
 class TranslationSettingsScreenTest {
 
@@ -92,6 +92,7 @@ class TranslationSettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Installed. The language pair still needs a download.")).fetchSemanticsNodes().isNotEmpty() }
         System.getenv("TRANSLATION_SCREENSHOT")?.let { save(it) }
         onNodeWithText("Search packages").assertDoesNotExist()
+        onNodeWithText("Language pair").assertDoesNotExist()
         onAllNodes(hasText("Install") and hasClickAction()).assertCountEquals(0)
         assertFalse("pt-en" in argos.installed, "nothing is downloaded from this page")
     }
