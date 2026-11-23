@@ -229,7 +229,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "Λήψη της εύρεσης λέξεων…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "Η εύρεση λέξεων δίνει λέξεις ({0}) για λέξεις ({1}), από τις μεταφράσεις στο Wiktionary ({1}). Κατεβάστε την για να τη χρησιμοποιείτε εκτός σύνδεσης.",
     "Download word finder" to "Λήψη εύρεσης λέξεων",
-    "word finder" to "εύρεση λέξεων",
     "Import a dictionary" to "Εισαγωγή λεξικού",
     "Remove the {0} dictionary?" to "Αφαίρεση του λεξικού {0};",
     "Its entries no longer show when you look words up. You can import it again at any time." to "Τα λήμματά του δεν εμφανίζονται πλέον όταν αναζητάτε λέξεις. Μπορείτε να το εισαγάγετε ξανά οποτεδήποτε.",

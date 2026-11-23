@@ -229,7 +229,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "Descargando el buscador de palabras…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "El buscador de palabras propone palabras ({0}) para palabras ({1}) a partir de las traducciones del Wiktionary ({1}). Descárgalo para usarlo sin conexión.",
     "Download word finder" to "Descargar buscador de palabras",
-    "word finder" to "buscador de palabras",
     "Import a dictionary" to "Importar un diccionario",
     "Remove the {0} dictionary?" to "¿Eliminar el diccionario {0}?",
     "Its entries no longer show when you look words up. You can import it again at any time." to "Sus entradas ya no aparecerán al buscar palabras. Puedes volver a importarlo en cualquier momento.",

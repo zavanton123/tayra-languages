@@ -229,7 +229,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "正在下载找词工具…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "找词工具根据{1}版 Wiktionary 中的翻译，为{1}单词找出对应的{0}单词。下载后即可离线使用。",
     "Download word finder" to "下载找词工具",
-    "word finder" to "找词工具",
     "Import a dictionary" to "导入词典",
     "Remove the {0} dictionary?" to "删除{0}词典？",
     "Its entries no longer show when you look words up. You can import it again at any time." to "查词时将不再显示其中的词条。你可以随时重新导入。",

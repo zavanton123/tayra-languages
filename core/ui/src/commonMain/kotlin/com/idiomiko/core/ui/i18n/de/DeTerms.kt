@@ -229,7 +229,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "Wortsuche wird heruntergeladen…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "Die Wortsuche findet Wörter auf {0} zu Wörtern auf {1}, anhand der Übersetzungen im Wiktionary auf {1}. Lade sie herunter, um sie offline zu nutzen.",
     "Download word finder" to "Wortsuche herunterladen",
-    "word finder" to "Wortsuche",
     "Import a dictionary" to "Wörterbuch importieren",
     "Remove the {0} dictionary?" to "Das Wörterbuch {0} entfernen?",
     "Its entries no longer show when you look words up. You can import it again at any time." to "Seine Einträge erscheinen beim Nachschlagen nicht mehr. Du kannst es jederzeit wieder importieren.",

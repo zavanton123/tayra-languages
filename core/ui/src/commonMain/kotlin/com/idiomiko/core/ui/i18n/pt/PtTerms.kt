@@ -229,7 +229,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "Baixando o localizador de palavras…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "O localizador de palavras sugere palavras ({0}) para palavras ({1}), a partir das traduções do Wiktionary ({1}). Baixe-o para usá-lo offline.",
     "Download word finder" to "Baixar localizador de palavras",
-    "word finder" to "localizador de palavras",
     "Import a dictionary" to "Importar um dicionário",
     "Remove the {0} dictionary?" to "Remover o dicionário {0}?",
     "Its entries no longer show when you look words up. You can import it again at any time." to "As suas entradas deixam de aparecer quando procura palavras. Pode importá-lo de novo a qualquer momento.",

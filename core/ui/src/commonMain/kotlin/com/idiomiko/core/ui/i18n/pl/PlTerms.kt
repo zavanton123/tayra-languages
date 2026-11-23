@@ -229,7 +229,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "Pobieranie wyszukiwarki słów…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "Wyszukiwarka słów podaje słowa ({0}) dla słów ({1}) na podstawie tłumaczeń z Wiktionary ({1}). Pobierz ją, aby korzystać z niej offline.",
     "Download word finder" to "Pobierz wyszukiwarkę słów",
-    "word finder" to "wyszukiwarka słów",
     "Import a dictionary" to "Importuj słownik",
     "Remove the {0} dictionary?" to "Usunąć słownik {0}?",
     "Its entries no longer show when you look words up. You can import it again at any time." to "Jego hasła nie będą już widoczne przy wyszukiwaniu słów. Możesz go zaimportować ponownie w dowolnej chwili.",

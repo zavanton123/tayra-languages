@@ -229,7 +229,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "Téléchargement de la recherche de mots…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "La recherche de mots propose des mots ({0}) pour des mots ({1}), d’après les traductions du Wiktionary ({1}). Téléchargez-la pour l’utiliser hors ligne.",
     "Download word finder" to "Télécharger la recherche de mots",
-    "word finder" to "recherche de mots",
     "Import a dictionary" to "Importer un dictionnaire",
     "Remove the {0} dictionary?" to "Supprimer le dictionnaire {0} ?",
     "Its entries no longer show when you look words up. You can import it again at any time." to "Ses entrées n’apparaissent plus quand vous cherchez des mots. Vous pouvez l’importer de nouveau à tout moment.",

@@ -229,7 +229,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Downloading the word finder..." to "Скачивание поиска слов…",
     "The word finder gives {0} words for {1} ones, from the translations in the {1} Wiktionary. Download it to use it offline." to "Поиск слов подбирает слова ({0}) к словам ({1}) по переводам из Викисловаря ({1}). Скачайте его, чтобы пользоваться им офлайн.",
     "Download word finder" to "Скачать поиск слов",
-    "word finder" to "поиск слов",
     "Import a dictionary" to "Импорт словаря",
     "Remove the {0} dictionary?" to "Удалить словарь {0}?",
     "Its entries no longer show when you look words up. You can import it again at any time." to "Его статьи больше не будут показываться при поиске слов. Его можно снова импортировать в любое время.",
