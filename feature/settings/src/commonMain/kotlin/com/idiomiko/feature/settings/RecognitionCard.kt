@@ -1,5 +1,9 @@
 package com.idiomiko.feature.settings
 
+import com.idiomiko.core.ui.theme.AppAlpha
+import androidx.compose.ui.semantics.selected
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -11,7 +15,6 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -111,15 +114,22 @@ private fun ModelRow(model: RecognitionModel, hearing: Boolean, state: RowState?
             state?.let { DownloadAction(it, tag, onDownload, onRemove) }
         }
     }
+    // The model in use is highlighted as the voices' current one is; another on the device is chosen by its row.
+    val colors = MaterialTheme.colorScheme
     Column(
-        Modifier.fillMaxWidth().clip(AppShapes.control).border(AppBorders.hairline(), AppShapes.control)
-            .clickable(enabled = model.installed, onClick = onChoose).padding(AppSpacing.m).testTag("recognition-model-${model.quality.name}"),
+        Modifier.fillMaxWidth().clip(AppShapes.control)
+            .border(if (hearing) AppBorders.chosen() else AppBorders.hairline(), AppShapes.control)
+            .background(if (hearing) colors.primary.copy(alpha = AppAlpha.wash) else colors.surface)
+            .clickable(enabled = model.installed, onClick = onChoose)
+            .semantics { selected = hearing }
+            .padding(AppSpacing.m).testTag("recognition-model-${model.quality.name}"),
     ) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            RadioButton(selected = hearing, onClick = onChoose, enabled = model.installed)
-            Spacer(Modifier.width(AppSpacing.s))
             Column(Modifier.weight(1f)) {
-                Text(title, style = AppText.itemTitle)
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                    Text(title, style = AppText.itemTitle)
+                    if (hearing) CurrentTag(tag)
+                }
                 Text(
                     listOf(about, formatSize(model.downloadSize)).joinToString(" · "),
                     style = MaterialTheme.typography.bodySmall,

@@ -296,7 +296,7 @@ private fun VoiceRow(
 }
 
 @Composable
-private fun CurrentTag(tag: String) = Tag(tr("Current"), MaterialTheme.colorScheme.primary, Modifier.testTag("current-$tag"))
+internal fun CurrentTag(tag: String) = Tag(tr("Current"), MaterialTheme.colorScheme.primary, Modifier.testTag("current-$tag"))
 
 /** On the device with its size, in green, or the size to download; smaller on a phone, to keep to one line beside the button. */
 @Composable

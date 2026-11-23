@@ -394,8 +394,12 @@ class SpeechSettingsScreenTest {
         System.getenv("SPEECH_SCREENSHOT")?.let { save(it.replace(".png", "-recognition.png")) }
         onNodeWithTag("recognition-model-HIGH").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.speechRecognitionQuality == "HIGH" }
+        onNodeWithTag("recognition-model-HIGH").assertIsSelected()
+        onNodeWithTag("current-recognition-high", useUnmergedTree = true).assertExists()
         onNodeWithTag("recognition-model-MEDIUM").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.speechRecognitionQuality == "MEDIUM" }
+        onNodeWithTag("recognition-model-MEDIUM").assertIsSelected()
+        onNodeWithTag("current-recognition-high", useUnmergedTree = true).assertDoesNotExist()
         onNodeWithTag("download-recognition-medium").assertDoesNotExist()
     }
 
