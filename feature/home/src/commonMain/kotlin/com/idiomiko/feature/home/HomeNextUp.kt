@@ -34,7 +34,6 @@ import com.idiomiko.core.domain.courses.LessonStatus
 import com.idiomiko.core.domain.home.NextUp
 import com.idiomiko.core.domain.model.BookListItem
 import com.idiomiko.core.domain.playlists.Playlist
-import com.idiomiko.core.domain.stats.StudyTime
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppVerticalDivider
@@ -136,7 +135,7 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                     Text(view.title, style = AppText.headline, maxLines = 2, overflow = TextOverflow.Ellipsis)
                     view.shortDetail?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
-                    val facts = listOfNotNull(next.minutes?.let { Fact(null, tr("~{0} min", it)) }) + view.facts.map { Fact(null, it) }
+                    val facts = listOfNotNull(next.minutes?.let { Fact(null, tr("{0} min", it)) }) + view.facts.map { Fact(null, it) }
                     if (facts.isNotEmpty()) Facts(facts)
                 }
             }
@@ -159,7 +158,7 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
             labelText()
             Text(view.title, style = AppText.pageTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
             view.detail?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
-            val facts = listOfNotNull(next.minutes?.let { Fact(AppIcons.Schedule, tr("~{0} min", it)) }) + view.facts.map { Fact(null, it) }
+            val facts = listOfNotNull(next.minutes?.let { Fact(AppIcons.Schedule, tr("{0} min", it)) }) + view.facts.map { Fact(null, it) }
             if (facts.isNotEmpty()) Facts(facts)
             progress()
             Spacer(Modifier.height(AppSpacing.s))
@@ -287,9 +286,7 @@ internal fun ContinueCard(state: HomeUiState, actions: HomeActions, modifier: Mo
         val lesson = course?.nextLesson
         if (course != null && lesson != null && !(next is NextUp.Lesson && next.course.course.id == course.course.id)) add {
             ContinueRow(
-                tr("Continue course"), course.course.title.inLearnedScript(),
-                tr("Lesson {0}: {1}", course.lessons.indexOf(lesson) + 1, lesson.lesson.title.inLearnedScript()),
-                AppIcons.School, AppAccents.blue, "course",
+                tr("Continue course"), course.course.title.inLearnedScript(), AppIcons.School, AppAccents.blue, "course",
                 trailing = "${course.completed}/${course.lessons.size}",
                 progress = if (course.lessons.isEmpty()) null else course.completed.toFloat() / course.lessons.size,
             ) { actions.onOpenLesson(course, lesson) }
@@ -297,7 +294,7 @@ internal fun ContinueCard(state: HomeUiState, actions: HomeActions, modifier: Mo
         state.finishedCourse?.let { done ->
             add {
                 ContinueRow(
-                    tr("Course finished"), done.course.title.inLearnedScript(), tr("Choose your next course"),
+                    tr("Course finished"), done.course.title.inLearnedScript(),
                     Icons.Default.Check, AppAccents.green, "finished-course",
                 ) { actions.onNavigate(Route.Courses) }
             }
@@ -305,7 +302,7 @@ internal fun ContinueCard(state: HomeUiState, actions: HomeActions, modifier: Mo
         val book = state.book?.takeIf { !it.isCompleted }
         if (book != null && !(next is NextUp.Book && next.book.id == book.id)) add {
             ContinueRow(
-                tr("Continue book"), book.title.inLearnedScript(), pageLine(book), AppIcons.MenuBook, AppAccents.purple, "book",
+                tr("Continue book"), book.title.inLearnedScript(), AppIcons.MenuBook, AppAccents.purple, "book",
                 trailing = "${bookPercent(book)}%", progress = bookPercent(book) / 100f,
             ) { actions.onNavigate(Route.Read(book.id)) }
         }
@@ -314,11 +311,10 @@ internal fun ContinueCard(state: HomeUiState, actions: HomeActions, modifier: Mo
             val due = state.flashcardsDue
             if (due > 0) {
                 ContinueRow(
-                    tr("Flashcards"), trPlural(due, "{1} card due today", "{1} cards due today", formatCount(due)),
-                    tr("~{0} min", StudyTime.reviewMinutes(due, state.activity?.averageAnswer)), AppIcons.Style, AppAccents.teal, "flashcards",
+                    tr("Flashcards"), trPlural(due, "{1} card due today", "{1} cards due today", formatCount(due)), AppIcons.Style, AppAccents.teal, "flashcards",
                 ) { actions.onNavigate(Route.Flashcards()) }
             } else {
-                ContinueRow(tr("Flashcards"), tr("All caught up"), tr("No cards are due right now."), Icons.Default.Check, AppAccents.teal, "flashcards") {
+                ContinueRow(tr("Flashcards"), tr("All caught up"), Icons.Default.Check, AppAccents.teal, "flashcards") {
                     actions.onNavigate(Route.Flashcards())
                 }
             }
@@ -356,7 +352,6 @@ private fun PlaylistRow(playlist: Playlist, onContinue: () -> Unit) {
     ContinueRow(
         label = tr("Continue listening"),
         title = item?.title?.inLearnedScript() ?: playlist.name,
-        detail = if (item != null) playlist.name else trPlural(playlist.items.size, "{0} text", "{0} texts"),
         icon = AppIcons.Headphones,
         tint = AppAccents.orange,
         tag = "playlist",
@@ -367,14 +362,13 @@ private fun PlaylistRow(playlist: Playlist, onContinue: () -> Unit) {
 }
 
 /**
- * A row of something under way: its kind, its title and where it stands, with a bar of how far it has got on a
+ * A row of something under way: its kind and its title, with a bar of how far it has got on a
  * wide window; the whole row goes on with it.
  */
 @Composable
 private fun ContinueRow(
     label: String,
     title: String,
-    detail: String,
     icon: ImageVector,
     tint: Color,
     tag: String,
@@ -394,7 +388,6 @@ private fun ContinueRow(
             val small = if (compact) MaterialTheme.typography.bodySmall else MaterialTheme.typography.bodyMedium
             Text(label, style = small, color = colors.onSurfaceVariant, maxLines = 1)
             Text(title, style = if (compact) AppText.itemTitle else AppText.sectionTitle, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text(detail, style = small, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         if (trailing != null) Text(trailing, style = if (compact) AppText.label else AppText.emphasis, color = colors.onSurfaceVariant)
         if (!compact && progress != null) ProgressTrack(progress, tint, Modifier.width(ROW_BAR_WIDTH), height = AppSizes.trackThick)

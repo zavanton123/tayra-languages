@@ -59,6 +59,7 @@ internal val deTerms: Map<String, String> = mapOf(
     "Practise selected" to "Ausgewählte üben",
     "Practise {0} words" to "{0} Wort üben|{0} Wörter üben",
     "~{0} min" to "~{0} Min.",
+    "{0} min" to "{0} Min.",
     "Choose one or more question types." to "Wähle eine oder mehrere Fragearten.",
     "{0} question types selected" to "{0} Frageart ausgewählt|{0} Fragearten ausgewählt",
     "Start practice" to "Übung starten",

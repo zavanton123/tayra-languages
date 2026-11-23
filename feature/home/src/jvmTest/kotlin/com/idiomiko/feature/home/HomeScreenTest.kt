@@ -285,7 +285,7 @@ class HomeScreenTest {
         // One step first, with its time, and the page's only filled button; on a wide window it needs no label.
         onNodeWithText("Next up").assertDoesNotExist()
         onNodeWithText("310 cards due today").assertExists()
-        onNodeWithText("~31 min").assertExists()
+        onNodeWithText("31 min").assertExists()
         onNodeWithText("Just 3 minutes to reach today's goal.").assertDoesNotExist()
         onNodeWithTag("next-up-art").assertExists()
         assertEquals(1, onAllNodesWithTag("next-up-action").fetchSemanticsNodes().size)
@@ -293,7 +293,7 @@ class HomeScreenTest {
         onNodeWithTag("next-up-action").performClick()
         // The rest under way, the playlist by its episode.
         onNodeWithText("Continue learning").assertExists()
-        onNodeWithText("Lesson 3: Lição 3").assertExists()
+        onNodeWithText("Lesson 3: Lição 3").assertDoesNotExist()
         onNodeWithText("O restaurante novo").assertExists()
         onNodeWithTag("row-course").performClick()
         onNodeWithTag("row-book").performClick()
@@ -381,7 +381,7 @@ class HomeScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Study activity")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("NEXT UP").assertExists()
         onNodeWithText("A família").assertExists()
-        onNodeWithText("~8 min").assertExists()
+        onNodeWithText("8 min").assertExists()
         onNodeWithText("9 new words").assertExists()
         onNodeWithText("2 of 10 lessons").assertExists()
         // No greeting on a phone: its bar names the page.
@@ -393,9 +393,9 @@ class HomeScreenTest {
         onNodeWithTag("figure-known").assertExists()
         assertEquals(0, onAllNodesWithTag("figure-saved-today").fetchSemanticsNodes().size)
         onNodeWithTag("next-up").assertIsDisplayed()
-        // A few cards wait in the rows, with their time.
+        // A few cards wait in the rows.
         onNodeWithText("12 cards due today").assertExists()
-        onNodeWithText("~2 min").assertExists()
+        onNodeWithText("~2 min").assertDoesNotExist()
         onNodeWithTag("next-up-action").performClick()
         onNodeWithTag("vocabulary-row").performClick()
         assertEquals(listOf("pt-mini-0100-l3"), opened)
