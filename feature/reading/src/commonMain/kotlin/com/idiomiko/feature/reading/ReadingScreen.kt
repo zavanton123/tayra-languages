@@ -939,7 +939,7 @@ private fun ReadingBody(
                 CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = checkSize)
             },
             onMenu = onMenu,
-            playlist = playlistPlayer?.let { { AddToPlaylistButton(state.book?.id ?: 0, FOOTER_CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist, iconSize = AppSizes.iconLarge) } },
+            playlist = playlistPlayer?.let { { AddToPlaylistButton(state.book?.id ?: 0, CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist) } },
             playback = if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
                 {
                     ContinuousControls(
