@@ -288,6 +288,7 @@ class PlaylistScreensTest {
         val visited = mutableListOf<Route>()
         page(data.playlists(), visited = visited)
         waitUntil(timeoutMillis = 5_000) { shown("new-playlist-row") }
+        assertTrue(!shown("new-playlist"), "the row under the list makes a playlist, not a button in the bar")
         onNodeWithText("2 of 5 played · ", substring = true).assertExists()
         onNodeWithText("1 text · ✓ done").assertExists()
         onAllNodesWithContentDescription("Play again").fetchSemanticsNodes().size.let { assertEquals(1, it) }

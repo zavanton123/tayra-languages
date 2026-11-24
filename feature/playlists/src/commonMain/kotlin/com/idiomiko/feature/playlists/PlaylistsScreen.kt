@@ -49,10 +49,10 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.playlists.Playlist
 import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.AppDivider
-import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
+import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.EmptyState
@@ -122,11 +122,8 @@ fun PlaylistsScreen(
     LaunchedEffect(selectId) { selectId?.let(viewModel::select) }
     Scaffold(
         topBar = {
-            AppTopBar(title = tr("Playlists"), onNavigate = onNavigate, section = NavSection.PLAYLISTS, actions = {
-                if (width.isCompact && state.playlists.isNotEmpty()) {
-                    AppIconButton(Icons.Default.Add, contentDescription = tr("New playlist"), onClick = { creating = true }, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.testTag("new-playlist"))
-                }
-            })
+            // A phone makes a playlist from the New playlist row under the list.
+            AppTopBar(title = tr("Playlists"), onNavigate = onNavigate, section = NavSection.PLAYLISTS)
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
