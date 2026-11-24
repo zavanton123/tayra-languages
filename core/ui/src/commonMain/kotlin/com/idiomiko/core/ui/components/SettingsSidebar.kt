@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -47,19 +46,19 @@ import com.idiomiko.core.ui.theme.AppText
 
 /** The settings pages, in the order the sidebar lists them; [label] is English, shown through `tr`. */
 enum class SettingsSection(val label: String, val route: Route, val icon: ImageVector) {
-    GENERAL("General", Route.Settings, Icons.Default.Settings),
-    GOALS("Goals", Route.Goals, AppIcons.Target),
-    LANGUAGES("Languages", Route.Languages, AppIcons.Globe),
-    FLASHCARDS("Flashcards", Route.FlashcardSettings, AppIcons.Style),
-    VOCABULARY("Vocabulary", Route.VocabularySettings, AppIcons.Abc),
+    GENERAL("General", Route.Settings, AppIcons.MoreGeneral),
+    GOALS("Goals", Route.Goals, AppIcons.MoreGoals),
+    LANGUAGES("Languages", Route.Languages, AppIcons.MoreLanguages),
+    FLASHCARDS("Flashcards", Route.FlashcardSettings, AppIcons.NavFlashcards),
+    VOCABULARY("Vocabulary", Route.VocabularySettings, AppIcons.MoreVocabularySettings),
     HOTKEYS("Hotkeys", Route.Shortcuts, AppIcons.Keyboard),
-    SPEECH("Speech", Route.Speech, AppIcons.VolumeUp),
+    SPEECH("Speech", Route.Speech, AppIcons.MoreSpeech),
     PLAYLISTS("Playlists", Route.PlaylistSettings, AppIcons.NavPlaylists),
-    TRANSLATION("Translation", Route.OfflineTranslation, AppIcons.Translate),
-    BACKUPS("Backups", Route.Backups, AppIcons.UploadFile),
-    CLEAR_DATA("Clear data", Route.ClearData, AppIcons.DeleteOutline),
+    TRANSLATION("Translation", Route.OfflineTranslation, AppIcons.MoreTranslation),
+    BACKUPS("Backups", Route.Backups, AppIcons.MoreBackups),
+    CLEAR_DATA("Clear data", Route.ClearData, AppIcons.MoreClearData),
     UPDATES("Updates", Route.Updates, AppIcons.Download),
-    EXPERIMENTS("Experiments", Route.ExperimentalFeatures, AppIcons.Lightbulb),
+    EXPERIMENTS("Experiments", Route.ExperimentalFeatures, AppIcons.MoreExperiments),
 }
 
 /** The sections the sidebar leaves out, such as Updates where the app does not update itself; provided at the root of the app. */

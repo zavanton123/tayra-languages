@@ -38,41 +38,53 @@ object AppIcons {
     /** The same open book as [MenuBook]: the app has one book icon. */
     val Book: ImageVector get() = MenuBook
 
-    val Globe: ImageVector by lazy {
-        icon(
-            "Globe",
-            "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z",
-        )
-    }
+    val Globe: ImageVector get() = MoreLanguages
 
     /** A price-tag outline (Material "local_offer"), for tags. */
     val Tag: ImageVector by lazy {
-        icon("Tag", "M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM13 20.01L4 11V4h7v-.01l9 9-7 7.02zM6.5 5C5.67 5 5 5.67 5 6.5S5.67 8 6.5 8 8 7.33 8 6.5 7.33 5 6.5 5z")
+        navIcon("Tag") {
+            stroke("M3.5 4h7.2l9.8 9.8-6.7 6.7L4 10.7V4Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            fill("M6.2 7a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0Z")
+        }
     }
 
     /** Material "cloud_done": synced with the account. */
     val CloudDone: ImageVector by lazy {
-        icon("CloudDone", "M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM10 17l-3.5-3.5 1.41-1.41L10 14.17 15.18 9l1.41 1.41L10 17z")
+        navIcon("CloudDone") {
+            stroke("M6 18.5h11.8a3.7 3.7 0 0 0 .5-7.4A6.6 6.6 0 0 0 5.6 9.2 4.7 4.7 0 0 0 6 18.5Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("m8.3 13.8 2.2 2.1 4.8-5", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     /** Material "cloud_off": the last sync did not finish. */
     val CloudOff: ImageVector by lazy {
-        icon("CloudOff", "M19.35 10.04C18.67 6.59 15.64 4 12 4c-1.48 0-2.85.43-4.01 1.17l1.46 1.46C10.21 6.23 11.08 6 12 6c3.04 0 5.5 2.46 5.5 5.5v.5H19c1.66 0 3 1.34 3 3 0 1.13-.64 2.11-1.56 2.62l1.45 1.45C23.16 18.16 24 16.68 24 15c0-2.64-2.05-4.78-4.65-4.96zM3 5.27l2.75 2.74C2.56 8.15 0 10.77 0 14c0 3.31 2.69 6 6 6h11.73l2 2L21 20.73 4.27 4 3 5.27zM7.73 10l8 8H6c-2.21 0-4-1.79-4-4s1.79-4 4-4h1.73z")
+        navIcon("CloudOff") {
+            stroke("M7.2 18.5H6a4.7 4.7 0 0 1-.4-9.3A6.6 6.6 0 0 1 16 6.3M18.3 11.1a3.7 3.7 0 0 1-.5 7.4h-4", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M3.5 4.5 20 21", cap = StrokeCap.Round)
+        }
     }
 
     /** Material "cloud_queue": syncing with the account is available, not yet done. */
     val Cloud: ImageVector by lazy {
-        icon("Cloud", "M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19 18H6c-2.21 0-4-1.79-4-4s1.79-4 4-4h.71C7.37 7.69 9.48 6 12 6c3.04 0 5.5 2.46 5.5 5.5v.5H19c1.66 0 3 1.34 3 3s-1.34 3-3 3z")
+        navIcon("Cloud") {
+            stroke("M6 18.5h11.8a3.7 3.7 0 0 0 .5-7.4A6.6 6.6 0 0 0 5.6 9.2 4.7 4.7 0 0 0 6 18.5Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     /** Material "cloud_upload": what is kept in the account, safe off this device. */
     val CloudUpload: ImageVector by lazy {
-        icon("CloudUpload", "M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z")
+        navIcon("CloudUpload") {
+            stroke("M6 18.5h11.8a3.7 3.7 0 0 0 .5-7.4A6.6 6.6 0 0 0 5.6 9.2 4.7 4.7 0 0 0 6 18.5Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M12 16V8.5M8.8 11.7 12 8.5l3.2 3.2", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     /** Material "devices": a computer and a phone, for the same library on each. */
     val Devices: ImageVector by lazy {
-        icon("Devices", "M4 6h18V4H4c-1.1 0-2 .9-2 2v11H0v3h14v-3H4V6zm19 2h-6c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1V9c0-.55-.45-1-1-1zm-1 9h-4v-7h4v7z")
+        navIcon("Devices") {
+            stroke("M3.5 5h13v10h-13z", join = StrokeJoin.Round)
+            stroke("M2 18h13.5M18 8.5h3.5v11H18zM19.3 17h.9", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     /** Material "sync": two arrows chasing each other round. */
@@ -90,21 +102,24 @@ object AppIcons {
         icon("VisibilityOff", "M12 7c2.76 0 5 2.24 5 5 0 .65-.13 1.26-.36 1.83l2.92 2.92c1.51-1.26 2.7-2.89 3.43-4.75-1.73-4.39-6-7.5-11-7.5-1.4 0-2.74.25-3.98.7l2.16 2.16C10.74 7.13 11.35 7 12 7zM2 4.27l2.28 2.28.46.46C3.08 8.3 1.78 10.02 1 12c1.73 4.39 6 7.5 11 7.5 1.55 0 3.03-.3 4.38-.84l.42.42L19.73 22 21 20.73 3.27 3 2 4.27zM7.53 9.8l1.55 1.55c-.05.21-.08.43-.08.65 0 1.66 1.34 3 3 3 .22 0 .44-.03.65-.08l1.55 1.55c-.67.33-1.41.53-2.2.53-2.76 0-5-2.24-5-5 0-.79.2-1.53.53-2.2zm4.31-.78l3.15 3.15.02-.16c0-1.66-1.34-3-3-3l-.17.01z")
     }
 
-    val BarChart: ImageVector by lazy { icon("BarChart", "M5 9.2h3V19H5zM10.6 5h2.8v14h-2.8zm5.6 8H19v6h-2.8z") }
+    val BarChart: ImageVector get() = MoreStatistics
 
     /** Material "newspaper", for the news. */
-    val Newspaper: ImageVector by lazy {
-        icon("Newspaper", "M22 3l-1.67 1.67L18.67 3 17 4.67 15.33 3l-1.66 1.67L12 3l-1.67 1.67L8.67 3 7 4.67 5.33 3 3.67 4.67 2 3v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V3zM11 19H4v-6h7v6zm9 0h-7v-2h7v2zm0-4h-7v-2h7v2zm0-4H4V8h16v3z")
-    }
+    val Newspaper: ImageVector get() = ReadNews
 
     val Flame: ImageVector by lazy {
-        icon(
-            "Flame",
-            "M11.57 13.16c-1.36.28-2.17 1.16-2.17 2.41 0 1.34 1.11 2.42 2.49 2.42 2.05 0 3.71-1.66 3.71-3.71 0-1.07-.15-2.12-.46-3.12-.79 1.07-2.2 1.72-3.57 2zM13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67z",
-        )
+        navIcon("Flame") {
+            stroke("M12.8 2.8c.5 3.6-2.2 5.1-2.2 7.4 0 1.2.7 2.1 1.8 2.7-.2-2.1 1-3.3 2.4-4.7 2.5 1.8 4.2 4.7 4.2 7.3a7 7 0 0 1-14 0c0-3.2 1.7-6.2 4.3-8.3-.2 2 .3 3.4 1.3 4.2.2-3.6 3.1-5 2.2-8.6Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M9.3 17.2a2.7 2.7 0 0 0 5.4 0c0-1.3-.7-2.5-1.8-3.3-.2 1.1-.9 1.7-1.7 2.1-.2-.7-.1-1.3.1-2-1.2.8-2 1.9-2 3.2Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
-    val ViewList: ImageVector by lazy { icon("ViewList", "M3 14h4v-4H3v4zm0 5h4v-4H3v4zM3 9h4V5H3v4zm5 5h13v-4H8v4zm0 5h13v-4H8v4zM8 5v4h13V5H8z") }
+    val ViewList: ImageVector by lazy {
+        navIcon("ViewList") {
+            fill("M3.8 6.5a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0ZM3.8 12a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0ZM3.8 17.5a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0Z")
+            stroke("M9 6.5h11M9 12h11M9 17.5h8", cap = StrokeCap.Round)
+        }
+    }
 
     /** Material "archive": a box with an arrow into it, for the book archive. */
     val Archive: ImageVector by lazy {
@@ -112,37 +127,37 @@ object AppIcons {
     }
 
     /** A graduation cap, for the courses. */
-    val School: ImageVector by lazy { icon("School", "M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z") }
+    val School: ImageVector get() = ReadCourses
 
     /** A fan of cards, for the flashcards; upside down, so it opens downwards. */
-    val Style: ImageVector by lazy {
-        materialIcon(name = "Style") {
-            group(scaleY = -1f, pivotY = 12f) {
-                addPath(
-                    pathData = addPathNodes("M2.53 19.65l1.34.56v-9.03l-2.43 5.86c-.41 1.02.08 2.19 1.09 2.61zm19.5-3.7L17.07 3.98c-.31-.75-1.04-1.21-1.81-1.23-.26 0-.53.04-.79.15L7.1 5.95c-.75.31-1.21 1.03-1.23 1.8-.01.27.04.54.15.8l4.96 11.97c.31.76 1.05 1.22 1.83 1.23.26 0 .52-.05.77-.15l7.36-3.05c1.02-.42 1.51-1.59 1.09-2.6zM7.88 8.75c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-2 11c0 1.1.9 2 2 2h1.45l-3.45-8.34v6.34z"),
-                    fill = SolidColor(Color.Black),
-                )
-            }
+    val Style: ImageVector get() = StageFlashcards
+
+    val PieChart: ImageVector by lazy {
+        navIcon("PieChart") {
+            stroke("M10.5 3.2a8.8 8.8 0 1 0 10.3 10.3H10.5z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M13.5 3.2v7.3h7.3a8.8 8.8 0 0 0-7.3-7.3Z", join = StrokeJoin.Round)
         }
     }
-
-    val PieChart: ImageVector by lazy { icon("PieChart", "M11 2v20c-5.07-.5-9-4.79-9-10s3.93-9.5 9-10zm2.03 0v8.99H22c-.47-4.74-4.24-8.52-8.97-8.99zm0 11.01V22c4.74-.47 8.5-4.25 8.97-8.99h-8.97z") }
 
     val GridView: ImageVector by lazy {
         icon("GridView", "M3 3v8h8V3H3zm6 6H5V5h4v4zm-6 4v8h8v-8H3zm6 6H5v-4h4v4zm4-16v8h8V3h-8zm6 6h-4V5h4v4zm-6 4v8h8v-8h-8zm6 6h-4v-4h4v4z")
     }
 
-    val SwapVert: ImageVector by lazy { icon("SwapVert", "M16 17.01V10h-2v7.01h-3L15 21l4-3.99h-3zM9 3L5 6.99h3V14h2V6.99h3L9 3z") }
+    val SwapVert: ImageVector by lazy {
+        navIcon("SwapVert") {
+            stroke("M8 4v15M4.5 7.5 8 4l3.5 3.5M16 20V5M12.5 16.5 16 20l3.5-3.5", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
 
     val UnfoldMore: ImageVector by lazy {
         icon("UnfoldMore", "M12 5.83L15.17 9l1.41-1.41L12 3 7.41 7.59 8.83 9 12 5.83zm0 12.34L8.83 15l-1.41 1.41L12 21l4.59-4.59L15.17 15 12 18.17z")
     }
 
     val Palette: ImageVector by lazy {
-        icon(
-            "Palette",
-            "M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01-.23-.26-.38-.61-.38-.99 0-.83.67-1.5 1.5-1.5H16c2.76 0 5-2.24 5-5 0-4.42-4.03-8-9-8zm-5.5 9c-.83 0-1.5-.67-1.5-1.5S5.67 9 6.5 9 8 9.67 8 10.5 7.33 12 6.5 12zm3-4C8.67 8 8 7.33 8 6.5S8.67 5 9.5 5s1.5.67 1.5 1.5S10.33 8 9.5 8zm5 0c-.83 0-1.5-.67-1.5-1.5S13.67 5 14.5 5s1.5.67 1.5 1.5S15.33 8 14.5 8zm3 4c-.83 0-1.5-.67-1.5-1.5S16.67 9 17.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z",
-        )
+        navIcon("Palette") {
+            stroke("M12 3a9 9 0 0 0 0 18h1.1a2 2 0 0 0 1.4-3.4 1.8 1.8 0 0 1 1.3-3.1H18a3 3 0 0 0 3-3C21 6.8 17 3 12 3Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            fill("M6.2 11a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0ZM8.7 6.8a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0ZM13.8 6.6a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0ZM16.2 10.8a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0Z")
+        }
     }
 
     val FormatSize: ImageVector by lazy { icon("FormatSize", "M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z") }
@@ -152,7 +167,12 @@ object AppIcons {
     }
 
     /** A table of rows and columns, for a word's conjugation or inflection. */
-    val TableChart: ImageVector by lazy { icon("TableChart", "M10 10.02h5V21h-5zM17 21h3c1.1 0 2-.9 2-2v-9h-5v11zm3-18H5c-1.1 0-2 .9-2 2v3h19V5c0-1.1-.9-2-2-2zM3 19c0 1.1.9 2 2 2h3V10H3v9z") }
+    val TableChart: ImageVector by lazy {
+        navIcon("TableChart") {
+            stroke("M4.5 3.5h15a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2h-15a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2Z", join = StrokeJoin.Round)
+            stroke("M2.5 8.5h19M8.5 8.5v12M15.5 8.5v12M2.5 14.5h19")
+        }
+    }
 
     val OpenInFull: ImageVector by lazy { icon("OpenInFull", "M21 11V3h-8l3.29 3.29-10 10L3 13v8h8l-3.29-3.29 10-10z") }
 
@@ -161,7 +181,12 @@ object AppIcons {
     val FullscreenExit: ImageVector by lazy { icon("FullscreenExit", "M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z") }
 
     /** A film strip (Material "movie"), for videos. */
-    val Movie: ImageVector by lazy { icon("Movie", "M18 4l2 4h-3l-2-4h-2l2 4h-3l-2-4H8l2 4H7L5 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V4h-4z") }
+    val Movie: ImageVector by lazy {
+        navIcon("Movie") {
+            stroke("M5.5 4h13A2.5 2.5 0 0 1 21 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 17.5v-11A2.5 2.5 0 0 1 5.5 4Z", join = StrokeJoin.Round)
+            fill("m10 8 6 4-6 4z")
+        }
+    }
 
     val Subtitles: ImageVector by lazy { icon("Subtitles", "M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM4 12h4v2H4v-2zm10 6H4v-2h10v2zm6 0h-4v-2h4v2zm0-4H10v-2h10v2z") }
 
@@ -177,12 +202,7 @@ object AppIcons {
 
     val Bookmark: ImageVector by lazy { icon("Bookmark", "M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2zm0 15l-5-2.18L7 18V5h10v13z") }
 
-    val Translate: ImageVector by lazy {
-        icon(
-            "Translate",
-            "M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z",
-        )
-    }
+    val Translate: ImageVector get() = MoreTranslation
 
     val Keyboard: ImageVector by lazy {
         icon(
@@ -206,19 +226,20 @@ object AppIcons {
     /** Two arrows chasing round: one thing swapped for another. */
     /** Two speech bubbles: example sentences to choose from. */
     val Forum: ImageVector by lazy {
-        icon("Forum", "M15 4v7H5.17L4 12.17V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z")
+        navIcon("Forum") {
+            stroke("M4.5 4h10a2.5 2.5 0 0 1 2.5 2.5v5a2.5 2.5 0 0 1-2.5 2.5H9l-4.5 3v-3A2.5 2.5 0 0 1 2 11.5v-5A2.5 2.5 0 0 1 4.5 4Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M18 9h1.5a2.5 2.5 0 0 1 2.5 2.5v4a2.5 2.5 0 0 1-2.5 2.5H18v3l-4.5-3H11", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
-    val Abc: ImageVector by lazy {
-        icon(
-            "Abc",
-            "M21 11h-1.5v-.5h-2v3h2V13H21v1c0 .55-.45 1-1 1h-3c-.55 0-1-.45-1-1v-4c0-.55.45-1 1-1h3c.55 0 1 .45 1 1v1zM8 10v5H6.5v-1.5h-2V15H3v-5c0-.55.45-1 1-1h3c.55 0 1 .45 1 1zm-1.5.5h-2V12h2v-1.5zm7 1.5c.55 0 1 .45 1 1v1c0 .55-.45 1-1 1h-4V9h4c.55 0 1 .45 1 1v1c0 .55-.45 1-1 1zm-2.5-1.5v.5h2v-.5h-2zm2 2.5h-2v.5h2V13z",
-        )
-    }
+    val Abc: ImageVector get() = MoreVocabulary
 
     /** A closed book with a bookmark, for the offline dictionary. */
     val BookClosed: ImageVector by lazy {
-        icon("BookClosed", "M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z")
+        navIcon("BookClosed") {
+            stroke("M6 3.5h12a2 2 0 0 1 2 2v15H6a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2Z", join = StrokeJoin.Round)
+            stroke("M4 17.5h16M8 3.5v7l2-1.4 2 1.4v-7", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     val Download: ImageVector by lazy { icon("Download", "M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z") }
@@ -234,9 +255,7 @@ object AppIcons {
 
     // Listening to playlists.
 
-    val Headphones: ImageVector by lazy {
-        icon("Headphones", "M12 1c-4.97 0-9 4.03-9 9v7c0 1.66 1.34 3 3 3h3v-8H5v-2c0-3.87 3.13-7 7-7s7 3.13 7 7v2h-4v8h3c1.66 0 3-1.34 3-3v-7c0-4.97-4.03-9-9-9z")
-    }
+    val Headphones: ImageVector get() = StageListen
 
     /** Lines of a list with a note: a playlist. */
     val QueueMusic: ImageVector by lazy {
@@ -270,22 +289,28 @@ object AppIcons {
     /** A clock face: when something comes. */
     /** Material "rocket_launch": something new to set off on, such as a recommended course. */
     val RocketLaunch: ImageVector by lazy {
-        icon(
-            "RocketLaunch",
-            "M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.05-4.05c.47-.47 1.15-.68 1.81-.55l1.33.26zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83L11.17 17zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.05-4.05c.47-.47.68-1.15.55-1.81l-.26-1.33zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3zm4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z",
-        )
+        navIcon("RocketLaunch") {
+            stroke("M9 15c-1.9-.1-3.4.5-4.7 1.8L3 13.5c-.3-.8-.1-1.6.5-2.2L7 7.8C9.8 5 13.4 3.3 17.4 3l3.6-.2-.2 3.6c-.3 4-2 7.6-4.8 10.4l-3.5 3.5c-.6.6-1.4.8-2.2.5L7 19.5C8.3 18.3 8.9 16.8 9 15Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M14.2 9.8a2 2 0 1 0 2.8-2.8 2 2 0 0 0-2.8 2.8ZM6.2 17.8 3 21l4.5-1.2", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     /** Material "adjust": a target, such as the day's goal. */
-    val Target: ImageVector by lazy {
-        icon("Target", "M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3-8c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3z")
-    }
+    val Target: ImageVector get() = MoreGoals
 
     val Schedule: ImageVector by lazy {
-        icon("Schedule", "M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z")
+        navIcon("Schedule") {
+            stroke("M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z")
+            stroke("M12 6.5V12l3.8 2.3", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
-    val Replay: ImageVector by lazy { icon("Replay", "M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z") }
+    val Replay: ImageVector by lazy {
+        navIcon("Replay") {
+            stroke("M5.3 8.3A8 8 0 1 1 4.2 15", cap = StrokeCap.Round)
+            stroke("M5.3 3.8v4.5H9.8", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
 
     /** A page with lines: a text. */
     val Description: ImageVector by lazy {
@@ -293,14 +318,17 @@ object AppIcons {
     }
 
     val Lightbulb: ImageVector by lazy {
-        icon(
-            "Lightbulb",
-            "M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.14 2 5 5.14 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.86-3.14-7-7-7zm2.85 11.1l-.85.6V16h-4v-2.3l-.85-.6C7.8 12.16 7 10.63 7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.63-.8 3.16-2.15 4.1z",
-        )
+        navIcon("Lightbulb") {
+            stroke("M7 9.2a5 5 0 1 1 8.2 3.8c-1 .8-1.7 1.7-1.7 2.8h-3c0-1.1-.7-2-1.7-2.8A4.9 4.9 0 0 1 7 9.2Z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M9.8 19h4.4M10.7 22h2.6", cap = StrokeCap.Round)
+        }
     }
 
     val RecordVoiceOver: ImageVector by lazy {
-        icon("RecordVoiceOver", "M9 13c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4zm6.08-7.95c.84 1.18.84 2.71 0 3.89l1.68 1.69c2.02-2.02 2.02-5.07 0-7.27l-1.68 1.69zM20.07 2l-1.63 1.63c2.77 3.02 2.77 7.56 0 10.74L20.07 16c3.9-3.89 3.91-9.95 0-14z")
+        navIcon("RecordVoiceOver") {
+            stroke("M8.5 4a3.5 3.5 0 1 0 0 7 3.5 3.5 0 1 0 0-7ZM2.5 20v-2c0-2.5 2.7-4.5 6-4.5s6 2 6 4.5v2", cap = StrokeCap.Round)
+            stroke("M16.5 7.2a4 4 0 0 1 0 5.6M19 4.7a7.5 7.5 0 0 1 0 10.6", cap = StrokeCap.Round)
+        }
     }
 
     val VolumeOff: ImageVector by lazy {
@@ -325,14 +353,17 @@ object AppIcons {
     }
 
     val Explore: ImageVector by lazy {
-        icon(
-            "Explore",
-            "M12 10.9c-.61 0-1.1.49-1.1 1.1s.49 1.1 1.1 1.1c.61 0 1.1-.49 1.1-1.1s-.49-1.1-1.1-1.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.19 12.19L6 18l3.81-8.19L18 6l-3.81 8.19z",
-        )
+        navIcon("Explore") {
+            stroke("M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z")
+            stroke("m9.5 9.5 7-3-3 7-7 3z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            fill("M10.7 12a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0Z")
+        }
     }
 
     val DoneAll: ImageVector by lazy {
-        icon("DoneAll", "M18 7l-1.41-1.41-6.34 6.34 1.41 1.41L18 7zm4.24-1.41L11.66 16.17 7.48 12l-1.41 1.41L11.66 19l12-12-1.42-1.41zM.41 13.41L6 19l1.41-1.41L1.83 12 .41 13.41z")
+        navIcon("DoneAll") {
+            stroke("m2.5 13 4.2 4.2L17 6.9M9.2 16.8l2.1 2.1L21.5 8.7", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     val ArrowLeft: ImageVector by lazy { icon("ArrowLeft", "M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z") }
@@ -340,21 +371,28 @@ object AppIcons {
     val ArrowUp: ImageVector by lazy { icon("ArrowUp", "M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z") }
     val ArrowDown: ImageVector by lazy { icon("ArrowDown", "M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z") }
 
+    /** Generic file upload. Backups use [MoreBackups], which is intentionally a database/check mark. */
     val UploadFile: ImageVector by lazy {
-        icon("UploadFile", "M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15.01l1.41 1.41L11 14.84V19h2v-4.16l1.59 1.59L16 15.01 12.01 11z")
+        navIcon("UploadFile") {
+            stroke("M6 3.5h7l5 5v12H6z", join = StrokeJoin.Round)
+            stroke("M13 3.5v5h5M12 18v-6M9 15l3-3 3 3", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     val History: ImageVector by lazy {
-        icon(
-            "History",
-            "M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z",
-        )
+        navIcon("History") {
+            stroke("M4.5 8.5A8.5 8.5 0 1 1 3.7 15", cap = StrokeCap.Round)
+            stroke("M4.5 4.5v4h4M12 7.5v5l3.4 2", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     val FileOutline: ImageVector by lazy { icon("FileOutline", "M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z") }
 
     val VerifiedUser: ImageVector by lazy {
-        icon("VerifiedUser", "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z")
+        navIcon("VerifiedUser") {
+            stroke("M12 2.5 20 6v5.5c0 5-3.2 8.4-8 10-4.8-1.6-8-5-8-10V6z", join = StrokeJoin.Round)
+            stroke("m8.1 12 2.5 2.5 5.4-5.6", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     val Share: ImageVector by lazy {
@@ -365,35 +403,49 @@ object AppIcons {
     }
 
     /** Material "delete_outline": a bin drawn in outline, for clearing the data on the device. */
-    val DeleteOutline: ImageVector by lazy { icon("DeleteOutline", "M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4z") }
+    val DeleteOutline: ImageVector get() = MoreClearData
 
     val RemoveCircle: ImageVector by lazy {
         icon("RemoveCircle", "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11H7v-2h10v2z")
     }
 
-    val Flag: ImageVector by lazy { icon("Flag", "M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z") }
+    val Flag: ImageVector by lazy {
+        navIcon("Flag") {
+            stroke("M5 21V4M5 5h10l.8 2H20v9h-9.8L9.4 14H5", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
 
     /** Material "account_balance": a columned hall, for politics. */
-    val AccountBalance: ImageVector by lazy { icon("AccountBalance", "M4 10v7h3v-7H4zm6 0v7h3v-7h-3zM2 22h19v-3H2v3zm14-12v7h3v-7h-3zm-4.5-9L2 6v2h19V6l-9.5-5z") }
+    val AccountBalance: ImageVector by lazy {
+        navIcon("AccountBalance") {
+            stroke("M3 8h18L12 3zM4 20h16M6 17h12M7 8v9M12 8v9M17 8v9", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
 
     /** Material "trending_up", for the economy. */
-    val TrendingUp: ImageVector by lazy { icon("TrendingUp", "M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z") }
+    val TrendingUp: ImageVector by lazy {
+        navIcon("TrendingUp") {
+            stroke("M3 18 9 12l4 4 8-9M15 7h6v6", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
 
     /** Material "emoji_events": a cup, for sport. */
     val Trophy: ImageVector by lazy {
-        icon(
-            "Trophy",
-            "M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z",
-        )
+        navIcon("Trophy") {
+            stroke("M7 4h10v4.5a5 5 0 0 1-10 0zM7 6H4v2.5a3.5 3.5 0 0 0 3.6 3.5M17 6h3v2.5a3.5 3.5 0 0 1-3.6 3.5M12 13.5V18M8 21h8M9 18h6", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
     }
 
     /** Material "science": a flask. */
-    val Science: ImageVector by lazy {
-        icon("Science", "M19.8 18.4L14 10.67V6.5l1.35-1.69c.26-.33.03-.81-.39-.81H9.04c-.42 0-.65.48-.39.81L10 6.5v4.17L4.2 18.4c-.49.66-.02 1.6.8 1.6h14c.82 0 1.29-.94.8-1.6z")
-    }
+    val Science: ImageVector get() = MoreExperiments
 
     /** Material "local_cafe": a cup of coffee, for lifestyle. */
-    val LocalCafe: ImageVector by lazy { icon("LocalCafe", "M20 3H4v10c0 2.21 1.79 4 4 4h6c2.21 0 4-1.79 4-4v-3h2c1.11 0 2-.89 2-2V5c0-1.11-.89-2-2-2zm0 5h-2V5h2v3zM4 19h16v2H4z") }
+    val LocalCafe: ImageVector by lazy {
+        navIcon("LocalCafe") {
+            stroke("M4 7h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5zM17 9h2a2.5 2.5 0 0 1 0 5h-2.4M3 21h16", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M8 3.2v1.5M12 2.5v2.2", cap = StrokeCap.Round)
+        }
+    }
 
     val Terminal: ImageVector by lazy {
         icon("Terminal", "M20 4H4c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm0 14H4V8h16v10zm-2-1h-6v-2h6v2zM7.5 17l-1.41-1.41L8.67 13l-2.59-2.59L7.5 9l4 4-4 4z")
@@ -403,18 +455,16 @@ object AppIcons {
         icon("MoreHoriz", "M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z")
     }
 
-    val SwapHoriz: ImageVector by lazy { icon("SwapHoriz", "M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z") }
+    val SwapHoriz: ImageVector get() = StageReverse
 
     val Memory: ImageVector by lazy {
-        icon(
-            "Memory",
-            "M15 9H9v6h6V9zm-2 4h-2v-2h2v2zm8-2V9h-2V7c0-1.1-.9-2-2-2h-2V3h-2v2h-2V3H9v2H7c-1.1 0-2 .9-2 2v2H3v2h2v2H3v2h2v2c0 1.1.9 2 2 2h2v2h2v-2h2v2h2v-2h2c1.1 0 2-.9 2-2v-2h2v-2h-2v-2h2zm-4 6H7V7h10v10z",
-        )
+        navIcon("Memory") {
+            stroke("M7 6h10a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1ZM9 9h6v6H9z", join = StrokeJoin.Round)
+            stroke("M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3", cap = StrokeCap.Round)
+        }
     }
 
-    val Storage: ImageVector by lazy {
-        icon("Storage", "M2 20h20v-4H2v4zm2-3h2v2H4v-2zM2 4v4h20V4H2zm4 3H4V5h2v2zm-4 7h20v-4H2v4zm2-3h2v2H4v-2z")
-    }
+    val Storage: ImageVector get() = MoreBackups
 
     /** An open book in strokes (nav_read.svg), wherever the app shows a book. */
     val MenuBook: ImageVector by lazy {
