@@ -38,11 +38,11 @@ import com.idiomiko.core.ui.theme.AppText
 
 /** What there is to read, the same on the wide bar's Read menu and the phone's Read sheet; [MoreEntry.label] is English. */
 internal val readPages = listOf(
-    MoreEntry("Courses", AppIcons.School, Route.Courses),
-    MoreEntry("Books", AppIcons.MenuBook, Route.Books),
-    MoreEntry("Find free books", AppIcons.Book, Route.FindBooks),
-    MoreEntry("Book archive", AppIcons.Archive, Route.ArchivedBooks),
-    MoreEntry("News", AppIcons.Newspaper, Route.News),
+    MoreEntry("Courses", AppIcons.ReadCourses, Route.Courses),
+    MoreEntry("Books", AppIcons.ReadBooks, Route.Books),
+    MoreEntry("Find free books", AppIcons.ReadFindBooks, Route.FindBooks),
+    MoreEntry("Book archive", AppIcons.ReadArchive, Route.ArchivedBooks),
+    MoreEntry("News", AppIcons.ReadNews, Route.News),
 )
 
 /** The flashcard pages, the same on the wide bar's Flashcards menu and the phone's Flashcards sheet. */

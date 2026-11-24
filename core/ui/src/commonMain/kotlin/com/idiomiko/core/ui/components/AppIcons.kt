@@ -481,6 +481,53 @@ object AppIcons {
         }
     }
 
+    /** The phone's Read sheet: the design's own icons for what there is to read, drawn as the bottom bar's. */
+    val ReadCourses: ImageVector by lazy {
+        navIcon("ReadCourses") {
+            stroke("m3 8.2 9-4.8 9 4.8-9 4.8z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M6.5 10.2v5c0 1.7 2.5 3.2 5.5 3.2s5.5-1.5 5.5-3.2v-5", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M21 8.2v6.2", cap = StrokeCap.Round)
+            fill("M19.7 16.7a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0Z")
+        }
+    }
+
+    val ReadBooks: ImageVector by lazy {
+        navIcon("ReadBooks") {
+            stroke("M4.7 4h2a1.5 1.5 0 0 1 1.5 1.5v13a1.5 1.5 0 0 1 -1.5 1.5h-2a1.5 1.5 0 0 1 -1.5 -1.5v-13a1.5 1.5 0 0 1 1.5 -1.5Z")
+            stroke("M11 6.2h2a1.5 1.5 0 0 1 1.5 1.5v10.8a1.5 1.5 0 0 1 -1.5 1.5h-2a1.5 1.5 0 0 1 -1.5 -1.5v-10.8a1.5 1.5 0 0 1 1.5 -1.5Z")
+            stroke("m16.8 4.4 3.6-.8 3.1 15.2-3.6.8z", join = StrokeJoin.Round)
+            stroke("M4.8 16.8h1.8M11.1 16.8h1.8", cap = StrokeCap.Round)
+        }
+    }
+
+    val ReadFindBooks: ImageVector by lazy {
+        navIcon("ReadFindBooks") {
+            stroke("M2.8 5.8c2.8-.8 5.3-.3 7.5 1.5 2.2-1.8 4.7-2.3 7.5-1.5v8.6c-2.8-.8-5.3-.3-7.5 1.5-2.2-1.8-4.7-2.3-7.5-1.5z", join = StrokeJoin.Round)
+            stroke("M10.3 7.3v8.6", cap = StrokeCap.Round)
+            stroke("M14.3 17.3a3.2 3.2 0 1 0 6.4 0a3.2 3.2 0 1 0 -6.4 0Z")
+            stroke("m19.9 19.6 2 2", cap = StrokeCap.Round)
+        }
+    }
+
+    val ReadArchive: ImageVector by lazy {
+        navIcon("ReadArchive") {
+            stroke("M4.5 8h15v10.7a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2z", join = StrokeJoin.Round)
+            stroke("M4.6 3.5h14.8a1.6 1.6 0 0 1 1.6 1.6v1.8a1.6 1.6 0 0 1 -1.6 1.6h-14.8a1.6 1.6 0 0 1 -1.6 -1.6v-1.8a1.6 1.6 0 0 1 1.6 -1.6Z")
+            stroke("M9 12h6", cap = StrokeCap.Round)
+            fill("m12 10.7 2.5 2.6H9.5z")
+        }
+    }
+
+    val ReadNews: ImageVector by lazy {
+        navIcon("ReadNews") {
+            stroke("M5.5 4h13a2.5 2.5 0 0 1 2.5 2.5v11a2.5 2.5 0 0 1 -2.5 2.5h-13a2.5 2.5 0 0 1 -2.5 -2.5v-11a2.5 2.5 0 0 1 2.5 -2.5Z")
+            stroke("M3 8h18")
+            fill("M5.8 13a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0Z")
+            stroke("M12.5 11.4H18M12.5 14.3H18M6 17.3h12", cap = StrokeCap.Round)
+            fill("M5.25 6a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0ZM7.95 6a0.75 0.75 0 1 0 1.5 0a0.75 0.75 0 1 0 -1.5 0Z")
+        }
+    }
+
     /** The Idiomiko monkey in its own colours (tools/logo/idiomiko-monkey.svg); draw it untinted. */
     val Logo: ImageVector by lazy {
         ImageVector.Builder(name = "Logo", defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 1237.9f, viewportHeight = 1237.9f)
