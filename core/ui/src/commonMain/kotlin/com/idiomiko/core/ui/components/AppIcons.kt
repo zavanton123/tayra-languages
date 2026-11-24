@@ -665,6 +665,38 @@ object AppIcons {
         }
     }
 
+    /** The reader's stages: the design's own icons, drawn as the bottom bar's. The quiz takes [ReadCourses], the flashcards [NavFlashcards], reading aloud [MenuBook]. */
+    val StageListen: ImageVector by lazy {
+        navIcon("StageListen") {
+            stroke("M4 12v-1a8 8 0 0 1 16 0v1", cap = StrokeCap.Round)
+            stroke("M5.5 11.5a2.5 2.5 0 0 1 2.5 2.5v3.5a2.5 2.5 0 0 1 -2.5 2.5a2.5 2.5 0 0 1 -2.5 -2.5v-3.5a2.5 2.5 0 0 1 2.5 -2.5Z")
+            stroke("M18.5 11.5a2.5 2.5 0 0 1 2.5 2.5v3.5a2.5 2.5 0 0 1 -2.5 2.5a2.5 2.5 0 0 1 -2.5 -2.5v-3.5a2.5 2.5 0 0 1 2.5 -2.5Z")
+        }
+    }
+
+    val StageWords: ImageVector by lazy {
+        navIcon("StageWords") {
+            stroke("M6 3.5h12a3 3 0 0 1 3 3v11a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3Z")
+            fill("M5.75 8a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 1 0 -2.5 0Z")
+            fill("M5.75 12a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 1 0 -2.5 0Z")
+            fill("M5.75 16a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 1 0 -2.5 0Z")
+            stroke("M10.5 8H17M10.5 12H17M10.5 16H15", cap = StrokeCap.Round)
+        }
+    }
+
+    val StageReverse: ImageVector by lazy {
+        navIcon("StageReverse") {
+            stroke("M4 8h14.5M15 4.5 18.5 8 15 11.5M20 16H5.5M9 12.5 5.5 16 9 19.5", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
+
+    val StageRetell: ImageVector by lazy {
+        navIcon("StageRetell") {
+            stroke("M12 2.5a4 4 0 0 1 4 4v4a4 4 0 0 1 -4 4a4 4 0 0 1 -4 -4v-4a4 4 0 0 1 4 -4Z")
+            stroke("M5.5 11.5v.8a6.5 6.5 0 0 0 13 0v-.8M12 18.8v3M8.5 21.8h7", cap = StrokeCap.Round)
+        }
+    }
+
     /** The Idiomiko monkey in its own colours (tools/logo/idiomiko-monkey.svg); draw it untinted. */
     val Logo: ImageVector by lazy {
         ImageVector.Builder(name = "Logo", defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 1237.9f, viewportHeight = 1237.9f)

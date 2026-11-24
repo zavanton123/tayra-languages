@@ -54,13 +54,13 @@ import com.idiomiko.core.ui.theme.AppSpacing
 internal val ReadingStage.icon: ImageVector
     get() = when (this) {
         ReadingStage.READ_ALOUD -> AppIcons.MenuBook
-        ReadingStage.LISTEN -> AppIcons.Headphones
+        ReadingStage.LISTEN -> AppIcons.StageListen
         ReadingStage.QUESTIONS -> AppIcons.Forum
-        ReadingStage.WORDS -> AppIcons.ViewList
-        ReadingStage.QUIZ -> AppIcons.School
-        ReadingStage.FLASHCARDS -> AppIcons.Style
-        ReadingStage.REVERSE -> AppIcons.SwapHoriz
-        ReadingStage.RETELL -> AppIcons.RecordVoiceOver
+        ReadingStage.WORDS -> AppIcons.StageWords
+        ReadingStage.QUIZ -> AppIcons.ReadCourses
+        ReadingStage.FLASHCARDS -> AppIcons.NavFlashcards
+        ReadingStage.REVERSE -> AppIcons.StageReverse
+        ReadingStage.RETELL -> AppIcons.StageRetell
     }
 
 @Composable
