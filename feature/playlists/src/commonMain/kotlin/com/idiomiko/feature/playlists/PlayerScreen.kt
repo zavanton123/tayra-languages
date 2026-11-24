@@ -359,7 +359,6 @@ private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: Str
             }
         }
         OverflowMenu(tr("More actions"), buttonModifier = Modifier.testTag("queue-menu-${item.id}")) { close ->
-            AppMenuItem(text = { Text(tr("Play from here")) }, onClick = { close(); onPlay() })
             AppMenuItem(text = { Text(tr("Remove from playlist"), color = colors.error) }, onClick = { close(); onRemove() })
         }
     }

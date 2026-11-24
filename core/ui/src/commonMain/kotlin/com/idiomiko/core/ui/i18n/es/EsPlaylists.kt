@@ -34,7 +34,6 @@ internal val esPlaylists: Map<String, String> = mapOf(
     "Texts" to "Textos",
     "Drag to reorder" to "Arrastra para reordenar",
     "Heard to the end" to "Escuchado hasta el final",
-    "Play from here" to "Reproducir desde aquí",
     "Open in the reader" to "Abrir en el lector",
     "Remove from playlist" to "Quitar de la lista de reproducción",
     "This playlist is empty" to "Esta lista de reproducción está vacía",
