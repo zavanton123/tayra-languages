@@ -16,6 +16,7 @@ internal val zhReading: Map<String, String> = mapOf(
     "Show translations" to "显示翻译",
     "Hidden sentence" to "隐藏的句子",
     "Show the sentence" to "显示句子",
+    "Hide the sentence" to "隐藏句子",
     "Translations side by side" to "译文并排显示",
     "Translation engine" to "翻译引擎",
     "{0} (offline, free)" to "{0}（离线，免费）",

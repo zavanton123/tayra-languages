@@ -16,6 +16,7 @@ internal val frReading: Map<String, String> = mapOf(
     "Show translations" to "Afficher les traductions",
     "Hidden sentence" to "Phrase masquée",
     "Show the sentence" to "Afficher la phrase",
+    "Hide the sentence" to "Masquer la phrase",
     "Translations side by side" to "Traductions côte à côte",
     "Translation engine" to "Moteur de traduction",
     "{0} (offline, free)" to "{0} (hors ligne, gratuit)",

@@ -16,6 +16,7 @@ internal val ruReading: Map<String, String> = mapOf(
     "Show translations" to "Показывать переводы",
     "Hidden sentence" to "Скрытое предложение",
     "Show the sentence" to "Показать предложение",
+    "Hide the sentence" to "Скрыть предложение",
     "Translations side by side" to "Переводы рядом с текстом",
     "Translation engine" to "Сервис перевода",
     "{0} (offline, free)" to "{0} (офлайн, бесплатно)",

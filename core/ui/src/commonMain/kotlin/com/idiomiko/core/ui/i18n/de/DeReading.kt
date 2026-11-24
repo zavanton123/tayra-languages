@@ -16,6 +16,7 @@ internal val deReading: Map<String, String> = mapOf(
     "Show translations" to "Übersetzungen anzeigen",
     "Hidden sentence" to "Verborgener Satz",
     "Show the sentence" to "Satz anzeigen",
+    "Hide the sentence" to "Satz ausblenden",
     "Translations side by side" to "Übersetzungen nebeneinander",
     "Translation engine" to "Übersetzungsdienst",
     "{0} (offline, free)" to "{0} (offline, kostenlos)",

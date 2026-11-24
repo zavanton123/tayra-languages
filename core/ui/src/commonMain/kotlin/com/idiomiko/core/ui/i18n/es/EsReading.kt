@@ -16,6 +16,7 @@ internal val esReading: Map<String, String> = mapOf(
     "Show translations" to "Mostrar traducciones",
     "Hidden sentence" to "Frase oculta",
     "Show the sentence" to "Mostrar la frase",
+    "Hide the sentence" to "Ocultar la frase",
     "Translations side by side" to "Traducciones al lado",
     "Translation engine" to "Motor de traducción",
     "{0} (offline, free)" to "{0} (sin conexión, gratis)",

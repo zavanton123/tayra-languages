@@ -5,6 +5,7 @@ import androidx.compose.animation.core.tween
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import com.idiomiko.core.ui.components.LocalWindowWidth
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.gestures.waitForUpOrCancellation
@@ -369,12 +370,14 @@ private fun SideBySide(gutter: Dp, modifier: Modifier, text: @Composable () -> U
 }
 
 /**
- * A sentence being practised: blurred until shown. The mouse shows it while over it and hides it
- * on leaving; by touch, a tap on the blur shows it. Where blurring does not draw, the text is
- * made invisible over a soft bar instead.
+ * A sentence being practised: blurred until shown. On a wide window the mouse shows it while over it
+ * and hides it on leaving, and a tap on the blur shows it; on a phone a tap shows it and another hides
+ * it, so a shown sentence takes the taps rather than its words. Where blurring does not draw, the
+ * text is made invisible over a soft bar instead.
  */
 @Composable
 private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> Unit, content: @Composable () -> Unit) {
+    val compact = LocalWindowWidth.current.isCompact
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()
     // Only a change of hovering counts: the first composition is not a pointer leaving.
@@ -385,9 +388,13 @@ private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> 
             onRevealed(hovered)
         }
     }
-    Box(Modifier.fillMaxWidth().hoverable(interaction)) {
+    Box(Modifier.fillMaxWidth().then(if (compact) Modifier else Modifier.hoverable(interaction))) {
         if (!hidden) {
             content()
+            if (compact) {
+                val hide = tr("Hide the sentence")
+                Box(Modifier.matchParentSize().clickable(onClickLabel = hide, onClick = { onRevealed(false) }).testTag("hide-sentence"))
+            }
         } else {
             val label = tr("Hidden sentence")
             val show = tr("Show the sentence")
@@ -399,7 +406,7 @@ private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> 
             }
             Box(veil) { content() }
             // On top of the text, so its words take no taps until it is shown.
-            Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label })
+            Box(Modifier.matchParentSize().clickable(onClickLabel = show, onClick = { onRevealed(true) }).semantics { contentDescription = label }.testTag("show-sentence"))
         }
     }
 }

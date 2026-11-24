@@ -16,6 +16,7 @@ internal val ptReading: Map<String, String> = mapOf(
     "Show translations" to "Mostrar traduções",
     "Hidden sentence" to "Frase oculta",
     "Show the sentence" to "Mostrar a frase",
+    "Hide the sentence" to "Ocultar a frase",
     "Translations side by side" to "Traduções lado a lado",
     "Translation engine" to "Serviço de tradução",
     "{0} (offline, free)" to "{0} (offline, gratuito)",

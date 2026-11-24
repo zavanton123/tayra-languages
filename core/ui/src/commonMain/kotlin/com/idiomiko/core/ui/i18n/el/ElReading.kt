@@ -16,6 +16,7 @@ internal val elReading: Map<String, String> = mapOf(
     "Show translations" to "Εμφάνιση μεταφράσεων",
     "Hidden sentence" to "Κρυφή πρόταση",
     "Show the sentence" to "Εμφάνιση της πρότασης",
+    "Hide the sentence" to "Απόκρυψη της πρότασης",
     "Translations side by side" to "Μεταφράσεις δίπλα στο κείμενο",
     "Translation engine" to "Υπηρεσία μετάφρασης",
     "{0} (offline, free)" to "{0} (εκτός σύνδεσης, δωρεάν)",

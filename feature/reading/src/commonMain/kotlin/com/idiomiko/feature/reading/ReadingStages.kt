@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
@@ -37,6 +38,7 @@ import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.model.ReadingStage
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
+import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.AppTooltip
 import com.idiomiko.core.ui.components.BadgeEmphasis
@@ -194,6 +196,9 @@ internal fun StageNote(stage: ReadingStage, stages: List<ReadingStage>, onAction
     val colors = MaterialTheme.colorScheme
     val accent = AppAccents.onWash(AppAccents.blue)
     val number = tr("Stage {0} of {1}: {2}", stages.indexOf(stage) + 1, stages.size, stage.title())
+    // On a phone the action goes under the words, which would otherwise be squeezed to a few letters a line beside it.
+    val compact = LocalWindowWidth.current.isCompact
+    val action = stage.action()
     Row(
         modifier.fillMaxWidth().clip(AppShapes.card).background(AppAccents.blue.copy(alpha = AppAlpha.soft))
             .border(AppBorders.hairline(AppAccents.blue.copy(alpha = AppAlpha.line)), AppShapes.card)
@@ -205,8 +210,12 @@ internal fun StageNote(stage: ReadingStage, stages: List<ReadingStage>, onAction
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             Text(stage.title(), style = AppText.sectionTitle, modifier = Modifier.semantics { contentDescription = number })
             Text(stage.hint(), style = MaterialTheme.typography.bodyLarge, color = colors.onSurface)
+            if (compact && action != null) {
+                Spacer(Modifier.height(AppSpacing.s))
+                SecondaryButton(action, onClick = onAction, modifier = Modifier.testTag("stage-action"))
+            }
         }
-        stage.action()?.let { label -> SecondaryButton(label, onClick = onAction, modifier = Modifier.testTag("stage-action")) }
+        if (!compact && action != null) SecondaryButton(action, onClick = onAction, modifier = Modifier.testTag("stage-action"))
         AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.align(Alignment.Top).testTag("stage-note-close"), size = IconButtonSize.Small, tint = colors.onSurfaceVariant)
     }
 }

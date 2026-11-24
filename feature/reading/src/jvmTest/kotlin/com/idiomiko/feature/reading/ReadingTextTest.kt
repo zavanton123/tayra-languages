@@ -282,6 +282,49 @@ class ReadingTextTest {
         rule.waitUntil(5_000) { revealed.isEmpty() }
     }
 
+    /** On a phone the mouse passing over a hidden sentence leaves it hidden: a tap shows it, and another hides it. */
+    @Test
+    fun aPhoneShowsAndHidesASentenceByTap() {
+        var revealed by androidx.compose.runtime.mutableStateOf(emptySet<Int>())
+        rule.setContent {
+            androidx.compose.runtime.CompositionLocalProvider(com.idiomiko.core.ui.components.LocalWindowWidth provides com.idiomiko.core.ui.components.WindowWidth.COMPACT) {
+                ReadingText(
+                    page = page(),
+                    theme = AppThemes.default,
+                    marked = emptySet(),
+                    hovered = null,
+                    selection = null,
+                    popupItem = null,
+                    fontScale = 1f,
+                    lineHeight = 1.5f,
+                    rightToLeft = false,
+                    translations = mapOf("Hello world." to com.idiomiko.core.domain.service.SentenceTranslation.Done("Привет, мир.")),
+                    practice = true,
+                    revealed = revealed,
+                    onRevealed = { no, shown -> revealed = if (shown) revealed + no else revealed - no },
+                    callbacks = ReadingTextCallbacks(
+                        onClick = { _, _ -> },
+                        onTap = {},
+                        onLongPress = {},
+                        onHover = {},
+                        onDragStart = {},
+                        onDrag = {},
+                        onDragEnd = { _, _ -> },
+                        popupContent = { _, _: androidx.compose.ui.unit.IntRect -> },
+                    ),
+                )
+            }
+        }
+        rule.onNodeWithContentDescription("Hidden sentence").performMouseInput { moveTo(Offset(8f, 10f)) }
+        rule.waitForIdle()
+        assertTrue(revealed.isEmpty(), "hovering leaves the sentence hidden")
+        rule.onNodeWithContentDescription("Hidden sentence").performMouseInput { click(Offset(8f, 10f)) }
+        rule.waitUntil(5_000) { revealed == setOf(0) }
+        rule.onAllNodesWithTag("hide-sentence")[0].performMouseInput { click(Offset(8f, 10f)) }
+        rule.waitUntil(5_000) { revealed.isEmpty() }
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Hidden sentence").fetchSemanticsNodes().isNotEmpty() }
+    }
+
     @Test
     fun thePopupSitsAboveItsWord() {
         var item by androidx.compose.runtime.mutableStateOf(0)
