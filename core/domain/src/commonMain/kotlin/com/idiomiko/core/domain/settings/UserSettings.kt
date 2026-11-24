@@ -1,5 +1,6 @@
 package com.idiomiko.core.domain.settings
 
+import com.idiomiko.core.domain.playlists.PlaylistEnd
 import com.idiomiko.core.domain.media.AutoPause
 import com.idiomiko.core.domain.media.VideoBlur
 import com.idiomiko.core.domain.flashcards.AnswerMode
@@ -70,6 +71,8 @@ data class UserSettings(
     val playlistPauseSeconds: Int = DEFAULT_PLAYLIST_PAUSE,
     /** Whether the time spent listening to playlists counts toward the daily goal and the streak. */
     val playlistCountsTowardGoal: Boolean = true,
+    /** What the playlist player does once a playlist is heard to the end and it does not repeat. */
+    val playlistEnd: PlaylistEnd = PlaylistEnd.STOP,
     /** Whether the languages got their tutorial book, which replaced the sample books of earlier versions. */
     val tutorialBooksAdded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */

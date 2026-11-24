@@ -231,6 +231,27 @@ class PlaylistPlayerTest {
     }
 
     @Test
+    fun theEndOfAPlaylistGoesOnToTheNextOneOrStartsItAgain() {
+        val setup = setUp()
+        val other = runBlocking { service.create(setup.language, PlaylistDraft("Tarde"), listOf(PlaylistSource.Text(setup.books[1]))) }
+        runBlocking { settings.update { it.copy(playlistEnd = com.idiomiko.core.domain.playlists.PlaylistEnd.NEXT_PLAYLIST) } }
+        player.play(setup.playlist)
+        for (sentence in listOf("Um dois.", "Dois três.", "Três quatro.", "Quatro cinco.", "Cinco seis.")) hear(sentence)
+        // The next playlist follows, and after the last one the first comes round again, from its start.
+        until("the next playlist") { player.state.value.playlist?.id == other }
+        hear("Quatro cinco.")
+        hear("Cinco seis.")
+        until("the first playlist again") { player.state.value.playlist?.id == setup.playlist }
+        hear("Um dois.")
+        // Starting again keeps to the same playlist.
+        runBlocking { settings.update { it.copy(playlistEnd = com.idiomiko.core.domain.playlists.PlaylistEnd.START_AGAIN) } }
+        for (sentence in listOf("Dois três.", "Três quatro.", "Quatro cinco.", "Cinco seis.")) hear(sentence)
+        hear("Um dois.")
+        assertEquals(setup.playlist, player.state.value.playlist?.id)
+        assertTrue(player.state.value.status != PlayerStatus.COMPLETE)
+    }
+
+    @Test
     fun theTimeListenedIsRecordedOnlyWhileItCountsTowardTheGoal() {
         val setup = setUp()
         player.play(setup.playlist)

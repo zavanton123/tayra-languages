@@ -21,6 +21,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.drop
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
@@ -71,6 +72,9 @@ enum class PlayerStatus {
 }
 
 enum class RepeatMode { OFF, ALL, ONE }
+
+/** What the player does once every track of a playlist is heard and it does not repeat. */
+enum class PlaylistEnd { STOP, START_AGAIN, NEXT_PLAYLIST }
 
 /** Why a text cannot be played. */
 sealed interface PlaybackProblem {
@@ -535,6 +539,11 @@ class PlaylistPlayer(
         // The playlist is done only when every text has been heard: the next one not heard yet follows.
         val next = if (s.repeat == RepeatMode.ONE) item.id else unheard(besides = item.id) ?: repeatAll(s)
         if (next == null) {
+            when (settings.current.playlistEnd) {
+                PlaylistEnd.STOP -> Unit
+                PlaylistEnd.START_AGAIN -> startOver(s)?.let { return load(it, 1, 0) }
+                PlaylistEnd.NEXT_PLAYLIST -> if (goOnToNextPlaylist(s)) return false
+            }
             complete()
             return false
         }
@@ -546,11 +555,28 @@ class PlaylistPlayer(
     }
 
     /** Starts the playlist over when it repeats, or null. */
-    private suspend fun repeatAll(s: PlayerState): Long? {
-        if (s.repeat != RepeatMode.ALL) return null
+    private suspend fun repeatAll(s: PlayerState): Long? = if (s.repeat == RepeatMode.ALL) startOver(s) else null
+
+    /** Marks the playlist's tracks unheard again and gives its first one, shuffled anew when shuffling. */
+    private suspend fun startOver(s: PlayerState): Long? {
         s.playlist?.let { repository.clearFinished(it.id) }
         if (s.shuffle) s.playlist?.let { p -> _state.update { it.copy(order = orderOf(p, true, first = null)) } }
         return _state.value.order.firstOrNull()
+    }
+
+    /**
+     * Plays the language's next playlist with tracks, in the order they were made and round to the first,
+     * shuffled as this one was; false when there is no other. This one is left heard to the end.
+     */
+    private suspend fun goOnToNextPlaylist(s: PlayerState): Boolean {
+        val current = s.playlist ?: return false
+        val all = repository.observePlaylists(current.languageId).first().filter { it.items.isNotEmpty() }
+        val at = all.indexOfFirst { it.id == current.id }
+        val next = (all.drop(at + 1) + all.take(at.coerceAtLeast(0))).firstOrNull { it.id != current.id } ?: return false
+        repository.savePosition(current.id, null, clock.now())
+        // A command of its own, once this loop has ended.
+        scope.launch { play(next.id, shuffle = s.shuffle) }
+        return true
     }
 
     /**

@@ -3,6 +3,7 @@ package com.idiomiko.core.data.settings
 
 import com.idiomiko.core.domain.media.AutoPause
 import com.idiomiko.core.domain.media.VideoBlur
+import com.idiomiko.core.domain.playlists.PlaylistEnd
 import co.touchlab.kermit.Logger
 import com.russhwolf.settings.Settings
 import com.idiomiko.core.domain.language.LanguageCatalog
@@ -152,6 +153,7 @@ class SettingsRepositoryImpl(
             playlistPauseSeconds = store.getInt(Keys.PLAYLIST_PAUSE_SECONDS, defaults.playlistPauseSeconds)
                 .coerceIn(UserSettings.MIN_PLAYLIST_PAUSE, UserSettings.MAX_PLAYLIST_PAUSE),
             playlistCountsTowardGoal = store.getBoolean(Keys.PLAYLIST_COUNTS_TOWARD_GOAL, defaults.playlistCountsTowardGoal),
+            playlistEnd = PlaylistEnd.entries.firstOrNull { it.name == store.getString(Keys.PLAYLIST_END, "") } ?: defaults.playlistEnd,
             tutorialBooksAdded = store.getBoolean(Keys.TUTORIAL_BOOKS, defaults.tutorialBooksAdded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -291,6 +293,7 @@ class SettingsRepositoryImpl(
         store.putBoolean(Keys.PLAYLIST_PAUSE, s.playlistPauseBetweenTracks)
         store.putInt(Keys.PLAYLIST_PAUSE_SECONDS, s.playlistPauseSeconds)
         store.putBoolean(Keys.PLAYLIST_COUNTS_TOWARD_GOAL, s.playlistCountsTowardGoal)
+        store.putString(Keys.PLAYLIST_END, s.playlistEnd.name)
         store.putBoolean(Keys.TUTORIAL_BOOKS, s.tutorialBooksAdded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
@@ -389,6 +392,7 @@ class SettingsRepositoryImpl(
         const val PLAYLIST_PAUSE = "playlist_pause_between_tracks"
         const val PLAYLIST_PAUSE_SECONDS = "playlist_pause_seconds"
         const val PLAYLIST_COUNTS_TOWARD_GOAL = "playlist_counts_toward_goal"
+        const val PLAYLIST_END = "playlist_end"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val PRACTICE_TRANSLATION = "reading_practice_translation"
         const val TRANSLATION_ENGINE = "translation_engine"
