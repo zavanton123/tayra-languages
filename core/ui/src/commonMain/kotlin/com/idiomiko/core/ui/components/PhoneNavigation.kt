@@ -12,8 +12,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -156,31 +154,31 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
     MoreGroup(
         "Words and progress",
         listOf(
-            MoreEntry("Vocabulary", AppIcons.ViewList, Route.Terms()),
-            MoreEntry("Word frequency", AppIcons.BarChart, Route.WordFrequency),
-            MoreEntry("Statistics", AppIcons.PieChart, Route.Stats),
+            MoreEntry("Vocabulary", AppIcons.MoreVocabulary, Route.Terms()),
+            MoreEntry("Word frequency", AppIcons.MoreWordFrequency, Route.WordFrequency),
+            MoreEntry("Statistics", AppIcons.MoreStatistics, Route.Stats),
         ),
     ),
     MoreGroup(
         "Offline resources",
         listOf(
             // Named apart from the tabs: these set things up rather than open them.
-            MoreEntry("Speech", AppIcons.VolumeUp, Route.Speech),
-            MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
+            MoreEntry("Speech", AppIcons.MoreSpeech, Route.Speech),
+            MoreEntry("Translation", AppIcons.MoreTranslation, Route.OfflineTranslation),
         ),
     ),
     MoreGroup(
         "Settings",
         listOf(
-            MoreEntry("General", Icons.Default.Settings, Route.Settings),
-            MoreEntry("Goals", AppIcons.Target, Route.Goals),
-            MoreEntry("Languages", AppIcons.Globe, Route.Languages),
-            MoreEntry("Flashcards", AppIcons.Style, Route.FlashcardSettings, tag = "Flashcard settings"),
-            MoreEntry("Vocabulary", AppIcons.Abc, Route.VocabularySettings, tag = "Vocabulary settings"),
-            MoreEntry("Backups", AppIcons.UploadFile, Route.Backups),
-            MoreEntry("Clear data", AppIcons.DeleteOutline, Route.ClearData),
-            MoreEntry("About", Icons.Default.Info, Route.About),
-            MoreEntry("Experiments", AppIcons.Lightbulb, Route.ExperimentalFeatures),
+            MoreEntry("General", AppIcons.MoreGeneral, Route.Settings),
+            MoreEntry("Goals", AppIcons.MoreGoals, Route.Goals),
+            MoreEntry("Languages", AppIcons.MoreLanguages, Route.Languages),
+            MoreEntry("Flashcards", AppIcons.NavFlashcards, Route.FlashcardSettings, tag = "Flashcard settings"),
+            MoreEntry("Vocabulary", AppIcons.MoreVocabularySettings, Route.VocabularySettings, tag = "Vocabulary settings"),
+            MoreEntry("Backups", AppIcons.MoreBackups, Route.Backups),
+            MoreEntry("Clear data", AppIcons.MoreClearData, Route.ClearData),
+            MoreEntry("About", AppIcons.MoreAbout, Route.About),
+            MoreEntry("Experiments", AppIcons.MoreExperiments, Route.ExperimentalFeatures),
         ),
     ),
 )

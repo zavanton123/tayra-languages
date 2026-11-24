@@ -557,6 +557,115 @@ object AppIcons {
         }
     }
 
+    /** The phone's More sheet: the design's own icons for its pages, drawn as the bottom bar's. Its flashcard settings take [NavFlashcards]. */
+    val MoreVocabulary: ImageVector by lazy {
+        navIcon("MoreVocabulary") {
+            stroke("M6 4h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3Z")
+            fill("M5.8 9a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0Z")
+            fill("M5.8 15a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0Z")
+            stroke("M10.5 9H18M10.5 15H18", cap = StrokeCap.Round)
+        }
+    }
+
+    val MoreWordFrequency: ImageVector by lazy {
+        navIcon("MoreWordFrequency") {
+            stroke("M3 20.5h18", cap = StrokeCap.Round)
+            fill("M5.4 12.5h0.4a1.2 1.2 0 0 1 1.2 1.2v3.6a1.2 1.2 0 0 1 -1.2 1.2h-0.4a1.2 1.2 0 0 1 -1.2 -1.2v-3.6a1.2 1.2 0 0 1 1.2 -1.2Z")
+            fill("M9.7 7.5h0.4a1.2 1.2 0 0 1 1.2 1.2v8.6a1.2 1.2 0 0 1 -1.2 1.2h-0.4a1.2 1.2 0 0 1 -1.2 -1.2v-8.6a1.2 1.2 0 0 1 1.2 -1.2Z")
+            fill("M14 4h0.4a1.2 1.2 0 0 1 1.2 1.2v12.1a1.2 1.2 0 0 1 -1.2 1.2h-0.4a1.2 1.2 0 0 1 -1.2 -1.2v-12.1a1.2 1.2 0 0 1 1.2 -1.2Z")
+            fill("M18.3 10h0.4a1.2 1.2 0 0 1 1.2 1.2v6.1a1.2 1.2 0 0 1 -1.2 1.2h-0.4a1.2 1.2 0 0 1 -1.2 -1.2v-6.1a1.2 1.2 0 0 1 1.2 -1.2Z")
+        }
+    }
+
+    val MoreStatistics: ImageVector by lazy {
+        navIcon("MoreStatistics") {
+            stroke("M11 3.2a8.8 8.8 0 1 0 9.8 9.8H11z", join = StrokeJoin.Round)
+            fill("M14 3.5v6.4h6.4A8.8 8.8 0 0 0 14 3.5Z")
+            fill("M8.9 13a2.1 2.1 0 1 0 4.2 0a2.1 2.1 0 1 0 -4.2 0Z")
+        }
+    }
+
+    val MoreSpeech: ImageVector by lazy {
+        navIcon("MoreSpeech") {
+            stroke("M4 9h4.2l5-4v14l-5-4H4a1.5 1.5 0 0 1-1.5-1.5v-3A1.5 1.5 0 0 1 4 9Z", join = StrokeJoin.Round)
+            stroke("M16.5 8.2a5.3 5.3 0 0 1 0 7.6M19.2 5.5a9.2 9.2 0 0 1 0 13", cap = StrokeCap.Round)
+        }
+    }
+
+    val MoreTranslation: ImageVector by lazy {
+        navIcon("MoreTranslation") {
+            stroke("M4 3.5h8.5a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H8L4.5 14v-2.5H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z", join = StrokeJoin.Round)
+            stroke("M11.5 12.5H20a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-.5v2L16 20.5h-4.5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2Z", join = StrokeJoin.Round)
+            stroke("M5 7.5h5.5m-1.8-2 2 2-2 2M19 16.5h-5.5m1.8-2-2 2 2 2", width = 1.8f, cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
+
+    val MoreGeneral: ImageVector by lazy {
+        navIcon("MoreGeneral") {
+            stroke("m9.7 3.5.5-1.5h3.6l.5 1.5 1.7.7 1.4-.7L20 6.1l-.7 1.4.7 1.7 1.5.5v3.6l-1.5.5-.7 1.7.7 1.4-2.6 2.6-1.4-.7-1.7.7-.5 1.5h-3.6l-.5-1.5-1.7-.7-1.4.7L4.5 17l.7-1.4-.7-1.7-1.5-.5V9.7l1.5-.5.7-1.7-.7-1.4 2.6-2.6 1.4.7z", width = 1.9f, join = StrokeJoin.Round)
+            stroke("M8.8 11.5a3.2 3.2 0 1 0 6.4 0a3.2 3.2 0 1 0 -6.4 0Z")
+        }
+    }
+
+    val MoreGoals: ImageVector by lazy {
+        navIcon("MoreGoals") {
+            stroke("M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z")
+            stroke("M6.7 12a5.3 5.3 0 1 0 10.6 0a5.3 5.3 0 1 0 -10.6 0Z")
+            fill("M10.2 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0Z")
+        }
+    }
+
+    val MoreLanguages: ImageVector by lazy {
+        navIcon("MoreLanguages") {
+            stroke("M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z")
+            stroke("M3.4 9h17.2M3.4 15h17.2M12 3c2.2 2.4 3.3 5.4 3.3 9S14.2 18.6 12 21M12 3C9.8 5.4 8.7 8.4 8.7 12s1.1 6.6 3.3 9", cap = StrokeCap.Round)
+        }
+    }
+
+    val MoreVocabularySettings: ImageVector by lazy {
+        navIcon("MoreVocabularySettings") {
+            stroke("M2.7 5.7c2.8-.8 5.2-.3 7.4 1.5 2.2-1.8 4.6-2.3 7.4-1.5v8.9c-2.8-.8-5.2-.3-7.4 1.5-2.2-1.8-4.6-2.3-7.4-1.5z", join = StrokeJoin.Round)
+            stroke("M10.1 7.2v8.9", cap = StrokeCap.Round)
+            stroke("M14.5 17.4a3.2 3.2 0 1 0 6.4 0a3.2 3.2 0 1 0 -6.4 0Z", width = 1.9f)
+            fill("M16.6 17.4a1.1 1.1 0 1 0 2.2 0a1.1 1.1 0 1 0 -2.2 0Z")
+            stroke("M17.7 12.8V14M17.7 20.8V22M13.1 17.4h1.2M21.1 17.4h1.2M14.5 14.2l.9.9M20 19.9l.9.9M20.9 14.2l-.9.9M15.4 19.9l-.9.9", width = 1.8f, cap = StrokeCap.Round)
+        }
+    }
+
+    val MoreBackups: ImageVector by lazy {
+        navIcon("MoreBackups") {
+            stroke("M3 5.5a7.5 3 0 1 0 15 0a7.5 3 0 1 0 -15 0Z")
+            stroke("M3 5.5v10.7c0 1.7 3.4 3 7.5 3 1.2 0 2.3-.1 3.3-.3", cap = StrokeCap.Round)
+            stroke("M18 5.5v6.1M3 10.7c0 1.7 3.4 3 7.5 3 1.1 0 2.2-.1 3.1-.3", cap = StrokeCap.Round)
+            stroke("M14 17a4 4 0 1 0 8 0a4 4 0 1 0 -8 0Z")
+            stroke("m15.9 17 1.4 1.4 2.9-3.1", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
+
+    val MoreClearData: ImageVector by lazy {
+        navIcon("MoreClearData") {
+            stroke("M5.5 7h13l-.8 13.5H6.3z", join = StrokeJoin.Round)
+            stroke("M3.5 7h17M8.5 7l.8-3h5.4l.8 3M9.5 11v5.5M14.5 11v5.5", cap = StrokeCap.Round)
+        }
+    }
+
+    val MoreAbout: ImageVector by lazy {
+        navIcon("MoreAbout") {
+            stroke("M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0Z")
+            fill("M10.75 7.8a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 1 0 -2.5 0Z")
+            stroke("M12 11.5v5.2", width = 2.4f, cap = StrokeCap.Round)
+        }
+    }
+
+    val MoreExperiments: ImageVector by lazy {
+        navIcon("MoreExperiments") {
+            stroke("M9 3h6M10 3v5.2L4.7 17a2.6 2.6 0 0 0 2.2 4h10.2a2.6 2.6 0 0 0 2.2-4L14 8.2V3", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M7.4 15h9.2", cap = StrokeCap.Round)
+            fill("M9 17.7a1 1 0 1 0 2 0a1 1 0 1 0 -2 0Z")
+            fill("M13 18.3a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0 -2.4 0Z")
+        }
+    }
+
     /** The Idiomiko monkey in its own colours (tools/logo/idiomiko-monkey.svg); draw it untinted. */
     val Logo: ImageVector by lazy {
         ImageVector.Builder(name = "Logo", defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 1237.9f, viewportHeight = 1237.9f)
