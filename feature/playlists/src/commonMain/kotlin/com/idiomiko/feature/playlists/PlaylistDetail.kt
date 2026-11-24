@@ -236,7 +236,8 @@ private fun HeaderCard(state: PlaylistDetailUiState, playlist: Playlist, viewMod
     val empty = playlist.items.isEmpty()
     Row(
         Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxl).testTag("playlist-header"),
-        verticalAlignment = Alignment.CenterVertically,
+        // The cover sits in the card's top corner, as far from its top as from its side.
+        verticalAlignment = Alignment.Top,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl),
     ) {
         CoverMosaic(playlist, HEADER_MOSAIC, AppShapes.large, Modifier.shadow(AppElevation.raised, AppShapes.large), titled = true)
