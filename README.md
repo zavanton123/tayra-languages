@@ -1,4 +1,4 @@
-# Idiomiko
+# Idiomiko™
 
 **Learn a language by reading what you love.**
 
@@ -195,7 +195,8 @@ Details for contributors, from the module layout to how dictionary packs are bui
 ## Licence
 
 Idiomiko is free software under the GNU General Public License, version 3 or later
-([LICENSE](LICENSE)). It began as a port of [Lute](https://github.com/LuteOrg/lute-v3) (MIT), and
+([LICENSE](LICENSE)). The name Idiomiko™ and the Idiomiko logo are trademarks and are not covered by the licence:
+a fork or a modified build has to go by another name and logo. It began as a port of [Lute](https://github.com/LuteOrg/lute-v3) (MIT), and
 its language rules (text normalisation and inflection) are ported from
 [Yomitan](https://github.com/yomidevs/yomitan) (GPL-3.0). Dictionary packs are built from Wiktionary
 through kaikki.org and [wiktionary-to-yomitan](https://github.com/yomidevs/wiktionary-to-yomitan),
