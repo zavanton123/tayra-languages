@@ -1,4 +1,4 @@
-# Idiomiko user guide
+# Idiomiko™ user guide
 
 Idiomiko teaches a language through reading. You read short lessons, books or the news; every
 word is a button; the words you save become flashcards. This guide covers the everyday things,
