@@ -45,6 +45,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.playlists.PlaybackProblem
@@ -155,7 +156,7 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
                             NowPlaying(state, viewModel, onNavigate, fill = true)
                         }
                     }
-                    Box(Modifier.weight(1f).heightIn(min = fillHeight).cardSurface(AppShapes.large).padding(AppSpacing.xxl)) { UpNext(state, viewModel, onNavigate) }
+                    Box(Modifier.weight(1f).heightIn(min = fillHeight).cardSurface(AppShapes.large).padding(vertical = AppSpacing.xxl)) { UpNext(state, viewModel, onNavigate, inset = AppSpacing.xxl) }
                 }
             }
         }
@@ -171,8 +172,8 @@ private val MIN_PHONE_PLAYER_HEIGHT = 560.dp
 @Composable
 private fun QueueSheet(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     AppBottomSheet(onDismissRequest = onDismiss, skipPartiallyExpanded = false, modifier = Modifier.testTag("queue-sheet")) {
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l).padding(bottom = AppSpacing.xl)) {
-            UpNext(state, viewModel, onNavigate = { onDismiss(); onNavigate(it) })
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(bottom = AppSpacing.xl)) {
+            UpNext(state, viewModel, onNavigate = { onDismiss(); onNavigate(it) }, inset = AppSpacing.l)
         }
     }
 }
@@ -275,14 +276,17 @@ private fun Complete(state: PlayerUiState, onPlayAgain: () -> Unit, onBack: () -
     }
 }
 
-/** The playlist's texts in the order they play, the current one marked, with a way to change them. */
+/**
+ * The playlist's texts in the order they play, the current one marked, with a way to change them. The rows
+ * run to the container's edges, so their highlight fills them; [inset] keeps their content off the edges.
+ */
 @Composable
-private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit) {
+private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit, inset: Dp) {
     val p = state.player
     val playlist = p.playlist ?: return
     val queue: List<PlaylistItem> = p.order.mapNotNull { id -> playlist.items.firstOrNull { it.id == id } }
     Column {
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.padding(horizontal = inset), verticalAlignment = Alignment.CenterVertically) {
             Text(tr("Up next"), Modifier.weight(1f), style = AppText.headline)
             LinkText(tr("Edit queue"), onClick = { onNavigate(Route.Playlist(playlist.id)) }, modifier = Modifier.testTag("edit-queue"))
         }
@@ -296,6 +300,7 @@ private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate:
                 time = listeningTime(state.durations[item.id] ?: kotlin.time.Duration.ZERO),
                 handle = if (p.shuffle) Modifier else handle,
                 dragging = dragging,
+                inset = inset,
                 // The text being heard goes on from where it is; another one starts from its beginning.
                 onPlay = { if (item.id == p.itemId && p.status != PlayerStatus.COMPLETE) { if (!p.isPlaying) viewModel.player.resume() } else viewModel.player.jumpTo(item.id, play = true) },
                 onRemove = { viewModel.remove(item.id) },
@@ -303,19 +308,19 @@ private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate:
             AppDivider()
         }
         Spacer(Modifier.height(AppSpacing.l))
-        SecondaryButton(tr("Add texts"), onClick = { onNavigate(Route.AddToPlaylist(playlist.id)) }, icon = Icons.Default.Add, modifier = Modifier.fillMaxWidth().testTag("queue-add-texts"))
+        SecondaryButton(tr("Add texts"), onClick = { onNavigate(Route.AddToPlaylist(playlist.id)) }, icon = Icons.Default.Add, modifier = Modifier.padding(horizontal = inset).fillMaxWidth().testTag("queue-add-texts"))
     }
 }
 
 @Composable
-private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: String, handle: Modifier, dragging: Boolean, onPlay: () -> Unit, onRemove: () -> Unit) {
+private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: String, handle: Modifier, dragging: Boolean, inset: Dp, onPlay: () -> Unit, onRemove: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.fillMaxWidth()
             .then(if (dragging) Modifier.cardSurface(AppShapes.control) else Modifier)
             .then(if (current) Modifier.background(colors.primary.copy(alpha = AppAlpha.tint)) else Modifier)
             .clickable(onClickLabel = tr("Play"), role = Role.Button, onClick = onPlay)
-            .padding(horizontal = AppSpacing.xs, vertical = AppSpacing.m).testTag("queue-${item.id}"),
+            .padding(horizontal = inset, vertical = AppSpacing.m).testTag("queue-${item.id}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
