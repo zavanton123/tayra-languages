@@ -71,7 +71,6 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "You listened to all {0}" to "Du hast alle {0} gehört",
     "Play again" to "Erneut abspielen",
     "Up next" to "Als Nächstes",
-    "Edit queue" to "Warteschlange bearbeiten",
     "Back to lesson" to "Zurück zur Lektion",
     "Back to article" to "Zurück zum Artikel",
     "Back to book" to "Zurück zum Buch",

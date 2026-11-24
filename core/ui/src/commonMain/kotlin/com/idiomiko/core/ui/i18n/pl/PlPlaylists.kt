@@ -71,7 +71,6 @@ internal val plPlaylists: Map<String, String> = mapOf(
     "You listened to all {0}" to "Wysłuchano wszystkich: {0}",
     "Play again" to "Odtwórz ponownie",
     "Up next" to "Następne w kolejce",
-    "Edit queue" to "Edytuj kolejkę",
     "Back to lesson" to "Wróć do lekcji",
     "Back to article" to "Wróć do artykułu",
     "Back to book" to "Wróć do książki",

@@ -71,7 +71,6 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "You listened to all {0}" to "Вы прослушали все {0}",
     "Play again" to "Воспроизвести снова",
     "Up next" to "Далее",
-    "Edit queue" to "Изменить очередь",
     "Back to lesson" to "К уроку",
     "Back to article" to "К статье",
     "Back to book" to "К книге",

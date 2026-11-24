@@ -71,7 +71,6 @@ internal val frPlaylists: Map<String, String> = mapOf(
     "You listened to all {0}" to "Vous avez écouté les {0}",
     "Play again" to "Réécouter",
     "Up next" to "À suivre",
-    "Edit queue" to "Modifier la file d’attente",
     "Back to lesson" to "Retour à la leçon",
     "Back to article" to "Retour à l’article",
     "Back to book" to "Retour au livre",

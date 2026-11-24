@@ -65,7 +65,6 @@ import com.idiomiko.core.ui.components.Crumb
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
-import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
@@ -314,10 +313,7 @@ private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate:
     val playlist = p.playlist ?: return
     val queue: List<PlaylistItem> = p.order.mapNotNull { id -> playlist.items.firstOrNull { it.id == id } }
     Column {
-        Row(Modifier.padding(horizontal = inset), verticalAlignment = Alignment.CenterVertically) {
-            Text(tr("Up next"), Modifier.weight(1f), style = AppText.headline)
-            LinkText(tr("Edit queue"), onClick = { onNavigate(Route.Playlist(playlist.id)) }, modifier = Modifier.testTag("edit-queue"))
-        }
+        Text(tr("Up next"), Modifier.padding(horizontal = inset), style = AppText.headline)
         Spacer(Modifier.height(AppSpacing.m))
         // Shuffled, the queue's order is the player's own; dragging moves texts in the playlist's order, so only then.
         ReorderableColumn(queue, key = { it.id }, onMove = { from, to -> if (!p.shuffle) viewModel.move(queue[from].id, to) }) { item, index, handle, dragging ->
