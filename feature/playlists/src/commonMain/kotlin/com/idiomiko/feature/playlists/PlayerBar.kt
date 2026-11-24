@@ -166,10 +166,12 @@ internal fun PlayerControls(
     val colors = MaterialTheme.colorScheme
     val p = state.player
     val player = viewModel.player
+    // Shuffle and repeat when off: a light grey, well apart from their blue when on.
+    val off = colors.outline.copy(alpha = AppAlpha.half)
     val buttons: @Composable () -> Unit = {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             Tip(if (p.shuffle) tr("Shuffle on") else tr("Shuffle off")) {
-                AppIconButton(AppIcons.Shuffle, contentDescription = it, onClick = { player.setShuffle(!p.shuffle) }, selected = p.shuffle, tint = if (p.shuffle) colors.primary else null, modifier = Modifier.testTag("shuffle"))
+                AppIconButton(AppIcons.Shuffle, contentDescription = it, onClick = { player.setShuffle(!p.shuffle) }, selected = p.shuffle, tint = if (p.shuffle) colors.primary else off, modifier = Modifier.testTag("shuffle"))
             }
             Tip(tr("Previous text")) { AppIconButton(AppIcons.SkipPrevious, contentDescription = it, onClick = player::previous, tint = colors.primary, modifier = Modifier.testTag("bar-previous")) }
             PlayPauseButton(state, viewModel, IconButtonSize.Large)
@@ -185,7 +187,7 @@ internal fun PlayerControls(
                     contentDescription = it,
                     onClick = viewModel::cycleRepeat,
                     selected = p.repeat != RepeatMode.OFF,
-                    tint = if (p.repeat != RepeatMode.OFF) colors.primary else null,
+                    tint = if (p.repeat != RepeatMode.OFF) colors.primary else off,
                     modifier = Modifier.testTag("repeat"),
                 )
             }
