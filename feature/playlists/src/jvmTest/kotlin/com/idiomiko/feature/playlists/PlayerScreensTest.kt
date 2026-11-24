@@ -138,7 +138,7 @@ class PlayerScreensTest {
     }
 
     @Test
-    fun onAPhoneThePlayerHasItsControlsOnTheScreen() = runDesktopComposeUiTest(width = 400, height = 1700) {
+    fun onAPhoneThePlayerHasItsControlsOnTheScreenAndTheQueueInASheet() = runDesktopComposeUiTest(width = 400, height = 860) {
         playing()
         until { data.output.done != null }
         val viewModel = viewModel()
@@ -146,8 +146,21 @@ class PlayerScreensTest {
             val state by viewModel.state.collectAsState()
             PlayerContent(state, viewModel, onNavigate = {})
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Up next")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("up-next-peek")).fetchSemanticsNodes().isNotEmpty() }
+        // The screen is the player's: the next text is named at its foot, the queue stays closed.
+        val order = data.player.state.value.order
+        val second = data.player.state.value.playlist!!.items.first { it.id == order[1] }
+        onNodeWithText(second.title).assertExists()
+        onNodeWithText("2 more texts").assertExists()
+        onNodeWithTag("queue-${order[2]}").assertDoesNotExist()
+        onNodeWithTag("shuffle").assertExists()
         screenshot("player-phone")
+
+        onNodeWithTag("up-next-peek").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("queue-${order[2]}")).fetchSemanticsNodes().isNotEmpty() }
+        screenshot("player-phone-queue")
+        onNodeWithTag("queue-${order[2]}").performClick()
+        until { data.player.state.value.itemId == order[2] && data.player.state.value.status == PlayerStatus.PLAYING }
     }
 
     @Test

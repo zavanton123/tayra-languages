@@ -132,7 +132,7 @@ class PlaylistScreensTest {
         onNodeWithTag("playlist-$work").performClick()
         waitUntil(timeoutMillis = 5_000) { !shown("now-playing") }
         onNodeWithTag("playlist-$work").assertIsSelected()
-        onNodeWithTag("playlist-facts").assertTextContains("0 of 1 played", substring = true)
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("playlist-facts") and hasText("0 of 1 played", substring = true)).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("play-all").assertTextContains("Play")
         assertEquals(work, data.selection.id.value)
 

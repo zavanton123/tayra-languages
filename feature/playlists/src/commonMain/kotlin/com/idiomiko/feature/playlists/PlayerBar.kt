@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -132,7 +133,8 @@ private fun WideBar(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate
         } else {
             NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), opensText = false, tr("Open the player"), onOpen = { onNavigate(Route.Player) })
         }
-        PlayerControls(state, viewModel, Modifier.weight(2.2f), wide = true)
+        // The player shows the place in the text on its own card, so the bar leaves its seek bar out there.
+        PlayerControls(state, viewModel, Modifier.weight(2.2f), wide = true, showSeek = !onPlayerScreen)
         CloseButton(viewModel)
     }
 }
@@ -148,10 +150,11 @@ private fun CloseButton(viewModel: PlayerViewModel) {
 
 /**
  * Shuffle, previous, play or pause, next and repeat, then the place in the text with its seek bar
- * and the speed; on one row when [wide], else the buttons above the seek bar.
+ * and the speed; on one row when [wide], else the buttons above the seek bar. Without [showSeek] a wide
+ * row has the buttons in its middle and the speed at its end.
  */
 @Composable
-internal fun PlayerControls(state: PlayerUiState, viewModel: PlayerViewModel, modifier: Modifier = Modifier, wide: Boolean = false) {
+internal fun PlayerControls(state: PlayerUiState, viewModel: PlayerViewModel, modifier: Modifier = Modifier, wide: Boolean = false, showSeek: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     val p = state.player
     val player = viewModel.player
@@ -180,6 +183,17 @@ internal fun PlayerControls(state: PlayerUiState, viewModel: PlayerViewModel, mo
             }
         }
     }
+    val speed: @Composable () -> Unit = {
+        AppTooltip(tr("Playback speed")) {
+            SelectMenu(
+                PlayerViewModel.SPEEDS,
+                PlayerViewModel.SPEEDS.minByOrNull { kotlin.math.abs(it - state.speed) },
+                onSelect = player::setSpeed,
+                optionLabel = ::speedLabel,
+                buttonModifier = Modifier.testTag("speed"),
+            )
+        }
+    }
     val seek: @Composable (Modifier) -> Unit = { m ->
         var dragging by remember { mutableStateOf<Float?>(null) }
         Row(m, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
@@ -196,18 +210,17 @@ internal fun PlayerControls(state: PlayerUiState, viewModel: PlayerViewModel, mo
                 }
             }
             Text(clockTime(state.total), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
-            AppTooltip(tr("Playback speed")) {
-                SelectMenu(
-                    PlayerViewModel.SPEEDS,
-                    PlayerViewModel.SPEEDS.minByOrNull { kotlin.math.abs(it - state.speed) },
-                    onSelect = player::setSpeed,
-                    optionLabel = ::speedLabel,
-                    buttonModifier = Modifier.testTag("speed"),
-                )
-            }
+            speed()
         }
     }
-    if (wide) {
+    if (wide && !showSeek) {
+        Row(modifier, verticalAlignment = Alignment.CenterVertically) {
+            Spacer(Modifier.weight(1f))
+            buttons()
+            Spacer(Modifier.weight(1f))
+            speed()
+        }
+    } else if (wide) {
         Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             buttons()
             seek(Modifier.weight(1f))

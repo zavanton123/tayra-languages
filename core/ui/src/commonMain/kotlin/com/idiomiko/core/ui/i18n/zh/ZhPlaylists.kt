@@ -107,4 +107,7 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Add texts from your library" to "从你的书库添加文本",
     "Shuffle" to "随机播放",
     "Now playing" to "正在播放",
+    "Open the queue" to "打开队列",
+    "This is the last text" to "这是最后一篇",
+    "{0} more texts" to "还有 {0} 篇",
 )

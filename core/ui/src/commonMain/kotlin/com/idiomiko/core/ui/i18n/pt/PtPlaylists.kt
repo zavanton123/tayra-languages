@@ -107,4 +107,7 @@ internal val ptPlaylists: Map<String, String> = mapOf(
     "Add texts from your library" to "Adicionar textos da sua biblioteca",
     "Shuffle" to "Aleatório",
     "Now playing" to "Reproduzindo agora",
+    "Open the queue" to "Abrir a fila",
+    "This is the last text" to "Este é o último texto",
+    "{0} more texts" to "mais {0} texto|mais {0} textos",
 )

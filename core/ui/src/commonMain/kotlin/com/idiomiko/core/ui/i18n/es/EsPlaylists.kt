@@ -107,4 +107,7 @@ internal val esPlaylists: Map<String, String> = mapOf(
     "Add texts from your library" to "Añadir textos de tu biblioteca",
     "Shuffle" to "Aleatorio",
     "Now playing" to "Reproduciendo ahora",
+    "Open the queue" to "Abrir la cola",
+    "This is the last text" to "Este es el último texto",
+    "{0} more texts" to "{0} texto más|{0} textos más",
 )

@@ -27,6 +27,14 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.rememberScrollState
+import com.idiomiko.core.ui.components.AppBottomSheet
+import com.idiomiko.core.ui.i18n.trPlural
+import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -83,7 +91,16 @@ import org.koin.compose.viewmodel.koinViewModel
 fun PlayerScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: PlayerViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     Scaffold(
-        topBar = { AppTopBar(title = state.player.playlist?.name ?: tr("Player"), onNavigate = onNavigate, section = NavSection.PLAYLISTS, onBack = onBack) },
+        topBar = {
+            AppTopBar(
+                title = state.player.playlist?.name ?: tr("Player"),
+                onNavigate = onNavigate,
+                section = NavSection.PLAYLISTS,
+                onBack = onBack,
+                // On a phone the way back to the text sits in the bar, leaving the screen to the player.
+                actions = { if (LocalWindowWidth.current.isCompact) BackToTextButton(state, onNavigate) },
+            )
+        },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         PlayerContent(state, viewModel, onNavigate, Modifier.padding(padding))
@@ -96,8 +113,10 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
     val p = state.player
     val playlist = p.playlist
     BoxWithConstraints(modifier.fillMaxSize()) {
-        // On a wide window the text being heard takes the window's height, so its sentence sits in the middle.
+        // The text being heard takes the window's height, so its sentence sits in the middle.
         val fillHeight = (maxHeight - AppSpacing.xxl * 2).coerceAtLeast(MIN_NOW_PLAYING_HEIGHT)
+        val phoneHeight = (maxHeight - AppSpacing.l * 2).coerceAtLeast(MIN_PHONE_PLAYER_HEIGHT)
+        var queueOpen by rememberSaveable { mutableStateOf(false) }
         ScrollColumn(
             Modifier.fillMaxSize(),
             contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
@@ -119,11 +138,15 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
                 )
             }
             if (compact) {
-                header()
-                Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { NowPlaying(state, viewModel, onNavigate) }
-                PlayerControls(state, viewModel, Modifier.fillMaxWidth())
-                BackToText(state, onNavigate)
-                Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { UpNext(state, viewModel, onNavigate) }
+                // A phone shows the player alone; what comes next opens in a sheet over it.
+                Column(Modifier.fillMaxWidth().height(phoneHeight), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                    header()
+                    Box(Modifier.fillMaxWidth().weight(1f).cardSurface(AppShapes.large).padding(AppSpacing.l).testTag("now-playing-card")) {
+                        NowPlaying(state, viewModel, onNavigate, fill = true)
+                    }
+                    PlayerControls(state, viewModel, Modifier.fillMaxWidth())
+                    UpNextPeek(state, onOpen = { queueOpen = true })
+                }
             } else {
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                     Column(Modifier.weight(1.6f).height(fillHeight).cardSurface(AppShapes.large).padding(AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
@@ -136,11 +159,48 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
                 }
             }
         }
+        if (queueOpen && compact && p.isLoaded && playlist != null) QueueSheet(state, viewModel, onNavigate, onDismiss = { queueOpen = false })
     }
 }
 
-/** Below this the card would squeeze its sentence; the page scrolls instead. */
+/** Below these the card would squeeze its sentence; the page scrolls instead. */
 private val MIN_NOW_PLAYING_HEIGHT = 520.dp
+private val MIN_PHONE_PLAYER_HEIGHT = 560.dp
+
+/** The queue on a phone, as a sheet that stops half-way and pulls up to the full height. */
+@Composable
+private fun QueueSheet(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
+    AppBottomSheet(onDismissRequest = onDismiss, skipPartiallyExpanded = false, modifier = Modifier.testTag("queue-sheet")) {
+        Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l).padding(bottom = AppSpacing.xl)) {
+            UpNext(state, viewModel, onNavigate = { onDismiss(); onNavigate(it) })
+        }
+    }
+}
+
+/** The next text and how many follow it, at the foot of a phone's player; a tap opens the queue. */
+@Composable
+private fun UpNextPeek(state: PlayerUiState, onOpen: () -> Unit) {
+    val p = state.player
+    val playlist = p.playlist ?: return
+    val colors = MaterialTheme.colorScheme
+    val next = p.order.getOrNull(p.queueIndex + 1)?.let { id -> playlist.items.firstOrNull { it.id == id } }
+    val more = (p.order.size - p.queueIndex - 2).coerceAtLeast(0)
+    Row(
+        Modifier.fillMaxWidth().clip(AppShapes.large).cardSurface(AppShapes.large)
+            .clickable(onClickLabel = tr("Open the queue"), role = Role.Button, onClick = onOpen)
+            .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("up-next-peek"),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+    ) {
+        Icon(AppIcons.QueueMusic, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
+        Column(Modifier.weight(1f)) {
+            Text(tr("Up next"), style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
+            Text(next?.title ?: tr("This is the last text"), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        }
+        if (more > 0) Text(trPlural(more, "{0} more text", "{0} more texts"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
+        Icon(Icons.Default.KeyboardArrowUp, contentDescription = null, tint = colors.onSurfaceVariant)
+    }
+}
 
 /**
  * The text being heard and its sentence, or the end of the playlist. With [fill] it takes its card's height:
@@ -275,8 +335,7 @@ private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: Str
     Row(
         Modifier.fillMaxWidth()
             .then(if (dragging) Modifier.cardSurface(AppShapes.control) else Modifier)
-            .then(if (current) Modifier.background(colors.primary.copy(alpha = AppAlpha.tint), AppShapes.control) else Modifier)
-            .clip(AppShapes.control)
+            .then(if (current) Modifier.background(colors.primary.copy(alpha = AppAlpha.tint)) else Modifier)
             .clickable(onClickLabel = tr("Play"), role = Role.Button, onClick = onPlay)
             .padding(horizontal = AppSpacing.xs, vertical = AppSpacing.m).testTag("queue-${item.id}"),
         verticalAlignment = Alignment.CenterVertically,
@@ -288,7 +347,7 @@ private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: Str
         Text(item.title, Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
         Text(time, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
         if (item.finished) {
-            Box(Modifier.size(AppSizes.iconLarge).clip(AppShapes.circle).background(colors.primary), contentAlignment = Alignment.Center) {
+            Box(Modifier.size(AppSizes.iconLarge).clip(AppShapes.circle).background(AppAccents.green), contentAlignment = Alignment.Center) {
                 Icon(Icons.Default.Check, contentDescription = tr("Heard to the end"), tint = AppAccents.onAccent, modifier = Modifier.size(AppSizes.iconSmall))
             }
         }
@@ -299,17 +358,11 @@ private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: Str
     }
 }
 
-/** Opens the text being heard in the reader, at its page. */
+/** Opens the text being heard in the reader, at its page: a button in a phone's top bar. */
 @Composable
-internal fun BackToText(state: PlayerUiState, onNavigate: (Route) -> Unit, modifier: Modifier = Modifier) {
+private fun BackToTextButton(state: PlayerUiState, onNavigate: (Route) -> Unit) {
     val label = backToTextLabel(state) ?: return
-    LinkText(
-        label,
-        onClick = { textRoute(state)?.let(onNavigate) },
-        modifier = modifier.testTag("back-to-text"),
-        icon = Icons.AutoMirrored.Filled.ArrowBack,
-        style = MaterialTheme.typography.bodyMedium,
-    )
+    AppIconButton(AppIcons.MenuBook, contentDescription = label, onClick = { textRoute(state)?.let(onNavigate) }, modifier = Modifier.testTag("back-to-text"))
 }
 
 /** "Back to lesson", "Back to article" or "Back to book", by the kind of text being heard. */

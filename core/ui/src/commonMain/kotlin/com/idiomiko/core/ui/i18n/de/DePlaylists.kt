@@ -107,4 +107,7 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "Add texts from your library" to "Texte aus deiner Bibliothek hinzufügen",
     "Shuffle" to "Zufällig",
     "Now playing" to "Läuft gerade",
+    "Open the queue" to "Warteschlange öffnen",
+    "This is the last text" to "Das ist der letzte Text",
+    "{0} more texts" to "noch {0} Text|noch {0} Texte",
 )
