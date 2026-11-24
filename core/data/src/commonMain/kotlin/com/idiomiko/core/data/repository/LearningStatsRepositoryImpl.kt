@@ -40,6 +40,9 @@ class LearningStatsRepositoryImpl(
             reviewsRemembered = reviews.count { it.rating.toInt() != Rating.AGAIN.value },
             pagesRead = queries.pagesRead(languageId).awaitAsOne().toInt(),
             booksFinished = queries.booksFinished(languageId).awaitAsOne().toInt(),
+            listenTime = provider.database().listeningQueries.byLanguage(languageId).awaitAsList()
+                .groupBy({ it.listened_at.day() }) { it.duration_ms.milliseconds }
+                .mapValues { (_, times) -> times.fold(Duration.ZERO, Duration::plus) },
         )
     }
 

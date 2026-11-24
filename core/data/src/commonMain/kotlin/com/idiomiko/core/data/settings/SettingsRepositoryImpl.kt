@@ -151,6 +151,7 @@ class SettingsRepositoryImpl(
             playlistPauseBetweenTracks = store.getBoolean(Keys.PLAYLIST_PAUSE, defaults.playlistPauseBetweenTracks),
             playlistPauseSeconds = store.getInt(Keys.PLAYLIST_PAUSE_SECONDS, defaults.playlistPauseSeconds)
                 .coerceIn(UserSettings.MIN_PLAYLIST_PAUSE, UserSettings.MAX_PLAYLIST_PAUSE),
+            playlistCountsTowardGoal = store.getBoolean(Keys.PLAYLIST_COUNTS_TOWARD_GOAL, defaults.playlistCountsTowardGoal),
             tutorialBooksAdded = store.getBoolean(Keys.TUTORIAL_BOOKS, defaults.tutorialBooksAdded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -289,6 +290,7 @@ class SettingsRepositoryImpl(
         store.putFloat(Keys.PLAYLIST_SPEED, s.playlistSpeed)
         store.putBoolean(Keys.PLAYLIST_PAUSE, s.playlistPauseBetweenTracks)
         store.putInt(Keys.PLAYLIST_PAUSE_SECONDS, s.playlistPauseSeconds)
+        store.putBoolean(Keys.PLAYLIST_COUNTS_TOWARD_GOAL, s.playlistCountsTowardGoal)
         store.putBoolean(Keys.TUTORIAL_BOOKS, s.tutorialBooksAdded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
@@ -386,6 +388,7 @@ class SettingsRepositoryImpl(
         const val PLAYLIST_SPEED = "playlist_speed"
         const val PLAYLIST_PAUSE = "playlist_pause_between_tracks"
         const val PLAYLIST_PAUSE_SECONDS = "playlist_pause_seconds"
+        const val PLAYLIST_COUNTS_TOWARD_GOAL = "playlist_counts_toward_goal"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val PRACTICE_TRANSLATION = "reading_practice_translation"
         const val TRANSLATION_ENGINE = "translation_engine"

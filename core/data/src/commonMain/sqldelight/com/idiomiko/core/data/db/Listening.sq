@@ -1,0 +1,19 @@
+-- The time the playlist player spent speaking, sentence by sentence, counted toward the daily goal.
+-- It stays on this device: it is not synced and not in backups.
+CREATE TABLE listening_time (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    language_id INTEGER NOT NULL REFERENCES languages(id) ON DELETE CASCADE,
+    listened_at INTEGER NOT NULL,
+    duration_ms INTEGER NOT NULL
+);
+
+CREATE INDEX listening_time_language ON listening_time(language_id, listened_at);
+
+insert:
+INSERT INTO listening_time(language_id, listened_at, duration_ms) VALUES (:languageId, :listenedAt, :durationMs);
+
+byLanguage:
+SELECT listened_at, duration_ms FROM listening_time WHERE language_id = :languageId;
+
+deleteAll:
+DELETE FROM listening_time;

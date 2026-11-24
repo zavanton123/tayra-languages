@@ -46,6 +46,21 @@ class StudyTimeTest {
     }
 
     @Test
+    fun listeningAddsItsMinutesAndMakesAStudyDayOfItsOwn() {
+        val yesterday = today.minus(1, DateTimeUnit.DAY)
+        val activity = StudyActivity.of(
+            wordsRead = mapOf(today to 300),
+            reviews = emptyMap(),
+            wordsSaved = emptyMap(),
+            today = today,
+            listenTime = mapOf(today to 4.minutes, yesterday to 2.minutes),
+        )
+        assertEquals(9, activity.minutesToday)
+        assertEquals(2, activity.days.getValue(yesterday).minutes)
+        assertEquals(2, activity.streak)
+    }
+
+    @Test
     fun theDailyGoalIsReachedOnceTheMinutesAreDone() {
         val goal = DailyGoal(goal = 20, done = 12)
         assertFalse(goal.reached)

@@ -68,6 +68,8 @@ data class UserSettings(
     val playlistPauseBetweenTracks: Boolean = false,
     /** How long the rest between tracks lasts, in seconds. */
     val playlistPauseSeconds: Int = DEFAULT_PLAYLIST_PAUSE,
+    /** Whether the time spent listening to playlists counts toward the daily goal and the streak. */
+    val playlistCountsTowardGoal: Boolean = true,
     /** Whether the languages got their tutorial book, which replaced the sample books of earlier versions. */
     val tutorialBooksAdded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */

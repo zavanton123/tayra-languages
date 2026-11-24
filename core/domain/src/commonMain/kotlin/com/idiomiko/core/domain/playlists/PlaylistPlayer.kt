@@ -9,6 +9,7 @@ import com.idiomiko.core.domain.service.SentenceAudio
 import com.idiomiko.core.domain.service.SpeechEngine
 import com.idiomiko.core.domain.service.SpokenNumbers
 import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.domain.stats.ListeningLog
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
@@ -140,7 +141,8 @@ data class PlayerState(
  *
  * With a local engine (Piper, Kokoro) the next sentences are synthesized while one plays, so they
  * follow without a gap; the system voice speaks directly. Where listening got to is kept with the
- * playlist; it never counts as reading. Choosing another language to learn stops it.
+ * playlist; it never counts as reading, but its time counts toward the daily goal while the settings say so.
+ * Choosing another language to learn stops it.
  */
 class PlaylistPlayer(
     private val service: PlaylistService,
@@ -157,6 +159,8 @@ class PlaylistPlayer(
     private val scope: CoroutineScope,
     private val clock: Clock = Clock.System,
     private val random: Random = Random.Default,
+    /** Where the time spent listening goes, while it counts toward the daily goal. */
+    private val listening: ListeningLog = ListeningLog { _, _, _ -> },
 ) {
     private val _state = MutableStateFlow(PlayerState())
     val state: StateFlow<PlayerState> = _state.asStateFlow()
@@ -504,7 +508,9 @@ class PlaylistPlayer(
                 continue
             }
             savePosition()
+            val started = clock.now()
             speak(text)
+            s.playlist?.languageId?.takeIf { settings.current.playlistCountsTowardGoal }?.let { listening.record(it, started, clock.now() - started) }
             val now = _state.value
             if (now.sentence + 1 < now.sentences.size) {
                 _state.update { it.copy(sentence = it.sentence + 1, word = null) }

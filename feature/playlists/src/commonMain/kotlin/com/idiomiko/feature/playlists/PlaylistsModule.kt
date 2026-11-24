@@ -22,7 +22,7 @@ internal expect fun Scope.deviceSpeechOutput(): SpeechOutput
 val playlistsModule = module {
     single<SpeechOutput> { deviceSpeechOutput() }
     // The app's player: it outlives every screen, so it has a scope of its own on the main thread.
-    single { PlaylistPlayer(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), CoroutineScope(SupervisorJob() + Dispatchers.Main)) }
+    single { PlaylistPlayer(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), CoroutineScope(SupervisorJob() + Dispatchers.Main), listening = get()) }
     single { NowPlayingFeed(get(), get(), get(), get(), CoroutineScope(SupervisorJob() + Dispatchers.Main)) }
     // Made with the app, so the system's controls follow the player from the start.
     single(createdAtStart = true) { systemMediaControls() }

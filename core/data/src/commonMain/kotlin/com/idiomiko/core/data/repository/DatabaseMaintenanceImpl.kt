@@ -15,6 +15,7 @@ class DatabaseMaintenanceImpl(private val provider: DatabaseProvider) : Database
             // next sync takes them all afresh.
             database.syncQueries.setApplying(1)
             database.maintenanceQueries.deleteAllWordsRead()
+            database.listeningQueries.deleteAll()
             database.maintenanceQueries.deleteAllLanguages()
             database.maintenanceQueries.deleteAllBookTags()
             database.maintenanceQueries.deleteAllCourseTags()

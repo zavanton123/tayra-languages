@@ -19,6 +19,8 @@ data class LanguageActivity(
     val reviewsRemembered: Int = 0,
     val pagesRead: Int = 0,
     val booksFinished: Int = 0,
+    /** The time spent listening to playlists by day, kept while it counts toward the daily goal. */
+    val listenTime: Map<LocalDate, Duration> = emptyMap(),
 )
 
 /** A word counted in [LanguageActivity.termsSaved]; [sentence] is the one it was saved in, when it was. */

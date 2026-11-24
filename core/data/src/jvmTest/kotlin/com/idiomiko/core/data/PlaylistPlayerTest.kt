@@ -140,9 +140,13 @@ class PlaylistPlayerTest {
     private val thread = Executors.newSingleThreadExecutor().asCoroutineDispatcher()
     private val scope = CoroutineScope(SupervisorJob() + thread)
 
+    /** The listening the player recorded: the language and how long each sentence sounded. */
+    private val listened = java.util.concurrent.CopyOnWriteArrayList<Pair<Long, kotlin.time.Duration>>()
+
     private fun newPlayer() = PlaylistPlayer(
         service, repository, books, languages, reading, SentenceAudio(speech, settings, MemorySpeechAudioCache()), speech, settings, output, time, scope,
         random = Random(7),
+        listening = { language, _, duration -> listened += language to duration },
     )
 
     private val player = newPlayer()
@@ -224,6 +228,19 @@ class PlaylistPlayerTest {
         hear("Três quatro.")
         until("the end") { player.state.value.status == PlayerStatus.COMPLETE }
         assertTrue(runBlocking { service.playlist(setup.playlist)!!.isComplete })
+    }
+
+    @Test
+    fun theTimeListenedIsRecordedOnlyWhileItCountsTowardTheGoal() {
+        val setup = setUp()
+        player.play(setup.playlist)
+        hear("Um dois.")
+        until("the first sentence's time") { listened.size == 1 }
+        assertEquals(setup.language, listened.single().first)
+        runBlocking { settings.update { it.copy(playlistCountsTowardGoal = false) } }
+        hear("Dois três.")
+        hear("Três quatro.")
+        assertEquals(1, listened.size, "nothing more once listening does not count")
     }
 
     @Test

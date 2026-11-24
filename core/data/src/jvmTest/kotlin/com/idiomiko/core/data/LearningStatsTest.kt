@@ -54,6 +54,17 @@ class LearningStatsTest {
     }
 
     @Test
+    fun theTimeListenedAddsUpByDay() = runBlocking {
+        val log = com.idiomiko.core.data.repository.ListeningLogImpl(provider)
+        log.record(language, noon, 40.seconds)
+        log.record(language, noon + 1.hours, 20.seconds)
+        log.record(language, noon - 24.hours, 30.seconds)
+        val activity = stats.activity(language)
+        assertEquals(60.seconds, activity.listenTime[today])
+        assertEquals(30.seconds, activity.listenTime[LocalDate(2026, 11, 19)])
+    }
+
+    @Test
     fun theWordsSavedLastComeFirstWithTheirSentences() = runBlocking {
         val terms = TermRepositoryImpl(provider)
         val gato = terms.save(Term(languageId = language, text = "gato", textLc = "gato", status = TermStatus.LEARNING_3, sentence = "O gato dorme."))

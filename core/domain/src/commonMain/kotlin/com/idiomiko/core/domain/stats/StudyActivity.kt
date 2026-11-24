@@ -5,12 +5,19 @@ import kotlin.math.ceil
 import kotlin.time.Duration
 
 /** What the reader did in a language on one day, and the time its answers took. */
-data class StudyDay(val wordsRead: Int = 0, val reviews: Int = 0, val wordsSaved: Int = 0, val reviewTime: Duration = Duration.ZERO) {
-    /** A day with no reading, no answers and no words saved is no study day. */
-    val studied: Boolean get() = wordsRead > 0 || reviews > 0 || wordsSaved > 0
+data class StudyDay(
+    val wordsRead: Int = 0,
+    val reviews: Int = 0,
+    val wordsSaved: Int = 0,
+    val reviewTime: Duration = Duration.ZERO,
+    /** The time spent listening to playlists, when it counts toward the goal. */
+    val listenTime: Duration = Duration.ZERO,
+) {
+    /** A day with no reading, no answers, no words saved and no listening is no study day. */
+    val studied: Boolean get() = wordsRead > 0 || reviews > 0 || wordsSaved > 0 || listenTime > Duration.ZERO
 
-    /** The minutes of study the day's reading and answers stand for, as [StudyTime] reckons them. */
-    val minutes: Int get() = StudyTime.minutes(wordsRead, reviewTime)
+    /** The minutes of study the day's reading, answers and listening stand for, as [StudyTime] reckons them. */
+    val minutes: Int get() = StudyTime.minutes(wordsRead, reviewTime + listenTime)
 }
 
 /**
@@ -57,9 +64,12 @@ data class StudyActivity(
             today: LocalDate,
             reviewTime: Map<LocalDate, Duration> = emptyMap(),
             averageAnswer: Duration? = null,
+            listenTime: Map<LocalDate, Duration> = emptyMap(),
         ): StudyActivity {
-            val dates = (wordsRead.keys + reviews.keys + wordsSaved.keys)
-            val days = dates.associateWith { StudyDay(wordsRead[it] ?: 0, reviews[it] ?: 0, wordsSaved[it] ?: 0, reviewTime[it] ?: Duration.ZERO) }
+            val dates = (wordsRead.keys + reviews.keys + wordsSaved.keys + listenTime.keys)
+            val days = dates.associateWith {
+                StudyDay(wordsRead[it] ?: 0, reviews[it] ?: 0, wordsSaved[it] ?: 0, reviewTime[it] ?: Duration.ZERO, listenTime[it] ?: Duration.ZERO)
+            }
                 .filterValues { it.studied }
             return StudyActivity(days, today, averageAnswer)
         }
