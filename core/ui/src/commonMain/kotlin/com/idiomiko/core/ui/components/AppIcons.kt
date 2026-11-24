@@ -665,7 +665,15 @@ object AppIcons {
         }
     }
 
-    /** The reader's stages: the design's own icons, drawn as the bottom bar's. The quiz takes [ReadCourses], the flashcards [NavFlashcards], reading aloud [MenuBook]. */
+    /** The reader's stages: the design's own icons, drawn as the bottom bar's. The quiz takes [ReadCourses], reading aloud [MenuBook]. */
+    val StageFlashcards: ImageVector by lazy {
+        navIcon("StageFlashcards") {
+            stroke("M7.5 6H5.8a2.3 2.3 0 0 0-2.3 2.3v9.9a2.3 2.3 0 0 0 2.3 2.3h8.4a2.3 2.3 0 0 0 2.3-2.3V18", cap = StrokeCap.Round)
+            stroke("M9.8 3.5h8.4a2.3 2.3 0 0 1 2.3 2.3v9.9a2.3 2.3 0 0 1 -2.3 2.3h-8.4a2.3 2.3 0 0 1 -2.3 -2.3v-9.9a2.3 2.3 0 0 1 2.3 -2.3Z")
+            fill("m14 7.2.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9z")
+        }
+    }
+
     val StageListen: ImageVector by lazy {
         navIcon("StageListen") {
             stroke("M4 12v-1a8 8 0 0 1 16 0v1", cap = StrokeCap.Round)

@@ -60,7 +60,7 @@ internal val ReadingStage.icon: ImageVector
         ReadingStage.QUESTIONS -> AppIcons.Forum
         ReadingStage.WORDS -> AppIcons.StageWords
         ReadingStage.QUIZ -> AppIcons.ReadCourses
-        ReadingStage.FLASHCARDS -> AppIcons.NavFlashcards
+        ReadingStage.FLASHCARDS -> AppIcons.StageFlashcards
         ReadingStage.REVERSE -> AppIcons.StageReverse
         ReadingStage.RETELL -> AppIcons.StageRetell
     }
