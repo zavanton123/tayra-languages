@@ -103,7 +103,7 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "Playing · {0} of {1}" to "Läuft · {0} von {1}",
     "Paused · {0} of {1}" to "Pausiert · {0} von {1}",
     "sentence {0} of {1}" to "Satz {0} von {1}",
-    "Drag to reorder · double-click to play from there" to "Zum Umsortieren ziehen · Doppelklick spielt ab dort ab",
+    "Drag to reorder · click a text to play it" to "Ziehen zum Umordnen · Text anklicken zum Abspielen",
     "Add texts from your library" to "Texte aus deiner Bibliothek hinzufügen",
     "Shuffle" to "Zufällig",
     "Now playing" to "Läuft gerade",

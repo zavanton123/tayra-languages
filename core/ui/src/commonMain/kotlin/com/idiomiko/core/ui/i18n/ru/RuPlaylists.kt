@@ -103,7 +103,7 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Playing · {0} of {1}" to "Звучит · {0} из {1}",
     "Paused · {0} of {1}" to "На паузе · {0} из {1}",
     "sentence {0} of {1}" to "предложение {0} из {1}",
-    "Drag to reorder · double-click to play from there" to "Перетащите, чтобы изменить порядок · двойной щелчок — слушать отсюда",
+    "Drag to reorder · click a text to play it" to "Перетащите, чтобы изменить порядок · щёлкните текст, чтобы слушать",
     "Add texts from your library" to "Добавить тексты из библиотеки",
     "Shuffle" to "Перемешать",
     "Now playing" to "Сейчас звучит",

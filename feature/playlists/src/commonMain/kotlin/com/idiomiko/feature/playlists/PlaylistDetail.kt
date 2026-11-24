@@ -1,9 +1,11 @@
 package com.idiomiko.feature.playlists
 
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,7 +40,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -182,10 +183,12 @@ private fun PageTextRow(state: PlaylistDetailUiState, item: PlaylistItem, index:
     val colors = MaterialTheme.colorScheme
     val current = item.id == state.currentId
     val status = state.statusOf(item)
+    val interaction = remember { MutableInteractionSource() }
+    val hovered by interaction.collectIsHoveredAsState()
     Row(
         Modifier.fillMaxWidth()
-            .then(if (current) Modifier.background(colors.primary.copy(alpha = AppAlpha.wash)) else Modifier)
-            .clickable { if (current && state.isPlaying) viewModel.pause() else playFrom(state, item, viewModel) }
+            .background(rowHighlight(current, hovered))
+            .clickable(interaction, LocalIndication.current, onClickLabel = tr("Play")) { openInPlayer(state, item, viewModel, onNavigate) }
             .padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.s + AppSpacing.xxs, bottom = AppSpacing.s + AppSpacing.xxs)
             .testTag("item-${item.id}"),
         verticalAlignment = Alignment.CenterVertically,
@@ -286,6 +289,23 @@ private fun onMain(state: PlaylistDetailUiState, viewModel: PlaylistDetailViewMo
 private fun playFrom(state: PlaylistDetailUiState, item: PlaylistItem, viewModel: PlaylistDetailViewModel) =
     if (item.id == state.currentId) viewModel.play() else viewModel.play(itemId = item.id)
 
+/** The row of the text playing is tinted, a little more under the pointer; another row greys under it. */
+@Composable
+private fun rowHighlight(current: Boolean, hovered: Boolean): Color {
+    val colors = MaterialTheme.colorScheme
+    return when {
+        current -> colors.primary.copy(alpha = if (hovered) AppAlpha.tint else AppAlpha.wash)
+        hovered -> colors.onSurface.copy(alpha = AppAlpha.faint)
+        else -> Color.Transparent
+    }
+}
+
+/** A click on a text plays it, or lets it go on when it is the one playing, and opens the player on it. */
+private fun openInPlayer(state: PlaylistDetailUiState, item: PlaylistItem, viewModel: PlaylistDetailViewModel, onNavigate: (Route) -> Unit) {
+    if (!(item.id == state.currentId && state.isPlaying)) playFrom(state, item, viewModel)
+    onNavigate(Route.Player)
+}
+
 /** The playlist's own menu: adding texts and deleting it, and changing its details where no Edit button shows. */
 @Composable
 private fun PlaylistMenu(playlist: Playlist, onNavigate: (Route) -> Unit, onDelete: () -> Unit, withEdit: Boolean, style: IconButtonStyle) {
@@ -347,7 +367,7 @@ private fun TextsCard(state: PlaylistDetailUiState, playlist: Playlist, viewMode
     Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(vertical = AppSpacing.s)) {
         Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
             Text(tr("Texts"), Modifier.weight(1f), style = AppText.sectionTitle)
-            Text(tr("Drag to reorder · double-click to play from there"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            Text(tr("Drag to reorder · click a text to play it"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         ReorderableColumn(playlist.items, key = { it.id }, onMove = { from, to -> viewModel.move(playlist.items[from].id, to) }) { item, index, handle, dragging ->
             AppDivider(color = line)
@@ -379,11 +399,14 @@ private fun TextRow(
     val current = item.id == state.currentId
     val holds = current && state.isPlaying
     val play by rememberUpdatedState { playFrom(state, item, viewModel) }
+    val open by rememberUpdatedState { openInPlayer(state, item, viewModel, onNavigate) }
+    val interaction = remember { MutableInteractionSource() }
+    val hovered by interaction.collectIsHoveredAsState()
     Row(
         Modifier.fillMaxWidth()
             .then(if (dragging) Modifier.cardSurface(AppShapes.control, colors.surface) else Modifier)
-            .then(if (current) Modifier.background(colors.primary.copy(alpha = AppAlpha.wash)) else Modifier)
-            .pointerInput(item.id) { detectTapGestures(onDoubleTap = { play() }) }
+            .background(rowHighlight(current, hovered))
+            .clickable(interaction, LocalIndication.current, onClickLabel = tr("Play")) { open() }
             .padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.s + AppSpacing.xxs, bottom = AppSpacing.s + AppSpacing.xxs)
             .testTag("item-${item.id}"),
         verticalAlignment = Alignment.CenterVertically,

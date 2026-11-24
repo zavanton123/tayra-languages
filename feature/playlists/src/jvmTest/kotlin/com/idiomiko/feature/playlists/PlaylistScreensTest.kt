@@ -14,7 +14,6 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.assertTextContains
-import androidx.compose.ui.test.doubleClick
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithContentDescription
@@ -168,8 +167,8 @@ class PlaylistScreensTest {
         // Before anything plays there is no strip, and the third text is the one to go on with.
         assertTrue(!shown("now-playing"))
         val items = runBlocking { data.service.playlist(morning)!!.items }
-        onNodeWithTag("status-${items[2].id}").assertTextContains("Up next")
-        onNodeWithTag("status-${items[0].id}").assertTextContains("✓ Played")
+        onNodeWithTag("status-${items[2].id}", useUnmergedTree = true).assertTextContains("Up next")
+        onNodeWithTag("status-${items[0].id}", useUnmergedTree = true).assertTextContains("✓ Played")
         onNodeWithTag("play-all").assertTextContains("Continue")
 
         onNodeWithTag("play-all").performClick()
@@ -179,8 +178,8 @@ class PlaylistScreensTest {
         onNodeWithTag("now-playing-sentence").assertTextContains("A Júlia gravou um vídeo", substring = true)
         onNodeWithTag("now-playing").assertExists()
         onNodeWithText("Now playing · O vídeo da Júlia · sentence 1 of ${sentences.size}").assertExists()
-        onNodeWithTag("status-${items[2].id}").assertTextContains("Playing · 1 of ${sentences.size}")
-        onNodeWithTag("status-${items[3].id}").assertTextContains("Up next")
+        onNodeWithTag("status-${items[2].id}", useUnmergedTree = true).assertTextContains("Playing · 1 of ${sentences.size}")
+        onNodeWithTag("status-${items[3].id}", useUnmergedTree = true).assertTextContains("Up next")
 
         data.output.finish()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Now playing · O vídeo da Júlia · sentence 2 of ${sentences.size}")).fetchSemanticsNodes().isNotEmpty() }
@@ -189,9 +188,10 @@ class PlaylistScreensTest {
     }
 
     @Test
-    fun aTextIsPlayedFromItsNumberOrADoubleClick() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+    fun aTextIsPlayedFromItsButtonOrByAClickThatOpensThePlayer() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         val (morning) = library()
-        page(data.playlists())
+        val visited = mutableListOf<Route>()
+        page(data.playlists(), visited = visited)
         waitUntil(timeoutMillis = 5_000) { shown("playlist-header") }
         val items = runBlocking { data.service.playlist(morning)!!.items }
         onNodeWithTag("play-item-${items[3].id}").performClick()
@@ -202,8 +202,15 @@ class PlaylistScreensTest {
         onNodeWithTag("play-item-${items[3].id}").performClick()
         waitUntil(timeoutMillis = 5_000) { data.player.state.value.status == PlayerStatus.PAUSED }
 
-        onNodeWithTag("item-${items[0].id}").performMouseInput { doubleClick() }
-        waitUntil(timeoutMillis = 10_000) { data.player.state.value.itemId == items[0].id }
+        assertTrue(visited.isEmpty(), "the button plays without leaving the page")
+        onNodeWithTag("item-${items[1].id}").performMouseInput { moveTo(center) }
+        waitForIdle()
+        screenshot("playlist-row-hover")
+
+        // A click on the row plays the text and opens the player on it.
+        onNodeWithTag("item-${items[0].id}").performClick()
+        waitUntil(timeoutMillis = 10_000) { data.player.state.value.itemId == items[0].id && data.player.state.value.isPlaying }
+        assertEquals(listOf<Route>(Route.Player), visited)
     }
 
     @Test
@@ -217,7 +224,7 @@ class PlaylistScreensTest {
         onNodeWithText("Move down").performClick()
         waitUntil(timeoutMillis = 5_000) { order(morning) == listOf(items[1], items[0]) + items.drop(2) }
 
-        onNodeWithTag("drag-${items[4]}").performTouchInput {
+        onNodeWithTag("drag-${items[4]}", useUnmergedTree = true).performTouchInput {
             down(center)
             repeat(20) { moveBy(Offset(0f, -10f), delayMillis = 16) }
             up()
@@ -303,17 +310,22 @@ class PlaylistScreensTest {
         playing(morning)
         val viewModel = data.detail(morning)
         var left = false
-        page(data.playlists()) { PlaylistDetailScreen(morning, onNavigate = {}, onBack = { left = true }, viewModel = viewModel) }
+        val visited = mutableListOf<Route>()
+        page(data.playlists()) { PlaylistDetailScreen(morning, onNavigate = { visited += it }, onBack = { left = true }, viewModel = viewModel) }
         waitUntil(timeoutMillis = 10_000) { shown("now-playing") }
         onNodeWithTag("playlist-facts").assertTextContains("2 of 5 played · ", substring = true)
         val items = runBlocking { data.service.playlist(morning)!!.items }
         screenshot("playlist-phone")
 
-        // A tap on a row plays from it; on the one playing it holds it.
-        onNodeWithTag("item-${items[2].id}").performClick()
-        waitUntil(timeoutMillis = 5_000) { data.player.state.value.status == PlayerStatus.PAUSED }
+        // A tap on a row plays it and opens the player; the one playing goes on.
+        val playing = data.player.state.value.itemId!!
+        onNodeWithTag("item-$playing").performClick()
+        waitForIdle()
+        assertEquals(playing, data.player.state.value.itemId)
+        assertTrue(data.player.state.value.isPlaying)
         onNodeWithTag("item-${items[4].id}").performClick()
         waitUntil(timeoutMillis = 10_000) { data.player.state.value.itemId == items[4].id }
+        assertEquals(listOf<Route>(Route.Player, Route.Player), visited)
 
         onNodeWithTag("playlist-actions").performClick()
         onNodeWithTag("delete-playlist").performClick()
