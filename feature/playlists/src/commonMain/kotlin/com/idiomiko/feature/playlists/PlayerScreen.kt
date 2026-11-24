@@ -288,8 +288,8 @@ private fun Complete(state: PlayerUiState, onPlayAgain: () -> Unit, onBack: () -
     val colors = MaterialTheme.colorScheme
     val playlist = state.player.playlist ?: return
     Column(Modifier.fillMaxWidth().padding(vertical = AppSpacing.xxl).testTag("playlist-complete"), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        Box(Modifier.size(DONE_CIRCLE).clip(AppShapes.circle).background(colors.primary.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
-            Icon(Icons.Default.Check, contentDescription = null, tint = colors.primary, modifier = Modifier.size(DONE_ICON))
+        Box(Modifier.size(DONE_CIRCLE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
+            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(DONE_ICON))
         }
         Text(tr("Playlist complete"), style = AppText.screenTitle, textAlign = TextAlign.Center)
         Text(
