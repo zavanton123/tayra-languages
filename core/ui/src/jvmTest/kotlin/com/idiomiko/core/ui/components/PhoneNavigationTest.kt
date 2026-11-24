@@ -39,6 +39,10 @@ class PhoneNavigationTest {
         }
         onNodeWithTag("phone-nav-READ").assertIsSelected()
         onNodeWithText("19", useUnmergedTree = true).assertExists()
+        System.getenv("PHONE_NAV_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            javax.imageio.ImageIO.write(onNodeWithTag("phone-nav").captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
         onNodeWithTag("phone-nav-HOME").performClick()
         onNodeWithTag("phone-nav-PLAYLISTS").performClick()
         assertEquals(listOf(Route.Home, Route.Playlists), visited)

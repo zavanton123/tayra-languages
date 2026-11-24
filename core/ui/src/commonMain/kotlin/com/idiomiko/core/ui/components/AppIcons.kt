@@ -427,6 +427,60 @@ object AppIcons {
         )
     }
 
+    /** The phone's bottom bar: the design's own tab icons (Home, Read, Playlists, Flashcards, More), drawn in strokes of 2.1 on a 24 grid. */
+    private fun navIcon(name: String, draw: NavIconScope.() -> Unit): ImageVector = materialIcon(name = name) { NavIconScope(this).draw(); this }
+
+    private class NavIconScope(private val builder: ImageVector.Builder) {
+        fun stroke(data: String, width: Float = 2.1f, cap: StrokeCap = StrokeCap.Butt, join: StrokeJoin = StrokeJoin.Miter) {
+            builder.addPath(pathData = addPathNodes(data), stroke = SolidColor(Color.Black), strokeLineWidth = width, strokeLineCap = cap, strokeLineJoin = join)
+        }
+        fun fill(data: String) { builder.addPath(pathData = addPathNodes(data), fill = SolidColor(Color.Black)) }
+    }
+
+    val NavHome: ImageVector by lazy {
+        navIcon("NavHome") {
+            stroke("M3.5 10.4 12 3.5l8.5 6.9v8.1a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2z", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M9 20.5v-6.2c0-.7.6-1.3 1.3-1.3h3.4c.7 0 1.3.6 1.3 1.3v6.2", cap = StrokeCap.Round)
+            fill("M10.75 8.7a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 1 0 -2.5 0Z")
+        }
+    }
+
+    val NavRead: ImageVector by lazy {
+        navIcon("NavRead") {
+            stroke("M3.2 5.6c3.3-.9 6.2-.3 8.8 1.8 2.6-2.1 5.5-2.7 8.8-1.8v13.2c-3.3-.9-6.2-.3-8.8 1.8-2.6-2.1-5.5-2.7-8.8-1.8z", join = StrokeJoin.Round)
+            stroke("M12 7.4v13.2", cap = StrokeCap.Round)
+            fill("M16.2 5.2V11l1.8-1.2 1.8 1.2V5.4")
+        }
+    }
+
+    val NavPlaylists: ImageVector by lazy {
+        navIcon("NavPlaylists") {
+            stroke("M6 4h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3Z")
+            stroke("M5.8 9a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0Z", width = 1.7f)
+            fill("m7.5 7.9 1.9 1.1-1.9 1.1z")
+            stroke("M12.3 8.2h5M12.3 11h3.4M6 15.2h12", cap = StrokeCap.Round)
+        }
+    }
+
+    val NavFlashcards: ImageVector by lazy {
+        navIcon("NavFlashcards") {
+            stroke("m6.1 6.2 10.7-2.1a2 2 0 0 1 2.3 1.6l2 10.1a2 2 0 0 1-1.6 2.3L8.8 20.2a2 2 0 0 1-2.3-1.6l-2-10.1a2 2 0 0 1 1.6-2.3Z", join = StrokeJoin.Round)
+            stroke("M4.8 7.1 3.7 7.6a2 2 0 0 0-1 2.6l4.2 9.4a2 2 0 0 0 2.6 1l1.1-.5", cap = StrokeCap.Round)
+            fill("m13.2 8.1.8 1.7 1.7.8-1.7.8-.8 1.7-.8-1.7-1.7-.8 1.7-.8z")
+        }
+    }
+
+    val NavMore: ImageVector by lazy {
+        navIcon("NavMore") {
+            fill(
+                "M5.4 3h2.7a2.4 2.4 0 0 1 2.4 2.4v2.7a2.4 2.4 0 0 1 -2.4 2.4h-2.7a2.4 2.4 0 0 1 -2.4 -2.4v-2.7a2.4 2.4 0 0 1 2.4 -2.4Z" +
+                    "M17.25 3a3.75 3.75 0 0 1 3.75 3.75a3.75 3.75 0 0 1 -3.75 3.75a3.75 3.75 0 0 1 -3.75 -3.75a3.75 3.75 0 0 1 3.75 -3.75Z" +
+                    "M6.75 13.5a3.75 3.75 0 0 1 3.75 3.75a3.75 3.75 0 0 1 -3.75 3.75a3.75 3.75 0 0 1 -3.75 -3.75a3.75 3.75 0 0 1 3.75 -3.75Z" +
+                    "M15.9 13.5h2.7a2.4 2.4 0 0 1 2.4 2.4v2.7a2.4 2.4 0 0 1 -2.4 2.4h-2.7a2.4 2.4 0 0 1 -2.4 -2.4v-2.7a2.4 2.4 0 0 1 2.4 -2.4Z",
+            )
+        }
+    }
+
     /** The Idiomiko monkey in its own colours (tools/logo/idiomiko-monkey.svg); draw it untinted. */
     val Logo: ImageVector by lazy {
         ImageVector.Builder(name = "Logo", defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 1237.9f, viewportHeight = 1237.9f)

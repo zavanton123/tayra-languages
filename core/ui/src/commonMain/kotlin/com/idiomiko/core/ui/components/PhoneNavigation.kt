@@ -12,7 +12,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.Icon
@@ -73,11 +72,11 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () ->
         else -> section
     }
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
-        PhoneTab(NavSection.HOME, Icons.Default.Home, area) { onNavigate(Route.Home) }
-        PhoneTab(NavSection.BOOKS, AppIcons.MenuBook, area, label = tr("Read"), tag = "READ") { sheet = NavSection.BOOKS }
-        PhoneTab(NavSection.PLAYLISTS, AppIcons.QueueMusic, area) { onNavigate(Route.Playlists) }
-        PhoneTab(NavSection.FLASHCARDS, AppIcons.Style, area, badge = due) { sheet = NavSection.FLASHCARDS }
-        PhoneTab(NavSection.SETTINGS, AppIcons.MoreHoriz, area, label = tr("More"), onClick = onMore)
+        PhoneTab(NavSection.HOME, AppIcons.NavHome, area) { onNavigate(Route.Home) }
+        PhoneTab(NavSection.BOOKS, AppIcons.NavRead, area, label = tr("Read"), tag = "READ") { sheet = NavSection.BOOKS }
+        PhoneTab(NavSection.PLAYLISTS, AppIcons.NavPlaylists, area) { onNavigate(Route.Playlists) }
+        PhoneTab(NavSection.FLASHCARDS, AppIcons.NavFlashcards, area, badge = due) { sheet = NavSection.FLASHCARDS }
+        PhoneTab(NavSection.SETTINGS, AppIcons.NavMore, area, label = tr("More"), onClick = onMore)
     }
     val go: (Route) -> Unit = { sheet = null; onNavigate(it) }
     when (sheet) {
