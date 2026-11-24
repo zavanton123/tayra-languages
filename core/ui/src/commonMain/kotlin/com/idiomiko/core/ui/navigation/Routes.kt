@@ -188,6 +188,10 @@ sealed interface Route {
     @Serializable
     data object Goals : Route
 
+    /** Settings: the playlist player's pause between tracks, its end of a playlist and listening toward the goal. */
+    @Serializable
+    data object PlaylistSettings : Route
+
     /** Settings: the desktop app's version and its updates. */
     @Serializable
     data object Updates : Route

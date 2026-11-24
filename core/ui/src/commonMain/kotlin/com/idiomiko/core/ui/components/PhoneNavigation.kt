@@ -175,6 +175,7 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
             MoreEntry("Languages", AppIcons.MoreLanguages, Route.Languages),
             MoreEntry("Flashcards", AppIcons.Flashcards, Route.FlashcardSettings, tag = "Flashcard settings"),
             MoreEntry("Vocabulary", AppIcons.MoreVocabularySettings, Route.VocabularySettings, tag = "Vocabulary settings"),
+            MoreEntry("Playlists", AppIcons.NavPlaylists, Route.PlaylistSettings, tag = "Playlist settings"),
             MoreEntry("Backups", AppIcons.MoreBackups, Route.Backups),
             MoreEntry("Clear data", AppIcons.MoreClearData, Route.ClearData),
             MoreEntry("About", AppIcons.MoreAbout, Route.About),

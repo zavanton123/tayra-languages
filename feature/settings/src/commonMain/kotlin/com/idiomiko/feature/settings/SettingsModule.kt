@@ -37,6 +37,7 @@ fun NavGraphBuilder.settingsGraph(navController: NavController) {
     val navigate: (Route) -> Unit = { navController.navigate(it) }
     composable<Route.Settings> { SettingsScreen(onNavigate = navigate) }
     composable<Route.Goals> { GoalsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.PlaylistSettings> { PlaylistSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Shortcuts> { ShortcutsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Speech> { SpeechScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.FlashcardSettings> { FlashcardSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }, personal = koinViewModel(), retention = koinViewModel()) }

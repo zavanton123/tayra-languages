@@ -54,6 +54,7 @@ enum class SettingsSection(val label: String, val route: Route, val icon: ImageV
     VOCABULARY("Vocabulary", Route.VocabularySettings, AppIcons.Abc),
     HOTKEYS("Hotkeys", Route.Shortcuts, AppIcons.Keyboard),
     SPEECH("Speech", Route.Speech, AppIcons.VolumeUp),
+    PLAYLISTS("Playlists", Route.PlaylistSettings, AppIcons.NavPlaylists),
     TRANSLATION("Translation", Route.OfflineTranslation, AppIcons.Translate),
     BACKUPS("Backups", Route.Backups, AppIcons.UploadFile),
     CLEAR_DATA("Clear data", Route.ClearData, AppIcons.DeleteOutline),
