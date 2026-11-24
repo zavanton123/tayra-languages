@@ -185,3 +185,6 @@ internal fun clockTime(duration: Duration): String {
 }
 
 internal fun textCount(n: Int) = trPlural(n, "{0} text", "{0} texts")
+
+/** A playlist's length as a player counts it: "3 tracks". */
+internal fun trackCount(n: Int) = trPlural(n, "{0} track", "{0} tracks")

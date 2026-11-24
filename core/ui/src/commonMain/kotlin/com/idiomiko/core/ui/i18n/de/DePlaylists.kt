@@ -104,4 +104,5 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "Shuffle" to "Zufällig",
     "Now playing" to "Läuft gerade",
     "Open the queue" to "Warteschlange öffnen",
+    "{0} tracks" to "{0} Titel|{0} Titel",
 )

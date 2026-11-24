@@ -104,4 +104,5 @@ internal val ptPlaylists: Map<String, String> = mapOf(
     "Shuffle" to "Aleatório",
     "Now playing" to "Reproduzindo agora",
     "Open the queue" to "Abrir a fila",
+    "{0} tracks" to "{0} faixa|{0} faixas",
 )

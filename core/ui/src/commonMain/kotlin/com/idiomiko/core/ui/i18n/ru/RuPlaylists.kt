@@ -104,4 +104,5 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Shuffle" to "Перемешать",
     "Now playing" to "Сейчас звучит",
     "Open the queue" to "Открыть очередь",
+    "{0} tracks" to "{0} трек|{0} трека|{0} треков",
 )

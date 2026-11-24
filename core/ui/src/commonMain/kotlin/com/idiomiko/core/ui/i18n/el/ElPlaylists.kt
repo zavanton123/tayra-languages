@@ -104,4 +104,5 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Shuffle" to "Τυχαία",
     "Now playing" to "Παίζει τώρα",
     "Open the queue" to "Άνοιγμα της ουράς",
+    "{0} tracks" to "{0} κομμάτι|{0} κομμάτια",
 )

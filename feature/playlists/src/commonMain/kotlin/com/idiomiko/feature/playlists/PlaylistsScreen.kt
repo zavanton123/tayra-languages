@@ -91,15 +91,15 @@ internal val PlaylistsSort.label: String
 
 /** "8 texts · ~34 min", or "0 texts" for an empty playlist. */
 internal fun playlistFacts(playlist: Playlist, duration: Duration) =
-    if (playlist.items.isEmpty()) textCount(0) else "${textCount(playlist.items.size)} · ${listeningTime(duration)}"
+    if (playlist.items.isEmpty()) trackCount(0) else "${trackCount(playlist.items.size)} · ${listeningTime(duration)}"
 
 /** The sidebar's line under a playlist's name: its length, with "✓ done" once every text was heard. */
 private fun listFacts(summary: PlaylistSummary): String =
     playlistFacts(summary.playlist, summary.duration) + if (summary.playlist.isComplete) " · " + tr("✓ done") else ""
 
-/** How far listening has got: "2 of 5 played · ~3 min left", "1 text · ✓ done", or the length before it starts. */
+/** How far listening has got: "2 of 5 played · ~3 min left", "1 track · ✓ done", or the length before it starts. */
 internal fun progressFacts(playlist: Playlist, duration: Duration, remaining: Duration): String = when {
-    playlist.isComplete -> textCount(playlist.items.size) + " · " + tr("✓ done")
+    playlist.isComplete -> trackCount(playlist.items.size) + " · " + tr("✓ done")
     playlist.finishedCount > 0 || playlist.position != null ->
         trPlural(playlist.items.size, "{1} of {0} played", "{1} of {0} played", playlist.finishedCount) + " · " + tr("{0} left", listeningTime(remaining))
     else -> playlistFacts(playlist, duration)

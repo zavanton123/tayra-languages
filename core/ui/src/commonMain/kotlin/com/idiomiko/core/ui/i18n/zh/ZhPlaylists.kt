@@ -104,4 +104,5 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Shuffle" to "随机播放",
     "Now playing" to "正在播放",
     "Open the queue" to "打开队列",
+    "{0} tracks" to "{0} 个曲目",
 )

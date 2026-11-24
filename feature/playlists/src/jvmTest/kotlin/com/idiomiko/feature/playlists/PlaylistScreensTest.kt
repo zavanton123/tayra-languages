@@ -120,7 +120,7 @@ class PlaylistScreensTest {
         onNodeWithTag("playlist-$morning").assertIsSelected()
         onNodeWithTag("playing-$morning", useUnmergedTree = true).assertExists()
         onNodeWithText("Short stories").assertExists()
-        onNodeWithText("1 text · ~1 min · ✓ done").assertExists()
+        onNodeWithText("1 track · ~1 min · ✓ done").assertExists()
         onNodeWithTag("playlist-facts").assertTextContains("2 of 5 played", substring = true)
         onNodeWithTag("playlist-facts").assertTextContains("3 lessons, 2 books", substring = true)
         assertEquals(3, onAllNodes(hasText("Lesson · Compras e serviços")).fetchSemanticsNodes().size)
@@ -290,7 +290,7 @@ class PlaylistScreensTest {
         waitUntil(timeoutMillis = 5_000) { shown("new-playlist-row") }
         assertTrue(!shown("new-playlist"), "the row under the list makes a playlist, not a button in the bar")
         onNodeWithText("2 of 5 played · ", substring = true).assertExists()
-        onNodeWithText("1 text · ✓ done").assertExists()
+        onNodeWithText("1 track · ✓ done").assertExists()
         onAllNodesWithContentDescription("Play again").fetchSemanticsNodes().size.let { assertEquals(1, it) }
         screenshot("playlists-phone")
 

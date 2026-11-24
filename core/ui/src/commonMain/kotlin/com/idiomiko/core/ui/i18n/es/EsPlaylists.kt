@@ -104,4 +104,5 @@ internal val esPlaylists: Map<String, String> = mapOf(
     "Shuffle" to "Aleatorio",
     "Now playing" to "Reproduciendo ahora",
     "Open the queue" to "Abrir la cola",
+    "{0} tracks" to "{0} pista|{0} pistas",
 )
