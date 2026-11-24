@@ -15,6 +15,8 @@ import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.performMouseInput
+import androidx.compose.ui.test.percentOffset
+import androidx.compose.ui.test.click
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -91,6 +93,12 @@ class PlayerScreensTest {
         assertTrue(card.bottom - progress.bottom < 100f, "the progress sits at the bottom: $progress in $card")
         screenshot("player")
 
+        // The card's bar steps through the sentences with the wheel.
+        onNodeWithTag("card-seek").performMouseInput { moveTo(center); scroll(1f) }
+        until { data.player.state.value.sentence == 1 }
+        onNodeWithTag("card-seek").performMouseInput { moveTo(center); scroll(-1f) }
+        until { data.player.state.value.sentence == 0 }
+
         // On the player, the bar's text goes back to the text in the reader.
         onNodeWithTag("back-to-text").assertDoesNotExist()
         onNodeWithTag("open-text").performClick()
@@ -112,6 +120,9 @@ class PlayerScreensTest {
         until { data.player.state.value.itemId == fourth && data.player.state.value.status == PlayerStatus.PLAYING }
         onNodeWithTag("repeat").performClick()
         until { data.player.state.value.repeat == com.idiomiko.core.domain.playlists.RepeatMode.ALL }
+        // A click on the card's bar moves to that place in the text.
+        onNodeWithTag("card-seek").performMouseInput { click(percentOffset(0.8f, 0.5f)) }
+        until { data.player.state.value.textProgress > 0.5f }
         assertTrue(id > 0)
     }
 

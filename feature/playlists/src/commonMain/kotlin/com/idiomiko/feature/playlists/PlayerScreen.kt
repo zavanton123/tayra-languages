@@ -1,5 +1,10 @@
 package com.idiomiko.feature.playlists
 
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.input.pointer.PointerEventType
+import com.idiomiko.core.domain.playlists.PlaylistPlayer
+import com.idiomiko.core.ui.components.AppSlider
+import androidx.compose.runtime.remember
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -65,7 +70,6 @@ import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.ProgressTrack
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SecondaryButton
@@ -233,11 +237,35 @@ private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
                         Text(tr("{0} of {1}", p.sentence + 1, p.sentences.size), Modifier.weight(1f).testTag("sentence-progress"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         Text("${clockTime(state.elapsed)} / ${clockTime(state.total)}", Modifier.testTag("text-time"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                     }
-                    ProgressTrack((p.sentence + 1).toFloat() / p.sentences.size, colors.primary, Modifier.fillMaxWidth(), height = AppSizes.track)
+                    // The place in the text, to drag or click to, as the bar's; the wheel steps a sentence at a time.
+                    var dragging by remember { mutableStateOf<Float?>(null) }
+                    AppSlider(
+                        value = dragging ?: p.textProgress,
+                        onValueChange = { dragging = it },
+                        valueRange = 0f..1f,
+                        onValueChangeFinished = { dragging?.let(player::seek); dragging = null },
+                        modifier = Modifier.fillMaxWidth().wheelThroughSentences(player).testTag("card-seek"),
+                    )
                 }
                 AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous sentence"), onClick = player::previousSentence, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("previous-sentence"))
                 AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next sentence"), onClick = player::nextSentence, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("next-sentence"))
             }
+        }
+    }
+}
+
+/** Turns the wheel, or a two-finger swipe, into a sentence back or on per notch. */
+private fun Modifier.wheelThroughSentences(player: PlaylistPlayer): Modifier = pointerInput(player) {
+    var turned = 0f
+    awaitPointerEventScope {
+        while (true) {
+            val event = awaitPointerEvent()
+            if (event.type != PointerEventType.Scroll) continue
+            val delta = event.changes.fold(0f) { sum, change -> sum + change.scrollDelta.y + change.scrollDelta.x }
+            event.changes.forEach { it.consume() }
+            turned += delta
+            while (turned >= 1f) { player.nextSentence(); turned -= 1f }
+            while (turned <= -1f) { player.previousSentence(); turned += 1f }
         }
     }
 }
