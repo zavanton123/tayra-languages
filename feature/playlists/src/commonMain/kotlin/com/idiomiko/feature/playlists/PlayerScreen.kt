@@ -143,7 +143,7 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
                     Box(Modifier.fillMaxWidth().weight(1f).cardSurface(AppShapes.large).padding(AppSpacing.l).testTag("now-playing-card")) {
                         NowPlaying(state, viewModel, onNavigate, fill = true)
                     }
-                    // The card shows the place in the text; the queue opens from its icon at the row's end.
+                    // The card shows the place in the text; the queue opens from its icon at the row's start.
                     PlayerControls(state, viewModel, Modifier.fillMaxWidth(), showSeek = false) {
                         AppIconButton(AppIcons.QueueMusic, contentDescription = tr("Open the queue"), onClick = { queueOpen = true }, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.testTag("open-queue"))
                     }

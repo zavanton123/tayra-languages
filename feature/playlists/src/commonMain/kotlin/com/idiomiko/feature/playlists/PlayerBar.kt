@@ -152,7 +152,7 @@ private fun CloseButton(viewModel: PlayerViewModel, onClosed: () -> Unit = {}) {
 /**
  * Shuffle, previous, play or pause, next and repeat, then the place in the text with its seek bar
  * and the speed; on one row when [wide], else the buttons above the seek bar. Without [showSeek] a wide
- * row has the buttons in its middle and the speed at its end, a narrow one the speed first and [trailing] last.
+ * row has the buttons in its middle and the speed at its end, a narrow one [leading] first.
  */
 @Composable
 internal fun PlayerControls(
@@ -161,7 +161,7 @@ internal fun PlayerControls(
     modifier: Modifier = Modifier,
     wide: Boolean = false,
     showSeek: Boolean = true,
-    trailing: @Composable () -> Unit = {},
+    leading: @Composable () -> Unit = {},
 ) {
     val colors = MaterialTheme.colorScheme
     val p = state.player
@@ -234,13 +234,13 @@ internal fun PlayerControls(
             seek(Modifier.weight(1f))
         }
     } else if (!showSeek) {
-        // A phone's player: the speed, the buttons in the middle and [trailing] on one row.
+        // A phone's player: [leading], the buttons in the middle and the speed on one row.
         Row(modifier, verticalAlignment = Alignment.CenterVertically) {
-            speed()
+            leading()
             Spacer(Modifier.weight(1f))
             buttons()
             Spacer(Modifier.weight(1f))
-            trailing()
+            speed()
         }
     } else {
         Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
