@@ -120,7 +120,7 @@ fun AppNavHost(openCourses: Int = 0) {
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
     val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
-        !destination.hasRoute<Route.ChooseLanguage>() && !destination.hasRoute<Route.Flashcards>()
+        !destination.hasRoute<Route.ChooseLanguage>() && !destination.hasRoute<Route.Flashcards>() && !destination.hasRoute<Route.Player>()
     var more by remember { mutableStateOf(false) }
     // Pages that start a practice show it in this dialog on windows wider than a phone.
     val practiceDialog = remember<@Composable (Route, () -> Unit) -> Unit>(navController) {
