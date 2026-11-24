@@ -528,6 +528,35 @@ object AppIcons {
         }
     }
 
+    /** The phone's Flashcards sheet: the design's own icons for its pages, drawn as the bottom bar's. */
+    val FlashcardsReview: ImageVector by lazy {
+        navIcon("FlashcardsReview") {
+            stroke("M7.5 6H5.8a2.3 2.3 0 0 0-2.3 2.3v9.9a2.3 2.3 0 0 0 2.3 2.3h8.4a2.3 2.3 0 0 0 2.3-2.3V18", cap = StrokeCap.Round)
+            stroke("M9.8 3.5h8.4a2.3 2.3 0 0 1 2.3 2.3v9.9a2.3 2.3 0 0 1 -2.3 2.3h-8.4a2.3 2.3 0 0 1 -2.3 -2.3v-9.9a2.3 2.3 0 0 1 2.3 -2.3Z")
+            stroke("M11.2 10.1a3.4 3.4 0 0 1 5.8-1.2", cap = StrokeCap.Round)
+            stroke("M17 6.8v2.5h-2.5M16.8 11.7A3.4 3.4 0 0 1 11 13", cap = StrokeCap.Round, join = StrokeJoin.Round)
+            stroke("M11 15.1v-2.5h2.5", cap = StrokeCap.Round, join = StrokeJoin.Round)
+        }
+    }
+
+    val FlashcardsBrowse: ImageVector by lazy {
+        navIcon("FlashcardsBrowse") {
+            stroke("M5 3.5h3.5a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-3.5a2 2 0 0 1 -2 -2v-3.5a2 2 0 0 1 2 -2Z")
+            stroke("M15.5 3.5h3.5a2 2 0 0 1 2 2v3.5a2 2 0 0 1 -2 2h-3.5a2 2 0 0 1 -2 -2v-3.5a2 2 0 0 1 2 -2Z")
+            stroke("M5 14h3.5a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-3.5a2 2 0 0 1 -2 -2v-2.5a2 2 0 0 1 2 -2Z")
+            stroke("M15.5 14h3.5a2 2 0 0 1 2 2v2.5a2 2 0 0 1 -2 2h-3.5a2 2 0 0 1 -2 -2v-2.5a2 2 0 0 1 2 -2Z")
+            fill("m17.3 5.7.6 1.2 1.2.6-1.2.6-.6 1.2-.6-1.2-1.2-.6 1.2-.6z")
+        }
+    }
+
+    val FlashcardsStatistics: ImageVector by lazy {
+        navIcon("FlashcardsStatistics") {
+            stroke("M6 3.5h12a3 3 0 0 1 3 3v11a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3Z")
+            stroke("M6.5 17.2h11", cap = StrokeCap.Round)
+            fill("M8.2 12.5h0.4a1.2 1.2 0 0 1 1.2 1.2v2.3a1.2 1.2 0 0 1 -1.2 1.2h-0.4a1.2 1.2 0 0 1 -1.2 -1.2v-2.3a1.2 1.2 0 0 1 1.2 -1.2ZM12.1 9.4h0.4a1.2 1.2 0 0 1 1.2 1.2v5.4a1.2 1.2 0 0 1 -1.2 1.2h-0.4a1.2 1.2 0 0 1 -1.2 -1.2v-5.4a1.2 1.2 0 0 1 1.2 -1.2ZM16 6.5h0.4a1.2 1.2 0 0 1 1.2 1.2v8.3a1.2 1.2 0 0 1 -1.2 1.2h-0.4a1.2 1.2 0 0 1 -1.2 -1.2v-8.3a1.2 1.2 0 0 1 1.2 -1.2Z")
+        }
+    }
+
     /** The Idiomiko monkey in its own colours (tools/logo/idiomiko-monkey.svg); draw it untinted. */
     val Logo: ImageVector by lazy {
         ImageVector.Builder(name = "Logo", defaultWidth = 24.dp, defaultHeight = 24.dp, viewportWidth = 1237.9f, viewportHeight = 1237.9f)

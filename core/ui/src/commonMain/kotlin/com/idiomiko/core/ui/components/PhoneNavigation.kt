@@ -47,9 +47,9 @@ internal val readPages = listOf(
 
 /** The flashcard pages, the same on the wide bar's Flashcards menu and the phone's Flashcards sheet. */
 internal val flashcardPages = listOf(
-    MoreEntry("Review flashcards", AppIcons.Style, Route.Flashcards()),
-    MoreEntry("Browse flashcards", AppIcons.ViewList, Route.BrowseFlashcards()),
-    MoreEntry("Flashcard statistics", AppIcons.BarChart, Route.FlashcardStats),
+    MoreEntry("Review flashcards", AppIcons.FlashcardsReview, Route.Flashcards()),
+    MoreEntry("Browse flashcards", AppIcons.FlashcardsBrowse, Route.BrowseFlashcards()),
+    MoreEntry("Flashcard statistics", AppIcons.FlashcardsStatistics, Route.FlashcardStats),
 )
 
 /** The areas whose screens belong to Read. */
