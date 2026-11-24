@@ -3,11 +3,7 @@ package com.idiomiko.core.ui.i18n.zh
 /** Shared words, the language names, and the app's frame: top bar, components, themes and the platform launchers. */
 internal val zhCommon: Map<String, String> = mapOf(
     // PhoneLanguages.kt
-    "Choose what you learn and the language Idiomiko uses with you." to "选择你要学的语言，以及 Idiomiko 和你交流所用的语言。",
     "Meanings" to "释义",
-    "Books, courses, vocabulary and flashcards." to "书籍、课程、词汇和闪卡。",
-    "Translations, definitions and examples." to "翻译、释义和例句。",
-    "Menus, buttons and messages." to "菜单、按钮和提示信息。",
     // PhoneNavigation.kt
     "Watch" to "观看",
     "Words and progress" to "词汇与进度",

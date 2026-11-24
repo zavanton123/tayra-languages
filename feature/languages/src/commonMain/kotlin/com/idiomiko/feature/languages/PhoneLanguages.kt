@@ -66,14 +66,13 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Text(tr("Choose what you learn and the language Idiomiko uses with you."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-            PhoneLanguageCard(tr("Learning"), tr("I'm learning"), tr("Books, courses, vocabulary and flashcards."), highlighted = true) {
+            PhoneLanguageCard(tr("Learning"), tr("I'm learning"), highlighted = true) {
                 PhoneLanguageRow(learning?.current?.label, tag = "learning-language") { learningSheet = true }
             }
-            PhoneLanguageCard(tr("Meanings"), tr("Show meanings in"), tr("Translations, definitions and examples.")) {
+            PhoneLanguageCard(tr("Meanings"), tr("Show meanings in")) {
                 PhoneLanguageRow(native.name, tag = "native-language") { nativeSheet = true }
             }
-            PhoneLanguageCard(tr("App"), tr("Interface language"), tr("Menus, buttons and messages.")) {
+            PhoneLanguageCard(tr("App"), tr("Interface language")) {
                 PhoneLanguageRow(LanguageCatalog.nativeOption(ui.code).name, label = ui.name, tag = "interface-language") { uiSheet = true }
             }
             if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth())
@@ -108,9 +107,9 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
     }
 }
 
-/** A small caps label, the title, the row, and what the choice is used for; the learning card is [highlighted]. */
+/** A small caps label, the title and the row; the learning card is [highlighted]. */
 @Composable
-private fun PhoneLanguageCard(label: String, title: String, description: String, highlighted: Boolean = false, row: @Composable () -> Unit) {
+private fun PhoneLanguageCard(label: String, title: String, highlighted: Boolean = false, row: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.card
     Column(
@@ -124,8 +123,6 @@ private fun PhoneLanguageCard(label: String, title: String, description: String,
         Text(title, style = AppText.sectionTitle)
         Spacer(Modifier.height(AppSpacing.l))
         row()
-        Spacer(Modifier.height(AppSpacing.m))
-        Text(description, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
 

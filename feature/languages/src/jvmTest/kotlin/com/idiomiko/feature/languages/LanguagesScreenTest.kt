@@ -101,7 +101,7 @@ class LanguagesScreenTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Show meanings in")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Language setup").assertDoesNotExist()
-        onNodeWithText("Books, courses, vocabulary and flashcards.").assertExists()
+        onNodeWithText("Books, courses, vocabulary and flashcards.").assertDoesNotExist()
         System.getenv("LANGUAGES_SCREENSHOT")?.let { path -> waitForIdle(); ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", File(path.replace(".png", "-phone.png"))) }
 
         onNodeWithTag("learning-language").performClick()

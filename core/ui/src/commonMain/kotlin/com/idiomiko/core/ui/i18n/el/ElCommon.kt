@@ -3,11 +3,7 @@ package com.idiomiko.core.ui.i18n.el
 /** Shared words, the language names, and the app's frame: top bar, components, themes and the platform launchers. */
 internal val elCommon: Map<String, String> = mapOf(
     // PhoneLanguages.kt
-    "Choose what you learn and the language Idiomiko uses with you." to "Επιλέξτε τι μαθαίνετε και σε ποια γλώσσα σας μιλά το Idiomiko.",
     "Meanings" to "Σημασίες",
-    "Books, courses, vocabulary and flashcards." to "Βιβλία, μαθήματα, λεξιλόγιο και κάρτες.",
-    "Translations, definitions and examples." to "Μεταφράσεις, ορισμοί και παραδείγματα.",
-    "Menus, buttons and messages." to "Μενού, κουμπιά και μηνύματα.",
     // PhoneNavigation.kt
     "Watch" to "Παρακολούθηση",
     "Words and progress" to "Λέξεις και πρόοδος",
