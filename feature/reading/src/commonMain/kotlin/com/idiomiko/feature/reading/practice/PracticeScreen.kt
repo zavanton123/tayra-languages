@@ -308,11 +308,9 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
             ) {
                 Column {
                     // On a phone the bar carries the title; in a dialog the title has the way out beside it.
-                    if (!compact) Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
                         Text(tr("Practice"), Modifier.weight(1f), style = AppText.screenTitle)
                         if (onClose != null) {
-                            // The reader's stage is checked from the result, once the practice is done.
-                            if (state.finished) LocalStageCheck.current?.invoke(onClose)
                             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-practice-dialog"), style = IconButtonStyle.Tonal)
                         }
                     }
@@ -350,6 +348,8 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
             }
         }
         EdgeScrollbar(scroll)
+        // Once the practice is done, the reader's stage is checked from the dialog's lower right corner.
+        if (state.finished && onClose != null) LocalStageCheck.current?.let { check -> Box(Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl)) { check(onClose) } }
     }
 }
 

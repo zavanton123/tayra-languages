@@ -1,5 +1,6 @@
 package com.idiomiko.feature.reading
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxHeight
@@ -12,6 +13,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.input.key.Key
 import androidx.compose.ui.platform.testTag
@@ -216,7 +218,7 @@ class PracticeScreenTest {
             IdiomikoTheme {
                 ProvideWindowWidth {
                     val state by viewModel.state.collectAsState()
-                    CompositionLocalProvider(LocalStageCheck provides { onClose -> Box(Modifier.size(60.dp).testTag("stage-check").clickable(onClick = onClose)) }) {
+                    CompositionLocalProvider(LocalStageCheck provides { onClose -> Box(Modifier.size(60.dp).background(Color.Green).testTag("stage-check").clickable(onClick = onClose)) }) {
                         AppDialogSurface(onDismissRequest = {}, modifier = Modifier.fillMaxHeight(), maxWidth = Dp.Infinity, color = MaterialTheme.colorScheme.surfaceContainerLow) {
                             if (!state.loading) PracticeContent(if (finished) state.copy(finished = true) else state, PracticeActions(onChoose = viewModel::choose, onNext = viewModel::next, onSpeak = {}), onClose = { closed++ })
                         }

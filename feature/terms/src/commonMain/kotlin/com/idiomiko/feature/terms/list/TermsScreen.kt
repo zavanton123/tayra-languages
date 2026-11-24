@@ -100,7 +100,6 @@ import com.idiomiko.core.ui.files.saveBinaryFile
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
-import com.idiomiko.core.ui.navigation.LocalStageCheck
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.navigation.rememberPracticeOpener
 import com.idiomiko.core.ui.state.CollectEvents
@@ -312,13 +311,12 @@ internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Un
     }
 }
 
-/** The header of the list shown over another screen: its own title, the Anki export of what it lists, the reader's stage check, and a way to close. */
+/** The header of the list shown over another screen: its own title, the Anki export of what it lists, and a way to close. */
 @Composable
 private fun DialogHeader(title: String, subtitle: String?, exporting: String?, sending: Boolean, onExport: () -> Unit, onClose: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(title, subtitle) {
             SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
-            LocalStageCheck.current?.invoke(onClose)
             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-terms-dialog"), style = IconButtonStyle.Tonal)
         }
     }

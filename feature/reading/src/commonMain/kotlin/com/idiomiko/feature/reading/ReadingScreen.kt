@@ -482,12 +482,12 @@ fun ReadingScreen(
     lessonVocabulary?.let { ids ->
         // Statuses changed in the list show in the text once it closes.
         val close = { lessonVocabulary = null; viewModel.refresh() }
-        CompositionLocalProvider(LocalStageCheck provides stageCheck(state, ReadingStage.WORDS, viewModel::checkStage)) {
-            AppDialogSurface(
-                onDismissRequest = close,
-                modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("lesson-vocabulary-dialog"),
-                maxWidth = Dp.Infinity,
-            ) {
+        AppDialogSurface(
+            onDismissRequest = close,
+            modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("lesson-vocabulary-dialog"),
+            maxWidth = Dp.Infinity,
+        ) {
+            Box(Modifier.fillMaxSize()) {
                 TermsScreen(
                     termIds = ids,
                     onNavigate = { route -> close(); navigateFromReader(route) },
@@ -496,6 +496,8 @@ fun ReadingScreen(
                     title = if (state.lesson != null) tr("Lesson vocabulary") else tr("Page vocabulary"),
                     subtitle = state.book?.title,
                 )
+                // The stage's check stays in the lower right corner, over the list as it scrolls.
+                stageCheck(state, ReadingStage.WORDS, viewModel::checkStage)?.let { check -> Box(Modifier.align(Alignment.BottomEnd).padding(AppSpacing.xxl)) { check(close) } }
             }
         }
     }

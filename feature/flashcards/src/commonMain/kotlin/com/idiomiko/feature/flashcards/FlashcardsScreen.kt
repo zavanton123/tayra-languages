@@ -217,15 +217,18 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
     Scaffold(
         topBar = {
             if (onClose != null) {
-                Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     Text(tr("Flashcards"), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
-                    LocalStageCheck.current?.invoke(onClose)
                     AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-flashcards-dialog"), style = IconButtonStyle.Tonal)
                 }
             } else {
                 // A phone reviews full screen, without the tabs, so its bar has the way out.
                 AppTopBar(title = tr("Flashcards"), onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.FLASHCARDS)
             }
+        },
+        // Once the day's cards are done, the reader's stage is checked from the dialog's lower right corner.
+        floatingActionButton = {
+            if (onClose != null && !state.loading && !state.preparingAudio && state.card == null) LocalStageCheck.current?.invoke(onClose)
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
