@@ -88,7 +88,7 @@ class VocabularySettingsScreenTest {
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()
         // The exact number of words starts folded away.
         assertTrue(onAllNodesWithTag("level-slider").fetchSemanticsNodes().isEmpty())
-        onNodeWithText("Word frequency").assertExists()
+        onNodeWithText("Word frequency").assertDoesNotExist()
         screenshot("desktop-saved-b1")
     }
 
@@ -152,11 +152,11 @@ class VocabularySettingsScreenTest {
         awaitText("Your level: 500 words, between A1 and A2")
     }
 
-    /** A phone has the levels one to a row, the line under them, one button to set the level and the way to the word frequency page. */
+    /** A phone has the levels one to a row, the line under them and one button to set the level. */
     @Test
     fun aPhoneSetsTheLevelFromItsOwnPage() = runDesktopComposeUiTest(width = 400, height = 1400) {
         show()
-        onNodeWithText("Explore word frequency").assertExists()
+        onNodeWithText("Explore word frequency").assertDoesNotExist()
         val starter = onNodeWithTag("level-card-Starter").fetchSemanticsNode().boundsInRoot
         assertTrue(onNodeWithTag("level-card-A1").fetchSemanticsNode().boundsInRoot.top >= starter.bottom, "one level to a row")
         onNodeWithTag("set-vocabulary-level").assertIsNotEnabled()

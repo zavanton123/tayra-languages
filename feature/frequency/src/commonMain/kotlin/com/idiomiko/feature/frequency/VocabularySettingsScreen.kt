@@ -43,7 +43,6 @@ import com.idiomiko.core.ui.components.SettingsSection
 import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ContentCard
-import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
@@ -91,7 +90,6 @@ fun VocabularySettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit = {
                     state,
                     onPick = viewModel::pick,
                     onSave = viewModel::save,
-                    onWordFrequency = { onNavigate(Route.WordFrequency) },
                     onBackToSettings = { onNavigate(Route.Settings) },
                 )
             }
@@ -104,7 +102,6 @@ internal fun VocabularySettingsContent(
     state: VocabularySettingsUiState,
     onPick: (Int) -> Unit,
     onSave: () -> Unit,
-    onWordFrequency: () -> Unit,
     onBackToSettings: (() -> Unit)? = null,
 ) {
     var confirming by remember { mutableStateOf(false) }
@@ -136,8 +133,6 @@ internal fun VocabularySettingsContent(
                 AppSpinner(size = SpinnerSize.Small)
                 Text(tr("Saving…"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            Spacer(Modifier.weight(1f))
-            LinkText(tr("Word frequency"), onWordFrequency)
         }
     }
     val picked = state.picked

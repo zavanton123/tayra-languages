@@ -13,7 +13,6 @@ internal val zhFrequency: Map<String, String> = mapOf(
 
     // VocabularyLevelDialogs.kt
     "Set vocabulary level" to "设置词汇量水平",
-    "Explore word frequency" to "浏览词频",
     "Set your vocabulary level to {0}?" to "将词汇量水平设为 {0}？",
     "Change vocabulary level from {0} to {1}?" to "将词汇量水平从 {0} 改为 {1}？",
     "No words are marked as known; you can raise the level whenever you like." to "不会将任何单词标为已掌握；你随时可以提高水平。",

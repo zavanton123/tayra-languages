@@ -13,7 +13,6 @@ internal val elFrequency: Map<String, String> = mapOf(
 
     // VocabularyLevelDialogs.kt
     "Set vocabulary level" to "Ορισμός επιπέδου λεξιλογίου",
-    "Explore word frequency" to "Εξερεύνηση συχνότητας λέξεων",
     "Set your vocabulary level to {0}?" to "Ορισμός του επιπέδου λεξιλογίου σας σε {0};",
     "Change vocabulary level from {0} to {1}?" to "Αλλαγή επιπέδου λεξιλογίου από {0} σε {1};",
     "No words are marked as known; you can raise the level whenever you like." to "Καμία λέξη δεν σημειώνεται ως γνωστή· μπορείτε να ανεβάσετε το επίπεδο όποτε θέλετε.",

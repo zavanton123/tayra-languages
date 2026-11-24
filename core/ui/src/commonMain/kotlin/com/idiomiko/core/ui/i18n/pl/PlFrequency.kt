@@ -13,7 +13,6 @@ internal val plFrequency: Map<String, String> = mapOf(
 
     // VocabularyLevelDialogs.kt
     "Set vocabulary level" to "Ustaw poziom słownictwa",
-    "Explore word frequency" to "Frekwencja słów",
     "Set your vocabulary level to {0}?" to "Ustawić poziom słownictwa na {0}?",
     "Change vocabulary level from {0} to {1}?" to "Zmienić poziom słownictwa z {0} na {1}?",
     "No words are marked as known; you can raise the level whenever you like." to "Żadne słowo nie zostanie oznaczone jako znane; poziom możesz podnieść w dowolnej chwili.",

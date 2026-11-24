@@ -1,16 +1,11 @@
 package com.idiomiko.feature.frequency
 
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.KeyboardArrowRight
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -19,23 +14,18 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import com.idiomiko.core.ui.components.AppCard
-import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.ScrollColumn
-import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
-import com.idiomiko.core.ui.theme.AppShapes
-import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
@@ -81,16 +71,6 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
                 modifier = Modifier.fillMaxWidth().testTag("set-vocabulary-level"),
                 size = ButtonSize.Large,
             )
-            Row(
-                Modifier.fillMaxWidth().cardSurface(AppShapes.card)
-                    .clickable { onNavigate(Route.WordFrequency) }.padding(AppSpacing.l),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
-            ) {
-                Icon(AppIcons.ViewList, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
-                Text(tr("Explore word frequency"), Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
-                Icon(Icons.Default.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
-            }
         }
     }
     val picked = state.picked

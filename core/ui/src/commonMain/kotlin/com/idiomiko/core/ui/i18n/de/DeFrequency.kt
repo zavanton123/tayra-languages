@@ -13,7 +13,6 @@ internal val deFrequency: Map<String, String> = mapOf(
 
     // VocabularyLevelDialogs.kt
     "Set vocabulary level" to "Wortschatzniveau festlegen",
-    "Explore word frequency" to "Worthäufigkeit erkunden",
     "Set your vocabulary level to {0}?" to "Wortschatzniveau auf {0} festlegen?",
     "Change vocabulary level from {0} to {1}?" to "Wortschatzniveau von {0} auf {1} ändern?",
     "No words are marked as known; you can raise the level whenever you like." to "Es werden keine Wörter als bekannt markiert; du kannst das Niveau jederzeit erhöhen.",
