@@ -425,7 +425,7 @@ object AppIcons {
         }
     }
 
-    /** The phone's bottom bar: the design's own tab icons (Home, Read, Playlists, Flashcards, More), drawn in strokes of 2.1 on a 24 grid. */
+    /** The phone's bottom bar: the design's own tab icons (Home, Read, Playlists, [Flashcards], More), drawn in strokes of 2.1 on a 24 grid. */
     private fun navIcon(name: String, draw: NavIconScope.() -> Unit): ImageVector = materialIcon(name = name) { NavIconScope(this).draw(); this }
 
     private class NavIconScope(private val builder: ImageVector.Builder) {
@@ -457,14 +457,6 @@ object AppIcons {
             stroke("M5.8 9a2.2 2.2 0 1 0 4.4 0a2.2 2.2 0 1 0 -4.4 0Z", width = 1.7f)
             fill("m7.5 7.9 1.9 1.1-1.9 1.1z")
             stroke("M12.3 8.2h5M12.3 11h3.4M6 15.2h12", cap = StrokeCap.Round)
-        }
-    }
-
-    val NavFlashcards: ImageVector by lazy {
-        navIcon("NavFlashcards") {
-            stroke("m6.1 6.2 10.7-2.1a2 2 0 0 1 2.3 1.6l2 10.1a2 2 0 0 1-1.6 2.3L8.8 20.2a2 2 0 0 1-2.3-1.6l-2-10.1a2 2 0 0 1 1.6-2.3Z", join = StrokeJoin.Round)
-            stroke("M4.8 7.1 3.7 7.6a2 2 0 0 0-1 2.6l4.2 9.4a2 2 0 0 0 2.6 1l1.1-.5", cap = StrokeCap.Round)
-            fill("m13.2 8.1.8 1.7 1.7.8-1.7.8-.8 1.7-.8-1.7-1.7-.8 1.7-.8z")
         }
     }
 
@@ -555,7 +547,7 @@ object AppIcons {
         }
     }
 
-    /** The phone's More sheet: the design's own icons for its pages, drawn as the bottom bar's. Its flashcard settings take [NavFlashcards]. */
+    /** The phone's More sheet: the design's own icons for its pages, drawn as the bottom bar's. Its flashcard settings take [Flashcards]. */
     val MoreVocabulary: ImageVector by lazy {
         navIcon("MoreVocabulary") {
             stroke("M6 4h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-10a3 3 0 0 1 3 -3Z")
@@ -665,15 +657,16 @@ object AppIcons {
         }
     }
 
-    /** The reader's stages: the design's own icons, drawn as the bottom bar's. The quiz takes [ReadCourses], reading aloud [MenuBook]. */
-    val StageFlashcards: ImageVector by lazy {
-        navIcon("StageFlashcards") {
+    /** The flashcards, wherever the bottom bar, the More sheet and the reader show them: two cards with a sparkle. */
+    val Flashcards: ImageVector by lazy {
+        navIcon("Flashcards") {
             stroke("M7.5 6H5.8a2.3 2.3 0 0 0-2.3 2.3v9.9a2.3 2.3 0 0 0 2.3 2.3h8.4a2.3 2.3 0 0 0 2.3-2.3V18", cap = StrokeCap.Round)
             stroke("M9.8 3.5h8.4a2.3 2.3 0 0 1 2.3 2.3v9.9a2.3 2.3 0 0 1 -2.3 2.3h-8.4a2.3 2.3 0 0 1 -2.3 -2.3v-9.9a2.3 2.3 0 0 1 2.3 -2.3Z")
             fill("m14 7.2.9 2 2 .9-2 .9-.9 2-.9-2-2-.9 2-.9z")
         }
     }
 
+    /** The reader's stages: the design's own icons, drawn as the bottom bar's. The quiz takes [ReadCourses], the flashcards [Flashcards], reading aloud [MenuBook]. */
     val StageListen: ImageVector by lazy {
         navIcon("StageListen") {
             stroke("M4 12v-1a8 8 0 0 1 16 0v1", cap = StrokeCap.Round)

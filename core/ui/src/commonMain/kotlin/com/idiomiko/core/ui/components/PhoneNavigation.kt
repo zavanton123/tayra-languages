@@ -73,7 +73,7 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () ->
         PhoneTab(NavSection.HOME, AppIcons.NavHome, area) { onNavigate(Route.Home) }
         PhoneTab(NavSection.BOOKS, AppIcons.NavRead, area, label = tr("Read"), tag = "READ") { sheet = NavSection.BOOKS }
         PhoneTab(NavSection.PLAYLISTS, AppIcons.NavPlaylists, area) { onNavigate(Route.Playlists) }
-        PhoneTab(NavSection.FLASHCARDS, AppIcons.NavFlashcards, area, badge = due) { sheet = NavSection.FLASHCARDS }
+        PhoneTab(NavSection.FLASHCARDS, AppIcons.Flashcards, area, badge = due) { sheet = NavSection.FLASHCARDS }
         PhoneTab(NavSection.SETTINGS, AppIcons.NavMore, area, label = tr("More"), onClick = onMore)
     }
     val go: (Route) -> Unit = { sheet = null; onNavigate(it) }
@@ -173,7 +173,7 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
             MoreEntry("General", AppIcons.MoreGeneral, Route.Settings),
             MoreEntry("Goals", AppIcons.MoreGoals, Route.Goals),
             MoreEntry("Languages", AppIcons.MoreLanguages, Route.Languages),
-            MoreEntry("Flashcards", AppIcons.NavFlashcards, Route.FlashcardSettings, tag = "Flashcard settings"),
+            MoreEntry("Flashcards", AppIcons.Flashcards, Route.FlashcardSettings, tag = "Flashcard settings"),
             MoreEntry("Vocabulary", AppIcons.MoreVocabularySettings, Route.VocabularySettings, tag = "Vocabulary settings"),
             MoreEntry("Backups", AppIcons.MoreBackups, Route.Backups),
             MoreEntry("Clear data", AppIcons.MoreClearData, Route.ClearData),
