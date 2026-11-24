@@ -61,7 +61,6 @@ import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.Crumb
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
@@ -136,7 +135,6 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
                 ScreenHeader(
                     playlist.name,
                     playlistFacts(playlist, state.duration),
-                    crumbs = if (compact) emptyList() else listOf(Crumb(tr("Playlists")) { onNavigate(Route.Playlists) }, Crumb(playlist.name) { onNavigate(Route.Playlist(playlist.id)) }),
                 )
             }
             if (compact) {
