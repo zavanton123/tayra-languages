@@ -13,9 +13,22 @@ import com.idiomiko.core.domain.repository.TermListSort
 import com.idiomiko.core.domain.repository.TermRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
 import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
 
 /** What removing a language deletes: its texts, its saved words, and the bytes its downloads take. */
 data class LanguageRemoval(val texts: Int, val words: Int, val downloadBytes: Long)
+
+/** A language being removed in the background, under its English [name]; once [done], with what could not be removed. */
+data class RemovalJob(val languageId: Long, val name: String, val done: Boolean = false, val problems: List<String> = emptyList())
 
 /**
  * Removes a language being learned with everything kept for it: its books, lessons, courses,
@@ -36,7 +49,39 @@ class LanguageRemovalService(
     private val dictionaries: DictionaryService,
     private val speech: LocalSpeech,
     private val translation: LocalTranslation,
+    private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default),
 ) {
+    private val _jobs = MutableStateFlow<List<RemovalJob>>(emptyList())
+
+    /** The removals running in the background, and those finished that the app has not said so of yet. */
+    val jobs: StateFlow<List<RemovalJob>> = _jobs.asStateFlow()
+
+    // One removal at a time: two languages can share downloads, and their packs are refreshed and removed in turn.
+    private val running = Mutex()
+
+    /** Removes the language with [languageId] in the background, outliving the screen that asked; see [jobs]. */
+    fun startRemoval(languageId: Long, name: String) {
+        if (_jobs.value.any { it.languageId == languageId && !it.done }) return
+        _jobs.update { jobs -> jobs.filter { it.languageId != languageId } + RemovalJob(languageId, name) }
+        scope.launch {
+            val problems = running.withLock {
+                try {
+                    remove(languageId)
+                } catch (e: CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    listOf(e.message ?: e.toString())
+                }
+            }
+            _jobs.update { jobs -> jobs.map { if (it.languageId == languageId) it.copy(done = true, problems = problems) else it } }
+        }
+    }
+
+    /** Forgets the finished removal of [languageId], once the app has said it is done. */
+    fun noticed(languageId: Long) {
+        _jobs.update { jobs -> jobs.filterNot { it.languageId == languageId && it.done } }
+    }
+
     /** What removing the language with [languageId] would delete. */
     suspend fun preview(languageId: Long): LanguageRemoval {
         val texts = books.getBooks().count { it.languageId == languageId }

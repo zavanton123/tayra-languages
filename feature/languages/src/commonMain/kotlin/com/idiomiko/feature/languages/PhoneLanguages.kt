@@ -21,6 +21,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -75,7 +76,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
             PhoneLanguageCard(tr("App"), tr("Interface language")) {
                 PhoneLanguageRow(LanguageCatalog.nativeOption(ui.code).name, label = ui.name, tag = "interface-language") { uiSheet = true }
             }
-            if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth())
+            if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth(), viewModel.removals.collectAsStateWithLifecycle().value)
         }
     }
     if (learningSheet && learning != null) {

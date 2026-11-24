@@ -46,6 +46,9 @@ import com.idiomiko.core.domain.service.SpeechVoice
 import com.idiomiko.core.domain.service.TermService
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withTimeout
+import kotlinx.coroutines.flow.first
+import com.idiomiko.core.domain.service.RemovalJob
 import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -146,6 +149,22 @@ class LanguageRemovalServiceTest {
         LocalSpeech(listOf(piper)),
         LocalTranslation(translator),
     )
+
+    /** A removal started from the screen runs on in the background, is listed while it runs, and stays listed as done until the app has said so. */
+    @Test
+    fun aRemovalRunsInTheBackgroundUntilNoticed() = runBlocking<Unit> {
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        bookService.create(BookDraft(languageId = portuguese, title = "Lobo", text = "O lobo dorme."))
+        learning.select(portuguese)
+
+        service.startRemoval(portuguese, "Portuguese")
+        assertEquals("Portuguese", service.jobs.value.single().name)
+        val done = withTimeout(5_000) { service.jobs.first { jobs -> jobs.any { it.done } } }.single()
+        assertEquals(RemovalJob(portuguese, "Portuguese", done = true), done)
+        assertTrue(books.getBooks().isEmpty())
+        service.noticed(portuguese)
+        assertTrue(service.jobs.value.isEmpty())
+    }
 
     @Test
     fun aLanguageGoesWithItsLibraryAndDownloads() = runBlocking<Unit> {

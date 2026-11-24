@@ -4,8 +4,12 @@ import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
 import com.idiomiko.feature.flashcards.FlashcardsDialog
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.media.VideoOpenRequests
+import com.idiomiko.core.domain.service.LanguageRemovalService
 import com.idiomiko.core.domain.service.TranslationLanguageKeeper
 import com.idiomiko.core.ui.components.ToastHost
+import com.idiomiko.core.ui.components.AppDialog
+import com.idiomiko.core.ui.components.QuietButton
+import androidx.compose.material3.Text
 import com.idiomiko.core.ui.components.rememberToastState
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
@@ -207,6 +211,36 @@ fun AppNavHost(openCourses: Int = 0) {
     if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
     SyncPrompt(syncPrompt, onOpenAccount = { navController.navigate(Route.Account) { launchSingleTop = true } })
     TranslationBackupNotice(onBackups = { navController.navigate(Route.Backups) { launchSingleTop = true } })
+    LanguageRemovedNotice()
+}
+
+/**
+ * Says that a language removed in the background is gone, wherever the reader is by then; when some of its
+ * downloads stayed, the toast leads to which, and why.
+ */
+@Composable
+private fun LanguageRemovedNotice() {
+    val removal = koinInject<LanguageRemovalService>()
+    val jobs by removal.jobs.collectAsStateWithLifecycle()
+    val toast = rememberToastState()
+    var problems by remember { mutableStateOf<Pair<String, List<String>>?>(null) }
+    val finished = jobs.firstOrNull { it.done }
+    LaunchedEffect(finished) {
+        val job = finished ?: return@LaunchedEffect
+        val name = tr(job.name)
+        if (job.problems.isEmpty()) toast.show(tr("{0} was removed", name))
+        else toast.show(tr("{0} was removed, but some downloads stayed", name), tr("Details")) { problems = name to job.problems }
+        removal.noticed(job.languageId)
+    }
+    ToastHost(toast)
+    problems?.let { (name, list) ->
+        AppDialog(
+            onDismissRequest = { problems = null },
+            title = { Text(tr("{0} was removed", name)) },
+            text = { Text(tr("Some downloads could not be removed:") + "\n" + list.joinToString("\n")) },
+            confirmButton = { QuietButton(tr("OK"), onClick = { problems = null }) },
+        )
+    }
 }
 
 /** Says that the data was backed up before saved translations were replaced in the new translation language, with the way to the backups. */

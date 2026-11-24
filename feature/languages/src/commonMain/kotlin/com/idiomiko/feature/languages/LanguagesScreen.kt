@@ -82,6 +82,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     // Counts the changes made here, so each one shows "Changes saved" for a moment.
     var changes by remember { mutableIntStateOf(0) }
     val removing by viewModel.removing.collectAsStateWithLifecycle()
+    val removals by viewModel.removals.collectAsStateWithLifecycle()
     removing?.let { RemoveLanguageDialog(it, onConfirm = viewModel::remove, onDismiss = viewModel::dismissRemoval) }
 
     if (compact) {
@@ -154,7 +155,7 @@ fun LanguagesScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
                         }
                     }
                 }
-                if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth().padding(top = AppSpacing.xl))
+                if (learning != null) MyLanguagesCard(learning, viewModel::askToRemove, Modifier.fillMaxWidth().padding(top = AppSpacing.xl), removals)
                 if (compact) SavedNote(changes)
             }
         }

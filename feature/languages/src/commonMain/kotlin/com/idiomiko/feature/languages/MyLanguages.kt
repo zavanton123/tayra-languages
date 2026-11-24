@@ -18,6 +18,8 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.ui.components.AppDialog
 import com.idiomiko.core.ui.components.AppDivider
+import com.idiomiko.core.ui.components.AppSpinner
+import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.LanguageFlag
@@ -35,7 +37,7 @@ import com.idiomiko.core.ui.theme.AppText
 
 /** The languages being learned, each with the words known in it and a way to remove it with all its data. */
 @Composable
-internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, String) -> Unit, modifier: Modifier = Modifier) {
+internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, String) -> Unit, modifier: Modifier = Modifier, removing: List<String> = emptyList()) {
     val colors = MaterialTheme.colorScheme
     Column(
         modifier.clip(AppShapes.card).background(colors.surface).border(AppBorders.hairline(colors.outlineVariant), AppShapes.card).padding(AppSpacing.l).testTag("my-languages"),
@@ -58,23 +60,21 @@ internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, S
             }
             if (index < mine.lastIndex) AppDivider(color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
         }
+        // A language goes from the list as its removal starts; its files go on being deleted in the background.
+        removing.forEach { name ->
+            Row(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s).testTag("removing-language"), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                AppSpinner(size = SpinnerSize.Small)
+                Text(tr("Removing {0}…", tr(name)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+            }
+        }
         Text(tr("Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it."), Modifier.padding(top = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
 
-/** Asks before a language goes, saying what goes with it; then says what could not be removed, if anything. */
+/** Asks before a language goes, saying what goes with it. */
 @Composable
 internal fun RemoveLanguageDialog(prompt: LanguagesViewModel.RemovalPrompt, onConfirm: () -> Unit, onDismiss: () -> Unit) {
     val name = tr(prompt.name)
-    if (prompt.problems.isNotEmpty()) {
-        AppDialog(
-            onDismissRequest = onDismiss,
-            title = { Text(tr("{0} was removed", name)) },
-            text = { Text(tr("Some downloads could not be removed:") + "\n" + prompt.problems.joinToString("\n")) },
-            confirmButton = { QuietButton(tr("OK"), onClick = onDismiss) },
-        )
-        return
-    }
     val counted = prompt.removal
     val text = if (counted == null) tr("Counting what it has…") else buildList {
         add(trPlural(counted.texts, "{0} text", "{0} texts", formatCount(counted.texts)))
@@ -88,7 +88,7 @@ internal fun RemoveLanguageDialog(prompt: LanguagesViewModel.RemovalPrompt, onCo
         modifier = Modifier.testTag("remove-language-dialog"),
         title = { Text(tr("Remove {0}?", name)) },
         text = { Text(text) },
-        confirmButton = { QuietButton(tr("Remove"), onClick = onConfirm, tone = ButtonTone.Danger, loading = prompt.removing, enabled = counted != null, modifier = Modifier.testTag("confirm-remove")) },
-        dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss, enabled = !prompt.removing) },
+        confirmButton = { QuietButton(tr("Remove"), onClick = onConfirm, tone = ButtonTone.Danger, enabled = counted != null, modifier = Modifier.testTag("confirm-remove")) },
+        dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )
 }
