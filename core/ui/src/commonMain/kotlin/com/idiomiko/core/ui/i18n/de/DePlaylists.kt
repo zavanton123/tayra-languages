@@ -67,7 +67,6 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "Open playlists" to "Playlists öffnen",
     "Previous text" to "Vorheriger Text",
     "Next text" to "Nächster Text",
-    "Sentence {0} of {1}" to "Satz {0} von {1}",
     "Playlist complete" to "Playlist abgeschlossen",
     "You listened to all {0}" to "Du hast alle {0} gehört",
     "Play again" to "Erneut abspielen",

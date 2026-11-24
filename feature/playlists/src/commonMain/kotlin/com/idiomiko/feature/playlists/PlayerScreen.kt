@@ -230,7 +230,7 @@ private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(tr("Sentence {0} of {1}", p.sentence + 1, p.sentences.size), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                        Text(tr("{0} of {1}", p.sentence + 1, p.sentences.size), Modifier.weight(1f).testTag("sentence-progress"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         Text("${clockTime(state.elapsed)} / ${clockTime(state.total)}", Modifier.testTag("text-time"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                     }
                     ProgressTrack((p.sentence + 1).toFloat() / p.sentences.size, colors.primary, Modifier.fillMaxWidth(), height = AppSizes.track)

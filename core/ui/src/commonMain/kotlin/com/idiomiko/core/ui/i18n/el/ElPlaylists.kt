@@ -67,7 +67,6 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Open playlists" to "Άνοιγμα λιστών αναπαραγωγής",
     "Previous text" to "Προηγούμενο κείμενο",
     "Next text" to "Επόμενο κείμενο",
-    "Sentence {0} of {1}" to "Πρόταση {0} από {1}",
     "Playlist complete" to "Η λίστα αναπαραγωγής ολοκληρώθηκε",
     "You listened to all {0}" to "Ακούσατε και τα {0}",
     "Play again" to "Αναπαραγωγή ξανά",

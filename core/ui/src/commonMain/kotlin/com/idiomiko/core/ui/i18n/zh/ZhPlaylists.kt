@@ -67,7 +67,6 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Open playlists" to "打开播放列表",
     "Previous text" to "上一篇文本",
     "Next text" to "下一篇文本",
-    "Sentence {0} of {1}" to "第 {0}/{1} 句",
     "Playlist complete" to "播放列表已播完",
     "You listened to all {0}" to "你已听完全部 {0}",
     "Play again" to "再次播放",

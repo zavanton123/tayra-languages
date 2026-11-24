@@ -67,7 +67,6 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Open playlists" to "Открыть плейлисты",
     "Previous text" to "Предыдущий текст",
     "Next text" to "Следующий текст",
-    "Sentence {0} of {1}" to "Предложение {0} из {1}",
     "Playlist complete" to "Плейлист прослушан",
     "You listened to all {0}" to "Вы прослушали все {0}",
     "Play again" to "Воспроизвести снова",

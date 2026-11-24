@@ -10,6 +10,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertTextContains
+import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -77,13 +78,13 @@ class PlayerScreensTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Up next")).fetchSemanticsNodes().isNotEmpty() && onAllNodes(hasText("ничего не решает", substring = true)).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("1 of 4").assertExists()
-        onNodeWithText("Sentence 1 of 12").assertExists()
+        onNodeWithTag("sentence-progress").assertTextEquals("1 of 12")
         onNodeWithTag("player-bar").assertExists()
         // The text being heard fills the window's height: its title on top, the sentence in the middle, the progress at the bottom.
         val card = onNodeWithTag("now-playing-card").fetchSemanticsNode().boundsInRoot
         val title = onNodeWithText("1 of 4").fetchSemanticsNode().boundsInRoot
         val sentence = onNodeWithTag("current-sentence").fetchSemanticsNode().boundsInRoot
-        val progress = onNodeWithText("Sentence 1 of 12").fetchSemanticsNode().boundsInRoot
+        val progress = onNodeWithTag("sentence-progress").fetchSemanticsNode().boundsInRoot
         assertTrue(card.height > 500f, "the card takes the height, not its content's: $card")
         assertTrue(title.top - card.top < 100f, "the title stays at the top: $title in $card")
         assertTrue(kotlin.math.abs(sentence.center.y - card.center.y) < card.height / 6, "the sentence sits in the middle: $sentence in $card")
