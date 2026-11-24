@@ -37,7 +37,7 @@ class AboutScreenTest {
     @Test
     fun aboutMarksTheNameAsATrademark() = runDesktopComposeUiTest {
         setContent { AboutScreen(onNavigate = {}) }
-        assertEquals(2, onAllNodesWithText("Idiomiko™").fetchSemanticsNodes().size, "the bar's wordmark and the heading")
+        assertEquals(1, onAllNodesWithText("Idiomiko™").fetchSemanticsNodes().size, "the heading, not the bar's wordmark")
         onNodeWithTag("about-trademark").assertExists()
     }
 

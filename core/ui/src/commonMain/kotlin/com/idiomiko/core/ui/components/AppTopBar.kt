@@ -91,7 +91,7 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
 
 const val APP_NAME = "Idiomiko"
 
-/** The name as the brand's mark, with a small ™: for the bar's wordmark, a page titled with the name and About. */
+/** The name as the brand's mark, with a small ™: for About, where the trademark is noted. */
 val BRAND_NAME: AnnotatedString = buildAnnotatedString {
     append(APP_NAME)
     withStyle(SpanStyle(fontSize = 0.75.em)) { append("™") }
@@ -130,7 +130,7 @@ fun AppTopBar(
         ) {
             if (onBack != null) AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack)
             Text(
-                if (title == APP_NAME) BRAND_NAME else AnnotatedString(title),
+                title,
                 Modifier.weight(1f).padding(start = if (onBack != null) AppSpacing.xs else 0.dp, end = AppSpacing.s),
                 style = if (onBack != null) AppText.headline else AppText.screenTitle,
                 maxLines = 1,
@@ -164,7 +164,7 @@ fun AppTopBar(
                 ) {
                     Icon(AppIcons.Logo, contentDescription = null, tint = Color.Unspecified, modifier = Modifier.size(AppSizes.iconXLarge))
                     Spacer(Modifier.width(AppSpacing.m))
-                    Text(BRAND_NAME, style = AppText.sectionTitle)
+                    Text(APP_NAME, style = AppText.sectionTitle)
                 }
                 Spacer(Modifier.weight(1f))
                 actions()
