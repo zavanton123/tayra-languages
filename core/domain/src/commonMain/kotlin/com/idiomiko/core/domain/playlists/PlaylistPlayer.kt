@@ -14,6 +14,7 @@ import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancelAndJoin
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -26,6 +27,7 @@ import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.random.Random
 import kotlin.time.Clock
+import kotlin.time.Duration.Companion.seconds
 
 /**
  * Where the playlist player is heard. Its calls come from the player's thread; the completions may
@@ -530,7 +532,11 @@ class PlaylistPlayer(
             complete()
             return false
         }
-        return load(next, 1, 0)
+        val loaded = load(next, 1, 0)
+        // The rest between tracks the settings ask for; a command meanwhile stops it with the loop.
+        val rest = settings.current.takeIf { it.playlistPauseBetweenTracks }?.playlistPauseSeconds ?: 0
+        if (loaded && rest > 0) delay(rest.seconds)
+        return loaded
     }
 
     /** Starts the playlist over when it repeats, or null. */

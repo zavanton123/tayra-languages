@@ -148,6 +148,9 @@ class SettingsRepositoryImpl(
             speechSpeed = speechSpeed,
             // Until it is first chosen, the playlist player plays at the reader's speed.
             playlistSpeed = store.getFloat(Keys.PLAYLIST_SPEED, speechSpeed),
+            playlistPauseBetweenTracks = store.getBoolean(Keys.PLAYLIST_PAUSE, defaults.playlistPauseBetweenTracks),
+            playlistPauseSeconds = store.getInt(Keys.PLAYLIST_PAUSE_SECONDS, defaults.playlistPauseSeconds)
+                .coerceIn(UserSettings.MIN_PLAYLIST_PAUSE, UserSettings.MAX_PLAYLIST_PAUSE),
             tutorialBooksAdded = store.getBoolean(Keys.TUTORIAL_BOOKS, defaults.tutorialBooksAdded),
             nativeLanguage = LanguageCatalog.nativeOption(
                 store.getStringOrNull(Keys.NATIVE_LANGUAGE) ?: store.getString(Keys.LEGACY_TRANSLATION_TARGET, defaults.nativeLanguage),
@@ -284,6 +287,8 @@ class SettingsRepositoryImpl(
         store.putString(Keys.SPEECH_VOICES, s.speechVoices.entries.joinToString("\n") { "${it.key}\t${it.value}" })
         store.putFloat(Keys.SPEECH_SPEED, s.speechSpeed)
         store.putFloat(Keys.PLAYLIST_SPEED, s.playlistSpeed)
+        store.putBoolean(Keys.PLAYLIST_PAUSE, s.playlistPauseBetweenTracks)
+        store.putInt(Keys.PLAYLIST_PAUSE_SECONDS, s.playlistPauseSeconds)
         store.putBoolean(Keys.TUTORIAL_BOOKS, s.tutorialBooksAdded)
         store.putString(Keys.NATIVE_LANGUAGE, s.nativeLanguage)
         store.putString(Keys.UI_LANGUAGE, s.uiLanguage)
@@ -379,6 +384,8 @@ class SettingsRepositoryImpl(
         const val SPEECH_VOICES = "speech_voices"
         const val SPEECH_SPEED = "speech_speed"
         const val PLAYLIST_SPEED = "playlist_speed"
+        const val PLAYLIST_PAUSE = "playlist_pause_between_tracks"
+        const val PLAYLIST_PAUSE_SECONDS = "playlist_pause_seconds"
         const val SHOW_TRANSLATIONS = "reading_show_translations"
         const val PRACTICE_TRANSLATION = "reading_practice_translation"
         const val TRANSLATION_ENGINE = "translation_engine"

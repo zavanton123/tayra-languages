@@ -64,6 +64,10 @@ data class UserSettings(
     val speechSpeed: Float = 1f,
     /** The playlist player's speed, 1 being normal; the reader keeps [speechSpeed]. */
     val playlistSpeed: Float = 1f,
+    /** Whether the playlist player rests between one track and the next, for [playlistPauseSeconds]. */
+    val playlistPauseBetweenTracks: Boolean = false,
+    /** How long the rest between tracks lasts, in seconds. */
+    val playlistPauseSeconds: Int = DEFAULT_PLAYLIST_PAUSE,
     /** Whether the languages got their tutorial book, which replaced the sample books of earlier versions. */
     val tutorialBooksAdded: Boolean = false,
     /** ISO 639-1 code of the user's native language; translations and example sentences are shown in it. */
@@ -163,6 +167,9 @@ data class UserSettings(
     fun hotkeyFor(action: HotkeyAction): Hotkey? = hotkeys[action]
 
     companion object {
+        const val DEFAULT_PLAYLIST_PAUSE = 3
+        const val MIN_PLAYLIST_PAUSE = 1
+        const val MAX_PLAYLIST_PAUSE = 30
         const val DEFAULT_THEME = "default"
         const val DEFAULT_READING_FONT = "serif"
         const val DEFAULT_DAILY_GOAL = 15

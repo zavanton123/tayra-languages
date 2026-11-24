@@ -227,6 +227,22 @@ class PlaylistPlayerTest {
     }
 
     @Test
+    fun aRestBetweenTracksWaitsBeforeTheNextOneButNotBetweenPages() {
+        val setup = setUp()
+        runBlocking { settings.update { it.copy(playlistPauseBetweenTracks = true, playlistPauseSeconds = 1) } }
+        player.play(setup.playlist)
+        hear("Um dois.")
+        hear("Dois três.")
+        val page = System.currentTimeMillis()
+        hear("Três quatro.")
+        assertTrue(System.currentTimeMillis() - page < 900, "no rest between the pages of a text")
+        until("the second text") { player.state.value.item?.title == "Segundo" }
+        val turned = System.currentTimeMillis()
+        hear("Quatro cinco.")
+        assertTrue(System.currentTimeMillis() - turned >= 900, "a second's rest before the next track")
+    }
+
+    @Test
     fun aLocalVoiceSynthesizesTheNextSentencesWhileOnePlays() {
         val setup = setUp()
         runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, playlistSpeed = 1.5f) } }
