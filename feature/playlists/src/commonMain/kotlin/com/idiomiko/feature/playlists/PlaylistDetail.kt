@@ -333,14 +333,15 @@ private fun NowPlayingStrip(state: PlaylistDetailUiState, compact: Boolean, onOp
         .border(AppBorders.hairline(colors.primary.copy(alpha = AppAlpha.soft)), shape).testTag("now-playing")
     if (compact) {
         Column(strip.clickable(onClick = onOpen).padding(horizontal = AppSpacing.m, vertical = AppSpacing.s + AppSpacing.xxs), verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-            Text(sentence, Modifier.testTag("now-playing-sentence"), style = MaterialTheme.typography.bodyLarge, maxLines = 2, overflow = TextOverflow.Ellipsis)
-            Text(listOfNotNull(tr("Now playing"), where, tr("Open the player") + " ›").joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
+            Text(sentence, Modifier.testTag("now-playing-sentence"), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(listOfNotNull(tr("Now playing"), where, tr("Open the player") + " ›").joinToString(" · "), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
     } else {
         Row(strip.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Equaliser(state.isPlaying)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-                Text(sentence, Modifier.testTag("now-playing-sentence"), style = MaterialTheme.typography.bodyLarge, maxLines = 3, overflow = TextOverflow.Ellipsis)
+                // One line each, however long the sentence: the strip keeps its height as listening goes on.
+                Text(sentence, Modifier.testTag("now-playing-sentence"), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 Text(
                     listOfNotNull(tr("Now playing"), p.item?.title, where).joinToString(" · "),
                     style = MaterialTheme.typography.bodySmall,
