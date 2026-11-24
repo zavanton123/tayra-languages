@@ -103,7 +103,6 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Playing · {0} of {1}" to "Παίζει · {0} από {1}",
     "Paused · {0} of {1}" to "Σε παύση · {0} από {1}",
     "sentence {0} of {1}" to "πρόταση {0} από {1}",
-    "Drag to reorder · click a text to play it" to "Σύρετε για αναδιάταξη · κάντε κλικ σε ένα κείμενο για αναπαραγωγή",
     "Add texts from your library" to "Προσθήκη κειμένων από τη βιβλιοθήκη σας",
     "Shuffle" to "Τυχαία",
     "Now playing" to "Παίζει τώρα",

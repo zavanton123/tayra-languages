@@ -62,8 +62,10 @@ class NowPlayingTest {
     }
 
     @Test
-    fun theLastTextHasANextOnlyWhenThePlaylistRepeats() {
-        val last = playing().copy(itemId = 13)
+    fun theLastTextHasANextOnlyWhenATextIsStillToBeHeardOrThePlaylistRepeats() {
+        assertTrue(nowPlaying(playing().copy(itemId = 13))!!.hasNext, "the other texts are not heard yet")
+        val heard = playlist.copy(items = playlist.items.map { it.copy(finished = true) })
+        val last = playing().copy(playlist = heard, itemId = 13)
         assertFalse(nowPlaying(last)!!.hasNext)
         assertTrue(nowPlaying(last.copy(repeat = RepeatMode.ALL))!!.hasNext)
         assertEquals(RepeatMode.ALL, nowPlaying(last.copy(repeat = RepeatMode.ALL))!!.repeat)

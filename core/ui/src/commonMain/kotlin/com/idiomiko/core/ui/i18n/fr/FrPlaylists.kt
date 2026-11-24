@@ -103,7 +103,6 @@ internal val frPlaylists: Map<String, String> = mapOf(
     "Playing · {0} of {1}" to "Lecture · {0} sur {1}",
     "Paused · {0} of {1}" to "En pause · {0} sur {1}",
     "sentence {0} of {1}" to "phrase {0} sur {1}",
-    "Drag to reorder · click a text to play it" to "Faites glisser pour réordonner · cliquez sur un texte pour l'écouter",
     "Add texts from your library" to "Ajouter des textes de votre bibliothèque",
     "Shuffle" to "Aléatoire",
     "Now playing" to "En cours de lecture",

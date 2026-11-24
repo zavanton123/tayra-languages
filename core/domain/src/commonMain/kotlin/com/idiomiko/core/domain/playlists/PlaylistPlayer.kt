@@ -126,7 +126,8 @@ data class PlayerState(
     /** How far the current text has got, from 0 to 1. */
     val textProgress: Float get() = if (textLength <= 0) 0f else (heard.toFloat() / textLength).coerceIn(0f, 1f)
 
-    val hasNext: Boolean get() = queueIndex in 0 until order.size - 1 || (repeat == RepeatMode.ALL && order.isNotEmpty())
+    val hasNext: Boolean get() = queueIndex in 0 until order.size - 1 || (repeat == RepeatMode.ALL && order.isNotEmpty()) ||
+        playlist?.items?.any { !it.finished && it.id != itemId } == true
 }
 
 /**
@@ -249,7 +250,7 @@ class PlaylistPlayer(
     /** Plays the next text from its start. */
     fun next() = command {
         val s = _state.value
-        val next = s.order.getOrNull(s.queueIndex + 1) ?: s.order.firstOrNull()?.takeIf { s.repeat == RepeatMode.ALL } ?: return@command
+        val next = s.order.getOrNull(s.queueIndex + 1) ?: unheard(besides = s.itemId) ?: s.order.firstOrNull()?.takeIf { s.repeat == RepeatMode.ALL } ?: return@command
         jump(next)
     }
 
@@ -318,7 +319,7 @@ class PlaylistPlayer(
     fun skip() = command {
         val s = _state.value
         _state.update { it.copy(problem = null) }
-        val next = s.order.getOrNull(s.queueIndex + 1) ?: s.order.firstOrNull()?.takeIf { s.repeat == RepeatMode.ALL }
+        val next = s.order.getOrNull(s.queueIndex + 1) ?: unheard(besides = s.itemId) ?: s.order.firstOrNull()?.takeIf { s.repeat == RepeatMode.ALL }
         if (next == null) complete() else jump(next)
     }
 
@@ -523,21 +524,34 @@ class PlaylistPlayer(
             return true
         }
         repository.setFinished(item.id, clock.now())
-        val next = when {
-            s.repeat == RepeatMode.ONE -> item.id
-            s.queueIndex + 1 < s.order.size -> s.order[s.queueIndex + 1]
-            s.repeat == RepeatMode.ALL -> {
-                s.playlist?.let { repository.clearFinished(it.id) }
-                if (s.shuffle) s.playlist?.let { p -> _state.update { it.copy(order = orderOf(p, true, first = null)) } }
-                _state.value.order.firstOrNull()
-            }
-            else -> null
-        }
+        // The playlist is done only when every text has been heard: the next one not heard yet follows.
+        val next = if (s.repeat == RepeatMode.ONE) item.id else unheard(besides = item.id) ?: repeatAll(s)
         if (next == null) {
             complete()
             return false
         }
         return load(next, 1, 0)
+    }
+
+    /** Starts the playlist over when it repeats, or null. */
+    private suspend fun repeatAll(s: PlayerState): Long? {
+        if (s.repeat != RepeatMode.ALL) return null
+        s.playlist?.let { repository.clearFinished(it.id) }
+        if (s.shuffle) s.playlist?.let { p -> _state.update { it.copy(order = orderOf(p, true, first = null)) } }
+        return _state.value.order.firstOrNull()
+    }
+
+    /**
+     * The next text of the queue not heard to the end yet, other than [besides]: after the current one, else
+     * from the queue's start. Shuffled, the queue's own order makes it a random one. The playlist is read
+     * again, as hearing a text marks it there.
+     */
+    private suspend fun unheard(besides: Long?): Long? {
+        val s = _state.value
+        val playlist = s.playlist?.let { service.playlist(it.id) } ?: return null
+        val heard = playlist.items.filter { it.finished }.map { it.id }.toSet()
+        val from = (s.queueIndex + 1).coerceIn(0, s.order.size)
+        return (s.order.drop(from) + s.order.take(from)).firstOrNull { it != besides && it !in heard }
     }
 
     private suspend fun complete() {

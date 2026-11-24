@@ -103,7 +103,6 @@ internal val plPlaylists: Map<String, String> = mapOf(
     "Playing · {0} of {1}" to "Odtwarzanie · {0} z {1}",
     "Paused · {0} of {1}" to "Wstrzymano · {0} z {1}",
     "sentence {0} of {1}" to "zdanie {0} z {1}",
-    "Drag to reorder · click a text to play it" to "Przeciągnij, aby zmienić kolejność · kliknij tekst, aby go odtworzyć",
     "Add texts from your library" to "Dodaj teksty z biblioteki",
     "Shuffle" to "Losowo",
     "Now playing" to "Teraz odtwarzane",

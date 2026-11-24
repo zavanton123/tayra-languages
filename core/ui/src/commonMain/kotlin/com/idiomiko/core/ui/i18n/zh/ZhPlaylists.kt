@@ -103,7 +103,6 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Playing · {0} of {1}" to "正在播放 · {0}/{1}",
     "Paused · {0} of {1}" to "已暂停 · {0}/{1}",
     "sentence {0} of {1}" to "第 {0}/{1} 句",
-    "Drag to reorder · click a text to play it" to "拖动以重新排序 · 点击文本即可播放",
     "Add texts from your library" to "从你的书库添加文本",
     "Shuffle" to "随机播放",
     "Now playing" to "正在播放",

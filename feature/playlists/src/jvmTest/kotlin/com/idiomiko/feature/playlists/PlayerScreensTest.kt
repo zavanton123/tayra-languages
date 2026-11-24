@@ -234,6 +234,24 @@ class PlayerScreensTest {
     }
 
     @Test
+    fun closingTheBarOnThePlayerGoesToThePlaylists() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        playing()
+        until { data.output.done != null }
+        val viewModel = viewModel()
+        val visited = mutableListOf<Route>()
+        host(data) {
+            Column(Modifier.fillMaxSize()) {
+                Box(Modifier.weight(1f))
+                PlayerBar(onNavigate = { visited += it }, onPlayerScreen = true, viewModel = viewModel)
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("close-player")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("close-player").performClick()
+        until { data.player.state.value.status == PlayerStatus.IDLE }
+        assertEquals(listOf<Route>(Route.Playlists), visited)
+    }
+
+    @Test
     fun theWideBarClosesThePlayerKeepingItsPlace() = closingTheBar(width = 1586, name = "player-bar-close")
 
     @Test

@@ -367,7 +367,6 @@ private fun TextsCard(state: PlaylistDetailUiState, playlist: Playlist, viewMode
     Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(vertical = AppSpacing.s)) {
         Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xxl, vertical = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
             Text(tr("Texts"), Modifier.weight(1f), style = AppText.sectionTitle)
-            Text(tr("Drag to reorder · click a text to play it"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
         ReorderableColumn(playlist.items, key = { it.id }, onMove = { from, to -> viewModel.move(playlist.items[from].id, to) }) { item, index, handle, dragging ->
             AppDivider(color = line)

@@ -135,16 +135,17 @@ private fun WideBar(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate
         }
         // The player shows the place in the text on its own card, so the bar leaves its seek bar out there.
         PlayerControls(state, viewModel, Modifier.weight(2.2f), wide = true, showSeek = !onPlayerScreen)
-        CloseButton(viewModel)
+        // Closed on the player itself, nothing would be left to show there: the playlists take its place.
+        CloseButton(viewModel, onClosed = { if (onPlayerScreen) onNavigate(Route.Playlists) })
     }
 }
 
 /** Stops the player, keeping where listening got to; the bar, and the system's controls, go with it. */
 @Composable
-private fun CloseButton(viewModel: PlayerViewModel) {
+private fun CloseButton(viewModel: PlayerViewModel, onClosed: () -> Unit = {}) {
     val label = tr("Close player")
     AppTooltip(label) {
-        AppIconButton(Icons.Default.Close, contentDescription = label, onClick = viewModel.player::stop, style = IconButtonStyle.Outlined, shape = AppShapes.circle, modifier = Modifier.testTag("close-player"))
+        AppIconButton(Icons.Default.Close, contentDescription = label, onClick = { viewModel.player.stop(); onClosed() }, style = IconButtonStyle.Outlined, shape = AppShapes.circle, modifier = Modifier.testTag("close-player"))
     }
 }
 

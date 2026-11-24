@@ -193,7 +193,7 @@ class PlaylistPlayerTest {
         until("the second page") { player.state.value.page == 2 }
         hear("Três quatro.")
         until("the first text to be finished") { runBlocking { service.playlist(setup.playlist)!!.items[0].finished } }
-        assertEquals("Segundo", player.state.value.item?.title)
+        until("the second text") { player.state.value.item?.title == "Segundo" }
         hear("Quatro cinco.")
         hear("Cinco seis.")
         until("the end") { player.state.value.status == PlayerStatus.COMPLETE }
@@ -207,6 +207,23 @@ class PlaylistPlayerTest {
         player.resume()
         hear("Um dois.")
         until("the texts to be unfinished") { runBlocking { service.playlist(setup.playlist)!!.finishedCount } == 0 }
+    }
+
+    @Test
+    fun theEndOfTheQueueGoesBackToTheTextsNotHeardBeforeThePlaylistIsDone() {
+        val setup = setUp()
+        val items = runBlocking { service.playlist(setup.playlist)!!.items }
+        // Started from the last text, the first one is still to be heard when it ends.
+        player.play(setup.playlist, itemId = items[1].id)
+        hear("Quatro cinco.")
+        hear("Cinco seis.")
+        hear("Um dois.")
+        assertEquals(items[0].id, player.state.value.itemId)
+        assertTrue(player.state.value.status != PlayerStatus.COMPLETE)
+        hear("Dois três.")
+        hear("Três quatro.")
+        until("the end") { player.state.value.status == PlayerStatus.COMPLETE }
+        assertTrue(runBlocking { service.playlist(setup.playlist)!!.isComplete })
     }
 
     @Test
