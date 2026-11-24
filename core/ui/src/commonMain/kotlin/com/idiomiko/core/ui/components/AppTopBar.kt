@@ -35,6 +35,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
@@ -86,6 +91,12 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
 
 const val APP_NAME = "Idiomiko"
 
+/** The name as the brand's mark, with a small ™: for the bar's wordmark, a page titled with the name and About. */
+val BRAND_NAME: AnnotatedString = buildAnnotatedString {
+    append(APP_NAME)
+    withStyle(SpanStyle(fontSize = 0.75.em)) { append("™") }
+}
+
 /**
  * The application bar with the choice of the language being learned and the main menu (Home, Read with the
  * courses, books and news, Videos, Playlists, Flashcards, Vocabulary), shown on all screens except the reading pane.
@@ -119,7 +130,7 @@ fun AppTopBar(
         ) {
             if (onBack != null) AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack)
             Text(
-                title,
+                if (title == APP_NAME) BRAND_NAME else AnnotatedString(title),
                 Modifier.weight(1f).padding(start = if (onBack != null) AppSpacing.xs else 0.dp, end = AppSpacing.s),
                 style = if (onBack != null) AppText.headline else AppText.screenTitle,
                 maxLines = 1,
@@ -153,7 +164,7 @@ fun AppTopBar(
                 ) {
                     Icon(AppIcons.Logo, contentDescription = null, tint = Color.Unspecified, modifier = Modifier.size(AppSizes.iconXLarge))
                     Spacer(Modifier.width(AppSpacing.m))
-                    Text(APP_NAME, style = AppText.sectionTitle)
+                    Text(BRAND_NAME, style = AppText.sectionTitle)
                 }
                 Spacer(Modifier.weight(1f))
                 actions()

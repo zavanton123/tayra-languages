@@ -277,10 +277,10 @@ class AppTopBarTest {
     }
 
     @Test
-    fun theLogoAlwaysShowsTheAppNameAndLeadsHome() {
+    fun theLogoAlwaysShowsTheMarkedAppNameAndLeadsHome() {
         val visited = mutableListOf<Route>()
         rule.setContent { MaterialTheme { AppTopBar(title = "Statistics", onNavigate = { visited += it }, section = NavSection.TERMS) } }
-        rule.onNodeWithText("Idiomiko").performClick()
+        rule.onNodeWithText("Idiomiko™").performClick()
         assertEquals(listOf<Route>(Route.Home), visited)
         assertEquals(0, rule.onAllNodesWithText("Statistics").fetchSemanticsNodes().size, "the screen's own title stays out of the wide bar")
     }

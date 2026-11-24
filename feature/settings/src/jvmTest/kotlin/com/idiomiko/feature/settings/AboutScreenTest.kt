@@ -6,6 +6,7 @@ import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onNodeWithTag
+import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onRoot
 import androidx.compose.ui.test.runDesktopComposeUiTest
 import com.idiomiko.core.ui.components.ProvideWindowWidth
@@ -13,6 +14,7 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import kotlin.test.assertEquals
 
 /** About names the release the app was installed from. */
 @OptIn(ExperimentalTestApi::class)
@@ -30,6 +32,13 @@ class AboutScreenTest {
         } finally {
             if (before == null) System.clearProperty("idiomiko.version") else System.setProperty("idiomiko.version", before)
         }
+    }
+
+    @Test
+    fun aboutMarksTheNameAsATrademark() = runDesktopComposeUiTest {
+        setContent { AboutScreen(onNavigate = {}) }
+        assertEquals(2, onAllNodesWithText("Idiomiko™").fetchSemanticsNodes().size, "the bar's wordmark and the heading")
+        onNodeWithTag("about-trademark").assertExists()
     }
 
     /** A wide window shows About on its own, without the settings sidebar. */
