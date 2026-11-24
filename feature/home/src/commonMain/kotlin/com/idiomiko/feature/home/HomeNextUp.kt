@@ -58,11 +58,10 @@ import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
-/** What a [NextUp] card shows: its kind's icon, colour and picture, a title, what it holds, how far it has got, and the way in. */
+/** What a [NextUp] card shows: its kind's icon and colour, a title, what it holds, how far it has got, and the way in. */
 private class NextUpView(
     val icon: ImageVector,
     val tint: Color,
-    val face: ArtFace,
     val title: String,
     val detail: String?,
     val facts: List<String>,
@@ -151,8 +150,8 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
     ) {
         // Where the card is narrow, its words need the room more than the picture.
         if (LocalWindowWidth.current.isExpanded) {
-            if (view.face == ArtFace.CARDS) FlashcardsIllustration(Modifier.size(ART_SIZE).testTag("next-up-art"))
-            else NextUpArt(view.face, view.tint, view.icon, Modifier.size(ART_SIZE))
+            // The mascot with the cards, whatever comes next.
+            FlashcardsIllustration(Modifier.size(ART_SIZE).testTag("next-up-art"))
         }
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             labelText()
@@ -170,7 +169,7 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
 @Composable
 private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
     is NextUp.Review -> NextUpView(
-        AppIcons.Style, AppAccents.teal, ArtFace.CARDS,
+        AppIcons.Style, AppAccents.teal,
         title = trPlural(next.due, "{1} card due today", "{1} cards due today", formatCount(next.due)),
         detail = null,
         shortDetail = tr("Keep your words fresh"),
@@ -182,7 +181,7 @@ private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
     is NextUp.Lesson -> {
         val total = next.course.lessons.size
         NextUpView(
-            AppIcons.School, AppAccents.blue, ArtFace.PAGE,
+            AppIcons.School, AppAccents.blue,
             title = next.course.course.title.inLearnedScript(),
             detail = tr("Lesson {0}: {1}", next.number, next.lesson.lesson.title.inLearnedScript()),
             facts = listOfNotNull(next.newWords.takeIf { it > 0 }?.let { trPlural(it, "{1} new word", "{1} new words", formatCount(it)) }),
@@ -193,7 +192,7 @@ private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
         )
     }
     is NextUp.Book -> NextUpView(
-        AppIcons.MenuBook, AppAccents.purple, ArtFace.PAGE,
+        AppIcons.MenuBook, AppAccents.purple,
         title = next.book.title.inLearnedScript(),
         detail = pageLine(next.book),
         facts = emptyList(),
@@ -203,7 +202,7 @@ private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
         progressText = "${bookPercent(next.book)}%",
     )
     NextUp.StartHere -> NextUpView(
-        AppIcons.School, AppAccents.blue, ArtFace.SUMMIT,
+        AppIcons.School, AppAccents.blue,
         title = tr("Start with a course"),
         detail = tr("Short stories at your level. The words you save become flashcards."),
         facts = emptyList(),
