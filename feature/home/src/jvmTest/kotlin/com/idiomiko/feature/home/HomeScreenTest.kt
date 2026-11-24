@@ -398,8 +398,10 @@ class HomeScreenTest {
         onNodeWithText("~2 min").assertDoesNotExist()
         onNodeWithTag("next-up-action").performClick()
         onNodeWithTag("vocabulary-row").performClick()
+        // The streak leads to the statistics.
+        onNodeWithTag("figure-streak").performClick()
         assertEquals(listOf("pt-mini-0100-l3"), opened)
-        assertEquals(listOf<Route>(Route.Terms()), visited)
+        assertEquals(listOf<Route>(Route.Terms(), Route.Stats), visited)
     }
 
     /** A first visit starts here: the course of the reader's level, with nothing else under way and nothing due. */
