@@ -30,6 +30,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.foundation.clickable
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
@@ -256,7 +258,8 @@ private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate:
                 time = listeningTime(state.durations[item.id] ?: kotlin.time.Duration.ZERO),
                 handle = if (p.shuffle) Modifier else handle,
                 dragging = dragging,
-                onPlay = { viewModel.player.jumpTo(item.id) },
+                // The text being heard goes on from where it is; another one starts from its beginning.
+                onPlay = { if (item.id == p.itemId && p.status != PlayerStatus.COMPLETE) { if (!p.isPlaying) viewModel.player.resume() } else viewModel.player.jumpTo(item.id, play = true) },
                 onRemove = { viewModel.remove(item.id) },
             )
             AppDivider()
@@ -273,6 +276,8 @@ private fun QueueRow(item: PlaylistItem, index: Int, current: Boolean, time: Str
         Modifier.fillMaxWidth()
             .then(if (dragging) Modifier.cardSurface(AppShapes.control) else Modifier)
             .then(if (current) Modifier.background(colors.primary.copy(alpha = AppAlpha.tint), AppShapes.control) else Modifier)
+            .clip(AppShapes.control)
+            .clickable(onClickLabel = tr("Play"), role = Role.Button, onClick = onPlay)
             .padding(horizontal = AppSpacing.xs, vertical = AppSpacing.m).testTag("queue-${item.id}"),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),

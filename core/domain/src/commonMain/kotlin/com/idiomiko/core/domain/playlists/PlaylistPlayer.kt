@@ -261,8 +261,8 @@ class PlaylistPlayer(
         jump(if (atStart) s.order.getOrNull(s.queueIndex - 1) ?: id else id)
     }
 
-    /** Plays the item with [itemId] from its start. */
-    fun jumpTo(itemId: Long) = command { jump(itemId) }
+    /** Plays the item with [itemId] from its start; a paused player stays paused unless [play]. */
+    fun jumpTo(itemId: Long, play: Boolean = false) = command { jump(itemId, play) }
 
     fun nextSentence() = command {
         val s = _state.value
@@ -396,11 +396,11 @@ class PlaylistPlayer(
         if (load(order.first(), 1, 0)) startLoop()
     }
 
-    private suspend fun jump(itemId: Long) {
+    private suspend fun jump(itemId: Long, play: Boolean = false) {
         val wasPaused = _state.value.status == PlayerStatus.PAUSED
         halt()
         if (load(itemId, 1, 0)) {
-            if (wasPaused) _state.update { it.copy(status = PlayerStatus.PAUSED) } else startLoop()
+            if (wasPaused && !play) _state.update { it.copy(status = PlayerStatus.PAUSED) } else startLoop()
         }
     }
 

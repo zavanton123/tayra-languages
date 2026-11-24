@@ -100,6 +100,14 @@ class PlayerScreensTest {
         until { data.player.state.value.queueIndex == 1 }
         onNodeWithTag("play-pause").performClick()
         until { data.player.state.value.status == PlayerStatus.PAUSED }
+        // A click on a text in Up next plays it, paused or not; on the text being heard it goes on from where it was.
+        val fourth = data.player.state.value.order[3]
+        onNodeWithTag("queue-$fourth").performClick()
+        until { data.player.state.value.itemId == fourth && data.player.state.value.status == PlayerStatus.PLAYING }
+        onNodeWithTag("play-pause").performClick()
+        until { data.player.state.value.status == PlayerStatus.PAUSED }
+        onNodeWithTag("queue-$fourth").performClick()
+        until { data.player.state.value.itemId == fourth && data.player.state.value.status == PlayerStatus.PLAYING }
         onNodeWithTag("repeat").performClick()
         until { data.player.state.value.repeat == com.idiomiko.core.domain.playlists.RepeatMode.ALL }
         assertTrue(id > 0)
