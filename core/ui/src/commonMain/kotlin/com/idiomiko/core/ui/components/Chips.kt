@@ -124,7 +124,7 @@ fun StatusDot(color: Color, modifier: Modifier = Modifier, size: Dp = AppSizes.d
 }
 
 /**
- * A rounded label in an outline of its colour, such as "Offline translation ready": a [dot] of
+ * A rounded label in an outline of its colour, such as "Offline translation": a [dot] of
  * the colour, or a bold [value] ("12 due"), before the text.
  */
 @Composable

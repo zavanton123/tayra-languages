@@ -104,7 +104,6 @@ internal val ptSettings: Map<String, String> = mapOf(
     // OfflineTranslationScreen.kt
     "Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…" to "Instalando {0} na pasta do app. Isso baixa cerca de um gigabyte e leva alguns minutos…",
     "Translation" to "Tradução",
-    "Choose how translations are generated, and add dictionaries of your own." to "Escolha como as traduções são geradas e adicione os seus próprios dicionários.",
     "Online translation: {0}" to "Tradução online: {0}",
     "Checking offline translation" to "Verificando a tradução offline",
     "Language packages needed" to "Pacotes de idiomas necessários",
@@ -119,7 +118,7 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Install {0} models" to "Instalar {0} modelo|Instalar {0} modelos",
     "Browse all language packages" to "Ver todos os pacotes de idiomas",
     "Browse all language models" to "Ver todos os modelos de idiomas",
-    "Offline translation ready" to "Tradução offline pronta",
+    "Offline translation" to "Tradução offline",
     "Google API key needed" to "É preciso uma chave da API do Google",
     "Managed from the header" to "Escolhido no cabeçalho",
     "Runs on this computer. No network connection required." to "Funciona neste computador. Não precisa de conexão com a internet.",

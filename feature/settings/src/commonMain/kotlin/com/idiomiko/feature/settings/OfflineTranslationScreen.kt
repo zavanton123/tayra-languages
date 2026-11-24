@@ -265,7 +265,7 @@ fun OfflineTranslationScreen(
     ) { padding ->
         SettingsPane(SettingsSection.TRANSLATION, padding, onNavigate) { inner ->
             PageColumn(inner) {
-                ScreenHeader(tr("Translation"), tr("Choose how translations are generated, and add dictionaries of your own."), onBackToSettings = onBack) {
+                ScreenHeader(tr("Translation"), null, onBackToSettings = onBack) {
                     if (!LocalWindowWidth.current.isCompact) EngineStatusPill(settings, viewModel, local, busy || !checked, ready, pairReady)
                 }
                 if (LocalWindowWidth.current.isExpanded && dictionaries.canImport) {
@@ -291,7 +291,7 @@ internal fun EngineStatusPill(settings: UserSettings, viewModel: OfflineTranslat
             !ready -> StatusPill(tr("{0} is not installed", viewModel.localName), StatusTints.warning)
             // Named as the rest of the page names them: packages for the desktop's translator, models for the phone's.
             !pairReady -> StatusPill(if (viewModel.hasRuntimeSetup) tr("Language packages needed") else tr("Language models needed"), StatusTints.warning)
-            else -> StatusPill(tr("Offline translation ready"), StatusTints.ok)
+            else -> StatusPill(tr("Offline translation"), StatusTints.ok)
         }
         TranslationEngine.MYMEMORY -> StatusPill(tr("Online translation: {0}", "MyMemory"), StatusTints.ok)
         TranslationEngine.GOOGLE ->

@@ -104,7 +104,6 @@ internal val elSettings: Map<String, String> = mapOf(
     // OfflineTranslationScreen.kt
     "Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…" to "Εγκατάσταση του {0} στον φάκελο της εφαρμογής. Θα ληφθεί περίπου ένα gigabyte και θα χρειαστούν λίγα λεπτά…",
     "Translation" to "Μετάφραση",
-    "Choose how translations are generated, and add dictionaries of your own." to "Επιλέξτε πώς δημιουργούνται οι μεταφράσεις και προσθέστε δικά σας λεξικά.",
     "Online translation: {0}" to "Online μετάφραση: {0}",
     "Checking offline translation" to "Έλεγχος μετάφρασης εκτός σύνδεσης",
     "Language packages needed" to "Απαιτούνται γλωσσικά πακέτα",
@@ -119,7 +118,7 @@ internal val elSettings: Map<String, String> = mapOf(
     "Install {0} models" to "Εγκατάσταση {0} μοντέλου|Εγκατάσταση {0} μοντέλων",
     "Browse all language packages" to "Όλα τα γλωσσικά πακέτα",
     "Browse all language models" to "Όλα τα γλωσσικά μοντέλα",
-    "Offline translation ready" to "Η μετάφραση εκτός σύνδεσης είναι έτοιμη",
+    "Offline translation" to "Μετάφραση εκτός σύνδεσης",
     "Google API key needed" to "Απαιτείται κλειδί Google API",
     "Managed from the header" to "Επιλέγεται από την επάνω γραμμή",
     "Runs on this computer. No network connection required." to "Λειτουργεί σε αυτόν τον υπολογιστή. Δεν απαιτείται σύνδεση στο δίκτυο.",

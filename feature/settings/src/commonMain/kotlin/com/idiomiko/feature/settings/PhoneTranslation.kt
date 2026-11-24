@@ -2,7 +2,6 @@ package com.idiomiko.feature.settings
 
 import com.idiomiko.core.ui.components.ScrollColumn
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -64,10 +63,7 @@ internal fun PhoneTranslationScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                Text(tr("Choose how translations are generated, and add dictionaries of your own."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-                EngineStatusPill(settings, viewModel, local, checking, ready, pairReady)
-            }
+            EngineStatusPill(settings, viewModel, local, checking, ready, pairReady)
             ContentCard(tr("Translation engine"), subtitle = null, icon = AppIcons.Memory, dense = true) {
                 val engine = settings.translationEngine
                 SelectButton(engine.shortName(viewModel.localName), onClick = { engineSheet = true }, modifier = Modifier.fillMaxWidth().testTag("phone-engine"))

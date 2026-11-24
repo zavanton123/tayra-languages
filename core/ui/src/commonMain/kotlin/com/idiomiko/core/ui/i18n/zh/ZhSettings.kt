@@ -104,7 +104,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     // OfflineTranslationScreen.kt
     "Installing {0} into the app folder. This downloads about a gigabyte and takes a few minutes…" to "正在将 {0} 安装到应用文件夹。需要下载约 1 GB，耗时几分钟…",
     "Translation" to "翻译",
-    "Choose how translations are generated, and add dictionaries of your own." to "选择翻译的生成方式，并添加你自己的词典。",
     "Online translation: {0}" to "在线翻译：{0}",
     "Checking offline translation" to "正在检查离线翻译",
     "Language packages needed" to "需要语言包",
@@ -119,7 +118,7 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Install {0} models" to "安装 {0} 个模型",
     "Browse all language packages" to "浏览全部语言包",
     "Browse all language models" to "浏览全部语言模型",
-    "Offline translation ready" to "离线翻译已就绪",
+    "Offline translation" to "离线翻译",
     "Google API key needed" to "需要 Google API 密钥",
     "Managed from the header" to "在顶部栏中设置",
     "Runs on this computer. No network connection required." to "在这台电脑上运行，无需网络连接。",
