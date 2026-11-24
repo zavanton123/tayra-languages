@@ -107,6 +107,4 @@ internal val plPlaylists: Map<String, String> = mapOf(
     "Shuffle" to "Losowo",
     "Now playing" to "Teraz odtwarzane",
     "Open the queue" to "Otwórz kolejkę",
-    "This is the last text" to "To ostatni tekst",
-    "{0} more texts" to "jeszcze {0} tekst|jeszcze {0} teksty|jeszcze {0} tekstów",
 )

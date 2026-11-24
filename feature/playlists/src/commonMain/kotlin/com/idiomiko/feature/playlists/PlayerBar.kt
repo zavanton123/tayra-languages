@@ -152,10 +152,17 @@ private fun CloseButton(viewModel: PlayerViewModel, onClosed: () -> Unit = {}) {
 /**
  * Shuffle, previous, play or pause, next and repeat, then the place in the text with its seek bar
  * and the speed; on one row when [wide], else the buttons above the seek bar. Without [showSeek] a wide
- * row has the buttons in its middle and the speed at its end.
+ * row has the buttons in its middle and the speed at its end, a narrow one the speed first and [trailing] last.
  */
 @Composable
-internal fun PlayerControls(state: PlayerUiState, viewModel: PlayerViewModel, modifier: Modifier = Modifier, wide: Boolean = false, showSeek: Boolean = true) {
+internal fun PlayerControls(
+    state: PlayerUiState,
+    viewModel: PlayerViewModel,
+    modifier: Modifier = Modifier,
+    wide: Boolean = false,
+    showSeek: Boolean = true,
+    trailing: @Composable () -> Unit = {},
+) {
     val colors = MaterialTheme.colorScheme
     val p = state.player
     val player = viewModel.player
@@ -225,6 +232,15 @@ internal fun PlayerControls(state: PlayerUiState, viewModel: PlayerViewModel, mo
         Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
             buttons()
             seek(Modifier.weight(1f))
+        }
+    } else if (!showSeek) {
+        // A phone's player: the speed, the buttons in the middle and [trailing] on one row.
+        Row(modifier, verticalAlignment = Alignment.CenterVertically) {
+            speed()
+            Spacer(Modifier.weight(1f))
+            buttons()
+            Spacer(Modifier.weight(1f))
+            trailing()
         }
     } else {
         Column(modifier, horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {

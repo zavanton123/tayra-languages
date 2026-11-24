@@ -9,6 +9,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -146,17 +147,17 @@ class PlayerScreensTest {
             val state by viewModel.state.collectAsState()
             PlayerContent(state, viewModel, onNavigate = {})
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("up-next-peek")).fetchSemanticsNodes().isNotEmpty() }
-        // The screen is the player's: the next text is named at its foot, the queue stays closed.
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("open-queue")).fetchSemanticsNodes().isNotEmpty() }
+        // The screen is the player's: the card has the place and the times, the row the speed, buttons and queue.
         val order = data.player.state.value.order
-        val second = data.player.state.value.playlist!!.items.first { it.id == order[1] }
-        onNodeWithText(second.title).assertExists()
-        onNodeWithText("2 more texts").assertExists()
         onNodeWithTag("queue-${order[2]}").assertDoesNotExist()
+        onNodeWithTag("seek").assertDoesNotExist()
+        onNodeWithTag("text-time").assertTextContains(" / ", substring = true)
         onNodeWithTag("shuffle").assertExists()
+        onNodeWithTag("speed").assertExists()
         screenshot("player-phone")
 
-        onNodeWithTag("up-next-peek").performClick()
+        onNodeWithTag("open-queue").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("queue-${order[2]}")).fetchSemanticsNodes().isNotEmpty() }
         screenshot("player-phone-queue")
         onNodeWithTag("queue-${order[2]}").performClick()

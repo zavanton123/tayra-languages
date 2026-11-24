@@ -33,8 +33,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.rememberScrollState
 import com.idiomiko.core.ui.components.AppBottomSheet
-import com.idiomiko.core.ui.i18n.trPlural
-import androidx.compose.material.icons.filled.KeyboardArrowUp
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -144,8 +142,10 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
                     Box(Modifier.fillMaxWidth().weight(1f).cardSurface(AppShapes.large).padding(AppSpacing.l).testTag("now-playing-card")) {
                         NowPlaying(state, viewModel, onNavigate, fill = true)
                     }
-                    PlayerControls(state, viewModel, Modifier.fillMaxWidth())
-                    UpNextPeek(state, onOpen = { queueOpen = true })
+                    // The card shows the place in the text; the queue opens from its icon at the row's end.
+                    PlayerControls(state, viewModel, Modifier.fillMaxWidth(), showSeek = false) {
+                        AppIconButton(AppIcons.QueueMusic, contentDescription = tr("Open the queue"), onClick = { queueOpen = true }, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.testTag("open-queue"))
+                    }
                 }
             } else {
                 Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -174,31 +174,6 @@ private fun QueueSheet(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
         Column(Modifier.verticalScroll(rememberScrollState()).padding(horizontal = AppSpacing.l).padding(bottom = AppSpacing.xl)) {
             UpNext(state, viewModel, onNavigate = { onDismiss(); onNavigate(it) })
         }
-    }
-}
-
-/** The next text and how many follow it, at the foot of a phone's player; a tap opens the queue. */
-@Composable
-private fun UpNextPeek(state: PlayerUiState, onOpen: () -> Unit) {
-    val p = state.player
-    val playlist = p.playlist ?: return
-    val colors = MaterialTheme.colorScheme
-    val next = p.order.getOrNull(p.queueIndex + 1)?.let { id -> playlist.items.firstOrNull { it.id == id } }
-    val more = (p.order.size - p.queueIndex - 2).coerceAtLeast(0)
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.large).cardSurface(AppShapes.large)
-            .clickable(onClickLabel = tr("Open the queue"), role = Role.Button, onClick = onOpen)
-            .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m).testTag("up-next-peek"),
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
-    ) {
-        Icon(AppIcons.QueueMusic, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.iconLarge))
-        Column(Modifier.weight(1f)) {
-            Text(tr("Up next"), style = MaterialTheme.typography.labelMedium, color = colors.onSurfaceVariant)
-            Text(next?.title ?: tr("This is the last text"), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        }
-        if (more > 0) Text(trPlural(more, "{0} more text", "{0} more texts"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1)
-        Icon(Icons.Default.KeyboardArrowUp, contentDescription = null, tint = colors.onSurfaceVariant)
     }
 }
 
@@ -253,7 +228,10 @@ private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
         if (p.sentences.isNotEmpty()) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-                    Text(tr("Sentence {0} of {1}", p.sentence + 1, p.sentences.size), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(tr("Sentence {0} of {1}", p.sentence + 1, p.sentences.size), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                        Text("${clockTime(state.elapsed)} / ${clockTime(state.total)}", Modifier.testTag("text-time"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                    }
                     ProgressTrack((p.sentence + 1).toFloat() / p.sentences.size, colors.primary, Modifier.fillMaxWidth(), height = AppSizes.track)
                 }
                 AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous sentence"), onClick = player::previousSentence, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("previous-sentence"))
