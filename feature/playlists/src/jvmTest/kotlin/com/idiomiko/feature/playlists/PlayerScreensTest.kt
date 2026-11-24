@@ -78,6 +78,15 @@ class PlayerScreensTest {
         onNodeWithText("1 of 4").assertExists()
         onNodeWithText("Sentence 1 of 12").assertExists()
         onNodeWithTag("player-bar").assertExists()
+        // The text being heard fills the window's height: its title on top, the sentence in the middle, the progress at the bottom.
+        val card = onNodeWithTag("now-playing-card").fetchSemanticsNode().boundsInRoot
+        val title = onNodeWithText("1 of 4").fetchSemanticsNode().boundsInRoot
+        val sentence = onNodeWithTag("current-sentence").fetchSemanticsNode().boundsInRoot
+        val progress = onNodeWithText("Sentence 1 of 12").fetchSemanticsNode().boundsInRoot
+        assertTrue(card.height > 500f, "the card takes the height, not its content's: $card")
+        assertTrue(title.top - card.top < 100f, "the title stays at the top: $title in $card")
+        assertTrue(kotlin.math.abs(sentence.center.y - card.center.y) < card.height / 6, "the sentence sits in the middle: $sentence in $card")
+        assertTrue(card.bottom - progress.bottom < 100f, "the progress sits at the bottom: $progress in $card")
         screenshot("player")
 
         // On the player, the bar's text goes back to the text in the reader.

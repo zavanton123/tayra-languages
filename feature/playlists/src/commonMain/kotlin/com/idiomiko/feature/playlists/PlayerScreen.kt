@@ -3,6 +3,8 @@ package com.idiomiko.feature.playlists
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -91,56 +93,70 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
     val compact = LocalWindowWidth.current.isCompact
     val p = state.player
     val playlist = p.playlist
-    ScrollColumn(
-        modifier.fillMaxSize(),
-        contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
-    ) {
-        if (!p.isLoaded || playlist == null) {
-            EmptyState(
-                tr("Nothing is playing"),
-                message = tr("Play a playlist to hear its texts one after another."),
-                action = { PrimaryButton(tr("Open playlists"), onClick = { onNavigate(Route.Playlists) }, icon = AppIcons.QueueMusic) },
-            )
-            return@ScrollColumn
-        }
-        val header: @Composable () -> Unit = {
-            ScreenHeader(
-                playlist.name,
-                playlistFacts(playlist, state.duration),
-                crumbs = if (compact) emptyList() else listOf(Crumb(tr("Playlists")) { onNavigate(Route.Playlists) }, Crumb(playlist.name) { onNavigate(Route.Playlist(playlist.id)) }),
-            )
-        }
-        if (compact) {
-            header()
-            Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { NowPlaying(state, viewModel, onNavigate) }
-            PlayerControls(state, viewModel, Modifier.fillMaxWidth())
-            BackToText(state, onNavigate)
-            Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { UpNext(state, viewModel, onNavigate) }
-        } else {
-            Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                Column(Modifier.weight(1.6f).cardSurface(AppShapes.large).padding(AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                    header()
-                    Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxl)) { NowPlaying(state, viewModel, onNavigate) }
+    BoxWithConstraints(modifier.fillMaxSize()) {
+        // On a wide window the text being heard takes the window's height, so its sentence sits in the middle.
+        val fillHeight = (maxHeight - AppSpacing.xxl * 2).coerceAtLeast(MIN_NOW_PLAYING_HEIGHT)
+        ScrollColumn(
+            Modifier.fillMaxSize(),
+            contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
+            verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
+        ) {
+            if (!p.isLoaded || playlist == null) {
+                EmptyState(
+                    tr("Nothing is playing"),
+                    message = tr("Play a playlist to hear its texts one after another."),
+                    action = { PrimaryButton(tr("Open playlists"), onClick = { onNavigate(Route.Playlists) }, icon = AppIcons.QueueMusic) },
+                )
+                return@ScrollColumn
+            }
+            val header: @Composable () -> Unit = {
+                ScreenHeader(
+                    playlist.name,
+                    playlistFacts(playlist, state.duration),
+                    crumbs = if (compact) emptyList() else listOf(Crumb(tr("Playlists")) { onNavigate(Route.Playlists) }, Crumb(playlist.name) { onNavigate(Route.Playlist(playlist.id)) }),
+                )
+            }
+            if (compact) {
+                header()
+                Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { NowPlaying(state, viewModel, onNavigate) }
+                PlayerControls(state, viewModel, Modifier.fillMaxWidth())
+                BackToText(state, onNavigate)
+                Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { UpNext(state, viewModel, onNavigate) }
+            } else {
+                Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                    Column(Modifier.weight(1.6f).height(fillHeight).cardSurface(AppShapes.large).padding(AppSpacing.xxl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                        header()
+                        Box(Modifier.fillMaxWidth().weight(1f).cardSurface(AppShapes.large).padding(AppSpacing.xxl).testTag("now-playing-card")) {
+                            NowPlaying(state, viewModel, onNavigate, fill = true)
+                        }
+                    }
+                    Box(Modifier.weight(1f).heightIn(min = fillHeight).cardSurface(AppShapes.large).padding(AppSpacing.xxl)) { UpNext(state, viewModel, onNavigate) }
                 }
-                Box(Modifier.weight(1f).cardSurface(AppShapes.large).padding(AppSpacing.xxl)) { UpNext(state, viewModel, onNavigate) }
             }
         }
     }
 }
 
-/** The text being heard and its sentence, or the end of the playlist. */
+/** Below this the card would squeeze its sentence; the page scrolls instead. */
+private val MIN_NOW_PLAYING_HEIGHT = 520.dp
+
+/**
+ * The text being heard and its sentence, or the end of the playlist. With [fill] it takes its card's height:
+ * the title at the top, the sentence in the middle and the progress at the bottom.
+ */
 @Composable
-private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit) {
+private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit, fill: Boolean = false) {
     val p = state.player
     val colors = MaterialTheme.colorScheme
     val player = viewModel.player
     if (p.status == PlayerStatus.COMPLETE) {
-        Complete(state, onPlayAgain = player::playAgain, onBack = { onNavigate(Route.Playlists) })
+        Box(if (fill) Modifier.fillMaxSize() else Modifier, contentAlignment = Alignment.Center) {
+            Complete(state, onPlayAgain = player::playAgain, onBack = { onNavigate(Route.Playlists) })
+        }
         return
     }
     val item = p.item
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+    Column(if (fill) Modifier.fillMaxSize() else Modifier, verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = tr("Previous text"), onClick = player::previous, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("previous-text"))
             Text(tr("{0} of {1}", p.queueIndex + 1, p.order.size), style = AppText.emphasis)
@@ -152,6 +168,7 @@ private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
         if (p.status == PlayerStatus.BLOCKED && problem != null) {
             InfoBanner(problemMessage(problem), tint = AppAccents.orange, icon = Icons.Default.Warning)
         }
+        if (fill) Spacer(Modifier.weight(1f))
         val sentence = p.currentSentence
         if (sentence != null) {
             Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
@@ -170,6 +187,7 @@ private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
                 }
             }
         }
+        if (fill) Spacer(Modifier.weight(1f))
         if (p.sentences.isNotEmpty()) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
