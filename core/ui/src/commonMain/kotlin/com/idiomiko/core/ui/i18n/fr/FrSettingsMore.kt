@@ -17,8 +17,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Light" to "Clairs",
     "Dark" to "Sombres",
     "Reading" to "Lecture",
-    "{0} new a day" to "{0} nouvelle par jour|{0} nouvelles par jour",
-    "The version of the app and where it comes from." to "La version de l'application et son origine.",
     "Offline resources" to "Ressources hors ligne",
     "Reading font" to "Police de lecture",
     "Reading font size" to "Taille de police de lecture",
@@ -93,7 +91,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Hotkeys" to "Raccourcis",
-    "Customise how you navigate and listen while reading." to "Personnalisez les touches pour naviguer et écouter pendant la lecture.",
     "No shortcuts match “{0}”." to "Aucun raccourci ne correspond à « {0} ».",
     "Every keyboard shortcut goes back to its default key." to "Chaque raccourci clavier revient à sa touche par défaut.",
     "Navigation" to "Navigation",

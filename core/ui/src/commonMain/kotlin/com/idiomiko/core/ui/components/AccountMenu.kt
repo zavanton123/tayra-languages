@@ -100,7 +100,7 @@ private fun MenuHeader(badge: AccountBadge?) {
 
 /** A person in a circle, where an avatar would be while no one is signed in. */
 @Composable
-private fun NoAvatar(size: Dp) {
+internal fun NoAvatar(size: Dp) {
     val colors = MaterialTheme.colorScheme
     Box(Modifier.size(size).clip(AppShapes.circle).background(colors.surfaceContainerHigh), contentAlignment = Alignment.Center) {
         Icon(Icons.Default.Person, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(size * PERSON_SCALE))

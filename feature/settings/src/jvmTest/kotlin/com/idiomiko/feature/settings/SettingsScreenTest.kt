@@ -1,7 +1,6 @@
 package com.idiomiko.feature.settings
 
 import com.idiomiko.core.ui.navigation.Route
-import com.idiomiko.core.domain.service.SpeechEngine
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.collectAsState
@@ -10,6 +9,7 @@ import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onLast
 import androidx.compose.ui.test.assertIsSelected
@@ -131,29 +131,15 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f && settings.current.readingFont == "serif" }
     }
 
-    /**
-     * A phone's settings end with the pages the More sheet does not list, in the plan's groups, each
-     * with its current value where it has one.
-     */
+    /** A phone's General page holds its own settings only: the other settings pages are on the More sheet. */
     @Test
-    fun aPhoneIndexesTheSettingsMoreLeavesOut() = runDesktopComposeUiTest(width = 400, height = 2600) {
+    fun aPhonesGeneralPageLeavesTheOtherPagesToMore() = runDesktopComposeUiTest(width = 400, height = 2600) {
         val settings = SettingsRepositoryImpl(MapSettings())
-        runBlocking { settings.update { it.copy(speechEngine = SpeechEngine.PIPER, flashcardNewPerDay = 15) } }
-        val visited = mutableListOf<Route>()
-        setContent { Hosted(settings) { SettingsScreen(onNavigate = { visited += it }, viewModel = SettingsViewModel(settings)) } }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Preferences").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Preferences").assertExists()
-        onNodeWithText("Data").assertDoesNotExist()
-        // The current value beside the page: the cards a day.
-        onNodeWithText("15 new a day").assertExists()
-        for (route in listOf(Route.Goals, Route.FlashcardSettings, Route.VocabularySettings)) onNodeWithTag("settings-link-$route").assertExists()
-        // More lists the offline resources, the languages, the backups and About; a phone has no keyboard shortcuts page.
-        onNodeWithText("Offline resources").assertDoesNotExist()
-        for (route in listOf(Route.Speech, Route.Languages, Route.Backups, Route.About, Route.Shortcuts)) onNodeWithTag("settings-link-$route").assertDoesNotExist()
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("word-statuses").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Preferences").assertDoesNotExist()
+        for (route in listOf(Route.Goals, Route.FlashcardSettings, Route.VocabularySettings)) onNodeWithTag("settings-link-$route").assertDoesNotExist()
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-phone-index.png")) }
-        // A phone has no sidebar, so its goals are reached from here.
-        onNodeWithTag("settings-link-${Route.Goals}").performClick()
-        assertEquals(listOf<Route>(Route.Goals), visited)
     }
 
     /** The theme list shows each theme with its colours; a theme that was removed opens as the one standing in for it. */

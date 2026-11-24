@@ -1,7 +1,5 @@
 package com.idiomiko.feature.settings
 
-import androidx.compose.ui.graphics.vector.ImageVector
-import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.domain.service.TranslationEngine
 import com.idiomiko.core.domain.service.SpeechEngine
 import androidx.compose.foundation.background
@@ -21,9 +19,7 @@ import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Refresh
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -69,7 +65,6 @@ import com.idiomiko.core.ui.components.InfoBanner
 import com.idiomiko.core.ui.components.LocalLearningLanguage
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
-import com.idiomiko.core.ui.components.NavigationRow
 import com.idiomiko.core.ui.components.NumberStepper
 import com.idiomiko.core.ui.components.PageColumn
 import com.idiomiko.core.ui.components.PrimaryButton
@@ -142,7 +137,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                         }
                         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             PreviewCard(settings)
-                            SettingsIndex(settings, onNavigate, compact = false)
                         }
                     }
                 } else {
@@ -150,7 +144,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     ReadingCard(settings, viewModel)
                     PreviewCard(settings)
                     WordStatusesCard(settings, viewModel)
-                    SettingsIndex(settings, onNavigate, compact = false)
                 }
             }
         }
@@ -166,54 +159,6 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         )
     }
 }
-
-/** A page of the settings index: its name, what it holds, where it leads, and its current value when it has one. */
-private class SettingsPage(val title: String, val description: String, val route: Route, val icon: ImageVector, val value: String? = null)
-
-/**
- * Every other settings page, so none is found only through a menu: the preferences, the offline
- * resources, and the data, with clearing it last and in red. Each shows its current value where
- * it has one. A [compact] index leaves the descriptions out, the keyboard shortcuts, and the pages
- * the phone's More sheet already lists, so it holds only what More does not.
- */
-@Composable
-internal fun SettingsIndex(settings: UserSettings, onNavigate: (Route) -> Unit, compact: Boolean) {
-    val learning = LocalLearningLanguage.current?.current?.label?.let { tr(it) }
-    val preferences = listOfNotNull(
-        SettingsPage(tr("Goals"), tr("Minutes of reading and flashcards a day. Home shows how far today has got."), Route.Goals, AppIcons.Target),
-        SettingsPage(tr("Languages"), tr("Choose what you learn, how translations appear, and the language of the app."), Route.Languages, AppIcons.Globe, learning),
-        SettingsPage(tr("Flashcards"), tr("Daily limits and how reviews are scheduled."), Route.FlashcardSettings, AppIcons.Style, trPlural(settings.flashcardNewPerDay, "{0} new a day", "{0} new a day")),
-        SettingsPage(tr("Vocabulary"), tr("How much of the language you know already."), Route.VocabularySettings, AppIcons.Abc),
-        if (compact) null else SettingsPage(tr("Hotkeys"), tr("Customise how you navigate and listen while reading."), Route.Shortcuts, AppIcons.Keyboard),
-        SettingsPage(tr("About"), tr("The version of the app and where it comes from."), Route.About, Icons.Default.Info),
-        SettingsPage(tr("Experiments"), tr("Turn on features that are still being built."), Route.ExperimentalFeatures, AppIcons.Lightbulb),
-    )
-    val card: @Composable (String, ImageVector, List<SettingsPage>, (@Composable () -> Unit)?) -> Unit = { title, icon, all, extra ->
-        val pages = if (compact) all.filter { it.route !in ON_MORE_SHEET } else all
-        if (pages.isNotEmpty() || !compact || extra != null) ContentCard(title, subtitle = null, icon = icon, dense = compact) {
-            pages.forEach { page ->
-                NavigationRow(
-                    page.title,
-                    onClick = { onNavigate(page.route) },
-                    value = page.value,
-                    description = if (compact) null else page.description,
-                    icon = page.icon,
-                    modifier = Modifier.testTag("settings-link-${page.route}"),
-                )
-            }
-            extra?.invoke()
-        }
-    }
-    // A wide window's settings sidebar leads to these pages; a phone reaches its flashcard and vocabulary settings only from here.
-    if (compact) card(tr("Preferences"), Icons.Default.Settings, preferences, null)
-}
-
-/** The pages the phone's More sheet lists, which a phone's settings index leaves out. */
-private val ON_MORE_SHEET = setOf<Route>(
-    Route.Languages, Route.About, Route.ExperimentalFeatures, Route.Speech, Route.OfflineTranslation, Route.Backups, Route.ClearData, Route.Account,
-)
-
-
 
 @Composable
 private fun AppearanceCard(settings: UserSettings, viewModel: SettingsViewModel) {

@@ -17,8 +17,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Light" to "Светлые",
     "Dark" to "Тёмные",
     "Reading" to "Чтение",
-    "{0} new a day" to "{0} новая в день|{0} новые в день|{0} новых в день",
-    "The version of the app and where it comes from." to "Версия приложения и его происхождение.",
     "Offline resources" to "Офлайн-ресурсы",
     "Reading font" to "Шрифт для чтения",
     "Reading font size" to "Размер шрифта",
@@ -93,7 +91,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Hotkeys" to "Горячие клавиши",
-    "Customise how you navigate and listen while reading." to "Настройте клавиши для перемещения по тексту и прослушивания.",
     "No shortcuts match “{0}”." to "Нет сочетаний клавиш по запросу «{0}».",
     "Every keyboard shortcut goes back to its default key." to "Все сочетания клавиш вернутся к значениям по умолчанию.",
     "Navigation" to "Навигация",

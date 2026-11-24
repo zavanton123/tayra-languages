@@ -105,12 +105,15 @@ class PhoneNavigationTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Croatian").assertExists()
-        // The plan's four groups; the settings of single features are found from Settings.
-        for (group in listOf("WORDS AND PROGRESS", "OFFLINE RESOURCES", "PREFERENCES AND DATA")) onNodeWithText(group).assertExists()
+        // The settings pages as the wide window's sidebar lists them; the account is the bar's avatar.
+        for (group in listOf("WORDS AND PROGRESS", "OFFLINE RESOURCES", "SETTINGS")) onNodeWithText(group).assertExists()
+        for (gone in listOf("ACCOUNT", "PREFERENCES AND DATA")) onNodeWithText(gone).assertDoesNotExist()
+        onNodeWithTag("more-Account").assertDoesNotExist()
+        for (page in listOf("General", "Goals", "Flashcard settings", "Vocabulary settings")) onNodeWithTag("more-$page").assertExists()
         // Under Read, or a tab of their own, instead; Watch only with the videos on.
         for (page in listOf("more-News", "more-Find books", "more-Playlists")) onNodeWithTag(page).assertDoesNotExist()
         onNodeWithText("WATCH").assertDoesNotExist()
-        for (gone in listOf("Data", "Hotkeys", "Flashcard settings", "Vocabulary settings")) onNodeWithText(gone).assertDoesNotExist()
+        for (gone in listOf("Data", "Hotkeys")) onNodeWithText(gone).assertDoesNotExist()
         // A phone has no settings sidebar, so clearing the data has its own row, right below the backups.
         val backups = onNodeWithTag("more-Backups").fetchSemanticsNode().boundsInRoot
         val clear = onNodeWithTag("more-Clear data").fetchSemanticsNode().boundsInRoot

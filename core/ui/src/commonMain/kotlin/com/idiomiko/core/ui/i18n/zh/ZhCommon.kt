@@ -9,10 +9,8 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Translations, definitions and examples." to "翻译、释义和例句。",
     "Menus, buttons and messages." to "菜单、按钮和提示信息。",
     // PhoneNavigation.kt
-    "Preferences" to "偏好设置",
     "Watch" to "观看",
     "Words and progress" to "词汇与进度",
-    "Preferences and data" to "偏好与数据",
     // Language names, shown through tr(name).
     "Afrikaans" to "南非荷兰语",
     "Albanian" to "阿尔巴尼亚语",
@@ -213,7 +211,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "下载某种语言的模型后，Google ML Kit 可在本设备上离线翻译。模型由 Google 提供，并保存在设备上。",
 
     // LanguagesScreen.kt
-    "Choose what you learn, how translations appear, and the language of the app." to "选择你要学的语言、翻译的显示语言以及应用的语言。",
     "Language setup" to "语言设置",
     "I'm learning" to "我在学",
     "Studying" to "学习",

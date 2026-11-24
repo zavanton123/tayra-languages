@@ -17,8 +17,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Light" to "浅色",
     "Dark" to "深色",
     "Reading" to "阅读",
-    "{0} new a day" to "每天 {0} 张新卡",
-    "The version of the app and where it comes from." to "应用的版本和来源。",
     "Offline resources" to "离线资源",
     "Reading font" to "阅读字体",
     "Reading font size" to "阅读字号",
@@ -93,7 +91,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Hotkeys" to "快捷键",
-    "Customise how you navigate and listen while reading." to "自定义阅读时用于导航和收听的按键。",
     "No shortcuts match “{0}”." to "没有与“{0}”匹配的快捷键。",
     "Every keyboard shortcut goes back to its default key." to "所有键盘快捷键都将恢复为默认按键。",
     "Navigation" to "导航",

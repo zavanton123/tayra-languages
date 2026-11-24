@@ -1,6 +1,7 @@
 package com.idiomiko.core.ui.components
 
 import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onFirst
 import androidx.compose.ui.graphics.toPixelMap
 import com.idiomiko.core.ui.theme.AppAccents
 import kotlin.math.abs
@@ -162,6 +163,21 @@ class AppTopBarTest {
         onNodeWithTag("account-avatar").assertExists()
     }
 
+    /** Signed out, a phone's bar shows a person in a circle in the avatar's place, leading to the account page. */
+    @OptIn(ExperimentalTestApi::class)
+    @Test
+    fun aPhonesBarLeadsToTheAccountWhenSignedOut() = runDesktopComposeUiTest(width = 400, height = 800) {
+        val visited = mutableListOf<Route>()
+        setContent { MaterialTheme { ProvideWindowWidth { AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME) } } }
+        onNodeWithTag("account-avatar").assertDoesNotExist()
+        onNodeWithTag("account-button").performClick()
+        assertEquals(listOf<Route>(Route.Account), visited)
+        System.getenv("PHONE_BAR_SCREENSHOT")?.let { path ->
+            waitForIdle()
+            javax.imageio.ImageIO.write(onAllNodes(isRoot()).onFirst().captureToImage().toAwtImage(), "png", java.io.File(path))
+        }
+    }
+
     @Test
     fun theAvatarsLetterIsTheNamesOrTheEmails() {
         assertEquals("A", initial("ana reader", "zed@example.com"))
@@ -241,7 +257,7 @@ class AppTopBarTest {
         onNodeWithContentDescription("Account and settings").assertExists()
         System.getenv("NARROW_BAR_SCREENSHOT")?.let { path ->
             waitForIdle()
-            javax.imageio.ImageIO.write(onRoot().captureToImage().toAwtImage(), "png", java.io.File(path))
+            javax.imageio.ImageIO.write(onAllNodes(isRoot()).onFirst().captureToImage().toAwtImage(), "png", java.io.File(path))
         }
         onNodeWithText("More").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Statistics").fetchSemanticsNodes().isNotEmpty() }

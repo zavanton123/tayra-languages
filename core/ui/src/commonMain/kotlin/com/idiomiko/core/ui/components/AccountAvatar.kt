@@ -24,6 +24,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
 import com.idiomiko.core.ui.i18n.tr
+import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -52,16 +53,17 @@ fun AccountAvatar(name: String?, email: String, picture: ByteArray?, size: Dp, m
 internal fun initial(name: String?, email: String): String =
     (name?.trim()?.takeIf { it.isNotEmpty() } ?: email.trim()).firstOrNull()?.uppercase() ?: "?"
 
-/** A phone bar's way to the account page: its avatar, named by a tooltip. */
+/** A phone bar's way to the account page: the avatar, named by a tooltip, or a person in a circle while no one is signed in. */
 @Composable
-internal fun AccountButton(badge: AccountBadge) {
+internal fun AccountButton(badge: AccountBadge?, onNavigate: (Route) -> Unit) {
     val label = tr("Account")
-    AppTooltip(badge.name ?: badge.email) {
+    AppTooltip(badge?.let { it.name ?: it.email } ?: label) {
         Box(
-            Modifier.clip(AppShapes.circle).clickable(onClickLabel = label, role = Role.Button, onClick = badge.open)
-                .padding(AppSpacing.xs).testTag("account-avatar").semantics { contentDescription = label },
+            Modifier.clip(AppShapes.circle).clickable(onClickLabel = label, role = Role.Button) { badge?.open?.invoke() ?: onNavigate(Route.Account) }
+                .padding(AppSpacing.xs).testTag(if (badge != null) "account-avatar" else "account-button").semantics { contentDescription = label },
         ) {
-            AccountAvatar(badge.name, badge.email, badge.picture, AppSizes.iconXLarge)
+            if (badge != null) AccountAvatar(badge.name, badge.email, badge.picture, AppSizes.iconXLarge)
+            else NoAvatar(AppSizes.iconXLarge)
         }
     }
 }

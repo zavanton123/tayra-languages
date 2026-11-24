@@ -86,8 +86,6 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
             ContentCard(tr("Display word statuses"), subtitle = null, icon = AppIcons.Visibility, dense = true, modifier = Modifier.testTag("word-statuses")) {
                 SwitchSetting(tr("Show learning levels"), description = tr("Statuses 1 to 4 for words being learned, and Ignored, rather than only New, Learning and Known."), checked = settings.showLearningLevels, dense = true) { v -> viewModel.update { it.copy(showLearningLevels = v) } }
             }
-            // The other settings pages, as on the desktop: a phone's index has no room for the descriptions.
-            SettingsIndex(settings, onNavigate, compact = true)
         }
     }
     if (themeSheet) {

@@ -17,8 +17,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Light" to "Φωτεινά",
     "Dark" to "Σκούρα",
     "Reading" to "Ανάγνωση",
-    "{0} new a day" to "{0} νέα την ημέρα|{0} νέες την ημέρα",
-    "The version of the app and where it comes from." to "Η έκδοση της εφαρμογής και η προέλευσή της.",
     "Offline resources" to "Πόροι εκτός σύνδεσης",
     "Reading font" to "Γραμματοσειρά ανάγνωσης",
     "Reading font size" to "Μέγεθος γραμματοσειράς ανάγνωσης",
@@ -93,7 +91,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
 
     // ShortcutsScreen.kt
     "Hotkeys" to "Συντομεύσεις",
-    "Customise how you navigate and listen while reading." to "Προσαρμόστε τα πλήκτρα για πλοήγηση και ακρόαση κατά την ανάγνωση.",
     "No shortcuts match “{0}”." to "Καμία συντόμευση δεν ταιριάζει με «{0}».",
     "Every keyboard shortcut goes back to its default key." to "Όλες οι συντομεύσεις πληκτρολογίου επανέρχονται στα προεπιλεγμένα πλήκτρα.",
     "Navigation" to "Πλοήγηση",

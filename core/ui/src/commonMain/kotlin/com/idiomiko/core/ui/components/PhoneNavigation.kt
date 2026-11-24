@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Home
@@ -142,16 +141,15 @@ private fun RowScope.PhoneTab(
     )
 }
 
-/** What a More row leads to; [label] is English, shown through `tr`. */
-internal class MoreEntry(val label: String, val icon: ImageVector, val route: Route)
+/** What a More row leads to; [label] is English, shown through `tr`, and [tag] tells apart rows of the same name. */
+internal class MoreEntry(val label: String, val icon: ImageVector, val route: Route, val tag: String = label)
 
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
 /**
  * The More sheet's destinations, in groups: the videos when they are on, the words and how they go,
- * what is downloaded for use offline, and the preferences and data. The settings pages of a single
- * feature are found from Settings, which indexes them; clearing the data is listed here, since a
- * phone has no settings sidebar to reach it from.
+ * what is downloaded for use offline, and the settings pages the wide window's sidebar lists, less
+ * the hotkeys and the updates a phone has no use for, with About. The account is the bar's avatar.
  */
 private fun moreGroups(videos: Boolean) = listOfNotNull(
     // What there is to read is under Read, the playlists have a tab.
@@ -172,12 +170,14 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
             MoreEntry("Translation", AppIcons.Translate, Route.OfflineTranslation),
         ),
     ),
-    MoreGroup("Account", listOf(MoreEntry("Account", Icons.Default.AccountCircle, Route.Account))),
     MoreGroup(
-        "Preferences and data",
-        listOfNotNull(
-            MoreEntry("Settings", Icons.Default.Settings, Route.Settings),
+        "Settings",
+        listOf(
+            MoreEntry("General", Icons.Default.Settings, Route.Settings),
+            MoreEntry("Goals", AppIcons.Target, Route.Goals),
             MoreEntry("Languages", AppIcons.Globe, Route.Languages),
+            MoreEntry("Flashcards", AppIcons.Style, Route.FlashcardSettings, tag = "Flashcard settings"),
+            MoreEntry("Vocabulary", AppIcons.Abc, Route.VocabularySettings, tag = "Vocabulary settings"),
             MoreEntry("Backups", AppIcons.UploadFile, Route.Backups),
             MoreEntry("Clear data", AppIcons.DeleteOutline, Route.ClearData),
             MoreEntry("About", Icons.Default.Info, Route.About),
@@ -218,7 +218,7 @@ private fun MoreRow(entry: MoreEntry, value: String?, onClick: () -> Unit) {
     NavigationRow(
         tr(entry.label),
         onClick = onClick,
-        modifier = Modifier.testTag("more-${entry.label}"),
+        modifier = Modifier.testTag("more-${entry.tag}"),
         value = value,
         icon = entry.icon,
         edgePadding = AppSpacing.xl,

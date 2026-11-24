@@ -9,10 +9,8 @@ internal val plCommon: Map<String, String> = mapOf(
     "Translations, definitions and examples." to "Tłumaczenia, definicje i przykłady.",
     "Menus, buttons and messages." to "Menu, przyciski i komunikaty.",
     // PhoneNavigation.kt
-    "Preferences" to "Preferencje",
     "Watch" to "Oglądaj",
     "Words and progress" to "Słowa i postępy",
-    "Preferences and data" to "Ustawienia i dane",
     // Language names, shown through tr(name).
     "Afrikaans" to "Afrikaans",
     "Albanian" to "Albański",
@@ -213,7 +211,6 @@ internal val plCommon: Map<String, String> = mapOf(
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Google ML Kit tłumaczy na tym urządzeniu bez dostępu do sieci, gdy model języka jest pobrany. Modele pochodzą od Google i pozostają na urządzeniu.",
 
     // LanguagesScreen.kt
-    "Choose what you learn, how translations appear, and the language of the app." to "Wybierz, czego się uczysz, na jaki język tłumaczyć i język aplikacji.",
     "Language setup" to "Konfiguracja języków",
     "I'm learning" to "Uczę się",
     "Studying" to "Nauka",

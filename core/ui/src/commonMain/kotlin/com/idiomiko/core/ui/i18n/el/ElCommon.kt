@@ -9,10 +9,8 @@ internal val elCommon: Map<String, String> = mapOf(
     "Translations, definitions and examples." to "Μεταφράσεις, ορισμοί και παραδείγματα.",
     "Menus, buttons and messages." to "Μενού, κουμπιά και μηνύματα.",
     // PhoneNavigation.kt
-    "Preferences" to "Προτιμήσεις",
     "Watch" to "Παρακολούθηση",
     "Words and progress" to "Λέξεις και πρόοδος",
-    "Preferences and data" to "Προτιμήσεις και δεδομένα",
     // Language names, shown through tr(name).
     "Afrikaans" to "Αφρικάανς",
     "Albanian" to "Αλβανικά",
@@ -213,7 +211,6 @@ internal val elCommon: Map<String, String> = mapOf(
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Το Google ML Kit μεταφράζει σε αυτή τη συσκευή χωρίς δίκτυο, αφού γίνει λήψη του μοντέλου μιας γλώσσας. Τα μοντέλα προέρχονται από την Google και μένουν στη συσκευή.",
 
     // LanguagesScreen.kt
-    "Choose what you learn, how translations appear, and the language of the app." to "Επιλέξτε τι μαθαίνετε, σε ποια γλώσσα εμφανίζονται οι μεταφράσεις και τη γλώσσα της εφαρμογής.",
     "Language setup" to "Ρύθμιση γλωσσών",
     "I'm learning" to "Μαθαίνω",
     "Studying" to "Μελέτη",
