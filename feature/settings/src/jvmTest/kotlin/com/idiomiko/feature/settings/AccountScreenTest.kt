@@ -56,6 +56,9 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.assertTextEquals
 import kotlin.test.assertEquals
@@ -88,7 +91,9 @@ class AccountScreenTest {
             confirmed = true
         }
         override suspend fun forgotPassword(email: String) {}
-        override suspend fun resetPassword(email: String, code: String, password: String) {}
+        override suspend fun resetPassword(email: String, code: String, password: String) {
+            if (code != "123456") throw AccountException(AccountProblem.WRONG_CODE, "That code is wrong or has expired")
+        }
         override suspend fun devices() = listOf(
             SignedInDevice("desk", "Studio Mac", "desktop", Instant.parse("2026-10-26T09:00:00Z"), current = true),
             SignedInDevice("phone", "Pixel 9", "android", Instant.parse("2026-10-25T21:30:00Z"), current = false),
@@ -351,6 +356,47 @@ class AccountScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Your new password is set").assertExists()
         assertEquals("reader@example.com", accounts.signedIn.value)
+    }
+
+    @Test
+    fun aProblemGoesOnceTheReaderMovesOn() = runDesktopComposeUiTest(width = 1400, height = 1100) {
+        val viewModel = show(FakeAccounts())
+        fun problemShown() = onAllNodesWithTag("account-problem").fetchSemanticsNodes().isNotEmpty()
+        onNodeWithTag("account-email").performTextInput("reader@example.com")
+        onNodeWithTag("account-forgot").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("reset-code").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("reset-code").performTextInput("000000")
+        onNodeWithTag("reset-password").performTextInput("Correct-horse-7")
+        onNodeWithTag("reset-password-confirm").performTextInput("Correct-horse-7")
+        onNodeWithTag("reset-submit").performClick()
+        waitUntil(timeoutMillis = 5_000) { problemShown() }
+
+        onNodeWithTag("reset-cancel").performClick()
+        onNodeWithText("Welcome back").assertExists()
+        assertTrue(!problemShown(), "cancelling the reset leaves its problem behind")
+
+        viewModel.signIn("reader@example.com", "wrong")
+        waitUntil(timeoutMillis = 5_000) { problemShown() }
+        onNodeWithText("Create an account").performClick()
+        waitForIdle()
+        assertTrue(!problemShown(), "switching to a new account leaves the sign-in's problem behind")
+
+    }
+
+    @Test
+    fun aProblemGoesOnceTheReaderLeavesThePage() = runDesktopComposeUiTest(width = 1400, height = 1100) {
+        runner = SyncRunner(FakeSync())
+        val viewModel = AccountViewModel(FakeAccounts(), runner)
+        var onPage by mutableStateOf(true)
+        setContent { IdiomikoTheme { ProvideWindowWidth { if (onPage) AccountScreen(onNavigate = {}, onBack = {}, viewModel = viewModel) } } }
+        viewModel.signIn("reader@example.com", "wrong")
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-problem").fetchSemanticsNodes().isNotEmpty() }
+        onPage = false
+        waitForIdle()
+        onPage = true
+        waitForIdle()
+        onNodeWithText("Welcome back").assertExists()
+        onNodeWithTag("account-problem").assertDoesNotExist()
     }
 
     @Test

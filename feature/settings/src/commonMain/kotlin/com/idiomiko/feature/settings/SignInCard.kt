@@ -74,7 +74,7 @@ internal fun SignedOutCard(state: AccountUiState, actions: AccountViewModel?) {
     var email by rememberSaveable { mutableStateOf("") }
     val form: @Composable () -> Unit = {
         if (state.resetSentTo != null) ResetForm(state, actions)
-        else SignInForm(state, actions, creating, email, onEmail = { email = it }, onSwitch = { creating = !creating })
+        else SignInForm(state, actions, creating, email, onEmail = { email = it }, onSwitch = { creating = !creating; actions?.problemSeen() })
     }
     if (LocalWindowWidth.current.isCompact) {
         Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {

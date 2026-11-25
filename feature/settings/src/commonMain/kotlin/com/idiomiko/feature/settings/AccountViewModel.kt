@@ -167,7 +167,10 @@ class AccountViewModel(
         load()
     }
 
-    fun cancelReset() = _state.update { it.copy(resetSentTo = null) }
+    fun cancelReset() = _state.update { it.copy(resetSentTo = null, problem = null, problemText = null) }
+
+    /** Moving to another form, or away from the page, leaves the last problem behind. */
+    fun problemSeen() = _state.update { it.copy(problem = null, problemText = null) }
 
     /**
      * Syncs, combining the two libraries when [combine], the reader's answer to the page's question. A failure

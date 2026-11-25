@@ -15,6 +15,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
@@ -62,6 +63,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
     val compact = LocalWindowWidth.current.isCompact
     // Back from the checkout in the browser, or from a store, the plan may have changed.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.reload() }
+    DisposableEffect(viewModel) { onDispose { viewModel.problemSeen() } }
     Scaffold(
         topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.ACCOUNT) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
