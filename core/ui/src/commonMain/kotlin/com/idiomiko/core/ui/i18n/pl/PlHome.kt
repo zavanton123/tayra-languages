@@ -49,7 +49,6 @@ internal val plHome: Map<String, String> = mapOf(
     "Good start — keep going towards today's goal." to "Dobry początek — tak dalej, do dzisiejszego celu.",
     "{1} of {0} minutes" to "{1} z {0} minuty|{1} z {0} minut|{1} z {0} minut",
     "Reading and flashcards count towards the daily goal." to "Czytanie i fiszki liczą się do celu dziennego.",
-    "Keep your words fresh" to "Odświeżaj swoje słowa",
     "Recommended for you" to "Polecane dla ciebie",
     "Build and review your word knowledge" to "Poszerzaj i powtarzaj słownictwo",
 )

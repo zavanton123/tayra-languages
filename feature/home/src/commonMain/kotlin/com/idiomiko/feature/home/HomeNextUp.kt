@@ -69,8 +69,6 @@ private class NextUpView(
     val progress: Float? = null,
     val progressText: String? = null,
     val quick: (() -> Unit)? = null,
-    /** The detail where room is short, as on a phone. */
-    val shortDetail: String? = detail,
 )
 
 /**
@@ -132,7 +130,7 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
                 IconTile(view.icon, size = 52, tint = view.tint)
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                     Text(view.title, style = AppText.headline, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                    view.shortDetail?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
+                    view.detail?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis) }
                     val facts = listOfNotNull(next.minutes?.let { Fact(null, tr("{0} min", it)) }) + view.facts.map { Fact(null, it) }
                     if (facts.isNotEmpty()) Facts(facts)
                 }
@@ -171,7 +169,6 @@ private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
         AppIcons.Style, AppAccents.teal,
         title = trPlural(next.due, "{1} card due today", "{1} cards due today", formatCount(next.due)),
         detail = null,
-        shortDetail = tr("Keep your words fresh"),
         facts = emptyList(),
         button = tr("Review flashcards"),
         onClick = { actions.onNavigate(Route.Flashcards()) },

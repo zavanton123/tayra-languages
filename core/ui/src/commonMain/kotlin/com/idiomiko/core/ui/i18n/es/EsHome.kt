@@ -49,7 +49,6 @@ internal val esHome: Map<String, String> = mapOf(
     "Good start — keep going towards today's goal." to "Buen comienzo: sigue hacia el objetivo de hoy.",
     "{1} of {0} minutes" to "{1} de {0} minuto|{1} de {0} minutos",
     "Reading and flashcards count towards the daily goal." to "La lectura y las tarjetas cuentan para el objetivo diario.",
-    "Keep your words fresh" to "Mantén frescas tus palabras",
     "Recommended for you" to "Recomendado para ti",
     "Build and review your word knowledge" to "Amplía y repasa tu vocabulario",
 )

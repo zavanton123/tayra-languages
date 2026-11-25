@@ -49,7 +49,6 @@ internal val ruHome: Map<String, String> = mapOf(
     "Good start — keep going towards today's goal." to "Хорошее начало — продолжайте двигаться к цели на сегодня.",
     "{1} of {0} minutes" to "{1} из {0} минуты|{1} из {0} минут|{1} из {0} минут",
     "Reading and flashcards count towards the daily goal." to "Чтение и карточки засчитываются в цель на день.",
-    "Keep your words fresh" to "Освежите слова в памяти",
     "Recommended for you" to "Рекомендуем вам",
     "Build and review your word knowledge" to "Пополняйте и повторяйте словарный запас",
 )

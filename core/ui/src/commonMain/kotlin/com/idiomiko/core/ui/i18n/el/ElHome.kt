@@ -49,7 +49,6 @@ internal val elHome: Map<String, String> = mapOf(
     "Good start — keep going towards today's goal." to "Καλή αρχή — συνέχισε προς τον σημερινό στόχο.",
     "{1} of {0} minutes" to "{1} από {0} λεπτό|{1} από {0} λεπτά",
     "Reading and flashcards count towards the daily goal." to "Η ανάγνωση και οι κάρτες μετράνε για τον ημερήσιο στόχο.",
-    "Keep your words fresh" to "Κράτα τις λέξεις σου φρέσκες",
     "Recommended for you" to "Προτείνεται για σένα",
     "Build and review your word knowledge" to "Χτίσε και επανάλαβε το λεξιλόγιό σου",
 )

@@ -49,7 +49,6 @@ internal val zhHome: Map<String, String> = mapOf(
     "Good start — keep going towards today's goal." to "开了个好头——继续向今天的目标前进。",
     "{1} of {0} minutes" to "{1}/{0} 分钟",
     "Reading and flashcards count towards the daily goal." to "阅读和抽认卡都计入每日目标。",
-    "Keep your words fresh" to "巩固你的词汇",
     "Recommended for you" to "为你推荐",
     "Build and review your word knowledge" to "积累并复习你的词汇",
 )

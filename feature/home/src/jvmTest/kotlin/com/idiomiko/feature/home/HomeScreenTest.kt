@@ -348,9 +348,10 @@ class HomeScreenTest {
     @Test
     fun thePhonePictures() = runDesktopComposeUiTest(width = 400, height = 860) {
         show(pictured, bar = true)
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Keep your words fresh")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("266 cards due today")).fetchSemanticsNodes().isNotEmpty() }
         picture("HOME_PHONE_SCREENSHOT")
         onNodeWithText("13 of 15 minutes").assertExists()
+        onNodeWithText("Keep your words fresh").assertDoesNotExist()
         onNodeWithText("2 minutes to go").assertDoesNotExist()
         onNodeWithText("1-day streak").assertExists()
         onNodeWithText("1,539 words known").assertExists()
@@ -360,7 +361,7 @@ class HomeScreenTest {
     @Test
     fun thePhoneDarkPicture() = runDesktopComposeUiTest(width = 400, height = 860) {
         show(pictured, dark = true, bar = true)
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Keep your words fresh")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("266 cards due today")).fetchSemanticsNodes().isNotEmpty() }
         picture("HOME_PHONE_DARK_SCREENSHOT")
     }
 
