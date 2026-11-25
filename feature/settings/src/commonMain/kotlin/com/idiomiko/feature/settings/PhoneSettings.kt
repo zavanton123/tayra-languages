@@ -1,5 +1,7 @@
 package com.idiomiko.feature.settings
 
+import com.idiomiko.core.ui.theme.fontChoice
+import com.idiomiko.core.ui.theme.fontChoices
 import com.idiomiko.core.ui.components.ScrollColumn
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -37,7 +39,6 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppThemes
-import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.ui.theme.fontFamily
 
 /**
@@ -65,7 +66,8 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
                 // The preview comes first, so the font and spacing are seen changing while they are set.
                 PreviewBox(settings, padding = AppSpacing.l)
                 Spacer(Modifier.height(AppSpacing.s))
-                NavigationRow(tr("Reading font"), onClick = { fontSheet = true }, modifier = Modifier.testTag("phone-font"), value = ReadingFont.byId(settings.readingFont).label)
+                NavigationRow(tr("Reading font"), onClick = { fontSheet = true }, modifier = Modifier.testTag("phone-font"), value = fontChoice(settings.readingFont).label)
+                OwnFontsSetting(viewModel, dense = true)
                 AppDivider()
                 PhoneSlider(
                     tr("Font size"),
@@ -96,11 +98,11 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
     }
     if (fontSheet) {
         PickerSheet(
-            tr("Reading font"), ReadingFont.choices, selected = ReadingFont.byId(settings.readingFont), label = { it.label },
+            tr("Reading font"), fontChoices(), selected = fontChoice(settings.readingFont), label = { it.label },
             labelContent = { font -> Text(font.label, fontFamily = font.fontFamily(), style = MaterialTheme.typography.bodyLarge) },
             onDismiss = { fontSheet = false },
             onPick = { font -> fontSheet = false; viewModel.update { it.copy(readingFont = font.id) } },
-            group = { it.kind.label },
+            group = { it.group },
         )
     }
 }

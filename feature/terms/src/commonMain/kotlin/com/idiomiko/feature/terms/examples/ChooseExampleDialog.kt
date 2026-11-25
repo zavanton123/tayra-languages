@@ -1,5 +1,6 @@
 package com.idiomiko.feature.terms.examples
 
+import com.idiomiko.core.ui.theme.readingFontFamily
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.focusable
@@ -101,7 +102,6 @@ import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.ui.theme.fontFamily
 import kotlin.random.Random
 import org.koin.compose.koinInject
@@ -251,7 +251,7 @@ fun ChooseExampleDialog(
                                 style = TextStyle(
                                     fontSize = (18 * prefs.readingFontScale).sp,
                                     lineHeight = (18 * prefs.readingFontScale * prefs.readingLineHeight).sp,
-                                    fontFamily = ReadingFont.byId(prefs.readingFont).fontFamily(),
+                                    fontFamily = readingFontFamily(prefs.readingFont),
                                     color = MaterialTheme.colorScheme.onSurface,
                                     textDirection = direction,
                                 ),

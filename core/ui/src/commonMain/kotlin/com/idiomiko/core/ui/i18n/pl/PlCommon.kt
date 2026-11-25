@@ -204,6 +204,9 @@ internal val plCommon: Map<String, String> = mapOf(
     "Monospace" to "Stałej szerokości",
     "Serif" to "Szeryfowe",
     "Sans-serif" to "Bezszeryfowe",
+    "Your fonts" to "Twoje czcionki",
+    "Add a font file" to "Dodaj plik czcionki",
+    "That file is not a TrueType or OpenType font." to "Ten plik nie jest czcionką TrueType ani OpenType.",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Google ML Kit tłumaczy na tym urządzeniu bez dostępu do sieci, gdy model języka jest pobrany. Modele pochodzą od Google i pozostają na urządzeniu.",

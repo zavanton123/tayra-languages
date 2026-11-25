@@ -204,6 +204,9 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Monospace" to "Моноширинный",
     "Serif" to "С засечками",
     "Sans-serif" to "Без засечек",
+    "Your fonts" to "Ваши шрифты",
+    "Add a font file" to "Добавить файл шрифта",
+    "That file is not a TrueType or OpenType font." to "Этот файл не является шрифтом TrueType или OpenType.",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Google ML Kit переводит на этом устройстве без сети, когда модель языка скачана. Модели загружаются из Google и остаются на устройстве.",

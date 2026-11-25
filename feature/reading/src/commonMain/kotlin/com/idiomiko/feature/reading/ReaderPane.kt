@@ -1,5 +1,8 @@
 package com.idiomiko.feature.reading
 
+import com.idiomiko.core.ui.theme.readingFontFamily
+import com.idiomiko.core.ui.theme.fontChoice
+import com.idiomiko.core.ui.theme.fontChoices
 import com.idiomiko.core.domain.service.SetupKind
 import com.idiomiko.core.ui.components.LocalPreparing
 import androidx.compose.ui.semantics.clearAndSetSemantics
@@ -107,7 +110,6 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.ui.theme.fontFamily
 import kotlin.math.roundToInt
 
@@ -594,16 +596,15 @@ private fun speechNote(engine: SpeechEngine): String = when (engine) {
 private fun TypographyCard(state: ReadingUiState, viewModel: ReadingViewModel) {
     val prefs = state.settings
     PaneCard(tr("Typography")) {
-        val font = ReadingFont.byId(prefs.readingFont)
         SettingRow(tr("Font"), dense = true) {
             SelectMenu(
-                ReadingFont.choices,
-                selected = font,
-                onSelect = viewModel::setReadingFont,
-                optionLabel = { tr(it.label) },
+                fontChoices(),
+                selected = fontChoice(prefs.readingFont),
+                onSelect = { viewModel.setReadingFont(it.id) },
+                optionLabel = { it.label },
                 buttonModifier = Modifier.testTag("font-choice"),
-                optionContent = { Text(tr(it.label), fontFamily = it.fontFamily()) },
-                group = { it.kind.label },
+                optionContent = { Text(it.label, fontFamily = it.fontFamily()) },
+                group = { it.group },
             )
         }
         AppDivider()
@@ -638,7 +639,7 @@ private fun PreviewCard(state: ReadingUiState) {
         }.let { it.subSequence(it.indexOfFirst { c -> !c.isWhitespace() }.coerceAtLeast(0), it.length) }
     }
     val translation = (state.translations[sentence.displayText] as? SentenceTranslation.Done)?.text
-    val family = ReadingFont.byId(prefs.readingFont).fontFamily()
+    val family = readingFontFamily(prefs.readingFont)
     val size = 18 * prefs.readingFontScale
     PaneCard(tr("Preview")) {
         Column(

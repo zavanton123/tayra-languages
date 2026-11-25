@@ -1,5 +1,6 @@
 package com.idiomiko.feature.reading
 
+import com.idiomiko.core.ui.theme.readingFontFamily
 import com.idiomiko.core.domain.service.SetupKind
 import com.idiomiko.core.ui.components.LocalPreparing
 import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
@@ -175,7 +176,6 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.ui.theme.fontFamily
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.feature.terms.form.TermFormEvent
@@ -860,7 +860,7 @@ private fun ReadingBody(
                 fontScale = state.settings.readingFontScale,
                 lineHeight = state.settings.readingLineHeight,
                 rightToLeft = state.language?.rightToLeft == true,
-                fontFamily = ReadingFont.byId(state.settings.readingFont).fontFamily(),
+                fontFamily = readingFontFamily(state.settings.readingFont),
                 // On a phone, sentence audio always uses ReadingText's fixed leading gutter. Letting
                 // its buttons flow inside a paragraph can split the reading text between words.
                 splitSentences = state.settings.splitSentences || (compact && state.settings.showSentencePlay),

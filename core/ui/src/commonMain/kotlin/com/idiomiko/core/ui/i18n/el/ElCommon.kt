@@ -204,6 +204,9 @@ internal val elCommon: Map<String, String> = mapOf(
     "Monospace" to "Σταθερού πλάτους",
     "Serif" to "Με πατούρες",
     "Sans-serif" to "Χωρίς πατούρες",
+    "Your fonts" to "Οι γραμματοσειρές σας",
+    "Add a font file" to "Προσθήκη αρχείου γραμματοσειράς",
+    "That file is not a TrueType or OpenType font." to "Αυτό το αρχείο δεν είναι γραμματοσειρά TrueType ή OpenType.",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Το Google ML Kit μεταφράζει σε αυτή τη συσκευή χωρίς δίκτυο, αφού γίνει λήψη του μοντέλου μιας γλώσσας. Τα μοντέλα προέρχονται από την Google και μένουν στη συσκευή.",

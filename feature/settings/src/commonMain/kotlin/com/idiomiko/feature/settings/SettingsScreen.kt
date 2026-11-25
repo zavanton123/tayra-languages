@@ -1,5 +1,9 @@
 package com.idiomiko.feature.settings
 
+import com.idiomiko.core.ui.theme.readingFontFamily
+import com.idiomiko.core.ui.theme.fontChoice
+import com.idiomiko.core.ui.theme.fontChoices
+import com.idiomiko.core.ui.theme.FontChoice
 import com.idiomiko.core.domain.service.TranslationEngine
 import com.idiomiko.core.domain.service.SpeechEngine
 import androidx.compose.foundation.background
@@ -85,7 +89,6 @@ import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppTheme
 import com.idiomiko.core.ui.theme.AppThemes
 import com.idiomiko.core.ui.theme.LocalThemePreview
-import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.core.ui.theme.fontFamily
 import kotlinx.coroutines.flow.StateFlow
@@ -126,7 +129,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
             // The room beside the settings sidebar, which may hold one column only.
             val wide = LocalWindowWidth.current.isExpanded
             // The font under the pointer in the font menu, shown in the preview until the menu closes or a font is chosen.
-            var hoveredFont by remember { mutableStateOf<ReadingFont?>(null) }
+            var hoveredFont by remember { mutableStateOf<FontChoice?>(null) }
             LaunchedEffect(settings.readingFont) { hoveredFont = null }
             val previewed = hoveredFont?.let { settings.copy(readingFont = it.id) } ?: settings
             PageColumn(inner) {
@@ -210,13 +213,13 @@ internal fun ThemeSwatch(theme: AppTheme) {
 }
 
 @Composable
-private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel, onHoverFont: (ReadingFont?) -> Unit) {
+private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel, onHoverFont: (FontChoice?) -> Unit) {
     ContentCard(tr("Reading"), null, iconText = "Aa") {
         SettingRow(tr("Reading font"), null, stackOnCompact = true) {
             Dropdown(
-                options = ReadingFont.choices,
-                group = { it.kind.label },
-                selected = ReadingFont.byId(settings.readingFont),
+                options = fontChoices(),
+                group = { it.group },
+                selected = fontChoice(settings.readingFont),
                 onSelect = { font -> viewModel.update { it.copy(readingFont = font.id) } },
                 label = null,
                 optionLabel = { it.label },
@@ -225,6 +228,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel, on
                 modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(DROPDOWN_WIDTH),
             )
         }
+        OwnFontsSetting(viewModel)
         // Each number is a slider under its name and value, as on the phone.
         AppDivider()
         SliderSetting(
@@ -324,7 +328,7 @@ internal fun PreviewBox(settings: UserSettings, padding: Dp = AppSpacing.xxl) {
                 fontSize = (18 * settings.readingFontScale).sp,
                 lineHeight = (18 * settings.readingFontScale * settings.readingLineHeight).sp,
                 color = theme.readingText,
-                fontFamily = ReadingFont.byId(settings.readingFont).fontFamily(),
+                fontFamily = readingFontFamily(settings.readingFont),
             ),
             modifier = Modifier.padding(vertical = AppSpacing.s),
         )

@@ -56,6 +56,8 @@ import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.components.ProvideWindowWidth
 import com.idiomiko.core.ui.theme.AppThemes
 import com.idiomiko.core.ui.theme.LocalThemePreview
+import com.idiomiko.core.ui.theme.LocalOwnFonts
+import com.idiomiko.core.domain.fonts.OwnFontRepository
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.navigation.AppNavHost
 import org.koin.compose.KoinContext
@@ -164,6 +166,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                 CompositionLocalProvider(
                     LocalContentColor provides MaterialTheme.colorScheme.onBackground, LocalTitleBarInset provides titleBarInset,
                     LocalThemePreview provides { previewThemeId = it },
+                    LocalOwnFonts provides koinInject<OwnFontRepository>(),
                 ) {
                 Column {
                     if (titleBarInset > 0.dp) {

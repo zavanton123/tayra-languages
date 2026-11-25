@@ -204,6 +204,9 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Monospace" to "等宽字体",
     "Serif" to "衬线",
     "Sans-serif" to "无衬线",
+    "Your fonts" to "你的字体",
+    "Add a font file" to "添加字体文件",
+    "That file is not a TrueType or OpenType font." to "该文件不是 TrueType 或 OpenType 字体。",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "下载某种语言的模型后，Google ML Kit 可在本设备上离线翻译。模型由 Google 提供，并保存在设备上。",

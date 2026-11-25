@@ -204,6 +204,9 @@ internal val esCommon: Map<String, String> = mapOf(
     "Monospace" to "Monoespaciada",
     "Serif" to "Con serifa",
     "Sans-serif" to "Sin serifa",
+    "Your fonts" to "Tus fuentes",
+    "Add a font file" to "Añadir un archivo de fuente",
+    "That file is not a TrueType or OpenType font." to "Ese archivo no es una fuente TrueType ni OpenType.",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Google ML Kit traduce en este dispositivo sin conexión una vez descargado el modelo del idioma. Los modelos vienen de Google y se quedan en el dispositivo.",

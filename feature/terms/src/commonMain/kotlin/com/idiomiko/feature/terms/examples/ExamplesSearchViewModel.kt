@@ -38,7 +38,6 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import com.idiomiko.core.domain.settings.UserSettings
-import com.idiomiko.core.ui.theme.ReadingFont
 import kotlin.math.roundToInt
 
 data class ExamplesSearchUiState(
@@ -262,7 +261,7 @@ class ExamplesSearchViewModel(
 
     // ---- the examples' text, set as the reader's (one setting for both)
 
-    fun setReadingFont(font: ReadingFont) = updateSettings { it.copy(readingFont = font.id) }
+    fun setReadingFont(id: String) = updateSettings { it.copy(readingFont = id) }
     fun setFontScale(scale: Float) = updateSettings { it.copy(readingFontScale = ((scale * 10).roundToInt() / 10f).coerceIn(0.6f, 2.5f)) }
     fun setLineHeight(height: Float) = updateSettings { it.copy(readingLineHeight = ((height * 10).roundToInt() / 10f).coerceIn(1.0f, 3.0f)) }
 

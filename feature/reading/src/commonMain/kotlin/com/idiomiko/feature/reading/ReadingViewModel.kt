@@ -5,7 +5,6 @@ import com.idiomiko.core.domain.courses.LessonSummary
 import com.idiomiko.core.domain.model.ReadingStage
 import com.idiomiko.core.domain.model.PageBookmark
 import com.idiomiko.core.domain.courses.LessonReading
-import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.domain.stats.BookStatsCalculator
 import kotlin.coroutines.cancellation.CancellationException
 import androidx.lifecycle.ViewModel
@@ -975,7 +974,7 @@ class ReadingViewModel(
         it.copy(readingFontScale = ((it.readingFontScale * 10).roundToInt() + steps).coerceIn(6, 25) / 10f)
     }
 
-    fun setReadingFont(font: ReadingFont) = updateSettings { it.copy(readingFont = font.id) }
+    fun setReadingFont(id: String) = updateSettings { it.copy(readingFont = id) }
     fun resetFontSize() = updateSettings { it.copy(readingFontScale = UserSettings().readingFontScale) }
 
     fun resetLineHeight() = updateSettings { it.copy(readingLineHeight = UserSettings().readingLineHeight) }

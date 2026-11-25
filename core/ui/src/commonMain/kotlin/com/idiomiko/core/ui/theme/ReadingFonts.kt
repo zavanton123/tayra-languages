@@ -1,6 +1,13 @@
 package com.idiomiko.core.ui.theme
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.staticCompositionLocalOf
+import com.idiomiko.core.domain.fonts.OwnFont
+import com.idiomiko.core.domain.fonts.OwnFontRepository
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import com.idiomiko.core.ui.i18n.tr
@@ -152,3 +159,81 @@ fun ReadingFont.fontFamily(): FontFamily = when (this) {
 /** A variable font file used at its regular and bold weights. */
 @Composable
 private fun bundled(font: FontResource): FontFamily = FontFamily(Font(font, FontWeight.Normal), Font(font, FontWeight.Bold))
+
+/** The reader's own font files, which the app gives to the font menus and the text; none where it gives none. */
+val LocalOwnFonts = staticCompositionLocalOf<OwnFontRepository?> { null }
+
+/** A font the reader can choose: one the app offers, or one of the reader's own font files. */
+sealed interface FontChoice {
+    /** What the reading-font setting keeps. */
+    val id: String
+    val label: String
+
+    /** The heading it is listed under in the font menus. */
+    val group: String
+
+    data class Offered(val font: ReadingFont) : FontChoice {
+        override val id: String get() = font.id
+        override val label: String get() = font.label
+        override val group: String get() = font.kind.label
+    }
+
+    data class Own(val font: OwnFont) : FontChoice {
+        override val id: String get() = OWN_FONT_PREFIX + font.id
+        override val label: String get() = font.name
+        override val group: String get() = tr("Your fonts")
+    }
+
+    companion object {
+        private const val OWN_FONT_PREFIX = "own:"
+
+        /** The own font a stored id names, or null when it names one the app offers. */
+        fun ownFontId(id: String): Long? = if (id.startsWith(OWN_FONT_PREFIX)) id.removePrefix(OWN_FONT_PREFIX).toLongOrNull() else null
+    }
+}
+
+/** The reader's own fonts, as they are added and removed. */
+@Composable
+fun ownFonts(): List<OwnFont> {
+    val repository = LocalOwnFonts.current ?: return emptyList()
+    val fonts by remember(repository) { repository.fonts }.collectAsState(emptyList())
+    return fonts
+}
+
+/** Every font the menus offer: the reader's own first, then the app's. */
+@Composable
+fun fontChoices(): List<FontChoice> = ownFonts().map { FontChoice.Own(it) } + ReadingFont.choices.map { FontChoice.Offered(it) }
+
+/** The font a stored [id] names; an own font that is gone stands in as the default one. */
+@Composable
+fun fontChoice(id: String): FontChoice {
+    val own = FontChoice.ownFontId(id)
+    if (own != null) ownFonts().firstOrNull { it.id == own }?.let { return FontChoice.Own(it) }
+    return FontChoice.Offered(ReadingFont.byId(id))
+}
+
+@Composable
+fun FontChoice.fontFamily(): FontFamily = when (this) {
+    is FontChoice.Offered -> font.fontFamily()
+    is FontChoice.Own -> ownFontFamily(font.id)
+}
+
+/** The family text is set in for the stored font [id]. */
+@Composable
+fun readingFontFamily(id: String): FontFamily {
+    val own = FontChoice.ownFontId(id) ?: return ReadingFont.byId(id).fontFamily()
+    return ownFontFamily(own)
+}
+
+/** An own font's family; the default font stands in while its file loads, and for one that is gone or cannot be read. */
+@Composable
+private fun ownFontFamily(id: Long): FontFamily {
+    val repository = LocalOwnFonts.current
+    val bytes by produceState<ByteArray?>(null, repository, id) { value = repository?.data(id) }
+    val family = bytes?.let { rememberFontFamily("idiomiko-own-font-$id", it) }
+    return family ?: ReadingFont.byId("").fontFamily()
+}
+
+/** A family drawn from a font file's [bytes], known by [key]; null when they cannot be read as a font. */
+@Composable
+internal expect fun rememberFontFamily(key: String, bytes: ByteArray): FontFamily?

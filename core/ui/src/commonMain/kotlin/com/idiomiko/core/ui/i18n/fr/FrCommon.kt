@@ -204,6 +204,9 @@ internal val frCommon: Map<String, String> = mapOf(
     "Monospace" to "Chasse fixe",
     "Serif" to "Avec empattements",
     "Sans-serif" to "Sans empattements",
+    "Your fonts" to "Vos polices",
+    "Add a font file" to "Ajouter un fichier de police",
+    "That file is not a TrueType or OpenType font." to "Ce fichier n'est pas une police TrueType ou OpenType.",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Google ML Kit traduit sur cet appareil sans réseau une fois le modèle de la langue téléchargé. Les modèles proviennent de Google et restent sur l’appareil.",

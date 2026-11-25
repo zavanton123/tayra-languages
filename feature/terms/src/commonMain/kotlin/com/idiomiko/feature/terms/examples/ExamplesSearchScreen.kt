@@ -1,5 +1,8 @@
 package com.idiomiko.feature.terms.examples
 
+import com.idiomiko.core.ui.theme.fontChoice
+import com.idiomiko.core.ui.theme.fontChoices
+import com.idiomiko.core.ui.theme.readingFontFamily
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.focusable
@@ -121,7 +124,6 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import com.idiomiko.core.ui.theme.ReadingFont
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import com.idiomiko.core.ui.theme.fontFamily
 import com.idiomiko.feature.terms.form.TermFormEvent
@@ -337,7 +339,7 @@ fun ExamplesSearchScreen(
                                 active = index == activeIndex,
                                 onPlay = { activeIndex = index; audio.toggle(example, LanguageCodes.codeFor(query.language.name)) },
                                 direction = direction,
-                                fontFamily = ReadingFont.byId(prefs.readingFont).fontFamily(),
+                                fontFamily = readingFontFamily(prefs.readingFont),
                                 fontScale = prefs.readingFontScale,
                                 lineHeight = prefs.readingLineHeight,
                                 onWordClick = { word -> openWord(word, example.text) },
@@ -630,7 +632,7 @@ private fun TextSettings(prefs: UserSettings, viewModel: ExamplesSearchViewModel
         verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
         Text(tr("Text settings"), style = AppText.itemTitle)
-        Select(tr("Font"), ReadingFont.choices, ReadingFont.byId(prefs.readingFont), { it.label }, Modifier.width(FONT_SELECT_WIDTH), viewModel::setReadingFont)
+        Select(tr("Font"), fontChoices(), fontChoice(prefs.readingFont), { it.label }, Modifier.width(FONT_SELECT_WIDTH)) { viewModel.setReadingFont(it.id) }
         SliderSetting(tr("Font size"), "${(prefs.readingFontScale * 100).roundToInt()}%", prefs.readingFontScale, 0.6f..2.5f, viewModel::setFontScale, sliderModifier = Modifier.testTag("examples-font-size"))
         SliderSetting(tr("Line height"), "${(prefs.readingLineHeight * 10).roundToInt() / 10f}", prefs.readingLineHeight, 1.0f..3.0f, viewModel::setLineHeight, sliderModifier = Modifier.testTag("examples-line-height"))
     }
