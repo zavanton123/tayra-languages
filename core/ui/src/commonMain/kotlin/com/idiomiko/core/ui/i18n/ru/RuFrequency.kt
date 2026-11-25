@@ -27,8 +27,6 @@ internal val ruFrequency: Map<String, String> = mapOf(
     "{1} taken off" to "убрано {1} слово|убрано {1} слова|убрано {1} слов",
 
     // VocabularyLevelPrompt.kt
-    "Choose the level that feels closest. We'll use it to personalize your courses and vocabulary." to "Выберите самый близкий вам уровень. По нему мы подберём ваши курсы и слова.",
-    "You can change this later in Settings → Vocabulary." to "Изменить его можно позже в разделе «Настройки → Слова».",
     "Choose your level" to "Выберите свой уровень",
     "Starter" to "Старт",
     "I'm just beginning" to "Я только начинаю",

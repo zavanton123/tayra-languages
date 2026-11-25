@@ -27,8 +27,6 @@ internal val zhFrequency: Map<String, String> = mapOf(
     "{1} taken off" to "已移除 {1} 个",
 
     // VocabularyLevelPrompt.kt
-    "Choose the level that feels closest. We'll use it to personalize your courses and vocabulary." to "请选择最接近你的水平。我们会据此为你个性化课程和词汇。",
-    "You can change this later in Settings → Vocabulary." to "之后可在“设置 → 词汇”中更改。",
     "Choose your level" to "选择你的水平",
     "Starter" to "起步",
     "I'm just beginning" to "我刚刚开始",

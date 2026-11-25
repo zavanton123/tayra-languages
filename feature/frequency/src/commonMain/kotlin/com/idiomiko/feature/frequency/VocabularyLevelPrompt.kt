@@ -44,7 +44,6 @@ import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.state.CollectEvents
-import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppBorders
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -105,8 +104,6 @@ private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, o
                 Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving, style = IconButtonStyle.Tonal, tint = colors.onSurface)
             }
-            Spacer(Modifier.height(AppSpacing.s))
-            PromptSubtitle()
             Spacer(Modifier.height(AppSpacing.xl))
             LevelPicker(state.edges, chosen, onPick, compact = true)
             Spacer(Modifier.height(AppSpacing.l))
@@ -124,10 +121,11 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
     Column {
         ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xxxl)) {
             Row(verticalAlignment = Alignment.Top) {
-                Column(Modifier.weight(1f).padding(top = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), style = AppText.screenTitle)
-                    PromptSubtitle()
-                }
+                Text(
+                    tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
+                    Modifier.weight(1f).padding(top = AppSpacing.s),
+                    style = AppText.screenTitle,
+                )
                 AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving)
             }
             Spacer(Modifier.height(AppSpacing.xxl))
@@ -143,16 +141,6 @@ internal fun VocabularyLevelPromptContent(state: VocabularySettingsUiState, onPi
         }
         AppDivider()
         PromptButtons(state, chosen, onSave, onLater, Modifier.padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.xl))
-    }
-}
-
-/** What the level is for, and where it can be changed. */
-@Composable
-private fun PromptSubtitle() {
-    val colors = MaterialTheme.colorScheme
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-        Text(tr("Choose the level that feels closest. We'll use it to personalize your courses and vocabulary."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-        Text(tr("You can change this later in Settings → Vocabulary."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant.copy(alpha = AppAlpha.muted))
     }
 }
 

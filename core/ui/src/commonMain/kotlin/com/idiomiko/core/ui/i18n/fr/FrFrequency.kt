@@ -27,8 +27,6 @@ internal val frFrequency: Map<String, String> = mapOf(
     "{1} taken off" to "{1} retiré|{1} retirés",
 
     // VocabularyLevelPrompt.kt
-    "Choose the level that feels closest. We'll use it to personalize your courses and vocabulary." to "Choisissez le niveau qui vous correspond le mieux. Nous l’utiliserons pour personnaliser vos cours et votre vocabulaire.",
-    "You can change this later in Settings → Vocabulary." to "Vous pourrez le modifier plus tard dans Paramètres → Vocabulaire.",
     "Choose your level" to "Choisissez votre niveau",
     "Starter" to "Départ",
     "I'm just beginning" to "Je débute tout juste",

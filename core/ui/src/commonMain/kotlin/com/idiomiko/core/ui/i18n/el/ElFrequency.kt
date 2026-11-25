@@ -27,8 +27,6 @@ internal val elFrequency: Map<String, String> = mapOf(
     "{1} taken off" to "αφαιρέθηκε {1} λέξη|αφαιρέθηκαν {1} λέξεις",
 
     // VocabularyLevelPrompt.kt
-    "Choose the level that feels closest. We'll use it to personalize your courses and vocabulary." to "Επιλέξτε το επίπεδο που σας ταιριάζει περισσότερο. Θα το χρησιμοποιήσουμε για να προσαρμόσουμε τα μαθήματα και το λεξιλόγιό σας.",
-    "You can change this later in Settings → Vocabulary." to "Μπορείτε να το αλλάξετε αργότερα στις Ρυθμίσεις → Λεξιλόγιο.",
     "Choose your level" to "Επιλέξτε το επίπεδό σας",
     "Starter" to "Αρχή",
     "I'm just beginning" to "Μόλις ξεκινάω",

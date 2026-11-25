@@ -187,7 +187,7 @@ class VocabularyLevelPromptTest {
         show()
         awaitCards()
         onNodeWithText("How much Portuguese do you know?").assertExists()
-        onNodeWithText("You can change this later", substring = true).assertExists()
+        assertEquals(0, onAllNodesWithText("You can change this later", substring = true).fetchSemanticsNodes().size, "no line under the question")
         for (card in levelCards) onNodeWithTag("level-card-$card").assertExists()
         onNodeWithTag("level-card-A2").performClick()
         awaitText("Continue with A2")
