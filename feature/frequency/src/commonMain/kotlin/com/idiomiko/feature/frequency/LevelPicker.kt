@@ -1,5 +1,6 @@
 package com.idiomiko.feature.frequency
 
+import com.idiomiko.core.ui.components.StatusTints
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -143,12 +144,11 @@ private fun CurrentLabel() {
     )
 }
 
-/** The small filled check on the chosen card. */
+/** The small filled check on the chosen card, green as the app's other ticks. */
 @Composable
 private fun ChosenCheck(modifier: Modifier = Modifier) {
-    val colors = MaterialTheme.colorScheme
-    Box(modifier.size(AppSizes.icon).clip(AppShapes.circle).background(colors.primary), contentAlignment = Alignment.Center) {
-        Icon(Icons.Default.Check, contentDescription = null, tint = colors.onPrimary, modifier = Modifier.size(AppSizes.iconTiny))
+    Box(modifier.size(AppSizes.icon).clip(AppShapes.circle).background(StatusTints.ok), contentAlignment = Alignment.Center) {
+        Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.onAccent, modifier = Modifier.size(AppSizes.iconTiny))
     }
 }
 
