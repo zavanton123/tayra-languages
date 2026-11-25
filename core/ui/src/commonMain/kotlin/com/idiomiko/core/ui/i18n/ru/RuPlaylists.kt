@@ -43,7 +43,6 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Edit playlist" to "Изменить плейлист",
     "Collect texts to listen to one after another." to "Соберите тексты, чтобы слушать их один за другим.",
     "Change what the playlist is called, what it is for and its cover." to "Измените название, назначение и обложку плейлиста.",
-    "Choose books, courses and lessons to add after the playlist's texts." to "Выберите книги, курсы и уроки, которые будут добавлены после текстов плейлиста.",
     "The texts are changed on the playlist's page." to "Тексты меняются на странице плейлиста.",
     "You can add, remove and reorder texts later." to "Добавлять, удалять и переставлять тексты можно и позже.",
     "Add {0} texts" to "Добавить {0} текст|Добавить {0} текста|Добавить {0} текстов",

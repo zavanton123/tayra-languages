@@ -43,7 +43,6 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Edit playlist" to "编辑播放列表",
     "Collect texts to listen to one after another." to "收集文本，一篇接一篇地收听。",
     "Change what the playlist is called, what it is for and its cover." to "更改播放列表的名称、用途和封面。",
-    "Choose books, courses and lessons to add after the playlist's texts." to "选择书籍、课程和课文，添加到播放列表现有文本之后。",
     "The texts are changed on the playlist's page." to "文本可在播放列表页面中更改。",
     "You can add, remove and reorder texts later." to "你可以稍后添加、移除文本或调整顺序。",
     "Add {0} texts" to "添加 {0} 篇文本",

@@ -43,7 +43,6 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "Edit playlist" to "Playlist bearbeiten",
     "Collect texts to listen to one after another." to "Sammle Texte, um sie dir nacheinander anzuhören.",
     "Change what the playlist is called, what it is for and its cover." to "Ändere den Namen der Playlist, ihren Zweck und ihr Cover.",
-    "Choose books, courses and lessons to add after the playlist's texts." to "Wähle Bücher, Kurse und Lektionen, die nach den Texten der Playlist hinzugefügt werden.",
     "The texts are changed on the playlist's page." to "Die Texte änderst du auf der Seite der Playlist.",
     "You can add, remove and reorder texts later." to "Du kannst Texte später hinzufügen, entfernen und umsortieren.",
     "Add {0} texts" to "{0} Text hinzufügen|{0} Texte hinzufügen",
