@@ -314,7 +314,7 @@ class CoursesScreenTest {
         }
         waitFor("next-lesson")
         val rootWidth = onAllNodes(isRoot())[0].fetchSemanticsNode().size.width
-        listOf("course-search", "filters-button", "start-lesson", "all-lessons").forEach { tag ->
+        listOf("course-search", "filters-button", "start-lesson").forEach { tag ->
             val node = onNodeWithTag(tag).assertIsDisplayed().fetchSemanticsNode()
             assertTrue(node.positionInRoot.x >= 0f && node.positionInRoot.x + node.size.width <= rootWidth, "$tag stays inside the viewport at 130% text")
         }

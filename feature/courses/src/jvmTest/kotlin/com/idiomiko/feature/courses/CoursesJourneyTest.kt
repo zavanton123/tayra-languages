@@ -69,7 +69,7 @@ class CoursesJourneyTest {
         ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(dir, "$name.png"))
     }
 
-    private fun ComposeUiTest.exists(tag: String) = onAllNodesWithTag(tag).fetchSemanticsNodes().isNotEmpty()
+    private fun ComposeUiTest.exists(tag: String) = onAllNodesWithTag(tag, useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty()
 
     @Test
     fun theDesktopPageShowsTheJourneyTheNextLessonAndTheReadersLevel() = runDesktopComposeUiTest(width = 1600, height = 1100) {
@@ -162,7 +162,8 @@ class CoursesJourneyTest {
         onNodeWithTag("start-lesson").performClick()
         onNodeWithTag("lesson-stop-2").performClick()
         assertEquals(listOf("pt-mini-1900-04", "pt-mini-1900-02"), lessons)
-        onNodeWithTag("all-lessons").performClick()
+        // The card itself opens the course, away from its lessons and button.
+        onNodeWithTag("hero-eyebrow", useUnmergedTree = true).performClick()
         onNodeWithTag("course-pt-mini-1600").performScrollTo().performClick()
         assertEquals(listOf("pt-mini-1900", "pt-mini-1600"), opened)
     }

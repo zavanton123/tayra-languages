@@ -1,5 +1,14 @@
 package com.idiomiko.feature.courses
 
+import com.idiomiko.core.ui.theme.AppAlpha
+import androidx.compose.ui.graphics.Color
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.getValue
+import androidx.compose.foundation.interaction.collectIsHoveredAsState
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.hoverable
+import androidx.compose.foundation.background
+import androidx.compose.foundation.LocalIndication
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
@@ -35,7 +44,6 @@ import com.idiomiko.core.domain.home.NextUp
 import com.idiomiko.core.ui.components.JourneyIllustration
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.inLearnedScript
 import com.idiomiko.core.ui.i18n.formatCount
@@ -76,19 +84,23 @@ internal fun NextLessonHero(next: NextUp.Lesson, onStart: () -> Unit, onOpenLess
     }
     val path: @Composable () -> Unit = { LessonPath(next.course.lessons, next.lesson, onOpenLesson, compact) }
     val buttons: @Composable () -> Unit = {
-        Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            PrimaryButton(
-                if (reading) tr("Continue lesson") else tr("Start lesson"),
-                onClick = onStart,
-                modifier = Modifier.testTag("start-lesson").then(if (compact) Modifier.weight(PRIMARY_SHARE) else Modifier),
-                size = ButtonSize.Large,
-            )
-            SecondaryButton(tr("All lessons"), onClick = onAllLessons, modifier = Modifier.testTag("all-lessons").then(if (compact) Modifier.weight(1f) else Modifier), size = ButtonSize.Large)
-        }
+        PrimaryButton(
+            if (reading) tr("Continue lesson") else tr("Start lesson"),
+            onClick = onStart,
+            modifier = Modifier.testTag("start-lesson").then(if (compact) Modifier.fillMaxWidth() else Modifier),
+            size = ButtonSize.Large,
+        )
     }
+    // The whole card opens the course's lessons, lit while pointed at.
+    val interaction = remember { MutableInteractionSource() }
+    val hovered by interaction.collectIsHoveredAsState()
+    val card = Modifier.cardSurface(AppShapes.large)
+        .background(if (hovered) colors.primary.copy(alpha = AppAlpha.faint) else Color.Transparent)
+        .hoverable(interaction)
+        .clickable(interaction, LocalIndication.current, onClickLabel = tr("All lessons"), onClick = onAllLessons)
     if (compact) {
         Column(
-            modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l).testTag("next-lesson"),
+            modifier.fillMaxWidth().then(card).padding(AppSpacing.l).testTag("next-lesson"),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
         ) {
             text()
@@ -98,7 +110,7 @@ internal fun NextLessonHero(next: NextUp.Lesson, onStart: () -> Unit, onOpenLess
         return
     }
     Row(
-        modifier.fillMaxWidth().height(IntrinsicSize.Min).cardSurface(AppShapes.large).padding(AppSpacing.xxl).testTag("next-lesson"),
+        modifier.fillMaxWidth().height(IntrinsicSize.Min).then(card).padding(AppSpacing.xxl).testTag("next-lesson"),
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
     ) {
         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
@@ -170,5 +182,4 @@ private val STOP_COMPACT = 38.dp
 private const val CURRENT_SCALE = 1.22f
 
 /** On a phone the main button takes more of the row than All lessons, so its longer label stays on one line. */
-private const val PRIMARY_SHARE = 1.35f
 private val SCENE_WIDTH = 300.dp
