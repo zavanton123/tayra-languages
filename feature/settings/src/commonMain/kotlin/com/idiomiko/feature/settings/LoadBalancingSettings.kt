@@ -19,6 +19,8 @@ import com.idiomiko.core.domain.flashcards.EasyDay
 import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.ui.components.SelectMenu
 import com.idiomiko.core.ui.components.SwitchSetting
+import com.idiomiko.core.ui.components.HintedTitle
+import com.idiomiko.core.ui.components.hintBelow
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppSpacing
 
@@ -50,12 +52,9 @@ internal fun LoadBalancingSettings(settings: UserSettings, viewModel: SettingsVi
     // Every day kept light would leave nowhere to go.
     var noNormal by remember { mutableStateOf(false) }
     Column(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        Text(tr("Easy days"), style = if (dense) MaterialTheme.typography.titleSmall else MaterialTheme.typography.bodyLarge)
-        Text(
-            tr("Days to keep light: a reduced day takes about half a day's reviews, a minimum day as few as can be. Only answers from now on are moved, within the days they may come on."),
-            style = MaterialTheme.typography.bodySmall,
-            color = colors.onSurfaceVariant,
-        )
+        val hint = tr("Days to keep light: a reduced day takes about half a day's reviews, a minimum day as few as can be. Only answers from now on are moved, within the days they may come on.")
+        HintedTitle(hint) { Text(tr("Easy days"), style = if (dense) MaterialTheme.typography.titleSmall else MaterialTheme.typography.bodyLarge) }
+        hintBelow(hint)?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             weekdays().forEachIndexed { index, weekday ->
                 SelectMenu(

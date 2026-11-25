@@ -178,3 +178,16 @@ fun AppRichTooltip(
         content = content,
     )
 }
+
+/** Whether a page's descriptions show as tooltips over their titles rather than as lines under them. */
+val LocalHintsAsTooltips = staticCompositionLocalOf { false }
+
+/** A title, [content], with its [hint] in a tooltip over it on a page that wants [LocalHintsAsTooltips]. */
+@Composable
+fun HintedTitle(hint: String?, content: @Composable () -> Unit) {
+    if (hint != null && LocalHintsAsTooltips.current) AppTooltip(hint, content = content) else content()
+}
+
+/** The [hint] to write under a title: none where it is the title's tooltip. */
+@Composable
+fun hintBelow(hint: String?): String? = hint.takeUnless { LocalHintsAsTooltips.current }

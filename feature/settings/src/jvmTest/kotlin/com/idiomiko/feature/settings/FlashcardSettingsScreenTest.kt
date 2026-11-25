@@ -32,6 +32,7 @@ import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.test.performTextClearance
@@ -213,6 +214,19 @@ class FlashcardSettingsScreenTest {
 
         onNodeWithTag("personal-defaults-$pt").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("The defaults, with", substring = true).fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** A wide window keeps to the settings' names: what each one does shows in a tooltip over its name. */
+    @Test
+    fun descriptionsShowAsTooltipsOverTheNames() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        setContent { Hosted(settings) { FlashcardSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings)) } }
+        waitForIdle()
+        for (hint in listOf("Daily limits and how reviews are scheduled.", "How many cards a day, for each language.", "Words shown as a flashcard for the first time.", "Off shows every review that is due.")) {
+            onNodeWithText(hint).assertDoesNotExist()
+        }
+        onNodeWithText("New cards a day").performMouseInput { moveTo(center) }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Words shown as a flashcard for the first time.").fetchSemanticsNodes().isNotEmpty() }
     }
 
     /** A phone gets compact rows, the retention slider under its label, the explanation folded away and Reset at the bottom. */

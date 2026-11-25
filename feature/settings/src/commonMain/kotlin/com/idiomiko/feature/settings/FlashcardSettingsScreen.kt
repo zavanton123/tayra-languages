@@ -14,6 +14,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -41,6 +42,7 @@ import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.SettingRow
 import com.idiomiko.core.ui.components.SliderSetting
 import com.idiomiko.core.ui.components.SwitchSetting
+import com.idiomiko.core.ui.components.LocalHintsAsTooltips
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSpacing
@@ -99,7 +101,8 @@ fun FlashcardSettingsScreen(
         SettingsPane(SettingsSection.FLASHCARDS, padding, onNavigate) { inner ->
             // The room beside the settings sidebar, which may hold one column only.
             val wide = LocalWindowWidth.current.isExpanded
-            PageColumn(inner) {
+            // The page keeps to the settings' names; what each one does shows when its name is hovered.
+            CompositionLocalProvider(LocalHintsAsTooltips provides true) { PageColumn(inner) {
                 ScreenHeader(tr("Flashcard settings"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
                     HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = reset)
                 }
@@ -124,7 +127,7 @@ fun FlashcardSettingsScreen(
                     LeechCard(settings, viewModel)
                     StatusInfo()
                 }
-            }
+            } }
         }
     }
 }

@@ -11,6 +11,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import com.idiomiko.core.domain.flashcards.BacklogOrder
 import com.idiomiko.core.ui.components.SelectMenu
+import com.idiomiko.core.ui.components.HintedTitle
+import com.idiomiko.core.ui.components.hintBelow
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppSpacing
 
@@ -36,12 +38,9 @@ private fun BacklogOrder.explanation(): String = when (this) {
 @Composable
 internal fun BacklogOrderSetting(selected: BacklogOrder, onSelect: (BacklogOrder) -> Unit, dense: Boolean = false) {
     Column(Modifier.fillMaxWidth().padding(vertical = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-        Text(tr("Review order when behind"), style = if (dense) MaterialTheme.typography.titleSmall else MaterialTheme.typography.bodyLarge)
-        Text(
-            tr("Used when more reviews are due than twice your usual day; other days keep the due date order."),
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
+        val hint = tr("Used when more reviews are due than twice your usual day; other days keep the due date order.")
+        HintedTitle(hint) { Text(tr("Review order when behind"), style = if (dense) MaterialTheme.typography.titleSmall else MaterialTheme.typography.bodyLarge) }
+        hintBelow(hint)?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant) }
         SelectMenu(
             BacklogOrder.entries,
             selected,

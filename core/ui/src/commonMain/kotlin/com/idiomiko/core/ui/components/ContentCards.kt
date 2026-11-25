@@ -114,9 +114,9 @@ fun ScreenHeader(
         }
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Column(Modifier.weight(1f)) {
-                if (!compact) Text(title, style = AppText.pageTitle)
+                if (!compact) HintedTitle(subtitle) { Text(title, style = AppText.pageTitle) }
                 else if (titleOnCompact) Text(title, style = AppText.headline)
-                if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                hintBelow(subtitle)?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
             }
             actions()
         }
@@ -153,10 +153,10 @@ fun CardHeader(
         }
         Column(Modifier.weight(1f)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(title, style = if (size == CardHeaderSize.Large) AppText.headline else AppText.sectionTitle)
+                HintedTitle(subtitle) { Text(title, style = if (size == CardHeaderSize.Large) AppText.headline else AppText.sectionTitle) }
                 titleExtra()
             }
-            if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            hintBelow(subtitle)?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
         }
         actions()
     }

@@ -37,8 +37,8 @@ import com.idiomiko.core.ui.theme.AppSpacing
 @Composable
 private fun RowText(title: String, description: String?, modifier: Modifier, color: Color = MaterialTheme.colorScheme.onSurface) {
     Column(modifier) {
-        Text(title, style = MaterialTheme.typography.bodyLarge, color = color)
-        if (description != null) Text(description, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        HintedTitle(description) { Text(title, style = MaterialTheme.typography.bodyLarge, color = color) }
+        hintBelow(description)?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
     }
 }
 
