@@ -60,7 +60,6 @@ import com.idiomiko.core.ui.components.AppTextField
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.BarSurface
-import com.idiomiko.core.ui.components.Crumb
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.InfoBanner
@@ -181,7 +180,6 @@ internal fun PlaylistFormContent(state: PlaylistFormUiState, viewModel: Playlist
                 is PlaylistFormMode.Edit -> tr("Change what the playlist is called, what it is for and its cover.")
                 is PlaylistFormMode.AddTexts -> tr("Choose books, courses and lessons to add after the playlist's texts.")
             },
-            crumbs = if (compact) emptyList() else listOf(Crumb(tr("Playlists"), onCancel)),
         )
         state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
         val details: @Composable (Modifier) -> Unit = { m -> DetailsColumn(state, viewModel, m) }
