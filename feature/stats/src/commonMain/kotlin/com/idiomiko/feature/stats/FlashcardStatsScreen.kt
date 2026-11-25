@@ -316,8 +316,6 @@ private fun CalendarCard(s: FlashcardStatistics) {
             val max = inYear.values.maxOrNull() ?: 0
             inYear.mapValues { heatLevel(it.value, max) }
         },
-        fewer = tr("Fewer reviews"),
-        more = tr("More reviews"),
         color = AppAccents.purple,
         describe = { date -> days[date]?.let { trPlural(it, "{1} answer", "{1} answers", formatCount(it)) } ?: tr("No reviews") },
         action = { YearSwitch(year, canBack = year > firstYear, canForward = year < today.year) { year = it } },

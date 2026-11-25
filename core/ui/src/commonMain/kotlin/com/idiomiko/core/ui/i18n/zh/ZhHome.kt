@@ -22,8 +22,6 @@ internal val zhHome: Map<String, String> = mapOf(
     "{1} cards due today" to "今日 {1} 张卡片待复习",
     "All caught up" to "全部复习完了",
     "Study activity" to "学习活动",
-    "Less study" to "学习较少",
-    "More study" to "学习较多",
     "No words saved yet today." to "今天还没有保存单词。",
     "Change the daily goal" to "更改每日目标",
     "Daily goal reached" to "已完成每日目标",

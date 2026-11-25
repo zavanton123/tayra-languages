@@ -22,8 +22,6 @@ internal val frHome: Map<String, String> = mapOf(
     "{1} cards due today" to "{1} carte à réviser aujourd’hui|{1} cartes à réviser aujourd’hui",
     "All caught up" to "Tout est révisé",
     "Study activity" to "Activité d’étude",
-    "Less study" to "Moins d’étude",
-    "More study" to "Plus d’étude",
     "No words saved yet today." to "Aucun mot enregistré aujourd’hui pour l’instant.",
     "Change the daily goal" to "Modifier l’objectif quotidien",
     "Daily goal reached" to "Objectif quotidien atteint",

@@ -22,8 +22,6 @@ internal val ruHome: Map<String, String> = mapOf(
     "{1} cards due today" to "{1} карточка на сегодня|{1} карточки на сегодня|{1} карточек на сегодня",
     "All caught up" to "Всё повторено",
     "Study activity" to "Активность занятий",
-    "Less study" to "Меньше занятий",
-    "More study" to "Больше занятий",
     "No words saved yet today." to "Сегодня ещё не сохранено ни одного слова.",
     "Change the daily goal" to "Изменить цель на день",
     "Daily goal reached" to "Цель на день выполнена",

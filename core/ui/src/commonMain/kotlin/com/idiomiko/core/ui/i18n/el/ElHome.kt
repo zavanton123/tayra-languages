@@ -22,8 +22,6 @@ internal val elHome: Map<String, String> = mapOf(
     "{1} cards due today" to "{1} κάρτα για επανάληψη σήμερα|{1} κάρτες για επανάληψη σήμερα",
     "All caught up" to "Όλα ενημερωμένα",
     "Study activity" to "Δραστηριότητα μελέτης",
-    "Less study" to "Λιγότερη μελέτη",
-    "More study" to "Περισσότερη μελέτη",
     "No words saved yet today." to "Δεν έχουν αποθηκευτεί λέξεις σήμερα ακόμη.",
     "Change the daily goal" to "Αλλαγή ημερήσιου στόχου",
     "Daily goal reached" to "Ο ημερήσιος στόχος επιτεύχθηκε",

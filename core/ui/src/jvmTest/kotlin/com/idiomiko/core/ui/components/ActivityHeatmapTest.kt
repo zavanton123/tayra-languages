@@ -34,8 +34,6 @@ class ActivityHeatmapTest {
                     subtitle = { "Days" },
                     today = today,
                     levels = { mapOf(today to 4) },
-                    fewer = "Fewer",
-                    more = "More",
                     describe = { date -> if (date == today) "12 answers" else "No reviews" },
                 )
             }
@@ -68,8 +66,6 @@ class ActivityHeatmapTest {
                     subtitle = { "2026" },
                     today = today,
                     levels = { mapOf(LocalDate(2026, 1, 1) to 4) },
-                    fewer = "Fewer",
-                    more = "More",
                     describe = { date -> "$date" },
                     range = LocalDate(2026, 1, 1)..LocalDate(2026, 12, 31),
                 )

@@ -299,8 +299,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Card counts" to "卡片数量",
     "{1} cards" to "{1} 张卡片",
     "Calendar" to "日历",
-    "Fewer reviews" to "复习较少",
-    "More reviews" to "复习较多",
     "{1} answers" to "{1} 次回答",
     "No reviews" to "没有复习",
     "{0} answers in {1} minutes" to "{1} 分钟内回答 {0} 次",

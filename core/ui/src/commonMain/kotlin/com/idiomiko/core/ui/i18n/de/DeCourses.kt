@@ -299,8 +299,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "Card counts" to "Kartenanzahl",
     "{1} cards" to "{1} Karte|{1} Karten",
     "Calendar" to "Kalender",
-    "Fewer reviews" to "Weniger Wiederholungen",
-    "More reviews" to "Mehr Wiederholungen",
     "{1} answers" to "{1} Antwort|{1} Antworten",
     "No reviews" to "Keine Wiederholungen",
     "{0} answers in {1} minutes" to "{0} Antworten in {1} Minuten",

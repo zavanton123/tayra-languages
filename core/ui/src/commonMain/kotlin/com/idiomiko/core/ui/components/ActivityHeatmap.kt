@@ -70,8 +70,6 @@ fun ActivityHeatmapCard(
     subtitle: (start: LocalDate) -> String?,
     today: LocalDate,
     levels: (start: LocalDate) -> Map<LocalDate, Int>,
-    fewer: String,
-    more: String,
     icon: ImageVector = AppIcons.BarChart,
     color: Color = AppAccents.green,
     /** What a day held, shown in a tooltip over the square pointed at or tapped. */
@@ -197,13 +195,6 @@ fun ActivityHeatmapCard(
                         }
                     }
                 }
-            }
-            Spacer(Modifier.height(AppSpacing.m))
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                Text(fewer, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Box(Modifier.size(AppSizes.dotXLarge).clip(AppShapes.tiny).background(empty))
-                (1..4).forEach { Box(Modifier.size(AppSizes.dotXLarge).clip(AppShapes.tiny).background(color.copy(alpha = heatShade(it)))) }
-                Text(more, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
     }

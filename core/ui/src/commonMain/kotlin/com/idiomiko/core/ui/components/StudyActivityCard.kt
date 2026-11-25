@@ -21,8 +21,6 @@ fun StudyActivityCard(activity: StudyActivity, range: ClosedRange<LocalDate>, su
         today = activity.today,
         levels = { activity.levels(range.start, range.endInclusive) },
         range = range,
-        fewer = tr("Less study"),
-        more = tr("More study"),
         icon = AppIcons.History,
         action = action,
         modifier = modifier,

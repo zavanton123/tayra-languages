@@ -299,8 +299,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "Card counts" to "Recuento de tarjetas",
     "{1} cards" to "{1} tarjeta|{1} tarjetas",
     "Calendar" to "Calendario",
-    "Fewer reviews" to "Menos repasos",
-    "More reviews" to "Más repasos",
     "{1} answers" to "{1} respuesta|{1} respuestas",
     "No reviews" to "Sin repasos",
     "{0} answers in {1} minutes" to "{0} respuestas en {1} minutos",
