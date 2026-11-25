@@ -52,12 +52,30 @@ class AboutScreenTest {
         }
     }
 
+    /** A run from the sources names the release it was built after and how far past it. */
     @Test
-    fun aRunFromTheSourcesNamesNone() {
-        if (System.getProperty("idiomiko.version") != null) return
+    fun aRunFromTheSourcesNamesWhereItStands() = withProperties("idiomiko.version" to null, "idiomiko.sourceVersion" to "0.19.0-77-g12599fb") {
+        runDesktopComposeUiTest {
+            setContent { AboutScreen(onNavigate = {}) }
+            onNodeWithTag("about-version").assertTextEquals("Version 0.19.0-77-g12599fb (from the sources)")
+        }
+    }
+
+    @Test
+    fun withNoVersionAtAllNoneIsNamed() = withProperties("idiomiko.version" to null, "idiomiko.sourceVersion" to null) {
         runDesktopComposeUiTest {
             setContent { AboutScreen(onNavigate = {}) }
             onNodeWithTag("about-version").assertDoesNotExist()
+        }
+    }
+
+    private fun withProperties(vararg values: Pair<String, String?>, block: () -> Unit) {
+        val before = values.associate { (key, _) -> key to System.getProperty(key) }
+        try {
+            values.forEach { (key, value) -> if (value == null) System.clearProperty(key) else System.setProperty(key, value) }
+            block()
+        } finally {
+            before.forEach { (key, value) -> if (value == null) System.clearProperty(key) else System.setProperty(key, value) }
         }
     }
 }

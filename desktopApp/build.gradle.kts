@@ -27,6 +27,12 @@ val installerVersion = providers.gradleProperty("releaseVersion")
     .map { if (Regex("\\d+\\.\\d+\\.\\d+").matches(it)) it else "1.0.0" }
     .orElse("1.0.0")
 
+// A run from the sources names the release it was built after and how far past it, as `git describe` does.
+val sourceVersionArgs = if (providers.gradleProperty("releaseVersion").isPresent) emptyList() else runCatching {
+    providers.exec { commandLine("git", "describe", "--tags", "--always"); isIgnoreExitValue = true }
+        .standardOutput.asText.get().trim().removePrefix("v")
+}.getOrNull()?.takeIf { it.isNotEmpty() }?.let { listOf("-Didiomiko.sourceVersion=$it") }.orEmpty()
+
 // -Xdock is a macOS launcher option; the JVM on other systems refuses to start with it.
 val isMacHost = System.getProperty("os.name").lowercase().contains("mac")
 val dockNameArgs = if (isMacHost) listOf("-Xdock:name=Idiomiko", "-Didiomiko.dockNamed=true") else emptyList()
@@ -42,7 +48,7 @@ val jbrJava: File? = jbr?.let { home -> listOf("Contents/Home/bin/java", "bin/ja
 // Android Studio injects Compose Hot Reload's `hotRun` task; give that JVM the Dock name too.
 tasks.matching { it.name == "hotRun" }.configureEach {
     (this as? JavaExec)?.apply {
-        jvmArgs(dockNameArgs)
+        jvmArgs(dockNameArgs + sourceVersionArgs)
         jbrJava?.let { setExecutable(it.absolutePath) }
     }
 }
@@ -51,7 +57,7 @@ compose.desktop {
     application {
         mainClass = "com.idiomiko.desktop.MainKt"
         // Names the process in the macOS Dock during development runs; packaged apps use the bundle name.
-        jvmArgs += dockNameArgs
+        jvmArgs += dockNameArgs + sourceVersionArgs
         // The release's own version, which the app's updates compare (the installers' may be 1.0.0, see above);
         // a run from the sources has none and is never offered an update.
         installerVersion.orNull?.takeIf { providers.gradleProperty("releaseVersion").isPresent }?.let { jvmArgs += "-Didiomiko.version=$it" }

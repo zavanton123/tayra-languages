@@ -204,6 +204,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Serif" to "Con serifa",
     "Sans-serif" to "Sin serifa",
     "Your fonts" to "Tus fuentes",
+    "Version {0} (from the sources)" to "Versión {0} (desde el código fuente)",
     "Add a font file" to "Añadir un archivo de fuente",
     "That file is not a TrueType or OpenType font." to "Ese archivo no es una fuente TrueType ni OpenType.",
 

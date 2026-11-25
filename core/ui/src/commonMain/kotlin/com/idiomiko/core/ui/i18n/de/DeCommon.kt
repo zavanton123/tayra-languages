@@ -204,6 +204,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Serif" to "Mit Serifen",
     "Sans-serif" to "Serifenlos",
     "Your fonts" to "Eigene Schriften",
+    "Version {0} (from the sources)" to "Version {0} (aus den Quellen)",
     "Add a font file" to "Schriftdatei hinzufügen",
     "That file is not a TrueType or OpenType font." to "Diese Datei ist keine TrueType- oder OpenType-Schrift.",
 

@@ -20,7 +20,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.rememberScrollState
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.BRAND_NAME
-import com.idiomiko.core.ui.components.appVersion
+import com.idiomiko.core.ui.components.versionLabel
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.navigation.Route
@@ -33,7 +33,7 @@ fun AboutScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit = { onNavigate(R
         val content: @Composable () -> Unit = {
             ScreenTitle(tr("About"))
             Text(BRAND_NAME, style = MaterialTheme.typography.headlineSmall)
-            appVersion()?.let { Text(tr("Version {0}", it), modifier = Modifier.testTag("about-version"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+            versionLabel()?.let { Text(it, modifier = Modifier.testTag("about-version"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
             Text(tr("Learn languages by reading. Import texts, select words to look them up and track what you know."), style = MaterialTheme.typography.bodyLarge)
             Text(tr("A reader for learning languages through texts, on Android, iOS, desktop and the web."), style = MaterialTheme.typography.bodyMedium)
             Text(tr("Credits"), style = MaterialTheme.typography.titleMedium)

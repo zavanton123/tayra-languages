@@ -204,6 +204,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Serif" to "С засечками",
     "Sans-serif" to "Без засечек",
     "Your fonts" to "Ваши шрифты",
+    "Version {0} (from the sources)" to "Версия {0} (из исходников)",
     "Add a font file" to "Добавить файл шрифта",
     "That file is not a TrueType or OpenType font." to "Этот файл не является шрифтом TrueType или OpenType.",
 

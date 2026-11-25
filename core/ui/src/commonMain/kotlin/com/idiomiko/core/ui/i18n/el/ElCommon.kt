@@ -204,6 +204,7 @@ internal val elCommon: Map<String, String> = mapOf(
     "Serif" to "Με πατούρες",
     "Sans-serif" to "Χωρίς πατούρες",
     "Your fonts" to "Οι γραμματοσειρές σας",
+    "Version {0} (from the sources)" to "Έκδοση {0} (από τον πηγαίο κώδικα)",
     "Add a font file" to "Προσθήκη αρχείου γραμματοσειράς",
     "That file is not a TrueType or OpenType font." to "Αυτό το αρχείο δεν είναι γραμματοσειρά TrueType ή OpenType.",
 

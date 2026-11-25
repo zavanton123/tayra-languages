@@ -8,3 +8,5 @@ actual fun appVersion(): String? {
     val context = LocalContext.current
     return runCatching { context.packageManager.getPackageInfo(context.packageName, 0).versionName }.getOrNull()
 }
+
+actual fun sourceVersion(): String? = null
