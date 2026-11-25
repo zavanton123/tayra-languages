@@ -1,5 +1,6 @@
 package com.idiomiko.feature.settings
 
+import com.idiomiko.core.ui.components.sourceVersion
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -76,10 +77,9 @@ internal fun AppUpdatesCard(service: AppUpdateService, settings: UserSettings, m
     val colors = MaterialTheme.colorScheme
     val version = service.currentVersion
     ContentCard(tr("App updates"), null, icon = AppIcons.Download, modifier = modifier) {
-        Text(
-            if (version != null) tr("Version {0}", version) else tr("A run from the sources; update it with git."),
-            style = MaterialTheme.typography.bodyLarge,
-        )
+        // A run from the sources names the release it was built after; the line under it says how to update it.
+        (version ?: sourceVersion())?.let { Text(tr("Version {0}", it), Modifier.testTag("updates-version"), style = MaterialTheme.typography.bodyLarge) }
+        if (version == null) Text(tr("A run from the sources; update it with git."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
         if (version != null) {
             SwitchSetting(tr("Check for updates when the app starts"), tr("At most once a day."), settings.checkForUpdates, onChange = onCheckAtStart)
             when (val s = state) {

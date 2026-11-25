@@ -24,6 +24,7 @@ import kotlinx.coroutines.CompletableDeferred
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import androidx.compose.ui.test.assertTextEquals
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -105,16 +106,23 @@ class AppUpdatesScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.checkForUpdates }
     }
 
-    /** A run from the sources has no version to update: the page says so and offers neither the check nor the switch. */
+    /** A run from the sources names the release it was built after, says to update it with git, and offers neither the check nor the switch. */
     @Test
     fun aRunFromTheSourcesSaysToUpdateWithGit() = runDesktopComposeUiTest(width = 1580, height = 1000) {
         val settings = SettingsRepositoryImpl(MapSettings())
         val service = AppUpdateService(FakeUpdater(null, currentVersion = null), settings)
-        setContent { Hosted(settings) { UpdatesScreen(onNavigate = {}, onBack = {}, viewModel = UpdatesViewModel(settings, service)) } }
+        val before = System.getProperty("idiomiko.sourceVersion")
+        System.setProperty("idiomiko.sourceVersion", "0.19.0-77-g12599fb")
+        try {
+            setContent { Hosted(settings) { UpdatesScreen(onNavigate = {}, onBack = {}, viewModel = UpdatesViewModel(settings, service)) } }
 
-        onNodeWithText("A run from the sources; update it with git.").assertExists()
-        onNodeWithTag("check-updates").assertDoesNotExist()
-        assertTrue(onAllNodes(isToggleable()).fetchSemanticsNodes().isEmpty())
+            onNodeWithTag("updates-version").assertTextEquals("Version 0.19.0-77-g12599fb")
+            onNodeWithText("A run from the sources; update it with git.").assertExists()
+            onNodeWithTag("check-updates").assertDoesNotExist()
+            assertTrue(onAllNodes(isToggleable()).fetchSemanticsNodes().isEmpty())
+        } finally {
+            if (before == null) System.clearProperty("idiomiko.sourceVersion") else System.setProperty("idiomiko.sourceVersion", before)
+        }
     }
 
     /** The General page no longer holds the app's updates; they have a page of their own. */
