@@ -129,8 +129,9 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
                 }
                 if (wide) {
+                    // The settings and the preview share the width, so the preview's sentence reads as on a page.
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                        Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             AppearanceCard(settings, viewModel)
                             ReadingCard(settings, viewModel)
                             WordStatusesCard(settings, viewModel)
