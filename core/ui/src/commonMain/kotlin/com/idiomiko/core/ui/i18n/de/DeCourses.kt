@@ -169,7 +169,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "No cards are due" to "Keine Karten fällig",
     "A card you are learning comes back at {0}." to "Eine Karte, die du lernst, kommt um {0} wieder.",
     "You answered {0} cards. Come back tomorrow for more." to "Du hast {0} Karte beantwortet. Komm morgen für weitere wieder.|Du hast {0} Karten beantwortet. Komm morgen für weitere wieder.",
-    "Keep reading" to "Weiterlesen",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Karteikarten durchsehen",

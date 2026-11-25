@@ -169,7 +169,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "No cards are due" to "Нет карточек к повторению",
     "A card you are learning comes back at {0}." to "Изучаемая карточка вернётся в {0}.",
     "You answered {0} cards. Come back tomorrow for more." to "Вы ответили на {0} карточку. Возвращайтесь завтра за новыми.|Вы ответили на {0} карточки. Возвращайтесь завтра за новыми.|Вы ответили на {0} карточек. Возвращайтесь завтра за новыми.",
-    "Keep reading" to "Читать дальше",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Все карточки",

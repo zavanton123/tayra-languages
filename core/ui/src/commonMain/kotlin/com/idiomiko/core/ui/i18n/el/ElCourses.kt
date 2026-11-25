@@ -169,7 +169,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "No cards are due" to "Δεν υπάρχουν κάρτες για επανάληψη",
     "A card you are learning comes back at {0}." to "Μια κάρτα που μαθαίνετε επιστρέφει στις {0}.",
     "You answered {0} cards. Come back tomorrow for more." to "Απαντήσατε σε {0} κάρτα. Επιστρέψτε αύριο για περισσότερες.|Απαντήσατε σε {0} κάρτες. Επιστρέψτε αύριο για περισσότερες.",
-    "Keep reading" to "Συνεχίστε την ανάγνωση",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Όλες οι κάρτες",

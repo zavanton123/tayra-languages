@@ -169,7 +169,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "No cards are due" to "Nenhum flashcard para revisar",
     "A card you are learning comes back at {0}." to "Um flashcard em aprendizado volta às {0}.",
     "You answered {0} cards. Come back tomorrow for more." to "Você respondeu {0} flashcard. Volte amanhã para mais.|Você respondeu {0} flashcards. Volte amanhã para mais.",
-    "Keep reading" to "Continuar lendo",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Ver flashcards",

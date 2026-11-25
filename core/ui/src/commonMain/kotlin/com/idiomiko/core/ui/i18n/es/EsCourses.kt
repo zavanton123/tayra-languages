@@ -169,7 +169,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "No cards are due" to "No hay tarjetas pendientes",
     "A card you are learning comes back at {0}." to "Una tarjeta que estás aprendiendo vuelve a las {0}.",
     "You answered {0} cards. Come back tomorrow for more." to "Has respondido {0} tarjeta. Vuelve mañana para más.|Has respondido {0} tarjetas. Vuelve mañana para más.",
-    "Keep reading" to "Seguir leyendo",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Explorar tarjetas",

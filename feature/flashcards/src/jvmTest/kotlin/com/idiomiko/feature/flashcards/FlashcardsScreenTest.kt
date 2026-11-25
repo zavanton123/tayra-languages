@@ -1052,6 +1052,9 @@ class FlashcardsScreenTest {
         onNodeWithContentDescription("More actions").performClick()
         onNodeWithText("Delete card").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("No cards are due").fetchSemanticsNodes().isNotEmpty() }
+        // With no text read before the cards, there is no way into reading here, only more study.
+        assertEquals(0, onAllNodesWithTag("continue-reading").fetchSemanticsNodes().size)
+        onNodeWithTag("study-more").assertExists()
         assertEquals(0, onAllNodesWithText("get a card here", substring = true).fetchSemanticsNodes().size)
         save("FLASHCARD_EMPTY_SCREENSHOT")
         assertEquals(null, runBlocking { terms.getById(termId) })

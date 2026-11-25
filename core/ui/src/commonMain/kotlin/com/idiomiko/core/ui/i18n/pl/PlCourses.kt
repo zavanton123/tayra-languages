@@ -169,7 +169,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "No cards are due" to "Brak fiszek do powtórki",
     "A card you are learning comes back at {0}." to "Fiszka w nauce wróci o {0}.",
     "You answered {0} cards. Come back tomorrow for more." to "Za tobą {0} fiszka. Wróć jutro po kolejne.|Za tobą {0} fiszki. Wróć jutro po kolejne.|Za tobą {0} fiszek. Wróć jutro po kolejne.",
-    "Keep reading" to "Czytaj dalej",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "Wszystkie fiszki",

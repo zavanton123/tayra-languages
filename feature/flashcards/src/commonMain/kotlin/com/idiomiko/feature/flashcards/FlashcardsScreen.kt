@@ -250,7 +250,6 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onSkip = viewModel::skipCard,
                 onDelete = { confirmDelete = state.card },
                 onEdit = { details = it },
-                onBooks = { onNavigate(Route.Books) },
                 onRead = { onNavigate(Route.Read(it)) },
                 onBrowse = { onNavigate(Route.BrowseFlashcards()) },
                 onChooseExample = { choosingExample = it },
@@ -309,7 +308,6 @@ internal class FlashcardActions(
     val onDelete: () -> Unit = {},
     /** Opens the card in the browser, where its sentence, schedule and state are changed. */
     val onEdit: (termId: Long) -> Unit = {},
-    val onBooks: () -> Unit = {},
     /** Back to the text with this id, read last before the cards. */
     val onRead: (Long) -> Unit = {},
     /** Every card in a list, to search and manage. */
@@ -1102,12 +1100,9 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
             else -> null
         }
         if (detail != null) Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-        // Reading is where new cards come from, so it is the way on: back into the text read last, or to the books.
-        val reading = state.reading
-        if (reading != null) {
+        // Reading is where new cards come from, so it is the way on, back into the text read last.
+        state.reading?.let { reading ->
             PrimaryButton(tr("Continue reading"), onClick = { actions.onRead(reading.bookId) }, modifier = NoFocus.padding(top = AppSpacing.s).testTag("continue-reading"), icon = AppIcons.MenuBook)
-        } else {
-            PrimaryButton(tr("Keep reading"), onClick = actions.onBooks, modifier = NoFocus.padding(top = AppSpacing.s), icon = AppIcons.MenuBook)
         }
         // Past the day's limits: more new cards, the coming days' reviews, the forgotten ones, or practice.
         SecondaryButton(tr("Study more"), onClick = actions.onStudyMore, modifier = NoFocus.testTag("study-more"), icon = Icons.Default.Add)

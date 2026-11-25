@@ -169,7 +169,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "No cards are due" to "没有待复习的卡片",
     "A card you are learning comes back at {0}." to "一张学习中的卡片将于 {0} 再次出现。",
     "You answered {0} cards. Come back tomorrow for more." to "你回答了 {0} 张卡片。明天再来继续吧。",
-    "Keep reading" to "继续阅读",
 
     // BrowseFlashcardsScreen.kt and PhoneBrowseFlashcards.kt: the card browser
     "Browse flashcards" to "浏览闪卡",
