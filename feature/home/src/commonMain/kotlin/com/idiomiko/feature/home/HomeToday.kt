@@ -12,7 +12,6 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
@@ -39,7 +38,6 @@ import com.idiomiko.core.domain.stats.DailyGoal
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTooltip
-import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.animatedCount
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.inLearnedScript
@@ -181,7 +179,6 @@ internal fun PhoneTodayCard(state: HomeUiState, actions: HomeActions) {
             // Each figure at its own width, spread evenly; the streak is short, the words known take what room is left.
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceEvenly) {
                 streak?.let { PhoneFigure(AppIcons.Flame, AppAccents.pink, trPlural(it, "{0}-day streak", "{0}-day streak"), "streak", Modifier) { actions.onNavigate(Route.Stats) } }
-                if (streak != null && known != null) AppVerticalDivider(Modifier.padding(horizontal = AppSpacing.xs).height(PHONE_DIVIDER_HEIGHT))
                 known?.let {
                     PhoneFigure(Icons.Default.Check, AppAccents.green, trPlural(it, "{1} word known", "{1} words known", formatCount(it)), "known", Modifier.weight(1f, fill = false)) {
                         actions.onNavigate(Route.WordFrequency)
@@ -207,7 +204,6 @@ private fun GoalSummary(goal: DailyGoal, ring: Dp, actions: HomeActions, today: 
             horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
             GoalRing(goal, ring)
-            if (today) AppVerticalDivider(Modifier.height(ring * 0.7f))
             Column {
                 Text(
                     when {
@@ -281,4 +277,3 @@ private val RING_STROKE = 7.dp
 
 /** Room for the goal and the three figures on one line. */
 private val ONE_LINE_CARD = 860.dp
-private val PHONE_DIVIDER_HEIGHT = 28.dp
