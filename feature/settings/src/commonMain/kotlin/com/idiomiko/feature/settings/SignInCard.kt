@@ -178,10 +178,10 @@ private fun Feature(icon: ImageVector, text: String) {
 
 /** The form's title and the line under it. */
 @Composable
-private fun FormTitle(title: String, subtitle: String) {
+private fun FormTitle(title: String, subtitle: String? = null) {
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
         Text(title, style = if (LocalWindowWidth.current.isCompact) AppText.headline else AppText.screenTitle)
-        Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        if (subtitle != null) Text(subtitle, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
     }
 }
 
@@ -192,8 +192,8 @@ private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creati
     var shown by rememberSaveable { mutableStateOf(false) }
     val busy = state.busy != null
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-        if (creating) FormTitle(tr("Create your account"), tr("Sync your library and continue learning on any device."))
-        else FormTitle(tr("Welcome back"), tr("Sign in to sync your library and continue learning."))
+        if (creating) FormTitle(tr("Create your account"))
+        else FormTitle(tr("Welcome back"))
         state.problem?.let { ProblemNotice(it, state.problemText) }
         FieldWithLabel(tr("Email")) {
             AppTextField(
