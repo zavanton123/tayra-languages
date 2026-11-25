@@ -377,7 +377,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "{1} words to {2}" to "{1} palavra até o {2}|{1} palavras até o {2}",
     "Picked for your {1} words" to "Escolhidos para a sua {1} palavra|Escolhidos para as suas {1} palavras",
     "with audio" to "com áudio",
-    "Start lesson" to "Começar a lição",
     "All lessons" to "Todas as lições",
     "Lesson {0}" to "Lição {0}",
     "{0} complete" to "{0} concluído",

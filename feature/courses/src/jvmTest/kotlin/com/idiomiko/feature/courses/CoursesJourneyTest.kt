@@ -115,7 +115,7 @@ class CoursesJourneyTest {
     fun aFirstVisitStartsAtTheFirstLessonOfTheFirstCourse() = runDesktopComposeUiTest(width = 1600, height = 1100) {
         page(JourneyFixture.firstTime())
         onNodeWithText("START HERE · EM CASA E COM A FAMÍLIA").assertExists()
-        onNodeWithText("Start lesson").assertExists()
+        onNodeWithText("Start").assertExists()
         // No word known yet: the card names the level rather than counting none.
         assertEquals(2, onAllNodesWithText("A1 · Beginner").fetchSemanticsNodes().size, "on the level summary and the journey")
         onNodeWithText("300 words to A2").assertExists()

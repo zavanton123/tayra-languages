@@ -377,7 +377,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "{1} words to {2}" to "{1} palabra para el {2}|{1} palabras para el {2}",
     "Picked for your {1} words" to "Elegidos para tu {1} palabra|Elegidos para tus {1} palabras",
     "with audio" to "con audio",
-    "Start lesson" to "Empezar la lección",
     "All lessons" to "Todas las lecciones",
     "Lesson {0}" to "Lección {0}",
     "{0} complete" to "{0} completado",

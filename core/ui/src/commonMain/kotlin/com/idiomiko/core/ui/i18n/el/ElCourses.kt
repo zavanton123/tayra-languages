@@ -377,7 +377,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "{1} words to {2}" to "{1} λέξη ως το {2}|{1} λέξεις ως το {2}",
     "Picked for your {1} words" to "Επιλεγμένα για τη {1} λέξη σας|Επιλεγμένα για τις {1} λέξεις σας",
     "with audio" to "με ήχο",
-    "Start lesson" to "Έναρξη ενότητας",
     "All lessons" to "Όλες οι ενότητες",
     "Lesson {0}" to "Ενότητα {0}",
     "{0} complete" to "Το {0} ολοκληρώθηκε",

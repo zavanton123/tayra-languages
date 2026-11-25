@@ -377,7 +377,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "{1} words to {2}" to "{1} Wort bis {2}|{1} Wörter bis {2}",
     "Picked for your {1} words" to "Passend zu deinem {1} Wort|Passend zu deinen {1} Wörtern",
     "with audio" to "mit Audio",
-    "Start lesson" to "Lektion starten",
     "All lessons" to "Alle Lektionen",
     "Lesson {0}" to "Lektion {0}",
     "{0} complete" to "{0} abgeschlossen",
