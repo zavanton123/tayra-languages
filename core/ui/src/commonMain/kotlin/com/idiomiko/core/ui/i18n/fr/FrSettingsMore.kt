@@ -101,7 +101,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Display" to "Affichage",
     "Copying" to "Copie",
     "Misc" to "Divers",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "Sélectionnez un raccourci, puis appuyez sur une combinaison de touches. Appuyez sur Backspace pour l’effacer.",
     "Search shortcuts" to "Rechercher un raccourci",
     "{0} assigned" to "Attribués : {0}",
     "No conflicts" to "Aucun conflit",

@@ -101,7 +101,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Display" to "Προβολή",
     "Copying" to "Αντιγραφή",
     "Misc" to "Διάφορα",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "Επιλέξτε μια συντόμευση και πατήστε έναν συνδυασμό πλήκτρων. Πατήστε Backspace για να τον διαγράψετε.",
     "Search shortcuts" to "Αναζήτηση συντομεύσεων",
     "{0} assigned" to "Ορισμένες: {0}",
     "No conflicts" to "Καμία σύγκρουση",

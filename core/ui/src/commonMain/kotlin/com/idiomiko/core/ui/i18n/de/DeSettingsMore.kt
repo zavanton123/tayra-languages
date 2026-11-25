@@ -101,7 +101,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Display" to "Anzeige",
     "Copying" to "Kopieren",
     "Misc" to "Sonstiges",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "Wähle ein Tastenkürzel und drücke dann eine Tastenkombination. Mit Backspace löschst du es.",
     "Search shortcuts" to "Tastenkürzel suchen",
     "{0} assigned" to "Zugewiesen: {0}",
     "No conflicts" to "Keine Konflikte",

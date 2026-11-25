@@ -72,7 +72,6 @@ import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.CardHeader
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.HeaderButton
-import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
@@ -263,12 +262,7 @@ private fun SearchBanner(query: String, onQuery: (String) -> Unit, assigned: Int
             verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
             itemVerticalAlignment = Alignment.CenterVertically,
         ) {
-            Row(Modifier.weight(1f).widthIn(min = BANNER_TEXT_MIN_WIDTH), verticalAlignment = Alignment.CenterVertically) {
-                IconTile(AppIcons.Keyboard, size = 44)
-                Spacer(Modifier.width(AppSpacing.l))
-                Text(tr("Select a shortcut, then press a key combination. Press Backspace to clear it."), style = MaterialTheme.typography.bodyLarge)
-            }
-            SearchField(query, onQuery, tr("Search shortcuts"), if (compact) Modifier.fillMaxWidth() else Modifier.width(SEARCH_WIDTH))
+            SearchField(query, onQuery, tr("Search shortcuts"), if (compact) Modifier.fillMaxWidth() else Modifier.weight(1f))
             if (!compact) AppVerticalDivider(Modifier.height(BANNER_DIVIDER_HEIGHT))
             Row(verticalAlignment = Alignment.CenterVertically) {
                 val ok = conflicts == 0
@@ -413,8 +407,6 @@ private val KEY_MIN_WIDTH = 44.dp
 private val NOT_SET_WIDTH = 128.dp
 private val LISTENER_WIDTH = 260.dp
 private val EDIT_BAR_WIDTH = 4.dp
-private val SEARCH_WIDTH = 300.dp
-private val BANNER_TEXT_MIN_WIDTH = 280.dp
 private val BANNER_DIVIDER_HEIGHT = 36.dp
 
 @OptIn(ExperimentalLayoutApi::class)

@@ -101,7 +101,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Display" to "显示",
     "Copying" to "复制",
     "Misc" to "其他",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "选择一个快捷键，然后按下组合键。按 Backspace 可清除。",
     "Search shortcuts" to "搜索快捷键",
     "{0} assigned" to "已分配 {0} 个",
     "No conflicts" to "没有冲突",

@@ -101,7 +101,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Display" to "Visualización",
     "Copying" to "Copiar",
     "Misc" to "Varios",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "Selecciona un atajo y pulsa una combinación de teclas. Pulsa Backspace para borrarlo.",
     "Search shortcuts" to "Buscar atajos",
     "{0} assigned" to "Asignados: {0}",
     "No conflicts" to "Sin conflictos",

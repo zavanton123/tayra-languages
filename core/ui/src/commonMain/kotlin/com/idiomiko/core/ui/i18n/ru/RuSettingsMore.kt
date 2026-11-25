@@ -101,7 +101,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Display" to "Отображение",
     "Copying" to "Копирование",
     "Misc" to "Разное",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "Выберите действие и нажмите сочетание клавиш. Backspace удаляет сочетание.",
     "Search shortcuts" to "Поиск сочетаний клавиш",
     "{0} assigned" to "Назначено: {0}",
     "No conflicts" to "Конфликтов нет",

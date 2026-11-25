@@ -101,7 +101,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Display" to "Wyświetlanie",
     "Copying" to "Kopiowanie",
     "Misc" to "Różne",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "Wybierz działanie i naciśnij kombinację klawiszy. Backspace usuwa skrót.",
     "Search shortcuts" to "Szukaj skrótów",
     "{0} assigned" to "Przypisane: {0}",
     "No conflicts" to "Brak konfliktów",

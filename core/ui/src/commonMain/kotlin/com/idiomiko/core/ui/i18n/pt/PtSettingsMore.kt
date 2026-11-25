@@ -101,7 +101,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Display" to "Exibição",
     "Copying" to "Cópia",
     "Misc" to "Outros",
-    "Select a shortcut, then press a key combination. Press Backspace to clear it." to "Selecione um atalho e pressione uma combinação de teclas. Pressione Backspace para apagá-lo.",
     "Search shortcuts" to "Buscar atalhos",
     "{0} assigned" to "Atribuídos: {0}",
     "No conflicts" to "Nenhum conflito",
