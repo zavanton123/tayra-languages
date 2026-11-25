@@ -143,7 +143,7 @@ fun App(titleBarInset: Dp = 0.dp) {
         val settingsRepository = koinInject<SettingsRepository>()
         val settings by settingsRepository.settings.collectAsStateWithLifecycle()
         // Counts the languages chosen, so the navigation goes to Courses after each one.
-        var openCourses by remember { mutableIntStateOf(0) }
+        var openHome by remember { mutableIntStateOf(0) }
         // Set during composition, so the first frame is already in the chosen language.
         UiLanguage.set(settings.uiLanguage)
         // A theme looked at in the theme list shows over the chosen one, until the choice is made or the list closes.
@@ -180,7 +180,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                         is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(AppSpacing.xxl), contentAlignment = Alignment.Center) {
                             Text(tr("Could not start: {0}", s.message), color = MaterialTheme.colorScheme.error)
                         }
-                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId, onChosen = { openCourses++ }) {
+                        BootstrapState.Ready -> ProvideLearningLanguage(settings.currentLanguageId, onChosen = { openHome++ }) {
                             val flashcards = koinInject<FlashcardService>()
                             val due by remember(flashcards) { flashcards.observeDueCount() }.collectAsStateWithLifecycle(0)
                             CompositionLocalProvider(
@@ -189,7 +189,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                             ) {
                                 Column {
                                     AppUpdateBanner()
-                                    Box(Modifier.weight(1f)) { AppNavHost(openCourses) }
+                                    Box(Modifier.weight(1f)) { AppNavHost(openHome) }
                                 }
                             }
                         }

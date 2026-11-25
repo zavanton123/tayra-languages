@@ -263,7 +263,7 @@ private fun MyLanguageRow(choice: LanguageChoice, words: Int?, chosen: Boolean) 
 /**
  * The phone's screen for adding a language: every language not being learned yet as a row with its
  * flag, with a letter index down the right edge that jumps the list. Choosing one goes back, and
- * the app moves on to that language's courses.
+ * the app moves on to that language's home page.
  */
 @Composable
 fun ChooseLanguageScreen(onBack: () -> Unit) {

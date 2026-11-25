@@ -85,16 +85,15 @@ import com.idiomiko.feature.reading.practice.PracticeDialog
 import com.idiomiko.core.ui.navigation.LocalPracticeDialog
 
 @Composable
-fun AppNavHost(openCourses: Int = 0) {
+fun AppNavHost(openHome: Int = 0) {
     val navController = rememberNavController()
-    // A newly chosen language starts on its courses, with only its home page to go back to.
-    LaunchedEffect(openCourses) {
-        if (openCourses > 0) {
+    // A newly chosen language starts on its home page, with nothing to go back to.
+    LaunchedEffect(openHome) {
+        if (openHome > 0) {
             navController.navigate(Route.Home) {
                 popUpTo(navController.graph.id) { inclusive = true }
                 launchSingleTop = true
             }
-            navController.navigate(Route.Courses)
         }
     }
     // A video asked for from outside the app's screens, such as the browser extension's "Open in Idiomiko".
