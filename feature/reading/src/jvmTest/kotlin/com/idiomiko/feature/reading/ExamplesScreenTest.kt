@@ -112,7 +112,7 @@ class ExamplesScreenTest {
         val current = com.idiomiko.core.ui.theme.ReadingFont.byId(settings.current.readingFont)
         rule.onNodeWithText(current.label).performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithText("Open Sans").fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithText("Open Sans").performClick()
+        rule.onNodeWithText("Open Sans").performScrollTo().performClick()
         rule.waitUntil(5_000) { settings.current.readingFont == "open_sans" }
     }
 
