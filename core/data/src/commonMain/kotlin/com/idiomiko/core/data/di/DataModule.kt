@@ -1,6 +1,8 @@
 package com.idiomiko.core.data.di
 
 import com.idiomiko.core.data.repository.ListeningLogImpl
+import com.idiomiko.core.data.repository.OwnFontRepositoryImpl
+import com.idiomiko.core.domain.fonts.OwnFontRepository
 import com.idiomiko.core.domain.stats.ListeningLog
 import com.idiomiko.core.domain.ocr.NoTextRecognizer
 import com.idiomiko.core.domain.ocr.TextRecognizer
@@ -302,6 +304,7 @@ val dataModule: Module = module {
     single { DemoDataService(get(), get(), get(), get(), get()) }
     single<LearningStatsRepository> { LearningStatsRepositoryImpl(get()) }
     single<ListeningLog> { ListeningLogImpl(get()) }
+    single<OwnFontRepository> { OwnFontRepositoryImpl(get()) }
     single { StatsService(get(), get()) }
     single<CourseRepository> { CourseRepositoryImpl(get()) }
     single<CoursePackStore> { CoursePackRepository(get()) }

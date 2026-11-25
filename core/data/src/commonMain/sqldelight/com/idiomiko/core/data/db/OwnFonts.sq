@@ -1,0 +1,22 @@
+-- Font files the reader added to read in. They stay on this device: they are not synced.
+CREATE TABLE own_font (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    data BLOB NOT NULL,
+    added_at INTEGER NOT NULL
+);
+
+listFonts:
+SELECT id, name FROM own_font ORDER BY name COLLATE NOCASE, id;
+
+fontData:
+SELECT data FROM own_font WHERE id = :id;
+
+insertFont:
+INSERT INTO own_font(name, data, added_at) VALUES (:name, :data, :addedAt);
+
+lastFontId:
+SELECT last_insert_rowid();
+
+deleteFont:
+DELETE FROM own_font WHERE id = :id;
