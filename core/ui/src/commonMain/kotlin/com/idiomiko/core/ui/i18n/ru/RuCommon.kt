@@ -202,6 +202,8 @@ internal val ruCommon: Map<String, String> = mapOf(
     "System serif" to "Системный с засечками",
     "System sans-serif" to "Системный без засечек",
     "Monospace" to "Моноширинный",
+    "Serif" to "С засечками",
+    "Sans-serif" to "Без засечек",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Google ML Kit переводит на этом устройстве без сети, когда модель языка скачана. Модели загружаются из Google и остаются на устройстве.",

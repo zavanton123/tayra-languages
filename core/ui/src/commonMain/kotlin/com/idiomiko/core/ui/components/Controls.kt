@@ -521,7 +521,7 @@ fun SelectButton(
 
 /**
  * A [SelectButton] with its menu of [options]: [value] shows instead of the chosen option's label
- * when given, and [optionContent] draws an option its own way (a font in itself).
+ * when given, [optionContent] draws an option its own way (a font in itself), and [group] lists them under headings.
  */
 @Composable
 fun <T> SelectMenu(
@@ -537,13 +537,17 @@ fun <T> SelectMenu(
     enabled: Boolean = true,
     buttonModifier: Modifier = Modifier,
     optionContent: (@Composable (T) -> Unit)? = null,
+    /** The heading an option is listed under, as in [Dropdown]. */
+    group: ((T) -> String)? = null,
 ) {
     var open by remember { mutableStateOf(false) }
     // The button takes the box's width when the caller gives the box one, and its own otherwise.
     Box(modifier, propagateMinConstraints = true) {
         SelectButton(value ?: selected?.let(optionLabel).orEmpty(), onClick = { open = true }, modifier = buttonModifier, label = label, icon = icon, active = active, enabled = enabled)
         AppMenu(expanded = open, onDismissRequest = { open = false }) {
-            options.forEach { option ->
+            options.forEachIndexed { i, option ->
+                val heading = group?.invoke(option)
+                if (heading != null && (i == 0 || group(options[i - 1]) != heading)) GroupHeading(heading)
                 AppMenuItem(
                     text = {
                         if (optionContent != null) optionContent(option)

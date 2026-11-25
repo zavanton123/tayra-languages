@@ -143,6 +143,10 @@ class SettingsScreenTest {
         val before = preview()
         onNodeWithText("System serif").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("JetBrains Mono").fetchSemanticsNodes().isNotEmpty() }
+        // The long list comes under three headings.
+        onNodeWithText("Serif").assertExists()
+        onNodeWithText("Sans-serif").assertExists()
+        assertEquals(2, onAllNodesWithText("Monospace").fetchSemanticsNodes().size, "the heading and the system font")
         onNodeWithText("Lora").performMouseInput { enter(center) }
         onNodeWithText("JetBrains Mono").performMouseInput { moveTo(center) }
         waitForIdle()

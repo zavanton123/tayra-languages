@@ -202,6 +202,8 @@ internal val deCommon: Map<String, String> = mapOf(
     "System serif" to "System-Serifenschrift",
     "System sans-serif" to "System-Groteskschrift",
     "Monospace" to "Festbreitenschrift",
+    "Serif" to "Mit Serifen",
+    "Sans-serif" to "Serifenlos",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Google ML Kit übersetzt ohne Netz auf diesem Gerät, sobald das Modell einer Sprache heruntergeladen ist. Die Modelle stammen von Google und bleiben auf dem Gerät.",

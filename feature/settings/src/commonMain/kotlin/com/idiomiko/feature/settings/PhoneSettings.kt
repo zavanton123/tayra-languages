@@ -100,6 +100,7 @@ internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsView
             labelContent = { font -> Text(font.label, fontFamily = font.fontFamily(), style = MaterialTheme.typography.bodyLarge) },
             onDismiss = { fontSheet = false },
             onPick = { font -> fontSheet = false; viewModel.update { it.copy(readingFont = font.id) } },
+            group = { it.kind.label },
         )
     }
 }

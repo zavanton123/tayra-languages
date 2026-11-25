@@ -202,6 +202,8 @@ internal val elCommon: Map<String, String> = mapOf(
     "System serif" to "Serif συστήματος",
     "System sans-serif" to "Sans-serif συστήματος",
     "Monospace" to "Σταθερού πλάτους",
+    "Serif" to "Με πατούρες",
+    "Sans-serif" to "Χωρίς πατούρες",
 
     // OnDeviceTranslatorBridge.kt (iOS)
     "Google ML Kit translates on this device with no network once a language's model is downloaded. Models come from Google and stay on the device." to "Το Google ML Kit μεταφράζει σε αυτή τη συσκευή χωρίς δίκτυο, αφού γίνει λήψη του μοντέλου μιας γλώσσας. Τα μοντέλα προέρχονται από την Google και μένουν στη συσκευή.",

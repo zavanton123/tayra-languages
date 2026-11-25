@@ -215,6 +215,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel, on
         SettingRow(tr("Reading font"), null, stackOnCompact = true) {
             Dropdown(
                 options = ReadingFont.choices,
+                group = { it.kind.label },
                 selected = ReadingFont.byId(settings.readingFont),
                 onSelect = { font -> viewModel.update { it.copy(readingFont = font.id) } },
                 label = null,

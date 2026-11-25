@@ -603,6 +603,7 @@ private fun TypographyCard(state: ReadingUiState, viewModel: ReadingViewModel) {
                 optionLabel = { tr(it.label) },
                 buttonModifier = Modifier.testTag("font-choice"),
                 optionContent = { Text(tr(it.label), fontFamily = it.fontFamily()) },
+                group = { it.kind.label },
             )
         }
         AppDivider()

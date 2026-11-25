@@ -83,6 +83,14 @@ enum class ReadingFont(val id: String, private val englishLabel: String, val bun
     /** The name in the interface language; the bundled fonts keep their own names. */
     val label: String get() = tr(englishLabel)
 
+    /** Which of the three groups the font is listed under: the entries run serif, sans-serif, then monospace. */
+    val kind: FontKind
+        get() = when {
+            ordinal >= MONOSPACE.ordinal -> FontKind.MONOSPACE
+            ordinal >= SANS.ordinal -> FontKind.SANS_SERIF
+            else -> FontKind.SERIF
+        }
+
     companion object {
         /** The fonts to offer: where there are no system fonts (the web), only the bundled ones. */
         val choices: List<ReadingFont> = if (systemFontsAvailable) entries else entries.filter { it.bundled }
@@ -93,6 +101,15 @@ enum class ReadingFont(val id: String, private val englishLabel: String, val bun
             return if (systemFontsAvailable || font.bundled) font else if (font == SANS) OPEN_SANS else LITERATA
         }
     }
+}
+
+/** The groups the font menus list the fonts under. */
+enum class FontKind(private val englishLabel: String) {
+    SERIF("Serif"),
+    SANS_SERIF("Sans-serif"),
+    MONOSPACE("Monospace");
+
+    val label: String get() = tr(englishLabel)
 }
 
 /** Whether the platform has fonts of its own to draw text with; a browser canvas has none. */
