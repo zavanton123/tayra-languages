@@ -25,6 +25,8 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Play" to "播放",
     "Edit details" to "编辑详情",
     "Delete playlist" to "删除播放列表",
+    "Main" to "主列表",
+    "The main playlist cannot be deleted" to "主播放列表无法删除",
     "Play {0}" to "播放“{0}”",
     "Delete playlist?" to "删除播放列表？",
     "{0} will be removed. The books, courses and texts inside it will stay in your library." to "“{0}”将被删除。其中的书籍、课程和文本仍会保留在你的书库中。",

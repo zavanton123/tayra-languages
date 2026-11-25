@@ -1,5 +1,7 @@
 package com.idiomiko.feature.playlists
 
+import kotlinx.coroutines.flow.emitAll
+import kotlinx.coroutines.flow.flow
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.courses.Course
@@ -102,7 +104,7 @@ class PlaylistsViewModel(
         .flatMapLatest { id ->
             val name = languages.getById(id)?.name.orEmpty()
             val code = service.languageCode(id)
-            service.observePlaylists(id).map { list -> name to list.map { PlaylistSummary(it, service.duration(it, code), service.remaining(it, code)) } }
+            service.playlistsWithMain(id).map { list -> name to list.map { PlaylistSummary(it, service.duration(it, code), service.remaining(it, code)) } }
         }
 
     val state: StateFlow<PlaylistsUiState> = combine(playlists, choices, player.state, selection.id) { (name, list), c, playing, chosen ->
@@ -448,7 +450,7 @@ class AddToPlaylistViewModel(private val source: PlaylistSource, private val ser
 
     @OptIn(ExperimentalCoroutinesApi::class)
     val state: StateFlow<AddToPlaylistUiState> =
-        settings.settings.map { it.currentLanguageId }.distinctUntilChanged().flatMapLatest { service.observePlaylists(it) }
+        settings.settings.map { it.currentLanguageId }.distinctUntilChanged().flatMapLatest { service.playlistsWithMain(it) }
             .combine(texts) { playlists, texts -> AddToPlaylistUiState(playlists, texts) }
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), AddToPlaylistUiState())
 
@@ -467,4 +469,10 @@ class AddToPlaylistViewModel(private val source: PlaylistSource, private val ser
             if (adding) added.send(playlist.name)
         }
     }
+}
+
+/** The language's playlists, its main one made first where it has none yet, so there is always one to add to. */
+internal fun PlaylistService.playlistsWithMain(languageId: Long): Flow<List<Playlist>> = flow {
+    if (languageId > 0) ensureMain(languageId, tr("Main"))
+    emitAll(observePlaylists(languageId))
 }

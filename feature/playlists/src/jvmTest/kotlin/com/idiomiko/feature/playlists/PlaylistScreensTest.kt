@@ -40,6 +40,7 @@ import com.idiomiko.core.ui.theme.AppTheme
 import com.idiomiko.core.ui.theme.AppThemes
 import com.idiomiko.core.ui.theme.IdiomikoTheme
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.flow.first
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
@@ -260,6 +261,8 @@ class PlaylistScreensTest {
     fun anEmptyPlaylistSaysHowToFillIt() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         val id = runBlocking { data.service.create(data.languageId, PlaylistDraft("Travel Portuguese")) }
         page(data.playlists())
+        waitUntil(timeoutMillis = 5_000) { shown("playlist-$id") }
+        onNodeWithTag("playlist-$id").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("This playlist is empty")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("playlist-$id").assertIsSelected()
         onNodeWithText("You can also add the current text from the reader.").assertExists()
@@ -279,14 +282,17 @@ class PlaylistScreensTest {
         assertTrue(left)
     }
 
+    /** A language always has its main playlist: there from the start, and with no way to delete it. */
     @Test
-    fun withNoPlaylistsThePageOffersToMakeOne() = runDesktopComposeUiTest(width = 1600, height = 1000) {
+    fun aLanguageAlwaysHasItsMainPlaylist() = runDesktopComposeUiTest(width = 1600, height = 1000) {
         page(data.playlists())
-        waitUntil(timeoutMillis = 5_000) { shown("no-playlists") }
-        onNodeWithText("No playlists yet").assertExists()
-        assertTrue(!shown("sidebar"))
-        onNodeWithTag("new-playlist").assertExists()
-        screenshot("playlists-empty")
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Main")).fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(!shown("no-playlists"), "never without a playlist")
+        val main = runBlocking { data.service.observePlaylists(data.languageId).first() }.single()
+        assertTrue(main.main)
+        onNodeWithTag("playlist-actions").performClick()
+        assertTrue(!shown("delete-playlist"), "the main playlist cannot be deleted")
+        screenshot("playlists-main")
     }
 
     @Test

@@ -2,6 +2,7 @@ package com.idiomiko.core.data.repository
 
 import app.cash.sqldelight.async.coroutines.awaitAsList
 import app.cash.sqldelight.async.coroutines.awaitAsOne
+import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
 import app.cash.sqldelight.coroutines.asFlow
 import app.cash.sqldelight.coroutines.mapToList
 import com.idiomiko.core.data.db.DatabaseProvider
@@ -66,6 +67,7 @@ class PlaylistRepositoryImpl(private val provider: DatabaseProvider) : PlaylistR
                 // A place in an item since removed is no place.
                 position = row.current_item_id?.takeIf { id -> own.any { it.id == id } }
                     ?.let { ListeningPosition(it, row.current_page.toInt(), row.current_sentence.toInt()) },
+                main = row.sync_id?.startsWith(MAIN_KEY_PREFIX) == true,
             )
         }
     }
@@ -88,6 +90,22 @@ class PlaylistRepositoryImpl(private val provider: DatabaseProvider) : PlaylistR
         val q = db().playlistsQueries
         q.transactionWithResult {
             q.insertPlaylist(languageId, draft.name, draft.description, draft.cover.toLong(), createdAt.toEpochMillis())
+            q.lastInsertId().awaitAsOne()
+        }
+    }
+
+    override suspend fun ensureMain(languageId: Long, key: String, name: String, createdAt: Instant): Long = withContext(databaseDispatcher) {
+        val q = db().playlistsQueries
+        q.transactionWithResult {
+            q.playlistOfKey(key).awaitAsOneOrNull()?.let { return@transactionWithResult it }
+            val named = q.playlistNamed(languageId, name).awaitAsOneOrNull()
+            if (named != null && named.sync_id?.startsWith(MAIN_KEY_PREFIX) != true) {
+                // Taken on under the main key; other devices drop the copy under its old one and get it under the new.
+                named.sync_id?.let { q.forgetPlaylistKey(it, createdAt.toEpochMillis()) }
+                q.setPlaylistKey(key, named.id)
+                return@transactionWithResult named.id
+            }
+            q.insertKeyedPlaylist(languageId, name, createdAt.toEpochMillis(), key)
             q.lastInsertId().awaitAsOne()
         }
     }
@@ -160,3 +178,6 @@ class PlaylistRepositoryImpl(private val provider: DatabaseProvider) : PlaylistR
         }
     }
 }
+
+/** The start of the key a language's main playlist is known by on every device. */
+const val MAIN_KEY_PREFIX = "main:"

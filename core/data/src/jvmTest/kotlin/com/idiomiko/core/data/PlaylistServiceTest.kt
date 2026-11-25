@@ -1,5 +1,7 @@
 package com.idiomiko.core.data
 
+import app.cash.sqldelight.async.coroutines.awaitAsOneOrNull
+import app.cash.sqldelight.async.coroutines.awaitAsOne
 import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
@@ -235,5 +237,27 @@ class PlaylistServiceTest {
         val again = PlaylistService(PlaylistRepositoryImpl(reopened), courses, languages, time)
         val id = again.create(language, PlaylistDraft("After the update"), listOf(PlaylistSource.Text(book(language, "O lobo"))))
         assertEquals(listOf("O lobo"), again.playlist(id)!!.items.map { it.title })
+    }
+
+    /** Each language has one main playlist: made once, taken on from an older one of that name, and never deleted. */
+    @Test
+    fun theMainPlaylistIsMadeOnceTakenOnAndKept() = runTest {
+        val language = languages.save(Language(name = "Swedish"))
+        val older = service.create(language, PlaylistDraft("Main"))
+        val oldKey = provider.database().playlistsQueries.selectPlaylist(older).awaitAsOne().sync_id
+        val main = service.ensureMain(language, "Main")
+        assertEquals(older, main, "an older playlist called Main is taken on")
+        assertEquals(main, service.ensureMain(language, "Main"), "made once")
+        val list = service.observePlaylists(language).first()
+        assertEquals(1, list.size)
+        assertTrue(list.single().main)
+        assertEquals("main:sv", provider.database().playlistsQueries.selectPlaylist(main).awaitAsOne().sync_id)
+        assertTrue(provider.database().syncRecordsQueries.tombstone("playlist", "", oldKey!!).awaitAsOneOrNull() != null, "the old key is gone on other devices")
+        assertFailsWith<PlaylistValidationException> { service.delete(main) }
+
+        val other = languages.save(Language(name = "Danish"))
+        val made = service.ensureMain(other, "Main")
+        assertTrue(service.playlist(made)!!.main)
+        assertEquals("Main", service.playlist(made)!!.name)
     }
 }

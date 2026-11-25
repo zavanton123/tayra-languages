@@ -314,7 +314,8 @@ private fun PlaylistMenu(playlist: Playlist, onNavigate: (Route) -> Unit, onDele
     OverflowMenu(tr("More actions"), buttonModifier = Modifier.testTag("playlist-actions"), icon = AppIcons.MoreHoriz, tint = colors.onSurfaceVariant, style = style) { close ->
         if (withEdit) AppMenuItem(text = { Text(tr("Edit details")) }, onClick = { close(); onNavigate(Route.EditPlaylist(playlist.id)) })
         AppMenuItem(text = { Text(tr("Add texts")) }, onClick = { close(); onNavigate(Route.AddToPlaylist(playlist.id)) })
-        AppMenuItem(text = { Text(tr("Delete playlist"), color = colors.error) }, onClick = { close(); onDelete() }, modifier = Modifier.testTag("delete-playlist"))
+        // The main playlist is always there: it cannot be deleted.
+        if (!playlist.main) AppMenuItem(text = { Text(tr("Delete playlist"), color = colors.error) }, onClick = { close(); onDelete() }, modifier = Modifier.testTag("delete-playlist"))
     }
 }
 

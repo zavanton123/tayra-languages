@@ -49,8 +49,21 @@ class PlaylistService(
 
     suspend fun update(id: Long, draft: PlaylistDraft) = repository.update(stored(id).id, validated(draft))
 
-    /** Deletes the playlist; its texts stay in the library. */
-    suspend fun delete(id: Long) = repository.delete(id)
+    /** Deletes the playlist; its texts stay in the library. The main playlist stays. */
+    suspend fun delete(id: Long) {
+        if (repository.playlist(id)?.main == true) throw PlaylistValidationException("The main playlist cannot be deleted")
+        repository.delete(id)
+    }
+
+    /**
+     * Makes sure the language has its main playlist, called [name] when it is made, or taken on from an
+     * older playlist of that name; the same one on every device, by the language's code. Its id.
+     */
+    suspend fun ensureMain(languageId: Long, name: String): Long {
+        val language = languages.getById(languageId)
+        val key = "main:" + (language?.name?.let { LanguageCodes.codeFor(it) } ?: language?.name?.lowercase() ?: languageId.toString())
+        return repository.ensureMain(languageId, key, name, clock.now())
+    }
 
     /** Adds [sources] after the playlist's last item; a text already in it stays where it is. */
     suspend fun add(playlistId: Long, sources: List<PlaylistSource>) {

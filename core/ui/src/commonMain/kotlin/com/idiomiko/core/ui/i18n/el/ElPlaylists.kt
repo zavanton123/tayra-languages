@@ -25,6 +25,8 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Play" to "Αναπαραγωγή",
     "Edit details" to "Επεξεργασία στοιχείων",
     "Delete playlist" to "Διαγραφή λίστας αναπαραγωγής",
+    "Main" to "Κύρια",
+    "The main playlist cannot be deleted" to "Η κύρια λίστα δεν μπορεί να διαγραφεί",
     "Play {0}" to "Αναπαραγωγή «{0}»",
     "Delete playlist?" to "Διαγραφή λίστας αναπαραγωγής;",
     "{0} will be removed. The books, courses and texts inside it will stay in your library." to "Η λίστα «{0}» θα αφαιρεθεί. Τα βιβλία, τα μαθήματα και τα κείμενα που περιέχει θα παραμείνουν στη βιβλιοθήκη σας.",

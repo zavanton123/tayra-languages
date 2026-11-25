@@ -25,6 +25,8 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Play" to "Воспроизвести",
     "Edit details" to "Изменить сведения",
     "Delete playlist" to "Удалить плейлист",
+    "Main" to "Основной",
+    "The main playlist cannot be deleted" to "Основной плейлист нельзя удалить",
     "Play {0}" to "Воспроизвести «{0}»",
     "Delete playlist?" to "Удалить плейлист?",
     "{0} will be removed. The books, courses and texts inside it will stay in your library." to "Плейлист «{0}» будет удалён. Книги, курсы и тексты из него останутся в вашей библиотеке.",

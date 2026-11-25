@@ -84,6 +84,23 @@ UPDATE playlists SET name = :name, description = :description, cover = :cover WH
 deletePlaylist:
 DELETE FROM playlists WHERE id = :id;
 
+playlistOfKey:
+SELECT id FROM playlists WHERE sync_id = :key;
+
+-- A playlist the reader named as the main one, before every language had one.
+playlistNamed:
+SELECT id, sync_id FROM playlists WHERE language_id = :languageId AND lower(name) = lower(:name) ORDER BY created_at, id LIMIT 1;
+
+insertKeyedPlaylist:
+INSERT INTO playlists(language_id, name, description, cover, created_at, sync_id) VALUES (:languageId, :name, '', 0, :createdAt, :key);
+
+setPlaylistKey:
+UPDATE playlists SET sync_id = :key WHERE id = :id;
+
+-- The key a playlist was known by on other devices, now gone there.
+forgetPlaylistKey:
+INSERT OR REPLACE INTO sync_tombstones(kind, scope, key, deleted_at) VALUES ('playlist', '', :key, :at);
+
 lastInsertId:
 SELECT last_insert_rowid();
 

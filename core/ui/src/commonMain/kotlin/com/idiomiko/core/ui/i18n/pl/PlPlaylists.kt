@@ -25,6 +25,8 @@ internal val plPlaylists: Map<String, String> = mapOf(
     "Play" to "Odtwórz",
     "Edit details" to "Edytuj szczegóły",
     "Delete playlist" to "Usuń playlistę",
+    "Main" to "Główna",
+    "The main playlist cannot be deleted" to "Głównej playlisty nie można usunąć",
     "Play {0}" to "Odtwórz „{0}”",
     "Delete playlist?" to "Usunąć playlistę?",
     "{0} will be removed. The books, courses and texts inside it will stay in your library." to "Playlista „{0}” zostanie usunięta. Książki, kursy i teksty z niej pozostaną w twojej bibliotece.",

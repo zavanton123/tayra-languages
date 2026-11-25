@@ -35,6 +35,8 @@ data class Playlist(
     val items: List<PlaylistItem>,
     /** Null before listening starts, and once it went through to the end. */
     val position: ListeningPosition?,
+    /** The language's main playlist, which every language has and which cannot be deleted. */
+    val main: Boolean = false,
 ) {
     val finishedCount: Int get() = items.count { it.finished }
 
@@ -64,6 +66,12 @@ interface PlaylistRepository {
     suspend fun create(languageId: Long, draft: PlaylistDraft, createdAt: Instant): Long
     suspend fun update(id: Long, draft: PlaylistDraft)
     suspend fun delete(id: Long)
+
+    /**
+     * The language's main playlist, known on every device by [key]: the one with that key, else an older
+     * playlist called [name] taken on as it, else a new one called [name]. Its id.
+     */
+    suspend fun ensureMain(languageId: Long, key: String, name: String, createdAt: Instant): Long
 
     /** Adds the books after the playlist's last item, in order, leaving out those already in it. */
     suspend fun addBooks(playlistId: Long, bookIds: List<Long>)
