@@ -1,5 +1,6 @@
 package com.idiomiko.feature.courses
 
+import androidx.compose.ui.text.style.TextAlign
 import com.idiomiko.core.ui.components.AddRow
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -98,7 +99,7 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
     }
 }
 
-/** The filters behind the Filters button: status, tags, order and, where tiles and rows both fit, the view; and a course of one's own. */
+/** The filters behind the Filters button: status, tags and order. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, onTags: () -> Unit, onDismiss: () -> Unit) {
@@ -108,7 +109,7 @@ private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, onTags:
             Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m).testTag("filters-sheet"),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
-            Text(tr("Filters"), style = AppText.itemTitle)
+            Text(tr("Filters"), Modifier.fillMaxWidth(), style = AppText.itemTitle, textAlign = TextAlign.Center)
             Text(tr("Status"), style = AppText.emphasis, color = colors.onSurfaceVariant)
             StatusChips(state, actions.onStatus)
             if (state.availableTags.isNotEmpty()) {
