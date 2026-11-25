@@ -246,7 +246,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Installed engines" to "已安装的引擎",
     "Speech and translation engines remain installed" to "语音引擎和翻译引擎仍保持安装",
     "Back up before clearing" to "清除前先备份",
-    "Create a recovery file in case you change your mind." to "创建一个恢复文件，以防你改变主意。",
     "Create backup" to "创建备份",
     "This action is permanent" to "此操作不可逆",
     "Clearing…" to "正在清除…",

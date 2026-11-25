@@ -246,7 +246,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Installed engines" to "Motores instalados",
     "Speech and translation engines remain installed" to "Los motores de voz y de traducción siguen instalados",
     "Back up before clearing" to "Haz una copia antes de borrar",
-    "Create a recovery file in case you change your mind." to "Crea un archivo de recuperación por si cambias de opinión.",
     "Create backup" to "Crear copia",
     "This action is permanent" to "Esta acción es permanente",
     "Clearing…" to "Borrando…",

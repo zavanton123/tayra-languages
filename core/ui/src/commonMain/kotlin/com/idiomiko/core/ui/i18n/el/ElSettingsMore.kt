@@ -246,7 +246,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Installed engines" to "Εγκατεστημένες μηχανές",
     "Speech and translation engines remain installed" to "Οι μηχανές εκφώνησης και μετάφρασης παραμένουν εγκατεστημένες",
     "Back up before clearing" to "Δημιουργήστε αντίγραφο ασφαλείας πριν από τη διαγραφή",
-    "Create a recovery file in case you change your mind." to "Δημιουργήστε ένα αρχείο ανάκτησης σε περίπτωση που αλλάξετε γνώμη.",
     "Create backup" to "Δημιουργία αντιγράφου",
     "This action is permanent" to "Αυτή η ενέργεια είναι οριστική",
     "Clearing…" to "Διαγραφή…",

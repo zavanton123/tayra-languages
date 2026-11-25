@@ -246,7 +246,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Installed engines" to "Mecanismos instalados",
     "Speech and translation engines remain installed" to "Os mecanismos de voz e de tradução continuam instalados",
     "Back up before clearing" to "Faça um backup antes de limpar",
-    "Create a recovery file in case you change your mind." to "Crie um arquivo de recuperação caso você mude de ideia.",
     "Create backup" to "Criar backup",
     "This action is permanent" to "Esta ação é permanente",
     "Clearing…" to "Limpando…",

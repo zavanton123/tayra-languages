@@ -246,7 +246,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Installed engines" to "Установленные движки",
     "Speech and translation engines remain installed" to "Синтезаторы речи и переводчик останутся установленными",
     "Back up before clearing" to "Сделайте копию перед очисткой",
-    "Create a recovery file in case you change your mind." to "Создайте файл для восстановления на случай, если передумаете.",
     "Create backup" to "Создать копию",
     "This action is permanent" to "Это действие необратимо",
     "Clearing…" to "Удаление…",

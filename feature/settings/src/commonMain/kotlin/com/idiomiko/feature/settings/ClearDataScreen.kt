@@ -338,5 +338,5 @@ internal fun RemainingItems() {
 /** The reminder to back up first, with [action] making the backup. */
 @Composable
 internal fun BackupNotice(action: @Composable () -> Unit) {
-    Notice(tr("Back up before clearing"), message = tr("Create a recovery file in case you change your mind."), action = action)
+    Notice(tr("Back up before clearing"), action = action)
 }

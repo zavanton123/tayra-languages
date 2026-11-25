@@ -246,7 +246,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Installed engines" to "Zainstalowane silniki",
     "Speech and translation engines remain installed" to "Syntezatory mowy i usługi tłumaczenia pozostaną zainstalowane",
     "Back up before clearing" to "Zrób kopię przed czyszczeniem",
-    "Create a recovery file in case you change your mind." to "Utwórz plik do przywrócenia na wypadek, gdybyś zmienił zdanie.",
     "Create backup" to "Utwórz kopię",
     "This action is permanent" to "Tej operacji nie można cofnąć",
     "Clearing…" to "Czyszczenie…",

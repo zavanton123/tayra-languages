@@ -246,7 +246,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Installed engines" to "Installierte Dienste",
     "Speech and translation engines remain installed" to "Sprachsynthese und Übersetzungsdienste bleiben installiert",
     "Back up before clearing" to "Vor dem Löschen sichern",
-    "Create a recovery file in case you change your mind." to "Erstelle eine Wiederherstellungsdatei, falls du es dir anders überlegst.",
     "Create backup" to "Sicherung erstellen",
     "This action is permanent" to "Diese Aktion ist endgültig",
     "Clearing…" to "Wird gelöscht…",
