@@ -177,7 +177,7 @@ data class UserSettings(
         const val MAX_PLAYLIST_PAUSE = 30
         const val DEFAULT_THEME = "default"
         const val DEFAULT_READING_FONT = "serif"
-        const val DEFAULT_DAILY_GOAL = 15
+        const val DEFAULT_DAILY_GOAL = 60
         const val MIN_DAILY_GOAL = 5
         const val MAX_DAILY_GOAL = 180
         const val MIN_STATS_SAMPLE_SIZE = 1

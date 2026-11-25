@@ -417,8 +417,8 @@ class HomeScreenTest {
         picture("HOME_FIRST_SCREENSHOT")
         onNodeWithText("Arte e cultura").assertExists()
         onNodeWithText("Start course").assertExists()
-        onNodeWithText("0 of 15 minutes").assertExists()
-        onNodeWithText("Ready when you are: today's goal is 15 minutes.").assertExists()
+        onNodeWithText("0 of 60 minutes").assertExists()
+        onNodeWithText("Ready when you are: today's goal is 60 minutes.").assertExists()
         // Nothing due: the cards are all caught up.
         onNodeWithText("All caught up").assertExists()
         onNodeWithTag("next-up-action").performClick()
