@@ -213,6 +213,8 @@ internal val frCommon: Map<String, String> = mapOf(
     "Weak" to "Faible",
     "Fair" to "Moyen",
     "Strong" to "Fort",
+    "Confirm password" to "Confirmer le mot de passe",
+    "The passwords don't match" to "Les mots de passe ne correspondent pas",
     "Enter a valid email address" to "Saisissez une adresse e-mail valide",
     "Version {0} (from the sources)" to "Version {0} (depuis les sources)",
     "Add a font file" to "Ajouter un fichier de police",

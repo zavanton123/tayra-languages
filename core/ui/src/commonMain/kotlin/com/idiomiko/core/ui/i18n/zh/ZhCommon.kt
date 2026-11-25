@@ -213,6 +213,8 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Weak" to "弱",
     "Fair" to "一般",
     "Strong" to "强",
+    "Confirm password" to "确认密码",
+    "The passwords don't match" to "两次输入的密码不一致",
     "Enter a valid email address" to "请输入有效的电子邮件地址",
     "Version {0} (from the sources)" to "版本 {0}（从源代码运行）",
     "Add a font file" to "添加字体文件",

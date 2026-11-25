@@ -192,6 +192,7 @@ private fun FormTitle(title: String, subtitle: String? = null) {
 @Composable
 private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creating: Boolean, email: String, onEmail: (String) -> Unit, onSwitch: () -> Unit) {
     var password by rememberSaveable { mutableStateOf("") }
+    var confirmation by rememberSaveable { mutableStateOf("") }
     var shown by rememberSaveable { mutableStateOf(false) }
     val busy = state.busy != null
     val emailValid = EmailAddress.isValid(email)
@@ -217,7 +218,7 @@ private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creati
             )
         }
         if (creating) {
-            NewPasswordFields(password, { password = it }, tag = "account-password")
+            NewPasswordFields(password, { password = it }, confirmation, { confirmation = it }, tag = "account-password")
         } else {
             FieldWithLabel(
                 tr("Password"),
@@ -247,7 +248,7 @@ private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creati
         PrimaryButton(
             if (creating) tr("Create account") else tr("Sign in"),
             onClick = { if (creating) actions?.register(email, password) else actions?.signIn(email, password) },
-            enabled = emailValid && !busy && if (creating) newPasswordReady(password) else password.isNotEmpty(),
+            enabled = emailValid && !busy && if (creating) newPasswordReady(password, confirmation) else password.isNotEmpty(),
             loading = state.busy == AccountTask.SIGNING_IN,
             size = ButtonSize.Large,
             modifier = Modifier.fillMaxWidth().testTag("account-submit"),
@@ -309,16 +310,17 @@ private fun ProviderButton(provider: SignInProvider, enabled: Boolean, onClick: 
 private fun ResetForm(state: AccountUiState, actions: AccountViewModel?) {
     var code by rememberSaveable { mutableStateOf("") }
     var password by rememberSaveable { mutableStateOf("") }
+    var confirmation by rememberSaveable { mutableStateOf("") }
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         FormTitle(tr("Choose a new password"), tr("We sent a code to {0}. Enter it with your new password.", state.resetSentTo.orEmpty()))
         state.problem?.let { ProblemNotice(it, state.problemText) }
         FieldWithLabel(tr("Code")) {
             AppTextField(code, { code = it }, Modifier.fillMaxWidth().testTag("reset-code"), singleLine = true, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
         }
-        NewPasswordFields(password, { password = it }, tag = "reset-password", label = tr("New password"))
+        NewPasswordFields(password, { password = it }, confirmation, { confirmation = it }, tag = "reset-password", label = tr("New password"))
         PrimaryButton(
             tr("Set password and sign in"), onClick = { actions?.resetPassword(code, password) },
-            enabled = code.isNotBlank() && newPasswordReady(password) && state.busy == null, loading = state.busy != null,
+            enabled = code.isNotBlank() && newPasswordReady(password, confirmation) && state.busy == null, loading = state.busy != null,
             size = ButtonSize.Large, modifier = Modifier.fillMaxWidth().testTag("reset-submit"),
         )
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {

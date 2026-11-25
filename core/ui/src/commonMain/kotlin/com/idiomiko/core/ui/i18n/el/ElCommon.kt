@@ -213,6 +213,8 @@ internal val elCommon: Map<String, String> = mapOf(
     "Weak" to "Αδύναμος",
     "Fair" to "Μέτριος",
     "Strong" to "Ισχυρός",
+    "Confirm password" to "Επιβεβαίωση κωδικού",
+    "The passwords don't match" to "Οι κωδικοί δεν ταιριάζουν",
     "Enter a valid email address" to "Εισαγάγετε μια έγκυρη διεύθυνση email",
     "Version {0} (from the sources)" to "Έκδοση {0} (από τον πηγαίο κώδικα)",
     "Add a font file" to "Προσθήκη αρχείου γραμματοσειράς",

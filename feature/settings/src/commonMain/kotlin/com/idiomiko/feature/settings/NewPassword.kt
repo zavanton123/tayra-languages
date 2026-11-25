@@ -18,11 +18,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.semantics
@@ -45,21 +47,28 @@ import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
-/** Whether a new password may be sent: every rule met. */
-internal fun newPasswordReady(password: String): Boolean = PasswordStrength.meetsAll(password)
+/** Whether a new password may be sent: every rule met, and typed the same twice. */
+internal fun newPasswordReady(password: String, confirmation: String): Boolean =
+    PasswordStrength.meetsAll(password) && password == confirmation
 
 /**
- * A new password, for making an account or setting a forgotten password: its strength as a bar and
- * a word, and the rules it is held to ticking off as they are met. [tag] names the field for tests.
+ * A new password and its confirmation, for making an account or setting a forgotten password: the
+ * password's strength as a bar and a word, the rules it is held to ticking off as they are met, and,
+ * once the confirmation is left or as long as the password, whether the two match. [tag] names the fields for tests.
  */
 @Composable
 internal fun NewPasswordFields(
     password: String,
     onPassword: (String) -> Unit,
+    confirmation: String,
+    onConfirmation: (String) -> Unit,
     tag: String,
     label: String = tr("Password"),
 ) {
     var shown by rememberSaveable { mutableStateOf(false) }
+    var confirmationFocused by remember { mutableStateOf(false) }
+    var confirmationLeft by rememberSaveable { mutableStateOf(false) }
+    val mismatch = confirmation.isNotEmpty() && confirmation != password && (confirmationLeft && !confirmationFocused || confirmation.length >= password.length)
     val transformation = if (shown) VisualTransformation.None else PasswordVisualTransformation()
     val showToggle: @Composable (String) -> Unit = { toggleTag ->
         AppIconButton(
@@ -80,6 +89,22 @@ internal fun NewPasswordFields(
             )
             if (password.isNotEmpty()) StrengthBar(PasswordStrength.level(password))
             PasswordRules(password, Modifier.testTag("$tag-rules"))
+        }
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Text(tr("Confirm password"), style = AppText.label)
+            AppTextField(
+                confirmation, onConfirmation,
+                Modifier.fillMaxWidth().testTag("$tag-confirm").onFocusChanged {
+                    if (confirmationFocused && !it.isFocused) confirmationLeft = true
+                    confirmationFocused = it.isFocused
+                },
+                singleLine = true,
+                visualTransformation = transformation,
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                trailingIcon = { showToggle("$tag-confirm-toggle") },
+                isError = mismatch,
+                supportingText = if (mismatch) ({ Text(tr("The passwords don't match"), Modifier.testTag("$tag-mismatch")) }) else null,
+            )
         }
     }
 }

@@ -213,6 +213,8 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Weak" to "Слабый",
     "Fair" to "Средний",
     "Strong" to "Надёжный",
+    "Confirm password" to "Подтвердите пароль",
+    "The passwords don't match" to "Пароли не совпадают",
     "Enter a valid email address" to "Введите правильный адрес электронной почты",
     "Version {0} (from the sources)" to "Версия {0} (из исходников)",
     "Add a font file" to "Добавить файл шрифта",

@@ -213,6 +213,8 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Weak" to "Fraca",
     "Fair" to "Razoável",
     "Strong" to "Forte",
+    "Confirm password" to "Confirmar senha",
+    "The passwords don't match" to "As senhas não coincidem",
     "Enter a valid email address" to "Digite um endereço de e-mail válido",
     "Version {0} (from the sources)" to "Versão {0} (a partir do código-fonte)",
     "Add a font file" to "Adicionar um arquivo de fonte",

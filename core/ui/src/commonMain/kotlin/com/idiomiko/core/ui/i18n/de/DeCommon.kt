@@ -213,6 +213,8 @@ internal val deCommon: Map<String, String> = mapOf(
     "Weak" to "Schwach",
     "Fair" to "Mittel",
     "Strong" to "Stark",
+    "Confirm password" to "Passwort bestätigen",
+    "The passwords don't match" to "Die Passwörter stimmen nicht überein",
     "Enter a valid email address" to "Gib eine gültige E-Mail-Adresse ein",
     "Version {0} (from the sources)" to "Version {0} (aus den Quellen)",
     "Add a font file" to "Schriftdatei hinzufügen",

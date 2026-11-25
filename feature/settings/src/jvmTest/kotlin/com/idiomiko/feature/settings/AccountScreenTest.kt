@@ -292,6 +292,15 @@ class AccountScreenTest {
         onNodeWithTag("account-password").performTextClearance()
         onNodeWithTag("account-password").performTextInput("Correct-horse-7")
         onNodeWithTag("password-strength").assertTextContains("Strong", substring = true)
+        onNodeWithTag("account-submit").assertIsNotEnabled()
+        // The confirmation must match.
+        onNodeWithTag("account-password-confirm").performTextInput("Correct-horse-8")
+        onNodeWithTag("account-password-mismatch", useUnmergedTree = true).assertExists()
+        onNodeWithTag("account-submit").assertIsNotEnabled()
+        save("ACCOUNT_SCREENSHOT", "-create-mismatch")
+        onNodeWithTag("account-password-confirm").performTextClearance()
+        onNodeWithTag("account-password-confirm").performTextInput("Correct-horse-7")
+        onNodeWithTag("account-password-mismatch", useUnmergedTree = true).assertDoesNotExist()
         onNodeWithText("Create account").assertExists()
         onNodeWithTag("account-submit").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
@@ -336,6 +345,8 @@ class AccountScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("reset-code").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("reset-code").performTextInput("123456")
         onNodeWithTag("reset-password").performTextInput("Correct-horse-7")
+        onNodeWithTag("reset-submit").assertIsNotEnabled()
+        onNodeWithTag("reset-password-confirm").performTextInput("Correct-horse-7")
         onNodeWithTag("reset-submit").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Your new password is set").assertExists()

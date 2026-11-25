@@ -213,6 +213,8 @@ internal val esCommon: Map<String, String> = mapOf(
     "Weak" to "Débil",
     "Fair" to "Aceptable",
     "Strong" to "Fuerte",
+    "Confirm password" to "Confirmar contraseña",
+    "The passwords don't match" to "Las contraseñas no coinciden",
     "Enter a valid email address" to "Introduce una dirección de correo válida",
     "Version {0} (from the sources)" to "Versión {0} (desde el código fuente)",
     "Add a font file" to "Añadir un archivo de fuente",

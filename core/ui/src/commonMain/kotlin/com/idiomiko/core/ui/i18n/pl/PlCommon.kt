@@ -213,6 +213,8 @@ internal val plCommon: Map<String, String> = mapOf(
     "Weak" to "Słabe",
     "Fair" to "Średnie",
     "Strong" to "Silne",
+    "Confirm password" to "Potwierdź hasło",
+    "The passwords don't match" to "Hasła nie są takie same",
     "Enter a valid email address" to "Wpisz poprawny adres e-mail",
     "Version {0} (from the sources)" to "Wersja {0} (ze źródeł)",
     "Add a font file" to "Dodaj plik czcionki",
