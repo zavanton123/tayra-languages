@@ -395,7 +395,7 @@ class HomeScreenTest {
         onNodeWithTag("next-up").assertIsDisplayed()
         // A few cards wait in the rows.
         onNodeWithText("12 cards due today").assertExists()
-        onNodeWithText("~2 min").assertDoesNotExist()
+        onNodeWithText("2 min").assertDoesNotExist()
         onNodeWithTag("next-up-action").performClick()
         onNodeWithTag("vocabulary-row").performClick()
         // The streak leads to the statistics.

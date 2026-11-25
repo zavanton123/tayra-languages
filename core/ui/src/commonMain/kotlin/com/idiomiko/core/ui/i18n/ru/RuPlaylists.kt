@@ -3,7 +3,7 @@ package com.idiomiko.core.ui.i18n.ru
 /** The playlists of texts listened to one after another. */
 internal val ruPlaylists: Map<String, String> = mapOf(
     "News article" to "Новостная статья",
-    "~{0} h {1} min" to "~{0} ч {1} мин",
+    "{0} h {1} min" to "{0} ч {1} мин",
     "{0} texts" to "{0} текст|{0} текста|{0} текстов",
     "Could not change the playlist" to "Не удалось изменить плейлист",
     "Could not save the playlist" to "Не удалось сохранить плейлист",

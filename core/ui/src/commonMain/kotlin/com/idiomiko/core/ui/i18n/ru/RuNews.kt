@@ -67,7 +67,7 @@ internal val ruNews: Map<String, String> = mapOf(
     "Sources: {0} of {1}" to "Источники: {0} из {1}",
     "Easiest first" to "Сначала лёгкие",
     "read" to "прочитано",
-    "~{0} min read" to "~{0} мин чтения",
+    "{0} min read" to "{0} мин чтения",
     "{1} could not be reached; the other sources' news is here." to "Не удалось связаться с {1}; вот новости остальных источников.|Не удалось связаться с {1}; вот новости остальных источников.|Не удалось связаться с {1}; вот новости остальных источников.",
     "The news can't be reached right now" to "Новости сейчас недоступны",
     "Check your connection and try again." to "Проверьте подключение и попробуйте ещё раз.",

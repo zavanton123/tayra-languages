@@ -142,7 +142,7 @@ class FindBooksScreenTest {
         // Short and nearly known; then the classics in reach, best known first, and one harder past them.
         onNodeWithText("Short, and you know almost every word").assertExists()
         onNodeWithText("Famous Portuguese books at 75–89% known").assertExists()
-        onNodeWithText("Storybooks · ~7 min").assertExists()
+        onNodeWithText("Storybooks · 7 min").assertExists()
         onNodeWithText("Machado de Assis · hard").assertExists()
         onNodeWithTag("known-menina", useUnmergedTree = true).assertExists()
         onNode(hasScrollToNodeAction()).performScrollToNode(hasTestTag("library-GUTENBERG"))
@@ -180,7 +180,7 @@ class FindBooksScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("found-book-dialog")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("From Projecto Adamastor, public domain.").assertExists()
         onNodeWithText("You know 86% of the words").assertExists()
-        onNodeWithText("~300 min").assertExists()
+        onNodeWithText("300 min").assertExists()
         onNodeWithTag("dialog-add").performClick()
         assertEquals(listOf("alienista"), added)
     }

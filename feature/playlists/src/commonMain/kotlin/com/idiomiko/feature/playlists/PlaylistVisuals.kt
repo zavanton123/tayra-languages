@@ -169,10 +169,10 @@ internal val PlaylistTextKind.label: String
         PlaylistTextKind.NEWS -> tr("News article")
     }
 
-/** An estimate of listening time, rounded up to whole minutes: "~4 min", "~1 h 8 min". */
+/** An estimate of listening time, rounded up to whole minutes: "4 min", "1 h 8 min". */
 internal fun listeningTime(duration: Duration): String {
     val minutes = ((duration.inWholeSeconds + 59) / 60).coerceAtLeast(1)
-    return if (minutes < 60) tr("~{0} min", minutes) else tr("~{0} h {1} min", minutes / 60, minutes % 60)
+    return if (minutes < 60) tr("{0} min", minutes) else tr("{0} h {1} min", minutes / 60, minutes % 60)
 }
 
 /** A place in a text or a sentence as a clock reads it: 1:05, or 1:02:05 past an hour. */

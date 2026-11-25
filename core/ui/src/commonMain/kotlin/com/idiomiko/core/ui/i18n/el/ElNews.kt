@@ -67,7 +67,7 @@ internal val elNews: Map<String, String> = mapOf(
     "Sources: {0} of {1}" to "Πηγές: {0} από {1}",
     "Easiest first" to "Πρώτα οι πιο εύκολες",
     "read" to "διαβασμένο",
-    "~{0} min read" to "~{0} λεπ. ανάγνωση",
+    "{0} min read" to "{0} λεπ. ανάγνωση",
     "{1} could not be reached; the other sources' news is here." to "Η πηγή {1} δεν ήταν διαθέσιμη· εδώ είναι οι ειδήσεις των άλλων πηγών.|Οι πηγές {1} δεν ήταν διαθέσιμες· εδώ είναι οι ειδήσεις των άλλων πηγών.",
     "The news can't be reached right now" to "Οι ειδήσεις δεν είναι διαθέσιμες αυτή τη στιγμή",
     "Check your connection and try again." to "Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.",

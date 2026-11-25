@@ -10,7 +10,7 @@ internal val zhBooks: Map<String, String> = mapOf(
     "{1} books" to "{1} 本书",
     "Recently opened" to "最近打开",
     "Find books online" to "在线查找图书",
-    "Page {0} of {1} · ~{2} min left" to "第 {0} 页，共 {1} 页 · 还剩约 {2} 分钟",
+    "Page {0} of {1} · {2} min left" to "第 {0} 页，共 {1} 页 · 还剩 {2} 分钟",
     "Words you know" to "你认识的词",
     "Words known" to "认识的词",
     "Opened" to "打开时间",

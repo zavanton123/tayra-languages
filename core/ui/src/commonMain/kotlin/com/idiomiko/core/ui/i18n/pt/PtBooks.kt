@@ -10,7 +10,7 @@ internal val ptBooks: Map<String, String> = mapOf(
     "{1} books" to "{1} livro|{1} livros",
     "Recently opened" to "Abertos recentemente",
     "Find books online" to "Encontrar livros online",
-    "Page {0} of {1} · ~{2} min left" to "Página {0} de {1} · faltam ~{2} min",
+    "Page {0} of {1} · {2} min left" to "Página {0} de {1} · faltam {2} min",
     "Words you know" to "Palavras que você conhece",
     "Words known" to "Palavras conhecidas",
     "Opened" to "Aberto",

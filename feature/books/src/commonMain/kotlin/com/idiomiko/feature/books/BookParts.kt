@@ -153,8 +153,8 @@ internal fun BookLength(book: BookListItem, tags: Boolean = true, maxTags: Int =
     }
 }
 
-/** "1,223 words · ~21 min". */
-internal fun lengthLine(book: BookListItem): String = words(book.wordCount) + " · " + tr("~{0} min", book.readingMinutes)
+/** "1,223 words · 21 min". */
+internal fun lengthLine(book: BookListItem): String = words(book.wordCount) + " · " + tr("{0} min", book.readingMinutes)
 
 internal val THUMB = 44.dp
 internal val RING = 42.dp

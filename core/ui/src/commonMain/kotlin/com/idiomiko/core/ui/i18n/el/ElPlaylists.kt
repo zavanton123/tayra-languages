@@ -3,7 +3,7 @@ package com.idiomiko.core.ui.i18n.el
 /** The playlists of texts listened to one after another. */
 internal val elPlaylists: Map<String, String> = mapOf(
     "News article" to "Άρθρο ειδήσεων",
-    "~{0} h {1} min" to "~{0} ώρ. {1} λεπ.",
+    "{0} h {1} min" to "{0} ώρ. {1} λεπ.",
     "{0} texts" to "{0} κείμενο|{0} κείμενα",
     "Could not change the playlist" to "Δεν ήταν δυνατή η αλλαγή της λίστας αναπαραγωγής",
     "Could not save the playlist" to "Δεν ήταν δυνατή η αποθήκευση της λίστας αναπαραγωγής",

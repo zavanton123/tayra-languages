@@ -67,7 +67,7 @@ internal val esNews: Map<String, String> = mapOf(
     "Sources: {0} of {1}" to "Fuentes: {0} de {1}",
     "Easiest first" to "Más fáciles primero",
     "read" to "leído",
-    "~{0} min read" to "~{0} min de lectura",
+    "{0} min read" to "{0} min de lectura",
     "{1} could not be reached; the other sources' news is here." to "No se pudo acceder a {1}; aquí están las noticias de las demás fuentes.|No se pudo acceder a {1}; aquí están las noticias de las demás fuentes.",
     "The news can't be reached right now" to "Ahora no se puede acceder a las noticias",
     "Check your connection and try again." to "Revisa tu conexión y vuelve a intentarlo.",

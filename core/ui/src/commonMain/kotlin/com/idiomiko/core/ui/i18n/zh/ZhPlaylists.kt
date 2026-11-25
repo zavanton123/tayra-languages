@@ -3,7 +3,7 @@ package com.idiomiko.core.ui.i18n.zh
 /** The playlists of texts listened to one after another. */
 internal val zhPlaylists: Map<String, String> = mapOf(
     "News article" to "新闻文章",
-    "~{0} h {1} min" to "约 {0} 小时 {1} 分钟",
+    "{0} h {1} min" to "{0} 小时 {1} 分钟",
     "{0} texts" to "{0} 篇文本",
     "Could not change the playlist" to "无法更改播放列表",
     "Could not save the playlist" to "无法保存播放列表",

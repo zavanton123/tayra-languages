@@ -10,7 +10,7 @@ internal val esBooks: Map<String, String> = mapOf(
     "{1} books" to "{1} libro|{1} libros",
     "Recently opened" to "Abiertos recientemente",
     "Find books online" to "Buscar libros en línea",
-    "Page {0} of {1} · ~{2} min left" to "Página {0} de {1} · quedan ~{2} min",
+    "Page {0} of {1} · {2} min left" to "Página {0} de {1} · quedan {2} min",
     "Words you know" to "Palabras que conoces",
     "Words known" to "Palabras conocidas",
     "Opened" to "Abierto",

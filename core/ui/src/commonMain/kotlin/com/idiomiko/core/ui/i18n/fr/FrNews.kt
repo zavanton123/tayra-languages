@@ -67,7 +67,7 @@ internal val frNews: Map<String, String> = mapOf(
     "Sources: {0} of {1}" to "Sources : {0} sur {1}",
     "Easiest first" to "Les plus faciles d’abord",
     "read" to "lu",
-    "~{0} min read" to "~{0} min de lecture",
+    "{0} min read" to "{0} min de lecture",
     "{1} could not be reached; the other sources' news is here." to "{1} est injoignable ; voici les actualités des autres sources.|{1} sont injoignables ; voici les actualités des autres sources.",
     "The news can't be reached right now" to "Les actualités sont injoignables pour le moment",
     "Check your connection and try again." to "Vérifiez votre connexion et réessayez.",

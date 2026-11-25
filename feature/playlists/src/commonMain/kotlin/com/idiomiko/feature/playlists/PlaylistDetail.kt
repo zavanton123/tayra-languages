@@ -262,7 +262,7 @@ private fun HeaderCard(state: PlaylistDetailUiState, playlist: Playlist, viewMod
     }
 }
 
-/** "2 of 5 played · ~3 min left · 4 lessons, 1 book", the first part stronger. */
+/** "2 of 5 played · 3 min left · 4 lessons, 1 book", the first part stronger. */
 @Composable
 private fun headerFacts(state: PlaylistDetailUiState, playlist: Playlist): AnnotatedString {
     if (playlist.items.isEmpty()) return AnnotatedString(textCount(0))

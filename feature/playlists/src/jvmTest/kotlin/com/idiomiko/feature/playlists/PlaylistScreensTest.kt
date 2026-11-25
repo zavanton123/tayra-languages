@@ -122,7 +122,7 @@ class PlaylistScreensTest {
         onNodeWithTag("playlist-$morning").assertIsSelected()
         onNodeWithTag("playing-$morning", useUnmergedTree = true).assertExists()
         onNodeWithText("Short stories").assertExists()
-        onNodeWithText("1 track · ~1 min · ✓ done").assertExists()
+        onNodeWithText("1 track · 1 min · ✓ done").assertExists()
         onNodeWithTag("playlist-facts").assertTextContains("2 of 5 played", substring = true)
         onNodeWithTag("playlist-facts").assertTextContains("3 lessons, 2 books", substring = true)
         assertEquals(3, onAllNodes(hasText("Lesson · Compras e serviços")).fetchSemanticsNodes().size)

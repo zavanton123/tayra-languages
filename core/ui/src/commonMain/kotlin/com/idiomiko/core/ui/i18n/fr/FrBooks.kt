@@ -10,7 +10,7 @@ internal val frBooks: Map<String, String> = mapOf(
     "{1} books" to "{1} livre|{1} livres",
     "Recently opened" to "Ouverts récemment",
     "Find books online" to "Trouver des livres en ligne",
-    "Page {0} of {1} · ~{2} min left" to "Page {0} sur {1} · encore ~{2} min",
+    "Page {0} of {1} · {2} min left" to "Page {0} sur {1} · encore {2} min",
     "Words you know" to "Mots que vous connaissez",
     "Words known" to "Mots connus",
     "Opened" to "Ouvert",

@@ -67,7 +67,7 @@ internal val ptNews: Map<String, String> = mapOf(
     "Sources: {0} of {1}" to "Fontes: {0} de {1}",
     "Easiest first" to "Mais fáceis primeiro",
     "read" to "lido",
-    "~{0} min read" to "~{0} min de leitura",
+    "{0} min read" to "{0} min de leitura",
     "{1} could not be reached; the other sources' news is here." to "Não foi possível acessar {1}; aqui estão as notícias das outras fontes.|Não foi possível acessar {1}; aqui estão as notícias das outras fontes.",
     "The news can't be reached right now" to "Não é possível acessar as notícias agora",
     "Check your connection and try again." to "Verifique sua conexão e tente de novo.",

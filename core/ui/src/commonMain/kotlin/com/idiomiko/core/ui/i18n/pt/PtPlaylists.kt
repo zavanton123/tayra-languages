@@ -3,7 +3,7 @@ package com.idiomiko.core.ui.i18n.pt
 /** The playlists of texts listened to one after another. */
 internal val ptPlaylists: Map<String, String> = mapOf(
     "News article" to "Artigo de notícia",
-    "~{0} h {1} min" to "~{0} h {1} min",
+    "{0} h {1} min" to "{0} h {1} min",
     "{0} texts" to "{0} texto|{0} textos",
     "Could not change the playlist" to "Não foi possível alterar a playlist",
     "Could not save the playlist" to "Não foi possível salvar a playlist",

@@ -160,7 +160,7 @@ class NewsScreenTest {
         onNodeWithTag("lead-https://news.example/cafe").assertExists()
         for (card in listOf("ervas", "selecao", "cinema", "chuva")) onNodeWithTag("card-https://news.example/$card").assertExists()
         onNodeWithText("Updated 2 minutes ago").assertExists()
-        onNodeWithText("~5 min read", substring = true).assertExists()
+        onNodeWithText("5 min read", substring = true).assertExists()
         onNodeWithText("27 new words", substring = true).assertExists()
         onNodeWithText("93% known").assertExists()
         // The feeds' sections in Brazil's words, once each; Portugal's own news (País) is no topic.

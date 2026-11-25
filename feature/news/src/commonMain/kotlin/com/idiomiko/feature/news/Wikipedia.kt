@@ -482,7 +482,7 @@ private fun WikiCard(item: NewsItem, state: WikiUiState, actions: WikiActions, m
             Spacer(Modifier.weight(1f))
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                 KnownBadge(item)
-                item.coverage?.minutes?.let { Text("· " + tr("~{0} min", it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
+                item.coverage?.minutes?.let { Text("· " + tr("{0} min", it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
             }
             item.error?.let { Text(it, style = MaterialTheme.typography.bodySmall, color = colors.error, maxLines = 1, overflow = TextOverflow.Ellipsis) }
             Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {

@@ -116,7 +116,7 @@ class BooksScreenTest {
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it) }
 
         // The card of the book being read gives its page and the minutes left; its row gives the page as its status.
-        onNodeWithText("Page 3 of 5 · ~13 min left").assertExists()
+        onNodeWithText("Page 3 of 5 · 13 min left").assertExists()
         onNodeWithText("Page 3 of 5").assertExists()
         onNodeWithText("CONTINUE READING").assertExists()
         // The table lists every book, the one on the card too.
@@ -249,14 +249,14 @@ class BooksScreenTest {
             }
         }
         waitForIdle()
-        onNodeWithText("Page 3 of 5 · ~13 min left").assertExists()
+        onNodeWithText("Page 3 of 5 · 13 min left").assertExists()
         onNodeWithText("Pages read").assertExists()
         onNodeWithText("69%").assertExists()
         onNodeWithText("Your library").assertDoesNotExist()
         onNodeWithText("Read, learn, and build your vocabulary with every text.").assertDoesNotExist()
         assertEquals(1, onAllNodesWithText("Long text").fetchSemanticsNodes().size)
         onNodeWithTag("book-row-1").assertDoesNotExist()
-        onNodeWithText("103 words · ~2 min").assertExists()
+        onNodeWithText("103 words · 2 min").assertExists()
         onNodeWithText("74% known").assertExists()
         System.getenv("BOOKS_SCREENSHOT")?.let { save(it.replace(".png", "-phone.png")) }
 

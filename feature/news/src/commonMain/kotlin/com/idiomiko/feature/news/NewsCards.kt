@@ -276,7 +276,7 @@ private fun Footer(item: NewsItem, long: Boolean, modifier: Modifier = Modifier)
     Row(modifier, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
         KnownBadge(item)
         val parts = listOfNotNull(
-            coverage?.minutes?.let { if (long) tr("~{0} min read", it) else tr("~{0} min", it) },
+            coverage?.minutes?.let { if (long) tr("{0} min read", it) else tr("{0} min", it) },
             coverage?.newWords?.takeIf { long }?.let { trPlural(it, "{0} new word", "{0} new words") },
         )
         if (parts.isNotEmpty()) Text(parts.joinToString(" · ", prefix = "· "), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)

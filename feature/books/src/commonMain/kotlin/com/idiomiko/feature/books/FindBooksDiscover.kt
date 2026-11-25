@@ -511,7 +511,7 @@ private fun AddBadge(item: FoundBookItem, actions: FindBooksActions, modifier: M
 private fun meta(item: FoundBookItem, byAuthor: Boolean, hard: Boolean = false): String {
     val author = item.book.authors.firstOrNull()?.inLearnedScript()?.takeIf { it.isNotBlank() }
     val parts = if (byAuthor) listOf(author ?: item.book.source.label)
-    else listOfNotNull(item.book.source.label, item.coverage?.minutes?.let { tr("~{0} min", it) } ?: author ?: item.book.level)
+    else listOfNotNull(item.book.source.label, item.coverage?.minutes?.let { tr("{0} min", it) } ?: author ?: item.book.level)
     return (parts + listOfNotNull(tr("hard").takeIf { hard })).joinToString(" · ")
 }
 

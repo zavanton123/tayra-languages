@@ -10,7 +10,7 @@ internal val plBooks: Map<String, String> = mapOf(
     "{1} books" to "{1} książka|{1} książki|{1} książek",
     "Recently opened" to "Ostatnio otwierane",
     "Find books online" to "Znajdź książki w sieci",
-    "Page {0} of {1} · ~{2} min left" to "Strona {0} z {1} · zostało ~{2} min",
+    "Page {0} of {1} · {2} min left" to "Strona {0} z {1} · zostało {2} min",
     "Words you know" to "Słowa, które znasz",
     "Words known" to "Znane słowa",
     "Opened" to "Otwarto",

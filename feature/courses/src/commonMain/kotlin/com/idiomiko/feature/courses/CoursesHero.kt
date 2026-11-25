@@ -57,7 +57,7 @@ internal fun NextLessonHero(next: NextUp.Lesson, onStart: () -> Unit, onOpenLess
     val course = next.course.course
     val eyebrow = (if (next.started) tr("Keep going") else tr("Start here")) + " · " + course.title.inLearnedScript()
     val facts = listOfNotNull(
-        tr("~{0} min", next.minutes),
+        tr("{0} min", next.minutes),
         next.newWords.takeIf { it > 0 }?.let { trPlural(it, "{1} new word", "{1} new words", formatCount(it)) },
         tr("with audio").takeIf { next.lesson.book?.hasAudio == true },
     ).joinToString(" · ")

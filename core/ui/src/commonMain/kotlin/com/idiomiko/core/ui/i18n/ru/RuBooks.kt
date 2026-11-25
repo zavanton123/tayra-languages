@@ -10,7 +10,7 @@ internal val ruBooks: Map<String, String> = mapOf(
     "{1} books" to "{1} книга|{1} книги|{1} книг",
     "Recently opened" to "Недавно открытые",
     "Find books online" to "Найти книги онлайн",
-    "Page {0} of {1} · ~{2} min left" to "Страница {0} из {1} · осталось ~{2} мин",
+    "Page {0} of {1} · {2} min left" to "Страница {0} из {1} · осталось {2} мин",
     "Words you know" to "Знакомые вам слова",
     "Words known" to "Знакомые слова",
     "Opened" to "Открыта",

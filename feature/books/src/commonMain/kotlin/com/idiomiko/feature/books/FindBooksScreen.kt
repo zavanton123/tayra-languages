@@ -142,7 +142,7 @@ private fun FoundBookDialog(item: FoundBookItem, actions: FindBooksActions, onDi
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
                         val byline = listOfNotNull(book.authors.joinToString(", ").inLearnedScript().takeIf { it.isNotEmpty() }, book.level).joinToString(" · ")
                         if (byline.isNotEmpty()) Text(byline, style = AppText.emphasis)
-                        item.coverage?.minutes?.let { Text(tr("~{0} min", it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
+                        item.coverage?.minutes?.let { Text(tr("{0} min", it), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                         CoverageLine(item.difficulty, item.check, tag = book.id, onCheck = if (book.source.judgedOnSight) null else ({ actions.onCheck(item) }))
                         Text(tr("From {0}, {1}.", book.source.libraryName, licence(book.license)), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                     }

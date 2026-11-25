@@ -10,7 +10,7 @@ internal val elBooks: Map<String, String> = mapOf(
     "{1} books" to "{1} βιβλίο|{1} βιβλία",
     "Recently opened" to "Άνοιξαν πρόσφατα",
     "Find books online" to "Βρείτε βιβλία στο διαδίκτυο",
-    "Page {0} of {1} · ~{2} min left" to "Σελίδα {0} από {1} · απομένουν ~{2} λεπ.",
+    "Page {0} of {1} · {2} min left" to "Σελίδα {0} από {1} · απομένουν {2} λεπ.",
     "Words you know" to "Λέξεις που γνωρίζετε",
     "Words known" to "Γνωστές λέξεις",
     "Opened" to "Άνοιγμα",

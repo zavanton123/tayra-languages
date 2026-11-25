@@ -67,7 +67,7 @@ internal val zhNews: Map<String, String> = mapOf(
     "Sources: {0} of {1}" to "来源：{1} 个中的 {0} 个",
     "Easiest first" to "最简单优先",
     "read" to "已读",
-    "~{0} min read" to "约 {0} 分钟读完",
+    "{0} min read" to "{0} 分钟读完",
     "{1} could not be reached; the other sources' news is here." to "无法访问{1}；以下是其他来源的新闻。",
     "The news can't be reached right now" to "暂时无法获取新闻",
     "Check your connection and try again." to "请检查网络连接后重试。",

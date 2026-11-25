@@ -169,7 +169,7 @@ class BooksTableTest {
         page()
         // The Continue card: where the reader is and the minutes left at sixty words a minute.
         onNodeWithText("CONTINUE READING").assertIsDisplayed()
-        onNodeWithText("Page 3 of 5 · ~13 min left").assertIsDisplayed()
+        onNodeWithText("Page 3 of 5 · 13 min left").assertIsDisplayed()
         onNodeWithText("Pages read").assertExists()
         onNodeWithText("Words you know").assertExists()
         // One toolbar row: the status tabs with their counts, no separate count or library heading.
@@ -180,7 +180,7 @@ class BooksTableTest {
         assertEquals(0, count("Read, learn, and build your vocabulary with every text."))
         // The table lists the book on the Continue card too, as the mockup does.
         assertEquals(6, tagged("book-row-"))
-        onNodeWithText("1,223 words · ~21 min").assertExists()
+        onNodeWithText("1,223 words · 21 min").assertExists()
         onNodeWithText("Page 3 of 5").assertExists()
         assertEquals(4, count("Finished"))
         // Known shares: green from half the words, orange with a hint below that.
@@ -267,7 +267,7 @@ class BooksTableTest {
     fun thePhoneShowsCardsUnderTheSearchAndFilters() = runDesktopComposeUiTest(width = 400, height = 860) {
         page(phone = true)
         onNodeWithTag("continue-card").assertIsDisplayed()
-        onNodeWithText("Page 3 of 5 · ~13 min left").assertExists()
+        onNodeWithText("Page 3 of 5 · 13 min left").assertExists()
         onNodeWithTag("phone-filters").assertIsDisplayed()
         // The book on the card is not listed again below it.
         assertEquals(0, onAllNodesWithTag("book-row-1").fetchSemanticsNodes().size)

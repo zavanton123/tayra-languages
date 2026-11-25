@@ -298,9 +298,9 @@ private fun ContinueCard(book: BookListItem, onContinue: () -> Unit) = BoxWithCo
     }
 }
 
-/** "Page 3 of 5 · ~13 min left": the page under way and the minutes the rest of the book takes. */
+/** "Page 3 of 5 · 13 min left": the page under way and the minutes the rest of the book takes. */
 internal fun placeLine(book: BookListItem): String =
-    tr("Page {0} of {1} · ~{2} min left", book.currentPage, book.pageCount, StudyTime.readingMinutes(book.wordsLeft))
+    tr("Page {0} of {1} · {2} min left", book.currentPage, book.pageCount, StudyTime.readingMinutes(book.wordsLeft))
 
 /** The Continue card's two shares: the pages read and the words known. */
 @Composable
