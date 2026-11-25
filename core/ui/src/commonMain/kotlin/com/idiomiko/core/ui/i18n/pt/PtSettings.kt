@@ -282,7 +282,6 @@ internal val ptSettings: Map<String, String> = mapOf(
     "This device" to "Este dispositivo",
     "Last used {0}" to "Último uso {0}",
     "Delete account" to "Excluir conta",
-    "Removes the account and everything kept with it. The library on this device stays." to "Remove a conta e tudo o que é guardado com ela. A biblioteca deste dispositivo permanece.",
     "Delete your account?" to "Excluir sua conta?",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "Sua conta e tudo o que é guardado com ela são excluídos para sempre. Este dispositivo sai da conta; sua biblioteca permanece.",
     "The account service cannot be reached" to "Não foi possível acessar o serviço de contas",

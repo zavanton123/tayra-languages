@@ -282,7 +282,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "This device" to "Dieses Gerät",
     "Last used {0}" to "Zuletzt verwendet {0}",
     "Delete account" to "Konto löschen",
-    "Removes the account and everything kept with it. The library on this device stays." to "Entfernt das Konto und alles, was damit aufbewahrt wird. Die Bibliothek auf diesem Gerät bleibt.",
     "Delete your account?" to "Dein Konto löschen?",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "Dein Konto und alles, was damit aufbewahrt wird, werden endgültig gelöscht. Dieses Gerät wird abgemeldet; seine Bibliothek bleibt.",
     "The account service cannot be reached" to "Der Kontodienst ist nicht erreichbar",

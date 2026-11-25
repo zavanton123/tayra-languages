@@ -282,7 +282,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "This device" to "Αυτή η συσκευή",
     "Last used {0}" to "Τελευταία χρήση {0}",
     "Delete account" to "Διαγραφή λογαριασμού",
-    "Removes the account and everything kept with it. The library on this device stays." to "Αφαιρεί τον λογαριασμό και ό,τι αποθηκεύεται μαζί του. Η βιβλιοθήκη σε αυτή τη συσκευή παραμένει.",
     "Delete your account?" to "Διαγραφή του λογαριασμού σας;",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "Ο λογαριασμός σας και ό,τι αποθηκεύεται μαζί του διαγράφονται οριστικά. Αυτή η συσκευή αποσυνδέεται· η βιβλιοθήκη της παραμένει.",
     "The account service cannot be reached" to "Δεν είναι δυνατή η σύνδεση με την υπηρεσία λογαριασμών",

@@ -282,7 +282,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "This device" to "此设备",
     "Last used {0}" to "上次使用 {0}",
     "Delete account" to "删除账户",
-    "Removes the account and everything kept with it. The library on this device stays." to "删除账户以及与之一起保存的所有内容。此设备上的资料库会保留。",
     "Delete your account?" to "删除你的账户？",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "你的账户以及与之一起保存的所有内容将被永久删除。此设备将退出登录，其资料库会保留。",
     "The account service cannot be reached" to "无法连接账户服务",

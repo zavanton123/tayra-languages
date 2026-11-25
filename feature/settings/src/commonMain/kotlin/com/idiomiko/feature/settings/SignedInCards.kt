@@ -280,7 +280,6 @@ private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?)
             IconTile(Icons.Default.Warning, size = if (compact) DELETE_TILE_COMPACT else DELETE_TILE, tint = red)
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                 Text(tr("Delete account"), style = AppText.sectionTitle)
-                Text(tr("Removes the account and everything kept with it. The library on this device stays."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 Text(tr("This action cannot be undone."), style = AppText.label, color = red)
             }
             if (!compact) button(Modifier)

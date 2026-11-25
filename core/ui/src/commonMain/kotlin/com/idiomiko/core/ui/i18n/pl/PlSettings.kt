@@ -282,7 +282,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "This device" to "To urządzenie",
     "Last used {0}" to "Ostatnio używane {0}",
     "Delete account" to "Usuń konto",
-    "Removes the account and everything kept with it. The library on this device stays." to "Usuwa konto i wszystko, co jest z nim przechowywane. Biblioteka na tym urządzeniu zostaje.",
     "Delete your account?" to "Usunąć konto?",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "Konto i wszystko, co jest z nim przechowywane, zostaną trwale usunięte. To urządzenie zostanie wylogowane; jego biblioteka zostaje.",
     "The account service cannot be reached" to "Nie można połączyć się z usługą kont",

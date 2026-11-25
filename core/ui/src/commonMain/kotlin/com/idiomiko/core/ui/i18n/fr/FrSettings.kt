@@ -282,7 +282,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "This device" to "Cet appareil",
     "Last used {0}" to "Dernière utilisation {0}",
     "Delete account" to "Supprimer le compte",
-    "Removes the account and everything kept with it. The library on this device stays." to "Supprime le compte et tout ce qui y est conservé. La bibliothèque de cet appareil reste.",
     "Delete your account?" to "Supprimer votre compte ?",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "Votre compte et tout ce qui y est conservé sont supprimés définitivement. Cet appareil est déconnecté ; sa bibliothèque reste.",
     "The account service cannot be reached" to "Le service de comptes est injoignable",

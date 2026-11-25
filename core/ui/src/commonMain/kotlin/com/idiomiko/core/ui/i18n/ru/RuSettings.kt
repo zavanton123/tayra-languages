@@ -282,7 +282,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "This device" to "Это устройство",
     "Last used {0}" to "Последнее использование {0}",
     "Delete account" to "Удалить аккаунт",
-    "Removes the account and everything kept with it. The library on this device stays." to "Удаляет аккаунт и всё, что с ним хранится. Библиотека на этом устройстве останется.",
     "Delete your account?" to "Удалить аккаунт?",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "Аккаунт и всё, что с ним хранится, будут удалены навсегда. На этом устройстве будет выполнен выход; его библиотека останется.",
     "The account service cannot be reached" to "Служба аккаунтов недоступна",

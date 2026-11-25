@@ -282,7 +282,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "This device" to "Este dispositivo",
     "Last used {0}" to "Último uso {0}",
     "Delete account" to "Eliminar cuenta",
-    "Removes the account and everything kept with it. The library on this device stays." to "Elimina la cuenta y todo lo guardado con ella. La biblioteca de este dispositivo se queda.",
     "Delete your account?" to "¿Eliminar tu cuenta?",
     "Your account and everything kept with it are deleted for good. This device is signed out; its library stays." to "Tu cuenta y todo lo guardado con ella se eliminan para siempre. Este dispositivo cierra la sesión; su biblioteca se queda.",
     "The account service cannot be reached" to "No se puede conectar con el servicio de cuentas",
