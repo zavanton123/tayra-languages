@@ -250,7 +250,7 @@ class SettingsRepositoryImpl(
     }
 
     private fun persist(s: UserSettings) {
-        write(s, store)
+        store.inBatch { write(s, store) }
         storeSecret(Keys.GOOGLE_TRANSLATE_API_KEY, s.googleTranslateApiKey)
     }
 

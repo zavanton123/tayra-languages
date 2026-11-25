@@ -1,6 +1,5 @@
 package com.idiomiko.core.data.di
 
-import com.russhwolf.settings.PreferencesSettings
 import com.russhwolf.settings.Settings
 import com.idiomiko.core.data.backup.BackupFiles
 import com.idiomiko.core.data.bookpack.BookPackFiles
@@ -26,7 +25,7 @@ import com.idiomiko.core.data.settings.SecureStore
 import com.idiomiko.core.domain.account.IdentitySignIn
 import com.idiomiko.core.data.settings.desktopSecureStore
 import com.idiomiko.core.data.settings.desktopPreferences
-import com.idiomiko.core.data.settings.fileSettings
+import com.idiomiko.core.data.settings.desktopSettings
 import com.idiomiko.core.data.speech.FileSpeechAudioCache
 import com.idiomiko.core.data.speech.KokoroSpeechEngine
 import com.idiomiko.core.data.speech.PiperSpeechEngine
@@ -67,8 +66,13 @@ actual val platformDataModule: Module = module {
     single { DictionaryPackStorage(get()) }
     single { CoursePackFiles(get()) }
     single { BookPackFiles(get()) }
-    // A data folder of its own keeps its settings beside the database, so it shares nothing with the usual library.
-    single<Settings> { DatabaseDriverFactory.customDataDirectory()?.let { fileSettings(File(it, "settings.properties")) } ?: PreferencesSettings(desktopPreferences()) }
+    // The settings are a file beside the database, which no other program writes; Java's preferences are
+    // shared with every Java app on the computer, whose saves could drop the app's. The usual library
+    // starts its file from what it kept there; a data folder of its own shares nothing with it.
+    single<Settings> {
+        val ownFolder = DatabaseDriverFactory.customDataDirectory() != null
+        desktopSettings(DatabaseDriverFactory.dataDirectory(), former = { if (ownFolder) null else desktopPreferences() })
+    }
     single<SecureStore> { desktopSecureStore() }
     single<TextRecognizer> { TesseractTextRecognizer(File(DatabaseDriverFactory.dataDirectory(), "ocr/tessdata")) }
     single<CommandLineTool> { DesktopCommandLineTool() }
