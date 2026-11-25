@@ -41,7 +41,6 @@ internal val frHome: Map<String, String> = mapOf(
     "{0}% of the {1} most common words" to "{0} % des {1} mots les plus courants",
     "Next milestone: {0}" to "Prochain palier : {0}",
     "Words up to rank {0}" to "Mots jusqu’au rang {0}",
-    "See all stats" to "Toutes les statistiques",
     "Good morning!" to "Bonjour !",
     "Good afternoon!" to "Bon après-midi !",
     "Good evening!" to "Bonsoir !",

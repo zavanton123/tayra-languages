@@ -41,7 +41,6 @@ internal val ruHome: Map<String, String> = mapOf(
     "{0}% of the {1} most common words" to "{0}% из {1} самых частых слов",
     "Next milestone: {0}" to "Следующий рубеж: {0}",
     "Words up to rank {0}" to "Слова до {0}-го по частоте",
-    "See all stats" to "Вся статистика",
     "Good morning!" to "Доброе утро!",
     "Good afternoon!" to "Добрый день!",
     "Good evening!" to "Добрый вечер!",

@@ -224,7 +224,7 @@ internal fun RecentActivityCard(state: HomeUiState, actions: HomeActions, modifi
     StudyActivityCard(
         activity,
         range = start..today,
-        action = { LinkText(tr("See all stats"), onClick = { actions.onNavigate(Route.Stats) }, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.testTag("see-all-stats")) },
+        action = { LinkText(tr("See all"), onClick = { actions.onNavigate(Route.Stats) }, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.testTag("see-all-stats")) },
         modifier = modifier.testTag("activity"),
     )
 }

@@ -41,7 +41,6 @@ internal val deHome: Map<String, String> = mapOf(
     "{0}% of the {1} most common words" to "{0} % der {1} häufigsten Wörter",
     "Next milestone: {0}" to "Nächstes Etappenziel: {0}",
     "Words up to rank {0}" to "Wörter bis Rang {0}",
-    "See all stats" to "Alle Statistiken",
     "Good morning!" to "Guten Morgen!",
     "Good afternoon!" to "Guten Tag!",
     "Good evening!" to "Guten Abend!",

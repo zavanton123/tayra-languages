@@ -41,7 +41,6 @@ internal val ptHome: Map<String, String> = mapOf(
     "{0}% of the {1} most common words" to "{0}% das {1} palavras mais comuns",
     "Next milestone: {0}" to "Próxima marca: {0}",
     "Words up to rank {0}" to "Palavras até a posição {0}",
-    "See all stats" to "Ver todas as estatísticas",
     "Good morning!" to "Bom dia!",
     "Good afternoon!" to "Boa tarde!",
     "Good evening!" to "Boa noite!",
