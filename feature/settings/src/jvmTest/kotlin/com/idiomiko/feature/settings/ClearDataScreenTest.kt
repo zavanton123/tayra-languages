@@ -41,6 +41,10 @@ import java.io.File
 import java.nio.file.Files
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasProgressBarRangeInfo
+import androidx.compose.ui.semantics.ProgressBarRangeInfo
 import kotlin.test.assertEquals
 import kotlin.time.Clock
 import kotlin.time.Instant
@@ -127,6 +131,11 @@ class ClearDataScreenTest {
         state = ClearDataUiState(started = true, running = ClearStep.DICTIONARIES)
         waitForIdle()
         onNodeWithText("This takes a moment; the items above show how far it is.").assertExists()
+        // The rows tick off as they are cleared, without a spinner of their own beside the one on the button.
+        val rowSpinners = ClearGroup.entries.sumOf { group ->
+            onAllNodes(hasProgressBarRangeInfo(ProgressBarRangeInfo.Indeterminate) and hasAnyAncestor(hasTestTag("clear-${group.name}"))).fetchSemanticsNodes().size
+        }
+        assertEquals(0, rowSpinners)
         save("CLEAR_SCREENSHOT", "-running")
 
         state = ClearDataUiState(started = true, done = true, problems = mapOf(ClearStep.VOICES to "Piper: the folder is in use"))

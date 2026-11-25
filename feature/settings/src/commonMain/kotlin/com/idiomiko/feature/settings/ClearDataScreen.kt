@@ -38,7 +38,6 @@ import com.idiomiko.core.domain.service.ClearStep
 import com.idiomiko.core.ui.components.APP_NAME
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
-import com.idiomiko.core.ui.components.AppSpinner
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.ButtonTone
@@ -55,7 +54,6 @@ import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.SettingsPane
 import com.idiomiko.core.ui.components.SettingsSection
-import com.idiomiko.core.ui.components.SpinnerSize
 import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.components.ToastHost
 import com.idiomiko.core.ui.components.cardSurface
@@ -262,7 +260,6 @@ private fun RemovedColumn(state: ClearDataUiState, modifier: Modifier) {
 internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
     val colors = MaterialTheme.colorScheme
     val problems = group.steps.mapNotNull { state.problems[it] }
-    val running = state.running != null && state.running in group.steps
     val done = state.done || (state.running != null && group.steps.all { it.ordinal < state.running.ordinal })
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l), modifier = Modifier.testTag("clear-${group.name}")) {
         IconTile(
@@ -297,7 +294,6 @@ internal fun GroupRow(group: ClearGroup, state: ClearDataUiState) {
             Box(Modifier.size(AppSizes.iconLarge), contentAlignment = Alignment.Center) {
                 when {
                     problems.isNotEmpty() -> Icon(Icons.Default.Warning, contentDescription = tr("Failed"), tint = colors.error)
-                    running -> AppSpinner(size = SpinnerSize.Small)
                     done -> Icon(Icons.Default.CheckCircle, contentDescription = tr("Removed"), tint = StatusTints.ok)
                 }
             }
