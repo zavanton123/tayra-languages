@@ -263,8 +263,6 @@ internal val deCommon: Map<String, String> = mapOf(
     "No tags selected" to "Keine Tags ausgewählt",
     "{0} tags selected" to "{0} Tag ausgewählt|{0} Tags ausgewählt",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "Dein Fortschritt in {0}.",
-    "Your progress in the languages you learn." to "Dein Fortschritt in den Sprachen, die du lernst.",
     "{0} this week" to "{0} diese Woche",
     "Known words" to "Bekannte Wörter",
     "{1} words saved this week" to "{1} Wort diese Woche gespeichert|{1} Wörter diese Woche gespeichert",

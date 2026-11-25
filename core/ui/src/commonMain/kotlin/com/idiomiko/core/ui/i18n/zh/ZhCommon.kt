@@ -263,8 +263,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     "No tags selected" to "未选择标签",
     "{0} tags selected" to "已选择 {0} 个标签",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "你的{0}学习进度。",
-    "Your progress in the languages you learn." to "你在所学语言上的进度。",
     "{0} this week" to "本周 {0}",
     "Known words" to "已掌握的单词",
     "{1} words saved this week" to "本周保存了 {1} 个单词",

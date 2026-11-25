@@ -263,8 +263,6 @@ internal val esCommon: Map<String, String> = mapOf(
     "No tags selected" to "Ninguna etiqueta seleccionada",
     "{0} tags selected" to "{0} etiqueta seleccionada|{0} etiquetas seleccionadas",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "Tu progreso en {0}.",
-    "Your progress in the languages you learn." to "Tu progreso en los idiomas que aprendes.",
     "{0} this week" to "{0} esta semana",
     "Known words" to "Palabras conocidas",
     "{1} words saved this week" to "{1} palabra guardada esta semana|{1} palabras guardadas esta semana",

@@ -263,8 +263,6 @@ internal val elCommon: Map<String, String> = mapOf(
     "No tags selected" to "Δεν επιλέχθηκαν ετικέτες",
     "{0} tags selected" to "{0} ετικέτα επιλεγμένη|{0} ετικέτες επιλεγμένες",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "Η πρόοδός σας στα {0}.",
-    "Your progress in the languages you learn." to "Η πρόοδός σας στις γλώσσες που μαθαίνετε.",
     "{0} this week" to "{0} αυτή την εβδομάδα",
     "Known words" to "Γνωστές λέξεις",
     "{1} words saved this week" to "{1} λέξη αποθηκεύτηκε αυτή την εβδομάδα|{1} λέξεις αποθηκεύτηκαν αυτή την εβδομάδα",

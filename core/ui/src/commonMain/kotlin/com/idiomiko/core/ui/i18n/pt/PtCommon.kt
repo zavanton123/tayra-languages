@@ -263,8 +263,6 @@ internal val ptCommon: Map<String, String> = mapOf(
     "No tags selected" to "Nenhuma tag selecionada",
     "{0} tags selected" to "{0} tag selecionada|{0} tags selecionadas",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "Seu progresso em {0}.",
-    "Your progress in the languages you learn." to "Seu progresso nos idiomas que você estuda.",
     "{0} this week" to "{0} nesta semana",
     "Known words" to "Palavras conhecidas",
     "{1} words saved this week" to "{1} palavra salva nesta semana|{1} palavras salvas nesta semana",

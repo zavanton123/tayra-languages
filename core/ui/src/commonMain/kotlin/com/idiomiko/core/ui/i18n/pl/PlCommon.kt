@@ -263,8 +263,6 @@ internal val plCommon: Map<String, String> = mapOf(
     "No tags selected" to "Nie wybrano tagów",
     "{0} tags selected" to "Wybrano {0} tag|Wybrano {0} tagi|Wybrano {0} tagów",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "Twoje postępy w języku {0}.",
-    "Your progress in the languages you learn." to "Twoje postępy w językach, których się uczysz.",
     "{0} this week" to "{0} w tym tygodniu",
     "Known words" to "Znane słowa",
     "{1} words saved this week" to "{1} słowo zapisane w tym tygodniu|{1} słowa zapisane w tym tygodniu|{1} słów zapisanych w tym tygodniu",

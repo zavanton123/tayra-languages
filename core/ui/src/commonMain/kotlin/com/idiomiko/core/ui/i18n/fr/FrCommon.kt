@@ -263,8 +263,6 @@ internal val frCommon: Map<String, String> = mapOf(
     "No tags selected" to "Aucun tag sélectionné",
     "{0} tags selected" to "{0} tag sélectionné|{0} tags sélectionnés",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "Vos progrès en {0}.",
-    "Your progress in the languages you learn." to "Vos progrès dans les langues que vous apprenez.",
     "{0} this week" to "{0} cette semaine",
     "Known words" to "Mots connus",
     "{1} words saved this week" to "{1} mot enregistré cette semaine|{1} mots enregistrés cette semaine",

@@ -263,8 +263,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     "No tags selected" to "Теги не выбраны",
     "{0} tags selected" to "Выбран {0} тег|Выбрано {0} тега|Выбрано {0} тегов",
     // StatsScreen.kt: the language's progress
-    "Your progress in {0}." to "Ваши успехи в {0} языке.",
-    "Your progress in the languages you learn." to "Ваши успехи в изучаемых языках.",
     "{0} this week" to "{0} за эту неделю",
     "Known words" to "Знакомые слова",
     "{1} words saved this week" to "{1} слово сохранено за неделю|{1} слова сохранено за неделю|{1} слов сохранено за неделю",

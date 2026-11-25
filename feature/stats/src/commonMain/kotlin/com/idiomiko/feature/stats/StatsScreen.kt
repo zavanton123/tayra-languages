@@ -76,9 +76,7 @@ import com.idiomiko.core.ui.components.learningLevels
 import com.idiomiko.core.ui.components.shortDate
 import com.idiomiko.core.ui.components.shortDateWithYear
 import com.idiomiko.core.ui.components.shownName
-import com.idiomiko.core.ui.i18n.LanguageCase
 import com.idiomiko.core.ui.i18n.formatCount
-import com.idiomiko.core.ui.i18n.languageInSentence
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.i18n.trPlural
 import com.idiomiko.core.ui.navigation.Route
@@ -142,10 +140,7 @@ private val seriesColors = AppAccents.sequence
 internal fun StatsContent(state: StatsUiState, onNavigate: (Route) -> Unit = {}) {
     val overview = state.overview
     val wide = LocalWindowWidth.current.isExpanded
-    ScreenHeader(
-        tr("Statistics"),
-        overview?.let { tr("Your progress in {0}.", languageInSentence(it.languageName, LanguageCase.PREPOSITIONAL)) } ?: tr("Your progress in the languages you learn."),
-    )
+    ScreenHeader(tr("Statistics"), null)
     // With nothing read, saved or reviewed, one message and a way to start say more than a page of grey charts.
     if (overview != null && overview.wordsRead == 0 && overview.termsByStatus.values.sum() == 0 && overview.reviewsTotal == 0) {
         EmptyState(
