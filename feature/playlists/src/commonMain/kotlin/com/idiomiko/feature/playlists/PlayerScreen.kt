@@ -31,6 +31,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.mutableStateOf
@@ -61,7 +62,6 @@ import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LocalWindowWidth
@@ -89,8 +89,10 @@ import org.koin.compose.viewmodel.koinViewModel
  * player bar are on the screen itself.
  */
 @Composable
-fun PlayerScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: PlayerViewModel = koinViewModel()) {
+fun PlayerScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, onStopped: () -> Unit, viewModel: PlayerViewModel = koinViewModel()) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    // With nothing to play there is no player to show: the playlists are where one is started.
+    LaunchedEffect(state.stopped) { if (state.stopped) onStopped() }
     Scaffold(
         topBar = {
             AppTopBar(
@@ -123,14 +125,7 @@ internal fun PlayerContent(state: PlayerUiState, viewModel: PlayerViewModel, onN
             contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
             verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
         ) {
-            if (!p.isLoaded || playlist == null) {
-                EmptyState(
-                    tr("Nothing is playing"),
-                    message = tr("Play a playlist to hear its texts one after another."),
-                    action = { PrimaryButton(tr("Open playlists"), onClick = { onNavigate(Route.Playlists) }, icon = AppIcons.QueueMusic) },
-                )
-                return@ScrollColumn
-            }
+            if (!p.isLoaded || playlist == null) return@ScrollColumn
             val header: @Composable () -> Unit = {
                 ScreenHeader(
                     playlist.name,

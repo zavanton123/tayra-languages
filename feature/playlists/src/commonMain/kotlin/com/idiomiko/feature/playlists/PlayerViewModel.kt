@@ -32,7 +32,12 @@ data class PlayerUiState(
     val elapsed: Duration = Duration.ZERO,
     val total: Duration = Duration.ZERO,
     val speed: Float = 1f,
-)
+    /** Whether the player has a command still to carry out, such as starting a text. */
+    val busy: Boolean = false,
+) {
+    /** Nothing is loaded and nothing is about to be. */
+    val stopped: Boolean get() = !player.isLoaded && !busy
+}
 
 /** The app's playlist player, for its screen and its bar: the commands go straight to the player. */
 class PlayerViewModel(
@@ -60,7 +65,8 @@ class PlayerViewModel(
         player.state,
         translations,
         combine(time.changes, settings.settings.map { it.playlistSpeed }.distinctUntilChanged()) { _, speed -> speed },
-    ) { p, known, speed ->
+        player.pending,
+    ) { p, known, speed, pending ->
         val code = p.languageCode
         val playlist = p.playlist
         PlayerUiState(
@@ -71,8 +77,9 @@ class PlayerViewModel(
             elapsed = service.duration(p.heard, code),
             total = service.duration(p.textLength, code),
             speed = speed,
+            busy = pending > 0,
         )
-    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), PlayerUiState(player.state.value))
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), PlayerUiState(player.state.value, busy = player.pending.value > 0))
 
     fun cycleRepeat() {
         player.setRepeat(

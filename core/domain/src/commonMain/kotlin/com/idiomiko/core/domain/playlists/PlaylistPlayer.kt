@@ -168,6 +168,10 @@ class PlaylistPlayer(
 ) {
     private val _state = MutableStateFlow(PlayerState())
     val state: StateFlow<PlayerState> = _state.asStateFlow()
+    private val _pending = MutableStateFlow(0)
+
+    /** How many commands are asked for and not yet done: an idle player with one about to play is not stopped. */
+    val pending: StateFlow<Int> = _pending.asStateFlow()
 
     /** One command at a time, each with the reading loop stopped while it changes the place. */
     private val commands = Mutex()
@@ -371,7 +375,14 @@ class PlaylistPlayer(
     // Internals; each runs inside a command or the loop, on the player's scope.
 
     private fun command(block: suspend () -> Unit) {
-        scope.launch { commands.withLock { block() } }
+        _pending.update { it + 1 }
+        scope.launch {
+            try {
+                commands.withLock { block() }
+            } finally {
+                _pending.update { it - 1 }
+            }
+        }
     }
 
     private suspend fun resumeLocked() {

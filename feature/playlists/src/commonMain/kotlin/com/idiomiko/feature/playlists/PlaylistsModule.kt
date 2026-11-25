@@ -42,7 +42,13 @@ fun NavGraphBuilder.playlistsGraph(navController: NavController) {
         if (LocalWindowWidth.current.isExpanded) PlaylistsScreen(onNavigate = { navController.navigate(it) }, selectId = route.playlistId)
         else PlaylistDetailScreen(route.playlistId, onNavigate = { navController.navigate(it) }, onBack = { navController.backTo(Route.Playlists) })
     }
-    composable<Route.Player> { PlayerScreen(onNavigate = { navController.navigate(it) }, onBack = { navController.popBackStack() }) }
+    composable<Route.Player> {
+        PlayerScreen(
+            onNavigate = { navController.navigate(it) },
+            onBack = { navController.popBackStack() },
+            onStopped = { if (!navController.popBackStack(Route.Playlists, inclusive = false)) navController.navigate(Route.Playlists) { popUpTo(Route.Player) { inclusive = true } } },
+        )
+    }
     composable<Route.EditPlaylist> { entry ->
         val route = entry.toRoute<Route.EditPlaylist>()
         PlaylistFormScreen(PlaylistFormMode.Edit(route.playlistId), onNavigate = { navController.navigate(it) }, onSaved = { navController.popBackStack() }, onCancel = { navController.popBackStack() })

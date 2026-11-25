@@ -63,6 +63,21 @@ class PlayerScreensTest {
         }
     }
 
+    /** The screen gives way to the playlists once nothing plays, but not while a text is still starting. */
+    @Test
+    fun withNothingPlayingThePlayerGivesWayToThePlaylists() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        playing()
+        val viewModel = viewModel()
+        var stopped = 0
+        host(data) { PlayerScreen(onNavigate = {}, onBack = {}, onStopped = { stopped++ }, viewModel = viewModel) }
+        until { data.player.state.value.isLoaded && data.player.pending.value == 0 }
+        waitForIdle()
+        assertEquals(0, stopped)
+        data.player.stop()
+        waitUntil(timeoutMillis = 5_000) { stopped == 1 }
+        onAllNodes(hasText("Nothing is playing")).fetchSemanticsNodes().let { assertTrue(it.isEmpty()) }
+    }
+
     @Test
     fun thePlayerShowsTheSentenceItsWordAndTranslationAndWhatComesNext() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val id = playing()
