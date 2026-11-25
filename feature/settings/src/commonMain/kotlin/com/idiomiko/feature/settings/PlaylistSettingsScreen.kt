@@ -43,7 +43,7 @@ fun PlaylistSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, view
                 ContentCard(tr("Playback"), null, icon = AppIcons.NavPlaylists, modifier = Modifier.widthIn(max = AppSizes.readableWidth), dense = compact) {
                     SwitchSetting(
                         tr("Pause between tracks"),
-                        tr("A short rest before the next track starts."),
+                        null,
                         checked = settings.playlistPauseBetweenTracks,
                         dense = compact,
                         switchModifier = Modifier.testTag("pause-between-tracks"),
@@ -51,7 +51,7 @@ fun PlaylistSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, view
                     if (settings.playlistPauseBetweenTracks) {
                         SettingRow(
                             tr("Length of the pause"),
-                            tr("Seconds before the next track starts."),
+                            null,
                             divider = true,
                             stackOnCompact = true,
                             dense = compact,
@@ -66,7 +66,7 @@ fun PlaylistSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, view
                     }
                     SettingRow(
                         tr("When a playlist ends"),
-                        tr("Once every track has been heard and repeat is off."),
+                        null,
                         divider = true,
                         stackOnCompact = true,
                         dense = compact,
@@ -83,7 +83,7 @@ fun PlaylistSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, view
                 ContentCard(tr("Goals"), null, icon = AppIcons.Target, modifier = Modifier.widthIn(max = AppSizes.readableWidth), dense = compact) {
                     SwitchSetting(
                         tr("Count listening toward the daily goal"),
-                        tr("Time spent listening adds to today's minutes and keeps the streak going."),
+                        null,
                         checked = settings.playlistCountsTowardGoal,
                         dense = compact,
                         switchModifier = Modifier.testTag("listening-counts"),
