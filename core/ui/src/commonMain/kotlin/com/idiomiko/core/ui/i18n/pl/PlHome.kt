@@ -25,7 +25,6 @@ internal val plHome: Map<String, String> = mapOf(
     "No words saved yet today." to "Dziś nie zapisano jeszcze żadnych słów.",
     "Change the daily goal" to "Zmień cel dzienny",
     "Daily goal reached" to "Cel dzienny osiągnięty",
-    "{1} of {0} minutes today" to "{1} z {0} minuty dziś|{1} z {0} minut dziś|{1} z {0} minut dziś",
     "{0} minutes of study today" to "{0} minuta nauki dziś|{0} minuty nauki dziś|{0} minut nauki dziś",
     "{0}-day streak" to "{0} dzień z rzędu|{0} dni z rzędu|{0} dni z rzędu",
     "{1} words saved today" to "{1} słowo zapisane dziś|{1} słowa zapisane dziś|{1} słów zapisanych dziś",

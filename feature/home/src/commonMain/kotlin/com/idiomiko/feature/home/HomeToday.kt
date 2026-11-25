@@ -153,12 +153,12 @@ internal fun WideHeader(state: HomeUiState, actions: HomeActions) {
             // The figures beside the goal where the line has room for them all, under it where it has not.
             if (maxWidth >= ONE_LINE_CARD) {
                 Row(card, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                    GoalSummary(state.goal, RING_WIDE, actions, today = false)
+                    GoalSummary(state.goal, RING_WIDE, actions, phone = false)
                     figures(Modifier.weight(1f, fill = false))
                 }
             } else {
                 Column(card.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    GoalSummary(state.goal, RING_WIDE, actions, today = false)
+                    GoalSummary(state.goal, RING_WIDE, actions, phone = false)
                     AppDivider()
                     figures(Modifier)
                 }
@@ -173,7 +173,7 @@ internal fun PhoneTodayCard(state: HomeUiState, actions: HomeActions) {
     val streak = animatedCount(state.activity?.streak ?: 0).takeIf { it > 0 }
     val known = state.vocabulary?.known?.takeIf { it > 0 }
     Column(Modifier.fillMaxWidth().cardSurface(AppShapes.card).padding(horizontal = AppSpacing.m, vertical = AppSpacing.l).testTag("today")) {
-        Box(Modifier.padding(horizontal = AppSpacing.xs)) { GoalSummary(state.goal, RING_PHONE, actions, today = true) }
+        Box(Modifier.padding(horizontal = AppSpacing.xs)) { GoalSummary(state.goal, RING_PHONE, actions, phone = true) }
         if (streak != null || known != null) {
             AppDivider(Modifier.padding(vertical = AppSpacing.m))
             // Each figure at its own width, spread evenly; the streak is short, the words known take what room is left.
@@ -191,26 +191,22 @@ internal fun PhoneTodayCard(state: HomeUiState, actions: HomeActions) {
 
 /**
  * The goal's ring beside the minutes studied and those to go; the goal is set in Settings, where it leads.
- * [today] says "today" after the minutes, where no greeting above says it already.
+ * On a [phone] the card's own padding is the only space after it.
  */
 @Composable
-private fun GoalSummary(goal: DailyGoal, ring: Dp, actions: HomeActions, today: Boolean) {
+private fun GoalSummary(goal: DailyGoal, ring: Dp, actions: HomeActions, phone: Boolean) {
     val colors = MaterialTheme.colorScheme
     AppTooltip(tr("Reading and flashcards count towards the daily goal.")) {
         Row(
             Modifier.clip(AppShapes.control).clickable(onClickLabel = tr("Change the daily goal"), role = Role.Button) { actions.onNavigate(Route.Goals) }
-                .padding(end = if (today) 0.dp else AppSpacing.s).testTag("daily-goal"),
+                .padding(end = if (phone) 0.dp else AppSpacing.s).testTag("daily-goal"),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
         ) {
             GoalRing(goal, ring)
             Column {
                 Text(
-                    when {
-                        goal.reached -> tr("Daily goal reached")
-                        today -> trPlural(goal.goal, "{1} of {0} minute today", "{1} of {0} minutes today", goal.done)
-                        else -> trPlural(goal.goal, "{1} of {0} minute", "{1} of {0} minutes", goal.done)
-                    },
+                    if (goal.reached) tr("Daily goal reached") else trPlural(goal.goal, "{1} of {0} minute", "{1} of {0} minutes", goal.done),
                     style = AppText.sectionTitle,
                 )
                 if (goal.reached) Text(

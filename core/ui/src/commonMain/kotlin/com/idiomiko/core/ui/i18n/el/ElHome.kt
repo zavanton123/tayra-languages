@@ -25,7 +25,6 @@ internal val elHome: Map<String, String> = mapOf(
     "No words saved yet today." to "Δεν έχουν αποθηκευτεί λέξεις σήμερα ακόμη.",
     "Change the daily goal" to "Αλλαγή ημερήσιου στόχου",
     "Daily goal reached" to "Ο ημερήσιος στόχος επιτεύχθηκε",
-    "{1} of {0} minutes today" to "{1} από {0} λεπτό σήμερα|{1} από {0} λεπτά σήμερα",
     "{0} minutes of study today" to "{0} λεπτό μελέτης σήμερα|{0} λεπτά μελέτης σήμερα",
     "{0}-day streak" to "{0} ημέρα στη σειρά|{0} ημέρες στη σειρά",
     "{1} words saved today" to "{1} λέξη αποθηκεύτηκε σήμερα|{1} λέξεις αποθηκεύτηκαν σήμερα",

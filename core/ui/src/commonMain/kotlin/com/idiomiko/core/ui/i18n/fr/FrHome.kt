@@ -25,7 +25,6 @@ internal val frHome: Map<String, String> = mapOf(
     "No words saved yet today." to "Aucun mot enregistré aujourd’hui pour l’instant.",
     "Change the daily goal" to "Modifier l’objectif quotidien",
     "Daily goal reached" to "Objectif quotidien atteint",
-    "{1} of {0} minutes today" to "{1} sur {0} minute aujourd’hui|{1} sur {0} minutes aujourd’hui",
     "{0} minutes of study today" to "{0} minute d’étude aujourd’hui|{0} minutes d’étude aujourd’hui",
     "{0}-day streak" to "{0} jour d’affilée|{0} jours d’affilée",
     "{1} words saved today" to "{1} mot enregistré aujourd’hui|{1} mots enregistrés aujourd’hui",

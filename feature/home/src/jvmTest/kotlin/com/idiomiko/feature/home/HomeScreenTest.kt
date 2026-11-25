@@ -350,7 +350,7 @@ class HomeScreenTest {
         show(pictured, bar = true)
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Keep your words fresh")).fetchSemanticsNodes().isNotEmpty() }
         picture("HOME_PHONE_SCREENSHOT")
-        onNodeWithText("13 of 15 minutes today").assertExists()
+        onNodeWithText("13 of 15 minutes").assertExists()
         onNodeWithText("2 minutes to go").assertDoesNotExist()
         onNodeWithText("1-day streak").assertExists()
         onNodeWithText("1,539 words known").assertExists()

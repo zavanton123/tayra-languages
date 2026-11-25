@@ -25,7 +25,6 @@ internal val ptHome: Map<String, String> = mapOf(
     "No words saved yet today." to "Nenhuma palavra salva hoje ainda.",
     "Change the daily goal" to "Alterar a meta diária",
     "Daily goal reached" to "Meta diária cumprida",
-    "{1} of {0} minutes today" to "{1} de {0} minuto hoje|{1} de {0} minutos hoje",
     "{0} minutes of study today" to "{0} minuto de estudo hoje|{0} minutos de estudo hoje",
     "{0}-day streak" to "{0} dia seguido|{0} dias seguidos",
     "{1} words saved today" to "{1} palavra salva hoje|{1} palavras salvas hoje",

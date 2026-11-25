@@ -25,7 +25,6 @@ internal val zhHome: Map<String, String> = mapOf(
     "No words saved yet today." to "今天还没有保存单词。",
     "Change the daily goal" to "更改每日目标",
     "Daily goal reached" to "已完成每日目标",
-    "{1} of {0} minutes today" to "今天 {1}/{0} 分钟",
     "{0} minutes of study today" to "今天学习了 {0} 分钟",
     "{0}-day streak" to "连续 {0} 天",
     "{1} words saved today" to "今天保存了 {1} 个词",
