@@ -42,8 +42,8 @@ internal fun PhoneCoursesContent(state: CoursesUiState, actions: CoursesActions,
 private enum class CoursesSheet { FILTERS, TAGS }
 
 /**
- * The courses in one column, on a phone or a window too narrow for the pane above them: the level and the journey as a strip,
- * the search with the filters behind a button, the next lesson, and the courses by level.
+ * The courses in one column, on a phone or a window too narrow for the pane above them, in the wide page's order: the
+ * next lesson, the search with the filters behind a button, the level and the journey as a strip, and the courses by level.
  */
 @Composable
 internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone: Boolean, modifier: Modifier = Modifier) {
@@ -62,7 +62,8 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
             EmptyCourses(state, actions.onNewCourse, actions.onDownloadCourses)
             return@ScrollColumn
         }
-        JourneyStrip(state.journey, onLevel = { nav.goTo(it, state.journey) })
+        // In the wide page's order: the next lesson, the search and filters, then the journey.
+        BoxWithConstraints(Modifier.fillMaxWidth()) { NextLesson(state, actions, compact = phone, picture = !phone && maxWidth >= PICTURE_WIDTH) }
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
             SearchBox(state.search, actions.onSearch, Modifier.weight(1f))
             SecondaryButton(
@@ -73,9 +74,10 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
                 badge = state.filterCount.takeIf { it > 0 },
             )
         }
+        JourneyStrip(state.journey, onLevel = { nav.goTo(it, state.journey) })
         BoxWithConstraints(Modifier.fillMaxWidth()) {
             val columns = if (maxWidth >= THREE_COLUMNS) 3 else 2
-            Catalogue(state, actions, nav, columns, compact = phone, picture = !phone && maxWidth >= PICTURE_WIDTH)
+            Catalogue(state, actions, nav, columns, compact = phone, picture = !phone && maxWidth >= PICTURE_WIDTH, nextLesson = false)
         }
     }
     when (sheet) {

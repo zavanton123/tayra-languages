@@ -197,7 +197,8 @@ class CoursesJourneyTest {
         onNodeWithTag("journey-strip").assertIsDisplayed()
         onNodeWithTag("filters-button").assertIsDisplayed()
         assertTrue(!exists("top-pane") && !exists("hero-scene"), "no pane and no picture on a phone")
-        val order = listOf("journey-strip", "course-search", "next-lesson", "course-pt-mini-1100").map { onNodeWithTag(it).fetchSemanticsNode().positionInRoot.y }
+        // In the wide page's order: the next lesson, the search, then the journey.
+        val order = listOf("next-lesson", "course-search", "journey-strip", "course-pt-mini-1100").map { onNodeWithTag(it).fetchSemanticsNode().positionInRoot.y }
         assertEquals(order.sorted(), order)
         // Two tiles side by side.
         val first = onNodeWithTag("course-pt-mini-1100").fetchSemanticsNode().positionInRoot

@@ -230,7 +230,7 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
 
 /** The lesson to go on with, with its course's other lessons, when there is one. */
 @Composable
-private fun NextLesson(state: CoursesUiState, actions: CoursesActions, compact: Boolean, picture: Boolean) {
+internal fun NextLesson(state: CoursesUiState, actions: CoursesActions, compact: Boolean, picture: Boolean) {
     val next = state.nextLesson ?: return
     NextLessonHero(
         next,
