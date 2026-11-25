@@ -156,7 +156,6 @@ internal fun WideHeader(state: HomeUiState, actions: HomeActions) {
             if (maxWidth >= ONE_LINE_CARD) {
                 Row(card, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                     GoalSummary(state.goal, RING_WIDE, actions, today = false)
-                    AppVerticalDivider(Modifier.height(DIVIDER_HEIGHT))
                     figures(Modifier.weight(1f, fill = false))
                 }
             } else {
@@ -279,7 +278,6 @@ private fun PhoneFigure(icon: ImageVector, tint: Color, text: String, tag: Strin
 private val RING_WIDE = 64.dp
 private val RING_PHONE = 58.dp
 private val RING_STROKE = 7.dp
-private val DIVIDER_HEIGHT = 44.dp
 
 /** Room for the goal and the three figures on one line. */
 private val ONE_LINE_CARD = 860.dp
