@@ -204,6 +204,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Serif" to "Szeryfowe",
     "Sans-serif" to "Bezszeryfowe",
     "Your fonts" to "Twoje czcionki",
+    "Enter a valid email address" to "Wpisz poprawny adres e-mail",
     "Version {0} (from the sources)" to "Wersja {0} (ze źródeł)",
     "Add a font file" to "Dodaj plik czcionki",
     "That file is not a TrueType or OpenType font." to "Ten plik nie jest czcionką TrueType ani OpenType.",

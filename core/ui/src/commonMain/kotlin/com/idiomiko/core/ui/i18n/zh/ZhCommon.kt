@@ -204,6 +204,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Serif" to "衬线",
     "Sans-serif" to "无衬线",
     "Your fonts" to "你的字体",
+    "Enter a valid email address" to "请输入有效的电子邮件地址",
     "Version {0} (from the sources)" to "版本 {0}（从源代码运行）",
     "Add a font file" to "添加字体文件",
     "That file is not a TrueType or OpenType font." to "该文件不是 TrueType 或 OpenType 字体。",

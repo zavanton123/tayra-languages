@@ -204,6 +204,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Serif" to "Avec empattements",
     "Sans-serif" to "Sans empattements",
     "Your fonts" to "Vos polices",
+    "Enter a valid email address" to "Saisissez une adresse e-mail valide",
     "Version {0} (from the sources)" to "Version {0} (depuis les sources)",
     "Add a font file" to "Ajouter un fichier de police",
     "That file is not a TrueType or OpenType font." to "Ce fichier n'est pas une police TrueType ou OpenType.",

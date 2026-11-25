@@ -204,6 +204,7 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Serif" to "Com serifa",
     "Sans-serif" to "Sem serifa",
     "Your fonts" to "Suas fontes",
+    "Enter a valid email address" to "Digite um endereço de e-mail válido",
     "Version {0} (from the sources)" to "Versão {0} (a partir do código-fonte)",
     "Add a font file" to "Adicionar um arquivo de fonte",
     "That file is not a TrueType or OpenType font." to "Esse arquivo não é uma fonte TrueType nem OpenType.",

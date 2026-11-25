@@ -1,5 +1,8 @@
 package com.idiomiko.feature.settings
 
+import androidx.compose.runtime.remember
+import androidx.compose.ui.focus.onFocusChanged
+import com.idiomiko.core.domain.account.EmailAddress
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -191,15 +194,26 @@ private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creati
     var password by rememberSaveable { mutableStateOf("") }
     var shown by rememberSaveable { mutableStateOf(false) }
     val busy = state.busy != null
+    val emailValid = EmailAddress.isValid(email)
+    // A mistyped address is pointed out once the field is left, not while it is being typed.
+    var emailFocused by remember { mutableStateOf(false) }
+    var emailLeft by rememberSaveable { mutableStateOf(false) }
+    val emailWrong = emailLeft && !emailFocused && email.isNotBlank() && !emailValid
     Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
         if (creating) FormTitle(tr("Create your account"))
         else FormTitle(tr("Welcome back"))
         state.problem?.let { ProblemNotice(it, state.problemText) }
         FieldWithLabel(tr("Email")) {
             AppTextField(
-                email, onEmail, Modifier.fillMaxWidth().testTag("account-email"),
+                email, onEmail,
+                Modifier.fillMaxWidth().testTag("account-email").onFocusChanged {
+                    if (emailFocused && !it.isFocused) emailLeft = true
+                    emailFocused = it.isFocused
+                },
                 placeholder = { Text("you@example.com") }, singleLine = true,
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
+                isError = emailWrong,
+                supportingText = if (emailWrong) ({ Text(tr("Enter a valid email address"), Modifier.testTag("account-email-error")) }) else null,
             )
         }
         FieldWithLabel(
@@ -208,7 +222,7 @@ private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creati
                 if (!creating) {
                     LinkText(
                         tr("Forgot password?"), onClick = { actions?.forgotPassword(email) }, style = MaterialTheme.typography.bodyMedium,
-                        enabled = email.isNotBlank() && !busy, modifier = Modifier.testTag("account-forgot"),
+                        enabled = emailValid && !busy, modifier = Modifier.testTag("account-forgot"),
                     )
                 }
             },
@@ -232,7 +246,7 @@ private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creati
         PrimaryButton(
             if (creating) tr("Create account") else tr("Sign in"),
             onClick = { if (creating) actions?.register(email, password) else actions?.signIn(email, password) },
-            enabled = email.isNotBlank() && password.isNotEmpty() && !busy,
+            enabled = emailValid && password.isNotEmpty() && !busy,
             loading = state.busy == AccountTask.SIGNING_IN,
             size = ButtonSize.Large,
             modifier = Modifier.fillMaxWidth().testTag("account-submit"),

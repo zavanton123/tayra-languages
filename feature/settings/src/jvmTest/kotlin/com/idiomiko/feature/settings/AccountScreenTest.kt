@@ -56,6 +56,7 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import androidx.compose.ui.test.assertTextEquals
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.time.Duration.Companion.minutes
@@ -288,6 +289,26 @@ class AccountScreenTest {
         onNodeWithTag("account-submit").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         assertEquals("new@example.com", accounts.signedIn.value)
+    }
+
+    /** An address that is not one keeps the buttons off, and is pointed out once the field is left. */
+    @Test
+    fun aMistypedEmailIsPointedOutAndNotSent() = runDesktopComposeUiTest(width = 1400, height = 1100) {
+        val accounts = FakeAccounts()
+        show(accounts)
+        onNodeWithTag("account-email").performTextInput("zavanton")
+        onNodeWithTag("account-email-error", useUnmergedTree = true).assertDoesNotExist()
+        onNodeWithTag("account-password").performClick().performTextInput("correct horse")
+        onNodeWithTag("account-email-error", useUnmergedTree = true).assertTextEquals("Enter a valid email address")
+        onNodeWithTag("account-forgot").assertIsNotEnabled()
+        onNodeWithTag("account-submit").assertIsNotEnabled()
+
+        onNodeWithTag("account-email").performTextInput("@example.com")
+        onNodeWithTag("account-password").performClick()
+        onNodeWithTag("account-email-error", useUnmergedTree = true).assertDoesNotExist()
+        onNodeWithTag("account-forgot").assertIsEnabled()
+        onNodeWithTag("account-submit").assertIsEnabled()
+        save("ACCOUNT_SCREENSHOT", "-email")
     }
 
     @Test
