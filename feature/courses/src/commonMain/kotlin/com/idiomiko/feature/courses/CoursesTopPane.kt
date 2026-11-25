@@ -60,22 +60,22 @@ import com.idiomiko.core.ui.theme.AppText
 import com.idiomiko.core.ui.theme.tint
 
 /**
- * A wide window's pane above the courses: the journey through the levels with the reader's own, then the search
- * beside the way to a course of one's own, and the filters, the order and the view.
+ * A wide window's pane above the courses: the search beside the way to a course of one's own, the filters, the order
+ * and the view, then the journey through the levels with the reader's own.
  */
 @Composable
 internal fun CoursesTopPane(state: CoursesUiState, actions: CoursesActions, onLevel: (CourseLevel) -> Unit, modifier: Modifier = Modifier) {
     Column(modifier.fillMaxWidth().cardSurface(AppShapes.large).testTag("top-pane")) {
-        if (state.journey.levels.isNotEmpty()) {
-            JourneyRow(state.journey, onLevel, Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l))
-            AppDivider()
-        }
         Column(Modifier.padding(AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 SearchBox(state.search, actions.onSearch, Modifier.weight(1f))
                 PrimaryButton(tr("Create course"), actions.onNewCourse, Modifier.height(AppSizes.control).testTag("new-course"), icon = Icons.Default.Add)
             }
             FilterRow(state, actions)
+        }
+        if (state.journey.levels.isNotEmpty()) {
+            AppDivider()
+            JourneyRow(state.journey, onLevel, Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l))
         }
     }
 }
