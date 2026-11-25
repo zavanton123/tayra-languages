@@ -373,7 +373,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "{0} more are due today." to "今天还有 {0} 张待复习。",
     "Keep going" to "继续",
     // CoursesJourney.kt, CoursesHero.kt, CourseTiles.kt and CoursesCatalogue.kt: the courses as a journey
-    "Your journey" to "你的学习之旅",
     "{1} of {0} courses" to "{1}/{0} 个课程",
     "{1} words to {2}" to "距 {2} 还差 {1} 个词",
     "Picked for your {1} words" to "根据你已知的 {1} 个词挑选",

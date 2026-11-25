@@ -373,7 +373,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "{0} more are due today." to "Falta mais {0} para hoje.|Faltam mais {0} para hoje.",
     "Keep going" to "Continuar",
     // CoursesJourney.kt, CoursesHero.kt, CourseTiles.kt and CoursesCatalogue.kt: the courses as a journey
-    "Your journey" to "Sua jornada",
     "{1} of {0} courses" to "{1} de {0} curso|{1} de {0} cursos",
     "{1} words to {2}" to "{1} palavra até o {2}|{1} palavras até o {2}",
     "Picked for your {1} words" to "Escolhidos para a sua {1} palavra|Escolhidos para as suas {1} palavras",

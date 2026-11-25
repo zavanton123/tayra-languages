@@ -373,7 +373,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "{0} more are due today." to "Na dziś została jeszcze {0}.|Na dziś zostały jeszcze {0}.|Na dziś zostało jeszcze {0}.",
     "Keep going" to "Dalej",
     // CoursesJourney.kt, CoursesHero.kt, CourseTiles.kt and CoursesCatalogue.kt: the courses as a journey
-    "Your journey" to "Twoja droga",
     "{1} of {0} courses" to "{1} z {0} kursu|{1} z {0} kursów|{1} z {0} kursów",
     "{1} words to {2}" to "{1} słowo do {2}|{1} słowa do {2}|{1} słów do {2}",
     "Picked for your {1} words" to "Dobrane do {1} znanego słowa|Dobrane do {1} znanych słów|Dobrane do {1} znanych słów",

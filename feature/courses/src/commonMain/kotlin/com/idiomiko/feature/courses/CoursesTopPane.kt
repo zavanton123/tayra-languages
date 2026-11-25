@@ -80,18 +80,12 @@ internal fun CoursesTopPane(state: CoursesUiState, actions: CoursesActions, onLe
     }
 }
 
-/** The journey's line: its name, the reader's level with the words to the next, and the levels to go to. */
+/** The journey's line: the reader's level with the words to the next, and the levels to go to. */
 @Composable
 private fun JourneyRow(journey: CourseJourney, onLevel: (CourseLevel) -> Unit, modifier: Modifier) {
     BesideOrAbove(
         heading = {
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                Text(tr("Your journey"), style = AppText.itemTitle, maxLines = 1)
-                journey.currentProgress?.let { level ->
-                    AppVerticalDivider(Modifier.height(JOURNEY_DIVIDER))
-                    LevelSummary(journey, level)
-                }
-            }
+            journey.currentProgress?.let { level -> LevelSummary(journey, level) }
         },
         divider = { AppVerticalDivider(Modifier.height(JOURNEY_DIVIDER)) },
         levels = {

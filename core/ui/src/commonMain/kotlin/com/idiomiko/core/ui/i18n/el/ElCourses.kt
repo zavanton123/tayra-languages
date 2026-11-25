@@ -373,7 +373,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "{0} more are due today." to "Σήμερα απομένει ακόμη {0}.|Σήμερα απομένουν ακόμη {0}.",
     "Keep going" to "Συνέχεια",
     // CoursesJourney.kt, CoursesHero.kt, CourseTiles.kt and CoursesCatalogue.kt: the courses as a journey
-    "Your journey" to "Η πορεία σας",
     "{1} of {0} courses" to "{1} από {0} μάθημα|{1} από {0} μαθήματα",
     "{1} words to {2}" to "{1} λέξη ως το {2}|{1} λέξεις ως το {2}",
     "Picked for your {1} words" to "Επιλεγμένα για τη {1} λέξη σας|Επιλεγμένα για τις {1} λέξεις σας",
