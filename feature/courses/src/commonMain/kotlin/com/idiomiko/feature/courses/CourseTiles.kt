@@ -303,7 +303,7 @@ internal fun FoldedLevelHeading(level: LevelProgress, expanded: Boolean, onToggl
     LevelHeading(
         level.level,
         detail ?: if (level.completed > 0) trPlural(level.courses, "{1} of {0} course", "{1} of {0} courses", level.completed) else trPlural(level.courses, "{0} course", "{0} courses"),
-        modifier.clip(AppShapes.control).clickable(onClick = onToggle).padding(vertical = AppSpacing.xs),
+        modifier.clip(AppShapes.control).clickable(onClick = onToggle).padding(vertical = AppSpacing.m),
     ) {
         Row(Modifier.testTag("level-toggle-${level.level.name}"), verticalAlignment = Alignment.CenterVertically) {
             Text(if (expanded) tr("Hide") else tr("Show"), style = AppText.labelStrong, color = colors.primary)
