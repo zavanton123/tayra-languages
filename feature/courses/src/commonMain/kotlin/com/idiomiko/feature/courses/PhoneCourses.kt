@@ -1,5 +1,6 @@
 package com.idiomiko.feature.courses
 
+import com.idiomiko.core.ui.components.AddRow
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
@@ -43,7 +44,8 @@ private enum class CoursesSheet { FILTERS, TAGS }
 
 /**
  * The courses in one column, on a phone or a window too narrow for the pane above them, in the wide page's order: the
- * next lesson, the search with the filters behind a button, the level and the journey as a strip, and the courses by level.
+ * next lesson, the search with the filters behind a button, the level and the journey as a strip, the courses by level,
+ * and a row that makes a course of one's own.
  */
 @Composable
 internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone: Boolean, modifier: Modifier = Modifier) {
@@ -79,6 +81,8 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
             val columns = if (maxWidth >= THREE_COLUMNS) 3 else 2
             Catalogue(state, actions, nav, columns, compact = phone, picture = !phone && maxWidth >= PICTURE_WIDTH, nextLesson = false)
         }
+        // A course of one's own is made from the row under the list, as a playlist is.
+        AddRow(tr("Create course"), actions.onNewCourse, Modifier.testTag("new-course"))
     }
     when (sheet) {
         CoursesSheet.FILTERS -> FiltersSheet(state, actions, listView = !phone, onTags = { sheet = CoursesSheet.TAGS }, onDismiss = { sheet = null })
@@ -117,7 +121,6 @@ private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, listVie
                 }
             }
             if (listView) SegmentedToggle(viewSegments(), state.view, actions.onView)
-            CreateCourseLink { onDismiss(); actions.onNewCourse() }
         }
     }
 }

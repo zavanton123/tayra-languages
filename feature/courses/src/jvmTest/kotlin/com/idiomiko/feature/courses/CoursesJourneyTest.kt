@@ -34,6 +34,8 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasTestTag
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -242,7 +244,16 @@ class CoursesJourneyTest {
         assertEquals(listOf<Any?>(com.idiomiko.core.domain.courses.LessonStatus.IN_PROGRESS), statuses)
         assertEquals(listOf("mine"), tags)
         assertEquals(listOf(CoursesSort.TITLE), sorts)
-        onNodeWithTag("new-course").performClick()
+        assertEquals(0, onAllNodes(hasTestTag("new-course") and hasAnyAncestor(hasTestTag("filters-sheet"))).fetchSemanticsNodes().size, "no course is made from the sheet")
+        assertEquals(0, created)
+    }
+
+    /** A phone makes a course of one's own from the dashed row under the list. */
+    @Test
+    fun aPhoneMakesACourseFromTheRowUnderTheList() = runDesktopComposeUiTest(width = 400, height = 860) {
+        var created = 0
+        page(JourneyFixture.underWay(), CoursesActions(onNewCourse = { created++ }), phone = true)
+        onNodeWithTag("new-course").performScrollTo().performClick()
         assertEquals(1, created)
     }
 

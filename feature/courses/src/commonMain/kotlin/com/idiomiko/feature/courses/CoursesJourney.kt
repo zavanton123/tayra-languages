@@ -194,11 +194,6 @@ internal fun TagChips(state: CoursesUiState, onToggle: (String) -> Unit, more: @
 internal fun MoreTagsLink(onClick: () -> Unit) =
     LinkText(tr("Filter by tags"), onClick, Modifier.testTag("tag-filter"), icon = AppIcons.Tag, style = MaterialTheme.typography.bodyMedium)
 
-/** The quiet way to make a course of one's own. */
-@Composable
-internal fun CreateCourseLink(onNewCourse: () -> Unit) =
-    LinkText(tr("Create course"), onNewCourse, Modifier.testTag("new-course"), icon = Icons.Default.Add, style = MaterialTheme.typography.bodyMedium)
-
 private val BADGE = 84.dp
 private val BADGE_SMALL = 52.dp
 private const val BADGE_SHADE = 0.22f
