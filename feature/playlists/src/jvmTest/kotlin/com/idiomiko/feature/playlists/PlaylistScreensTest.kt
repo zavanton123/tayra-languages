@@ -290,6 +290,15 @@ class PlaylistScreensTest {
     }
 
     @Test
+    fun aMediumWindowMakesAPlaylistFromTheRowUnderTheListOnly() = runDesktopComposeUiTest(width = 800, height = 900) {
+        library()
+        page(data.playlists())
+        waitUntil(timeoutMillis = 5_000) { shown("new-playlist-row") }
+        assertTrue(!shown("new-playlist"), "the row under the list makes a playlist, not a button in the header")
+        screenshot("playlists-medium")
+    }
+
+    @Test
     fun aPhonesListPlaysAPlaylistFromItsRowWithoutOpeningIt() = runDesktopComposeUiTest(width = 400, height = 900) {
         val (morning, work, stories) = library()
         playing(morning)

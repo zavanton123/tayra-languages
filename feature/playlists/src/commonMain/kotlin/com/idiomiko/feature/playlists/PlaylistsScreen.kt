@@ -122,7 +122,6 @@ fun PlaylistsScreen(
     LaunchedEffect(selectId) { selectId?.let(viewModel::select) }
     Scaffold(
         topBar = {
-            // A phone makes a playlist from the New playlist row under the list.
             AppTopBar(title = tr("Playlists"), onNavigate = onNavigate, section = NavSection.PLAYLISTS)
         },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -307,11 +306,8 @@ private fun PlaylistList(state: PlaylistsUiState, viewModel: PlaylistsViewModel,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
         Column(Modifier.widthIn(max = AppSizes.readableWidth), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            if (!compact) {
-                ScreenHeader(tr("Playlists"), subtitle = null, actions = {
-                    PrimaryButton(tr("New playlist"), onClick = onCreate, icon = Icons.Default.Add, modifier = Modifier.testTag("new-playlist"))
-                })
-            }
+            // The New playlist row under the list makes a playlist, so the header needs no button of its own.
+            if (!compact) ScreenHeader(tr("Playlists"), subtitle = null)
             // A long list gets a search; a few playlists are seen at a glance.
             if (state.playlists.size > SEARCH_FROM) SearchField(state.search, viewModel::setSearch, tr("Search playlists"), Modifier.fillMaxWidth())
             state.shown.forEach { summary ->
