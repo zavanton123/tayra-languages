@@ -420,7 +420,7 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "You can download it again at any time." to "Du kannst es jederzeit wieder herunterladen.",
     "Remove this speech recognition model?" to "Dieses Spracherkennungsmodell entfernen?",
     "Pause between tracks" to "Pause zwischen Titeln",
-    "Length of the pause" to "Länge der Pause",
+    "Length of the pause (in seconds)" to "Länge der Pause (in Sekunden)",
     "length of the pause" to "Länge der Pause",
     "When a playlist ends" to "Wenn eine Playlist endet",
     "Start again" to "Von vorn beginnen",

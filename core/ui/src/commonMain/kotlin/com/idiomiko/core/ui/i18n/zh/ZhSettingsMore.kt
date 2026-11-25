@@ -420,7 +420,7 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "You can download it again at any time." to "你可以随时重新下载。",
     "Remove this speech recognition model?" to "删除此语音识别模型？",
     "Pause between tracks" to "曲目之间暂停",
-    "Length of the pause" to "暂停时长",
+    "Length of the pause (in seconds)" to "暂停时长（秒）",
     "length of the pause" to "暂停时长",
     "When a playlist ends" to "播放列表结束时",
     "Start again" to "从头开始",

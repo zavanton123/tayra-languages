@@ -50,7 +50,7 @@ fun PlaylistSettingsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, view
                     ) { on -> viewModel.update { it.copy(playlistPauseBetweenTracks = on) } }
                     if (settings.playlistPauseBetweenTracks) {
                         SettingRow(
-                            tr("Length of the pause"),
+                            tr("Length of the pause (in seconds)"),
                             null,
                             divider = true,
                             stackOnCompact = true,

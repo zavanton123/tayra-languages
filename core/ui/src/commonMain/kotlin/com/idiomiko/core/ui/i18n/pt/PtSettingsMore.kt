@@ -420,7 +420,7 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "You can download it again at any time." to "Pode transferi-lo de novo a qualquer momento.",
     "Remove this speech recognition model?" to "Remover este modelo de reconhecimento de fala?",
     "Pause between tracks" to "Pausa entre faixas",
-    "Length of the pause" to "Duração da pausa",
+    "Length of the pause (in seconds)" to "Duração da pausa (em segundos)",
     "length of the pause" to "duração da pausa",
     "When a playlist ends" to "Quando uma playlist termina",
     "Start again" to "Começar de novo",

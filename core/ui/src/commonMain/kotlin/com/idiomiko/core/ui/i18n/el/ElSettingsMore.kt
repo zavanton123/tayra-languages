@@ -420,7 +420,7 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "You can download it again at any time." to "Μπορείτε να το κατεβάσετε ξανά οποτεδήποτε.",
     "Remove this speech recognition model?" to "Αφαίρεση αυτού του μοντέλου αναγνώρισης ομιλίας;",
     "Pause between tracks" to "Παύση μεταξύ κομματιών",
-    "Length of the pause" to "Διάρκεια παύσης",
+    "Length of the pause (in seconds)" to "Διάρκεια παύσης (σε δευτερόλεπτα)",
     "length of the pause" to "διάρκεια παύσης",
     "When a playlist ends" to "Όταν τελειώνει μια λίστα",
     "Start again" to "Από την αρχή",

@@ -420,7 +420,7 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "You can download it again at any time." to "Его можно скачать снова в любое время.",
     "Remove this speech recognition model?" to "Удалить эту модель распознавания речи?",
     "Pause between tracks" to "Пауза между треками",
-    "Length of the pause" to "Длина паузы",
+    "Length of the pause (in seconds)" to "Длина паузы (в секундах)",
     "length of the pause" to "длина паузы",
     "When a playlist ends" to "Когда плейлист закончился",
     "Start again" to "Начать заново",

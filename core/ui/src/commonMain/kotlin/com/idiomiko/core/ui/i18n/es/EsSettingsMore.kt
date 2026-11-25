@@ -420,7 +420,7 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "You can download it again at any time." to "Puedes volver a descargarlo en cualquier momento.",
     "Remove this speech recognition model?" to "¿Eliminar este modelo de reconocimiento de voz?",
     "Pause between tracks" to "Pausa entre pistas",
-    "Length of the pause" to "Duración de la pausa",
+    "Length of the pause (in seconds)" to "Duración de la pausa (en segundos)",
     "length of the pause" to "duración de la pausa",
     "When a playlist ends" to "Cuando termina una lista",
     "Start again" to "Empezar de nuevo",
