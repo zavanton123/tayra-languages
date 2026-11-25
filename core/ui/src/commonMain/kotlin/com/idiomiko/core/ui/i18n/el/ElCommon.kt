@@ -138,7 +138,6 @@ internal val elCommon: Map<String, String> = mapOf(
     // LearningLanguage.kt
     "Learning language: {0}" to "Γλώσσα εκμάθησης: {0}",
     "Select target language" to "Επιλέξτε γλώσσα-στόχο",
-    "Choose the language you want to study" to "Επιλέξτε τη γλώσσα που θέλετε να μάθετε",
     "Search languages" to "Αναζήτηση γλωσσών",
     "All languages" to "Όλες οι γλώσσες",
     "{0} languages" to "{0} γλώσσα|{0} γλώσσες",

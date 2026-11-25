@@ -138,7 +138,6 @@ internal val frCommon: Map<String, String> = mapOf(
     // LearningLanguage.kt
     "Learning language: {0}" to "Langue étudiée : {0}",
     "Select target language" to "Choisir la langue cible",
-    "Choose the language you want to study" to "Choisissez la langue que vous voulez apprendre",
     "Search languages" to "Rechercher une langue",
     "All languages" to "Toutes les langues",
     "{0} languages" to "{0} langue|{0} langues",

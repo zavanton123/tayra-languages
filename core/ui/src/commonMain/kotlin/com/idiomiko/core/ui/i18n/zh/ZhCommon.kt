@@ -138,7 +138,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     // LearningLanguage.kt
     "Learning language: {0}" to "学习语言：{0}",
     "Select target language" to "选择目标语言",
-    "Choose the language you want to study" to "选择你想学习的语言",
     "Search languages" to "搜索语言",
     "All languages" to "全部语言",
     "{0} languages" to "{0} 种语言",

@@ -138,7 +138,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     // LearningLanguage.kt
     "Learning language: {0}" to "Изучаемый язык: {0}",
     "Select target language" to "Выберите изучаемый язык",
-    "Choose the language you want to study" to "Выберите язык, который хотите изучать",
     "Search languages" to "Поиск языков",
     "All languages" to "Все языки",
     "{0} languages" to "{0} язык|{0} языка|{0} языков",

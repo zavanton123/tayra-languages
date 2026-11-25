@@ -138,7 +138,6 @@ internal val plCommon: Map<String, String> = mapOf(
     // LearningLanguage.kt
     "Learning language: {0}" to "Język nauki: {0}",
     "Select target language" to "Wybierz język docelowy",
-    "Choose the language you want to study" to "Wybierz język, którego chcesz się uczyć",
     "Search languages" to "Szukaj języków",
     "All languages" to "Wszystkie języki",
     "{0} languages" to "{0} język|{0} języki|{0} języków",
