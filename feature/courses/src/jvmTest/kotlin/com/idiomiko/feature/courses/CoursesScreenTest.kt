@@ -292,6 +292,8 @@ class CoursesScreenTest {
         onNodeWithTag("sort-TITLE").performClick()
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.sort == CoursesSort.TITLE }
         save("COURSES_PHONE_SCREENSHOT")
+        onNodeWithTag("apply-filters").performClick()
+        waitUntil(timeoutMillis = 5_000) { !exists("filters-sheet") }
     }
 
     @Test

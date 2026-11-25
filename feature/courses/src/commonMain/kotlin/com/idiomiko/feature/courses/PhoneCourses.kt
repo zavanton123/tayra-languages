@@ -1,5 +1,7 @@
 package com.idiomiko.feature.courses
 
+import com.idiomiko.core.ui.components.ButtonSize
+import com.idiomiko.core.ui.components.PrimaryButton
 import androidx.compose.ui.text.style.TextAlign
 import com.idiomiko.core.ui.components.AddRow
 import androidx.compose.foundation.layout.Arrangement
@@ -99,7 +101,7 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
     }
 }
 
-/** The filters behind the Filters button: status, tags and order. */
+/** The filters behind the Filters button: status, tags and order, and Apply to put them away. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, onTags: () -> Unit, onDismiss: () -> Unit) {
@@ -122,6 +124,8 @@ private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, onTags:
                     SelectableChip(sort.label, selected = state.sort == sort, onClick = { actions.onSort(sort) }, modifier = Modifier.testTag("sort-${sort.name}"), size = ChipSize.Small)
                 }
             }
+            // The choices take effect as they are made; Apply puts the sheet away.
+            PrimaryButton(tr("Apply"), onClick = onDismiss, modifier = Modifier.fillMaxWidth().padding(top = AppSpacing.s).testTag("apply-filters"), size = ButtonSize.Large)
         }
     }
 }
