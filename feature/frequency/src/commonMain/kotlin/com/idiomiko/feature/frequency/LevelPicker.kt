@@ -185,7 +185,8 @@ internal fun LevelStrip(title: String, text: String, icon: ImageVector = Icons.D
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        Icon(icon, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
+        // A chosen level's check is green, as the check on its card; the note that none is set keeps the accent.
+        Icon(icon, contentDescription = null, tint = if (icon == Icons.Default.CheckCircle) StatusTints.ok else colors.primary, modifier = Modifier.size(AppSizes.icon))
         Text(
             buildAnnotatedString {
                 withStyle(AppText.labelBold.toSpanStyle()) { append(title) }
