@@ -265,14 +265,22 @@ private fun MyLanguageRow(choice: LanguageChoice, words: Int?, chosen: Boolean) 
  * flag, with a letter index down the right edge that jumps the list. Choosing one goes back, and
  * the app moves on to that language's courses.
  */
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ChooseLanguageScreen(onBack: () -> Unit) {
-    val state = LocalLearningLanguage.current
+    PhoneLanguageList(LocalLearningLanguage.current, tr("Add a language"), onBack = onBack, onChosen = onBack)
+}
+
+/**
+ * A phone's list of languages under [title]: those not being learned yet, or with no [onBack] (the
+ * first language, which must be chosen) every language. Choosing one tells [onChosen].
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBack: (() -> Unit)?, onChosen: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     var query by remember { mutableStateOf("") }
     val needle = query.trim().lowercase()
-    val mine = state?.myChoices.orEmpty()
+    val mine = if (onBack == null) emptyList() else state?.myChoices.orEmpty()
     val others = state?.choices.orEmpty().filter { it !in mine && it.matches(needle) }
     val list = rememberLazyListState()
     val scope = rememberCoroutineScope()
@@ -283,15 +291,16 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text(tr("Add a language"), style = AppText.sectionTitle) },
-                navigationIcon = { AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack, tint = colors.primary) },
+                title = { Text(title, style = AppText.sectionTitle) },
+                navigationIcon = { if (onBack != null) AppIconButton(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr("Back"), onClick = onBack, tint = colors.primary) },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(containerColor = colors.surface),
             )
         },
         containerColor = colors.surface,
+        modifier = Modifier.fillMaxSize(),
     ) { padding ->
         if (state == null) return@Scaffold
-        Box(Modifier.padding(padding).fillMaxSize().testTag("choose-language")) {
+        Box(Modifier.padding(padding).fillMaxSize().testTag(if (onBack == null) "target-language-dialog" else "choose-language")) {
             LazyColumn(Modifier.fillMaxSize(), state = list, contentPadding = PaddingValues(bottom = AppSpacing.xxl)) {
                 item {
                     SearchField(
@@ -309,7 +318,7 @@ fun ChooseLanguageScreen(onBack: () -> Unit) {
                 itemsIndexed(others, key = { _, choice -> choice.tag }) { index, choice -> Column(itemMotion()) {
                     val native = choice.id in state.nativeIds
                     Row(
-                        Modifier.fillMaxWidth().clickable(enabled = !native) { onBack(); state.select(choice) }.alpha(if (native) AppAlpha.disabled else 1f)
+                        Modifier.fillMaxWidth().clickable(enabled = !native) { onChosen(); state.select(choice) }.alpha(if (native) AppAlpha.disabled else 1f)
                             .padding(start = AppSpacing.xxl, end = AppSpacing.huge, top = AppSpacing.m, bottom = AppSpacing.m).testTag(choice.tag),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
@@ -353,10 +362,14 @@ private fun PhoneSectionTitle(title: String, note: String? = null) {
     }
 }
 
-/** Asks for the language to learn while none is chosen, as on first start; it stays until one is. */
+/**
+ * Asks for the language to learn while none is chosen, as on first start; it stays until one is.
+ * A phone gives it the whole screen, as its list of languages to add; wider windows a dialog.
+ */
 @Composable
 fun TargetLanguageDialog(state: LearningLanguageState) {
-    LanguageDialog(state, onDismiss = {}, required = true)
+    if (!LocalWindowWidth.current.isCompact) return LanguageDialog(state, onDismiss = {}, required = true)
+    AppFullScreenDialog { PhoneLanguageList(state, tr("Select the language to study"), onBack = null, onChosen = {}) }
 }
 
 /**

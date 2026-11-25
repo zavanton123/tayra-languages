@@ -90,6 +90,15 @@ fun AppDialogSurface(
     }
 }
 
+/**
+ * A dialog that takes the whole screen, as a phone shows a choice that must be made before anything
+ * else; neither Back nor a tap closes it.
+ */
+@Composable
+fun AppFullScreenDialog(content: @Composable () -> Unit) {
+    Dialog(onDismissRequest = {}, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnBackPress = false, dismissOnClickOutside = false), content = content)
+}
+
 /** [AppDialogSurface]'s card for a dialog window made elsewhere, such as a navigation destination's. */
 @Composable
 fun DialogCard(

@@ -23,6 +23,8 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import kotlin.test.assertTrue
+import androidx.compose.ui.unit.dp
 import kotlin.test.assertEquals
 
 /** The language dialog laid out on a wide window and on a phone. */
@@ -74,9 +76,24 @@ class LanguageDialogTest {
         onNodeWithText("30 languages").assertExists()
         assertEquals(0, onAllNodesWithTag("current-language").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("Close").fetchSemanticsNodes().size)
+        assertEquals(0, onAllNodesWithContentDescription("Back").fetchSemanticsNodes().size, "no way out but choosing")
+        // A phone gives the choice the whole screen rather than a dialog over the page.
+        val list = onNodeWithTag("target-language-dialog").fetchSemanticsNode().boundsInRoot
+        assertEquals(0f, list.left)
+        assertEquals(with(density) { 420.dp.toPx() }, list.right, 1f)
         save("TARGET_LANGUAGE_DIALOG_SCREENSHOT")
         onNodeWithTag("language-be").performClick()
         assertEquals(listOf(2L), chosen)
+    }
+
+    /** A wide window asks for the first language in a dialog, with every language as a tile. */
+    @Test
+    fun aWideWindowAsksForTheFirstLanguageInADialog() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 0L) {}
+        setContent { IdiomikoTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select the language to study").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("30 languages").assertExists()
+        assertTrue(onNodeWithTag("target-language-dialog").fetchSemanticsNode().boundsInRoot.left > 0f, "a dialog, inset from the window's edge")
     }
 
     /** On a phone, adding a language does not open a dialog: it leads to the language screen. */
