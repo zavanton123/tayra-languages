@@ -240,7 +240,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Hört deine Antworten, wenn du das Sprechen übst. Läuft auf diesem Computer, nach dem Herunterladen ohne Netzwerk.",
     "Languages I'm learning" to "Sprachen, die ich lerne",
     "Learning now" to "Lerne ich gerade",
-    "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "Beim Entfernen einer Sprache werden ihre Texte, Wörter und Fortschritte sowie die für sie geladenen Wörterbücher, Stimmen und anderen Downloads gelöscht.",
     "{0} was removed" to "{0} wurde entfernt",
     "Removing {0}…" to "{0} wird entfernt…",
     "{0} was removed, but some downloads stayed" to "{0} wurde entfernt, aber einige Downloads sind geblieben",

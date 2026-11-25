@@ -240,7 +240,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Слушает ваши ответы, когда вы тренируете говорение. Работает на этом компьютере, после загрузки без сети.",
     "Languages I'm learning" to "Языки, которые я учу",
     "Learning now" to "Учу сейчас",
-    "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "При удалении языка удаляются его тексты, слова и прогресс, а также загруженные для него словари, голоса и другие файлы.",
     "{0} was removed" to "Удалено: {0}",
     "Removing {0}…" to "Удаление: {0}…",
     "{0} was removed, but some downloads stayed" to "Удалено: {0}, но некоторые загрузки остались",

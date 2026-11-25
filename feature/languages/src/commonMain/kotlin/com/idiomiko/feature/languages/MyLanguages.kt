@@ -67,7 +67,6 @@ internal fun MyLanguagesCard(learning: LearningLanguageState, onRemove: (Long, S
                 Text(tr("Removing {0}…", tr(name)), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             }
         }
-        Text(tr("Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it."), Modifier.padding(top = AppSpacing.m), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
     }
 }
 

@@ -240,7 +240,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "在你练习口语时听取你的回答。它在这台电脑上运行，下载后无需网络。",
     "Languages I'm learning" to "我在学的语言",
     "Learning now" to "正在学习",
-    "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "移除一种语言会删除它的文本、单词和进度，以及为它下载的词典、语音和其他内容。",
     "{0} was removed" to "已移除{0}",
     "Removing {0}…" to "正在移除{0}…",
     "{0} was removed, but some downloads stayed" to "已移除{0}，但部分下载内容仍保留",

@@ -240,7 +240,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Écoute vos réponses quand vous vous entraînez à parler. Fonctionne sur cet ordinateur, sans réseau une fois téléchargé.",
     "Languages I'm learning" to "Langues que j'apprends",
     "Learning now" to "En cours",
-    "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "Supprimer une langue efface ses textes, ses mots et votre progression, ainsi que les dictionnaires, voix et autres téléchargements conservés pour elle.",
     "{0} was removed" to "{0} a été supprimé",
     "Removing {0}…" to "Suppression de {0}…",
     "{0} was removed, but some downloads stayed" to "{0} a été supprimé, mais certains téléchargements sont restés",

@@ -240,7 +240,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Hears your answers when you practise speaking. It runs on this computer, with no network once downloaded." to "Słucha Twoich odpowiedzi, gdy ćwiczysz mówienie. Działa na tym komputerze, po pobraniu bez sieci.",
     "Languages I'm learning" to "Języki, których się uczę",
     "Learning now" to "Uczę się teraz",
-    "Removing a language deletes its texts, words and progress, and the dictionaries, voices and other downloads kept for it." to "Usunięcie języka usuwa jego teksty, słowa i postępy oraz pobrane dla niego słowniki, głosy i inne pliki.",
     "{0} was removed" to "Usunięto: {0}",
     "Removing {0}…" to "Usuwanie: {0}…",
     "{0} was removed, but some downloads stayed" to "Usunięto: {0}, ale część pobranych plików została",
