@@ -281,7 +281,11 @@ class CoursesScreenTest {
         page(viewModel, phone = true)
         waitFor("next-lesson")
         onNodeWithTag("journey-strip").assertIsDisplayed()
-        assertTrue(!exists("view-GRID"), "no grid or list on a phone")
+        // The grid or the list, beside the filters as on a wide window.
+        onNodeWithTag("view-LIST").assertIsDisplayed().performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.view == CoursesView.LIST }
+        onNodeWithTag("view-GRID").performClick()
+        waitUntil(timeoutMillis = 5_000) { viewModel.state.value.view == CoursesView.GRID }
         onNodeWithTag("filters-button").performClick()
         onNodeWithTag("status-NOT_STARTED").performClick()
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.status == LessonStatus.NOT_STARTED }

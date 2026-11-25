@@ -243,14 +243,17 @@ internal fun CourseGrid(list: List<CourseProgress>, columns: Int, knownShares: M
     }
 }
 
-/** Courses as rows of a list: picture, title and topic, lessons, and progress or the share known. */
+/**
+ * Courses as rows of a list: picture, title and topic, lessons, and progress or the share known. A [compact] row, on a
+ * phone, keeps the progress under the title and leaves the lessons out.
+ */
 @Composable
-internal fun CourseList(list: List<CourseProgress>, knownShares: Map<String, Int>, pinOf: (CourseProgress) -> TilePin?, actions: TileActions) {
-    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) { list.forEach { CourseRow(it, knownShares[it.course.id], pinOf(it), actions) } }
+internal fun CourseList(list: List<CourseProgress>, knownShares: Map<String, Int>, pinOf: (CourseProgress) -> TilePin?, actions: TileActions, compact: Boolean = false) {
+    Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) { list.forEach { CourseRow(it, knownShares[it.course.id], pinOf(it), actions, compact) } }
 }
 
 @Composable
-private fun CourseRow(progress: CourseProgress, knownShare: Int?, pin: TilePin?, actions: TileActions) {
+private fun CourseRow(progress: CourseProgress, knownShare: Int?, pin: TilePin?, actions: TileActions, compact: Boolean) {
     val colors = MaterialTheme.colorScheme
     val course = progress.course
     val theme = rememberTheme(course)
@@ -271,9 +274,12 @@ private fun CourseRow(progress: CourseProgress, knownShare: Int?, pin: TilePin?,
                 pin?.let { PinTag(it) }
             }
             Text(course.cardSubtitle, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (compact) TileStatus(progress, knownShare)
         }
-        Text(courseFacts(course), Modifier.weight(0.8f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
-        Box(Modifier.weight(0.8f)) { TileStatus(progress, knownShare) }
+        if (!compact) {
+            Text(courseFacts(course), Modifier.weight(0.8f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Box(Modifier.weight(0.8f)) { TileStatus(progress, knownShare) }
+        }
         TileMenu(course, actions)
     }
 }

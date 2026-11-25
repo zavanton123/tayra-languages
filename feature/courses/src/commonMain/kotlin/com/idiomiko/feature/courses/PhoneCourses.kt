@@ -75,6 +75,7 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
                 icon = AppIcons.Tune,
                 badge = state.filterCount.takeIf { it > 0 },
             )
+            SegmentedToggle(viewSegments(), state.view, actions.onView, dense = true)
         }
         JourneyStrip(state.journey, onLevel = { nav.goTo(it, state.journey) })
         BoxWithConstraints(Modifier.fillMaxWidth()) {
@@ -85,7 +86,7 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
         AddRow(tr("Create course"), actions.onNewCourse, Modifier.testTag("new-course"))
     }
     when (sheet) {
-        CoursesSheet.FILTERS -> FiltersSheet(state, actions, listView = !phone, onTags = { sheet = CoursesSheet.TAGS }, onDismiss = { sheet = null })
+        CoursesSheet.FILTERS -> FiltersSheet(state, actions, onTags = { sheet = CoursesSheet.TAGS }, onDismiss = { sheet = null })
         CoursesSheet.TAGS -> TagFilterSheet(
             state.availableTags,
             state.tags,
@@ -100,7 +101,7 @@ internal fun CoursesColumn(state: CoursesUiState, actions: CoursesActions, phone
 /** The filters behind the Filters button: status, tags, order and, where tiles and rows both fit, the view; and a course of one's own. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, listView: Boolean, onTags: () -> Unit, onDismiss: () -> Unit) {
+private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, onTags: () -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     AppBottomSheet(onDismissRequest = onDismiss) {
         Column(
@@ -120,7 +121,6 @@ private fun FiltersSheet(state: CoursesUiState, actions: CoursesActions, listVie
                     SelectableChip(sort.label, selected = state.sort == sort, onClick = { actions.onSort(sort) }, modifier = Modifier.testTag("sort-${sort.name}"), size = ChipSize.Small)
                 }
             }
-            if (listView) SegmentedToggle(viewSegments(), state.view, actions.onView)
         }
     }
 }

@@ -258,7 +258,7 @@ internal fun Catalogue(state: CoursesUiState, actions: CoursesActions, nav: Jour
         }
     }
     val items: @Composable (List<CourseProgress>) -> Unit = { list ->
-        if (state.view == CoursesView.LIST && !compact) CourseList(list, state.knownShares, pinOf, actions.tiles)
+        if (state.view == CoursesView.LIST) CourseList(list, state.knownShares, pinOf, actions.tiles, compact)
         else CourseGrid(list, columns, state.knownShares, pinOf, actions.tiles)
     }
     Column(verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl)) {
