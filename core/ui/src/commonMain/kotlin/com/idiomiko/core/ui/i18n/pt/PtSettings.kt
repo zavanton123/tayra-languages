@@ -260,7 +260,6 @@ internal val ptSettings: Map<String, String> = mapOf(
     "Sign in" to "Entrar",
     "Email" to "E-mail",
     "Password" to "Senha",
-    "At least 8 characters" to "Pelo menos 8 caracteres",
     "Create account" to "Criar conta",
     "Choose a new password" to "Escolha uma nova senha",
     "We sent a code to {0}. Enter it with your new password." to "Enviamos um código para {0}. Digite-o com sua nova senha.",

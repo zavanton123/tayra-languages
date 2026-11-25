@@ -260,7 +260,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Sign in" to "登录",
     "Email" to "邮箱",
     "Password" to "密码",
-    "At least 8 characters" to "至少 8 个字符",
     "Create account" to "创建账户",
     "Choose a new password" to "设置新密码",
     "We sent a code to {0}. Enter it with your new password." to "我们已向 {0} 发送了验证码。请输入验证码和新密码。",

@@ -260,7 +260,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Sign in" to "Se connecter",
     "Email" to "E-mail",
     "Password" to "Mot de passe",
-    "At least 8 characters" to "Au moins 8 caractères",
     "Create account" to "Créer le compte",
     "Choose a new password" to "Choisissez un nouveau mot de passe",
     "We sent a code to {0}. Enter it with your new password." to "Nous avons envoyé un code à {0}. Saisissez-le avec votre nouveau mot de passe.",

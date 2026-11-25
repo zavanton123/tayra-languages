@@ -260,7 +260,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Sign in" to "Anmelden",
     "Email" to "E-Mail",
     "Password" to "Passwort",
-    "At least 8 characters" to "Mindestens 8 Zeichen",
     "Create account" to "Konto erstellen",
     "Choose a new password" to "Wähle ein neues Passwort",
     "We sent a code to {0}. Enter it with your new password." to "Wir haben einen Code an {0} geschickt. Gib ihn mit deinem neuen Passwort ein.",

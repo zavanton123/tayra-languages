@@ -260,7 +260,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Sign in" to "Войти",
     "Email" to "Эл. почта",
     "Password" to "Пароль",
-    "At least 8 characters" to "Не менее 8 символов",
     "Create account" to "Создать аккаунт",
     "Choose a new password" to "Выберите новый пароль",
     "We sent a code to {0}. Enter it with your new password." to "Мы отправили код на {0}. Введите его вместе с новым паролем.",

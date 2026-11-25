@@ -216,37 +216,38 @@ private fun SignInForm(state: AccountUiState, actions: AccountViewModel?, creati
                 supportingText = if (emailWrong) ({ Text(tr("Enter a valid email address"), Modifier.testTag("account-email-error")) }) else null,
             )
         }
-        FieldWithLabel(
-            tr("Password"),
-            extra = {
-                if (!creating) {
+        if (creating) {
+            NewPasswordFields(password, { password = it }, tag = "account-password")
+        } else {
+            FieldWithLabel(
+                tr("Password"),
+                extra = {
                     LinkText(
                         tr("Forgot password?"), onClick = { actions?.forgotPassword(email) }, style = MaterialTheme.typography.bodyMedium,
                         enabled = emailValid && !busy, modifier = Modifier.testTag("account-forgot"),
                     )
-                }
-            },
-        ) {
-            AppTextField(
-                password, { password = it }, Modifier.fillMaxWidth().testTag("account-password"),
-                singleLine = true,
-                visualTransformation = if (shown) VisualTransformation.None else PasswordVisualTransformation(),
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
-                trailingIcon = {
-                    AppIconButton(
-                        if (shown) AppIcons.VisibilityOff else AppIcons.Visibility,
-                        contentDescription = if (shown) tr("Hide password") else tr("Show password"),
-                        onClick = { shown = !shown }, size = IconButtonSize.Small,
-                        modifier = Modifier.testTag("account-password-toggle"),
-                    )
                 },
-                supportingText = if (creating) ({ Text(tr("At least 8 characters")) }) else null,
-            )
+            ) {
+                AppTextField(
+                    password, { password = it }, Modifier.fillMaxWidth().testTag("account-password"),
+                    singleLine = true,
+                    visualTransformation = if (shown) VisualTransformation.None else PasswordVisualTransformation(),
+                    keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                    trailingIcon = {
+                        AppIconButton(
+                            if (shown) AppIcons.VisibilityOff else AppIcons.Visibility,
+                            contentDescription = if (shown) tr("Hide password") else tr("Show password"),
+                            onClick = { shown = !shown }, size = IconButtonSize.Small,
+                            modifier = Modifier.testTag("account-password-toggle"),
+                        )
+                    },
+                )
+            }
         }
         PrimaryButton(
             if (creating) tr("Create account") else tr("Sign in"),
             onClick = { if (creating) actions?.register(email, password) else actions?.signIn(email, password) },
-            enabled = emailValid && password.isNotEmpty() && !busy,
+            enabled = emailValid && !busy && if (creating) newPasswordReady(password) else password.isNotEmpty(),
             loading = state.busy == AccountTask.SIGNING_IN,
             size = ButtonSize.Large,
             modifier = Modifier.fillMaxWidth().testTag("account-submit"),
@@ -314,15 +315,10 @@ private fun ResetForm(state: AccountUiState, actions: AccountViewModel?) {
         FieldWithLabel(tr("Code")) {
             AppTextField(code, { code = it }, Modifier.fillMaxWidth().testTag("reset-code"), singleLine = true, keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number))
         }
-        FieldWithLabel(tr("New password")) {
-            AppTextField(
-                password, { password = it }, Modifier.fillMaxWidth().testTag("reset-password"), singleLine = true,
-                visualTransformation = PasswordVisualTransformation(), supportingText = { Text(tr("At least 8 characters")) },
-            )
-        }
+        NewPasswordFields(password, { password = it }, tag = "reset-password", label = tr("New password"))
         PrimaryButton(
             tr("Set password and sign in"), onClick = { actions?.resetPassword(code, password) },
-            enabled = code.isNotBlank() && password.length >= 8 && state.busy == null, loading = state.busy != null,
+            enabled = code.isNotBlank() && newPasswordReady(password) && state.busy == null, loading = state.busy != null,
             size = ButtonSize.Large, modifier = Modifier.fillMaxWidth().testTag("reset-submit"),
         )
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.Center) {

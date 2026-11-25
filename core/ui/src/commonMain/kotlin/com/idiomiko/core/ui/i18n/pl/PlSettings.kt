@@ -260,7 +260,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Sign in" to "Zaloguj się",
     "Email" to "E-mail",
     "Password" to "Hasło",
-    "At least 8 characters" to "Co najmniej 8 znaków",
     "Create account" to "Załóż konto",
     "Choose a new password" to "Wybierz nowe hasło",
     "We sent a code to {0}. Enter it with your new password." to "Wysłaliśmy kod na {0}. Wpisz go razem z nowym hasłem.",

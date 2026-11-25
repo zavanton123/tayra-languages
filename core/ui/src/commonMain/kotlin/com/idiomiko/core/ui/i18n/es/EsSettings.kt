@@ -260,7 +260,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Sign in" to "Iniciar sesión",
     "Email" to "Correo",
     "Password" to "Contraseña",
-    "At least 8 characters" to "Al menos 8 caracteres",
     "Create account" to "Crear cuenta",
     "Choose a new password" to "Elige una nueva contraseña",
     "We sent a code to {0}. Enter it with your new password." to "Enviamos un código a {0}. Escríbelo junto con tu nueva contraseña.",

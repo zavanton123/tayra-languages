@@ -260,7 +260,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Sign in" to "Σύνδεση",
     "Email" to "Email",
     "Password" to "Κωδικός",
-    "At least 8 characters" to "Τουλάχιστον 8 χαρακτήρες",
     "Create account" to "Δημιουργία λογαριασμού",
     "Choose a new password" to "Επιλέξτε νέο κωδικό",
     "We sent a code to {0}. Enter it with your new password." to "Στείλαμε έναν κωδικό στο {0}. Εισαγάγετέ τον μαζί με τον νέο σας κωδικό.",

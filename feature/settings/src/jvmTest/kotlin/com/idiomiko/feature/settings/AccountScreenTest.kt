@@ -56,6 +56,7 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.assertTextEquals
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -75,7 +76,7 @@ class AccountScreenTest {
         private fun info() = AccountInfo("reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl), id = "u1")
         override suspend fun register(email: String, password: String) = signIn(email, password)
         override suspend fun signIn(email: String, password: String): AccountInfo {
-            if (password != "correct horse") throw AccountException(AccountProblem.BAD_CREDENTIALS, "Wrong email or password")
+            if (password !in setOf("correct horse", "Correct-horse-7")) throw AccountException(AccountProblem.BAD_CREDENTIALS, "Wrong email or password")
             signedIn.value = email
             return info()
         }
@@ -284,7 +285,13 @@ class AccountScreenTest {
         onNodeWithTag("account-switch").performClick()
         onNodeWithTag("account-email").performTextInput("new@example.com")
         onNodeWithTag("account-submit").assertIsNotEnabled()
+        // A weak password is named so and its unmet rules stay open; it is not sent.
         onNodeWithTag("account-password").performTextInput("correct horse")
+        onNodeWithTag("password-strength").assertTextContains("Weak", substring = true)
+        onNodeWithTag("account-submit").assertIsNotEnabled()
+        onNodeWithTag("account-password").performTextClearance()
+        onNodeWithTag("account-password").performTextInput("Correct-horse-7")
+        onNodeWithTag("password-strength").assertTextContains("Strong", substring = true)
         onNodeWithText("Create account").assertExists()
         onNodeWithTag("account-submit").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
@@ -328,7 +335,7 @@ class AccountScreenTest {
         onNodeWithTag("account-forgot").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("reset-code").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("reset-code").performTextInput("123456")
-        onNodeWithTag("reset-password").performTextInput("correct horse")
+        onNodeWithTag("reset-password").performTextInput("Correct-horse-7")
         onNodeWithTag("reset-submit").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Your new password is set").assertExists()
