@@ -75,7 +75,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) { content() }
         } else {
-            PageColumn(padding) { Column(Modifier.widthIn(max = PAGE_WIDTH), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
+            PageColumn(padding) { Column(Modifier.widthIn(max = PAGE_WIDTH).align(Alignment.CenterHorizontally).testTag("account-page"), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
         }
     }
 }

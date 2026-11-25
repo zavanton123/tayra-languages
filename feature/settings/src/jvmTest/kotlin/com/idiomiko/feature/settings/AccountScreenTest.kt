@@ -152,12 +152,16 @@ class AccountScreenTest {
     }
 
     @Test
-    fun signingInWithGoogle() = runDesktopComposeUiTest(width = 1400, height = 1600) {
+    fun signingInWithGoogle() = runDesktopComposeUiTest(width = 1800, height = 1600) {
         val accounts = FakeAccounts()
         val identity = FakeIdentity(cancels = true)
         show(accounts, identity = identity)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-google").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithTag("account-apple").fetchSemanticsNodes().size, "the service takes no Apple sign-in here")
+        // The page sits in the middle of a wide window.
+        val page = onNodeWithTag("account-page").fetchSemanticsNode().boundsInRoot
+        val window = onAllNodes(isRoot())[0].fetchSemanticsNode().boundsInRoot
+        assertEquals(page.left - window.left, window.right - page.right, 2f)
         save("ACCOUNT_SCREENSHOT", "-providers")
         onNodeWithText("Continue with Google").performClick()
         waitForIdle()
