@@ -332,16 +332,15 @@ fun formatSize(bytes: Long): String = when {
 fun PageColumn(padding: PaddingValues, modifier: Modifier = Modifier, content: @Composable ColumnScope.() -> Unit) {
     val compact = LocalWindowWidth.current.isCompact
     val side = if (compact) AppSpacing.l else AppSpacing.giant
-    // Beside the settings sidebar the page keeps to it, as a playlist does beside the playlists; the sidebar's margin keeps them apart.
+    // Beside the settings sidebar the page keeps to it, as a playlist does beside the playlists, with one gap all round.
     val besideSidebar = LocalSettingsSidebar.current
     val scroll = rememberScrollState()
     Box(modifier.padding(padding).fillMaxSize()) {
         Box(Modifier.fillMaxSize().verticalScroll(scroll), contentAlignment = if (besideSidebar) Alignment.TopStart else Alignment.TopCenter) {
             Column(
                 Modifier.widthIn(max = AppSizes.pageWidth).fillMaxWidth()
-                    .padding(start = if (besideSidebar) AppSpacing.l else side, end = side)
-                    .padding(vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
-                verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
+                    .padding(if (besideSidebar) PaddingValues(AppSpacing.pane) else PaddingValues(horizontal = side, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl)),
+                verticalArrangement = Arrangement.spacedBy(if (besideSidebar) AppSpacing.pane else AppSpacing.xl),
                 content = content,
             )
         }

@@ -18,6 +18,7 @@ import androidx.compose.ui.test.runDesktopComposeUiTest
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.ui.hotkeys.opensSettings
 import com.idiomiko.core.ui.navigation.Route
+import com.idiomiko.core.ui.theme.AppSpacing
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFalse
@@ -45,6 +46,18 @@ class SettingsSidebarTest {
         // The page shown already is not opened again.
         onNodeWithTag("settings-section-SPEECH").performClick()
         assertEquals(listOf<Route>(Route.Settings, Route.Backups), visited)
+    }
+
+    /** One gap at the window's edge, between the sidebar and the page, and above both. */
+    @Test
+    fun theSidebarAndThePageKeepOneGap() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        setContent { MaterialTheme { ProvideWindowWidth { Page(SettingsSection.SPEECH, onNavigate = {}) } } }
+        val sidebar = onNodeWithTag("settings-sidebar").fetchSemanticsNode().boundsInRoot
+        val title = onAllNodesWithText(SettingsSection.SPEECH.label).fetchSemanticsNodes().map { it.boundsInRoot }.maxBy { it.left }
+        val gap = with(density) { AppSpacing.pane.toPx() }
+        assertEquals(gap, sidebar.left, 1f)
+        assertEquals(gap, sidebar.top, 1f)
+        assertEquals(gap, title.left - sidebar.right, 1f)
     }
 
     /** Provided by the app, the switch that takes the shown page's place opens the section rather than a plain link. */

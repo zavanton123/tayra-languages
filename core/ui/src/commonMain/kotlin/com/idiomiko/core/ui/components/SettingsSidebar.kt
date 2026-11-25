@@ -99,8 +99,8 @@ fun SettingsPane(current: SettingsSection, padding: PaddingValues, onNavigate: (
 @Composable
 fun SettingsSidebar(current: SettingsSection, onSelect: (SettingsSection) -> Unit) {
     Box(
-        Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l).fillMaxHeight()
-            .padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.xxl)
+        Modifier.width(SIDEBAR + AppSpacing.pane).fillMaxHeight()
+            .padding(start = AppSpacing.pane, top = AppSpacing.pane, bottom = AppSpacing.pane)
             .testTag("settings-sidebar"),
     ) {
         Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(vertical = AppSpacing.l)) {

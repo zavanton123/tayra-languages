@@ -216,6 +216,9 @@ object AppSpacing {
     val xxxl = 32.dp
     val huge = 40.dp
     val giant = 48.dp
+
+    /** The one gap a wide page with a sidebar keeps at the window's edges and between its cards. */
+    val pane = xl
 }
 
 /** How far something is raised above the page, by its shadow. */
