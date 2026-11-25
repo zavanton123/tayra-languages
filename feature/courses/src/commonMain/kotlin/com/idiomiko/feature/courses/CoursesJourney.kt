@@ -197,7 +197,7 @@ internal fun MoreTagsLink(onClick: () -> Unit) =
 /** The quiet way to make a course of one's own. */
 @Composable
 internal fun CreateCourseLink(onNewCourse: () -> Unit) =
-    LinkText(tr("Create your own course"), onNewCourse, Modifier.testTag("new-course"), icon = Icons.Default.Add, style = MaterialTheme.typography.bodyMedium)
+    LinkText(tr("Create course"), onNewCourse, Modifier.testTag("new-course"), icon = Icons.Default.Add, style = MaterialTheme.typography.bodyMedium)
 
 private val BADGE = 84.dp
 private val BADGE_SMALL = 52.dp

@@ -386,5 +386,4 @@ internal val elCourses: Map<String, String> = mapOf(
     "{0} and {1} complete" to "Τα {0} και {1} ολοκληρώθηκαν",
     "{1} lessons read" to "{1} ενότητα διαβάστηκε|{1} ενότητες διαβάστηκαν",
     "Review them" to "Δείτε τα",
-    "Create your own course" to "Δημιουργήστε το δικό σας μάθημα",
 )

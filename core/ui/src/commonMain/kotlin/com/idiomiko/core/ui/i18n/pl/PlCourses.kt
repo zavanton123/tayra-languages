@@ -386,5 +386,4 @@ internal val plCourses: Map<String, String> = mapOf(
     "{0} and {1} complete" to "{0} i {1} ukończone",
     "{1} lessons read" to "{1} lekcja przeczytana|{1} lekcje przeczytane|{1} lekcji przeczytanych",
     "Review them" to "Przejrzyj",
-    "Create your own course" to "Utwórz własny kurs",
 )

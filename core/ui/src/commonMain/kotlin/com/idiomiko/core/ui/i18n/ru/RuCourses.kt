@@ -386,5 +386,4 @@ internal val ruCourses: Map<String, String> = mapOf(
     "{0} and {1} complete" to "{0} и {1} пройдены",
     "{1} lessons read" to "{1} урок прочитан|{1} урока прочитано|{1} уроков прочитано",
     "Review them" to "Посмотреть",
-    "Create your own course" to "Создать свой курс",
 )

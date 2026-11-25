@@ -73,7 +73,7 @@ internal fun CoursesTopPane(state: CoursesUiState, actions: CoursesActions, onLe
         Column(Modifier.padding(AppSpacing.xl), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                 SearchBox(state.search, actions.onSearch, Modifier.weight(1f))
-                PrimaryButton(tr("Create your own course"), actions.onNewCourse, Modifier.height(AppSizes.control).testTag("new-course"), icon = Icons.Default.Add)
+                PrimaryButton(tr("Create course"), actions.onNewCourse, Modifier.height(AppSizes.control).testTag("new-course"), icon = Icons.Default.Add)
             }
             FilterRow(state, actions)
         }

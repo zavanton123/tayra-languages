@@ -386,5 +386,4 @@ internal val deCourses: Map<String, String> = mapOf(
     "{0} and {1} complete" to "{0} und {1} abgeschlossen",
     "{1} lessons read" to "{1} Lektion gelesen|{1} Lektionen gelesen",
     "Review them" to "Ansehen",
-    "Create your own course" to "Eigenen Kurs erstellen",
 )

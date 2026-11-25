@@ -386,5 +386,4 @@ internal val esCourses: Map<String, String> = mapOf(
     "{0} and {1} complete" to "{0} y {1} completados",
     "{1} lessons read" to "{1} lección leída|{1} lecciones leídas",
     "Review them" to "Repasarlos",
-    "Create your own course" to "Crea tu propio curso",
 )
