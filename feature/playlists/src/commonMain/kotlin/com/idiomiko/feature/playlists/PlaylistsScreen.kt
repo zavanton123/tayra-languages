@@ -1,5 +1,6 @@
 package com.idiomiko.feature.playlists
 
+import com.idiomiko.core.ui.components.AddRow
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -33,12 +34,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.drawBehind
-import androidx.compose.ui.geometry.CornerRadius
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.PathEffect
-import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.selected
 import androidx.compose.ui.semantics.semantics
@@ -318,7 +313,7 @@ private fun PlaylistList(state: PlaylistsUiState, viewModel: PlaylistsViewModel,
                     onPlay = { viewModel.play(summary.playlist.id) },
                 )
             }
-            NewPlaylistRow(onCreate)
+            AddRow(tr("New playlist"), onCreate, Modifier.testTag("new-playlist-row"))
         }
     }
 }
@@ -367,33 +362,6 @@ private fun PlaylistCard(summary: PlaylistSummary, playing: Boolean, onOpen: () 
     }
 }
 
-/** The dashed row under the list that makes another playlist. */
-@Composable
-private fun NewPlaylistRow(onCreate: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val line = colors.outlineVariant
-    Row(
-        Modifier.fillMaxWidth().clip(AppShapes.large)
-            .drawBehind {
-                val stroke = DASH_WIDTH.toPx()
-                drawRoundRect(
-                    line,
-                    topLeft = Offset(stroke / 2, stroke / 2),
-                    size = Size(size.width - stroke, size.height - stroke),
-                    cornerRadius = CornerRadius(DASH_CORNER.toPx()),
-                    style = Stroke(stroke, pathEffect = PathEffect.dashPathEffect(floatArrayOf(DASH.toPx(), DASH.toPx()))),
-                )
-            }
-            .clickable(onClick = onCreate).padding(vertical = AppSpacing.l).testTag("new-playlist-row"),
-        horizontalArrangement = Arrangement.Center,
-        verticalAlignment = Alignment.CenterVertically,
-    ) {
-        Icon(Icons.Default.Add, contentDescription = null, tint = colors.primary, modifier = Modifier.size(AppSizes.icon))
-        Spacer(Modifier.width(AppSpacing.s))
-        Text(tr("New playlist"), style = AppText.labelBold, color = colors.primary)
-    }
-}
-
 /** Asks before deleting a playlist, saying its texts stay in the library. */
 @Composable
 internal fun DeletePlaylistDialog(playlist: Playlist, duration: Duration, onConfirm: () -> Unit, onDismiss: () -> Unit) {
@@ -423,9 +391,6 @@ internal fun DeletePlaylistDialog(playlist: Playlist, duration: Duration, onConf
 private val SIDEBAR = 300.dp
 private val SIDEBAR_MOSAIC = 48.dp
 private val PHONE_MOSAIC = 56.dp
-private val DASH = 6.dp
-private val DASH_WIDTH = 2.dp
-private val DASH_CORNER = 18.dp
 
 /** From this many playlists a phone's list gets a search. */
 private const val SEARCH_FROM = 6
