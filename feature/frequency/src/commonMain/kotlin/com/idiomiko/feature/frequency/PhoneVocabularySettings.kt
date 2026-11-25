@@ -55,8 +55,6 @@ internal fun PhoneVocabularySettingsScreen(state: VocabularySettingsUiState, onP
             }
             AppCard {
                 Text(tr("Your level"), style = AppText.sectionTitle)
-                Spacer(Modifier.height(AppSpacing.xs))
-                Text(tr("Words below your level count as known; words you have saved keep their status."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 Spacer(Modifier.height(AppSpacing.l))
                 LevelPicker(state.edges, state.selectedEdge(), onPick, compact = true, current = state.currentEdge())
                 Spacer(Modifier.height(AppSpacing.l))

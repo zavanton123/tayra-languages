@@ -107,7 +107,7 @@ internal fun VocabularySettingsContent(
     var confirming by remember { mutableStateOf(false) }
     ScreenHeader(
         tr("Vocabulary settings"),
-        if (state.languageName.isEmpty()) tr("How much of the language you know already.") else tr("How much {0} you know already.", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)),
+        null,
         onBackToSettings = onBackToSettings,
     )
     val list = state.list
@@ -120,7 +120,7 @@ internal fun VocabularySettingsContent(
         ) {}
         return
     }
-    ContentCard(tr("Your level"), tr("Words below your level count as known; words you have saved keep their status."), icon = AppIcons.BarChart) {
+    ContentCard(tr("Your level"), null, icon = AppIcons.BarChart) {
         LevelPicker(state.edges, state.selectedEdge(), onPick, compact = false, current = state.currentEdge())
         Spacer(Modifier.height(AppSpacing.l))
         SettingsLevelStrip(state)
