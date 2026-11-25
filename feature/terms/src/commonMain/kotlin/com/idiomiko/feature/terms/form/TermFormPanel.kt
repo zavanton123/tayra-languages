@@ -594,7 +594,7 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
         val card = state.flashcard
         if (card == null) {
             Text(
-                state.learnedWith?.let { tr("Learned with the card of its parent, {0}.", it) } ?: tr("This term has no flashcard. Terms at status 1 to 4 get one."),
+                state.learnedWith?.let { tr("Learned with the card of its parent, {0}.", it) } ?: if (learningLevels) tr("This term has no flashcard. Terms at status 1 to 4 get one.") else tr("This term has no flashcard. Terms marked Learning get one."),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

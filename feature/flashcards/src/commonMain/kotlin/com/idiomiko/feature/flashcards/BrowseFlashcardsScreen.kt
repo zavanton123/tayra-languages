@@ -1,5 +1,6 @@
 package com.idiomiko.feature.flashcards
 
+import com.idiomiko.core.ui.components.learningLevels
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
 import com.idiomiko.core.ui.files.saveBinaryFile
@@ -531,7 +532,11 @@ internal fun CardSelectionBar(state: BrowseUiState, viewModel: BrowseFlashcardsV
 internal fun EmptyCards(state: BrowseUiState) {
     EmptyState(
         title = if (state.filtered) tr("No cards match.") else tr("No flashcards yet"),
-        message = if (state.filtered) null else tr("Words you give a status of 1 to 4 while reading get a card here."),
+        message = when {
+            state.filtered -> null
+            learningLevels -> tr("Words you give a status of 1 to 4 while reading get a card here.")
+            else -> tr("Words you mark as Learning while reading get a card here.")
+        },
     )
 }
 

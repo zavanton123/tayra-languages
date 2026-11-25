@@ -3,6 +3,8 @@ package com.idiomiko.feature.stats
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.CompositionLocalProvider
+import com.idiomiko.core.ui.components.LocalLearningLevels
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -88,6 +90,21 @@ class FlashcardStatsScreenTest {
             cards.save(card.copy(schedule = CardSchedule(CardState.REVIEW, now + random.nextInt(0, 40).days, MemoryState(interval * 1.5, random.nextDouble(2.0, 9.0)), interval, 0, reviews.size, 0, reviews.last().at)))
         }
         id
+    }
+
+    /** With no cards yet, the page says which words get one, in the statuses the reader sees. */
+    @Test
+    fun withNoCardsThePageSaysWhichWordsGetOne() = runDesktopComposeUiTest(width = 1200, height = 900) {
+        var levels by mutableStateOf(false)
+        setContent {
+            CompositionLocalProvider(LocalLearningLevels provides levels) {
+                PageColumn(PaddingValues()) { FlashcardStatsContent(FlashcardStatsUiState(), onPeriod = {}) }
+            }
+        }
+        onNodeWithText("Words you mark as Learning while reading get a card, and their figures show here.").assertExists()
+        levels = true
+        waitForIdle()
+        onNodeWithText("Words you give a status of 1 to 4 while reading get a card, and their figures show here.").assertExists()
     }
 
     @Test

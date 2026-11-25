@@ -1,5 +1,6 @@
 package com.idiomiko.feature.reading.practice
 
+import com.idiomiko.core.ui.components.learningLevels
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -789,8 +790,10 @@ private fun Empty(state: PracticeUiState, actions: PracticeActions) {
         title = if (state.fromVocabulary || state.wholeBook) tr("Nothing to practise") else tr("Nothing to practise on this page"),
         message = when {
             state.fromVocabulary -> tr("Practice asks about a word in the sentence it was read in: none of the chosen words was saved with one.")
-            state.wholeBook -> tr("Practice uses the words you are learning: give some words in the text a status of 1 to 4 first.")
-            else -> tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first.")
+            state.wholeBook && learningLevels -> tr("Practice uses the words you are learning: give some words in the text a status of 1 to 4 first.")
+            state.wholeBook -> tr("Practice uses the words you are learning: mark some words in the text as Learning first.")
+            learningLevels -> tr("Practice uses the words you are learning: give some words on the page a status of 1 to 4 first.")
+            else -> tr("Practice uses the words you are learning: mark some words on the page as Learning first.")
         },
         action = { PrimaryButton(backLabel(state), onClick = actions.onBack) },
     )
