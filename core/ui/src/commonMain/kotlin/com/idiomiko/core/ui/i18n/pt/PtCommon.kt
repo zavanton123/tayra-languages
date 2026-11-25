@@ -137,7 +137,7 @@ internal val ptCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt
     "Learning language: {0}" to "Idioma de estudo: {0}",
-    "Select target language" to "Selecione o idioma de estudo",
+    "Select the language to study" to "Selecione o idioma para estudar",
     "Search languages" to "Buscar idiomas",
     "All languages" to "Todos os idiomas",
     "{0} languages" to "{0} idioma|{0} idiomas",

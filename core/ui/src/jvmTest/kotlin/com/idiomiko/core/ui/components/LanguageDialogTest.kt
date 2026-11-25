@@ -69,7 +69,7 @@ class LanguageDialogTest {
         val chosen = mutableListOf<Long>()
         val state = LearningLanguageState(names.mapIndexed { i, n -> (i + 1L) to n }, 0L, nativeIds = setOf(9L)) { chosen += it }
         setContent { IdiomikoTheme { ProvideWindowWidth { TargetLanguageDialog(state) } } }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select target language").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Select the language to study").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithText("Choose the language you want to study").fetchSemanticsNodes().size, "no line under the title")
         onNodeWithText("30 languages").assertExists()
         assertEquals(0, onAllNodesWithTag("current-language").fetchSemanticsNodes().size)

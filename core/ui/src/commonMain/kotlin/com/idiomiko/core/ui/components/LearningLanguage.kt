@@ -385,7 +385,7 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, 
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f)) {
-                    Text(if (required) tr("Select target language") else tr("Add a language"), style = AppText.screenTitle)
+                    Text(if (required) tr("Select the language to study") else tr("Add a language"), style = AppText.screenTitle)
                     if (!required) Text(tr("Start learning another language"), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 if (!required) AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, style = IconButtonStyle.Tonal, tint = colors.onSurface)

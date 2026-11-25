@@ -137,7 +137,7 @@ internal val esCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt
     "Learning language: {0}" to "Idioma que aprendes: {0}",
-    "Select target language" to "Selecciona el idioma de estudio",
+    "Select the language to study" to "Selecciona el idioma que vas a estudiar",
     "Search languages" to "Buscar idiomas",
     "All languages" to "Todos los idiomas",
     "{0} languages" to "{0} idioma|{0} idiomas",

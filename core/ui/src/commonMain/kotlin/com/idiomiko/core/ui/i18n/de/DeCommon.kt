@@ -137,7 +137,7 @@ internal val deCommon: Map<String, String> = mapOf(
 
     // LearningLanguage.kt
     "Learning language: {0}" to "Lernsprache: {0}",
-    "Select target language" to "Zielsprache wählen",
+    "Select the language to study" to "Sprache zum Lernen wählen",
     "Search languages" to "Sprachen suchen",
     "All languages" to "Alle Sprachen",
     "{0} languages" to "{0} Sprache|{0} Sprachen",
