@@ -33,6 +33,8 @@ import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
 import kotlin.test.Test
+import kotlin.test.assertNotEquals
+import androidx.compose.ui.test.performMouseInput
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -129,6 +131,23 @@ class SettingsScreenTest {
         onNodeWithText("Reset").performClick()
         onAllNodesWithText("Reset").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f && settings.current.readingFont == "serif" }
+    }
+
+    /** The preview takes on each font the pointer comes onto in the menu, before it is chosen. */
+    @Test
+    fun theFontUnderThePointerIsPreviewed() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+        val settings = SettingsRepositoryImpl(MapSettings())
+        setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
+        fun preview() = onNodeWithTag("reading-preview").captureToImage().toAwtImage().let { image -> List(image.width * image.height) { image.getRGB(it % image.width, it / image.width) } }
+        waitForIdle()
+        val before = preview()
+        onNodeWithText("System serif").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("JetBrains Mono").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Lora").performMouseInput { enter(center) }
+        onNodeWithText("JetBrains Mono").performMouseInput { moveTo(center) }
+        waitForIdle()
+        assertNotEquals(before, preview(), "the hovered font shows in the preview")
+        assertEquals("serif", settings.current.readingFont, "hovering chooses nothing")
     }
 
     /** A phone's General page holds its own settings only: the other settings pages are on the More sheet. */

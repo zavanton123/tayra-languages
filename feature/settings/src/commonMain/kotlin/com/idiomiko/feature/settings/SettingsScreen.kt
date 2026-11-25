@@ -24,6 +24,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -124,6 +125,10 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
         SettingsPane(SettingsSection.GENERAL, padding, onNavigate) { inner ->
             // The room beside the settings sidebar, which may hold one column only.
             val wide = LocalWindowWidth.current.isExpanded
+            // The font under the pointer in the font menu, shown in the preview until the menu closes or a font is chosen.
+            var hoveredFont by remember { mutableStateOf<ReadingFont?>(null) }
+            LaunchedEffect(settings.readingFont) { hoveredFont = null }
+            val previewed = hoveredFont?.let { settings.copy(readingFont = it.id) } ?: settings
             PageColumn(inner) {
                 ScreenHeader(tr("General"), null) {
                     HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
@@ -133,17 +138,17 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             AppearanceCard(settings, viewModel)
-                            ReadingCard(settings, viewModel)
+                            ReadingCard(settings, viewModel, onHoverFont = { hoveredFont = it })
                             WordStatusesCard(settings, viewModel)
                         }
                         Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                            PreviewCard(settings)
+                            PreviewCard(previewed)
                         }
                     }
                 } else {
                     AppearanceCard(settings, viewModel)
-                    ReadingCard(settings, viewModel)
-                    PreviewCard(settings)
+                    ReadingCard(settings, viewModel, onHoverFont = { hoveredFont = it })
+                    PreviewCard(previewed)
                     WordStatusesCard(settings, viewModel)
                 }
             }
@@ -205,7 +210,7 @@ internal fun ThemeSwatch(theme: AppTheme) {
 }
 
 @Composable
-private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
+private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel, onHoverFont: (ReadingFont?) -> Unit) {
     ContentCard(tr("Reading"), null, iconText = "Aa") {
         SettingRow(tr("Reading font"), null, stackOnCompact = true) {
             Dropdown(
@@ -215,6 +220,7 @@ private fun ReadingCard(settings: UserSettings, viewModel: SettingsViewModel) {
                 label = null,
                 optionLabel = { it.label },
                 optionContent = { Text(it.label, fontFamily = it.fontFamily(), style = MaterialTheme.typography.bodyLarge) },
+                onHover = onHoverFont,
                 modifier = if (LocalWindowWidth.current.isCompact) Modifier.fillMaxWidth() else Modifier.width(DROPDOWN_WIDTH),
             )
         }
@@ -280,7 +286,7 @@ private const val DAILY_GOAL_STEP = 5
 /** A sentence in the language being learned, drawn as the reader draws it with the chosen theme, highlighting, size and spacing. */
 @Composable
 private fun PreviewCard(settings: UserSettings) {
-    ContentCard(tr("Reading preview"), null, icon = AppIcons.MenuBook) { PreviewBox(settings) }
+    ContentCard(tr("Reading preview"), null, icon = AppIcons.MenuBook, modifier = Modifier.testTag("reading-preview")) { PreviewBox(settings) }
 }
 
 /** The preview itself: the sample sentence on the theme's page with the legend under it; [padding] is the page's inner margin. */
