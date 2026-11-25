@@ -170,7 +170,7 @@ private fun view(next: NextUp, actions: HomeActions): NextUpView = when (next) {
         title = trPlural(next.due, "{1} card due today", "{1} cards due today", formatCount(next.due)),
         detail = null,
         facts = emptyList(),
-        button = tr("Review flashcards"),
+        button = tr("Review"),
         onClick = { actions.onNavigate(Route.Flashcards()) },
         quick = if (next.due > NextUp.QUICK_SESSION) ({ actions.onNavigate(Route.Flashcards(limit = NextUp.QUICK_SESSION)) }) else null,
     )

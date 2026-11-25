@@ -178,7 +178,7 @@ internal val deCourses: Map<String, String> = mapOf(
     "Clear search" to "Suche löschen",
     "All cards" to "Alle Karten",
     "Due today" to "Heute fällig",
-    "Review" to "Wiederholung",
+    "Review" to "Wiederholen",
     "Relearning" to "Neu lernen",
     "Forgotten before" to "Schon vergessen",
     "First time" to "Erstes Mal",

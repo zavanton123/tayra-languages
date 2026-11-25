@@ -178,7 +178,7 @@ internal val frCourses: Map<String, String> = mapOf(
     "Clear search" to "Effacer la recherche",
     "All cards" to "Toutes",
     "Due today" to "À réviser aujourd’hui",
-    "Review" to "Révision",
+    "Review" to "Réviser",
     "Relearning" to "Réapprentissage",
     "Forgotten before" to "Déjà oubliées",
     "First time" to "Première fois",

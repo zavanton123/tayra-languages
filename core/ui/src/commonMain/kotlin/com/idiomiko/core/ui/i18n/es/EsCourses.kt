@@ -178,7 +178,7 @@ internal val esCourses: Map<String, String> = mapOf(
     "Clear search" to "Borrar búsqueda",
     "All cards" to "Todas",
     "Due today" to "Para hoy",
-    "Review" to "Repaso",
+    "Review" to "Repasar",
     "Relearning" to "Reaprendizaje",
     "Forgotten before" to "Olvidadas antes",
     "First time" to "Primera vez",

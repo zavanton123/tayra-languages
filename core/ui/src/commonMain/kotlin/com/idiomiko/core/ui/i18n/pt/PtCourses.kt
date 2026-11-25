@@ -178,7 +178,7 @@ internal val ptCourses: Map<String, String> = mapOf(
     "Clear search" to "Limpar busca",
     "All cards" to "Todos",
     "Due today" to "Para hoje",
-    "Review" to "Revisão",
+    "Review" to "Revisar",
     "Relearning" to "Reaprendendo",
     "Forgotten before" to "Já esquecidos",
     "First time" to "Primeira vez",

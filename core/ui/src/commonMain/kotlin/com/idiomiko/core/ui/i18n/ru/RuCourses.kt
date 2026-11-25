@@ -178,7 +178,7 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Clear search" to "Очистить поиск",
     "All cards" to "Все",
     "Due today" to "На сегодня",
-    "Review" to "Повторение",
+    "Review" to "Повторить",
     "Relearning" to "Переучивание",
     "Forgotten before" to "Забывались",
     "First time" to "Впервые",

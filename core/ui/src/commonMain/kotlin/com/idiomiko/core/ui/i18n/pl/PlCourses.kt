@@ -178,7 +178,7 @@ internal val plCourses: Map<String, String> = mapOf(
     "Clear search" to "Wyczyść wyszukiwanie",
     "All cards" to "Wszystkie",
     "Due today" to "Na dziś",
-    "Review" to "Powtórka",
+    "Review" to "Powtórz",
     "Relearning" to "Ponowna nauka",
     "Forgotten before" to "Zapominane",
     "First time" to "Pierwszy raz",
