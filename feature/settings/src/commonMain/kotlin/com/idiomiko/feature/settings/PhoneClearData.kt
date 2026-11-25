@@ -50,7 +50,6 @@ internal fun PhoneClearDataScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         ScrollColumn(Modifier.padding(padding).fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            Text(tr("Remove your learning data and downloaded files from this device. Your preferences stay."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
             AppCard {
                 CardHeader(tr("Will be removed"), tr("Everything you added, learned or downloaded."), icon = AppIcons.RemoveCircle, tint = colors.error, size = CardHeaderSize.Dense)
                 AppDivider(Modifier.padding(vertical = AppSpacing.l))

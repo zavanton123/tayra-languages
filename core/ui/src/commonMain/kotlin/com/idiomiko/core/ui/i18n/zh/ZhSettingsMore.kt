@@ -230,7 +230,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     // ClearDataScreen.kt
     "Clear data" to "清除数据",
     "Clear local data" to "清除本地数据",
-    "Remove your learning data and downloaded files from this device. Your preferences stay." to "从本设备删除你的学习数据和已下载的文件。偏好设置会保留。",
     "Will be removed" to "将被删除",
     "Everything you added, learned or downloaded." to "你添加、学习或下载的所有内容。",
     "Learning data" to "学习数据",
@@ -250,7 +249,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Create a recovery file in case you change your mind." to "创建一个恢复文件，以防你改变主意。",
     "Create backup" to "创建备份",
     "This action is permanent" to "此操作不可逆",
-    "Cleared data cannot be recovered unless you created a backup." to "除非已创建备份，否则清除的数据无法恢复。",
     "Clearing…" to "正在清除…",
     "This takes a moment; the items above show how far it is." to "这需要一点时间；上方各项会显示进度。",
     "Everything was cleared" to "已全部清除",

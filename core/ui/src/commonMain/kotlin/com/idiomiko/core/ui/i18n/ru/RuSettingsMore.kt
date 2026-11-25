@@ -230,7 +230,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     // ClearDataScreen.kt
     "Clear data" to "Очистить данные",
     "Clear local data" to "Очистить данные на устройстве",
-    "Remove your learning data and downloaded files from this device. Your preferences stay." to "Удалите учебные данные и скачанные файлы с этого устройства. Настройки останутся.",
     "Will be removed" to "Будет удалено",
     "Everything you added, learned or downloaded." to "Всё, что вы добавили, выучили или скачали.",
     "Learning data" to "Учебные данные",
@@ -250,7 +249,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Create a recovery file in case you change your mind." to "Создайте файл для восстановления на случай, если передумаете.",
     "Create backup" to "Создать копию",
     "This action is permanent" to "Это действие необратимо",
-    "Cleared data cannot be recovered unless you created a backup." to "Удалённые данные нельзя вернуть без резервной копии.",
     "Clearing…" to "Удаление…",
     "This takes a moment; the items above show how far it is." to "Это займёт немного времени; пункты выше показывают ход удаления.",
     "Everything was cleared" to "Всё удалено",

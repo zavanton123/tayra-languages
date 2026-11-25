@@ -230,7 +230,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     // ClearDataScreen.kt
     "Clear data" to "Διαγραφή δεδομένων",
     "Clear local data" to "Διαγραφή τοπικών δεδομένων",
-    "Remove your learning data and downloaded files from this device. Your preferences stay." to "Αφαιρέστε τα δεδομένα μελέτης και τα αρχεία που έχουν ληφθεί από αυτή τη συσκευή. Οι προτιμήσεις σας παραμένουν.",
     "Will be removed" to "Θα αφαιρεθούν",
     "Everything you added, learned or downloaded." to "Όλα όσα προσθέσατε, μάθατε ή κατεβάσατε.",
     "Learning data" to "Δεδομένα μελέτης",
@@ -250,7 +249,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Create a recovery file in case you change your mind." to "Δημιουργήστε ένα αρχείο ανάκτησης σε περίπτωση που αλλάξετε γνώμη.",
     "Create backup" to "Δημιουργία αντιγράφου",
     "This action is permanent" to "Αυτή η ενέργεια είναι οριστική",
-    "Cleared data cannot be recovered unless you created a backup." to "Τα διαγραμμένα δεδομένα δεν ανακτώνται, εκτός αν έχετε δημιουργήσει αντίγραφο ασφαλείας.",
     "Clearing…" to "Διαγραφή…",
     "This takes a moment; the items above show how far it is." to "Θα χρειαστεί λίγος χρόνος· τα στοιχεία παραπάνω δείχνουν την πρόοδο.",
     "Everything was cleared" to "Όλα διαγράφηκαν",

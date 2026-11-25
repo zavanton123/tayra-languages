@@ -230,7 +230,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     // ClearDataScreen.kt
     "Clear data" to "Effacer les données",
     "Clear local data" to "Effacer les données locales",
-    "Remove your learning data and downloaded files from this device. Your preferences stay." to "Supprimez vos données d’apprentissage et les fichiers téléchargés de cet appareil. Vos préférences sont conservées.",
     "Will be removed" to "Sera supprimé",
     "Everything you added, learned or downloaded." to "Tout ce que vous avez ajouté, appris ou téléchargé.",
     "Learning data" to "Données d’apprentissage",
@@ -250,7 +249,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Create a recovery file in case you change your mind." to "Créez un fichier de récupération au cas où vous changeriez d’avis.",
     "Create backup" to "Créer une sauvegarde",
     "This action is permanent" to "Cette action est définitive",
-    "Cleared data cannot be recovered unless you created a backup." to "Les données effacées ne peuvent pas être récupérées sans sauvegarde.",
     "Clearing…" to "Effacement…",
     "This takes a moment; the items above show how far it is." to "Cela prend un moment ; les éléments ci-dessus indiquent l’avancement.",
     "Everything was cleared" to "Tout a été effacé",

@@ -166,7 +166,7 @@ internal fun ClearDataContent(state: ClearDataUiState, onClear: () -> Unit, onBa
     val wide = LocalWindowWidth.current.isExpanded
     var confirming by remember { mutableStateOf(false) }
 
-    ScreenHeader(tr("Clear local data"), tr("Remove your learning data and downloaded files from this device. Your preferences stay."), onBackToSettings = onBack)
+    ScreenHeader(tr("Clear local data"), null, onBackToSettings = onBack)
     Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxl)) {
         if (wide) {
             Row(Modifier.height(IntrinsicSize.Min)) {
@@ -224,11 +224,11 @@ private fun clearStatusTitle(state: ClearDataUiState): String = when {
 }
 
 @Composable
-private fun clearStatusText(state: ClearDataUiState): String = when {
+private fun clearStatusText(state: ClearDataUiState): String? = when {
     state.done && state.problems.isEmpty() -> tr("Your library is empty and the downloads are gone. Your preferences stay as they were.")
     state.done -> tr("The rest is gone. You can try again later from here or from their Settings pages.")
     state.started -> tr("This takes a moment; the items above show how far it is.")
-    else -> tr("Cleared data cannot be recovered unless you created a backup.")
+    else -> null
 }
 
 @Composable

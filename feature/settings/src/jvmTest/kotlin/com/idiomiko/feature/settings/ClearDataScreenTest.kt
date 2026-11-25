@@ -80,7 +80,7 @@ class ClearDataScreenTest {
         onNodeWithTag("settings-section-CLEAR_DATA").assertIsSelected()
         onNodeWithTag("settings-section-BACKUPS").assertIsNotSelected()
         for (text in listOf(
-            "Clear local data", "Remove your learning data and downloaded files from this device. Your preferences stay.",
+            "Clear local data",
             "Will be removed", "Learning data", "Offline content", "Cached audio",
             "Will remain", "Backup files", "Installed engines",
             "Back up before clearing", "This action is permanent", "Cancel", "Clear all data",
