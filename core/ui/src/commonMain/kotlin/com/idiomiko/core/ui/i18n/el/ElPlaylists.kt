@@ -44,7 +44,6 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Collect texts to listen to one after another." to "Συγκεντρώστε κείμενα για να τα ακούσετε το ένα μετά το άλλο.",
     "Change what the playlist is called, what it is for and its cover." to "Αλλάξτε το όνομα της λίστας αναπαραγωγής, τον σκοπό της και το εξώφυλλό της.",
     "The texts are changed on the playlist's page." to "Τα κείμενα αλλάζουν στη σελίδα της λίστας αναπαραγωγής.",
-    "You can add, remove and reorder texts later." to "Μπορείτε να προσθέσετε, να αφαιρέσετε και να αναδιατάξετε κείμενα αργότερα.",
     "Add {0} texts" to "Προσθήκη {0} κειμένου|Προσθήκη {0} κειμένων",
     "Playlist details" to "Στοιχεία λίστας αναπαραγωγής",
     "For example: Morning practice" to "Για παράδειγμα: Πρωινή εξάσκηση",

@@ -226,12 +226,16 @@ private fun FormFooter(state: PlaylistFormUiState, onCancel: () -> Unit, onSave:
     val compact = LocalWindowWidth.current.isCompact
     Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
         if (!compact) {
-            Text(
-                if (state.mode is PlaylistFormMode.Edit) tr("The texts are changed on the playlist's page.") else tr("You can add, remove and reorder texts later."),
-                Modifier.weight(1f),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+            if (state.mode is PlaylistFormMode.Edit) {
+                Text(
+                    tr("The texts are changed on the playlist's page."),
+                    Modifier.weight(1f),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            } else {
+                Spacer(Modifier.weight(1f))
+            }
         }
         SecondaryButton(tr("Cancel"), onClick = onCancel, modifier = if (compact) Modifier.weight(1f) else Modifier)
         PrimaryButton(

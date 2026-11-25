@@ -44,7 +44,6 @@ internal val esPlaylists: Map<String, String> = mapOf(
     "Collect texts to listen to one after another." to "Reúne textos para escucharlos uno tras otro.",
     "Change what the playlist is called, what it is for and its cover." to "Cambia el nombre, la finalidad y la portada de la lista de reproducción.",
     "The texts are changed on the playlist's page." to "Los textos se cambian en la página de la lista de reproducción.",
-    "You can add, remove and reorder texts later." to "Puedes añadir, quitar y reordenar los textos más adelante.",
     "Add {0} texts" to "Añadir {0} texto|Añadir {0} textos",
     "Playlist details" to "Detalles de la lista de reproducción",
     "For example: Morning practice" to "Por ejemplo: práctica matinal",

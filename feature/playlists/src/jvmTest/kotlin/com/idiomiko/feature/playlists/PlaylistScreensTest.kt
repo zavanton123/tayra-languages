@@ -475,6 +475,7 @@ class PlaylistScreensTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Texto 19")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("form-save").assertIsDisplayed()
         onNodeWithText("Cancel").assertIsDisplayed()
+        assertTrue(onAllNodes(hasText("reorder texts later", substring = true)).fetchSemanticsNodes().isEmpty())
         screenshot("playlist-add-texts")
     }
 
