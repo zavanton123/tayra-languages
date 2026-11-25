@@ -227,11 +227,11 @@ private fun GoalSummary(goal: DailyGoal, ring: Dp, actions: HomeActions, today: 
     }
 }
 
-/** The day's minutes against the goal as a ring, the minutes in its middle; green once the goal is reached. */
+/** The day's minutes against the goal as a green ring, the minutes in its middle. */
 @Composable
 private fun GoalRing(goal: DailyGoal, ring: Dp) {
     val track = MaterialTheme.colorScheme.onSurface.copy(alpha = AppAlpha.tint)
-    val fill = if (goal.reached) AppAccents.green else MaterialTheme.colorScheme.primary
+    val fill = AppAccents.green
     Box(Modifier.size(ring), contentAlignment = Alignment.Center) {
         Canvas(Modifier.size(ring)) {
             val stroke = RING_STROKE.toPx()
