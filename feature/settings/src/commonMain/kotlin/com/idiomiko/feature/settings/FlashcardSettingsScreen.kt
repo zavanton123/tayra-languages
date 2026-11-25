@@ -108,7 +108,7 @@ fun FlashcardSettingsScreen(
                 }
                 if (wide) {
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-                        Column(Modifier.weight(1.45f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                             LimitsCard(settings, viewModel)
                             SchedulingCard(settings, viewModel, retention)
                             personal?.let { PersonalSchedulingCard(it) }
