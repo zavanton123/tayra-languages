@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -390,7 +389,6 @@ private fun ContinueRow(
         }
         if (trailing != null) Text(trailing, style = if (compact) AppText.label else AppText.emphasis, color = colors.onSurfaceVariant)
         if (!compact && progress != null) ProgressTrack(progress, tint, Modifier.width(ROW_BAR_WIDTH), height = AppSizes.trackThick)
-        Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconMedium))
     }
 }
 
