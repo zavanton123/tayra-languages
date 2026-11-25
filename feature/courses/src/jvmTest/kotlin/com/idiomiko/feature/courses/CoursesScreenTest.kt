@@ -174,10 +174,10 @@ class CoursesScreenTest {
         onNodeWithTag("course-pt-mini-0100").assertIsDisplayed()
         assertTrue(!exists("course-pt-mini-0400"), "the other levels wait folded")
 
-        // The search looks in lesson titles too, and shows the matches instead of the journey.
+        // The search looks in lesson titles too, and shows the matches instead of the levels.
         onNodeWithTag("course-search").performTextInput("O prêmio da Clara")
         waitUntil(timeoutMillis = 5_000) { exists("result-count") && count() == "1 course" }
-        assertTrue(exists("course-pt-mini-0800") && !exists("next-lesson"))
+        assertTrue(exists("course-pt-mini-0800") && exists("next-lesson"), "the matches, under the next lesson that keeps its place")
         onNodeWithTag("course-search").performTextClearance()
         waitFor("next-lesson")
 

@@ -185,7 +185,7 @@ class CoursesJourneyTest {
         page(JourneyFixture.underWay().copy(search = "Lugares"), CoursesActions(onClearFilters = { cleared++ }))
         onNodeWithTag("result-count").assertTextEquals("1 course")
         onNodeWithTag("course-pt-mini-1900").assertIsDisplayed()
-        assertTrue(!exists("next-lesson"), "results come first")
+        assertTrue(exists("next-lesson"), "the next lesson stays above the search, so the search keeps its place")
         onNodeWithTag("clear-filters").performClick()
         assertEquals(1, cleared)
     }

@@ -212,6 +212,8 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
             verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
         ) {
             ScreenHeader(tr("Courses"), subtitle = null)
+            // The next lesson comes first, above the journey and the search, and stays while searching so the search keeps its place.
+            BoxWithConstraints(Modifier.fillMaxWidth()) { NextLesson(state, actions, compact = false, picture = maxWidth >= PICTURE_WIDTH) }
             CoursesTopPane(state, actions, onLevel = { nav.goTo(it, state.journey) })
             BoxWithConstraints(Modifier.fillMaxWidth()) {
                 val columns = when {
@@ -220,18 +222,32 @@ internal fun CoursesContent(state: CoursesUiState, actions: CoursesActions, modi
                     maxWidth >= THREE_COLUMNS -> 3
                     else -> 2
                 }
-                Catalogue(state, actions, nav, columns, compact = false, picture = maxWidth >= PICTURE_WIDTH)
+                Catalogue(state, actions, nav, columns, compact = false, picture = maxWidth >= PICTURE_WIDTH, nextLesson = false)
             }
         }
     }
 }
 
+/** The lesson to go on with, with its course's other lessons, when there is one. */
+@Composable
+private fun NextLesson(state: CoursesUiState, actions: CoursesActions, compact: Boolean, picture: Boolean) {
+    val next = state.nextLesson ?: return
+    NextLessonHero(
+        next,
+        onStart = { actions.onOpenLesson(next.course, next.lesson.lesson.id) },
+        onOpenLesson = { actions.onOpenLesson(next.course, it) },
+        onAllLessons = { actions.onOpen(next.course.course.id) },
+        compact = compact,
+        picture = picture,
+    )
+}
+
 /**
- * The page's main column below its header: the next lesson, then the reader's level with its courses, the finished
- * levels in one line, and the other levels to open. A search, a filter or another order shows the matching courses instead.
+ * The page's main column below its header: the next lesson unless [nextLesson] is false (shown above instead), then the
+ * reader's level with its courses, the finished levels in one line, and the other levels to open. A search, a filter or another order shows the matching courses instead.
  */
 @Composable
-internal fun Catalogue(state: CoursesUiState, actions: CoursesActions, nav: JourneyNav, columns: Int, compact: Boolean, picture: Boolean) {
+internal fun Catalogue(state: CoursesUiState, actions: CoursesActions, nav: JourneyNav, columns: Int, compact: Boolean, picture: Boolean, nextLesson: Boolean = true) {
     val colors = MaterialTheme.colorScheme
     val upNext = state.suggested ?: state.nextLesson?.course?.takeIf { it.status == LessonStatus.NOT_STARTED }
     val pinOf: (CourseProgress) -> TilePin? = { progress ->
@@ -251,16 +267,7 @@ internal fun Catalogue(state: CoursesUiState, actions: CoursesActions, nav: Jour
             Results(state, actions, items)
             return@Column
         }
-        state.nextLesson?.let { next ->
-            NextLessonHero(
-                next,
-                onStart = { actions.onOpenLesson(next.course, next.lesson.lesson.id) },
-                onOpenLesson = { actions.onOpenLesson(next.course, it) },
-                onAllLessons = { actions.onOpen(next.course.course.id) },
-                compact = compact,
-                picture = picture,
-            )
-        }
+        if (nextLesson) NextLesson(state, actions, compact, picture)
         val journey = state.journey
         val byLevel = state.courses.groupBy { it.course.level }
         journey.currentProgress?.let { level ->
