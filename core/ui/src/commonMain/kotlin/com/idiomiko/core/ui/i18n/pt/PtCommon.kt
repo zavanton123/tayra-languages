@@ -206,7 +206,6 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Your fonts" to "Suas fontes",
     "Words you mark as Learning while reading get a card, and their figures show here." to "As palavras que você marca como Aprendendo durante a leitura ganham um cartão, e os números delas aparecem aqui.",
     "Words you mark as Learning while reading get a card here." to "As palavras que você marca como Aprendendo durante a leitura ganham um cartão aqui.",
-    "Words you mark as Learning while reading get a card here. More cards are due as their reviews come round." to "As palavras que você marca como Aprendendo durante a leitura ganham um cartão aqui. Mais cartões vencem conforme chegam as revisões.",
     "Practice uses the words you are learning: mark some words in the text as Learning first." to "A prática usa as palavras que você está aprendendo: marque primeiro algumas palavras do texto como Aprendendo.",
     "Practice uses the words you are learning: mark some words on the page as Learning first." to "A prática usa as palavras que você está aprendendo: marque primeiro algumas palavras da página como Aprendendo.",
     "This term has no flashcard. Terms marked Learning get one." to "Este termo não tem cartão. Os termos marcados como Aprendendo ganham um.",

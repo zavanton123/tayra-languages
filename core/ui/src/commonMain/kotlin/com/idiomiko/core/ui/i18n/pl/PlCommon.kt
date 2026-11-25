@@ -206,7 +206,6 @@ internal val plCommon: Map<String, String> = mapOf(
     "Your fonts" to "Twoje czcionki",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Słowa, które podczas czytania oznaczasz jako W nauce, dostają fiszkę, a ich liczby pojawiają się tutaj.",
     "Words you mark as Learning while reading get a card here." to "Słowa, które podczas czytania oznaczasz jako W nauce, dostają tutaj fiszkę.",
-    "Words you mark as Learning while reading get a card here. More cards are due as their reviews come round." to "Słowa, które podczas czytania oznaczasz jako W nauce, dostają tutaj fiszkę. Kolejne fiszki pojawiają się, gdy nadchodzą ich powtórki.",
     "Practice uses the words you are learning: mark some words in the text as Learning first." to "Ćwiczenia korzystają ze słów, których się uczysz: najpierw oznacz kilka słów w tekście jako W nauce.",
     "Practice uses the words you are learning: mark some words on the page as Learning first." to "Ćwiczenia korzystają ze słów, których się uczysz: najpierw oznacz kilka słów na stronie jako W nauce.",
     "This term has no flashcard. Terms marked Learning get one." to "To wyrażenie nie ma fiszki. Mają ją wyrażenia oznaczone jako W nauce.",

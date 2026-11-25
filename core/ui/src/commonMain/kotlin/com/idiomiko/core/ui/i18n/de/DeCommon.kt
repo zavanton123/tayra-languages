@@ -206,7 +206,6 @@ internal val deCommon: Map<String, String> = mapOf(
     "Your fonts" to "Eigene Schriften",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Wörter, die du beim Lesen als Lernend markierst, bekommen eine Karte, und ihre Zahlen erscheinen hier.",
     "Words you mark as Learning while reading get a card here." to "Wörter, die du beim Lesen als Lernend markierst, bekommen hier eine Karte.",
-    "Words you mark as Learning while reading get a card here. More cards are due as their reviews come round." to "Wörter, die du beim Lesen als Lernend markierst, bekommen hier eine Karte. Weitere Karten werden fällig, wenn ihre Wiederholungen anstehen.",
     "Practice uses the words you are learning: mark some words in the text as Learning first." to "Das Üben nutzt die Wörter, die du lernst: Markiere zuerst einige Wörter im Text als Lernend.",
     "Practice uses the words you are learning: mark some words on the page as Learning first." to "Das Üben nutzt die Wörter, die du lernst: Markiere zuerst einige Wörter auf der Seite als Lernend.",
     "This term has no flashcard. Terms marked Learning get one." to "Dieser Begriff hat keine Karteikarte. Als Lernend markierte Begriffe bekommen eine.",

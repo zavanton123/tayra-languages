@@ -206,7 +206,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Your fonts" to "你的字体",
     "Words you mark as Learning while reading get a card, and their figures show here." to "阅读时标为“学习中”的词会生成卡片，其统计数据显示在这里。",
     "Words you mark as Learning while reading get a card here." to "阅读时标为“学习中”的词会在这里生成卡片。",
-    "Words you mark as Learning while reading get a card here. More cards are due as their reviews come round." to "阅读时标为“学习中”的词会在这里生成卡片。随着复习时间到来，会有更多卡片到期。",
     "Practice uses the words you are learning: mark some words in the text as Learning first." to "练习使用你正在学习的词：请先把文本中的一些词标为“学习中”。",
     "Practice uses the words you are learning: mark some words on the page as Learning first." to "练习使用你正在学习的词：请先把本页的一些词标为“学习中”。",
     "This term has no flashcard. Terms marked Learning get one." to "这个词没有卡片。标为“学习中”的词会有卡片。",

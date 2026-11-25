@@ -206,7 +206,6 @@ internal val elCommon: Map<String, String> = mapOf(
     "Your fonts" to "Οι γραμματοσειρές σας",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Οι λέξεις που σημειώνετε ως «Σε εκμάθηση» καθώς διαβάζετε παίρνουν κάρτα, και τα στοιχεία τους εμφανίζονται εδώ.",
     "Words you mark as Learning while reading get a card here." to "Οι λέξεις που σημειώνετε ως «Σε εκμάθηση» καθώς διαβάζετε παίρνουν κάρτα εδώ.",
-    "Words you mark as Learning while reading get a card here. More cards are due as their reviews come round." to "Οι λέξεις που σημειώνετε ως «Σε εκμάθηση» καθώς διαβάζετε παίρνουν κάρτα εδώ. Περισσότερες κάρτες έρχονται καθώς φτάνουν οι επαναλήψεις τους.",
     "Practice uses the words you are learning: mark some words in the text as Learning first." to "Η εξάσκηση χρησιμοποιεί τις λέξεις που μαθαίνετε: σημειώστε πρώτα μερικές λέξεις του κειμένου ως «Σε εκμάθηση».",
     "Practice uses the words you are learning: mark some words on the page as Learning first." to "Η εξάσκηση χρησιμοποιεί τις λέξεις που μαθαίνετε: σημειώστε πρώτα μερικές λέξεις της σελίδας ως «Σε εκμάθηση».",
     "This term has no flashcard. Terms marked Learning get one." to "Αυτός ο όρος δεν έχει κάρτα. Οι όροι που σημειώνονται ως «Σε εκμάθηση» έχουν.",

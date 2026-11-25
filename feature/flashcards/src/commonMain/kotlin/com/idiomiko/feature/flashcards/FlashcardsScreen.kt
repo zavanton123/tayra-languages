@@ -1,6 +1,5 @@
 package com.idiomiko.feature.flashcards
 
-import com.idiomiko.core.ui.components.learningLevels
 import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -1100,10 +1099,9 @@ private fun Finished(state: FlashcardsUiState, actions: FlashcardActions) {
         val detail = when {
             waiting != null -> tr("A card you are learning comes back at {0}.", clockTime(waiting))
             state.answered > 0 -> trPlural(state.answered, "You answered {0} card. Come back tomorrow for more.", "You answered {0} cards. Come back tomorrow for more.")
-            learningLevels -> tr("Words you give a status of 1 to 4 while reading get a card here. More cards are due as their reviews come round.")
-            else -> tr("Words you mark as Learning while reading get a card here. More cards are due as their reviews come round.")
+            else -> null
         }
-        Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+        if (detail != null) Text(detail, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         // Reading is where new cards come from, so it is the way on: back into the text read last, or to the books.
         val reading = state.reading
         if (reading != null) {
