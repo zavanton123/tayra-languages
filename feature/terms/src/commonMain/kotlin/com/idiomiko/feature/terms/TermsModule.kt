@@ -2,7 +2,7 @@ package com.idiomiko.feature.terms
 
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
-import androidx.compose.ui.window.DialogProperties
+import com.idiomiko.core.ui.components.screenDialogProperties
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.dialog
 import androidx.navigation.toRoute
@@ -40,7 +40,7 @@ fun NavGraphBuilder.termsGraph(navController: NavController) {
         TermsScreen(termIds = termIds, onNavigate = navigate, onBack = if (termIds != null) ({ navController.popBackStack() }) else null)
     }
     // The editor opens over the screen it was opened from; a click beside it keeps what is being typed.
-    val editor = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = false)
+    val editor = screenDialogProperties(dismissOnClickOutside = false)
     val close = { navController.popBackStack(); Unit }
     dialog<Route.EditTerm>(dialogProperties = editor) { entry ->
         val route = entry.toRoute<Route.EditTerm>()

@@ -96,7 +96,10 @@ fun AppDialogSurface(
  */
 @Composable
 fun AppFullScreenDialog(content: @Composable () -> Unit) {
-    Dialog(onDismissRequest = {}, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnBackPress = false, dismissOnClickOutside = false), content = content)
+    Dialog(onDismissRequest = {}, properties = screenDialogProperties(dismissOnBackPress = false, dismissOnClickOutside = false)) {
+        ScreenDialogBars()
+        content()
+    }
 }
 
 /** [AppDialogSurface]'s card for a dialog window made elsewhere, such as a navigation destination's. */
@@ -118,7 +121,8 @@ fun DialogCard(
 @Composable
 fun AppScreenDialog(onDismissRequest: () -> Unit, modifier: Modifier = Modifier, content: @Composable () -> Unit) {
     val titleBar = LocalTitleBarInset.current
-    Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+    Dialog(onDismissRequest = onDismissRequest, properties = screenDialogProperties()) {
+        ScreenDialogBars()
         Surface(modifier.fillMaxSize(), color = MaterialTheme.colorScheme.surface) {
             Box(Modifier.padding(top = titleBar).windowInsetsPadding(WindowInsets.safeDrawing)) { content() }
         }

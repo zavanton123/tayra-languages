@@ -40,6 +40,7 @@ import com.idiomiko.core.ui.components.Crumb
 import com.idiomiko.core.ui.components.DialogCard
 import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.ScreenDialogBars
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
@@ -65,6 +66,7 @@ fun TermEditDestination(
     onOpenParent: (languageId: Long, text: String) -> Unit,
 ) {
     if (LocalWindowWidth.current.isCompact) {
+        ScreenDialogBars()
         Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).windowInsetsPadding(WindowInsets.safeDrawing)) {
             TermEditScreen(key, onNavigate, onClose, onClose, onOpenParent)
         }
