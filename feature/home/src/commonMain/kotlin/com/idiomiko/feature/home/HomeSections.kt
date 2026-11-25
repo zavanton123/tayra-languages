@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -32,14 +33,12 @@ import com.idiomiko.core.domain.home.knownPercent
 import com.idiomiko.core.domain.stats.SavedWord
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppTooltip
-import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.CardHeader
 import com.idiomiko.core.ui.components.CardHeaderSize
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.ProgressTrack
-import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.StudyActivityCard
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.inLearnedScript
@@ -150,8 +149,8 @@ internal fun VocabularyRow(actions: HomeActions, modifier: Modifier = Modifier) 
     }
 }
 
-/** What [RecommendedCard] offers: a title, what makes it fit, where it leads and where the button browses for more. */
-private class Recommendation(val title: String, val detail: String, val tag: String, val open: Route, val browse: String, val browseTo: Route)
+/** What [RecommendedCard] offers: a title, what makes it fit and where it leads. */
+private class Recommendation(val title: String, val detail: String, val tag: String, val open: Route)
 
 /**
  * One thing that suits the reader's level: the course whose words go just past those known, or failing that a
@@ -166,26 +165,23 @@ private fun recommendation(state: HomeUiState): Recommendation? {
         return Recommendation(
             course.course.title.inLearnedScript(),
             listOfNotNull(course.course.level.code, rank?.let { tr("Words up to rank {0}", formatCount(it)) }).joinToString(" · "),
-            "suggested-course", Route.Course(course.course.id), tr("Browse courses"), Route.Courses,
+            "suggested-course", Route.Course(course.course.id),
         )
     }
     val book = state.suggestedBooks.firstOrNull() ?: return null
     return Recommendation(
         book.title.inLearnedScript(),
         listOfNotNull(book.knownPercent?.let { tr("{0}% known", it) }, pageLine(book)).joinToString(" · "),
-        "suggested-book-${book.id}", Route.Read(book.id), tr("Browse books"), Route.Books,
+        "suggested-book-${book.id}", Route.Read(book.id),
     )
 }
 
-/** The recommendation for the reader's level, which opens on a click, with a way to browse for others beside it. */
+/** The recommendation for the reader's level, which opens on a click. */
 @Composable
 internal fun RecommendedCard(state: HomeUiState, actions: HomeActions, modifier: Modifier = Modifier) {
     val pick = recommendation(state) ?: return
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
-    val browse = @Composable { m: Modifier ->
-        SecondaryButton(pick.browse, onClick = { actions.onNavigate(pick.browseTo) }, modifier = m.testTag("suggestions-browse"), size = ButtonSize.Large, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward)
-    }
     val about = @Composable { m: Modifier ->
         Row(
             m.clip(AppShapes.control).clickable { actions.onNavigate(pick.open) }.testTag(pick.tag),
@@ -200,18 +196,8 @@ internal fun RecommendedCard(state: HomeUiState, actions: HomeActions, modifier:
             }
         }
     }
-    val card = modifier.testTag("suggestions").fillMaxWidth().cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl)
-    // A phone has no room for the button beside the words: it goes under them.
-    if (compact) {
-        Column(card, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-            about(Modifier.fillMaxWidth())
-            browse(Modifier.fillMaxWidth())
-        }
-    } else {
-        Row(card, verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-            about(Modifier.weight(1f))
-            browse(Modifier)
-        }
+    Box(modifier.testTag("suggestions").fillMaxWidth().cardSurface(AppShapes.card).padding(if (compact) AppSpacing.l else AppSpacing.xl)) {
+        about(Modifier.fillMaxWidth())
     }
 }
 

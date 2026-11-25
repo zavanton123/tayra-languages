@@ -299,14 +299,14 @@ class HomeScreenTest {
         onNodeWithTag("row-book").performClick()
         onNodeWithTag("row-playlist").performClick()
         assertEquals(0, onAllNodesWithTag("row-flashcards").fetchSemanticsNodes().size)
-        // The level: the words known against the next milestone, and one course recommended for it, with the others a click away.
+        // The level: the words known against the next milestone, and one course recommended for it.
         onNodeWithText("76% of the 2,000 most common words").assertExists()
         onNodeWithText("Next milestone: 2,000").assertExists()
         onNodeWithText("RECOMMENDED FOR YOU").assertExists()
         onNodeWithText("A2 · Words up to rank 1,600").assertExists()
         assertEquals(0, onAllNodesWithTag("suggested-book-8").fetchSemanticsNodes().size)
         onNodeWithTag("suggested-course").performClick()
-        onNodeWithTag("suggestions-browse").performClick()
+        onNodeWithTag("suggestions-browse").assertDoesNotExist()
         // A word saved in a sentence opens in it, on its card; one without, on its own.
         onNodeWithTag("recent-word-20").performClick()
         onNodeWithTag("recent-word-21").performClick()
@@ -316,7 +316,7 @@ class HomeScreenTest {
         assertEquals(listOf("pt-mini-0100-l3"), opened)
         assertEquals(1, listened)
         assertEquals(
-            listOf(Route.Flashcards(limit = 20), Route.Flashcards(), Route.Read(7), Route.Course("pt-mini-1600"), Route.Courses, Route.BrowseFlashcards(20), Route.EditTerm(21), Route.Stats),
+            listOf(Route.Flashcards(limit = 20), Route.Flashcards(), Route.Read(7), Route.Course("pt-mini-1600"), Route.BrowseFlashcards(20), Route.EditTerm(21), Route.Stats),
             visited,
         )
         // The two columns end level: the recommendation grows to the activity's foot.
@@ -500,7 +500,7 @@ class HomeScreenTest {
         assertEquals(listOf<Route>(Route.Goals), visited)
     }
 
-    /** With no course for the level, a book the reader mostly knows is recommended instead, with the books a click away. */
+    /** With no course for the level, a book the reader mostly knows is recommended instead. */
     @Test
     fun aBookIsRecommendedWhenNoCourseFits() = runDesktopComposeUiTest(width = 1586, height = 1500) {
         val visited = mutableListOf<Route>()
@@ -508,8 +508,7 @@ class HomeScreenTest {
         onNodeWithText("Contos curtos").assertExists()
         onNodeWithText("94% known · Page 1 of 12").assertExists()
         onNodeWithTag("suggested-book-8").performClick()
-        onNodeWithTag("suggestions-browse").performClick()
-        assertEquals(listOf(Route.Read(8), Route.Books), visited)
+        assertEquals(listOf<Route>(Route.Read(8)), visited)
     }
 
     /** The greeting follows the time of day, in the language being learned where the app knows it, else in the interface's. */
