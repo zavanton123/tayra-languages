@@ -378,7 +378,6 @@ internal val frCourses: Map<String, String> = mapOf(
     "Picked for your {1} words" to "Choisi pour votre {1} mot|Choisis pour vos {1} mots",
     "with audio" to "avec audio",
     "Start lesson" to "Commencer la leçon",
-    "Continue lesson" to "Continuer la leçon",
     "All lessons" to "Toutes les leçons",
     "Lesson {0}" to "Leçon {0}",
     "{0} complete" to "{0} terminé",

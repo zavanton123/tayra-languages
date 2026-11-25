@@ -378,7 +378,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "Picked for your {1} words" to "根据你已知的 {1} 个词挑选",
     "with audio" to "含音频",
     "Start lesson" to "开始课文",
-    "Continue lesson" to "继续课文",
     "All lessons" to "全部课文",
     "Lesson {0}" to "第 {0} 篇",
     "{0} complete" to "{0} 已完成",

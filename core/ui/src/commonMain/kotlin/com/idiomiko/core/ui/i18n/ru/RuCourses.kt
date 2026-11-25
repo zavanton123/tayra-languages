@@ -378,7 +378,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "Picked for your {1} words" to "Подобрано под {1} известное вам слово|Подобрано под {1} известных вам слова|Подобрано под {1} известных вам слов",
     "with audio" to "с аудио",
     "Start lesson" to "Начать урок",
-    "Continue lesson" to "Продолжить урок",
     "All lessons" to "Все уроки",
     "Lesson {0}" to "Урок {0}",
     "{0} complete" to "{0} пройден",

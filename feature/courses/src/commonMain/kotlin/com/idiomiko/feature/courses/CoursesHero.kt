@@ -85,7 +85,7 @@ internal fun NextLessonHero(next: NextUp.Lesson, onStart: () -> Unit, onOpenLess
     val path: @Composable () -> Unit = { LessonPath(next.course.lessons, next.lesson, onOpenLesson, compact) }
     val buttons: @Composable () -> Unit = {
         PrimaryButton(
-            if (reading) tr("Continue lesson") else tr("Start lesson"),
+            if (reading) tr("Continue") else tr("Start lesson"),
             onClick = onStart,
             modifier = Modifier.testTag("start-lesson").then(if (compact) Modifier.fillMaxWidth() else Modifier),
             size = ButtonSize.Large,

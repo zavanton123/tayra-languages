@@ -91,7 +91,7 @@ class CoursesJourneyTest {
         onNodeWithText("KEEP GOING · LUGARES DO BRASIL").assertExists()
         onNodeWithText("Lesson 4: Uma excursão a Brasília", substring = true).assertExists()
         onNodeWithText("with audio", substring = true).assertExists()
-        onNodeWithText("Continue lesson").assertExists()
+        onNodeWithText("Continue").assertExists()
         assertTrue(exists("hero-scene"), "a wide card has its picture")
         // B1's courses: the one under way and the one picked next marked, the others with the share known.
         onNodeWithText("Picked for your 1,540 words").assertExists()
