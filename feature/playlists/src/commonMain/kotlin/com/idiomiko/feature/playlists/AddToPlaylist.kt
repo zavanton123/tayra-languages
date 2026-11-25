@@ -1,5 +1,6 @@
 package com.idiomiko.feature.playlists
 
+import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.components.ScrollColumn
 import androidx.compose.foundation.background
 import com.idiomiko.core.ui.components.SecondaryButton
@@ -138,7 +139,7 @@ private fun AddToPlaylistMenu(viewModel: AddToPlaylistViewModel, onCreate: () ->
                             Text(textCount(playlist.items.size), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
                         }
                         if (contains) {
-                            Box(Modifier.size(AppSizes.iconLarge).clip(AppShapes.circle).background(colors.primary), contentAlignment = Alignment.Center) {
+                            Box(Modifier.size(AppSizes.iconLarge).clip(AppShapes.circle).background(StatusTints.ok), contentAlignment = Alignment.Center) {
                                 Icon(Icons.Default.Check, contentDescription = tr("In this playlist"), tint = AppAccents.onAccent, modifier = Modifier.size(AppSizes.iconSmall))
                             }
                         } else {
