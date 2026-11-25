@@ -106,7 +106,6 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
     var editing by remember { mutableStateOf<HotkeyAction?>(null) }
     var query by remember { mutableStateOf("") }
     var confirmReset by remember { mutableStateOf(false) }
-    val compact = LocalWindowWidth.current.isCompact
     val conflicts = shortcutConflicts(hotkeys)
     val assign: (HotkeyAction, Hotkey?) -> Unit = { action, hotkey -> viewModel.update { it.copy(hotkeys = it.hotkeys + (action to hotkey)) } }
 
@@ -117,7 +116,7 @@ fun ShortcutsScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: 
         SettingsPane(SettingsSection.HOTKEYS, padding, onNavigate) { inner ->
             PageColumn(inner) {
                 ScreenHeader(tr("Hotkeys"), null, onBackToSettings = onBack) {
-                    HeaderButton(if (compact) tr("Reset") else tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
+                    HeaderButton(tr("Reset"), Icons.Default.Refresh, onClick = { confirmReset = true })
                 }
                 SearchBanner(query, onQuery = { query = it }, assigned = hotkeys.values.count { it != null }, conflicts = conflicts.size)
 
