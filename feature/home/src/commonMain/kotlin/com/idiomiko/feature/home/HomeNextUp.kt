@@ -85,10 +85,10 @@ internal fun NextUpCard(state: HomeUiState, actions: HomeActions, modifier: Modi
     val next = state.nextUp
     val view = view(next, actions)
     val compact = LocalWindowWidth.current.isCompact
-    // What led here: a first visit starts here, and a finished course is said before the next one.
+    // What led here: a finished course is said before the next one; a first visit's card needs no label.
     val finished = state.finishedCourse?.takeIf { next is NextUp.Lesson && !next.started }
     val label = when {
-        state.firstVisit -> tr("Start here")
+        state.firstVisit -> null
         finished != null -> tr("You finished {0}. Next:", finished.course.title.inLearnedScript())
         // A wide window's card needs no label: its picture and size say it comes first.
         compact -> tr("Next up")

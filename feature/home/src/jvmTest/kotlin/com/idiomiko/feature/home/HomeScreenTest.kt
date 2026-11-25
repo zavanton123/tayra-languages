@@ -413,7 +413,8 @@ class HomeScreenTest {
             suggestedCourse = nextBand, vocabulary = VocabularyProgress.of(0, List(5_000) { false }),
         )
         show(first, opened = opened, bar = true)
-        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Start here")).fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Start course")).fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodes(hasText("Start here")).fetchSemanticsNodes().size, "no label over the first course")
         picture("HOME_FIRST_SCREENSHOT")
         onNodeWithText("Arte e cultura").assertExists()
         onNodeWithText("Start course").assertExists()
