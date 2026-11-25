@@ -106,14 +106,30 @@ fun PlaylistFormScreen(
     val compact = LocalWindowWidth.current.isCompact
     Scaffold(
         topBar = { AppTopBar(title = mode.title, onNavigate = onNavigate, section = NavSection.PLAYLISTS, onBack = onCancel) },
-        bottomBar = { if (compact && !state.loading) BarSurface { Column { AppDivider(); FormFooter(state, onCancel, viewModel::save, Modifier.padding(horizontal = AppSpacing.l, vertical = AppSpacing.m)) } } },
+        bottomBar = {
+            if (!state.loading) {
+                BarSurface {
+                    Column {
+                        AppDivider()
+                        // On a wide screen the buttons line up with the form's card above them.
+                        val width = if (compact || !state.narrow) Modifier else Modifier.widthIn(max = AppSizes.readableWidth)
+                        FormFooter(
+                            state,
+                            onCancel,
+                            viewModel::save,
+                            Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = AppSpacing.m).then(width),
+                        )
+                    }
+                }
+            }
+        },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
             LoadingIndicator(Modifier.padding(padding))
             return@Scaffold
         }
-        PlaylistFormContent(state, viewModel, onCancel, Modifier.padding(padding))
+        PlaylistFormContent(state, viewModel, Modifier.padding(padding))
     }
 }
 
@@ -158,6 +174,9 @@ internal fun NewPlaylistDialog(viewModel: PlaylistFormViewModel, onCreated: (pla
     }
 }
 
+/** The form shows one column, held to a readable width. */
+private val PlaylistFormUiState.narrow: Boolean get() = !showsDetails || !showsTexts
+
 private val PlaylistFormMode.title: String
     get() = when (this) {
         is PlaylistFormMode.Create -> tr("Create playlist")
@@ -166,7 +185,7 @@ private val PlaylistFormMode.title: String
     }
 
 @Composable
-internal fun PlaylistFormContent(state: PlaylistFormUiState, viewModel: PlaylistFormViewModel, onCancel: () -> Unit, modifier: Modifier = Modifier) {
+internal fun PlaylistFormContent(state: PlaylistFormUiState, viewModel: PlaylistFormViewModel, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     ScrollColumn(
         modifier.fillMaxSize(),
@@ -188,15 +207,14 @@ internal fun PlaylistFormContent(state: PlaylistFormUiState, viewModel: Playlist
             if (state.showsDetails) Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { details(Modifier.fillMaxWidth()) }
             if (state.showsTexts) Box(Modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.l)) { texts(Modifier.fillMaxWidth()) }
         } else {
-            val narrow = !state.showsDetails || !state.showsTexts
-            Column(Modifier.then(if (narrow) Modifier.widthIn(max = AppSizes.readableWidth) else Modifier).fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxl)) {
-                Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
-                    if (state.showsDetails) details(Modifier.weight(1f))
-                    if (state.showsDetails && state.showsTexts) AppVerticalDivider(Modifier.fillMaxHeight())
-                    if (state.showsTexts) texts(Modifier.weight(1.15f))
-                }
-                AppDivider(Modifier.padding(vertical = AppSpacing.xl))
-                FormFooter(state, onCancel, viewModel::save)
+            Row(
+                Modifier.then(if (state.narrow) Modifier.widthIn(max = AppSizes.readableWidth) else Modifier).fillMaxWidth().height(IntrinsicSize.Min)
+                    .cardSurface(AppShapes.large).padding(AppSpacing.xxl),
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl),
+            ) {
+                if (state.showsDetails) details(Modifier.weight(1f))
+                if (state.showsDetails && state.showsTexts) AppVerticalDivider(Modifier.fillMaxHeight())
+                if (state.showsTexts) texts(Modifier.weight(1.15f))
             }
         }
     }

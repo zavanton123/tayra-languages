@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.test.assertIsSelected
 import androidx.compose.ui.test.assertTextContains
@@ -438,6 +439,27 @@ class PlaylistScreensTest {
         onNodeWithTag("form-save").performClick()
         waitUntil(timeoutMillis = 5_000) { created != null }
         assertEquals(data.course.lessons.map { it.title }, runBlocking { data.service.playlist(created!!)!!.items.map { it.title } })
+    }
+
+    /** However long the list of texts, the page's buttons stay in view on a wide screen as on a phone. */
+    @Test
+    fun theAddTextsButtonsStayInViewOverALongList() = runDesktopComposeUiTest(width = 1586, height = 900) {
+        val playlist = runBlocking { data.service.create(data.languageId, PlaylistDraft("Commute", "", cover = 0), emptyList()) }
+        repeat(20) { data.book("Texto $it", text) }
+        val viewModel = PlaylistFormViewModel(PlaylistFormMode.AddTexts(playlist), data.service, data.settings)
+        setContent {
+            IdiomikoTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(data.languageId to "Portuguese"), data.languageId) {}) {
+                        PlaylistFormScreen(PlaylistFormMode.AddTexts(playlist), onNavigate = {}, onSaved = {}, onCancel = {}, viewModel = viewModel)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Texto 19")).fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("form-save").assertIsDisplayed()
+        onNodeWithText("Cancel").assertIsDisplayed()
+        screenshot("playlist-add-texts")
     }
 
     @Test
