@@ -25,6 +25,7 @@ import androidx.compose.ui.test.performMouseInput
 import androidx.compose.ui.test.performTouchInput
 import androidx.compose.ui.test.performTextInput
 import androidx.compose.ui.test.runDesktopComposeUiTest
+import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.playlists.ListeningPosition
 import com.idiomiko.core.domain.playlists.PlayerStatus
@@ -126,6 +127,12 @@ class PlaylistScreensTest {
         onNodeWithTag("playlist-facts").assertTextContains("3 lessons, 2 books", substring = true)
         assertEquals(3, onAllNodes(hasText("Lesson · Compras e serviços")).fetchSemanticsNodes().size)
         onNodeWithText("Pause").assertExists()
+        // One gap at the window's edge and between the two panes, and both panes start at the same height.
+        val sidebar = onNodeWithTag("sidebar").fetchSemanticsNode().boundsInRoot
+        val header = onNodeWithTag("playlist-header").fetchSemanticsNode().boundsInRoot
+        val inset = with(density) { 24.dp.toPx() }
+        assertEquals(sidebar.left, header.left - inset - sidebar.right, 1f)
+        assertEquals(sidebar.top, header.top - inset, 1f)
         screenshot("playlists")
 
         // Choosing another playlist shows it, and the page opens on it again for the rest of the session.

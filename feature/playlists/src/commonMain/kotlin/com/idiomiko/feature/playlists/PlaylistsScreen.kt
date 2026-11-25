@@ -157,8 +157,8 @@ internal fun PlaylistsContent(
             val selected = state.selected
             ScrollColumn(
                 Modifier.weight(1f).fillMaxHeight(),
-                contentModifier = Modifier.padding(start = AppSpacing.l, end = AppSpacing.l + AppSizes.scrollbarRoom, top = AppSpacing.xxl, bottom = AppSpacing.xxl),
-                verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
+                contentModifier = Modifier.padding(start = PANE_GAP, end = PANE_GAP, top = PANE_GAP, bottom = PANE_GAP),
+                verticalArrangement = Arrangement.spacedBy(PANE_GAP),
             ) {
                 if (selected != null) PlaylistPane(detail(selected.playlist.id), onNavigate)
             }
@@ -198,8 +198,8 @@ private fun Sidebar(state: PlaylistsUiState, viewModel: PlaylistsViewModel, onCr
     val selectedId = state.selected?.playlist?.id
     Box(
         // The card scrolls inside itself, so no scrollbar needs room beside it.
-        Modifier.width(SIDEBAR + AppSpacing.l + AppSpacing.l).fillMaxHeight()
-            .padding(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.xxl, bottom = AppSpacing.xxl)
+        Modifier.width(SIDEBAR + PANE_GAP).fillMaxHeight()
+            .padding(start = PANE_GAP, top = PANE_GAP, bottom = PANE_GAP)
             .testTag("sidebar"),
     ) {
         Column(Modifier.fillMaxSize().cardSurface(AppShapes.large).padding(vertical = AppSpacing.l)) {
@@ -425,6 +425,9 @@ internal fun DeletePlaylistDialog(playlist: Playlist, duration: Duration, onConf
 
 /** The width of a wide window's list of playlists, as wide as the Courses page's sidebar. */
 private val SIDEBAR = 300.dp
+
+/** The one gap a wide window keeps around and between its cards: at the window's edges, between the panes, between the cards. */
+private val PANE_GAP = AppSpacing.xl
 private val SIDEBAR_MOSAIC = 48.dp
 private val PHONE_MOSAIC = 56.dp
 private val DASH = 6.dp
