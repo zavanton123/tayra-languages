@@ -4852,6 +4852,9 @@ def load_dictionary(language):
         frequency_maltese.load(pos, lemmas, common, DICTIONARIES, WORD_POS, OVERRIDES.get("mt", {}), EXCLUDE.get("mt", set()))
     if language == "ur":
         frequency_urdu.mend(db, pos, lemmas, common)
+    # Pashto's verb paradigms, its nouns' regular endings and its hand words, which the pack's tables mostly lack (frequency_pashto).
+    if language == "ps":
+        frequency_pashto.mend(pos, lemmas, common)
     # A Korean verb's form the pack files under other verbs too (가는 of 가다, 갈다 and 가늘다) goes as its forms table says.
     for form_lc, of in KOREAN_GLOSSED.items() if language == "ko" else ():
         if of and set(lemmas.get(form_lc, [of])) - {of} and pos.get(of, set()) & {"verb", "adj"}:

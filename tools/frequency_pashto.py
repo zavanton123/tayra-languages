@@ -468,6 +468,25 @@ _MORE_FORMS = """
 ياد|ياده يادې يادو
 ټول|ټوله ټولې ټولو
 دغه|دغې دغو
+کتل|کوت وکوت کاته وکاته
+ښودل|ښووه وښووه ښووله وښووله وښوول
+پېژندل|پېژاند وپېژاند پېژانده وپېژانده
+بيول|بوت بوته بوتله بوتلل بوتلم بوتلې بوتلئ بیوه بیوله
+راوستل|راووست راووسته راووستل راووستله راووستلې راووستم راووستلم راووستو راووستلو
+رسېدل|راورسېد راورسېده راورسېدو راورسېدل راورسېدله راورسېدم
+ختل|خوت وخوت خاته وخاته
+وړل|یووړ یووړه یووړل یووړله یوړ یوړه یوړل یوسي یوسم یوسو یوسه
+راوړل|راووړ راووړه راووړل راووړله
+ګڼل|وګاڼه
+منل|مانه ومانه
+تړل|تاړه وتاړه
+ګټل|ګاټه وګاټه
+مېلمه|مېلمانه مېلمنو مېلمنه
+نجلۍ|نجونې نجونو
+دواړه|دواړو
+ځای|ځایونه ځایونو
+غوښتل|غوښت
+موندل|موند
 """
 # Spellings the pack has as words of their own that are another word's, as Pakistani and older texts write it (چه for چې,
 # کښې for کې, وایروس for ویروس), or forms filed under a rare word spelled alike (کړي "does", not کړۍ "ring"; لري "has", not
@@ -558,6 +577,126 @@ def hand_entries():
     return out
 
 
+# The present stems of the pack's verbs that no rule makes from the infinitive (کتل: ګوري, لیدل: ویني, اخيستل: اخلي), as their
+# tables, where they have one, write them: verb | present stems.
+_STEMS = """
+کتل|ګور
+ليدل|وین
+اخيستل|اخل
+نیول|نیس
+غوښتل|غواړ
+لوستل|لول
+پېژندل|پېژن
+وتل|وځ وز
+ننوتل|ننوځ
+پرېوتل|پرېوځ
+کېناستل|کېن
+راوستل|راول
+بيول|بیای بوځ
+ښودل|ښی
+اورېدل|اور
+موندل|موم
+خوړل|خور
+وژل|وژن
+ختل|خېژ
+اغوستل|اغوند
+پرانیستل|پرانیز
+پرېښودل|پرېږد
+ايستل|باس
+وړل|وړ
+راوړل|راوړ
+ځغاستل|ځغل
+خندل|خاند
+ژړل|ژاړ
+لمبل|لامب
+ټاکل|ټاک
+لیکل|لیک
+ساتل|سات
+سپارل|سپار
+لېږل|لېږ
+ګټل|ګټ
+ګڼل|ګڼ
+منل|من
+تړل|تړ
+وهل|وه
+پوښتل|پوښت
+څښل|څښ
+وینځل|وینځ
+وېشل|وېش
+پلورل|پلور
+اوښتل|اوړ
+الوتل|الوځ
+زغمل|زغم
+څېړل|څېړ
+غندل|غند
+لمانځل|لمانځ
+ژباړل|ژباړ
+"""
+# Verbs whose forms the rules would get wrong, which _MORE_FORMS and their tables give: کول (کړ-), کېدل (ش-), تلل (ځ-, لاړ;
+# و with its stem would be وتل, another verb), the verbs of راتلل and ورکول, ویل, لرل.
+_IRREGULAR = set("کول کېدل شول تلل راتلل درتلل ورتلل ويل لرل يم ورکول درکول راکول".split())
+# A verb with a prefix of its own takes no و in its perfective: کېناستل, پرېښودل, ننوتل, پرانیستل, and را, در or ور with a verb
+# (راوړل, ورکول) or these (راوستل), whose perfectives with و inside (راووست) _MORE_FORMS gives.
+_PREFIXES = tuple(pashto_fold(p) for p in ("کېن", "کښېن", "پرې", "ننو", "پران"))
+_DIRECTIONS = tuple(pashto_fold(p) for p in ("را", "در", "ور"))
+_PREFIXED = {pashto_fold(v) for v in "راوستل دروستل وروستل".split()}
+
+
+def own_prefix(key, verbs):
+    """Whether the folded verb [key] has a prefix of its own, [verbs] the folded verbs."""
+    return key.startswith(_PREFIXES) or key in _PREFIXED or key.startswith(_DIRECTIONS) and key[2:] in verbs
+
+
+_PRESENT = ("م", "ې", "ي", "و", "ئ")
+# The past's person endings: I, you, she, we, you (plural), they (masculine); "he" is the stem itself, or with ه or و.
+_PAST = ("م", "ې", "ه", "و", "ئ", "")
+
+
+def verb_stems():
+    """The pack's verbs' present stems that no rule makes, folded: verb -> [stems]."""
+    out = {}
+    for line in _STEMS.strip().splitlines():
+        verb, stems = line.split("|")
+        out[pashto_fold(verb)] = stems.split()
+    return out
+
+
+def verb_paradigm(verb, stems=(), prefix="و"):
+    """
+    A verb's forms by the regular rules, from its infinitive (لیکل) and the present stems it has (لیک; the -ېدل verbs' -ېږ
+    and the -ول verbs' -و the rules make): the present (لیکم, لیکې, لیکي, لیکو, لیکئ) and imperative (لیکه); the past on the
+    infinitive (لیکلم, لیکلې, لیکله, لیکلو, لیکلئ, لیکل) and on its short stem (لیکم, لیکه, لیکو; the -ول verbs' لټاوه); each
+    also with the perfective [prefix] (ولیکي, ولیک, واخیست, ورسېد), "" for a verb with a prefix of its own (کېناستل) or one
+    made of an adjective (زیاتېدل, whose perfective is زیات شو); the participle (لیکلی, لیکلې, لیکلي, لیکلو), the
+    infinitive's oblique (لیکلو) and the potential (لیکلای). The short stem stands alone as the past of an -ېدل verb (رسېد)
+    and of one without the prefix (کېناست); another's is written with it (ولید, not لید, which is "sight").
+    """
+    if " " in verb or not verb.endswith("\u0644") or len(verb) < 3:
+        return []
+    short = verb[:-1]
+    stems = list(stems)
+    # An -ول verb (لټول: لټوي, لټاوه) but نیول and بیول, whose stems _STEMS gives.
+    causative = verb.endswith("\u0648\u0644") and not stems
+    if verb.endswith("\u06d0\u062f\u0644") and not stems:
+        stems = [verb[:-3] + "\u06d0\u0696"]
+    elif causative:
+        stems = [verb[:-1]]
+    present = [stem + e for stem in stems for e in _PRESENT + ("\u0647",)]
+    past = [verb + e for e in _PAST] + [short + e for e in _PAST if len(short + e) >= 3] + [short + "\u0648"]
+    # The short stem alone, as above; an -ول verb's past is لټاوه, not لټو (لټ's oblique).
+    if causative or not (verb.endswith("\u06d0\u062f\u0644") or not prefix):
+        past = [f for f in past if f != short]
+    if causative:
+        past.append(verb[:-2] + "\u0627\u0648\u0647")
+    participle = [verb + e for e in ("\u06cc", "\u06d0", "\u064a", "\u0648", "\u06cc\u0648")] + [verb + "\u0627\u06cc"]
+    forms = present + past + participle
+    if prefix:
+        forms += [prefix + f for f in present + past]
+        if not causative:
+            forms.append(prefix + short)
+    return list(dict.fromkeys(f for f in forms if f != verb))
+
+
 def verb_forms(verb, stem, prefix="و"):
     """
     A verb's forms by the regular rules, from its infinitive (لیکل) and present stem (لیک): the present (لیکم, لیکې, لیکي,
@@ -573,6 +712,87 @@ def verb_forms(verb, stem, prefix="و"):
     if prefix:
         forms += [prefix + f for f in present + simple_past]
     return list(dict.fromkeys(f for f in forms if f != verb))
+
+
+# Nouns for people that make a woman's word with -ه (ډاکټر: ډاکټره, ډاکټرې), which no rule tells from a thing's.
+_PERSONS = "ډاکټر استاد کډوال وکیل همکار لیکوال خبریال نرس شاعر افغان"
+
+
+def rule_forms(entries):
+    """
+    The forms the rules make of the pack's words beyond nominal_forms, (word, part of speech) pairs as spelled: each verb's
+    (verb_paradigm, with the present stems of _STEMS or _HAND_VERBS) but the irregular ones', and each noun's plurals
+    (noun_forms) and a person's feminine (ډاکټره, ډاکټرې), but those spelled as an entry is: (form, word) pairs.
+    """
+    words = {pashto_fold(word) for word, _ in entries}
+    hand = {pashto_fold(verb): (verb, stem, prefix) for verb, stem, prefix, _ in (line.split("|") for line in _HAND_VERBS.strip().splitlines())}
+    irregular = {pashto_fold(v) for v in _IRREGULAR}
+    persons = {pashto_fold(w) for w in _PERSONS.split()}
+    verbs = {pashto_fold(word) for word, pos in entries if pos == "verb"}
+    stems = verb_stems()
+    pairs = []
+    for word, pos in entries:
+        key = pashto_fold(word)
+        if pos == "verb" and key in hand:
+            verb, stem, prefix = hand[key]
+            pairs += [(form, verb) for form in verb_paradigm(verb, [stem], prefix)]
+        elif pos == "verb" and key not in irregular:
+            prefix = "" if own_prefix(key, verbs) else "\u0648"
+            pairs += [(form, word) for form in verb_paradigm(word, stems.get(key, ()), prefix)]
+        elif pos == "noun":
+            made = noun_forms(word) + ([word + "\u0647", word + "\u06d0"] if key in persons else [])
+            pairs += [(form, word) for form in made if pashto_fold(form) not in words]
+    return pairs
+
+
+def noun_forms(word):
+    """
+    A noun's plurals nominal_forms leaves out: a final ye's animate plural -یان, -یانو (ګاونډیان, ګاونډیانو) and a final
+    consonant's Arabic plural -ات (حیوانات, تاثیرات).
+    """
+    if " " in word or len(word) < 2 or word[-1] in "\u0647\u0627\u0648":
+        return []
+    if word[-1] in "\u064a\u06cc\u06d0\u06cd\u0626":
+        return [word[:-1] + "\u06cc\u0627\u0646", word[:-1] + "\u06cc\u0627\u0646\u0648"]
+    return [word + "\u0627\u062a"]
+
+
+def gaps(pairs, words, formed):
+    """The (form, word) [pairs] whose form is neither one of [words] nor among the forms [formed] already has (folded)."""
+    return [(form, word) for form, word in pairs if pashto_fold(form) not in words and pashto_fold(form) not in formed]
+
+
+def mend(pos, lemmas, common):
+    """
+    Adds the hand words, their forms, _MORE_FORMS and the forms the rules make (rule_forms) where the pack has the form
+    neither as a word nor as a form (gaps) to the list builder's [pos], [lemmas] and [common], folded, so the list has them
+    whether or not the pack on disk was built with them.
+    """
+    def add(form, word):
+        form, word = pashto_fold(form), pashto_fold(word)
+        if form != word and word not in lemmas[form]:
+            lemmas[form].append(word)
+
+    added = []
+    for word, kind, _, forms in hand_entries():
+        key = pashto_fold(word)
+        if kind not in pos[key]:
+            pos[key].add(kind)
+            common.setdefault(key, word)
+            added.append((word, kind))
+        for form in forms:
+            add(form, word)
+    for form, word in more_forms():
+        add(form, word)
+    # The pack gives each of its words the forms nominal_forms makes, but those spelled as an entry is.
+    for word, kind in added:
+        for form in nominal_forms(word, kind) if kind in ("noun", "adj", "det", "num", "pron") else ():
+            if pashto_fold(form) not in pos:
+                add(form, word)
+    entries = [(common.get(key, key), kind) for key, kinds in pos.items() for kind in sorted(kinds)]
+    formed = {form for form, of in lemmas.items() if of}
+    for form, word in gaps(rule_forms(entries), set(pos), formed):
+        add(form, word)
 
 
 def nominal_forms(word, pos):

@@ -39,7 +39,7 @@ from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from frequency_urdu import TABLE_PRONOUNS, adjective_forms, noun_forms, urdu_fold, verb_forms  # noqa: E402
 import frequency_nepali  # noqa: E402
-from frequency_pashto import clean_pashto, hand_entries, more_forms, nominal_forms, pashto_fold  # noqa: E402
+from frequency_pashto import clean_pashto, gaps, hand_entries, more_forms, nominal_forms, pashto_fold, rule_forms  # noqa: E402
 import frequency_sinhala  # noqa: E402
 from frequency_hausa import AJAMI, hausa_clean  # noqa: E402
 import frequency_uzbek  # noqa: E402
@@ -639,6 +639,10 @@ def pashto_hand(db, next_id, inflected):
     made = [(lowercase(form, "ps"), word, 1) for word, pos in db.execute("SELECT word, pos FROM entries WHERE pos IN ('noun', 'adj', 'det', 'num', 'pron')")
             for form in nominal_forms(word, pos) if lowercase(form, "ps") not in entries]
     db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, ?)", made)
+    # And the verbs' paradigms, the nouns' other plurals and the people's feminines (rule_forms), where no word or form is spelled so.
+    formed = {f for (f,) in db.execute("SELECT form_lc FROM forms")}
+    ruled = gaps(rule_forms(list(db.execute("SELECT word, pos FROM entries"))), entries, formed)
+    db.executemany("INSERT OR IGNORE INTO forms(form_lc, lemma, generated) VALUES (?, ?, 1)", [(lowercase(form, "ps"), word) for form, word in ruled])
     return len(rows), next_id
 
 
