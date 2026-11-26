@@ -1,5 +1,6 @@
 package com.idiomiko.feature.reading
 
+import androidx.compose.animation.core.animateFloatAsState
 import com.idiomiko.core.ui.theme.readingFontFamily
 import com.idiomiko.core.domain.service.SetupKind
 import com.idiomiko.core.ui.components.LocalPreparing
@@ -111,6 +112,7 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.layout.offset
+import androidx.compose.material3.BottomSheetDefaults
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.layout.Layout
@@ -198,6 +200,7 @@ import com.idiomiko.core.ui.files.saveBinaryFile
 import com.idiomiko.core.domain.practice.PracticeSetup
 import com.idiomiko.feature.terms.list.PracticeSetupDialog
 import com.idiomiko.core.domain.practice.PracticeSource
+import com.idiomiko.core.ui.theme.AppMotion
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -526,7 +529,8 @@ fun ReadingScreen(
 /**
  * On narrower windows the term pane is a sheet over the page that leaves the text live: a tap on
  * another word shows that word, and the pane goes only when it is swiped down, closed from its
- * button, or with Back. [open] follows the pane; [onClosed] hears that it was put away.
+ * button, or with Back. The page is dimmed behind it like any sheet's, but the dim lets touches
+ * through. [open] follows the pane; [onClosed] hears that it was put away.
  */
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalComposeUiApi::class)
 @Composable
@@ -555,7 +559,15 @@ private fun TermSheet(enabled: Boolean, open: Boolean, onClosed: () -> Unit, she
             sheetMaxWidth = Dp.Unspecified,
             sheetDragHandle = { SheetHandle() },
             containerColor = Color.Transparent,
-        ) { content() }
+        ) {
+            val dim by animateFloatAsState(if (open) 1f else 0f, AppMotion.spec(AppMotion.short))
+            val scrim = BottomSheetDefaults.ScrimColor
+            Box(Modifier.fillMaxSize()) {
+                content()
+                // Drawn only, with no pointer input of its own, so a tap still reaches the word under it.
+                if (dim > 0f) Box(Modifier.matchParentSize().testTag("term-sheet-dim").background(scrim.copy(alpha = scrim.alpha * dim)))
+            }
+        }
     }
 }
 

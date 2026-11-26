@@ -1050,8 +1050,10 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
         vm.onWordTap(vm.index("lobo"))
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-pane-header", useUnmergedTree = true).fetchSemanticsNodes().isNotEmpty() }
-        // A touch on the page above the sheet: the text's own, not a scrim's.
+        // The page behind is dimmed, yet a touch on it above the sheet is the text's own, not the dim's.
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("term-sheet-dim").fetchSemanticsNodes().isNotEmpty() }
         val root = rule.onAllNodes(androidx.compose.ui.test.isRoot())[0]
+        System.getenv("TERM_SHEET_SCREENSHOT")?.let { rule.mainClock.advanceTimeBy(1_000); rule.waitForIdle(); javax.imageio.ImageIO.write(root.captureToImage().toAwtImage(), "png", java.io.File(it)) }
         root.performTouchInput { click(Offset(width / 2f, height * 0.2f)) }
         rule.waitForIdle()
         assertTrue(vm.state.value.panel != ReadingPanel.None, "the pane stays open")
