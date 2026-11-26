@@ -391,7 +391,7 @@ private fun TextsCard(state: PlaylistDetailUiState, playlist: Playlist, viewMode
             onClick = { onNavigate(Route.AddToPlaylist(playlist.id)) },
             icon = Icons.Default.Add,
             style = AppText.labelStrong,
-            modifier = Modifier.padding(start = AppSpacing.xl, top = AppSpacing.s).testTag("add-texts"),
+            modifier = Modifier.padding(start = AppSpacing.xl, top = AppSpacing.l, bottom = AppSpacing.m).testTag("add-texts"),
         )
     }
 }
