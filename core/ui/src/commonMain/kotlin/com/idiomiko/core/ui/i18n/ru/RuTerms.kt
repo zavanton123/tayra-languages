@@ -44,7 +44,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Status" to "Статус",
     "OK" to "ОК",
     "Delete {0} terms?" to "Удалить {0} слово?|Удалить {0} слова?|Удалить {0} слов?",
-    "This cannot be undone." to "Это действие нельзя отменить.",
     "Delete" to "Удалить",
     "Delete \"{0}\"?" to "Удалить «{0}»?",
     "Loading..." to "Загрузка…",

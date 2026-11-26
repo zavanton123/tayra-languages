@@ -8,10 +8,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 
+/** A question to confirm: its [title], and [text] below it when the title needs saying more. */
 @Composable
 fun ConfirmDialog(
     title: String,
-    text: String,
+    text: String?,
     confirmLabel: String = tr("OK"),
     destructive: Boolean = false,
     onConfirm: () -> Unit,
@@ -20,7 +21,7 @@ fun ConfirmDialog(
     AppDialog(
         onDismissRequest = onDismiss,
         title = { Text(title) },
-        text = { Text(text) },
+        text = text?.let { { Text(it) } },
         confirmButton = { QuietButton(confirmLabel, onClick = onConfirm, tone = if (destructive) ButtonTone.Danger else ButtonTone.Normal) },
         dismissButton = { QuietButton(tr("Cancel"), onClick = onDismiss) },
     )

@@ -260,7 +260,7 @@ fun TermsScreen(
     if (confirmDelete) {
         ConfirmDialog(
             title = trPlural(state.selected.size, "Delete {0} term?", "Delete {0} terms?"),
-            text = tr("This cannot be undone."),
+            text = null,
             confirmLabel = tr("Delete"),
             destructive = true,
             onConfirm = { viewModel.deleteSelected(); confirmDelete = false },
@@ -270,7 +270,7 @@ fun TermsScreen(
     pendingDelete?.let { term ->
         ConfirmDialog(
             title = tr("Delete \"{0}\"?", term.displayText),
-            text = tr("This cannot be undone."),
+            text = null,
             confirmLabel = tr("Delete"),
             destructive = true,
             onConfirm = { viewModel.delete(term.id); pendingDelete = null },

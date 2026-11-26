@@ -44,7 +44,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Status" to "状态",
     "OK" to "确定",
     "Delete {0} terms?" to "删除 {0} 个词条？",
-    "This cannot be undone." to "此操作无法撤销。",
     "Delete" to "删除",
     "Delete \"{0}\"?" to "删除“{0}”？",
     "Loading..." to "正在加载…",

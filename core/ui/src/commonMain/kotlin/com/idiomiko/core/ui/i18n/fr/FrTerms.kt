@@ -44,7 +44,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Status" to "Statut",
     "OK" to "OK",
     "Delete {0} terms?" to "Supprimer {0} terme ?|Supprimer {0} termes ?",
-    "This cannot be undone." to "Cette action est irréversible.",
     "Delete" to "Supprimer",
     "Delete \"{0}\"?" to "Supprimer « {0} » ?",
     "Loading..." to "Chargement…",

@@ -44,7 +44,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Status" to "Κατάσταση",
     "OK" to "OK",
     "Delete {0} terms?" to "Διαγραφή {0} λέξης;|Διαγραφή {0} λέξεων;",
-    "This cannot be undone." to "Η ενέργεια δεν αναιρείται.",
     "Delete" to "Διαγραφή",
     "Delete \"{0}\"?" to "Διαγραφή «{0}»;",
     "Loading..." to "Φόρτωση…",

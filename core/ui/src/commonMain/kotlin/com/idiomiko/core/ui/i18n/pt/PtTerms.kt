@@ -44,7 +44,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Status" to "Status",
     "OK" to "OK",
     "Delete {0} terms?" to "Excluir {0} termo?|Excluir {0} termos?",
-    "This cannot be undone." to "Isso não pode ser desfeito.",
     "Delete" to "Excluir",
     "Delete \"{0}\"?" to "Excluir “{0}”?",
     "Loading..." to "Carregando…",

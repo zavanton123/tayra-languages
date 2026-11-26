@@ -44,7 +44,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Status" to "Estado",
     "OK" to "Aceptar",
     "Delete {0} terms?" to "¿Eliminar {0} palabra?|¿Eliminar {0} palabras?",
-    "This cannot be undone." to "Esta acción no se puede deshacer.",
     "Delete" to "Eliminar",
     "Delete \"{0}\"?" to "¿Eliminar «{0}»?",
     "Loading..." to "Cargando…",

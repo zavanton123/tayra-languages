@@ -44,7 +44,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Status" to "Status",
     "OK" to "OK",
     "Delete {0} terms?" to "Usunąć {0} słowo?|Usunąć {0} słowa?|Usunąć {0} słów?",
-    "This cannot be undone." to "Tej operacji nie można cofnąć.",
     "Delete" to "Usuń",
     "Delete \"{0}\"?" to "Usunąć „{0}”?",
     "Loading..." to "Wczytywanie…",

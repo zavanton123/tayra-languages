@@ -44,7 +44,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Status" to "Status",
     "OK" to "OK",
     "Delete {0} terms?" to "{0} Begriff löschen?|{0} Begriffe löschen?",
-    "This cannot be undone." to "Das kann nicht rückgängig gemacht werden.",
     "Delete" to "Löschen",
     "Delete \"{0}\"?" to "„{0}“ löschen?",
     "Loading..." to "Wird geladen…",
