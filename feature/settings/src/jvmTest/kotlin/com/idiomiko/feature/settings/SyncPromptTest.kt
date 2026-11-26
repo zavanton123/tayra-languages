@@ -9,12 +9,15 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
-import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
@@ -28,24 +31,27 @@ import com.idiomiko.core.domain.account.AccountException
 import com.idiomiko.core.domain.account.AccountInfo
 import com.idiomiko.core.domain.account.AccountProblem
 import com.idiomiko.core.domain.account.AccountRepository
-import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.LibrarySync
 import com.idiomiko.core.domain.account.SignInClients
 import com.idiomiko.core.domain.account.SignInProvider
 import com.idiomiko.core.domain.account.StoreReceipt
 import com.idiomiko.core.domain.account.SyncPhase
 import com.idiomiko.core.domain.account.SyncProgress
+import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.SyncSummary
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.LocalSyncEntry
 import com.idiomiko.core.ui.components.PullToSync
 import com.idiomiko.core.ui.components.SyncEntry
 import com.idiomiko.core.ui.theme.IdiomikoTheme
-import kotlinx.coroutines.CompletableDeferred
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlin.time.Duration.Companion.minutes
+import java.io.File
+import javax.imageio.ImageIO
 import kotlin.test.Test
 import kotlin.test.assertEquals
+import kotlin.test.assertTrue
+import kotlin.time.Duration.Companion.minutes
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.flow.MutableStateFlow
 
 /** Syncing from the wide bar's button and a phone page's pull: asked first, then the progress and what it did. */
 @OptIn(ExperimentalTestApi::class)
@@ -223,5 +229,8 @@ class SyncPromptTest {
         onNodeWithTag("page").performTouchInput { swipeDown(startY = top + 10f, endY = bottom, durationMillis = 400) }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Sync your data?").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, sync.syncs, "a pull only asks")
+        // A short question, so a phone keeps it a dialog rather than a page of its own.
+        assertTrue(onNodeWithTag("sync-dialog").fetchSemanticsNode().boundsInRoot.height < 600f, "the question is a dialog, not the whole screen")
+        System.getenv("SYNC_PHONE_SCREENSHOT")?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
     }
 }

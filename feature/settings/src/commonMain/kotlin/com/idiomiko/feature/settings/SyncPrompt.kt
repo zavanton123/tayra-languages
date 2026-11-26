@@ -140,7 +140,6 @@ internal fun SyncDialog(state: SyncPromptState, actions: SyncPromptViewModel?, o
     val ready = state.available && state.signedIn
     val close = { actions?.close(); Unit }
     AppDialog(
-        fullScreenOnPhone = true,
         onDismissRequest = close,
         modifier = Modifier.testTag("sync-dialog"),
         title = { Text(if (!ready || state.step == SyncStep.ASK) tr("Sync your data?") else tr("Sync")) },
