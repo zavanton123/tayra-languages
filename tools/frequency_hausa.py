@@ -142,6 +142,19 @@ HAUSA_FORMS = {
     # Loanwords in -n and -r, no linked forms (radar, beyar "bear", kushin "cushion", laftanan "lieutenant").
     "radar": "radar", "beyar": "beyar", "kushin": "kushin", "golan": "golan", "bahar": "bahar", "sansan": "sansan",
     "malin": "malin", "laftanan": "laftanan", "lasin": "lasin", "mesin": "mesin",
+    # Grades and verbal nouns of irregular verbs or of verbs the pack spells or files otherwise (_fold_heads takes the regular
+    # ones): biye "following" (bi), karye (karya "break"), taho (tafi), gaishe and gaisa (gaisuwa), shayar "give a drink" (sha),
+    # yaƙar "fight against" (yaƙi), nutsu (nutsuwa), girme (girma), kasu "be divided" (kasa), tsaida (tsayar), marawa of
+    # mara wa baya "support", yiyuwa (yiwuwa), jiyo (ji), dau (ɗauka), dena (daina), addabi and addabe (addaba), and the
+    # possessives kowannensu and yinsa.
+    "biye": "bi", "karye": "karya", "taho": "tafi", "gaishe": "gaisuwa", "shayar": "sha", "yaƙar": "yaƙi", "nutsu": "nutsuwa",
+    # Spellings: kwai without its hook, ƙalla of a ƙalla (aƙalla), haki for haƙƙi, toh, ameen, waƴanda, memba (mamba), kome
+    # (komai), mahimman (muhimmi), jar (ja), yinwa (yunwa), sa'annan (sannan), and the plural mafiya.
+    "kwai": "ƙwai", "ƙalla": "aƙalla", "haki": "haƙƙi", "daddadare": "daddare", "halasta": "halatta", "toh": "to",
+    "ameen": "amin", "waƴanda": "wanda", "memba": "mamba", "mafiya": "mafi", "kome": "komai", "mahimman": "muhimmi",
+    "jar": "ja", "tsaida": "tsayar", "marawa": "mara", "gaisa": "gaisuwa", "girme": "girma", "kasu": "kasa",
+    "yiyuwa": "yiwuwa", "jiyo": "ji", "dau": "ɗauka", "dena": "daina", "addabi": "addaba", "addabe": "addaba",
+    "kowannensu": "kowanne", "yinsa": "yin", "yinta": "yin", "yinwa": "yunwa", "sa'annan": "sannan",
 }
 # Words the pack lacks that are spelled as a hooked word is without its hook, and are words of their own: ki "you" (ƙi "refuse"),
 # yaya "how" (ƴaƴa "children", written 'ya'ya), haka "so" (haƙa "dig"), kala "kind", kadara "property".
@@ -165,11 +178,12 @@ HAUSA_JOINED = {
     "yakamata": "ya kamata", "meyasa": "me ya sa", "koda": "ko da", "kodayake": "ko da yake", "akai": "a kai",
     "mene": "me ne", "haryanzu": "har yanzu", "aciki": "a ciki", "acikin": "a cikin", "akansa": "a kansa", "kuyi": "ku yi",
     "barsu": "bar su", "harma": "har ma", "shike": "shi ke", "wanan": "wannan", "nima": "ni ma", "itama": "ita ma",
-    "kaima": "kai ma", "kema": "ke ma",
+    "kaima": "kai ma", "kema": "ke ma", "farinciki": "farin ciki", "kodayaushe": "ko da yaushe", "sukai": "suka yi",
+    "za'ayi": "za a yi",
 }
 # Words that are no Hausa words of ordinary text: names written small, English, abbreviations, fragments (basuwa, written for
 # ba su), the linker n written apart.
-HAUSA_EXCLUDED = {"allah", "adam", "s", "of", "habibu", "on", "n", "basuwa", "ƙwa"}
+HAUSA_EXCLUDED = {"allah", "adam", "s", "of", "habibu", "on", "n", "basuwa", "ƙwa", "by"}
 
 # ---------------------------------------------------------------------------------------------------------------------------
 # Entries of the pack that are forms (Lexicon._link_entries).
@@ -635,12 +649,19 @@ def _sentences(download):
                     yield kind, text
 
 
+# The person-aspect words a verb follows (ya tafi, sun komo, za su kashe, suka karɓe), not those that are words of other
+# kinds too (ta "of", na "of", a "at", ka, ki).
+SUBJECTS = {"ya", "sun", "mun", "kun", "an", "zai", "zan", "za", "su", "mu", "ku", "suka", "aka", "muka", "kuka", "yakan",
+            "takan", "sukan", "mukan", "kukan", "nakan"}
+
+
 def _counts(download, lexicon):
-    """Each kind's word counts, by the plain letters whose hooked letter the sentence writes (hooks_written); the names, and
-    how often each word is half of a hyphenated one."""
+    """Each kind's word counts, by the plain letters whose hooked letter the sentence writes (hooks_written); the names, how
+    often each word is half of a hyphenated one, and how often it follows a person-aspect word (SUBJECTS) as a verb does."""
     counts = {kind: defaultdict(lambda: defaultdict(int)) for kind in WEIGHTS}
     names = defaultdict(int)
     hyphened = defaultdict(int)
+    after_subject = defaultdict(int)
     for kind, text in _sentences(download):
         text = text.translate(APOSTROPHES)
         halves = defaultdict(int)
@@ -648,11 +669,13 @@ def _counts(download, lexicon):
         if not words or english(words) or AJAMI.search(text):
             continue
         written = hooks_written(text, words)
-        for word in words:
+        for i, word in enumerate(words):
             counts[kind][word][written & set(word.translate(DEHOOK))] += 1
+            if i and words[i - 1] in SUBJECTS:
+                after_subject[word] += 1
         for word, n in halves.items():
             hyphened[word] += n
-    return counts, names, hyphened
+    return counts, names, hyphened, after_subject
 
 
 def _join_same(lexicon, share):
@@ -789,11 +812,145 @@ def _english_words():
     return words
 
 
+# ---------------------------------------------------------------------------------------------------------------------------
+# Words that are forms of other words of the list (_fold_heads).
+#
+# The pack lacks many verbs or has them as nouns (koma "fishing net", taru, shaida "witness"), so their grades, verbal nouns
+# and possessives were listed apart. Text shows a verb by what goes before it: a verb follows a person-aspect word (ya koma,
+# sun komo) much more often than a noun does (SUBJECTS). A word is folded under the word the list has, which is commoner:
+# - a word whose own spelling the pack makes another's form (rushewa, naɗi, jihohi: rushe, naɗa, jiha);
+# - a grade, the verb's last vowel changed to -e, -o, -u or -i (komo, tono, karɓe, rarrabu: koma, tona, karɓa, rarraba),
+#   when both are verbs by text; to -a's first, then -i's and -e's;
+# - a verbal noun in -wa (kashewa, iyawa, gamsuwa, taruwa: kashe, iya, gamsu, taru) or a grade 7 one in -uwa (faɗuwa,
+#   tsayuwa: faɗa, tsaya) a verb has, glossed as one or not in the pack, written less than VERBAL_NOUN_SHARE as often as its
+#   verb (rayuwa "life", kasuwa "market", mutuwa "death" are words of their own);
+# - a feminine in -uwa of a word in -o or in -iya of one in -i (tsohuwa, tauraruwa, jaririya: tsoho, tauraro, jariri),
+#   glossed so or not in the pack;
+# - a possessive in -na or -ta on the word's last vowel (ganina, wajena, kyamarata: gani, waje, kyamara), no verb by text
+#   and not in the pack unless glossed so ("my daughter").
+# Grades that are words of their own stay (OWN_GRADES), and so do the grade 5 verbs in -ar (warkar, karantar).
+# ---------------------------------------------------------------------------------------------------------------------------
+# Of the uses of a word, the share after a person-aspect word that makes it a verb for a grade, for the verb a grade is of,
+# for a verb a verbal noun is of, and below which a possessive is no verb.
+GRADE_VERB = 0.3
+BASE_VERB = 0.15
+NOUN_VERB = 0.05
+POSSESSIVE_VERB = 0.15
+VERBAL_NOUN_SHARE = 0.7
+# Grades and spellings alike that are words of their own: faru "happen" (fara "begin"), saki "divorce, release" (saka, sake),
+# kori "chase away" (kore "green"), biyo "follow hither" (biya "pay"), zame "slip" (zama), zaɓi "choice" (zaɓe "election"),
+# tuntuɓe "stumbling" (tuntuɓi "contact"), aike "errand" (aika), fito "come out" (fita), lamunci "tolerate" (lamunce
+# "guarantee"), rame "grow thin" (rama), ɗago "lift" (ɗage "postpone"), kunno "emerge" (kunna "switch on").
+OWN_GRADES = {"faru", "saki", "kori", "biyo", "zame", "zaɓi", "tuntuɓe", "aike", "fito", "lamunci", "rame", "ɗago", "kunno"}
+# The words HAUSA_FORMS files forms under, which are words whatever their spelling (karya "break" beside ƙarya "lie").
+HAND_WORDS = {w for words in HAUSA_FORMS.values() for w in words.split(",") if w}
+FEMININE_GLOSS = re.compile(r"\b(?:fem|female|woman|girl|heroine)\b")
+# A gloss that names an action or state, as a verbal noun's does (killing, satisfaction, ability, failure).
+VERBAL_GLOSS = re.compile(r"^\S*(?:ing|ion|ment|ance|ence|ity|ness|ure|al)$")
+
+
+def _fold_heads(heads, share, written, after_subject, lexicon):
+    """Folds the words of [heads] (form: its words) that are grades, verbal nouns, feminines or possessives of others (see
+    the notes above), in place."""
+    score = defaultdict(float)
+    for form, words in heads.items():
+        if len(words) == 1:
+            score[next(iter(words))] += share[form]
+
+    def head(w):
+        return score.get(w, 0.0) > 0 and heads.get(w, frozenset()) in (frozenset(), frozenset({w}))
+
+    unhooked = defaultdict(set)
+    for w in score:
+        if head(w):
+            unhooked[w.translate(DEHOOK)].add(w)
+
+    def listed(w):
+        """The word of the list [w] is counted as: itself, the one word its spelling is a form of (fice: fita; not a grade 5
+        verb in -ar, which the pack has as a linked form: bayar "give" is no baya "back"), or its hooked spelling (dauka:
+        ɗauka), or None."""
+        if head(w):
+            return w
+        if len(heads.get(w, ())) == 1 and head(next(iter(heads[w]))) and not w.endswith("r"):
+            return next(iter(heads[w]))
+        found = unhooked.get(w.translate(DEHOOK), set())
+        return next(iter(found)) if len(found) == 1 else None
+
+    def verbness(w):
+        spellings = {w, w.translate(DEHOOK)}
+        n = sum(written.get(x, 0) for x in spellings)
+        return sum(after_subject.get(x, 0) for x in spellings) / n if n else 0.0
+
+    def verbal(x, verb):
+        """Whether the pack has [x] as a verbal noun of [verb], or not at all."""
+        if not lexicon.senses.get(x):
+            return True
+        keys = gloss_keys(lexicon.senses.get(x, [])[:3])
+        return "verb" in lexicon.kinds.get(x, ()) or any(VERBAL_GLOSS.match(k.split()[0]) for k in keys) \
+            or heads_alike(verbal_heads(set(keys)), verbal_heads(gloss_keys(lexicon.senses.get(verb, []))))
+
+    def base(x):
+        if x in OWN_GRADES or x in HAUSA_FORMS or x in HAND_WORDS:
+            return None
+        # A word whose own spelling is counted as another's form (rushewa: rushe, naɗi: naɗa).
+        if len(heads.get(x, ())) == 1 and x not in heads[x] and head(next(iter(heads[x]))):
+            return next(iter(heads[x]))
+        if len(x) >= 4 and x[-1] in "eoui" and verbness(x) >= GRADE_VERB:
+            # The verb as it is written, no other word's form or spelling (dore "last" is no ɗora "place on").
+            for v in "aie":
+                b = x[:-1] + v
+                if b != x and head(b) and score[b] > score[x] and verbness(b) >= BASE_VERB:
+                    return b
+        if x.endswith("wa") and len(x) >= 4:
+            verb = listed(x[:-2])
+            if verb and (len(x) >= 5 or "verb" in lexicon.kinds.get(verb, ())) and verbness(x[:-2]) >= NOUN_VERB \
+                    and score[x] <= VERBAL_NOUN_SHARE * score[verb] and verbal(x, verb):
+                return verb
+        if x.endswith("uwa") and len(x) >= 6:
+            for stem in (x[:-3] + "a", x[:-3] + "e"):
+                verb = listed(stem)
+                if verb and verbness(stem) >= BASE_VERB and score[x] <= VERBAL_NOUN_SHARE * score[verb] and verbal(x, verb):
+                    return verb
+        # A feminine: tsohuwa, tauraruwa (tsoho, tauraro); matashiya, jaririya (matashi, jariri).
+        if x.endswith("uwa") and len(x) >= 6 or x.endswith("iya") and len(x) >= 6:
+            word = (listed(x[:-3] + "o") or listed(x[:-3] + "u")) if x.endswith("uwa") else listed(x[:-2])
+            if word and word.endswith(("o", "u", "i")) and score[word] > score[x] and (
+                    any(FEMININE_GLOSS.search(g) for g in lexicon.senses.get(x, []))
+                    or not lexicon.senses.get(x) and lexicon.kinds.get(word, set()) & NOMINAL):
+                return word
+        for ending in ("na", "ta"):
+            word = listed(x[:-2]) if x.endswith(ending) and x[-3:-2] in ("a" if ending == "ta" else "aeiou") else None
+            if word and score[word] > score[x] and verbness(x) < POSSESSIVE_VERB and (
+                    not lexicon.senses.get(x) and len(x) >= 5
+                    or any(re.search(r"\bmy\b", g) for g in lexicon.senses.get(x, []))):
+                return word
+        return None
+
+    target = {}
+    for x in sorted(score):
+        if head(x) or heads.get(x) and x not in heads[x]:
+            b = base(x)
+            if b and b != x:
+                target[x] = b
+
+    def final(w):
+        seen = {w}
+        while w in target and target[w] not in seen:
+            w = target[w]
+            seen.add(w)
+        return w
+
+    for form, words in heads.items():
+        if words & target.keys():
+            heads[form] = frozenset(final(w) for w in words)
+    return target
+
+
 def build(size, download, dictionaries=DICTIONARIES):
     """The list: the pack's words and the everyday words it lacks, by their forms' counts, each kind weighted by WEIGHTS. A
     word the pack lacks is no name (written capitalised more often than not) and no word of one letter."""
     lexicon = Lexicon(dictionaries)
-    counts, names, hyphened = _counts(download, lexicon)
+    counts, names, hyphened, after_subject = _counts(download, lexicon)
     written = defaultdict(int)
     for kind_counts in counts.values():
         for word, by_hooks in kind_counts.items():
@@ -864,6 +1021,7 @@ def build(size, download, dictionaries=DICTIONARIES):
                 and form not in lexicon.forms and form not in lexicon.generated and form not in HAUSA_FORMS \
                 and heads.get(stem) and heads.get(form) in (frozenset(), frozenset({form})):
             heads[form] = heads[stem]
+    _fold_heads(heads, share, written, after_subject, lexicon)
     for form in heads:
         if halved(form):
             heads[form] = frozenset()
