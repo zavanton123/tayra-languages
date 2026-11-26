@@ -30,8 +30,9 @@ android {
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = releaseVersionCode.get()
         versionName = releaseVersion.get()
-        // The speech and translation engines ship native code; phones are ARM, so the x86 copies are left out.
-        ndk { abiFilters += setOf("arm64-v8a", "armeabi-v7a") }
+        // The speech and translation engines ship native code; only 64-bit ARM phones get it, which leaves out
+        // the x86 copies and the 32-bit ones for the rare phones older than about 2017.
+        ndk { abiFilters += setOf("arm64-v8a") }
     }
     signingConfigs {
         // A keystore from the environment signs published releases; without one the debug key
