@@ -1,4 +1,4 @@
-package com.idiomiko.feature.playlists
+package com.idiomiko.core.ui.components
 
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.Column
@@ -23,7 +23,7 @@ import androidx.compose.ui.zIndex
  * an item, given the modifier its drag handle takes and whether it is the one being dragged.
  */
 @Composable
-internal fun <T> ReorderableColumn(
+fun <T> ReorderableColumn(
     items: List<T>,
     key: (T) -> Any,
     onMove: (from: Int, to: Int) -> Unit,

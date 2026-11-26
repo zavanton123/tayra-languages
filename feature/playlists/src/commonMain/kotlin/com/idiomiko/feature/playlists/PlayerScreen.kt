@@ -73,6 +73,7 @@ import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.InfoBanner
 import com.idiomiko.core.ui.components.LinkText
+import com.idiomiko.core.ui.components.ReorderableColumn
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route

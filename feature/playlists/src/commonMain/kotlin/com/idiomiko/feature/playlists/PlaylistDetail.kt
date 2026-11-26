@@ -72,6 +72,7 @@ import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PrimaryButton
+import com.idiomiko.core.ui.components.ReorderableColumn
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.cardSurface
