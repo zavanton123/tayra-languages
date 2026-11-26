@@ -32,7 +32,7 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Recently added" to "Недавно добавленные",
     "Term A–Z" to "По алфавиту",
     // PhoneTerms.kt
-    "Vocabulary overview" to "Обзор слов",
+    "Overview" to "Обзор",
     "known" to "известно",
     "{0}%" to "{0}%",
     "{1} of {2} terms shown" to "Показано {1} из {2} слова|Показано {1} из {2} слов|Показано {1} из {2} слов",

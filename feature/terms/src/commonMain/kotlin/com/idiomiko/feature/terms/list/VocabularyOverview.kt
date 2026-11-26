@@ -79,7 +79,7 @@ internal fun VocabularyOverview(total: Int, known: Int, learning: Int, modifier:
         modifier.fillMaxWidth().testTag("vocabulary-overview").cardSurface(AppShapes.card).padding(AppSpacing.xl),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        Text(tr("Vocabulary overview"), style = AppText.sectionTitle)
+        Text(tr("Overview"), style = AppText.sectionTitle)
         BoxWithConstraints(Modifier.fillMaxWidth()) {
             if (maxWidth >= ONE_LINE_WIDTH) {
                 Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
@@ -110,7 +110,7 @@ internal fun PhoneVocabularyOverview(total: Int, known: Int, learning: Int, modi
         modifier.fillMaxWidth().testTag("vocabulary-overview").cardSurface(AppShapes.card).padding(AppSpacing.l),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
-        Text(tr("Vocabulary overview"), style = AppText.itemTitle)
+        Text(tr("Overview"), style = AppText.itemTitle)
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f).padding(end = AppSpacing.m)) {
                 Text(tr("Total terms"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)

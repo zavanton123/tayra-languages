@@ -32,7 +32,7 @@ internal val elTerms: Map<String, String> = mapOf(
     "Recently added" to "Πρόσφατα προστιθέμενες",
     "Term A–Z" to "Λέξη Α–Ω",
     // PhoneTerms.kt
-    "Vocabulary overview" to "Επισκόπηση λεξιλογίου",
+    "Overview" to "Επισκόπηση",
     "known" to "γνωστό",
     "{0}%" to "{0}%",
     "{1} of {2} terms shown" to "Εμφανίζεται {1} από {2} λήμμα|Εμφανίζονται {1} από {2} λήμματα",

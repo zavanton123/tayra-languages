@@ -148,7 +148,7 @@ class TermsScreenTest {
         waitUntil(timeoutMillis = 5_000) {
             shownIn("vocabulary-overview", "5") && shownIn("legend-known", "2") && shownIn("legend-learning", "3")
         }
-        onNodeWithText("Vocabulary overview").assertExists()
+        onNodeWithText("Overview").assertExists()
         onNodeWithText("All vocabulary").assertDoesNotExist()
         assertTrue(shownIn("vocabulary-ring", "40%") && shownIn("vocabulary-ring", "known"))
         assertTrue(shownIn("legend-known", "Known") && shownIn("legend-known", "40%"))
@@ -331,7 +331,7 @@ class TermsScreenTest {
         onNodeWithText("Learning 1–4 · 3 terms").assertExists()
         onNodeWithText("Filter vocabulary").assertDoesNotExist()
         waitUntil(timeoutMillis = 5_000) { shownIn("legend-known", "40%") && shownIn("legend-learning", "3") }
-        onNodeWithText("Vocabulary overview").assertExists()
+        onNodeWithText("Overview").assertExists()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone.png"))) }
 
         onNodeWithText("Filters").performClick()

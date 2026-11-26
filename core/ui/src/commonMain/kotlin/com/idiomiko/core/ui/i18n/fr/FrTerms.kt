@@ -32,7 +32,7 @@ internal val frTerms: Map<String, String> = mapOf(
     "Recently added" to "Ajoutés récemment",
     "Term A–Z" to "Terme A–Z",
     // PhoneTerms.kt
-    "Vocabulary overview" to "Aperçu du vocabulaire",
+    "Overview" to "Aperçu",
     "known" to "connu",
     "{0}%" to "{0} %",
     "{1} of {2} terms shown" to "{1} terme affiché sur {2}|{1} termes affichés sur {2}",
