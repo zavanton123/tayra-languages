@@ -8,6 +8,8 @@ Keep urdu_fold and UrduParser.fold the same.
 """
 import json
 import re
+import tarfile
+from collections import defaultdict
 
 ZWNJ = "‌"
 # Long vowels and hamza seats written as a letter and a combining sign, and the letters with hamza Urdu writes otherwise.
@@ -184,6 +186,18 @@ def mend(db, pos, lemmas, common):
         for form in forms.split() or (verb_forms(word) if kind == "verb" else []):
             if form not in WORDS and word not in lemmas.get(form, ()):
                 lemmas[form].append(word)
+    USAGE.clear()
+    USAGE.update(read_usage())
+    unlink_lookalikes(pos, lemmas)
+    # The oblique plural of an adjective in -ا the pack's table inflects, which texts use as a noun (بڑوں "elders",
+    # چھوٹوں), and which the tables lack, so that the pack gave it to a rarer word (بڑ) or verb (چھوٹنا) alone; not one
+    # spelled as a noun in -ہ's (دانوں of دانہ, not دانا "wise").
+    for word, kinds in sorted(pos.items()):
+        if "adj" in kinds and word.endswith("ا") and word in lemmas.get(word[:-1] + "ے", ()):
+            form = word[:-1] + "وں"
+            if form not in pos and word[:-1] + "ہ" not in pos and form not in OVERRIDES and form not in NOT_FORMS \
+                    and word not in lemmas.get(form, ()):
+                lemmas[form].append(word)
     tabled = {lemma for (lemma,) in db.execute("SELECT DISTINCT lemma FROM forms WHERE generated = 0")}
     genders = {}
     for word, kind, senses in db.execute("SELECT word_lc, pos, senses FROM entries WHERE pos IN ('noun', 'adj')"):
@@ -196,6 +210,9 @@ def mend(db, pos, lemmas, common):
     for (word, kind), tags in genders.items():
         gender = next(iter(tags)) if len(tags) == 1 else None
         forms = adjective_forms(word) if kind == "adj" else noun_forms(word, gender)
+        # And an adjective's oblique plural, which texts use as a noun (پیاروں), unless spelled as a noun in -ہ's (دانوں).
+        if kind == "adj" and len(forms) == 2 and not forms[0].endswith("ئے") and word[:-1] + "ہ" not in pos:
+            forms = forms + [word[:-1] + "وں"]
         # A masculine noun in -اہ ends in the consonant (ماہ, گواہ): گواہوں, not گواوں.
         if kind == "noun" and gender == "masculine" and word.endswith("اہ"):
             forms = [word + "وں"]
@@ -204,3 +221,104 @@ def mend(db, pos, lemmas, common):
                 made.setdefault(form, []).append(word)
     for form, words in made.items():
         lemmas[form] = list(dict.fromkeys(words))
+
+
+# How the news and Wikipedia sentences use the words (Leipzig's, the build's third source): the builder sets SENTENCES to
+# their archives, and mend reads them once into USAGE.
+SENTENCES = []
+USAGE = {}
+# What follows a verb's stem or participle (کر, گیا, دیا, لیا, رہا, سکا, چکا, ہوئے, ہے, گا) and a noun's or adjective's
+# form (کا, کی, کو, میں, سے, پر, نے; والا), and what comes before a noun (کا, ایک, اس, اپنا, ہر).
+_VERBAL = set("""کر گیا گئی گئے گئیں جاتا جاتی جاتے جائے جائیں جانا جانے جاؤ جاتیں دیا دی دیے دئیے دئے دیں دینا دینے دیتا دیتی
+دیتے دے دو لیا لی لیے لئے لیں لینا لینے لیتا لیتی لیتے لے لو رہا رہی رہے رہیں رہنا رہنے رہتا رہتی رہتے سکا سکی سکے سکتا سکتی
+سکتے سکیں چکا چکی چکے چکیں ہوا ہوئی ہوئے ہوئیں پڑا پڑی پڑے پڑتا پڑتی پڑتے ڈالا ڈالی ڈالے بیٹھا بیٹھی بیٹھے اٹھا اٹھی اٹھے
+گا گی گے ہے ہیں تھا تھی تھے تھیں""".split())
+_AFTER_NOUN = set("کا کی کے کو میں سے پر نے تک والا والی والے والوں".split())
+_BEFORE_NOUN = set("کا کی کے ایک اس ان یہ وہ اپنا اپنی اپنے فی ہر کوئی کسی کئی سب تمام".split())
+# The fewest times the sentences must have a word for its uses there to settle anything.
+SEEN_ENOUGH = 20
+
+
+def _sentences():
+    for path in SENTENCES:
+        if not path:
+            continue
+        with tarfile.open(path) as archive:
+            members = sorted((m for m in archive.getmembers() if m.name.endswith("-sentences.txt")), key=lambda m: m.name)
+            for member in members:
+                for line in archive.extractfile(member):
+                    yield line.decode("utf-8", "replace").rstrip("\n").partition("\t")[2]
+
+
+def read_usage():
+    """
+    Counts, for every word of the sentences (as the reader cuts and folds them): how often they have it (seen), and how
+    often it stands before a verb's helper (verbal: ڈٹ کر, سہمے ہوئے) and as a noun stands (nominal: کی سمری, ہیرے کی,
+    both counted).
+    """
+    kinds = ("seen", "verbal", "nominal")
+    usage = {k: {} for k in kinds}
+    seen, verbal, nominal = (usage[k] for k in kinds)
+    for sentence in _sentences():
+        words = LETTERS.findall(urdu_fold(sentence))
+        last = len(words) - 1
+        for i, word in enumerate(words):
+            seen[word] = seen.get(word, 0) + 1
+            before = words[i - 1] if i else ""
+            after = words[i + 1] if i < last else ""
+            if after in _VERBAL:
+                verbal[word] = verbal.get(word, 0) + 1
+            nominal[word] = nominal.get(word, 0) + (after in _AFTER_NOUN) + (before in _BEFORE_NOUN)
+    return usage
+
+
+def _share(kind, word):
+    seen = USAGE["seen"].get(word, 0)
+    return USAGE[kind].get(word, 0) / seen if seen >= SEEN_ENOUGH else 0.0
+
+
+# A verb's ambiguous form (its stem, perfective, subjunctive or imperative: سمری, بوری, ہیری, کلپ, پچ, بہرے, بچوں) whose
+# sentences seldom put a helper after it (VERBAL_SHARE) and mostly use it as a noun, and whose verb's own forms (the
+# infinitive and habitual participle: سمرنے, سمرتا) are rarer than PLAIN_SHARE times it, is no form of that verb.
+VERBAL_SHARE = 0.1
+PLAIN_SHARE = 0.2
+
+
+def _verb_own_forms(verb):
+    stem = verb[:-2]
+    return {stem + e for e in ("نا", "نے", "نی", "نیں", "تا", "تے", "تی", "تیں")}
+
+
+# Or, of a form spelled as a noun's or adjective's regular form (بہرے of بہرا "deaf", ہیرے of ہیرا), the sentences put a
+# helper after it less than OTHER_VERBAL_SHARE of the time.
+OTHER_VERBAL_SHARE = 0.25
+
+
+def unlink_lookalikes(pos, lemmas):
+    """Takes the verbs' ambiguous forms that the sentences use as other words off those verbs (see VERBAL_SHARE)."""
+    seen = USAGE["seen"]
+    verbs = defaultdict(list)
+    for form, of in lemmas.items():
+        for lemma in of:
+            if lemma.endswith("نا") and "verb" in pos.get(lemma, ()):
+                verbs[lemma].append(form)
+    regular = set()
+    for word, kinds in pos.items():
+        if " " not in word and kinds & {"noun", "adj"}:
+            regular.update(adjective_forms(word) if "adj" in kinds else [])
+            regular.update(noun_forms(word, "masculine") if word[-1:] in "اہ" and "noun" in kinds else [])
+    for verb in sorted(verbs):
+        own = _verb_own_forms(verb)
+        plain = sum(seen.get(f, 0) for f in own)
+        for form in sorted(set(verbs[verb]) - own - {verb}):
+            count = seen.get(form, 0)
+            if form in OVERRIDES or plain >= PLAIN_SHARE * count:
+                continue
+            helped, used = _share("verbal", form), _share("nominal", form)
+            # A noun or adjective of the pack (بہرا "deaf") is no form of a verb the sentences hardly have, however seldom
+            # they have it; the mend below then makes its forms.
+            spelled = pos.get(form, set()) & {"noun", "adj"}
+            other = helped < VERBAL_SHARE and used >= helped or form in regular and helped < OTHER_VERBAL_SHARE
+            if other if count >= SEEN_ENOUGH else spelled:
+                lemmas[form] = [l for l in lemmas[form] if l != verb]
+

@@ -6116,6 +6116,11 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
         # And the Latvian forms made for the words, whose counts also settle which verbs are made (frequency_latvian).
         frequency_latvian.SEEN = set(freq)
         frequency_latvian.COUNTS = freq
+    if language == "ur":
+        # The Urdu rules read how the news and Wikipedia sentences use each word (frequency_urdu.read_usage).
+        frequency_urdu.SENTENCES = [
+            download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz")
+            for corpus in FALLBACKS["ur"]["leipzig"]]
     pos, lemmas, common, outdated = load_dictionary(language)
     overrides = OVERRIDES.get(language, {})
     excluded = EXCLUDE.get(language, set())
