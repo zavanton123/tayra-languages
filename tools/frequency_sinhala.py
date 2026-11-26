@@ -135,8 +135,8 @@ PRESENT_TAILS = ["නවා", "නව", "නවලු", "න", "න්නේ", "
 # The colloquial participle and past relative of an a-stem of two syllables or more (බලලා, බලපු; not ක of කනවා).
 A_PRESENT_TAILS = ["ලා", "ල", "පු"]
 NASAL_PRESENT_TAILS = ["නවා", "නව", "නවලු", "න", "නේ", "නෙ", "නට", "නම්", "නා", "නු", "නකොට", "නකම්"]
-PAST_TAILS = ["ුවා", "ුව", "ුවේ", "ුවෙ", "ූ", "ුවේය", "ුවාය", "ුවොත්", "ුවාම", "ීම", "ීමට", "ීමේ", "ීමෙන්", "ීමක්"]
-E_PAST_TAILS = ["ුණා", "ුණ", "ුණේ", "ුණු", "ුණි", "ුණොත්", "ුණාම", "ී", "ිලා", "ිල", "ීම", "ීමට", "ීමේ", "ීමෙන්", "ිණ", "ිණි"]
+PAST_TAILS = ["ුවා", "ුව", "ුවේ", "ුවෙ", "ූ", "ුවේය", "ුවාය", "ුවොත්", "ුවාම", "ීම", "ීමට", "ීමේ", "ීමෙන්", "ීමක්", "ීම්"]
+E_PAST_TAILS = ["ුණා", "ුණ", "ුණේ", "ුණු", "ුණි", "ුණොත්", "ුණාම", "ී", "ිලා", "ිල", "ීම", "ීමට", "ීමේ", "ීමෙන්", "ිණ", "ිණි", "ීම්"]
 # The negative prefix (නොකළ, නොවේ, නොදන්නා): a verb's form with it is the verb's.
 NEGATIVE = "නො"
 
@@ -176,19 +176,19 @@ _BY_HAND = {
              "ගිහිල්ලා ගිහිං ගොස් ගොසින් යාම යෑම යාමට යෑමට යාමේ යෑමේ යන්නට යා ගියෝය ගියහ යන්නම් ගියාද යනවද යනවාද යනවලු "
              "යන්නෙ යනව ගියෙ යයිද යන්නද යාවි යැම යන්නයි",
     "එනවා": "එන එන්න එන්නේ එයි එති එමු එමින් එද්දී එනකොට ආවා ආව ආවේ ආවේය ආවාය ආවත් ආවොත් ආවාම ඇවිත් ඇවිල්ලා ඒම ඒමට "
-            "ඊමට ඒමේ ආ ආවාද එනවද එනවාද එන්නම් එයිද එනව ආවෙ එන්නෙ ආවම ආවහම ආවට ආවද",
+            "ඊමට ඒමේ ආ ආවාද එනවද එනවාද එන්නම් එයිද එනව ආවෙ එන්නෙ ආවම ආවහම ආවට ආවද ආපු",
     "කරනවා": "කරන කරන්න කරන්නේ කරයි කරති කරමු කරමින් කරද්දී කරනකොට කළා කළ කළේ කළේය කළාය කළත් කළොත් කළාම කරලා කරල කර "
              "කොට කිරීම කිරීමට කිරීමේ කිරීමෙන් කිරීමක් කරනු කරන්නට කරපු කළහ කරගෙන කරන්නම් කරනවද කරනවාද කරයිද කරන්නද කරන්නත් "
              "කෙරුවා කෙරුව කෙරුවේ කරනව කළෙ කරන්නෙ කිරීමත් කිරීමද කරති කරන්නා කරන්නන් කරමි කිරීම් කිරීමේදී කරනවට කිරිමට කෙළේ",
     "වෙනවා": "වෙන වෙන්න වෙන්නේ වෙයි වේ වෙති වෙමු වෙමින් වෙද්දී වුණා වුණ වුණේ වුණු වුණත් වුණොත් වුණාම වී වෙලා වෙල විය වූ "
              "වූයේ වූයේය වූහ වීම වීමට වීමේ වීමෙන් වන වන්නේ වන්නට වනු වේද වෙයිද වෙනවද වෙනවාද වෙනකොට වුවත් වුවද වුවහොත් "
-             "වේවා වුණාද වෙනව වෙන්නෙ වුණෙ වූවා වූවාය වන්නා වීමක් වනවා වුයේ",
+             "වේවා වුණාද වෙනව වෙන්නෙ වුණෙ වූවා වූවාය වන්නා වීමක් වනවා වුයේ වුව වීම් වන්නේය",
     "දෙනවා": "දෙන දෙන්න දෙන්නේ දෙයි දෙති දෙමු දෙමින් දෙද්දී දුන්නා දුන්න දුන්නේ දුන්නේය දුන් දුන්නත් දුන්නොත් දීලා දීල දීම "
              "දීමට දීමේ දීමෙන් දෙනු දෙන්නම් දෙනවද දෙනවාද දෙන්නට දුන්නාද දෙයිද දෙනව දුන්නෙ දීමක් දුනි",
     "ගන්නවා": "ගන්න ගන්නේ ගනී ගනියි ගනිති ගනිමු ගනිමින් ගත්තා ගත්ත ගත්තේ ගත්තේය ගත් ගත්තත් ගත්තොත් ගෙන ගෙනත් අරන් අරගෙන "
-              "ගැනීම ගැනීමට ගැනීමේ ගැනීමෙන් ගනු ගන්නට ගන්නම් ගන්නවද ගන්නවාද ගත්තාද ගන්නා ගන්නව ගත්තෙ ගැනීමක් ගනිද්දී ගත්හ",
+              "ගැනීම ගැනීමට ගැනීමේ ගැනීමෙන් ගනු ගන්නට ගන්නම් ගන්නවද ගන්නවාද ගත්තාද ගන්නා ගන්නව ගත්තෙ ගැනීමක් ගනිද්දී ගත්හ ගැනිණ",
     "කියනවා": "කියන කියන්න කියන්නේ කියයි කියති කියමු කියමින් කියද්දී කිව්වා කිව්ව කිව්වේ කිව්වත් කිව්වොත් කීවා කී කීවේය "
-              "කියූ කියූයේ කියා කියලා කියල කීම කීමට කියනු කියන්නට කියනවද කියනවාද කිව්වාද කියාද කියනව කිව්වෙ කියන්නෙ කීවේ",
+              "කියූ කියූයේ කියා කියලා කියල කීම කීමට කියනු කියන්නට කියනවද කියනවාද කිව්වාද කියාද කියනව කිව්වෙ කියන්නෙ කීවේ කිව",
     "දන්නවා": "දන්න දන්නේ දනී දනියි දනිති දැන දන්නවද දන්නවාද දන්නව දන්නෙ දන්නා දැනීම",
     "දකිනවා": "දකින දකින්න දකින්නේ දකී දකියි දකිති දකිමු දකිමින් දැක්කා දැක්ක දැක්කේ දැක්කත් දැක්කොත් දුටු දුටුවේ දුටුවා දැක "
               "දැකලා දැකල දැකීම දැකීමට දකිනු දැක්කාද දකිනවද දකිනවාද දකින්නට දක්නට",
@@ -217,7 +217,7 @@ _BY_HAND = {
     "පවතිනවා": "පවතින පවතී පවතියි පවතිති පැවති පැවැති පැවතියේ පැවැතියේ පැවතුණා පැවතුණු පැවතීම පවතින්නේ පවතින්නට "
                "පැවතිණ පැවතිණි පවත්නා",
     "පවත්වනවා": "පවත්වන පවත්වා පවත්වාගෙන පැවැත්වූ පැවැත්වීම පැවැත්වීමට පැවැත්වීමේ පවත්වයි පවත්වන්න පවත්වන්නේ පැවැත්වෙන "
-                "පැවැත්වේ පැවැත්විණ පැවැත්විණි පැවැත්වුණා පැවැත්වුණු පැවැත්වෙයි පවත්වමින් පැවැත්වුවා",
+                "පැවැත්වේ පැවැත්විණ පැවැත්විණි පැවැත්වුණා පැවැත්වුණු පැවැත්වෙයි පවත්වමින් පැවැත්වුවා පැවැත්විය",
     "හඳුන්වනවා": "හඳුන්වන හඳුන්වා හැඳින්වූ හැඳින්වීම හැඳින්වේ හඳුන්වයි හඳුන්වන්නේ හැඳින්වෙන හඳුන්වමින් හඳුන්වාදීම",
     "ලබාදෙනවා": "ලබාදී ලබාදීම ලබාදීමට ලබාදීමේ ලබාදෙන ලබාදෙයි ලබාදුන් ලබාදුන්නා ලබාදෙන්න ලබාදෙන්නේ ලබාදුන්නේ ලබාදෙමින්",
     "ලබාගන්නවා": "ලබාගත ලබාගත් ලබාගැනීම ලබාගැනීමට ලබාගැනීමේ ලබාගන්න ලබාගන්නා ලබාගෙන ලබාගත්තා ලබාගන්නට ලබාගනී",
@@ -309,7 +309,31 @@ NOT_WORDS = {"ක්", "ට", "ගේ", "ය", "ව", "ක", "ද", "ම", "ය�
              "ඩී", "ටී", "කේ", "සී", "බී", "පී", "ජේ", "එස්", "එල්", "ආර්", "එච්", "ඩබ්ලිව්", "ජී", "එම්", "සිල්වා", "තිස්ස",
              "රනිල්", "වික්‍රමසිංහ", "පෙරේරා", "රාජපක්ෂ", "මහින්ද", "සරත්", "කුමාරය",
              # Pieces of words: ටෙලි of ටෙලි නාට්‍ය, යුත් of යුත්තේ, and a typo.
-             "ටෙලි", "යුත්", "ප්‍රමාණයකය"}
+             "ටෙලි", "යුත්", "ප්‍රමාණයකය",
+             # කාර of කාර්යය and -කාර compounds, the letter N, and -වරයා written apart.
+             "කාර", "එන්", "වරයා"}
+# Endings only a verb's forms have (a verb's -ා, -ල, -න, -මු forms are often nouns: පුරා, අසල, ඔතන, පළමු).
+VERBAL_TAILS = ("මින්", "න්න", "න්නේ", "න්නට", "ද්දී", "නකොට", "ූ", "ුවා", "ුවේ", "ුවේය", "ීම", "ීමට", "ීමේ", "ීමෙන්", "ුණා",
+                "ුණු", "ුණේ", "ිලා")
+# Literary verbs the pack lacks, and the spoken verb they are (ගසනවා: ගහනවා).
+LITERARY_VERBS = {"ගසනවා": "ගහනවා", "අසනවා": "අහනවා", "සාදනවා": "හදනවා"}
+# One word's spellings and forms the rules keep apart, by hand: spelling or form -> the word.
+FOLDS = {
+    # A noun's definite, plural, indefinite or case form, an adjective in -ු beside its noun, glossed apart from it.
+    "සාමාන්‍යය": "සාමාන්‍ය", "ආරම්භය": "ආරම්භ", "උත්සාහය": "උත්සාහ", "අරමුණු": "අරමුණ", "ටිකක්": "ටික", "දකුණ": "දකුණු",
+    "සතුටු": "සතුට", "දස": "දහය", "වහන්සේලා": "වහන්සේ", "නිසයි": "නිසා", "මුහුද": "මුහුදු", "සති": "සතිය",
+    "වැරදි": "වැරැද්ද", "වැරැදි": "වැරැද්ද", "කටයුත්ත": "කටයුතු", "බුදුන්": "බුදු", "අයකු": "අය", "නියමිතය": "නියමිත",
+    # Verb forms: the literary past, the participle before හැකි and යුතු, the absolutive.
+    "යෙදී": "යෙදෙනවා", "සැලකිය": "සලකනවා", "ලැබීය": "ලබනවා", "රැක": "රකිනවා", "පැවැසීය": "පවසනවා", "තියා": "තබනවා",
+    "දැකිය": "දකිනවා", "නොවී": "වෙනවා", "වනුයේ": "වෙනවා", "තිබු": "තිබෙනවා", "මියගොස්": "මිය",
+    # Spellings and spoken forms.
+    "බිරිඳ": "බිරිය", "කාරණාව": "කාරණය", "රහ": "රස", "බෑ": "බැහැ", "කාලෙ": "කාලය", "නෙමෙයි": "නෙවෙයි",
+    "නගනවා": "නඟනවා", "ජෙනරාල්": "ජනරාල්", "නිමා": "නිම", "නැතුව": "නැති", "නැතැයි": "නැත", "බැව්": "බව",
+    "කොහොමද": "කොහොම", "මාධ්‍යය": "මාධ්‍ය", "රාත්‍රිය": "රාත්‍රී", "භාරය": "භාර", "සම්බන්ධය": "සම්බන්ධ", "කඳු": "කන්ද",
+    "සමහරු": "සමහර", "අධිකාරි": "අධිකාරිය", "රජතුමා": "රජ", "තාත්ත": "තාත්තා", "අයිය": "අයියා", "තරහා": "තරහ",
+    "හඩ": "හඬ", "මමම": "මම", "අයෙක්": "අය", "ගෙවල්": "ගෙදර", "දේශනය": "දේශනාව", "ගායනය": "ගායනා", "සංචාරකයා": "සංචාරක",
+    "මහජනතාව": "මහජන", "දැනටමත්": "දැනට",
+}
 # A stem is its -ය or -ව noun's when that noun is at least this common beside it.
 STEM_SHARE = 0.2
 # A word glossed apart from the noun it looks like a form of is a word of its own when it is this many times commoner.
@@ -388,7 +412,13 @@ def nominal_forms(word, known=frozenset()):
         forms = {word + t for t in VOWEL_TAILS}
     if word.endswith("ව"):
         forms |= {word + t for t in VA_TAILS}
-    # An inanimate noun in -ිය has its plural in -ි and -ීන් (ජාතිය: ජාති, ජාතීන්).
+    # A learned noun in -ය has a plural in -යන් too (තත්ත්වය: තත්ත්වයන්).
+    if word.endswith("ය") and letters(word) >= 3:
+        forms |= {word + t for t in ["න්", "න්ට", "න්හි", "න්ගේ"]}
+    # A noun in -ුව has its plural in -ූන් (භික්ෂුව: භික්ෂූන්, භික්ෂූන්ට).
+    if word.endswith("ුව") and letters(word) >= 3:
+        forms |= {word[:-2] + "ූ" + t for t in N_PLURAL_TAILS + ["හු"]}
+    # An inanimate noun in -ිය has its plural in -ීන් and -ිවල (ජාතිය: ජාතීන්, ජාතිවල); its bare -ි is plural_stems'.
     if word.endswith("ිය") and letters(word) >= 3:
         forms |= {word[:-2] + t for t in IYA_PLURAL_TAILS} | {word[:-1] + t for t in ["වල", "වලට", "වලින්"]}
     # An animate noun in -ු takes -වන් in the plural (සැකකරු: සැකකරුවන්).
@@ -427,15 +457,34 @@ def front(stem):
 COMPOUNDED = ("වෙනවා", "කරනවා", "ගන්නවා", "දෙනවා")
 
 
+# A compound verb's forms written as one word with a word before them (පත්කළා, ඉදිකිරීම, හඳුනාගෙන, පහරදුන්): -වන, -වේ, -විය,
+# -වෙන are rather an ordinal, a locative or a noun's (පළමුවන, පොදුවේ, අඩවිය, පිරිවෙන), -වනවා a causative's (කරවනවා).
+JOINED_FORMS = {base: [f for f in [base] + _BY_HAND[base].split() if f not in ("වන", "වේ", "විය", "වෙන", "වනු", "වේද", "වනවා")]
+                for base in COMPOUNDED}
+# Words spelled as a word and a compound verb's form that are words of their own.
+NOT_JOINED = {"හිතකර", "හානිකර", "අහිතකර", "තනිකර", "කරුණාකර", "වැදගත්", "ඇඟවීම", "දැන්වීම"}
+
+
+def joined_parts(word):
+    """[word] as (the word before, the compound verb's form), the longest form first, or None."""
+    if word in NOT_JOINED:
+        return None
+    for base, forms in JOINED_FORMS.items():
+        for form in sorted(forms, key=len, reverse=True):
+            if word.endswith(form) and letters(word[:-len(form)]) >= 2:
+                return word[:-len(form)], base
+    return None
+
+
 def verb_forms(word):
     """
     A verb's forms by rule from its -නවා form: the present's, and the past's of an a-stem or e-stem; a compound's are
-    its last verb's (සිදුවෙනවා as වෙනවා).
+    its last verb's (සිදුවෙනවා as වෙනවා; not යෙදෙනවා, an e-stem, as දෙනවා).
     """
     if not word.endswith("නවා") or " " in word:
         return set()
     for base in COMPOUNDED:
-        if word.endswith(base) and len(word) > len(base) and word not in _BY_HAND:
+        if word.endswith(base) and letters(word[:-len(base)]) >= 2 and word not in _BY_HAND:
             head = word[:-len(base)]
             return with_clitics({head + form for form in _BY_HAND[base].split()} | {head + base}) - {word}
     stem = word[:-3]
@@ -454,6 +503,11 @@ def verb_forms(word):
         forms |= {front(stem) + t for t in PAST_TAILS} | {stem + "ා"}
     elif last == "ි":
         forms.add(stem[:-1] + "ී")
+        # An i-stem's past and verbal noun on its fronted root (රකිනවා: රැක්කා, රැකීම); its absolutive (රැක) is often a word
+        # (නැවත "again", මැද "middle").
+        root = front(stem[:-1])
+        if letters(root) >= 2 and root[-1] in CONSONANTS:
+            forms |= {root + AL_LAKUNA + root[-1] + "ා", root + AL_LAKUNA + root[-1] + "ේ", root + "ීම", root + "ීමට", root + "ීමේ"}
     return with_clitics(forms) - {word}
 
 
@@ -490,6 +544,67 @@ def word_forms(word, kinds, known=frozenset()):
     if "verb" in kinds or word.endswith("නවා"):
         forms |= verb_forms(word)
     return forms
+
+
+PLURAL_TAILS = ["", "වල", "වලට", "වලින්"]
+
+
+def plural_stems(word):
+    """
+    A noun's plurals and adjectives that may be words of their own: ජාති of ජාතිය; on the single consonant of a doubled one,
+    -ු or -ි (කටයුතු of කටයුත්ත, ගොඩනැගිලි of ගොඩනැගිල්ල, වැසි of වැස්ස); and -ු on a final consonant (තනතුරු of තනතුර,
+    සතුටු of සතුට).
+    """
+    out = set()
+    if word[-1] in CONSONANTS and letters(word) >= 3:
+        out.add(word + "ු")
+    if word.endswith("ිය") and letters(word) >= 3:
+        out.add(word[:-1])
+    if len(word) > 3 and word[-1] in CONSONANTS and word[-2] == AL_LAKUNA and word[-3] == word[-1] and letters(word) >= 3:
+        out |= {word[:-2] + "ු", word[:-2] + "ි"}
+    return out
+
+
+# Honorific endings of a person's noun (අධ්‍යක්ෂවරයා of අධ්‍යක්ෂ, රජතුමා of රජ).
+PERSON_ENDINGS = ("වරයා", "තුමා")
+
+
+def animate_stems(word):
+    """
+    An animate noun in -යා or -ුවා's bare stems (ගොවි and ගොවිය of ගොවියා, නිලධාරී of නිලධාරියා, සිසු of සිසුවා), and the noun before an honorific ending
+    (සභාපති of සභාපතිවරයා). Not a stem before -ා alone, as a verb's absolutive ends so too (වෙහෙසා).
+    """
+    if not word.endswith("ා") or not word[-2:-1] in CONSONANTS or letters(word) < 3:
+        return set()
+    stem = word[:-1]
+    out = set()
+    if stem.endswith("ය") and letters(stem) >= 3 and stem[-2] != AL_LAKUNA:
+        out |= {stem, stem[:-1]}
+        if stem.endswith("ිය"):
+            out.add(stem[:-2] + "ී")
+    for ending in PERSON_ENDINGS:
+        if word.endswith(ending) and letters(word[:-len(ending)]) >= 2:
+            out.add(word[:-len(ending)])
+    # A noun in -ුවා has its stem in -ු (සිසු of සිසුවා, නළු of නළුවා).
+    if word.endswith("ුවා") and letters(word) >= 3:
+        out.add(word[:-2])
+    return out
+
+
+# Letters written either way in one word: the second the spelling key has.
+KEY_LETTERS = str.maketrans({"ඟ": "ග", "ඬ": "ඩ", "ඳ": "ද", "ඹ": "බ", "ළ": "ල", "ණ": "න", "ෑ": "ැ", "භ": "බ"})
+
+
+def spelling_key(word):
+    """
+    What [word]'s spellings share: ක්‍ෂ as ක්ෂ, ත්ත්ව as ත්ව, ං as න්, ඟ as ග, ළ as ල, ණ as න, a final ී ූ as ි ු, and ැ before a consonant and ැ
+    once.
+    """
+    key = word.replace("ක්" + ZWJ + "ෂ", "ක්ෂ").replace("ත්ත්ව", "ත්ව").replace("ං", "න්").translate(KEY_LETTERS)
+    key = re.sub("([ැඇ])([ක-ෆ])ැ", "\\1\\2", key)
+    if key[-1:] in ("ී", "ූ"):
+        key = key[:-1] + {"ී": "ි", "ූ": "ු"}[key[-1]]
+    return key
 
 
 def tail_cost(word, form):
@@ -549,7 +664,12 @@ def build(size, download, dictionaries=None):
     dictionaries = dictionaries or os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dictionaries")
     found = _source_counts(download)
     label = " + ".join(LABELS[k] for k in found)
-    share = blended(found)
+    scores, forms = analyse(blended(found), dictionaries)
+    return _rank(scores, forms, size, label)
+
+
+def analyse(share, dictionaries):
+    """Each word's score and its forms' shares: (word -> score, word -> form -> share)."""
     own, weak, names = lexicon(dictionaries)
     glosses = gloss_lemmas(dictionaries, os.path.dirname(dictionaries))
 
@@ -563,11 +683,19 @@ def build(size, download, dictionaries=None):
                 and share.get(word, 0.0) > UNRELATED_SHARE * share.get(maker, 0.0) and bool(glosses.get(word)) and bool(glosses.get(maker))
                 and not glosses[word] & glosses[maker] and word not in verbal)
 
+    def alike(a, b):
+        """Whether the pack glosses [a] and [b] with an English word in common, or one the start of another (build, building)."""
+        first, second = glosses.get(a, set()), glosses.get(b, set())
+        return bool(first & second) or any(len(x) >= 5 and len(y) > len(x) and y.startswith(x) or len(y) >= 5 and len(x) > len(y)
+                                           and x.startswith(y) for x in first for y in second)
+
     kinds = {w: ks for w, ks in own.items()}
     # Every word's forms: form -> the words that make it.
     made = defaultdict(set)
     verbal = defaultdict(set)
-    known = set(own) | weak
+    # A word of its own keeps its -ය noun apart (රජ "king", රජය "government"), and so does a stem the pack glosses apart from
+    # it (මත "on", මතය "opinion"; දහස "thousand", දහසය "sixteen"); other stems take it (වාහන: වාහනය).
+    known = set(own) | {w for w in weak if w.endswith("ය") and glosses.get(w) and glosses.get(w[:-1]) and not alike(w, w[:-1])}
     for word in list(own) + sorted(weak):
         ks = kinds.get(word, {"unknown"})
         for form in word_forms(word, ks, known):
@@ -575,6 +703,41 @@ def build(size, download, dictionaries=None):
                 made[form].add(word)
         for form in verb_forms(word):
             verbal[form].add(word)
+        # An animate noun's bare stem, as compounds and speech have it (ගොවි of ගොවියා, ශිෂ්‍ය of ශිෂ්‍යයා, තාත්ත of තාත්තා), when the
+        # pack glosses the two alike (not වැසි "rain" of වැසියා "resident").
+        for stem in animate_stems(word):
+            if (stem in share or stem in weak) and alike(stem, word):
+                made[stem].add(word)
+    # A spelling's forms (පක්‍ෂයේ of පක්‍ෂය, පක්ෂය's), and a form by hand with a clitic on it (වීමත් of වීම, වෙනවා's).
+    for form, word in SINHALA_FORMS.items():
+        if form == word:
+            continue
+        made_forms = with_clitics({form}) - {form}
+        if form in SPELLINGS:
+            made_forms |= word_forms(form, kinds.get(word, {"unknown"}), known)
+        for made_form in made_forms:
+            if (made_form in share or made_form in weak) and made_form not in SINHALA_FORMS:
+                made[made_form].add(word)
+                if word.endswith("නවා"):
+                    verbal[made_form].add(word)
+    # A compound verb's form written as one word, when the list has no such verb (ඉදිකළා, පත්කළා, සිදුකරන): the first word's,
+    # or the verb's whose form that is (තෝරාගෙන of තෝරනවා, හොයාගෙන of සොයනවා).
+    for word in weak:
+        parts = joined_parts(word)
+        if not parts or parts[0] + parts[1] in own or parts[0] + parts[1] in weak:
+            continue
+        first, base = parts
+        # A verb's absolutive before ගන්නවා is that verb's (තෝරාගෙන); before වෙනවා only a word of its own, as a causative's
+        # stem is no word (ඉගැන්වීම, හැකිවීම).
+        verbs = set()
+        if base == "ගන්නවා":
+            verbs = {SINHALA_FORMS[first]} if SINHALA_FORMS.get(first, "").endswith("නවා") else set(verbal.get(first, ()))
+        if verbs:
+            for verb in verbs:
+                made[word].add(verb)
+                verbal[word].add(verb)
+        elif first in own or first in weak and base != "වෙනවා" and first not in verbal:
+            made[word].add(first)
     # A word only the parallel dictionary has is a word when no shorter word makes it, and when it is no stem of a noun in -ය
     # or -ව that is common enough beside it (ප්‍රශ්න of ප්‍රශ්නය; not ජාතික "national" of the rare ජාතිකය).
     stems = {}
@@ -584,18 +747,94 @@ def build(size, download, dictionaries=None):
             stems[stem] = word
     # A verb first, as its forms are shorter than it (හදන of හදනවා).
     words = set(own) | {w for w in weak if w.endswith("නවා") and not any(m in own for m in made.get(w, ()))}
+    def definite_of(form, word):
+        """Whether [form] is a case of [word]'s definite form, glossed alike (පාර්ලිමේන්තුවේ of පාර්ලිමේන්තුව of පාර්ලිමේන්තු)."""
+        return (not word.endswith("නවා") and alike(form, word)
+                and any(w in (word + "ය", word + "ව") and w != form for w in made.get(form, ())))
+
+    def made_by_word(word):
+        """Whether a word makes [word], or makes the definite form it is a case of."""
+        return (any(w in words and not unrelated(word, w) for w in made.get(word, ()) if w != word)
+                or any(definite_of(word, g) for w in made.get(word, ()) if w not in words for g in made.get(w, ()) if g in words))
+
     for word in sorted(weak, key=lambda w: (len(w), w)):
-        if word not in stems and not any(w in words and not unrelated(word, w) for w in made.get(word, ()) if w != word):
+        if word not in stems and not made_by_word(word):
             words.add(word)
     # A plural shorter than its noun (නිලධාරීන් of නිලධාරියා, ළමයි of ළමයා) is the noun's.
     for word in sorted(words & weak, key=lambda w: (len(w), w)):
         if any(w in words and w.endswith("ා") and len(w) > len(word) and not unrelated(word, w) for w in made.get(word, ())):
             words.discard(word)
+    # One word in two spellings (ක්‍ෂ and ක්ෂ, ඟ and ග, ළ and ල, කැමැති and කැමති): the rarer is the commoner's when the pack glosses
+    # them alike; FOLDS by hand first.
+    variant_of = {v: w for v, w in FOLDS.items() if w in words}
+    by_key = defaultdict(list)
+    for word in words:
+        by_key[spelling_key(word)].append(word)
+    for group in by_key.values():
+        group.sort(key=lambda w: (-share.get(w, 0.0), w))
+        for word in group[1:]:
+            head = next((w for w in group if w != word and w not in variant_of and alike(w, word)), None)
+            if head and word not in variant_of and share.get(head, 0.0) >= share.get(word, 0.0):
+                variant_of[word] = head
+    # A spelling of a word folded by hand is that word's too (අධිකාරී as අධිකාරි, අධිකාරිය's).
+    folded_keys = {spelling_key(v): w for v, w in FOLDS.items() if v in variant_of}
+    for word in sorted(words):
+        head = folded_keys.get(spelling_key(word))
+        if head and word not in variant_of and word != head and head in words:
+            variant_of[word] = head
+    # A noun and its shorter plural, glossed alike, are one word, the commoner (කටයුතු: කටයුත්ත; ජාතිය: ජාති).
+    for noun in sorted(words):
+        # (Any spelling of the plural, but -ු itself: ලක්වූ is a past of ලක්ව.)
+        for plural in sorted(w for p in plural_stems(noun) for w in [p] + (by_key.get(spelling_key(p), []) if p != noun + "ු" else [])):
+            if plural in words and plural not in variant_of and noun not in variant_of and alike(plural, noun):
+                rarer, commoner = sorted((plural, noun), key=lambda w: (share.get(w, 0.0), w))
+                variant_of[rarer] = commoner
+    # A verb the pack lacks (දරනවා, කැඳවනවා) has its forms the pack has under its commonest one (දරන: දරා, දැරූ, දැරීම), when the
+    # pack glosses them alike, and its other forms too.
+    # A literary verb the pack lacks is its spoken one's (ගසනවා: ගහනවා, ගසා, ගැසූ).
+    for verb in sorted({w for w in share if w.endswith("නවා")} | set(LITERARY_VERBS)):
+        if verb in own or verb in weak or verb.startswith(NEGATIVE) or letters(verb) < 4:
+            continue
+        rule_forms = verb_forms(verb) | {verb}
+        group = sorted((w for w in rule_forms if w in words and w in weak and w not in variant_of), key=lambda w: (-share.get(w, 0.0), w))
+        spoken = LITERARY_VERBS.get(verb) or SINHALA_FORMS.get(verb, "")
+        if not spoken:
+            # Or the verb two of its forms are listed under by hand (පැවැත්වේ, පැවැත්විණ: පවත්වනවා).
+            listed = sorted(SINHALA_FORMS[w] for w in rule_forms if SINHALA_FORMS.get(w, "").endswith("නවා"))
+            spoken = next((v for v in listed if listed.count(v) >= 2), "")
+        if spoken.endswith("නවා") and spoken in words:
+            group = [spoken] + group
+        if len(group) < 2:
+            continue
+        # The commonest that is surely a form of it (not පුරා "throughout" of පුරනවා).
+        head = next((w for w in group if w == spoken or w.endswith(VERBAL_TAILS) or any(alike(w, o) for o in group if o != w)), None)
+        if not head:
+            continue
+        group = [head] + [w for w in group if w != head]
+        # (The absolutive in -ා too when the verb is known by hand: ගසා of ගසනවා, ගහනවා's.)
+        tails = VERBAL_TAILS + ("ා",) if head == spoken else VERBAL_TAILS
+        joined = [w for w in group[1:] if alike(w, head) or w.endswith(tails)]
+        if not joined:
+            continue
+        for w in joined:
+            variant_of[w] = head
+        for form in rule_forms:
+            if form in share and form not in words:
+                made[form].add(head)
+                verbal[form].add(head)
+    words -= set(variant_of)
+
+    def resolved(word):
+        for _ in range(3):
+            word = variant_of.get(word, word)
+        return word
 
     def heads_of(form):
         """(the word the form is itself, or None; the other words it is a form of)."""
         if form in SINHALA_FORMS:
             return None, {SINHALA_FORMS[form]}
+        if form in variant_of:
+            return None, {resolved(form)}
         if form in NOT_WORDS or form in names and form not in made:
             return None, set()
         if form.startswith(NEGATIVE) and len(form) > 3 and form not in words:
@@ -606,8 +845,12 @@ def build(size, download, dictionaries=None):
             if verbs:
                 return None, verbs
         own_word = form if form in words else None
-        makers = {w for w in made.get(form, ()) if w in words and w != form}
-        verbs = {w for w in makers if form in verbal and w in verbal[form]}
+        makers = {resolved(w) for w in made.get(form, ())} - {form}
+        verbs = {resolved(w) for w in verbal.get(form, ())} & makers & words
+        if not own_word and not makers & words:
+            # A case of a definite form that is no word (පාර්ලිමේන්තුවේ of පාර්ලිමේන්තුව, itself පාර්ලිමේන්තු's).
+            makers = {resolved(g) for w in makers for g in made.get(w, ()) if resolved(g) in words and definite_of(form, g)} - {form}
+        makers &= words
         if own_word:
             return own_word, verbs
         nouns = makers - verbs
@@ -643,6 +886,10 @@ def build(size, download, dictionaries=None):
                 continue
             scores[head] += value * part
             forms[head][form] = forms[head].get(form, 0.0) + value * part
+    return scores, forms
+
+
+def _rank(scores, forms, size, label):
     ranked = sorted(scores, key=lambda w: (-scores[w], w))[:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
