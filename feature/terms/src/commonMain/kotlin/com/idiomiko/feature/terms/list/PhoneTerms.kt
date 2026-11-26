@@ -10,11 +10,9 @@ import com.idiomiko.core.ui.components.chosenFor
 import com.idiomiko.core.ui.components.shownName
 import com.idiomiko.core.ui.components.shownStatuses
 import com.idiomiko.core.ui.components.learningLevels
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -44,7 +42,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -76,7 +73,6 @@ import com.idiomiko.core.ui.components.BarSurface
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.NavSection
-import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PickerSheet
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.ScrollList
@@ -124,10 +120,9 @@ internal fun PhoneTermsScreen(
     onNew: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
-    var selecting by rememberSaveable { mutableStateOf(false) }
     var sorting by remember { mutableStateOf(false) }
     var filtering by remember { mutableStateOf(false) }
-    val showChecks = selecting || state.selected.isNotEmpty()
+    val selecting = state.selected.isNotEmpty()
     // No pages on a phone: the list loads more as its end comes near.
     val list = rememberLazyListState()
     LaunchedEffect(list) {
@@ -141,16 +136,26 @@ internal fun PhoneTermsScreen(
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
                 onBack = onBack,
-                actions = { PhoneListMenu(state, selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAllVisible(false) }, onExport = viewModel::exportAnki) },
+                // The one action on the whole list; the terms' own are on their checkboxes and the selection bar.
+                actions = {
+                    AppIconButton(
+                        AppIcons.Download,
+                        ankiLabel(state.exporting, state.sendingToAnki),
+                        onClick = viewModel::exportAnki,
+                        enabled = state.exporting == null,
+                        loading = state.exporting != null,
+                        modifier = Modifier.testTag("phone-export-anki"),
+                    )
+                },
             )
         },
         snackbarHost = {
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
         // Adding a term floats at the corner; while selecting, the actions on the chosen terms take the foot.
-        floatingActionButton = { if (!showChecks) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
+        floatingActionButton = { if (!selecting) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
         bottomBar = {
-            if (showChecks) PhoneSelectionBar(state.selected.size, listActions, onDone = { selecting = false; viewModel.selectAllVisible(false) })
+            if (selecting) PhoneSelectionBar(state.selected.size, listActions, onDone = { viewModel.selectAllVisible(false) })
         },
     ) { padding ->
         ScrollList(
@@ -187,7 +192,7 @@ internal fun PhoneTermsScreen(
                 item { EmptyState(if (state.filter.termIds?.isEmpty() == true) tr("No saved words here yet.") else tr("No terms match the current filters.")) }
             } else {
                 itemsIndexed(state.terms, key = { _, term -> term.id }) { _, term -> Column(itemMotion()) {
-                    PhoneTermRow(term, state.languageName(term.languageId), selected = term.id in state.selected, showCheck = showChecks, rowActions)
+                    PhoneTermRow(term, state.languageName(term.languageId), selected = term.id in state.selected, rowActions)
                     Spacer(Modifier.height(AppSpacing.s))
                 }}
             }
@@ -210,7 +215,7 @@ internal fun PhoneTermsScreen(
     if (filtering) PhoneFiltersSheet(state, viewModel, onDismiss = { filtering = false })
 }
 
-/** While selecting on a phone, at the foot: how many are chosen, the actions on them, and a way out. */
+/** While terms are ticked on a phone, at the foot: how many, the actions on them, and clearing the choice. */
 @Composable
 private fun PhoneSelectionBar(count: Int, actions: ListActions, onDone: () -> Unit) {
     val colors = MaterialTheme.colorScheme
@@ -218,7 +223,7 @@ private fun PhoneSelectionBar(count: Int, actions: ListActions, onDone: () -> Un
         Column {
             AppDivider()
             Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
-                AppIconButton(Icons.Default.Close, tr("Done selecting"), onDone)
+                AppIconButton(Icons.Default.Close, tr("Clear selection"), onDone)
                 Text(tr("{0} selected", count), Modifier.weight(1f).padding(start = AppSpacing.xs), style = AppText.labelStrong)
                 SelectionAction(AppIcons.Flashcards, tr("Practise"), count > 0, colors.primary, actions.onPractice, "selection-practise")
                 SelectionAction(Icons.Default.Edit, tr("Edit"), count > 0, colors.primary, actions.onBulk, "selection-edit")
@@ -241,28 +246,22 @@ private fun SelectionAction(icon: ImageVector, label: String, enabled: Boolean, 
     }
 }
 
+/**
+ * A term as a card: its checkbox, which alone chooses it, reading it aloud, its text and translation, its status to
+ * change, when it was added, and its menu; a tap elsewhere opens it.
+ */
 @Composable
-private fun PhoneListMenu(state: TermsListUiState, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit) {
-    OverflowMenu(tr("List actions")) { close ->
-        AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select terms")) }, onClick = { close(); onSelecting(!selecting) })
-        AppMenuItem(text = { Text(ankiLabel(state.exporting, state.sendingToAnki)) }, enabled = state.exporting == null, onClick = { close(); onExport() })
-    }
-}
-
-/** A term as a card: read aloud, its text and translation, its status to change, when it was added, and its menu. */
-@OptIn(ExperimentalFoundationApi::class)
-@Composable
-private fun PhoneTermRow(term: Term, languageName: String, selected: Boolean, showCheck: Boolean, actions: RowActions) {
+private fun PhoneTermRow(term: Term, languageName: String, selected: Boolean, actions: RowActions) {
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.panel)
             .background(if (selected) colors.primary.copy(alpha = AppAlpha.tint) else colors.surface)
             .border(AppBorders.hairline(if (selected) colors.primary.copy(alpha = AppAlpha.half) else colors.outlineVariant), AppShapes.panel)
-            .combinedClickable(onLongClick = { actions.onToggle(term) }) { if (showCheck) actions.onToggle(term) else actions.onOpen(term) }
-            .padding(start = if (showCheck) 0.dp else AppSpacing.xs, end = 0.dp, top = AppSpacing.s, bottom = AppSpacing.s),
+            .clickable { actions.onOpen(term) }
+            .padding(end = 0.dp, top = AppSpacing.s, bottom = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        if (showCheck) AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) })
+        AppCheckbox(checked = selected, onCheckedChange = { actions.onToggle(term) }, modifier = Modifier.testTag("check-${term.id}"))
         val code = LanguageCodes.codeFor(languageName)
         SpeakButton(term.displayText, code, actions.speaker, Modifier.size(SPEAK_BUTTON))
         Column(Modifier.weight(1f).padding(start = AppSpacing.xs, end = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {

@@ -36,7 +36,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "known" to "已掌握",
     "{0}%" to "{0}%",
     "{1} of {2} terms shown" to "显示 {2} 个词语中的 {1} 个",
-    "Select terms" to "选择词条",
     "Done selecting" to "完成选择",
     "Added today" to "今天添加",
     "Added yesterday" to "昨天添加",

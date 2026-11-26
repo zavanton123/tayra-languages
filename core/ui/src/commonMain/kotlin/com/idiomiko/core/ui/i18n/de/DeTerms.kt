@@ -36,7 +36,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "known" to "bekannt",
     "{0}%" to "{0} %",
     "{1} of {2} terms shown" to "{1} von {2} Begriff angezeigt|{1} von {2} Begriffen angezeigt",
-    "Select terms" to "Begriffe auswählen",
     "Done selecting" to "Auswahl beenden",
     "Added today" to "Heute hinzugefügt",
     "Added yesterday" to "Gestern hinzugefügt",

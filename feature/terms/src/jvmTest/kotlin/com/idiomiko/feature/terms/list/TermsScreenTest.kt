@@ -369,25 +369,33 @@ class TermsScreenTest {
         assertEquals(listOf<Route>(Route.NewTerm), visited)
     }
 
-    /** On a phone, choosing terms brings a bar to the foot with how many and what to do with them; its cross ends choosing. */
+    /**
+     * On a phone every term has its checkbox, which alone chooses it: a tap on the card opens the term. Choosing brings a
+     * bar to the foot with how many and what to do with them; its cross clears the choice. The bar's only action is Anki.
+     */
     @Test
     fun aPhonesSelectionShowsItsActionsAtTheFoot() = runDesktopComposeUiTest(width = 400, height = 1100) {
-        show()
+        val visited = mutableListOf<Route>()
+        show(onNavigate = { visited += it })
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar"))
+        onNodeWithContentDescription("List actions").assertDoesNotExist()
+        onNodeWithTag("phone-export-anki").assertExists()
+        assertEquals(3, onAllNodes(androidx.compose.ui.test.isToggleable()).fetchSemanticsNodes().size, "a checkbox on every term")
         onNodeWithTag("phone-selection-bar").assertDoesNotExist()
-        onNodeWithContentDescription("List actions").performClick()
-        onNodeWithText("Select terms").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-selection-bar").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("phone-add-term").assertDoesNotExist()
-        onNodeWithText("0 selected").assertExists()
-        onNodeWithTag("selection-delete").assertIsNotEnabled()
+
+        // A tap on the card opens the term and chooses nothing.
+        onNodeWithText("pensar").performClick()
+        waitForIdle()
+        onNodeWithTag("phone-selection-bar").assertDoesNotExist()
+
         onAllNodes(androidx.compose.ui.test.isToggleable())[0].performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 selected").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("phone-add-term").assertDoesNotExist()
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-selection.png"))) }
         onNodeWithTag("selection-delete").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Delete 1 term?").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Cancel").performClick()
-        onNodeWithContentDescription("Done selecting").performClick()
+        onNodeWithContentDescription("Clear selection").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-selection-bar").fetchSemanticsNodes().isEmpty() }
         onNodeWithTag("phone-add-term").assertExists()
     }

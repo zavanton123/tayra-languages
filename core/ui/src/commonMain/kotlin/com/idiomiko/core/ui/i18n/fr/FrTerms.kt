@@ -36,7 +36,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "known" to "connu",
     "{0}%" to "{0} %",
     "{1} of {2} terms shown" to "{1} terme affiché sur {2}|{1} termes affichés sur {2}",
-    "Select terms" to "Sélectionner des termes",
     "Done selecting" to "Terminer la sélection",
     "Added today" to "Ajoutés aujourd’hui",
     "Added yesterday" to "Ajoutés hier",

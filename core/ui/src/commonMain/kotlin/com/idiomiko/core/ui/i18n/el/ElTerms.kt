@@ -36,7 +36,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "known" to "γνωστό",
     "{0}%" to "{0}%",
     "{1} of {2} terms shown" to "Εμφανίζεται {1} από {2} λήμμα|Εμφανίζονται {1} από {2} λήμματα",
-    "Select terms" to "Επιλογή λέξεων",
     "Done selecting" to "Τέλος επιλογής",
     "Added today" to "Προστέθηκαν σήμερα",
     "Added yesterday" to "Προστέθηκαν χθες",

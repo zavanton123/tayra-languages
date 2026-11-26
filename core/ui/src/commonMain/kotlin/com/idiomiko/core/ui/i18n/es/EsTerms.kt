@@ -36,7 +36,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "known" to "conocido",
     "{0}%" to "{0} %",
     "{1} of {2} terms shown" to "{1} de {2} término mostrado|{1} de {2} términos mostrados",
-    "Select terms" to "Seleccionar palabras",
     "Done selecting" to "Terminar selección",
     "Added today" to "Añadidas hoy",
     "Added yesterday" to "Añadidas ayer",

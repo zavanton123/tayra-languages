@@ -36,7 +36,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "known" to "conhecido",
     "{0}%" to "{0}%",
     "{1} of {2} terms shown" to "{1} de {2} termo exibido|{1} de {2} termos exibidos",
-    "Select terms" to "Selecionar termos",
     "Done selecting" to "Concluir seleção",
     "Added today" to "Adicionados hoje",
     "Added yesterday" to "Adicionados ontem",
