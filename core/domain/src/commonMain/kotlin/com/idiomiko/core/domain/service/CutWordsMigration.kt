@@ -25,7 +25,8 @@ import com.idiomiko.core.domain.term.TermTextNormalizer
  * the reader still reads it, alone, as several words (ไม่ดี is ไม่ + ดี, คิดว่า คิด + ว่า): it becomes those words, a
  * phrase. So does a Manx word written onto another with an apostrophe (t'eh is t' + eh, ta'n ta + 'n), and one saved with
  * an apostrophe at its edge ('sy) becomes the word without it. Lao came to be cut as Thai is, and read in today's spelling
- * (ຫນັງສື as ໜັງສື, ນໍ້າ as ນ້ຳ): its terms are matched so, and its phrases cut again. Khmer came to be cut so too, by how
+ * (ຫນັງສື as ໜັງສື, ນໍ້າ as ນ້ຳ): its terms are matched so, and its phrases cut again; a word it came to cut later
+ * (ຕອນເຊົ້າ, ຢູ່ຂ້າງ, a phrase only its own word list has) becomes a phrase as Thai's do. Khmer came to be cut so too, by how
  * common its words are and never inside a syllable, and to match subscript ដ as the ត it looks like (សប្ដាហ៍ as សប្តាហ៍):
  * its words are kept as Thai's are. Armenian cuts nothing, but
  * matches և written as two letters (կարեւոր) as the one (կարևոր). Ancient Greek cuts nothing either, but matches a word

@@ -59,4 +59,33 @@ class LaoParserMigrationTest {
 
         assertEquals(emptyMap(), migration.migrate(), "done once")
     }
+
+    /**
+     * The reader came to read ຕອນ "the time of" apart from the word after it, and a phrase only the app's own word list has
+     * (ຮັງນົກ "bird's nest") as the list's words in it: a word saved so becomes a phrase of them; ຢູ່ໃນ and ໄຂ່ມຸກ stay.
+     */
+    @Test
+    fun wordsTheReaderNowCutsBecomePhrases() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(file))
+        val languages = LanguageRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val books = BookRepositoryImpl(provider)
+        val id = languages.save(LanguageDefinitions.all.first { it.name == "Lao" }.language)
+        suspend fun saved(text: String, status: TermStatus) =
+            terms.save(Term(languageId = id, text = text, textLc = text, status = status, tokenCount = 1))
+        val morning = saved("ຕອນເຊົ້າ", TermStatus.NEW_1)
+        val nest = saved("ຮັງນົກ", TermStatus.LEARNING_4)
+        val inside = saved("ຢູ່ໃນ", TermStatus.LEARNING_3)
+        val pearl = saved("ໄຂ່ມຸກ", TermStatus.NEW_2)
+
+        val ranks = mapOf("ຕອນ" to 208, "ເຊົ້າ" to 1500, "ຕອນເຊົ້າ" to 2981, "ຮັງ" to 2020, "ນົກ" to 1122, "ຢູ່" to 19, "ໃນ" to 4, "ຢູ່ໃນ" to 61, "ໄຂ່" to 1200, "ມຸກ" to 3000, "ໄຂ່ມຸກ" to 2645)
+        val migration = CutWordsMigration(languages, terms, books) { Lexicons.set("lo", Lexicon(ranks.keys + "ຮັງນົກ", ranks, ownOnly = listOf("ຮັງນົກ"))) }
+
+        assertEquals(mapOf(id to CutWordsMigration.Change(cut = 2, merged = 0)), migration.migrate())
+        assertEquals(Pair("ຕອນ\u200Bເຊົ້າ", 2), terms.getById(morning)!!.let { it.text to it.tokenCount })
+        assertEquals(Triple("ຮັງ\u200Bນົກ", 2, TermStatus.LEARNING_4), terms.getById(nest)!!.let { Triple(it.text, it.tokenCount, it.status) })
+        assertEquals("ຢູ່ໃນ", terms.getById(inside)!!.text)
+        assertEquals("ໄຂ່ມຸກ", terms.getById(pearl)!!.text)
+        assertEquals(emptyMap(), migration.migrate(), "done once")
+    }
 }
