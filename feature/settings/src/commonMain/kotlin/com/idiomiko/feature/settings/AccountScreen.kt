@@ -201,6 +201,8 @@ private fun DoneNotice(done: AccountDone) {
             AccountDone.PURCHASES_RESTORED -> tr("Your purchases are restored")
             AccountDone.SYNCED -> tr("This device is in sync")
             AccountDone.ACCOUNT_DELETED -> tr("Your account is deleted")
+            AccountDone.PICTURE_SAVED -> tr("Your photo is saved")
+            AccountDone.PICTURE_REMOVED -> tr("Your photo is removed")
         },
         icon = Icons.Default.CheckCircle,
         tint = StatusTints.ok,

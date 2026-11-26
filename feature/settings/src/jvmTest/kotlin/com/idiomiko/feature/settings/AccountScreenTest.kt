@@ -75,8 +75,14 @@ class AccountScreenTest {
         override val signedIn = MutableStateFlow<String?>(null)
         var confirmed = false
         val reported = mutableListOf<StoreReceipt>()
+        var uploaded: ByteArray? = null
 
-        private fun info() = AccountInfo("reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl), id = "u1")
+        private fun info() = AccountInfo(
+            "reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl), id = "u1",
+            picture = uploaded?.let { "u1" }, ownPicture = uploaded != null,
+        )
+        override suspend fun uploadPicture(image: ByteArray) { uploaded = image }
+        override suspend fun removePicture() { uploaded = null }
         override suspend fun register(email: String, password: String) = signIn(email, password)
         override suspend fun signIn(email: String, password: String): AccountInfo {
             if (password !in setOf("correct horse", "Correct-horse-7")) throw AccountException(AccountProblem.BAD_CREDENTIALS, "Wrong email or password")
@@ -536,6 +542,27 @@ class AccountScreenTest {
         assertEquals(profile.height, syncCard.height, "of equal height")
         assertEquals(0, sync.syncs, "opening the page syncs nothing")
         save("ACCOUNT_SCREENSHOT", "-signed-in")
+    }
+
+    /** The photo can be changed from the profile; once one is uploaded it can be removed again. */
+    @Test
+    fun anUploadedPhotoCanBeRemoved() = runDesktopComposeUiTest(width = 1586, height = 1150) {
+        val accounts = FakeAccounts().apply { signedIn.value = "reader@example.com"; confirmed = true }
+        val viewModel = show(accounts)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-sign-in-methods").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("account-change-photo").assertExists()
+        onNodeWithTag("account-change-picture").assertExists()
+        onNodeWithTag("account-remove-photo").assertDoesNotExist()
+
+        viewModel.uploadPicture(byteArrayOf(1, 2, 3))
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your photo is saved").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(listOf<Byte>(1, 2, 3), accounts.uploaded?.toList())
+        save("ACCOUNT_SCREENSHOT", "-own-photo")
+
+        onNodeWithTag("account-remove-photo").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Your photo is removed").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(null, accounts.uploaded)
+        onNodeWithTag("account-remove-photo").assertDoesNotExist()
     }
 
     @Test

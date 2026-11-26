@@ -40,7 +40,6 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.account.AccountInfo
-import com.idiomiko.core.ui.components.AccountAvatar
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppSpinner
@@ -117,8 +116,8 @@ private fun ProfileCard(state: AccountUiState, actions: AccountViewModel?, modif
     val name = account?.name ?: badge?.name
     AccountPart(null, null, modifier.testTag("account-card")) {
         Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            AccountAvatar(
-                name, email, badge?.picture, if (compact) AVATAR_COMPACT else AVATAR, Modifier.testTag("account-card-avatar"),
+            ProfilePicture(
+                state, actions, name, email, badge?.picture, if (compact) AVATAR_COMPACT else AVATAR,
                 letterStyle = if (compact) AppText.headline else AppText.screenTitle,
             )
             Text(name ?: email, style = AppText.headline, textAlign = TextAlign.Center)

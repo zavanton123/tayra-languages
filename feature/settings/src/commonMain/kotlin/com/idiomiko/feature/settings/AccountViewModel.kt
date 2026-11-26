@@ -64,9 +64,9 @@ data class AccountUiState(
     fun signedOut(): AccountUiState = AccountUiState(available = available, sync = sync, unsent = unsent, knownWords = knownWords)
 }
 
-enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIBING, SYNCING, DELETING }
+enum class AccountTask { SIGNING_IN, LOADING, SENDING_CODE, CONFIRMING, SUBSCRIBING, SYNCING, DELETING, PICTURE }
 
-enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, ACCOUNT_DELETED }
+enum class AccountDone { EMAIL_CONFIRMED, CODE_SENT, PASSWORD_RESET, SUBSCRIBED, PURCHASES_RESTORED, SYNCED, ACCOUNT_DELETED, PICTURE_SAVED, PICTURE_REMOVED }
 
 /** The account this device is signed in to, and combining its library with the account's when the reader agrees. */
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -192,6 +192,20 @@ class AccountViewModel(
     }
 
     fun doneSeen() = _state.update { it.copy(done = null) }
+
+    /** Makes [image], a JPEG, the account's picture; the bar's avatar follows once the account is read again. */
+    fun uploadPicture(image: ByteArray) = work(AccountTask.PICTURE) {
+        accounts.uploadPicture(image)
+        load()
+        _state.update { it.copy(done = AccountDone.PICTURE_SAVED) }
+    }
+
+    /** Removes the uploaded picture, showing Google's again where the account has one. */
+    fun removePicture() = work(AccountTask.PICTURE) {
+        accounts.removePicture()
+        load()
+        _state.update { it.copy(done = AccountDone.PICTURE_REMOVED) }
+    }
 
     private suspend fun load() {
         val account = accounts.account()
