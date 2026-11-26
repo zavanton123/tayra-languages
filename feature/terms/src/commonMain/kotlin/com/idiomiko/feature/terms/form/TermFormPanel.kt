@@ -11,7 +11,6 @@ import com.idiomiko.core.ui.components.shownStatuses
 import com.idiomiko.core.ui.components.learningLevels
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.animation.animateColorAsState
-import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -55,7 +54,6 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -691,8 +689,9 @@ val LanguageDictionary.displayName: String
     get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { tr("Dictionary") }
 
 /**
- * Status buttons U (unknown), 1–4, W and I. [expanded] stretches them to fill the row; [large] also fills
- * the row, with taller buttons, instead of compact chips.
+ * Status buttons U (unknown), 1–4, W and I. Only the chosen one has its status's colour and a tick; the others are
+ * plain, outlined. [expanded] stretches them to fill the row; [large] also fills the row, with taller buttons,
+ * instead of compact chips.
  */
 @Composable
 fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expanded: Boolean = false, large: Boolean = false) {
@@ -706,27 +705,29 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expande
                 val isSelected = status.shownAs(selected)
                 val chosen = status.chosenFor(selected)
                 val named = words
-                val background = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
-                // The ring moves to the chosen status by fading out on the old one and in on the new; the others fade back,
-                // so the chosen one stands out by more than its ring.
-                val ring by animateColorAsState(if (isSelected) MaterialTheme.colorScheme.onSurface else Color.Transparent, AppMotion.spec(AppMotion.short))
-                val shown by animateFloatAsState(if (isSelected) 1f else AppAlpha.muted, AppMotion.spec(AppMotion.short))
+                val tint = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
+                // The colour moves to the chosen status, fading out on the old one and in on the new.
+                val background by animateColorAsState(if (isSelected) tint else MaterialTheme.colorScheme.surface, AppMotion.spec(AppMotion.short))
+                val outline by animateColorAsState(if (isSelected) Color.Transparent else MaterialTheme.colorScheme.outlineVariant, AppMotion.spec(AppMotion.short))
                 val name = status.shownName()
                 Box(
                     Modifier
                         .then(if (expanded) Modifier.weight(if (named) NAMED_STATUS_WEIGHT else 1f).height(AppSizes.touch) else if (large) Modifier.weight(if (named) NAMED_STATUS_WEIGHT else 1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
-                        .alpha(shown)
                         .clip(if (wide) AppShapes.compact else AppShapes.tiny)
                         .background(background)
-                        .border(AppBorders.selected(ring), if (wide) AppShapes.compact else AppShapes.tiny)
+                        .border(AppBorders.hairline(outline), if (wide) AppShapes.compact else AppShapes.tiny)
                         .clickable { onSelect(chosen) }
                         .semantics { this.selected = isSelected; contentDescription = name }
                         .then(if (wide) Modifier else Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)),
                     contentAlignment = Alignment.Center,
                 ) {
-                    val ink = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink
-                    if (named) FitText(name, Modifier.padding(horizontal = AppSpacing.xs), style = (if (wide) AppText.itemTitle else AppText.badge).copy(textAlign = TextAlign.Center), color = ink)
-                    else Text(text = status.shownAbbreviation(), color = ink, style = if (wide) AppText.itemTitle else AppText.badge)
+                    val ink = if (!isSelected) MaterialTheme.colorScheme.onSurfaceVariant else if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
+                        // A tick says which is chosen without its colour, for those who cannot tell the colours apart.
+                        if (isSelected && wide) Icon(Icons.Default.Check, contentDescription = null, tint = ink, modifier = Modifier.size(AppSizes.iconSmall))
+                        if (named) FitText(name, Modifier.padding(horizontal = AppSpacing.xxs), style = (if (wide) AppText.itemTitle else AppText.badge).copy(textAlign = TextAlign.Center), color = ink)
+                        else Text(text = status.shownAbbreviation(), color = ink, style = if (wide) AppText.itemTitle else AppText.badge)
+                    }
                 }
             }
         }
