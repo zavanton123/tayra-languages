@@ -272,7 +272,6 @@ internal val frSettings: Map<String, String> = mapOf(
     "Loading…" to "Chargement…",
     "Sync is not active on this account." to "La synchronisation n'est pas active sur ce compte.",
     "Sync is active until {0}." to "La synchronisation est active jusqu'au {0}.",
-    "Sync is active." to "La synchronisation est active.",
     "Confirm your email" to "Confirmez votre e-mail",
     "Enter the code we sent to your email." to "Saisissez le code que nous avons envoyé à votre e-mail.",
     "Confirm" to "Confirmer",

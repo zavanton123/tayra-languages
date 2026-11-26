@@ -272,7 +272,6 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Loading…" to "Загрузка…",
     "Sync is not active on this account." to "Синхронизация не активна для этого аккаунта.",
     "Sync is active until {0}." to "Синхронизация активна до {0}.",
-    "Sync is active." to "Синхронизация активна.",
     "Confirm your email" to "Подтвердите адрес почты",
     "Enter the code we sent to your email." to "Введите код, который мы отправили на вашу почту.",
     "Confirm" to "Подтвердить",

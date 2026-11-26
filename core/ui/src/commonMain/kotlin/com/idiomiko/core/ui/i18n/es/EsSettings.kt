@@ -272,7 +272,6 @@ internal val esSettings: Map<String, String> = mapOf(
     "Loading…" to "Cargando…",
     "Sync is not active on this account." to "La sincronización no está activa en esta cuenta.",
     "Sync is active until {0}." to "La sincronización está activa hasta el {0}.",
-    "Sync is active." to "La sincronización está activa.",
     "Confirm your email" to "Confirma tu correo",
     "Enter the code we sent to your email." to "Escribe el código que enviamos a tu correo.",
     "Confirm" to "Confirmar",

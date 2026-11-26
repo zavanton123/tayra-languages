@@ -272,7 +272,6 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Loading…" to "正在加载…",
     "Sync is not active on this account." to "此账户的同步未开启。",
     "Sync is active until {0}." to "同步有效期至 {0}。",
-    "Sync is active." to "同步已开启。",
     "Confirm your email" to "验证你的邮箱",
     "Enter the code we sent to your email." to "输入我们发送到你邮箱的验证码。",
     "Confirm" to "确认",

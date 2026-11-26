@@ -272,7 +272,6 @@ internal val deSettings: Map<String, String> = mapOf(
     "Loading…" to "Wird geladen…",
     "Sync is not active on this account." to "Die Synchronisierung ist für dieses Konto nicht aktiv.",
     "Sync is active until {0}." to "Die Synchronisierung ist bis {0} aktiv.",
-    "Sync is active." to "Die Synchronisierung ist aktiv.",
     "Confirm your email" to "Bestätige deine E-Mail",
     "Enter the code we sent to your email." to "Gib den Code ein, den wir an deine E-Mail geschickt haben.",
     "Confirm" to "Bestätigen",

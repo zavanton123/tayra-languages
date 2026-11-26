@@ -131,13 +131,14 @@ internal fun StorePlans(state: AccountUiState, actions: AccountViewModel?) {
     }
 }
 
+/** How the account's plan stands, in a line; null for one active with no end, which needs no saying. */
 @Composable
-internal fun planText(state: AccountUiState): String {
+internal fun planText(state: AccountUiState): String? {
     val plan = state.account?.plan ?: return tr("Loading…")
     return when {
         !plan.active -> tr("Sync is not active on this account.")
         plan.activeUntil != null -> tr("Sync is active until {0}.", day(plan.activeUntil!!))
-        else -> tr("Sync is active.")
+        else -> null
     }
 }
 

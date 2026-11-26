@@ -71,14 +71,20 @@ import kotlin.time.Instant
 class AccountScreenTest {
 
     /** One account with this password, its email not confirmed until the code 123456 is given. */
-    private class FakeAccounts(override val available: Boolean = true, val active: Boolean = true, val checkoutUrl: String? = null, val manageUrl: String? = null) : AccountRepository {
+    private class FakeAccounts(
+        override val available: Boolean = true,
+        val active: Boolean = true,
+        val checkoutUrl: String? = null,
+        val manageUrl: String? = null,
+        val activeUntil: Instant? = Instant.parse("2027-01-31T12:00:00Z"),
+    ) : AccountRepository {
         override val signedIn = MutableStateFlow<String?>(null)
         var confirmed = false
         val reported = mutableListOf<StoreReceipt>()
         var uploaded: ByteArray? = null
 
         private fun info() = AccountInfo(
-            "reader@example.com", confirmed, true, emptyList(), Plan(active, Instant.parse("2027-01-31T12:00:00Z").takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl), id = "u1",
+            "reader@example.com", confirmed, true, emptyList(), Plan(active, activeUntil.takeIf { active }, "paddle".takeIf { active }, checkoutUrl, manageUrl), id = "u1",
             picture = uploaded?.let { "u1" }, ownPicture = uploaded != null,
         )
         override suspend fun uploadPicture(image: ByteArray) { uploaded = image }
@@ -429,6 +435,15 @@ class AccountScreenTest {
         show(FakeAccounts(available = false))
         onNodeWithText("Accounts are not available yet").assertExists()
         assertEquals(0, onAllNodesWithTag("account-email").fetchSemanticsNodes().size)
+    }
+
+    /** A plan active with no end needs no line saying so. */
+    @Test
+    fun aPlanWithNoEndSaysNothing() = runDesktopComposeUiTest(width = 400, height = 1600) {
+        val accounts = FakeAccounts(activeUntil = null).apply { signedIn.value = "reader@example.com"; confirmed = true }
+        show(accounts)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-sign-in-methods").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithText("Sync is", substring = true).fetchSemanticsNodes().size)
     }
 
     @Test

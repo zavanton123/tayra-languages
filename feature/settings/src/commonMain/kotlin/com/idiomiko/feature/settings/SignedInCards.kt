@@ -126,7 +126,7 @@ private fun ProfileCard(state: AccountUiState, actions: AccountViewModel?, modif
         }
         AppDivider()
         signInMethods(account)?.let { KeyValueRow(tr("Signed in with"), it, Modifier.testTag("account-sign-in-methods")) }
-        Text(planText(state), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        planText(state)?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
         if (account != null && !account.emailVerified) ConfirmEmail(state, actions)
         val plan = account?.plan
         if (state.storeAvailable && plan?.active == false) StorePlans(state, actions)

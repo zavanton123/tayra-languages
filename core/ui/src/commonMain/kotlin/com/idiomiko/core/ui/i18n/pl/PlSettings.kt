@@ -272,7 +272,6 @@ internal val plSettings: Map<String, String> = mapOf(
     "Loading…" to "Wczytywanie…",
     "Sync is not active on this account." to "Synchronizacja nie jest aktywna na tym koncie.",
     "Sync is active until {0}." to "Synchronizacja jest aktywna do {0}.",
-    "Sync is active." to "Synchronizacja jest aktywna.",
     "Confirm your email" to "Potwierdź swój e-mail",
     "Enter the code we sent to your email." to "Wpisz kod, który wysłaliśmy na Twój e-mail.",
     "Confirm" to "Potwierdź",

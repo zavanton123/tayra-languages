@@ -272,7 +272,6 @@ internal val elSettings: Map<String, String> = mapOf(
     "Loading…" to "Φόρτωση…",
     "Sync is not active on this account." to "Ο συγχρονισμός δεν είναι ενεργός σε αυτόν τον λογαριασμό.",
     "Sync is active until {0}." to "Ο συγχρονισμός είναι ενεργός έως {0}.",
-    "Sync is active." to "Ο συγχρονισμός είναι ενεργός.",
     "Confirm your email" to "Επιβεβαιώστε το email σας",
     "Enter the code we sent to your email." to "Εισαγάγετε τον κωδικό που στείλαμε στο email σας.",
     "Confirm" to "Επιβεβαίωση",
