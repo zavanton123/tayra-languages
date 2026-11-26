@@ -222,6 +222,16 @@ internal fun StageNote(stage: ReadingStage, stages: List<ReadingStage>, onAction
 
 internal val STAGE_SIZE = 52.dp
 internal val COMPACT_STAGE_SIZE = 36.dp
+
+/** The smallest a phone's stage gets, still a fair target for a finger, enough for a narrow phone's eight stages. */
+private val SMALLEST_STAGE_SIZE = 26.dp
+
+/** The size at which [count] stages, with their connectors, fit in [width], from [COMPACT_STAGE_SIZE] down to [SMALLEST_STAGE_SIZE]. */
+internal fun fittedStageSize(count: Int, width: Dp): Dp {
+    if (count == 0) return COMPACT_STAGE_SIZE
+    val connectors = AppSpacing.xs * (count - 1)
+    return ((width - connectors) / count).coerceIn(SMALLEST_STAGE_SIZE, COMPACT_STAGE_SIZE)
+}
 internal val CHECK_SIZE = 60.dp
 internal val COMPACT_CHECK_SIZE = 44.dp
 private val CONNECTOR_THICKNESS = 2.dp

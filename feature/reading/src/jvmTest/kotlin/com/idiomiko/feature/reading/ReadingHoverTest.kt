@@ -32,6 +32,8 @@ import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.width
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
@@ -765,6 +767,28 @@ class ReadingHoverTest {
             assertTrue(rule.onAllNodesWithTag(tool).fetchSemanticsNodes().isEmpty(), "a lesson has no $tool")
         }
         assertTrue(rule.onAllNodesWithText("Reader tools").fetchSemanticsNodes().isEmpty(), "a lesson's pane has no tools section")
+    }
+
+    /** On a narrow phone a lesson's eight stages shrink to leave the check its whole size beside them. */
+    @Test
+    fun aNarrowPhoneKeepsTheCheckWholeBesideEightStages() {
+        val questions = listOf(LessonQuestion("Onde dorme o lobo?", "O lobo dorme na floresta."))
+        val course = Course("pt-mini-0100", "pt", "Em casa", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme na floresta.", questions = questions)))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList) }
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                Box(Modifier.width(360.dp).fillMaxHeight()) { ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm) }
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(8, vm.state.value.pageStages.size)
+        val check = rule.onNodeWithTag("check-stage").getBoundsInRoot()
+        assertEquals(44.dp, check.right - check.left, "the check keeps its size")
+        assertEquals(44.dp, check.bottom - check.top)
+        val last = rule.onNodeWithTag("stage-retell").getBoundsInRoot()
+        assertTrue(last.right <= check.left, "the last stage ends before the check")
+        assertTrue(check.right <= 360.dp, "the check is on the screen")
     }
 
     /** A lesson's questions are a stage of their own: the story gives way to them, each answer blurred, and Done checks it. */

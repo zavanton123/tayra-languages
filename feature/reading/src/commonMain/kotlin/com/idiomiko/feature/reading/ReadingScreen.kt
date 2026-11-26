@@ -921,9 +921,15 @@ private fun ReadingBody(
                     // Room above the stages for the tick of a checked one.
                     .padding(horizontal = AppSpacing.s, vertical = AppSpacing.m),
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.SpaceBetween,
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
             ) {
-                StageChain(state.pageStages, state.stages, state.stage, selectStage, size = COMPACT_STAGE_SIZE, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
+                // The check keeps its size: the stages share the rest, smaller on a narrow phone.
+                BoxWithConstraints(Modifier.weight(1f)) {
+                    StageChain(
+                        state.pageStages, state.stages, state.stage, selectStage,
+                        size = fittedStageSize(state.pageStages.size, maxWidth), badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages },
+                    )
+                }
                 CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = COMPACT_CHECK_SIZE)
             }
             if (sentenceControls) {
