@@ -1,0 +1,84 @@
+# The user guide as a website on GitHub Pages; built by .github/workflows/guide.yml.
+site_name: Idiomiko user guide
+site_url: https://zavanton123.github.io/tayra-languages/
+site_description: How to use Idiomiko, the app that teaches a language through reading.
+repo_url: https://github.com/zavanton123/tayra-languages
+repo_name: tayra-languages
+edit_uri: edit/main/docs/guide/
+copyright: Idiomiko™ · <a href="https://idiomiko.com/">idiomiko.com</a>
+
+docs_dir: ../guide
+site_dir: build/site
+use_directory_urls: false
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.svg
+  favicon: assets/favicon.ico
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark theme
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light theme
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - search.highlight
+
+extra_css:
+  - assets/guide.css
+
+extra:
+  generator: false
+  social:
+    - icon: material/web
+      link: https://idiomiko.com/
+      name: idiomiko.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/zavanton123/tayra-languages
+      name: Source on GitHub
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+
+nav:
+  - Overview: README.md
+  - Getting started:
+      - install.md
+      - first-start.md
+      - home.md
+  - Reading:
+      - courses.md
+      - reading.md
+      - books.md
+      - news.md
+      - playlists.md
+  - Practice:
+      - flashcards.md
+      - vocabulary.md
+  - More:
+      - phone.md
+      - settings.md
+      - shortcuts.md
+      - questions.md

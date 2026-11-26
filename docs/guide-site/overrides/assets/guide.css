@@ -1,0 +1,71 @@
+/* Idiomiko colours and type, as on idiomiko.com */
+:root {
+  --md-primary-fg-color: #1f5f8b;
+  --md-primary-fg-color--light: #2c76a8;
+  --md-primary-fg-color--dark: #174b6f;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #2e9e5b;
+  --md-text-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --md-code-font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --guide-shot-line: #e2e8ef;
+  --guide-bar: #ffffff;
+  --guide-bar-fg: #14212d;
+  --guide-field: #f3f7fb;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 210;
+  --md-default-bg-color: #152130;
+  --md-default-fg-color: #edf2f7;
+  --md-default-fg-color--light: #aebdcc;
+  --md-primary-fg-color: #1d2d3e;
+  --md-primary-bg-color: #edf2f7;
+  --md-typeset-a-color: #86bbe6;
+  --md-accent-fg-color: #66d093;
+  --md-footer-bg-color: #101a26;
+  --md-footer-bg-color--dark: #0c141e;
+  --guide-shot-line: #2e4256;
+  --guide-bar: #1d2d3e;
+  --guide-bar-fg: #edf2f7;
+  --guide-field: #233649;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-family: ui-serif, "New York", "Iowan Old Style", Charter, "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -.015em;
+  color: var(--md-default-fg-color);
+}
+
+.md-header__button.md-logo img { height: 1.8rem; }
+
+/* A light bar, as on idiomiko.com: the navy logo needs it */
+.md-header {
+  background-color: var(--guide-bar);
+  color: var(--guide-bar-fg);
+  box-shadow: 0 1px 0 var(--guide-shot-line);
+}
+.md-header[data-md-state="shadow"],
+.md-header--shadow { box-shadow: 0 1px 0 var(--guide-shot-line), 0 4px 12px -6px rgba(16, 35, 54, .25); }
+.md-header__title { font-weight: 700; }
+@media screen and (min-width: 60em) {
+  .md-search__form { background-color: var(--guide-field); }
+  .md-search__form:hover { background-color: var(--guide-shot-line); }
+  .md-search__input { color: var(--guide-bar-fg); }
+  .md-search__input::placeholder,
+  .md-search__icon { color: var(--md-default-fg-color--light); }
+}
+
+/* Screenshots */
+.md-typeset img {
+  border: 1px solid var(--guide-shot-line);
+  border-radius: 10px;
+}
+.md-typeset p:has(> img + img) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.md-typeset table:not([class]) { font-size: .75rem; }
