@@ -139,8 +139,8 @@ fun AppTopBar(
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xs)) { actions() }
             Spacer(Modifier.width(AppSpacing.xs))
             LearningLanguageSelector(compact = true, onOpen = { onNavigate(Route.ChooseLanguage) })
-            // On every page, those with a way back too, as on the wide bar, and signed out too: the account is reached only from here.
-            AccountButton(LocalAccountBadge.current, onNavigate)
+            // On every page, those with a way back too, and signed out too: the account and the settings are reached from here, as on the wide bar.
+            AccountMenuButton(LocalAccountBadge.current, onNavigate)
         }
         return
     }

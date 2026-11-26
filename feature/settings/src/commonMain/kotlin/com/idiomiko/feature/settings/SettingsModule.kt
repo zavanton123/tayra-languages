@@ -4,6 +4,7 @@ import org.koin.compose.viewmodel.koinViewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
+import com.idiomiko.core.ui.components.SettingsMenuScreen
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.domain.account.IdentitySignIn
 import com.idiomiko.core.domain.account.StorePurchases
@@ -35,7 +36,8 @@ val settingsModule = module {
 
 fun NavGraphBuilder.settingsGraph(navController: NavController) {
     val navigate: (Route) -> Unit = { navController.navigate(it) }
-    composable<Route.Settings> { SettingsScreen(onNavigate = navigate) }
+    composable<Route.Settings> { SettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
+    composable<Route.SettingsMenu> { SettingsMenuScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Goals> { GoalsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.PlaylistSettings> { PlaylistSettingsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }
     composable<Route.Shortcuts> { ShortcutsScreen(onNavigate = navigate, onBack = { navController.popBackStack() }) }

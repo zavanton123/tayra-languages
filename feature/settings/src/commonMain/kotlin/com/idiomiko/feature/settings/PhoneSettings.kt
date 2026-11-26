@@ -46,13 +46,13 @@ import com.idiomiko.core.ui.theme.fontFamily
  * bottom sheet, the sliders under their labels, and Reset in the top bar.
  */
 @Composable
-internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onReset: () -> Unit) {
+internal fun PhoneSettingsScreen(settings: UserSettings, viewModel: SettingsViewModel, onNavigate: (Route) -> Unit, onBack: (() -> Unit)?, onReset: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     var themeSheet by remember { mutableStateOf(false) }
     var fontSheet by remember { mutableStateOf(false) }
     Scaffold(
         topBar = {
-            AppTopBar(title = tr("General"), onNavigate = onNavigate, section = NavSection.SETTINGS, actions = {
+            AppTopBar(title = tr("General"), onNavigate = onNavigate, onBack = onBack, section = NavSection.SETTINGS, actions = {
                 QuietButton(onClick = onReset) { Text(tr("Reset"), style = MaterialTheme.typography.titleMedium) }
             })
         },

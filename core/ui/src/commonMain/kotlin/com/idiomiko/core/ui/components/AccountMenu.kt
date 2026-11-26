@@ -37,13 +37,15 @@ import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
 /**
- * The end of the wide bar: the avatar when signed in, a person in a circle when not, opening the account menu
+ * The end of the bars: the avatar when signed in, a person in a circle when not, opening the account menu
  * with the account, the settings, the backups and About, and signing out when signed in.
  */
 @Composable
 internal fun AccountMenuButton(badge: AccountBadge?, onNavigate: (Route) -> Unit) {
     var open by remember { mutableStateOf(false) }
     val label = tr("Account and settings")
+    // A phone has no settings sidebar, so its settings start from the list of their pages.
+    val settings = if (LocalWindowWidth.current.isCompact) Route.SettingsMenu else Route.Settings
     // The menu anchors to its enclosing composable.
     Box {
         AppTooltip(badge?.let { it.name ?: it.email } ?: label) {
@@ -61,7 +63,7 @@ internal fun AccountMenuButton(badge: AccountBadge?, onNavigate: (Route) -> Unit
             AppDivider()
             if (badge != null) AppMenuItem(text = { Text(tr("Account")) }, onClick = { open = false; badge.open() })
             else AppMenuItem(text = { Text(tr("Sign in")) }, onClick = { go(Route.Account) })
-            AppMenuItem(text = { Text(tr("Settings")) }, onClick = { go(Route.Settings) })
+            AppMenuItem(text = { Text(tr("Settings")) }, onClick = { go(settings) })
             AppMenuItem(text = { Text(tr("About")) }, onClick = { go(Route.About) })
             if (badge != null) {
                 AppDivider()

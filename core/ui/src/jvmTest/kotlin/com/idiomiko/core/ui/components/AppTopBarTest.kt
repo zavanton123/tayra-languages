@@ -163,19 +163,27 @@ class AppTopBarTest {
         onNodeWithTag("account-avatar").assertExists()
     }
 
-    /** Signed out, a phone's bar shows a person in a circle in the avatar's place, leading to the account page. */
+    /**
+     * Signed out, a phone's bar shows a person in a circle in the avatar's place; it opens the account menu, as on the
+     * wide bar, whose Settings leads to the phone's list of the settings pages.
+     */
     @OptIn(ExperimentalTestApi::class)
     @Test
-    fun aPhonesBarLeadsToTheAccountWhenSignedOut() = runDesktopComposeUiTest(width = 400, height = 800) {
+    fun aPhonesBarOpensTheAccountMenu() = runDesktopComposeUiTest(width = 400, height = 800) {
         val visited = mutableListOf<Route>()
         setContent { MaterialTheme { ProvideWindowWidth { AppTopBar(title = "Home", onNavigate = { visited += it }, section = NavSection.HOME) } } }
         onNodeWithTag("account-avatar").assertDoesNotExist()
-        onNodeWithTag("account-button").performClick()
-        assertEquals(listOf<Route>(Route.Account), visited)
         System.getenv("PHONE_BAR_SCREENSHOT")?.let { path ->
             waitForIdle()
             javax.imageio.ImageIO.write(onAllNodes(isRoot()).onFirst().captureToImage().toAwtImage(), "png", java.io.File(path))
         }
+        for (label in listOf("Sign in", "Settings", "About")) {
+            onNodeWithTag("account-button").performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isNotEmpty() }
+            onNodeWithText(label).performClick()
+            waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-menu").fetchSemanticsNodes().isEmpty() }
+        }
+        assertEquals(listOf<Route>(Route.Account, Route.SettingsMenu, Route.About), visited)
     }
 
     @Test

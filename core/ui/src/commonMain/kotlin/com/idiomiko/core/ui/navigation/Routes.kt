@@ -147,6 +147,10 @@ sealed interface Route {
     @Serializable
     data object Settings : Route
 
+    /** A phone's list of the settings pages, opened from the account menu; wide windows have the settings sidebar instead. */
+    @Serializable
+    data object SettingsMenu : Route
+
     @Serializable
     data object Shortcuts : Route
 

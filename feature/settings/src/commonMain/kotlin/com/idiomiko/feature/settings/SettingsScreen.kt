@@ -114,13 +114,13 @@ class SettingsViewModel(private val settings: SettingsRepository) : ViewModel() 
 }
 
 @Composable
-fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = koinViewModel()) {
+fun SettingsScreen(onNavigate: (Route) -> Unit, onBack: (() -> Unit)? = null, viewModel: SettingsViewModel = koinViewModel()) {
     val settings by viewModel.state.collectAsStateWithLifecycle()
     var confirmReset by remember { mutableStateOf(false) }
     val compact = LocalWindowWidth.current.isCompact
 
     if (compact) {
-        PhoneSettingsScreen(settings, viewModel, onNavigate, onReset = { confirmReset = true })
+        PhoneSettingsScreen(settings, viewModel, onNavigate, onBack, onReset = { confirmReset = true })
     } else Scaffold(
         topBar = { AppTopBar(title = "Idiomiko", onNavigate = onNavigate, section = NavSection.SETTINGS) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,

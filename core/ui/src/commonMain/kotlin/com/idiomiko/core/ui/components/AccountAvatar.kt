@@ -2,10 +2,8 @@ package com.idiomiko.core.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -17,17 +15,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.semantics.Role
-import androidx.compose.ui.semantics.contentDescription
-import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
-import com.idiomiko.core.ui.i18n.tr
-import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppShapes
-import com.idiomiko.core.ui.theme.AppSizes
-import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import org.jetbrains.compose.resources.decodeToImageBitmap
 
@@ -52,18 +42,3 @@ fun AccountAvatar(name: String?, email: String, picture: ByteArray?, size: Dp, m
 
 internal fun initial(name: String?, email: String): String =
     (name?.trim()?.takeIf { it.isNotEmpty() } ?: email.trim()).firstOrNull()?.uppercase() ?: "?"
-
-/** A phone bar's way to the account page: the avatar, named by a tooltip, or a person in a circle while no one is signed in. */
-@Composable
-internal fun AccountButton(badge: AccountBadge?, onNavigate: (Route) -> Unit) {
-    val label = tr("Account")
-    AppTooltip(badge?.let { it.name ?: it.email } ?: label) {
-        Box(
-            Modifier.clip(AppShapes.circle).clickable(onClickLabel = label, role = Role.Button) { badge?.open?.invoke() ?: onNavigate(Route.Account) }
-                .padding(AppSpacing.xs).testTag(if (badge != null) "account-avatar" else "account-button").semantics { contentDescription = label },
-        ) {
-            if (badge != null) AccountAvatar(badge.name, badge.email, badge.picture, AppSizes.iconXLarge)
-            else NoAvatar(AppSizes.iconXLarge)
-        }
-    }
-}
