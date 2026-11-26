@@ -164,7 +164,6 @@ internal fun NewPlaylistDialog(viewModel: PlaylistFormViewModel, onCreated: (pla
             } else {
                 state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
                 DetailsColumn(state, viewModel, Modifier.fillMaxWidth(), heading = false)
-                AppDivider(Modifier.padding(vertical = AppSpacing.xs))
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.End)) {
                     SecondaryButton(tr("Cancel"), onClick = onDismiss)
                     PrimaryButton(tr("Create playlist"), onClick = viewModel::save, enabled = state.canSave, loading = state.saving, modifier = Modifier.testTag("form-save"))
