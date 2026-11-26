@@ -11,6 +11,7 @@ import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -76,7 +77,10 @@ class ConjugationDialogTest {
         System.getenv("CONJUGATION_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot()).fetchSemanticsNodes().indices.last().let { last -> onAllNodes(isRoot())[last] }.captureToImage().toAwtImage(), "png", File(it)) }
         onNodeWithTag("tense-0").performClick()
         onNodeWithText("comemos").performClick()
-        assertEquals(listOf("comemos"), spoken)
+        // Each form has its own play button before it; the footer has no hint about it.
+        onNodeWithContentDescription("Play comemos").performClick()
+        assertEquals(listOf("comemos", "comemos"), spoken)
+        onNodeWithText("Select a form to hear it").assertDoesNotExist()
         onNodeWithText("Non-finite").performClick()
         onNodeWithText("comendo").assertExists()
         onNodeWithText("Done").performClick()

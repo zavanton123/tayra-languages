@@ -367,7 +367,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Посмотреть спряжение",
     "View inflections" to "Посмотреть склонение",
-    "Select a form to hear it" to "Нажмите на форму, чтобы её услышать",
     "Non-finite" to "Неличные формы",
     "Person" to "Лицо",
     "Singular" to "Единственное число",

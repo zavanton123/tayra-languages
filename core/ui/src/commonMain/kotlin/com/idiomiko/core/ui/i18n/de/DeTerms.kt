@@ -367,7 +367,6 @@ internal val deTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Konjugation ansehen",
     "View inflections" to "Deklination ansehen",
-    "Select a form to hear it" to "Wähle eine Form, um sie zu hören",
     "Non-finite" to "Infinite Formen",
     "Person" to "Person",
     "Singular" to "Singular",

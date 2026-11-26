@@ -367,7 +367,6 @@ internal val plTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Zobacz koniugację",
     "View inflections" to "Zobacz odmianę",
-    "Select a form to hear it" to "Wybierz formę, aby ją usłyszeć",
     "Non-finite" to "Formy nieosobowe",
     "Person" to "Osoba",
     "Singular" to "Liczba pojedyncza",

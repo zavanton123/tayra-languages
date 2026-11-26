@@ -367,7 +367,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Ver a conjugação",
     "View inflections" to "Ver a declinação",
-    "Select a form to hear it" to "Escolha uma forma para ouvi-la",
     "Non-finite" to "Formas nominais",
     "Person" to "Pessoa",
     "Singular" to "Singular",

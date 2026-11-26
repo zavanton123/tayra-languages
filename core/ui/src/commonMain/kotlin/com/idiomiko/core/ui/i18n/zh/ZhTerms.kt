@@ -367,7 +367,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "查看变位",
     "View inflections" to "查看词形变化",
-    "Select a form to hear it" to "选择一个词形即可收听",
     "Non-finite" to "非限定形式",
     "Person" to "人称",
     "Singular" to "单数",

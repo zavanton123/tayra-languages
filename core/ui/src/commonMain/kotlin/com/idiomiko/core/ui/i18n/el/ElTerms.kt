@@ -367,7 +367,6 @@ internal val elTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Δείτε την κλίση του ρήματος",
     "View inflections" to "Δείτε την κλίση",
-    "Select a form to hear it" to "Επιλέξτε έναν τύπο για να τον ακούσετε",
     "Non-finite" to "Απαρέμφατοι τύποι",
     "Person" to "Πρόσωπο",
     "Singular" to "Ενικός",

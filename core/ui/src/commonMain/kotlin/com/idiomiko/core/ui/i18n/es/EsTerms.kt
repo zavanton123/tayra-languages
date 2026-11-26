@@ -367,7 +367,6 @@ internal val esTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Ver la conjugación",
     "View inflections" to "Ver la declinación",
-    "Select a form to hear it" to "Elige una forma para oírla",
     "Non-finite" to "Formas no personales",
     "Person" to "Persona",
     "Singular" to "Singular",

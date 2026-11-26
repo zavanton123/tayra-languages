@@ -367,7 +367,6 @@ internal val frTerms: Map<String, String> = mapOf(
     // The conjugation dialog (feature/terms ConjugationDialog) and its row in the Dictionary card.
     "View conjugations" to "Voir la conjugaison",
     "View inflections" to "Voir la déclinaison",
-    "Select a form to hear it" to "Choisissez une forme pour l’entendre",
     "Non-finite" to "Formes impersonnelles",
     "Person" to "Personne",
     "Singular" to "Singulier",

@@ -50,8 +50,8 @@ import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.ChipSize
+import com.idiomiko.core.ui.components.IconButtonSize
 import com.idiomiko.core.ui.components.IconButtonStyle
-import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.SelectableChip
@@ -122,13 +122,8 @@ internal fun ConjugationDialog(
             }
             credit?.let { WiktionaryCredit(it, languageName) }
             AppDivider()
-            Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                if (onSpeak != null) {
-                    IconTile(AppIcons.VolumeUp, size = 36)
-                    Text(tr("Select a form to hear it"), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                } else {
-                    Spacer(Modifier.weight(1f))
-                }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Spacer(Modifier.weight(1f))
                 PrimaryButton(tr("Done"), onClick = onDismiss)
             }
         }
@@ -222,23 +217,28 @@ private fun PersonCell(pronoun: String?, forms: List<String>, isClicked: (String
         if (forms.isEmpty()) {
             Text("—", style = AppText.itemTitle, color = MaterialTheme.colorScheme.onSurfaceVariant)
         } else {
-            if (pronoun != null) Text(pronoun, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            // Over the form, past its play button.
+            if (pronoun != null) Text(pronoun, Modifier.padding(start = if (onSpeak != null) PLAY_INSET else 0.dp), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             FormText(forms, isClicked, onSpeak)
         }
     }
 }
 
-/** The forms of a cell, each read aloud on a click; the pane's own form is tinted. */
+/** The forms of a cell, each after a play button that reads it aloud, as a click on it does; the pane's own form is tinted. */
 @Composable
 private fun FormText(forms: List<String>, isClicked: (String) -> Boolean, onSpeak: ((String) -> Unit)?) {
     val colors = MaterialTheme.colorScheme
-    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+    Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
         forms.forEach { form ->
             val highlighted = isClicked(form)
+            val spoken = form.substringBefore(" [")
+            if (onSpeak != null) {
+                AppIconButton(AppIcons.PlayArrow, tr("Play {0}", spoken), onClick = { onSpeak(spoken) }, size = IconButtonSize.Small, tint = colors.primary, modifier = Modifier.testTag("play-form"))
+            }
             Text(
                 form,
                 Modifier.clip(AppShapes.small).then(if (highlighted) Modifier.background(colors.primary.copy(alpha = AppAlpha.tint)) else Modifier)
-                    .then(if (onSpeak != null) Modifier.clickable { onSpeak(form.substringBefore(" [")) } else Modifier)
+                    .then(if (onSpeak != null) Modifier.clickable { onSpeak(spoken) } else Modifier)
                     .padding(horizontal = AppSpacing.xxs).testTag(if (highlighted) "dialog-form-clicked" else "dialog-form"),
                 style = AppText.itemTitle,
                 color = colors.primary,
@@ -318,6 +318,8 @@ private fun UnderlineTabs(labels: List<String>, selected: Int, onSelect: (Int) -
 private val LABEL_WIDTH = 140.dp
 private val LABEL_WIDTH_COMPACT = 96.dp
 private val GRID_CELL_WIDTH = 150.dp
+/** A form's play button and the gap after it, which a pronoun over the form skips. */
+private val PLAY_INSET = 40.dp
 private val TAB_LINE = 2.dp
 private val BODY_MAX_HEIGHT = 520.dp
 
