@@ -27,7 +27,6 @@ import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.StatusTints
@@ -90,7 +89,6 @@ internal fun VocabularyOverview(total: Int, known: Int, learning: Int, modifier:
             } else {
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
                     TotalBlock(total)
-                    AppDivider()
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxl)) {
                         ShareRing(shares, AppSizes.ring, AppSizes.ringStroke, AppText.headline)
                         Legend(shares, AppText.headline, Modifier.weight(1f))
@@ -118,7 +116,6 @@ internal fun PhoneVocabularyOverview(total: Int, known: Int, learning: Int, modi
             }
             ShareRing(shares, AppSizes.ringCompact, AppSizes.ringStrokeCompact, AppText.labelBold)
         }
-        AppDivider()
         Legend(shares, AppText.itemTitleBold, gap = AppSpacing.s)
     }
 }
@@ -164,7 +161,7 @@ private fun ShareRing(shares: VocabularyShares, ring: Dp, stroke: Dp, percentSty
     }
 }
 
-/** The known and the learning words, each with its colour, count and share, a hairline between them. */
+/** The known and the learning words, each with its colour, count and share. */
 @Composable
 private fun Legend(shares: VocabularyShares, countStyle: TextStyle, modifier: Modifier = Modifier, gap: Dp = AppSpacing.m) {
     val known = tr("Known")
@@ -176,7 +173,6 @@ private fun Legend(shares: VocabularyShares, countStyle: TextStyle, modifier: Mo
     val labelWidth = with(density) { listOf(known, learning).maxOf { measurer.measure(it, labelStyle, maxLines = 1).size.width }.toDp() }
     Column(modifier, verticalArrangement = Arrangement.spacedBy(gap)) {
         LegendRow(knownColor, known, shares.known, shares.knownTenths, countStyle, labelWidth, "legend-known")
-        AppDivider()
         LegendRow(learningColor, learning, shares.learning, shares.learningTenths, countStyle, labelWidth, "legend-learning")
     }
 }
