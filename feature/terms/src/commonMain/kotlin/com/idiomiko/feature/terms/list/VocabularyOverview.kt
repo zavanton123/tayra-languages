@@ -121,7 +121,6 @@ internal fun PhoneVocabularyOverview(total: Int, known: Int, learning: Int, modi
             Column(Modifier.weight(1f).padding(end = AppSpacing.m)) {
                 Text(tr("Total terms"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                 Text(formatCount(animatedCount(total)), style = AppText.headline)
-                Text(tr("All vocabulary"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
             }
             ShareRing(shares, AppSizes.ringCompact, AppSizes.ringStrokeCompact, AppText.labelBold)
         }
@@ -130,7 +129,7 @@ internal fun PhoneVocabularyOverview(total: Int, known: Int, learning: Int, modi
     }
 }
 
-/** The book, and beside it the number of terms with its name above and what it counts below. */
+/** The book, and beside it the number of terms with its name above. */
 @Composable
 private fun TotalBlock(total: Int, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
@@ -139,7 +138,6 @@ private fun TotalBlock(total: Int, modifier: Modifier = Modifier) {
         Column {
             Text(tr("Total terms"), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
             Text(formatCount(animatedCount(total)), style = AppText.figure, maxLines = 1)
-            Text(tr("All vocabulary"), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant)
         }
     }
 }

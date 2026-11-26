@@ -33,7 +33,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Term A–Z" to "Terme A–Z",
     // PhoneTerms.kt
     "Vocabulary overview" to "Aperçu du vocabulaire",
-    "All vocabulary" to "Tout le vocabulaire",
     "known" to "connu",
     "{0}%" to "{0} %",
     "{1} of {2} terms shown" to "{1} terme affiché sur {2}|{1} termes affichés sur {2}",

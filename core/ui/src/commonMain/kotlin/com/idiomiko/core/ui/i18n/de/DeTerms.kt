@@ -33,7 +33,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Term A–Z" to "Begriff A–Z",
     // PhoneTerms.kt
     "Vocabulary overview" to "Wortschatz im Überblick",
-    "All vocabulary" to "Gesamter Wortschatz",
     "known" to "bekannt",
     "{0}%" to "{0} %",
     "{1} of {2} terms shown" to "{1} von {2} Begriff angezeigt|{1} von {2} Begriffen angezeigt",

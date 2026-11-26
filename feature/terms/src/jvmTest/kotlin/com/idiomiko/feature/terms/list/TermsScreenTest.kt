@@ -149,7 +149,7 @@ class TermsScreenTest {
             shownIn("vocabulary-overview", "5") && shownIn("legend-known", "2") && shownIn("legend-learning", "3")
         }
         onNodeWithText("Vocabulary overview").assertExists()
-        onNodeWithText("All vocabulary").assertExists()
+        onNodeWithText("All vocabulary").assertDoesNotExist()
         assertTrue(shownIn("vocabulary-ring", "40%") && shownIn("vocabulary-ring", "known"))
         assertTrue(shownIn("legend-known", "Known") && shownIn("legend-known", "40%"))
         assertTrue(shownIn("legend-learning", "Learning") && shownIn("legend-learning", "60%"))
