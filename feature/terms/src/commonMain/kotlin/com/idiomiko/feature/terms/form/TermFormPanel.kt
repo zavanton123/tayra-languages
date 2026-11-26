@@ -325,7 +325,6 @@ private fun TermFormContent(
                 var editingText by remember(viewModel) { mutableStateOf(false) }
                 if (viewModel.opensOnWord && !editingText && !empty) TermHeading(state, direction, onEdit = { editingText = true }, onOpenExamples = onOpenExamples)
                 else TermField(state, viewModel, direction, focusRequester)
-                if (empty) WordFinderButton(state, viewModel)
                 if (empty) {
                     Text(tr("Type a word or phrase to look it up."), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 } else {
@@ -568,7 +567,6 @@ private fun InformationCard(modifier: Modifier, state: TermFormUiState, viewMode
                 Box(Modifier.weight(1f)) { ParentField(state, viewModel) }
             }
         }
-        WordFinderButton(state, viewModel)
         RomanizationField(state, viewModel)
         TranslationField(state, viewModel, hint = tr("Use a concise meaning or contextual translation."), compact = true)
     }

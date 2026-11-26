@@ -124,8 +124,6 @@ data class TermFormUiState(
     val dictionaryPack: PackStatus? = null,
     /** Another installed dictionary of the pair, by name (an edition such as FreeDict, or an imported one); lookups use it too. */
     val pairDictionary: String? = null,
-    /** The word finder from the native language to the term's, null when there is none. */
-    val finderPack: PackStatus? = null,
     /** The words of each example with their statuses, by the example's text. */
     val exampleWords: Map<String, List<WordStatus>> = emptyMap(),
     /** The term's flashcard; null when it has none (its status is not 1 to 4, or it is not saved yet). */
@@ -220,7 +218,6 @@ class TermFormViewModel(
     private var packJob: Job? = null
     private var lookupJob: Job? = null
     private var entryJob: Job? = null
-    private var finderJob: Job? = null
     private var examplesJob: Job? = null
     /** Counts the examples' lookups, so that only the latest one ends the loading. */
     private var examplesLookup = 0
@@ -258,7 +255,6 @@ class TermFormViewModel(
         }
         _state.update { it.copy(loading = false, draft = draft, languages = languageList, nativeLanguage = settings.current.nativeLanguage.ifBlank { "en" }, toneColors = settings.current.toneColors, zhuyin = settings.current.zhuyin) }
         observePack(_state.value.language)
-        observeFinder(_state.value.language)
         showEntry(draft, linkParent = { setParents(listOf(it)) })
     }
 
@@ -372,37 +368,6 @@ class TermFormViewModel(
         val at = sentence?.indexOf(word)?.takeIf { it >= 0 }
         return if (sentence != null && at != null) JapaneseNotes.at(sentence, at) else JapaneseNotes.at(word, 0)
     }
-
-    /** Tracks the word finder from the native language into [language]. */
-    private fun observeFinder(language: Language?) {
-        finderJob?.cancel()
-        val pack = DictionaryPacks.findGlossary(settings.current.nativeLanguage.ifBlank { "en" }, language?.let { LanguageCodes.codeFor(it.name) })
-        if (pack == null) {
-            _state.update { it.copy(finderPack = null) }
-            return
-        }
-        finderJob = viewModelScope.launch {
-            dictionaries.packs.collect { list ->
-                val status = list.firstOrNull { it.pack.id == pack.id } ?: PackStatus(pack, PackState.NotInstalled)
-                _state.update { it.copy(finderPack = status) }
-            }
-        }
-    }
-
-    fun downloadFinder() {
-        val pack = _state.value.finderPack?.pack ?: return
-        viewModelScope.launch { dictionaries.download(pack) }
-    }
-
-    /** The words of the term's language that the word finder gives for [text], a word of the native language. */
-    suspend fun findWord(text: String): DictionaryLookup {
-        val pack = _state.value.finderPack?.takeIf { it.state is PackState.Installed }?.pack ?: return DictionaryLookup.EMPTY
-        if (text.isBlank()) return DictionaryLookup.EMPTY
-        return dictionary.lookup(pack.id, text.trim())
-    }
-
-    /** Opens a word the finder found as the term. */
-    fun openFoundWord(word: String) = update { it.copy(text = word) }
 
     fun downloadDictionary() {
         val pack = _state.value.dictionaryPack?.pack ?: return
