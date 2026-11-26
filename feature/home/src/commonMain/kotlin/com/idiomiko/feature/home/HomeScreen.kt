@@ -21,7 +21,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.courses.CourseProgress
 import com.idiomiko.core.domain.courses.LessonProgress
 import com.idiomiko.core.ui.components.AppTopBar
-import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PageColumn
@@ -48,7 +47,7 @@ fun HomeScreen(onNavigate: (Route) -> Unit, viewModel: HomeViewModel = koinViewM
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {
-            LoadingIndicator(Modifier.padding(padding))
+            PageColumn(padding) { HomeSkeleton() }
             return@Scaffold
         }
         PageColumn(padding) {

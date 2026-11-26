@@ -1,5 +1,7 @@
 package com.idiomiko.feature.home
 
+import androidx.compose.ui.test.click
+import androidx.compose.ui.test.performTouchInput
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.material3.MaterialTheme
@@ -363,6 +365,30 @@ class HomeScreenTest {
         show(pictured, dark = true, bar = true)
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("266 cards due today")).fetchSemanticsNodes().isNotEmpty() }
         picture("HOME_PHONE_DARK_SCREENSHOT")
+    }
+
+    /** While the app starts, it shows the home page's outline with its bars, wide and on a phone, light and dark. */
+    @Test
+    fun theStartupSkeletonIsTheHomePagesOutline() {
+        listOf(Triple(1600, 1000, "WIDE"), Triple(400, 860, "PHONE")).forEach { (width, height, name) ->
+            listOf(false, true).forEach { dark ->
+                runDesktopComposeUiTest(width = width, height = height) {
+                    setContent { IdiomikoTheme(theme = if (dark) AppThemes.byId("night") else AppThemes.default) { ProvideWindowWidth { StartupSkeleton() } } }
+                    onNodeWithTag("home-skeleton").assertExists()
+                    onNodeWithContentDescription("Loading…").assertExists()
+                    picture("SKELETON_${name}${if (dark) "_DARK" else ""}_SCREENSHOT")
+                }
+            }
+        }
+    }
+
+    /** The bars of the starting app show where they will be, but a tab does nothing yet. */
+    @Test
+    fun theStartingAppsTabsDoNothing() = runDesktopComposeUiTest(width = 400, height = 860) {
+        setContent { IdiomikoTheme { ProvideWindowWidth { StartupSkeleton() } } }
+        onRoot().performTouchInput { click(androidx.compose.ui.geometry.Offset(width * 0.3f, height - 30f)) }
+        waitForIdle()
+        onNodeWithTag("read-sheet").assertDoesNotExist()
     }
 
     /** The whole phone page, below the fold too. */

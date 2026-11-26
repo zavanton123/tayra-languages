@@ -50,7 +50,6 @@ import com.idiomiko.core.domain.frequency.VocabularyLevelService
 import com.idiomiko.core.domain.frequency.WordFrequencyService
 import com.idiomiko.feature.frequency.VocabularyLevelPrompt
 import kotlinx.coroutines.launch
-import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.i18n.UiLanguage
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.components.ProvideWindowWidth
@@ -68,6 +67,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.domain.flashcards.SentenceTranslations
+import com.idiomiko.feature.home.StartupSkeleton
 
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
@@ -177,7 +177,7 @@ fun App(titleBarInset: Dp = 0.dp) {
                     val bootstrap = koinViewModel<AppBootstrapViewModel>()
                     val state by bootstrap.state.collectAsStateWithLifecycle()
                     when (val s = state) {
-                        BootstrapState.Loading -> LoadingIndicator()
+                        BootstrapState.Loading -> StartupSkeleton()
                         is BootstrapState.Failed -> Box(Modifier.fillMaxSize().padding(AppSpacing.xxl), contentAlignment = Alignment.Center) {
                             Text(tr("Could not start: {0}", s.message), color = MaterialTheme.colorScheme.error)
                         }
