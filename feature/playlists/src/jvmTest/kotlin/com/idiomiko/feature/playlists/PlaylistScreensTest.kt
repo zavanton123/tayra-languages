@@ -18,6 +18,8 @@ import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.hasTestTag
 import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithContentDescription
+import androidx.compose.ui.test.getBoundsInRoot
+import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -483,6 +485,28 @@ class PlaylistScreensTest {
         onNodeWithText("Cancel").assertIsDisplayed()
         assertTrue(onAllNodes(hasText("reorder texts later", substring = true)).fetchSemanticsNodes().isEmpty())
         screenshot("playlist-add-texts")
+    }
+
+    /** On a phone the bar holds the page's title, and the texts' card starts right under it. */
+    @Test
+    fun onAPhoneTheAddTextsCardStartsUnderTheBar() = runDesktopComposeUiTest(width = 400, height = 900) {
+        val playlist = runBlocking { data.service.create(data.languageId, PlaylistDraft("Commute", "", cover = 0), emptyList()) }
+        val viewModel = PlaylistFormViewModel(PlaylistFormMode.AddTexts(playlist), data.service, data.settings)
+        setContent {
+            IdiomikoTheme {
+                ProvideWindowWidth {
+                    CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(data.languageId to "Portuguese"), data.languageId) {}) {
+                        PlaylistFormScreen(PlaylistFormMode.AddTexts(playlist), onNavigate = {}, onSaved = {}, onCancel = {}, viewModel = viewModel)
+                    }
+                }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("Search books, courses and lessons")).fetchSemanticsNodes().isNotEmpty() }
+        val back = onNodeWithContentDescription("Back").getBoundsInRoot()
+        val search = onNodeWithText("Search books, courses and lessons").getBoundsInRoot()
+        // The bar's own room, the page's padding and the card's: no empty header's gap besides.
+        assertTrue(search.top - back.bottom < 60.dp, "the search starts ${search.top - back.bottom} under the bar")
+        screenshot("playlist-add-texts-phone")
     }
 
     @Test

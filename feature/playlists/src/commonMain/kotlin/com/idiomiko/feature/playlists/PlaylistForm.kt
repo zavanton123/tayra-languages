@@ -192,14 +192,13 @@ internal fun PlaylistFormContent(state: PlaylistFormUiState, viewModel: Playlist
         contentModifier = Modifier.padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxl),
         verticalArrangement = Arrangement.spacedBy(AppSpacing.xl),
     ) {
-        ScreenHeader(
-            state.mode.title,
-            when (state.mode) {
-                is PlaylistFormMode.Create -> tr("Collect texts to listen to one after another.")
-                is PlaylistFormMode.Edit -> tr("Change what the playlist is called, what it is for and its cover.")
-                is PlaylistFormMode.AddTexts -> null
-            },
-        )
+        val subtitle = when (state.mode) {
+            is PlaylistFormMode.Create -> tr("Collect texts to listen to one after another.")
+            is PlaylistFormMode.Edit -> tr("Change what the playlist is called, what it is for and its cover.")
+            is PlaylistFormMode.AddTexts -> null
+        }
+        // A phone's bar holds the title: without a subtitle the header would be nothing but a gap.
+        if (!compact || subtitle != null) ScreenHeader(state.mode.title, subtitle)
         state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
         val details: @Composable (Modifier) -> Unit = { m -> DetailsColumn(state, viewModel, m) }
         val texts: @Composable (Modifier) -> Unit = { m -> TextsColumn(state, viewModel, m) }
