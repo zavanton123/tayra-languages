@@ -36,7 +36,6 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Texts" to "文本",
     "Drag to reorder" to "拖动以调整顺序",
     "Heard to the end" to "已听完",
-    "Open in the reader" to "在阅读器中打开",
     "Remove from playlist" to "从播放列表中移除",
     "This playlist is empty" to "此播放列表为空",
     "Add books, course lessons or individual texts to start listening." to "添加书籍、课程课文或单篇文本，即可开始收听。",

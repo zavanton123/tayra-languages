@@ -36,7 +36,6 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Texts" to "Тексты",
     "Drag to reorder" to "Перетащите, чтобы изменить порядок",
     "Heard to the end" to "Прослушан до конца",
-    "Open in the reader" to "Открыть для чтения",
     "Remove from playlist" to "Удалить из плейлиста",
     "This playlist is empty" to "Этот плейлист пуст",
     "Add books, course lessons or individual texts to start listening." to "Добавьте книги, уроки курсов или отдельные тексты, чтобы начать слушать.",

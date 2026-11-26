@@ -36,7 +36,6 @@ internal val ptPlaylists: Map<String, String> = mapOf(
     "Texts" to "Textos",
     "Drag to reorder" to "Arraste para reordenar",
     "Heard to the end" to "Ouvido até o fim",
-    "Open in the reader" to "Abrir no leitor",
     "Remove from playlist" to "Remover da playlist",
     "This playlist is empty" to "Esta playlist está vazia",
     "Add books, course lessons or individual texts to start listening." to "Adicione livros, lições de cursos ou textos avulsos para começar a ouvir.",

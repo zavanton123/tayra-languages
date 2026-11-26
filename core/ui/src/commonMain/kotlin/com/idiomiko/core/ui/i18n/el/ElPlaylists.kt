@@ -36,7 +36,6 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Texts" to "Κείμενα",
     "Drag to reorder" to "Σύρετε για αναδιάταξη",
     "Heard to the end" to "Ακούστηκε ως το τέλος",
-    "Open in the reader" to "Άνοιγμα στην οθόνη ανάγνωσης",
     "Remove from playlist" to "Αφαίρεση από τη λίστα αναπαραγωγής",
     "This playlist is empty" to "Αυτή η λίστα αναπαραγωγής είναι κενή",
     "Add books, course lessons or individual texts to start listening." to "Προσθέστε βιβλία, ενότητες μαθημάτων ή μεμονωμένα κείμενα για να ξεκινήσετε την ακρόαση.",

@@ -214,7 +214,7 @@ private fun PageTextRow(state: PlaylistDetailUiState, item: PlaylistItem, index:
                 )
             }
         }
-        ItemMenu(item, index, count, viewModel, onNavigate)
+        ItemMenu(item, index, count, viewModel)
     }
 }
 
@@ -457,7 +457,7 @@ private fun TextRow(
         )
         val status = statusLabel(state.statusOf(item))
         Text(status?.first.orEmpty(), Modifier.width(STATUS).testTag("status-${item.id}"), style = AppText.badgeBold, color = status?.second ?: colors.onSurfaceVariant, maxLines = 1)
-        ItemMenu(item, index, count, viewModel, onNavigate)
+        ItemMenu(item, index, count, viewModel)
     }
 }
 
@@ -474,12 +474,11 @@ private fun statusLabel(status: ItemStatus): Pair<String, Color>? {
     }
 }
 
-/** A text's own actions: reading it, moving it and taking it out. */
+/** A text's own actions: moving it and taking it out. */
 @Composable
-private fun ItemMenu(item: PlaylistItem, index: Int, count: Int, viewModel: PlaylistDetailViewModel, onNavigate: (Route) -> Unit) {
+private fun ItemMenu(item: PlaylistItem, index: Int, count: Int, viewModel: PlaylistDetailViewModel) {
     val colors = MaterialTheme.colorScheme
     OverflowMenu(tr("More actions"), buttonModifier = Modifier.testTag("item-menu-${item.id}"), icon = AppIcons.MoreHoriz, tint = colors.onSurfaceVariant) { close ->
-        AppMenuItem(text = { Text(tr("Open in the reader")) }, onClick = { close(); onNavigate(Route.Read(item.bookId)) })
         AppMenuItem(text = { Text(tr("Move up")) }, onClick = { close(); viewModel.move(item.id, index - 1) }, enabled = index > 0)
         AppMenuItem(text = { Text(tr("Move down")) }, onClick = { close(); viewModel.move(item.id, index + 1) }, enabled = index < count - 1)
         AppMenuItem(text = { Text(tr("Remove from playlist"), color = colors.error) }, onClick = { close(); viewModel.remove(item.id) })
