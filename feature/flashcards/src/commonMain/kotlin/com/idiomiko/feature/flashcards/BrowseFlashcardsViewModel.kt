@@ -4,8 +4,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.idiomiko.core.domain.export.AnkiDeckExportService
 import com.idiomiko.core.domain.export.AnkiExportService
-import com.idiomiko.core.domain.flashcards.AnkiImportException
-import com.idiomiko.core.domain.flashcards.AnkiImportService
 import com.idiomiko.core.domain.flashcards.CardState
 import com.idiomiko.core.domain.flashcards.FlashcardReview
 import com.idiomiko.core.domain.flashcards.FlashcardService
@@ -86,13 +84,6 @@ data class BrowseCounts(val all: Int = 0, val due: Int = 0, val new: Int = 0, va
     }
 }
 
-/** An import from Anki: under way, with how many words are done, finished, or failed with why. */
-sealed interface AnkiImport {
-    data class Working(val done: Int = 0, val total: Int = 0) : AnkiImport
-    data class Done(val report: AnkiImportService.Report) : AnkiImport
-    data class Failed(val reason: String?) : AnkiImport
-}
-
 /** An export to Anki: under way, with how many cards are done, ready to save, saved with how many cards, or failed. */
 sealed interface AnkiExport {
     data class Working(val done: Int = 0, val total: Int = 0) : AnkiExport
@@ -129,9 +120,6 @@ data class BrowseUiState(
     val now: Instant = Instant.DISTANT_PAST,
     /** A card to bring into view in the list, once; the one the browser was opened for. */
     val focus: Long? = null,
-    /** Whether Anki packages can be imported here. */
-    val canImportAnki: Boolean = false,
-    val ankiImport: AnkiImport? = null,
     /** Whether the cards can be exported to Anki here. */
     val canExportAnki: Boolean = false,
     val ankiExport: AnkiExport? = null,
@@ -154,7 +142,6 @@ class BrowseFlashcardsViewModel(
     private val languages: LanguageRepository,
     private val settings: SettingsRepository,
     private val terms: TermRepository,
-    private val ankiImport: AnkiImportService? = null,
     private val deckExport: AnkiDeckExportService? = null,
     /** Keeps the sentences' translations with their words; null shows none, as in tests. */
     private val sentences: SentenceTranslations? = null,
@@ -162,7 +149,6 @@ class BrowseFlashcardsViewModel(
 
     private val _state = MutableStateFlow(
         BrowseUiState(
-            canImportAnki = ankiImport?.available == true,
             canExportAnki = deckExport != null,
             pageSize = settings.current.flashcardBrowsePageSize.takeIf { it in LIST_PAGE_SIZES } ?: LIST_PAGE_SIZES[1],
         ),
@@ -486,29 +472,6 @@ class BrowseFlashcardsViewModel(
             // The history shown is gone with the reset.
             if (open != null && open in termIds) open(open)
         }
-    }
-
-    /** Imports the cards of the Anki package in [bytes], then says what was done. */
-    fun importAnki(bytes: ByteArray) {
-        val importer = ankiImport ?: return
-        if (_state.value.ankiImport is AnkiImport.Working) return
-        _state.update { it.copy(ankiImport = AnkiImport.Working()) }
-        viewModelScope.launch {
-            val result = try {
-                AnkiImport.Done(importer.import(bytes) { done, total -> _state.update { it.copy(ankiImport = AnkiImport.Working(done, total)) } })
-            } catch (e: CancellationException) {
-                throw e
-            } catch (e: Exception) {
-                // An unexpected failure is told as one, without its technical message.
-                AnkiImport.Failed((e as? AnkiImportException)?.message)
-            }
-            _state.update { it.copy(ankiImport = result) }
-            refresh()
-        }
-    }
-
-    fun closeAnkiImport() {
-        _state.update { it.copy(ankiImport = null) }
     }
 
     private var exportJob: Job? = null

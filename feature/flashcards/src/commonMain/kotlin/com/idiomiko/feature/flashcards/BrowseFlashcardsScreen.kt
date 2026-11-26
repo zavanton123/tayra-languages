@@ -48,7 +48,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -137,14 +136,10 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 import com.idiomiko.feature.terms.examples.ChooseExampleDialog
-import io.github.vinceglb.filekit.dialogs.FileKitType
-import io.github.vinceglb.filekit.dialogs.compose.rememberFilePickerLauncher
-import io.github.vinceglb.filekit.readBytes
 import kotlin.math.roundToInt
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Instant
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.daysUntil
@@ -177,10 +172,6 @@ fun BrowseFlashcardsScreen(
     }
     var confirmReset by remember { mutableStateOf<Collection<Long>?>(null) }
     var confirmDelete by remember { mutableStateOf<Collection<Long>?>(null) }
-    val scope = rememberCoroutineScope()
-    val ankiPicker = rememberFilePickerLauncher(type = FileKitType.File(listOf("apkg", "colpkg"))) { file ->
-        if (file != null) scope.launch { viewModel.importAnki(file.readBytes()) }
-    }
     var settingDue by remember { mutableStateOf<Collection<Long>?>(null) }
     val actions = BrowseActions(
         onOpen = viewModel::open,
@@ -195,7 +186,6 @@ fun BrowseFlashcardsScreen(
         onSaveTranslation = viewModel::saveSentenceTranslation,
         onEditing = viewModel::editingText,
         onPickWord = viewModel::chooseHiddenWord,
-        onImportAnki = { ankiPicker.launch() },
         onExportAnki = viewModel::exportAnki,
     )
     val width = LocalWindowWidth.current
@@ -207,7 +197,6 @@ fun BrowseFlashcardsScreen(
         }
         state.detail?.let { DetailDialog(it, state.now, actions, onDismiss = viewModel::closeDetail) }
     }
-    state.ankiImport?.let { AnkiImportDialog(it, onDismiss = viewModel::closeAnkiImport) }
     (state.ankiExport as? AnkiExport.Ready)?.let { ready ->
         LaunchedEffect(ready) {
             val export = ready.export
@@ -302,8 +291,6 @@ internal class BrowseActions(
     val onEditing: (termId: Long, editing: Boolean) -> Unit = { _, _ -> },
     /** Makes a word of the sentence the one the card hides. */
     val onPickWord: (termId: Long, form: String) -> Unit = { _, _ -> },
-    /** Asks for an Anki package to import. */
-    val onImportAnki: () -> Unit = {},
     /** Exports the language's cards to Anki with their progress. */
     val onExportAnki: () -> Unit = {},
 )
@@ -337,7 +324,6 @@ private fun BrowseContent(state: BrowseUiState, viewModel: BrowseFlashcardsViewM
                     ) {
                         // The review and the statistics are in the bar's Flashcards menu.
                         Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                            if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.testTag("import-anki"), icon = AppIcons.UploadFile)
                             if (state.canExportAnki && state.counts.all > 0) SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.testTag("export-anki"), icon = AppIcons.Download)
                         }
                     }

@@ -67,7 +67,7 @@ import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
 
 /**
- * The browser on a phone: the search, the Anki import and export, the three figures, the groups in a scrolling row, the count with
+ * The browser on a phone: the search, the Anki export, the three figures, the groups in a scrolling row, the count with
  * the sort, and the cards as cards of their own, a page at a time. Each card has its checkbox, which picks it, as the
  * vocabulary's terms do; a tap elsewhere on it opens it. The review is in the Flashcards tab's sheet.
  */
@@ -88,8 +88,8 @@ internal fun PhoneBrowseFlashcardsScreen(
         containerColor = colors.surfaceContainerLow,
     ) { padding ->
         val list = rememberLazyListState()
-        val anki = state.canImportAnki || (state.canExportAnki && state.counts.all > 0)
-        // Search, the Anki buttons, the figures, groups and the count come before the cards.
+        val anki = state.canExportAnki && state.counts.all > 0
+        // Search, the Anki export, the figures, groups and the count come before the cards.
         val rowsBefore = 4 + (if (anki) 1 else 0)
         FocusRow(state, state.pageRows, list, rowsBefore = rowsBefore, onShown = viewModel::focusShown)
         // A new page starts at its first card.
@@ -106,10 +106,7 @@ internal fun PhoneBrowseFlashcardsScreen(
         ) {
             item { CardSearchField(state.search, viewModel::setSearch, Modifier.fillMaxWidth()) }
             if (anki) item {
-                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    if (state.canImportAnki) SecondaryButton(tr("Import from Anki"), onClick = actions.onImportAnki, modifier = Modifier.weight(1f).testTag("import-anki"), icon = AppIcons.UploadFile)
-                    if (state.canExportAnki && state.counts.all > 0) SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.weight(1f).testTag("export-anki"), icon = AppIcons.Download)
-                }
+                SecondaryButton(tr("Export to Anki"), onClick = actions.onExportAnki, modifier = Modifier.fillMaxWidth().testTag("export-anki"), icon = AppIcons.Download)
             }
             item { BrowseFigures(state, viewModel::setView, compact = true) }
             item {

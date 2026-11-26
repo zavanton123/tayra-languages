@@ -1,7 +1,6 @@
 package com.idiomiko.core.data
 
 import com.russhwolf.settings.MapSettings
-import com.idiomiko.core.data.anki.AnkiArchiveReaderImpl
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
 import com.idiomiko.core.data.export.AnkiPackagerImpl
@@ -14,13 +13,10 @@ import com.idiomiko.core.domain.dictionary.DictionaryLookup
 import com.idiomiko.core.domain.dictionary.OfflineDictionary
 import com.idiomiko.core.domain.export.AnkiDeckExportService
 import com.idiomiko.core.domain.export.AnkiExportService
-import com.idiomiko.core.domain.flashcards.AnkiImportService
 import com.idiomiko.core.domain.flashcards.CardSchedule
 import com.idiomiko.core.domain.flashcards.CardState
 import com.idiomiko.core.domain.flashcards.Flashcard
 import com.idiomiko.core.domain.flashcards.FlashcardReview
-import com.idiomiko.core.domain.flashcards.FlashcardScheduler
-import com.idiomiko.core.domain.flashcards.FlashcardService
 import com.idiomiko.core.domain.flashcards.MemoryState
 import com.idiomiko.core.domain.flashcards.NewCardOrder
 import com.idiomiko.core.domain.flashcards.PersonalParameters
@@ -154,39 +150,6 @@ class AnkiDeckExportTest {
         assertEquals(setOf(lobo, gato, casa, novo, velho), export.termIds.toSet())
         assertEquals(5 to 5, progress.last())
         System.getenv("ANKI_DECK_FILE")?.let { File(it).writeBytes(export.bytes) }
-
-        // Read back the way the import from Anki reads a package, into a library of its own.
-        val anki = Library(clock)
-        val there = anki.languages.save(Language(name = "Portuguese"))
-        anki.settings.update { it.copy(currentLanguageId = there, flashcardLearnSteps = "2m 15m 1d", flashcardDayStartHour = 4) }
-        AnkiImportService(AnkiArchiveReaderImpl(), anki.cards, anki.terms, anki.languages, anki.settings, FlashcardScheduler(timeZone = { TimeZone.UTC }), clock, timeZone = { TimeZone.UTC })
-            .import(export.bytes)
-        val scheduler = FlashcardScheduler(timeZone = { TimeZone.UTC })
-        val config = FlashcardService.schedulerConfig(idiomiko.settings.current)
-        val byWord = anki.cards.list(there).associateBy { card -> anki.terms.getByIds(listOf(card.termId)).single().text }
-        for ((word, id) in listOf("lobo" to lobo, "gato" to gato, "casa" to casa, "novo" to novo, "velho" to velho)) {
-            val mine = idiomiko.cards.get(id)!!
-            val theirs = byWord.getValue(word)
-            assertEquals(mine.schedule.state, theirs.schedule.state, word)
-            assertEquals(mine.suspended, theirs.suspended, word)
-            assertEquals(mine.schedule.intervalDays, theirs.schedule.intervalDays, word)
-            assertEquals(mine.schedule.remainingSteps, theirs.schedule.remainingSteps, word)
-            assertEquals(mine.schedule.reps, theirs.schedule.reps, word)
-            assertEquals(mine.schedule.lapses, theirs.schedule.lapses, word)
-            assertEquals(mine.schedule.lastReview?.epochSeconds, theirs.schedule.lastReview?.epochSeconds, word)
-            if (mine.schedule.state != CardState.NEW) {
-                assertEquals(mine.schedule.memory, theirs.schedule.memory, word)
-                assertEquals(scheduler.day(mine.schedule.due, config), scheduler.day(theirs.schedule.due, config), word)
-            }
-        }
-        // A step later today keeps its time; one on a later day, its day.
-        assertEquals((now + 15.minutes).epochSeconds, byWord.getValue("gato").schedule.due.epochSeconds)
-
-        val answers = anki.cards.reviews(byWord.getValue("lobo").termId).sortedBy { it.at }
-        assertEquals(listOf(Rating.AGAIN, Rating.GOOD, Rating.GOOD), answers.map { it.rating })
-        assertEquals(listOf(CardState.NEW, CardState.LEARNING, CardState.REVIEW), answers.map { it.stateBefore })
-        assertEquals(listOf(reviewed - 30.days, reviewed - 30.days + 2.minutes, reviewed), answers.map { it.at })
-        assertEquals(listOf(0, 3, 15), answers.map { it.intervalDays })
 
         val entries = unzip(export.bytes)
         assertTrue(entries.getValue("media").decodeToString().contains(".wav"))

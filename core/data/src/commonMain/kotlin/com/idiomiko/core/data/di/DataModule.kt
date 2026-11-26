@@ -12,7 +12,6 @@ import com.idiomiko.core.domain.account.AccountRepository
 import com.idiomiko.core.domain.account.SyncRunner
 import com.idiomiko.core.domain.account.LibrarySync
 import com.idiomiko.core.domain.account.PackChoices
-import com.idiomiko.core.data.anki.AnkiArchiveReaderImpl
 import com.idiomiko.core.data.network.createAccountHttpClient
 import com.idiomiko.core.data.account.thisDevice
 import com.idiomiko.core.data.account.defaultAccountServer
@@ -115,8 +114,6 @@ import com.idiomiko.core.domain.practice.PracticeProgressRepository
 import com.idiomiko.core.data.repository.PracticeProgressRepositoryImpl
 import com.idiomiko.core.domain.practice.WordForms
 import com.idiomiko.core.data.repository.PracticeExampleRepositoryImpl
-import com.idiomiko.core.domain.flashcards.AnkiArchiveReader
-import com.idiomiko.core.domain.flashcards.AnkiImportService
 import com.idiomiko.core.domain.flashcards.DictionaryFormLemmas
 import com.idiomiko.core.domain.flashcards.FlashcardService
 import com.idiomiko.core.domain.flashcards.PersonalScheduling
@@ -338,6 +335,4 @@ val dataModule: Module = module {
     single { PersonalScheduling(get(), get()) }
     single { FlashcardStatsService(get(), get()) }
     single { RetentionAdvisor(get(), get()) }
-    single<AnkiArchiveReader> { AnkiArchiveReaderImpl() }
-    single { AnkiImportService(get(), get(), get(), get(), get()) }
 }

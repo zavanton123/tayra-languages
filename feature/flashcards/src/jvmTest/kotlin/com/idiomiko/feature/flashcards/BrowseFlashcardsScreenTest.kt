@@ -49,11 +49,6 @@ import com.idiomiko.core.domain.dictionary.DictionaryLookup
 import com.idiomiko.core.domain.dictionary.OfflineDictionary
 import com.idiomiko.core.domain.export.AnkiDeckExportService
 import com.idiomiko.core.domain.export.AnkiExportService
-import com.idiomiko.core.domain.flashcards.AnkiArchive
-import com.idiomiko.core.domain.flashcards.AnkiArchiveCard
-import com.idiomiko.core.domain.flashcards.AnkiArchiveNote
-import com.idiomiko.core.domain.flashcards.AnkiArchiveReader
-import com.idiomiko.core.domain.flashcards.AnkiImportService
 import com.idiomiko.core.domain.flashcards.AnswerMode
 import com.idiomiko.core.domain.flashcards.CardState
 import com.idiomiko.core.domain.flashcards.FlashcardService
@@ -81,7 +76,6 @@ import kotlin.test.assertFalse
 import kotlin.test.assertTrue
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.days
-import kotlin.time.Instant
 import kotlinx.coroutines.awaitCancellation
 import kotlinx.coroutines.runBlocking
 
@@ -111,7 +105,6 @@ class BrowseFlashcardsScreenTest {
     private fun ComposeUiTest.show(
         width: Int = 1586,
         open: (() -> Long)? = null,
-        importer: AnkiImportService? = null,
         exporter: AnkiDeckExportService? = null,
         saveFile: suspend (String, String, ByteArray) -> Boolean = { _, _, _ -> false },
         before: () -> Unit = {},
@@ -127,7 +120,7 @@ class BrowseFlashcardsScreenTest {
             id
         }
         before()
-        val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms, importer, exporter)
+        val viewModel = BrowseFlashcardsViewModel(service, languages, settings, terms, exporter)
         @OptIn(ExperimentalComposeUiApi::class)
         setContent {
             IdiomikoTheme {
@@ -178,7 +171,7 @@ class BrowseFlashcardsScreenTest {
         assertEquals(0, onAllNodesWithText("Review").fetchSemanticsNodes().size)
         assertEquals(2, onAllNodesWithText("Not shown yet").fetchSemanticsNodes().size)
         save("BROWSE_SCREENSHOT")
-        assertTrue(onAllNodesWithTag("import-anki").fetchSemanticsNodes().isEmpty(), "no import where packages cannot be read")
+        onNodeWithTag("import-anki").assertDoesNotExist()
 
         onNodeWithTag("browse-search").performTextInput("cas")
         waitUntil(timeoutMillis = 5_000) { rows() == 1 }
@@ -194,26 +187,6 @@ class BrowseFlashcardsScreenTest {
         assertEquals(1, rows())
         onNodeWithTag("browse-view-ALL").performClick()
         waitUntil(timeoutMillis = 5_000) { rows() == 3 }
-    }
-
-    /** An Anki package's cards come in from the page's Import button, and the import says what it did. */
-    @Test
-    fun ankiCardsComeInAndTheImportSaysWhatItDid() = runDesktopComposeUiTest(width = 1500, height = 900) {
-        val card = AnkiArchiveCard("Idiomiko::Portuguese", 2, 2, 400, null, 30, 3, 0, 0, 40.5, 5.25, null, emptyList())
-        val note = AnkiArchiveNote(1, mapOf("Word" to "pretendo", "Language" to "pt", "Subtitle" to "Eu pretendo partir cedo.", "Word Definition" to "намереваюсь"), emptyList(), listOf(card))
-        val reader = object : AnkiArchiveReader {
-            override val available = true
-            override suspend fun read(bytes: ByteArray) = AnkiArchive(Instant.parse("2026-02-14T04:00:00Z"), listOf(note))
-        }
-        val viewModel = show(importer = AnkiImportService(reader, cards, terms, languages, settings))
-        onNodeWithTag("import-anki").assertExists()
-        viewModel.importAnki(ByteArray(0))
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 new word saved with its card").fetchSemanticsNodes().isNotEmpty() }
-        save("BROWSE_ANKI_SCREENSHOT")
-        onNodeWithTag("anki-import-close").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("anki-import").fetchSemanticsNodes().isEmpty() }
-        onNodeWithText("pretendo").assertExists()
-        onNodeWithText("4 cards").assertExists()
     }
 
     /** The language's cards go to Anki as a deck with their progress, and the dialog says how to bring it in with it. */
@@ -560,13 +533,9 @@ class BrowseFlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { card(comprar).schedule.due != saved }
     }
 
-    /** A phone shows the Anki import and export as buttons, the three figures, no review, and the cards a page at a time. */
+    /** A phone shows the Anki export as a button, the three figures, no review, and the cards a page at a time. */
     @Test
     fun aPhonePagesTheCardsUnderTheAnkiButtons() = runDesktopComposeUiTest(width = 420, height = 900) {
-        val reader = object : AnkiArchiveReader {
-            override val available = true
-            override suspend fun read(bytes: ByteArray) = AnkiArchive(Instant.parse("2026-02-14T04:00:00Z"), emptyList())
-        }
         val dictionary = object : OfflineDictionary {
             override suspend fun isAvailable(dictionary: DictionaryId) = false
             override suspend fun lookup(dictionary: DictionaryId, text: String) = DictionaryLookup(emptyList(), emptyList())
@@ -577,7 +546,6 @@ class BrowseFlashcardsScreenTest {
         val notes = AnkiExportService(terms, languages, dictionary, translator, SentenceAudio(LocalSpeech(emptyList()), settings, MemorySpeechAudioCache()), settings, AnkiPackagerImpl())
         val viewModel = show(
             width = 420,
-            importer = AnkiImportService(reader, cards, terms, languages, settings),
             exporter = AnkiDeckExportService(cards, terms, languages, settings, notes, AnkiPackagerImpl()),
             before = {
                 runBlocking {
@@ -587,7 +555,7 @@ class BrowseFlashcardsScreenTest {
             },
         )
         waitUntil(timeoutMillis = 5_000) { viewModel.state.value.rows.size == 33 }
-        onNodeWithTag("import-anki").assertIsDisplayed()
+        onNodeWithTag("import-anki").assertDoesNotExist()
         onNodeWithTag("export-anki").assertIsDisplayed()
         for (view in listOf("ALL", "DUE", "ADDED_TODAY")) onNodeWithTag("browse-figure-$view").assertIsDisplayed()
         onNodeWithTag("phone-review").assertDoesNotExist()
