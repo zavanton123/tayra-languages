@@ -56,7 +56,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "eo-es" to 236_880L, "eo-fr" to 7_519_715L, "eo-pl" to 2_428_810L, "eo-pt" to 348_822L, "eo-ru" to 1_666_576L,
         "eo-zh" to 1_156_066L, "es-el" to 1_221_956L, "es-pl" to 6_134_611L, "es-zh" to 13_170_231L, "et-en" to 4_581_287L, "et-pl" to 1_616_347L,
         "et-zh" to 764_638L, "eu-en" to 4_360_574L, "eu-es" to 883_517L, "eu-fr" to 2_796_902L, "eu-pl" to 3_349_832L,
-        "eu-pt" to 371_017L, "eu-ru" to 1_103_823L, "fa-en" to 3_479_836L, "fa-fr" to 368_776L, "fa-pl" to 312_880L,
+        "eu-pt" to 371_017L, "eu-ru" to 1_103_823L, "fa-en" to 3_484_295L, "fa-fr" to 368_776L, "fa-pl" to 312_880L,
         "fa-ru" to 881_992L, "fa-zh" to 494_307L, "fi-el" to 1_383_881L, "fi-pl" to 4_121_219L, "fi-zh" to 4_351_688L,
         "fr-el" to 5_628_018L, "fr-pl" to 3_588_101L, "fr-zh" to 5_034_449L, "ga-en" to 4_082_371L, "ga-es" to 275_065L,
         "ga-fr" to 406_352L, "ga-pl" to 314_312L, "ga-ru" to 583_638L, "gd-en" to 1_132_852L, "gd-pt" to 96_464L,
