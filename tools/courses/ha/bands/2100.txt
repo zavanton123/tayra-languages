@@ -1,4 +1,4 @@
-1	2001	ranta	ranta ranci rantawa
+1	2001	ranta	ranta ranci rantawa rancen rance rancensa
 2	2002	makirci	makircin makirci makircinsu makircinsa makircinta
 3	2003	dakata	dakata dakatawa dakatawar
 4	2004	alfanu	alfanu alfanun alfanunsa alfanunta
@@ -54,7 +54,7 @@
 54	2054	kurma	kurma kurame kurmar kurmarsa
 55	2055	ƙarara	ƙarara ƙararar
 56	2056	ƙaho	ƙaho ƙahon ƙahonsu ƙahonin ƙahonsa ƙahonta ƙahoni ƙahoninsu
-57	2057	ƴar'uwa	ƴar'uwa ƴar'uwar ƴar'uwarta ƴar'uwarsa ƴar'uwarsu ƴar'uwarku
+57	2057	ƴar'uwa	ƴar'uwa ƴar'uwar ƴar'uwarta ƴar'uwarsa ƴar'uwarsu ƴar'uwarku ƴar'uwata
 58	2058	fusata	fusata
 59	2059	akuya	akuya awaki akuyar awakin akuyarsa awakai akuyan
 60	2060	ninka	ninka ninkawa ninkawar
@@ -76,7 +76,7 @@
 76	2076	nashi	nashi
 77	2077	tabo	tabo tabon tabbar tabba tabonsu
 78	2078	tagwaye	tagwayen tagwaye tagwayensa tagwayenta
-79	2079	baƙunci	baƙunci baƙuncin baƙuncinsa baƙuncinsu
+79	2079	baƙunci	baƙunci baƙuncin baƙuncinsa baƙuncinsu baƙunta
 80	2080	ibn	ibn
 81	2081	huda	huda
 82	2082	fenti	fenti fentin fentinsa

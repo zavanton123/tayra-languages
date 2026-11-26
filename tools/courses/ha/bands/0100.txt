@@ -47,8 +47,8 @@
 47	47	nan	nan
 48	48	wata	wata watan watanni watannin watansa watar watansu watanmu watanninsa watanninta
 49	49	zama	zama zaman zamana zamansa zamansu zamanta zamar zamanki zamanka zamanmu zamanku zamarta
-50	50	samu	samu samun samunsa samunsu samunta samunka samunki samunku saamu saamun samowa samowarsa
-51	51	yin	yin
+50	50	samu	samu samun samunsa samunsu samunta samunka samunki samunku saamu saamun samowa samowarsa samuna
+51	51	yin	yin yinsa yinta
 52	52	amma	amma
 53	53	duk	duk
 54	54	sa	sa shanu shanun shanunsu shanunsa shanunta
@@ -95,6 +95,6 @@
 95	95	san	san
 96	96	sama	sama samar saman samansa samanta samanki samansu samata
 97	97	farko	farko farkon farkonsa farkonsu farkonta
-98	98	fara	fara faran fararta farai
+98	98	fara	fara faran fararta farai faro
 99	99	ruwa	ruwa ruwan ruwansa ruwansu ruwanmu ruwayen ruwanka ruwanta ruwaye ruwana ruwanki ruwar
 100	100	wuri	wurin wuri wuraren wurare wurina wurinsa wurinsu wurinmu wurinta wurarensu wurinka wurinku wurinki wurarensa wurarenmu wurarenta guraben gurare guraren gurina

@@ -1,4 +1,4 @@
-1	701	yiwuwa	yiwuwa yiwuwar yiwuwarsa yiwuwarsu
+1	701	yiwuwa	yiwuwa yiwuwar yiwuwarsa yiwuwarsu yiyuwa yiyuwan yiyuwar
 2	702	tsauni	tsaunin tsaunuka tsauni tsaunukan tsaunukanta tsauninsa tsaunukansa
 3	703	kulawa	kulawa kulawar kulawarsa kulawarsu kulawarta kulawarku kulawan
 4	704	farashi	farashin farashi farashinsa farashinsu farashinta farashinmu
@@ -31,7 +31,7 @@
 31	731	sarrafa	sarrafa sarrafar sarrafawa sarrafawar
 32	732	ila	ila
 33	733	rukuni	rukunin rukuni rukuninsu rukuninta rukuninsa rukunonin rukunoni rukunoninsu
-34	734	zuba	zuba zube zuban zubawa
+34	734	zuba	zuba zube zuban zubawa zubo zubewar zubowa
 35	735	gado	gado gadon gadaje gadonsa gadonta gadonsu gadajen gadonku gadajensu gadonmu
 36	736	tauraro	tauraron taurari tauraro taurarin taurarinsa tauraronsa taurarinmu taurarinta tauraronta
 37	737	haɓaka	haɓaka haɓakar haɓakarsa haɓakarsu haɓakarta haɓakawa haɓɓaka haɓɓakar haɓakawar haɓɓakawa haɓakawarsa haɓakawarsu
@@ -68,7 +68,7 @@
 68	768	ɗabi'a	ɗabi'a ɗabi'ar ɗabi'un ɗabi'u ɗabi'unsu ɗabi'unta ɗabi'unka ɗabi'an ɗabi'arka ɗabi'unsa ɗabi'arsu ɗabi'unmu ɗabi'arsa ɗabi'arta
 69	769	ƙarya	ƙarya ƙaryar ƙaryarsa ƙaryarta
 70	770	runduna	rundunar runduna rundunarsa rundunata rundunarsu rundunarta rundunan rundunansu rundunanta
-71	771	fassara	fassara fassarar fassarorin fassarori fassararta fassararsu fassararsa fassarorinsa fassararmu fassarorinsu fassarorinta fassaran fassarata
+71	771	fassara	fassara fassarar fassarorin fassarori fassararta fassararsu fassararsa fassarorinsa fassararmu fassarorinsu fassarorinta fassaran fassarata fassarawa
 72	772	ciniki	ciniki cinikin cinikinmu cinikinku cinikinta cinikinsa cinikinsu
 73	773	bugawa	bugawa bugawar bugawarsa
 74	774	lantarki	lantarki lantarkin lantarkinta
@@ -94,7 +94,7 @@
 94	794	mini	mini
 95	795	sadarwa	sadarwa sadarwar sadarwarmu sadarwan sadarwarsa sadarwarsu sadarwarka sadarwarta
 96	796	rasu	rasu
-97	797	yunwa	yunwa yunwar yunwan
+97	797	yunwa	yunwa yunwar yunwan yinwa
 98	798	kamu	kamu kamun kamunsu kamunta
 99	799	lissafi	lissafi lissafin lissafinmu lissafinsa lissafinsu lissafinta
 100	800	a'a	a'a

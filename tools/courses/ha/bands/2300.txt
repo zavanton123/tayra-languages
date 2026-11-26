@@ -1,71 +1,71 @@
-1	2201	shahada	shahada shahadar shahadarsu shahadarsa
-2	2202	benci	benci bencin bencina
-3	2203	gata	gata gatan gatar gatarsu gatana gatansu gatanta
-4	2204	sintiri	sintiri sintirin
-5	2205	safara	safarar safara safararta safararsu
-6	2206	jujjuya	jujjuya jujjuyawa jujjuyawar jujjuyawarsa
-7	2207	tan	tan
-8	2208	shehu	shehu shehun shehunan shehunanmu shehunai
-9	2209	mahimman	mahimman
-10	2210	ungulu	ungulu ungulun
-11	2211	annashuwa	annashuwa
-12	2212	tsiraru	tsiraru tsirarun tsirarunsu
-13	2213	daukawa	daukawa
-14	2214	kwastomomi	kwastomomi kwastomomin kwastomominmu kwastomominsa kwastomominsu kwastomominta
-15	2215	ƙazami	ƙazamin ƙazamar ƙazami ƙazama ƙazamai ƙazaman
-16	2216	dunƙule	dunƙule dunƙulen
-17	2217	tsagaita	tsagaita tsagaitawa tsagaitawar
-18	2218	kash	kash
-19	2219	batiri	batiri batirin batir batura batirinsa baturan
-20	2220	ango	ango angon angonta angona angonsa
-21	2221	ɓulla	ɓullar ɓulla
-22	2222	abokantaka	abokantaka abokantakarmu abokantakar abokantakarsu abokantakarsa
-23	2223	agwagwa	agwagwa agwagwar agwagi agwagin
-24	2224	kaɗaici	kaɗaici kaɗaicin kaɗaicinta
-25	2225	kaye	kaye kayen kayenta
-26	2226	sakaci	sakaci sakacin sakacinsa
-27	2227	kwali	kwalaye kwalin kwali kwalayen
-28	2228	damuna	damuna
-29	2229	guntu	guntu guntun guntayen guntaye guntunta
-30	2230	ɗan'adam	ɗan'adam
-31	2231	wargaje	wargaza wargaje wargajewa wargajewar wargajewarta wargazawa
-32	2232	kyanwa	kyanwa kyanwar
-33	2233	cuɗanya	cuɗanya cuɗanyar
-34	2234	fallasa	fallasa fallasawa fallasan fallasawar
-35	2235	labule	labule labulen
-36	2236	niƙa	niƙa niƙe niƙan niƙawa
-37	2237	aba	aba abar ababan
-38	2238	jimilla	jimillar jimilla jimillarsu jimillan jimillarta
-39	2239	bokiti	bokiti bokitin bokitinsa
-40	2240	ƙasida	ƙasida ƙasidu ƙasidar ƙasidun ƙasidarsa ƙasidunsa ƙasidarta ƙasidarsu ƙasidunta
-41	2241	dijital	dijital
-42	2242	karimci	karimci karamci karimcin karamcin karamcinsa karamcinta karimcinsa karimcinta karimcinsu
-43	2243	amini	amini aminai aminan aminansu aminin amininmu amininsa aminansa aminanta aminina amininta
-44	2244	tuwo	tuwo tuwon
-45	2245	lamiri	lamiri lamirin lamirinsa lamirinka lamirinsu lamirinta
-46	2246	dako	dakon dako
-47	2247	saniya	saniya saniyar
-48	2248	kazalika	kazalika
-49	2249	saita	saita saitawa
-50	2250	ƙalubalanta	ƙalubalantar ƙalubalantarsa ƙalubalanta ƙalubalantarta ƙalubalantarku ƙalubalantarsu
-51	2251	cutarwa	cutarwa cutarwar cutarwan
-52	2252	takunkumi	takunkumin takunkumi
-53	2253	tunkara	tunkarar tunkara tunkararsu tunkararsa tunkararta
-54	2254	murfi	murfin murfi murfinta murfinsa murfina murfinsu
-55	2255	gab	gab
-56	2256	addabi	addabi addabe
-57	2257	arha	arha arhar arhan
-58	2258	girme	girme girmi
-59	2259	kwakwa	kwakwa kwakwan kwakwar
-60	2260	daɗa	daɗa daɗawa daɗan
-61	2261	siminti	siminti simintin simintinsa
-62	2262	rairayi	rairayin rairayi rairayinta
-63	2263	washegari	washegari washegarin
-64	2264	alkhairi	alkhairi alkhairinsa
-65	2265	dillanci	dillanci dillancin
-66	2266	jahilci	jahilci jahilcin jahilcinsa jahilcinmu jahilcinsu
-67	2267	faro	faro
-68	2268	by	by
+1	2201	addaba	addabi addabar addabe addabarmu addabarsu addaba
+2	2202	sumba	sumbatar sumbata sumba sumbatarka sumbarta sumbatarta sumbanta
+3	2203	leƙa	leƙa leƙo leƙowa lekawa leƙan
+4	2204	dunƙule	dunƙule dunƙulewa dunƙulen dunƙulewar dunƙulewan
+5	2205	nishadantar	nishadantar nishaɗantarwa
+6	2206	ɗebe	ɗebe ɗebi ɗebo ɗebowa ɗeben
+7	2207	gurgu	guragu gurguwar gurgu gurguwa
+8	2208	shahada	shahada shahadar shahadarsu shahadarsa
+9	2209	benci	benci bencin bencina
+10	2210	gata	gata gatan gatar gatarsu gatana gatansu gatanta
+11	2211	sintiri	sintiri sintirin
+12	2212	safara	safarar safara safararta safararsu
+13	2213	jujjuya	jujjuya jujjuyawa jujjuyawar jujjuyawarsa
+14	2214	tan	tan
+15	2215	shehu	shehu shehun shehunan shehunanmu shehunai
+16	2216	ungulu	ungulu ungulun
+17	2217	annashuwa	annashuwa
+18	2218	tsiraru	tsiraru tsirarun tsirarunsu
+19	2219	kwastomomi	kwastomomi kwastomomin kwastomominmu kwastomominsa kwastomominsu kwastomominta
+20	2220	ƙazami	ƙazamin ƙazamar ƙazami ƙazama ƙazamai ƙazaman
+21	2221	tsagaita	tsagaita tsagaitawa tsagaitawar
+22	2222	kash	kash
+23	2223	batiri	batiri batirin batir batura batirinsa baturan
+24	2224	ango	ango angon angonta angona angonsa
+25	2225	ɓulla	ɓullar ɓulla
+26	2226	abokantaka	abokantaka abokantakarmu abokantakar abokantakarsu abokantakarsa
+27	2227	agwagwa	agwagwa agwagwar agwagi agwagin
+28	2228	kaɗaici	kaɗaici kaɗaicin kaɗaicinta
+29	2229	kaye	kaye kayen kayenta
+30	2230	sakaci	sakaci sakacin sakacinsa
+31	2231	kwali	kwalaye kwalin kwali kwalayen
+32	2232	damuna	damuna
+33	2233	guntu	guntu guntun guntayen guntaye guntunta
+34	2234	ɗan'adam	ɗan'adam
+35	2235	wargaje	wargaza wargaje wargajewa wargajewar wargajewarta wargazawa
+36	2236	kyanwa	kyanwa kyanwar
+37	2237	cuɗanya	cuɗanya cuɗanyar
+38	2238	fallasa	fallasa fallasawa fallasan fallasawar
+39	2239	labule	labule labulen
+40	2240	niƙa	niƙa niƙe niƙan niƙawa
+41	2241	jimilla	jimillar jimilla jimillarsu jimillan jimillarta
+42	2242	aba	aba abar ababan
+43	2243	bokiti	bokiti bokitin bokitinsa
+44	2244	ƙasida	ƙasida ƙasidu ƙasidar ƙasidun ƙasidarsa ƙasidunsa ƙasidarta ƙasidarsu ƙasidunta
+45	2245	dijital	dijital
+46	2246	karimci	karimci karamci karimcin karamcin karamcinsa karamcinta karimcinsa karimcinta karimcinsu
+47	2247	amini	amini aminai aminan aminansu aminin amininmu amininsa aminansa aminanta aminina amininta
+48	2248	tuwo	tuwo tuwon
+49	2249	lamiri	lamiri lamirin lamirinsa lamirinka lamirinsu lamirinta
+50	2250	dako	dakon dako
+51	2251	saniya	saniya saniyar
+52	2252	kazalika	kazalika
+53	2253	saita	saita saitawa
+54	2254	ƙalubalanta	ƙalubalantar ƙalubalantarsa ƙalubalanta ƙalubalantarta ƙalubalantarku ƙalubalantarsu
+55	2255	cutarwa	cutarwa cutarwar cutarwan
+56	2256	takunkumi	takunkumin takunkumi
+57	2257	tunkara	tunkarar tunkara tunkararsu tunkararsa tunkararta
+58	2258	murfi	murfin murfi murfinta murfinsa murfina murfinsu
+59	2259	gab	gab
+60	2260	arha	arha arhar arhan
+61	2261	kwakwa	kwakwa kwakwan kwakwar
+62	2262	daɗa	daɗa daɗawa daɗan
+63	2263	siminti	siminti simintin simintinsa
+64	2264	rairayi	rairayin rairayi rairayinta
+65	2265	washegari	washegari washegarin
+66	2266	alkhairi	alkhairi alkhairinsa
+67	2267	dillanci	dillanci dillancin
+68	2268	jahilci	jahilci jahilcin jahilcinsa jahilcinmu jahilcinsu
 69	2269	tauye	tauye tauyewa
 70	2270	ɗarika	ɗarika ɗarikar ɗariƙar
 71	2271	hatsi	hatsin hatsi
@@ -75,26 +75,26 @@
 75	2275	wanzar	wanzar
 76	2276	amai	amai aman
 77	2277	yadi	yadi yadin
-78	2278	kodayaushe	kodayaushe
-79	2279	gemu	gemu gemunsa gemun
-80	2280	tsoma	tsoma tsomawa tsomawar
-81	2281	hura	hura hurawa
-82	2282	alkalami	alkalami alkalamin alkalaminta alkalaminka
-83	2283	azzalumi	azzalumai azzalumi azzaluman azzalumin
-84	2284	dosa	dosa doshi
-85	2285	lanƙwasa	lanƙwasa lanƙwashe lanƙwasawa
-86	2286	jifa	jifa jifan jifar jifansu jifanta
-87	2287	sunadarai	sunadarai sunadaran
-88	2288	gwal	gwal
-89	2289	galaba	galaba galabar galabarsu
-90	2290	siffanta	siffanta siffantawa siffantawar
-91	2291	fayyace	fayyace fayyacewa
-92	2292	juyayi	juyayi juyayin juyayinsa juyayinsu juyayinta
-93	2293	inna	inna innarta innarsa innar innarsu innansa innanta innata
-94	2294	zina	zina zinan zinar
-95	2295	mikiya	mikiya mikiyan
-96	2296	dukufa	dukufa dukufar
-97	2297	taliya	taliya taliyan taliyar
-98	2298	tagomashi	tagomashi tagomashin tagomashinsa tagomashinsu
-99	2299	maraice	maraice maraicen
-100	2300	makwabtaka	makwabtaka makwabtakarsu
+78	2278	gemu	gemu gemunsa gemun
+79	2279	tsoma	tsoma tsomawa tsomawar
+80	2280	hura	hura hurawa
+81	2281	alkalami	alkalami alkalamin alkalaminta alkalaminka
+82	2282	azzalumi	azzalumai azzalumi azzaluman azzalumin
+83	2283	dosa	dosa doshi
+84	2284	lanƙwasa	lanƙwasa lanƙwashe lanƙwasawa
+85	2285	jifa	jifa jifan jifar jifansu jifanta
+86	2286	sunadarai	sunadarai sunadaran
+87	2287	gwal	gwal
+88	2288	galaba	galaba galabar galabarsu
+89	2289	siffanta	siffanta siffantawa siffantawar
+90	2290	fayyace	fayyace fayyacewa
+91	2291	juyayi	juyayi juyayin juyayinsa juyayinsu juyayinta
+92	2292	inna	inna innarta innarsa innar innarsu innansa innanta innata
+93	2293	zina	zina zinan zinar
+94	2294	mikiya	mikiya mikiyan
+95	2295	dukufa	dukufa dukufar
+96	2296	taliya	taliya taliyan taliyar
+97	2297	tagomashi	tagomashi tagomashin tagomashinsa tagomashinsu
+98	2298	maraice	maraice maraicen
+99	2299	makwabtaka	makwabtaka makwabtakarsu
+100	2300	zamanto	zamanto zamto zamantowa

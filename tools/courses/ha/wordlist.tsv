@@ -1,5 +1,5 @@
 # source: Tatoeba hau (CC BY 2.0 FR) + Common Voice ha sentences (CC0 1.0) + Leipzig Corpora Collection hau_community_2017 (terms at https://wortschatz.uni-leipzig.de/en/download) + OPUS wikimedia v20260327 ha (CC BY-SA 4.0)
-# words: 4136
+# words: 4041
 da	da
 a	a
 ya	ya yayye yayu yayyenta yayyensa yayun yayunta yayyen
@@ -49,8 +49,8 @@ zuwa	zuwa zuwan zuwansa zuwanmu zuwansu zuwanka zuwana zuwanta zuwata izuwa
 nan	nan
 wata	wata watan watanni watannin watansa watar watansu watanmu watanninsa watanninta
 zama	zama zaman zamana zamansa zamansu zamanta zamar zamanki zamanka zamanmu zamanku zamarta
-samu	samu samun samunsa samunsu samunta samunka samunki samunku saamu saamun samowa samowarsa
-yin	yin
+samu	samu samun samunsa samunsu samunta samunka samunki samunku saamu saamun samowa samowarsa samuna
+yin	yin yinsa yinta
 amma	amma
 duk	duk
 sa	sa shanu shanun shanunsu shanunsa shanunta
@@ -97,7 +97,7 @@ shugaba	shugaban shugaba shugabannin shugabar shugabanni shugabansu shugabanta s
 san	san
 sama	sama samar saman samansa samanta samanki samansu samata
 farko	farko farkon farkonsa farkonsu farkonta
-fara	fara faran fararta farai
+fara	fara faran fararta farai faro
 ruwa	ruwa ruwan ruwansa ruwansu ruwanmu ruwayen ruwanka ruwanta ruwaye ruwana ruwanki ruwar
 wuri	wurin wuri wuraren wurare wurina wurinsa wurinsu wurinmu wurinta wurarensu wurinka wurinku wurinki wurarensa wurarenmu wurarenta guraben gurare guraren gurina
 ƙungiya	ƙungiyar ƙungiyoyin ƙungiya ƙungiyoyi ƙungiyarsa ƙungiyarmu ƙungiyarsu ƙungiyan ƙungiyarta ƙungiyoyinsu ƙungiyoyinsa ƙungiyoyinta ƙungiyoyinmu ƙungiyarku ƙungiyata ƙungiyarka ƙungiyoyinku
@@ -118,21 +118,21 @@ dama	dama damar daman dame damina dami damansu damanka damansa damin damarsa dam
 amfani	amfani amfanin amfaninsa amfaninsu amfaninka amfaninmu amfaninta
 babu	babu babun
 magana	magana maganar maganganun maganganu maganarsa maganarsu maganan maganarka maganata maganarta maganarmu magananka magananta maganarku maganganunka maganganunsa maganganunsu maganganunmu maganganunta maganansa
-ji	ji
+ji	ji jiyo
 to	to
 kasance	kasance kasancewata kasancewansa
 so	so
 suke	suke
 mun	mun
 nuna	nuna nunan nunanta nunar
-bayyana	bayyana bayyanar bayyanarsa bayyanan bayyanarka bayyanarta bayyanarsu bayyanansu bayyananta bayyanawa baiyana bayyanawar bayyanawarta
+bayyana	bayyana bayyanar bayyanarsa bayyanan bayyanarka bayyanarta bayyanarsu bayyanansu bayyananta bayyanawa baiyana bayyanawar bayyanawarta bayyanuwar bayyanuwarsa
 kaya	kayan kaya kayayyakin kayayyaki kayar kayansa kayansu kayana kayanta kayanku kayanmu kayanka kayayyakinsa kayayyakinsu kayayyakinta kayayyakinmu kayanki kayata
 kawai	kawai
 yau	yau
 hankali	hankali hankalin hankulan hankula hankalinsa hankalina hankalinsu hankalinka hankalinta hankalinku hankalinmu hankulansu hankulanmu hankalinki hankulanku hankulansa
 kyau	kyau kyan kyaun kyansa kyaunsa kyanta kyaunta
 ɗin	ɗin ɗina ɗinta ɗinsu ɗinmu ɗinku
-ƙara	ƙara ƙaran ƙarawarsu ƙarawarta ƙarawarsa ƙaruwarta
+ƙara	ƙara ƙaran ƙarawarsu ƙarawarta ƙarawarsa ƙaruwarta ƙarata
 shin	shin
 nema	neman nemi nema neme nemansu nemansa nemanta nemanka nemanku nemawa
 rayuwa	rayuwa rayuwar rayuwarsa rayuwarsu rayuwata rayuwarta rayuwarka rayuwarmu rayuwarki rayuwarku rayuwan rayuwana rayuwanku rayuwanta
@@ -140,7 +140,7 @@ buƙata	buƙatar buƙata buƙatun buƙatan buƙatu buƙatunsu buƙatarsa buƙata
 waɗannan	waɗannan
 kira	kira kiran kiransa kiranta kiransu kiranki kiranka kiranmu kirawa
 lafiya	lafiya lafiyar lafiyarsu lafiyan lafiyarsa lafiyarku lafiyarka lafiyarta lafiyarki lafiyarmu lafiyata lafiyansu
-bari	bar bari barin barinsa barinsu barinta barinka barinku
+bari	bar bari barin barinsa barinsu barinta barinka barinku baro baron baronta
 yaro	yara yaro yaron yaran yarinyar yaransu yaranta yarana yaransa yaranmu yaronsa yarinyan yaranka yaranku yaronsu yaronka yaranki yarona yaronta yarinyarsu yarinyarsa yarinyarta yarinyata yaƴan yaƴansu
 akan	akan akanmu akansu akanta akanku akanka
 ƙarshe	ƙarshe ƙarshen ƙarshenta ƙarshensa ƙarshensu ƙarshenku ƙarshenmu
@@ -149,7 +149,7 @@ daban	daban
 saura	sauran sauransu saura sauranta sauransa saurar sauranmu
 sami	sami samin
 sha	sha shan shansa shanta shansu shanki
-tunani	tunanin tunani tunaninsa tunaninmu tunaninsu tunaninka tunaninta tunaninki tunaninku tunannin tunanninsa
+tunani	tunanin tunani tunaninsa tunaninmu tunaninsu tunaninka tunaninta tunaninki tunaninku tunannin tunanninsa tunanina
 al'umma	al'umma al'ummar al'ummomin al'ummarmu al'ummomi al'ummarsu al'ummarsa al'umman al'ummarta al'ummarka al'ummai al'ummata al'ummominsu al'ummanmu al'ummarki al'ummominmu al'ummominta al'ummarku al'ummanta al'umomin
 jin	jin
 yanki	yankin yanki yankunan yankuna yankinsu yankunansu yankinsa yankinta yankinmu yankunanta yankina yankunansa yankunanmu yankinku
@@ -161,7 +161,7 @@ gari	garin gari garuruwan garuruwa garinmu garinsu garuruwansu garinsa garinku g
 uku	uku ukun ukunsu ukku ukkun
 game	game gamen
 faɗa	faɗa faɗar faɗan faɗansa faɗarsu faɗarta faɗarka faɗanta faɗowa faɗiwa faɗowar faɗowarsa
-sani	sani sanin saninsa saninta saninsu saninki saninmu
+sani	sani sanin saninsa saninta saninsu saninki saninmu sanina saninan
 gaskiya	gaskiya gaskiyar gaskiyarsa gaskiyan gaskiyarta gaskiyarka gaskiyata gaskiyanka gaskiyarki gaskiyarsu gaskiyarmu
 hali	halin hali halayen halaye halinsa halayensa halayensu halinsu halayenmu halinta halayenta halinki halinku halayenku halina halayenka halayenki halinka halinmu
 dole	dole dolen
@@ -179,7 +179,7 @@ guda	guda gudan gudansa guduwa gudo guduwar guduwarsa guduwarta
 makaranta	makarantar makaranta makarantu makarantun makarantarmu makarantan makarantarku makarantarsu makarantarsa makarantunsu makarantarka makarantunmu makarantarta makarantansa makarantanta makarantunta makarantansu
 karatu	karatu karatun karatunsa karatunta karatuna karatunsu karatunmu karatunki karatuttuka karatuttukan karatuttukansa karatuttukansu karatuttukanta
 cin	cin
-sannan	sannan sanan
+sannan	sannan sanan sa'annan
 haɗa	haɗa haɗawa haɗawar haɗan haɗawan haɗawarsa
 tsari	tsarin tsari tsarinsa tsarinta tsarinmu tsarinsu tsarinka tsarina tsarinku
 musamman	musamman musamma
@@ -214,20 +214,20 @@ gabata	gabatar gabata gabace
 take	take taken takensa takensu takenta
 yayin	yayin yayinsu
 doka	doka dokar dokokin dokoki doke dokan dokokina dokokinmu dokarsa dokokinta dokanta dokokinsu dokokinsa dokata dokarmu dokarta dokarsu
-sake	sake saken
-girma	girma girman girmansa girmanta girmar girmansu girmanku girmana girmanka girmanki girmanmu girmarta
-ɓangare	ɓangaren ɓangare ɓangarorin ɓangarori ɓangarenta ɓangarensu ɓangarensa ɓangarorinsa ɓangarorinsu ɓangarorinta ɓangarenka ɓangarena ɓangarenki ɓangarenmu
+sake	sake saken sakewa sakewar sakewarsa
+girma	girma girman girmansa girmanta girmar girmansu girmanku girmana girmanka girmanki girmanmu girmarta girme girmi
+ɓangare	ɓangaren ɓangare ɓangarorin ɓangarori ɓangarenta ɓangarensu ɓangarensa ɓangarorinsa ɓangarorinsu ɓangarorinta ɓangarenka ɓangarena ɓangarenki ɓangarenmu bangarena
 yaƙi	yaƙi yaƙin yaƙinta yaƙinsa yaƙinsu yaƙinmu
 baƙi	baƙi baƙin baƙar baƙaƙen baƙaƙe babbaƙu baƙa baƙinmu baƙinku baƙarsa baƙinki babbaƙun baƙansu baƙarta baƙana baƙarmu baƙarsu
-ƙarfi	ƙarfi ƙarfin ƙarfinsa ƙarfinsu ƙarfinta ƙarfinmu ƙarfinku ƙarfinka
+ƙarfi	ƙarfi ƙarfin ƙarfinsa ƙarfinsu ƙarfinta ƙarfinmu ƙarfinku ƙarfinka ƙarfina
 cuta	cutar cuta cutan cutarka cutarsa cututuka cutuka cututukan cutukan cututukar cututtukansun
 tashi	tashi tashin tashinta tashinsa tashinsu tashiwar
 faɗi	faɗi faɗin faɗinsa faɗinta
 shiri	shirin shiri shirinsa shirinta shirinku shirinsu shirinmu shirinka shirinki shirina
 ɗauki	ɗauki ɗaukin ɗaukowa
 gudana	gudanar gudana gudanawar
-komai	komai
-fita	fita fitar fice ficen fitan fisshe fitarsu fitarsa fitarta ficensu fitarwa fitarwar fitarwarsu fitawar
+komai	komai kome komen
+fita	fita fitar fice ficen fitan fisshe fitarsu fitarsa fitarta ficensu fitarwa fitarwar fitarwarsu fitawar ficewa ficewar ficewarsa ficewarsu ficewarta
 labari	labarin labari labaran labaru labarun labarinsa labarina labarinta labarinsu labarinka labaranta labaransa labarunsa labarunsu labaransu labarinmu labaranmu labaraina labaranka labarunta labarunmu labarinku labaruna labaranku
 tafi	tafi tafin
 mota	motar mota motoci motocin motan motarsa motata motarka motarsu motocinsu motarmu motana motarta motarki motocinsa motansu motocinta
@@ -240,7 +240,7 @@ kama	kama kamo kamawa kamewa kamawar kamawarsa kamewar
 kwana	kwana kwanaki kwanan kwanakin kwanakinsa kwanansu kwananta kwanansa kwanana kwanar kwananka kwananmu kwanakinta kwanakinsu kwanarsa
 fari	farin farar fari fararen farare farina farinsa
 waƙa	waƙa waƙar waƙoƙin waƙoƙi waƙoƙinsa waƙana waƙarsa waƙoƙina waƙoƙinta waƙan waƙarta waƙoƙinsu waƙata waƙarki waƙoƙinka waƙarsu waƙanta waƙoƙinki
-rubuta	rubuta rubutan rubutawa
+rubuta	rubuta rubutan rubutawa rubuto rubutowa
 riƙa	riƙe riƙa riƙi
 min	min
 kuwa	kuwa
@@ -250,7 +250,7 @@ jiki	jiki jikin jikinsa jikinta jikinsu jikina jikinka jikinmu jikinki jikunan j
 mace	mace matan macen matarsa matata matarka matansu matansa matanmu matana matanku matanta matarsu
 aure	aure auren aurensu aurenta aurensa aurenka aurenku aurena aurarrakinmu aurenmu aurarrakin auran auranka auransa auransu
 mana	mana
-tsoho	tsohon tsohuwar tsoffin tsofaffin tsofaffi tsoho tsoffi tsohuwarta tsaffin tsaffi
+tsoho	tsohon tsohuwar tsoffin tsofaffin tsofaffi tsoho tsoffi tsohuwarta tsaffin tsaffi tsohuwa
 kamfani	kamfanin kamfani kamfanoni kamfanonin kamfaninsa kamfaninmu kamfaninta kamfaninku kamfaninsu kamfaninka kamfanoninsa kamfanoninsu kamfanoninmu kamfanoninta kamfanina
 ɗaki	ɗakin ɗaki ɗakunan ɗakuna ɗakinsa ɗakina ɗakinta ɗakinmu ɗakinka ɗakunanmu ɗakunansu ɗakinsu ɗakunansa ɗakinki
 laifi	laifi laifin laifuka laifukan laifinsa laifuffuka laifina laifinsu laifukansu laifuffukan laifinta laifukansa laifukanta laifinka laifuffukana laifuffukansa laifinku laifuffukansu laifukanku laifukar
@@ -263,7 +263,7 @@ jam'iyya	jam'iyyar jam'iyya jam'iyyarsa jam'iyyarsu jam'iyyarmu jam'iyyarta jam'
 koma	koma komar koman komarsu komarta
 faru	faru farun
 wato	wato
-kafa	kafa kafofin kafar kafata kafofi kafarmu kafanta kafana kafawa kafawar kafawarsa kafawarsu
+kafa	kafa kafofin kafar kafata kafofi kafarmu kafanta kafana kafawa kafawar kafawarsa kafawarsu kafe
 kusa	kusa
 fiye	fiye
 addini	addini addinin addinai addinan addininsa addininsu addininmu addininta addinansu addininku addininka addinina addinanmu
@@ -282,10 +282,10 @@ shirya	shirya shiryan shiryawa shiryawar
 dalili	dalilin dalili dalilai dalilan dalilinsa dalilansu dalilinsu dalilina dalilanta dalilinta dalilaina dalilinka dalilinki dalilinku dalilinmu dalilansa
 biya	biya biyan biyansu biyansa biyanka biyanta biyarta biyata biyawa
 tsawo	tsawon tsawo tsawonsa tsawonsu tsawonta
-waje	waje
+waje	waje wajena
 shafi	shafi shafin shafinsa shafinta shafina shafinka shafinsu shafinmu shafuffuka shafuffukan shafukana
 fito	fito fiton fitowata
-buga	buga bugi bugewa
+buga	buga bugi bugewa buguwar buguwa buguwarsa buguwarta
 sarki	sarki sarkin sarakuna sarakunan sarkinta sarkinsu sarakai sarakunanmu sarakunansu sarakunansa sarkinsa sarakunanta sarakan
 mahaifi	mahaifinsa mahaifinta mahaifiyarsa mahaifin mahaifina mahaifiyata mahaifiyarta mahaifiyar mahaifa mahaifiyarsu mahaifi mahaifiya mahaifinka mahaifiyarka mahaifinsu mahaifar mahaifinmu mahaifansa mahaifarsa mahaifana mahaifinki mahaifanta mahaifanka mahaifanku mahaifarku mahaifinku mahaifan mahaifiyarmu mahaifata mahaifanki mahaifiyarki mahaifarta mahaifanmu mahaifarsu mahaifansu
 mamaki	mamaki mamakin mamakina mamakinsa mamakinsu mamakinta
@@ -297,7 +297,7 @@ sakamako	sakamakon sakamako sakamakonsa sakamakonta sakamakonsu sakamakonmu
 alama	alama alamar alamun alamu alamomin alamomi alamanta alaman alamominku alamominta alamarsu alamunsu alamarta alamarsa alamunsa alamunta alamominsu
 yarda	yarda yarje yardan yardar yardarsa yardarsu yardarki yardarta yardarmu
 gaban	gaban gabansa gabanta gabansu gabanka gabanmu gabanki gabanku
-ƴa	ƴan ƴaƴa ƴa ƴaƴan ƴar ɗiyar ƴaƴansu ɗiya ƴaƴanta ƴaƴansa ƴaƴana ɗiyata ɗiyarta ƴaƴanmu ɗiyarsa ƴaƴar ƴaƴanka ɗiyarsu ɗiyarka ƴarsa ƴarta ƴaƴanki ɗiyanta ɗiyan ɗiyanku ɗiyanmu ƴansu ƴanta ƴarsu ƴaƴanku ƴarka ƴaƴata ƴarmu ƴaƴarsa ƴanmu ƴarku ƴansa ƴaƴarta ƴanku
+ƴa	ƴan ƴaƴa ƴa ƴaƴan ƴar ɗiyar ƴaƴansu ɗiya ƴaƴanta ƴaƴansa ƴaƴana ɗiyata ɗiyarta ƴaƴanmu ɗiyarsa ƴaƴar ƴaƴanka ɗiyarsu ɗiyarka ƴarsa ƴarta ƴaƴanki ɗiyanta ɗiyan ɗiyanku ɗiyanmu ƴansu ƴanta ƴarsu ƴaƴanku ƴarka ƴaƴata ƴarmu ƴaƴarsa ƴanmu ƴarku ƴansa ƴaƴarta ƴanku ƴata
 kuka	kuka kukan kukansu kukar kukana kukanmu kukansa kukanta
 gano	gano ganowa ganowar ganowarta
 sanda	sanda sandan sandar sanduna sandunan sandarsa sandansu sandunansu sandansa sandanta sandata
@@ -312,7 +312,7 @@ fili	filin fili filayen filaye filayensu filinsa filinsu filina filinki filayens
 harshe	harshen harshe harsuna harsunan harshensu harshensa harsunansu harshenku harshenmu harshena harsunanmu harshenka harshenta harsunansa harsunanta
 matuƙa	matuƙar matuƙa matuƙan matuƙansa
 kusan	kusan kusanta
-ido	ido idanu idon idanun idanunta idanunsa idanunsu idonsa idona idanunka idonta idanunku idonsu idanunki idanunmu idonka idonku idonmu idonki idanuwa idanuwan idanuwanta idanuwansu idanuwansa idanuwanmu
+ido	ido idanu idon idanun idanunta idanunsa idanunsu idonsa idona idanunka idonta idanunku idonsu idanunki idanunmu idonka idonku idonmu idonki idanuwa idanuwan idanuwanta idanuwansu idanuwansa idanuwanmu idanuna
 magani	maganin magani magunguna magungunan maganinsu maganinta maganina maganinka maganinsa magungunana magungunansa magungunansu
 kammala	kammala kammalan kammalawa kammalawarsa kammalawar kammalawarsu
 shirye	shirye shiryen shiryenta shiryensa shiryensu shiryenmu shiryenka
@@ -337,9 +337,9 @@ cewar	cewar cewarsa cewarsu cewarta cewarmu
 huɗu	huɗu huɗun
 ɗaukar	ɗaukar ɗaukarsa ɗaukarsu ɗaukarta ɗaukarka
 tsoro	tsoron tsoro tsoronsa tsoronsu tsoronku tsoronka tsoronta tsoronmu tsoranta tsoran
-ɗauka	ɗauka ɗaukan ɗaukansu ɗaukansa ɗaukawar
+ɗauka	ɗauka ɗaukan ɗaukansu ɗaukansa ɗaukawar daukawa dau
 labarai	labarai labaran labaranta labaransa labaransu labaranmu labaraina labaranka labaranku
-gina	gina ginawa ginawar
+gina	gina ginawa ginawar ginu ginuwar ginuwa ginuwarta
 gudu	gudu gudun gudunmu gudunsa gudunta
 riga	riga rigar rigan rigunan riguna rigarka rigarsa rigarta rigata rigunanmu rigunansa rigunansu rigunanta
 kasuwa	kasuwa kasuwar kasuwannin kasuwanni kasuwan kasuwarsu kasuwanninsu kasuwarmu kasuwanmu kasuwoyi kasuwarta kasuwarsa kasuwanninta kasuwanninmu kasuwanninsa
@@ -354,7 +354,7 @@ kullum	kullum kullun kullunsa
 rahoto	rahoton rahoto rahotanni rahotannin rahotonta rahotonsa rahotanninsa rahotanninsu rahotona rahotonmu rahotonsu rahotanninta rahotan
 can	can
 fanni	fannin fannoni fanni fannonin fanninsa fanninta fannoninsu fanin
-gyara	gyara gyaran gyarar gyararta gyaranta gyaransa gyaransu gyarawa gyarawar
+gyara	gyara gyaran gyarar gyararta gyaranta gyaransa gyaransu gyarawa gyarawar gyaru gyaruwa
 kaɗan	kaɗan
 nufi	nufin nufi nufinsa nufinsu nufinta nufinka nufina
 misali	misali misalin misalai misalan misalina misalinsa misalinta misalansa misalinsu
@@ -368,7 +368,7 @@ musu	musu musun musunta
 gaske	gaske gasken
 kake	kake kaken
 hoto	hoton hoto hotunan hotuna hotonsa hotonka hotunanta hotonta hotunansu hotona hotunanka hotunansa hotonsu hotonku
-haifa	haifar haifa haifan haifarwa haifawa
+haifa	haifar haifa haifan haifarwa haifawa haifu
 launi	launin launi launuka launukan launinsa launukansu launinsu launinta launukansa launukanta launukanmu
 sha'awa	sha'awa sha'awar sha'awarta sha'awarsa sha'awan sha'awarsu sha'awarka sha'awata sha'awarmu
 dace	dace dacen
@@ -397,11 +397,11 @@ matasa	matasa matasan matasanmu matasansu matasanta matasansa matasanku
 zane	zane zanen zanensa zanensu zanenta zanenku
 amsa	amsa amsar amsoshi amsoshin amsan amsarsa amsarki amsoshinsu amsarka amsarta amsansa amsoshinka amsarsu amsarmu amsoshinsa
 manufa	manufar manufa manufofin manufofi manufarsa manufofinsa manufarmu manufarta manufofinta manufarka manufan manufarsu manufofinsu manufofinmu manufofinka manufarku manufansa manufofinku manufata
-shaida	shaida shaidar shaidu shaidan shaidun shaidarsa shaidarka shaidarmu shaidarku shaidarta shaidata shaidarsu shaidansu shaidanta shaidunsa
-tsaya	tsaya
+shaida	shaida shaidar shaidu shaidan shaidun shaidarsa shaidarka shaidarmu shaidarku shaidarta shaidata shaidarsu shaidansu shaidanta shaidunsa shaidi
+tsaya	tsaya tsayuwar tsayuwa tsayuwan tsayuwarka tsayuwarmu tsayuwarsa tsayuwarta tsayuwarsu
 kwaikwayo	kwaikwayo kwaikwayon kwaikwayonsa kwaikwayonta kwaikwayonsu
 kanta	kanta kantar kantarki kantarsa kantan kantanka
-rage	rage
+rage	rage ragewa ragewar
 iko	ikon iko ikonsa ikonsu ikonta ikona ikonka ikonmu ikonku
 waya	waya wayar wayata wayoyin wayarsa wayoyi wayan wayoyinsu wayarta wayarka wayarku wayoyinmu wayana wayarsu wayoyina wayoyinku wayoyinsa wayoyinta
 naɗa	naɗa naɗe naɗi naɗan naɗawa naɗin naɗinsa naɗinta
@@ -429,7 +429,7 @@ kyakkyawa	kyakkyawan kyakkyawar kyakkyawa
 wai	wai
 sauri	sauri saurin saurinsa saurinta saurinsu
 wacce	wacce waccen
-iyali	iyali iyalai iyalan iyalinsa iyalin iyalansu iyalansa iyalinta iyalina iyalanka iyalinka iyalanku iyalinsu iyalanta iyalanmu iyalinki iyalinmu iyalanki
+iyali	iyali iyalai iyalan iyalinsa iyalin iyalansu iyalansa iyalinta iyalina iyalanka iyalinka iyalanku iyalinsu iyalanta iyalanmu iyalinki iyalinmu iyalanki iyalaina
 taimako	taimakon taimako taimakonsa taimakonsu taimakonka taimakonku taimakona taimakonki taimakonta taimakonmu
 mayar	mayar mayarwa
 wadda	wadda waddar
@@ -472,9 +472,9 @@ marubuci	marubuci marubucin marubuta marubutan marubuciya marubuciyar marubucins
 kowace	kowace
 canza	canza canzan canzawa canjawa canjawar canzawar
 kotu	kotun kotu kotunan kotuna kotunsa kotunta kotunsu
-mara	mara maran
+mara	mara maran marawa
 tasiri	tasiri tasirin tasirinsa tasirinta tasirinsu tasirinku
-daina	daina dainawa dainawar
+daina	daina dainawa dainawar dena
 wuya	wuya wuyan wuyar wuyansa wuyana wuyansu wuyanta wuyanku wuyata wuyarta wuyarsa wuyanmu wuyoyi wuyoyin
 zaɓi	zaɓi zaɓin zaɓina zaɓinka zaɓinmu zaɓinsa zaɓinta zaɓinsu zaɓuɓɓukan
 ƙare	ƙare
@@ -492,7 +492,7 @@ cigaba	cigaba cigaban cigabanta cigabansu cigabansa
 fuska	fuska fuskar fuskarsa fuskoki fuskarta fuskokin fuskarki fuskokinsu fuskan fuskata fuskarku fuskarmu fuskarka fuskokinku fuskarsu
 saba	saba sabata sabar
 jini	jini jinin jininsa jinina jininta jininmu jininsu jininku
-ja	ja janye jajayen jajaye janyewa janyewar janyewarsu janyewarta janyewarsa
+ja	ja janye jajayen jajaye janyewa janyewar janyewarsu janyewarta janyewarsa jar
 faruwa	faruwa faruwar faruwan faruwansa faruwarsa
 jarumi	jarumi jarumai jarumin jaruman jaruma jarumar jarumarsa jarumarsu jarumata jarumansu jaruminsa jaruminta jarumaina jarumanmu jarumansa jarumanta jarumarta
 bashi	bashi bashin bashinsa bashina bashinmu bashinta basussuka basussukan basussukansa basussukanta
@@ -517,15 +517,15 @@ saka	saka sakata sakarsu saun sakawa
 jeri	jerin jeri jerinsa
 asibiti	asibiti asibitin asibitoci asibitocin asibitocinmu asibitinka asibitocinsu asibitinmu asibitinta asibitinsa asibitocinta
 imani	imani imanin imaninsa imaninsu imaninka imaninta imaninmu imaninku imanina
-manta	manta mance mantawa
+manta	manta mance mantawa mantuwa
 tarayya	tarayya tarayyar tarayyan tarayyarsa tarayyarsu tarayyarta
 ƙarni	ƙarni ƙarnuka ƙarnin ƙarnukansu ƙarnina ƙarninsa ƙarninta ƙarnoni ƙarnoninsa ƙarnonin
 bawa	bawa bayi bayin bawan baiwar bayinsa bawanka baiwarsa bawanta bawanmu baiwarka bayina bayinka bayinku bawata bayinsu bawansa bayinta baiwarta bawanku baiwarsu bawar
 dariya	dariya dariyar dariyan dariyarki dariyarsa dariyarta
-muhimmi	muhimman muhimmiyar muhimmin muhimmi muhimmai muhimmiya muhimmanta
+muhimmi	muhimman muhimmiyar muhimmin muhimmi muhimmai muhimmiya muhimmanta mahimman
 miliyan	miliyan milliyan
 digiri	digiri digirin digirinsa digirinta digirinku digirinsu digirina
-karɓa	karɓar karɓa karɓan karɓansa karɓarta karɓanta karɓo karɓowa karɓawar karɓowar
+karɓa	karɓar karɓa karɓan karɓansa karɓarta karɓanta karɓo karɓowa karɓawar karɓowar karɓu
 miƙa	miƙa miƙe miƙawa miƙewa miƙewar
 dangane	dangane danganen
 fama	fama famar
@@ -543,7 +543,7 @@ raba	raba rabawa rabawar
 dukkanin	dukkanin dukkaninsu dukkaninmu dukkaninku
 saya	sayi saya sayan sayansu sayanta sayo siyo siye sayawa siyawa sayowa siyen siyowa
 muƙami	muƙamin muƙamai muƙami muƙaminsa muƙaman muƙamansu muƙaminta muƙaminsu muƙaminka muƙamansa muƙamanta
-cira	cire cira ciran cirar ciro
+cira	cire cira ciran cirar ciro cirewa cirewar
 arewa	arewa arewan arewar arewarmu arewarsa
 tsara	tsara tsaranka tsaransa tsaran tsaranta tsarawa tsarawar
 soyayya	soyayya soyayyar soyayyarsu soyayyarta soyayyata soyayyarki soyayyarsa soyayyan soyayyarka soyayyarmu
@@ -595,7 +595,7 @@ mahimmanci	mahimmanci mahimmancin mahimmancinsa mahimmancinta mahimmancinsu
 buri	burin buri burina burinsa burinsu burinta burinku burinmu burinka burinki
 karɓi	karɓi
 aiwatar	aiwatar aiwatarwa aiwatarwar aiwatarwan
-inganta	inganta ingantan
+inganta	inganta ingantan ingantawa ingantawar ingantawarsu
 yawo	yawon yawo yawonsu
 tuna	tuna tuno tunowa tunan
 cikakke	cikakken cikakke cikakkun cikakku
@@ -646,7 +646,7 @@ hau	hau hauna
 kiyaye	kiyaye kiyayewa kiyayi kiyayewar kiyayewarsa kiyayewarta
 fa	fa
 mani	mani manin maninka
-jefa	jefa jefawa jefawar
+jefa	jefa jefawa jefawar jefe jefewa
 canji	canjin canji canjinsa canjinta chanji chanjin
 aika	aika aikawa aikowa aikawar aikawarsa
 jawo	jawo jawowa jawowar
@@ -691,7 +691,7 @@ tunda	tunda
 ƙunshi	ƙunshi ƙunsa ƙunsar ƙunsawa ƙunshewa
 fitowa	fitowa fitowar fitowarsa fitowan fitowarta fitowarsu fitowarka fitowarki fitowarmu
 musulmi	musulmi musulmin musulmai musulminsu
-juya	juya juyawa juyawar juyawarsa juyan
+juya	juya juyawa juyawar juyawarsa juyan juyowa juyo juyowar
 yunƙuri	yunƙurin yunƙuri yunƙurinta yunƙurinsa yunƙurinsu yunƙurinka
 tushe	tushen tushe tushensa tushena tushensu tushenta tushenmu
 murna	murna murnar murnan murnarsa
@@ -700,7 +700,7 @@ koya	koya koyan
 nisa	nisa nisan nisanta nisansa nisarsa
 dangi	dangin dangi danginsa danginta danginsu danginku danginmu dangina
 albashi	albashi albashin albashinsu albashinsa albashinka albashina albashinmu albashinta
-yiwuwa	yiwuwa yiwuwar yiwuwarsa yiwuwarsu
+yiwuwa	yiwuwa yiwuwar yiwuwarsa yiwuwarsu yiyuwa yiyuwan yiyuwar
 tsauni	tsaunin tsaunuka tsauni tsaunukan tsaunukanta tsauninsa tsaunukansa
 kulawa	kulawa kulawar kulawarsa kulawarsu kulawarta kulawarku kulawan
 farashi	farashin farashi farashinsa farashinsu farashinta farashinmu
@@ -733,7 +733,7 @@ kunya	kunya kunyar kunyata kunyarka kunyarsa kunyarta kunyansa
 sarrafa	sarrafa sarrafar sarrafawa sarrafawar
 ila	ila
 rukuni	rukunin rukuni rukuninsu rukuninta rukuninsa rukunonin rukunoni rukunoninsu
-zuba	zuba zube zuban zubawa
+zuba	zuba zube zuban zubawa zubo zubewar zubowa
 gado	gado gadon gadaje gadonsa gadonta gadonsu gadajen gadonku gadajensu gadonmu
 tauraro	tauraron taurari tauraro taurarin taurarinsa tauraronsa taurarinmu taurarinta tauraronta
 haɓaka	haɓaka haɓakar haɓakarsa haɓakarsu haɓakarta haɓakawa haɓɓaka haɓɓakar haɓakawar haɓɓakawa haɓakawarsa haɓakawarsu
@@ -770,7 +770,7 @@ illa	illa illar illolin illata illoli illarsa illolinsa illolinsu illarta illoli
 ɗabi'a	ɗabi'a ɗabi'ar ɗabi'un ɗabi'u ɗabi'unsu ɗabi'unta ɗabi'unka ɗabi'an ɗabi'arka ɗabi'unsa ɗabi'arsu ɗabi'unmu ɗabi'arsa ɗabi'arta
 ƙarya	ƙarya ƙaryar ƙaryarsa ƙaryarta
 runduna	rundunar runduna rundunarsa rundunata rundunarsu rundunarta rundunan rundunansu rundunanta
-fassara	fassara fassarar fassarorin fassarori fassararta fassararsu fassararsa fassarorinsa fassararmu fassarorinsu fassarorinta fassaran fassarata
+fassara	fassara fassarar fassarorin fassarori fassararta fassararsu fassararsa fassarorinsa fassararmu fassarorinsu fassarorinta fassaran fassarata fassarawa
 ciniki	ciniki cinikin cinikinmu cinikinku cinikinta cinikinsa cinikinsu
 bugawa	bugawa bugawar bugawarsa
 lantarki	lantarki lantarkin lantarkinta
@@ -796,7 +796,7 @@ kwanta	kwanta kwantar kwantan kwantanta kwantawa kwantawar
 mini	mini
 sadarwa	sadarwa sadarwar sadarwarmu sadarwan sadarwarsa sadarwarsu sadarwarka sadarwarta
 rasu	rasu
-yunwa	yunwa yunwar yunwan
+yunwa	yunwa yunwar yunwan yinwa
 kamu	kamu kamun kamunsu kamunta
 lissafi	lissafi lissafin lissafinmu lissafinsa lissafinsu lissafinta
 a'a	a'a
@@ -881,12 +881,12 @@ dukan	dukan dukansu dukanmu dukanta dukanku dukansa
 kilomita	kilomita kilomitar
 manema	manema maneman
 gurbi	gurbin gurbinsa gurbi gurbinsu gurbinta gurbinka
-kowanne	kowanne kowaɗanne
+kowanne	kowanne kowaɗanne kowannensu
 daɗewa	daɗewa daɗewar
 tunawa	tunawa tunawar tunawan tunawarsu tunawarta
 kewaye	kewaye kewayen kewayenta kewayensa kewayensu
 same	same
-ofis	ofis ofisoshin ofishinsa ofisoshi ofishinsu ofishinmu ofishinta ofishinka ofisoshinsu ofisoshinta ofisoshinsa offishin
+ofis	ofis ofisoshin ofishinsa ofisoshi ofishinsu ofishinmu ofishinta ofishinka ofisoshinsu ofisoshinta ofisoshinsa offishin ofishina
 dinga	dinga
 kwanciya	kwanciyar kwanciya kwanciyan kwanciyarsu
 ɗora	ɗora ɗorawa ɗorawan ɗorawar ɗoran
@@ -912,7 +912,7 @@ eh	eh
 kyawawa	kyawawan kyawawa
 takalmi	takalma takalmin takalmi takalmar takalman takalminsa takalmansa takalminta takalminka takalmansu takalminsu takalmana takalmanka takalmina takalmanta
 juyi	juyin juyi
-baƙo	baƙon baƙo baƙonmu baƙonsa baƙonku
+baƙo	baƙon baƙo baƙonmu baƙonsa baƙonku baƙuwa baƙuwar
 darasi	darasi darussan darasin darussa darasinsa darussansa darussansu darussanta
 gunduma	gundumar gunduma gundumarta gundumarsa gundumarsu gunduman gundumarka gundumomi gundumomin gundumominsu gundumominta gundumominsa
 sauti	sautin sauti sautinsa sautinsu sautinta
@@ -990,8 +990,8 @@ jita	jita jitar jitan
 watsi	watsi watsin
 rashawa	rashawa rashawar
 makamai	makamai
-matashi	matashi matashin
-talla	talla tallata tallan tallar tallarsa tallarta tallansa tallanta tallarsu
+matashi	matashi matashin matashiya matashiyar matashiyarta
+talla	talla tallata tallan tallar tallarsa tallarta tallansa tallanta tallarsu tallatawa
 gadi	gadi gadin gadinta gadinsa gadinsu
 ƙila	ƙila
 nata	nata
@@ -1063,7 +1063,7 @@ lalacewa	lalacewa lalacewar lalacewarta lalacewarsu lalacewarsa
 gefe	gefe gefuna gefena gefunan gefunansu
 rikice	rikice rikicen rikicenmu rikicensa
 sada	sada sadawa sadawar
-bincika	bincika bincikar bincikarsa bincikarsu binciki bincikawa bincikawar
+bincika	bincika bincikar bincikarsa bincikarsu binciki bincikawa bincikawar binciko bincikowa
 coci	coci cocin cocinsa cocinta
 riba	riba ribar riban ribarsa ribarsu ribanta ribata
 ambata	ambaci ambata ambace ambatan ambatar ambatawa ambatarsa
@@ -1079,7 +1079,7 @@ agaji	agaji agajin agajinsa agajinta agajinmu
 ace	ace
 gawa	gawar gawa gawarsa gawan gawarta gawata gawansu gawarku gawarmu gawarsu gawarwakin gawarwaki gawawwakin gawaki gawawwaki gawarwakinsu gawarwakinta gawawwakinsu gawawwakinsa gawakin gawarwakinsa
 kisa	kisa kisar
-matsakaici	matsakaicin matsakaici matsakaicinsa matsakaicinsu matsakaicinta
+matsakaici	matsakaicin matsakaici matsakaicinsa matsakaicinsu matsakaicinta matsakaiciyar matsakaiciyarta
 banda	banda bandan bandana bandar
 ɗaure	ɗaure ɗaura ɗaurewa ɗaurawa ɗaurewar ɗauran
 rabo	rabon rabo rabonsu rabonsa rabonta rabonku rabona
@@ -1102,7 +1102,7 @@ roƙo	roƙon roƙo roƙonka roƙonku roƙonsu roƙonmu roƙonsa roƙonta roƙona
 jimla	jimlar jimla jimlarsa jimlarsu
 azumi	azumi azumin azuminsa azuminta azuminku
 ɓaci	ɓacin ɓaci
-gargaɗi	gargaɗi gargaɗin gargaɗinsa gargaɗinsu
+gargaɗi	gargaɗi gargaɗin gargaɗinsa gargaɗinsu gargaɗe
 nuni	nuni nunin nuninsa nuninta
 rigakafi	rigakafi rigakafin rigakafinsa rigakafinta
 martani	martani martanin martaninsa martaninta martaninsu martanina
@@ -1116,7 +1116,7 @@ numfashi	numfashi numfashin numfashinsa numfashinta numfashinmu numfashinsu numf
 wawa	wawa wawaye wawan wawayen wawarta
 samaniya	samaniya samaniyar samaniyan samaniyarsa samaniyarta samaniyata
 uba	uba uban ubansa ubansu ubanta ubanmu ubanni ubanninsu ubannin ubana ubanninsa ubanku ubanninmu
-rushe	rushe rushen rusa rusawa
+rushe	rushe rushen rusa rusawa rushewar rushewa rushewarta rushewarsa
 tausayi	tausayi tausayin tausayinsu tausayinmu tausayinta tausayinsa
 nahiya	nahiyar nahiya nahiyoyi nahiyoyin nahiyarsu nahiyarmu nahiyoyinta nahiyoyinsu
 likitanci	likitancin likitanci likitancinsa likitancinta
@@ -1191,7 +1191,7 @@ canje	canje canjen
 ƙwallaye	ƙwallaye ƙwallayen
 agogo	agogo agogon agogona agogonsu agogonsa
 ka'idoji	ka'idojin ka'idoji ka'idojinta ka'idojinsu
-share	share sharen
+share	share sharen sharewa sharewar
 banbanci	banbanci banbancin
 rataya	rataye rataya ratayawa
 madadin	madadin madadinsa madadinmu madadinta madadinsu
@@ -1218,7 +1218,7 @@ jim	jim
 faɗaɗa	faɗaɗa faɗaɗan faɗaɗawa faɗaɗawar
 laƙabi	laƙabi laƙabin laƙabinsa laƙabinta laƙabinsu
 tuhuma	tuhumar tuhuma tuhumarsa tuhumarta tuhumarsu tuhumanta
-tsayar	tsayar tsayarwa
+tsayar	tsayar tsayarwa tsaida
 zana	zana zanawa zanan
 martaba	martaba martabar martaban martabarsu martabarsa martabarmu martabarta martabarka martabata
 ɓarna	ɓarna ɓarnar ɓarnanki
@@ -1264,12 +1264,12 @@ zalika	zalika
 allura	allurar allura alluran allurai
 samari	samari samarin samarinki samarinta
 cinye	cinye cinyewa cinyewar
-ɗan'uwa	ɗan'uwansa ɗan'uwan ɗan'uwa ɗan'uwanta ɗan'uwanka ɗan'uwansu ɗan'uwanmu ɗan'uwar ɗan'uwanku ɗan'uwarsa
+ɗan'uwa	ɗan'uwansa ɗan'uwan ɗan'uwa ɗan'uwanta ɗan'uwanka ɗan'uwansu ɗan'uwanmu ɗan'uwar ɗan'uwanku ɗan'uwarsa ɗan'uwana
 fashe	fashe fashen
 muhawara	muhawara muhawarar muhawaran muhawararsu muhawarori muhawarorin muhawararmu
 tashe	tashe tashen
 mambobi	mambobin mambobi mambobinta mambobinmu mambobinsu mambobinka mambobinsa
-jariri	jaririn jariri jaririnta jaririnka jaririnsu jaririnsa jarirai jariran jariransu
+jariri	jaririn jariri jaririnta jaririnka jaririnsu jaririnsa jarirai jariran jariransu jaririya jaririyar jaririyarsu jaririyata jaririyarta
 makamashi	makamashi makamashin makamashinta makamashinsu
 kasafi	kasafin kasafi kasafinsu
 hayaniya	hayaniya hayaniyar
@@ -1291,7 +1291,7 @@ janar	janar
 fitattu	fitattun fitattu fitattunta fitacce fitaccen fitacciyar fitacciya fitacciyarta
 saurare	saurare sauraren saurarensu saurarenka saurarenta saurara saurarawa sauraran
 ire	ire irena
-kasa	kasa kasan kasanta
+kasa	kasa kasan kasanta kasu
 cibiyoyi	cibiyoyin cibiyoyi cibiyoyinta cibiyoyinsu
 shayi	shayi shayin shayinmu shayinta
 mayaƙa	mayaƙan mayaƙa mayaƙanta mayaƙansa mayaƙansu
@@ -1326,7 +1326,7 @@ rani	rani ranin
 ambaliya	ambaliyar ambaliya ambaliyan
 mutun	mutunta mutun
 ƙone	ƙone ƙonewa ƙonewar ƙonawa ƙonawar ƙonan
-hange	hangen hange hangenka hangensa hangensu
+hange	hangen hange hangenka hangensa hangensu hangi hangin
 tsire	tsire tsiren tsirensa
 sigari	sigari sigarin
 suma	suma sumata suman
@@ -1366,7 +1366,7 @@ zakara	zakarun zakara zakaran zakarar zakaru zakaruna zakarunsa zakarunsu
 bayarwa	bayarwa
 ayyana	ayyana ayyanawa
 zumunci	zumunci zumuncin zumuncinsu zumuncinta
-marigayi	marigayi marigayin
+marigayi	marigayi marigayin marigayiya marigayiyar
 makoma	makomar makoma makomarsu makomarsa makomarka makomarta makomarmu makomata
 alhali	alhali alhalin
 raguwa	raguwar raguwa raguwarsa raguwarta
@@ -1443,7 +1443,7 @@ daidaito	daidaito daidaiton daidaitonsa daidaitonsu daidaitonta
 gilashi	gilashin gilashi gilashinsa gilashinsu gilashinta
 tukuna	tukuna tukunna
 fasinja	fasinjoji fasinjojin fasinja fasinjojinsa fasinjan
-albarkaci	albarkacin albarkaci albarkacinsu albarkacinsa
+albarkaci	albarkacin albarkaci albarkacinsu albarkacinsa albarkace
 sanata	sanata sanatoci sanatan sanatocin sanatanmu sanatocinmu sanatocinsu sanatarsa
 bushe	bushe bushewa bushewar
 from	from
@@ -1463,10 +1463,10 @@ ma'auni	ma'auni ma'aunin ma'auninsa ma'auninsu ma'aunan ma'aunai
 arba'in	arba'in
 siyar	siyar siyarsu
 bala'i	bala'i bala'in bala'insa bala'o'i bala'o'in
-matsa	matsa matse matsawa matsawar matsewa matsewar
+matsa	matsa matse matsawa matsawar matsewa matsewar matso matsu matsowa matsuwa matson
 hamada	hamada hamadar
 ɗinsa	ɗinsa
-gaisuwa	gaisuwa gaisuwar gaisuwarsa gaisuwarmu gaisuwarsu gaisuwarta gaisuwata
+gaisuwa	gaisuwa gaisuwar gaisuwarsa gaisuwarmu gaisuwarsu gaisuwarta gaisuwata gaisa gaisawa gaisar gaisawar
 ƙima	ƙima ƙimar ƙimarsa ƙimarka ƙimarku ƙimarmu ƙimarsu ƙimarki ƙimansa ƙimarta ƙimansu
 ragu	ragu ragawa
 baje	baje bajon bajo
@@ -1492,7 +1492,7 @@ tsorata	tsorata tsoratar tsoratan
 ƙarawa	ƙarawa ƙarawar
 sabulu	sabulu sabulun
 cancanta	cancanta cancantan
-maigida	maigidan maigida maigidansa maigidanta maigidanka maigidanmu maigidanku maigidanki maigidansu maigidar
+maigida	maigidan maigida maigidansa maigidanta maigidanka maigidanmu maigidanku maigidanki maigidansu maigidar maigidana
 daka	daka dakar dakan dakansa
 tsabtace	tsabtace tsabtacewar tsabtacewa
 oh	oh
@@ -1508,7 +1508,7 @@ maƙala	maƙala maƙalar maƙalarka maƙalarsa maƙalan maƙalarmu maƙalarta ma
 laushi	laushi laushin
 arziƙin	arziƙin arziƙi
 ɗanɗano	ɗanɗano ɗanɗanon ɗanɗanonsa ɗanɗanonsu ɗanɗanonta
-mamba	mamba mamban mambar mambanmu memban mambana mambobina membansa membanta
+mamba	mamba mamban mambar mambanmu memban mambana mambobina membansa membanta memba
 katanga	katangar katanga katangarsa katangarta
 sunyi	sunyi
 raga	raga ragar ragan ragarsa
@@ -1541,7 +1541,7 @@ tilastawa	tilastawa tilastawar
 dubban	dubban
 takamaiman	takamaiman takamaimansa takamaimai takamaimain
 annoba	annobar annoba annoban annobarta
-masoyi	masoyi masoyin masoyina masoyinta masoyinsa masoyinka masoyiya masoyana masoyiyar masoyiyarmu masoyiyarta masoyiyarsa
+masoyi	masoyi masoyin masoyina masoyinta masoyinsa masoyinka masoyiya masoyana masoyiyar masoyiyarmu masoyiyarta masoyiyarsa masoyiyata
 ingantacce	ingantaccen ingantacce ingantattun ingantacciyar ingantattu ingantacciya
 hausa	hausa hausar hausan
 faɗo	faɗo
@@ -1567,7 +1567,7 @@ halaka	halaka halakar hallaka hallakawa halakawar halakawa hallakawar hallakawar
 lu'u	lu'u lu'un lu'unsu
 ƙoshi	ƙoshin ƙoshi ƙoshinsu ƙoshinsa
 ƙulla	ƙulla ƙullawa ƙullawar
-gwarzo	gwarzon gwarzo gwarzona gwarzonmu
+gwarzo	gwarzon gwarzo gwarzona gwarzonmu gwarzuwar gwarzuwa gwarzuwan
 shimfiɗa	shimfiɗa shimfiɗe shimfiɗawa
 ɗaruruwa	ɗaruruwan ɗaruruwa
 iyakoki	iyakokin iyakoki iyakokinta iyakokinmu iyakokinsu iyakokinsa
@@ -1663,7 +1663,7 @@ liman	limamin limaman limamai liman limamansu limamanta limaminsa limamansa
 tsokaci	tsokaci tsokacin tsokacina tsokacinta
 iyo	iyo iyon
 ƙawance	ƙawancen ƙawance ƙawancenta ƙawancensu ƙawancensa ƙawancenmu
-farfaɗo	farfaɗo farfaɗowar farfaɗowarta
+farfaɗo	farfaɗo farfaɗowar farfaɗowarta farfadowa farfadowarsa
 nutse	nutse nutsewa nitsewa nitse nutsewar nitsewar nutsewarsu
 kusanci	kusanci kusancin kusancinsa kusancinka kusancinku kusancinmu kusancinta kusancinsu
 almara	almara almarar almararsa almaran almararta
@@ -1731,9 +1731,9 @@ zobe	zoben zobe zobba zobensa zobenta
 tanada	tanada tanadawa
 ameen	ameen
 hakanan	hakanan
-zagaya	zagaya zagayawar zagayar
+zagaya	zagaya zagayawar zagayar zagayawa
 gwargwado	gwargwadon gwargwado
-ɓalle	ɓalle
+ɓalle	ɓalle ɓallewa ɓallewar ɓallewarta ɓallewarsu
 rungumi	rungumi rungume rungumin
 ƙanƙanta	ƙanƙanta ƙanƙantar ƙanƙantan ƙanƙantarsa ƙanƙantarta ƙanƙantarsu
 daddare	daddare daddaren
@@ -1840,8 +1840,8 @@ jakadanci	jakadancin jakadanci jakadancinta jakadancinsu jakadancinsa
 samfur	samfuran samfur samfuransa samfuransu samfuranta
 alƙalami	alƙaluma alƙaluman alƙalami alƙalamina alƙalamin alƙalumansu alƙalaminsa alƙalaminta alƙalaminka alƙalumansa
 inshora	inshora inshorar inshoran
-aike	aike aiken aikensa
-danna	danna dannawa dannawar
+aike	aike aiken aikensa aikewa
+danna	danna dannawa dannawar danne dannewa dannen
 ragama	ragamar ragama ragamarsa ragamarsu ragamarta ragaman
 lasisi	lasisin lasisi lasisinsa lasisinta lasisinsu
 cunkoso	cunkoson cunkoso
@@ -1853,7 +1853,7 @@ huce	huce hucewa hucewar
 kamanni	kamani kamanni kamannin kamanninsa kamanninsu kamanninta kamanin kamannina kamaninsa kamaninta
 taruwa	taruka tarukan taruwa tarukansu taruwar taruwarmu tarukanta
 leɓe	leɓe leɓen leɓunansa laɓɓanta leɓena leɓensa leɓensu leɓunansu leɓuna leɓunan laɓɓa laɓɓan laɓɓansu leɓunanta
-shaƙa	shaƙar shaƙa shaƙe shaƙan shaƙewa shaƙewar
+shaƙa	shaƙar shaƙa shaƙe shaƙan shaƙewa shaƙewar shaƙuwa shaƙuwar
 majami'a	majami'a majami'an majami'u majami'ar majami'un majami'unsu majami'arta majami'arsa majami'arsu
 uwargida	uwargidan uwargida uwargidansa uwargidanta uwargidar uwargidata uwargidanmu
 albasa	albasa albasar
@@ -1893,7 +1893,7 @@ taƙaitacce	taƙaitacce taƙaitaccen
 tsiro	tsirrai tsiro tsirran tsiron tsironta
 ƙiyayya	ƙiyayya ƙiyayyar ƙiyayyarsa ƙiyayyarsu ƙiyayyata ƙiyayyarta
 haki	hakin haki hakinsu hakinsa hakinta
-dage	dage dagen
+dage	dage dagen dagewa dagewar dagewarta dagewarsa
 shashasha	shashasha shashashu shashashun
 gabanin	gabanin gabannin gabaninsa gabaninku gabaninsu
 hazaka	hazaka hazakar hazakarta hazakarka hazakarsa hazakanta
@@ -1970,7 +1970,7 @@ maƙabarta	maƙabarta makabarta makabartar makabartan maƙabartarsa
 iyawa	iyawa iyawar iyawarsa iyawarsu iyawarta iyawarka iyawarmu iyawata iyawarku
 daddadare	daddadare daddadaren
 alewa	alewa alewar
-mahaukaci	mahaukaci mahaukacin
+mahaukaci	mahaukaci mahaukacin mahaukaciyar
 haraba	haraba harabar harabarta harabarsa
 halatta	halatta halattar
 ragowa	ragowar ragowa ragowarsu ragowarsa ragowarta ragowan
@@ -2000,7 +2000,7 @@ gaishe	gaishe gaishewa
 halasta	halasta halastawa
 shinge	shingen shinge shingayen shingaye shingensa
 jikkata	jikkata jikkatawa jikkatan jikkatar
-ranta	ranta ranci rantawa
+ranta	ranta ranci rantawa rancen rance rancensa
 makirci	makircin makirci makircinsu makircinsa makircinta
 dakata	dakata dakatawa dakatawar
 alfanu	alfanu alfanun alfanunsa alfanunta
@@ -2056,7 +2056,7 @@ keta	keta ketawar ketawarsu
 kurma	kurma kurame kurmar kurmarsa
 ƙarara	ƙarara ƙararar
 ƙaho	ƙaho ƙahon ƙahonsu ƙahonin ƙahonsa ƙahonta ƙahoni ƙahoninsu
-ƴar'uwa	ƴar'uwa ƴar'uwar ƴar'uwarta ƴar'uwarsa ƴar'uwarsu ƴar'uwarku
+ƴar'uwa	ƴar'uwa ƴar'uwar ƴar'uwarta ƴar'uwarsa ƴar'uwarsu ƴar'uwarku ƴar'uwata
 fusata	fusata
 akuya	akuya awaki akuyar awakin akuyarsa awakai akuyan
 ninka	ninka ninkawa ninkawar
@@ -2078,7 +2078,7 @@ kishiya	kishiyar kishiya kishiyoyin kishiyarta kishiyoyinsa kishiyata kishiyoyi 
 nashi	nashi
 tabo	tabo tabon tabbar tabba tabonsu
 tagwaye	tagwayen tagwaye tagwayensa tagwayenta
-baƙunci	baƙunci baƙuncin baƙuncinsa baƙuncinsu
+baƙunci	baƙunci baƙuncin baƙuncinsa baƙuncinsu baƙunta
 ibn	ibn
 huda	huda
 fenti	fenti fentin fentinsa
@@ -2193,13 +2193,20 @@ taba	taba tabar tabarsa tabarmu
 ɓaba	ɓaba
 www	www
 lungu	lungu lunguna lungun lungunan
-kyamara	kyamarar kyamara kyamarorin kyamararsa kyamararta kyamaran
+kyamara	kyamarar kyamara kyamarorin kyamararsa kyamararta kyamaran kyamarata
 takadda	takadda takaddun takaddar takaddunta takaddunsa takaddarsa
 takan	takan takansu takansa
 yaye	yaye yayen
 rakiya	rakiyar rakiya rakiyarsa
 daama	daama daaman daamar
 naayi	naayi
+addaba	addabi addabar addabe addabarmu addabarsu addaba
+sumba	sumbatar sumbata sumba sumbatarka sumbarta sumbatarta sumbanta
+leƙa	leƙa leƙo leƙowa lekawa leƙan
+dunƙule	dunƙule dunƙulewa dunƙulen dunƙulewar dunƙulewan
+nishadantar	nishadantar nishaɗantarwa
+ɗebe	ɗebe ɗebi ɗebo ɗebowa ɗeben
+gurgu	guragu gurguwar gurgu gurguwa
 shahada	shahada shahadar shahadarsu shahadarsa
 benci	benci bencin bencina
 gata	gata gatan gatar gatarsu gatana gatansu gatanta
@@ -2208,14 +2215,11 @@ safara	safarar safara safararta safararsu
 jujjuya	jujjuya jujjuyawa jujjuyawar jujjuyawarsa
 tan	tan
 shehu	shehu shehun shehunan shehunanmu shehunai
-mahimman	mahimman
 ungulu	ungulu ungulun
 annashuwa	annashuwa
 tsiraru	tsiraru tsirarun tsirarunsu
-daukawa	daukawa
 kwastomomi	kwastomomi kwastomomin kwastomominmu kwastomominsa kwastomominsu kwastomominta
 ƙazami	ƙazamin ƙazamar ƙazami ƙazama ƙazamai ƙazaman
-dunƙule	dunƙule dunƙulen
 tsagaita	tsagaita tsagaitawa tsagaitawar
 kash	kash
 batiri	batiri batirin batir batura batirinsa baturan
@@ -2236,8 +2240,8 @@ cuɗanya	cuɗanya cuɗanyar
 fallasa	fallasa fallasawa fallasan fallasawar
 labule	labule labulen
 niƙa	niƙa niƙe niƙan niƙawa
-aba	aba abar ababan
 jimilla	jimillar jimilla jimillarsu jimillan jimillarta
+aba	aba abar ababan
 bokiti	bokiti bokitin bokitinsa
 ƙasida	ƙasida ƙasidu ƙasidar ƙasidun ƙasidarsa ƙasidunsa ƙasidarta ƙasidarsu ƙasidunta
 dijital	dijital
@@ -2255,9 +2259,7 @@ takunkumi	takunkumin takunkumi
 tunkara	tunkarar tunkara tunkararsu tunkararsa tunkararta
 murfi	murfin murfi murfinta murfinsa murfina murfinsu
 gab	gab
-addabi	addabi addabe
 arha	arha arhar arhan
-girme	girme girmi
 kwakwa	kwakwa kwakwan kwakwar
 daɗa	daɗa daɗawa daɗan
 siminti	siminti simintin simintinsa
@@ -2266,8 +2268,6 @@ washegari	washegari washegarin
 alkhairi	alkhairi alkhairinsa
 dillanci	dillanci dillancin
 jahilci	jahilci jahilcin jahilcinsa jahilcinmu jahilcinsu
-faro	faro
-by	by
 tauye	tauye tauyewa
 ɗarika	ɗarika ɗarikar ɗariƙar
 hatsi	hatsin hatsi
@@ -2277,7 +2277,6 @@ sheka	sheka shekar shekata shekarta shekan
 wanzar	wanzar
 amai	amai aman
 yadi	yadi yadin
-kodayaushe	kodayaushe
 gemu	gemu gemunsa gemun
 tsoma	tsoma tsomawa tsomawar
 hura	hura hurawa
@@ -2302,10 +2301,8 @@ maraice	maraice maraicen
 makwabtaka	makwabtaka makwabtakarsu
 zamanto	zamanto zamto zamantowa
 ƙarasa	ƙarasa ƙarasawa
-jar	jar
 dawwama	dawwama dawwamar dawwamawar
 kanjamau	kanjamau kanjamaun
-tsaida	tsaida
 jingina	jingina
 yini	yini yinin
 digirgir	digirgir
@@ -2313,13 +2310,10 @@ mari	mari marina marin marinku
 rangadi	rangadin rangadi rangadinsa rangadinsu rangadinta
 damisa	damisa damisar damisan
 garzaya	garzaya garzayawa
-leƙa	leƙa leƙan
 alawus	alawus
 bankwana	bankwana bankwanan
 maƙaryaci	maƙaryaci maƙaryacin
-wajena	wajena
 kwal	kwal
-gaisa	gaisa gaisawa gaisar gaisawar
 abota	abota abotarku abotarmu abotarsu abotansu abotar abotarsa abotarta
 kago	kago kagowa
 shimfida	shimfida shimfidar shimfidarsa shimfidarta shimfidan
@@ -2329,18 +2323,15 @@ balaga	balaga balagar balaganta balagarsu
 assasa	assasa assasawa
 muzahara	muzahara muzaharar muzahararmu
 ɗawainiya	ɗawainiyar ɗawainiya ɗawainiyarsu ɗawainiyarta
-nishadantar	nishadantar nishadantarwa
 mayafi	mayafin mayafi mayafinta mayafina mayafinki mayafinsa mayafinmu
 aljan	aljanu aljani aljanun aljanin aljan aljanunsa aljanunsu
 lamuni	lamuni lamunin lamuninsa
+waiwaya	waiwayi waiwaya waiwayar waiwayarsa waiwayarsu
 maguɗi	maguɗi maguɗin
 jami'iyya	jami'iyya jami'iyyar jamiyyar jami'iyar jami'iyarsa jami'iyyarsu jamiyyarsa
 tsai	tsai tsanka
 cafke	cafke
-baro	baro baron baronta
-rushewa	rushewa rushewar rushewarta rushewarsa
 diyya	diyya diyyar
-kome	kome komen
 kala	kala kalar kalarmu kalarsa kalan kalansu
 muslunci	muslunci
 daba	daba dabana dabata
@@ -2348,10 +2339,8 @@ damƙe	damƙe damƙa damƙawa
 kacokan	kacokan kacokam
 karuwanci	karuwanci karuwancinta karuwancinsu karuwancin
 tofa	tofa tofar
-sumbata	sumbata sumbatar sumbatarka sumbatarta
 tantama	tantama tantamar tantaman
 tsaf	tsaf
-kasu	kasu
 azanci	azanci azancin azancinsa azancinsu
 sara	sara saran sarar
 falala	falala falalar falalarsa
@@ -2373,7 +2362,6 @@ tarho	tarho
 tafsiri	tafsirin tafsiri tafsirinka tafsirinsu tafsirinta tafsirinsa
 haziƙi	haziƙan haziƙi haziƙai haziƙa haziƙin haziƙar
 cakulan	cakulan cakulansa
-bayyanuwa	bayyanuwa bayyanuwar bayyanuwarsa
 jajibiri	jajibiri jajibirin
 aurar	aurar
 lillahi	lillahi
@@ -2381,8 +2369,6 @@ tursasa	tursasawa tursasa tursasawar
 hanzari	hanzari hanzarin hanzarinsu hanzarinsa
 haure	hauren haure
 tuntuni	tuntuni tuntunin
-ragewa	ragewa ragewar
-ƴata	ƴata
 tsarkake	tsarkake tsarkakewa tsarkaken tsarkakewar tsarkakewarsa tsarkakewarta
 bege	bege begen begensu begenki begensa begena
 diddigi	diddigin diddigi diddiginsa diddiginsu diddiginta
@@ -2391,14 +2377,12 @@ ah	ah
 kunshi	kunshi kunshin
 katafaren	katafaren katafarensa
 rassa	rassa rassan rassansa rassanta rassansu rassar rassarsa
-tsohuwa	tsohuwa
 galihu	galihu
 bainar	bainar
 na'am	na'am
 badaƙala	badaƙala badaƙalar badakala
 raji	raji rajin
 lulluɓe	lulluɓe lulluɓewa
-ficewa	ficewa ficewar ficewarsa ficewarsu ficewarta
 layya	layya layyar
 ƙaunace	ƙaunace ƙaunaci
 ramuwa	ramuwar ramuwa ramuwarsa
@@ -2415,11 +2399,13 @@ mahanga	mahangar mahanga mahangarsa
 keji	keji kejin
 kurket	kurket
 hauhawa	hauhawa hauhawar
+ƙure	ƙure ƙuren ƙurenka ƙurewa ƙurewar
 bariki	barikin bariki barikinsu barikinmu barikinta
 tsayayye	tsayayyen tsayayye
 kafet	kafet
 gunaguni	gunaguni gunagunin
 sassafe	sassafe
+tsine	tsine tsinuwa tsinuwar tsinewa tsinuwarta
 famfo	famfo fanfo famfon famfona fanfon
 kitse	kitse kitsen singular
 mabambanta	mabambanta mabambantan
@@ -2442,7 +2428,6 @@ ajali	ajalinsa ajalin ajalinta ajalinsu ajali ajalinka
 cake	cake
 zaɓaɓɓe	zaɓaɓɓe zaɓaɓɓen
 sarƙa	sarƙoƙi sarƙata sarƙar sarƙa sarƙoƙin sarƙan
-marawa	marawa
 gamayya	gamayya gamayyar
 haramtacciya	haramtacciya haramtacciyar
 fayil	fayil fayilolin fayilolinsa
@@ -2476,14 +2461,11 @@ zuzzurfa	zuzzurfa zurfafa zuzzurfan zurfafan
 karuwai	karuwai
 girbi	girbi girbin girbinsu
 mahalli	mahallin mahalli mahallinsu mahallinsa mahallinta mahallinmu
-sukai	sukai
 murmure	murmurewa murmure murmurewarsa murmurewar murmurewarta
 kiyashi	kiyashi kiyashin
-sumba	sumba sumbarta sumbanta
 ɓaraka	ɓaraka ɓarakar ɓarakarsu
 tuntuɓe	tuntuɓe tuntuɓen
 turba	turbar turba turban
-ƙure	ƙure ƙuren ƙurenka
 tir	tir
 naku	naku
 tsawaita	tsawaita tsawaitawa tsawaitar tsawaitawar
@@ -2494,7 +2476,6 @@ tumatir	tumatir tumatur
 tarnaƙi	tarnaƙi tarnaƙin
 keɓance	keɓance keɓancewa keɓanta keɓancewar keɓantawa keɓantawar keɓancewarsa keɓantar
 wasiyya	wasiyya wasiyyar wasiyyarsa wasiyyansa wasiyyata wasiyyarta wasiyyarsu wasiyyan
-rance	rance rancen rancensa
 tururuwa	tururuwa tururuwar tururuwan
 tabarau	tabarau tabaransa tabaran
 makawa	makawa
@@ -2508,17 +2489,9 @@ tafarnuwa	tafarnuwa tafarnuwan tafarnuwar
 baranda	baranda barandansu barandar barandan
 tuffa	tuffa tuffar tuffan
 cuku	cuku cukun
-yinwa	yinwa
-sa'annan	sa'annan
 hatimi	hatimin hatimi hatiminsa
-danne	danne dannewa dannen
-jiyo	jiyo
-dau	dau
-dena	dena
 kilo	kilo
 kambu	kambu kambun kambunta kambunsa kambunsu
-addaba	addabar addabarmu addabarsu addaba
-za'ayi	za'ayi
 kansar	kansar
 yaƙini	yaƙinin yaƙini
 firist	firist
@@ -2528,7 +2501,6 @@ mulka	mulka mulkar mulke mulkarsu mulkarta mulkan
 tef	tef
 baiti	baiti baitin baitocin baitoci baitocinsa baitina baitinta
 rata	rata ratan ratar
-yiyuwa	yiyuwa yiyuwan yiyuwar
 yumɓu	yumɓu yumɓun yumɓunsa yumɓunta
 kiyama	kiyama
 wulaƙanci	wulaƙanci wulaƙancin
@@ -2549,12 +2521,12 @@ fansho	fansho fanshon fanshonta
 farce	farce farcen farata farcensa farcena
 haikali	haikali haikalin haikalinsa haikalinsu haikalinta
 fiffike	fiffike fikafikan fikafikai fikafikansu fikafikanta fiffiken fikafikanka
-kyakyawa	kyakyawa kyakyawan kyakkywan kyakyawar
 lafa	lafa lafawa lafawar
+kyakyawa	kyakyawa kyakyawan kyakkywan kyakyawar
 auduga	auduga audugar
 wulaƙanta	wulaƙanta wulaƙantawar
-kerkeci	kerkeci kyarkeci kerkecin
 jihadi	jihadi jihadin jihadinsa jihadinsu
+kerkeci	kerkeci kyarkeci kerkecin
 tsage	tsaga tsage tsagewa tsagewar tsagawar tsagen tsagawa
 ingiza	ingiza ingizawa ingizawar
 kuskura	kuskura
@@ -2566,14 +2538,13 @@ jaket	jaket
 mayaudari	mayaudara mayaudari mayaudarin
 walau	walau
 hamɓarar	hamɓarar
-buguwa	buguwar buguwa buguwarsa buguwarta
-gurgu	guragu gurgu
 jaruntaka	jarumtaka jaruntaka jaruntakarsa jarumtakar jarumtakarsa jaruntakar jarumtakarta jaruntakarta jarumtakarsu jaruntakarsu
 shata	shata shatan shatansu shatawa
 zakka	zakka zakkar
 koko	koko kokon kokona
 golf	golf
 sakan	sakan
+kwararo	kwararowar kwararo kwararowa
 zartas	zartaswa zartas zartaswar zartaswarsa
 sigina	siginar sigina siginan
 damfara	damfara damfarar
@@ -2591,7 +2562,6 @@ hanji	hanji hanjin hanjina hanjinsu
 waiwaye	waiwaye waiwayen
 musanya	musanya musanyar musanyawa musanyan musanyawar
 ƙamus	ƙamus ƙamusun
-tsayuwa	tsayuwar tsayuwa tsayuwan tsayuwarka tsayuwarmu tsayuwarsa tsayuwarta tsayuwarsu
 gora	gora goran goranta
 sunna	sunna sunnar sunnata sunnonin sunnanta
 daɗaɗɗen	daɗaɗɗen dadaddun
@@ -2600,7 +2570,6 @@ nunƙaya	nunƙaya
 ɗoki	ɗoki ɗokin
 barewa	barewa barewar bareyi
 mahajjata	mahajjata mahajjatan
-kowannensu	kowannensu
 murhu	murhun murhu murhunsa murhunta
 ruga	ruga rugan rugawa
 jazz	jazz
@@ -2612,16 +2581,13 @@ tasi	tasi taksi
 romo	romon romo romonta
 karaya	karaya karayar
 batsa	batsa batsar
-matashiya	matashiya matashiyar matashiyarta
 shikenan	shikenan
 zaki	zaki zakin zakuna zakoki zakunan
 ganganci	ganganci gangancin
 gareji	gareji garejin garejinsa
 ɓatanci	ɓatanci ɓatancin
-jaririya	jaririya jaririyar jaririyarsu jaririyata jaririyarta
 sujada	sujada sujjada sujadar
 maslaha	maslaha maslaharsu maslahar
-yinsa	yinsa
 cusa	cusa cusawa
 zalunta	zalunta zalunce zaluntar zaluntarsu zaluntarsa zaluntawa
 gwanjo	gwanjo gwanjon gwanjonsa gwanjonsu
@@ -2632,8 +2598,8 @@ fara'a	fara'a fara'ar fara'arsa fara'arta
 garesu	garesu
 ƙwaƙƙwara	ƙwaƙƙwaran ƙwaƙƙwara ƙwaƙƙwarar ƙwaƙƙwaransa
 soyayye	soyayye soyayyen
-manna	manna mannawa mannan
 mamaci	mamacin mamaci
+manna	manna mannawa mannan
 lu'ulu'u	lu'ulu'u lu'ulu'un lu'ulu'unsa
 nanata	nanata nanatawa nanatawar
 citta	citta
@@ -2653,8 +2619,8 @@ anya	anya
 kutsa	kutsa kutsawa kutsawar
 mazhaba	mazhabar mazhaba mazhaban mazhabarsu
 wutsiya	wutsiya wutsiyar wutsiyoyi wutsiyarsa wutsiyarsu wutsiyoyin wutsiyoyinsu wutsiyarta
-tela	teloli tela telolin telan
 keya	keyar keyarsu keya keyarsa keyata keyan
+tela	teloli tela telolin telan
 matattara	matattarar matattara matattaran
 fatawa	fatawa fatawar fatawarsa
 walima	walima walimar
@@ -2670,7 +2636,6 @@ kambi	kambi kambin kambinsa kambinta
 sikeli	sikeli sikelin sikelinsu sikelinsa
 wadatacce	wadatacce wadataccen
 dabo	dabo dabon
-ginu	ginu ginuwar ginuwa ginuwarta
 hijabi	hijabi hijabin
 zantuka	zantukan zantukansu zantuka
 salula	salula salularsa
@@ -2699,7 +2664,7 @@ kusantar	kusantar kusantarsa kusantarta
 asirce	asirce
 shiriya	shiriya shiriyarsa shiriyar
 amfanar	amfanar amfanarmu amfanarwa
-baƙuwa	baƙuwa baƙuwar
+goya	goya goyan goyawa
 bijire	bijirewa bijire
 fom	fom
 masallata	masallatan masallata
@@ -2708,9 +2673,7 @@ kalami	kalami kalamin kalaminsa
 zunzurutu	zunzurutu zunzurutun
 tsangwama	tsangwama tsangwamar
 alaƙanta	alaƙanta alaƙantar
-zagayawa	zagayawa
 raɓa	raɓa raɓar raɓansa raɓanta raɓata
-tunanina	tunanina
 ƙaryata	ƙaryata ƙaryatawa
 fasfo	fasfo fasfonsa fasfon fasfunan fasfonta
 zabura	zaburar zabura
@@ -2730,8 +2693,8 @@ walet	walet walat
 jahili	jahili jahilai jahilan
 daftari	daftarin daftari daftarinsa
 bulala	bulala bulalar bulalan
-aleɗe	aleɗe
 kwanu	kwanu kwanun
+aleɗe	aleɗe
 tanadar	tanadar tanadarwa
 bn	bn
 summa	summa summan
@@ -2739,7 +2702,6 @@ danshi	danshi danshin danshinsu danshinta
 huɗuba	huɗuba huɗubar huɗubarsa
 matsoraci	matsoraci matsoracin matsorata
 fadama	fadama fadamar fadamu fadaman fadamarsa
-rubuto	rubuto rubutowa
 larura	larurar larura larurorin
 tauhidi	tauhidi tauhidin tauhidinsa
 fin	fin
@@ -2752,11 +2714,9 @@ wau	wan wansu wau wansa wanta wauna
 waɗan	waɗan
 girka	girka girkawa girkan girkawar
 bulo	bulo bulon bulonsa bulonta
-mantuwa	mantuwa
 mabuɗi	mabuɗin mabuɗan mabuɗi
 musabbabi	musabbabi musabbabin musabbabinsa
 tsamiya	tsamiya tsamiyar
-aikewa	aikewa
 tsiraici	tsiraici tsiraicin tsiraicinmu tsiraicinta tsiraicinsu
 guduma	guduma gudumar
 yalwata	yalwata
@@ -2778,9 +2738,9 @@ kwarjini	kwarjini kwarjinin kwarjininsa kwarjininta
 killace	killace killacewa
 fosta	fosta fostar
 harhaɗa	harhaɗa harhaɗawa
-baɗi	baɗi
 taliki	talikai taliki talikan talikin
 ƙazafi	ƙazafi ƙazafin
+baɗi	baɗi
 farfaganda	farfaganda farfagandar farfagandarsa
 yalwa	yalwar yalwa yalwan yalwarsu
 gwano	gwanon gwano
@@ -2817,13 +2777,11 @@ tata	tata tatan
 wacece	wacece
 salama	salama salaman
 washe	washe washewa washewar
-ɗebe	ɗebe ɗeben
 ɗumama	ɗumama ɗumamar
 rangwame	rangwame rangwamen rangwamensu
 jabu	jabu jabun
 musulunta	musulunta musuluntar musuluntarsa musuluntarsu musuluntarta
 hattara	hattara
-waiwaya	waiwaya waiwayar waiwayarsa waiwayarsu
 mayya	mayya mayyar
 karyata	karyata
 kayatarwa	kayatarwa
@@ -2844,20 +2802,16 @@ haila	haila hailar
 anjima	anjima anjiman
 gareni	gareni
 jiri	jiri
-shaidi	shaidi
 ta'ada	ta'ada ta'adan
-farfadowa	farfadowa farfadowarsa
 tururi	tururi tururin tururinsa
-tsine	tsine tsinewa
 raira	raira
 rahusa	rahusa rahusar
 madaidaici	madaidaicin madaidaici
 karko	karko karkon karkonsa
 kanar	kanar
-tuhumi	tuhumi
+tuhume	tuhume tuhumi
 ma'aji	ma'ajin ma'aji ma'ajinsa
 shure	shure
-sanina	sanina saninan
 kasawa	kasawa kasawar kasawarsa
 kwaskwarima	kwaskwarima kwaskwarimar
 sahibi	sahibi sahabbai sahabbansa sahabban sahiban
@@ -2868,13 +2822,11 @@ cif	cif
 nufa	nufa
 kud	kud
 fanka	fanka fankan fankar fankoki
-albarkace	albarkace
 manne	manne mannewa mannen mannewar
 iyakaci	iyakaci iyakacin
 ceri	ceri
 hamshaƙi	hamshaƙi hamshaƙin
 ganima	ganima ganiman ganimar ganimarsu
-haifu	haifu
 attajira	attajiran attajira attajirar
 gu	gu
 gangaro	gangaro gangarowa gangarowar
@@ -2884,7 +2836,6 @@ shelanta	shelanta shelantawa
 madaidaiciya	madaidaiciya madaidaiciyar
 himmatu	himmatu himmatuwa
 ƙwandala	ƙwandala ƙwandalan ƙwandalar
-gyaru	gyaru gyaruwa
 ruɓe	ruɓewa ruɓe ruɓewar ruɓen
 canka	canka cankar
 fitsara	fitsara
@@ -2895,14 +2846,12 @@ nishandantarwa	nishandantarwa
 yanyawa	yanyawa yanyawan
 muƙarraba	muƙarraba muƙarraban muƙarrabansa
 garambawul	garambawul
-maigidana	maigidana
 jajanta	jajanta jajantawa
 magidanci	magidanci magidancin
 farke	farke farkewa
 maƙarƙashiya	maƙarƙashiya maƙarƙashiyar maƙarƙashiyarsa maƙarƙashiyan
 tsiya	tsiya tsiyar
 cakuɗa	cakuɗa cakuɗawa cakuɗan cakuɗawar
-juyo	juyowa juyo juyowar
 ɗanuwa	ɗanuwa ɗanuwansa ɗanuwanta ɗanuwar
 dira	dirar dira diran
 madigo	madigo madigon
@@ -2911,11 +2860,9 @@ haifaffiya	haifaffiya haifaffiyar
 karkashi	karkashi karkashinta karkashina karkashinka karkashinmu karkashinku
 rake	rake
 gwabza	gwabza gwabzawa gwabzar gwabzawar
-cirewa	cirewa cirewar
 haja	hajarsa hajar hajarsu hajoji hajojinsu haja hajojin hajansa
 ƙiyasi	ƙiyasin ƙiyasi ƙiyasinsa
 tsanaki	tsanaki
-matsakaiciya	matsakaiciya matsakaiciyar matsakaiciyarta
 waraka	waraka warakar
 ɓoyayye	ɓoyayyen ɓoyayyar ɓoyayyun ɓoyayya ɓoyayye ɓoyayyensa
 falaki	falaki falakin falakinsu
@@ -2929,7 +2876,6 @@ kyalle	kyalle kyallen kyallensa
 aje	aje ajewa
 wasali	wasali wasula wasalin wasulan wasalinsu
 tarɓe	tarɓe tarɓi
-matso	matso matsowa matson
 tarba	tarba tarɓa tarbar tarbarsa tarbarsu tarɓarsa tarɓarsu
 hakimi	hakimai hakimin hakimi hakiminsa hakiminsu hakiman hakimansa hakimansu
 alwala	alwala alwalarsa alwalar
@@ -2974,7 +2920,6 @@ mutuƙar	mutuƙar
 tsangaya	tsangayar tsangaya tsangayan
 daf	daf
 feshi	feshi feshin
-zubo	zubo zubowa
 kwaɗo	kwaɗo kwaɗi kwaɗon kwaɗin
 dausayi	dausayi dausayin
 bori	bori borin
@@ -3028,13 +2973,10 @@ zarto	zaratan zarata zarto
 tafasa	tafasa tafasan tafasawa
 kaki	kaki kakin kakinsu
 ƙananu	ƙananu ƙananun ƙanan
-goya	goya goyan
 fare	fare faren farensa
 mirgine	mirgine mirginewa
 kauda	kauda
 halal	halal
-gurguwa	gurguwar gurguwa
-binciko	binciko bincikowa
 haƙiƙance	haƙiƙance haƙiƙancewa
 cent	cent
 jiƙa	jiƙa
@@ -3067,17 +3009,15 @@ razana	razana
 ɗinbin	ɗinbin
 murza	murza murzawa
 muhallansu	muhallansu
-yinta	yinta
 ajami	ajami ajamin
 aha	aha
+nazarci	nazarci
 azurta	azurta azurtawa
 bahasi	bahasi bahasin
-nazarci	nazarci
 tanka	tankar tanka
 kowai	kowai
 ugh	ugh
 katutu	katutu
-waiwayi	waiwayi
 darewa	darewa darewar darewarsu darewarta
 rikicewa	rikicewa rikicewar rikicewarta
 oak	oak
@@ -3085,7 +3025,6 @@ askirim	askirim
 durowa	durowa durowar
 fasta	fasta
 jekan	jekan
-masoyiyata	masoyiyata
 murmurshi	murmurshi
 naaji	naaji
 shaitani	shaitani
@@ -3105,7 +3044,6 @@ hayyacinta	hayyacinta
 kurciya	kurciya kurciyar kurciyan
 ladabtar	ladabtarwa ladabtar
 cen	cen
-ƙarata	ƙarata
 ta'azzara	ta'azzara
 ƙugi	ƙugi ƙugin
 jakadiya	jakadiya jakadiyar
@@ -3128,7 +3066,6 @@ tukun	tukun
 muggan	muggan
 gajiyawa	gajiyawa gajiyawar
 shahararen	shahararen
-gargaɗe	gargaɗe
 mahaluƙi	mahaluƙi mahaluƙin
 albam	albam
 jimami	jimamin jimami jimaminta
@@ -3141,9 +3078,7 @@ farma	farma
 tarbiyyantar	tarbiyyantar
 gangara	gangara gangaran
 mahaɗa	mahaɗa mahaɗar mahaɗarta
-sakewa	sakewa sakewar sakewarsa
 kwanya	kwanya kwanyar kwanyarsa kwanyarta kwanyarsu
-gwarzuwa	gwarzuwar gwarzuwa gwarzuwan
 hallara	hallara
 kurmi	kurmin kurmi
 sheƙi	sheƙi sheƙin
@@ -3155,7 +3090,6 @@ duriya	duriya duriyarsu duriyar duriyarka duriyarku duriyarta
 tuɓe	tuɓe tuɓewa
 kakkausar	kakkausar kakkausan
 hayayyafa	hayayyafa hayayyafar
-ingantawa	ingantawa ingantawar ingantawarsu
 kwaɓa	kwaɓa
 kaf	kaf
 zarra	zarra
@@ -3166,8 +3100,8 @@ sheda	sheda shedar shedarta
 turmi	turmin turmi
 arangama	arangama arangamar
 maɓuɓɓuga	maɓuɓɓuga maɓuɓɓugar maɓuɓɓugarsa
-harda	harda hardar hardarsa
 makero	makero makeron
+harda	harda hardar hardarsa
 munafunci	munafunci munafuncinsa munafuncin
 barkan	barkan barkanmu
 tsarkaka	tsarkaka tsarkakan tsarkakar
@@ -3175,21 +3109,17 @@ kwaɗaitar	kwaɗaitar kwaɗaitarwa
 casu	casu
 daɓe	daɓen daɓensa daɓe
 cim	cim
-rame	rame ramen
 hayyacinsa	hayyacinsa
+rame	rame ramen
 haɗaɗɗen	haɗaɗɗen
-kwararowa	kwararowa kwararowar
 radar	radar
 falo	falo falon falonsa falonta
 saƙarci	saƙarci saƙarcin
 shuri	shuri shurin shurina
-ƴar'uwata	ƴar'uwata
 bel	bel
 tabarma	tabarma tabarmar tabarmi tabarmarta tabarmansa
-dagewa	dagewa dagewar dagewarta dagewarsa
 barbashi	barbashi barbashin
 tsautsayi	tsautsayi tsautsayin
-jefi	jefi jefe jefewa
 haramci	haramci haramcin haramcinsa haramcinta haramcinsu
 akawu	akawu akawun akawunta
 sahihanci	sahihanci sahihancin sahihancinsa sahihancinta sahihancinsu
@@ -3206,7 +3136,6 @@ dokta	dokta
 naci	naci nacin
 yai	yai
 dubatar	dubatar
-kwararo	kwararo
 kafafa	kafafa kafafan
 biris	biris
 dinari	dinari
@@ -3219,7 +3148,6 @@ takwarorinsa	takwarorinsa
 mabuƙata	mabuƙata mabuƙatan
 ƙasƙanci	ƙasƙanci ƙasƙancin
 nesanta	nesanta nesantar nesantawar
-tallatawa	tallatawa
 magidanta	magidanta
 tauna	tauna taunan
 maya	mayan maya mayana
@@ -3240,20 +3168,20 @@ alfasha	alfasha alfashar
 warwar	warwas wanwar warwar
 ƙyalle	ƙyalle
 biza	biza bizar bizarsa bizana
-atamfa	atamfa atamfar
 ruɗu	ruɗu ruɗun
+atamfa	atamfa atamfar
 munduwa	munduwa munduwar
 ishara	ishara isharar isharori
 ɗumbin	ɗumbin
 laima	laima laimar laimansa
-ɗebo	ɗebo ɗebowa
 samartaka	samartaka samartakarsa samartakata samartakanta samartakar samartakarsu samartakarta
 samame	samame samamen
 er	er
 zoonotic	zoonotic
 sabin	sabin
-makauniya	makauniya makauniyar makauniyata
 gulbi	gulbin gulabe gulbi
+makauniya	makauniya makauniyar makauniyata
+nisance	nisance nisanci nisancin
 con	con
 huh	huh
 cinna	cinna cinnawa
@@ -3264,9 +3192,7 @@ fasikanci	fasikanci fasikancin
 la'antar	la'antar
 huci	huci
 muzuru	muzuru muzurai
-ofishina	ofishina
 gaskanta	gaskanta
-leƙo	leƙo leƙowa
 akidu	akidun akidu akidunsu akidunta
 kashegari	kashegari
 fatattakar	fatattakar fatattakarsu
@@ -3288,11 +3214,7 @@ yaka	yaka
 busar	busar busarwa busarwar
 muguntar	muguntar muguntarsu
 zub	zub
-tsinuwa	tsinuwa tsinuwar tsinuwarta
 tuya	tuya tuyar
-ɗebi	ɗebi
-mahaukaciya	mahaukaciya mahaukaciyar
-hangi	hangi hangin
 gabaki	gabaki
 ƙirƙirarren	ƙirƙirarren
 daida	daida daidan
@@ -3303,8 +3225,8 @@ dandamali	dandamali dandamalin dandamalinta
 tafa	tafawa tafa tafan
 biskit	biskit
 gin	gin
-dandazo	dandazo dandazon
 buta	butar buta butarsa butoci butocin butana
+dandazo	dandazo dandazon
 mujiya	mujiya mujiyoyi mujiyoyin
 guga	guga
 mashawarci	mashawarci mashawarcin mashawarcinsa mashawarcinta
@@ -3319,16 +3241,15 @@ hisabi	hisabi hisabinka
 juye	juye juyewa juyewar
 safofin	safofin
 albishir	albishir
-kaboyi	kaboyi kaboyin
 amarci	amarci amarcinsu amarcin
 fafaroma	fafaroma fafaroman
 gigice	gigice gigicewa
+kaboyi	kaboyi kaboyin
 sakainar	sakainar
 najasa	najasa najasar najasarsu
 suya	suya suyata
 maƙil	maƙil
 ilahirin	ilahirin ilahirinsu
-baƙunta	baƙunta
 sisi	sisi sisin
 baida	baida
 katsalandan	katsalandan
@@ -3355,8 +3276,8 @@ kitsa	kitsa kitsawa
 tulin	tulin
 hani	hani hanin hanina haninsa
 oga	oga ogan ogansu ogar
-kwankwaso	kwankwaso kwankwasonsu kwankwason
 acan	acan
+kwankwaso	kwankwaso kwankwasonsu kwankwason
 ahali	ahali ahalin ahalinsa ahalinta
 kanyi	kanyi
 laya	layar laya layu layun layarsa
@@ -3371,7 +3292,6 @@ fesa	fesa fesawa
 kuwwa	kuwwa kuwwar kuwwata
 tusa	tusa
 caza	caza
-matsu	matsu matsuwa
 minshari	minshari
 ayari	ayarin ayari ayarinsa ayarinmu ayarinsu
 yaƙ	yaƙ
@@ -3384,9 +3304,9 @@ tsinkaya	tsinkaya tsinkayar tsinkayan tsinkayarsu
 waliyyi	waliyyi waliyyai waliyyin waliyyan waliyyinsa waliyyinta waliyyanta
 danƙa	danƙa danƙawa
 ainahi	ainahi ainahin
+tsagera	tsageran tsagera
 kaffara	kaffara kaffarar
 kuli	kuli kulin
-tsagera	tsageran tsagera
 mirgina	mirgina mirginawa
 sakaya	sakaya sakayan
 anga	anga angar
@@ -3418,15 +3338,14 @@ jamusanci	jamusanci jamusancin
 rukuna	rukuna rukunan rukunansa rukunansu
 akafi	akafi akafin
 fantsama	fantsama
-jarumta	jarumta jarumtar jarumtarta jarumtarsu
 laba	laba labarta laban labar labata
+jarumta	jarumta jarumtar jarumtarta jarumtarsu
 taguwa	taguwa taguwar taguwata
 gogagge	gogagge gogaggen gogaggun
 mamatan	mamatan
 kodai	kodai
 ɗimuwa	ɗimuwa ɗimuwar
 tattaɓa	tattaɓa tattaɓawa
-idanuna	idanuna
 nakalto	nakalto
 kwastan	kwastan
 maita	maitan maita maitar maitarmu maitarsu maitarki
@@ -3443,7 +3362,6 @@ tangaran	tangaran
 yanyin	yanyin
 makoki	makoki makokin makokinsa
 faskara	faskara
-ɗan'uwana	ɗan'uwana
 isgili	isgili
 miƙar	miƙar
 sakarai	sakarai sakaran
@@ -3466,7 +3384,6 @@ maciya	maciya maciyar
 maishe	maishe
 beyar	beyar
 keda	keda
-nishaɗantarwa	nishaɗantarwa
 gaira	gaira
 rina	rina
 dina	dina dinar
@@ -3484,7 +3401,6 @@ amo	amo amon amonta
 akace	akace
 tiriliyan	tiriliyan
 zuhudu	zuhudu zuhudun
-dunƙulewa	dunƙulewa dunƙulewar dunƙulewan
 fura	fura furar furata furan furana
 ƙauri	ƙauri ƙaurin
 yoyo	yoyo yoyon
@@ -3493,11 +3409,9 @@ bibbiyu	bibbiyu
 fafitika	fafitika fafitikar fafatukar
 kamasu	kamasu
 tangarda	tangarda
-zubewa	zubewa zubewar
 mashawarta	mashawarta mashawartan mashawartana mashawartansa mashawartar
 kungiyance	kungiyance
 shawartar	shawartar
-sharewa	sharewa sharewar
 baza'a	baza'a
 wajibci	wajibci wajibcin wajibcinsu wajibcinta wajibcinsa
 ƙaiƙayi	ƙaiƙayi ƙaiƙayin
@@ -3545,14 +3459,12 @@ tsintsiya	tsintsiya tsintsiyan
 rura	rura
 kurmus	kurmus
 ƙaƙaba	ƙaƙaba
-shaƙuwa	shaƙuwa shaƙuwar
 watarana	watarana
 ciyaman	ciyaman
 rigaya	rigaya
 safai	safai
 kakkautawa	kakkautawa
 ƙulli	ƙulli ƙullinsa
-ɓallewa	ɓallewa ɓallewar ɓallewarta ɓallewarsu
 gurasa	gurasar gurasa
 alumma	alumma alummar alummarta alummarsa
 baligi	baligi
@@ -3570,15 +3482,15 @@ zikiri	zikirin zikiri
 boka	bokaye boka bokan bokar bokayen
 firar	firar
 halak	halak
-lalura	lalura lalurar
 jaje	jaje jajena jajenmu
+lalura	lalura lalurar
 ankara	ankara
 lauje	lauje
 majigi	majigi majigin
 benaye	benaye benayen benayensu benayenta
+tawakkali	tawakkali tawakkalin
 hamdala	hamdala
 noƙe	noƙe
-tawakkali	tawakkali tawakkalin
 kwala	kwala kwalar kwalan
 kwaya	kwaya kwayan
 hidimtawa	hidimtawa
@@ -3623,7 +3535,6 @@ abinsha	abinsha abinshan
 baiko	baiko baikon baikonsa
 cingam	cingam
 huɗa	huɗa huɗar
-kyamarata	kyamarata
 saku	saku
 tsofi	tsofi tsofin
 ƙaunataccena	ƙaunataccena
@@ -3642,21 +3553,21 @@ riski	riski riskin
 tama	tama tamar taman
 zam	zam
 asma	asma
-mushe	mushen mushe
 cincin	cincin
 fiya	fiya
 gwa	gwa
 shari'ance	shari'ance
 ɓaragurbin	ɓaragurbin
+mushe	mushen mushe
 kolejoji	kolejoji kolejojin
 surah	surah
-tabka	tabka tabkawa
 jamaa	jamaa jamaar jamaan
+tabka	tabka tabkawa
 tsatsa	tsatsa tsatsar tsatsan
 mafitsara	mafitsara mafitsararsa mafitsarar
 talala	talala talalar
-raki	rakin raki
 kurwa	kurwa kurwar kurwarsu
+raki	rakin raki
 ruguza	ruguza ruguzar ruguzawa ruguzawar
 gadara	gadara
 kanu	kanu kanun kanunsa
@@ -3664,8 +3575,8 @@ balla	balla ballanta ballan
 ganau	ganau
 majalissar	majalissar majalissarta
 fenariti	fenariti fenaritin
-fiyayyen	fiyayyen
 alami	alami alamin
+fiyayyen	fiyayyen
 randa	randa randar
 malanta	malanta
 ƙarau	ƙarau
@@ -3701,8 +3612,8 @@ tire	tire tiren
 kumburi	kumburi kumburin
 garu	garun garu garukan
 tsumma	tsumman tsumma
-zafafa	zafafa zafafan zafafanta zafafansa
 fatali	fatali
+zafafa	zafafa zafafan zafafanta zafafansa
 ungozoma	ungozoma
 wawashe	wawashe wawashewa wawashewar
 kwafe	kwafe kwafen kwafenta
@@ -3716,16 +3627,16 @@ dubura	dubura duburarsa duburar duburarta
 gallazawa	gallazawa
 dalma	dalma dalman dalmar
 mutune	mutune
-maƙoshi	maƙoshi
 bakanike	bakanike bakaniken
+maƙoshi	maƙoshi
 rayar	rayar rayarwa
 gwaiwa	gwaiwa gwaiwar
 asubahi	asubahi asubahin
 abaya	abaya abayan
 duma	duma dumame dumamen dumar duman
 gumurzu	gumurzu gumurzun
-dillacin	dillacin
 yarantaka	yarantaka yarantakarsa yarantakar yarantakarsu
+dillacin	dillacin
 fakaice	fakaice
 addua	addua adduar adduarmu
 lakume	lakume
@@ -3763,23 +3674,22 @@ walda	walda
 kofur	kofur
 muƙamuƙi	muƙamuƙina muƙamuƙi muƙamuƙin muƙamuƙinsa
 sifa	sifa sifar sifarsa sifarsu
-muƙala	muƙala muƙalar muƙalarsa muƙalarta
 manhajoji	manhajoji manhajojin
+muƙala	muƙala muƙalar muƙalarsa muƙalarta
 saja	sajan saja
 caka	cakawa caka
 hazaƙa	hazaƙa hazaƙar hazaƙarsa
 buroshi	buroshi buroshin
 limami	limami
 ɓula	ɓula ɓulan ɓulawa
-kafe	kafe
-ƙadangare	ƙadangare ƙadangaren ƙadangaru ƙadangarun
 luguden	luguden
 mahaukata	mahaukata mahaukatan
+ƙadangare	ƙadangare ƙadangaren ƙadangaru ƙadangarun
 warƙa	warƙar warƙoƙi warƙa warƙoƙin
+ƙoda	ƙodar ƙodarsa ƙodoji ƙodan ƙoda
 abarba	abarba
 ƙyanƙyashe	ƙyanƙyashe ƙyanƙyashewa
 kasko	kaskon kasko
-fassarawa	fassarawa
 zawo	zawo zawon
 rini	rini rinin
 araha	araha araharsa
@@ -3796,10 +3706,8 @@ loma	loma lomar
 misalta	misalta misaltawa
 kifa	kifa
 kwalta	kwalta
-ƙoda	ƙodar ƙodarsa ƙodoji ƙodan ƙoda
 dirshan	dirshan
 fat	fat
-nisanci	nisanci nisancin
 daƙiƙi	daƙiƙai daƙiƙin daƙiƙi
 ruɓanya	ruɓanya
 sab	sab
@@ -3815,7 +3723,6 @@ banka	banka bankawa bankan
 ri	ri
 badawa	badawa
 kange	kange
-karɓu	karɓu
 kwatanci	kwatanci kwatancin kwatancinsa
 cinsa	cinsa
 haziƙanci	haziƙanci haziƙancinsu
@@ -3841,20 +3748,18 @@ haɗasu	haɗasu
 maigirma	maigirma
 riɗi	riɗi riɗin
 tsararrakinta	tsararrakinta
-ƙarfina	ƙarfina
-tulu	tulu tulun tuluna tulunan tulunsa
 lallasa	lallasa
-fasadi	fasadi fasadin
-sababi	sababin sababi
+tulu	tulu tulun tuluna tulunan tulunsa
 buzu	buzu
+fasadi	fasadi fasadin
 gudunmowa	gudunmowa gudunmowar
 gwamnatance	gwamnatance
 habo	habo
 halasci	halasci halascin
 iƙrarin	iƙrarin
+sababi	sababin sababi
 yushau	yushau
 ƙanzo	ƙanzon ƙanzo
-marigayiya	marigayiya marigayiyar
 tozo	tozon tozo
 ɓad	ɓad
 aibata	aibata
@@ -3886,8 +3791,8 @@ hamshakan	hamshakan
 karkasa	karkasa
 ambulan	ambulan
 zi	zi zin zinta
-baitulmali	baitulmalin baitulmalinta baitulmali
 tsotse	tsotse tsotsewa
+baitulmali	baitulmalin baitulmalinta baitulmali
 guru	guru guraye gurun
 rasit	rasit rasiɗai
 azahar	azahar
@@ -3904,19 +3809,19 @@ izgili	izgili
 sassake	sassake sassaken
 tunga	tunga tungar tungarta
 alli	alli
-baa	baa
 cirani	cirani ciranin
+baa	baa
 mawa	mawa
 masaƙa	masaƙa masaƙu masaƙan masaƙar masaƙun
 wuski	wuski
-kadari	kadarin kadari
 sardauna	sardaunan sardauna
+kadari	kadarin kadari
 cara	cara caran
+fatake	fatake fataken
 kurege	kurege
 sauda	sauda
-yayanta	yayanta
-fatake	fatake fataken
 shiryayyu	shiryayyu shiryayyun
+yayanta	yayanta
 amosani	amosani amosanin
 ittifaki	ittifaki
 komitin	komitin
@@ -3930,22 +3835,22 @@ salawat	salawat
 waki'a	waki'a waki'ar
 ɗanbaba	ɗanbaba
 haƙ	haƙ
-kuge	kuge kugen
 runfunan	runfunan
 situdiyo	situdiyo situdiyon
 ƙaulin	ƙaulin
+kuge	kuge kugen
 majiyyaci	majiyyaci majiyyacin
 ba'askare	ba'askare askarawa askarawan
 gyambon	gyambon gyambonsu
 himmantu	himmantu himmantuwa
 ikin	ikin
 jarabce	jarabce
-kallabi	kallabi kallabin
 kirata	kirata
 lamunce	lamunce
-sanayya	sanayyar sanayyarsa sanayya sanayyan
 saɗiya	saɗiya
 yanyanka	yanyanka
+kallabi	kallabi kallabin
+sanayya	sanayyar sanayyarsa sanayya sanayyan
 dabanɗaban	dabanɗaban
 dabbaka	dabbaka
 gyra	gyra
@@ -3955,19 +3860,18 @@ mumbari	mumbari mumbarin mumbarinsu
 ta'ammali	ta'ammali
 ba'ayi	ba'ayi
 firdausi	firdausi
-gamsasshe	gamsasshe gamsasshen gamsasshiyar
 jama'ara	jama'ara
 kasheta	kasheta
 lamunci	lamunci
 leburori	leburori
-lekawa	lekawa
 maleriya	maleriya
 munka	munka
 suba	suba
 taje	taje
+gamsasshe	gamsasshe gamsasshen gamsasshiyar
+tattasai	tattasai
 saiwa	saiwar saiwa
 santi	santin santi
-tattasai	tattasai
 shadda	shadda shaddodi
 cibi	cibi
 sassarfa	sassarfa
@@ -3979,8 +3883,8 @@ fi'ili	fi'ili fi'ilai fi'ilin
 satifikat	satifikat satifiket
 galadima	galadima galadiman
 kwarangwal	kwarangwal
-adu	adu adun
 matalauci	matalaucin matalauci
+adu	adu adun
 lasifika	lasifika lasifikar lasifikan lasifikarsa lasifikoki
 bidi'a	bidi'a bidi'o'i bidi'ar bidi'arsu bidi'o'in
 ward	ward
@@ -3990,12 +3894,12 @@ fau	fau fauna
 ha'inci	ha'inci ha'incinsa
 guɗa	guɗar guɗansa guɗa
 ƙissa	ƙissa ƙissar ƙissoshin ƙissoshinsa
+salihi	salihi saliha salihai salihan
 kunama	kunama kunamu
 magariba	magariba
-salihi	salihi saliha salihai salihan
+magarya	magarya magaryar
 maina	maina mainan
 mutuniya	mutuniyar mutuniya
-magarya	magarya magaryar
 tsefe	tsefe
 guna	guna
 duna	duna
@@ -4006,13 +3910,13 @@ ulu	ulu ulun ulunsu
 kabewa	kabewa
 bora	bora borana
 kakani	kakani kakaninta kakaninki
-balas	balas
 sista	sista sistan
+balas	balas
 karshi	karshi karshin
 kofato	kofaton kofato
 zau	zau zaun
-ruɗa	ruɗa ruɗawa
 bunsuru	bunsuru bunsurun
+ruɗa	ruɗa ruɗawa
 sakiya	sakiya sakiyar sakiyarsa
 sidi	sidi
 fufu	fufu
@@ -4023,8 +3927,8 @@ bandeji	bandeji bandejin
 kos	kos
 jikanya	jikanyar jikanyarta jikanya jikanyarsu
 alfadari	alfadari alfadarai alfadarin
-nas	nas
 kife	kife kifewar
+nas	nas
 ƙaraji	ƙaraji ƙarajin
 jimina	jimina jiminar
 soso	soso
@@ -4040,9 +3944,9 @@ kushin	kushin
 mayanka	mayankan mayanka mayankar
 omo	omo
 fis	fis
-marainiya	marainiyar marainiya
 daddawa	daddawa
 hole	holewa hole
+marainiya	marainiyar marainiya
 husufi	husufi husufin
 ƙal	ƙal
 sage	sage
@@ -4064,12 +3968,13 @@ kabeji	kabeji kabejin
 masassaƙi	masassaƙi masassaƙin
 tarakta	tarakta taraktan
 kirfa	kirfa
+yunƙura	yunƙura
 gyale	gyale gyalen gyalenta
 kwalekwale	kwalekwalen kwalekwale
-yunƙura	yunƙura
 sona	sona sonar sonata sonansa sonanta sonan
 waha	waha
 shebur	shebur
+koɗa	koɗa koɗan
 lam	lam
 ragargaza	ragargaza ragargaje
 wanzami	wanzami wanzam wanzamai wanzamin
@@ -4096,19 +4001,19 @@ mujaddadi	mujaddadi
 safi	safi
 sauna	sauna saunarta
 adire	adire
-karimi	karimi kariman karimin
 loko	loko
 mesa	mesa
 mur	mur
 nailan	nailan
 sandal	sandal
+karimi	karimi kariman karimin
 tantabara	tattabara tattabarar tantabara
 ankwa	ankwa
 balan	balan balanta
 jandarma	jandarma
 latas	latas
-sago	sago
 lisha	lisha isha ishan
+sago	sago
 ɗu	ɗu
 ɗawafi	ɗawafin ɗawafi
 aljabara	aljabara

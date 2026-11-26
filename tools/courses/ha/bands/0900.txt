@@ -79,12 +79,12 @@
 79	879	kilomita	kilomita kilomitar
 80	880	manema	manema maneman
 81	881	gurbi	gurbin gurbinsa gurbi gurbinsu gurbinta gurbinka
-82	882	kowanne	kowanne kowaɗanne
+82	882	kowanne	kowanne kowaɗanne kowannensu
 83	883	daɗewa	daɗewa daɗewar
 84	884	tunawa	tunawa tunawar tunawan tunawarsu tunawarta
 85	885	kewaye	kewaye kewayen kewayenta kewayensa kewayensu
 86	886	same	same
-87	887	ofis	ofis ofisoshin ofishinsa ofisoshi ofishinsu ofishinmu ofishinta ofishinka ofisoshinsu ofisoshinta ofisoshinsa offishin
+87	887	ofis	ofis ofisoshin ofishinsa ofisoshi ofishinsu ofishinmu ofishinta ofishinka ofisoshinsu ofisoshinta ofisoshinsa offishin ofishina
 88	888	dinga	dinga
 89	889	kwanciya	kwanciyar kwanciya kwanciyan kwanciyarsu
 90	890	ɗora	ɗora ɗorawa ɗorawan ɗorawar ɗoran

@@ -41,7 +41,7 @@
 41	1441	gilashi	gilashin gilashi gilashinsa gilashinsu gilashinta
 42	1442	tukuna	tukuna tukunna
 43	1443	fasinja	fasinjoji fasinjojin fasinja fasinjojinsa fasinjan
-44	1444	albarkaci	albarkacin albarkaci albarkacinsu albarkacinsa
+44	1444	albarkaci	albarkacin albarkaci albarkacinsu albarkacinsa albarkace
 45	1445	sanata	sanata sanatoci sanatan sanatocin sanatanmu sanatocinmu sanatocinsu sanatarsa
 46	1446	bushe	bushe bushewa bushewar
 47	1447	from	from
@@ -61,10 +61,10 @@
 61	1461	arba'in	arba'in
 62	1462	siyar	siyar siyarsu
 63	1463	bala'i	bala'i bala'in bala'insa bala'o'i bala'o'in
-64	1464	matsa	matsa matse matsawa matsawar matsewa matsewar
+64	1464	matsa	matsa matse matsawa matsawar matsewa matsewar matso matsu matsowa matsuwa matson
 65	1465	hamada	hamada hamadar
 66	1466	ɗinsa	ɗinsa
-67	1467	gaisuwa	gaisuwa gaisuwar gaisuwarsa gaisuwarmu gaisuwarsu gaisuwarta gaisuwata
+67	1467	gaisuwa	gaisuwa gaisuwar gaisuwarsa gaisuwarmu gaisuwarsu gaisuwarta gaisuwata gaisa gaisawa gaisar gaisawar
 68	1468	ƙima	ƙima ƙimar ƙimarsa ƙimarka ƙimarku ƙimarmu ƙimarsu ƙimarki ƙimansa ƙimarta ƙimansu
 69	1469	ragu	ragu ragawa
 70	1470	baje	baje bajon bajo
@@ -90,7 +90,7 @@
 90	1490	ƙarawa	ƙarawa ƙarawar
 91	1491	sabulu	sabulu sabulun
 92	1492	cancanta	cancanta cancantan
-93	1493	maigida	maigidan maigida maigidansa maigidanta maigidanka maigidanmu maigidanku maigidanki maigidansu maigidar
+93	1493	maigida	maigidan maigida maigidansa maigidanta maigidanka maigidanmu maigidanku maigidanki maigidansu maigidar maigidana
 94	1494	daka	daka dakar dakan dakansa
 95	1495	tsabtace	tsabtace tsabtacewar tsabtacewa
 96	1496	oh	oh

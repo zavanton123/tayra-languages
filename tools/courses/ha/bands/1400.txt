@@ -24,7 +24,7 @@
 24	1324	ambaliya	ambaliyar ambaliya ambaliyan
 25	1325	mutun	mutunta mutun
 26	1326	ƙone	ƙone ƙonewa ƙonewar ƙonawa ƙonawar ƙonan
-27	1327	hange	hangen hange hangenka hangensa hangensu
+27	1327	hange	hangen hange hangenka hangensa hangensu hangi hangin
 28	1328	tsire	tsire tsiren tsirensa
 29	1329	sigari	sigari sigarin
 30	1330	suma	suma sumata suman
@@ -64,7 +64,7 @@
 64	1364	bayarwa	bayarwa
 65	1365	ayyana	ayyana ayyanawa
 66	1366	zumunci	zumunci zumuncin zumuncinsu zumuncinta
-67	1367	marigayi	marigayi marigayin
+67	1367	marigayi	marigayi marigayin marigayiya marigayiyar
 68	1368	makoma	makomar makoma makomarsu makomarsa makomarka makomarta makomarmu makomata
 69	1369	alhali	alhali alhalin
 70	1370	raguwa	raguwar raguwa raguwarsa raguwarta

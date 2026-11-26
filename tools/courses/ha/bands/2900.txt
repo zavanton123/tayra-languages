@@ -1,100 +1,100 @@
-1	2801	shugabantar	shugabantar
-2	2802	bankaɗo	bankaɗo bankaɗowa
-3	2803	maudu'i	maudu'i maudu'in
-4	2804	aske	aske askewa
-5	2805	atomatik	atomatik
-6	2806	dillala	dillala dillalan
-7	2807	kololuwa	kololuwa kololuwar kololuwarta kololuwarsa kololuwarsu
-8	2808	kura	kura kurayen kurar kurarmu kuraye
-9	2809	shiryar	shiryar shiryarwa shiryarwar shiryarsa
-10	2810	maɗauri	maɗauri maɗaurin maɗaurinki
-11	2811	gero	gero geron gerona
-12	2812	raunata	raunata
-13	2813	kirtani	kirtani kirtanin
-14	2814	tata	tata tatan
-15	2815	wacece	wacece
-16	2816	salama	salama salaman
-17	2817	washe	washe washewa washewar
-18	2818	ɗebe	ɗebe ɗeben
-19	2819	ɗumama	ɗumama ɗumamar
-20	2820	rangwame	rangwame rangwamen rangwamensu
-21	2821	jabu	jabu jabun
-22	2822	musulunta	musulunta musuluntar musuluntarsa musuluntarsu musuluntarta
-23	2823	hattara	hattara
-24	2824	waiwaya	waiwaya waiwayar waiwayarsa waiwayarsu
-25	2825	mayya	mayya mayyar
-26	2826	karyata	karyata
-27	2827	kayatarwa	kayatarwa
-28	2828	hijra	hijra hijran hijrar
-29	2829	kaguwa	kaguwa kaguwar
-30	2830	karkashe	karkashe
-31	2831	laka	laka lakan lakar lakansu
-32	2832	casa'in	casa'in tis'in
-33	2833	dafi	dafi dafin
-34	2834	jeka	jeka
-35	2835	gudawa	gudawa
-36	2836	fatara	fatara fatarar
-37	2837	ɗaga	ɗaga ɗagawa ɗagan ɗagawar
-38	2838	majina	majina
-39	2839	tayoyi	tayoyi tayoyin tayoyinku tayoyinsa tayoyinsu tayoyinta
-40	2840	shege	shegu shege shegen
-41	2841	haila	haila hailar
-42	2842	anjima	anjima anjiman
-43	2843	gareni	gareni
-44	2844	jiri	jiri
-45	2845	shaidi	shaidi
-46	2846	ta'ada	ta'ada ta'adan
-47	2847	farfadowa	farfadowa farfadowarsa
-48	2848	tururi	tururi tururin tururinsa
-49	2849	tsine	tsine tsinewa
-50	2850	raira	raira
-51	2851	rahusa	rahusa rahusar
-52	2852	madaidaici	madaidaicin madaidaici
-53	2853	karko	karko karkon karkonsa
-54	2854	kanar	kanar
-55	2855	tuhumi	tuhumi
-56	2856	ma'aji	ma'ajin ma'aji ma'ajinsa
-57	2857	shure	shure
-58	2858	sanina	sanina saninan
-59	2859	kasawa	kasawa kasawar kasawarsa
-60	2860	kwaskwarima	kwaskwarima kwaskwarimar
-61	2861	sahibi	sahibi sahabbai sahabbansa sahabban sahiban
-62	2862	gatari	gatari gatarin gatura
-63	2863	akala	akala akalar akalarsa akalarta akalarsu akalanta
-64	2864	maɗaukaki	maɗaukakin maɗaukaki
-65	2865	cif	cif
-66	2866	nufa	nufa
-67	2867	kud	kud
-68	2868	fanka	fanka fankan fankar fankoki
-69	2869	albarkace	albarkace
-70	2870	manne	manne mannewa mannen mannewar
-71	2871	iyakaci	iyakaci iyakacin
-72	2872	ceri	ceri
-73	2873	hamshaƙi	hamshaƙi hamshaƙin
-74	2874	ganima	ganima ganiman ganimar ganimarsu
-75	2875	haifu	haifu
-76	2876	attajira	attajiran attajira attajirar
-77	2877	gu	gu
-78	2878	gangaro	gangaro gangarowa gangarowar
-79	2879	bukka	bukkar bukka bukkoki bukkata bukkokin bukkarsa bukkokinsu
-80	2880	kashedi	kashedin kashedi kashedinku kashedinki
-81	2881	shelanta	shelanta shelantawa
-82	2882	madaidaiciya	madaidaiciya madaidaiciyar
-83	2883	himmatu	himmatu himmatuwa
-84	2884	ƙwandala	ƙwandala ƙwandalan ƙwandalar
-85	2885	gyaru	gyaru gyaruwa
-86	2886	ruɓe	ruɓewa ruɓe ruɓewar ruɓen
-87	2887	canka	canka cankar
-88	2888	fitsara	fitsara
-89	2889	fizza	fizza fizzan
-90	2890	habibua	habibua
-91	2891	krismeti	krismeti
-92	2892	nishandantarwa	nishandantarwa
-93	2893	yanyawa	yanyawa yanyawan
-94	2894	muƙarraba	muƙarraba muƙarraban muƙarrabansa
-95	2895	garambawul	garambawul
-96	2896	maigidana	maigidana
-97	2897	jajanta	jajanta jajantawa
-98	2898	magidanci	magidanci magidancin
-99	2899	farke	farke farkewa
-100	2900	maƙarƙashiya	maƙarƙashiya maƙarƙashiyar maƙarƙashiyarsa maƙarƙashiyan
+1	2801	gareni	gareni
+2	2802	jiri	jiri
+3	2803	ta'ada	ta'ada ta'adan
+4	2804	tururi	tururi tururin tururinsa
+5	2805	raira	raira
+6	2806	rahusa	rahusa rahusar
+7	2807	madaidaici	madaidaicin madaidaici
+8	2808	karko	karko karkon karkonsa
+9	2809	kanar	kanar
+10	2810	tuhume	tuhume tuhumi
+11	2811	ma'aji	ma'ajin ma'aji ma'ajinsa
+12	2812	shure	shure
+13	2813	kasawa	kasawa kasawar kasawarsa
+14	2814	kwaskwarima	kwaskwarima kwaskwarimar
+15	2815	sahibi	sahibi sahabbai sahabbansa sahabban sahiban
+16	2816	gatari	gatari gatarin gatura
+17	2817	akala	akala akalar akalarsa akalarta akalarsu akalanta
+18	2818	maɗaukaki	maɗaukakin maɗaukaki
+19	2819	cif	cif
+20	2820	nufa	nufa
+21	2821	kud	kud
+22	2822	fanka	fanka fankan fankar fankoki
+23	2823	manne	manne mannewa mannen mannewar
+24	2824	iyakaci	iyakaci iyakacin
+25	2825	ceri	ceri
+26	2826	hamshaƙi	hamshaƙi hamshaƙin
+27	2827	ganima	ganima ganiman ganimar ganimarsu
+28	2828	attajira	attajiran attajira attajirar
+29	2829	gu	gu
+30	2830	gangaro	gangaro gangarowa gangarowar
+31	2831	bukka	bukkar bukka bukkoki bukkata bukkokin bukkarsa bukkokinsu
+32	2832	kashedi	kashedin kashedi kashedinku kashedinki
+33	2833	shelanta	shelanta shelantawa
+34	2834	madaidaiciya	madaidaiciya madaidaiciyar
+35	2835	himmatu	himmatu himmatuwa
+36	2836	ƙwandala	ƙwandala ƙwandalan ƙwandalar
+37	2837	ruɓe	ruɓewa ruɓe ruɓewar ruɓen
+38	2838	canka	canka cankar
+39	2839	fitsara	fitsara
+40	2840	fizza	fizza fizzan
+41	2841	habibua	habibua
+42	2842	krismeti	krismeti
+43	2843	nishandantarwa	nishandantarwa
+44	2844	yanyawa	yanyawa yanyawan
+45	2845	muƙarraba	muƙarraba muƙarraban muƙarrabansa
+46	2846	garambawul	garambawul
+47	2847	jajanta	jajanta jajantawa
+48	2848	magidanci	magidanci magidancin
+49	2849	farke	farke farkewa
+50	2850	maƙarƙashiya	maƙarƙashiya maƙarƙashiyar maƙarƙashiyarsa maƙarƙashiyan
+51	2851	tsiya	tsiya tsiyar
+52	2852	cakuɗa	cakuɗa cakuɗawa cakuɗan cakuɗawar
+53	2853	ɗanuwa	ɗanuwa ɗanuwansa ɗanuwanta ɗanuwar
+54	2854	dira	dirar dira diran
+55	2855	madigo	madigo madigon
+56	2856	haifaffiya	haifaffiya haifaffiyar
+57	2857	ƙawata	ƙawata ƙawatawa
+58	2858	karkashi	karkashi karkashinta karkashina karkashinka karkashinmu karkashinku
+59	2859	rake	rake
+60	2860	gwabza	gwabza gwabzawa gwabzar gwabzawar
+61	2861	haja	hajarsa hajar hajarsu hajoji hajojinsu haja hajojin hajansa
+62	2862	ƙiyasi	ƙiyasin ƙiyasi ƙiyasinsa
+63	2863	tsanaki	tsanaki
+64	2864	waraka	waraka warakar
+65	2865	ɓoyayye	ɓoyayyen ɓoyayyar ɓoyayyun ɓoyayya ɓoyayye ɓoyayyensa
+66	2866	falaki	falaki falakin falakinsu
+67	2867	gogayya	gogayya gogayyar
+68	2868	harzuka	harzuka
+69	2869	shela	shela shelar shelarsu shelarsa shelarta
+70	2870	nagartacce	nagartacce nagartaccen nagartattun
+71	2871	hekta	hekta
+72	2872	gaci	gaci gacin
+73	2873	kyalle	kyalle kyallen kyallensa
+74	2874	aje	aje ajewa
+75	2875	wasali	wasali wasula wasalin wasulan wasalinsu
+76	2876	tarɓe	tarɓe tarɓi
+77	2877	tarba	tarba tarɓa tarbar tarbarsa tarbarsu tarɓarsa tarɓarsu
+78	2878	hakimi	hakimai hakimin hakimi hakiminsa hakiminsu hakiman hakimansa hakimansu
+79	2879	alwala	alwala alwalarsa alwalar
+80	2880	mabukaci	mabukata mabukaci mabukatan
+81	2881	doya	doya doyar doyan
+82	2882	inkiya	inkiya inkiyar
+83	2883	mahayi	mahayin mahaya mahayan mahayi mahayansu mahayinsa mahayana
+84	2884	gasasshe	gasasshe gasasshen
+85	2885	zaizaya	zaizaya zaizayar
+86	2886	hankaka	hankaka hankakan
+87	2887	babbaka	babbaka
+88	2888	masinja	masinja masinjan masinjoji
+89	2889	waziri	waziri wazirin wazirinsa wazirai
+90	2890	robot	robot
+91	2891	santsi	santsi santsin
+92	2892	reza	reza rezan
+93	2893	zuci	zuci
+94	2894	ƙage	ƙage ƙagen
+95	2895	fusace	fusace
+96	2896	basarake	basaraken basarake
+97	2897	dambarwa	dambarwar dambarwa
+98	2898	kwarkwata	kwarkwatarsu kwarkwata kwarkwatansu kwarkwatar kwarkwatarmu
+99	2899	gareta	gareta
+100	2900	bears	bears

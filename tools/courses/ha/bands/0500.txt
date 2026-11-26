@@ -1,5 +1,5 @@
 1	401	kanta	kanta kantar kantarki kantarsa kantan kantanka
-2	402	rage	rage
+2	402	rage	rage ragewa ragewar
 3	403	iko	ikon iko ikonsa ikonsu ikonta ikona ikonka ikonmu ikonku
 4	404	waya	waya wayar wayata wayoyin wayarsa wayoyi wayan wayoyinsu wayarta wayarka wayarku wayoyinmu wayana wayarsu wayoyina wayoyinku wayoyinsa wayoyinta
 5	405	naɗa	naɗa naɗe naɗi naɗan naɗawa naɗin naɗinsa naɗinta
@@ -27,7 +27,7 @@
 27	427	wai	wai
 28	428	sauri	sauri saurin saurinsa saurinta saurinsu
 29	429	wacce	wacce waccen
-30	430	iyali	iyali iyalai iyalan iyalinsa iyalin iyalansu iyalansa iyalinta iyalina iyalanka iyalinka iyalanku iyalinsu iyalanta iyalanmu iyalinki iyalinmu iyalanki
+30	430	iyali	iyali iyalai iyalan iyalinsa iyalin iyalansu iyalansa iyalinta iyalina iyalanka iyalinka iyalanku iyalinsu iyalanta iyalanmu iyalinki iyalinmu iyalanki iyalaina
 31	431	taimako	taimakon taimako taimakonsa taimakonsu taimakonka taimakonku taimakona taimakonki taimakonta taimakonmu
 32	432	mayar	mayar mayarwa
 33	433	wadda	wadda waddar
@@ -70,9 +70,9 @@
 70	470	kowace	kowace
 71	471	canza	canza canzan canzawa canjawa canjawar canzawar
 72	472	kotu	kotun kotu kotunan kotuna kotunsa kotunta kotunsu
-73	473	mara	mara maran
+73	473	mara	mara maran marawa
 74	474	tasiri	tasiri tasirin tasirinsa tasirinta tasirinsu tasirinku
-75	475	daina	daina dainawa dainawar
+75	475	daina	daina dainawa dainawar dena
 76	476	wuya	wuya wuyan wuyar wuyansa wuyana wuyansu wuyanta wuyanku wuyata wuyarta wuyarsa wuyanmu wuyoyi wuyoyin
 77	477	zaɓi	zaɓi zaɓin zaɓina zaɓinka zaɓinmu zaɓinsa zaɓinta zaɓinsu zaɓuɓɓukan
 78	478	ƙare	ƙare
@@ -90,7 +90,7 @@
 90	490	fuska	fuska fuskar fuskarsa fuskoki fuskarta fuskokin fuskarki fuskokinsu fuskan fuskata fuskarku fuskarmu fuskarka fuskokinku fuskarsu
 91	491	saba	saba sabata sabar
 92	492	jini	jini jinin jininsa jinina jininta jininmu jininsu jininku
-93	493	ja	ja janye jajayen jajaye janyewa janyewar janyewarsu janyewarta janyewarsa
+93	493	ja	ja janye jajayen jajaye janyewa janyewar janyewarsu janyewarta janyewarsa jar
 94	494	faruwa	faruwa faruwar faruwan faruwansa faruwarsa
 95	495	jarumi	jarumi jarumai jarumin jaruman jaruma jarumar jarumarsa jarumarsu jarumata jarumansu jaruminsa jaruminta jarumaina jarumanmu jarumansa jarumanta jarumarta
 96	496	bashi	bashi bashin bashinsa bashina bashinmu bashinta basussuka basussukan basussukansa basussukanta

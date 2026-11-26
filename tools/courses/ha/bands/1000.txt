@@ -10,7 +10,7 @@
 10	910	kyawawa	kyawawan kyawawa
 11	911	takalmi	takalma takalmin takalmi takalmar takalman takalminsa takalmansa takalminta takalminka takalmansu takalminsu takalmana takalmanka takalmina takalmanta
 12	912	juyi	juyin juyi
-13	913	baƙo	baƙon baƙo baƙonmu baƙonsa baƙonku
+13	913	baƙo	baƙon baƙo baƙonmu baƙonsa baƙonku baƙuwa baƙuwar
 14	914	darasi	darasi darussan darasin darussa darasinsa darussansa darussansu darussanta
 15	915	gunduma	gundumar gunduma gundumarta gundumarsa gundumarsu gunduman gundumarka gundumomi gundumomin gundumominsu gundumominta gundumominsa
 16	916	sauti	sautin sauti sautinsa sautinsu sautinta
@@ -88,8 +88,8 @@
 88	988	watsi	watsi watsin
 89	989	rashawa	rashawa rashawar
 90	990	makamai	makamai
-91	991	matashi	matashi matashin
-92	992	talla	talla tallata tallan tallar tallarsa tallarta tallansa tallanta tallarsu
+91	991	matashi	matashi matashin matashiya matashiyar matashiyarta
+92	992	talla	talla tallata tallan tallar tallarsa tallarta tallansa tallanta tallarsu tallatawa
 93	993	gadi	gadi gadin gadinta gadinsa gadinsu
 94	994	ƙila	ƙila
 95	995	nata	nata

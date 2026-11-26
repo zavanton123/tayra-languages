@@ -1,100 +1,100 @@
-1	3901	izgili	izgili
-2	3902	sassake	sassake sassaken
-3	3903	tunga	tunga tungar tungarta
-4	3904	alli	alli
-5	3905	baa	baa
-6	3906	cirani	cirani ciranin
-7	3907	mawa	mawa
-8	3908	masaƙa	masaƙa masaƙu masaƙan masaƙar masaƙun
-9	3909	wuski	wuski
-10	3910	kadari	kadarin kadari
-11	3911	sardauna	sardaunan sardauna
-12	3912	cara	cara caran
-13	3913	kurege	kurege
-14	3914	sauda	sauda
-15	3915	yayanta	yayanta
-16	3916	fatake	fatake fataken
-17	3917	shiryayyu	shiryayyu shiryayyun
-18	3918	amosani	amosani amosanin
-19	3919	ittifaki	ittifaki
-20	3920	komitin	komitin
-21	3921	matsatsi	matsatsi matsatsin
-22	3922	sadda	sadda saddar
-23	3923	daɗaɗɗiyar	daɗaɗɗiyar
-24	3924	gajiyayyu	gajiyayyu
-25	3925	kududdufi	kududdufi kududdufin
-26	3926	kyamaci	kyamaci
-27	3927	salawat	salawat
-28	3928	waki'a	waki'a waki'ar
-29	3929	ɗanbaba	ɗanbaba
-30	3930	haƙ	haƙ
-31	3931	kuge	kuge kugen
-32	3932	runfunan	runfunan
-33	3933	situdiyo	situdiyo situdiyon
-34	3934	ƙaulin	ƙaulin
-35	3935	majiyyaci	majiyyaci majiyyacin
-36	3936	ba'askare	ba'askare askarawa askarawan
-37	3937	gyambon	gyambon gyambonsu
-38	3938	himmantu	himmantu himmantuwa
-39	3939	ikin	ikin
-40	3940	jarabce	jarabce
-41	3941	kallabi	kallabi kallabin
-42	3942	kirata	kirata
-43	3943	lamunce	lamunce
-44	3944	sanayya	sanayyar sanayyarsa sanayya sanayyan
-45	3945	saɗiya	saɗiya
-46	3946	yanyanka	yanyanka
-47	3947	dabanɗaban	dabanɗaban
-48	3948	dabbaka	dabbaka
-49	3949	gyra	gyra
-50	3950	hazakarsu	hazakarsu
-51	3951	ma'anoninsu	ma'anoninsu
-52	3952	mumbari	mumbari mumbarin mumbarinsu
-53	3953	ta'ammali	ta'ammali
-54	3954	ba'ayi	ba'ayi
-55	3955	firdausi	firdausi
-56	3956	gamsasshe	gamsasshe gamsasshen gamsasshiyar
-57	3957	jama'ara	jama'ara
-58	3958	kasheta	kasheta
-59	3959	lamunci	lamunci
-60	3960	leburori	leburori
-61	3961	lekawa	lekawa
-62	3962	maleriya	maleriya
-63	3963	munka	munka
-64	3964	suba	suba
-65	3965	taje	taje
-66	3966	saiwa	saiwar saiwa
-67	3967	santi	santin santi
-68	3968	tattasai	tattasai
-69	3969	shadda	shadda shaddodi
-70	3970	cibi	cibi
-71	3971	sassarfa	sassarfa
-72	3972	somi	somin somi
-73	3973	yis	yis
-74	3974	fi'ili	fi'ili fi'ilai fi'ilin
-75	3975	ƙorama	ƙorama ƙoramu ƙoramar
-76	3976	ɓaure	ɓaure ɓauren ɓaurensa
-77	3977	satifikat	satifikat satifiket
-78	3978	galadima	galadima galadiman
-79	3979	kwarangwal	kwarangwal
-80	3980	adu	adu adun
-81	3981	matalauci	matalaucin matalauci
-82	3982	lasifika	lasifika lasifikar lasifikan lasifikarsa lasifikoki
-83	3983	bidi'a	bidi'a bidi'o'i bidi'ar bidi'arsu bidi'o'in
-84	3984	ward	ward
-85	3985	hadda	hadda haddar haddan
-86	3986	mawadaci	mawadata mawadatanmu mawadaci mawadatan mawadatar
-87	3987	fau	fau fauna
-88	3988	ha'inci	ha'inci ha'incinsa
-89	3989	guɗa	guɗar guɗansa guɗa
-90	3990	ƙissa	ƙissa ƙissar ƙissoshin ƙissoshinsa
-91	3991	kunama	kunama kunamu
-92	3992	magariba	magariba
-93	3993	salihi	salihi saliha salihai salihan
-94	3994	maina	maina mainan
-95	3995	mutuniya	mutuniyar mutuniya
-96	3996	magarya	magarya magaryar
-97	3997	tsefe	tsefe
-98	3998	guna	guna
-99	3999	duna	duna
-100	4000	haɓe	haɓe haɓen
+1	3901	tsefe	tsefe
+2	3902	guna	guna
+3	3903	duna	duna
+4	3904	haɓe	haɓe haɓen
+5	3905	lafi	lafin lafinsa lafi
+6	3906	bafada	bafada fadawansa fadawarsa bafadan
+7	3907	ulu	ulu ulun ulunsu
+8	3908	kabewa	kabewa
+9	3909	bora	bora borana
+10	3910	kakani	kakani kakaninta kakaninki
+11	3911	sista	sista sistan
+12	3912	balas	balas
+13	3913	karshi	karshi karshin
+14	3914	kofato	kofaton kofato
+15	3915	zau	zau zaun
+16	3916	bunsuru	bunsuru bunsurun
+17	3917	ruɗa	ruɗa ruɗawa
+18	3918	sakiya	sakiya sakiyar sakiyarsa
+19	3919	sidi	sidi
+20	3920	fufu	fufu
+21	3921	rimi	rimi rimin rimaye
+22	3922	lu	lu
+23	3923	gaggafa	gaggafa gaggafar
+24	3924	bandeji	bandeji bandejin
+25	3925	kos	kos
+26	3926	jikanya	jikanyar jikanyarta jikanya jikanyarsu
+27	3927	alfadari	alfadari alfadarai alfadarin
+28	3928	kife	kife kifewar
+29	3929	nas	nas
+30	3930	ƙaraji	ƙaraji ƙarajin
+31	3931	jimina	jimina jiminar
+32	3932	soso	soso
+33	3933	garwashi	garwashi garwashin
+34	3934	wali	wali walin
+35	3935	la'asar	la'asar
+36	3936	soro	soro soron
+37	3937	gwanda	gwanda
+38	3938	ra'i	ra'i ra'in
+39	3939	akara	akara akaran
+40	3940	dorina	dorinar dorina
+41	3941	kushin	kushin
+42	3942	mayanka	mayankan mayanka mayankar
+43	3943	omo	omo
+44	3944	fis	fis
+45	3945	daddawa	daddawa
+46	3946	hole	holewa hole
+47	3947	marainiya	marainiyar marainiya
+48	3948	husufi	husufi husufin
+49	3949	ƙal	ƙal
+50	3950	sage	sage
+51	3951	bahar	bahar
+52	3952	ƙere	ƙere ƙeren
+53	3953	kamfas	kamfas
+54	3954	guma	gumawa guma
+55	3955	hakkan	hakkan
+56	3956	kaska	kaska
+57	3957	kukuma	kukuma
+58	3958	lalaci	lalaci lalacin
+59	3959	matuƙi	matuƙi matuƙinsa
+60	3960	loga	logan loga
+61	3961	aidin	aidin
+62	3962	kanne	kanne
+63	3963	maraƙi	maraƙi maraƙin maruƙa maruƙan maraƙinsa
+64	3964	eriya	eriya eriyar
+65	3965	kabeji	kabeji kabejin
+66	3966	masassaƙi	masassaƙi masassaƙin
+67	3967	tarakta	tarakta taraktan
+68	3968	kirfa	kirfa
+69	3969	yunƙura	yunƙura
+70	3970	gyale	gyale gyalen gyalenta
+71	3971	kwalekwale	kwalekwalen kwalekwale
+72	3972	sona	sona sonar sonata sonansa sonanta sonan
+73	3973	waha	waha
+74	3974	shebur	shebur
+75	3975	koɗa	koɗa koɗan
+76	3976	lam	lam
+77	3977	ragargaza	ragargaza ragargaje
+78	3978	wanzami	wanzami wanzam wanzamai wanzamin
+79	3979	kwarkwasa	kwarkwasa
+80	3980	po	po
+81	3981	sarai	sarai
+82	3982	sitiyari	sitiyarin sitiyari
+83	3983	hama	hama haman
+84	3984	sifiri	sifiri sifirin
+85	3985	sol	sol
+86	3986	alkarya	alkarya alkaryar
+87	3987	feda	feda
+88	3988	tutu	tutu
+89	3989	falle	falle fallen
+90	3990	fartanya	fartanya
+91	3991	kolo	kolo kolon kolona
+92	3992	oza	oza
+93	3993	bushiya	bushiya
+94	3994	gwanki	gwanki gwankin
+95	3995	maa	maa
+96	3996	maiso	maiso maison
+97	3997	mele	mele
+98	3998	mujaddadi	mujaddadi
+99	3999	safi	safi
+100	4000	sauna	sauna saunarta

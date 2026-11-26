@@ -6,7 +6,7 @@
 6	1506	laushi	laushi laushin
 7	1507	arziƙin	arziƙin arziƙi
 8	1508	ɗanɗano	ɗanɗano ɗanɗanon ɗanɗanonsa ɗanɗanonsu ɗanɗanonta
-9	1509	mamba	mamba mamban mambar mambanmu memban mambana mambobina membansa membanta
+9	1509	mamba	mamba mamban mambar mambanmu memban mambana mambobina membansa membanta memba
 10	1510	katanga	katangar katanga katangarsa katangarta
 11	1511	sunyi	sunyi
 12	1512	raga	raga ragar ragan ragarsa
@@ -39,7 +39,7 @@
 39	1539	dubban	dubban
 40	1540	takamaiman	takamaiman takamaimansa takamaimai takamaimain
 41	1541	annoba	annobar annoba annoban annobarta
-42	1542	masoyi	masoyi masoyin masoyina masoyinta masoyinsa masoyinka masoyiya masoyana masoyiyar masoyiyarmu masoyiyarta masoyiyarsa
+42	1542	masoyi	masoyi masoyin masoyina masoyinta masoyinsa masoyinka masoyiya masoyana masoyiyar masoyiyarmu masoyiyarta masoyiyarsa masoyiyata
 43	1543	ingantacce	ingantaccen ingantacce ingantattun ingantacciyar ingantattu ingantacciya
 44	1544	hausa	hausa hausar hausan
 45	1545	faɗo	faɗo
@@ -65,7 +65,7 @@
 65	1565	lu'u	lu'u lu'un lu'unsu
 66	1566	ƙoshi	ƙoshin ƙoshi ƙoshinsu ƙoshinsa
 67	1567	ƙulla	ƙulla ƙullawa ƙullawar
-68	1568	gwarzo	gwarzon gwarzo gwarzona gwarzonmu
+68	1568	gwarzo	gwarzon gwarzo gwarzona gwarzonmu gwarzuwar gwarzuwa gwarzuwan
 69	1569	shimfiɗa	shimfiɗa shimfiɗe shimfiɗawa
 70	1570	ɗaruruwa	ɗaruruwan ɗaruruwa
 71	1571	iyakoki	iyakokin iyakoki iyakokinta iyakokinmu iyakokinsu iyakokinsa

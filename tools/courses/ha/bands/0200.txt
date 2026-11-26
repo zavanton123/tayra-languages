@@ -16,21 +16,21 @@
 16	116	amfani	amfani amfanin amfaninsa amfaninsu amfaninka amfaninmu amfaninta
 17	117	babu	babu babun
 18	118	magana	magana maganar maganganun maganganu maganarsa maganarsu maganan maganarka maganata maganarta maganarmu magananka magananta maganarku maganganunka maganganunsa maganganunsu maganganunmu maganganunta maganansa
-19	119	ji	ji
+19	119	ji	ji jiyo
 20	120	to	to
 21	121	kasance	kasance kasancewata kasancewansa
 22	122	so	so
 23	123	suke	suke
 24	124	mun	mun
 25	125	nuna	nuna nunan nunanta nunar
-26	126	bayyana	bayyana bayyanar bayyanarsa bayyanan bayyanarka bayyanarta bayyanarsu bayyanansu bayyananta bayyanawa baiyana bayyanawar bayyanawarta
+26	126	bayyana	bayyana bayyanar bayyanarsa bayyanan bayyanarka bayyanarta bayyanarsu bayyanansu bayyananta bayyanawa baiyana bayyanawar bayyanawarta bayyanuwar bayyanuwarsa
 27	127	kaya	kayan kaya kayayyakin kayayyaki kayar kayansa kayansu kayana kayanta kayanku kayanmu kayanka kayayyakinsa kayayyakinsu kayayyakinta kayayyakinmu kayanki kayata
 28	128	kawai	kawai
 29	129	yau	yau
 30	130	hankali	hankali hankalin hankulan hankula hankalinsa hankalina hankalinsu hankalinka hankalinta hankalinku hankalinmu hankulansu hankulanmu hankalinki hankulanku hankulansa
 31	131	kyau	kyau kyan kyaun kyansa kyaunsa kyanta kyaunta
 32	132	ɗin	ɗin ɗina ɗinta ɗinsu ɗinmu ɗinku
-33	133	ƙara	ƙara ƙaran ƙarawarsu ƙarawarta ƙarawarsa ƙaruwarta
+33	133	ƙara	ƙara ƙaran ƙarawarsu ƙarawarta ƙarawarsa ƙaruwarta ƙarata
 34	134	shin	shin
 35	135	nema	neman nemi nema neme nemansu nemansa nemanta nemanka nemanku nemawa
 36	136	rayuwa	rayuwa rayuwar rayuwarsa rayuwarsu rayuwata rayuwarta rayuwarka rayuwarmu rayuwarki rayuwarku rayuwan rayuwana rayuwanku rayuwanta
@@ -38,7 +38,7 @@
 38	138	waɗannan	waɗannan
 39	139	kira	kira kiran kiransa kiranta kiransu kiranki kiranka kiranmu kirawa
 40	140	lafiya	lafiya lafiyar lafiyarsu lafiyan lafiyarsa lafiyarku lafiyarka lafiyarta lafiyarki lafiyarmu lafiyata lafiyansu
-41	141	bari	bar bari barin barinsa barinsu barinta barinka barinku
+41	141	bari	bar bari barin barinsa barinsu barinta barinka barinku baro baron baronta
 42	142	yaro	yara yaro yaron yaran yarinyar yaransu yaranta yarana yaransa yaranmu yaronsa yarinyan yaranka yaranku yaronsu yaronka yaranki yarona yaronta yarinyarsu yarinyarsa yarinyarta yarinyata yaƴan yaƴansu
 43	143	akan	akan akanmu akansu akanta akanku akanka
 44	144	ƙarshe	ƙarshe ƙarshen ƙarshenta ƙarshensa ƙarshensu ƙarshenku ƙarshenmu
@@ -47,7 +47,7 @@
 47	147	saura	sauran sauransu saura sauranta sauransa saurar sauranmu
 48	148	sami	sami samin
 49	149	sha	sha shan shansa shanta shansu shanki
-50	150	tunani	tunanin tunani tunaninsa tunaninmu tunaninsu tunaninka tunaninta tunaninki tunaninku tunannin tunanninsa
+50	150	tunani	tunanin tunani tunaninsa tunaninmu tunaninsu tunaninka tunaninta tunaninki tunaninku tunannin tunanninsa tunanina
 51	151	al'umma	al'umma al'ummar al'ummomin al'ummarmu al'ummomi al'ummarsu al'ummarsa al'umman al'ummarta al'ummarka al'ummai al'ummata al'ummominsu al'ummanmu al'ummarki al'ummominmu al'ummominta al'ummarku al'ummanta al'umomin
 52	152	jin	jin
 53	153	yanki	yankin yanki yankunan yankuna yankinsu yankunansu yankinsa yankinta yankinmu yankunanta yankina yankunansa yankunanmu yankinku
@@ -59,7 +59,7 @@
 59	159	uku	uku ukun ukunsu ukku ukkun
 60	160	game	game gamen
 61	161	faɗa	faɗa faɗar faɗan faɗansa faɗarsu faɗarta faɗarka faɗanta faɗowa faɗiwa faɗowar faɗowarsa
-62	162	sani	sani sanin saninsa saninta saninsu saninki saninmu
+62	162	sani	sani sanin saninsa saninta saninsu saninki saninmu sanina saninan
 63	163	gaskiya	gaskiya gaskiyar gaskiyarsa gaskiyan gaskiyarta gaskiyarka gaskiyata gaskiyanka gaskiyarki gaskiyarsu gaskiyarmu
 64	164	hali	halin hali halayen halaye halinsa halayensa halayensu halinsu halayenmu halinta halayenta halinki halinku halayenku halina halayenka halayenki halinka halinmu
 65	165	dole	dole dolen
@@ -77,7 +77,7 @@
 77	177	makaranta	makarantar makaranta makarantu makarantun makarantarmu makarantan makarantarku makarantarsu makarantarsa makarantunsu makarantarka makarantunmu makarantarta makarantansa makarantanta makarantunta makarantansu
 78	178	karatu	karatu karatun karatunsa karatunta karatuna karatunsu karatunmu karatunki karatuttuka karatuttukan karatuttukansa karatuttukansu karatuttukanta
 79	179	cin	cin
-80	180	sannan	sannan sanan
+80	180	sannan	sannan sanan sa'annan
 81	181	haɗa	haɗa haɗawa haɗawar haɗan haɗawan haɗawarsa
 82	182	tsari	tsarin tsari tsarinsa tsarinta tsarinmu tsarinsu tsarinka tsarina tsarinku
 83	183	musamman	musamman musamma

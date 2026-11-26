@@ -1,6 +1,6 @@
 1	1101	azumi	azumi azumin azuminsa azuminta azuminku
 2	1102	ɓaci	ɓacin ɓaci
-3	1103	gargaɗi	gargaɗi gargaɗin gargaɗinsa gargaɗinsu
+3	1103	gargaɗi	gargaɗi gargaɗin gargaɗinsa gargaɗinsu gargaɗe
 4	1104	nuni	nuni nunin nuninsa nuninta
 5	1105	rigakafi	rigakafi rigakafin rigakafinsa rigakafinta
 6	1106	martani	martani martanin martaninsa martaninta martaninsu martanina
@@ -14,7 +14,7 @@
 14	1114	wawa	wawa wawaye wawan wawayen wawarta
 15	1115	samaniya	samaniya samaniyar samaniyan samaniyarsa samaniyarta samaniyata
 16	1116	uba	uba uban ubansa ubansu ubanta ubanmu ubanni ubanninsu ubannin ubana ubanninsa ubanku ubanninmu
-17	1117	rushe	rushe rushen rusa rusawa
+17	1117	rushe	rushe rushen rusa rusawa rushewar rushewa rushewarta rushewarsa
 18	1118	tausayi	tausayi tausayin tausayinsu tausayinmu tausayinta tausayinsa
 19	1119	nahiya	nahiyar nahiya nahiyoyi nahiyoyin nahiyarsu nahiyarmu nahiyoyinta nahiyoyinsu
 20	1120	likitanci	likitancin likitanci likitancinsa likitancinta
@@ -89,7 +89,7 @@
 89	1189	ƙwallaye	ƙwallaye ƙwallayen
 90	1190	agogo	agogo agogon agogona agogonsu agogonsa
 91	1191	ka'idoji	ka'idojin ka'idoji ka'idojinta ka'idojinsu
-92	1192	share	share sharen
+92	1192	share	share sharen sharewa sharewar
 93	1193	banbanci	banbanci banbancin
 94	1194	rataya	rataye rataya ratayawa
 95	1195	madadin	madadin madadinsa madadinmu madadinta madadinsu

@@ -1,100 +1,100 @@
-1	2301	zamanto	zamanto zamto zamantowa
-2	2302	ƙarasa	ƙarasa ƙarasawa
-3	2303	jar	jar
-4	2304	dawwama	dawwama dawwamar dawwamawar
-5	2305	kanjamau	kanjamau kanjamaun
-6	2306	tsaida	tsaida
-7	2307	jingina	jingina
-8	2308	yini	yini yinin
-9	2309	digirgir	digirgir
-10	2310	mari	mari marina marin marinku
-11	2311	rangadi	rangadin rangadi rangadinsa rangadinsu rangadinta
-12	2312	damisa	damisa damisar damisan
-13	2313	garzaya	garzaya garzayawa
-14	2314	leƙa	leƙa leƙan
-15	2315	alawus	alawus
-16	2316	bankwana	bankwana bankwanan
-17	2317	maƙaryaci	maƙaryaci maƙaryacin
-18	2318	wajena	wajena
-19	2319	kwal	kwal
-20	2320	gaisa	gaisa gaisawa gaisar gaisawar
-21	2321	abota	abota abotarku abotarmu abotarsu abotansu abotar abotarsa abotarta
-22	2322	kago	kago kagowa
-23	2323	shimfida	shimfida shimfidar shimfidarsa shimfidarta shimfidan
-24	2324	magabata	magabata magabatanmu magabatansa magabatan magabatansu magabatanta
-25	2325	sarƙaƙiya	sarƙaƙiya sarƙaƙiyar
-26	2326	balaga	balaga balagar balaganta balagarsu
-27	2327	assasa	assasa assasawa
-28	2328	muzahara	muzahara muzaharar muzahararmu
-29	2329	ɗawainiya	ɗawainiyar ɗawainiya ɗawainiyarsu ɗawainiyarta
-30	2330	nishadantar	nishadantar nishadantarwa
-31	2331	mayafi	mayafin mayafi mayafinta mayafina mayafinki mayafinsa mayafinmu
-32	2332	aljan	aljanu aljani aljanun aljanin aljan aljanunsa aljanunsu
-33	2333	lamuni	lamuni lamunin lamuninsa
-34	2334	maguɗi	maguɗi maguɗin
-35	2335	jami'iyya	jami'iyya jami'iyyar jamiyyar jami'iyar jami'iyarsa jami'iyyarsu jamiyyarsa
-36	2336	tsai	tsai tsanka
-37	2337	cafke	cafke
-38	2338	baro	baro baron baronta
-39	2339	rushewa	rushewa rushewar rushewarta rushewarsa
-40	2340	diyya	diyya diyyar
-41	2341	kome	kome komen
-42	2342	kala	kala kalar kalarmu kalarsa kalan kalansu
-43	2343	muslunci	muslunci
-44	2344	daba	daba dabana dabata
-45	2345	damƙe	damƙe damƙa damƙawa
-46	2346	kacokan	kacokan kacokam
-47	2347	karuwanci	karuwanci karuwancinta karuwancinsu karuwancin
-48	2348	tofa	tofa tofar
-49	2349	sumbata	sumbata sumbatar sumbatarka sumbatarta
-50	2350	tantama	tantama tantamar tantaman
-51	2351	tsaf	tsaf
-52	2352	kasu	kasu
-53	2353	azanci	azanci azancin azancinsa azancinsu
-54	2354	sara	sara saran sarar
-55	2355	falala	falala falalar falalarsa
-56	2356	haifaffe	haifaffe haifaffen
-57	2357	sa'i	sa'i sa'in sa'insa
-58	2358	wayyo	wayyo
-59	2359	maƙogoro	maƙogoro maƙogoron
-60	2360	danga	dangana dangogin dangoginsu dangogi dangoginsa dangoginta dangogina dangan danga dangar
-61	2361	salati	salati salatin salatinsa
-62	2362	waina	wainar waina
-63	2363	musguna	musgunawa muzgunawa musguna musgunawar musgunawan
-64	2364	tawada	tawada tawadar tadawa
-65	2365	rawaya	rawaya rawayan rawayar
-66	2366	fifita	fifita
-67	2367	tubali	tubalin tubali tubalan tubala tubalinsa
-68	2368	sifili	sifili sifilin
-69	2369	ƙalubalanci	ƙalubalanci ƙalubalancin
-70	2370	tarho	tarho
-71	2371	tafsiri	tafsirin tafsiri tafsirinka tafsirinsu tafsirinta tafsirinsa
-72	2372	haziƙi	haziƙan haziƙi haziƙai haziƙa haziƙin haziƙar
-73	2373	cakulan	cakulan cakulansa
-74	2374	bayyanuwa	bayyanuwa bayyanuwar bayyanuwarsa
-75	2375	jajibiri	jajibiri jajibirin
-76	2376	aurar	aurar
-77	2377	lillahi	lillahi
-78	2378	tursasa	tursasawa tursasa tursasawar
-79	2379	hanzari	hanzari hanzarin hanzarinsu hanzarinsa
-80	2380	haure	hauren haure
-81	2381	tuntuni	tuntuni tuntunin
-82	2382	ragewa	ragewa ragewar
-83	2383	ƴata	ƴata
-84	2384	tsarkake	tsarkake tsarkakewa tsarkaken tsarkakewar tsarkakewarsa tsarkakewarta
-85	2385	bege	bege begen begensu begenki begensa begena
-86	2386	diddigi	diddigin diddigi diddiginsa diddiginsu diddiginta
-87	2387	ah	ah
-88	2388	ƙurji	ƙuraje ƙurajen ƙurji ƙurjin
-89	2389	kunshi	kunshi kunshin
-90	2390	katafaren	katafaren katafarensa
-91	2391	rassa	rassa rassan rassansa rassanta rassansu rassar rassarsa
-92	2392	tsohuwa	tsohuwa
-93	2393	galihu	galihu
-94	2394	bainar	bainar
-95	2395	na'am	na'am
-96	2396	badaƙala	badaƙala badaƙalar badakala
-97	2397	raji	raji rajin
-98	2398	lulluɓe	lulluɓe lulluɓewa
-99	2399	ficewa	ficewa ficewar ficewarsa ficewarsu ficewarta
-100	2400	layya	layya layyar
+1	2301	ƙarasa	ƙarasa ƙarasawa
+2	2302	dawwama	dawwama dawwamar dawwamawar
+3	2303	kanjamau	kanjamau kanjamaun
+4	2304	jingina	jingina
+5	2305	yini	yini yinin
+6	2306	digirgir	digirgir
+7	2307	mari	mari marina marin marinku
+8	2308	rangadi	rangadin rangadi rangadinsa rangadinsu rangadinta
+9	2309	damisa	damisa damisar damisan
+10	2310	garzaya	garzaya garzayawa
+11	2311	alawus	alawus
+12	2312	bankwana	bankwana bankwanan
+13	2313	maƙaryaci	maƙaryaci maƙaryacin
+14	2314	kwal	kwal
+15	2315	abota	abota abotarku abotarmu abotarsu abotansu abotar abotarsa abotarta
+16	2316	kago	kago kagowa
+17	2317	shimfida	shimfida shimfidar shimfidarsa shimfidarta shimfidan
+18	2318	magabata	magabata magabatanmu magabatansa magabatan magabatansu magabatanta
+19	2319	sarƙaƙiya	sarƙaƙiya sarƙaƙiyar
+20	2320	balaga	balaga balagar balaganta balagarsu
+21	2321	assasa	assasa assasawa
+22	2322	muzahara	muzahara muzaharar muzahararmu
+23	2323	ɗawainiya	ɗawainiyar ɗawainiya ɗawainiyarsu ɗawainiyarta
+24	2324	mayafi	mayafin mayafi mayafinta mayafina mayafinki mayafinsa mayafinmu
+25	2325	aljan	aljanu aljani aljanun aljanin aljan aljanunsa aljanunsu
+26	2326	lamuni	lamuni lamunin lamuninsa
+27	2327	waiwaya	waiwayi waiwaya waiwayar waiwayarsa waiwayarsu
+28	2328	maguɗi	maguɗi maguɗin
+29	2329	jami'iyya	jami'iyya jami'iyyar jamiyyar jami'iyar jami'iyarsa jami'iyyarsu jamiyyarsa
+30	2330	tsai	tsai tsanka
+31	2331	cafke	cafke
+32	2332	diyya	diyya diyyar
+33	2333	kala	kala kalar kalarmu kalarsa kalan kalansu
+34	2334	muslunci	muslunci
+35	2335	daba	daba dabana dabata
+36	2336	damƙe	damƙe damƙa damƙawa
+37	2337	kacokan	kacokan kacokam
+38	2338	karuwanci	karuwanci karuwancinta karuwancinsu karuwancin
+39	2339	tofa	tofa tofar
+40	2340	tantama	tantama tantamar tantaman
+41	2341	tsaf	tsaf
+42	2342	azanci	azanci azancin azancinsa azancinsu
+43	2343	sara	sara saran sarar
+44	2344	falala	falala falalar falalarsa
+45	2345	haifaffe	haifaffe haifaffen
+46	2346	sa'i	sa'i sa'in sa'insa
+47	2347	wayyo	wayyo
+48	2348	maƙogoro	maƙogoro maƙogoron
+49	2349	danga	dangana dangogin dangoginsu dangogi dangoginsa dangoginta dangogina dangan danga dangar
+50	2350	salati	salati salatin salatinsa
+51	2351	waina	wainar waina
+52	2352	musguna	musgunawa muzgunawa musguna musgunawar musgunawan
+53	2353	tawada	tawada tawadar tadawa
+54	2354	rawaya	rawaya rawayan rawayar
+55	2355	fifita	fifita
+56	2356	tubali	tubalin tubali tubalan tubala tubalinsa
+57	2357	sifili	sifili sifilin
+58	2358	ƙalubalanci	ƙalubalanci ƙalubalancin
+59	2359	tarho	tarho
+60	2360	tafsiri	tafsirin tafsiri tafsirinka tafsirinsu tafsirinta tafsirinsa
+61	2361	haziƙi	haziƙan haziƙi haziƙai haziƙa haziƙin haziƙar
+62	2362	cakulan	cakulan cakulansa
+63	2363	jajibiri	jajibiri jajibirin
+64	2364	aurar	aurar
+65	2365	lillahi	lillahi
+66	2366	tursasa	tursasawa tursasa tursasawar
+67	2367	hanzari	hanzari hanzarin hanzarinsu hanzarinsa
+68	2368	haure	hauren haure
+69	2369	tuntuni	tuntuni tuntunin
+70	2370	tsarkake	tsarkake tsarkakewa tsarkaken tsarkakewar tsarkakewarsa tsarkakewarta
+71	2371	bege	bege begen begensu begenki begensa begena
+72	2372	diddigi	diddigin diddigi diddiginsa diddiginsu diddiginta
+73	2373	ah	ah
+74	2374	ƙurji	ƙuraje ƙurajen ƙurji ƙurjin
+75	2375	kunshi	kunshi kunshin
+76	2376	katafaren	katafaren katafarensa
+77	2377	rassa	rassa rassan rassansa rassanta rassansu rassar rassarsa
+78	2378	galihu	galihu
+79	2379	bainar	bainar
+80	2380	na'am	na'am
+81	2381	badaƙala	badaƙala badaƙalar badakala
+82	2382	raji	raji rajin
+83	2383	lulluɓe	lulluɓe lulluɓewa
+84	2384	layya	layya layyar
+85	2385	ƙaunace	ƙaunace ƙaunaci
+86	2386	ramuwa	ramuwar ramuwa ramuwarsa
+87	2387	firaminista	firaministan firaminista firaministar firaministansa firaministanta
+88	2388	ɗaci	ɗaci ɗacinta ɗacin
+89	2389	tsaurara	tsauraran tsaurara tsaurarawa
+90	2390	lema	lema lemar leman lemarka
+91	2391	tak	tak
+92	2392	ƴantar	ƴantar ƴantarwa
+93	2393	dumama	dumama dumamawa
+94	2394	narkar	narkar narkarwa
+95	2395	lahani	lahani lahanin
+96	2396	mahanga	mahangar mahanga mahangarsa
+97	2397	keji	keji kejin
+98	2398	kurket	kurket
+99	2399	hauhawa	hauhawa hauhawar
+100	2400	ƙure	ƙure ƙuren ƙurenka ƙurewa ƙurewar

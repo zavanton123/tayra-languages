@@ -1,100 +1,100 @@
-1	2901	tsiya	tsiya tsiyar
-2	2902	cakuɗa	cakuɗa cakuɗawa cakuɗan cakuɗawar
-3	2903	juyo	juyowa juyo juyowar
-4	2904	ɗanuwa	ɗanuwa ɗanuwansa ɗanuwanta ɗanuwar
-5	2905	dira	dirar dira diran
-6	2906	madigo	madigo madigon
-7	2907	haifaffiya	haifaffiya haifaffiyar
-8	2908	ƙawata	ƙawata ƙawatawa
-9	2909	karkashi	karkashi karkashinta karkashina karkashinka karkashinmu karkashinku
-10	2910	rake	rake
-11	2911	gwabza	gwabza gwabzawa gwabzar gwabzawar
-12	2912	cirewa	cirewa cirewar
-13	2913	haja	hajarsa hajar hajarsu hajoji hajojinsu haja hajojin hajansa
-14	2914	ƙiyasi	ƙiyasin ƙiyasi ƙiyasinsa
-15	2915	tsanaki	tsanaki
-16	2916	matsakaiciya	matsakaiciya matsakaiciyar matsakaiciyarta
-17	2917	waraka	waraka warakar
-18	2918	ɓoyayye	ɓoyayyen ɓoyayyar ɓoyayyun ɓoyayya ɓoyayye ɓoyayyensa
-19	2919	falaki	falaki falakin falakinsu
-20	2920	gogayya	gogayya gogayyar
-21	2921	harzuka	harzuka
-22	2922	shela	shela shelar shelarsu shelarsa shelarta
-23	2923	nagartacce	nagartacce nagartaccen nagartattun
-24	2924	hekta	hekta
-25	2925	gaci	gaci gacin
-26	2926	kyalle	kyalle kyallen kyallensa
-27	2927	aje	aje ajewa
-28	2928	wasali	wasali wasula wasalin wasulan wasalinsu
-29	2929	tarɓe	tarɓe tarɓi
-30	2930	matso	matso matsowa matson
-31	2931	tarba	tarba tarɓa tarbar tarbarsa tarbarsu tarɓarsa tarɓarsu
-32	2932	hakimi	hakimai hakimin hakimi hakiminsa hakiminsu hakiman hakimansa hakimansu
-33	2933	alwala	alwala alwalarsa alwalar
-34	2934	mabukaci	mabukata mabukaci mabukatan
-35	2935	doya	doya doyar doyan
-36	2936	inkiya	inkiya inkiyar
-37	2937	mahayi	mahayin mahaya mahayan mahayi mahayansu mahayinsa mahayana
-38	2938	gasasshe	gasasshe gasasshen
-39	2939	zaizaya	zaizaya zaizayar
-40	2940	hankaka	hankaka hankakan
-41	2941	babbaka	babbaka
-42	2942	masinja	masinja masinjan masinjoji
-43	2943	waziri	waziri wazirin wazirinsa wazirai
-44	2944	robot	robot
-45	2945	santsi	santsi santsin
-46	2946	reza	reza rezan
-47	2947	zuci	zuci
-48	2948	ƙage	ƙage ƙagen
-49	2949	fusace	fusace
-50	2950	basarake	basaraken basarake
-51	2951	dambarwa	dambarwar dambarwa
-52	2952	kwarkwata	kwarkwatarsu kwarkwata kwarkwatansu kwarkwatar kwarkwatarmu
-53	2953	gareta	gareta
-54	2954	bears	bears
-55	2955	kasala	kasala kasalar
-56	2956	damtse	damtse
-57	2957	ziri	ziri zirin
-58	2958	makashi	makashi makashin
-59	2959	ruɗe	ruɗe ruɗewa ruɗewar
-60	2960	munafuki	munafukai munafuki munafukan
-61	2961	rol	rol
-62	2962	ƙayatarwa	ƙayatarwa
-63	2963	rinjayar	rinjayar rinjayarsa rinjayarta
-64	2964	ajanda	ajanda ajandar ajandarsu ajandarta
-65	2965	bakiɗaya	bakiɗaya
-66	2966	zaɓaɓɓu	zaɓaɓɓu zaɓaɓɓun
-67	2967	ɓauna	ɓauna ɓaunar
-68	2968	mafari	mafarin mafari mafarinsa
-69	2969	naƙasu	naƙasu naƙasun
-70	2970	ton	ton
-71	2971	mutuƙar	mutuƙar
-72	2972	tsangaya	tsangayar tsangaya tsangayan
-73	2973	daf	daf
-74	2974	feshi	feshi feshin
-75	2975	zubo	zubo zubowa
-76	2976	kwaɗo	kwaɗo kwaɗi kwaɗon kwaɗin
-77	2977	dausayi	dausayi dausayin
-78	2978	bori	bori borin
-79	2979	email	email
-80	2980	aza	aza azan
-81	2981	diba	diba diban dibanta
-82	2982	rarrabe	rarrabe rarrabewa rarrabewar
-83	2983	auratayya	auratayya auratayyarku auratayyarsu
-84	2984	binsa	binsa
-85	2985	mishan	mishan mishansu
-86	2986	naki	naki nakin
-87	2987	kumbura	kumbura
-88	2988	loda	loda lodawa
-89	2989	aibu	aibu aibi aibin aibun aibunta aibobi
-90	2990	tsageru	tsageru tsagerun
-91	2991	dahu	dahu dahuwa dahuwar
-92	2992	kwaso	kwaso kwason kwasowa
-93	2993	daram	daram
-94	2994	tunzura	tunzura tunzurawa tunzurawar
-95	2995	yinsu	yinsu
-96	2996	sankara	sankarar sankara
-97	2997	takwarorinsu	takwarorinsu
-98	2998	gulma	gulma gulmar gulman
-99	2999	kafirci	kafirci kafircin kafircinsa
-100	3000	bishara	bishara bisharar
+1	2901	kasala	kasala kasalar
+2	2902	damtse	damtse
+3	2903	ziri	ziri zirin
+4	2904	makashi	makashi makashin
+5	2905	ruɗe	ruɗe ruɗewa ruɗewar
+6	2906	munafuki	munafukai munafuki munafukan
+7	2907	rol	rol
+8	2908	ƙayatarwa	ƙayatarwa
+9	2909	rinjayar	rinjayar rinjayarsa rinjayarta
+10	2910	ajanda	ajanda ajandar ajandarsu ajandarta
+11	2911	bakiɗaya	bakiɗaya
+12	2912	zaɓaɓɓu	zaɓaɓɓu zaɓaɓɓun
+13	2913	ɓauna	ɓauna ɓaunar
+14	2914	mafari	mafarin mafari mafarinsa
+15	2915	naƙasu	naƙasu naƙasun
+16	2916	ton	ton
+17	2917	mutuƙar	mutuƙar
+18	2918	tsangaya	tsangayar tsangaya tsangayan
+19	2919	daf	daf
+20	2920	feshi	feshi feshin
+21	2921	kwaɗo	kwaɗo kwaɗi kwaɗon kwaɗin
+22	2922	dausayi	dausayi dausayin
+23	2923	bori	bori borin
+24	2924	email	email
+25	2925	aza	aza azan
+26	2926	diba	diba diban dibanta
+27	2927	rarrabe	rarrabe rarrabewa rarrabewar
+28	2928	auratayya	auratayya auratayyarku auratayyarsu
+29	2929	binsa	binsa
+30	2930	mishan	mishan mishansu
+31	2931	naki	naki nakin
+32	2932	kumbura	kumbura
+33	2933	loda	loda lodawa
+34	2934	aibu	aibu aibi aibin aibun aibunta aibobi
+35	2935	tsageru	tsageru tsagerun
+36	2936	dahu	dahu dahuwa dahuwar
+37	2937	kwaso	kwaso kwason kwasowa
+38	2938	daram	daram
+39	2939	tunzura	tunzura tunzurawa tunzurawar
+40	2940	yinsu	yinsu
+41	2941	sankara	sankarar sankara
+42	2942	takwarorinsu	takwarorinsu
+43	2943	gulma	gulma gulmar gulman
+44	2944	kafirci	kafirci kafircin kafircinsa
+45	2945	bishara	bishara bisharar
+46	2946	fareti	fareti faretin
+47	2947	bargo	bargo bargon barguna bargonta
+48	2948	ɗibar	ɗibar
+49	2949	dagula	dagula dagulawa
+50	2950	fasto	fasto faston
+51	2951	ɓawo	ɓawon ɓawonsa ɓawonta ɓawo ɓawonsu
+52	2952	markaɗa	markaɗa markaɗawa
+53	2953	lale	lale
+54	2954	zu	zu
+55	2955	batare	batare
+56	2956	mashin	mashin
+57	2957	sammaci	sammaci sammacin
+58	2958	kango	kango kangon
+59	2959	rowa	rowa rowan
+60	2960	taɓuka	taɓuka
+61	2961	um	um
+62	2962	musiba	musiba musibar musiban
+63	2963	tawali'u	tawali'u tawali'un
+64	2964	cakuleti	cakuleti cakuletin
+65	2965	gyangyaɗi	gyangyaɗi
+66	2966	jiniya	jiniya jiniyar
+67	2967	kwanto	kwanton kwanto
+68	2968	mashigi	mashigi mashigin
+69	2969	zarto	zaratan zarata zarto
+70	2970	ƙosa	ƙosa ƙosawa
+71	2971	tafasa	tafasa tafasan tafasawa
+72	2972	kaki	kaki kakin kakinsu
+73	2973	ƙananu	ƙananu ƙananun ƙanan
+74	2974	fare	fare faren farensa
+75	2975	mirgine	mirgine mirginewa
+76	2976	kauda	kauda
+77	2977	halal	halal
+78	2978	haƙiƙance	haƙiƙance haƙiƙancewa
+79	2979	cent	cent
+80	2980	jiƙa	jiƙa
+81	2981	ɗimauta	ɗimauta ɗimauce
+82	2982	kunno	kunno kunnowa
+83	2983	kune	kune kunen
+84	2984	fakewa	fakewa fakewar
+85	2985	alhini	alhini alhininsa alhinin alhininsu alhininta
+86	2986	mu'ujiza	mu'ujiza mu'ujizarsa mu'ujizar mu'ujizan mu'ujizansa mu'ujizarta mu'ujizoji
+87	2987	kukis	kukis
+88	2988	zaƙi	zaƙi
+89	2989	nisantar	nisantar nisantarsa
+90	2990	raha	raha rahan
+91	2991	dumi	dumi dumin
+92	2992	daidaici	daidaici daidaicin
+93	2993	afka	afkawa afka afkawar
+94	2994	nafila	nafila nafilfili
+95	2995	fukafukai	fukafukai fukafukansu fukafukan fukafukansa fukafukanta
+96	2996	tacewa	tacewa tacewar
+97	2997	kanwa	kanwa kanwata kanwarka kanwan
+98	2998	kifar	kifar kifarsa
+99	2999	salad	salad
+100	3000	ɗab'i	ɗab'i ɗab'in

@@ -10,7 +10,7 @@
 10	310	harshe	harshen harshe harsuna harsunan harshensu harshensa harsunansu harshenku harshenmu harshena harsunanmu harshenka harshenta harsunansa harsunanta
 11	311	matuƙa	matuƙar matuƙa matuƙan matuƙansa
 12	312	kusan	kusan kusanta
-13	313	ido	ido idanu idon idanun idanunta idanunsa idanunsu idonsa idona idanunka idonta idanunku idonsu idanunki idanunmu idonka idonku idonmu idonki idanuwa idanuwan idanuwanta idanuwansu idanuwansa idanuwanmu
+13	313	ido	ido idanu idon idanun idanunta idanunsa idanunsu idonsa idona idanunka idonta idanunku idonsu idanunki idanunmu idonka idonku idonmu idonki idanuwa idanuwan idanuwanta idanuwansu idanuwansa idanuwanmu idanuna
 14	314	magani	maganin magani magunguna magungunan maganinsu maganinta maganina maganinka maganinsa magungunana magungunansa magungunansu
 15	315	kammala	kammala kammalan kammalawa kammalawarsa kammalawar kammalawarsu
 16	316	shirye	shirye shiryen shiryenta shiryensa shiryensu shiryenmu shiryenka
@@ -35,9 +35,9 @@
 35	335	huɗu	huɗu huɗun
 36	336	ɗaukar	ɗaukar ɗaukarsa ɗaukarsu ɗaukarta ɗaukarka
 37	337	tsoro	tsoron tsoro tsoronsa tsoronsu tsoronku tsoronka tsoronta tsoronmu tsoranta tsoran
-38	338	ɗauka	ɗauka ɗaukan ɗaukansu ɗaukansa ɗaukawar
+38	338	ɗauka	ɗauka ɗaukan ɗaukansu ɗaukansa ɗaukawar daukawa dau
 39	339	labarai	labarai labaran labaranta labaransa labaransu labaranmu labaraina labaranka labaranku
-40	340	gina	gina ginawa ginawar
+40	340	gina	gina ginawa ginawar ginu ginuwar ginuwa ginuwarta
 41	341	gudu	gudu gudun gudunmu gudunsa gudunta
 42	342	riga	riga rigar rigan rigunan riguna rigarka rigarsa rigarta rigata rigunanmu rigunansa rigunansu rigunanta
 43	343	kasuwa	kasuwa kasuwar kasuwannin kasuwanni kasuwan kasuwarsu kasuwanninsu kasuwarmu kasuwanmu kasuwoyi kasuwarta kasuwarsa kasuwanninta kasuwanninmu kasuwanninsa
@@ -52,7 +52,7 @@
 52	352	rahoto	rahoton rahoto rahotanni rahotannin rahotonta rahotonsa rahotanninsa rahotanninsu rahotona rahotonmu rahotonsu rahotanninta rahotan
 53	353	can	can
 54	354	fanni	fannin fannoni fanni fannonin fanninsa fanninta fannoninsu fanin
-55	355	gyara	gyara gyaran gyarar gyararta gyaranta gyaransa gyaransu gyarawa gyarawar
+55	355	gyara	gyara gyaran gyarar gyararta gyaranta gyaransa gyaransu gyarawa gyarawar gyaru gyaruwa
 56	356	kaɗan	kaɗan
 57	357	nufi	nufin nufi nufinsa nufinsu nufinta nufinka nufina
 58	358	misali	misali misalin misalai misalan misalina misalinsa misalinta misalansa misalinsu
@@ -66,7 +66,7 @@
 66	366	gaske	gaske gasken
 67	367	kake	kake kaken
 68	368	hoto	hoton hoto hotunan hotuna hotonsa hotonka hotunanta hotonta hotunansu hotona hotunanka hotunansa hotonsu hotonku
-69	369	haifa	haifar haifa haifan haifarwa haifawa
+69	369	haifa	haifar haifa haifan haifarwa haifawa haifu
 70	370	launi	launin launi launuka launukan launinsa launukansu launinsu launinta launukansa launukanta launukanmu
 71	371	sha'awa	sha'awa sha'awar sha'awarta sha'awarsa sha'awan sha'awarsu sha'awarka sha'awata sha'awarmu
 72	372	dace	dace dacen
@@ -95,6 +95,6 @@
 95	395	zane	zane zanen zanensa zanensu zanenta zanenku
 96	396	amsa	amsa amsar amsoshi amsoshin amsan amsarsa amsarki amsoshinsu amsarka amsarta amsansa amsoshinka amsarsu amsarmu amsoshinsa
 97	397	manufa	manufar manufa manufofin manufofi manufarsa manufofinsa manufarmu manufarta manufofinta manufarka manufan manufarsu manufofinsu manufofinmu manufofinka manufarku manufansa manufofinku manufata
-98	398	shaida	shaida shaidar shaidu shaidan shaidun shaidarsa shaidarka shaidarmu shaidarku shaidarta shaidata shaidarsu shaidansu shaidanta shaidunsa
-99	399	tsaya	tsaya
+98	398	shaida	shaida shaidar shaidu shaidan shaidun shaidarsa shaidarka shaidarmu shaidarku shaidarta shaidata shaidarsu shaidansu shaidanta shaidunsa shaidi
+99	399	tsaya	tsaya tsayuwar tsayuwa tsayuwan tsayuwarka tsayuwarmu tsayuwarsa tsayuwarta tsayuwarsu
 100	400	kwaikwayo	kwaikwayo kwaikwayon kwaikwayonsa kwaikwayonta kwaikwayonsu

@@ -16,7 +16,7 @@
 16	1216	faɗaɗa	faɗaɗa faɗaɗan faɗaɗawa faɗaɗawar
 17	1217	laƙabi	laƙabi laƙabin laƙabinsa laƙabinta laƙabinsu
 18	1218	tuhuma	tuhumar tuhuma tuhumarsa tuhumarta tuhumarsu tuhumanta
-19	1219	tsayar	tsayar tsayarwa
+19	1219	tsayar	tsayar tsayarwa tsaida
 20	1220	zana	zana zanawa zanan
 21	1221	martaba	martaba martabar martaban martabarsu martabarsa martabarmu martabarta martabarka martabata
 22	1222	ɓarna	ɓarna ɓarnar ɓarnanki
@@ -62,12 +62,12 @@
 62	1262	allura	allurar allura alluran allurai
 63	1263	samari	samari samarin samarinki samarinta
 64	1264	cinye	cinye cinyewa cinyewar
-65	1265	ɗan'uwa	ɗan'uwansa ɗan'uwan ɗan'uwa ɗan'uwanta ɗan'uwanka ɗan'uwansu ɗan'uwanmu ɗan'uwar ɗan'uwanku ɗan'uwarsa
+65	1265	ɗan'uwa	ɗan'uwansa ɗan'uwan ɗan'uwa ɗan'uwanta ɗan'uwanka ɗan'uwansu ɗan'uwanmu ɗan'uwar ɗan'uwanku ɗan'uwarsa ɗan'uwana
 66	1266	fashe	fashe fashen
 67	1267	muhawara	muhawara muhawarar muhawaran muhawararsu muhawarori muhawarorin muhawararmu
 68	1268	tashe	tashe tashen
 69	1269	mambobi	mambobin mambobi mambobinta mambobinmu mambobinsu mambobinka mambobinsa
-70	1270	jariri	jaririn jariri jaririnta jaririnka jaririnsu jaririnsa jarirai jariran jariransu
+70	1270	jariri	jaririn jariri jaririnta jaririnka jaririnsu jaririnsa jarirai jariran jariransu jaririya jaririyar jaririyarsu jaririyata jaririyarta
 71	1271	makamashi	makamashi makamashin makamashinta makamashinsu
 72	1272	kasafi	kasafin kasafi kasafinsu
 73	1273	hayaniya	hayaniya hayaniyar
@@ -89,7 +89,7 @@
 89	1289	fitattu	fitattun fitattu fitattunta fitacce fitaccen fitacciyar fitacciya fitacciyarta
 90	1290	saurare	saurare sauraren saurarensu saurarenka saurarenta saurara saurarawa sauraran
 91	1291	ire	ire irena
-92	1292	kasa	kasa kasan kasanta
+92	1292	kasa	kasa kasan kasanta kasu
 93	1293	cibiyoyi	cibiyoyin cibiyoyi cibiyoyinta cibiyoyinsu
 94	1294	shayi	shayi shayin shayinmu shayinta
 95	1295	mayaƙa	mayaƙan mayaƙa mayaƙanta mayaƙansa mayaƙansu

@@ -15,15 +15,15 @@
 15	515	jeri	jerin jeri jerinsa
 16	516	asibiti	asibiti asibitin asibitoci asibitocin asibitocinmu asibitinka asibitocinsu asibitinmu asibitinta asibitinsa asibitocinta
 17	517	imani	imani imanin imaninsa imaninsu imaninka imaninta imaninmu imaninku imanina
-18	518	manta	manta mance mantawa
+18	518	manta	manta mance mantawa mantuwa
 19	519	tarayya	tarayya tarayyar tarayyan tarayyarsa tarayyarsu tarayyarta
 20	520	ƙarni	ƙarni ƙarnuka ƙarnin ƙarnukansu ƙarnina ƙarninsa ƙarninta ƙarnoni ƙarnoninsa ƙarnonin
 21	521	bawa	bawa bayi bayin bawan baiwar bayinsa bawanka baiwarsa bawanta bawanmu baiwarka bayina bayinka bayinku bawata bayinsu bawansa bayinta baiwarta bawanku baiwarsu bawar
 22	522	dariya	dariya dariyar dariyan dariyarki dariyarsa dariyarta
-23	523	muhimmi	muhimman muhimmiyar muhimmin muhimmi muhimmai muhimmiya muhimmanta
+23	523	muhimmi	muhimman muhimmiyar muhimmin muhimmi muhimmai muhimmiya muhimmanta mahimman
 24	524	miliyan	miliyan milliyan
 25	525	digiri	digiri digirin digirinsa digirinta digirinku digirinsu digirina
-26	526	karɓa	karɓar karɓa karɓan karɓansa karɓarta karɓanta karɓo karɓowa karɓawar karɓowar
+26	526	karɓa	karɓar karɓa karɓan karɓansa karɓarta karɓanta karɓo karɓowa karɓawar karɓowar karɓu
 27	527	miƙa	miƙa miƙe miƙawa miƙewa miƙewar
 28	528	dangane	dangane danganen
 29	529	fama	fama famar
@@ -41,7 +41,7 @@
 41	541	dukkanin	dukkanin dukkaninsu dukkaninmu dukkaninku
 42	542	saya	sayi saya sayan sayansu sayanta sayo siyo siye sayawa siyawa sayowa siyen siyowa
 43	543	muƙami	muƙamin muƙamai muƙami muƙaminsa muƙaman muƙamansu muƙaminta muƙaminsu muƙaminka muƙamansa muƙamanta
-44	544	cira	cire cira ciran cirar ciro
+44	544	cira	cire cira ciran cirar ciro cirewa cirewar
 45	545	arewa	arewa arewan arewar arewarmu arewarsa
 46	546	tsara	tsara tsaranka tsaransa tsaran tsaranta tsarawa tsarawar
 47	547	soyayya	soyayya soyayyar soyayyarsu soyayyarta soyayyata soyayyarki soyayyarsa soyayyan soyayyarka soyayyarmu
@@ -93,7 +93,7 @@
 93	593	buri	burin buri burina burinsa burinsu burinta burinku burinmu burinka burinki
 94	594	karɓi	karɓi
 95	595	aiwatar	aiwatar aiwatarwa aiwatarwar aiwatarwan
-96	596	inganta	inganta ingantan
+96	596	inganta	inganta ingantan ingantawa ingantawar ingantawarsu
 97	597	yawo	yawon yawo yawonsu
 98	598	tuna	tuna tuno tunowa tunan
 99	599	cikakke	cikakken cikakke cikakkun cikakku

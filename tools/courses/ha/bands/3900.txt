@@ -1,100 +1,100 @@
-1	3801	daƙiƙi	daƙiƙai daƙiƙin daƙiƙi
-2	3802	ruɓanya	ruɓanya
-3	3803	sab	sab
-4	3804	tsawatarwa	tsawatarwa
-5	3805	zogale	zogale
-6	3806	camfi	camfi camfin
-7	3807	lif	lif
-8	3808	gurɓatacciyar	gurɓatacciyar
-9	3809	shimfidu	shimfidu shimfidun
-10	3810	wabi	wabi
-11	3811	banka	banka bankawa bankan
-12	3812	ƙudurta	ƙudurta
-13	3813	ri	ri
-14	3814	badawa	badawa
-15	3815	kange	kange
-16	3816	karɓu	karɓu
-17	3817	kwatanci	kwatanci kwatancin kwatancinsa
-18	3818	cinsa	cinsa
-19	3819	haziƙanci	haziƙanci haziƙancinsu
-20	3820	iza	iza
-21	3821	sukeyi	sukeyi
-22	3822	wajejen	wajejen
-23	3823	ƙudura	ƙudura
-24	3824	agama	agama
-25	3825	aljannu	aljannu aljannun
-26	3826	aƙasar	aƙasar
-27	3827	birjik	birjik
-28	3828	garaje	garaje garajen
-29	3829	harwayau	harwayau
-30	3830	kaida	kaida
-31	3831	shelkwatar	shelkwatar shelkwatarta
-32	3832	dafaffe	dafaffe dafaffen
-33	3833	tarihance	tarihance
-34	3834	ayin	ayin
-35	3835	barwa	barwa
-36	3836	daidaitacciyar	daidaitacciyar
-37	3837	halas	halas
-38	3838	haɗasu	haɗasu
-39	3839	maigirma	maigirma
-40	3840	riɗi	riɗi riɗin
-41	3841	tsararrakinta	tsararrakinta
-42	3842	ƙarfina	ƙarfina
-43	3843	tulu	tulu tulun tuluna tulunan tulunsa
-44	3844	lallasa	lallasa
-45	3845	fasadi	fasadi fasadin
-46	3846	sababi	sababin sababi
-47	3847	buzu	buzu
-48	3848	gudunmowa	gudunmowa gudunmowar
-49	3849	gwamnatance	gwamnatance
-50	3850	habo	habo
-51	3851	halasci	halasci halascin
-52	3852	iƙrarin	iƙrarin
-53	3853	yushau	yushau
-54	3854	ƙanzo	ƙanzon ƙanzo
-55	3855	marigayiya	marigayiya marigayiyar
-56	3856	tozo	tozon tozo
-57	3857	ɓad	ɓad
-58	3858	aibata	aibata
-59	3859	facaka	facaka
-60	3860	kafur	kafurta kafur
-61	3861	juju	juju jujun
-62	3862	shaci	shaci shacin
-63	3863	fadanci	fadanci
-64	3864	ha'ula'i	ha'ula'i
-65	3865	la'alla	la'alla
-66	3866	marowaci	marowaci
-67	3867	miskini	miskini miskinai
-68	3868	sahur	sahur
-69	3869	sansan	sansan sansanta
-70	3870	yamutsa	yamutse yamutsa yamutsawar
-71	3871	magini	magini maginan maginin magina
-72	3872	jahiliyya	jahiliyya jahiliyyar
-73	3873	nin	nin
-74	3874	eka	eka
-75	3875	cakuɗe	cakuɗe cakuɗen cakuɗewar cakuɗewa
-76	3876	ƙala	ƙala ƙalar ƙalarmu ƙalarsa ƙalansu
-77	3877	gurneti	gurneti
-78	3878	aƙin	aƙin
-79	3879	naƙasassu	naƙasassu naƙasassun
-80	3880	nassi	nassi nassin nassinsa
-81	3881	kasafta	kasafta kasaftawa
-82	3882	malin	malin malinta
-83	3883	hamshakan	hamshakan
-84	3884	karkasa	karkasa
-85	3885	ambulan	ambulan
-86	3886	zi	zi zin zinta
-87	3887	baitulmali	baitulmalin baitulmalinta baitulmali
-88	3888	tsotse	tsotse tsotsewa
-89	3889	guru	guru guraye gurun
-90	3890	rasit	rasit rasiɗai
-91	3891	azahar	azahar
-92	3892	adduna	adduna
-93	3893	waƙafi	waƙafi
-94	3894	tattake	tattake tattakewa tattakewar
-95	3895	tsararre	tsararre tsararren
-96	3896	tunkuɗe	tunkuɗe
-97	3897	mashaidi	mashaidi mashaidin
-98	3898	alkyabba	alkyabba alkyabbar alkyabbarsa
-99	3899	ingarma	ingarman ingarma
-100	3900	birgediya	birgediya birgediyansa
+1	3801	tunkuɗe	tunkuɗe
+2	3802	mashaidi	mashaidi mashaidin
+3	3803	alkyabba	alkyabba alkyabbar alkyabbarsa
+4	3804	ingarma	ingarman ingarma
+5	3805	birgediya	birgediya birgediyansa
+6	3806	izgili	izgili
+7	3807	sassake	sassake sassaken
+8	3808	tunga	tunga tungar tungarta
+9	3809	alli	alli
+10	3810	cirani	cirani ciranin
+11	3811	baa	baa
+12	3812	mawa	mawa
+13	3813	masaƙa	masaƙa masaƙu masaƙan masaƙar masaƙun
+14	3814	wuski	wuski
+15	3815	sardauna	sardaunan sardauna
+16	3816	kadari	kadarin kadari
+17	3817	cara	cara caran
+18	3818	fatake	fatake fataken
+19	3819	kurege	kurege
+20	3820	sauda	sauda
+21	3821	shiryayyu	shiryayyu shiryayyun
+22	3822	yayanta	yayanta
+23	3823	amosani	amosani amosanin
+24	3824	ittifaki	ittifaki
+25	3825	komitin	komitin
+26	3826	matsatsi	matsatsi matsatsin
+27	3827	sadda	sadda saddar
+28	3828	daɗaɗɗiyar	daɗaɗɗiyar
+29	3829	gajiyayyu	gajiyayyu
+30	3830	kududdufi	kududdufi kududdufin
+31	3831	kyamaci	kyamaci
+32	3832	salawat	salawat
+33	3833	waki'a	waki'a waki'ar
+34	3834	ɗanbaba	ɗanbaba
+35	3835	haƙ	haƙ
+36	3836	runfunan	runfunan
+37	3837	situdiyo	situdiyo situdiyon
+38	3838	ƙaulin	ƙaulin
+39	3839	kuge	kuge kugen
+40	3840	majiyyaci	majiyyaci majiyyacin
+41	3841	ba'askare	ba'askare askarawa askarawan
+42	3842	gyambon	gyambon gyambonsu
+43	3843	himmantu	himmantu himmantuwa
+44	3844	ikin	ikin
+45	3845	jarabce	jarabce
+46	3846	kirata	kirata
+47	3847	lamunce	lamunce
+48	3848	saɗiya	saɗiya
+49	3849	yanyanka	yanyanka
+50	3850	kallabi	kallabi kallabin
+51	3851	sanayya	sanayyar sanayyarsa sanayya sanayyan
+52	3852	dabanɗaban	dabanɗaban
+53	3853	dabbaka	dabbaka
+54	3854	gyra	gyra
+55	3855	hazakarsu	hazakarsu
+56	3856	ma'anoninsu	ma'anoninsu
+57	3857	mumbari	mumbari mumbarin mumbarinsu
+58	3858	ta'ammali	ta'ammali
+59	3859	ba'ayi	ba'ayi
+60	3860	firdausi	firdausi
+61	3861	jama'ara	jama'ara
+62	3862	kasheta	kasheta
+63	3863	lamunci	lamunci
+64	3864	leburori	leburori
+65	3865	maleriya	maleriya
+66	3866	munka	munka
+67	3867	suba	suba
+68	3868	taje	taje
+69	3869	gamsasshe	gamsasshe gamsasshen gamsasshiyar
+70	3870	tattasai	tattasai
+71	3871	saiwa	saiwar saiwa
+72	3872	santi	santin santi
+73	3873	shadda	shadda shaddodi
+74	3874	cibi	cibi
+75	3875	sassarfa	sassarfa
+76	3876	somi	somin somi
+77	3877	yis	yis
+78	3878	fi'ili	fi'ili fi'ilai fi'ilin
+79	3879	ƙorama	ƙorama ƙoramu ƙoramar
+80	3880	ɓaure	ɓaure ɓauren ɓaurensa
+81	3881	satifikat	satifikat satifiket
+82	3882	galadima	galadima galadiman
+83	3883	kwarangwal	kwarangwal
+84	3884	matalauci	matalaucin matalauci
+85	3885	adu	adu adun
+86	3886	lasifika	lasifika lasifikar lasifikan lasifikarsa lasifikoki
+87	3887	bidi'a	bidi'a bidi'o'i bidi'ar bidi'arsu bidi'o'in
+88	3888	ward	ward
+89	3889	hadda	hadda haddar haddan
+90	3890	mawadaci	mawadata mawadatanmu mawadaci mawadatan mawadatar
+91	3891	fau	fau fauna
+92	3892	ha'inci	ha'inci ha'incinsa
+93	3893	guɗa	guɗar guɗansa guɗa
+94	3894	ƙissa	ƙissa ƙissar ƙissoshin ƙissoshinsa
+95	3895	salihi	salihi saliha salihai salihan
+96	3896	kunama	kunama kunamu
+97	3897	magariba	magariba
+98	3898	magarya	magarya magaryar
+99	3899	maina	maina mainan
+100	3900	mutuniya	mutuniyar mutuniya

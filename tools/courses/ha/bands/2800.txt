@@ -1,100 +1,100 @@
-1	2701	bijire	bijirewa bijire
-2	2702	fom	fom
-3	2703	masallata	masallatan masallata
-4	2704	hasumiya	hasumiya hasumiyar hasumiyarsa
-5	2705	kalami	kalami kalamin kalaminsa
-6	2706	zunzurutu	zunzurutu zunzurutun
-7	2707	tsangwama	tsangwama tsangwamar
-8	2708	alaƙanta	alaƙanta alaƙantar
-9	2709	zagayawa	zagayawa
-10	2710	raɓa	raɓa raɓar raɓansa raɓanta raɓata
-11	2711	tunanina	tunanina
-12	2712	ƙaryata	ƙaryata ƙaryatawa
-13	2713	fasfo	fasfo fasfonsa fasfon fasfunan fasfonta
-14	2714	zabura	zaburar zabura
-15	2715	zaunar	zaunar
-16	2716	ƙayatar	ƙayatar
-17	2717	taye	taye
-18	2718	hanzarta	hanzarta hanzartawa
-19	2719	juzu'i	juzu'i juzu'in juzu'insa
-20	2720	ishe	ishe
-21	2721	ƙididdige	ƙididdige ƙididdigewa
-22	2722	marmari	marmari marmarin
-23	2723	idda	iddar idda iddanta
-24	2724	danniya	danniya danniyar danniyan danniyarsu danniyata
-25	2725	taƙama	taƙama taƙamar taƙamarta
-26	2726	fil	fil
-27	2727	walet	walet walat
-28	2728	jahili	jahili jahilai jahilan
-29	2729	daftari	daftarin daftari daftarinsa
-30	2730	bulala	bulala bulalar bulalan
-31	2731	aleɗe	aleɗe
-32	2732	kwanu	kwanu kwanun
-33	2733	tanadar	tanadar tanadarwa
-34	2734	bn	bn
-35	2735	summa	summa summan
-36	2736	danshi	danshi danshin danshinsu danshinta
-37	2737	huɗuba	huɗuba huɗubar huɗubarsa
-38	2738	matsoraci	matsoraci matsoracin matsorata
-39	2739	fadama	fadama fadamar fadamu fadaman fadamarsa
-40	2740	rubuto	rubuto rubutowa
-41	2741	larura	larurar larura larurorin
-42	2742	tauhidi	tauhidi tauhidin tauhidinsa
-43	2743	fin	fin
-44	2744	mahauci	mahauta mahauci mahaucin mahautan mahautar
-45	2745	almakashi	almakashi almakashin
-46	2746	kyandir	kyandir kyandirori
-47	2747	magatakarda	magatakarda magatakardar magatakardan
-48	2748	wau	wan wansu wau wansa wanta wauna
-49	2749	ƙoƙo	ƙoƙo ƙoƙon
-50	2750	waɗan	waɗan
-51	2751	girka	girka girkawa girkan girkawar
-52	2752	bulo	bulo bulon bulonsa bulonta
-53	2753	mantuwa	mantuwa
-54	2754	mabuɗi	mabuɗin mabuɗan mabuɗi
-55	2755	musabbabi	musabbabi musabbabin musabbabinsa
-56	2756	tsamiya	tsamiya tsamiyar
-57	2757	aikewa	aikewa
-58	2758	tsiraici	tsiraici tsiraicin tsiraicinmu tsiraicinta tsiraicinsu
-59	2759	guduma	guduma gudumar
-60	2760	yalwata	yalwata
-61	2761	jike	jike jikewa jikewar
-62	2762	garke	garken garke garkensu garkensa
-63	2763	ishirin	ishirin
-64	2764	kwatance	kwatance kwatancen kwatancenta kwatancena
-65	2765	idi	idi idin idinsa
-66	2766	kumfa	kumfa kumfar kumfan
-67	2767	ma'abota	ma'abota ma'abuta ma'abotanta ma'abotansu ma'abotansa
-68	2768	ee	ee
-69	2769	bal	bal
-70	2770	runguma	runguma rungumar rungumarsa rungumarta
-71	2771	hakazalika	hakazalika
-72	2772	alawa	alawa alawar alawarku
-73	2773	shanye	shanye shanyewar shanyewa
-74	2774	cream	cream
-75	2775	kwarjini	kwarjini kwarjinin kwarjininsa kwarjininta
-76	2776	killace	killace killacewa
-77	2777	fosta	fosta fostar
-78	2778	harhaɗa	harhaɗa harhaɗawa
-79	2779	baɗi	baɗi
-80	2780	taliki	talikai taliki talikan talikin
-81	2781	ƙazafi	ƙazafi ƙazafin
-82	2782	farfaganda	farfaganda farfagandar farfagandarsa
-83	2783	yalwa	yalwar yalwa yalwan yalwarsu
-84	2784	gwano	gwanon gwano
-85	2785	zago	zago zagon
-86	2786	rarrafe	rarrafe
-87	2787	almundahana	almundahana almundahanar
-88	2788	barkono	barkono barkonon
-89	2789	awo	awo awon awonta
-90	2790	ɓangaranci	ɓangaranci
-91	2791	sila	silar sila
-92	2792	rumbu	rumbun rumbu rumbuna rumbunan rumbunansa rumbunsa
-93	2793	waƙanda	waƙanda
-94	2794	rikiɗe	rikiɗe rikiɗewa rikiɗewar
-95	2795	fid	fid
-96	2796	kankare	kankare kankarewa
-97	2797	dabaibaye	dabaibaye dabaibayewar
-98	2798	al'adance	al'adance
-99	2799	bebe	bebe bebaye
-100	2800	mumini	muminai mumini
+1	2701	matsoraci	matsoraci matsoracin matsorata
+2	2702	fadama	fadama fadamar fadamu fadaman fadamarsa
+3	2703	larura	larurar larura larurorin
+4	2704	tauhidi	tauhidi tauhidin tauhidinsa
+5	2705	fin	fin
+6	2706	mahauci	mahauta mahauci mahaucin mahautan mahautar
+7	2707	almakashi	almakashi almakashin
+8	2708	kyandir	kyandir kyandirori
+9	2709	magatakarda	magatakarda magatakardar magatakardan
+10	2710	wau	wan wansu wau wansa wanta wauna
+11	2711	ƙoƙo	ƙoƙo ƙoƙon
+12	2712	waɗan	waɗan
+13	2713	girka	girka girkawa girkan girkawar
+14	2714	bulo	bulo bulon bulonsa bulonta
+15	2715	mabuɗi	mabuɗin mabuɗan mabuɗi
+16	2716	musabbabi	musabbabi musabbabin musabbabinsa
+17	2717	tsamiya	tsamiya tsamiyar
+18	2718	tsiraici	tsiraici tsiraicin tsiraicinmu tsiraicinta tsiraicinsu
+19	2719	guduma	guduma gudumar
+20	2720	yalwata	yalwata
+21	2721	jike	jike jikewa jikewar
+22	2722	garke	garken garke garkensu garkensa
+23	2723	ishirin	ishirin
+24	2724	kwatance	kwatance kwatancen kwatancenta kwatancena
+25	2725	idi	idi idin idinsa
+26	2726	kumfa	kumfa kumfar kumfan
+27	2727	ma'abota	ma'abota ma'abuta ma'abotanta ma'abotansu ma'abotansa
+28	2728	ee	ee
+29	2729	bal	bal
+30	2730	runguma	runguma rungumar rungumarsa rungumarta
+31	2731	hakazalika	hakazalika
+32	2732	alawa	alawa alawar alawarku
+33	2733	shanye	shanye shanyewar shanyewa
+34	2734	cream	cream
+35	2735	kwarjini	kwarjini kwarjinin kwarjininsa kwarjininta
+36	2736	killace	killace killacewa
+37	2737	fosta	fosta fostar
+38	2738	harhaɗa	harhaɗa harhaɗawa
+39	2739	taliki	talikai taliki talikan talikin
+40	2740	ƙazafi	ƙazafi ƙazafin
+41	2741	baɗi	baɗi
+42	2742	farfaganda	farfaganda farfagandar farfagandarsa
+43	2743	yalwa	yalwar yalwa yalwan yalwarsu
+44	2744	gwano	gwanon gwano
+45	2745	zago	zago zagon
+46	2746	rarrafe	rarrafe
+47	2747	almundahana	almundahana almundahanar
+48	2748	barkono	barkono barkonon
+49	2749	awo	awo awon awonta
+50	2750	ɓangaranci	ɓangaranci
+51	2751	sila	silar sila
+52	2752	rumbu	rumbun rumbu rumbuna rumbunan rumbunansa rumbunsa
+53	2753	waƙanda	waƙanda
+54	2754	rikiɗe	rikiɗe rikiɗewa rikiɗewar
+55	2755	fid	fid
+56	2756	kankare	kankare kankarewa
+57	2757	dabaibaye	dabaibaye dabaibayewar
+58	2758	al'adance	al'adance
+59	2759	bebe	bebe bebaye
+60	2760	mumini	muminai mumini
+61	2761	shugabantar	shugabantar
+62	2762	bankaɗo	bankaɗo bankaɗowa
+63	2763	maudu'i	maudu'i maudu'in
+64	2764	aske	aske askewa
+65	2765	atomatik	atomatik
+66	2766	dillala	dillala dillalan
+67	2767	kololuwa	kololuwa kololuwar kololuwarta kololuwarsa kololuwarsu
+68	2768	kura	kura kurayen kurar kurarmu kuraye
+69	2769	shiryar	shiryar shiryarwa shiryarwar shiryarsa
+70	2770	maɗauri	maɗauri maɗaurin maɗaurinki
+71	2771	gero	gero geron gerona
+72	2772	raunata	raunata
+73	2773	kirtani	kirtani kirtanin
+74	2774	tata	tata tatan
+75	2775	wacece	wacece
+76	2776	salama	salama salaman
+77	2777	washe	washe washewa washewar
+78	2778	ɗumama	ɗumama ɗumamar
+79	2779	rangwame	rangwame rangwamen rangwamensu
+80	2780	jabu	jabu jabun
+81	2781	musulunta	musulunta musuluntar musuluntarsa musuluntarsu musuluntarta
+82	2782	hattara	hattara
+83	2783	mayya	mayya mayyar
+84	2784	karyata	karyata
+85	2785	kayatarwa	kayatarwa
+86	2786	hijra	hijra hijran hijrar
+87	2787	kaguwa	kaguwa kaguwar
+88	2788	karkashe	karkashe
+89	2789	laka	laka lakan lakar lakansu
+90	2790	casa'in	casa'in tis'in
+91	2791	dafi	dafi dafin
+92	2792	jeka	jeka
+93	2793	gudawa	gudawa
+94	2794	fatara	fatara fatarar
+95	2795	ɗaga	ɗaga ɗagawa ɗagan ɗagawar
+96	2796	majina	majina
+97	2797	tayoyi	tayoyi tayoyin tayoyinku tayoyinsa tayoyinsu tayoyinta
+98	2798	shege	shegu shege shegen
+99	2799	haila	haila hailar
+100	2800	anjima	anjima anjiman

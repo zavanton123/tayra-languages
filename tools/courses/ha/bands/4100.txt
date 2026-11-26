@@ -1,100 +1,41 @@
-1	4001	lafi	lafin lafinsa lafi
-2	4002	bafada	bafada fadawansa fadawarsa bafadan
-3	4003	ulu	ulu ulun ulunsu
-4	4004	kabewa	kabewa
-5	4005	bora	bora borana
-6	4006	kakani	kakani kakaninta kakaninki
-7	4007	balas	balas
-8	4008	sista	sista sistan
-9	4009	karshi	karshi karshin
-10	4010	kofato	kofaton kofato
-11	4011	zau	zau zaun
-12	4012	ruɗa	ruɗa ruɗawa
-13	4013	bunsuru	bunsuru bunsurun
-14	4014	sakiya	sakiya sakiyar sakiyarsa
-15	4015	sidi	sidi
-16	4016	fufu	fufu
-17	4017	rimi	rimi rimin rimaye
-18	4018	lu	lu
-19	4019	gaggafa	gaggafa gaggafar
-20	4020	bandeji	bandeji bandejin
-21	4021	kos	kos
-22	4022	jikanya	jikanyar jikanyarta jikanya jikanyarsu
-23	4023	alfadari	alfadari alfadarai alfadarin
-24	4024	nas	nas
-25	4025	kife	kife kifewar
-26	4026	ƙaraji	ƙaraji ƙarajin
-27	4027	jimina	jimina jiminar
-28	4028	soso	soso
-29	4029	garwashi	garwashi garwashin
-30	4030	wali	wali walin
-31	4031	la'asar	la'asar
-32	4032	soro	soro soron
-33	4033	gwanda	gwanda
-34	4034	ra'i	ra'i ra'in
-35	4035	akara	akara akaran
-36	4036	dorina	dorinar dorina
-37	4037	kushin	kushin
-38	4038	mayanka	mayankan mayanka mayankar
-39	4039	omo	omo
-40	4040	fis	fis
-41	4041	marainiya	marainiyar marainiya
-42	4042	daddawa	daddawa
-43	4043	hole	holewa hole
-44	4044	husufi	husufi husufin
-45	4045	ƙal	ƙal
-46	4046	sage	sage
-47	4047	bahar	bahar
-48	4048	ƙere	ƙere ƙeren
-49	4049	kamfas	kamfas
-50	4050	guma	gumawa guma
-51	4051	hakkan	hakkan
-52	4052	kaska	kaska
-53	4053	kukuma	kukuma
-54	4054	lalaci	lalaci lalacin
-55	4055	matuƙi	matuƙi matuƙinsa
-56	4056	loga	logan loga
-57	4057	aidin	aidin
-58	4058	kanne	kanne
-59	4059	maraƙi	maraƙi maraƙin maruƙa maruƙan maraƙinsa
-60	4060	eriya	eriya eriyar
-61	4061	kabeji	kabeji kabejin
-62	4062	masassaƙi	masassaƙi masassaƙin
-63	4063	tarakta	tarakta taraktan
-64	4064	kirfa	kirfa
-65	4065	gyale	gyale gyalen gyalenta
-66	4066	kwalekwale	kwalekwalen kwalekwale
-67	4067	yunƙura	yunƙura
-68	4068	sona	sona sonar sonata sonansa sonanta sonan
-69	4069	waha	waha
-70	4070	shebur	shebur
-71	4071	lam	lam
-72	4072	ragargaza	ragargaza ragargaje
-73	4073	wanzami	wanzami wanzam wanzamai wanzamin
-74	4074	kwarkwasa	kwarkwasa
-75	4075	po	po
-76	4076	sarai	sarai
-77	4077	sitiyari	sitiyarin sitiyari
-78	4078	hama	hama haman
-79	4079	sifiri	sifiri sifirin
-80	4080	sol	sol
-81	4081	alkarya	alkarya alkaryar
-82	4082	feda	feda
-83	4083	tutu	tutu
-84	4084	falle	falle fallen
-85	4085	fartanya	fartanya
-86	4086	kolo	kolo kolon kolona
-87	4087	oza	oza
-88	4088	bushiya	bushiya
-89	4089	gwanki	gwanki gwankin
-90	4090	maa	maa
-91	4091	maiso	maiso maison
-92	4092	mele	mele
-93	4093	mujaddadi	mujaddadi
-94	4094	safi	safi
-95	4095	sauna	sauna saunarta
-96	4096	adire	adire
-97	4097	karimi	karimi kariman karimin
-98	4098	loko	loko
-99	4099	mesa	mesa
-100	4100	mur	mur
+1	4001	adire	adire
+2	4002	loko	loko
+3	4003	mesa	mesa
+4	4004	mur	mur
+5	4005	nailan	nailan
+6	4006	sandal	sandal
+7	4007	karimi	karimi kariman karimin
+8	4008	tantabara	tattabara tattabarar tantabara
+9	4009	ankwa	ankwa
+10	4010	balan	balan balanta
+11	4011	jandarma	jandarma
+12	4012	latas	latas
+13	4013	lisha	lisha isha ishan
+14	4014	sago	sago
+15	4015	ɗu	ɗu
+16	4016	ɗawafi	ɗawafin ɗawafi
+17	4017	aljabara	aljabara
+18	4018	arne	arne
+19	4019	bika	bika bikan
+20	4020	bura	bura burana
+21	4021	kaigama	kaigama
+22	4022	kampani	kampanin kampani
+23	4023	marke	marke
+24	4024	mena	mena
+25	4025	miski	miski
+26	4026	rariya	rariya rariyar
+27	4027	rema	rema
+28	4028	zik	zik
+29	4029	ɗim	ɗim
+30	4030	maƙura	maƙura maƙurar maƙuran
+31	4031	coi	coin coi
+32	4032	cura	cura
+33	4033	gato	gato
+34	4034	halwa	halwa
+35	4035	keso	keso keson
+36	4036	liba	liban liba libar
+37	4037	lori	lori
+38	4038	sabga	sabga sabgar
+39	4039	tunku	tunku
+40	4040	uda	uda
+41	4041	ƙuma	ƙuma ƙumar ƙuman

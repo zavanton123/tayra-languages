@@ -1,100 +1,100 @@
-1	2401	ƙaunace	ƙaunace ƙaunaci
-2	2402	ramuwa	ramuwar ramuwa ramuwarsa
-3	2403	firaminista	firaministan firaminista firaministar firaministansa firaministanta
-4	2404	ɗaci	ɗaci ɗacinta ɗacin
-5	2405	tsaurara	tsauraran tsaurara tsaurarawa
-6	2406	lema	lema lemar leman lemarka
-7	2407	tak	tak
-8	2408	ƴantar	ƴantar ƴantarwa
-9	2409	dumama	dumama dumamawa
-10	2410	narkar	narkar narkarwa
-11	2411	lahani	lahani lahanin
-12	2412	mahanga	mahangar mahanga mahangarsa
-13	2413	keji	keji kejin
-14	2414	kurket	kurket
-15	2415	hauhawa	hauhawa hauhawar
-16	2416	bariki	barikin bariki barikinsu barikinmu barikinta
-17	2417	tsayayye	tsayayyen tsayayye
-18	2418	kafet	kafet
-19	2419	gunaguni	gunaguni gunagunin
-20	2420	sassafe	sassafe
-21	2421	famfo	famfo fanfo famfon famfona fanfon
-22	2422	kitse	kitse kitsen singular
-23	2423	mabambanta	mabambanta mabambantan
-24	2424	manjo	manjo manja manjoji
-25	2425	lacca	lacca laccoci laccar laccocin laccocinsa laccocinta laccarsa laccansa laccarsu laccarta laccata laccocinsu
-26	2426	haye	haye hayewa hayewar
-27	2427	zaitun	zaitun
-28	2428	madafun	madafun
-29	2429	alaihi	alaihi alaihin
-30	2430	sanyaya	sanyaya sanyayawa
-31	2431	danganci	danganci
-32	2432	makafi	makafi makafin
-33	2433	giɓi	giɓin giɓi
-34	2434	alƙibla	alƙiblar alƙibla alƙiblarmu alƙiblarsu alƙiblarsa
-35	2435	jadawali	jadawalin jadawali jadawalinsa jadawalinta jadawalinsu
-36	2436	hurumi	hurumi hurumin huruminka huruminta huruminsa
-37	2437	gunki	gumakan gumaka gunkin gunki gumakansu gunkinsa gunkinta gumakanku gumakansa gunkinsu
-38	2438	shark	shark
-39	2439	ajali	ajalinsa ajalin ajalinta ajalinsu ajali ajalinka
-40	2440	cake	cake
-41	2441	zaɓaɓɓe	zaɓaɓɓe zaɓaɓɓen
-42	2442	sarƙa	sarƙoƙi sarƙata sarƙar sarƙa sarƙoƙin sarƙan
-43	2443	marawa	marawa
-44	2444	gamayya	gamayya gamayyar
-45	2445	haramtacciya	haramtacciya haramtacciyar
-46	2446	fayil	fayil fayilolin fayilolinsa
-47	2447	inabi	inabi inabin inabinsa
-48	2448	gabaci	gabacin gabaci
-49	2449	ciza	cije ciji ciza cizawa cizan
-50	2450	nausa	nausa naushi nausawa nausawar
-51	2451	gaskata	gaskata gaskatawa gaskatawar
-52	2452	gajimare	gajimare gajimaren
-53	2453	wadatattu	wadatattu wadatattun
-54	2454	madanni	madanni madannin
-55	2455	bijiro	bijiro bijirowa
-56	2456	kewaya	kewaya kewayawa kewayan kewayansa kewayawar kewayar kewayarsa kewayarta kewayawarta
-57	2457	makare	makare
-58	2458	wow	wow
-59	2459	haɗaɗɗiya	haɗaɗɗiya haɗaɗɗiyar
-60	2460	raɗa	raɗa raɗawa
-61	2461	wiwi	wiwi
-62	2462	bamuwa	bamuwa
-63	2463	furodusa	furodusa furodusan furodusansa furodusar
-64	2464	mahalicci	mahalicci mahaliccin mahaliccinsu mahaliccina mahaliccinmu mahaliccinta mahaliccinsa mahaliccinka
-65	2465	haɗiye	haɗiye haɗiyewa
-66	2466	fuka	fuka fukar
-67	2467	tunkiya	tumaki tunkiya tumakinsa tumakin tumakinsu
-68	2468	raini	raini rainin
-69	2469	kullu	kullu
-70	2470	kamala	kamala kamalar kamalarsa
-71	2471	manhaja	manhajar manhaja manhajan manhajarta
-72	2472	hadaya	hadaya hadayar hadayan hadayarsa
-73	2473	zuzzurfa	zuzzurfa zurfafa zuzzurfan zurfafan
-74	2474	karuwai	karuwai
-75	2475	girbi	girbi girbin girbinsu
-76	2476	mahalli	mahallin mahalli mahallinsu mahallinsa mahallinta mahallinmu
-77	2477	sukai	sukai
-78	2478	murmure	murmurewa murmure murmurewarsa murmurewar murmurewarta
-79	2479	kiyashi	kiyashi kiyashin
-80	2480	sumba	sumba sumbarta sumbanta
-81	2481	ɓaraka	ɓaraka ɓarakar ɓarakarsu
-82	2482	tuntuɓe	tuntuɓe tuntuɓen
-83	2483	turba	turbar turba turban
-84	2484	ƙure	ƙure ƙuren ƙurenka
-85	2485	tir	tir
-86	2486	naku	naku
-87	2487	tsawaita	tsawaita tsawaitawa tsawaitar tsawaitawar
-88	2488	gumi	gumi gumin gumina
-89	2489	cak	cak
-90	2490	ayaba	ayaba ayabar
-91	2491	tumatir	tumatir tumatur
-92	2492	tarnaƙi	tarnaƙi tarnaƙin
-93	2493	keɓance	keɓance keɓancewa keɓanta keɓancewar keɓantawa keɓantawar keɓancewarsa keɓantar
-94	2494	wasiyya	wasiyya wasiyyar wasiyyarsa wasiyyansa wasiyyata wasiyyarta wasiyyarsu wasiyyan
-95	2495	rance	rance rancen rancensa
-96	2496	tururuwa	tururuwa tururuwar tururuwan
-97	2497	tabarau	tabarau tabaransa tabaran
-98	2498	makawa	makawa
-99	2499	acid	acid
-100	2500	tsafi	tsafi tsafin
+1	2401	bariki	barikin bariki barikinsu barikinmu barikinta
+2	2402	tsayayye	tsayayyen tsayayye
+3	2403	kafet	kafet
+4	2404	gunaguni	gunaguni gunagunin
+5	2405	sassafe	sassafe
+6	2406	tsine	tsine tsinuwa tsinuwar tsinewa tsinuwarta
+7	2407	famfo	famfo fanfo famfon famfona fanfon
+8	2408	kitse	kitse kitsen singular
+9	2409	mabambanta	mabambanta mabambantan
+10	2410	manjo	manjo manja manjoji
+11	2411	lacca	lacca laccoci laccar laccocin laccocinsa laccocinta laccarsa laccansa laccarsu laccarta laccata laccocinsu
+12	2412	haye	haye hayewa hayewar
+13	2413	zaitun	zaitun
+14	2414	madafun	madafun
+15	2415	alaihi	alaihi alaihin
+16	2416	sanyaya	sanyaya sanyayawa
+17	2417	danganci	danganci
+18	2418	makafi	makafi makafin
+19	2419	giɓi	giɓin giɓi
+20	2420	alƙibla	alƙiblar alƙibla alƙiblarmu alƙiblarsu alƙiblarsa
+21	2421	jadawali	jadawalin jadawali jadawalinsa jadawalinta jadawalinsu
+22	2422	hurumi	hurumi hurumin huruminka huruminta huruminsa
+23	2423	gunki	gumakan gumaka gunkin gunki gumakansu gunkinsa gunkinta gumakanku gumakansa gunkinsu
+24	2424	shark	shark
+25	2425	ajali	ajalinsa ajalin ajalinta ajalinsu ajali ajalinka
+26	2426	cake	cake
+27	2427	zaɓaɓɓe	zaɓaɓɓe zaɓaɓɓen
+28	2428	sarƙa	sarƙoƙi sarƙata sarƙar sarƙa sarƙoƙin sarƙan
+29	2429	gamayya	gamayya gamayyar
+30	2430	haramtacciya	haramtacciya haramtacciyar
+31	2431	fayil	fayil fayilolin fayilolinsa
+32	2432	inabi	inabi inabin inabinsa
+33	2433	gabaci	gabacin gabaci
+34	2434	ciza	cije ciji ciza cizawa cizan
+35	2435	nausa	nausa naushi nausawa nausawar
+36	2436	gaskata	gaskata gaskatawa gaskatawar
+37	2437	gajimare	gajimare gajimaren
+38	2438	wadatattu	wadatattu wadatattun
+39	2439	madanni	madanni madannin
+40	2440	bijiro	bijiro bijirowa
+41	2441	kewaya	kewaya kewayawa kewayan kewayansa kewayawar kewayar kewayarsa kewayarta kewayawarta
+42	2442	makare	makare
+43	2443	wow	wow
+44	2444	haɗaɗɗiya	haɗaɗɗiya haɗaɗɗiyar
+45	2445	raɗa	raɗa raɗawa
+46	2446	wiwi	wiwi
+47	2447	bamuwa	bamuwa
+48	2448	furodusa	furodusa furodusan furodusansa furodusar
+49	2449	mahalicci	mahalicci mahaliccin mahaliccinsu mahaliccina mahaliccinmu mahaliccinta mahaliccinsa mahaliccinka
+50	2450	haɗiye	haɗiye haɗiyewa
+51	2451	fuka	fuka fukar
+52	2452	tunkiya	tumaki tunkiya tumakinsa tumakin tumakinsu
+53	2453	raini	raini rainin
+54	2454	kullu	kullu
+55	2455	kamala	kamala kamalar kamalarsa
+56	2456	manhaja	manhajar manhaja manhajan manhajarta
+57	2457	hadaya	hadaya hadayar hadayan hadayarsa
+58	2458	zuzzurfa	zuzzurfa zurfafa zuzzurfan zurfafan
+59	2459	karuwai	karuwai
+60	2460	girbi	girbi girbin girbinsu
+61	2461	mahalli	mahallin mahalli mahallinsu mahallinsa mahallinta mahallinmu
+62	2462	murmure	murmurewa murmure murmurewarsa murmurewar murmurewarta
+63	2463	kiyashi	kiyashi kiyashin
+64	2464	ɓaraka	ɓaraka ɓarakar ɓarakarsu
+65	2465	tuntuɓe	tuntuɓe tuntuɓen
+66	2466	turba	turbar turba turban
+67	2467	tir	tir
+68	2468	naku	naku
+69	2469	tsawaita	tsawaita tsawaitawa tsawaitar tsawaitawar
+70	2470	gumi	gumi gumin gumina
+71	2471	cak	cak
+72	2472	ayaba	ayaba ayabar
+73	2473	tumatir	tumatir tumatur
+74	2474	tarnaƙi	tarnaƙi tarnaƙin
+75	2475	keɓance	keɓance keɓancewa keɓanta keɓancewar keɓantawa keɓantawar keɓancewarsa keɓantar
+76	2476	wasiyya	wasiyya wasiyyar wasiyyarsa wasiyyansa wasiyyata wasiyyarta wasiyyarsu wasiyyan
+77	2477	tururuwa	tururuwa tururuwar tururuwan
+78	2478	tabarau	tabarau tabaransa tabaran
+79	2479	makawa	makawa
+80	2480	acid	acid
+81	2481	tsafi	tsafi tsafin
+82	2482	gaɓoɓi	gaɓoɓi gaɓoɓin gaɓoɓinsa gaɓoɓinsu gaɓoɓinta
+83	2483	kibiya	kibiya kibiyar kibau kibiyoyi kibiyoyin
+84	2484	sallam	sallam
+85	2485	ƙundu	ƙundu ƙundun
+86	2486	tafarnuwa	tafarnuwa tafarnuwan tafarnuwar
+87	2487	baranda	baranda barandansu barandar barandan
+88	2488	tuffa	tuffa tuffar tuffan
+89	2489	cuku	cuku cukun
+90	2490	hatimi	hatimin hatimi hatiminsa
+91	2491	kilo	kilo
+92	2492	kambu	kambu kambun kambunta kambunsa kambunsu
+93	2493	kansar	kansar
+94	2494	yaƙini	yaƙinin yaƙini
+95	2495	firist	firist
+96	2496	meye	meye meyen
+97	2497	atisaye	atisayen atisaye
+98	2498	mulka	mulka mulkar mulke mulkarsu mulkarta mulkan
+99	2499	tef	tef
+100	2500	baiti	baiti baitin baitocin baitoci baitocinsa baitina baitinta

@@ -38,8 +38,8 @@
 38	1838	samfur	samfuran samfur samfuransa samfuransu samfuranta
 39	1839	alƙalami	alƙaluma alƙaluman alƙalami alƙalamina alƙalamin alƙalumansu alƙalaminsa alƙalaminta alƙalaminka alƙalumansa
 40	1840	inshora	inshora inshorar inshoran
-41	1841	aike	aike aiken aikensa
-42	1842	danna	danna dannawa dannawar
+41	1841	aike	aike aiken aikensa aikewa
+42	1842	danna	danna dannawa dannawar danne dannewa dannen
 43	1843	ragama	ragamar ragama ragamarsa ragamarsu ragamarta ragaman
 44	1844	lasisi	lasisin lasisi lasisinsa lasisinta lasisinsu
 45	1845	cunkoso	cunkoson cunkoso
@@ -51,7 +51,7 @@
 51	1851	kamanni	kamani kamanni kamannin kamanninsa kamanninsu kamanninta kamanin kamannina kamaninsa kamaninta
 52	1852	taruwa	taruka tarukan taruwa tarukansu taruwar taruwarmu tarukanta
 53	1853	leɓe	leɓe leɓen leɓunansa laɓɓanta leɓena leɓensa leɓensu leɓunansu leɓuna leɓunan laɓɓa laɓɓan laɓɓansu leɓunanta
-54	1854	shaƙa	shaƙar shaƙa shaƙe shaƙan shaƙewa shaƙewar
+54	1854	shaƙa	shaƙar shaƙa shaƙe shaƙan shaƙewa shaƙewar shaƙuwa shaƙuwar
 55	1855	majami'a	majami'a majami'an majami'u majami'ar majami'un majami'unsu majami'arta majami'arsa majami'arsu
 56	1856	uwargida	uwargidan uwargida uwargidansa uwargidanta uwargidar uwargidata uwargidanmu
 57	1857	albasa	albasa albasar
@@ -91,7 +91,7 @@
 91	1891	tsiro	tsirrai tsiro tsirran tsiron tsironta
 92	1892	ƙiyayya	ƙiyayya ƙiyayyar ƙiyayyarsa ƙiyayyarsu ƙiyayyata ƙiyayyarta
 93	1893	haki	hakin haki hakinsu hakinsa hakinta
-94	1894	dage	dage dagen
+94	1894	dage	dage dagen dagewa dagewar dagewarta dagewarsa
 95	1895	shashasha	shashasha shashashu shashashun
 96	1896	gabanin	gabanin gabannin gabaninsa gabaninku gabaninsu
 97	1897	hazaka	hazaka hazakar hazakarta hazakarka hazakarsa hazakanta
