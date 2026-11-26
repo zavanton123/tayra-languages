@@ -1,0 +1,228 @@
+{
+  "id": "br-mini-2400",
+  "rankUpTo": 2400,
+  "level": "B2",
+  "title": "Skiant ha teknologiezh",
+  "description": "Ten texts about science and technology: water, hydrogen and oxygen in a chemistry lesson, electricity in Brittany, a Breton translation program, a video game about a page and a traitor, solar panels for a Tibetan temple, a drone over storm-hit dunes, a sick leopard at a wildlife park, the dating of a crusader's coffin, kitchen science at a festival, and a grandmother's first video call.",
+  "topic": "Science and technology",
+  "names": [
+    "Gildaz",
+    "Kermarrec",
+    "Berc'hed",
+    "Kemper",
+    "Breizh",
+    "Bro-C'hall",
+    "Brenniliz",
+    "Plogoñv",
+    "Kerne",
+    "Sant-Brieg",
+    "Danmark",
+    "Aourken",
+    "Kerrien",
+    "Lannuon",
+    "Aino",
+    "Finland",
+    "Roazhon",
+    "Kolomban",
+    "Dragan",
+    "Aostria",
+    "Sarajevo",
+    "Brest",
+    "Salaun",
+    "Nepal",
+    "Tenzin",
+    "Dahud",
+    "Seite",
+    "Kraozon",
+    "Kadorvan",
+    "Abgrall",
+    "An Oriant",
+    "Sahar",
+    "Noa",
+    "Konwoion",
+    "Lemoal",
+    "Pondi",
+    "Jeruzalem",
+    "Herwen",
+    "Kerhoas",
+    "Nevenoe",
+    "Lizaig",
+    "Karaez",
+    "Jakig",
+    "Marjan",
+    "Montreal",
+    "Kanada",
+    "Jeremi",
+    "Bertran"
+  ],
+  "lessons": [
+    {
+      "title": "Dour, tan hag aer",
+      "summary": "Gildaz Kermarrec, a science teacher at a lycée in Kemper, gives his first lesson of the year on water: the pupils boil a bottleful of water, split water into hydrogen and oxygen with electricity, and watch hydrogen burn without smoke.",
+      "newWords": [
+        "hidrogen",
+        "oksigen",
+        "birviñ",
+        "boutailh",
+        "boutailhad",
+        "moged",
+        "maneg",
+        "peotramant",
+        "c'hwi",
+        "leskiñ"
+      ],
+      "text": "Gildaz Kermarrec a zo kelenner skiantoù en ul lise e Kemper. Bep bloaz e ra e gentel gentañ war an dour, rak an dour eo, emezañ, an dra souezhusañ er bed.\n\nD'al Lun, da 9 eur, e teuas e skolidi er sal. War an daol e oa ur voutailh dour, ur pod, div werenn hir ha manegoù. \"Hiziv e labourimp gant an tan hag an tredan,\" a lavaras Gildaz. \"Lakait ho manegoù, mar plij, peotramant e c'hallfec'h leskiñ ho taouarn.\"\n\n\"Ha ret eo deomp derc'hel ar manegoù a-hed ar gentel?\" a c'houlennas Berc'hed, ur plac'h yaouank. \"Ya,\" a respontas ar c'helenner. \"C'hwi a vo o labourat gant traoù tomm.\"\n\nDa gentañ e skuilhas ur voutailhad dour er pod, hag e lakaas anezhañ war an tan. \"Pegoulz e virvo an dour?\" a c'houlennas. \"Pa vo tizhet 100 derez,\" a respontas Berc'hed. Goude ur pennad e welas ar skolidi an dour o virviñ, hag un dra wenn o sevel diwar ar pod. \"N'eo ket moged,\" a lavaras Gildaz. \"Dour eo, aet da aer. Ar moged a zeu eus an tan, pa vez losket koad pe paper.\"\n\nNeuze e kemeras ur voutailh all, hag e lakaas an div werenn enni. \"Gant an tredan e c'haller rannañ an dour e daou dra: hidrogen hag oksigen.\" Goude ur c'hard-eur e oa leun ar werenn gentañ, hag hanter leun an eil. \"En hini leun ez eus hidrogen, en eben oksigen.\"\n\nTostaat a reas un tan bihan ouzh an hidrogen, hag un trouz berr a voe klevet. \"Losket eo bet an hidrogen,\" emezañ. \"Ha sellit: n'eus moged ebet. Pa vez losket an hidrogen gant an oksigen e teu dour en-dro, ha netra all.\" Goude e lakaas ur pezh koad ruz, hep flamm, er werenn oksigen, ha raktal e krogas an tan ennañ en-dro. \"An oksigen a ro nerzh d'an tan. Hep oksigen ne c'haller leskiñ netra.\"\n\n\"Ma ne ra ket moged an hidrogen, perak ne vez ket lakaet en holl girri?\" a c'houlennas Berc'hed. \"Kirri zo a ya gant hidrogen dija,\" a respontas Gildaz. \"Met ezhomm a zo eus kalz a dredan evit ober hidrogen, ha n'eo ket aes e lakaat en ur voutailh: ur gaz skañv-tre eo, a dec'h dre an toull bihanañ.\"\n\nEr fin e lamas ar skolidi o manegoù. \"Ha c'hwi, aotrou, petra eo an dra souezhusañ er bed?\" a c'houlennas Berc'hed en ur vont kuit. \"An dour!\" a respontas Gildaz en ur c'hoarzhin.\n\nGoulennoù:\nPetra eo micher Gildaz Kermarrec?\nKelenner skiantoù eo en ul lise e Kemper.\nPerak e rank ar skolidi gwiskañ manegoù?\nGwiskañ a reont manegoù, peotramant e c'hallfent leskiñ o daouarn.\nPetra a skuilhas Gildaz er pod?\nUr voutailhad dour a skuilhas er pod.\nPegoulz e virv an dour?\nAn dour a virv pa vez tizhet 100 derez.\nPetra a c'hoarvez pa vez losket an hidrogen?\nNe vez moged ebet: dour a deu en-dro, ha netra all.\nPerak ne vez ket lakaet hidrogen en holl girri?\nRak ezhomm a zo eus kalz a dredan evit ober anezhañ, ha n'eo ket aes e lakaat en ur voutailh."
+    },
+    {
+      "title": "Tredan Breizh",
+      "summary": "A short informative text on electricity in Brittany: the region makes only a small percentage of the power it uses, the old plant at Brenniliz closed long ago but its radioactive parts are still being taken away, anger at Plogoñv stopped a big plant, and wind at sea, as in Denmark, is part of a new vision.",
+      "newWords": [
+        "skinoberiek",
+        "uzin",
+        "dregantad",
+        "danat",
+        "ezvezañs",
+        "diskargañ",
+        "displijus",
+        "gweledigezh",
+        "kounnar",
+        "frouezhus"
+      ],
+      "text": "Breizh he deus ezhomm a galz a dredan, met nebeut eus an tredan-se a vez graet enni: e-pad pell ne oa ket 10 dregantad, ha hiziv c'hoazh n'eo ket 25 dregantad. An tredan all a zeu eus rannvroioù all Bro-C'hall.\n\nPerak ken nebeut? Ur respont a zo da gavout en istor. E 1967 e voe digoret un uzin tredan atomek e Brenniliz, e-kreiz Breizh. Un uzin vihan e oa, ha serret e voe e 1985. Koulskoude n'eo ket echu he istor: abaoe e vez labouret evit diskar an uzin ha kas pell an traoù skinoberiek a oa enni. Al labour a zo hir, rak an traoù skinoberiek a chom arvarus e-pad milvedoù.\n\nE fin ar bloavezhioù 1970 e felle d'ar Stad sevel un uzin atomek vras all e Plogoñv, e penn Kerne. Kounnar a savas e-touez an annezidi. E 1980 e voe manifestadegoù bras e-pad sizhunvezhioù, gant miliadoù a dud. Kement a gounnar a oa ma voe dilezet ar raktres e 1981.\n\nHiziv emañ an avel hag an heol e kreiz ar gaoz. Abaoe 2024 e tro 62 milin-avel war ar mor, e bae Sant-Brieg. Skouer Danmark a vez roet alies: ar gouarnamant danat en deus lakaet an avel e kreiz e weledigezh abaoe pell, ha bremañ e teu ouzhpenn an hanter eus tredan ar vro eus an avel.\n\nMet ne c'hwezh ket an avel atav, ha n'eus ket a heol e-pad an noz. En ezvezañs avel hag heol e ranker kaout tredan e lec'h all. Setu perak e vez savet mekanikoù bras evit mirout an tredan: karget e vezont pa c'hwezh an avel, ha diskarget e vezont goustadik e-pad an ezvezañs avel. Diskargañ a reont o zredan pa vez ezhomm anezhañ.\n\nN'eo ket plijus an traoù-se d'an holl. Lod a gav displijus ar milinoù-avel war ar mor, ha re all a gav displijus al linennoù tredan bras a dreuz ar maezioù. An holl a ra gant an tredan, met den n'en deus c'hoant da gaout an uzin e-kichen e di.\n\nRet eo neuze kaout ur weledigezh hir: pelec'h ober an tredan, penaos e virout, penaos ober gant nebeutoc'h anezhañ. Er bloavezhioù diwezhañ ez eus bet bodadegoù frouezhus etre an annezidi, ar c'hêrioù hag ar rannvro. Ur vodadeg frouezhus ne ziskouez ket an hent gwellañ en un taol, met diskouez a ra petra a fell d'an dud.\n\nGoulennoù:\nPet dregantad eus an tredan a vez graet e Breizh hiziv?\nNebeutoc'h eget 25 dregantad a vez graet e Breizh; an tredan all a zeu eus rannvroioù all.\nPerak n'eo ket echu istor an uzin e Brenniliz?\nRak ret eo kas pell an traoù skinoberiek a oa enni, ha hir ha ker eo al labour.\nPetra a c'hoarvezas e Plogoñv?\nKounnar a savas e-touez an annezidi, ha dilezet e voe ar raktres e 1981.\nPetra en deus graet ar gouarnamant danat?\nLakaet en deus an avel e kreiz e weledigezh.\nPetra a vez graet en ezvezañs avel?\nDiskarget e vez ar mekanikoù bras a oa bet karget pa c'hwezhe an avel.\nPerak eo frouezhus ar bodadegoù?\nRak diskouez a reont petra a fell d'an dud."
+    },
+    {
+      "title": "Ar mekanik a dro",
+      "summary": "Aourken Kerrien, who builds a Breton translation program in Lannuon, works with Aino, a Finnish colleague, on articles and loanwords; when the program makes mistakes on the town's website, people mock it and Aourken is hurt, but the two women find the fault section by section.",
+      "newWords": [
+        "ger-mell",
+        "amprest",
+        "rannbennad",
+        "finneg",
+        "pehini",
+        "pere",
+        "feuket",
+        "e-ser",
+        "goapaat",
+        "estrañjour"
+      ],
+      "text": "Lannuon a zo ur gêr a skiant: abaoe ar bloavezhioù 1960 e labour miliadoù a dud enni war ar pellgomz hag an urzhiataerioù. Aourken Kerrien a labour eno en ur stal vihan a ra ur benveg evit treiñ ar galleg e brezhoneg. \"Ur mekanik a zesk evel ur bugel,\" a lavar alies. \"Lenn a ra milionoù a frazennoù, hag e kav ar reolennoù e-unan.\"\n\nMet ar brezhoneg a zo diaes evit ur mekanik. Da gentañ ez eus ar ger-mell: \"an\", \"al\" pe \"ar\", hervez al lizherenn gentañ eus ar ger war-lerc'h. Ha goude ar ger-mell e cheñch alies al lizherenn-se: \"ar gêr\", \"ar vamm\".\n\nE miz Here e teuas ur genlabourerez nevez: Aino, ur plac'h eus Finland. Komz a ra finneg, saozneg ha galleg, hag un tamm brezhoneg desket e Roazhon. \"E finneg n'eus ger-mell ebet,\" emezi. \"Un hevelep ger a dalvez evit 'an ti' hag evit 'un ti'. Evidon-me eo ar ger-mell an dra diaesañ er brezhoneg.\"\n\nGoude e teuas an amprestoù. Ar brezhoneg en deus kemeret kalz gerioù digant ar galleg, ha digant al latin a-raok. \"Pere eo an amprestoù en ur frazenn?\" a c'houlennas Aino. \"N'eo ket aes gouzout,\" a respontas Aourken. \"'Prenestr' a zo un amprest kozh digant al latin, met den ne soñj ken ennañ evel ger un estrañjour.\" E finneg ivez ez eus kalz amprestoù kozh, digant yezhoù an amezeien.\n\nE-ser ma laboure an div blac'h war an amprestoù, e c'hoarvezas un dra fall. Ti-kêr Lannuon a rae gant ar benveg evit treiñ e bajennoù. Ur pennad diwar-benn ur fest-noz a oa bet troet fall-tre: anvioù ar straedoù a oa bet troet evel gerioù boutin. Kalz a dud a c'hoapaas ar mekanik: \"Ur benveg hag a ra fazioù evel ur bugel bihan!\"\n\nAourken a voe feuket. Ur bloavezh labour he doa lakaet er benveg-se. \"Den n'en deus goapaet ac'hanout,\" a lavaras Aino dezhi. \"Goapaat a reont ar fazioù, ha fazioù a zo. Ret eo deomp kavout pehini eo ar reolenn fall.\"\n\nAr pennad a oa graet gant pemp rannbennad. Lennet o deus anezhañ rannbennad ha rannbennad. En eil rannbennad e oa an anvioù-straed. E-ser ma lenne ar rannbennad-se e kavas Aino pehini e oa ar fazi: ar benveg ne anaveze ket an anvioù, hag e lakae anezho e galleg evel gerioù all.\n\nGoude ur sizhun e oa prest ur stumm nevez. \"N'out ket un estrañjour ken,\" a lavaras Aourken da Aino. \"Un estrañjour a anavez reolennoù ar ger-mell gwelloc'h egedon, n'eo ket un estrañjour ken!\"\n\nGoulennoù:\nPetra a ra Aourken e Lannuon?\nUr benveg a ra evit treiñ ar galleg e brezhoneg.\nPerak eo diaes ar ger-mell evit Aino?\nRak e finneg n'eus ger-mell ebet.\nPere eo an div dra diaesañ evit ar mekanik?\nAr ger-mell hag an amprestoù eo an div dra diaesañ.\nPerak e voe feuket Aourken?\nFeuket e voe rak kalz a dud a c'hoapaas he benveg.\nPenaos o deus kavet an div blac'h ar fazi?\nLennet o deus ar pennad rannbennad ha rannbennad.\nPehini e oa ar fazi?\nAr benveg ne anaveze ket anvioù ar straedoù."
+    },
+    {
+      "title": "C'hoari ar floc'h",
+      "summary": "In a games studio in Roazhon, Kolomban makes a video game about a page who serves an old chieftain; his Serbian colleague Dragan adds a viceroy's treachery and an archduke, and tells how the killing of an archduke by a young Serb began the First World War.",
+      "newWords": [
+        "floc'h",
+        "tiern",
+        "riezad",
+        "trubarderezh",
+        "lealded",
+        "sabrenn",
+        "lestr-brezel",
+        "arc'hdug",
+        "besroue",
+        "serb"
+      ],
+      "text": "Kolomban a ra c'hoarioù war an urzhiataer en ur stal e Roazhon. Abaoe daou vloaz e labour gant e skipailh war ur c'hoari nevez anvet \"Ar floc'h\". Er c'hoari, an hini a c'hoari a zo ur floc'h yaouank, o servijañ un tiern kozh en ur vro faltazi.\n\nAr floc'h a rank deskiñ ober gant ur sabrenn, mont war varc'h ha difenn e aotrou. Hir ha peoc'hus eo bet riezad an tiern, met bremañ eo kozh ha klañv, ha den ne oar piv a vo tiern war e lerc'h. Bep mintin e kas ar floc'h lizhiri e aotrou, hag e teu da zeskiñ an traoù a vez graet e kreiz ar palez.\n\nEn e skipailh ez eus un ijinour serb, Dragan, deuet da Roazhon pemp bloaz zo. Un deiz e lavaras Dragan: \"Ur c'hoari hep trubarderezh n'eo ket ur c'hoari. Ret eo kaout un enebour e-kichen an tiern!\" Kolomban a grouas neuze ur besroue: un den a ren war ur vro bell en anv an tiern, hag a fell dezhañ kemer e riezad evitañ e-unan. E-pad ar c'hoari e rank ar floc'h dizoleiñ trubarderezh ar besroue, ha diskouez e lealded d'an tiern.\n\n\"Ha perak ket un arc'hdug ivez?\" a c'houlennas Dragan. \"Un arc'hdug?\" Kolomban ne anaveze ket ar ger. \"Ur priñs bras eo, nes d'an impalaer,\" a lavaras Dragan. \"E 1914 e voe lazhet arc'hdug Aostria e Sarajevo gant ur paotr serb yaouank. Goude marv an arc'hdug e krogas ar Brezel-bed kentañ. Ma zad-kozh a gonte an istor-se din pa oan bihan.\" Lakaet e voe un arc'hdug er c'hoari, neuze: un den fur, a ro kuzul d'ar floc'h.\n\nDiwezhatoc'h e fellas da Golomban lakaat un emgann war ar mor er c'hoari. Ar besroue a zeu gant e listri-brezel betek aod riezad an tiern. Ar floc'h a ya war unan eus al listri-brezel e-pad an noz, gant e sabrenn, hag e kav eno al lizhiri a ziskouez trubarderezh ar besroue. Dragan a dresas al listri: al lestr-brezel brasañ a zo heñvel ouzh ul lestr-brezel kozh en deus gwelet e mirdi Brest.\n\nGoude an arnodoù kentañ e lavaras ar re yaouank o doa c'hoariet: \"Lealded ar floc'h eo an dra gaerañ er c'hoari.\" Kolomban a oa laouen. \"Ur floc'h leal, ur besroue trubard, un arc'hdug fur hag un tiern kozh: setu un istor kozh-kozh,\" a lavaras Dragan. \"Gwir eo,\" a respontas Kolomban, \"met an istorioù kozh eo ar re wellañ.\"\n\nGoulennoù:\nPetra a ra Kolomban?\nC'hoarioù war an urzhiataer a ra en ur stal e Roazhon.\nPiv eo ar floc'h er c'hoari?\nUr paotr yaouank eo, a servij un tiern kozh.\nPetra a lavaras Dragan diwar-benn ar c'hoari?\nLavaret a reas ne oa ket ur c'hoari hep trubarderezh.\nPetra a fell d'ar besroue ober?\nKemer riezad an tiern a fell dezhañ, evitañ e-unan.\nPetra a c'hoarvezas e Sarajevo e 1914?\nLazhet e voe arc'hdug Aostria gant ur paotr serb yaouank.\nPetra a gav ar floc'h war al lestr-brezel?\nKavout a ra lizhiri a ziskouez trubarderezh ar besroue."
+    },
+    {
+      "title": "Heol evit an azeuldi",
+      "summary": "Salaun, an engineer from Brest, spends a fortnight at a Tibetan temple high in the mountains of Nepal: he climbs a rocky path with solar panels, puts in a pump so the monks can water their fields, rings in the light with the temple bell, and leaves with their good wishes.",
+      "newWords": [
+        "tibetat",
+        "azeuldi",
+        "kloc'h",
+        "krapañ",
+        "roc'hellek",
+        "pemzektez",
+        "dourañ",
+        "treut",
+        "het",
+        "dizale"
+      ],
+      "text": "Salaun a zo ijinour e Brest, en ur stal a ra panelloù evit tapout tredan diouzh an heol. Bep bloaz e kemer ur pemzektez dieub evit sikour ur gevredigezh a gas tredan d'ar menezioù. Ar bloaz tremenet ez eas da Nepal, betek un azeuldi tibetat a zo savet war ur menez uhel.\n\nEvit erruout en azeuldi e rankas krapañ e-pad pemp eurvezh war un hent roc'hellek, gant ar panelloù war gein daou varc'h bihan. Krapañ a rae goustadik, rak skañv e oa an aer, ha berr e alan. Tenzin, ur manac'h tibetat yaouank, treut ha laouen, a gerzhe a-raok. \"Ne vez ket gwelet kalz a dud o krapañ betek amañ,\" a lavaras dezhañ en ur c'hoarzhin.\n\nE-kreiz an azeuldi e oa ur c'hloc'h bras. Pa erruas Salaun e sonas Tenzin ar c'hloc'h evit lavarout d'ar venec'h e oa deuet an estren. Ar re gozh a zeuas d'e saludiñ: treut e oant holl, rak bevañ a reont gant nebeut a dra, ha treut eo an douar war-dro ivez, roc'hellek ha sec'h.\n\nAr venec'h o doa daou het. An het kentañ a oa kaout gouloù d'an noz, evit lenn hep leskiñ koad. An eil a oa dourañ o farkeier hep kas an dour war o c'hein eus ar stêr, pell en traoñ. Salaun ha Tenzin a lakaas ar panelloù war doenn an azeuldi, hag ur mekanik bihan e-kichen ar stêr evit kas an dour d'ar parkeier. E-pad ar pemzektez e labourjont bep deiz eus ar mintin d'an noz.\n\nUn abardaez e voe prest pep tra. Tenzin a zigoras an dour, hag an dour a redas er parkeier. \"Bremañ e c'hallimp dourañ an douar treut-se bep deiz,\" emezañ. Da noz e voe enaouet ar gouloù kentañ en azeuldi, hag ar menec'h a sonas ar c'hleier evit lidañ an darvoud.\n\nD'an devezh diwezhañ eus ar pemzektez e roas ar manac'h koshañ e hetoù da Salaun: \"Hon hetoù gwellañ evit da familh ha da vro.\" Tenzin a ambrougas anezhañ war an hent roc'hellek. \"Dizale e vo ezhomm da ober an hevelep labour en azeuldioù all,\" a lavaras Salaun, \"ha dizale e teuin en-dro.\" \"Ar c'hloc'h a sono evidout,\" a respontas Tenzin.\n\nGoulennoù:\nPelec'h ez eas Salaun e-pad e bemzektez?\nMont a reas da Nepal, betek un azeuldi tibetat war ur menez uhel.\nPenaos e oa an hent betek an azeuldi?\nRoc'hellek e oa, ha Salaun a rankas krapañ e-pad pemp eurvezh.\nPerak e oa treut ar venec'h?\nTreut e oant rak bevañ a reont gant nebeut a dra.\nPetra e oa daou het ar venec'h?\nKaout gouloù d'an noz ha dourañ o farkeier hep kas an dour war o c'hein.\nPetra a reas ar venec'h pa voe enaouet ar gouloù kentañ?\nSonet e voe ar c'hleier gante evit lidañ an darvoud.\nPetra a lavaras Salaun da Tenzin war an hent?\nLavaret a reas e vefe ezhomm dizale eus an hevelep labour, hag e tistrofe dizale."
+    },
+    {
+      "title": "Kaouenned an tevennoù",
+      "summary": "After a winter storm has ravaged the dunes near Kraozon, the scientist Dahud Seite flies a small drone over them to measure the damage and count the owls; her car gets stuck in the sand, a wanderer with his dog helps her out, and she tells him that walkers who keep to the paths are not to blame.",
+      "newWords": [
+        "krank",
+        "tevenn",
+        "kaouenn",
+        "rodal",
+        "sac'hañ",
+        "peg",
+        "oadour",
+        "kantreer",
+        "drastañ",
+        "digablus"
+      ],
+      "text": "Dahud Seite a zo skiantourez e Brest. He labour eo studiañ an aod, ha dreist-holl an tevennoù traezh. E miz C'hwevrer he doa ur gorventenn vras drastet an tevennoù e-kichen Kraozon: ar mor a oa deuet betek ar c'hreiz anezho, ha kalz a draezh a oa bet kaset gantañ.\n\nDahud a yeas di gant ur c'harr-nij bihan hep den ennañ. Sevel a reas ar c'harr-nij a-us d'an tevennoù, ha diwar e skeudennoù e c'halle muzuliañ pegement a draezh a oa aet kuit. \"Drastet eo bet an tevenn vras war ur c'hilometr,\" a skrivas en he notennoù. \"Met an tevennoù all a zo chomet en o sav.\"\n\nDahud a gonte ivez al laboused. Er goañv e teu kaouenned war an tevennoù da chaseal. Gant ar c'harr-nij e welas div gaouenn vras hag ur gaouenn yaouank, o nijal izel a-us d'ar geot. Plijus e oa dezhi: ar c'haouenned a oa chomet, daoust d'ar gorventenn. Goude e tiskennas war an traezh, e-lec'h ma oa kranked o rodal etre ar vein. Ar c'hranked bihan a rode e pep tu, hag ar c'hranked bras a guzhe dindan ar vezhin.\n\nPa fellas dezhi distreiñ e sac'has he c'harr en traezh gleb. Ar rodoù a droe en aner, hag an traezh a chome peg ouzh he botoù. \"Sac'het on,\" a soñjas, \"ha den ne vez o rodal amañ er goañv.\"\n\nKoulskoude e teuas un den eus an tu all d'an tevenn, gant ur c'hi: ur c'hantreer, ur gwaz kozh a vale war an aod bep deiz, hep ti mat, hag a gousk e-lec'h ma kav. \"Sac'het oc'h?\" a c'houlennas. Gant e sikour hag hini e gi, a gave plijadur o toullañ, e voe tennet ar c'harr eus an traezh peg.\n\n\"Lod a lavar e vez drastet an tevennoù gant an dud a vale warno,\" a lavaras ar c'hantreer. \"En hañv e teu amañ kalz a oadourien gant o bugale. Gwir eo?\" Dahud a respontas: \"An oadourien hag ar vugale a vale war an hentoù merket a zo digablus. Ar gorventenn eo he deus drastet an tevennoù ar goañv-se, n'eo ket an dud.\" Ar c'hantreer a voe laouen: \"Digablus on, neuze!\" \"Digablus-mat,\" a respontas Dahud en ur c'hoarzhin. Goude-se e kasas anezhañ gant e gi betek ar gêr nesañ.\n\nGoulennoù:\nPetra he doa graet ar gorventenn d'an tevennoù?\nAr gorventenn he doa drastet an tevennoù e-kichen Kraozon.\nPerak e kasas Dahud ar c'harr-nij a-us d'an tevennoù?\nEvit muzuliañ pegement a draezh a oa aet kuit.\nPet kaouenn a welas Dahud?\nGwelet a reas div gaouenn vras hag ur gaouenn yaouank.\nPelec'h e oa ar c'hranked o rodal?\nAr c'hranked a oa o rodal etre ar vein war an traezh.\nPetra a c'hoarvezas d'he c'harr?\nSac'het e voe he c'harr en traezh gleb.\nPiv a vale war an tevennoù en hañv?\nKalz a oadourien a vale warno gant o bugale.\nPerak eo digablus an dud a vale war an hentoù merket?\nRak ar gorventenn eo he deus drastet an tevennoù, n'eo ket an dud."
+    },
+    {
+      "title": "Ar loupard klañv",
+      "summary": "At a wildlife park near An Oriant the vet Kadorvan Abgrall finds a wound on the paw of an old leopard that has stopped eating; an Israeli specialist advises him by video, he goes to the butcher's for fat meat, and the leopard eats again.",
+      "newWords": [
+        "loupard",
+        "azon",
+        "gloazadenn",
+        "doñvaat",
+        "kiger",
+        "druz",
+        "israelat",
+        "kuzuliañ",
+        "da-gaout",
+        "trepas"
+      ],
+      "text": "Kadorvan Abgrall a zo mezeg-loened en ur park-loened e-kichen An Oriant. Dek vloaz zo e labour eno, gant leoned, marmouzed hag ul loupard kozh anvet Sahar.\n\nUr mintin e welas ur genlabourerez e oa chomet Sahar en e gorn e-pad an noz hep debriñ. Kadorvan a yeas raktal da-gaout al loupard. Evit mont betek e loch e rankas tremen dre un trepas hir ha teñval, a-dreñv ar c'harzhoù. Eus an trepas e c'haller gwelet al loened hep ma welont an dud.\n\nSahar ne zebre ket, ne gerzhe ket kalz, hag e lagad a oa skuizh: azonoù fall e oa an traoù-se. Kadorvan a selle outañ a-dost, met ne c'halle ket mont tost dezhañ: ul loupard n'eo ket ul loen doñv. \"Gallout a reer doñvaat ur c'hi pe ur c'hazh,\" emezañ, \"met den n'en deus biskoazh doñvaet ul loupard.\" Ret e voe lakaat Sahar da gousket gant ul louzoù. Neuze e kavas Kadorvan an azon diwezhañ: ur c'hloazadenn don war unan eus e bavioù, e-lec'h m'en doa en em c'hloazet ouzh ur pezh houarn.\n\nAr c'hloazadenn a oa brein un tamm. Kadorvan a anaveze ur vezegez israelat, Noa, ur skiantourez brudet war ar c'hizhier bras. Gant e bellgomz e tiskouezas dezhi ar c'hloazadenn. \"Kuzuliañ a ran deoc'h he naetaat bep deiz,\" a lavaras ar vezegez israelat, \"ha reiñ dezhañ kig druz ha tener. Ul loupard kozh a zebr gwelloc'h ar c'hig druz.\" \"Trugarez evit ho kuzul,\" a respontas Kadorvan.\n\nGoude merenn ez eas Kadorvan da-gaout ar c'higer, er gêr nesañ. Ar c'higer a anaveze ar park-loened mat: bep sizhun e werzhe kig dezhañ. \"Kig druz evit ul loupard? Bez' em eus ar pezh a zo ret,\" a lavaras ar c'higer, hag e roas dezhañ un tamm bras.\n\nDa noz e tremenas Kadorvan adarre dre an trepas. Sahar a oa dihunet. Neuze, goustadik, e tostaas al loupard ouzh ar c'hig druz, hag e tebras anezhañ. Kadorvan a skrivas d'ar vezegez israelat: \"Debret en deus. Trugarez evit ho kuzulioù.\" Noa a respontas: \"Kuzuliañ a ran deoc'h gortoz c'hoazh ur pemp devezh bennak a-raok bezañ laouen.\"\n\nGoude ur sizhun e oa yac'h ar c'hloazadenn, ha Sahar a gerzhe adarre en e liorzh.\n\nGoulennoù:\nPetra eo micher Kadorvan Abgrall?\nMezeg-loened eo en ur park-loened e-kichen An Oriant.\nPetra a ra Kadorvan evit mont da-gaout al loupard?\nTremen a ra dre un trepas hir a-dreñv ar c'harzhoù.\nPerak ne c'halle ket Kadorvan mont e loch al loupard?\nRak den ne c'hall doñvaat ul loupard.\nPetra eo an azon diwezhañ a gavas Kadorvan?\nUr c'hloazadenn don war unan eus pavioù al loupard.\nPetra a guzulias ar vezegez israelat?\nKuzuliañ a reas naetaat ar c'hloazadenn bep deiz ha reiñ kig druz d'al loupard.\nPiv a roas ar c'hig druz da Gadorvan?\nAr c'higer eus ar gêr nesañ a roas dezhañ ar c'hig."
+    },
+    {
+      "title": "An arched kozh",
+      "summary": "Konwoion Lemoal, who dates old wood at a research centre in Roazhon, studies an oak coffin found under a chapel floor; the axe marks of the carpenter, a purple shirt sewn with gold thread, laurel leaves and a line about alms show that it held a crusader of the twelfth century.",
+      "newWords": [
+        "arched",
+        "kroaziad",
+        "lore",
+        "aluzen",
+        "kalvez",
+        "a-zevri",
+        "bouc'hal",
+        "mouk",
+        "gwriat",
+        "krez"
+      ],
+      "text": "Konwoion Lemoal a labour en ur greizenn enklask e Roazhon. E labour eo lavarout pet bloaz zo eo bet troc'het ur wezenn pe marvet un den, diwar ur pezh koad pe askorn. Evit se e vuzul ur seurt karbon a vez er c'hoad hag en askorn, hag a goll goustadik e nerzh a-hed ar c'hantvedoù. Ul labour hir eo, a c'houlenn evezh, ha Konwoion a gemer e labour a-zevri.\n\nE miz Ebrel e voe kavet un arched koad dindan leur ur chapel e-kichen Pondi. Kas a rejont d'ar greizenn ur pezh koad eus an arched, ha da gentañ e sellas Konwoion ouzh ar c'hoad. Koad derv e oa. War an arched e welas merkoù bras: ur c'halvez en doa troc'het ar plankennoù gant ur vouc'hal. \"Ur c'halvez mat a oa,\" a soñjas Konwoion. \"Gant ur vouc'hal hepken en deus graet un arched ken reizh.\"\n\nEn arched e oa askorn ur gwaz, hag e-kichen e gorf e oa chomet un tamm eus ar c'hrez a wiske: ur c'hrez mouk, gwriet gant neud aour. \"Ur c'hrez mouk a oa ker-tre d'ar mare-se,\" a lavaras Konwoion d'e genlabourerez. \"Gwriat ur c'hrez gant neud aour a c'houlenne mizioù labour. Un den pinvidik e oa.\" E-kichen ar penn e oa ivez delioù lore, sec'h-tre. Al lore a oa ur sin a enor: gant lore e veze kurunennet ar re o doa trec'het.\n\nWar ar golo e oa skrivet un nebeut gerioù e latin, ha Konwoion a lennas anezho a-zevri: \"Roet en deus aluzen d'ar re baour a-raok mont kuit.\" \"Aluzen roet a-raok mont kuit,\" emezañ. \"Mont pelec'h?\"\n\nAr respont a zeuas eus ar skiant. Ar c'hoad a ziskouezas e oa bet troc'het ar wezenn war-dro ar bloaz 1150. D'ar mare-se e veze kroazidi o vont da Jeruzalem. Ar gwaz-se en doa roet aluzen, evel ma rae alies ar groazidi a-raok mont kuit, ha distroet e oa da Vreizh, peogwir e oa bet lakaet en douar e-kichen e di.\n\nKonwoion a skrivas e zanevell a-zevri, rannbennad ha rannbennad, hep ankouaat netra: ar merkoù bouc'hal, ar c'hrez mouk gwriet gant aour, al lore, an aluzen. \"Ur c'hroaziad distroet eus ar brezel,\" a skrivas er fin. \"Bevet en deus pell goude, ha marvet eo er gêr.\"\n\nGoulennoù:\nPetra eo labour Konwoion Lemoal?\nLavarout a ra pet bloaz zo eo bet troc'het ur wezenn pe marvet un den.\nPelec'h e voe kavet an arched?\nDindan leur ur chapel e-kichen Pondi e voe kavet.\nPenaos en doa ar c'halvez troc'het ar plankennoù?\nGant ur vouc'hal en doa troc'het anezho.\nPetra e oa e-kichen korf ar gwaz?\nUn tamm eus ar c'hrez mouk a wiske, gwriet gant neud aour, ha delioù lore.\nPetra a oa skrivet war golo an arched?\nSkrivet e oa en doa ar gwaz roet aluzen d'ar re baour a-raok mont kuit.\nPiv e oa ar gwaz?\nUr c'hroaziad e oa, distroet eus ar brezel."
+    },
+    {
+      "title": "Skiant er gegin",
+      "summary": "At the science festival in Brest the cook Herwen Kerhoas, in her white cap, shows the public why cream turns stiff, why fat floats on soup and how a cake rises, while a greedy little boy eats his fill of cake.",
+      "newWords": [
+        "soubenn",
+        "gwastell",
+        "dienn",
+        "asied",
+        "druzoni",
+        "dar",
+        "gwalc'h",
+        "boned",
+        "lonker"
+      ],
+      "text": "Bep bloaz, e miz Here, e vez lidet gouel ar skiant e Brest. Ar bloaz tremenet e oa bet savet ur gegin vihan e-kreiz sal vras an ti-kêr, gant un daol, ur forn hag un dar. Herwen Kerhoas, keginerez en ur preti eus ar gêr, a oa eno, gant he boned gwenn war he fenn. \"Ar gegin a zo ur greizenn enklask,\" a lavaras d'an dud. \"Pep tra a reomp er gegin a zo skiant.\"\n\nDa gentañ e kemeras dienn, hag e skoas anezhi en ur pod e-pad pemp munutenn. \"Perak e teu an dienn da vezañ tev?\" a c'houlennas. Den ne ouie. \"En dienn ez eus druzoni. Pa skoan an dienn e lakaan aer enni, hag an druzoni a zalc'h an aer e-barzh. Hep druzoni ne c'hoarvezfe netra: gant laezh ne c'haller ket ober an dra-se.\"\n\nGoude e kemeras ur soubenn gig a oa o virviñ war ar forn. War c'horre ar soubenn e oa un tamm druzoni melen. \"Perak e chom an druzoni war c'horre ar soubenn?\" Ur plac'h a respontas: \"Rak skañvoc'h eo eget an dour.\" \"Mat-tre!\" Herwen a lakaas soubenn en un asied evit pep hini, hag an dud a zebras anezhi.\n\nNeuze e reas ur wastell gant sukr, vioù ha laezh, hag un dra wenn evit he lakaat da sevel. \"Er forn e ra an dra wenn-se ur gaz, hag ar gaz a sav ar wastell,\" a zisplegas. E-pad ma oa ar wastell er forn e walc'has an asiedoù en dar. \"An dour tomm a gas an druzoni kuit diouzh an asiedoù,\" emezi.\n\nE-touez an dud e oa ur paotr bihan, Nevenoe, a selle ouzh ar forn hep lavarout ger. Pa voe tennet ar wastell e oa bras ha melen. Herwen a droc'has anezhi, hag a lakaas un tamm war bep asied. Nevenoe a zebras e damm raktal, hag e c'houlennas unan all, hag un trede. \"Ul lonker out!\" a lavaras e vamm. \"Lezit anezhañ,\" a respontas Herwen. \"Ur paotr a zebr e walc'h a zo ur paotr laouen. Hag ul lonker a oar mat petra a zo e-barzh ur wastell!\"\n\nGoude e lakaas Herwen dienn war an tammoù diwezhañ. \"Bremañ ez eus dienn ha gwastell war un dro: druzoni, aer ha gaz,\" emezi. Nevenoe, hag en doa debret e walc'h, a lavaras: \"Me a fell din bezañ keginer, evit kaout ur boned gwenn evel hoc'h hini.\" Herwen a lakaas he boned war e benn. \"Ar boned a zo dit. Un deiz e vi keginer, ha skiantour ivez.\"\n\nGoulennoù:\nPetra eo micher Herwen Kerhoas?\nKeginerez eo en ur preti e Brest.\nPerak e teu an dienn da vezañ tev?\nRak an druzoni a zo en dienn a zalc'h an aer e-barzh pa vez skoet.\nPerak e chom an druzoni war c'horre ar soubenn?\nRak skañvoc'h eo an druzoni eget an dour.\nPetra a sav ar wastell er forn?\nUr gaz a sav ar wastell.\nPetra a reas Herwen en dar?\nGwalc'hiñ a reas an asiedoù en dar, gant dour tomm.\nPerak e lavaras e vamm e oa Nevenoe ul lonker?\nRak debret en doa tri zamm gwastell, betek e walc'h."
+    },
+    {
+      "title": "Lizaig hag ar pellgomz",
+      "summary": "Lizaig, seventy, a widow in Karaez whose husband was a quarryman in the slate quarries, learns to make video calls to see the baby her daughter has just had in Montreal with her Canadian husband; she turns the phone towards the window and kisses the screen, while an old womaniser from the fest-noz gets nowhere.",
+      "newWords": [
+        "merc'hetaer",
+        "mezv",
+        "koroll",
+        "pokat",
+        "gwilioudiñ",
+        "ozhac'h",
+        "kanadian",
+        "trema",
+        "mengleuzier"
+      ],
+      "text": "Lizaig a zo dek vloaz ha tri-ugent. Intañvez eo, hag e vev en un ti bihan e Karaez. He fried, Jakig, a oa mengleuzier: e-pad tregont vloaz en doa labouret er mengleuzioù maen-glas e-kichen Karaez. Ur vicher galet e oa micher ar mengleuzier, ha marvet eo Jakig dek vloaz zo.\n\nHe merc'h, Marjan, a vev e Montreal, e Kanada, gant he ozhac'h kanadian, Jeremi. E miz Mae he deus Marjan gwilioudet ur mab bihan. Lizaig n'he doa ket gallet mont da Ganada evit bezañ gant he merc'h pa wilioudas: re bell e oa, ha re ger. Neuze e kasas Marjan ur pellgomz nevez d'he mamm, gant ul lizher: \"Gant an dra-se e c'halli gwelout da vab-bihan bep sizhun.\"\n\nLizaig ne ouie netra diwar-benn ar pellgomzoù nevez. Bertran, he amezeg, a lavaras e ouie ober ganto. Bertran a oa ur merc'hetaer brudet: e pep fest-noz e kane d'ar merc'hed, hag er c'horoll e klaske atav kemer dorn ar merc'hed koantañ. Ur wech, pell zo, e oa bet mezv ken ma oa kouezhet e-kreiz ar c'horoll, hag an holl o doa c'hoarzhet. Lizaig a anaveze mat ar merc'hetaer kozh-se, met ezhomm he doa a sikour.\n\nBertran a zeuas d'he zi, gwisket brav ha ne oa ket mezv, evit ur wech, gant bleunioù en e zorn. \"Ur merc'hetaer kozh out, Bertran,\" a lavaras Lizaig, \"met diskouez din, mar plij, penaos ober gant ar pellgomz.\" Bertran a ziskouezas dezhi pelec'h pouezañ evit gwelout skeudenn Marjan. Goude e klaskas pokat dezhi. \"Ne bokan nemet d'am mab-bihan, Bertran!\" a lavaras Lizaig, ha Bertran a yeas kuit en ur c'hoarzhin.\n\nD'ar Sul goude, da 3 eur goude merenn, e c'halvas Lizaig he merc'h. E Montreal e oa 9 eur vintin. Er pellgomz e welas Marjan, ha Jeremi, an ozhac'h kanadian, gant ar bugel bihan en e zivrec'h. \"Setu da vab-bihan, mamm,\" a lavaras Marjan. Lizaig a bokas d'ar skeudenn, hag ar bugel a zigoras e zaoulagad.\n\n\"Ha diskouez a c'hallez dimp da di?\" a c'houlennas Marjan. Lizaig a droas ar pellgomz trema ar prenestr, trema al liorzh, ha goude trema skeudenn Jakig, ar mengleuzier, war ar voger. \"Da dad-kozh,\" a lavaras d'ar bugel. Jeremi a lavaras ur ger e brezhoneg, desket gant Marjan: \"Trugarez.\" Lizaig a c'hoarzhas: \"Ur C'hanadian a gomz brezhoneg!\"\n\nBremañ e c'halv Lizaig Montreal bep Sul. Ha pa zeu Bertran d'he zi, e lavar dezhañ: \"Kae d'ar c'horoll, merc'hetaer kozh: Kanada a zo o c'hortoz ac'hanon.\"\n\nGoulennoù:\nPetra e oa micher Jakig?\nJakig a oa mengleuzier er mengleuzioù maen-glas e-kichen Karaez.\nPiv eo Jeremi?\nOzhac'h kanadian Marjan eo.\nPetra he deus graet Marjan e miz Mae?\nE miz Mae he deus gwilioudet ur mab bihan e Montreal.\nPerak e oa brudet Bertran?\nBrudet e oa evel ur merc'hetaer: er c'horoll e klaske kemer dorn ar merc'hed koantañ.\nPetra a reas Lizaig pa welas he mab-bihan?\nPokat a reas d'ar skeudenn.\nTrema petra e troas Lizaig ar pellgomz?\nTrema ar prenestr, trema al liorzh ha trema skeudenn Jakig war ar voger."
+    }
+  ]
+}
