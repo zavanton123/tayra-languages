@@ -110,8 +110,11 @@ class PhoneNavigationTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Croatian").assertExists()
         // The settings pages as the wide window's sidebar lists them; the account is the bar's avatar.
-        for (group in listOf("WORDS AND PROGRESS", "OFFLINE RESOURCES", "SETTINGS")) onNodeWithText(group).assertExists()
-        for (gone in listOf("ACCOUNT", "PREFERENCES AND DATA")) onNodeWithText(gone).assertDoesNotExist()
+        for (group in listOf("WORDS AND PROGRESS", "SETTINGS")) onNodeWithText(group).assertExists()
+        for (gone in listOf("ACCOUNT", "PREFERENCES AND DATA", "OFFLINE RESOURCES")) onNodeWithText(gone).assertDoesNotExist()
+        // Speech and Translation are settings pages, in the sidebar's order.
+        val order = listOf("Vocabulary settings", "Speech", "Playlist settings", "Translation", "Backups").map { onNodeWithTag("more-$it").fetchSemanticsNode().boundsInRoot.top }
+        assertEquals(order.sorted(), order, "Speech and Translation sit among the settings as in the sidebar")
         onNodeWithTag("more-Account").assertDoesNotExist()
         for (page in listOf("General", "Goals", "Flashcard settings", "Vocabulary settings")) onNodeWithTag("more-$page").assertExists()
         // Under Read, or a tab of their own, instead; Watch only with the videos on.

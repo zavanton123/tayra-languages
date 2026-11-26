@@ -144,10 +144,9 @@ internal class MoreEntry(val label: String, val icon: ImageVector, val route: Ro
 private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 
 /**
- * The More sheet's destinations, in groups: the videos when they are on, the words and how they go,
- * what is downloaded for use offline, and the settings pages the wide window's sidebar lists, less
- * the hotkeys and the updates a phone has no use for, with About; pages the app hides are left out. The account is
- * the bar's avatar.
+ * The More sheet's destinations, in groups: the videos when they are on, the words and how they go, and the settings
+ * pages in the wide window's sidebar order, less the hotkeys and the updates a phone has no use for, with About;
+ * pages the app hides are left out. The account is the bar's avatar.
  */
 private fun moreGroups(videos: Boolean, hidden: List<Route>) = listOfNotNull(
     // What there is to read is under Read, the playlists have a tab.
@@ -161,14 +160,6 @@ private fun moreGroups(videos: Boolean, hidden: List<Route>) = listOfNotNull(
         ),
     ),
     MoreGroup(
-        "Offline resources",
-        listOf(
-            // Named apart from the tabs: these set things up rather than open them.
-            MoreEntry("Speech", AppIcons.MoreSpeech, Route.Speech),
-            MoreEntry("Translation", AppIcons.MoreTranslation, Route.OfflineTranslation),
-        ),
-    ),
-    MoreGroup(
         "Settings",
         listOf(
             MoreEntry("General", AppIcons.MoreGeneral, Route.Settings),
@@ -176,7 +167,9 @@ private fun moreGroups(videos: Boolean, hidden: List<Route>) = listOfNotNull(
             MoreEntry("Languages", AppIcons.MoreLanguages, Route.Languages),
             MoreEntry("Flashcards", AppIcons.Flashcards, Route.FlashcardSettings, tag = "Flashcard settings"),
             MoreEntry("Vocabulary", AppIcons.MoreVocabularySettings, Route.VocabularySettings, tag = "Vocabulary settings"),
+            MoreEntry("Speech", AppIcons.MoreSpeech, Route.Speech),
             MoreEntry("Playlists", AppIcons.NavPlaylists, Route.PlaylistSettings, tag = "Playlist settings"),
+            MoreEntry("Translation", AppIcons.MoreTranslation, Route.OfflineTranslation),
             MoreEntry("Backups", AppIcons.MoreBackups, Route.Backups),
             MoreEntry("Clear data", AppIcons.MoreClearData, Route.ClearData),
             MoreEntry("About", AppIcons.MoreAbout, Route.About),

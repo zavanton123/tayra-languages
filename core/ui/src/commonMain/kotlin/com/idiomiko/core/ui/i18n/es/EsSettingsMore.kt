@@ -16,7 +16,6 @@ internal val esSettingsMore: Map<String, String> = mapOf(
     "Light" to "Claros",
     "Dark" to "Oscuros",
     "Reading" to "Lectura",
-    "Offline resources" to "Recursos sin conexión",
     "Reading font" to "Fuente de lectura",
     "Reading font size" to "Tamaño de fuente de lectura",
     "Font size" to "Tamaño de fuente",

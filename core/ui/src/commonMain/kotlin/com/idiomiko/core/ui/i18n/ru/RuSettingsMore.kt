@@ -16,7 +16,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Light" to "Светлые",
     "Dark" to "Тёмные",
     "Reading" to "Чтение",
-    "Offline resources" to "Офлайн-ресурсы",
     "Reading font" to "Шрифт для чтения",
     "Reading font size" to "Размер шрифта",
     "Font size" to "Размер шрифта",

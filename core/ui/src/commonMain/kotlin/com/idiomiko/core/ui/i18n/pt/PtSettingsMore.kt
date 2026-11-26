@@ -16,7 +16,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Light" to "Claros",
     "Dark" to "Escuros",
     "Reading" to "Leitura",
-    "Offline resources" to "Recursos offline",
     "Reading font" to "Fonte de leitura",
     "Reading font size" to "Tamanho da fonte de leitura",
     "Font size" to "Tamanho da fonte",

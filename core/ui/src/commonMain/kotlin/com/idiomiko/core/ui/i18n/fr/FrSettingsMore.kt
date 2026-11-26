@@ -16,7 +16,6 @@ internal val frSettingsMore: Map<String, String> = mapOf(
     "Light" to "Clairs",
     "Dark" to "Sombres",
     "Reading" to "Lecture",
-    "Offline resources" to "Ressources hors ligne",
     "Reading font" to "Police de lecture",
     "Reading font size" to "Taille de police de lecture",
     "Font size" to "Taille de police",

@@ -16,7 +16,6 @@ internal val deSettingsMore: Map<String, String> = mapOf(
     "Light" to "Hell",
     "Dark" to "Dunkel",
     "Reading" to "Lesen",
-    "Offline resources" to "Offline-Ressourcen",
     "Reading font" to "Leseschrift",
     "Reading font size" to "Schriftgröße beim Lesen",
     "Font size" to "Schriftgröße",

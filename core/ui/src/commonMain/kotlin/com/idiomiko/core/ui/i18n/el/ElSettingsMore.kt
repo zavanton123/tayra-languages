@@ -16,7 +16,6 @@ internal val elSettingsMore: Map<String, String> = mapOf(
     "Light" to "Φωτεινά",
     "Dark" to "Σκούρα",
     "Reading" to "Ανάγνωση",
-    "Offline resources" to "Πόροι εκτός σύνδεσης",
     "Reading font" to "Γραμματοσειρά ανάγνωσης",
     "Reading font size" to "Μέγεθος γραμματοσειράς ανάγνωσης",
     "Font size" to "Μέγεθος γραμματοσειράς",

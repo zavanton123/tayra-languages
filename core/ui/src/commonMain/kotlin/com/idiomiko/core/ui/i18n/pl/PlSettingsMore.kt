@@ -16,7 +16,6 @@ internal val plSettingsMore: Map<String, String> = mapOf(
     "Light" to "Jasne",
     "Dark" to "Ciemne",
     "Reading" to "Czytanie",
-    "Offline resources" to "Zasoby offline",
     "Reading font" to "Czcionka do czytania",
     "Reading font size" to "Rozmiar czcionki",
     "Font size" to "Rozmiar czcionki",

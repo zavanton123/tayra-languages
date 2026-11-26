@@ -16,7 +16,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Light" to "浅色",
     "Dark" to "深色",
     "Reading" to "阅读",
-    "Offline resources" to "离线资源",
     "Reading font" to "阅读字体",
     "Reading font size" to "阅读字号",
     "Font size" to "字号",
