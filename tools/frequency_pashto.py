@@ -449,6 +449,11 @@ _HAND = """
 ګاونډ|noun|neighbourhood
 پکار|adj|needed, necessary
 خطرناک|adj|dangerous
+مه|particle|don't (before an imperative: مه ځه "don't go")
+پای|noun|end (پای ته رسېدل: to come to an end)
+بجه|noun|o'clock (درې بجې: three o'clock)|بجې بجو
+وزګار|adj|free, not busy|وزګاره وزګارې وزګارو
+غښتلی|adj|strong, powerful|غښتلې غښتلي غښتلو غښتلیو
 """
 # Forms of the pack's words that its tables lack, irregular or often written: word | forms.
 _MORE_FORMS = """
@@ -512,6 +517,7 @@ _SPELLED_AS = """
 مځکه|ځمکه
 خلګ|خلک
 ږغ|غږ
+اخستل|اخيستل
 """
 # Verbs the pack lacks, with the stem their present and imperative are made of, and the prefix of their perfective ("و" but for
 # verbs with a prefix of their own): infinitive | present stem | perfective prefix | English gloss.
@@ -550,6 +556,9 @@ _HAND_VERBS = """
 لېږل|لېږ|و|to send
 خندل|خاند|و|to laugh
 ژړل|ژاړ|و|to cry, to weep
+تېرېدل|تېرېږ||to pass, to go by
+تېرول|تېرو||to spend (time), to pass
+لټول|لټو|و|to search, to look for
 """
 
 
@@ -829,10 +838,13 @@ def nominal_forms(word, pos):
 OVERRIDES = {pashto_fold(form): [pashto_fold(word)] for line in _SPELLED_AS.strip().splitlines() for form, word in [line.split("|")]}
 OVERRIDES.update({pashto_fold(form): [pashto_fold(verb)] for form, verb in (
     ("کړي", "کول"), ("کړه", "کول"), ("کړ", "کول"), ("کړې", "کول"), ("لري", "لرل"), ("شي", "کېدل"), ("شو", "کېدل"),
-    ("وو", "يم"), ("وه", "يم"), ("مني", "منل"),
+    ("وو", "يم"), ("وه", "يم"), ("مني", "منل"), ("کړم", "کول"), ("کړو", "کول"),
     # And the forms filed under a rare word spelled alike: لارې "ways" (not لارۍ "lorry"), ډېرې, کلي "villages", ملګري
     # "friends", تنه and کسان "persons".
     ("لارې", "لار"), ("ډېرې", "ډېر"), ("کلي", "کلی"), ("ملګري", "ملګری"), ("تنه", "تن"), ("کسان", "کس"), ("غونډې", "غونډه"), ("بولي", "بلل"), ("خوري", "خوړل"))})
+# اوسي "lives" (of اوسېدل), not the -ې form of اوسه "now"; غښتلي "strong" (غښتلی), no form of غښتل "to plait".
+OVERRIDES[pashto_fold("اوسي")] = [pashto_fold("اوسېدل")]
+OVERRIDES[pashto_fold("غښتلی")] = [pashto_fold("غښتلی")]
 # How a word is shown where the pack's spellings would show another word's (ترۍ for ترې, مېنه "home" for مینه "love"), or
 # a Kandahari or Pakistani spelling (تاسې, ستاسې) for the Afghan standard one.
 DISPLAY = {pashto_fold(w): w for w in "چې دی ترې مینه رئیس امریکایي زوی نوی چای".split()}
