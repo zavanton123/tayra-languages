@@ -1,100 +1,100 @@
-1	3901	chatelydhieth	jatelydhieth
-2	3902	hwythans	hwithans
-3	3903	blou	flou
-4	3904	sketh	skethow
-5	3905	afinans	afinansow
-6	3906	betys	petisyon
-7	3907	eksekutya	eksekutys
-8	3908	kothhe	kothha
-9	3909	fria	frias fries
-10	3910	diwysyk	dhiwysek tiwysyk
-11	3911	braggya	bragg braggyes
-12	3912	galwesigeth	alwesigeth alwesigethow
-13	3913	euryador	euryadoryon euryadoryow
-14	3914	banken	bankennow vanken
-15	3915	bryghlin	bryghlinyow vryghlinow
-16	3916	morgroban	morgrobanes vorgrobanes
-17	3917	pychya	bechya pech pechyes pych
-18	3918	kaja	aja gaja
-19	3919	byrla	berl perlys vyrl
-20	3920	balle	valle
-21	3921	adoptya	adopt adoptyas adoptys
-22	3922	faktor	faktorow faktoryow
-23	3923	gwerinor	gwerinoryon werinoryon
-24	3924	mans	mansyon vans
-25	3925	kowbal	kowbalow kowbalyow
-26	3926	delvrys	delvrysyow
-27	3927	skapya	skapyas skapys
-28	3928	dynya	dyn dynys
-29	3929	bomm	bobm vomm
-30	3930	asklos	asklosen
-31	3931	charj	charjys jarj
-32	3932	ankevi	ankevys ankov nakevi
-33	3933	krognans	krognansow
-34	3934	abrans	abransow dewabrans
-35	3935	pegha	begha beghes peghes
-36	3936	breseler	breseloryon vreseler vreseloryon
-37	3937	benygys	benegys benigys venygys
-38	3938	geler	eler keler weloryon welyr
-39	3939	genyn	enyn genennow genydnow genynnow
-40	3940	ankorya	ancorys ankor ankoryow ankorys
-41	3941	desevos	desev desevow dhesev dhesevos dhesevsa
-42	3942	lostya	losten lostyn
-43	3943	gorvarghas	gorvarghasow
-44	3944	dengerensedhek	dengerenjedhek
-45	3945	krow	krowyow
-46	3946	ikon	ikonys
-47	3947	ilewydhes	ilewydhesow
-48	3948	kuv	guv
-49	3949	kleudhya	kleudhyes
-50	3950	argya	argyas
-51	3951	pocket	bocket
-52	3952	dalghuster	dhalghuster
-53	3953	omgelmi	omgelmys
-54	3954	dreys	threys treis treys
-55	3955	aktya	actya aktyes aktys
-56	3956	gallon	allon gallons hallons
-57	3957	gwynnel	kwynnel wynnis
-58	3958	afinus	
-59	3959	ester	
-60	3960	lowartha	
-61	3961	digresennans	
-62	3962	omwodhvos	
-63	3963	yogort	
-64	3964	seytek	
-65	3965	dewdhegves	
-66	3966	seytegves	
-67	3967	papynjay	
-68	3968	elgeth	
-69	3969	unver	
-70	3970	arghantinek	
-71	3971	anemia	
-72	3972	poder	
-73	3973	kesstyr	
-74	3974	flows	
-75	3975	lewydhes	
-76	3976	yos	
-77	3977	neuvya	
-78	3978	bankskwattyes	
-79	3979	peryllya	peryll
-80	3980	arenebel	
-81	3981	dallathvos	
-82	3982	emperouregek	
-83	3983	efanyans	
-84	3984	felshyp	
-85	3985	medhoges	
-86	3986	skobm	skommow
-87	3987	amethi	
-88	3988	dellni	
-89	3989	artydhes	
-90	3990	hedhadow	
-91	3991	a-borpos	
-92	3992	privedhyow	
-93	3993	friys	
-94	3994	anvateryel	
-95	3995	eyrin	
-96	3996	awedhyansek	
-97	3997	ankresyans	
-98	3998	dader	
-99	3999	askrifys	
-100	4000	beler	
+1	3901	gwerem	gwerebmow
+2	3902	tarder	terder
+3	3903	krampoth	krampothen
+4	3904	argevro	argevrohow
+5	3905	folennik	folenigow
+6	3906	avokado	avocados avokados
+7	3907	melon	felons melonyow
+8	3908	erbysi	erbysas
+9	3909	pennti	bennti benntiow
+10	3910	digompes	dhigompes tigompes
+11	3911	gavel	avelow havel
+12	3912	bothel	bothellow vothellow
+13	3913	plos	blos flos
+14	3914	kenter	genter
+15	3915	byghanhe	byghanhes byghanys pyghanhe vyghanhas
+16	3916	berrskrifa	berrscrif berrskrif verrskrif
+17	3917	favera	faver faveras faverys
+18	3918	dasa	desyn dhasa dhassen tasa
+19	3919	gryll	krellow krill rilles
+20	3920	dynerghi	dhynerghis dynargh dynerghys
+21	3921	blamya	blamys vlamya vlamyas
+22	3922	chersya	chersyes chersys
+23	3923	fasya	
+24	3924	bostya	postya vostya
+25	3925	fylmya	fylmyas
+26	3926	magla	faglys maglys meglys vagel
+27	3927	kowla	gowla kowlen kowlys
+28	3928	bock	
+29	3929	euver	
+30	3930	abostol	abesteli
+31	3931	arbenikter	
+32	3932	ananedhys	
+33	3933	lili	
+34	3934	herdhyans	
+35	3935	eskarek	
+36	3936	lettrys	
+37	3937	dasunyans	
+38	3938	dastrehevyans	
+39	3939	gwarthek	
+40	3940	eythin	
+41	3941	sos	
+42	3942	mantol	vantol
+43	3943	howlyek	
+44	3944	challa	challys
+45	3945	gwinwel	
+46	3946	dhe-les	
+47	3947	vali	
+48	3948	app	
+49	3949	sira	
+50	3950	chonsus	
+51	3951	bastard	
+52	3952	halyans	
+53	3953	demond	
+54	3954	evredh	evredhyon
+55	3955	ekonomydh	
+56	3956	dadhelva	
+57	3957	devorya	
+58	3958	borr	
+59	3959	gwydhbol	
+60	3960	ekspres	
+61	3961	anedhel	
+62	3962	ahwer	
+63	3963	estenna	
+64	3964	enysheans	
+65	3965	ughsommys	
+66	3966	ambosys	
+67	3967	fether	
+68	3968	didhana	
+69	3969	akademoges	
+70	3970	morvoren	vorvoren
+71	3971	gwenn	
+72	3972	skwith	
+73	3973	resnel	
+74	3974	fayntys	
+75	3975	ethegel	
+76	3976	gwagva	
+77	3977	etholer	etholoryon
+78	3978	dibries	
+79	3979	ansur	
+80	3980	esedhek	
+81	3981	finder	
+82	3982	ruvanes	
+83	3983	arwask	
+84	3984	omwolghi	
+85	3985	skrij	
+86	3986	pas	
+87	3987	fers	
+88	3988	effeythuster	
+89	3989	delk	
+90	3990	budhek	
+91	3991	alkemydh	
+92	3992	bocka	
+93	3993	anwos	
+94	3994	afinuster	afinusterow
+95	3995	bever	fever
+96	3996	brin	
+97	3997	towargh	
+98	3998	hwiski	
+99	3999	ewon	
+100	4000	askorruster	

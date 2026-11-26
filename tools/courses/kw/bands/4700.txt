@@ -1,100 +1,100 @@
-1	4601	degynsywek	
-2	4602	gasans	
-3	4603	argollus	
-4	4604	analogieth	
-5	4605	esherdhyans	
-6	4606	pennrudh	bennrudh
-7	4607	begi	pegen veg
-8	4608	kreatur	greaturyon
-9	4609	myttyn	mytten
-10	4610	aperya	aperys
-11	4611	bolonjedh	volonjedh
-12	4612	delivrans	delivransow
-13	4613	kemynna	gemynnas kemynnys
-14	4614	fleghik	fleghigyow
-15	4615	apposya	appos
-16	4616	karghar	garghar
-17	4617	demokratieth	demokratiethow
-18	4618	torgh	dergh
-19	4619	gwyg	wyg
-20	4620	defowt	dhefowt
-21	4621	fugya	fugen
-22	4622	gik	ik kyk
-23	4623	ervin	ervynen
-24	4624	arvreusi	arvreusys
-25	4625	kerghes	kyrghes
-26	4626	kowan	kowannow
-27	4627	avallan	avallanow
-28	4628	ambosa	ambosas
-29	4629	defians	dhefians
-30	4630	eyles	eylesow
-31	4631	omhweles	omhwel
-32	4632	kampva	kampvaow
-33	4633	didreylya	dhidreylya didreylyes
-34	4634	avodya	avod
-35	4635	alarm	alarmow
-36	4636	ughradha	ughradhys
-37	4637	breyna	breynys
-38	4638	truedha	truedhys
-39	4639	alhwedha	alhwedhennow alhwedhys
-40	4640	diduel	dhiduel
-41	4641	akasia	akasya
-42	4642	melhwioges	melhwiogesow
-43	4643	beghya	beghyes veghya
-44	4644	galar	galarow
-45	4645	kowlleski	gowlleskas
-46	4646	floren	florednow
-47	4647	breusyans	breusyansow
-48	4648	galweythel	halweythel
-49	4649	chatelydh	jatelydhyon
-50	4650	furvyer	furvyoryon
-51	4651	argel	argelyow
-52	4652	fanja	fanjas
-53	4653	dibarder	dibarderyow
-54	4654	avisya	avisyes avisys
-55	4655	fistena	fistenas
-56	4656	brocha	vrochys
-57	4657	ankombra	ankombras
-58	4658	poltra	poltrys
-59	4659	glasik	klasik lasik
-60	4660	asleans	asleansow
-61	4661	lomm	lobm
-62	4662	pystik	pestik
-63	4663	ania	anias
-64	4664	bargynnya	bargennya bargynnys
-65	4665	avis	avisyow
-66	4666	avisyer	avisyoryon
-67	4667	hockya	hock
-68	4668	kilwagren	kilwagrednow kilwagrennow
-69	4669	medhegva	vedhegva
-70	4670	beghyegeth	veghyegeth veghyegethow
-71	4671	ekokevreyth	ekokevreythow ekokevreythyow
-72	4672	guw	guwow
-73	4673	arwostla	arwostlas
-74	4674	didhuwieth	dhidhuwieth
-75	4675	bronnek	brodnegi
-76	4676	messias	messyas
-77	4677	chal	chalys dewjal
-78	4678	kukomber	gukomber
-79	4679	delea	delya
-80	4680	barthusek	varthusek
-81	4681	astewis	astewisas
-82	4682	chonsya	chonsys jonsys
-83	4683	dyskybeleth	dhyskybeleth
-84	4684	bughik	bughigesow
-85	4685	brosek	frosek
-86	4686	istitla	istitel istitlys
-87	4687	boslan	boslannow voslannow
-88	4688	devosek	tevosek
-89	4689	tekhe	dykys tekhes
-90	4690	bolgha	bolghys volghen
-91	4691	bagha	baghys
-92	4692	bewweyth	bewweythyow
-93	4693	esherdhya	esherdhyons
-94	4694	pies	vies
-95	4695	ledri	ledrys lettres
-96	4696	trobla	drobla troblys
-97	4697	soon	soen sonyow
-98	4698	pynk	bynkys fynk
-99	4699	cherya	chersys jerya
-100	4700	dashwithra	dhashwithras hwithras hwithrewgh hwithrys whithras
+1	4601	spadha	spadhys
+2	4602	anfurvel	
+3	4603	glaswyrdh	
+4	4604	erbysyas	erbysysi
+5	4605	daskwerther	dhaskwerthoryon
+6	4606	basket	
+7	4607	beghyans	
+8	4608	negysyas	
+9	4609	elastek	
+10	4610	abakus	
+11	4611	glusa	glusys
+12	4612	piga	pigas
+13	4613	ridra	ridrys
+14	4614	mango	mangos
+15	4615	greunaval	greunavalow
+16	4616	bolik	folik
+17	4617	ekskludya	ekskludys
+18	4618	defia	tefia
+19	4619	stanch	
+20	4620	sampla	
+21	4621	ankresya	ankresyes
+22	4622	seudhel	
+23	4623	desper	
+24	4624	korrwelell	
+25	4625	antryghadow	antreghadow
+26	4626	eginans	
+27	4627	stras	strasow
+28	4628	falsuri	
+29	4629	reser	resoryon
+30	4630	delvrysek	
+31	4631	fardellow	
+32	4632	egina	
+33	4633	golgi	
+34	4634	esyans	
+35	4635	kegis	
+36	4636	ebel	
+37	4637	awenydh	
+38	4638	eksaltya	eksaltys
+39	4639	deuv	
+40	4640	dibystik	
+41	4641	grugyerik	rugyerigow
+42	4642	appel	
+43	4643	arghel	
+44	4644	kuhudhans	
+45	4645	glowor	
+46	4646	aluseneth	
+47	4647	brithel	brithili
+48	4648	glenysen	glenysennow
+49	4649	burokratieth	
+50	4650	glawen	lawen
+51	4651	ankler	
+52	4652	omdhivarva	
+53	4653	boton	
+54	4654	kasel	caselyow
+55	4655	abma	
+56	4656	niverus	
+57	4657	beghus	veghus
+58	4658	y'm	
+59	4659	kerghydh	kerghydhyon
+60	4660	kennin	
+61	4661	ablasek	
+62	4662	bodhegi	vodhegas
+63	4663	arholya	arholysi
+64	4664	buorth	buorthow
+65	4665	barvus	barvusi
+66	4666	popa	popys
+67	4667	bathva	vathva
+68	4668	yeuni	eeun
+69	4669	avonsyer	avonsyoryon
+70	4670	efanheans	
+71	4671	lodrik	lodrigow
+72	4672	floghwith	
+73	4673	ferylva	
+74	4674	bangladeshek	
+75	4675	fethyel	
+76	4676	gesyores	
+77	4677	arnowydhheans	
+78	4678	fewdal	
+79	4679	eskorra	
+80	4680	karnal	
+81	4681	bonkya	vonkyons
+82	4682	eksamnyer	
+83	4683	idhyow	
+84	4684	enamel	
+85	4685	lavant	
+86	4686	dibayn	
+87	4687	batt	
+88	4688	bryghen	vryghen
+89	4689	armel	
+90	4690	celder	celders
+91	4691	denaghans	dhenaghans
+92	4692	eksperyans	
+93	4693	kroglen	groglennow
+94	4694	erba	
+95	4695	pystrier	
+96	4696	pystriores	
+97	4697	talas	
+98	4698	bronkitis	
+99	4699	alargh	
+100	4700	embrio	embryo

@@ -2,16 +2,16 @@
 2	1102	keunys	geunys gunys keunysen kunys
 3	1103	pig	big fig
 4	1104	managh	menegh vanagh venegh
-5	1105	skon	
+5	1105	skon	scon
 6	1106	rydh	
 7	1107	hwarvosow	
-8	1108	tramor	
+8	1108	tramor	dramor
 9	1109	a-berth	
 10	1110	removas	
 11	1111	a-woles	
 12	1112	unnplek	
 13	1113	uraniom	
-14	1114	kesweyth	
+14	1114	kesweyth	gesweyth gesweythyow kesweythow kesweythyow
 15	1115	lowen	lowenna
 16	1116	morek	vorek
 17	1117	arge	argeow
@@ -23,21 +23,21 @@
 23	1123	kocha	gocha gochys kochys
 24	1124	trovya	drov drovis drovya drovyas throvya trovyes trovys
 25	1125	ostel	ostelyow
-26	1126	yet	yetow yetys
+26	1126	yet	yetow yettes yettys yetys
 27	1127	glann	gladnow glannow
 28	1128	gleb	glyb leb lyb
-29	1129	lenwel	lanwes lenwys
+29	1129	lenwel	lanwes lenwis lenwys
 30	1130	treghi	dreghi dreghys treghas treghys trogh troghow
-31	1131	devedhys	
+31	1131	devedhys	devedhes
 32	1132	waynya	
-33	1133	maner	
+33	1133	maner	manerow maneryow
 34	1134	sitys	
 35	1135	wonisogeth	
-36	1136	trevesigeth	
+36	1136	trevesigeth	dhrevesigeth drevesigethow threvesigeth
 37	1137	komprehendys	
 38	1138	arhansek	
-39	1139	gwariva	
-40	1140	remova	
+39	1139	gwariva	gwarivaow warivaow
+40	1140	remova	removyas removyes
 41	1141	skoos	scoos skoosow
 42	1142	alkan	alkenyow
 43	1143	boghes	voghes
@@ -56,13 +56,13 @@
 56	1156	unnek	udnek udnyk
 57	1157	kevradh	gevradh gevradhow kevradhow
 58	1158	kroghen	croghen greghyn groghen hroghen kreghyn
-59	1159	servya	
+59	1159	servya	servas servyes servys
 60	1160	gaws	
-61	1161	gravedh	
-62	1162	skoodhyer	
+61	1161	gravedh	ravedh
+62	1162	skoodhyer	skoedhyoryon skoodhyoryon
 63	1163	jornalyas	
 64	1164	a-dhiwedhes	
-65	1165	privedh	
+65	1165	privedh	brivedh
 66	1166	ynjynorieth	ynjinorieth
 67	1167	zynk	zink
 68	1168	keus	geus geusyow keusyow
@@ -78,17 +78,17 @@
 78	1178	kowa	cowsys gowsis kowses kowsis kowsys kowys
 79	1179	gwias	gwiasow wias wiasow
 80	1180	prov	brov frov provow provyow provys
-81	1181	remenans	
+81	1181	remenans	remenansow
 82	1182	a-ban	
-83	1183	tevyans	
-84	1184	pennfenten	
-85	1185	planettys	
-86	1186	tempel	
-87	1187	skrifores	
-88	1188	toulys	
-89	1189	dowrgleudhyow	
+83	1183	tevyans	devyans tevyansow thevyans
+84	1184	pennfenten	bednfenten bennfenten fennfenten pednfentenyow pennfentenyow
+85	1185	planettys	blanet blanetow blanettys blanetys flanet flanettys planet planetow
+86	1186	tempel	dempel
+87	1187	skrifores	scrifores
+88	1188	toulys	doul doulys thoulys toul
+89	1189	dowrgleudhyow	dowrgleudh
 90	1190	serv	
-91	1191	alja	
+91	1191	alja	aljas
 92	1192	arlodhes	arlodhesow
 93	1193	kavadow	cavadow gavadow
 94	1194	pla	blaow plaow

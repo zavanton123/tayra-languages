@@ -3,7 +3,7 @@
 3	803	brys	bres bresyow brysyow presyow vris vrys
 4	804	kemyska	gemysk gemyska gemyskas gemyskyes gemyskys kemisk kemysk kemyskys
 5	805	dha	
-6	806	lymner	
+6	806	lymner	limner limnoryon lymners
 7	807	hepken	
 8	808	kott	cott gott
 9	809	ympynnyon	ympydnyon
@@ -15,10 +15,10 @@
 15	815	acheson	achesonyow achesonys cheson
 16	816	lamm	labm labmow
 17	817	devis	devisow devisyow dhevis dhevisas
-18	818	uskis	
+18	818	uskis	uskissa uskyssa
 19	819	semlant	
 20	820	fugieth	
-21	821	kresek	
+21	821	kresek	cresek gresek
 22	822	a'ga	
 23	823	awtorita	awtoritaow awtoritas awtoritys
 24	824	reyth	reythow reythyow reythys
@@ -26,8 +26,8 @@
 26	826	sarf	serf
 27	827	arv	arvow
 28	828	soodh	sodhow soedh
-29	829	kenwerth	
-30	830	gorow	
+29	829	kenwerth	genwerth kenwerthys
+30	830	gorow	worow
 31	831	askorrer	ascorroryon askorroryon
 32	832	apposyans	apposyansow
 33	833	bonni	bonniow vonni vonniow
@@ -44,53 +44,53 @@
 44	844	nanj	
 45	845	kowal	cowal gowal
 46	846	lyverva	leverva lyvervaow
-47	847	kevren	gevren gevrennow hevrennow kevrednow kevrennow kevrenys
+47	847	kevren	gevren gevrenn gevrennow hevrennow kevrednow kevrenn kevrennow kevrenys
 48	848	kanel	ganel ganolyow hanel kanelyow kanolyow
 49	849	gwreydh	gwreydhen gwreydhyow gwreydhys wreydh wreydhen wreydhyow
 50	850	danvon	danvenys danvonas danvonnys danvonys dhanvon dhanvonas tanvon tanvonas
 51	851	a-ves	
 52	852	natur	
-53	853	plat	
-54	854	gweythresek	
-55	855	trethysi	
+53	853	plat	blattys platyow
+54	854	gweythresek	weythresek
+55	855	trethysi	drethysi
 56	856	arenep	arenebow
 57	857	gwern	gwernen gwernis gwernow wern wernow
-58	858	dyskador	dhyskador dhyskadoryon dyscador dyskadoryon
+58	858	dyskador	dhyskader dhyskador dhyskadoryon dyscador dyskadoryon
 59	859	hwithra	hwither hwithras hwithrewgh hwithrys whithras
-60	860	bugh	bughes vugh vughes
+60	860	bugh	bughes pugh vugh vughes
 61	861	bythkweth	besketh
-62	862	hembrenkyas	
-63	863	sugra	
+62	862	hembrenkyas	hembrynkyas
+63	863	sugra	sugraow
 64	864	woles	wolys
 65	865	aktivita	aktivitis aktivitys
 66	866	esplegya	espleg esplegyas esplegyes esplegys
 67	867	aval	avalen avalow
 68	868	hwil	hwiles whiles
 69	869	nowodhow	
-70	870	gwenonek	
+70	870	gwenonek	wenonek
 71	871	fantasi	fantasis
 72	872	heyl	heylyow
 73	873	fysegieth	fisegieth
 74	874	bakteria	vakteria
 75	875	isotop	isotopow
-76	876	magma	
+76	876	magma	magmaow vagmaow
 77	877	yurl	yurlys
 78	878	kledhbarth	gledhbarth
 79	879	amkan	amkanow amkanyon
 80	880	oberen	oberednow oberennow
 81	881	gwellhe	gwellha gwellhas gwellhes gwellheys kwellhe wellha wellhas wellhe wellheas wellhes
 82	882	delinya	delinyas delinyes delinys dhelinas dhelinya dhelinyas telinya telynnya
-83	883	govyn	govydnys govynnow govynnys kovyn wovyn wovynna wovynnis wovynnow wovynsa
+83	883	govyn	govydnys govynnow govynnys kovyn wovyn wovynna wovynnas wovynnis wovynnow wovynsa
 84	884	gwann	gwadn gwanna hwadn hwann hwannen wadn wann wanna
 85	885	fydh	fedh
-86	886	solempnita	
+86	886	solempnita	solempnyta
 87	887	gwaya	
-88	888	komposydh	
+88	888	komposydh	gomposydhyon homposydh komposydhyon komposydhyow
 89	889	euro	
-90	890	gwreydhek	
+90	890	gwreydhek	hwreydhek kwreydhek wreydhek
 91	891	howldrehevel	howldrevel
 92	892	seythen	seythednow seythennow seythenyow
-93	893	hengov	
+93	893	hengov	hengovow hengovyon
 94	894	brith	brithow vrith
 95	895	mowes	mowesi mowysi vowes vowysi
 96	896	lann	ladn ladnow lannow

@@ -1,100 +1,100 @@
-1	2501	dardhansow	
-2	2502	laterit	
-3	2503	hirbel	
-4	2504	a-bes	
-5	2505	folsek	
-6	2506	abatti	abattiow
-7	2507	ewnder	ewnderyow
-8	2508	skentel	skentyl
-9	2509	klorin	glorin
-10	2510	gevelya	evellys gevellys
-11	2511	dar	dariow teri
-12	2512	teurek	teurogen
-13	2513	kadmiom	gadmiom
-14	2514	arhwithrans	arhwithransow
-15	2515	yntra'n	
-16	2516	epyk	epik epykow
-17	2517	treweythus	dreweythus
-18	2518	arvreusyas	arvreusysi
-19	2519	begel	begelyow vegel vygyl
-20	2520	dysmygyans	dhismygyans dismygyans dismygyansow
-21	2521	kollell	gollell kellyll kellylli
-22	2522	barna	barnes barnys varn varna
-23	2523	diswul	dhiswul diswrys tiswul
-24	2524	briansen	briansennow vriansen
-25	2525	akont	akontow akontys
-26	2526	kroadur	groadur groaduryon kroaduryon kroadurys
-27	2527	telyn	delyn dhelin telin telynnow thelyn
-28	2528	agh	aghow
-29	2529	owraval	owravalow
-30	2530	arethor	arethoryon
-31	2531	oor	oer
-32	2532	arader	ereder
-33	2533	euryor	euryoryon euryoryow
-34	2534	fram	framyow
-35	2535	hatt	hattys
-36	2536	tebel	tybel
-37	2537	meythrin	veyther veythrin
-38	2538	kowl	gowl kowlen kowlow
-39	2539	skoloryon	
-40	2540	dhisplegyans	
-41	2541	bennserneth	
-42	2542	pennplas	
-43	2543	gonisogethek	
-44	2544	flogholeth	
-45	2545	sterlester	
-46	2546	solempnyansow	
-47	2547	arwedhek	
-48	2548	souder	
-49	2549	krevder	
-50	2550	travyth	
-51	2551	hewul	
-52	2552	doktourieth	
-53	2553	promovya	
-54	2554	istorioryon	
-55	2555	ermanek	
-56	2556	tevnydhir	
-57	2557	godhoniethek	
-58	2558	dhistruis	
-59	2559	klerheans	
-60	2560	guntellas	
-61	2561	kettep	
-62	2562	gwerinieth	
-63	2563	gevrenn	
-64	2564	aswonn	
-65	2565	lowarther	
-66	2566	rewlyer	
-67	2567	pannweyth	
-68	2568	rydhses	
-69	2569	gwellheansow	
-70	2570	gawsya	
-71	2571	aras	
-72	2572	skrifir	
-73	2573	ujy	
-74	2574	air	
-75	2575	blanet	
-76	2576	pooth	
-77	2577	mordarow	
-78	2578	pras	
-79	2579	frothus	
-80	2580	nektar	
-81	2581	senjys	
-82	2582	guz	
-83	2583	gravyer	
-84	2584	krowji	
-85	2585	boosa	
-86	2586	kuntellek	
-87	2587	oberans	
-88	2588	jynnow-ethen	
-89	2589	moldrans	
-90	2590	neshevin	
-91	2591	recevas	
-92	2592	ragresoryon	
-93	2593	koplow	
-94	2594	hwreydhek	
-95	2595	tekter	
-96	2596	awtomatek	
-97	2597	magata	
-98	2598	berylliom	
-99	2599	bromin	
-100	2600	ytriom	
+1	2501	yntra'n	entra'n
+2	2502	kwarter	gwarter hwarter
+3	2503	trigva	drigva thrigva
+4	2504	tirnos	thirnos tirnosow
+5	2505	teknegow	deknegow theknegow
+6	2506	kanstros	ganstrosow kanstrosow
+7	2507	ekosystem	ecosystem ecosystemow ekosystemow
+8	2508	defendya	defend dhefendya dhefendyas tefendya
+9	2509	gwiwer	gwiweres wiwer
+10	2510	nader	naderow nadres
+11	2511	esperthi	esperthas esperthys esporthas esporthow
+12	2512	kothman	cothman gothman gothmans hothman hothmans kothmans
+13	2513	ser	seri
+14	2514	mellen	mellennow
+15	2515	ervirans	erviransow ervyrans
+16	2516	lamma	labma lammas
+17	2517	palster	balster
+18	2518	barv	barvow varv
+19	2519	kog	cog gog koges
+20	2520	aswiwans	aswiwansow
+21	2521	diwelvennoges	dhiwelvennoges diwelvednoges
+22	2522	plott	blott plottys
+23	2523	slynkya	slynk slynkyas
+24	2524	bili	fili vili
+25	2525	breus	breusow breusyow vreus
+26	2526	lown	lownyow
+27	2527	ethennans	ethednans
+28	2528	trowensow	drowensow trowynsow
+29	2529	gwagrennow	gwagrednow wagrennow
+30	2530	kosten	gosten kostennow
+31	2531	dy'gol	dhy'golyow dy'golyow
+32	2532	desevos	desev desevow desevys dhesev dhesevos dhesevsa
+33	2533	chayn	chaynys
+34	2534	akt	aktys
+35	2535	meth	myth mythow mythys
+36	2536	dewi	dewys
+37	2537	bismuth	
+38	2538	fug	
+39	2539	leysven	
+40	2540	kevrinek	
+41	2541	certan	
+42	2542	selyek	
+43	2543	ebren	
+44	2544	etek	
+45	2545	disel	
+46	2546	gweusek	
+47	2547	osweyth	
+48	2548	a-dhesempis	
+49	2549	treylyer	
+50	2550	romansik	
+51	2551	attendyans	
+52	2552	loup	
+53	2553	krypton	
+54	2554	jynnweythek	
+55	2555	renkys	
+56	2556	krom	
+57	2557	olkenyow	
+58	2558	skravinas	
+59	2559	hirbel	
+60	2560	a-bes	
+61	2561	folsek	
+62	2562	abatti	abattiow
+63	2563	ewnder	ewnderyow
+64	2564	gwellheansow	wellheansow
+65	2565	skentel	skentyl
+66	2566	klorin	glorin
+67	2567	gevelya	evellys gevellys
+68	2568	henedh	henedhow
+69	2569	y'gan	e'gan
+70	2570	linyeth	linyethow lynyeth
+71	2571	dar	dariow teri
+72	2572	droggys	dhroggys
+73	2573	teurek	teurogen
+74	2574	keskomunya	geskomunya geskomunyas
+75	2575	komendyans	comendyans gomendyans
+76	2576	omsevel	omsevis
+77	2577	kadmiom	gadmiom
+78	2578	molekulen	volekulen
+79	2579	kubek	cubek gubek
+80	2580	tunas	dunas
+81	2581	manykyn	manikin
+82	2582	rewlyans	rewlyansow
+83	2583	arhwithrans	arhwithransow
+84	2584	kynsistori	gynsistori
+85	2585	epyk	epik epykow
+86	2586	strifwerth	strifwerthow
+87	2587	treweythus	dreweythus
+88	2588	arvreusyas	arvreusysi
+89	2589	karbohydratow	garbohydratow harbohydratow
+90	2590	bronoges	vronoges
+91	2591	begel	begelyow vegel vygyl
+92	2592	diwyethek	dhiwyethek tiwyethek
+93	2593	kolldhel	colldhel golldhel
+94	2594	difresyans	dhifresyans dhifresyansow difresyansow
+95	2595	kasor	gasoryon kasoryon
+96	2596	milvledhen	milvlydhen vilvledhen
+97	2597	dysmygyans	dhismygyans dismygyans dismygyansow
+98	2598	drogober	drogoberow drogoberyon
+99	2599	keffrysysi	geffresysi heffrysysi keffrysysy
+100	2600	korfonieth	corfonieth gorfonieth

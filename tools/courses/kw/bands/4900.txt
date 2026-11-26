@@ -1,100 +1,16 @@
-1	4801	outray	
-2	4802	awtoritauster	
-3	4803	delennek	delynnek
-4	4804	keskorra	keskorrys
-5	4805	arbenigores	
-6	4806	bankskwattyans	
-7	4807	kortes	
-8	4808	brennyas	
-9	4809	ervirus	
-10	4810	a-dermyn	
-11	4811	galwydh	alwedh
-12	4812	ewnheans	
-13	4813	destys	
-14	4814	ankarji	
-15	4815	arbrovel	
-16	4816	nebonen	
-17	4817	dadhelor	
-18	4818	ragvreusek	
-19	4819	anjustis	
-20	4820	morladres	
-21	4821	striw	
-22	4822	bryghlinans	vryghlinans
-23	4823	kastiga	kastigys
-24	4824	mellya	
-25	4825	falsgober	
-26	4826	burokrat	
-27	4827	spadhesik	
-28	4828	degadow	
-29	4829	bodhoges	vodhogesow
-30	4830	rewlell	rewlellow
-31	4831	ekonomydhes	
-32	4832	medynor	
-33	4833	bryvya	prevyes
-34	4834	broklo	
-35	4835	akrylek	akrylyk
-36	4836	enesegans	enysegans
-37	4837	lesel	
-38	4838	demma	
-39	4839	panes	
-40	4840	alkemi	
-41	4841	mosek	
-42	4842	borlowen	
-43	4843	ewoni	
-44	4844	aslamma	aslabma
-45	4845	bessel	vessel
-46	4846	mostard	
-47	4847	gasadow	kasadow
-48	4848	ardhyghtya	
-49	4849	avlan	
-50	4850	fyrat	firat
-51	4851	antiseptyk	
-52	4852	kreswas	
-53	4853	pigell	
-54	4854	draylell	draylellow
-55	4855	fridh	fridhow
-56	4856	dystyllya	distyllya
-57	4857	onn	
-58	4858	revya	
-59	4859	koyote	
-60	4860	kosin	kosins
-61	4861	devrek	
-62	4862	assa	
-63	4863	konvedhadow	
-64	4864	hewel	
-65	4865	brosweyth	
-66	4866	checkva	jeckva
-67	4867	anlettryseth	
-68	4868	desiradow	
-69	4869	mamoleth	
-70	4870	breghellik	breghelligow
-71	4871	esy	esi
-72	4872	balegva	
-73	4873	amari	
-74	4874	celluloyd	
-75	4875	kewarghlen	
-76	4876	ott	
-77	4877	lemmel	lebmel
-78	4878	byjyon	byjyons
-79	4879	dallethva	
-80	4880	leurnedh	
-81	4881	kardamon	
-82	4882	safran	
-83	4883	baywydh	
-84	4884	sodones	
-85	4885	brithennek	
-86	4886	skubell	scubellow
-87	4887	glaveri	laveras
-88	4888	kalesweyth	galesweyth
-89	4889	prÿs	
-90	4890	owra	
-91	4891	emaylhe	
-92	4892	sians	
-93	4893	botha	bothys
-94	4894	hwerthin	hwerthys
-95	4895	evy	
-96	4896	ankarus	
-97	4897	resnadow	
-98	4898	fugyans	fugyansow
-99	4899	lownek	
-100	4900	peg	
+1	4801	farya	ferya
+2	4802	avalowa	
+3	4803	eksilya	eksilys
+4	4804	lenni	
+5	4805	chaynya	chaynys
+6	4806	aventurya	
+7	4807	figura	
+8	4808	gloosa	glosow
+9	4809	attent	
+10	4810	dyppa	
+11	4811	bedhek	
+12	4812	neghi	
+13	4813	euthega	
+14	4814	fenna	
+15	4815	forghya	
+16	4816	fanya	

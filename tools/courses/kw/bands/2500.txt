@@ -1,100 +1,100 @@
-1	2401	nader	naderow nadres
-2	2402	esperthi	esperthas esperthys esporthas esporthow
-3	2403	kothman	cothman gothman gothmans hothman hothmans kothmans
-4	2404	ser	seri
-5	2405	mellen	mellennow
-6	2406	ervirans	erviransow ervyrans
-7	2407	lamma	labma lammas
-8	2408	palster	balster
-9	2409	barv	barvow varv
-10	2410	kog	cog gog koges
-11	2411	aswiwans	aswiwansow
-12	2412	slynkya	slynk slynkyas
-13	2413	bili	fili vili
-14	2414	breus	breusow breusyow vreus
-15	2415	lown	lownyow
-16	2416	kosten	gosten kostennow
-17	2417	dy'gol	dhy'golyow dy'golyow
-18	2418	chayn	chaynys
-19	2419	akt	aktys
-20	2420	dewi	dewes dewys dhywes
-21	2421	meth	myth mythow mythys veth
-22	2422	omsettyas	
-23	2423	profys	
-24	2424	profyans	
-25	2425	grontyes	
-26	2426	formya	
-27	2427	omvyskys	
-28	2428	termys	
-29	2429	studhyer	
-30	2430	kessonennow	
-31	2431	ervys	
-32	2432	bismuth	
-33	2433	fug	
-34	2434	kesoberyans	
-35	2435	raglev	
-36	2436	homm	
-37	2437	ledyoryon	
-38	2438	tebmigow	
-39	2439	leysven	
-40	2440	dreusfurvek	
-41	2441	yethor	
-42	2442	kevrinek	
-43	2443	istorier	
-44	2444	diredh	
-45	2445	distrui	
-46	2446	certan	
-47	2447	lath	
-48	2448	tommder	
-49	2449	selyek	
-50	2450	morrew	
-51	2451	omjunya	
-52	2452	thoraks	
-53	2453	jeva	
-54	2454	ebren	
-55	2455	gwarior	
-56	2456	taklennow	
-57	2457	steronydhyon	
-58	2458	treusporth	
-59	2459	etek	
-60	2460	teudha	
-61	2461	komedi	
-62	2462	disel	
-63	2463	gweusek	
-64	2464	melanoleuca	
-65	2465	ursinus	
-66	2466	difeudhans	
-67	2467	kalter	
-68	2468	osweyth	
-69	2469	strethur	
-70	2470	a-dhesempis	
-71	2471	treylyer	
-72	2472	romansik	
-73	2473	divotter	
-74	2474	dhownder	
-75	2475	gowethasek	
-76	2476	attendyans	
-77	2477	loup	
-78	2478	protin	
-79	2479	krypton	
-80	2480	plutoniom	
-81	2481	talvosogeth	
-82	2482	titlys	
-83	2483	demokrat	
-84	2484	teknologieth	
-85	2485	jynnweythek	
-86	2486	renkys	
-87	2487	mynsonieth	
-88	2488	performyans	
-89	2489	dororydh	
-90	2490	diskudhyans	
-91	2491	protinyow	
-92	2492	krom	
-93	2493	olkenyow	
-94	2494	menoyl	
-95	2495	grohen	
-96	2496	derevyansow	
-97	2497	peskecha	
-98	2498	tewedha	
-99	2499	skravinas	
-100	2500	kilometrow	
+1	2401	taklennow	daklednow taklednow
+2	2402	teknologieth	deknologieth teknologiethow
+3	2403	mynsonieth	vynsonieth
+4	2404	menoyl	venoyl
+5	2405	moldrans	moldransow voldrans
+6	2406	keginieth	geginieth geginyeth keginyeth keginyethow
+7	2407	provians	brovians proviansow provyans provyansow
+8	2408	arva	arvys ervys
+9	2409	rewlyer	rewlyoryon
+10	2410	gwiasedh	gwiasedhow wiasedh
+11	2411	donsyer	donsyoryon
+12	2412	kyttrin	gyttrinyow kyttrinow kyttrinyow
+13	2413	asteroyd	asteroydow asteroydys
+14	2414	tira	dira diras
+15	2415	imaj	imajys
+16	2416	helerghi	helerghas helerghyas helerghys
+17	2417	divellkeynoges	dhivellkeynoges
+18	2418	kyrillek	gyrillek
+19	2419	hembronkyer	hembronkyoryon
+20	2420	vitamyn	vitamynow
+21	2421	tednvenek	dednvenek
+22	2422	plethys	blethys
+23	2423	ughnova	ughnovaow
+24	2424	basaltek	vasaltek
+25	2425	divotter	dhivotter
+26	2426	krevder	crevder grevder
+27	2427	promovya	bromovya promovyes
+28	2428	gwerinieth	gwerynieth werinieth
+29	2429	pannweyth	bannweyth padnweyth
+30	2430	pigern	bigern
+31	2431	degeans	dhegeans dhegeansow
+32	2432	tommheans	dobmheans dommheans tobmheans
+33	2433	kisya	gisyas kisyes
+34	2434	maseth	masethow vaseth
+35	2435	dallethvos	dhallethvos tallethvos
+36	2436	pompya	bompya pompyes
+37	2437	gwedhegi	gwedhegy gwydhegi wedhegi
+38	2438	gwynnrudh	gwydnrudh
+39	2439	broweghereth	vroweghereth
+40	2440	kussul	cussul gussul
+41	2441	rath	rathes
+42	2442	kogh	gogh koghow
+43	2443	kildro	gildro gildroyow kildroyow
+44	2444	grestennen	krestednen krestennen
+45	2445	neus	neusen
+46	2446	garan	aran haran waran
+47	2447	spis	spisyow spisys
+48	2448	skrin	scrin skrinyow
+49	2449	kowans	cowans gowansow howansow kowansow
+50	2450	kildenna	gildedna gildenna gildennas kildedna
+51	2451	mola	folsys molas moles molys
+52	2452	medh	medhes medhow
+53	2453	selvenek	
+54	2454	brof	
+55	2455	ensompel	
+56	2456	nawves	
+57	2457	a-dal	
+58	2458	mestronieth	
+59	2459	a-gledh	
+60	2460	tewesek	
+61	2461	ethves	
+62	2462	volkanek	
+63	2463	a-dhelergh	
+64	2464	niverans	
+65	2465	verbow	
+66	2466	manganes	
+67	2467	hensi-tram	
+68	2468	eskorrans	
+69	2469	keskelmys	
+70	2470	argon	
+71	2471	neodymiom	
+72	2472	iridiom	
+73	2473	steroniethel	
+74	2474	gwydn-arhansek	
+75	2475	lavasas	
+76	2476	mamba	
+77	2477	kynnyav	gynnyav
+78	2478	tarow	darow
+79	2479	lath	lathow
+80	2480	thoraks	thoraksow
+81	2481	lostek	lostoges
+82	2482	kowas	gowasow
+83	2483	komedi	gomedi
+84	2484	avoydya	avoyd
+85	2485	difeudhans	dhifeudhans
+86	2486	laterit	lateritow
+87	2487	fethans	fethansow
+88	2488	doktourieth	doktouriethow
+89	2489	lowarther	lowarthoryon
+90	2490	ewnter	ewntres
+91	2491	ayrlu	ayrluyow
+92	2492	alkohol	alcohol
+93	2493	paladiom	baladiom
+94	2494	besyel	fesyel vesyel
+95	2495	reynya	reynyas
+96	2496	gwarnyans	gwarnyansow
+97	2497	teyl	deyl teylys
+98	2498	golusek	wolusek
+99	2499	kovskrifa	govskrifa govskrifas kovskrifys
+100	2500	bledhen-wolow	vledhen-wolow vlydhyn-wolow

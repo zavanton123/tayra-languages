@@ -1,33 +1,33 @@
 1	2001	reydhek	
-2	2002	pencyta	
+2	2002	pencyta	pencita
 3	2003	gweythvaow	
 4	2004	lycklod	
-5	2005	diyskynna	
-6	2006	pibow	
+5	2005	diyskynna	dhiyskydnas dhiyskynna dhiyskynnas diyskynnys tiyskydna tiyskynna
+6	2006	pibow	bibow
 7	2007	bythlas	
 8	2008	gesyer	
 9	2009	sprusen	
-10	2010	strothys	
-11	2011	bonyas	
-12	2012	shyndys	
+10	2010	strothys	stroth strotha strottha
+11	2011	bonyas	ponyas
+12	2012	shyndys	shyndya shyndyas shyndyes
 13	2013	rond	
 14	2014	galliom	
 15	2015	strontiom	
 16	2016	iodin	
 17	2017	rannevesow	
 18	2018	sporow	
-19	2019	metrow	
-20	2020	klorid	
+19	2019	metrow	vetrow
+20	2020	klorid	glorid kloridys
 21	2021	esplegyans	
-22	2022	silikat	
+22	2022	silikat	silikatow
 23	2023	dor-tanow	
-24	2024	purhe	
+24	2024	purhe	burhe purheys
 25	2025	nasyow	
 26	2026	wodhasek	
 27	2027	karst	
 28	2028	eukaryotes	
 29	2029	romansores	
-30	2030	difudhek	
+30	2030	difudhek	dhifudhek tifudhek
 31	2031	mafek	
 32	2032	kewar	gewar
 33	2033	ys	ysen
@@ -59,12 +59,12 @@
 59	2059	derivadow	deryvadow dherivadow
 60	2060	esedha	esedhas esedhys
 61	2061	vanylyon	
-62	2062	savon	
+62	2062	savon	savonow
 63	2063	serghek	
-64	2064	trevek	
-65	2065	tennvos	
-66	2066	performya	
-67	2067	kyrghynn	
+64	2064	trevek	drevek
+65	2065	tennvos	dednvosow dennvos tednvos tednvosow tennvosow
+66	2066	performya	berformya berformyas performyes
+67	2067	kyrghynn	gerghyn gerghynn gyrghyn gyrghynn herghyn hyrghynn kerghyn kerghynn kyrghenn kyrghyn
 68	2068	brav	
 69	2069	boesek	
 70	2070	effeythus	
@@ -72,29 +72,29 @@
 72	2072	whath	
 73	2073	dastyllys	
 74	2074	hager	
-75	2075	kehaval	
-76	2076	testennow	
+75	2075	kehaval	gehaval
+76	2076	testennow	destednow destennow testednow
 77	2077	performys	
 78	2078	kosel	
 79	2079	hendhyskonieth	
 80	2080	entrans	
 81	2081	fatell	
-82	2082	gwers	
+82	2082	gwers	gwersiow gwersow wers wersyow
 83	2083	omladha	
-84	2084	omjunyas	
-85	2085	hembronkyas	
-86	2086	prisner	
+84	2084	omjunyas	omjunya omjunys
+85	2085	hembronkyas	hembronk hembronkas hembronkys
+86	2086	prisner	brisnoryon prisnoryon
 87	2087	galish	
 88	2088	venja	
 89	2089	kehysedh	
 90	2090	downna	
 91	2091	ugensves	
-92	2092	gorhemmyn	
+92	2092	gorhemmyn	gorhebmyn worhebmyn worhemmyn
 93	2093	leyth	
 94	2094	lows	
 95	2095	krysir	
 96	2096	nena	
 97	2097	neon	
-98	2098	kethneth	
+98	2098	kethneth	gethneth kethnethow
 99	2099	getto	etto
 100	2100	spenas	

@@ -1,33 +1,33 @@
 1	1801	gava	ava avens gav gaves gavsons gevis gevys kavsons
 2	1802	arvorek	
-3	1803	towlenn	
+3	1803	towlenn	dowlednow dowlenn dowlennow thowlennow towlednow towlydnow towlynnow
 4	1804	gwlasek	
 5	1805	chek	
-6	1806	ynkressya	
-7	1807	lett	
-8	1808	konseler	
+6	1806	ynkressya	enkressya ynkressyas ynkressys
+7	1807	lett	lettow
+8	1808	konseler	konseloryon
 9	1809	eseleth	
 10	1810	lymnys	
-11	1811	kowr	
+11	1811	kowr	cowr kowres kowrow
 12	1812	wariva	
 13	1813	lithiom	
-14	1814	gwenon	
-15	1815	sterenn	
-16	1816	formys	
-17	1817	kenwerthel	
-18	1818	muryon	
+14	1814	gwenon	gwenonow wenon
+15	1815	sterenn	sterednow sterennow
+16	1816	formys	formas formsons formya formyas formyes
+17	1817	kenwerthel	genwerthel
+18	1818	muryon	vuryon
 19	1819	weythva	
-20	1820	junyans	
+20	1820	junyans	junyansow
 21	1821	ombrofyores	
-22	1822	preydhoryon	
+22	1822	preydhoryon	breydhoryon
 23	1823	disesys	
-24	1824	gwakter	
+24	1824	gwakter	wakter
 25	1825	awtoures	
 26	1826	silikon	
 27	1827	vota	
-28	1828	kribow	
+28	1828	kribow	cribow gribow
 29	1829	rewi-teudhi	
-30	1830	krommdo	
+30	1830	krommdo	grommdo
 31	1831	rewtinyow	
 32	1832	hedardh	
 33	1833	kesten	kestenen
@@ -40,7 +40,7 @@
 40	1840	pin	bin
 41	1841	batri	batriow fatri vatry
 42	1842	aspians	aspiansow aspiansys
-43	1843	ewnhe	ewnhas ewnheas ewnhes
+43	1843	ewnhe	ewnhas ewnheas ewnhes ewnys
 44	1844	flamm	flabm flabmow flammow
 45	1845	bath	bathow bathys vathow
 46	1846	kommol	comol homolen komolen
@@ -53,41 +53,41 @@
 53	1853	deskrifans	deskrifansow dhescrifans dheskrifans dheskrifansow
 54	1854	gallosegi	allosegas allosegi gallosegas gallosekka hallosegi kallosegi wallosegas
 55	1855	gorwedha	gorwedh hworwedha korwedha krowedha worwedh worwedhas
-56	1856	pupprys	
+56	1856	pupprys	puppres
 57	1857	tisplegya	
 58	1858	avell	
 59	1859	hordh	
 60	1860	nes	
 61	1861	nepprys	
 62	1862	hweghves	
-63	1863	henhwedhel	
-64	1864	kentrevek	
-65	1865	longya	
+63	1863	henhwedhel	henwhedhlow
+64	1864	kentrevek	gentrevek hentrevek
+65	1865	longya	longyas
 66	1866	poken	
 67	1867	skrifor	
-68	1868	omglewes	
+68	1868	omglewes	omglew omglewas omglewis omglewys
 69	1869	sugal	
 70	1870	reydhel	
 71	1871	län	
-72	1872	preydh	
-73	1873	karnek	
+72	1872	preydh	breydh freydh
+73	1873	karnek	garnek
 74	1874	bas	
 75	1875	dhalathas	
 76	1876	vythlas	
 77	1877	war-nans	
-78	1878	rannans	
+78	1878	rannans	radnans
 79	1879	jynn-ethen	
 80	1880	varyansow	
 81	1881	yagh	
 82	1882	dhana	
-83	1883	skorya	
-84	1884	venynreydh	
-85	1885	diwes	
-86	1886	spektrum	
+83	1883	skorya	skoria skoryas
+84	1884	venynreydh	venenreydh
+85	1885	diwes	dhiwes dhiwesow diwesow
+86	1886	spektrum	spectrum
 87	1887	monazit	
-88	1888	vewoniethel	
+88	1888	vewoniethel	bewoniethel fewoniethel
 89	1889	anthraks	
-90	1890	tennros	
+90	1890	tennros	dennros dennrosow tennrosow
 91	1891	felsek	
 92	1892	dega	dhega
 93	1893	kenyver	keniver

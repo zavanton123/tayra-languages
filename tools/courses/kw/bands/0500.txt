@@ -3,26 +3,26 @@
 3	403	a-ugh	a-ughta a-ughto
 4	404	awtour	awtours
 5	405	tenna	dedn dedna dednas denn denna dennas tedn tedna tednas tednens tednow tenn tennas tennis tennys thedna thenna
-6	406	ughelder	uhelder
+6	406	ughelder	ughelderow uhelder
 7	407	kannas	gannas gannasow hannas hannasow kadnas kanasow kannasow
 8	408	prys	pres
 9	409	naturel	
 10	410	arta	
-11	411	denel	
+11	411	denel	dhenel
 12	412	keyn	een geyn geynyow heyn heynow keynow keynyow
 13	413	istorek	
 14	414	kryjyans	crejyans grejyansow gryjyans gryjyansow kryjyansow
 15	415	gorra	gorras gorris gorrys korra worr worra worras
 16	416	lavur	lavuras
-17	417	tardhans	tardhansow
+17	417	tardhans	dardhans dardhansow tardhansow thardhans thardhansow
 18	418	kleves	cleves clevesow gleves glevesow klevesow levys
 19	419	resek	resa resas resegow ressa resys
 20	420	amal	amalow emlow
 21	421	pellwolok	bellwolok pellwologow
 22	422	kober	gober wober
-23	423	tewlel	dewlel dewli dewlis dewlys dowla dowlen dowlis tewlis tewlys thewlel thowlen towlel towlen towlys
+23	423	tewlel	dewlel dewli dewlis dewlys dowla dowlen dowlis tewlis tewlys thewlel thowlen towlas towlel towlen towlys
 24	424	mil	fil miles milyon milyow mylyon mylyow vil viles vilyon vilyow vylyon
-25	425	dydhyans	
+25	425	dydhyans	dedhyans dedhyansow dhydhyans dhydhyansow dydhyansow
 26	426	eur	euryow
 27	427	askorn	ascorn eskern
 28	428	kodha	codha cottha godh godha godhsa gottha hodh kodh kodhes kodhys koedh koodh kottha wodh
@@ -33,7 +33,7 @@
 33	433	konsel	honsel konselys
 34	434	martesen	
 35	435	tochya	doch dochya dochyas thochya toch tochyas
-36	436	hwithrans	
+36	436	hwithrans	hwithransow whithrans
 37	437	gwerin	werin
 38	438	arth	arthes
 39	439	gwrians	gwriansow wrians wriansow wryans
@@ -46,9 +46,9 @@
 46	446	possybyl	possibyl
 47	447	kinda	ginda hinda kindys kynda
 48	448	sevel	saffa sav savsa sevelas sevi sevis sevys
-49	449	demedhi	demedhas demedhes demedhy demedhys dhemedh dhemedhas dhemedhi dhemedhis dhemedhsa dhemedhys temedh temedhis
-50	450	gonisogeth	
-51	451	y'ga	
+49	449	demedhi	demedhas demedhes demedhy demedhys demmedhi demmedhy dhemedh dhemedhas dhemedhi dhemedhis dhemedhsa dhemedhys dhemmedhas dhemmedhi dhemmedhis temedh temedhis temmedhis
+50	450	gonisogeth	gonysogeth wonisogethow
+51	451	y'ga	i'ga
 52	452	periodek	beriodek
 53	453	loor	loer loerow loryow
 54	454	gwariores	gwarioresow wariores
@@ -67,7 +67,7 @@
 67	467	gis	gisow gisyow gys isyow kisys
 68	468	prenn	bredn brenn brennyer predn prednyer prennyer vrenn
 69	469	tardha	dardh dardha dardhas dardhens dardhons dardhow dardhsa dardhys darthen tardh tardhas tardhen tardhow tardhys tarthen thardha
-70	470	kowethyans	
+70	470	kowethyans	gowethyans gowethyansow howethyans
 71	471	a-barth	
 72	472	hwilas	hwila hwilen hwiles whilas whiles
 73	473	kana	cana canna gana ganas ganna gynis hana kanna kannys kansa kenys kynsys
@@ -96,5 +96,5 @@
 96	496	lowr	
 97	497	arghans	arhans
 98	498	paper	baper baperow baperyow paperow paperyow
-99	499	dehweles	dehwel dehwelis dehwelys dhehwel dhehwelas dhehweles dhehwelis dhehwelsa dhewhelis tehwelas tehweles tehwelis tewheles
+99	499	dehweles	dehwel dehwelis dehwelys dewhelas dewheles dhehwel dhehwelas dhehweles dhehwelis dhehwelsa dhewhelis tehwelas tehweles tehwelis tewheles
 100	500	ystyn	istyn ystydna ystydnas ystydnys ystynn ystynna ystynnas ystynnys ystynys

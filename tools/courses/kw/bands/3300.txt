@@ -1,100 +1,100 @@
-1	3201	erbynner	erbydner erbynnoryon
-2	3202	krestennek	grestenogyon krestenogyon
-3	3203	bownder	vownder
-4	3204	egin	eginyow
-5	3205	strokas	strocas strokasow
-6	3206	flour	flourys
-7	3207	finweth	finwethow
-8	3208	dewek	dhewek tewek
-9	3209	garm	arm
-10	3210	daswrians	daswriansow dhaswrians dhaswriansow
-11	3211	spong	spongow
-12	3212	eylgylghya	eylgelghys eylgylgh eylgylghys
-13	3213	addya	addis addyes addys
-14	3214	finwetha	finwethas finwethys
-15	3215	dolli	dholli dolliow tolli
-16	3216	arhwilell	arhwilellow
-17	3217	leunhe	leunhas leunhasa leunhes
-18	3218	krefhe	grefha grefhe gryfhas krefhas krefhes
-19	3219	gidya	gid gidys ideas kidya
-20	3220	daswul	daswres daswrys dhaswrug taswul
-21	3221	bollen	bollednow bollennow vollednow
-22	3222	finsya	finsas finsyas fyns fynsons
-23	3223	chalenjya	chalenjys jalenjyas jalenjys
-24	3224	gun	gonyow onyow wonyow
-25	3225	moos	foos moes mosow voos
-26	3226	gwiver	gwivren wivren
-27	3227	astel	astellys astelyow astelys
-28	3228	basnet	basnettow basnettys vasnettys
-29	3229	chassya	chassyas chassys jass jassya jassyas
-30	3230	tisplegyas	
-31	3231	mentena	
-32	3232	erbysiethek	
-33	3233	weythres	
-34	3234	myghterneth	
-35	3235	syger	
-36	3236	dho	
-37	3237	linyek	
-38	3238	plasennow	
-39	3239	strateji	
-40	3240	hymnys	
-41	3241	hebleth	
-42	3242	ragdresow	
-43	3243	fals	
-44	3244	grondys	
-45	3245	skath-sawya	
-46	3246	liwyans	
-47	3247	kovadh	
-48	3248	raglevow	
-49	3249	milvledhen	
-50	3250	ombrofya	
-51	3251	dreylyans	
-52	3252	serr	
-53	3253	pluvek	
-54	3254	ughviolet	
-55	3255	losonieth	
-56	3256	possybl	
-57	3257	bomba	
-58	3258	lithosfer	
-59	3259	poyntow	
-60	3260	sivil	
-61	3261	drogober	
-62	3262	keffrysysi	
-63	3263	polisi	
-64	3264	erbysiedh	
-65	3265	tiskwedha	
-66	3266	isvrastir	
-67	3267	sterennow	
-68	3268	kenwertha	
-69	3269	usir	
-70	3270	bargen-tir	
-71	3271	ynk	
-72	3272	scol	
-73	3273	gora	
-74	3274	ammethek	
-75	3275	sall	
-76	3276	d'outre-mer	
-77	3277	kordhow	
-78	3278	sordyans	
-79	3279	korfonieth	
-80	3280	imajys	
-81	3281	pednplas	
-82	3282	wradheg	
-83	3283	solempnys	
-84	3284	asteroyd	
-85	3285	burdhen	
-86	3286	data	
-87	3287	kolonnen	
-88	3288	vonow	
-89	3289	keskanow	
-90	3290	isgenas	
-91	3291	receva	
-92	3292	melldrosogyon	
-93	3293	kathigen	
-94	3294	roas	
-95	3295	selsik	
-96	3296	sodha	
-97	3297	teknogel	
-98	3298	gori	
-99	3299	yettys	
-100	3300	trennow	
+1	3201	kaslu	
+2	3202	kerrygi	
+3	3203	dewweder	
+4	3204	atol	
+5	3205	vysytoryon	
+6	3206	kowrdhowrgi	
+7	3207	esknians	
+8	3208	pisko	
+9	3209	isframweyth	
+10	3210	eksoplanettys	
+11	3211	amethel	
+12	3212	degyans	
+13	3213	hwistel	
+14	3214	gragen	
+15	3215	alena	
+16	3216	gorowreydh	
+17	3217	pigorn	
+18	3218	whesigow	
+19	3219	endokrin	
+20	3220	kevarwodhes	
+21	3221	skydnya	skennys
+22	3222	losni	
+23	3223	hirwarrowyow	
+24	3224	donsyores	
+25	3225	dovheys	
+26	3226	ryolit	
+27	3227	solydhys	
+28	3228	dager	dagrow dhagrow
+29	3229	peswardhegves	beswardhegves
+30	3230	peuri	feuri
+31	3231	pennhembrenkyas	pednhembrenkyas
+32	3232	godrigoryon	wodrigoryon
+33	3233	degol	degolyow
+34	3234	skeusi	skeusys
+35	3235	lo	loyow
+36	3236	ponegyans	bonegyans
+37	3237	kampollans	kampollansow
+38	3238	lyskannas	lyskannasow
+39	3239	degowek	degowogyon
+40	3240	vers	versyow
+41	3241	albom	albomow
+42	3242	ombrofyans	ombrofyansow
+43	3243	bytt	pytt pyttys
+44	3244	kowrvargh	gowrvargh
+45	3245	metaboledh	vetaboledh
+46	3246	personoleth	personolethow
+47	3247	boksuser	boksusoryon
+48	3248	modrep	modrebedh
+49	3249	onyon	onyonen
+50	3250	gwelydni	welydni
+51	3251	kresvorek	gresvorek
+52	3252	gweresliv	weresliv
+53	3253	olivin	olyvinyow
+54	3254	hwist	whist
+55	3255	marg	varg
+56	3256	gromosomow	kromosomow
+57	3257	asow	asowen
+58	3258	pankreas	pancreas
+59	3259	mejwesyon	vejwesyon
+60	3260	muryonoryon	vuryonoryon
+61	3261	koffiji	koffijiow
+62	3262	a'gan	
+63	3263	menta	venta
+64	3264	checkya	jeckya
+65	3265	galladow	alladow
+66	3266	agwedh	agwedhow
+67	3267	didhemedhyans	didhemedhyansow
+68	3268	alhwedh	alhwedhow
+69	3269	ynstallya	ynstallyas ynstallyes ynstallys
+70	3270	gorm	worm
+71	3271	arghadow	arghadowyow
+72	3272	kevrennek	gevrenogyon kevrenogyon
+73	3273	sether	sethoryon
+74	3274	didorr	dhidorr tidorr
+75	3275	nedh	nedhen nedhys
+76	3276	sab	saben
+77	3277	kespos	gespos
+78	3278	gwynnek	gwennek hwynnek
+79	3279	dastrehevel	dastrehevys
+80	3280	leugh	leughi
+81	3281	skudel	skudellow
+82	3282	destryppya	destryppys dhestryppya
+83	3283	diabetik	dhiabetigyon diabetigyon
+84	3284	dyghowbarth	dheghowbarth dhyghowbarth
+85	3285	taw	daw tawyow
+86	3286	argerdhes	argerdhi argerdhys
+87	3287	menhe	menhes menyn venhes venheys
+88	3288	klun	glun hlunyow klunyow
+89	3289	finsya	finsas finsyas fynsons
+90	3290	fasthe	fastas fasthas fasthes fastyas fastyes
+91	3291	genna	enna gennes hednys ynnys
+92	3292	tewlder	dewlder
+93	3293	brewyon	browsyon
+94	3294	morlader	morladron
+95	3295	alemma	alebma
+96	3296	kudh	gudh
+97	3297	stervarner	stervarnoryon
+98	3298	disliwa	disliw disliwys
+99	3299	stif	stifow
+100	3300	brottel	vrottel

@@ -1,100 +1,100 @@
-1	3401	solyd	
-2	3402	solydhys	
-3	3403	dager	dagrow dhagrow
-4	3404	peswardhegves	beswardhegves
-5	3405	skeusi	skeusys
-6	3406	lo	loyow
-7	3407	degowek	degowogyon
-8	3408	albom	albomow
-9	3409	bytt	pytt pyttys
-10	3410	boksuser	boksusoryon
-11	3411	modrep	modrebedh
-12	3412	onyon	onyonen
-13	3413	asow	asowen
-14	3414	koffiji	koffijiow
-15	3415	a'gan	
-16	3416	menta	venta
-17	3417	checkya	jeckya
-18	3418	galladow	alladow
-19	3419	agwedh	agwedhow
-20	3420	didhemedhyans	didhemedhyansow
-21	3421	alhwedh	alhwedhow
-22	3422	ynstallya	ynstallyas ynstallyes ynstallys
-23	3423	gorm	worm
-24	3424	arghadow	arghadowyow
-25	3425	kevrennek	gevrenogyon kevrenogyon
-26	3426	sether	sethoryon
-27	3427	didorr	dhidorr tidorr
-28	3428	nedh	nedhen nedhys
-29	3429	sab	saben
-30	3430	kespos	gespos
-31	3431	gwynnek	gwennek hwynnek
-32	3432	bës	bÿs
-33	3433	dastrehevel	dastrehevys
-34	3434	leugh	leughi
-35	3435	skudel	skudellow
-36	3436	destryppya	destryppys dhestryppya
-37	3437	diabetik	dhiabetigyon diabetigyon
-38	3438	dyghowbarth	dheghowbarth dhyghowbarth
-39	3439	taw	daw tawyow
-40	3440	argerdhes	argerdhi argerdhys
-41	3441	menhe	menhes menyn venhes venheys
-42	3442	klun	glun hlunyow klunyow
-43	3443	kelmi	gelmi helmi holma
-44	3444	fasthe	fastas fasthas fasthes fastyas fastyes
-45	3445	genna	enna gennen gennes hednys wynnen ynnys
-46	3446	tewlder	dewlder
-47	3447	brewyon	browsyon
-48	3448	morlader	morladron
-49	3449	alemma	alebma
-50	3450	kudh	gudh
-51	3451	stervarner	stervarnoryon
-52	3452	disliwa	disliw disliwys
-53	3453	stif	stifow
-54	3454	brottel	vrottel
-55	3455	anedhyans	anedhyansow
-56	3456	sodron	sodronen
-57	3457	skovarnek	scovarnogyon skovarnogyon
-58	3458	hwedhla	hwedhlas hwedhlys
-59	3459	glanhe	klanhe lanhe
-60	3460	moryoner	muryonor vuryonor
-61	3461	kyf	gyf gyfyon kefys wyf
-62	3462	argemmyn	argemmynow argemydnow argemynnow
-63	3463	maylya	fael maylyes maylys vaylya
-64	3464	bann	bannyow padn vann
-65	3465	glesin	glesinyow lesin lesinyow
-66	3466	fonologiek	
-67	3467	menystrys	
-68	3468	genwerth	
-69	3469	omsettyoryon	
-70	3470	fors	
-71	3471	mynsek	
-72	3472	klassow	
-73	3473	war-vann	
-74	3474	kampyer	
-75	3475	tornyas	
-76	3476	poyntys	
-77	3477	hyli	
-78	3478	lelder	
-79	3479	brison	
-80	3480	rakhenna	
-81	3481	kuntell	
-82	3482	kesoberi	
-83	3483	karer	
-84	3484	tennvosek	
-85	3485	peuri	
-86	3486	hendhyskonydhyon	
-87	3487	kerdhoryon	
-88	3488	dhustuni	
-89	3489	derivador	
-90	3490	pennhembrenkyas	
-91	3491	renkasow	
-92	3492	hegar	
-93	3493	gedhlow	
-94	3494	kettesten	
-95	3495	tonnow	
-96	3496	omrians	
-97	3497	iranek	
-98	3498	godrigoryon	
-99	3499	projekt	
-100	3500	menystra	
+1	3401	erghlinen	
+2	3402	selvarian	
+3	3403	brysel	
+4	3404	killik	
+5	3405	saghow	
+6	3406	sukros	
+7	3407	syllaben	
+8	3408	drynsys	
+9	3409	frosedh	
+10	3410	kuntel-lyver	
+11	3411	dewvys	
+12	3412	elester	elestren
+13	3413	yn-dar	
+14	3414	stockek	
+15	3415	abel	abyl
+16	3416	ladhva	ladhvaow
+17	3417	resin	resinen
+18	3418	lewes	lewesow
+19	3419	knias	gnias
+20	3420	alusen	alusennow
+21	3421	ynkleudhva	enkleudhva ynkleudhvaow
+22	3422	korrbryv	korrbryves korrbryvyon
+23	3423	akontya	akontyas akontys akontysi
+24	3424	drudh	dhrudh
+25	3425	tungsten	dungsten
+26	3426	bulhorn	bulhornes vulhornes
+27	3427	pedri	bedri pedrys
+28	3428	lostledan	lostledanes
+29	3429	strus	strusyow
+30	3430	amethi	ameth amethas amethys
+31	3431	snod	snodow snodys
+32	3432	skavel	skavellow
+33	3433	leuvvedhek	leuvvedhogyon
+34	3434	fennva	fennvaow
+35	3435	hos	heyji
+36	3436	legri	leger legras legrys
+37	3437	tredhegves	trydhegves
+38	3438	darbari	darbar darbarys dharbar
+39	3439	astiveri	astiverys
+40	3440	daras	darasow dharasow
+41	3441	garma	ermin germen karma
+42	3442	havi	havas hev
+43	3443	devnydhyer	devnydhyoryon dhevnydhyoryon
+44	3444	arbeniger	arbenigoryon
+45	3445	diagnosa	dhiagnos diagnosys
+46	3446	keschanjya	geschanjya
+47	3447	pockya	pockys
+48	3448	rudhwynn	rudhwydn
+49	3449	nawnjek	nownsek
+50	3450	bugelya	bugel bugeledh
+51	3451	krowskas	growskas krowskasow
+52	3452	kramya	gram kramyas
+53	3453	hwenn	hwennen whedn
+54	3454	mortholya	morthol vortholya
+55	3455	kenderow	genderow genderwi henderow
+56	3456	devydna	devynn devynnys dhevynna dhevynnas
+57	3457	brashe	brashes brashys vrashas
+58	3458	pellhe	bellhas bellhe pellen pellhes
+59	3459	gwinbren	gwinbrednyer gwinbrennyer
+60	3460	dibenna	dhibenn dibennas dibennys tibennas
+61	3461	bool	bolyow volyow vool
+62	3462	roos	
+63	3463	medra	medras medrys veder vedras
+64	3464	krycket	
+65	3465	aradow	
+66	3466	honna	
+67	3467	nownsegves	
+68	3468	unnegves	
+69	3469	hwetegves	
+70	3470	bodhesik	
+71	3471	diantel	
+72	3472	artek	
+73	3473	seul	
+74	3474	argasus	
+75	3475	difudhi	difudhys
+76	3476	keser	
+77	3477	anpythek	
+78	3478	argas	
+79	3479	danvonadow	
+80	3480	argol	
+81	3481	cider	
+82	3482	mathematik	
+83	3483	emperouregieth	
+84	3484	diagnosans	
+85	3485	tregher	
+86	3486	gwedhyn	
+87	3487	athletek	
+88	3488	hwarhe	hwarhes
+89	3489	amalrewlivek	
+90	3490	lasek	
+91	3491	elvennel	
+92	3492	breuslys	breuslysow
+93	3493	dallether	dallethoryon
+94	3494	daswel	dhaswel
+95	3495	chenon	chenons
+96	3496	bewin	bowyn
+97	3497	didheurek	dhidheurek
+98	3498	puber	puberyow
+99	3499	adhyskansel	adhyscansel
+100	3500	breusydh	vreusydh

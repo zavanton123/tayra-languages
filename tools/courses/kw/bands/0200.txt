@@ -1,19 +1,19 @@
 1	101	me	fe fy my ve vy
 2	102	ger	er eres eryon eryow erys gerow geryow her weryow wyr
 3	103	may	mayth
-4	104	kyns	kens
+4	104	kyns	gens gyns kens
 5	105	bagas	bagasow vagas vagasow
 6	106	neb	
-7	107	gweles	gwel gwelas gwelen gwelewgh gweli gweliow gwelis gweliyow gwelow gwelsen gwelsys gwelyow gwelys hwelas hweles hwelis hwelow kweles wel welas welen weles weli weliow welow welsen welsyn welyn welyow welys
+7	107	gweles	gwel gwelas gwelen gwelewgh gweli gweliow gwelis gweliyow gwelow gwelsen gwelsys gwelyow gwelys hwelas hweles hwelir hwelis hwelow kweles wel welas welen weles weli weliow welow welsen welsons welsyn welyn welyow welys
 8	108	pur	bur fur purra
-9	109	komprehendya	gomprehend komprehend
+9	109	komprehendya	comprehendys gomprehend gomprehendya komprehend komprehendyas komprehendyes
 10	110	hemma	hebma hemm
 11	111	dydh	dedh dedhyow dhedh dhedhyow dhydh dhydhyow dydhyow dëdh jedh jydh tedh tydh
 12	112	lyver	levrow liver lyverow lyvrow
-13	113	kansblydhen	cansvledhen kansbledhen kansvledhen
+13	113	kansblydhen	cansbledhen cansvledhen cansvledhyn gansbledhen gansblydhen gansvledhen kansbledhen kansblydhenow kansblydhenyow kansblydhynyow kansvledhen kansvlydhen
 14	114	teylu	deylu deyluyow teyluow teyluyow theylu theyluyow
 15	115	tri	deer deyr dhrei dhri dhrias dhros drei dresen dri driys dros teir teyr their theyr thri trei trias triys try tryas
-16	116	aswon	ajon aswonas aswoni aswonis aswonnis aswonnyn aswonnys aswonsys aswonyn
+16	116	aswon	ajon ajwonys aswonas aswoni aswonir aswonis aswonn aswonnas aswonnis aswonnyn aswonnys aswonsys aswonyn
 17	117	de	
 18	118	koth	coth cottha goth gottha hoth kottha
 19	119	ober	oberons oberow oberyow
@@ -53,7 +53,7 @@
 53	153	herwydh	herwedh
 54	154	north	noor
 55	155	fylm	film filmow filmys fylmow fylmyow fylmys
-56	156	hir	hirra
+56	156	hir	hirra hyr
 57	157	gweres	gweresa gweresow gweresys gweryn gwerys hweres hweressa hwyris kweres kweresis weras weres weresa weresas weresis weresow wheres
 58	158	elven	elvednow elvennow
 59	159	ughel	ughella uhel uhella
@@ -64,16 +64,16 @@
 64	164	ebrel	ebryl
 65	165	hwedhel	hwedhlow whedhel whedhlow
 66	166	ena	enev
-67	167	niveryans	
+67	167	niveryans	niveryansow nyveryans nyveryansow
 68	168	nans	nansow
 69	169	ha'y	
 70	170	furv	furvow furvyow
-71	171	gwarier	gwarioryon hwarier warier warioryon
+71	171	gwarier	gwarior gwarioryon gwaryor hwarier warier warioryon
 72	172	amerikanek	
 73	173	heb	hebdha hebdhi hebdho hebos
 74	174	gwlas	gwlasow wlas wlasow
 75	175	nessa	
-76	176	drehevel	derevel derevys dherevel dhrehevas dhrehevel dhrehevis dhrehevyas dhrehevys drehevis drehevyas drehevys terevel trehevel trehevis trehevyas
+76	176	drehevel	derevel derevys dherevel dhrehev dhrehevas dhrehevel dhrehevis dhrehevyas dhrehevys drehevis drehevyas drehevys terevel trehevel trehevis trehevyas
 77	177	arbennik	arbednek arbednick arbednik arbednyk arbennek
 78	178	taves	daves davosow tavas tavasow tavosow thavas thaves thavosow
 79	179	gortheren	
@@ -85,7 +85,7 @@
 85	185	awos	
 86	186	synsi	senji senjy sensyas sinsa synji syns synsa synsas synsis synsy synsyas synsys
 87	187	senedh	senedhow
-88	188	gelwel	elwas elwel elwis galwa galwes gelwas gelwis gelwyas gelwys helwi helwys kelwel kelwys welwis
+88	188	gelwel	elwas elwel elwis galwa galwes gelwas gelwir gelwis gelwyas gelwys gylwir helwi helwir helwys kelwel kelwir kelwys welwis
 89	189	devnydh	devnydhyow dhevnedh dhevnydh dhevnydhyow tevnydh tevnydhons
 90	190	ytho	etho
 91	191	kenedhel	genedhel genedhlow henedhel kenedhlow

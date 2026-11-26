@@ -1,100 +1,100 @@
-1	3501	tira	
-2	3502	frankedh	
-3	3503	dihevelepter	
-4	3504	scoren	
-5	3505	degol	
-6	3506	styryansow	
-7	3507	dedhyans	
-8	3508	kerthow	
-9	3509	pergherinses	
-10	3510	trevesigoryon	
-11	3511	deur	
-12	3512	tiogyon	
-13	3513	gwrythyans	
-14	3514	محمد	
-15	3515	sywyas	
-16	3516	jornalydh	
-17	3517	anwodhevys	
-18	3518	pùb	
-19	3519	askell	
-20	3520	orgraf	
-21	3521	afrikan	
-22	3522	kowlwriansow	
-23	3523	merk	
-24	3524	helergh	
-25	3525	sterorieth	
-26	3526	kansrann	
-27	3527	spyrysek	
-28	3528	gwlan	
-29	3529	pymthegves	
-30	3530	polynesek	
-31	3531	krokodiles	
-32	3532	phylum	
-33	3533	appoyntys	
-34	3534	marchont	
-35	3535	lettyans	
-36	3536	karibek	
-37	3537	balestinek	
-38	3538	freudhek	
-39	3539	rewliva	rewlivys
-40	3540	imaj	
-41	3541	kablus	
-42	3542	ponegyans	
-43	3543	kampollans	
-44	3544	eno	
-45	3545	batalya	
-46	3546	strif	
-47	3547	droglamm	
-48	3548	lowena	
-49	3549	peulyow	
-50	3550	naras	
-51	3551	porres	
-52	3552	lyskannas	
-53	3553	vrasilek	
-54	3554	themys	
-55	3555	ewngryjyk	
-56	3556	kovadhys	
-57	3557	naturek	
-58	3558	skoodhyoryon	
-59	3559	trist	
-60	3560	lymners	
-61	3561	towlednow	
-62	3562	hwelji	
-63	3563	keskan	
-64	3564	glauca	
-65	3565	lesk	
-66	3566	vers	
-67	3567	piwek	
-68	3568	eskis	eskisyow
-69	3569	gwithtiow	
-70	3570	wonisogethow	
-71	3571	uheldiryow	
-72	3572	estyll	
-73	3573	ha'gas	
-74	3574	krestennogyon	
-75	3575	isfylum	
-76	3576	bakteriom	
-77	3577	hirgrennow	
-78	3578	bonya	
-79	3579	pennrewl	
-80	3580	skeusek	
-81	3581	gwylvos	
-82	3582	kniviles	
-83	3583	ordenans	
-84	3584	holyans	
-85	3585	plommwedhek	
-86	3586	yethek	
-87	3587	sedhoryon	
-88	3588	ydhnigow	
-89	3589	anbarghus	
-90	3590	ombrofyans	
-91	3591	problemys	
-92	3592	treusworrys	
-93	3593	komprehendyes	
-94	3594	servyes	
-95	3595	novelys	
-96	3596	gostek	
-97	3597	keworrans	
-98	3598	lesek	
-99	3599	rusken	
-100	3600	gowsir	
+1	3501	klopen	glopennow
+2	3502	teloriom	deloriom
+3	3503	degre	degreow
+4	3504	boghosogneth	voghosogneth
+5	3505	athlet	athletys
+6	3506	glin	dewlin
+7	3507	mols	vols
+8	3508	erita	eritys
+9	3509	loder	lodrow
+10	3510	boreles	voreles
+11	3511	palmwydh	balmwydh palmwedhen
+12	3512	golvan	golvanes wolvan
+13	3513	hesken	heskednow heskennow
+14	3514	dastewynnya	dastewynnys dhastewynnya
+15	3515	enowi	enowas enowys
+16	3516	brigad	brigadow frigad
+17	3517	brosa	brosas vrosa vrosas
+18	3518	paw	baw bawyow pawyow
+19	3519	krasa	crassa kras kressys
+20	3520	bewder	bywder vywder
+21	3521	bardhes	bardhys vardhes
+22	3522	kanstel	ganstel ganstellow kanstellow
+23	3523	skollya	scollya scollys skollyas skollys
+24	3524	kartha	cartha hartha karth
+25	3525	tennven	tednven tednveyn tennveyn
+26	3526	penn-bloodh	benn-bloodh penn-bloedh pennow-bloodh
+27	3527	keskreuni	geskreunas kescreunys keskreunys
+28	3528	gwethhe	gwethas gwethhes wethhas wethhe
+29	3529	euth	euthow
+30	3530	oula	oulys
+31	3531	bothen	bothennow
+32	3532	avowans	avowansow
+33	3533	kestava	gestavas
+34	3534	lavrek	lavrogow
+35	3535	bagh	baghow
+36	3536	dalghen	dhalghen
+37	3537	klogh	glygh klegh
+38	3538	dehwelans	dhehwelans
+39	3539	glawek	lawek
+40	3540	kowles	kowlesen
+41	3541	arvethesik	arvethesigyon
+42	3542	lavurya	lavuryas
+43	3543	aven	avenyow avyn
+44	3544	bleudh	vleudh
+45	3545	agria	agrias
+46	3546	dhywar	dhiwar diwar
+47	3547	sopposya	sopposyes sopposys
+48	3548	bleujyowa	pleujyowa vleujyowas
+49	3549	erbysydh	erbysydhyon
+50	3550	erghslynk	erghslynkow
+51	3551	estyllen	estyllednow estyllennow
+52	3552	argemynnans	argemydnans
+53	3553	kreyth	greythen kreythen
+54	3554	kador	gador kadoryow
+55	3555	bleynya	bleynys pleynya
+56	3556	bysowek	besowek vysowek
+57	3557	bewek	pewek vewek
+58	3558	klamdera	klamder klamderys
+59	3559	korynt	coryns corynt koryns
+60	3560	omberthi	omberthys omborth
+61	3561	bynk	bynkyow fynk vynkyow
+62	3562	berya	ferya persons
+63	3563	mool	vool
+64	3564	bysya	bysis byssa vesyas
+65	3565	war-bynn	
+66	3566	ansodhogel	
+67	3567	boksusi	
+68	3568	euthekter	
+69	3569	fydhyans	
+70	3570	indelna	yndelna
+71	3571	ahanan	
+72	3572	hireth	
+73	3573	eli	
+74	3574	boteller	
+75	3575	askornek	
+76	3576	broweghyas	broweghysi
+77	3577	emperes	
+78	3578	rach	
+79	3579	gal	
+80	3580	denladha	denledhys
+81	3581	smodh	
+82	3582	arvreus	
+83	3583	adhyski	
+84	3584	helgik	
+85	3585	askorrus	
+86	3586	gellrudh	
+87	3587	breynder	
+88	3588	glasrudh	
+89	3589	esthetek	
+90	3590	kegi	kegys
+91	3591	anformel	
+92	3592	kempen	
+93	3593	korrorganedh	korrorganedhow
+94	3594	genetyk	genetek
+95	3595	framweyth	
+96	3596	fongalgi	
+97	3597	folenna	folenn folennys
+98	3598	aswa	aswaow
+99	3599	riv	rivow
+100	3600	morhogh	morhoghes

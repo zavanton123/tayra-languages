@@ -4,12 +4,12 @@
 4	704	ar	arow
 5	705	dhosedh	
 6	706	yeghes	
-7	707	poblek	
+7	707	poblek	boblek
 8	708	koweth	coweth goweth gowetha gowethes howeth howetha howethes kowetha kowethys
 9	709	pryv	brev breves brevyon bryv freves prev preves prevow prevyon pryves pryvow
-10	710	treylyans	
-11	711	ledyer	
-12	712	versyon	
+10	710	treylyans	dreylyans dreylyansow threylyans
+11	711	ledyer	ledyoryon
+12	712	versyon	gwersyon gwersyonys version versions versyonow versyonyow wersyon
 13	713	leth	
 14	714	omma	obma
 15	715	argerdh	argerdhow
@@ -23,24 +23,24 @@
 23	723	mysi	mys vysi
 24	724	livrel	
 25	725	fia	fi fias fysa
-26	726	yn-mysk	
-27	727	urdh	
+26	726	yn-mysk	en-mysk yn-mesk
+27	727	urdh	urdhyow urdhys
 28	728	universita	universites
 29	729	fytt	fyttow fyttys
 30	730	trev	drev
 31	731	kost	cost costys gost gostys hostys kostow kostys ost
 32	732	degi	degys dhegas dhegi dhug dog dug duges dugon dugys tegi
-33	733	musura	musur musurow musuryes musuryow musurys vusur vusura vusuryas
+33	733	musura	musur musuras musurow musuryes musuryow musurys vusur vusura vusuras vusuryas
 34	734	troos	dewdros droos threys throos treis treys tros
-35	735	movyans	
+35	735	movyans	movyansow vovyans vovyansow
 36	736	anodhans	
 37	737	tron	dron thronyow tronow
-38	738	down	dhown
+38	738	down	dhown townna
 39	739	spys	spisow spysow
 40	740	delinyans	delinyansow dhelinyans dhelinyansow
 41	741	medhegneth	medhegnethow medhygneth vedhegneth
 42	742	gortos	gorta gortons gortys kortos kortys wortas wortos
-43	743	titel	
+43	743	titel	ditel ditlys thitel titlys
 44	744	serth	
 45	745	sewyans	
 46	746	naw	
@@ -49,15 +49,15 @@
 49	749	brastir	brastiryow vrastir vrastiryow
 50	750	ayrgylgh	ayrgelgh
 51	751	yeyn	yeynna
-52	752	rekordya	rekordys
+52	752	rekordya	recordya recordyes recordys rekordyas rekordys
 53	753	dur	dhur duryow tur
 54	754	degea	degeas dhegea dhegeas tegea tegeas
 55	755	durya	dhurya dhuryas duryas duryes tursons turya turyas
 56	756	bilvil	bilvilyow vilvil
 57	757	frut	frutys
-58	758	meurgerys	
-59	759	teythyek	
-60	760	dustuni	
+58	758	meurgerys	veurgerys
+59	759	teythyek	deythyek teythiek
+60	760	dustuni	dhustuni dhustuny dustuny
 61	761	gwyrdh	wyrdh
 62	762	lowarth	lowarthow lowarthyow
 63	763	kors	cors gors gorsen gorsow hors horses korsen korsennow korsow
@@ -66,7 +66,7 @@
 66	766	politegores	
 67	767	ebron	
 68	768	hin	hinow hinyow
-69	769	askel	eskelli
+69	769	askel	askell eskelli
 70	770	lesa	lesas lessa lessons lesys
 71	771	koos	cosow kosow
 72	772	ertach	
@@ -76,7 +76,7 @@
 76	776	hwor	hwerydh wherydh whor
 77	777	fow	fowen fowys
 78	778	dhe'y	
-79	779	soudor	soudoryon
+79	779	soudor	souder soudoryon
 80	780	helghya	helgh helghow helghyas helghyes helghys
 81	781	gover	goverow over overys wover woverow woveryow
 82	782	north-west	
@@ -93,8 +93,8 @@
 93	793	medhek	medhogyon medhyk vedhek vedhogyon
 94	794	gwenen	gwenenen gwenenyow gwenyn wenen wenenen
 95	795	bardhonieth	vardhonieth
-96	796	skoodhya	
+96	796	skoodhya	scoodhya skoedhas skoedhya skoedhyas skoodhas skoodhyes
 97	797	hirder	
 98	798	radyo	radyos
 99	799	desin	desinyow dhesin
-100	800	bardhonek	bardhonogow vardhonek vardhonogow
+100	800	bardhonek	bardhonekow bardhonogow vardhonek vardhonogow

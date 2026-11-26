@@ -1,100 +1,100 @@
-1	4201	folennik	folenigow
-2	4202	avokado	avocados avokados
-3	4203	melon	felons melonyow
-4	4204	dybarth	dhibarthas dyberth tibarthas
-5	4205	erbysi	erbysas
-6	4206	pennti	bennti benntiow
-7	4207	digompes	dhigompes tigompes
-8	4208	gavel	avelow havel
-9	4209	bothel	bothellow vothellow
-10	4210	plos	blos flos
-11	4211	kenter	genter
-12	4212	byghanhe	byghanhes byghanys pyghanhe vyghanhas
-13	4213	berrskrifa	berrscrif berrskrif verrskrif
-14	4214	favera	faver faveras faverys
-15	4215	dasa	desyn dhasa dhassen tasa
-16	4216	gryll	krellow krill rilles
-17	4217	dynerghi	dhynerghis dynargh dynerghys
-18	4218	blamya	blamys vlamya vlamyas
-19	4219	chersya	chersyes chersys
-20	4220	fasya	fes fesya fesyas
-21	4221	bostya	postya postys vostya
-22	4222	gevell	evell evellyow gevellow
-23	4223	golowi	golowa golowys wolowys
-24	4224	fylmya	filmys fylmyas fylmys
-25	4225	magla	faglys maglys meglys vagel
-26	4226	bock	
-27	4227	euver	
-28	4228	abostol	abesteli
-29	4229	arbenikter	
-30	4230	ananedhys	
-31	4231	lili	
-32	4232	herdhyans	
-33	4233	arva	arvys
-34	4234	eskarek	
-35	4235	lettrys	
-36	4236	dasunyans	
-37	4237	dastrehevyans	
-38	4238	gwarthek	
-39	4239	eythin	
-40	4240	sos	
-41	4241	mantol	vantol
-42	4242	howlyek	
-43	4243	challa	challys
-44	4244	gwinwel	
-45	4245	arnewys	
-46	4246	dhe-les	
-47	4247	vali	
-48	4248	app	
-49	4249	sira	
-50	4250	chonsus	
-51	4251	bastard	
-52	4252	halyans	
-53	4253	demond	
-54	4254	evredh	evredhyon
-55	4255	ekonomydh	
-56	4256	dadhelva	
-57	4257	devorya	
-58	4258	borr	
-59	4259	gwydhbol	
-60	4260	ekspres	
-61	4261	anedhel	
-62	4262	ahwer	
-63	4263	estenna	
-64	4264	enysheans	
-65	4265	ughsommys	
-66	4266	ambosys	
-67	4267	fether	
-68	4268	didhana	
-69	4269	akademoges	
-70	4270	morvoren	vorvoren
-71	4271	gwenn	
-72	4272	skwith	
-73	4273	resnel	
-74	4274	fayntys	
-75	4275	ethegel	
-76	4276	gwagva	
-77	4277	etholer	etholoryon
-78	4278	dibries	
-79	4279	ansur	
-80	4280	esedhek	
-81	4281	finder	
-82	4282	ruvanes	
-83	4283	arwask	
-84	4284	omwolghi	
-85	4285	skrij	
-86	4286	pas	
-87	4287	fers	
-88	4288	effeythuster	
-89	4289	delk	
-90	4290	budhek	
-91	4291	alkemydh	
-92	4292	bocka	
-93	4293	anwos	
-94	4294	afinuster	afinusterow
-95	4295	bever	fever
-96	4296	brin	
-97	4297	towargh	
-98	4298	hwiski	
-99	4299	ewon	
-100	4300	askorruster	
+1	4201	sia	
+2	4202	kesakordyans	
+3	4203	dysmygel	dhismygel
+4	4204	breusel	
+5	4205	pellskrifa	
+6	4206	kettel	
+7	4207	dysklyver	
+8	4208	breynans	
+9	4209	karetys	
+10	4210	eskravus	
+11	4211	arthritys	arthritis
+12	4212	attes	
+13	4213	eksamnya	
+14	4214	analladow	
+15	4215	didhregynnus	
+16	4216	furneth	
+17	4217	allergek	
+18	4218	eylgylghyans	
+19	4219	kabel	
+20	4220	dohajydh	
+21	4221	anterth	
+22	4222	evadow	
+23	4223	fastyans	
+24	4224	anhedhadow	
+25	4225	daskelwel	
+26	4226	anlowr	
+27	4227	dehwelyans	
+28	4228	organs	
+29	4229	emayl	
+30	4230	affordya	
+31	4231	desedhva	
+32	4232	botla	fotla
+33	4233	ploum	
+34	4234	oliv	
+35	4235	figys	
+36	4236	avan	
+37	4237	pinaval	pinavalow
+38	4238	kesskrifer	
+39	4239	estrik	
+40	4240	frikhwytha	
+41	4241	anoyntya	
+42	4242	alter	
+43	4243	arhwilyans	
+44	4244	famya	
+45	4245	glori	
+46	4246	fornya	
+47	4247	anpuredh	anpuredhow
+48	4248	bragji	
+49	4249	milonieth	
+50	4250	ekologydh	ekologydhyon
+51	4251	tetti	dettys
+52	4252	assayans	
+53	4253	tanbren	tanbrennyer
+54	4254	elek	
+55	4255	aden	
+56	4256	aghskrif	
+57	4257	mogniwl	
+58	4258	fastheans	
+59	4259	checken	
+60	4260	ewnhynseth	
+61	4261	bedhros	
+62	4262	aventurus	
+63	4263	kolyn	
+64	4264	dashwithrans	
+65	4265	ebost	
+66	4266	denti	
+67	4267	alhwedhor	
+68	4268	hamster	hamsters
+69	4269	akontydh	
+70	4270	salm	
+71	4271	lagatta	
+72	4272	bengalji	
+73	4273	karghara	kargharys
+74	4274	sostenadow	
+75	4275	ankar	
+76	4276	diala	
+77	4277	porther	
+78	4278	adhyskonydh	
+79	4279	desinores	
+80	4280	fastya	
+81	4281	a'm	
+82	4282	serghi	sergha
+83	4283	fethek	
+84	4284	amstyryus	
+85	4285	denladrans	
+86	4286	higen	
+87	4287	hwarth	
+88	4288	brall	
+89	4289	gwegbys	
+90	4290	yskans	
+91	4291	anken	
+92	4292	dagren	dagrennow
+93	4293	degynsywek	
+94	4294	gasans	
+95	4295	argollus	
+96	4296	analogieth	
+97	4297	esherdhyans	
+98	4298	pennrudh	bennrudh
+99	4299	begi	pegen veg
+100	4300	kreatur	greaturyon

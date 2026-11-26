@@ -1,7 +1,7 @@
 1	301	bleujyow	blejyow bleujednow bleujen bleujenn bleujennow vleujen vleujennow vleujyow
 2	302	lu	luyow
 3	303	liw	liwyow lyw
-4	304	devnydhya	devnydhyas devnydhyes devnydhys dhevnydhya dhevnydhyas dhevnydhys tevnydhya tevnydhyas tevnydhyons tevnydhys
+4	304	devnydhya	devnydhir devnydhyas devnydhyes devnydhys dhevnydhir dhevnydhya dhevnydhyas dhevnydhys tevnydhir tevnydhya tevnydhyas tevnydhyons tevnydhyr tevnydhys
 5	305	loskvenydh	loskvenedh loskvenedhyow loskvenydhyow
 6	306	pymp	bemp bymp pemp
 7	307	glas	glassa hlassa klassa las lasow lasys
@@ -11,20 +11,20 @@
 11	311	hyns	hens hensi hensyow
 12	312	berr	berra verr
 13	313	keswlasek	geswlasek
-14	314	dyghow	dhyghow tyghow
-15	315	kampyor	
+14	314	dyghow	dhyghow dihow tyghow
+15	315	kampyor	kampyer kampyores
 16	316	lewydh	lewydhyon lywydhyon
 17	317	keynvor	geynvor geynvoryow keinvoryow keynvoryow
 18	318	selya	sel selsa selsons selyas selyes selys
 19	319	sort	sortes sortow
 20	320	ty	che dy
-21	321	poos	foos fossa posow possa
+21	321	poos	boosa foos fossa posow possa voosa
 22	322	rewliv	rewlivow
-23	323	studhya	studhyas
+23	323	studhya	studhyas studhyes studhys
 24	324	hengovek	
-25	325	ranneves	
+25	325	ranneves	radneves radnevesow
 26	326	treweythyow	terweythyow
-27	327	teudhi	deudh deudhas deudhi deudhys dheudh duedh teudh teudhas teudhys theudhi tuedh
+27	327	teudhi	deudh deudha deudhas deudhi deudhys dheudh duedh teudh teudha teudhas teudhys theudhi tuedh
 28	328	avon	avenow avonow avonyow
 29	329	golow	golowow golowyow golowys olow wolow wolowys
 30	330	ledya	led ledyas ledyes ledys lettya lettyes lettys
@@ -43,30 +43,30 @@
 43	343	ygeri	egery egoras igeras igeris ygeras ygerewgh ygeris ygerys ygoras
 44	344	fetha	feth fethas fethes fethow fethsa fethsons fethys
 45	345	ynkorforys	
-46	346	mysk	
+46	346	mysk	mesk
 47	347	ri	rei ren resys rewgh rey ro rohow rosa rosen rosens rosys roy royow
 48	348	pennskol	bennskolow bennskolyow fennskol pennskolyow
 49	349	diwedh	dhiwedh dywedh tiwedh
 50	350	pesya	besies besya besyas fes fesya fesyas pes pesyas pesyes pesys pys
 51	351	europek	
-52	352	myns	
+52	352	myns	fyns mens vens vynsow
 53	353	kledhren	gledhren gledhrennow kledhrennow
 54	354	ladha	ladh ladhas ladhys ledhys
 55	355	teg	deg dheg tekka
-56	356	kyn	
+56	356	kyn	cyn gin
 57	357	fros	frosow
 58	358	byttegyns	bettegens
 59	359	moon	moen voen voon
 60	360	isel	isella
-61	361	tredh	
+61	361	tredh	dredh
 62	362	hwegh	whegh
 63	363	lagha	laghys
-64	364	tybyans	tybyansow
+64	364	tybyans	dhybyansow dybyans thybyans thybyansow tybyansow
 65	365	ros	rosen rosow rosyow
 66	366	mengleudh	mengleudhow mengleudhyow mengleudhys vengleudh vengleudhyow
 67	367	diwysyans	dhiwisyansow dhiwysyans diwysyansow diwysyansyow dywysyans
 68	368	war'n	
-69	369	dh'y	
+69	369	dh'y	dh'e
 70	370	bre	breow breys vre vreow
 71	371	hys	hes hesow hysow
 72	372	kul	cul
@@ -76,15 +76,15 @@
 76	376	drehevyans	dhrehevyans dhrehevyansow drehevyansow
 77	377	pysk	buskes bysk byskes fysk pesk puskes vysk
 78	378	gregorek	
-79	379	ayr	
+79	379	ayr	air
 80	380	lien	liennow lienow lienyow lyen
 81	381	arvor	arvorow arvoryow
 82	382	politek	bolitek polytek
 83	383	kevres	gevres hevres kevresow kevresyow
 84	384	dewis	dewisas dewisyes dewisyow dewisys dewysys dhewis dhewisas dhewisis dhewisyow tewis tewisas tewisis tewisys
-85	385	kawsya	kawsys
+85	385	kawsya	cawsya gawsas gawsya gawsys haws kaws kawsyas kawsyes kawsys
 86	386	duw	dhuw dhuwow duwow duwyow
-87	387	studh	
+87	387	studh	studhow
 88	388	amerikan	
 89	389	kas	cas ckas gas gasow gasys hasow hasys kasow kasyow kasys
 90	390	eyl	

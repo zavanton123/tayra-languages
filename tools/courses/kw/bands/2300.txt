@@ -1,4 +1,4 @@
-1	2201	hasennow	
+1	2201	hasennow	hasednow
 2	2202	rannel	
 3	2203	margh-horn	
 4	2204	ʻaʻā	
@@ -9,7 +9,7 @@
 9	2209	hwetek	whetek
 10	2210	gallosek	allosek
 11	2211	denses	dhenses tenses
-12	2212	patatys	patatysen
+12	2212	patatys	batata patata patatysen
 13	2213	shoppa	shoppys
 14	2214	bosva	vosva
 15	2215	kilva	gilva hilva kilvaow
@@ -44,57 +44,57 @@
 44	2244	ethenna	ethedna ethednys ethenn ethennys
 45	2245	braga	bracca bracken brag bragys bregys praga
 46	2246	pasti	basti fasti pastiow
-47	2247	kordh	
-48	2248	drevesigas	
+47	2247	kordh	gordh gordhys kordhow
+48	2248	drevesigas	trevesigas
 49	2249	sertan	
 50	2250	sewyansow	
-51	2251	diskwedhyansow	
+51	2251	diskwedhyansow	dhiskwedhyansow
 52	2252	flehes	
 53	2253	lytherennansow	
-54	2254	keskows	
+54	2254	keskows	geskows heskows kescows kescowsow
 55	2255	galloes	
 56	2256	kavoes	
 57	2257	jentyl	
 58	2258	rak	
-59	2259	termow	
-60	2260	myghternses	
+59	2259	termow	dermow termys
+60	2260	myghternses	myghternsys vyghternses
 61	2261	gabbro	
 62	2262	atal	
 63	2263	versyons	
-64	2264	dyghtyer	
+64	2264	dyghtyer	dyghtyoryon
 65	2265	dhisplegya	
-66	2266	teva	
+66	2266	teva	devas
 67	2267	liesek	
 68	2268	splanna	
 69	2269	skans	
 70	2270	wodhonieth	
 71	2271	vietnamek	
 72	2272	niverir	
-73	2273	perthyans	
-74	2274	splannder	
+73	2273	perthyans	berthyans ferthyans ferthyansow
+74	2274	splannder	spladnder
 75	2275	hendasow	
 76	2276	amber	
-77	2277	ponya	
-78	2278	paynt	
+77	2277	ponya	bonya ponsons ponyes vonyn
+78	2278	paynt	baynt bayntys paint payntys
 79	2279	trib	
 80	2280	vanadiom	
 81	2281	oberyansow	
-82	2282	planetigow	
+82	2282	planetigow	blanetigow
 83	2283	hantergylgh	
-84	2284	methodys	
+84	2284	methodys	vethodys
 85	2285	rubidiom	
 86	2286	indiom	
 87	2287	bariom	
-88	2288	tongsten	
-89	2289	klavjiow	
-90	2290	pyramidow	
-91	2291	keskomunyans	
+88	2288	tongsten	dongsten
+89	2289	klavjiow	glavjiow
+90	2290	pyramidow	byramidow
+91	2291	keskomunyans	geskomunyans kescomunyans
 92	2292	diliw	
-93	2293	kerghynedhel	
-94	2294	tavellow	
-95	2295	gwelesek	
+93	2293	kerghynedhel	gerghynedhel
+94	2294	tavellow	davell davellow tavell thavellow
+95	2295	gwelesek	welesek
 96	2296	tros-hes	
 97	2297	kryjyek	
-98	2298	papyrus	
-99	2299	brij	
-100	2300	darlesor	
+98	2298	papyrus	bapyrus
+99	2299	brij	bryj
+100	2300	darlesor	darlesores darlesoryon

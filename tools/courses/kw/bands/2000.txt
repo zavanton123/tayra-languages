@@ -6,7 +6,7 @@
 6	1906	perghen	berghen berghennow perghennow
 7	1907	kynnik	gydnik gynnigas gynnik hynnik kydnik kynigow kynnigys
 8	1908	bysi	bysy vysi
-9	1909	eskar	eskerens
+9	1909	eskar	escar eskerens
 10	1910	min	finow minyon mynn vin vydn
 11	1911	ges	esow gesyon gesyow hes kesow
 12	1912	gwana	gwan gwanes gwanna gwanys gwenenen gwenyn wana wanna wanyas wenenen wynnis
@@ -16,26 +16,26 @@
 16	1916	deklinya	declinya deklinys dheklinas dheklinya dheklinyas teklinya teklinyas
 17	1917	kabla	gablas gabli gably habla kabli kablys keblys
 18	1918	indella	yndella
-19	1919	hembrenkysi	
+19	1919	hembrenkysi	hembrynkysi
 20	1920	waya	
 21	1921	rudhvelyn	
 22	1922	removys	
 23	1923	gawsyas	
 24	1924	ordenys	
-25	1925	kynsistorek	
-26	1926	puptra	
+25	1925	kynsistorek	gynsistorek kensistorek
+26	1926	puptra	buptra
 27	1927	manylyon	
-28	1928	kethsam	
+28	1928	kethsam	gethsam
 29	1929	ehennow	
 30	1930	oberyans	
-31	1931	perghennek	
+31	1931	perghennek	berghennek ferghennek
 32	1932	ynsi	
-33	1933	omdennans	
+33	1933	omdennans	omdednans
 34	1934	fagel	
 35	1935	servadow	
 36	1936	županija	
-37	1937	dydhyador	
-38	1938	omdhegyans	
+37	1937	dydhyador	dydhiador
+38	1938	omdhegyans	omdhegyansow
 39	1939	hweller	
 40	1940	agas	
 41	1941	dasetholys	
@@ -47,13 +47,13 @@
 47	1947	stockys	
 48	1948	aghel	
 49	1949	shora	
-50	1950	lovan	
+50	1950	lovan	lovanow
 51	1951	gomprehendas	
 52	1952	yn-kever	
-53	1953	gwaynyas	
+53	1953	gwaynyas	hwaynyas kwaynyas
 54	1954	ethanol	
 55	1955	vagma	
-56	1956	boster	
+56	1956	boster	poster
 57	1957	kriv	criv
 58	1958	marwel	farwel
 59	1959	godhalek	wodhalek
@@ -83,18 +83,18 @@
 83	1983	a-wartha	
 84	1984	unweyth	
 85	1985	ankoth	
-86	1986	difeyth	
-87	1987	hymna	
-88	1988	kreft	
-89	1989	tasek	
-90	1990	kontrari	
-91	1991	keskerdh	
+86	1986	difeyth	difeythyow
+87	1987	hymna	hemna hymnys
+88	1988	kreft	greft greftow hreft kreftow kreftyow
+89	1989	tasek	thasek
+90	1990	kontrari	gontrari
+91	1991	keskerdh	geskerdh geskerdhes geskerdhow keskerdhes keskerdhys
 92	1992	calans	
-93	1993	kanadek	
+93	1993	kanadek	ganadek
 94	1994	godhasek	
 95	1995	yowynkneth	
-96	1996	amyttys	
-97	1997	kymygieth	
-98	1998	negysydh	
+96	1996	amyttys	amyttya amyttyas
+97	1997	kymygieth	gymygieth hymygieth
+98	1998	negysydh	negesydh negesydhyon negysydhes
 99	1999	formel	
 100	2000	organow	

@@ -1,13 +1,13 @@
-1	1501	dises	
-2	1502	teleskop	
+1	1501	dises	dhises dhisesys
+2	1502	teleskop	deleskop deleskopow teleskopow theleskop
 3	1503	wrelho	
-4	1504	tektonek	
+4	1504	tektonek	tectonek
 5	1505	croquet	
 6	1506	dinas	dhinas
 7	1507	trenk	drenk
 8	1508	helyk	helygen
 9	1509	pympes	bympes fympes pempes
-10	1510	drolla	dhrolla drollys
+10	1510	drolla	dhrolla dhrollow drollys
 11	1511	garth	garthyon karthyon warth
 12	1512	fysegydh	fisegydh fysegydhyon fysygydh
 13	1513	elektron	elektronow elektrons elektronys
@@ -19,7 +19,7 @@
 19	1519	moskito	moskitos voskito voskitos
 20	1520	skovarn	dhiwscovarn diwskovarn scovarn skovarnow skovornow
 21	1521	setha	seth sethas sethys syth
-22	1522	dysmygi	desmygys dhismygas dhismygi dhismygis dhismygyas dhysmigas dhysmygi dismygi dismygyas dysmygiys tysmygas
+22	1522	dysmygi	desmygys dhismygas dhismygi dhismygis dhismygyas dhysmigas dhysmygi dismygi dismygyas dysmyg dysmygas dysmygiys tysmygas
 23	1523	tommhe	dobmhe dobmheas dommha dommhas dommhe thommhe tobmhe tobmhes tommha tommhes tommheys tommhys
 24	1524	hanaf	hanafow hanath
 25	1525	skoll	scollyon skollyon
@@ -30,17 +30,17 @@
 30	1530	kowethyansow	
 31	1531	kaderyer	
 32	1532	sodhek	
-33	1533	diskudhans	
+33	1533	diskudhans	dhiskudhans dhiskudhansow diskudhansow
 34	1534	eghenn	
 35	1535	laghyas	
-36	1536	notennow	
-37	1537	gweythres	
+36	1536	notennow	notednow noten
+37	1537	gweythres	gweythresow hweythres weythres
 38	1538	towlennow	
-39	1539	soled	
-40	1540	emesk	
-41	1541	trovannel	
-42	1542	isteylu	
-43	1543	gwaskedh	
+39	1539	soled	solid solyd
+40	1540	emesk	emysk ymysk
+41	1541	trovannel	drovannel trovadnel
+42	1542	isteylu	isteyluyow
+43	1543	gwaskedh	gwaskedhow waskedh
 44	1544	fosforos	
 45	1545	karyans	garyans
 46	1546	parys	barys
@@ -58,22 +58,22 @@
 58	1558	chanel	
 59	1559	lieskweyth	
 60	1560	arwoedh	
-61	1561	gwiryonedh	
+61	1561	gwiryonedh	gwiryonedhow wiryonedh
 62	1562	dyffransow	
-63	1563	kesunya	
-64	1564	donsyow	
+63	1563	kesunya	gesunya gesunyas kesunyas
+64	1564	donsyow	dhonsyow
 65	1565	lymnoryon	
 66	1566	sewenas	
-67	1567	shist	
-68	1568	komparek	
+67	1567	shist	shistow
+68	1568	komparek	gomparek
 69	1569	awosa	
-70	1570	difres	
-71	1571	kesstoffow	
+70	1570	difres	dhifres difresyas difresys tifres
+71	1571	kesstoffow	gesstoffow kesstoff
 72	1572	dhispleg	
-73	1573	bondys	
+73	1573	bondys	vondys
 74	1574	lokomotyvyow	
-75	1575	glukos	
-76	1576	godhasys	
+75	1575	glukos	lukos
+76	1576	godhasys	godhasa kodhasa wodhasa
 77	1577	dibarow	dhibarow tibarow
 78	1578	purpur	burpur
 79	1579	medhegel	fedhegel vedhegel
@@ -91,10 +91,10 @@
 91	1591	morvugh	morvughes vorvugh vorvughes
 92	1592	pedrevan	bedrevan bedrevanes pedrevanes
 93	1593	byth	beth
-94	1594	skoler	
-95	1595	studhyoryon	
-96	1596	konna-tir	
-97	1597	reyn	
-98	1598	parkow	
-99	1599	profya	
+94	1594	skoler	skoloryon
+95	1595	studhyoryon	studhyer studhyor studhyores
+96	1596	konna-tir	godna-tir gonna-tir
+97	1597	reyn	reynys
+98	1598	parkow	barkow
+99	1599	profya	brofya profys
 100	1600	seulabrys	

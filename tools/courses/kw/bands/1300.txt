@@ -24,19 +24,19 @@
 24	1224	golya	golia goliys golyas golys kolya wolas wolya wolyas
 25	1225	diwweyth	
 26	1226	pennskrifys	
-27	1227	tekst	
+27	1227	tekst	dekst dekstow tekstyow
 28	1228	rannyethow	
-29	1229	kemmynieth	
-30	1230	steronydh	
-31	1231	varya	
-32	1232	ragdres	
+29	1229	kemmynieth	gemmynieth hemmynieth kemmyniethow
+30	1230	steronydh	steronydhes steronydhyon
+31	1231	varya	varsons varyes
+32	1232	ragdres	ragdresow
 33	1233	sosyel	
 34	1234	ombreder	
 35	1235	avi	aviow
 36	1236	aber	aberow
 37	1237	boni	fonyow vonyow
 38	1238	gitar	gitarow gitaryow itaryow
-39	1239	peryllys	beryllys
+39	1239	peryllys	beryllys peryll peryllya
 40	1240	sodhva	sodhvaow
 41	1241	lergh	lerghow
 42	1242	pluven	bluvennow fluvednow fluvennow pluvednow pluvennow
@@ -47,24 +47,24 @@
 47	1247	blas	blasow vlas
 48	1248	kler	cler clerra klerra ler
 49	1249	nerven	nervennow
-50	1250	rewi	rewys
-51	1251	tornyaseth	
+50	1250	rewi	rewis rewys
+51	1251	tornyaseth	dornyaseth
 52	1252	adhyskys	
 53	1253	finek	
 54	1254	omrewl	
-55	1255	gweythva	
+55	1255	gweythva	hweythva weythvaow
 56	1256	dhyffrans	
 57	1257	oryon	
-58	1258	skiansek	
-59	1259	karbonat	
+58	1258	skiansek	skyansek
+59	1259	karbonat	garbonat
 60	1260	liesplek	
 61	1261	leven	
 62	1262	varyans	
-63	1263	lokomotyv	
-64	1264	ynjynor	
+63	1263	lokomotyv	lokomotyvow
+64	1264	ynjynor	ynjinor ynjynoryon
 65	1265	sodiom	
 66	1266	kalish	
-67	1267	ryvar	
+67	1267	ryvar	ryvars
 68	1268	magnesiom	vagnesiom
 69	1269	galwesik	alwesik halwesik
 70	1270	kosk	gosk
@@ -81,12 +81,12 @@
 81	1281	tiek	dhiek diek tiogow
 82	1282	meneges	menegi menegys menek venegas veneges venegi venek
 83	1283	gramasek	
-84	1284	bluw	
-85	1285	sewena	
-86	1286	usyans	
-87	1287	seythun	
-88	1288	godhonieth	
-89	1289	skiensydhyon	
+84	1284	bluw	bluwow pluwyow
+85	1285	sewena	seweni sewenis
+86	1286	usyans	usyansow
+87	1287	seythun	seythunyow
+88	1288	godhonieth	godhoniethow
+89	1289	skiensydhyon	sciensydh sciensydhyon skiensydh
 90	1290	aluminiom	
 91	1291	rewlivek	
 92	1292	genynnyk	enynnek genynnek henynnek

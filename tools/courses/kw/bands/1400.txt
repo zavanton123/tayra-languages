@@ -1,20 +1,20 @@
-1	1301	bogalen	bogalednow bogalennow vogalen vogalennow
+1	1301	bogalen	bogalednow bogalenn bogalennow vogalen vogalennow
 2	1302	kachya	cachya cachys gach gachya gachyas gachys hachya kachyas kachys kechys
 3	1303	toos	dhoos doos dosow tosow
 4	1304	bratha	brath brathas brathow brathys vrath vratha vrathow
-5	1305	kemmys	
+5	1305	kemmys	gemmys
 6	1306	studhyow	
 7	1307	lyenn	
 8	1308	wostalleth	
-9	1309	menystrans	
+9	1309	menystrans	venystrans
 10	1310	brofyas	
 11	1311	drefenn	
 12	1312	foblans	
 13	1313	plattys	
-14	1314	skila	
-15	1315	koton	
-16	1316	vytholl	
-17	1317	klassans	
+14	1314	skila	skilaow skilys
+15	1315	koton	coton goton
+16	1316	vytholl	vetholl
+17	1317	klassans	classans glassans glassansow klassansow
 18	1318	a-bervedh	
 19	1319	nerthedh	
 20	1320	screenwriter	
@@ -23,7 +23,7 @@
 23	1323	areth	arethow arethyow
 24	1324	bewonieth	bewonyeth bywonieth vewonieth vywonieth
 25	1325	arbrovji	arbrovjiow
-26	1326	pobas	boba bobys febys pebys pob pobys
+26	1326	pobas	beub boba bobys febys pebys peub pob pobys
 27	1327	kenn	enn genn gennow kedn kennow
 28	1328	gam	am ham
 29	1329	kryjyk	gryjyk krejyk kryjek
@@ -32,22 +32,22 @@
 32	1332	kreun	greunyow kreunow kreunyow
 33	1333	dasoberor	dasoberoryon dhasoberor
 34	1334	perthi	berthi borthas perthas perthewgh perthy perthys porthys
-35	1335	marghas	marghasow varghas
+35	1335	marghas	marghasow marhas marhasow marhasys varghas varhas
 36	1336	bordh	bord bordhow bordow bordys vord vordh vordow vordys
 37	1337	lytherennans	
-38	1338	diwysyansek	
+38	1338	diwysyansek	dywysyansek tiwysyansek
 39	1339	poesek	
-40	1340	godhonydh	
+40	1340	godhonydh	godhonydhes wodhonydh wodhonydhyon
 41	1341	mann	
 42	1342	stag	
-43	1343	keverang	
+43	1343	keverang	geverang keverangow
 44	1344	lun	
 45	1345	nikel	
-46	1346	personel	
-47	1347	kanores	
-48	1348	lymna	
+46	1346	personel	bersonel
+47	1347	kanores	canores ganores kanoresow
+48	1348	lymna	lymn lymnas
 49	1349	nodho	
-50	1350	ollvesek	
+50	1350	ollvesek	ollvysek
 51	1351	lusu	
 52	1352	poosa	
 53	1353	leys	leysyow
@@ -64,26 +64,26 @@
 64	1364	banana	bananas vanana vananas
 65	1365	plegya	bleg blegya blegyas blegys flykkya pleg plegow plegys
 66	1366	tewedh	dewedhow dewedhys tewedhow tewedhys tewydh
-67	1367	liennek	
-68	1368	kaskyrgh	
+67	1367	liennek	lienek lyennek
+68	1368	kaskyrgh	gaskerghow gaskyrgh gaskyrghis gaskyrghow haskyrghow kaskergh kaskerghow kaskyrghes kaskyrghow
 69	1369	arghansek	
-70	1370	megyans	
+70	1370	megyans	megyansow vegyans
 71	1371	a-dhiworth	
 72	1372	omladh	
 73	1373	leverir	
 74	1374	governansow	
 75	1375	ova	
 76	1376	tanek	
-77	1377	basalt	
+77	1377	basalt	basaltys vasalt vasaltow
 78	1378	gomprehendyas	
-79	1379	movya	
+79	1379	movya	moves movyas movyes movys vovya
 80	1380	ehednow	
-81	1381	tybieth	
-82	1382	kwaya	
-83	1383	komposys	
-84	1384	trenken	
+81	1381	tybieth	dybiethow thybieth tybiethow
+82	1382	kwaya	gwayas gwayes gwayn gwayys kwayas waas
+83	1383	komposys	gomposys
+84	1384	trenken	drenkednow drenken drenkennow trenkednow trenkennow
 85	1385	anella	anell anellys
-86	1386	aslea	asleas asleys
+86	1386	aslea	aslas asleas asleys
 87	1387	peryl	beryl feryl peryllow peryllyow
 88	1388	sampel	samplow
 89	1389	dorgrys	dhorgrysyow dorgrysow dorgrysyow
@@ -94,7 +94,7 @@
 94	1394	difen	dhifenna dhifensa dhyfen difednys difennys dyfen
 95	1395	kevro	gevro gevrohow hevro kevrohow
 96	1396	kowlwul	cowlwul gowlwra gowlwrug gowlwul howlwul kowlwres
-97	1397	batalyas	batal fatal fatalyas patalyas vatalyas
+97	1397	batalyas	batal batalya fatal fatalyas patalya patalyas vatalya vatalyas
 98	1398	dasserghi	dasserghyes dasserghys dhasserghas dhasserghi dhasserghys tasserghi
 99	1399	tabour	dabouryow tabours tabouryow
-100	1400	metya	
+100	1400	metya	fetyas metyas vetya

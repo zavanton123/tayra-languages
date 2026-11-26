@@ -1,100 +1,100 @@
-1	3101	a-vri	
-2	3102	ragresor	
-3	3103	bassya	
-4	3104	oberansow	
-5	3105	removans	
-6	3106	kemynegorek	
-7	3107	difeudhek	
-8	3108	renk	
-9	3109	kigdevoryoryon	
-10	3110	amanyn	
-11	3111	wenonek	
-12	3112	vellkeyn	
-13	3113	immer	
-14	3114	loup-passya	
-15	3115	wreydhek	
-16	3116	brysoniethel	
-17	3117	dipek	
-18	3118	omladhans	
-19	3119	shyndya	
-20	3120	rutheniom	
-21	3121	thaliom	
-22	3122	radium	
-23	3123	stergylgh	
-24	3124	askellek	
-25	3125	skrifans	
-26	3126	blous	
-27	3127	ethek	
-28	3128	difresyans	
-29	3129	panoramio	
-30	3130	leyder	
-31	3131	kabinet	
-32	3132	spedys	
-33	3133	perfydh	
-34	3134	kasor	
-35	3135	tourik	
-36	3136	statystek	
-37	3137	kuntellesel	
-38	3138	komparys	
-39	3139	konter	
-40	3140	anellans	
-41	3141	isrudh	
-42	3142	vysyt	
-43	3143	treustir	
-44	3144	gwarthevys	
-45	3145	yethoniethel	
-46	3146	skiensydh	
-47	3147	kussul	
-48	3148	mogdoll	
-49	3149	gwikor	
-50	3150	immun	
-51	3151	livra	
-52	3152	droklam	
-53	3153	ammonya	
-54	3154	pibennow	
-55	3155	gramm	
-56	3156	pygvoon	
-57	3157	emann	
-58	3158	methan	
-59	3159	tenwednow	
-60	3160	pennrewlys	
-61	3161	teknegel	
-62	3162	teknegow	
-63	3163	taboon	
-64	3164	yssynsas	
-65	3165	flameges	
-66	3166	tremliw	
-67	3167	paradhis	
-68	3168	kowrsteren	
-69	3169	krenvonni	
-70	3170	loskvenydhieth	
-71	3171	mitys	
-72	3172	vynsow	
-73	3173	gomplek	
-74	3174	kwyllednow	
-75	3175	dhamkanieth	
-76	3176	theropods	
-77	3177	losowdhebroryon	
-78	3178	dardhell	
-79	3179	plastogow	
-80	3180	kymygiethel	
-81	3181	sorghomm	
-82	3182	nikotin	
-83	3183	hanwesigethow	
-84	3184	teythiek	
-85	3185	mengylgh	
-86	3186	tandharnek	
-87	3187	rider	ridrow
-88	3188	eev	yev
-89	3189	empir	empirys
-90	3190	kelester	kelesterow
-91	3191	folsans	folsansow
-92	3192	daromres	daromrys
-93	3193	buales	vuales
-94	3194	gorthugher	gorthugherow
-95	3195	skaw	skawen
-96	3196	devri	tevri
-97	3197	buluk	bulugen vulugen
-98	3198	olldhebrer	olldhebroryon
-99	3199	apoyntyans	apoyntyansow
-100	3200	kreuni	greuni kreunys
+1	3101	kowldevesik	gowldevesik
+2	3102	mantedhednow	vantedhednow
+3	3103	kigdhebroryon	gigdhebroryon
+4	3104	buales	vuales
+5	3105	klassow	glassow
+6	3106	gorthugher	gorthugherow
+7	3107	skaw	skawen
+8	3108	kerthow	gerthow
+9	3109	devri	tevri
+10	3110	kowlwriansow	howlwriansow
+11	3111	strif	strifow stryf
+12	3112	krestennogyon	grestennogyon
+13	3113	buluk	bulugen vulugen
+14	3114	gwylvos	gwelvos
+15	3115	kniviles	gniviles
+16	3116	olldhebrer	olldhebroryon
+17	3117	holyans	holyansow
+18	3118	protaktiniom	brotaktiniom
+19	3119	sosten	sostenys
+20	3120	genejek	enejek
+21	3121	apoyntyans	apoyntyansow
+22	3122	tellek	dellek
+23	3123	teffo	deffo
+24	3124	kreuni	greuni kreunys
+25	3125	erbynner	erbydner erbynnoryon
+26	3126	krestennek	grestenogyon krestenogyon
+27	3127	bownder	vownder
+28	3128	egin	eginyow
+29	3129	strokas	strocas strokasow
+30	3130	flour	flourys
+31	3131	finweth	finwethow
+32	3132	dewek	dhewek tewek
+33	3133	garm	arm
+34	3134	daswrians	daswriansow dhaswrians dhaswriansow
+35	3135	spong	spongow
+36	3136	eylgylghya	eylgelghys eylgylgh eylgylghys
+37	3137	addya	addis addyes addys
+38	3138	finwetha	finwethas finwethys
+39	3139	dolli	dholli dolliow tolli
+40	3140	arhwilell	arhwilellow
+41	3141	leunhe	leunhas leunhasa leunhes
+42	3142	krefhe	grefha grefhe gryfhas krefhas krefhes
+43	3143	gidya	gid gidys ideas kidya
+44	3144	daswul	daswres daswrys dhaswrug taswul
+45	3145	bollen	bollednow bollennow vollednow
+46	3146	chalenjya	chalenjys jalenjyas jalenjys
+47	3147	gun	
+48	3148	moos	moes mosow
+49	3149	gwiver	gwivren wivren
+50	3150	astel	astellys astelyow astelys
+51	3151	basnet	basnettow basnettys vasnettys
+52	3152	chassya	chassyas chassys jass jassya jassyas
+53	3153	erbysiethek	
+54	3154	syger	
+55	3155	dho	
+56	3156	linyek	
+57	3157	strateji	
+58	3158	hebleth	
+59	3159	fals	
+60	3160	skath-sawya	
+61	3161	serr	
+62	3162	ughviolet	
+63	3163	losonieth	
+64	3164	possybl	
+65	3165	bomba	
+66	3166	lithosfer	
+67	3167	sivil	
+68	3168	isvrastir	
+69	3169	gora	
+70	3170	ammethek	
+71	3171	sall	
+72	3172	wradheg	
+73	3173	burdhen	
+74	3174	data	
+75	3175	isgenas	
+76	3176	kathigen	
+77	3177	selsik	
+78	3178	teknogel	
+79	3179	trennow	
+80	3180	omlesans	
+81	3181	gerysda	
+82	3182	penn-hyns	
+83	3183	holanek	
+84	3184	gorwelyek	
+85	3185	leven-goleder	
+86	3186	komposydhes	
+87	3187	arghasans	
+88	3188	gwithyas-tren	
+89	3189	germaniom	
+90	3190	erbiom	
+91	3191	lutetiom	
+92	3192	hafniom	
+93	3193	einsteiniom	
+94	3194	amalek	
+95	3195	selyow	
+96	3196	greuv	
+97	3197	hus	
+98	3198	revrons	
+99	3199	braser	fraser
+100	3200	arlotteth	

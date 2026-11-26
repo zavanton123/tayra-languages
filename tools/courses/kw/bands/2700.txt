@@ -1,100 +1,100 @@
-1	2601	rodiom	
-2	2602	cesiom	
-3	2603	gadoliniom	
-4	2604	osmiom	
-5	2605	radon	
-6	2606	radiom	
-7	2607	thoriom	
-8	2608	tewder	
-9	2609	omglewans	
-10	2610	prydydhes	
-11	2611	rekordyas	
-12	2612	jornalyades	
-13	2613	tomder	
-14	2614	uskissa	
-15	2615	a-bell	
-16	2616	sesyans	
-17	2617	laserow	
-18	2618	arp	
-19	2619	nobyl	
-20	2620	oksidow	
-21	2621	trolergh	
-22	2622	arvorel	
-23	2623	gwayansow	
-24	2624	unigynnow	
-25	2625	pigern	
-26	2626	godhoniethel	
-27	2627	arghanti	
-28	2628	brovi	
-29	2629	rudhlas	
-30	2630	essayist	
-31	2631	pubvledhynnyek	
-32	2632	bleujennek	
-33	2633	ideografow	
-34	2634	gweliek	
-35	2635	magmaow	
-36	2636	por	bor
-37	2637	besydhya	besydhyes besydhys
-38	2638	kulyek	kulyoges
-39	2639	a-dhistowgh	a-dhystowgh
-40	2640	burm	vurm
-41	2641	hil	hilyow
-42	2642	molybdenom	volybdenom
-43	2643	praseodymiom	braseodymiom
-44	2644	perth	berth
-45	2645	milva	milvaow vilva
-46	2646	terbiom	derbiom
-47	2647	kreftus	greftus
-48	2648	fler	flerow fleryow
-49	2649	avowa	avowas avowys
-50	2650	fun	funyow
-51	2651	ostes	ostys
-52	2652	goodh	kodhow woodh
-53	2653	trogentra	drogenter trogenter
-54	2654	hwyja	hweja hwyjys whyja
-55	2655	dydhlyver	dedhlyver dhydhlyver dydhlyvrow
-56	2656	sordya	sord sordyas sordyes sordys sortyes
-57	2657	baban	babanes babanow vaban vabanes
-58	2658	keles	cel gel geles kel
-59	2659	bason	basonys vason
-60	2660	densek	densoges dhensek dynsek
-61	2661	godhan	godhanes wodhan wodhanes
-62	2662	annedh	anedhow annedhow annedhys
-63	2663	golan	golanes wolan
-64	2664	lenki	lenkys lonk
-65	2665	sonskrifa	sonskrifas sonskrifys
-66	2666	kigdebrer	gigdebroryon kigdebroryon kigdybreryon
-67	2667	aspia	aspias aspiys aspyas
-68	2668	delivra	delirvsa deliver delivrys delyvrys dhelyvra
-69	2669	taga	daga degen tages tegen tegys
-70	2670	arghasa	arghas arghassa arghasys
-71	2671	devera	dever deverow dhever dyvyr tyvyr
-72	2672	domhwel	dhomhwel dhomhwelas dhomhwelis domhwelas domhwelys
-73	2673	denagha	denaghas denaghys deneghys dhenagh dhenagha dhenaghas tenagha
-74	2674	glasneth	lasneth
-75	2675	tokyn	toknys
-76	2676	botel	botellow
-77	2677	blejen	blejennow blejyow vlejen
-78	2678	chalenj	chalenjys jalenj jalenjys
-79	2679	bosa	bossa bossons posa posys vosa vosen
-80	2680	skodhyoryon	
-81	2681	reynya	
-82	2682	a-gledhbarth	
-83	2683	ledanna	
-84	2684	desedhek	
-85	2685	sawder	
-86	2686	sakrys	
-87	2687	wordhenek	
-88	2688	teyrgweyth	
-89	2689	degeans	
-90	2690	sorr	
-91	2691	sywya	
-92	2692	gwarnyans	
-93	2693	henedh	
-94	2694	tretha	
-95	2695	diogeledh	
-96	2696	doktour	
-97	2697	disputys	
-98	2698	berson	
-99	2699	eskerdh	
-100	2700	pynag	
+1	2601	diskar	dhiskar discar diskarow diskarys
+2	2602	kollell	gollell kellyll kellylli
+3	2603	gorthsevel	korthsevel worthsevel
+4	2604	barna	barnes barnys varn varna
+5	2605	diswul	dhiswul diswrys tiswul
+6	2606	briansen	briansennow vriansen
+7	2607	akont	akontow akontys
+8	2608	kroadur	groadur groaduryon kroaduryon kroadurys
+9	2609	telyn	delyn dhelin telin telynnow thelyn
+10	2610	bodhogyon	vodhogyon
+11	2611	agh	aghow
+12	2612	gwerinek	werinek
+13	2613	gwayadow	wayadow
+14	2614	owraval	owravalow
+15	2615	stergylgh	stergelgh
+16	2616	arethor	arethoryon
+17	2617	oor	oer
+18	2618	remaynya	remainya remaynyas
+19	2619	arader	ereder
+20	2620	euryor	euryoryon euryoryow
+21	2621	fram	framyow
+22	2622	gowsir	kowsir
+23	2623	hirgylghek	hirgelghek
+24	2624	hatt	hattys
+25	2625	tebel	tybel
+26	2626	meythrin	veyther veythrin
+27	2627	wodhev	wodhevas
+28	2628	benyga	benegas benegys benigas benigys benygys venygys
+29	2629	kowl	gowl kowlen kowlow
+30	2630	gonisogethek	
+31	2631	flogholeth	
+32	2632	sterlester	
+33	2633	arwedhek	
+34	2634	hewul	
+35	2635	ermanek	
+36	2636	godhoniethek	
+37	2637	klerheans	
+38	2638	kettep	
+39	2639	aras	
+40	2640	ujy	
+41	2641	mordarow	
+42	2642	frothus	
+43	2643	nektar	
+44	2644	senjys	
+45	2645	guz	
+46	2646	kuntellek	
+47	2647	jynnow-ethen	
+48	2648	neshevin	
+49	2649	awtomatek	
+50	2650	magata	
+51	2651	berylliom	
+52	2652	bromin	
+53	2653	ytriom	
+54	2654	rodiom	
+55	2655	cesiom	
+56	2656	gadoliniom	
+57	2657	osmiom	
+58	2658	radon	
+59	2659	radiom	
+60	2660	thoriom	
+61	2661	prydydhes	
+62	2662	jornalyades	
+63	2663	a-bell	
+64	2664	sesyans	
+65	2665	laserow	
+66	2666	arp	
+67	2667	nobyl	
+68	2668	arvorel	
+69	2669	godhoniethel	
+70	2670	arghanti	
+71	2671	rudhlas	
+72	2672	bleujennek	
+73	2673	ideografow	
+74	2674	gweliek	
+75	2675	por	bor
+76	2676	disputys	dhisputys
+77	2677	magoryow	vagoryow
+78	2678	besydhya	besydhyes besydhys
+79	2679	kulyek	kulyoges
+80	2680	a-dhistowgh	a-dhystowgh
+81	2681	iselhe	iselheas
+82	2682	burm	vurm
+83	2683	hil	hilyow
+84	2684	molybdenom	volybdenom
+85	2685	praseodymiom	braseodymiom
+86	2686	sulfat	sulfatys
+87	2687	owrlin	owrlyn
+88	2688	pednmarian	pednmarianow
+89	2689	pennskrifer	bennskrifer bennskriforyon
+90	2690	perth	berth
+91	2691	gordhyans	gordhyansow wordhians
+92	2692	milva	milvaow vilva
+93	2693	jynnweyth	jynnweythow
+94	2694	goleder	woleder
+95	2695	kertys	gertys
+96	2696	terbiom	derbiom
+97	2697	kreftus	greftus
+98	2698	fler	flerow fleryow
+99	2699	mathemategydh	mathemategydhes
+100	2700	pigornek	bigornek

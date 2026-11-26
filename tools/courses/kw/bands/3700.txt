@@ -1,100 +1,100 @@
-1	3601	verk	
-2	3602	wrellons	
-3	3603	ceriom	
-4	3604	yterbiom	
-5	3605	protaktiniom	
-6	3606	hirgylghek	
-7	3607	kowrvargh	
-8	3608	bodhar	
-9	3609	skwattys	
-10	3610	trenkennow	
-11	3611	frappyans	
-12	3612	choklet	
-13	3613	nown	
-14	3614	blastek	
-15	3615	pubdedhyek	
-16	3616	selyer	
-17	3617	spen	
-18	3618	metaboledh	
-19	3619	gogellow	
-20	3620	trethans	
-21	3621	sosten	
-22	3622	piben	
-23	3623	gilometrow	
-24	3624	skrin	
-25	3625	effeythadow	
-26	3626	liwus	
-27	3627	portrayansow	
-28	3628	personoleth	
-29	3629	genejek	
-30	3630	godhevel	
-31	3631	ethennans	
-32	3632	skiensow	
-33	3633	kalessa	
-34	3634	kreftow	
-35	3635	treusworra	
-36	3636	taksonomieth	
-37	3637	gesstoffow	
-38	3638	nywtron	
-39	3639	dewoksid	
-40	3640	dhorto	
-41	3641	gorthsevel	
-42	3642	gwelydni	
-43	3643	anvlasus	
-44	3644	polypow	
-45	3645	tif	
-46	3646	isaskorr	
-47	3647	helerghi	
-48	3648	tednvosow	
-49	3649	geysers	
-50	3650	kommow	
-51	3651	tellek	
-52	3652	meteorologiethel	
-53	3653	gluth	
-54	3654	ragavonow	
-55	3655	kriys	
-56	3656	kowans	
-57	3657	planetow	
-58	3658	lappys	
-59	3659	aljebra	
-60	3660	pandra	
-61	3661	gonsolen	
-62	3662	lesbenigys	
-63	3663	teffo	
-64	3664	kresvorek	
-65	3665	gweresliv	
-66	3666	tro'ha'n	
-67	3667	erghlinen	
-68	3668	selvarian	
-69	3669	olivin	
-70	3670	brysel	
-71	3671	hwist	
-72	3672	duwses	
-73	3673	wylar	
-74	3674	demperedh	
-75	3675	ryvars	
-76	3676	marg	
-77	3677	killik	
-78	3678	gromosomow	
-79	3679	saghow	
-80	3680	trowensow	
-81	3681	pankreas	
-82	3682	sukros	
-83	3683	gwagrennow	
-84	3684	ilowbib	
-85	3685	syllaben	
-86	3686	lienek	
-87	3687	drynsys	
-88	3688	hendheskonydh	
-89	3689	frosedh	
-90	3690	wodhev	
-91	3691	trovannow	
-92	3692	goton	
-93	3693	kuntel-lyver	
-94	3694	mejwesyon	
-95	3695	spryng	
-96	3696	muryonoryon	
-97	3697	dewvys	
-98	3698	vuryon	
-99	3699	elester	elestren
-100	3700	yn-dar	
+1	3601	difuna	dhifun difun
+2	3602	yey	yee
+3	3603	badh	badhes
+4	3604	daskemeres	taskemeres
+5	3605	dydhyek	dedhyek
+6	3606	ekonomieth	economieth
+7	3607	balek	balogow
+8	3608	skowl	skowles
+9	3609	chatelydhieth	jatelydhieth
+10	3610	blou	flou
+11	3611	sketh	skethow
+12	3612	afinans	afinansow
+13	3613	betys	petisyon
+14	3614	eksekutya	eksekutys
+15	3615	kothhe	kothha
+16	3616	fria	frias fries
+17	3617	diwysyk	dhiwysek tiwysyk
+18	3618	braggya	bragg braggyes
+19	3619	galwesigeth	alwesigeth alwesigethow
+20	3620	euryador	euryadoryon euryadoryow
+21	3621	banken	bankennow vanken
+22	3622	bryghlin	bryghlinyow vryghlinow
+23	3623	morgroban	morgrobanes vorgrobanes
+24	3624	pychya	bechya pech pechyes pych
+25	3625	kaja	aja gaja
+26	3626	byrla	berl perlys vyrl
+27	3627	balle	valle
+28	3628	adoptya	adopt adoptyas adoptys
+29	3629	faktor	faktorow faktoryow
+30	3630	gwerinor	gwerinoryon werinoryon
+31	3631	mans	mansyon vans
+32	3632	kowbal	kowbalow kowbalyow
+33	3633	delvrys	delvrysyow
+34	3634	skapya	skapyas skapys
+35	3635	dynya	dyn dynys
+36	3636	bomm	bobm vomm
+37	3637	asklos	asklosen
+38	3638	charj	charjys jarj
+39	3639	ankevi	ankevys ankov nakevi
+40	3640	krognans	krognansow
+41	3641	abrans	abransow dewabrans
+42	3642	pegha	begha beghes peghes
+43	3643	breseler	breseloryon vreseler vreseloryon
+44	3644	geler	eler keler weloryon welyr
+45	3645	genyn	enyn genennow genydnow genynnow
+46	3646	ankorya	ancorys ankor ankoryow ankorys
+47	3647	bernya	bernas bernys pernys
+48	3648	askrifa	askrif askrifys
+49	3649	lostya	losten lostyn
+50	3650	gorvarghas	gorvarghasow
+51	3651	dengerensedhek	dengerenjedhek
+52	3652	krow	krowyow
+53	3653	ikon	ikonys
+54	3654	ilewydhes	ilewydhesow
+55	3655	kuv	guv
+56	3656	kleudhya	kleudhyes
+57	3657	argya	argyas
+58	3658	pocket	bocket
+59	3659	dalghuster	dhalghuster
+60	3660	omgelmi	omgelmys
+61	3661	arnewa	arnewas arnewys
+62	3662	flerya	flerys
+63	3663	dreys	
+64	3664	aktya	actya aktyes aktys
+65	3665	gallon	allon
+66	3666	gwynnel	kwynnel
+67	3667	afinus	
+68	3668	ester	
+69	3669	lowartha	
+70	3670	digresennans	
+71	3671	omwodhvos	
+72	3672	yogort	
+73	3673	seytek	
+74	3674	dewdhegves	
+75	3675	seytegves	
+76	3676	papynjay	
+77	3677	elgeth	
+78	3678	unver	
+79	3679	arghantinek	
+80	3680	anemia	
+81	3681	poder	
+82	3682	kesstyr	
+83	3683	flows	
+84	3684	lewydhes	
+85	3685	yos	
+86	3686	neuvya	
+87	3687	bankskwattyes	
+88	3688	arenebel	
+89	3689	dallathvos	
+90	3690	emperouregek	
+91	3691	efanyans	
+92	3692	felshyp	
+93	3693	medhoges	
+94	3694	skobm	skommow
+95	3695	dellni	
+96	3696	hwythans	
+97	3697	artydhes	
+98	3698	hedhadow	
+99	3699	a-borpos	
+100	3700	privedhyow	

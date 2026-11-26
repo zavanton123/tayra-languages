@@ -3,15 +3,15 @@
 3	1703	omsettyans	
 4	1704	hwerow	
 5	1705	trevesigethow	
-6	1706	dolomit	
-7	1707	tobmder	
+6	1706	dolomit	dholomitow
+7	1707	tobmder	dobmder domder dommder tomder tommder
 8	1708	arsenik	
-9	1709	difeudhys	
-10	1710	kessonenn	
-11	1711	yskynna	
+9	1709	difeudhys	dhifeudhys
+10	1710	kessonenn	gessonenn gessonennow kessonennow
+11	1711	yskynna	yskydna yskydnas yskynnas
 12	1712	dreusvewas	
 13	1713	kebmys	
-14	1714	glusekter	
+14	1714	glusekter	glusekteryow lusekter
 15	1715	kowlwrys	gowlwrys
 16	1716	kummyas	gummyas
 17	1717	hwans	whans
@@ -34,43 +34,43 @@
 34	1734	tava	dava tav tavaow
 35	1735	dadhla	dadhlys dedhlys dhadhla dhadhlas tadhla
 36	1736	lenna	lednow lenn lennas lennow lennys lynnow
-37	1737	yn-nans	
-38	1738	pennser	
+37	1737	yn-nans	en-nans
+38	1738	pennser	bennser bennseri pednser pednseri pennseri pennsery
 39	1739	arnowyth	
 40	1740	sev	
 41	1741	adro	
 42	1742	erbyn	
 43	1743	drevesigeth	
-44	1744	istorior	
-45	1745	solempnya	
-46	1746	spena	
+44	1744	istorior	istorier istorioryon istoryor
+45	1745	solempnya	solempnyas solempnys
+46	1746	spena	spenys
 47	1747	sur	
 48	1748	gresten	
-49	1749	honanieth	
+49	1749	honanieth	honaniethow
 50	1750	asnodhow	
 51	1751	wayn	
-52	1752	gonsyst	
-53	1753	mythologieth	
+52	1752	gonsyst	gonsist gonsystyas
+53	1753	mythologieth	mythologiethow vythologieth
 54	1754	henwis	
 55	1755	shad	
 56	1756	comprehendya	
 57	1757	sewenus	
-58	1758	traffik	
-59	1759	hwarvedhyans	
+58	1758	traffik	draffik
+59	1759	hwarvedhyans	hwarvedhyansow wharvedhyansow
 60	1760	blat	
-61	1761	sinellow	
-62	1762	plastek	
+61	1761	sinellow	sinell
+62	1762	plastek	blastek
 63	1763	hwrello	
-64	1764	treja	
+64	1764	treja	tryja
 65	1765	shapys	
 66	1766	sulfid	
 67	1767	synthetek	
-68	1768	dororiethel	
-69	1769	fibrow	
+68	1768	dororiethel	tororiethel
+69	1769	fibrow	fybrow
 70	1770	levelyow	
 71	1771	chansler	jansler
 72	1772	glynn	glynnow
-73	1773	assoylya	assoylyes
+73	1773	assoylya	assoylyas assoylyes
 74	1774	barlys	varlys
 75	1775	frosa	frosas
 76	1776	aneth	anethow
@@ -96,5 +96,5 @@
 96	1796	bolgh	bolghow volgh
 97	1797	galow	alow galowow halow
 98	1798	kasa	casa hasa kasas kesen
-99	1799	gevel	evellyow gevellyon hevel
+99	1799	gevel	evell evellyow gevell gevellow gevellyon hevel
 100	1800	golghi	golgh golghys wolghas wolghi

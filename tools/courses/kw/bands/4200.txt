@@ -1,100 +1,100 @@
-1	4101	barbour	
-2	4102	blessya	bless
-3	4103	nagonen	
-4	4104	presep	
-5	4105	evredhek	
-6	4106	cessya	
-7	4107	dynyans	
-8	4108	otta	
-9	4109	glavor	klavor
-10	4110	byttele	
-11	4111	molys	
-12	4112	browagh	
-13	4113	barras	
-14	4114	hesk	
-15	4115	oferen	
-16	4116	omdhon	
-17	4117	strooth	
-18	4118	fyrv	
-19	4119	cher	
-20	4120	anfurvus	
-21	4121	atomva	
-22	4122	alkoholek	
-23	4123	tawel	
-24	4124	tryflek	
-25	4125	anewn	
-26	4126	sidhel	
-27	4127	badhya	
-28	4128	tanweyth	
-29	4129	flerys	
-30	4130	loskven	
-31	4131	ewonek	
-32	4132	frothuster	
-33	4133	persil	
-34	4134	mathematigel	
-35	4135	frosrewlivans	
-36	4136	felsik	
-37	4137	erbysyon	
-38	4138	ankombrynsi	
-39	4139	anorganek	
-40	4140	eos	
-41	4141	bystel	
-42	4142	filosofores	
-43	4143	zombi	
-44	4144	hwypp	
-45	4145	ughelvarr	
-46	4146	estat	
-47	4147	arwodhik	arwodhigow
-48	4148	dasweles	daswelys
-49	4149	emskemuna	emskemunyas emskemunys
-50	4150	arghepskop	arghepskobow
-51	4151	bynari	bynary
-52	4152	dherag	dheragdho
-53	4153	darbarer	darbaroryon
-54	4154	mata	fata
-55	4155	pyncel	pyncelyow
-56	4156	botas	votas
-57	4157	akoustek	acoustek
-58	4158	elow	elowen
-59	4159	darbolla	darbollys
-60	4160	truth	druth
-61	4161	lavyn	lavynnyon
-62	4162	ehek	eghek
-63	4163	sidhla	sidhlys
-64	4164	gelvinek	gelvinogyon
-65	4165	gocki	hocki
-66	4166	p'eur	
-67	4167	faskor	faskoryon
-68	4168	deray	derayes
-69	4169	brithweyth	vrithweyth
-70	4170	gidlyver	gidlyvrow
-71	4171	leurlen	leurlennow
-72	4172	amethyst	amethystyow
-73	4173	armadyllo	armadillo
-74	4174	astiveryans	astiveryansow
-75	4175	cirk	cirkow
-76	4176	tempra	dempra temprys
-77	4177	keherek	geherek
-78	4178	assentya	assentyas
-79	4179	glawlen	glawlednow
-80	4180	arghanser	arghansoryon
-81	4181	argos	argosow
-82	4182	pita	bita
-83	4183	testskrif	testskrifow
-84	4184	frethter	frethterow
-85	4185	lorgh	lorghow
-86	4186	desempis	desempys
-87	4187	gormel	gormelys hormons kormel
-88	4188	braysya	brays praisya prays
-89	4189	dyowles	dhyowles
-90	4190	mordhos	diwvordhos mordhosow
-91	4191	skons	skonsen skonsow
-92	4192	pempbes	pempbeses pympbyses
-93	4193	tegyrin	degyrin tegyrinen
-94	4194	kresydh	kresydhyon
-95	4195	barren	barrednow barrennow
-96	4196	broweghi	proweghi vroweghi
-97	4197	gwerem	gwerebmow
-98	4198	tarder	terder
-99	4199	krampoth	krampothen
-100	4200	argevro	argevrohow
+1	4101	popti	poptiow popty
+2	4102	argevri	argevras argevrys
+3	4103	gecko	ecko geckos
+4	4104	pedren	bedren dhiwbedren diwbedren
+5	4105	dasskrifa	dasskrifys dhasscrifa dhasskrifsa
+6	4106	keniterow	gyniterow keniterwi
+7	4107	palv	balv palvow
+8	4108	bagel	vagel
+9	4109	bis	bysyow
+10	4110	rosya	rosyes
+11	4111	rynni	renna rennyas
+12	4112	gesya	esas hesya
+13	4113	kwyn	gwynion hwynnis
+14	4114	fonya	fonys
+15	4115	dasfurv	dasfurvys
+16	4116	batti	
+17	4117	envi	
+18	4118	diberthva	
+19	4119	alyon	
+20	4120	splatt	
+21	4121	rynn	
+22	4122	kasiterit	
+23	4123	adre	a-dre
+24	4124	yn-kerghyn	
+25	4125	didhanedh	
+26	4126	melodi	
+27	4127	amontyell	
+28	4128	kynyaf	
+29	4129	yown	
+30	4130	ewnans	
+31	4131	bour	pour
+32	4132	nyni	
+33	4133	fantasiek	
+34	4134	pystri	
+35	4135	danjer	
+36	4136	chogha	
+37	4137	assentyans	
+38	4138	dewana	tewana
+39	4139	truedh	
+40	4140	dibennans	
+41	4141	keredhi	keredhys
+42	4142	gowleverel	gowleveryas
+43	4143	jujj	
+44	4144	frût	
+45	4145	tuvaluek	
+46	4146	erghek	
+47	4147	indelma	
+48	4148	anpossybyl	
+49	4149	flynt	
+50	4150	argraf	
+51	4151	fres	
+52	4152	anstrothys	
+53	4153	avalennek	avalenegi
+54	4154	gloryus	
+55	4155	legest	legesti
+56	4156	coca-cola	
+57	4157	amm	
+58	4158	arvedhen	
+59	4159	kyfeyth	
+60	4160	arlottes	
+61	4161	ewik	ewigow
+62	4162	korrigan	
+63	4163	meskel	
+64	4164	fardellik	
+65	4165	kenedhlegi	kenedhlegys
+66	4166	blonegek	
+67	4167	akusya	akusys
+68	4168	untu	
+69	4169	bismerus	
+70	4170	gnasen	gnasennow
+71	4171	aswonans	
+72	4172	neuvyer	neuvyoryon
+73	4173	aysel	
+74	4174	kresys	
+75	4175	bughwas	
+76	4176	finel	
+77	4177	darsewyans	darsewyansow
+78	4178	charjya	charjyes
+79	4179	addyans	
+80	4180	estrenegyans	
+81	4181	folneth	
+82	4182	anaswonys	
+83	4183	bide	fide
+84	4184	legryas	
+85	4185	asthma	
+86	4186	anvarwel	
+87	4187	anvas	
+88	4188	anfeusik	
+89	4189	yn-kerdh	
+90	4190	amovya	
+91	4191	daslev	
+92	4192	bedhygla	
+93	4193	chello	
+94	4194	kemeradow	gemeradow
+95	4195	didhuwydh	
+96	4196	bynitha	
+97	4197	keas	
+98	4198	treusreydhel	
+99	4199	feusik	
+100	4200	alusenek	

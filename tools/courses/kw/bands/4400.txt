@@ -1,100 +1,100 @@
-1	4301	alinya	alinys
-2	4302	kennek	gennek
-3	4303	fronnans	fronansow
-4	4304	analog	
-5	4305	owrgi	owrgeun
-6	4306	diner	
-7	4307	dorgi	
-8	4308	trenkles	
-9	4309	dalva	
-10	4310	anyagh	
-11	4311	ewnhynsek	
-12	4312	feyth	
-13	4313	frosrewlivek	
-14	4314	hunyek	
-15	4315	kool	
-16	4316	resna	
-17	4317	adhvetter	
-18	4318	voter	votoryon
-19	4319	absolut	
-20	4320	skolheygel	
-21	4321	falladow	
-22	4322	dibra	dhybras
-23	4323	prederus	
-24	4324	flamek	
-25	4325	treusweladow	
-26	4326	tyckya	tick
-27	4327	bargesi	
-28	4328	cellulos	
-29	4329	anstroth	
-30	4330	ayrel	
-31	4331	arnow	
-32	4332	diverseth	
-33	4333	dernigel	
-34	4334	gorlewin	worlewin
-35	4335	arnewa	arnewas
-36	4336	kymyst	kemyst
-37	4337	a-dhywar	a-dhiwar
-38	4338	a'th	
-39	4339	deklaryans	dheklaryans
-40	4340	gerda	erda
-41	4341	chayr	chair jayr
-42	4342	dasleverel	dasleverys
-43	4343	elia	elias elisa
-44	4344	balyer	balyeryow
-45	4345	torth	dorthow
-46	4346	gwia	kwia
-47	4347	patata	batata
-48	4348	chanjyans	chanjyansow
-49	4349	alamandwydh	alamandwydhen
-50	4350	bore	fore
-51	4351	arvedh	arvedhys
-52	4352	torthel	torthellow
-53	4353	chymbla	jymblys
-54	4354	stifek	stifoges
-55	4355	besydh	vesydh
-56	4356	franklondya	franklond
-57	4357	burjeseth	vurjeseth
-58	4358	balegi	balegys
-59	4359	iskarga	iskarg
-60	4360	goheles	koheles woheles
-61	4361	akwirya	akwirys
-62	4362	deskrifus	dheskrifus
-63	4363	furvas	furvasow
-64	4364	degoodh	dhegoedh tegoodh
-65	4365	glowva	lowvaow
-66	4366	gwevya	hweffes
-67	4367	ardak	ardagow
-68	4368	cigarik	cigarigow
-69	4369	burjesek	vurjesek
-70	4370	bengorfonieth	vengorfonieth
-71	4371	kroder	krodrow
-72	4372	manek	manegow
-73	4373	delit	dhelit
-74	4374	brogh	broghes
-75	4375	ynkladhva	enkladhva
-76	4376	bryntinsys	bryntynsys
-77	4377	spern	spernen
-78	4378	breselyans	vreselyans
-79	4379	drewydh	dhrewydhyon drewydhyon
-80	4380	boragweyth	voragweyth
-81	4381	brysonydh	bresonydh
-82	4382	chyften	chiften
-83	4383	hunek	hunegen
-84	4384	kelorn	gelorn
-85	4385	giow	giowen
-86	4386	brasoberys	vrasoberys
-87	4387	foesik	foesigyon foesygyon
-88	4388	bargos	bargoses
-89	4389	a-vorow	avorow
-90	4390	mongel	fongel vongel
-91	4391	godra	godrys oder
-92	4392	ayrosol	ayrosolys
-93	4393	bismer	bismerys bysmer
-94	4394	gormola	gormoledhow wormola
-95	4395	kellik	gelligen gellik
-96	4396	fardella	fardell fardellys
-97	4397	ascendya	ascend ascendyas
-98	4398	ametha	ameth amethas amethys
-99	4399	bora	borys vora
-100	4400	gwinlan	gwinlannow winlan
+1	4301	aperya	aperys
+2	4302	bolonjedh	volonjedh
+3	4303	delivrans	delivransow
+4	4304	kemynna	gemynnas kemynnys
+5	4305	fleghik	fleghigyow
+6	4306	apposya	appos
+7	4307	karghar	garghar
+8	4308	demokratieth	demokratiethow
+9	4309	torgh	dergh
+10	4310	gwyg	wyg
+11	4311	defowt	dhefowt
+12	4312	fugya	fugen
+13	4313	gik	ik kyk
+14	4314	ervin	ervynen
+15	4315	arvreusi	arvreusys
+16	4316	kerghes	kyrghes
+17	4317	kowan	kowannow
+18	4318	avallan	avallanow
+19	4319	ambosa	ambosas
+20	4320	defians	dhefians
+21	4321	eyles	eylesow
+22	4322	omhweles	omhwel
+23	4323	kampva	kampvaow
+24	4324	didreylya	dhidreylya didreylyes
+25	4325	avodya	avod
+26	4326	alarm	alarmow
+27	4327	ughradha	ughradhys
+28	4328	breyna	breynys
+29	4329	truedha	truedhys
+30	4330	alhwedha	alhwedhennow alhwedhys
+31	4331	diduel	dhiduel
+32	4332	akasia	akasya
+33	4333	melhwioges	melhwiogesow
+34	4334	beghya	beghyes veghya
+35	4335	galar	galarow
+36	4336	kowlleski	gowlleskas
+37	4337	floren	florednow
+38	4338	breusyans	breusyansow
+39	4339	galweythel	halweythel
+40	4340	chatelydh	jatelydhyon
+41	4341	furvyer	furvyoryon
+42	4342	argel	argelyow
+43	4343	fanja	fanjas
+44	4344	dibarder	dibarderyow
+45	4345	avisya	avisyes avisys
+46	4346	fistena	fistenas
+47	4347	brocha	vrochys
+48	4348	ankombra	ankombras
+49	4349	poltra	poltrys
+50	4350	glasik	klasik lasik
+51	4351	asleans	asleansow
+52	4352	lomm	lobm
+53	4353	pystik	pestik
+54	4354	ania	anias
+55	4355	bargynnya	bargennya bargynnys
+56	4356	avis	avisyow
+57	4357	avisyer	avisyoryon
+58	4358	hockya	hock
+59	4359	kilwagren	kilwagrednow kilwagrennow
+60	4360	medhegva	vedhegva
+61	4361	beghyegeth	veghyegeth veghyegethow
+62	4362	ekokevreyth	ekokevreythow ekokevreythyow
+63	4363	guw	guwow
+64	4364	arwostla	arwostlas
+65	4365	didhuwieth	dhidhuwieth
+66	4366	bronnek	brodnegi
+67	4367	messias	messyas
+68	4368	chal	chalys dewjal
+69	4369	kukomber	gukomber
+70	4370	delea	delya
+71	4371	barthusek	varthusek
+72	4372	astewis	astewisas
+73	4373	chonsya	chonsys jonsys
+74	4374	dyskybeleth	dhyskybeleth
+75	4375	bughik	bughigesow
+76	4376	brosek	frosek
+77	4377	istitla	istitel istitlys
+78	4378	boslan	boslannow voslannow
+79	4379	devosek	tevosek
+80	4380	tekhe	dykys tekhes
+81	4381	bolgha	bolghys volghen
+82	4382	bagha	baghys
+83	4383	bewweyth	bewweythyow
+84	4384	esherdhya	esherdhyons
+85	4385	pies	vies
+86	4386	ledri	lettres
+87	4387	trobla	drobla troblys
+88	4388	soon	soen
+89	4389	pynk	bynkys fynk
+90	4390	cherya	chersys jerya
+91	4391	dashwithra	dhashwithras
+92	4392	molgh	molghow
+93	4393	porgh	borgh
+94	4394	gevyans	hevyans
+95	4395	dasunya	dasunys
+96	4396	sowter	
+97	4397	amalgam	
+98	4398	degemeryans	
+99	4399	despitya	despitys
+100	4400	keunegi	keunegen

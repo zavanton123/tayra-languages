@@ -1,100 +1,100 @@
-1	3001	furvell	furvellow
-2	3002	brysonieth	vrysonieth
-3	3003	ynn	ydn
-4	3004	erow	erewi erwi
-5	3005	bykken	vykken
-6	3006	estewlel	estewlis estewlys
-7	3007	wosa'n	
-8	3008	garowder	arowder
-9	3009	trevasa	drevasys threvasa
-10	3010	pekara'n	
-11	3011	dasskrif	dasskrifow dhasscrifow
-12	3012	pysi	beji pyji
-13	3013	melhwes	melwhes velhwes velhwesen
-14	3014	byd	bid fyd ped
-15	3015	moldra	moldrys
-16	3016	debrer	debroryon dybroryon
-17	3017	afina	afin afinas
-18	3018	darvos	darvosow dharvos dharvosow
-19	3019	deklinyans	deklynyansow dheklinyans
-20	3020	trewa	trew trewyn
-21	3021	gavrewik	gavrewiges
-22	3022	klevesans	klevesansow
-23	3023	pali	bali fali
-24	3024	mildros	mildrosow vildros vildrosow
-25	3025	kemmysk	gemmysk kemmyskys
-26	3026	chart	chartes chartow chartys
-27	3027	meus	feus meusi veus
-28	3028	didhemedhi	dhidhemedhas dhidhemedhis dhidhemedhys didhemedhas
-29	3029	afydhya	afydh afydhyas afydhys
-30	3030	plisk	blisken plisken plysken
-31	3031	kollenwel	gollenwel gollenwis kollenwys
-32	3032	gwi	gwiow gwiys wi
-33	3033	gwandra	gwander gwandras wander wandra wandras
-34	3034	gweus	dhiwweus diwweus weus
-35	3035	daskor	daskorra daskorrys daskorys dhaskor dhaskoras dhaskorsa
-36	3036	pries	bries dewbries dhewbries fries
-37	3037	determya	dheterm dhetermya dhetermyas
-38	3038	prener	brener brenoryon prenoryon
-39	3039	defolya	defolyes defolys dhefolas dhefolya dhefolyas
-40	3040	trobel	drobel troblys
-41	3041	bronna	brodna bronnen fronn fronna fronnas fronnow
-42	3042	brederedh	brederydh brederydhyon prederydh prederydhyon vrederedh
-43	3043	vershyon	
-44	3044	omdhiskwa	
-45	3045	kansbledhynnyow	
-46	3046	metol	
-47	3047	benneglos	
-48	3048	novelow	
-49	3049	peswardhek	
-50	3050	ple'ma	
-51	3051	jorna	
-52	3052	destennow	
-53	3053	amyttya	
-54	3054	kuntellyver	
-55	3055	kemmeres	
-56	3056	lonchys	
-57	3057	kerghynnys	
-58	3058	dhemmedhis	
-59	3059	gaskyrgh	
-60	3060	mammskrif	
-61	3061	gyns	
-62	3062	demmedhi	
-63	3063	diwyethek	
-64	3064	turant	
-65	3065	dhiskwa	
-66	3066	studhys	
-67	3067	lesans	
-68	3068	tredanel	
-69	3069	godhoniador	
-70	3070	bodhogyon	
-71	3071	dhrehev	
-72	3072	seweni	
-73	3073	treusfurvek	
-74	3074	movys	
-75	3075	tektonieth	
-76	3076	brivedh	
-77	3077	yuliek	
-78	3078	studhyor	
-79	3079	reythyansel	
-80	3080	dyskadores	
-81	3081	gwaynys	
-82	3082	lytherennegi	
-83	3083	rudhek	
-84	3084	komparya	
-85	3085	gryj	
-86	3086	radar	
-87	3087	peahoone	
-88	3088	apskritis	
-89	3089	kamera	
-90	3090	gwerinek	
-91	3091	usyansow	
-92	3092	is-lewydh	
-93	3093	mildiryow	
-94	3094	barner	
-95	3095	peul	
-96	3096	kolldhel	
-97	3097	hweljiow	
-98	3098	gwayadow	
-99	3099	moghhe	
-100	3100	bambou	
+1	3001	trewa	trew trewyn
+2	3002	gavrewik	gavrewiges
+3	3003	klevesans	klevesansow
+4	3004	pali	bali fali
+5	3005	mildros	mildrosow vildros vildrosow
+6	3006	kemmysk	gemmysk kemmyskys
+7	3007	chart	chartes chartow chartys
+8	3008	meus	feus meusi veus
+9	3009	didhemedhi	dhidhemedhas dhidhemedhis dhidhemedhys didhemedhas
+10	3010	afydhya	afydh afydhyas afydhys
+11	3011	plisk	blisken plisken plysken
+12	3012	kollenwel	gollenwel gollenwis kollenwys
+13	3013	gwi	gwiow gwiys wi
+14	3014	gwandra	gwander gwandras wander wandra wandras
+15	3015	gweus	dhiwweus diwweus weus
+16	3016	daskor	daskorra daskorrys daskorys dhaskor dhaskoras dhaskorsa
+17	3017	pries	bries dewbries dhewbries fries
+18	3018	prener	brener brenoryon prenoryon
+19	3019	defolya	defolyes defolys dhefolas dhefolya dhefolyas
+20	3020	trobel	drobel troblys
+21	3021	bronna	brodna fronna fronnas
+22	3022	brederedh	brederydh brederydhyon prederydh prederydhyon vrederedh
+23	3023	vershyon	
+24	3024	omdhiskwa	
+25	3025	metol	
+26	3026	novelow	
+27	3027	peswardhek	
+28	3028	jorna	
+29	3029	kuntellyver	
+30	3030	lonchys	
+31	3031	turant	
+32	3032	dhiskwa	
+33	3033	lesans	
+34	3034	tredanel	
+35	3035	yuliek	
+36	3036	reythyansel	
+37	3037	dyskadores	
+38	3038	rudhek	
+39	3039	radar	
+40	3040	is-lewydh	
+41	3041	a-vri	
+42	3042	removans	
+43	3043	difeudhek	
+44	3044	amanyn	
+45	3045	loup-passya	
+46	3046	brysoniethel	
+47	3047	omladhans	
+48	3048	rutheniom	
+49	3049	thaliom	
+50	3050	radium	
+51	3051	askellek	
+52	3052	blous	
+53	3053	ethek	
+54	3054	leyder	
+55	3055	kabinet	
+56	3056	spedys	
+57	3057	perfydh	
+58	3058	tourik	
+59	3059	statystek	
+60	3060	kuntellesel	
+61	3061	konter	
+62	3062	anellans	
+63	3063	isrudh	
+64	3064	vysyt	
+65	3065	treustir	
+66	3066	gwarthevys	
+67	3067	yethoniethel	
+68	3068	immun	
+69	3069	ammonya	
+70	3070	pygvoon	
+71	3071	emann	
+72	3072	taboon	
+73	3073	flameges	
+74	3074	tremliw	
+75	3075	paradhis	
+76	3076	loskvenydhieth	
+77	3077	kwyllednow	
+78	3078	losowdhebroryon	
+79	3079	sorghomm	
+80	3080	nikotin	
+81	3081	hanwesigethow	
+82	3082	mengylgh	
+83	3083	tandharnek	
+84	3084	myghterneth	myghternethow
+85	3085	plasennow	flasennow
+86	3086	rider	ridrow
+87	3087	eev	yev
+88	3088	pluvek	fluvek
+89	3089	erbysiedh	erbysiedhow
+90	3090	kenwertha	genwertha
+91	3091	usir	usyr
+92	3092	empir	empirys
+93	3093	poloniom	boloniom
+94	3094	governys	wovernys
+95	3095	kelester	kelesterow
+96	3096	nitrat	nitratow
+97	3097	fluorid	fluoridys
+98	3098	folsans	folsansow
+99	3099	gluthyans	luthyans
+100	3100	daromres	daromrys

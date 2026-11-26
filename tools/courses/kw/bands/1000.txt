@@ -1,12 +1,12 @@
 1	901	kowser	cowsoryon gowser gowsoryon howser howsoryon kowsoryon
 2	902	kegina	egyn gegin geginas geginys hegina kegin keginow keginys
-3	903	styryans	
-4	904	ledan	
-5	905	palestinek	
+3	903	styryans	styryansow
+4	904	ledan	ledanna
+5	905	palestinek	balestinek
 6	906	sekond	
-7	907	hwarva	
-8	908	skiens	
-9	909	komplek	
+7	907	hwarva	wharva
+8	908	skiens	sciens skiensow
+9	909	komplek	complek gomplek
 10	910	romanser	
 11	911	despit	dhespit
 12	912	derowel	dherowel terowel
@@ -17,9 +17,9 @@
 17	917	ton	dhon don dones tones tonyow
 18	918	fyllel	fyll fyllas fyllens fyllis fyllsa fyllys
 19	919	krys	gresyow grys krysow krysyow
-20	920	savla	
+20	920	savla	savlaow
 21	921	north-est	
-22	922	kaner	
+22	922	kaner	canoryon ganer kanoryon
 23	923	essensek	
 24	924	dyghtyans	dhyghtyans dyghtyansow
 25	925	kewer	gewer heweres
@@ -31,7 +31,7 @@
 31	931	mynysen	mynysednow mynysennow vynysednow vynysen
 32	932	yn-mes	
 33	933	enorys	
-34	934	klassek	
+34	934	klassek	classek glassek
 35	935	nebonan	
 36	936	sadorn	
 37	937	awgrym	
@@ -46,7 +46,7 @@
 46	946	hwarheans	hwarheansow wharheans
 47	947	splann	spladn
 48	948	klewes	clewir glewas glewes glewis glewsys klew klewys klowys klywes
-49	949	dihaval	
+49	949	dihaval	dhihaval tihaval
 50	950	golok	wolok
 51	951	dh'aga	
 52	952	pubonen	bubonan pubonan
@@ -68,9 +68,9 @@
 68	968	previ	brevas breves brevi brevis brovas freves frevi preves prevys pryves
 69	969	leuv	dhiwla diwla leuvow leuvyow
 70	970	rych	
-71	971	kresel	
-72	972	gwayans	
-73	973	posetter	
+71	971	kresel	gresel
+72	972	gwayans	gwayansow wayans wayansow
+73	973	posetter	fosetter
 74	974	brons	vrons
 75	975	tredan	dredan
 76	976	arghpedrevan	arghpedrevanes
@@ -83,14 +83,14 @@
 83	983	jynn-amontya	jynnow-amontya jynnys-amontya
 84	984	morvil	morviles vorviles
 85	985	devisya	devisyes devisys devysys dhevisis dhevisya dhevisyas
-86	986	omsav	
-87	987	kilometer	
-88	988	gonisogethel	
-89	989	gwrier	
+86	986	omsav	omsavow
+87	987	kilometer	gilometer gilometrow kilometrow
+88	988	gonisogethel	wonisogethel
+89	989	gwrier	gwrioryon wrier wrioryon
 90	990	gwener	
 91	991	ris	
-92	992	kowethasek	
-93	993	kresten	
+92	992	kowethasek	cowethasek gowethasek
+93	993	kresten	cresten
 94	994	eylen	eylennow
 95	995	efander	efanderow
 96	996	ayrborth	ayrborthow

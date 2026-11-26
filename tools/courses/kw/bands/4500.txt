@@ -1,100 +1,100 @@
-1	4401	brager	bragoryon vrager
-2	4402	hwansa	hwansas hwansys hwensys
-3	4403	disevel	dhisav dhisevis disavsa
-4	4404	popti	poptiow popty
-5	4405	argevri	argevras argevrys
-6	4406	gecko	ecko geckos
-7	4407	pedren	bedren dhiwbedren diwbedren
-8	4408	dasskrifa	dasskrifys dhasscrifa dhasskrifsa
-9	4409	keniterow	gyniterow keniterwi
-10	4410	palv	balv palvow
-11	4411	bagel	vagel
-12	4412	pob	beub peub
-13	4413	bis	bysyow vis
-14	4414	rosya	rosyes rosys
-15	4415	rynni	renna rennyas rydnys rynnys
-16	4416	gesya	esas gesys hesya
-17	4417	kwyn	gwyn gwynion hwynnis
-18	4418	fonya	fons fonys
-19	4419	kowla	gowla kowlen
-20	4420	dasfurv	dasfurvys
-21	4421	batti	
-22	4422	envi	
-23	4423	diberthva	
-24	4424	alyon	
-25	4425	splatt	
-26	4426	rynn	
-27	4427	kasiterit	
-28	4428	adre	a-dre
-29	4429	yn-kerghyn	
-30	4430	didhanedh	
-31	4431	melodi	
-32	4432	amontyell	
-33	4433	kynyaf	
-34	4434	yown	
-35	4435	ewnans	
-36	4436	bour	pour
-37	4437	nyni	
-38	4438	fantasiek	
-39	4439	pystri	
-40	4440	danjer	
-41	4441	chogha	
-42	4442	assentyans	
-43	4443	dewana	tewana
-44	4444	truedh	
-45	4445	dibennans	
-46	4446	keredhi	keredhys
-47	4447	gowleverel	gowleveryas
-48	4448	jujj	
-49	4449	frût	
-50	4450	tuvaluek	
-51	4451	erghek	
-52	4452	indelma	
-53	4453	anpossybyl	
-54	4454	flynt	
-55	4455	argraf	
-56	4456	fres	
-57	4457	anstrothys	
-58	4458	avalennek	avalenegi
-59	4459	gloryus	
-60	4460	legest	legesti
-61	4461	coca-cola	
-62	4462	amm	
-63	4463	arvedhen	
-64	4464	kyfeyth	
-65	4465	arlottes	
-66	4466	ewik	ewigow
-67	4467	korrigan	
-68	4468	meskel	
-69	4469	fardellik	
-70	4470	kenedhlegi	kenedhlegys
-71	4471	blonegek	
-72	4472	akusya	akusys
-73	4473	flerya	
-74	4474	untu	
-75	4475	bismerus	
-76	4476	gnasen	gnasennow
-77	4477	aswonans	
-78	4478	neuvyer	neuvyoryon
-79	4479	aysel	
-80	4480	kresys	
-81	4481	bughwas	
-82	4482	finel	
-83	4483	darsewyans	darsewyansow
-84	4484	charjya	charjyes
-85	4485	addyans	
-86	4486	estrenegyans	
-87	4487	folneth	
-88	4488	anaswonys	
-89	4489	bide	fide
-90	4490	legryas	
-91	4491	asthma	
-92	4492	anvarwel	
-93	4493	anvas	
-94	4494	anfeusik	
-95	4495	yn-kerdh	
-96	4496	amovya	
-97	4497	daslev	
-98	4498	bedhygla	
-99	4499	chello	
-100	4500	kemeradow	gemeradow
+1	4401	kevelek	keveloges
+2	4402	skwithys	
+3	4403	a-nowydh	
+4	4404	dewisel	
+5	4405	floghva	
+6	4406	fatla	
+7	4407	cherita	jerita
+8	4408	breghel	
+9	4409	denus	
+10	4410	fethus	
+11	4411	dhe-dre	
+12	4412	enoradow	
+13	4413	bugeles	
+14	4414	kammwul	
+15	4415	arghansereth	
+16	4416	a-vodh	
+17	4417	diannedh	
+18	4418	rewiva	rewivaow
+19	4419	anallos	
+20	4420	hyhi	
+21	4421	amanynnya	amanenn
+22	4422	keweras	
+23	4423	botella	
+24	4424	indigo	
+25	4425	berrol	ferrol
+26	4426	heudhi	heudh
+27	4427	kewargh	
+28	4428	darsewya	tarsywya
+29	4429	urugwayek	
+30	4430	yemenek	
+31	4431	tunisiek	
+32	4432	dâ	
+33	4433	dedhewi	dedhewys
+34	4434	bahamek	
+35	4435	besont	besontow
+36	4436	angra	
+37	4437	pehas	pehosow
+38	4438	ehal	
+39	4439	framya	
+40	4440	menestrouthi	menestrouthy
+41	4441	trevel	
+42	4442	garlont	garlons
+43	4443	ankorva	
+44	4444	kayak	kayakow
+45	4445	kanou	kanouyow
+46	4446	ughkarga	ughkargas
+47	4447	glenus	
+48	4448	arvethor	
+49	4449	a-brys	
+50	4450	hwystra	hwistra
+51	4451	ikonek	
+52	4452	akwitya	akwytya
+53	4453	awenekter	
+54	4454	arethek	
+55	4455	dienebys	
+56	4456	seres	
+57	4457	predheges	predhegow
+58	4458	korrik	korrigow
+59	4459	drenek	
+60	4460	spernek	
+61	4461	kalester	
+62	4462	ebilya	
+63	4463	erbysus	
+64	4464	ayrellans	
+65	4465	frosva	
+66	4466	fondacyon	fondacyons
+67	4467	degemeror	
+68	4468	penn-seythen	bennseythennyow
+69	4469	didakla	dideklys
+70	4470	heptu	
+71	4471	hwar	
+72	4472	dewreydhel	
+73	4473	anreydhel	
+74	4474	jynnskrifa	
+75	4475	budhran	budhrannow
+76	4476	glawer	lawer
+77	4477	kroban	
+78	4478	skub	
+79	4479	dastardh	
+80	4480	kro	
+81	4481	askall	
+82	4482	frappya	
+83	4483	ha'gan	
+84	4484	dibowes	
+85	4485	blogh	vlogh
+86	4486	ins	
+87	4487	erbysydhes	
+88	4488	delay	
+89	4489	outray	
+90	4490	awtoritauster	
+91	4491	delennek	delynnek
+92	4492	keskorra	keskorrys
+93	4493	arbenigores	
+94	4494	bankskwattyans	
+95	4495	kortes	
+96	4496	brennyas	
+97	4497	ervirus	
+98	4498	a-dermyn	
+99	4499	galwydh	alwedh
+100	4500	ewnheans	

@@ -1,100 +1,100 @@
-1	2701	donsya	
-2	2702	ilowek	
-3	2703	y'gan	
-4	2704	golusek	
-5	2705	enebieth	
-6	2706	bennfenten	
-7	2707	gyv	
-8	2708	linyeth	
-9	2709	ywa	
-10	2710	goloven	
-11	2711	kesunyansow	
-12	2712	wàr	
-13	2713	grond	
-14	2714	deythyek	
-15	2715	materyow	
-16	2716	marhas	
-17	2717	magoryow	
-18	2718	etegves	
-19	2719	sisserow	
-20	2720	tevnydhyr	
-21	2721	a-dherag	
-22	2722	brasilek	
-23	2723	tommheans	
-24	2724	varhas	
-25	2725	pinyin	
-26	2726	yssynsi	
-27	2727	livrys	
-28	2728	warlergh	
-29	2729	mebel	
-30	2730	kesstrivya	
-31	2731	kanoryon	
-32	2732	droggys	
-33	2733	iselhe	
-34	2734	gitarydh	
-35	2735	ethgarrogyon	
-36	2736	rusk	
-37	2737	syrra	
-38	2738	keskomunya	
-39	2739	stoppyas	
-40	2740	maritimus	
-41	2741	kisya	
-42	2742	komendyans	
-43	2743	dopp	
-44	2744	salow	
-45	2745	omsevel	
-46	2746	runyow	
-47	2747	gwithyasel	
-48	2748	emu	
-49	2749	zirkoniom	
-50	2750	teknetiom	
-51	2751	samariom	
-52	2752	dysprosiom	
-53	2753	holmiom	
-54	2754	thuliom	
-55	2755	gwiasedh	
-56	2756	kostek	
-57	2757	war-dhelergh	
-58	2758	trihorn	
-59	2759	maseth	
-60	2760	lughwrians	
-61	2761	resegvaow	
-62	2762	skilys	
-63	2763	leuvvedhegneth	
-64	2764	ejypek	
-65	2765	nywtrons	
-66	2766	sulfat	
-67	2767	molekulen	
-68	2768	kubek	
-69	2769	lenter	
-70	2770	briweyth	
-71	2771	dirfurvow	
-72	2772	rewlivel	
-73	2773	bledhen-wolow	
-74	2774	godhasa	
-75	2775	koktel	
-76	2776	yskydna	
-77	2777	owrlin	
-78	2778	selvenel	
-79	2779	pednmarian	
-80	2780	eylradh	
-81	2781	gwandrus	
-82	2782	didhiwedhter	
-83	2783	cawsya	
-84	2784	tunas	
-85	2785	kedhor	
-86	2786	newronow	
-87	2787	manykyn	
-88	2788	awrgrymor	
-89	2789	tribys	
-90	2790	tenwennow	
-91	2791	larvaow	
-92	2792	tefra	
-93	2793	klor	glor
-94	2794	lughes	lughesen
-95	2795	berrheans	verrheans
-96	2796	awedhyans	awedhyansow
-97	2797	ksenon	gsenon
-98	2798	kangarou	gangarou
-99	2799	justis	justisyow
-100	2800	esker	eskeryow
+1	2701	avowa	avowas avowys
+2	2702	myttin	mytten myttyn vettin
+3	2703	fun	funyow
+4	2704	ostes	ostys
+5	2705	goodh	kodhow woodh
+6	2706	tektonieth	dektonieth
+7	2707	kamera	camera
+8	2708	barner	barnoryon
+9	2709	skrifans	skrifansow
+10	2710	trogentra	drogenter trogenter
+11	2711	polisi	bolisi bolisiow folisi polisiow
+12	2712	ynk	ink ynkow ynkys
+13	2713	kolonnen	golonnen kolodnen
+14	2714	hwyja	hweja hwyjys whyja
+15	2715	pergherinses	bergherinses pergherinsesow pergherynses
+16	2716	dydhlyver	dedhlyver dhydhlyver dydhlyvrow
+17	2717	kansrann	kansradn kansradnow kansrannow
+18	2718	sordya	sord sordyas sordyes sordys sortyes
+19	2719	baban	babanes babanow vaban vabanes
+20	2720	keles	cel gel geles kel
+21	2721	bason	basonys vason
+22	2722	densek	densoges dhensek dynsek
+23	2723	godhan	godhanes wodhan wodhanes
+24	2724	annedh	anedhow annedhow annedhys
+25	2725	golan	golanes wolan
+26	2726	lenki	lenkys lonk
+27	2727	sonskrifa	sonskrifas sonskrifys
+28	2728	kigdebrer	gigdebroryon kigdebroryon kigdybreryon
+29	2729	aspia	aspias aspiys aspyas
+30	2730	delivra	delirvsa deliver delivrys delyvrys dhelyvra
+31	2731	taga	daga degen tages tegen tegys
+32	2732	arghasa	arghas arghassa arghasys
+33	2733	devera	dever deverow dhever dyvyr tyvyr
+34	2734	domhwel	dhomhwel dhomhwelas dhomhwelis domhwelas domhwelys
+35	2735	denagha	denaghas denaghys deneghys dhenagh dhenagha dhenaghas tenagha
+36	2736	glasneth	lasneth
+37	2737	melldrosogyon	velldrosogyon
+38	2738	gori	goras
+39	2739	keynvoryek	geynvoryek
+40	2740	kettesten	gettesten
+41	2741	tokyn	toknys
+42	2742	taksonomieth	daksonomieth taksonomiethow
+43	2743	botel	botellow
+44	2744	blejen	blejennow vlejen
+45	2745	chalenj	chalenjys jalenj jalenjys
+46	2746	bosa	bossa bossons posa posys vosa
+47	2747	skodhyoryon	
+48	2748	a-gledhbarth	
+49	2749	desedhek	
+50	2750	sawder	
+51	2751	sakrys	
+52	2752	wordhenek	
+53	2753	teyrgweyth	
+54	2754	sorr	
+55	2755	diogeledh	
+56	2756	doktour	
+57	2757	eskerdh	
+58	2758	pynag	
+59	2759	ilowek	
+60	2760	enebieth	
+61	2761	kesunyansow	
+62	2762	grond	
+63	2763	etegves	
+64	2764	sisserow	
+65	2765	a-dherag	
+66	2766	pinyin	
+67	2767	warlergh	
+68	2768	gitarydh	
+69	2769	ethgarrogyon	
+70	2770	rusk	
+71	2771	syrra	
+72	2772	stoppyas	
+73	2773	salow	
+74	2774	runyow	
+75	2775	gwithyasel	
+76	2776	emu	
+77	2777	zirkoniom	
+78	2778	teknetiom	
+79	2779	samariom	
+80	2780	dysprosiom	
+81	2781	holmiom	
+82	2782	thuliom	
+83	2783	war-dhelergh	
+84	2784	lughwrians	
+85	2785	leuvvedhegneth	
+86	2786	ejypek	
+87	2787	lenter	
+88	2788	rewlivel	
+89	2789	koktel	
+90	2790	selvenel	
+91	2791	eylradh	
+92	2792	gwandrus	
+93	2793	didhiwedhter	
+94	2794	kedhor	
+95	2795	newronow	
+96	2796	awrgrymor	
+97	2797	tribys	
+98	2798	larvaow	
+99	2799	difyk	dhifyk
+100	2800	dramatydh	dramatydhes

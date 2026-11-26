@@ -1,28 +1,28 @@
-1	1601	kevrennys	
+1	1601	kevrennys	gevrenna gevrennas kevrednys kevrenna kevrynnys
 2	1602	tekstow	
-3	1603	vysytya	
-4	1604	kowrek	
-5	1605	kreffa	
+3	1603	vysytya	visitya visityas vysytas vysytyes vysytys
+4	1604	kowrek	cowrek gowrek
+5	1605	kreffa	creffa
 6	1606	omladhas	
-7	1607	sawya	
-8	1608	kodhans	
+7	1607	sawya	sawen sawyas sawyes sawys
+8	1608	kodhans	godhans
 9	1609	banow	vanow
-10	1610	downder	
+10	1610	downder	dhownder dhownderow downderow downderyow
 11	1611	a-derdro	
-12	1612	skiensek	
+12	1612	skiensek	sciensek
 13	1613	dioksid	
 14	1614	a-lebmyn	
 15	1615	owrek	
 16	1616	nerthek	
 17	1617	fresk	
-18	1618	temprek	
-19	1619	gwithans	
+18	1618	temprek	demprek
+19	1619	gwithans	hwithans withans
 20	1620	mencyon	
-21	1621	spladna	
+21	1621	spladna	spladnas
 22	1622	hanter-bewnans	
 23	1623	lebmath	
-24	1624	derevyans	
-25	1625	spladnvraster	
+24	1624	derevyans	derevyansow dherevyans dherevyansow terevyans
+25	1625	spladnvraster	spladnvrasterow
 26	1626	deviser	dheviser dhevisoryon
 27	1627	glew	hlew klyw
 28	1628	defolyans	defolyansow dhefolyans
@@ -36,48 +36,48 @@
 36	1636	dowrgi	dhowrgeun dhowrgi dowrgeun dowrgy
 37	1637	berrhe	berrha berrhes berrheys berrhys verrhe verrheas
 38	1638	messach	messachys messajys vessajys
-39	1639	kudha	cudha gudha gudhons gudhys kudhys
+39	1639	kudha	cudha gudha gudhas gudhons gudhys kudhas kudhys
 40	1640	dysker	dhyskoryon diskerys dyskoryon
 41	1641	neskar	neskerens
-42	1642	destna	desten testen
+42	1642	destna	desten destnas destnys testen
 43	1643	namoy	
-44	1644	havysi	
-45	1645	lyver-termyn	
+44	1644	havysi	havysy
+45	1645	lyver-termyn	lever-termyn
 46	1646	warlinen	
-47	1647	yn-rag	
-48	1648	bledhynnyek	
-49	1649	dornskrif	
-50	1650	kuntellyans	
+47	1647	yn-rag	en-rag
+48	1648	bledhynnyek	bledhennyek bledhydnyek pledhynnyek vledhydnyek vledhynnyek
+49	1649	dornskrif	dhornskrif dornscrif dornskrifow dornskrifys
+50	1650	kuntellyans	cuntellyans huntellyans kuntellyansow
 51	1651	ti	
 52	1652	prag	
-53	1653	unnweyth	
+53	1653	unnweyth	udnweyth
 54	1654	yn-bann	
 55	1655	yethonieth	
-56	1656	treveglos	
-57	1657	godhasow	
+56	1656	treveglos	dreveglos treveglosow treveglosyow
+57	1657	godhasow	wodhasow
 58	1658	golegys	
-59	1659	treusvewa	
-60	1660	leveryans	
+59	1659	treusvewa	dreusvewa dreusvywas treusvewas treusvewys
+60	1660	leveryans	leveryansow
 61	1661	systemow	
 62	1662	godhonydhyon	
-63	1663	krohen	
+63	1663	krohen	crohen grohen
 64	1664	dhowrgleudhyow	
 65	1665	lojyk	
 66	1666	unsel	
-67	1667	gwandrans	
-68	1668	teknegieth	
-69	1669	komposyans	
+67	1667	gwandrans	wandrans
+68	1668	teknegieth	deknegieth deknegiethow theknegieth
+69	1669	komposyans	composyans gomposyans homposyans komposyansow
 70	1670	othem	
-71	1671	kesolkenyow	
+71	1671	kesolkenyow	gesolkenyow
 72	1672	adhysk	
-73	1673	trovadnek	
+73	1673	trovadnek	drovadnek
 74	1674	sengel	
 75	1675	omdowloryon	
 76	1676	chons	chonsyow
 77	1677	abecedari	abecedaris abecedary
 78	1678	dehen	dhehen
 79	1679	gwithyas	gwithysi withyas wythysi
-80	1680	amontya	amont amontyes amontys
+80	1680	amontya	amont amontyas amontyes amontys
 81	1681	skeus	skeusow
 82	1682	glusek	lujek lusek
 83	1683	padel	padellow
@@ -88,13 +88,13 @@
 88	1688	greunvos	greunvosow reunvos
 89	1689	sin	sinys syn synys
 90	1690	arveth	arvethas arvethys
-91	1691	chevisya	chevisyes chevisys chevisyys jevisya
+91	1691	chevisya	chevisyas chevisyes chevisys chevisyys jevisya
 92	1692	dasoberi	dasober dhasober dhasoberi tasoberi
 93	1693	mel	fel melion
 94	1694	alowa	alow alowas alowys
 95	1695	palas	balas belen fal pal palsa palyow pelys
 96	1696	nevra	
-97	1697	kansvledhynnyow	
+97	1697	kansvledhynnyow	kansvledhennyow kansvledhydnyow
 98	1698	epystyl	
 99	1699	vovyas	
-100	1700	kresosel	
+100	1700	kresosel	cresosel gresosel

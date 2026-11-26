@@ -1,100 +1,100 @@
-1	2301	dardhans	
-2	2302	gwynnrudh	gwydnrudh
-3	2303	broweghereth	vroweghereth
-4	2304	rath	rathes
-5	2305	kogh	gogh koghow
-6	2306	neus	neusen
-7	2307	dibarth	dhibarth dhybarth dibarthys
-8	2308	garan	aran haran waran
-9	2309	spis	spisyow spisys
-10	2310	kildenna	gildedna gildenna gildennas kildedna
-11	2311	medh	fedh medhes medhow vedh
-12	2312	selvenek	
-13	2313	hwrer	
-14	2314	gemmynieth	
-15	2315	brof	
-16	2316	gansvledhen	
-17	2317	ensompel	
-18	2318	sedh	
-19	2319	solempnyans	
-20	2320	hwarvedhyansow	
-21	2321	nawves	
-22	2322	morrep	
-23	2323	a-dal	
-24	2324	mestronieth	
-25	2325	a-gledh	
-26	2326	tewesek	
-27	2327	karg	
-28	2328	ethves	
-29	2329	volkanek	
-30	2330	kalkor	
-31	2331	weythresek	
-32	2332	skorrennow	
-33	2333	tevo	
-34	2334	a-dhelergh	
-35	2335	niverans	
-36	2336	verbow	
-37	2337	divellkeynoges	
-38	2338	gomprehendya	
-39	2339	kyrillek	
-40	2340	diredhow	
-41	2341	maakond	
-42	2342	toul	
-43	2343	ogv	
-44	2344	manganes	
-45	2345	omglewansow	
-46	2346	sinya	
-47	2347	isehen	
-48	2348	mayni	
-49	2349	hensi-tram	
-50	2350	gweythresor	
-51	2351	hembronkyer	
-52	2352	brovia	
-53	2353	droglam	
-54	2354	drethysi	
-55	2355	eskorrans	
-56	2356	gorsavow	
-57	2357	keskelmys	
-58	2358	argon	
-59	2359	neodymiom	
-60	2360	iridiom	
-61	2361	steroniethel	
-62	2362	keynvorek	
-63	2363	lorell	
-64	2364	kesstoff	
-65	2365	bewoniethel	
-66	2366	effeythya	
-67	2367	vitamyn	
-68	2368	tednvenek	
-69	2369	gwydn-arhansek	
-70	2370	lavasas	
-71	2371	kolovennow	
-72	2372	gwirvos	
-73	2373	plethys	
-74	2374	servys	
-75	2375	termitow	
-76	2376	kesstrifa	
-77	2377	ughnova	
-78	2378	gwrythul	
-79	2379	mamba	
-80	2380	ajwonys	
-81	2381	basaltek	
-82	2382	kynnyav	gynnyav
-83	2383	tarow	darow
-84	2384	lostek	lostoges
-85	2385	kowas	gowasow
-86	2386	avoydya	avoyd
-87	2387	fethans	fethansow
-88	2388	ewnter	ewntres
-89	2389	ayrlu	ayrluyow
-90	2390	alkohol	alcohol
-91	2391	paladiom	baladiom
-92	2392	besyel	fesyel vesyel
-93	2393	godhav	godhevys wodhevis
-94	2394	teyl	deyl teylys
-95	2395	kovskrifa	govskrifa govskrifas kovskrifys
-96	2396	kanstros	ganstrosow kanstrosow
-97	2397	ekosystem	ecosystem ecosystemow ekosystemow
-98	2398	kerghyn	gerghyn gyrghyn herghyn kyrghyn
-99	2399	defendya	defend dhefendya dhefendyas tefendya
-100	2400	gwiwer	gwiweres wiwer
+1	2301	berson	ferson person
+2	2302	protin	brotin brotinyow frotin protinyow
+3	2303	skorenn	skorennow skorrednow skorrennow
+4	2304	godhevel	godhav godhevyas godhevys kodhevel wodhevel wodhevis
+5	2305	ostya	
+6	2306	tornysi	dornyji dornysi dornysy tornyji tornysy
+7	2307	komparya	comparys gomparya gomparyas gomparyn homparya komparyas komparys
+8	2308	livra	livras livres livrys lyvryn
+9	2309	solempnyans	solempnyansow
+10	2310	droglam	dhroglabmow dhroglammow droglabm droglamm droglammow
+11	2311	omglewans	omglewansow
+12	2312	merkya	merkyas merkyes verkya verkyas verkyens
+13	2313	prevyans	brevyans brevyansow frevyans previans prevyansow
+14	2314	piben	bibednow biben bibennow pibednow pibennow
+15	2315	brison	prison pryson
+16	2316	nywtron	newtron newtronow niwtron nywtrons
+17	2317	sinya	sinas sinyas
+18	2318	tewedha	dewedha
+19	2319	keskan	gescan geskan geskanow heskan kescanow keskanow
+20	2320	pennplas	bennplas pednplas
+21	2321	pennrewl	bennrewl bennrewlys fennrewl pednrewl pennrewlys
+22	2322	homma	homm
+23	2323	receva	recevas recevys
+24	2324	karg	garg kargow kargys
+25	2325	isehen	iseghen
+26	2326	pooth	booth
+27	2327	tewder	dewder thewder
+28	2328	pubvledhynnyek	bubvledhynnyek pubvledhydnyek
+29	2329	mebel	mebyl vebel
+30	2330	benneglos	bedneglos fedneglos fenneglos penneglosyow
+31	2331	treusfurvek	dreusfurvek
+32	2332	unigyn	unigydnow unigynnow
+33	2333	omvyskys	omviskys
+34	2334	raglev	raglevow
+35	2335	kalter	galter halteres
+36	2336	talvosogeth	dalvosogeth dalvosogethow talvosogethow thalvosogethow
+37	2337	oberans	oberansow
+38	2338	tretha	dretha drethyas trethyas trethyes
+39	2339	peul	feul fuel peulyow
+40	2340	ragresor	ragresoryon
+41	2341	mayni	vayni
+42	2342	gweythresor	gweythresores gweythresoryon weythresoryon
+43	2343	yssynsi	yssynsas
+44	2344	tenwennow	tenwednow
+45	2345	tonnow	donnow todnow
+46	2346	menystra	fenystras fenystrys menestrys menystrys venystra venystras
+47	2347	hendheskonydh	hendheskonydhes hendhyskonydh hendhyskonydhyon
+48	2348	sedh	sedhes sedhow sedhyow sedhys
+49	2349	morrep	vorrep
+50	2350	strethur	strethurow
+51	2351	performyans	berformyansow ferformyans performyansow
+52	2352	dororydh	dhororydhyon
+53	2353	diskudhyans	dhiskudhyans diskudhyansow
+54	2354	kostek	costek gostek
+55	2355	kerhydnedh	gerhednedh gerhednedhow gerhydnedh gerhydnedhow kerhednedh kerhydnedhow
+56	2356	tardhell	dardhell dardhellow thardhellow
+57	2357	termitow	dermitow dermytow termytow
+58	2358	kesoberyans	gesoberyans
+59	2359	tekter	dykter tecter
+60	2360	brasilek	vrasilek
+61	2361	mentena	mentenyas mentenyes mentenys ventena ventenas
+62	2362	byldyans	byldyansow vyldyans vyldyansow
+63	2363	temperedh	demperedh temperedhow
+64	2364	karer	garoryon harer karoryon
+65	2365	dibarth	dhibarth dhibarthas dhybarth dibarthys dyberth tibarthas
+66	2366	profyans	brofyans frofyans frofyansow profyansow
+67	2367	peskecha	beskecha peskechys pyskecha
+68	2368	travyth	dravyth traveth travith
+69	2369	krowji	growji krowjiow
+70	2370	treusporth	dreusporth
+71	2371	plutoniom	blutoniom
+72	2372	demokrat	dhemokrat
+73	2373	rydhses	
+74	2374	donsya	dhonsya donsyas donsyes
+75	2375	trihorn	drihorn trihornow
+76	2376	tefra	defra thefra
+77	2377	renkas	renkasow
+78	2378	kolpes	golpes golpesow kolpesow
+79	2379	kigdevoryer	kigdevoryoryon
+80	2380	kennertha	gednerthas gennertha gennerthas hennertha
+81	2381	polyp	bolypow polypow
+82	2382	merk	merkyow vercyon verk
+83	2383	lorell	lorellow
+84	2384	trolergh	drolergh drolerghow throlergh trolerghow
+85	2385	yethor	yethoryon
+86	2386	gravyer	gravyoryon ravyer
+87	2387	liwans	liwansow
+88	2388	ujvil	ujviles
+89	2389	mammskrif	mabmskrif mammskrifow vammskrif vammskrifow
+90	2390	gwikor	gwikoryon wikor wikoryon
+91	2391	kesoberi	gesoberas gesoberi gesoberis
+92	2392	hwelji	hweljiow
+93	2393	treusworra	dreusworras threusworra treusworrys
+94	2394	determya	determys dheterm dhetermya dhetermyas
+95	2395	kalkor	galkor galkoryon
+96	2396	keynvorek	geynvorek
+97	2397	effeythya	
+98	2398	gwirvos	gwirvosow wirvos
+99	2399	tebmigow	debmigow
+100	2400	morrew	vorrew

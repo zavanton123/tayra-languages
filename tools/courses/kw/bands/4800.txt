@@ -1,100 +1,100 @@
-1	4701	molgh	molghow volgh
-2	4702	porgh	borgh fergh
-3	4703	gevyans	hevyans
-4	4704	dasunya	dasunys
-5	4705	sowter	
-6	4706	amalgam	
-7	4707	degemeryans	
-8	4708	despitya	despitys
-9	4709	keunegi	keunegen
-10	4710	kevelek	keveloges
-11	4711	skwithys	
-12	4712	a-nowydh	
-13	4713	dewisel	
-14	4714	floghva	
-15	4715	fatla	
-16	4716	cherita	jerita
-17	4717	breghel	
-18	4718	denus	
-19	4719	fethus	
-20	4720	dhe-dre	
-21	4721	enoradow	
-22	4722	bugeles	
-23	4723	kammwul	
-24	4724	arghansereth	
-25	4725	a-vodh	
-26	4726	diannedh	
-27	4727	rewiva	rewivaow
-28	4728	anallos	
-29	4729	hyhi	
-30	4730	amanynnya	amanenn
-31	4731	keweras	
-32	4732	botella	
-33	4733	indigo	
-34	4734	berrol	ferrol
-35	4735	heudhi	heudh
-36	4736	kewargh	
-37	4737	darsewya	tarsywya
-38	4738	urugwayek	
-39	4739	yemenek	
-40	4740	tunisiek	
-41	4741	dâ	
-42	4742	dedhewi	dedhewys
-43	4743	bahamek	
-44	4744	besont	besontow
-45	4745	pugh	
-46	4746	angra	
-47	4747	pehas	pehosow
-48	4748	ehal	
-49	4749	framya	
-50	4750	menestrouthi	menestrouthy
-51	4751	trevel	
-52	4752	garlont	garlons
-53	4753	ankorva	
-54	4754	kayak	kayakow
-55	4755	kanou	kanouyow
-56	4756	ughkarga	ughkargas
-57	4757	glenus	
-58	4758	arvethor	
-59	4759	a-brys	
-60	4760	hwystra	hwistra
-61	4761	ikonek	
-62	4762	akwitya	akwytya
-63	4763	awenekter	
-64	4764	arethek	
-65	4765	dienebys	
-66	4766	seres	
-67	4767	predheges	predhegow
-68	4768	korrik	korrigow
-69	4769	drenek	
-70	4770	spernek	
-71	4771	kalester	
-72	4772	ebilya	
-73	4773	erbysus	
-74	4774	ayrellans	
-75	4775	frosva	
-76	4776	fondacyon	fondacyons
-77	4777	degemeror	
-78	4778	penn-seythen	bennseythennyow
-79	4779	didakla	dideklys
-80	4780	heptu	
-81	4781	hwar	
-82	4782	dewreydhel	
-83	4783	anreydhel	
-84	4784	jynnskrifa	
-85	4785	budhran	budhrannow
-86	4786	glawer	lawer
-87	4787	kroban	
-88	4788	skub	
-89	4789	dastardh	
-90	4790	kro	
-91	4791	kowlys	
-92	4792	askall	
-93	4793	frappya	
-94	4794	ha'gan	
-95	4795	dibowes	
-96	4796	blogh	vlogh
-97	4797	destnys	
-98	4798	ins	
-99	4799	erbysydhes	
-100	4800	delay	
+1	4701	diegi	dhiegi
+2	4702	avlavar	
+3	4703	ojyon	
+4	4704	baster	pasterys
+5	4705	galargan	
+6	4706	anvarwoleth	
+7	4707	lasogeth	
+8	4708	trenkan	
+9	4709	bynner	
+10	4710	skrutha	skruthys
+11	4711	kontron	
+12	4712	ewl	
+13	4713	kantolbren	
+14	4714	didhaner	
+15	4715	asektour	
+16	4716	arbrevi	
+17	4717	a-dhann	
+18	4718	diaskellek	
+19	4719	arghader	
+20	4720	amontydh	
+21	4721	avius	
+22	4722	gallosedh	
+23	4723	a-vann	
+24	4724	lorgan	
+25	4725	ankempen	
+26	4726	baramanyn	
+27	4727	spelt	
+28	4728	skubell-sugna	
+29	4729	tyckli	
+30	4730	delek	
+31	4731	skwithus	
+32	4732	chevalri	chevalry
+33	4733	ha'm	
+34	4734	araderor	
+35	4735	certifiys	
+36	4736	godhevus	
+37	4737	omdhal	omdhyllys
+38	4738	agnostek	
+39	4739	dysmygwari	tismygwari
+40	4740	dietegydh	dietegydhyon
+41	4741	fencya	
+42	4742	atalgist	
+43	4743	divarva	
+44	4744	sawrek	
+45	4745	baboun	
+46	4746	glasdu	
+47	4747	flouren	flourennow
+48	4748	kabester	
+49	4749	venezwelek	
+50	4750	beggya	
+51	4751	gwigh	
+52	4752	tewel	dhewel
+53	4753	tirwyns	
+54	4754	ankerys	
+55	4755	glaswyn	
+56	4756	ayrlorgh	
+57	4757	kosmek	
+58	4758	anvodh	
+59	4759	kowlwerth	
+60	4760	mim	vim
+61	4761	estrigys	
+62	4762	avaylya	
+63	4763	arvarna	
+64	4764	enjoya	enjoy
+65	4765	budhyn	budhynnow
+66	4766	abelieth	
+67	4767	fydhyadewder	
+68	4768	ayrsketh	
+69	4769	ymunedh	
+70	4770	anparhus	
+71	4771	bodharek	bodharogyon
+72	4772	arethores	
+73	4773	prisya	prisons
+74	4774	gradhegi	gradhek
+75	4775	besydhven	
+76	4776	kil	
+77	4777	bennath	vennath
+78	4778	amstyr	
+79	4779	ayrgylghyek	
+80	4780	bothfurvek	
+81	4781	frosans	
+82	4782	menegek	
+83	4783	eksedya	eksed
+84	4784	estowl	
+85	4785	galari	galeras
+86	4786	glewek	hlewek
+87	4787	klapkodh	klapkodhow
+88	4788	ankewar	
+89	4789	apron	
+90	4790	barbakoa	parbakoa
+91	4791	eksotek	
+92	4792	hwiogen	
+93	4793	anterrys	
+94	4794	reuv	
+95	4795	enesega	
+96	4796	bannek	
+97	4797	anfeus	
+98	4798	pydh	
+99	4799	pedrevanas	
+100	4800	glydh	

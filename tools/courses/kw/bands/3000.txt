@@ -1,100 +1,100 @@
-1	2901	anlaghel	
-2	2902	samoek	
-3	2903	kasorek	
-4	2904	dhodhans	
-5	2905	renkas	
-6	2906	pastellow	
+1	2901	morgowles	
+2	2902	lel	
+3	2903	traweythyow	
+4	2904	anlaghel	
+5	2905	samoek	
+6	2906	dhodhans	
 7	2907	didhiwedh	
-8	2908	kynsistori	
-9	2909	gwrioryon	
-10	2910	donsyer	
-11	2911	ogasti	
-12	2912	wayas	
-13	2913	malayanus	
-14	2914	pelder	
-15	2915	ynjynoryon	
-16	2916	diwosow	
-17	2917	fugiethek	
-18	2918	kolpes	
-19	2919	strifwerth	
-20	2920	jynnweyth	
-21	2921	holyoryon	
-22	2922	kyttrin	
-23	2923	manylys	
-24	2924	goleder	
-25	2925	movyansow	
-26	2926	gwiskasow	
-27	2927	ekologieth	
-28	2928	webm	
-29	2929	kertys	
-30	2930	hager-awel	
-31	2931	lergh-gwitha	
-32	2932	lettyas	
-33	2933	yet-dhowr	
-34	2934	pompya	
-35	2935	sinell	
-36	2936	fluorin	
-37	2937	skandiom	
-38	2938	niobiom	
-39	2939	lanthanom	
-40	2940	promethiom	
-41	2941	europiom	
-42	2942	reniom	
-43	2943	neptuniom	
-44	2944	kwarter	
-45	2945	trigva	
-46	2946	drenken	
-47	2947	mathemategydh	
-48	2948	tirnos	
-49	2949	laghyades	
-50	2950	prevyans	
-51	2951	lyvrow-termyn	
-52	2952	dhifres	
-53	2953	ganja	
-54	2954	ujvil	
-55	2955	karbohydratow	
-56	2956	gweythresow	
-57	2957	awenek	
-58	2958	halja	
-59	2959	studhla	
-60	2960	termynnyow	
-61	2961	radyoweythresans	
-62	2962	fosfat	
-63	2963	tunnas	
-64	2964	hormonow	
-65	2965	vetholl	
-66	2966	gonsist	
-67	2967	cumulus	
-68	2968	bronoges	
-69	2969	todnow	
-70	2970	tornyji	
-71	2971	divroans	
-72	2972	gwedhegi	
-73	2973	sandys	
-74	2974	cinema	
-75	2975	keginieth	
-76	2976	pigornek	
-77	2977	lurkyer	
-78	2978	varyansek	
-79	2979	ster-lagatta	
-80	2980	pedneghlek	
-81	2981	reydholeth	
-82	2982	marianow	
-83	2983	avrewlys	
-84	2984	ekwal	
-85	2985	gorthtro	
-86	2986	abas	
-87	2987	owmel	
-88	2988	a-sankshyon	
-89	2989	tabacicolor	
-90	2990	krommdohow	
-91	2991	regydh	
-92	2992	pāhoehoe	
-93	2993	kryjyansus	
-94	2994	breseli	vreselyas
-95	2995	myttin	vettin
-96	2996	dynnargh	dhynnargh
-97	2997	erbys	erbysyow
-98	2998	adhvesi	adhvesas
-99	2999	tantalom	dantalom
-100	3000	goredhom	gorodhom
+8	2908	wayas	
+9	2909	fugiethek	
+10	2910	holyoryon	
+11	2911	manylys	
+12	2912	ekologieth	
+13	2913	hager-awel	
+14	2914	lergh-gwitha	
+15	2915	lettyas	
+16	2916	yet-dhowr	
+17	2917	fluorin	
+18	2918	skandiom	
+19	2919	niobiom	
+20	2920	lanthanom	
+21	2921	promethiom	
+22	2922	europiom	
+23	2923	reniom	
+24	2924	neptuniom	
+25	2925	laghyades	
+26	2926	ganja	
+27	2927	awenek	
+28	2928	studhla	
+29	2929	radyoweythresans	
+30	2930	fosfat	
+31	2931	hormonow	
+32	2932	sandys	
+33	2933	cinema	
+34	2934	lurkyer	
+35	2935	varyansek	
+36	2936	ster-lagatta	
+37	2937	reydholeth	
+38	2938	marianow	
+39	2939	avrewlys	
+40	2940	ekwal	
+41	2941	abas	
+42	2942	owmel	
+43	2943	a-sankshyon	
+44	2944	regydh	
+45	2945	kryjyansus	
+46	2946	kansbledhynnyow	gansbledhynnyow
+47	2947	breseli	vreselyas
+48	2948	kerghynnys	kyrghynnys
+49	2949	dynnargh	dhynnargh
+50	2950	erbys	erbysyow
+51	2951	godhoniador	godhoniadoryon
+52	2952	bambou	vambou
+53	2953	kemynegorek	kemenegorek
+54	2954	adhvesi	adhvesas
+55	2955	tantalom	dantalom
+56	2956	goredhom	gorodhom
+57	2957	furvell	furvellow
+58	2958	mogdoll	mogdollow
+59	2959	droklam	dhroklam
+60	2960	gramm	grammow
+61	2961	brysonieth	vrysonieth
+62	2962	teknegel	deknegel
+63	2963	kowrsteren	gowrsteren
+64	2964	krenvonni	krenvonniow
+65	2965	dhamkanieth	dhamkaniethow
+66	2966	kymygiethel	gymygiethel
+67	2967	ynn	ydn
+68	2968	kovadh	govadh
+69	2969	erow	erewi erwi
+70	2970	bykken	vykken
+71	2971	estewlel	estewlis estewlys
+72	2972	bargen-tir	bargen-tiryow vargen-tir
+73	2973	sordyans	sordyansow
+74	2974	roas	roasow
+75	2975	tanbellennow	danbellednow
+76	2976	garowder	arowder
+77	2977	trevasa	drevasys threvasa
+78	2978	dasskrif	dasskrifow dhasscrifow
+79	2979	trihornek	drihornek
+80	2980	thuji	thujy
+81	2981	preydhyoryon	breydhyoryon
+82	2982	tornyas	dornyas
+83	2983	pysi	beji pyji
+84	2984	trevesigoryon	drevesigoryon
+85	2985	gwrythyans	wrythyans wrythyansow
+86	2986	polynesek	bolynesek
+87	2987	krokodiles	crocodiles grokodiles
+88	2988	melhwes	melwhes velhwes velhwesen
+89	2989	byd	bid fyd ped
+90	2990	lettyans	lettyansow
+91	2991	moldra	moldrys
+92	2992	debrer	debroryon dybroryon
+93	2993	pubdedhyek	pubdydhyek
+94	2994	afina	afin afinas
+95	2995	gluth	gluthys luth
+96	2996	ilowbib	ilowbibow
+97	2997	trovannow	trovadnow
+98	2998	diverek	dhiverek tiverek
+99	2999	darvos	darvosow dharvos dharvosow
+100	3000	deklinyans	deklynyansow dheklinyans

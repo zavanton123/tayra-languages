@@ -1,21 +1,21 @@
-1	1401	lymnansow	
+1	1401	lymnansow	limnansow
 2	1402	skians	
 3	1403	dhellos	
 4	1404	gonisogethow	
 5	1405	piano	
-6	1406	rokk	
+6	1406	rokk	rock
 7	1407	laghel	
 8	1408	nitrojen	
 9	1409	dyskader	
 10	1410	dybyansow	
-11	1411	hwithrer	
+11	1411	hwithrer	hwithroryon whithroryon
 12	1412	yr	
-13	1413	gronnedh	
+13	1413	gronnedh	gronnedhow ronnedh
 14	1414	dyhow	
-15	1415	pols	
+15	1415	pols	bols bolsow bolsyow polsys
 16	1416	remenat	
-17	1417	topp	
-18	1418	dernieth	
+17	1417	topp	dopp doppow doppys toppow toppys
+18	1418	dernieth	terniethow
 19	1419	linyel	
 20	1420	for'ow	
 21	1421	eborn	
@@ -25,7 +25,7 @@
 25	1425	sim	simes simys
 26	1426	enyshe	enysha enyshas enyshes
 27	1427	kon	con conys gon gonow hon
-28	1428	desta	dest desten test testen
+28	1428	desta	dest desten destys test testen
 29	1429	bedha	bedhys bydhywgh fedha fydhens pedha vedha vedhens vedhys
 30	1430	goles	golesow
 31	1431	elektronek	electronek
@@ -40,31 +40,31 @@
 40	1440	skriforyon	
 41	1441	sevur	
 42	1442	vetyas	
-43	1443	sleyneth	
+43	1443	sleyneth	sleynethow
 44	1444	socyal	
 45	1445	servyas	
 46	1446	mergher	
 47	1447	sewyas	
-48	1448	tevesigyon	
-49	1449	parya	
-50	1450	mogha	
-51	1451	tirfurv	
+48	1448	tevesigyon	devesigyon tevesygyon
+49	1449	parya	baria barons barya paryes
+50	1450	mogha	vogha
+51	1451	tirfurv	dirfurv dirfurvow
 52	1452	epskobeth	epscobeth epskobethow
 53	1453	neyth	neythow neythys
 54	1454	maw	mebyon vaw
 55	1455	seythves	
-56	1456	omsettya	
+56	1456	omsettya	omsettyas omsettys
 57	1457	planetys	
-58	1458	tevesik	
-59	1459	kwaynya	
+58	1458	tevesik	devesik tevesyk
+59	1459	kwaynya	gwaynas gwaynyes gwaynys waynas waynys
 60	1460	sugen	
-61	1461	pennserneth	
+61	1461	pennserneth	bednserneth bennserneth pednserneth vennserneth
 62	1462	yn-unnik	
 63	1463	organek	
-64	1464	processys	
+64	1464	processys	brocessys
 65	1465	skiensel	
-66	1466	perthyglow	
-67	1467	teudhans	
+66	1466	perthyglow	berthyglow
+67	1467	teudhans	deudhans teudhansow
 68	1468	hirgorn	
 69	1469	agensow	a-gynsow agynsow
 70	1470	desedhans	desedhansow dhesedhans
@@ -81,20 +81,20 @@
 81	1481	kevnis	gevnis gevnisen gynis kevnisen
 82	1482	hwytha	hweth hwetha hwethen hwethys hwyth hwythen hwythys whytha
 83	1483	poran	
-84	1484	gorthyp	
-85	1485	gwaynyer	
+84	1484	gorthyp	gorthep korthyp worthyp
+85	1485	gwaynyer	gwaynyoryon waynyer waynyoryon
 86	1486	ethnek	
-87	1487	kansow	
-88	1488	bennsita	
-89	1489	provia	
+87	1487	kansow	cansow gansow
+88	1488	bennsita	fennsita
+89	1489	provia	brovi brovia brovias brovya brovyas proviys provya provyas provyns
 90	1490	omrewlys	
 91	1491	skevens	
 92	1492	si	
-93	1493	imach	
+93	1493	imach	imachys
 94	1494	hallo	
 95	1495	en-mes	
-96	1496	troos-hys	
+96	1496	troos-hys	droos-hys troos-hes
 97	1497	esa'n	
-98	1498	offis	
-99	1499	kopel	
+98	1498	offis	offisyow offisys
+99	1499	kopel	copel gopel goplow hopel kopelow koplow
 100	1500	heliom	

@@ -1,100 +1,100 @@
-1	2801	asen	asenes
-2	2802	breusi	breusys
-3	2803	fol	felyon
-4	2804	bryntin	brintin vryntin
-5	2805	bodh	vodh vodhow
-6	2806	kestevyn	gestevyn kesteven
-7	2807	hujes	hujys
-8	2808	kuhudha	guhudhas kuhudhys
-9	2809	linas	linasen
-10	2810	araya	ara arayas arays
-11	2811	arvwisk	arvwiskys
-12	2812	kow	cow gow gowyow
-13	2813	trydhek	dredhek tredhek tridhek
-14	2814	marghek	marghogyon varghek varghogyon
-15	2815	penn-aghel	pednow-aghel pennow-aghel
-16	2816	bosti	bostiow vosti vostiow
-17	2817	mola	folsys molas moles
-18	2818	kestav	gestav
-19	2819	protestya	brotestsa brotestya
-20	2820	argyans	argyansow
-21	2821	moryon	moryonen voryon voryonen
-22	2822	kwilkyn	gwilkyn kwilkynyow
-23	2823	awel	awelyow
-24	2824	dybradow	debradow
-25	2825	ea	ya
-26	2826	fethesik	fethesigow
-27	2827	chita	chitas jitas
-28	2828	kresenna	gresenn kresenn kresennys
-29	2829	mellyon	mellyonen vellyon vellyonen
-30	2830	devyn	devynnow
-31	2831	pregoth	bregoth pregothow
-32	2832	kowel	cowel gowel gowellow howel
-33	2833	dysmygriva	dismygriv dismygrivow dismygrivys dysmygrivow
-34	2834	banna	banaghow vadnaow
-35	2835	tavol	davol tavolen
-36	2836	argemynna	argemedna argemynnas argemynnys
-37	2837	awedhya	awedh awedhsons awedhyas awedhys
-38	2838	rutya	ruttya ruttyes rutyes
-39	2839	daskavos	dhaskavas dhaskavos
-40	2840	akordya	acordyes akordyas akordys
-41	2841	gorwel	gorweles worwel worweles
-42	2842	kervya	gerv gervya gervyas kervyes kervys
-43	2843	dyskybel	dheskyblon dhyskybel dhyskyblon dyskyblon
-44	2844	krackya	crack grack krack krackys
-45	2845	kravas	cravasow gravas gravys krava kravasow kravasys kreven
-46	2846	kris	gris grisyow grisys grysyow rysyow
-47	2847	dielvenna	dhielvedna dhielvenna dielvedna dielvennys tielvedna tielvenna
-48	2848	kevrenna	
-49	2849	minoryta	
-50	2850	rowedh	
-51	2851	maters	
-52	2852	rewlyans	
-53	2853	gelwir	
-54	2854	difyk	
-55	2855	rannvroyow	
-56	2856	dramatydh	
-57	2857	difresys	
-58	2858	sprusek	
-59	2859	hansel	
-60	2860	taran	
-61	2861	skant	
-62	2862	verkyas	
-63	2863	aswonvos	
-64	2864	restrans	
-65	2865	gwersyon	
-66	2866	pennskrifer	
-67	2867	tornysi	
-68	2868	bretonne	
-69	2869	dallethvos	
-70	2870	skorenn	
-71	2871	hwelir	
-72	2872	efefef	
-73	2873	gemmeras	
-74	2874	dileys	
-75	2875	niwl	
-76	2876	liwans	
-77	2877	mab-den	
-78	2878	gordhyans	
-79	2879	andesit	
-80	2880	anserhek	
-81	2881	dhia	
-82	2882	dybyans	
-83	2883	romansek	
-84	2884	ostya	
-85	2885	afinys	
-86	2886	dhenel	
-87	2887	homma	
-88	2888	cidi	
-89	2889	chaptra	
-90	2890	merkya	
-91	2891	goyeyn	
-92	2892	iselweyth	
-93	2893	bogalenn	
-94	2894	liwles	
-95	2895	kymygow	
-96	2896	mebyl	
-97	2897	morgowles	
-98	2898	hembronk	
-99	2899	lel	
-100	2900	traweythyow	
+1	2801	klor	glor
+2	2802	lughes	lughesen
+3	2803	goyeyn	woyeyn
+4	2804	berrheans	verrheans
+5	2805	kasorek	gasorek
+6	2806	ogasti	ogasty
+7	2807	diwosow	dhiwosow
+8	2808	awedhyans	awedhyansow
+9	2809	gwiskasow	wiskasow
+10	2810	ksenon	gsenon
+11	2811	kangarou	gangarou
+12	2812	lyvrow-termyn	levrow-termyn
+13	2813	tunnas	dunnas
+14	2814	divroans	dhivroans
+15	2815	justis	justisyow
+16	2816	pedneghlek	bedneghlek
+17	2817	gorthtro	worthtro
+18	2818	krommdohow	grommdohow
+19	2819	esker	eskeryow
+20	2820	asen	asenes
+21	2821	moghhe	moghheys voghhe
+22	2822	renk	renkow renkyow
+23	2823	breusi	breusys
+24	2824	methan	vethan
+25	2825	fol	felyon
+26	2826	mitys	mites vitys
+27	2827	plastogow	blastogow
+28	2828	bryntin	brintin vryntin
+29	2829	liwyans	liwyansow lywyans
+30	2830	ombrofya	ombrofyas ombrofys
+31	2831	bodh	vodh vodhow
+32	2832	kestevyn	gestevyn kesteven
+33	2833	hujes	hujys
+34	2834	kuhudha	guhudhas kuhudhys
+35	2835	linas	linasen
+36	2836	araya	ara arayas arays
+37	2837	arvwisk	arvwiskys
+38	2838	kow	cow gow gowyow
+39	2839	trydhek	dredhek tredhek tridhek
+40	2840	plommwedhek	blobmwedhek plobmwedhek
+41	2841	keworrans	geworrans keworransow
+42	2842	marghek	marghogyon varghek varghogyon
+43	2843	penn-aghel	pednow-aghel pennow-aghel
+44	2844	bosti	bostiow vosti vostiow
+45	2845	kommow	gommow kobmow
+46	2846	spryng	springys spryngys
+47	2847	kestav	gestav
+48	2848	protestya	brotestsa brotestya
+49	2849	argyans	argyansow
+50	2850	moryon	moryonen voryon voryonen
+51	2851	kwilkyn	gwilkyn kwilkynyow
+52	2852	awel	awelyow
+53	2853	dybradow	debradow
+54	2854	ea	ya
+55	2855	fethesik	fethesigow
+56	2856	chita	chitas jitas
+57	2857	kresenna	gresenn kresenn kresennys
+58	2858	mellyon	mellyonen vellyon vellyonen
+59	2859	devyn	devynnow
+60	2860	pregoth	bregoth pregothow
+61	2861	kowel	cowel gowel gowellow howel
+62	2862	dysmygriva	dismygriv dismygrivow dismygrivys dysmygrivow
+63	2863	banna	banaghow vadnaow
+64	2864	tavol	davol tavolen
+65	2865	argemynna	argemedna argemynnas argemynnys
+66	2866	awedhya	awedh awedhsons awedhyas awedhys
+67	2867	rutya	ruttya ruttyes rutyes
+68	2868	daskavos	dhaskavas dhaskavos
+69	2869	akordya	acordyes akordyas akordys
+70	2870	gorwel	gorweles worwel worweles
+71	2871	kervya	gerv gervya gervyas kervyes kervys
+72	2872	dyskybel	dheskyblon dhyskybel dhyskyblon dyskyblon
+73	2873	krackya	crack grack krack krackys
+74	2874	kravas	cravasow gravas gravys krava kravasow kravasys kreven
+75	2875	kris	gris grisyow grisys grysyow rysyow
+76	2876	dihevelepter	dihevelepterow
+77	2877	portrayansow	bortrayansow
+78	2878	duwses	duwsesow
+79	2879	dielvenna	dhielvedna dhielvenna dielvedna dielvennys tielvedna tielvenna
+80	2880	minoryta	
+81	2881	rowedh	
+82	2882	sprusek	
+83	2883	hansel	
+84	2884	taran	
+85	2885	skant	
+86	2886	aswonvos	
+87	2887	restrans	
+88	2888	gemmeras	
+89	2889	dileys	
+90	2890	niwl	
+91	2891	mab-den	
+92	2892	andesit	
+93	2893	dhia	
+94	2894	romansek	
+95	2895	afinys	
+96	2896	cidi	
+97	2897	chaptra	
+98	2898	iselweyth	
+99	2899	liwles	
+100	2900	kymygow	

@@ -11,17 +11,17 @@
 11	511	gorhel	gorhelyon gorhelyow gorholyon worhel worhelyon worhelyow worholyon
 12	512	enesek	enysek enysyk ynysek
 13	513	lagas	dewlagas dhewlagas lagasow
-14	514	kales	cales gales
+14	514	kales	cales calessa gales kalessa
 15	515	ervira	ervir erviras erviris ervirsa ervirys ervyra ervyras
 16	516	rewlys	
 17	517	demokratek	dhemokratek
 18	518	kylgh	gelgh gylgh gylghow gylghyow hylgh kelgh kelghow kelghyow kylghow kylghyow kylghys
 19	519	skorr	scorren skorren skorrow
-20	520	gwertha	gwerth gwerthow gwerthys kwertha werth wertha werthas werthow werthys
-21	521	gorfenna	gorfedna gorfednas gorfennys korfenna worfedn worfedna worfednas worfenn worfenna worfennas worfennis worfennsa
+20	520	gwertha	gwerth gwerthas gwerthow gwerthys kwertha werth wertha werthas werthow werthys
+21	521	gorfenna	gorfedna gorfednas gorfennas gorfennys korfenna worfedn worfedna worfednas worfenn worfenna worfennas worfennis worfennsa
 22	522	prena	brena brenas brenin frena frenas perna pren prenas prenna prenses prenys
-23	523	tonnas	
-24	524	prydydh	
+23	523	tonnas	donnas todnasow
+24	524	prydydh	brydydh brydydhyon prydydhyon
 25	525	lyther	lether lytherow lytheryow
 26	526	pel	bel below belyow fel pelyow
 27	527	toll	doll tell thell tollow
@@ -36,37 +36,37 @@
 36	536	redya	red redsa redyas redyewgh redys
 37	537	unya	un unis unses unsys unsysow unyas unyes
 38	538	konna	codna conna gonna honaow honnaow kodna konaow konnaow
-39	539	tros-hys	
-40	540	genas	
+39	539	tros-hys	dros-hys
+40	540	genas	enas
 41	541	tressa	dressa thressa
 42	542	gwiasva	gwiasvaow wiasva wiasvaow
 43	543	settya	sett settyas settyes settys
 44	544	a-hys	a-hes
 45	545	dien	dhien tien
 46	546	nivel	nivelow nivelyow nyvel
-47	547	stoff	stoffow
+47	547	stoff	stoffow stoffys
 48	548	melyn	velyn
 49	549	diwedhes	dhiwedhes dywedhes tiwedhes
 50	550	gweder	gwederow gwedrow weder
 51	551	tregh	dregh dreghow drygh dryghow dryghyow thregh thrygh treghow trygh tryghow
 52	552	efan	
-53	553	ryver	
+53	553	ryver	rever
 54	554	emperour	emperours
-55	555	gnas	gnasow
+55	555	gnas	gnasow gnasyow
 56	556	kellys	gellys gyllys hellys kyllys yllys
 57	557	huni	huny
 58	558	benow	fenow venow
-59	559	sewya	sew
+59	559	sewya	sew sewys siwya syw sywya sywyas sywys
 60	560	gonis	gonedhys gonisow gonisyas gonisyow gonisys wonis wonisow wonisyow
 61	561	margh	fergh mergh vargh vergh
 62	562	marow	
-63	563	rannvro	
+63	563	rannvro	radnvroyow rannvroyow
 64	564	lebma	
 65	565	askorrans	ascorrans askorransow
 66	566	gwyns	gwens gwensow gwynsow wens wyns
 67	567	hedhi	hedh hedhas hedhes hedhis hedhons hedhsa hedhyes hedhys
 68	568	hensi-horn	
-69	569	kompani	
+69	569	kompani	gompani
 70	570	galaksi	alaksi alaksiow galaksiow
 71	571	treth	drethow threthow trethow trethyow trethys
 72	572	kerdhes	gerdh gerdhas gerdhes herdh herdhes kerdh kerdhas kerdhons kerdhow kerdhys
@@ -80,15 +80,15 @@
 80	580	hwesker	hweskeren whesker wheskeren
 81	581	fowt	fowtow fowtys
 82	582	servis	servisyow
-83	583	displegya	dhisplegyas
+83	583	displegya	dhisplegas dhisplegyas dhysplegya dhysplegyas displegyas displegyes dysplegya tisplegyas
 84	584	viaj	viajyow viajys vyaj vyajyow vyajys
 85	585	soth-west	
-86	586	ombrofyer	
-87	587	passya	passyes
+86	586	ombrofyer	ombrofyoryon
+87	587	passya	bassya bassyas passyes
 88	588	adhyskans	
 89	589	bardhek	
 90	590	nagonan	
-91	591	meusva	
+91	591	meusva	veusva
 92	592	gwiska	gwisk gwiskas gwiskow gwiskys hwisk hwiska kwiska kwiskas wisk wiska wiskas wiskys
 93	593	daffar	dhaffar
 94	594	ewn	own

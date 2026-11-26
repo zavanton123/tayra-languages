@@ -1,4 +1,4 @@
-1	1	bos	ben bes besow beu bia bo bones bons bosow esa esens esons eus ew feu jeves jevo o on os ov pos usi usy ven ves veu via vo vons vos vosow vue vydh vyns yma ymons yns yw
+1	1	bos	ben bes besow beu bia bo bones bons bosow esa esens esons eus ew feu jeva jeves jevo o on os ov pos tevo usi usy ven ves veu via vo vons vos vosow vue vydh vyns yma ymons yns yw ywa
 2	2	an	
 3	3	a	anedh anedha anedhi anedhy anedhys anodho
 4	4	yn	en enno ydno ynna ynni ynno ynnos ynnowgh ynny
@@ -7,7 +7,7 @@
 7	7	gans	ans diwen enji ganjo gansa ganso gen genen genes genev genji genjy genow genowgh gensi gensy genyow hans hen henow wans
 8	8	y'n	e'n i'n
 9	9	y	
-10	10	rag	ragdha ragdho ragon ragowgh rygdhi
+10	10	rag	rac ragdha ragdho ragon ragowgh rygdhi
 11	11	ow	owth
 12	12	hy	hei hi
 13	13	ev	va
@@ -17,15 +17,15 @@
 17	17	a'n	
 18	18	po	bo
 19	19	war	warnas warnedha warnedhi warnedhy warnodho
-20	20	gul	gwra gwre gwren gwrewgh gwrug gwruthyl gwul hwra hwre hwrella hwren hwrug hwrussa hwrussens hwrussons hwrussys hwul kwra kwrella kwrellys kwruthyl whrug wra wre wrella wrello wren wrens wrewgh wrons wrug wrussa wrussons wrussyn wruthyl wul
+20	20	gul	gwra gwre gwren gwrewgh gwrug gwruthyl gwrythul gwul hwra hwre hwrella hwren hwrer hwrug hwrussa hwrussens hwrussons hwrussys hwul kwra kwrella kwrellys kwruthyl kwrythul whrug wra wre wrella wrello wren wrens wrewgh wrons wrug wrussa wrussons wrussyn wruthyl wrythul wul
 21	21	avel	vel
 22	22	mes	bes besow fes mesen mesyow ves vesen vesow
 23	23	dhe'n	
 24	24	cita	citas citys cyta cytys sita
 25	25	ma	fa va
-26	26	bras	brases brasow brassa broas brâs fras prasow vras vrassa vroas vrâs
+26	26	bras	brases brasow brassa broas brâs fras pras prasow vras vrassa vroas vrâs
 27	27	usya	us usadow usadowyow uses usyas usyens usyes usyn usyons usyow usys
-28	28	poblans	boblans
+28	28	poblans	boblans boblansow foblansow
 29	29	i	anjei enjei jei
 30	30	bys	bes besow besyes bysow bysowyer fes ves vesies vesow vys
 31	31	stat	statow statys
@@ -40,8 +40,8 @@
 40	40	wosa	woja
 41	41	ha'n	
 42	42	kynsa	gensa gynsa hensa hynsa kensa
-43	43	bledhen	bledhednyow bledhennyow bledhenyow bledhydnyow bledhynnyow bledhynyow blydhen blydhyn blydhynnyow vledhen vledhennyow vledhenyow vledhydnyow vledhyn vledhynnyow vlydhen
-44	44	gallos	alla allas allis allons allos allsons alsa ell gallas gallons gallosow galsa gyll halla hallas hallen hallens hallons hyll hylli hyllir hyllons hyllowgh hyllsons hyllyn kallos kalsa kyllons wallos yll yllens ylli yllis yllons ylly yllyns
+43	43	bledhen	bledhednyow bledhennyow bledhenyow bledhydnyow bledhynnyow bledhynyow blydhen blydhyn blydhynnyow vledhen vledhennyow vledhenyow vledhydnyow vledhyn vledhynnyow vlydhen vlydhynyow
+44	44	gallos	alla allas allis alloes allons allos allsons alsa ell gallas gallons gallosow galsa gyll halja halla hallas hallen hallens hallons hyll hylli hyllir hyllons hyllowgh hyllsons hyllyn kallos kalsa kyllons wallos yll yllens ylli yllis yllons ylly yllyn yllyns
 45	45	kernewek	
 46	46	pow	bowyow fowyow powyow
 47	47	restren	restrennow restrynnow
@@ -54,14 +54,14 @@
 54	54	tus	dus thus
 55	55	re	
 56	56	dowr	dhowr dhowrow dhowryow dowrow dowryow
-57	57	lies	
+57	57	lies	lyes
 58	58	tre	dreven drevow drevyn thre threow threven threvow treven trevow
 59	59	genys	
 60	60	sowsnek	
 61	61	dalleth	dalla dallas dallath dallathas dallethow dallethys dhalla dhallath dhallathas dhallathsa dhalleth dhallethas dhallys dhyllys dyllys talla tallath tallathas tallathsens talleth tallethas telles tyllis
 62	62	ynwedh	ewedh i'wedh inwedh y'wedh
 63	63	eghen	eghennow eghenow ehen
-64	64	henwel	henwys
+64	64	henwel	henwelys henwys
 65	65	nebes	
 66	66	gwrys	gwres gwris gwrisow gwrysow gwrysys hwres wres wrys wrysow
 67	67	da	gwell gwella hwell hwella hwyll kwell kwella ta tha well wella
@@ -69,7 +69,7 @@
 69	69	ages	agesov agessa agesso es essa essens esso esya esyas esys yssyns ysya
 70	70	kewsel	cowsel gews gewsas gewsel gewsi gewsis gewsys gows gowsas gowsel hewsel hows kews kewses kewsi kewsis kewsons kewsys kows kowsel kowsow
 71	71	nyns	ny
-72	72	mildir	
+72	72	mildir	mildiryow mildyr vildiryow
 73	73	kepar	pecar pecara pekar pekara
 74	74	kemmyn	gebmyn gemmyn kebmyn
 75	75	pan	ban fan van
@@ -79,15 +79,15 @@
 79	79	est	
 80	80	godhvos	godhas godhes godhor godhvies godhys godn goer gonn gor goya honn kodhowgh kodhvos koffia wodhas wodhes wodhon wodhons wodhor wodhvons wodhvos wodhvosow wodhya wodhyen wonn wor woya
 81	81	orth	ort orta orti orto worth
-82	82	skrifa	scrif scrifa scrifas scrifen scrifow scrifys skrif skrifas skrifen skrifow skrifsons skrifyas skrifys
+82	82	skrifa	scrif scrifa scrifas scrifen scrifow scrifys skrif skrifas skrifen skrifir skrifow skrifsons skrifyas skrifys
 83	83	a-dhia	a-dhya
 84	84	onan	onen
-85	85	termyn	dermyn dermynyow termen termynow termynyow thermyn thermynyow
+85	85	termyn	dermydnyow dermyn dermynyow termen termynnyow termynow termynyow thermyn thermynyow
 86	86	enys	enesow enysow enysyow ynys ynysow ynysyow
 87	87	pub	bub
-88	88	triger	drigoryon trigoryon
+88	88	triger	driger drigoryon drygoryon thrigoryon trigoryon
 89	89	nowydh	nowedh nowyth nowyttha
-90	90	kavos	avas cavos cawas gavas gavos gawas havos hawas hevis kaffa kaffewgh kav kavas kavsa kawas kevys
+90	90	kavos	avas cavos cawas gavas gavoes gavos gawas gevas gyv havos hawas hevis kaffa kaffewgh kav kavas kavsa kawas kevys kyv
 91	91	niver	niverow niveryow nyver nyverow
 92	92	kres	cres gres gresyow kresow kresyow krysyow
 93	93	ogas	ogassa

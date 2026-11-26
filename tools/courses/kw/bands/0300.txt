@@ -1,9 +1,9 @@
-1	201	diskwedhes	dhiskwedh dhiskwedhas dhiskwedhes dhiskwedhi dhiskwedhsa dhiskwedhyas diskwedh diskwedhyn diskwedhys tiskwedhes
+1	201	diskwedhes	dhiskwedh dhiskwedhas dhiskwedhes dhiskwedhi dhiskwedhsa dhiskwedhyas diskwedh diskwedha diskwedhyn diskwedhys thiskwedhes tiskwedha tiskwedhes
 2	202	fordh	fordhow
 3	203	amser	amserow amseryow
 4	204	chi	chei chiow chy ji jiow jy
 5	205	diskudha	dhiskudh dhiskudha dhiskudhas dhiskudhyas dhiskudhys discudha diskudhas diskudhes diskudhys tiskudha tiskudhas
-6	206	skol	skolyow
+6	206	skol	scol skolyow
 7	207	aswonys	
 8	208	penncita	benncita fenncita pedncita penncitys
 9	209	tra	daclow daklow dra draow taclow taklow traow
@@ -20,7 +20,7 @@
 20	220	metheven	
 21	221	eglos	eglosow eglosyow
 22	222	hwevrer	hwevrel whevrer
-23	223	dybri	deber debri debry debrys dheber dhebri dhybri dhybris dhybrys dybris dybrys teber tebri tebrons tebry tybri tybrys
+23	223	dybri	deber debri debry debrys dheber dhebri dhybri dhybris dhybrys dybr dybris dybrys teber tebri tebrons tebry tybri tybrys
 24	224	benyn	benen benenes benynes venen venenes venyn
 25	225	mona	vona
 26	226	merwel	ferwis merwis merwys verwas verwel verwis
@@ -29,19 +29,19 @@
 29	229	a-varr	a-varra
 30	230	warbarth	war-barth
 31	231	chif	chyf jif jyf
-32	232	kemeres	gebmer gemeras gemereas gemeres gemeri gemersa gemerys gemmer hemeres kebmer kemeras kemerens kemerewgh kemeri kemerys kemmer
+32	232	kemeres	gebmer gemeras gemereas gemeres gemeri gemersa gemerys gemmer gemmeres gemmeris gemmerys hemeres kebmer kemeras kemerens kemerewgh kemeri kemerys kemmer kemmeres kemmerys
 33	233	gwitha	gwith gwithas gwithow gwithys gwyth gwytha hwitha hwithas hwithys kwitha kwithas witha withas wytha wythas
 34	234	lemmyn	lebmyn lemmen
 35	235	hwath	
-36	236	kuntel	cuntel cuntelles cuntellow guntel guntela guntelas guntella guntellesow guntellis guntellow huntel huntellesow kuntelles kuntellesow kuntellewgh kuntellow kuntellys
+36	236	kuntel	cuntel cuntelles cuntellow guntel guntela guntelas guntell guntella guntellas guntellesow guntellis guntellow guntellyas huntel huntellas huntellesow kuntell kuntelles kuntellesow kuntellewgh kuntellow kuntellys
 37	237	treylya	dreyl dreylya dreylyas dreylyons dreylys threylya treyl treylyas treylyes treylyn treylys
 38	238	chanj	chanjyas chanjyes chanjyow chanjys janj janjyas janjyow janjys
-39	239	dyffrans	
+39	239	dyffrans	dhyffransow diffrans diffransow tiffrans tyffrans
 40	240	bardh	berdh vardh verdh
 41	241	gerya	geryes geryn gerys herya heryes herys
 42	242	tan	dan danow tanow tanyow than
 43	243	hedhyw	
-44	244	istori	
+44	244	istori	istory ystory
 45	245	gwaynya	waynyas
 46	246	diwedha	dhiwedha dhiwedhas dhiwettha dhywedhas diwedhas diwedhyn diwedhys diwettha dywettha tiwedha tiwedhyn tiwettha
 47	247	porth	borth borthow forth porthow
@@ -51,14 +51,14 @@
 51	251	tren	dhreyn dren drenow drenyow dreyn thren trenow trenys
 52	252	repoblek	
 53	253	lava	
-54	254	posek	posekka
+54	254	posek	foesek posekka
 55	255	styr	styryow
-56	256	styrya	styryas styrys
+56	256	styrya	styryas styryes styrys
 57	257	a's	
-58	258	governans	
+58	258	governans	overnans wovernansow
 59	259	mernans	mernansow vernans vernansow
 60	260	gwir	gwiryow gwyr hwir kwir wir wiryon wiryow
-61	261	arwodh	arwodhow arwodhyow
+61	261	arwodh	arwodhow arwodhyow arwoedhyow arwoedhys
 62	262	kov	cov gov govyon govyow hov hovyow kovyon kovyow
 63	263	pell	bell bella fell fella pella pylla vell
 64	264	rudh	
@@ -72,27 +72,27 @@
 72	272	par	bar far farow parow varow
 73	273	kymyk	gemyk gymyk kemyk
 74	274	unyans	
-75	275	politeger	
+75	275	politeger	boliteger bolitegoryon politegoryon
 76	276	byw	bew few fyw pew vew vyw
-77	277	tiredh	tiredhow
-78	278	gorsav	
+77	277	tiredh	diredh diredhow thiredh thiredhow tiredhow tiredhyow
+78	278	gorsav	gorsavow orsav worsavow
 79	279	kesrosweyth	kesroesweyth
 80	280	anserghogeth	
 81	281	art	artys
 82	282	etholans	etholansow
 83	283	keffrys	keffres
-84	284	poynt	boynt
-85	285	hwarvos	hwer wher
+84	284	poynt	boynt boyntow boyntyow boyntys foynt poyntow poyntyow poyntys
+85	285	hwarvos	hwer wharvos wher
 86	286	bloodh	bloedh vloedh vloodh
 87	287	pellgowser	bellgowser pellgowseryow
 88	288	ilow	
-89	289	arnowydh	arnowedh
+89	289	arnowydh	arnowedh arnoweth
 90	290	gwydh	gwedh gwedhen gwedhow gwydhen hwedh hwedhow wedh wedhen wydh wydhen
 91	291	jynn	jinn jyn jynnow jynnyow jynnys jynys
-92	292	a'y	
+92	292	a'y	a'i
 93	293	dor	dhor dhoryow doryow tor
 94	294	unnik	udnik unnyk
-95	295	skrifer	
+95	295	skrifer	scrifer
 96	296	haval	
 97	297	junya	jun junnya junnys junsa junyas junyes junys
 98	298	karr	arr dhiwarr diwarr garr garrow gerri herri kerri warr warrow

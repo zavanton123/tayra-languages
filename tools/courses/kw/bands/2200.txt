@@ -1,23 +1,23 @@
 1	2101	gwlanek	
-2	2102	treuslinen	
-3	2103	skovva	
-4	2104	lewyer	
-5	2105	sodhas	
-6	2106	lewydhek	
-7	2107	grondyes	
+2	2102	treuslinen	dreuslinen threuslinen
+3	2103	skovva	skovvaow
+4	2104	lewyer	lewyoryon
+5	2105	sodhas	sodha sodhes
+6	2106	lewydhek	lywydhek
+7	2107	grondyes	grondys
 8	2108	losowek	
 9	2109	komik	
 10	2110	filosofek	
-11	2111	terthen	
-12	2112	lanthanid	
-13	2113	krag	
-14	2114	kreungylgh	
+11	2111	terthen	derthen
+12	2112	lanthanid	lanthanidow
+13	2113	krag	grag
+14	2114	kreungylgh	creungylgh greungelgh greungylgh kreungelgh
 15	2115	radhva	
-16	2116	diwroser	
+16	2116	diwroser	dhiwroser diwrosoryon
 17	2117	gwerdhour	
 18	2118	soya	
 19	2119	ayrgorf	
-20	2120	gesstrifas	
+20	2120	gesstrifas	gesstrifa gesstrivas gesstrivya gesstrivyas kesstrifa kesstrivya kesstryvya
 21	2121	pymthek	bymthek
 22	2122	freudh	freudhow
 23	2123	kergh	gergh
@@ -47,54 +47,54 @@
 47	2147	dalghedh	dalghedhow dhalghedh
 48	2148	morgi	morgeun vorgi
 49	2149	powes	bowes powesa powesas powesow
-50	2150	segha	seghes seghys syggha
+50	2150	segha	seghas seghes seghys syggha
 51	2151	kist	cistow gist kistow kistyow kyst
-52	2152	krena	crenna gren grena kren krenna
+52	2152	krena	crenna gren grena kren krenas krenna
 53	2153	bran	brini fran vran vrini
-54	2154	rugbi	
+54	2154	rugbi	rugby
 55	2155	sovran	
-56	2156	yllir	
-57	2157	medalen	
+56	2156	yllir	yllyr
+57	2157	medalen	vedalen
 58	2158	antimoni	
-59	2159	hevelepter	
-60	2160	gorour	
-61	2161	mappys	
-62	2162	golegydh	
+59	2159	hevelepter	hevelepterow hevelepteryow
+60	2160	gorour	goroures
+61	2161	mappys	vappys
+62	2162	golegydh	golegydhyon olegydh
 63	2163	losonydh	
 64	2164	poblansow	
 65	2165	anusadow	
-66	2166	grontys	
+66	2166	grontys	grontyes
 67	2167	hengovyow	
-68	2168	mantel	
+68	2168	mantel	vantel
 69	2169	vysytyas	
-70	2170	mellkeyn	
-71	2171	gwelstiryow	
+70	2170	mellkeyn	mellkeynow vellkeyn
+71	2171	gwelstiryow	gwelstir welstir welstiryow
 72	2172	yowynkka	
 73	2173	emperourethek	
 74	2174	mõisa	
 75	2175	vildir	
-76	2176	diwotti	
+76	2176	diwotti	diwottiow
 77	2177	hendas	
 78	2178	dybieth	
 79	2179	dhowrgleudh	
 80	2180	fylum	
 81	2181	krabbys	
 82	2182	adhves	
-83	2183	tirwedhow	
-84	2184	ragavon	
-85	2185	representya	
-86	2186	skaffa	
+83	2183	tirwedhow	dirwedhow
+84	2184	ragavon	ragavonow
+85	2185	representya	representyas
+86	2186	skaffa	scaffa
 87	2187	profyes	
-88	2188	gorreydh	
+88	2188	gorreydh	worreydh
 89	2189	seleniom	
-90	2190	sawor	
-91	2191	koloven	
-92	2192	planetik	
+90	2190	sawor	saworys
+91	2191	koloven	coloven goloven golovennow kolovednow kolovennow
+92	2192	planetik	blanetik
 93	2193	darlesans	
 94	2194	troyllyek	
-95	2195	kloud	
-96	2196	kemygydh	
+95	2195	kloud	cloud gloudys
+96	2196	kemygydh	gymygydhyon kemegydh kemegydhyon kemygedh kemygydhyon kymygydh kymygydhyon
 97	2197	platys	
-98	2198	penicillin	
+98	2198	penicillin	benicillin
 99	2199	noth	
-100	2200	migorn	
+100	2200	migorn	mygorn vigorn

@@ -1,4 +1,4 @@
-1	1001	pellder	bellder bellderyow fellderow pellderow
+1	1001	pellder	belder bellder bellderyow fellderow pelder pelderyow pellderow
 2	1002	skoodh	dhiwskodh diwskodh scoodh skodhow skoedh skoedhys skoodhys
 3	1003	brygh	bregh breghi breghow breghys bryghow dhiwvregh diwvregh vregh vrygh
 4	1004	savonek	
@@ -8,20 +8,20 @@
 8	1008	sulfur	
 9	1009	silika	
 10	1010	mog	fog fogow vog
-11	1011	palsya	pals palsyes
+11	1011	palsya	pals palsyes palsys
 12	1012	stret	stretow stretys
 13	1013	batel	batelow batelyow vatel
 14	1014	kolom	colom gelebmi golom kelemmi
 15	1015	desinya	desinyes desinys desynys dhesinya dhesinyas tesinys
-16	1016	skoodhyans	
+16	1016	skoodhyans	skoedhyans skoodhyansow
 17	1017	blydhynyow	
 18	1018	kesstrifow	
-19	1019	remenant	
+19	1019	remenant	remenantow remenantys
 20	1020	ryvers	
-21	1021	godhvedhys	
-22	1022	rekord	
+21	1021	godhvedhys	wodhvedhys
+22	1022	rekord	record rekordow rekordyow
 23	1023	radyoweythresek	
-24	1024	oksid	
+24	1024	oksid	oksidow oksidys
 25	1025	gwaneth	waneth
 26	1026	gwarak	gwarakow gwaregow
 27	1027	ilewydh	ilewydhyon
@@ -32,11 +32,11 @@
 32	1032	korr	korryon worr
 33	1033	ranndiryel	
 34	1034	a-wosa	
-35	1035	rannyeth	
+35	1035	rannyeth	radnyeth
 36	1036	sewen	
 37	1037	displegys	
-38	1038	musek	
-39	1039	statydh	
+38	1038	musek	musyk vusek
+39	1039	statydh	statydhes
 40	1040	ayredh	ayredhow
 41	1041	lowarn	lewern
 42	1042	menhesen	menhesennow venhesen venhesennow
@@ -49,23 +49,23 @@
 49	1049	henhwedhlow	
 50	1050	civil	
 51	1051	gwyls	
-52	1052	seson	
+52	1052	seson	sesonow sesonyow
 53	1053	mynsow	
-54	1054	pastell	
-55	1055	gwylar	
-56	1056	dramasydh	
+54	1054	pastell	bastellow pastellow
+55	1055	gwylar	wylar
+56	1056	dramasydh	dramasydhes
 57	1057	gweladow	weladow
 58	1058	fisegel	fysegel
 59	1059	lev	levow
 60	1060	mayn	mayniow maynys vayn vaynys
-61	1061	seni	senas senis sensys seny senys sonas
+61	1061	seni	sen senas senis sensys seny senys sonas
 62	1062	heveli	hevel hevelis hevelons hevely hevelys
 63	1063	bedh	bedhow fedh vedh vedhow
 64	1064	reson	
-65	1065	distruys	
+65	1065	distruys	dhistrui dhistruis dhistruiys dhistruyas dhistruys distrui distruis tistrui tistruis
 66	1066	apert	
-67	1067	mater	
-68	1068	kemyskans	
+67	1067	mater	materow maters materyow vater vaters vateryow
+68	1068	kemyskans	gemyskans kemyskansow
 69	1069	a-rag	
 70	1070	krey	grey
 71	1071	brest	prest vrest
@@ -86,7 +86,7 @@
 86	1086	fast	
 87	1087	steronieth	
 88	1088	pednfenten	
-89	1089	monow	
+89	1089	monow	vonow
 90	1090	enora	
 91	1091	kettermyn	
 92	1092	tooth	doeth dooth thooth
@@ -95,6 +95,6 @@
 95	1095	bi	fi vi
 96	1096	hal	halow
 97	1097	gravyans	gravyansow ravyans wravyans
-98	1098	klassys	
-99	1099	kerghynnedh	
-100	1100	geyj	
+98	1098	klassys	glassys
+99	1099	kerghynnedh	gerghynnedh herghynnedh kerghennedh kerghynnedhow kerghynnydh kyrghynnedh kyrghynnedhow
+100	1100	geyj	eyj geyjys
