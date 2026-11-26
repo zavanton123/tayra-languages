@@ -127,6 +127,21 @@ HAUSA_FORMS = {
     "idanu": "ido", "idanun": "ido", "iyalai": "iyali", "iyalan": "iyali", "waɗansu": "waɗansu", "kullun": "kullum",
     # A hook written where there is none (yake).
     "yaƙe": "",
+    # Feminines and spellings the pack does not link: waccan "that (fem.)", tasu "theirs (fem.)", siya for saya "buy", tayar
+    # for tada "raise", wanna for wannan; ɗin's possessives (motar ɗina, fim ɗinta; not ɗinka "sew", ɗinki "sewing").
+    "waccan": "wancan", "tasu": "nasu", "siya": "saya", "siyan": "saya", "siyo": "saya", "siyar": "sayar", "tayar": "tada",
+    "wanna": "wannan", "ɗina": "ɗin", "ɗinsa": "ɗin", "ɗinta": "ɗin", "ɗinsu": "ɗin", "ɗinmu": "ɗin",
+    "ɗinku": "ɗin", "bukukuwa": "biki", "bukukuwan": "biki", "dawakai": "doki", "dawakan": "doki", "jahar": "jiha",
+    "jaha": "jiha", "maras": "marasa", "marar": "marasa", "yuwu": "yiwu", "yiyu": "yiwu", "hayaki": "hayaƙi",
+    "hayakin": "hayaƙi", "natsuwa": "nutsuwa", "natsuwar": "nutsuwa", "buki": "biki", "gagaruma": "gagarumi",
+    "gagarumar": "gagarumi", "yanda": "yadda", "tamu": "namu", "kanki": "kai", "magudanar": "magudana",
+    "magudanan": "magudana", "ƙaragar": "ƙaraga",
+    # Words of their own the rules would make forms: liman "imam" (no lima + n), wucin of wucin gadi "temporary", kokawa
+    # "wrestling" (no koka "complain" + wa).
+    "liman": "liman", "wucin": "wucin", "kokawa": "kokawa",
+    # Loanwords in -n and -r, no linked forms (radar, beyar "bear", kushin "cushion", laftanan "lieutenant").
+    "radar": "radar", "beyar": "beyar", "kushin": "kushin", "golan": "golan", "bahar": "bahar", "sansan": "sansan",
+    "malin": "malin", "laftanan": "laftanan", "lasin": "lasin", "mesin": "mesin",
 }
 # Words the pack lacks that are spelled as a hooked word is without its hook, and are words of their own: ki "you" (ƙi "refuse"),
 # yaya "how" (ƴaƴa "children", written 'ya'ya), haka "so" (haƙa "dig"), kala "kind", kadara "property".
@@ -149,10 +164,108 @@ HAUSA_JOINED = {
     "akayi": "aka yi", "ankai": "an kai", "bazan": "ba zan", "yafi": "ya fi", "dasu": "da su", "dashi": "da shi",
     "yakamata": "ya kamata", "meyasa": "me ya sa", "koda": "ko da", "kodayake": "ko da yake", "akai": "a kai",
     "mene": "me ne", "haryanzu": "har yanzu", "aciki": "a ciki", "acikin": "a cikin", "akansa": "a kansa", "kuyi": "ku yi",
-    "barsu": "bar su", "harma": "har ma", "shike": "shi ke", "wanan": "wannan",
+    "barsu": "bar su", "harma": "har ma", "shike": "shi ke", "wanan": "wannan", "nima": "ni ma", "itama": "ita ma",
+    "kaima": "kai ma", "kema": "ke ma",
 }
-# Words that are no Hausa words of ordinary text: names written small, English, abbreviations, fragments.
-HAUSA_EXCLUDED = {"allah", "adam", "s", "of", "habibu"}
+# Words that are no Hausa words of ordinary text: names written small, English, abbreviations, fragments (basuwa, written for
+# ba su), the linker n written apart.
+HAUSA_EXCLUDED = {"allah", "adam", "s", "of", "habibu", "on", "n", "basuwa", "ƙwa"}
+
+# ---------------------------------------------------------------------------------------------------------------------------
+# Entries of the pack that are forms (Lexicon._link_entries).
+#
+# Wikidata's lexemes have many plurals, linked forms and feminines as entries of their own (makonni "weeks", kiɗan "music
+# (of)", cikakkiyar "complete (fem.)"), spellings (banbanci "difference (variant of bambanci)", hakki beside haƙƙi), grades of
+# a verb (gayyace beside gayyata "to invite"), joined spellings ("nasan: (na san) I know") and the halves of a hyphenated word
+# ("canje: (canje-canje) changes"). Each is counted for its word: a gloss "variant, plural or feminine of X" names it; a
+# linked form is its word without the -n or -r; a plural is the word beginning alike that is glossed as its gloss in the
+# singular; a feminine or plural adjective has the masculine of its ending (ADJECTIVE_ENDINGS). Spellings and grades the pack
+# glosses alike are one word, listed as the commonest. A verbal noun in -wa is its verb's (dubawa: duba), and a linked form
+# whose word the pack lacks is that word's when text writes it (kolin: koli; Lexicon.link_bare). A joined spelling is counted
+# as its words, and a word mostly written as half of a hyphenated one is not counted (HYPHEN_SHARE).
+# ---------------------------------------------------------------------------------------------------------------------------
+GLOSS_PARENS = re.compile(r"\(([^()]*)\)")
+GLOSS_OF = re.compile(r"\b(?:variant(?: spelling)?|plural|feminine|fem\.?) of ([^()]+?)\s*(?:\)|$)")
+# The feminine and plural endings of the adjectives in -aCCe (cikakke, cikakkiya, cikakku; ingantacce, ingantacciya,
+# ingantattu; ƙwararre; nakasasshe), and the masculine ending each is of.
+ADJECTIVE_ENDINGS = [("cciya", "cce"), ("ttu", "cce"), ("kkiya", "kke"), ("kku", "kke"), ("rriya", "rre"), ("rru", "rre"),
+                     ("ssiya", "sshe"), ("ssu", "sshe"), ("nniya", "nne"), ("nnu", "nne"), ("bbiya", "bbe"), ("bbu", "bbe"),
+                     ("ddiya", "dde"), ("ddu", "dde"), ("lliya", "lle"), ("llu", "lle")]
+# A verb's stem before a grade's last vowel, with the palatal consonants the -e and -i grades have for t, s, z (gayyace:
+# gayyata).
+GRADE_STEM = re.compile("(?:c|sh|j)$")
+PALATAL = {"c": "t", "sh": "s", "j": "z"}
+# A word joined to the verb after it that the pack lacks (muyi, naji, kace): the person-aspect words and the commonest verbs.
+JOINED_PERSONS = sorted({"na", "ya", "ta", "mu", "ku", "su", "ka", "ki", "a", "an", "sun", "mun", "kun", "ke", "ake", "zai",
+                         "zan", "za", "bai", "ban"}, key=lambda p: (-len(p), p))
+JOINED_VERBS = {"yi", "ce", "ji", "ga", "je", "zo", "san"}
+# At or above this share of its count written as half of a hyphenated word (fina-finai, ire-iren), a spelling is not counted.
+HYPHEN_SHARE = 0.5
+ENGLISH_IRREGULAR = {"people": "person", "children": "child", "men": "man", "women": "woman", "feet": "foot", "teeth": "tooth",
+                     "mice": "mouse", "geese": "goose", "wives": "wife", "lives": "life", "knives": "knife", "leaves": "leaf",
+                     "thieves": "thief", "halves": "half", "wolves": "wolf", "loaves": "loaf", "calves": "calf"}
+
+
+def gloss_keys(glosses):
+    """A pack entry's glosses as compared: lowercase, without what is in brackets, each part apart, without to, a, the."""
+    keys = set()
+    for gloss in glosses:
+        for part in re.split(r"[;,/]", GLOSS_PARENS.sub(" ", gloss).lower()):
+            part = re.sub(r"^(?:to|a|an|the) ", "", " ".join(part.split()).strip(" .!?"))
+            part = re.sub(r"our(s?)\b", r"or\1", part)
+            if part:
+                keys.add(part)
+    return keys
+
+
+def english_singular(phrase):
+    """An English plural gloss in the singular (weeks: week, political parties: political party), or None."""
+    *head, last = phrase.split() or [""]
+    if last in ENGLISH_IRREGULAR:
+        single = ENGLISH_IRREGULAR[last]
+    elif last.endswith("ies") and len(last) > 4:
+        single = last[:-3] + "y"
+    elif last.endswith(("ches", "shes", "sses", "xes", "zes")):
+        single = last[:-2]
+    elif last.endswith("s") and not last.endswith(("ss", "us", "is")) and len(last) > 3:
+        single = last[:-1]
+    else:
+        return None
+    return " ".join(head + [single])
+
+
+def verbal_heads(keys):
+    """The first words of glosses, an -ing one also as its verb (looking: look, preparing: prepare, running: run)."""
+    out = set()
+    for key in keys:
+        word = key.split()[0]
+        out.add(word)
+        if word.endswith("ing") and len(word) > 5:
+            stem = word[:-3]
+            out |= {stem, stem + "e"} | ({stem[:-1]} if stem[-1] == stem[-2] else set())
+    return out
+
+
+def heads_alike(a, b):
+    """Whether two sets of gloss words share one, or one's first five letters (existence, exist; continuation, continue)."""
+    return bool(a & b) or any(len(x) >= 5 and len(y) >= 5 and x[:5] == y[:5] for x in a for y in b)
+
+
+def skeleton(word):
+    """A spelling without its hooks, doubled letters and the n/m written for the one before b, f, m (banbanci, bambanci; hakki,
+    haƙƙi; al'uma, al'umma; mutun, mutum)."""
+    word = re.sub("m$", "n", re.sub("n(?=[bfm])", "m", word.translate(DEHOOK)))
+    return re.sub(r"(.)\1", r"\1", word)
+
+
+def distance(a, b):
+    """The edit distance between two spellings."""
+    row = list(range(len(b) + 1))
+    for i, x in enumerate(a, 1):
+        prev, row[0] = row[0], i
+        for j, y in enumerate(b, 1):
+            prev, row[j] = row[j], min(row[j] + 1, row[j - 1] + 1, prev + (x != y))
+    return row[-1]
 
 
 # The hooked letters a sentence writes (ɓ, ɗ, ƙ, or their apostrophe spellings), by the plain letter each stands for. 'y is
@@ -178,9 +291,16 @@ def dropped(spelling, hooked):
     return frozenset(HOOKED_LETTERS[h] for p, h in zip(spelling, hooked) if p != h)
 
 
-def tokens(line, names=None):
+def _hyphened(line, start, end):
+    """Whether the word at line[start:end] is half of a hyphenated one (fina-finai, canje-canje)."""
+    before = start >= 2 and line[start - 1] == "-" and line[start - 2].isalpha()
+    return before or line[end:end + 1] == "-" and line[end + 1:end + 2].isalpha()
+
+
+def tokens(line, names=None, split=None, hyphened=None):
     """A line's words as the reader cuts and matches them, lowercase, without the capitalised ones inside a sentence (names),
-    which are counted in [names]."""
+    which are counted in [names]. [split] gives the words a joined spelling stands for (Lexicon.split); the words that are
+    half of a hyphenated one are counted in [hyphened]."""
     line = line.translate(APOSTROPHES)
     for match in WORD.finditer(line):
         word = match.group(0)
@@ -193,7 +313,12 @@ def tokens(line, names=None):
                 names[hausa_fold(word).lower()] += 1
             continue
         word = hausa_fold(word).lower()
-        yield from HAUSA_JOINED.get(word, word).split()
+        if hyphened is not None and _hyphened(line, match.start(), match.end()):
+            hyphened[word] += 1
+        words = HAUSA_JOINED.get(word, word).split()
+        if split is not None and len(words) == 1:
+            words = split(word) or words
+        yield from words
 
 
 def english(words):
@@ -232,6 +357,177 @@ class Lexicon:
                     self.generated[form].add(word)
                     if linked:
                         self.possessive_of[form] = linked
+        self.senses = defaultdict(list)
+        for word, senses in db.execute("SELECT word_lc, senses FROM entries"):
+            if WORD.fullmatch(word):
+                self.senses[word] += [s["glosses"][0] for s in json.loads(senses) if s.get("glosses")]
+        self._link_entries()
+
+    def _link_entries(self):
+        """
+        The pack's entries that are another entry's forms, read from their glosses and spellings (see "Entries of the pack
+        that are forms" above): [links] (form: word), [same] (groups of spellings or grades of one word, the commonest of which
+        build() keeps) and [joined] (a joined spelling: its words).
+        """
+        self.links, self.joined, self.same = {}, {}, []
+        keys = {w: gloss_keys(g) for w, g in self.senses.items()}
+        by_key = defaultdict(set)
+        for word in self.kinds:
+            for key in keys.get(word, ()):
+                by_key[key].add(word)
+        for word, glosses in self.senses.items():
+            for text in [t for g in glosses for t in GLOSS_PARENS.findall(g) + GLOSS_OF.findall(g)]:
+                parts = [hausa_clean(p).lower() for p in text.split()]
+                if len(parts) > 1 and "".join(parts) == word and all(WORD.fullmatch(p) for p in parts):
+                    self.joined[word] = parts
+        for word in self.kinds:
+            if word in HAUSA_FORMS:
+                if HAUSA_FORMS[word] and "," not in HAUSA_FORMS[word] and HAUSA_FORMS[word] != word:
+                    self.links[word] = HAUSA_FORMS[word]
+                continue
+            if word in self.joined:
+                continue
+            target = self._form_of(word, keys, by_key)
+            if target and target != word:
+                self.links[word] = target
+        # Grades of a verb (gayyata, gayyace) and spellings of a word (bambanci, banbanci; hakki, haƙƙi) the pack glosses alike.
+        groups = defaultdict(set)
+        for word in self.kinds:
+            if len(word) >= 4 and word[-1] in "aeiou" and self._verb(word):
+                groups["grade", GRADE_STEM.sub(lambda m: PALATAL[m.group(0)], word[:-1])].add(word)
+            groups["spelling", skeleton(word)].add(word)
+            if keys.get(word):
+                groups["glosses", frozenset(keys[word])].add(word)
+        for (kind, _), words in groups.items():
+            if len(words) < 2 or len(words) > 12:
+                continue
+            words = sorted(words)
+            for i, a in enumerate(words):
+                for b in words[i + 1:]:
+                    # Glossed alike; two spelled apart by their hooks alone in at least half the senses of the one with fewer
+                    # (kafa "leg; to erect; to establish" is no spelling of ƙafa "foot, leg").
+                    alike = keys.get(a, set()) & keys.get(b, set())
+                    if not alike or a.translate(DEHOOK) == b.translate(DEHOOK) and 2 * len(alike) < min(len(keys[a]), len(keys[b])):
+                        continue
+                    if kind == "grade" and "verb" not in self.kinds[a] | self.kinds[b]:
+                        continue
+                    # Spellings apart by more than hooks and doubled letters are not across parts of speech (sumba "kiss" and
+                    # sumbace "to kiss"), nor person-aspect words, which the pack glosses alike (mun, muka, mukan "we").
+                    if kind == "glosses" and (not self.kinds[a] & self.kinds[b] or (self.kinds[a] | self.kinds[b]) & {"pron", "particle"}):
+                        continue
+                    if kind == "glosses" and (a[0] != b[0] or len(a) < 3 or len(b) < 3 or distance(skeleton(a), skeleton(b)) > 2):
+                        continue
+                    self.same.append({a, b})
+
+    def _form_of(self, word, keys, by_key):
+        """The word the pack's entry [word] is a form of (a plural, linked form, feminine or spelling), or None."""
+        glosses = self.senses.get(word, [])
+        named = [hausa_clean(t).lower() for g in glosses for t in GLOSS_OF.findall(g)]
+        named = [t for t in named if WORD.fullmatch(t) and t != word]
+        if named:
+            return named[0]
+        base = word
+        # A linked form the pack has as an entry (kiɗan "music (of)", ƙimar "value (of)", hayar beside haya "rent").
+        if word[-1] in "nr" and len(word) >= 4:
+            stems = [word[:-1]] + ([word[:-2] + "ai"] if word.endswith("an") else [])
+            known = [s for s in stems if s in self.kinds]
+            # Or a verb's verbal noun so linked (shafar "affecting": shafa "to affect").
+            if known and (any("(of)" in g for g in glosses)
+                          or not self.kinds[word] & {"verb", "pron", "particle"} and keys.get(word, set()) & keys.get(known[0], set())
+                          or self.kinds[word] <= NOMINAL and "verb" in self.kinds[known[0]]
+                          and verbal_heads(keys.get(word, set())) & verbal_heads(keys.get(known[0], set()))):
+                return known[0]
+            if any("(of)" in g for g in glosses):
+                base = word[:-1]
+        found = self._masculine(base) or self._singular(base, word, keys, by_key)
+        if found:
+            return found
+        return base if base != word else None
+
+    def _masculine(self, word, glosses=None):
+        """The masculine or singular adjective a feminine or plural one is of (cikakkiya, ingantattu: cikakke, ingantacce)."""
+        for ending, masculine in ADJECTIVE_ENDINGS:
+            if word.endswith(ending) and len(word) >= len(ending) + 3 and word[:-len(ending)] + masculine in self.kinds:
+                return word[:-len(ending)] + masculine
+        # A feminine noun in -iya the pack glosses so (abokiya, mataimakiya: aboki, mataimaki).
+        if word.endswith("iya") and word[:-2] in self.kinds and any(
+                "fem" in g or "female" in g for g in (glosses if glosses is not None else self.senses.get(word, []))):
+            return word[:-2]
+        return None
+
+    def _singular(self, word, entry, keys, by_key):
+        """The singular of a plural the pack has as an entry: a word beginning alike glossed as its gloss in the singular
+        (makonni "weeks": mako "week", ɗaruruwa "hundreds": ɗari "hundred")."""
+        if not self.kinds.get(entry, set()) & NOMINAL:
+            return None
+        # Its first gloss a plural (makwanci "sleeping place; cemeteries" is no plural).
+        first = gloss_keys(self.senses.get(entry, [])[:1])
+        if not first or not all(english_singular(k) for k in first):
+            return None
+        found = set()
+        for key in keys.get(entry, ()):
+            single = english_singular(key)
+            if not single:
+                continue
+            for s in by_key.get(single, ()):
+                alike = len(os.path.commonprefix([s.translate(DEHOOK), word.translate(DEHOOK)]))
+                # Two letters alike will do for the first gloss (kurakurai "mistakes": kuskure) but for the ma- of the doers
+                # and places (mahukunta "authorities" is no plural of malami "official").
+                if s != word and s != entry and self.kinds[s] & NOMINAL and len(s) <= len(word) + 1 \
+                        and (alike >= 3 and not (word.startswith("ma") and alike < 4)
+                             or alike == 2 and key in first and not word.startswith("ma")):
+                    found.add(s)
+        if not found:
+            return None
+        return max(found, key=lambda s: (len(os.path.commonprefix([s, word])), -len(s), s))
+
+    def link_bare(self, written):
+        """
+        Links the pack's linked forms whose word it lacks to that word when text writes it (kolin: koli, ƙirar: ƙira,
+        gurɓataccen: gurɓatacce; mataimakiyar: mataimakiya, so mataimaki), and the verbal nouns in -wa the pack has to their
+        verbs when it glosses them alike (dubawa "looking": duba "to look", shiryawa: shirya; not kokawa "wrestling" of koka
+        "complain").
+        """
+        for word, kinds in self.kinds.items():
+            if word in self.links or word in HAUSA_FORMS or word in self.joined:
+                continue
+            base = word[:-1]
+            # The word written a twentieth as often as its linked form, or at all for an adjective (gagarumi beside gagarumin);
+            # no form of another word (kansar "cancer" is no kansa "himself"), nor a loanword in -n or -r (kicin, radar).
+            if kinds <= NOMINAL and len(word) >= 5 and base not in self.kinds and base not in self.forms and base not in self.generated \
+                    and (word[-1] == "n" and base[-1] in "aeiou" or word[-1] == "r" and base[-1] == "a") \
+                    and written.get(base, 0) >= (1 if kinds == {"adj"} else max(1, 0.05 * written.get(word, 0))):
+                self.links[word] = self._masculine(base, self.senses.get(word, [])) or base
+                continue
+            # A verbal noun glossed as one (buɗewa "opening", dubawa "looking"), or glossed as its verb is (wanzuwa "existence":
+            # wanzu "to exist").
+            verb = word[:-2]
+            if not word.endswith("wa") or len(verb) < 3 or not kinds <= {"noun", "verb"}:
+                continue
+            verbs = [verb] if "verb" in self.kinds.get(verb, ()) else sorted(v for v in self.forms.get(verb, ()) if "verb" in self.kinds[v])
+            first = gloss_keys(self.senses.get(word, [])[:1])
+            if verbs and (any(k.split()[0].endswith("ing") for k in first)
+                          or heads_alike(verbal_heads(gloss_keys(self.senses.get(word, []))),
+                                         verbal_heads(gloss_keys(self.senses.get(verbs[0], []))))):
+                self.links[word] = verbs[0]
+
+    def _verb(self, word):
+        """Whether an entry is a verb: the pack's, or a noun it glosses as one too (gayyata "invitation; (verb) to invite")."""
+        kinds = self.kinds[word]
+        return "verb" in kinds or kinds <= {"noun"} and any(g.startswith("(verb)") for g in self.senses.get(word, []))
+
+    def split(self, word):
+        """The words a joined spelling stands for (nasan: na san, muyi: mu yi), or None: the pack's, and a person-aspect word
+        joined to one of the commonest verbs when the pack has no word so spelled."""
+        if word in self.joined:
+            return self.joined[word]
+        if word in self.kinds or word in self.forms or word in self.generated or word in HAUSA_FORMS or word in self.wiktionary:
+            return None
+        for person in JOINED_PERSONS:
+            rest = word[len(person):]
+            if word.startswith(person) and rest in JOINED_VERBS:
+                return [person, rest]
+        return None
 
     @staticmethod
     def _rule_forms(word, kinds, pack_forms):
@@ -258,19 +554,33 @@ class Lexicon:
             out |= {(x + p, x) for x in linked for p in POSSESSIVES}
         if word and "verb" in kinds and word[-1] in "aeiou":
             out.add((word + "n", None))
+        # A verb's verbal noun in -wa and its linked form (duba: dubawa, dubawar; aiwatar: aiwatarwa).
+        if word and "verb" in kinds and (word[-1] in "aeiou" or word.endswith("ar")):
+            out |= {(word + "wa", None), (word + "war", None)}
         return out
 
     def lemmas(self, token):
-        """The words [token] is a form of: itself when it is a word, else the pack's words, else those of the rules."""
+        """The words [token] is a form of: itself when it is a word, else the pack's words, else those of the rules; each an
+        entry of the pack that is another's form (links) counted as that one."""
         if token in HAUSA_FORMS:
             return frozenset(w for w in HAUSA_FORMS[token].split(",") if w)
         if token in self.kinds:
-            return frozenset({token})
-        if token in self.forms:
-            return frozenset(self.forms[token])
-        if token in self.generated:
-            return frozenset(self.generated[token])
-        return frozenset()
+            found = {token}
+        elif token in self.forms:
+            found = self.forms[token]
+        elif token in self.generated:
+            found = self.generated[token]
+        else:
+            return frozenset()
+        return frozenset(self.word(w) for w in found)
+
+    def word(self, entry):
+        """The word an entry is counted as, following its links."""
+        seen = {entry}
+        while entry in self.links and self.links[entry] not in seen:
+            entry = self.links[entry]
+            seen.add(entry)
+        return entry
 
 
 def _leipzig_sentences(path):
@@ -325,19 +635,57 @@ def _sentences(download):
                     yield kind, text
 
 
-def _counts(download):
-    """Each kind's word counts, by the plain letters whose hooked letter the sentence writes (hooks_written)."""
+def _counts(download, lexicon):
+    """Each kind's word counts, by the plain letters whose hooked letter the sentence writes (hooks_written); the names, and
+    how often each word is half of a hyphenated one."""
     counts = {kind: defaultdict(lambda: defaultdict(int)) for kind in WEIGHTS}
     names = defaultdict(int)
+    hyphened = defaultdict(int)
     for kind, text in _sentences(download):
         text = text.translate(APOSTROPHES)
-        words = list(tokens(text, names))
+        halves = defaultdict(int)
+        words = list(tokens(text, names, lexicon.split, halves))
         if not words or english(words) or AJAMI.search(text):
             continue
         written = hooks_written(text, words)
         for word in words:
             counts[kind][word][written & set(word.translate(DEHOOK))] += 1
-    return counts, names
+        for word, n in halves.items():
+            hyphened[word] += n
+    return counts, names, hyphened
+
+
+def _join_same(lexicon, share):
+    """Links each group of spellings or grades of one word (Lexicon.same) to its commonest member, by its forms' counts."""
+    counted = defaultdict(float)
+    for form, value in share.items():
+        found = lexicon.lemmas(form)
+        if len(found) == 1:
+            counted[next(iter(found))] += value
+    parent = {}
+
+    def root(w):
+        while parent.get(w, w) != w:
+            w = parent[w]
+        return w
+
+    for group in lexicon.same:
+        a, b = (root(lexicon.word(w)) for w in group)
+        if a != b:
+            parent[max(a, b)] = min(a, b)
+    members = defaultdict(set)
+    for w in parent:
+        members[root(w)].add(w)
+    for top, group in members.items():
+        group = {lexicon.word(w) for w in group | {top}}
+        keep = max(group, key=lambda w: (counted.get(w, 0.0), w))
+        # The list writes the hooks: a commoner spelling without them is the hooked one's (roka, roƙa "beg"), but for the
+        # words of their own so spelled (kadara "property").
+        if keep not in HAUSA_PLAIN_WORDS:
+            keep = next((w for w in sorted(group) if w != keep and w.translate(DEHOOK) == keep), keep)
+        for w in group:
+            if w != keep:
+                lexicon.links[w] = keep
 
 
 def resolve_hooks(counts, lexicon):
@@ -444,7 +792,18 @@ def build(size, download, dictionaries=DICTIONARIES):
     """The list: the pack's words and the everyday words it lacks, by their forms' counts, each kind weighted by WEIGHTS. A
     word the pack lacks is no name (written capitalised more often than not) and no word of one letter."""
     lexicon = Lexicon(dictionaries)
-    counts, names = _counts(download)
+    counts, names, hyphened = _counts(download, lexicon)
+    written = defaultdict(int)
+    for kind_counts in counts.values():
+        for word, by_hooks in kind_counts.items():
+            written[word] += sum(by_hooks.values())
+
+    def halved(form):
+        """Whether a spelling is mostly written as half of a hyphenated word (canje, ire, fina), with or without its hooks."""
+        spellings = {form, form.translate(DEHOOK)}
+        total = sum(written.get(f, 0) for f in spellings)
+        return total > 0 and sum(hyphened.get(f, 0) for f in spellings) >= HYPHEN_SHARE * total
+
     counts = resolve_hooks(counts, lexicon)
     english_words = _english_words()
     label = (f"Tatoeba hau ({LICENCES['tatoeba']}) + Common Voice ha sentences ({LICENCES['commonvoice']}) + Leipzig Corpora "
@@ -474,6 +833,8 @@ def build(size, download, dictionaries=DICTIONARIES):
             return False
         return everyday >= 2 or (news >= 3 and wiki >= 3)
 
+    lexicon.link_bare(written)
+    _join_same(lexicon, share)
     heads = {}
     for form in share:
         found = lexicon.lemmas(form)
@@ -502,6 +863,9 @@ def build(size, download, dictionaries=DICTIONARIES):
                 and form not in lexicon.forms and form not in lexicon.generated and form not in HAUSA_FORMS \
                 and heads.get(stem) and heads.get(form) in (frozenset(), frozenset({form})):
             heads[form] = heads[stem]
+    for form in heads:
+        if halved(form):
+            heads[form] = frozenset()
     own = defaultdict(float)
     for form, value in share.items():
         if len(heads[form]) == 1:
