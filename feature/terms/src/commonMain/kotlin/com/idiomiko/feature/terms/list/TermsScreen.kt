@@ -78,7 +78,6 @@ import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.RemovableChip
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollList
@@ -386,10 +385,7 @@ private fun FilterPanel(state: TermsListUiState, viewModel: TermsListViewModel, 
     Column(
         Modifier.fillMaxWidth().padding(bottom = AppSpacing.l).cardSurface(AppShapes.card).padding(horizontal = AppSpacing.xl, vertical = AppSpacing.l),
     ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Text(tr("Filter vocabulary"), Modifier.weight(1f), style = AppText.itemTitle)
-            QuietButton(tr("Show learning words"), onClick = viewModel::resetFilters)
-        }
+        Text(tr("Filter vocabulary"), style = AppText.itemTitle)
         Text(tr("Learning status"), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m))
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             // Without the levels, Learning is one chip for all four.

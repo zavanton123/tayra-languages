@@ -172,9 +172,6 @@ class TermsListViewModel(
     /** Takes every filter off: the list shows the words being learned and the known ones. */
     fun clearFilters() = updateFilter { TermListFilter(languageId = it.languageId, minStatus = TermStatus.NEW_1, termIds = it.termIds) }
 
-    /** Puts the filters back as the screen opens: the words being learned (statuses 1 to 4). */
-    fun resetFilters() = updateFilter { TermListFilter(languageId = it.languageId, minStatus = TermStatus.NEW_1, statuses = LEARNING_STATUSES, termIds = it.termIds) }
-
     fun toggleFilters() { filtersVisible.value = !filtersVisible.value }
 
     /** Ticks or unticks a status; with none ticked the list shows every status but ignored. */

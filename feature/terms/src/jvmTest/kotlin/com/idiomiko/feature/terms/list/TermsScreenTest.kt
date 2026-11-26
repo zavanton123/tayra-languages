@@ -238,11 +238,8 @@ class TermsScreenTest {
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
         assertEquals(0, onAllNodesWithText("Added: up to 30 days ago").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("filters on", substring = true).fetchSemanticsNodes().size)
-
-        // The panel's reset goes back to how the screen opened.
-        onNodeWithText("Show learning words").performClick()
-        waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
-        onNodeWithContentDescription("1 filter on").assertExists()
+        // The chips themselves bring the learning words back; the panel has no reset of its own.
+        onNodeWithText("Show learning words").assertDoesNotExist()
     }
 
     /** Over a lesson the list keeps its toolbar on one line, and each row labels its translation and example. */
@@ -270,9 +267,6 @@ class TermsScreenTest {
         waitForList("comprar", "pensar", hidden = listOf("gostar", "produtos"))
         onAllNodesWithText("Show all words")[0].performClick()
         waitForList("gostar", "comprar", "pensar", hidden = listOf("produtos"))
-        onNodeWithText("Filters").performClick()
-        onNodeWithText("Show learning words").performClick()
-        waitForList("comprar", "pensar", hidden = listOf("gostar", "produtos"))
     }
 
     /** A reader's page whose words are none of them saved yet lists nothing, not the whole vocabulary. */
@@ -356,15 +350,7 @@ class TermsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithContentDescription("Close").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
-
-        // The sheet's Show learning words goes back to how the screen opened.
-        onNodeWithText("Filters").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Show learning words").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Show learning words").performClick()
-        waitForList("comprar", "pensar", hidden = listOf("gostar", "lá"))
-        onNodeWithContentDescription("Close").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning status").fetchSemanticsNodes().isEmpty() }
-        onNodeWithContentDescription("1 filter on").assertExists()
+        onNodeWithText("Show learning words").assertDoesNotExist()
     }
 
     /** A phone has no pages: the list grows by the next terms as its end comes into view. */

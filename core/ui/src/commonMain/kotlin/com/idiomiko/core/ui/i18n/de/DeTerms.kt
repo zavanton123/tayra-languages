@@ -81,7 +81,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "{1} terms" to "{1} Begriff|{1} Begriffe",
     "{0} of {1} selected" to "{0} von {1} ausgewählt",
     "Filters" to "Filter",
-    "Show learning words" to "Lernwörter zeigen",
     "Show all words" to "Alle Wörter zeigen",
     "Learning 1–4" to "Lernend 1–4",
     "{0} filters on" to "{0} Filter aktiv|{0} Filter aktiv",

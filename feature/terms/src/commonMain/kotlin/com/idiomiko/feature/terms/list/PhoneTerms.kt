@@ -73,7 +73,6 @@ import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PickerSheet
 import com.idiomiko.core.ui.components.PrimaryButton
-import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScrollList
 import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SelectButton
@@ -293,7 +292,6 @@ private fun PhoneFiltersSheet(state: TermsListUiState, viewModel: TermsListViewM
         ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(horizontal = AppSpacing.xl).padding(bottom = AppSpacing.xl)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(tr("Filters"), Modifier.weight(1f), style = AppText.headline)
-                QuietButton(tr("Show learning words"), onClick = viewModel::resetFilters)
                 AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }
             Text(tr("Learning status"), Modifier.padding(top = AppSpacing.xs, bottom = AppSpacing.m), style = AppText.itemTitle)

@@ -81,7 +81,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "{1} terms" to "{1} 个词条",
     "{0} of {1} selected" to "已选择 {0}/{1}",
     "Filters" to "筛选",
-    "Show learning words" to "显示正在学习的单词",
     "Show all words" to "显示所有单词",
     "Learning 1–4" to "学习中 1–4",
     "{0} filters on" to "已启用 {0} 个筛选条件",

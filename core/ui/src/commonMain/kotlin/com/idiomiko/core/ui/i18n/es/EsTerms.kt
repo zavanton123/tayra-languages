@@ -81,7 +81,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "{1} terms" to "{1} palabra|{1} palabras",
     "{0} of {1} selected" to "Selección: {0} de {1}",
     "Filters" to "Filtros",
-    "Show learning words" to "Mostrar palabras en estudio",
     "Show all words" to "Mostrar todas las palabras",
     "Learning 1–4" to "Aprendiendo 1–4",
     "{0} filters on" to "{0} filtro activo|{0} filtros activos",
