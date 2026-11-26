@@ -77,6 +77,7 @@ class LanguageDialogTest {
         assertEquals(0, onAllNodesWithTag("current-language").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("Close").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("Back").fetchSemanticsNodes().size, "no way out but choosing")
+        assertEquals(0, onAllNodesWithTag("index-A").fetchSemanticsNodes().size, "a plain list, without the letters to jump by")
         // A phone gives the choice the whole screen rather than a dialog over the page.
         val list = onNodeWithTag("target-language-dialog").fetchSemanticsNode().boundsInRoot
         assertEquals(0f, list.left)

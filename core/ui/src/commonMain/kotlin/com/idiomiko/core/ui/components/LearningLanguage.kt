@@ -287,6 +287,8 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
     // The rows before the languages: search and the heading.
     val rowsBefore = 2
     val letters = others.map { tr(it.label).first().uppercaseChar() }.distinct()
+    // The first choice, made once, is a plain list; adding a language from the settings has the letters to jump by.
+    val indexed = onBack != null && letters.size > 1
     var indexWidth by remember { mutableIntStateOf(0) }
     Scaffold(
         topBar = {
@@ -319,7 +321,7 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
                     val native = choice.id in state.nativeIds
                     Row(
                         Modifier.fillMaxWidth().clickable(enabled = !native) { onChosen(); state.select(choice) }.alpha(if (native) AppAlpha.disabled else 1f)
-                            .padding(start = AppSpacing.xxl, end = AppSpacing.huge, top = AppSpacing.m, bottom = AppSpacing.m).testTag(choice.tag),
+                            .padding(start = AppSpacing.xxl, end = if (indexed) AppSpacing.huge else AppSpacing.xxl, top = AppSpacing.m, bottom = AppSpacing.m).testTag(choice.tag),
                         verticalAlignment = Alignment.CenterVertically,
                         horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl),
                     ) {
@@ -327,10 +329,10 @@ private fun PhoneLanguageList(state: LearningLanguageState?, title: String, onBa
                         Text(tr(choice.label), Modifier.weight(1f), style = MaterialTheme.typography.bodyLarge, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         if (native) Text(tr("Your native language"), style = MaterialTheme.typography.labelSmall, color = colors.onSurfaceVariant, maxLines = 1)
                     }
-                    if (index < others.lastIndex) AppDivider(Modifier.padding(start = AppSpacing.l, end = AppSpacing.xxxl), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
+                    if (index < others.lastIndex) AppDivider(Modifier.padding(start = AppSpacing.l, end = if (indexed) AppSpacing.xxxl else AppSpacing.l), color = colors.outlineVariant.copy(alpha = AppAlpha.muted))
                 }}
             }
-            if (letters.size > 1) {
+            if (indexed) {
                 Column(Modifier.align(Alignment.CenterEnd).onSizeChanged { indexWidth = it.width }.padding(end = AppSpacing.xs), horizontalAlignment = Alignment.CenterHorizontally) {
                     letters.forEach { letter ->
                         Text(
