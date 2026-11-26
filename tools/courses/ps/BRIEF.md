@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Pashto word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its forms). Course `ps-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 3,584 words: `ps-mini-0100` to `ps-mini-3600`
-(the last band has 84 words).
+`themes.tsv` gives each course its theme. The list has 3,608 words: `ps-mini-0100` to `ps-mini-3700`
+(the last band has 8 words).
 
 ## The register
 
@@ -76,7 +76,7 @@ story; a lesson never needs another lesson to make sense.
   - ranks 1301–2000 (B1): reported speech (*هغه وویل چې ستړی دی*), the past conditional (*که پوهېدلی وای،
     راتلی وای*), longer sentences with *خو, بلکې, که څه هم, په داسې حال کې چې*; a story may be told by a
     first-person narrator or as a letter, a message or a diary entry;
-  - ranks 2001–3600 (B2): the Arabic plurals of everyday words (*معلومات, اقدامات, حالات*), participles as
+  - ranks 2001–3608 (B2): the Arabic plurals of everyday words (*معلومات, اقدامات, حالات*), participles as
     adjectives (*لیکل شوی, ماته شوې*), connectors such as *له دې سره سره, له بلې خوا, نو ځکه*; a lesson may
     also be a short informative or opinion text, or a light column on everyday life with a proverb (*متل*)
     explained by its context, as long as it is calm and easy to follow.
@@ -151,8 +151,13 @@ Things to know about the Pashto list and the checker:
   *نجلۍ* 886, *چای* 1201. Teach the news words in their plain senses in everyday stories (a governor
   visits an office, people put out a fire: *اور وژل*); check a word's rank (`rank.py`) rather than guess.
 - **Verbs are listed by the infinitive** with their forms under it (*کول*: *کوي, کړي, وکړ, کړه*); the
-  copula is three words of the list: *دی* (with *دې, دي*), *ده* and *یم* (with *وي, وو, وه, وم*; and *و*,
-  *یاست* from `extra_forms.tsv`).
+  copula is three words of the list: *دی* (with *دې, دي*), *ده* and *یم* (with *وي, وو, وه, وم, یاست*;
+  and *و* from `extra_forms.tsv`).
+- **A verb's forms come from its infinitive by the rules**: the present (*رسېږي, تېرېږي, پېژني*), the past
+  on both stems, with and without *و* (*رسېد, ورسېد, ولوست, وغوښت, واورېد, زیاتېدو*), a prefixed verb's
+  past (*کېناست*), the *-ول* past (*واستاوه*), the potential (*اخیستلای*), and the irregular pasts by hand
+  (*وکوت, ونیو, وښووله, راووست, بوت, وپېژاند*). A form the corpus never has stays unread; report it.
+  *مه* (don't) is a list word, and so are *پای*, *بجه* and *وزګار*.
 - **One letter for the yes makes homographs**: *لرې* "far" reads as *لري* "has" (*لرل*), *کړۍ* "ring" as
   *کړي* (*کول*), *شی* "thing" as *شي* (*کېدل*), *ورځي* "goes there" as *ورځ*'s form. The list files such a
   form under the common word; never teach the rare one, and don't count on the other sense.
