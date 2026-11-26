@@ -9,6 +9,9 @@ verbs whose stem changes its vowel: kregiñ, krog-), each noun its plurals in -o
 The list builder files such a form under its word only when the corpus has it, mostly in lower case, the pack has it as no
 word and no word's form, and the pack's links and mutations give it no other word (build_list, breton_paradigms); and
 tools/courses/br/extra_forms.tsv is made from the same forms.
+
+The pack files forms of bezañ under its French gloss (vije under "être"): they go to bezañ (french_lemmas). WORDS gives the
+forms and spellings no pack files under their word (ennañ, hiriv, laret).
 """
 
 # A verb with this many forms in the pack has its table; the forms it lacks are irregular ones the rules would get wrong.
@@ -22,7 +25,7 @@ BRETON_STEMS = {
     "kregiñ": "krog", "stekiñ": "stok", "leskiñ": "losk", "lemel": "lam", "dilemel": "dilam", "desevel": "desav",
     "adsevel": "adsav", "envel": "anv", "adenvel": "adanv", "lesenvel": "lesanv", "herzel": "harz", "tevel": "tav",
     "genel": "gan", "gervel": "galv", "derc'hel": "dalc'h", "kendelc'her": "kendalc'h", "kleñvel": "klañv", "skeiñ": "sko",
-    "teiñ": "to", "goleiñ": "golo", "dizoleiñ": "dizolo", "distreiñ": "distro", "emdreiñ": "emdro",
+    "teiñ": "to", "goleiñ": "golo", "gounit": "gounez", "dizoleiñ": "dizolo", "distreiñ": "distro", "emdreiñ": "emdro",
 }
 # Verbs on ober's irregular stems (adober: adgraet, adreas), whose forms the rules would get wrong.
 IRREGULAR = {"adober", "dizober"}
@@ -51,6 +54,16 @@ BARE_SHARE = 0.5
 SPELLING_SHARE = 3
 # Spellings the rules make that are other words: English (trees of treañ) and Latin ones.
 NOT_FORMS = {"trees", "treis", "manifesto", "regis", "reges"}
+
+# The pack's forms filed under a French gloss instead of the Breton verb.
+FRENCH_LEMMAS = {"être": "bezañ"}
+# Hand words and spellings no pack has: a form -> its word, a word of its own listed as itself. The personal forms of e
+# "in" (ennañ, enni), the dialect spellings hiriv (hiziv), laret (lavaret), lakat (lakaat), braz (bras), araok (a-raok),
+# delc'her (derc'hel) and deut (dont), kaout's ac'h, dalv, talvezout's "is worth", and brevet "broken", breviñ's
+# participle, which the pack has as an adjective.
+WORDS = {"ennon": "e", "ennout": "e", "ennañ": "e", "enni": "e", "ennomp": "e", "ennoc'h": "e", "enno": "e", "ennoñ": "e",
+         "hiriv": "hiziv", "laret": "lavaret", "lakat": "lakaat", "braz": "bras", "araok": "a-raok", "delc'her": "derc'hel",
+         "deut": "dont", "ac'h": "kaout", "dalv": "talvezout", "brevet": "breviñ"}
 
 # A made form counts only if the corpus writes it in lower case at least this share of the time (not Jezuz, Sened).
 LOWER_SHARE = 0.5
@@ -115,3 +128,10 @@ def lower_shares(path):
                 if word == key:
                     lower[key] = lower.get(key, 0) + int(parts[2])
     return {w: lower.get(w, 0) / n for w, n in every.items() if n}
+
+
+def french_lemmas(pos, lemmas):
+    """Gives the forms the pack files under a French gloss (vije of "être") the Breton verb, unless they are words."""
+    for form, of in lemmas.items():
+        if form not in pos and any(l in FRENCH_LEMMAS for l in of):
+            lemmas[form] = [FRENCH_LEMMAS.get(l, l) for l in of]

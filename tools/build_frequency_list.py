@@ -363,6 +363,7 @@ EXCLUDE["fa"] = frequency_persian.PERSIAN_EXCLUDE
 import frequency_cornish  # noqa: E402
 import frequency_breton  # noqa: E402
 
+OVERRIDES["br"].update({form: [word] for form, word in frequency_breton.WORDS.items()})
 OVERRIDES["kw"] = frequency_cornish.CORNISH_OVERRIDES
 EXCLUDE["kw"] = frequency_cornish.CORNISH_EXCLUDE
 OVERRIDES["mn"] = frequency_mongolian.MONGOLIAN_OVERRIDES
@@ -5084,6 +5085,8 @@ def load_dictionary(language):
         frequency_uzbek.load(db, pos, lemmas, common, download(frequency_uzbek.APERTIUM, "apertium-uzb.uzb.lexc"))
     if language == "af":
         frequency_afrikaans.load(pos, lemmas, common, DICTIONARIES)
+    if language == "br":
+        frequency_breton.french_lemmas(pos, lemmas)
     if language in FINNIC_OWN_SENSES:
         own, plain = finnish_kinds(db, lemmas, language)
         for word, kinds in unlisted.items():
