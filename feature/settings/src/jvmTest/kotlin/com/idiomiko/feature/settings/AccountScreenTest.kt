@@ -613,6 +613,7 @@ class AccountScreenTest {
         show(accounts)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("account-card").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("This action cannot be undone.").assertExists()
+        onNodeWithTag("account-delete").assertTextEquals("Delete")
         onNodeWithTag("account-delete").performClick()
         onNodeWithText("Delete your account?").assertExists()
         onNode(hasText("Cancel") and hasAnyAncestor(isDialog())).performClick()

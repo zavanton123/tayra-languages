@@ -272,7 +272,7 @@ private fun DeleteAccountCard(state: AccountUiState, actions: AccountViewModel?)
     val compact = LocalWindowWidth.current.isCompact
     val red = MaterialTheme.colorScheme.error
     val button: @Composable (Modifier) -> Unit = { modifier ->
-        SecondaryButton(tr("Delete account"), onClick = { confirming = true }, enabled = state.busy == null, tone = ButtonTone.Danger, modifier = modifier.testTag("account-delete"))
+        SecondaryButton(tr("Delete"), onClick = { confirming = true }, enabled = state.busy == null, tone = ButtonTone.Danger, modifier = modifier.testTag("account-delete"))
     }
     TintedSurface(red, Modifier.testTag("account-delete-card"), shape = AppShapes.card, padding = PaddingValues(if (compact) AppSpacing.l else AppSpacing.xl)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
