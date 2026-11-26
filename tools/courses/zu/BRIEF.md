@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Zulu word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `zu-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 2,248 words (every word has an entry in the
-zu-en dictionary pack, which is small), so the last course is `zu-mini-2300` (48 words).
+`themes.tsv` gives each course its theme. The list has 2,246 words (every word has an entry in the
+zu-en dictionary pack, which is small), so the last course is `zu-mini-2300` (46 words).
 
 ## What the lessons are: mini stories
 
@@ -70,7 +70,7 @@ story; a lesson never needs another lesson to make sense.
     *bekukhona*, *uzobe esebenza*), reported speech with *ukuthi*, longer joined sentences (*noma*,
     *kanti*, *kepha*, *nokho*, *ngakho*, *ngoba*, *ukuze* with the subjunctive, *ngaphambi kokuthi*,
     *ngemuva kokuthi*);
-  - ranks 2001–2248 (B2): a richer register: connectors, the newspaper report, dialogue, common
+  - ranks 2001–2246 (B2): a richer register: connectors, the newspaper report, dialogue, common
     proverbs (*izaga*) explained by their context.
   After rank 1000 sentences get longer and joined, dialogue can carry more of the story, and a story
   may be told by a first-person narrator or as a letter or a diary entry. From rank 2000 a lesson may
@@ -136,8 +136,10 @@ story; a lesson never needs another lesson to make sense.
   *kuphela*, *ngabe*, *bese*, *yize*, *zange*, *ngapha*): teach them as any word.
 - The checker reads a verb, noun or pronoun form the list lacks by the rules the list was built
   with: *ngiyambona* counts as *bona*, *nomngane* as *umngane*, *unemali* as *imali*, *nginayo* as
-  *yona*, the compound past (*wayehlala*, *babehamba*), *-sa-* "still" (*akasafiki*, *sisakhumbula*).
-  Only words with no such reading are outside words.
+  *yona*, the compound past (*wayehlala*, *babehamba*, *wayethini*), *-sa-* "still" (*akasafiki*,
+  *sisakhumbula*), *se-* "now, already" (*usehambile*, *sengihambile*, *seyidakiwe*, *usufudumele*),
+  the passive with *-ny-*, *-nj-* (*silinyiwe*, *kukhulunywa*, *ibanjwe*). Only words with no such
+  reading are outside words.
 - A noun's form that a verb's form is written alike goes to the commoner of the two: *ekhala*,
   *ehlezi*, *ebhala*, *ngibhala*, *akakhali* are *khala*, *hlala*, *bhala* (not *ikhala* "nose",
   *ihlezi* "cane rat", *ibhala* "wheelbarrow", *ukhali* "curry"), while *esizwe*, *elanga*,
