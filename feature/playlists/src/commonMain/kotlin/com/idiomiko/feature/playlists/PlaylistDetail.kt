@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -40,6 +41,8 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
@@ -47,6 +50,7 @@ import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.playlists.PlayerStatus
@@ -216,17 +220,23 @@ private fun PageTextRow(state: PlaylistDetailUiState, item: PlaylistItem, index:
 
 /**
  * The playlist chosen on a wide window's Playlists page, beside the list: a header card with the covers, the facts,
- * the buttons and what is playing, then the texts to reorder and play from.
+ * the buttons and what is playing, then the texts to reorder and play from. An empty playlist's card reaches down to
+ * fill [height], the room the pane has.
  */
 @Composable
-internal fun PlaylistPane(viewModel: PlaylistDetailViewModel, onNavigate: (Route) -> Unit) {
+internal fun PlaylistPane(viewModel: PlaylistDetailViewModel, onNavigate: (Route) -> Unit, height: Dp = 0.dp) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val playlist = state.playlist ?: return
     var deleting by remember(playlist.id) { mutableStateOf(false) }
-    state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
-    HeaderCard(state, playlist, viewModel, onNavigate, onDelete = { deleting = true })
-    if (playlist.items.isEmpty()) EmptyPlaylist(onAdd = { onNavigate(Route.AddToPlaylist(playlist.id)) }, onBack = null)
-    else TextsCard(state, playlist, viewModel, onNavigate)
+    val density = LocalDensity.current
+    var above by remember { mutableStateOf(0.dp) }
+    Column(Modifier.fillMaxWidth().onSizeChanged { above = with(density) { it.height.toDp() } }, verticalArrangement = Arrangement.spacedBy(AppSpacing.pane)) {
+        state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
+        HeaderCard(state, playlist, viewModel, onNavigate, onDelete = { deleting = true })
+    }
+    if (playlist.items.isEmpty()) {
+        EmptyPlaylist(onAdd = { onNavigate(Route.AddToPlaylist(playlist.id)) }, onBack = null, Modifier.heightIn(min = (height - above - AppSpacing.pane).coerceAtLeast(0.dp)))
+    } else TextsCard(state, playlist, viewModel, onNavigate)
     if (deleting) DeletePlaylistDialog(playlist, state.duration, onConfirm = { deleting = false; viewModel.delete() }, onDismiss = { deleting = false })
 }
 
@@ -478,10 +488,10 @@ private fun ItemMenu(item: PlaylistItem, index: Int, count: Int, viewModel: Play
 
 /** A playlist with no texts: what to do about it. */
 @Composable
-private fun EmptyPlaylist(onAdd: () -> Unit, onBack: (() -> Unit)?) {
+private fun EmptyPlaylist(onAdd: () -> Unit, onBack: (() -> Unit)?, modifier: Modifier = Modifier) {
     EmptyState(
         tr("This playlist is empty"),
-        Modifier.testTag("empty-playlist"),
+        modifier.testTag("empty-playlist"),
         message = tr("Add books, course lessons or individual texts to start listening."),
         action = {
             Spacer(Modifier.height(AppSpacing.s))

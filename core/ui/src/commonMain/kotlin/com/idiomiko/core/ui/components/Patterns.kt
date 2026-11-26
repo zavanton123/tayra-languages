@@ -115,7 +115,7 @@ fun AppCard(
 
 /**
  * What a list shows when it has nothing to show, or a notice in place of content: the mascot, a
- * title, an optional [message] and an optional [action], centred on a card.
+ * title, an optional [message] and an optional [action], centred on a card, also down a card made taller.
  */
 @Composable
 fun EmptyState(
@@ -129,7 +129,7 @@ fun EmptyState(
     Column(
         modifier.fillMaxWidth().cardSurface(AppShapes.large).padding(AppSpacing.xxxl),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(AppSpacing.s),
+        verticalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.CenterVertically),
     ) {
         EmptyStateIllustration(Modifier.width(if (compact) AppSizes.emptyArtCompact else AppSizes.emptyArt))
         Text(title, style = AppText.sectionTitle, textAlign = TextAlign.Center)

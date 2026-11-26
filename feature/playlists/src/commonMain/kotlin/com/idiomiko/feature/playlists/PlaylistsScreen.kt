@@ -6,6 +6,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -149,12 +150,16 @@ internal fun PlaylistsContent(
         width.isExpanded -> Row(modifier.fillMaxSize()) {
             Sidebar(state, viewModel, onCreate)
             val selected = state.selected
-            ScrollColumn(
-                Modifier.weight(1f).fillMaxHeight(),
-                contentModifier = Modifier.padding(start = AppSpacing.pane, end = AppSpacing.pane, top = AppSpacing.pane, bottom = AppSpacing.pane),
-                verticalArrangement = Arrangement.spacedBy(AppSpacing.pane),
-            ) {
-                if (selected != null) PlaylistPane(detail(selected.playlist.id), onNavigate)
+            BoxWithConstraints(Modifier.weight(1f).fillMaxHeight()) {
+                // The height the pane's cards have to fill, inside its margins.
+                val room = maxHeight - AppSpacing.pane * 2
+                ScrollColumn(
+                    Modifier.fillMaxSize(),
+                    contentModifier = Modifier.padding(start = AppSpacing.pane, end = AppSpacing.pane, top = AppSpacing.pane, bottom = AppSpacing.pane),
+                    verticalArrangement = Arrangement.spacedBy(AppSpacing.pane),
+                ) {
+                    if (selected != null) PlaylistPane(detail(selected.playlist.id), onNavigate, room)
+                }
             }
         }
         else -> PlaylistList(state, viewModel, onNavigate, onCreate, modifier)

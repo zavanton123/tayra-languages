@@ -20,6 +20,7 @@ import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.getBoundsInRoot
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
@@ -268,6 +269,10 @@ class PlaylistScreensTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("This playlist is empty")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("playlist-$id").assertIsSelected()
         onNodeWithText("You can also add the current text from the reader.").assertDoesNotExist()
+        // The empty card reaches down the pane, not stopping under its button.
+        val card = onNodeWithTag("empty-playlist").fetchSemanticsNode().boundsInRoot
+        val root = onAllNodes(isRoot())[0].fetchSemanticsNode().boundsInRoot
+        assertTrue(root.bottom - card.bottom < 60f, "the card fills the pane's height: ${card.bottom} of ${root.bottom}")
         onNodeWithTag("play-all").assertIsNotEnabled()
         screenshot("playlist-empty")
     }
