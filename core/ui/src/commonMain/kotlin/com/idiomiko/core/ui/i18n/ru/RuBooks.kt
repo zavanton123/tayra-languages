@@ -50,8 +50,6 @@ internal val ruBooks: Map<String, String> = mapOf(
     "In progress" to "В процессе",
     "Finished" to "Прочитано",
     "Select {0}" to "Выбрать «{0}»",
-    "Delete {0} selected" to "Удалить выбранные ({0})",
-    "Delete selected" to "Удалить выбранные",
     "Unarchive" to "Вернуть из архива",
     "Archive" to "Архивировать",
     "Actions" to "Действия",

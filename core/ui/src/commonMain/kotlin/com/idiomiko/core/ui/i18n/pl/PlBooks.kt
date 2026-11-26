@@ -50,8 +50,6 @@ internal val plBooks: Map<String, String> = mapOf(
     "In progress" to "W trakcie",
     "Finished" to "Przeczytane",
     "Select {0}" to "Zaznacz „{0}”",
-    "Delete {0} selected" to "Usuń zaznaczone ({0})",
-    "Delete selected" to "Usuń zaznaczone",
     "Unarchive" to "Przywróć z archiwum",
     "Archive" to "Archiwizuj",
     "Actions" to "Działania",

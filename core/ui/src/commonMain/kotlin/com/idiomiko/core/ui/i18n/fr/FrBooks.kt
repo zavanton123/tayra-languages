@@ -50,8 +50,6 @@ internal val frBooks: Map<String, String> = mapOf(
     "In progress" to "En cours",
     "Finished" to "Terminé",
     "Select {0}" to "Sélectionner « {0} »",
-    "Delete {0} selected" to "Supprimer la sélection ({0})",
-    "Delete selected" to "Supprimer la sélection",
     "Unarchive" to "Désarchiver",
     "Archive" to "Archiver",
     "Actions" to "Actions",

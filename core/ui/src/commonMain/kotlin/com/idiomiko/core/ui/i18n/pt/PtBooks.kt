@@ -50,8 +50,6 @@ internal val ptBooks: Map<String, String> = mapOf(
     "In progress" to "Em andamento",
     "Finished" to "Concluído",
     "Select {0}" to "Selecionar “{0}”",
-    "Delete {0} selected" to "Excluir selecionados ({0})",
-    "Delete selected" to "Excluir selecionados",
     "Unarchive" to "Desarquivar",
     "Archive" to "Arquivar",
     "Actions" to "Ações",

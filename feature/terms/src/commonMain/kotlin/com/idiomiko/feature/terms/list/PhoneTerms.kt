@@ -26,6 +26,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -33,6 +34,8 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -45,9 +48,12 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.style.TextOverflow
@@ -66,6 +72,7 @@ import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppSnackbar
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.BarSurface
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.NavSection
@@ -134,14 +141,17 @@ internal fun PhoneTermsScreen(
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
                 onBack = onBack,
-                actions = { PhoneListMenu(state, listActions, selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAllVisible(false) }, onExport = viewModel::exportAnki) },
+                actions = { PhoneListMenu(state, selecting = selecting, onSelecting = { selecting = it; if (!it) viewModel.selectAllVisible(false) }, onExport = viewModel::exportAnki) },
             )
         },
         snackbarHost = {
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
-        // Adding a term floats at the corner, out of selecting's way.
+        // Adding a term floats at the corner; while selecting, the actions on the chosen terms take the foot.
         floatingActionButton = { if (!showChecks) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
+        bottomBar = {
+            if (showChecks) PhoneSelectionBar(state.selected.size, listActions, onDone = { selecting = false; viewModel.selectAllVisible(false) })
+        },
     ) { padding ->
         ScrollList(
             Modifier.padding(padding).fillMaxSize(),
@@ -152,14 +162,6 @@ internal fun PhoneTermsScreen(
             item { PhoneVocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.m)) }
             item {
                 SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m))
-            }
-            if (state.selected.isNotEmpty()) item {
-                Text(
-                    tr("{0} of {1} selected", state.selected.size, state.totalCount),
-                    Modifier.padding(bottom = AppSpacing.m),
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = colors.onSurfaceVariant,
-                )
             }
             item {
                 Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
@@ -208,14 +210,41 @@ internal fun PhoneTermsScreen(
     if (filtering) PhoneFiltersSheet(state, viewModel, onDismiss = { filtering = false })
 }
 
+/** While selecting on a phone, at the foot: how many are chosen, the actions on them, and a way out. */
 @Composable
-private fun PhoneListMenu(state: TermsListUiState, actions: ListActions, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit) {
-    val selected = state.selected.size
+private fun PhoneSelectionBar(count: Int, actions: ListActions, onDone: () -> Unit) {
+    val colors = MaterialTheme.colorScheme
+    BarSurface(raised = true, modifier = Modifier.testTag("phone-selection-bar")) {
+        Column {
+            AppDivider()
+            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
+                AppIconButton(Icons.Default.Close, tr("Done selecting"), onDone)
+                Text(tr("{0} selected", count), Modifier.weight(1f).padding(start = AppSpacing.xs), style = AppText.labelStrong)
+                SelectionAction(AppIcons.Flashcards, tr("Practise"), count > 0, colors.primary, actions.onPractice, "selection-practise")
+                SelectionAction(Icons.Default.Edit, tr("Edit"), count > 0, colors.primary, actions.onBulk, "selection-edit")
+                SelectionAction(Icons.Default.Delete, tr("Delete"), count > 0, colors.error, actions.onDelete, "selection-delete")
+            }
+        }
+    }
+}
+
+/** An action of the selection bar: its icon over its name. */
+@Composable
+private fun SelectionAction(icon: ImageVector, label: String, enabled: Boolean, tint: Color, onClick: () -> Unit, tag: String) {
+    Column(
+        Modifier.width(SELECTION_ACTION_WIDTH).clip(AppShapes.control).clickable(enabled = enabled, role = Role.Button, onClick = onClick)
+            .alpha(if (enabled) 1f else AppAlpha.disabled).padding(vertical = AppSpacing.xs).testTag(tag),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconMedium))
+        Text(label, style = MaterialTheme.typography.labelMedium, color = tint, maxLines = 1)
+    }
+}
+
+@Composable
+private fun PhoneListMenu(state: TermsListUiState, selecting: Boolean, onSelecting: (Boolean) -> Unit, onExport: () -> Unit) {
     OverflowMenu(tr("List actions")) { close ->
         AppMenuItem(text = { Text(if (selecting) tr("Done selecting") else tr("Select terms")) }, onClick = { close(); onSelecting(!selecting) })
-        AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { close(); actions.onBulk() })
-        AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { close(); actions.onDelete() })
-        AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { close(); actions.onPractice() })
         AppMenuItem(text = { Text(ankiLabel(state.exporting, state.sendingToAnki)) }, enabled = state.exporting == null, onClick = { close(); onExport() })
     }
 }
@@ -360,3 +389,6 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
 
 /** Room under the list for the floating Add term button and its margin. */
 private val FAB_ROOM = 88.dp
+
+/** Wide enough for the longest action name under its icon. */
+private val SELECTION_ACTION_WIDTH = 72.dp

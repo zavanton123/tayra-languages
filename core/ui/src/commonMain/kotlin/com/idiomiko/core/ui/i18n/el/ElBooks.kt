@@ -50,8 +50,6 @@ internal val elBooks: Map<String, String> = mapOf(
     "In progress" to "Σε εξέλιξη",
     "Finished" to "Ολοκληρωμένα",
     "Select {0}" to "Επιλογή «{0}»",
-    "Delete {0} selected" to "Διαγραφή επιλεγμένων ({0})",
-    "Delete selected" to "Διαγραφή επιλεγμένων",
     "Unarchive" to "Επαναφορά από το αρχείο",
     "Archive" to "Αρχειοθέτηση",
     "Actions" to "Ενέργειες",

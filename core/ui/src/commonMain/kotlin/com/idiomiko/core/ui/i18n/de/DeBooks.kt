@@ -50,8 +50,6 @@ internal val deBooks: Map<String, String> = mapOf(
     "In progress" to "Begonnen",
     "Finished" to "Beendet",
     "Select {0}" to "„{0}“ auswählen",
-    "Delete {0} selected" to "Ausgewählte löschen ({0})",
-    "Delete selected" to "Ausgewählte löschen",
     "Unarchive" to "Aus dem Archiv holen",
     "Archive" to "Archivieren",
     "Actions" to "Aktionen",

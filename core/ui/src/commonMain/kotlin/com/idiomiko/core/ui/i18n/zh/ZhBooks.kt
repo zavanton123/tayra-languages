@@ -50,8 +50,6 @@ internal val zhBooks: Map<String, String> = mapOf(
     "In progress" to "进行中",
     "Finished" to "已读完",
     "Select {0}" to "选择“{0}”",
-    "Delete {0} selected" to "删除所选（{0}）",
-    "Delete selected" to "删除所选",
     "Unarchive" to "取消归档",
     "Archive" to "归档",
     "Actions" to "操作",

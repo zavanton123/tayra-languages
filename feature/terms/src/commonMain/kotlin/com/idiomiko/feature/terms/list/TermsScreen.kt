@@ -68,6 +68,7 @@ import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppSnackbar
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.ChipLeading
 import com.idiomiko.core.ui.components.ConfirmDialog
 import com.idiomiko.core.ui.components.EmptyState
@@ -78,6 +79,7 @@ import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PrimaryButton
+import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.RemovableChip
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollList
@@ -85,6 +87,7 @@ import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.SelectMenu
 import com.idiomiko.core.ui.components.SelectableChip
+import com.idiomiko.core.ui.components.SelectionBar
 import com.idiomiko.core.ui.components.TableHeader
 import com.idiomiko.core.ui.components.TableHeaderCell
 import com.idiomiko.core.ui.components.ToggleButton
@@ -185,7 +188,6 @@ fun TermsScreen(
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
                 onBack = onBack,
-                actions = { if (compact) ListMenu(state, listActions) },
             )
         },
         snackbarHost = {
@@ -203,6 +205,8 @@ fun TermsScreen(
             item { Toolbar(state, viewModel, compact) }
             if (state.filtersVisible) item(key = "filters") { Column(itemMotion()) { FilterPanel(state, viewModel, pageNote = !dialog) } }
             if (state.activeFilterCount > 0) item { ActiveFilters(state, viewModel, onEdit = { if (!state.filtersVisible) viewModel.toggleFilters() }) }
+            // Ticking terms brings their actions into view, above the list.
+            if (state.selected.isNotEmpty()) item(key = "selection") { Column(itemMotion()) { TermsSelectionBar(state, listActions, onClear = { viewModel.selectAllVisible(false) }) } }
             if (state.loading) {
                 item { Text(tr("Loading..."), Modifier.padding(AppSpacing.l), color = MaterialTheme.colorScheme.onSurfaceVariant) }
             } else if (state.terms.isEmpty()) {
@@ -290,13 +294,14 @@ internal class RowActions(
     val onToggle: (Term) -> Unit,
 )
 
+/** While terms are ticked on a wide window: how many, and what can be done with them together. */
 @Composable
-private fun ListMenu(state: TermsListUiState, actions: ListActions) {
-    val selected = state.selected.size
-    OverflowMenu(tr("List actions")) { close ->
-        AppMenuItem(text = { Text(if (selected > 0) tr("Bulk edit {0} selected", selected) else tr("Bulk edit selected")) }, enabled = selected > 0, onClick = { close(); actions.onBulk() })
-        AppMenuItem(text = { Text(if (selected > 0) tr("Delete {0} selected", selected) else tr("Delete selected")) }, enabled = selected > 0, onClick = { close(); actions.onDelete() })
-        AppMenuItem(text = { Text(if (selected > 0) tr("Practise {0} selected", selected) else tr("Practise selected")) }, enabled = selected > 0, onClick = { close(); actions.onPractice() })
+private fun TermsSelectionBar(state: TermsListUiState, actions: ListActions, onClear: () -> Unit) {
+    SelectionBar(tr("{0} of {1} selected", state.selected.size, state.totalCount), Modifier.padding(bottom = AppSpacing.l).testTag("terms-selection-bar")) {
+        QuietButton(tr("Practise"), onClick = actions.onPractice, modifier = Modifier.testTag("selection-practise"))
+        QuietButton(tr("Edit"), onClick = actions.onBulk, modifier = Modifier.testTag("selection-edit"))
+        QuietButton(tr("Delete"), onClick = actions.onDelete, tone = ButtonTone.Danger, modifier = Modifier.testTag("selection-delete"))
+        QuietButton(tr("Clear selection"), onClick = onClear)
     }
 }
 
@@ -346,7 +351,7 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
         if (!compact) {
             Spacer(Modifier.weight(1f))
             Text(
-                if (state.selected.isEmpty()) trPlural(state.totalCount, "{0} term", "{0} terms") else tr("{0} of {1} selected", state.selected.size, state.totalCount),
+                trPlural(state.totalCount, "{0} term", "{0} terms"),
                 style = MaterialTheme.typography.bodyMedium,
                 color = colors.onSurfaceVariant,
             )
@@ -506,7 +511,7 @@ private fun TermsTableHeader(state: TermsListUiState, viewModel: TermsListViewMo
         TableHeaderCell(tr("Example"), Modifier.weight(EXAMPLE_WEIGHT), style = style)
         TableHeaderCell(tr("Status"), Modifier.width(STATUS_WIDTH), Icons.Default.Info, active = state.sort.field == TermSortField.STATUS, style = style) { viewModel.sortBy(TermSortField.STATUS) }
         TableHeaderCell(tr("Added"), Modifier.width(ADDED_WIDTH), AppIcons.UnfoldMore, active = state.sort.field == TermSortField.CREATED, style = style) { viewModel.sortBy(TermSortField.CREATED) }
-        Box(Modifier.width(MENU_WIDTH), contentAlignment = Alignment.Center) { ListMenu(state, actions) }
+        Spacer(Modifier.width(MENU_WIDTH))
     }
 }
 

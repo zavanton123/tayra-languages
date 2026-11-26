@@ -53,6 +53,7 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import java.io.File
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.ui.test.assertIsNotEnabled
 import androidx.compose.ui.unit.dp
 import javax.imageio.ImageIO
 import kotlin.test.AfterTest
@@ -278,7 +279,7 @@ class TermsScreenTest {
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-empty.png"))) }
     }
 
-    /** Chosen terms can be practised: the list menu asks which kinds of question, any of them, then opens the practice on them. */
+    /** Chosen terms can be practised: the selection bar asks which kinds of question, any of them, then opens the practice on them. */
     @Test
     fun chosenTermsArePractisedWithTheKindsTicked() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val visited = mutableListOf<Route>()
@@ -288,15 +289,18 @@ class TermsScreenTest {
         val rows = onAllNodes(androidx.compose.ui.test.isToggleable())
         rows[1].performClick()
         rows[2].performClick()
+        // The ticked terms' actions show in a bar above the list, with how many are chosen.
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("2 of 3 selected").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithContentDescription("List actions").performClick()
+        onNodeWithTag("terms-selection-bar").assertExists()
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-selection.png"))) }
+        onNodeWithContentDescription("List actions").assertDoesNotExist()
         // Practised in the sentences they were saved with.
         runBlocking {
             for ((text, sentence) in listOf("comprar" to "Vou comprar pão.", "produtos" to "Os produtos são bons.", "pensar" to "Vou pensar nisso.")) {
                 terms.findByTextLc(languageId, text)?.let { terms.save(it.copy(sentence = sentence)) }
             }
         }
-        onNodeWithText("Practise 2 selected").performClick()
+        onNodeWithTag("selection-practise").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Practise 2 words").fetchSemanticsNodes().isNotEmpty() }
         // Every question of the balanced setup is ticked to begin with; answering by typing is unticked here.
         onNodeWithTag("practice-response-TYPE").performClick()
@@ -315,8 +319,7 @@ class TermsScreenTest {
 
         // Opened again on the same screen, the dialog starts from the practice just started, not from where it first began.
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("start-practice").fetchSemanticsNodes().isEmpty() }
-        onNodeWithContentDescription("List actions").performClick()
-        onNodeWithText("Practise 2 selected").performClick()
+        onNodeWithTag("selection-practise").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("start-practice").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("start-practice").performClick()
         waitUntil(timeoutMillis = 5_000) { visited.size == 2 }
@@ -364,6 +367,29 @@ class TermsScreenTest {
         assertTrue(root.right - add.right < 40f && root.bottom - add.bottom < 40f, "at the bottom corner: $add in $root")
         onNodeWithTag("phone-add-term").performClick()
         assertEquals(listOf<Route>(Route.NewTerm), visited)
+    }
+
+    /** On a phone, choosing terms brings a bar to the foot with how many and what to do with them; its cross ends choosing. */
+    @Test
+    fun aPhonesSelectionShowsItsActionsAtTheFoot() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        show()
+        waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar"))
+        onNodeWithTag("phone-selection-bar").assertDoesNotExist()
+        onNodeWithContentDescription("List actions").performClick()
+        onNodeWithText("Select terms").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-selection-bar").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("phone-add-term").assertDoesNotExist()
+        onNodeWithText("0 selected").assertExists()
+        onNodeWithTag("selection-delete").assertIsNotEnabled()
+        onAllNodes(androidx.compose.ui.test.isToggleable())[0].performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 selected").fetchSemanticsNodes().isNotEmpty() }
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-selection.png"))) }
+        onNodeWithTag("selection-delete").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Delete 1 term?").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Cancel").performClick()
+        onNodeWithContentDescription("Done selecting").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-selection-bar").fetchSemanticsNodes().isEmpty() }
+        onNodeWithTag("phone-add-term").assertExists()
     }
 
     /** A phone has no pages: the list grows by the next terms as its end comes into view. */
