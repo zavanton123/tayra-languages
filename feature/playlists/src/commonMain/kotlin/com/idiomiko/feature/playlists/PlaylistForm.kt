@@ -193,8 +193,7 @@ internal fun PlaylistFormContent(state: PlaylistFormUiState, viewModel: Playlist
     ) {
         val subtitle = when (state.mode) {
             is PlaylistFormMode.Create -> tr("Collect texts to listen to one after another.")
-            is PlaylistFormMode.Edit -> tr("Change what the playlist is called, what it is for and its cover.")
-            is PlaylistFormMode.AddTexts -> null
+            is PlaylistFormMode.Edit, is PlaylistFormMode.AddTexts -> null
         }
         // A phone's bar holds the title: without a subtitle the header would be nothing but a gap.
         if (!compact || subtitle != null) ScreenHeader(state.mode.title, subtitle)
