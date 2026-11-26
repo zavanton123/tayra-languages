@@ -9,17 +9,17 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccountCircle
-import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
@@ -41,15 +41,16 @@ import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.QuietButton
 import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
-import com.idiomiko.core.ui.components.StatusTints
+import com.idiomiko.core.ui.components.ToastHost
+import com.idiomiko.core.ui.components.rememberToastState
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
+import kotlin.time.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toLocalDateTime
 import org.koin.compose.viewmodel.koinViewModel
-import kotlin.time.Instant
 
 /**
  * Settings: the Idiomiko account this device is signed in to. Signed out, it signs in or
@@ -64,6 +65,12 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
     // Back from the checkout in the browser, or from a store, the plan may have changed.
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) { viewModel.reload() }
     DisposableEffect(viewModel) { onDispose { viewModel.problemSeen() } }
+    val toast = rememberToastState()
+    LaunchedEffect(state.done) {
+        val done = state.done ?: return@LaunchedEffect
+        toast.show(doneMessage(done))
+        viewModel.doneSeen()
+    }
     Scaffold(
         topBar = { AppTopBar(title = if (compact) tr("Account") else APP_NAME, onNavigate = onNavigate, onBack = onBack.takeIf { compact }, section = NavSection.ACCOUNT) },
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -80,6 +87,7 @@ fun AccountScreen(onNavigate: (Route) -> Unit, onBack: () -> Unit, viewModel: Ac
             PageColumn(padding) { Column(Modifier.widthIn(max = PAGE_WIDTH).align(Alignment.CenterHorizontally).testTag("account-page"), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) { content() } }
         }
     }
+    ToastHost(toast)
 }
 
 @Composable
@@ -87,7 +95,6 @@ internal fun AccountContent(state: AccountUiState, actions: AccountViewModel?, o
     ScreenHeader(tr("Account"), null)
     // Signed out, a problem is said in the form, beside the fields it is about.
     if (!state.signedOut) state.problem?.let { ProblemNotice(it, state.problemText) }
-    state.done?.let { DoneNotice(it) }
     when {
         !state.available -> NotSetUpCard()
         state.signedOut -> SignedOutCard(state, actions)
@@ -190,24 +197,17 @@ internal fun problemTitle(problem: AccountProblem, text: String?): String = when
 internal fun problemMessage(problem: AccountProblem, text: String?): String? =
     if (problem == AccountProblem.OFFLINE) listOfNotNull(tr("Check the internet connection and try again."), text).joinToString("\n") else null
 
-@Composable
-private fun DoneNotice(done: AccountDone) {
-    Notice(
-        when (done) {
-            AccountDone.EMAIL_CONFIRMED -> tr("Your email is confirmed")
-            AccountDone.CODE_SENT -> tr("A new code is on its way")
-            AccountDone.PASSWORD_RESET -> tr("Your new password is set")
-            AccountDone.SUBSCRIBED -> tr("Thank you: sync is on")
-            AccountDone.PURCHASES_RESTORED -> tr("Your purchases are restored")
-            AccountDone.SYNCED -> tr("This device is in sync")
-            AccountDone.ACCOUNT_DELETED -> tr("Your account is deleted")
-            AccountDone.PICTURE_SAVED -> tr("Your photo is saved")
-            AccountDone.PICTURE_REMOVED -> tr("Your photo is removed")
-        },
-        icon = Icons.Default.CheckCircle,
-        tint = StatusTints.ok,
-        modifier = Modifier.testTag("account-done"),
-    )
+/** What was just done, said in the snackbar. */
+internal fun doneMessage(done: AccountDone): String = when (done) {
+    AccountDone.EMAIL_CONFIRMED -> tr("Your email is confirmed")
+    AccountDone.CODE_SENT -> tr("A new code is on its way")
+    AccountDone.PASSWORD_RESET -> tr("Your new password is set")
+    AccountDone.SUBSCRIBED -> tr("Thank you: sync is on")
+    AccountDone.PURCHASES_RESTORED -> tr("Your purchases are restored")
+    AccountDone.SYNCED -> tr("This device is in sync")
+    AccountDone.ACCOUNT_DELETED -> tr("Your account is deleted")
+    AccountDone.PICTURE_SAVED -> tr("Your photo is saved")
+    AccountDone.PICTURE_REMOVED -> tr("Your photo is removed")
 }
 
 private fun day(at: Instant): String = at.toLocalDateTime(TimeZone.currentSystemDefault()).date.toString()
