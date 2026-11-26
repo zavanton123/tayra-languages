@@ -38,7 +38,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "{1} of {2} terms shown" to "Pokazano {1} z {2} słowa|Pokazano {1} z {2} słów|Pokazano {1} z {2} słów",
     "Done selecting" to "Zakończ zaznaczanie",
     "Added today" to "Dodane dzisiaj",
-    "Added yesterday" to "Dodane wczoraj",
     "Show {0} terms" to "Pokaż {0} słowo|Pokaż {0} słowa|Pokaż {0} słów",
     "Status" to "Status",
     "OK" to "OK",

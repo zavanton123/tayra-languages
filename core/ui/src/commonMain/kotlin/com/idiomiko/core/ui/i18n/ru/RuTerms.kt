@@ -38,7 +38,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "{1} of {2} terms shown" to "Показано {1} из {2} слова|Показано {1} из {2} слов|Показано {1} из {2} слов",
     "Done selecting" to "Закончить выбор",
     "Added today" to "Добавлено сегодня",
-    "Added yesterday" to "Добавлено вчера",
     "Show {0} terms" to "Показать {0} слово|Показать {0} слова|Показать {0} слов",
     "Status" to "Статус",
     "OK" to "ОК",

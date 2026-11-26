@@ -38,7 +38,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "{1} of {2} terms shown" to "{1} de {2} termo exibido|{1} de {2} termos exibidos",
     "Done selecting" to "Concluir seleção",
     "Added today" to "Adicionados hoje",
-    "Added yesterday" to "Adicionados ontem",
     "Show {0} terms" to "Mostrar {0} termo|Mostrar {0} termos",
     "Status" to "Status",
     "OK" to "OK",

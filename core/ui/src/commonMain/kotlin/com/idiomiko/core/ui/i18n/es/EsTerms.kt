@@ -38,7 +38,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "{1} of {2} terms shown" to "{1} de {2} término mostrado|{1} de {2} términos mostrados",
     "Done selecting" to "Terminar selección",
     "Added today" to "Añadidas hoy",
-    "Added yesterday" to "Añadidas ayer",
     "Show {0} terms" to "Mostrar {0} palabra|Mostrar {0} palabras",
     "Status" to "Estado",
     "OK" to "Aceptar",

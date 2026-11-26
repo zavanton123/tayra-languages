@@ -38,7 +38,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "{1} of {2} terms shown" to "{1} terme affiché sur {2}|{1} termes affichés sur {2}",
     "Done selecting" to "Terminer la sélection",
     "Added today" to "Ajoutés aujourd’hui",
-    "Added yesterday" to "Ajoutés hier",
     "Show {0} terms" to "Afficher {0} terme|Afficher {0} termes",
     "Status" to "Statut",
     "OK" to "OK",

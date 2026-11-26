@@ -92,12 +92,6 @@ import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.AppText
-import kotlin.time.Clock
-import kotlin.time.Instant
-import kotlinx.datetime.DateTimeUnit
-import kotlinx.datetime.TimeZone
-import kotlinx.datetime.minus
-import kotlinx.datetime.toLocalDateTime
 
 /** The days-ago choices the phone's Added filter offers; null leaves that end open. */
 private val DAY_CHOICES = listOf(null, 1, 3, 7, 14, 30, 90, 365)
@@ -258,7 +252,7 @@ private fun SelectionAction(icon: ImageVector, label: String, enabled: Boolean, 
 
 /**
  * A term as a card: its checkbox, which alone chooses it, reading it aloud, its text and translation, its status to
- * change, when it was added, and its menu; a tap elsewhere opens it.
+ * change and its menu; a tap elsewhere opens it.
  */
 @Composable
 private fun PhoneTermRow(term: Term, languageName: String, selected: Boolean, actions: RowActions) {
@@ -278,10 +272,7 @@ private fun PhoneTermRow(term: Term, languageName: String, selected: Boolean, ac
             Text(term.displayText, style = AppText.itemTitle, color = colors.primary, maxLines = 1, overflow = TextOverflow.Ellipsis)
             term.translation?.takeIf { it.isNotBlank() }?.let { Text(it, style = MaterialTheme.typography.bodySmall, maxLines = 1, overflow = TextOverflow.Ellipsis) }
         }
-        Column(horizontalAlignment = Alignment.Start, verticalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
-            PhoneStatusTag(term.status) { actions.onStatus(term, it) }
-            term.createdAt?.let { Text(addedPhrase(it), style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant) }
-        }
+        PhoneStatusTag(term.status) { actions.onStatus(term, it) }
         RowMenu(term, actions)
     }
 }
@@ -306,18 +297,6 @@ private fun PhoneStatusTag(status: TermStatus, onSelect: (TermStatus) -> Unit) {
                 AppMenuItem(text = { Text(option.shownName()) }, onClick = { open = false; onSelect(chosen) })
             }
         }
-    }
-}
-
-/** "Added today", "Added yesterday", or "Added Jan 5". */
-private fun addedPhrase(instant: Instant, now: Instant = Clock.System.now()): String {
-    val zone = TimeZone.currentSystemDefault()
-    val date = instant.toLocalDateTime(zone).date
-    val today = now.toLocalDateTime(zone).date
-    return when (date) {
-        today -> tr("Added today")
-        today.minus(1, DateTimeUnit.DAY) -> tr("Added yesterday")
-        else -> tr("Added {0}", addedLabel(instant, now))
     }
 }
 
