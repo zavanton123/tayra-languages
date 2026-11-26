@@ -7,7 +7,8 @@ import com.idiomiko.core.domain.model.Language
  * a syllable. A word does not end before a vowel, tone mark or subscript ລ written after its letter (ຕໍ່ມາ is ຕໍ່ + ມາ), nor
  * after a vowel written before one (ເ, ແ, ໂ, ໃ, ໄ), nor between ຫ and the letter it leads (ຫງ, ຫຍ, ຫວ). A letter with no
  * vowel after it ends the syllable before it (ຕາມ is one word, not ຕາ "eye" + ມ; ທຸກມື້ is ທຸກ + ມື້), unless ວ or ອ follow
- * it (ຄວາມ, ສວນ, ຄອງ), and a letter that begins a syllable, with no vowel yet, is never a word's end (ຄວາມ is no ຄ + ວາມ).
+ * it (ຄວາມ, ສວນ, ຄອງ), or it is one that ends no syllable and ຣ and a vowel follow it, a cluster (ໃຫ້ຝຣັ່ງ is ໃຫ້ + ຝຣັ່ງ),
+ * and a letter that begins a syllable, with no vowel yet, is never a word's end (ຄວາມ is no ຄ + ວາມ, ຝຣັ່ງ no ຝ + ຣັ່ງ).
  * A letter alone is no word, though the dictionary has the letters; letters no word covers go a syllable at a time, together
  * one word. ໆ, which repeats the word before it, and the Lao digits are no words.
  *
@@ -34,7 +35,7 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
         val c = run[at]
         val before = run[at - 1]
         return c !in FOLLOWING && before !in LEADING && !(before == 'ຫ' && c in LED) &&
-            !(isLetter(c) && !beginsSyllable(run, at)) && !(isLetter(before) && isBare(run, at - 1))
+            !(isLetter(c) && !beginsSyllable(run, at)) && !(isLetter(before) && (isBare(run, at - 1) || leadsCluster(run, at - 1)))
     }
 
     override fun standsApart(c: Char): Boolean = c == KO_LA || c in LAO_DIGITS
@@ -60,11 +61,18 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
         return reached[to]
     }
 
-    /** Whether the letter at [at] can begin a syllable: a vowel or mark follows it, or ວ or ອ, or it is ຫ leading a letter. */
+    /**
+     * Whether the letter at [at] can begin a syllable: a vowel or mark follows it, or ວ or ອ, or it is ຫ leading a letter,
+     * or it leads a cluster ([leadsCluster]).
+     */
     private fun beginsSyllable(run: String, at: Int): Boolean {
         val next = run.getOrNull(at + 1) ?: return false
-        return next in FOLLOWING || next in VOWEL_LETTERS || (run[at] == 'ຫ' && next in LED)
+        return next in FOLLOWING || next in VOWEL_LETTERS || (run[at] == 'ຫ' && next in LED) || leadsCluster(run, at)
     }
+
+    /** Whether the letter at [at] is one that ends no syllable with ຣ and a vowel after it, one syllable: ຝຣັ່ງ, ອາຟຣິກາ. */
+    private fun leadsCluster(run: String, at: Int): Boolean =
+        run[at] in CLUSTERING && run.getOrNull(at + 1) == 'ຣ' && run.getOrNull(at + 2)?.let { it in FOLLOWING } == true
 
     /**
      * Whether the letter at [at] begins a syllable with no vowel of its own yet: first, or after a letter that ends one (not
@@ -85,6 +93,9 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
 
         /** The letters that are vowels too (ຄວາມ, ສວນ, ຄອງ, ເມືອງ), after which a letter may still end a syllable. */
         private const val VOWEL_LETTERS = "ວອ"
+
+        /** The letters that end no syllable and lead ຣ in a cluster (ຝຣັ່ງ, ພຣະ, ຄຣິດ); ກ, ດ, ບ before ຣ mostly end one (ອັບຣາຮາມ). */
+        private const val CLUSTERING = "ຂຄຕທປຜຝພຟ"
 
         private const val KO_LA = 'ໆ'
         private val LAO_DIGITS = '໐'..'໙'

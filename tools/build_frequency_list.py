@@ -5151,6 +5151,7 @@ LAO_FOLLOWING = set("ະັາຳິີຶື຺ຸູົຼຽ່້໊໋໌�
 LAO_LEADING = set("ເແໂໃໄ")
 LAO_LED = set("ງຍນມລວຣ")
 LAO_VOWEL_LETTERS = set("ວອ")
+LAO_CLUSTERING = set("ຂຄຕທປຜຝພຟ")
 LAO_SPLIT_AM = re.compile("\u0ecd([\u0ec8-\u0ecb]?)\u0eb2")
 # The app's own Lao word list (ICU's Lao word-break dictionary), which the reader cuts with besides the list and the packs.
 LAO_LEXICON = os.path.join(ROOT, "feature", "frequency", "src", "commonMain", "composeResources", "files", "lexicon", "lo.txt")
@@ -5165,10 +5166,16 @@ def lao_letter(c):
     return "\u0e81" <= c <= "\u0eae" or "\u0edc" <= c <= "\u0edf"
 
 
+def lao_cluster(run, at):
+    """Whether the letter at [at] leads ຣ with a vowel after it, one syllable (LaoParser.leadsCluster): ຝຣັ່ງ, ອາຟຣິກາ."""
+    return run[at] in LAO_CLUSTERING and run[at + 1:at + 2] == "ຣ" and run[at + 2:at + 3] in LAO_FOLLOWING
+
+
 def lao_break(run, at):
     """
     Whether a Lao word may end before [at] in [run] (LaoParser.canBreak): never inside a syllable, nor before a letter with no
-    vowel after it (but ວ or ອ, or one ຫ leads), nor after a letter that begins a syllable and has no vowel yet.
+    vowel after it (but ວ or ອ, or one ຫ leads, or the ຣ of a cluster), nor after a letter that begins a syllable and has no
+    vowel yet.
     """
     if at <= 0 or at >= len(run):
         return True
@@ -5177,12 +5184,12 @@ def lao_break(run, at):
         return False
     if lao_letter(c):
         nxt = run[at + 1] if at + 1 < len(run) else ""
-        if not (nxt and (nxt in LAO_FOLLOWING or nxt in LAO_VOWEL_LETTERS or (c == "ຫ" and nxt in LAO_LED))):
+        if not (nxt and (nxt in LAO_FOLLOWING or nxt in LAO_VOWEL_LETTERS or (c == "ຫ" and nxt in LAO_LED)) or lao_cluster(run, at)):
             return False
     if lao_letter(before):
         j = at - 1
-        if j == 0 or (lao_letter(run[j - 1]) and run[j - 1] not in LAO_VOWEL_LETTERS and run[j - 1] != "ຍ"
-                      and (j < 2 or run[j - 2] not in LAO_LEADING)):
+        if j == 0 or lao_cluster(run, j) or (lao_letter(run[j - 1]) and run[j - 1] not in LAO_VOWEL_LETTERS and run[j - 1] != "ຍ"
+                                            and (j < 2 or run[j - 2] not in LAO_LEADING)):
             return False
     return True
 

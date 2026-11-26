@@ -56,6 +56,21 @@ class LaoParserTest {
         assertEquals(listOf("ກໍ່ສ້າງ"), words("ກໍ່ສ້າງ"))
     }
 
+    /** A letter that ends no syllable and leads ຣ begins one with it: ຝຣັ່ງ "France" is a word of its own after any word. */
+    @Test
+    fun aClusterBeginsASyllable() {
+        val ranks = mapOf("ໃຫ້" to 30, "ຂອງ" to 3, "ປະເທດ" to 13, "ຝຣັ່ງ" to 831, "ຄອບຄອງ" to 1500, "ລາວ" to 2)
+        Lexicons.set("lo", Lexicon(ranks.keys + "ອາຟຣິກາ" + "ອັບຣາຮາມ", ranks))
+        assertEquals(listOf("ໃຫ້", "ຝຣັ່ງ"), words("ໃຫ້ຝຣັ່ງ"))
+        assertEquals(listOf("ຂອງ", "ຝຣັ່ງ"), words("ຂອງຝຣັ່ງ"))
+        assertEquals(listOf("ປະເທດ", "ຝຣັ່ງ"), words("ປະເທດຝຣັ່ງ"))
+        assertEquals(listOf("ຝຣັ່ງ", "ຄອບຄອງ", "ລາວ"), words("ຝຣັ່ງຄອບຄອງລາວ"))
+        assertEquals(listOf("ອາຟຣິກາ", "ອັບຣາຮາມ"), words("ອາຟຣິກາອັບຣາຮາມ"))
+        // Its first letter alone is never a word's end: ໃຫ້ຝ + ຣັ່ງ is no cut, whatever the lexicon has.
+        Lexicons.set("lo", Lexicon(listOf("ໃຫ້ຝ", "ຣັ່ງ")))
+        assertEquals(listOf("ໃຫ້ຝຣັ່ງ"), words("ໃຫ້ຝຣັ່ງ"))
+    }
+
     /** Text is read in today's spelling however it was typed, and so is the lexicon's; ໆ and the Lao digits are no words. */
     @Test
     fun todaysSpellingAndNoWords() {
