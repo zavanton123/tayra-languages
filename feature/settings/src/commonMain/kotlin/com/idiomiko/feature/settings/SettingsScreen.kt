@@ -134,7 +134,7 @@ fun SettingsScreen(onNavigate: (Route) -> Unit, viewModel: SettingsViewModel = k
             val previewed = hoveredFont?.let { settings.copy(readingFont = it.id) } ?: settings
             PageColumn(inner) {
                 ScreenHeader(tr("General"), null) {
-                    HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = { confirmReset = true })
+                    HeaderButton(tr("Reset"), Icons.Default.Refresh, onClick = { confirmReset = true })
                 }
                 if (wide) {
                     // The settings and the preview share the width, so the preview's sentence reads as on a page.

@@ -7,7 +7,6 @@ internal val zhSettingsMore: Map<String, String> = mapOf(
     "Course packs" to "课程包",
     "Book packs" to "图书包",
     "Reset" to "重置",
-    "Reset to defaults" to "恢复默认设置",
     "Reset to defaults?" to "恢复默认设置？",
     "The theme, highlighting, reading size and spacing go back to their defaults." to "主题、高亮、阅读字号和间距将恢复默认值。",
     "Cancel" to "取消",

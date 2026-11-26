@@ -8,6 +8,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ComposeUiTest
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertCountEquals
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
@@ -38,7 +39,7 @@ import androidx.compose.ui.test.performMouseInput
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-/** The Settings page changes the reading settings with its controls and puts them back with Reset to defaults. */
+/** The Settings page changes the reading settings with its controls and puts them back with Reset. */
 @OptIn(ExperimentalTestApi::class)
 class SettingsScreenTest {
 
@@ -74,8 +75,8 @@ class SettingsScreenTest {
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFont == "literata" }
         System.getenv("SETTINGS_SCREENSHOT")?.let { save(it.replace(".png", "-literata.png")) }
 
-        onNodeWithText("Reset to defaults").performScrollTo().performClick()
-        onNodeWithText("Reset").performClick()
+        onNodeWithText("Reset").performScrollTo().performClick()
+        onAllNodesWithText("Reset").onLast().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.readingFontScale == 1.0f }
         assertEquals(4, settings.current.statsSampleSize)
         assertEquals("serif", settings.current.readingFont)
@@ -103,7 +104,7 @@ class SettingsScreenTest {
         runBlocking { settings.update { it.copy(readingFontScale = 1.2f) } }
         setContent { Hosted(settings) { SettingsScreen(onNavigate = {}, viewModel = SettingsViewModel(settings)) } }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Appearance").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Reset to defaults").assertDoesNotExist()
+        onAllNodesWithText("Reset").assertCountEquals(1)
         onNodeWithText("120%").assertExists()
         onNodeWithTag("word-statuses").assertExists()
         onNodeWithText("Behaviour").assertDoesNotExist()

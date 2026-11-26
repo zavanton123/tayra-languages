@@ -127,7 +127,7 @@ internal fun PhoneFlashcardSettingsScreen(settings: UserSettings, viewModel: Set
             LeechCard(settings, viewModel, dense = true)
             HowItWorks()
             SecondaryButton(
-                tr("Reset to defaults"),
+                tr("Reset"),
                 onClick = onReset,
                 modifier = Modifier.fillMaxWidth().testTag("phone-reset-flashcards"),
                 icon = Icons.Default.Refresh,

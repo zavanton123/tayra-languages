@@ -101,7 +101,7 @@ class FlashcardSettingsScreenTest {
         onNodeWithContentDescription("Decrease leech threshold").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardLeechThreshold == 7 }
 
-        onNodeWithText("Reset to defaults").performScrollTo().performClick()
+        onNodeWithText("Reset").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardNewPerDay == 20 && settings.current.flashcardLearnSteps == "1m 10m" && settings.current.flashcardRelearnSteps == "10m" }
         assertEquals(false, settings.current.flashcardTwoButtons, "reset brings the four buttons back")
         assertEquals(0, settings.current.flashcardReviewsPerDay)
@@ -151,7 +151,7 @@ class FlashcardSettingsScreenTest {
         onNodeWithTag("easy-day-5").assertTextContains("Sat · Normal", substring = true)
         System.getenv("EASY_DAYS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it)) }
 
-        onNodeWithText("Reset to defaults").performScrollTo().performClick()
+        onNodeWithText("Reset").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardEasyDays == "NNNNNNN" && settings.current.flashcardLoadBalancing }
     }
 
@@ -164,7 +164,7 @@ class FlashcardSettingsScreenTest {
         onNodeWithText("Words I'm reading first").performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardBacklogOrder == BacklogOrder.READING_FIRST }
         onNodeWithTag("backlog-order-explanation").assertTextContains("the five pages after it", substring = true)
-        onNodeWithText("Reset to defaults").performScrollTo().performClick()
+        onNodeWithText("Reset").performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { settings.current.flashcardBacklogOrder == BacklogOrder.RELATIVE_OVERDUENESS }
     }
 

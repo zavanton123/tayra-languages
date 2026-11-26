@@ -7,7 +7,6 @@ internal val ptSettingsMore: Map<String, String> = mapOf(
     "Course packs" to "Pacotes de cursos",
     "Book packs" to "Pacotes de livros",
     "Reset" to "Redefinir",
-    "Reset to defaults" to "Restaurar padrões",
     "Reset to defaults?" to "Restaurar os padrões?",
     "The theme, highlighting, reading size and spacing go back to their defaults." to "O tema, o destaque, o tamanho e o espaçamento do texto voltam ao padrão.",
     "Cancel" to "Cancelar",

@@ -104,7 +104,7 @@ fun FlashcardSettingsScreen(
             // The page keeps to the settings' names; what each one does shows when its name is hovered.
             CompositionLocalProvider(LocalHintsAsTooltips provides true) { PageColumn(inner) {
                 ScreenHeader(tr("Flashcard settings"), tr("Daily limits and how reviews are scheduled."), onBackToSettings = { onNavigate(Route.Settings) }) {
-                    HeaderButton(tr("Reset to defaults"), Icons.Default.Refresh, onClick = reset)
+                    HeaderButton(tr("Reset"), Icons.Default.Refresh, onClick = reset)
                 }
                 if (wide) {
                     Row(horizontalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {

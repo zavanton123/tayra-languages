@@ -7,7 +7,6 @@ internal val ruSettingsMore: Map<String, String> = mapOf(
     "Course packs" to "Пакеты курсов",
     "Book packs" to "Пакеты книг",
     "Reset" to "Сбросить",
-    "Reset to defaults" to "Сбросить настройки",
     "Reset to defaults?" to "Сбросить настройки?",
     "The theme, highlighting, reading size and spacing go back to their defaults." to "Тема, подсветка, размер текста и интервал вернутся к значениям по умолчанию.",
     "Cancel" to "Отмена",
