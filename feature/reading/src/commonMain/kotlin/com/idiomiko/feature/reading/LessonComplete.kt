@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -34,6 +36,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.courses.LessonSummary
 import com.idiomiko.core.ui.components.AppDialogSurface
+import com.idiomiko.core.ui.components.LocalWindowWidth
+import com.idiomiko.core.ui.components.AppScreenDialog
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppDivider
@@ -68,6 +72,60 @@ internal fun LessonCompleteDialog(
     onNext: () -> Unit,
 ) {
     val colors = MaterialTheme.colorScheme
+    val compact = LocalWindowWidth.current.isCompact
+    val report: @Composable () -> Unit = {
+        Box(Modifier.size(BADGE_SIZE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
+            Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconHuge))
+        }
+        Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Text(tr("Lesson complete"), style = AppText.pageTitle, textAlign = TextAlign.Center)
+            Text(title, style = AppText.headline, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+            Text(tr("You completed all {0} stages.", stageCount), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
+        }
+        Stats(summary)
+        if (summary.words > 0) {
+            TintedSurface(AppAccents.green, padding = PaddingValues(AppSpacing.l)) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
+                    Icon(Icons.Default.CheckCircle, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
+                    Column {
+                        Text(tr("{0} of {1} lesson words are now known", summary.known, summary.words), style = AppText.itemTitle)
+                        Text(tr("Your vocabulary grew during this lesson."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                    }
+                }
+            }
+        }
+    }
+    val next: @Composable (Modifier) -> Unit = { modifier ->
+        if (summary.next != null) PrimaryButton(tr("Next lesson"), onClick = onNext, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward, modifier = modifier.testTag("lesson-complete-next"))
+    }
+    val review: @Composable (Modifier) -> Unit = { modifier -> SecondaryButton(tr("Review lesson"), onClick = onClose, modifier = modifier.testTag("lesson-complete-review")) }
+    val course: @Composable (Modifier) -> Unit = { modifier -> LinkText(tr("Back to course"), onCourse, modifier = modifier.testTag("lesson-complete-course")) }
+    val close: @Composable BoxScope.() -> Unit = {
+        AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, style = IconButtonStyle.Outlined, modifier = Modifier.align(Alignment.TopEnd).padding(AppSpacing.l))
+    }
+    // A phone gives the lesson's end the whole screen, its ways on one under another at the foot, the next lesson first.
+    if (compact) {
+        AppScreenDialog(onDismissRequest = onClose, modifier = Modifier.testTag("lesson-complete")) {
+            Box(Modifier.fillMaxSize()) {
+                Column(Modifier.fillMaxSize()) {
+                    Column(
+                        Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(AppSpacing.l),
+                        horizontalAlignment = Alignment.CenterHorizontally,
+                        verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
+                    ) { report() }
+                    AppDivider()
+                    Column(Modifier.fillMaxWidth().padding(AppSpacing.l), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
+                        next(Modifier.fillMaxWidth())
+                        review(Modifier.fillMaxWidth())
+                        course(Modifier)
+                    }
+                }
+                close()
+                Confetti()
+            }
+        }
+        return
+    }
     AppDialogSurface(onDismissRequest = onClose, modifier = Modifier.testTag("lesson-complete"), maxWidth = LESSON_COMPLETE_WIDTH) {
         Box {
             Column(
@@ -75,37 +133,16 @@ internal fun LessonCompleteDialog(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.spacedBy(AppSpacing.l),
             ) {
-                Box(Modifier.size(BADGE_SIZE).clip(AppShapes.circle).background(AppAccents.green.copy(alpha = AppAlpha.tint)), contentAlignment = Alignment.Center) {
-                    Icon(Icons.Default.Check, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconHuge))
-                }
-                Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                    Text(tr("Lesson complete"), style = AppText.pageTitle, textAlign = TextAlign.Center)
-                    Text(title, style = AppText.headline, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-                    Text(tr("You completed all {0} stages.", stageCount), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-                }
-                Stats(summary)
-                if (summary.words > 0) {
-                    TintedSurface(AppAccents.green, padding = PaddingValues(AppSpacing.l)) {
-                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
-                            Icon(Icons.Default.CheckCircle, contentDescription = null, tint = AppAccents.green, modifier = Modifier.size(AppSizes.iconXLarge))
-                            Column {
-                                Text(tr("{0} of {1} lesson words are now known", summary.known, summary.words), style = AppText.itemTitle)
-                                Text(tr("Your vocabulary grew during this lesson."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-                            }
-                        }
-                    }
-                }
+                report()
                 AppDivider()
                 Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                    LinkText(tr("Back to course"), onCourse, modifier = Modifier.testTag("lesson-complete-course"))
+                    course(Modifier)
                     Spacer(Modifier.weight(1f))
-                    SecondaryButton(tr("Review lesson"), onClick = onClose, modifier = Modifier.testTag("lesson-complete-review"))
-                    if (summary.next != null) {
-                        PrimaryButton(tr("Next lesson"), onClick = onNext, trailingIcon = Icons.AutoMirrored.Filled.ArrowForward, modifier = Modifier.testTag("lesson-complete-next"))
-                    }
+                    review(Modifier)
+                    next(Modifier)
                 }
             }
-            AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, style = IconButtonStyle.Outlined, modifier = Modifier.align(Alignment.TopEnd).padding(AppSpacing.l))
+            close()
         }
         Confetti()
     }
