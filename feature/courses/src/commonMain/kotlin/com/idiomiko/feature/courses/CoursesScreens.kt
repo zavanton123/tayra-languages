@@ -31,7 +31,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Delete
@@ -601,7 +600,6 @@ private fun LessonRow(
         }
         LocalPlaylistButton.current?.invoke(PlaylistSource.Lesson(courseId, lesson.id), null)
         if (editing != null) LessonMenu(lesson.id, lesson.title, first, last, editing)
-        else Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant)
     }
 }
 
