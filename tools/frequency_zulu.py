@@ -11,7 +11,8 @@ pronoun with a prefix (nominal_lemmas), or a verb by its prefix and ending as th
 concord, -sa- "still" or an extension (verb_lemmas), or in a compound tense (wayehlala); failing those, as a regular form
 the tables lack that one pack word alone makes (regular_lemmas: locatives, copulas, a noun without its first vowel,
 concords on adjectives and adverbs, hortatives, the perfect in -ele). A word of the lexicon keeps its own count, and a
-form of several words is shared by how common each is by the forms of no other.
+form of several words is shared by how common each is by the forms of no other; a noun's form a verb's is written alike
+(ekhala "of the nose", "crying") is the one word's or the other's by the same counts (NOUN_SHARE).
 
 Counted from Leipzig's community and web sentences, OPUS's CCAligned web text and its Wikimedia text, each kind the share
 WEIGHTS gives. A word written with a capital inside a sentence is a name (Durban, uThemba, kwaZulu) and not counted, unless
@@ -91,6 +92,9 @@ ZULU_WORDS = {
 # country, city, province or continent, a person's name or a god's (iGoli, iNdiya, uJabulani, uJesu); its languages,
 # peoples, days, months and holidays are words (isiNgisi, umZulu, uLwesibili, uMashi, uKhisimusi).
 ZULU_EXCLUDED = {"kwazulu", "isinye", "ikhona"}
+# Nouns the pack lacks that the verb rules would read (isineke "patience" as sina's i-sinek-e), with their prefixes: no
+# words.
+UNLISTED_NOUNS = re.compile(r"^(?:i|e|ne|nge|yi|we|se|ye|le|ze|lwe|bwe|kwe|ke|o|a)?sineke$")
 # A class prefix written apart before a foreign word (ama channel, ngama degrees): no word.
 FRAGMENTS = {"ama", "nama", "ngama", "kwama", "lama", "yama", "wama", "sama", "ezama", "okwama"}
 # And the copula "which are" before a number (abangu 20, ezingu 5).
@@ -165,7 +169,21 @@ ZULU_FORMS = {
     "ngomhla": "mhla",
     "ngomhlaka": "mhla",
     "ekutheni": "ukuthi",
+    # "Coming, next" (izinyanga ezayo), za's relative, far more than yona's "those of it".
+    "ezayo": "za",
+    # "Darling" (sithandwa sami), the vocative.
+    "sithandwa": "isithandwa",
 }
+# Forms the pack's generated tables give a noun wrongly: umbhali "writer" has umhlali's plural (abahlali "residents", not
+# ababhali), and uhambo inkambo's (izinkambo "customs"; uhambo's is izinhambo).
+TABLE_ERRORS = {"umbhali": re.compile(r"hlali"), "uhambo": re.compile(r"^izinkambo$")}
+# A noun's forms that are the noun itself in its other number (abafana, amakhala, izithombe, obaba; not abamabele "those
+# of the breasts"): the noun's, whatever a verb reads them as.
+PLURAL_PREFIXES = ("aba", "abe", "ama", "imi", "izi")
+# A noun's form that a verb's form is written alike (ekhala "of the nose", "crying"; ngibhala "I am a wheelbarrow", "I
+# write") is the verb's when the noun's other forms are less than this share of the verb's (ikhala, ibhala, ihlezi), and
+# the noun's otherwise (esizwe "of the nation", ilanga's elanga).
+NOUN_SHARE = 1 / 3
 # The past of a compound tense, the auxiliary ba's with its subject concord, and the participial concord the verb then
 # takes: wayehlala "he was staying" (waye- + ehlala), babehlala, kwakuhlala, bengihlala, ubehlala.
 COMPOUND_PAST = {"waye": "e", "babe": "be", "aye": "e", "wawu": "u", "yayi": "i", "lali": "li", "sasi": "si", "zazi": "zi",
@@ -183,6 +201,8 @@ def strip_tones(word):
 # uyamazi, ngiyabazi).
 OBJECTS = ["ngi", "ku", "m", "mu", "si", "ni", "ba", "wu", "yi", "li", "wa", "zi", "lu", "bu"]
 OBJECTS_BEFORE_VOWEL = ["ngi", "kw", "m", "mw", "s", "n", "b", "w", "y", "l", "z", "lw", "bw"]
+# The object concords that are no subject concords: an imperative's prefix, and none before a noun's stem.
+BARE_OBJECTS = {"", "m", "mu", "mw", "kw", "w", "y", "yi", "s", "n", "b", "l", "z", "lw", "bw"}
 # The extensions a verb's stem takes (applicative, causative, reciprocal, passive, neuter and their joins): bonwa, hambela,
 # hambisa, thandana, thandiwe, enzeka, bonakala, hambisisa, thandelana.
 EXTENSIONS = ["el", "is", "an", "w", "iw", "ek", "akal", "elw", "isw", "isis", "elel", "elan", "isan", "an", "ekel",
@@ -340,6 +360,8 @@ class Lexicon:
         self.table = defaultdict(set)
         for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
             lemma = lemma.lower()
+            if lemma in TABLE_ERRORS and TABLE_ERRORS[lemma].search(form):
+                continue
             if lemma in self.kinds and form != lemma and re.fullmatch(r"[a-z]+", form):
                 self.forms[form].add(lemma)
                 self.table[lemma].add(form)
@@ -349,6 +371,11 @@ class Lexicon:
         self.verbs = {w for w, ks in self.kinds.items() if "verb" in ks and len(w) > 1}
         self.pronouns = {w for w, ks in self.kinds.items() if "pron" in ks and len(w) > 3}
         self.nominals = {w for w, ks in self.kinds.items() if ks & {"noun", "pron"}}
+        self.bases = {w: {w} | {f for f in self.table[w] if f.startswith(PLURAL_PREFIXES) and len(f) <= len(w) + 3
+                                or w[0] == "u" and f == "o" + w[1:]} for w, ks in self.kinds.items() if "noun" in ks}
+        # The forms a noun shares with a verb, which the build gives the one or the other by their counts
+        # (NOUN_SHARE): the noun's words, the others'.
+        self.collisions = {}
         self._learn_verb_patterns()
         self._make_regular_forms()
 
@@ -575,6 +602,10 @@ class Lexicon:
                 return True
         return False
 
+    def _plain_fits(self, prefix, ending, kind, persistive=False):
+        """Whether [prefix] is one the tables show before a verb with [ending], without an object concord."""
+        return prefix in self.endings[kind].get(ending, ())
+
     def _verbs(self, token, fits):
         for i in range(0, min(len(token) - 1, self.longest_prefix) + 1):
             prefix = token[:i]
@@ -588,6 +619,14 @@ class Lexicon:
                     out |= self.whole[stem]
             if out:
                 return frozenset(out)
+        return frozenset()
+
+    def _subject_verbs(self, token):
+        """The verbs [token] is a form of by verb_lemmas, unless its prefix is an object concord alone (mfana, msolwa: no
+        "resemble him!", "suspect him!")."""
+        for i in range(0, min(len(token) - 1, self.longest_prefix) + 1):
+            if self._verbs(token[i:], lambda p, e, k, s: p == "" and self._prefix_fits(token[:i], e, k, s)):
+                return frozenset() if token[:i] in BARE_OBJECTS else self._verbs(token, self._prefix_fits)
         return frozenset()
 
     @functools.lru_cache(maxsize=None)
@@ -605,8 +644,24 @@ class Lexicon:
                 rest = concord + token[len(aux):]
                 found = (rest in self.forms and self.lemmas(rest)) or self.verb_lemmas(rest) or self.lemmas(rest)
                 if found:
+                    if rest in self.collisions:
+                        self.collisions[token] = self.collisions[rest]
                     return found
         return frozenset()
+
+    def _strong(self, verbs):
+        return {w for w in verbs if len(w) >= 4 or w in SHORT_VERBS}
+
+    def _collide(self, token, nominal, others):
+        """[nominal] and the verbs [others] that [token] is a form of alike, kept for the build (NOUN_SHARE)."""
+        self.collisions[token] = (frozenset(nominal), frozenset(others))
+        return frozenset(nominal) | frozenset(others)
+
+    def _other_readings(self, token):
+        """The verbs [token] is a form of by their tables or by the tables' prefixes without an object concord (ekhala,
+        behlezi)."""
+        tables = {w for w in self.forms.get(token, ()) if "verb" in self.kinds[w]}
+        return self._strong(tables | self._verbs(token, self._plain_fits))
 
     def _word_or_form(self, base, kinds=None):
         """[base] as a word of the lexicon or the words it is a form of, of the parts of speech [kinds] when given."""
@@ -637,6 +692,23 @@ class Lexicon:
             return frozenset()
         middle = token[1:-3]
         return frozenset(v + middle + end for v in ("u", "i", "a") for end in VOWELS if "noun" in self.kinds.get(v + middle + end, ()))
+
+    def _copula_nouns(self, token):
+        """The nouns [token] is with the copula of an i- noun (ngibhala, yibhala) or with a subject concord on it (ayibhala,
+        ngiyingane), the readings nominal_lemmas has first among its own."""
+        for prefix in ("ngi", "yi"):
+            rest = token[len(prefix):]
+            if token.startswith(prefix) and len(rest) > 2 and rest[0] not in VOWELS:
+                found = self._word_or_form("i" + rest, {"noun"})
+                if found:
+                    return found
+        for prefix in ("ngi", "u", "si", "ni", "ba", "i", "li", "zi", "ku", "lu", "bu", "wu", "a"):
+            rest = token[len(prefix):]
+            if token.startswith(prefix) and rest[:2] in ("ng", "yi", "wu") and rest in self.forms:
+                found = {w for w in self.forms[rest] if "noun" in self.kinds[w]}
+                if found:
+                    return found
+        return set()
 
     @functools.lru_cache(maxsize=None)
     def nominal_lemmas(self, token):
@@ -717,31 +789,50 @@ class Lexicon:
             return frozenset(w for w in found if w in self.capitalised)
         if token in ZULU_FORMS:
             return frozenset(ZULU_FORMS[token].split(","))
-        if token in FRAGMENTS:
+        if token in FRAGMENTS or UNLISTED_NOUNS.match(token):
             return frozenset()
         if token in self.kinds:
             return frozenset({token})
         if token in self.special:
             return frozenset({self.special[token]})
+        weak = lambda w: len(w) < 4 and w not in SHORT_VERBS
+        nounish = lambda words: all(self.kinds[w] & {"noun"} and not self.kinds[w] & {"pron", "adj", "num"} for w in words)
         if token in self.forms:
-            # A form a verb's table shares with a noun's, pronoun's or adjective's is theirs (wakhe "his", not akha's "he
-            # built"; abanye "others", not nya's), and so is one the noun rules read (kuyona "it is it", not ona's).
+            # A form a verb's table shares with a pronoun's or adjective's is theirs (wakhe "his", not akha's "he built";
+            # abanye "others", not nya's), and so is one the noun rules read (kuyona "it is it", not ona's).
             found = self.forms[token]
             others = {w for w in found if "verb" not in self.kinds[w]}
             # A noun's form without its first vowel (sithole, zithole of isithole "heifer") is a verb's first when it reads
-            # as one (sithole "we found", thola's).
-            vowelless = all("noun" in self.kinds[w] and any(v + token == w or v + token in self.table[w] for v in VOWELS)
-                            for w in others)
-            if others and vowelless and self.verb_lemmas(token):
-                return self.verb_lemmas(token)
+            # as one with a subject concord (sithole "we found", thola's; mfana is umfana's, no "resemble him!").
+            vowelless = all("noun" in self.kinds[w] and any(token == b[1:] for b in self.bases[w]) for w in others)
+            subject = self._subject_verbs(token)
+            if others and vowelless and subject:
+                return subject
+            # A noun's other forms a verb writes alike (ekhala "of the nose", "crying") are shared, as the build decides
+            # (NOUN_SHARE); its own forms in either number (abafana, amakhala) are its.
+            if others and nounish(others) and not any(token in self.bases[w] for w in others):
+                readings = self._other_readings(token)
+                if readings:
+                    return self._collide(token, others, readings)
             if others:
                 return frozenset(others)
+            # So is a form the noun rules read (ngibhala "I am a wheelbarrow", "I write"), and one they read as no noun
+            # is the verb's (angene, ngena's, no "it is by four").
+            strong = {w for w in found if not weak(w)}
             nominal = self.nominal_lemmas(token)
+            if nominal and strong and nounish(nominal) and self._copula_nouns(token):
+                return self._collide(token, nominal, strong)
+            if nominal and strong and all(self.kinds[w] <= {"adj", "num"} for w in nominal):
+                return frozenset(strong)
             if nominal:
                 return nominal
             # A short verb's table shares many forms with a longer verb's (ungene "you should not rain", na's, is "you should
-            # enter", ngena's): the longer verb's, when the verb rules read it so.
-            weak = lambda w: len(w) < 4 and w not in SHORT_VERBS
+            # enter", ngena's): the longer verb's, when the verb rules read it so; and a noun's regular form's (sana, usana's
+            # without its vowel, no "it should rain").
+            if not strong:
+                regular = self.regular_lemmas(token)
+                if regular and not any(weak(w) for w in regular):
+                    return regular
             if not all(weak(w) for w in found):
                 found = {w for w in found if not weak(w)}
             if all(len(w) < 4 for w in found):
@@ -751,11 +842,22 @@ class Lexicon:
             return frozenset(found)
         found = self.nominal_lemmas(token)
         if found:
+            # A noun the rules read with a copula (ayibhala "it is no wheelbarrow") that a verb's form writes alike (ayibhala
+            # "he writes it") is shared, as the build decides (NOUN_SHARE); not one with na, nga or a possessive (nabafana,
+            # singabakhiqizi).
+            verbs = self._other_readings(token)
+            if verbs and nounish(found) and self._copula_nouns(token):
+                return self._collide(token, found, verbs)
             return found
         found = self.verb_lemmas(token) or self._compound(token)
         if found:
             return found
         for clitic in ENCLITICS:
+            # No -ni "what" on a locative but an infinitive's (ekugcineni) or on a plural imperative (enzeni): esangweni,
+            # isango's, is no "what is kissed?".
+            if (clitic == "ni" and token[0] in "eo" and token.endswith(("eni", "ini")) and not token.startswith(("eku", "ekw"))
+                    and not self._verbs(token[:-2], lambda p, e, k, s: p == "" and self._prefix_fits(p, e, k, False))):
+                continue
             if token.endswith(clitic) and len(token) >= len(clitic) + 3:
                 bare = token[:-len(clitic)]
                 found = self.verb_lemmas(bare)
@@ -897,6 +999,12 @@ def build(size, download, dictionaries=DICTIONARIES):
             others = lexicon.forms[form] - {form}
             if others and max(own.get(w, 0.0) for w in others) > share[form] and own.get(form, 0.0) < share[form]:
                 heads[form] = frozenset(others)
+    # A noun's form a verb writes alike is the noun's unless its other forms are much rarer (NOUN_SHARE).
+    for form in share:
+        if form in lexicon.collisions and heads[form] == lexicon.lemmas(form):
+            nominal, others = lexicon.collisions[form]
+            rare = max(own.get(w, 0.0) for w in nominal) < NOUN_SHARE * max(own.get(w, 0.0) for w in others)
+            heads[form] = others if rare else nominal
     scores = defaultdict(float)
     totals = defaultdict(int)
     forms = defaultdict(dict)
