@@ -88,7 +88,8 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit) {
     val go: (Route) -> Unit = { sheet = null; onNavigate(it) }
     when (sheet) {
         NavSection.BOOKS -> PagesSheet(tr("Read"), readPages + listOfNotNull(MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videos }), "read", go) { sheet = null }
-        NavSection.FLASHCARDS -> PagesSheet(tr("Flashcards"), flashcardPages, "flashcards", go) { sheet = null }
+        // The cards due today, as on the tab, beside the review that takes them.
+        NavSection.FLASHCARDS -> PagesSheet(tr("Flashcards"), flashcardPages, "flashcards", go, badges = mapOf(flashcardPages.first().route to due)) { sheet = null }
         NavSection.TERMS -> PagesSheet(tr("Vocabulary"), vocabularyPages, "vocabulary", go) { sheet = null }
         else -> {}
     }
@@ -99,7 +100,7 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit) {
  * and each row "[tag]-" and its English label.
  */
 @Composable
-private fun PagesSheet(title: String, pages: List<MoreEntry>, tag: String, onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
+private fun PagesSheet(title: String, pages: List<MoreEntry>, tag: String, onNavigate: (Route) -> Unit, badges: Map<Route, Int> = emptyMap(), onDismiss: () -> Unit) {
     AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("$tag-sheet")) {
         ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(bottom = AppSpacing.l)) {
             Row(Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
@@ -116,6 +117,7 @@ private fun PagesSheet(title: String, pages: List<MoreEntry>, tag: String, onNav
                     icon = entry.icon,
                     verticalPadding = AppSpacing.xxl,
                     edgePadding = AppSpacing.xl,
+                    badge = badges[entry.route] ?: 0,
                 )
             }
         }

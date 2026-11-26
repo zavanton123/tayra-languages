@@ -14,6 +14,9 @@ import androidx.compose.ui.test.SemanticsMatcher
 import androidx.compose.ui.test.hasClickAction
 import androidx.compose.ui.test.assertIsNotSelected
 import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.hasText
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
@@ -77,10 +80,13 @@ class PhoneNavigationTest {
     @Test
     fun flashcardsOpensTheSheetOfItsPages() = runDesktopComposeUiTest(width = 400, height = 900) {
         val visited = mutableListOf<Route>()
-        setContent { MaterialTheme { PhoneNavBar(section = NavSection.HOME, onNavigate = { visited += it }) } }
+        setContent { MaterialTheme { CompositionLocalProvider(LocalFlashcardsDue provides 308) { PhoneNavBar(section = NavSection.HOME, onNavigate = { visited += it }) } } }
         onNodeWithTag("phone-nav-FLASHCARDS").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcards-sheet").fetchSemanticsNodes().isNotEmpty() }
         for (page in listOf("Review flashcards", "Browse flashcards", "Flashcard statistics")) onNodeWithTag("flashcards-$page").assertExists()
+        // The review shows how many cards wait, in full, where the tab shows 99+.
+        onNode(hasText("308") and hasAnyAncestor(hasTestTag("flashcards-Review flashcards")), useUnmergedTree = true).assertExists()
+        assertEquals(0, onAllNodes(hasText("308") and hasAnyAncestor(hasTestTag("flashcards-Browse flashcards")), useUnmergedTree = true).fetchSemanticsNodes().size)
         // A row is lit across the sheet's whole width.
         val row = onNodeWithTag("flashcards-Review flashcards").fetchSemanticsNode().boundsInRoot
         assertEquals(onNodeWithTag("flashcards-sheet").fetchSemanticsNode().boundsInRoot.width, row.width, 1f)

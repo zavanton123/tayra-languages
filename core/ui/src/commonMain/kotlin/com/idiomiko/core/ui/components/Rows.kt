@@ -125,7 +125,7 @@ fun CheckSetting(
 }
 
 /**
- * A row that opens something: an optional [icon], its name, an optional [value] and a chevron.
+ * A row that opens something: an optional [icon], its name, an optional [value], a [badge] count when above 0, and a chevron.
  * [tint] colours the name and icon, for a link (primary) or a destructive action (error); [verticalPadding] sets its
  * height, and [edgePadding] insets its content inside a row that spans the whole width.
  */
@@ -140,6 +140,7 @@ fun NavigationRow(
     tint: Color? = null,
     verticalPadding: Dp = AppSpacing.m,
     edgePadding: Dp? = null,
+    badge: Int = 0,
 ) {
     val colors = MaterialTheme.colorScheme
     // With [edgePadding] the row runs to the edges of what holds it, its pressed highlight square across the whole width.
@@ -152,6 +153,7 @@ fun NavigationRow(
         if (icon != null) Icon(icon, contentDescription = null, tint = tint ?: colors.primary, modifier = Modifier.size(AppSizes.iconMedium))
         RowText(title, description, Modifier.weight(1f), color = tint ?: colors.onSurface)
         if (value != null) Text(value, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+        if (badge > 0) CountBadge(badge, emphasis = BadgeEmphasis.Solid)
         Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.iconLarge))
     }
 }
