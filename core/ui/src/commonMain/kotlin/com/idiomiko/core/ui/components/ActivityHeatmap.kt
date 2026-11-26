@@ -88,6 +88,7 @@ fun ActivityHeatmapCard(
     val surface = MaterialTheme.colorScheme.surface
     val outline = MaterialTheme.colorScheme.outlineVariant
     var pointed by remember { mutableStateOf<LocalDate?>(null) }
+    TouchTooltipTimeout(pointed) { pointed = null }
     val density = LocalDensity.current
     val measurer = rememberTextMeasurer()
     val weekdayStyle = MaterialTheme.typography.labelSmall

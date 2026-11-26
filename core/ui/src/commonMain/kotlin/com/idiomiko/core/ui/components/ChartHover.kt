@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -26,6 +27,7 @@ import androidx.compose.ui.window.Popup
 import androidx.compose.ui.window.PopupPositionProvider
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSpacing
+import kotlinx.coroutines.delay
 
 /**
  * Tells which of [count] equal columns across the width the pointer is over, or null once it leaves; on a touch
@@ -57,6 +59,7 @@ fun ColumnTooltips(
 ) {
     var hovered by remember(count) { mutableStateOf<Int?>(null) }
     var size by remember { mutableStateOf(IntSize.Zero) }
+    TouchTooltipTimeout(hovered) { hovered = null }
     Box(modifier.onSizeChanged { size = it }.then(if (describe == null) Modifier else Modifier.hoverColumn(count) { hovered = it })) {
         content(hovered)
         val column = hovered
@@ -67,6 +70,23 @@ fun ColumnTooltips(
         }
     }
 }
+
+/**
+ * On a phone, where a tap leaves a chart's tooltip up with no pointer to move away, [clear] once the tooltip for
+ * [shown] has been up for [TOUCH_TOOLTIP_MILLIS]; a new tap starts the wait again.
+ */
+@Composable
+internal fun TouchTooltipTimeout(shown: Any?, clear: () -> Unit) {
+    if (!LocalWindowWidth.current.isCompact) return
+    LaunchedEffect(shown) {
+        if (shown == null) return@LaunchedEffect
+        delay(TOUCH_TOOLTIP_MILLIS)
+        clear()
+    }
+}
+
+/** How long a tapped chart's tooltip stays on a phone. */
+internal const val TOUCH_TOOLTIP_MILLIS = 3_000L
 
 /** [text] about the part of a chart at [anchor] (within the box it is placed in), over it, kept inside the window. */
 @Composable
