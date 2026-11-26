@@ -379,5 +379,4 @@ internal val frCourses: Map<String, String> = mapOf(
     "{0} complete" to "{0} terminé",
     "{0} and {1} complete" to "{0} et {1} terminés",
     "{1} lessons read" to "{1} leçon lue|{1} leçons lues",
-    "Review them" to "Les revoir",
 )

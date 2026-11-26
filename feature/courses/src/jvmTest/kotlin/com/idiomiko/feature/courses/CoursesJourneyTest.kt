@@ -36,6 +36,7 @@ import javax.imageio.ImageIO
 import kotlin.test.Test
 import androidx.compose.ui.test.hasAnyAncestor
 import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.hasText
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -144,7 +145,7 @@ class CoursesJourneyTest {
     @Test
     fun theFinishedLevelsAndTheFoldedOnesOpenInPlace() = runDesktopComposeUiTest(width = 1600, height = 1100) {
         page(JourneyFixture.underWay())
-        onNodeWithText("Review them").performScrollTo().performClick()
+        onNode(hasText("Show") and hasAnyAncestor(hasTestTag("finished-levels"))).performScrollTo().performClick()
         waitUntil(timeoutMillis = 5_000) { exists("course-pt-mini-0100") }
         assertTrue(exists("course-pt-mini-1000"))
         onNodeWithTag("level-header-C1").performScrollTo().performClick()

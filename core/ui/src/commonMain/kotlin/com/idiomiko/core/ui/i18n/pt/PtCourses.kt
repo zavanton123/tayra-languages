@@ -379,5 +379,4 @@ internal val ptCourses: Map<String, String> = mapOf(
     "{0} complete" to "{0} concluído",
     "{0} and {1} complete" to "{0} e {1} concluídos",
     "{1} lessons read" to "{1} lição lida|{1} lições lidas",
-    "Review them" to "Rever",
 )

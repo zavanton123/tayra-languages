@@ -348,7 +348,7 @@ internal fun FinishedLevelsBar(levels: List<LevelProgress>, expanded: Boolean, o
             style = MaterialTheme.typography.bodyLarge,
             color = colors.onSurface,
         )
-        LinkText(if (expanded) tr("Hide") else tr("Review them"), onToggle, style = MaterialTheme.typography.bodyMedium)
+        LinkText(if (expanded) tr("Hide") else tr("Show"), onToggle, style = MaterialTheme.typography.bodyMedium)
     }
 }
 

@@ -379,5 +379,4 @@ internal val zhCourses: Map<String, String> = mapOf(
     "{0} complete" to "{0} 已完成",
     "{0} and {1} complete" to "{0} 和 {1} 已完成",
     "{1} lessons read" to "已读 {1} 篇课文",
-    "Review them" to "回顾",
 )
