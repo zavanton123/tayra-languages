@@ -21,6 +21,8 @@ data class AccountInfo(
     val name: String? = null,
     /** Which picture the account has, changing with it; null without one. */
     val picture: String? = null,
+    /** The picture is one the owner uploaded, which they can remove to show Google's again, if any. */
+    val ownPicture: Boolean = false,
 )
 
 /** Who this device is signed in as, for the app's bar and the account page: kept on the device, so it shows offline too. */
@@ -115,6 +117,12 @@ interface AccountRepository {
 
     /** Deletes the account and everything the service keeps for it; this device is signed out. */
     suspend fun deleteAccount()
+
+    /** Makes [image], a PNG or JPEG, the account's picture in place of any other; [profile] follows. */
+    suspend fun uploadPicture(image: ByteArray): Unit = throw AccountException(AccountProblem.NOT_SET_UP, "Pictures cannot be changed here")
+
+    /** Removes the picture the owner uploaded, showing Google's again where the account has one; [profile] follows. */
+    suspend fun removePicture(): Unit = throw AccountException(AccountProblem.NOT_SET_UP, "Pictures cannot be changed here")
 
     /** Hands the account service a purchase the store just made, or one made before, for it to check and take. */
     suspend fun reportPurchase(receipt: StoreReceipt)

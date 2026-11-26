@@ -21,6 +21,7 @@ import io.ktor.client.request.HttpRequestData
 import io.ktor.client.request.HttpResponseData
 import io.ktor.http.HttpHeaders
 import io.ktor.http.HttpStatusCode
+import io.ktor.http.content.OutgoingContent
 import io.ktor.http.headersOf
 import kotlinx.coroutines.test.runTest
 import java.io.IOException
@@ -142,6 +143,39 @@ class AccountClientTest {
         assertNull(client.profile.value)
         assertNull(secure.get("account.http://service.test.name"))
         assertNull(secure.get("account.http://service.test.picture"))
+    }
+
+    /** An uploaded picture goes to the service as the request's body; then, as when it is removed, the account is read again. */
+    @Test
+    fun aPictureIsUploadedAndRemoved() = runTest {
+        var own = false
+        var sent: ByteArray? = null
+        var type: String? = null
+        val client = client { request ->
+            when ("${request.method.value} ${request.url.encodedPath}") {
+                "POST /api/v1/auth/login" -> json(tokens("access-1", "refresh-1"))
+                "GET /api/v1/me" -> json(me.removeSuffix("}") + if (own) ""","picture":"u1","ownPicture":true}""" else "}")
+                "PUT /api/v1/me/picture" -> {
+                    sent = (request.body as OutgoingContent.ByteArrayContent).bytes()
+                    type = request.body.contentType?.toString()
+                    own = true
+                    respond("", HttpStatusCode.NoContent)
+                }
+                "DELETE /api/v1/me/picture" -> { own = false; respond("", HttpStatusCode.NoContent) }
+                else -> error(request.url.encodedPath)
+            }
+        }
+        client.signIn("reader@example.com", "correct horse")
+        client.uploadPicture(byteArrayOf(7, 7))
+        assertEquals(listOf<Byte>(7, 7), sent?.toList())
+        assertEquals("image/jpeg", type)
+        assertEquals("u1", client.profile.value?.picture)
+        assertEquals(true, client.account().ownPicture)
+
+        client.removePicture()
+        assertNull(client.profile.value?.picture)
+        assertEquals(listOf("PUT /api/v1/me/picture Bearer access-1", "DELETE /api/v1/me/picture Bearer access-1"), seen.filter { "/me/picture" in it })
+        assertEquals(2, seen.zipWithNext().count { (call, next) -> "/me/picture" in call && next == "GET /api/v1/me Bearer access-1" }, "the account is read again after each")
     }
 
     /** An access token the service refuses is renewed once with the refresh token, and the request made again. */

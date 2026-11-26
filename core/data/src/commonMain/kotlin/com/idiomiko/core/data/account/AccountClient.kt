@@ -152,8 +152,18 @@ class AccountClient(
         val checkout = sub.checkoutUrl.takeIf { device().platform !in STORE_PLATFORMS }
         AccountInfo(
             me.email, me.emailVerified, me.hasPassword, me.providers,
-            Plan(sub.active, sub.activeUntil?.let(Instant::fromEpochMilliseconds), sub.source, checkout, sub.manageUrl), me.id, me.name, me.picture,
+            Plan(sub.active, sub.activeUntil?.let(Instant::fromEpochMilliseconds), sub.source, checkout, sub.manageUrl), me.id, me.name, me.picture, me.ownPicture,
         )
+    }
+
+    override suspend fun uploadPicture(image: ByteArray) {
+        exchange(HttpMethod.Put, "/me/picture", signedIn = true) { contentType(ContentType.Image.JPEG); setBody(image) }
+        account()
+    }
+
+    override suspend fun removePicture() {
+        send(HttpMethod.Delete, "/me/picture", null)
+        account()
     }
 
     override suspend fun picture(): ByteArray? {
