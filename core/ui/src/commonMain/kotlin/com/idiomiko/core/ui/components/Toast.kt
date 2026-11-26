@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Warning
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -31,6 +32,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.IntOffset
@@ -57,9 +59,17 @@ class ToastState {
         internal set
     internal var shown by mutableIntStateOf(0)
         private set
+    internal var icon by mutableStateOf(Icons.Default.CheckCircle)
+        private set
 
-    fun show(message: String, actionLabel: String? = null, onAction: (() -> Unit)? = null) {
+    fun show(message: String, actionLabel: String? = null, onAction: (() -> Unit)? = null) = show(message, actionLabel, onAction, Icons.Default.CheckCircle)
+
+    /** Shows [message] about what did not work, with a warning in place of the tick. */
+    fun showProblem(message: String) = show(message, null, null, Icons.Default.Warning)
+
+    private fun show(message: String, actionLabel: String?, onAction: (() -> Unit)?, icon: ImageVector) {
         text = message
+        this.icon = icon
         action = if (actionLabel != null && onAction != null) actionLabel to onAction else null
         visible = true
         shown++
@@ -97,7 +107,7 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000, lift: Dp = 32.dp)
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
             ) {
-                Icon(Icons.Default.CheckCircle, contentDescription = null, tint = colors.inversePrimary, modifier = Modifier.size(AppSizes.icon))
+                Icon(state.icon, contentDescription = null, tint = colors.inversePrimary, modifier = Modifier.size(AppSizes.icon))
                 Text(state.text, style = MaterialTheme.typography.bodyMedium, color = colors.inverseOnSurface)
                 state.action?.let { (label, onAction) ->
                     Text(

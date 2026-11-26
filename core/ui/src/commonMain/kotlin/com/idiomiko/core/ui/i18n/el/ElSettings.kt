@@ -302,6 +302,8 @@ internal val elSettings: Map<String, String> = mapOf(
     "Sync now" to "Συγχρονισμός τώρα",
     "Sent: {0} · Taken from other devices: {1}" to "Στάλθηκαν: {0} · Ελήφθησαν από άλλες συσκευές: {1}",
     "This device is in sync" to "Αυτή η συσκευή είναι συγχρονισμένη",
+    "The libraries are combined" to "Οι βιβλιοθήκες συνδυάστηκαν",
+    "The libraries could not be combined" to "Δεν ήταν δυνατός ο συνδυασμός των βιβλιοθηκών",
     "Combine the libraries?" to "Συνδυασμός των βιβλιοθηκών;",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Ο λογαριασμός σας έχει ήδη βιβλιοθήκη από άλλη συσκευή. Οι λέξεις, τα κείμενα και η πρόοδος και των δύο διατηρούνται· όπου το ίδιο άλλαξε και στις δύο, μένει η πιο πρόσφατη αλλαγή.",
     "Combine" to "Συνδυασμός",

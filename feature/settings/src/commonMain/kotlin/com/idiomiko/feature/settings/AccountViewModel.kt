@@ -172,15 +172,18 @@ class AccountViewModel(
     /** Moving to another form, or away from the page, leaves the last problem behind. */
     fun problemSeen() = _state.update { it.copy(problem = null, problemText = null) }
 
-    /**
-     * Syncs, combining the two libraries when [combine], the reader's answer to the page's question. A failure
-     * is said by the sync card, from the sync's own status, rather than again above it.
-     */
-    fun syncNow(combine: Boolean = false) = work(AccountTask.SYNCING, sayProblem = false) {
-        when (sync.syncNow(combine)) {
+    /** Syncs. A failure is said by the sync card, from the sync's own status, rather than again above it. */
+    fun syncNow() = work(AccountTask.SYNCING, sayProblem = false) {
+        when (sync.syncNow()) {
             SyncResult.NeedsCombining -> _state.update { it.copy(confirmCombine = true) }
             is SyncResult.Done -> _state.update { it.copy(confirmCombine = false, done = AccountDone.SYNCED) }
         }
+    }
+
+    /** Combines the two libraries, the reader's answer to the page's question: the question goes, and the work goes on in the background. */
+    fun combine() {
+        _state.update { it.copy(confirmCombine = false) }
+        sync.combine()
     }
 
     fun cancelCombine() = _state.update { it.copy(confirmCombine = false) }

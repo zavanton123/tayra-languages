@@ -15,6 +15,7 @@ import kotlin.test.assertTrue
 import kotlin.time.Clock
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Instant
+import kotlinx.coroutines.flow.first
 
 /** Syncing only when asked: one sync at a time, never combining unasked, the status said as it goes. */
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -74,6 +75,25 @@ class SyncRunnerTest {
         assertTrue(env.runner.syncNow(combine = true) is SyncResult.Done)
         assertEquals(1, env.sync.syncs)
         assertFalse(env.runner.status.value.waitingToCombine)
+    }
+
+    /** Combining runs on its own, past whoever asked, and says when it has ended. */
+    @Test
+    fun combiningRunsInTheBackgroundAndSaysHowItEnded() = runTest {
+        val sync = Sync().apply { combining = true }
+        val runner = SyncRunner(sync, scope = backgroundScope)
+        assertEquals(SyncResult.NeedsCombining, runner.syncNow())
+        val ended = async { runner.combined.first() }
+        runner.combine()
+        assertFalse(runner.status.value.waitingToCombine, "the question is answered at once")
+        assertTrue(ended.await())
+        assertEquals(1, sync.syncs)
+
+        sync.failWith = AccountProblem.OFFLINE
+        val failed = async { runner.combined.first() }
+        runner.combine()
+        assertFalse(failed.await())
+        assertEquals(AccountProblem.OFFLINE, runner.status.value.problem)
     }
 
     @Test

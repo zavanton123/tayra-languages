@@ -511,8 +511,10 @@ class AccountScreenTest {
         runBlocking { runner.syncNow() }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Combine the libraries?").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Combine").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("This device is in sync").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(1, sync.syncs)
+        // The question goes at once; the combining goes on in the background, and the app's snackbar says when it is done.
+        onNodeWithText("Combine the libraries?").assertDoesNotExist()
+        onNodeWithTag("account-sign-out").assertIsEnabled()
+        waitUntil(timeoutMillis = 5_000) { sync.syncs == 1 }
     }
 
     @Test

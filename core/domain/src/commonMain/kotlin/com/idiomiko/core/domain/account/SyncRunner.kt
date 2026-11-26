@@ -2,12 +2,19 @@ package com.idiomiko.core.domain.account
 
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.time.Clock
@@ -35,12 +42,38 @@ data class SyncStatus(
 class SyncRunner(
     private val sync: LibrarySync,
     private val clock: Clock = Clock.System,
+    /** Where a combining the reader asked for runs, past the page that asked. */
+    private val scope: CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default),
 ) {
     private val _status = MutableStateFlow(SyncStatus(lastSynced = sync.lastSynced()))
     val status: StateFlow<SyncStatus> = _status.asStateFlow()
 
     /** Whether this device holds changes not sent yet, as [LibrarySync.unsent] says. */
     fun unsent(): Flow<Boolean> = sync.unsent()
+
+    private val _combined = MutableSharedFlow<Boolean>(extraBufferCapacity = 1)
+
+    /** Emits once a combining [combine] started has ended: true when the libraries are one, false when it failed. */
+    val combined: SharedFlow<Boolean> = _combined.asSharedFlow()
+
+    /**
+     * Combines the two libraries, the reader's answer to the question, without them waiting on the page that asked:
+     * the sync goes on when they leave it, and [combined] says how it ended.
+     */
+    fun combine() {
+        _status.update { it.copy(waitingToCombine = false) }
+        scope.launch {
+            val done = try {
+                syncNow(combine = true) is SyncResult.Done
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                // The sync's status keeps why, for the sync card to say.
+                false
+            }
+            _combined.emit(done)
+        }
+    }
 
     private val running = Mutex()
     /** The sync under way, whose result a sync asked for meanwhile takes instead of running another after it. */

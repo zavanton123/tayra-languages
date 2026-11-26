@@ -302,6 +302,8 @@ internal val frSettings: Map<String, String> = mapOf(
     "Sync now" to "Synchroniser maintenant",
     "Sent: {0} · Taken from other devices: {1}" to "Envoyées : {0} · Reçues d’autres appareils : {1}",
     "This device is in sync" to "Cet appareil est synchronisé",
+    "The libraries are combined" to "Les bibliothèques sont combinées",
+    "The libraries could not be combined" to "Les bibliothèques n’ont pas pu être combinées",
     "Combine the libraries?" to "Combiner les bibliothèques ?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Votre compte contient déjà une bibliothèque d’un autre appareil. Les mots, textes et progrès des deux sont conservés ; si la même chose a été modifiée des deux côtés, la modification la plus récente l’emporte.",
     "Combine" to "Combiner",

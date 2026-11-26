@@ -66,6 +66,8 @@ data class SyncPromptState(
     val combine: Boolean = false,
     /** The sync finished after the dialog was closed, to be said once. */
     val doneUnseen: Boolean = false,
+    /** How a combining of two libraries, done in the background, ended (true when they are one), to be said once. */
+    val combinedUnseen: Boolean? = null,
 )
 
 @OptIn(ExperimentalCoroutinesApi::class)
@@ -78,6 +80,7 @@ class SyncPromptViewModel(private val sync: SyncRunner, private val accounts: Ac
             sync.status.collect { s -> _state.update { it.copy(running = s.running, progress = s.progress, lastSynced = s.lastSynced ?: it.lastSynced, lastFailed = s.problem != null) } }
         }
         viewModelScope.launch { accounts.signedIn.collect { email -> _state.update { it.copy(signedIn = email != null) } } }
+        viewModelScope.launch { sync.combined.collect { done -> _state.update { it.copy(combinedUnseen = done) } } }
         // Signing in to another account makes everything here unsent to it.
         viewModelScope.launch { accounts.signedIn.flatMapLatest { sync.unsent() }.collect { unsent -> _state.update { it.copy(unsent = unsent) } } }
     }
@@ -114,6 +117,8 @@ class SyncPromptViewModel(private val sync: SyncRunner, private val accounts: Ac
     fun combineSeen() = _state.update { it.copy(combine = false) }
 
     fun doneSeen() = _state.update { it.copy(doneUnseen = false) }
+
+    fun combinedSeen() = _state.update { it.copy(combinedUnseen = null) }
 }
 
 /** The sync dialog, hosted once for the whole app; [onOpenAccount] leads to the account page. */
@@ -130,6 +135,13 @@ fun SyncPrompt(viewModel: SyncPromptViewModel, onOpenAccount: () -> Unit) {
         if (!state.doneUnseen) return@LaunchedEffect
         toast.show(tr("This device is in sync"))
         viewModel.doneSeen()
+    }
+    // Wherever the reader went after asking: the account page's sync card says why when it failed.
+    LaunchedEffect(state.combinedUnseen) {
+        val done = state.combinedUnseen ?: return@LaunchedEffect
+        if (done) toast.show(tr("The libraries are combined"))
+        else toast.showProblem(tr("The libraries could not be combined"))
+        viewModel.combinedSeen()
     }
     ToastHost(toast)
     if (state.open) SyncDialog(state, viewModel, onOpenAccount = { viewModel.close(); onOpenAccount() })

@@ -302,6 +302,8 @@ internal val ruSettings: Map<String, String> = mapOf(
     "Sync now" to "Синхронизировать",
     "Sent: {0} · Taken from other devices: {1}" to "Отправлено: {0} · Получено с других устройств: {1}",
     "This device is in sync" to "Это устройство синхронизировано",
+    "The libraries are combined" to "Библиотеки объединены",
+    "The libraries could not be combined" to "Не удалось объединить библиотеки",
     "Combine the libraries?" to "Объединить библиотеки?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "В вашем аккаунте уже есть библиотека с другого устройства. Слова, тексты и прогресс обеих сохранятся; если одно и то же изменили на обоих, останется более позднее изменение.",
     "Combine" to "Объединить",

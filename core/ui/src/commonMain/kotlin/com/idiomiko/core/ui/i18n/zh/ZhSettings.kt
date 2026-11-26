@@ -302,6 +302,8 @@ internal val zhSettings: Map<String, String> = mapOf(
     "Sync now" to "立即同步",
     "Sent: {0} · Taken from other devices: {1}" to "已发送：{0} · 从其他设备获取：{1}",
     "This device is in sync" to "此设备已同步",
+    "The libraries are combined" to "资料库已合并",
+    "The libraries could not be combined" to "无法合并资料库",
     "Combine the libraries?" to "合并两个资料库？",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "你的账户已有来自另一台设备的资料库。两边的单词、文本和进度都会保留；同一项在两边都改过时，保留较晚的修改。",
     "Combine" to "合并",

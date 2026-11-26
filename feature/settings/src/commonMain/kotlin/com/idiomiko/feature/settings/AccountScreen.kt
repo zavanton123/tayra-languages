@@ -162,7 +162,7 @@ private fun CombineQuestion(state: AccountUiState, actions: AccountViewModel?) {
         title = tr("Combine the libraries?"),
         text = tr("Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays."),
         confirmLabel = tr("Combine"),
-        onConfirm = { actions?.syncNow(combine = true) },
+        onConfirm = { actions?.combine() },
         onDismiss = { actions?.cancelCombine() },
     )
 }

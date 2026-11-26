@@ -302,6 +302,8 @@ internal val deSettings: Map<String, String> = mapOf(
     "Sync now" to "Jetzt synchronisieren",
     "Sent: {0} · Taken from other devices: {1}" to "Gesendet: {0} · Von anderen Geräten übernommen: {1}",
     "This device is in sync" to "Dieses Gerät ist synchronisiert",
+    "The libraries are combined" to "Die Bibliotheken sind zusammengeführt",
+    "The libraries could not be combined" to "Die Bibliotheken konnten nicht zusammengeführt werden",
     "Combine the libraries?" to "Bibliotheken zusammenführen?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Dein Konto enthält bereits eine Bibliothek von einem anderen Gerät. Wörter, Texte und Fortschritt beider bleiben erhalten; wurde dasselbe auf beiden geändert, bleibt die spätere Änderung.",
     "Combine" to "Zusammenführen",

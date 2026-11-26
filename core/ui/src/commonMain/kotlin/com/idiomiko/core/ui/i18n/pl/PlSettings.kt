@@ -302,6 +302,8 @@ internal val plSettings: Map<String, String> = mapOf(
     "Sync now" to "Synchronizuj teraz",
     "Sent: {0} · Taken from other devices: {1}" to "Wysłano: {0} · Pobrano z innych urządzeń: {1}",
     "This device is in sync" to "To urządzenie jest zsynchronizowane",
+    "The libraries are combined" to "Biblioteki zostały połączone",
+    "The libraries could not be combined" to "Nie udało się połączyć bibliotek",
     "Combine the libraries?" to "Połączyć biblioteki?",
     "Your account already holds a library from another device. The words, texts and progress of both are kept; where the same thing was changed on both, the later change stays." to "Twoje konto zawiera już bibliotekę z innego urządzenia. Słowa, teksty i postępy z obu zostaną zachowane; jeśli to samo zmieniono na obu, zostaje późniejsza zmiana.",
     "Combine" to "Połącz",

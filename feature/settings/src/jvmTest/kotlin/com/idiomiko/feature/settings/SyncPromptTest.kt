@@ -98,8 +98,8 @@ class SyncPromptTest {
     private var accountOpened = 0
 
     /** The wide bar over a page, with the dialog hosted as the app hosts it. */
-    private fun ComposeUiTest.showBar(accounts: AccountRepository, sync: LibrarySync): SyncPromptViewModel {
-        val viewModel = SyncPromptViewModel(SyncRunner(sync), accounts)
+    private fun ComposeUiTest.showBar(accounts: AccountRepository, sync: LibrarySync, runner: SyncRunner = SyncRunner(sync)): SyncPromptViewModel {
+        val viewModel = SyncPromptViewModel(runner, accounts)
         setContent {
             val state by viewModel.state.collectAsStateWithLifecycle()
             IdiomikoTheme {
@@ -189,6 +189,20 @@ class SyncPromptTest {
         waitUntil(timeoutMillis = 5_000) { accountOpened == 1 }
         assertEquals(0, sync.syncs, "nothing is combined before the answer")
         onNodeWithTag("sync-dialog").assertDoesNotExist()
+    }
+
+    /** Combining asked for on the account page runs in the background; the app says how it ended wherever the reader is. */
+    @Test
+    fun aCombiningInTheBackgroundSaysWhenItIsDone() = runDesktopComposeUiTest(width = 1600, height = 900) {
+        val sync = Sync(combining = true)
+        val runner = SyncRunner(sync)
+        showBar(Accounts("reader@example.com"), sync, runner)
+        runner.combine()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("The libraries are combined").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(1, sync.syncs)
+        sync.failing = true
+        runner.combine()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("The libraries could not be combined").fetchSemanticsNodes().isNotEmpty() }
     }
 
     @Test
