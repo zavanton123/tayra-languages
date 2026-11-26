@@ -6,11 +6,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.widthIn
@@ -32,7 +29,6 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIcons
-import com.idiomiko.core.ui.components.AppVerticalDivider
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.StatusTints
 import com.idiomiko.core.ui.components.animatedCount
@@ -73,8 +69,8 @@ internal class VocabularyShares(val known: Int, val learning: Int) {
 
 /**
  * The vocabulary at a glance on a wide window: the total beside a book, a ring of the known
- * words' share against the learning ones', and a legend with both counts, between hairlines. A
- * narrower card puts the total above the other two.
+ * words' share against the learning ones', and a legend with both counts. A narrower card puts
+ * the total above the other two.
  */
 @Composable
 internal fun VocabularyOverview(total: Int, known: Int, learning: Int, modifier: Modifier = Modifier) {
@@ -86,11 +82,9 @@ internal fun VocabularyOverview(total: Int, known: Int, learning: Int, modifier:
         Text(tr("Vocabulary overview"), style = AppText.sectionTitle)
         BoxWithConstraints(Modifier.fillMaxWidth()) {
             if (maxWidth >= ONE_LINE_WIDTH) {
-                Row(Modifier.fillMaxWidth().height(IntrinsicSize.Min), verticalAlignment = Alignment.CenterVertically) {
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                     TotalBlock(total, Modifier.weight(1f).padding(end = AppSpacing.xxl))
-                    AppVerticalDivider(Modifier.fillMaxHeight())
                     ShareRing(shares, AppSizes.ring, AppSizes.ringStroke, AppText.headline, Modifier.padding(horizontal = AppSpacing.huge))
-                    AppVerticalDivider(Modifier.fillMaxHeight())
                     Legend(shares, AppText.headline, Modifier.weight(1.2f).padding(start = AppSpacing.xxxl))
                 }
             } else {
