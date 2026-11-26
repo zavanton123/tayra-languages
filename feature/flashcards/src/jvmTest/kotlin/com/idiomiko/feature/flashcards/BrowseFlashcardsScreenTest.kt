@@ -20,7 +20,6 @@ import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.hasContentDescription
 import androidx.compose.ui.test.hasScrollToIndexAction
 import androidx.compose.ui.test.isRoot
-import androidx.compose.ui.test.longClick
 import androidx.compose.ui.test.onAllNodesWithTag
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
@@ -613,18 +612,22 @@ class BrowseFlashcardsScreenTest {
         save("BROWSE_PHONE_LIST_SCREENSHOT")
         // The review is in the Flashcards tab's sheet, not here.
         onNodeWithTag("phone-review").assertDoesNotExist()
-        // Select, from the bar's menu, puts checkboxes on the cards; a tap then picks the card instead of opening it.
-        onNodeWithTag("phone-menu").performClick()
-        onNodeWithTag("phone-select").performClick()
-        onNodeWithTag("browse-row-$comprar").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("phone-select-done").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isEmpty() }
-        // A long press starts selecting with that card.
-        onNodeWithTag("browse-row-$casa").performTouchInput { longClick() }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 of 3 selected").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("phone-select-done").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("selection-bar").fetchSemanticsNodes().isEmpty() }
+        // No menu: every card has its checkbox, which picks it; the actions then take the foot.
+        onNodeWithTag("phone-menu").assertDoesNotExist()
+        onNodeWithTag("browse-statistics").assertDoesNotExist()
+        onNodeWithTag("check-$comprar").performClick()
+        onNodeWithTag("check-$casa").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-selection-bar").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("2 selected").assertExists()
+        onNodeWithTag("selection-suspend").assertExists()
+        onNodeWithTag("delete-selected").assertExists()
+        save("BROWSE_PHONE_SELECTION_SCREENSHOT")
+        // Ticking all takes every card of the view; clearing puts the bar away.
+        onNodeWithTag("selection-all").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("3 selected").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithContentDescription("Clear selection").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-selection-bar").fetchSemanticsNodes().isEmpty() }
+        // A tap elsewhere on a card opens it.
         onNodeWithTag("browse-row-$casa").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("review-history").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("browse-detail").assertExists()

@@ -197,7 +197,6 @@ fun BrowseFlashcardsScreen(
         onPickWord = viewModel::chooseHiddenWord,
         onImportAnki = { ankiPicker.launch() },
         onExportAnki = viewModel::exportAnki,
-        onStatistics = { onNavigate(Route.FlashcardStats) },
     )
     val width = LocalWindowWidth.current
     if (width.isCompact) {
@@ -307,8 +306,6 @@ internal class BrowseActions(
     val onImportAnki: () -> Unit = {},
     /** Exports the language's cards to Anki with their progress. */
     val onExportAnki: () -> Unit = {},
-    /** The cards in figures. */
-    val onStatistics: () -> Unit = {},
 )
 
 private val DETAIL_DIALOG_WIDTH = 820.dp
