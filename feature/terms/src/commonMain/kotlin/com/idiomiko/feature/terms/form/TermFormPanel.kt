@@ -492,14 +492,13 @@ private fun RomanizationField(state: TermFormUiState, viewModel: TermFormViewMod
 }
 
 @Composable
-private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewModel, hint: String? = null, compact: Boolean = false) {
+private fun TranslationField(state: TermFormUiState, viewModel: TermFormViewModel, compact: Boolean = false) {
     AppTextField(
         value = state.draft.translation,
         onValueChange = { v -> viewModel.update { it.copy(translation = v) } },
         // The lookup is announced in the label, which is there anyway: a line under the field that comes and goes
         // would move everything below it (the examples, their button) while the user is about to click.
         label = { Text(if (state.lookingUpTranslation) tr("Looking up translation...") else tr("Translation")) },
-        supportingText = hint?.let { { Text(it) } },
         minLines = if (compact) 1 else 3,
         colors = fieldColors(),
         modifier = Modifier.fillMaxWidth().reportsTyping(),
@@ -568,7 +567,7 @@ private fun InformationCard(modifier: Modifier, state: TermFormUiState, viewMode
             }
         }
         RomanizationField(state, viewModel)
-        TranslationField(state, viewModel, hint = tr("Use a concise meaning or contextual translation."), compact = true)
+        TranslationField(state, viewModel, compact = true)
     }
 }
 

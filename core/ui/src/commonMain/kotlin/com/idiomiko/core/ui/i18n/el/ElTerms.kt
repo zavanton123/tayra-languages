@@ -173,7 +173,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Parent term (optional)" to "Γονική λέξη (προαιρετικά)",
     "None" to "Καμία",
     "Term information" to "Πληροφορίες λέξης",
-    "Use a concise meaning or contextual translation." to "Γράψτε μια σύντομη σημασία ή τη μετάφραση στο συγκεκριμένο πλαίσιο.",
     "How well do you know this term?" to "Πόσο καλά ξέρετε αυτή τη λέξη;",
     "Not saved yet" to "Δεν έχει αποθηκευτεί ακόμη",
     "Last updated" to "Τελευταία ενημέρωση",

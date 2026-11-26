@@ -173,7 +173,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Parent term (optional)" to "Termo-pai (opcional)",
     "None" to "Nenhum",
     "Term information" to "Informações do termo",
-    "Use a concise meaning or contextual translation." to "Use um significado conciso ou uma tradução no contexto.",
     "How well do you know this term?" to "Quão bem você conhece este termo?",
     "Not saved yet" to "Ainda não salva",
     "Last updated" to "Última atualização",

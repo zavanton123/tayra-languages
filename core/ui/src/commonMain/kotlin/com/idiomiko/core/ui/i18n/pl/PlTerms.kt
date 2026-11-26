@@ -173,7 +173,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Parent term (optional)" to "Słowo nadrzędne (opcjonalnie)",
     "None" to "Brak",
     "Term information" to "Informacje o słowie",
-    "Use a concise meaning or contextual translation." to "Podaj krótkie znaczenie lub tłumaczenie w kontekście.",
     "How well do you know this term?" to "Jak dobrze znasz to słowo?",
     "Not saved yet" to "Jeszcze nie zapisano",
     "Last updated" to "Ostatnia zmiana",

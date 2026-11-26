@@ -173,7 +173,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Parent term (optional)" to "Übergeordneter Begriff (optional)",
     "None" to "Keiner",
     "Term information" to "Angaben zum Begriff",
-    "Use a concise meaning or contextual translation." to "Gib eine knappe Bedeutung oder eine Übersetzung im Kontext an.",
     "How well do you know this term?" to "Wie gut kennst du diesen Begriff?",
     "Not saved yet" to "Noch nicht gespeichert",
     "Last updated" to "Zuletzt geändert",
