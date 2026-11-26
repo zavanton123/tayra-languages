@@ -41,7 +41,6 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "This playlist is empty" to "此播放列表为空",
     "Add books, course lessons or individual texts to start listening." to "添加书籍、课程课文或单篇文本，即可开始收听。",
     "Back to playlists" to "返回播放列表",
-    "You can also add the current text from the reader." to "你也可以在阅读器中添加当前文本。",
     "Edit playlist" to "编辑播放列表",
     "Collect texts to listen to one after another." to "收集文本，一篇接一篇地收听。",
     "Change what the playlist is called, what it is for and its cover." to "更改播放列表的名称、用途和封面。",

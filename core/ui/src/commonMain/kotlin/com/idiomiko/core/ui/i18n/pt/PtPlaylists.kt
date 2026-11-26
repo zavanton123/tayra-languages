@@ -41,7 +41,6 @@ internal val ptPlaylists: Map<String, String> = mapOf(
     "This playlist is empty" to "Esta playlist está vazia",
     "Add books, course lessons or individual texts to start listening." to "Adicione livros, lições de cursos ou textos avulsos para começar a ouvir.",
     "Back to playlists" to "Voltar às playlists",
-    "You can also add the current text from the reader." to "Você também pode adicionar o texto atual pelo leitor.",
     "Edit playlist" to "Editar playlist",
     "Collect texts to listen to one after another." to "Reúna textos para ouvir um após o outro.",
     "Change what the playlist is called, what it is for and its cover." to "Altere o nome, a finalidade e a capa da playlist.",

@@ -476,26 +476,19 @@ private fun ItemMenu(item: PlaylistItem, index: Int, count: Int, viewModel: Play
     }
 }
 
-/** A playlist with no texts: what to do about it, and a tip on adding from the reader. */
+/** A playlist with no texts: what to do about it. */
 @Composable
 private fun EmptyPlaylist(onAdd: () -> Unit, onBack: (() -> Unit)?) {
-    val colors = MaterialTheme.colorScheme
-    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
-        EmptyState(
-            tr("This playlist is empty"),
-            Modifier.testTag("empty-playlist"),
-            message = tr("Add books, course lessons or individual texts to start listening."),
-            action = {
-                Spacer(Modifier.height(AppSpacing.s))
-                PrimaryButton(tr("Add texts"), onClick = onAdd, icon = Icons.Default.Add, modifier = Modifier.testTag("add-texts"))
-                if (onBack != null) LinkText(tr("Back to playlists"), onClick = onBack)
-            },
-        )
-        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.s)) {
-            Icon(AppIcons.Lightbulb, contentDescription = null, tint = colors.onSurfaceVariant, modifier = Modifier.size(AppSizes.icon))
-            Text(tr("You can also add the current text from the reader."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
-        }
-    }
+    EmptyState(
+        tr("This playlist is empty"),
+        Modifier.testTag("empty-playlist"),
+        message = tr("Add books, course lessons or individual texts to start listening."),
+        action = {
+            Spacer(Modifier.height(AppSpacing.s))
+            PrimaryButton(tr("Add texts"), onClick = onAdd, icon = Icons.Default.Add, modifier = Modifier.testTag("add-texts"))
+            if (onBack != null) LinkText(tr("Back to playlists"), onClick = onBack)
+        },
+    )
 }
 
 private val HEADER_MOSAIC = 132.dp

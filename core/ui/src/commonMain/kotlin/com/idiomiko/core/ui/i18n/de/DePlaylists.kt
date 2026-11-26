@@ -41,7 +41,6 @@ internal val dePlaylists: Map<String, String> = mapOf(
     "This playlist is empty" to "Diese Playlist ist leer",
     "Add books, course lessons or individual texts to start listening." to "Füge Bücher, Kurslektionen oder einzelne Texte hinzu, um mit dem Hören zu beginnen.",
     "Back to playlists" to "Zurück zu den Playlists",
-    "You can also add the current text from the reader." to "Du kannst auch den aktuellen Text aus dem Reader hinzufügen.",
     "Edit playlist" to "Playlist bearbeiten",
     "Collect texts to listen to one after another." to "Sammle Texte, um sie dir nacheinander anzuhören.",
     "Change what the playlist is called, what it is for and its cover." to "Ändere den Namen der Playlist, ihren Zweck und ihr Cover.",

@@ -267,7 +267,7 @@ class PlaylistScreensTest {
         onNodeWithTag("playlist-$id").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodes(hasText("This playlist is empty")).fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("playlist-$id").assertIsSelected()
-        onNodeWithText("You can also add the current text from the reader.").assertExists()
+        onNodeWithText("You can also add the current text from the reader.").assertDoesNotExist()
         onNodeWithTag("play-all").assertIsNotEnabled()
         screenshot("playlist-empty")
     }

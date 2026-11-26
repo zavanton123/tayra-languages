@@ -41,7 +41,6 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "This playlist is empty" to "Этот плейлист пуст",
     "Add books, course lessons or individual texts to start listening." to "Добавьте книги, уроки курсов или отдельные тексты, чтобы начать слушать.",
     "Back to playlists" to "К плейлистам",
-    "You can also add the current text from the reader." to "Текущий текст можно добавить и во время чтения.",
     "Edit playlist" to "Изменить плейлист",
     "Collect texts to listen to one after another." to "Соберите тексты, чтобы слушать их один за другим.",
     "Change what the playlist is called, what it is for and its cover." to "Измените название, назначение и обложку плейлиста.",

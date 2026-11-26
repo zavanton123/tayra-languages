@@ -41,7 +41,6 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "This playlist is empty" to "Αυτή η λίστα αναπαραγωγής είναι κενή",
     "Add books, course lessons or individual texts to start listening." to "Προσθέστε βιβλία, ενότητες μαθημάτων ή μεμονωμένα κείμενα για να ξεκινήσετε την ακρόαση.",
     "Back to playlists" to "Πίσω στις λίστες αναπαραγωγής",
-    "You can also add the current text from the reader." to "Μπορείτε επίσης να προσθέσετε το τρέχον κείμενο από την οθόνη ανάγνωσης.",
     "Edit playlist" to "Επεξεργασία λίστας αναπαραγωγής",
     "Collect texts to listen to one after another." to "Συγκεντρώστε κείμενα για να τα ακούσετε το ένα μετά το άλλο.",
     "Change what the playlist is called, what it is for and its cover." to "Αλλάξτε το όνομα της λίστας αναπαραγωγής, τον σκοπό της και το εξώφυλλό της.",
