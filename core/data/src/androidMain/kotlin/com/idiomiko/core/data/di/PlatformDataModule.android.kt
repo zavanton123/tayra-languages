@@ -8,6 +8,7 @@ import com.idiomiko.core.data.bookpack.BookPackFiles
 import com.idiomiko.core.data.coursepack.CoursePackFiles
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.dictionary.DictionaryPackStorage
+import com.idiomiko.core.data.frequency.DownloadedFrequencyLists
 import com.idiomiko.core.data.ocr.AndroidTextRecognizer
 import com.idiomiko.core.data.ocr.TesseractTextRecognizer
 import com.idiomiko.core.data.settings.AndroidSecureStore
@@ -29,6 +30,7 @@ import com.idiomiko.core.domain.service.SpeechAudioCache
 import java.io.File
 import org.koin.core.module.Module
 import com.idiomiko.core.data.network.AndroidNetworkStatus
+import com.idiomiko.core.domain.frequency.FrequencyListDownloads
 import com.idiomiko.core.domain.service.NetworkStatus
 import org.koin.dsl.module
 
@@ -45,6 +47,8 @@ actual val platformDataModule: Module = module {
     single { DictionaryPackStorage(get<Context>(), get()) }
     single { CoursePackFiles(get<Context>(), get()) }
     single { BookPackFiles(get<Context>(), get()) }
+    // The app leaves the frequency lists out of its download (androidApp's ignoreAssetsPattern) and fetches them here.
+    single<FrequencyListDownloads> { DownloadedFrequencyLists(get(), File(get<Context>().filesDir, "frequency-lists")) }
     single<Settings> { SharedPreferencesSettings(get<Context>().getSharedPreferences("idiomiko_settings", Context.MODE_PRIVATE)) }
     single<SecureStore> { AndroidSecureStore(get<Context>()) }
     single<TextRecognizer> { AndroidTextRecognizer(get<Context>(), TesseractTextRecognizer(File(get<Context>().filesDir, "ocr/tessdata"))) }

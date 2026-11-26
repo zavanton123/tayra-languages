@@ -11,7 +11,7 @@ import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 
 val frequencyModule = module {
-    single<FrequencyLists> { ResourceFrequencyLists() }
+    single<FrequencyLists> { ResourceFrequencyLists(getOrNull()) }
     single { WordFrequencyService(get(), get(), get()) }
     single { VocabularyLevelService(get(), get(), get()) }
     viewModel { WordFrequencyViewModel(get(), get(), get(), get(), get()) }

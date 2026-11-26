@@ -326,7 +326,7 @@ val dataModule: Module = module {
     single<WebPictures> { HttpWebPictures(createPlainHttpClient()) }
     single { NewsService(get(), get(), get(), get(), get()) }
     single { LanguageSetupService(get(), get(), get(), get(), get(), get(), getOrNull()) }
-    single { LanguageAssets(get(), get(), get(), get(), getOrNull<NetworkStatus>() ?: AnyNetwork, getOrNull<TextRecognizer>() ?: NoTextRecognizer) }
+    single { LanguageAssets(get(), get(), get(), get(), getOrNull<NetworkStatus>() ?: AnyNetwork, getOrNull<TextRecognizer>() ?: NoTextRecognizer, frequency = getOrNull()) }
     single { ClearDataService(get(), get(), get(), get(), get(), get(), get()) }
     single { LanguageRemovalService(get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get()) }
     single<FlashcardRepository> { FlashcardRepositoryImpl(get()) }

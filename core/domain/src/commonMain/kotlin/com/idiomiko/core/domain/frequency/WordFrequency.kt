@@ -71,6 +71,21 @@ interface FrequencyLists {
     suspend fun lexicon(languageCode: String): List<String>? = null
 }
 
+/**
+ * The frequency lists fetched from the web, where the app does not bundle them (Android, to keep its download small):
+ * one gzip file a language, `<code>.tsv.gz`, on the release [URL] names; tools/publish_frequency_lists.sh uploads them.
+ */
+fun interface FrequencyListDownloads {
+    /** The list's file for the language with the ISO 639-1 [languageCode], kept after the first time; null when there is none to fetch. */
+    suspend fun fetch(languageCode: String): ByteArray?
+
+    companion object {
+        /** Raised, with a new release, when the lists change in a way the installed copies must not keep. */
+        const val VERSION = 1
+        const val URL = "https://github.com/zavanton123/tayra-languages/releases/download/frequency-v$VERSION"
+    }
+}
+
 /** How far the reader has got with a word, as the frequency list groups it. */
 enum class WordKnowledge { KNOWN, LEARNING, IGNORED, NEW }
 

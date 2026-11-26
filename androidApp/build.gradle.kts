@@ -47,6 +47,11 @@ android {
             }
         }
     }
+    // The frequency lists (77 MB of text, 18 MB packed) are fetched for the language being learned instead of shipped:
+    // see DownloadedFrequencyLists. The rest of the pattern is the default.
+    androidResources {
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~:!*.tsv"
+    }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
