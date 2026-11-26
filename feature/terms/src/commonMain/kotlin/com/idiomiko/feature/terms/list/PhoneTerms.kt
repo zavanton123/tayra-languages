@@ -59,6 +59,7 @@ import com.idiomiko.core.ui.audio.SpeakButton
 import com.idiomiko.core.ui.components.AppBottomSheet
 import com.idiomiko.core.ui.components.AppCheckbox
 import com.idiomiko.core.ui.components.AppDivider
+import com.idiomiko.core.ui.components.AppFab
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppMenu
@@ -67,8 +68,6 @@ import com.idiomiko.core.ui.components.AppSnackbar
 import com.idiomiko.core.ui.components.AppTopBar
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.EmptyState
-import com.idiomiko.core.ui.components.IconButtonSize
-import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.OverflowMenu
 import com.idiomiko.core.ui.components.PickerSheet
@@ -141,14 +140,18 @@ internal fun PhoneTermsScreen(
         snackbarHost = {
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
+        // Adding a term floats at the corner, out of selecting's way.
+        floatingActionButton = { if (!showChecks) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
     ) { padding ->
-        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = AppSpacing.l, vertical = AppSpacing.m)) {
+        ScrollList(
+            Modifier.padding(padding).fillMaxSize(),
+            state = list,
+            // The list's end scrolls clear of the floating button.
+            contentPadding = PaddingValues(start = AppSpacing.l, end = AppSpacing.l, top = AppSpacing.m, bottom = FAB_ROOM),
+        ) {
             item { PhoneVocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.m)) }
             item {
-                Row(Modifier.fillMaxWidth().padding(bottom = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-                    SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.weight(1f))
-                    AppIconButton(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term"), size = IconButtonSize.Large, style = IconButtonStyle.Filled)
-                }
+                SearchField(state.filter.search, { q -> viewModel.updateFilter { it.copy(search = q) } }, tr("Search terms or translations"), Modifier.fillMaxWidth().padding(bottom = AppSpacing.m))
             }
             if (state.selected.isNotEmpty()) item {
                 Text(
@@ -354,3 +357,6 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
 /** One end of the Added range, picked from a list of days; "Any" leaves it open. */
 
 /** How wide the empty vocabulary's mascot is drawn. */
+
+/** Room under the list for the floating Add term button and its margin. */
+private val FAB_ROOM = 88.dp

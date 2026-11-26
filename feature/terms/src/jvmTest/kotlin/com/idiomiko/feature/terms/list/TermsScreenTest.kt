@@ -353,6 +353,19 @@ class TermsScreenTest {
         onNodeWithText("Show learning words").assertDoesNotExist()
     }
 
+    /** On a phone Add term floats at the bottom corner, apart from the search, and opens a new term. */
+    @Test
+    fun aPhoneAddsATermFromTheFloatingButton() = runDesktopComposeUiTest(width = 400, height = 1100) {
+        val visited = mutableListOf<Route>()
+        show(onNavigate = { visited += it })
+        waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar"))
+        val add = onNodeWithTag("phone-add-term").fetchSemanticsNode().boundsInRoot
+        val root = onAllNodes(isRoot())[0].fetchSemanticsNode().boundsInRoot
+        assertTrue(root.right - add.right < 40f && root.bottom - add.bottom < 40f, "at the bottom corner: $add in $root")
+        onNodeWithTag("phone-add-term").performClick()
+        assertEquals(listOf<Route>(Route.NewTerm), visited)
+    }
+
     /** A phone has no pages: the list grows by the next terms as its end comes into view. */
     @Test
     fun aPhonesListLoadsMoreAsItScrolls() = runDesktopComposeUiTest(width = 400, height = 1100) {

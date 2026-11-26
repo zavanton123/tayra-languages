@@ -50,6 +50,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
@@ -68,6 +69,7 @@ import androidx.compose.ui.unit.takeOrElse
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.theme.AppAlpha
 import com.idiomiko.core.ui.theme.AppBorders
+import com.idiomiko.core.ui.theme.AppElevation
 import com.idiomiko.core.ui.theme.AppMotion
 import com.idiomiko.core.ui.theme.AppShapes
 import com.idiomiko.core.ui.theme.AppSizes
@@ -166,6 +168,25 @@ fun AppIconButton(
         }
     }
 }
+
+/**
+ * A phone page's one main action, floating at the corner of the screen over what scrolls under it: a round button in
+ * the primary colour with [icon]; [contentDescription] says what it does.
+ */
+@Composable
+fun AppFab(icon: ImageVector, contentDescription: String, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    val colors = MaterialTheme.colorScheme
+    Box(
+        modifier.size(FAB_SIZE).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle).background(colors.primary)
+            .clickable(role = Role.Button, onClick = onClick),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(icon, contentDescription = contentDescription, tint = colors.onPrimary, modifier = Modifier.size(FAB_ICON))
+    }
+}
+
+private val FAB_SIZE = 56.dp
+private val FAB_ICON = 24.dp
 
 /** An icon button whose [content] is more than one icon (an icon with a badge, say), in the plain style. */
 @Composable
