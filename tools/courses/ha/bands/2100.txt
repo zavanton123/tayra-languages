@@ -1,100 +1,100 @@
-1	2001	oda	oda
-2	2002	umarci	umarci umarcin
-3	2003	wadai	wadai wadain
-4	2004	kawu	kawu kawun kawunsa kawunta kawunsu kawunka kawunku kawunan kawunansu kawunanmu kawunanku
-5	2005	yarima	yarima yariman yarimar
-6	2006	manzo	manzon manzo manzonsa manzanni manzannin manzanninsa
-7	2007	yaruka	yarukan yaruka yarukansa yarukanta yarukansu
-8	2008	kashewa	kashewa kashewar
-9	2009	sanyawa	sanyawa sanyawar
-10	2010	tattaki	tattaki tattakin tattakinsa tattakinsu tattakinta
-11	2011	yuwu	yuwu
-12	2012	samfuran	samfuran samfuransa samfuransu samfuranta
-13	2013	tafarki	tafarkin tafarki tafarkinsa tafarkuna tafarkinta tafarkinsu
-14	2014	daddadare	daddadare daddadaren
-15	2015	tsaiko	tsaiko tsaikon
-16	2016	gabanin	gabanin gabaninsa gabaninku gabaninsu
-17	2017	nima	nima
-18	2018	alewa	alewa alewar
-19	2019	makabarta	makabarta makabartar makabartan makabartarsa
-20	2020	shuke	shuke shuken
-21	2021	mahaukaci	mahaukaci mahaukacin
-22	2022	shagali	shagalin shagali
-23	2023	harabar	harabar harabarta harabarsa
-24	2024	halatta	halatta halattar
-25	2025	ragowa	ragowar ragowa ragowarsu ragowarsa ragowarta ragowan
-26	2026	buki	bukin buki bukinsa
-27	2027	gamsar	gamsar
-28	2028	tamu	tamu
-29	2029	rikitarwa	rikitarwa rikitarwan rikitarwar rikitarwarsa
-30	2030	ƙwanƙwasa	ƙwanƙwasa
-31	2031	ninƙaya	ninƙaya ninƙayar
-32	2032	sanannu	sanannun sanannu sanannunsa sanannunsu sanannunta
-33	2033	rungumi	rungumi rungumin
-34	2034	majiya	majiya majiyar majiyarmu majiyarsa majiyarta
-35	2035	jituwa	jituwa jituwar jituwan jituwarsa jituwarsu
-36	2036	mujallu	mujallu mujallun mujallunsa
-37	2037	tuntuɓa	tuntuɓar tuntuɓa tuntuɓarsa tuntuɓarsu
-38	2038	sittin	sittin
-39	2039	maras	maras
-40	2040	tuhume	tuhume tuhumen tuhumensu
-41	2041	gurɓata	gurɓata gurɓatar
-42	2042	masifa	masifa masifar masifan
-43	2043	yaƙar	yaƙar yaƙarta yaƙarsa
-44	2044	iyawa	iyawa iyawar iyawarsa iyawarsu iyawarta iyawarka iyawarmu iyawarku
-45	2045	katse	katse katsen
-46	2046	yasan	yasan
-47	2047	tilo	tilo tilon
-48	2048	matakala	matakala matakalan matakalar matakalarsa
-49	2049	sharaɗi	sharaɗi sharuɗan sharaɗin sharuɗa sharuɗanta
-50	2050	gujewa	gujewa gujewar
-51	2051	saurara	saurara sauraran
-52	2052	bom	bom
-53	2053	taushi	taushi taushin
-54	2054	cizo	cizon cizo cizonta cizonsa
-55	2055	cikakku	cikakkun cikakku
-56	2056	tambari	tambarin tambari tambura tambarinsa tambarinsu tamburan tambarinta tambarinmu
-57	2057	siyayya	siyayya siyayyar
-58	2058	karɓe	karɓe
-59	2059	hazo	hazo hazon
-60	2060	rufai	rufai rufain
-61	2061	gafarta	gafarta
-62	2062	gaishe	gaishe
-63	2063	murƙushe	murƙushe
-64	2064	shinge	shingen shinge shingayen shingaye shingensa
-65	2065	huce	huce
-66	2066	nakasa	nakasa nakasar nakasan nakasarsa nakasarsu
-67	2067	makirci	makircin makirci makircinsu makircinsa makircinta
-68	2068	takaice	takaice
-69	2069	ranta	ranta rance ranci
-70	2070	hazaka	hazaka
-71	2071	alfanu	alfanu alfanun alfanunsa alfanunta
-72	2072	gyaɗa	gyaɗa gyaɗar
-73	2073	ambato	ambaton ambato ambatonsa ambatonsu ambatonta
-74	2074	dawakai	dawakai
-75	2075	tuntuɓi	tuntuɓi
-76	2076	wauta	wauta wautar wautarta
-77	2077	aljanna	aljanna aljannar aljannarsu
-78	2078	dankali	dankali dankalin
-79	2079	karama	karamar karama karaman
-80	2080	ƙayyade	ƙayyade
-81	2081	kaimi	kaimi kaimin
-82	2082	dawa	dawa dawan dawata dawar
-83	2083	sura	surar sura surori surorin surarmu surarsa surarsu suranta surarta surorinta suran surana suransu surorinsa
-84	2084	ruhi	ruhin ruhi ruhinta ruhinsu ruhinka ruhinsa
-85	2085	tamanin	tamanin
-86	2086	mahara	maharan mahara maharar
-87	2087	ɗaukacin	ɗaukacin
-88	2088	bore	bore boren borena
-89	2089	ruhu	ruhun ruhu ruhuna ruhunsa ruhunsu ruhunta
-90	2090	tsutsa	tsutsar tsutsotsi tsutsa tsutsotsin tsutsansu tsutsarsu
-91	2091	banga	banga bangar banguna bangan bangunan bangarta
-92	2092	sabani	sabani sabanin sabaninsu
-93	2093	kabilu	kabilu
-94	2094	wa'azi	wa'azi wa'azin wa'azinsu wa'azinsa wa'azinta
-95	2095	zame	zame
-96	2096	rubutawa	rubutawa
-97	2097	rama	rama ramata ramana ramar
-98	2098	lafazi	lafazin lafazi
-99	2099	ziyarce	ziyarce ziyarcen
-100	2100	biredi	biredi biredin
+1	2001	ranta	ranta ranci rantawa
+2	2002	makirci	makircin makirci makircinsu makircinsa makircinta
+3	2003	dakata	dakata dakatawa dakatawar
+4	2004	alfanu	alfanu alfanun alfanunsa alfanunta
+5	2005	ambato	ambaton ambato ambatonsa ambatonsu ambatonta
+6	2006	gyaɗa	gyaɗa gyaɗar
+7	2007	ƙuntata	ƙuntatawa ƙuntata ƙuntatawar
+8	2008	ɓarke	ɓarke
+9	2009	tuntuɓi	tuntuɓi
+10	2010	aljanna	aljanna aljannar aljannarsu
+11	2011	wauta	wauta wautar wautarta
+12	2012	dankali	dankali dankalin
+13	2013	karama	karamar karama karaman
+14	2014	ƙayyade	ƙayyade
+15	2015	kaimi	kaimi kaimin
+16	2016	sura	surar sura surori surorin surarmu surarsa surarsu suranta surarta surorinta suran surana suransu surorinsa
+17	2017	tamanin	tamanin
+18	2018	fitina	fitina fitintinu fitinar
+19	2019	murabba'i	murabba'i murabba'in muraba'in murabba'insa
+20	2020	faranta	faranta farantawa farantan
+21	2021	ɗaukacin	ɗaukacin
+22	2022	buhu	buhu buhun buhunan buhuna buhunansu
+23	2023	bore	bore boren borena
+24	2024	tsutsa	tsutsar tsutsotsi tsutsa tsutsotsin tsutsansu tsutsarsu
+25	2025	banga	banga bangar banguna bangan bangunan bangarta
+26	2026	matsuguni	matsuguni matsugunan matsugunin matsugunansu matsuguninsu matsuguninsa matsugunanta
+27	2027	wa'azi	wa'azi wa'azin wa'azinsu wa'azinsa wa'azinta
+28	2028	rama	rama ramata ramana ramar
+29	2029	lafazi	lafazin lafazi
+30	2030	kwatankwacin	kwatankwacin kwatankwacinsu kwatankwacinsa kwatankwacinta
+31	2031	shuɗe	shuɗe shuɗewar shuɗewa
+32	2032	durƙushe	durƙusa durƙushe durƙushewar durƙushewa durƙusar durƙusawa
+33	2033	gangami	gangamin gangami gangaminsa gangaminta
+34	2034	imel	imel
+35	2035	masara	masara masarar
+36	2036	adama	adama
+37	2037	almajiri	almajiran almajiransa almajirai almajiri almajirin almajirinsa almajiransu almajiranmu almajiranta
+38	2038	dam	dam
+39	2039	mahalarta	mahalarta mahalartan mahalartar mahalartansu
+40	2040	nasiha	nasiha nasihar nasihata nasiharmu nasihohi nasiharsu nasihohin
+41	2041	ƙunci	ƙunci ƙuncin ƙuncinta ƙuncinsa
+42	2042	caji	caji cajin
+43	2043	dila	dila dilan dilar
+44	2044	ƙuna	ƙuna ƙunar
+45	2045	ɗau	ɗau
+46	2046	daidaituwa	daidaituwa daidaituwar daidaituwarsa daidaituwarsu daidaituwarta
+47	2047	jera	jera jero jerowa jerawa
+48	2048	ta'aziyya	ta'aziyya ta'aziyyar ta'aziyar ta'aziya ta'aziyyarku ta'aziyyarsa ta'aziyyarmu ta'aziyata ta'aziyyarsu ta'aziyyarta
+49	2049	siriri	siriri siririn siririya siririyar sirara siraran
+50	2050	ɗaikun	ɗaikun ɗaiɗaikun ɗaiɗaiku ɗaiɗaikunsu
+51	2051	matafiyi	matafiya matafiyi matafiyan matafiyin
+52	2052	latti	latti lattin
+53	2053	keta	keta ketawar ketawarsu
+54	2054	kurma	kurma kurame kurmar kurmarsa
+55	2055	ƙarara	ƙarara ƙararar
+56	2056	ƙaho	ƙaho ƙahon ƙahonsu ƙahonin ƙahonsa ƙahonta ƙahoni ƙahoninsu
+57	2057	ƴar'uwa	ƴar'uwa ƴar'uwar ƴar'uwarta ƴar'uwarsa ƴar'uwarsu ƴar'uwarku
+58	2058	fusata	fusata
+59	2059	akuya	akuya awaki akuyar awakin akuyarsa awakai akuyan
+60	2060	ninka	ninka ninkawa ninkawar
+61	2061	tsattsaura	tsattsaura tsattsauran tsatsauran
+62	2062	nakan	nakan
+63	2063	ƙidaya	ƙidaya ƙidayar ƙidayan
+64	2064	makaɗi	makaɗa makaɗan makaɗin makaɗi makaɗar makaɗarsa makaɗansa makaɗanta
+65	2065	zartarwa	zartarwa zartarwar zartarwarsa
+66	2066	amsawa	amsawa amsawar amsawarka amsawarsu
+67	2067	ɓatar	ɓatar ɓatarwa
+68	2068	doro	doro doron
+69	2069	du	du
+70	2070	soya	soya soyawa
+71	2071	gagara	gagara gagarar
+72	2072	maƙasudi	maƙasudi maƙasudin maƙasudinsa
+73	2073	makaho	makaho makahon
+74	2074	haɗaka	haɗakar haɗaka haɗakarsa haɗakan haɗakarsu haɗakarta
+75	2075	kishiya	kishiyar kishiya kishiyoyin kishiyarta kishiyoyinsa kishiyata kishiyoyi kishiyarki kishiyarsa kishiyarsu kishiyoyinsu kishiyoyinta
+76	2076	nashi	nashi
+77	2077	tabo	tabo tabon tabbar tabba tabonsu
+78	2078	tagwaye	tagwayen tagwaye tagwayensa tagwayenta
+79	2079	baƙunci	baƙunci baƙuncin baƙuncinsa baƙuncinsu
+80	2080	ibn	ibn
+81	2081	huda	huda
+82	2082	fenti	fenti fentin fentinsa
+83	2083	mafarauci	mafarautan mafarauci mafarauta mafaraucin mafarautansa mafarautarsu
+84	2084	ƙaurace	ƙauracewa ƙaurace ƙauracewar ƙauracewarsu
+85	2085	tunatar	tunatar tunatarwa tunatarwarmu tunatarwar
+86	2086	aski	aski askin
+87	2087	zaci	zaci
+88	2088	tsunduma	tsunduma tsundumar
+89	2089	maɓalli	maɓallin maɓalli
+90	2090	ɓarkewa	ɓarkewa ɓarkewar
+91	2091	kiyasta	kiyasta
+92	2092	saba'in	saba'in
+93	2093	linzami	linzami linzamin linzaminsu linzamai
+94	2094	masarufi	masarufi masarufin
+95	2095	hanta	hanta hantar anta antar antan hantarsa hantarta
+96	2096	diflomasiyya	diflomasiyya diflomasiyyar diflomasiya diflomasiyar diflomasiyyarta diflomasiyyarsa
+97	2097	karka	karka
+98	2098	armashi	armashi armashin
+99	2099	ɗigo	ɗigo ɗigon
+100	2100	ƙani	ƙani ƙanin ƙane ƙaninsa ƙanenmu ƙanensa ƙaninta ƙanena ƙanenta ƙanen ƙaninsu

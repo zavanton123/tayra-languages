@@ -1,100 +1,100 @@
-1	1701	zagaya	zagaya zagayar
-2	1702	more	more
-3	1703	daddare	daddare daddaren
-4	1704	haɓa	haɓa haɓar haɓan haɓarta haɓana haɓanka
-5	1705	warke	warke
-6	1706	kya	kya
-7	1707	makale	makale
-8	1708	keɓe	keɓe
-9	1709	gungu	gungun gungu
-10	1710	ɗinki	ɗinkin ɗinki
-11	1711	tanada	tanada
-12	1712	makiyaya	makiyaya makiyayan makiyayai makiyayansu makiyayar makiyayarsu
-13	1713	yanzun	yanzun
-14	1714	tsoka	tsoka tsokar tsokoki tsokan tsokarsa
-15	1715	rahama	rahama rahamar rahamarsa rahaman rahamarka
-16	1716	maimaita	maimaita
-17	1717	kyaututtuka	kyaututtuka kyaututtukan kyaututtukansa kyaututtukansu kyaututtukanta
-18	1718	burodi	burodi burodin burodinku burodinsa
-19	1719	azabtar	azabtar
-20	1720	gamu	gamu
-21	1721	giwa	giwa giwar giwaye giwan giwayen giwansa giwayensa giwayensu
-22	1722	haruffa	haruffa haruffan haruffansa haruffanta
-23	1723	munana	munanan munana
-24	1724	kafuwa	kafuwar kafuwa kafuwarta kafuwarsu kafuwan kafuwarsa
-25	1725	tsami	tsami tsamin
-26	1726	haƙƙoƙin	haƙƙoƙin haƙƙoƙinsu haƙƙoƙinsa haƙƙoƙinta haƙƙoƙinku haƙƙoƙinka
-27	1727	makara	makara makarar makarata makaran makarana
-28	1728	yabawa	yabawa yabawar
-29	1729	kala	kala
-30	1730	kwat	kwat
-31	1731	ballantana	ballantana
-32	1732	haihu	haihu
-33	1733	kalanda	kalandar kalanda kalandan kalandarmu kalandarku kalandarsa kalandarsu
-34	1734	madara	madara madarar madararta
-35	1735	waƴanda	waƴanda
-36	1736	ara	ara ari are aran
-37	1737	bama	bama
-38	1738	ƙanwa	ƙanwar ƙanwata ƙanwarsa ƙanwarta ƙanwa ƙannenta ƙannensa ƙanwarka ƙannen ƙanne ƙannena ƙannenmu ƙannensu ƙanwarsu ƙanwan
-39	1739	taƙaita	taƙaita
-40	1740	mafaka	mafaka mafakar mafakarsu mafakarsa
-41	1741	raunuka	raunuka raunukan raunukanku raunukar raunukansa
-42	1742	tuba	tuba
-43	1743	gimbiya	gimbiya gimbiyar gimbiyan
-44	1744	yardar	yardar yardarsa yardarsu yardarki yardarta yardarmu
-45	1745	wayi	wayi wayin
-46	1746	mawuyaci	mawuyacin mawuyaci mawuyatan
-47	1747	ƙuda	ƙudan ƙuda ƙudaje ƙudarsu ƙudar ƙudarsa ƙudansa
-48	1748	mahukunta	mahukunta mahukuntan mahukuntar mahukuntanmu mahukuntanta
-49	1749	kanti	kantin kantuna kanti kantunan
-50	1750	jigo	jigo jigon jigonsa jigonta
-51	1751	kunci	kunci kuncin kumatun kumatu kumatunta kuncinta kumatunsa kumatunsu kuncinsa
-52	1752	shaye	shaye shayenku shayen shayensa
-53	1753	lada	lada ladar ladansa ladanta ladansu ladarsa
-54	1754	furta	furta
-55	1755	tsaba	tsabar tsaba tsaban
-56	1756	ƙwararriya	ƙwararriyar ƙwararriya ƙwararriyan ƙwararriyarsa
-57	1757	manomi	manomi manomin
-58	1758	haƙar	haƙar haƙarsa
-59	1759	aiwatarwa	aiwatarwa aiwatarwar aiwatarwan
-60	1760	ratsa	ratsa ratsan
-61	1761	kunkuru	kunkuru kunkurun
-62	1762	natsuwa	natsuwa natsuwar natsuwarsa
-63	1763	wanki	wanki wankin
-64	1764	sukari	sukari sukarin
-65	1765	jayayya	jayayya jayayyar
-66	1766	bil'adama	bil'adama
-67	1767	kaifi	kaifin kaifi kaifinsa kaifinta
-68	1768	ƙaragar	ƙaragar
-69	1769	kyaftin	kyaftin
-70	1770	fafatawa	fafatawa fafatawar fafatawarsa fafatawan fafatawarta
-71	1771	fafata	fafata fafatar
-72	1772	tayin	tayin tayinku tayinsa
-73	1773	ƙyama	ƙyama ƙyamar ƙyamarta
-74	1774	shuru	shuru shurun
-75	1775	haƙiƙanin	haƙiƙanin
-76	1776	al'ajabi	al'ajabi al'ajabin
-77	1777	tsana	tsana
-78	1778	rusa	rusa
-79	1779	kokawa	kokawa kokawar
-80	1780	shafar	shafar shafarsa
-81	1781	bene	bene benen benensa benensu
-82	1782	yashi	yashi yashin
-83	1783	shiryawa	shiryawa shiryawar
-84	1784	fatauci	fataucin fatauci fataucinsu
-85	1785	muyi	muyi
-86	1786	komo	komo komon
-87	1787	ladabi	ladabi ladabin
-88	1788	gana	gana
-89	1789	wanzu	wanzu
-90	1790	adireshi	adireshin adireshi adireshina adireshinka adireshinsa adireshinta adireshinsu
-91	1791	auku	auku
-92	1792	gayawa	gayawa
-93	1793	luwaɗi	luwaɗi luwaɗin luwaɗinsa
-94	1794	bita	bita
-95	1795	fatalwa	fatalwa fatalwar fatalwarsa
-96	1796	sanadiyar	sanadiyar sanadiyarsu
+1	1701	sharri	sharri sharrin sharrinsu sharrinsa
+2	1702	yawu	yawun yawu yawunsu yawunsa yawunta
+3	1703	lahira	lahira lahirarsu
+4	1704	ƙabilanci	ƙabilanci ƙabilancin ƙabilancinsu
+5	1705	kauri	kauri kaurin kaurinsa kaurinsu
+6	1706	jinkiri	jinkiri jinkirin jinkirinsa
+7	1707	gafara	gafara gafarar gafararka gafararku gafararsu gafaran gafararta
+8	1708	toshe	toshe toshewar toshewa
+9	1709	faransanci	faransanci faransancin
+10	1710	rantsar	rantsar rantsarwar
+11	1711	mashaya	mashaya mashayar mashayarka mashayan mashayarsa
+12	1712	more	more morewa morewar
+13	1713	rikita	rikitarwa rikita rikitar rikitarwan rikitarwar rikitarwarsa
+14	1714	kek	kek
+15	1715	koli	koli kolin kolinsa kolinsu kolinta
+16	1716	cikas	cikas
+17	1717	ƙwarya	ƙwarya ƙwaryar ƙwaryarsu
+18	1718	dindindin	dindindin
+19	1719	makale	makale makalewa makalewar
+20	1720	al'ajabi	al'ajabi al'ajibai al'ajabin
+21	1721	fatin	fatin
+22	1722	kafiri	kafirai kafiran kafiri
+23	1723	gazawa	gazawar gazawa gazawarsu gazawarka gazawarsa gazawarta
+24	1724	zura	zura zurawa
+25	1725	da'awa	da'awar da'awa da'awarsa da'awarsu da'awarta da'awarku
+26	1726	fatalwa	fatalwa fatalwar fatalwowi fatalwarsa
+27	1727	jinjina	jinjina jinjinawa jinjinar
+28	1728	zobe	zoben zobe zobba zobensa zobenta
+29	1729	tanada	tanada tanadawa
+30	1730	ameen	ameen
+31	1731	hakanan	hakanan
+32	1732	zagaya	zagaya zagayawar zagayar
+33	1733	gwargwado	gwargwadon gwargwado
+34	1734	ɓalle	ɓalle
+35	1735	rungumi	rungumi rungume rungumin
+36	1736	ƙanƙanta	ƙanƙanta ƙanƙantar ƙanƙantan ƙanƙantarsa ƙanƙantarta ƙanƙantarsu
+37	1737	daddare	daddare daddaren
+38	1738	haɓa	haɓa haɓar haɓan haɓarta haɓana haɓanka
+39	1739	kya	kya
+40	1740	gungu	gungun gungu
+41	1741	taƙaita	taƙaita taƙaitawa taƙaitawar
+42	1742	ɗinki	ɗinkin ɗinki
+43	1743	makiyaya	makiyaya makiyayan makiyayai makiyayansu makiyayar makiyayarsu
+44	1744	rahama	rahama rahamar rahamarsa rahaman rahamarka
+45	1745	tsoka	tsoka tsokar tsokoki tsokan tsokarsa
+46	1746	zame	zame zamewa zamewar zamewarta
+47	1747	giwa	giwa giwar giwaye giwan giwayen giwansa giwayensa giwayensu
+48	1748	munana	munanan munana
+49	1749	tsami	tsami tsamin
+50	1750	makara	makara makarar makarata makaran makarana
+51	1751	sabunta	sabunta sabuntawa sabuntawar sabuntar
+52	1752	ballantana	ballantana
+53	1753	kwat	kwat
+54	1754	haihu	haihu
+55	1755	furta	furta furtawa
+56	1756	jijiya	jijiya jijiyar jijiyoyi jijiyoyin jijiyoyinki jijiyarsa jijiyarta jijiyata jijiyoyinsa jijiyoyinta
+57	1757	kalanda	kalandar kalanda kalandan kalandarmu kalandarku kalandarsa kalandarsu
+58	1758	madara	madara madarar madararta
+59	1759	waƴanda	waƴanda
+60	1760	majiya	majiya majiyar majiyoyi majiyoyin majiyarmu majiyarsa majiyarta majiyoyinsa majiyoyinsu majiyoyinta
+61	1761	ƙanwa	ƙanwar ƙanwata ƙanwarsa ƙanwarta ƙanwa ƙannenta ƙannensa ƙanwarka ƙannen ƙanne ƙannena ƙannenmu ƙannensu ƙanwarsu ƙanwan
+62	1762	mafaka	mafaka mafakar mafakarsu mafakarsa
+63	1763	ara	ara ari are
+64	1764	gimbiya	gimbiya gimbiyar gimbiyan
+65	1765	wayi	wayi wayin
+66	1766	haƙa	haƙa haƙar haƙarsa haƙawa
+67	1767	mawuyaci	mawuyacin mawuyaci mawuyatan
+68	1768	mahukunta	mahukunta mahukuntan mahukuntar mahukuntanmu mahukuntanta
+69	1769	ƙuda	ƙudan ƙuda ƙudaje ƙudarsu ƙudar ƙudarsa ƙudansa
+70	1770	kanti	kantin kantuna kanti kantunan
+71	1771	jigo	jigo jigon jigonsa jigonta
+72	1772	kunci	kunci kuncin kumatun kumatu kumatunta kuncinta kumatunsa kumatunsu kuncinsa
+73	1773	lada	lada ladar ladansa ladanta ladansu ladarsa
+74	1774	daƙiƙa	daƙiƙa daƙiƙu daƙiƙoƙi daƙiƙan
+75	1775	tsaba	tsabar tsaba tsaban
+76	1776	nakasassu	nakasassu nakasassun nakasassunta
+77	1777	kunkuru	kunkuru kunkurun
+78	1778	tsallaka	tsallaka tsallakawa tsallakawar
+79	1779	wanki	wanki wankin
+80	1780	sukari	sukari sukarin
+81	1781	jayayya	jayayya jayayyar
+82	1782	bil'adama	bil'adama
+83	1783	ƙaraga	ƙaraga ƙaragar
+84	1784	kaifi	kaifin kaifi kaifinsa kaifinta
+85	1785	tayi	tayi tayin tayinku tayinsa
+86	1786	shuru	shuru shurun
+87	1787	haƙiƙanin	haƙiƙanin
+88	1788	bene	bene benen benensa benensu
+89	1789	yashi	yashi yashin
+90	1790	amintacce	amintaccen amintattu amintacce amintattun amintacciya amintattunta amintacciyar amintaccenta amintattunsa
+91	1791	fatauci	fataucin fatauci fataucinsu
+92	1792	ladabi	ladabi ladabin
+93	1793	gana	gana
+94	1794	fidda	fidda fiddawa fiddawar
+95	1795	adireshi	adireshin adireshi adireshina adireshinka adireshinsa adireshinta adireshinsu
+96	1796	luwaɗi	luwaɗi luwaɗin luwaɗinsa
 97	1797	farmaki	farmaki farmakin farmakinsu farmakinta
-98	1798	farauta	farauta
+98	1798	kokawa	kokawa kokawar
 99	1799	jana'iza	jana'izar jana'iza jana'izarsa jana'izan jana'izarta jana'izarsu
-100	1800	sadu	sadu sadun
+100	1800	raina	raina rainawa

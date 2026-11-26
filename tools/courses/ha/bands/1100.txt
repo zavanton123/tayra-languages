@@ -1,30 +1,30 @@
-1	1001	ko'ina	ko'ina
+1	1001	ko'ina	ko'ina koina
 2	1002	hawan	hawan hawansa hawanka hawansu hawanmu hawanta
 3	1003	mallakar	mallakar mallakarsu mallakarsa mallakarta mallakarka
 4	1004	shafuka	shafukan shafuka shafukansu shafukansa shafukanta
 5	1005	gaɓa	gaɓar gaɓana gaɓa gaɓansu gaɓanmu gaɓanka gaɓanki gaɓanku gaɓansa gaɓan gaɓata gaɓarsu gaɓarmu gaɓarsa gaɓarta gaɓarka
 6	1006	dattijo	dattawa dattawan dattijai dattijo dattijon dattijan dattawansu dattawansa dattawanta dattijona
 7	1007	shinkafa	shinkafa shinkafar
-8	1008	faɗuwa	faɗuwar faɗuwa faɗuwarta
-9	1009	bamban	bambanta bamban
+8	1008	faɗuwa	faɗuwar faɗuwa faɗuwarta faɗuwan faɗuwarsu faɗuwarsa
+9	1009	bamban	bambanta bamban bamba banbanta bambam banban bambantata
 10	1010	basira	basira basirar basirarsa basirarsu basirarta basirarka basiran basirarmu
 11	1011	ƙaruwa	ƙaruwa ƙaruwar ƙaruwan
 12	1012	ritaya	ritaya ritayarsa ritayar ritayarta ritayata ritayarsu
 13	1013	tafiye	tafiye tafiyen tafiyensa tafiyensu tafiyenta
 14	1014	barci	barci barcin barcinsu barcinsa barcinta
-15	1015	iso	iso
+15	1015	iso	iso isowa isowar isowarsa isowata isowarsu isowarta
 16	1016	zirga	zirga zirgar zirgan
 17	1017	cututtuka	cututtuka cututtukan cututtukansu cututtukar cututtukanta
 18	1018	ɓarawo	ɓarayi ɓarayin ɓarawo ɓarawon
-19	1019	bauta	bauta bautar bautarsa bautan bautarsu bautata bautarka
-20	1020	kwamfuta	kwamfuta kwamfutar kwamfutan kwamfutarka kwamfutarsa kwamfutarsu kwamfutarta
-21	1021	leda	leda
+19	1019	bauta	bauta bautar bautarsa bautan bautarsu bautata bautarka bautawa bautawar
+20	1020	kwamfuta	kwamfuta kwamfutar kwamfutan kwamfutarka kwamfutarsa kwamfutarsu kwamfutarta kwamfutoci komfuta kwamfutocin kwamfyutocin kwamfyuta komfutar kwamfutocinsa kwamfyutan
+21	1021	leda	leda ledar ledarsa ledan
 22	1022	yaɗuwa	yaɗuwar yaɗuwa yaɗuwarta yaɗuwarsu
 23	1023	yakan	yakan
 24	1024	wanka	wanka wankan wankansu wankar wankanta
 25	1025	zaɓa	zaɓa zaɓan zaɓansu zaɓanta
-26	1026	kwaleji	kwalejin kwaleji kwalejinsu kwalejinsa kwalejinmu kwalejinta
-27	1027	keke	keke keken kekena kekenka kekensa kekenta
+26	1026	kwaleji	kwalejin kwaleji kwalejinsu kwalejinsa kwalejinmu kwalejinta kwalejojin kwalejojinsa
+27	1027	keke	keke keken kekena kekenka kekensa kekenta kekuna kekunan kekunansu
 28	1028	masana'antu	masana'antu masana'antun masana'antunmu masana'antunta
 29	1029	asusu	asusun asusu asusunka asusuna asusunta asusunku asusunsa asusunsu asusunmu
 30	1030	girmamawa	girmamawa girmamawar girmamawarta girmamawarsa girmamawan girmamawanta girmamawarmu
@@ -33,68 +33,68 @@
 33	1033	masarauta	masarautar masarauta masarautun masarautu masarautarsa masarautan masarautata masarautarsu masarautanta masarautarta masarautunsu masarautunsa masarautunta
 34	1034	kwale	kwale kwalen kwalensa
 35	1035	ƙanshi	ƙanshi ƙanshin
-36	1036	girmama	girmama girmaman girmamansu
+36	1036	girmama	girmama girmaman girmamansu girmamawata
 37	1037	barka	barka
 38	1038	tayar	tayar tayarka
 39	1039	wanene	wanene
 40	1040	wakilci	wakilci wakilcin wakilcinsa wakilcinsu wakilcinta
-41	1041	fasa	fasa
+41	1041	fasa	fasa fasawa fasawar
 42	1042	haushi	haushi haushin haushinsa haushinka
 43	1043	bisani	bisani
 44	1044	iƙirari	iƙirarin iƙirari iƙirarinsu iƙirarinsa iƙirarinta
 45	1045	zazzaɓi	zazzaɓi zazzaɓin
 46	1046	dari	dari darin darinka darinsu
-47	1047	taso	taso
+47	1047	taso	taso tasawa
 48	1048	mazauna	mazauna mazaunan mazaunanta mazaunar mazaunansu mazaunansa
-49	1049	hujja	hujja hujjar hujjan hujjarsu hujjarsa hujjarta
+49	1049	hujja	hujja hujjar hujjan hujjarsu hujjarsa hujjarta hujjoji hujjojin hujjata hujjojina hujjojinsa hujjojinka hujjojinsu hujjojinta
 50	1050	lambu	lambu lambun lambuna lambunan lambunka lambunta lambunsa lambunansu lambunanta
 51	1051	hidima	hidima hidimar hidimomin hidimomi hidimarsa hidimarta hidimata hidimomina hidimarsu hidiman hidimarku hidimominsa hidimominta hidimarka
 52	1052	gyare	gyare gyaren gyarenta
-53	1053	tantance	tantance
+53	1053	tantance	tantance tantancewa tantancewar tantancewata tantancewarta tantancewarsu
 54	1054	saɓo	saɓo saɓonta
-55	1055	teburi	teburin teburi teburinsa teburinku teburinta
-56	1056	cancanci	cancanci cancancin
+55	1055	teburi	teburin teburi teburinsa teburinku teburinta teburina
+56	1056	cancanci	cancanci cancancin cancantar cancantarsa cancantarsu cancantarta
 57	1057	batutuwa	batutuwan batutuwa batutuwanta batutuwansa batutuwar batutuwanmu batutuwansu
 58	1058	zarafi	zarafin zarafi zarafinsu zarafina zarafinsa zarafinta
 59	1059	zance	zancen zance zancensa zancenka zancena zancenmu zancensu
 60	1060	lalacewa	lalacewa lalacewar lalacewarta lalacewarsu lalacewarsa
-61	1061	gefe	gefe
+61	1061	gefe	gefe gefuna gefena gefunan gefunansu
 62	1062	rikice	rikice rikicen rikicenmu rikicensa
-63	1063	sada	sada
-64	1064	bincika	bincika bincikar bincikarsa bincikarsu
+63	1063	sada	sada sadawa sadawar
+64	1064	bincika	bincika bincikar bincikarsa bincikarsu binciki bincikawa bincikawar
 65	1065	coci	coci cocin cocinsa cocinta
 66	1066	riba	riba ribar riban ribarsa ribarsu ribanta ribata
-67	1067	ambata	ambaci ambata ambace ambatan
+67	1067	ambata	ambaci ambata ambace ambatan ambatar ambatawa ambatarsa
 68	1068	ado	ado adon adonsu adan adaidai adonsa adonta adai adaina adodi aduna
-69	1069	kwace	kwace
+69	1069	kwace	kwace kwacewa kwacen kwacewar
 70	1070	yari	yari yarin yarinta yarinmu yarina yarinka
 71	1071	duhu	duhu duhun
 72	1072	miki	miki
 73	1073	amin	amin
 74	1074	kwata	kwata kwatar kwatan
-75	1075	sananne	sanannen sananne sanannensa
+75	1075	sananne	sanannen sananne sanannensa sanannun sanannu sananniyar sananniya sanannunsa sananniyarmu sanannunsu sanannunta
 76	1076	agaji	agaji agajin agajinsa agajinta agajinmu
 77	1077	ace	ace
-78	1078	gawa	gawar gawa gawarsa gawan gawarta gawata gawansu gawarku gawarmu gawarsu
-79	1079	kisa	kisa
+78	1078	gawa	gawar gawa gawarsa gawan gawarta gawata gawansu gawarku gawarmu gawarsu gawarwakin gawarwaki gawawwakin gawaki gawawwaki gawarwakinsu gawarwakinta gawawwakinsu gawawwakinsa gawakin gawarwakinsa
+79	1079	kisa	kisa kisar
 80	1080	matsakaici	matsakaicin matsakaici matsakaicinsa matsakaicinsu matsakaicinta
 81	1081	banda	banda bandan bandana bandar
-82	1082	ɗaure	ɗaure
-83	1083	rabo	rabon rabo rabonsu rabonsa rabonta rabonku
+82	1082	ɗaure	ɗaure ɗaura ɗaurewa ɗaurawa ɗaurewar ɗauran
+83	1083	rabo	rabon rabo rabonsu rabonsa rabonta rabonku rabona
 84	1084	guguwa	guguwar guguwa guguwarta
 85	1085	tasa	tasa tasan tasoshin tasoshi tasar tasoshinsa tasoshinsu
 86	1086	sauye	sauye sauyen sauyensa
-87	1087	adana	adana adanar
+87	1087	adana	adana adanar adanawa adanawar
 88	1088	taga	taga tagar tagogin tagoginsa tagogi tagoginsu tagan tagarki tagarta
 89	1089	awanni	awanni awannin
 90	1090	ibada	ibada ibadar ibadan ibadarsu ibadarka ibadarsa ibadarta
 91	1091	sallah	sallah
 92	1092	motsi	motsi motsin motsinsa motsinta motsinsu motsinmu
-93	1093	sauya	sauya
-94	1094	tuƙi	tuƙi tuƙin tuƙinta
+93	1093	sauya	sauya sauyawa sauyawan sauyawar sauyawarsu
+94	1094	tuƙi	tuƙi tuƙin tuƙinta tuƙinsa
 95	1095	miya	miyar miya miyan miyanta miyarta gunon
 96	1096	dusar	dusar
 97	1097	tallace	tallace tallacen
 98	1098	mafita	mafita mafitar mafitarmu mafitarsa mafitarsu
-99	1099	roƙo	roƙon roƙo roƙonka roƙonku roƙonsu roƙonmu roƙonsa roƙonta
+99	1099	roƙo	roƙon roƙo roƙonka roƙonku roƙonsu roƙonmu roƙonsa roƙonta roƙona
 100	1100	jimla	jimlar jimla jimlarsa jimlarsu

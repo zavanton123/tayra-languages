@@ -1,100 +1,100 @@
-1	1901	zomo	zomo zomon zomaye zomonsa
-2	1902	tauraruwa	tauraruwa tauraruwar tauraruwarta tauraruwarsa tauraruwarsu
-3	1903	mamaya	mamaya mamayar mamayarsu mamayarsa
-4	1904	biye	biye
-5	1905	dage	dage dagen
-6	1906	koci	kocin koci kocinsa kocinta kocinsu kocinmu
-7	1907	gaggauta	gaggauta gaggautar
-8	1908	rumfa	rumfar rumfa rumfunan rumfuna rumfarsa rumfunar rumfarta
-9	1909	daƙile	daƙile
-10	1910	aukuwa	aukuwar aukuwa aukuwan
-11	1911	akasari	akasarin akasari akasarinsu akasarinsa
-12	1912	rattaɓa	rattaɓa
-13	1913	taƙaitaccen	taƙaitaccen
-14	1914	tsiro	tsirrai tsiro tsirran tsiron tsironta
-15	1915	ɗaura	ɗaura
-16	1916	kanki	kanki
-17	1917	gayyaci	gayyaci
-18	1918	haki	hakin haki hakinsu hakinsa hakinta
-19	1919	ma'adinai	ma'adinai
-20	1920	godewa	godewa
-21	1921	motsawa	motsawa motsawar
-22	1922	ƙere	ƙere
-23	1923	mashahuri	mashahurin mashahuran mashahuri mashahurai mashahuriyar mashahuriya mashahuransa mashahurinsa mashahurinta
-24	1924	shaidawa	shaidawa
-25	1925	assalamu	assalamu
-26	1926	sassaƙa	sassaƙa sassaƙe sassaƙan
-27	1927	yaga	yaga yage yagi yagan
-28	1928	sumbace	sumbace
-29	1929	kauce	kauce
-30	1930	gagarumar	gagarumar
-31	1931	ƙiyayya	ƙiyayya ƙiyayyar ƙiyayyarsa ƙiyayyarta
-32	1932	danna	danna
-33	1933	isassun	isassun
-34	1934	kwai	kwai kwan kwansu kwanki kwanmu kwanka
-35	1935	dabino	dabino dabinon dabinai
-36	1936	akasin	akasin akasinsa
-37	1937	sasanta	sasanta
-38	1938	sayo	sayo
-39	1939	tazara	tazarar tazara tazararsu
-40	1940	nutsu	nutsu
-41	1941	balaguro	balaguro balaguron balaguronsa balaguronsu
-42	1942	tennis	tennis
-43	1943	lumana	lumana lumanar lumanan
-44	1944	fitsari	fitsari fitsarin fitsarina fitsarinta
-45	1945	karye	karye
-46	1946	yanda	yanda
-47	1947	ƙirƙiri	ƙirƙiri
-48	1948	ƙirana	ƙirana
-49	1949	annabi	annabi annabawa annabin annabawan annabinsa annabinmu
-50	1950	manazarta	manazarta manazartan manazartansa manazartar
-51	1951	mantawa	mantawa
-52	1952	yawaita	yawaita yawaitan
-53	1953	canzawa	canzawa canzawar
-54	1954	ganina	ganina
-55	1955	tarurruka	tarurrukan tarurruka tarurrukanku tarurrukanta tarurrukansa tarurrukansu
-56	1956	tarko	tarko tarkon tarkonsa tarkonta
-57	1957	lemo	lemon lemo
-58	1958	kewar	kewar kewarsu kewarta kewarki kewarka kewarsa
-59	1959	maƙudan	maƙudan
-60	1960	kusurwa	kusurwa kusurwar
-61	1961	huhu	huhu huhun huhunta huhunsa huhuna
-62	1962	rufewa	rufewa rufewar rufewarsa
-63	1963	raɗaɗi	raɗaɗin raɗaɗi raɗaɗinsu
-64	1964	gindi	gindin gindi gindinsu gindinsa gindinmu gindinta
-65	1965	gamsuwa	gamsuwa gamsuwarsa gamsuwar gamsuwarsu gamsuwarta
-66	1966	cokali	cokali cokalin cokula cokulan
-67	1967	dalla	dalla dallar dallan
-68	1968	ƙalla	ƙalla
-69	1969	ƙanƙani	ƙanƙanin ƙanƙani
-70	1970	jaki	jaki jakin jakinsa jakunansu jakuna jakunan jakai jakunana
-71	1971	saduwa	saduwa saduwar saduwarmu saduwan saduwarsu
-72	1972	fahimce	fahimce
-73	1973	ni'ima	ni'ima ni'imar ni'imomin ni'imarta ni'imata ni'imomi ni'imominsa ni'imarsa
-74	1974	busawa	busawa busawar
-75	1975	tsai	tsai tsan tsanka
-76	1976	barasa	barasa barasar barasan
-77	1977	bayyanawa	bayyanawa bayyanawar bayyanawarta
-78	1978	kowani	kowani
-79	1979	goro	goro goron goronka
-80	1980	litattafai	litattafai
-81	1981	rijista	rijista rijistar rijistana rijistarku rijistata rijistan
-82	1982	hallaka	hallaka
-83	1983	kiraye	kiraye kirayen kirayensu kirayensa
-84	1984	hayaki	hayaki
-85	1985	kwaɗayi	kwaɗayi kwaɗayin
-86	1986	faɗakar	faɗakar
-87	1987	lebur	lebur
-88	1988	kaɗawa	kaɗawa
-89	1989	daƙiƙa	daƙiƙa daƙiƙoƙi daƙiƙan
-90	1990	ɗage	ɗage
-91	1991	sawa	sawa
-92	1992	tsaftace	tsaftace tsaftacen
-93	1993	takaddama	takaddama takaddamar takaddamarsu
-94	1994	haɗawa	haɗawa haɗawar haɗawarsa
-95	1995	zarta	zartar zarta
-96	1996	nasaba	nasaba nasabar nasabarsu
-97	1997	lissafa	lissafa
-98	1998	safa	safar safa safarka safarta safata safana
-99	1999	sane	sane
-100	2000	hauka	hauka haukan haukar haukarta
+1	1901	mashahuri	mashahurin mashahuran mashahuri mashahurai mashahuriyar mashahuriya mashahuransa mashahurinsa mashahurinta
+2	1902	shaidawa	shaidawa
+3	1903	gurɓata	gurɓata gurɓatar gurɓatawa gurɓatawar gurɓatawarsa
+4	1904	taho	taho tahowa
+5	1905	assalamu	assalamu
+6	1906	yaga	yaga yage yagi yagan
+7	1907	taɓarɓare	taɓarɓarewar taɓarɓarewa taɓarɓare taɓarɓarewarta
+8	1908	ɗinka	ɗinka ɗinke ɗinkewar ɗinkawa
+9	1909	sassaƙa	sassaƙa sassaƙawa sassaƙan
+10	1910	horas	horas horaswar horaswa
+11	1911	dabino	dabino dabinon dabinai
+12	1912	kwai	kwai kwan kwansu kwanki kwanmu kwanka
+13	1913	akasin	akasin akasinsa
+14	1914	tazara	tazarar tazara tazararsu
+15	1915	balaguro	balaguro balaguron balaguronsa balaguronsu
+16	1916	nutsu	nutsu
+17	1917	mawallafi	mawallafin mawallafa mawallafi mawallafan mawallafinsa mawallafinta mawallafansa mawallafansu mawallafanta
+18	1918	lumana	lumana lumanar lumanan
+19	1919	fitsari	fitsari fitsarin fitsarina fitsarinta
+20	1920	annabi	annabi annabawa annabin annabawan annabinsa annabinmu
+21	1921	ƙirana	ƙirana
+22	1922	narka	narke narkewa narkewar narka narkewarsa narkawa
+23	1923	ganina	ganina
+24	1924	tarko	tarko tarkon tarkonsa tarkonta
+25	1925	lemo	lemon lemo
+26	1926	maƙudan	maƙudan
+27	1927	kusurwa	kusurwa kusurwar
+28	1928	huhu	huhu huhun huhunta huhunsa huhuna
+29	1929	ƙalla	ƙalla
+30	1930	gindi	gindin gindi gindinsu gindinsa gindinmu gindinta
+31	1931	raɗaɗi	raɗaɗin raɗaɗi raɗaɗinsu
+32	1932	gamsuwa	gamsuwa gamsuwarsa gamsuwar gamsuwarsu gamsuwarta
+33	1933	cokali	cokali cokalin cokula cokulan
+34	1934	ƙanƙani	ƙanƙanin ƙanƙani
+35	1935	jaki	jaki jakin jakinsa jakunansu jakuna jakunan jakai jakunana
+36	1936	maharin	maharan mahara maharin maharar
+37	1937	ni'ima	ni'ima ni'imar ni'imomin ni'imarta ni'imata ni'imomi ni'imominsa ni'imarsa
+38	1938	barasa	barasa barasar barasan
+39	1939	goro	goro goron goronka
+40	1940	rijista	rijista rijistar rijistana rijistarku rijistata rijistan
+41	1941	shayar	shayarwa shayar shayarwar
+42	1942	jakada	jakadan jakada jakadun jakadu jakadar jakadanta jakadansa jakadunta
+43	1943	rarrabu	rarrabuwar rarrabuwa rarrabu rarrabuwan rarrabuwarsu rarrabuwarsa rarrabuwarta
+44	1944	tarwatsa	tarwatsa tarwatse tarwatsawa tarwatsewar tarwatsewa tarwatsawar
+45	1945	ɗage	ɗage ɗagen
+46	1946	lebur	lebur
+47	1947	gafarta	gafarta gafartawa
+48	1948	dawa	dawa dawan dazukan dawata dazukanta dawar
+49	1949	takaddama	takaddama takaddamar takaddamarsu
+50	1950	nasaba	nasaba nasabar nasabarsu
+51	1951	ƙwanƙwasa	ƙwanƙwasa ƙwanƙwasawa ƙwanƙwasawar
+52	1952	katse	katse katsewar katsewa
+53	1953	safa	safar safa safarka safarta safata safana
+54	1954	sane	sane
+55	1955	hauka	hauka haukan haukar haukarta haukata
+56	1956	haskaka	haskakawa haskaka haskakawar
+57	1957	wadai	wadai wadain
+58	1958	kawu	kawu kawun kawunsa kawunta kawunsu kawunka kawunku
+59	1959	yarima	yarima yariman yarimar
+60	1960	manzo	manzon manzo manzonsa manzanni manzannin manzanninsa
+61	1961	kashewa	kashewa kashewar
+62	1962	tuntuɓa	tuntuɓar tuntuɓa tuntuɓarsa tuntuɓarsu tuntuɓarmu tuntuɓarta
+63	1963	sanyawa	sanyawa sanyawar
+64	1964	tattaki	tattaki tattakin tattakinsa tattakinsu tattakinta
+65	1965	tafarki	tafarkin tafarki tafarkinsa tafarkuna tafarkinta tafarkinsu
+66	1966	tsaiko	tsaiko tsaikon
+67	1967	maƙabarta	maƙabarta makabarta makabartar makabartan maƙabartarsa
+68	1968	iyawa	iyawa iyawar iyawarsa iyawarsu iyawarta iyawarka iyawarmu iyawata iyawarku
+69	1969	daddadare	daddadare daddadaren
+70	1970	alewa	alewa alewar
+71	1971	mahaukaci	mahaukaci mahaukacin
+72	1972	haraba	haraba harabar harabarta harabarsa
+73	1973	halatta	halatta halattar
+74	1974	ragowa	ragowar ragowa ragowarsu ragowarsa ragowarta ragowan
+75	1975	suga	suga sugar sugata
+76	1976	ninƙaya	ninƙaya ninƙayar
+77	1977	jituwa	jituwa jituwar jituwan jituwarsa jituwarsu
+78	1978	sittin	sittin
+79	1979	murƙushe	murƙushe murƙushewa murƙushewar
+80	1980	tausaya	tausayawa tausaya tausayawar tausayawarku tausayawan tausayawarta
+81	1981	nakasa	nakasa nakasar nakasata nakasan nakasarsa nakasarsu
+82	1982	bazu	bazu bazuwa bazuwar bazuwarta
+83	1983	rubutattun	rubutattun rubutaccen
+84	1984	yaƙar	yaƙar yaƙarta yaƙarsa
+85	1985	ƙirga	ƙirga kirga ƙirgawa ƙirgawar
+86	1986	tilo	tilo tilon
+87	1987	karɓe	karɓe karɓewa karɓewar
+88	1988	farinciki	farinciki farincikina farincikin
+89	1989	gujewa	gujewa gujewar
+90	1990	matakala	matakala matakalan matakalar matakalarsa
+91	1991	taushi	taushi taushin
+92	1992	cizo	cizon cizo cizonta cizonsa
+93	1993	tambari	tambarin tambari tambura tambarinsa tambarinsu tamburan tambarinta tambarinmu
+94	1994	siyayya	siyayya siyayyar
+95	1995	hazo	hazo hazon
+96	1996	takura	takura takurawa takure takurar takurawar takurewar
+97	1997	gaishe	gaishe gaishewa
+98	1998	halasta	halasta halastawa
+99	1999	shinge	shingen shinge shingayen shingaye shingensa
+100	2000	jikkata	jikkata jikkatawa jikkatan jikkatar

@@ -1,100 +1,100 @@
-1	3701	kansiloli	kansiloli kansilolin kansilolinka kansilolinmu kansilolinta kansilolinsa
-2	3702	ƴar'uwata	ƴar'uwata
-3	3703	bel	bel
-4	3704	tabarma	tabarma tabarmar tabarmi tabarmarta tabarmansa
-5	3705	barbashin	barbashin
-6	3706	tsautsayi	tsautsayi tsautsayin
-7	3707	ganguna	ganguna gangunan gangunansa gangunansu
-8	3708	dagewa	dagewa dagewar dagewarta dagewarsa
-9	3709	francs	francs
-10	3710	akawu	akawu akawun akawunta
-11	3711	haramcin	haramcin haramcinsa haramcinta haramcinsu
-12	3712	banƙyama	banƙyama
-13	3713	sahihancin	sahihancin sahihancinsa sahihancinta sahihancinsu
-14	3714	kutse	kutse kutsen
-15	3715	mahauta	mahauta mahautan mahautar
-16	3716	tim	tim
-17	3717	bijirewa	bijirewa
-18	3718	zani	zani zanin zaninta
-19	3719	farfasa	farfasa farfasan
-20	3720	zaunawa	zaunawa
-21	3721	dokta	dokta
-22	3722	takaddar	takaddar takaddarsa
-23	3723	naci	naci nacin
-24	3724	yai	yai
-25	3725	kafafan	kafafan
-26	3726	biliyoyin	biliyoyin
-27	3727	biris	biris
-28	3728	fikihu	fikihu fikihun
-29	3729	dinari	dinari
-30	3730	gwabza	gwabza gwabzar
-31	3731	ƙudurorin	ƙudurorin ƙudurorinta
-32	3732	danƙon	danƙon
-33	3733	sansu	sansu
-34	3734	tumatur	tumatur
-35	3735	wawure	wawure
-36	3736	kaca	kaca kacar
-37	3737	kwasai	kwasai
-38	3738	damƙa	damƙa
-39	3739	ƙangin	ƙangin
-40	3740	cinya	cinyar cinya cinyarsa cinyarta cinyan cinyata
-41	3741	takwarorinsa	takwarorinsa
-42	3742	kyakyawan	kyakyawan
-43	3743	kamewa	kamewa kamewar
-44	3744	tsaga	tsaga
-45	3745	ƙasƙanci	ƙasƙanci ƙasƙancin
-46	3746	bebe	bebe
-47	3747	tauna	tauna taunan
-48	3748	tallatawa	tallatawa
-49	3749	magidanta	magidanta
-50	3750	shiryar	shiryar shiryarsa
-51	3751	maya	mayan maya mayana
-52	3752	markaɗa	markaɗa
-53	3753	bijimi	bijimi bijimin bijiminsa
-54	3754	jarumtaka	jarumtaka jarumtakar jarumtakarsa jarumtakarta jarumtakarsu
-55	3755	ciko	cikon ciko
-56	3756	wala	wala walata
-57	3757	sheƙi	sheƙi
-58	3758	mummy	mummy
-59	3759	ƙaya	ƙaya ƙayana ƙayanka ƙayoyi ƙayata
-60	3760	silin	silin sili
-61	3761	madogara	madogara madogaran madogararsa madogarar
-62	3762	jamiyyar	jamiyyar jamiyyarsa
-63	3763	ta'asa	ta'asar ta'asa
-64	3764	limanci	limanci limancin
-65	3765	kuyanga	kuyanga kuyangar kuyangarsa kuyangarsu
-66	3766	haddi	haddin haddi
-67	3767	shagulgula	shagulgulan shagulgula shagulgular
-68	3768	rarrabe	rarrabe
-69	3769	tazo	tazo
-70	3770	ƙyalle	ƙyalle
-71	3771	kunkuntar	kunkuntar
-72	3772	dakatarwa	dakatarwa dakatarwar dakatarwarsa dakatarwarta
-73	3773	alfasha	alfasha alfashar
-74	3774	warwar	warwas wanwar warwar
-75	3775	biza	biza bizar bizarsa bizana
-76	3776	aibu	aibu aibun aibunta aibin aibobi
-77	3777	munduwa	munduwa munduwar
-78	3778	shakata	shakata
-79	3779	atamfa	atamfa atamfar
-80	3780	kyamarorin	kyamarorin
-81	3781	ishara	ishara isharar isharori
-82	3782	taɓarɓare	taɓarɓare
-83	3783	jifan	jifan jifansu jifanta
-84	3784	mabuƙata	mabuƙata mabuƙatan
-85	3785	ɗumbin	ɗumbin
-86	3786	alkalai	alkalai
-87	3787	laima	laima laimar laimansa
-88	3788	gurare	gurare guraren
-89	3789	tsage	tsage tsagen
-90	3790	fukan	fukan fukanta fukansa fukansu fukanmu
-91	3791	er	er
-92	3792	zoonotic	zoonotic
-93	3793	fasawa	fasawa fasawar
-94	3794	sabin	sabin
-95	3795	samame	samame samamen
-96	3796	gulbi	gulbin gulabe gulbi
-97	3797	con	con
-98	3798	kakeso	kakeso kakeson
-99	3799	huh	huh
-100	3800	ƙugi	ƙugi
+1	3701	tsumma	tsumman tsumma
+2	3702	zafafa	zafafa zafafan zafafanta zafafansa
+3	3703	fatali	fatali
+4	3704	ungozoma	ungozoma
+5	3705	wawashe	wawashe wawashewa wawashewar
+6	3706	kwafe	kwafe kwafen kwafenta
+7	3707	tsatso	tsatso tsatson
+8	3708	mutumci	mutumci mutumcin mutumcinsa
+9	3709	mashayi	mashayi mashayin
+10	3710	nai	nai
+11	3711	dushe	dushe dushewa
+12	3712	ƙusa	ƙusa ƙusoshin ƙusar ƙusoshinsa ƙusoshinta ƙusata
+13	3713	dubura	dubura duburarsa duburar duburarta
+14	3714	gallazawa	gallazawa
+15	3715	dalma	dalma dalman dalmar
+16	3716	mutune	mutune
+17	3717	maƙoshi	maƙoshi
+18	3718	bakanike	bakanike bakaniken
+19	3719	rayar	rayar rayarwa
+20	3720	gwaiwa	gwaiwa gwaiwar
+21	3721	asubahi	asubahi asubahin
+22	3722	abaya	abaya abayan
+23	3723	duma	duma dumame dumamen dumar duman
+24	3724	gumurzu	gumurzu gumurzun
+25	3725	dillacin	dillacin
+26	3726	yarantaka	yarantaka yarantakarsa yarantakar yarantakarsu
+27	3727	fakaice	fakaice
+28	3728	addua	addua adduar adduarmu
+29	3729	lakume	lakume
+30	3730	tafasasshen	tafasasshen
+31	3731	tazarce	tazarce
+32	3732	ɗibi	ɗibi
+33	3733	dusashe	dusashe dusashewa dusashewar
+34	3734	taiki	taiki taikin
+35	3735	ɗago	ɗago ɗagon ɗagowa
+36	3736	ƙiri	ƙiri
+37	3737	firai	firai firan
+38	3738	yunkuro	yunkuro yunkurowa
+39	3739	sufeto	sufeto sufeton
+40	3740	dogari	dogari dogarawan dogarai dogarin dogarawa
+41	3741	gusar	gusar
+42	3742	masha	masha
+43	3743	ɗakushe	ɗakushe ɗakushewa
+44	3744	bazama	bazama
+45	3745	kiyo	kiyo kiyon
+46	3746	kudurce	kudurce
+47	3747	kyam	kyam
+48	3748	labe	labe
+49	3749	sak	sak
+50	3750	sameta	sameta
+51	3751	saww	saww
+52	3752	tseratar	tseratar
+53	3753	ƴanto	ƴanto ƴanton
+54	3754	ɓarauniya	ɓarauniya ɓarauniyar
+55	3755	rusasshiya	rusasshiya rusasshiyar
+56	3756	tozarci	tozarci
+57	3757	ƙwar	ƙwar
+58	3758	caccaki	caccaki
+59	3759	tsundum	tsundum
+60	3760	walda	walda
+61	3761	kofur	kofur
+62	3762	muƙamuƙi	muƙamuƙina muƙamuƙi muƙamuƙin muƙamuƙinsa
+63	3763	sifa	sifa sifar sifarsa sifarsu
+64	3764	muƙala	muƙala muƙalar muƙalarsa muƙalarta
+65	3765	manhajoji	manhajoji manhajojin
+66	3766	saja	sajan saja
+67	3767	caka	cakawa caka
+68	3768	hazaƙa	hazaƙa hazaƙar hazaƙarsa
+69	3769	buroshi	buroshi buroshin
+70	3770	limami	limami
+71	3771	ɓula	ɓula ɓulan ɓulawa
+72	3772	kafe	kafe
+73	3773	ƙadangare	ƙadangare ƙadangaren ƙadangaru ƙadangarun
+74	3774	luguden	luguden
+75	3775	mahaukata	mahaukata mahaukatan
+76	3776	warƙa	warƙar warƙoƙi warƙa warƙoƙin
+77	3777	abarba	abarba
+78	3778	ƙyanƙyashe	ƙyanƙyashe ƙyanƙyashewa
+79	3779	kasko	kaskon kasko
+80	3780	fassarawa	fassarawa
+81	3781	zawo	zawo zawon
+82	3782	rini	rini rinin
+83	3783	araha	araha araharsa
+84	3784	tsotsa	tsotsa tsotsawa
+85	3785	rubutacciya	rubutacciya rubutacciyar
+86	3786	toya	toyawa toya toye
+87	3787	masunci	masunci
+88	3788	rubu'i	rubu'i rubu'in
+89	3789	wafati	wafati wafatin wafatinsa
+90	3790	ƴan'uwantaka	ƴan'uwantaka ƴan'uwantakar
+91	3791	fensir	fensir
+92	3792	diga	diga
+93	3793	loma	loma lomar
+94	3794	misalta	misalta misaltawa
+95	3795	kifa	kifa
+96	3796	kwalta	kwalta
+97	3797	ƙoda	ƙodar ƙodarsa ƙodoji ƙodan ƙoda
+98	3798	dirshan	dirshan
+99	3799	fat	fat
+100	3800	nisanci	nisanci nisancin

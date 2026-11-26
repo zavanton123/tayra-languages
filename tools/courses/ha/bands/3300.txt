@@ -1,100 +1,100 @@
-1	3201	anjima	anjima anjiman
-2	3202	gareni	gareni
-3	3203	jiri	jiri
-4	3204	wajabta	wajabta
-5	3205	haila	haila hailar
-6	3206	shaidi	shaidi
-7	3207	ta'adan	ta'adan
-8	3208	wargaza	wargaza
-9	3209	murmurewa	murmurewa murmurewarsa murmurewar murmurewarta
-10	3210	taruwa	taruwa taruwar taruwarmu
-11	3211	tururi	tururi tururin tururinsa
-12	3212	farfadowa	farfadowa
-13	3213	dabaibaye	dabaibaye
-14	3214	ƙaddamarwa	ƙaddamarwa ƙaddamarwar ƙaddamarwarsa ƙaddamarwarsu
-15	3215	raira	raira
-16	3216	rahusa	rahusa rahusar
-17	3217	madaidaici	madaidaicin madaidaici
-18	3218	kanar	kanar
-19	3219	karko	karko karkon karkonsa
-20	3220	dafawa	dafawa
-21	3221	tuhumi	tuhumi
-22	3222	bazuwa	bazuwa bazuwar bazuwarta
-23	3223	bankaɗo	bankaɗo
-24	3224	ma'aji	ma'ajin ma'aji ma'ajinsa
-25	3225	shure	shure
-26	3226	rubutaccen	rubutaccen
-27	3227	sanina	sanina saninan
-28	3228	kasawa	kasawa kasawar kasawarsa
-29	3229	kwaskwarima	kwaskwarima kwaskwarimar
-30	3230	gatari	gatari gatarin gatura
-31	3231	ƙaurace	ƙaurace
-32	3232	cif	cif
-33	3233	maɗaukaki	maɗaukakin maɗaukaki
-34	3234	azzalumai	azzalumai
-35	3235	majiyoyi	majiyoyi majiyoyin majiyoyinsa majiyoyinsu majiyoyinta
-36	3236	nufa	nufa
-37	3237	fanka	fanka fankan fankar fankoki
-38	3238	talabijan	talabijan
-39	3239	kud	kud
-40	3240	tanki	tankin tanki tankinsa
-41	3241	albarkace	albarkace
-42	3242	faɗowa	faɗowa faɗowar
-43	3243	ceri	ceri
-44	3244	iyakacin	iyakacin
-45	3245	nazo	nazo
-46	3246	bazata	bazata bazatar
-47	3247	ganima	ganima ganiman ganimar ganimarsu
-48	3248	haifu	haifu
-49	3249	hamshaƙin	hamshaƙin
-50	3250	damƙe	damƙe
-51	3251	gu	gu
-52	3252	shiya	shiya shiyar
-53	3253	farkawa	farkawa farkawar farkawarsa farkawarsu
-54	3254	warewa	warewa warewar warewarsu warewarta
-55	3255	bukka	bukkar bukka bukkoki bukkata bukkokin bukkarsa bukkokinsu
-56	3256	kashedi	kashedin kashedi kashedinku kashedinki
-57	3257	kutsa	kutsa
-58	3258	inada	inada inadan
-59	3259	ƙwandala	ƙwandala ƙwandalan ƙwandalar
-60	3260	madaidaiciya	madaidaiciya madaidaiciyar
-61	3261	barni	barni
-62	3262	canka	canka cankar
-63	3263	daamu	daamu
-64	3264	fiso	fiso
-65	3265	fitsara	fitsara
-66	3266	fizza	fizza fizzan
-67	3267	habibua	habibua
-68	3268	krismeti	krismeti
-69	3269	mumunnan	mumunnan
-70	3270	nishandantarwa	nishandantarwa
-71	3271	tiket	tiket
-72	3272	tsane	tsane
-73	3273	yanyawa	yanyawa yanyawan
-74	3274	kyautuka	kyautukan kyautuka
-75	3275	muƙarraban	muƙarraban muƙarrabansa
-76	3276	maigidana	maigidana
-77	3277	garambawul	garambawul
-78	3278	magidanci	magidanci magidancin
-79	3279	macizai	macizai
-80	3280	tsiya	tsiya tsiyar
-81	3281	mafarauci	mafarauci mafaraucin
-82	3282	ɗanuwa	ɗanuwa ɗanuwansa ɗanuwanta ɗanuwar
-83	3283	madigo	madigo madigon
-84	3284	muraba'in	muraba'in
-85	3285	attajira	attajiran attajira attajirar
-86	3286	haifaffiyar	haifaffiyar
-87	3287	tambayeni	tambayeni
-88	3288	ƙawata	ƙawata
-89	3289	raɗin	raɗin
-90	3290	watse	watse
-91	3291	jujjuya	jujjuya
-92	3292	guduwa	guduwa guduwar guduwarsa guduwarta
-93	3293	ɓatawa	ɓatawa ɓatawar
-94	3294	rake	rake
-95	3295	zalunta	zalunta zaluntar zaluntarsu zaluntarsa
-96	3296	waɗanan	waɗanan
-97	3297	cirewa	cirewa cirewar
-98	3298	tsine	tsine
-99	3299	haja	hajarsa hajar hajarsu hajoji hajojinsu haja hajojin hajansa
-100	3300	rata	rata
+1	3201	hadimi	hadimi hadimin hadiman hadimansa hadiminsa
+2	3202	tsuke	tsuke tsukewa
+3	3203	dokta	dokta
+4	3204	naci	naci nacin
+5	3205	yai	yai
+6	3206	dubatar	dubatar
+7	3207	kwararo	kwararo
+8	3208	kafafa	kafafa kafafan
+9	3209	biris	biris
+10	3210	dinari	dinari
+11	3211	danƙo	danƙo danƙon
+12	3212	wawure	wawure
+13	3213	ƙangi	ƙangi ƙangin
+14	3214	cinya	cinyar cinya cinyarsa cinyarta cinyan cinyata
+15	3215	takwarorinsa	takwarorinsa
+16	3216	ƙugu	ƙugu ƙuguna ƙugunsa ƙugunsu
+17	3217	mabuƙata	mabuƙata mabuƙatan
+18	3218	ƙasƙanci	ƙasƙanci ƙasƙancin
+19	3219	nesanta	nesanta nesantar nesantawar
+20	3220	tallatawa	tallatawa
+21	3221	magidanta	magidanta
+22	3222	tauna	tauna taunan
+23	3223	maya	mayan maya mayana
+24	3224	bijimi	bijimi bijimin bijiminsa
+25	3225	gauraya	gauraya gaurayawa gaurayawar
+26	3226	ciko	cikon ciko
+27	3227	fiɗa	fiɗa fiɗar fiɗan
+28	3228	ƙaya	ƙaya ƙayana ƙayanka ƙayoyi ƙayata
+29	3229	mummy	mummy
+30	3230	madogara	madogara madogaran madogararsa madogarar
+31	3231	silin	silin sili
+32	3232	ta'asa	ta'asar ta'asa
+33	3233	limanci	limanci limancin
+34	3234	haddi	haddin haddi
+35	3235	kuyanga	kuyanga kuyangar kuyangarsa kuyangarsu
+36	3236	kunkuntar	kunkuntar
+37	3237	alfasha	alfasha alfashar
+38	3238	warwar	warwas wanwar warwar
+39	3239	ƙyalle	ƙyalle
+40	3240	biza	biza bizar bizarsa bizana
+41	3241	atamfa	atamfa atamfar
+42	3242	ruɗu	ruɗu ruɗun
+43	3243	munduwa	munduwa munduwar
+44	3244	ishara	ishara isharar isharori
+45	3245	ɗumbin	ɗumbin
+46	3246	laima	laima laimar laimansa
+47	3247	ɗebo	ɗebo ɗebowa
+48	3248	samartaka	samartaka samartakarsa samartakata samartakanta samartakar samartakarsu samartakarta
+49	3249	samame	samame samamen
+50	3250	er	er
+51	3251	zoonotic	zoonotic
+52	3252	sabin	sabin
+53	3253	makauniya	makauniya makauniyar makauniyata
+54	3254	gulbi	gulbin gulabe gulbi
+55	3255	con	con
+56	3256	huh	huh
+57	3257	cinna	cinna cinnawa
+58	3258	wajaje	wajaje wajajen
+59	3259	salak	salak
+60	3260	kitso	kitso kitson
+61	3261	fasikanci	fasikanci fasikancin
+62	3262	la'antar	la'antar
+63	3263	huci	huci
+64	3264	muzuru	muzuru muzurai
+65	3265	ofishina	ofishina
+66	3266	gaskanta	gaskanta
+67	3267	leƙo	leƙo leƙowa
+68	3268	akidu	akidun akidu akidunsu akidunta
+69	3269	kashegari	kashegari
+70	3270	fatattakar	fatattakar fatattakarsu
+71	3271	gwamma	gwamma
+72	3272	kufai	kufai kufansu kufaifan
+73	3273	busasshiya	busasshiya busasshiyar
+74	3274	makanta	makanta makantar makantarsa
+75	3275	yafiya	yafiya
+76	3276	fanko	fanko
+77	3277	kaure	kaure kaurewa kauren
+78	3278	ca	ca
+79	3279	sanka	sanka sankar
+80	3280	gurgunta	gurgunta gurguntar
+81	3281	fes	fes
+82	3282	karkaɗe	karkaɗe
+83	3283	sikila	sikila sikilar sikilan
+84	3284	rara	rara rarar rararta
+85	3285	yaka	yaka
+86	3286	busar	busar busarwa busarwar
+87	3287	muguntar	muguntar muguntarsu
+88	3288	zub	zub
+89	3289	tsinuwa	tsinuwa tsinuwar tsinuwarta
+90	3290	tuya	tuya tuyar
+91	3291	ɗebi	ɗebi
+92	3292	mahaukaciya	mahaukaciya mahaukaciyar
+93	3293	hangi	hangi hangin
+94	3294	gabaki	gabaki
+95	3295	ƙirƙirarren	ƙirƙirarren
+96	3296	daida	daida daidan
+97	3297	bagade	bagade bagaden
+98	3298	jallo	jallo
+99	3299	ɗinnan	ɗinnan
+100	3300	dandamali	dandamali dandamalin dandamalinta

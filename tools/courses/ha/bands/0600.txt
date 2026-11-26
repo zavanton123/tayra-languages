@@ -3,47 +3,47 @@
 3	503	dabba	dabbobi dabba dabbobin dabbar dabban dabbarku dabbobinsa dabbobinsu dabbobinka dabbobinta dabbarsa dabbarta
 4	504	gabas	gabas gabashin gabar gabarsu gabashinsa gabashinta gabashinsu gabarmu gabarka
 5	505	yaushe	yaushe
-6	506	lasa	lashe lashi lasa lasan
-7	507	damu	damu damun damunsa damunmu damunka damunsu damunki damunta
+6	506	lasa	lashe lashi lasa lasan lasar
+7	507	damu	damu damun damunsa damunmu damunka damunsu damunki damunta daamu
 8	508	nauyi	nauyin nauyi nauyinsu nauyinsa nauyinta nauyinku nauyinmu
-9	509	gare	gare garen
+9	509	gare	gare garen agare
 10	510	shari'a	shari'a shari'ar shari'o'in shari'o'i shari'arta shari'arsa shari'armu shari'arsu shari'o'insa shari'an shari'o'insu shari'o'inta
 11	511	gwiwa	gwiwa gwiwar gwiwarsa gwiwata gwiwan gwiwarta gwiwoyinta gwiwarka gwiwarsu gwiwoyi gwiwoyin gwiwarmu gwiwoyinsa
-12	512	haƙƙi	haƙƙin haƙƙi haƙƙinsa haƙƙinsu haƙƙinmu haƙƙinta
-13	513	haƙuri	haƙuri haƙurin haƙurinsa haƙurinta
-14	514	saka	saka sakata sakarsu saun
+12	512	haƙƙi	haƙƙin haƙƙi haƙƙinsa haƙƙinsu haƙƙinmu haƙƙinta haƙƙoƙin haƙƙoƙinsu haƙƙina haƙƙinka haƙƙoƙinsa haƙƙinki haƙƙoƙinta haƙƙoƙinku haƙƙoƙinka
+13	513	haƙuri	haƙuri haƙurin haƙurinsa haƙurinta haƙurina haƙurinki haƙurinmu
+14	514	saka	saka sakata sakarsu saun sakawa
 15	515	jeri	jerin jeri jerinsa
 16	516	asibiti	asibiti asibitin asibitoci asibitocin asibitocinmu asibitinka asibitocinsu asibitinmu asibitinta asibitinsa asibitocinta
 17	517	imani	imani imanin imaninsa imaninsu imaninka imaninta imaninmu imaninku imanina
-18	518	manta	manta mance
+18	518	manta	manta mance mantawa
 19	519	tarayya	tarayya tarayyar tarayyan tarayyarsa tarayyarsu tarayyarta
-20	520	ƙarni	ƙarni ƙarnuka ƙarnin ƙarnukansu ƙarnina ƙarninsa ƙarninta
+20	520	ƙarni	ƙarni ƙarnuka ƙarnin ƙarnukansu ƙarnina ƙarninsa ƙarninta ƙarnoni ƙarnoninsa ƙarnonin
 21	521	bawa	bawa bayi bayin bawan baiwar bayinsa bawanka baiwarsa bawanta bawanmu baiwarka bayina bayinka bayinku bawata bayinsu bawansa bayinta baiwarta bawanku baiwarsu bawar
 22	522	dariya	dariya dariyar dariyan dariyarki dariyarsa dariyarta
 23	523	muhimmi	muhimman muhimmiyar muhimmin muhimmi muhimmai muhimmiya muhimmanta
-24	524	miliyan	miliyan
-25	525	digiri	digiri digirin digirinsa digirinta digirinku digirinsu
-26	526	karɓa	karɓar karɓa karɓan karɓansa karɓarta karɓanta
-27	527	miƙa	miƙa miƙe
+24	524	miliyan	miliyan milliyan
+25	525	digiri	digiri digirin digirinsa digirinta digirinku digirinsu digirina
+26	526	karɓa	karɓar karɓa karɓan karɓansa karɓarta karɓanta karɓo karɓowa karɓawar karɓowar
+27	527	miƙa	miƙa miƙe miƙawa miƙewa miƙewar
 28	528	dangane	dangane danganen
-29	529	fama	fama
-30	530	gane	gane
-31	531	sayar	sayar
-32	532	fuskanta	fuskantar fuskanta fuskantarmu fuskantan fuskantarsa fuskantarsu fuskantarta
+29	529	fama	fama famar
+30	530	gane	gane ganewa ganewar
+31	531	sayar	sayar siyarwa siyarwar siyarwarsa
+32	532	fuskanta	fuskantar fuskanta fuskantarmu fuskantan fuskantarsa fuskantarsu fuskantarta fuskance
 33	533	sashi	sassan sashin sassa sashi sassanta sassar sassansa sassansu sashinta sashinsa sashinsu
-34	534	tura	tura ture
+34	534	tura	tura ture turowa
 35	535	kofi	kofin kofi kofunan kofuna kofinsa kofinsu kofinta
 36	536	alaƙa	alaƙa alaƙar alaƙarsa alaƙarmu alaƙarsu alaƙarta alaƙarku alaƙarka alaƙata alaƙan
 37	537	tilasta	tilasta tilastata
-38	538	tsare	tsare tsaren tsarensa tsarensu tsarenta tsarenmu
-39	539	saƙo	saƙo saƙon saƙonsa saƙonka saƙonsu saƙonta sakonki
-40	540	raba	raba
+38	538	tsare	tsare tsaren tsarensa tsarensu tsarenta tsarenmu tsarewa tsarewar
+39	539	saƙo	saƙo saƙon saƙonsa saƙonka saƙonsu saƙonta sakonki saƙona saƙonnina saƙonninku saƙonninsa saƙonki
+40	540	raba	raba rabawa rabawar
 41	541	dukkanin	dukkanin dukkaninsu dukkaninmu dukkaninku
-42	542	saya	sayi saya sayan sayansu sayanta
+42	542	saya	sayi saya sayan sayansu sayanta sayo siyo siye sayawa siyawa sayowa siyen siyowa
 43	543	muƙami	muƙamin muƙamai muƙami muƙaminsa muƙaman muƙamansu muƙaminta muƙaminsu muƙaminka muƙamansa muƙamanta
-44	544	cira	cire cira ciran
+44	544	cira	cire cira ciran cirar ciro
 45	545	arewa	arewa arewan arewar arewarmu arewarsa
-46	546	tsara	tsara tsaranka tsaransa tsaran tsaranta
+46	546	tsara	tsara tsaranka tsaransa tsaran tsaranta tsarawa tsarawar
 47	547	soyayya	soyayya soyayyar soyayyarsu soyayyarta soyayyata soyayyarki soyayyarsa soyayyan soyayyarka soyayyarmu
 48	548	sana'a	sana'a sana'ar sana'o'i sana'o'in sana'arsa sana'ata sana'arsu sana'o'insu sana'arta sana'an sana'arku sana'arka sana'armu sana'o'inmu sana'anta sana'arki sana'o'ina sana'o'insa sana'o'inta
 49	549	wasiƙa	wasiƙar wasiƙa wasiƙu wasiƙun wasiƙarki wasiƙarsa wasiƙarka wasiƙunsa wasiƙunta wasiƙarsu wasiƙan wasiƙuna wasiƙunmu wasiƙunsu wasiƙarta
@@ -57,44 +57,44 @@
 57	557	maso	maso mason
 58	558	kina	kina
 59	559	ai	ai
-60	560	yaɗa	yaɗa
+60	560	yaɗa	yaɗa yaɗawa yaɗu yaɗuwan yaɗuwarsa yaɗawan yaɗawar
 61	561	duka	duka
 62	562	daraja	daraja darajar darajan darajarsa darajanta darajarku darajoji darajarsu darajarta darajojin darajojinsa darajarmu darajojinsu
 63	563	jagoranci	jagoranci jagorancin jagorancinsa jagorancinta jagorancinku jagorancinsu jagorancinmu
 64	564	ma'ana	ma'ana ma'anar ma'anarsa ma'anarta ma'anarsu ma'anan
 65	565	muku	muku
-66	566	tasha	tashar tashoshin tasha tashan tashoshi tashoshinsu tashoshinta tasharmu tasharsa tasharta tasharsu tashoshinsa
+66	566	tasha	tashar tashoshin tasha tashan tashoshi tashoshinsu tashoshinta tasharmu tasharsa tasharta tasharsu tashoshinsa tashohin
 67	567	taimakawa	taimakawa taimakawar
-68	568	alƙawari	alƙawarin alƙawari alkawarinsa alƙawarinku alƙawarinsu alkawarinta alƙawarinmu
+68	568	alƙawari	alƙawarin alƙawari alkawarinsa alƙawarinku alƙawarinsu alkawarinta alƙawarinmu alkawuran alkawuransa alƙawarina alkawuransu
 69	569	mugu	mugun miyagun mugunta muguwar mugayen mugu miyagu mugaye mugunyar muguna muguwa
 70	570	minista	ministan minista ministar ministoci ministocin ministocinsa ministansa ministocinta ministocinsu
 71	571	layi	layi layin layukan layuka layinsa layina layinku layinta layinsu layinmu layukanta
 72	572	jawabi	jawabi jawabin jawabinsa jawabai jawaban jawabinka jawabinta jawabansu jawabansa jawabanka jawabanta jawabinsu jawabinmu
 73	573	halitta	halitta halittar halittan halittarsa halittarsu halittarmu halittarta
-74	574	lura	lura
+74	574	lura	lura luran
 75	575	kujera	kujerar kujera kujerun kujeru kujerarsa kujerunsu kujerarta kujeran kujeransa kujerarsu kujerarka kujerunta kujerunsa kujeruna
 76	576	kuke	kuke
-77	577	ajiye	ajiye
+77	577	ajiye	ajiye ajiyewa
 78	578	masana	masana masanan masananmu masanansu masanansa masanar
 79	579	bacci	bacci baccin baccinsa
-80	580	sa'a	sa'a sa'an sa'o'i sa'ar sa'ata sa'o'in sa'arta sa'o'inta sa'arka sa'o'insa sa'arsa sa'arsu sa'o'insu
+80	580	sa'a	sa'a sa'an sa'o'i sa'ar sa'ata sa'o'in sa'arta sa'o'inta sa'arka sa'o'insa sa'arsa sa'arsu sa'o'insu sa'oi sa'oin
 81	581	hare	hare haren harensu harenta harenmu harensa
 82	582	goyo	goyon goyo
 83	583	tabbas	tabbas
 84	584	tattaunawa	tattaunawa tattaunawar tattaunawarmu tattaunawarsa tattaunawarsu tattaunawarta tattaunawan tattaunawarku
-85	585	rauni	rauni raunin rauninka rauninta rauninsa rauninsu
+85	585	rauni	rauni raunin rauninka rauninta rauninsa rauninsu raunuka raunukan raunukanku raunukar raunukansa
 86	586	kudu	kudu
 87	587	ƙauna	ƙaunar ƙauna ƙaunata ƙaunarta ƙaunarsa ƙaunarsu ƙaunarki ƙaunarka ƙaunarmu ƙaunan ƙaunana
-88	588	mallaka	mallaka mallaki mallake mallakan mallakansu
+88	588	mallaka	mallaka mallaki mallake mallakan mallakansu mallakin mallakinsa mallakinki mallakinsu mallakinta
 89	589	gini	ginin gini gininsa gininmu gininta gininsu
 90	590	titi	titin titi tituna titunan titinsa titunansu titina titunanmu titunansa
 91	591	rikici	rikicin rikici rikicinta rikicinsu rikicinsa
 92	592	mahimmanci	mahimmanci mahimmancin mahimmancinsa mahimmancinta mahimmancinsu
 93	593	buri	burin buri burina burinsa burinsu burinta burinku burinmu burinka burinki
 94	594	karɓi	karɓi
-95	595	aiwatar	aiwatar
+95	595	aiwatar	aiwatar aiwatarwa aiwatarwar aiwatarwan
 96	596	inganta	inganta ingantan
 97	597	yawo	yawon yawo yawonsu
-98	598	tuna	tuna
-99	599	cikakke	cikakken cikakke
+98	598	tuna	tuna tuno tunowa tunan
+99	599	cikakke	cikakken cikakke cikakkun cikakku
 100	600	lallai	lallai

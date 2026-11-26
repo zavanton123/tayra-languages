@@ -1,100 +1,100 @@
-1	2601	layya	layya layyar
-2	2602	jamiya	jamiya jamiyan
-3	2603	tattaro	tattaro
-4	2604	ramuwa	ramuwar ramuwa ramuwarsa
-5	2605	ɗaci	ɗaci ɗacinta ɗacin
-6	2606	naje	naje
-7	2607	firaminista	firaministan firaminista firaministar firaministansa firaministanta
-8	2608	addabi	addabi
-9	2609	lema	lema lemar leman lemarka lemata
-10	2610	tsaurara	tsauraran tsaurara
-11	2611	tak	tak
-12	2612	ƴantar	ƴantar
-13	2613	mawallafi	mawallafin mawallafi mawallafinsa mawallafinta
-14	2614	lahani	lahani lahanin
-15	2615	mahanga	mahangar mahanga mahangarsa
-16	2616	dumama	dumama
-17	2617	keji	keji kejin
-18	2618	assasa	assasa
-19	2619	tabbatarwa	tabbatarwa tabbatarwar tabbatarwarsa
-20	2620	kurket	kurket
-21	2621	gaje	gaje
-22	2622	hauhawar	hauhawar
-23	2623	ƙure	ƙure ƙuren ƙurenka ƙurensa
-24	2624	kafet	kafet
-25	2625	bariki	barikin bariki barikinsu barikinmu barikinta
-26	2626	tsayayye	tsayayyen tsayayye
-27	2627	gunaguni	gunaguni gunagunin
-28	2628	sassafe	sassafe
-29	2629	samarda	samarda
-30	2630	mayafi	mayafin mayafi mayafinta mayafinki mayafinsa mayafinmu
-31	2631	gareka	gareka
-32	2632	kitse	kitse kitsen singular
-33	2633	manjo	manjo manja manjoji
-34	2634	mabambanta	mabambanta mabambantan
-35	2635	lacca	lacca laccoci laccar laccocin laccocinsa laccocinta laccarsa laccansa laccarsu laccarta laccata laccocinsu
-36	2636	ƙalubalanci	ƙalubalanci
-37	2637	zaitun	zaitun
-38	2638	haɗurra	haɗurra haɗurran
-39	2639	madafun	madafun
-40	2640	alaihi	alaihi alaihin
-41	2641	makafi	makafi makafin
-42	2642	danganci	danganci
-43	2643	tarawa	tarawa tarawar
-44	2644	giɓi	giɓin giɓi
-45	2645	karance	karance karancen karancensa
-46	2646	jadawali	jadawalin jadawali jadawalinsa jadawalinta jadawalinsu
-47	2647	shark	shark
-48	2648	hurumin	hurumin huruminka huruminta huruminsa
-49	2649	gunki	gumakan gumaka gunkin gunki gumakansu gunkinsa gunkinta gumakanku gumakansa gunkinsu
-50	2650	ajali	ajalinsa ajalin ajalinta ajalinsu ajali ajalinka
-51	2651	ciyarwa	ciyarwa ciyarwar ciyarwarsa
-52	2652	cake	cake
-53	2653	abar	abar
-54	2654	sarƙa	sarƙoƙi sarƙata sarƙar sarƙa sarƙoƙin sarƙan
-55	2655	zaɓaɓɓen	zaɓaɓɓen
-56	2656	narka	narke narka
-57	2657	marawa	marawa
-58	2658	gamayyar	gamayyar
-59	2659	kurakuran	kurakuran kurakuransu kurakuransa kurakuranka kurakuranmu kurakuranta
-60	2660	haramtacciyar	haramtacciyar
-61	2661	gwadawa	gwadawa gwadawar
-62	2662	daba	daba
-63	2663	inabi	inabi inabin inabinsa
-64	2664	gabaci	gabacin gabaci
-65	2665	haskakawa	haskakawa haskakawar
-66	2666	gajimare	gajimare gajimaren
-67	2667	dau	dau
-68	2668	wadatattun	wadatattun
-69	2669	madannin	madannin
-70	2670	lokacinda	lokacinda
-71	2671	makare	makare
-72	2672	wow	wow
-73	2673	haɗaɗɗiyar	haɗaɗɗiyar
-74	2674	garzaya	garzaya
-75	2675	wiwi	wiwi
-76	2676	bamuwa	bamuwa
-77	2677	mafarauta	mafarautan mafarauta mafarautansa
-78	2678	maƙwabci	maƙwabcina maƙwabcin maƙwabcinsa maƙwabcinka maƙwabci maƙwabcinta maƙwabcinmu maƙwabcinku maƙwabcinsu
-79	2679	tunkiya	tumaki tunkiya tumakinsa tumakin tumakinsu
-80	2680	furodusa	furodusa furodusan furodusansa furodusar
-81	2681	nutsewa	nutsewa nutsewar nutsewarsu
-82	2682	koyawa	koyawa koyawar koyawan
-83	2683	kafu	kafu kafun
-84	2684	raini	raini rainin
-85	2685	tarwatsa	tarwatsa
-86	2686	haɗiye	haɗiye
-87	2687	sanyaya	sanyaya
-88	2688	garemu	garemu
-89	2689	kullu	kullu
-90	2690	narkar	narkar
-91	2691	fa'idodi	fa'idodi fa'idodin fa'idodinsa fa'idodinsu
-92	2692	kamala	kamala kamalar kamalarsa
-93	2693	manhaja	manhajar manhaja manhajan manhajarta
-94	2694	hadaya	hadaya hadayar hadayan hadayarsa
-95	2695	zuzzurfa	zuzzurfa zurfafa zuzzurfan zurfafan
-96	2696	karuwai	karuwai
-97	2697	girbi	girbi girbin girbinsu
-98	2698	kacokan	kacokan
-99	2699	mahalli	mahallin mahalli mahallinsu mahallinsa mahallinta mahallinmu
-100	2700	ilmantarwa	ilmantarwa ilmantarwar ilmantarwarsa ilmantarwarsu
+1	2601	kowannensu	kowannensu
+2	2602	murhu	murhun murhu murhunsa murhunta
+3	2603	ruga	ruga rugan rugawa
+4	2604	jazz	jazz
+5	2605	dauɗa	dauɗa dauɗar
+6	2606	gushe	gushe gushewa gushewar
+7	2607	matalauta	matalauta matalautan matalautanta
+8	2608	jiyya	jiyya jiyyan jiyyar
+9	2609	tasi	tasi taksi
+10	2610	romo	romon romo romonta
+11	2611	karaya	karaya karayar
+12	2612	batsa	batsa batsar
+13	2613	matashiya	matashiya matashiyar matashiyarta
+14	2614	shikenan	shikenan
+15	2615	zaki	zaki zakin zakuna zakoki zakunan
+16	2616	ganganci	ganganci gangancin
+17	2617	gareji	gareji garejin garejinsa
+18	2618	ɓatanci	ɓatanci ɓatancin
+19	2619	jaririya	jaririya jaririyar jaririyarsu jaririyata jaririyarta
+20	2620	sujada	sujada sujjada sujadar
+21	2621	maslaha	maslaha maslaharsu maslahar
+22	2622	yinsa	yinsa
+23	2623	cusa	cusa cusawa
+24	2624	zalunta	zalunta zalunce zaluntar zaluntarsu zaluntarsa zaluntawa
+25	2625	gwanjo	gwanjo gwanjon gwanjonsa gwanjonsu
+26	2626	bajinta	bajinta bajintar bajintarsu bajintarsa bajintarta
+27	2627	tsirara	tsirara tsirararsa
+28	2628	sarewa	sarewa sarewar
+29	2629	fara'a	fara'a fara'ar fara'arsa fara'arta
+30	2630	garesu	garesu
+31	2631	ƙwaƙƙwara	ƙwaƙƙwaran ƙwaƙƙwara ƙwaƙƙwarar ƙwaƙƙwaransa
+32	2632	soyayye	soyayye soyayyen
+33	2633	manna	manna mannawa mannan
+34	2634	mamaci	mamacin mamaci
+35	2635	lu'ulu'u	lu'ulu'u lu'ulu'un lu'ulu'unsa
+36	2636	nanata	nanata nanatawa nanatawar
+37	2637	citta	citta
+38	2638	kansila	kansila kansiloli kansilolin kansilan kansilolinka kansilolinmu kansilar kansilolinta kansilolinsa
+39	2639	jibge	jibge jibgewa
+40	2640	madatsar	madatsar
+41	2641	zumma	zumma zummar
+42	2642	saƙa	saƙa saƙar
+43	2643	rutsa	rutsa rutsawa
+44	2644	ɓare	ɓare
+45	2645	farilla	farali farilla faralin farillai
+46	2646	naura	naura naurar
+47	2647	haifeshi	haifeshi
+48	2648	matattu	matattu matattun matattunmu matattunsu
+49	2649	anya	anya
+50	2650	ɗing	ɗing
+51	2651	kutsa	kutsa kutsawa kutsawar
+52	2652	mazhaba	mazhabar mazhaba mazhaban mazhabarsu
+53	2653	wutsiya	wutsiya wutsiyar wutsiyoyi wutsiyarsa wutsiyarsu wutsiyoyin wutsiyoyinsu wutsiyarta
+54	2654	tela	teloli tela telolin telan
+55	2655	keya	keyar keyarsu keya keyarsa keyata keyan
+56	2656	matattara	matattarar matattara matattaran
+57	2657	fatawa	fatawa fatawar fatawarsa
+58	2658	walima	walima walimar
+59	2659	ƙanƙane	ƙanƙane ƙanƙanen ƙanƙanuwa ƙanƙanuwar
+60	2660	sassauta	sassauta sassautawa sassautawar
+61	2661	kirari	kirari kirarin
+62	2662	bogi	bogi bogin
+63	2663	kururuwa	kururuwa kururuwar
+64	2664	zaunanne	zaunanne zaunannen
+65	2665	hargitsi	hargitsi hargitsin
+66	2666	tabbatacce	tabbataccen tabbatacce tabbatattun
+67	2667	kambi	kambi kambin kambinsa kambinta
+68	2668	sikeli	sikeli sikelin sikelinsu sikelinsa
+69	2669	wadatacce	wadatacce wadataccen
+70	2670	dabo	dabo dabon
+71	2671	ginu	ginu ginuwar ginuwa ginuwarta
+72	2672	hijabi	hijabi hijabin
+73	2673	zantuka	zantukan zantukansu zantuka
+74	2674	salula	salula salularsa
+75	2675	ƙishirwa	ƙishirwa ƙishirwar ƙishirwarsa ƙishirwarsu
+76	2676	wajabta	wajabta wajabtawa
+77	2677	zamba	zamba zamban zambana zambar
+78	2678	takwara	takwaransa takwaran takwararta takwarana takwaranta takwaranka takwarata takwarar takwara takwararsa takwaransu
+79	2679	ƙalau	ƙalau
+80	2680	malala	malalar malala malalawa malalawar
+81	2681	kadada	kadada kadadar
+82	2682	mukan	mukan
+83	2683	hawainiya	hawainiya hawainiyar
+84	2684	turance	turance
+85	2685	ragi	ragi ragin raginsa
+86	2686	haƙo	haƙo haƙowa haƙon haƙowar
+87	2687	firgici	firgici firgicin firgicinsu firgicinta
+88	2688	siyasance	siyasance
+89	2689	tanki	tankin tanki tankokin tankinsa
+90	2690	maharbi	maharbin maharba maharbi maharban maharbansa
+91	2691	maniyyi	maniyyi maniyyin
+92	2692	kabad	kabad
+93	2693	taska	taskar taska taskokin taskan taskoki taskokinsa
+94	2694	cuci	cuci
+95	2695	gawayi	gawayi gawayin
+96	2696	kusantar	kusantar kusantarsa kusantarta
+97	2697	asirce	asirce
+98	2698	shiriya	shiriya shiriyarsa shiriyar
+99	2699	amfanar	amfanar amfanarmu amfanarwa
+100	2700	baƙuwa	baƙuwa baƙuwar

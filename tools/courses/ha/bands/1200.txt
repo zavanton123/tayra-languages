@@ -3,22 +3,22 @@
 3	1103	gargaɗi	gargaɗi gargaɗin gargaɗinsa gargaɗinsu
 4	1104	nuni	nuni nunin nuninsa nuninta
 5	1105	rigakafi	rigakafi rigakafin rigakafinsa rigakafinta
-6	1106	martani	martani martanin martaninsa martaninta martaninsu
+6	1106	martani	martani martanin martaninsa martaninta martaninsu martanina
 7	1107	sannu	sannu sannunku sannun
-8	1108	girgiza	girgizar girgiza girgizan
+8	1108	girgiza	girgizar girgiza girgizan girgizawa girgizawar
 9	1109	raye	raye rayen rayensu rayenta rayensa
 10	1110	saukar	saukar saukarsu saukarta
 11	1111	wadata	wadata wadatar wadatarsu wadatan wadatarka wadatarsa wadatarta
-12	1112	tsufa	tsufa tsufan tsufanta tsufansu tsufanka tsufarsa tsufansa tsufar
-13	1113	numfashi	numfashi numfashin numfashinsa numfashinta numfashinmu numfashinsu
+12	1112	tsufa	tsufa tsufan tsufanta tsufansu tsufanka tsufarsa tsufansa tsufar tsufana
+13	1113	numfashi	numfashi numfashin numfashinsa numfashinta numfashinmu numfashinsu numfashina
 14	1114	wawa	wawa wawaye wawan wawayen wawarta
-15	1115	samaniya	samaniya samaniyar samaniyan samaniyarsa samaniyarta
+15	1115	samaniya	samaniya samaniyar samaniyan samaniyarsa samaniyarta samaniyata
 16	1116	uba	uba uban ubansa ubansu ubanta ubanmu ubanni ubanninsu ubannin ubana ubanninsa ubanku ubanninmu
-17	1117	rushe	rushe rushen
+17	1117	rushe	rushe rushen rusa rusawa
 18	1118	tausayi	tausayi tausayin tausayinsu tausayinmu tausayinta tausayinsa
 19	1119	nahiya	nahiyar nahiya nahiyoyi nahiyoyin nahiyarsu nahiyarmu nahiyoyinta nahiyoyinsu
 20	1120	likitanci	likitancin likitanci likitancinsa likitancinta
-21	1121	rabu	rabu
+21	1121	rabu	rabu rabuwa rabuwar rabuwarsu rabuwarta
 22	1122	matakai	matakai
 23	1123	tsarki	tsarki tsarkin tsarkinta tsarkinsa
 24	1124	rasuwa	rasuwar rasuwarsa rasuwa rasuwarta rasuwarsu rasuwan rasuwansa
@@ -30,41 +30,41 @@
 30	1130	kakaki	kakakin kakaki kakakinta kakakinsa kakakinsu
 31	1131	yanka	yanka yankan yankar yankansu yankanta
 32	1132	nau'ikan	nau'ikan nau'ikansa nau'ikanta nau'ikansu
-33	1133	horar	horar horarsa
+33	1133	horar	horar horarsa horarwa horarwar horarwarsa horarwarsu
 34	1134	farfesa	farfesa farfesan farfesanta farfesar
 35	1135	banza	banza banzan banzar
 36	1136	albarkatu	albarkatun albarkatu albarkatunsa albarkatunta albarkatunsu albarkatunmu
 37	1137	aminci	aminci amincin amincinsa amincinsu amincinta amincinmu
-38	1138	sakataren	sakataren sakatarenta sakatarensa sakatarenmu
+38	1138	sakataren	sakataren sakatarenta sakatarensa sakatarenmu sakatare sakatarori sakatarorin sakatarorinsa sakatarorinta
 39	1139	wariya	wariyar wariya
 40	1140	jima'i	jima'i jima'in jima'inta jima'insu jima'insa
 41	1141	sauyi	sauyin sauyi sauyinta
 42	1142	kaso	kaso kason kasonta kasonsu kasonsa
-43	1143	soma	soma soman
-44	1144	ƙashi	ƙashin ƙashi ƙasusuwa ƙasusuwan ƙasusuwana ƙashina ƙasusuwanta ƙashinsu ƙasusuwansa ƙassar ƙassa ƙashinsa ƙassan ƙasusuwar ƙashinta ƙasusuwansu
+43	1143	soma	soma soman somawa somawar
+44	1144	ƙashi	ƙashin ƙashi ƙasusuwa ƙasusuwan ƙasusuwana ƙashina ƙasusuwanta ƙashinsu ƙasusuwansa ƙassar ƙassa ƙashinsa ƙassan ƙasusuwar ƙashinta ƙasusuwansu kasha
 45	1145	kwando	kwando kwandon kwanduna kwandunan kwandonsa kwandona kwandunansu
 46	1146	adabi	adabi adabin adabinsa adabinta
 47	1147	jaka	jakar jaka jakarsa jakarta jakunkuna jakata jakarki jakarsu jakunkunan jakunkunanmu jakunkunansu jakunkunanta
 48	1148	anfani	anfani anfanin anfaninta
-49	1149	darakta	darakta daraktan daraktar daraktanmu daraktansa daraktanta daraktarsa
-50	1150	ruwaito	ruwaito
+49	1149	darakta	darakta daraktan daraktar daraktanmu daraktansa daraktanta daraktarsa direkta daraktoci daraktocin direktar daraktocinsa daraktocinta daraktocinsu direktan
+50	1150	ruwaito	ruwaito rawaito
 51	1151	umurni	umurni umurnin umurninsa
 52	1152	ƙaura	ƙaura ƙaurar ƙaurarsa ƙaurata ƙauran ƙaurarsu ƙauransu
 53	1153	tawaye	tawaye tawayen tawayensu tawayensa
 54	1154	finafinan	finafinan finafinansu finafinansa finafinanmu finafinanta
-55	1155	ciyar	ciyar
+55	1155	ciyar	ciyar ciyarwa ciyarwar ciyarwarsa
 56	1156	ta'adda	ta'adda ta'addan ta'addar
-57	1157	mujalla	mujallar mujalla mujallata mujallolin mujallarta mujallarsa mujallan mujallarsu mujalloli mujallolinsa
+57	1157	mujalla	mujallar mujalla mujallata mujallolin mujallarta mujallarsa mujallan mujallarsu mujalloli mujallolinsa mujallu mujallun mujallunsa
 58	1158	lalace	lalace
-59	1159	kunna	kunna kunnan
-60	1160	tuƙa	tuƙa
+59	1159	kunna	kunna kunnan kunnawa kunnawar
+60	1160	tuƙa	tuƙa tuƙawa
 61	1161	magoya	magoya magoyan
-62	1162	ɗorewa	ɗorewa ɗorewar ɗorewan
+62	1162	ɗorewa	ɗorewa ɗorewar ɗorewan ɗorewarsa ɗorewarta
 63	1163	shige	shige shigen
-64	1164	ganga	gangan ganga gangar gangarsa
-65	1165	riƙo	riƙon riƙo riƙonsa riƙonta
+64	1164	ganga	gangan ganga gangar gangarsa ganguna gangunan gangunansa gangunansu
+65	1165	riƙo	riƙon riƙo riƙonsa riƙonta riƙonsu riƙona
 66	1166	sharhi	sharhi sharhin sharhinsa sharhinsu sharhinta
-67	1167	kwangila	kwangilar kwangila kwangilarsa kwangilan kwangilarsu kwangilarta
+67	1167	kwangila	kwangilar kwangila kwangilarsa kwangilan kwangilarsu kwangilarta kwangiloli kwangilolin kwangilolinsu kwangilolinsa
 68	1168	bambance	bambance bambancen bambancensa bambancensu
 69	1169	bature	turawa turawan bature turawar baturen
 70	1170	goge	goge gogen gogensa gogenta
@@ -73,16 +73,16 @@
 73	1173	hatta	hatta
 74	1174	saurari	saurari
 75	1175	jami	jami jamin
-76	1176	waɗancan	waɗancan
-77	1177	fada	fada fadar fadarsa fadarsu fadarta fadarka
+76	1176	waɗancan	waɗancan waɗancen
+77	1177	fada	fada fadar fadarsa fadarsu fadarta fadarka fadoji fadojin fadojinsu
 78	1178	fafutuka	fafutukar fafutuka fafutukan fafutukarsa fafutukarta fafutukanta fafutukarsu
 79	1179	tanadi	tanadi tanadin tanadinta tanadinsu tanadinsa
 80	1180	rayu	rayu
 81	1181	abada	abada
-82	1182	jinya	jinya jinyar jinyarsa jinyan jinyarsu jinyarta
+82	1182	jinya	jinya jinyar jinyarsa jinyan jinyarsu jinyarta jinyata
 83	1183	ƙirƙirar	ƙirƙirar ƙirƙirarsa ƙirƙirarta
 84	1184	tudu	tudun tudu tuddai tuddan
-85	1185	ɗana	ɗana
+85	1185	ɗana	ɗana ɗanan
 86	1186	fashewa	fashewar fashewa fashewan fashewarta fashewarsa fashewarsu
 87	1187	wa'adi	wa'adin wa'adi wa'adinsa wa'adinta wa'adinka wa'adina wa'adinmu wa'adinsu
 88	1188	canje	canje canjen
@@ -91,10 +91,10 @@
 91	1191	ka'idoji	ka'idojin ka'idoji ka'idojinta ka'idojinsu
 92	1192	share	share sharen
 93	1193	banbanci	banbanci banbancin
-94	1194	rataya	rataye rataya
+94	1194	rataya	rataye rataya ratayawa
 95	1195	madadin	madadin madadinsa madadinmu madadinta madadinsu
 96	1196	fetur	fetur
-97	1197	tikiti	tikitin tikiti tikitinka
-98	1198	soke	soke
+97	1197	tikiti	tikitin tikiti tikitinka tiket tikitina
+98	1198	soke	soke soki soka sokewa sokewar sokin
 99	1199	hasashe	hasashen hasashe hasashensa hasashenmu hasashenta hasashensu
-100	1200	mazaɓa	mazaɓar mazaɓa mazaɓarsa mazaɓarsu mazaɓarta
+100	1200	mazaɓa	mazaɓar mazaɓa mazaɓarsa mazaɓarsu mazaɓarta mazaɓu mazaɓun mazaɓata mazaɓarka mazaɓunsu mazaɓana mazaɓansu mazaɓarmu

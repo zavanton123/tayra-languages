@@ -1,100 +1,100 @@
-1	1801	harsashi	harsashi harsashin harsashinsu harsashinsa harsashinta
-2	1802	madubi	madubi madubin madubai
-3	1803	hadisi	hadisi hadisai hadisan hadisin hadisansa hadisansu
-4	1804	siliki	siliki silikin
-5	1805	kwanannan	kwanannan
-6	1806	fidda	fidda
+1	1801	madubi	madubi madubin madubai
+2	1802	hadisi	hadisi hadisai hadisan hadisin hadisansa hadisansu
+3	1803	siliki	siliki silikin
+4	1804	kwanannan	kwanannan
+5	1805	karye	karye karyewa karyewar
+6	1806	komo	komo
 7	1807	sakatariya	sakatariyar sakatariya sakatariyarsa sakatariyarsu sakatariyarta
-8	1808	kalaman	kalaman kalamansa kalamansu kalamanta
-9	1809	mafiya	mafiya mafiyan
-10	1810	rago	rago ragon ragonta
-11	1811	toh	toh
-12	1812	abokiya	abokiyar abokiya abokiyarmu abokiyarta abokiyarsa
-13	1813	cinikayya	cinikayya cinikayyar cinikayyarsa cinikayyan cinikayyarsu
-14	1814	taku	taku takun takunta takunka takunsa
-15	1815	nakasassu	nakasassu
-16	1816	keyi	keyi keyin
-17	1817	raina	raina
-18	1818	juyawa	juyawa juyawar juyawarsa
-19	1819	kwarara	kwararar kwarara kwararan kwarararta
-20	1820	harafi	harafin harufa harafi harufan harafinsa
-21	1821	ƙalilan	ƙalilan
-22	1822	sanadi	sanadin sanadi sanadinsu sanadinsa
-23	1823	kuɓuta	kuɓuta kuɓutar
-24	1824	gurfana	gurfanar gurfana
-25	1825	banban	banbanta banban
-26	1826	kwafi	kwafi kwafin kwafinta kwafinsa
-27	1827	dimokuraɗiyya	dimokuraɗiyya dimokuraɗiyyar dimokuraɗiyyarmu
-28	1828	taɓo	taɓo taɓon taɓonsu
-29	1829	fansa	fansa fansar fansarsu
-30	1830	jajircewa	jajircewa jajircewar jajircewarta jajircewarsa jajircewarka jajircewarsu jajircewan jajircewarmu
-31	1831	kuzari	kuzari kuzarin kuzarinsa kuzarinsu kuzarinka kuzarinta
-32	1832	ƙyar	ƙyar
-33	1833	n	n
-34	1834	firgita	firgita firgitar
-35	1835	jarirai	jarirai
-36	1836	walƙiya	walƙiya walƙiyar
-37	1837	matsaya	matsaya matsayar matsayarmu matsayarsu matsayan matsayarsa matsayarta
-38	1838	guiwa	guiwa guiwar guiwarta
-39	1839	basasa	basasa basasar basasan
-40	1840	sadaka	sadaka sadakar sadakan sadakarsa sadakokin sadakarta
-41	1841	gudunmawa	gudunmawa gudunmawar gudunmawarsu gudunmawarsa gudunmawarta
-42	1842	aniyar	aniyar aniyarsa aniyarsu aniyarta aniyarka
-43	1843	nono	nono nonon nonona nononta
-44	1844	uzuri	uzuri uzurin uzurinsu uzurina uzurinsa uzurinta
-45	1845	hedkwata	hedkwatar hedkwata hedkwatarta hedkwatarsu hedkwatarsa
-46	1846	jakadanci	jakadancin jakadanci jakadancinta jakadancinsu jakadancinsa
-47	1847	alƙalami	alƙaluma alƙaluman alƙalami alƙalamina alƙalamin alƙalumansu alƙalaminsa alƙalaminta alƙalaminka alƙalumansa
-48	1848	inshora	inshora inshorar inshoran
-49	1849	kace	kace
-50	1850	aike	aike aiken aikensa
-51	1851	saɓawa	saɓawa
-52	1852	tsallaka	tsallaka
-53	1853	ragama	ragamar ragama ragamarsa ragamarsu ragamarta ragaman
-54	1854	buɗewa	buɗewa buɗewar buɗewan buɗewarsa buɗewarta
-55	1855	ɗinta	ɗinta
-56	1856	korafe	korafe korafen korafensu
-57	1857	sinadarai	sinadarai sinadarain
-58	1858	naji	naji najin
-59	1859	wanzuwa	wanzuwa wanzuwar wanzuwan wanzuwarmu wanzuwarsu wanzuwarka wanzuwarsa wanzuwarta
-60	1860	cunkoso	cunkoson cunkoso
-61	1861	lasisi	lasisin lasisi lasisinsa lasisinta lasisinsu
-62	1862	hasali	hasali
-63	1863	on	on
-64	1864	barkwanci	barkwanci barkwancin barkwancinsa barkwancinta barkwancinsu
-65	1865	ginshiƙi	ginshiƙin ginshiƙi ginshiƙinsa ginshiƙinta
-66	1866	leɓe	leɓe leɓen leɓunansa laɓɓanta leɓena leɓensa leɓensu leɓunansu leɓuna leɓunan laɓɓa laɓɓan laɓɓansu leɓunanta
-67	1867	sallama	sallama sallamar sallamarsa sallamarta
-68	1868	dubawa	dubawa dubawar
-69	1869	majami'a	majami'a majami'an majami'u majami'ar majami'un majami'unsu majami'arta majami'arsa majami'arsu
-70	1870	hango	hango
-71	1871	albasa	albasa albasar
-72	1872	bahaushe	hausawa bahaushe hausawan
-73	1873	sauro	sauro sauron
-74	1874	ma'aikaciya	ma'aikaciyar ma'aikaciya ma'aikaciyarta
-75	1875	girke	girke girken girkensa girkenta
-76	1876	alkama	alkama alkamarsa alkamar alkamansu
-77	1877	fa'ida	fa'ida fa'idar fa'idoji fa'idojin fa'idarsa fa'idarsu fa'idojinsa
-78	1878	afuwa	afuwa afuwar afuwarka afuwan afuwarsu
-79	1879	jinjina	jinjina jinjinar
-80	1880	fifiko	fifiko fifikon fifikonsa fifikonta fifikonku
-81	1881	mala'ika	mala'ika mala'iku mala'ikan mala'ikun mala'ikunsa mala'ikansa
-82	1882	gagarumin	gagarumin
-83	1883	zagayowar	zagayowar zagayowarsa zagayowarsu zagayowarta
-84	1884	ɓera	ɓera ɓeran
-85	1885	babi	babi babin babinsa babina babinta
-86	1886	gurɓataccen	gurɓataccen
-87	1887	toshe	toshe
-88	1888	karkata	karkata karkatar
-89	1889	wanna	wanna
-90	1890	bibiya	bibiyar bibiya bibiyan bibiyarsu bibiyanmu bibiyarka bibiyarsa bibiyarta
-91	1891	uwargida	uwargidan uwargida uwargidansa uwargidanta uwargidar uwargidanmu
-92	1892	alif	alif
-93	1893	nune	nune nunen nunensu
-94	1894	sare	sare saren
-95	1895	wucin	wucin
-96	1896	kauri	kauri
-97	1897	ruɗani	ruɗani ruɗanin
-98	1898	karrama	karrama
-99	1899	shuni	shuni shunin
-100	1900	tono	tono tonon
+8	1808	mafiya	mafiya mafiyan
+9	1809	cinikayya	cinikayya cinikayyar cinikayyarsa cinikayyan cinikayyarsu
+10	1810	toh	toh
+11	1811	taku	taku takun takunta takunka takunsa
+12	1812	kwarara	kwararar kwarara kwararan kwarararta kwararawar kwararawa
+13	1813	tsaftace	tsaftace tsaftacewa tsaftacen tsaftacewar
+14	1814	ƙalilan	ƙalilan
+15	1815	sanadi	sanadin sanadi sanadinsu sanadinsa
+16	1816	kuɓuta	kuɓuta kuɓutar
+17	1817	shagali	shagalin shagali shagulgulan shagulgula shagulgular
+18	1818	gurfana	gurfanar gurfana
+19	1819	bibiya	bibiyar bibiya bibiyan bibiyi bibiyarsu bibiyanmu bibiyarka bibiyarsa bibiyarta
+20	1820	kwafi	kwafi kwafin kwafinta kwafinsa
+21	1821	taɓo	taɓo taɓon taɓonsu
+22	1822	fansa	fansa fansar fansarsu
+23	1823	kuzari	kuzari kuzarin kuzarinsa kuzarinsu kuzarinka kuzarinta
+24	1824	saɓa	saɓa saɓawa saɓawar saɓan
+25	1825	gamsar	gamsar gamsarwa
+26	1826	ƙyar	ƙyar
+27	1827	firgita	firgita firgitar firgitawa
+28	1828	matsaya	matsaya matsayar matsayarmu matsayarsu matsayan matsayarsa matsayarta
+29	1829	basasa	basasa basasar basasan
+30	1830	walƙiya	walƙiya walƙiyar
+31	1831	sadaka	sadaka sadakar sadakan sadakarsa sadakokin sadakarta
+32	1832	hango	hango hangowa
+33	1833	aniya	aniya aniyar aniyarsa aniyarsu aniyarta aniyarka
+34	1834	nono	nono nonon nonona nononta
+35	1835	uzuri	uzuri uzurin uzurinsu uzurina uzurinsa uzurinta
+36	1836	manazarci	manazarta manazarci manazartan manazarcin manazartansa manazartar
+37	1837	jakadanci	jakadancin jakadanci jakadancinta jakadancinsu jakadancinsa
+38	1838	samfur	samfuran samfur samfuransa samfuransu samfuranta
+39	1839	alƙalami	alƙaluma alƙaluman alƙalami alƙalamina alƙalamin alƙalumansu alƙalaminsa alƙalaminta alƙalaminka alƙalumansa
+40	1840	inshora	inshora inshorar inshoran
+41	1841	aike	aike aiken aikensa
+42	1842	danna	danna dannawa dannawar
+43	1843	ragama	ragamar ragama ragamarsa ragamarsu ragamarta ragaman
+44	1844	lasisi	lasisin lasisi lasisinsa lasisinta lasisinsu
+45	1845	cunkoso	cunkoson cunkoso
+46	1846	faifai	faifan faifai faifansa faifain faifanta
+47	1847	masifa	masifa masifar masifu masifan masifun
+48	1848	hasali	hasali
+49	1849	barkwanci	barkwanci barkwancin barkwancinsa barkwancinta barkwancinsu
+50	1850	huce	huce hucewa hucewar
+51	1851	kamanni	kamani kamanni kamannin kamanninsa kamanninsu kamanninta kamanin kamannina kamaninsa kamaninta
+52	1852	taruwa	taruka tarukan taruwa tarukansu taruwar taruwarmu tarukanta
+53	1853	leɓe	leɓe leɓen leɓunansa laɓɓanta leɓena leɓensa leɓensu leɓunansu leɓuna leɓunan laɓɓa laɓɓan laɓɓansu leɓunanta
+54	1854	shaƙa	shaƙar shaƙa shaƙe shaƙan shaƙewa shaƙewar
+55	1855	majami'a	majami'a majami'an majami'u majami'ar majami'un majami'unsu majami'arta majami'arsa majami'arsu
+56	1856	uwargida	uwargidan uwargida uwargidansa uwargidanta uwargidar uwargidata uwargidanmu
+57	1857	albasa	albasa albasar
+58	1858	bahaushe	hausawa bahaushe hausawan
+59	1859	sauro	sauro sauron
+60	1860	alkama	alkama alkamarsa alkamar alkamansu
+61	1861	fifiko	fifiko fifikon fifikonsa fifikonta fifikonku
+62	1862	haska	haska haskawa haskan
+63	1863	mala'ika	mala'ika mala'iku mala'ikan mala'ikun mala'ikunsa mala'ikansa
+64	1864	zagayowa	zagayowa zagayowar zagayowarsa zagayowarsu zagayowarta
+65	1865	lissafa	lissafa lissafo lissafawa
+66	1866	rattaɓa	rattaɓa rattaɓawa
+67	1867	fiyano	fiyano fiano fianon
+68	1868	babi	babi babin babinsa babina babinta
+69	1869	gurɓatacce	gurɓatacce gurɓataccen
+70	1870	karkata	karkata karkatar karkatawar karkatawa
+71	1871	alif	alif
+72	1872	maciji	maciji macijin macizai macizan
+73	1873	sare	sare saren
+74	1874	magudana	magudana magudanar magudanan
+75	1875	wucin	wucin
+76	1876	ruɗani	ruɗani ruɗanin
+77	1877	shuni	shuni shunin
+78	1878	tono	tono tonon
+79	1879	zomo	zomo zomon zomaye zomonsa
+80	1880	tauraruwa	tauraruwa tauraruwar tauraruwarta tauraruwarsa tauraruwarsu
+81	1881	karantar	karantar karantarwa karantarwar karantarwarsu karantarwarsa
+82	1882	biye	biye
+83	1883	sawa	sawa sawar sawan
+84	1884	koci	kocin koci kocinsa kocinta kocinsu kocinmu
+85	1885	matuki	matuki matukin matukinsa matukinta
+86	1886	gaggauta	gaggauta gaggautar
+87	1887	daƙile	daƙile
+88	1888	akasari	akasarin akasari akasarinsu akasarinsa
+89	1889	rumfa	rumfar rumfa rumfunan rumfuna rumfarsa rumfunar rumfarta
+90	1890	taƙaitacce	taƙaitacce taƙaitaccen
+91	1891	tsiro	tsirrai tsiro tsirran tsiron tsironta
+92	1892	ƙiyayya	ƙiyayya ƙiyayyar ƙiyayyarsa ƙiyayyarsu ƙiyayyata ƙiyayyarta
+93	1893	haki	hakin haki hakinsu hakinsa hakinta
+94	1894	dage	dage dagen
+95	1895	shashasha	shashasha shashashu shashashun
+96	1896	gabanin	gabanin gabannin gabaninsa gabaninku gabaninsu
+97	1897	hazaka	hazaka hazakar hazakarta hazakarka hazakarsa hazakanta
+98	1898	kwaɗayi	kwaɗayi kwaɗayin kwaɗayinmu kwaɗayinsu
+99	1899	tafka	tafka tafkawa
+100	1900	reno	reno renon rainon renonta renonsu rainonsa renonsa

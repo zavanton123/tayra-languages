@@ -1,100 +1,100 @@
-1	3001	sassauta	sassauta
-2	3002	tunanina	tunanina
-3	3003	raɓa	raɓa raɓar raɓansa raɓanta raɓata
-4	3004	masallata	masallatan masallata
-5	3005	mumini	muminai mumini muminin muminina
-6	3006	waƴannan	waƴannan
-7	3007	fasfo	fasfo fasfonsa fasfon fasfunan fasfonta
-8	3008	ƙut	ƙut
-9	3009	zaunar	zaunar
-10	3010	zabura	zaburar zabura
-11	3011	ƙayatar	ƙayatar
-12	3012	juzu'i	juzu'i juzu'in juzu'insa
-13	3013	marmari	marmari marmarin
-14	3014	ishe	ishe
-15	3015	tausaya	tausaya
-16	3016	idda	iddar idda iddanta
-17	3017	birki	birki birkin birkinsa
-18	3018	ɗarikar	ɗarikar
-19	3019	jibge	jibge
-20	3020	hanzarta	hanzarta
-21	3021	daɗaɗɗen	daɗaɗɗen
-22	3022	danniya	danniya danniyar danniyan danniyarsu
-23	3023	fil	fil
-24	3024	kewaya	kewaya kewayan kewayansa kewayar kewayarsa kewayarta
-25	3025	hanji	hanji hanjin hanjinsu
-26	3026	ingantacciya	ingantacciyar ingantacciya
-27	3027	jahili	jahili jahilai jahilan
-28	3028	haɗewa	haɗewar haɗewa haɗewarsu haɗewarta
-29	3029	daftari	daftarin daftari daftarinsa
-30	3030	saukowa	saukowa saukowar saukowarsu saukowarsa
-31	3031	jujjuyawa	jujjuyawa jujjuyawar jujjuyawarsa
-32	3032	janyewa	janyewa janyewar janyewarsu janyewarta janyewarsa
-33	3033	bulala	bulala bulalar bulalan
-34	3034	kwanu	kwanu kwanun
-35	3035	maƙobta	maƙobtan maƙobta
-36	3036	aleɗe	aleɗe
-37	3037	ma'adinan	ma'adinan
-38	3038	watsawa	watsawa watsawar watsawarsu
-39	3039	shayar	shayar
-40	3040	summa	summa summan
-41	3041	danshi	danshi danshin danshinsu danshinta
-42	3042	bn	bn
-43	3043	huɗuba	huɗuba huɗubar huɗubarsa
-44	3044	matsoraci	matsoraci matsoracin matsorata
-45	3045	tarbiya	tarbiyar tarbiya tarbiyan tarbiyarka tarbiyarsu tarbiyarsa tarbiyarta
-46	3046	ɓaraka	ɓaraka
-47	3047	bambam	bambam
-48	3048	fadama	fadama fadamar fadamu fadaman fadamarsa
-49	3049	sonka	sonka
-50	3050	larura	larurar larura larurorin
-51	3051	fin	fin
-52	3052	rubuto	rubuto
-53	3053	tauhidi	tauhidi tauhidin tauhidinsa
-54	3054	amfanar	amfanar amfanarmu
-55	3055	almakashi	almakashi almakashin
-56	3056	kyama	kyama kyamar kyamarsu kyamarsa kyamata kyamarta
-57	3057	kyandir	kyandir kyandirori
-58	3058	gamawa	gamawa
-59	3059	magatakarda	magatakarda magatakardar magatakardan
-60	3060	wau	wan wansu wau wansa wanta wauna
-61	3061	kwali	kwalin kwali
-62	3062	ƙoƙo	ƙoƙo ƙoƙon
-63	3063	waɗan	waɗan
-64	3064	bulo	bulo bulon bulonsa bulonta
-65	3065	mantuwa	mantuwa
-66	3066	mabuɗi	mabuɗin mabuɗan mabuɗi
-67	3067	wancen	wancen
-68	3068	kwazo	kwazo kwazonsa kwazon kwazonsu kwazona kwazonmu
-69	3069	rungume	rungume
-70	3070	musabbabin	musabbabin musabbabinsa
-71	3071	nanata	nanata
-72	3072	warkewa	warkewa warkewar warkewarta
-73	3073	tsamiya	tsamiya tsamiyar
-74	3074	lafa	lafa
-75	3075	guduma	guduma gudumar
-76	3076	zarcewa	zarcewa zarcewar
-77	3077	aikewa	aikewa
-78	3078	tsiraici	tsiraici tsiraicin tsiraicinmu tsiraicinta tsiraicinsu
-79	3079	yalwata	yalwata
-80	3080	magudanan	magudanan
-81	3081	garke	garken garke garkensu garkensa
-82	3082	sallame	sallame
-83	3083	dimokraɗiyya	dimokraɗiyya
-84	3084	taƙama	taƙama taƙamar
-85	3085	muhimmaci	muhimmaci muhimmacin
-86	3086	ishirin	ishirin
-87	3087	faɗace	faɗace faɗacen
-88	3088	ƙaryata	ƙaryata
-89	3089	kwatance	kwatance kwatancen kwatancenta kwatancena
-90	3090	idi	idi idin idinsa
-91	3091	kumfa	kumfa kumfar kumfan
-92	3092	tasi	tasi
-93	3093	dore	dore doren
-94	3094	ciye	ciye
-95	3095	ee	ee
-96	3096	karimci	karimci karimcin karimcinsa karimcinta karimcinsu
-97	3097	ma'adanai	ma'adanai
-98	3098	bal	bal
-99	3099	injuna	injuna injunan injunansu
-100	3100	rige	rige rigen
+1	3001	fareti	fareti faretin
+2	3002	bargo	bargo bargon barguna bargonta
+3	3003	ɗibar	ɗibar
+4	3004	dagula	dagula dagulawa
+5	3005	fasto	fasto faston
+6	3006	ɓawo	ɓawon ɓawonsa ɓawonta ɓawo ɓawonsu
+7	3007	markaɗa	markaɗa markaɗawa
+8	3008	lale	lale
+9	3009	zu	zu
+10	3010	batare	batare
+11	3011	mashin	mashin
+12	3012	sammaci	sammaci sammacin
+13	3013	kango	kango kangon
+14	3014	rowa	rowa rowan
+15	3015	taɓuka	taɓuka
+16	3016	um	um
+17	3017	musiba	musiba musibar musiban
+18	3018	tawali'u	tawali'u tawali'un
+19	3019	cakuleti	cakuleti cakuletin
+20	3020	gyangyaɗi	gyangyaɗi
+21	3021	jiniya	jiniya jiniyar
+22	3022	kwanto	kwanton kwanto
+23	3023	mashigi	mashigi mashigin
+24	3024	zarto	zaratan zarata zarto
+25	3025	ƙosa	ƙosa ƙosawa
+26	3026	tafasa	tafasa tafasan tafasawa
+27	3027	kaki	kaki kakin kakinsu
+28	3028	ƙananu	ƙananu ƙananun ƙanan
+29	3029	goya	goya goyan
+30	3030	fare	fare faren farensa
+31	3031	mirgine	mirgine mirginewa
+32	3032	kauda	kauda
+33	3033	halal	halal
+34	3034	gurguwa	gurguwar gurguwa
+35	3035	binciko	binciko bincikowa
+36	3036	haƙiƙance	haƙiƙance haƙiƙancewa
+37	3037	cent	cent
+38	3038	jiƙa	jiƙa
+39	3039	ɗimauta	ɗimauta ɗimauce
+40	3040	kunno	kunno kunnowa
+41	3041	kune	kune kunen
+42	3042	fakewa	fakewa fakewar
+43	3043	alhini	alhini alhininsa alhinin alhininsu alhininta
+44	3044	mu'ujiza	mu'ujiza mu'ujizarsa mu'ujizar mu'ujizan mu'ujizansa mu'ujizarta mu'ujizoji
+45	3045	kukis	kukis
+46	3046	zaƙi	zaƙi
+47	3047	nisantar	nisantar nisantarsa
+48	3048	raha	raha rahan
+49	3049	dumi	dumi dumin
+50	3050	daidaici	daidaici daidaicin
+51	3051	afka	afkawa afka afkawar
+52	3052	nafila	nafila nafilfili
+53	3053	fukafukai	fukafukai fukafukansu fukafukan fukafukansa fukafukanta
+54	3054	tacewa	tacewa tacewar
+55	3055	kanwa	kanwa kanwata kanwarka kanwan
+56	3056	kifar	kifar kifarsa
+57	3057	salad	salad
+58	3058	ɗab'i	ɗab'i ɗab'in
+59	3059	kirawo	kirawo
+60	3060	tsintar	tsintar
+61	3061	kuturta	kuturta
+62	3062	rundunoni	rundunoni rundunonin rundunoninsu rundunoninmu rundunoninsa
+63	3063	dang	dang
+64	3064	razana	razana
+65	3065	ɗinbin	ɗinbin
+66	3066	murza	murza murzawa
+67	3067	muhallansu	muhallansu
+68	3068	yinta	yinta
+69	3069	ajami	ajami ajamin
+70	3070	aha	aha
+71	3071	azurta	azurta azurtawa
+72	3072	bahasi	bahasi bahasin
+73	3073	nazarci	nazarci
+74	3074	tanka	tankar tanka
+75	3075	kowai	kowai
+76	3076	ugh	ugh
+77	3077	katutu	katutu
+78	3078	waiwayi	waiwayi
+79	3079	darewa	darewa darewar darewarsu darewarta
+80	3080	rikicewa	rikicewa rikicewar rikicewarta
+81	3081	oak	oak
+82	3082	askirim	askirim
+83	3083	durowa	durowa durowar
+84	3084	fasta	fasta
+85	3085	jekan	jekan
+86	3086	masoyiyata	masoyiyata
+87	3087	murmurshi	murmurshi
+88	3088	naaji	naaji
+89	3089	shaitani	shaitani
+90	3090	tsunbace	tsunbace
+91	3091	yanzunnan	yanzunnan
+92	3092	ɗansanda	ɗansanda ɗansandan
+93	3093	ʻya	ʻya ʻyar ʻyarsu
+94	3094	sa'ilin	sa'ilin
+95	3095	salwanta	salwanta salwantar
+96	3096	shagala	shagala
+97	3097	jam'i	jam'i jam'in jam'inta jam'insa
+98	3098	fiƙihu	fikihu fikihun fiƙihu fiƙihun
+99	3099	zalla	zalla zallan zallar
+100	3100	sayayya	sayayya sayayyar sayayyarsu sayayyarsa

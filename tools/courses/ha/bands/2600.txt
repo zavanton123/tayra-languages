@@ -1,100 +1,100 @@
-1	2501	ganowa	ganowa ganowar ganowarta
-2	2502	makwabtaka	makwabtaka
-3	2503	tunkari	tunkari tunkarin
-4	2504	karɓo	karɓo
-5	2505	ƙarasa	ƙarasa
-6	2506	aljan	aljanu aljani aljanun aljanin aljan aljanunsa aljanunsu
-7	2507	lamuni	lamuni lamunin lamuninsa
-8	2508	maguɗi	maguɗi maguɗin
-9	2509	zaɓo	zaɓo
-10	2510	kakanin	kakanin kakaninsa kakaninta kakaninsu kakaninki
-11	2511	aikawa	aikawa aikawar aikawarsa
-12	2512	dodanni	dodanni dodannin
-13	2513	bunkasuwa	bunkasuwa
-14	2514	cafke	cafke
-15	2515	baro	baro baron baronta
-16	2516	rushewar	rushewar rushewarta rushewarsa
-17	2517	tsananta	tsananta tsanantar
-18	2518	koina	koina
-19	2519	murabba'in	murabba'in murabba'insa
-20	2520	kome	kome komen
-21	2521	diyya	diyya diyyar
-22	2522	gundumomi	gundumomi gundumomin gundumominsu gundumominta gundumominsa
-23	2523	rufa'i	rufa'i rufa'in
-24	2524	tauye	tauye
-25	2525	kirkire	kirkire
-26	2526	muslunci	muslunci
-27	2527	roka	roka rokar rokan rokansa
-28	2528	unguwanni	unguwannin unguwanni unguwanninsu unguwanninmu unguwanninta
-29	2529	kago	kago
-30	2530	naɗin	naɗin naɗinsa naɗinta
-31	2531	ukku	ukku ukkun
-32	2532	karuwanci	karuwanci karuwancinta karuwancinsu karuwancin
-33	2533	sumbatar	sumbatar sumbatarka sumbatarta
-34	2534	tofa	tofa tofar
-35	2535	tantama	tantama tantamar tantaman
-36	2536	halicci	halicci
-37	2537	tsaf	tsaf
-38	2538	kasu	kasu
-39	2539	azanci	azanci azancin azancinsa azancinsu
-40	2540	sara	sara saran sarar
-41	2541	shawarci	shawarci
-42	2542	falala	falala falalar falalarsa
-43	2543	haifaffen	haifaffen
-44	2544	sunadarai	sunadarai
-45	2545	wayyo	wayyo
-46	2546	sa'i	sa'i sa'in sa'insa
-47	2547	wajenda	wajenda
-48	2548	halicce	halicce
-49	2549	waina	wainar waina
-50	2550	salati	salati salatin salatinsa
-51	2551	danga	dangana dangogin dangoginsu dangogi dangoginsa dangoginta dangogina dangan danga dangar
-52	2552	tawada	tawada tawadar tadawa
-53	2553	rawaya	rawaya rawayan rawayar
-54	2554	yayata	yayata
-55	2555	sauyawa	sauyawa sauyawan sauyawar sauyawarsu
-56	2556	sifili	sifili sifilin
-57	2557	tubali	tubalin tubali tubalan tubala tubalinsa
-58	2558	leƙa	leƙa
-59	2559	fifita	fifita
-60	2560	tunatar	tunatar
-61	2561	umurci	umurci
-62	2562	tarho	tarho
-63	2563	isowa	isowa isowar isowarsa isowarsu isowarta
-64	2564	tafsiri	tafsirin tafsiri tafsirinka tafsirinsu tafsirinta tafsirinsa
-65	2565	cakulan	cakulan cakulansa
-66	2566	haziƙi	haziƙan haziƙi haziƙai haziƙa haziƙin haziƙar
-67	2567	gareshi	gareshi
-68	2568	kaga	kaga
-69	2569	sunce	sunce
-70	2570	bayyanuwar	bayyanuwar bayyanuwarsa
-71	2571	jajibirin	jajibirin
-72	2572	aurar	aurar
-73	2573	lillahi	lillahi
-74	2574	rabe	rabe raben rabenta rabensa rabensu
-75	2575	hanzari	hanzari hanzarin hanzarinsu hanzarinsa
-76	2576	ƴan'uwana	ƴan'uwana ƴan'uwanan
-77	2577	tuntuni	tuntuni tuntunin
-78	2578	haure	hauren haure
-79	2579	ƴata	ƴata
-80	2580	ragewa	ragewa ragewar
-81	2581	bege	bege begen begensu begenki begensa begena
-82	2582	shiyyoyi	shiyyoyin shiyyoyi
-83	2583	muradi	muradin muradi muradinsa muradinta muradinsu muradinmu
-84	2584	ah	ah
-85	2585	bunƙasuwar	bunƙasuwar
-86	2586	ɗawainiya	ɗawainiyar ɗawainiya
-87	2587	diddigi	diddigin diddigi diddiginsa diddiginsu diddiginta
-88	2588	kunshin	kunshin
-89	2589	katafaren	katafaren katafarensa
-90	2590	rassa	rassa rassan rassansa rassanta rassansu rassar rassarsa
-91	2591	tsohuwa	tsohuwa tsohuwar tsohuwarta
-92	2592	kalar	kalar kalarmu kalarsa
-93	2593	galihu	galihu
-94	2594	bainar	bainar
-95	2595	na'am	na'am
-96	2596	rajin	rajin
-97	2597	ficewa	ficewa ficewar ficewarsa ficewarsu ficewarta
-98	2598	lulluɓe	lulluɓe
-99	2599	tausayawa	tausayawa tausayawar tausayawarku tausayawan tausayawarta
-100	2600	cuɗanya	cuɗanya
+1	2501	gaɓoɓi	gaɓoɓi gaɓoɓin gaɓoɓinsa gaɓoɓinsu gaɓoɓinta
+2	2502	kibiya	kibiya kibiyar kibau kibiyoyi kibiyoyin
+3	2503	sallam	sallam
+4	2504	ƙundu	ƙundu ƙundun
+5	2505	tafarnuwa	tafarnuwa tafarnuwan tafarnuwar
+6	2506	baranda	baranda barandansu barandar barandan
+7	2507	tuffa	tuffa tuffar tuffan
+8	2508	cuku	cuku cukun
+9	2509	yinwa	yinwa
+10	2510	sa'annan	sa'annan
+11	2511	hatimi	hatimin hatimi hatiminsa
+12	2512	danne	danne dannewa dannen
+13	2513	jiyo	jiyo
+14	2514	dau	dau
+15	2515	dena	dena
+16	2516	kilo	kilo
+17	2517	kambu	kambu kambun kambunta kambunsa kambunsu
+18	2518	addaba	addabar addabarmu addabarsu addaba
+19	2519	za'ayi	za'ayi
+20	2520	kansar	kansar
+21	2521	yaƙini	yaƙinin yaƙini
+22	2522	firist	firist
+23	2523	meye	meye meyen
+24	2524	atisaye	atisayen atisaye
+25	2525	mulka	mulka mulkar mulke mulkarsu mulkarta mulkan
+26	2526	tef	tef
+27	2527	baiti	baiti baitin baitocin baitoci baitocinsa baitina baitinta
+28	2528	rata	rata ratan ratar
+29	2529	yiyuwa	yiyuwa yiyuwan yiyuwar
+30	2530	yumɓu	yumɓu yumɓun yumɓunsa yumɓunta
+31	2531	kiyama	kiyama
+32	2532	wulaƙanci	wulaƙanci wulaƙancin
+33	2533	kunu	kunun kunu
+34	2534	fulawa	fulawa fulawar fulawan
+35	2535	kasantuwa	kasantuwa kasantuwar kasantuwarsu kasantuwarsa kasantuwarta
+36	2536	makogwaro	makogwaro makogwaron makogwaronta makogwaronsa makogwaronsu
+37	2537	ƙamari	ƙamari ƙamarin
+38	2538	sheƙa	sheƙa sheƙawa sheƙan
+39	2539	attajiri	attajiri attajirai attajirin tajirin attajiranmu attajirinsa
+40	2540	amanna	amanna amannar amannan
+41	2541	liƙa	liƙa
+42	2542	moriya	moriya moriyar moriyarsu moriyarsa moriyarta
+43	2543	goshi	goshi goshinta goshin goshinsa goshinsu goshinmu
+44	2544	kushe	kushe kushewa kushewar
+45	2545	shawagi	shawagi shawagin shawaginsu
+46	2546	fansho	fansho fanshon fanshonta
+47	2547	farce	farce farcen farata farcensa farcena
+48	2548	haikali	haikali haikalin haikalinsa haikalinsu haikalinta
+49	2549	fiffike	fiffike fikafikan fikafikai fikafikansu fikafikanta fiffiken fikafikanka
+50	2550	kyakyawa	kyakyawa kyakyawan kyakkywan kyakyawar
+51	2551	lafa	lafa lafawa lafawar
+52	2552	auduga	auduga audugar
+53	2553	wulaƙanta	wulaƙanta wulaƙantawar
+54	2554	kerkeci	kerkeci kyarkeci kerkecin
+55	2555	jihadi	jihadi jihadin jihadinsa jihadinsu
+56	2556	tsage	tsaga tsage tsagewa tsagewar tsagawar tsagen tsagawa
+57	2557	ingiza	ingiza ingizawa ingizawar
+58	2558	kuskura	kuskura
+59	2559	maci	maci macin
+60	2560	bola	bola bolar bolan
+61	2561	tawul	tawul
+62	2562	ruhaniya	ruhaniya ruhaniyan ruhaniyar ruhaniyarsu ruhaniyarsa ruhaniyarta
+63	2563	jaket	jaket
+64	2564	mayaudari	mayaudara mayaudari mayaudarin
+65	2565	walau	walau
+66	2566	hamɓarar	hamɓarar
+67	2567	buguwa	buguwar buguwa buguwarsa buguwarta
+68	2568	gurgu	guragu gurgu
+69	2569	jaruntaka	jarumtaka jaruntaka jaruntakarsa jarumtakar jarumtakarsa jaruntakar jarumtakarta jaruntakarta jarumtakarsu jaruntakarsu
+70	2570	shata	shata shatan shatansu shatawa
+71	2571	zakka	zakka zakkar
+72	2572	koko	koko kokon kokona
+73	2573	golf	golf
+74	2574	sakan	sakan
+75	2575	zartas	zartaswa zartas zartaswar zartaswarsa
+76	2576	sigina	siginar sigina siginan
+77	2577	damfara	damfara damfarar
+78	2578	gwangwani	gwangwani gwangwanayen gwangwanaye gwangwanin
+79	2579	itaciya	itaciyar itaciya itaciyarta
+80	2580	rinjaya	rinjayi rinjaya
+81	2581	siket	siket
+82	2582	ladan	ladan ladanai ladani ladanan
+83	2583	gurɓace	gurɓacewar gurɓace gurɓacewa
+84	2584	dara	dara daran darar daranta
+85	2585	salka	sarkar sarka salka sarkan
+86	2586	di	di
+87	2587	baseball	baseball
+88	2588	hanji	hanji hanjin hanjina hanjinsu
+89	2589	waiwaye	waiwaye waiwayen
+90	2590	musanya	musanya musanyar musanyawa musanyan musanyawar
+91	2591	ƙamus	ƙamus ƙamusun
+92	2592	tsayuwa	tsayuwar tsayuwa tsayuwan tsayuwarka tsayuwarmu tsayuwarsa tsayuwarta tsayuwarsu
+93	2593	gora	gora goran goranta
+94	2594	sunna	sunna sunnar sunnata sunnonin sunnanta
+95	2595	daɗaɗɗen	daɗaɗɗen dadaddun
+96	2596	nunƙaya	nunƙaya
+97	2597	ƙudiri	ƙudiri ƙudirin ƙudirinsa
+98	2598	ɗoki	ɗoki ɗokin
+99	2599	barewa	barewa barewar bareyi
+100	2600	mahajjata	mahajjata mahajjatan

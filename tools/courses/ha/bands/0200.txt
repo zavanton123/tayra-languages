@@ -1,64 +1,64 @@
-1	101	ƙungiya	ƙungiyar ƙungiyoyin ƙungiya ƙungiyoyi ƙungiyarsa ƙungiyarmu ƙungiyarsu ƙungiyan ƙungiyarta ƙungiyoyinsu ƙungiyoyinsa ƙungiyoyinta ƙungiyoyinmu
+1	101	ƙungiya	ƙungiyar ƙungiyoyin ƙungiya ƙungiyoyi ƙungiyarsa ƙungiyarmu ƙungiyarsu ƙungiyan ƙungiyarta ƙungiyoyinsu ƙungiyoyinsa ƙungiyoyinta ƙungiyoyinmu ƙungiyarku ƙungiyata ƙungiyarka ƙungiyoyinku
 2	102	ciki	ciki cikinsu cikinsa cikinta cikinmu cikina cikinku cikinka cikinki
 3	103	ban	ban
 4	104	gwamnati	gwamnatin gwamnati gwamnatinsa gwamnatocin gwamnatoci gwamnatinsu gwamnatocinsu gwamnatinta gwamnatinmu gwamnatinka gwamnatina gwamnatocinmu gwamnatocinsa gwamnatocinta
 5	105	kamata	kamata
-6	106	shiga	shiga shigar shigan shigarta shigata shigarsa shigarsu shigansa shigansu shiganta
-7	107	jiha	jihar jihohi jihohin jiha jiharsa jiharmu jihohinsu jiharsu jihata jiharku jihohinmu jiharka jiharta jihan jihohinta
+6	106	shiga	shiga shigar shigan shigarta shigata shigarsa shigarsu shigansa shigansu shiganta shigewa shigawa shigowata shigewar shigawar shigawarsa
+7	107	jiha	jihar jihohi jihohin jiha jiharsa jiharmu jihohinsu jiharsu jihata jiharku jihohinmu jiharka jiharta jihan jihohinta jahar jaha jahohin jahohi jahohinsa jahohinsu jahohinta
 8	108	ana	ana
-9	109	duniya	duniya duniyar duniyan duniyarmu duniyarsu duniyata duniyarsa duniyarta duniyarka duniyarku
+9	109	duniya	duniya duniyar duniyan duniyarmu duniyarsu duniyata duniyarsa duniyarta duniyarka duniyarku duniyoyi duniyoyin duniyoyinsa
 10	110	fi	fi
 11	111	kuɗi	kuɗi kuɗin kuɗaɗen kuɗaɗe kuɗinsa kuɗinsu kuɗina kuɗaɗensu kuɗinka kuɗinta kuɗinki kuɗaɗenta kuɗinku kuɗinmu kuɗaɗensa kuɗaɗenka kuɗaɗenmu
 12	112	inda	inda
 13	113	sosai	sosai
 14	114	me	me
-15	115	dama	dama damar daman dame damina dami damansu damanka damansa damin damarsa damarku damana damarsu damarka damarta damanta damarmu daminta damata
+15	115	dama	dama damar daman dame damina dami damansu damanka damansa damin damarsa damarku damana damarsu damarka damarta damanta damarmu daminta damata damawa damarmaki damammaki damarmakin damammakin
 16	116	amfani	amfani amfanin amfaninsa amfaninsu amfaninka amfaninmu amfaninta
 17	117	babu	babu babun
 18	118	magana	magana maganar maganganun maganganu maganarsa maganarsu maganan maganarka maganata maganarta maganarmu magananka magananta maganarku maganganunka maganganunsa maganganunsu maganganunmu maganganunta maganansa
 19	119	ji	ji
 20	120	to	to
-21	121	kasance	kasance
+21	121	kasance	kasance kasancewata kasancewansa
 22	122	so	so
 23	123	suke	suke
 24	124	mun	mun
-25	125	nuna	nuna nunan nunanta
-26	126	bayyana	bayyana bayyanar bayyanarsa bayyanan bayyanarka bayyanarta bayyanarsu bayyanansu bayyananta
+25	125	nuna	nuna nunan nunanta nunar
+26	126	bayyana	bayyana bayyanar bayyanarsa bayyanan bayyanarka bayyanarta bayyanarsu bayyanansu bayyananta bayyanawa baiyana bayyanawar bayyanawarta
 27	127	kaya	kayan kaya kayayyakin kayayyaki kayar kayansa kayansu kayana kayanta kayanku kayanmu kayanka kayayyakinsa kayayyakinsu kayayyakinta kayayyakinmu kayanki kayata
 28	128	kawai	kawai
 29	129	yau	yau
 30	130	hankali	hankali hankalin hankulan hankula hankalinsa hankalina hankalinsu hankalinka hankalinta hankalinku hankalinmu hankulansu hankulanmu hankalinki hankulanku hankulansa
 31	131	kyau	kyau kyan kyaun kyansa kyaunsa kyanta kyaunta
-32	132	ɗin	ɗin
-33	133	ƙara	ƙara ƙaran
+32	132	ɗin	ɗin ɗina ɗinta ɗinsu ɗinmu ɗinku
+33	133	ƙara	ƙara ƙaran ƙarawarsu ƙarawarta ƙarawarsa ƙaruwarta
 34	134	shin	shin
-35	135	nema	neman nemi nema neme nemansu nemansa nemanta nemanka nemanku
+35	135	nema	neman nemi nema neme nemansu nemansa nemanta nemanka nemanku nemawa
 36	136	rayuwa	rayuwa rayuwar rayuwarsa rayuwarsu rayuwata rayuwarta rayuwarka rayuwarmu rayuwarki rayuwarku rayuwan rayuwana rayuwanku rayuwanta
-37	137	buƙata	buƙatar buƙata buƙatun buƙatan buƙatu buƙatunsu buƙatarsa buƙatarsu buƙatarka buƙatarta buƙatarku buƙatunsa buƙatunka buƙatunta buƙatata buƙatarmu buƙatunku buƙatunmu buƙatansa
+37	137	buƙata	buƙatar buƙata buƙatun buƙatan buƙatu buƙatunsu buƙatarsa buƙatarsu buƙatarka buƙatarta buƙatarku buƙatunsa buƙatunka buƙatunta buƙatata buƙatarmu buƙatunku buƙatunmu buƙatansa buƙace
 38	138	waɗannan	waɗannan
-39	139	kira	kira kiran kiransa kiranta kiransu kiranki kiranka kiranmu
+39	139	kira	kira kiran kiransa kiranta kiransu kiranki kiranka kiranmu kirawa
 40	140	lafiya	lafiya lafiyar lafiyarsu lafiyan lafiyarsa lafiyarku lafiyarka lafiyarta lafiyarki lafiyarmu lafiyata lafiyansu
 41	141	bari	bar bari barin barinsa barinsu barinta barinka barinku
-42	142	yaro	yara yaro yaron yaran yarinyar yaransu yaranta yarana yaransa yaranmu yaronsa yarinyan yaranka yaranku yaronsu yaronka yaranki yarona yaronta yarinyarsu yarinyarsa yarinyarta yarinyata
+42	142	yaro	yara yaro yaron yaran yarinyar yaransu yaranta yarana yaransa yaranmu yaronsa yarinyan yaranka yaranku yaronsu yaronka yaranki yarona yaronta yarinyarsu yarinyarsa yarinyarta yarinyata yaƴan yaƴansu
 43	143	akan	akan akanmu akansu akanta akanku akanka
 44	144	ƙarshe	ƙarshe ƙarshen ƙarshenta ƙarshensa ƙarshensu ƙarshenku ƙarshenmu
-45	145	taɓa	taɓa taɓan
+45	145	taɓa	taɓa taɓan taɓawa taɓawar taɓawarsa
 46	146	daban	daban
 47	147	saura	sauran sauransu saura sauranta sauransa saurar sauranmu
 48	148	sami	sami samin
 49	149	sha	sha shan shansa shanta shansu shanki
-50	150	tunani	tunanin tunani tunaninsa tunaninmu tunaninsu tunaninka tunaninta tunaninki tunaninku
-51	151	al'umma	al'umma al'ummar al'ummomin al'ummarmu al'ummomi al'ummarsu al'ummarsa al'umman al'ummarta al'ummarka al'ummai al'ummata al'ummominsu al'ummanmu al'ummarki al'ummominmu al'ummominta al'ummarku al'ummanta
+50	150	tunani	tunanin tunani tunaninsa tunaninmu tunaninsu tunaninka tunaninta tunaninki tunaninku tunannin tunanninsa
+51	151	al'umma	al'umma al'ummar al'ummomin al'ummarmu al'ummomi al'ummarsu al'ummarsa al'umman al'ummarta al'ummarka al'ummai al'ummata al'ummominsu al'ummanmu al'ummarki al'ummominmu al'ummominta al'ummarku al'ummanta al'umomin
 52	152	jin	jin
 53	153	yanki	yankin yanki yankunan yankuna yankinsu yankunansu yankinsa yankinta yankinmu yankunanta yankina yankunansa yankunanmu yankinku
-54	154	hannu	hannu hannun hannunsa hannunta hannayen hannunka hannaye hannunsu hannuna hannayensa hannayensu hannayenka hannuwa hannuwanku hannuwana hannunmu hannuwansu hannayenta hannuwansa hannunku hannuwan hannuwanka hannuwarku hannunki hannayenki hannuwanmu hannayenku
+54	154	hannu	hannu hannun hannunsa hannunta hannayen hannunka hannaye hannunsu hannuna hannayensa hannayensu hannayenka hannuwa hannuwanku hannuwana hannunmu hannuwansu hannayenta hannuwansa hannunku hannuwan hannuwanka hannuwarku hannunki hannayenki hannuwanmu hannayenku hanu hanun hanunta hanunsa hanuna hanunmu
 55	155	muna	muna
 56	156	jama'a	jama'a jama'ar jama'an jama'arsa jama'arsu jama'arta jama'arku jama'armu jama'ata jama'arka jama'arki jama'u jama'un
 57	157	matsala	matsalar matsala matsalolin matsaloli matsalarsu matsalan matsalolinsu matsalolinsa matsalarmu matsalolinmu matsalolinku matsalolinta matsalarki matsalata matsalarsa matsalarta matsalolinka
 58	158	gari	garin gari garuruwan garuruwa garinmu garinsu garuruwansu garinsa garinku garuruwanmu garinta garuruwanta garuruwansa garuruwarsu
-59	159	uku	uku ukun ukunsu
+59	159	uku	uku ukun ukunsu ukku ukkun
 60	160	game	game gamen
-61	161	faɗa	faɗa faɗar faɗan faɗansa faɗarsu faɗarta faɗarka faɗanta
+61	161	faɗa	faɗa faɗar faɗan faɗansa faɗarsu faɗarta faɗarka faɗanta faɗowa faɗiwa faɗowar faɗowarsa
 62	162	sani	sani sanin saninsa saninta saninsu saninki saninmu
 63	163	gaskiya	gaskiya gaskiyar gaskiyarsa gaskiyan gaskiyarta gaskiyarka gaskiyata gaskiyanka gaskiyarki gaskiyarsu gaskiyarmu
 64	164	hali	halin hali halayen halaye halinsa halayensa halayensu halinsu halayenmu halinta halayenta halinki halinku halayenku halina halayenka halayenki halinka halinmu
@@ -66,34 +66,34 @@
 66	166	kafin	kafin kafinta kamin kafinsu kafinsa
 67	167	abinci	abinci abincin abincinsu abincinsa abincinmu abincina abincinta abincinku
 68	168	ƙarami	ƙananan ƙaramin ƙaramar ƙarami ƙanana ƙarama ƙaraman ƙaramarta ƙananansa ƙaramarsa ƙaraminsa ƙananansu
-69	169	zaɓe	zaɓen zaɓe zaɓensa zaɓensu zaɓenku zaɓenta
+69	169	zaɓe	zaɓen zaɓe zaɓensa zaɓensu zaɓenku zaɓenta zaɓukan zaɓo zaɓuka zaɓawa zaɓon zaɓena
 70	170	sanya	sanya sanyar sanyan
 71	171	yanayi	yanayin yanayi yanayinsa yanayinmu yanayinsu yanayinta yanayina
 72	172	tun	tun
 73	173	zo	zo
 74	174	nasara	nasara nasarar nasarorin nasarori nasararsa nasararmu nasarata nasararta nasarorinka nasarorinsu nasararsu nasarorinmu nasararka nasaran nasarorinsa nasarorinta
 75	175	mafi	mafi mafin
-76	176	guda	guda gudan gudansa
+76	176	guda	guda gudan gudansa guduwa gudo guduwar guduwarsa guduwarta
 77	177	makaranta	makarantar makaranta makarantu makarantun makarantarmu makarantan makarantarku makarantarsu makarantarsa makarantunsu makarantarka makarantunmu makarantarta makarantansa makarantanta makarantunta makarantansu
-78	178	karatu	karatu karatun karatunsa karatunta karatuna karatunsu karatunmu karatunki
+78	178	karatu	karatu karatun karatunsa karatunta karatuna karatunsu karatunmu karatunki karatuttuka karatuttukan karatuttukansa karatuttukansu karatuttukanta
 79	179	cin	cin
-80	180	sannan	sannan
-81	181	haɗa	haɗa
+80	180	sannan	sannan sanan
+81	181	haɗa	haɗa haɗawa haɗawar haɗan haɗawan haɗawarsa
 82	182	tsari	tsarin tsari tsarinsa tsarinta tsarinmu tsarinsu tsarinka tsarina tsarinku
-83	183	musamman	musamman
+83	183	musamman	musamman musamma
 84	184	fata	fatan fata fatar fatanmu fatarsa fatansu fatanka fatarsu fatana fatanta fatarta fatansa fatata fatarmu fatun fatu fatarka
 85	185	kowa	kowa
 86	186	tsakanin	tsakanin
-87	187	tabbata	tabbatar tabbata tabbatarta tabbatan
+87	187	tabbata	tabbatar tabbata tabbatarta tabbatan tabbatarwa tabbatawa tabbatarwar tabbatarwarsa
 88	188	birni	birnin birni birane biranen birninta birninmu biranenmu birninsa birninsu biranensu biranenta biranensa
 89	189	sabo	sabon sabuwar sabbin sabo sabuwa sababbin sabbi sababbi sabuwan sabonta
 90	190	jirgi	jirgin jiragen jirgi jirage jirginsa jiragensu jirginta jiragensa jirginsu jiragenta jirginka jirginmu
 91	191	rashi	rashin rashi rashinsa rashinta rashinsu rashinki
-92	192	daɗi	daɗi daɗin daɗinsa daɗinsu daɗinta
+92	192	daɗi	daɗi daɗin daɗinsa daɗinsu daɗinta daɗinmu
 93	193	siyasa	siyasa siyasar siyasan siyasarsa siyasarsu siyasarka siyasarta siyasarmu
 94	194	masa	masa
 95	195	jarida	jarida jaridar jaridu jaridun jaridan jaridunmu jaridarka jaridarku jaridarmu jaridarta jaridarsu jaridata jaridarsa jaridanta jaridunta jaridansu jaridunsa
-96	196	kawo	kawo kawon
+96	196	kawo	kawo kawon kawowa
 97	197	ilimi	ilimi ilimin ilmin ilmi iliminsu iliminsa iliminmu ilminsa ilminsu iliminta ilimina iliminka ilmina ilminka
 98	198	ɗa	ƴaƴa ɗa ƴaƴan ɗansa ƴaƴansu ɗanta ƴaƴanta ƴaƴansa ƴaƴana ɗanka ƴaƴanmu ɗansu ƴaƴar ƴaƴanka ƴaƴanki ƴaƴanku ƴaƴata ƴaƴarsa ɗanmu ƴaƴarta
 99	199	kashe	kashe kashen

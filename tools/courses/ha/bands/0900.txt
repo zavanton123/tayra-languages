@@ -1,14 +1,14 @@
-1	801	ɓoye	ɓoye ɓoyen
+1	801	ɓoye	ɓoye ɓoyen ɓuya ɓoyewa ɓoyewar
 2	802	karta	karta kartar kartarka kartarsu
-3	803	yarinya	yarinya yarinyar ƴammatan ƴammata yarinyan yarinyarsu yarinyarsa yarinyarta yarinyata
-4	804	dakatar	dakatar
+3	803	yarinya	yarinya yarinyar ƴammatan ƴammata yarinyan yarinyarsu yarinyarsa yarinyarta yarinyata ƴanmata ƴanmatan
+4	804	dakatar	dakatar dakatarwa dakatarwar dakatarwarsa dakatarwarta
 5	805	tsayi	tsayi tsayin tsayinsa tsayinta tsayinsu
 6	806	taya	taya tayan
 7	807	shahara	shahara shaharar shahararta shahararsa shaharanta shahararsu shaharan
 8	808	ƙirji	ƙirji ƙirjin ƙirjina ƙirjinsa ƙirjinka ƙirazan ƙirjinta ƙirjinsu
 9	809	kunne	kunne kunnen kunnuwa kunnuwan kunnena kunnensa kunnuwansu kunnuwana kunnensu kunnenta kunnenka kunnuwanmu kunnuwarsu kunnuwanku kunnuwansa kunnuwanta
 10	810	haƙiƙa	haƙiƙa
-11	811	komawa	komawa komawar komawarsa komawarsu komawarta
+11	811	komawa	komawa komawar komawarsa komawarsu komawarta komawata
 12	812	safe	safe safen
 13	813	finai	finai finain
 14	814	jagora	jagora jagoran jagorar jagororin jagorana jagoransu jagorori jagoranmu jagoransa jagororinku jagorarta jagorarsa jagororinsu jagororinsa jagororinta
@@ -17,60 +17,60 @@
 17	817	ƙalubale	ƙalubale ƙalubalen ƙalubalenku ƙalubalenta ƙalubalensa
 18	818	saurayi	saurayi saurayin saurayina saurayinta saurayinki saurayinsa saurayinsu
 19	819	masana'anta	masana'antar masana'anta masana'antarsa masana'antarta masana'antarmu
-20	820	zubar	zubar
-21	821	ƙwaya	ƙwayar ƙwaya
+20	820	zubar	zubar zubarwa
+21	821	ƙwaya	ƙwayar ƙwaya ƙwayoyinta
 22	822	jiran	jiran jiranka jiransu jiranmu jiransa jiranki jiranta
-23	823	shafa	shafa shafan
+23	823	shafa	shafa shafan shafar shafawa shafawar shafarsa
 24	824	mutunci	mutunci mutuncin mutuncinsa mutuncina mutuncinku mutuncinka mutuncinsu mutuncinta mutuncinmu
 25	825	masallaci	masallacin masallaci masallatai masallacinsa masallatansu masallacinmu masallacinta masallacinsu
 26	826	kundi	kundin kundi kundinta kundinsa kundinsu
 27	827	fure	furanni fure furen furannin furanninsa furenta
 28	828	inganci	inganci ingancin ingancinsu ingancinsa ingancinta ingancinmu
 29	829	wajibi	wajibi wajibin wajibinsa wajibai wajibinmu wajiban
-30	830	shago	shagon shago shagonsa shagonmu shagonka shagonta shagonsu
-31	831	ƙaddamar	ƙaddamar
+30	830	shago	shagon shago shagonsa shagonmu shagonka shagonta shagonsu shaguna shagunan shagunansu shagunansa shagunanta
+31	831	ƙaddamar	ƙaddamar ƙaddamarwa ƙaddamarwar ƙaddamarwan ƙaddamarwarsa ƙaddamarwarsu
 32	832	mafarki	mafarki mafarkin mafarkan mafarkinka mafarkai mafarkinsa mafarkinsu mafarkina mafarkinta mafarkansa mafarkinku mafarkansu
-33	833	biyo	biyo biyon
+33	833	biyo	biyo biyon biyowa biyowar
 34	834	wace	wace wacen
 35	835	kaza	kaza kaji kazar kajin kazan
 36	836	shahararre	shahararren shahararrun shahararriyar shahararre shahararru shahararriya shahararriyarsa
 37	837	zara	zarar zaran zara zaranta
-38	838	sashe	sashen sashe sashenta sashensa sashensu
+38	838	sashe	sashen sashe sashenta sashensa sashensu sashena
 39	839	maye	maye mayen
-40	840	tsaho	tsahon tsaho tsahonsa
-41	841	daidaita	daidaita daidaitan daidaitar daidaitarta
+40	840	tsaho	tsahon tsaho tsahonsa tsahona
+41	841	daidaita	daidaita daidaitan daidaitar daidaitarta daidaitawa daidaitawar daidaitawarsa daidaitawarsu daidaitawarta
 42	842	shara	shara sharar sharan shararsu
 43	843	aƙalla	aƙalla
 44	844	gefen	gefen gefenmu gefensu gefensa gefenka gefenta
 45	845	jan	jan
-46	846	gwada	gwada gwadar
-47	847	banki	bankin banki bankinka bankinsa bankinta bankinsu
+46	846	gwada	gwada gwadar gwadawa gwadawar
+47	847	banki	bankin banki bankinka bankinsa bankinta bankinsu bankunan bankuna bankunanmu bankunansu bankunansa bankunanta
 48	848	gudanarwa	gudanarwa gudanarwar gudanarwarta gudanarwarsu gudanarwan gudanarwarsa
 49	849	fage	fagen fage fagensa fagenta fagensu
 50	850	alfahari	alfahari alfaharin alfaharinsu alfaharinta
-51	851	nesa	nesa
+51	851	nesa	nesa nesan nesansu nesanka nesansa nesanmu
 52	852	bambanci	bambanci bambancin bambancinsa bambancinsu bambancinta
 53	853	tuni	tuni tunin
-54	854	musa	musa musanta musan
-55	855	sarauta	sarauta sarautar sarautarsa sarautarsu sarautarta sarautan
+54	854	musa	musa musanta musan musawa
+55	855	sarauta	sarauta sarautar sarautarsa sarautarsu sarautarta sarautan sarautu sarautun
 56	856	halayya	halayyar halayya halayyarsa halayyarta halayyarsu halayyata halayyarmu halayyan halayyarka
-57	857	gode	gode
+57	857	gode	gode godewa
 58	858	ƙwaro	ƙwarin ƙwari ƙwaro ƙwaron ƙwarinsa ƙwarinta
-59	859	bunƙasa	bunƙasa
-60	860	gada	gada gadan gadar gadarta gadarsa gadansu gadodi
+59	859	bunƙasa	bunƙasa bunƙasar bunkasuwa bunƙasuwar bunƙasawa bunkasuwarta bunƙasawar
+60	860	gada	gada gadan gadar gadarta gadarsa gadansu gadodi gadoji gadojin gadojinmu
 61	861	asiri	asiri asirin asirinsa asirinka asirai asirinsu asirinta
-62	862	yaba	yaba yabi yabe
+62	862	yaba	yaba yabi yabe yabawa yabawar
 63	863	ashirin	ashirin
 64	864	siya	siya
 65	865	mamaye	mamaye mamayen mamayenta
-66	866	awa	awa awoyi awata awan awar
-67	867	dafa	dafa dafan
-68	868	ƙarfafa	ƙarfafa ƙarfafan ƙarfafar
+66	866	awa	awa awoyi awata awan awar awowi
+67	867	dafa	dafa dafan dafawa
+68	868	ƙarfafa	ƙarfafa ƙarfafan ƙarfafar ƙarfafawa ƙarfafawarsa ƙarfafawar ƙarfafawarsu ƙarfafawarta
 69	869	ƙwararru	ƙwararru ƙwararrun ƙwararrunsa ƙwararrunta ƙwararrunmu ƙwararrunsu
 70	870	halarta	halartar halarta halartan halartarsa halartarta halartansa halartarku
 71	871	jarabawa	jarabawar jarabawa jarabawan jarabawarsa jarabawarta jarabawarsu
-72	872	kawar	kawar kawarki kawarsu
-73	873	hulɗa	hulɗa hulɗar hulɗarsu hulɗarsa hulɗarta hulɗan hulɗarmu
+72	872	kawar	kawar kawarki kawarsu kawa kawarwa kawarwar
+73	873	hulɗa	hulɗa hulɗar hulɗarsu hulɗarsa hulɗarta hulɗan hulɗarmu hulɗarki
 74	874	kore	kore koren koriya koriyar korayen korensa koraye korenmu
 75	875	sansani	sansanin sansanonin sansani sansanoni sansaninsu sansanoninsu sansaninsa sansaninta sansanoninsa
 76	876	sukan	sukan sukansa sukanta
@@ -84,17 +84,17 @@
 84	884	tunawa	tunawa tunawar tunawan tunawarsu tunawarta
 85	885	kewaye	kewaye kewayen kewayenta kewayensa kewayensu
 86	886	same	same
-87	887	ofis	ofis ofisoshin ofishinsa ofisoshi ofishinsu ofishinmu ofishinta ofishinka ofisoshinsu ofisoshinta ofisoshinsa
+87	887	ofis	ofis ofisoshin ofishinsa ofisoshi ofishinsu ofishinmu ofishinta ofishinka ofisoshinsu ofisoshinta ofisoshinsa offishin
 88	888	dinga	dinga
 89	889	kwanciya	kwanciyar kwanciya kwanciyan kwanciyarsu
-90	890	ɗora	ɗora
+90	890	ɗora	ɗora ɗorawa ɗorawan ɗorawar ɗoran
 91	891	tufa	tufafi tufafin tufa tufar tufafinta tufafinsa tufafinku tufafinsu tufarsu
 92	892	ƙuri'u	ƙuri'u ƙuri'un ƙuri'unsu ƙuri'unsa ƙuri'unta
 93	893	gajere	gajeren gajerun gajeriyar gajere gajeru gajeruwar gajeriya gajeran gajera gajerar gajeruna
 94	894	zurfi	zurfi zurfin zurfinsa zurfinta
-95	895	ƙarar	ƙarar ƙararsa ƙararta ƙararsu
-96	896	ziyarci	ziyarci
-97	897	doki	doki dokin dawaki dokinsa dawakin dokina dokinta dokinsu dawakinsa dawakinsu
-98	898	tallafawa	tallafawa tallafawar
-99	899	kwatanta	kwatanta kwatantan
-100	900	maida	maida maidan
+95	895	ƙarar	ƙarar ƙararsa ƙararta ƙararsu ƙararrakin ƙararrakinta ƙararrakinsu
+96	896	ziyarci	ziyarci ziyarce
+97	897	doki	doki dokin dawaki dokinsa dawakin dokina dokinta dokinsu dawakinsa dawakinsu dawakai dawakanku dawakan dawakansa dawakansu
+98	898	tallafawa	tallafawa tallafawar tallafa tallafawawa
+99	899	kwatanta	kwatanta kwatantan kwatantawa
+100	900	maida	maida maidan maido maidawa maidowa maidowar

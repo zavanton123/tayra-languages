@@ -4,97 +4,97 @@
 4	204	tafiya	tafiya tafiyar tafiyarsa tafiyarki tafiyata tafiyarsu tafiyan tafiyarta tafiyarmu
 5	205	mulki	mulkin mulki mulkinsa mulkinsu mulkinmu mulkinta mulkinka mulkinki mulkina
 6	206	soja	sojojin sojoji soja sojan sojojinsa sojojinmu sojojinta sojojinsu sojansu sojanta sojansa sojar
-7	207	taro	taron taro taronsu taronmu taronta taronsa
+7	207	taro	taron taro taronsu taronmu taronta taronsa tarurrukan tarurruka tarurrukanku tarurrukanta tarurrukansa tarurrukansu
 8	208	ƙafa	ƙafa ƙafar ƙafafu ƙafarsa ƙafafuna ƙafafun ƙafan ƙafarka ƙafata ƙafafunsa ƙafafunta ƙafafunsu ƙafafunku ƙafafuwa ƙafafuwan ƙafarta ƙafafunka ƙafafunmu ƙafafuwana ƙafafuwansu ƙafarsu ƙafafuwansa ƙafarmu ƙafana
 9	209	shawara	shawarar shawara shawarwari shawarwarin shawarata shawararsa shawaran shawararka shawararku shawararsu shawarwarinsu shawarwarinsa shawararmu shawarwarinku shawararta shawarwarinta shawarwarinmu shawararki shawarwarina
 10	210	kana	kana
-11	211	gabata	gabatar gabata
+11	211	gabata	gabatar gabata gabace
 12	212	take	take taken takensa takensu takenta
 13	213	yayin	yayin yayinsu
 14	214	doka	doka dokar dokokin dokoki doke dokan dokokina dokokinmu dokarsa dokokinta dokanta dokokinsu dokokinsa dokata dokarmu dokarta dokarsu
 15	215	sake	sake saken
 16	216	girma	girma girman girmansa girmanta girmar girmansu girmanku girmana girmanka girmanki girmanmu girmarta
-17	217	ɓangare	ɓangaren ɓangare ɓangarorin ɓangarori ɓangarenta ɓangarensu ɓangarensa ɓangarorinsa ɓangarorinsu ɓangarorinta
+17	217	ɓangare	ɓangaren ɓangare ɓangarorin ɓangarori ɓangarenta ɓangarensu ɓangarensa ɓangarorinsa ɓangarorinsu ɓangarorinta ɓangarenka ɓangarena ɓangarenki ɓangarenmu
 18	218	yaƙi	yaƙi yaƙin yaƙinta yaƙinsa yaƙinsu yaƙinmu
 19	219	baƙi	baƙi baƙin baƙar baƙaƙen baƙaƙe babbaƙu baƙa baƙinmu baƙinku baƙarsa baƙinki babbaƙun baƙansu baƙarta baƙana baƙarmu baƙarsu
-20	220	ƙarfi	ƙarfi ƙarfin ƙarfinsa ƙarfinsu ƙarfinta ƙarfinmu ƙarfinku
-21	221	cuta	cutar cuta cutan cutarka cutarsa
-22	222	tashi	tashi tashin tashinta tashinsa tashinsu
+20	220	ƙarfi	ƙarfi ƙarfin ƙarfinsa ƙarfinsu ƙarfinta ƙarfinmu ƙarfinku ƙarfinka
+21	221	cuta	cutar cuta cutan cutarka cutarsa cututuka cutuka cututukan cutukan cututukar cututtukansun
+22	222	tashi	tashi tashin tashinta tashinsa tashinsu tashiwar
 23	223	faɗi	faɗi faɗin faɗinsa faɗinta
-24	224	shiri	shirin shiri shirinsa shirinta shirinku shirinsu shirinmu shirinka shirinki
-25	225	ɗauki	ɗauki ɗaukin
-26	226	gudana	gudanar gudana
+24	224	shiri	shirin shiri shirinsa shirinta shirinku shirinsu shirinmu shirinka shirinki shirina
+25	225	ɗauki	ɗauki ɗaukin ɗaukowa
+26	226	gudana	gudanar gudana gudanawar
 27	227	komai	komai
-28	228	fita	fita fitar fice ficen fitan fisshe fitarsu fitarsa fitarta ficensu
+28	228	fita	fita fitar fice ficen fitan fisshe fitarsu fitarsa fitarta ficensu fitarwa fitarwar fitarwarsu fitawar
 29	229	labari	labarin labari labaran labaru labarun labarinsa labarina labarinta labarinsu labarinka labaranta labaransa labarunsa labarunsu labaransu labarinmu labaranmu labaraina labaranka labarunta labarunmu labarinku labaruna labaranku
 30	230	tafi	tafi tafin
 31	231	mota	motar mota motoci motocin motan motarsa motata motarka motarsu motocinsu motarmu motana motarta motarki motocinsa motansu motocinta
 32	232	bisa	bisa bisan bisashe
-33	233	fim	fim
+33	233	fim	fim finafinaina
 34	234	majalisa	majalisar majalisa majalisun majalisu majalisan majalisunmu majalisarsa majalisarsu majalisarmu majalisunsu majalisarta majalisarku
 35	235	tarihi	tarihi tarihin tarihinsa tarihinta tarihinsu tarihinka tarihina tarihinki tarihinmu
 36	236	bincike	bincike binciken bincikensu bincikensa bincikenta bincikenmu bincikenka bincikena
-37	237	kama	kama
+37	237	kama	kama kamo kamawa kamewa kamawar kamawarsa kamewar
 38	238	kwana	kwana kwanaki kwanan kwanakin kwanakinsa kwanansu kwananta kwanansa kwanana kwanar kwananka kwananmu kwanakinta kwanakinsu kwanarsa
 39	239	fari	farin farar fari fararen farare farina farinsa
 40	240	waƙa	waƙa waƙar waƙoƙin waƙoƙi waƙoƙinsa waƙana waƙarsa waƙoƙina waƙoƙinta waƙan waƙarta waƙoƙinsu waƙata waƙarki waƙoƙinka waƙarsu waƙanta waƙoƙinki
-41	241	rubuta	rubuta rubutan
+41	241	rubuta	rubuta rubutan rubutawa
 42	242	riƙa	riƙe riƙa riƙi
 43	243	min	min
 44	244	kuwa	kuwa
-45	245	littafi	littafin littafi littattafai littattafan littafai littafinsa littafan littafinta littattafansa littafina littattafansu littafinka littattafanta littafinku littafinsu littafansa littafaina littafansu littattafaina littattafanku littafanta
+45	245	littafi	littafin littafi littattafai littattafan littafai littafinsa littafan littafinta littattafansa littafina littattafansu littafinka littattafanta littafinku littafinsu littafansa littafaina littafansu littattafaina littattafanku littafanta litattafai litattafan littatafai littatafan litattafansa litattafaina litattafanmu litattafanta litattafansu
 46	246	taimaka	taimaka taimake taimaki
 47	247	jiki	jiki jikin jikinsa jikinta jikinsu jikina jikinka jikinmu jikinki jikunan jikinku jikunansu jikuna jikunanmu
 48	248	mace	mace matan macen matarsa matata matarka matansu matansa matanmu matana matanku matanta matarsu
-49	249	aure	aure auren aurensu aurenta aurensa aurenka aurenku aurena aurarrakinmu aurenmu aurarrakin
+49	249	aure	aure auren aurensu aurenta aurensa aurenka aurenku aurena aurarrakinmu aurenmu aurarrakin auran auranka auransa auransu
 50	250	mana	mana
-51	251	tsoho	tsohon tsohuwar tsoffin tsofaffin tsofaffi tsoho tsoffi tsohuwarta
-52	252	kamfani	kamfanin kamfani kamfanoni kamfanonin kamfaninsa kamfaninmu kamfaninta kamfaninku kamfaninsu kamfaninka kamfanoninsa kamfanoninsu kamfanoninmu kamfanoninta
+51	251	tsoho	tsohon tsohuwar tsoffin tsofaffin tsofaffi tsoho tsoffi tsohuwarta tsaffin tsaffi
+52	252	kamfani	kamfanin kamfani kamfanoni kamfanonin kamfaninsa kamfaninmu kamfaninta kamfaninku kamfaninsu kamfaninka kamfanoninsa kamfanoninsu kamfanoninmu kamfanoninta kamfanina
 53	253	ɗaki	ɗakin ɗaki ɗakunan ɗakuna ɗakinsa ɗakina ɗakinta ɗakinmu ɗakinka ɗakunanmu ɗakunansu ɗakinsu ɗakunansa ɗakinki
 54	254	laifi	laifi laifin laifuka laifukan laifinsa laifuffuka laifina laifinsu laifukansu laifuffukan laifinta laifukansa laifukanta laifinka laifuffukana laifuffukansa laifinku laifuffukansu laifukanku laifukar
 55	255	baki	bakin baki bakinsa bakinsu bakina bakinka bakunan bakunansu bakinta bakinmu bakuna bakinku bakinki
-56	256	harka	harkokin harkar harka harkoki harkokinsu harkokinsa harkokinta harkan harkokinmu harkarsu harkarsa harkarta harkarka harkokinka
+56	256	harka	harkokin harkar harka harkoki harkokinsu harkokinsa harkokinta harkan harkokinmu harkarsu harkarsa harkarta harkarka harkokinka harkokina harkata
 57	257	muka	muka
-58	258	kowane	kowane kowanensu kowanen kowanenmu
-59	259	kula	kula
-60	260	jam'iyya	jam'iyyar jam'iyya jam'iyyarsa jam'iyyarsu jam'iyyarmu jam'iyyarta jam'iyyarka jam'iyyarku jam'iyyoyin jam'iyyata
+58	258	kowane	kowane kowanensu kowanen kowanenmu kowacce kowani
+59	259	kula	kula kulan
+60	260	jam'iyya	jam'iyyar jam'iyya jam'iyyarsa jam'iyyarsu jam'iyyarmu jam'iyyarta jam'iyyarka jam'iyyarku jam'iyyoyin jam'iyyata jam'iyar jam'iyarsa jam'iyarta
 61	261	koma	koma komar koman komarsu komarta
 62	262	faru	faru farun
 63	263	wato	wato
-64	264	kafa	kafa kafofin kafar kafata kafofi kafarmu kafanta kafana
+64	264	kafa	kafa kafofin kafar kafata kafofi kafarmu kafanta kafana kafawa kafawar kafawarsa kafawarsu
 65	265	kusa	kusa
 66	266	fiye	fiye
 67	267	addini	addini addinin addinai addinan addininsa addininsu addininmu addininta addinansu addininku addininka addinina addinanmu
-68	268	dukka	dukkan dukkansu dukkanmu dukka dukkanku dukkanta dukkanka
-69	269	ƙari	ƙarin ƙari
+68	268	dukka	dukkan dukkansu dukkanmu dukka dukkanku dukkanta dukkanka dukkannin dukkanninsu dukana dukar dukkaninsun
+69	269	ƙari	ƙarin ƙari ƙarina
 70	270	zamani	zamani zamanin zamaninsa zamaninmu zamaninka zamaninta zamaninsu
 71	271	dare	dare daren darensa
 72	272	daidai	daidai daidain
 73	273	ma'aikata	ma'aikatan ma'aikata ma'aikatar ma'aikatun ma'aikatansu ma'aikatu ma'aikatansa ma'aikatanmu ma'aikatanta ma'aikatana ma'aikatanku ma'aikatarta ma'aikatarsa ma'aikatunta ma'aikatanka ma'aikatarku ma'aikatarmu ma'aikatunmu ma'aikatarsu ma'aikatunsa ma'aikatunsu
-74	274	wancan	wancan
-75	275	gasa	gasar gasa gasan gasarsa gasarsu gasarta gasana
+74	274	wancan	wancan wancen
+75	275	gasa	gasar gasa gasan gasarsa gasarsu gasarta gasana gasawa gasawar
 76	276	kuna	kuna
-77	277	tsammani	tsammanin tsammani tsammaninsu tsammaninsa tsammaninku tsammaninta
+77	277	tsammani	tsammanin tsammani tsammaninsu tsammaninsa tsammaninku tsammaninta tsammanina
 78	278	gwamna	gwamnan gwamna gwamnonin gwamnoni gwamnar gwamnanta gwamnanmu gwamnoninsu gwamnansu gwamnansa gwamnoninsa gwamnoninmu gwamnanku
-79	279	shirya	shirya shiryan
+79	279	shirya	shirya shiryan shiryawa shiryawar
 80	280	dalili	dalilin dalili dalilai dalilan dalilinsa dalilansu dalilinsu dalilina dalilanta dalilinta dalilaina dalilinka dalilinki dalilinku dalilinmu dalilansa
-81	281	biya	biya biyan biyansu biyansa biyanka biyanta biyarta biyata
+81	281	biya	biya biyan biyansu biyansa biyanka biyanta biyarta biyata biyawa
 82	282	tsawo	tsawon tsawo tsawonsa tsawonsu tsawonta
 83	283	waje	waje
-84	284	shafi	shafi shafin shafinsa shafinta shafina shafinka shafinsu shafinmu shafuffuka shafuffukan
-85	285	fito	fito fiton
-86	286	buga	buga
+84	284	shafi	shafi shafin shafinsa shafinta shafina shafinka shafinsu shafinmu shafuffuka shafuffukan shafukana
+85	285	fito	fito fiton fitowata
+86	286	buga	buga bugi bugewa
 87	287	sarki	sarki sarkin sarakuna sarakunan sarkinta sarkinsu sarakai sarakunanmu sarakunansu sarakunansa sarkinsa sarakunanta sarakan
 88	288	mahaifi	mahaifinsa mahaifinta mahaifiyarsa mahaifin mahaifina mahaifiyata mahaifiyarta mahaifiyar mahaifa mahaifiyarsu mahaifi mahaifiya mahaifinka mahaifiyarka mahaifinsu mahaifar mahaifinmu mahaifansa mahaifarsa mahaifana mahaifinki mahaifanta mahaifanka mahaifanku mahaifarku mahaifinku mahaifan mahaifiyarmu mahaifata mahaifanki mahaifiyarki mahaifarta mahaifanmu mahaifarsu mahaifansu
 89	289	mamaki	mamaki mamakin mamakina mamakinsa mamakinsu mamakinta
 90	290	kare	kare karen karnuka karnukan karensu karensa karenka karenmu karnukansu karena karenki karenta
-91	291	ɓata	ɓata ɓace ɓatan ɓatanta
+91	291	ɓata	ɓata ɓace ɓatan ɓatanta ɓacewar ɓatawa ɓacewa ɓacewarsu ɓacewarta ɓacewarsa ɓatawar
 92	292	tsaro	tsaro tsaron tsaronsa tsaronka tsaronsu tsaronta
 93	293	biyar	biyar
 94	294	sakamako	sakamakon sakamako sakamakonsa sakamakonta sakamakonsu sakamakonmu
 95	295	alama	alama alamar alamun alamu alamomin alamomi alamanta alaman alamominku alamominta alamarsu alamunsu alamarta alamarsa alamunsa alamunta alamominsu
-96	296	yarda	yarda yarje yardan
+96	296	yarda	yarda yarje yardan yardar yardarsa yardarsu yardarki yardarta yardarmu
 97	297	gaban	gaban gabansa gabanta gabansu gabanka gabanmu gabanki gabanku
 98	298	ƴa	ƴan ƴaƴa ƴa ƴaƴan ƴar ɗiyar ƴaƴansu ɗiya ƴaƴanta ƴaƴansa ƴaƴana ɗiyata ɗiyarta ƴaƴanmu ɗiyarsa ƴaƴar ƴaƴanka ɗiyarsu ɗiyarka ƴarsa ƴarta ƴaƴanki ɗiyanta ɗiyan ɗiyanku ɗiyanmu ƴansu ƴanta ƴarsu ƴaƴanku ƴarka ƴaƴata ƴarmu ƴaƴarsa ƴanmu ƴarku ƴansa ƴaƴarta ƴanku
 99	299	kuka	kuka kukan kukansu kukar kukana kukanmu kukansa kukanta
-100	300	gano	gano
+100	300	gano	gano ganowa ganowar ganowarta

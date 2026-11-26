@@ -3,43 +3,43 @@
 3	703	kulawa	kulawa kulawar kulawarsa kulawarsu kulawarta kulawarku kulawan
 4	704	farashi	farashin farashi farashinsa farashinsu farashinta farashinmu
 5	705	tallafi	tallafin tallafi tallafinka tallafinsa tallafinku tallafinta tallafinsu
-6	706	watsa	watsa watsar watsan
+6	706	watsa	watsa watsar watsan watsawa watse watsu watsewa watsuwa watsawar watsewar watsuwar watsuwarta watsawarsu watsewarta
 7	707	bayanan	bayanan bayananka bayanansu bayananta bayanansa bayananku
-8	708	tsere	tseren tsere tserensa tserenta tserena
-9	709	gaggawa	gaggawa gaggawar gaggawan
+8	708	tsere	tseren tsere tserensa tserenta tserena tserewa tserewar tserewarsa tserewarsu
+9	709	gaggawa	gaggawa gaggawar gaggawan gaggawana
 10	710	dogara	dogara dogaran
 11	711	adadi	adadin adadi adadinsu adadinsa adadan adadinta
 12	712	wataƙila	wataƙila
 13	713	umarni	umarnin umarni umarninsa umarninta umarninka umarninsu umarninmu
 14	714	hula	hula hular hularsa hularta hulansa hulunanku hulunansu huluna hularku fula hulunan hulunansa hularsu
 15	715	koyi	koyi koyin koyinta
-16	716	wakilta	wakiltar wakilta wakiltarsu wakiltarsa wakiltan wakiltarta
+16	716	wakilta	wakiltar wakilta wakiltarsu wakiltarsa wakiltan wakiltarta wakilce
 17	717	wasanni	wasanni wasannin wasanninsu wasanninta wasanninsa wasanninmu
 18	718	ƙwayoyi	ƙwayoyin ƙwayoyi ƙwayoyinsa
-19	719	sauraro	sauraro sauraron sauraronmu sauraronsa sauraronta sauraronki sauraronku sauraronsu
+19	719	sauraro	sauraro sauraron sauraronmu sauraronsa sauraronta sauraronki sauraronku sauraronsu saurarona
 20	720	kifi	kifi kifin kifaye kifayen kifinsa
-21	721	kirki	kirki kirkin
+21	721	kirki	kirki kirkin kirkina
 22	722	rabi	rabin rabi rabinsa rabinta rabinsu
 23	723	faɗawa	faɗawa faɗawar
 24	724	aji	aji ajin ajinmu azuzuwan ajujuwa azuzuwa ajujuwan ajinku ajinsa azuzuwansa ajinta ajinsu azuzuwanta
-25	725	gaji	gaji gajin
+25	725	gaji	gaji gajin gaje gajiwar
 26	726	halarci	halarci halarcin halarcinsa
 27	727	matakan	matakan matakansa matakanmu matakanta
 28	728	shugabanci	shugabanci shugabancin shugabancinsa shugabancinsu shugabancinta shugabancina shugabancinka shugabancinku shugabancinmu
 29	729	yanar	yanar
 30	730	kunya	kunya kunyar kunyata kunyarka kunyarsa kunyarta kunyansa
-31	731	sarrafa	sarrafa sarrafar
+31	731	sarrafa	sarrafa sarrafar sarrafawa sarrafawar
 32	732	ila	ila
-33	733	rukuni	rukunin rukuni rukuninsu rukuninta rukuninsa
-34	734	zuba	zuba zube zuban
+33	733	rukuni	rukunin rukuni rukuninsu rukuninta rukuninsa rukunonin rukunoni rukunoninsu
+34	734	zuba	zuba zube zuban zubawa
 35	735	gado	gado gadon gadaje gadonsa gadonta gadonsu gadajen gadonku gadajensu gadonmu
 36	736	tauraro	tauraron taurari tauraro taurarin taurarinsa tauraronsa taurarinmu taurarinta tauraronta
-37	737	haɓaka	haɓaka haɓakar haɓakarsa haɓakarsu haɓakarta
+37	737	haɓaka	haɓaka haɓakar haɓakarsa haɓakarsu haɓakarta haɓakawa haɓɓaka haɓɓakar haɓakawar haɓɓakawa haɓakawarsa haɓakawarsu
 38	738	amincewa	amincewa amincewar amincewarsu amincewarsa amincewarta
 39	739	hawa	hawa
-40	740	zato	zaton zato zatonka zatonsa
+40	740	zato	zaton zato zatonka zatonsa zatona
 41	741	kariya	kariya kariyar kariyarka kariyarsa kariyan kariyarsu kariyanta
-42	742	rediyo	rediyo rediyon rediyonmu rediyoyin rediyonta rediyonsa rediyoyi
+42	742	rediyo	rediyo rediyon rediyonmu rediyoyin rediyonta rediyonsa rediyoyi radiyo radiyon redio redion radiyonku
 43	743	buƙaci	buƙaci
 44	744	dangantaka	dangantaka dangantakar dangantakarsu dangantakarsa dangantakan dangantakarku dangantakarta dangantakarmu dangantakarki dangantakata
 45	745	kyawu	kyawun kyawunta kyawu kyawunsa kyawunki kyawunsu
@@ -49,24 +49,24 @@
 49	749	haɗuwa	haɗuwa haɗuwar haɗuwarmu haɗuwan haɗuwarsu haɗuwarsa haɗuwarta
 50	750	galibi	galibi galibin galibinsu galibinku galibinsa
 51	751	ɗaliba	ɗaliban ɗaliba ɗalibar ɗalibarta ɗalibarsa ɗalibarsu
-52	752	ƙwarewa	ƙwarewa ƙwarewar ƙwarewarsa ƙwarewarta ƙwarewarsu ƙwarewarmu
-53	753	shakatawa	shakatawa shakatawar shakatawan shakatawarsa shakatawarta
+52	752	ƙwarewa	ƙwarewa ƙwarewar ƙwarewarsa ƙwarewarta ƙwarewarsu ƙwarewarmu ƙwarewarka ƙwarewata
+53	753	shakatawa	shakatawa shakatawar shakatawan shakatawarsa shakatawarta shakata
 54	754	hasara	asarar asara hasara hasarar asararsu asararsa hasarori
 55	755	masani	masanin masani masaninsa
 56	756	adalci	adalci adalcin adalcinsu
 57	757	kishi	kishin kishi kishinta kishinsu kishinsa
 58	758	ziyara	ziyara ziyarar ziyararsa ziyararta ziyararsu ziyararmu ziyararka
-59	759	koyar	koyar
+59	759	koyar	koyar koyawa koyaswa koyaswar koyawar koyawan koyaswarsa
 60	760	tsira	tsira tsiran tsiransu tsirar tsirarmu
-61	761	fushi	fushi fushin fushinta fushinsa fushinsu fushinka fushinku
-62	762	niyya	niyyar niyya niyyarsa niyyarsu niyyarta niyyan niyyarmu niyyata
+61	761	fushi	fushi fushin fushinta fushinsa fushinsu fushinka fushinku fushina
+62	762	niyya	niyyar niyya niyyarsa niyyarsu niyyarta niyyan niyyarmu niyyata niyar niyarta
 63	763	izini	izinin izini iznin izni izininka izininsa izininsu izininta
-64	764	inji	injin inji injinsa injinsu
-65	765	bishiya	bishiyar bishiyoyi bishiya bishiyoyin bishiyarta bishiyoyinsa
+64	764	inji	injin inji injinsa injinsu injina injinan injuna injunan injinanku injinansa injinanta injunansu
+65	765	bishiya	bishiyar bishiyoyi bishiya bishiyoyin bishiyarta bishiyoyinsa bishiyu bishiyun
 66	766	daɗe	daɗe
 67	767	illa	illa illar illolin illata illoli illarsa illolinsa illolinsu illarta illolinta
 68	768	ɗabi'a	ɗabi'a ɗabi'ar ɗabi'un ɗabi'u ɗabi'unsu ɗabi'unta ɗabi'unka ɗabi'an ɗabi'arka ɗabi'unsa ɗabi'arsu ɗabi'unmu ɗabi'arsa ɗabi'arta
-69	769	ƙarya	ƙarya ƙaryar ƙaryarsa
+69	769	ƙarya	ƙarya ƙaryar ƙaryarsa ƙaryarta
 70	770	runduna	rundunar runduna rundunarsa rundunata rundunarsu rundunarta rundunan rundunansu rundunanta
 71	771	fassara	fassara fassarar fassarorin fassarori fassararta fassararsu fassararsa fassarorinsa fassararmu fassarorinsu fassarorinta fassaran fassarata
 72	772	ciniki	ciniki cinikin cinikinmu cinikinku cinikinta cinikinsa cinikinsu
@@ -77,11 +77,11 @@
 77	777	tawaga	tawagar tawagarsa tawaga tawagarta tawagarmu tawagarsu tawagan
 78	778	tsibiri	tsibirin tsibiri tsibiran tsibirai tsibirinsa tsibiranta tsibiransu tsibirinsu
 79	779	bazara	bazara bazarar bazaran
-80	780	kwashe	kwashe kwashen
+80	780	kwashe	kwashe kwashen kwashewa kwashewar
 81	781	nasu	nasu
 82	782	hutu	hutu hutun hutunmu hutunsa hutunku hutuna hutunsu hutunta
 83	783	karya	karya karyan karyarta
-84	784	mita	mita
+84	784	mita	mita mitocin mitar mitarsa
 85	785	gwagwarmaya	gwagwarmaya gwagwarmayar gwagwarmayarmu gwagwarmayarta gwagwarmayarsa gwagwarmayarsu gwagwarmayan gwagwarmayanta
 86	786	hatsari	hatsari hatsarin hatsarinsa haɗarurruka haɗarurrukan haɗarinsa hatsarurruka hatsarurrukan hatsarinsu haɗarinsu haɗarinta
 87	787	barazana	barazana barazanar barazanarsa barazanarsu barazanarta
@@ -90,7 +90,7 @@
 90	790	sabida	sabida
 91	791	ainihi	ainihin ainihi ainihinsa ainihinsu ainihinta
 92	792	sati	sati satin
-93	793	kwanta	kwanta kwantar kwantan kwantanta
+93	793	kwanta	kwanta kwantar kwantan kwantanta kwantawa kwantawar
 94	794	mini	mini
 95	795	sadarwa	sadarwa sadarwar sadarwarmu sadarwan sadarwarsa sadarwarsu sadarwarka sadarwarta
 96	796	rasu	rasu

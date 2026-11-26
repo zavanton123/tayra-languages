@@ -1,100 +1,100 @@
-1	1601	warkar	warkar
-2	1602	kusanci	kusanci kusancin kusancinsa kusancinka kusancinku kusancinmu kusancinta kusancinsu
-3	1603	almara	almara almarar almararsa almaran almararta
-4	1604	waaye	waaye
-5	1605	ƙawance	ƙawancen ƙawance ƙawancenta
-6	1606	kogo	kogon kogo kogona kogonsa kogonta
-7	1607	yaudara	yaudara yaudare yaudari
-8	1608	kwamanda	kwamandan kwamandojin kwamanda kwamandansu kwamandojinta kwamandoji kwamandansa kwamandojinsa kwamandanta kwamandojinsu kwamandar
-9	1609	iyo	iyo
-10	1610	aƙida	aƙidar aƙida aƙidarsa aƙidarsu aƙidarta
-11	1611	ƙamshi	ƙamshin ƙamshi ƙamshinta
-12	1612	takawa	takawa takawar
-13	1613	shaguna	shaguna shagunan shagunansu shagunansa shagunanta
-14	1614	allo	allon allo allonta allonsu
-15	1615	masauki	masaukin masauki masaukinsa masaukai masaukan masaukinka masaukinmu masaukinta masaukinsu
-16	1616	face	face
-17	1617	jam'iyar	jam'iyar jam'iyarsa jam'iyarta
-18	1618	hirar	hirar hirarsu hirarsa hirarmu hirarta
-19	1619	tsani	tsani tsanin
-20	1620	taki	taki takin takinsu
-21	1621	ƙimar	ƙimar ƙimarsa ƙimarku ƙimarsu
-22	1622	fitacce	fitaccen fitacce
-23	1623	farfajiya	farfajiyar farfajiya farfajiyarsu farfajiyarsa farfajiyarta
-24	1624	amarya	amarya amaryar amaryarsa amaryarmu amare amaryarsu amaryarta
-25	1625	tona	tona
-26	1626	mutumi	mutumi
-27	1627	tiyata	tiyata tiyatar tiyatan
-28	1628	nadama	nadama nadamar nadaman nadamarsa nadamarmu
-29	1629	hayar	hayar hayarsu hayarsa hayarta
-30	1630	ƙirar	ƙirar ƙirarsu ƙirarta ƙirarsa
-31	1631	leƙen	leƙen
-32	1632	naira	naira nairori nairar nairorin
-33	1633	sutura	sutura suturar suturarsu suturarta
-34	1634	kacal	kacal
-35	1635	boko	boko bokon
-36	1636	ƙwa	ƙwa
-37	1637	ɗanye	ɗanyen ɗanye ɗanyar ɗanya ɗanyan ɗanyun
-38	1638	karɓuwa	karɓuwa karɓuwar karɓuwan karɓuwarsu
-39	1639	rijiya	rijiya rijiyar rijiyoyin rijiyoyi rijiyoyinku rijiyan rijiyarsa rijiyoyinsa
-40	1640	auna	auna
-41	1641	gidauniya	gidauniyar gidauniya gidauniyarsa gidauniyarta gidauniyan
-42	1642	makulli	makullin makullan makullai makullanta makullinsa makullinta makullanmu makulli
-43	1643	jigila	jigilar jigila jigilan jigilarsu jigilarta jigilarsa
-44	1644	ɗanɗana	ɗanɗana ɗanɗanar
-45	1645	rantsuwa	rantsuwa rantsuwar rantsuwarsu rantsuwan rantsuwarsa
-46	1646	zaɓuka	zaɓukan zaɓuka
-47	1647	basuwa	basuwa
-48	1648	saamu	saamu saamun
-49	1649	idanuwa	idanuwa idanuwan idanuwanta idanuwansu idanuwansa idanuwanmu
-50	1650	masaniya	masaniya masaniyar masaniyan masaniyarta
-51	1651	wari	wari warin
-52	1652	tsige	tsige
-53	1653	sharri	sharri sharrin sharrinsu sharrinsa
-54	1654	tsokaci	tsokaci tsokacin tsokacinta
-55	1655	yawu	yawun yawu yawunsu yawunsa yawunta
-56	1656	mataimakiyar	mataimakiyar mataimakiyarsa mataimakiyarta mataimakiyarsu
-57	1657	lahira	lahira lahirarsu
-58	1658	ranaku	ranakun ranaku
-59	1659	ƙabilanci	ƙabilanci ƙabilancin ƙabilancinsu
-60	1660	muradu	muradun muradu muradunsa muradunsu muradunta
-61	1661	zarce	zarce zarcen
-62	1662	maƙwabta	maƙwabta maƙwabtanta maƙwabtan maƙwabtanmu maƙwabtansa maƙwabtansu
-63	1663	jinkiri	jinkiri jinkirin jinkirinsa
-64	1664	gafara	gafara gafarar gafararka gafararku gafararsu gafaran gafararta
-65	1665	faransanci	faransanci faransancin
-66	1666	kwato	kwato
-67	1667	mashaya	mashaya mashayar mashayarka mashayan mashayarsa
-68	1668	kowacce	kowacce
-69	1669	tallafa	tallafa
-70	1670	rantsar	rantsar
-71	1671	kek	kek
-72	1672	huta	huta
-73	1673	ɗina	ɗina
-74	1674	kaman	kaman kamanta kamansu
-75	1675	cikas	cikas
-76	1676	kolin	kolin kolinsa kolinsu kolinta
-77	1677	dindindin	dindindin
-78	1678	jahar	jahar
-79	1679	rigima	rigima rigimar rigiman rigimarsa rigimarsu rigimarta
-80	1680	hujjoji	hujjoji hujjojin hujjojinsa hujjojinka hujjojinsu hujjojinta
-81	1681	tukunna	tukunna
-82	1682	fatin	fatin
-83	1683	rabuwa	rabuwa rabuwar rabuwarsu rabuwarta
-84	1684	kafiri	kafirai kafiran kafiri
-85	1685	bankuna	bankunan bankuna bankunanmu bankunansu bankunansa bankunanta
-86	1686	dubanni	dubannin dubanni
-87	1687	gazawa	gazawar gazawa gazawarsu gazawarka gazawarsa gazawarta
-88	1688	zura	zura
-89	1689	da'awa	da'awar da'awa da'awarsa da'awarsu da'awarta da'awarku
-90	1690	ƙwarya	ƙwarya ƙwaryar
-91	1691	haya	haya
-92	1692	farka	farka farkar
-93	1693	nutsuwa	nutsuwa nutsuwar nutsuwarka
-94	1694	zobe	zoben zobe zobba zobensa zobenta
-95	1695	farfaɗo	farfaɗo
-96	1696	ameen	ameen
-97	1697	hakanan	hakanan
-98	1698	gwargwado	gwargwadon gwargwado
-99	1699	ɓalle	ɓalle
-100	1700	ƙanƙanta	ƙanƙanta ƙanƙantar ƙanƙantan ƙanƙantarsa ƙanƙantarta ƙanƙantarsu
+1	1601	auku	auku aukuwar aukuwa auka afku afkuwar afkuwa aukawa afkuwarsa aukan aukuwan
+2	1602	haya	hayar haya hayan hayarsu hayarsa hayansu hayanta hayarta
+3	1603	zarce	zarce zartar zarcewa zarta zarcewar
+4	1604	umarci	umarci umurce umurci umarce umarcin
+5	1605	nutsuwa	nutsuwa natsuwa nutsuwar natsuwar nutsuwarka natsuwarsa
+6	1606	maƙwabci	maƙwabta maƙobtan maƙobtar maƙwabcina maƙwabtanta maƙwabtan maƙwabcin maƙobta maƙwabcinsa maƙwabtanmu maƙwabtansa maƙwabtansu maƙwabcinka maƙwabtar maƙwabci maƙwabcinta maƙwabcinmu maƙobtanta maƙwabtana maƙwabcinku maƙwabcinsu
+7	1607	harafi	haruffa harafin harufa haruffan harafi harufan haruffansa harafinsa haruffanta
+8	1608	fafata	fafata fafatawa fafatawar fafatawarsa fafatar fafatawan fafatawarta
+9	1609	wanzu	wanzu wanzuwa wanzuwar wanzuwan wanzuwata wanzuwarmu wanzuwarsu wanzuwarka wanzuwarsa wanzuwarta
+10	1610	dimokuraɗiyya	dimokuraɗiyya dimokraɗiyya demokraɗiyya dimokiradiyya dimokuraɗiyyar demokaraɗiyya dimokaraɗiyya dimokuradiya dimokraɗiyyar dimokaraɗiyyar dimokuraɗiyyarmu dimokuradiyar demokraɗiyyar dimokraɗiyyarmu
+11	1611	yaudara	yaudara yaudarar yaudare yaudari yaudararsa yaudararsu yaudararta yaudararmu
+12	1612	sadu	sadu saduwa saduwar saduwarmu sadun saduwan saduwarsu
+13	1613	huta	huta hutawa hutawarta hutan
+14	1614	burodi	burodi biredi burodin biredin burodinku burodinsa
+15	1615	gagarumi	gagarumi gagarumin gagarumar gagaruma
+16	1616	azabtar	azabtar azabtarwa azabtarwar azabtarwan azabtarwarsu
+17	1617	rigima	rigima rigingimun rigimar rigingimu rigiman rigimarsa rigimarsu rigimarta
+18	1618	farauta	farauta farautar farautarsu farautarsa
+19	1619	tsana	tsana tsane tsanar tsanarta
+20	1620	ma'adinai	ma'adinai ma'adinan ma'adanai ma'adanan
+21	1621	muradi	muradun muradin muradu muradunsa muradunsu muradi muradinsa muradunta muradinta muradinsu muradinmu
+22	1622	busa	busawa busa busawar
+23	1623	ɓera	ɓera ɓeraye ɓeran berayen
+24	1624	yawaita	yawaita yawaitar yawaitan yawaitarsu yawaitawa
+25	1625	karrama	karrama karramawa karramawar karramawarta karramawarsa karramawarsu
+26	1626	sharaɗi	sharuɗɗan sharaɗi sharuɗan sharuɗɗa sharaɗin sharuɗa sharuɗɗanta sharuɗɗansa sharuɗɗansu sharuɗanta
+27	1627	kafu	kafuwar kafu kafuwa kafuwarta kafuwarsu kafuwan kafuwarsa kafun
+28	1628	ruhi	ruhin ruhun ruhi ruhu ruhuna ruhunsa ruhinta ruhinsu ruhinka ruhinsa ruhunsu ruhunta
+29	1629	hedkwata	hedkwatar hedikwatar hedkwata hedkwatarta hedkwatarsu hedkwatarsa hedikwatarta hedikwatarsa hedikwatarsu
+30	1630	maimaita	maimaita maimaitawa maimaitawar maimaitawarsa maimaitawarsu
+31	1631	kyaftin	kyaftin kaftin
+32	1632	sumbace	sumbace sumbaci
+33	1633	sasanta	sasanta sasantawa sasantawar
+34	1634	faɗakar	faɗakar faɗakarwa faɗakarwar faɗakarwarmu faɗakarwarsa
+35	1635	hayaƙi	hayaƙi hayaki hayaƙin hayakinsu hayakinmu hayakinsa hayakinta
+36	1636	bita	bita bitar bitan bitarsa bitarta bitarsu
+37	1637	warke	warke warkewa warkewar warkewarta
+38	1638	afuwa	afuwa afwa afwan afuwar afuwarka afuwan afuwarsu
+39	1639	farka	farka farkawa farkawar farkar farkawarsa farkawarsu farkawansu
+40	1640	rago	rago raguna ragon ragunan ragonta
+41	1641	guiwa	guiwa guiwar gwuiwa gwuiwar gwuiwan guiwansu gwuiwarsu gwuiwarta guiwarta gwuiwarsa
+42	1642	jajirce	jajircewa jajirce jajircewar jajircewarta jajircewarsa jajircewarka jajircewarsu jajircewan jajircewarmu
+43	1643	allo	allon allo allunan alluna allonta allonsu allunansu
+44	1644	oda	oda odar odarta odarsa odansa
+45	1645	warkar	warkar warkarwa warkarwar
+46	1646	fa'ida	fa'ida fa'idar fa'idodi fa'idodin fa'idoji fa'idojin fa'idarsa fa'idodinsa fa'idarsu fa'idodinsu fa'idojinsa
+47	1647	ƙyama	ƙyama ƙyamar ƙyamarsu ƙyamarsa ƙyamata ƙyamarta
+48	1648	sauƙaƙa	sauƙaƙe sauƙaƙa sauƙaƙan sauƙaƙawa sauƙaƙewa sauƙaƙewar
+49	1649	tsige	tsige tsigewar tsigewa
+50	1650	kewa	kewar kewa kewarsu kewarta kewan kewarki kewarka kewarsa
+51	1651	gamu	gamu gamuwa gamuwar gamuwarta
+52	1652	aƙida	aƙidar aƙida aƙidun aƙidarsa aƙidarsu aƙidarta
+53	1653	tuba	tuba tubar tuban tubansa tubarsa tubarsu
+54	1654	mamaya	mamaya mamayar mamayewa mamayewar mamayarsu mamayarsa mamayewarsu
+55	1655	ginshiƙi	ginshiƙin ginshiƙi ginshiƙan ginshiƙai ginshiƙinsu ginshiƙansa ginshiƙanta ginshiƙinsa ginshiƙinta
+56	1656	sallama	sallama sallame sallamar sallamata sallamarsa sallamarta sallamewa
+57	1657	ƙamshi	ƙamshin ƙamshi ƙamshinsa ƙamshinsu ƙamshinta
+58	1658	auna	auna aunawa
+59	1659	kadara	kadarorin kadarori kadarar kadara kaddarorin kaddarori kadarorinta kadarorinsu kadarorinsa kaddarorinsu kaddarorinsa kadararsa kadararta kadarorinmu
+60	1660	liman	limamin limaman limamai liman limamansu limamanta limaminsa limamansa
+61	1661	tsokaci	tsokaci tsokacin tsokacina tsokacinta
+62	1662	iyo	iyo iyon
+63	1663	ƙawance	ƙawancen ƙawance ƙawancenta ƙawancensu ƙawancensa ƙawancenmu
+64	1664	farfaɗo	farfaɗo farfaɗowar farfaɗowarta
+65	1665	nutse	nutse nutsewa nitsewa nitse nutsewar nitsewar nutsewarsu
+66	1666	kusanci	kusanci kusancin kusancinsa kusancinka kusancinku kusancinmu kusancinta kusancinsu
+67	1667	almara	almara almarar almararsa almaran almararta
+68	1668	ilmantar	ilmantarwa ilmantar ilimantar ilimantarwa ilmantarwar ilmantarwarsa ilmantarwarsu
+69	1669	sutura	sutura suturar suturanta suturarsu suturata suturarta
+70	1670	kogo	kogon kogo kogona kogonsa kogonta
+71	1671	keɓe	keɓe keɓewa keɓewar keɓewarsa keɓewarsu keɓewarta
+72	1672	kwamanda	kwamandan kwamandojin kwamanda kwamandansu kwamandojinta kwamandoji kwamandansa kwamandojinsa kwamandanta kwamandojinsu kwamandar
+73	1673	tona	tona tonawa
+74	1674	masauki	masaukin masauki masaukinsa masaukai masaukan masaukinka masaukinmu masaukinta masaukinsu
+75	1675	face	face
+76	1676	ɗanɗana	ɗanɗana ɗanɗanar ɗanɗanawa ɗanɗanan
+77	1677	tsani	tsani tsanin
+78	1678	kwato	kwato kwatowa
+79	1679	taki	taki takin takinsu
+80	1680	amarya	amarya amaryar amaryarsa amaryarmu amare amaryarsu amaryarta
+81	1681	farfajiya	farfajiyar farfajiya farfajiyarsu farfajiyarsa farfajiyarta
+82	1682	tiyata	tiyata tiyatar tiyatan
+83	1683	nadama	nadama nadamar nadaman nadamarsa nadamarmu
+84	1684	ƙira	ƙira ƙirar ƙirarsu ƙirarta ƙirarsa
+85	1685	leƙen	leƙen
+86	1686	naira	naira nairori nairar nairorin
+87	1687	kacal	kacal
+88	1688	ratsa	ratsa ratsawa ratsan ratsawar
+89	1689	boko	boko bokon
+90	1690	karɓuwa	karɓuwa karɓuwar karɓuwan karɓuwarsa karɓuwarsu
+91	1691	ɗanye	ɗanyen ɗanye ɗanyar ɗanya ɗanyan ɗanyun
+92	1692	tennis	tennis tenis tanis
+93	1693	rijiya	rijiya rijiyar rijiyoyin rijiyoyi rijiyoyinku rijiyan rijiyarsa rijiyoyinsa
+94	1694	gidauniya	gidauniyar gidauniya gidauniyarsa gidauniyarta gidauniyan
+95	1695	jigila	jigilar jigila jigilan jigilarsu jigilarta jigilarsa jigilarsata
+96	1696	makulli	makullin makullan makullai makullanta makullinsa makullinta makullanmu makulli
+97	1697	harsashi	harsashi harsashin harsasai harsasan harsasansu harsashinsu harsashinsa harsashinta
+98	1698	rantsuwa	rantsuwa rantsuwar rantsuwarsu rantsuwan rantsuwarsa
+99	1699	masaniya	masaniya masaniyar masaniyan masaniyarta
+100	1700	wari	wari warin

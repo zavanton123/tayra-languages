@@ -1,100 +1,100 @@
-1	3101	cututuka	cututuka cututukan cututukar
-2	3102	rungumar	rungumar rungumarsa rungumarta
-3	3103	gwanaye	gwanaye gwanayen gwanayenta
-4	3104	hakazalika	hakazalika
-5	3105	ɗinke	ɗinke
-6	3106	alawa	alawa alawar alawarku
-7	3107	cream	cream
-8	3108	taɓawa	taɓawa taɓawar
-9	3109	gora	gora
-10	3110	kwarjini	kwarjini kwarjinin kwarjininsa kwarjininta
-11	3111	fosta	fosta fostar
-12	3112	baɗi	baɗi
-13	3113	ƙazafi	ƙazafi ƙazafin
-14	3114	taliki	talikai taliki talikan talikin
-15	3115	tsaffi	tsaffin tsaffi
-16	3116	yalwa	yalwar yalwa yalwan yalwarsu
-17	3117	farfaganda	farfaganda farfagandar farfagandarsa
-18	3118	sujada	sujada sujadar
-19	3119	gwano	gwanon gwano
-20	3120	rarrafe	rarrafe
-21	3121	harhaɗa	harhaɗa
-22	3122	zago	zago zagon
-23	3123	almundahana	almundahana almundahanar
-24	3124	barkono	barkono barkonon
-25	3125	aiyuka	aiyuka aiyukan aiyukanta
-26	3126	awon	awon awonta
-27	3127	ɓangaranci	ɓangaranci
-28	3128	waƙanda	waƙanda
-29	3129	zuri'a	zuri'a zuri'ar zuri'arsa zuri'arta zuri'arsu
-30	3130	rumbu	rumbun rumbu rumbuna rumbunan rumbunansa rumbunsa
-31	3131	sila	silar sila
-32	3132	fid	fid
-33	3133	kankare	kankare
-34	3134	mulka	mulka mulkar mulkarsu mulkarta mulkan
-35	3135	fayil	fayil
-36	3136	al'adance	al'adance
-37	3137	naƙi	naƙi
-38	3138	shugabantar	shugabantar
-39	3139	tabbatacce	tabbataccen tabbatacce
-40	3140	kaishi	kaishi
-41	3141	kayatarwa	kayatarwa
-42	3142	maudu'in	maudu'in
-43	3143	jike	jike
-44	3144	atomatik	atomatik
-45	3145	haifarwa	haifarwa
-46	3146	dillalan	dillalan
-47	3147	kololuwar	kololuwar kololuwarta kololuwarsa kololuwarsu
-48	3148	jifa	jifa
-49	3149	maɗaurin	maɗaurin maɗaurinki
-50	3150	daraktoci	daraktoci daraktocin daraktocinsa daraktocinta daraktocinsu
-51	3151	shanye	shanye
-52	3152	gero	gero geron gerona
-53	3153	kirtani	kirtani kirtanin
-54	3154	raunata	raunata
-55	3155	tanadar	tanadar
-56	3156	tata	tata tatan
-57	3157	direkta	direkta direktar direktan
-58	3158	wacece	wacece
-59	3159	nishadantar	nishadantar
-60	3160	karyata	karyata
-61	3161	salama	salama salaman
-62	3162	batirin	batirin batirinsa
-63	3163	kuliyoyi	kuliyoyi kuliyoyin
-64	3164	shugabanin	shugabanin shugabaninmu
-65	3165	ɗebe	ɗebe
-66	3166	ɗumamar	ɗumamar
-67	3167	dumin	dumin duminsu duminsa
-68	3168	ihun	ihun ihunka
-69	3169	zanyi	zanyi
-70	3170	jabu	jabu jabun
-71	3171	sakandire	sakandire sakandiren sakandirensa sakandirenta
-72	3172	rangwame	rangwame rangwamen rangwamensu
-73	3173	musulunta	musulunta musuluntar musuluntarsa musuluntarsu musuluntarta
-74	3174	hattara	hattara
-75	3175	waiwaya	waiwaya waiwayar waiwayarsa waiwayarsu
-76	3176	washe	washe
-77	3177	mayya	mayya mayyar
-78	3178	haƙo	haƙo haƙon
-79	3179	batir	batir batura baturan
-80	3180	mumunan	mumunan
-81	3181	kaguwa	kaguwa kaguwar
-82	3182	hijra	hijra hijran hijrar
-83	3183	ganku	ganku
-84	3184	karkashe	karkashe
-85	3185	haskawa	haskawa
-86	3186	laka	laka lakan lakar lakansu
-87	3187	dafi	dafi dafin
-88	3188	casa'in	casa'in tis'in
-89	3189	jeka	jeka
-90	3190	rainon	rainon rainonsa
-91	3191	killace	killace
-92	3192	gudawa	gudawa
-93	3193	jahohi	jahohin jahohi jahohinsa jahohinsu jahohinta
-94	3194	kerkeci	kerkeci kerkecin
-95	3195	arewancin	arewancin arewancinsu
-96	3196	fatara	fatara fatarar
-97	3197	majina	majina
-98	3198	harbo	harbo
-99	3199	tayoyin	tayoyin tayoyinku tayoyinsa tayoyinsu tayoyinta
-100	3200	durƙusa	durƙusa durƙusar
+1	3101	tsegumi	tsegumi tsegumin
+2	3102	hayyacinta	hayyacinta
+3	3103	kurciya	kurciya kurciyar kurciyan
+4	3104	ladabtar	ladabtarwa ladabtar
+5	3105	cen	cen
+6	3106	ƙarata	ƙarata
+7	3107	ta'azzara	ta'azzara
+8	3108	ƙugi	ƙugi ƙugin
+9	3109	jakadiya	jakadiya jakadiyar
+10	3110	tsit	tsit
+11	3111	gaida	gaida gaidan
+12	3112	kamanceceniya	kamanceceniya kamanceceniyar kamanceceniyarsa kamanceceniyarsu
+13	3113	sito	sito siton
+14	3114	raunana	raunana raunanan raunanawar
+15	3115	makusanta	makusanta makusantansu makusantan makusantansa
+16	3116	maziyarta	maziyarta maziyartan maziyartansu
+17	3117	tirela	tirela tirelar tirelarsa
+18	3118	em	em
+19	3119	gayu	gayu
+20	3120	zufa	zufa zufar
+21	3121	gwammace	gwammace
+22	3122	ridda	ridda
+23	3123	shanya	shanya
+24	3124	hori	hori
+25	3125	tukun	tukun
+26	3126	muggan	muggan
+27	3127	gajiyawa	gajiyawa gajiyawar
+28	3128	shahararen	shahararen
+29	3129	gargaɗe	gargaɗe
+30	3130	mahaluƙi	mahaluƙi mahaluƙin
+31	3131	albam	albam
+32	3132	jimami	jimamin jimami jimaminta
+33	3133	zawarawa	zawarawa zawarawan
+34	3134	hatsaniya	hatsaniyar hatsaniya
+35	3135	dashe	dashen dashe dashensa
+36	3136	makwanci	makwanci makwancin makwancinsa makwancinta makwancinka makwancinmu makwancinsu makwantansu makwantai
+37	3137	zaga	zaga zagawa zagawar zagawarta
+38	3138	farma	farma
+39	3139	tarbiyyantar	tarbiyyantar
+40	3140	gangara	gangara gangaran
+41	3141	mahaɗa	mahaɗa mahaɗar mahaɗarta
+42	3142	sakewa	sakewa sakewar sakewarsa
+43	3143	kwanya	kwanya kwanyar kwanyarsa kwanyarta kwanyarsu
+44	3144	gwarzuwa	gwarzuwar gwarzuwa gwarzuwan
+45	3145	hallara	hallara
+46	3146	kurmi	kurmin kurmi
+47	3147	sheƙi	sheƙi sheƙin
+48	3148	gindaya	gindaya gindayawa
+49	3149	wala	wala walawa
+50	3150	musulma	musulma musulman
+51	3151	ingilishi	ingilishi
+52	3152	duriya	duriya duriyarsu duriyar duriyarka duriyarku duriyarta
+53	3153	tuɓe	tuɓe tuɓewa
+54	3154	kakkausar	kakkausar kakkausan
+55	3155	hayayyafa	hayayyafa hayayyafar
+56	3156	ingantawa	ingantawa ingantawar ingantawarsu
+57	3157	kwaɓa	kwaɓa
+58	3158	kaf	kaf
+59	3159	zarra	zarra
+60	3160	yawace	yawace yawacen
+61	3161	ruri	ruri rurin
+62	3162	toho	toho tohon
+63	3163	sheda	sheda shedar shedarta
+64	3164	turmi	turmin turmi
+65	3165	arangama	arangama arangamar
+66	3166	maɓuɓɓuga	maɓuɓɓuga maɓuɓɓugar maɓuɓɓugarsa
+67	3167	harda	harda hardar hardarsa
+68	3168	makero	makero makeron
+69	3169	munafunci	munafunci munafuncinsa munafuncin
+70	3170	barkan	barkan barkanmu
+71	3171	tsarkaka	tsarkaka tsarkakan tsarkakar
+72	3172	kwaɗaitar	kwaɗaitar kwaɗaitarwa
+73	3173	casu	casu
+74	3174	daɓe	daɓen daɓensa daɓe
+75	3175	cim	cim
+76	3176	rame	rame ramen
+77	3177	hayyacinsa	hayyacinsa
+78	3178	haɗaɗɗen	haɗaɗɗen
+79	3179	kwararowa	kwararowa kwararowar
+80	3180	radar	radar
+81	3181	falo	falo falon falonsa falonta
+82	3182	saƙarci	saƙarci saƙarcin
+83	3183	shuri	shuri shurin shurina
+84	3184	ƴar'uwata	ƴar'uwata
+85	3185	bel	bel
+86	3186	tabarma	tabarma tabarmar tabarmi tabarmarta tabarmansa
+87	3187	dagewa	dagewa dagewar dagewarta dagewarsa
+88	3188	barbashi	barbashi barbashin
+89	3189	tsautsayi	tsautsayi tsautsayin
+90	3190	jefi	jefi jefe jefewa
+91	3191	haramci	haramci haramcin haramcinsa haramcinta haramcinsu
+92	3192	akawu	akawu akawun akawunta
+93	3193	sahihanci	sahihanci sahihancin sahihancinsa sahihancinta sahihancinsu
+94	3194	banƙyama	banƙyama
+95	3195	francs	francs
+96	3196	kutse	kutse kutsen
+97	3197	zuga	zuga zugawar
+98	3198	tim	tim
+99	3199	zani	zani zanin zaninta
+100	3200	farfasa	farfasa farfasan
