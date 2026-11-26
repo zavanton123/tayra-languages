@@ -3,7 +3,7 @@
 Each course teaches one band of 100 words from the Khmer word frequency list (`bands/<rankUpTo>.txt`: index,
 rank, word, its forms). Course `km-mini-0300` teaches ranks 201–300 and may use every word ranked 1–300. Ten
 lessons, each introducing about ten of the band's words, so the course covers the band; a learner who finishes
-it knows the 300 most common words. `themes.tsv` gives each course its theme. The list has 7,310 words: the
+it knows the 300 most common words. `themes.tsv` gives each course its theme. The list has 7,322 words: the
 courses are `km-mini-0100` to `km-mini-7400` (the last band has 10 words).
 
 ## What the lessons are: mini stories
