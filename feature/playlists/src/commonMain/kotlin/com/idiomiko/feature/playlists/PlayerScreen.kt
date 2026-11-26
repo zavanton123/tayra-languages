@@ -169,7 +169,8 @@ private val MIN_PHONE_PLAYER_HEIGHT = 560.dp
 private fun QueueSheet(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     AppBottomSheet(onDismissRequest = onDismiss, skipPartiallyExpanded = false, modifier = Modifier.testTag("queue-sheet")) {
         Column(Modifier.verticalScroll(rememberScrollState()).padding(bottom = AppSpacing.xl)) {
-            UpNext(state, viewModel, onNavigate = { onDismiss(); onNavigate(it) }, inset = AppSpacing.l)
+            // A text picked to play closes the sheet, as anything leading away from it does.
+            UpNext(state, viewModel, onNavigate = { onDismiss(); onNavigate(it) }, inset = AppSpacing.l, onPicked = onDismiss)
         }
     }
 }
@@ -299,9 +300,10 @@ private fun Complete(state: PlayerUiState, onPlayAgain: () -> Unit, onBack: () -
 /**
  * The playlist's texts in the order they play, the current one marked, with a way to change them. The rows
  * run to the container's edges, so their highlight fills them; [inset] keeps their content off the edges.
+ * [onPicked] follows a text picked to play.
  */
 @Composable
-private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit, inset: Dp) {
+private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate: (Route) -> Unit, inset: Dp, onPicked: () -> Unit = {}) {
     val p = state.player
     val playlist = p.playlist ?: return
     val queue: List<PlaylistItem> = p.order.mapNotNull { id -> playlist.items.firstOrNull { it.id == id } }
@@ -319,7 +321,10 @@ private fun UpNext(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate:
                 dragging = dragging,
                 inset = inset,
                 // The text being heard goes on from where it is; another one starts from its beginning.
-                onPlay = { if (item.id == p.itemId && p.status != PlayerStatus.COMPLETE) { if (!p.isPlaying) viewModel.player.resume() } else viewModel.player.jumpTo(item.id, play = true) },
+                onPlay = {
+                    if (item.id == p.itemId && p.status != PlayerStatus.COMPLETE) { if (!p.isPlaying) viewModel.player.resume() } else viewModel.player.jumpTo(item.id, play = true)
+                    onPicked()
+                },
                 onRemove = { viewModel.remove(item.id) },
             )
             AppDivider()

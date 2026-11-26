@@ -189,6 +189,8 @@ class PlayerScreensTest {
         screenshot("player-phone-queue")
         onNodeWithTag("queue-${order[2]}").performClick()
         until { data.player.state.value.itemId == order[2] && data.player.state.value.status == PlayerStatus.PLAYING }
+        // Picking a text closes the sheet.
+        waitUntil(timeoutMillis = 5_000) { onAllNodes(hasTestTag("queue-sheet")).fetchSemanticsNodes().isEmpty() }
     }
 
     @Test
