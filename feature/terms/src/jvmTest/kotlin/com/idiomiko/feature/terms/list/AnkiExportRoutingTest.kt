@@ -1,5 +1,6 @@
 package com.idiomiko.feature.terms.list
 
+import com.idiomiko.feature.terms.TestMain
 import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
@@ -21,7 +22,6 @@ import com.idiomiko.core.domain.service.MemorySpeechAudioCache
 import com.idiomiko.core.domain.service.SentenceAudio
 import com.idiomiko.core.domain.service.SentenceTranslator
 import com.idiomiko.core.domain.service.TermService
-import kotlin.test.AfterTest
 import kotlin.test.BeforeTest
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -33,8 +33,6 @@ import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.test.resetMain
-import kotlinx.coroutines.test.setMain
 import kotlinx.coroutines.withTimeout
 
 /** One Anki action: the words go straight into a running Anki, or into a file when none answers. */
@@ -58,10 +56,8 @@ class AnkiExportRoutingTest {
     }
 
     @BeforeTest
-    fun setUp() = Dispatchers.setMain(Dispatchers.Default)
+    fun setUp() = TestMain.use()
 
-    @AfterTest
-    fun tearDown() = Dispatchers.resetMain()
 
     private fun viewModel(connection: AnkiConnection?): TermsListViewModel {
         runBlocking {

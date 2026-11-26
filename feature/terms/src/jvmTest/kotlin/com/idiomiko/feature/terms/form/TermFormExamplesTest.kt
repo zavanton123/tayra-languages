@@ -1,5 +1,6 @@
 package com.idiomiko.feature.terms.form
 
+import com.idiomiko.feature.terms.TestMain
 import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
@@ -29,13 +30,9 @@ import com.idiomiko.core.domain.service.ExampleSource
 import com.idiomiko.core.domain.service.ExampleSourceFeatures
 import com.idiomiko.core.domain.service.TermService
 import com.idiomiko.core.domain.service.TermTranslationProvider
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.test.resetMain
-import kotlinx.coroutines.test.setMain
 import kotlinx.coroutines.withTimeout
-import org.junit.After
 import org.junit.Before
 import java.io.File
 import java.util.Collections
@@ -49,10 +46,8 @@ import kotlin.test.assertTrue
 class TermFormExamplesTest {
 
     @Before
-    fun setUp() = Dispatchers.setMain(Dispatchers.Default)
+    fun setUp() = TestMain.use()
 
-    @After
-    fun tearDown() = Dispatchers.resetMain()
 
     private val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-term-examples", ".db").also { it.delete() }))
     private val languages = LanguageRepositoryImpl(provider)
