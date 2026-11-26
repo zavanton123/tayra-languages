@@ -210,6 +210,7 @@ internal val frCommon: Map<String, String> = mapOf(
     "Your photo is saved" to "Votre photo est enregistrée",
     "Your photo is removed" to "Votre photo est retirée",
     "Change photo" to "Changer de photo",
+    "Choose from gallery" to "Choisir dans la galerie",
     "Remove photo" to "Retirer la photo",
     "That picture could not be opened. Choose a PNG or JPEG photo." to "Impossible d’ouvrir cette image. Choisissez une photo PNG ou JPEG.",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Les mots que vous marquez En apprentissage en lisant reçoivent une carte, et leurs chiffres s'affichent ici.",

@@ -210,6 +210,7 @@ internal val esCommon: Map<String, String> = mapOf(
     "Your photo is saved" to "Tu foto se ha guardado",
     "Your photo is removed" to "Tu foto se ha quitado",
     "Change photo" to "Cambiar foto",
+    "Choose from gallery" to "Elegir de la galería",
     "Remove photo" to "Quitar foto",
     "That picture could not be opened. Choose a PNG or JPEG photo." to "No se pudo abrir esa imagen. Elige una foto PNG o JPEG.",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Las palabras que marcas como Aprendiendo mientras lees tienen una tarjeta, y sus cifras aparecen aquí.",

@@ -210,6 +210,7 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Your photo is saved" to "你的照片已保存",
     "Your photo is removed" to "你的照片已移除",
     "Change photo" to "更换照片",
+    "Choose from gallery" to "从相册选择",
     "Remove photo" to "移除照片",
     "That picture could not be opened. Choose a PNG or JPEG photo." to "无法打开该图片。请选择 PNG 或 JPEG 照片。",
     "Words you mark as Learning while reading get a card, and their figures show here." to "阅读时标为“学习中”的词会生成卡片，其统计数据显示在这里。",

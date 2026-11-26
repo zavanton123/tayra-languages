@@ -210,6 +210,7 @@ internal val plCommon: Map<String, String> = mapOf(
     "Your photo is saved" to "Zdjęcie zapisane",
     "Your photo is removed" to "Zdjęcie usunięte",
     "Change photo" to "Zmień zdjęcie",
+    "Choose from gallery" to "Wybierz z galerii",
     "Remove photo" to "Usuń zdjęcie",
     "That picture could not be opened. Choose a PNG or JPEG photo." to "Nie udało się otworzyć tego obrazu. Wybierz zdjęcie PNG lub JPEG.",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Słowa, które podczas czytania oznaczasz jako W nauce, dostają fiszkę, a ich liczby pojawiają się tutaj.",

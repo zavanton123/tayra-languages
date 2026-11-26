@@ -210,6 +210,7 @@ internal val deCommon: Map<String, String> = mapOf(
     "Your photo is saved" to "Dein Foto ist gespeichert",
     "Your photo is removed" to "Dein Foto ist entfernt",
     "Change photo" to "Foto ändern",
+    "Choose from gallery" to "Aus der Galerie wählen",
     "Remove photo" to "Foto entfernen",
     "That picture could not be opened. Choose a PNG or JPEG photo." to "Dieses Bild ließ sich nicht öffnen. Wähle ein PNG- oder JPEG-Foto.",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Wörter, die du beim Lesen als Lernend markierst, bekommen eine Karte, und ihre Zahlen erscheinen hier.",

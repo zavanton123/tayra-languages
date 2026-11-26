@@ -210,6 +210,7 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Your photo is saved" to "Фото сохранено",
     "Your photo is removed" to "Фото удалено",
     "Change photo" to "Сменить фото",
+    "Choose from gallery" to "Выбрать из галереи",
     "Remove photo" to "Удалить фото",
     "That picture could not be opened. Choose a PNG or JPEG photo." to "Не удалось открыть это изображение. Выберите фото в формате PNG или JPEG.",
     "Words you mark as Learning while reading get a card, and their figures show here." to "Слова, которые вы при чтении отмечаете как «Изучаю», получают карточку, и их показатели появляются здесь.",

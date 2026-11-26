@@ -544,6 +544,21 @@ class AccountScreenTest {
         save("ACCOUNT_SCREENSHOT", "-signed-in")
     }
 
+    /** On a phone, Change photo first asks whether the photo comes from the gallery or the camera. */
+    @Test
+    fun aPhoneChoosesOrTakesAPhoto() = runDesktopComposeUiTest(width = 400, height = 800) {
+        val chosen = mutableListOf<String>()
+        setContent {
+            IdiomikoTheme { ProvideWindowWidth { PhotoSourceSheet(onGallery = { chosen += "gallery" }, onCamera = { chosen += "camera" }, onDismiss = {}) } }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Choose from gallery").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithText("Take photo").assertExists()
+        save("PHOTO_SOURCE_SCREENSHOT")
+        onNodeWithTag("photo-source-gallery").performClick()
+        onNodeWithTag("photo-source-camera").performClick()
+        assertEquals(listOf("gallery", "camera"), chosen)
+    }
+
     /** The photo can be changed from the profile; once one is uploaded it can be removed again. */
     @Test
     fun anUploadedPhotoCanBeRemoved() = runDesktopComposeUiTest(width = 1586, height = 1150) {
