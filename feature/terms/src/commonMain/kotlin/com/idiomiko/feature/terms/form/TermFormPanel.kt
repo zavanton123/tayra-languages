@@ -616,7 +616,7 @@ private fun FlashcardCard(modifier: Modifier, state: TermFormUiState, viewModel:
         if (schedule.state == CardState.REVIEW) KeyValueRow(tr("Interval"), trPlural(schedule.intervalDays, "{0} day", "{0} days"))
         KeyValueRow(tr("Answers"), if (schedule.lapses > 0) trPlural(schedule.lapses, "{1}, forgotten {0} time", "{1}, forgotten {0} times", schedule.reps) else "${schedule.reps}")
         AppDivider()
-        SwitchSetting(tr("Suspend flashcard"), tr("Keep the card but leave it out of reviews."), checked = card.suspended, dense = true, onChange = viewModel::setFlashcardSuspended)
+        SwitchSetting(tr("Suspend flashcard"), null, checked = card.suspended, dense = true, onChange = viewModel::setFlashcardSuspended)
         if (schedule.state != CardState.NEW) OutlineActionButton(tr("Reset flashcard progress")) { confirmReset = true }
     }
     if (confirmReset) {

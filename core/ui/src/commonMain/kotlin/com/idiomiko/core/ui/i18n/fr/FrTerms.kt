@@ -194,7 +194,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Answers" to "Réponses",
     "{1}, forgotten {0} times" to "{1}, oubliée {0} fois|{1}, oubliée {0} fois",
     "Suspend flashcard" to "Suspendre la carte",
-    "Keep the card but leave it out of reviews." to "Garder la carte, mais l’exclure des révisions.",
     "Reset flashcard progress" to "Réinitialiser la progression de la carte",
     "Reset this flashcard?" to "Réinitialiser cette carte ?",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "La carte redevient nouvelle et son calendrier de révision est effacé. Le statut du terme ne change pas.",

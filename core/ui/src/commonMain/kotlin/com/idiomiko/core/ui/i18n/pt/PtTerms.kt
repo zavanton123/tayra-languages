@@ -194,7 +194,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Answers" to "Respostas",
     "{1}, forgotten {0} times" to "{1}, esquecido {0} vez|{1}, esquecido {0} vezes",
     "Suspend flashcard" to "Suspender flashcard",
-    "Keep the card but leave it out of reviews." to "Manter o flashcard, mas deixá-lo fora das revisões.",
     "Reset flashcard progress" to "Redefinir progresso do flashcard",
     "Reset this flashcard?" to "Redefinir este flashcard?",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "O flashcard volta a ser novo e a programação de revisões é descartada. O status do termo continua como está.",

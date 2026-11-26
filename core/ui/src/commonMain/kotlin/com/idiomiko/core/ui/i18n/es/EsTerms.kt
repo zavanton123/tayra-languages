@@ -194,7 +194,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Answers" to "Respuestas",
     "{1}, forgotten {0} times" to "{1}, olvidada {0} vez|{1}, olvidada {0} veces",
     "Suspend flashcard" to "Suspender tarjeta",
-    "Keep the card but leave it out of reviews." to "La tarjeta se conserva, pero no aparece en los repasos.",
     "Reset flashcard progress" to "Restablecer progreso de la tarjeta",
     "Reset this flashcard?" to "¿Restablecer esta tarjeta?",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "La tarjeta vuelve a ser nueva y se borra su calendario de repasos. El estado de la palabra no cambia.",

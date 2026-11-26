@@ -194,7 +194,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Answers" to "Odpowiedzi",
     "{1}, forgotten {0} times" to "{1}, zapomniana {0} raz|{1}, zapomniana {0} razy|{1}, zapomniana {0} razy",
     "Suspend flashcard" to "Wstrzymaj fiszkę",
-    "Keep the card but leave it out of reviews." to "Fiszka zostanie zachowana, ale nie będzie pokazywana w powtórkach.",
     "Reset flashcard progress" to "Resetuj postęp fiszki",
     "Reset this flashcard?" to "Zresetować tę fiszkę?",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "Fiszka znów stanie się nowa, a jej harmonogram powtórek zostanie wyczyszczony. Status słowa się nie zmieni.",

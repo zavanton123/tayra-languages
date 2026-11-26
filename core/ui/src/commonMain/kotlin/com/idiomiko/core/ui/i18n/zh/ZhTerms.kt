@@ -194,7 +194,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Answers" to "回答",
     "{1}, forgotten {0} times" to "{1}，遗忘 {0} 次",
     "Suspend flashcard" to "暂停闪卡",
-    "Keep the card but leave it out of reviews." to "保留卡片，但不参与复习。",
     "Reset flashcard progress" to "重置闪卡进度",
     "Reset this flashcard?" to "重置这张闪卡？",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "卡片将重新变为新卡片，复习计划会被清除。词条的状态保持不变。",

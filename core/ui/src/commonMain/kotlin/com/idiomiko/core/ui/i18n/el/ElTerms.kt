@@ -194,7 +194,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Answers" to "Απαντήσεις",
     "{1}, forgotten {0} times" to "{1}, ξεχάστηκε {0} φορά|{1}, ξεχάστηκε {0} φορές",
     "Suspend flashcard" to "Αναστολή κάρτας",
-    "Keep the card but leave it out of reviews." to "Η κάρτα διατηρείται, αλλά δεν εμφανίζεται στις επαναλήψεις.",
     "Reset flashcard progress" to "Επαναφορά προόδου κάρτας",
     "Reset this flashcard?" to "Επαναφορά αυτής της κάρτας;",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "Η κάρτα γίνεται ξανά νέα και το πρόγραμμα επαναλήψεών της διαγράφεται. Η κατάσταση της λέξης δεν αλλάζει.",

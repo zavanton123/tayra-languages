@@ -194,7 +194,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Answers" to "Ответы",
     "{1}, forgotten {0} times" to "{1}, забывалась {0} раз|{1}, забывалась {0} раза|{1}, забывалась {0} раз",
     "Suspend flashcard" to "Приостановить карточку",
-    "Keep the card but leave it out of reviews." to "Карточка сохранится, но не будет показываться при повторении.",
     "Reset flashcard progress" to "Сбросить прогресс карточки",
     "Reset this flashcard?" to "Сбросить эту карточку?",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "Карточка снова станет новой, а её график повторений будет сброшен. Статус слова не изменится.",

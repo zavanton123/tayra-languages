@@ -194,7 +194,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Answers" to "Antworten",
     "{1}, forgotten {0} times" to "{1}, {0}-mal vergessen|{1}, {0}-mal vergessen",
     "Suspend flashcard" to "Karteikarte pausieren",
-    "Keep the card but leave it out of reviews." to "Die Karte bleibt erhalten, kommt aber nicht in Wiederholungen vor.",
     "Reset flashcard progress" to "Fortschritt der Karteikarte zurücksetzen",
     "Reset this flashcard?" to "Diese Karteikarte zurücksetzen?",
     "The card becomes new again and its review schedule is forgotten. The term's status stays as it is." to "Die Karte wird wieder neu und ihr Wiederholungsplan wird verworfen. Der Status des Begriffs bleibt unverändert.",
