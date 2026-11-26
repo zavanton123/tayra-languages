@@ -1,5 +1,6 @@
 package com.idiomiko.feature.terms.examples
 
+import com.idiomiko.feature.terms.TestMain
 import com.russhwolf.settings.MapSettings
 import com.idiomiko.core.data.db.DatabaseDriverFactory
 import com.idiomiko.core.data.db.DatabaseProvider
@@ -28,13 +29,9 @@ import com.idiomiko.core.domain.service.ExampleSourceFeatures
 import com.idiomiko.core.domain.service.SentenceTranslation
 import com.idiomiko.core.domain.service.SentenceTranslator
 import com.idiomiko.core.domain.service.YesNo
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
-import kotlinx.coroutines.test.resetMain
-import kotlinx.coroutines.test.setMain
 import kotlinx.coroutines.withTimeout
-import org.junit.After
 import org.junit.Before
 import java.io.File
 import java.util.Collections
@@ -82,10 +79,8 @@ class ExamplesSearchViewModelTest {
     }
 
     @Before
-    fun setUp() = Dispatchers.setMain(Dispatchers.Default)
+    fun setUp() = TestMain.use()
 
-    @After
-    fun tearDown() = Dispatchers.resetMain()
 
     private fun viewModel(
         examples: ExampleSentencesProvider,
@@ -256,7 +251,8 @@ class ExamplesSearchViewModelTest {
         waitFor("translated") { vm.state.value.translations.size == 2 && vm.state.value.translations.values.none { it == SentenceTranslation.Loading } }
         assertEquals("EN: A casa é grande.", (vm.state.value.translations["A casa é grande."] as SentenceTranslation.Done).text)
         assertEquals(SentenceTranslation.Unavailable, vm.state.value.translations["Casa untranslatable."])
-        assertEquals(listOf("A casa é grande.", "Casa untranslatable."), translator.asked)
+        // Each once; they are translated side by side, so in no set order.
+        assertEquals(listOf("A casa é grande.", "Casa untranslatable."), translator.asked.sorted())
 
         // A new search keeps what was translated and tries the rest again.
         vm.search()
