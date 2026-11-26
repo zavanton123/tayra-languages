@@ -720,7 +720,8 @@ def resolve_hooks(counts, lexicon):
         spelling no Wiktionary word has that is seldom written beside [word] is a hook written where there is none, and no
         word it may stand for (ɗomin beside domin)."""
         found = []
-        for h in variants[word]:
+        # In order, so a tie in max() below falls the same way whatever the hash seed.
+        for h in sorted(variants[word]):
             letters = dropped(word, h)
             own = sum(evidence[word][x] for x in letters) / len(letters)
             other = sum(evidence[h][x] for x in letters) / len(letters)
@@ -877,7 +878,7 @@ def build(size, download, dictionaries=DICTIONARIES):
         words = heads[form]
         if not words:
             continue
-        weights = {w: own.get(w, 0.0) for w in words}
+        weights = {w: own.get(w, 0.0) for w in sorted(words)}
         whole = sum(weights.values())
         for word in words:
             part = weights[word] / whole if whole else 1 / len(words)
