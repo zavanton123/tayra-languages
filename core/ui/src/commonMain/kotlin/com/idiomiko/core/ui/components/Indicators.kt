@@ -22,6 +22,8 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.ui.platform.testTag
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.text.BasicText
 import androidx.compose.foundation.text.TextAutoSize
@@ -252,11 +254,14 @@ fun AppTriStateCheckbox(state: ToggleableState, onClick: (() -> Unit)?, modifier
     TriStateCheckbox(state = state, onClick = onClick, modifier = modifier, enabled = enabled)
 }
 
-/** A short message at the bottom of a screen, with an optional action such as OK or Undo. */
+/**
+ * A short message at the bottom of a screen, with an optional action such as OK or Undo; never the screen's whole
+ * width: off its sides and foot, and no wider than a toast.
+ */
 @Composable
 fun AppSnackbar(message: String, modifier: Modifier = Modifier, actionLabel: String? = null, onAction: (() -> Unit)? = null) {
     Snackbar(
-        modifier = modifier,
+        modifier = modifier.padding(AppSpacing.l).widthIn(max = SNACKBAR_MAX_WIDTH).testTag("snackbar"),
         shape = AppShapes.control,
         action = if (actionLabel != null && onAction != null) ({ QuietButton(actionLabel, onClick = onAction) }) else null,
     ) { Text(message) }
@@ -332,3 +337,6 @@ fun FitText(text: String, modifier: Modifier = Modifier, style: TextStyle = Loca
 
 /** How far a [FitText] shrinks before it is cut short. */
 private const val FIT_TEXT_SMALLEST = 0.8f
+
+/** As wide as a toast at most. */
+private val SNACKBAR_MAX_WIDTH = 480.dp

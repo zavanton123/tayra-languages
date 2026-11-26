@@ -88,7 +88,10 @@ internal fun TouchTooltipTimeout(shown: Any?, clear: () -> Unit) {
 /** How long a tapped chart's tooltip stays on a phone. */
 internal const val TOUCH_TOOLTIP_MILLIS = 3_000L
 
-/** [text] about the part of a chart at [anchor] (within the box it is placed in), over it, kept inside the window. */
+/**
+ * [text] about the part of a chart at [anchor] (within the box it is placed in), over it, kept inside the window with
+ * a margin at each side, so a long one wraps rather than running edge to edge.
+ */
 @Composable
 fun ChartTooltip(text: String, anchor: IntRect) {
     val margin = with(LocalDensity.current) { AppSpacing.xs.roundToPx() }
@@ -103,11 +106,14 @@ fun ChartTooltip(text: String, anchor: IntRect) {
         }
     }
     Popup(popupPositionProvider = position) {
-        Text(
-            text,
-            Modifier.clip(AppShapes.small).background(MaterialTheme.colorScheme.inverseSurface).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("chart-tooltip"),
-            style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.inverseOnSurface,
-        )
+        // The margin is the popup's own, clear on both sides, so kept inside the window the bubble stays off its edges.
+        Box(Modifier.padding(horizontal = AppSpacing.l)) {
+            Text(
+                text,
+                Modifier.clip(AppShapes.small).background(MaterialTheme.colorScheme.inverseSurface).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("chart-tooltip"),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.inverseOnSurface,
+            )
+        }
     }
 }
