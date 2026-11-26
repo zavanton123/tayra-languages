@@ -12,6 +12,7 @@ import com.idiomiko.core.domain.dictionary.DictionaryPack
 import com.idiomiko.core.domain.dictionary.DictionaryPackStore
 import com.idiomiko.core.domain.dictionary.DictionarySense
 import com.idiomiko.core.domain.model.Language
+import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.repository.DictionaryRepository
 import com.idiomiko.core.domain.service.DictionaryService
 import com.idiomiko.core.domain.service.ExampleSearchQuery
@@ -66,7 +67,7 @@ class TermFormMeaningTest {
         }
     }
 
-    private fun form(translator: SentenceTranslator): TermFormViewModel {
+    private fun form(translator: SentenceTranslator, text: String = "truck"): TermFormViewModel {
         val english = runBlocking {
             settings.update { it.copy(nativeLanguage = "ru") }
             languages.save(Language(name = "English"))
@@ -92,7 +93,7 @@ class TermFormMeaningTest {
         }
         val dictionaries = DictionaryService(installed, entries).also { runBlocking { it.refresh() } }
         return TermFormViewModel(
-            TermFormKey.ByText(english, "truck", sentence), TermService(terms, languages), terms, languages, settings, engine, noExamples, dictionaries, dictionaries,
+            TermFormKey.ByText(english, text, sentence.takeIf { text.isNotEmpty() }), TermService(terms, languages), terms, languages, settings, engine, noExamples, dictionaries, dictionaries,
             sentenceTranslator = translator,
         )
     }
@@ -100,6 +101,17 @@ class TermFormMeaningTest {
     private fun waitFor(what: String, condition: () -> Boolean) = runBlocking {
         withTimeout(5_000) { while (!condition()) delay(10) }
         assertTrue(condition(), what)
+    }
+
+    /** A status chosen before the term is typed waits for the save, instead of saving a term without text. */
+    @Test
+    fun aStatusChosenBeforeTheTermIsTypedWaitsForTheSave() {
+        val viewModel = form(FakeTranslator(), text = "")
+        waitFor("the form is ready") { !viewModel.state.value.loading }
+        viewModel.setStatus(TermStatus.WELL_KNOWN)
+        Thread.sleep(300)
+        assertEquals(TermStatus.WELL_KNOWN, viewModel.state.value.draft.status)
+        assertEquals(null, viewModel.state.value.error)
     }
 
     @Test

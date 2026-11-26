@@ -656,6 +656,8 @@ class TermFormViewModel(
     /** Status clicks save immediately, so the reading screen reflects the change without pressing Save. */
     fun setStatus(status: TermStatus) {
         update { it.copy(status = status, statusExplicitlySet = true) }
+        // A term still to be typed keeps the status for its save, rather than failing to save without a text.
+        if (_state.value.draft.text.isBlank()) return
         autosaveJob?.cancel()
         viewModelScope.launch {
             val id = doSave() ?: return@launch
