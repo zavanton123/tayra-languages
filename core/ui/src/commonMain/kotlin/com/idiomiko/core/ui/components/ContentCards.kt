@@ -116,7 +116,11 @@ fun ScreenHeader(
             Column(Modifier.weight(1f)) {
                 if (!compact) HintedTitle(subtitle) { Text(title, style = AppText.pageTitle) }
                 else if (titleOnCompact) Text(title, style = AppText.headline)
-                hintBelow(subtitle)?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant) }
+                hintBelow(subtitle)?.let {
+                    // The large desktop title gets some air above its subtitle; a phone's small one does not need it.
+                    if (!compact) Spacer(Modifier.height(AppSpacing.s))
+                    Text(it, style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
+                }
             }
             actions()
         }
