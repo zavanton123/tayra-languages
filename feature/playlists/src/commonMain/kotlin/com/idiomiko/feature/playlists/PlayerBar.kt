@@ -61,7 +61,7 @@ import org.koin.compose.viewmodel.koinViewModel
 
 /**
  * The bar the app shows while a playlist is loaded, whatever screen is open: the text and the
- * playlist, which open the player (or, on the player, the text in the reader), the controls, the
+ * playlist, which open the player (on the player they open nothing, its card leading to the text), the controls, the
  * place in the text and the speed, and a close button at its end that stops the player until a
  * playlist is played again.
  * A phone shows a small one with play and next, which opens the player; [onPlayerScreen] leaves it
@@ -82,22 +82,20 @@ fun PlayerBar(onNavigate: (Route) -> Unit, onPlayerScreen: Boolean, viewModel: P
     }
 }
 
-/**
- * The text and its playlist, opening the place named by [tip]: the text in the reader, which its
- * icon shows as a page, or the player, shown as headphones.
- */
+/** The text and its playlist, opening the player, which its headphones show. */
 @Composable
-private fun NowPlayingTitle(state: PlayerUiState, modifier: Modifier, opensText: Boolean, tip: String, onOpen: () -> Unit) {
+private fun NowPlayingTitle(state: PlayerUiState, modifier: Modifier, onOpen: () -> Unit) {
     // The tooltip does not pass a weight on, so the box carries it.
-    Box(modifier) { AppTooltip(tip) { NowPlayingTitleRow(state, Modifier.fillMaxWidth(), if (opensText) AppIcons.Description else AppIcons.Headphones, onOpen) } }
+    Box(modifier) { AppTooltip(tr("Open the player")) { NowPlayingTitleRow(state, Modifier.fillMaxWidth(), AppIcons.Headphones, onOpen) } }
 }
 
+/** The text and its playlist; [onOpen] null leaves it a label, as on the player itself. */
 @Composable
-private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, icon: ImageVector, onOpen: () -> Unit) {
+private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, icon: ImageVector, onOpen: (() -> Unit)?) {
     val colors = MaterialTheme.colorScheme
     val p = state.player
     Row(
-        modifier.clip(AppShapes.control).clickable(onClick = onOpen).padding(AppSpacing.xs),
+        modifier.clip(AppShapes.control).then(if (onOpen != null) Modifier.clickable(onClick = onOpen) else Modifier).padding(AppSpacing.xs),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
     ) {
@@ -113,7 +111,7 @@ private fun NowPlayingTitleRow(state: PlayerUiState, modifier: Modifier, icon: I
 private fun MiniBar(state: PlayerUiState, viewModel: PlayerViewModel, onOpen: () -> Unit) {
     val p = state.player
     Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.m, vertical = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-        NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), opensText = false, tr("Open the player"), onOpen)
+        NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), onOpen)
         PlayPauseButton(state, viewModel, IconButtonSize.Regular)
         Tip(tr("Next text")) { AppIconButton(AppIcons.SkipNext, contentDescription = it, onClick = viewModel.player::next, enabled = p.hasNext) }
         CloseButton(viewModel)
@@ -127,11 +125,11 @@ private fun WideBar(state: PlayerUiState, viewModel: PlayerViewModel, onNavigate
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(AppSpacing.l),
     ) {
-        // The text opens the player, and on the player it goes back to the text in the reader.
+        // The text opens the player; on the player it is only a label, the card's Go to source leading to the text.
         if (onPlayerScreen) {
-            NowPlayingTitle(state, Modifier.weight(1f).testTag("open-text"), opensText = true, backToTextLabel(state).orEmpty(), onOpen = { textRoute(state)?.let(onNavigate) })
+            NowPlayingTitleRow(state, Modifier.weight(1f).testTag("now-playing-title"), AppIcons.Description, onOpen = null)
         } else {
-            NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), opensText = false, tr("Open the player"), onOpen = { onNavigate(Route.Player) })
+            NowPlayingTitle(state, Modifier.weight(1f).testTag("open-player"), onOpen = { onNavigate(Route.Player) })
         }
         // The player shows the place in the text on its own card, so the bar leaves its seek bar out there.
         PlayerControls(state, viewModel, Modifier.weight(2.2f), wide = true, showSeek = !onPlayerScreen)

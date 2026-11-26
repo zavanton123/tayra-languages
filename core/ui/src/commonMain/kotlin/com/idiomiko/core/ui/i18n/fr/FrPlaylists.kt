@@ -66,6 +66,7 @@ internal val frPlaylists: Map<String, String> = mapOf(
     "Back to lesson" to "Retour à la leçon",
     "Back to article" to "Retour à l’article",
     "Back to book" to "Retour au livre",
+    "Go to source" to "Aller à la source",
     "The {0} voice used by this playlist is not available on this device." to "La voix pour « {0} » utilisée par cette playlist n’est pas disponible sur cet appareil.",
     "Add to playlist" to "Ajouter à une playlist",
     "In this playlist" to "Dans cette playlist",

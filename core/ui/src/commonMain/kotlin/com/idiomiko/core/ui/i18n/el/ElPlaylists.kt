@@ -66,6 +66,7 @@ internal val elPlaylists: Map<String, String> = mapOf(
     "Back to lesson" to "Πίσω στην ενότητα",
     "Back to article" to "Πίσω στο άρθρο",
     "Back to book" to "Πίσω στο βιβλίο",
+    "Go to source" to "Μετάβαση στην πηγή",
     "The {0} voice used by this playlist is not available on this device." to "Η φωνή για τη γλώσσα «{0}» που χρησιμοποιεί αυτή η λίστα αναπαραγωγής δεν είναι διαθέσιμη σε αυτή τη συσκευή.",
     "Add to playlist" to "Προσθήκη σε λίστα αναπαραγωγής",
     "In this playlist" to "Σε αυτή τη λίστα αναπαραγωγής",

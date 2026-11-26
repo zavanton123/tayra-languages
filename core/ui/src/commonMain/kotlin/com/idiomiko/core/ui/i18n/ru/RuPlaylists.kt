@@ -66,6 +66,7 @@ internal val ruPlaylists: Map<String, String> = mapOf(
     "Back to lesson" to "К уроку",
     "Back to article" to "К статье",
     "Back to book" to "К книге",
+    "Go to source" to "Перейти к источнику",
     "The {0} voice used by this playlist is not available on this device." to "Голос для языка «{0}», который использует этот плейлист, недоступен на этом устройстве.",
     "Add to playlist" to "Добавить в плейлист",
     "In this playlist" to "В этом плейлисте",

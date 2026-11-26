@@ -66,6 +66,7 @@ internal val esPlaylists: Map<String, String> = mapOf(
     "Back to lesson" to "Volver a la lección",
     "Back to article" to "Volver al artículo",
     "Back to book" to "Volver al libro",
+    "Go to source" to "Ir al original",
     "The {0} voice used by this playlist is not available on this device." to "La voz para este idioma ({0}) que usa esta lista de reproducción no está disponible en este dispositivo.",
     "Add to playlist" to "Añadir a una lista de reproducción",
     "In this playlist" to "En esta lista de reproducción",

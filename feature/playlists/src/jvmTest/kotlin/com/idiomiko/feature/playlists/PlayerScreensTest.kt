@@ -9,6 +9,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.ExperimentalTestApi
+import androidx.compose.ui.test.assertHasNoClickAction
 import androidx.compose.ui.test.assertTextContains
 import androidx.compose.ui.test.assertTextEquals
 import androidx.compose.ui.test.hasTestTag
@@ -114,9 +115,10 @@ class PlayerScreensTest {
         onNodeWithTag("card-seek").performMouseInput { moveTo(center); scroll(-1f) }
         until { data.player.state.value.sentence == 0 }
 
-        // On the player, the bar's text goes back to the text in the reader.
+        // On the player, the card's Go to source leads to the text in the reader; the bar's text is only a label.
         onNodeWithTag("back-to-text").assertDoesNotExist()
-        onNodeWithTag("open-text").performClick()
+        onNodeWithTag("now-playing-title").assertHasNoClickAction()
+        onNodeWithTag("go-to-source").performClick()
         val bookId = data.player.state.value.item!!.bookId
         assertEquals(Route.Read(bookId, 1), visited.last())
         onNodeWithTag("next-sentence").performClick()

@@ -66,6 +66,7 @@ internal val zhPlaylists: Map<String, String> = mapOf(
     "Back to lesson" to "返回课文",
     "Back to article" to "返回文章",
     "Back to book" to "返回书籍",
+    "Go to source" to "前往原文",
     "The {0} voice used by this playlist is not available on this device." to "此播放列表使用的{0}语音在本设备上不可用。",
     "Add to playlist" to "添加到播放列表",
     "In this playlist" to "已在此播放列表中",

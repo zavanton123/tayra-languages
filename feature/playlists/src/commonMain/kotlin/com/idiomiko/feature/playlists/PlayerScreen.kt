@@ -72,6 +72,7 @@ import com.idiomiko.core.ui.components.ScreenHeader
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.SecondaryButton
 import com.idiomiko.core.ui.components.InfoBanner
+import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
@@ -198,7 +199,13 @@ private fun NowPlaying(state: PlayerUiState, viewModel: PlayerViewModel, onNavig
             AppIconButton(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = tr("Next text"), onClick = player::next, enabled = p.hasNext, style = IconButtonStyle.Outlined, modifier = Modifier.testTag("next-text"))
             if (p.pageCount > 1) Text(tr("Page {0} of {1}", p.page, p.pageCount), Modifier.weight(1f), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant, textAlign = TextAlign.End)
         }
-        Text(item?.title.orEmpty(), style = AppText.sectionTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+        Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
+            Text(item?.title.orEmpty(), style = AppText.sectionTitle, maxLines = 2, overflow = TextOverflow.Ellipsis)
+            // The text being heard in the reader, at its page.
+            textRoute(state)?.let { route ->
+                LinkText(tr("Go to source"), onClick = { onNavigate(route) }, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.testTag("go-to-source"))
+            }
+        }
         val problem = p.problem
         if (p.status == PlayerStatus.BLOCKED && problem != null) {
             InfoBanner(problemMessage(problem), tint = AppAccents.orange, icon = Icons.Default.Warning)
