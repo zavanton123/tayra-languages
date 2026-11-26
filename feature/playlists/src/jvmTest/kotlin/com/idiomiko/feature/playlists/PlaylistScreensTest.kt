@@ -280,13 +280,12 @@ class PlaylistScreensTest {
     @Test
     fun aPhonesEmptyPlaylistSaysHowToFillIt() = runDesktopComposeUiTest(width = 400, height = 900) {
         val id = runBlocking { data.service.create(data.languageId, PlaylistDraft("Travel Portuguese")) }
-        var left = false
-        page(data.playlists()) { PlaylistDetailScreen(id, onNavigate = {}, onBack = { left = true }, viewModel = data.detail(id)) }
+        page(data.playlists()) { PlaylistDetailScreen(id, onNavigate = {}, onBack = {}, viewModel = data.detail(id)) }
         waitUntil(timeoutMillis = 5_000) { shown("empty-playlist") }
         onNodeWithTag("add-texts").assertExists()
+        // The bar's back arrow leads back; the card has no link of its own.
+        onNodeWithText("Back to playlists").assertDoesNotExist()
         screenshot("playlist-empty-phone")
-        onNodeWithText("Back to playlists").performClick()
-        assertTrue(left)
     }
 
     /** A language always has its main playlist: there from the start, and with no way to delete it. */

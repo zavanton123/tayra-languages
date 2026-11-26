@@ -167,7 +167,7 @@ internal fun PlaylistPage(
             }
             if (state.isLoaded) NowPlayingStrip(state, compact = true, onOpen = { onNavigate(Route.Player) })
             if (empty) {
-                EmptyPlaylist(onAdd = { onNavigate(Route.AddToPlaylist(playlist.id)) }, onBack = onBack)
+                EmptyPlaylist(onAdd = { onNavigate(Route.AddToPlaylist(playlist.id)) })
             } else {
                 Column(Modifier.fillMaxWidth().cardSurface(AppShapes.large)) {
                     playlist.items.forEachIndexed { index, item ->
@@ -235,7 +235,7 @@ internal fun PlaylistPane(viewModel: PlaylistDetailViewModel, onNavigate: (Route
         HeaderCard(state, playlist, viewModel, onNavigate, onDelete = { deleting = true })
     }
     if (playlist.items.isEmpty()) {
-        EmptyPlaylist(onAdd = { onNavigate(Route.AddToPlaylist(playlist.id)) }, onBack = null, Modifier.heightIn(min = (height - above - AppSpacing.pane).coerceAtLeast(0.dp)))
+        EmptyPlaylist(onAdd = { onNavigate(Route.AddToPlaylist(playlist.id)) }, Modifier.heightIn(min = (height - above - AppSpacing.pane).coerceAtLeast(0.dp)))
     } else TextsCard(state, playlist, viewModel, onNavigate)
     if (deleting) DeletePlaylistDialog(playlist, state.duration, onConfirm = { deleting = false; viewModel.delete() }, onDismiss = { deleting = false })
 }
@@ -488,7 +488,7 @@ private fun ItemMenu(item: PlaylistItem, index: Int, count: Int, viewModel: Play
 
 /** A playlist with no texts: what to do about it. */
 @Composable
-private fun EmptyPlaylist(onAdd: () -> Unit, onBack: (() -> Unit)?, modifier: Modifier = Modifier) {
+private fun EmptyPlaylist(onAdd: () -> Unit, modifier: Modifier = Modifier) {
     EmptyState(
         tr("This playlist is empty"),
         modifier.testTag("empty-playlist"),
@@ -496,7 +496,6 @@ private fun EmptyPlaylist(onAdd: () -> Unit, onBack: (() -> Unit)?, modifier: Mo
         action = {
             Spacer(Modifier.height(AppSpacing.s))
             PrimaryButton(tr("Add texts"), onClick = onAdd, icon = Icons.Default.Add, modifier = Modifier.testTag("add-texts"))
-            if (onBack != null) LinkText(tr("Back to playlists"), onClick = onBack)
         },
     )
 }
