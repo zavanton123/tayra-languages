@@ -19,4 +19,8 @@ KHMER_SPELLINGS = {
 
 # Pieces of the texts' loanwords and names the cut leaves where no word of the pack covers them (វី of វីដេអូ, ដា of កាណាដា,
 # ឡាយ, គី, ឡូ), which the pack has only as rare words ("to spread out", "rock"): they are no words of the texts.
-KHMER_EXCLUDE = {"ត្រ", "វី", "រា", "លប់", "ដា", "សេ", "បេ", "ឡាយ", "លី", "គី", "ឡូ", "ស្រ", "ធី", "រេ"}
+KHMER_EXCLUDE = {"ត្រ", "វី", "រា", "លប់", "ដា", "សេ", "បេ", "ឡាយ", "លី", "គី", "ឡូ", "ស្រ", "ធី", "រេ",
+                 # And those the courses past rank 1900 met: ដឺ, ម៉, រ៉ of French and English loanwords, ភេ and វក of ភេរវករ
+                 # "terrorist", គ្រ of គ្រវី "to wave", គម of សហគមន៍ "community", ព្រីង of place names (តាព្រីង), ថូ of
+                 # ថូម៉ាស "Thomas", ណោះ of ប៉ុណ្ណោះ written ប៉ុនណោះ.
+                 "ដឺ", "ម៉", "រ៉", "ភេ", "វក", "គ្រ", "គម", "ព្រីង", "ថូ", "ណោះ"}
