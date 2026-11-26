@@ -3700,11 +3700,11 @@ def strip_templates(text):
     return "".join(out)
 
 
-def wikipedia_counts(language, limit, separated=None):
+def wikipedia_counts(language, limit, separated=None, joined=None):
     """
     The counts of the words of a language's Wikipedia articles, the [limit] commonest; with [separated], a dict, that counts
     besides how often each was written with a zero-width space before or after it, as Khmer's are where an editor separated
-    its words.
+    its words; with [joined], a dict, that counts too the words of the articles with their zero-width spaces dropped.
     """
     wiki = WIKIPEDIAS.get(language, language)
     name = f"wikipedia-{wiki}.xml.bz2"
@@ -3756,6 +3756,9 @@ def wikipedia_counts(language, limit, separated=None):
                         counts[word] += 1
                         if text[match.start() - 1:match.start()] == ZWSP or text[match.end():match.end() + 1] == ZWSP:
                             separated[word] += 1
+                    if joined is not None:
+                        for word in WIKI_WORD.findall(text.replace(ZWSP, "")):
+                            joined[lower(language, word)] += 1
     top = sorted(counts.items(), key=lambda kv: -kv[1])[:limit]
     return dict(top), f"{wiki}.wikipedia.org articles"
 
@@ -5605,7 +5608,10 @@ KHMER_NASAL = re.compile("\u17c6(?=[\u1780-\u17a2])|\u1798\u17d2(?=[\u1780-\u17a
 
 
 def khmer_subtitle_runs():
-    """The runs of Khmer letters in OPUS's Khmer subtitles (OpenSubtitles v2024), how often each, or None without them."""
+    """
+    The runs of Khmer letters in OPUS's Khmer subtitles (OpenSubtitles v2024), their zero-width spaces dropped, how often
+    each, or None without them.
+    """
     import gzip
     path = download(KHMER_SUBTITLES, "opus-opensubtitles-v2024-km.txt.gz")
     if path is None:
@@ -5613,7 +5619,7 @@ def khmer_subtitle_runs():
     runs = defaultdict(int)
     with gzip.open(path, "rt", encoding="utf-8") as f:
         for line in f:
-            for match in KHMER_RUN.finditer(line):
+            for match in KHMER_RUN.finditer(line.replace(ZWSP, "")):
                 runs[match.group(0)] += 1
     return runs
 
@@ -5627,20 +5633,24 @@ def build_khmer(size):
     """
     db = sqlite3.connect(os.path.join(DICTIONARIES, "km-en.sqlite"))
     pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
-    separated = defaultdict(int)
-    found = wikipedia_counts("km", 10 ** 9, separated)
+    separated, joined = defaultdict(int), defaultdict(int)
+    found = wikipedia_counts("km", 10 ** 9, separated, joined)
     if not found:
         sys.exit("No frequency source has km")
     chunks, wiki_label = found
     known = {khmer_fold(w) for w in pack}
     by_pack = segmenter("km", pack)
-    runs = defaultdict(int)
     alone = defaultdict(int)
     for chunk, n in chunks.items():
+        if KHMER_RUN.fullmatch(chunk):
+            alone[chunk] += separated.get(chunk, 0)
+    # The texts write a zero-width space where an editor or a tool separated words, but also between the syllables of a word
+    # (ទាក់\u200bទង, រួប\u200bរួម), which would count its pieces as words: they are counted without them, as the reader cuts
+    # the same text written without them, as the courses are; the subtitles too (khmer_subtitle_runs).
+    runs = defaultdict(int)
+    for chunk, n in joined.items():
         for match in KHMER_RUN.finditer(chunk):
             runs[match.group(0)] += n
-            if match.group(0) == chunk:
-                alone[chunk] += separated.get(chunk, 0)
     extra = set()
     for run, n in alone.items():
         folded = khmer_fold(run)
