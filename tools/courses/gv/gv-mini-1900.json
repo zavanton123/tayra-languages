@@ -1,0 +1,225 @@
+{
+  "id": "gv-mini-1900",
+  "rankUpTo": 1900,
+  "level": "B1",
+  "title": "Lettyryn as naightyn",
+  "description": "Ten mini stories about letters, messages and media: a postman in a storm, translating emigrants' old letters, a text message from an unknown number, a TV history series, a radio cook, a children's programme on dinosaurs, a newspaper's 150th year, a radio play about a buggane, a science programme on chlorine and eyes, and a golden wedding filmed for the family.",
+  "topic": "Letters, messages and media",
+  "names": [
+    "Owain",
+    "Caine",
+    "Andreas",
+    "Vannin",
+    "Ned",
+    "Kewell",
+    "Rhumsaa",
+    "Canada",
+    "Jocelyn",
+    "Corjeag",
+    "Doolish",
+    "Cleveland",
+    "America",
+    "Dale",
+    "Crye",
+    "Milo",
+    "Niamh",
+    "Clugston",
+    "Pheeil",
+    "Keira",
+    "Cormac",
+    "Sostyn",
+    "Hamish",
+    "Lochlynee",
+    "Norlynn",
+    "Magnus",
+    "Goldie",
+    "Priya",
+    "Shah",
+    "Elodie",
+    "Gwenda",
+    "Moffat",
+    "Dermot",
+    "Kerr",
+    "Tansy",
+    "Moorcroft",
+    "Laksaa",
+    "Barnaby",
+    "Fenwick",
+    "Anjali",
+    "Rao",
+    "Mabel",
+    "Horace",
+    "Lockhart",
+    "Ottilie",
+    "Bramble"
+  ],
+  "lessons": [
+    {
+      "title": "Yn fer-post ayns y sterrym",
+      "summary": "Owain Caine, the postman of the parish of Andreas, takes an important letter to an old farmer in a storm; he jumps a ditch and soaks his shoe, sees a fox at the gate, and dries his shoes by the farmer's fire.",
+      "newWords": [
+        "post",
+        "postagh",
+        "skyll",
+        "giat",
+        "sterrym",
+        "braag",
+        "shynnagh",
+        "lheim",
+        "clash",
+        "çhirmee"
+      ],
+      "text": "Ta Owain Caine ny fer-post ayns skyll Andreas, 'sy twoaie jeh Ellan Vannin. Dagh moghrey, t'eh goaill ny lettyryn veih'n oik postagh ayns Rhumsaa. Eisht t'eh goll mygeayrt y skyll ayns gleashtan jiarg. Ta'n skyll shoh mooar as rea, as ta ram thieyn eirinee ayn.\n\nJeheiney, va sterrym ayn. Va'n gheay feer lajer, as va'n fliaghey trome. “Ta'n sterrym ro lajer,” dooyrt y ven ec yn oik postagh. “Cha nel feme ayd goll magh jiu.” Agh va lettyr scanshoil 'sy phost son shenn eirinagh, Ned Kewell. Va'n lettyr veih mac Ned, ta cummal ayns Canada. Cha row Ned er chlashtyn veih e vac rish blein.\n\nHie Owain magh 'sy sterrym. Va ushtey er dagh raad, as va'n gleashtan goll dy moal. Ec thie Ned, va'n giat dooint. Hie Owain magh ass y gleashtan dy osley y giat. Va clash ry-lhiattee rish y giat, as va'n clash lane dy ushtey. Ren Owain lheim harrish y clash, agh cha row y lheim mooar dy liooar. Hie e chass 'sy chlash, as va e vraag lane dy ushtey.\n\nEc y giat, honnick eh shynnagh. Va'n shynnagh jiarg ny hassoo fo'n chleigh, ayns fastee veih'n sterrym. Va'n shynnagh fliugh, myr Owain hene. Ren y shynnagh lheim harrish y giat, as roie eh ersooyl trooid ny magheryn.\n\nHaink Ned magh ass y thie. “Haink oo trooid y sterrym shoh?” dooyrt eh. “Haink,” dooyrt Owain. “Ta lettyr ayns y phost dhyt veih dty vac.” Hug Ned Owain stiagh 'sy thie, faggys da'n aile. “Ta dty vraagyn fliugh,” dooyrt eh. “Cur jeh ny braagyn, as cur ad rish yn aile dy çhirmaghey.” Ren Owain shen. Va Ned lhaih y lettyr, as va Owain iu tey. Lurg lieh oor, va ny braagyn çhirmit, as cha row sterrym ayn ny sodjey. Va Ned booiagh.\n\nFeyshtyn:\nQuoi ta Owain Caine?\nShe fer-post eh ayns skyll Andreas.\nCre'n emshir va ayn Jeheiney?\nVa sterrym ayn.\nCre va ry-lhiattee rish y giat?\nVa clash lane dy ushtey ry-lhiattee rish y giat.\nCre honnick Owain ec y giat?\nHonnick eh shynnagh jiarg.\nCre'n fa hug Owain e vraagyn rish yn aile?\nHug eh ad rish yn aile dy çhirmaghey ad."
+    },
+    {
+      "title": "Lettyryn veih Cleveland",
+      "summary": "The translator Jocelyn Corjeag and her student Milo translate twelve old Manx letters sent by Dale Crye, whose forefathers belonged to the Manx diaspora in Cleveland; phonetics helps with the spelling, mining words are technical, and Manx syntax and transitive verbs are unlike English.",
+      "newWords": [
+        "çhyndaader",
+        "eebyrtys",
+        "keeayllee",
+        "coreir",
+        "aistragh",
+        "sheeanaghtys",
+        "ashoonaght",
+        "çhaghnoil",
+        "undinagh",
+        "neuchosoylagh"
+      ],
+      "text": "Ta Jocelyn Corjeag ny çhyndaader ayns Doolish. T'ee çhyndaa lioaryn as lettyryn veih Gaelg gys Baarle. Er y vee shoh chaie, haink kishtey veg huic 'sy phost veih Cleveland ayns America. Va daa lettyr jeig ayns y chishtey, as v'ad screeuit ayns Gaelg 'sy vlein 1850.\n\nVa ny lettyryn currit huic liorish Dale Crye. Ta Dale cummal ayns Cleveland. Roish 1850, hie ram sleih veih Ellan Vannin dys Cleveland, as v'ad cummal faggys da'n cheilley ayns shen. Ta'n eebyrtys shoh foast ayn jiu: ta ram sleih ayns Cleveland gra dy vel ad jeh sleih yn ellan. Va shennayryn Dale ayns yn eebyrtys. “Cha nel ashoonaght yn ellan aym,” screeu Dale ayns e lettyr, “agh ta my chree ayns Ellan Vannin. Cha nel ashoonaght agh fockle er pabyr.”\n\nTa studeyr ec Jocelyn, Milo. Ta Gaelg undinagh ec Milo: t'eh toiggal fockleyn undinagh as raaghyn giare, agh cha nel eh toiggal ny lettyryn shenn foast. Ren Jocelyn as Milo ny lettyryn y lhaih ry-cheilley.\n\nVa ny screeudeyryn shenn screeu myr v'ad loayrt, as cha row y screeu oc kiart dy kinjagh. “Shen y fa ta sheeanaghtys ymmydoil da çhyndaader,” dooyrt Jocelyn. “Ta sheeanaghtys ginsh dooin cre'n aght ta fockle er ny ghra. My ta mee gra y fockle ard, ta mee toiggal eh.” Va fockle ayns y chied lettyr nagh row Milo toiggal. “Cre ta'n fockle shoh keeayllaghey?” dooyrt eh. Dooyrt Jocelyn y fockle ard. “T'eh keeayllaghey 'mian',” dooyrt ee. Va ram jeh ny screeudeyryn gobbraghey ayns mianyn, as ta fockleyn çhaghnoil ayns ny lettyryn mychione yn obbyr shen. Ta fockleyn çhaghnoil doillee son dagh çhyndaader.\n\nEisht loayr Jocelyn mychione coreir. “Ta coreir y Ghaelg neuchosoylagh rish coreir y Baarle,” dooyrt ee. “Ayns Gaelg, ta'n breear ec toshiaght y raa. Ayns shen, ta ny çhengaghyn neuchosoylagh. Jeeagh er y raa shoh: 'Ren mee lettyr y screeu.' She breear aistragh 'screeu': ta red ec breear aistragh, as she'n lettyr y red ayns shoh.” Ren Milo breearyn aistragh elley y hirrey ayns ny lettyryn.\n\nLurg mee, va ny lettyryn ooilley çhyndaait. Hug Jocelyn y Baarle dys Dale 'sy phost. Screeu Dale reesht: “Ta mee feer booiagh! Nish ta fys aym cre'n bea va ec my shennayryn.”\n\nFeyshtyn:\nCre ta Jocelyn Corjeag jannoo?\nShe çhyndaader ee ayns Doolish.\nCre va 'sy chishtey veih Cleveland?\nVa daa lettyr jeig ayns Gaelg 'sy chishtey.\nVel ashoonaght yn ellan ec Dale?\nCha nel, agh ta e chree ayns Ellan Vannin.\nCre'n fa ta sheeanaghtys ymmydoil da çhyndaader?\nTa sheeanaghtys ginsh cre'n aght ta fockle er ny ghra.\nVel coreir y Ghaelg as coreir y Baarle casley?\nCha nel. T'ad neuchosoylagh."
+    },
+    {
+      "title": "Yn çhaghteraght noa",
+      "summary": "Fifteen-year-old Niamh Clugston in Peel gets a message from a number missing from her contacts, inviting her somewhere on Saturday; her friend Keira whispers a warning, Niamh deletes it, and that evening learns to her surprise that it was her brother Cormac with a new phone.",
+      "newWords": [
+        "jeigeyr",
+        "doll",
+        "sannish",
+        "coventyn",
+        "yindys",
+        "cuirr",
+        "aigh",
+        "kys",
+        "c'raad",
+        "ugh"
+      ],
+      "text": "Ta Niamh Clugston ny jeigeyr. T'ee queig bleeaney jeig d'eash, as t'ee goll dys y scoill ayns Pheeil. Myr ram jeigeyryn, ta çhellvane ec Niamh, as t'ee jeeaghyn er dagh traa.\n\nJeheiney, ayns y rang Frangish, haink çhaghteraght er y çhellvane eck. Cha row yn earroo ayns ny coventyn eck. “Kys t'ou, Niamh?” dooyrt y çhaghteraght. “Ta mee cuirr oo dys daunse Jesarn. Bee bee as kiaull ayn.”\n\nVa yindys er Niamh. Ren ee sannish rish e carrey, Keira: “C'raad haink y çhaghteraght shoh veih? Cha nel yn earroo ayns my choventyn.” Dooyrt Keira ayns sannish: “Ugh! Ny jean freggyrt. Cha nel fys ayd quoi t'ayn.”\n\nVa fys ec Niamh dy row Keira kiart. Dooyrt e moir rish dy mennick: “My ta çhaghteraght çheet veih earroo nagh vel ayns dty choventyn, ny jean freggyrt. Doll eh.” Shen y fa ren Niamh y çhaghteraght y dolley. Ec y traa shen, dooyrt yn ynseyder: “Niamh! Ny jean jeeaghyn er y çhellvane 'sy rang!” “Ugh,” dooyrt Niamh.\n\n'Sy fastyr, ec y thie, haink çhaghteraght elley veih'n earroo cheddin. “Shoh Cormac, dty vraar! Ta çhellvane noa aym. Row oo er lhaih y çhaghteraght aym? Ta mee cuirr oo dys y daunse son my laa ruggyree.” Ta Cormac ec yn ollooscoill ayns Sostyn, as cha row Niamh er chlashtyn veih rish mee.\n\nVa yindys mooar er Niamh. Screeu ee: “Va mee er dolley yn chied çhaghteraght! Cha row dty earroo noa ayns my choventyn.” Hug ee yn earroo noa ayns ny coventyn eck. Eisht screeu ee: “Kys ta'n bea ayns Sostyn? C'raad vees y daunse? Aigh vie lesh y çhellvane noa!” Dooyrt Cormac: “Bee'n daunse ayns Pheeil. As aigh vie lesh y rang Frangish!”\n\nFeyshtyn:\nQuoi ta Niamh Clugston?\nShe jeigeyr ee ayns Pheeil.\nRow'n earroo ayns ny coventyn eck?\nCha row.\nCre dooyrt Keira ayns sannish?\nDooyrt ee: “Ny jean freggyrt.”\nCre ren Niamh lesh y chied çhaghteraght?\nRen ee y çhaghteraght y dolley.\nQuoi chuirr Niamh dys y daunse?\nChuirr e braar Cormac ee."
+    },
+    {
+      "title": "Shennaghys er y çhellveeish",
+      "summary": "In a TV history series Hamish Crye stands on a skerry at low tide, tells of hunters with bows, walks the long passage of an old cairn inland, describes the Viking landing and the valiant ruler who defended his land, and shows Viking gold found by a farmer.",
+      "newWords": [
+        "tarlheim",
+        "sker",
+        "tidey",
+        "trean",
+        "fend",
+        "shelgeyr",
+        "bow",
+        "antraie",
+        "airh",
+        "limmer"
+      ],
+      "text": "Ta Hamish Crye jannoo straih shennaghys son y çhellveeish. 'Sy chied ayrn, t'eh ny hassoo er sker beg faggys da'n traie ec Purt ny h-Inshey. Ta'n tidey injil, as t'eh abyl shooyl magh dys y sker. “Tra ta'n tidey ard, ta'n sker fo'n ushtey,” t'eh gra. “Ta feme orrym goll er-ash roish my hig y tidey.”\n\nT'eh ginsh mychione ny chied sleih va cummal 'syn ellan. “Roish nane thousane blein, va shelgeyryn cummal ayns shoh. Va ny shelgeyryn goll trooid ny keylljyn lesh bow ayns nyn laueyn. Lesh y vow, v'ad marroo feeaih as ushagyn son bee.” Ta bow shenn ec Hamish, as t'eh jeeaghyn yn aght va'n shelgeyr cummal eh.\n\nEisht t'eh goll dys yn antraie. “Ayns antraie yn ellan, foddey veih'n cheayn, ta carnane shenn er cronk,” t'eh gra. “Ta limmer liauyr çheusthie jeh'n charnane, as ta'n limmer jeant jeh claghyn mooarey. Va'n sleih shenn cur ny merriu ayns y limmer.” Ta Hamish shooyl trooid y limmer lesh soilshey ayns e laue.\n\n'Sy nah ayrn, t'eh loayrt mychione ny Lochlynee. “Haink ny Lochlynee er lhongyn veih Norlynn. Va'n chied tarlheim oc er y traie shoh. Lurg y tarlheim, hie ad stiagh dys antraie yn ellan.” Va ree trean ec sleih yn ellan. “Va'n ree shoh trean as lajer,” dooyrt Hamish. “Ren eh fend y thalloo echey rish tammylt. Agh va ny Lochlynee ro lajer, as cha row eh abyl fend yn ellan rish traa liauyr.”\n\nEc y jerrey, t'eh soiaghey airh er y voayrd. “Va'n airh shoh feddynit 'sy thalloo ec eirinagh 'sy vlein 1990,” t'eh gra. “Ta fainney airh ayn, as peeshyn argid. Va'n airh shoh ec fer jeh ny Lochlynee, as va ram argid echey.”\n\nFeyshtyn:\nRaad ta Hamish ny hassoo 'sy chied ayrn?\nT'eh ny hassoo er sker beg faggys da'n traie.\nCre'n fa ta feme er goll er-ash?\nTra ta'n tidey ard, ta'n sker fo'n ushtey.\nCre va ayns laueyn ny shelgeyryn?\nVa bow ayns nyn laueyn.\nCre ta çheusthie jeh'n charnane?\nTa limmer liauyr çheusthie jeh'n charnane.\nQuoi ren fend y thalloo?\nRen ree trean fend y thalloo."
+    },
+    {
+      "title": "Coagyrey er y radio",
+      "summary": "The radio cook Magnus Goldie shops at the market for a leek, peas and beetroot, softens the leek in hot water, explains lipids and sodium chloride, warns against a salty supper, and tells a listener to keep her leftovers for the next day.",
+      "newWords": [
+        "coagyrey",
+        "cannian",
+        "pishyr",
+        "beetys",
+        "sailjey",
+        "fooillagh",
+        "cloreed",
+        "lipaid",
+        "boggee",
+        "shappal"
+      ],
+      "text": "Ta Magnus Goldie ny choagyrey. Dagh Jesarn, t'eh jannoo claare son y radio. Ayns y chlaare jiu, t'eh jannoo shibbyr veih lossreeyn glassey.\n\n“Hoshiaght, hie mee dys y margey ayns Doolish son y shappal,” t'eh gra. “Ta'n shappal ec y margey ny share na'n shappal ayns shapp mooar. Ghow mee cannian mooar, pishyryn as beetys veih eirinee yn ellan.”\n\n“Ta'n cannian lus glass as bane, as t'eh liauyr. Ta mee giarey yn cannian ayns peeshyn beggey, as ta mee cur eh ayns beggan ushtey çheh. Lurg tammylt giare, ta'n cannian boggaghey. Tra t'eh boggit, ta mee cur ny smoo dy ushtey çheh er.”\n\n“Ta lipaidyn ayns ram bee: ayns feill, ayns bainney as ayns arran millish. Ta feme ec y chorp orroo, agh cha nel ro vooar dy lipaidyn mie dhyt. Shen y fa nagh vel mee cur agh beggan bainney 'sy shibbyr.”\n\n“Nish, sollan. Ta ennym elley er sollan ayns sheanse: cloreed sodjum. Ta cloreed sodjum ayns ram bee, as ta ram sleih gee ro vooar jeh. Cha nel mee laccal shibbyr sailjey. Va shibbyr my voir ro hailjey dy kinjagh! Shen y fa ta mee cur agh beggan sollan 'sy shibbyr.”\n\n“Ec y jerrey, ta mee cur ny pishyryn stiagh. Cha nel feme ec ny pishyryn er traa liauyr: tammylt giare, as t'ad jeant. As ta'n beetys son yn nah laa: ta mee giarey yn beetys, as ta mee cur eh lesh arran.”\n\nEc jerrey yn chlaare, haink çhaghteraght veih ben ayns Rhumsaa. “Ta ram bee aym lurg y shibbyr,” dooyrt ee. “Cre ta mee jannoo lesh y fooillagh?” Dooyrt y coagyrey: “Cur y fooillagh ayns y chishtey feayr. Ta'n fooillagh mie y nah laa. Ta bee ny share y nah laa, dy mennick.”\n\nFeyshtyn:\nQuoi ta Magnus Goldie?\nShe coagyrey eh er y radio.\nCre ghow eh ec y margey?\nGhow eh cannian, pishyryn as beetys.\nCre ta taghyrt da'n cannian 'syn ushtey çheh?\nT'eh boggaghey.\nCre'n ennym elley t'er sollan?\nCloreed sodjum.\nCre'n fa nagh vel eh laccal ram sollan?\nCha nel eh laccal shibbyr sailjey.\nCre ta'n ven ayns Rhumsaa dy yannoo lesh y fooillagh?\nT'ee dy chur y fooillagh ayns y chishtey feayr."
+    },
+    {
+      "title": "Ny jeeneysoaryn",
+      "summary": "On a children's TV programme Priya Shah and eight-year-old Elodie talk about dinosaurs: land dinosaurs and water animals, long-necked plant-eaters reaching the foliage, dwarf dinosaurs on islands, feathered dinosaurs in reality unlike in films, eggs laid in nests, and great eruptions.",
+      "newWords": [
+        "jeeneysoar",
+        "fedjagagh",
+        "crivassanagh",
+        "thallooinagh",
+        "ushtagh",
+        "brey",
+        "bruight",
+        "rieughid",
+        "duillagys"
+      ],
+      "text": "Ta Priya Shah jannoo claare son paitçhyn er y çhellveeish. Jiu, ta'n claare mychione jeeneysoaryn. Ta Elodie, inneen hoght bleeaney, ny soie marish.\n\n“Va jeeneysoaryn cummal er y Theihll roish ram, ram bleeantyn,” dooyrt Priya. “Va ny jeeneysoaryn ooilley thallooinagh: v'ad cummal er y thalloo. Ta moddee as kiyt jiu thallooinagh myrgeddin. Va baaghyn mooarey elley ushtagh: v'ad cummal 'sy cheayn. Agh cha nee jeeneysoaryn ad, dy firrinagh.”\n\n“Va paart jeh ny jeeneysoaryn feer vooar, as v'ad gee duillagys veih ny biljyn ard. Va'n mwannal oc cho liauyr, dy row ad abyl roshtyn y duillagys ec mullagh ny biljyn. Cha row ad gee feill.”\n\n“Agh va jeeneysoaryn crivassanagh ayn myrgeddin. Er ellanyn, cha row mooarane bee ayn, as va ny jeeneysoaryn crivassanagh beg. Va paart jeh ny jeeneysoaryn crivassanagh cho beg as cabbyl.”\n\n“Vel ny jeeneysoaryn ayns ny filmyn kiart?” dooyrt Elodie.\n\n“Cha nel dy kinjagh,” dooyrt Priya. “Ayns ny filmyn, cha nel ny jeeneysoaryn fedjagagh. Agh ayns y rieughid, va ram jeh ny jeeneysoaryn fedjagagh. Ta ny ushagyn jiu çheet veih jeeneysoaryn fedjagagh. Ta'n rieughid ny s'yindyssagh na ny filmyn!”\n\n“Va ny jeeneysoaryn brey oohyn, myr ushagyn. Va ny moiraghyn brey ny h-oohyn ayns edd er y thalloo, as v'ad freayll ny h-oohyn çheh.”\n\n“Kys hooar ny jeeneysoaryn baase?” dooyrt Elodie.\n\n“Haink clagh vooar veih'n speyr,” dooyrt Priya. “As va bruightey mooar ayns ny sleityn rish ram bleeantyn: va aile as clagh çheh çheet magh ass ny sleityn. Lurg y clagh as y bruightey, va'n aer doo, as cha row soilshey dy liooar ec ny biljyn. Cha row duillagys dy liooar ayn, as hooar ny jeeneysoaryn baase.”\n\nFeyshtyn:\nMychione cre ta'n claare jiu?\nTa'n claare mychione jeeneysoaryn.\nRaad va ny baaghyn ushtagh cummal?\nV'ad cummal 'sy cheayn.\nCre va ny jeeneysoaryn mooarey gee?\nV'ad gee duillagys veih ny biljyn ard.\nRow ny jeeneysoaryn fedjagagh?\nVa ram jeh ny jeeneysoaryn fedjagagh.\nCre ren ny moiraghyn ayns edd?\nRen ad brey oohyn ayns edd er y thalloo."
+    },
+    {
+      "title": "Yn pabyr-naight shenn",
+      "summary": "For her Douglas newspaper's 150th year the editor Gwenda Moffat reads old issues: its founding in 1876, its progressive stand when women got the vote in 1881, the town commission giving way to the mayoralty in 1896 and a unitary schools board; she finishes the special issue, speaks from a platform, and the paper goes online as an alternative.",
+      "newWords": [
+        "meoiraght",
+        "commishoon",
+        "immeeaghtagh",
+        "kiartys",
+        "maylart",
+        "ardane",
+        "creaghney",
+        "unnidagh",
+        "bunney"
+      ],
+      "text": "Ta Gwenda Moffat gobbraghey ec pabyr-naight ayns Doolish. Ren daa vraar bunney yn pabyr 'sy vlein 1876, as ta'n pabyr keead as lieh blein d'eash er y vlein shoh. Va'n bunney shen feer doillee: cha row argid dy liooar ec ny braaraghyn. Er y vlein shoh, ta Gwenda screeu pabyr er lheh mychione shennaghys y phabyr.\n\nRish shiaghtin, va Gwenda lhaih shenn phabyryn. 'Sy vlein 1881, va kiartys reih currit da paart dy vraane ayns Ellan Vannin, roish çheer erbee elley. Va'n pabyr immeeaghtagh ayns ny laghyn shen. Screeu eh dy row y kiartys shen cair, as dy row eh traa dy chur y kiartys cheddin da dy chooilley ven. Cha row ooilley ny lhaihderyn booiagh lesh y pabyr immeeaghtagh.\n\nRoish 1896, va commishoon reill Doolish. Va'n commishoon jeant jeh sleih veih'n valley. 'Sy vlein 1896, haink y meoiraght: va meoir ec Doolish son y chied cheayrt. Screeu yn pabyr dy row y meoiraght mie son y valley, agh dy row y shenn commishoon er jannoo obbyr vie myrgeddin. Ny sodjey er, screeu eh mychione boayrd unnidagh noa son ny scoillyn: un voayrd unnidagh son yn ellan ooilley, ayns ynnyd ram boayrd beg.\n\nRen Gwenda y pabyr er lheh y chreaghney Jedoonee. Va'n obbyr çhionn: va traa giare eck dy chreaghney. Agh hooar ee eh jeant.\n\nJeheiney, va quail ayns thie-whaiyl y valley. Va ardane ayns y thie-whaiyl. Hass Gwenda er yn ardane, as loayr ee mychione y phabyr. “Ta sleih aegey lhaih yn naight er y çhellvane,” dooyrt ee. “Shen y fa ta raad maylartagh ain nish: ta'n pabyr er y voayl-eggey myrgeddin. Ta'n raad maylartagh shoh mie, agh ta'n pabyr hene foast ayn.” Haink ram sleih dys yn ardane lurg shen dy loayrt rish.\n\nFeyshtyn:\nCre'n vlein ren ny braaraghyn bunney yn pabyr?\nRen ad bunney yn pabyr 'sy vlein 1876.\nCre va currit da paart dy vraane 'sy vlein 1881?\nVa kiartys reih currit daue.\nQuoi va reill Doolish roish 1896?\nVa commishoon reill Doolish.\nCre haink 'sy vlein 1896?\nHaink y meoiraght.\nRaad hass Gwenda dy loayrt?\nHass ee er yn ardane 'sy thie-whaiyl."
+    },
+    {
+      "title": "Cloie radio mychione buggane",
+      "summary": "Actors record a radio play about a young shepherd who meets a buggane coming down the mountain: Dermot Kerr warms up his voice to roar, sweats and hurts his throat, the shepherd sees the buggane first in a dream, the complicated sounds are made with the palm of a hand, and a sculptor makes a buggane for the pictures.",
+      "newWords": [
+        "buggane",
+        "bochilley",
+        "ollish",
+        "goolag",
+        "neose",
+        "bass",
+        "jallooder",
+        "ashlish",
+        "cramp",
+        "çhiow"
+      ],
+      "text": "Ta cloie noa er y radio mychione buggane. Ayns y chloie, ta bochilley aeg freayll ny kirree echey er y clieau. Ta'n bochilley cadley ec y thie beg echey 'sy tourey. Un oie, ta'n buggane çheet neose veih mullagh y clieau. Ta'n bochilley roie ersooyl, as ta'n buggane çheet neose ny yei.\n\nTa Dermot Kerr cloie y buggane. Roish my t'eh cloie, t'eh çhiow e ghoo. “Ta mee çhiow my ghoo dagh keayrt roish my ta mee goaill arrane ny cloie,” t'eh gra. Ta feme echey er goo mooar garroo son y buggane. Lurg tree ooryn, ta goolag Dermot ching. Ta ollish er e eddin, as t'eh iu ushtey çheh son e ghoolag. “Ta obbyr y buggane cha doillee as obbyr ayns y vagher,” t'eh gra, as t'eh glenney yn ollish veih e eddin.\n\nTa Tansy Moorcroft cloie y bochilley. Ayns y chloie, ta ashlish ec y bochilley: t'eh fakin y buggane ayns ashlish roish my t'eh çheet. 'Syn ashlish, ta'n buggane ny hassoo ec y thie. Lurg yn ashlish, ta'n bochilley goaill ny kirree echey dys y valley ayns Laksaa.\n\nTa ny sheeanyn ayns y chloie cramp. Ta ram sheeanyn ayn: y gheay, ny kirree, yn ushtey, as cassyn y vuggane. Son sheean ny cassyn, ta dooinney cur bass e laue sheese er y voayrd, keayrt as keayrt. Lurg y chloie, va bass e laue jiarg. “Ta'n obbyr cramp,” dooyrt eh, “agh ta sheean y vuggane mie.”\n\nSon ny jallooyn er y voayl-eggey, ren jallooder buggane mooar y yannoo. Ren y jallooder eh ass fuygh as clagh, as t'eh cho mooar as dooinney. Va'n jallooder booiagh lesh y vuggane echey.\n\nFeyshtyn:\nQuoi ta freayll kirree er y clieau 'sy chloie?\nTa bochilley aeg freayll kirree er y clieau.\nCre ta Dermot jannoo roish my t'eh cloie?\nT'eh çhiow e ghoo.\nCre'n fa ta goolag Dermot ching?\nTa feme echey er goo mooar garroo son y buggane.\nRaad ta'n bochilley fakin y buggane hoshiaght?\nT'eh fakin y buggane ayns ashlish.\nCre ren y jallooder?\nRen eh buggane mooar ass fuygh as clagh."
+    },
+    {
+      "title": "Ronsaght er y radio",
+      "summary": "On a radio science programme Barnaby Fenwick talks to Anjali Rao, who studied mechanics before turning to swimmers' eyes: chlorine hurts the visual system, her group tests a new drug kept in a small glass over eight weeks, the results are clear, and a licence is needed before it can be sold.",
+      "newWords": [
+        "ronsaght",
+        "drug",
+        "shiaghtyn",
+        "glonney",
+        "cloreen",
+        "leayr",
+        "shilleydagh",
+        "kiedoonys",
+        "obbrinaght"
+      ],
+      "text": "Ta Barnaby Fenwick jannoo claare sheanse er y radio. Jiu, t'eh loayrt rish Anjali Rao. Ta Anjali gobbraghey ec yn ollooscoill ayns Doolish.\n\n“Ren mee studeyrys er obbrinaght hoshiaght,” dooyrt Anjali. “Ta obbrinaght ronsaghey er cre'n aght ta reddyn gleashaghey, as cre'n aght ta ushtey roie. Ren mee ronsaght er obbrinaght rish queig bleeaney. Eisht ren mee caghlaa dys sooillyn.”\n\n“Cre'n ronsaght t'ou jannoo nish?” dooyrt Barnaby.\n\n“Ta mee jannoo ronsaght er sooillyn sleih ta snaue,” dooyrt ee. “Ta cloreen 'syn ushtey ayns dagh thie-snaue. Ta'n cloreen freayll yn ushtey glen, agh ta cloreen drogh son ny sooillyn. Ta'n cloreen jannoo drogh da'n chorys shilleydagh. Ta'n corys shilleydagh jeant jeh ny sooillyn as ny reddyn ta cur ny jallooyn dys yn inçhyn.”\n\n“As ta drug noa eu?”\n\n“Ta. Ta'n drug noa ayns glonney beg. Ta sleih cur beggan jeh'n drug ayns nyn sooillyn lurg snaue. Ta'n glonney beg dy liooar dy gholl ayns poagey.”\n\n“Cre wheesh traa ta'n ronsaght goaill?”\n\n“Hoght shiaghtyn. Ren feed jeu ymmyd jeh'n drug rish hoght shiaghtyn. Va ny feanishyn leayr: va nyn sooillyn ny share. Ta'n drug ayns y glonney leayr myr ushtey, as ta ny feanishyn leayr myrgeddin.”\n\n“Vod sleih y drug y chionnaghey nish?”\n\n“Cha nod. Ta feme ain er kiedoonys veih'n reiltys hoshiaght. Gyn kiedoonys, cha nod drug erbee ve creckit.”\n\nFeyshtyn:\nCre ren Anjali studeyrys er hoshiaght?\nRen ee studeyrys er obbrinaght.\nCre ta 'syn ushtey ayns dagh thie-snaue?\nTa cloreen 'syn ushtey.\nCre ta'n cloreen jannoo da'n chorys shilleydagh?\nT'eh jannoo drogh da.\nCre wheesh traa ghow yn ronsaght?\nGhow ee hoght shiaghtyn.\nVod sleih y drug y chionnaghey nish?\nCha nod. Ta feme er kiedoonys hoshiaght."
+    },
+    {
+      "title": "Yn jalloo bun ry skyn",
+      "summary": "At Mabel and Horace Lockhart's golden wedding party in Laxey their granddaughter Ottilie films a message: Mabel's corset dress, Horace's love of motorsport and beer, the pedigree dog wrongly blamed for the missing cake, the gull that really took it and fell into the nettles, and the wedding photo hung upside down.",
+      "newWords": [
+        "cubbyl",
+        "corsaid",
+        "fuilleeaght",
+        "beer",
+        "skyn",
+        "foillan",
+        "shiu",
+        "undaagagh",
+        "neuloaghtagh",
+        "gleashagh"
+      ],
+      "text": "Ta Mabel as Horace Lockhart poost rish lieh-cheead blein. Ta'n cubbyl cummal ayns Laksaa, as Jesarn, va cuirraghyn ayns y gharey oc. Haink ram sleih: y lught-thie as caarjyn. Va Ottilie, inneen nyn inneen, jannoo fillym son y lught-thie ayns Sostyn.\n\n“Vel shiu booiagh?” dooyrt Ottilie rish y chubbyl. “Ta shiu er y fillym nish!”\n\nRen Mabel loayrt hoshiaght. Va'n eaddagh poosee eck er, as va corsaid fo'n eaddagh. “Va'n corsaid shoh çhionn ayns 1976,” dooyrt ee. “T'eh ny s'çhionney nish!”\n\nEisht loayr Horace. “S'mie lhiam spoyrt gleashagh,” dooyrt eh. “Ren mee y spoyrt gleashagh y yeeaghyn dagh blein, as ren Mabel shen marym.” Va beer ayns e laue. “Er y laa poosee, va ny sleih iu beer as tey,” dooyrt eh. “Jiu, beer reesht!”\n\nVa moddey ec y chubbyl, Bramble. Ta fuilleeaght vie ec Bramble: va e ayr as e voir mie er enney. “Ta fuilleeaght vie echey,” dooyrt Horace, “agh cha nel y fuilleeaght freayll eh veih jannoo drogh reddyn.”\n\nVa arran millish mooar er y voayrd. Lurg tammylt, va'n arran millish ersooyl. “Bramble!” dooyrt Mabel. Agh va Bramble neuloaghtagh. Honnick Ottilie y foillan: va'n foillan er ghoaill yn arran millish, as v'ee getlagh harrish y gharey. Duitt yn arran millish ass gob y foillan, as hie yn foillan sheese 'syn undaagagh ec bun y gharey. Va'n undaagagh ard as glass. Hie yn foillan ersooyl, agh va'n arran millish 'syn undaagagh. “Ta Bramble neuloaghtagh,” dooyrt Ottilie.\n\nEc y jerrey, hug Ottilie jalloo poosee y chubbyl er y voalley. Agh va'n jalloo bun ry skyn! Va ooilley ny sleih jeeaghyn er. “Shen myr va'n laa poosee,” dooyrt Horace. “Va dy chooilley nhee bun ry skyn, agh va shin booiagh.”\n\nFeyshtyn:\nCre wheesh traa ta Mabel as Horace poost?\nT'ad poost rish lieh-cheead blein.\nCre va fo eaddagh poosee Mabel?\nVa corsaid fo'n eaddagh.\nCre'n spoyrt s'mie lesh Horace?\nS'mie lesh spoyrt gleashagh.\nRen Bramble yn arran millish y ghoaill?\nCha ren. Va Bramble neuloaghtagh. Ghow y foillan eh.\nCre'n aght va'n jalloo er y voalley?\nVa'n jalloo bun ry skyn."
+    }
+  ]
+}
