@@ -330,7 +330,7 @@ internal fun ProblemDialog(
 ) {
     val colors = MaterialTheme.colorScheme
     val compact = LocalWindowWidth.current.isCompact
-    AppDialogSurface(onDismissRequest = onDismiss, maxWidth = DIALOG_WIDTH) {
+    AppDialogSurface(onDismissRequest = onDismiss, maxWidth = DIALOG_WIDTH, fullScreenOnPhone = false) {
         Box(Modifier.testTag("playback-problem")) {
             AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss, modifier = Modifier.align(Alignment.TopEnd).padding(AppSpacing.m))
             Column(Modifier.fillMaxWidth().padding(AppSpacing.xxl), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {

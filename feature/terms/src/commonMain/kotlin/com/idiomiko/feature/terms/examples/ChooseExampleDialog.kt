@@ -165,7 +165,7 @@ fun ChooseExampleDialog(
 
     AppDialogSurface(
         onDismissRequest = onDismiss,
-        modifier = Modifier.fillMaxHeight(if (compact) PHONE_HEIGHT else 1f).windowInsetsPadding(WindowInsets.safeDrawing).testTag("choose-example-dialog"),
+        modifier = Modifier.fillMaxHeight().windowInsetsPadding(WindowInsets.safeDrawing).testTag("choose-example-dialog"),
         maxWidth = if (compact) Dp.Infinity else DIALOG_WIDTH,
     ) {
         Column(
@@ -411,5 +411,3 @@ private val DIALOG_WIDTH = 920.dp
 private val HEADER_TILE = 56.dp
 private val HEADER_ICON = 30.dp
 
-/** A phone's dialog leaves a strip of the page above it, as the reader's examples do. */
-private const val PHONE_HEIGHT = 0.92f

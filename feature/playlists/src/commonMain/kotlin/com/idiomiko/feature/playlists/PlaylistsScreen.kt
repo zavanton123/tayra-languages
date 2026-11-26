@@ -366,7 +366,7 @@ private fun PlaylistCard(summary: PlaylistSummary, playing: Boolean, onOpen: () 
 @Composable
 internal fun DeletePlaylistDialog(playlist: Playlist, duration: Duration, onConfirm: () -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    AppDialogSurface(onDismissRequest = onDismiss, maxWidth = AppSizes.dialog) {
+    AppDialogSurface(onDismissRequest = onDismiss, maxWidth = AppSizes.dialog, fullScreenOnPhone = false) {
         Column(Modifier.padding(AppSpacing.xxl).testTag("delete-playlist-dialog"), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             Row(verticalAlignment = Alignment.Top) {
                 Text(tr("Delete playlist?"), Modifier.weight(1f), style = AppText.headline)

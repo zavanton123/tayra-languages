@@ -73,7 +73,8 @@ fun AppBottomSheet(
 }
 
 /**
- * A dialog whose content is its own: a card of [maxWidth] at most on the large containers' shape.
+ * A dialog whose content is its own: a card of [maxWidth] at most on the large containers' shape, or on a phone the
+ * whole screen, unless it is a short question kept as a card ([fullScreenOnPhone] false).
  * [dismissible] false keeps it open on a tap outside, for a choice that must be made.
  */
 @Composable
@@ -83,8 +84,12 @@ fun AppDialogSurface(
     maxWidth: Dp = AppSizes.dialogWide,
     dismissible: Boolean = true,
     color: Color = MaterialTheme.colorScheme.surface,
+    fullScreenOnPhone: Boolean = true,
     content: @Composable () -> Unit,
 ) {
+    if (fullScreenOnPhone && LocalWindowWidth.current.isCompact) {
+        return AppScreenDialog(onDismissRequest, color = color, dismissible = dismissible) { Box(modifier.fillMaxSize()) { content() } }
+    }
     Dialog(onDismissRequest = onDismissRequest, properties = DialogProperties(usePlatformDefaultWidth = false, dismissOnClickOutside = dismissible)) {
         DialogCard(modifier, maxWidth, color, content)
     }
@@ -123,10 +128,12 @@ fun AppScreenDialog(
     onDismissRequest: () -> Unit,
     modifier: Modifier = Modifier,
     color: Color = MaterialTheme.colorScheme.surface,
+    /** False keeps it open on Back, for a choice that must be made. */
+    dismissible: Boolean = true,
     content: @Composable () -> Unit,
 ) {
     val titleBar = LocalTitleBarInset.current
-    Dialog(onDismissRequest = onDismissRequest, properties = screenDialogProperties()) {
+    Dialog(onDismissRequest = onDismissRequest, properties = screenDialogProperties(dismissOnBackPress = dismissible)) {
         ScreenDialogBars()
         Surface(modifier.fillMaxSize(), color = color) {
             Box(Modifier.padding(top = titleBar).windowInsetsPadding(WindowInsets.safeDrawing)) { content() }

@@ -394,7 +394,7 @@ private fun LanguageDialog(state: LearningLanguageState, onDismiss: () -> Unit, 
     val needle = query.trim().lowercase()
     val mine = if (required) emptyList() else state.myChoices
     val others = state.choices.filter { it !in mine && it.matches(needle) }
-    AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(0.92f).testTag(if (required) "target-language-dialog" else "language-dialog"), maxWidth = 1160.dp, dismissible = !required) {
+    AppDialogSurface(onDismissRequest = onDismiss, modifier = Modifier.fillMaxHeight(if (width.isCompact) 1f else 0.92f).testTag(if (required) "target-language-dialog" else "language-dialog"), maxWidth = 1160.dp, dismissible = !required) {
         Column(Modifier.padding(horizontal = if (width.isCompact) AppSpacing.xl else AppSpacing.xxxl, vertical = AppSpacing.xxl)) {
             Row(verticalAlignment = Alignment.Top) {
                 Column(Modifier.weight(1f)) {

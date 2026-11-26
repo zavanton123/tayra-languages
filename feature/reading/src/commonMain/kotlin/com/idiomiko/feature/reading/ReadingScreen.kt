@@ -465,7 +465,7 @@ fun ReadingScreen(
         // Beyond a phone the examples and their word's dictionary take the whole window, inside the dialog's margin.
         AppDialogSurface(
             onDismissRequest = closeExamples,
-            modifier = Modifier.fillMaxHeight(if (phone) EXAMPLES_DIALOG_HEIGHT else 1f)
+            modifier = Modifier.fillMaxHeight()
                 .windowInsetsPadding(WindowInsets.safeDrawing)
                 .testTag("examples-dialog"),
             maxWidth = if (phone) AppSizes.contentWidth else Dp.Infinity,
@@ -1107,7 +1107,6 @@ private val SETTINGS_DIALOG_WIDTH = 1040.dp
 /** The widest the text runs on a wide window. */
 /** The docked term pane, as wide as Word frequency's. */
 private val TERM_PANEL_WIDTH = 440.dp
-private const val EXAMPLES_DIALOG_HEIGHT = 0.92f
 /**
  * The green check of the footer, for a dialog of [stage] over the text to show while that stage is the one being worked on:
  * it closes the dialog and checks the stage. Null for a dialog of another stage.
