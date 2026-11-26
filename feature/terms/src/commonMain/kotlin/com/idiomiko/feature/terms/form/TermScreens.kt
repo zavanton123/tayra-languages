@@ -35,6 +35,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.BarSurface
 import com.idiomiko.core.ui.components.ButtonTone
 import com.idiomiko.core.ui.components.Crumb
 import com.idiomiko.core.ui.components.DialogCard
@@ -136,40 +137,49 @@ fun TermEditScreen(
     }
     val compact = LocalWindowWidth.current.isCompact
     val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
-    Scaffold(topBar = { AppTopBar(title = title, onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) }) { padding ->
+    val canSave = state.draft.text.isNotBlank() && !state.saving
+    val saveLabel = if (state.saving) tr("Saving...") else tr("Save changes")
+    Scaffold(
+        topBar = { AppTopBar(title = title, onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) },
+        // A phone's bar has the way back and the title; the buttons wait at the foot, under the thumb.
+        bottomBar = {
+            if (compact) {
+                BarSurface {
+                    Column {
+                        AppDivider()
+                        Row(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = AppSpacing.m), horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                            SecondaryButton(tr("Cancel"), onClick = onBack, modifier = Modifier.weight(1f))
+                            PrimaryButton(saveLabel, onClick = viewModel::save, enabled = canSave, modifier = Modifier.weight(1f).testTag("term-save"))
+                        }
+                    }
+                }
+            }
+        },
+    ) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
-            PageHeader(
-                title = title,
-                compact = compact,
-                gutter = gutter,
-                saving = state.saving,
-                canSave = state.draft.text.isNotBlank(),
-                onBack = onBack,
-                onTerms = { onNavigate(Route.Terms()) },
-                onSave = viewModel::save,
-            )
+            if (!compact) {
+                PageHeader(title, gutter, saveLabel, canSave, onBack = onBack, onTerms = { onNavigate(Route.Terms()) }, onSave = viewModel::save)
+            }
             panel(Modifier.weight(1f).padding(horizontal = gutter - AppSpacing.l))
         }
     }
 }
 
+/** A wide window's heading, with the way back to the vocabulary and the buttons beside it. */
 @Composable
 private fun PageHeader(
     title: String,
-    compact: Boolean,
     gutter: androidx.compose.ui.unit.Dp,
-    saving: Boolean,
+    saveLabel: String,
     canSave: Boolean,
     onBack: () -> Unit,
     onTerms: () -> Unit,
     onSave: () -> Unit,
 ) {
-    // On a phone the bar has the way back and the title; the buttons stay.
-    val crumbs = if (compact) emptyList() else listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(title))
     Column(Modifier.fillMaxWidth().padding(horizontal = gutter, vertical = AppSpacing.l)) {
-        ScreenHeader(title, subtitle = null, crumbs = crumbs, onBack = onBack) {
+        ScreenHeader(title, subtitle = null, crumbs = listOf(Crumb(tr("Vocabulary"), onTerms), Crumb(title)), onBack = onBack) {
             SecondaryButton(tr("Cancel"), onClick = onBack)
-            PrimaryButton(if (saving) tr("Saving...") else tr("Save changes"), onClick = onSave, enabled = canSave && !saving)
+            PrimaryButton(saveLabel, onClick = onSave, enabled = canSave)
         }
     }
 }
