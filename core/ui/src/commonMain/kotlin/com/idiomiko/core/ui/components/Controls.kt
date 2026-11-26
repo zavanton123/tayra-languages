@@ -40,6 +40,7 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.ButtonElevation
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
@@ -139,6 +140,7 @@ fun SecondaryButton(
     size: ButtonSize = ButtonSize.Regular,
     colors: ButtonColors? = null,
     tint: Color? = null,
+    elevation: ButtonElevation? = null,
     content: @Composable RowScope.() -> Unit,
 ) {
     val accent = if (tone == ButtonTone.Danger) MaterialTheme.colorScheme.error else tint
@@ -154,6 +156,7 @@ fun SecondaryButton(
         },
         border = if (accent != null && enabled) AppBorders.hairline(accent.copy(alpha = AppAlpha.half)) else ButtonDefaults.outlinedButtonBorder(enabled),
         contentPadding = size.padding,
+        elevation = elevation,
         content = content,
     )
 }
@@ -231,12 +234,16 @@ fun QuietButton(
     trailingIcon: ImageVector? = null,
 ) = QuietButton(onClick, modifier, enabled && !loading, tone, size) { ButtonLabel(text, icon, loading, size, trailingIcon, null) }
 
-/** A [SecondaryButton] floating over a list: on a solid surface with a shadow, so what scrolls beneath never shows through it. */
+/**
+ * A [SecondaryButton] floating over a list: on a solid surface with a shadow, so what scrolls beneath never shows through it.
+ * The shadow is the button's own elevation, cast by the button itself rather than its larger touch area.
+ */
 @Composable
 fun FloatingButton(text: String, onClick: () -> Unit, modifier: Modifier = Modifier, icon: ImageVector? = null) = SecondaryButton(
     onClick,
-    modifier.shadow(AppElevation.raised, AppShapes.control),
+    modifier,
     colors = ButtonDefaults.outlinedButtonColors(containerColor = MaterialTheme.colorScheme.surface),
+    elevation = ButtonDefaults.buttonElevation(defaultElevation = AppElevation.raised, pressedElevation = AppElevation.raised, focusedElevation = AppElevation.raised, hoveredElevation = AppElevation.raised),
 ) { ButtonLabel(text, icon, loading = false, ButtonSize.Regular, trailingIcon = null, badge = null) }
 
 @Composable
