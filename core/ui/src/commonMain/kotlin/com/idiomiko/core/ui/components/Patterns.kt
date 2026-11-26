@@ -48,6 +48,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawWithContent
 import androidx.compose.ui.draw.shadow
@@ -70,6 +71,9 @@ import androidx.compose.ui.layout.positionInParent
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
@@ -163,6 +167,42 @@ fun SelectionBar(
         Text(text, style = AppText.emphasis, modifier = Modifier.padding(end = AppSpacing.xs))
         Spacer(Modifier.weight(1f))
         actions()
+    }
+}
+
+/**
+ * A phone's bar at the foot while items are ticked: a tick for all of them ([all] when every one is, or else some),
+ * how many are chosen and clearing the choice, then [actions] below, each a [SelectionAction].
+ */
+@Composable
+fun PhoneSelectionBar(count: Int, all: Boolean, onAll: () -> Unit, onClear: () -> Unit, modifier: Modifier = Modifier, actions: @Composable RowScope.() -> Unit) {
+    BarSurface(raised = true, modifier = modifier.testTag("phone-selection-bar")) {
+        Column {
+            AppDivider()
+            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs), verticalAlignment = Alignment.CenterVertically) {
+                AppTriStateCheckbox(
+                    if (all) ToggleableState.On else ToggleableState.Indeterminate,
+                    onClick = onAll,
+                    modifier = Modifier.semantics { contentDescription = tr("Select all") }.testTag("selection-all"),
+                )
+                Text(tr("{0} selected", count), Modifier.weight(1f).padding(start = AppSpacing.xs), style = AppText.labelStrong)
+                AppIconButton(Icons.Default.Close, tr("Clear selection"), onClear)
+            }
+            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s).padding(bottom = AppSpacing.xs), content = actions)
+        }
+    }
+}
+
+/** An action of a [PhoneSelectionBar]: its icon over its name, sharing the bar's width with the others. */
+@Composable
+fun RowScope.SelectionAction(icon: ImageVector, label: String, onClick: () -> Unit, tag: String, enabled: Boolean = true, tint: Color = MaterialTheme.colorScheme.primary) {
+    Column(
+        Modifier.weight(1f).clip(AppShapes.control).clickable(enabled = enabled, role = Role.Button, onClick = onClick)
+            .alpha(if (enabled) 1f else AppAlpha.disabled).padding(vertical = AppSpacing.xs).testTag(tag),
+        horizontalAlignment = Alignment.CenterHorizontally,
+    ) {
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconMedium))
+        Text(label, style = MaterialTheme.typography.labelMedium, color = tint, maxLines = 1)
     }
 }
 

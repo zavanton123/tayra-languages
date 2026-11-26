@@ -71,12 +71,14 @@ import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.EmptyState
 import com.idiomiko.core.ui.components.ListPager
 import com.idiomiko.core.ui.components.NavSection
+import com.idiomiko.core.ui.components.PhoneSelectionBar
 import com.idiomiko.core.ui.components.PickerSheet
 import com.idiomiko.core.ui.components.PrimaryButton
 import com.idiomiko.core.ui.components.ScrollList
 import com.idiomiko.core.ui.components.SearchField
 import com.idiomiko.core.ui.components.SelectButton
 import com.idiomiko.core.ui.components.SelectMenu
+import com.idiomiko.core.ui.components.SelectionAction
 import com.idiomiko.core.ui.components.itemMotion
 import com.idiomiko.core.ui.i18n.formatCount
 import com.idiomiko.core.ui.i18n.tr
@@ -133,13 +135,18 @@ internal fun PhoneTermsScreen(
         floatingActionButton = { if (!selecting) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
         bottomBar = {
             if (selecting) {
+                // Ticking all the listed terms or some, how many, clearing the choice, and what can be done with them, Anki among it.
                 PhoneSelectionBar(
-                    state,
-                    listActions,
+                    state.selected.size,
+                    all = state.selected.size >= state.totalCount,
                     onAll = { viewModel.selectAllListed(state.selected.size < state.totalCount) },
-                    onAnki = viewModel::exportAnki,
                     onClear = { viewModel.selectAllVisible(false) },
-                )
+                ) {
+                    SelectionAction(AppIcons.Flashcards, tr("Practise"), listActions.onPractice, "selection-practise")
+                    SelectionAction(Icons.Default.Edit, tr("Edit"), listActions.onBulk, "selection-edit")
+                    SelectionAction(AppIcons.Download, tr("Anki"), viewModel::exportAnki, "selection-anki", enabled = state.exporting == null)
+                    SelectionAction(Icons.Default.Delete, tr("Delete"), listActions.onDelete, "selection-delete", tint = MaterialTheme.colorScheme.error)
+                }
             }
         },
     ) { padding ->
@@ -196,50 +203,6 @@ internal fun PhoneTermsScreen(
         )
     }
     if (filtering) PhoneFiltersSheet(state, viewModel, onDismiss = { filtering = false })
-}
-
-/**
- * While terms are ticked on a phone, at the foot: ticking all the listed ones or some, how many, clearing the choice,
- * and below, what can be done with them, Anki among it.
- */
-@Composable
-private fun PhoneSelectionBar(state: TermsListUiState, actions: ListActions, onAll: () -> Unit, onAnki: () -> Unit, onClear: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val count = state.selected.size
-    val all = count >= state.totalCount
-    BarSurface(raised = true, modifier = Modifier.testTag("phone-selection-bar")) {
-        Column {
-            AppDivider()
-            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs), verticalAlignment = Alignment.CenterVertically) {
-                AppTriStateCheckbox(
-                    if (all) ToggleableState.On else ToggleableState.Indeterminate,
-                    onClick = onAll,
-                    modifier = Modifier.semantics { contentDescription = tr("Select all") }.testTag("selection-all"),
-                )
-                Text(tr("{0} selected", count), Modifier.weight(1f).padding(start = AppSpacing.xs), style = AppText.labelStrong)
-                AppIconButton(Icons.Default.Close, tr("Clear selection"), onClear)
-            }
-            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s).padding(bottom = AppSpacing.xs)) {
-                SelectionAction(AppIcons.Flashcards, tr("Practise"), true, colors.primary, actions.onPractice, "selection-practise", Modifier.weight(1f))
-                SelectionAction(Icons.Default.Edit, tr("Edit"), true, colors.primary, actions.onBulk, "selection-edit", Modifier.weight(1f))
-                SelectionAction(AppIcons.Download, tr("Anki"), state.exporting == null, colors.primary, onAnki, "selection-anki", Modifier.weight(1f))
-                SelectionAction(Icons.Default.Delete, tr("Delete"), true, colors.error, actions.onDelete, "selection-delete", Modifier.weight(1f))
-            }
-        }
-    }
-}
-
-/** An action of the selection bar: its icon over its name. */
-@Composable
-private fun SelectionAction(icon: ImageVector, label: String, enabled: Boolean, tint: Color, onClick: () -> Unit, tag: String, modifier: Modifier) {
-    Column(
-        modifier.clip(AppShapes.control).clickable(enabled = enabled, role = Role.Button, onClick = onClick)
-            .alpha(if (enabled) 1f else AppAlpha.disabled).padding(vertical = AppSpacing.xs).testTag(tag),
-        horizontalAlignment = Alignment.CenterHorizontally,
-    ) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(AppSizes.iconMedium))
-        Text(label, style = MaterialTheme.typography.labelMedium, color = tint, maxLines = 1)
-    }
 }
 
 /**
