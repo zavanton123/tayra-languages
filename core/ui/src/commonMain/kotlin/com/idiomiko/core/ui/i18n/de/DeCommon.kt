@@ -246,7 +246,6 @@ internal val deCommon: Map<String, String> = mapOf(
     "Changes saved" to "Änderungen gespeichert",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
-    "{0} · changes apply immediately" to "{0} · Änderungen gelten sofort",
     "Preferred" to "Bevorzugt",
     "No dictionaries enabled yet." to "Noch keine Wörterbücher aktiviert.",
     "Disable" to "Deaktivieren",

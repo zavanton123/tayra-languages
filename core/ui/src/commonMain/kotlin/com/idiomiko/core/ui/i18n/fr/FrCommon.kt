@@ -246,7 +246,6 @@ internal val frCommon: Map<String, String> = mapOf(
     "Changes saved" to "Modifications enregistrées",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
-    "{0} · changes apply immediately" to "{0} · les modifications s’appliquent immédiatement",
     "Preferred" to "Préférés",
     "No dictionaries enabled yet." to "Aucun dictionnaire activé pour l’instant.",
     "Disable" to "Désactiver",

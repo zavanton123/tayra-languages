@@ -93,7 +93,7 @@ fun ManageDictionariesScreen(
                             // On a phone the bar carries the title.
                             if (!compact) Text(tr("Dictionaries"), style = AppText.headline)
                             val pair = listOfNotNull(state.source?.name, state.target?.name).joinToString(" \u2192 ") { tr(it) }
-                            Text(tr("{0} \u00b7 changes apply immediately", pair), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
+                            Text(pair, style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant)
                         }
                     }
                 }

@@ -246,7 +246,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Changes saved" to "Изменения сохранены",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
-    "{0} · changes apply immediately" to "{0} · изменения применяются сразу",
     "Preferred" to "Предпочтительные",
     "No dictionaries enabled yet." to "Пока нет включённых словарей.",
     "Disable" to "Отключить",

@@ -246,7 +246,6 @@ internal val plCommon: Map<String, String> = mapOf(
     "Changes saved" to "Zmiany zapisane",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
-    "{0} · changes apply immediately" to "{0} · zmiany działają od razu",
     "Preferred" to "Preferowane",
     "No dictionaries enabled yet." to "Nie włączono jeszcze żadnego słownika.",
     "Disable" to "Wyłącz",

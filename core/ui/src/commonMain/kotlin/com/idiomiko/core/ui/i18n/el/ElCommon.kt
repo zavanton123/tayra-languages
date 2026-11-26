@@ -246,7 +246,6 @@ internal val elCommon: Map<String, String> = mapOf(
     "Changes saved" to "Οι αλλαγές αποθηκεύτηκαν",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
-    "{0} · changes apply immediately" to "{0} · οι αλλαγές ισχύουν αμέσως",
     "Preferred" to "Προτιμώμενα",
     "No dictionaries enabled yet." to "Δεν έχουν ενεργοποιηθεί λεξικά ακόμη.",
     "Disable" to "Απενεργοποίηση",

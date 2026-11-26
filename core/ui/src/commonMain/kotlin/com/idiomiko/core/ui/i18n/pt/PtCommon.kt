@@ -246,7 +246,6 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Changes saved" to "Alterações salvas",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
-    "{0} · changes apply immediately" to "{0} · as alterações valem na hora",
     "Preferred" to "Preferidos",
     "No dictionaries enabled yet." to "Nenhum dicionário ativado ainda.",
     "Disable" to "Desativar",

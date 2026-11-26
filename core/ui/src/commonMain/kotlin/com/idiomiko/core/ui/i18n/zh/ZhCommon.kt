@@ -246,7 +246,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Changes saved" to "更改已保存",
 
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
-    "{0} · changes apply immediately" to "{0} · 更改立即生效",
     "Preferred" to "首选",
     "No dictionaries enabled yet." to "尚未启用任何词典。",
     "Disable" to "停用",
