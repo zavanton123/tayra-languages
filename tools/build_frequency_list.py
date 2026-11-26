@@ -5667,10 +5667,17 @@ def build_khmer(size):
     # forms: the texts are cut with them, as the reader cuts them with the list.
     spellings = dict(frequency_km.KHMER_SPELLINGS)
 
+    bound = set()
+    written = defaultdict(int)
+    for run, n in alone.items():
+        written[khmer_fold(run)] += n
+
     def cut(ranks):
-        segment = segmenter("km", known | extra | {khmer_fold(s) for s in spellings}, ranks)
+        words = known | extra | {khmer_fold(s) for s in spellings}
+        segment = segmenter("km", words | bound, ranks)
         cache = {}
         spelled = []
+        uses, pairs = defaultdict(int), defaultdict(int)
         for _, source_runs, _ in sources:
             out = defaultdict(int)
             for run, n in source_runs.items():
@@ -5680,14 +5687,25 @@ def build_khmer(size):
                 if folded not in cache:
                     cache[folded] = segment(folded)
                 at = 0
-                for piece in cache[folded]:
+                pieces = cache[folded]
+                for i, piece in enumerate(pieces):
                     out[run[at:at + len(piece)]] += n
                     at += len(piece)
+                    uses[piece] += n
+                    if i:
+                        pairs[pieces[i - 1], piece] += n
             spelled.append(out)
         together = defaultdict(int)
         for out in spelled:
             for word, n in out.items():
                 together[word] += n
+        # A word written next to the same word in KHMER_BOUND_SHARE of its uses, the two of them a word to Wikipedia's editors
+        # (KHMER_SEPARATED_MIN), is mostly a piece of a compound the pack lacks (រួប of រួបរួម, វត្ស of ទសវត្ស, លូត of
+        # លូតលាស់): the two are counted as one word from the next round on, which the list leaves out as the pack lacks it.
+        for (a, b), n in pairs.items():
+            if n >= KHMER_BOUND_MIN and written.get(a + b, 0) >= KHMER_SEPARATED_MIN and a + b not in words and any(
+                    khmer_word(p, words) and n >= KHMER_BOUND_SHARE * uses[p] for p in (a, b)):
+                bound.add(a + b)
         return spelled, together
 
     spelled, together = cut(None)
@@ -5706,17 +5724,21 @@ def build_khmer(size):
     # built again from cuts made with the last one's ranks until they no longer change it, at most KHMER_ROUNDS times.
     ranks, text, label = None, None, None
     for round_ in range(KHMER_ROUNDS + 1):
+        joined = len(bound)
         spelled, together = cut(ranks)
         built, label = khmer_list(sources, spelled, together, pack, spellings, size)
-        print(f"km round {round_}: {'unchanged' if built == text else 'changed'}", file=sys.stderr)
-        if built == text:
+        print(f"km round {round_}: {'unchanged' if built == text else 'changed'}, {len(bound) - joined} compounds joined", file=sys.stderr)
+        if built == text and len(bound) == joined:
             break
         text = built
         _, ranks = list_ranks(text)
     return text, label
 
 
-KHMER_ROUNDS = 6
+KHMER_ROUNDS = 10
+# How much of a word's uses must be next to the same word, and how many at least, for the two to be counted as one.
+KHMER_BOUND_SHARE = 0.5
+KHMER_BOUND_MIN = 20
 
 def khmer_list(sources, spelled, together, pack, spellings, size):
     """The Khmer list from the words each source was cut into ([spelled]), each in the spelling the pack has."""
