@@ -47,10 +47,14 @@ android {
             }
         }
     }
-    // The frequency lists (77 MB of text, 18 MB packed) are fetched for the language being learned instead of shipped:
-    // see DownloadedFrequencyLists. The rest of the pattern is the default.
+    // The frequency lists (77 MB of text, 18 MB packed) are fetched for the language being learned instead of shipped
+    // (DownloadedFrequencyLists), but for those bundled-frequency-lists.txt names. The rest of the pattern is the default.
     androidResources {
-        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~:!*.tsv"
+        val bundled = file("bundled-frequency-lists.txt").readLines().map { it.substringBefore('#').trim() }.filter { it.isNotEmpty() }.toSet()
+        val leftOut = rootProject.file("feature/frequency/src/commonMain/composeResources/files/frequency")
+            .listFiles { list -> list.extension == "tsv" && list.nameWithoutExtension !in bundled }.orEmpty()
+            .map { "!${it.name}" }.sorted()
+        ignoreAssetsPattern = (listOf("!.svn", "!.git", "!.ds_store", "!*.scc", ".*", "!CVS", "!thumbs.db", "!picasa.ini", "!*~") + leftOut).joinToString(":")
     }
     packaging {
         // The native engines (60 MB) are compressed in the APK, about halving the download; Android unpacks them on install.

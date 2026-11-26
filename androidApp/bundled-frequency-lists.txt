@@ -1,0 +1,14 @@
+# The frequency lists the Android app keeps in its APK; it downloads the others (DownloadedFrequencyLists).
+# These are the languages whose text is cut into words by their lexicon, which their list feeds (LexiconParser):
+# without the list a text read offline before it downloaded would be cut otherwise, and the words saved then with it.
+# BundledFrequencyListsTest checks every such language with a list is here.
+ar
+he
+ja
+km
+ko
+lo
+my
+th
+yue
+zh
