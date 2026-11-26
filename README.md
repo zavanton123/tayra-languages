@@ -7,7 +7,7 @@ read it page by page, tap the words you do not know, and watch the highlights fa
 words become yours. It runs on Android, iOS, macOS, Windows, Linux and in the browser, and
 everything you learn stays on your own device.
 
-New to the app? The [user guide](docs/guide/README.md) walks through it screen by screen.
+New to the app? The [user guide](https://zavanton123.github.io/tayra-languages/) walks through it screen by screen ([source](docs/guide/README.md)).
 
 ## Reading
 
