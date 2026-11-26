@@ -119,11 +119,16 @@ fun DialogCard(
  * keeps clear of the system bars, and of a title bar the window's content runs under (a narrow macOS window).
  */
 @Composable
-fun AppScreenDialog(onDismissRequest: () -> Unit, modifier: Modifier = Modifier, content: @Composable () -> Unit) {
+fun AppScreenDialog(
+    onDismissRequest: () -> Unit,
+    modifier: Modifier = Modifier,
+    color: Color = MaterialTheme.colorScheme.surface,
+    content: @Composable () -> Unit,
+) {
     val titleBar = LocalTitleBarInset.current
     Dialog(onDismissRequest = onDismissRequest, properties = screenDialogProperties()) {
         ScreenDialogBars()
-        Surface(modifier.fillMaxSize(), color = MaterialTheme.colorScheme.surface) {
+        Surface(modifier.fillMaxSize(), color = color) {
             Box(Modifier.padding(top = titleBar).windowInsetsPadding(WindowInsets.safeDrawing)) { content() }
         }
     }

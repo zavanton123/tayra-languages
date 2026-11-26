@@ -17,6 +17,7 @@ import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -55,6 +56,7 @@ import com.idiomiko.core.domain.practice.PracticeWord
 import com.idiomiko.core.domain.service.SentenceTranslator
 import com.idiomiko.core.ui.components.AppCheckbox
 import com.idiomiko.core.ui.components.AppDialogSurface
+import com.idiomiko.core.ui.components.AppScreenDialog
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
@@ -287,8 +289,13 @@ internal fun PracticeSetupContent(
         }
     }
 
-    AppDialogSurface(onDismissRequest = onDismiss, color = colors.surfaceContainerLow, maxWidth = if (compact) AppSizes.dialogWide else SETUP_WIDTH) {
-        Column {
+    // A phone gives the choices the whole screen, the buttons kept at its foot; a wider window a dialog.
+    val surface: @Composable (@Composable (Modifier) -> Unit) -> Unit = { body ->
+        if (compact) AppScreenDialog(onDismissRequest = onDismiss, modifier = Modifier.testTag("practice-setup"), color = colors.surfaceContainerLow) { body(Modifier.fillMaxSize()) }
+        else AppDialogSurface(onDismissRequest = onDismiss, color = colors.surfaceContainerLow, maxWidth = SETUP_WIDTH) { body(Modifier) }
+    }
+    surface { frame ->
+        Column(frame) {
             val gutter = if (compact) AppSpacing.xl else AppSpacing.xxxl
             Row(
                 Modifier.padding(start = gutter, end = AppSpacing.xl, top = AppSpacing.xxl, bottom = AppSpacing.l),
@@ -303,7 +310,7 @@ internal fun PracticeSetupContent(
                 AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }
             // The choices scroll; the title above them and the buttons below stay.
-            ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = gutter, vertical = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
+            ScrollColumn(Modifier.weight(1f, fill = compact), contentModifier = Modifier.padding(horizontal = gutter, vertical = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
                 val panel = Modifier.fillMaxWidth().clip(AppShapes.card).background(colors.primary.copy(alpha = AppAlpha.wash)).border(AppBorders.hairline(), AppShapes.card)
                 if (compact) {
                     Column(panel.padding(AppSpacing.l), verticalArrangement = Arrangement.spacedBy(AppSpacing.l)) {
