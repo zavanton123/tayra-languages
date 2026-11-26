@@ -218,23 +218,12 @@ internal fun PlaylistFormContent(state: PlaylistFormUiState, viewModel: Playlist
     }
 }
 
-/** The hint and the form's buttons. */
+/** The form's buttons. */
 @Composable
 private fun FormFooter(state: PlaylistFormUiState, onCancel: () -> Unit, onSave: () -> Unit, modifier: Modifier = Modifier) {
     val compact = LocalWindowWidth.current.isCompact
     Row(modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        if (!compact) {
-            if (state.mode is PlaylistFormMode.Edit) {
-                Text(
-                    tr("The texts are changed on the playlist's page."),
-                    Modifier.weight(1f),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-            } else {
-                Spacer(Modifier.weight(1f))
-            }
-        }
+        if (!compact) Spacer(Modifier.weight(1f))
         SecondaryButton(tr("Cancel"), onClick = onCancel, modifier = if (compact) Modifier.weight(1f) else Modifier)
         PrimaryButton(
             when (state.mode) {
