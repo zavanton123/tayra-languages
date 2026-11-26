@@ -42,7 +42,6 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.idiomiko.core.ui.components.ChooseLanguageScreen
 import com.idiomiko.core.ui.components.LocalWindowWidth
-import com.idiomiko.core.ui.components.MoreSheet
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PhoneNavBar
 import com.idiomiko.core.ui.navigation.Route
@@ -123,7 +122,6 @@ fun AppNavHost(openHome: Int = 0) {
     val destination = entry?.destination
     val phoneBar = LocalWindowWidth.current.isCompact && destination != null && !destination.hasRoute<Route.Read>() && !destination.hasRoute<Route.Practice>() && !destination.hasRoute<Route.PracticeWords>() &&
         !destination.hasRoute<Route.ChooseLanguage>() && !destination.hasRoute<Route.Flashcards>() && !destination.hasRoute<Route.Player>()
-    var more by remember { mutableStateOf(false) }
     // Pages that start a practice show it in this dialog on windows wider than a phone.
     val practiceDialog = remember<@Composable (Route, () -> Unit) -> Unit>(navController) {
         { route, onClose -> PracticeDialog(route, onNavigate = { navController.navigate(it) }, onClose = onClose) }
@@ -168,7 +166,6 @@ fun AppNavHost(openHome: Int = 0) {
                                 launchSingleTop = true
                             }
                         },
-                        onMore = { more = true },
                     )
                 }
             }
@@ -210,9 +207,6 @@ fun AppNavHost(openHome: Int = 0) {
     }
     PlaybackProblemDialog(onDownloadVoice = { assets.ensure(it, anyNetwork = true) })
     PlaybackNotificationsPermission()
-    if (more) CompositionLocalProvider(LocalHiddenSettingsSections provides hiddenSections) {
-        MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
-    }
     SyncPrompt(syncPrompt, onOpenAccount = { navController.navigate(Route.Account) { launchSingleTop = true } })
     TranslationBackupNotice(onBackups = { navController.navigate(Route.Backups) { launchSingleTop = true } })
     LanguageRemovedNotice()
@@ -282,6 +276,7 @@ private fun sectionOf(destination: NavDestination): NavSection = when {
         destination.hasRoute<Route.EditPlaylist>() || destination.hasRoute<Route.AddToPlaylist>() || destination.hasRoute<Route.Player>() -> NavSection.PLAYLISTS
     destination.hasRoute<Route.Flashcards>() || destination.hasRoute<Route.BrowseFlashcards>() || destination.hasRoute<Route.FlashcardStats>() -> NavSection.FLASHCARDS
     destination.hasRoute<Route.Terms>() || destination.hasRoute<Route.EditTerm>() || destination.hasRoute<Route.EditTermByText>() ||
-        destination.hasRoute<Route.NewTerm>() || destination.hasRoute<Route.Examples>() -> NavSection.TERMS
+        destination.hasRoute<Route.NewTerm>() || destination.hasRoute<Route.Examples>() ||
+        destination.hasRoute<Route.WordFrequency>() || destination.hasRoute<Route.Stats>() -> NavSection.TERMS
     else -> NavSection.SETTINGS
 }

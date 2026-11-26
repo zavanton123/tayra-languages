@@ -5,8 +5,6 @@ internal val ruCommon: Map<String, String> = mapOf(
     // PhoneLanguages.kt
     "Meanings" to "Значения",
     // PhoneNavigation.kt
-    "Watch" to "Видео",
-    "Words and progress" to "Слова и прогресс",
     // Language names, shown through tr(name).
     "Afrikaans" to "Африкаанс",
     "Albanian" to "Албанский",

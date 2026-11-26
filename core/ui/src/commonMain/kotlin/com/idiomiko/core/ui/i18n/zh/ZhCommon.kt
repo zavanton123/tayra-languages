@@ -5,8 +5,6 @@ internal val zhCommon: Map<String, String> = mapOf(
     // PhoneLanguages.kt
     "Meanings" to "释义",
     // PhoneNavigation.kt
-    "Watch" to "观看",
-    "Words and progress" to "词汇与进度",
     // Language names, shown through tr(name).
     "Afrikaans" to "南非荷兰语",
     "Albanian" to "阿尔巴尼亚语",

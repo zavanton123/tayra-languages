@@ -8,6 +8,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.graphics.toAwtImage
 import androidx.compose.ui.test.ExperimentalTestApi
 import androidx.compose.ui.test.assertIsSelected
+import androidx.compose.ui.semantics.getOrNull
+import androidx.compose.ui.semantics.SemanticsProperties
+import androidx.compose.ui.test.SemanticsMatcher
+import androidx.compose.ui.test.hasClickAction
+import androidx.compose.ui.test.assertIsNotSelected
 import androidx.compose.ui.test.captureToImage
 import androidx.compose.ui.test.isRoot
 import androidx.compose.ui.test.onAllNodesWithTag
@@ -23,17 +28,16 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
-/** The phone's bottom bar marks the current area and counts the flashcards due; More opens the sheet of the other pages, the vocabulary among them. */
+/** The phone's bottom bar marks the current area and counts the flashcards due; Read, Flashcards and Vocabulary open sheets of their pages. */
 @OptIn(ExperimentalTestApi::class)
 class PhoneNavigationTest {
     @Test
     fun theBarMarksTheAreaAndLeadsToTheOthers() = runDesktopComposeUiTest(width = 400, height = 800) {
         val visited = mutableListOf<Route>()
-        var more = 0
         setContent {
             MaterialTheme {
                 CompositionLocalProvider(LocalFlashcardsDue provides 19) {
-                    PhoneNavBar(section = NavSection.BOOKS, onNavigate = { visited += it }, onMore = { more++ })
+                    PhoneNavBar(section = NavSection.BOOKS, onNavigate = { visited += it })
                 }
             }
         }
@@ -46,16 +50,16 @@ class PhoneNavigationTest {
         onNodeWithTag("phone-nav-HOME").performClick()
         onNodeWithTag("phone-nav-PLAYLISTS").performClick()
         assertEquals(listOf(Route.Home, Route.Playlists), visited)
-        for (gone in listOf("COURSES", "BOOKS", "TERMS")) assertEquals(0, onAllNodesWithTag("phone-nav-$gone").fetchSemanticsNodes().size, gone)
-        onNodeWithTag("phone-nav-SETTINGS").performClick()
-        assertEquals(1, more)
+        // The settings and the account are reached from the top bar's avatar.
+        for (gone in listOf("COURSES", "BOOKS", "SETTINGS")) assertEquals(0, onAllNodesWithTag("phone-nav-$gone").fetchSemanticsNodes().size, gone)
+        onNodeWithText("More").assertDoesNotExist()
     }
 
     /** Read opens a sheet with the courses, the books and the news, as the wide bar's Read menu. */
     @Test
     fun readOpensTheSheetOfWhatThereIsToRead() = runDesktopComposeUiTest(width = 400, height = 900) {
         val visited = mutableListOf<Route>()
-        setContent { MaterialTheme { PhoneNavBar(section = NavSection.NEWS, onNavigate = { visited += it }, onMore = {}) } }
+        setContent { MaterialTheme { PhoneNavBar(section = NavSection.NEWS, onNavigate = { visited += it }) } }
         onNodeWithTag("phone-nav-READ").assertIsSelected()
         onNodeWithTag("phone-nav-READ").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("read-sheet").fetchSemanticsNodes().isNotEmpty() }
@@ -73,7 +77,7 @@ class PhoneNavigationTest {
     @Test
     fun flashcardsOpensTheSheetOfItsPages() = runDesktopComposeUiTest(width = 400, height = 900) {
         val visited = mutableListOf<Route>()
-        setContent { MaterialTheme { PhoneNavBar(section = NavSection.HOME, onNavigate = { visited += it }, onMore = {}) } }
+        setContent { MaterialTheme { PhoneNavBar(section = NavSection.HOME, onNavigate = { visited += it }) } }
         onNodeWithTag("phone-nav-FLASHCARDS").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcards-sheet").fetchSemanticsNodes().isNotEmpty() }
         for (page in listOf("Review flashcards", "Browse flashcards", "Flashcard statistics")) onNodeWithTag("flashcards-$page").assertExists()
@@ -90,83 +94,50 @@ class PhoneNavigationTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcards-sheet").fetchSemanticsNodes().isEmpty() }
     }
 
+    /** Vocabulary opens a sheet with the vocabulary, the word frequency and the statistics, as the wide bar's Vocabulary menu. */
     @Test
-    fun theVocabularyPagesMarkMore() = runDesktopComposeUiTest(width = 400, height = 800) {
-        setContent { MaterialTheme { PhoneNavBar(section = NavSection.TERMS, onNavigate = {}, onMore = {}) } }
-        onNodeWithTag("phone-nav-SETTINGS").assertIsSelected()
-    }
-
-    @Test
-    fun theMoreSheetListsThePagesAndNamesTheLearningLanguage() = runDesktopComposeUiTest(width = 400, height = 900) {
+    fun vocabularyOpensTheSheetOfItsPages() = runDesktopComposeUiTest(width = 400, height = 900) {
         val visited = mutableListOf<Route>()
-        var open by mutableStateOf(true)
-        setContent {
-            MaterialTheme {
-                CompositionLocalProvider(LocalLearningLanguage provides LearningLanguageState(listOf(1L to "Croatian"), 1L) {}) {
-                    if (open) MoreSheet(onNavigate = { visited += it; open = false }, onDismiss = { open = false })
-                }
-            }
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("Croatian").assertExists()
-        // The settings pages as the wide window's sidebar lists them; the account is the bar's avatar.
-        for (group in listOf("WORDS AND PROGRESS", "SETTINGS")) onNodeWithText(group).assertExists()
-        for (gone in listOf("ACCOUNT", "PREFERENCES AND DATA", "OFFLINE RESOURCES")) onNodeWithText(gone).assertDoesNotExist()
-        // Speech and Translation are settings pages, in the sidebar's order.
-        val order = listOf("Vocabulary settings", "Speech", "Playlist settings", "Translation", "Backups").map { onNodeWithTag("more-$it").fetchSemanticsNode().boundsInRoot.top }
-        assertEquals(order.sorted(), order, "Speech and Translation sit among the settings as in the sidebar")
-        onNodeWithTag("more-Account").assertDoesNotExist()
-        for (page in listOf("General", "Goals", "Flashcard settings", "Vocabulary settings")) onNodeWithTag("more-$page").assertExists()
-        // Under Read, or a tab of their own, instead; Watch only with the videos on.
-        for (page in listOf("more-News", "more-Find books", "more-Playlists")) onNodeWithTag(page).assertDoesNotExist()
-        onNodeWithText("WATCH").assertDoesNotExist()
-        for (gone in listOf("Data", "Hotkeys")) onNodeWithText(gone).assertDoesNotExist()
-        // A phone has no settings sidebar, so clearing the data has its own row, right below the backups.
-        val backups = onNodeWithTag("more-Backups").fetchSemanticsNode().boundsInRoot
-        val clear = onNodeWithTag("more-Clear data").fetchSemanticsNode().boundsInRoot
-        assertTrue(clear.top >= backups.bottom && clear.top - backups.bottom < backups.height, "Clear data follows Backups")
-        // Phones do not update the app themselves, so the Updates page is not offered.
-        onNodeWithTag("more-Updates").assertDoesNotExist()
-        onNodeWithTag("more-Statistics").assertExists()
-        // A row is lit across the sheet's whole width.
-        assertEquals(onNodeWithTag("more-sheet").fetchSemanticsNode().boundsInRoot.width, onNodeWithTag("more-Statistics").fetchSemanticsNode().boundsInRoot.width, 1f)
-        onNodeWithTag("more-Speech").performMouseInput { moveTo(center) }
-        System.getenv("MORE_SHEET_SCREENSHOT")?.let { path ->
+        setContent { MaterialTheme { PhoneNavBar(section = NavSection.TERMS, onNavigate = { visited += it }) } }
+        onNodeWithTag("phone-nav-TERMS").assertIsSelected()
+        onNodeWithTag("phone-nav-TERMS").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("vocabulary-sheet").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(3, onAllNodes(hasTestTagPrefix("vocabulary-") and hasClickAction()).fetchSemanticsNodes().size, "only the three pages")
+        System.getenv("VOCABULARY_SHEET_SCREENSHOT")?.let { path ->
             waitForIdle()
             javax.imageio.ImageIO.write(onAllNodes(isRoot()).onLast().captureToImage().toAwtImage(), "png", java.io.File(path))
         }
-        // In the Flashcards sheet instead.
-        onNodeWithTag("more-Browse flashcards").assertDoesNotExist()
-        onNodeWithTag("more-Vocabulary").performClick()
-        assertEquals(listOf<Route>(Route.Terms()), visited)
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Word frequency").fetchSemanticsNodes().isEmpty() }
+        onNodeWithTag("vocabulary-Word frequency").performClick()
+        assertEquals(listOf<Route>(Route.WordFrequency), visited)
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("vocabulary-sheet").fetchSemanticsNodes().isEmpty() }
     }
 
+    /** The settings pages and the account light no tab: they are reached from the top bar's avatar. */
     @Test
-    fun theMoreSheetOffersVideosOnlyWhenTheyAreOn() = runDesktopComposeUiTest(width = 400, height = 900) {
+    fun theSettingsLightNoTab() = runDesktopComposeUiTest(width = 400, height = 800) {
+        var section by mutableStateOf(NavSection.SETTINGS)
+        setContent { MaterialTheme { PhoneNavBar(section = section, onNavigate = {}) } }
+        for (tab in listOf("HOME", "READ", "PLAYLISTS", "FLASHCARDS", "TERMS")) onNodeWithTag("phone-nav-$tab").assertIsNotSelected()
+        section = NavSection.VIDEOS
+        onNodeWithTag("phone-nav-READ").assertIsSelected()
+    }
+
+    /** With the videos on, the Read sheet offers them after the news. */
+    @Test
+    fun theReadSheetOffersVideosOnlyWhenTheyAreOn() = runDesktopComposeUiTest(width = 400, height = 900) {
         var videos by mutableStateOf(false)
         setContent {
             MaterialTheme {
-                CompositionLocalProvider(LocalVideosEnabled provides videos) { MoreSheet(onNavigate = {}, onDismiss = {}) }
+                CompositionLocalProvider(LocalVideosEnabled provides videos) { PhoneNavBar(section = NavSection.HOME, onNavigate = {}) }
             }
         }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Statistics").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithTag("more-Videos").fetchSemanticsNodes().size)
-        onNodeWithTag("more-Experiments").assertExists()
+        onNodeWithTag("phone-nav-READ").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("read-News").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("read-Videos").fetchSemanticsNodes().size)
         videos = true
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Videos").fetchSemanticsNodes().isNotEmpty() }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("read-Videos").fetchSemanticsNodes().isNotEmpty() }
     }
 
-    /** A release build hides the Experiments page, and the More sheet leaves it out as the wide sidebar does. */
-    @Test
-    fun theMoreSheetLeavesOutHiddenPages() = runDesktopComposeUiTest(width = 400, height = 900) {
-        setContent {
-            MaterialTheme {
-                CompositionLocalProvider(LocalHiddenSettingsSections provides setOf(SettingsSection.EXPERIMENTS)) { MoreSheet(onNavigate = {}, onDismiss = {}) }
-            }
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Statistics").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("more-About").assertExists()
-        assertEquals(0, onAllNodesWithTag("more-Experiments").fetchSemanticsNodes().size)
-    }
+    private fun hasTestTagPrefix(prefix: String) =
+        SemanticsMatcher("test tag starts with $prefix") { it.config.getOrNull(SemanticsProperties.TestTag)?.startsWith(prefix) == true }
 }

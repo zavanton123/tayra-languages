@@ -43,6 +43,13 @@ internal val readPages = listOf(
     MoreEntry("News", AppIcons.ReadNews, Route.News),
 )
 
+/** The vocabulary pages, the same on the wide bar's Vocabulary menu and the phone's Vocabulary sheet. */
+internal val vocabularyPages = listOf(
+    MoreEntry("Vocabulary", AppIcons.MoreVocabulary, Route.Terms()),
+    MoreEntry("Word frequency", AppIcons.MoreWordFrequency, Route.WordFrequency),
+    MoreEntry("Statistics", AppIcons.MoreStatistics, Route.Stats),
+)
+
 /** The flashcard pages, the same on the wide bar's Flashcards menu and the phone's Flashcards sheet. */
 internal val flashcardPages = listOf(
     MoreEntry("Review flashcards", AppIcons.FlashcardsReview, Route.Flashcards()),
@@ -54,19 +61,21 @@ internal val flashcardPages = listOf(
 internal val readSections = setOf(NavSection.COURSES, NavSection.BOOKS, NavSection.NEWS)
 
 /**
- * The phone's bottom bar: the main areas as tabs (Home, Read, Playlists, Flashcards), with the flashcards due on theirs,
- * Read and Flashcards opening sheets of their pages, and More for everything else. [section] is the area of the current screen.
+ * The phone's bottom bar: the main areas as tabs (Home, Read, Playlists, Flashcards, Vocabulary), with the flashcards
+ * due on theirs, and Read, Flashcards and Vocabulary opening sheets of their pages. The settings and the account are
+ * reached from the top bar's avatar. [section] is the area of the current screen.
  */
 @Composable
-fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () -> Unit) {
+fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit) {
     val colors = MaterialTheme.colorScheme
     val due = LocalFlashcardsDue.current
-    // The Read or the Flashcards tab whose sheet is open.
+    val videos = LocalVideosEnabled.current
+    // The Read, Flashcards or Vocabulary tab whose sheet is open.
     var sheet by remember { mutableStateOf<NavSection?>(null) }
-    // The videos and the vocabulary pages are reached through More.
+    // The videos are in the Read sheet; the settings and the account light no tab.
     val area = when (section) {
-        in readSections -> NavSection.BOOKS
-        NavSection.TERMS, NavSection.VIDEOS, NavSection.ACCOUNT -> NavSection.SETTINGS
+        in readSections, NavSection.VIDEOS -> NavSection.BOOKS
+        NavSection.SETTINGS, NavSection.ACCOUNT -> null
         else -> section
     }
     NavigationBar(containerColor = colors.surface, modifier = Modifier.testTag("phone-nav")) {
@@ -74,12 +83,13 @@ fun PhoneNavBar(section: NavSection?, onNavigate: (Route) -> Unit, onMore: () ->
         PhoneTab(NavSection.BOOKS, AppIcons.NavRead, area, label = tr("Read"), tag = "READ") { sheet = NavSection.BOOKS }
         PhoneTab(NavSection.PLAYLISTS, AppIcons.NavPlaylists, area) { onNavigate(Route.Playlists) }
         PhoneTab(NavSection.FLASHCARDS, AppIcons.Flashcards, area, badge = due) { sheet = NavSection.FLASHCARDS }
-        PhoneTab(NavSection.SETTINGS, AppIcons.NavMore, area, label = tr("More"), onClick = onMore)
+        PhoneTab(NavSection.TERMS, AppIcons.MoreVocabulary, area) { sheet = NavSection.TERMS }
     }
     val go: (Route) -> Unit = { sheet = null; onNavigate(it) }
     when (sheet) {
-        NavSection.BOOKS -> PagesSheet(tr("Read"), readPages, "read", go) { sheet = null }
+        NavSection.BOOKS -> PagesSheet(tr("Read"), readPages + listOfNotNull(MoreEntry("Videos", AppIcons.Movie, Route.Videos).takeIf { videos }), "read", go) { sheet = null }
         NavSection.FLASHCARDS -> PagesSheet(tr("Flashcards"), flashcardPages, "flashcards", go) { sheet = null }
+        NavSection.TERMS -> PagesSheet(tr("Vocabulary"), vocabularyPages, "vocabulary", go) { sheet = null }
         else -> {}
     }
 }
@@ -98,7 +108,7 @@ private fun PagesSheet(title: String, pages: List<MoreEntry>, tag: String, onNav
             }
             pages.forEachIndexed { i, entry ->
                 if (i > 0) AppDivider(Modifier.padding(horizontal = AppSpacing.xl))
-                // Taller rows than More's: few of them, each an easy target for the thumb, lit across the sheet's width when pressed.
+                // Tall rows: few of them, each an easy target for the thumb, lit across the sheet's width when pressed.
                 NavigationRow(
                     tr(entry.label),
                     onClick = { onNavigate(entry.route) },
@@ -140,71 +150,6 @@ private fun RowScope.PhoneTab(
 
 /** What a More row leads to; [label] is English, shown through `tr`, and [tag] tells apart rows of the same name. */
 internal class MoreEntry(val label: String, val icon: ImageVector, val route: Route, val tag: String = label)
-
-private class MoreGroup(val title: String, val entries: List<MoreEntry>)
-
-/**
- * The More sheet's destinations, in groups: the videos when they are on, the words and how they go, and the settings
- * pages in the wide window's sidebar order, less the hotkeys and the updates a phone has no use for, with About;
- * pages the app hides are left out. The account is the bar's avatar.
- */
-private fun moreGroups(videos: Boolean, hidden: List<Route>) = listOfNotNull(
-    // What there is to read is under Read, the playlists have a tab.
-    MoreGroup("Watch", listOf(MoreEntry("Videos", AppIcons.Movie, Route.Videos))).takeIf { videos },
-    MoreGroup(
-        "Words and progress",
-        listOf(
-            MoreEntry("Vocabulary", AppIcons.MoreVocabulary, Route.Terms()),
-            MoreEntry("Word frequency", AppIcons.MoreWordFrequency, Route.WordFrequency),
-            MoreEntry("Statistics", AppIcons.MoreStatistics, Route.Stats),
-        ),
-    ),
-    MoreGroup(
-        "Settings",
-        listOf(
-            MoreEntry("General", AppIcons.MoreGeneral, Route.Settings),
-            MoreEntry("Goals", AppIcons.MoreGoals, Route.Goals),
-            MoreEntry("Languages", AppIcons.MoreLanguages, Route.Languages),
-            MoreEntry("Flashcards", AppIcons.Flashcards, Route.FlashcardSettings, tag = "Flashcard settings"),
-            MoreEntry("Vocabulary", AppIcons.MoreVocabularySettings, Route.VocabularySettings, tag = "Vocabulary settings"),
-            MoreEntry("Speech", AppIcons.MoreSpeech, Route.Speech),
-            MoreEntry("Playlists", AppIcons.NavPlaylists, Route.PlaylistSettings, tag = "Playlist settings"),
-            MoreEntry("Translation", AppIcons.MoreTranslation, Route.OfflineTranslation),
-            MoreEntry("Backups", AppIcons.MoreBackups, Route.Backups),
-            MoreEntry("Clear data", AppIcons.MoreClearData, Route.ClearData),
-            MoreEntry("About", AppIcons.MoreAbout, Route.About),
-            MoreEntry("Experiments", AppIcons.MoreExperiments, Route.ExperimentalFeatures),
-        ).filter { it.route !in hidden },
-    ),
-)
-
-/** The phone's More sheet: the pages beyond the tabs, grouped, with the learning language shown on its row. */
-@Composable
-fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
-    val colors = MaterialTheme.colorScheme
-    val language = LocalLearningLanguage.current?.currentName
-    val hidden = LocalHiddenSettingsSections.current.map { it.route }
-    AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("more-sheet")) {
-        // The rows run to the sheet's edges, so a pressed one is lit across its width; the rest keeps the margins.
-        ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(bottom = AppSpacing.l)) {
-            Row(Modifier.padding(start = AppSpacing.xl, end = AppSpacing.s), verticalAlignment = Alignment.CenterVertically) {
-                Text(tr("More"), Modifier.weight(1f), style = AppText.headline)
-                AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
-            }
-            moreGroups(LocalVideosEnabled.current, hidden).forEach { group ->
-                Text(
-                    tr(group.title).uppercase(),
-                    Modifier.padding(start = AppSpacing.xl, end = AppSpacing.xl, top = AppSpacing.l, bottom = AppSpacing.xs),
-                    style = AppText.overline.copy(color = colors.onSurfaceVariant),
-                )
-                group.entries.forEachIndexed { i, entry ->
-                    if (i > 0) AppDivider(Modifier.padding(horizontal = AppSpacing.xl))
-                    MoreRow(entry, value = language?.let(::tr).takeIf { entry.route == Route.Languages }) { onNavigate(entry.route) }
-                }
-            }
-        }
-    }
-}
 
 @Composable
 private fun MoreRow(entry: MoreEntry, value: String?, onClick: () -> Unit) {

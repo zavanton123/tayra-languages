@@ -86,7 +86,7 @@ private fun menuGroups(videos: Boolean) = listOfNotNull(
     MenuGroup(NavSection.PLAYLISTS, listOf(MenuEntry("Playlists", Route.Playlists)), direct = true),
     // Their settings are with the others, beside the settings pages' sidebar.
     MenuGroup(NavSection.FLASHCARDS, flashcardPages.map { MenuEntry(it.label, it.route) }),
-    MenuGroup(NavSection.TERMS, listOf(MenuEntry("Vocabulary", Route.Terms()), MenuEntry("Word frequency", Route.WordFrequency), MenuEntry("Statistics", Route.Stats))),
+    MenuGroup(NavSection.TERMS, vocabularyPages.map { MenuEntry(it.label, it.route) }),
 )
 
 const val APP_NAME = "Idiomiko"

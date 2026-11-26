@@ -5,8 +5,6 @@ internal val elCommon: Map<String, String> = mapOf(
     // PhoneLanguages.kt
     "Meanings" to "Σημασίες",
     // PhoneNavigation.kt
-    "Watch" to "Παρακολούθηση",
-    "Words and progress" to "Λέξεις και πρόοδος",
     // Language names, shown through tr(name).
     "Afrikaans" to "Αφρικάανς",
     "Albanian" to "Αλβανικά",

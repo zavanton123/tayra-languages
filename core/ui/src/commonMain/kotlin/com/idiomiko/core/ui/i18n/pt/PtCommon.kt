@@ -5,8 +5,6 @@ internal val ptCommon: Map<String, String> = mapOf(
     // PhoneLanguages.kt
     "Meanings" to "Significados",
     // PhoneNavigation.kt
-    "Watch" to "Assistir",
-    "Words and progress" to "Palavras e progresso",
     // Language names, shown through tr(name).
     "Afrikaans" to "Africâner",
     "Albanian" to "Albanês",

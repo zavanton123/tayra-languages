@@ -214,7 +214,7 @@ class HomeScreenTest {
                                 HomeContent(state, HomeActions({ visited += it }, onOpenLesson = { _, lesson -> opened += lesson.lesson.id }, onContinuePlaylist = listened))
                             }
                             // The phone's tabs, as the app's frame puts them under every page.
-                            if (bar && LocalWindowWidth.current.isCompact) PhoneNavBar(NavSection.HOME, onNavigate = { visited += it }, onMore = {})
+                            if (bar && LocalWindowWidth.current.isCompact) PhoneNavBar(NavSection.HOME, onNavigate = { visited += it })
                         }
                     }
                 }
