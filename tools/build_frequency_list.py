@@ -5087,6 +5087,7 @@ def load_dictionary(language):
         frequency_afrikaans.load(pos, lemmas, common, DICTIONARIES)
     if language == "br":
         frequency_breton.french_lemmas(pos, lemmas)
+        frequency_breton.load(DICTIONARIES)
     if language in FINNIC_OWN_SENSES:
         own, plain = finnish_kinds(db, lemmas, language)
         for word, kinds in unlisted.items():
@@ -7427,6 +7428,16 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                     lemmas[form] = words_of(max(found, key=lambda r: (count(r), r)))
             elif known and not any(is_word(l) for l in known):
                 lemmas[form] = list(dict.fromkeys(w for l in known for w in words_of(l))) or known
+        breton_mutated()
+
+    def breton_mutated():
+        """
+        Files a spelling the pack has not at all, of four letters or more, under the commonest word or form it may be a
+        mutation of.
+        """
+        def words_of(spelling):
+            return [spelling] if is_word(spelling) else [l for l in dict.fromkeys(lemmas.get(spelling, [])) if is_word(l)]
+
         for form in list(freq):
             if (form not in pos and not lemmas.get(form) and form not in overrides and form not in excluded and len(form) > 3
                     and "'" not in form.replace("c'h", "")):
@@ -7501,6 +7512,29 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             if found:
                 filed[form] = [word_of(max(found, key=lambda r: (count(r), r)))]
         lemmas.update(filed)
+
+    def breton_more(tables):
+        """
+        The words the pack lacks (frequency_breton): the other packs', the verbs the corpus shows and the corpus's own, once the
+        pack's words have their forms, then their mutated and regular forms the same way. [tables] are breton_paradigms'.
+        """
+        corpus = FALLBACKS["br"]["leipzig"][0]
+        counts, lowercase = frequency_breton.corpus_counts(
+            download(f"https://downloads.wortschatz-leipzig.de/corpora/{corpus}.tar.gz", f"leipzig-{corpus}.tar.gz"))
+
+        def placed(form, depth=0):
+            return form in overrides or is_word(form) or depth < 3 and any(
+                placed(l, depth + 1) for l in lemmas.get(form, ()) if l != form)
+
+        made = frequency_breton.regular(pos, common, WORD_POS, tables)
+        added = frequency_breton.more_words(pos, lemmas, common, WORD_POS, placed, made, BRETON_MUTATIONS)
+        added |= frequency_breton.corpus_verbs(freq, counts, lowercase, pos, lemmas, common, is_word, placed, excluded,
+                                                BRETON_MUTATIONS)
+        frequency_breton.regular_of_added(pos, common, added)
+        made = frequency_breton.regular(pos, common, WORD_POS, tables)
+        frequency_breton.own_words(counts, lowercase, pos, lemmas, common, placed, made, excluded, overrides, BRETON_MUTATIONS)
+        breton_mutated()
+        breton_paradigms(tables)
 
     def hindi_relink():
         """
@@ -7596,6 +7630,7 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
                 breton_tables[lemma].add(form)
         breton_relink()
         breton_paradigms(breton_tables)
+        breton_more(breton_tables)
     if language == "hi":
         hindi_relink()
     if language == "pa":
