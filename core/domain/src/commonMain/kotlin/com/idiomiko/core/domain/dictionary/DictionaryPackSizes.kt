@@ -86,7 +86,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "th-en" to 1_536_656L, "th-pl" to 189_736L, "th-ru" to 179_480L, "th-zh" to 185_555L, "tl-en" to 2_881_047L,
         "tl-fr" to 101_376L, "tl-pl" to 81_830L, "tl-ru" to 136_100L, "tl-zh" to 145_831L, "tok-de" to 10_004L,
         "tok-el" to 11_250L, "tok-en" to 10_220L, "tok-es" to 10_576L, "tok-fr" to 10_808L, "tok-pl" to 10_663L,
-        "tok-pt" to 10_117L, "tok-ru" to 11_714L, "tok-zh" to 11_031L, "tr-el" to 5_894_964L, "tr-en" to 45_176_746L, "tr-pl" to 9_131_561L,
+        "tok-pt" to 10_117L, "tok-ru" to 11_714L, "tok-zh" to 11_031L, "tr-el" to 5_894_964L, "tr-en" to 45_185_061L, "tr-pl" to 9_131_561L,
         "tr-zh" to 9_797_724L, "uk-en" to 9_242_151L, "uk-pl" to 4_762_598L, "uk-zh" to 1_219_334L, "ur-en" to 1_321_828L, "uz-en" to 6_149_917L, "vi-en" to 3_190_026L, "vi-fr" to 1_402_168L,
         "vi-pl" to 175_991L, "vi-ru" to 138_482L, "vi-zh" to 1_727_931L, "yi-en" to 616_817L, "yi-pl" to 518_542L,
         "yi-ru" to 181_411L, "yo-en" to 650_092L, "yue-en" to 19_448_790L, "yue-fr" to 1_057_828L, "yue-pl" to 524_731L, "yue-pt" to 160_688L,
