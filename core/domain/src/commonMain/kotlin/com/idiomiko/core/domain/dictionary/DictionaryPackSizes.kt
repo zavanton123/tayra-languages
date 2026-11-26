@@ -7,7 +7,7 @@ package com.idiomiko.core.domain.dictionary
 /** Each published pack, "source-target" to its download size in bytes, by the release that has it. */
 internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
     "v0.1.0" to mapOf(
-        "be-de" to 189_126L, "be-en" to 1_282_426L, "be-fr" to 187_251L, "be-pt" to 64_433L, "be-ru" to 1_523_904L,
+        "be-de" to 189_126L, "be-fr" to 187_251L, "be-pt" to 64_433L, "be-ru" to 1_523_904L,
         "bg-de" to 156_022L, "bg-fr" to 3_346_132L, "bg-pt" to 98_606L, "bg-ru" to 1_282_832L,
         "ca-de" to 562_508L, "ca-es" to 373_500L, "ca-fr" to 2_169_004L, "ca-pt" to 425_673L,
         "ca-ru" to 764_323L, "cs-de" to 3_680_851L, "cs-es" to 126_561L, "cs-fr" to 6_520_287L,
@@ -46,7 +46,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
     ),
     "dictionaries-v2" to mapOf(
         "af-en" to 634_348L, "aii-en" to 575_695L, "am-en" to 1_188_085L, "az-en" to 16_870_128L, "ar-en" to 7_904_881L, "ar-fr" to 1_157_530L, "ar-pl" to 2_562_403L, "ar-pt" to 316_687L,
-        "ar-ru" to 3_080_252L, "ar-zh" to 851_214L, "arz-en" to 159_960L, "be-pl" to 2_074_197L, "be-zh" to 282_582L,
+        "ar-ru" to 3_080_252L, "ar-zh" to 851_214L, "arz-en" to 159_960L, "be-en" to 2_492_254L, "be-pl" to 2_074_197L, "be-zh" to 282_582L,
         "bg-en" to 5_828_413L, "bg-pl" to 3_794_653L, "bg-zh" to 598_009L, "bn-en" to 2_160_218L, "br-en" to 412_199L, "br-fr" to 2_047_497L, "br-ru" to 115_958L,
         "bs-en" to 6_305_620L, "bs-zh" to 1_114_855L, "ca-en" to 5_519_548L, "ca-pl" to 834_445L, "ca-zh" to 1_704_978L, "cs-el" to 243_078L,
         "cs-en" to 11_064_468L, "cs-pl" to 4_290_625L, "cs-pt" to 262_468L, "cs-zh" to 2_812_601L, "cy-en" to 2_661_250L, "cy-fr" to 376_642L,
