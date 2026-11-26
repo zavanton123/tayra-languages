@@ -173,7 +173,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Parent term (optional)" to "Palabra base (opcional)",
     "None" to "Ninguna",
     "Term information" to "Información de la palabra",
-    "How well do you know this term?" to "¿Cómo de bien conoces esta palabra?",
     "Not saved yet" to "Aún sin guardar",
     "Last updated" to "Última modificación",
     "Just now" to "Ahora mismo",

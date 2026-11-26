@@ -173,7 +173,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Parent term (optional)" to "父词条（可选）",
     "None" to "无",
     "Term information" to "词条信息",
-    "How well do you know this term?" to "你对这个词条掌握得如何？",
     "Not saved yet" to "尚未保存",
     "Last updated" to "上次更新",
     "Just now" to "刚刚",

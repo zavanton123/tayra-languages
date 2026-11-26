@@ -574,7 +574,6 @@ private fun InformationCard(modifier: Modifier, state: TermFormUiState, viewMode
 @Composable
 private fun StatusCard(modifier: Modifier, state: TermFormUiState, viewModel: TermFormViewModel) {
     FormCard(modifier, AppIcons.BarChart, tr("Learning status")) {
-        Text(tr("How well do you know this term?"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
         StatusSelector(selected = state.draft.status, onSelect = viewModel::setStatus, expanded = true)
         AppDivider()
         KeyValueRow(tr("Added"), state.createdAt?.let { it.formatDate() } ?: tr("Not saved yet"))

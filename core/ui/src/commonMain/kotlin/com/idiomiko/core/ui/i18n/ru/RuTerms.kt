@@ -173,7 +173,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Parent term (optional)" to "Родительское слово (необязательно)",
     "None" to "Нет",
     "Term information" to "Сведения о слове",
-    "How well do you know this term?" to "Насколько хорошо вы знаете это слово?",
     "Not saved yet" to "Ещё не сохранено",
     "Last updated" to "Последнее изменение",
     "Just now" to "Только что",
