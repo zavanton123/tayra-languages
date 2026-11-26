@@ -30,16 +30,20 @@ class PlaylistSettingsScreenTest {
         setContent { Hosted(settings) { PlaylistSettingsScreen(onNavigate = {}, onBack = {}, viewModel = SettingsViewModel(settings)) } }
 
         onNodeWithTag("settings-section-PLAYLISTS").assertIsSelected()
-        // The pause's length shows once there is a pause.
-        onNodeWithTag("pause-seconds").assertDoesNotExist()
-        onNodeWithTag("pause-between-tracks").performClick()
-        waitUntil(timeoutMillis = 5_000) { settings.current.playlistPauseBetweenTracks }
+        // By default the player rests 5 seconds between tracks and goes on with the next playlist.
+        assertEquals(true, settings.current.playlistPauseBetweenTracks)
+        assertEquals(5, settings.current.playlistPauseSeconds)
+        assertEquals(PlaylistEnd.NEXT_PLAYLIST, settings.current.playlistEnd)
         onNodeWithContentDescription("Increase length of the pause").performClick()
-        waitUntil(timeoutMillis = 5_000) { settings.current.playlistPauseSeconds == 4 }
+        waitUntil(timeoutMillis = 5_000) { settings.current.playlistPauseSeconds == 6 }
+        // The pause's length shows only while there is a pause.
+        onNodeWithTag("pause-between-tracks").performClick()
+        waitUntil(timeoutMillis = 5_000) { !settings.current.playlistPauseBetweenTracks }
+        onNodeWithTag("pause-seconds").assertDoesNotExist()
 
         onNodeWithTag("playlist-end").performClick()
-        onNodeWithText("Play the next playlist").performClick()
-        waitUntil(timeoutMillis = 5_000) { settings.current.playlistEnd == PlaylistEnd.NEXT_PLAYLIST }
+        onNodeWithText("Stop").performClick()
+        waitUntil(timeoutMillis = 5_000) { settings.current.playlistEnd == PlaylistEnd.STOP }
 
         onNodeWithTag("listening-counts").performClick()
         waitUntil(timeoutMillis = 5_000) { !settings.current.playlistCountsTowardGoal }
