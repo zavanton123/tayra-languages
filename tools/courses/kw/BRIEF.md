@@ -3,8 +3,8 @@
 Each course teaches one band of 100 words from the Cornish word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its common forms). Course `kw-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
-words, so the course covers the band. The list has 5,137 words, so there are 52 courses; the last
-band (5101–5137) is short. `themes.tsv` gives each course its theme.
+words, so the course covers the band. The list has 4,816 words, so there are 49 courses; the last
+band (4801–4816) is short. `themes.tsv` gives each course its theme.
 
 ## The register and the spelling
 
@@ -60,7 +60,7 @@ serial; a lesson never needs another lesson to make sense.
     *-ir*/*-ys* and *bos*, relative clauses, reported speech;
   - ranks 2001–4000: a fuller written style, connectors (*byttegyns*, *ytho*, *awos*), idioms
     explained by their context, first-person narrators, letters, short columns;
-  - ranks 4001–5137 (C1): short essays, interviews, portraits, reviews; the specialised words of the
+  - ranks 4001–4816 (C1): short essays, interviews, portraits, reviews; the specialised words of the
     sciences and the arts, made clear by their context.
 - **Repetition on purpose**: each new word three times or more where it reads naturally.
 - **Questions at the end**: after the story, a paragraph starting `Govynnow:` with 4–6 simple
@@ -108,6 +108,11 @@ Things to know about the Cornish list and the checker:
 - The courses are pinned to `tools/courses/kw/wordlist.tsv`, a copy of the app's `kw.tsv`, counted from
   the articles of Cornish Wikipedia only, so encyclopaedia words rank high (*poblans* 28, *konteth* 37,
   *restren* 47, *mildir* 72) and kitchen words low.
+- Ranks 1–2300 keep the order the first courses were written against, and some of their headwords are
+  forms of others (*flehes*, *grib*, *vagma*, *unweyth*, *gesstrifas*). From rank 2301 on, the list files
+  mutated words, plurals, pasts, passives, participles, comparatives and other spellings under their word
+  (*diredhow* under *tiredh*, *recevas* under *receva*, *skrifir* under *skrifa*, *tomder* under *tobmder*),
+  and a word whose form an earlier band holds is left out (*kesstrifa*, *sodha*, *gwelstir*, *tavell*).
 - **Mutations**: a mutated form the list lacks counts as the word it mutates (*vledhen* is *bledhen*,
   *Gernow* is *Kernow*). But a mutated form that is itself a list word counts as that word: **an dre "the
   town" reads as dre "through"** (38), *va* as *ev* and *ma*. Use *tre* itself for its two uses.
@@ -116,5 +121,5 @@ Things to know about the Cornish list and the checker:
 - **Hyphenated words** are one word where the list has them (*a-dro*, *a-dhia*, *yn-dann*, *war-lergh*)
   and their parts otherwise.
 - Look a word up with `rank.py` (in the writers' folder) before relying on a form: *henow* reads as *gans*,
-  *kyv* as *gyv*; `extra_forms.tsv` adds forms the list lacks (*goer*/*woer* of *godhvos*, *gyll* of
+  *kyv* as *kavos*; `extra_forms.tsv` adds forms the list lacks (*goer*/*woer* of *godhvos*, *gyll* of
   *gallos*).
