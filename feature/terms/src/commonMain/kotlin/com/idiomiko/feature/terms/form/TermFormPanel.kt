@@ -75,6 +75,7 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextDirection
 import androidx.compose.ui.text.style.TextOverflow
@@ -689,8 +690,8 @@ val LanguageDictionary.displayName: String
     get() = url.substringAfter("://").substringBefore("/").removePrefix("www.").ifEmpty { tr("Dictionary") }
 
 /**
- * Status buttons U (unknown), 1–4, W and I. Only the chosen one has its status's colour and a tick; the others are
- * plain, outlined. [expanded] stretches them to fill the row; [large] also fills the row, with taller buttons,
+ * Status buttons U (unknown), 1–4, W and I, each on a pale wash of its status's colour; the chosen one has the colour in
+ * full, a tick and its name in bold. [expanded] stretches them to fill the row; [large] also fills the row, with taller buttons,
  * instead of compact chips.
  */
 @Composable
@@ -706,27 +707,28 @@ fun StatusSelector(selected: TermStatus, onSelect: (TermStatus) -> Unit, expande
                 val chosen = status.chosenFor(selected)
                 val named = words
                 val tint = colors.background(status).let { if (it == Color.Transparent) MaterialTheme.colorScheme.surfaceVariant else it }
-                // The colour moves to the chosen status, fading out on the old one and in on the new.
-                val background by animateColorAsState(if (isSelected) tint else MaterialTheme.colorScheme.surface, AppMotion.spec(AppMotion.short))
-                val outline by animateColorAsState(if (isSelected) Color.Transparent else MaterialTheme.colorScheme.outlineVariant, AppMotion.spec(AppMotion.short))
+                // Every status keeps a pale wash of its colour; the chosen one takes it in full, the change fading across.
+                val background by animateColorAsState(if (isSelected) tint else tint.copy(alpha = UNCHOSEN_STATUS_ALPHA), AppMotion.spec(AppMotion.short))
                 val name = status.shownName()
                 Box(
                     Modifier
                         .then(if (expanded) Modifier.weight(if (named) NAMED_STATUS_WEIGHT else 1f).height(AppSizes.touch) else if (large) Modifier.weight(if (named) NAMED_STATUS_WEIGHT else 1f).height(LARGE_STATUS_BUTTON_HEIGHT) else Modifier)
                         .clip(if (wide) AppShapes.compact else AppShapes.tiny)
                         .background(background)
-                        .border(AppBorders.hairline(outline), if (wide) AppShapes.compact else AppShapes.tiny)
                         .clickable { onSelect(chosen) }
                         .semantics { this.selected = isSelected; contentDescription = name }
                         .then(if (wide) Modifier else Modifier.padding(horizontal = AppSpacing.m, vertical = AppSpacing.s)),
                     contentAlignment = Alignment.Center,
                 ) {
-                    val ink = if (!isSelected) MaterialTheme.colorScheme.onSurfaceVariant else if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink
+                    val ink = if (colors.onHighlight != Color.Unspecified) colors.onHighlight else AppAccents.ink
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.xxs)) {
                         // A tick says which is chosen without its colour, for those who cannot tell the colours apart.
                         if (isSelected && wide) Icon(Icons.Default.Check, contentDescription = null, tint = ink, modifier = Modifier.size(AppSizes.iconSmall))
-                        if (named) FitText(name, Modifier.padding(horizontal = AppSpacing.xxs), style = (if (wide) AppText.itemTitle else AppText.badge).copy(textAlign = TextAlign.Center), color = ink)
-                        else Text(text = status.shownAbbreviation(), color = ink, style = if (wide) AppText.itemTitle else AppText.badge)
+                        // The chosen name is bold, the others regular and a little lighter.
+                        val style = (if (wide) AppText.itemTitle else AppText.badge).copy(fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Normal)
+                        val color = if (isSelected) ink else ink.copy(alpha = AppAlpha.muted)
+                        if (named) FitText(name, Modifier.padding(horizontal = AppSpacing.xxs), style = style.copy(textAlign = TextAlign.Center), color = color)
+                        else Text(text = status.shownAbbreviation(), color = color, style = style)
                     }
                 }
             }
@@ -1209,3 +1211,5 @@ private fun emphasize(sentence: String, term: String, highlight: SpanStyle) = bu
     append(sentence.substring(index))
 }
 
+/** How much of its colour an unchosen status button keeps. */
+private const val UNCHOSEN_STATUS_ALPHA = 0.45f
