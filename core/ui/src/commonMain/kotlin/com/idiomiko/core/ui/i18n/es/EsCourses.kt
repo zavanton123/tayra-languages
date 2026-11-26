@@ -98,7 +98,6 @@ internal val esCourses: Map<String, String> = mapOf(
     "This course no longer exists." to "Este curso ya no existe.",
     "Create course" to "Crear curso",
     "Save changes" to "Guardar cambios",
-    "A course of your own {0} texts, read lesson by lesson." to "Un curso con tus propios textos en {0}, para leer lección a lección.",
     "Change what the course is called and what it is about." to "Cambia el nombre del curso y de qué trata.",
     "About the course" to "Sobre el curso",
     "Shown on the course's card and page." to "Se muestra en la tarjeta y la página del curso.",

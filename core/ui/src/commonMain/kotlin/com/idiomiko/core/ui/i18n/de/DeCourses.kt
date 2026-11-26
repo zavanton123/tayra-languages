@@ -98,7 +98,6 @@ internal val deCourses: Map<String, String> = mapOf(
     "This course no longer exists." to "Diesen Kurs gibt es nicht mehr.",
     "Create course" to "Kurs erstellen",
     "Save changes" to "Änderungen speichern",
-    "A course of your own {0} texts, read lesson by lesson." to "Ein Kurs aus deinen eigenen Texten auf {0}, Lektion für Lektion gelesen.",
     "Change what the course is called and what it is about." to "Ändere den Namen des Kurses und worum es darin geht.",
     "About the course" to "Über den Kurs",
     "Shown on the course's card and page." to "Wird auf der Karte und der Seite des Kurses angezeigt.",

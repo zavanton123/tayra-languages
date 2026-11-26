@@ -98,7 +98,6 @@ internal val ptCourses: Map<String, String> = mapOf(
     "This course no longer exists." to "Este curso não existe mais.",
     "Create course" to "Criar curso",
     "Save changes" to "Salvar alterações",
-    "A course of your own {0} texts, read lesson by lesson." to "Um curso com seus próprios textos em {0}, lido lição por lição.",
     "Change what the course is called and what it is about." to "Altere o nome do curso e do que ele trata.",
     "About the course" to "Sobre o curso",
     "Shown on the course's card and page." to "Aparece no cartão e na página do curso.",

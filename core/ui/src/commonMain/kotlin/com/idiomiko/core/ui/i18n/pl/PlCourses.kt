@@ -98,7 +98,6 @@ internal val plCourses: Map<String, String> = mapOf(
     "This course no longer exists." to "Ten kurs już nie istnieje.",
     "Create course" to "Utwórz kurs",
     "Save changes" to "Zapisz zmiany",
-    "A course of your own {0} texts, read lesson by lesson." to "Kurs z twoich tekstów w języku {0}, czytanych lekcja po lekcji.",
     "Change what the course is called and what it is about." to "Zmień tytuł i opis kursu.",
     "About the course" to "O kursie",
     "Shown on the course's card and page." to "Wyświetlane na karcie i stronie kursu.",

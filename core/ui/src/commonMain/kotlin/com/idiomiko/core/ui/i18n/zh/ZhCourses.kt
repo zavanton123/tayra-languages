@@ -98,7 +98,6 @@ internal val zhCourses: Map<String, String> = mapOf(
     "This course no longer exists." to "该课程已不存在。",
     "Create course" to "创建课程",
     "Save changes" to "保存更改",
-    "A course of your own {0} texts, read lesson by lesson." to "由你自己的{0}文本组成的课程，一篇一篇地读。",
     "Change what the course is called and what it is about." to "修改课程的名称和简介。",
     "About the course" to "课程简介",
     "Shown on the course's card and page." to "显示在课程卡片和课程页面上。",

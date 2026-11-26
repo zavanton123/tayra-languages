@@ -172,10 +172,9 @@ fun CourseFormScreen(
 
 @Composable
 internal fun CourseFormContent(state: CourseFormUiState, onChange: ((CourseDraft) -> CourseDraft) -> Unit) {
-    ScreenHeader(
-        if (state.isNew) tr("New course") else tr("Edit course"),
-        if (state.isNew) tr("A course of your own {0} texts, read lesson by lesson.", languageInSentence(state.languageName, LanguageCase.PREPOSITIONAL)) else tr("Change what the course is called and what it is about."),
-    )
+    val subtitle = if (state.isNew) null else tr("Change what the course is called and what it is about.")
+    // A phone's bar holds the title: without a subtitle the header would be nothing but a gap.
+    if (!LocalWindowWidth.current.isCompact || subtitle != null) ScreenHeader(if (state.isNew) tr("New course") else tr("Edit course"), subtitle)
     state.error?.let { InfoBanner(it, tint = MaterialTheme.colorScheme.error, icon = Icons.Default.Warning) }
     // A form reads as a card, not a band across a wide window.
     ContentCard(tr("About the course"), tr("Shown on the course's card and page."), icon = AppIcons.MenuBook, modifier = Modifier.widthIn(max = AppSizes.readableWidth)) {

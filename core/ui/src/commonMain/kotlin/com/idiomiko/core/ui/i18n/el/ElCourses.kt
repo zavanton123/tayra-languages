@@ -98,7 +98,6 @@ internal val elCourses: Map<String, String> = mapOf(
     "This course no longer exists." to "Αυτό το μάθημα δεν υπάρχει πλέον.",
     "Create course" to "Δημιουργία μαθήματος",
     "Save changes" to "Αποθήκευση αλλαγών",
-    "A course of your own {0} texts, read lesson by lesson." to "Ένα μάθημα από δικά σας κείμενα στα {0}, για ανάγνωση ενότητα προς ενότητα.",
     "Change what the course is called and what it is about." to "Αλλάξτε τον τίτλο και την περιγραφή του μαθήματος.",
     "About the course" to "Σχετικά με το μάθημα",
     "Shown on the course's card and page." to "Εμφανίζεται στην κάρτα και στη σελίδα του μαθήματος.",

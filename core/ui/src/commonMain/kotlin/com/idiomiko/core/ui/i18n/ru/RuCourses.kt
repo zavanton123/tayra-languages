@@ -98,7 +98,6 @@ internal val ruCourses: Map<String, String> = mapOf(
     "This course no longer exists." to "Этот курс больше не существует.",
     "Create course" to "Создать курс",
     "Save changes" to "Сохранить изменения",
-    "A course of your own {0} texts, read lesson by lesson." to "Курс из ваших текстов на {0} языке для чтения урок за уроком.",
     "Change what the course is called and what it is about." to "Измените название и описание курса.",
     "About the course" to "О курсе",
     "Shown on the course's card and page." to "Показывается на карточке и странице курса.",
