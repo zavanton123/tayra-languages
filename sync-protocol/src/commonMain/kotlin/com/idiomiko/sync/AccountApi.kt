@@ -90,6 +90,8 @@ data class Me(
     val name: String? = null,
     /** Which picture the account has, at /me/picture: it changes when the picture does; null without one. */
     val picture: String? = null,
+    /** The picture is one the account's owner uploaded, which they can remove to show Google's again, if any. */
+    val ownPicture: Boolean = false,
 )
 
 @Serializable
