@@ -7686,6 +7686,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "kw":
         # A Cornish word written mutated, in another spelling, or as a plural or verb form of a word of the list is that word's.
         frequency_cornish.fold(scores, forms, pos, DICTIONARIES)
+    if language == "ur":
+        # An Urdu word's count is only its own uses; names and other spellings go (frequency_urdu.fold).
+        frequency_urdu.fold(scores, forms, pos)
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     listed, listed_as = set(ranked), set()
     if language == "fa":

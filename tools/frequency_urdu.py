@@ -187,7 +187,7 @@ def mend(db, pos, lemmas, common):
             if form not in WORDS and word not in lemmas.get(form, ()):
                 lemmas[form].append(word)
     USAGE.clear()
-    USAGE.update(read_usage())
+    USAGE.update(read_usage(db, pos, lemmas))
     unlink_lookalikes(pos, lemmas)
     # The oblique plural of an adjective in -ا the pack's table inflects, which texts use as a noun (بڑوں "elders",
     # چھوٹوں), and which the tables lack, so that the pack gave it to a rarer word (بڑ) or verb (چھوٹنا) alone; not one
@@ -227,16 +227,44 @@ def mend(db, pos, lemmas, common):
 # their archives, and mend reads them once into USAGE.
 SENTENCES = []
 USAGE = {}
+# The content words of the pack's glosses of each word, as read_usage finds them.
+GLOSSES = {}
 # What follows a verb's stem or participle (کر, گیا, دیا, لیا, رہا, سکا, چکا, ہوئے, ہے, گا) and a noun's or adjective's
 # form (کا, کی, کو, میں, سے, پر, نے; والا), and what comes before a noun (کا, ایک, اس, اپنا, ہر).
 _VERBAL = set("""کر گیا گئی گئے گئیں جاتا جاتی جاتے جائے جائیں جانا جانے جاؤ جاتیں دیا دی دیے دئیے دئے دیں دینا دینے دیتا دیتی
 دیتے دے دو لیا لی لیے لئے لیں لینا لینے لیتا لیتی لیتے لے لو رہا رہی رہے رہیں رہنا رہنے رہتا رہتی رہتے سکا سکی سکے سکتا سکتی
 سکتے سکیں چکا چکی چکے چکیں ہوا ہوئی ہوئے ہوئیں پڑا پڑی پڑے پڑتا پڑتی پڑتے ڈالا ڈالی ڈالے بیٹھا بیٹھی بیٹھے اٹھا اٹھی اٹھے
 گا گی گے ہے ہیں تھا تھی تھے تھیں""".split())
+_LITTLE = set("کا کی کے کو میں سے پر نے تک اور یا بھی ہی تو نہ نہیں".split())
 _AFTER_NOUN = set("کا کی کے کو میں سے پر نے تک والا والی والے والوں".split())
 _BEFORE_NOUN = set("کا کی کے ایک اس ان یہ وہ اپنا اپنی اپنے فی ہر کوئی کسی کئی سب تمام".split())
+# The titles written before a person's name, and the commonest parts of the news's names, given names and family names
+# (not the pack's names, which are places as often: آزاد کشمیر, سعودی عرب): a word mostly written beside them is a name
+# (نسیم اشرف, ڈاکٹر نسیم; رجب طیب, قیصر شیخ). Not ملک "country", پیر "Monday", میاں "husband", خواجہ "eunuch" (خواجہ
+# سرا), اللہ (انشاء اللہ), شریف (قرآن شریف), which stand beside words as often.
+_TITLES = set("""ڈاکٹر مولانا جسٹس جنرل بیگم صاحبزادہ صاحبزادی علامہ حافظ مفتی قاری حاجی سردار نواب مخدوم مسٹر مسز سینیٹر
+کرنل میجر کیپٹن بریگیڈیئر انسپکٹر سید چوہدری چودھری رانا راجہ شیخ شہزادہ شہزادی""".split())
+_NAME_PARTS = set("""محمد احمد علی حسین شاہ الدین الرحمن الرحمان الحق اقبال چوہدری چودھری سید شیخ بٹ قریشی رضوی نقوی زیدی جعفری
+گیلانی بخاری عباسی بلوچ صدیقی فاروقی ہاشمی انصاری اعوان مزاری بگٹی خٹک آفریدی درانی بیگ مرزا اختر اشرف اسلم اکرم ارشد اعجاز
+افضل امجد انور ایاز بشیر جاوید جمیل حامد حفیظ حمید خالد رشید رضا ریاض زاہد سعید سلیم شاہد شفیق شوکت صدیق طارق عارف عاصم
+عامر عباس عبداللہ عثمان عرفان عمران غلام فاروق فیصل قادر کامران کریم ماجد مجید محمود مسعود ممتاز منیر ناصر نعیم وسیم وقار
+یوسف یونس راشد سنگھ""".split())
+# Words written between two names that are no names (اسلم ولد اکرم, پاکستان بمقابلہ بھارت, X عرف Y).
+_BETWEEN_NAMES = {"ولد", "بنت", "زوجہ", "عرف", "بن", "بمقابلہ"}
+# A word mostly written beside names (NAMED_SHARE of the times the sentences have it) is a name: the news's people.
+NAMED_SHARE = 0.5
 # The fewest times the sentences must have a word for its uses there to settle anything.
 SEEN_ENOUGH = 20
+# The words of the glosses that tell no sense from another.
+_STOP_GLOSS = set("""the and for with from that this one any some being used person thing which who what into onto off out
+over upon very more most also not other another given name female male kind sort type form act state quality etc something
+someone especially usually often""".split())
+
+
+def _gloss_words(senses):
+    """The content words of an entry's English glosses."""
+    return {w for s in senses for g in s.get("glosses", []) for w in re.findall("[a-z]+", g.lower())
+            if len(w) > 2 and w not in _STOP_GLOSS}
 
 
 def _sentences():
@@ -250,15 +278,37 @@ def _sentences():
                     yield line.decode("utf-8", "replace").rstrip("\n").partition("\t")[2]
 
 
-def read_usage():
+def read_usage(db, pos, lemmas):
     """
     Counts, for every word of the sentences (as the reader cuts and folds them): how often they have it (seen), and how
-    often it stands before a verb's helper (verbal: ڈٹ کر, سہمے ہوئے) and as a noun stands (nominal: کی سمری, ہیرے کی,
-    both counted).
+    often it stands before a verb's helper (verbal: ڈٹ کر, سہمے ہوئے), as a noun stands (nominal: کی سمری, ہیرے کی, both
+    counted), beside a name or after a title (named), as a piece of a word that a space split (broken: بڑ ی, خلا ف, اجلا س,
+    the letter after it or before it making a word or form of the pack), or as a piece of the pack's two-word words whose
+    sense is none of its own, their glosses sharing no word's first five letters (foreign: مون of مون سون "monsoon", صلاح
+    of the name صلاح الدین; not مرچ of کالی مرچ "black pepper", شناختی "identifying" of شناختی کارڈ "identity card").
     """
-    kinds = ("seen", "verbal", "nominal")
+    known = set(pos) | {f for f, of in lemmas.items() if of}
+    glosses = {}
+    pairs = {}
+    for word, senses in db.execute("SELECT word_lc, senses FROM entries ORDER BY id"):
+        glosses.setdefault(urdu_fold(word), set()).update(_gloss_words(json.loads(senses)))
+    for word, senses in db.execute("SELECT word_lc, senses FROM entries WHERE word_lc LIKE '% %' ORDER BY id"):
+        parts = tuple(urdu_fold(word).split())
+        if len(parts) == 2:
+            pairs.setdefault(parts, set()).update(_gloss_words(json.loads(senses)))
+    foreign = {}
+    for (a, b), words in pairs.items():
+        # Not a postposition's or conjunction's pair (کے ساتھ, سب سے, آپس میں), nor a word written twice (آہستہ آہستہ).
+        if a == b or a in _LITTLE or b in _LITTLE:
+            continue
+        stems = {w[:5] for w in words}
+        foreign[(a, b)] = {p for p in (a, b) if p in glosses and not {w[:5] for w in glosses[p]} & stems}
+    before_name = _NAME_PARTS | _TITLES
+    GLOSSES.clear()
+    GLOSSES.update(glosses)
+    kinds = ("seen", "verbal", "nominal", "named", "broken", "foreign")
     usage = {k: {} for k in kinds}
-    seen, verbal, nominal = (usage[k] for k in kinds)
+    seen, verbal, nominal, named, broken, alien = (usage[k] for k in kinds)
     for sentence in _sentences():
         words = LETTERS.findall(urdu_fold(sentence))
         last = len(words) - 1
@@ -269,6 +319,13 @@ def read_usage():
             if after in _VERBAL:
                 verbal[word] = verbal.get(word, 0) + 1
             nominal[word] = nominal.get(word, 0) + (after in _AFTER_NOUN) + (before in _BEFORE_NOUN)
+            if before in before_name or after in _NAME_PARTS:
+                named[word] = named.get(word, 0) + 1
+            if (len(after) == 1 and after != "و" and word + after in known) or (
+                    len(before) == 1 and before not in "وک" and before + word in known):
+                broken[word] = broken.get(word, 0) + 1
+            if word in foreign.get((word, after), ()) or word in foreign.get((before, word), ()):
+                alien[word] = alien.get(word, 0) + 1
     return usage
 
 
@@ -322,3 +379,38 @@ def unlink_lookalikes(pos, lemmas):
             if other if count >= SEEN_ENOUGH else spelled:
                 lemmas[form] = [l for l in lemmas[form] if l != verb]
 
+
+def _variant_key(word):
+    """A word as its other spellings write it too: final ہ as ا (مہینہ, مہینا), ؤ as و, ئ as ی, ھ as ہ, آ as ا."""
+    if word.endswith("ہ"):
+        word = word[:-1] + "ا"
+    return word.replace("ؤ", "و").replace("ئ", "ی").replace("ھ", "ہ").replace("آ", "ا")
+
+
+def fold(scores, forms, pos):
+    """
+    After the counting: a word or form counts only its uses that are that word (read_usage), not those as a piece of a word
+    a space split (بڑ, خلا) or of a two-word word of another sense (مون, صلاح); a word written mostly beside names (نسیم,
+    طیب, قیصر) is a name; and two spellings of one word (مہینا, مہینہ: the same key, glosses in common) are the commoner
+    one.
+    """
+    for word in sorted(scores):
+        counted = forms[word]
+        for form in sorted(counted):
+            piece = min(1.0, _share("broken", form) + _share("foreign", form))
+            if piece:
+                counted[form] *= 1 - piece
+    for word in sorted(scores):
+        named = word not in _TITLES and word not in _BETWEEN_NAMES and _share("named", word) >= NAMED_SHARE
+        if named:
+            del scores[word]
+    keyed = {}
+    for word in sorted(scores, key=lambda w: (-sum(forms[w].values()), w)):
+        key = _variant_key(word)
+        first = keyed.setdefault(key, word)
+        if first != word and GLOSSES.get(first, set()) & GLOSSES.get(word, set()):
+            for form, share in sorted(forms[word].items()):
+                forms[first][form] = forms[first].get(form, 0) + share
+            del scores[word]
+    for word in scores:
+        scores[word] = sum(forms[word].values())
