@@ -25,7 +25,9 @@ import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
@@ -36,6 +38,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -195,7 +198,10 @@ fun TermsScreen(
         },
     ) { padding ->
         val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
-        ScrollList(Modifier.padding(padding).fillMaxSize(), contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
+        val list = rememberLazyListState()
+        // Another page starts at the toolbar over its list, not where the pager left it at the foot.
+        TopOnPageTurn(state.page, list, if (dialog) 1 else 2)
+        ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
             if (dialog) {
                 item { DialogHeader(title.orEmpty(), subtitle, exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onClose = { onBack?.invoke() }) }
             } else {
@@ -356,6 +362,17 @@ private fun Toolbar(state: TermsListUiState, viewModel: TermsListViewModel, comp
                 color = colors.onSurfaceVariant,
             )
         }
+    }
+}
+
+/** Scrolls [list] to its item [start] when [page] changes, so another page is read from its top. */
+@Composable
+internal fun TopOnPageTurn(page: Int, list: LazyListState, start: Int) {
+    var shown by remember { mutableStateOf(page) }
+    LaunchedEffect(page) {
+        if (page == shown) return@LaunchedEffect
+        shown = page
+        if (list.firstVisibleItemIndex > start) list.animateScrollToItem(start)
     }
 }
 

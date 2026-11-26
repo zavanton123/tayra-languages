@@ -53,7 +53,10 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import java.io.File
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.assertIsNotEnabled
+import androidx.compose.ui.test.hasContentDescription
+import androidx.compose.ui.test.performSemanticsAction
 import androidx.compose.ui.unit.dp
 import javax.imageio.ImageIO
 import kotlin.test.AfterTest
@@ -408,17 +411,18 @@ class TermsScreenTest {
         onNodeWithTag("phone-add-term").assertExists()
     }
 
-    /** A phone has no pages: the list grows by the next terms as its end comes into view. */
+    /** A phone's list comes in pages, as a wide window's: the pager under it turns them. */
     @Test
-    fun aPhonesListLoadsMoreAsItScrolls() = runDesktopComposeUiTest(width = 400, height = 1100) {
+    fun aPhonesListComesInPages() = runDesktopComposeUiTest(width = 400, height = 1100) {
         show(extra = 120)
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Learning 1–4 · 123 terms").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithContentDescription("Next page").fetchSemanticsNodes().size, "no pager on a phone")
-        // The first 50 are listed at the start; scrolling towards their end brings the next ones, until the oldest shows.
-        for (index in 40..130 step 10) {
-            runCatching { onNode(hasScrollToIndexAction()).performScrollToIndex(index) }
-            waitForIdle()
-        }
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("palavra0").fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasScrollToIndexAction()).performScrollToNode(hasContentDescription("Next page"))
+        onNodeWithText("1–50 of 123").assertExists()
+        System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-pager.png"))) }
+        onNodeWithContentDescription("Next page").performSemanticsAction(SemanticsActions.OnClick)
+        // The next page is read from its top: the sort shows again, the pager is out of sight below.
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-sort").fetchSemanticsNodes().isNotEmpty() }
+        onNode(hasScrollToIndexAction()).performScrollToNode(hasContentDescription("Next page"))
+        onNodeWithText("51–100 of 123").assertExists()
     }
 }

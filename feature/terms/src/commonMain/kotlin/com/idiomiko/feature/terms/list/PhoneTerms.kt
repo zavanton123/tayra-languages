@@ -1,9 +1,5 @@
 package com.idiomiko.feature.terms.list
 
-import com.idiomiko.core.ui.components.SpinnerSize
-import com.idiomiko.core.ui.components.AppSpinner
-import androidx.compose.runtime.snapshotFlow
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.foundation.lazy.rememberLazyListState
 import com.idiomiko.core.ui.components.ScrollColumn
 import com.idiomiko.core.ui.components.chosenFor
@@ -73,6 +69,7 @@ import com.idiomiko.core.ui.components.AppTriStateCheckbox
 import com.idiomiko.core.ui.components.BarSurface
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.EmptyState
+import com.idiomiko.core.ui.components.ListPager
 import com.idiomiko.core.ui.components.NavSection
 import com.idiomiko.core.ui.components.PickerSheet
 import com.idiomiko.core.ui.components.PrimaryButton
@@ -117,12 +114,9 @@ internal fun PhoneTermsScreen(
     var sorting by remember { mutableStateOf(false) }
     var filtering by remember { mutableStateOf(false) }
     val selecting = state.selected.isNotEmpty()
-    // No pages on a phone: the list loads more as its end comes near.
+    // In pages, as on a wide window; another page starts at its list, the search and the sort above it.
     val list = rememberLazyListState()
-    LaunchedEffect(list) {
-        snapshotFlow { list.layoutInfo.visibleItemsInfo.lastOrNull()?.index to list.layoutInfo.totalItemsCount }
-            .collect { (last, total) -> if (last != null && total > 0 && last >= total - 5) viewModel.showMore() }
-    }
+    TopOnPageTurn(state.page, list, PHONE_LIST_START)
     Scaffold(
         topBar = {
             AppTopBar(
@@ -187,9 +181,7 @@ internal fun PhoneTermsScreen(
                     Spacer(Modifier.height(AppSpacing.s))
                 }}
             }
-            if (!state.loading && state.terms.size < state.totalCount) {
-                item { Box(Modifier.fillMaxWidth().padding(AppSpacing.l), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Small) } }
-            }
+            item { ListPager(state.page, state.pageSize, state.totalCount, viewModel::setPageSize, viewModel::goToPage, compact = true) }
         }
     }
 
@@ -377,3 +369,6 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
 
 /** Room under the list for the floating Add term button and its margin. */
 private val FAB_ROOM = 88.dp
+
+/** The search field's place in a phone's list: the overview comes before it. */
+private const val PHONE_LIST_START = 1
