@@ -144,13 +144,29 @@ OVERRIDES["روپے"] = ["روپیہ"]
 # The spellings the pack has of two words of WORDS: پولس (of पुलिस) and اسپتال, which Urdu text writes پولیس and ہسپتال.
 OVERRIDES["پولس"] = ["پولیس"]
 OVERRIDES["اسپتال"] = ["ہسپتال"]
-# And the stems and forms of گزرنا and کٹنا that the pack has as rare words: گزر "carrot", کٹی "waist".
+# And the stems and forms of گزرنا and کٹنا that the pack has as rare words: گزر "carrot", کٹی "waist"; چاہنا's stem
+# (چاہ رہا), the pack's "wish", and جینا's imperative (جیو اور جینے دو), the pack's "living", which the news writes mostly
+# for جیو نیوز.
 OVERRIDES["گزر"] = ["گزرنا"]
 OVERRIDES["کٹی"] = ["کٹنا"]
+OVERRIDES["چاہ"] = ["چاہنا"]
+OVERRIDES["جیو"] = ["جینا"]
 # Names (the news's people and places), the Latin letters' names, the Taliban, and ان کا, ان کی, ان کے written as one word
 # and ان کو (which the pack takes for the rare verb انکنا's forms).
 EXCLUDE = {"خان", "علی", "نواز", "سندھ", "پنجاب", "سعودی", "طالبان", "روس", "مودی", "نثار", "جاوید", "سنگھ",
            "ڈی", "ایس", "بی", "ٹی", "ایم", "این", "ایف", "ایل", "آر", "وی", "یو", "ای", "کیو", "ایچ", "انکا", "انکی", "انکے", "انکو"}
+
+# Words of the pack the list leaves out, whose counts read_usage cannot tell from another word's: halves of pairs written
+# apart (بھگ of لگ بھگ, سام of سام سنگ, دیشی of بنگلہ دیشی, روی of سست روی, پو of پو لیس, ال of the Arabic article,
+# Punjabi وچ, بیر of بڈھ بیر), brands (میزان بینک, ٹیلی نار), and the news's people the names beside them did not show
+# (رحمن ملک, رنگنا ہیراتھ, مبشر لقمان, یاسمین راشد, قادر پٹیل, راج ناتھ, سجنا; جلال, طیب, نسیم, اصغر, فراز, شفیق, گلزار, صابر,
+# کاشف, ہمایوں, نجیب, تبسم, ثروت, شبنم, نیر, اشرف سوہنا).
+NOT_WORDS = {"بھگ", "سام", "دیشی", "روی", "پو", "ال", "وچ", "بیر", "میزان", "نار", "رحمن", "رنگنا", "لقمان", "یاسمین",
+             "پٹیل", "ناتھ", "سجنا", "جلال", "طیب", "نسیم", "اصغر", "فراز", "شفیق", "گلزار", "صابر", "کاشف", "ہمایوں", "نجیب",
+             "تبسم", "ثروت", "شبنم", "نیر", "سوہنا"}
+# And the verbs' forms that unlink_lookalikes cannot tell from another word's: بسر of بسر کرنا "spend", no form of بسرنا
+# "forget".
+NOT_VERB_FORMS = {"بسر": "بسرنا"}
 
 # Everyday words the pack has no entry for, as their kind and forms (a verb's are verb_forms'): the English Wiktionary has no
 # Urdu entry for them, and its Hindi entries name no Urdu spelling (नीचे, वहीं, कटना) or another (पुलिस's پولس, गुज़ारना's
@@ -165,11 +181,11 @@ WORDS = {
 }
 # Spellings the rules below would make another word's form that are no form of it: گوئی (پیشن گوئی), فنی "technical", مینے
 # and مینوں (میں نے, Punjabi "to me"), اتے, کرانے (of the verb کرانا), بقائے (بقا with the izafat), رندوں "drunkards", ہیے,
-# افسوں "spell", مایوں, بریں, آئندے; the suffixes' سیٹھی, پرستوں, کاریوں; names (شروتی, شیدی, بقائی); and the forms of
-# adjectives in -ا that do not inflect (پیدا, جدا, سوا, گویا, ماتا, مہا, ناروا, صفرا, ددا, خدرا, خیلا).
+# افسوں "spell", مایوں, بریں, آئندے; the suffixes' سیٹھی, پرستوں, کاریوں; names (شروتی, شیدی, بقائی, ہیری "Harry"); and the
+# forms of adjectives in -ا that do not inflect (پیدا, جدا, سوا, گویا, ماتا, مہا, ناروا, صفرا, ددا, خدرا, خیلا).
 NOT_FORMS = {"گوئی", "فنی", "مینے", "مینوں", "اتے", "کرانے", "بقائے", "رندوں", "ہیے", "افسوں", "مایوں", "بریں", "آئندے",
-             "سیٹھی", "پرستوں", "کاریوں", "شروتی", "شیدی", "بقائی", "پیدی", "جدی", "سوی", "سوے", "گوئے", "ماتے", "مہے", "مہی",
-             "ناروی", "صفری", "صفرے", "ددی", "خدری", "خیلی"}
+             "سیٹھی", "پرستوں", "کاریوں", "شروتی", "شیدی", "بقائی", "ہیری", "پیدی", "جدی", "سوی", "سوے", "گوئے", "ماتے",
+             "مہے", "مہی", "ناروی", "صفری", "صفرے", "ددی", "خدری", "خیلی"}
 
 
 def mend(db, pos, lemmas, common):
@@ -352,7 +368,12 @@ OTHER_VERBAL_SHARE = 0.25
 
 
 def unlink_lookalikes(pos, lemmas):
-    """Takes the verbs' ambiguous forms that the sentences use as other words off those verbs (see VERBAL_SHARE)."""
+    """
+    Takes the verbs' ambiguous forms that the sentences use as other words off those verbs (see VERBAL_SHARE), and
+    NOT_VERB_FORMS.
+    """
+    for form, verb in sorted(NOT_VERB_FORMS.items()):
+        lemmas[form] = [l for l in lemmas.get(form, []) if l != verb]
     seen = USAGE["seen"]
     verbs = defaultdict(list)
     for form, of in lemmas.items():
@@ -391,8 +412,8 @@ def fold(scores, forms, pos):
     """
     After the counting: a word or form counts only its uses that are that word (read_usage), not those as a piece of a word
     a space split (بڑ, خلا) or of a two-word word of another sense (مون, صلاح); a word written mostly beside names (نسیم,
-    طیب, قیصر) is a name; and two spellings of one word (مہینا, مہینہ: the same key, glosses in common) are the commoner
-    one.
+    طیب, قیصر) is a name; two spellings of one word (مہینا, مہینہ: the same key, glosses in common) are the commoner one;
+    and NOT_WORDS are left out.
     """
     for word in sorted(scores):
         counted = forms[word]
@@ -402,7 +423,7 @@ def fold(scores, forms, pos):
                 counted[form] *= 1 - piece
     for word in sorted(scores):
         named = word not in _TITLES and word not in _BETWEEN_NAMES and _share("named", word) >= NAMED_SHARE
-        if named:
+        if word in NOT_WORDS or named:
             del scores[word]
     keyed = {}
     for word in sorted(scores, key=lambda w: (-sum(forms[w].values()), w)):
