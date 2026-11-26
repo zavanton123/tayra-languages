@@ -421,7 +421,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "听一个词，选出它的意思，或在拼写相近的词中找出它",
     "Original text" to "原文",
     "Online examples" to "在线例句",
-    "Build a focused review session." to "安排一次有针对性的复习。",
     "Answer with" to "作答方式",
     "Examples from" to "例句来源",
     "Write" to "书写",

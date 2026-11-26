@@ -421,7 +421,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Hören Sie ein Wort und wählen Sie seine Bedeutung oder finden Sie es unter ähnlich geschriebenen Wörtern",
     "Original text" to "Originaltext",
     "Online examples" to "Online-Beispiele",
-    "Build a focused review session." to "Stell dir eine gezielte Wiederholung zusammen.",
     "Answer with" to "Antworten mit",
     "Examples from" to "Beispiele aus",
     "Write" to "Schreiben",

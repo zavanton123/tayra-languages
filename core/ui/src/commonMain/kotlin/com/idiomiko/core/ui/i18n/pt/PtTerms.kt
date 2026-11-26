@@ -421,7 +421,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Ouça uma palavra e escolha o seu significado, ou encontre-a entre palavras escritas de forma parecida",
     "Original text" to "Texto original",
     "Online examples" to "Exemplos online",
-    "Build a focused review session." to "Monte uma revisão focada.",
     "Answer with" to "Responder com",
     "Examples from" to "Exemplos de",
     "Write" to "Escrever",

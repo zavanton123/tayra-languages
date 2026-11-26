@@ -421,7 +421,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Ακούστε μια λέξη και διαλέξτε τη σημασία της ή βρείτε τη ανάμεσα σε λέξεις με παρόμοια γραφή",
     "Original text" to "Αρχικό κείμενο",
     "Online examples" to "Παραδείγματα από το διαδίκτυο",
-    "Build a focused review session." to "Φτιάξτε μια στοχευμένη επανάληψη.",
     "Answer with" to "Απάντηση με",
     "Examples from" to "Παραδείγματα από",
     "Write" to "Γραφή",

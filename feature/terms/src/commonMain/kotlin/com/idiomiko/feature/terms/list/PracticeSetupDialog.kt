@@ -305,7 +305,6 @@ internal fun PracticeSetupContent(
                 IconTile(AppIcons.DoneAll, size = if (compact) 48 else 56)
                 Column(Modifier.weight(1f)) {
                     Text(if (state.loading || state.words.isEmpty()) tr("Practice") else trPlural(state.words.size, "Practise {0} word", "Practise {0} words"), style = AppText.headline)
-                    Text(tr("Build a focused review session."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
                 }
                 AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }

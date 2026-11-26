@@ -421,7 +421,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Escuche una palabra y elija su significado, o encuéntrela entre palabras que se escriben de forma parecida",
     "Original text" to "Texto original",
     "Online examples" to "Ejemplos en línea",
-    "Build a focused review session." to "Prepara un repaso enfocado.",
     "Answer with" to "Responder con",
     "Examples from" to "Ejemplos de",
     "Write" to "Escribir",

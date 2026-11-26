@@ -421,7 +421,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Прослушайте слово и выберите его значение или найдите его среди слов с похожим написанием",
     "Original text" to "Исходный текст",
     "Online examples" to "Примеры из интернета",
-    "Build a focused review session." to "Соберите целенаправленное повторение.",
     "Answer with" to "Как отвечать",
     "Examples from" to "Примеры из",
     "Write" to "Писать",

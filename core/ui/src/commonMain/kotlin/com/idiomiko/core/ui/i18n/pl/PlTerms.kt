@@ -421,7 +421,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Posłuchaj słowa i wybierz jego znaczenie albo znajdź je wśród słów o podobnej pisowni",
     "Original text" to "Tekst oryginalny",
     "Online examples" to "Przykłady z sieci",
-    "Build a focused review session." to "Ułóż krótką, skupioną powtórkę.",
     "Answer with" to "Odpowiadaj przez",
     "Examples from" to "Przykłady z",
     "Write" to "Pisz",

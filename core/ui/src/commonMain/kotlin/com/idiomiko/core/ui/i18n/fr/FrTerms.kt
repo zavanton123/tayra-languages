@@ -421,7 +421,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Hear a word and choose its meaning, or pick it among words spelled like it" to "Écoutez un mot et choisissez son sens, ou retrouvez-le parmi des mots qui s’écrivent presque pareil",
     "Original text" to "Texte original",
     "Online examples" to "Exemples en ligne",
-    "Build a focused review session." to "Composez une révision ciblée.",
     "Answer with" to "Répondre en",
     "Examples from" to "Exemples tirés de",
     "Write" to "Écrire",
