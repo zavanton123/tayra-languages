@@ -1,0 +1,216 @@
+{
+  "id": "haw-mini-1600",
+  "rankUpTo": 1600,
+  "level": "B1",
+  "title": "Ka moʻomeheu",
+  "description": "Ten short stories about living Hawaiian culture: healing plants from an aunt, camping and torch fishing, a fable translated for a Hawaiian-medium class, a guitar concert, a baby's first-birthday lūʻau, a day in a taro patch, the Kamehameha Day parade, collecting native seeds, a first canoe race and a carved bowl that leads to a family's history.",
+  "topic": "Experiencing culture",
+  "names": [
+    "Ualani",
+    "Kanilehua",
+    "Pāhoa",
+    "Kamakaīwi",
+    "Kahoku",
+    "Hoʻokena",
+    "Hawaiʻi",
+    "Kahiʻāina",
+    "Waimea",
+    "ʻEulopa",
+    "Kuʻuhoku",
+    "Lehiwa",
+    "Kapiʻolani",
+    "Kealani",
+    "Kekaulana",
+    "Kaʻaukea",
+    "Kaniaupio",
+    "Waipiʻo",
+    "Honolulu",
+    "Keʻalohilani",
+    "Kamakaʻeha",
+    "Seattle",
+    "Kamehameha",
+    "Maui",
+    "Lānaʻi",
+    "Niʻihau",
+    "Kanoeʻulu",
+    "Nāhinu",
+    "Kawaihae",
+    "Keliʻiaukai",
+    "Kahuelo",
+    "Kamakaniʻula",
+    "Kailua",
+    "Kekaualua",
+    "Kaleiheana",
+    "Kaʻū"
+  ],
+  "lessons": [
+    {
+      "title": "Nā lāʻau a ʻAnakē Kanilehua",
+      "summary": "A sickly girl stays with her aunt in Pāhoa, who treats her fever with māmaki tea, turmeric and pōpolo leaves and massages her sore back.",
+      "newWords": [
+        "ʻanakē",
+        "piwa",
+        "ʻōlena",
+        "māmaki",
+        "ʻōmaʻimaʻi",
+        "lomi",
+        "pōpolo",
+        "mala",
+        "kinowai",
+        "hanahana"
+      ],
+      "text": "He kaikamahine ʻōmaʻimaʻi ʻo Ualani. I kēlā me kēia hoʻoilo, loaʻa iā ia ka piwa. I kekahi hoʻoilo, ua hoʻouna kona makuahine iā ia i ka hale o kona ʻanakē ʻo Kanilehua ma Pāhoa. Ua ʻike ʻo ʻAnakē Kanilehua i nā lāʻau lapaʻau o ka poʻe kahiko.\n\nI ka lā mua, ua wela loa ke kino o Ualani i ka piwa. Ua hele ʻo ʻAnakē Kanilehua i kāna māla a ua ʻohi ʻo ia i nā lau māmaki. Ua paila ʻo ia i nā lau māmaki i loko o ka wai, a ua hāʻawi ʻo ia i ke kī hanahana iā Ualani. \"E inu mālie,\" wahi āna. \"Ke inu ʻoe i kēia kinowai i kēlā me kēia kakahiaka, e emi ana kou piwa.\"\n\nMa hope, ua ʻeli ʻo ʻAnakē i kekahi aʻa ʻōlena. Ua kuʻi ʻo ia i ka ʻōlena, a ua hui ʻo ia i ka ʻōlena me ka wai hanahana a me ka meli. He kinowai melemele ia, a ʻawaʻawa iki. ʻAʻole ʻo Ualani i makemake e inu, akā naʻe, ua inu nō ʻo ia.\n\nMa hope o nā lā he nui ma kahi moe, ua mala ke kua o Ualani. Ua lomi ʻo ʻAnakē Kanilehua i kona kua me ka ʻaila niu. \"Ua aʻo mai koʻu makuahine iaʻu e lomi penei,\" wahi āna. Ma hope o ka lomi ʻana, ʻaʻole i mala hou kona kua.\n\nUa ulu nā pōpolo ma ka ʻaoʻao o ka hale. Ua ʻohi ʻo ʻAnakē i nā lau pōpolo, a ua hui ʻo ia iā lākou me ka paʻakai. Ua kau ʻo ia i nā lau ma luna o ka umauma o Ualani. \"He lāʻau kahiko ka pōpolo no ka maʻi,\" wahi āna.\n\nMa hope o ʻelima lā, ua pau ka piwa. Ua hoʻi ʻo Ualani i ka hale o kona makuahine me kekahi lāʻau māmaki liʻiliʻi i loko o ka ipu. \"E kanu i kēia ma kou māla,\" wahi a kona ʻanakē. \"Ke ʻōmaʻimaʻi hou ʻoe, e inu i ke kī māmaki.\"\n\nNā nīnau:\nNo ke aha i hele ai ʻo Ualani i ka hale o kona ʻanakē?\nNo ka mea, he kaikamahine ʻōmaʻimaʻi ʻo ia, a ua loaʻa iā ia ka piwa.\nHe aha ka mea mua i hāʻawi ʻia iā Ualani?\nUa hāʻawi ʻia iā ia ke kī māmaki hanahana.\nPehea ka ʻono o ke kinowai ʻōlena?\nʻAwaʻawa iki ke kinowai ʻōlena.\nHe aha kā ʻAnakē Kanilehua i hana ai no ke kua mala o Ualani?\nUa lomi ʻo ia i kona kua me ka ʻaila niu.\nMa hea i ulu ai nā pōpolo?\nUa ulu nā pōpolo ma ka ʻaoʻao o ka hale."
+    },
+    {
+      "title": "Ka hoʻomoana ʻana ma Hoʻokena",
+      "summary": "A father takes his son camping on a calm beach, they go torch fishing at night, a centipede frightens the boy, and they put out the fire before sleeping.",
+      "newWords": [
+        "hoʻomoana",
+        "ʻauinalā",
+        "malino",
+        "lamalama",
+        "ʻina",
+        "ʻōpeʻapeʻa",
+        "kanapī",
+        "hoʻomākaʻukaʻu",
+        "kuka",
+        "kinai"
+      ],
+      "text": "I ka hoʻomaha kauwela, ua hele ʻo Kamakaīwi me kāna keikikāne ʻo Kahoku e hoʻomoana ma kahakai o Hoʻokena. ʻO ia ka hoʻomoana mua ʻana o Kahoku. Ua hōʻea lāua i ka ʻauinalā, a ua kūkulu lāua i ko lāua hale lole ma lalo o nā lāʻau.\n\nUa malino ke kai i kēlā ʻauinalā. ʻAʻohe nalu, a ua like ka wai malino me ke aniani. Ua ʻauʻau ʻo Kahoku ma ke kai, a ua ʻike ʻo ia i nā ʻina ʻeleʻele ma luna o nā pōhaku. \"Mai hele ma luna o nā ʻina,\" wahi a kona makuakāne. \"ʻOi loa nā kui o ka ʻina.\"\n\nI ke ahiahi, ua hana ʻo Kamakaīwi i ke ahi. Ua lele nā ʻōpeʻapeʻa ma luna o nā lāʻau, a ua makaʻu ʻo Kahoku. \"Mai makaʻu,\" wahi a kona makuakāne. \"Mai ʻae i ka ʻōpeʻapeʻa e hoʻomākaʻukaʻu iā ʻoe. ʻAi ʻo ia i nā nalo liʻiliʻi. He holoholona ʻōiwi ka ʻōpeʻapeʻa no Hawaiʻi nei. Ua noho ʻo ia ma ʻaneʻi ma mua o ka hiki ʻana mai o ke kanaka.\"\n\nMa ka pō, ua hele lāua i ka lamalama. Ua anuanu ka pō, no laila ua ʻaʻahu ʻo Kahoku i kona kuka. Ua paʻa ʻo Kamakaīwi i ke kukui, a ua hele lāua ma ka papa o ke kai malino. \"I ka wā kahiko, ua hana ka poʻe i nā lama me ka lau niu maloʻo no ka lamalama,\" wahi āna. Ua hopu lāua i ʻekolu heʻe a me kekahi mau iʻa liʻiliʻi.\n\nI ka hoʻi ʻana i ka hale lole, ua ʻike ʻo Kahoku i kekahi kanapī ʻulaʻula nui e hele ana ma luna o kona kuka. Ua hoʻomākaʻukaʻu ke kanapī iā ia, a ua kāhea ʻo ia i kona makuakāne. Ua hoʻolei ʻo Kamakaīwi i ke kanapī i loko o ka nahele me kekahi lāʻau lōʻihi. \"ʻEha loa ke nahu o ke kanapī,\" wahi āna. \"E nānā mau i kou kuka ma mua o kou ʻaʻahu ʻana.\"\n\nMa hope, ua kinai lāua i ke ahi me ke one a me ka wai. \"E kinai mau i ke ahi ma mua o ka moe ʻana,\" wahi a Kamakaīwi. A laila, ua moe ʻo Kahoku me ka hauʻoli.\n\nNā nīnau:\nI ka manawa hea i hōʻea ai lāua i Hoʻokena?\nUa hōʻea lāua i ka ʻauinalā.\nPehea ke kai i kēlā ʻauinalā?\nUa malino ke kai, a ʻaʻohe nalu.\nNo ke aha i ʻaʻahu ai ʻo Kahoku i kona kuka?\nNo ka mea, ua anuanu ka pō.\nHe aha ka mea i hoʻomākaʻukaʻu iā Kahoku?\nUa hoʻomākaʻukaʻu kekahi kanapī ʻulaʻula nui iā ia.\nUa kinai lāua i ke ahi me ke aha?\nUa kinai lāua i ke ahi me ke one a me ka wai."
+    },
+    {
+      "title": "Ka lepu a me ka honu",
+      "summary": "A teacher translates a picture book about a hare and a turtle into Hawaiian for her class, simplifying the words and writing it out in ink.",
+      "newWords": [
+        "unuhina",
+        "alelo",
+        "hoʻomaʻalahi",
+        "lepu",
+        "ʻāwīwī",
+        "wē",
+        "ʻīnika",
+        "ʻapōpō",
+        "naʻu",
+        "nou"
+      ],
+      "text": "He kumu ʻo Kahiʻāina ma kekahi kula kaiapuni ma Waimea. Ua makemake kāna mau haumāna e heluhelu i nā puke kiʻi, akā ʻuʻuku loa nā puke kiʻi ma ka ʻōlelo Hawaiʻi. No laila, ua hoʻoholo ʻo ia e hana i kekahi unuhina. Ua koho ʻo ia i kekahi moʻolelo kahiko mai ʻEulopa mai: ka lepu a me ka honu.\n\nMa ka moʻolelo, ʻāwīwī loa ka lepu, a lohi loa ka honu. Ua heihei lāua. Ua holo ʻāwīwī ka lepu a ua moe ʻo ia ma lalo o kekahi lāʻau no ka mea ua manaʻo ʻo ia ua lanakila ʻo ia. Ua hele mālie ka honu me ka hoʻomaha ʻole, a ua lanakila ʻo ia.\n\nʻAʻole maʻalahi ka hana ʻana i ka unuhina mai kekahi alelo a i kekahi alelo ʻē aʻe. Ua lōʻihi loa kekahi mau ʻōlelo o ka puke, no laila ua hoʻomaʻalahi ʻo Kahiʻāina iā lākou no nā keiki. Ua hoʻomaʻalahi pū ʻo ia i kekahi mau huaʻōlelo paʻakikī.\n\nMa ka pō, ua kākau ʻo ia i ka unuhina me ka ʻīnika ʻeleʻele ma luna o nā ʻaoʻao keʻokeʻo. Ua hāʻule kekahi kulu ʻīnika ma luna o ke kiʻi o ka lepu, akā ua ʻakaʻaka wale ʻo ia. \"Ua ʻeleʻele iki ka lepu i kēia manawa,\" wahi āna.\n\nI ke kakahiaka aʻe, ua heluhelu ʻo Kahiʻāina i ka moʻolelo i ka papa. Ua nīnau mai kekahi kaikamahine: \"Pehea e kākau ai i ka huaʻōlelo ʻāwīwī?\" Ua kākau ʻo Kahiʻāina i ka huaʻōlelo ma ka papa ʻeleʻele. \"E nānā i ka wē,\" wahi āna. \"Aia ʻelua wē ma ka huaʻōlelo ʻāwīwī.\"\n\nMa ka pau ʻana o ka papa, ua nīnau kekahi keikikāne, \"Na wai kēia unuhina?\" Ua pane ʻo Kahiʻāina, \"Naʻu ka unuhina. Ua kākau au iā ia me ka ʻīnika.\" A laila, ua hāʻawi ʻo ia i ka puke i ke kaikamahine. \"Nou kēia puke,\" wahi āna. \"ʻApōpō, e heluhelu ana ʻoe iā ia i ka papa.\" Ua hauʻoli loa ke kaikamahine. \"ʻApōpō!\" wahi āna. \"Naʻu e heluhelu!\"\n\nNā nīnau:\nNo ke aha i hana ai ʻo Kahiʻāina i kekahi unuhina?\nNo ka mea, ʻuʻuku loa nā puke kiʻi ma ka ʻōlelo Hawaiʻi.\nʻO wai ka mea ʻāwīwī ma ka moʻolelo?\nʻO ka lepu ka mea ʻāwīwī ma ka moʻolelo.\nHe aha kā Kahiʻāina i hana ai i nā ʻōlelo lōʻihi?\nUa hoʻomaʻalahi ʻo ia iā lākou no nā keiki.\nHe aha ka mea i hāʻule ma luna o ke kiʻi o ka lepu?\nUa hāʻule kekahi kulu ʻīnika ma luna o ke kiʻi o ka lepu.\nHe aha kā Kahiʻāina i ʻōlelo ai i ke kaikamahine?\nUa ʻōlelo ʻo ia, \"Nou kēia puke.\""
+    },
+    {
+      "title": "Ka ʻahamele ma ke kahua pāʻani",
+      "summary": "Two sisters go to a concert by a seven-member guitar band; the younger one is jealous when her older sister is called on stage, and the rain cuts the concert short.",
+      "newWords": [
+        "ʻahamele",
+        "pepelu",
+        "pāleo",
+        "hiku",
+        "kanahā",
+        "kuaʻana",
+        "lili",
+        "hene",
+        "hilu",
+        "muku"
+      ],
+      "text": "Ua ʻike ʻo Kuʻuhoku i kekahi pepelu ma ka puka o ka hale kūʻai. Ma ka pepelu, aia ke kiʻi o kekahi hui mele kīkā. He hiku nā mea hoʻokani o ka hui, a e hāʻawi ana lākou i kekahi ʻahamele ma ke kahua pāʻani ʻo Kapiʻolani i ka Pōʻaono. He kanahā kālā ke kumukūʻai o ke komo ʻana.\n\nUa lawe ʻo Kuʻuhoku i ka pepelu i ka hale a ua hōʻike ʻo ia i ka pepelu i kona kuaʻana ʻo Lehiwa. \"E kuaʻana, e hele kāua!\" wahi āna. Ua ʻae ʻo Lehiwa, a ua uku kēlā me kēia o lāua i ke kanahā kālā.\n\nMa mua o ka ʻahamele, ua hoʻolohe nā kaikuahine i nā pāleo kahiko o ka hui. Ua kūʻai ko lāua makuakāne i kēia mau pāleo i ka makahiki 1985, a ua mālama ʻo ia iā lākou me ka maikaʻi. He kaikamahine hilu ʻo Kuʻuhoku: ua noho mālie ʻo ia a ua hoʻolohe ʻo ia i kēlā me kēia mele.\n\nI ka pō o ka ʻahamele, ua noho nā kaikuahine ma mua loa. Ua hoʻokani nā mea hoʻokani he hiku, a ua hauʻoli ka lehulehu. Ma waena o ka ʻahamele, ua kāhea mai ke alakaʻi o ka hui iā Lehiwa e hīmeni pū me lākou ma ke kahua. Ua noho ʻo Kuʻuhoku ma lalo me ka lili. Ua lili ʻo ia i kona kuaʻana, no ka mea, ʻoi aku kona ʻike i nā mele ma mua o ko Lehiwa.\n\nUa poina iā Lehiwa kekahi mau huaʻōlelo o ka mele, a ua hene kekahi mau keikikāne ma hope o Kuʻuhoku. ʻOiai he kaikamahine hilu ʻo ia, ua huli ʻo Kuʻuhoku iā lākou. \"Mai hene!\" wahi āna. A laila, ua hīmeni ʻo Kuʻuhoku i nā huaʻōlelo i poina iā Lehiwa, a ua lohe ke alakaʻi. Ua kāhea ʻo ia iā Kuʻuhoku e hele pū i luna.\n\nMa hope iki, ua hāʻule nui ka ua, a ua muku ka ʻahamele. He ʻahamele muku ia, akā ʻaʻole i pau ka hauʻoli o nā kaikuahine. Ua pau pū ka lili o Kuʻuhoku. \"E kuaʻana, ua hīmeni kāua ma ke kahua!\" wahi āna.\n\nNā nīnau:\nMa hea i ʻike ai ʻo Kuʻuhoku i ka pepelu?\nUa ʻike ʻo ia i ka pepelu ma ka puka o ka hale kūʻai.\nʻEhia mau mea hoʻokani o ka hui?\nHe hiku nā mea hoʻokani o ka hui.\nʻEhia kālā ke kumukūʻai o ke komo ʻana?\nHe kanahā kālā ke kumukūʻai o ke komo ʻana.\nNo ke aha i lili ai ʻo Kuʻuhoku i kona kuaʻana?\nNo ka mea, ua kāhea ʻia ʻo Lehiwa e hīmeni ma ke kahua.\nNo ke aha i muku ai ka ʻahamele?\nNo ka mea, ua hāʻule nui ka ua."
+    },
+    {
+      "title": "Ka lūʻau makahiki mua",
+      "summary": "A family holds a lūʻau for a baby's first birthday: sweet potatoes from the imu, a coconut pudding made with arrowroot, cousins serving as waiters, and an uncle who slips on the wet lānai.",
+      "newWords": [
+        "kōkō",
+        "ʻuala",
+        "pia",
+        "huaʻi",
+        "lānai",
+        "kuene",
+        "oka",
+        "kanawalu",
+        "kika",
+        "ʻōkole"
+      ],
+      "text": "I ka makahiki i hala, ua kōkō ʻo Kealani. I ka wā i kōkō ai ʻo ia, ua hoʻoholo ʻo ia me kāna kāne ʻo Kekaulana e hana i kekahi lūʻau nui ke piha ka makahiki mua o kā lāua pēpē. I kēia makahiki, ua piha hoʻokahi makahiki o kā lāua kaikamahine, a ua kono lāua i nā malihini he kanawalu.\n\nI ke kakahiaka nui, ua huaʻi ʻo Kekaulana a me kona mau kaikunāne i ka imu. Ua kālua ʻia ka puaʻa a me ka ʻuala i loko o ka imu i ka pō a pau. I ka huaʻi ʻana i ka imu, ua puka mai ka uahi a me ke ʻala ʻono.\n\nUa hana ke kupuna wahine o Kealani i kekahi mea ʻono me ka waiū niu. I kēia mau lā, hana ka hapa nui o ka poʻe i kēia mea ʻono me ka pia mai ka hale kūʻai mai, akā ua hana ʻo ia me ka pia Hawaiʻi, e like me ka poʻe kahiko.\n\nUa hoʻonohonoho ʻia nā papa ʻaina ma ka lānai nui o ka hale. Ua lilo nā moʻopuna ʻōpio o ke kupuna wahine i kuene no ka lā. Ua lawe nā kuene i ka poi, i ka puaʻa, i ka ʻuala a me ka mea ʻono niu i nā papa ʻaina.\n\nI ka ʻauinalā, ua hāʻule iki ka ua, a ua kika ka papahele o ka lānai. Ua hele mai kekahi ʻanakala o Kealani me kekahi pā ʻuala. Ua kika kona wāwae, a ua hāʻule ʻo ia ma luna o kona ʻōkole. ʻAʻole i hāʻule ka ʻuala! Ua ʻakaʻaka nā malihini a pau, a ua ʻakaʻaka pū ʻo ia. \"ʻEha iki koʻu ʻōkole,\" wahi āna, \"akā maikaʻi ka ʻuala.\"\n\nMa ka pō, ua hoʻi nā malihini i ko lākou mau hale. Ua piha nā papa ʻaina i ka oka: ka oka o ka mea ʻono niu, ka oka o ka ʻuala a me ka oka o ka poi. Ua hiamoe ka pēpē ma nā lima o kona makuahine.\n\nNā nīnau:\nʻEhia malihini i kono ʻia i ka lūʻau?\nUa kono ʻia nā malihini he kanawalu.\nHe aha ka mea i kālua ʻia i loko o ka imu?\nUa kālua ʻia ka puaʻa a me ka ʻuala i loko o ka imu.\nUa hana ke kupuna wahine i ka mea ʻono niu me ke aha?\nUa hana ʻo ia iā ia me ka waiū niu a me ka pia Hawaiʻi.\nʻO wai nā kuene o ka lā?\nʻO nā moʻopuna ʻōpio o ke kupuna wahine nā kuene o ka lā.\nNo ke aha i hāʻule ai ka ʻanakala?\nNo ka mea, ua kika ka papahele o ka lānai."
+    },
+    {
+      "title": "Ka ʻauwai ma Waipiʻo",
+      "summary": "A young man from Honolulu spends a day helping a taro farmer: they clear and widen the irrigation ditch, tread the mud of the taro patch and learn which plant is not taro.",
+      "newWords": [
+        "uluwehi",
+        "ʻōmaʻo",
+        "ʻauwai",
+        "hihi",
+        "hoʻolaulā",
+        "keʻehi",
+        "koʻe",
+        "hoʻomomona",
+        "ʻape",
+        "uluhua"
+      ],
+      "text": "Noho ʻo Kaʻaukea ma Honolulu, ma waena o nā hale kiʻekiʻe. ʻAʻole ʻo ia i hana ma kekahi loʻi kalo ma mua. I kekahi Pōʻaono, ua hele ʻo ia i ke awāwa o Waipiʻo e kōkua i kekahi mahiʻai kalo, ʻo Kaniaupio kona inoa.\n\nUluwehi ke awāwa. ʻŌmaʻo nā lāʻau ma nā pali, a ʻōmaʻo pū nā lau kalo ma nā loʻi. \"No hea mai kēia uluwehi?\" i nīnau ai ʻo Kaʻaukea. \"No ka wai,\" wahi a Kaniaupio. \"Lawe ka ʻauwai i ka wai mai ke kahawai a i nā loʻi.\"\n\nʻO ka hana mua ka hoʻomaʻemaʻe ʻana i ka ʻauwai. Ua ulu nā mauʻu a me nā lāʻau hihi i loko o ka ʻauwai, a ua hihi ko lākou mau aʻa i kekahi me kekahi. Ma hope, ua hoʻolaulā lākou i ka ʻauwai me nā lāʻau ʻeli. \"Ke hoʻolaulā ʻia ka ʻauwai, hiki i ka wai ke hele i nā loʻi a pau,\" wahi a Kaniaupio.\n\nI ka hana ʻelua, ua komo lākou i loko o ka loʻi me ke kāmaʻa ʻole. Ua keʻehi lākou i ka lepo. I kēlā me kēia keʻehi ʻana, ua komo ka wāwae o Kaʻaukea i loko o ka lepo a hiki i kona kuli. Ua ʻike ʻo ia i nā koʻe i loko o ka lepo. \"Mai hoʻolei aku i nā koʻe,\" wahi a Kaniaupio. \"Hoʻomomona nā koʻe i ka lepo.\"\n\nMa ka ʻaoʻao o ka loʻi, ua ʻike ʻo Kaʻaukea i kekahi mea kanu me nā lau nui loa. Ua manaʻo ʻo ia he kalo ia, a ua ʻoki ʻo ia i kekahi lau. \"ʻAʻole kēlā he kalo. He ʻape kēlā,\" wahi a Kaniaupio me ka ʻakaʻaka. \"Ua like ka ʻape me ke kalo, akā ʻaʻole mākou e ʻai i ka ʻape. E ʻeha ana kou waha.\" Ua uluhua ʻo Kaʻaukea iā ia iho. \"Mai uluhua,\" wahi a Kaniaupio. \"Ua hana au i kēia hewa like i koʻu wā ʻōpio.\"\n\nI ka ʻauinalā, ua holo ka wai maʻemaʻe ma ka ʻauwai a i loko o nā loʻi. Ua luhi ʻo Kaʻaukea, akā ua hauʻoli ʻo ia. \"E hoʻi hou mai ana au i kēlā me kēia mahina,\" wahi āna.\n\nNā nīnau:\nHe aha ka hana a ka ʻauwai?\nLawe ka ʻauwai i ka wai mai ke kahawai a i nā loʻi.\nNo ke aha i hoʻolaulā ai lākou i ka ʻauwai?\nI hiki i ka wai ke hele i nā loʻi a pau.\nHe aha ka mea e hoʻomomona ai i ka lepo?\nHoʻomomona nā koʻe i ka lepo.\nNo ke aha i uluhua ai ʻo Kaʻaukea iā ia iho?\nNo ka mea, ua ʻoki ʻo ia i ka lau o ka ʻape."
+    },
+    {
+      "title": "Ka Lā Kamehameha",
+      "summary": "A girl from Seattle watches the King Kamehameha Day parade in Honolulu with her grandmother: horse riders in the colours of each island, flags, plumeria lei and a mule.",
+      "newWords": [
+        "holokū",
+        "melia",
+        "moani",
+        "pulelehua",
+        "lepa",
+        "ʻākala",
+        "alani",
+        "kāʻai",
+        "pano",
+        "hoki"
+      ],
+      "text": "I ka mahina ʻo Iune, ua hele mai ʻo Keʻalohilani mai Seattle mai e kipa i kona kupuna wahine ʻo Kamakaʻeha ma Honolulu. I ka lā 11 o Iune, ʻo ia ka Lā Kamehameha, ua hele lāua e nānā i ka huakaʻi hele o ke kūlanakauhale.\n\nMa mua o ka hele ʻana, ua ʻaʻahu ʻo Kamakaʻeha i kona holokū. He holokū keʻokeʻo a lōʻihi ia, me nā pua melia ma luna. Ua hana ʻo ia i ʻelua lei melia, hoʻokahi nona a hoʻokahi no kāna moʻopuna. Ua moani ke ʻala o ka melia i ka makani. \"ʻO kēia ka moani aʻu i aloha ai,\" wahi a Kamakaʻeha.\n\nUa noho lāua ma ka ʻaoʻao o ke alanui. Ua lele mai kekahi pulelehua a ua kau ʻo ia ma luna o ka lei o Keʻalohilani. \"E nānā, e Tūtū! Makemake ka pulelehua i ka melia,\" wahi āna. Ma nā wahi a pau, aia nā lepa o Hawaiʻi. Ua hāʻawi kekahi kanaka i kekahi lepa liʻiliʻi iā Keʻalohilani, a ua hāpai ʻo ia i ka lepa i luna.\n\nA laila, ua hiki mai nā wāhine holo lio. He kala ko kēlā me kēia mokupuni. \"ʻO ka ʻākala ke kala o Maui,\" wahi a Kamakaʻeha, \"a ʻo ka alani ke kala o Lānaʻi.\" Ua ʻaʻahu ka wahine o Maui i ka lole ʻākala lōʻihi, a ua kau ʻia nā lei ʻākala ma ka ʻāʻī o kona lio. Ua ʻaʻahu ka wahine o Lānaʻi i ka lole alani, me kekahi kāʻai alani ma kona ʻaoʻao. Ua holo ka wahine o Hawaiʻi ma luna o kekahi lio pano. ʻO ka lio pano ka lio nani loa i ka manaʻo o Keʻalohilani.\n\nMa hope o nā lio, ua hele mai kekahi hoki me nā lei ma kona poʻo. Ua ʻakaʻaka ka lehulehu. \"He aha kēlā holoholona?\" i nīnau ai ʻo Keʻalohilani. \"He hoki,\" wahi a kona kupuna wahine. \"Ua hana nui nā hoki ma nā mahi kō i ka wā kahiko.\"\n\nI ka pau ʻana o ka huakaʻi hele, ua hāʻawi ʻo Keʻalohilani i kona lei melia i ke kiʻi o Kamehameha. Ua mālama ʻo ia i ka lepa liʻiliʻi a hiki i kona hoʻi ʻana i Seattle.\n\nNā nīnau:\nHe aha ke kala o ka holokū o Kamakaʻeha?\nHe holokū keʻokeʻo ia me nā pua melia ma luna.\nHe aha ka mea i kau ma luna o ka lei o Keʻalohilani?\nUa kau kekahi pulelehua ma luna o kāna lei.\nHe aha ke kala o Maui?\nʻO ka ʻākala ke kala o Maui.\nHe aha ke kala o ke kāʻai o ka wahine o Lānaʻi?\nHe kāʻai alani kona.\nHe aha ka holoholona me nā lei ma kona poʻo?\nHe hoki ia."
+    },
+    {
+      "title": "Nā ʻanoʻano o ka ululāʻau maloʻo",
+      "summary": "A botanist and a high-school student collect native seeds in a dry forest near Kawaihae and on the beach below it, and talk about why many trees must be planted.",
+      "newWords": [
+        "paiki",
+        "kili",
+        "nananana",
+        "wiliwili",
+        "hame",
+        "ōewe",
+        "hinahina",
+        "ʻākulikuli",
+        "ʻuku",
+        "kamani"
+      ],
+      "text": "He kanaka ʻepekema ʻo Kanoeʻulu. Hana ʻo ia ma kekahi ululāʻau maloʻo ma kahi kokoke iā Kawaihae, ma ka mokupuni ʻo Hawaiʻi. I kekahi kakahiaka, ua hele pū ʻo Nāhinu, he haumāna kula kiʻekiʻe, me ia e ʻohi i nā ʻanoʻano o nā lāʻau ʻōiwi. Ua lawe ʻo Nāhinu i kekahi paiki nui, a ua hoʻopiha ʻo Kanoeʻulu i ka paiki i nā ʻeke pepa liʻiliʻi.\n\nUa kili ka ua i kēlā kakahiaka. Ma waena o nā lālā, aia nā ʻupena nananana, a ua ʻālohilohi nā kulu kili ma luna o lākou. Ua makaʻu iki ʻo Nāhinu i ka nananana nui.\n\nUa hele lāua i kekahi lāʻau wiliwili kahiko. Ua hāʻule nā ʻanoʻano ʻulaʻula o ka wiliwili ma ka honua. \"He lāʻau māmā loa ka wiliwili,\" wahi a Kanoeʻulu. \"Ua hana ka poʻe kahiko i nā papa heʻe nalu me ka wiliwili.\" Ma kahi kokoke, aia kekahi lāʻau hame me nā hua liʻiliʻi ʻulaʻula a ʻeleʻele. ʻOno ka hua o ka hame i nā manu.\n\nUa ʻohi lāua i nā ʻanoʻano mai nā lāʻau like ʻole. \"No ke aha ʻaʻole kāua e ʻohi mai hoʻokahi lāʻau wale nō?\" i nīnau ai ʻo Nāhinu. \"No ke ōewe,\" wahi a Kanoeʻulu. \"He ōewe ʻokoʻa ko kēlā me kēia lāʻau. Inā like ke ōewe o nā lāʻau a pau, hiki i hoʻokahi maʻi ke hoʻomake i nā lāʻau a pau.\"\n\nMa hope, ua iho lāua i kahakai. Ma ke one, ua ulu ka hinahina me nā lau hina a palupalu, a me ka ʻākulikuli me nā lau momona a ʻōmaʻo. ʻUku loa nā ʻanoʻano o ka hinahina, a ua ʻohi mālie ʻo Nāhinu iā lākou me kona mau manamana lima. ʻUku pū nā ʻanoʻano o ka ʻākulikuli.\n\nMa ka ʻaoʻao o ke one, aia nā lāʻau kamani nui. Ua noho lāua ma ka malu o ke kamani a ua ʻai lāua i kā lāua ʻaina awakea. \"Ua kanu ka poʻe kahiko i ke kamani ma kahakai no ka malu,\" wahi a Kanoeʻulu.\n\nNā nīnau:\nHe aha ka mea a Nāhinu i lawe ai?\nUa lawe ʻo ia i kekahi paiki nui.\nHe aha ka mea i ʻālohilohi ma luna o nā ʻupena nananana?\nUa ʻālohilohi nā kulu kili ma luna o lākou.\nHe aha ka mea a ka poʻe kahiko i hana ai me ka wiliwili?\nUa hana lākou i nā papa heʻe nalu me ka wiliwili.\nNo ke aha lāua i ʻohi ai mai nā lāʻau like ʻole?\nNo ka mea, he ōewe ʻokoʻa ko kēlā me kēia lāʻau.\nMa hea lāua i ʻai ai i kā lāua ʻaina awakea?\nUa ʻai lāua ma ka malu o ke kamani."
+    },
+    {
+      "title": "Ka heihei waʻa mua",
+      "summary": "A young paddler and his friends race their outrigger canoe for the first time: the coach's instructions, the starting shot, breaking waves near the reef and a dropped paddle.",
+      "newWords": [
+        "aikāne",
+        "ʻōkuhi",
+        "ʻuao",
+        "kīkī",
+        "ʻale",
+        "waka",
+        "paina",
+        "ʻalo",
+        "huʻa",
+        "hepa"
+      ],
+      "text": "He ʻeono ʻo Keliʻiaukai a me kona mau aikāne ma ka hui hoe waʻa o ko lākou kula. Ua hoe lākou i ka waʻa i nā ʻauinalā a pau ma Kailua. I kekahi Pōʻaono, ua komo lākou i ka heihei waʻa mua o ko lākou ola.\n\nMa mua o ka heihei, ua hāʻawi ko lākou kumu ʻo Kahuelo i nā ʻōkuhi. \"E hoe pū i ka manawa hoʻokahi. Mai nānā i nā waʻa ʻē aʻe. E hoʻolohe i nā ʻōkuhi a Keliʻiaukai, no ka mea, ʻo ia ke alakaʻi o ka waʻa.\" Ua hoʻolohe nā aikāne a pau i nā ʻōkuhi o ke kumu.\n\nMa kekahi moku liʻiliʻi, aia ka ʻuao o ka heihei. Ua paʻa ka ʻuao i kekahi pū. Ua kīkī ʻo ia i ka pū i ka lewa, a ua hoe ikaika nā waʻa a pau. Ua kīkī ka wai ma nā ʻaoʻao o nā waʻa.\n\nUa nui nā ʻale ma ke kai. Ua waka ka lā ma luna o nā ʻale, a ua waka pū nā maka o nā aikāne i ka hauʻoli. Ma kahi kokoke i ka papa, ua ʻike ʻo Keliʻiaukai i ka paina o kekahi nalu nui. \"E hoe ikaika!\" wahi āna. Ua huli ʻo ia i ka waʻa e ʻalo i ka paina o ka nalu. Ua ʻalo pū lākou i kekahi waʻa ʻē aʻe i kokoke loa mai. Ua hāʻule ka huʻa keʻokeʻo ma luna o lākou, a ua piha ka waʻa i ka huʻa a me ka wai.\n\nI kēlā manawa, ua hāʻule ka hoe o kekahi aikāne, ʻo Kamakaniʻula, i loko o ke kai. \"He hepa wau!\" wahi āna. Ua hopu koke ʻo ia i ka hoe ma waena o nā ʻale. \"ʻAʻole ʻoe he hepa,\" wahi a Keliʻiaukai. \"E hoe kākou!\"\n\nUa hiki ko lākou waʻa i ka pahu hopu ma ka ʻelua. Ua ʻōlelo ka ʻuao ua hoe maikaʻi lākou. Ma hope o ka heihei, ua ʻau nā aikāne i loko o ka huʻa ma kahakai, a ua ʻakaʻaka lākou no ka hoe i hāʻule.\n\nNā nīnau:\nʻO wai ka mea i hāʻawi i nā ʻōkuhi?\nNa ke kumu ʻo Kahuelo i hāʻawi i nā ʻōkuhi.\nHe aha kā ka ʻuao i hana ai i ka hoʻomaka ʻana?\nUa kīkī ʻo ia i ka pū i ka lewa.\nNo ke aha i huli ai ʻo Keliʻiaukai i ka waʻa?\nI mea e ʻalo ai i ka paina o ka nalu nui.\nHe aha ka mea i hāʻule i loko o ke kai?\nUa hāʻule ka hoe o Kamakaniʻula i loko o ke kai.\nUa hiki ko lākou waʻa i ka pahu hopu ma ka helu hea?\nUa hiki ko lākou waʻa ma ka ʻelua."
+    },
+    {
+      "title": "Ka ʻumeke a Kaleiheana",
+      "summary": "A young woman traces her family history: an old bowl with a carved groove leads her to a church record of an ancestor who was raised by a bishop.",
+      "newWords": [
+        "piopio",
+        "kohe",
+        "hoʻokolo",
+        "pīhopa",
+        "hoʻomakua",
+        "ʻanāʻanā",
+        "lapuwale",
+        "hoʻākua"
+      ],
+      "text": "Noho ʻo Kekaualua me kona kupuna wahine ma Kaʻū. I kekahi kakahiaka, ʻoiai ʻo Kekaualua e hānai ana i nā piopio, ua kāhea mai kona kupuna wahine iā ia i loko o ka hale. Ua paʻa ʻo Tūtū i kekahi ʻumeke lāʻau kahiko. \"Na kou kupuna kahiko ʻo Kaleiheana i kālai i kēia ʻumeke,\" wahi āna. Ma lalo o ka ʻumeke, aia kekahi kohe liʻiliʻi i kālai ʻia ma ka lāʻau.\n\nUa makemake ʻo Kekaualua e hoʻokolo i ka moʻolelo o Kaleiheana. Ua hele ʻo ia i kekahi waihona palapala ma Honolulu. Ma laila, ua hoʻokolo ʻo ia i kona inoa ma nā puke kahiko o kekahi hale pule. Ua ʻike ʻo ia ua make nā mākua o Kaleiheana i kona wā liʻiliʻi, a ua hoʻomakua kekahi pīhopa iā ia. Ua kākau ka pīhopa: \"Ua hoʻomakua au i kēia keiki makua ʻole.\"\n\nMa kekahi leka a ka pīhopa, ua heluhelu ʻo Kekaualua i kekahi mea ʻē aʻe. Ua ʻōlelo kekahi poʻe o ke kauhale ua hana ka ʻanakala o Kaleiheana i ka ʻanāʻanā. Ua kākau ka pīhopa: \"He mea lapuwale ka ʻanāʻanā. ʻAʻole hiki i ka ʻanāʻanā ke hoʻomake i ke kanaka.\" ʻAʻole naʻe lapuwale nā hana a pau o ka poʻe kahiko. Ua heluhelu ʻo Kekaualua ma kekahi puke ua hoʻākua ka poʻe kahiko i kekahi mau kūpuna i make, a ua lilo lākou i ʻaumakua no ko lākou ʻohana. Ua hoʻākua ʻia kekahi o kona mau kūpuna ma ke ʻano he manō.\n\nMa ka leka hope loa, ua kākau ka pīhopa ua aʻo ʻo Kaleiheana e kālai lāʻau, a ua kālai ʻo ia i kekahi kohe liʻiliʻi ma lalo o kēlā me kēia ʻumeke i hōʻailona nona. Ua hiki iā Kekaualua ke hoʻokolo i ka ʻumeke o Tūtū a hiki iā Kaleiheana.\n\nI kona hoʻi ʻana i Kaʻū, ua haʻi ʻo ia i nā mea a pau i kona kupuna wahine. A laila, ua kau lāua i ka ʻumeke kahiko ma ka pākaukau, a ua hele lāua i waho e hānai i nā piopio.\n\nNā nīnau:\nHe aha ka mea ma lalo o ka ʻumeke?\nAia kekahi kohe liʻiliʻi ma lalo o ka ʻumeke.\nMa hea ʻo Kekaualua i hoʻokolo ai i ka inoa o Kaleiheana?\nUa hoʻokolo ʻo ia i kona inoa ma nā puke kahiko o kekahi hale pule.\nʻO wai ka mea i hoʻomakua iā Kaleiheana?\nUa hoʻomakua kekahi pīhopa iā ia.\nHe aha ka manaʻo o ka pīhopa no ka ʻanāʻanā?\nUa manaʻo ʻo ia he mea lapuwale ka ʻanāʻanā.\nHe aha ka hana a Kekaualua i ka pau ʻana o ka moʻolelo?\nUa hele ʻo ia me kona kupuna wahine e hānai i nā piopio."
+    }
+  ]
+}
