@@ -31,7 +31,6 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Check
@@ -410,8 +409,6 @@ private fun CourseSummary(progress: CourseProgress, onOpenLesson: (String) -> Un
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                     )
-                    Spacer(Modifier.width(AppSpacing.m))
-                    Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null, modifier = Modifier.size(AppSizes.icon))
                 }
             }
             if (course.lessons.isNotEmpty()) LocalPlaylistButton.current?.invoke(PlaylistSource.WholeCourse(course.id), tr("Add course to playlist"))
