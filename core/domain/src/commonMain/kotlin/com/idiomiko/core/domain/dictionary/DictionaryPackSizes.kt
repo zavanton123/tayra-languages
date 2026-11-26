@@ -75,7 +75,7 @@ internal val dictionaryPackReleases: Map<String, Map<String, Long>> = mapOf(
         "ko-pl" to 615_233L, "ko-ru" to 666_232L, "ko-zh" to 11_509_306L, "kw-en" to 837_166L, "la-el" to 1_571_850L,
         "la-en" to 20_252_702L, "la-pl" to 3_775_365L, "la-zh" to 3_706_726L, "lo-en" to 274_424L, "lo-ru" to 65_987L, "lt-en" to 4_301_221L, "lt-pl" to 1_494_831L,
         "lt-zh" to 850_608L, "lv-en" to 6_058_425L, "lv-pl" to 899_787L, "lv-zh" to 651_299L, "mk-en" to 13_329_046L, "mk-pl" to 853_980L, "mk-zh" to 1_576_339L,
-        "mn-en" to 884_718L, "mr-en" to 1_554_367L, "ms-en" to 1_210_622L, "mn-fr" to 179_913L, "mn-ru" to 285_616L, "mn-zh" to 277_623L, "mt-en" to 1_909_341L,
+        "mn-en" to 884_718L, "mr-en" to 1_554_367L, "ms-en" to 1_210_622L, "mn-fr" to 179_913L, "mn-ru" to 285_616L, "mn-zh" to 277_623L, "mt-en" to 2_324_436L,
         "mt-pl" to 135_283L, "mt-ru" to 121_465L, "mt-zh" to 537_097L, "my-en" to 600_174L, "ne-en" to 3_860_473L, "nl-el" to 189_867L, "nl-en" to 7_652_617L, "nl-pl" to 554_886L,
         "nl-pt" to 181_903L, "nl-zh" to 1_121_684L, "no-en" to 2_786_992L, "no-pl" to 520_206L, "no-zh" to 294_491L, "pa-en" to 1_224_358L, "pl-el" to 1_011_745L,
         "pl-en" to 27_847_621L, "pl-zh" to 4_903_465L, "ps-en" to 545_377L, "pt-el" to 406_312L, "pt-en" to 12_839_895L, "pt-pl" to 1_601_430L, "pt-zh" to 4_097_307L, "ro-el" to 573_886L,
