@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Urdu word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its forms). Course `ur-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 7,254 words: `ur-mini-0100` to `ur-mini-7300`
-(the last band has 54 words).
+`themes.tsv` gives each course its theme. The list has 7,165 words: `ur-mini-0100` to `ur-mini-7200`
+(the last band has 65 words).
 
 ## The register
 
@@ -81,7 +81,7 @@ story; a lesson never needs another lesson to make sense.
     calm and easy to follow;
   - ranks 3001–4000 (B2): connectors such as *اس کے باوجود*, *دوسری طرف*, *اسی لیے*, *نتیجتاً*; the light
     column (*کالم*) on everyday life, common proverbs and idioms explained by context;
-  - ranks 4001–7300 (C1): formal written style, verbal nouns in place of clauses (*گھر پہنچنے کے بعد*), a
+  - ranks 4001–7200 (C1): formal written style, verbal nouns in place of clauses (*گھر پہنچنے کے بعد*), a
     short essay or reflective column that weighs two sides, an interview, a portrait, a review; the
     specialised words of professions, sciences and the arts, each made clear by its context; poetry's
     words (*دل*, *غم*, *عشق*, *جہاں*) in their prose senses or in a quoted, explained couplet.
@@ -148,16 +148,18 @@ Things to know about the Urdu list and the checker:
 
 - The courses are pinned to `tools/courses/ur/wordlist.tsv` (a copy of the app's `ur.tsv`, counted from
   wordfreq, OpenSubtitles and Leipzig's news and Wikipedia sentences); the `bands/*.txt` come from it, and
-  `extra_forms.tsv` adds the pack's regular forms the corpus never showed. Ranks 1–1000 keep the order
-  they were written with; everyday words the pack lacks were added after them (*والا* 1001, *بارے* 1002,
-  *پولیس* 1003, *جبکہ*, *رکن*, *نیچے*, *ہسپتال*, *معلومات*, *تبدیلی*, *گزارنا*, *گزرنا*, *وہیں*, *کٹنا*: see
-  `rank.py`). *ٹی وی* is two words to the reader, *ٹی* and *وی*, which the list leaves out as letters'
-  names: both count as unknown words. The checker reads words as the
+  `extra_forms.tsv` adds the pack's regular forms the corpus never showed. Ranks 1–2400 keep the order
+  they were written with; from 2401 the list no longer counts rare verbs through other words' forms
+  (*سمری*, *بہرے*), names, halves of pairs written apart or of compounds (*مون سون*), nor a word's other
+  spelling (*مہینہ* of *مہینا*) as words of their own. Everyday words the pack lacks were added after
+  rank 1000 (*والا* 1001, *بارے* 1002, *پولیس* 1003, *جبکہ*, *رکن*, *نیچے*, *ہسپتال*, *معلومات*, *تبدیلی*,
+  *گزارنا*, *گزرنا*, *وہیں*, *کٹنا*: see `rank.py`). *ٹی وی* is two words to the reader, *ٹی* and *وی*,
+  which the list leaves out as letters' names: both count as unknown words. The checker reads words as the
   reader does: cut at spaces and punctuation, marks and the non-joiner ignored, Arabic *ك ي ه* as *ک ی ہ*.
 - **The news shows in the first ranks**: *حکومت*, *وزیر*, *ملک*, *افراد*, *خلاف*, *مطابق*, *صدر*, *فوج*,
   *پارٹی*, *انتخابات* rank high and everyday nouns later than you might expect: *بچہ* 102, *گھر* 105,
   *کھانا* 167, *ماں* 226, *بھائی* 260, *کتاب* 264, *پانی* 284, *بیٹا* 309, *ابو* (*ابا*) 473, *صبح* 542, *باپ*
-  631, *بیٹی* 724, *بہن* 746, *چائے* 1509, *امی* 2410. Check a word's rank (`rank.py`) rather than guess.
+  631, *بیٹی* 724, *بہن* 746, *چائے* 1509, *امی* 2411. Check a word's rank (`rank.py`) rather than guess.
 - **Verbs are listed by the infinitive** with their forms under it (*کرنا*: *کر, کرتا, کرتی, کیا, کی,
   کریں, کرو*), and a conjunct verb is its two words (*کام کرنا* is *کام* and *کرنا*).
 - **Words that are also forms**: *کیا* is "what" and *کرنا*'s past; *کی* is *کا*'s feminine and *کرنا*'s;
