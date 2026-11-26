@@ -114,7 +114,7 @@ CORNISH_OVERRIDES = {
     **_to("i", "i", "anjei", "enjei", "jei"),
     **_to("ty", "ty"),
     **_to("hemma", "hemma", "hemm", "hebma"),
-    **_to("homma", "homma", "hobma"),
+    **_to("homma", "homma", "hobma", "homm"),
     **_to("henna", "hedna"),
     **_to("honna", "honna", "hodna"),
     **_to("a", "anedha", "anodho", "anedhi"),
@@ -224,6 +224,11 @@ CORNISH_OVERRIDES = {
     **_to("dos", "deu", "dheu", "teu"),
     # The language's own name, written with a capital as a name is, is a word as Sowsnek is.
     **_to("kernewek", "kernewek"),
+    # Forms the pack glosses as their own words: "had" (y'n jeva, a's tevo), "is he", "is done", "gets".
+    **_to("bos", "jeva", "tevo", "ywa"),
+    **_to("gul", "hwrer", "gwrythul"),
+    **_to("kavos", "gyv"),
+    **_to("gallos", "halja"),
 }
 
 CORNISH_EXCLUDE = {
@@ -237,4 +242,9 @@ CORNISH_EXCLUDE = {
     "uk", "geograph", "label", "text", "wdt", "mm", "kg", "cm", "till", "lower", "skeusennik", "http", "https", "html",
     "px", "upright", "center", "enter", "to", "do", "al", "hell", "coor", "wikibase", "klass", "ndash", "sparql", "bgcolor", "gje", "uji", "née", "département",
     "americanus", "arctos", "thibetanus", "nervus", "genus", "cropped",
+    # Latin names of species, English, French, German, Estonian and Lithuanian words, a colour code and file extensions the
+    # articles carry.
+    "melanoleuca", "ursinus", "maakond", "ogv", "anjeii", "maritimus", "malayanus", "tabacicolor", "pratense", "glauca",
+    "phylum", "cumulus", "essayist", "theropods", "bretonne", "d'outre-mer", "immer", "peahoone", "apskritis", "panoramio",
+    "efefef", "webm", "tif",
 }
