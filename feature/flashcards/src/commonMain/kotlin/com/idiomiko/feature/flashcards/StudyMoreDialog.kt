@@ -74,6 +74,7 @@ internal fun StudyMoreDialog(counts: StudyMoreCounts, onAddNew: (Int) -> Unit, o
     val cards by produceState<Int?>(null, study) { value = study?.let { counts.extraCount(it) } }
     val available = if (chosen == More.NEW) waiting else cards
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         modifier = Modifier.testTag("study-more-dialog"),
         title = { Text(tr("Study more")) },

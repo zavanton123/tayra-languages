@@ -549,6 +549,7 @@ internal fun EmptyArchive(onBackToBooks: () -> Unit) {
     )
     if (explaining) {
         AppDialog(
+            fullScreenOnPhone = true,
             onDismissRequest = { explaining = false },
             confirmButton = { QuietButton(tr("Got it"), onClick = { explaining = false }) },
             title = { Text(tr("How archiving works")) },

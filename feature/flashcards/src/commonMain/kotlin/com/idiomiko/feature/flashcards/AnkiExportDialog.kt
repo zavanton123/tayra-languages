@@ -23,6 +23,7 @@ import com.idiomiko.core.ui.theme.AppSpacing
 internal fun AnkiExportDialog(export: AnkiExport, onDismiss: () -> Unit, onCancel: () -> Unit = {}) {
     val working = export is AnkiExport.Working
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = { if (!working) onDismiss() },
         modifier = Modifier.testTag("anki-export"),
         title = {

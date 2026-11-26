@@ -14,6 +14,10 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import com.idiomiko.core.ui.i18n.tr
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.material3.ProvideTextStyle
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
@@ -355,17 +359,65 @@ fun AppDialog(
     title: (@Composable () -> Unit)? = null,
     text: (@Composable () -> Unit)? = null,
     properties: DialogProperties = DialogProperties(),
-) = AlertDialog(
-    onDismissRequest = onDismissRequest,
-    confirmButton = confirmButton,
-    modifier = modifier,
-    dismissButton = dismissButton,
-    icon = icon,
-    title = title,
-    text = text,
-    shape = AppShapes.large,
-    properties = properties,
-)
+    /** A dialog with content to work with, not a question: on a phone it takes the whole screen. */
+    fullScreenOnPhone: Boolean = false,
+) {
+    if (fullScreenOnPhone && LocalWindowWidth.current.isCompact) {
+        return PhoneDialog(onDismissRequest, confirmButton, modifier, dismissButton, icon, title, text, properties.dismissOnBackPress)
+    }
+    AlertDialog(
+        onDismissRequest = onDismissRequest,
+        confirmButton = confirmButton,
+        modifier = modifier,
+        dismissButton = dismissButton,
+        icon = icon,
+        title = title,
+        text = text,
+        shape = AppShapes.large,
+        properties = properties,
+    )
+}
+
+/** [AppDialog] on a phone: the title with a close button at the top, the content under it, and the buttons at the foot. */
+@Composable
+private fun PhoneDialog(
+    onDismissRequest: () -> Unit,
+    confirmButton: @Composable () -> Unit,
+    modifier: Modifier,
+    dismissButton: (@Composable () -> Unit)?,
+    icon: (@Composable () -> Unit)?,
+    title: (@Composable () -> Unit)?,
+    text: (@Composable () -> Unit)?,
+    dismissible: Boolean,
+) {
+    val colors = MaterialTheme.colorScheme
+    AppScreenDialog(onDismissRequest = onDismissRequest, modifier = modifier, dismissible = dismissible) {
+        Column(Modifier.fillMaxSize()) {
+            Row(
+                Modifier.fillMaxWidth().padding(start = AppSpacing.l, end = AppSpacing.xs, top = AppSpacing.s, bottom = AppSpacing.s),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
+            ) {
+                icon?.invoke()
+                Box(Modifier.weight(1f)) { title?.let { ProvideTextStyle(AppText.headline) { it() } } }
+                AppIconButton(Icons.Default.Close, tr("Close"), onClick = onDismissRequest)
+            }
+            // The content's own scrolling, where it has some, gets the room between the title and the buttons.
+            Box(Modifier.weight(1f).fillMaxWidth().padding(horizontal = AppSpacing.l)) {
+                text?.let { CompositionLocalProvider(LocalContentColor provides colors.onSurfaceVariant) { ProvideTextStyle(MaterialTheme.typography.bodyMedium) { it() } } }
+            }
+            AppDivider()
+            Row(
+                Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
+                horizontalArrangement = Arrangement.spacedBy(AppSpacing.s, Alignment.End),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                dismissButton?.invoke()
+                confirmButton()
+            }
+        }
+    }
+}
 
 /** A chip that filters a list, on or off. */
 @Composable

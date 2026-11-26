@@ -91,6 +91,7 @@ internal fun WordFinderDialog(
     }
     LaunchedEffect(installed) { if (installed) runCatching { focus.requestFocus() } }
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         title = { Text(tr("Find a {0} word", tr(learningName))) },
         text = {

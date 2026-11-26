@@ -28,6 +28,7 @@ import com.idiomiko.core.ui.theme.AppText
 internal fun SavedTodayDialog(words: List<SavedWord>, onOpen: (termId: Long) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         modifier = Modifier.testTag("saved-today"),
         title = { Text(tr("Words saved today")) },

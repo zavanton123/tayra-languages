@@ -195,6 +195,7 @@ internal fun ImportLanguagesDialog(ready: DictionaryImport.Ready, defaultSource:
     var source by remember { mutableStateOf(options.firstOrNull { it.code == defaultSource }) }
     var target by remember { mutableStateOf(options.firstOrNull { it.code == defaultTarget }) }
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         title = { Text(ready.info.title) },
         text = {

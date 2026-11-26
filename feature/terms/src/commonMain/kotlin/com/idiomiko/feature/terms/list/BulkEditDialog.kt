@@ -36,6 +36,7 @@ fun BulkEditDialog(count: Int, onApply: (BulkTermUpdate) -> Unit, onDismiss: () 
     var status by remember { mutableStateOf(TermStatus.NEW_1) }
 
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         title = { Text(trPlural(count, "Updating {0} term", "Updating {0} terms")) },
         text = {

@@ -41,6 +41,7 @@ internal fun SetDueDialog(count: Int, onSet: (IntRange) -> Unit, onDismiss: () -
     var text by remember { mutableStateOf("1") }
     val days = dueDays(text)
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         modifier = Modifier.testTag("set-due-dialog"),
         title = { Text(trPlural(count, "Set the due date of {0} card", "Set the due date of {0} cards")) },

@@ -20,6 +20,7 @@ import com.idiomiko.core.ui.theme.AppSpacing
 internal fun AnkiImportDialog(import: AnkiImport, onDismiss: () -> Unit) {
     val working = import is AnkiImport.Working
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = { if (!working) onDismiss() },
         modifier = Modifier.testTag("anki-import"),
         title = {

@@ -60,6 +60,7 @@ fun PhotoCropDialog(photo: ImageBitmap, saving: Boolean, problem: String?, onCan
     var crop by remember(photo) { mutableStateOf(PhotoCrop()) }
     val scope = rememberCoroutineScope()
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = { if (!saving) onCancel() },
         modifier = Modifier.testTag("photo-crop"),
         title = { Text(tr("Your photo")) },

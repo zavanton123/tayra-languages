@@ -14,6 +14,7 @@ import com.idiomiko.core.ui.i18n.trPlural
 @Composable
 internal fun LevelConfirmDialog(from: Int, to: Int, onConfirm: () -> Unit, onDismiss: () -> Unit, first: Boolean = false) {
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         title = { Text(tr("Set vocabulary level")) },
         text = {

@@ -132,6 +132,7 @@ private fun FoundBookDialog(item: FoundBookItem, actions: FindBooksActions, onDi
     val colors = MaterialTheme.colorScheme
     val book = item.book
     AppDialog(
+        fullScreenOnPhone = true,
         onDismissRequest = onDismiss,
         modifier = Modifier.widthIn(max = DIALOG_WIDTH).testTag("found-book-dialog"),
         title = { Text(book.title.inLearnedScript(), maxLines = 3, overflow = TextOverflow.Ellipsis) },

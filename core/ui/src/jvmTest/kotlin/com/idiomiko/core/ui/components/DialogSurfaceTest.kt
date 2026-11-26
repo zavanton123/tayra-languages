@@ -13,6 +13,19 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.ui.theme.AppSpacing
 import com.idiomiko.core.ui.theme.IdiomikoTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.graphics.toAwtImage
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.getBoundsInRoot
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.isRoot
+import androidx.compose.ui.test.onNodeWithContentDescription
+import java.io.File
+import javax.imageio.ImageIO
+import kotlin.test.assertTrue
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
@@ -54,5 +67,39 @@ class DialogSurfaceTest {
         val content = onNodeWithTag("screen-dialog-content").fetchSemanticsNode().boundsInRoot
         assertEquals(with(density) { 28.dp.toPx() }, content.top, 1f)
         assertEquals(0f, content.left, 1f)
+    }
+
+    /** On a phone a dialog with content takes the whole screen, its buttons at the foot; a question stays a small dialog. */
+    @Test
+    fun onAPhoneContentTakesTheScreenAndAQuestionStaysSmall() = runDesktopComposeUiTest(width = 400, height = 800) {
+        var asking by mutableStateOf(false)
+        setContent {
+            IdiomikoTheme {
+                CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                    if (!asking) {
+                        AppDialog(
+                            onDismissRequest = {}, fullScreenOnPhone = true, modifier = Modifier.testTag("content-dialog"),
+                            title = { Text("Study more") },
+                            text = { Text("Learn new cards ahead of schedule, or review the ones you forgot.") },
+                            dismissButton = { QuietButton("Cancel", onClick = {}) },
+                            confirmButton = { PrimaryButton("Start", onClick = {}, modifier = Modifier.testTag("content-confirm")) },
+                        )
+                    } else {
+                        ConfirmDialog("Delete this book?", "Its saved words stay.", onConfirm = {}, onDismiss = {})
+                    }
+                }
+            }
+        }
+        val screen = onNodeWithTag("content-dialog").getBoundsInRoot()
+        assertEquals(400.dp, screen.right - screen.left)
+        assertEquals(800.dp, screen.bottom - screen.top)
+        assertTrue(800.dp - onNodeWithTag("content-confirm").getBoundsInRoot().bottom < 40.dp, "the buttons sit at the foot")
+        onNodeWithContentDescription("Close").assertExists()
+        System.getenv("PHONE_DIALOG_SCREENSHOT")?.let { waitForIdle(); ImageIO.write(onAllNodes(isRoot())[1].captureToImage().toAwtImage(), "png", File(it)) }
+
+        asking = true
+        waitForIdle()
+        val question = onNode(hasText("Delete this book?")).getBoundsInRoot()
+        assertTrue(question.top > 100.dp, "a question is a small dialog in the middle, not the whole screen")
     }
 }
