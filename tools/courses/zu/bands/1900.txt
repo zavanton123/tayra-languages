@@ -1,100 +1,100 @@
-1	1801	bhenywa	bhenywa abhenyiwe awabhenywa ibhenywe kuyabhenywa libhenywe zibhenywa obhenywa okungabhenywa ukubhenywa alibhenywa angibhenywa nokubhenywa ubhenywe okubhenywayo wokubhenywa
-2	1802	igqubu	amagqubu namagqubu igqubu gqubu wamagqubu ninamagqubu unamagqubu akanagqubu ngowamagqubu ungowamagqubu kunamagqubu magqubu onamagqubu sinamagqubu
-3	1803	isentimitha	isentimitha amasentimitha ngamasentimitha engamasentimitha bamasentimitha ingamasentimitha sentimitha elingamasentimitha ezingamasentimitha lisentimitha
-4	1804	nyala	ukulinyalelwa ulinyalelwe abalinyalelwe elinyalelwe enyele kulinyalelwa ilinyalelwe kokulinyalelwa lokulinyalelwa nokulinyalelwa olinyalelwe unyele wanyalula amnyala balinyalelwe eyalinyalelwa ngalinyalelwa ngokulinyalelwa nyala silinyalelwe singalinyalelwa
-5	1805	indishi	indishi izindishi endishini nendishi kwezindishi ayesendishini olusendishini yendishi ngendishi
-6	1806	isilevu	isilevu nesilevu izilevu esilevini yezilevu kwesilevu ngesilevu nasesilevini olwesilevu
-7	1807	feketha	efekethisiwe ezifekethisiwe bafekethe ufekethe angifekethi elifekethisiwe feketha ifekethiswe uzofeketha
-8	1808	umhluzi	umhluzi imihluzi lomhluzi mhluzi ngomhluzi lemihluzi ngumhluzi yomhluzi
-9	1809	isijalimani	isijalimane ngesijalimane lesijalimane zesijalimane lwesijalimane nesijalimane isijalimani
-10	1810	gqinsi	gqinsi wugqinsi ugqinsi ewugqinsi awugqinsi luyigqinsi nogqinsi obuwugqinsi esiwugqinsi eziwugqinsi iwugqinsi
-11	1811	umdlwenguli	umdlwenguli abadlwenguli kumdlwenguli kubadlwenguli wabadlwenguli ungumdlwenguli nabadlwenguli singumdlwenguli
-12	1812	isibabule	nesibabule isibabule kwesibabule nangesibabule nezesibabule wesibabule esibabulini esibabule okungesibabule yisibabule zesibabule
-13	1813	umshumayeli	umshumayeli abashumayeli njengomshumayeli kukamshumayeli wayengumshumayeli nabashumayeli bashumayeli ngabashumayeli nomshumayeli sabashumayeli
-14	1814	qhwakela	qhwakela iqhwakele eqhwakele aqhwakele ukuqhwakela yaqhwakela ziqhwakele kuqhwakele oqhwakela uqhwakela beqhwakele eliqhwakele liqhwakele
-15	1815	ikhanzi	ikhanzi ekhanzini uyikhanzi amakhanzi emakhanzini ngasemakhanzini kwekhanzi njengekhanzi namakhanzi yikhanzi
-16	1816	ungqi	ngqi nongqi ungqi kukangqi
-17	1817	inyonga	nezinyonga senyonga izinyonga enyongeni inyonga zezinyonga zinezinyonga
+1	1801	feketha	efekethisiwe ezifekethisiwe bafekethe ufekethe angifekethi elifekethisiwe feketha ifekethiswe uzofeketha
+2	1802	umhluzi	umhluzi imihluzi lomhluzi mhluzi ngomhluzi lemihluzi ngumhluzi yomhluzi
+3	1803	isithutha	isithutha izithutha abayizithutha siyizithutha uyisithutha yisithutha ayizithutha liyizithutha nezithutha ngiyisithutha obuyisithutha yizithutha zaziyizithutha bayizithutha kwelezithutha lesithutha njengesithutha oluyisithutha oyisithutha
+4	1804	isijalimani	isijalimane ngesijalimane lesijalimane zesijalimane lwesijalimane nesijalimane isijalimani
+5	1805	chela	chela ichelwa kuchelwe ichelwe ngokuchela uchelwa awuchele azochela ichela luchela okuchela ukuchela uyochelwa yokuchela achelwa bazozichela echela ezochela kuchelwa sichela ukuchelwa wachela wayechela yichele zichelwa
+6	1806	iqola	iqola amaqola qola eseqola eqola bebeqola abeqola beqola neqola ngamaqola njengeqola yiqola ayiqola bekungamaqola kuqola
+7	1807	ambatha	ambatha elambatha basambatheka belambatha ngilambatha besasambathekile kwambatha wasambatheka besambathekile bangambathi ilambatha nambatha silambatha ulambatha ambathe esasambathekile wayesambatheka
+8	1808	gqinsi	gqinsi wugqinsi ugqinsi ewugqinsi awugqinsi luyigqinsi nogqinsi obuwugqinsi esiwugqinsi eziwugqinsi iwugqinsi
+9	1809	umdlwenguli	umdlwenguli abadlwenguli kumdlwenguli kubadlwenguli wabadlwenguli ungumdlwenguli nabadlwenguli singumdlwenguli
+10	1810	imbila	nezimbila imbila yembila mbila embileni embilini nembila lembila wembila
+11	1811	ikhanzi	ikhanzi ekhanzini uyikhanzi amakhanzi emakhanzini ngasemakhanzini kwekhanzi njengekhanzi namakhanzi yikhanzi
+12	1812	umufo	umufo abafo bafo kubafo zomufo emfeni nabafo babengabafo bengabafo besemfeni labafo yabafo
+13	1813	shwabana	shwabana esishwabeneyo esishwabene shwabanisa sishwabene ashwabanise eshwabene lishwabane sasishwabene ashwabana bashwabana eyishwabanisa kushwabane zingashwabana sashwabana zashwabana
+14	1814	ungqi	ngqi nongqi ungqi kukangqi
+15	1815	isibabule	nesibabule isibabule kwesibabule nangesibabule nezesibabule wesibabule esibabulini okungesibabule yisibabule zesibabule
+16	1816	inyonga	nezinyonga senyonga izinyonga enyongeni inyonga zezinyonga zinezinyonga
+17	1817	khama	khama ngawakhamela uyakhamelela ngokukhama ukukhama uyikhame wakhama emkhama ezikhamulayo kukhamela ukumkhama yamkhama yokukhama angawakhama ngazikhamela sikhama ukhame ulikhame ulikhamele uwakhame
 18	1818	imadlana	imadlana ngemadlana nemadlana lemadlana kunemadlana okuyimadlana
 19	1819	ikwindla	ekwindla ikwindla ngekwindla zekwindla nasekwindla lekwindla
-20	1820	iqola	iqola amaqola qola eseqola eqola abeqola beqola neqola ngamaqola njengeqola yiqola ayiqola bekungamaqola kuqola
-21	1821	ufezela	ngawofezela ofezela bukafezela ufezela ngofezela kwawofezela nawofezela labofezela lukafezela wofezela bofezela kafezela lofezela
-22	1822	shunqa	shunqa kwashunqa obushunqayo kushunqe ungashunqiswa bushunqa elishunqa eshunqayo iyashunqa kushunqa lashunqa ushunqa kushunqiswe asishunqi ishunqa kuzoshunqa
-23	1823	iphara	amaphara iphara ngamaphara namaphara yamaphara kumaphara kunamaphara maphara
-24	1824	vilapha	vilapha nokuvilapha abavilaphayo okuvilaphayo ukuvilapha bengavilaphi evilaphayo ezivilaphayo ovilaphayo evilapha ezivilaphela ngokuvilapha savilapha ayavilapha sikuvilaphele singavilaphi uvilaphe ziyavilapha
-25	1825	umata	umata komata kumata mata nomata emateni kukamata lukamata omata kamata
-26	1826	ugwadule	ogwadule ugwadule eziwugwadule kogwadule lezingwadule nogwadule ezingwadule ewugwadule wogwadule wugwadule iwugwadule izingwadule lugwadule
-27	1827	shwabana	shwabana esishwabeneyo esishwabene shwabanisa sishwabene ashwabanise eshwabene lishwabane ashwabana bashwabana eyishwabanisa kushwabane zingashwabana sashwabana zashwabana
-28	1828	ngwevu	amangwevu ngwevu ezingwevu eyingwevu lungwevu ongwevu engwevu izingwevu kungwevu ungwevu zingwevu
-29	1829	isiqopha	esiqopha isiqopha eziqopha sinesiqopha
-30	1830	umufo	umufo abafo bafo kubafo zomufo nabafo babengabafo bengabafo besemfeni labafo yabafo
-31	1831	imbila	nezimbila imbila yembila embileni embilini nembila lembila wembila
-32	1832	shukuma	shukuma ukushukuma engashukumi eshukumayo ishukumile lingashukumi ezishukumayo okushukumiwe
-33	1833	imvama	imvama nemvama njengemvama
-34	1834	ingquza	ingquza kwengquza
-35	1835	umukhwe	umukhwe mukhwe engumukhwe kumukhwe lomukhwe nomukhwe
-36	1836	tapa	tapa emtapweni tapiwa bazitapele uyazitapela kokuzitapela beyozitapela emtapeni bazitapela ezitapela kuzitapela ngokuzitapela nokuzitapela ukuzitapela uzitapela yokuzitapela
-37	1837	hleze	hleze
-38	1838	khweza	khweza ukukhwezwa ukukhweza bamkhweza zokukhweza khwezani basikhweza bungakhwezwa lukhweziwe samkhweza ukumkhweza wamkhweza ngakhwezwa sizokhweza kukhwezelwe lukhwezelwa
-39	1839	umnqobi	njengomnqobi ngumnqobi ngabanqobi wayengumnqobi abangabanqobi kwabanqobi umnqobi elingabanqobi abanqobi babanqobi lomnqobi ungumnqobi
-40	1840	hlwaya	zokuhlwaya abahlwayi ayahlwayeka bahlwaye ayamhlwaya ekuhlwayeni kuyohlwaywa lihlwaye zihlwayele angahlwayela angayihlwayelanga ayihlwayelayo behlwaya hlwaya ihlwaya yokuhlwaya yokuhlwayela
-41	1841	ingebe	ingebe angebe kungebe ngingebe ungebe ngebe lingebe
-42	1842	ubhavu	kubhavu ebhavini ubhavu kabhavu nobhavu sikabhavu zikabhavu njengobhavu
-43	1843	godola	godola ukugodola egodola begodola bagodole engagodoli igodola ngiyagodola ayigodoli siyagodola uyagodola uzozigodolisa wawugodola sigodole ugodole
-44	1844	isekhondi	isekhondi amasekhondi namasekhondi kumasekhondi emasekhondini ngamasekhondi kwesekhondi ngesekhondi sekhondi
-45	1845	isiphundu	esiphundu isiphundu ngesiphundu
-46	1846	uhlaza	uhlaza ohlaza kohlaza njengohlaza nohlaza lohlaza ngohlaza bakahlaza ohlazeni
-47	1847	sono	sono
-48	1848	umhlengi	umhlengi abahlengi nomhlengi ngingumhlengi ungowabahlengi njengabahlengi njengomhlengi ungumhlengi engumhlengi
-49	1849	iyintshi	iyintshi amayintshi angamayintshi
-50	1850	khonzela	yokukhonzela engikhonzela ukukhonzela zokukhonzela bakhonzele bazokhonzela ezikhonzela omkhonzela sikhonzela simkhonzela ungikhonzela ungikhonzele wakhonzela akhonzela asikhonzele bazikhonzele khonzela lisikhonzele ngokukhonzela uyokhonzelwa
-51	1851	isiga	iziga isiga siga liyisiga kusiga ngokwesiga esigeni kwesiga ngesiga yiziga ziga
-52	1852	izala	izala lizala ezaleni ngizala emazaleni bayizala ezala nezala
-53	1853	usiba	usiba nosiba kusiba izinsiba ngosiba enezinsiba losiba unezinsiba yezinsiba zinezinsiba
-54	1854	ubabekazi	ubabekazi nobabekazi kababekazi babekazi elikababekazi
-55	1855	ihhabhula	ihhabhula amahhabhula samahhabhula namahhabhula wamahhabhula lihhabhula
-56	1856	uvolo	uvolo ezingovolo azingovolo kuvolo njengovolo ovolo
-57	1857	ukupela	ukupela bokupela lokupela
-58	1858	ipiyano	nepiyano ipiyano lepiyano wamapiyano wepiyano piyano yepiyano
-59	1859	ukwindla	ekwindla yokwindla ngekwindla ukwindla nasekwindla
-60	1860	insephe	njengensephe insephe ngezinsephe ensephe nensephe nezinsephe njengokwensephe yizinsephe anensephe
-61	1861	isiphukuphuku	bayiziphukuphuku siphukuphuku oyisiphukuphuku iziphukuphuku isiphukuphuku yisiphukuphuku babeyiziphukuphuku ngiyisiphukuphuku uyisiphukuphuku abayiziphukuphuku nesiphukuphuku siyiziphukuphuku ziphukuphuku
+20	1820	ufezela	ngawofezela ofezela bukafezela ufezela ngofezela kwawofezela nawofezela labofezela lukafezela wofezela bofezela kafezela lofezela
+21	1821	iphara	amaphara iphara ngamaphara namaphara yamaphara kumaphara kunamaphara maphara
+22	1822	shunqa	shunqa kwashunqa obushunqayo kushunqe bushunqa elisashunqa elishunqa eshunqayo iyashunqa kushunqa lashunqa ushunqa asishunqi bekusashunqa ishunqa kuzoshunqa
+23	1823	vilapha	vilapha nokuvilapha abavilaphayo okuvilaphayo ukuvilapha bengavilaphi evilaphayo ezivilaphayo ovilaphayo evilapha ezivilaphela ngokuvilapha savilapha ayavilapha sikuvilaphele singavilaphi uvilaphe ziyavilapha
+24	1824	umata	umata komata kumata mata nomata emateni kukamata lukamata omata kamata
+25	1825	ugwadule	ogwadule ugwadule eziwugwadule kogwadule lezingwadule nogwadule ezingwadule ewugwadule wogwadule wugwadule iwugwadule izingwadule lugwadule
+26	1826	ngwevu	amangwevu ngwevu ezingwevu eyingwevu lungwevu ongwevu engwevu izingwevu kungwevu ungwevu zingwevu
+27	1827	tatazela	tatazela ukutatazela nokutatazela batatazele bayatatazela ungatatazeli bebetatazela sokutatazela asitatazelanga bangatatazeli besatatazela itatazele ngokutatazela watatazela akatatazeli betatazela ezotatazelela iyatatazela ningatatazeli ubetatazela
+28	1828	shukuma	shukuma ukushukuma engashukumi eshukumayo ishukumile lingashukumi ezishukumayo okushukumiwe
+29	1829	imvama	imvama nemvama njengemvama
+30	1830	ingquza	ingquza kwengquza
+31	1831	umukhwe	umukhwe mukhwe engumukhwe kumukhwe lomukhwe nomukhwe
+32	1832	khonzela	yokukhonzela engikhonzela ukukhonzela zokukhonzela bakhonzele bazokhonzela ezikhonzela omkhonzela sikhonzela simkhonzela ungikhonzela ungikhonzele wakhonzela akhonzela asikhonzele babezikhonzele bazikhonzele khonzela lisikhonzele ngokukhonzela uyokhonzelwa
+33	1833	hleze	hleze
+34	1834	lalwa	kulalwe kulalwa elaliwa elalwa ongalalwanga akulalwa kuyalalwulwa lalwelwa okwakulalwa elalwela elalwisana kungalalwa kuyolalwa kwakulalwa kwakungalalwa kwalalwa lalwa ukulalwelwa
+35	1835	umnqobi	njengomnqobi ngumnqobi ngabanqobi wayengumnqobi abangabanqobi kwabanqobi umnqobi elingabanqobi abanqobi babanqobi lomnqobi ungumnqobi
+36	1836	hlwaya	zokuhlwaya abahlwayi ayahlwayeka bahlwaye ayamhlwaya ekuhlwayeni kuyohlwaywa lihlwaye zihlwayele angahlwayela angayihlwayelanga ayihlwayelayo behlwaya hlwaya ihlwaya yokuhlwaya yokuhlwayela
+37	1837	ubhavu	kubhavu ebhavini ubhavu kabhavu nobhavu sikabhavu zikabhavu njengobhavu
+38	1838	godola	godola ukugodola egodola begodola bagodole engagodoli igodola ngiyagodola ayigodoli siyagodola uyagodola uzozigodolisa wawugodola sigodole ugodole
+39	1839	isekhondi	isekhondi amasekhondi namasekhondi kumasekhondi emasekhondini ngamasekhondi kwesekhondi ngesekhondi sekhondi
+40	1840	isiphundu	esiphundu isiphundu ngesiphundu
+41	1841	uhlaza	uhlaza ohlaza kohlaza njengohlaza nohlaza lohlaza ngohlaza bakahlaza ohlazeni
+42	1842	sono	sono
+43	1843	umhlengi	umhlengi abahlengi nomhlengi ngingumhlengi ungowabahlengi njengabahlengi njengomhlengi ungumhlengi engumhlengi
+44	1844	nyumba	oyinyumba wayeyinyumba nyumba eziyinyumba
+45	1845	uvolo	uvolo ezingovolo azingovolo kuvolo njengovolo ovolo bezingovolo
+46	1846	khweza	khweza ukukhwezwa ukukhweza bamkhweza zokukhweza khwezani basikhweza bungakhwezwa lukhweziwe samkhweza ukumkhweza wamkhweza ngakhwezwa sizokhweza
+47	1847	iyintshi	iyintshi amayintshi angamayintshi
+48	1848	isiga	iziga isiga siga liyisiga kusiga ngokwesiga esigeni kwesiga ngesiga yiziga ziga
+49	1849	usiba	usiba nosiba kusiba izinsiba ngosiba enezinsiba losiba unezinsiba yezinsiba zinezinsiba
+50	1850	ubabekazi	ubabekazi nobabekazi kababekazi babekazi elikababekazi
+51	1851	ihhabhula	ihhabhula amahhabhula samahhabhula namahhabhula wamahhabhula lihhabhula
+52	1852	ukupela	ukupela bokupela lokupela
+53	1853	ipiyano	nepiyano ipiyano lepiyano wamapiyano wepiyano piyano yepiyano
+54	1854	ukwindla	ekwindla yokwindla ngekwindla ukwindla nasekwindla
+55	1855	insephe	njengensephe insephe ngezinsephe ensephe nensephe nezinsephe njengokwensephe yizinsephe anensephe
+56	1856	nqikaza	nqikaza unganqikazi ukunqikaza benqikaza asinqikazi nganqikaza ngokunqikaza wawunqikaza anqikaze banqikaze ninqikaza ubenqikazisa usanqikaza yayinganqikazi
+57	1857	isiphukuphuku	bayiziphukuphuku siphukuphuku oyisiphukuphuku iziphukuphuku isiphukuphuku yisiphukuphuku babeyiziphukuphuku ngiyisiphukuphuku uyisiphukuphuku abayiziphukuphuku nesiphukuphuku siyiziphukuphuku ziphukuphuku
+58	1858	vunguza	vunguza kwavunguza ovunguzayo ukuvunguza kuvunguza kungavunguzi ovunguza owawuvunguza bokuvunguza esavunguzani evunguza eyokuvunguza uvunguzelaphi wokuvunguza yisavunguzani
+59	1859	isigwedlo	isigwedlo izigwedlo nesigwedlo nezigwedlo ngezigwedlo ezigwedleni inesigwedlo kwesigwedlo kwezigwedlo yezigwedlo zinezigwedlo
+60	1860	qhelisa	qhelisa ukuqhelisa baqhelise baqheliswa eliqhelisayo eyawuqheliswa ayaziqhelisa iqheliswa kuqhelisa uqhelisa uyaziqhelisa wokuziqhelisa aqhelise baziqhelise kuqheliswe uqhelise wamqhelisa
+61	1861	cathula	cathula ezisacathula zokucathula ngamcathulisa abacathulise abasacathuliswa bacathula bacathulise ikucathulisa sibacathulisa simcathulise ukucathulisa yokucathulisa acathule cathulisa ecathula esicathulayo isicathula okucathulisa
 62	1862	umganu	emganwini umganu imiganu ngomganu mganu leyomganu
 63	1863	isigingci	isigingci zesigingci nesigingci izigingci nezigingci ngesigingci
 64	1864	isihlungu	isihlungu nesihlungu enesihlungu anesihlungu ezinesihlungu kwesihlungu izihlungu lezihlungu liyisihlungu yisihlungu
 65	1865	isihebheru	ngesihebheru isihebheru lesihebheru lwesihebheru kwesihebheru nesihebheru wesihebheru
-66	1866	tatazela	tatazela ukutatazela nokutatazela batatazele bayatatazela ungatatazeli sokutatazela asitatazelanga bangatatazeli itatazele ngokutatazela watatazela akatatazeli betatazela ezotatazelela iyatatazela ningatatazeli
-67	1867	suza	usuze usuzwa usuzwile ukusuza sisuze usuzwe engasuzi kusuze ngisuzile suza ungasuza usuza
-68	1868	khonkotha	khonkotha ukukhonkotha ekhonkotha nokukhonkotha kukhonkotha zingakhonkotha zikhonkotha akakhonkothi azikhonkothanga bengakhonkotha esikhonkotha ikhonkotha kokukhonkotha ukhonkotha ziyakhonkotha
-69	1869	ukuzigqaja	ukuzigqaja ngokuzigqaja nokuzigqaja lokuzigqaja ekuzigqajeni ngelokuzigqaja nginokuzigqaja sokuzigqaja wokuzigqaja
-70	1870	indlulamithi	indlulamithi yendlulamithi kwakuyizindlulamithi ndlulamithi nezindlulamithi njengezindlulamithi lezindlulamithi nendlulamithi yizindlulamithi
-71	1871	vunguza	vunguza kwavunguza ovunguzayo ukuvunguza kuvunguza kungavunguzi ovunguza owawuvunguza bokuvunguza esavunguzani evunguza eyokuvunguza uvunguzelaphi wokuvunguza
-72	1872	unxande	unxande kukanxande elingunxande awunxande okukanxande wunxande
-73	1873	lalwa	kulalwe kulalwa elalwa ongalalwanga akulalwa kuyalalwulwa lalwelwa okwakulalwa elalwela elalwisana kungalalwa kuyolalwa kwakulalwa kwalalwa lalwa ukulalwelwa
-74	1874	isigwedlo	isigwedlo izigwedlo nesigwedlo nezigwedlo ngezigwedlo inesigwedlo kwesigwedlo kwezigwedlo yezigwedlo zinezigwedlo
-75	1875	umkhombo	emkhombeni emikhombeni umkhombo
-76	1876	umbane	yombane ombane lemibane njengombane lombane zombane imibane ngemibane umbane embanini kombane sombane
-77	1877	sunduza	sunduza yokusunduza nokusunduzwa emsunduzela nisunduza ukusunduza esunduza izosunduzelwa okusunduzela sisunduzelwe ukusunduzana wamsunduza wasunduzwa wokusunduzela asunduze bayakusunduzwa isunduzwa
-78	1878	vulekile	vulekile evulekileyo elalivulekile asavulekile elivulekileyo iyavulekile ezivulekileyo nangokuvulekile nokuvulekile oluvulekileyo isivulekile esingavulekile asivulekile belivulekile
-79	1879	umzekelo	umzekelo imizekelo kuwumzekelo nemizekelo ngomzekelo
-80	1880	inqina	inqina sisenqineni nqina
-81	1881	qhasha	qhasha eziqhashwayo ziqhashela ziyaqhasha azowuqhashisa baqhashe baqhashwe kuqhashwa kwaqhasha ngaqhasha siqhasha waqhasha waqhashwa yokuqhasha besiqhashwe eziqhashwe lingiqhashe ukuqhashisa ukuqhashwa uqhasha
-82	1882	igwala	amagwala wawuyigwala uyigwala bangamagwala igwala ngegwala abangamagwala iyigwala kungamagwala ligwala magwala ngamagwala olungamagwala segwala yamagwala
-83	1883	iqatha	iqatha amaqatha eqatha neqatha maqatha
-84	1884	isinguni	zesinguni isinguni esingunini lwesinguni ngesinguni besingunini
-85	1885	ihlahla	ngehlahla ihlahla hlahla ehlahla lihlahla namahlahla
-86	1886	isiphuzi	isiphuzi eziphuzi nesiphuzi ziphuzi esiphuzi neziphuzi ngesiphuzi siphuzi
-87	1887	buthuntu	buthuntu ebuthuntu ibuthuntu bebuthuntu esibuthuntu ezibuthuntu obuthuntu
-88	1888	nqikaza	nqikaza unganqikazi ukunqikaza benqikaza asinqikazi nganqikaza ngokunqikaza wawunqikaza anqikaze banqikaze ninqikaza
-89	1889	inyumba	wayeyinyumba uyinyumba kuyinyumba inyumba izinyumba yinyumba ezinyumba
-90	1890	liphuzi	liphuzi eliphuzi okuliphuzi eziliphuzi abeliphuzi ubaliphuzi uliphuzi aliphuzi
-91	1891	igxolo	igxolo amagxolo namagxolo kwamagxolo ngamagxolo kumagxolo kuyigxolo yamagxolo
-92	1892	ukhali	ukhali lingakakhali akakhali kungakakhali nokhali
-93	1893	qatha	qatha eziqatha luqatha eqatha aqatha abaqatha eliqatha isiqatha obuqatha oqatha kuqatha ukuqatha
-94	1894	imbungulu	imbungulu izimbungulu nezimbungulu kwezimbungulu okuyizimbungulu wezimbungulu
-95	1895	uweta	oweta kuweta nguweta uweta enguweta njengoweta noweta
-96	1896	isivimbo	izivimbo isivimbo sivimbo ngesivimbo eziyizivimbo kwesivimbo njengezivimbo yisivimbo
-97	1897	umqhafazo	umqhafazo ngomqhafazo imiqhafazo ngemiqhafazo miqhafazo
-98	1898	ujamu	ujamu kajamu nojamu likajamu ojamu njengojamu
-99	1899	incazo	nencazo incazo ncazo
-100	1900	phapha	phapha ephaphile bayaphapha eliphaphayo ingaphaphi ukuphapha ephaphela ephaphayo iphapha iphaphisise eziphaphayo ngaphapha ungaphaphi uphapha uyaphapha ziphapha ziyaphapha
+66	1866	suza	usuze usuzwa usuzwile ukusuza sisuze usuzwe engasuzi kusuze ngisuzile suza ungasuza usuza
+67	1867	khonkotha	khonkotha ukukhonkotha ekhonkotha nokukhonkotha kukhonkotha zingakhonkotha zikhonkotha akakhonkothi azikhonkothanga bengakhonkotha esikhonkotha ikhonkotha kokukhonkotha ukhonkotha ziyakhonkotha
+68	1868	ukuzigqaja	ukuzigqaja ngokuzigqaja nokuzigqaja lokuzigqaja ekuzigqajeni ngelokuzigqaja nginokuzigqaja sokuzigqaja wokuzigqaja
+69	1869	indlulamithi	indlulamithi yendlulamithi kwakuyizindlulamithi ndlulamithi nezindlulamithi njengezindlulamithi lezindlulamithi nendlulamithi yizindlulamithi
+70	1870	unxande	unxande kukanxande elingunxande awunxande okukanxande wunxande
+71	1871	umkhombo	emkhombeni emikhombeni umkhombo
+72	1872	umbane	yombane ombane lemibane njengombane lombane zombane imibane ngemibane umbane embanini kombane sombane
+73	1873	sunduza	sunduza yokusunduza nokusunduzwa emsunduzela nisunduza ukusunduza esunduza izosunduzelwa okusunduzela sisunduzelwe ukusunduzana wamsunduza wasunduzwa wokusunduzela asunduze bayakusunduzwa isunduzwa
+74	1874	umzekelo	umzekelo imizekelo kuwumzekelo nemizekelo ngomzekelo
+75	1875	inqina	inqina sisenqineni nqina
+76	1876	qhasha	qhasha eziqhashwayo ziqhashela ziyaqhasha azowuqhashisa baqhashe baqhashwe kuqhashwa kwaqhasha ngaqhasha siqhasha waqhasha waqhashwa yokuqhasha besiqhashwe eziqhashwe lingiqhashe ukuqhashisa ukuqhashwa uqhasha
+77	1877	igwala	amagwala wawuyigwala uyigwala bangamagwala igwala ngegwala abangamagwala iyigwala kungamagwala ligwala magwala ngamagwala olungamagwala segwala yamagwala
+78	1878	iqatha	iqatha amaqatha eqatha neqatha maqatha
+79	1879	isinguni	zesinguni isinguni esingunini lwesinguni ngesinguni besingunini
+80	1880	ihlahla	ngehlahla ihlahla hlahla ehlahla lihlahla namahlahla
+81	1881	isiphuzi	isiphuzi eziphuzi nesiphuzi ziphuzi esiphuzi neziphuzi ngesiphuzi siphuzi
+82	1882	buthuntu	buthuntu ebuthuntu ibuthuntu bebuthuntu esibuthuntu ezibuthuntu obuthuntu
+83	1883	liphuzi	liphuzi eliphuzi okuliphuzi eziliphuzi abeliphuzi ubaliphuzi uliphuzi aliphuzi
+84	1884	igxolo	igxolo amagxolo namagxolo kwamagxolo ngamagxolo kumagxolo kuyigxolo yamagxolo
+85	1885	qatha	qatha eziqatha luqatha eqatha aqatha abaqatha eliqatha isiqatha obuqatha oqatha kuqatha ukuqatha
+86	1886	imbungulu	imbungulu izimbungulu nezimbungulu kwezimbungulu okuyizimbungulu wezimbungulu
+87	1887	uweta	oweta kuweta nguweta uweta enguweta njengoweta noweta
+88	1888	isivimbo	izivimbo isivimbo sivimbo ngesivimbo eziyizivimbo kwesivimbo njengezivimbo yisivimbo
+89	1889	umqhafazo	umqhafazo ngomqhafazo imiqhafazo ngemiqhafazo miqhafazo
+90	1890	ujamu	ujamu kajamu nojamu likajamu ojamu njengojamu
+91	1891	incazo	nencazo incazo ncazo
+92	1892	phapha	phapha ephaphile bayaphapha eliphaphayo ingaphaphi ukuphapha ephaphela ephaphayo iphapha iphaphisise eziphaphayo ngaphapha ungaphaphi uphapha uyaphapha ziphapha ziyaphapha
+93	1893	impophoma	impophoma kwezimpophoma lempophoma ngempophoma izimpophoma nezimpophoma empophomeni ezimpophomeni mpophoma kwempophoma
+94	1894	ubuhlanya	ubuhlanya ngobuhlanya kobuhlanya kungubuhlanya bungubuhlanya nobuhlanya obungubuhlanya okobuhlanya
+95	1895	klwebha	klwebha ukuklwebhana nokuklwebhana siziklwebhe baklwebhe eziklwebhekile kuklwebhana ngizokuklwebha ngokuklwebhana nokuklwebheka singaklwebhana wokuklwebha zokuklwebheka beklwebhana eklwebhekile ngokuklwebha siklwebhe ukuklwebheka
+96	1896	uswidi	uswidi noswidi kaswidi
+97	1897	makhaza	makhaza kumakhaza kwakumakhaza ezimakhaza obungemakhaza olumakhaza
+98	1898	umqolo	umqolo imiqolo nomqolo somqolo emqolweni emiqolweni ngumqolo yimiqolo
+99	1899	bhukha	sokubhukha yokubhukha bhukha abhukhile ezizobhukha isibhukhwe kwabhukhwa ngibhukhwe ukubhukhela ukuzibhukhela ababhukha babhukhe
+100	1900	vulekile	vulekile evulekileyo elalivulekile elivulekileyo iyavulekile ezivulekileyo nangokuvulekile nokuvulekile oluvulekileyo isivulekile asavulekile esingavulekile asivulekile belivulekile

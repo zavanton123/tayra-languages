@@ -1,100 +1,100 @@
-1	1701	mi	mi
-2	1702	iduku	iduku ngeduku duku amaduku neduku edukwini namaduku ngamaduku kuduku njengeduku
-3	1703	qhaqhazela	qhaqhazela ukuqhaqhazela eqhaqhazela uqhaqhazela aqhaqhazele ngokuqhaqhazela okwaqhaqhazelisa ziqhaqhazele kokuqhaqhazela baqhaqhazela baqhaqhazele beqhaqhazela eqhaqhazelayo liqhaqhazela lokuqhaqhazela nokuqhaqhazela siqhaqhazela yaqhaqhazela zaqhaqhazela ziqhaqhazela aqhaqhazelisa kuqhaqhazele liyaqhaqhazela ngiqhaqhazele ningaqhaqhazeli ziyaqhaqhazela
-4	1704	isidwaba	isidwaba wesidwaba izidwaba lezidwaba kwezidwaba lesidwaba nesidwaba ngesidwaba zesidwaba
-5	1705	impungushe	izimpungushe impungushe nezimpungushe unezimpungushe sezimpungushe yezimpungushe kwakuyimpungushe lwempungushe nempungushe ngempungushe njengempungushe mpungushe
-6	1706	umgwamanda	umgwamanda imigwamanda nemigwamanda nomgwamanda komgwamanda njengomgwamanda somgwamanda bemigwamanda kumgwamanda kwemigwamanda mgwamanda migwamanda semigwamanda womgwamanda
-7	1707	unyazi	unyazi njengonyazi nyazi nonyazi konyazi onyazi ngonyazi okonyazi wonyazi
-8	1708	khama	khama esikhamweni ezikhamweni ngawakhamela uyakhamelela ngokukhama esikhamelweni ukukhama uyikhame wakhama emkhama ezikhamulayo kukhamela ukumkhama yamkhama yokukhama angawakhama ngazikhamela sikhama ukhame ulikhame ulikhamele uwakhame
-9	1709	isisuthu	isisuthu ngesisuthu nesisuthu lwesisuthu wesisuthu zesisuthu esisuthu lesisuthu yesisuthu
-10	1710	cwecwa	icwecwe eliwucwecwana esicwecwe okuyicwecwe yicwecwe esilucwecwana acwecwe acwecwekile cwecwa ezicwecwayo ezicwecwe kucwecwa ngokucwecwa nokucwecwa ukucwecwa zicwecwe ecwecwe nokubacwecwela sicwecwa
-11	1711	hluba	hluba amhlubula bamhlubula bamhluba bazihlubula behlubula bemhlubula wahlubula wazihluba yayihlubula zamhlubula zihlubule ukuhlubula emhlubulweni ngihlubule nokuzihluba wahluba wamhluba zihlubeke behlube engahlubula lihluba masihlubule nihlubula uhlubulwe uyakuhluba zikuhlubule zokuhluba
-12	1712	imvubu	imvubu ngemvubu nemvubu lemvubu nezimvubu ngezimvubu wemvubu yimvubu izimvubu mvubu
-13	1713	ncokola	ncokola ukuncokola encokola uncokole sincokole sakuncokola kuncokola sincokola abancokola bencokola bezincokolela kuncokolwe kunokuncokola kuzincokolela ngokuncokola sokuncokolisa uyancokola ezongincokolisa ngancokola ngingakuncokola ngiyincokolisa singancokola uzincokolela
-14	1714	ihlumela	ihlumela amahlumela namahlumela bangamahlumela alinahlumela ehlumeleni njengehlumela anamahlumela enamahlumela kwamahlumela nehlumela ngamahlumela
-15	1715	inhlakanipho	inhlakanipho ngenhlakanipho enhlakaniphweni lenhlakanipho benhlakanipho enhlakanipho kwenhlakanipho lwenhlakanipho nenhlakanipho senhlakanipho yinhlakanipho elenhlakanipho nhlakanipho
-16	1716	inkungu	inkungu enkungwini yenkungu izinkungu yinkungu niyinkungu enkungu esinenkungu kunezinkungu njengenkungu
-17	1717	inhlekisa	inhlekisa yinhlekisa kuyinhlekisa lezinhlekisa bayinhlekisa eyinhlekisa kwakuyinhlekisa nenhlekisa ngiyinhlekisa siyinhlekisa uyinhlekisa ibeyinhlekisa izinhlekisa
-18	1718	intshe	intshe izintshe njengezintshe lezintshe entshe nezintshe nentshe wentshe wezintshe entsheni anezintshe nasentsheni
-19	1719	isishona	isishona ngesishona wesishoneni esishoneni besishoneni lesishona abesishoneni lwesishona yisishona lesishoneni zesishoneni nesishona wasesishoneni kwesishona yesishoneni
-20	1720	umzingeli	abazingeli umzingeli kubazingeli nomzingeli ngabazingeli bazingeli kwabazingeli kumzingeli nabazingeli ngumzingeli ongumzingeli sabazingeli womzingeli bangabazingeli labazingeli mzingeli ngingumzingeli yabazingeli
-21	1721	ithwasa	amathwasa ithwasa kwamathwasa yamathwasa namathwasa ngithwasa yokwethwasa nethwasa obethwasa lokwethwasa ezokwethwasa nokwethwasa
-22	1722	shumayeza	shumayeza enishumayeza enganishumayeza sinishumayeza ngokunishumayeza esanishumayeza bushumayeza engishumayeza sanishumayeza sibashumayeze sokunishumayeza wabashumayeza eshumayeza kokushumayeza shumayezwa abashumayeza abashumayezayo bemshumayeza ebashumayezile eyamshumayeza nganishumayeza ukushumayeza uzishumayeze washumayeza
-23	1723	iphasela	amaphasela iphasela ngamaphasela samaphasela wephasela njengephasela ephaseleni kwephasela lwamaphasela kwamaphasela
-24	1724	khanuka	khanuka ukukhanuka amkhanuke ngokukhanuka wakhanukela abakhanukayo ikhanuka njengokukhanuka nokukhanuka ukhanuka wabakhanukela abakhanukelayo ngikhanuka kukukhanuka ekukhanukeni ezikhanuka ngizikhanukela siyikhanuka uyikhanuka yokukhanuka
-25	1725	qinisela	qinisela ukuqinisela lokuqinisela aqinisele baqinisela eqinisela bayaqinisela ekuqiniseleni wayiqinisela beqinisela kuqinisela ngiyaqinisela owaqinisela ozoqinisela wokuqinisela ziqinisele kuqiniselile esiqiniselwe bakuqiniselwa okungaqiniselwa
-26	1726	imbizo	imbizo mbizo embizweni ezimbizweni nasezimbizweni nezimbizo zimbizo kwezimbizo nembizo sezimbizo unezimbizo lwembizo lwezimbizo
-27	1727	unhlaba	kunhlaba ngonhlaba unhlaba yonhlaba kanhlaba nonhlaba onhlaba
-28	1728	phithizela	phithizela ophithizelayo eziphithizela kwakuphithizela kuphithizela siyaphithizela ukuphithizela uyaphithizela eliphithizelayo ephithizela ephithizelayo abaphithizelayo bephithizela ekuphithizeleni iphithizeliswa iyaphithizela kuphithizele liphithizela liphithizelelani waphithizelisa ziphithizela kuyaphithizela liyaphithizela nokuphithizela ophithizela yokuphithizela zaphithizela
-29	1729	impondo	impondo izimpondo lempondo nezimpondo mpondo ezimpondweni empondo kwempondo zinezimpondo ngezimpondo sempondo ezinezimpondo zimpondo ziyizimpondo inezimpondo sinezimpondo abanezimpondo bunezimpondo linezimpondo nasezimpondweni kwezimpondo enezimpondo sezimpondweni yezimpondo zezimpondo sezimpondo ngasezimpondweni elinezimpondo kunezimpondo
-30	1730	khwehlela	khwehlela ukukhwehlela wakhwehlela ukhwehlela ekhwehlela nokukhwehlela abanokukhwehlela akhwehlele ikhwehlela lakhwehlela okhwehlelayo ukhwehlele yokukhwehlela kokukhwehlela ungakhwehlela
-31	1731	vuvuka	vuvuka ukuvuvuka nokuvuvuka elivuvukile ezivuvukile ivuvukile zivuvuke zivuvukile evuvukele belivuvuke buvuvukele esivuvukele kunokuvuvuka lokuvuvuka sokuvuvuka zivuvukele ziyavuvuka avuvukele iyavuvuka
-32	1732	ixhegu	ixhegu xhegu nexhegu kwexhegu lamaxhegu amaxhegu lixhegu exhegwini maxhegu ngamaxhegu
-33	1733	umsuthu	abesuthu nabesuthu ngabesuthu singabesuthu umsuthu yabesuthu bangabesuthu bengabesuthu kubesuthu kwelabesuthu sabesuthu somsuthu ungumsuthu wabesuthu yomsuthu zabesuthu
-34	1734	hlohla	ukuhlohla uzihlohle hlohla ababahlohla abahlohle abamhlohla bahlohla bayamhlohla bekuhlohle ehlohla ehlohlela ehlohlwa esihlohlwe ihlohle ihlohlwa nokuhlohla okuhlohla sihlohle uhlohle yahlohla abahlohlwe bakuhlohle basihlohla bekuhlohla kuyahlohla ngokuluhlohla uhlohla ukuhlohleka wahlohla wahlohlwa wokuhlohlwa zizobahlohla
-35	1735	ubuvila	ubuvila yobuvila nobuvila sobuvila ngobuvila buvila enobuvila unobuvila
-36	1736	hlikihla	bezihlikihla behlikihla ehlikihla wahlikihla elihlikihla ezihlikihla awuhlikihlwanga emhlikihla eyihlikihla hlikihla ihlikihle nokuhlikihlwa wamhlikihla balihlikihle elihlikihliwe engihlikihla izihlikihle omhlikihla uhlikihla ukuhlikihlwa uyahlikihla zayihlikihla
-37	1737	umpheki	umpheki abapheki ngumpheki nabapheki kubapheki labapheki njengompheki kumpheki elinabapheki engumpheki ingumpheki ongumpheki wabapheki
-38	1738	idada	idada amadada wedada ledada
-39	1739	uhlanya	okohlanya uhlanya njengezinhlanya lohlanya izinhlanya nohlanya ngiwuhlanya kohlanya okwezinhlanya yohlanya
-40	1740	jikela	jikela ukujikela ajikele ujikela bamjikele abajikela alijikela kokujikela simjikele siyazijikela zijikele ejikela ikujikele siwajikele ujikele zimjikela ujikelele jikelela bajikelane okujikelele iyajikelwa
-41	1741	intwala	intwala ntwala nezintwala izintwala esentwala njengentwala lentwala yezintwala zintwala
-42	1742	jabhisa	jabhisa kuyajabhisa ujabhise wajabhisa nijabhise niyalijabhisa wasijabhisa bajabhiswe ejabhisa ekujabhisile ingijabhisile liyajabhisa nokujabhisa okuzosijabhisa ungangijabhisi ziyamjabhisa bajabhiswa ajabhise kumjabhisile kungijabhisile kuyamjabhisa kuyangijabhisa lijabhise lumjabhisile sijabhise ubajabhisile zizojabhisa ajabhiswa bajabhisiwe bayakujabhiswa ejabhiswe wajabhiswa bajabhisane iyakujabhiswa
+1	1701	xokozela	xokozela ukuxokozela nokuxokozela ziyaxokozela njengokuxokozela wokuxokozela esixokozelayo nangokuxokozela ngokuxokozela oxokozelayo lokuxokozela abaxokozela kuxokozela kuxokozele kuyaxokozela ningaxokozeli zixokozela baxokozele
+2	1702	ukuntshontsha	ukuntshontsha ngokuntshontsha nokuntshontsha okuntshontsha ekuntshontsheni kokuntshontsha yokuntshontsha lokuntshontsha nangokuntshontsha sokuntshontsha
+3	1703	cwecwa	icwecwe eliwucwecwana esicwecwe okuyicwecwe yicwecwe esilucwecwana acwecwe acwecwekile babecwecwa cwecwa ezicwecwayo ezicwecwe kucwecwa ngokucwecwa nokucwecwa ukucwecwa zicwecwe ecwecwe nokubacwecwela sicwecwa
+4	1704	ithwasa	amathwasa ithwasa kwamathwasa yamathwasa kwethwasa namathwasa ngithwasa yokwethwasa lethwasa nethwasa obethwasa lokwethwasa ezokwethwasa nokwethwasa
+5	1705	mi	mi
+6	1706	iduku	iduku ngeduku duku amaduku neduku edukwini namaduku ngamaduku kuduku njengeduku
+7	1707	isidwaba	isidwaba wesidwaba izidwaba lezidwaba kwezidwaba lesidwaba nesidwaba ngesidwaba zesidwaba
+8	1708	impungushe	izimpungushe impungushe nezimpungushe unezimpungushe sezimpungushe yezimpungushe kwakuyimpungushe lwempungushe nempungushe ngempungushe njengempungushe mpungushe
+9	1709	umgwamanda	umgwamanda imigwamanda nemigwamanda nomgwamanda komgwamanda njengomgwamanda somgwamanda bemigwamanda kumgwamanda kwemigwamanda mgwamanda migwamanda semigwamanda womgwamanda
+10	1710	unyazi	unyazi njengonyazi nyazi nonyazi konyazi onyazi ngonyazi okonyazi wonyazi
+11	1711	chelela	ukuchelela ekucheleleni lokuchelela nokuchelela ukuchelelwa sichelelwe achelele achelelwayo chelela kuchelela njengokuchelela okokuchelela uchelele ukuchelelela zichelelwa zichelelwe zokuchelela asichelelwa kuchelelwa uyachelelwa
+12	1712	hlohla	ukuhlohla uzihlohle hlohla ababahlohla abahlohle abamhlohla bahlohla bayamhlohla bekuhlohle ehlohla ehlohlela ehlohlwa esihlohlwe ihlohle ihlohlwa nokuhlohla okuhlohla sasihlohliwe sihlohle ubehlohlwa uhlohle yahlohla abahlohlwe bakuhlohle basihlohla bekuhlohla esasihlohliwe kuyahlohla ngokuluhlohla uhlohla ukuhlohleka wahlohla wahlohlwa wokuhlohlwa zizobahlohla
+13	1713	isisuthu	isisuthu ngesisuthu nesisuthu lwesisuthu wesisuthu zesisuthu esisuthu lesisuthu yesisuthu
+14	1714	umpheki	umpheki abapheki ngumpheki nabapheki ayenompheki kubapheki labapheki njengompheki kumpheki elinabapheki engumpheki ingumpheki ongumpheki wabapheki
+15	1715	ikhiwane	amakhiwane namakhiwane samakhiwane lalinamakhiwane ngamakhiwane ikhiwane njengamakhiwane enamakhiwane eyamakhiwane makhiwane
+16	1716	imvubu	imvubu ngemvubu nemvubu lemvubu nezimvubu ngezimvubu wemvubu yimvubu izimvubu mvubu
+17	1717	vuvuka	vuvuka ukuvuvuka nokuvuvuka elivuvukile ezivuvukile ivuvukile zivuvuke zivuvukile evuvukele ubevuvukele belivuvuke buvuvukele esivuvukele kunokuvuvuka lokuvuvuka sokuvuvuka zivuvukele ziyavuvuka avuvukele iyavuvuka
+18	1718	shumayeza	shumayeza enishumayeza enganishumayeza sinishumayeza ngokunishumayeza esanishumayeza bushumayeza engishumayeza sanishumayeza sibashumayeze sokunishumayeza wabashumayeza eshumayeza kokushumayeza shumayezwa abashumayeza abashumayezayo ayebashumayeza bemshumayeza ebashumayezile eyamshumayeza nganishumayeza ukushumayeza uzishumayeze washumayeza
+19	1719	khanuka	khanuka ukukhanuka amkhanuke ngokukhanuka wakhanukela abakhanukayo ikhanuka njengokukhanuka nokukhanuka ukhanuka wabakhanukela abakhanukelayo ngikhanuka kukukhanuka ekukhanukeni ezikhanuka ngangikukhanuka ngizikhanukela siyikhanuka uyikhanuka yokukhanuka
+20	1720	ihlumela	ihlumela amahlumela namahlumela bangamahlumela alinahlumela ehlumeleni njengehlumela anamahlumela enamahlumela kwamahlumela nehlumela ngamahlumela
+21	1721	inhlakanipho	inhlakanipho ngenhlakanipho enhlakaniphweni lenhlakanipho benhlakanipho enhlakanipho kwenhlakanipho lwenhlakanipho nenhlakanipho senhlakanipho yinhlakanipho elenhlakanipho nhlakanipho
+22	1722	inkungu	inkungu enkungwini yenkungu izinkungu yinkungu niyinkungu enkungu esinenkungu kunezinkungu njengenkungu
+23	1723	inhlekisa	inhlekisa yinhlekisa kuyinhlekisa lezinhlekisa bayinhlekisa eyinhlekisa kwakuyinhlekisa nenhlekisa ngiyinhlekisa siyinhlekisa uyinhlekisa ibeyinhlekisa izinhlekisa
+24	1724	intshe	intshe izintshe njengezintshe lezintshe entshe nezintshe nentshe wentshe wezintshe entsheni anezintshe nasentsheni
+25	1725	isishona	isishona ngesishona wesishoneni esishoneni besishoneni lesishona abesishoneni lwesishona yisishona lesishoneni zesishoneni nesishona wasesishoneni kwesishona yesishoneni
+26	1726	umzingeli	abazingeli umzingeli kubazingeli nomzingeli ngabazingeli bazingeli kwabazingeli kumzingeli nabazingeli ngumzingeli ongumzingeli sabazingeli womzingeli bangabazingeli labazingeli mzingeli ngingumzingeli yabazingeli
+27	1727	phithizela	phithizela ophithizelayo eziphithizela kwakuphithizela kuphithizela siyaphithizela ukuphithizela uyaphithizela eliphithizelayo ephithizela ephithizelayo abaphithizelayo bephithizela ekuphithizeleni iphithizeliswa iyaphithizela kuphithizele liphithizela liphithizelelani waphithizelisa ziphithizela basaphithizela kuyaphithizela liyaphithizela nokuphithizela ophithizela yokuphithizela zaphithizela
+28	1728	iphasela	amaphasela iphasela ngamaphasela samaphasela wephasela njengephasela ephaseleni kwephasela lwamaphasela kwamaphasela
+29	1729	hluba	hluba amhlubula bamhlubula bamhluba bazihlubula behlubula bemhlubula wahlubula wazihluba yayihlubula zamhlubula zihlubule ukuhlubula ngihlubule nokuzihluba wahluba wamhluba zihlubeke behlube engahlubula lihluba masihlubule nihlubula uhlubulwe uyakuhluba zikuhlubule zokuhluba
+30	1730	khwehlela	khwehlela ukukhwehlela wakhwehlela ukhwehlela ekhwehlela nokukhwehlela abanokukhwehlela akhwehlele ikhwehlela lakhwehlela okhwehlelayo ukhwehlele yokukhwehlela kokukhwehlela ungakhwehlela wayekhwehlela
+31	1731	imbizo	imbizo mbizo embizweni ezimbizweni nasezimbizweni nezimbizo zimbizo kwezimbizo nembizo sezimbizo unezimbizo lwembizo lwezimbizo
+32	1732	unhlaba	kunhlaba ngonhlaba unhlaba yonhlaba kanhlaba nonhlaba onhlaba
+33	1733	qabuka	qabuka kuyaqabukela kuqabukela ayeqabukela enganiqabuka kuqabukeka esiziqabukayo kuqabuke kuqabukele kuyaqabukeka akuqabukela aqabukile ekuqabukela okwakuqabukela sokuqabukela usamqabuka uyakuqabuka
+34	1734	impondo	impondo izimpondo lempondo nezimpondo mpondo ezimpondweni empondo kwempondo zinezimpondo ngezimpondo sempondo ezinezimpondo zimpondo ziyizimpondo inezimpondo sinezimpondo abanezimpondo bunezimpondo linezimpondo nasezimpondweni kwezimpondo enezimpondo sezimpondweni yezimpondo zezimpondo sezimpondo ngasezimpondweni elinezimpondo kunezimpondo
+35	1735	ixhegu	ixhegu xhegu nexhegu kwexhegu lamaxhegu amaxhegu lixhegu exhegwini maxhegu ngamaxhegu
+36	1736	umsuthu	abesuthu nabesuthu ngabesuthu singabesuthu umsuthu yabesuthu bangabesuthu bengabesuthu kubesuthu kwelabesuthu sabesuthu somsuthu ungumsuthu wabesuthu yomsuthu zabesuthu
+37	1737	ubuvila	ubuvila yobuvila nobuvila sobuvila ngobuvila buvila enobuvila unobuvila
+38	1738	hlikihla	bezihlikihla behlikihla ehlikihla wahlikihla elihlikihla ezihlikihla awuhlikihlwanga emhlikihla eyihlikihla hlikihla ihlikihle nokuhlikihlwa wamhlikihla balihlikihle elihlikihliwe engihlikihla izihlikihle omhlikihla uhlikihla ukuhlikihlwa uyahlikihla zayihlikihla
+39	1739	idada	idada amadada wedada ledada
+40	1740	uhlanya	okohlanya uhlanya njengezinhlanya lohlanya izinhlanya nohlanya ngiwuhlanya kohlanya okwezinhlanya yohlanya
+41	1741	phahla	phahla uphahlwe ephahlwe ezimphahla sasimphahlile umphahla ungiphahla amphahlayo bemphahlile elimphahlayo eziphahle imphahla luphahlake mphahla nakuphahla sasiphahlele zimphahla ziphahlwa zisiphahla eliphahlwe eziphahliwe kuyamphahla liphahlwe nokusiphahleka ubephahlwe
+42	1742	intwala	intwala ntwala nezintwala izintwala esentwala njengentwala lentwala yezintwala zintwala
 43	1743	unxantathu	engunxantathu unxantathu elingunxantathu kanxantathu nxantathu ezingunxantathu eliwunxantathu okukanxantathu ngonxantathu engonxantathu njengonxantathu olungunxantathu ongunxantathu onxantathu uwunxantathu
 44	1744	inkosana	inkosana benkosana namakhosana yinkosana amakhosana yamakhosana elenkosana eyinkosana iyinkosana kwakuyinkosana kwenkosana nenkosana ngenkosana wenkosana
-45	1745	ikhiwane	amakhiwane namakhiwane samakhiwane ngamakhiwane ikhiwane njengamakhiwane enamakhiwane eyamakhiwane makhiwane
-46	1746	ikhilogremu	ikhilogremu amakhilogremu kwamakhilogremu esingamakhilogremu ongamakhilogremu angamakhilogremu engamakhilogremu kumakhilogremu lamakhilogremu ngamakhilogremu ngekhilogremu samakhilogremu singamakhilogremu yamakhilogremu
-47	1747	uve	uve love awuve above ove elove oveni selove
-48	1748	inyanya	inyanya izinyanya ngenyanya owenyanya wenyanya zinyanya enyanyeni kuzinyanya benyanya ezinyanyeni nezinyanya wokwenyanya abenyanya besenyanya engenyanya kwezinyanya nokwenyanya yezinyanya
-49	1749	ibhotela	ibhotela nebhotela ngebhotela ebhotela njengebhotela zebhotela webhotela yibhotela bhotela lebhotela
-50	1750	uncwaba	kuncwaba ngoncwaba kancwaba uncwaba noncwaba
-51	1751	gwedla	ukugwedla nokugwedla abagwedli ekugwedleni eligwedla yokugwedla okugwedla gwedla igwedle agwedlwayo ezigwedlwayo ongagwedla wagwedla ezigwedleni igwedla
-52	1752	chelela	ukuchelela ekucheleleni lokuchelela nokuchelela ukuchelelwa achelele chelela kuchelela njengokuchelela okokuchelela uchelele zokuchelela sichelelwe achelelwayo ukuchelelela zichelelwa zichelelwe asichelelwa kuchelelwa uyachelelwa
-53	1753	dibana	asidibaneni idibene idibana edibana kudibana sidibane ukudibana edibeneyo ngadibana ngidibane abangadibana badibane ngokudibene dibana elidibanayo engidibana ezidibeneyo izodibana kudibene okudibene singadibani sizodibana wadibana zidibene
-54	1754	utamatisi	utamatisi notamatisi likatamatisi otamatisi
-55	1755	inkosazana	inkosazana lwenkosazana namakhosazana nkosazana nenkosazana amakhosazana emakhosazaneni lwamakhosazana makhosazana senkosazana wenkosazana yenkosazana
-56	1756	impumulo	empumulweni impumulo kwempumulo ngempumulo mpumulo nempumulo yempumulo alunampumulo lwempumulo nangempumulo nezimpumulo olusempumulweni lempumulo
-57	1757	umese	mese umese nomese omese angomese ngawomese ngomese
+45	1745	ikhilogremu	ikhilogremu amakhilogremu kwamakhilogremu esingamakhilogremu ongamakhilogremu angamakhilogremu engamakhilogremu kumakhilogremu lamakhilogremu ngamakhilogremu ngekhilogremu samakhilogremu singamakhilogremu yamakhilogremu
+46	1746	uve	uve love awuve above ove elove oveni selove
+47	1747	inyanya	inyanya izinyanya ngenyanya owenyanya wenyanya zinyanya enyanyeni kuzinyanya benyanya ezinyanyeni nezinyanya wokwenyanya abenyanya besenyanya engenyanya kwezinyanya nokwenyanya yezinyanya
+48	1748	ibhotela	ibhotela nebhotela ngebhotela ebhotela njengebhotela zebhotela webhotela yibhotela bhotela lebhotela
+49	1749	uncwaba	kuncwaba ngoncwaba kancwaba uncwaba noncwaba
+50	1750	ibomvu	ebomvu ibomvu ngebomvu nebomvu lamabomvu yamabomvu ayesebomvu libomvu namabomvu lalibomvu ayebomvu ubebomvu
+51	1751	umqala	emqaleni umqala imiqala ngomqala nomqala zazinemiqala emiqaleni isemqaleni nasemqaleni ngasemqaleni yomqala
+52	1752	dibana	asidibaneni idibene idibana edibana kudibana sidibane ukudibana edibeneyo ngadibana ngidibane abangadibana badibane ngokudibene dibana elidibanayo engidibana ezidibeneyo izodibana kudibene okudibene singadibani sizodibana wadibana zidibene
+53	1753	utamatisi	utamatisi notamatisi likatamatisi otamatisi
+54	1754	inkosazana	inkosazana lwenkosazana namakhosazana nkosazana nenkosazana amakhosazana emakhosazaneni lwamakhosazana makhosazana senkosazana wenkosazana yenkosazana
+55	1755	impumulo	empumulweni impumulo kwempumulo ngempumulo mpumulo nempumulo yempumulo alunampumulo lwempumulo nangempumulo nezimpumulo olusempumulweni lempumulo
+56	1756	umese	mese umese nomese omese angomese ngawomese ngomese
+57	1757	inhlelo	nhlelo inhlelo izinhlelo ngenhlelo lenhlelo nangenhlelo nezinhlelo nenhlelo ezinhlelweni kwenhlelo kwezinhlelo ngezinhlelo zinhlelo wezinhlelo yezinhlelo zezinhlelo lezinhlelo yizinhlelo lwezinhlelo sezinhlelo kunezinhlelo nasezinhlelweni ezinhlelo bezinhlelo njengezinhlelo enezinhlelo anezinhlelo sinezinhlelo unezinhlelo inezinhlelo basezinhlelweni nangezinhlelo esinezinhlelo kuyizinhlelo ziyizinhlelo abezinhlelo zinezinhlelo ngokwezinhlelo banezinhlelo elinezinhlelo ayenezinhlelo abanezinhlelo kwakunezinhlelo nabezinhlelo nginezinhlelo nolwezinhlelo yayinezinhlelo ayizinhlelo bekunezinhlelo besinezinhlelo linezinhlelo sezinhlelweni
 58	1758	isihlakaniphi	isihlakaniphi izihlakaniphi nezihlakaniphi ezihlakaniphi zihlakaniphi kwezihlakaniphi ngiyisihlakaniphi abayizihlakaniphi lezihlakaniphi sihlakaniphi
-59	1759	inhlelo	nhlelo inhlelo izinhlelo ngenhlelo lenhlelo nangenhlelo nezinhlelo nenhlelo ezinhlelweni kwenhlelo kwezinhlelo ngezinhlelo zinhlelo wezinhlelo yezinhlelo zezinhlelo lezinhlelo yizinhlelo lwezinhlelo sezinhlelo kunezinhlelo nasezinhlelweni ezinhlelo bezinhlelo njengezinhlelo enezinhlelo anezinhlelo sinezinhlelo unezinhlelo inezinhlelo basezinhlelweni nangezinhlelo esinezinhlelo kuyizinhlelo ziyizinhlelo abezinhlelo zinezinhlelo ngokwezinhlelo banezinhlelo elinezinhlelo abanezinhlelo nabezinhlelo nginezinhlelo nolwezinhlelo ayizinhlelo linezinhlelo sezinhlelweni
+59	1759	gwedla	ukugwedla nokugwedla abagwedli ekugwedleni eligwedla yokugwedla okugwedla gwedla igwedle agwedlwayo ezigwedlwayo ongagwedla wagwedla igwedla
 60	1760	ivila	ivila yevila kumavila oyivila abangamavila bangamavila ngamavila sevila amavila wevila nevila wayeyivila evila iyivila kuvila namavila vila
 61	1761	umasingana	umasingana kumasingana ngomasingana kamasingana kukamasingana nomasingana
-62	1762	umqala	emqaleni umqala imiqala ngomqala nomqala emiqaleni isemqaleni nasemqaleni ngasemqaleni yomqala
+62	1762	inqe	amanqe abenqeni emanqeni liyinqe ngawamanqe ningenqeni abangenqeni asingenqeni ayenqeni kwamanqe namanqe njengenqe yinqe asemanqeni inqe
 63	1763	ulwezi	ngolwezi kulwezi kalwezi lwezi nolwezi ulwezi wulwezi
 64	1764	bheca	bheca alibhece ulibhece ubhecwa walibheca balibhece nibhece ubabheca abhece ayobhecwa babhecwa bambheca ebhecwa ibhece lizobhecwa ngokubheca ukubhecwa ibhecwe lokumbheca yibhece zibheca
 65	1765	ubungcono	ubungcono nobungcono kobungcono nangobungcono olobungcono obungcono bungcono
-66	1766	igeza	egeza igeza uyigeza ngigeza babegeza esegeza wegeza babeyigeza ligeza
-67	1767	qabuka	qabuka kuyaqabukela kuqabukela enganiqabuka kuqabukeka esiziqabukayo kuqabuke kuqabukele kuyaqabukeka akuqabukela aqabukile ekuqabukela okwakuqabukela sokuqabukela uyakuqabuka
-68	1768	ugazi	ugazi nogazi onogazi enogazi ngogazi ogazini unogazi abanogazi ogazi
-69	1769	phahla	phahla uphahlwe ephahlwe ezimphahla umphahla ungiphahla amphahlayo bemphahlile elimphahlayo eziphahle imphahla luphahlake mphahla nakuphahla ophahlweni zimphahla ziphahlwa zisiphahla eliphahlwe eziphahliwe kuyamphahla liphahlwe nokusiphahleka
-70	1770	isikhova	isikhova izikhova wezikhova njengezikhova esikhova njengesikhova okwesikhova yisikhova yizikhova lwesikhova sikhova wesikhova zikhova
-71	1771	intshebe	intshebe ngentshebe ezinentshebe sentshebe nentshebe bunentshebe enezintshebe kwakuyintshebe kwezintshebe lezintshebe ntshebe unentshebe anentshebe enentshebe
-72	1772	ukuphoxeka	ukuphoxeka kokuphoxeka nokuphoxeka yokuphoxeka nasekuphoxekeni sokuphoxeka ekuphoxekeni nangokuphoxeka wokuphoxeka
-73	1773	isithando	nesithando kwesithando isithando wesithando esithandweni njengesithando yesithando bezithando izithando kunesithando nasesithandweni
-74	1774	inqe	amanqe abenqeni emanqeni liyinqe ngawamanqe ningenqeni abangenqeni asingenqeni kwamanqe namanqe njengenqe yinqe asemanqeni inqe
-75	1775	chukuluza	chukuluza ukuchukuluza awuchukuluze bachukuluze emchukuluza kuchukuluzwa ngokumchukuluza ukuchukuluzwa ngokuchukuluzwa achukuluzwe echukuluza kokuchukuluzwa lingachukuluzwanga ochukuluza ochukuluzwayo okuchukuluza ukuchukuluzana zokuchukuluzwa bachukuluza eyachukuluza nokusichukuluza yokuchukuluza zisichukuluze
-76	1776	xegisa	xegisa ukuxegisa ukuxegiselwa ngokuxegisa nokuxegisa ixegise ukuxegiswa axegiselwe angaxegisela baxegiselwa ekuxegiselweni kuxegiselwa kuxegiswe akaxegise exegisa nangokuxegisa sokuxegisela sokuxegiselwa ukuxegisela yaxegisa yokuxegiselwa sixegiswe azoxegiswa ixegisiwe kuzoxegiswa luzoxegiswa
-77	1777	ubhasikidi	obhasikidi ubhasikidi kubhasikidi nobhasikidi ebhasikidini kobhasikidi kukabhasikidi kwakuwubhasikidi ngobhasikidi
-78	1778	imayela	amamayela imayela ngamamayela mayela elingamamayela engamamayela wemayela enamamayela okunamamayela semayela
-79	1779	umphako	umphako mphako nomphako somphako ngumphako bomphako emphakweni komphako lomphako imiphako yomphako
-80	1780	inyathi	inyathi enyathi zenyathi izinyathi njengolwenyathi nenyathi yinyathi zezinyathi benyathi nyathi wezinyathi yenyathi
-81	1781	eduka	bedukisa bedukiswa edukisayo eduka beduka edukela edukisa edukile esedukile ukwedukiswa useduke usedukelwe yedukise ngeduka ngokubedukisa nizokweduka ubedukisa usedukisa uyamedukisa uyedukisa wedukise
-82	1782	chela	chela ichelwa kuchelwe ichelwe ngokuchela uchelwa awuchele azochela ichela luchela okuchela ukuchela uyochelwa yokuchela ukuchelelwa achelwa bazozichela echela ezochela kuchelwa sichela ukuchelwa wachela yichele zichelwa sichelelwe achelelwayo ukuchelelela zichelelwa zichelelwe asichelelwa kuchelelwa uyachelelwa
-83	1783	ambatha	ambatha elambatha basambatheka belambatha ngilambatha esambathweni kwambatha wasambatheka bambathiswe besambathekile bangambathi ezambathweni ilambatha nambatha silambatha ulambatha abambathiswayo ambathe ongambathiswanga wangambathiswa zambathiswa
-84	1784	iplanethi	iplanethi neplanethi kweplanethi lweplanethi ngeplanethi njengeplanethi planethi amaplanethi kwamaplanethi yamaplanethi zamaplanethi beplanethi
-85	1785	ixhaphozi	exhaphozini amaxhaphozi ezingamaxhaphozi emaxhaphozini ixhaphozi enamaxhaphozi exhaphozi eyixhaphozi kunamaxhaphozi lexhaphozi lwasexhaphozini nasemaxhaphozini ngexhaphozi namaxhaphozi xhaphozi
-86	1786	swelakala	swelakala ukuswelakala yokuswelakala ngokuswelakala okuswelakalayo nokuswelakala kuzoswelakala akuswelakali iswelakale kuswelakale liswelakale ngaswelakala
-87	1787	iresiphi	iresiphi leresiphi neresiphi eresiphi resiphi
-88	1788	inzulu	enzulu ezinzulu ezinzulwini nzulu inzulu nasezinzulwini izinzulu
-89	1789	ibomvu	ebomvu ibomvu ngebomvu nebomvu lamabomvu yamabomvu libomvu namabomvu
-90	1790	isidakwa	izidakwa isidakwa njengesidakwa kunezidakwa kwakuyizidakwa kwezidakwa sesidakwa oyisidakwa yesidakwa ngesidakwa ngiyisidakwa uyisidakwa yizidakwa
-91	1791	igqwetha	amagqwetha igqwetha yigqwetha ligqwetha gqwetha
-92	1792	imbazo	ngembazo izimbazo imbazo njengezimbazo ngezimbazo nembazo mbazo nangembazo nezimbazo yembazo
-93	1793	fulela	fulela ukufulela ifulelwe bokufulela ezifulelwe ifulelwa wayifulela wokufulela zifulelwe abafulelwe awufulelwe efulelwe okufulela ezingafuleliwe lifulele liyafulelwa ngokufulela
-94	1794	ufudu	ufudu izimfudu fudu kofudu babeyizimfudu ngezimfudu zimfudu nezimfudu njengofudu ofudu wufudu
-95	1795	phucuza	phucuza iphucuziwe ophucuziwe ophucuzekile ephucuzekile eliphucuzekile siyakuphucuzwa awuphucuzekile eziphucuzekile niphucuze ukungaphucuzeki zokuphucuzeka esiphucuziwe isiphucuzekile isiphucuziwe liphucuzeke liphucuzekile ukuphucuzwa
-96	1796	gulisa	gulisa ligulisa ukugulisa esasigulisa ngiyakugulisa zazigulisa awubagulisi ayisigulisi buyabagulisa esikugulisayo ezigulisa ezimgulisayo ezingamgulisa kumgulise kungakugulisa kusigulisa kuzokugulisa kwamgulisa ongagulisa zingagulisa bayamgulisa esimgulisela kuyagulisa lamgulisa abaguliswa eguliswa baguliswa uguliswa oguliswa eziguliswa ekugulisweni iguliswa siguliswa uguliswe ukuguliswa ngiguliswa
-97	1797	khamisa	wakhamisa ukhamisile bangikhamisela khamisa nikhamisela okhamisa ukukhamisa zikukhamisela zisikhamisele ekhamise ekhamisile ezikhamisela ngakhamisa njengokukhamisela ukhamise likhamisile
-98	1798	isambulela	isambulela lesambulela izambulela sambulela yezambulela nesambulela wesambulela kusambulela nezambulela okwesambulela
-99	1799	ufishi	ufishi ofishi njengofishi nofishi kafishi lukafishi kofishi sofishi ungufishi wofishi zofishi lofishi
-100	1800	uhhavini	kuhhavini uhhavini anohhavini nohhavini
+66	1766	ugazi	ugazi nogazi onogazi enogazi ngogazi ogazini unogazi abanogazi ogazi
+67	1767	isikhova	isikhova izikhova wezikhova njengezikhova esikhova njengesikhova okwesikhova yisikhova yizikhova lwesikhova sikhova wesikhova zikhova
+68	1768	intshebe	intshebe ngentshebe ezinentshebe sentshebe nentshebe bunentshebe enezintshebe kwakuyintshebe kwezintshebe lezintshebe ntshebe unentshebe anentshebe enentshebe
+69	1769	ukuphoxeka	ukuphoxeka kokuphoxeka nokuphoxeka yokuphoxeka nasekuphoxekeni sokuphoxeka ekuphoxekeni nangokuphoxeka wokuphoxeka
+70	1770	isithando	nesithando kwesithando isithando wesithando esithandweni njengesithando yesithando bezithando izithando kunesithando nasesithandweni
+71	1771	chukuluza	chukuluza ukuchukuluza awuchukuluze bachukuluze emchukuluza kuchukuluzwa ngokumchukuluza ukuchukuluzwa ngokuchukuluzwa achukuluzwe echukuluza kokuchukuluzwa lingachukuluzwanga ochukuluza ochukuluzwayo okuchukuluza ukuchukuluzana zokuchukuluzwa bachukuluza eyachukuluza nokusichukuluza yokuchukuluza zisichukuluze
+72	1772	ubhasikidi	obhasikidi ubhasikidi kubhasikidi nobhasikidi ebhasikidini kobhasikidi kukabhasikidi kwakuwubhasikidi ngobhasikidi
+73	1773	imayela	amamayela imayela ngamamayela mayela elingamamayela engamamayela wemayela enamamayela okunamamayela semayela
+74	1774	umphako	umphako mphako nomphako somphako ngumphako bomphako emphakweni komphako lomphako imiphako yomphako
+75	1775	inyathi	inyathi enyathi zenyathi izinyathi njengolwenyathi nenyathi yinyathi zezinyathi benyathi nyathi wezinyathi yenyathi
+76	1776	eduka	bedukisa bedukiswa edukisayo eduka beduka edukela edukisa edukile esedukile ukwedukiswa useduke usedukelwe yedukise ngeduka ngokubedukisa nizokweduka ubedukisa usedukisa uyamedukisa uyedukisa wedukise
+77	1777	iplanethi	iplanethi neplanethi kweplanethi lweplanethi ngeplanethi njengeplanethi planethi amaplanethi kwamaplanethi yamaplanethi zamaplanethi beplanethi
+78	1778	ixhaphozi	exhaphozini amaxhaphozi ezingamaxhaphozi emaxhaphozini ixhaphozi enamaxhaphozi exhaphozi eyixhaphozi kunamaxhaphozi lexhaphozi lwasexhaphozini nasemaxhaphozini ngexhaphozi namaxhaphozi xhaphozi
+79	1779	swelakala	swelakala ukuswelakala yokuswelakala ngokuswelakala okuswelakalayo nokuswelakala kuzoswelakala akuswelakali iswelakale kuswelakale liswelakale ngaswelakala
+80	1780	iresiphi	iresiphi leresiphi neresiphi eresiphi resiphi
+81	1781	inzulu	enzulu ezinzulu ezinzulwini nzulu inzulu nasezinzulwini izinzulu
+82	1782	qomisa	qomisa ukuqomisana sokuqomisana nokuqomisa ukuqomisa lokuqomisana yokuqomisana ngisaqomisa amqomise aqomise baqomisane ngimqomisa ngiqomise uyiqomise zokuqomisana
+83	1783	isidakwa	izidakwa isidakwa njengesidakwa kunezidakwa kwakuyizidakwa kwezidakwa sesidakwa oyisidakwa yesidakwa ngesidakwa ngiyisidakwa uyisidakwa yizidakwa
+84	1784	umshumayeli	umshumayeli abashumayeli njengomshumayeli lalinabashumayeli kukamshumayeli wayengumshumayeli nabashumayeli bashumayeli ngabashumayeli nomshumayeli sabashumayeli
+85	1785	igqwetha	amagqwetha igqwetha yigqwetha ligqwetha gqwetha
+86	1786	imbazo	ngembazo izimbazo imbazo njengezimbazo ngezimbazo nembazo mbazo nangembazo nezimbazo yembazo
+87	1787	qhwakela	qhwakela iqhwakele eqhwakele aqhwakele ukuqhwakela yaqhwakela ziqhwakele isaqhwakele kuqhwakele ngangiqhwakele oqhwakela uqhwakela beqhwakele eliqhwakele esaqhwakele liqhwakele
+88	1788	fulela	fulela ukufulela ifulelwe bokufulela ezifulelwe ifulelwa wayifulela wokufulela zifulelwe abafulelwe awufulelwe efulelwe okufulela ezingafuleliwe lifulele liyafulelwa ngokufulela
+89	1789	ufudu	ufudu izimfudu fudu kofudu babeyizimfudu ngezimfudu zimfudu nezimfudu njengofudu ofudu wufudu
+90	1790	phucuza	phucuza iphucuziwe ophucuziwe ophucuzekile ephucuzekile eliphucuzekile siyakuphucuzwa awuphucuzekile eziphucuzekile niphucuze ukungaphucuzeki zokuphucuzeka esiphucuziwe isiphucuzekile isiphucuziwe liphucuzeke liphucuzekile ukuphucuzwa
+91	1791	indishi	indishi izindishi endishini nendishi kwezindishi ayesendishini kwakunezindishi olusendishini yendishi ngendishi
+92	1792	khamisa	wakhamisa ukhamisile bangikhamisela khamisa nikhamisela okhamisa ukukhamisa zikukhamisela zisikhamisele ekhamise ekhamisile ezikhamisela ngakhamisa njengokukhamisela ukhamise likhamisile
+93	1793	isambulela	isambulela lesambulela izambulela sambulela yezambulela nesambulela wesambulela kusambulela nezambulela okwesambulela
+94	1794	ufishi	ufishi ofishi njengofishi nofishi kafishi lukafishi kofishi sofishi ungufishi wofishi zofishi lofishi
+95	1795	uhhavini	kuhhavini uhhavini anohhavini nohhavini
+96	1796	bhenywa	bhenywa abhenyiwe awabhenywa ibhenywe kuyabhenywa libhenywe zibhenywa obhenywa okungabhenywa ukubhenywa alibhenywa angibhenywa nokubhenywa ubhenywe okubhenywayo wokubhenywa
+97	1797	igqubu	amagqubu namagqubu igqubu gqubu wamagqubu ninamagqubu unamagqubu akanagqubu ngowamagqubu ungowamagqubu kunamagqubu magqubu onamagqubu sinamagqubu
+98	1798	isentimitha	isentimitha amasentimitha ngamasentimitha engamasentimitha bamasentimitha ingamasentimitha sentimitha elingamasentimitha ezingamasentimitha lisentimitha
+99	1799	nyala	ukulinyalelwa ulinyalelwe abalinyalelwe elinyalelwe enyele kulinyalelwa ilinyalelwe kokulinyalelwa lokulinyalelwa nokulinyalelwa olinyalelwe unyele wanyalula amnyala balinyalelwe eyalinyalelwa ngalinyalelwa ngokulinyalelwa nyala silinyalelwe singalinyalelwa
+100	1800	isilevu	isilevu nesilevu izilevu esilevini yezilevu kwesilevu ngesilevu nasesilevini olwesilevu
