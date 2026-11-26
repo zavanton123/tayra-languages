@@ -44,6 +44,8 @@ import com.idiomiko.core.ui.theme.IdiomikoTheme
 import kotlinx.coroutines.runBlocking
 import java.io.File
 import javax.imageio.ImageIO
+import androidx.compose.ui.test.getBoundsInRoot
+import androidx.compose.ui.unit.dp
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
@@ -182,19 +184,24 @@ class VocabularyLevelPromptTest {
         screenshot("desktop-medium")
     }
 
+    /** A phone asks on the whole screen, the levels one under another and the buttons at its foot. */
     @Test
-    fun aPhoneGetsABottomSheetWithTheCards() = runDesktopComposeUiTest(width = 360, height = 800) {
+    fun aPhoneGetsTheWholeScreenWithTheCards() = runDesktopComposeUiTest(width = 360, height = 800) {
         show()
         awaitCards()
         onNodeWithText("How much Portuguese do you know?").assertExists()
+        val screen = onNodeWithTag("vocabulary-level-prompt").getBoundsInRoot()
+        assertEquals(360.dp, screen.right - screen.left)
+        assertEquals(800.dp, screen.bottom - screen.top)
+        assertTrue(800.dp - onNodeWithText("Continue with Starter").getBoundsInRoot().bottom < 40.dp, "the buttons sit at the screen's foot")
         assertEquals(0, onAllNodesWithText("You can change this later", substring = true).fetchSemanticsNodes().size, "no line under the question")
         for (card in levelCards) onNodeWithTag("level-card-$card").assertExists()
         onNodeWithTag("level-card-A2").performClick()
         awaitText("Continue with A2")
         onNodeWithText("We'll mark the 1,000 most common words as known.", substring = true).assertExists()
-        screenshot("phone-sheet")
+        screenshot("phone-screen")
         onNodeWithTag("chosen-level").performScrollTo()
-        screenshot("phone-sheet-end")
+        screenshot("phone-screen-end")
         onNodeWithText("Continue with A2").performClick()
         waitUntil(timeoutMillis = UI_WAIT_MILLIS) { closed == 1 }
         assertEquals(1000, viewModel.state.value.level)
@@ -209,7 +216,7 @@ class VocabularyLevelPromptTest {
     private fun ComposeUiTest.screenshot(name: String) {
         System.getenv("LEVEL_PROMPT_SCREENSHOTS")?.let { folder ->
             waitForIdle()
-            ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(folder, "$name.png"))
+            ImageIO.write(onAllNodes(isRoot()).fetchSemanticsNodes().indices.last().let { onAllNodes(isRoot())[it] }.captureToImage().toAwtImage(), "png", File(folder, "$name.png"))
         }
     }
 }

@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
@@ -26,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.frequency.LevelEdge
 import com.idiomiko.core.domain.frequency.LevelEdges
-import com.idiomiko.core.ui.components.AppBottomSheet
+import com.idiomiko.core.ui.components.AppScreenDialog
 import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.AppDivider
 import com.idiomiko.core.ui.components.AppIconButton
@@ -75,7 +76,7 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
     val later = { viewModel.forgetPick(); onClosed() }
     // On a phone the prompt is a bottom sheet; elsewhere a floating dialog.
     if (LocalWindowWidth.current.isCompact) {
-        PhonePromptSheet(ready, state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
+        PhonePromptScreen(ready, state, onPick = viewModel::pick, onSave = viewModel::save, onLater = later)
         return
     }
     AppDialogSurface(onDismissRequest = {}, modifier = Modifier.testTag("vocabulary-level-prompt"), maxWidth = DIALOG_WIDTH, dismissible = false) {
@@ -87,31 +88,32 @@ fun VocabularyLevelPrompt(languageId: Long?, onClosed: () -> Unit, viewModel: Vo
     }
 }
 
-/** The prompt on a phone: the question, the levels one under another, and the buttons; swiping it away puts the question off, like Skip for now. */
+/** The prompt on a phone, on the whole screen: the question, the levels one under another, and the buttons at the foot; Back puts the question off, like Skip for now. */
 @Composable
-private fun PhonePromptSheet(ready: Boolean, state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
+private fun PhonePromptScreen(ready: Boolean, state: VocabularySettingsUiState, onPick: (Int) -> Unit, onSave: () -> Unit, onLater: () -> Unit) {
     val colors = MaterialTheme.colorScheme
-    AppBottomSheet(onDismissRequest = onLater, modifier = Modifier.testTag("vocabulary-level-prompt")) {
-        if (!ready) {
-            Box(Modifier.fillMaxWidth().heightIn(min = LOADING_HEIGHT), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
-            return@AppBottomSheet
-        }
-        val chosen = LevelEdges.reached(state.edges, state.shownLevel)
-        // The question scrolls on a short screen, so the buttons below it keep their size.
-        ScrollColumn(Modifier.weight(1f, fill = false), contentModifier = Modifier.padding(horizontal = AppSpacing.xl)) {
-            // The close button shares the title's row, so the sheet starts with the question.
-            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-                Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), Modifier.weight(1f), style = AppText.headline)
-                AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving, style = IconButtonStyle.Tonal, tint = colors.onSurface)
+    AppScreenDialog(onDismissRequest = onLater) {
+        Column(Modifier.fillMaxSize().testTag("vocabulary-level-prompt")) {
+            if (!ready) {
+                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { AppSpinner(size = SpinnerSize.Large) }
+                return@Column
             }
-            Spacer(Modifier.height(AppSpacing.xl))
-            LevelPicker(state.edges, chosen, onPick, compact = true)
-            Spacer(Modifier.height(AppSpacing.l))
-            ChosenLevelStrip(chosen)
-            Spacer(Modifier.height(AppSpacing.l))
+            val chosen = LevelEdges.reached(state.edges, state.shownLevel)
+            // The question scrolls on a short screen; the buttons stay at the screen's foot.
+            ScrollColumn(Modifier.weight(1f), contentModifier = Modifier.padding(horizontal = AppSpacing.xl).padding(top = AppSpacing.l)) {
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
+                    Text(tr("How much {0} do you know?", languageInSentence(state.languageName, LanguageCase.NOMINATIVE)), Modifier.weight(1f), style = AppText.headline)
+                    AppIconButton(Icons.Default.Close, tr("Close"), onLater, enabled = !state.saving, style = IconButtonStyle.Tonal, tint = colors.onSurface)
+                }
+                Spacer(Modifier.height(AppSpacing.xl))
+                LevelPicker(state.edges, chosen, onPick, compact = true)
+                Spacer(Modifier.height(AppSpacing.l))
+                ChosenLevelStrip(chosen)
+                Spacer(Modifier.height(AppSpacing.l))
+            }
+            AppDivider()
+            PromptButtons(state, chosen, onSave, onLater, Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), compact = true)
         }
-        AppDivider()
-        PromptButtons(state, chosen, onSave, onLater, Modifier.padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), compact = true)
     }
 }
 
