@@ -275,7 +275,7 @@ fun ReadingText(
                 val shown = practice && !hidden
                 val reveal = { shown: Boolean -> onRevealed(no, shown) }
                 val sentence: @Composable () -> Unit = {
-                    Hideable(hidden, theme, onRevealed = reveal) { ParagraphText(
+                    Hideable(practice, hidden, theme, onRevealed = reveal) { ParagraphText(
                         items = runItems,
                         // A sentence on its own line starts at its first word, not at the space that follows the previous one.
                         trimLeadingSpace = perSentence,
@@ -373,10 +373,11 @@ private fun SideBySide(gutter: Dp, modifier: Modifier, text: @Composable () -> U
  * A sentence being practised: blurred until shown. On a wide window the mouse shows it while over it
  * and hides it on leaving, and a tap on the blur shows it; on a phone a tap shows it and another hides
  * it, so a shown sentence takes the taps rather than its words. Where blurring does not draw, the
- * text is made invisible over a soft bar instead.
+ * text is made invisible over a soft bar instead. A sentence not [practised] is only its words, which take the taps.
  */
 @Composable
-private fun Hideable(hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> Unit, content: @Composable () -> Unit) {
+private fun Hideable(practised: Boolean, hidden: Boolean, theme: AppTheme, onRevealed: (Boolean) -> Unit, content: @Composable () -> Unit) {
+    if (!practised) return content()
     val compact = LocalWindowWidth.current.isCompact
     val interaction = remember { MutableInteractionSource() }
     val hovered by interaction.collectIsHoveredAsState()

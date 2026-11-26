@@ -553,6 +553,32 @@ class ReadingHoverTest {
         rule.onNodeWithTag("lesson-vocabulary-dialog").assertExists()
     }
 
+    /** On a phone, a tap on a word of a lesson's text, its sentences each on a line, opens the word's sheet. */
+    @Test
+    fun aPhoneLessonsWordOpensItsSheet() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList, termPane) }
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        val paragraph = rule.onNodeWithText("lobo dorme", substring = true)
+        val layouts = mutableListOf<TextLayoutResult>()
+        paragraph.fetchSemanticsNode().config[SemanticsActions.GetTextLayoutResult].action?.invoke(layouts)
+        val text = layouts.single().layoutInput.text.text
+        fun at(word: String) = layouts.single().getBoundingBox(text.indexOf(word) + 1).center + Offset(0f, 6.dp.value * rule.density.density)
+        paragraph.performTouchInput { click(at("lobo")) }
+        rule.waitUntil(5_000) { vm.state.value.panel != ReadingPanel.None }
+        System.getenv("LESSON_TAP_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        assertEquals(setOf(vm.index("lobo")), vm.state.value.marked)
+    }
+
     /**
      * Escape on a lesson keeps it open: with no word chosen it does nothing, and it never reaches
      * the window, which would take an Escape left to it as "back".
