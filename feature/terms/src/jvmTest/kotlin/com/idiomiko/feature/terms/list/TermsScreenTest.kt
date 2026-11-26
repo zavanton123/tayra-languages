@@ -213,7 +213,7 @@ class TermsScreenTest {
         // The four learning statuses read as one filter, and the line says how many terms that leaves.
         onNodeWithContentDescription("1 filter on").assertExists()
         onNodeWithText("Learning 1–4 · 3 terms").assertExists()
-        onAllNodesWithText("Show all words")[0].performClick()
+        onAllNodesWithText("Clear filters")[0].performClick()
         // With nothing ticked, the known terms show too; ignored terms stay out until asked for.
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
         onNodeWithText("Filters").performClick()
@@ -235,7 +235,7 @@ class TermsScreenTest {
         onNodeWithTag("status-filter-I").performClick()
         waitForList("pensar", "lá", hidden = listOf("gostar"))
 
-        onAllNodesWithText("Show all words")[0].performClick()
+        onAllNodesWithText("Clear filters")[0].performClick()
         waitForList("gostar", "comprar", "pensar", hidden = listOf("lá"))
         assertEquals(0, onAllNodesWithText("Added: up to 30 days ago").fetchSemanticsNodes().size)
         assertEquals(0, onAllNodesWithContentDescription("filters on", substring = true).fetchSemanticsNodes().size)
@@ -266,7 +266,7 @@ class TermsScreenTest {
         // gostar (known), comprar (learning 1) and pensar (learning 3) are on the page; produtos is not.
         show(termIds = listOf(1L, 2L, 5L))
         waitForList("comprar", "pensar", hidden = listOf("gostar", "produtos"))
-        onAllNodesWithText("Show all words")[0].performClick()
+        onAllNodesWithText("Clear filters")[0].performClick()
         waitForList("gostar", "comprar", "pensar", hidden = listOf("produtos"))
     }
 

@@ -457,7 +457,7 @@ internal fun StatusBadge(status: TermStatus) {
  */
 @Composable
 internal fun ActiveFilters(state: TermsListUiState, viewModel: TermsListViewModel, onEdit: () -> Unit) {
-    ActiveFilterSummary(filterSummary(state), tr("Show all words"), onClear = viewModel::clearFilters, modifier = Modifier.padding(bottom = AppSpacing.l), onEdit = onEdit)
+    ActiveFilterSummary(filterSummary(state), tr("Clear filters"), onClear = viewModel::clearFilters, modifier = Modifier.padding(bottom = AppSpacing.l), onEdit = onEdit)
 }
 
 /** The filters on, in words: the statuses shown, then when the terms were added, then how many terms that leaves. */

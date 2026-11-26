@@ -75,7 +75,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "{1} terms" to "{1} termo|{1} termos",
     "{0} of {1} selected" to "{0} de {1} selecionados",
     "Filters" to "Filtros",
-    "Show all words" to "Mostrar todas as palavras",
     "Learning 1–4" to "Aprendendo 1–4",
     "{0} filters on" to "{0} filtro ativo|{0} filtros ativos",
     "Search terms or translations" to "Buscar termos ou traduções",
