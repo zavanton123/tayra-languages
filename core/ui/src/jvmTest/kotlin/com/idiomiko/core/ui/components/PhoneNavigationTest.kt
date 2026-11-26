@@ -149,9 +149,21 @@ class PhoneNavigationTest {
         }
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Statistics").fetchSemanticsNodes().isNotEmpty() }
         assertEquals(0, onAllNodesWithTag("more-Videos").fetchSemanticsNodes().size)
-        // Tests run from the sources, which count as a debug build.
         onNodeWithTag("more-Experiments").assertExists()
         videos = true
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Videos").fetchSemanticsNodes().isNotEmpty() }
+    }
+
+    /** A release build hides the Experiments page, and the More sheet leaves it out as the wide sidebar does. */
+    @Test
+    fun theMoreSheetLeavesOutHiddenPages() = runDesktopComposeUiTest(width = 400, height = 900) {
+        setContent {
+            MaterialTheme {
+                CompositionLocalProvider(LocalHiddenSettingsSections provides setOf(SettingsSection.EXPERIMENTS)) { MoreSheet(onNavigate = {}, onDismiss = {}) }
+            }
+        }
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("more-Statistics").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("more-About").assertExists()
+        assertEquals(0, onAllNodesWithTag("more-Experiments").fetchSemanticsNodes().size)
     }
 }

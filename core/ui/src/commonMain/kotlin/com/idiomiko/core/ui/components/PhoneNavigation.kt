@@ -146,9 +146,10 @@ private class MoreGroup(val title: String, val entries: List<MoreEntry>)
 /**
  * The More sheet's destinations, in groups: the videos when they are on, the words and how they go,
  * what is downloaded for use offline, and the settings pages the wide window's sidebar lists, less
- * the hotkeys and the updates a phone has no use for, with About. The account is the bar's avatar.
+ * the hotkeys and the updates a phone has no use for, with About; pages the app hides are left out. The account is
+ * the bar's avatar.
  */
-private fun moreGroups(videos: Boolean) = listOfNotNull(
+private fun moreGroups(videos: Boolean, hidden: List<Route>) = listOfNotNull(
     // What there is to read is under Read, the playlists have a tab.
     MoreGroup("Watch", listOf(MoreEntry("Videos", AppIcons.Movie, Route.Videos))).takeIf { videos },
     MoreGroup(
@@ -180,7 +181,7 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
             MoreEntry("Clear data", AppIcons.MoreClearData, Route.ClearData),
             MoreEntry("About", AppIcons.MoreAbout, Route.About),
             MoreEntry("Experiments", AppIcons.MoreExperiments, Route.ExperimentalFeatures),
-        ),
+        ).filter { it.route !in hidden },
     ),
 )
 
@@ -189,6 +190,7 @@ private fun moreGroups(videos: Boolean) = listOfNotNull(
 fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val language = LocalLearningLanguage.current?.currentName
+    val hidden = LocalHiddenSettingsSections.current.map { it.route }
     AppBottomSheet(onDismissRequest = onDismiss, modifier = Modifier.testTag("more-sheet")) {
         // The rows run to the sheet's edges, so a pressed one is lit across its width; the rest keeps the margins.
         ScrollColumn(Modifier.fillMaxWidth(), contentModifier = Modifier.padding(bottom = AppSpacing.l)) {
@@ -196,7 +198,7 @@ fun MoreSheet(onNavigate: (Route) -> Unit, onDismiss: () -> Unit) {
                 Text(tr("More"), Modifier.weight(1f), style = AppText.headline)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onDismiss)
             }
-            moreGroups(LocalVideosEnabled.current).forEach { group ->
+            moreGroups(LocalVideosEnabled.current, hidden).forEach { group ->
                 Text(
                     tr(group.title).uppercase(),
                     Modifier.padding(start = AppSpacing.xl, end = AppSpacing.xl, top = AppSpacing.l, bottom = AppSpacing.xs),

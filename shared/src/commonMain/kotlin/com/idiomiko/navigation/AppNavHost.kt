@@ -75,6 +75,7 @@ import com.idiomiko.core.ui.components.LocalWebPictures
 import com.idiomiko.core.domain.web.WebPictures
 import com.idiomiko.core.ui.components.PullToSync
 import com.idiomiko.core.ui.components.SyncEntry
+import com.idiomiko.core.ui.isDebugBuild
 import androidx.compose.foundation.layout.fillMaxSize
 import org.koin.compose.viewmodel.koinViewModel
 import com.idiomiko.feature.reading.readingGraph
@@ -112,9 +113,11 @@ fun AppNavHost(openHome: Int = 0) {
             }
         }
     }
-    // Only the desktop app updates itself; elsewhere the sidebar leaves the page out.
+    // Only the desktop app updates itself, and only debug builds offer the experiments; elsewhere the pages are left out.
     val koin = getKoin()
-    val hiddenSections = remember(koin) { if (koin.getOrNull<AppUpdateService>() == null) setOf(SettingsSection.UPDATES) else emptySet() }
+    val hiddenSections = remember(koin) {
+        setOfNotNull(SettingsSection.UPDATES.takeIf { koin.getOrNull<AppUpdateService>() == null }, SettingsSection.EXPERIMENTS.takeUnless { isDebugBuild })
+    }
     // Phones get the main areas as a bottom bar, except while reading, practising or reviewing flashcards; wider screens have them in the top bar.
     val entry by navController.currentBackStackEntryAsState()
     val destination = entry?.destination
@@ -207,7 +210,9 @@ fun AppNavHost(openHome: Int = 0) {
     }
     PlaybackProblemDialog(onDownloadVoice = { assets.ensure(it, anyNetwork = true) })
     PlaybackNotificationsPermission()
-    if (more) MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
+    if (more) CompositionLocalProvider(LocalHiddenSettingsSections provides hiddenSections) {
+        MoreSheet(onNavigate = { more = false; navController.navigate(it) }, onDismiss = { more = false })
+    }
     SyncPrompt(syncPrompt, onOpenAccount = { navController.navigate(Route.Account) { launchSingleTop = true } })
     TranslationBackupNotice(onBackups = { navController.navigate(Route.Backups) { launchSingleTop = true } })
     LanguageRemovedNotice()
