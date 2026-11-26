@@ -9,9 +9,9 @@ text word is therefore read here as consonants and vowels (syllables), its affix
 
 A text word is credited to the words of the am-en pack (dictionaries/am-en.sqlite: the English Wiktionary's Amharic entries
 and the Amharic words of its translation tables) and AMHARIC_WORDS it is a form of: itself when it is one, else a form the
-pack or AMHARIC_FORMS lists, else a word with its prepositions and endings taken off (Lexicon.nominal), else a verb whose stem
-is left when the verb's markers are taken off (Lexicon.verbal: each verb's stems are made from its perfective's pattern,
-verb_stems). Spellings that sound alike count as one (ሀ ሐ ኀ, ሰ ሠ, አ ዐ, ጸ ፀ, ሀ ሃ, አ ኣ), as Amharic writes them either way;
+pack (its own, not those it took from this list) or AMHARIC_FORMS lists, else a word with its prepositions and endings taken
+off (Lexicon.nominal), else a verb whose stem is left when the verb's markers are taken off (Lexicon.verbal: each verb's
+stems are made from its perfective's pattern, verb_stems). Spellings that sound alike count as one (ሀ ሐ ኀ, ሰ ሠ, አ ዐ, ጸ ፀ, ሀ ሃ, አ ኣ), as Amharic writes them either way;
 the list writes a word as the pack does, in the spelling the texts use most. A word of the lexicon keeps its own count; a form
 of several words is shared by how common each is by the forms of no other.
 
@@ -478,7 +478,8 @@ class Lexicon:
             self.kinds[key].add(kind)
             self.spellings[key].add(word)
         self.forms = defaultdict(set)
-        for form, lemma in db.execute("SELECT form_lc, lemma FROM forms"):
+        # The pack's own forms only: those it took from this list (generated) would feed the list's own misreadings back.
+        for form, lemma in db.execute("SELECT form_lc, lemma FROM forms WHERE generated = 0"):
             if not is_amharic(form) or not is_amharic(lemma):
                 continue
             key, head = sounds(form), sounds(lemma)
