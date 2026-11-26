@@ -1,100 +1,100 @@
-1	2001	khaba	umkhaba ikhaba khaba ukhaba iyawakhaba lokukhaba wakhaba
-2	2002	inyumba	uyinyumba kuyinyumba inyumba izinyumba yinyumba ezinyumba
-3	2003	umgede	umgede emigedeni emgedeni nemigede imigede emigede yemigede
-4	2004	khwezela	ukukhwezela uwukhwezele khwezela nokukhwezela siyamkhwezela kukhwezela kukhwezelwe lukhwezelwa ngokukhwezela sikhwezela ukhwezele
-5	2005	umkhomo	somkhomo njengemikhomo njengomkhomo imikhomo ngingumkhomo umkhomo
-6	2006	incingo	izincingo incingo ezincingweni yezincingo nezincingo ngencingo
-7	2007	ubumhlophe	lobumhlophe nangobumhlophe nobumhlophe ubumhlophe kunobumhlophe ngobumhlophe obumhlophe
-8	2008	intshontsho	amantshontsho intshontsho namantshontsho
-9	2009	umuvi	umuvi nemivini kwemivini emivini eyemivini emuveni
-10	2010	inhlaba	inhlaba nenhlaba enhlabeni senhlaba wenhlaba enhlaba
-11	2011	ixhiba	ixhiba exhibeni azinaxhiba njengexhiba yasemaxhibeni kwexhiba amaxhiba
-12	2012	injula	injula lenjula senjula
-13	2013	ngiyaphila	ngiyaphila
-14	2014	igobongo	esinegobongo yayiyigobongo amagobongo igobongo liyigobongo gobongo segobongo
-15	2015	ilisho	selisho ngilisho malisho nelisho ilisho
-16	2016	fowunela	fowunela ngikufowunele ngizokufowunela angifowunele ngafowunela ngakufowunela ngifowunele ukukufowunela uyangifowunela uzokufowunela
-17	2017	impangele	impangele mpangele nempangele neyempangele sempangele wayenempangele
-18	2018	umkhwekazi	umkhwekazi esingabakhwekazi kumkhwekazi mkhwekazi ngomkhwekazi
-19	2019	xhosha	xhosha lixhoshwa angaxhosha ningaxhoshwa bengixhoshwe ezingaxhoshiwe ngisaxhoshwe
-20	2020	finyela	finyela afinyele zifinyela sifinyele ngokufinyelekayo okufinyelekayo okungafinyeleki ukufinyeleka belufinyelwe ukufinyela
-21	2021	gxiviza	gxiviza egxiviza egxiviziwe bayogxiviza begxiviza egxivizwe eligxiviziwe esigxivizwe ukugxiviza esigxiviziwe kugxivizwa
-22	2022	umboko	umboko mboko nginomboko unomboko imiboko ngumboko
-23	2023	intethe	izintethe intethe kwakuzintethe kwezintethe njengezintethe nezintethe okwentethe
-24	2024	isitshwana	isitshwana isitswana nesitswana nangesitswana
-25	2025	isivenda	isivenda lwesivenda
-26	2026	isiqinti	isiqinti yiziqinti iziqinti nesiqinti esiqintini eziqintini
-27	2027	intaka	intaka ezintakeni entaka njengentaka
-28	2028	loluya	loluya ngaloluya kuloluya
-29	2029	imilimitha	ngamamilimitha amamilimitha wamamilimitha imilimitha angamamilimitha engamamilimitha
-30	2030	imvukazi	izimvukazi wezimvukazi imvukazi
-31	2031	silo	silo
-32	2032	inhlahla	inhlahla izinhlahla ngenhlahla nginenhlahla nenhlahla ezinhlahleni kuyinhlahla sinenhlahla
-33	2033	izinhloni	izinhloni nezinhloni onezinhloni okunezinhloni zinezinhloni zinhloni
-34	2034	ikhabe	ikhabe amakhabe namakhabe njengekhabe yekhabe
-35	2035	isigcino	isigcino kuyisigcino nesigcino nezigcino yisigcino
-36	2036	sombuluka	ngokusombuluka ezisombulukayo busombuluka bengasombulukile lisombuluka ozosombuluka ukusombuluka sombuluka
-37	2037	isibunu	isibunu ezibunu izibunu ngezibunu lesibunu lezibunu ngesibunu njengezibunu okwesibunu wesibunu
-38	2038	iqaqa	iqaqa emaqaqeni lemaqaqeni amaqaqa eqaqeni neqaqa
-39	2039	sawubona	sawubona
-40	2040	imfologo	imfologo imfoloko ngemfoloko okwemfologo izimfologo ngemfologo
-41	2041	lowaya	lowaya kulowaya
-42	2042	ibhithi	sebhithi ibhithi kwebhithi
-43	2043	indingilizi	kwendingilizi okwendingilizi indingilizi sendingilizi wendingilizi eziyindingilizi
-44	2044	qhaqha	ukuqhaqha ekuqhaqheni bazoqhaqha eqhaqha liqhaqhekile lokuqhaqha qhaqha sokuqhaqha uqhaqha
-45	2045	uhlolovo	izinhlolovo zezinhlolovo uhlolovo yohlolovo
-46	2046	ambathisa	ambathisa bambathiswe abambathiswayo lawambathisa wazambathisa azambathise nimambathise ongambathiswanga ungambathisi wabambathisa wangambathiswa yokwambathisa zambathiswa
-47	2047	uhleko	uhleko ngohleko nohleko
-48	2048	ifosholo	ifosholo ngamafosholo namafosholo ngefosholo lamafosholo amafosholo
-49	2049	enzakalisa	enzakalisa enzakaliswe ukwenzakaliswa akwenzakalisile ezenzakaliswe ukubenzakalisa eyenzakalisayo lokwenzakalisa ukwenzakalisa yenzakaliswe
-50	2050	injobo	injobo njobo iyinjobo lenjobo
-51	2051	imbambe	wayesembambe imbambe ayesembambe embambe ngimbambe
-52	2052	imvana	imvana mvana njengemvana lemvana uyimvana
-53	2053	iphango	iphango ngesephango ubelephango nephango wephango
-54	2054	ugadi	ugadi bogadi ngugadi kagadi egadeni egadini gadi
-55	2055	cambalala	cambalala ecambalele ngokucambalala bacambalala ngisayocambalala nokuzicambalalela ucambalale wacambalala ayacambalala
-56	2056	qaqamba	iyaqaqamba aziqaqambile kuqaqamba yaqaqamba ziqaqamba qaqamba
-57	2057	uphepha	ophepha nophepha uphepha bezophepha ophepheni
-58	2058	bayede	bayede
-59	2059	qhutha	qhutha okuqhuthelwa bazoqhuthana izoqhuthana kuqhuthwe siqhuthane ziyaqhuthana iqhuthele kuqhuthisa siqhuthwa ukuqhuthelwa
-60	2060	mhloshana	emhloshana ezimhloshana amhloshana mhloshana okumhloshana olumhloshana
-61	2061	mdaka	mdaka umdaka elimdaka emdaka amdaka bamdaka ngumdaka omdaka
-62	2062	ububhibhi	amabhibhi ububhibhi kwamabhibhi mabhibhi wobubhibhi yamabhibhi
-63	2063	isixubho	isixubho izixubho nezixubho
-64	2064	umgwebi	umgwebi abagwebi ngabagwebi kubagwebi yabagwebi kwabagwebi
-65	2065	ukuqeqesheka	ukuqeqesheka nokuqeqesheka
-66	2066	igeza	igeza uyigeza babegeza esegeza wegeza
-67	2067	ubuthutha	ubuthutha ebuthutheni ngubuthutha bobuthutha ezinobuthutha ngobuthutha njengebuthutheni nobuthutha
-68	2068	isabizwana	isabizwana izabizwana nezabizwana
-69	2069	iqili	amaqili iqili uyiqili kweqili oyiqili qili
-70	2070	ntweza	ntweza entweza lintweza ngokuntweza nokuntweza santweza ukuntweza babentweza bentweza lokuntweza nokuzintwezela
-71	2071	isigcobo	isigcobo nezigcobo izigcobo ezigcobo bezigcobo
-72	2072	gqula	gqula ugqula yazigqula agquliwe zokugqula azigqule beligqula emgqula ugqulwe yokuyigqula
-73	2073	inkinsela	inkinsela izinkinsela nenkinsela esezinkinsela wenkinsela
-74	2074	isigwaca	izigwaca isigwaca
-75	2075	musani	musani
-76	2076	khumuka	khumuka singakhumuki akhumuka angakhumuka kwakhumuka zingakhumuki ayakhumuka ezokhumuka ngikhumuke siyakukhumuka
-77	2077	qhina	qhina abaqhinekile ngiqhine oqhinwe ukuqhineka zokuqhineka awaliqhini lokuqhina luqhinwe oqhine ukuqhina
-78	2078	iyadi	iyadi amayadi lwamayadi eyadini nasemayadini kumayadi
-79	2079	isitsonga	isitsonga nesitsonga esitsonga wesitsonga
-80	2080	isitumbuka	lwesitumbuka zesitumbuka isitumbuka ngesitumbuka
-81	2081	duva	duva saduva ayaduva baduve eziduve abaduve bebeduve liduvele ziduve
-82	2082	umqali	umqali lomqali abaqali kumqali nabaqali
-83	2083	fowuna	fowuna ngifowunile ufowune efowuna ngifowuna ngifowune ufowuna
-84	2084	isiqopha	isiqopha sinesiqopha
-85	2085	chathaza	chathaza lokuchathazwa bechathazelana nginichathazele ngokuchathazelana uchathazele ukuchathazela abasichathazele asichathazele
-86	2086	silima	silima
-87	2087	isiphawulo	iziphawulo sineziphawulo zeziphawulo isiphawulo ngesiphawulo
-88	2088	ungwaqa	ungwaqa ongwaqa engwaqeni ngungwaqa ngongwaqa
-89	2089	lotha	lotha ukulothisa buyalotha ulotha ulothe zokulothisa akalothise kulothiswe kuzolothiswa walothiswa olothile
-90	2090	eshwama	eshwama wokweshwama akweshwamayo bayayishwama izokweshwama lokweshwama ngiyakweshwama ngiyayeshwama singayeshwami useshwama
-91	2091	ubasi	ubasi nobasi lobasi obasi abangobasi njengobasi
-92	2092	umlambo	umlambo emlanjeni imilambo mlambo njengemilambo
-93	2093	insundu	abensundu bezingensundu insundu nensundu elabensundu labensundu zabensundu ensundu ezinsundu zinsundu ubensundu
-94	2094	isibomvu	ezibomvu isibomvu nezibomvu sesibomvu besibomvu lwesibomvu ngesibomvu sezibomvu zibomvu esibomvu sibomvu zazibomvu
-95	2095	umtata	emtateni umtata emitateni lomtata omtata
-96	2096	hlokoloza	hlokoloza lokuhlokoloza ngokuhlokoloza ukuhlokoloza ukumhlokoloza uyihlokoloza bahlokoloza basihlokoloze bengikuhlokoloza uyihlokoloze
-97	2097	isigcibisholo	yisigcibisholo isigcibisholo
-98	2098	ikatshana	ikatshana amakatshana ekatshaneni
-99	2099	umdweshu	imidweshu umdweshu emdweshini ngemidweshu
-100	2100	simemo	simemo
+1	2001	khwezela	ukukhwezela uwukhwezele khwezela nokukhwezela siyamkhwezela kukhwezela kukhwezelwe lukhwezelwa ngokukhwezela sikhwezela ukhwezele
+2	2002	umkhomo	somkhomo njengemikhomo njengomkhomo imikhomo ngingumkhomo umkhomo
+3	2003	incingo	izincingo incingo ezincingweni yezincingo nezincingo ngencingo
+4	2004	ubumhlophe	lobumhlophe nangobumhlophe nobumhlophe ubumhlophe kunobumhlophe ngobumhlophe obumhlophe
+5	2005	intshontsho	amantshontsho intshontsho namantshontsho
+6	2006	inhlaba	inhlaba nenhlaba enhlabeni senhlaba wenhlaba enhlaba
+7	2007	ixhiba	ixhiba exhibeni azinaxhiba njengexhiba yasemaxhibeni kwexhiba amaxhiba
+8	2008	injula	injula lenjula senjula
+9	2009	ngiyaphila	ngiyaphila
+10	2010	umuvi	umuvi nemivini kwemivini emivini eyemivini
+11	2011	khumuka	khumuka singakhumuki selikhumukile akhumuka angakhumuka kwakhumuka sezikhumukile zingakhumuki ayakhumuka ezokhumuka ngikhumuke sengakhumuka siyakukhumuka
+12	2012	igobongo	esinegobongo yayiyigobongo amagobongo igobongo liyigobongo gobongo segobongo
+13	2013	ilisho	selisho ngilisho malisho nelisho ilisho
+14	2014	fowunela	fowunela ngikufowunele ngizokufowunela angifowunele ngafowunela ngakufowunela ngifowunele ukukufowunela uyangifowunela uzokufowunela
+15	2015	impangele	impangele mpangele nempangele neyempangele sempangele wayenempangele
+16	2016	umkhwekazi	umkhwekazi esingabakhwekazi kumkhwekazi mkhwekazi ngomkhwekazi
+17	2017	xhosha	xhosha lixhoshwa angaxhosha ningaxhoshwa bengixhoshwe ezingaxhoshiwe ngisaxhoshwe
+18	2018	finyela	finyela afinyele zifinyela sifinyele ngokufinyelekayo okufinyelekayo okungafinyeleki ukufinyeleka belufinyelwe ukufinyela
+19	2019	umboko	umboko mboko nginomboko unomboko imiboko ngumboko
+20	2020	isihlamba	isihlamba yisihlamba esihlanjeni esihlambeni
+21	2021	intethe	izintethe intethe kwakuzintethe kwezintethe njengezintethe nezintethe okwentethe
+22	2022	isitshwana	isitshwana isitswana nesitswana nangesitswana
+23	2023	isivenda	isivenda lwesivenda
+24	2024	isiqinti	isiqinti yiziqinti iziqinti nesiqinti esiqintini eziqintini
+25	2025	intaka	intaka ezintakeni entaka njengentaka
+26	2026	loluya	loluya ngaloluya kuloluya
+27	2027	imilimitha	ngamamilimitha amamilimitha wamamilimitha imilimitha angamamilimitha engamamilimitha
+28	2028	imvukazi	izimvukazi wezimvukazi imvukazi
+29	2029	silo	silo
+30	2030	inhlahla	inhlahla izinhlahla ngenhlahla nginenhlahla nenhlahla ezinhlahleni kuyinhlahla sinenhlahla
+31	2031	izinhloni	izinhloni nezinhloni onezinhloni okunezinhloni zinezinhloni zinhloni
+32	2032	ikhabe	ikhabe amakhabe namakhabe njengekhabe yekhabe
+33	2033	isigcino	isigcino kuyisigcino nesigcino nezigcino yisigcino
+34	2034	sombuluka	ngokusombuluka ezisombulukayo busombuluka bengasombulukile lisombuluka ozosombuluka ukusombuluka sombuluka
+35	2035	enzakalisa	enzakalisa enzakaliswe ukwenzakaliswa akwenzakalisile ezenzakaliswe ukubenzakalisa eyenzakalisayo lokwenzakalisa ukwenzakalisa usungenzakalise yenzakaliswe
+36	2036	isibunu	isibunu ezibunu izibunu ngezibunu lesibunu lezibunu ngesibunu njengezibunu okwesibunu wesibunu
+37	2037	sawubona	sawubona
+38	2038	imfologo	imfologo imfoloko ngemfoloko okwemfologo izimfologo ngemfologo
+39	2039	lowaya	lowaya kulowaya
+40	2040	ibhithi	sebhithi ibhithi kwebhithi
+41	2041	indingilizi	kwendingilizi okwendingilizi indingilizi sendingilizi wendingilizi eziyindingilizi
+42	2042	qhaqha	ukuqhaqha ekuqhaqheni bazoqhaqha eqhaqha liqhaqhekile lokuqhaqha qhaqha sokuqhaqha uqhaqha
+43	2043	uhlolovo	izinhlolovo zezinhlolovo uhlolovo yohlolovo
+44	2044	ambathisa	ambathisa bambathiswe abambathiswayo lawambathisa wazambathisa azambathise nimambathise ongambathiswanga ungambathisi wabambathisa wangambathiswa yokwambathisa zambathiswa
+45	2045	uhleko	uhleko ngohleko nohleko
+46	2046	ifosholo	ifosholo ngamafosholo namafosholo ngefosholo lamafosholo amafosholo
+47	2047	injobo	injobo njobo iyinjobo lenjobo
+48	2048	imbambe	wayesembambe imbambe ayesembambe embambe ngimbambe
+49	2049	imvana	imvana mvana njengemvana lemvana uyimvana
+50	2050	iphango	iphango ngesephango ubelephango nephango wephango
+51	2051	cambalala	cambalala ecambalele ngokucambalala bacambalala ngisayocambalala nokuzicambalalela ucambalale wacambalala ayacambalala
+52	2052	qaqamba	iyaqaqamba aziqaqambile kuqaqamba yaqaqamba ziqaqamba qaqamba
+53	2053	uphepha	ophepha nophepha uphepha bezophepha ophepheni
+54	2054	bayede	bayede
+55	2055	qhutha	qhutha okuqhuthelwa bazoqhuthana izoqhuthana kuqhuthwe siqhuthane ziyaqhuthana iqhuthele kuqhuthisa siqhuthwa ukuqhuthelwa
+56	2056	mhloshana	emhloshana ezimhloshana amhloshana mhloshana okumhloshana olumhloshana
+57	2057	mdaka	mdaka umdaka elimdaka emdaka amdaka bamdaka ngumdaka omdaka
+58	2058	ububhibhi	amabhibhi ububhibhi kwamabhibhi mabhibhi wobubhibhi yamabhibhi
+59	2059	isixubho	isixubho izixubho nezixubho
+60	2060	umgwebi	umgwebi abagwebi ngabagwebi kubagwebi yabagwebi kwabagwebi
+61	2061	ukuqeqesheka	ukuqeqesheka nokuqeqesheka
+62	2062	ubuthutha	ubuthutha ebuthutheni ngubuthutha bobuthutha ezinobuthutha ngobuthutha njengebuthutheni nobuthutha
+63	2063	isabizwana	isabizwana izabizwana nezabizwana
+64	2064	iqili	amaqili iqili uyiqili kweqili oyiqili qili
+65	2065	ntweza	ntweza entweza lintweza ngokuntweza nokuntweza santweza ukuntweza babentweza bentweza lokuntweza nokuzintwezela
+66	2066	isigcobo	isigcobo nezigcobo izigcobo ezigcobo bezigcobo
+67	2067	gqula	gqula ugqula yazigqula agquliwe zokugqula azigqule beligqula emgqula ugqulwe yokuyigqula
+68	2068	ugadi	ugadi bogadi ngugadi kagadi egadini gadi
+69	2069	inkinsela	inkinsela izinkinsela nenkinsela esezinkinsela wenkinsela
+70	2070	isigwaca	izigwaca isigwaca
+71	2071	musani	musani
+72	2072	bohla	bohla abohle ubohle lubohle selubohla selubohlile ibohle kubohla kubohle
+73	2073	qhina	qhina abaqhinekile ngiqhine oqhinwe ukuqhineka zokuqhineka awaliqhini lokuqhina luqhinwe oqhine ukuqhina
+74	2074	iyadi	iyadi amayadi lwamayadi eyadini nasemayadini kumayadi
+75	2075	isitsonga	isitsonga nesitsonga esitsonga wesitsonga
+76	2076	isitumbuka	lwesitumbuka zesitumbuka isitumbuka ngesitumbuka
+77	2077	duva	duva saduva ayaduva baduve eziduve abaduve bebeduve liduvele ziduve
+78	2078	umqali	umqali lomqali abaqali kumqali nabaqali
+79	2079	fowuna	fowuna ngifowunile ufowune efowuna ngifowuna ngifowune ufowuna
+80	2080	isiqopha	isiqopha sinesiqopha
+81	2081	chathaza	chathaza lokuchathazwa bechathazelana nginichathazele ngokuchathazelana uchathazele ukuchathazela abasichathazele asichathazele
+82	2082	silima	silima
+83	2083	isiphawulo	iziphawulo sineziphawulo zeziphawulo isiphawulo ngesiphawulo
+84	2084	ungwaqa	ungwaqa ongwaqa engwaqeni ngungwaqa ngongwaqa
+85	2085	lotha	lotha ukulothisa buyalotha ulotha ulothe zokulothisa akalothise kulothiswe kuzolothiswa walothiswa olothile
+86	2086	eshwama	eshwama wokweshwama akweshwamayo bayayishwama izokweshwama lokweshwama ngiyakweshwama ngiyayeshwama singayeshwami useshwama
+87	2087	ubasi	ubasi nobasi lobasi obasi abangobasi njengobasi
+88	2088	umlambo	umlambo emlanjeni imilambo mlambo njengemilambo
+89	2089	insundu	abensundu bezingensundu insundu nensundu elabensundu labensundu zabensundu ensundu ezinsundu zinsundu ubensundu
+90	2090	isibomvu	ezibomvu isibomvu nezibomvu sesibomvu besibomvu lwesibomvu ngesibomvu sezibomvu zibomvu esibomvu sibomvu zazibomvu
+91	2091	umtata	emtateni umtata emitateni lomtata omtata
+92	2092	hlokoloza	hlokoloza lokuhlokoloza ngokuhlokoloza ukuhlokoloza ukumhlokoloza uyihlokoloza bahlokoloza basihlokoloze bengikuhlokoloza uyihlokoloze
+93	2093	isigcibisholo	yisigcibisholo isigcibisholo
+94	2094	ikatshana	ikatshana amakatshana ekatshaneni
+95	2095	nqekuza	nqekuza enqekuzisa usunqekuza banqekuzisa elalinqekuza wanqekuzisa
+96	2096	umdweshu	imidweshu umdweshu emdweshini ngemidweshu
+97	2097	simemo	simemo
+98	2098	isihlephu	isihlephu yizihlephu kwezihlephu izihlephu
+99	2099	nqaka	nqaka ekunqakulweni eyinqaka silinqake yayinqakisana nganqakwa ukunqaka usinqaka zokunqakisana
+100	2100	zipho	zipho

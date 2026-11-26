@@ -1,48 +1,46 @@
-1	2201	amala	amala singamala wamala
-2	2202	dinisa	dinisa ungidinisile ngokuzidiniswa angikudinisanga edinisa
-3	2203	imbuzikazi	imbuzikazi nezimbuzikazi ngembuzikazi
-4	2204	inkotha	enkotheni okusenkotheni inkotha
-5	2205	kleza	kleza bekleza akleze klezani silikleza
-6	2206	qhesha	qhesha laqheshulwa uyaqheshulwa elaqheshulwa kwaqheshulwa
-7	2207	ubhadi	ubhadi bhadi sebhadini
-8	2208	iganu	iganu amaganu namaganu samaganu
-9	2209	isipinashi	isipinashi sesipinashi
-10	2210	zilo	zilo
-11	2211	imbovane	imbovane
-12	2212	isichwe	isichwe lwezichwe
-13	2213	umisi	umisi misi asinamisi
-14	2214	ubolo	ubolo lobolo bolo ngelobolo
-15	2215	hlukuza	hlukuza wayihlukuza layihlukuza ahlukuzise
-16	2216	imamba	imamba nemamba okwemamba mamba
-17	2217	khethisa	khethisa kokukhethiswa ukukukhethisa wokukhethiswa okhethisa
-18	2218	lobuya	lobuya kulobuya ngalobuya
-19	2219	ukwemuka	ukwemuka lokwemuka ngokwemuka
-20	2220	isidididi	isidididi
-21	2221	impohlo	impohlo zimpohlo wezimpohlo
-22	2222	imbombo	imbombo lembombo nasembombeni kwembombo embonjeni
-23	2223	deka	adeke badeka deka wadeka
-24	2224	ihhoko	ihhoko amahhoko ehhokweni nehhoko
-25	2225	impakama	impakama empakameni zempakama
-26	2226	isijingi	isijingi njengesijingi
-27	2227	lunama	olunama elunama lunama
-28	2228	ubuxhegu	ubuxhegu wobuxhegu yobuxhegu
-29	2229	umuwa	umuwa semweni zisemweni esemweni esisemweni
-30	2230	ihlakani	ihlakani amahlakani namahlakani
-31	2231	ilembe	ilembe amalembe nelembe
-32	2232	ishampu	ishampu
-33	2233	isiqithi	isiqithi
-34	2234	ubhova	ubhova bhova
-35	2235	hlobonga	hlobonga ekuhlobongeni ukuhlobonga
-36	2236	umdidi	emdidini umdidi engumdidi
-37	2237	ubuthuntu	ubuthuntu nobuthuntu yobuthuntu obuthuntu
-38	2238	umbombo	umbombo nasembombeni embonjeni
-39	2239	ijongosi	lamajongosi eyijongosi ijongosi
-40	2240	imbabala	imbabala okwembabala izimbabala
-41	2241	iqhina	kuseqhineni iqhina
-42	2242	swakama	swakama emswakama nokuswakama ngokuswakama
-43	2243	ukuqaqamba	sokuqaqamba ukuqaqamba lokuqaqamba
-44	2244	vuliwe	vuliwe elalivuliwe lalivuliwe evuliweyo okungavuliwe bekuvuliwe isivuliwe bezivuliwe
-45	2245	ubhozo	ubhozo inobhozo wubhozo
-46	2246	umumbi	umumbi omumbi emunjini mumbi
-47	2247	intini	intini sezintini ubesezintini ezintini nezintini kwasezintini
-48	2248	utshana	utshana katshana ingutshana etshaneni
+1	2201	dinisa	dinisa ungidinisile ngokuzidiniswa angikudinisanga edinisa
+2	2202	imbuzikazi	imbuzikazi nezimbuzikazi ngembuzikazi
+3	2203	inkotha	enkotheni okusenkotheni inkotha
+4	2204	kleza	kleza bekleza akleze klezani silikleza
+5	2205	qhesha	qhesha laqheshulwa uyaqheshulwa elaqheshulwa kwaqheshulwa
+6	2206	ubhadi	ubhadi bhadi sebhadini
+7	2207	iganu	iganu amaganu namaganu samaganu
+8	2208	isipinashi	isipinashi sesipinashi
+9	2209	zilo	zilo
+10	2210	imbovane	imbovane
+11	2211	isichwe	isichwe lwezichwe
+12	2212	umisi	umisi misi asinamisi
+13	2213	hlukuza	hlukuza wayihlukuza layihlukuza ahlukuzise
+14	2214	imamba	imamba nemamba okwemamba mamba
+15	2215	khethisa	khethisa kokukhethiswa ukukukhethisa wokukhethiswa okhethisa
+16	2216	lobuya	lobuya kulobuya ngalobuya
+17	2217	ubolo	ubolo lobolo bolo
+18	2218	ukwemuka	ukwemuka lokwemuka ngokwemuka
+19	2219	isidididi	isidididi
+20	2220	impohlo	impohlo zimpohlo wezimpohlo
+21	2221	imbombo	imbombo lembombo nasembombeni kwembombo embonjeni
+22	2222	deka	adeke badeka deka wadeka
+23	2223	ihhoko	ihhoko amahhoko ehhokweni nehhoko
+24	2224	impakama	impakama empakameni zempakama
+25	2225	isijingi	isijingi njengesijingi
+26	2226	lunama	olunama elunama lunama
+27	2227	ubuxhegu	ubuxhegu wobuxhegu yobuxhegu
+28	2228	umuwa	umuwa semweni zisemweni esemweni esisemweni
+29	2229	ihlakani	ihlakani amahlakani namahlakani
+30	2230	ilembe	ilembe amalembe nelembe
+31	2231	ishampu	ishampu
+32	2232	isiqithi	isiqithi
+33	2233	ubhova	ubhova bhova
+34	2234	hlobonga	hlobonga ekuhlobongeni ukuhlobonga
+35	2235	umdidi	emdidini umdidi engumdidi
+36	2236	ubuthuntu	ubuthuntu nobuthuntu yobuthuntu obuthuntu
+37	2237	umbombo	umbombo nasembombeni embonjeni
+38	2238	ijongosi	lamajongosi eyijongosi ijongosi
+39	2239	imbabala	imbabala okwembabala izimbabala
+40	2240	iqhina	kuseqhineni iqhina
+41	2241	swakama	swakama emswakama nokuswakama ngokuswakama
+42	2242	ukuqaqamba	sokuqaqamba ukuqaqamba lokuqaqamba
+43	2243	vuliwe	vuliwe elalivuliwe lalivuliwe evuliweyo okungavuliwe bekuvuliwe isivuliwe bezivuliwe
+44	2244	ubhozo	ubhozo inobhozo wubhozo
+45	2245	umumbi	umumbi omumbi emunjini mumbi
+46	2246	intini	intini sezintini ubesezintini ezintini nezintini kwasezintini
