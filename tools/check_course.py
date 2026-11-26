@@ -531,8 +531,8 @@ def lao_spans(text):
     """
     The Lao words of [text] as the reader cuts them (LaoParser), with where each starts and ends, [text] in today's spelling
     (lao_normalised): each run of letters into its likeliest words by their ranks, never inside a syllable, letters no word
-    covers one word together, ບໍ່ never joined to the word after it, nor ວ່າ and ຢູ່ to the word before them. ໆ, the Lao
-    digits and anything not Lao are no words.
+    covers one word together, ບໍ່, ຢູ່, ຕອນ and ປະເທດ never joined to the word after them (but ຢູ່ໃນ, ຢູ່ແລ້ວ, ປະເທດຊາດ),
+    nor ວ່າ and ຢູ່ to the word before them. ໆ, the Lao digits and anything not Lao are no words.
     """
     reader = lao_reader()
     out = []

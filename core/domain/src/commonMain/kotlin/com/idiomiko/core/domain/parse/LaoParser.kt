@@ -12,9 +12,11 @@ import com.idiomiko.core.domain.model.Language
  * A letter alone is no word, though the dictionary has the letters; letters no word covers go a syllable at a time, together
  * one word. ໆ, which repeats the word before it, and the Lao digits are no words.
  *
- * As in Thai, some grammatical words always stand apart, though the lexicon has them joined to the word next to them: the
- * negator ບໍ່ before a word (ບໍ່ດີ is ບໍ່ + ດີ), and after one the complementizer ວ່າ and the aspect word ຢູ່ (ຄິດວ່າ is ຄິດ +
- * ວ່າ, ອາໃສຢູ່ ອາໃສ + ຢູ່). Not ກໍ່, which begins words of its own (ກໍ່ສ້າງ "build", ກໍລະກົດ "July").
+ * As in Thai, some words always stand apart, though the lexicon has them joined to the word next to them: before a word the
+ * negator ບໍ່ (ບໍ່ດີ is ບໍ່ + ດີ), ຢູ່ "be at" (ຢູ່ຂ້າງ is ຢູ່ + ຂ້າງ, but ຢູ່ໃນ "in" and ຢູ່ແລ້ວ "already"), ຕອນ "the time
+ * of" (ຕອນເຊົ້າ is ຕອນ + ເຊົ້າ) and ປະເທດ "country" before its name (ປະເທດລາວ, but ປະເທດຊາດ "nation"); after one the
+ * complementizer ວ່າ and the aspect word ຢູ່ (ຄິດວ່າ is ຄິດ + ວ່າ, ອາໃສຢູ່ ອາໃສ + ຢູ່). Not ກໍ່, which begins words of its own
+ * (ກໍ່ສ້າງ "build", ກໍລະກົດ "July").
  *
  * Text is read in today's spelling: ໍ + າ as ຳ, ຫນ, ຫມ and ຫລ as ໜ, ໝ and ຫຼ, so a word reads the same however it was typed;
  * the lexicon's words are spelled so too ([lexiconWord]).
@@ -42,20 +44,30 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
 
     override fun matches(text: String, lexicon: Lexicon): Boolean = text in lexicon && !isLetterAlone(text) && !joinsGrammaticalWord(text, lexicon)
 
-    /** Whether [word] is one of [BEFORE] and words after it, or words and one of [AFTER], cut between syllables. */
-    private fun joinsGrammaticalWord(word: String, lexicon: Lexicon): Boolean =
-        BEFORE.any { word.length > it.length && word.startsWith(it) && canBreak(word, it.length) && cut(word, it.length, word.length, lexicon) } ||
-            AFTER.any { word.length > it.length && word.endsWith(it) && canBreak(word, word.length - it.length) && cut(word, 0, word.length - it.length, lexicon) }
+    /**
+     * Whether [word] is one of [BEFORE] and words after it (not the word it makes with the one named with it), or words and
+     * one of [AFTER], cut between syllables.
+     */
+    private fun joinsGrammaticalWord(word: String, lexicon: Lexicon): Boolean {
+        val known = { piece: String -> piece in lexicon }
+        return BEFORE.any { (head, joined) ->
+            word.length > head.length && word.startsWith(head) && word.substring(head.length) !in joined &&
+                canBreak(word, head.length) && cut(word, head.length, word.length, known)
+        } || AFTER.any { tail ->
+            word.length > tail.length && word.endsWith(tail) && canBreak(word, word.length - tail.length) &&
+                cut(word, 0, word.length - tail.length, known)
+        }
+    }
 
-    /** Whether [word] from [from] to [to] can be cut between syllables into words of the lexicon, none a letter alone. */
-    private fun cut(word: String, from: Int, to: Int, lexicon: Lexicon): Boolean {
+    /** Whether [word] from [from] to [to] can be cut between syllables into [known] words, none a letter alone. */
+    private fun cut(word: String, from: Int, to: Int, known: (String) -> Boolean): Boolean {
         val reached = BooleanArray(to + 1)
         reached[from] = true
         for (start in from until to) {
             if (!reached[start]) continue
             for (end in start + 1..to) {
                 val piece = word.substring(start, end)
-                if (canBreak(word, end) && piece in lexicon && !isLetterAlone(piece)) reached[end] = true
+                if (canBreak(word, end) && known(piece) && !isLetterAlone(piece)) reached[end] = true
             }
         }
         return reached[to]
@@ -100,8 +112,8 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
         private const val KO_LA = 'ໆ'
         private val LAO_DIGITS = '໐'..'໙'
 
-        /** The grammatical words that join no word after them, and those that join none before them. */
-        private val BEFORE = listOf("ບໍ່")
+        /** The words that join no word after them but those named with each, and those that join none before them. */
+        private val BEFORE = mapOf("ບໍ່" to emptySet(), "ຢູ່" to setOf("ໃນ", "ແລ້ວ"), "ຕອນ" to emptySet(), "ປະເທດ" to setOf("ຊາດ"))
         private val AFTER = listOf("ວ່າ", "ຢູ່")
 
         private fun isLetterAlone(text: String): Boolean = text.length == 1 && isLetter(text[0])

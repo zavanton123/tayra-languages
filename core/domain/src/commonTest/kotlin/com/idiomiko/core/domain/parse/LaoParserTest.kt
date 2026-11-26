@@ -71,6 +71,27 @@ class LaoParserTest {
         assertEquals(listOf("ໃຫ້ຝຣັ່ງ"), words("ໃຫ້ຝຣັ່ງ"))
     }
 
+    /**
+     * ຢູ່ "be at" joins no word after it but ໃນ "in" and ແລ້ວ "already"; ຕອນ "the time of" none; ປະເທດ "country" no name after
+     * it, only ຊາດ (ປະເທດຊາດ "nation").
+     */
+    @Test
+    fun placeTimeAndCountryWordsStandApart() {
+        val ranks = mapOf(
+            "ຢູ່" to 19, "ຂ້າງ" to 700, "ຢູ່ຂ້າງ" to 2818, "ໜ້າ" to 152, "ຢູ່ໜ້າ" to 4216, "ໃນ" to 4, "ຢູ່ໃນ" to 61, "ແລ້ວ" to 40,
+            "ຢູ່ແລ້ວ" to 2130, "ຕອນ" to 208, "ເຊົ້າ" to 1500, "ຕອນເຊົ້າ" to 2981, "ປະເທດ" to 13, "ຊາດ" to 300, "ປະເທດຊາດ" to 1228,
+            "ເຮືອນ" to 609,
+        )
+        Lexicons.set("lo", Lexicon(ranks.keys + "ມາເລເຊຍ" + "ປະເທດມາເລເຊຍ", ranks))
+        assertEquals(listOf("ຢູ່", "ຂ້າງ", "ເຮືອນ"), words("ຢູ່ຂ້າງເຮືອນ"))
+        assertEquals(listOf("ຢູ່", "ໜ້າ"), words("ຢູ່ໜ້າ"))
+        assertEquals(listOf("ຕອນ", "ເຊົ້າ"), words("ຕອນເຊົ້າ"))
+        assertEquals(listOf("ປະເທດ", "ມາເລເຊຍ"), words("ປະເທດມາເລເຊຍ"))
+        assertEquals(listOf("ຢູ່ໃນ", "ເຮືອນ"), words("ຢູ່ໃນເຮືອນ"))
+        assertEquals(listOf("ຢູ່ແລ້ວ"), words("ຢູ່ແລ້ວ"))
+        assertEquals(listOf("ປະເທດຊາດ"), words("ປະເທດຊາດ"))
+    }
+
     /** Text is read in today's spelling however it was typed, and so is the lexicon's; ໆ and the Lao digits are no words. */
     @Test
     fun todaysSpellingAndNoWords() {

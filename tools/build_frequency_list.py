@@ -5194,16 +5194,18 @@ def lao_break(run, at):
     return True
 
 
-# As LaoParser has them: the grammatical words that join no word after them (ບໍ່ດີ is ບໍ່ + ດີ), and those that join none
-# before them (ຄິດວ່າ is ຄິດ + ວ່າ).
-LAO_BEFORE = ("ບໍ່",)
+# As LaoParser has them: the words that join no word after them (ບໍ່ດີ is ບໍ່ + ດີ, ຢູ່ຂ້າງ ຢູ່ + ຂ້າງ, ຕອນເຊົ້າ ຕອນ + ເຊົ້າ,
+# ປະເທດລາວ ປະເທດ + ລາວ), but the words after them each names, which make a word with them (ຢູ່ໃນ, ຢູ່ແລ້ວ, ປະເທດຊາດ),
+# and those that join none before them (ຄິດວ່າ is ຄິດ + ວ່າ).
+LAO_BEFORE = {"ບໍ່": (), "ຢູ່": ("ໃນ", "ແລ້ວ"), "ຕອນ": (), "ປະເທດ": ("ຊາດ",)}
 LAO_AFTER = ("ວ່າ", "ຢູ່")
 
 
 def lao_word(word, words):
     """
     Whether the reader reads [word] of the lexicon [words] as a word (LaoParser.matches): not a letter alone, nor one of
-    LAO_BEFORE and words of the lexicon after it, or such words and one of LAO_AFTER, cut between syllables.
+    LAO_BEFORE and words of the lexicon after it (but the word it makes with those named with it), or such words and one of
+    LAO_AFTER, cut between syllables.
     """
     if word not in words or len(word) == 1 and lao_letter(word):
         return False
@@ -5221,7 +5223,8 @@ def lao_word(word, words):
         return reached[to]
 
     n = len(word)
-    return not (any(n > len(g) and word.startswith(g) and lao_break(word, len(g)) and cut(len(g), n) for g in LAO_BEFORE) or
+    return not (any(n > len(g) and word.startswith(g) and word[len(g):] not in joined and lao_break(word, len(g)) and cut(len(g), n)
+                    for g, joined in LAO_BEFORE.items()) or
                 any(n > len(g) and word.endswith(g) and lao_break(word, n - len(g)) and cut(0, n - len(g)) for g in LAO_AFTER))
 
 
