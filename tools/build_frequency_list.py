@@ -7608,6 +7608,9 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
             scores[lemma] += share * part
             forms[lemma][form] = forms[lemma].get(form, 0) + share * part
 
+    if language == "kw":
+        # A Cornish word written mutated, in another spelling, or as a plural or verb form of a word of the list is that word's.
+        frequency_cornish.fold(scores, forms, pos, DICTIONARIES)
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     listed, listed_as = set(ranked), set()
     if language == "fa":
