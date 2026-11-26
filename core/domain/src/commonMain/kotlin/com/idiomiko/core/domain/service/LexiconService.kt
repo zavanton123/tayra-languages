@@ -18,8 +18,8 @@ import kotlinx.coroutines.sync.withLock
 /**
  * Gives the parsers of languages written without spaces, and Korean's and Arabic's, their lexicons: the words of the
  * language's frequency list, with their forms, the app's own word list for the language where it has one (Lao's), and
- * every headword and form of its installed dictionary packs, each spelled as the parser reads it. A lexicon is made
- * again when the installed packs change.
+ * every headword and form of its installed dictionary packs, each spelled as the parser reads it; the own list's words
+ * that neither the frequency list nor a pack has are marked so (Lexicon.isOwnOnly). A lexicon is made again when the installed packs change.
  */
 class LexiconService(
     private val dictionaries: DictionaryService,
@@ -53,9 +53,13 @@ class LexiconService(
                 for (form in forms + key) ranks.getOrPut(form) { word.rank }
                 heads.getOrPut(key) { word.rank }
             }
-            frequency?.lexicon(code)?.forEach { words += parser.lexiconWord(it) }
-            for (pack in packs) repository.words(pack).forEach { words += parser.lexiconWord(it) }
-            Lexicons.set(code, Lexicon(words.filter { it.isNotBlank() && ' ' !in it }, ranks, heads))
+            val packWords = HashSet<String>()
+            for (pack in packs) repository.words(pack).forEach { packWords += parser.lexiconWord(it) }
+            val own = frequency?.lexicon(code)?.map(parser::lexiconWord).orEmpty()
+            val ownOnly = own.filter { it !in words && it !in packWords }
+            words += own
+            words += packWords
+            Lexicons.set(code, Lexicon(words.filter { it.isNotBlank() && ' ' !in it }, ranks, heads, ownOnly))
             loadedFrom[code] = packs
         }
     }

@@ -5,14 +5,17 @@ import kotlin.concurrent.Volatile
 /**
  * The words a language written without spaces is cut into (and Korean's and Arabic's, cut from what is joined to them),
  * lowercase, and the frequency [ranks] of those its frequency list has (1 for the most common), which
- * tell a parser the likelier cut; a form takes its word's rank, and [heads] has the list's headwords' own.
+ * tell a parser the likelier cut; a form takes its word's rank, and [heads] has the list's headwords' own. [ownOnly] are those
+ * only the app's own word list for the language has, neither the frequency list nor an installed pack.
  */
 class Lexicon(
     words: Collection<String>,
     private val ranks: Map<String, Int> = emptyMap(),
     private val heads: Map<String, Int> = emptyMap(),
+    ownOnly: Collection<String> = emptyList(),
 ) {
     private val words: Set<String> = words.toHashSet()
+    private val ownOnly: Set<String> = ownOnly.toHashSet()
 
     /** Whether some words have a frequency rank. */
     val ranked: Boolean get() = ranks.isNotEmpty()
@@ -29,6 +32,9 @@ class Lexicon(
     val size: Int get() = words.size
 
     operator fun contains(word: String): Boolean = word in words
+
+    /** Whether only the app's own word list has [word]: no frequency rank, no installed pack's entry. */
+    fun isOwnOnly(word: String): Boolean = word in ownOnly
 
     private companion object {
         const val MAX_WORD = 16

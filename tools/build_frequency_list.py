@@ -5201,16 +5201,17 @@ LAO_BEFORE = {"ບໍ່": (), "ຢູ່": ("ໃນ", "ແລ້ວ"), "ຕອ�
 LAO_AFTER = ("ວ່າ", "ຢູ່")
 
 
-def lao_word(word, words):
+def lao_word(word, words, own_only=frozenset(), ranks=None):
     """
     Whether the reader reads [word] of the lexicon [words] as a word (LaoParser.matches): not a letter alone, nor one of
     LAO_BEFORE and words of the lexicon after it (but the word it makes with those named with it), or such words and one of
-    LAO_AFTER, cut between syllables.
+    LAO_AFTER, cut between syllables. Nor a word of [own_only], which only the app's own word list has (ICU's, which lists
+    phrases as words: ຮັງນົກ, ຄົນຮັ່ງມີ), that words of the list ([ranks]) make up: ຮັງ + ນົກ.
     """
     if word not in words or len(word) == 1 and lao_letter(word):
         return False
 
-    def cut(start_at, to):
+    def cut(start_at, to, known=words):
         reached = [False] * (to + 1)
         reached[start_at] = True
         for start in range(start_at, to):
@@ -5218,11 +5219,13 @@ def lao_word(word, words):
                 continue
             for end in range(start + 1, to + 1):
                 piece = word[start:end]
-                if lao_break(word, end) and piece in words and not (len(piece) == 1 and lao_letter(piece)):
+                if lao_break(word, end) and piece in known and not (len(piece) == 1 and lao_letter(piece)):
                     reached[end] = True
         return reached[to]
 
     n = len(word)
+    if word in own_only and ranks and cut(0, n, ranks):
+        return False
     return not (any(n > len(g) and word.startswith(g) and word[len(g):] not in joined and lao_break(word, len(g)) and cut(len(g), n)
                     for g, joined in LAO_BEFORE.items()) or
                 any(n > len(g) and word.endswith(g) and lao_break(word, n - len(g)) and cut(0, n - len(g)) for g in LAO_AFTER))
@@ -5230,10 +5233,21 @@ def lao_word(word, words):
 
 def lao_lexicon():
     """The words the reader cuts Lao into with the lo-en pack installed, besides the list's: the pack's and the app's own list's."""
+    return lao_pack_words() | lao_own_words()
+
+
+def lao_pack_words():
+    """The lo-en pack's words and forms, in today's spelling."""
     db = sqlite3.connect(os.path.join(DICTIONARIES, "lo-en.sqlite"))
-    pack = {w for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms")}
+    return {lao_normalise(w) for (w,) in db.execute("SELECT word_lc FROM entries UNION SELECT form_lc FROM forms") if w and " " not in w}
+
+
+def lao_own_words():
+    """The app's own Lao word list (LAO_LEXICON), in today's spelling."""
     own = {l.strip() for l in open(LAO_LEXICON, encoding="utf-8") if l.strip() and not l.startswith("#")}
-    return {lao_normalise(w) for w in pack | own if w and " " not in w}
+    return {lao_normalise(w) for w in own if w and " " not in w}
+
+
 # As KhmerParser has them: the reader's Khmer letters (its word characters, ក-៹, but the punctuation U+17D4–U+17DB, ៗ among
 # it, and the digits), the coeng, after which no word ends, and the zero-width space Khmer text may separate its words with.
 KHMER_RUN = re.compile("[\u1780-\u17d3\u17dc\u17dd]+")
@@ -5294,7 +5308,11 @@ def segmenter(language, words=None, ranks=None):
     join = language in JOIN_UNKNOWN
     can_break = (thai_break if language == "th" else lao_break if language == "lo" else khmer_break if language == "km"
                  else frequency_burmese.my_break if language == "my" else lambda run, at: True)
-    is_word = (lambda word: thai_word(word, words)) if language == "th" else (lambda word: lao_word(word, words)) if language == "lo" else words.__contains__
+    is_word = (lambda word: thai_word(word, words)) if language == "th" else words.__contains__
+    if language == "lo":
+        # The reader's lexicon tells it the words only the app's own list has: neither the list's nor a pack's.
+        own_only = frozenset((lao_own_words() & words) - lao_pack_words() - set(ranks)) if ranks else frozenset()
+        is_word = lambda word: lao_word(word, words, own_only, ranks)
     if language == "km":
         # Khmer is cut folded (khmer_fold), the runs as the lexicon, and a spelling takes its commonest word's rank.
         words = {khmer_fold(w) for w in words}

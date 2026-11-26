@@ -92,6 +92,31 @@ class LaoParserTest {
         assertEquals(listOf("ປະເທດຊາດ"), words("ປະເທດຊາດ"))
     }
 
+    /**
+     * A word only the app's own list has (ICU's, which lists phrases) is no word where words of the frequency list make it
+     * up; one of the list or a pack stays whole, and so does one the list's words do not make up.
+     */
+    @Test
+    fun phrasesOfTheOwnListAreCut() {
+        val ranks = mapOf(
+            "ຮັງ" to 2020, "ນົກ" to 1122, "ຄົນ" to 31, "ຮັ່ງມີ" to 2021, "ສາມັນ" to 2158, "ເຄື່ອງ" to 376, "ວັດແທກ" to 2015,
+            "ສີ" to 110, "ຄາມ" to 2170, "ໄວ້" to 155, "ໜ້າ" to 152, "ຜູ້" to 50, "ອຳນວຍການ" to 2500, "ຜູ້ອຳນວຍການ" to 1531,
+            "ໄຂ່" to 1200, "ມຸກ" to 3000, "ໄຂ່ມຸກ" to 2645, "ສະຖານີ" to 231, "ອະວະກາດ" to 2600, "ນະຄອນຫຼວງ" to 326,
+            "ນະຄອນຫຼວງວຽງຈັນ" to 642, "ອັບ" to 4000,
+        )
+        val ownOnly = listOf("ຮັງນົກ", "ຄົນຮັ່ງມີ", "ຄົນສາມັນ", "ເຄື່ອງວັດແທກ", "ສີຄາມ", "ໄວ້ໜ້າ", "ອັບຣາຮາມ")
+        Lexicons.set("lo", Lexicon(ranks.keys + ownOnly + "ສະຖານີອະວະກາດ" + "ວຽງຈັນ", ranks, ownOnly = ownOnly))
+        assertEquals(listOf("ຮັງ", "ນົກ"), words("ຮັງນົກ"))
+        assertEquals(listOf("ຄົນ", "ຮັ່ງມີ", "ຄົນ", "ສາມັນ"), words("ຄົນຮັ່ງມີຄົນສາມັນ"))
+        assertEquals(listOf("ເຄື່ອງ", "ວັດແທກ"), words("ເຄື່ອງວັດແທກ"))
+        assertEquals(listOf("ສີ", "ຄາມ"), words("ສີຄາມ"))
+        assertEquals(listOf("ໄວ້", "ໜ້າ"), words("ໄວ້ໜ້າ"))
+        assertEquals(listOf("ອັບຣາຮາມ"), words("ອັບຣາຮາມ"))
+        assertEquals(listOf("ຜູ້ອຳນວຍການ", "ໄຂ່ມຸກ"), words("ຜູ້ອຳນວຍການໄຂ່ມຸກ"))
+        assertEquals(listOf("ສະຖານີອະວະກາດ"), words("ສະຖານີອະວະກາດ"))
+        assertEquals(listOf("ນະຄອນຫຼວງວຽງຈັນ"), words("ນະຄອນຫຼວງວຽງຈັນ"))
+    }
+
     /** Text is read in today's spelling however it was typed, and so is the lexicon's; ໆ and the Lao digits are no words. */
     @Test
     fun todaysSpellingAndNoWords() {

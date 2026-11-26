@@ -18,6 +18,10 @@ import com.idiomiko.core.domain.model.Language
  * complementizer ວ່າ and the aspect word ຢູ່ (ຄິດວ່າ is ຄິດ + ວ່າ, ອາໃສຢູ່ ອາໃສ + ຢູ່). Not ກໍ່, which begins words of its own
  * (ກໍ່ສ້າງ "build", ກໍລະກົດ "July").
  *
+ * The app's own word list (ICU's) lists phrases as words (ຮັງນົກ "bird's nest", ຄົນຮັ່ງມີ "rich person"), which no
+ * dictionary glosses: a word only it has ([Lexicon.isOwnOnly]) is no word where words of the frequency list make it up (ຮັງ +
+ * ນົກ). A word a pack has stays whole (ຜູ້ອຳນວຍການ "director", ສະຖານີອະວະກາດ "space station").
+ *
  * Text is read in today's spelling: ໍ + າ as ຳ, ຫນ, ຫມ and ຫລ as ໜ, ໝ and ຫຼ, so a word reads the same however it was typed;
  * the lexicon's words are spelled so too ([lexiconWord]).
  *
@@ -42,7 +46,8 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
 
     override fun standsApart(c: Char): Boolean = c == KO_LA || c in LAO_DIGITS
 
-    override fun matches(text: String, lexicon: Lexicon): Boolean = text in lexicon && !isLetterAlone(text) && !joinsGrammaticalWord(text, lexicon)
+    override fun matches(text: String, lexicon: Lexicon): Boolean =
+        text in lexicon && !isLetterAlone(text) && !joinsGrammaticalWord(text, lexicon) && !isListedPhrase(text, lexicon)
 
     /**
      * Whether [word] is one of [BEFORE] and words after it (not the word it makes with the one named with it), or words and
@@ -58,6 +63,10 @@ class LaoParser : SegmentingParser("Lao", "lo", joinUnknown = true, byFrequency 
                 cut(word, 0, word.length - tail.length, known)
         }
     }
+
+    /** Whether [word] is one only the app's own word list has, which words of the frequency list make up. */
+    private fun isListedPhrase(word: String, lexicon: Lexicon): Boolean =
+        lexicon.isOwnOnly(word) && cut(word, 0, word.length) { piece -> lexicon.rank(piece) != null }
 
     /** Whether [word] from [from] to [to] can be cut between syllables into [known] words, none a letter alone. */
     private fun cut(word: String, from: Int, to: Int, known: (String) -> Boolean): Boolean {
