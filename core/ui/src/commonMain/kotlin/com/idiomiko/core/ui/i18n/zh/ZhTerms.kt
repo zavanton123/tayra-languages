@@ -49,6 +49,8 @@ internal val zhTerms: Map<String, String> = mapOf(
     "List actions" to "列表操作",
     // PracticeSetupDialog.kt
     "Practise" to "练习",
+    "Anki" to "Anki",
+    "Select all" to "全选",
     "Practise {0} words" to "练习 {0} 个单词",
     "{0} min" to "{0} 分钟",
     "Choose one or more question types." to "选择一种或多种题型。",

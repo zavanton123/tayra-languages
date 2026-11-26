@@ -233,6 +233,12 @@ class TermsListViewModel(
         selected.value = if (select) state.value.terms.map { it.id }.toSet() else emptySet()
     }
 
+    /** Ticks every term the filters list, not only those loaded yet (a phone loads them as the list scrolls), or none. */
+    fun selectAllListed(select: Boolean) {
+        if (!select) return selectAllVisible(false)
+        viewModelScope.launch { selected.value = terms.list(filter.value, sort.value, 0, 1_000_000).items.map { it.id }.toSet() }
+    }
+
     fun dismissMessage() { message.value = null }
 
     fun setStatus(termId: Long, status: TermStatus) = viewModelScope.launch { termService.setStatus(listOf(termId), status) }

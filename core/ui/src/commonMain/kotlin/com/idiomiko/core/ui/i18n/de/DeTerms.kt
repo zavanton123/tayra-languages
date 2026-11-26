@@ -49,6 +49,8 @@ internal val deTerms: Map<String, String> = mapOf(
     "List actions" to "Listenaktionen",
     // PracticeSetupDialog.kt
     "Practise" to "Üben",
+    "Anki" to "Anki",
+    "Select all" to "Alle auswählen",
     "Practise {0} words" to "{0} Wort üben|{0} Wörter üben",
     "{0} min" to "{0} Min.",
     "Choose one or more question types." to "Wähle eine oder mehrere Fragearten.",

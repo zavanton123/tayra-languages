@@ -49,6 +49,8 @@ internal val elTerms: Map<String, String> = mapOf(
     "List actions" to "Ενέργειες λίστας",
     // PracticeSetupDialog.kt
     "Practise" to "Εξάσκηση",
+    "Anki" to "Anki",
+    "Select all" to "Επιλογή όλων",
     "Practise {0} words" to "Εξάσκηση: {0} λέξη|Εξάσκηση: {0} λέξεις",
     "{0} min" to "{0} λεπ.",
     "Choose one or more question types." to "Επιλέξτε έναν ή περισσότερους τύπους ερωτήσεων.",

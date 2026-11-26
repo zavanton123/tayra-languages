@@ -371,7 +371,7 @@ class TermsScreenTest {
 
     /**
      * On a phone every term has its checkbox, which alone chooses it: a tap on the card opens the term. Choosing brings a
-     * bar to the foot with how many and what to do with them; its cross clears the choice. The bar's only action is Anki.
+     * bar to the foot with how many and what to do with them; its cross clears the choice. Anki is among its actions; the top bar has none.
      */
     @Test
     fun aPhonesSelectionShowsItsActionsAtTheFoot() = runDesktopComposeUiTest(width = 400, height = 1100) {
@@ -379,7 +379,7 @@ class TermsScreenTest {
         show(onNavigate = { visited += it })
         waitForList("comprar", "produtos", "pensar", hidden = listOf("gostar"))
         onNodeWithContentDescription("List actions").assertDoesNotExist()
-        onNodeWithTag("phone-export-anki").assertExists()
+        onNodeWithContentDescription("Export to Anki").assertDoesNotExist()
         assertEquals(3, onAllNodes(androidx.compose.ui.test.isToggleable()).fetchSemanticsNodes().size, "a checkbox on every term")
         onNodeWithTag("phone-selection-bar").assertDoesNotExist()
 
@@ -391,7 +391,15 @@ class TermsScreenTest {
         onAllNodes(androidx.compose.ui.test.isToggleable())[0].performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 selected").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("phone-add-term").assertDoesNotExist()
+        onNodeWithTag("selection-anki").assertExists()
+        // Select all ticks every term the filters list; again, it clears them.
+        onNodeWithTag("selection-all").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("3 selected").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("TERMS_SCREENSHOT")?.let { ImageIO.write(onAllNodes(isRoot())[0].captureToImage().toAwtImage(), "png", File(it.replace(".png", "-phone-selection.png"))) }
+        onNodeWithTag("selection-all").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("phone-selection-bar").fetchSemanticsNodes().isEmpty() }
+        onAllNodes(androidx.compose.ui.test.isToggleable())[0].performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("1 selected").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("selection-delete").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("Delete 1 term?").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("Cancel").performClick()

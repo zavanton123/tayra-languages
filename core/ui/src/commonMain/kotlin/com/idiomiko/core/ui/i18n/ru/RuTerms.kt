@@ -49,6 +49,8 @@ internal val ruTerms: Map<String, String> = mapOf(
     "List actions" to "Действия со списком",
     // PracticeSetupDialog.kt
     "Practise" to "Тренировать",
+    "Anki" to "Anki",
+    "Select all" to "Выбрать все",
     "Practise {0} words" to "Тренировка: {0} слово|Тренировка: {0} слова|Тренировка: {0} слов",
     "{0} min" to "{0} мин",
     "Choose one or more question types." to "Выберите один или несколько видов вопросов.",

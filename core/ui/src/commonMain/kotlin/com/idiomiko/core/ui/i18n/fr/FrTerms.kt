@@ -49,6 +49,8 @@ internal val frTerms: Map<String, String> = mapOf(
     "List actions" to "Actions sur la liste",
     // PracticeSetupDialog.kt
     "Practise" to "S’entraîner",
+    "Anki" to "Anki",
+    "Select all" to "Tout sélectionner",
     "Practise {0} words" to "Entraînement : {0} mot|Entraînement : {0} mots",
     "{0} min" to "{0} min",
     "Choose one or more question types." to "Choisissez un ou plusieurs types de questions.",

@@ -49,6 +49,8 @@ internal val ptTerms: Map<String, String> = mapOf(
     "List actions" to "Ações da lista",
     // PracticeSetupDialog.kt
     "Practise" to "Praticar",
+    "Anki" to "Anki",
+    "Select all" to "Selecionar tudo",
     "Practise {0} words" to "Praticar {0} palavra|Praticar {0} palavras",
     "{0} min" to "{0} min",
     "Choose one or more question types." to "Escolha um ou mais tipos de pergunta.",

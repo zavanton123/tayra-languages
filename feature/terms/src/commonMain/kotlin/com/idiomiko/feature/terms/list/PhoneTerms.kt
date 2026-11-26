@@ -24,7 +24,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -53,6 +52,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.idiomiko.core.domain.language.LanguageCodes
@@ -69,6 +69,7 @@ import com.idiomiko.core.ui.components.AppMenu
 import com.idiomiko.core.ui.components.AppMenuItem
 import com.idiomiko.core.ui.components.AppSnackbar
 import com.idiomiko.core.ui.components.AppTopBar
+import com.idiomiko.core.ui.components.AppTriStateCheckbox
 import com.idiomiko.core.ui.components.BarSurface
 import com.idiomiko.core.ui.components.ButtonSize
 import com.idiomiko.core.ui.components.EmptyState
@@ -97,7 +98,6 @@ import kotlinx.datetime.DateTimeUnit
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.minus
 import kotlinx.datetime.toLocalDateTime
-import com.idiomiko.feature.terms.anki.ankiLabel
 
 /** The days-ago choices the phone's Added filter offers; null leaves that end open. */
 private val DAY_CHOICES = listOf(null, 1, 3, 7, 14, 30, 90, 365)
@@ -136,17 +136,6 @@ internal fun PhoneTermsScreen(
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
                 onBack = onBack,
-                // The one action on the whole list; the terms' own are on their checkboxes and the selection bar.
-                actions = {
-                    AppIconButton(
-                        AppIcons.Download,
-                        ankiLabel(state.exporting, state.sendingToAnki),
-                        onClick = viewModel::exportAnki,
-                        enabled = state.exporting == null,
-                        loading = state.exporting != null,
-                        modifier = Modifier.testTag("phone-export-anki"),
-                    )
-                },
             )
         },
         snackbarHost = {
@@ -155,7 +144,15 @@ internal fun PhoneTermsScreen(
         // Adding a term floats at the corner; while selecting, the actions on the chosen terms take the foot.
         floatingActionButton = { if (!selecting) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
         bottomBar = {
-            if (selecting) PhoneSelectionBar(state.selected.size, listActions, onDone = { viewModel.selectAllVisible(false) })
+            if (selecting) {
+                PhoneSelectionBar(
+                    state,
+                    listActions,
+                    onAll = { viewModel.selectAllListed(state.selected.size < state.totalCount) },
+                    onAnki = viewModel::exportAnki,
+                    onClear = { viewModel.selectAllVisible(false) },
+                )
+            }
         },
     ) { padding ->
         ScrollList(
@@ -215,19 +212,32 @@ internal fun PhoneTermsScreen(
     if (filtering) PhoneFiltersSheet(state, viewModel, onDismiss = { filtering = false })
 }
 
-/** While terms are ticked on a phone, at the foot: how many, the actions on them, and clearing the choice. */
+/**
+ * While terms are ticked on a phone, at the foot: ticking all the listed ones or some, how many, clearing the choice,
+ * and below, what can be done with them, Anki among it.
+ */
 @Composable
-private fun PhoneSelectionBar(count: Int, actions: ListActions, onDone: () -> Unit) {
+private fun PhoneSelectionBar(state: TermsListUiState, actions: ListActions, onAll: () -> Unit, onAnki: () -> Unit, onClear: () -> Unit) {
     val colors = MaterialTheme.colorScheme
+    val count = state.selected.size
+    val all = count >= state.totalCount
     BarSurface(raised = true, modifier = Modifier.testTag("phone-selection-bar")) {
         Column {
             AppDivider()
-            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs), verticalAlignment = Alignment.CenterVertically) {
-                AppIconButton(Icons.Default.Close, tr("Clear selection"), onDone)
+            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s, vertical = AppSpacing.xxs), verticalAlignment = Alignment.CenterVertically) {
+                AppTriStateCheckbox(
+                    if (all) ToggleableState.On else ToggleableState.Indeterminate,
+                    onClick = onAll,
+                    modifier = Modifier.semantics { contentDescription = tr("Select all") }.testTag("selection-all"),
+                )
                 Text(tr("{0} selected", count), Modifier.weight(1f).padding(start = AppSpacing.xs), style = AppText.labelStrong)
-                SelectionAction(AppIcons.Flashcards, tr("Practise"), count > 0, colors.primary, actions.onPractice, "selection-practise")
-                SelectionAction(Icons.Default.Edit, tr("Edit"), count > 0, colors.primary, actions.onBulk, "selection-edit")
-                SelectionAction(Icons.Default.Delete, tr("Delete"), count > 0, colors.error, actions.onDelete, "selection-delete")
+                AppIconButton(Icons.Default.Close, tr("Clear selection"), onClear)
+            }
+            Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.s).padding(bottom = AppSpacing.xs)) {
+                SelectionAction(AppIcons.Flashcards, tr("Practise"), true, colors.primary, actions.onPractice, "selection-practise", Modifier.weight(1f))
+                SelectionAction(Icons.Default.Edit, tr("Edit"), true, colors.primary, actions.onBulk, "selection-edit", Modifier.weight(1f))
+                SelectionAction(AppIcons.Download, tr("Anki"), state.exporting == null, colors.primary, onAnki, "selection-anki", Modifier.weight(1f))
+                SelectionAction(Icons.Default.Delete, tr("Delete"), true, colors.error, actions.onDelete, "selection-delete", Modifier.weight(1f))
             }
         }
     }
@@ -235,9 +245,9 @@ private fun PhoneSelectionBar(count: Int, actions: ListActions, onDone: () -> Un
 
 /** An action of the selection bar: its icon over its name. */
 @Composable
-private fun SelectionAction(icon: ImageVector, label: String, enabled: Boolean, tint: Color, onClick: () -> Unit, tag: String) {
+private fun SelectionAction(icon: ImageVector, label: String, enabled: Boolean, tint: Color, onClick: () -> Unit, tag: String, modifier: Modifier) {
     Column(
-        Modifier.width(SELECTION_ACTION_WIDTH).clip(AppShapes.control).clickable(enabled = enabled, role = Role.Button, onClick = onClick)
+        modifier.clip(AppShapes.control).clickable(enabled = enabled, role = Role.Button, onClick = onClick)
             .alpha(if (enabled) 1f else AppAlpha.disabled).padding(vertical = AppSpacing.xs).testTag(tag),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
@@ -388,6 +398,3 @@ private fun StatusOption(status: TermStatus, selected: Boolean, modifier: Modifi
 
 /** Room under the list for the floating Add term button and its margin. */
 private val FAB_ROOM = 88.dp
-
-/** Wide enough for the longest action name under its icon. */
-private val SELECTION_ACTION_WIDTH = 72.dp
