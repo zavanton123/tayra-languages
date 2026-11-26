@@ -1,0 +1,222 @@
+{
+  "id": "br-mini-1300",
+  "rankUpTo": 1300,
+  "level": "B1",
+  "title": "Micherioù ha studioù",
+  "description": "Ten stories about learning a job: a trainee pilot, a young firefighter, a new parish priest, a farming student, a printer's apprentice, a Breton teacher, a court reporter, a castle guide, a train driver and a cook on a boat.",
+  "topic": "Jobs and training",
+  "names": [
+    "Hoela",
+    "Kenwal",
+    "Brest",
+    "Gwenael",
+    "Melar",
+    "Kemperle",
+    "Jezekael",
+    "Landerne",
+    "Tegwen",
+    "Tremeur",
+    "Sulio",
+    "Telo",
+    "Mazheo",
+    "Herlewen",
+    "Karaez",
+    "Gwenaela",
+    "Arnaod",
+    "Montroulez",
+    "Treger",
+    "Tanaig",
+    "Albanez",
+    "Roazhon",
+    "Bertela",
+    "Bartzelona",
+    "Karim",
+    "Maroko",
+    "Maelys",
+    "Riwalan",
+    "Sterwenn",
+    "Kemper",
+    "Gael",
+    "Mazhelina",
+    "Gwengamp",
+    "Pariz",
+    "Lukian",
+    "Kadig",
+    "Gwenhaela",
+    "Aogustin",
+    "Envela",
+    "Kastellin"
+  ],
+  "lessons": [
+    {
+      "title": "Hoela en oabl",
+      "summary": "Hoela, a trainee pilot in Brest, checks a small plane with her instructor Kenwal and flies alone for the first time.",
+      "newWords": [
+        "askell",
+        "a-gleiz",
+        "arnodiñ",
+        "kadarnaat",
+        "aergelc'h",
+        "riskl",
+        "dañjerus",
+        "gwaskañ",
+        "spontañ",
+        "douarañ"
+      ],
+      "text": "Hoela he deus 24 bloaz, hag e Brest e vev. Abaoe he bugaleaj he deus c'hoant da nijal. Bremañ e tesk ar vicher en ur skol e-kichen an aerborzh. Hiziv eo un devezh bras evit Hoela: evit ar wech kentañ e nijo hec'h-unan.\n\nDa 8 eur e tegouezh er skol. He c'helenner, Kenwal, a c'hortoz anezhi e-kichen ur c'harr-nij bihan. \"Da gentañ e rankez arnodiñ ar c'harr-nij,\" eme Kenwal. Hoela a ra tro ar c'harr-nij. Arnodiñ a ra an askell a-zehou, ha goude an askell a-gleiz. N'eus netra torret war an div askell. Kenwal a arnod anezho ivez, hag e kadarna: \"Mat eo an div askell. Mat eo pep tra.\"\n\nNeuze e sellont ouzh an aergelc'h. \"Sioul eo an aergelc'h hiziv,\" a zispleg Kenwal. \"N'eus ket kalz a avel. Pa vez kreñv an avel, avat, e vez dañjerus nijal gant ur c'harr-nij ken bihan. Ur pilot mat ne gemer riskl ebet. Setu perak e arnodomp pep tra a-raok mont kuit.\"\n\nHoela a bign er c'harr-nij hag a azez. Gwaskañ a ra war ar bouton kentañ, hag ar c'harr-nij a grog d'ober trouz bras. Spontet eo Hoela un tamm. Kenwal a sell outi dre ar prenestr hag a c'hoarzh. \"Na vez ket spontet,\" a lavar. \"Me a gadarna dit: prest out.\"\n\nHoela a waskas war an eil bouton, hag ar c'harr-nij a bignas en oabl. Dindani e welas Brest, ar porzh hag ar mor. A-gleiz e oa an aod hag an enezennoù. Ne oa ket spontet ken: laouen-tre e oa.\n\nGoude un hanter-eur e tistroas d'an aerborzh. Douarañ eo ar pezh dañjerusañ evit ur pilot nevez. Hoela a soñjas er pezh he doa desket gant Kenwal. Gwaskañ a reas war ar bouton mat, hag ar c'harr-nij a zouaras hep riskl ebet. Kenwal a zeuas d'he c'havout. \"Douaret ec'h eus evel ur pilot gwir!\" a lavaras.\n\nGoulennoù:\nPetra a ra Hoela er skol e-kichen an aerborzh?\nDeskiñ a ra ar vicher, rak c'hoant he deus da nijal.\nPetra a arnod Hoela a-raok nijal?\nArnodiñ a ra an div askell, an askell a-zehou hag an askell a-gleiz.\nPenaos eo an aergelc'h hiziv?\nSioul eo an aergelc'h, n'eus ket kalz a avel.\nPerak eo spontet Hoela er c'harr-nij?\nSpontet eo rak ar c'harr-nij a grog d'ober trouz bras.\nPetra eo ar pezh dañjerusañ evit ur pilot nevez?\nDouarañ eo ar pezh dañjerusañ."
+    },
+    {
+      "title": "An tan war ar maez",
+      "summary": "Gwenael trains as a firefighter in Kemperle and, on his first real call, helps his captain Melar put out a fire in an old house.",
+      "newWords": [
+        "urzhiañ",
+        "sentiñ",
+        "gwarez",
+        "dañjer",
+        "gourc'hemenn",
+        "bountañ",
+        "goleiñ",
+        "lemel",
+        "mougañ",
+        "faezhañ"
+      ],
+      "text": "Gwenael en deus 19 vloaz. E Kemperle e vev, ha c'hoant en deus da vezañ pomper. Bep sizhun ez a da di ar bomperien, e-kichen ar stêr, evit deskiñ ar vicher. Ar c'habiten, Melar, eo a urzhi al labour.\n\n\"Al lezenn gentañ,\" a lavar Melar d'ar re yaouank, \"eo sentiñ. Pa vez tan ne vez ket amzer da gomz. Me a urzhi al labour, ha ret eo deoc'h sentiñ.\" Goude e tiskouez dezho o dilhad. \"An dilhad-se a ro gwarez deoc'h ouzh an tan. Hep gwarez ebet ez eo bras an dañjer.\"\n\nUn deiz, da 11 eur, e teuas ur c'helou: tan a oa en un ti kozh war ar maez. Ne chome den ebet en ti, met e-kichen e oa ur c'hoad. Ar bomperien a yeas kuit diouzhtu. Er c'harr, Melar a lavaras: \"Gwenael, chom tost ouzhin, ha ret eo dit sentiñ ouzh an urzhioù.\"\n\nPa zegouezhjont, e oa goloet an oabl gant ur moged du. Melar a roas ur gourc'hemenn: \"Bountit an nor!\" Gwenael hag ur pomper all a vountas an nor gant o nerzh. E-barzh e oa an tan bras. \"Lamit ar c'hoad a zo e-kichen ar voger!\" a c'hourc'hemennas Melar. \"Ma tegouezh an tan betek ar c'hoad, e vo dañjer evit ar maez a-bezh.\" Lemel a rejont ar c'hoad buan. Goude e lakajont dour war an tan.\n\nLabourat a rejont div eurvezh. A-benn ar fin e voe mouget an tan. Ne oa dañjer ebet ken. Gwenael a lamas e dog. Faezhet e oa, ha goloet e oa e zilhad gant ar moged. Ar re all a oa faezhet ivez.\n\nMelar a zeuas d'e gavout. \"Sentet ec'h eus ouzh an urzhioù, ha labouret ec'h eus mat,\" a lavaras. \"Gourc'hemennoù, Gwenael! Bremañ ez out ur pomper gwir.\" Daoust ma oa faezhet, Gwenael a oa laouen.\n\nGoulennoù:\nPiv eo a urzhi al labour?\nAr c'habiten, Melar, eo a urzhi al labour.\nPetra eo al lezenn gentañ evit ur pomper?\nAl lezenn gentañ eo sentiñ.\nPetra a ro gwarez dezho ouzh an tan?\nO dilhad a ro gwarez dezho.\nPerak e lamjont ar c'hoad?\nMa vije deuet an tan betek ar c'hoad, e vije bet dañjer evit ar maez a-bezh.\nPenaos e oa Gwenael goude bezañ mouget an tan?\nFaezhet e oa, ha goloet e oa e zilhad gant ar moged."
+    },
+    {
+      "title": "Ar person nevez",
+      "summary": "Jezekael, a young priest, starts in a parish near Landerne, baptizes a baby and tells the parents the legend of the chapel's bridge.",
+      "newWords": [
+        "person",
+        "kristeniezh",
+        "azeuliñ",
+        "pedenn",
+        "badeziñ",
+        "gouestlañ",
+        "diaoul",
+        "ene",
+        "enoriñ",
+        "bennozh"
+      ],
+      "text": "Jezekael en deus 32 bloaz. Person eo, ha nevez-deuet eo d'ur barrez vihan e-kichen Landerne. Seizh vloaz en deus studiet a-raok bezañ beleg. Bremañ e tesk ur vicher all: bezañ person ur barrez.\n\nBep Sul e teu tud ar barrez d'an iliz evit azeuliñ Doue. Jezekael a lavar ur bedenn gentañ gant an holl. Goude e komz diwar-benn istor ar gristeniezh e Breizh. \"Ar gristeniezh a zo deuet amañ gant ar sent kozh, eus Kembre hag eus Iwerzhon,\" a zispleg. \"Abaoe ez a an dud d'an iliz evit azeuliñ ha da lavaret pedennoù.\"\n\nUr Sul, Tegwen ha Tremeur a zeuas d'an iliz gant o mab bihan, Sulio. Jezekael a vadezas ar bugel. Sulio e oa ar bugel kentañ a vadeze Jezekael er barrez. Goude ma oa badezet Sulio, Tegwen a lavaras: \"Bennozh Doue deoc'h, aotrou person!\"\n\nNeuze e c'houlennas Tremeur: \"Ha gouzout a rit istor ar chapel e-kichen ar pont kozh?\" Ar chapel-se a zo gouestlet da Sant Telo. Jezekael a gontas ar gontadenn dezho.\n\n\"Gwechall, n'en doa ket tud ar vro pont ebet war ar stêr. Un noz e teuas an diaoul. Lavaret a reas e savfe ur pont en un noz, met c'hoant en doa da gaout ene an hini kentañ a dremenfe warnañ. Sant Telo a gasas ur c'hazh war ar pont. Ne oa ket ene un den, met ene ur c'hazh! Droug a oa en diaoul, hag ez eas kuit. Ar pont a zo chomet. Goude e voe savet ur chapel e-kichen ar pont, hag e voe gouestlet d'ar sant.\"\n\n\"Bep bloaz, d'ar Sul kentañ a viz Gouere, e teu an dud da enoriñ Sant Telo,\" a lavaras Jezekael. \"Enoriñ a reont anezhañ gant pedennoù hag ur pred bras war ar pont.\"\n\nTremeur a oa laouen. \"Bennozh deoc'h evit ar gontadenn, aotrou person,\" a lavaras.\n\nGoulennoù:\nPelec'h emañ ar barrez ma'z eo person Jezekael?\nE-kichen Landerne emañ.\nPerak e teu tud ar barrez d'an iliz bep Sul?\nDont a reont evit azeuliñ Doue ha lavaret pedennoù.\nPetra a reas Jezekael gant Sulio?\nBadeziñ a reas anezhañ.\nDa biv eo gouestlet ar chapel e-kichen ar pont?\nGouestlet eo da Sant Telo.\nPetra a felle d'an diaoul kaout?\nEne an hini kentañ a dremenfe war ar pont a felle dezhañ kaout."
+    },
+    {
+      "title": "Ur sizhunvezh war ar maez",
+      "summary": "Mazheo, a farming student from Karaez, spends a week of training with Herlewen, who raises cattle in the hills.",
+      "newWords": [
+        "dihuniñ",
+        "lein",
+        "desevel",
+        "aneval",
+        "peuriñ",
+        "torgenn",
+        "laezh",
+        "amezek",
+        "gleb",
+        "plantañ",
+        "erc'h"
+      ],
+      "text": "Mazheo en deus 17 vloaz, hag e studi el lise labour-douar e Karaez. Evit deskiñ ar vicher, e tremen ur sizhunvezh e ti Herlewen. Herlewen a vev war ar maez, war an torgennoù, hag e tesav anevaled: saout hag un nebeud kezeg.\n\nAn devezh kentañ, Mazheo a zihunas da 5 eur. N'en doa ket bet dihunet ken abred biskoazh. Herlewen a oa dihun abaoe pell. Debriñ a rejont o lein buan: bara, amann ha kafe. \"Al lein eo ar pred pouezusañ,\" a lavaras Herlewen. \"Labour bras hon eus hiziv.\"\n\nDa gentañ ez ejont da gavout an anevaled. Ar saout a roas o laezh. Herlewen a ziskouezas da Vazheo penaos ober. Bep devezh e kas Herlewen al laezh d'ar feurm amezek, rak eno ez eus ur stal a ra amann gant al laezh.\n\nGoude e kasjont an anevaled war an dorgenn. Eno e c'hallont peuriñ a-hed an deiz. \"Desevel anevaled a zo ur vicher diaes,\" a zisplegas Herlewen. \"Ret eo sellet outo bep devezh, hag e pep amzer. Er goañv ez eus erc'h war an dorgenn, ha ne c'hall ket an anevaled peuriñ eno. Neuze e chomont er c'hraou.\"\n\nGlav a reas e-pad an devezh, ha gleb e oa an douar. Daoust da se, Herlewen ha Mazheo a blantas gwez e-kichen an dorgenn. \"Gwez a zo mat evit an anevaled,\" a lavaras Herlewen. \"Gwarez a roont dezho ouzh an avel hag ouzh an erc'h.\" Plantañ a rejont ugent gwezenn. Gleb e oa dilhad Mazheo.\n\nDa noz, Mazheo a oa skuizh, met laouen. Ar Sadorn war-lerc'h, pa zistroas da Garaez, e lavaras d'e gelenner: \"C'hoant em eus da zesevel anevaled, evel Herlewen.\"\n\nGoulennoù:\nDa bet eur e tihunas Mazheo an devezh kentañ?\nDihuniñ a reas da 5 eur.\nPetra a zebrjont da lein?\nBara, amann ha kafe a zebrjont.\nDa belec'h e kas Herlewen al laezh?\nKas a ra al laezh d'ar feurm amezek.\nPerak ne c'hall ket an anevaled peuriñ war an dorgenn er goañv?\nErc'h a zo war an dorgenn er goañv.\nPerak e plantjont gwez?\nGwarez a ro ar gwez d'an anevaled ouzh an avel hag ouzh an erc'h."
+    },
+    {
+      "title": "Al levr adembannet",
+      "summary": "Gwenaela, an apprentice in a small printing house in Montroulez, helps her boss Arnaod reprint an old book of Treger tales and posts it to readers.",
+      "newWords": [
+        "moullañ",
+        "adembann",
+        "rumm",
+        "faltazi",
+        "awenañ",
+        "taolenniñ",
+        "eñvor",
+        "hêrezh",
+        "padus",
+        "postañ"
+      ],
+      "text": "Gwenaela he deus 20 vloaz. Abaoe ur bloaz e tesk ar vicher en ur stal vihan e Montroulez, e-lec'h ma vez moullet levrioù. Arnaod eo he mestr. Moullañ a ra levrioù brezhonek abaoe tregont vloaz.\n\nUr mintin, Arnaod a ziskouezas dezhi ul levr kozh. \"Al levr-se a zo bet moullet e 1925,\" a lavaras. \"N'eus ket mui anezhañ er stalioù. Adembann anezhañ a fell din.\" Al levr a oa ur rumm kontadennoù eus Treger. Ar skrivagner en doa skrivet anezho gant e faltazi, met awenet e oa bet gant kontadennoù e vamm-gozh.\n\nGwenaela a lennas al levr. Brav e oa ar c'hontadennoù: taolenniñ a raent ar vro, ar mor, an tiez kozh hag an dud a laboure war an douar. \"Ar skrivagner a daolenne ar vro evel ul livour,\" a lavaras Gwenaela. \"Hag e faltazi a zo bras.\"\n\n\"Al levr-se a zo un eñvor eus ar vro gwechall,\" a zisplegas Arnaod. \"Ur rumm eñvorioù eo, un hêrezh evit ar re yaouank. Ret eo d'an hêrezh-se bezañ padus. Setu perak e fell din adembann anezhañ.\"\n\nE-pad ur miz e labourjont. Gwenaela a lakaas ar gerioù war an urzhiataer hag a zibabas skeudennoù kozh. Goude e voullas Arnaod mil levr. Gwenaela a sikouras anezhañ da voullañ. Paper mat a zibabjont, evit ma vefe padus al levr.\n\nBez' e oa meur a lenner o c'hortoz al levr adembannet. Ret e oa postañ kant levr dezho. Gwenaela a bostas ar re gentañ d'ar Sadorn. Kas a reas unan d'he mamm-gozh ivez.\n\nUn nebeud deizioù goude, he mamm-gozh a bellgomzas dezhi. \"Al levr-se em eus lennet pa oan bihan,\" a lavaras. \"Un eñvor kaer eo. Trugarez!\" Gwenaela a oa laouen: he levr kentañ e oa.\n\nGoulennoù:\nPetra a ra Arnaod abaoe tregont vloaz?\nMoullañ a ra levrioù brezhonek.\nPetra a oa el levr kozh?\nUr rumm kontadennoù eus Treger a oa ennañ.\nGant petra e oa bet awenet ar skrivagner?\nAwenet e oa bet gant kontadennoù e vamm-gozh.\nPerak e felle da Arnaod adembann al levr?\nUn hêrezh eo evit ar re yaouank, ha ret eo d'an hêrezh-se bezañ padus.\nDa biv e postas Gwenaela unan eus al levrioù?\nPostañ a reas unan d'he mamm-gozh."
+    },
+    {
+      "title": "Kelenn ar brezhoneg",
+      "summary": "Tanaig trains to teach Breton to adults in Roazhon; her mentor Albanez advises her on her class, where a Catalan and an Arabic speaker learn to pronounce Breton.",
+      "newWords": [
+        "arabeg",
+        "katalaneg",
+        "bedel",
+        "silabenn",
+        "distagañ",
+        "plaen",
+        "arverañ",
+        "aliañ",
+        "rebech",
+        "talvoudus"
+      ],
+      "text": "Tanaig he deus 26 bloaz. E Roazhon e tesk kelenn ar brezhoneg d'an dud deuet. Bep Meurzh noz e kelenn d'ur c'hlas bihan, hag he mestr, Albanez, a azez e traoñ ar sal evit sellet outi. Goude ar c'hlas e c'hall aliañ anezhi.\n\nEn he c'hlas ez eus tud eus pep lec'h. Bertela a zeu eus Bartzelona. Katalaneg eo he yezh, met spagnoleg a gomz ivez. Karim a zeu eus Maroko. Arabeg ha galleg a gomz. \"Ur c'hlas bedel eo,\" a lavar Tanaig. \"Ar bed a-bezh a zo er sal-se.\"\n\nHiziv e kelenn Tanaig penaos distagañ ar gerioù. Arverañ a ra gerioù plaen: \"ti\", \"mor\", \"bara\", \"kador\". Goude e lavar gerioù hiroc'h, ha diskouez a ra ar silabennoù. \"Er ger ti ez eus ur silabenn, hag er ger bara ez eus div silabenn,\" a zispleg. Bertela a zistagas mat ar gerioù kentañ. Diaes e oa ar c'h dezhi, avat. Karim, eñ, a zistagas mat ar c'h, rak ul lizherenn evel-se a zo en arabeg. Talvoudus e oa ar c'hatalaneg evit Bertela: kalz gerioù a zo heñvel.\n\nGoude ar c'hlas, Albanez a zeu da gaozeal gant Tanaig. \"Ne rebechin netra dit,\" a lavar. \"Plaen ha sklaer e oa da gentel. Met ur c'huzul em eus: arverañ a c'hallfes muioc'h a skeudennoù. Talvoudus-tre eo ar skeudennoù evit an dud deuet.\" Tanaig a selaou mat. \"Ha rebech ebet all?\" a c'houlenn. \"Rebech ebet,\" a respont Albanez. \"Ur gelennerez vat e vi.\"\n\nD'ar Meurzh war-lerc'h, Tanaig a arveras skeudennoù evel m'he doa aliet Albanez. Talvoudus e voent: an holl a gomprene buanoc'h. E fin ar c'hlas, Karim a lavaras: \"Trugarez, kelennerez! Brezhoneg a gomzin gant ma bugale.\"\n\nGoulennoù:\nPetra a zesk Tanaig e Roazhon?\nDeskiñ a ra kelenn ar brezhoneg d'an dud deuet.\nPiv eo Bertela ha petra eo he yezh?\nBertela a zeu eus Bartzelona, ha katalaneg eo he yezh.\nPerak e lavar Tanaig ez eo ur c'hlas bedel?\nRak tud eus ar bed a-bezh a zo er sal.\nPerak e tistagas mat Karim ar c'h?\nUl lizherenn evel-se a zo en arabeg.\nPetra eo kuzul Albanez da Danaig?\nAliañ a ra anezhi da arverañ muioc'h a skeudennoù."
+    },
+    {
+      "title": "An devezh kentañ el lez-varn",
+      "summary": "Maelys, a young reporter in Kemper, covers her first murder trial, where a witness swears and the accused finally admits what he did.",
+      "newWords": [
+        "tamall",
+        "drouklazh",
+        "muntrañ",
+        "touiñ",
+        "gaou",
+        "merzout",
+        "dizoleiñ",
+        "diskleriañ",
+        "kastizañ",
+        "bac'hañ"
+      ],
+      "text": "Maelys he deus 23 bloaz. Kazetennerez eo abaoe tri miz en ur gazetenn e Kemper. Hiziv eo he devezh kentañ el lez-varn: ret eo dezhi skrivañ ur pennad diwar-benn un drouklazh.\n\nRiwalan, un den 50 vloaz, a zo tamallet. Tamallet eo da vezañ muntret e genlabourer, er bloaz tremenet. Maelys a azez e traoñ ar sal hag a selaou. Kalz tud a zo er sal. Un drouklazh e Kemper a zo un dra ral, ha c'hoant en deus pep den da c'houzout ar wirionez.\n\nAr barner a c'houlenn ouzh Riwalan: \"Muntret ho peus ho kenlabourer?\" Riwalan a lavar n'en deus graet netra. \"Gaou eo,\" a lavar. \"Ne oan ket eno an noz-se.\"\n\nNeuze e teu ur vaouez, Sterwenn, da gomz. Da gentañ e rank touiñ e lavaro ar wirionez. Touiñ a ra. Goude e lavar he deus merzet karr Riwalan dirak ti e genlabourer, an noz eus an drouklazh. \"Merzout a ris ar c'harr,\" a lavar. \"Gwelet em boa anezhañ meur a wech a-raok.\" Ar boliserien o deus dizoloet ivez lizhiri skrivet gant Riwalan. Dizoleiñ a rejont anezho en e di.\n\nRiwalan a chomas sioul ur pennad. Goude e savas hag e tisklerias: \"Gwir eo. Me em eus muntret anezhañ. Lavaret em boa gaou.\" Maelys a skrivas buan.\n\nAr barner a lavaras e vefe kastizet Riwalan hervez al lezenn. \"Ugent vloaz e vo bac'het,\" a zisklerias. Bac'het e vo e Brest.\n\nDa noz, Maelys a skrivas he fennad. Taolenniñ a reas an devezh evel ma oa c'hoarvezet. He mestr a lennas anezhañ. \"Mat eo,\" a lavaras. \"N'ec'h eus lavaret gaou ebet, ha sklaer eo pep tra.\"\n\nGoulennoù:\nPetra eo micher Maelys?\nKazetennerez eo, en ur gazetenn e Kemper.\nPerak eo tamallet Riwalan?\nTamallet eo da vezañ muntret e genlabourer.\nPetra a rank ober Sterwenn a-raok komz?\nRet eo dezhi touiñ e lavaro ar wirionez.\nPetra he deus merzet Sterwenn an noz eus an drouklazh?\nMerzet he deus karr Riwalan dirak ti e genlabourer.\nPenaos e vo kastizet Riwalan?\nUgent vloaz e vo bac'het."
+    },
+    {
+      "title": "Istor ar c'hastell",
+      "summary": "Gael trains as a guide at a castle near Gwengamp, and the old guide Mazhelina teaches him its history, from the lords' hunts to the Revolution.",
+      "newWords": [
+        "lec'hiañ",
+        "annezañ",
+        "chaseal",
+        "matezh",
+        "bourc'hiz",
+        "votiñ",
+        "argas",
+        "repu",
+        "dibennañ",
+        "krougañ"
+      ],
+      "text": "Gael en deus 21 vloaz. E-pad an hañv e labour evel ambrouger en ur c'hastell e-kichen Gwengamp. Ar weladenn a rank ober e brezhoneg hag e galleg. A-raok ar weladenn gentañ, Mazhelina, an ambrougerez gozh, a gelenn dezhañ istor ar c'hastell.\n\n\"Da gentañ, lec'hiañ ar c'hastell,\" a lavar Mazhelina. \"Lec'hiet eo war ur menez, e-kichen ar stêr. Diwar ar menez e c'haller gwelet ar vro a-bezh.\" Gael a skriv pep tra en ur c'harned.\n\n\"E 1400 e teuas an aotrounez da annezañ ar c'hastell,\" a zispleg Mazhelina. \"Annezet e voe ganto e-pad pevar c'hantved. En hañv e chaseent er c'hoad. Chaseal a oa o flijadur brasañ.\" Gael a c'houlenn piv a laboure er c'hastell. \"Kalz mitizhien a oa,\" a respont Mazhelina. \"Ur vatezh he doa skrivet he buhez en ul levr bihan. Gant al levr-se e ouzomp penaos e veve ar vatezh hag an dud all er c'hastell.\"\n\nE 1789 e krogas an Dispac'h. Bourc'hizien Gwengamp a votas evit al lezennoù nevez. \"Votiñ a reas ar vourc'hizien evit argas an aotrou,\" a lavar Mazhelina. \"Argaset e voe eus e gastell. Ur repu a gavas e ti ar vatezh, en ur gêr vihan.\" Gael a c'houlenn: \"Ha dibennet e voe?\" \"Nann, ne voe ket dibennet. E vreur, avat, a oa e Pariz, hag e voe dibennet eno.\"\n\nMazhelina a ziskouez dezhañ ur wezenn vras e-kichen ar porzh. \"Gwechall e veze krouget al laeron ouzh ar wezenn-se,\" a lavar. \"An aotrou eo a c'hourc'hemenne o c'hrougañ.\"\n\nD'ar Sadorn, Gael a reas e weladenn gentañ. Lec'hiañ a reas ar c'hastell, kontañ a reas istor ar vatezh hag an aotrou argaset. Mazhelina a selaoue. \"Mat-tre,\" a lavaras. \"Un ambrouger gwir out.\"\n\nGoulennoù:\nPelec'h eo lec'hiet ar c'hastell?\nLec'hiet eo war ur menez, e-kichen ar stêr.\nPetra a rae an aotrounez en hañv?\nChaseal a raent er c'hoad.\nPerak e ouzomp penaos e veve an dud er c'hastell?\nUr vatezh he doa skrivet he buhez en ul levr bihan.\nPelec'h e kavas an aotrou ur repu?\nUr repu a gavas e ti ar vatezh.\nPiv a voe dibennet e Pariz?\nBreur an aotrou a voe dibennet e Pariz."
+    },
+    {
+      "title": "An tren diwezhat",
+      "summary": "Lukian, a trainee train driver, drives the Brest–Kemper train for the first time, is held up by a fallen tree and still keeps his promise to his daughter Kadig.",
+      "newWords": [
+        "hent-houarn",
+        "brasaat",
+        "fiziout",
+        "prometiñ",
+        "mennout",
+        "diwezhat",
+        "rediañ",
+        "prederiañ",
+        "pellaat"
+      ],
+      "text": "Lukian en deus 35 bloaz. Abaoe pell e venne labourat war an trenioù, hag abaoe c'hwec'h miz e tesk kas trenioù. Hiziv e kas an tren etre Brest ha Kemper, evit ar wech kentañ hep kelenner ebet gantañ. Lukian a anavez mat an hent-houarn etre an div gêr: tremenet eo warnañ kant gwech gant e gelenner.\n\nDa 6 eur e tegouezh e gar Brest. Labourerien a zo o vrasaat gar Brest: re vihan eo evit an holl veajourien. Brasaet e vo a-benn ar bloaz a zeu. E vestr a sell outañ. \"Fiziout a ran ennout,\" a lavar. \"Mat e vo pep tra.\"\n\nA-raok mont kuit, Lukian a gomz gant e verc'h, Kadig, dre ar pellgomz. Hiziv eo he deiz-ha-bloaz, ha 8 vloaz he deus. \"Prometiñ a ran dit e vin er gêr da 5 eur,\" a lavar. \"Ne vennan ket bezañ diwezhat. Mennout a ran bezañ ganit evit da fest.\"\n\nMont a ra mat an tren betek Landerne. Goude e teu an avel hag ur glav bras. E-kichen Kastellin ez eus ur wezenn kouezhet war an hent-houarn. Lukian a zo rediet da chom a-sav. Rediet eo da c'hortoz e-pad un eurvezh.\n\n\"Diwezhat e vin,\" a soñj Lukian. \"Prometet em boa da Gadig...\" Prederiañ a ra pell. Fiziout a ra en e vestr, ha pellgomz a ra dezhañ. \"Gortoz,\" a lavar ar mestr. \"Labourerien an hent-houarn a zo o tont.\" Hag an avel a bella tamm-ha-tamm. Pellaat a ra ar glav ivez.\n\nGoude un eurvezh ez eo lamet ar wezenn. An tren a ya kuit adarre, ha da 2 eur e tegouezh e Kemper. Diwezhat eo, met ar veajourien a zo laouen.\n\nDa 5 eur, Lukian a zo er gêr. Kadig a lamm war e c'houzoug. \"Prometet ec'h eus, ha deuet out!\" a lavar. Lukian a c'hoarzh. \"Un tad mat ne vez morse diwezhat evit deiz-ha-bloaz e verc'h.\"\n\nGoulennoù:\nPetra a zesk Lukian abaoe c'hwec'h miz?\nDeskiñ a ra kas trenioù.\nPetra en deus prometet Lukian da Gadig?\nPrometet en deus e vefe er gêr da 5 eur.\nPerak eo rediet Lukian da chom a-sav?\nUr wezenn a zo kouezhet war an hent-houarn.\nPetra a ra Lukian pa chom a-sav an tren?\nPrederiañ a ra, ha pellgomz a ra d'e vestr.\nDa bet eur e tegouezh Lukian er gêr?\nDa 5 eur e tegouezh er gêr."
+    },
+    {
+      "title": "Ar geginerez war ar vag",
+      "summary": "Gwenhaela, a young cook on a boat in the Gulf of Morbihan, invents a dish for the wedding meal of Envela, a widow who is remarrying.",
+      "newWords": [
+        "ijinañ",
+        "meskañ",
+        "servijañ",
+        "profañ",
+        "kempenn",
+        "addimeziñ",
+        "paol",
+        "dudi",
+        "loar",
+        "arvest"
+      ],
+      "text": "Gwenhaela he deus 22 bloaz. Abaoe an nevez-amzer e labour evel keginerez war ur vag war ar Mor-Bihan. Ar vag a gas tud war ar mor, hag ur pred a vez servijet dezho. Aogustin eo ar c'habiten. E-pad an deiz e chom ouzh ar paol.\n\nUr sizhun a-raok, ur vaouez, Envela, a zeuas da gaozeal gant Aogustin ha Gwenhaela. \"Intañvez on abaoe dek vloaz,\" a lavaras. \"Bremañ ez an da addimeziñ, ha c'hoant em eus d'ober pred an eured war ho pag.\" Gwenhaela a oa laouen. \"Ur meuz nevez a ijinin evidoc'h,\" a respontas.\n\nE-pad ar sizhun e prederias Gwenhaela. Ijinañ a reas ur meuz gant pesked ar Mor-Bihan, avaloù ha gwin gwenn. Meskañ a reas ar gwin gant an dour hag al louzoù. Goude e veskas an avaloù gant ar pesked. Aogustin a arnodas ar meuz. \"Un dudi eo!\" a lavaras.\n\nDeiz an eured, ar vag a yeas kuit da 7 eur noz. Aogustin a oa ouzh ar paol. Gwenhaela a servijas ar meuz d'an daou-ugent den. Servijañ a reas ivez gwin ha bara. Ar re nevez-dimezet a oa laouen-tre. \"Dudi eo bevañ evel-se,\" a lavaras Envela.\n\nGoude ar pred, Gwenhaela a brofas ur wastell d'ar re nevez-dimezet. Profañ a reas ivez ur werennad gwin da Aogustin. Neuze e savas al loar war ar mor. Sonerien a reas un arvest war ar vag: kanañ ha dañsal a reas an dud dindan al loar. Brav-tre e oa an arvest.\n\nDa hanternoz, pa oa aet an holl kuit, Gwenhaela a gempennas ar gegin. Kempenn e oa pep tra pa erruas Aogustin. \"Ur geginerez vat out,\" a lavaras. \"Addimeziñ a rafen, evit debriñ ur pred evel-se adarre!\" Gwenhaela a c'hoarzhas.\n\nGoulennoù:\nPiv a chom ouzh ar paol e-pad an deiz?\nAogustin, ar c'habiten, a chom ouzh ar paol.\nPerak e teuas Envela da gaozeal gant Gwenhaela?\nAddimeziñ a ra, ha c'hoant he deus d'ober pred an eured war ar vag.\nPetra a ijinas Gwenhaela?\nIjinañ a reas ur meuz gant pesked, avaloù ha gwin gwenn.\nPetra a brofas Gwenhaela d'ar re nevez-dimezet?\nProfañ a reas ur wastell dezho.\nPetra a reas ar sonerien dindan al loar?\nUn arvest a rejont: kanañ ha dañsal a reas an dud."
+    }
+  ]
+}
