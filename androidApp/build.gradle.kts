@@ -53,6 +53,8 @@ android {
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~:!*.tsv"
     }
     packaging {
+        // The native engines (60 MB) are compressed in the APK, about halving the download; Android unpacks them on install.
+        jniLibs { useLegacyPackaging = true }
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
             // Tesseract's bytedeco jars each carry GraalVM native-image settings and their C build files.
