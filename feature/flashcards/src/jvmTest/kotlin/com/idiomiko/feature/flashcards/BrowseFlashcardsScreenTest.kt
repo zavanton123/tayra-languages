@@ -1,5 +1,9 @@
 package com.idiomiko.feature.flashcards
 
+import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.hasTestTag
+import androidx.compose.ui.test.hasAnyAncestor
+import androidx.compose.ui.test.hasText
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.CompositionLocalProvider
@@ -514,11 +518,23 @@ class BrowseFlashcardsScreenTest {
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("set-due").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithTag("set-due").performClick()
         onNodeWithText("Set the due date of 1 card").assertExists()
-        onNodeWithContentDescription("Days from today").performTextClearance()
-        onNodeWithContentDescription("Days from today").performTextInput("5-x")
-        onNodeWithTag("set-due-confirm").assertIsNotEnabled()
-        onNodeWithContentDescription("Days from today").performTextClearance()
-        onNodeWithContentDescription("Days from today").performTextInput("20")
+        // The one card's present schedule is shown; tomorrow is chosen to begin with, its date spelled out.
+        onNodeWithTag("set-due-current").assertExists()
+        onNode(hasText("Tomorrow") and hasAnyAncestor(hasTestTag("due-summary")), useUnmergedTree = true).assertExists()
+        // Spreading offers spans, and says how long the span is.
+        onNodeWithTag("due-spread").performClick()
+        onNodeWithTag("due-1-14").performClick()
+        onNodeWithText("14 days", useUnmergedTree = true).assertExists()
+        save("SET_DUE_SPREAD_SCREENSHOT")
+        // The calendar opens for a day of one's own, and can be left as it was.
+        onNodeWithTag("due-calendar").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("date-picker").fetchSemanticsNodes().isNotEmpty() }
+        save("SET_DUE_CALENDAR_SCREENSHOT")
+        onAllNodesWithText("Cancel").onLast().performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("date-picker").fetchSemanticsNodes().isEmpty() }
+        onNodeWithTag("due-spread").performClick()
+        onNodeWithTag("due-30-30").performClick()
+        onNodeWithText("In 30 days", useUnmergedTree = true).assertExists()
         save("SET_DUE_SCREENSHOT")
         onNodeWithTag("set-due-confirm").performClick()
         waitUntil(timeoutMillis = 5_000) { card(casa).schedule.due != before }
@@ -590,6 +606,13 @@ class BrowseFlashcardsScreenTest {
         onNodeWithTag("selection-suspend").assertExists()
         onNodeWithTag("delete-selected").assertExists()
         save("BROWSE_PHONE_SELECTION_SCREENSHOT")
+        // On a phone the due date is set in a sheet.
+        onNodeWithTag("set-due").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("set-due-dialog").fetchSemanticsNodes().isNotEmpty() }
+        onNodeWithTag("due-7-7").performClick()
+        save("SET_DUE_PHONE_SCREENSHOT")
+        onNodeWithContentDescription("Close").performClick()
+        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("set-due-dialog").fetchSemanticsNodes().isEmpty() }
         // Ticking all takes every card of the view; clearing puts the bar away.
         onNodeWithTag("selection-all").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithText("3 selected").fetchSemanticsNodes().isNotEmpty() }

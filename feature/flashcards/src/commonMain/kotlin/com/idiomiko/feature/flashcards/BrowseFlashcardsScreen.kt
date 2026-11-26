@@ -205,7 +205,16 @@ fun BrowseFlashcardsScreen(
     }
     state.ankiExport?.takeIf { it !is AnkiExport.Ready }?.let { AnkiExportDialog(it, onDismiss = viewModel::closeAnkiExport, onCancel = viewModel::cancelAnkiExport) }
     CardConfirmations(confirmReset, confirmDelete, viewModel, onResetClosed = { confirmReset = null }, onDeleteClosed = { confirmDelete = null })
-    settingDue?.let { ids -> SetDueDialog(ids.size, onSet = { days -> viewModel.setDue(ids, days); viewModel.clearSelection() }, onDismiss = { settingDue = null }) }
+    settingDue?.let { ids ->
+        SetDueDialog(
+            ids.size,
+            today = state.today,
+            single = ids.singleOrNull()?.let { id -> state.rows.firstOrNull { it.termId == id } },
+            now = state.now,
+            onSet = { days -> viewModel.setDue(ids, days); viewModel.clearSelection() },
+            onDismiss = { settingDue = null },
+        )
+    }
 }
 
 /**

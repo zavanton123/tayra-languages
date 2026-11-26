@@ -16,6 +16,7 @@ import com.idiomiko.core.domain.settings.SettingsRepository
 import com.idiomiko.core.ui.components.LIST_PAGE_SIZES
 import com.idiomiko.core.ui.components.pageCount
 import kotlin.coroutines.cancellation.CancellationException
+import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Instant
 import kotlinx.coroutines.FlowPreview
@@ -29,6 +30,9 @@ import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.datetime.LocalDate
+import kotlinx.datetime.TimeZone
+import kotlinx.datetime.toLocalDateTime
 
 /** One card as the browser lists it. */
 data class BrowseRow(
@@ -118,6 +122,8 @@ data class BrowseUiState(
     val selected: Set<Long> = emptySet(),
     val detail: BrowseDetail? = null,
     val now: Instant = Instant.DISTANT_PAST,
+    /** The study day it is: a day starts at the flashcards' day-start hour, not at midnight. */
+    val today: LocalDate = LocalDate(1970, 1, 1),
     /** A card to bring into view in the list, once; the one the browser was opened for. */
     val focus: Long? = null,
     /** Whether the cards can be exported to Anki here. */
@@ -244,7 +250,7 @@ class BrowseFlashcardsViewModel(
             val ids = all.map { it.termId }.toSet()
             _state.update { s ->
                 val detail = s.detail?.let { d -> all.firstOrNull { it.termId == d.row.termId }?.let { row -> d.copy(row = row) } }
-                s.copy(loading = false, languageName = language?.name.orEmpty(), counts = counts(all), leeches = leechThreshold > 0, repositions = settings.current.flashcardNewOrder != NewCardOrder.RANDOM, selected = s.selected intersect ids, detail = detail, now = browse.now)
+                s.copy(loading = false, languageName = language?.name.orEmpty(), counts = counts(all), leeches = leechThreshold > 0, repositions = settings.current.flashcardNewOrder != NewCardOrder.RANDOM, selected = s.selected intersect ids, detail = detail, now = browse.now, today = studyDay(browse.now))
             }
             publish()
             // The sentence may have changed, here or in the term's editor.
@@ -473,6 +479,8 @@ class BrowseFlashcardsViewModel(
             if (open != null && open in termIds) open(open)
         }
     }
+
+    private fun studyDay(now: Instant): LocalDate = (now - settings.current.flashcardDayStartHour.hours).toLocalDateTime(TimeZone.currentSystemDefault()).date
 
     private var exportJob: Job? = null
 
