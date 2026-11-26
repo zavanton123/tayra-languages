@@ -92,9 +92,15 @@ ZULU_WORDS = {
 # country, city, province or continent, a person's name or a god's (iGoli, iNdiya, uJabulani, uJesu); its languages,
 # peoples, days, months and holidays are words (isiNgisi, umZulu, uLwesibili, uMashi, uKhisimusi).
 ZULU_EXCLUDED = {"kwazulu", "isinye", "ikhona"}
+# And the verbal nouns a text writes as the verb's infinitive: ukupela "spelling" (pela), ukuhlamba "bathing" (hlamba).
+ZULU_EXCLUDED |= {"ukupela", "ukuhlamba"}
 # Nouns the pack lacks that the verb rules would read (isineke "patience" as sina's i-sinek-e), with their prefixes: no
 # words.
-UNLISTED_NOUNS = re.compile(r"^(?:i|e|ne|nge|yi|we|se|ye|le|ze|lwe|bwe|kwe|ke|o|a)?sineke$")
+UNLISTED_NOUNS = re.compile(r"^(?:i|e|ne|nge|yi|we|se|ye|le|ze|lwe|bwe|kwe|ke|o|a)?sineke$"
+                            # And umsele "ditch", which they would read as sala's "he has remained him".
+                            r"|^(?:u|o|no|ngo|wo|yo|ko)?msele$|^(?:i|e|ne|nge)?misele$|^e(?:m|mi)seleni$"
+                            # And the auxiliary sanda "have just" (usanda kufika), no "he increases us" (anda).
+                            r"|^(?:ngi|u|si|ni|ba|ku|li|zi|lu|bu|be|bengi|besi|ube|kwaku|e|o|aba|esi|eli|ezi|oku)sanda$")
 # A class prefix written apart before a foreign word (ama channel, ngama degrees): no word.
 FRAGMENTS = {"ama", "nama", "ngama", "kwama", "lama", "yama", "wama", "sama", "ezama", "okwama"}
 # And the copula "which are" before a number (abangu 20, ezingu 5).
@@ -173,6 +179,25 @@ ZULU_FORMS = {
     "ezayo": "za",
     # "Darling" (sithandwa sami), the vocative.
     "sithandwa": "isithandwa",
+    # "As if" (kungathi, ngokungathi): thi's potential, not "by not naming", tha's.
+    **{p + "kungathi": "thi" for p in ("", "ngo", "njengo", "se", "o")},
+    # "That, because" with na (ukubana, ngokubana): ukuba's, not bana "rather bad".
+    **{p + "bana": "ba" for p in ("uku", "ku", "ngoku", "loku", "soku", "ko")},
+    # "New" of class 9 (indlu entsha), not intsha "youth"; "be caught", bambeka's, not amba's "that they be sarcastic".
+    "entsha": "sha",
+    "bambeke": "bamba",
+    # "Long" of class 9 (induku ende), de's, no "that she marry"; "that it spread", enaba's, no auxiliary ba; "or,
+    # perhaps", as before.
+    "ende": "de",
+    "enabe": "enaba",
+    "kumbe": "ba",
+    # "It boiled", bila's; "in being", ukuba's locative; "it is in vain", yize's.
+    "ibile": "bila",
+    "ekubeni": "ba",
+    "kuyize": "yize",
+    "okuyize": "yize",
+    # "Let us do", enza's hortative, no "at the full stop" (unzo).
+    "asenzeni": "enza",
 }
 # Forms the pack's generated tables give a noun wrongly: umbhali "writer" has umhlali's plural (abahlali "residents", not
 # ababhali), and uhambo inkambo's (izinkambo "customs"; uhambo's is izinhambo).
@@ -184,10 +209,13 @@ PLURAL_PREFIXES = ("aba", "abe", "ama", "imi", "izi")
 # write") is the verb's when the noun's other forms are less than this share of the verb's (ikhala, ibhala, ihlezi), and
 # the noun's otherwise (esizwe "of the nation", ilanga's elanga).
 NOUN_SHARE = 1 / 3
+# A noun's form without its first vowel that a verb's form with a subject concord writes alike (sithole "heifer", "we
+# found"; sithombe "picture", "that we rust") is the noun's only when the noun is this much commoner than the verb.
+VOWELLESS_SHARE = 3
 # The past of a compound tense, the auxiliary ba's with its subject concord, and the participial concord the verb then
 # takes: wayehlala "he was staying" (waye- + ehlala), babehlala, kwakuhlala, bengihlala, ubehlala.
 COMPOUND_PAST = {"waye": "e", "babe": "be", "aye": "e", "wawu": "u", "yayi": "i", "lali": "li", "sasi": "si", "zazi": "zi",
-                 "lwalu": "lu", "babu": "bu", "kwaku": "ku", "ngangi": "ngi", "nani": "ni", "bengi": "ngi", "ube": "e",
+                 "lwalu": "lu", "bwabu": "bu", "kwaku": "ku", "ngangi": "ngi", "nani": "ni", "bengi": "ngi", "ube": "e",
                  "bebe": "be", "besi": "si", "beni": "ni", "bewu": "u", "beyi": "i", "beli": "li", "bezi": "zi", "belu": "lu",
                  "bebu": "bu", "beku": "ku"}
 
@@ -201,6 +229,7 @@ def strip_tones(word):
 # uyamazi, ngiyabazi).
 OBJECTS = ["ngi", "ku", "m", "mu", "si", "ni", "ba", "wu", "yi", "li", "wa", "zi", "lu", "bu"]
 OBJECTS_BEFORE_VOWEL = ["ngi", "kw", "m", "mw", "s", "n", "b", "w", "y", "l", "z", "lw", "bw"]
+ALL_OBJECTS = set(OBJECTS) | set(OBJECTS_BEFORE_VOWEL)
 # The object concords that are no subject concords: an imperative's prefix, and none before a noun's stem.
 BARE_OBJECTS = {"", "m", "mu", "mw", "kw", "w", "y", "yi", "s", "n", "b", "l", "z", "lw", "bw"}
 # The extensions a verb's stem takes (applicative, causative, reciprocal, passive, neuter and their joins): bonwa, hambela,
@@ -245,6 +274,11 @@ COPULAS = ["ku", "aku", "i", "ayi", "li", "ali", "si", "asi", "zi", "azi", "lu",
 SHORT_VERBS = {"ya", "za", "ba", "dla", "pha", "fa", "thi", "sho"}
 # And eqa "jump", whose tables lack its object concords (ungaweqi, akaweqanga).
 SHORT_VERBS |= {"eqa"}
+# The short verbs that take no object concord: ukumba is mba's "to dig", siziba isiziba "pool", no "be them".
+NO_OBJECT_VERBS = {"ba", "za", "fa", "ya"}  # but -ku- of the future: kuyakuba, uyakufa
+# The subject concords the exclusive se- "now, already" follows (usehambile, asebehambile, and as -su- usufudumele);
+# the others it goes before (sengihambile, sebehambile).
+EXCLUSIVE_AFTER = {"u", "a", "i", "ku"}
 # Verbs a text also writes with e- or a- (ukwedlula, ezedlule "past", wezwa "he heard", ezahlukene "different"), and as
 # a frequentative (ezahlukahlukene "various"), which the pack has otherwise.
 VARIANTS = {"edlula": "dlula", "ezwa": "zwa", "ahlukana": "ehlukana", "ahluka": "ehluka", "ahlukahlukana": "ehlukana",
@@ -258,7 +292,7 @@ CONCORDS = ["ngi", "u", "si", "ni", "ba", "i", "li", "zi", "lu", "bu", "ku", "a"
             "e", "o", "aba", "esi", "eli", "ezi", "olu", "obu", "oku", "engi", "eni", "ama",
             "angi", "awu", "aka", "asi", "ani", "ali", "azi", "alu", "abu", "aku", "awa", "ayi",
             "bengi", "ube", "besi", "beni", "bebe", "ibi", "ibe", "beli", "bezi", "belu", "bebu", "beku", "be", "abe",
-            "ngangi", "wawu", "sasi", "nani", "babe", "yayi", "lali", "zazi", "lwalu", "babu", "kwaku", "waye", "aye",
+            "ngangi", "wawu", "sasi", "nani", "babe", "yayi", "lali", "zazi", "lwalu", "bwabu", "kwaku", "waye", "aye",
             "kube", "kungu", "kuyi", "kwakuyi", "kwakungu", "kunga", "kuzoba", "kungaba"]
 # The prefixes of a locative: itself (emgwaqweni), "at" with a concord (lisesifundazweni, abasemkhunjini, usekhaya),
 # "and, by, of" (nasemkhunjini, ngasemgwaqweni, wasemzini).
@@ -397,9 +431,11 @@ class Lexicon:
         for (kind, prefix, ending), verbs in seen.items():
             if len(verbs) >= (3 if kind == "C" else 2):
                 self.endings[kind][ending].add(prefix)
-        # The imperative is the stem itself (hamba, hambisa, enza), which the tables do not list as a form.
+        # The imperative is the stem itself (hamba, hambisa, enza), which the tables do not list as a form; and the past of
+        # class 14, which they lack (bwakhula "it grew").
         for kind in self.endings:
             self.endings[kind]["a"].add("")
+        self.endings["C"]["a"].add("bwa")
         self.longest_prefix = max(len(p) for k in self.endings.values() for ps in k.values() for p in ps) + 3
         # The stems a verb's forms are made on: its root and its extended roots that are no verbs of their own; a verb in
         # another vowel (thi, sho, azi) is a stem as a whole, taking the prefixes of the forms in -a.
@@ -429,6 +465,14 @@ class Lexicon:
                 if any(stem[:k] + "a" in self.verbs for k in range(len(root) + 1, len(stem))):
                     continue
                 self.stems[stem].add(verb)
+            # A labial before the passive's w becomes a palatal: lima linywa, silinyiwe; bamba banjwa, ibanjiwe.
+            for labial, palatal in (("mb", "nj"), ("m", "ny")):
+                if len(root) > 2 and root.endswith(labial):
+                    for ext in ("w", "iw"):
+                        stem = root[:-len(labial)] + palatal + ext
+                        if stem + "a" not in self.kinds:
+                            self.stems[stem].add(verb)
+                    break
         for stem in [s for s in self.stems if s.startswith(UNLISTED_ROOTS)]:
             del self.stems[stem]
         # thi "say" and sho in their perfect: uthe "he said", okuthile "something", ushilo; ba's past and future auxiliary
@@ -521,6 +565,8 @@ class Lexicon:
             for j in range(i + 1, len(token)):
                 stem, ending = token[i:j], token[j:]
                 if ending in endings and stem in stems and fits(prefix, ending, self.kind_of(stem)):
+                    if stems[stem] <= NO_OBJECT_VERBS and prefix in ALL_OBJECTS - {"ku", "kw"}:
+                        continue
                     out |= stems[stem]
             if out:
                 return out
@@ -583,7 +629,7 @@ class Lexicon:
         return "V" if stem[0] in VOWELS else "C"
 
     @functools.lru_cache(maxsize=None)
-    def _prefix_fits(self, prefix, ending, kind, persistive=True):
+    def _prefix_fits(self, prefix, ending, kind, persistive=True, objects=True):
         prefixes = self.endings[kind].get(ending)
         if prefixes and prefix in prefixes:
             return True
@@ -591,14 +637,25 @@ class Lexicon:
         plain = self.endings["C"].get(ending)
         if not plain:
             return False
-        for oc in (OBJECTS if kind == "C" else OBJECTS_BEFORE_VOWEL):
+        for oc in (OBJECTS if kind == "C" else OBJECTS_BEFORE_VOWEL) if objects else ():
             if prefix.endswith(oc) and prefix[:-len(oc)] in plain:
                 return True
         # The persistive -sa- "still" after the subject concord, an object concord after it too: akasafiki, sisakhumbula,
-        # lisalindile, akasamkhuzi; not on a short verb (isayithi "site" is no "it still says it") or an infinitive.
+        # lisalindile, akasamkhuzi, kusalindwe; not on a short verb (isayithi "site" is no "it still says it") or an
+        # infinitive, nor with an object concord before -e (kusabalale is no "it should still sleep for them").
         for i in range(1, len(prefix) - 1) if persistive else ():
             if (prefix[i:i + 2] == "sa" and (kind == "C" or i + 2 < len(prefix)) and not prefix[:i].endswith(("uku", "eku"))
-                    and self._prefix_fits(prefix[:i] + prefix[i + 2:], ending, kind)):
+                    and self._prefix_fits(prefix[:i] + prefix[i + 2:], ending, kind, objects=objects and ending != "e")):
+                return True
+        # The exclusive se- "now, already" before or after the subject concord: usehambile, sengihambile, seyidakiwe,
+        # sebehambile, sekuyahamba; not on a short verb or before -eni (kuseqhineni "at the knot"), nor with an object
+        # concord (kusemqoka "it is important" is no "it now chooses him").
+        for i in range(0, len(prefix) - 1) if persistive and ending != "eni" else ():
+            if not (prefix[i:i + 2] == "se" and (not i or prefix[:i] in EXCLUSIVE_AFTER) or prefix[i - 1:i + 2] == "usu"):
+                continue
+            rest = prefix[:i] + prefix[i + 2:]
+            if rest and (self._prefix_fits(rest, ending, kind, False, False)
+                         or rest[0] in "yw" and len(rest) > 1 and self._prefix_fits(rest[1:], ending, kind, False, False)):
                 return True
         return False
 
@@ -606,18 +663,35 @@ class Lexicon:
         """Whether [prefix] is one the tables show before a verb with [ending], without an object concord."""
         return prefix in self.endings[kind].get(ending, ())
 
+    def _readings(self, token, i, fits):
+        """The verbs [token] is a form of with its first [i] letters as the prefix, each with whether it is read on the
+        verb's root itself (no extension)."""
+        prefix = token[:i]
+        out = {}
+        for j in range(i + 1, len(token) + 1):
+            stem, ending = token[i:j], token[j:]
+            kind = self.kind_of(stem)
+            if (stem in self.stems and fits(prefix, ending, kind, len(stem) > 2)
+                    and (not self.stems[stem] <= NO_OBJECT_VERBS or fits != self._prefix_fits
+                         or self._prefix_fits(prefix, ending, kind, False, False)
+                         or prefix.endswith("ku") and self._prefix_fits(prefix[:-2], ending, kind, False, False))):
+                for verb in self.stems[stem]:
+                    out[verb] = out.get(verb, False) or verb[:-1] == stem
+            if not ending and stem in self.whole and fits(prefix, "a", kind, False):
+                for verb in self.whole[stem]:
+                    out[verb] = True
+        return out
+
     def _verbs(self, token, fits):
+        """The verbs of the shortest prefix; but a verb's root after one letter more beats extended stems only (bwakhula
+        is bwa-khul-a "it grew", no bw-akh-ul-a "it unbuilt")."""
         for i in range(0, min(len(token) - 1, self.longest_prefix) + 1):
-            prefix = token[:i]
-            out = set()
-            for j in range(i + 1, len(token) + 1):
-                stem, ending = token[i:j], token[j:]
-                kind = self.kind_of(stem)
-                if stem in self.stems and fits(prefix, ending, kind, len(stem) > 2):
-                    out |= self.stems[stem]
-                if not ending and stem in self.whole and fits(prefix, "a", kind, False):
-                    out |= self.whole[stem]
+            out = self._readings(token, i, fits)
             if out:
+                if not any(out.values()) and i < len(token) - 2:
+                    roots = {v for v, plain in self._readings(token, i + 1, self._plain_fits).items() if plain}
+                    if roots:
+                        return frozenset(roots)
                 return frozenset(out)
         return frozenset()
 
@@ -640,9 +714,14 @@ class Lexicon:
         adjective's or a noun's (laliluhlaza "it was green", wayengumuntu)."""
         for aux, concord in COMPOUND_PAST.items():
             if token.startswith(aux) and len(token) > len(aux) + 2:
-                # A participial the pack has, else a verb's form (wayesefa is fa's, no "of the inheritance").
+                # A participial the pack has, else a verb's form (wayesefa is fa's, no "of the inheritance"), with an
+                # enclitic too (wayethini "what was he saying", no "at the stick"); a noun's form without -se- is no
+                # locative and wayelala no pronoun's, but a relative stem's is its (laliluhlaza).
                 rest = concord + token[len(aux):]
-                found = (rest in self.forms and self.lemmas(rest)) or self.verb_lemmas(rest) or self.lemmas(rest)
+                tabled = self.lemmas(rest) if rest in self.forms else frozenset()
+                if not any(self.kinds[w] & {"verb", "adj", "conj", "num"} for w in tabled):
+                    tabled = frozenset()
+                found = tabled or self.verb_lemmas(rest) or self._enclitic_verbs(rest, False) or self.lemmas(rest)
                 if found:
                     if rest in self.collisions:
                         self.collisions[token] = self.collisions[rest]
@@ -652,16 +731,20 @@ class Lexicon:
     def _strong(self, verbs):
         return {w for w in verbs if len(w) >= 4 or w in SHORT_VERBS}
 
-    def _collide(self, token, nominal, others):
+    def _collide(self, token, nominal, others, share=None):
         """[nominal] and the verbs [others] that [token] is a form of alike, kept for the build (NOUN_SHARE)."""
-        self.collisions[token] = (frozenset(nominal), frozenset(others))
+        self.collisions[token] = (frozenset(nominal), frozenset(others), share or NOUN_SHARE)
         return frozenset(nominal) | frozenset(others)
 
     def _other_readings(self, token):
         """The verbs [token] is a form of by their tables or by the tables' prefixes without an object concord (ekhala,
         behlezi)."""
-        tables = {w for w in self.forms.get(token, ()) if "verb" in self.kinds[w]}
-        return self._strong(tables | self._verbs(token, self._plain_fits))
+        tables = {w for w in self.forms.get(token, ()) if "verb" in self.kinds[w] and (len(w) > 2 or w in SHORT_VERBS | {"wa"})}
+        return frozenset(tables) | self._strong(self._verbs(token, self._plain_fits) | self._perfect_verbs(token))
+
+    def _perfect_verbs(self, token):
+        """The verbs [token] is the regular perfect in -ele, -ene of (esele "which remains", sala's)."""
+        return self._parse_verb(token, self.perfect, {"e", "eyo"}, lambda p, e, k: self._prefix_fits(p, "ile", k))
 
     def _word_or_form(self, base, kinds=None):
         """[base] as a word of the lexicon or the words it is a form of, of the parts of speech [kinds] when given."""
@@ -680,6 +763,11 @@ class Lexicon:
             vowel, rest = token[len(stem)], token[len(stem) + 1:]
             found = set()
             for v in {"a": ["a"], "e": ["i", "e"], "o": ["u", "o"]}.get(vowel, []):
+                # The noun itself before another word's form written alike: nomkhulu is umkhulu "grandfather"'s, no "and
+                # the big one" (omkhulu); not nye's "another" (ngobunye ubusuku "on another night").
+                if "noun" in self.kinds.get(v + rest, ()) and not any("nye" in self.forms.get(o + rest, ()) for o in "aeo"):
+                    found = {v + rest}
+                    break
                 found |= self._word_or_form(v + rest, None if (v + rest).startswith(("uku", "ukw")) else {"noun", "pron", "adj"})
             if found:
                 return frozenset(found)
@@ -690,8 +778,11 @@ class Lexicon:
         isikole, indlela)."""
         if not (token.startswith("e") and token.endswith(("ini", "eni")) and len(token) > 6):
             return frozenset()
+        # -ini of a noun in -i, -u or -e (enkampanini) or of class 14 (ebugqilini), -eni of one in -a, -e or -o: elithini is
+        # no locative of ilitha "litre" (elitheni).
         middle = token[1:-3]
-        return frozenset(v + middle + end for v in ("u", "i", "a") for end in VOWELS if "noun" in self.kinds.get(v + middle + end, ()))
+        ends = "iue" + ("a" if middle.startswith("bu") else "") if token.endswith("ini") else "aeo"
+        return frozenset(v + middle + end for v in ("u", "i", "a") for end in ends if "noun" in self.kinds.get(v + middle + end, ()))
 
     def _copula_nouns(self, token):
         """The nouns [token] is with the copula of an i- noun (ngibhala, yibhala) or with a subject concord on it (ayibhala,
@@ -796,18 +887,23 @@ class Lexicon:
         if token in self.special:
             return frozenset({self.special[token]})
         weak = lambda w: len(w) < 4 and w not in SHORT_VERBS
+        tiny = lambda words: all(len(w) < 3 for w in words)
         nounish = lambda words: all(self.kinds[w] & {"noun"} and not self.kinds[w] & {"pron", "adj", "num"} for w in words)
         if token in self.forms:
             # A form a verb's table shares with a pronoun's or adjective's is theirs (wakhe "his", not akha's "he built";
             # abanye "others", not nya's), and so is one the noun rules read (kuyona "it is it", not ona's).
             found = self.forms[token]
             others = {w for w in found if "verb" not in self.kinds[w]}
-            # A noun's form without its first vowel (sithole, zithole of isithole "heifer") is a verb's first when it reads
-            # as one with a subject concord (sithole "we found", thola's; mfana is umfana's, no "resemble him!").
+            # A noun's form without its first vowel (sithole, zithole of isithole "heifer"; sithombe "picture") that reads
+            # as a verb's with a subject concord (sithole "we found", thola's; sithombe "that we rust") is the one word's
+            # or the other's, as the build decides (VOWELLESS_SHARE); mfana is umfana's, no "resemble him!"; an infinitive
+            # without its u (kuqala, kudla) is the verb's.
             vowelless = all("noun" in self.kinds[w] and any(token == b[1:] for b in self.bases[w]) for w in others)
             subject = self._subject_verbs(token)
             if others and vowelless and subject:
-                return subject
+                if any(w.startswith(("uku", "ukw")) for w in others):
+                    return subject
+                return self._collide(token, others, subject | self._strong(found - others), VOWELLESS_SHARE)
             # A noun's other forms a verb writes alike (ekhala "of the nose", "crying") are shared, as the build decides
             # (NOUN_SHARE); its own forms in either number (abafana, amakhala) are its.
             if others and nounish(others) and not any(token in self.bases[w] for w in others):
@@ -826,44 +922,81 @@ class Lexicon:
                 return frozenset(strong)
             if nominal:
                 return nominal
-            # A short verb's table shares many forms with a longer verb's (ungene "you should not rain", na's, is "you should
-            # enter", ngena's): the longer verb's, when the verb rules read it so; and a noun's regular form's (sana, usana's
-            # without its vowel, no "it should rain").
+            # A verb of one or two letters shares many forms with a longer verb's (ungene "you should not rain", na's, is
+            # "you should enter", ngena's): the longer verb's, when the verb rules read it so without an object concord
+            # (ayimanga is ma's "it did not stand", no "it does not kiss him"); and a noun's regular form's (sana, usana's
+            # without its vowel, no "it should rain"). A verb of three letters keeps its forms (abalwayo "who fight", lwa's;
+            # ukumba "to dig", mba's) beside a longer verb's reading (ezalwa "who was born", zala's), but yields to thi's
+            # (angithi, tha's in its table).
             if not strong:
                 regular = self.regular_lemmas(token)
-                if regular and not any(weak(w) for w in regular):
+                if regular and not any(weak(w) or len(w) < max(len(f) for f in found) for w in regular):
                     return regular
             if not all(weak(w) for w in found):
                 found = {w for w in found if not weak(w)}
             if all(len(w) < 4 for w in found):
-                longer = {w for w in self.verb_lemmas(token) if not weak(w) and (len(w) >= 4 or all(weak(f) for f in found))}
+                every = all(weak(w) for w in found)
+                longer = {w for w in self.verb_lemmas(token) if not weak(w) and (len(w) >= 4 or every)}
+                if every and tiny(found):
+                    longer &= self._verbs(token, self._plain_fits)
+                elif every and not longer & SHORT_VERBS:
+                    return frozenset(found | longer)
                 if longer:
                     return frozenset(longer)
             return frozenset(found)
         found = self.nominal_lemmas(token)
         if found:
-            # A noun the rules read with a copula (ayibhala "it is no wheelbarrow") that a verb's form writes alike (ayibhala
-            # "he writes it") is shared, as the build decides (NOUN_SHARE); not one with na, nga or a possessive (nabafana,
-            # singabakhiqizi).
-            verbs = self._other_readings(token)
-            if verbs and nounish(found) and self._copula_nouns(token):
-                return self._collide(token, found, verbs)
+            # A noun the rules read with a copula (ayibhala "it is no wheelbarrow"; uyibhala "you are a wheelbarrow") that a
+            # verb's form writes alike (ayibhala, uyibhala "he writes it") is shared, as the build decides (NOUN_SHARE); not
+            # one with na, nga or a possessive (nabafana, singabakhiqizi).
+            if nounish(found) and self._copula_nouns(token):
+                verbs = self._other_readings(token)
+                if re.match(r"(?:ngi|u|si|ni|ba|i|li|zi|ku|lu|bu|wu|a)?yi", token):
+                    verbs |= self._strong(self.verb_lemmas(token))
+                if verbs:
+                    return self._collide(token, found, verbs)
             return found
         found = self.verb_lemmas(token) or self._compound(token)
+        # The perfect in -ele, -ene of a longer verb in -ala, -ana, without an object concord, beats a shorter verb's
+        # applicative written alike: usadumele is dumala's "he is still disappointed", no "that he still roar at" (duma);
+        # ngimangele mangala's (unikele stays nika's, no "you have ... it" of kala).
+        if found and token.endswith(("ele", "ene")):
+            perfect = self._parse_verb(token, self.perfect, {"e"}, lambda p, e, k: self._prefix_fits(p, "ile", k, True, False))
+            if (perfect and not perfect & found and all(token.endswith(v[:-1] + token[-3:]) for v in found)
+                    and min(len(v) for v in perfect) > max(len(v) for v in found)):
+                found = perfect
+        if found:
+            # A noun without its first vowel that a verb's form writes alike (bhodlela "bottle", "belch for!") is shared,
+            # as the build decides (NOUN_SHARE).
+            bare = self.regular["bare"].get(token)
+            if bare and nounish(bare):
+                return self._collide(token, bare, found)
+            return found
+        # A locative with se- the regular forms read (kuseqhineni "at the knot", isezingeni) is no verb with -ni "what".
+        if token.endswith(("eni", "ini")) and "se" in token[:6] and self.regular_lemmas(token):
+            return self.regular_lemmas(token)
+        found = self._enclitic_verbs(token)
         if found:
             return found
+        return self.regular_lemmas(token)
+
+    def _enclitic_verbs(self, token, locative=True):
+        """The verbs [token] is a form of with an enclitic (ENCLITICS): uyaphi, wenzani, bephetheni (phatha's or
+        phetha's, as the tables have bephethe); a verb of one or two letters only by its table (uyaphi, no isibani "lamp"
+        as isiba-ni)."""
         for clitic in ENCLITICS:
             # No -ni "what" on a locative but an infinitive's (ekugcineni) or on a plural imperative (enzeni): esangweni,
             # isango's, is no "what is kissed?".
-            if (clitic == "ni" and token[0] in "eo" and token.endswith(("eni", "ini")) and not token.startswith(("eku", "ekw"))
-                    and not self._verbs(token[:-2], lambda p, e, k, s: p == "" and self._prefix_fits(p, e, k, False))):
+            if (locative and clitic == "ni" and token[0] in "eo" and token.endswith(("eni", "ini"))
+                    and not token.startswith(("eku", "ekw")) and not self._verbs(token[:-2], lambda p, e, k, s: p == "" and self._prefix_fits(p, e, k, False))):
                 continue
             if token.endswith(clitic) and len(token) >= len(clitic) + 3:
                 bare = token[:-len(clitic)]
-                found = self.verb_lemmas(bare)
+                tables = {w for w in self.forms.get(bare, ()) if self.kinds[w] == {"verb"} and (len(w) > 3 or w in SHORT_VERBS)}
+                found = {w for w in self.verb_lemmas(bare) if len(w) > 2} | tables
                 if found:
-                    return found
-        return self.regular_lemmas(token)
+                    return frozenset(found)
+        return frozenset()
 
 
 def _tokens(line):
@@ -1002,8 +1135,8 @@ def build(size, download, dictionaries=DICTIONARIES):
     # A noun's form a verb writes alike is the noun's unless its other forms are much rarer (NOUN_SHARE).
     for form in share:
         if form in lexicon.collisions and heads[form] == lexicon.lemmas(form):
-            nominal, others = lexicon.collisions[form]
-            rare = max(own.get(w, 0.0) for w in nominal) < NOUN_SHARE * max(own.get(w, 0.0) for w in others)
+            nominal, others, noun_share = lexicon.collisions[form]
+            rare = max(own.get(w, 0.0) for w in nominal) < noun_share * max(own.get(w, 0.0) for w in others)
             heads[form] = others if rare else nominal
     scores = defaultdict(float)
     totals = defaultdict(int)
