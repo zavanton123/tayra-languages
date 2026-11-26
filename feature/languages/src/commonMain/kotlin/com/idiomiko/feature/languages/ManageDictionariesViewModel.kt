@@ -98,6 +98,22 @@ class ManageDictionariesViewModel(
         }
     }
 
+    /**
+     * Moves the preferred dictionary at [from] to [to], the order lookups try them in. A language stores its
+     * dictionaries in list order, so the preferred ones take, in their new order, the places they held in the list,
+     * and the others keep theirs.
+     */
+    fun move(from: Int, to: Int) {
+        val preferred = state.value.preferred.mapNotNull { it.stored }
+        if (from !in preferred.indices || to !in preferred.indices || from == to) return
+        val reordered = preferred.toMutableList().apply { add(to, removeAt(from)) }
+        update { language ->
+            val isPreferred = { d: LanguageDictionary -> preferred.any { it === d || (it.id != 0L && it.id == d.id) } }
+            val next = reordered.iterator()
+            language.copy(dictionaries = language.dictionaries.map { if (isPreferred(it)) next.next() else it })
+        }
+    }
+
     fun dismissMessage() { message.value = null }
 
     /** Earlier builds could add the same catalog entry twice; keep the first of each URL. */

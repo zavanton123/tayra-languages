@@ -29,6 +29,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.model.LanguageDictionary
@@ -41,7 +42,9 @@ import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.LoadingIndicator
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.NavSection
+import com.idiomiko.core.ui.components.ReorderableColumn
 import com.idiomiko.core.ui.components.ScrollList
+import com.idiomiko.core.ui.components.cardSurface
 import com.idiomiko.core.ui.components.itemMotion
 import com.idiomiko.core.ui.i18n.tr
 import com.idiomiko.core.ui.navigation.Route
@@ -101,9 +104,14 @@ fun ManageDictionariesScreen(
                 if (state.preferred.isEmpty()) {
                     item { Text(tr("No dictionaries enabled yet."), style = MaterialTheme.typography.bodyMedium, color = colors.onSurfaceVariant) }
                 }
-                itemsIndexed(state.preferred, key = { index, entry -> entry.key("on", index) }) { _, entry -> Column(itemMotion()) {
-                    DictionaryRow(entry.name, entry.url, tint = AppAccents.green, icon = Icons.Default.Close, iconDescription = tr("Disable")) { viewModel.disable(entry) }
-                }}
+                // Dragged by their handles into the order lookups try them in.
+                item {
+                    ReorderableColumn(state.preferred, key = { it.key("on", 0) }, onMove = viewModel::move) { entry, _, handle, dragging ->
+                        Box(Modifier.padding(bottom = AppSpacing.s)) {
+                            DictionaryRow(entry.name, entry.url, tint = AppAccents.green, icon = Icons.Default.Close, iconDescription = tr("Disable"), handle = handle, dragging = dragging) { viewModel.disable(entry) }
+                        }
+                    }
+                }
                 item { SectionLabel(tr("All resources"), topPadding = AppSpacing.xl) }
                 itemsIndexed(state.available, key = { index, entry -> entry.key("off", index) }) { _, entry -> Column(itemMotion()) {
                     DictionaryRow(entry.name, entry.url, tint = null, icon = Icons.Default.Add, iconDescription = tr("Enable")) { viewModel.enable(entry) }
@@ -119,20 +127,35 @@ private fun SectionLabel(text: String, topPadding: androidx.compose.ui.unit.Dp =
 }
 
 @Composable
-private fun DictionaryRow(name: String, url: String, tint: Color?, icon: ImageVector, iconDescription: String, onAction: () -> Unit) {
+private fun DictionaryRow(
+    name: String,
+    url: String,
+    tint: Color?,
+    icon: ImageVector,
+    iconDescription: String,
+    handle: Modifier? = null,
+    dragging: Boolean = false,
+    onAction: () -> Unit,
+) {
     val colors = MaterialTheme.colorScheme
     val host = url.substringAfter("://").substringBefore("/").removePrefix("www.")
     // Several stored dictionaries can share a host, so the path tells them apart.
     val path = url.substringAfter("://").substringAfter("/", "").substringBefore(LanguageDictionary.LOOKUP_PLACEHOLDER).substringBefore("###").trimEnd('/', '?', '=', '&')
     val detail = if (name.equals(host, ignoreCase = true)) path.takeIf { it.isNotBlank() }?.let { "/$it" } else host
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
-        Column(
+        Row(
             Modifier.weight(1f).clip(AppShapes.panel)
+                .then(if (dragging) Modifier.cardSurface(AppShapes.panel) else Modifier)
                 .background(if (tint != null) tint.copy(alpha = AppAlpha.tint) else colors.surfaceVariant.copy(alpha = AppAlpha.muted))
-                .padding(horizontal = AppSpacing.l, vertical = AppSpacing.m),
+                .padding(start = if (handle != null) AppSpacing.s else AppSpacing.l, end = AppSpacing.l, top = AppSpacing.m, bottom = AppSpacing.m),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(AppSpacing.s),
         ) {
+            if (handle != null) Icon(AppIcons.DragIndicator, contentDescription = tr("Drag to reorder"), tint = colors.outline, modifier = handle.padding(AppSpacing.xxs).size(AppSizes.iconSmall).testTag("drag-dictionary"))
+            Column(Modifier.weight(1f)) {
             Text(name, style = AppText.emphasis, color = tint ?: colors.onSurface)
             if (detail != null) Text(detail, style = MaterialTheme.typography.bodySmall, color = colors.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            }
         }
         AppIconButton(icon, iconDescription, onAction, size = IconButtonSize.Large, style = IconButtonStyle.Tonal, tint = colors.onSurface, shape = AppShapes.large)
     }
