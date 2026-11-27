@@ -657,9 +657,9 @@ def nominal_forms(word):
     elif last == VIRAMA:
         # A loanword ending in a consonant: ಬಸ್‌ನಲ್ಲಿ, ಕ್ರಿಕೆಟ್‌ನ, or with the vowel the case brings (ಕ್ರಿಕೆಟಿನ, ಕ್ರಿಕೆಟನ್ನು).
         for joined in (word + "‌", word):
-            plain |= {joined + t for t in ["ನ", "ನಲ್ಲಿ", "ನಿಂದ", "ಗೆ", "ನ್ನು", "ನೊಂದಿಗೆ", "ನಂತೆ", "ಗಳು", "ಗಾಗಿ"]}
+            plain |= {joined + t for t in ["ನ", "ನಲ್ಲಿ", "ನಿಂದ", "ಗೆ", "ನ್ನು", "ನೊಂದಿಗೆ", "ನಂತೆ", "ಗಳು", "ಗಾಗಿ", "ಗಿಂತ"]}
         stem = word[:-1]
-        plain |= {stem + t for t in ["ಿನ", "ಿನಲ್ಲಿ", "ಿನಿಂದ", "ಿಗೆ", "ನ್ನು", "ು", "ೂ", "ೇ", "ಾಗಿ", "ಾದ"]}
+        plain |= {stem + t for t in ["ಿನ", "ಿನಲ್ಲಿ", "ಿನಿಂದ", "ಿಗೆ", "ನ್ನು", "ು", "ೂ", "ೇ", "ಾಗಿ", "ಾದ", "ಿಗಿಂತ"]}
         # A people's plural doubles the last consonant or takes the vowel (ಅಮೆರಿಕನ್ನರು, ಜರ್ಮನರು).
         if len(word) > 2 and word[-2] in CONSONANTS:
             human |= {word + word[-2] + "ರ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
@@ -1208,7 +1208,8 @@ def checker_word(token, words, ranks, names=frozenset()):
                 index[stem].add((key, kinds))
         _CHECKER_INDEX.clear()
         _CHECKER_INDEX[id(words)] = index
-    candidates = {token} | unclitic(token)
+    # A joiner written as the other one (ಬಸ್‍ಗೆ for ಬಸ್‌ಗೆ) or left out reads as the rules' spellings.
+    candidates = {token, plain(token)} | unclitic(token) | unclitic(plain(token))
     for name in names:
         if name.startswith("\u0000"):
             continue
