@@ -316,7 +316,8 @@ internal fun PracticeSetupContent(
                 Column(Modifier.weight(1f)) {
                     Text(if (state.loading || state.words.isEmpty()) tr("Practice") else trPlural(state.words.size, "Practise {0} word", "Practise {0} words"), style = AppText.headline)
                 }
-                AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
+                // Inside a lesson the stages are the way to something else.
+                if (!inline) AppIconButton(Icons.Default.Close, tr("Close"), onDismiss)
             }
             // The choices scroll; the title above them and the buttons below stay.
             ScrollColumn(Modifier.weight(1f, fill = compact), contentModifier = Modifier.padding(horizontal = gutter, vertical = AppSpacing.s), verticalArrangement = Arrangement.spacedBy(AppSpacing.xl)) {
