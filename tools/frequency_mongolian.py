@@ -17,12 +17,16 @@ were words of their own. So:
   agent noun's cases unless that noun is a word itself (хаагчид of хаах; уншигч keeps its own);
   a form that is a word itself is left to that word;
 - the harmonic variants of the little words are one word (уу, үү, юү; вэ, бэ; даа, дээ, доо, дөө; руу, рүү, лүү), юу
-  "what" is a word of its own, not уу's variant, and a number's attributive form is the number's (гурван of гурав).
+  "what" is a word of its own, not уу's variant, and a number's attributive form is the number's (гурван of гурав);
+- names are no words: those the texts capitalise inside a sentence (Стокгольм, Гачуурт) and those the pack glosses only as
+  a place, people, god, title or book (хурмаст, ринбүчи, данжуур).
 """
+import io
 import json
 import os
 import re
 import sqlite3
+import tarfile
 from collections import defaultdict
 
 LETTERS = re.compile(r"[а-яёөү]+")
@@ -133,9 +137,24 @@ for _word, _forms in {
     MONGOLIAN_OVERRIDES.update({_form: [_word] for _form in _forms.split()})
 # A name's genitive the Russian pack has as an adjective ("European").
 MONGOLIAN_EXCLUDE = {"европын"}
+# And names the rules below cannot tell, seen too seldom: рах (the demon Rahu), хуйхуй "Hui people", цэдэнбализм.
+MONGOLIAN_EXCLUDE |= {"рах", "хуйхуй", "цэдэнбализм"}
 # Nouns in use spelled as a verb's stem or form, the verb's in the pack (ор "bed", ор "enter!"); the rarer ones (ав "hunt",
 # ир "edge", алх "hammer") are left to the verb, as their forms are mostly its (аваас, ирээ).
 SHARED_WITH_VERBS = {"ор", "хэл", "яриа", "идээ", "уншигч", "торго"}
+
+# The corpora the list is counted from, as the builder caches them: how they write a word tells a name (Стокгольм,
+# Женова, Гачуурт), which the texts capitalise inside a sentence with all its forms, from a word, which they mostly
+# write in lower case (монгол is "Mongolian" as often as Монгол Улс).
+CORPORA = ("mon_wikipedia_2021_100K", "mon_news_2020_100K")
+NAME_SHARE = 0.9
+_CAPITALISED = re.compile(r"[А-ЯЁӨҮа-яёөү]+")
+# A word after these (or first in a sentence) is capitalised as a sentence's start, a quote's or a heading's.
+_STARTS = ".!?:;«»\"“”„'‘’()—–-"
+# The English pack's names of peoples, places, gods, titles and books, glossed only capitalised: "Khormusta (king of the
+# gods, Indra)", "Rinpoche (title of a lama)", "Tengyur (Buddhist canon)", "Jangar (epic)", "Kidan (people or person)".
+_NAME_GLOSS = re.compile(r"^[A-Z][^(]*\((?:[^)]*\W)?(?:city|town|river|lake|mountains?|monastery|epic|canon|title|"
+                         r"gods?|deity|people|tribe|ethnic group|khaganate)\b")
 
 _VOWELS = "аоуэөүияеёюы"
 _LONG = ("аа", "оо", "ээ", "өө", "уу", "үү", "ай", "ой", "уй", "үй", "эй", "ий", "ии", "иа", "яа", "ёо", "еэ", "юу", "юү")
@@ -395,6 +414,19 @@ def _other_packs(dictionaries):
     return found
 
 
+def _russian_glosses(dictionaries):
+    """The Russian pack's glosses of its words' entries, by word."""
+    found = defaultdict(list)
+    path = os.path.join(dictionaries, "mn-ru.sqlite")
+    if os.path.exists(path):
+        db = sqlite3.connect(path)
+        for word_lc, p, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
+            if p in _KINDS:
+                found[word_lc] += [g for s in json.loads(senses) for g in s.get("glosses", [])]
+        db.close()
+    return found
+
+
 def agent_noun(verb):
     """A verb's agent noun in -гч (хаагч of хаах, уншигч of унших)."""
     return {f for f in verb_forms(verb) if f.endswith("гч")}
@@ -412,15 +444,43 @@ def _regular_forms(word, kinds, agents=True):
     return made
 
 
+def capitals(dictionaries):
+    """
+    How often the corpora write each word inside a sentence, and how often capitalised there (not first, nor after a
+    full stop, colon, quote, bracket or dash), by its lower case.
+    """
+    seen, capitalised = defaultdict(int), defaultdict(int)
+    for corpus in CORPORA:
+        path = os.path.join(dictionaries, "frequency-sources", f"leipzig-{corpus}.tar.gz")
+        if not os.path.exists(path):
+            continue
+        with tarfile.open(path) as tar:
+            member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+            for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+                sentence = line.rstrip("\n").partition("\t")[2]
+                for match in _CAPITALISED.finditer(sentence):
+                    before = sentence[:match.start()].rstrip()
+                    if not before or before[-1] in _STARTS:
+                        continue
+                    word = match.group()
+                    seen[word.lower()] += 1
+                    if word[0].isupper():
+                        capitalised[word.lower()] += 1
+    return seen, capitalised
+
+
 def load(db, pos, lemmas, common, dictionaries):
     """Adds the words and forms above to the English pack's [pos], [lemmas] and [common], as load_dictionary has them."""
     # Entries glossed as another word's form are that word's.
     forms_of = defaultdict(set)
     voiced = set()
+    glossed = defaultdict(list)
     for word_lc, p, senses in db.execute("SELECT word_lc, pos, senses FROM entries"):
         if not LETTERS.fullmatch(word_lc):
             continue
         glosses = [g for s in json.loads(senses) for g in s.get("glosses", [])]
+        if p in _KINDS:
+            glossed[word_lc] += glosses
         if p == "verb" and any(_VOICE_GLOSS.search(g) for g in glosses):
             voiced.add(word_lc)
             continue
@@ -487,6 +547,30 @@ def load(db, pos, lemmas, common, dictionaries):
                 MONGOLIAN_OVERRIDES[form] = [form] + [l for l in lemmas[form] if l != form]
 
     unfold()
+    # Names are no words, nor their forms any word's: those the pack glosses as a people, place, god, title or book
+    # alone, and those the texts capitalise inside a sentence with their forms (as their stems are: Стокгольмд,
+    # Женовагийн).
+    seen, capitalised = capitals(dictionaries)
+    russian = _russian_glosses(dictionaries)
+    kept = OWN | set(ADDED) | set(NUMBERS) | set(VARIANTS)
+
+    def is_name(word, kinds):
+        if word in kept:
+            return False
+        glosses = glossed.get(word, [])
+        if glosses and all(g[:1].isupper() for g in glosses) and any(_NAME_GLOSS.search(g) for g in glosses):
+            return True
+        forms = {word} | set(_regular_forms(word, kinds))
+        caps = sum(capitalised.get(f, 0) for f in forms)
+        inside = sum(seen.get(f, 0) for f in forms)
+        if caps >= 2 and caps >= NAME_SHARE * inside:
+            return True
+        # And one the texts have too seldom to tell, which both packs gloss only capitalised (Ереван, Мальмё, Дворжак)
+        # and the texts never write in lower case inside a sentence.
+        every = glosses + russian.get(word, [])
+        return bool(every) and all(g[:1].isupper() for g in every) and caps == inside
+    for word in [w for w in common if LETTERS.fullmatch(w) and is_name(w, pos.get(w, set()))]:
+        common.pop(word)
     # Every word's regular forms that are no word themselves; and a causative or passive verb no pack has is its verb's
     # (оруулсан, байгуулагдсан).
     generated = defaultdict(set)
@@ -524,7 +608,7 @@ def load(db, pos, lemmas, common, dictionaries):
             continue
         if "verb" in kinds and not word.endswith("х"):
             kinds = kinds - {"verb"}
-        if not kinds or word in generated and not kinds & {"noun"}:
+        if not kinds or word in generated and not kinds & {"noun"} or is_name(word, kinds):
             continue
         pos[word] |= kinds
         common[word] = word
