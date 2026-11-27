@@ -485,6 +485,11 @@ class ReadingHoverTest {
         rule.onNodeWithTag("mobile-auto-pause").performClick()
         rule.waitUntil(5_000) { vm.state.value.settings.autoPause }
         rule.onNodeWithContentDescription("Auto-pause on").assertExists()
+        // Retelling has only the translation: nothing to read aloud.
+        vm.selectStage(ReadingStage.RETELL)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty() }
+        vm.selectStage(ReadingStage.READ_ALOUD)
+        rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
         System.getenv("PHONE_READER_SCREENSHOT")?.let { path ->
             rule.waitForIdle()
             javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))

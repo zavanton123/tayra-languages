@@ -941,8 +941,8 @@ private fun ReadingBody(
         // A phone's player sits over its stages; with reading aloud off it keeps only the settings.
         val sentenceControls = state.settings.showSentencePlay && pageSentences.isNotEmpty()
         Column(Modifier.fillMaxWidth()) {
-            // Nothing to read aloud over the words or the quiz.
-            if (shown == null) MobileReaderActions(
+            // Nothing to read aloud over the words, the quiz or the cards, nor in retelling, which has only the translation.
+            if (shown == null && state.stage != ReadingStage.RETELL) MobileReaderActions(
                 onSettings = onMenu,
                 playback = if (!sentenceControls) null else MobilePlayback(
                     onPreviousSentence = continuous::previous,
