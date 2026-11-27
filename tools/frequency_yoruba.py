@@ -17,6 +17,7 @@ written without its tones (ati, ninu) or a word without its dots (àwon); a spel
 as several words share it. The list's forms are the standard spellings only.
 
 The marks let some other text through, which is left out (foreign): Chinese pinyin, Vietnamese, Gbe (Fon, Gun), mojibake.
+A dialect's spelling is counted for the standard word (lénìí for lónìí).
 """
 import functools
 import gzip
@@ -122,6 +123,8 @@ PINYIN_MARK = re.compile("̌|[aeiou]̄")
 DOTTED = re.compile("[ẹọṣ]")
 # Gbe (Gun) writes ẹ and ọ as Yoruba does; two of its commonest words in one sentence tell it.
 GBE_WORDS = {yoruba_standard(w) for w in ["dọ", "wẹ", "nọ", "ẹn", "lẹ", "mẹ", "enẹ", "ehe", "gbẹtọ", "tọn"]}
+# "Ondo form of dúró", "Lagos form of lónìí", "(transitive) Ikalẹ form of sè": a dialect's word, counted for the standard one.
+DIALECT_FORM = re.compile(r"^(?:\([^)]*\) )?[A-ZÀ-ỹ][^,;(]* form of (\S+) \(“")
 
 # Parts of speech that are no words of a text.
 NOT_WORDS = {"name", "character", "prefix", "suffix", "infix", "interfix", "symbol", "phrase", "proverb", "prep_phrase"}
@@ -180,6 +183,7 @@ class Lexicon:
         db = sqlite3.connect(os.path.join(dictionaries, "yo-en.sqlite"))
         self.kinds = defaultdict(set)
         self.written = defaultdict(set)
+        dialect = {}
         for word, pos, senses in db.execute("SELECT word, pos, senses FROM entries"):
             if pos in NOT_WORDS or " " in word or not WORD_ONLY.match(word):
                 continue
@@ -189,6 +193,10 @@ class Lexicon:
                 continue
             # A word of the Ekiti dialect only (ko "that") is no word of the standard language.
             if senses and all("Ekiti" in s.get("tags", []) for s in senses):
+                continue
+            standard = {m.group(1) for m in map(DIALECT_FORM.match, glosses) if m}
+            if glosses and len(standard) == 1 and all(map(DIALECT_FORM.match, glosses)):
+                dialect[word.lower()] = yoruba_standard(standard.pop()).lower()
                 continue
             self.kinds[word.lower()].add(pos)
             self.written[word.lower()].add(word)
@@ -206,6 +214,8 @@ class Lexicon:
         self.dotless = defaultdict(set)
         for word in self.kinds:
             self.dotless[dotless(word)].add(word)
+        self.dialect = {word: standard for word, standard in dialect.items()
+                        if standard in self.kinds and word not in self.kinds and word not in self.forms}
 
     def head(self, word):
         """[word] as the pack writes it: lowercase, or capitalised when every entry is (Mùsùlùmí)."""
@@ -220,7 +230,7 @@ class Lexicon:
         return verb if self.kinds.get(verb, set()) & {"verb", "hand"} else None
 
     def is_known(self, token):
-        return token in self.kinds or token in self.forms or self.low_tone_verb(token) is not None
+        return token in self.kinds or token in self.forms or token in self.dialect or self.low_tone_verb(token) is not None
 
     def is_careless(self, token):
         """Whether [token], no word itself, is a common word without its tones (TELL_WORDS) or a word without its dots."""
@@ -242,6 +252,8 @@ class Lexicon:
             return frozenset({token}), True
         if token in self.forms:
             return frozenset(self.forms[token]), True
+        if token in self.dialect:
+            return frozenset({self.dialect[token]}), False
         return frozenset(), False
 
 
