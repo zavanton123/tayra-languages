@@ -828,7 +828,9 @@ class Lexicon:
         for key in sorted(set(verbs) - finite):
             rest = key[2:]
             cores = [rest] + ([rest[:-2]] if rest.endswith(("at", "At")) else [])
-            heads = {v for c in cores for v, k in self.stems.get(c, {}).items() if v in finite and k & INFINITIVE}
+            # An infinitive in -at is a verb's in -a (መብላት: በላ; ማጥባት: አጠባ, not አጠበ).
+            heads = {v for c in cores for v, k in self.stems.get(c, {}).items() if v in finite and k & INFINITIVE
+                     and (c == rest or not rest.endswith("at") or v.endswith("a"))}
             # መ- is a plain verb's infinitive (መግባት: ገባ, not አገባ), ማ- a causative's (ማግባት: አገባ).
             causative = {v for v in heads if v.startswith(("'a", "a"))}
             plain = {v for v in heads - causative if not v.startswith("tA")} or heads - causative
