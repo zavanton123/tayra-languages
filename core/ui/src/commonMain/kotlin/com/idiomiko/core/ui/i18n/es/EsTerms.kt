@@ -425,7 +425,6 @@ internal val esTerms: Map<String, String> = mapOf(
     "Examples from" to "Ejemplos de",
     "Write" to "Escribir",
     "Choose exercise types" to "Elige los tipos de ejercicio",
-    "Select one or more." to "Selecciona uno o más.",
     "Hide unavailable exercises" to "Ocultar ejercicios no disponibles",
     "Show {0} unavailable exercises" to "Mostrar {0} ejercicio no disponible|Mostrar {0} ejercicios no disponibles",
     "Word meaning" to "Significado de la palabra",

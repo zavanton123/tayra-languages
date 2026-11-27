@@ -425,7 +425,6 @@ internal val ruTerms: Map<String, String> = mapOf(
     "Examples from" to "Примеры из",
     "Write" to "Писать",
     "Choose exercise types" to "Выберите типы упражнений",
-    "Select one or more." to "Выберите один или несколько.",
     "Hide unavailable exercises" to "Скрыть недоступные упражнения",
     "Show {0} unavailable exercises" to "Показать {0} недоступное упражнение|Показать {0} недоступных упражнения|Показать {0} недоступных упражнений",
     "Word meaning" to "Значение слова",

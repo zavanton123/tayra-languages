@@ -425,7 +425,6 @@ internal val zhTerms: Map<String, String> = mapOf(
     "Examples from" to "例句来源",
     "Write" to "书写",
     "Choose exercise types" to "选择练习类型",
-    "Select one or more." to "可选择一项或多项。",
     "Hide unavailable exercises" to "隐藏不可用的练习",
     "Show {0} unavailable exercises" to "显示 {0} 个不可用的练习",
     "Word meaning" to "词义",

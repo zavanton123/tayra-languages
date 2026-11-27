@@ -425,7 +425,6 @@ internal val elTerms: Map<String, String> = mapOf(
     "Examples from" to "Παραδείγματα από",
     "Write" to "Γραφή",
     "Choose exercise types" to "Επιλέξτε είδη ασκήσεων",
-    "Select one or more." to "Επιλέξτε ένα ή περισσότερα.",
     "Hide unavailable exercises" to "Απόκρυψη μη διαθέσιμων ασκήσεων",
     "Show {0} unavailable exercises" to "Εμφάνιση {0} μη διαθέσιμης άσκησης|Εμφάνιση {0} μη διαθέσιμων ασκήσεων",
     "Word meaning" to "Σημασία λέξης",

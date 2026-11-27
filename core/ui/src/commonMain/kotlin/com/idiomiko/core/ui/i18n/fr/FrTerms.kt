@@ -425,7 +425,6 @@ internal val frTerms: Map<String, String> = mapOf(
     "Examples from" to "Exemples tirés de",
     "Write" to "Écrire",
     "Choose exercise types" to "Choisissez les types d'exercices",
-    "Select one or more." to "Sélectionnez-en un ou plusieurs.",
     "Hide unavailable exercises" to "Masquer les exercices indisponibles",
     "Show {0} unavailable exercises" to "Afficher {0} exercice indisponible|Afficher {0} exercices indisponibles",
     "Word meaning" to "Sens du mot",

@@ -425,7 +425,6 @@ internal val plTerms: Map<String, String> = mapOf(
     "Examples from" to "Przykłady z",
     "Write" to "Pisz",
     "Choose exercise types" to "Wybierz rodzaje ćwiczeń",
-    "Select one or more." to "Zaznacz jeden lub więcej.",
     "Hide unavailable exercises" to "Ukryj niedostępne ćwiczenia",
     "Show {0} unavailable exercises" to "Pokaż {0} niedostępne ćwiczenie|Pokaż {0} niedostępne ćwiczenia|Pokaż {0} niedostępnych ćwiczeń",
     "Word meaning" to "Znaczenie słowa",

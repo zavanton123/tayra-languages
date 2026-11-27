@@ -425,7 +425,6 @@ internal val deTerms: Map<String, String> = mapOf(
     "Examples from" to "Beispiele aus",
     "Write" to "Schreiben",
     "Choose exercise types" to "Übungsarten wählen",
-    "Select one or more." to "Wähle eine oder mehrere.",
     "Hide unavailable exercises" to "Nicht verfügbare Übungen ausblenden",
     "Show {0} unavailable exercises" to "{0} nicht verfügbare Übung anzeigen|{0} nicht verfügbare Übungen anzeigen",
     "Word meaning" to "Wortbedeutung",

@@ -340,10 +340,7 @@ internal fun PracticeSetupContent(
                         Box(Modifier.weight(0.8f)) { length() }
                     }
                 }
-                Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
-                    Text(tr("Choose exercise types"), style = AppText.sectionTitle)
-                    Text(tr("Select one or more."), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant)
-                }
+                Text(tr("Choose exercise types"), style = AppText.sectionTitle)
                 Column(verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
                     val card: @Composable (ExerciseType, Modifier) -> Unit = { type, modifier ->
                         TypeCard(type, type in setup.types, state, preview.of(type).let { it.words to it.need?.reason() }, total = preview.words, answerable = type.responses.any { it in setup.responses }, modifier) {

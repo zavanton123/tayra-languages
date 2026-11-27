@@ -425,7 +425,6 @@ internal val ptTerms: Map<String, String> = mapOf(
     "Examples from" to "Exemplos de",
     "Write" to "Escrever",
     "Choose exercise types" to "Escolha os tipos de exercício",
-    "Select one or more." to "Selecione um ou mais.",
     "Hide unavailable exercises" to "Ocultar exercícios indisponíveis",
     "Show {0} unavailable exercises" to "Mostrar {0} exercício indisponível|Mostrar {0} exercícios indisponíveis",
     "Word meaning" to "Significado da palavra",
