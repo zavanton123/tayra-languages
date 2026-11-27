@@ -34,6 +34,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
@@ -108,13 +109,17 @@ fun ToastHost(state: ToastState, durationMillis: Long = 3_000, lift: Dp = 32.dp)
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
             ) {
                 Icon(state.icon, contentDescription = null, tint = colors.inversePrimary, modifier = Modifier.size(AppSizes.icon))
-                Text(state.text, style = MaterialTheme.typography.bodyMedium, color = colors.inverseOnSurface)
+                // The message wraps in what the button leaves, so a long one never squeezes the button into a column of letters.
+                Text(state.text, Modifier.weight(1f, fill = false), style = MaterialTheme.typography.bodyMedium, color = colors.inverseOnSurface)
                 state.action?.let { (label, onAction) ->
                     Text(
                         label,
-                        Modifier.clip(AppShapes.small).clickable(role = Role.Button) { state.visible = false; onAction() }.padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
+                        Modifier.clip(AppShapes.small).clickable(role = Role.Button) { state.visible = false; onAction() }
+                            .padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs).testTag("toast-action"),
                         style = AppText.labelStrong,
                         color = colors.inversePrimary,
+                        maxLines = 1,
+                        softWrap = false,
                     )
                 }
             }
