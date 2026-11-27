@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Urdu word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its forms). Course `ur-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 7,165 words: `ur-mini-0100` to `ur-mini-7200`
-(the last band has 65 words).
+`themes.tsv` gives each course its theme. The list has 7,011 words: `ur-mini-0100` to `ur-mini-7100`
+(the last band has 11 words).
 
 ## The register
 
@@ -151,7 +151,14 @@ Things to know about the Urdu list and the checker:
   `extra_forms.tsv` adds the pack's regular forms the corpus never showed. Ranks 1–2400 keep the order
   they were written with; from 2401 the list no longer counts rare verbs through other words' forms
   (*سمری*, *بہرے*), names, halves of pairs written apart or of compounds (*مون سون*), nor a word's other
-  spelling (*مہینہ* of *مہینا*) as words of their own. Everyday words the pack lacks were added after
+  spelling (*مہینہ* of *مہینا*) as words of their own. Ranks 1–4300 keep their rows as written; from 4301
+  the list also leaves out pieces of words split by a stray space (*زبر* of *زبر دستی*, *ران* of *دو ران*,
+  *جار ی*, *میدا ن*), pieces of pairs and names (*سہن* of *رہن سہن*, *ناڈو* of *تمل ناڈو*, *سوراج*, *یاور
+  زمان*, *قاسم سلیمانی*, *مینا کماری*), and verbs counted only through other words' spellings (*پٹنا*, *ترنا*,
+  *بیانا*); a noun spelled as a verb's stem that the sentences use as the stem (*بھون لیں*, *کھود کر*, *گھیر
+  لیا*, *جھوم اٹھے*) counts for the verb (*بھوننا*, *کھودنا*, *گھیرنا*, *جھومنا*), the oblique plural of a
+  noun in -ہ goes to it (*پیمانوں* to *پیمانہ*, not *پیمان*), and the words past 4300 rank by the forms they
+  keep. Everyday words the pack lacks were added after
   rank 1000 (*والا* 1001, *بارے* 1002, *پولیس* 1003, *جبکہ*, *رکن*, *نیچے*, *ہسپتال*, *معلومات*, *تبدیلی*,
   *گزارنا*, *گزرنا*, *وہیں*, *کٹنا*: see `rank.py`). *ٹی وی* is two words to the reader, *ٹی* and *وی*,
   which the list leaves out as letters' names: both count as unknown words. The checker reads words as the
