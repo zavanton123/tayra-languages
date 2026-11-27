@@ -6,7 +6,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.BoxScope
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
 import androidx.compose.foundation.layout.FlowRow
@@ -22,7 +21,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.CheckCircle
-import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -38,10 +36,8 @@ import com.idiomiko.core.domain.courses.LessonSummary
 import com.idiomiko.core.ui.components.AppDialogSurface
 import com.idiomiko.core.ui.components.LocalWindowWidth
 import com.idiomiko.core.ui.components.AppScreenDialog
-import com.idiomiko.core.ui.components.AppIconButton
 import com.idiomiko.core.ui.components.AppIcons
 import com.idiomiko.core.ui.components.AppDivider
-import com.idiomiko.core.ui.components.IconButtonStyle
 import com.idiomiko.core.ui.components.IconTile
 import com.idiomiko.core.ui.components.LinkText
 import com.idiomiko.core.ui.components.PrimaryButton
@@ -100,9 +96,6 @@ internal fun LessonCompleteDialog(
     }
     val review: @Composable (Modifier) -> Unit = { modifier -> SecondaryButton(tr("Review lesson"), onClick = onClose, modifier = modifier.testTag("lesson-complete-review")) }
     val course: @Composable (Modifier) -> Unit = { modifier -> LinkText(tr("Back to course"), onCourse, modifier = modifier.testTag("lesson-complete-course")) }
-    val close: @Composable BoxScope.() -> Unit = {
-        AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, style = IconButtonStyle.Outlined, modifier = Modifier.align(Alignment.TopEnd).padding(AppSpacing.l))
-    }
     // A phone gives the lesson's end the whole screen, its ways on one under another at the foot, the next lesson first.
     if (compact) {
         AppScreenDialog(onDismissRequest = onClose, modifier = Modifier.testTag("lesson-complete")) {
@@ -120,7 +113,6 @@ internal fun LessonCompleteDialog(
                         course(Modifier)
                     }
                 }
-                close()
                 Confetti()
             }
         }
@@ -142,7 +134,6 @@ internal fun LessonCompleteDialog(
                     next(Modifier)
                 }
             }
-            close()
         }
         Confetti()
     }
