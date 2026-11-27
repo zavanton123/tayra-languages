@@ -1,10 +1,12 @@
 package com.idiomiko.core.domain.service
 
+import com.idiomiko.core.domain.language.LanguageCatalog
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.model.Language
 import com.idiomiko.core.domain.repository.BookRepository
 import com.idiomiko.core.domain.repository.LanguageRepository
 import com.idiomiko.core.domain.settings.SettingsRepository
+import com.idiomiko.core.domain.settings.UserSettings
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.repository.TermListFilter
 import com.idiomiko.core.domain.repository.TermListSort
@@ -86,12 +88,20 @@ class LearningLanguageService(
         return pick
     }
 
-    /** Makes [languageId] the language being learned; false, and nothing changes, when it is the native language. */
+    /**
+     * Makes [languageId] the language being learned; false, and nothing changes, when it is the native
+     * language. While none is being learned, any language can be chosen, the native one too, which
+     * then hands the meanings to another language until they are asked for.
+     */
     suspend fun select(languageId: Long): Boolean {
-        if (languages.getById(languageId)?.let(::isNative) == true) return false
+        val native = languages.getById(languageId)?.let(::isNative) == true
+        if (native && settings.current.currentLanguageId != 0L) return false
         // A language chosen is one being learned from now on, beside those learned before.
         fillMine()
-        settings.update { s -> s.copy(currentLanguageId = languageId, myLanguages = withMine(s.myLanguages, languageId)) }
+        settings.update { s ->
+            val meanings = if (native) LanguageCatalog.nativeLanguages.first { it.code != s.nativeLanguage }.code else s.nativeLanguage
+            s.copy(currentLanguageId = languageId, myLanguages = withMine(s.myLanguages, languageId), nativeLanguage = meanings)
+        }
         return true
     }
 
@@ -100,7 +110,9 @@ class LearningLanguageService(
 
     /**
      * Stops learning the language with [languageId]: it leaves the languages being learned, and when
-     * it was the current one, the first of the rest takes its place, or none, to be asked for.
+     * it was the current one, the first of the rest takes its place, or none, to be asked for. With
+     * none left, the meanings and interface languages go back to their first-start choices, to be
+     * asked for again with the next language.
      */
     suspend fun forget(languageId: Long) {
         fillMine()
@@ -109,7 +121,8 @@ class LearningLanguageService(
         settings.update { s ->
             val rest = decode(s.myLanguages).filter { it != languageId && it in ids }
             val current = if (s.currentLanguageId == languageId) rest.firstOrNull() ?: 0L else s.currentLanguageId
-            s.copy(currentLanguageId = current, myLanguages = encode(rest), knownWordCounts = encodeCounts(counts(s.knownWordCounts) - languageId))
+            val kept = s.copy(currentLanguageId = current, myLanguages = encode(rest), knownWordCounts = encodeCounts(counts(s.knownWordCounts) - languageId))
+            if (current == 0L) kept.copy(nativeLanguage = UserSettings().nativeLanguage, uiLanguage = UserSettings().uiLanguage) else kept
         }
     }
 

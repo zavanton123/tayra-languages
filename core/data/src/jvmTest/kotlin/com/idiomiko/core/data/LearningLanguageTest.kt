@@ -98,6 +98,28 @@ class LearningLanguageTest {
         assertTrue(service.select(czech))
     }
 
+    /** Removing the last language puts the meanings and interface languages back, and the next one may be the old native language. */
+    @Test
+    fun withNoLanguageLeftTheNativeOneCanBeLearned() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-learning-last", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = LearningLanguageService(settings, languages, BookRepositoryImpl(provider))
+        val english = languages.save(Language(name = "English"))
+        val czech = languages.save(Language(name = "Czech"))
+        settings.update { it.copy(nativeLanguage = "ru", uiLanguage = "ru") }
+        assertTrue(service.select(czech))
+        service.forget(czech)
+        assertEquals(0L, settings.current.currentLanguageId)
+        assertEquals("en", settings.current.nativeLanguage)
+        assertEquals("en", settings.current.uiLanguage)
+
+        // English is the native language now, yet with nothing learned it can be chosen; the meanings move off it.
+        assertTrue(service.select(english))
+        assertEquals(english, settings.current.currentLanguageId)
+        assertEquals("zh", settings.current.nativeLanguage)
+    }
+
     /** The languages being learned are first those with opened texts or saved words, and the current one; each one chosen joins them. */
     @Test
     fun theLanguagesBeingLearnedAreTheUsedOnesAndEachChosen() = runBlocking<Unit> {

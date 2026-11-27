@@ -106,8 +106,9 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
         if (languages.isNotEmpty() && languages.none { it.id == currentId }) learning.ensure(pickUnchosen = false)
     }
     val state = remember(languages, currentId, native, knownWords, mine, wordCounts) {
-        // The native language is listed but cannot be chosen for learning.
-        val nativeIds = languages.filter { learning.isNative(it) }.map { it.id }.toSet()
+        // The native language is listed but cannot be chosen for learning, unless none is being learned:
+        // the meanings and interface languages are then asked for again once one is chosen.
+        val nativeIds = if (currentId == 0L) emptySet() else languages.filter { learning.isNative(it) }.map { it.id }.toSet()
         suspend fun choose(id: Long) {
             val first = currentId == 0L
             if (!learning.select(id) || id == currentId) return
@@ -121,7 +122,7 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
             onSelectScript = { id, script ->
                 scope.launch {
                     val language = languages.firstOrNull { it.id == id } ?: return@launch
-                    if (learning.isNative(language)) return@launch
+                    if (currentId != 0L && learning.isNative(language)) return@launch
                     if (language.chineseScript != script) chineseScripts.setScript(id, script)
                     choose(id)
                 }
