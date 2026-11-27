@@ -1,100 +1,100 @@
-1	3501	sakandari	sakandari sakandarin
-2	3502	shaho	shaho shahon shahuna
-3	3503	ɗabi'ance	ɗabi'ance
-4	3504	sammani	sammani
-5	3505	tinkarar	tinkarar
-6	3506	sadaki	sadaki sadakin sadakinta sadakinsu
-7	3507	tanti	tanti tantin tantinsa tantinsu tantinta
-8	3508	kwasfa	kwasfan kwasfa
-9	3509	atishawa	atishawa
-10	3510	golan	golan
-11	3511	mazhabobi	mazhabobi mazhabobin mazhabobinta
-12	3512	shunayya	shunayya
-13	3513	yayyaga	yayyaga
-14	3514	ƙwauri	ƙwauri ƙwaurina
-15	3515	kulli	kulli kullin kullinsa
-16	3516	tozarta	tozarta tozartar tozartawa
-17	3517	rawani	rawani rawuna rawanin rawaninsa rawunan
-18	3518	tabki	tabki tabkin
-19	3519	bahaya	bahaya
-20	3520	matsafi	matsafi
-21	3521	shaɗaya	shaɗaya
-22	3522	kwikwiyo	kwikwiyo kwikwiyon kwikwiyonsu
-23	3523	wofi	wofi wofinta wofin
-24	3524	jigogi	jigogi jigogin jigoginsa jigoginta jigoginsu
-25	3525	filogi	filogi
-26	3526	khaki	khaki
-27	3527	serology	serology
-28	3528	waran	waran
-29	3529	tamaula	tamaula
-30	3530	taƙaitacciyar	taƙaitacciyar
-31	3531	damshi	damshi damshin damshinsu damshinsa
-32	3532	abinsha	abinsha abinshan
-33	3533	baiko	baiko baikon baikonsa
-34	3534	cingam	cingam
-35	3535	huɗa	huɗa huɗar
-36	3536	saku	saku
-37	3537	tsofi	tsofi tsofin
-38	3538	ƙaunataccena	ƙaunataccena
-39	3539	zasuyi	zasuyi
-40	3540	tawaya	tawaya tawayar tawayansa
-41	3541	nahawu	nahawu nahawun nahawunsu nahawunta
-42	3542	bangaskiya	bangaskiya bangaskiyar bangaskiyarsu bangaskiyarta bangaskiyarsa bangaskiyata
-43	3543	alfijir	alfijir
-44	3544	shaihi	shehin shaihin shaihi shehi shehinsa shaihunai shehinsu
-45	3545	hargitsa	hargitsa
-46	3546	aci	aci
-47	3547	nakiya	nakiya nakiyar
-48	3548	amatsayin	amatsayin amatsayinta
-49	3549	taushe	taushe
-50	3550	riski	riski riskin
-51	3551	tama	tama tamar taman
-52	3552	zam	zam
-53	3553	asma	asma
-54	3554	cincin	cincin
-55	3555	fiya	fiya
-56	3556	gwa	gwa
-57	3557	shari'ance	shari'ance
-58	3558	ɓaragurbin	ɓaragurbin
-59	3559	mushe	mushen mushe
-60	3560	kolejoji	kolejoji kolejojin
-61	3561	surah	surah
-62	3562	jamaa	jamaa jamaar jamaan
-63	3563	tabka	tabka tabkawa
-64	3564	tsatsa	tsatsa tsatsar tsatsan
-65	3565	mafitsara	mafitsara mafitsararsa mafitsarar
-66	3566	talala	talala talalar
-67	3567	kurwa	kurwa kurwar kurwarsu
-68	3568	raki	rakin raki
-69	3569	ruguza	ruguza ruguzar ruguzawa ruguzawar
-70	3570	gadara	gadara
-71	3571	kanu	kanu kanun kanunsa
-72	3572	balla	balla ballanta ballan
-73	3573	ganau	ganau
-74	3574	majalissar	majalissar majalissarta
-75	3575	fenariti	fenariti fenaritin
-76	3576	alami	alami alamin
-77	3577	fiyayyen	fiyayyen
-78	3578	randa	randa randar
-79	3579	malanta	malanta
-80	3580	ƙarau	ƙarau
-81	3581	tsokana	tsokana tsokanar
-82	3582	baraka	baraka barakar barakarsu
-83	3583	hake	hake
-84	3584	sameshi	sameshi
-85	3585	tsakankanin	tsakankanin tsakankaninsu
-86	3586	tutiya	tutiya tutiyar
-87	3587	tsugunar	tsugunar tsugunarwa tsugunarwar
-88	3588	karkanda	karkanda karkandan
-89	3589	bayyan	bayyan
-90	3590	d'aya	d'aya
-91	3591	gararamba	gararamba
-92	3592	girba	girba
-93	3593	yakara	yakara
-94	3594	yinƙurin	yinƙurin
-95	3595	molo	molo molonsa
-96	3596	cincirindo	cincirindon cincirindo
-97	3597	ƙauyawa	ƙauyawa ƙauyawan
-98	3598	datse	datse datsewa datsewar
-99	3599	batta	batta
-100	3600	dabaibayi	dabaibayi
+1	3501	dushe	dushe dushewa
+2	3502	ƙusa	ƙusa ƙusoshin ƙusar ƙusoshinsa ƙusoshinta ƙusata
+3	3503	dubura	dubura duburarsa duburar duburarta
+4	3504	gallazawa	gallazawa
+5	3505	dalma	dalma dalman dalmar
+6	3506	mutune	mutune
+7	3507	bakanike	bakanike bakaniken
+8	3508	maƙoshi	maƙoshi
+9	3509	rayar	rayar rayarwa
+10	3510	gwaiwa	gwaiwa gwaiwar
+11	3511	asubahi	asubahi asubahin
+12	3512	abaya	abaya abayan
+13	3513	duma	duma dumame dumamen dumar duman
+14	3514	dillacin	dillacin
+15	3515	gumurzu	gumurzu gumurzun
+16	3516	yarantaka	yarantaka yarantakarsa yarantakar yarantakarsu
+17	3517	lakume	lakume
+18	3518	tafasasshen	tafasasshen
+19	3519	tazarce	tazarce
+20	3520	dusashe	dusashe dusashewa dusashewar
+21	3521	ɗago	ɗago ɗagon ɗagowa
+22	3522	ƙiri	ƙiri
+23	3523	sufeto	sufeto sufeton
+24	3524	yunkuro	yunkuro yunkurowa
+25	3525	dogari	dogari dogarawan dogarai dogarin dogarawa
+26	3526	gusar	gusar
+27	3527	ɗakushe	ɗakushe ɗakushewa
+28	3528	bazama	bazama
+29	3529	kiyo	kiyo kiyon
+30	3530	kudurce	kudurce
+31	3531	labe	labe
+32	3532	sak	sak
+33	3533	saww	saww
+34	3534	tseratar	tseratar
+35	3535	ƴanto	ƴanto ƴanton
+36	3536	ɓarauniya	ɓarauniya ɓarauniyar
+37	3537	rusasshiya	rusasshiya rusasshiyar
+38	3538	tozarci	tozarci
+39	3539	ƙwar	ƙwar
+40	3540	caccaki	caccaki
+41	3541	tsundum	tsundum
+42	3542	walda	walda
+43	3543	kofur	kofur
+44	3544	muƙamuƙi	muƙamuƙina muƙamuƙi muƙamuƙin muƙamuƙinsa
+45	3545	sifa	sifa sifar sifarsa sifarsu
+46	3546	muƙala	muƙala muƙalar muƙalarsa muƙalarta
+47	3547	saja	sajan saja
+48	3548	caka	cakawa caka
+49	3549	hazaƙa	hazaƙa hazaƙar hazaƙarsa
+50	3550	buroshi	buroshi buroshin
+51	3551	limami	limami
+52	3552	ɓula	ɓula ɓulan ɓulawa
+53	3553	mahaukata	mahaukata mahaukatan
+54	3554	ƙadangare	ƙadangare ƙadangaren ƙadangaru ƙadangarun
+55	3555	warƙa	warƙar warƙoƙi warƙa warƙoƙin
+56	3556	ƙoda	ƙodar ƙodarsa ƙodoji ƙodan ƙoda
+57	3557	abarba	abarba
+58	3558	ƙyanƙyashe	ƙyanƙyashe ƙyanƙyashewa
+59	3559	kasko	kaskon kasko
+60	3560	zawo	zawo zawon
+61	3561	rini	rini rinin
+62	3562	araha	araha araharsa
+63	3563	rubutacciya	rubutacciya rubutacciyar
+64	3564	toya	toyawa toya toye
+65	3565	masunci	masunci
+66	3566	rubu'i	rubu'i rubu'in
+67	3567	wafati	wafati wafatin wafatinsa
+68	3568	ƴan'uwantaka	ƴan'uwantaka ƴan'uwantakar
+69	3569	fensir	fensir
+70	3570	diga	diga
+71	3571	loma	loma lomar
+72	3572	misalta	misalta misaltawa
+73	3573	kwalta	kwalta
+74	3574	fat	fat
+75	3575	daƙiƙi	daƙiƙai daƙiƙin daƙiƙi
+76	3576	ruɓanya	ruɓanya
+77	3577	sab	sab
+78	3578	tsawatarwa	tsawatarwa
+79	3579	zogale	zogale
+80	3580	camfi	camfi camfin
+81	3581	lif	lif
+82	3582	shimfidu	shimfidu shimfidun
+83	3583	ƙudurta	ƙudurta
+84	3584	ri	ri
+85	3585	badawa	badawa
+86	3586	kange	kange
+87	3587	kwatanci	kwatanci kwatancin kwatancinsa
+88	3588	cinsa	cinsa
+89	3589	haziƙanci	haziƙanci haziƙancinsu
+90	3590	iza	iza
+91	3591	wajejen	wajejen
+92	3592	garaje	garaje garajen
+93	3593	agama	agama
+94	3594	aljannu	aljannu aljannun
+95	3595	birjik	birjik
+96	3596	harwayau	harwayau
+97	3597	shelkwatar	shelkwatar shelkwatarta
+98	3598	dafaffe	dafaffe dafaffen
+99	3599	tarihance	tarihance
+100	3600	ayin	ayin

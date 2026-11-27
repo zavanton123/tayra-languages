@@ -1,100 +1,100 @@
-1	3201	yafiya	yafiya
-2	3202	fanko	fanko
-3	3203	kaure	kaure kaurewa kauren
-4	3204	ca	ca
-5	3205	sanka	sanka sankar
-6	3206	gurgunta	gurgunta gurguntar
-7	3207	fes	fes
-8	3208	karkaɗe	karkaɗe
-9	3209	sikila	sikila sikilar sikilan
-10	3210	rara	rara rarar rararta
-11	3211	yaka	yaka
-12	3212	busar	busar busarwa busarwar
-13	3213	muguntar	muguntar muguntarsu
-14	3214	zub	zub
-15	3215	tuya	tuya tuyar
-16	3216	gabaki	gabaki
-17	3217	ƙirƙirarren	ƙirƙirarren
-18	3218	daida	daida daidan
-19	3219	bagade	bagade bagaden
-20	3220	jallo	jallo
-21	3221	ɗinnan	ɗinnan
-22	3222	dandamali	dandamali dandamalin dandamalinta
-23	3223	tafa	tafawa tafa tafan
-24	3224	biskit	biskit
-25	3225	gin	gin
-26	3226	buta	butar buta butarsa butoci butocin butana
-27	3227	dandazo	dandazo dandazon
-28	3228	mujiya	mujiya mujiyoyi mujiyoyin
-29	3229	guga	guga
-30	3230	mashawarci	mashawarci mashawarcin mashawarcinsa mashawarcinta
-31	3231	wardi	wardi
-32	3232	baho	bahon baho
-33	3233	kirim	kirim
-34	3234	iblis	iblis ibilis
-35	3235	hukumci	hukumci hukumcin hukumcinsa
-36	3236	artabu	artabu artabun
-37	3237	tur	tur
-38	3238	hisabi	hisabi hisabinka
-39	3239	juye	juye juyewa juyewar
-40	3240	safofin	safofin
-41	3241	albishir	albishir
-42	3242	amarci	amarci amarcinsu amarcin
-43	3243	fafaroma	fafaroma fafaroman
-44	3244	gigice	gigice gigicewa
-45	3245	kaboyi	kaboyi kaboyin
-46	3246	sakainar	sakainar
-47	3247	najasa	najasa najasar najasarsu
-48	3248	suya	suya suyata
-49	3249	maƙil	maƙil
-50	3250	ilahirin	ilahirin ilahirinsu
-51	3251	sisi	sisi sisin
-52	3252	baida	baida
-53	3253	katsalandan	katsalandan
-54	3254	fikinik	fikinik
-55	3255	cushe	cushe
-56	3256	shakara	shakara shakarar shakaran
-57	3257	nizami	nizami nizamin nizaminmu
-58	3258	jannati	jannati jannatin
-59	3259	suttura	suttura sutturar
-60	3260	takaba	takaba takabar takabarsa
-61	3261	shawa	shawar shawa shawan shawarsa
-62	3262	asa	asa
-63	3263	sakanni	sakanni sakannin
-64	3264	sin	sin
-65	3265	ƙugiya	ƙugiya ƙugiyoyin ƙugiyar ƙugiyoyi ƙugiyarka
-66	3266	wajaba	wajaba
-67	3267	mukulli	mukulli mukullin
-68	3268	ƙanƙan	ƙanƙan
-69	3269	hallelujah	hallelujah
-70	3270	bayyananne	bayyananne bayyanannen
-71	3271	gabatowa	gabatowa gabatowar
-72	3272	sonta	sonta
-73	3273	kitsa	kitsa kitsawa
-74	3274	tulin	tulin
-75	3275	hani	hani hanin hanina haninsa
-76	3276	oga	oga ogan ogansu ogar
-77	3277	acan	acan
-78	3278	kwankwaso	kwankwaso kwankwasonsu kwankwason
-79	3279	ahali	ahali ahalin ahalinsa ahalinta
-80	3280	kanyi	kanyi
-81	3281	laya	layar laya layu layun layarsa
-82	3282	naƙuda	naƙuda
-83	3283	ƙwaƙwaf	ƙwaƙwaf
-84	3284	kaciya	kaciya kaciyar kaciyarsa kaciyarsu
-85	3285	malalaci	malalaci malalacin
-86	3286	saje	saje sajen
-87	3287	fasihi	fasihi fasihin
-88	3288	kilishi	kilishi
-89	3289	fesa	fesa fesawa
-90	3290	kuwwa	kuwwa kuwwar kuwwata
-91	3291	tusa	tusa
-92	3292	caza	caza
-93	3293	minshari	minshari
-94	3294	ayari	ayarin ayari ayarinsa ayarinmu ayarinsu
-95	3295	yaƙ	yaƙ
-96	3296	kafi	kafi kafina
-97	3297	yashe	yashe yashewa yashewar
-98	3298	akewa	akewa
-99	3299	jinginar	jinginar
-100	3300	yayyafa	yayyafa yayyafawa
+1	3201	shakara	shakara shakarar shakaran
+2	3202	jannati	jannati jannatin
+3	3203	suttura	suttura sutturar
+4	3204	nizami	nizami nizamin nizaminmu
+5	3205	takaba	takaba takabar takabarsa
+6	3206	shawa	shawar shawa shawan shawarsa
+7	3207	asa	asa
+8	3208	sakanni	sakanni sakannin
+9	3209	ƙugiya	ƙugiya ƙugiyoyin ƙugiyar ƙugiyoyi ƙugiyarka
+10	3210	wajaba	wajaba
+11	3211	mukulli	mukulli mukullin
+12	3212	hallelujah	hallelujah
+13	3213	bayyananne	bayyananne bayyanannen
+14	3214	kitsa	kitsa kitsawa
+15	3215	tulin	tulin
+16	3216	hani	hani hanin hanina haninsa
+17	3217	oga	oga ogan ogansu ogar
+18	3218	ahali	ahali ahalin ahalinsa ahalinta
+19	3219	laya	layar laya layu layun layarsa
+20	3220	naƙuda	naƙuda
+21	3221	kaciya	kaciya kaciyar kaciyarsa kaciyarsu
+22	3222	malalaci	malalaci malalacin
+23	3223	saje	saje sajen
+24	3224	fasihi	fasihi fasihin
+25	3225	kilishi	kilishi
+26	3226	fesa	fesa fesawa
+27	3227	kuwwa	kuwwa kuwwar kuwwata
+28	3228	tusa	tusa
+29	3229	caza	caza
+30	3230	minshari	minshari
+31	3231	ayari	ayarin ayari ayarinsa ayarinmu ayarinsu
+32	3232	yashe	yashe yashewa yashewar
+33	3233	jinginar	jinginar
+34	3234	yayyafa	yayyafa yayyafawa
+35	3235	tsinkaya	tsinkaya tsinkayar tsinkayan tsinkayarsu
+36	3236	waliyyi	waliyyi waliyyai waliyyin waliyyan waliyyinsa waliyyinta waliyyanta
+37	3237	danƙa	danƙa danƙawa
+38	3238	kaffara	kaffara kaffarar
+39	3239	tsagera	tsageran tsagera
+40	3240	kuli	kuli kulin
+41	3241	sakaya	sakaya sakayan
+42	3242	anga	anga angar
+43	3243	ɓanga	ɓanga
+44	3244	mizani	mizani mizanin mizaninsa
+45	3245	rokoki	rokoki rokokin
+46	3246	tsakuwa	tsakuwa tsakuwar
+47	3247	katifa	katifar katifu katifa katifarsa katifun katifan
+48	3248	uƙuba	uƙuba uƙubar
+49	3249	kaɗaita	kaɗaita kaɗaitawa
+50	3250	rogo	rogo
+51	3251	uffan	uffan
+52	3252	lallashi	lallashin lallashi lallashinsa lallashinta
+53	3253	ɓarnata	ɓarnata ɓarnatar
+54	3254	ludayi	ludayin ludayi ludayina ludayinsa ludayinsu
+55	3255	fasiƙi	fasiƙi fasiƙai fasiƙin fasiƙa
+56	3256	janaba	janaba
+57	3257	haɗama	haɗama haɗamarka
+58	3258	ar	ar
+59	3259	igwa	igwa igogi igogin igwan igwansa
+60	3260	canjaras	canjaras
+61	3261	sadar	sadar
+62	3262	mafifici	mafificin mafifici mafificinku mafificinsa
+63	3263	jamusanci	jamusanci jamusancin
+64	3264	fantsama	fantsama
+65	3265	jarumta	jarumta jarumtar jarumtarta jarumtarsu
+66	3266	laba	laba labarta laban labar labata
+67	3267	taguwa	taguwa taguwar taguwata
+68	3268	gogagge	gogagge gogaggen gogaggun
+69	3269	nakalto	nakalto
+70	3270	ɗimuwa	ɗimuwa ɗimuwar
+71	3271	tattaɓa	tattaɓa tattaɓawa
+72	3272	kwastan	kwastan
+73	3273	maita	maitan maita maitar maitarmu maitarsu maitarki
+74	3274	wada	wadan wada wadana wadar
+75	3275	mahawara	mahawara mahawarar mahawararsu
+76	3276	madauki	madauki madaukin
+77	3277	tsokane	tsokane
+78	3278	tumɓuke	tumɓuke
+79	3279	ruwaya	ruwaya ruwayar ruwayarsa
+80	3280	shagaltar	shagaltar shagaltarwa
+81	3281	tangaran	tangaran
+82	3282	makoki	makoki makokin makokinsa
+83	3283	faskara	faskara
+84	3284	isgili	isgili
+85	3285	miƙar	miƙar
+86	3286	sakarai	sakarai sakaran
+87	3287	unifom	unifom
+88	3288	wawushe	wawushe wawushewa
+89	3289	ƙwara	ƙwara ƙwarar
+90	3290	kakkaɓe	kakkaɓe kakkaɓewa
+91	3291	kankana	kankana
+92	3292	mangwaro	mangwaro
+93	3293	nutsar	nutsar nutsarwa
+94	3294	mutuntaka	mutuntaka mutuntakar mutuntakarsa mutuntakarta mutuntakarsu mutuntakarmu
+95	3295	faman	faman
+96	3296	madugu	madugu madugun
+97	3297	beyar	beyar
+98	3298	maishe	maishe
+99	3299	gaira	gaira
+100	3300	rina	rina

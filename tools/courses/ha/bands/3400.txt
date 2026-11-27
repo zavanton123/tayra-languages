@@ -1,100 +1,100 @@
-1	3301	tsinkaya	tsinkaya tsinkayar tsinkayan tsinkayarsu
-2	3302	waliyyi	waliyyi waliyyai waliyyin waliyyan waliyyinsa waliyyinta waliyyanta
-3	3303	danƙa	danƙa danƙawa
-4	3304	ainahi	ainahi ainahin
-5	3305	tsagera	tsageran tsagera
-6	3306	kaffara	kaffara kaffarar
-7	3307	kuli	kuli kulin
-8	3308	mirgina	mirgina mirginawa
-9	3309	sakaya	sakaya sakayan
-10	3310	anga	anga angar
-11	3311	ɓanga	ɓanga
-12	3312	mizani	mizani mizanin mizaninsa
-13	3313	rokoki	rokoki rokokin
-14	3314	tsakuwa	tsakuwa tsakuwar
-15	3315	katifa	katifar katifu katifa katifarsa katifun katifan
-16	3316	azal	azal
-17	3317	uƙuba	uƙuba uƙubar
-18	3318	gurɓatattu	gurɓatattu gurɓatattun
-19	3319	kaɗaita	kaɗaita kaɗaitawa
-20	3320	uffan	uffan
-21	3321	rogo	rogo
-22	3322	lallashi	lallashin lallashi lallashinsa lallashinta
-23	3323	kaimu	kaimu
-24	3324	sasu	sasu
-25	3325	ɓarnata	ɓarnata ɓarnatar
-26	3326	fasiƙi	fasiƙi fasiƙai fasiƙin fasiƙa
-27	3327	janaba	janaba
-28	3328	ludayi	ludayin ludayi ludayina ludayinsa ludayinsu
-29	3329	haɗama	haɗama haɗamarka
-30	3330	ar	ar
-31	3331	igwa	igwa igogi igogin igwan igwansa
-32	3332	canjaras	canjaras
-33	3333	sadar	sadar
-34	3334	mafifici	mafificin mafifici mafificinku mafificinsa
-35	3335	jamusanci	jamusanci jamusancin
-36	3336	rukuna	rukuna rukunan rukunansa rukunansu
-37	3337	akafi	akafi akafin
-38	3338	fantsama	fantsama
-39	3339	laba	laba labarta laban labar labata
-40	3340	jarumta	jarumta jarumtar jarumtarta jarumtarsu
-41	3341	taguwa	taguwa taguwar taguwata
-42	3342	gogagge	gogagge gogaggen gogaggun
-43	3343	mamatan	mamatan
-44	3344	kodai	kodai
-45	3345	ɗimuwa	ɗimuwa ɗimuwar
-46	3346	tattaɓa	tattaɓa tattaɓawa
-47	3347	nakalto	nakalto
-48	3348	kwastan	kwastan
-49	3349	maita	maitan maita maitar maitarmu maitarsu maitarki
-50	3350	mahawara	mahawara mahawarar mahawararsu
-51	3351	wada	wadan wada wadana wadar
-52	3352	madauki	madauki madaukin
-53	3353	tsokane	tsokane
-54	3354	tumɓuke	tumɓuke
-55	3355	takwarorinta	takwarorinta
-56	3356	aureta	aureta
-57	3357	ruwaya	ruwaya ruwayar ruwayarsa
-58	3358	shagaltar	shagaltar shagaltarwa
-59	3359	tangaran	tangaran
-60	3360	yanyin	yanyin
-61	3361	makoki	makoki makokin makokinsa
-62	3362	faskara	faskara
-63	3363	isgili	isgili
-64	3364	miƙar	miƙar
-65	3365	sakarai	sakarai sakaran
-66	3366	sonki	sonki
-67	3367	unifom	unifom
-68	3368	yakamat	yakamat
-69	3369	kokuma	kokuma
-70	3370	wawushe	wawushe wawushewa
-71	3371	ƙwara	ƙwara ƙwarar
-72	3372	kakkaɓe	kakkaɓe kakkaɓewa
-73	3373	kankana	kankana
-74	3374	mangwaro	mangwaro
-75	3375	cik	cik
-76	3376	indai	indai
-77	3377	nutsar	nutsar nutsarwa
-78	3378	mutuntaka	mutuntaka mutuntakar mutuntakarsa mutuntakarta mutuntakarsu mutuntakarmu
-79	3379	faman	faman
-80	3380	madugu	madugu madugun
-81	3381	maciya	maciya maciyar
-82	3382	maishe	maishe
-83	3383	beyar	beyar
-84	3384	keda	keda
-85	3385	gaira	gaira
-86	3386	rina	rina
-87	3387	dina	dina dinar
-88	3388	yima	yima
-89	3389	katantanwa	katantanwa katantanwar katantanwan
-90	3390	bindige	bindige
-91	3391	kuɗa	kuɗa
-92	3392	mushiriki	mushiriki mushrikai mushirikai mushrikan
-93	3393	gwauro	gwauro gwauron
-94	3394	husuma	husuma husumarsa husumar
-95	3395	kafirta	kafirta
-96	3396	azzakari	azzakarinka azzakari azzakarinsa azzakarina
-97	3397	jemage	jemage
-98	3398	amo	amo amon amonta
-99	3399	akace	akace
-100	3400	tiriliyan	tiriliyan
+1	3301	dina	dina dinar
+2	3302	katantanwa	katantanwa katantanwar katantanwan
+3	3303	kuɗa	kuɗa
+4	3304	bindige	bindige
+5	3305	mushiriki	mushiriki mushrikai mushirikai mushrikan
+6	3306	gwauro	gwauro gwauron
+7	3307	husuma	husuma husumarsa husumar
+8	3308	kafirta	kafirta
+9	3309	azzakari	azzakarinka azzakari azzakarinsa azzakarina
+10	3310	jemage	jemage
+11	3311	amo	amo amon amonta
+12	3312	tiriliyan	tiriliyan
+13	3313	zuhudu	zuhudu zuhudun
+14	3314	fura	fura furar furata furan furana
+15	3315	ƙauri	ƙauri ƙaurin
+16	3316	yoyo	yoyo yoyon
+17	3317	babatu	babatu babatun
+18	3318	bibbiyu	bibbiyu
+19	3319	fafitika	fafitika fafitikar fafatukar
+20	3320	tangarda	tangarda
+21	3321	shawartar	shawartar
+22	3322	tsotsa	tsotsa tsotse tsotsewa tsotsawa
+23	3323	wajibci	wajibci wajibcin wajibcinsu wajibcinta wajibcinsa
+24	3324	ƙaiƙayi	ƙaiƙayi ƙaiƙayin
+25	3325	haddace	haddace haddacewa
+26	3326	kiredit	kiredit
+27	3327	baffa	bappa baffan baffansa baffa baffana baffanninsa
+28	3328	sirdi	sirdi sirdin sirdinta sirdina sirdinsa
+29	3329	makiyayi	makiyayi makiyayin
+30	3330	dattaku	dattaku dattakun
+31	3331	kadin	kadin
+32	3332	mahaɗi	mahaɗi mahaɗin mahaɗinsa mahaɗinta
+33	3333	murzani	murzani murjani
+34	3334	jahannama	jahannama
+35	3335	cunkushe	cunkushe cunkushewar
+36	3336	almubazzaranci	almubazzaranci almubazzarancin
+37	3337	gum	gum sum
+38	3338	diddige	dugadugan diddigen diddige dugaduganku dugaduganmu dugaduganta
+39	3339	zazzafar	zazzafar
+40	3340	gajarta	gajarta gajartawar gajartawa
+41	3341	ashana	ashana
+42	3342	kwaikwayi	kwaikwayi
+43	3343	tausa	tausa tausawa
+44	3344	alatu	alatu
+45	3345	kagara	kagara kagaran kagarar kagaransa kagaransu kagararsa kagararsu
+46	3346	firiji	firiji firijin
+47	3347	filo	filo filonta
+48	3348	sari	sari sarin sarina
+49	3349	butulci	butulci butulcin
+50	3350	aradu	aradu
+51	3351	alƙalanci	alƙalanci alƙalancin
+52	3352	fakin	fakin
+53	3353	fasassun	fasassun
+54	3354	sauwake	sauwake
+55	3355	tattausan	tattausan
+56	3356	ƙiftawar	ƙiftawar
+57	3357	wawanci	wawanci
+58	3358	yawwa	yawwa yawwan
+59	3359	al'aura	al'aura al'aurar al'aurarsu al'aurarsa al'aurarta al'auransu
+60	3360	tsintsiya	tsintsiya tsintsiyan
+61	3361	rura	rura
+62	3362	kurmus	kurmus
+63	3363	ƙaƙaba	ƙaƙaba
+64	3364	ciyaman	ciyaman
+65	3365	rigaya	rigaya
+66	3366	gurasa	gurasar gurasa
+67	3367	baligi	baligi
+68	3368	mudu	mudu
+69	3369	rige	rige rigen
+70	3370	ɗanda	ɗanda
+71	3371	ƙaƙabawa	ƙaƙabawa
+72	3372	hubbare	hubbaren hubbarensa hubbare
+73	3373	alburusai	alburusai
+74	3374	alamta	alamta
+75	3375	la'anci	la'anci
+76	3376	zikiri	zikirin zikiri
+77	3377	boka	bokaye boka bokan bokar bokayen
+78	3378	jaje	jaje jajena jajenmu
+79	3379	firar	firar
+80	3380	halak	halak
+81	3381	lalura	lalura lalurar
+82	3382	majigi	majigi majigin
+83	3383	lauje	lauje
+84	3384	benaye	benaye benayen benayensu benayenta
+85	3385	tawakkali	tawakkali tawakkalin
+86	3386	hamdala	hamdala
+87	3387	noƙe	noƙe
+88	3388	kwala	kwala kwalar kwalan
+89	3389	hidimtawa	hidimtawa
+90	3390	fusatattu	fusatattu fusatattun
+91	3391	faƙiri	faƙirai faƙiran faƙiri
+92	3392	makance	makance
+93	3393	ƙawanya	ƙawanya
+94	3394	sakandari	sakandari sakandarin
+95	3395	shaho	shaho shahon shahuna
+96	3396	ɗabi'ance	ɗabi'ance
+97	3397	tinkarar	tinkarar
+98	3398	sadaki	sadaki sadakin sadakinta sadakinsu
+99	3399	tanti	tanti tantin tantinsa tantinsu tantinta
+100	3400	kwasfa	kwasfan kwasfa

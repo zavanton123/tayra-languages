@@ -1,100 +1,100 @@
-1	3601	sa'ida	sa'ida sa'idar
-2	3602	sharo	sharo sharon
-3	3603	sulke	sulke sulken sulkensa
-4	3604	maƙera	maƙera maƙeran
-5	3605	kissa	kissar kissan kissa
-6	3606	shirka	shirka shirkarsu
-7	3607	bataliya	bataliya bataliyar bataliyan bataliyarsa
-8	3608	zawarci	zawarci zawarcin zawarcinsa zawarcinta zawarcinsu
-9	3609	tire	tire tiren
-10	3610	kumburi	kumburi kumburin
-11	3611	garu	garun garu garukan
-12	3612	tsumma	tsumman tsumma
-13	3613	fatali	fatali
-14	3614	zafafa	zafafa zafafan zafafanta zafafansa
-15	3615	ungozoma	ungozoma
-16	3616	wawashe	wawashe wawashewa wawashewar
-17	3617	kwafe	kwafe kwafen kwafenta
-18	3618	tsatso	tsatso tsatson
-19	3619	mutumci	mutumci mutumcin mutumcinsa
-20	3620	mashayi	mashayi mashayin
-21	3621	nai	nai
-22	3622	dushe	dushe dushewa
-23	3623	ƙusa	ƙusa ƙusoshin ƙusar ƙusoshinsa ƙusoshinta ƙusata
-24	3624	dubura	dubura duburarsa duburar duburarta
-25	3625	gallazawa	gallazawa
-26	3626	dalma	dalma dalman dalmar
-27	3627	mutune	mutune
-28	3628	bakanike	bakanike bakaniken
-29	3629	maƙoshi	maƙoshi
-30	3630	rayar	rayar rayarwa
-31	3631	gwaiwa	gwaiwa gwaiwar
-32	3632	asubahi	asubahi asubahin
-33	3633	abaya	abaya abayan
-34	3634	duma	duma dumame dumamen dumar duman
-35	3635	gumurzu	gumurzu gumurzun
-36	3636	yarantaka	yarantaka yarantakarsa yarantakar yarantakarsu
-37	3637	dillacin	dillacin
-38	3638	fakaice	fakaice
-39	3639	addua	addua adduar adduarmu
-40	3640	lakume	lakume
-41	3641	tafasasshen	tafasasshen
-42	3642	tazarce	tazarce
-43	3643	ɗibi	ɗibi
-44	3644	dusashe	dusashe dusashewa dusashewar
-45	3645	taiki	taiki taikin
-46	3646	ɗago	ɗago ɗagon ɗagowa
-47	3647	ƙiri	ƙiri
-48	3648	firai	firai firan
-49	3649	yunkuro	yunkuro yunkurowa
-50	3650	sufeto	sufeto sufeton
-51	3651	dogari	dogari dogarawan dogarai dogarin dogarawa
-52	3652	gusar	gusar
-53	3653	masha	masha
-54	3654	ɗakushe	ɗakushe ɗakushewa
-55	3655	bazama	bazama
-56	3656	kiyo	kiyo kiyon
-57	3657	kudurce	kudurce
-58	3658	kyam	kyam
-59	3659	labe	labe
-60	3660	sak	sak
-61	3661	sameta	sameta
-62	3662	saww	saww
-63	3663	tseratar	tseratar
-64	3664	ƴanto	ƴanto ƴanton
-65	3665	ɓarauniya	ɓarauniya ɓarauniyar
-66	3666	rusasshiya	rusasshiya rusasshiyar
-67	3667	tozarci	tozarci
-68	3668	ƙwar	ƙwar
-69	3669	caccaki	caccaki
-70	3670	tsundum	tsundum
-71	3671	walda	walda
-72	3672	kofur	kofur
-73	3673	muƙamuƙi	muƙamuƙina muƙamuƙi muƙamuƙin muƙamuƙinsa
-74	3674	sifa	sifa sifar sifarsa sifarsu
-75	3675	manhajoji	manhajoji manhajojin
-76	3676	muƙala	muƙala muƙalar muƙalarsa muƙalarta
-77	3677	saja	sajan saja
-78	3678	caka	cakawa caka
-79	3679	hazaƙa	hazaƙa hazaƙar hazaƙarsa
-80	3680	buroshi	buroshi buroshin
-81	3681	limami	limami
-82	3682	ɓula	ɓula ɓulan ɓulawa
-83	3683	luguden	luguden
-84	3684	mahaukata	mahaukata mahaukatan
-85	3685	ƙadangare	ƙadangare ƙadangaren ƙadangaru ƙadangarun
-86	3686	warƙa	warƙar warƙoƙi warƙa warƙoƙin
-87	3687	ƙoda	ƙodar ƙodarsa ƙodoji ƙodan ƙoda
-88	3688	abarba	abarba
-89	3689	ƙyanƙyashe	ƙyanƙyashe ƙyanƙyashewa
-90	3690	kasko	kaskon kasko
-91	3691	zawo	zawo zawon
-92	3692	rini	rini rinin
-93	3693	araha	araha araharsa
-94	3694	tsotsa	tsotsa tsotsawa
-95	3695	rubutacciya	rubutacciya rubutacciyar
-96	3696	toya	toyawa toya toye
-97	3697	masunci	masunci
-98	3698	rubu'i	rubu'i rubu'in
-99	3699	wafati	wafati wafatin wafatinsa
-100	3700	ƴan'uwantaka	ƴan'uwantaka ƴan'uwantakar
+1	3601	barwa	barwa
+2	3602	daidaitacciyar	daidaitacciyar
+3	3603	halas	halas
+4	3604	maigirma	maigirma
+5	3605	riɗi	riɗi riɗin
+6	3606	tsararraki	tsararraki tsararrakinta
+7	3607	lallasa	lallasa
+8	3608	tulu	tulu tulun tuluna tulunan tulunsa
+9	3609	buzu	buzu
+10	3610	fasadi	fasadi fasadin
+11	3611	gudunmowa	gudunmowa gudunmowar
+12	3612	habo	habo
+13	3613	halasci	halasci halascin
+14	3614	iƙrarin	iƙrarin
+15	3615	sababi	sababin sababi
+16	3616	yushau	yushau
+17	3617	ƙanzo	ƙanzon ƙanzo
+18	3618	tozo	tozon tozo
+19	3619	ɓad	ɓad
+20	3620	kafur	kafurta kafur
+21	3621	aibata	aibata
+22	3622	facaka	facaka
+23	3623	juju	juju jujun
+24	3624	shaci	shaci shacin
+25	3625	fadanci	fadanci
+26	3626	ha'ula'i	ha'ula'i
+27	3627	la'alla	la'alla
+28	3628	marowaci	marowaci
+29	3629	miskini	miskini miskinai
+30	3630	sahur	sahur
+31	3631	sansan	sansan sansanta
+32	3632	yamutsa	yamutse yamutsa yamutsawar
+33	3633	magini	magini maginan maginin magina
+34	3634	jahiliyya	jahiliyya jahiliyyar
+35	3635	nin	nin
+36	3636	eka	eka
+37	3637	fatattake	fatattake
+38	3638	ƙala	ƙala ƙalar ƙalarmu ƙalarsa ƙalansu
+39	3639	gurneti	gurneti
+40	3640	aƙin	aƙin
+41	3641	naƙasassu	naƙasassu naƙasassun
+42	3642	kasafta	kasafta kasaftawa
+43	3643	nassi	nassi nassin nassinsa
+44	3644	hamshakan	hamshakan
+45	3645	karkasa	karkasa
+46	3646	ambulan	ambulan
+47	3647	zi	zi zin zinta
+48	3648	baitulmali	baitulmalin baitulmalinta baitulmali
+49	3649	guru	guru guraye gurun
+50	3650	rasit	rasit rasiɗai
+51	3651	azahar	azahar
+52	3652	adduna	adduna
+53	3653	waƙafi	waƙafi
+54	3654	tattake	tattake tattakewa tattakewar
+55	3655	tsararre	tsararre tsararren
+56	3656	tunkuɗe	tunkuɗe
+57	3657	mashaidi	mashaidi mashaidin
+58	3658	alkyabba	alkyabba alkyabbar alkyabbarsa
+59	3659	ingarma	ingarman ingarma
+60	3660	birgediya	birgediya birgediyansa
+61	3661	izgili	izgili
+62	3662	sassake	sassake sassaken
+63	3663	tunga	tunga tungar tungarta
+64	3664	alli	alli
+65	3665	cirani	cirani ciranin
+66	3666	mawa	mawa
+67	3667	masaƙa	masaƙa masaƙu masaƙan masaƙar masaƙun
+68	3668	wuski	wuski
+69	3669	kadari	kadarin kadari
+70	3670	cara	cara caran
+71	3671	fatake	fatake fataken
+72	3672	kurege	kurege
+73	3673	sauda	sauda
+74	3674	shiryayyu	shiryayyu shiryayyun
+75	3675	amosani	amosani amosanin
+76	3676	ittifaki	ittifaki
+77	3677	komitin	komitin
+78	3678	matsatsi	matsatsi matsatsin
+79	3679	sadda	sadda saddar
+80	3680	daɗaɗɗiyar	daɗaɗɗiyar
+81	3681	gajiyayyu	gajiyayyu
+82	3682	kududdufi	kududdufi kududdufin
+83	3683	kyamaci	kyamaci
+84	3684	salawat	salawat
+85	3685	ɗanbaba	ɗanbaba
+86	3686	situdiyo	situdiyo situdiyon
+87	3687	haƙ	haƙ
+88	3688	kuge	kuge kugen
+89	3689	runfunan	runfunan
+90	3690	ƙaulin	ƙaulin
+91	3691	majiyyaci	majiyyaci majiyyacin
+92	3692	ba'askare	ba'askare askarawa askarawan
+93	3693	gyambon	gyambon gyambonsu
+94	3694	himmantu	himmantu himmantuwa
+95	3695	ikin	ikin
+96	3696	jarabce	jarabce
+97	3697	kirata	kirata
+98	3698	lamunce	lamunce
+99	3699	saɗiya	saɗiya
+100	3700	yanyanka	yanyanka
