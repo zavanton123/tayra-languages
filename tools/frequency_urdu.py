@@ -504,8 +504,44 @@ def read_usage(db, pos, lemmas):
             for piece in (a, b):
                 if piece not in _HELPING:
                     split[piece] = split.get(piece, 0) + count
+    _read_loan_pieces(usage, known)
     _read_pairs(usage, known, foreign, {w for w, kinds in pos.items() if "num" in kinds})
     return usage
+
+
+# A word the pack lacks that the sentences have whole LOAN_WHOLE times and more often than a piece of it (English loans:
+# آرمی, باولنگ) makes that piece written apart a piece of a word too (آ رمی, باو لنگ), as a pack word's do: a single
+# letter, or a piece beside a piece no word of the pack (not a compound's halves: سفارت خانہ, رد عمل).
+LOAN_WHOLE = 50
+
+
+def _read_loan_pieces(usage, known):
+    """Counts in usage["broken"] and usage["split"] the uses as pieces of the words LOAN_WHOLE has."""
+    seen = usage["seen"]
+
+    def whole(word, piece):
+        return word not in known and seen.get(word, 0) >= max(LOAN_WHOLE, seen.get(piece, 0))
+
+    broken, joined = {}, {}
+    for sentence in _sentences():
+        words = LETTERS.findall(urdu_fold(sentence))
+        last = len(words) - 1
+        for i, word in enumerate(words):
+            if word in _HELPING or word in known and len(word) == 1:
+                continue
+            before = words[i - 1] if i else ""
+            after = words[i + 1] if i < last else ""
+            if len(after) == 1 and after != "و" and whole(word + after, word):
+                broken[word] = broken.get(word, 0) + 1
+            elif len(before) == 1 and before not in "وک" and whole(before + word, word):
+                broken[word] = broken.get(word, 0) + 1
+            elif len(word) > 1 and len(after) > 1 and after not in known and whole(word + after, word):
+                joined[word] = joined.get(word, 0) + 1
+            elif len(word) > 1 and len(before) > 1 and before not in known and whole(before + word, word):
+                joined[word] = joined.get(word, 0) + 1
+    for kind, counts in (("broken", broken), ("split", joined)):
+        for word, count in sorted(counts.items()):
+            usage[kind][word] = usage[kind].get(word, 0) + count
 
 
 def _read_pairs(usage, known, foreign, numbers):
