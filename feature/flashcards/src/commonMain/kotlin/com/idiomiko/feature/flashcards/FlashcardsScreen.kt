@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.material3.ScaffoldDefaults
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -179,10 +180,18 @@ fun FlashcardsDialog(onNavigate: (Route) -> Unit, onClose: () -> Unit) {
 
 /**
  * Reviewing the flashcards of the language being learned, one card at a time; with [onClose], in a dialog.
- * A [limit] makes it a quick session, which stops after that many answers unless asked to go on.
+ * A [limit] makes it a quick session, which stops after that many answers unless asked to go on. [inline] puts it
+ * inside another screen, such as a phone's lesson, whose bars give the way out: a title, and nothing to close.
  */
 @Composable
-fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel = koinViewModel(), onClose: (() -> Unit)? = null, onBack: (() -> Unit)? = null, limit: Int? = null) {
+fun FlashcardsScreen(
+    onNavigate: (Route) -> Unit,
+    viewModel: FlashcardsViewModel = koinViewModel(),
+    onClose: (() -> Unit)? = null,
+    onBack: (() -> Unit)? = null,
+    limit: Int? = null,
+    inline: Boolean = false,
+) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val speaker = rememberSpeaker(koinInject(), koinInject(), koinInject<SentenceAudio>())
     CollectEvents(viewModel.events) { event ->
@@ -219,7 +228,7 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
             if (onClose != null) {
                 Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xl, end = AppSpacing.m, top = AppSpacing.m), verticalAlignment = Alignment.CenterVertically) {
                     Text(tr("Flashcards"), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
-                    AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-flashcards-dialog"), style = IconButtonStyle.Tonal)
+                    if (!inline) AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-flashcards-dialog"), style = IconButtonStyle.Tonal)
                 }
             } else {
                 // A phone reviews full screen, without the tabs, so its bar has the way out.
@@ -228,8 +237,10 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
         },
         // Once the day's cards are done, the reader's stage is checked from the dialog's lower right corner.
         floatingActionButton = {
-            if (onClose != null && !state.loading && !state.preparingAudio && state.card == null) LocalStageCheck.current?.invoke(onClose)
+            if (onClose != null && !inline && !state.loading && !state.preparingAudio && state.card == null) LocalStageCheck.current?.invoke(onClose)
         },
+        // Inside another screen, which already keeps clear of the system's bars.
+        contentWindowInsets = if (inline) WindowInsets(0) else ScaffoldDefaults.contentWindowInsets,
         containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
     ) { padding ->
         if (state.loading) {

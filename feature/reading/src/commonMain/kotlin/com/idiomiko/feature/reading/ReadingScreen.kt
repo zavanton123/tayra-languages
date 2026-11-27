@@ -5,6 +5,7 @@ import com.idiomiko.core.ui.theme.readingFontFamily
 import com.idiomiko.core.domain.service.SetupKind
 import com.idiomiko.core.ui.components.LocalPreparing
 import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
+import com.idiomiko.core.ui.navigation.LocalFlashcardsPanel
 import com.idiomiko.core.ui.navigation.LocalStageCheck
 import com.idiomiko.core.domain.model.ReadingStage
 import androidx.compose.material.icons.filled.Close
@@ -768,6 +769,7 @@ private fun ReadingBody(
     }
     var flashcards by remember { mutableStateOf(false) }
     val flashcardsDialog = LocalFlashcardsDialog.current
+    val flashcardsPanel = LocalFlashcardsPanel.current
     val noLearning = tr("No words on this page are being learned")
     val openStage: (ReadingStage) -> Unit = { stage ->
         closeInline()
@@ -779,7 +781,10 @@ private fun ReadingBody(
                 else -> quizSetup = true
             }
             // The day's cards, as the Flashcards page has them.
-            ReadingStage.FLASHCARDS -> if (flashcardsDialog != null) flashcards = true
+            ReadingStage.FLASHCARDS -> when {
+                compact && flashcardsPanel != null -> inlineStage = InlineStage.Flashcards
+                flashcardsDialog != null -> flashcards = true
+            }
             else -> Unit
         }
     }
@@ -968,7 +973,7 @@ private fun ReadingBody(
                         size = fittedStageSize(state.pageStages.size, maxWidth), badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages },
                     )
                 }
-                CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = COMPACT_CHECK_SIZE)
+                CheckStageButton(state.stage, state.stage in state.stages, { closeInline(); viewModel.checkStage() }, size = COMPACT_CHECK_SIZE)
             }
         }
     } else {
@@ -1162,6 +1167,7 @@ private sealed interface InlineStage {
     class Words(val termIds: List<Long>) : InlineStage
     data object QuizSetup : InlineStage
     class Quiz(val setup: PracticeSetup) : InlineStage
+    data object Flashcards : InlineStage
 }
 
 /** [stage] in the text's place; [onShow] moves on to another, from the quiz's choice to the quiz and back. */
@@ -1183,6 +1189,7 @@ private fun InlineStageView(
         is InlineStage.Quiz -> FreshViewModels {
             PracticeScreen(page, stage.setup, onNavigate = leave, onBack = onClose, dialog = true, onPractiseAgain = { onShow(InlineStage.QuizSetup) })
         }
+        InlineStage.Flashcards -> LocalFlashcardsPanel.current?.invoke(onClose)
     }
 }
 

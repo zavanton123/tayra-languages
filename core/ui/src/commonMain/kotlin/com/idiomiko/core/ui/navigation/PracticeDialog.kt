@@ -26,6 +26,12 @@ val LocalStageCheck = staticCompositionLocalOf<(@Composable (onClose: () -> Unit
 val LocalFlashcardsDialog = staticCompositionLocalOf<(@Composable (onClose: () -> Unit) -> Unit)?> { null }
 
 /**
+ * The day's flashcards filling the space they are put in, as a phone's lesson shows them between its bar and its
+ * stages, leaving by [onClose] for what they open; null where the app does not provide them.
+ */
+val LocalFlashcardsPanel = staticCompositionLocalOf<(@Composable (onClose: () -> Unit) -> Unit)?> { null }
+
+/**
  * The way to start a practice from this page: on a window wider than a phone, in the
  * [LocalPracticeDialog] shown here over the page, with [check] as its [LocalStageCheck]; on a phone, or without one, by [onNavigate].
  */

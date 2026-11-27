@@ -739,6 +739,33 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { ReadingStage.FLASHCARDS in vm.state.value.stages }
     }
 
+    /** On a phone the day's flashcards show in the text's place, under the lesson's bar and over its stages, whose check finishes them. */
+    @Test
+    fun aPhoneShowsTheDaysFlashcardsInsideTheLesson() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        var dialogs = 0
+        rule.setContent {
+            CompositionLocalProvider(
+                LocalWindowWidth provides WindowWidth.COMPACT,
+                LocalFlashcardsDialog provides { _ -> dialogs++ },
+                com.idiomiko.core.ui.navigation.LocalFlashcardsPanel provides { _ -> Box(Modifier.testTag("inline-flashcards")) },
+            ) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-flashcards").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("stage-flashcards").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("inline-flashcards").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, dialogs, "no dialog over the lesson")
+        rule.onNodeWithContentDescription("Back to course").assertExists()
+        rule.onNodeWithTag("stage-chain").assertExists()
+        rule.onNodeWithTag("check-stage").performClick()
+        rule.waitUntil(5_000) { ReadingStage.FLASHCARDS in vm.state.value.stages }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("inline-flashcards").fetchSemanticsNodes().isEmpty() }
+    }
+
     /** The vocabulary list a lesson opens over the reader. */
     private val vocabularyList get() = module {
         val noDictionary = object : com.idiomiko.core.domain.dictionary.OfflineDictionary {

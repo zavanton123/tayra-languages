@@ -1,7 +1,10 @@
 package com.idiomiko.navigation
 
 import com.idiomiko.core.ui.navigation.LocalFlashcardsDialog
+import com.idiomiko.core.ui.navigation.LocalFlashcardsPanel
 import com.idiomiko.feature.flashcards.FlashcardsDialog
+import com.idiomiko.feature.flashcards.FlashcardsScreen
+import com.idiomiko.core.ui.components.FreshViewModels
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.media.VideoOpenRequests
 import com.idiomiko.core.domain.service.LanguageRemovalService
@@ -126,6 +129,9 @@ fun AppNavHost(openHome: Int = 0) {
     val flashcardsDialog = remember<@Composable (() -> Unit) -> Unit>(navController) {
         { onClose -> FlashcardsDialog(onNavigate = { navController.navigate(it) }, onClose = onClose) }
     }
+    val flashcardsPanel = remember<@Composable (() -> Unit) -> Unit>(navController) {
+        { onClose -> FreshViewModels { FlashcardsScreen(onNavigate = { onClose(); navController.navigate(it) }, onClose = onClose, inline = true) } }
+    }
     // A voice the playlist player asked for is fetched at once, even on mobile data.
     val assets = koinInject<LanguageAssets>()
     // Syncing is asked from the wide bar's button or by pulling a phone page down; neither shows without an account service.
@@ -144,7 +150,7 @@ fun AppNavHost(openHome: Int = 0) {
         }
     }
     CompositionLocalProvider(
-        LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,
+        LocalPracticeDialog provides practiceDialog, LocalFlashcardsDialog provides flashcardsDialog, LocalFlashcardsPanel provides flashcardsPanel, LocalSyncEntry provides syncEntry, LocalAccountBadge provides accountBadge,
         LocalWebPictures provides koinInject<WebPictures>(), LocalSettingsSwitch provides settingsSwitch,
         LocalHiddenSettingsSections provides hiddenSections,
     ) {
