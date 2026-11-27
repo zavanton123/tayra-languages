@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Nepali word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its forms). Course `ne-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 5,009 words: `ne-mini-0100` to `ne-mini-5100`
-(the last band has 9 words).
+`themes.tsv` gives each course its theme. The list has 5,058 words: `ne-mini-0100` to `ne-mini-5100`
+(the last band has 58 words).
 
 ## The register
 
@@ -169,3 +169,10 @@ Things to know about the Nepali list and the checker:
   *जानकारी*). They are Nepali words all the same; teach them as usual.
 - **List noise**: a few names that are also words rank high (*श्रेष्ठ*, *सिंह*, *आचार्य*), and some titles and
   party names (*जी*, *श्री*, *कांग्रेस*, *माओवादी*): skip them, a band of 80–100 taught words is normal.
+- **Past rank 2300 the list was rebuilt** (ranks 1–2300 and their bands are as they were): given names the news
+  writes before a surname (*अनिल, दिनेश, शंकर, प्रदीप, हरि, सुमन*), castes and surnames (*बाहुन, ठकुरी, ठाकुर*)
+  and film English and Hindi (*बुक, रोल, पिताजी, बिन*) are out; other spellings and forms are filed under their
+  word (*महत्व* under *महत्त्व*, *परिषद्* under *परिषद*, *चारवटा* under *चार*, *देशभर* under *देश*); causatives
+  are verbs of their own (*सुनाउनु, बोलाउनु, उठाउनु, मिलाउनु*, no longer forms of *सुन्नु, बोल्नु, उठ्नु, मिल्नु*),
+  and everyday words the packs lacked are in (*बेच्नु, घुम्नु, छाड्नु, बोक्नु, चामल, माटो, दल* "party",
+  *गाउँपालिका*). Bands 2400 and 2500 are mostly these words.
