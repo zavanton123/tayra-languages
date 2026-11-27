@@ -242,6 +242,8 @@ fun ReadingText(
     var spoken = 0
     Column(modifier) {
         page.paragraphs.forEach { paragraph ->
+            // A blank line in the text is a paragraph of nothing: it adds no empty line of its own.
+            if (paragraph.sentences.all { it.items.isEmpty() }) return@forEach
             val places: List<Int?> = paragraph.sentences.map { if (it.displayText.isSpoken()) spoken++ else null }
             // A run of items that shares one Text: the whole paragraph, or one sentence each.
             val runs = if (perSentence) paragraph.sentences.mapIndexed { i, s -> Run(s.items, s.displayText, places[i]) } else listOf(Run(paragraph.sentences.flatMap { it.items }, "", null))
