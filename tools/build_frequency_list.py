@@ -7696,6 +7696,10 @@ def build_list(language, found, size, required=frozenset(), verbal_nouns=None, c
     if language == "sq":
         # An Albanian word's count is only its own uses: names, dialect words and noise go, forms join their word (frequency_albanian.fold).
         frequency_albanian.fold(scores, forms, DICTIONARIES, CACHE, FALLBACKS["sq"]["leipzig"])
+    if language == "ps":
+        # A Pashto word's count is only its uses as that word: not as a piece, beside a name or joined (frequency_pashto.fold).
+        frequency_pashto.fold(scores, forms, set(pos) | {f for f, of in lemmas.items() if of},
+                              os.path.join(DICTIONARIES, "ps-en.sqlite"))
     ranked = sorted(scores, key=lambda w: -scores[w])[:size]
     listed, listed_as = set(ranked), set()
     if language == "fa":

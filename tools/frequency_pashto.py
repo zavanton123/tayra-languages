@@ -100,18 +100,25 @@ def is_pashto(sentence):
     return any(pashto_fold(w) in _OWN_WORDS for w in READER_WORD.findall(sentence))
 
 
+# The Pashto sentences' words of each corpus counted (sentence_counts), for fold.
+SENTENCES = {}
+
+
 def sentence_counts(path):
     """A Leipzig corpus's word counts over its Pashto sentences, the words cut and folded as the reader cuts and matches them."""
     import io
     import tarfile
     from collections import Counter
     counts = Counter()
+    sentences = SENTENCES[path] = []
     with tarfile.open(path) as tar:
         member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
         for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
             sentence = line.rstrip("\n").partition("\t")[2]
             if is_pashto(sentence):
-                counts.update(w for w in map(pashto_fold, READER_WORD.findall(sentence)) if LETTERS.fullmatch(w))
+                words = tuple(w for w in map(pashto_fold, READER_WORD.findall(sentence)) if LETTERS.fullmatch(w))
+                sentences.append(words)
+                counts.update(words)
     return counts
 
 
@@ -887,3 +894,114 @@ EXCLUDE = {pashto_fold(w) for w in "برای کشور مردم من کند ان�
 EXCLUDE |= {pashto_fold(w) for w in "کندهار حسين".split()}
 # And قابو "control" (قابو کول), which the pack lacks, no form of قاب "plate".
 EXCLUDE.add(pashto_fold("قابو"))
+
+
+# A word of the pack that is two words written as one (دهري for د هرې, نوله for نو له, فکرکوي for فکر کوي) is those two
+# words where the sentences write them apart JOINED_APART times as often as joined.
+JOINED_APART = 5
+# And these, written joined more often than apart, are mostly two words (ورشو: ور شو, not "meadow"; مايي: ما یې, not مایه's).
+_JOINED = {pashto_fold(w) for w in "ورشو مايي".split()}
+# The words before a name (ښاغلي الهام هوتکي, انجنير ...) and after one (خان, جان, نصر الله; a magazine's مجله: ګوربت مجله).
+_TITLES = {pashto_fold(w) for w in (
+    "ښاغلي ښاغلی ښاغلو محترم محترمه مولوي مولوی مولانا حاجي الحاج قاري ملا سید شهید مرحوم مرحومه اغلې اغلی مېرمن ډاکټر "
+    "داکتر انجنير انجینر جنرال ډګرمن ډګروال ډګرجنرال شيخ حضرت سردار نواب حافظ مفتي").split()}
+_AFTER_NAME = {pashto_fold(w) for w in "خان جان صاحب صیب خېل خیل الله الدین مجله مجلې ورځپاڼه ورځپاڼې".split()}
+
+
+def read_usage(known):
+    """
+    How the Pashto sentences counted use each word (folded): the share of its uses that are a piece of a word of the pack a space
+    split (زيږ يدو, عا لم, و خت: the word whole at least as often) or beside a title or name (ښاغلي هوتکي, ګوربت مجله); and the
+    words of the pack that are two words written as one (joined: دهري, نوله, فکرکوي).
+    """
+    from collections import Counter
+    seen, pairs = Counter(), Counter()
+    for path in sorted(SENTENCES):
+        for words in SENTENCES[path]:
+            seen.update(words)
+            for a, b in zip(words, words[1:]):
+                if a + b in known:
+                    pairs[a, b] += 1
+    lost = Counter()
+    joined = set(_JOINED)
+    for (a, b), n in sorted(pairs.items()):
+        whole = a + b
+        if seen[whole] >= n:
+            lost[a] += n
+            lost[b] += n
+        elif a in known and b in known and n >= JOINED_APART * seen[whole]:
+            joined.add(whole)
+    for path in sorted(SENTENCES):
+        for words in SENTENCES[path]:
+            for i, word in enumerate(words):
+                if i and words[i - 1] in _TITLES or i + 1 < len(words) and words[i + 1] in _AFTER_NAME:
+                    lost[word] += 1
+    return {w: min(1.0, n / seen[w]) for w, n in lost.items() if seen[w]}, joined
+
+
+# Names, titles, dynasties, tribes and places the pack has as words (بېګم, هوتکي "Hotak", اپريدی, پارس, نصر of نصرالله,
+# وېلېنګټن), and words of Dari (اسم, نان, صحبت, نوشته) or Arabic (يوم "day", not "spade") whose list rank is their other use.
+NOT_WORDS = {pashto_fold(w) for w in (
+    "بېګم هوتکي بودا پيمان ګهيځ پېچ اپريدی پارس پلوشه ګوربت نصر وېلېنګټن اسم نان پېروزي روزنامه صحبت نګاه نوشته اعتقاد "
+    "يوم").split()}
+
+
+# The letters regional and loan spellings of one word write for each other (ټ, ت: لاټرۍ, لاترۍ; ډ, د; ړ, ر: دړد, درد; ښ, ش:
+# ښوروا, شوروا; ږ, ژ; ځ, ز; ڼ, ن; ن, م before ب: تنباکو, تمباکو; آ, ا: آهنګ, اهنګ), and the ه a vowel swallows (شاهزاده,
+# شازاده).
+_VARIANT_LETTERS = str.maketrans({"\u067c": "\u062a", "\u0689": "\u062f", "\u0693": "\u0631", "\u069a": "\u0634",
+                                  "\u0696": "\u0698", "\u0681": "\u0632",
+                                  "\u0622": "\u0627", "\u06bc": "\u0646"})
+
+
+def variant_key(word):
+    """A folded word as its regional and loan spellings write it too (_VARIANT_LETTERS)."""
+    word = word.translate(_VARIANT_LETTERS).replace("\u0646\u0628", "\u0645\u0628")
+    return re.sub("(?<=[\u0627\u0648\u064a])\u0647(?=.)", "", word)
+
+
+_STOP_GLOSS = set("the and for with from that this one who which any its his her their person thing used being of".split())
+# A gloss naming a man of a tribe (an Afridi man, a Barakzai man), or a given name or surname.
+_TRIBE_GLOSS = re.compile(r"^(?:an? )?[A-Z][a-z]+ man$|\b(?:given name|surname)\b")
+
+
+def read_glosses(pack):
+    """The pack's words' gloss words (folded word -> set) and its tribes and names (a word all of whose glosses name one)."""
+    import json
+    import sqlite3
+    glosses, kinds = {}, {}
+    db = sqlite3.connect(pack)
+    for word, pos, senses in db.execute("SELECT word_lc, pos, senses FROM entries ORDER BY id"):
+        key = pashto_fold(word)
+        heads = [g for s in json.loads(senses) for g in s.get("glosses", [])]
+        glosses.setdefault(key, set()).update(
+            w[:5] for g in heads for w in re.findall("[a-z]+", g.lower()) if len(w) > 2 and w not in _STOP_GLOSS)
+        named = pos == "name" or bool(heads) and all(_TRIBE_GLOSS.search(g) for g in heads)
+        kinds[key] = kinds.get(key, True) and named
+    db.close()
+    return glosses, {w for w, named in kinds.items() if named}
+
+
+def fold(scores, forms, known, pack):
+    """
+    After the counting: a word's forms count only their uses as that word (read_usage), none of a form that is two words
+    written as one; a regional or loan spelling of a word of a like sense (variant_key, a gloss word in common) is the
+    commoner spelling's; NOT_WORDS, the pack's tribes and names and the words with no use left are left out.
+    """
+    lost, joined = read_usage(known)
+    glosses, named = read_glosses(pack)
+    for word in sorted(scores):
+        counted = forms[word]
+        for form in sorted(counted):
+            counted[form] *= 0.0 if form in joined else 1 - lost.get(form, 0.0)
+    for word in sorted(scores):
+        scores[word] = sum(forms[word].values())
+        if word in NOT_WORDS or word in named or scores[word] <= 0:
+            del scores[word]
+    keyed = {}
+    for word in sorted(scores, key=lambda w: (-scores[w], w)):
+        first = keyed.setdefault(variant_key(word), word)
+        if first != word and glosses.get(first, set()) & glosses.get(word, set()):
+            for form, share in sorted(forms[word].items()):
+                forms[first][form] = forms[first].get(form, 0) + share
+            scores[first] += scores.pop(word)
