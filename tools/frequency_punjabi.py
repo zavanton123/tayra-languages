@@ -24,11 +24,11 @@ and ਪਗ): two words spelled so that share a word of their glosses are one, un
 Two that share none stay apart (ਸਾਲ "year", ਸ਼ਾਲ "shawl"; ਪਤਾ "address", ਪੱਤਾ "leaf").
 
 Once counted (fold), a form counts only its uses as a word, spread over the corpus's pages: not what one article repeats,
-nor its uses as a piece of a name or of a word a space split (read_usage); a noun mostly so used is a name and left out.
-A verb's forms that tell no verb count for it only beside its telling ones (_unpieced). And a word that is another's form
-or spelling is filed under it (_refile): by its glosses ("(variant of ਉਹਨਾਂ)", "(plural of ਕਿਰਿਆ)"), by hand
-(VARIANTS), as a spelling (variant_key, glossed_key), a plural, oblique or feminine (FORM_BASE) or a conjunctive participle
-written as one word (ਬਣਕੇ).
+nor its uses as a piece of a name or of a word a space split (read_usage); a noun mostly so used is a name and left out,
+with those left out by hand (NOT_LISTED). A verb's forms that tell no verb count for it only beside its telling ones
+(_unpieced). And a word that is another's form or spelling is filed under it (_refile): by its glosses ("(variant of
+ਉਹਨਾਂ)", "(plural of ਕਿਰਿਆ)"), by hand (VARIANTS), as a spelling (variant_key, glossed_key), a plural, oblique or
+feminine (FORM_BASE) or a conjunctive participle written as one word (ਬਣਕੇ).
 """
 import heapq
 import io
@@ -496,6 +496,24 @@ NAME_PARTS = set("""
 """.split())
 # A noun the sentences use as a name's piece (above) NAMED_SHARE of the times they have it is a name, and left out.
 NAMED_SHARE = 0.45
+# And left out by hand, as the shares miss them: places, people and titles; the English of names, titles and firms, and
+# letters' names; pieces (ਵਾਂ, the ordinal ending written apart; ਖ਼ਾਨਾ, ਨਵ, ਬਹੁ of compounds), Hindi (ਮੇਂ, ਜਬ, ਜਹਾ).
+NOT_LISTED = set("""
+ਬੰਬੇ ਸੰਗਰੂਰ ਉੜੀਸਾ ਆਗਰਾ ਆਕਸਫੋਰਡ ਬਟਾਲਾ ਵਿਕਟੋਰੀਆ ਬਰਲਿਨ ਥਾਈਲੈਂਡ ਅਹਿਮਦਾਬਾਦ ਪਟਨਾ ਮਾਝਾ ਸਵੀਡਨ ਇਜ਼ਰਾਈਲ ਇੰਡੋਨੇਸ਼ੀਆ
+ਸਕਾਟਲੈਂਡ ਨਕੋਦਰ ਉਤਰਾਖੰਡ ਮੈਸੂਰ ਸ਼ਿਮਲਾ ਅੰਬਾਲਾ ਵੇਲਜ਼ ਟੋਰਾਂਟੋ ਪੂਨਾ ਨੰਗਲ ਫਗਵਾੜਾ ਸਿਰਸਾ ਦਸੂਹਾ ਪੋਲੈਂਡ ਮੱਕਾ ਅਨੰਦਪੁਰ ਹੰਗਰੀ
+ਰਾਮਪੁਰਾ ਕਿਊਬਾ ਸਾਊਦੀ ਜਾਵਾ ਬੰਗਾ ਕਾਂਗੜਾ ਚਿਲੀ ਕੋਟਕਪੂਰਾ ਇਸਲਾਮਾਬਾਦ ਗਜ਼ਨੀ ਅਜਨਾਲਾ ਅਮੀਰਾਤ ਜੰਡਿਆਲਾ ਮਲੇਰਕੋਟਲਾ ਮਾਲੇਰਕੋਟਲਾ
+ਕੰਧਾਰ ਨਨਕਾਣਾ ਚੰਬਾ ਟੈਕਸਸ ਭਾਖੜਾ ਟਾਂਡਾ ਕੱਛ ਸਮਰਾਲਾ ਗਿੱਦੜਬਾਹਾ ਮੋਰਿੰਡਾ ਪ੍ਰਯਾਗ ਬਸਰਾ ਮਜੀਠਾ ਖੁਰਦ ਫ਼ਲਸਤੀਨ ਜਮਨਾ
+ਵਿਆਸ ਏਂਜਲਸ ਅਰਵਿੰਦ ਮਸੀਹ ਮਜੀਠੀਆ ਭੁੱਲਰ ਲਲਿਤ ਪ੍ਰਿੰਸ ਜਹਾਂਗੀਰ ਪ੍ਰਸ਼ਾਂਤ ਰਾਂਝਾ ਚੌਹਾਨ ਪੁਰੀ ਚਿਤਰਾ ਕ੍ਰਿਸ਼ਨਾ ਸਰਸਵਤੀ ਔਲਖ
+ਖੇੜਾ ਡਿਜ਼ਨੀ ਅੰਬੇਦਕਰ ਅੰਬੇਡਕਰ ਮਿਸ਼ਰਾ ਮੀਰਾ ਰਾਮਦਾਸ ਨਸਰ ਪਾਰਵਤੀ ਬੋਸ ਬਾਬਰ ਧਰੁਵ ਸਿਧਾਰਥ ਬੱਬਰ ਮਦਨ ਗੌਰ ਅਗਰਵਾਲ ਭੀਮ
+ਰਵਿਦਾਸ ਖਹਿਰਾ ਫਰੈਂਕ ਕਮਲਾ ਅਮਿਤ ਗੌਤਮ ਅਰੋੜਾ ਰਜ਼ਾ ਰਹਿਮਾਨ ਨਾਰਾਇਣ ਜੈਕਸਨ ਸੁਭਾਸ਼ ਵਿਨੋਦ ਅਰੁਣ ਹੈਦਰ ਹਿਟਲਰ ਨੰਦਾ ਨਿਊਟਨ
+ਲੋਧੀ ਵਿਕਰਮ ਸਲੀਮ ਆਈਨਸਟਾਈਨ ਗੌਰੀ ਗੁੱਗਾ ਬਲਵੰਤ ਰਾਜੂ ਅਫ਼ਜ਼ਲ ਢੀਂਡਸਾ ਗੋਪੀ ਆਮਿਰ ਉਮਾ ਦੁੱਲਾ ਸੱਸੀ ਐਮੀ ਚਿਸ਼ਤੀ ਪਲੈਟੋ ਟਿਵਾਣਾ
+ਸਰਾਭਾ ਬਜਾਜ ਰਸ਼ੀਦ ਚੰਦਰਾ ਰਮਨ ਦਿਓਲ ਮਹਿਰਾ ਮਹਾਜਨ ਅਬਦਾਲੀ ਗੁਲਸ਼ਨ ਕਾਲੀਦਾਸ ਨਿਰਮਲਾ ਦੁਰਾਨੀ ਪਰਮਾਰ ਰਹੀਮ ਨੀਨਾ ਈਸ਼ਾ ਘੁਮਾਣ
+ਕੰਗ ਵਾਮਨ ਸਾਈ ਸ੍ਰੀ
+ਯੂਐਸ ਪੀਐਚ ਪੀਐਚਡੀ ਫੇਮ ਈਅਰ ਸਾਇੰਸਜ਼ ਪੀਪਲਜ਼ ਐਪਲ ਹੈਲਥ ਸਿੰਗਲਜ਼ ਸਿਲਵਰ ਗ੍ਰੀਨ ਮੈਡੀਸਨ ਸਮਰ ਪੀਸ ਐਕਸ ਆਊਟ ਮੇਨ ਡਬਲਿਊ ਬੈਕ
+ਵੂਮੈਨ ਬਲੱਡ ਰੀਅਲ ਮੈਡਮ ਵਰਕ ਟੈਕ ਹੋਲ ਸਾਈਡ ਵਰਕਸ ਕੁਈਨ ਪੇ ਬੀਟ ਲੋ ਸਮ ਫੈਮਲੀ ਕੂਲ ਲਾਕ ਟਰਮ ਪਲੇਨ ਟਾਪ ਲਿਟ ਸੀਡੀ ਡੀਵੀਡੀ
+ਪ੍ਰੋਬੇਬਿਲਿਟੀ
+ਵਾਂ ਵਾ ਖ਼ਾਨਾ ਮੇਂ ਨਵ ਬਹੁ ਸਵ ਜਹਾ ਜਬ
+""".split())
 LETTERS = re.compile("[\u0a01-\u0a65\u0a70-\u0a75]+")
 
 
@@ -742,8 +760,10 @@ def fold(scores, forms, pos, lemmas, dictionaries, corpora):
     """
     After the counting: a form counts only its uses as a word, spread over the pages (read_usage); a verb's forms that tell
     none count only beside its telling ones (_unpieced); a word that is another's form or spelling is that word's (_refile);
-    a noun mostly a name's piece (NAMED_SHARE) is left out.
+    a noun mostly a name's piece (NAMED_SHARE) is left out, as are those of NOT_LISTED.
     """
+    for word in sorted(NOT_LISTED & set(scores)):
+        del scores[word]
     known = set(pos) | {f for f, of in lemmas.items() if of}
     seen, spread, lost = read_usage(corpora, known)
     for word in sorted(scores):
