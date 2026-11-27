@@ -121,6 +121,33 @@ class LearningLanguageTest {
         assertEquals("zh", settings.current.nativeLanguage)
     }
 
+    /** Once the last language is removed, the next one chosen is the only one learned: the list is not filled again from the texts. */
+    @Test
+    fun afterTheLastLanguageIsRemovedOnlyTheNextOneIsLearned() = runBlocking<Unit> {
+        val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-learning-emptied", ".db").also { it.delete() }))
+        val languages = LanguageRepositoryImpl(provider)
+        val books = BookRepositoryImpl(provider)
+        val terms = TermRepositoryImpl(provider)
+        val settings = SettingsRepositoryImpl(MapSettings())
+        val service = LearningLanguageService(settings, languages, books, terms)
+        val german = languages.save(Language(name = "German"))
+        val polish = languages.save(Language(name = "Polish"))
+        val portuguese = languages.save(Language(name = "Portuguese"))
+        // Polish has an opened text and Portuguese saved words, as languages learned before.
+        val kot = BookService(books, languages).create(BookDraft(languageId = polish, title = "Kot", text = "Kot śpi."))
+        ReadingService(books, languages, terms, WordsReadRepositoryImpl(provider), TermService(terms, languages)).openPage(kot, 1, trackOpen = true)
+        TermService(terms, languages).save(TermDraft(languageId = portuguese, text = "lobo", status = TermStatus.NEW_1, statusExplicitlySet = true))
+        settings.update { it.copy(currentLanguageId = portuguese, myLanguages = "$portuguese") }
+
+        service.forget(portuguese)
+        assertEquals(emptyList(), service.observeMine().first())
+        service.fillMine()
+        assertEquals(emptyList(), service.observeMine().first(), "an emptied list is not filled again")
+
+        assertTrue(service.select(german))
+        assertEquals(listOf(german), service.observeMine().first())
+    }
+
     /** The languages being learned are first those with opened texts or saved words, and the current one; each one chosen joins them. */
     @Test
     fun theLanguagesBeingLearnedAreTheUsedOnesAndEachChosen() = runBlocking<Unit> {

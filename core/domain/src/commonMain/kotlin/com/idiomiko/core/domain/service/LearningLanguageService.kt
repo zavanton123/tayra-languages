@@ -48,7 +48,8 @@ class LearningLanguageService(
     /**
      * Fills the languages being learned the first time they are asked for: those with a text that
      * was opened or with saved words, and the current one; the native language never. A text never
-     * opened says nothing, as every language starts with its tutorial.
+     * opened says nothing, as every language starts with its tutorial. Once every language was
+     * removed, the list stays empty until one is chosen.
      */
     suspend fun fillMine() {
         if (settings.current.myLanguages.isNotBlank()) return
@@ -75,7 +76,7 @@ class LearningLanguageService(
         if (!pickUnchosen) {
             val ids = every.map { it.id }.toSet()
             val next = decode(settings.current.myLanguages).firstOrNull { it in ids } ?: 0L
-            settings.update { s -> s.copy(currentLanguageId = next, myLanguages = encode(decode(s.myLanguages).filter { it in ids })) }
+            settings.update { s -> s.copy(currentLanguageId = next, myLanguages = encodeMine(decode(s.myLanguages).filter { it in ids })) }
             return next
         }
         val all = every.filterNot { isNative(it) }.ifEmpty { every }
@@ -119,7 +120,7 @@ class LearningLanguageService(
         settings.update { s ->
             val rest = decode(s.myLanguages).filter { it != languageId && it in ids }
             val current = if (s.currentLanguageId == languageId) rest.firstOrNull() ?: 0L else s.currentLanguageId
-            val kept = s.copy(currentLanguageId = current, myLanguages = encode(rest), knownWordCounts = encodeCounts(counts(s.knownWordCounts) - languageId))
+            val kept = s.copy(currentLanguageId = current, myLanguages = encodeMine(rest), knownWordCounts = encodeCounts(counts(s.knownWordCounts) - languageId))
             if (current == 0L) kept.copy(nativeLanguage = UserSettings().nativeLanguage, uiLanguage = UserSettings().uiLanguage) else kept
         }
     }
@@ -136,4 +137,12 @@ class LearningLanguageService(
     private fun decode(text: String): List<Long> = text.split(',').mapNotNull { it.trim().toLongOrNull() }.distinct()
 
     private fun encode(ids: List<Long>): String = ids.distinct().joinToString(",")
+
+    /** The languages being learned as kept once the reader has changed them: none left is [NONE_LEFT], not blank, so they are never filled again. */
+    private fun encodeMine(ids: List<Long>): String = if (ids.isEmpty()) NONE_LEFT else encode(ids)
+
+    private companion object {
+        /** The languages being learned after the last one was removed: no id, yet not blank, which would mean never filled. */
+        const val NONE_LEFT = "-"
+    }
 }
