@@ -11,16 +11,27 @@ not ಆಗು's "if it becomes"), unless KANNADA_FORMS files it.
 import bisect
 import functools
 import heapq
+import io
 import json
 import os
 import re
 import sqlite3
+import tarfile
 from collections import defaultdict
 
 # As the reader's Kannada wordCharacters, without the Kannada digits (numbers are no words).
 KANNADA_LETTERS = re.compile(r"[ಀ-೥೰-೿‌‍]+")
 # A joiner that follows no virama is a typing slip (ಮ‌ೂಲಕ).
 STRAY_JOINER = re.compile("(?<!್)[\u200c\u200d]")
+# A word is written with and without a joiner after a virama (ನೆಟ್‌ವರ್ಕ್, ನೆಟ್ವರ್ಕ್): the list counts the two as one word, under
+# the spelling written more often, and lists both.
+JOINERS = str.maketrans("", "", "\u200c\u200d")
+
+
+def plain(word):
+    return word.translate(JOINERS)
+
+
 CONSONANTS = {chr(c) for c in range(0x0C95, 0x0CBA)}
 VIRAMA = "್"
 WORD_KINDS = {"noun", "adj", "verb", "adv", "pron", "num", "conj", "det", "intj", "particle", "postp", "prep"}
@@ -463,50 +474,152 @@ def kind_of(kinds):
     return "other"
 
 
+# Names are no words of the list, but for those of countries and continents (ಚೀನಾ, ಆಫ್ರಿಕಾ) and of languages (ಕನ್ನಡ, ತುಳು):
+# a pack's word all of whose senses name a city, a state, a person, a god or a people (ಮೇರಿಲ್ಯಾಂಡ್ "Maryland", ಕಾಳಿ "Kali
+# (goddess)", ಪಾರ್ಸಿ "Parsi"), or an abbreviation (ಬಿಬಿಸಿ "BBC"). Their forms are still theirs, so no other word takes them.
+COUNTRIES = {
+    "afghanistan", "albania", "algeria", "andorra", "angola", "argentina", "armenia", "australia", "austria", "azerbaijan",
+    "bahamas", "bahrain", "bangladesh", "barbados", "belarus", "belgium", "belize", "benin", "bhutan", "bolivia", "bosnia",
+    "botswana", "brazil", "brunei", "bulgaria", "burkina faso", "burma", "burundi", "cambodia", "cameroon", "canada", "chad",
+    "chile", "china", "colombia", "congo", "costa rica", "croatia", "cuba", "cyprus", "czech", "czech republic", "czechia",
+    "denmark", "djibouti", "dominica", "ecuador", "egypt", "eritrea", "estonia", "ethiopia", "fiji", "finland", "france",
+    "gabon", "gambia", "georgia", "germany", "ghana", "greece", "grenada", "guatemala", "guinea", "guyana", "haiti",
+    "honduras", "hungary", "iceland", "india", "indonesia", "iran", "iraq", "ireland", "israel", "italy", "jamaica", "japan",
+    "jordan", "kazakhstan", "kenya", "korea", "kuwait", "kyrgyzstan", "laos", "latvia", "lebanon", "lesotho", "liberia",
+    "libya", "liechtenstein", "lithuania", "luxembourg", "madagascar", "malawi", "malaysia", "maldives", "mali", "malta",
+    "mauritania", "mauritius", "mexico", "moldova", "monaco", "mongolia", "montenegro", "morocco", "mozambique", "myanmar",
+    "namibia", "nepal", "netherlands", "holland", "new zealand", "nicaragua", "niger", "nigeria", "north korea", "norway",
+    "oman", "pakistan", "palestine", "panama", "paraguay", "peru", "philippines", "poland", "portugal", "qatar", "romania",
+    "russia", "rwanda", "samoa", "saudi arabia", "senegal", "serbia", "seychelles", "sierra leone", "singapore", "slovakia",
+    "slovenia", "somalia", "south africa", "south korea", "spain", "sri lanka", "ceylon", "sudan", "suriname", "sweden",
+    "switzerland", "syria", "taiwan", "tajikistan", "tanzania", "thailand", "tibet", "togo", "tonga", "trinidad", "tunisia",
+    "turkey", "turkmenistan", "uganda", "ukraine", "united arab emirates", "uae", "united kingdom", "britain",
+    "great britain", "england", "scotland", "wales", "united states", "america", "usa", "uruguay", "uzbekistan", "vatican",
+    "venezuela", "vietnam", "yemen", "yugoslavia", "zambia", "zimbabwe", "soviet union", "ussr", "persia", "siam",
+    "africa", "asia", "europe", "antarctica", "oceania", "north america", "south america", "latin america", "arabia"}
+# The glosses that make a proper name a name: a place below a country, a person, a god, a people.
+NAME_MARKS = re.compile(r"\b(city|town|village|state|district|county|province|capital|megacity|river|island|islands|region|"
+                        r"kingdom|empire|dynasty|mountain|ocean|sea|lake|university|god|goddess|deity|king|queen|lord|"
+                        r"saint|prophet|poet|people|tribe|tribal|site|ancient|historic|former name|as in)\b", re.I)
+# And those that keep it a word: languages, months and days, festivals, dances, faiths and their followers' word.
+WORD_MARKS = re.compile(r"\b(language|languages|month|day|festival|dance|drama|calendar|medicine|syndrome|religion|music|bible|"
+                        r"script|alphabet|era|new year|follower)\b|ism\b|^(islam|monday|tuesday|wednesday|thursday|friday|"
+                        r"saturday|sunday|january|february|march|april|may|june|july|august|september|october|november|"
+                        r"december)\b", re.I)
+ACRONYM = re.compile(r"^[A-Z]{2,}\b")
+
+
+def gloss_name(gloss):
+    """A gloss without its note and article: "Kali (goddess)" is "Kali", "the Ganges" "Ganges", "геогр. Индия" "Индия"."""
+    gloss = re.sub(r"^\([^)]*\)\s*", "", gloss.strip())
+    gloss = re.sub(r"\s*\(.*$", "", gloss)
+    gloss = re.sub(r"^(?:the|a|an)\s+", "", gloss, flags=re.I)
+    return re.sub(r"^[а-яё]+\.\s*", "", gloss).strip(" .;")
+
+
+SMALL_WORDS = {"of", "the", "and", "de", "da", "la", "del", "van", "von", "al", "el", "upon", "on", "in"}
+
+
+def proper(name):
+    """Whether [name] is written as a proper name: every word of every part capitalised but the small ones (Abu Dhabi,
+    Isle of Man; not "Musa × paradisiaca, plantain")."""
+    words = [w for part in re.split(r"[,;]", name) for w in part.split() if w.lower() not in SMALL_WORDS]
+    return bool(words) and all(w[:1].isupper() for w in words)
+
+
+def kind_of_name(glosses, places, common):
+    """"word" when [glosses] (a word's every gloss) are not all proper, or name a country, a continent or its people
+    (COUNTRIES), a language, a month or a day (WORD_MARKS), or a common English word too ([common]: ಕೋಣ "Buffalo"); else
+    "name" (a place, a person, a god, a people, an abbreviation: NAME_MARKS, or a name [places] gives)."""
+    names = [gloss_name(g) for g in glosses]
+    if not names or not all(proper(n) for n in names):
+        return "word"
+    if any(WORD_MARKS.search(g) for g in glosses) or any(re.search(r"\b(country|continent)\b", g, re.I) for g in glosses):
+        return "word"
+    lowered = [n.lower() for n in names]
+    if any(n in COUNTRIES or any(n.startswith(c[:max(4, len(c) - 2)]) for c in COUNTRIES) for n in lowered):
+        return "word"
+    if any(NAME_MARKS.search(g) or ACRONYM.match(n) for g, n in zip(glosses, names)):
+        return "name"
+    if any(places.get(n) == "word" for n in lowered) or any(n in common for n in lowered if places.get(n) != "name"):
+        return "word"
+    return "name"
+
+
 def lexicon(dictionaries):
     """
-    The Kannada words and their kinds: the packs' entries, the gloss packs' Kannada words, and KANNADA_WORDS; and those of
-    them only the gloss packs have, which may be a form (ಮಾಡಲು, ದೇಶದ) given for a word. Names are left out, but for the
-    languages' (ಕನ್ನಡ, ತುಳು).
+    The Kannada words and their kinds: the packs' entries, the gloss packs' Kannada words, and KANNADA_WORDS; those of
+    them only the gloss packs have, which may be a form (ಮಾಡಲು, ದೇಶದ) given for a word; the names (but the languages'
+    ಕನ್ನಡ, ತುಳು); and the names that are words of the packs too, kept apart to be left out of the list (kind_of_name).
+    Words are spelt without joiners (plain).
     """
     kinds = defaultdict(set)
     names = set()
+    glosses = defaultdict(list)
+    meanings = defaultdict(set)
     for pack in ("kn-en", "kn-ru"):
         path = os.path.join(dictionaries, f"{pack}.sqlite")
         if not os.path.exists(path):
             continue
         for word, pos, senses in sqlite3.connect(path).execute("SELECT word_lc, pos, senses FROM entries"):
+            word = plain(word)
+            senses = json.loads(senses)
             # A language's name is an everyday word (ಕನ್ನಡ, ತುಳು); other names are left out.
-            if pos == "name" and any("language" in g for s in json.loads(senses) for g in s.get("glosses", [])):
+            if pos == "name" and any("language" in g for s in senses for g in s.get("glosses", [])):
                 pos = "noun"
             if pos == "name":
                 names.add(word)
             # The Russian pack names a verb by its infinitive (ಮಾಡಲು): the word is the verb (ಮಾಡು, ಕುಡಿ of ಕುಡಿಯಲು).
-            if pos == "verb" and word.endswith("ಲು") and len(word) > 3:
+            if pack == "kn-ru" and pos == "verb" and word.endswith("ಲು") and len(word) > 3 and "verb" not in kinds[word]:
                 word = word[:-3] if word[-3] == "ಯ" and word[-4] in "ಿೆ" else word[:-2] + "ು"
+            if pack == "kn-en" and GLOSS_WORD.fullmatch(word):
+                meanings[word] |= {m for g in (g for s in senses for g in s.get("glosses", []))
+                                   for part in re.split(r"[,;/]", re.sub(r"\([^)]*\)", "", g))
+                                   for m in [re.sub(r"^(?:to|the|a|an)\s+", "", part.strip().lower())] if m}
             if pos in WORD_KINDS and GLOSS_WORD.fullmatch(word):
                 kinds[word].add(pos)
+                glosses[word].extend(g for s in senses for g in s.get("glosses", []) if pos in ("noun", "name"))
+                if pos not in ("noun", "name"):
+                    glosses[word].append("")
+            elif pos == "name" and GLOSS_WORD.fullmatch(word):
+                glosses[word].extend(g for s in senses for g in s.get("glosses", []))
     packed = set(kinds) | set(KANNADA_WORDS)
+    # The gloss packs' names of places and people, by their English name: "word" for a country's, "name" for any other's.
+    places = {}
+    countries = set()
+    common = set()
     for pack in ("en-kn-gloss", "ru-kn-gloss"):
         path = os.path.join(dictionaries, f"{pack}.sqlite")
         if not os.path.exists(path):
             continue
-        for pos, senses in sqlite3.connect(path).execute("SELECT pos, senses FROM entries"):
+        for english, pos, senses in sqlite3.connect(path).execute("SELECT word, pos, senses FROM entries"):
             for sense in json.loads(senses):
+                tags = " ".join(sense.get("tags", []))
+                country = bool(re.search(r"\b(country|continent)\b", tags, re.I)) or english.lower() in COUNTRIES
+                if pos == "name" and pack == "en-kn-gloss":
+                    places.setdefault(english.lower(), "word" if country or "language" in tags else "name")
+                elif pos in GLOSS_KINDS and pack == "en-kn-gloss":
+                    common.add(english.lower())
                 for gloss in sense.get("glosses", []):
                     for part in re.split(r"[,;/]", gloss):
-                        part = part.strip()
+                        part = plain(part.strip())
                         if not GLOSS_WORD.fullmatch(part) or len(part) < 2:
                             continue
-                        if pos == "name" and not any("language" in t for t in sense.get("tags", [])):
+                        if pos == "name" and country:
+                            countries.add(part)
+                        elif pos == "name" and not any("language" in t for t in sense.get("tags", [])):
                             names.add(part)
                         elif pos in GLOSS_KINDS:
                             kinds[part].add(GLOSS_KINDS[pos])
+    for word in countries - set(kinds):
+        kinds[word].add("noun")
     for word, (kind, _) in KANNADA_WORDS.items():
         kinds[word].add(kind)
-    for word in KANNADA_EXCLUDED | set(KANNADA_FORMS) | (names - packed):
+    for word in KANNADA_EXCLUDED | set(KANNADA_FORMS) | (names - packed - countries):
         kinds.pop(word, None)
-    return kinds, set(kinds) - packed, names - set(kinds)
+    named = {w for w, gs in glosses.items() if w in kinds and w not in KANNADA_WORDS and w not in countries
+             and "" not in gs and kind_of_name(gs, places, common) == "name"}
+    return kinds, set(kinds) - packed, names - set(kinds), named, meanings
 
 
 def nominal_forms(word):
@@ -654,30 +767,36 @@ def word_forms(word, ks, counts, helpers):
     return forms
 
 
-# Words the packs lack are found in the corpus itself: a common form no word of the lexicon explains is a noun or
-# adjective of its own when it is written bare INDUCED_BARE times (ಅನೇಕ, ಪ್ರದೇಶ, ಸಾಮಾನ್ಯ), and a verb when INDUCED_FORMS of
-# its forms are written INDUCED_VERB times in all (ಜನಿಸು of ಜನಿಸಿದರು, ಜನಿಸಿದ, ಜನಿಸುತ್ತಾರೆ); the commonest by their forms first,
-# so a form goes to one of them only.
-INDUCED_BARE = 20
-# A word the corpus has in no form but the bare one must be written this often: below it, most are English words, names and
-# case forms of names (ಏಷ್ಯಾದ, ಲಾರ್ಡ್, ಪೀಟರ್), which a noun of the language would not be without its cases.
-INDUCED_LONE = 100
+# Verbs the packs lack are found in the corpus itself: a verb when INDUCED_FORMS of its forms are written INDUCED_VERB times in
+# all (ಜನಿಸು of ಜನಿಸಿದರು, ಜನಿಸಿದ, ಜನಿಸುತ್ತಾರೆ), the commonest by their forms first, so a form goes to one of them only. Nouns are
+# not: those the corpus has and the packs lack are names, English words and case forms of names (ಮೋದಿ, ಫೋರ್ಡ್, ಚೀನಾದಲ್ಲಿ).
 INDUCED_FORMS = 3
 INDUCED_VERB = 30
 # The endings a verb's form is told by, which no noun has (ಮಾಡಿದರು, ಮಾಡುತ್ತದೆ): the stem before them is the verb's.
 VERB_ENDINGS_U = ["ಿದ", "ಿದರು", "ಿದನು", "ಿದಳು", "ಿತು", "ುತ್ತದೆ", "ುತ್ತಾರೆ", "ುತ್ತವೆ", "ುತ್ತಾನೆ", "ುವ", "ಲು", "ಿದ್ದಾರೆ", "ಿರುವ", "ಿದೆ",
                   "ಲಾಗುತ್ತದೆ", "ಲಾಯಿತು", "ಲಾಗಿದೆ", "ುವುದು", "ಿದ್ದರು", "ಿ"]
 VERB_ENDINGS_IE = ["ದ", "ದರು", "ದನು", "ಯುತ್ತದೆ", "ಯುತ್ತಾರೆ", "ಯುವ", "ಯಲು", "ಯಿತು", "ದಿದೆ", "ಯಲಾಗುತ್ತದೆ"]
-NOT_NOUN = ("ುತ್ತದೆ", "ುತ್ತಾರೆ", "ುತ್ತವೆ", "ುತ್ತಾನೆ", "ುತ್ತಾಳೆ", "ಿದರು", "ಿದನು", "ಿದಳು", "ಲಾಯಿತು", "ಿದ್ದಾರೆ", "ುವುದು", "ಿದ್ದರು",
-            "ಲಾಗುತ್ತದೆ", "ಲಾಗಿದೆ", "ದರು", "ದನು", "ದಳು", "ಿತ್ತು", "ಿದ್ದವು", "ಿವೆ", "ಿದೆ", "ಿತು", "ಯಿತು", "ದ್ದಾರೆ")
+# The finite endings that tell a verb's forms from a noun's: an induced verb has at least INDUCED_TELLING forms with them.
+VERB_TELLING = ("ುತ್ತದೆ", "ುತ್ತಾರೆ", "ುತ್ತವೆ", "ುತ್ತಾನೆ", "ುತ್ತಾಳೆ", "ಿದರು", "ಿದನು", "ಿದಳು", "ಲಾಯಿತು", "ಿದ್ದಾರೆ", "ುವುದು", "ಿದ್ದರು",
+                "ಲಾಗುತ್ತದೆ", "ಲಾಗಿದೆ", "ದರು", "ದನು", "ದಳು", "ಿತ್ತು", "ಿದ್ದವು", "ಿವೆ", "ಿದೆ", "ಿತು", "ಯಿತು", "ದ್ದಾರೆ", "ಲು", "ಯಲು")
+INDUCED_TELLING = 2
+# The vowel signs, virama and length mark, which make no letter of their own.
+SIGNS = set("ಾಿೀುೂೃೄೆೇೈೊೋೌ್ಂಃ")
+# The endings that tell a pack's noun is a case or the plural of another word (cased in build).
+CASED_ENDINGS = ("ಗಳು", "ಗಳನ್ನು", "ಗಳ", "ಗಳಲ್ಲಿ", "ಗಳಿಗೆ", "ವು", "ಯು", "ನು", "ನ್ನು", "ರು", "ದ", "ಯ", "ನೇ", "ನೆಯ", "ೂ", "ೇ",
+                 "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಯಿಂದ")
+# Of them, those that tell it even when the form is written more often than the word (ಮಠದಲ್ಲಿ, ಮಠ).
+SURE_CASES = ("ಗಳು", "ಗಳನ್ನು", "ಗಳಲ್ಲಿ", "ಗಳಿಗೆ", "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಯಿಂದ", "ವನ್ನು", "ಯನ್ನು")
+# The endings of a case or the plural a pack's noun may be given in (UNCASED in build).
+UNCASED = ["ಗಳು", "ಗಳನ್ನು", "ಗಳಲ್ಲಿ", "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಕ್ಕೆ", "ವನ್ನು", "ಯನ್ನು", "ವು", "ಯು", "ಯರು", "ರು", "ದ"]
+# A locative with ಇದೆ or ಇರುವ joined on is no verb in -ಲ್ಲು (ಆಸ್ಟ್ರೇಲಿಯಾದಲ್ಲಿದೆ, ತಳದಲ್ಲಿರುವ).
+LOCATIVE_VERBS = ("ದಲ್ಲು", "ನಲ್ಲು", "ಯಲ್ಲು", "ಗಳಲ್ಲು", "ರಲ್ಲು", "ವಲ್ಲು", "ಳಲ್ಲು")
 
 
 def induce(unexplained, counts, helpers):
-    """The words the corpus's forms [unexplained] (form: count) are of, with their kinds."""
+    """The verbs the corpus's forms [unexplained] (form: count) are of, with their kinds."""
     candidates = {}
     for form, n in unexplained.items():
-        if n >= INDUCED_BARE and len(form) > 2 and not form.endswith(NOT_NOUN) and form[-1] != "\u200c":
-            candidates[form] = {"noun"}
         for endings, back in ((VERB_ENDINGS_U, "ು"), (VERB_ENDINGS_IE, "")):
             for ending in endings:
                 if form.endswith(ending) and len(form) > len(ending) + 1:
@@ -697,7 +816,7 @@ def induce(unexplained, counts, helpers):
         starts.append(starts[-1] + unexplained[form])
 
     def begun(prefix):
-        low, high = bisect.bisect_left(ordered, prefix), bisect.bisect_left(ordered, prefix + "\uffff")
+        low, high = bisect.bisect_left(ordered, prefix), bisect.bisect_left(ordered, prefix + "￿")
         return high - low, starts[high] - starts[low]
 
     # The forms each written form may be without its clitic.
@@ -714,14 +833,15 @@ def induce(unexplained, counts, helpers):
                     candidates.setdefault(form[:at] + helper, {"verb"})
     paradigms = {}
     for word, ks in candidates.items():
-        if "verb" in ks:
-            number, mass = begun(word[:-1] if word.endswith("ು") else word)
-            if number < INDUCED_FORMS or mass < INDUCED_VERB:
-                continue
+        number, mass = begun(word[:-1] if word.endswith("ು") else word)
+        if number < INDUCED_FORMS or mass < INDUCED_VERB:
+            continue
         forms = set()
         for form in word_forms(word, ks, counts, helpers) | {word}:
             forms |= under.get(form, set())
-        if "verb" in ks and (len(forms) < INDUCED_FORMS or sum(unexplained[f] for f in forms) < INDUCED_VERB):
+        if len(forms) < INDUCED_FORMS or sum(unexplained[f] for f in forms) < INDUCED_VERB:
+            continue
+        if sum(1 for f in forms if f.endswith(VERB_TELLING)) < INDUCED_TELLING:
             continue
         paradigms[word] = forms
     # Lazy greedy: a word's mass only falls as others claim its forms, so one popped with its mass unchanged is the best left.
@@ -737,37 +857,174 @@ def induce(unexplained, counts, helpers):
             if mass > 0:
                 heapq.heappush(heap, (-mass, word))
             continue
-        if "noun" in candidates[word] and (word in claimed or unexplained.get(word, 0) < INDUCED_BARE):
-            continue
-        if "noun" in candidates[word] and forms <= {word} and unexplained.get(word, 0) < INDUCED_LONE:
-            continue
-        if "verb" in candidates[word] and (len(forms) < INDUCED_FORMS or mass < INDUCED_VERB):
+        if len(forms) < INDUCED_FORMS or mass < INDUCED_VERB:
             continue
         chosen[word] = candidates[word]
         claimed |= forms | {word}
     return chosen
 
 
+# Spellings of one word that differ by an aspirate (ದಾಳಿ, ಧಾಳಿ) or a sibilant (ಚಾಂಪಿಯನ್‌ಶಿಪ್, ಚಾಂಪಿಯನ್‌ಷಿಪ್), a vowel's length or quality (ಆವಶ್ಯಕತೆ, ಅವಶ್ಯಕತೆ; ಪರಿಣಿತ,
+# ಪರಿಣತ; ಅಕಾಡಮಿ, ಅಕಾಡೆಮಿ), a cluster with or without -i (ಕಾಯ್ದೆ, ಕಾಯಿದೆ), a doubled consonant (ಶಿಫಾರಸ್ಸು) or a closing -ಯ (ಸ್ವಾತಂತ್ರ, ಸ್ವಾತಂತ್ರ್ಯ): the rarer is counted as
+# the commoner when the pack glosses the two alike. A feminine or an abstract noun in -i is a word of its own (ಲೇಖಕಿ, ಶಾಂತಿ).
+VOWEL_SIGNS = ["", "ಾ", "ಿ", "ೀ", "ು", "ೂ", "ೆ", "ೇ", "ೊ", "ೋ", "ೈ", "ೌ"]
+ASPIRATES = {"ಖ": "ಕ", "ಘ": "ಗ", "ಛ": "ಚ", "ಝ": "ಜ", "ಠ": "ಟ", "ಢ": "ಡ", "ಥ": "ತ", "ಧ": "ದ", "ಫ": "ಪ", "ಭ": "ಬ"}
+ASPIRATES.update({plain_: aspirate for aspirate, plain_ in list(ASPIRATES.items())})
+ASPIRATES.update({"ಶ": "ಷ", "ಷ": "ಶ"})
+LONG_VOWELS = {"ಅ": "ಆ", "ಇ": "ಈ", "ಉ": "ಊ", "ಎ": "ಏ", "ಒ": "ಓ"}
+LONG_VOWELS.update({long_: short for short, long_ in list(LONG_VOWELS.items())})
+
+
+def spelling_neighbours(word):
+    """The spellings [word] may have for another of the same word (VOWEL_SIGNS, ASPIRATES, a doubled consonant, -ಯ)."""
+    out = set()
+    if word[:1] in LONG_VOWELS:
+        out.add(LONG_VOWELS[word[0]] + word[1:])
+    for i, c in enumerate(word):
+        if c in ASPIRATES:
+            out.add(word[:i] + ASPIRATES[c] + word[i + 1:])
+        if c not in CONSONANTS:
+            continue
+        after = word[i + 1:i + 2]
+        if after in VOWEL_SIGNS[1:]:
+            out |= {word[:i + 1] + s + word[i + 2:] for s in VOWEL_SIGNS if s != after}
+        elif after != VIRAMA:
+            out |= {word[:i + 1] + s + word[i + 1:] for s in VOWEL_SIGNS[1:]}
+        # A consonant cluster written with -i between (ಕಾಯಿದೆ, ಕಾಯ್ದೆ).
+        if after == VIRAMA and word[i + 2:i + 3] in CONSONANTS:
+            out.add(word[:i + 1] + "ಿ" + word[i + 2:])
+        if after == "ಿ" and word[i + 2:i + 3] in CONSONANTS and i + 3 < len(word):
+            out.add(word[:i + 1] + VIRAMA + word[i + 2:])
+        if after == VIRAMA and word[i + 2:i + 3] == c:
+            out.add(word[:i + 1] + word[i + 3:])
+        elif after != VIRAMA:
+            out.add(word[:i + 1] + VIRAMA + c + word[i + 1:])
+    out.add(word[:-2] if word.endswith("್ಯ") else word + "್ಯ")
+    out.discard(word)
+    return out
+
+
+def own_word(one, other):
+    """Whether two spellings are two words: a feminine or an abstract noun in -i beside its word (ಲೇಖಕಿ, ಲೇಖಕ; ಬೂದಿ, ಬೂದು)."""
+    for a, b in ((one, other), (other, one)):
+        if a.endswith("ಿ") and (b == a[:-1] or b == a[:-1] + "ು"):
+            return True
+    return False
+
+
+# A loanword written bare beside another English word is part of an English name or phrase (ಲಾಲ್‌ಬಾಗ್ ಗಾರ್ಡನ್, ರೆಡ್ ಕ್ರಾಸ್,
+# ಪ್ರೀಮಿಯರ್ ಲೀಗ್): a bare form ending in a virama, used at least ENGLISH_LEAST times, is counted only for its uses beside no such
+# word (one ending in a virama, or in Latin letters) in the corpus's sentences.
+CORPUS = "leipzig-kan_wikipedia_2021_300K.tar.gz"
+ENGLISH_LEAST = 20
+EDGE = re.compile(r"^[^\u0c80-\u0cff]+|[^\u0c80-\u0cff]+$")
+
+
+def english_shares(dictionaries):
+    """Each bare loanword form's (plain, ending in a virama) share of uses beside an English word, by the corpus's
+    sentences; {} without the corpus."""
+    path = os.path.join(dictionaries, "frequency-sources", CORPUS)
+    if not os.path.exists(path):
+        return {}
+    uses, beside = defaultdict(int), defaultdict(int)
+
+    def english(token, word):
+        return bool(re.search("[A-Za-z]", token)) or word.endswith(VIRAMA)
+
+    with tarfile.open(path) as tar:
+        member = next(m for m in tar.getmembers() if m.name.endswith("-sentences.txt"))
+        for line in io.TextIOWrapper(tar.extractfile(member), encoding="utf-8"):
+            tokens = plain(line.rstrip("\n").partition("\t")[2]).split()
+            words = [EDGE.sub("", t) for t in tokens]
+            for i, word in enumerate(words):
+                if not word.endswith(VIRAMA):
+                    continue
+                uses[word] += 1
+                # A comma, stop or bracket between them parts them.
+                left = i > 0 and not re.search(r"[.,;:()\[\]\"'!?]$", tokens[i - 1]) and english(tokens[i - 1], words[i - 1])
+                right = (i + 1 < len(words) and not re.search(r"[.,;:()\[\]\"'!?]$", tokens[i])
+                         and english(tokens[i + 1], words[i + 1]))
+                if left or right:
+                    beside[word] += 1
+    return {w: beside[w] / n for w, n in uses.items() if n >= ENGLISH_LEAST}
+
+
 def build(found, size, label):
     """The list: the words of the lexicon and those the corpus shows (induce), by their forms' counts in [found]."""
     dictionaries = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dictionaries")
-    kinds, glossed, names = lexicon(dictionaries)
+    kinds, glossed, names, named, meanings = lexicon(dictionaries)
+    # Counted by their spellings without joiners (plain); written keeps the spellings the corpus writes.
     counts = defaultdict(float)
     raw = defaultdict(int)
+    written = defaultdict(lambda: defaultdict(int))
     for _, source, _ in found:
         total = sum(source.values())
         for form, n in source.items():
             if KANNADA_LETTERS.fullmatch(form) and not STRAY_JOINER.search(form):
-                counts[form] += n / total / len(found)
-                raw[form] += n
+                key = plain(form)
+                counts[key] += n / total / len(found)
+                raw[key] += n
+                written[key][form] += n
+    for form, share in english_shares(dictionaries).items():
+        if form in counts and form not in KANNADA_WORDS:
+            counts[form] *= 1 - share
 
     helpers = {h: simple_verb_forms(h) for h in ("ಆಗು", "ಪಡು", "ಕೊಳ್ಳು", "ಬಿಡು")}
     by_hand = defaultdict(set)
     for word, (_, forms) in KANNADA_WORDS.items():
         for form in forms.split():
-            by_hand[form].add(word)
+            by_hand[plain(form)].add(word)
     for form, word in KANNADA_FORMS.items():
         by_hand[form].add(word)
+
+    # A pack's verb given by its converb with a helper verb (ಪ್ರಕಟಗೊಂಡು, ಮೂಡಿಬಂದು) is the compound verb (ಪ್ರಕಟಗೊಳ್ಳು,
+    # ಮೂಡಿಬರು); a pack's participle or -ದು converb of a verb (ಪ್ರಕಟಗೊಂಡ, ಕಳೆದು) is the verb's form.
+    folded = {}
+    for word in sorted(kinds):
+        if "verb" in kinds[word] and word not in KANNADA_WORDS and not kinds[word] & {"noun", "num"}:
+            for helper, (gerund, _, _, _) in sorted(IRREGULAR.items()):
+                if word.endswith(gerund) and len(word) > len(gerund) + 1:
+                    folded[word] = word[:-len(gerund)] + helper
+                    break
+    for word, verb in folded.items():
+        kinds[verb].add("verb")
+    participles = {}
+    for verb in sorted(kinds):
+        if "verb" in kinds[verb] and verb not in folded:
+            stems = verb_stems(verb)
+            if stems:
+                participles.setdefault(stems[3], verb)
+                if stems[2].endswith(("ದು", "ತು", "ಟ್ಟು", "ಂಡು")):
+                    participles.setdefault(stems[2], verb)
+    for word in sorted(kinds):
+        if (word not in folded and word not in KANNADA_WORDS and kinds[word] <= {"adj", "verb"}
+                and participles.get(word, word) != word):
+            folded[word] = participles[word]
+    for word, verb in folded.items():
+        kinds.pop(word, None)
+        by_hand[word].add(verb)
+    # The names are declined to claim their forms (ಮೇರಿಲ್ಯಾಂಡ್‌ನಲ್ಲಿ), and left out of the list.
+    left_out = named | names
+    for word in names:
+        kinds[word].add("noun")
+
+    # A pack's noun given in a case or the plural whose word the packs lack (ಸ್ಪರ್ಧಿಗಳು, ಕ್ರೀಡಾಕೂಟದಲ್ಲಿ) is that word, when the
+    # corpus writes it in another form too.
+    for word in sorted(kinds):
+        # The pack gives some as adverbs (ಕ್ರೀಡಾಕೂಟದಲ್ಲಿ "at the sports meet").
+        adverb = kinds[word] == {"adv"} and word.endswith(("ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ"))
+        if word in KANNADA_WORDS or word in left_out or not (kinds[word] <= {"noun", "adj"} or adverb):
+            continue
+        for ending in UNCASED:
+            stem = word[:-len(ending)]
+            if not word.endswith(ending) or sum(1 for c in stem if c not in SIGNS) < 2 or stem in kinds:
+                continue
+            stem_forms = word_forms(stem, {"noun"}, counts, helpers)
+            if word in stem_forms and any(counts.get(f, 0) > 0 for f in (stem_forms | {stem}) - {word}):
+                kinds[stem] = {"noun"} if adverb else kinds[word]
+                kinds.pop(word)
+                meanings[stem] = meanings.get(word, set())
+                break
 
     # The forms the rules are asked for: those written, and those they may be without a clitic.
     needed = set(counts)
@@ -778,6 +1035,7 @@ def build(found, size, label):
         ruled = defaultdict(set)
         for word, ks in words.items():
             for form in word_forms(word, ks, counts, helpers):
+                form = plain(form)
                 if form in needed:
                     ruled[form].add(word)
         return ruled
@@ -799,13 +1057,30 @@ def build(found, size, label):
         return heads
 
     ruled = rule(kinds)
+    # A pack's noun or adjective that is a case or plural form of a word written more often (ಹಿಂದೂಗಳು, ಬದುಕನ್ನು, ಕಾಯಿದೆಯು) is that
+    # word's (not ಬೇಸಿಗೆ "summer", written more often than ಬೇಸ್ "base", whose dative it might be). Only the plural, the
+    # nominative, accusative and genitive tell it: a dative or a predicate may be a word (ಸುತ್ತಿಗೆ "hammer", ಸಮಾಜವಾದ "socialism").
+    cased = {}
+    for word in sorted(kinds):
+        if (word not in KANNADA_WORDS and word not in left_out and kinds[word] <= {"noun", "adj"}
+                and word.endswith(CASED_ENDINGS) and not word.endswith("ಾದ")):
+            heads = {h for h in ruled.get(word, ()) if h != word and h not in left_out and not kinds[h] <= {"verb"}
+                     and (word.endswith(SURE_CASES) or counts.get(h, 0) > counts.get(word, 0))}
+            if heads:
+                cased[word] = heads
+    for word, heads in cased.items():
+        kinds.pop(word, None)
+        by_hand[word] |= heads
+    ruled = rule(kinds)
     unexplained = {f: n for f, n in raw.items()
                    if not targets(f) and f not in KANNADA_EXCLUDED and f not in KANNADA_NOT_WORDS and f not in CASE_FRAGMENTS}
-    # A word induce finds is none that is a form of a word already known (ಇದ್ದು of ಇರು, from ಇದ್ದಿತು).
+    # A word induce finds is none that is a form of a word already known (ಇದ್ದು of ಇರು, from ಇದ್ದಿತು), nor a locative with ಇದೆ
+    # or ಇರುವ joined on (ರೀತಿಯಲ್ಲಿದೆ is no verb ರೀತಿಯಲ್ಲು).
     induced = {w: ks for w, ks in induce(unexplained, counts, helpers).items()
                if w not in KANNADA_NOT_WORDS and w not in CASE_FRAGMENTS and w not in names and not targets(w)
-               # nor a locative with ಇದೆ or ಇರುವ joined on (ರೀತಿಯಲ್ಲಿದೆ is no verb ರೀತಿಯಲ್ಲು).
-               and not (w.endswith("ಲ್ಲು") and targets(w[:-1] + "ಿ"))}
+               and not (w.endswith("ಲ್ಲು") and targets(w[:-1] + "ಿ")) and not w.endswith(LOCATIVE_VERBS)
+               # nor a dative or a fragment with ಇದೆ or ಇರು joined on (ಅವರಿಗಿದೆ, ವಾಗಿರುತ್ತದೆ).
+               and not (w.endswith("ಗು") and (targets(w[:-1] + "ೆ") or w[:-1] + "ಿ" in CASE_FRAGMENTS))}
     for word, ks in induced.items():
         kinds[word] |= ks
     for form, heads in rule(induced).items():
@@ -834,14 +1109,32 @@ def build(found, size, label):
             scores[head] += share * part
             forms[head][form] = forms[head].get(form, 0.0) + share * part
 
+    # A rarer spelling of a word the pack glosses alike goes to the commoner (spelling_neighbours), the rarest first.
+    for word in sorted(scores, key=lambda w: (scores[w], w)):
+        if word in left_out or not meanings.get(word):
+            continue
+        others = [n for n in spelling_neighbours(word) if n in scores and n not in left_out and (scores[n], n) > (scores[word], word)
+                  and meanings[word] & meanings.get(n, set()) and not own_word(word, n)]
+        if others:
+            into = max(others, key=lambda n: (scores[n], n))
+            scores[into] += scores.pop(word)
+            for form, share in forms.pop(word).items():
+                forms[into][form] = forms[into].get(form, 0.0) + share
+
     least = LEAST_COUNT * len(found) / sum(sum(source.values()) for _, source, _ in found)
-    ranked = [w for w in sorted(scores, key=lambda w: -scores[w]) if scores[w] >= least][:size]
+    ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if scores[w] >= least and w not in left_out][:size]
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
-        listed = sorted(forms[word], key=lambda f: -forms[word][f])[:FORMS_LISTED]
-        if word not in listed:
-            listed = [word] + listed[:FORMS_LISTED - 1]
-        lines.append(word + "\t" + " ".join(listed))
+        # Each form as the corpus writes it, with and without a joiner, the commoner first.
+        spellings = [s for f in sorted(forms[word], key=lambda f: (-forms[word][f], f))
+                     for s in sorted(written.get(f, {f: 0}), key=lambda s: (-written[f][s], s)) if f in written]
+        # The headword is the commonest spelling with no joiner after its last letter (ಡೀಸೆಲ್, not ಡೀಸೆಲ್‌).
+        heads = {s: n for s, n in written.get(word, {}).items() if s[-1] not in "\u200c\u200d"} or {word: 0}
+        head = min(heads.items(), key=lambda x: (-x[1], x[0]))[0]
+        listed = spellings[:FORMS_LISTED]
+        if head not in listed:
+            listed = [head] + listed[:FORMS_LISTED - 1]
+        lines.append(head + "\t" + " ".join(listed))
     return "\n".join(lines) + "\n", label
 
 
