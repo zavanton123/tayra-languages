@@ -57,11 +57,8 @@ data class QuestionAnswer(
 
 data class PracticeUiState(
     val loading: Boolean = true,
-    val bookTitle: String = "",
     /** The page practised, or null for words chosen in the vocabulary. */
     val pageNumber: Int? = 1,
-    /** How many chosen words the questions are about. */
-    val wordCount: Int = 0,
     /** What is asked. */
     val setup: PracticeSetup = PracticeSetup(),
     val languageCode: String? = null,
@@ -165,7 +162,7 @@ class PracticeViewModel(
     fun startMissed() = start(only = _state.value.missedTargets.takeIf { it.isNotEmpty() })
 
     private fun start(only: Set<String>?) {
-        _state.update { PracticeUiState(pageNumber = pageNumber, bookTitle = it.bookTitle, setup = setup, wholeBook = wholeBook) }
+        _state.update { PracticeUiState(pageNumber = pageNumber, setup = setup, wholeBook = wholeBook) }
         viewModelScope.launch {
             val all = attempt { material.load(source) }
             val prepared = if (all == null || only == null) all else PracticeMaterial(all.language, all.title, all.words.filter { it.text.lowercase() in only }.ifEmpty { all.words }, all.pool, all.meanings)
@@ -189,8 +186,6 @@ class PracticeViewModel(
             _state.update {
                 it.copy(
                     loading = false,
-                    bookTitle = prepared.title,
-                    wordCount = prepared.words.size,
                     setup = asked,
                     languageCode = code,
                     rightToLeft = lang.rightToLeft,

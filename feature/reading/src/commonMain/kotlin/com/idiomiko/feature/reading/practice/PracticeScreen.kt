@@ -307,32 +307,11 @@ internal fun PracticeContent(state: PracticeUiState, actions: PracticeActions, m
                 Modifier.widthIn(max = PRACTICE_WIDTH).fillMaxWidth().padding(horizontal = if (compact) AppSpacing.l else AppSpacing.xxxl, vertical = if (compact) AppSpacing.l else AppSpacing.xxxl),
                 verticalArrangement = Arrangement.spacedBy(if (compact) AppSpacing.l else AppSpacing.xl),
             ) {
-                Column {
-                    // On a phone the bar carries the title; in a dialog the title has the way out beside it.
-                    if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
-                        Text(tr("Practice"), Modifier.weight(1f), style = AppText.screenTitle)
-                        if (onClose != null) {
-                            AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-practice-dialog"), style = IconButtonStyle.Tonal)
-                        }
-                    }
-                    Text(
-                        when {
-                            state.wholeBook -> trPlural(state.wordCount, "The {0} word you are learning in {1}.", "The {0} words you are learning in {1}.", state.bookTitle)
-                            state.pageNumber == null -> trPlural(state.wordCount, "{0} word from your vocabulary.", "{0} words from your vocabulary.")
-                            state.bookTitle.isEmpty() -> tr("The words you are learning on page {0}.", state.pageNumber)
-                            else -> tr("The words you are learning on page {0} of {1}.", state.pageNumber, state.bookTitle)
-                        },
-                        style = MaterialTheme.typography.bodyLarge,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    )
-                    // Fewer than all the kinds: which ones.
-                    val asked = ExerciseType.entries.filter { type -> state.setup.rotation.any { it.first == type } }
-                    if (asked.isNotEmpty() && asked.size < ExerciseType.entries.size) {
-                        Text(
-                            tr("Questions: {0}", asked.joinToString(", ") { it.label().lowercase() }),
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
+                // On a phone the bar carries the title; in a dialog the title has the way out beside it.
+                if (!compact) Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(tr("Practice"), Modifier.weight(1f), style = AppText.screenTitle)
+                    if (onClose != null) {
+                        AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-practice-dialog"), style = IconButtonStyle.Tonal)
                     }
                 }
                 when {

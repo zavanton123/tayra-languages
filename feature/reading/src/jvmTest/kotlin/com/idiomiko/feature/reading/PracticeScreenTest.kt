@@ -264,7 +264,6 @@ class PracticeScreenTest {
             }
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("The 2 words you are learning in Rotina.").assertExists()
         assertEquals(setOf("moro", "comprar"), viewModel.state.value.exercises.map { it.word }.toSet())
         assertTrue(viewModel.state.value.exercises.first { it.word == "comprar" }.sentence.startsWith("Quando precisamos"), "in its own sentence of the text")
     }
@@ -301,8 +300,6 @@ class PracticeScreenTest {
             }
         }
         waitUntil(timeoutMillis = 10_000) { onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithText("4 words from your vocabulary.").assertExists()
-        onNodeWithText("Questions: missing word, hear the word").assertExists()
         val exercises = viewModel.state.value.exercises
         assertTrue(exercises.isNotEmpty() && exercises.all { it.isChoice }, exercises.map { it.kind }.toString())
         assertEquals(setOf("moro", "semana", "comprar", "rotina"), exercises.map { it.word }.toSet())
