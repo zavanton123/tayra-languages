@@ -4,8 +4,8 @@ Each course teaches one band of 100 words from the Pashto word frequency list
 (`bands/<rankUpTo>.txt`: index, rank, word, its forms). Course `ps-mini-0300` teaches ranks
 201–300 and may use every word ranked 1–300. Ten lessons, each introducing about ten of the band's
 words, so the course covers the band; a learner who finishes it knows the 300 most common words.
-`themes.tsv` gives each course its theme. The list has 3,608 words: `ps-mini-0100` to `ps-mini-3700`
-(the last band has 8 words).
+`themes.tsv` gives each course its theme. The list has 3,550 words: `ps-mini-0100` to `ps-mini-3600`
+(the last band has 50 words).
 
 ## The register
 
@@ -76,7 +76,7 @@ story; a lesson never needs another lesson to make sense.
   - ranks 1301–2000 (B1): reported speech (*هغه وویل چې ستړی دی*), the past conditional (*که پوهېدلی وای،
     راتلی وای*), longer sentences with *خو, بلکې, که څه هم, په داسې حال کې چې*; a story may be told by a
     first-person narrator or as a letter, a message or a diary entry;
-  - ranks 2001–3608 (B2): the Arabic plurals of everyday words (*معلومات, اقدامات, حالات*), participles as
+  - ranks 2001–3550 (B2): the Arabic plurals of everyday words (*معلومات, اقدامات, حالات*), participles as
     adjectives (*لیکل شوی, ماته شوې*), connectors such as *له دې سره سره, له بلې خوا, نو ځکه*; a lesson may
     also be a short informative or opinion text, or a light column on everyday life with a proverb (*متل*)
     explained by its context, as long as it is calm and easy to follow.
@@ -143,7 +143,10 @@ Things to know about the Pashto list and the checker:
 
 - The courses are pinned to `tools/courses/ps/wordlist.tsv` (a copy of the app's `ps.tsv`, counted from
   Leipzig's Pashto news of 2011 and 2020 and its Wikipedia sentences, the Dari ones left out); the
-  `bands/*.txt` come from it. Its words are those of the ps-en pack: the English Wiktionary's Pashto
+  `bands/*.txt` come from it. Past rank 2500 the list counts a word only where it is that word: not in Dari
+  sentences, not as a piece of a word a space split (*زيږ يدو*) or as two words written as one (*دهري* for
+  *د هرې*, *فکرکوي*), not beside a title or name; names, tribes and places are left out, and regional or
+  loan spellings (*روځ, دلې, دالر, شازاده*) are folded into the standard word (`extra_forms.tsv`). Its words are those of the ps-en pack: the English Wiktionary's Pashto
   entries and translation tables, and some 400 common words glossed by hand that the Wiktionary lacks.
 - **The news shows in the first ranks**: *ولایت, حکومت, وزارت, والي, ولسوالي, طالب, ويروس, وژل* rank in
   the first hundred, everyday words later: *زه* 107, *کورنۍ* 111, *لور* 116, *ښځه* 154, *کور* 158, *ملګری*
