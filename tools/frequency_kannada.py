@@ -650,6 +650,8 @@ def nominal_forms(word):
         glide = word + "ವ"
         plain |= {glide + t for t in NOMINAL_TAILS + QUOTE_TAILS} | {word + t for t in DA_TAILS}
         plain |= {word + "ದ" + t for t in UPTO_TAILS + ["ಷ್ಟು"]}
+        # "That of" (ಬಣ್ಣದ್ದು "one of the colour", ಕೆಂಪು ಬಣ್ಣದ್ದಾಗಿದೆ).
+        plain |= {word + "ದ್ದ" + t for t in ["ು", "ಾಗಿದೆ", "ಾಗಿ", "ಾಗಿರುತ್ತದೆ", "ಾಗಿತ್ತು", "ಾಗಿದ್ದು", "ೇ", "ೂ", "ನ್ನು"]}
         masculine |= {word + "ನ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
         human |= {word + "ರ" + t for t in NOMINAL_TAILS + OBLIQUE_TAILS}
         long |= {word + "ಾ" + t for t in DA_TAILS} | {word + "ಾವ" + t for t in NOMINAL_TAILS}
@@ -815,12 +817,32 @@ CASED_ENDINGS = ("ಗಳು", "ಗಳನ್ನು", "ಗಳ", "ಗಳಲ್ಲ�
 # Of them, those that tell it even when the form is written more often than the word (ಮಠದಲ್ಲಿ, ಮಠ).
 SURE_CASES = ("ಗಳು", "ಗಳನ್ನು", "ಗಳಲ್ಲಿ", "ಗಳಿಗೆ", "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಯಿಂದ", "ವನ್ನು", "ಯನ್ನು")
 # The endings of a case or the plural a pack's noun may be given in (UNCASED in build).
-UNCASED = ["ಗಳು", "ಗಳನ್ನು", "ಗಳಲ್ಲಿ", "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಕ್ಕೆ", "ವನ್ನು", "ಯನ್ನು", "ವು", "ಯು", "ಯರು", "ರು", "ದ"]
+UNCASED = ["ಗಳು", "ಗಳನ್ನು", "ಗಳಲ್ಲಿ", "ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ದಿಂದ", "ಕ್ಕೆ", "ವನ್ನು", "ಯನ್ನು", "ವು", "ಯು", "ಯರು", "ರು", "ರ",
+           "ದ"]
+# The cases that tell a pack's word of any kind is a case of another (the generic rule in build): locative, ablative,
+# accusative, "up to" and "that of".
+HEADWORD_CASES = ("ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ", "ಿನಲ್ಲಿ", "ದಿಂದ", "ಯಿಂದ", "ಕ್ಕೆ", "ವನ್ನು", "ಯನ್ನು", "ನ್ನು", "ರಿಗೆ", "ವರೆಗೆ", "ವರೆಗೂ",
+                  "ದ್ದು")
+# Of them, those a word may end in itself (ನೆರವು "help", ಹೆಸರು "name", ಮುಂತಾದ "and so on"; not ನೆರ + ವು): the stem is taken for
+# the word only when the corpus writes it bare (bare_enough).
+NOMINATIVE_ENDINGS = ("ವು", "ಯು", "ರು", "ಯರು", "ರ", "ದ")
 
 
 def aksharas(word):
     """The syllables [word] is written in (ವೃಂದ is two, ವಿಭವ three)."""
     return sum(1 for i, c in enumerate(word) if c not in SIGNS and (i == 0 or word[i - 1] != VIRAMA))
+
+
+def bare_enough(stem, word, ending, raw):
+    """Whether the corpus writes [stem] bare often enough beside [word] to take [word] for its form: a human plural's
+    stem of three syllables twice (ಓದುಗರು, ಬಡವರು; not ಲಂಗರು), a nominative's (ಆಳವು, ವಿಭವವು; not ತಿರುವು, ಹರವು) or a
+    genitive's (ಮಧ್ಯಯುಗದ, ಆಲದ; not ಆಸ್ಪದ) by its share of [word]'s uses."""
+    bare, whole, long = raw.get(stem, 0), raw.get(word, 0), aksharas(stem) >= 3
+    if ending in ("ರು", "ಯರು", "ರ"):
+        return long and bare >= 2
+    if ending == "ದ":
+        return bare >= 1 and (long or bare >= 0.3 * whole)
+    return bare >= 1 and bare >= (0.25 if long else 0.5) * whole
 
 
 # A locative with ಇದೆ or ಇರುವ joined on is no verb in -ಲ್ಲು (ಆಸ್ಟ್ರೇಲಿಯಾದಲ್ಲಿದೆ, ತಳದಲ್ಲಿರುವ).
@@ -1100,19 +1122,25 @@ def build(found, size, label):
         kinds[word].add("noun")
 
     # A pack's noun given in a case or the plural whose word the packs lack (ಸ್ಪರ್ಧಿಗಳು, ಕ್ರೀಡಾಕೂಟದಲ್ಲಿ) is that word, when the
-    # corpus writes it in another form too.
+    # corpus writes it in another form too; one given in its human plural (ನಾಟಕಕಾರರು) is declined so (human).
+    human = set()
     for word in sorted(kinds):
-        # The pack gives some as adverbs (ಕ್ರೀಡಾಕೂಟದಲ್ಲಿ "at the sports meet").
-        adverb = kinds[word] == {"adv"} and word.endswith(("ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ"))
+        # The pack gives some as adverbs or postpositions (ಕ್ರೀಡಾಕೂಟದಲ್ಲಿ "at the sports meet", ಸಮ್ಮುಖದಲ್ಲಿ "in the presence of").
+        adverb = kinds[word] in ({"adv"}, {"postp"}) and word.endswith(("ದಲ್ಲಿ", "ಯಲ್ಲಿ", "ನಲ್ಲಿ"))
         if word in KANNADA_WORDS or word in left_out or not (kinds[word] <= {"noun", "adj"} or adverb):
             continue
         for ending in UNCASED:
             stem = word[:-len(ending)]
             if not word.endswith(ending) or sum(1 for c in stem if c not in SIGNS) < 2 or stem in kinds:
                 continue
-            stem_forms = word_forms(stem, {"noun"}, counts, helpers)
+            if ending in NOMINATIVE_ENDINGS and not bare_enough(stem, word, ending, raw):
+                continue
+            # The pack's gloss tells a human plural (ನಾಟಕಕಾರರು "playwrights") where the corpus has few of its other forms.
+            stem_forms = word_forms(stem, {"noun"}, ALL_TELLING if ending in ("ರು", "ರ") else counts, helpers)
             if word in stem_forms and any(counts.get(f, 0) > 0 for f in (stem_forms | {stem}) - {word}):
                 kinds[stem] = {"noun"} if adverb else kinds[word]
+                if ending in ("ರು", "ರ"):
+                    human.add(stem)
                 kinds.pop(word)
                 meanings[stem] = meanings.get(word, set())
                 break
@@ -1128,7 +1156,7 @@ def build(found, size, label):
     def rule(words):
         ruled = defaultdict(set)
         for word, ks in words.items():
-            for form in word_forms(word, ks, counts, helpers):
+            for form in word_forms(word, ks, ALL_TELLING if word in human else counts, helpers):
                 form = plain(form)
                 if form in needed:
                     ruled[form].add(word)
@@ -1162,6 +1190,22 @@ def build(found, size, label):
                      and (word.endswith(SURE_CASES) or counts.get(h, 0) > counts.get(word, 0))}
             if heads:
                 cased[word] = heads
+    # A pack's word in a case of a word of the lexicon of another kind, written bare at least a fifth as often (or a human
+    # plural's stem), is that word's, now declined too: ಸದ್ಯದಲ್ಲಿ "at present" of the adverb ಸದ್ಯ, ಮಾತ್ರಕ್ಕೆ of ಮಾತ್ರ,
+    # ಬೆಳೆಯನ್ನು "crop" of the verb ಬೆಳೆ, ಮಠದಲ್ಲಿ, ಬಣ್ಣದ್ದು.
+    for word in sorted(kinds):
+        if (word in KANNADA_WORDS or word in left_out or word in cased or not kinds[word] <= {"noun", "adj", "adv", "postp"}
+                or not word.endswith(HEADWORD_CASES)):
+            continue
+        for end in range(len(word) - 1, 1, -1):
+            stem = word[:end]
+            if (stem in kinds and stem not in left_out and aksharas(stem) >= 2
+                    and (raw.get(stem, 0) >= 0.2 * raw.get(word, 0) or stem in human)
+                    and word in word_forms(stem, {"noun"}, ALL_TELLING, helpers)):
+                if kind_of(kinds[stem]) not in ("noun", "adj"):
+                    kinds[stem].add("noun")
+                cased[word] = {stem}
+                break
     # A pack's verb, adjective or verbal noun that is a form of a verb (ಮಾಡದು "not to do" of ಮಾಡು, ಬಂದಂತಹ "that came",
     # ಆದದ್ದು "what happened"), or a progressive stem taken for a verb (ಸುತ್ತುತ್ತು of ಸುತ್ತುತ್ತಿರುವ, ಹೊಂದಿರುತ್ತು of
     # ಹೊಂದಿರುತ್ತಿದ್ದರು), is that verb's.
