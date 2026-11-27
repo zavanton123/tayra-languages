@@ -193,6 +193,9 @@ SPELLINGS = {
 }
 # Links of the pack's tables that are wrong: खाली "empty" is no form of खानु.
 WRONG_LINKS = {("खाली", "खानु"), ("फेरी", "फेर्नु"), ("गोली", "गोलो"), ("चालू", "चाल्नु")}
+# The tables' causatives that are no verbs of their own (lexicon): misspellings (लागाउनु of लाग्नु, पुगाउनु of पुग्नु), those
+# whose forms are the verb's nouns (सोचाइ, हेराइ) and those Nepali does not use (मराउनु, चोराउनु).
+NOT_CAUSATIVES = {"लागाउनु", "पुगाउनु", "सोचाउनु", "हेराउनु", "मराउनु", "चोराउनु", "टोकाउनु", "खनाउनु", "हेपाउनु"}
 # Corpus spellings that are no words: letters and endings written apart, abbreviations.
 NOT_WORDS = {"हरू", "हरु", "नं", "रु", "रू", "डा", "स", "दु"}
 # Words the Hindi pack confirms (HINDI_CONFIRMED) that are names in Nepali text, or Hindi's alone.
@@ -366,9 +369,21 @@ def lexicon(dictionaries=DICTIONARIES, counts=None):
             kinds[word] |= kinds.pop(variant)
     for word in list(PRONOUNS) + list(COPULAS):
         kinds[word].add("pron" if word in PRONOUNS else "verb")
+    # A causative the tables list as a form of its verb (सुनाउनु of सुन्नु, बोलाउनु of बोल्नु) is a verb of its own
+    # (NOT_CAUSATIVES aside).
+    causatives = set()
+    for form, lemma, generated in db.execute("SELECT form_lc, lemma, generated FROM forms"):
+        form, lemma = normalised(form), normalised(lemma)
+        if not generated and form.endswith("ाउनु") and not lemma.endswith("ाउनु") and lemma in kinds \
+                and LETTERS.fullmatch(form) and form not in NOT_CAUSATIVES:
+            causatives.add(form)
+    for verb in causatives:
+        kinds[verb].add("verb")
     table = defaultdict(set)
     for form, lemma, generated in db.execute("SELECT form_lc, lemma, generated FROM forms"):
         form, lemma = normalised(form), normalised(lemma)
+        if form in causatives and lemma != form:
+            continue
         if generated or lemma not in kinds or form == lemma or (form, lemma) in WRONG_LINKS or lemma in PRONOUNS \
                 or form in NEPALI_FORMS or not LETTERS.fullmatch(form):
             continue
