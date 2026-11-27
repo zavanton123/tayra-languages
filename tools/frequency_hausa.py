@@ -187,6 +187,12 @@ HAUSA_JOINED = {
     "barsu": "bar su", "harma": "har ma", "shike": "shi ke", "wanan": "wannan", "nima": "ni ma", "itama": "ita ma",
     "kaima": "kai ma", "kema": "ke ma", "farinciki": "farin ciki", "kodayaushe": "ko da yaushe", "sukai": "suka yi",
     "za'ayi": "za a yi",
+    "kune": "ku ne", "mune": "mu ne", "acan": "a can", "kauda": "kau da", "yai": "ya yi", "naaji": "na ji",
+    "ɗansanda": "ɗan sanda", "ɗansandan": "ɗan sandan", "dansanda": "dan sanda", "dansandan": "dan sandan",
+    "yanzunnan": "yanzu nan", "ɗinnan": "ɗin nan", "dinnan": "din nan", "kodai": "ko dai",
+    "gareni": "gare ni", "gareta": "gare ta", "garesu": "gare su", "gareshi": "gare shi", "garemu": "gare mu",
+    "amatsayin": "a matsayin", "aƙasar": "a ƙasar", "akasar": "a kasar", "yakara": "ya ƙara", "aci": "a ci",
+    "baza'a": "ba za a", "ba'ayi": "ba a yi", "watarana": "wata rana",
 }
 # Words that are no Hausa words of ordinary text: names written small, English, abbreviations, fragments (basuwa, written for
 # ba su), the linker n written apart.
@@ -224,6 +230,12 @@ PALATAL = {"c": "t", "sh": "s", "j": "z"}
 JOINED_PERSONS = sorted({"na", "ya", "ta", "mu", "ku", "su", "ka", "ki", "a", "an", "sun", "mun", "kun", "ke", "ake", "zai",
                          "zan", "za", "bai", "ban"}, key=lambda p: (-len(p), p))
 JOINED_VERBS = {"yi", "ce", "ji", "ga", "je", "zo", "san"}
+# The relative continuous person-aspect words, which are joined to a verb as the others are (sukeyi: suke yi).
+JOINED_RELATIVE = {"yake", "take", "suke", "nake", "muke", "kuke"}
+# Object pronouns text joins to the verb before them (kasheta, haɗasu, sameshi: kashe ta, haɗa su, same shi), and the least
+# count of a verb (all its spellings) that is so split.
+JOINED_OBJECTS = ("shi", "ta", "su", "mu", "ku", "ni")
+JOINED_OBJECT_VERB = 20
 # At or above this share of its count written as half of a hyphenated word (fina-finai, ire-iren), a spelling is not counted.
 HYPHEN_SHARE = 0.5
 ENGLISH_IRREGULAR = {"people": "person", "children": "child", "men": "man", "women": "woman", "feet": "foot", "teeth": "tooth",
@@ -415,9 +427,13 @@ class Lexicon:
                 by_key[key].add(word)
         for word, glosses in self.senses.items():
             for text in [t for g in glosses for t in GLOSS_PARENS.findall(g) + GLOSS_OF.findall(g)]:
+                # "(fused bai da) has no", and the first words of a longer phrase ("(ba tare da) without": batare).
                 parts = [hausa_clean(p).lower() for p in text.split()]
-                if len(parts) > 1 and "".join(parts) == word and all(WORD.fullmatch(p) for p in parts):
-                    self.joined[word] = parts
+                parts = parts[1:] if parts[:1] == ["fused"] else parts
+                for k in range(len(parts), 1, -1):
+                    if "".join(parts[:k]) == word and all(WORD.fullmatch(p) for p in parts[:k]):
+                        self.joined[word] = parts[:k]
+                        break
         for word in self.kinds:
             if word in HAUSA_FORMS:
                 if HAUSA_FORMS[word] and "," not in HAUSA_FORMS[word] and HAUSA_FORMS[word] != word:
@@ -561,10 +577,15 @@ class Lexicon:
             return self.joined[word]
         if word in self.kinds or word in self.forms or word in self.generated or word in HAUSA_FORMS or word in self.wiktionary:
             return None
-        for person in JOINED_PERSONS:
+        for person in JOINED_PERSONS + sorted(JOINED_RELATIVE):
             rest = word[len(person):]
             if word.startswith(person) and rest in JOINED_VERBS:
                 return [person, rest]
+            # The future with its person and verb (zasuyi: za su yi).
+            if person == "za" and word.startswith(person) and rest:
+                more = self.split(rest)
+                if more and more[0] in JOINED_PERSONS:
+                    return [person] + more
         return None
 
     @staticmethod
@@ -747,6 +768,31 @@ def _counts(download, lexicon):
             hyphened[word] += n
         neighbours.add(sequence)
     return counts, names, hyphened, after_subject, neighbours
+
+
+def _split_objects(counts, after_subject, lexicon):
+    """Counts a spelling the pack lacks that is a verb and its object pronoun (haifeshi, kasheta, sameshi: haife shi, kashe
+    ta, same shi) as its words, in place: a verb by text (GRADE_VERB) counted at least JOINED_OBJECT_VERB times, no other word
+    of the pack's without its hooks (kasata is ƙasata, not kasa ta)."""
+    written = defaultdict(int)
+    for kind_counts in counts.values():
+        for word, by_hooks in kind_counts.items():
+            written[word] += sum(by_hooks.values())
+    known = set(lexicon.kinds) | set(lexicon.forms) | set(lexicon.generated) | lexicon.wiktionary | set(HAUSA_FORMS)
+    plain = {w.translate(DEHOOK) for w in known}
+    for word in sorted(written):
+        if word in known or word.translate(DEHOOK) in plain:
+            continue
+        for pronoun in JOINED_OBJECTS:
+            verb = word[:-len(pronoun)]
+            if not word.endswith(pronoun) or len(verb) < 4 or verb[-1] not in "aeiou":
+                continue
+            if written[verb] >= JOINED_OBJECT_VERB and after_subject.get(verb, 0) >= GRADE_VERB * written[verb]:
+                for kind_counts in counts.values():
+                    for hooks, n in kind_counts.pop(word, {}).items():
+                        kind_counts[verb][hooks] += n
+                        kind_counts[pronoun][frozenset()] += n
+                break
 
 
 def _join_same(lexicon, share):
@@ -1022,6 +1068,7 @@ def build(size, download, dictionaries=DICTIONARIES):
     word the pack lacks is no name (written capitalised more often than not) and no word of one letter."""
     lexicon = Lexicon(dictionaries)
     counts, names, hyphened, after_subject, neighbours = _counts(download, lexicon)
+    _split_objects(counts, after_subject, lexicon)
     written = defaultdict(int)
     for kind_counts in counts.values():
         for word, by_hooks in kind_counts.items():
