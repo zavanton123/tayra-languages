@@ -245,6 +245,10 @@ internal val plCommon: Map<String, String> = mapOf(
     "Interface language" to "Język interfejsu",
     "Changes saved" to "Zmiany zapisane",
 
+    // FirstRunLanguages.kt
+    "Your languages" to "Twoje języki",
+    "You can change them later in Settings." to "Możesz je później zmienić w Ustawieniach.",
+
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "Preferowane",
     "No dictionaries enabled yet." to "Nie włączono jeszcze żadnego słownika.",

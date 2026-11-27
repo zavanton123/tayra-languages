@@ -245,6 +245,10 @@ internal val ruCommon: Map<String, String> = mapOf(
     "Interface language" to "Язык интерфейса",
     "Changes saved" to "Изменения сохранены",
 
+    // FirstRunLanguages.kt
+    "Your languages" to "Ваши языки",
+    "You can change them later in Settings." to "Их можно изменить позже в настройках.",
+
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "Предпочтительные",
     "No dictionaries enabled yet." to "Пока нет включённых словарей.",

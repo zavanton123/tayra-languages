@@ -245,6 +245,10 @@ internal val ptCommon: Map<String, String> = mapOf(
     "Interface language" to "Idioma da interface",
     "Changes saved" to "Alterações salvas",
 
+    // FirstRunLanguages.kt
+    "Your languages" to "Seus idiomas",
+    "You can change them later in Settings." to "Você pode alterá-los depois em Configurações.",
+
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "Preferidos",
     "No dictionaries enabled yet." to "Nenhum dicionário ativado ainda.",

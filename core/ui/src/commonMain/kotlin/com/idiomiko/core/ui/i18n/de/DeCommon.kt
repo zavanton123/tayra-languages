@@ -245,6 +245,10 @@ internal val deCommon: Map<String, String> = mapOf(
     "Interface language" to "Sprache der Oberfläche",
     "Changes saved" to "Änderungen gespeichert",
 
+    // FirstRunLanguages.kt
+    "Your languages" to "Deine Sprachen",
+    "You can change them later in Settings." to "Du kannst sie später in den Einstellungen ändern.",
+
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "Bevorzugt",
     "No dictionaries enabled yet." to "Noch keine Wörterbücher aktiviert.",

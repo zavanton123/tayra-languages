@@ -41,6 +41,11 @@ class LanguagesViewModel(private val settings: SettingsRepository, private val r
 
     fun setInterfaceLanguage(code: String) = viewModelScope.launch { settings.update { it.copy(uiLanguage = code) } }
 
+    /** Sets both at once, as the first start asks for them; the native language only when it is not [learningCode]. */
+    fun setLanguages(native: String, ui: String, learningCode: String?) = viewModelScope.launch {
+        settings.update { it.copy(nativeLanguage = if (native != learningCode) native else it.nativeLanguage, uiLanguage = ui) }
+    }
+
     /** Asks whether to remove the language with [languageId], counting what would go. */
     fun askToRemove(languageId: Long, name: String) {
         _removing.value = RemovalPrompt(languageId, name)

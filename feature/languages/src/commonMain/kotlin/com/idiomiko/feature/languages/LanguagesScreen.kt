@@ -183,7 +183,7 @@ private fun SavedNote(changes: Int) {
 
 /** One of the three choices: a small caps label, a title, then the picker and its notes; the language being learned is [highlighted]. */
 @Composable
-private fun LanguageTile(
+internal fun LanguageTile(
     label: String,
     title: String,
     modifier: Modifier = Modifier,
@@ -212,7 +212,7 @@ private fun LanguageTile(
 
 /** A field showing the chosen language with its flag; it opens a menu of the [options], each with its flag. [name] is the name to show. */
 @Composable
-private fun <T> FlagPicker(
+internal fun <T> FlagPicker(
     options: List<T>,
     selected: T?,
     name: (T) -> String,

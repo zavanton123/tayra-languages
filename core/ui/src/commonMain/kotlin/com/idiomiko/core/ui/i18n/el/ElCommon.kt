@@ -245,6 +245,10 @@ internal val elCommon: Map<String, String> = mapOf(
     "Interface language" to "Γλώσσα διεπαφής",
     "Changes saved" to "Οι αλλαγές αποθηκεύτηκαν",
 
+    // FirstRunLanguages.kt
+    "Your languages" to "Οι γλώσσες σας",
+    "You can change them later in Settings." to "Μπορείτε να τις αλλάξετε αργότερα στις Ρυθμίσεις.",
+
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "Προτιμώμενα",
     "No dictionaries enabled yet." to "Δεν έχουν ενεργοποιηθεί λεξικά ακόμη.",

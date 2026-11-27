@@ -49,6 +49,7 @@ import androidx.compose.runtime.setValue
 import com.idiomiko.core.domain.frequency.VocabularyLevelService
 import com.idiomiko.core.domain.frequency.WordFrequencyService
 import com.idiomiko.feature.frequency.VocabularyLevelPrompt
+import com.idiomiko.feature.languages.FirstRunLanguagesDialog
 import kotlinx.coroutines.launch
 import com.idiomiko.core.ui.i18n.UiLanguage
 import com.idiomiko.core.ui.i18n.tr
@@ -71,7 +72,8 @@ import com.idiomiko.feature.home.StartupSkeleton
 /**
  * Gives every screen's top bar the choice of the language being learned, and picks a language
  * again whenever the chosen one is gone. While none is chosen (first start, a deleted language or
- * a reset database), the user has to choose one before going on. Choosing another
+ * a reset database), the user has to choose one before going on, then the languages meanings and
+ * the interface are shown in. Choosing another
  * language opens its courses ([onChosen]) and asks for its vocabulary level when it was never given
  * one; what the language needs is downloaded in the background meanwhile ([LanguageAssets]).
  */
@@ -94,6 +96,8 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     val chineseScripts = koinInject<ChineseScriptService>()
     // The language just chosen, asked for its vocabulary level first.
     var askLevelFor by remember { mutableStateOf<Long?>(null) }
+    // The first language just chosen: the native and interface languages are asked for before its level.
+    var askLanguagesFor by remember { mutableStateOf<Long?>(null) }
     // What the language being learned needs is fetched in the background, at start and whenever another is chosen.
     val assets = koinInject<LanguageAssets>()
     LaunchedEffect(assets, currentId) { assets.ensure(currentId) }
@@ -105,9 +109,10 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
         // The native language is listed but cannot be chosen for learning.
         val nativeIds = languages.filter { learning.isNative(it) }.map { it.id }.toSet()
         suspend fun choose(id: Long) {
+            val first = currentId == 0L
             if (!learning.select(id) || id == currentId) return
             onChosen()
-            if (levels.needsLevel(id)) askLevelFor = id
+            if (first) askLanguagesFor = id else if (levels.needsLevel(id)) askLevelFor = id
         }
         LearningLanguageState(
             languages.sortedBy { it.name }.map { it.id to it.name }, currentId, nativeIds, knownWords,
@@ -129,6 +134,12 @@ private fun ProvideLearningLanguage(currentId: Long, onChosen: () -> Unit, conte
     CompositionLocalProvider(LocalLearningLanguage provides state, LocalLearnedScript provides script, LocalPreparing provides preparing) {
         content()
         if (currentId == 0L && languages.isNotEmpty()) TargetLanguageDialog(state)
+        askLanguagesFor?.let { id ->
+            FirstRunLanguagesDialog(onDone = {
+                askLanguagesFor = null
+                scope.launch { if (levels.needsLevel(id)) askLevelFor = id }
+            })
+        }
         VocabularyLevelPrompt(askLevelFor, onClosed = { askLevelFor = null })
     }
 }

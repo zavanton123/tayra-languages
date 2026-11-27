@@ -245,6 +245,10 @@ internal val zhCommon: Map<String, String> = mapOf(
     "Interface language" to "界面语言",
     "Changes saved" to "更改已保存",
 
+    // FirstRunLanguages.kt
+    "Your languages" to "你的语言",
+    "You can change them later in Settings." to "你可以稍后在设置中更改。",
+
     // ManageDictionariesScreen.kt, ManageDictionariesViewModel.kt
     "Preferred" to "首选",
     "No dictionaries enabled yet." to "尚未启用任何词典。",

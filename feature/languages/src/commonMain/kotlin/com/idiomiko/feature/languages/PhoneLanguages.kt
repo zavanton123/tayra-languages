@@ -110,7 +110,7 @@ internal fun PhoneLanguagesScreen(settings: UserSettings, learning: LearningLang
 
 /** A small caps label, the title and the row; the learning card is [highlighted]. */
 @Composable
-private fun PhoneLanguageCard(label: String, title: String, highlighted: Boolean = false, row: @Composable () -> Unit) {
+internal fun PhoneLanguageCard(label: String, title: String, highlighted: Boolean = false, row: @Composable () -> Unit) {
     val colors = MaterialTheme.colorScheme
     val shape = AppShapes.card
     Column(
@@ -129,7 +129,7 @@ private fun PhoneLanguageCard(label: String, title: String, highlighted: Boolean
 
 /** The chosen language with its flag and a chevron; [label] is what to show when the name shown is not the flag's. */
 @Composable
-private fun PhoneLanguageRow(flagName: String?, tag: String, label: String? = flagName?.let(::tr), onClick: () -> Unit) {
+internal fun PhoneLanguageRow(flagName: String?, tag: String, label: String? = flagName?.let(::tr), onClick: () -> Unit) {
     val colors = MaterialTheme.colorScheme
     Row(
         Modifier.fillMaxWidth().clip(AppShapes.control).background(colors.surface).border(AppBorders.hairline(colors.outline.copy(alpha = AppAlpha.half)), AppShapes.control)
