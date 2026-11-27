@@ -242,7 +242,7 @@ for _kind, _words in {
     "prep": "ወደ ስለ እስከ እንደ ከነ ያለ",
     "postp": "ድረስ መካከል በኩል ዘንድ ያህል በቀር ረገድ አኳያ ሳቢያ አጠገብ ታች ባሻገር",
     "conj": "ይልቅ ግን እንጂ እንዲሁም ወይ ታዲያ ስለዚህም እንግዲህ ቢሆንም ሆኖም",
-    "adv": """ጭራሽ ልክ ብቅ የምር ትዝ ምነው ዘወትር አስቀድሞ አስመልክቶ ድጋሚ ከፍ እኩል ድንገት ዘወትር እጅግ በተለይ ወዲህ ይበልጥ ቢያንስ ምናልባት ሰሞኑን ኋላ ሁሌም ሁልጊዜ ገደማ ዘንድሮ ቀስ ያኔ ዳግም እዚያ እንዲሁ እንዲያውም እንዲህ
+    "adv": """ጭራሽ ልክ ብቅ ብልጭ የምር ትዝ ምነው ዘወትር አስቀድሞ አስመልክቶ ድጋሚ ከፍ እኩል ድንገት ዘወትር እጅግ በተለይ ወዲህ ይበልጥ ቢያንስ ምናልባት ሰሞኑን ኋላ ሁሌም ሁልጊዜ ገደማ ዘንድሮ ቀስ ያኔ ዳግም እዚያ እንዲሁ እንዲያውም እንዲህ
         ቶሎ አብሮ ዝም ደስ ይፋ ጭምር ዝቅ ቁጭ ጣልቃ ትናንትና ትላንት በፍጥነት ብዙውን ወዴት እንደገና አሁንም እስካሁን""",
     "particle": "አዎ እነሆ ሆይ እንኳን እንኳ እኮ እስቲ እስኪ አይደል እንዴ",
     "pron": "እርስ ምናምን ስንት ይኸው ማንም ሁላችን ሁላችሁ እያንዳንዱ",
@@ -251,7 +251,7 @@ for _kind, _words in {
         ጎጂ አዝናኝ አስቂኝ ሕያው በጎ በቂ ሰራሽ ቅርብ ክቡር አልባ ቅድስት ተደጋጋሚ ፈቃደኛ ጋዜጣዊ ውብ አሉታዊ ቀጥተኛ ውድቅ ስኬታማ ሀገራዊ አሳሳቢ ዓመታዊ አስደናቂ
         ተከታታይ መደበኛ አነስተኛ ወቅታዊ ታዋቂ ውጤታማ ታማኝ ማዕከላዊ ህጋዊ መንግስታዊ ተጠያቂ ምቹ ቀጣይ ተንቀሳቃሽ ተጨባጭ ሰብዓዊ ክልላዊ
         አገራዊ አስቸኳይ አስተማማኝ አሳዛኝ ቀዳሚ አስገራሚ ኢኮኖሚያዊ ዴሞክራሲያዊ ብሔራዊ ባህላዊ ቋሚ ሞቃት እውን ይቅር ዘመናዊ ዓለም አቀፍ
-        አቀፍ ውድ ርካሽ ደስተኛ ቀጭን ወፍራም ንጹሕ ቆሻሻ ሙቅ ቀዝቃዛ ጣፋጭ ሰነፍ ጎበዝ ብልህ ደግ ክፉ ሀብታም ድሃ ጤነኛ ታማሚ ባዶ""",
+        አቀፍ ውድ ርካሽ ደስተኛ ቀጭን ወፍራም ንጹሕ ቆሻሻ ሙቅ ቀዝቃዛ ጣፋጭ ሰነፍ ጎበዝ ብልህ ደግ ክፉ ሀብታም ድሃ ጤነኛ ታማሚ ባዶ በላጭ ወዳድ""",
     "num": "ሚሊዮን ቢሊዮን ሃምሳ ስልሳ ሰባ ሰማንያ ዘጠና",
     "noun": """ሁኔታ መብት አገልግሎት ቡድን ዓይነት መልክ አስተዳደር መግለጫ ልማት ትግል እንቅስቃሴ ተግባር ተቋም ውይይት እርምጃ ትኩረት
         ሂደት ስብሰባ ትውልድ ነጥብ በዓል መድረክ አቅም ሚኒስቴር ስልጣን ንግግር አመራር አዋጅ ግንባታ ንብረት ዕለት ቢሮ ዞን መስመር
@@ -267,17 +267,22 @@ for _kind, _words in {
         ስድብ ምደባ ዝማኔ እስር እጥረት እልቂት ርስት እጥፍ መጠን ቅርስ እገዛ ብቃት ሰሞን መርህ ስፍራ ፍሬ ምትክ ምቾት መቀመጫ ቀኝ ግራ መሃል ስኬት ሴራ ምልክት አንፃር ማህበር መገናኛ በላይነት አማካኝነት ምርመራ ሪፖርተር ተሞክሮ አምራች አፈጻጸም ሰንበት
         መጠይቅ ጨረታ አስተዳዳሪ ትስስር ሬዲዮ ህልውና ደንበኛ ዕቃ ማስጠንቀቂያ ቅርንጫፍ ጎል ሽያጭ ልቦና አቀባበል ማሻሻያ ስያሜ ጽሕፈት
         አጋማሽ ምሕረት አቤቱታ ተከታይ ፖለቲከኛ መገለጫ መደብ ኤጀንሲ መግባባት ተቀማጭ ሰይጣን ተቀባይነት ሊቀመንበር መሥሪያ
-        ቦርሳ ሳጥን ወረቀት እስክሪብቶ እርሳስ ሰሌዳ ፊደል ቁጥር ስዕል ፊልም ሙዚቃ ዘፈን ጭፈራ ጨዋታ በዓል ሠርግ ልደት ስጦታ ግብዣ""",
+        ቦርሳ ሳጥን ወረቀት እስክሪብቶ እርሳስ ሰሌዳ ፊደል ቁጥር ስዕል ፊልም ሙዚቃ ዘፈን ጭፈራ ጨዋታ በዓል ሠርግ ልደት ስጦታ ግብዣ ሽሮ ፍላሽ ብልጫ ብላጫ ብልጭታ ሽርክና መርዶ""",
     "verb": """መጣ ሄደ ተኛ ተነሳ ተቀመጠ ሸጠ ተጫወተ መለሰ አስታወሰ ሰጠ ተቀበለ ቆየ ተወለደ አገባ ተራበ አገኘ ተገኘ ናፈቀ ተሳፈረ
         ተመለሰ አበላ አጠጣ ለበሰ አወለቀ ነቃ ቀሰቀሰ አወቀ አደረገ ተደረገ ተባለ ተከተለ መሰለ አስፈለገ ታወሰ ተመለከተ ተለየ ተጠበቀ
         አስታወቀ ታየ አሳየ ቻለ ተቻለ ተጀመረ ተከላከለ አቀረበ ተካሄደ ተሰጠ ተወሰነ አስረዳ ጠቆመ ተገለጸ ቆመ ተቀመጠ አለቀሰ አጠበ
         ታጠበ ተዘጋጀ አዘጋጀ ተሰማ አሰማ ተመረቀ ተጓዘ ደወለ ተጠራ አዳመጠ ተሳተፈ አሳተፈ ተረከበ አስረከበ ተፈጠረ ተጣላ ታረቀ ጸለየ
         አፈራ አፈረሰ አበረከተ አበረታታ አጣራ አዳነ አሳመነ አስቆመ በቀለ አነሰ ተወ ቀረ ከፋ ተባበረ አስቀደመ ተያያዘ ለያየ ተለያየ አስወገደ አሳለፈ አሸነፈ አሳደገ አስተማረ አወረደ አስቻለ ተግባባ
-        አለፈ በለጠ ተሾመ አከበረ ተከበረ ዋኘ ሮጠ ዘለለ ወደቀ ተራመደ ጠፋ አጠፋ ተሻለ አሻሻለ ጨረሰ ተጠናቀቀ አጠናቀቀ ሞከረ ተሞከረ ጠበቀ ተጠቀመ""",
+        አለፈ በለጠ ተሾመ አከበረ ተከበረ ዋኘ ሮጠ ዘለለ ወደቀ ተራመደ ጠፋ አጠፋ ተሻለ አሻሻለ ጨረሰ ተጠናቀቀ አጠናቀቀ ሞከረ ተሞከረ ጠበቀ ተጠቀመ
+        አወጣ አስቀመጠ አደገ ሞቀ ሞላ ሸፈነ ነካ አረደ አረጀ ፈለሰ ፈረመ ደነሰ ተስማማ""",
     "intj": "እሺ አቤት ወይኔ ኧረ",
 }.items():
     for _word in _words.split():
         AMHARIC_WORDS.setdefault(_word, _kind)
+# Verbs whose forms are only those their paradigm makes (verb_forms), not every word their stems are left of (Lexicon.verbal):
+# short stems such as ነካ's nk would take እንከን, ሊንክ and እንኳን.
+AMHARIC_RULED_ONLY = {"አወጣ", "አስቀመጠ", "አደገ", "ሞቀ", "ሞላ", "ሸፈነ", "ነካ", "አረደ", "አረጀ", "ፈለሰ", "ፈረመ", "ደነሰ",
+                      "ተስማማ"}
 # Forms whose word the rules would miss or get wrong (written as text has them): the demonstratives after a preposition
 # (በዚህ, ከዚያ), other spellings of a word (ዉስጥ, ውጪ), the bound forms of a noun before another (ቤተ ክርስቲያን, ሕገ
 # መንግሥት), irregular plurals (መጻሕፍት), and the forms of አለ "say; there is" that have none of its letters but l (ብሎ, ይላል,
@@ -296,7 +301,8 @@ AMHARIC_FORMS = {
     "እያንዳንዷ": "እያንዳንዱ", "የኔ": "እኔ", "አገራት": "አገር", "ቤተሰቦች": "ቤተሰብ", "ታላቁ": "ታላቅ", "የሴት": "ሴት", "አዩ": "አየ", "አዬ": "አየ", "አብረን": "አብሮ", "አብረው": "አብሮ", "አብረኝ": "አብሮ", "መቸም": "መቼ",
     "ወይንም": "ወይም", "ሚልዮን": "ሚሊዮን", "ሚሊየን": "ሚሊዮን", "ቢልዮን": "ቢሊዮን", "ቢሊየን": "ቢሊዮን", "ደሞ": "ደግሞ",
     "ደሞም": "ደግሞ", "እንደማለት": "አለ", "ስላሉ": "አለ", "ስላለ": "አለ", "ስላላቸው": "አለ", "መቸ": "መቼ", "አብረውት": "አብሮ",
-    "አብሮት": "አብሮ", "ወይንስ": "ወይም", "ያክል": "ያህል", "ብሎም": "አለ", "ባይ": "አለ", "ባዮች": "አለ", "ያዩ": "አየ", "እርሶ": "እርስዎ", "እላለሁ": "አለ", "ትላለህ": "አለ", "ትያለሽ": "አለ", "እንላለን": "አለ", "ትላላችሁ": "አለ", "ሌላኛው": "ሌላ", "አብዛኞቹ": "አብዛኛው", "ፍቃድ": "ፈቃድ", "አንጻር": "አንፃር", "አማካይነት": "አማካኝነት",
+    "አብሮት": "አብሮ", "ወይንስ": "ወይም", "ያክል": "ያህል", "ብሎም": "አለ", "ባይ": "አለ", "ባዮች": "አለ", "ያዩ": "አየ", "እርሶ": "እርስዎ", "እላለሁ": "አለ", "ትላለህ": "አለ", "ትያለሽ": "አለ", "እንላለን": "አለ", "ትላላችሁ": "አለ", "ሌላኛው": "ሌላ", "አብዛኞቹ": "አብዛኛው", "ፍቃድ": "ፈቃድ", "አንጻር": "አንፃር", "አማካይነት": "አማካኝነት", "አባዬ": "አባት", "ወዳድነት": "ወዳድ",
+    "ከባድነት": "ከባድ",
 }
 # The stems of አለ ("say; there is, have") that the rules can't make from its letters: ይ-ል-ኣል, ሲ-ል, የሚ-ል, ብ-ሎ, በ-ል, ማ-ለት,
 # የ-ለ-ም, የ-ሌለ.
@@ -307,13 +313,13 @@ AMHARIC_STEMS = {
 # Words that are no words of an ordinary text: letters, abbreviations, bound forms that are words only with the next.
 AMHARIC_EXCLUDED = {"ጎጃም", "መተማ", "ዘሪሁን", "ገብረ", "ጥሩነሽ", "አንዳርጋቸው", "ስመ", "አርሰናል", "አርሲ", "ማርሻል", "ጋና", "ካሳሁን", "ቻይና", "ግርማ", "ደሴ",
                     "ዳኒ", "ጥላሁን", "ንጥረ", "ለንደን", "ናንሲ", "ወያኔ", "እስመ", "ዐ", "ሥነ", "ስነ", "ድረ", "ፀረ", "ርዕሰ", "ኃይለ",
-                    "ደብረ", "ሊቀ", "ቅድመ", "ግብረ", "ሀገረ", "ደቀ", "አብያተ", "ሊቃነ"}
+                    "ደብረ", "ሊቀ", "ቅድመ", "ግብረ", "ሀገረ", "ደቀ", "አብያተ", "ሊቃነ", "ሽሬ", "ካርዲናል", "ናርዶስ", "ሊንከን"}
 # Pack entries that are other words' forms or the words of a rare verb whose stems take far commoner words' forms (ናደ:
 # እንዳሉ, ላለ: ይላል): no words of the list, their forms read by the rules.
 AMHARIC_UNLISTED = {"ማዎቅ", "ቻይ", "የተፈጥሮ", "የተለያዩ", "የሥራ", "የውጭ", "የትግራይ", "የንግድ", "የፖለቲካ", "ማንኛው", "አገራት", "ቤተሰቦች", "ታላቁ",
                     "የሴት", "የኔ", "ናደ", "ጎ", "አር", "በዳ", "ላለ", "ላላ", "ና", "የተባበረ", "የሌሊት", "የተጠጋጋ", "የመኪና", "የፀሐይ",
                     "የበሰለ", "የበታች", "የእርሻ", "በመሠረት", "የከበረ", "የተከበረ", "በደስታ", "የደስታ", "የሳምባ", "የሰማይ", "የፌዝ", "የተለያየ",
-                    "የባህል", "ከባሻገር", "ከየት", "የተለመደ", "የካቶሊክ", "የወላይታ", "የደግነት", "የግሪክ", "የጥንት"}
+                    "የባህል", "ከባሻገር", "ከየት", "የተለመደ", "የካቶሊክ", "የወላይታ", "የደግነት", "የግሪክ", "የጥንት", "ኩል"}
 
 
 # What may come before a stem: nothing or a preposition (a perfective, a gerund, an imperative: ሰበረ, የሰበረ, ሰብሮ, ስበር),
@@ -454,6 +460,328 @@ def _infinitive_stems(key):
     return out
 
 
+# ----- Verb paradigms -----
+
+# Before the first person's gerund -e and the feminine's -i a last t, d, s, z, n, T, S or l is written palatal (ቆርጬ, በልቼ, ሄጄ,
+# ሆኜ, ጥዬ; ቁረጪ).
+PALATAL = {"t": "c", "d": "j", "s": "x", "z": "Z", "n": "N", "T": "C", "S": "C", "l": "y"}
+
+
+def _palatal(stem):
+    return stem[:-1] + PALATAL[stem[-1]] if stem and stem[-1] in PALATAL else stem
+
+
+def _spoken(s):
+    """[s] as sounds() writes it: h and the glottal stop before ä as before a (አ is 'a, not 'A)."""
+    return re.sub("([h'])A", "\\1a", s)
+
+
+def join(front, body):
+    """
+    [front] and [body] written together: a glottal stop starting [body] goes after a consonant (ይ + አደርግ is ያደርግ, ይ + እደግ
+    is ይደግ), takes the place of a front's ä (የ + አደረገ is ያደረገ, መ + እድግ is ማደግ), and is y after i (ሲ + አደርግ is ሲያደርግ).
+    """
+    if not front or not body.startswith("'"):
+        return front + body
+    rest = body[1:]
+    vowel = rest[0] if rest and rest[0] in "uiaeo" else ""
+    if front[-1] in "Aa":
+        return front[:-1] + (vowel or "a") + rest[len(vowel):]
+    if front[-1] == "i":
+        return front + ("y" + rest if vowel else rest)
+    return front + rest
+
+
+def _stems(letters):
+    """
+    The stems a regular verb of [letters] (a perfective without ተ-, አ- or አስ-) is inflected on, by the pattern of its vowels,
+    or None: the perfective's (P, before its person ending: ሰበር-ኩ, በል-ኣሁ), the imperfective's (I: ይ-ሰብር-ኣል, ይ-በል-ኣል),
+    the jussive's (J: ይ-ስበር, ይ-ብላ), the gerund's (G: ሰብር-ኦ, በልት-ኦ) and the infinitive's after መ- (N: መ-ስበር, መ-ብላት); the
+    causative's after አ- (CI, CJ, CG; CN after ማ-: ያ-ደርግ-ኣል, ያ-ድርግ, አ-ድርግ-ኦ, ማ-ድረግ) and the passive's after ተ- (TI, TJ,
+    TG; TN after መ-: ይ-ሰበር-ኣል, ተ-ሰብር-ኦ, መ-ሰበር). Where the spelling leaves a verb's class open (ሰበረ: ይስበር; ፈለገ:
+    ይፈልግ) both are made.
+    """
+    n = len(letters)
+    cs = [c for c, _ in letters]
+    vs = [v for _, v in letters]
+    if n < 2 or n > 4 or vs[-1] not in ("A", "a") or any(len(c) != 1 and not c.endswith("W") for c in cs):
+        return None
+    weak = vs[-1] == "a"
+    p = "".join(c + v for c, v in letters[:-1]) + cs[-1]
+    inner = vs[:-1]
+    s = None
+    if n == 3:
+        c1, c2, c3 = cs
+        v1 = inner[0]
+        if inner == ["A", "A"] and weak:
+            # ፈነዳ: ይፈነዳል, ይፈንዳ, ፈንድቶ, መፈንዳት.
+            s = dict(I=[p], J=[c1 + "A" + c2 + c3 + "a"], G=[c1 + "A" + c2 + c3 + "t"], N=[c1 + "A" + c2 + c3 + "at"])
+        elif inner == ["A", "A"]:
+            # ሰበረ (ይሰብራል, ይስበር, ሰብሮ, መስበር) and ፈለገ (ይፈልግ, መፈለግ); አደረገ: ያደርጋል, ያድርግ, አድርጎ, ማድረግ.
+            s = dict(I=[c1 + "A" + c2 + c3], J=[c1 + c2 + "A" + c3, c1 + "A" + c2 + c3], G=[c1 + "A" + c2 + c3],
+                     N=[c1 + c2 + "A" + c3, p], CJ=[c1 + c2 + c3], CG=[c1 + c2 + c3], CN=[c1 + c2 + "A" + c3])
+        elif inner[1] == "A" and v1 in ("a", "o", "e"):
+            # ማረከ (ይማርካል, ይማርክ, ማርኮ, መማረክ), ቆረጠ (ይቆርጣል, ይቁረጥ, ቆርጦ, መቁረጥ), አደገ (ያድጋል, ይደግ, አድጎ, ማደግ);
+            # ታጠበ: ይታጠባል.
+            u = {"a": "a", "o": "u", "e": "i"}[v1]
+            if weak:
+                s = dict(I=[p], J=[c1 + v1 + c2 + c3 + "a"], G=[c1 + v1 + c2 + c3 + "t"], N=[c1 + v1 + c2 + c3 + "at"])
+            else:
+                s = dict(I=[c1 + v1 + c2 + c3] + ([p] if c1 == "t" else []), J=[c1 + v1 + c2 + c3, c1 + u + c2 + "A" + c3]
+                         + (["'" + c2 + "A" + c3] if c1 == "'" else []), G=[c1 + v1 + c2 + c3], N=[p, c1 + u + c2 + "A" + c3])
+        elif inner == ["", "a"] and weak:
+            # ተስማማ: ይስማማል, ተስማምቶ, መስማማት.
+            s = dict(I=[p], J=[p + "a"], G=[p + "t"], N=[p + "at"])
+        elif inner == ["A", "a"]:
+            # ለያየ: ይለያያል, ለያይቶ, መለያየት.
+            if weak:
+                s = dict(I=[p], J=[p + "a"], G=[p + "t"], N=[p + "at"])
+            else:
+                s = dict(I=[p], J=[p], G=[p] + ([p + "t"] if c3 in "yw" else []), N=[p] + ([p + "At"] if c3 in "yw" else []))
+    elif n == 2:
+        c1, c2 = cs
+        v1 = inner[0]
+        if v1 == "A" and weak:
+            # በላ (ይበላል, ይብላ, በልቶ, መብላት) and ጠጣ (ይጠጣ, መጠጣት); አወጣ: ያወጣል, ያውጣ, አውጥቶ, ማውጣት.
+            s = dict(I=[c1 + "A" + c2], J=[c1 + c2 + "a", c1 + "A" + c2 + "a"], G=[c1 + "A" + c2 + "t"],
+                     N=[c1 + c2 + "at", c1 + "A" + c2 + "at"], CJ=[c1 + c2 + "a"], CG=[c1 + c2 + "t"], CN=[c1 + c2 + "at"])
+        elif v1 == "A":
+            # ሰጠ (ይሰጣል, ይስጥ, ሰጥቶ, መስጠት), ሸጠ (ሸጦ, መሸጥ), ለየ (ለይቶ, መለየት).
+            s = dict(I=[c1 + "A" + c2], J=[c1 + c2, c1 + "A" + c2], G=[c1 + "A" + c2, c1 + "A" + c2 + "t", c1 + c2 + "t"],
+                     N=[c1 + c2 + "At", c1 + "A" + c2 + "At", c1 + "A" + c2], CJ=[c1 + c2], CG=[c1 + c2 + "t", c1 + "A" + c2],
+                     CN=[c1 + c2 + "At", c1 + "A" + c2])
+        elif v1 in ("o", "e") and weak:
+            # ሞላ: ይሞላል, ይሙላ, ሞልቶ, መሙላት.
+            u = {"o": "u", "e": "i"}[v1]
+            s = dict(I=[c1 + v1 + c2], J=[c1 + u + c2 + "a"], G=[c1 + v1 + c2 + "t"], N=[c1 + u + c2 + "at"],
+                     TN=[c1 + v1 + c2 + "at"])
+        elif v1 in ("o", "e"):
+            # ሞተ (ይሞታል, ይሙት, ሞቶ, መሞት), ሄደ (ይሄዳል, ይሂድ, ሄዶ, መሄድ), ቆየ (ቆይቶ, መቆየት); አቆመ: አቁሞ; ተሾመ: ተሹሞ.
+            u = {"o": "u", "e": "i"}[v1]
+            y = c2 in "yw"
+            s = dict(I=[c1 + v1 + c2], J=[c1 + u + c2], G=[c1 + v1 + c2] + ([c1 + v1 + c2 + "t"] if y else []),
+                     N=[c1 + v1 + c2] + ([c1 + v1 + c2 + "At"] if y else []), CG=[c1 + u + c2, c1 + v1 + c2],
+                     CN=[c1 + v1 + c2], TG=[c1 + u + c2, c1 + v1 + c2])
+        elif v1 == "a" and weak:
+            # ተዋጋ: ይዋጋል, ተዋግቶ, መዋጋት.
+            s = dict(I=[c1 + "a" + c2], J=[c1 + "a" + c2 + "a"], G=[c1 + "a" + c2 + "t"], N=[c1 + "a" + c2 + "at"])
+        elif v1 == "a":
+            # ጻፈ (ይጽፋል, ይጻፍ, ጽፎ, መጻፍ), ላጨ (ይላጫል); አዳነ: ያድናል, አድኖ, ማዳን; ተማረ: ይማራል, ተምሮ, መማር.
+            s = dict(I=[c1 + c2, c1 + "a" + c2], J=[c1 + "a" + c2], G=[c1 + c2], N=[c1 + "a" + c2], CI=[c1 + c2], CJ=[c1 + c2],
+                     TI=[c1 + "a" + c2])
+            if c1 == "'":
+                # አየ: ያያል, ይይ, እይ, አይቶ, ማየት.
+                s.update(I=[c1 + "a" + c2], J=["'" + c2, c1 + "a" + c2], G=[c1 + "a" + c2 + "t"] if c2 in "yw" else [c1 + "a" + c2])
+                s["N"] = [c1 + "a" + c2 + "At"] if c2 in "yw" else s["N"]
+    elif n == 4 and not weak:
+        c1, c2, c3, c4 = cs
+        if inner == ["A", "A", "A"]:
+            # መሰከረ: ይመሰክራል, ይመስክር, መስክሮ, መመስከር; ተመለከተ: ይመለከታል, ይመልከት, ተመልክቶ, መመልከት.
+            s = dict(I=[c1 + "A" + c2 + "A" + c3 + c4], J=[c1 + "A" + c2 + c3 + c4, c1 + "A" + c2 + c3 + "A" + c4],
+                     G=[c1 + "A" + c2 + c3 + c4], N=[c1 + "A" + c2 + c3 + "A" + c4], TJ=[p, c1 + "A" + c2 + c3 + "A" + c4],
+                     TN=[c1 + "A" + c2 + c3 + "A" + c4, p])
+        elif inner == ["A", "a", "A"]:
+            # ጠባበቀ, አረጋገጠ: ያረጋግጣል, አረጋግጦ, ማረጋገጥ; ተጠባበቀ: ይጠባበቃል, ተጠባብቆ, መጠባበቅ.
+            s = dict(I=[c1 + "A" + c2 + "a" + c3 + c4, p], J=[p], G=[c1 + "A" + c2 + "a" + c3 + c4], N=[p])
+    if s is None:
+        return None
+    s["P"], s["weak"] = p, weak
+    for slot, plain in (("CI", "I"), ("CJ", "I"), ("CG", "G"), ("CN", "N"), ("TI", None), ("TJ", None), ("TG", "G"), ("TN", None)):
+        s.setdefault(slot, s[plain] if plain else [p])
+    if "TJ" not in s or s["TJ"] == [p]:
+        s["TJ"] = s["TI"]
+    if weak and s["TN"] == [p]:
+        s["TN"] = [p + "at"]
+    elif s["TN"] == [p]:
+        # ተለያየ: መለያየት.
+        s["TN"] = [p] + [n for n in s["N"] if n.startswith(p) and n != p]
+    return s
+
+
+# How a verb is made from its stems (_stems): its derivation, the perfective's front, and per slot the front of each stem.
+_DERIVED = {
+    "": ("", dict(I=("", "I"), J=("", "J"), IMP=("", "J"), G=("", "G"), N=("mA", "N"))),
+    "T": ("tA", dict(I=("", "TI"), J=("", "TJ"), IMP=("tA", "TJ"), G=("tA", "TG"), N=("mA", "TN"))),
+    "A": ("'a", dict(I=("'a", "CI"), J=("'a", "CJ"), IMP=("'a", "CJ"), G=("'a", "CG"), N=("ma", "CN"))),
+    "AS": ("'as", dict(I=("'as", "I"), J=("'as", "I"), IMP=("'as", "I"), G=("'as", "G"), N=("mas", "P"))),
+    "AST": ("'astA", dict(I=("'astA", "I"), J=("'astA", "I"), IMP=("'astA", "I"), G=("'astA", "G"), N=("mastA", "P"))),
+}
+
+
+def verb_analyses(key, kinds=None):
+    """
+    The (derivation, stems) [key], a perfective, may be read as: plain, ተ- + a verb, አ- + a verb, አስ- + a verb, አስተ- + a
+    verb; those of [kinds] only when given.
+    """
+    letters = _letters_of(key)
+    out = []
+    # A ተ- verb is likeliest a passive (ተቃጠለ), an አ- verb one whose root starts so (አደገ) before a causative.
+    order = [("T", 1), ("", 0)] if letters[:1] == [("t", "A")] else [("", 0), ("A", 1), ("AS", 2), ("AST", 3)]
+    for kind, start in order:
+        if kinds is not None and kind not in kinds:
+            continue
+        if len(letters) - start < 2 or (kind == "T" and (letters[0] != ("t", "A") or len(letters) < 3)):
+            continue
+        if kind == "A" and letters[0] != ("'", "a"):
+            continue
+        if kind in ("AS", "AST") and (letters[0] != ("'", "a") or letters[1] != ("s", "")):
+            continue
+        if kind == "AST" and letters[2] != ("t", "A"):
+            continue
+        stems = _stems(letters[start:])
+        if stems:
+            out.append((kind, stems))
+    return out
+
+
+# A verb's endings, per slot (with A for the ä a weak verb writes as a: ይሰብረዋል, ይበላዋል): the perfective's person and its
+# object or article (ሰበረ, ሰበረች, ሰበርኩ, ሰበራችሁ, ሰበረው, ሰበሩት; በላ, በላሁ), the imperfective's main forms (ይሰብራል, ትሰብራለች,
+# እሰብራለሁ, ይሰብሩታል), its fronts and ends after a conjunction (የሚሰብር, ሲሰብሩ, እንዲሰብረው; the negative's -m), the gerund's
+# (ሰብሮ, ሰብሬ, ሰብረው, ሰብሯል, ሰብሬያለሁ) and the infinitive's (መስበሩ, ለመስበር, አለመስበር).
+_PERFECTIVE = ["A", "Ac", "u", "ku", "hu", "k", "h", "x", "n", "achu"]
+_PERFECTIVE_Y = ["Ahu", "Aku", "Ah", "Ak", "Ax", "An"]
+_PERFECTIVE_WEAK = ["a", "ac", "u", "ahu", "aku", "ah", "ak", "ax", "an", "achu"]
+_PERFECTIVE_FRONTS = ["", "yA", "kA", "slA", "'ndA", "'yA", "bA", "lA", "'skA", "yal", "kal", "slal", "'ndal", "bal", "lal"]
+_MAIN = [("y", "al"), ("t", "alAc"), ("t", "alAh"), ("'", "alAhu"), ("'n", "alAn"), ("t", "alachu"), ("y", "alu"),
+         ("y", "Awal"), ("y", "utal"), ("t", "AwalAc"), ("'", "AwalAhu"), ("'n", "AwalAn")]
+# The fronts of the imperfective after a conjunction or relative, by person (he, she or you, I, we).
+_SUBORDINATE = ["yAmi", "si", "bi", "li", "'ndi", "say", "yAmay", "bay", "'nday", "slAmi", "'ndAmi", "kAmi", "bAmi", "lAmi",
+                "wAdAmi", "'skAmi"]
+_SUBORDINATE_PERSONS = {
+    "y": _SUBORDINATE,
+    "t": ["yAmt", "st", "bt", "lt", "'ndt", "sat", "yAmat", "bat", "'ndat", "slAmt", "'ndAmt", "kAmt", "bAmt", "lAmt"],
+    "'": ["yAm", "s", "b", "l", "'nd", "sal", "yAmal", "bal", "'ndal", "slAm", "'ndAm", "kAm", "bAm", "lAm"],
+    "'n": ["yAmn", "sn", "bn", "ln", "'ndn", "san", "yAman", "ban", "'ndan", "slAmn", "'ndAmn", "kAmn", "bAmn", "lAmn"],
+}
+_NEGATIVE = {"y": "'ay", "t": "'at", "'": "'al", "'n": "'an"}
+_SUBORDINATE_ENDS = ["", "u", "Aw", "ut", "Awn", "utn", "m", "um"]
+_SUBORDINATE_WEAK = ["a", "u", "aw", "ut", "awn", "utn", "am", "um"]
+_GERUND = ["o", "a", "Aw", "Ah", "Ax", "An", "achu", "Wal", "alAc", "Awal", "Anal", "Ahal", "Axal", "ot", "otal", "om"]
+_GERUND_PALATAL = ["e", "eyalAhu"]
+_INFINITIVE_FRONTS = ["", "lA", "bA", "kA", "yA", "slA", "'ndA", "'skA"]
+_INFINITIVE_ENDS = ["", "u", "n", "un", "m", "na", "Wa", "acAw", "e", "acn", "achu", "h", "x", "um"]
+
+
+def _weak_end(end, weak):
+    return "a" + end[1:] if weak and end.startswith("A") else end
+
+
+def verb_forms(key, kinds=None):
+    """
+    The forms of the verb [key], a perfective, by the rules of each way it may be read (verb_analyses), as sounds, each with 0
+    when it is made by the likeliest reading (the first analysis, the first stem of each slot) and 1 otherwise.
+    """
+    out = {}
+
+    def add(form, rank):
+        if out.get(form, 2) > rank:
+            out[form] = rank
+
+    for number, (kind, s) in enumerate(verb_analyses(key, kinds)):
+        front, slots = _DERIVED[kind]
+        weak = s["weak"]
+        # A passive's forms are as likely as an active's other reading (መመለስ: መለሰ or ተመለሰ).
+        least = 1 if kind == "T" else 0
+        stems = {slot: [(join(f, stem), max(number, least, 1 if i else 0)) for i, stem in enumerate([s[name]] if name == "P" else s[name])]
+                 for slot, (f, name) in slots.items()}
+        if kind in ("AS", "AST") and weak:
+            stems["N"] = [(join(slots["N"][0], s["P"] + "at"), number)]
+        perfective = join(front, s["P"])
+        rank = max(min(number, 1), least)
+        # A last y or w keeps its ä before a person's ending (አየሁ, አየን).
+        for end in _PERFECTIVE_WEAK if weak else _PERFECTIVE + (_PERFECTIVE_Y if s["P"][-1] in "yw" else []):
+            bare = perfective + end
+            done = [bare + ("t" if end.endswith("u") else "w")] + ([bare + "N"] if end[-1] in "Aau" else [])
+            if end in ("A", "a"):
+                # The third person's with an object (ሰበራት, ሰበራቸው, ከፈላቸው; ፈራት).
+                done += [perfective + o for o in ("at", "acAw", "achu")]
+            for f in _PERFECTIVE_FRONTS:
+                add(join(f, bare), rank)
+                for form in done:
+                    add(join(f, form), rank)
+                    if f:
+                        add(join(f, form + "n"), rank)
+            add(join("'al", bare + "m"), rank)
+        for stem, rank in stems["I"]:
+            for person, end in _MAIN:
+                add(join(person, stem + _weak_end(end, weak)), rank)
+            if not weak:
+                add(join("t", _palatal(stem) + "iyalAx"), rank)
+            bare = _SUBORDINATE_WEAK if weak else _SUBORDINATE_ENDS
+            for person, fronts in _SUBORDINATE_PERSONS.items():
+                for end in bare[:2]:
+                    add(join(person, stem + end), rank)
+                    add(join(_NEGATIVE[person], stem + end + "m"), rank)
+                for f in fronts:
+                    for end in bare:
+                        add(join(f, stem + end), rank)
+        for stem, rank in stems["J"]:
+            for person in ("y", "t", "'n", "l"):
+                add(join(person, stem), rank)
+                add(join(person, (stem[:-1] if weak else stem) + "u"), rank)
+        for stem, rank in stems["IMP"]:
+            root = stem[:-1] if weak else stem
+            for form in (stem, _palatal(root) + "i", root + "u"):
+                add(form, rank)
+                add(join("'at", form), rank)
+        for stem, rank in stems["G"]:
+            for end in _GERUND:
+                add(stem + end, rank)
+            for end in _GERUND_PALATAL:
+                add(_palatal(stem) + end, rank)
+        for stem, rank in stems["N"]:
+            for negative in ("", "'alA"):
+                body = join(negative, stem)
+                for f in _INFINITIVE_FRONTS:
+                    for end in _INFINITIVE_ENDS:
+                        add(join(f, body + end), rank)
+    spoken = {}
+    for form, rank in out.items():
+        form = _spoken(form)
+        spoken[form] = min(rank, spoken.get(form, 2))
+    return spoken
+
+
+def perfectives_of_infinitive(key):
+    """
+    The perfectives an infinitive the pack has as its verb's only word may be made from: መስበር ሰበረ, መፈለግ ፈለገ or ተፈለገ,
+    መቁረጥ ቆረጠ, መብላት በላ, መዋጋት ዋጋ or ተዋጋ, መቆየት ቆየ, ማድረግ አደረገ, ማውጣት አወጣ, ማስቀመጥ አስቀመጠ or አሰቀመጠ.
+    """
+    def vowelled(letters):
+        out = []
+        for i, (c, v) in enumerate(letters):
+            out.append(c + ({"": "A", "u": "o" if i == 0 else "u", "i": "e" if i == 0 else "i"}.get(v, v)))
+        return "".join(out)
+
+    if key[-1:] in "AuiaeoW" or key[:2] not in ("mA", "ma"):
+        return []
+    rest = key[2:]
+    out = []
+    bodies = []
+    if rest.endswith("at") and len(rest) > 3:
+        bodies.append((_letters_of(rest[:-2]), "a"))
+    if rest.endswith("At") and len(rest) > 2 and rest[-3] in "yw":
+        bodies.append((_letters_of(rest[:-2]), "A"))
+    if not rest.endswith(("at", "At")) or not bodies:
+        bodies.append((_letters_of(rest), "A"))
+    for letters, last in bodies:
+        if not letters or letters[-1][1] != "":
+            continue
+        stem = vowelled(letters[:-1]) + letters[-1][0] + last
+        if key.startswith("ma"):
+            out.append("'a" + stem)
+            if letters[0] == ("s", "") and len(letters) >= 3:
+                out.append("'as" + vowelled(letters[1:-1]) + letters[-1][0] + last)
+        else:
+            out.append(stem)
+            if letters[0][1] in ("a", "A") and len(letters) >= 2:
+                out.append("tA" + stem)
+    return [_spoken(p) for p in out]
+
+
+# An object or clitic a verb's form may take on its end (ሰበረው, ሰበረችኝ, ሰበሩልን, ሰበረም).
+_ENCLITICS = Affixes({o + c for o in [""] + _OBJECTS for c in ["", "m", "s", "na", "ma", "ko"]})
+
 UNPALATAL = {"c": "t", "j": "d", "x": "s", "Z": "z", "N": "n", "C": "T"}
 
 
@@ -493,7 +821,8 @@ class Lexicon:
         self.stems = defaultdict(dict)
         verbs = [k for k, kinds in self.kinds.items() if "verb" in kinds]
         finite = {k for k in verbs if k[-1] in "AuiaeoW"}
-        for key in sorted(verbs):
+        ruled_only = {sounds(w) for w in AMHARIC_RULED_ONLY}
+        for key in sorted(set(verbs) - ruled_only):
             for stem, kinds in verb_stems(key).items():
                 self.stems[stem][key] = self.stems[stem].get(key, 0) | kinds
         for key in sorted(set(verbs) - finite):
@@ -518,7 +847,7 @@ class Lexicon:
                         stem[head] = stem.get(head, 0) | stem.pop(key)
         # A verb whose last two root letters are one (ወደደ, አነበበ) writes them once before a vowel (ይወዳል, ታነባለች), where
         # that stem is no other verb's (ይመጣል is መጣ's, not መጠጠ's).
-        for key in sorted(finite):
+        for key in sorted(finite - ruled_only):
             letters = _letters_of(key)
             base = letters[1:] if letters[0][0] == "'" and len(letters) == 4 else letters
             if len(base) == 3 and [v for _, v in base] == ["A", "A", "A"] and base[1][0] == base[2][0]:
@@ -526,7 +855,7 @@ class Lexicon:
                 if stem not in self.stems:
                     self.stems[stem] = {key: PERSON}
         # A ተ- passive the pack has no entry for is its verb's (ተፈታ, ተሰራ: ፈታ, ሠራ).
-        for key in sorted(finite):
+        for key in sorted(finite - ruled_only):
             if key.startswith("tA"):
                 continue
             passive = {"tA" + s: FREE for s, k in verb_stems(key).items() if k & FREE and not s.startswith(("a", "'"))}
@@ -540,6 +869,85 @@ class Lexicon:
         for stem, kinds in AMHARIC_STEMS.items():
             for verb in kinds:
                 self.stems[stem][sounds(verb)] = self.stems[stem].get(sounds(verb), 0) | kinds[verb]
+        # The words a verb's form by rule is spelled as (መንገድ, the infinitive ነገደ might have): verb by word.
+        self.shadowed = defaultdict(set)
+        self.ruled = self._ruled(verbs)
+
+    def _ruled(self, verbs):
+        """
+        The verbs' forms by rule (verb_forms), each a form of its verb's word where no word or form of the pack or AMHARIC_FORMS
+        is spelled so: each perfective's (ቆርጬ, ያስቀምጣል: ቆረጠ, አስቀመጠ), the perfectives' an infinitive may be made from
+        when the pack has no perfective of it (ይዋጋሉ: መዋጋት), and after those a ተ- passive's that is no word, as its verb's
+        (ተቆረጠ: ቆረጠ; ይቃጠላል: ማቃጠል, of አቃጠለ). A form several verbs make goes to those whose likeliest reading makes it.
+        An infinitive the pack has besides its perfective (መቁጠር, ቆጠረ) is the perfective's form, as in __init__.
+        """
+        targets = {}
+        for key in sorted(verbs):
+            head = key if key in self.kinds else next(iter(self.forms[key])) if len(self.forms.get(key, ())) == 1 else None
+            # A verb of one consonant but the glottal stop (አራ, አሻ) would take every short word; አለ has AMHARIC_STEMS.
+            if head is None or "verb" not in self.kinds.get(head, ()) or len(skeleton(key)) < 2 and key != "'ayA":
+                continue
+            if key[-1] in "AuiaeoW":
+                targets.setdefault(head, []).append(key)
+        made = {p: verb_forms(p) for perfectives in targets.values() for p in perfectives}
+        pairs = [(head, p) for head, perfectives in sorted(targets.items()) for p in perfectives]
+        for key in sorted(verbs):
+            if key in self.kinds and key[-1] not in "AuiaeoW" and key not in targets:
+                ranks = {}
+                for head, p in pairs:
+                    if made[p].get(key, 2) < ranks.get(head, 2):
+                        ranks[head] = made[p][key]
+                finite = sorted(h for h, r in ranks.items() if r == min(ranks.values()))
+                if len(finite) == 1 and self.kinds[key] <= {"verb", "noun"}:
+                    self._merge(key, finite[0], targets)
+                else:
+                    targets[key] = perfectives_of_infinitive(key)
+        ruled = {}
+        for tier in (0, 1):
+            heads = defaultdict(dict)
+            for head in sorted(targets):
+                for perfective in targets[head]:
+                    shift = 0
+                    if tier == 0:
+                        key = perfective
+                    else:
+                        # The passive of a plain verb (ሰበረ: ተሰበረ) or of a causative's base (አቃጠለ: ተቃጠለ; አስወገደ: ተወገደ),
+                        # the plain verb's first; a verb whose root starts with a glottal stop (አረፈ) has none.
+                        analyses = verb_analyses(perfective)
+                        kind = analyses[0][0] if analyses else "T"
+                        if kind in ("T", "AST") or kind == "" and perfective.startswith("'"):
+                            continue
+                        key = "tA" + {"": perfective, "A": perfective[2:], "AS": perfective[3:]}[kind]
+                        shift = 0 if kind == "" else 2
+                        if key in self.kinds or key in self.forms:
+                            continue
+                    forms = (made.get(key) or verb_forms(key)) if tier == 0 else verb_forms(key, ("T",))
+                    for form, rank in forms.items():
+                        if form in self.kinds:
+                            if rank + shift == 0:
+                                self.shadowed[form].add(head)
+                        elif form not in self.forms and form not in ruled and form not in AMHARIC_EXCLUDED_KEYS:
+                            if heads[form].get(head, 9) > rank + shift:
+                                heads[form][head] = rank + shift
+            for form, ranks in heads.items():
+                best = min(ranks.values())
+                ruled[form] = frozenset(h for h, r in ranks.items() if r == best)
+        return ruled
+
+    def _merge(self, key, finite, targets):
+        """Makes the infinitive [key] a form of the verb [finite], or [finite] its form when only [key] is the pack's (ቻለ, መቻል)."""
+        head, gone = finite, key
+        if finite not in self.pack and key in self.pack:
+            head, gone = key, finite
+            targets[head] = targets.pop(finite)
+        self.forms[gone] = {head}
+        del self.kinds[gone]
+        for stem in self.stems.values():
+            if gone in stem:
+                stem[head] = stem.get(head, 0) | stem.pop(gone)
+        for form, heads in self.forms.items():
+            if gone in heads and form != gone:
+                self.forms[form] = (heads - {gone}) | {head}
 
     def is_word(self, key):
         return key in self.kinds
@@ -609,6 +1017,18 @@ class Lexicon:
                     found |= verbs
         return best, frozenset(found)
 
+    def ruled_verbs(self, key):
+        """
+        (verbs, taken): the verbs [key] is a form of by rule (self.ruled), itself or with an object or clitic on it (ቆርጬው,
+        ያስቀምጣልም), and how many sounds that takes off.
+        """
+        if key in self.ruled:
+            return self.ruled[key], 0
+        for n in _ENCLITICS.lengths:
+            if len(key) - n >= 3 and key[-n:] in _ENCLITICS.set and key[:-n] in self.ruled:
+                return self.ruled[key[:-n]], n
+        return frozenset(), 0
+
     @functools.lru_cache(maxsize=None)
     def lemmas(self, key):
         """The words [key] is a form of: itself when it is a word, else the pack's or AMHARIC_FORMS' words, else those of the
@@ -621,6 +1041,16 @@ class Lexicon:
         if key in self.kinds:
             return frozenset({key})
         nominal_cost, nominal = self.nominal(key)
+        ruled, taken = self.ruled_verbs(key)
+        if ruled:
+            # A verb's form by rule that is also a word's with its endings is both's, shared by how common each is (ፈሩ, ፈሩን:
+            # ፈራ or ፈር), or the word's when the word itself is spelled as one of the verb's forms (መንገዱ: መንገድ, not ነገደ) or
+            # the word takes fewer sounds off than the verb's object or clitic (ፍላሽና: ፍላሽ, not ፈላ).
+            if nominal_cost == -1:
+                return frozenset()
+            if nominal and (nominal_cost < taken or any(self.shadowed.get(w, set()) & ruled for w in nominal)):
+                return nominal
+            return ruled | nominal
         if nominal_cost == -1:
             return frozenset()
         verbal_cost, verbal = self.verbal(key)
@@ -767,10 +1197,16 @@ def build(size, download, dictionaries=DICTIONARIES):
             if key == word:
                 spelled[word][form] += raw[form]
     ranked = [w for w in sorted(scores, key=lambda w: (-scores[w], w)) if totals[w] >= LEAST_COUNT][:size]
+    # A form shared by several words is listed under those that get a tenth or more of the share its main word gets (ፈሩ
+    # under ፈራ, not ፈር).
+    top = defaultdict(float)
+    for word in forms:
+        for form, value in forms[word].items():
+            top[form] = max(top[form], value)
     lines = [f"# source: {label}", f"# words: {len(ranked)}"]
     for word in ranked:
         headword = lexicon.headword(word, spelled[word])
-        listed = sorted(forms[word], key=lambda f: (-forms[word][f], f))[:FORMS_LISTED]
+        listed = sorted((f for f in forms[word] if forms[word][f] * 10 >= top[f]), key=lambda f: (-forms[word][f], f))[:FORMS_LISTED]
         if headword not in listed:
             listed = [headword] + listed[:FORMS_LISTED - 1]
         lines.append(headword + "\t" + " ".join(listed))
