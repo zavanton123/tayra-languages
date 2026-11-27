@@ -106,9 +106,8 @@ data class FlashcardsUiState(
     val modes: List<AnswerMode> = listOf(AnswerMode.SHOW, AnswerMode.TYPE),
     /** Whether speech in the card's language can be heard now; null until that is known. */
     val speakReady: Boolean? = null,
-    /** The microphone could not be used this session, or the card on show is typed instead: words are typed. */
+    /** The microphone could not be used this session: words are typed. */
     val speakingRefused: Boolean = false,
-    val typeInstead: Boolean = false,
     val listening: Boolean = false,
     /** What was said is being made out. */
     val recognising: Boolean = false,
@@ -143,7 +142,7 @@ data class FlashcardsUiState(
     val cardMode: AnswerMode
         get() = when {
             card?.hidden == null -> AnswerMode.SHOW
-            answerMode == AnswerMode.SPEAK && (speakReady == false || speakingRefused || typeInstead) -> AnswerMode.TYPE
+            answerMode == AnswerMode.SPEAK && (speakReady == false || speakingRefused) -> AnswerMode.TYPE
             else -> answerMode
         }
 
@@ -371,7 +370,6 @@ class FlashcardsViewModel(
                     suggested = if (same) it.suggested else null,
                     heard = if (same) it.heard else "",
                     spokenResult = if (same) it.spokenResult else null,
-                    typeInstead = same && it.typeInstead,
                     retry = null,
                     languageName = language?.name.orEmpty(),
                     card = if (session.card != null && term != null) content(term, language, wordRange, session.card!!.schedule.state) else null,
@@ -613,7 +611,7 @@ class FlashcardsViewModel(
         if (mode !in _state.value.modes) return
         stopHearing()
         viewModelScope.launch { settings.update { it.copy(flashcardAnswerMode = mode) } }
-        _state.update { if (it.revealed) it.copy(answerMode = mode) else it.copy(answerMode = mode, typed = "", typedResult = null, suggested = null, typeInstead = false) }
+        _state.update { if (it.revealed) it.copy(answerMode = mode) else it.copy(answerMode = mode, typed = "", typedResult = null, suggested = null) }
     }
 
     /** Finds out whether speech in the language with [code] can be heard, unless it is known already or not wanted. */
@@ -671,12 +669,6 @@ class FlashcardsViewModel(
     fun refuseSpeaking() {
         stopHearing()
         _state.update { it.copy(speakingRefused = true) }
-    }
-
-    /** Types the card's word instead of saying it. */
-    fun typeInstead() {
-        stopHearing()
-        _state.update { it.copy(typeInstead = true) }
     }
 
     private fun stopHearing() {

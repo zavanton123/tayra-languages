@@ -96,7 +96,8 @@ fun SpeakAnswer(
     answered: Boolean,
     onListen: () -> Unit,
     onStop: () -> Unit,
-    onTypeInstead: () -> Unit,
+    /** Typing the answer after all; null where the screen has its own way to. */
+    onTypeInstead: (() -> Unit)?,
     tag: String,
     modifier: Modifier = Modifier,
     rightToLeft: Boolean = false,
@@ -129,7 +130,7 @@ fun SpeakAnswer(
                 textAlign = TextAlign.Center,
             )
         }
-        if (!answered) QuietButton(tr("Type instead"), onClick = onTypeInstead, modifier = buttonModifier.testTag("$tag-type-instead"))
+        if (!answered && onTypeInstead != null) QuietButton(tr("Type instead"), onClick = onTypeInstead, modifier = buttonModifier.testTag("$tag-type-instead"))
     }
 }
 

@@ -164,7 +164,7 @@ class FlashcardsScreenTest {
                                 FlashcardsContent(
                                     state,
                                     speaker = if (withSpeaker) rememberSpeaker(LocalSpeech(emptyList()), settings) else null,
-                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, microphoneLevel = viewModel.microphoneLevel, onTypeInstead = viewModel::typeInstead, onTryAgain = viewModel::tryAgain, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass, onKeepGoing = viewModel::keepGoing),
+                                    actions = FlashcardActions(onReveal = viewModel::reveal, onAnswer = viewModel::answer, onUndo = viewModel::undo, onSuspend = viewModel::suspendCard, onSkip = viewModel::skipCard, onDelete = viewModel::deleteCard, onRead = onRead, onChooseExample = onChooseExample, onStartWithoutWaiting = viewModel::startWithoutWaiting, onType = viewModel::type, onCheck = viewModel::check, onAnswerMode = viewModel::setAnswerMode, onListen = viewModel::listen, onStopListening = viewModel::stopListening, microphoneLevel = viewModel.microphoneLevel, onTryAgain = viewModel::tryAgain, onStudyMore = { studyingMore = true }, onEndPass = viewModel::endPass, onKeepGoing = viewModel::keepGoing),
                                     hotkeys = hotkeys,
                                 )
                             }
@@ -417,16 +417,10 @@ class FlashcardsScreenTest {
     }
 
     @Test
-    fun aRefusedMicrophoneOrTypeInsteadTypesTheWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
+    fun aRefusedMicrophoneTypesTheWord() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         show(answerMode = AnswerMode.SPEAK, speech = FakeSpeech(true, Heard.Refused))
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
-        onNodeWithTag("flashcard-type-instead").performClick()
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-typed").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(0, onAllNodesWithTag("flashcard-speak-unavailable").fetchSemanticsNodes().size, "typed by choice")
-        typeAndCheck("comprar")
-        onNodeWithTag("flashcards-keys").performKeyInput { pressKey(Key.Enter) }
-        // A new card's Good waits ten minutes; with no other card it comes back early, to be said this time.
-        waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak").fetchSemanticsNodes().isNotEmpty() }
+        assertEquals(0, onAllNodesWithTag("flashcard-type-instead").fetchSemanticsNodes().size, "the card's switch types instead")
         onNodeWithTag("flashcard-speak").performClick()
         waitUntil(timeoutMillis = 5_000) { onAllNodesWithTag("flashcard-speak-unavailable").fetchSemanticsNodes().isNotEmpty() }
         onNodeWithText("The microphone could not be used, so type the word.").assertExists()

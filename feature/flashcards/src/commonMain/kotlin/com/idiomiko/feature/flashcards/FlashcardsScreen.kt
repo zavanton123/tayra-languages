@@ -262,7 +262,6 @@ fun FlashcardsScreen(onNavigate: (Route) -> Unit, viewModel: FlashcardsViewModel
                 onStopListening = viewModel::stopListening,
                 microphoneLevel = viewModel.microphoneLevel,
                 microphoneReady = viewModel.microphoneReady,
-                onTypeInstead = viewModel::typeInstead,
                 onTryAgain = viewModel::tryAgain,
                 onStudyMore = { studyingMore = true },
                 onEndPass = viewModel::endPass,
@@ -331,7 +330,6 @@ internal class FlashcardActions(
     val microphoneLevel: StateFlow<Float>? = null,
     val microphoneReady: StateFlow<Boolean>? = null,
     /** Types the card's word instead of saying it. */
-    val onTypeInstead: () -> Unit = {},
     /** Asks a card typed or said wrongly again. */
     val onTryAgain: () -> Unit = {},
     /** Offers cards past the day's limits. */
@@ -945,7 +943,7 @@ private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, com
     val hidden = card.hidden ?: return
     val direction = if (card.rightToLeft) TextDirection.Rtl else TextDirection.Ltr
     // Speaking was asked for, but the word is typed: why.
-    if (state.answerMode == AnswerMode.SPEAK && state.typing && !state.typeInstead) {
+    if (state.answerMode == AnswerMode.SPEAK && state.typing) {
         Text(
             if (state.speakingRefused) tr("The microphone could not be used, so type the word.") else tr("Speech in this language cannot be recognised here, so type the word."),
             Modifier.padding(top = if (compact) AppSpacing.l else AppSpacing.xl).testTag("flashcard-speak-unavailable"),
@@ -963,7 +961,8 @@ private fun AnswerGiven(state: FlashcardsUiState, actions: FlashcardActions, com
             answered = false,
             onListen = actions.onListen,
             onStop = actions.onStopListening,
-            onTypeInstead = actions.onTypeInstead,
+            // The card's own switch between the ways of answering types instead.
+            onTypeInstead = null,
             tag = "flashcard",
             modifier = Modifier.padding(top = if (compact) AppSpacing.l else AppSpacing.xl),
             rightToLeft = card.rightToLeft,
