@@ -32,6 +32,8 @@ import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.onLast
+import androidx.compose.ui.test.onAllNodesWithContentDescription
 import androidx.compose.ui.test.performKeyInput
 import androidx.compose.ui.test.performScrollTo
 import androidx.compose.ui.test.performTextInput
@@ -857,7 +859,7 @@ class PracticeScreenTest {
             assertEquals(0, closed)
 
             finish(again)
-            onNodeWithText("Cancel").performClick()
+            onAllNodesWithContentDescription("Close").onLast().performClick()
             assertEquals(1, closed)
         } finally {
             stopKoin()

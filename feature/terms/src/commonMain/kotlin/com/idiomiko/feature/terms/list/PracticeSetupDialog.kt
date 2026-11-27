@@ -379,8 +379,6 @@ internal fun PracticeSetupContent(
                 else -> tr("None of the ticked questions fits these words")
             }
             val buttons: @Composable () -> Unit = {
-                QuietButton(tr("Cancel"), onClick = onDismiss, size = ButtonSize.Large)
-                Spacer(Modifier.width(AppSpacing.s))
                 PrimaryButton(tr("Start practice"), onClick = { onStart(setup) }, modifier = Modifier.testTag("start-practice"), enabled = canStart, size = ButtonSize.Large)
             }
             // A phone has no room for the summary beside the buttons: it goes above them.
