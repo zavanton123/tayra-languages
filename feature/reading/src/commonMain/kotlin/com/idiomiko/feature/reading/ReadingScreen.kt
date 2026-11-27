@@ -200,6 +200,8 @@ import com.idiomiko.feature.terms.anki.ankiLabel
 import com.idiomiko.core.ui.files.saveBinaryFile
 import com.idiomiko.core.domain.practice.PracticeSetup
 import com.idiomiko.feature.terms.list.PracticeSetupDialog
+import com.idiomiko.feature.reading.practice.PracticeScreen
+import com.idiomiko.core.ui.components.FreshViewModels
 import com.idiomiko.core.domain.practice.PracticeSource
 import com.idiomiko.core.ui.theme.AppMotion
 
@@ -428,13 +430,11 @@ fun ReadingScreen(
                             onSettings = { onNavigate(Route.OfflineTranslation) },
                             onMenu = openPane,
                             onCourses = { onNavigate(Route.Courses) },
-                            onLessonVocabulary = {
-                                val ids = viewModel.pageTermIds()
-                                if (phone) onNavigate(Route.Terms(ids, bookId)) else lessonVocabulary = ids
-                            },
+                            onLessonVocabulary = { lessonVocabulary = viewModel.pageTermIds() },
                             onNewPlaylist = { newPlaylist = true },
                             onAddedToPlaylist = { name -> toast.show(tr("Added to {0}", name)) },
                             focusText = { runCatching { focusRequester.requestFocus() } },
+                            onNavigate = navigateFromReader,
                         )
                     }
                 }
@@ -652,6 +652,7 @@ private fun ReaderBreadcrumb(state: ReadingUiState, viewModel: ReadingViewModel,
     }
 }
 
+@OptIn(ExperimentalComposeUiApi::class)
 @Composable
 private fun ReadingBody(
     state: ReadingUiState,
@@ -673,7 +674,8 @@ private fun ReadingBody(
     /** Confirming that the text went into the playlist with this name. */
     onAddedToPlaylist: (String) -> Unit,
     focusText: () -> Unit,
-    /** Whether the term panel is open beside the text, which then leaves its scrollbar room on that side. */
+    /** Leaving the reader from a stage a phone shows in place of the text. */
+    onNavigate: (Route) -> Unit,
 ) {
     val theme = IdiomikoTheme.current
     if (state.loading) {
@@ -754,13 +756,28 @@ private fun ReadingBody(
     LaunchedEffect(state.stage) { revealed = emptySet() }
     // The stages done in a dialog over the text: the page's words, its quiz and the day's flashcards.
     var quizSetup by remember { mutableStateOf(false) }
+    val compact = LocalWindowWidth.current.isCompact
+    // A phone shows the page's words and its quiz in the text's place, between the lesson's bar and its stages.
+    var inlineStage by remember { mutableStateOf<InlineStage?>(null) }
+    // Statuses changed in the words or the quiz show in the text once it is back.
+    val closeInline: () -> Unit = {
+        if (inlineStage != null) {
+            inlineStage = null
+            viewModel.refresh()
+        }
+    }
     var flashcards by remember { mutableStateOf(false) }
     val flashcardsDialog = LocalFlashcardsDialog.current
     val noLearning = tr("No words on this page are being learned")
     val openStage: (ReadingStage) -> Unit = { stage ->
+        closeInline()
         when (stage) {
-            ReadingStage.WORDS -> onLessonVocabulary()
-            ReadingStage.QUIZ -> if (viewModel.pageLearningTermIds().isEmpty()) viewModel.notice(noLearning) else quizSetup = true
+            ReadingStage.WORDS -> if (compact) inlineStage = InlineStage.Words(viewModel.pageTermIds()) else onLessonVocabulary()
+            ReadingStage.QUIZ -> when {
+                viewModel.pageLearningTermIds().isEmpty() -> viewModel.notice(noLearning)
+                compact -> inlineStage = InlineStage.QuizSetup
+                else -> quizSetup = true
+            }
             // The day's cards, as the Flashcards page has them.
             ReadingStage.FLASHCARDS -> if (flashcardsDialog != null) flashcards = true
             else -> Unit
@@ -815,12 +832,16 @@ private fun ReadingBody(
     // The stages whose note above the text the reader closed; the others still show theirs.
     var closedNotes by remember { mutableStateOf(emptySet<ReadingStage>()) }
     CentreWordOnResize(scrollState, state.marked.minOrNull(), wordLocator, viewportSize) { viewport[0] }
-    val compact = LocalWindowWidth.current.isCompact
     val edgePadding = AppSpacing.l
     // No card around the text: it runs on the page itself, with a slim margin at the window's edges.
     val cardModifier = Modifier.fillMaxWidth().padding(start = edgePadding, end = edgePadding, top = AppSpacing.l)
     // The controls sit under the text rather than over it, so they never hide a line of it.
     Column(Modifier.fillMaxSize().background(theme.readingBackground)) {
+    val shown = inlineStage
+    BackHandler(enabled = shown != null) { closeInline() }
+    if (shown != null) Box(Modifier.weight(1f).fillMaxWidth()) {
+        state.book?.let { book -> InlineStageView(shown, state, viewModel, PracticeSource.Page(book.id, state.pageNumber), onShow = { inlineStage = it }, onClose = closeInline, onNavigate = onNavigate) }
+    } else
     Box(Modifier.weight(1f).fillMaxWidth()) {
     Column(
         Modifier.fillMaxSize()
@@ -915,7 +936,8 @@ private fun ReadingBody(
         // A phone's player sits over its stages; with reading aloud off it keeps only the settings.
         val sentenceControls = state.settings.showSentencePlay && pageSentences.isNotEmpty()
         Column(Modifier.fillMaxWidth()) {
-            MobileReaderActions(
+            // Nothing to read aloud over the words or the quiz.
+            if (shown == null) MobileReaderActions(
                 onSettings = onMenu,
                 playback = if (!sentenceControls) null else MobilePlayback(
                     onPreviousSentence = continuous::previous,
@@ -1135,6 +1157,44 @@ private val SETTINGS_DIALOG_WIDTH = 1040.dp
 /** The widest the text runs on a wide window. */
 /** The docked term pane, as wide as Word frequency's. */
 private val TERM_PANEL_WIDTH = 440.dp
+/** A stage a phone's lesson shows in place of its text: the page's words, the choice of a quiz, or the quiz. */
+private sealed interface InlineStage {
+    class Words(val termIds: List<Long>) : InlineStage
+    data object QuizSetup : InlineStage
+    class Quiz(val setup: PracticeSetup) : InlineStage
+}
+
+/** [stage] in the text's place; [onShow] moves on to another, from the quiz's choice to the quiz and back. */
+@Composable
+private fun InlineStageView(
+    stage: InlineStage,
+    state: ReadingUiState,
+    viewModel: ReadingViewModel,
+    page: PracticeSource.Page,
+    onShow: (InlineStage) -> Unit,
+    onClose: () -> Unit,
+    onNavigate: (Route) -> Unit,
+) {
+    val leave: (Route) -> Unit = { route -> onClose(); onNavigate(route) }
+    when (stage) {
+        is InlineStage.Words -> {
+            // The stage's check floats where the list's add button would.
+            val check = stageCheck(state, ReadingStage.WORDS, viewModel::checkStage)
+            TermsScreen(
+                termIds = stage.termIds,
+                onNavigate = leave,
+                onBack = onClose,
+                dialog = true,
+                floatingAction = check?.let { { it(onClose) } },
+            )
+        }
+        InlineStage.QuizSetup -> PracticeSetupDialog(page, onStart = { setup -> onShow(InlineStage.Quiz(setup)) }, onDismiss = onClose, inline = true)
+        is InlineStage.Quiz -> FreshViewModels {
+            PracticeScreen(page, stage.setup, onNavigate = leave, onBack = onClose, dialog = true, onPractiseAgain = { onShow(InlineStage.QuizSetup) })
+        }
+    }
+}
+
 /**
  * The green check of the footer, for a dialog of [stage] over the text to show while that stage is the one being worked on:
  * it closes the dialog and checks the stage. Null for a dialog of another stage.

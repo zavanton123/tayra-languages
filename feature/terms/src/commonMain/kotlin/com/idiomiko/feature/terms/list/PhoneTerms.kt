@@ -111,6 +111,9 @@ internal fun PhoneTermsScreen(
     onNavigate: (Route) -> Unit,
     onBack: (() -> Unit)?,
     onNew: () -> Unit,
+    /** Inside another screen, which has its own bar. */
+    inside: Boolean = false,
+    floatingAction: (@Composable () -> Unit)? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     var sorting by remember { mutableStateOf(false) }
@@ -121,7 +124,7 @@ internal fun PhoneTermsScreen(
     TopOnPageTurn(state.page, list, PHONE_LIST_START)
     Scaffold(
         topBar = {
-            AppTopBar(
+            if (!inside) AppTopBar(
                 title = tr("Vocabulary"),
                 onNavigate = onNavigate,
                 section = NavSection.TERMS,
@@ -132,7 +135,11 @@ internal fun PhoneTermsScreen(
             state.message?.let { AppSnackbar(it, actionLabel = tr("OK"), onAction = viewModel::dismissMessage) }
         },
         // Adding a term floats at the corner; while selecting, the actions on the chosen terms take the foot.
-        floatingActionButton = { if (!selecting) AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term")) },
+        floatingActionButton = {
+            if (!selecting) {
+                if (floatingAction != null) floatingAction() else AppFab(Icons.Default.Add, tr("Add term"), onNew, Modifier.testTag("phone-add-term"))
+            }
+        },
         bottomBar = {
             if (selecting) {
                 // Ticking all the listed terms or some, how many, clearing the choice, and what can be done with them, Anki among it.

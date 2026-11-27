@@ -208,9 +208,15 @@ private val LENGTHS = listOf(5, 10, 20, null)
  * would ask nothing wait folded away. The footer sums up.
  */
 @Composable
-fun PracticeSetupDialog(source: PracticeSource, onStart: (PracticeSetup) -> Unit, onDismiss: () -> Unit) {
+fun PracticeSetupDialog(
+    source: PracticeSource,
+    onStart: (PracticeSetup) -> Unit,
+    onDismiss: () -> Unit,
+    /** Filling the space it is put in, as a phone's lesson shows it between its bar and its stages, rather than over the screen. */
+    inline: Boolean = false,
+) {
     // Counted afresh each time it opens: the words being learned may have changed since.
-    FreshViewModels { PracticeSetupDialogHost(source, onStart, onDismiss) }
+    FreshViewModels { PracticeSetupDialogHost(source, onStart, onDismiss, inline) }
 }
 
 @Composable
@@ -218,6 +224,7 @@ private fun PracticeSetupDialogHost(
     source: PracticeSource,
     onStart: (PracticeSetup) -> Unit,
     onDismiss: () -> Unit,
+    inline: Boolean,
     viewModel: PracticeSetupViewModel = koinViewModel { parametersOf(source) },
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
@@ -226,6 +233,7 @@ private fun PracticeSetupDialogHost(
         viewModel.initialSetup,
         onStart = { setup -> viewModel.remember(setup); onStart(setup) },
         onDismiss = onDismiss,
+        inline = inline,
     )
 }
 
@@ -236,9 +244,10 @@ internal fun PracticeSetupContent(
     initial: PracticeSetup,
     onStart: (PracticeSetup) -> Unit,
     onDismiss: () -> Unit,
+    inline: Boolean = false,
 ) {
     val colors = MaterialTheme.colorScheme
-    val compact = LocalWindowWidth.current.isCompact
+    val compact = inline || LocalWindowWidth.current.isCompact
     var setup by remember { mutableStateOf(initial) }
     var showUnavailable by remember { mutableStateOf(false) }
     // Nothing here hears the language: what was to be said is typed.
@@ -291,7 +300,8 @@ internal fun PracticeSetupContent(
 
     // A phone gives the choices the whole screen, the buttons kept at its foot; a wider window a dialog.
     val surface: @Composable (@Composable (Modifier) -> Unit) -> Unit = { body ->
-        if (compact) AppScreenDialog(onDismissRequest = onDismiss, modifier = Modifier.testTag("practice-setup"), color = colors.surfaceContainerLow) { body(Modifier.fillMaxSize()) }
+        if (inline) Box(Modifier.fillMaxSize().background(colors.surfaceContainerLow).testTag("practice-setup")) { body(Modifier.fillMaxSize()) }
+        else if (compact) AppScreenDialog(onDismissRequest = onDismiss, modifier = Modifier.testTag("practice-setup"), color = colors.surfaceContainerLow) { body(Modifier.fillMaxSize()) }
         else AppDialogSurface(onDismissRequest = onDismiss, color = colors.surfaceContainerLow, maxWidth = SETUP_WIDTH) { body(Modifier) }
     }
     surface { frame ->

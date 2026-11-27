@@ -241,6 +241,20 @@ class ReadingHoverTest {
                     settings,
                 )
             }
+            viewModel { (source: com.idiomiko.core.domain.practice.PracticeSource, setup: com.idiomiko.core.domain.practice.PracticeSetup) ->
+                val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = translation }
+                val kept = com.idiomiko.core.data.repository.PracticeExampleRepositoryImpl(provider)
+                val noExamples = object : com.idiomiko.core.domain.service.ExampleSentencesProvider {
+                    override suspend fun search(query: com.idiomiko.core.domain.service.ExampleSearchQuery) = com.idiomiko.core.domain.service.ExampleSearchResult.EMPTY
+                    override suspend fun nextPage(nextPage: String, targetLanguage: String) = com.idiomiko.core.domain.service.ExampleSearchResult.EMPTY
+                }
+                com.idiomiko.feature.reading.practice.PracticeViewModel(
+                    source, setup,
+                    com.idiomiko.core.domain.practice.PracticeMaterialLoader(books, languages, readingService, terms),
+                    com.idiomiko.core.domain.practice.PracticeExampleStore(kept, noExamples, com.idiomiko.core.domain.practice.WordForms(null, terms), terms, languages, settings, translator),
+                    kept, translator,
+                )
+            }
         }
         val vm = ReadingViewModel(
             bookId, null, readingService, books, termService,
@@ -631,12 +645,15 @@ class ReadingHoverTest {
         assertTrue(settings.current.splitSentences, "the Reading tab keeps its settings")
     }
 
-    /** On a phone the stage of checking the words opens them as their own screen. */
+    /**
+     * On a phone the stage of checking the words shows them in the text's place, under the lesson's bar and over its
+     * stages, with the stage's check where the list's add button would be; it checks the stage and gives the text back.
+     */
     @Test
-    fun aPhoneOpensALessonsVocabularyAsAScreen() {
+    fun aPhoneShowsALessonsVocabularyInsideTheLesson() {
         val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
         val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
-        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList) }
         val visited = mutableListOf<com.idiomiko.core.ui.navigation.Route>()
         rule.setContent {
             CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
@@ -645,8 +662,51 @@ class ReadingHoverTest {
         }
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-words").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithTag("stage-words").performClick()
-        rule.waitUntil(5_000) { visited.any { it is com.idiomiko.core.ui.navigation.Route.Terms } }
-        assertEquals(1L, visited.filterIsInstance<com.idiomiko.core.ui.navigation.Route.Terms>().single().bookId)
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("phone-sort").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(visited.isEmpty(), "the lesson is not left")
+        rule.onNodeWithContentDescription("Back to course").assertExists()
+        rule.onNodeWithTag("stage-chain").assertExists()
+        assertTrue(rule.onAllNodesWithTag("phone-add-term").fetchSemanticsNodes().isEmpty(), "the check takes the add button's place")
+        assertTrue(rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty(), "nothing to read aloud over the words")
+        assertEquals(2, rule.onAllNodesWithTag("check-stage").fetchSemanticsNodes().size, "the floating check and the stages' own")
+        System.getenv("PHONE_LESSON_WORDS_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
+        rule.onAllNodesWithTag("check-stage")[0].performClick()
+        rule.waitUntil(5_000) { ReadingStage.WORDS in vm.state.value.stages }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("phone-sort").fetchSemanticsNodes().isEmpty() }
+    }
+
+    /** On a phone the quiz's choices, then the quiz, show in the text's place too, under the lesson's bar and over its stages. */
+    @Test
+    fun aPhoneShowsALessonsQuizInsideTheLesson() {
+        val course = Course("pt-mini-0100", "pt", "Em casa e com a família", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0])) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, practicePane) }
+        val visited = mutableListOf<com.idiomiko.core.ui.navigation.Route>()
+        rule.setContent {
+            CompositionLocalProvider(LocalWindowWidth provides WindowWidth.COMPACT) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = { visited += it }, onHome = {}, onCourse = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
+        vm.markToLearn(vm.index("lobo"))
+        rule.waitUntil(5_000) { vm.state.value.items.any { it.renderText == "lobo" && it.status.isLearning } }
+        rule.onNodeWithTag("stage-quiz").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithText("Practise 1 word").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("stage-chain").assertExists()
+        rule.onNodeWithContentDescription("Back to course").assertExists()
+        rule.onNodeWithTag("start-practice").performClick()
+        rule.waitUntil(10_000) { rule.onAllNodesWithTag("practice-question").fetchSemanticsNodes().isNotEmpty() }
+        assertTrue(visited.isEmpty(), "the lesson is not left")
+        rule.onNodeWithTag("stage-chain").assertExists()
+        rule.onNodeWithContentDescription("Back to course").assertExists()
+        assertTrue(rule.onAllNodesWithText("The words you are learning", substring = true).fetchSemanticsNodes().isEmpty(), "no line about what is practised")
+        System.getenv("PHONE_LESSON_QUIZ_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
     }
 
     /** The flashcards stage opens the day's flashcards, as the Flashcards page has them, over the text. */
