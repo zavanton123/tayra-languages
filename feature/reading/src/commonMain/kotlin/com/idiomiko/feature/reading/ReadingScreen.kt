@@ -227,15 +227,7 @@ fun ReadingScreen(
     // The reader's settings: a large dialog over the page, or a screen of their own on a phone.
     val phone = LocalWindowWidth.current.isCompact
     var paneOpen by remember { mutableStateOf(false) }
-    var paneInitialTab by remember { mutableStateOf(PaneTab.READING) }
-    val openPane: () -> Unit = {
-        paneInitialTab = PaneTab.READING
-        paneOpen = true
-    }
-    val openAppearance: () -> Unit = {
-        paneInitialTab = PaneTab.APPEARANCE
-        paneOpen = true
-    }
+    val openPane: () -> Unit = { paneOpen = true }
     var bookmarkDialog by remember { mutableStateOf(false) }
     // True while a text field of the term pane is being typed in: the hotkeys then stay out of the typing.
     var typing by remember { mutableStateOf(false) }
@@ -374,11 +366,11 @@ fun ReadingScreen(
         val closePane = { paneOpen = false }
         if (phone) {
             AppScreenDialog(onDismissRequest = closePane, modifier = Modifier.testTag("reader-settings")) {
-                ReaderPane(state, viewModel, paneActions, onClose = closePane, initialTab = paneInitialTab)
+                ReaderPane(state, viewModel, paneActions, onClose = closePane)
             }
         } else {
             AppDialogSurface(onDismissRequest = closePane, modifier = Modifier.windowInsetsPadding(WindowInsets.safeDrawing).testTag("reader-settings"), maxWidth = SETTINGS_DIALOG_WIDTH) {
-                ReaderPane(state, viewModel, paneActions, onClose = closePane, initialTab = paneInitialTab)
+                ReaderPane(state, viewModel, paneActions, onClose = closePane)
             }
         }
     }
@@ -414,7 +406,7 @@ fun ReadingScreen(
         ) {
             val compact = LocalWindowWidth.current.isCompact
             when {
-                compact -> ReadingHeader(state, onAppearance = openAppearance, onMenu = openPane, onHome = leave)
+                compact -> ReadingHeader(state, onHome = leave)
                 else -> {
                     AppTopBar(title = "Idiomiko", onNavigate = onNavigate, section = when {
                         state.lesson != null -> NavSection.COURSES
@@ -582,7 +574,7 @@ private fun SheetHandle() {
 }
 
 @Composable
-private fun ReadingHeader(state: ReadingUiState, onAppearance: () -> Unit, onMenu: () -> Unit, onHome: () -> Unit) {
+private fun ReadingHeader(state: ReadingUiState, onHome: () -> Unit) {
     BarSurface(raised = true) {
         Row(
             Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
@@ -614,8 +606,6 @@ private fun ReadingHeader(state: ReadingUiState, onAppearance: () -> Unit, onMen
                 )
             }
             SyncingIndicator()
-            AppIconButton(AppIcons.FormatSize, contentDescription = tr("Appearance"), onClick = onAppearance)
-            AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onMenu)
         }
     }
 }
@@ -922,11 +912,26 @@ private fun ReadingBody(
     EdgeScrollbar(scrollState)
     }
     if (compact) {
-        // A phone's stages sit over its sentence controls.
+        // A phone's player sits over its stages; with reading aloud off it keeps only the settings.
         val sentenceControls = state.settings.showSentencePlay && pageSentences.isNotEmpty()
         Column(Modifier.fillMaxWidth()) {
+            MobileReaderActions(
+                onSettings = onMenu,
+                playback = if (!sentenceControls) null else MobilePlayback(
+                    onPreviousSentence = continuous::previous,
+                    previousEnabled = canSpeak && continuous.currentIndex != null && continuous.currentIndex!! > 0,
+                    onPlay = continuous::toggle,
+                    playEnabled = canSpeak,
+                    playDisabledReason = noVoiceReason(state),
+                    playing = continuous.active,
+                    onNextSentence = continuous::next,
+                    nextEnabled = canSpeak && continuous.currentIndex != pageSentences.lastIndex,
+                    autoPause = state.settings.autoPause,
+                    onAutoPause = viewModel::toggleAutoPause,
+                ),
+            )
             Row(
-                Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(top = AppSpacing.s, bottom = if (sentenceControls) 0.dp else AppSpacing.m)
+                Modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(top = AppSpacing.s, bottom = AppSpacing.m)
                     .shadow(AppElevation.raised, AppShapes.card).clip(AppShapes.card)
                     .background(MaterialTheme.colorScheme.surface).border(AppBorders.hairline(), AppShapes.card)
                     // Room above the stages for the tick of a checked one.
@@ -942,19 +947,6 @@ private fun ReadingBody(
                     )
                 }
                 CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = COMPACT_CHECK_SIZE)
-            }
-            if (sentenceControls) {
-                MobileReaderActions(
-                    onSettings = onMenu,
-                    onPreviousSentence = continuous::previous,
-                    previousEnabled = canSpeak && continuous.currentIndex != null && continuous.currentIndex!! > 0,
-                    onPlay = continuous::toggle,
-                    playEnabled = canSpeak,
-                    playDisabledReason = noVoiceReason(state),
-                    playing = continuous.active,
-                    onNextSentence = continuous::next,
-                    nextEnabled = canSpeak && continuous.currentIndex != pageSentences.lastIndex,
-                )
             }
         }
     } else {
@@ -1028,23 +1020,26 @@ private fun ReaderBar(
 @Composable
 private fun noVoiceReason(state: ReadingUiState): String = tr("No {0} voice on this device", tr(state.language?.name.orEmpty()))
 
-/** Phone controls stay in one place above the safe bottom while the page scrolls behind them. */
+/** What a phone's player plays: the page's sentences one after another. */
+private class MobilePlayback(
+    val onPreviousSentence: () -> Unit,
+    val previousEnabled: Boolean,
+    val onPlay: () -> Unit,
+    val playEnabled: Boolean,
+    val playDisabledReason: String,
+    val playing: Boolean,
+    val onNextSentence: () -> Unit,
+    val nextEnabled: Boolean,
+    val autoPause: Boolean,
+    val onAutoPause: () -> Unit,
+)
+
+/** Phone controls stay in one place above the safe bottom while the page scrolls behind them; without [playback], only the settings. */
 @Composable
-private fun MobileReaderActions(
-    onSettings: () -> Unit,
-    onPreviousSentence: () -> Unit,
-    previousEnabled: Boolean,
-    onPlay: () -> Unit,
-    playEnabled: Boolean,
-    playDisabledReason: String,
-    playing: Boolean,
-    onNextSentence: () -> Unit,
-    nextEnabled: Boolean,
-    modifier: Modifier = Modifier,
-) {
+private fun MobileReaderActions(onSettings: () -> Unit, playback: MobilePlayback?, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
-        modifier.fillMaxWidth().padding(horizontal = AppSpacing.l, vertical = AppSpacing.m)
+        modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(top = AppSpacing.s)
             .shadow(AppElevation.raised, AppShapes.card).clip(AppShapes.card)
             .background(colors.surface).border(AppBorders.hairline(), AppShapes.card)
             .height(MOBILE_ACTION_BAR_HEIGHT).padding(horizontal = AppSpacing.s),
@@ -1053,24 +1048,32 @@ private fun MobileReaderActions(
         MobileActionSlot {
             MobileReaderButton(Icons.Default.Settings, tr("Reader settings"), onSettings)
         }
+        if (playback == null) return@Row
         MobileActionSlot {
-            MobileReaderButton(AppIcons.SkipPrevious, tr("Previous sentence"), onPreviousSentence, enabled = previousEnabled)
+            MobileReaderButton(AppIcons.SkipPrevious, tr("Previous sentence"), playback.onPreviousSentence, enabled = playback.previousEnabled)
         }
         MobileActionSlot {
             MobileReaderButton(
-                if (playing) AppIcons.Pause else AppIcons.PlayArrow,
-                if (!playEnabled) playDisabledReason else if (playing) tr("Pause reading") else tr("Read the page"),
-                onPlay,
-                enabled = playEnabled,
+                if (playback.playing) AppIcons.Pause else AppIcons.PlayArrow,
+                if (!playback.playEnabled) playback.playDisabledReason else if (playback.playing) tr("Pause reading") else tr("Read the page"),
+                playback.onPlay,
+                enabled = playback.playEnabled,
                 primary = true,
                 size = MOBILE_PLAY_SIZE,
             )
         }
         MobileActionSlot {
-            MobileReaderButton(AppIcons.SkipNext, tr("Next sentence"), onNextSentence, enabled = nextEnabled)
+            MobileReaderButton(AppIcons.SkipNext, tr("Next sentence"), playback.onNextSentence, enabled = playback.nextEnabled)
         }
-        // Keeps play centred.
-        MobileActionSlot {}
+        MobileActionSlot {
+            MobileReaderButton(
+                AppIcons.PauseAfterSentence,
+                if (playback.autoPause) tr("Auto-pause on") else tr("Auto-pause off"),
+                playback.onAutoPause,
+                on = playback.autoPause,
+                modifier = Modifier.testTag("mobile-auto-pause"),
+            )
+        }
     }
 }
 
@@ -1086,17 +1089,25 @@ private fun MobileReaderButton(
     onClick: () -> Unit,
     enabled: Boolean = true,
     primary: Boolean = false,
+    /** A switch's state: tinted while on. Null for a plain button. */
+    on: Boolean? = null,
     size: Dp = MOBILE_ACTION_SIZE,
+    modifier: Modifier = Modifier,
 ) {
     val colors = MaterialTheme.colorScheme
-    val background = if (primary && enabled) colors.primary else Color.Transparent
+    val background = when {
+        primary && enabled -> colors.primary
+        on == true -> colors.primary.copy(alpha = AppAlpha.soft)
+        else -> Color.Transparent
+    }
     val foreground = when {
         !enabled -> colors.onSurface.copy(alpha = AppAlpha.disabled)
         primary -> colors.onPrimary
+        on == true -> colors.primary
         else -> colors.onSurfaceVariant
     }
     Box(
-        Modifier.size(size).clip(AppShapes.circle).background(background)
+        modifier.size(size).clip(AppShapes.circle).background(background)
             .clickable(enabled = enabled, onClick = onClick)
             .semantics { contentDescription = description },
         contentAlignment = Alignment.Center,

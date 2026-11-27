@@ -136,10 +136,9 @@ internal fun ReaderPane(
     viewModel: ReadingViewModel,
     actions: ReaderPaneActions,
     onClose: () -> Unit,
-    initialTab: PaneTab = PaneTab.READING,
 ) {
     var showBookmarks by rememberSaveable { mutableStateOf(false) }
-    var tab by rememberSaveable(initialTab) { mutableStateOf(initialTab) }
+    var tab by rememberSaveable { mutableStateOf(PaneTab.READING) }
     var confirmReset by remember { mutableStateOf(false) }
     val bookmarks by viewModel.bookmarks.collectAsState()
     val colors = MaterialTheme.colorScheme

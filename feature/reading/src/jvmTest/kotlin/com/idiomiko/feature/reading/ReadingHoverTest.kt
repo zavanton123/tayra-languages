@@ -441,11 +441,12 @@ class ReadingHoverTest {
         assertTrue(rule.onAllNodesWithContentDescription("Page 1 of 1").fetchSemanticsNodes().isEmpty(), "a single page has no redundant page count")
         assertTrue(rule.onAllNodesWithContentDescription("Previous page").fetchSemanticsNodes().isEmpty(), "a single page has no previous-page control")
         assertTrue(rule.onAllNodesWithContentDescription("Next page").fetchSemanticsNodes().isEmpty(), "a single page has no next-page control")
-        assertEquals(2, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "settings stay available in the toolbar and stable action bar")
+        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "the settings are the player's, not the title bar's")
+        assertTrue(rule.onAllNodesWithContentDescription("Appearance").fetchSemanticsNodes().isEmpty(), "the title bar has no appearance button")
         rule.onNodeWithContentDescription("Back").assertExists()
     }
 
-    /** Playback stays reachable in a fixed compact action bar with accessible touch targets. */
+    /** Playback, with auto-pause, stays reachable in a fixed compact action bar over the stages, with accessible touch targets. */
     @Test
     fun theCompactReaderKeepsSentencePlaybackActionsStable() {
         val vm = runBlocking { reader(mainIsDefault = false) }
@@ -459,13 +460,21 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Previous sentence").assertIsNotEnabled()
         rule.onNodeWithContentDescription("Next sentence").assertIsEnabled()
-        for (description in listOf("Reader settings", "Previous sentence", "Read the page", "Next sentence")) {
-            val index = if (description == "Reader settings") 1 else 0
-            val control = rule.onAllNodesWithContentDescription(description)[index].getBoundsInRoot()
+        for (description in listOf("Reader settings", "Previous sentence", "Read the page", "Next sentence", "Auto-pause off")) {
+            val control = rule.onNodeWithContentDescription(description).getBoundsInRoot()
             assertTrue(control.right - control.left >= 48.dp, "$description is at least 48dp wide")
             assertTrue(control.bottom - control.top >= 48.dp, "$description is at least 48dp tall")
         }
         assertEquals(1, vm.state.value.pageNumber, "sentence controls do not replace page navigation")
+        val play = rule.onNodeWithContentDescription("Read the page").getBoundsInRoot()
+        assertTrue(play.bottom <= rule.onNodeWithTag("stage-chain").getBoundsInRoot().top, "the player sits over the stages")
+        rule.onNodeWithTag("mobile-auto-pause").performClick()
+        rule.waitUntil(5_000) { vm.state.value.settings.autoPause }
+        rule.onNodeWithContentDescription("Auto-pause on").assertExists()
+        System.getenv("PHONE_READER_SCREENSHOT")?.let { path ->
+            rule.waitForIdle()
+            javax.imageio.ImageIO.write(rule.onAllNodes(androidx.compose.ui.test.isRoot())[0].captureToImage().toAwtImage(), "png", File(path))
+        }
     }
 
     /** Turning read-aloud controls off removes playback actions without removing reader settings. */
@@ -484,7 +493,8 @@ class ReadingHoverTest {
         }
 
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "only the toolbar action remains")
+        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "the player keeps only the settings")
+        assertTrue(rule.onAllNodesWithTag("mobile-auto-pause").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Previous sentence").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Next sentence").fetchSemanticsNodes().isEmpty())
@@ -1020,9 +1030,9 @@ class ReadingHoverTest {
         assertEquals(ReadingPanel.None, vm.state.value.panel)
     }
 
-    /** A phone's reader bar opens the appearance straight away, in the part-height sheet over the text. */
+    /** A phone reaches the appearance from the player's settings, in the part-height sheet over the text. */
     @Test
-    fun aPhonesAppearanceButtonOpensTheAppearanceTab() {
+    fun aPhonesSettingsReachTheAppearanceTab() {
         val vm = runBlocking { reader(mainIsDefault = false) }
         startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }) }
         rule.setContent {
@@ -1031,8 +1041,9 @@ class ReadingHoverTest {
             }
         }
         rule.waitUntil(5_000) { rule.onAllNodesWithText("lobo dorme", substring = true).fetchSemanticsNodes().isNotEmpty() }
-        rule.onNodeWithContentDescription("Appearance").performClick()
-        // The font is on the Appearance tab, reached without choosing the tab.
+        rule.onNodeWithContentDescription("Reader settings").performClick()
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("pane-tab-APPEARANCE").fetchSemanticsNodes().isNotEmpty() }
+        rule.onNodeWithTag("pane-tab-APPEARANCE").performClick()
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("font-choice").fetchSemanticsNodes().isNotEmpty() }
         // The preview shows the page's first sentence in the chosen font.
         rule.onNode(hasText("lobo dorme", substring = true) and hasAnyAncestor(hasTestTag("reader-preview"))).assertExists()
