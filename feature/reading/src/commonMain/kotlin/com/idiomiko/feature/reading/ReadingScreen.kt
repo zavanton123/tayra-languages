@@ -941,8 +941,8 @@ private fun ReadingBody(
         // A phone's player sits over its stages; with reading aloud off it keeps only the settings.
         val sentenceControls = state.settings.showSentencePlay && pageSentences.isNotEmpty()
         Column(Modifier.fillMaxWidth()) {
-            // Nothing to read aloud over the words, the quiz or the cards, nor in retelling, which has only the translation.
-            if (shown == null && state.stage != ReadingStage.RETELL) MobileReaderActions(
+            // Nothing to read aloud over the words, the quiz or the cards, nor in the stages where the learner speaks.
+            if (shown == null && state.stage !in SPOKEN_STAGES) MobileReaderActions(
                 onSettings = onMenu,
                 playback = if (!sentenceControls) null else MobilePlayback(
                     onPreviousSentence = continuous::previous,
@@ -986,7 +986,7 @@ private fun ReadingBody(
             },
             onMenu = onMenu,
             playlist = playlistPlayer?.let { { AddToPlaylistButton(state.book?.id ?: 0, CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist) } },
-            playback = if (state.settings.showSentencePlay && pageSentences.isNotEmpty()) {
+            playback = if (state.settings.showSentencePlay && pageSentences.isNotEmpty() && state.stage !in SPOKEN_STAGES) {
                 {
                     ContinuousControls(
                         playing = continuous.active,
@@ -1504,3 +1504,5 @@ private fun EmbeddedTermForm(
     }
 }
 
+/** The stages where the learner says the text: reverse translation, questions and retelling, with no player to read it for them. */
+private val SPOKEN_STAGES = setOf(ReadingStage.REVERSE, ReadingStage.QUESTIONS, ReadingStage.RETELL)
