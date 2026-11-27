@@ -756,14 +756,15 @@ private fun Finished(state: PracticeUiState, actions: PracticeActions) {
             color = colors.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        // Missed words lead to practising them again; with none missed, back to where the words came from.
+        // Missed words lead to practising them again. A practice of the vocabulary leads back to it; one over a
+        // text has its way back around it: the dialog's close, or the lesson's stages.
         FlowRow(horizontalArrangement = Arrangement.spacedBy(AppSpacing.m, Alignment.CenterHorizontally), verticalArrangement = Arrangement.spacedBy(AppSpacing.m)) {
             if (state.missedTargets.isNotEmpty()) {
                 PrimaryButton(tr("Practise missed words"), onClick = actions.onRestartMissed, size = ButtonSize.Large, modifier = Modifier.testTag("practise-missed"))
-                SecondaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
+                if (state.fromVocabulary) SecondaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
             } else {
                 SecondaryButton(tr("Practise again"), onClick = actions.onRestart, size = ButtonSize.Large)
-                PrimaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
+                if (state.fromVocabulary) PrimaryButton(backLabel(state), onClick = actions.onBack, size = ButtonSize.Large)
             }
         }
     }
