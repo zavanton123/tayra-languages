@@ -780,6 +780,11 @@ def light_forms():
     return frozenset(f for verb in LIGHT_VERBS for f in verb_forms(verb) | {verb})
 
 
+@functools.lru_cache(maxsize=None)
+def after_participle():
+    return frozenset(f for verb in ("పోవు", "వేయు") for f in verb_forms(verb) | {verb})
+
+
 def light_split(form):
     """The noun leads [form] may have before a light verb's form, the longest form first: ఏర్పాటుచేశారు is ఏర్పాటు + చేశారు,
     ఉపయోగపడుతుంది ఉపయోగ(ం) + పడుతుంది."""
@@ -1106,7 +1111,7 @@ def build(found, size, label, weights=None):
         if not heads and form not in names:
             for lead in light_split(form):
                 # A past participle with పోవు or వేయు is its verb's (మారిపోతూ of మారు).
-                verb = lead[:-1] + "\u0c41" if lead.endswith("\u0c3f") else None
+                verb = lead[:-1] + "\u0c41" if lead.endswith("\u0c3f") and form[len(lead):] in after_participle() else None
                 if verb and "verb" in kinds.get(verb, ()):
                     return {verb}
                 if kinds.get(lead, set()) & {"noun", "adj"} and lead not in LIGHT_NOT:
