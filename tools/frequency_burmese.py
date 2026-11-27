@@ -95,6 +95,29 @@ FRAGMENTS = frozenset("""
 # "hair"): the app's own list has them.
 EXTRA_WORDS = ("အိုကေ", "တီဗီ", "တီဗွီ")
 
+# Words the pack lacks that the texts use most, each with its kind: ICU's list has them, and the reader reads them as words
+# of their own, but with no entry in the pack the list had none of them. The connectives and the quotative of the written
+# style (ဟု, ထို့ကြောင့်, သဖြင့်), its paired verbs (ရေးသား "to write", တွေ့ရှိ "to find"), everyday nouns (သစ်သား "wood",
+# ခန်းမ "hall", ငှက်ပျောသီး "banana"), and the countries whose names are their languages too (ဂျပန် "Japan; Japanese",
+# ပြင်သစ် "France; French"), which the pack has as names only, and ဥရောပ "Europe".
+WORDS = {
+    "ဟု": "particle", "ထို့ကြောင့်": "conj", "ထို့နောက်": "conj", "သဖြင့်": "conj", "ထိုအခါ": "conj", "သစ်သား": "noun",
+    "တစ်နေ့": "noun", "ခန်းမ": "noun", "ငှက်ပျောသီး": "noun", "ဂျပန်": "noun", "ပြင်သစ်": "noun", "ဥရောပ": "noun",
+    "အဓိပ္ပာယ်": "noun", "တန်ဖိုး": "noun", "တပ်ဖွဲ့": "noun", "စွမ်းအား": "noun", "ခန္ဓာကိုယ်": "noun", "ကျေးရွာ": "noun",
+    "အကြောင်းအရာ": "noun", "စီမံကိန်း": "noun", "သက်တမ်း": "noun", "အပူချိန်": "noun", "ဆုံးဖြတ်ချက်": "noun",
+    "စည်းမျဉ်း": "noun", "လှုပ်ရှားမှု": "noun", "တစ်ဝိုက်": "noun", "လျှပ်လက်": "noun", "အချင်းချင်း": "pron",
+    "အပါအဝင်": "prep", "ပိုမို": "adv", "ဆက်လက်": "adv", "အနည်းငယ်": "adv", "ထပ်မံ": "adv", "တရားဝင်": "adj",
+    "ကောင်းမွန်": "adj", "ခက်ခဲ": "adj", "လုံလောက်": "adj", "လွယ်ကူ": "adj", "မြင့်မား": "adj", "ဆိုးရွား": "adj",
+    "များပြား": "adj", "တူညီ": "adj", "ရေးသား": "verb", "ဖြစ်ပေါ်": "verb", "တွေ့ရှိ": "verb", "စကားပြော": "verb",
+    "ဆိုလို": "verb", "သေဆုံး": "verb", "ဖြစ်ပွား": "verb", "စီမံ": "verb", "ထိန်းချုပ်": "verb", "ထမ်းဆောင်": "verb",
+    "လုပ်ကိုင်": "verb", "ကျေးဇူးပြု": "verb", "ဖွံ့ဖြိုး": "verb", "စိုက်ပျိုး": "verb", "ထည့်သွင်း": "verb",
+    "ပေါ်ပေါက်": "verb", "ဖွင့်လှစ်": "verb", "ခန့်အပ်": "verb", "ဆင်းသက်": "verb", "စိုးရိမ်": "verb", "ပေါင်းစပ်": "verb",
+    "တက်ရောက်": "verb", "သွားရောက်": "verb", "ထုတ်ပြန်": "verb", "သက်ရောက်": "verb", "ပို့ဆောင်": "verb",
+    "ချီးမြှင့်": "verb", "လှူဒါန်း": "verb", "ရိုက်ကူး": "verb", "ပေးအပ်": "verb", "ရောင်းချ": "verb", "ကြိုးပမ်း": "verb",
+    "နှစ်သက်": "verb", "ဂုဏ်ယူ": "verb", "မူတည်": "verb", "မေးမြန်း": "verb", "ရည်ညွှန်း": "verb", "ရပ်တန့်": "verb",
+    "ဝယ်ယူ": "verb", "ဖြတ်သန်း": "verb", "ဖော်ထုတ်": "verb", "အသုံးချ": "verb",
+}
+
 # Entries of ICU's list the pack lacks that the reader reads as the pack's words (make_lexicon), besides those it finds.
 CUT = {"ခြင်ဆေး": ["ခြင်", "ဆေး"], "အဖျားတက်": ["အဖျား", "တက်"], "လျှပ်ပြက်": ["လျှပ်", "ပြက်"]}
 
@@ -191,7 +214,7 @@ def make_lexicon(icu_path):
     the reader reads them as the pack's words, which it can look up, as it reads Lao's phrases (LaoParser). Not two words
     of another kind, which are often one word, a pair of verbs that mean one thing (လုံလောက် "enough", သန်မာ "strong"), nor
     a word twice (ဖေဖေ "daddy"). The pack's words they are cut into are on the list too, for a reader without the pack; and
-    so are EXTRA_WORDS.
+    so are EXTRA_WORDS and the words the frequency list adds by hand (WORDS).
     """
     pack = pack_words()
     db = sqlite3.connect(os.path.join(DICTIONARIES, "my-en.sqlite"))
@@ -200,7 +223,7 @@ def make_lexicon(icu_path):
         kinds.setdefault(my_normalise(word), set()).add(pos)
     nouns = {w for w, k in kinds.items() if k <= {"noun", "classifier"}}
     words = icu_words(icu_path, pack)
-    own = set(EXTRA_WORDS)
+    own = set(EXTRA_WORDS) | set(WORDS)
     kept, pieces = set(), set()
     for word in sorted(words):
         cut = None if word in pack or word in own else CUT.get(word) or pack_cut(word, pack)

@@ -4822,6 +4822,11 @@ def load_dictionary(language):
         for word in BRETON_CALENDAR:
             pos[word].add("noun")
             common[word] = word
+    if language == "my":
+        # And the Burmese words the pack lacks that the texts use most (frequency_burmese.WORDS).
+        for word, kind in frequency_burmese.WORDS.items():
+            pos[word].add(kind)
+            common[word] = word
     lemmas = defaultdict(list)
     # Spellings the 1996 German reform replaced ("daß" for "dass"), whose other links are noise ("daß" to "das").
     outdated = set()
