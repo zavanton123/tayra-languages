@@ -3,8 +3,8 @@
 Each course teaches one band of 100 words from the Burmese word frequency list (`bands/<rankUpTo>.txt`: index,
 rank, word, its forms). Course `my-mini-0300` teaches ranks 201–300 and may use every word ranked 1–300. Ten
 lessons, each introducing about ten of the band's words, so the course covers the band; a learner who finishes
-it knows the 300 most common words. `themes.tsv` gives each course its theme. The list has 7,189 words: the
-courses are `my-mini-0100` to `my-mini-7200` (the last band has 89 words).
+it knows the 300 most common words. `themes.tsv` gives each course its theme. The list has 7,183 words: the
+courses are `my-mini-0100` to `my-mini-7200` (the last band has 83 words).
 
 ## What the lessons are: mini stories
 
@@ -144,5 +144,8 @@ cuts exactly as the reader. It follows that:
   pause reads naturally.
 - **but a verb and the particles and helper verbs after it are its words**: *ပြန်လာတယ်* is *ပြန်* + *လာ* + *တယ်*,
   *ရပါတယ်* *ရ* + *ပါ* + *တယ်*, *လုပ်ပေး* *လုပ်* + *ပေး*; and common words are not swallowed by rarer ones.
+- **two nouns ICU's list joins that the dictionary lacks are those nouns**: *ခရုခွံ* is *ခရု* + *ခွံ*, *ခြင်ဆေး*
+  *ခြင်* + *ဆေး*, and so are *အဖျားတက်* (*အဖျား* + *တက်*) and *လျှပ်ပြက်* (*လျှပ်* + *ပြက်*). A pair the dictionary
+  has stays one word (*ဆန်မှုန့်* "rice flour" is no use of *မှုန့်*).
 - **a name must start and end where the reader's words do**, or it runs into the words around it and the checker
   fails the lesson; list every name in `names`.
