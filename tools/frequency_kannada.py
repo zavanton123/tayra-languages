@@ -320,6 +320,7 @@ KANNADA_WORDS = {
     "ಹೋಟೆಲ್": ("noun", "ಹೋಟೆಲಿನ ಹೋಟೆಲಿನಲ್ಲಿ ಹೋಟೆಲ್‌ನಲ್ಲಿ ಹೋಟೆಲಿಗೆ ಹೋಟೆಲ್‌ಗೆ"),
     "ಕೆಲಸ": ("noun", ""),
     "ಫೋನ್": ("noun", "ಫೋನ್‌ನಲ್ಲಿ ಫೋನಿನಲ್ಲಿ ಫೋನಿನ ಫೋನ್‌ನ ಫೋನನ್ನು ಫೋನ್‌ಗೆ"),
+    "ಟಿವಿ": ("noun", "ಟೀವಿ"),
     "ಟಿಕೆಟ್": ("noun", "ಟಿಕೆಟ್ಟು ಟಿಕೆಟ್‌ಗಳು ಟಿಕೆಟನ್ನು"),
     "ಕಿಟಕಿ": ("noun", ""),
     "ಮಹಡಿ": ("noun", ""),
@@ -454,7 +455,16 @@ KANNADA_SPELLINGS = {"ಮುಂದುವರೆ": "ಮುಂದುವರಿ", "�
 # Words of the packs the lists leave out: letters, the case endings the corpus writes apart after a number or a Latin word
 # (1857ರಲ್ಲಿ, ಐಐಟಿ ನ), and words that are only names.
 KANNADA_EXCLUDED = {"ಅ", "ನ", "ರ", "ದ", "ಗೆ", "ರಲ್ಲಿ", "ನಲ್ಲಿ", "ಅನ್ನು", "ರಿಂದ", "ರಂದು", "ಯ", "ಲ್ಲಿ", "ಕ್ಕೆ", "ವ", "ಇ", "ಎ", "ಓಂ", "ಶ್ರೀ",
-                    "ನಿ", "ನೇ", "ಮೀ", "ಕಿ", "ಸೆಂ", "ಕಿಮೀ", "ಡಾ", "ಮಿ", "ಲೀ", "ಗ್ರಾಂ"}
+                    "ನಿ", "ನೇ", "ಮೀ", "ಕಿ", "ಸೆಂ", "ಕಿಮೀ", "ಡಾ", "ಮಿ", "ಲೀ", "ಗ್ರಾಂ",
+                    # Grammar's pieces and cut-off glosses (ಗೊಂಡು "verb suffix", ಎನ್ of ಎನ್ನು, ಮದುಮ of ಮದುಮಗ).
+                    "ಗೊಂಡು", "ಕಟ್ಟ", "ಏತ", "ಎನ್", "ಎನು", "ನಾನ್", "ಮದುಮ", "ಡಾಲು", "ಅಲ್ಪಸಂಖ್ಯಾಸಾಮ್ಯ"}
+# Words of the packs and glosses the corpus uses as names or in English names and titles, which the rules do not tell
+# (ಕರ್ಣ "ear" is mostly Karna, ಗುಬ್ಬಿ "sparrow" the town): left out like names, their forms theirs.
+KANNADA_NAMES = {"ಕರ್ಣ", "ಗುಬ್ಬಿ", "ರಿಪಬ್ಲಿಕನ್", "ಕಾರ್ನ್", "ಮೆಟಲ್", "ಟಾರ್ಗೆಟ್", "ಟ್ರಿನಿಟಿ", "ಫ್ರಾಂಕ್ಫರ್ಟ್", "ಕೆನರಾ", "ಮಲಬಾರ್",
+                 "ಶಾಹಿ", "ಜಗನ್ನಾಥ", "ಟುರೆಟ್", "ಅಮ್ನೆಸ್ಟಿ", "ಲಿಬರ್ಟಿ", "ಟ್ರಾನ್ಸ್", "ವಿಕಿ", "ಗೋಪಾಲ", "ಪ್ಯಾರಿಷ್", "ಖಾಸಿ",
+                 "ತಿಲಕ್", "ಜ್ಯೋತ್ಸ್ನಾ", "ಡಿಸೈರ್", "ವೆಜಿಟೇಶನ್", "ಕಾರ್ಪಸ್", "ಕಾರ್ಪ್ಸ್", "ಎಂಪೈರ್", "ಸ್ಟಡೀಸ್", "ಇಂಡಸ್ಟ್ರೀಸ್",
+                 "ಸೈನ್ಸಸ್", "ಡಿಸ್ಟ್ರಿಕ್ಟ್", "ಫ್ಯಾಮಿಲಿ", "ಮನಿ", "ಸಾಂಗ್", "ಟ್ರೀ", "ಹವ್ಯಕ", "ಒಕ್ಕಲಿಗ", "ಅಂಡ", "ಬಿಲ್ಲಿ", "ಪುಲ್",
+                 "ವೋರಾರ್ಲ್ಬರ್ಗ್", "ಪ್ರೊಡಕ್ಷನ್ಸ್", "ಐಲೆಂಡ್", "ಐಲ್ಯಾಂಡ್", "ಫೌಂಡೇಶನ್", "ಸ್ಕ್ವೇರ್", "ಕ್ಯಾಸಲ್", "ಫೆಸ್ಟಿವಲ್", "ಹೋಸ್ಟ್"}
 # Words of the corpus that are names, English or letters, which induce would take for words.
 KANNADA_NOT_WORDS = {"ಗಳು", "ಆಫ್", "ದಿ", "ಅಂಡ್", "ಇನ್", "ಟು", "ಫಾರ್", "ಆನ್", "ಶೇ", "ರೂ", "ಕ್ರಿ", "ಕಿ", "ಎ", "ಬಿ", "ಸಿ", "ಡಿ", "ಕೆ",
                      "ಎಸ್", "ಎಂ", "ಆರ್", "ಜಿ", "ಟಿ", "ಪಿ", "ವಿ", "ಯು", "ಜೆ", "ಎನ್", "ಎಲ್", "ಎಚ್", "ಎಫ್", "ಡಬ್ಲ್ಯೂ", "ಒ", "ಐ",
@@ -512,6 +522,7 @@ WORD_MARKS = re.compile(r"\b(language|languages|month|day|festival|dance|drama|c
                         r"saturday|sunday|january|february|march|april|may|june|july|august|september|october|november|"
                         r"december)\b", re.I)
 ACRONYM = re.compile(r"^[A-Z]{2,}\b")
+IN_NAMES = re.compile(r"\(in (?:place |proper )?names\)|\(as in ")
 VARIANT_GLOSS = re.compile(r"(?:variant|form|short) (?:of|for) ([\u0c80-\u0cff\u200c\u200d]+)")
 
 
@@ -538,6 +549,11 @@ def kind_of_name(glosses, places, common):
     (COUNTRIES), a language, a month or a day (WORD_MARKS), or a common English word too ([common]: ಕೋಣ "Buffalo"); else
     "name" (a place, a person, a god, a people, an abbreviation: NAME_MARKS, or a name [places] gives)."""
     names = [gloss_name(g) for g in glosses]
+    # An English word the pack gives for names only (ಹಿಲ್ಸ್ "hills (in place names)"), or an abbreviation first glossed by its
+    # letters (ಐಟಿ "IT", "information technology").
+    if names and (all(IN_NAMES.search(g) for g in glosses)
+                  or re.fullmatch(r"[A-Z]{2,}", names[0]) and not any(WORD_MARKS.search(g) for g in glosses)):
+        return "name"
     if not names or not all(proper(n) for n in names):
         return "word"
     if any(WORD_MARKS.search(g) for g in glosses) or any(re.search(r"\b(country|continent)\b", g, re.I) for g in glosses):
@@ -614,6 +630,7 @@ def lexicon(dictionaries):
     places = {}
     countries = set()
     common = set()
+    capitalised = set()
     for pack in ("en-kn-gloss", "ru-kn-gloss"):
         path = os.path.join(dictionaries, f"{pack}.sqlite")
         if not os.path.exists(path):
@@ -635,8 +652,14 @@ def lexicon(dictionaries):
                             countries.add(part)
                         elif pos == "name" and not any("language" in t for t in sense.get("tags", [])):
                             names.add(part)
+                        # A capitalised English noun is a name or a brand (Xbox), but for a month's, a day's or a
+                        # language's.
+                        elif (pos == "noun" and pack == "en-kn-gloss" and english[:1].isupper() and not country
+                              and not WORD_MARKS.search(english)):
+                            capitalised.add(part)
                         elif pos in GLOSS_KINDS:
                             kinds[part].add(GLOSS_KINDS[pos])
+    names |= capitalised - set(kinds) - countries
     for word in countries - set(kinds):
         kinds[word].add("noun")
     for word, (kind, _) in KANNADA_WORDS.items():
@@ -1155,7 +1178,7 @@ def build(found, size, label):
         kinds.pop(word, None)
         by_hand[word].add(verb)
     # The names are declined to claim their forms (ಮೇರಿಲ್ಯಾಂಡ್‌ನಲ್ಲಿ), and left out of the list.
-    left_out = named | names
+    left_out = named | names | KANNADA_NAMES
     for word in names:
         kinds[word].add("noun")
 
@@ -1288,7 +1311,8 @@ def build(found, size, label):
     # A word induce finds is none that is a form of a word already known (ಇದ್ದು of ಇರು, from ಇದ್ದಿತು), nor a locative with ಇದೆ
     # or ಇರುವ joined on (ರೀತಿಯಲ್ಲಿದೆ is no verb ರೀತಿಯಲ್ಲು).
     induced = {w: ks for w, ks in induce(unexplained, counts, helpers).items()
-               if w not in KANNADA_NOT_WORDS and w not in CASE_FRAGMENTS and w not in names and not targets(w)
+               if w not in KANNADA_NOT_WORDS and w not in KANNADA_EXCLUDED and w not in CASE_FRAGMENTS and w not in left_out
+               and not targets(w)
                and not (w.endswith("ಲ್ಲು") and targets(w[:-1] + "ಿ")) and not w.endswith(LOCATIVE_VERBS)
                # nor a dative or a fragment with ಇದೆ or ಇರು joined on (ಅವರಿಗಿದೆ, ವಾಗಿರುತ್ತದೆ).
                and not (w.endswith("ಗು") and (targets(w[:-1] + "ೆ") or w[:-1] + "ಿ" in CASE_FRAGMENTS))}
