@@ -323,11 +323,20 @@ PRONOUNS = {
     "siz": "sizning sizga sizni sizda sizdan sizdek sizniki sizlar sizlarning sizlarga sizlarni sizlarda sizlardan sizningcha",
     "ular": "ularning ularga ularni ularda ulardan ulardek",
     "bu": "buning bunga buni bunda bundan bular bularning bularga bularni bularda bulardan bundek",
-    "shu": "shuning shunga shuni shunda shundan shular shularning shularga shularni shularda shulardan shundek",
+    "shu": "shuning shunga shuni shunda shundan shular shularning shularga shularni shularda shulardan shundek shuki",
     "oʻsha": "oʻshaning oʻshanga oʻshani oʻshanda oʻshandan oʻshalar oʻshalarning oʻshalarga oʻshalarni",
     "kim": "kimning kimga kimni kimda kimdan kimlar kimlarning kimlarga kimlarni kimsan kimman kimsiz",
+    "necha": "nechada nechaga nechadan nechasi nechasini nechasida nechani",
+    "nechta": "nechtasi nechtadan nechtasini nechtaga",
     "nima": "nimaning nimaga nimani nimada nimadan nimalar nimalarni nimasi nimasini nimang nimam",
     "ta": PRONOUNS_TA,
+    # The particle ekan "it seems, it turns out" takes the endings of a participle (bilmas ekanman, kelgan ekanini).
+    "ekan": "ekani ekanini ekaniga ekanidan ekanida ekanim ekanimni ekaning ekaningni ekanimiz ekanimizni ekaningiz "
+            "ekaningizni ekanlari ekanlarini ekanligi ekanligini ekanligiga ekanligidan ekanlik ekanman ekansan ekanmiz "
+            "ekansiz ekanlar ekanda ekanki",
+    # And kimdir, nimadir "someone, something" take theirs before -dir (kimgadir, nimanidir).
+    "kimdir": "kimlardir kimgadir kimnidir kimdandir kimningdir kimdadir",
+    "nimadir": "nimalardir nimagadir nimanidir nimadandir nimaningdir nimadadir",
     "oʻz": "oʻzim oʻzing oʻzi oʻzimiz oʻzingiz oʻzlari oʻzimni oʻzingni oʻzini oʻzimizni oʻzingizni oʻzlarini oʻzimga "
            "oʻzingga oʻziga oʻzimizga oʻzingizga oʻzlariga oʻzimda oʻzida oʻzimizda oʻzingizda oʻzlarida oʻzimdan oʻzingdan "
            "oʻzidan oʻzimizdan oʻzingizdan oʻzlaridan oʻzimning oʻzingning oʻzining oʻzimizning oʻzingizning oʻzlarining "
@@ -419,7 +428,8 @@ SEEN = None
 LEXICON_ONLY = set()
 _NOMINAL = {"noun", "adj", "num"}
 # Words the pack has as another kind that take the noun endings too (hamma, hammasi; koʻp, koʻpi; bor, bori).
-NOMINAL_ALSO = {"hamma", "barcha", "koʻp", "bor", "yoʻq", "kerak", "har", "ayrim", "baʼzi", "boshqa", "biri", "bari"}
+NOMINAL_ALSO = {"hamma", "barcha", "koʻp", "bor", "yoʻq", "kerak", "har", "ayrim", "baʼzi", "boshqa", "biri", "bari", "qarshi",
+                "avval"}
 # Spellings that are a form of a common word, though the pack or the lexicon has them as a rarer word of their own.
 OVERRIDES = {"qil": ["qilmoq"]}
 # bora "regard" (borasida "as regards"), no form of bormoq for being spelled as its converb.
@@ -438,6 +448,9 @@ def regular_forms(word, kinds):
         out.update({word + "roq", word + "roqdir", word + "roqqa", word + "gina"})
     if kinds & {"adv", "prep"}:
         out.add(word + "gi")
+    # A number with the counter ta (ikkita, beshta, ikkitasi), but for bir, whose is bitta.
+    if "num" in kinds and word != "bir":
+        out.update([word + "ta"] + [word + e for e in PRONOUNS_TA.split()])
     return out
 
 
