@@ -375,6 +375,9 @@ TELUGU_WORDS = {
     "పంపు": ("verb", ""),
 }
 
+# Plurals no rule makes (irregular_plurals), declined as plurals.
+TELUGU_PLURALS = {"ఊరు": "ఊళ్లు", "కోడి": "కోళ్లు", "ఎద్దు": "ఎడ్లు", "మనిషి": "మనుషులు", "కూతురు": "కూతుళ్లు", "గుడి": "గుళ్లు",
+                  "బడి": "బళ్లు", "పూవు": "పువ్వులు", "మేక": "మేకలు", "పులి": "పులులు", "కాయ": "కాయలు", "నది": "నదులు"}
 # Words of the pack that are forms of another, or two spellings of one word: counted and listed under the word.
 TELUGU_FORMS = {
     "నా": "నేను", "నీ": "నువ్వు", "మా": "మేము", "మన": "మనం", "మీ": "మీరు", "తన": "తాను", "తమ": "తాము", "వారి": "వారు",
@@ -516,6 +519,34 @@ def lexicon(dictionaries):
     return kinds, pack_forms, names - set(kinds), spellings
 
 
+def plural_forms(plural):
+    """A plural's forms (పుస్తకాలు: పుస్తకాల, పుస్తకాలకు, పుస్తకాల్లో, పుస్తకాలే)."""
+    forms = {plural} | {plural[:-1] + t for t in PLURAL_TAILS}
+    return forms | {plural[:-2] + "ల్లో", plural[:-2] + "ల్లోని", plural[:-2] + "ల్లోనూ", swap(plural, "ే"), swap(plural, "ూ")}
+
+
+def irregular_plurals(word):
+    """
+    The plurals a noun may take besides word + లు by its ending, which the corpus tells apart: -ళ్లు of one in -లు, -ల్లు,
+    -న్ను or -ాయి (కాళ్లు, ఇళ్లు, కళ్లు, రాళ్లు), -ర్లు of one in -రు (పేర్లు, కార్లు), -లు after a
+    doubled consonant's first (చెట్లు, గుడ్లు).
+    """
+    out = set()
+    if len(word) < 3:
+        return out
+    if word.endswith(("ల్లు", "న్ను")):
+        out.add(word[:-4] + "ళ్లు")
+    elif word.endswith("లు") and word[-3] not in ("\u0c41", VIRAMA):
+        out.add(word[:-2] + "ళ్లు")
+    if word.endswith("ాయి"):
+        out.add(word[:-2] + "ళ్లు")
+    if word.endswith("రు") and word[-3] != VIRAMA:
+        out.add(word[:-1] + "్లు")
+    if len(word) > 4 and word.endswith("\u0c41") and word[-3] == VIRAMA and word[-4] == word[-2] and word[-2] != "ల":
+        out.add(word[:-2] + "లు")
+    return out - {word}
+
+
 def noun_forms(word):
     """A noun's case and plural forms, by its ending."""
     forms = set()
@@ -530,8 +561,8 @@ def noun_forms(word):
                                      "మైనది", "మైనవి", "మని", "మనే", "ము", "మును", "ములో", "మునకు", "మందు", "మంతా", "మైతే", "మయ్యింది",
                                      "మయింది", "మవుతుంది", "మవుతుందని", "మయ్యే", "మైంది", "మో"]}
         plural = stem + "ాలు"
-    elif word.endswith(("ుడు", "వాడు")) and len(word) > 3:
-        # అధ్యక్షుడు: అధ్యక్షుడిని, అధ్యక్షునికి, అధ్యక్షుడే, అధ్యక్షులు.
+    elif word.endswith(("ుడు", "ాడు")) and len(word) > 3:
+        # అధ్యక్షుడు: అధ్యక్షుడిని, అధ్యక్షునికి, అధ్యక్షుడే, అధ్యక్షులు; పనివాడు, ఆటగాడు: పనివాళ్లు, ఆటగాళ్లు.
         stem = word[:-2]
         forms |= {word + t for t in CASE_TAILS}
         for oblique in (stem + "డి", stem + "ుని", stem + "ని"):
@@ -539,8 +570,8 @@ def noun_forms(word):
         forms |= {swap(word, s) for s in clitic_signs(word)}
         plural = stem + "లు" if stem[-1] in SIGNS else stem + "ులు"
         forms |= {stem + "లు", stem + "ులు"} - {plural}
-        if word.endswith("వాడు"):
-            forms |= {word[:-3] + t for t in ["ళ్లు", "ళ్ళు", "ళ్ల", "ళ్ళ", "ళ్లకు", "ళ్ళకి", "ళ్లను", "ళ్ళని", "ళ్లతో", "రు", "రి", "రికి", "రిని"]}
+        if word.endswith("ాడు"):
+            forms |= {word[:-2] + t for t in ["ళ్లు", "ళ్ళు", "ళ్ల", "ళ్ళ", "ళ్లకు", "ళ్ళకి", "ళ్లను", "ళ్ళని", "ళ్లతో", "రు", "రి", "రికి", "రిని"]}
     else:
         forms |= {word + t for t in CASE_TAILS}
         forms |= {swap(word, s) for s in clitic_signs(word)}
@@ -563,10 +594,12 @@ def noun_forms(word):
         if last == "\u0c3f":
             # రూపాయి: రూపాయలు.
             forms |= {word[:-1] + "లు"} | {word[:-1] + "ల" + t for t in PLURAL_TAILS}
-    forms.add(plural)
-    oblique_plural = plural[:-1]
-    forms |= {oblique_plural + t for t in PLURAL_TAILS}
-    forms |= {plural[:-2] + "ల్లో", plural[:-2] + "ల్లోని", plural[:-2] + "ల్లోనూ", swap(plural, "ే"), swap(plural, "ూ")}
+    forms |= plural_forms(plural)
+    for other in irregular_plurals(word) | {TELUGU_PLURALS.get(word, plural)}:
+        forms |= plural_forms(other)
+    # A noun given in the plural (ప్రేక్షకులు, అన్నదమ్ములు) takes the plural's endings.
+    if word.endswith("లు") and len(word) > 4:
+        forms |= plural_forms(word)
     return forms
 
 
@@ -732,6 +765,9 @@ def word_forms(word, ks):
     hand = TELUGU_WORDS.get(word)
     if hand:
         forms |= set(hand[1].split())
+        if hand[0] == "noun":
+            for plural in [f for f in hand[1].split() if f.endswith("లు")]:
+                forms |= plural_forms(plural)
     if word.endswith(ANUSVARA):
         forms.add(word[:-1] + "ము")
     forms = both_l(forms)
@@ -810,6 +846,21 @@ def build(found, size, label, weights=None):
     if folded:
         for form in ruled:
             ruled[form] -= folded
+    # A noun of the pack given in the plural or the plural's oblique of another the rules decline (ముత్యాలు of ముత్యం, చుక్కల of
+    # చుక్క, కోళ్ళు of కోడి) is that one's, when the corpus writes that one too.
+    plurals = {}
+    for word in sorted(kinds):
+        if word in TELUGU_WORDS or word in TELUGU_OWN or not kinds[word] <= {"noun", "adj"} or not word.endswith(("లు", "ల")):
+            continue
+        heads = {h for h in ruled.get(word, ()) if h != word and kinds.get(h, set()) & {"noun", "num"} and counts.get(h, 0) > 0
+                 and (word.endswith("లు") or counts.get(h, 0) > counts.get(word, 0))}
+        if heads:
+            plurals[word] = heads
+    for word, heads in plurals.items():
+        kinds.pop(word)
+        by_hand[word] |= heads
+    for form in ruled:
+        ruled[form] -= set(plurals)
     for form, heads in ruled.items():
         if len(heads) < 2:
             continue
