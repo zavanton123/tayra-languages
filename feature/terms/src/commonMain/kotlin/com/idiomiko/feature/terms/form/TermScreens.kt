@@ -113,23 +113,26 @@ fun TermEditScreen(
     }
     if (dialog) {
         var confirmDelete by remember { mutableStateOf(false) }
+        // A phone's narrow dialog keeps its edges to the panel's own gutter.
+        val narrow = LocalWindowWidth.current.isCompact
+        val edge = if (narrow) AppSpacing.l else AppSpacing.xxxl
         Column(Modifier.fillMaxSize()) {
-            Row(Modifier.fillMaxWidth().padding(start = AppSpacing.xxxl, end = AppSpacing.xl, top = AppSpacing.l, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically) {
+            Row(Modifier.fillMaxWidth().padding(start = edge, end = if (narrow) AppSpacing.l else AppSpacing.xl, top = AppSpacing.l, bottom = AppSpacing.l), verticalAlignment = Alignment.CenterVertically) {
                 Text(title, Modifier.weight(1f), style = AppText.screenTitle)
                 AppIconButton(Icons.Default.Close, contentDescription = tr("Close"), onClick = onBack, modifier = Modifier.testTag("term-dialog-close"), style = IconButtonStyle.Outlined)
             }
             AppDivider()
-            panel(Modifier.weight(1f).padding(horizontal = AppSpacing.l))
+            panel(Modifier.weight(1f).padding(horizontal = if (narrow) 0.dp else AppSpacing.l))
             AppDivider()
             Row(
-                Modifier.fillMaxWidth().padding(start = AppSpacing.xl, end = AppSpacing.xxxl, top = AppSpacing.l, bottom = AppSpacing.l),
+                Modifier.fillMaxWidth().padding(start = if (narrow) AppSpacing.s else AppSpacing.xl, end = edge, top = AppSpacing.l, bottom = AppSpacing.l),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.spacedBy(AppSpacing.m),
             ) {
-                if (!isNew && !state.loading) QuietButton(tr("Delete term"), onClick = { confirmDelete = true }, modifier = Modifier.testTag("term-delete"), icon = Icons.Default.Delete, tone = ButtonTone.Danger)
+                if (!isNew && !state.loading) QuietButton(tr("Delete"), onClick = { confirmDelete = true }, modifier = Modifier.testTag("term-delete"), icon = Icons.Default.Delete, tone = ButtonTone.Danger)
                 Spacer(Modifier.weight(1f))
                 SecondaryButton(tr("Cancel"), onClick = onBack)
-                PrimaryButton(if (state.saving) tr("Saving...") else tr("Save changes"), onClick = viewModel::save, enabled = state.draft.text.isNotBlank() && !state.saving)
+                PrimaryButton(if (state.saving) tr("Saving...") else tr("Save"), onClick = viewModel::save, enabled = state.draft.text.isNotBlank() && !state.saving)
             }
         }
         if (confirmDelete) ConfirmDeleteTerm(state.draft.text, onConfirm = { viewModel.delete(); confirmDelete = false }, onDismiss = { confirmDelete = false })
@@ -138,7 +141,7 @@ fun TermEditScreen(
     val compact = LocalWindowWidth.current.isCompact
     val gutter = if (compact) AppSpacing.l else AppSpacing.xxxl
     val canSave = state.draft.text.isNotBlank() && !state.saving
-    val saveLabel = if (state.saving) tr("Saving...") else tr("Save changes")
+    val saveLabel = if (state.saving) tr("Saving...") else tr("Save")
     Scaffold(
         topBar = { AppTopBar(title = title, onNavigate = onNavigate, section = NavSection.TERMS, onBack = if (compact) onBack else null) },
         // A phone's bar has the way back and the title; the buttons wait at the foot, under the thumb.

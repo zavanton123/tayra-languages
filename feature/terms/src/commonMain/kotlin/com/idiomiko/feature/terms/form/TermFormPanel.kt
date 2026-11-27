@@ -806,7 +806,7 @@ private fun SectionTitle(icon: androidx.compose.ui.graphics.vector.ImageVector, 
 internal val LocalPageSections = staticCompositionLocalOf { false }
 
 @Composable
-private fun sectionPadding() = if (LocalPageSections.current) AppSpacing.xl else AppSpacing.l
+private fun sectionPadding() = if (LocalPageSections.current && !LocalWindowWidth.current.isCompact) AppSpacing.xl else AppSpacing.l
 
 @Composable
 private fun sectionTitleStyle() = if (LocalPageSections.current) AppText.sectionTitle else AppText.itemTitle

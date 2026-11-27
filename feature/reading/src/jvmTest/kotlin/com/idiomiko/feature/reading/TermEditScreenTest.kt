@@ -117,7 +117,7 @@ class TermEditScreenTest {
         waitUntil(timeoutMillis = 10_000) { runBlocking { flashcards.cardFor(termId) }?.suspended == false }
 
         onAllNodes(hasText("2") and isSelectable())[0].performClick()
-        onNodeWithText("Save changes").performClick()
+        onNodeWithText("Save").performClick()
         waitUntil(timeoutMillis = 10_000) { editor.done }
         assertEquals(TermStatus.NEW_2, runBlocking { terms.getById(termId) }?.status)
     }
@@ -221,17 +221,17 @@ class TermEditScreenTest {
         return opened
     }
 
-    /** Over another screen the editor is a dialog: its title and close above, its delete beside Cancel and Save below, once. */
+    /** Over another screen the editor is a dialog: its title and close above, its Delete beside Cancel and Save below, once. */
     @Test
     fun theEditorOpensAsADialog() = runDesktopComposeUiTest(width = 1586, height = 1000) {
         val editor = openEditor("semana", DictionaryId("pt", "en"), asDialog = true)
         waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("Term information")).fetchSemanticsNodes().isNotEmpty() }
         onNode(hasText("Edit term")).assertExists()
         waitUntil(timeoutMillis = 10_000) { onAllNodes(hasText("a week's wages")).fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(1, onAllNodes(hasText("Delete term")).fetchSemanticsNodes().size)
-        onNode(hasText("Save changes")).assertExists()
+        assertEquals(1, onAllNodes(hasText("Delete")).fetchSemanticsNodes().size)
+        onNode(hasText("Save")).assertExists()
         System.getenv("TERM_DIALOG_SCREENSHOT")?.let { save(it) }
-        onNode(hasText("Delete term")).performClick()
+        onNode(hasText("Delete")).performClick()
         onNode(hasText("Delete \"semana\"?")).assertExists()
         onNode(hasText("Cancel") and hasAnyAncestor(isDialog())).performClick()
         onNode(hasTestTag("term-dialog-close")).performClick()
