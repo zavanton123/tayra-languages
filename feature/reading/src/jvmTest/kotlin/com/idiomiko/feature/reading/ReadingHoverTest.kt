@@ -846,7 +846,6 @@ class ReadingHoverTest {
         // The last check shows what the lesson came to; the last lesson of its course has none after it.
         rule.waitUntil(5_000) { rule.onAllNodesWithTag("lesson-complete").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithText("Lesson complete").assertExists()
-        rule.onNodeWithText("You completed all 7 stages.").assertExists()
         assertTrue(rule.onAllNodesWithTag("lesson-complete-next").fetchSemanticsNodes().isEmpty(), "no lesson after the last")
         rule.onNodeWithTag("lesson-complete-course").performClick()
         rule.waitUntil(5_000) { courses.size == 2 }

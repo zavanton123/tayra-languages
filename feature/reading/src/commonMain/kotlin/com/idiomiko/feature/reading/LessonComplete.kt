@@ -59,10 +59,7 @@ import kotlin.math.roundToInt
  */
 @Composable
 internal fun LessonCompleteDialog(
-    title: String,
     summary: LessonSummary,
-    /** How many stages the lesson had: the questions are one only when it has some. */
-    stageCount: Int,
     onClose: () -> Unit,
     onCourse: () -> Unit,
     onNext: () -> Unit,
@@ -75,8 +72,6 @@ internal fun LessonCompleteDialog(
         }
         Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(AppSpacing.xs)) {
             Text(tr("Lesson complete"), style = AppText.pageTitle, textAlign = TextAlign.Center)
-            Text(title, style = AppText.headline, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
-            Text(tr("You completed all {0} stages.", stageCount), style = MaterialTheme.typography.bodyLarge, color = colors.onSurfaceVariant, textAlign = TextAlign.Center)
         }
         Stats(summary)
         if (summary.words > 0) {

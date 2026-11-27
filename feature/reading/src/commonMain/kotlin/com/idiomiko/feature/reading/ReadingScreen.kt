@@ -508,9 +508,7 @@ fun ReadingScreen(
     }
     state.lessonSummary?.let { summary ->
         LessonCompleteDialog(
-            title = state.lesson?.lesson?.title ?: state.book?.title.orEmpty(),
             summary = summary,
-            stageCount = state.pageStages.size,
             onClose = viewModel::lessonSummarySeen,
             onCourse = { viewModel.lessonSummarySeen(); leave() },
             onNext = viewModel::openNextLesson,

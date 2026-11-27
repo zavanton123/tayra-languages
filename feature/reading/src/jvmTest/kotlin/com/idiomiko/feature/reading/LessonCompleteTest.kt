@@ -28,7 +28,7 @@ class LessonCompleteTest {
     fun aPhoneShowsTheLessonsEndOnTheWholeScreen() = runDesktopComposeUiTest(width = 400, height = 850) {
         var next = false
         setContent {
-            IdiomikoTheme { ProvideWindowWidth { LessonCompleteDialog("Um presente para a professora", summary, stageCount = 8, onClose = {}, onCourse = {}, onNext = { next = true }) } }
+            IdiomikoTheme { ProvideWindowWidth { LessonCompleteDialog(summary, onClose = {}, onCourse = {}, onNext = { next = true }) } }
         }
         val screen = onNodeWithTag("lesson-complete").getBoundsInRoot()
         assertEquals(400.dp, screen.right - screen.left)
