@@ -169,14 +169,21 @@ private fun StageCircle(stage: ReadingStage, done: Boolean, current: Boolean, ba
 
 /** Checks the stage being worked on, which moves on to the next; always filled green, whether or not the stage is [done]. */
 @Composable
-internal fun CheckStageButton(stage: ReadingStage, done: Boolean, onCheck: () -> Unit, size: Dp = CHECK_SIZE) {
+internal fun CheckStageButton(
+    stage: ReadingStage,
+    done: Boolean,
+    onCheck: () -> Unit,
+    size: Dp = CHECK_SIZE,
+    /** What the stage waits for before it can be checked, said on hover; null when it can be. */
+    waitingFor: String? = null,
+) {
     val label = tr("Check: {0}", stage.title())
     val doneLabel = tr("Done")
-    AppTooltip(label) {
+    AppTooltip(waitingFor ?: label) {
         Box(
-            Modifier.size(size).shadow(AppElevation.raised, AppShapes.circle).clip(AppShapes.circle)
-                .background(AppAccents.green)
-                .clickable(onClick = onCheck)
+            Modifier.size(size).shadow(if (waitingFor == null) AppElevation.raised else 0.dp, AppShapes.circle).clip(AppShapes.circle)
+                .background(if (waitingFor == null) AppAccents.green else MaterialTheme.colorScheme.outlineVariant)
+                .clickable(enabled = waitingFor == null, onClick = onCheck)
                 .testTag("check-stage")
                 .semantics {
                     contentDescription = label

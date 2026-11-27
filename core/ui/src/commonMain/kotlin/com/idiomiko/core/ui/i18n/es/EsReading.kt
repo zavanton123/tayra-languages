@@ -270,6 +270,8 @@ internal val esReading: Map<String, String> = mapOf(
     "Start the quiz" to "Empezar el cuestionario",
     "Review the cards" to "Repasar las tarjetas",
     "Check: {0}" to "Marcar: {0}",
+    "Answer all the flashcards first" to "Responde primero todas las tarjetas",
+    "Finish the quiz first" to "Termina primero el cuestionario",
     "Stage {0} of {1}: {2}" to "Etapa {0} de {1}: {2}",
     "Tell the text again in the original, with only its translation in front of you." to "Vuelve a contar el texto en el idioma original, solo con su traducción delante.",
     "Review today's flashcards without leaving the text." to "Repasa las tarjetas de hoy sin salir del texto.",

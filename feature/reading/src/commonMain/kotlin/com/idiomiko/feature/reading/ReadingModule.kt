@@ -14,10 +14,12 @@ import com.idiomiko.core.ui.navigation.Route
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 import com.idiomiko.core.domain.practice.PracticeSetup
+import com.idiomiko.core.domain.practice.PracticeCompletions
 
 val readingModule = module {
-    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, lessonSummaries = getOrNull(), openLesson = get<CourseService>().let { courses -> { course: String, lesson: String -> courses.openLesson(course, lesson) } }, isNews = get<BookRepository>().let { books -> { id: Long -> books.newsUrl(id) != null } }, wordReadings = getOrNull(), chineseScripts = getOrNull(), anki = getOrNull(), ankiConnection = getOrNull()) }
-    viewModel { (source: PracticeSource, setup: PracticeSetup) -> PracticeViewModel(source, setup, get(), get(), get(), get(), getOrNull(), getOrNull(), getOrNull()) }
+    viewModel { (bookId: Long, page: Int?) -> ReadingViewModel(bookId, page, get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), get(), lessonOf = get<CourseService>()::lessonReading, lessonSummaries = getOrNull(), openLesson = get<CourseService>().let { courses -> { course: String, lesson: String -> courses.openLesson(course, lesson) } }, isNews = get<BookRepository>().let { books -> { id: Long -> books.newsUrl(id) != null } }, wordReadings = getOrNull(), chineseScripts = getOrNull(), anki = getOrNull(), ankiConnection = getOrNull(), practiceCompletions = getOrNull()) }
+    viewModel { (source: PracticeSource, setup: PracticeSetup) -> PracticeViewModel(source, setup, get(), get(), get(), get(), getOrNull(), getOrNull(), getOrNull(), completions = getOrNull()) }
+    single { PracticeCompletions() }
 }
 
 fun NavGraphBuilder.readingGraph(navController: NavController) {

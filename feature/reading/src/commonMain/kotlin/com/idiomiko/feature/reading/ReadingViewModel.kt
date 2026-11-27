@@ -49,6 +49,12 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import com.idiomiko.core.domain.practice.PracticeSource
+import com.idiomiko.core.domain.practice.PracticeCompletions
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
@@ -87,6 +93,8 @@ enum class CursorTarget { WORD, UNKNOWN_WORD, COLORED_WORD, SENTENCE_START }
 data class PopupState(val itemIndex: Int, val popup: TermPopup)
 
 data class ReadingUiState(
+    /** Whether the page's practice has reached its result, which the Quiz stage waits for before it can be checked. */
+    val quizFinished: Boolean = true,
     val loading: Boolean = true,
     /** Set while the text's words go into Anki. */
     val ankiProgress: AnkiProgress? = null,
@@ -197,6 +205,8 @@ class ReadingViewModel(
     private val anki: AnkiExportService? = null,
     /** A running Anki to add the words to directly; only the desktop has one. */
     private val ankiConnection: AnkiConnection? = null,
+    /** The pages whose practice reached its result: a lesson's Quiz stage waits for its page's. None lets it be checked at once. */
+    private val practiceCompletions: PracticeCompletions? = null,
 ) : ViewModel() {
 
     val canExportToAnki: Boolean get() = anki != null
@@ -210,14 +220,22 @@ class ReadingViewModel(
     val localTranslatorName: String? = local?.displayName
 
     private val _state = MutableStateFlow(ReadingUiState())
+
+    /** Whether the page's practice has reached its result, followed as the page changes. */
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private val quizFinished: Flow<Boolean> = practiceCompletions?.let { completions ->
+        _state.map { it.pageNumber }.distinctUntilChanged().flatMapLatest { page -> completions.observe(PracticeSource.Page(bookId, page)) }
+    } ?: flowOf(true)
+
     val state: StateFlow<ReadingUiState> = combine(
         _state,
         settingsRepository.settings,
         local?.lastError ?: MutableStateFlow(null),
         local?.progress ?: MutableStateFlow(null),
-    ) { s, prefs, localError, localProgress ->
+        quizFinished,
+    ) { s, prefs, localError, localProgress, quizDone ->
         val offline = prefs.showTranslations && s.language?.let { prefs.engineFor(it, local) } == TranslationEngine.ARGOS
-        s.copy(settings = prefs, translationError = localError.takeIf { offline }, translationProgress = localProgress.takeIf { offline })
+        s.copy(settings = prefs, translationError = localError.takeIf { offline }, translationProgress = localProgress.takeIf { offline }, quizFinished = quizDone)
     }.stateIn(viewModelScope, SharingStarted.Eagerly, ReadingUiState())
     val events = UiEvents<ReadingEvent>()
 

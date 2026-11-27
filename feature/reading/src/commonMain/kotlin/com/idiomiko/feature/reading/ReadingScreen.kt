@@ -127,7 +127,6 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.idiomiko.core.domain.model.TermStatus
 import com.idiomiko.core.domain.service.LocalTranslationProblem
-import androidx.compose.runtime.collectAsState
 import com.idiomiko.core.domain.settings.HotkeyAction
 import com.idiomiko.core.domain.stats.BookStatsCalculator
 import com.idiomiko.core.ui.audio.rememberCanSpeak
@@ -135,6 +134,8 @@ import com.idiomiko.core.ui.audio.rememberSpeaker
 import com.idiomiko.core.domain.service.SentenceAudioState
 import com.idiomiko.core.domain.service.SentenceAudio
 import org.koin.compose.getKoin
+import androidx.compose.runtime.collectAsState
+import com.idiomiko.core.ui.components.LocalFlashcardsDue
 import org.koin.compose.koinInject
 import com.idiomiko.core.domain.language.LanguageCodes
 import com.idiomiko.core.domain.morphology.Chinese
@@ -973,7 +974,7 @@ private fun ReadingBody(
                         size = fittedStageSize(state.pageStages.size, maxWidth), badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages },
                     )
                 }
-                CheckStageButton(state.stage, state.stage in state.stages, { closeInline(); viewModel.checkStage() }, size = COMPACT_CHECK_SIZE)
+                CheckStageButton(state.stage, state.stage in state.stages, { closeInline(); viewModel.checkStage() }, size = COMPACT_CHECK_SIZE, waitingFor = stageWaitsFor(state))
             }
         }
     } else {
@@ -982,7 +983,7 @@ private fun ReadingBody(
             stages = { stageSize, checkSize ->
                 StageChain(state.pageStages, state.stages, state.stage, selectStage, size = stageSize, badges = mapOf(ReadingStage.READ_ALOUD to unknownWords).filterKeys { it !in state.stages })
                 AppVerticalDivider(Modifier.height(checkSize - AppSpacing.m).padding(horizontal = AppSpacing.l))
-                CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = checkSize)
+                CheckStageButton(state.stage, state.stage in state.stages, viewModel::checkStage, size = checkSize, waitingFor = stageWaitsFor(state))
             },
             onMenu = onMenu,
             playlist = playlistPlayer?.let { { AddToPlaylistButton(state.book?.id ?: 0, CONTROL_SIZE, onCreate = onNewPlaylist, onAdded = onAddedToPlaylist) } },
@@ -1198,7 +1199,21 @@ private fun InlineStageView(
  * it closes the dialog and checks the stage. Null for a dialog of another stage.
  */
 private fun stageCheck(state: ReadingUiState, stage: ReadingStage, onCheck: () -> Unit): (@Composable (onClose: () -> Unit) -> Unit)? =
-    if (state.stage != stage) null else { close -> CheckStageButton(stage, stage in state.stages, onCheck = { close(); onCheck() }) }
+    if (state.stage != stage) null else { close -> CheckStageButton(stage, stage in state.stages, onCheck = { close(); onCheck() }, waitingFor = stageWaitsFor(state)) }
+
+/**
+ * Why [state]'s stage cannot be checked yet, or null when it can: the flashcards wait for every card
+ * due to be answered, the quiz for the page's practice to reach its result. A stage checked already stays checkable.
+ */
+@Composable
+private fun stageWaitsFor(state: ReadingUiState): String? {
+    if (state.stage in state.stages) return null
+    return when (state.stage) {
+        ReadingStage.FLASHCARDS -> tr("Answer all the flashcards first").takeIf { LocalFlashcardsDue.current > 0 }
+        ReadingStage.QUIZ -> tr("Finish the quiz first").takeIf { !state.quizFinished }
+        else -> null
+    }
+}
 
 private val HANDLE_WIDTH = 32.dp
 private val VOCABULARY_BAR_WIDTH = 360.dp

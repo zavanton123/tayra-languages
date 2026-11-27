@@ -184,6 +184,8 @@ class ReadingHoverTest {
         anki: AnkiConnection? = null,
         /** The text of a course's lesson, opened from the summary of the one before. */
         openLesson: suspend (String, String) -> Long? = { _, _ -> null },
+        /** The pages whose practice was finished; without it the quiz can be checked at once. */
+        completions: com.idiomiko.core.domain.practice.PracticeCompletions? = null,
     ): ReadingViewModel {
         if (mainIsDefault) Dispatchers.setMain(Dispatchers.Default)
         val provider = DatabaseProvider(DatabaseDriverFactory(File.createTempFile("idiomiko-hover", ".db").also { it.delete() })).also { this.provider = it }
@@ -266,6 +268,7 @@ class ReadingHoverTest {
                 terms, com.idiomiko.core.data.repository.FlashcardRepositoryImpl(provider), com.idiomiko.core.data.repository.PracticeProgressRepositoryImpl(provider),
             ),
             openLesson = openLesson,
+            practiceCompletions = completions,
             anki = anki?.let { AnkiExportService(terms, languages, offline, object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = null }, sentenceAudio, settings, AnkiPackagerImpl()) },
             ankiConnection = anki,
         )
@@ -892,6 +895,34 @@ class ReadingHoverTest {
         val last = rule.onNodeWithTag("stage-retell").getBoundsInRoot()
         assertTrue(last.right <= check.left, "the last stage ends before the check")
         assertTrue(check.right <= 360.dp, "the check is on the screen")
+    }
+
+    /** The quiz cannot be checked until the page's practice reaches its result, nor the flashcards while cards are due. */
+    @Test
+    fun theQuizAndFlashcardsWaitToBeDone() {
+        val completions = com.idiomiko.core.domain.practice.PracticeCompletions()
+        var due by mutableStateOf(3)
+        val course = Course("pt-mini-0100", "pt", "Em casa", "", CourseLevel.A1, "", listOf(Lesson("pt-mini-0100-01", "A casa nova", "", "O lobo dorme na floresta.")))
+        val vm = runBlocking { reader(mainIsDefault = false, lesson = LessonReading(course, course.lessons[0]), completions = completions) }
+        startKoin { modules(module { single { LocalSpeech(emptyList()) }; single<SettingsRepository> { settings }; single { sentenceAudio } }, vocabularyList) }
+        rule.setContent {
+            CompositionLocalProvider(com.idiomiko.core.ui.components.LocalFlashcardsDue provides due) {
+                ReadingScreen(bookId = 1, initialPage = null, onNavigate = {}, onHome = {}, onCourse = {}, viewModel = vm)
+            }
+        }
+        rule.waitUntil(5_000) { rule.onAllNodesWithTag("stage-chain").fetchSemanticsNodes().isNotEmpty() }
+
+        vm.selectStage(ReadingStage.QUIZ)
+        rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.QUIZ }
+        rule.onNodeWithTag("check-stage").assertIsNotEnabled()
+        completions.finished(com.idiomiko.core.domain.practice.PracticeSource.Page(vm.state.value.book!!.id, vm.state.value.pageNumber))
+        rule.waitUntil(5_000) { runCatching { rule.onNodeWithTag("check-stage").assertIsEnabled() }.isSuccess }
+
+        vm.selectStage(ReadingStage.FLASHCARDS)
+        rule.waitUntil(5_000) { vm.state.value.stage == ReadingStage.FLASHCARDS }
+        rule.onNodeWithTag("check-stage").assertIsNotEnabled()
+        due = 0
+        rule.waitUntil(5_000) { runCatching { rule.onNodeWithTag("check-stage").assertIsEnabled() }.isSuccess }
     }
 
     /** A lesson's questions are a stage of their own: the story gives way to them, each answer blurred, and Done checks it. */

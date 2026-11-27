@@ -270,6 +270,8 @@ internal val ruReading: Map<String, String> = mapOf(
     "Start the quiz" to "Начать квиз",
     "Review the cards" to "Повторить карточки",
     "Check: {0}" to "Отметить: {0}",
+    "Answer all the flashcards first" to "Сначала ответьте на все карточки",
+    "Finish the quiz first" to "Сначала пройдите квиз",
     "Stage {0} of {1}: {2}" to "Этап {0} из {1}: {2}",
     "Tell the text again in the original, with only its translation in front of you." to "Перескажите текст на языке оригинала, глядя только на его перевод.",
     "Review today's flashcards without leaving the text." to "Повторите сегодняшние карточки, не уходя из текста.",

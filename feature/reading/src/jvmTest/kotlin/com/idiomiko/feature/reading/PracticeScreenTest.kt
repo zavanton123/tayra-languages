@@ -175,7 +175,7 @@ class PracticeScreenTest {
             override suspend fun nextPage(nextPage: String, targetLanguage: String) = ExampleSearchResult.EMPTY
         }
         val translator = object : SentenceTranslator { override suspend fun translate(text: String, language: Language): String? = "[$text]" }
-        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, forms, progress, speech, Random(seed))
+        val viewModel = PracticeViewModel(PracticeSource.Page(bookId, 1), setup, PracticeMaterialLoader(books, languages, reading, terms), PracticeExampleStore(kept, examples, WordForms(null, terms), terms, languages, settings, translator), kept, translator, forms, progress, speech, random = Random(seed))
         setContent {
             IdiomikoTheme {
                 ProvideWindowWidth {

@@ -270,6 +270,8 @@ internal val elReading: Map<String, String> = mapOf(
     "Start the quiz" to "Έναρξη κουίζ",
     "Review the cards" to "Επανάληψη καρτών",
     "Check: {0}" to "Ολοκλήρωση: {0}",
+    "Answer all the flashcards first" to "Απαντήστε πρώτα σε όλες τις κάρτες",
+    "Finish the quiz first" to "Ολοκληρώστε πρώτα το κουίζ",
     "Stage {0} of {1}: {2}" to "Στάδιο {0} από {1}: {2}",
     "Tell the text again in the original, with only its translation in front of you." to "Πείτε ξανά το κείμενο στη γλώσσα του πρωτοτύπου, έχοντας μπροστά σας μόνο τη μετάφρασή του.",
     "Review today's flashcards without leaving the text." to "Επαναλάβετε τις σημερινές κάρτες χωρίς να φύγετε από το κείμενο.",

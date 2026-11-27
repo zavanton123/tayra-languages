@@ -11,6 +11,7 @@ import com.idiomiko.core.domain.practice.PracticeChecker
 import com.idiomiko.core.domain.practice.PracticeExample
 import com.idiomiko.core.domain.practice.PracticeMaterial
 import com.idiomiko.core.domain.practice.PracticeMaterialLoader
+import com.idiomiko.core.domain.practice.PracticeCompletions
 import com.idiomiko.core.domain.practice.PracticeSource
 import com.idiomiko.core.domain.practice.PracticeWord
 import com.idiomiko.core.domain.practice.TypedResult
@@ -127,6 +128,8 @@ class PracticeViewModel(
     private val progress: PracticeProgressRepository? = null,
     /** Hears answers said aloud; without it, or for a language it cannot hear, they are typed. */
     private val speech: SpeechRecognition? = null,
+    /** Told when a page's practice reaches its result, so its lesson's Quiz stage can be checked. */
+    private val completions: PracticeCompletions? = null,
     private val random: Random = Random.Default,
 ) : ViewModel() {
 
@@ -439,7 +442,10 @@ class PracticeViewModel(
         val target = if (s.index + 1 < s.exercises.size) s.index + 1 else s.openElsewhere
         when {
             target != null -> goTo(target)
-            s.answered -> _state.update { it.copy(finished = true, result = null, chosen = null, typed = "", retry = null) }
+            s.answered -> {
+                _state.update { it.copy(finished = true, result = null, chosen = null, typed = "", retry = null) }
+                (source as? PracticeSource.Page)?.let { completions?.finished(it) }
+            }
         }
     }
 
