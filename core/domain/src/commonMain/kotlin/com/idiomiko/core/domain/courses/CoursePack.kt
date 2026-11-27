@@ -467,6 +467,14 @@ object CoursePacks {
             url = "$BASE_URL/courses-vi.sqlite.gzip",
             downloadSize = 640_967,
         ),
+        CoursePack(
+            id = "courses-zu",
+            languageCode = "zu",
+            title = "Zulu",
+            summary = "23 courses, 230 lessons: graded mini stories from A1 to B2, built on the 2,248 most common words.",
+            url = "$BASE_URL/courses-zu.sqlite.gzip",
+            downloadSize = 224_978,
+        ),
     )
 
     fun forLanguage(code: String): List<CoursePack> = all.filter { it.languageCode == code }
