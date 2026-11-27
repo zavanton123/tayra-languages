@@ -266,8 +266,11 @@ def _verb_forms(s, vowel, negative=False):
     return out
 
 
-def derived_verbs(verb):
-    """The passive, reflexive, reciprocal and causative verbs regularly made from a verb (oʻqilmoq, yozilmoq, koʻrishmoq, oʻqitmoq)."""
+def derived_verbs(verb, words=()):
+    """
+    The passive, reflexive, reciprocal and causative verbs regularly made from a verb (oʻqilmoq, yozilmoq, koʻrishmoq, oʻqitmoq);
+    the passive of a causative that is one of [words] is that word's (chaqirilmoq of chaqirmoq, not of chaqmoq).
+    """
     if not verb.endswith("moq") or len(verb) < 5:
         return set()
     s = verb[:-3]
@@ -275,7 +278,7 @@ def derived_verbs(verb):
         made = [s + "l", s + "n", s + "sh", s + "t", s + "tir"]
     else:
         made = [s + ("in" if s.endswith("l") else "il"), s + "in", s + "ish", s + "tir", s + "dir", s + "giz", s + "ir", s + "iz"]
-    made += [m + "il" for m in made if m.endswith(("tir", "dir", "t", "giz", "iz", "ir"))]
+    made += [m + "il" for m in made if m.endswith(("tir", "dir", "t", "giz", "iz", "ir")) and m + "moq" not in words]
     return {m + "moq" for m in made if m + "moq" != verb}
 
 
@@ -284,9 +287,13 @@ COPULA = "edi edim eding edik edingiz edilar ediyu ediku edimi emish emishlar em
 
 
 def passive_of(verb, pos):
-    """The verb [verb] (cited in -moq) is the passive or reflexive of, made with -il, -in, -l or -n, if a verb of [pos], else None."""
+    """
+    The verb [verb] (cited in -moq) is the passive, reflexive or reciprocal of, made with -il, -in, -l, -n, -ish or -sh, if a verb
+    of [pos], else None.
+    """
     s = verb[:-3]
-    for endings, base, after_vowel in ((("il", "in"), s[:-2], False), (("l", "n"), s[:-1], True), (("yil", "yin"), s[:-3], True)):
+    for endings, base, after_vowel in ((("il", "in"), s[:-2], False), (("l", "n"), s[:-1], True), (("yil", "yin"), s[:-3], True),
+                                       (("ish",), s[:-3], False), (("sh",), s[:-2], True)):
         if s.endswith(endings) and len(base) > 1 and "verb" in pos.get(base + "moq", ()) and ends_in_vowel(base) == after_vowel:
             return base + "moq"
     return None
@@ -540,12 +547,15 @@ def load(db, pos, lemmas, common, lexicon_path):
         if "verb" in kinds and word.endswith("moq"):
             # Its passive, causative and other verbs no source has are counted for it, but make no word its form (kurash
             # "struggle" is no form of kuramoq "to shovel" for being spelled as kura-sh-'s stem).
-            for derived in derived_verbs(word):
+            for derived in derived_verbs(word, pos):
                 if derived in pos:
                     continue
                 made = verb_forms(derived) | {derived}
                 for form in made:
                     add(form, word, made)
+                    if seen is None or form in seen:
+                        for c in with_clitics(form):
+                            add(c, word, (c,))
     for word, base in folded.items():
         for form in verb_forms(word) | {word}:
             add(form, base)
