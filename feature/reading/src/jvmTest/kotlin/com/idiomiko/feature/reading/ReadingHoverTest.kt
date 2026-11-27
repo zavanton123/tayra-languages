@@ -458,7 +458,7 @@ class ReadingHoverTest {
         assertTrue(rule.onAllNodesWithContentDescription("Page 1 of 1").fetchSemanticsNodes().isEmpty(), "a single page has no redundant page count")
         assertTrue(rule.onAllNodesWithContentDescription("Previous page").fetchSemanticsNodes().isEmpty(), "a single page has no previous-page control")
         assertTrue(rule.onAllNodesWithContentDescription("Next page").fetchSemanticsNodes().isEmpty(), "a single page has no next-page control")
-        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "the settings are the player's, not the title bar's")
+        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "the settings are in the title bar, once")
         assertTrue(rule.onAllNodesWithContentDescription("Appearance").fetchSemanticsNodes().isEmpty(), "the title bar has no appearance button")
         rule.onNodeWithContentDescription("Back").assertExists()
     }
@@ -477,7 +477,7 @@ class ReadingHoverTest {
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isNotEmpty() }
         rule.onNodeWithContentDescription("Previous sentence").assertIsNotEnabled()
         rule.onNodeWithContentDescription("Next sentence").assertIsEnabled()
-        for (description in listOf("Reader settings", "Previous sentence", "Read the page", "Next sentence", "Auto-pause off")) {
+        for (description in listOf("Previous sentence", "Read the page", "Next sentence", "Auto-pause off")) {
             val control = rule.onNodeWithContentDescription(description).getBoundsInRoot()
             assertTrue(control.right - control.left >= 48.dp, "$description is at least 48dp wide")
             assertTrue(control.bottom - control.top >= 48.dp, "$description is at least 48dp tall")
@@ -515,7 +515,7 @@ class ReadingHoverTest {
         }
 
         rule.waitUntil(5_000) { rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().isNotEmpty() }
-        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "the player keeps only the settings")
+        assertEquals(1, rule.onAllNodesWithContentDescription("Reader settings").fetchSemanticsNodes().size, "the settings stay in the title bar with no player")
         assertTrue(rule.onAllNodesWithTag("mobile-auto-pause").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Read the page").fetchSemanticsNodes().isEmpty())
         assertTrue(rule.onAllNodesWithContentDescription("Previous sentence").fetchSemanticsNodes().isEmpty())

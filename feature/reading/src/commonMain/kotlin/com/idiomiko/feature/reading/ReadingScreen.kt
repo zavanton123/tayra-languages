@@ -410,7 +410,7 @@ fun ReadingScreen(
         ) {
             val compact = LocalWindowWidth.current.isCompact
             when {
-                compact -> ReadingHeader(state, onHome = leave)
+                compact -> ReadingHeader(state, onHome = leave, onSettings = openPane)
                 else -> {
                     AppTopBar(title = "Idiomiko", onNavigate = onNavigate, section = when {
                         state.lesson != null -> NavSection.COURSES
@@ -573,7 +573,7 @@ private fun SheetHandle() {
 }
 
 @Composable
-private fun ReadingHeader(state: ReadingUiState, onHome: () -> Unit) {
+private fun ReadingHeader(state: ReadingUiState, onHome: () -> Unit, onSettings: () -> Unit) {
     BarSurface(raised = true) {
         Row(
             Modifier.fillMaxWidth().windowInsetsPadding(WindowInsets.safeDrawing.only(WindowInsetsSides.Top)).padding(horizontal = AppSpacing.s, vertical = AppSpacing.xs),
@@ -605,6 +605,7 @@ private fun ReadingHeader(state: ReadingUiState, onHome: () -> Unit) {
                 )
             }
             SyncingIndicator()
+            AppIconButton(Icons.Default.Settings, contentDescription = tr("Reader settings"), onClick = onSettings, modifier = Modifier.testTag("reader-settings"))
         }
     }
 }
@@ -936,13 +937,12 @@ private fun ReadingBody(
     EdgeScrollbar(scrollState)
     }
     if (compact) {
-        // A phone's player sits over its stages; with reading aloud off it keeps only the settings.
+        // A phone's player sits over its stages, while reading aloud is on; the settings are in the bar at the top.
         val sentenceControls = state.settings.showSentencePlay && pageSentences.isNotEmpty()
         Column(Modifier.fillMaxWidth()) {
             // Nothing to read aloud over the words, the quiz or the cards, nor in the stages where the learner speaks.
-            if (shown == null && state.stage !in SPOKEN_STAGES) MobileReaderActions(
-                onSettings = onMenu,
-                playback = if (!sentenceControls) null else MobilePlayback(
+            if (shown == null && state.stage !in SPOKEN_STAGES && sentenceControls) MobileReaderActions(
+                playback = MobilePlayback(
                     onPreviousSentence = continuous::previous,
                     previousEnabled = canSpeak && continuous.currentIndex != null && continuous.currentIndex!! > 0,
                     onPlay = continuous::toggle,
@@ -1059,9 +1059,9 @@ private class MobilePlayback(
     val onAutoPause: () -> Unit,
 )
 
-/** Phone controls stay in one place above the safe bottom while the page scrolls behind them; without [playback], only the settings. */
+/** Phone controls stay in one place above the safe bottom while the page scrolls behind them. */
 @Composable
-private fun MobileReaderActions(onSettings: () -> Unit, playback: MobilePlayback?, modifier: Modifier = Modifier) {
+private fun MobileReaderActions(playback: MobilePlayback, modifier: Modifier = Modifier) {
     val colors = MaterialTheme.colorScheme
     Row(
         modifier.fillMaxWidth().padding(horizontal = AppSpacing.l).padding(top = AppSpacing.s)
@@ -1070,10 +1070,6 @@ private fun MobileReaderActions(onSettings: () -> Unit, playback: MobilePlayback
             .height(MOBILE_ACTION_BAR_HEIGHT).padding(horizontal = AppSpacing.s),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        MobileActionSlot {
-            MobileReaderButton(Icons.Default.Settings, tr("Reader settings"), onSettings)
-        }
-        if (playback == null) return@Row
         MobileActionSlot {
             MobileReaderButton(AppIcons.SkipPrevious, tr("Previous sentence"), playback.onPreviousSentence, enabled = playback.previousEnabled)
         }
