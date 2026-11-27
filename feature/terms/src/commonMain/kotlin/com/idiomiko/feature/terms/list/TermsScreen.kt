@@ -203,7 +203,7 @@ fun TermsScreen(
         TopOnPageTurn(state.page, list, if (dialog) 1 else 2)
         ScrollList(Modifier.padding(padding).fillMaxSize(), state = list, contentPadding = PaddingValues(horizontal = gutter, vertical = AppSpacing.l)) {
             if (dialog) {
-                item { DialogHeader(title.orEmpty(), subtitle, exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onClose = { onBack?.invoke() }) }
+                item { DialogHeader(title.orEmpty(), subtitle, onClose = { onBack?.invoke() }) }
             } else {
                 item { PageHeader(exporting = state.exporting, sending = state.sendingToAnki, onExport = viewModel::exportAnki, onNew = { onNavigate(Route.NewTerm) }) }
                 item { VocabularyOverview(state.totalTerms, known = state.knownCount, learning = state.learningCount, Modifier.padding(bottom = AppSpacing.xl)) }
@@ -321,12 +321,11 @@ internal fun PageHeader(exporting: String?, sending: Boolean, onExport: () -> Un
     }
 }
 
-/** The header of the list shown over another screen: its own title, the Anki export of what it lists, and a way to close. */
+/** The header of the list shown over another screen: its own title and a way to close. */
 @Composable
-private fun DialogHeader(title: String, subtitle: String?, exporting: String?, sending: Boolean, onExport: () -> Unit, onClose: () -> Unit) {
+private fun DialogHeader(title: String, subtitle: String?, onClose: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(bottom = AppSpacing.xl)) {
         ScreenHeader(title, subtitle) {
-            SecondaryButton(ankiLabel(exporting, sending), onClick = onExport, modifier = Modifier.testTag("export-to-anki"), icon = AppIcons.Download, enabled = exporting == null)
             AppIconButton(Icons.Default.Close, tr("Close"), onClick = onClose, modifier = Modifier.testTag("close-terms-dialog"), style = IconButtonStyle.Tonal)
         }
     }
