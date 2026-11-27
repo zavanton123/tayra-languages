@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.material3.BottomSheetDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
@@ -58,7 +57,7 @@ fun AppBottomSheet(
     modifier: Modifier = Modifier,
     skipPartiallyExpanded: Boolean = true,
     /** How much the page behind is dimmed; a light veil leaves it readable, for settings seen taking effect. */
-    scrimColor: Color = BottomSheetDefaults.ScrimColor,
+    scrimColor: Color = MaterialTheme.colorScheme.scrim.copy(alpha = SHEET_SCRIM),
     content: @Composable ColumnScope.() -> Unit,
 ) {
     ModalBottomSheet(
@@ -71,6 +70,9 @@ fun AppBottomSheet(
         content = content,
     )
 }
+
+/** Material's 0.32 left the page behind a sheet too bright to tell it from the sheet at a glance. */
+private const val SHEET_SCRIM = 0.5f
 
 /**
  * A dialog whose content is its own: a card of [maxWidth] at most on the large containers' shape, or on a phone the
