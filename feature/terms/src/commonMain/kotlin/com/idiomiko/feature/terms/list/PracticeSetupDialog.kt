@@ -376,16 +376,16 @@ internal fun PracticeSetupContent(
                 canStart -> tr("Questions on sentences from elsewhere only")
                 else -> tr("None of the ticked questions fits these words")
             }
-            val buttons: @Composable () -> Unit = {
-                PrimaryButton(tr("Start"), onClick = { onStart(setup) }, modifier = Modifier.testTag("start-practice"), enabled = canStart, size = ButtonSize.Large)
+            val buttons: @Composable (Modifier) -> Unit = { m ->
+                PrimaryButton(tr("Start"), onClick = { onStart(setup) }, modifier = m.testTag("start-practice"), enabled = canStart, size = ButtonSize.Large)
             }
-            // A phone keeps its foot to the button alone; the summary would take a line of its own.
+            // A phone keeps its foot to a full-width button alone; the summary would take a line of its own.
             if (compact) {
-                Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m), horizontalArrangement = Arrangement.End, verticalAlignment = Alignment.CenterVertically) { buttons() }
+                buttons(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xl, vertical = AppSpacing.m))
             } else {
                 Row(Modifier.fillMaxWidth().padding(horizontal = AppSpacing.xxxl, vertical = AppSpacing.l), verticalAlignment = Alignment.CenterVertically) {
                     Text(summary, Modifier.weight(1f).padding(end = AppSpacing.m).testTag("practice-summary"), style = AppText.emphasis)
-                    buttons()
+                    buttons(Modifier)
                 }
             }
         }
