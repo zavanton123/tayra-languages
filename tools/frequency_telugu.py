@@ -686,6 +686,26 @@ def unclitic(form):
     return {b for b in bases if b != form}
 
 
+def clitic_bases(form, kinds):
+    """
+    The forms [form] may be without a clitic as the list reads it (unclitic): ఈ only after i (అదీ), ఊ only after u or -ం
+    (ఇల్లూ, సమయమూ), a stem in a (సీతే) only when it is a word, and never a verb's citation form (పూనే is "Pune", not పూను's).
+    So a name or English word ending in a long vowel is no clitic form of a stem (జానీ, నిక్కీ, ఎరీ, మేళా).
+    """
+    bases = set()
+    for base in unclitic(form):
+        if form[-1] == "\u0c40" and not base.endswith("\u0c3f"):
+            continue
+        if form[-1] == "\u0c42" and not base.endswith(("\u0c41", ANUSVARA)):
+            continue
+        if base[-1] in CONSONANTS and base not in kinds:
+            continue
+        if base in kinds and kinds[base] <= {"verb"}:
+            continue
+        bases.add(base)
+    return bases
+
+
 def word_forms(word, ks):
     """The forms the rules give [word] of kinds [ks]: a verb's, a noun's or number's, an adjective's, and TELUGU_WORDS'."""
     forms = set()
@@ -803,7 +823,7 @@ def build(found, size, label, weights=None):
             return set()
         heads = plain_targets(form)
         if not heads and form not in names:
-            for base in unclitic(form):
+            for base in clitic_bases(form, kinds):
                 heads = heads | plain_targets(base)
         return heads
 
